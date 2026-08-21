@@ -1,0 +1,9 @@
+- **Transforming our world: the 2030 Agenda for Sustainable Development** — United Nations Department of Economic and Social Affairs, Resolução A/RES/70/1: <https://sdgs.un.org/2030agenda>.
+- **Transformando Nosso Mundo: A Agenda 2030 para o Desenvolvimento Sustentável** — ONU Brasil, tradução institucional da A/RES/70/1: <https://brasil.un.org/sites/default/files/2020-09/agenda2030-pt-br.pdf>.
+- **The 17 Goals** — United Nations Department of Economic and Social Affairs: <https://sdgs.un.org/goals>.
+- **SDG Indicators** — United Nations Statistics Division, marco global de indicadores e A/RES/71/313: <https://unstats.un.org/sdgs/indicators/indicators-list/>.
+- **Mandate and Functions of the HLPF** — High-level Political Forum on Sustainable Development: <https://hlpf.un.org/mandate-and-functions>.
+- **Voluntary National Reviews** — High-level Political Forum on Sustainable Development: <https://hlpf.un.org/vnrs>.
+- **Addis Ababa Action Agenda** — United Nations, Financing for Development: <https://www.un.org/esa/ffd/wp-content/uploads/2015/08/AAAA_Outcome.pdf>.
+- **Caderno 034_TRF6_CG6_01** — Cebraspe, TRF da 6ª Região, aplicação em 19 de janeiro de 2025: <https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_CG6_01.PDF> e gabarito definitivo <https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/GAB_DEFINITIVO_034_TRF6_CG6_01.PDF>.
+- **Caderno 018_STJ_CB4_01** — Cebraspe, Superior Tribunal de Justiça, aplicação em 1º de dezembro de 2024: <https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/018_STJ_CB4_01.PDF> e gabarito definitivo <https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/GAB_DEFINITIVO_018_STJ_CB4_01.PDF>.

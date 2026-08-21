@@ -217,8 +217,3 @@ O aprofundamento jurídico sobre proteção de dados pertence ao assunto especí
 | SIG × software | SIG inclui pessoas, processos, dados, tecnologia e controles |
 | operacional × gerencial × estratégico | transações × acompanhamento/decisão recorrente × cenários/decisão de longo alcance |
 | indicador × decisão | indicador apoia; não substitui julgamento |
-
-## Referências
-
-- [A gestão de pessoas como um recurso estratégico](https://revista.enap.gov.br/index.php/RSP/article/view/204), Revista do Serviço Público/ENAP, acesso em 17 jul. 2026.
-- [Prática 4110: realizar planejamento da gestão de pessoas](https://tcu.gov.br/govorganizacional/001.005.009.025.htm), Tribunal de Contas da União, acesso em 17 jul. 2026.

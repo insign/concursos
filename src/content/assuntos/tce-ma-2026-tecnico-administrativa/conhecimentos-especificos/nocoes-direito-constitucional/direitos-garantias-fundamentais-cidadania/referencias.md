@@ -1,0 +1,9 @@
+- [Constituição da República Federativa do Brasil de 1988 — texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — Presidência da República, texto vigente no corte de 6/7/2026; acesso em 17/8/2026.
+- [Constituição Federal de 1988 — versão compilada e anotada](https://www.tse.jus.br/legislacao/codigo-eleitoral/constituicao-federal/constituicao-da-republica-federativa-do-brasil) — Tribunal Superior Eleitoral, arts. 5º a 17; acesso em 17/8/2026.
+- [Emenda Constitucional nº 115/2022](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc115.htm) — proteção de dados pessoais; acesso em 17/8/2026.
+- [Emenda Constitucional nº 117/2022](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc117.htm) — participação política das mulheres e art. 17, §§ 7º e 8º; acesso em 17/8/2026.
+- [Emenda Constitucional nº 131/2023](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc131.htm) — perda da nacionalidade e art. 12, §§ 4º e 5º; acesso em 17/8/2026.
+- [Emenda Constitucional nº 133/2024](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc133.htm) — art. 17, § 9º e recursos para candidaturas de pessoas pretas e pardas; acesso em 17/8/2026.
+- [Emenda Constitucional nº 139/2026](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc139.htm) — última emenda anterior ao edital, sem alteração do Título II; acesso em 17/8/2026.
+- [Súmula Vinculante 25 — prisão civil do depositário infiel](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1268) — Supremo Tribunal Federal; acesso em 17/8/2026.
+- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026, consolidado com o Edital nº 2, de 29/7/2026; acesso em 17/8/2026.

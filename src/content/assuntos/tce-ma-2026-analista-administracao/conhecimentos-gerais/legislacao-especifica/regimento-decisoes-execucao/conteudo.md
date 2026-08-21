@@ -279,17 +279,3 @@ Em uma questão prática, percorra esta sequência:
 | TCE executa judicialmente todos os créditos | legitimidade depende da natureza do crédito e da jurisprudência |
 | <abbr title="Ministério Público de Contas">MPC</abbr> é sempre legitimado judicial | STF não admite essa generalização |
 | recurso e execução são a mesma coisa | recurso impugna; execução cumpre ou cobra |
-
-## 10. Referências
-
-- [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), Presidência da República, arts. 71 e 75.
-- [Constituição do Estado do Maranhão](https://legislacao.al.ma.leg.br/resources/arq/constituicaoma.pdf), Assembleia Legislativa do Maranhão.
-- [Lei nº 8.258/2005 — publicação legislativa](https://www.al.ma.leg.br/sitealema/wp-content/uploads/diarios/DIARIO17-05-2005.pdf), Assembleia Legislativa do Maranhão.
-- [Legislação do TCE/MA](https://publicacao.apps.tcema.tc.br/), Tribunal de Contas do Estado do Maranhão — Regimento Interno, Resolução Administrativa nº 001/2000 e alterações vigentes.
-- [Competências do TCE/MA](https://www.tcema.tc.br/transparencia_novo/index.php/institucional/competencias), Tribunal de Contas do Estado do Maranhão.
-- [Recursos ressarcidos ao erário — débitos e multas](https://www.tcema.tc.br/transparencia_novo/index.php/servicos-digitais/debitos-multas), Tribunal de Contas do Estado do Maranhão.
-- [TCE imputa débito de R$ 200 mil a ex-prefeito de Jatobá](https://www.tcema.tc.br/index.php/noticias/3314-tce-imputa-debito-de-r-200-mil-a-ex-prefeito-de-jatoba), Tribunal de Contas do Estado do Maranhão, 5 fev. 2026.
-- [TCE condena ex-prefeitos de Arari ao pagamento de débito e multa](https://www.tcema.tc.br/index.php/noticias/3366-tce-condena-ex-prefeitos-de-arari-ao-pagamento-de-debito-de-r-196-045-53-e-multa-de-r-19-604-55), Tribunal de Contas do Estado do Maranhão, 10 abr. 2026.
-- [Certidão de trânsito em julgado](https://www.tcema.tc.br/index.php/servicos/certidoes/certidao-de-transito-em-julgado), Tribunal de Contas do Estado do Maranhão.
-- [Tema 642 da repercussão geral](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5068260&numeroProcesso=1003433&classeProcesso=RE&numeroTema=642), Supremo Tribunal Federal.
-- [Tema 1287 da repercussão geral](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=6699346&numeroProcesso=1436197&classeProcesso=RE&numeroTema=1287), Supremo Tribunal Federal.

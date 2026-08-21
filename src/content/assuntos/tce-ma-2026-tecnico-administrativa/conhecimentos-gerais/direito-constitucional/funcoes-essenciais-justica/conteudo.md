@@ -640,11 +640,3 @@ Ao receber uma questão, faça três perguntas:
 - atuar junto ao Tribunal de Contas com garantias do art. 130 → **Ministério Público de Contas**.
 
 ---
-
-## Referências
-
-- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026, consolidado com a retificação de 29/7/2026; consulta em 17/8/2026.
-- [Constituição da República Federativa do Brasil — texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — Presidência da República, arts. 127 a 135; texto consultado em 17/8/2026, com corte de prova em 6/7/2026.
-- [Emenda Constitucional nº 139/2026](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc139.htm) — Presidência da República; alteração dos arts. 31 e 75, vigente antes do corte; consulta em 17/8/2026.
-- [Constituição e o Supremo — art. 130](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=130&abrirBase=CF) — Supremo Tribunal Federal; Ministério Público junto aos Tribunais de Contas, incluindo ADIs 4.427, 3.804, 328 e 3.315; consulta em 17/8/2026.
-- [Constituição e o Supremo — art. 134](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=134&abrirBase=CF) — Supremo Tribunal Federal; perfil, autonomia e prerrogativas da Defensoria Pública, incluindo ADIs 6.864, 4.636, 5.217 e 3.569; consulta em 17/8/2026.

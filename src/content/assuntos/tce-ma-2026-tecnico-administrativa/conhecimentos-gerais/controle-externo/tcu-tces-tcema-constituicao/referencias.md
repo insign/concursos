@@ -1,0 +1,8 @@
+- BRASIL. Presidência da República. [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Arts. 31, 70 a 75 e 130.
+- BRASIL. Presidência da República. [Emenda Constitucional nº 139, de 5 de maio de 2026](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc139.htm). Alteração dos arts. 31, § 1º, e 75; publicação em 6 de maio de 2026.
+- BRASIL. Presidência da República. [Emenda Constitucional nº 122, de 17 de maio de 2022](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc122.htm). Atualização do limite etário constitucional.
+- SUPREMO TRIBUNAL FEDERAL. [Súmula 653](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2233). Repartição 4/3 na composição dos tribunais de contas estaduais.
+- SUPREMO TRIBUNAL FEDERAL. [Constituição e Supremo — art. 75](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=75&abrirBase=CF). Inclui a ADI 4.124, julgada em 16 de dezembro de 2025 e publicada em 26 de janeiro de 2026.
+- ASSEMBLEIA LEGISLATIVA DO ESTADO DO MARANHÃO. [Constituição do Estado do Maranhão](https://legislacao.al.ma.leg.br/ged/constituicao-estadual/detalhe.html). Texto consolidado.
+- ASSEMBLEIA LEGISLATIVA DO ESTADO DO MARANHÃO. [PEC que alterou critérios para escolha de membros do TCE/MA](https://www.al.ma.leg.br/sitealema/assembleia-aprova-pec-que-altera-criterios-para-escolha-de-membros-do-tce-ma/). Registro institucional da EC estadual nº 96/2024.
+- CEBRASPE. [Edital nº 1 — TCE/MA, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Itens 10 e 11 de Controle Externo do Cargo 16.

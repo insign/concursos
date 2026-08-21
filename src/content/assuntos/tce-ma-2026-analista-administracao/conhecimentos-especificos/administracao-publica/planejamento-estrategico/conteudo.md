@@ -425,16 +425,3 @@ Este tema não substitui o estudo aprofundado de:
 - governança pública.
 
 Esses tópicos aparecem apenas quando necessários à compreensão da estratégia.
-
-## Referências
-
-- BRASIL. **Instrução Normativa SEGES/ME nº 24, de 18 de março de 2020**. Disponível em: https://www.gov.br/funarte/pt-br/acesso-a-informacao-lai/institucional/governanca-institucional/gestao-estrategica/plano-estrategico-funarte/legislacao/instrucao-normativa-ndeg-24-de-18-de-marco-de-2020.pdf/view.
-- BRASIL. **Decreto nº 9.203, de 22 de novembro de 2017**. Política de governança da administração pública federal.
-- BRASIL. **Lei nº 14.802, de 10 de janeiro de 2024**. Plano Plurianual da União 2024–2027.
-- MINISTÉRIO DAS CIDADES. **Plano Estratégico Institucional**. https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/governanca/planejamento-estrategico/plano-estrategico-institucional-mcid.
-- MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL. **Planejamento Estratégico Integrado**. https://www.gov.br/mdr/pt-br/acesso-a-informacao/institucional/planejamento-estrategico-institucional.
-- CADE. **Planejamento Estratégico 2025–2028**. https://www.gov.br/cade/pt-br/acesso-a-informacao/institucional/planejamento-estrategico.
-- MINTZBERG, Henry; AHLSTRAND, Bruce; LAMPEL, Joseph. **Safári de estratégia**.
-- KAPLAN, Robert S.; NORTON, David P. **The Balanced Scorecard**.
-- PORTER, Michael E. **Competitive Strategy**.
-- ANSOFF, H. Igor. **Corporate Strategy**.

@@ -1,0 +1,5 @@
+- CEBRASPE. [Edital do concurso público do TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Edital nº 1, de 6 de julho de 2026.
+- IMPA; OBMEP. [Razões e Proporções](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=57&tipo=7).
+- IMPA; OBMEP. [Porcentagem e Juros](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=26&tipo=7).
+- IMPA; OBMEP. [Sistemas de Equações do Primeiro Grau](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=24&tipo=7).
+- IMPA; OBMEP. [Sistemas de Medidas e Medidas de Tempo](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=43).

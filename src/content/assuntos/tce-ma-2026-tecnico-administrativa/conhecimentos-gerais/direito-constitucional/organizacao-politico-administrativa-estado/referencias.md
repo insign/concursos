@@ -1,0 +1,4 @@
+- [Constituição da República Federativa do Brasil de 1988 — texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — Presidência da República, arts. 18 a 33; corte de 6/7/2026; acesso em 17/8/2026.
+- [Emenda Constitucional nº 139/2026](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc139.htm) — alteração do art. 31, § 1º, e do art. 75; vigente antes do edital; acesso em 17/8/2026.
+- [Lei Complementar nº 230/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp230.htm) — desmembramento de parte de município para incorporação a município limítrofe; vigente antes do edital; acesso em 17/8/2026.
+- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026, consolidado com o Edital nº 2, de 29/7/2026; acesso em 17/8/2026.

@@ -140,19 +140,3 @@ Essas designações **não criam nem substituem** a categoria SNUC. Uma APA cont
 5. Diferencie **APA estadual**, **APA federal** e **PARNA**.
 6. Não confunda reconhecimento **Ramsar/UNESCO** com categoria SNUC.
 7. Em divergências de área, priorize o ato jurídico e não transforme diferenças cartográficas em decoreba.
-
-## Referências
-
-- BRASIL. [Lei nº 9.985, de 18 de julho de 2000](https://www.planalto.gov.br/ccivil_03/leis/l9985.htm). Institui o SNUC. Regra vigente no corte do edital.
-- BRASIL. [Decreto nº 4.340, de 22 de agosto de 2002](https://www.planalto.gov.br/ccivil_03/decreto/2002/d4340.htm). Regulamenta o SNUC.
-- IMESC. [Unidades de Conservação Estaduais](https://imesc.ma.gov.br/wp-content/uploads/2025/02/Unidades-de-Conservacao-Estaduais.pdf). Inventário estadual publicado em 2025.
-- SEMA-MA. [Unidades de Conservação](https://www.sema.ma.gov.br/unidades-de-conservacao). Gestão e documentos das unidades estaduais.
-- ICMBio. [APA Delta do Parnaíba](https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/apa-delta-do-parnaiba).
-- BRASIL. [Decreto nº 86.060/1981](https://www.planalto.gov.br/ccivil_03/atos/decretos/1981/d86060.html). Cria o Parque Nacional dos Lençóis Maranhenses.
-- ICMBio. [Parque Nacional dos Lençóis Maranhenses](https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-dos-lencois-maranhenses).
-- BRASIL. [Decreto de criação da Chapada das Mesas](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/dnn/dnn10718.htm).
-- ICMBio. [Parque Nacional da Chapada das Mesas](https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-chapada-das-mesas).
-- BRASIL. [Decreto de criação das Nascentes do Rio Parnaíba](https://www.planalto.gov.br/ccivil_03/dnn/2002/dnn9609.htm) e [Lei nº 13.090/2015](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/L13090.htm).
-- ICMBio. [Parque Nacional das Nascentes do Rio Parnaíba](https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-das-nascentes-do-rio-parnaiba).
-- RAMSAR. [Reentrâncias Maranhenses](https://rsis.ramsar.org/ris/640) e [Baixada Maranhense](https://rsis.ramsar.org/ris/1020).
-- UNESCO. [Lençóis Maranhenses National Park](https://whc.unesco.org/en/list/1611). Inscrição em 2024.

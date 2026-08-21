@@ -185,12 +185,3 @@ O art. 44 da LAI acrescentou o art. 126-A à Lei nº 8.112/1990: o servidor fede
 8. Sigilo não pode ocultar violação de direitos humanos nem inviabilizar tutela de direitos fundamentais.
 9. No regime da Lei nº 8.112/1990, as condutas do art. 32 são punidas, no mínimo, com suspensão.
 10. No art. 33, advertência, rescisão e suspensão podem acumular com multa; a defesa é de 10 dias.
-
-## Referências
-
-- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm), Presidência da República, texto compilado, acesso em 16 jul. 2026.
-- [Lei nº 12.527, de 18 de novembro de 2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm), Presidência da República, texto consolidado, acesso em 16 jul. 2026.
-- [Decreto nº 7.724, de 16 de maio de 2012](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/decreto/d7724.htm), Presidência da República, regulamento do Executivo federal, acesso em 16 jul. 2026.
-- [Lei nº 15.141, de 2 de junho de 2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15141.htm), Presidência da República, inclusão dos arts. 8º-A e 8º-B, acesso em 16 jul. 2026.
-- [Informações obrigatórias de transparência ativa](https://www.gov.br/acessoainformacao/pt-br/assuntos/transparencia-ativa/informacoes-obrigatorias/informacoes-obrigatorias), Controladoria-Geral da União, acesso em 16 jul. 2026.
-- [Recursos à CGU](https://www.gov.br/acessoainformacao/pt-br/assuntos/recursos/cgu-recursos), Controladoria-Geral da União, acesso em 16 jul. 2026.

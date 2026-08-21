@@ -328,11 +328,3 @@ O Judiciário pode examinar violação constitucional ou lesão a direito em ato
 13. Testemunha tem dever de verdade, mas conserva o direito contra autoincriminação.
 14. Relatório de CPI não é sentença.
 15. Direito à criação da CPI não implica direito automático à prorrogação.
-
-## Referências
-
-- [Constituição da República Federativa do Brasil de 1988](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html) — arts. 2º, 49 a 52 e 58; texto constitucional atualizado; consulta em 11 ago. 2026.
-- [Lei nº 1.579, de 18 de março de 1952](https://www.planalto.gov.br/ccivil_03/leis/l1579.htm) — disciplina as comissões parlamentares de inquérito; consulta em 11 ago. 2026.
-- [Regimento Comum do Congresso Nacional — Resolução nº 1/1970-CN](https://www2.camara.leg.br/legin/fed/rescon/1970-1979/resolucao-1-11-agosto-1970-497934-republicacaoatualizada-171822-pl.html) — art. 21, criação de CPMI; consulta em 11 ago. 2026.
-- [Constituição e o Supremo — art. 58](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF) — jurisprudência temática sobre CPIs; consulta em 11 ago. 2026.
-- [Plenário do STF rejeita prorrogação da CPMI do INSS](https://noticias.stf.jus.br/postsnoticias/plenario-do-stf-rejeita-prorrogacao-da-cpmi-do-inss/) — MS 40.799, julgamento em 26 mar. 2026; consulta em 11 ago. 2026.

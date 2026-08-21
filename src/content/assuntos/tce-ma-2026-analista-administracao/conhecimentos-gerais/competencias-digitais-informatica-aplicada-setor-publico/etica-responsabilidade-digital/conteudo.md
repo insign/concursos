@@ -308,15 +308,3 @@ Empresa contratada fornece sistema que classifica pedidos. O órgão não pode r
 14. **eMAG, WCAG e NBR 17225 não são a própria lei.**
 15. **Ferramenta automática não garante acessibilidade da jornada.**
 16. **Página inicial acessível não compensa etapa obrigatória inacessível.**
-
-## Referências
-
-- [Edital nº 1 — TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf) — Cebraspe; conteúdo programático do item 4.6.
-- [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) — Presidência da República.
-- [Lei nº 13.146/2015 — Lei Brasileira de Inclusão](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm) — especialmente art. 63.
-- [Lei nº 14.129/2021 — Governo Digital](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm) — especialmente arts. 2º, 3º e 14.
-- [Lei nº 15.263/2025 — Política Nacional de Linguagem Simples](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15263.htm) — vigente antes da publicação do edital.
-- [Acessibilidade Digital](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/acessibilidade-digital) — Governo Digital; referência à ABNT NBR 17225 e recursos de acessibilidade.
-- [Modelo de Acessibilidade em Governo Eletrônico — eMAG](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/modelo-de-acessibilidade) — versão 3.1.
-- [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) — W3C Recommendation.
-- [Guias e cartilhas de enfrentamento à desinformação](https://www.gov.br/secom/pt-br/assuntos/comite-de-enfrentamento-da-desinformacao/guias-e-cartilhas) — Secom; atualizado em 3 jul. 2026.

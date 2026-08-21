@@ -258,12 +258,3 @@ O fluxo é didático, não rígido. Contratos continuados podem ter medições, 
 | controvérsia autoriza reter tudo | a parcela incontroversa deve ser liberada no prazo |
 | antecipação é livre quando há desconto | exige hipótese legal, justificativa prévia e previsão expressa |
 | regra federal operacional vincula automaticamente o TCE-MA | é preciso verificar competência e incorporação pelo ente ou órgão |
-
-## Referências
-
-- BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021, texto consolidado](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Arts. 137 a 146. Aplicada segundo o corte legislativo de 6 jul. 2026; texto consolidado consultado em 16 jul. 2026 para conferência editorial.
-- BRASIL. Presidência da República. [Lei nº 4.320, de 17 de março de 1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm). Art. 63. Aplicada segundo o corte legislativo de 6 jul. 2026; texto consolidado consultado em 16 jul. 2026 para conferência editorial.
-- BRASIL. Tribunal de Contas da União. [Licitações e Contratos: 6.4 Extinção do contrato](https://licitacoesecontratos.tcu.gov.br/6-4-extincao-do-contrato/). Orientação interpretativa consultada em 16 jul. 2026.
-- BRASIL. Tribunal de Contas da União. [Licitações e Contratos: 6.1.6 Gestão do contrato e recebimento definitivo](https://licitacoesecontratos.tcu.gov.br/6-1-6-gestao-do-contrato-e-recebimento-definitivo-2/). Orientação federal consultada em 16 jul. 2026.
-- BRASIL. Tribunal de Contas da União. [Licitações e Contratos: 6.1.7 Pagamento](https://licitacoesecontratos.tcu.gov.br/6-1-7-pagamento/). Orientação federal consultada em 16 jul. 2026.
-- BRASIL. Ministério da Economia. [Instrução Normativa SEGES/ME nº 77, de 4 de novembro de 2022](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-77-de-4-de-novembro-de-2022). Disciplina federal de ordem cronológica e pagamento; referência operacional, sem aplicação automática ao TCE-MA. Consultada em 16 jul. 2026.

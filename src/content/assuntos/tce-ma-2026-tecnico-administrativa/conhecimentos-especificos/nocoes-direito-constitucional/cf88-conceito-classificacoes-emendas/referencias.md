@@ -1,0 +1,5 @@
+- [Constituição da República Federativa do Brasil de 1988 — texto compilado (Planalto)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — texto constitucional vigente e art. 60; acesso em 17/8/2026.
+- [Emenda Constitucional nº 139, de 5 de maio de 2026 (Planalto)](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc139.htm) — publicada em 6/5/2026; acesso em 17/8/2026.
+- [Quadro de Emendas Constitucionais (Planalto)](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/quadro_emc.htm) — sequência oficial das emendas; acesso em 17/8/2026.
+- [Constituição Federal — publicação institucional (Câmara dos Deputados)](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988) — texto e materiais institucionais; acesso em 17/8/2026.
+- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — edital e retificações do concurso; acesso em 17/8/2026.

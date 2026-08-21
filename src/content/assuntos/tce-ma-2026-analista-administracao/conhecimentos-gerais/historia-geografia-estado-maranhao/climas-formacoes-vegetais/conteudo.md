@@ -201,15 +201,3 @@ Para resolver questões:
 4. se a questão usar classificação, identifique se é **IBGE ou Köppen**;
 5. na vegetação, diferencie **floresta, Cerrado e cocais** e rejeite a ideia de homogeneidade estadual;
 6. desconfie de absolutos como “todo”, “sempre”, “apenas” e “ausência total”.
-
-## Referências
-
-- CEBRASPE. [Edital nº 1 do TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático publicado em 6 jul. 2026. Acesso em: 4 ago. 2026.
-- INMET. [Normais Climatológicas do Brasil 1991-2020](https://portal.inmet.gov.br/normais) e [metodologia](https://portal.inmet.gov.br/uploads/normais/NORMAISCLIMATOLOGICAS.pdf). Período de 1º jan. 1991 a 31 dez. 2020. Acesso em: 4 ago. 2026.
-- INMET. [Precipitação mensal e anual](https://portal.inmet.gov.br/uploads/normais/Normal-Climatologica-PREC.xlsx), [temperatura média](https://portal.inmet.gov.br/uploads/normais/Normal-Climatologica-TMEDSECA.xlsx), [máxima](https://portal.inmet.gov.br/uploads/normais/Normal-Climatologica-TMAX.xlsx) e [mínima](https://portal.inmet.gov.br/uploads/normais/Normal-Climatologica-TMIN.xlsx). Planilhas das Normais 1991-2020. Acesso em: 4 ago. 2026.
-- INMET. [Zona de Convergência Intertropical](https://portal.inmet.gov.br/noticias/zona-de-convergencia-intertropical-zcit). Atualizado em 6 mar. 2023. Acesso em: 4 ago. 2026.
-- IBGE. [Mapa de Clima do Brasil](https://geoftp.ibge.gov.br/produtos_educacionais/atlas_educacionais/atlas_geografico_escolar/mapas_do_brasil/mapas_nacionais/informacoes_ambientais/brasil_clima.pdf). Escala 1:5.000.000; atualização de 2002. Acesso em: 4 ago. 2026.
-- CORRÊA, Wellington Cruz; CARVALHO, Marcus Willame Lopes; MENDES, Telmo José. [Atualização da classificação climática e balanço hídrico climatológico no estado do Maranhão](https://doi.org/10.55761/abclima.v32i19.16727). Revista Brasileira de Climatologia, v. 32, 2023. Acesso em: 4 ago. 2026.
-- IBGE. [Biomas e Sistema Costeiro-Marinho](https://www.ibge.gov.br/geociencias/cartas-e-mapas/informacoes-ambientais/15842-biomas.html). Acesso em: 4 ago. 2026.
-- IBGE. [Mapa de Vegetação do Maranhão](https://geoftp.ibge.gov.br/informacoes_ambientais/vegetacao/mapas/unidades_da_federacao/ma_vegetacao.pdf). 12ª ed., 2011, escala 1:1.400.000. Acesso em: 4 ago. 2026.
-- CEBRASPE. [Prova de Professor de Geografia da Prefeitura de São Luís — caderno 287_PREFSAOLUIS_007_01](https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/287_PREFSAOLUIS_007_01.pdf) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_007_01.pdf). Aplicação em 5 fev. 2017; questões 38 e 39. Acesso em: 4 ago. 2026.

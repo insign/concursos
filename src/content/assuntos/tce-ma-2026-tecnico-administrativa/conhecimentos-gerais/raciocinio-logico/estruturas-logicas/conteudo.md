@@ -325,9 +325,3 @@ Antes de marcar:
 - [ ] mantive todas as regras em cada caso?
 - [ ] validei também as condições negativas?
 - [ ] minha demonstração corresponde a “pode”, “deve” ou “não pode”?
-
-## Referências
-
-- CEBRASPE. **Edital nº 1 – TCE/MA, de 6 de julho de 2026**. Conteúdo programático de Raciocínio Lógico do Cargo 16.
-- CEBRASPE. **Edital nº 1 – Câmara dos Deputados, 2025 (nível superior)**. Descrição de estrutura lógica de relações arbitrárias entre pessoas, lugares, objetos ou eventos fictícios e dedução a partir das relações fornecidas.
-- UNIVERSITY OF CALIFORNIA, BERKELEY. **CS 188 — Constraint Satisfaction Problems**. Apoio conceitual para variáveis, domínios, restrições e propagação, utilizado apenas como método de organização do raciocínio.

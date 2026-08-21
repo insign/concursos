@@ -507,10 +507,3 @@ Diante de uma situação-problema, siga a sequência:
 8. **escale o que ultrapassar a competência**;
 9. **verifique a providência**;
 10. **preserve o histórico**.
-
-## Referências
-
-- BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Especialmente arts. 6º, XXIII, 92, 115, 117, 118, 119 e 123. Corte de prova: 6 jul. 2026; conferência editorial em 16 ago. 2026.
-- BRASIL. Tribunal de Contas da União. [Modelo de gestão do contrato](https://licitacoesecontratos.tcu.gov.br/4-3-6-modelo-de-gestao-do-contrato/). *Licitações e Contratos: Orientações e Jurisprudência do TCU*. Consulta em 16 ago. 2026.
-- BRASIL. Tribunal de Contas da União. [Critérios de medição e de pagamento](https://licitacoesecontratos.tcu.gov.br/4-3-7-criterios-de-medicao-e-de-pagamento-2/). *Licitações e Contratos: Orientações e Jurisprudência do TCU*. Consulta em 16 ago. 2026.
-- CEBRASPE. Tribunal de Contas do Estado do Maranhão. **Edital nº 1 — TCE/MA, de 6 de julho de 2026**, versão consolidada com as retificações disponíveis. Cargo 16, conhecimentos específicos, Gestão de Contratos. Consulta em 16 ago. 2026.

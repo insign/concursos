@@ -606,18 +606,3 @@ Documentos críticos estavam no Meu Drive pessoal de um servidor que deixou o ó
 8. Separe backup, snapshot, sincronização, replicação e RAID.
 9. Em nuvem, confira estado local, permissão, retenção e propagação.
 10. Rejeite absolutos como “sempre”, “ilimitado”, “qualquer link” e “sincronização já é backup”.
-
-## Referências
-
-- CEBRASPE. [Edital nº 1 do concurso TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Itens 3.1 e 3.3; publicado em 6 jul. 2026; acesso em 27 jul. 2026.
-- MICROSOFT. [attrib](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/attrib). Atributo de arquivo; acesso em 27 jul. 2026.
-- MICROSOFT. [Economizar espaço com Arquivos Sob Demanda](https://support.microsoft.com/pt-br/office/economizar-espa%C3%A7o-em-disco-com-os-arquivos-do-onedrive-sob-demanda-62e8d748-7877-420f-b600-24b56562aa70). Estados locais do OneDrive; acesso em 27 jul. 2026.
-- MICROSOFT. [Restaurar seu OneDrive](https://support.microsoft.com/pt-br/office/restaurar-seu-onedrive-48cc6a72-1aca-412c-a670-e6f5b563c1c6). Recuperação integral; acesso em 27 jul. 2026.
-- MICROSOFT. [Excluir ou restaurar arquivos da lixeira do OneDrive](https://support.microsoft.com/pt-br/office/excluir-ou-restaurar-arquivos-da-lixeira-do-onedrive-949ada80-0026-4db3-a953-c99083e6a84f). Lixeira e retenção; acesso em 27 jul. 2026.
-- GOOGLE. [Alternar entre streaming e espelhamento](https://support.google.com/drive/answer/13401938?hl=pt-BR). Drive para computador; acesso em 27 jul. 2026.
-- GOOGLE. [Compartilhar arquivos no Google Drive](https://support.google.com/drive/answer/2494822?hl=pt-BR). Papéis e herança; acesso em 27 jul. 2026.
-- GOOGLE. [Drives compartilhados](https://support.google.com/a/users/answer/9310249?hl=pt-BR). Papéis e continuidade organizacional; acesso em 27 jul. 2026.
-- CISA. [StopRansomware Guide](https://www.cisa.gov/stopransomware/ransomware-guide). Backups offline, testes e imagens confiáveis; acesso em 27 jul. 2026.
-- CERT.br. [Cartilha de Segurança para Internet](https://cartilha.cert.br/). Backups e resposta a incidentes; acesso em 27 jul. 2026.
-- CEBRASPE. [Prova PC/RO — Datiloscopista Policial](https://cdn.cebraspe.org.br/concursos/pc_ro_22/arquivos/732_PCRO_001_01.PDF). Questão 40; aplicada em 2022; acesso em 27 jul. 2026.
-- CEBRASPE. [Prova SEDUC/Recife — Conhecimentos Básicos](https://cdn.cebraspe.org.br/concursos/seduc_recife_23_professor/arquivos/829_SEDUC_RECIFE_23_CB1_01.PDF). Item 45; aplicada em 2023; acesso em 27 jul. 2026.

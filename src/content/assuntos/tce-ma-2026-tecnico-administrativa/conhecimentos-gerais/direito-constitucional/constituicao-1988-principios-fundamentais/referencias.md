@@ -1,0 +1,5 @@
+- [Constituição da República Federativa do Brasil de 1988 — texto compilado (Planalto)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm)
+- [Emenda Constitucional nº 139/2026 (Planalto)](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc139.htm)
+- [Constituição e o Supremo — Preâmbulo e jurisprudência constitucional (STF)](https://portal.stf.jus.br/constituicao-supremo/)
+- [ADI 2.076 — Supremo Tribunal Federal](https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=ADI&numProcesso=2076)
+- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26)

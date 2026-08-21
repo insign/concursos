@@ -522,13 +522,3 @@ CARGO EXTINTO/DESNECESSÁRIO → DISPONIBILIDADE → APROVEITAMENTO
 17. Reintegração, recondução e disponibilidade são institutos diferentes.
 
 ---
-
-## Referências
-
-- [Constituição da República Federativa do Brasil de 1988 — texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — arts. 37 a 41 e art. 169; acesso em 17/8/2026.
-- [Emenda Constitucional nº 138/2025](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc138.htm) — acumulação remunerada de cargo de professor; acesso em 17/8/2026.
-- [Emenda Constitucional nº 135/2024](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc135.htm) — redação do art. 37, § 11; acesso em 17/8/2026.
-- [Emenda Constitucional nº 103/2019](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm) — reforma previdenciária e alterações nos arts. 37 a 40; acesso em 17/8/2026.
-- [Lei Complementar nº 152/2015](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp152.htm) — aposentadoria compulsória aos 75 anos nas hipóteses legais; acesso em 17/8/2026.
-- [STF — Constituição e Supremo, art. 39 / ADI 2.135](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=39&abrirBase=CF) — julgamento definitivo sobre a retirada da obrigatoriedade do regime jurídico único; acesso em 17/8/2026.
-- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026, consolidado com o Edital nº 2, de 29/7/2026; acesso em 17/8/2026.

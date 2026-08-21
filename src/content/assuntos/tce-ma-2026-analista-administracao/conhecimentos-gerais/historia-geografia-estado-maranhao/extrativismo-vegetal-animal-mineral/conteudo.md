@@ -217,18 +217,3 @@ Padrão espacial ajuda a explicar a atividade, mas não substitui medição ofic
 15. Produção de gás ≠ geração de energia.
 
 Antes de aceitar uma afirmação, identifique **origem + fonte + variável + unidade + período + território + etapa da cadeia**.
-
-## Referências
-
-- CEBRASPE. [Edital nº 1 do TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático. Acesso em 4 ago. 2026.
-- IBGE. [Produção da Extração Vegetal e da Silvicultura](https://www.ibge.gov.br/estatisticas/economicas/agricultura-e-pecuaria/9105-producao-da-extracao-vegetal-e-da-silvicultura.html). Metodologia e edição 2024. Acesso em 4 ago. 2026.
-- IBGE/SIDRA. [Extração vegetal do Maranhão em 2024](https://apisidra.ibge.gov.br/values/t/289/n3/21/v/all/p/2024/c193/all?formato=json). Tabela 289. Acesso em 4 ago. 2026.
-- IBGE/SIDRA. [Silvicultura do Maranhão em 2024](https://apisidra.ibge.gov.br/values/t/291/n3/21/v/all/p/2024/c194/all?formato=json). Tabela 291. Acesso em 4 ago. 2026.
-- Ministério da Pesca e Aquicultura. [Retomada Estatística Pesqueira](https://www.gov.br/mpa/pt-br/assuntos/cadastro-registro-e-monitoramento/estatistica-pesqueira/retomada-estatistica-pesqueira). Metodologia e publicações 2023-2024. Acesso em 4 ago. 2026.
-- Ministério da Pesca e Aquicultura. [Boletim da Estatística Pesqueira e Aquícola 2023-2024 — volume II](https://www.gov.br/mpa/pt-br/assuntos/cadastro-registro-e-monitoramento/estatistica-pesqueira/retomada-estatistica-pesqueira/boletim_estatistico_2023e2024_vol2_v002.pdf). Estimativas estaduais. Acesso em 4 ago. 2026.
-- Agência Nacional de Mineração. [Produção Mineral](https://www.gov.br/anm/pt-br/assuntos/economia-mineral/producao-mineral). Bases oficiais. Acesso em 4 ago. 2026.
-- Agência Nacional de Mineração. [Anuário Mineral Brasileiro 2025 — ano-base 2024](https://www.gov.br/anm/pt-br/assuntos/economia-mineral/publicacoes/anuario-mineral/anuario-mineral-brasileiro/amb_metalicos__rev_2.pdf). Acesso em 4 ago. 2026.
-- Agência Nacional de Mineração. [Riqueza mineral do Maranhão](https://www.gov.br/anm/pt-br/assuntos/noticias/nova-sede-da-anm-amplia-atuacao-regional-e-valoriza-riqueza-mineral-do-maranhao). Panorama estadual. Acesso em 4 ago. 2026.
-- Agência Nacional do Petróleo, Gás Natural e Biocombustíveis. [Anuário Estatístico Brasileiro do Petróleo, Gás Natural e Biocombustíveis 2026](https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/anuario-estatistico-brasileiro-do-petroleo-gas-natural-e-biocombustiveis-2026). Dados consolidados 2016-2025. Acesso em 4 ago. 2026.
-- Agência Nacional do Petróleo, Gás Natural e Biocombustíveis. [Produção de petróleo e gás natural por estado e localização](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/producao-de-petroleo-e-gas-natural-por-estado-e-localizacao). Base oficial. Acesso em 4 ago. 2026.
-- CEBRASPE. [Padrão definitivo da questão discursiva de Geografia da Prefeitura de São Luís](https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/PREFSAOLUIS287007A06E0475_PadraoRespostaDefinitivo_7Q2.pdf). Referência de estilo de cobrança, aplicação em 5 fev. 2017. Acesso em 4 ago. 2026.

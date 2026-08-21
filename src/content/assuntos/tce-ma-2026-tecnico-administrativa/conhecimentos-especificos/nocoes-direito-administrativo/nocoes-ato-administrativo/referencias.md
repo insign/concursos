@@ -1,0 +1,6 @@
+- BRASIL. [Constituição da República Federativa do Brasil de 1988 — art. 37](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Presidência da República. Texto vigente no corte do edital; acesso em 18 ago. 2026.
+- BRASIL. [Lei nº 4.717, de 29 de junho de 1965 — Ação Popular](https://www.planalto.gov.br/ccivil_03/leis/l4717.htm). Presidência da República. Especialmente art. 2º e parágrafo único; texto vigente no corte do edital; acesso em 18 ago. 2026.
+- BRASIL. [Lei nº 9.784, de 29 de janeiro de 1999 — Processo Administrativo Federal](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm). Presidência da República. Especialmente arts. 11 a 15, 22 e 50; texto vigente no corte do edital; acesso em 18 ago. 2026.
+- DI PIETRO, Maria Sylvia Zanella. *Direito Administrativo*. Referência doutrinária para conceito, atributos e classificações.
+- CARVALHO FILHO, José dos Santos. *Manual de Direito Administrativo*. Referência doutrinária para elementos, atributos, classificações e espécies.
+- MAZZA, Alexandre. *Manual de Direito Administrativo*. Referência didática complementar para distinções de prova.

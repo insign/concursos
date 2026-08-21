@@ -621,11 +621,3 @@ restrição própria: até 100 anos
 - no conflito aparente, procure **acesso parcial + minimização + fundamentação**.
 
 ---
-
-## Referências
-
-- [Lei nº 12.527/2011 — Lei de Acesso à Informação, texto consolidado](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm) — Presidência da República; legislação vigente consultada em 17/8/2026, com corte de prova em 6/7/2026.
-- [Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais, texto compilado](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm) — Presidência da República; legislação vigente consultada em 17/8/2026, com corte de prova em 6/7/2026.
-- [Lei nº 15.352/2026 — estrutura da Agência Nacional de Proteção de Dados](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15352.htm) — Presidência da República; alteração já vigente no corte do edital.
-- [Guia orientativo: Tratamento de Dados Pessoais pelo Poder Público](https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-poder-publico-anpd-versao-final.pdf) — Agência Nacional de Proteção de Dados; usado como apoio interpretativo, sem substituir a literalidade das leis cobradas.
-- [Guia para o Cumprimento da LAI](https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/a7b195f8-da9a-411c-b9f3-a0ef8360c754/content) — Controladoria-Geral da União; usado como apoio operacional para acesso parcial e informações pessoais.

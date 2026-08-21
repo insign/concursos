@@ -530,20 +530,3 @@ Prepare o documento principal, conecte a lista, insira campos, filtre destinatá
 6. **Formato:** DOCX, DOC, ODT, RTF, TXT ou PDF.
 7. **Dependências:** permissões, armazenamento, idioma de revisão, vínculo entre seções e compatibilidade.
 8. **Absolutos:** desconfie de “sempre”, “qualquer versão”, “remove definitivamente” e “funciona igual na Web”.
-
-## Referências
-
-- CEBRASPE. [Edital nº 1 do concurso TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático de Competências Digitais e Informática Aplicada ao Setor Público, item 2.2. Publicado em 6 jul. 2026; acesso em 27 jul. 2026.
-- MICROSOFT. [Tarefas básicas no Word](https://support.microsoft.com/pt-br/office/tarefas-b%C3%A1sicas-no-word-87b3243c-b0bf-4a29-82aa-09a681999fdc). Criação, edição, salvamento, revisão e impressão; acesso em 27 jul. 2026.
-- MICROSOFT. [Atalhos de teclado do Word](https://support.microsoft.com/pt-br/office/atalhos-de-teclado-do-word-95ef89dd-7142-4b50-afb2-f762f663ceb2). Plataformas, comandos e ressalvas de teclado; acesso em 27 jul. 2026.
-- MICROSOFT. [Controlar a formatação ao colar texto](https://support.microsoft.com/pt-br/office/controlar-a-formata%C3%A7%C3%A3o-ao-colar-texto-20156a41-520e-48a6-8680-fb9ce15bf3d6). Opções de colagem e conflitos de estilo; acesso em 27 jul. 2026.
-- MICROSOFT. [Diferenças entre ODT e DOCX](https://support.microsoft.com/pt-br/office/diferen%C3%A7as-entre-o-formato-de-texto-opendocument-odt-e-o-formato-do-word-docx-d9d51a92-56d1-4794-8b68-5efb57aebfdc). Compatibilidade de revisão, campos, tabelas e proteção; acesso em 27 jul. 2026.
-- MICROSOFT. [Comparação entre Word para a Web e desktop](https://support.microsoft.com/pt-br/office/compara%C3%A7%C3%A3o-de-recursos-word-word-para-a-web-vs-desktop-3e863ce3-e82c-4211-8f97-5b33c36c55f8). Diferenças de recursos; acesso em 27 jul. 2026.
-- MICROSOFT. [Adicionar uma borda a uma página](https://support.microsoft.com/pt-br/word/training/add-a-border-to-a-page). Borda por seção e alcance; acesso em 27 jul. 2026.
-- MICROSOFT. [Inserir um sumário](https://support.microsoft.com/pt-br/office/inserir-um-sum%C3%A1rio-882e8564-0edb-435e-84b5-1d8552ccf0c0). Estilos de título e atualização; acesso em 27 jul. 2026.
-- MICROSOFT. [Usar mala direta para personalizar cartas](https://support.microsoft.com/pt-br/office/usar-mala-direta-para-personalizar-cartas-d7686bb1-3077-4af3-926b-8c825e9505a3). Documento principal, fonte de dados e mesclagem; acesso em 27 jul. 2026.
-- MICROSOFT. [Controlar Alterações no Word](https://support.microsoft.com/pt-br/office/controlar-altera%C3%A7%C3%B5es-no-word-197ba630-0f5f-4a8e-9a77-3712475e806a). Registro, exibição, aceitação, rejeição e impressão de revisões; acesso em 27 jul. 2026.
-- MICROSOFT. [Verificador de Acessibilidade](https://support.microsoft.com/pt-br/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f). Erros, avisos e revisão humana; acesso em 27 jul. 2026.
-- FGV CONHECIMENTO. [Prova e gabaritos do concurso TJ-AP 2024](https://conhecimento.fgv.br/concursos/tjap23). Questões sobre borda da página, Pincel de Formatação e colagem; acesso em 27 jul. 2026.
-- FGV CONHECIMENTO. [Concurso do Ministério Público do Estado do Rio de Janeiro 2025](https://conhecimento.fgv.br/concursos/mprj2025). Provas e gabaritos definitivos de Técnico e Analista da área administrativa; acesso em 27 jul. 2026.
-- FGV CONHECIMENTO. [Concurso da Assembleia Legislativa do Tocantins 2024](https://conhecimento.fgv.br/concursos/aleto/1). Prova e gabarito definitivo de Técnico Legislativo — Assistência Administrativa; acesso em 27 jul. 2026.

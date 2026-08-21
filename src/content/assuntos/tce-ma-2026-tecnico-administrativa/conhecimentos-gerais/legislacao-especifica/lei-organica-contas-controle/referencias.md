@@ -1,0 +1,6 @@
+- Tribunal de Contas do Estado do Maranhão. [Lei nº 8.258/2005 consolidada](https://app.tcema.tc.br/publicacao/#/documentohtml/8200?compilado=true).
+- Tribunal de Contas do Estado do Maranhão. [Competências institucionais](https://www.tcema.tc.br/transparencia_novo/index.php/institucional/competencias).
+- Tribunal de Contas do Estado do Maranhão. [Resolução TCE/MA nº 324/2020](https://app.tcema.tc.br/diario/publicacao/pdf/8025).
+- Tribunal de Contas do Estado do Maranhão. [TCE adotará novo modelo de fiscalização](https://www.tcema.tc.br/index.php/noticias/1775-tce-adotara-novo-modelo-de-fiscalizacao).
+- Supremo Tribunal Federal. [Constituição e jurisprudência — art. 71](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=71&abrirBase=CF). Tese da ADPF 982.
+- Supremo Tribunal Federal. [Tema 445 — RE 636.553](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4043019&numeroProcesso=636553&numeroTema=445).

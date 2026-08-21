@@ -716,15 +716,3 @@ TRT ≥ 7
 Depois associe origem e nomeação.
 
 ---
-
-## Referências
-
-- [Cebraspe — concurso TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026, consolidado com a retificação do Edital nº 2, de 29/7/2026; consulta em 17/8/2026.
-- [Constituição da República Federativa do Brasil — texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) — Presidência da República, arts. 92 a 126; texto consultado em 17/8/2026, com corte de prova em 6/7/2026.
-- [Quadro de Emendas Constitucionais](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/quadro_emc.htm) — Presidência da República; confirmação de que a EC nº 139/2026 já integrava o texto constitucional no corte; consulta em 17/8/2026.
-- [Emenda Constitucional nº 134/2024](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc134.htm) — Presidência da República; alteração do art. 96; consulta em 17/8/2026.
-- [Emenda Constitucional nº 136/2025](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc136.htm) — Presidência da República; alterações do regime constitucional de precatórios; consulta em 17/8/2026.
-- [Constituição e o Supremo — art. 92 e jurisprudência correlata](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=92&abrirBase=CF) — Supremo Tribunal Federal; consulta em 17/8/2026.
-- [ADI 3.367 — ficha processual](https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=ADI&numProcesso=3367) — Supremo Tribunal Federal; constitucionalidade e posição institucional do CNJ; consulta em 17/8/2026.
-- [ADI 4.638 — ficha processual](https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=ADI&numProcesso=4638) — Supremo Tribunal Federal; disciplina correcional do CNJ; consulta em 17/8/2026.
-- [STF — competência concorrente do CNJ para investigar magistrados](https://noticias.stf.jus.br/postsnoticias/supremo-reconhece-competencia-concorrente-do-cnj-para-investigar-magistrados/) — Supremo Tribunal Federal, julgamento cautelar da ADI 4.638; consulta em 17/8/2026.

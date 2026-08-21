@@ -574,20 +574,3 @@ Evento confirmado expõe logins e senhas em larga escala.
 11. Em LAI, forneça a parte pública e proteja o excesso.
 12. Em incidente, diferencie evento, confirmação, risco relevante, comunicação e registro.
 13. Rejeite absolutos como “sempre consentimento”, “todo dado é sigiloso” e “eliminação obrigatória”.
-
-## Referências
-
-- CEBRASPE. [Edital nº 1 do concurso TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Item 3.2; publicado em 6 jul. 2026; acesso em 27 jul. 2026.
-- BRASIL. [Lei nº 13.709, de 14 de agosto de 2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm). Lei Geral de Proteção de Dados Pessoais, texto vigente; acesso em 27 jul. 2026.
-- BRASIL. [Lei nº 15.352, de 25 de fevereiro de 2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15352.htm). Estrutura e denominação da ANPD; acesso em 27 jul. 2026.
-- ANPD. [Enunciado sobre dados de crianças e adolescentes](https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-divulga-enunciado-sobre-o-tratamento-de-dados-pessoais-de-criancas-e-adolescentes). Bases legais e melhor interesse; acesso em 27 jul. 2026.
-- ANPD. [Guia sobre legítimo interesse](https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia_orientativo_hipoteses_legais_tratamento_de_dados_pessoais_legitimo_interesse). Teste de balanceamento; acesso em 27 jul. 2026.
-- ANPD. [Resolução CD/ANPD nº 15/2024](https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd/resolucao-cd-anpd-no-15-de-24-de-abril-de-2024). Comunicação de incidentes; acesso em 27 jul. 2026.
-- ANPD. [Comunicação de incidente de segurança](https://www.gov.br/anpd/pt-br/canais_atendimento/agente-de-tratamento/comunicado-de-incidente-de-seguranca-cis). Prazo e procedimento; acesso em 27 jul. 2026.
-- ANPD. [Resolução CD/ANPD nº 18/2024](https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd/resolucao-cd-anpd-no-18-de-16-de-julho-de-2024). Atuação do encarregado; acesso em 27 jul. 2026.
-- ANPD. [Resolução CD/ANPD nº 19/2024](https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd/resolucao-cd-anpd-no-19-de-23-de-agosto-de-2024). Transferência internacional; acesso em 27 jul. 2026.
-- FGV. [Prova DATAPREV — Segurança Cibernética e Proteção de Dados](https://conhecimento.fgv.br/sites/default/files/concursos/ati-seguranca-cibernetica-e-protecao-de-dados-cns005-tipo-01.pdf). Questão 50; aplicada em 17 nov. 2024; acesso em 27 jul. 2026.
-- FGV. [Prova DATAPREV — Arquitetura, Engenharia e Sustentação](https://conhecimento.fgv.br/sites/default/files/concursos/ati-arquitetura-engenharia-e-sustentacao-tecnologica-cns002-tipo-01.pdf). Questões 58 e 61; aplicada em 17 nov. 2024; acesso em 27 jul. 2026.
-- FGV. [Gabarito definitivo DATAPREV 2024](https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf). Tipos 1; acesso em 27 jul. 2026.
-- FGV. [Prova ALETO — Procurador Jurídico](https://conhecimento.fgv.br/sites/default/files/concursos/procurador-juridicocns100-tipo-1.pdf). Questão 88; aplicada em 14 abr. 2024; acesso em 27 jul. 2026.
-- FGV. [Gabarito definitivo ALETO — Procurador](https://conhecimento.fgv.br/sites/default/files/concursos/aletoprocurador2024_gabarito_definitivo_das1ca64.pdf). Tipo 1; acesso em 27 jul. 2026.

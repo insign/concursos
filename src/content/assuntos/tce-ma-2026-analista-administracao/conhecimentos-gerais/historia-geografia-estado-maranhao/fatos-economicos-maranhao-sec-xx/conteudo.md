@@ -239,16 +239,3 @@ A transformação econômica foi profunda, mas **não substituiu instantaneament
 10. Alumar = implantação em 1980 e inauguração em 1984; não pertence à Vale.
 11. CVRD foi privatizada em 1997, depois de EFC e Ponta da Madeira já operarem.
 12. CEMAR foi privatizada em 2000; BEM ficou para 2004, fora do recorte.
-
-## 16. Referências
-
-- ALCOA. [Alumar celebra 40 anos de implantação em São Luís](https://www.alcoa.com/brasil/pt/news/releases?id=2020%2F07%2Faberta-para-novos-desafios-a-alumar-celebra-40-anos-de-implantacao-em-sao-luis&year=y2020). Histórico institucional. Acesso em: 14 ago. 2026.
-- BANCO NACIONAL DE DESENVOLVIMENTO ECONÔMICO E SOCIAL. [Histórico da desestatização](https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/projetos-encerrados/Historico). Acesso em: 14 ago. 2026.
-- BRASIL. [Lei nº 3.692, de 15 de dezembro de 1959](https://www.planalto.gov.br/ccivil_03/leis/1950-1969/l3692.htm). Institui a SUDENE. Acesso em: 14 ago. 2026.
-- BRASIL. Câmara dos Deputados. [Decreto-Lei nº 1.813, de 24 de novembro de 1980](https://www2.camara.leg.br/legin/fed/declei/1980-1987/decreto-lei-1813-24-novembro-1980-368300-publicacaooriginal-1-pe.html). Programa Grande Carajás. Acesso em: 14 ago. 2026.
-- BRASIL. CEBRASPE. [Prova Prefeitura de São Luís — Professor de Geografia](https://cdn.cebraspe.org.br/concursos/pref_saoluis_16/arquivos/287_prefsaoluis_007_01.pdf) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_007_01.pdf). Questões 62 e 69. 2017. Acesso em: 14 ago. 2026.
-- EMPRESA MARANHENSE DE ADMINISTRAÇÃO PORTUÁRIA. [Histórico do Porto do Itaqui](https://www.portodoitaqui.com.br/public/porto-do-itaqui/historico). Acesso em: 14 ago. 2026.
-- IBGE. [Sinopse preliminar do Censo Demográfico de 1991: Maranhão](https://www.ibge.gov.br/biblioteca/visualizacao/periodicos/309/cd_1991_v6_n7_ma.pdf). Caracterização do espaço geográfico. Acesso em: 14 ago. 2026.
-- MESQUITA, Benjamin Alvino de. [A crise da economia do babaçu no Maranhão (1920-1980)](https://periodicoseletronicos.ufma.br/index.php/rppublica/article/view/3689). UFMA. Acesso em: 14 ago. 2026.
-- SILVA, Ilse Gomes. [Poder político e reforma do Estado no contexto do neoliberalismo](https://periodicoseletronicos.ufma.br/index.php/rppublica/article/view/3800). UFMA. Acesso em: 14 ago. 2026.
-- VALE. [Estrada de Ferro Carajás completa 30 anos de operação](https://vale.com/documents/44618/2699492/Sala_de_Imprensa_-_Logistica_-_Estrada_de_Ferro_Caraj%C3%A1s_completa_30_anos_de_opera%C3%A7%C3%A3o__ID%3D1039.pdf/7a7ff91b-cf33-3546-eaf2-6b49c2fef737?download=true&t=1672687995418&version=1.0). 2015. Acesso em: 14 ago. 2026.

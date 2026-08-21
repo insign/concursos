@@ -1,0 +1,2 @@
+- [Constituição da República Federativa do Brasil de 1988 — arts. 44 a 56](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) — Presidência da República, texto constitucional compilado, consulta para o corte de 6/7/2026.
+- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026, consolidado com as retificações aplicáveis ao Cargo 16.

@@ -1,0 +1,9 @@
+- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) — Presidência da República; art. 37, § 4º.
+- [Lei nº 8.429, de 2 de junho de 1992 — texto compilado](https://www.planalto.gov.br/ccivil_03/leis/l8429compilada.htm) — Presidência da República.
+- [Lei nº 14.230, de 25 de outubro de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14230.htm) — reforma da LIA.
+- [Lei nº 12.846, de 1º de agosto de 2013](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm) — Lei Anticorrupção.
+- [ADI 7156 — andamento e decisões](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6396615) — STF; julgamento conjunto com a ADI 7236, decisões de maio a julho de 2026.
+- [STF conclui julgamento da reforma da LIA](https://noticias.stf.jus.br/postsnoticias/stf-invalida-reducao-de-prazo-de-prescricao-prevista-na-reforma-da-lei-de-improbidade-administrativa/) — STF, 1º jul. 2026.
+- [Tema 1199 — ARE 843.989](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1199) — STF.
+- [REsp 2.256.539/MS — Informativo 888](https://scon.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisar&aplicacao=informativo&livre=%40CNOT%3D%27022311%27) — STJ; art. 9º, VII; julgado em 5 maio 2026, DJEN 8 maio 2026.
+- [REsp 2.232.623/AL — Informativo 876](https://scon.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisar&aplicacao=informativo&livre=%40CNOT%3D%27022111%27) — STJ; rol taxativo do art. 11 e aplicação imediata do regime vigente aos processos sem trânsito.

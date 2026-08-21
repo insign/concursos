@@ -238,25 +238,3 @@ Ao ler uma questão, pergunte:
 4. O dado mede extensão, movimentação, capacidade ou passageiros?
 5. O operador citado é atual ou histórico?
 6. A carga foi produzida no Maranhão ou apenas circulou/foi embarcada no estado?
-
-## Referências
-
-- Cebraspe/TCE-MA. [Edital nº 1, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Geografia do Maranhão, itens 13 e 14.
-- DNIT. [Plano Nacional de Viação e Sistema Nacional de Viação](https://www.gov.br/dnit/pt-br/assuntos/atlas-e-mapas/pnv-e-snv). Cadastro e situação da malha federal.
-- DNIT. [Maranhão — mapas gerenciais](https://www.gov.br/dnit/pt-br/rodovias/mapa-de-gerenciamento/maranhao). Mapas rodoviários oficiais.
-- DNIT. [Vistorias de pontes no Maranhão](https://www.gov.br/dnit/pt-br/assuntos/noticias/dnit-realiza-vistorias-de-pontes-no-maranhao-para-reforcar-a-seguranca-viaria). Relação das sete rodovias federais, 28 jan. 2026.
-- DNIT. [BR-402/MA: restrição de carga entre Humberto de Campos e Barreirinhas](https://www.gov.br/dnit/pt-br/central-de-conteudos/noticias-alerta-de-servicos/dnit-alerta-para-restricao-de-carga-em-pontes-na-br-402-ma). 24 mar. 2026.
-- DNIT. [Viaduto de Bacabeira e acesso à BR-402/MA](https://www.gov.br/dnit/pt-br/assuntos/noticias/dnit-libera-viaduto-de-bacabeira-na-br-135-ma-nesta-segunda-feira-19-03-1). Relação BR-135/BR-402 e acesso a Barreirinhas.
-- ANTT. [Estrada de Ferro Carajás](https://www.gov.br/antt/pt-br/assuntos/ferrovias/concessoes-ferroviarias/vale-estrada-de-ferro-carajas). Concessão EF-315.
-- ANTT. [Ferrovia Norte-Sul — Tramo Norte](https://www.gov.br/antt/pt-br/assuntos/ferrovias/concessoes-ferroviarias/ferrovia-norte-sul-tramo-norte-fnstn). Subconcessão EF-151.
-- ANTT. [Ferrovia Transnordestina Logística](https://www.gov.br/antt/pt-br/assuntos/ferrovias/concessoes-ferroviarias/ferrovia-transnordestina-logistica-s-a/ferrovia-transnordestina-logistica-s-a-capa). Malha Nordeste, EF-116.
-- Presidência da República. [Lei nº 12.815/2013](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12815.htm). Conceitos portuários.
-- EMAP. [Planejamento portuário do Itaqui](https://website.portodoitaqui.com/porto-itaqui/planejamento-portuario). Administração e planejamento.
-- Ministério de Portos e Aeroportos. [Renovação da gestão do Itaqui até 2051](https://www.gov.br/portos-e-aeroportos/pt-br/assuntos/noticias/2026/01/ministerio-de-portos-e-aeroportos-e-governo-do-maranhao-antecipam-renovacao-da-gestao-do-porto-do-itaqui-ate-2051). 29 jan. 2026.
-- ANTAQ. [Desempenho aquaviário de 2025](https://www.gov.br/antaq/pt-br/noticias/2026/setor-aquaviario-brasileiro-movimentou-em-2025-1-4-bi-de-toneladas/). Movimentação de Ponta da Madeira.
-- Alumar. [Fact sheet](https://www.alcoa.com/brasil/pt/pdf/brasil-alumar-fact-sheet.pdf). Complexo industrial e terminal.
-- ANAC. [Cadastro de Aeródromos](https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/cadastro-de-aerodromos-privativo/cadastro-de-aerodromos). Conceitos e cadastro oficial.
-- Motiva Aeroportos. [Aeroporto de São Luís](https://aeroportos.motiva.com.br/sao-luis-ma/o-aeroporto/sobre-o-aeroporto/). Nome e operação.
-- Motiva Aeroportos. [Aeroporto de Imperatriz](https://aeroportos.motiva.com.br/imperatriz-ma/o-aeroporto/sobre-o-aeroporto/). Nome e operação.
-- FGV. [PM-MA 2012 — Soldado Combatente, Tipo 1](https://conhecimento.fgv.br/sites/default/files/concursos/policia_militar_soldado_combatente_caderno_01.pdf). Questão 47.
-- FGV. [PM-MA 2012 — gabarito definitivo](https://conhecimento.fgv.br/sites/default/files/concursos/segep12_policia_militar_-_soldado_combatente_-_gabaritos_13_01_02.pdf). Questão 47, alternativa E.

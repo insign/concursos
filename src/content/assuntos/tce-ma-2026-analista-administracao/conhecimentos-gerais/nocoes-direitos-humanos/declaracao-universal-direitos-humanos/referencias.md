@@ -1,0 +1,11 @@
+- [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights), Nações Unidas, texto oficial em inglês, consulta em agosto de 2026.
+- [Declaração Universal dos Direitos Humanos](https://brasil.un.org/pt-br/91601-declara%C3%A7%C3%A3o-universal-dos-direitos-humanos), Nações Unidas no Brasil, tradução e apresentação institucional, consulta em agosto de 2026.
+- [Resolução 217 A (III)](https://docs.un.org/A/RES/217%28III%29), Assembleia Geral das Nações Unidas, 10 dez. 1948.
+- [History of the Declaration](https://www.un.org/en/about-us/udhr/history-of-the-declaration), Nações Unidas, histórico oficial.
+- [Drafters of the Declaration](https://www.un.org/en/about-us/udhr/drafters-of-the-declaration), Nações Unidas, histórico dos trabalhos de redação.
+- [Prova TRF da 6ª Região — CG6](https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_CG6_01.PDF), Cebraspe, aplicação em 19 jan. 2025.
+- [Gabarito definitivo TRF da 6ª Região — CG6](https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/GAB_DEFINITIVO_034_TRF6_CG6_01.PDF), Cebraspe.
+- [Prova STJ — caderno 186STJ_002_01](https://cdn.cebraspe.org.br/concursos/STJ_15/arquivos/186STJ_002_01.pdf), Cespe/Cebraspe, aplicação em 27 set. 2015.
+- [Gabarito definitivo STJ — caderno 186STJ_002_01](https://cdn.cebraspe.org.br/concursos/stj_15/arquivos/gab_definitivo_186stj_002_01.pdf), Cespe/Cebraspe.
+- [Prova PGE/PA — Procurador](https://cdn.cebraspe.org.br/concursos/pge_pa_22_procurador/arquivos/715_pge_pa_001_01.pdf), Cebraspe, aplicação em 21 ago. 2022.
+- [Gabarito definitivo PGE/PA](https://cdn.cebraspe.org.br/concursos/pge_pa_22_procurador/arquivos/gab_definitivo_715_pge_pa_001_01.pdf), Cebraspe.

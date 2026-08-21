@@ -1,0 +1,9 @@
+- [A theory of organizational readiness for change](https://pmc.ncbi.nlm.nih.gov/articles/PMC2770024/), Bryan J. Weiner, *Implementation Science*, 2009, acesso em 17 jul. 2026.
+- [Creating Readiness for Organizational Change](https://doi.org/10.1177/001872679304600601), Armenakis, Harris e Mossholder, *Human Relations*, 1993, acesso em 17 jul. 2026.
+- [Successful Organizational Change](https://doi.org/10.5465/annals.2016.0095), Stouten, Rousseau e De Cremer, *Academy of Management Annals*, 2018, acesso em 17 jul. 2026.
+- [Kurt Lewin and the Planned Approach to Change](https://doi.org/10.1111/j.1467-6486.2004.00463.x), Bernard Burnes, *Journal of Management Studies*, 2004, acesso em 17 jul. 2026.
+- [The 8 Steps for Leading Change](https://www.kotterinc.com/methodology/8-steps/), Kotter, acesso em 17 jul. 2026.
+- [The Prosci ADKAR Model](https://www.prosci.com/methodology/adkar), Prosci, acesso em 17 jul. 2026.
+- [Gestão da Mudança](https://suap.enap.gov.br/vitrine/curso/2057/), Escola Nacional de Administração Pública, acesso em 17 jul. 2026.
+- [Governança Pública](https://portal.tcu.gov.br/governanca/governanca-publica), Tribunal de Contas da União, acesso em 17 jul. 2026.
+- [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm), art. 37, versão vigente consultada em 17 jul. 2026.

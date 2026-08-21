@@ -1,0 +1,15 @@
+- CEBRASPE. [Edital nº 1 do concurso TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Item 4.5; publicado em 6 jul. 2026; acesso em 28 jul. 2026.
+- BRASIL. [Lei nº 13.709, de 14 de agosto de 2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm). LGPD; texto vigente; acesso em 28 jul. 2026.
+- BRASIL. [Lei nº 13.460, de 26 de junho de 2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm). Direitos do usuário de serviços públicos; acesso em 28 jul. 2026.
+- BRASIL. [Lei nº 14.129, de 29 de março de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm). Governo Digital; acesso em 28 jul. 2026.
+- MGI. [Portaria MGI nº 3.485/2026](https://www.gov.br/gestao/pt-br/acesso-a-informacao/institucional/atos-normativos/2026/portaria-mgi-no-3-485-de-24-de-abril-de-2026). Política de Governança de IA no MGI; vigência em 23 jun. 2026; acesso em 28 jul. 2026.
+- MGI. [Inteligência Artificial na administração pública é tema de debate na Rede GIRC](https://www.gov.br/gestao/pt-br/assuntos/noticias/inteligencia-artificial-na-administracao-publica-e-tema-de-debate-na-rede-girc). Uso de ferramentas externas e revisão humana; acesso em 28 jul. 2026.
+- MGI. [Portaria SGD/MGI nº 5.921/2026](https://www.gov.br/gestao/pt-br/assuntos/editoria-2013-defeso-eleitoral/publicada-portaria-que-aprimora-governanca-de-ia-em-modelo-de-contratacao-de-servicos-de-operacao-de-infraestrutura). Vigência futura em 1º set. 2026; acesso em 28 jul. 2026.
+- CÂMARA DOS DEPUTADOS. [PL nº 2.338/2023](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262). Situação legislativa; acesso em 28 jul. 2026.
+- NIST. [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework). Governança e gestão de riscos; acesso em 28 jul. 2026.
+- OCDE. [OECD AI Principles](https://oecd.ai/en/ai-principles). Princípios de IA; acesso em 28 jul. 2026.
+- UNESCO. [Recommendation on the Ethics of Artificial Intelligence](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics). Ética e impacto; acesso em 28 jul. 2026.
+- FGV. [Prova ALERJ — Especialista Legislativo — Nível III — Administração Geral — Tipo 1](https://conhecimento.fgv.br/sites/default/files/concursos/cnm101-especialista-legislativo-nivel-iii-administracao-geral-cnm101-tipo-1.pdf). Questões 21 e 22; aplicada em 8 fev. 2026; acesso em 28 jul. 2026.
+- FGV. [Gabarito definitivo ALERJ](https://conhecimento.fgv.br/sites/default/files/concursos/especialista-alerj-gabarito-definitivo.pdf). Tipo 1; acesso em 28 jul. 2026.
+- FGV. [Prova STN — Tecnologia da Informação — Transformação Digital — Tipo 1](https://conhecimento.fgv.br/sites/default/files/concursos/area-de-tecnologia-da-informacao-transformacao-digitalcns105-tipo-1.pdf). Questão 10; aplicada em 7 jul. 2024; acesso em 28 jul. 2026.
+- FGV. [Gabarito definitivo STN](https://conhecimento.fgv.br/sites/default/files/concursos/stn2024_gabaritos_manha-e-tarde_sdjsldds.pdf). Transformação Digital, manhã, tipo 1; acesso em 28 jul. 2026.

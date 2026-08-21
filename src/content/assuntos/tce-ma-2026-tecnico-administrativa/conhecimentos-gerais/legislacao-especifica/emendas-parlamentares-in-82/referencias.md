@@ -1,0 +1,6 @@
+- Tribunal de Contas do Estado do Maranhão. [Instrução Normativa TCE/MA nº 82/2025](https://diario.apps.tcema.tc.br/publicacao/pdf/9406). Diário Oficial Eletrônico, edição nº 2921/2025, publicada em 15 dez. 2025, p. 2-5.
+- Tribunal de Contas do Estado do Maranhão. [TCE aprova instrução normativa sobre emendas parlamentares](https://www.tcema.tc.br/index.php/noticias/3295-tce-aprova-instrucao-normativa-que-regulamenta-fiscalizacao-da-execucao-de-emendas-parlamentares). Notícia institucional de 16 dez. 2025.
+- Supremo Tribunal Federal. [Estados e municípios devem adotar modelo federal de transparência](https://noticias.stf.jus.br/postsnoticias/emendas-parlamentares-estados-e-municipios-devem-adotar-modelo-federal-de-transparencia/). ADPF 854, decisão noticiada em 23 out. 2025.
+- Brasil. [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Art. 163-A.
+- Brasil. [Lei nº 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm). Lei de Acesso à Informação.
+- Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. [Edital nº 1 — TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático e regra de atualização legislativa do cargo.

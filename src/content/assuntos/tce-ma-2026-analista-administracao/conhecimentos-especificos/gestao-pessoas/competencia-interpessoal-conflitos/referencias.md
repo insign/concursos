@@ -1,0 +1,13 @@
+- [Competência interpessoal no desenvolvimento de gerentes](https://www.scielo.br/j/rae/a/5vh7nSfHQvPXYy8RvSTt5Ht/?lang=pt), Revista de Administração de Empresas, acesso em 17 jul. 2026.
+- [Competências socioemocionais nas organizações e no trabalho](https://www.scielo.br/scielo.php?pid=S1413-82712022000100099&script=sci_arttext&tlng=en), *Psico-USF*, 2022, acesso em 17 jul. 2026.
+- [Training Emotional Competencies at the Workplace](https://doi.org/10.1186/s40359-024-02198-3), Mehler et al., *BMC Psychology*, 2024, acesso em 17 jul. 2026.
+- [Psychological Safety and Learning Behavior in Work Teams](https://doi.org/10.2307/2666999), Amy Edmondson, *Administrative Science Quarterly*, 1999, acesso em 17 jul. 2026.
+- [A Multimethod Examination of the Benefits and Detriments of Intragroup Conflict](https://doi.org/10.2307/2393638), Karen A. Jehn, *Administrative Science Quarterly*, 1995, acesso em 17 jul. 2026.
+- [Task Versus Relationship Conflict, Team Performance, and Team Member Satisfaction](https://doi.org/10.1037/0021-9010.88.4.741), Carsten K. W. De Dreu e Laurie R. Weingart, *Journal of Applied Psychology*, 2003, acesso em 17 jul. 2026.
+- [The Paradox of Intragroup Conflict](https://repub.eur.nl/pub/37902/), de Wit, Greer e Jehn, *Journal of Applied Psychology*, 2012, acesso em 17 jul. 2026.
+- [Developing a Forced-Choice Measure of Conflict-Handling Behavior](https://doi.org/10.1177/001316447703700204), Ralph H. Kilmann e Kenneth W. Thomas, 1977, acesso em 17 jul. 2026.
+- [Models of Conflict, Negotiation and Third Party Intervention](https://doi.org/10.1002/job.4030130303), Lewicki, Weiss e Lewin, *Journal of Organizational Behavior*, 1992, acesso em 17 jul. 2026.
+- [Getting to Yes](https://search.worldcat.org/es/title/getting-to-yes-negotiating-agreement-without-giving-in/oclc/7575986?page=citation), Roger Fisher e William Ury, 1981, acesso em 17 jul. 2026.
+- [Gestão de conflitos](https://suap.enap.gov.br/vitrine/curso/2083/), Escola Nacional de Administração Pública, acesso em 17 jul. 2026.
+- [Lei nº 13.140, de 26 de junho de 2015](https://planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13140.htm), Presidência da República, versão vigente consultada em 17 jul. 2026.
+- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm), art. 37, versão vigente consultada em 17 jul. 2026.

@@ -1,0 +1,12 @@
+- [Edital nº 1 — TCE/MA, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf), Cebraspe e Tribunal de Contas do Estado do Maranhão.
+- [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm), Presidência da República, especialmente arts. 1º, III; 4º, II; 5º, §§ 1º a 4º; e 60, § 4º, IV.
+- [Art. 5º na Constituição e o Supremo](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirBase=CF&abrirArtigo=5), Supremo Tribunal Federal.
+- [Declaração e Programa de Ação de Viena](https://www.ohchr.org/en/instruments-mechanisms/instruments/vienna-declaration-and-programme-action), Conferência Mundial de Direitos Humanos/ONU, 25 jun. 1993.
+- [RE 201.819/RJ](https://jurisprudencia.stf.jus.br/pages/search/sjur7704/false), Supremo Tribunal Federal, Segunda Turma, julgamento em 11 out. 2005.
+- [RE 466.343/SP](https://www.stf.jus.br/arquivo/cms/publicacaoBOInternet/anexo/link_download/casos_relevantes/pt/RE_466343.pdf), Supremo Tribunal Federal, julgamento em 3 dez. 2008.
+- [Súmula Vinculante 25](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1268), Supremo Tribunal Federal.
+- [Convenção sobre os Direitos das Pessoas com Deficiência](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/decreto/d6949.htm), Decreto nº 6.949/2009.
+- [Tratado de Marraqueche](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9522.htm), Decreto nº 9.522/2018.
+- [Convenção Interamericana contra o Racismo](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d10932.htm), Decreto nº 10.932/2022.
+- [Prova TRF da 6ª Região — caderno 034_TRF6_CG6_01](https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_CG6_01.PDF), Cebraspe, aplicação em 19 jan. 2025, item 32.
+- [Gabarito oficial definitivo — 034_TRF6_CG6_01](https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/GAB_DEFINITIVO_034_TRF6_CG6_01.PDF), Cebraspe, item 32 = C.

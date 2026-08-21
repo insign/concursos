@@ -1,0 +1,7 @@
+- BRASIL. **Lei nº 15.263, de 14 de novembro de 2025**. Institui a Política Nacional de Linguagem Simples. Disponível no [texto oficial da Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15263-14-novembro-2025-798293-norma-pl.html). Acesso em: 18 jul. 2026.
+- DAFT, Richard L.; LENGEL, Robert H. **Organizational Information Requirements, Media Richness and Structural Design**. *Management Science*, v. 32, n. 5, 1986. Disponível no [registro do artigo na INFORMS](https://doi.org/10.1287/mnsc.32.5.554). Acesso em: 18 jul. 2026.
+- ROBBINS, Stephen P.; JUDGE, Timothy A. **Comportamento organizacional**. Referência para funções, barreiras, fluxos, redes e rede de rumores.
+- KUNSCH, Margarida Maria Krohling. **Planejamento de relações públicas na comunicação integrada**. Referência para comunicação organizacional e perspectivas.
+- CEBRASPE. **Concurso TCE/PA 2016**. Disponível na [página oficial do concurso](https://cdn.cebraspe.org.br/concursos/TCE_PA_16/). Acesso em: 18 jul. 2026.
+- CEBRASPE. **Concurso IPHAN 2018**. Disponível na [página oficial do concurso](https://cdn.cebraspe.org.br/concursos/IPHAN_18/). Acesso em: 18 jul. 2026.
+- GOVERNO DO ESPÍRITO SANTO. **Concurso DETRAN/ES 2010**. Disponível na [página institucional sobre o concurso](https://www.es.gov.br/Noticia/detranes-divulga-edital-de-concurso-publico-a). Acesso em: 18 jul. 2026.

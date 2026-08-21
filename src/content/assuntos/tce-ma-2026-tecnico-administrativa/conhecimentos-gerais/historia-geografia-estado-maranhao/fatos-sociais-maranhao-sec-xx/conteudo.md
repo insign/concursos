@@ -222,14 +222,3 @@ A leitura correta evita dois extremos: imaginar uma modernização que eliminou 
 10. Quebradeiras: articulação interestadual em 1991; nome MIQCB consolidado em 1995.
 11. Lei do Babaçu Livre pioneira: Lago do Junco, **1997**; regras posteriores de 2002 ficam fora.
 12. Constituição de 1988 reconhece direitos, mas reconhecimento ≠ efetivação automática.
-
-## 14. Referências
-
-- ASSEMA. [Sobre a ASSEMA](https://assema.org.br/). Fundação em 1989 e atuação no Médio Mearim. Acesso em: 14 ago. 2026.
-- BRASIL. [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Direitos sociais, art. 231 e art. 68 do ADCT. Acesso em: 14 ago. 2026.
-- CARVALHO, Sheryda Lila de Souza. [A cidade, suas tramas e seus dramas: urbanização e imigração em Imperatriz/MA (1950 a 1980)](https://repositorio.jesuita.org.br/handle/UNISINOS/12203). Unisinos, 2022. Acesso em: 14 ago. 2026.
-- GALVÃO, Adalzira Sodré. [A implantação do Projeto Grande Carajás e suas implicações na ocupação do solo urbano de São Luís](https://repositorio.uema.br/jspui/handle/123456789/3045). UEMA, 2005. Acesso em: 14 ago. 2026.
-- IBGE. [Censo Demográfico 2000](https://www.ibge.gov.br/estatisticas/sociais/populacao/9663-censo-demografico-2000.html). Situação urbana e rural e caracterização demográfica. Acesso em: 14 ago. 2026.
-- MELO, Hugo Freitas de. [Igreja, intelectuais e o espaço de poder](https://periodicoseletronicos.ufma.br/index.php/rpcsoc/article/view/7302). UFMA. Acesso em: 14 ago. 2026.
-- MIQCB. [Sobre nós](https://miqcb.org.br/sobre-nos/) e [Babaçu Livre](https://miqcb.org.br/babacu-livre/). Organização interestadual e Lei do Babaçu Livre. Acesso em: 14 ago. 2026.
-- SANTOS, Frednan Bezerra dos; TAVARES, João Claudino. [Questão agrária e violência no Maranhão](https://periodicoseletronicos.ufma.br/index.php/rppublica/article/view/5061). UFMA. Acesso em: 14 ago. 2026.

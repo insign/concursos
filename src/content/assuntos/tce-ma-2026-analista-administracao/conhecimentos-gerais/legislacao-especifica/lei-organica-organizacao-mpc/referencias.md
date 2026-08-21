@@ -1,0 +1,7 @@
+- Tribunal de Contas do Estado do Maranhão. [Lei nº 8.258/2005 consolidada](https://app.tcema.tc.br/publicacao/#/documentohtml/8200?compilado=true). Lei Orgânica do TCE/MA e alterações vigentes no corte do edital.
+- Assembleia Legislativa do Estado do Maranhão. [Constituição do Estado do Maranhão — edição anotada](https://www.al.ma.leg.br/sitealema/wp-content/uploads/2025/02/constituicao-ma-anotada.pdf). Art. 52, com redação da EC nº 96/2024.
+- Câmara dos Deputados. [Emenda Constitucional nº 139/2026](https://www2.camara.leg.br/legin/fed/emecon/2026/emendaconstitucional-139-5-maio-2026-799072-publicacaooriginal-179182-pl.html). Alteração dos arts. 31 e 75 da Constituição Federal.
+- Assembleia Legislativa do Estado do Maranhão. [Diário da Assembleia de 9 dez. 2021](https://www.al.ma.leg.br/sitealema/wp-content/uploads/diarios/DIARIO_298_09.12.2021_.pdf). Lei nº 11.614/2021, alterações dos arts. 106 e 108 da Lei nº 8.258/2005.
+- Assembleia Legislativa do Estado do Maranhão. [Projeto de Lei nº 131/2025 e pareceres](https://www.al.ma.leg.br/sitealema/wp-content/uploads/2025/03/DIARIO_039_11.03.2025.pdf). Alteração que resultou na Lei nº 12.501/2025 sobre a Corregedoria.
+- Tribunal de Contas do Estado do Maranhão. [Conselheiros-Substitutos](https://www.tcema.tc.br/index.php/institucional/conselheiros-substitutos).
+- Tribunal de Contas do Estado do Maranhão. [Corregedoria](https://www.tcema.tc.br/index.php/institucional/corregedoria).

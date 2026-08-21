@@ -264,21 +264,3 @@ Liderança pública deve combinar entrega de valor público, legalidade, impesso
 | teoria Y classifica pessoas naturalmente boas | errada |
 | motivação elevada garante desempenho | errada |
 | gestão de desempenho equivale à avaliação periódica | errada |
-
-## Referências
-
-- [Gestão de pessoas: liderança e competências para o setor público](https://bibliotecadigital.enap.gov.br/bitstream/1/4283/1/7_Livro_Gest%C3%A3o%20de%20pessoas%20lideran%C3%A7a%20e%20compet%C3%AAncias%20para%20o%20setor%20p%C3%BAblico.pdf), Escola Nacional de Administração Pública, acesso em 17 jul. 2026.
-- [Bases of Social Power](https://www.researchgate.net/publication/215915730_The_Bases_of_Social_Power), John R. P. French Jr. e Bertram Raven, 1959, acesso em 17 jul. 2026.
-- [A Contingency Model of Leadership Effectiveness](https://doi.org/10.1016/S0065-2601(08)60051-9), Fred E. Fiedler, *Advances in Experimental Social Psychology*, 1964, acesso em 17 jul. 2026.
-- [Life Cycle Theory of Leadership](https://eric.ed.gov/?id=EJ004286), Paul Hersey e Kenneth H. Blanchard, *Training and Development Journal*, 1969, acesso em 17 jul. 2026.
-- [A Path-Goal Theory of Leader Effectiveness](https://doi.org/10.2307/2391905), Robert J. House, *Administrative Science Quarterly*, 1971, acesso em 17 jul. 2026.
-- [A Vertical Dyad Linkage Approach to Leadership within Formal Organizations](https://doi.org/10.1016/0030-5073(75)90005-7), Fred Dansereau Jr., George Graen e William J. Haga, *Organizational Behavior and Human Performance*, 1975, acesso em 17 jul. 2026.
-- [From Transactional to Transformational Leadership](https://doi.org/10.1016/0090-2616(90)90061-S), Bernard M. Bass, *Organizational Dynamics*, 1990, acesso em 17 jul. 2026.
-- [Servant Leadership: Development of a Multidimensional Measure](https://doi.org/10.1016/j.leaqua.2008.01.006), Robert C. Liden et al., *The Leadership Quarterly*, 2008, acesso em 17 jul. 2026.
-- [Authentic Leadership: Development and Validation of a Theory-Based Measure](https://doi.org/10.1177/0149206307308913), Fred O. Walumbwa et al., *Journal of Management*, 2008, acesso em 17 jul. 2026.
-- [Shared Leadership in Teams](https://doi.org/10.5465/amj.2007.20159921), Jay B. Carson, Paul E. Tesluk e Jennifer A. Marrone, *Academy of Management Journal*, 2007, acesso em 17 jul. 2026.
-- [Teorias sobre a motivação no trabalho](https://www.scielo.br/j/rae/a/w9bLvMdzV73Fr8LQkHcMhGD/?format=html&lang=pt), Revista de Administração de Empresas, acesso em 17 jul. 2026.
-- [An Empirical Test of a New Theory of Human Need](https://doi.org/10.1016/0030-5073(69)90004-X), Clayton P. Alderfer, *Organizational Behavior and Human Performance*, 1969, acesso em 17 jul. 2026.
-- [Self-Determination Theory in Work Organizations](https://doi.org/10.1146/annurev-orgpsych-032516-113108), Marylène Gagné et al., *Annual Review of Organizational Psychology and Organizational Behavior*, 2017, acesso em 17 jul. 2026.
-- [Motivation Through the Design of Work](https://doi.org/10.1016/0030-5073(76)90016-7), J. Richard Hackman e Greg R. Oldham, *Organizational Behavior and Human Performance*, 1976, acesso em 17 jul. 2026.
-- [Gerir o desempenho dos colaboradores e dos gestores](https://tcu.gov.br/govorganizacional/001.005.009.031.htm), Tribunal de Contas da União, acesso em 17 jul. 2026.

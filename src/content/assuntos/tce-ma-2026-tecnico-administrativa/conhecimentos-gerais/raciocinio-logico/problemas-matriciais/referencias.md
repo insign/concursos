@@ -1,0 +1,3 @@
+- CEBRASPE. [Edital nº 1 do concurso TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Item 14.2.3, Raciocínio Lógico, item 7; publicado em 6 jul. 2026.
+- INSTITUTO FEDERAL DE SANTA CATARINA. [Álgebra Linear: Matrizes](https://docente.ifsc.edu.br/grazielli.vassoler/al_2017_1/Matrizes_Apostila_alunos.pdf). Definições, índices e operações matriciais.
+- INSTITUTO DE MATEMÁTICA E ESTATÍSTICA DA UNIVERSIDADE DE SÃO PAULO. [Sistemas Lineares e Matrizes](https://www.ime.usp.br/~lymber/teaching/3457-sislin_mat/sect0001.html). Referência conceitual para operações e extensões matriciais.

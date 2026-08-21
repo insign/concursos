@@ -1,0 +1,15 @@
+- CEBRASPE. [Edital nº 1 do concurso TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Itens 4.1 a 4.3; publicado em 6 jul. 2026; acesso em 27 jul. 2026.
+- BRASIL. [Lei nº 14.129, de 29 de março de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm). Governo Digital; acesso em 27 jul. 2026.
+- BRASIL. [Lei nº 12.527, de 18 de novembro de 2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm). Lei de Acesso à Informação; acesso em 27 jul. 2026.
+- BRASIL. [Decreto nº 8.777, de 11 de maio de 2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm). Política de Dados Abertos; acesso em 27 jul. 2026.
+- GOVERNO DIGITAL. [Conta GOV.BR](https://www.gov.br/governodigital/pt-br/identidade/conta-gov-br). Conta, aplicativo e referência normativa; acesso em 27 jul. 2026.
+- GOVERNO DIGITAL. [Níveis da conta GOV.BR](https://www.gov.br/governodigital/pt-br/identidade/conta-gov-br/niveis-da-conta-govbr). Métodos Bronze, Prata e Ouro; acesso em 27 jul. 2026.
+- GOVERNO DIGITAL. [Segurança da conta](https://www.gov.br/governodigital/pt-br/identidade/conta-gov-br/seguranca-da-conta/seguranca-da-conta). Verificação em duas etapas e dispositivos; acesso em 27 jul. 2026.
+- GOVERNO DIGITAL. [Balcão GOV.BR e aumento de nível](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/atendimento-gov.br/atendimento-presencial/espaco-do-atendente-balcao-gov.br/roteiro-de-atendimento/roteiro-de-atendimento-1/o-cidadao-deseja-aumentar-o). Limites do atendimento; acesso em 27 jul. 2026.
+- GOVERNO DIGITAL. [Carteira de Documentos Digitais](https://www.gov.br/governodigital/pt-br/identidade/conta-gov-br/carteira-de-documentos-digitais/). Exibição e compartilhamento; acesso em 27 jul. 2026.
+- GOVERNO DIGITAL. [Dados Abertos](https://www.gov.br/governodigital/pt-br/dados-abertos). Política e definição; acesso em 27 jul. 2026.
+- CGU. [Portal Brasileiro de Dados Abertos](https://dados.gov.br/). Catálogo nacional; acesso em 27 jul. 2026.
+- MGI. [Portarias de 2025](https://www.gov.br/gestao/pt-br/acesso-a-informacao/institucional/atos-normativos/2025/2025-portarias). Portaria SGD/MGI nº 11.229/2025; acesso em 27 jul. 2026.
+- MGI. [Portarias de 2026](https://www.gov.br/gestao/pt-br/acesso-a-informacao/institucional/atos-normativos/2026/2026-portarias). Portaria SGD/MGI nº 4.921/2026; acesso em 27 jul. 2026.
+- FGV. [Prova da Câmara Municipal de Fortaleza — Consultor Legislativo — Administração Pública](https://conhecimento.fgv.br/sites/default/files/concursos/consultor-legislativo-administracao-publicacns016-tipo-1.pdf). Questões 61 e 66; aplicada em 7 abr. 2024; acesso em 27 jul. 2026.
+- FGV. [Gabarito definitivo da Câmara Municipal de Fortaleza](https://conhecimento.fgv.br/sites/default/files/concursos/cmfor2024_gabarito_definitivo-retificado-17.05.2024.pdf). Tipo 1; acesso em 27 jul. 2026.
