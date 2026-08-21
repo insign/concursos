@@ -51,7 +51,7 @@
 | Divisional | produto, serviço, território ou cliente | foco no resultado | duplicação de apoio |
 | Projetizada | projeto predomina sobre recursos e autoridade | foco na entrega singular | descontinuidade |
 | Matricial | dupla autoridade regular | integração e compartilhamento | conflito e ambiguidade |
-| Por equipes | grupos multifuncionais centrais | colaboração e rapidez | papéis e accountability |
+| Por equipes | grupos multifuncionais centrais | colaboração e rapidez | papéis e <abbr title="prestação de contas e responsabilização">accountability</abbr> |
 | Horizontal | responsabilidade pelo fluxo ponta a ponta | foco no usuário | tensão com funções |
 | Rede | núcleo + unidades ou parceiros conectados | flexibilidade | dependência e governança |
 | Virtual | capacidades distribuídas coordenadas por tecnologia | alcance e adaptação | confiança, segurança e controle |
@@ -127,7 +127,7 @@ São tendências de um **contínuo**. Risco, legalidade e repetibilidade podem e
 - A Administração Pública deve compatibilizar eficiência com legalidade, continuidade, controle, transparência e atendimento ao cidadão.
 - Centralização normativa pode coexistir com descentralização operacional.
 - A natureza pública não determina automaticamente burocracia mecanizada.
-- As orientações do MGI e o Manual de Estruturas são referências técnicas do Executivo federal, não regras automaticamente aplicáveis ao TCE/MA.
+- As orientações do <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> e o Manual de Estruturas são referências técnicas do Executivo federal, não regras automaticamente aplicáveis ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
 ## Roteiro-relâmpago
 

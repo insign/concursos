@@ -14,7 +14,7 @@ Este assunto fecha o item do edital dedicado à **Lei nº 12.288/2010 (Estatuto 
 
 Para fins de prova, podem ser avaliadas alterações legislativas que entraram em vigor até a publicação do edital, em **6 de julho de 2026**. Este material foi conferido em **15 de agosto de 2026**; a conferência posterior não amplia o corte do edital.
 
-A última alteração relevante do Estatuto antes do edital foi a **Lei nº 14.553/2023**, que acrescentou, entre outros pontos, a pesquisa quinquenal do IBGE no artigo 49, § 4º.
+A última alteração relevante do Estatuto antes do edital foi a **Lei nº 14.553/2023**, que acrescentou, entre outros pontos, a pesquisa quinquenal do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> no artigo 49, § 4º.
 
 O edital nomeia a **Lei nº 12.288/2010**, não seus regulamentos. Decretos e atos administrativos aparecem apenas quando ajudam a localizar institutos da lei ou evitar confusão. Detalhes operacionais que não integram o texto legal não são tratados como núcleo de memorização.
 
@@ -22,15 +22,15 @@ O edital nomeia a **Lei nº 12.288/2010**, não seus regulamentos. Decretos e at
 
 | Tema | Dispositivo central | Essência |
 |---|---|---|
-| Sinapir | arts. 47 e 48 | organização, articulação, adesão e objetivos |
+| <abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr> | arts. 47 e 48 | organização, articulação, adesão e objetivos |
 | plano, coordenação e participação | art. 49 | plano nacional, órgão responsável, fórum, colegiado e pesquisa do IBGE |
 | conselhos | art. 50 | conselhos subnacionais permanentes, consultivos e paritários |
 | Ouvidorias | arts. 51 e 52 | canal permanente de denúncias e acesso institucional |
 | educação | art. 16 | acompanhamento e avaliação federal dos programas da seção |
-| moradia | art. 36 | peculiaridades da população negra no SNHIS e participação nos conselhos do FNHIS |
-| trabalho | art. 40 | formulação de políticas e orientação de recursos pelo Codefat |
+| moradia | art. 36 | peculiaridades da população negra no <abbr title="Sistema Nacional de Habitação de Interesse Social">SNHIS</abbr> e participação nos conselhos do <abbr title="Fundo Nacional de Habitação de Interesse Social">FNHIS</abbr> |
+| trabalho | art. 40 | formulação de políticas e orientação de recursos pelo <abbr title="Conselho Deliberativo do Fundo de Amparo ao Trabalhador">Codefat</abbr> |
 | contratação/publicidade federal | art. 46 | cláusulas e fiscalização voltadas à igualdade de oportunidades |
-| PPA e orçamento | art. 56 | prioridades, transparência, regra transitória e acompanhamento |
+| <abbr title="Plano Plurianual">PPA</abbr> e orçamento | art. 56 | prioridades, transparência, regra transitória e acompanhamento |
 | fontes financeiras | art. 57 | recursos ordinários e fontes adicionais |
 | outras medidas favoráveis | art. 58 | rol não excludente |
 | avaliação | art. 59 | eficácia social, monitoramento e relatórios |
@@ -283,8 +283,8 @@ Três nomes próximos podem aparecer em material de apoio:
 
 | Instituto | Base | Função contextual |
 |---|---|---|
-| PNPIR | Decreto nº 4.886/2003 | política nacional |
-| Planapir | Decreto nº 6.872/2009 | plano com objetivos setoriais |
+| <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr> | Decreto nº 4.886/2003 | política nacional |
+| <abbr title="Plano Nacional de Promoção da Igualdade Racial">Planapir</abbr> | Decreto nº 6.872/2009 | plano com objetivos setoriais |
 | Sinapir | Lei nº 12.288/2010 | sistema de organização e articulação |
 
 O Decreto nº 8.136/2013 regulamenta o Sinapir e detalha adesão, instâncias e procedimentos. Esses detalhes não substituem a literalidade dos artigos 47 a 59 e não devem ser confundidos com comandos expressos do Estatuto.
