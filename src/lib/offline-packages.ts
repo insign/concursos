@@ -303,6 +303,7 @@ export async function activateStagedPackage(
     : canonicalCacheName;
   const packageResources = new Set([...manifest.routes, ...manifest.assets]);
   let promotionStarted = false;
+  let activatedRecord: OfflineContestRecord;
 
   try {
     await cacheStorage.delete(activeCacheName);
@@ -323,12 +324,7 @@ export async function activateStagedPackage(
       resourceHashes: { ...manifest.resources },
     };
     await saveOfflineContestRecord(record);
-    await cacheStorage.delete(temporaryCacheName);
-    if (existing && existing.activeCacheName !== activeCacheName) {
-      await cacheStorage.delete(existing.activeCacheName);
-    }
-    await removeVisitedDuplicates(cacheStorage, manifest.routes, origin);
-    return record;
+    activatedRecord = record;
   } catch (error) {
     await cacheStorage.delete(temporaryCacheName);
     if (promotionStarted) {
@@ -336,10 +332,44 @@ export async function activateStagedPackage(
     }
     throw error;
   }
+
+  // Ativação concluída (registro salvo é o ponto de virada): a limpeza
+  // posterior é best-effort e nunca desfaz um pacote já ativado.
+  try {
+    await cacheStorage.delete(temporaryCacheName);
+  } catch {
+    // Temporário órfão será removido por cleanupInactiveContestCaches.
+  }
+  try {
+    if (existing && existing.activeCacheName !== activeCacheName) {
+      await cacheStorage.delete(existing.activeCacheName);
+    }
+  } catch {
+    // Cache anterior remanescente é inofensivo e também é coberto pela limpeza.
+  }
+  try {
+    await removeVisitedDuplicates(cacheStorage, manifest.routes, origin);
+  } catch {
+    // Duplicatas de páginas visitadas são reavaliadas nas próximas navegações.
+  }
+  return activatedRecord;
 }
 
 function resourcesCountOf(manifest: OfflinePackageManifest): number {
   return [...new Set([...manifest.routes, ...manifest.assets, ...manifest.sharedAssets])].length;
+}
+
+/**
+ * Adoção de staging por contextos externos (ex.: adoção de Background Fetch
+ * no Service Worker): executa a mesma promoção atômica sob o lock único que
+ * serializa downloads, remoções e limpezas.
+ */
+export async function adoptStagedPackageUnderLock(
+  manifest: OfflinePackageManifest,
+  temporaryCacheName: string,
+  overrides: PackageEnvironment = {},
+): Promise<OfflineContestRecord> {
+  return withOfflinePackageLock(() => activateStagedPackage(manifest, temporaryCacheName, overrides));
 }
 
 export async function removeContestPackage(

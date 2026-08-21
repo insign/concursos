@@ -1,5 +1,5 @@
 import {
-  activateStagedPackage,
+  adoptStagedPackageUnderLock,
   offlinePackageManifestSchema,
   type OfflinePackageManifest,
 } from './offline-packages';
@@ -98,7 +98,7 @@ export async function finalizeSuccessfulBackgroundFetch(
       }
     }
 
-    await activateStagedPackage(manifest, stagingName, { cacheStorage });
+    await adoptStagedPackageUnderLock(manifest, stagingName, { cacheStorage });
     publishDownloadEvent({ type: 'completed', contestStorageId: storageId, phase: 'download' });
     await event_updateUI(registration);
   } catch (error) {

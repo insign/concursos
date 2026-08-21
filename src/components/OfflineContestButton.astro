@@ -160,11 +160,16 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
     subscribeDownloadEvents((event) => {
       if (event.contestStorageId !== contestStorageId) return;
       if (event.phase === 'download') {
-        // UI própria do navegador conduz o progresso; o erro do clique é
-        // mostrado pelo próprio handler — aqui só renovamos em conclusão.
+        // UI própria do navegador conduz o progresso; a conclusão renova a
+        // disponibilidade e uma falha assíncrona restaura o controle com a
+        // mensagem do evento — sem renderAvailability, que apagaria o erro.
         if (event.type === 'completed') {
           window.dispatchEvent(new CustomEvent('concursos:offline-packages-changed'));
           void renderAvailability();
+        } else if (event.type === 'failed') {
+          downloadButton.disabled = false;
+          progress.hidden = true;
+          message.textContent = event.message;
         }
         return;
       }
