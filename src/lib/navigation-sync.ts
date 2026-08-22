@@ -1,5 +1,6 @@
 import { buildNavigationDocumentId } from './identity';
-import { readKv, writeKv } from './kv-client';
+
+import { loadRemoteProfile, publishProfileSection } from './profile-remote';
 import {
   getNavigationRecord,
   markNavigationRemoteRejected,
@@ -61,10 +62,24 @@ function recreationWarning(
   return null;
 }
 
+async function loadNavigationSection(profileId: string): Promise<{
+  json: unknown;
+  version: number;
+  created_at: string | null;
+} | null> {
+  const snapshot = await loadRemoteProfile(profileId, { timeoutMs: 3_000, retries: 0 });
+  if (!snapshot.sections || snapshot.sections.navegacao === undefined) return null;
+  return {
+    json: snapshot.sections.navegacao,
+    version: snapshot.version,
+    created_at: snapshot.created_at,
+  };
+}
+
 async function parseRemoteNavigation(
   profileId: string,
   documentId: string,
-  envelope: Awaited<ReturnType<typeof readKv>>,
+  envelope: { json: unknown; version: number; created_at: string | null } | null,
 ): Promise<RemoteNavigationDocument | null> {
   if (!envelope) return null;
   const parsed = navigationDocumentSchema.safeParse(envelope.json);
@@ -112,7 +127,7 @@ export async function bootstrapNavigation(profileId: string): Promise<Navigation
     const remote = await parseRemoteNavigation(
       profileId,
       documentId,
-      await readKv(documentId, { timeoutMs: 3_000, retries: 0 }),
+      await loadNavigationSection(profileId),
     );
     const action = resolveNavigationVersionAction(
       record ?? null,
@@ -154,12 +169,7 @@ export async function readNavigationPreflight(
   await hooks.beforeRequest();
   await hooks.ensureLease();
   const documentId = buildNavigationDocumentId(profileId);
-  const envelope = await readKv(documentId, {
-    beforeRetry: async () => {
-      await hooks.ensureLease();
-      return true;
-    },
-  });
+  const envelope = await loadNavigationSection(profileId);
   await hooks.ensureLease();
   return { remote: await parseRemoteNavigation(profileId, documentId, envelope) };
 }
@@ -206,7 +216,7 @@ export async function applyNavigationPreflight(
   const local = navigationDocumentSchema.parse(record.current);
   await hooks.beforeRequest();
   await hooks.ensureLease();
-  const written = await writeKv(buildNavigationDocumentId(profileId), local, {
+  const written = await publishProfileSection(profileId, 'navegacao', local, {
     beforeRetry: async () => {
       await hooks.ensureLease();
       const latest = await getNavigationRecord(profileId);

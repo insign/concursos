@@ -3,7 +3,8 @@ import {
   buildSimuladosIndexDocumentId,
   validateSimuladoId,
 } from './identity';
-import { readKv, writeKv } from './kv-client';
+
+import { loadRemoteProfile, publishProfileSection } from './profile-remote';
 import {
   getLocalSimuladoRecord,
   getSharedDocumentRecord,
@@ -104,23 +105,30 @@ async function readValidated<T>(
   await hooks.ensureLease();
   await hooks.beforeRequest();
   await hooks.ensureLease();
-  const envelope = await readKv(documentId, {
+  const snapshot = await loadRemoteProfile(profileId, {
     beforeRetry: async () => {
       await hooks.ensureLease();
       return true;
     },
   });
   await hooks.ensureLease();
-  if (!envelope) return null;
+
+  const prefix = `concursos--${profileId}--`;
+  const json = documentId.endsWith('--simulados')
+    ? snapshot.sections?.simuladosIndice
+    : snapshot.sections?.simuladosDetalhes?.[
+        documentId.slice(prefix.length + 'simulado--'.length)
+      ];
+  if (json === undefined) return null;
   try {
     return {
-      document: parse(envelope.json),
-      version: envelope.version,
-      createdAt: envelope.created_at,
+      document: parse(json),
+      version: snapshot.version,
+      createdAt: snapshot.created_at,
     };
   } catch (error) {
     const reason = error instanceof Error ? error.message : `${label} remoto inválido`;
-    await quarantineRemoteDocument({ profileId, documentId, reason, value: envelope.json });
+    await quarantineRemoteDocument({ profileId, documentId, reason, value: json });
     throw new Error(reason);
   }
 }
@@ -221,12 +229,18 @@ async function applyDetailRemote(
   const local = simuladoDocumentSchema.parse(record.current);
   await hooks.beforeRequest();
   await hooks.ensureLease();
-  const written = await writeKv(documentId, local, {
-    beforeRetry: async () => {
-      await hooks.ensureLease();
-      return true;
+  const uuid = documentId.slice(`concursos--${profileId}--simulado--`.length);
+  const written = await publishProfileSection(
+    profileId,
+    'simuladosDetalhes',
+    { [uuid]: local },
+    {
+      beforeRetry: async () => {
+        await hooks.ensureLease();
+        return true;
+      },
     },
-  });
+  );
   await hooks.ensureLease();
   const warnings = [
     recreationWarning(record, remote?.version ?? null, remote?.createdAt ?? null),
@@ -304,7 +318,7 @@ async function applyIndexRemote(
   await assertIndexDetailsReady(profileId, local);
   await hooks.beforeRequest();
   await hooks.ensureLease();
-  const written = await writeKv(documentId, local, {
+  const written = await publishProfileSection(profileId, 'simuladosIndice', local, {
     beforeRetry: async () => {
       await hooks.ensureLease();
       return true;

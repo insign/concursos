@@ -3,7 +3,7 @@ import { expect, test } from './fixtures';
 const alias = 'retomar-concurso-teste';
 const contestRoute = '/concursos/concurso-exemplo/';
 const contentRoute = '/concursos/concurso-exemplo/assunto-exemplo/';
-const navigationDocumentId = `concursos--${alias}--navegacao`;
+const navigationDocumentId = `concursos--${alias}--perfil`;
 const timestamp = '2026-07-25T00:00:00.000Z';
 
 function readingDocument(progress = 0.65) {
@@ -113,7 +113,11 @@ test('waits for remote bootstrap before exposing a stale local candidate', async
   kvStore.set(navigationDocumentId, {
     version: 2,
     createdAt: timestamp,
-    json: readingDocument(0.75),
+    json: {
+      schemaVersion: 1,
+      answers: {},
+      navegacao: readingDocument(0.75),
+    },
   });
 
   let releaseRemote!: () => void;
@@ -168,7 +172,11 @@ test('resumes the remote reading position in focus mode from the contest page', 
   kvStore.set(navigationDocumentId, {
     version: 4,
     createdAt: timestamp,
-    json: readingDocument(),
+    json: {
+      schemaVersion: 1,
+      answers: {},
+      navegacao: readingDocument(),
+    },
   });
   await page.addInitScript((profileId) => {
     localStorage.setItem('concursos:active-alias', profileId);

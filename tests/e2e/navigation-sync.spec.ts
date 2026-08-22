@@ -2,7 +2,12 @@ import { expect, test } from './fixtures';
 import type { Page } from '@playwright/test';
 
 const alias = 'navegacao-2026-teste';
-const navigationDocumentId = `concursos--${alias}--navegacao`;
+const navigationDocumentId = `concursos--${alias}--perfil`;
+
+function storedNavigation(kvStore: Map<string, import('./fixtures').MockKvDocument>) {
+  const doc = kvStore.get(navigationDocumentId) as { json?: { navegacao?: unknown } } | undefined;
+  return (doc?.json?.navegacao ?? null) as Record<string, unknown> | null;
+}
 const readingRoute = '/concursos/concurso-exemplo/assunto-exemplo/';
 const readingDestination = `${readingRoute}#focus`;
 const legacyReadingRoute = `${readingRoute}leitura/`;
@@ -134,8 +139,8 @@ test('publishes a semantic reading position without Authorization', async ({ pag
   await page.goto(readingDestination);
   await page.evaluate(() => window.scrollTo(0, Math.max(300, window.document.documentElement.scrollHeight * 0.45)));
 
-  await expect.poll(() => kvStore.get(navigationDocumentId)?.json, { timeout: 30_000 }).toBeTruthy();
-  const savedDocument = kvStore.get(navigationDocumentId)?.json as {
+  await expect.poll(() => storedNavigation(kvStore), { timeout: 30_000 }).toBeTruthy();
+  const savedDocument = storedNavigation(kvStore) as {
     route: string;
     context: { activeTab: string; readingMode: boolean };
     readingPosition: { blockIndex: number; relativeOffset: number; textQuote: string; progress: number } | null;
@@ -159,7 +164,7 @@ test('preserves the reading point after going to the top and captures later scro
   await expect
     .poll(
       () =>
-        (kvStore.get(navigationDocumentId)?.json as
+        (storedNavigation(kvStore) as
           | { readingPosition?: { progress?: number } | null }
           | undefined)?.readingPosition?.progress ?? 0,
       { timeout: 30_000 },
@@ -193,7 +198,7 @@ test('preserves the reading point after going to the top and captures later scro
   await expect
     .poll(
       () =>
-        (kvStore.get(navigationDocumentId)?.json as
+        (storedNavigation(kvStore) as
           | { readingPosition?: { progress?: number } | null }
           | undefined)?.readingPosition?.progress ?? 0,
       { timeout: 30_000 },
@@ -260,7 +265,7 @@ test('captures scrolling after a semantic focus change before navigation is read
   kvStore.set(navigationDocumentId, {
     version: 11,
     createdAt: timestamp,
-    json: remoteNavigation(readingRoute, { readingMode: true }),
+    json: { schemaVersion: 1, answers: {}, navegacao: remoteNavigation(readingRoute, { readingMode: true }) },
   });
   let releaseBootstrap: () => void = () => undefined;
   const bootstrapReleased = new Promise<void>((resolve) => {
@@ -300,7 +305,7 @@ test('normalizes a legacy remote reading route and resumes through #focus', asyn
   kvStore.set(navigationDocumentId, {
     version: 6,
     createdAt: timestamp,
-    json: remoteNavigation(legacyReadingRoute, { activeTab: 'reading', readingMode: true }),
+    json: { schemaVersion: 1, answers: {}, navegacao: remoteNavigation(legacyReadingRoute, { activeTab: 'reading', readingMode: true }) },
   });
 
   await page.goto('/');
@@ -314,7 +319,7 @@ test('keeps the entry route reachable after an automatic resume', async ({ page,
   kvStore.set(navigationDocumentId, {
     version: 4,
     createdAt: timestamp,
-    json: remoteNavigation('/simulados/', {
+    json: { schemaVersion: 1, answers: {}, navegacao: remoteNavigation('/simulados/', {
       contestStorageId: null,
       groupId: null,
       subjectStorageId: null,
@@ -323,7 +328,7 @@ test('keeps the entry route reachable after an automatic resume', async ({ page,
       questionOrigin: null,
       questionLayout: null,
       shuffleQuestions: null,
-    }),
+    }) },
   });
 
   await page.goto('/');
@@ -340,14 +345,14 @@ test('publishes a direct #focus deep link over an existing normal record', async
   kvStore.set(navigationDocumentId, {
     version: 2,
     createdAt: timestamp,
-    json: remoteNavigation(readingRoute, { activeTab: 'content', readingMode: false }),
+    json: { schemaVersion: 1, answers: {}, navegacao: remoteNavigation(readingRoute, { activeTab: 'content', readingMode: false }) },
   });
 
   await page.goto(readingDestination);
   await expect
     .poll(
       () =>
-        (kvStore.get(navigationDocumentId)?.json as { context?: { readingMode?: boolean } } | undefined)
+        (storedNavigation(kvStore) as { context?: { readingMode?: boolean } } | undefined)
           ?.context?.readingMode,
       { timeout: 30_000 },
     )
@@ -359,7 +364,7 @@ test('restores route and questionnaire context on another viewport', async ({ pa
   kvStore.set(navigationDocumentId, {
     version: 7,
     createdAt: timestamp,
-    json: remoteNavigation(questionsRoute),
+    json: { schemaVersion: 1, answers: {}, navegacao: remoteNavigation(questionsRoute) },
   });
 
   await page.setViewportSize({ width: 1280, height: 900 });
@@ -374,7 +379,7 @@ test('loads all questions until the saved question and keeps it in view', async 
   kvStore.set(navigationDocumentId, {
     version: 9,
     createdAt: timestamp,
-    json: remoteNavigation(
+    json: { schemaVersion: 1, answers: {}, navegacao: remoteNavigation(
       questionsRoute,
       {
         questionId,
@@ -392,7 +397,7 @@ test('loads all questions until the saved question and keeps it in view', async 
           progress: 0,
         },
       },
-    ),
+    ) },
   });
 
   await page.goto('/');
@@ -412,7 +417,7 @@ test('offers a newer remote point without forcing navigation during an active se
   kvStore.set(navigationDocumentId, {
     version: currentVersion + 1,
     createdAt: timestamp,
-    json: remoteNavigation('/simulados/', {
+    json: { schemaVersion: 1, answers: {}, navegacao: remoteNavigation('/simulados/', {
       contestStorageId: null,
       groupId: null,
       subjectStorageId: null,
@@ -421,7 +426,7 @@ test('offers a newer remote point without forcing navigation during an active se
       questionOrigin: null,
       questionLayout: null,
       shuffleQuestions: null,
-    }),
+    }) },
   });
 
   await page.waitForTimeout(13_000);
@@ -449,7 +454,7 @@ test('publishes the local point when the user chooses to continue here', async (
   );
   await expect.poll(
     () => {
-      const document = kvStore.get(navigationDocumentId)?.json as {
+      const document = storedNavigation(kvStore) as {
         readingPosition?: { progress?: number } | null;
       } | undefined;
       return document?.readingPosition?.progress ?? 0;
@@ -461,7 +466,7 @@ test('publishes the local point when the user chooses to continue here', async (
   kvStore.set(navigationDocumentId, {
     version: remoteVersion,
     createdAt: timestamp,
-    json: remoteNavigation('/simulados/', {
+    json: { schemaVersion: 1, answers: {}, navegacao: remoteNavigation('/simulados/', {
       contestStorageId: null,
       groupId: null,
       subjectStorageId: null,
@@ -470,7 +475,7 @@ test('publishes the local point when the user chooses to continue here', async (
       questionOrigin: null,
       questionLayout: null,
       shuffleQuestions: null,
-    }),
+    }) },
   });
 
   await page.waitForTimeout(13_000);
@@ -488,7 +493,7 @@ test('publishes the local point when the user chooses to continue here', async (
   await stay.click();
 
   await expect.poll(
-    () => (kvStore.get(navigationDocumentId)?.json as { route?: string } | undefined)?.route,
+    () => (storedNavigation(kvStore) as { route?: string } | undefined)?.route,
     { timeout: 30_000 },
   ).toBe(readingRoute);
   expect(kvStore.get(navigationDocumentId)?.version ?? 0).toBeGreaterThan(remoteVersion);

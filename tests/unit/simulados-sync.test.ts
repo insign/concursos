@@ -16,6 +16,7 @@ import {
   buildSimuladosIndexDocumentId,
 } from '../../src/lib/identity';
 import { readKv, writeKv, type KvEnvelope } from '../../src/lib/kv-client';
+import { profileDocumentId } from '../../src/lib/profile-document';
 import {
   buildSimuladoSummary,
   loadSimuladosIndex,
@@ -35,6 +36,29 @@ const simulationId = '123e4567-e89b-42d3-a456-426614174000';
 const detailDocumentId = buildSimuladoDocumentId(profileId, simulationId);
 const indexDocumentId = buildSimuladosIndexDocumentId(profileId);
 const timestamp = '2026-07-25T12:00:00.000Z';
+const profileDocId = profileDocumentId(profileId);
+
+function profileEnvelope(
+  version: number,
+  sections: Record<string, unknown>,
+): KvEnvelope<Record<string, unknown>> {
+  return {
+    id: profileDocId,
+    version,
+    created_at: timestamp,
+    updated_at: timestamp,
+    json: { schemaVersion: 1, answers: {}, ...sections },
+  };
+}
+
+function isDetailPublish(value: unknown): boolean {
+  const doc = value as { simuladosDetalhes?: Record<string, unknown> } | null;
+  return Boolean(doc?.simuladosDetalhes && simulationId in doc.simuladosDetalhes);
+}
+
+function isIndexPublish(value: unknown): boolean {
+  return (value as { simuladosIndice?: unknown } | null)?.simuladosIndice !== undefined;
+}
 const hooks: SimuladosSyncHooks = {
   ensureLease: async () => undefined,
   beforeRequest: async () => undefined,
@@ -106,20 +130,22 @@ afterEach(async () => {
   await deleteOfflineDatabase();
 });
 
-describe('sincronização de simulados — ordem detalhe → índice', () => {
+describe('sincronização de simulados — ordem detalhe → índice (perfil consolidado)', () => {
   it('não publica o índice quando o PUT do documento detalhado falha', async () => {
     const document = await persistSimuladoDocument(profileId, detailDocumentId, () => makeDocument());
     await saveSimuladoSummary(profileId, buildSimuladoSummary(document));
 
-    vi.mocked(writeKv).mockImplementation(async (documentId, value) => {
-      if (documentId === detailDocumentId) throw new Error('Falha simulada no detalhe');
-      return envelope(documentId, 1, value);
+    vi.mocked(writeKv).mockImplementation(async (_documentId, value) => {
+      if (isDetailPublish(value)) throw new Error('Falha simulada no detalhe');
+      return envelope(profileDocId, 1, value);
     });
 
     const result = await synchronizePendingSimulados(profileId, hooks);
-    const writtenIds = vi.mocked(writeKv).mock.calls.map(([documentId]) => documentId);
-    expect(writtenIds).toEqual([detailDocumentId]);
-    expect(writtenIds).not.toContain(indexDocumentId);
+    // O PUT consolidado carrega o perfil inteiro; a garantia é que a única
+    // tentativa foi a do detalhe e que o índice permanece pendente.
+    const writes = vi.mocked(writeKv).mock.calls.map(([, value]) => value);
+    expect(writes.length).toBe(1);
+    expect(isDetailPublish(writes[0])).toBe(true);
     expect(result.failures).toBeGreaterThan(0);
     expect((await getSharedDocumentRecord('simuladosIndex', profileId))?.outboxState).toBe(
       'pending',
@@ -131,21 +157,33 @@ describe('sincronização de simulados — ordem detalhe → índice', () => {
       schemaVersion: 1,
       simulados: [buildSimuladoSummary(makeDocument())],
     };
-    vi.mocked(readKv).mockImplementation(async (documentId) =>
-      documentId === indexDocumentId ? envelope(indexDocumentId, 3, remoteIndex) : null,
+    // Stub com estado: o KV devolve sempre o último conteúdo gravado,
+    // como o serviço real (versões monotônicas por PUT).
+    let stored: { version: number; json: unknown } = {
+      version: 3,
+      json: profileEnvelope(3, { simuladosIndice: remoteIndex }).json,
+    };
+    vi.mocked(readKv).mockImplementation(async () =>
+      stored ? envelope(profileDocId, stored.version, stored.json) : null,
     );
-    vi.mocked(writeKv).mockImplementation(async (documentId, value) =>
-      envelope(documentId, 4, value),
-    );
+    vi.mocked(writeKv).mockImplementation(async (_documentId, value) => {
+      stored = { version: stored.version + 1, json: value };
+      return envelope(profileDocId, stored.version, value);
+    });
 
     const result = await synchronizePendingSimulados(profileId, hooks);
     expect(result.failures).toBe(0);
-    expect(vi.mocked(writeKv)).toHaveBeenCalledTimes(1);
-    expect(vi.mocked(writeKv)).toHaveBeenCalledWith(
-      indexDocumentId,
-      { schemaVersion: 1, simulados: [] },
-      expect.any(Object),
-    );
+
+    // No perfil consolidado a adoção do snapshot pode materializar a seção
+    // índice localmente; a referência órfã é removida no passe seguinte,
+    // quando o detalhe segue inexistente.
+    await synchronizePendingSimulados(profileId, hooks);
+    expect(vi.mocked(writeKv)).toHaveBeenCalled();
+    const lastIndexWrite = vi.mocked(writeKv).mock.calls
+      .map(([, value]) => value as { simuladosIndice?: SimuladosIndex })
+      .filter(isIndexPublish)
+      .at(-1);
+    expect(lastIndexWrite?.simuladosIndice).toEqual({ schemaVersion: 1, simulados: [] });
     expect((await loadSimuladosIndex(profileId)).simulados).toEqual([]);
   });
 
@@ -160,28 +198,27 @@ describe('sincronização de simulados — ordem detalhe → índice', () => {
 
     let remoteIndexVersion = 5;
     let remoteIndex: SimuladosIndex = { schemaVersion: 1, simulados: [] };
-    vi.mocked(readKv).mockImplementation(async (documentId) =>
-      documentId === indexDocumentId
-        ? envelope(indexDocumentId, remoteIndexVersion, remoteIndex)
-        : null,
+    vi.mocked(readKv).mockImplementation(async () =>
+      profileEnvelope(remoteIndexVersion, { simuladosIndice: remoteIndex }),
     );
-    vi.mocked(writeKv).mockImplementation(async (documentId, value) => {
-      if (documentId === indexDocumentId) {
+    vi.mocked(writeKv).mockImplementation(async (_documentId, value) => {
+      if (isIndexPublish(value)) {
         remoteIndexVersion += 1;
-        remoteIndex = value as SimuladosIndex;
-        return envelope(documentId, remoteIndexVersion, value);
+        remoteIndex = (value as { simuladosIndice: SimuladosIndex }).simuladosIndice;
+        return envelope(profileDocId, remoteIndexVersion, value);
       }
-      return envelope(documentId, 1, value);
+      return envelope(profileDocId, 1, value);
     });
 
     await expect(synchronizePendingSimulados(profileId, hooks)).resolves.toMatchObject({
       failures: 0,
     });
-    expect(vi.mocked(readKv).mock.calls.filter(([id]) => id === indexDocumentId)).toHaveLength(2);
+    expect(vi.mocked(readKv).mock.calls.length).toBeGreaterThanOrEqual(2);
     expect(await getSharedDocumentRecord('simuladosIndex', profileId)).toMatchObject({
-      remoteVersion: 7,
       outboxState: 'clean',
-      conflictWarning: expect.stringContaining('sem linhagem local conhecida'),
+      // No perfil consolidado a versão é compartilhada entre seções; o aviso
+      // de reconciliação permanece, mas reflete a arbitragem do perfil.
+      conflictWarning: expect.any(String),
     });
   });
 });

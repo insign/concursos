@@ -58,7 +58,7 @@ test('shows an accessible activity indicator while an alias is being prepared', 
   await page.route('https://kv.helio.me/**', async (route) => {
     if (
       route.request().method() === 'GET' &&
-      new RegExp(`concursos--${alias}--preferencias(?:/version)?$`).test(
+      new RegExp(`concursos--${alias}--perfil(?:/version)?$`).test(
         new URL(route.request().url()).pathname,
       )
     ) {
@@ -86,14 +86,18 @@ test('shows an accessible activity indicator while an alias is being prepared', 
 
 test('links an existing remote alias directly after preflight', async ({ page, kvStore }) => {
   const alias = 'existente-7f3k';
-  kvStore.set(`concursos--${alias}--preferencias`, {
+  kvStore.set(`concursos--${alias}--perfil`, {
     version: 2,
     createdAt: '2026-07-23T12:00:00.000Z',
     json: {
       schemaVersion: 1,
-      questionLayout: 'all',
-      correctionMode: 'immediate',
-      shuffleQuestions: false,
+      answers: {},
+      preferences: {
+        schemaVersion: 1,
+        questionLayout: 'all',
+        correctionMode: 'immediate',
+        shuffleQuestions: false,
+      },
     },
   });
   await page.goto('/configuracoes/');
@@ -145,7 +149,7 @@ test('keeps the active alias when linking is attempted offline', async ({ page, 
 test('keeps the active alias when the target preflight fails', async ({ page, kvFailures }) => {
   const currentAlias = 'atual-7f3k';
   const targetAlias = 'falha-9x2m';
-  kvFailures.set(`GET concursos--${targetAlias}--preferencias`, 500);
+  kvFailures.set(`GET concursos--${targetAlias}--perfil`, 500);
   await page.addInitScript(
     ({ key, alias }) => localStorage.setItem(key, alias),
     { key: 'concursos:active-alias', alias: currentAlias },
@@ -166,14 +170,18 @@ test('keeps the active alias when the target preflight fails', async ({ page, kv
 test('ignores duplicate submissions while an alias is being prepared', async ({ page, kvStore }) => {
   test.setTimeout(60_000);
   const alias = 'duplicado-7f3k';
-  kvStore.set(`concursos--${alias}--preferencias`, {
+  kvStore.set(`concursos--${alias}--perfil`, {
     version: 1,
     createdAt: '2026-07-23T12:00:00.000Z',
     json: {
       schemaVersion: 1,
-      questionLayout: 'single',
-      correctionMode: 'immediate',
-      shuffleQuestions: false,
+      answers: {},
+      preferences: {
+        schemaVersion: 1,
+        questionLayout: 'single',
+        correctionMode: 'immediate',
+        shuffleQuestions: false,
+      },
     },
   });
   await page.goto('/configuracoes/');

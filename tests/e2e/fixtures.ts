@@ -6,6 +6,48 @@ export interface MockKvDocument {
   json: unknown;
 }
 
+/** Documento consolidado do perfil: uma única chave remota por alias. */
+export function profileDocId(alias: string): string {
+  return `concursos--${alias}--perfil`;
+}
+
+export interface StoredProfile {
+  version: number;
+  createdAt: string | null;
+  json: {
+    schemaVersion: number;
+    answers: Record<string, unknown>;
+    [section: string]: unknown;
+  };
+}
+
+export function readStoredProfile(
+  kvStore: Map<string, MockKvDocument>,
+  alias: string,
+): StoredProfile | undefined {
+  return kvStore.get(profileDocId(alias)) as StoredProfile | undefined;
+}
+
+export function seedRemoteProfile(
+  kvStore: Map<string, MockKvDocument>,
+  alias: string,
+  options: {
+    version: number;
+    createdAt?: string;
+    sections: Record<string, unknown>;
+  },
+): void {
+  kvStore.set(profileDocId(alias), {
+    version: options.version,
+    createdAt: options.createdAt ?? '2026-07-13T12:00:00.000Z',
+    json: {
+      schemaVersion: 1,
+      answers: {},
+      ...options.sections,
+    },
+  });
+}
+
 interface Fixtures {
   kvFailures: Map<string, number>;
   kvStore: Map<string, MockKvDocument>;

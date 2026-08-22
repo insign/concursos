@@ -150,7 +150,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
       progressSubjectId(config.contestStorageId, config.subjectStorageId),
       config.questionSet,
       current,
-      record.remoteVersion ?? 0,
+      record.localRevision ?? 0,
     );
   };
 

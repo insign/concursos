@@ -158,8 +158,30 @@ export interface MarkNavigationSyncedInput {
   conflictWarning?: string | null;
 }
 
-export function markNavigationSynced(input: MarkNavigationSyncedInput): Promise<void> {
-  const write = (async () => {
+/**
+ * Confirma o documento de navegação na versão publicada do perfil
+ * consolidado (o blob incluiu a seção `navegacao` verbatim).
+ */
+export async function confirmNavigationSynced(
+  profileId: string,
+  version: number,
+  createdAt: string | null,
+): Promise<void> {
+  const database = await openNavigationDb();
+  const existing = await database.get('navigation', profileId);
+  if (!existing || existing.remoteVersion === version) return;
+  await database.put('navigation', {
+    ...existing,
+    base: normalizeNavigationDocument(existing.current),
+    remoteVersion: version,
+    remoteCreatedAt: createdAt,
+    outboxState: 'clean' as const,
+    nextAttemptAt: null,
+    lastError: null,
+  });
+}
+
+export function markNavigationSynced(input: MarkNavigationSyncedInput): Promise<void> {  const write = (async () => {
     const database = await openNavigationDb();
     const transaction = database.transaction('navigation', 'readwrite');
     const existing = await transaction.store.get(input.profileId);

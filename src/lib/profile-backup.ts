@@ -201,7 +201,7 @@ export async function importProfileBackup(profileId: string, value: unknown): Pr
           subject.questionSet,
           document,
           backup.preferences.correctionMode,
-          existing?.remoteVersion ?? 0,
+          existing?.localRevision ?? 0,
         );
     }
 

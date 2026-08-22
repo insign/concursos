@@ -4,7 +4,7 @@ const alias = 'sugestao-assunto-2026';
 const contest = 'tce-ma-2026-analista-administracao';
 const subject = 'leitura-interpretacao-tipos-generos';
 const base = `/concursos/${contest}/${subject}`;
-const studiedDocumentId = `concursos--${alias}--estudados`;
+const profileDocId = `concursos--${alias}--perfil`;
 const routes = [`${base}/`, `${base}/cheat-sheet/`, `${base}/questoes/`];
 
 const suggestions = (page: import('@playwright/test').Page) =>
@@ -80,13 +80,17 @@ test('adopts remote studied state and announces a fully completed contest', asyn
     subjects.map(({ studiedSubjectId }) => studiedSubjectId),
   );
 
-  kvStore.set(studiedDocumentId, {
+  kvStore.set(profileDocId, {
     version: 10,
     createdAt: '2026-07-30T12:00:00.000Z',
     json: {
       schemaVersion: 1,
-      studiedSubjectIds,
-      updatedAt: '2026-07-30T12:00:00.000Z',
+      answers: {},
+      estudados: {
+        schemaVersion: 1,
+        studiedSubjectIds,
+        updatedAt: '2026-07-30T12:00:00.000Z',
+      },
     },
   });
   await page.evaluate((value) => localStorage.setItem('concursos:active-alias', value), alias);
