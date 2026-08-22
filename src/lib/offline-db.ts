@@ -599,6 +599,57 @@ export async function listPendingAnswerRecords(profileId: string): Promise<Local
   return (await openOfflineDb()).getAllFromIndex('responses', 'by-profile-outbox', [profileId, 'pending']);
 }
 
+/**
+ * Confirma todos os documentos do perfil na versão publicada do documento
+ * consolidado: o blob montado incluiu verbatim o conteúdo atual de cada
+ * registro, então um PUT bem-sucedido os confirma em conjunto. Isso elimina
+ * a defasagem cruzada de versões entre seções do mesmo perfil.
+ */
+export async function confirmProfileDocumentsSynced(
+  profileId: string,
+  version: number,
+  createdAt: string | null,
+): Promise<void> {
+  const database = await openOfflineDb();
+
+  const confirmShared = async (storeName: SharedStoreName): Promise<void> => {
+    const record = await database.get(storeName, profileId);
+    if (!record || record.remoteVersion === version) return;
+    await database.put(storeName, {
+      ...record,
+      remoteVersion: version,
+      remoteCreatedAt: createdAt,
+      dirtyFields: [],
+      outboxState: 'clean' as const,
+    });
+  };
+
+  for (const record of await database.getAllFromIndex('responses', 'by-profile', profileId)) {
+    if (record.remoteVersion === version) continue;
+    await database.put('responses', {
+      ...record,
+      remoteVersion: version,
+      remoteCreatedAt: createdAt,
+      dirtyQuestionIds: [],
+      outboxState: 'clean' as const,
+    });
+  }
+  for (const record of await database.getAllFromIndex('simulados', 'by-profile', profileId)) {
+    if (record.remoteVersion === version) continue;
+    await database.put('simulados', {
+      ...record,
+      remoteVersion: version,
+      remoteCreatedAt: createdAt,
+      outboxState: 'clean' as const,
+    });
+  }
+  await confirmShared('preferences');
+  await confirmShared('estudados');
+  await confirmShared('leitura');
+  await confirmShared('progress');
+  await confirmShared('simuladosIndex');
+}
+
 export async function listProfileAnswerRecords(profileId: string): Promise<LocalAnswerRecord[]> {
   return (await openOfflineDb()).getAllFromIndex('responses', 'by-profile', profileId);
 }

@@ -9,7 +9,13 @@ import {
   buildStudiedDocumentId,
   getActiveAlias,
 } from './identity';
-import { KvClientError, readKv, writeKv } from './kv-client';
+import { KvClientError } from './kv-client';
+import {
+  loadRemoteProfile,
+  publishProfileSection,
+  type RemoteProfileSnapshot,
+} from './profile-remote';
+import { profileAnswerKey } from './profile-document';
 import {
   acquireSyncLease,
   getLocalAnswerRecord,
@@ -158,6 +164,12 @@ let serialQueue: Promise<unknown> = Promise.resolve();
 let runtimeStarted = false;
 let broadcast: BroadcastChannel | null = null;
 const activeProfileSyncs = new Map<string, Promise<boolean>>();
+// Snapshot do perfil consolidado carregado na execução corrente; evita
+// reler o documento remoto a cada seção/entrada.
+let remoteProfileMetaCache: { alias: string; snapshot: RemoteProfileSnapshot } | null = null;
+export function invalidateRemoteProfileCache(): void {
+  remoteProfileMetaCache = null;
+}
 const rerunProfiles = new Set<string>();
 const lastSharedSyncAt = new Map<string, number>();
 
@@ -236,7 +248,9 @@ async function materializeProfileProgress(
         entry.questionSet,
         document,
         preferences.correctionMode,
-        record?.remoteVersion ?? 0,
+        // Revisão LOCAL da resposta: estável sob publicações não relacionadas
+        // (a versão do perfil consolidado muda com qualquer seção).
+        record?.localRevision ?? 0,
       );
   }
   return { schemaVersion: 1, subjects };
@@ -282,34 +296,54 @@ export function recreationWarning(
   return null;
 }
 
-async function validatedRemote(
+async function ensureRemoteProfileSnapshot(
   profileId: string,
-  documentId: string,
-  questionSet: AnswerableQuestionSet,
   ensureLease: EnsureSyncLease,
-): Promise<RemoteDocument<AnswerDocument> | null> {
+): Promise<RemoteProfileSnapshot> {
   await ensureLease();
   await requestGate.wait();
   await ensureLease();
-  const envelope = await readKv(documentId, {
+  const snapshot = await loadRemoteProfile(profileId, {
     beforeRetry: async () => {
       await ensureLease();
       return true;
     },
   });
   await ensureLease();
-  if (!envelope) return null;
+  return snapshot;
+}
+
+function answerKeyFromDocumentId(profileId: string, documentId: string): string {
+  return documentId.slice(`concursos--${profileId}--`.length);
+}
+
+async function validatedRemote(
+  profileId: string,
+  documentId: string,
+  questionSet: AnswerableQuestionSet,
+  ensureLease: EnsureSyncLease,
+): Promise<RemoteDocument<AnswerDocument> | null> {
+  // Uma única leitura do perfil consolidado alimenta todas as seções;
+  // chamadas sucessivas reusam o snapshot já carregado nesta execução.
+  const snapshot = remoteProfileMetaCache?.alias === profileId
+    ? remoteProfileMetaCache.snapshot
+    : await ensureRemoteProfileSnapshot(profileId, ensureLease);
+  remoteProfileMetaCache = { alias: profileId, snapshot };
+
+  const json = snapshot.sections?.answers[answerKeyFromDocumentId(profileId, documentId)];
+  if (json === undefined) return null;
+  const envelopeLike = { version: snapshot.version, created_at: snapshot.created_at };
 
   try {
     return {
-      document: parseRemoteAnswerDocument(envelope.json, questionSet),
-      version: envelope.version,
-      createdAt: envelope.created_at,
+      document: parseRemoteAnswerDocument(json, questionSet),
+      version: envelopeLike.version,
+      createdAt: envelopeLike.created_at,
     };
   } catch (error) {
     if (error instanceof NewerQuestionSetRevisionError) throw error;
     const reason = error instanceof Error ? error.message : 'Documento remoto inválido';
-    await quarantineRemoteDocument({ profileId, documentId, reason, value: envelope.json });
+    await quarantineRemoteDocument({ profileId, documentId, reason, value: json });
     throw new Error(reason);
   }
 }
@@ -320,6 +354,9 @@ async function synchronizeRecord(
   questionSet: AnswerableQuestionSet,
   ensureLease: EnsureSyncLease,
 ): Promise<void> {
+  // Sincronização interativa: releia o perfil consolidado para arbitrar
+  // contra o estado remoto atual, não contra o snapshot do bootstrap.
+  invalidateRemoteProfileCache();
   const remote = await validatedRemote(profileId, documentId, questionSet, ensureLease);
   await applyAnswerRemote(profileId, documentId, questionSet, remote, ensureLease);
 }
@@ -382,12 +419,17 @@ async function applyAnswerRemote(
   const localDocument = reconcileAnswerDocument(record.current, questionSet);
   await requestGate.wait();
   await ensureLease();
-  const written = await writeKv(documentId, localDocument, {
-    beforeRetry: async () => {
-      await ensureLease();
-      return true;
+  const written = await publishProfileSection(
+    profileId,
+    'answers',
+    { [answerKeyFromDocumentId(profileId, documentId)]: localDocument },
+    {
+      beforeRetry: async () => {
+        await ensureLease();
+        return true;
+      },
     },
-  });
+  );
   await ensureLease();
   const expectedVersion = remote?.version ?? 0;
   const warnings = [
@@ -438,17 +480,15 @@ async function validatedSharedRemote<T extends Preferences | ProgressDocument | 
   documentId: string,
   ensureLease: EnsureSyncLease,
 ): Promise<RemoteDocument<T> | null> {
-  await ensureLease();
-  await requestGate.wait();
-  await ensureLease();
-  const envelope = await readKv(documentId, {
-    beforeRetry: async () => {
-      await ensureLease();
-      return true;
-    },
-  });
-  await ensureLease();
-  if (!envelope) return null;
+  const snapshot = remoteProfileMetaCache?.alias === profileId
+    ? remoteProfileMetaCache.snapshot
+    : await ensureRemoteProfileSnapshot(profileId, ensureLease);
+  remoteProfileMetaCache = { alias: profileId, snapshot };
+
+  const sectionName = storeName === 'progress' ? 'progresso' : storeName === 'simuladosIndex' ? 'simuladosIndice' : storeName;
+  const json = snapshot.sections?.[sectionName];
+  if (json === undefined || json === null) return null;
+  const envelopeLike = { version: snapshot.version, created_at: snapshot.created_at };
 
   const schema =
     storeName === 'preferences'
@@ -458,17 +498,17 @@ async function validatedSharedRemote<T extends Preferences | ProgressDocument | 
         : storeName === 'leitura'
           ? readingPreferencesSchema
           : progressSchema;
-  const parsed = schema.safeParse(envelope.json);
+  const parsed = schema.safeParse(json);
   if (!parsed.success) {
     const reason = `Documento remoto de ${storeName} inválido`;
-    await quarantineRemoteDocument({ profileId, documentId, reason, value: envelope.json });
+    await quarantineRemoteDocument({ profileId, documentId, reason, value: json });
     await markSharedDocumentError(storeName, profileId, reason);
     throw new Error(reason);
   }
   return {
     document: parsed.data as T,
-    version: envelope.version,
-    createdAt: envelope.created_at,
+    version: envelopeLike.version,
+    createdAt: envelopeLike.created_at,
   };
 }
 
@@ -479,6 +519,8 @@ async function synchronizeSharedDocument(
   ensureLease: EnsureSyncLease,
   options: SharedSyncOptions = {},
 ): Promise<boolean> {
+  // Sincronização interativa: releia o perfil consolidado (ver synchronizeRecord).
+  invalidateRemoteProfileCache();
   let record = await getSharedDocumentRecord(storeName, profileId);
   if (!(await sharedSyncPreconditionsMet(profileId, record, options))) return false;
   const remote = await validatedSharedRemote<Preferences | ProgressDocument | StudiedDocument | ReadingPreferences>(
@@ -526,6 +568,32 @@ async function applySharedRemote(
     );
     remote = sanitized.document;
     remoteProgressChanged ||= sanitized.changed;
+  }
+
+  // Fast-path de consolidação: conteúdo idêntico ao remoto não precisa ser
+  // publicado de novo — registro limpo apenas acompanha a versão do perfil;
+  // pendência com conteúdo já publicado tinha o sinalizador obsoleto e é
+  // limpa aqui. Sem isso, a versão compartilhada por todas as seções faria
+  // qualquer publicação tornar as demais cronicamente "defasadas".
+  if (
+    record &&
+    (record.outboxState === 'clean' || record.outboxState === 'pending') &&
+    remoteSnapshot &&
+    remote &&
+    JSON.stringify(record.current) === JSON.stringify(remote)
+  ) {
+    if (record.remoteVersion !== remoteSnapshot.version || record.remoteCreatedAt !== remoteSnapshot.createdAt) {
+      await markSharedDocumentSynced({
+        storeName,
+        profileId,
+        expectedLocalRevision: record.localRevision,
+        synchronizedDocument: remote as never,
+        remoteVersion: remoteSnapshot.version,
+        remoteCreatedAt: remoteSnapshot.createdAt,
+        conflictWarning: recreationWarning(record, remoteSnapshot.version, remoteSnapshot.createdAt),
+      });
+    }
+    return true;
   }
 
   const action = resolveVersionAction(record ?? null, remoteSnapshot?.version ?? null);
@@ -641,8 +709,9 @@ async function applySharedRemote(
   };
   if (!(await progressWriteStillCurrent())) return false;
   await ensureLease();
-  const written = await writeKv(
-    documentId,
+  const written = await publishProfileSection(
+    profileId,
+    storeName === 'progress' ? 'progresso' : storeName === 'simuladosIndex' ? 'simuladosIndice' : storeName,
     localDocument,
     {
       beforeRetry: async () => {
@@ -727,6 +796,8 @@ async function readProfilePreflight(
   await ensureLease();
   const catalog = await loadSyncCatalog();
   await ensureLease();
+  // Uma única leitura do perfil consolidado alimenta todas as seções.
+  invalidateRemoteProfileCache();
   const preferences = await validatedSharedRemote<Preferences>(
     profileId,
     'preferences',

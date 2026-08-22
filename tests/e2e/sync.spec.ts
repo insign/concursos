@@ -1,12 +1,15 @@
-import { expect, installMockKvRoute, test } from './fixtures';
+import { expect, installMockKvRoute, test, readStoredProfile, seedRemoteProfile, type MockKvDocument } from './fixtures';
 import type { Page, Route } from '@playwright/test';
 
 const alias = 'sync-7f3k';
-const documentId = 'concursos--sync-7f3k--exemplo--fundamentos';
+const answerDocumentId = 'concursos--sync-7f3k--exemplo--fundamentos';
+const answerKey = 'exemplo--fundamentos';
 const questionnaireUrl = '/concursos/concurso-exemplo/assunto-exemplo/questoes/';
 const kvRoute = 'https://kv.helio.me/**';
 
 const blockKv = (route: Route) => route.abort('internetdisconnected');
+
+type KvStore = Map<string, MockKvDocument>;
 
 function remoteDocument(optionId: string) {
   return {
@@ -17,6 +20,12 @@ function remoteDocument(optionId: string) {
     },
     submission: null,
   };
+}
+
+function storedAnswerSection(kvStore: KvStore) {
+  return readStoredProfile(kvStore, alias)?.json.answers[answerKey] as
+    | ReturnType<typeof remoteDocument>
+    | undefined;
 }
 
 async function storedAnswerDocument(page: Page): Promise<ReturnType<typeof remoteDocument> | undefined> {
@@ -32,7 +41,7 @@ async function storedAnswerDocument(page: Page): Promise<ReturnType<typeof remot
           read.onsuccess = () => resolve(read.result?.current);
         };
       }),
-    documentId,
+    answerDocumentId,
   );
 }
 
@@ -41,10 +50,9 @@ test.beforeEach(async ({ page }) => {
 });
 
 test('pulls a valid remote document into an empty local profile', async ({ page, kvStore }) => {
-  kvStore.set(documentId, {
+  seedRemoteProfile(kvStore, alias, {
     version: 3,
-    createdAt: '2026-07-13T12:00:00.000Z',
-    json: remoteDocument('b'),
+    sections: { answers: { [answerKey]: remoteDocument('b') } },
   });
 
   await page.goto(questionnaireUrl);
@@ -53,16 +61,21 @@ test('pulls a valid remote document into an empty local profile', async ({ page,
 });
 
 test('disables an older questionnaire when the remote revision is newer', async ({ page, kvStore }) => {
-  kvStore.set(documentId, {
+  seedRemoteProfile(kvStore, alias, {
     version: 3,
-    createdAt: '2026-07-13T12:00:00.000Z',
-    json: { ...remoteDocument('b'), questionSetRevision: 2 },
+    sections: { answers: { [answerKey]: { ...remoteDocument('b'), questionSetRevision: 2 } } },
   });
 
   await page.goto(questionnaireUrl);
   await expect(page.getByText(/revisão editorial mais nova/i)).toBeVisible();
   await expect(page.getByLabel('Eficiência')).toBeDisabled();
-  expect((kvStore.get(documentId)?.json as { questionSetRevision: number }).questionSetRevision).toBe(2);
+  expect(
+    (
+      readStoredProfile(kvStore, alias)?.json.answers[answerKey] as {
+        questionSetRevision: number;
+      }
+    ).questionSetRevision,
+  ).toBe(2);
 });
 
 test('pushes a complete local snapshot without Authorization', async ({ page, kvStore }) => {
@@ -74,34 +87,26 @@ test('pushes a complete local snapshot without Authorization', async ({ page, kv
   await page.goto(questionnaireUrl);
   await page.getByLabel('Eficiência').check();
 
-  await expect.poll(() => {
-    const json = kvStore.get(documentId)?.json as ReturnType<typeof remoteDocument> | undefined;
-    return json?.answers.q001?.optionId;
-  }).toBe('b');
+  await expect.poll(() => storedAnswerSection(kvStore)?.answers.q001?.optionId).toBe('b');
   expect(requests.every((headers) => headers.authorization === undefined)).toBe(true);
 });
 
 test('uses the last observed remote answer for a same-question conflict', async ({ page, kvStore }) => {
-  kvStore.set(documentId, {
+  seedRemoteProfile(kvStore, alias, {
     version: 3,
-    createdAt: '2026-07-13T12:00:00.000Z',
-    json: remoteDocument('a'),
+    sections: { answers: { [answerKey]: remoteDocument('a') } },
   });
   await page.goto(questionnaireUrl);
   await expect(page.getByLabel('Efetividade')).toBeChecked();
 
-  kvStore.set(documentId, {
+  seedRemoteProfile(kvStore, alias, {
     version: 4,
-    createdAt: '2026-07-13T12:00:00.000Z',
-    json: remoteDocument('c'),
+    sections: { answers: { [answerKey]: remoteDocument('c') } },
   });
   await page.getByLabel('Eficiência').check();
 
   await expect(page.getByLabel('Legalidade')).toBeChecked();
-  await expect.poll(() => {
-    const json = kvStore.get(documentId)?.json as ReturnType<typeof remoteDocument> | undefined;
-    return json?.answers.q001?.optionId;
-  }).toBe('c');
+  await expect.poll(() => storedAnswerSection(kvStore)?.answers.q001?.optionId).toBe('c');
 });
 
 test('preserves independent answers written from two tabs', async ({ page, context, kvStore }) => {
@@ -115,10 +120,7 @@ test('preserves independent answers written from two tabs', async ({ page, conte
   await secondPage.getByLabel('Eficácia').check();
   await expect(secondPage.getByText(/Resposta salva localmente/)).toBeVisible();
 
-  await expect.poll(() => {
-    const json = kvStore.get(documentId)?.json as ReturnType<typeof remoteDocument> | undefined;
-    return json?.answers;
-  }).toMatchObject({
+  await expect.poll(() => storedAnswerSection(kvStore)?.answers).toMatchObject({
     q001: { optionId: 'b', questionRevision: 1 },
     q002: { optionId: 'a', questionRevision: 1 },
   });
@@ -157,7 +159,7 @@ test('finalizes the latest durable answers when another tab is stale', async ({ 
   await context.unroute(kvRoute, blockKv);
   await stalePage.evaluate(() => window.dispatchEvent(new Event('online')));
   await expect.poll(() => {
-    const json = kvStore.get(documentId)?.json as
+    const json = storedAnswerSection(kvStore) as
       | (ReturnType<typeof remoteDocument> & { submission: unknown })
       | undefined;
     return { answers: json?.answers, submitted: Boolean(json?.submission) };
@@ -187,17 +189,11 @@ test('preserves an offline pending answer without known remote lineage', async (
   await otherPage.addInitScript((value) => localStorage.setItem('concursos:active-alias', value), alias);
   await otherPage.goto(questionnaireUrl);
   await otherPage.getByLabel('Efetividade').check();
-  await expect.poll(() => {
-    const json = kvStore.get(documentId)?.json as ReturnType<typeof remoteDocument> | undefined;
-    return json?.answers.q001?.optionId;
-  }).toBe('a');
+  await expect.poll(() => storedAnswerSection(kvStore)?.answers.q001?.optionId).toBe('a');
 
   await context.unroute(kvRoute, blockKv);
   await page.evaluate(() => window.dispatchEvent(new Event('online')));
   await expect(page.getByLabel('Eficiência')).toBeChecked();
-  await expect.poll(() => {
-    const json = kvStore.get(documentId)?.json as ReturnType<typeof remoteDocument> | undefined;
-    return json?.answers.q001?.optionId;
-  }).toBe('b');
+  await expect.poll(() => storedAnswerSection(kvStore)?.answers.q001?.optionId).toBe('b');
   await otherContext.close();
 });

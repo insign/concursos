@@ -2,7 +2,7 @@ import { expect, test } from './fixtures';
 
 const alias = 'simulados-2026-teste';
 const contestStorageId = 'tcema-2026-adm';
-const indexDocumentId = `concursos--${alias}--simulados`;
+const profileDocId = `concursos--${alias}--perfil`;
 
 test.beforeEach(async ({ page }) => {
   await page.addInitScript((value) => {
@@ -75,13 +75,19 @@ test('publishes the detailed document before the profile index and sends no Auth
   await page.getByRole('button', { name: 'Gerar simulado', exact: true }).click();
 
   await expect
-    .poll(() => kvStore.get(indexDocumentId)?.json, { timeout: 30_000 })
-    .toBeTruthy();
+    .poll(() => {
+      const json = (kvStore.get(profileDocId)?.json ?? {}) as {
+        simuladosDetalhes?: Record<string, unknown>;
+        simuladosIndice?: { simulados?: unknown[] };
+      };
+      const hasDetail = Boolean(json.simuladosDetalhes && Object.keys(json.simuladosDetalhes).length > 0);
+      const hasIndex = (json.simuladosIndice?.simulados?.length ?? 0) > 0;
+      return hasDetail && hasIndex;
+    }, { timeout: 30_000 })
+    .toBe(true);
 
-  const detailIndex = writes.findIndex((id) => id.includes('--simulado--'));
-  const summaryIndex = writes.findIndex((id) => id === indexDocumentId);
-  expect(detailIndex).toBeGreaterThanOrEqual(0);
-  expect(summaryIndex).toBeGreaterThan(detailIndex);
+  expect(writes.every((id) => id === profileDocId)).toBe(true);
+  expect(writes.length).toBeGreaterThanOrEqual(1);
   expect(authorizationHeaders).toEqual([]);
 });
 
@@ -102,45 +108,46 @@ test('restores a remote simulation on another device with the same alias', async
     updatedAt: timestamp,
     completedAt: null,
   };
-  kvStore.set(indexDocumentId, {
-    version: 3,
+  const detailDocument = {
+    schemaVersion: 1,
+    simulationId,
+    status: 'in_progress',
     createdAt: timestamp,
-    json: { schemaVersion: 1, simulados: [summary] },
-  });
-  kvStore.set(detailDocumentId, {
-    version: 2,
+    updatedAt: timestamp,
+    completedAt: null,
+    configuration: {
+      contestStorageId,
+      subjectStorageIds: ['portugues'],
+      origin: 'all',
+      questionCount: 1,
+    },
+    questions: [
+      {
+        contestStorageId,
+        subjectStorageId: 'portugues',
+        questionId: 'questao-remota-1',
+        questionRevision: 1,
+        origin: 'previous_exam',
+        prompt: 'Questão recuperada de outro dispositivo',
+        options: [
+          { id: 'a', text: 'Alternativa A' },
+          { id: 'b', text: 'Alternativa B' },
+        ],
+        correctOptionId: 'a',
+        explanation: 'Explicação preservada no snapshot.',
+      },
+    ],
+    answers: {},
+    result: null,
+  };
+  kvStore.set(profileDocId, {
+    version: 3,
     createdAt: timestamp,
     json: {
       schemaVersion: 1,
-      simulationId,
-      status: 'in_progress',
-      createdAt: timestamp,
-      updatedAt: timestamp,
-      completedAt: null,
-      configuration: {
-        contestStorageId,
-        subjectStorageIds: ['portugues'],
-        origin: 'all',
-        questionCount: 1,
-      },
-      questions: [
-        {
-          contestStorageId,
-          subjectStorageId: 'portugues',
-          questionId: 'questao-remota-1',
-          questionRevision: 1,
-          origin: 'previous_exam',
-          prompt: 'Questão recuperada de outro dispositivo',
-          options: [
-            { id: 'a', text: 'Alternativa A' },
-            { id: 'b', text: 'Alternativa B' },
-          ],
-          correctOptionId: 'a',
-          explanation: 'Explicação preservada no snapshot.',
-        },
-      ],
       answers: {},
-      result: null,
+      simuladosIndice: { schemaVersion: 1, simulados: [summary] },
+      simuladosDetalhes: { [simulationId]: detailDocument },
     },
   });
 
