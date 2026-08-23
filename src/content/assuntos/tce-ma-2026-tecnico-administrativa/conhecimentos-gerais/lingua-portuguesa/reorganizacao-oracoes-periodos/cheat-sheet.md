@@ -8,7 +8,7 @@ Uma transformação pode falhar em três níveis independentes:
 |---|---|
 | gramática | a estrutura final está correta? |
 | equivalência | participantes, relações, tempo, modalidade e referente foram preservados? |
-| foco | a informação principal, o escopo e a hierarquia discursiva continuam adequados ao comando? |
+| foco | a informação principal, o <abbr title="alcance interpretativo de um operador na frase">escopo</abbr> e a hierarquia discursiva continuam adequados ao comando? |
 
 **Gramatical ≠ necessariamente equivalente.**
 
@@ -130,7 +130,7 @@ Sujeito elíptico recuperável; nenhuma relação nova foi inventada.
 | pode aprovar | pode ser aprovado |
 | havia aprovado | havia sido aprovado |
 
-- OD → sujeito paciente.
+- <abbr title="objeto direto">OD</abbr> → sujeito paciente.
 - Auxiliar e particípio concordam com o novo sujeito.
 - Agente omitido pode significar perda de informação.
 - Ativa tende a focalizar agente; passiva, paciente.
@@ -160,7 +160,7 @@ Não invente agente na verbalização se a forma nominal não o informa.
 ## Elipse, paralelismo e referência
 
 - Elipse segura: `A equipe revisou e encaminhou o processo.`
-- Zeugma: `A equipe analisou o contrato; o setor, o parecer.`
+- <abbr title="omissão de termo já expresso anteriormente">Zeugma</abbr>: `A equipe analisou o contrato; o setor, o parecer.`
 - Paralelo: `analisar, elaborar e comunicar`.
 - Quebra: `analisar, a elaboração e que comunique`.
 - Fusão/deslocamento pode aproximar dois antecedentes e tornar um pronome ambíguo.

@@ -124,7 +124,7 @@ A **Lei nº 14.533/2023** instituiu a Política Nacional de Educação Digital (
 | **I. Inclusão Digital** | acesso e desenvolvimento de competências digitais, midiáticas e informacionais |
 | **II. Educação Digital Escolar** | inserção da educação digital nos ambientes escolares |
 | **III. Capacitação e Especialização Digital** | competências para inserção e desenvolvimento no mundo do trabalho |
-| **IV. Pesquisa e Desenvolvimento em TICs** | promoção de tecnologias acessíveis e inclusivas |
+| **IV. Pesquisa e Desenvolvimento em <abbr title="Tecnologias da Informação e Comunicação">TICs</abbr>** | promoção de tecnologias acessíveis e inclusivas |
 
 > A PNED possui quatro eixos estruturantes. Ela é instância de articulação e **não substitui** políticas nacionais, estaduais, distritais ou municipais relacionadas ao tema.
 
@@ -362,7 +362,7 @@ Perguntas essenciais:
 - o titular entende o tratamento e consegue exercer direitos?
 - quem responde pelo resultado e como ele pode ser contestado?
 
-Anonimizar, agregar ou pseudonimizar dados pode reduzir riscos, mas cada técnica possui limites. Dados anonimizados deixam de ser pessoais para a LGPD quando o processo não puder ser revertido por meios próprios ou esforços razoáveis, considerados fatores objetivos. **Pseudonimização não equivale automaticamente a anonimização**: ainda pode haver associação ao titular mediante informação adicional mantida separadamente.
+Anonimizar, agregar ou pseudonimizar dados pode reduzir riscos, mas cada técnica possui limites. Dados anonimizados deixam de ser pessoais para a <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> quando o processo não puder ser revertido por meios próprios ou esforços razoáveis, considerados fatores objetivos. **Pseudonimização não equivale automaticamente a anonimização**: ainda pode haver associação ao titular mediante informação adicional mantida separadamente.
 
 ### 9.1 Ciclo ético dos dados
 
@@ -413,7 +413,7 @@ Um órgão pretende publicar painel de tempo de atendimento. A solução respons
 5. testa distorções e acessibilidade;
 6. informa metodologia e limitações.
 
-Publicar nome e CPF de cada usuário porque “transparência é absoluta” violaria necessidade e finalidade.
+Publicar nome e <abbr title="Cadastro de Pessoas Físicas">CPF</abbr> de cada usuário porque “transparência é absoluta” violaria necessidade e finalidade.
 
 ### 11.2 Triagem automatizada
 
