@@ -103,7 +103,8 @@ test('renders each subject as a compact item with only the title (issue #99)', a
   );
 
   // Sem alias/progresso, o item exibe exclusivamente o título como texto VISÍVEL
-  // (badge de progresso e indicador de estudado ocultos; sem descrição).
+  // (badge de progresso oculto; o check de conclusão é apenas ícone, sem texto;
+  // sem descrição).
   await expect(card).toHaveText(exampleSubject, { useInnerText: true });
 
   // Nenhuma descrição de assunto é renderizada em qualquer item da listagem...

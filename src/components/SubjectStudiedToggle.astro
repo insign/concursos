@@ -1,0 +1,181 @@
+---
+interface Props {
+  contestStorageId: string;
+  subjectStorageId: string;
+}
+
+const { contestStorageId, subjectStorageId } = Astro.props;
+---
+
+<button
+  type="button"
+  class="subject-studied-toggle"
+  data-subject-studied-toggle
+  data-subject-id={`${contestStorageId}--${subjectStorageId}`}
+  data-contest-storage-id={contestStorageId}
+  data-subject-storage-id={subjectStorageId}
+  data-state="unstudied"
+  aria-label="Marcar como concluído"
+  disabled
+>
+  <svg class="subject-action-icon" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="m5 12 4 4L19 6" />
+  </svg>
+</button>
+
+<script>
+  import { getActiveAlias } from '../lib/identity';
+  import { isStudied, loadStudied, setSubjectStudied } from '../lib/studied';
+  import { requestProfileSync } from '../lib/sync';
+  import { getNavigationRecord } from '../lib/navigation-db';
+  import { canResumeReading } from '../lib/navigation';
+  import { whenNavigationReady } from '../lib/navigation-runtime';
+
+  const buttons = Array.from(
+    document.querySelectorAll<HTMLButtonElement>('[data-subject-studied-toggle]'),
+  );
+  const studiedBroadcast =
+    'BroadcastChannel' in window ? new BroadcastChannel('concursos-studied') : null;
+
+  // Rótulo de AÇÃO descreve o que o clique fará (mesma convenção do StudiedToggle das
+  // páginas de estudo: sem aria-pressed, que contradiria o rótulo da ação inversa).
+  const render = (button: HTMLButtonElement, studied: boolean) => {
+    button.dataset.state = studied ? 'studied' : 'unstudied';
+    button.setAttribute('aria-label', studied ? 'Desfazer conclusão' : 'Marcar como concluído');
+  };
+
+  const renderUnavailable = () => {
+    for (const button of buttons) {
+      button.disabled = true;
+      delete button.dataset.progress;
+      button.setAttribute(
+        'aria-label',
+        'Marcar como concluído (defina um alias em Configurações)',
+      );
+    }
+  };
+
+  let studiedRevision = 0;
+  // Perfil que produziu o estado atualmente renderizado: cliques sob outro alias
+  // (ex.: troca em outra aba sem reload) devem atualizar o estado antes de agir.
+  let renderedProfile: string | null = null;
+  const applyFromStore = async () => {
+    const revision = ++studiedRevision;
+    const profileId = getActiveAlias();
+    if (!profileId) {
+      renderedProfile = null;
+      renderUnavailable();
+      return;
+    }
+    const studiedDocument = await loadStudied(profileId);
+    if (revision !== studiedRevision || getActiveAlias() !== profileId) return;
+    for (const button of buttons) {
+      render(button, isStudied(studiedDocument, button.dataset.subjectId!));
+      button.disabled = false;
+    }
+    renderedProfile = profileId;
+  };
+
+  let progressRevision = 0;
+  const refreshProgress = async () => {
+    const revision = ++progressRevision;
+    const profileId = getActiveAlias();
+    if (!profileId) {
+      for (const button of buttons) delete button.dataset.progress;
+      return;
+    }
+    let activeContestId: string | undefined;
+    let activeSubjectId: string | undefined;
+    try {
+      await whenNavigationReady(profileId);
+      if (revision !== progressRevision || getActiveAlias() !== profileId) return;
+      const record = await getNavigationRecord(profileId);
+      const context = record?.current.context;
+      if (
+        record &&
+        context?.contestStorageId &&
+        canResumeReading(record.current, context.contestStorageId)
+      ) {
+        activeContestId = context.contestStorageId;
+        activeSubjectId = context.subjectStorageId ?? undefined;
+      }
+    } catch {
+      // Runtime ou registro indisponível: nenhum assunto em andamento.
+    }
+    if (revision !== progressRevision || getActiveAlias() !== profileId) return;
+    for (const button of buttons) {
+      if (
+        activeSubjectId &&
+        activeContestId === button.dataset.contestStorageId &&
+        activeSubjectId === button.dataset.subjectStorageId
+      ) {
+        button.dataset.progress = 'true';
+      } else {
+        delete button.dataset.progress;
+      }
+    }
+  };
+
+  const refresh = () => {
+    void applyFromStore();
+    void refreshProgress();
+  };
+
+  for (const button of buttons) {
+    // Guarda de reentrância em vez de disabled, para não perder o foco de teclado.
+    let busy = false;
+    button.addEventListener('click', async () => {
+      const profileId = getActiveAlias();
+      if (!profileId || busy) return;
+      if (renderedProfile !== profileId) {
+        // Estado renderizado de outro perfil: sincronize antes de agir.
+        void applyFromStore();
+        void refreshProgress();
+        return;
+      }
+      busy = true;
+      const next = button.dataset.state !== 'studied';
+      render(button, next); // resposta imediata
+      try {
+        await setSubjectStudied(profileId, button.dataset.subjectId!, next);
+        const detail = {
+          profileId,
+          contestStorageId: button.dataset.contestStorageId!,
+          subjectStorageId: button.dataset.subjectStorageId!,
+          studied: next,
+        };
+        // Sem 'concursos:subject-unread': na listagem não há leitura ativa a encerrar,
+        // e o handler global desse evento rolaria a página ao topo. O runtime de
+        // navegação limpa o ponto de leitura via este evento (contrato do StudiedToggle).
+        window.dispatchEvent(new CustomEvent('concursos:studied-updated', { detail }));
+        studiedBroadcast?.postMessage(detail);
+        void requestProfileSync(profileId);
+      } catch {
+        // Falha ao gravar localmente: reverte a UI ao estado real persistido.
+        void applyFromStore();
+      } finally {
+        busy = false;
+      }
+    });
+  }
+
+  refresh();
+  // Garante que o estado remoto (ex.: marcado em outro dispositivo) seja adotado.
+  const initialAlias = getActiveAlias();
+  if (initialAlias) void requestProfileSync(initialAlias);
+
+  window.addEventListener('concursos:studied-updated', (event) => {
+    const detail = (event as CustomEvent<{ profileId?: string }>).detail;
+    if (detail && detail.profileId === getActiveAlias()) refresh();
+  });
+  window.addEventListener('concursos:sync-status', (event) => {
+    const state = (event as CustomEvent<{ state?: string }>).detail?.state;
+    if (state === 'synced' || state === 'error') void applyFromStore();
+  });
+  window.addEventListener('concursos:navigation-updated', refreshProgress);
+  window.addEventListener('concursos:navigation-synced', refreshProgress);
+  window.addEventListener('concursos:profile-changed', refresh);
+  // Volta de outra aba pode ter mudado o alias (sem evento): reavalie tudo.
+  window.addEventListener('focus', refresh);
+  window.addEventListener('pageshow', refresh);
+</script>

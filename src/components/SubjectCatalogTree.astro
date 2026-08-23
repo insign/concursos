@@ -1,6 +1,6 @@
 ---
 import ProgressSummary from './ProgressSummary.astro';
-import SubjectStudiedIndicator from './SubjectStudiedIndicator.astro';
+import SubjectStudiedToggle from './SubjectStudiedToggle.astro';
 import type { CatalogContest, CatalogTreeNode } from '../lib/catalog';
 import { megaReviewRoute } from '../lib/mega-review-routes';
 
@@ -38,7 +38,7 @@ const rootTreeId = depth === 0 ? `subject-tree-${contest.storageId}` : undefined
           <article class="subject-card">
             <a class="subject-card-title" href={`/concursos/${contest.slug}/${node.slug}/`}>{node.title}</a>
             <div class="subject-card-meta">
-              <SubjectStudiedIndicator
+              <SubjectStudiedToggle
                 contestStorageId={contest.storageId}
                 subjectStorageId={node.storageId}
               />

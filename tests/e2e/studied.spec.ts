@@ -115,21 +115,27 @@ test('marks a subject as studied and persists it across reloads', async ({ page 
   await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
 });
 
-test('shows and removes the studied indicator in the catalog listing', async ({ page }) => {
+test('toggles the completed check directly in the catalog listing', async ({ page }) => {
+  await page.goto(contestUrl);
+  const toggle = page.locator(`[data-subject-studied-toggle][data-subject-id="${subjectId}"]`);
+  await expect(toggle).toBeEnabled();
+  await expect(toggle).toHaveAttribute('data-state', 'unstudied');
+
+  await toggle.click();
+  await expect(toggle).toHaveAttribute('data-state', 'studied');
+  await expect(toggle).toHaveAttribute('aria-label', 'Desfazer conclusão');
+
+  // O estado persiste e é compartilhado com o controle da página do assunto.
+  await page.reload();
+  await expect(toggle).toHaveAttribute('data-state', 'studied');
   await page.goto(contentUrl);
-  await page.getByRole('button', { name: 'Marcar como concluído' }).click();
   await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
 
+  // Desmarcar pela listagem volta ao check vazio.
   await page.goto(contestUrl);
-  const indicator = page.locator(`[data-subject-studied][data-subject-id="${subjectId}"]`);
-  await expect(indicator).toBeVisible();
-
-  // Desmarca e o indicador some.
-  await page.goto(contentUrl);
-  await page.getByRole('button', { name: 'Desfazer conclusão' }).click();
-  await expect(page.getByRole('button', { name: 'Marcar como concluído' })).toBeVisible();
-  await page.goto(contestUrl);
-  await expect(page.locator(`[data-subject-studied][data-subject-id="${subjectId}"]`)).toBeHidden();
+  await toggle.click();
+  await expect(toggle).toHaveAttribute('data-state', 'unstudied');
+  await expect(toggle).toHaveAttribute('aria-label', 'Marcar como concluído');
 });
 
 test('adopts the studied document from the KV (cross-device restore)', async ({ page, kvStore }) => {
@@ -148,7 +154,9 @@ test('adopts the studied document from the KV (cross-device restore)', async ({ 
   // O coordenador adota o remoto no load e a UI reflete o estado estudado.
   await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
   await page.goto(contestUrl);
-  await expect(page.locator(`[data-subject-studied][data-subject-id="${subjectId}"]`)).toBeVisible();
+  await expect(
+    page.locator(`[data-subject-studied-toggle][data-subject-id="${subjectId}"]`),
+  ).toHaveAttribute('data-state', 'studied');
 });
 
 test('restores the studied state in reading mode without the header coordinator', async ({ page, kvStore }) => {
