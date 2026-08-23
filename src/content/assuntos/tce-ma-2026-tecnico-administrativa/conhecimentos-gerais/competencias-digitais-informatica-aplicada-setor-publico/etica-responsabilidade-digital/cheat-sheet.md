@@ -116,10 +116,10 @@ Priorize:
 
 | Referência | Natureza |
 |---|---|
-| LBI, art. 63 | obrigação jurídica de acessibilidade nos sítios abrangidos |
-| eMAG 3.1 | modelo brasileiro para governo eletrônico |
-| WCAG 2.2 | recomendação técnica W3C |
-| ABNT NBR 17225:2025 | norma brasileira para conteúdo e aplicações web |
+| <abbr title="Lei Brasileira de Inclusão">LBI</abbr>, art. 63 | obrigação jurídica de acessibilidade nos sítios abrangidos |
+| <abbr title="Modelo de Acessibilidade em Governo Eletrônico">eMAG</abbr> 3.1 | modelo brasileiro para governo eletrônico |
+| <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.2 | recomendação técnica <abbr title="World Wide Web Consortium">W3C</abbr> |
+| <abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr> NBR 17225:2025 | norma brasileira para conteúdo e aplicações web |
 | Lei nº 15.263/2025 | política de linguagem simples |
 
 ### POUR

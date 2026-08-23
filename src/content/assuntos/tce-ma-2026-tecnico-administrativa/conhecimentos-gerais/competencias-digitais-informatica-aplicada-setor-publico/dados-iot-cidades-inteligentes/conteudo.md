@@ -8,7 +8,7 @@ storageId: tec-dados-iot-cidades
 
 # Big data, análise de dados, IoT e cidades inteligentes
 
-> **Corte de atualização:** 10 de agosto de 2026. O edital cobra **noções de big data e análise de dados para políticas públicas** e **Internet das Coisas (IoT) em cidades inteligentes**. O foco é conceitual e aplicado: compreender o que os dados permitem concluir, reconhecer componentes básicos de IoT e relacionar tecnologia a problemas urbanos. Engenharia de dados avançada, governança específica de IA e aprofundamentos de privacidade, ética e acessibilidade pertencem a outros recortes.
+> **Corte de atualização:** 10 de agosto de 2026. O edital cobra **noções de big data e análise de dados para políticas públicas** e **Internet das Coisas (IoT) em cidades inteligentes**. O foco é conceitual e aplicado: compreender o que os dados permitem concluir, reconhecer componentes básicos de IoT e relacionar tecnologia a problemas urbanos. Engenharia de dados avançada, governança específica de <abbr title="inteligência artificial">IA</abbr> e aprofundamentos de privacidade, ética e acessibilidade pertencem a outros recortes.
 
 ## 1. Mapa do assunto
 
@@ -45,7 +45,7 @@ Exemplo:
 | Tipo | Ideia central | Exemplos |
 | --- | --- | --- |
 | **estruturado** | campos e esquema previsíveis | tabelas, cadastros, transações |
-| **semiestruturado** | possui chaves ou marcações flexíveis | JSON, XML, logs |
+| **semiestruturado** | possui chaves ou marcações flexíveis | <abbr title="JavaScript Object Notation">JSON</abbr>, <abbr title="Extensible Markup Language">XML</abbr>, logs |
 | **não estruturado** | não nasce organizado em campos tabulares | texto livre, imagem, áudio, vídeo |
 
 **Metadados** descrevem outros dados: significado, fonte, unidade, período, método, atualização e condições de uso.
@@ -179,7 +179,7 @@ Para este edital, basta guardar:
 - integração técnica sem significado comum pode transmitir valores que cada órgão interpreta de maneira diferente;
 - governança é meio para assegurar responsabilidade, qualidade, segurança e uso adequado, não um fim tecnológico em si.
 
-Não é necessário decorar arquiteturas como ETL/ELT, lakehouse ou modelos detalhados de compartilhamento para compreender o núcleo do item 4.5.
+Não é necessário decorar arquiteturas como <abbr title="Extract, Transform, Load">ETL</abbr>/<abbr title="Extract, Load, Transform">ELT</abbr>, lakehouse ou modelos detalhados de compartilhamento para compreender o núcleo do item 4.5.
 
 ---
 
