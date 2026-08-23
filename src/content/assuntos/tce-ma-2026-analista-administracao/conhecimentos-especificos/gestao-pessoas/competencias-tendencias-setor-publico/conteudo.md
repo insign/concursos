@@ -15,9 +15,9 @@ O edital cobra dois núcleos relacionados:
 1. **gestão por competências**;
 2. **tendências em gestão de pessoas no setor público**.
 
-> **Corte de prova:** regras e referências vigentes em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Consultas editoriais posteriores não alteram esse corte.
+> **Corte de prova:** regras e referências vigentes em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Consultas editoriais posteriores não alteram esse corte.
 
-O foco é gerencial. Normas federais, proteção de dados e regras trabalhistas aparecem apenas como **limites ou referências**, quando indispensáveis para compreender uma prática de gestão; não devem transformar o assunto em estudo autônomo de PNDP, PGD, LGPD ou NR-1.
+O foco é gerencial. Normas federais, proteção de dados e regras trabalhistas aparecem apenas como **limites ou referências**, quando indispensáveis para compreender uma prática de gestão; não devem transformar o assunto em estudo autônomo de <abbr title="Política Nacional de Desenvolvimento de Pessoas">PNDP</abbr>, <abbr title="Programa de Gestão e Desempenho">PGD</abbr>, <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> ou <abbr title="Norma Regulamentadora nº 1">NR-1</abbr>.
 
 ## 2. Competência: CHA, mobilização, contexto e entrega
 
@@ -140,7 +140,7 @@ Podem ser combinados:
 - questionários;
 - observação;
 - incidentes críticos;
-- painéis de especialistas e Delphi;
+- painéis de especialistas e <abbr title="método iterativo de consulta a especialistas">Delphi</abbr>;
 - dados de entregas e sistemas.
 
 **Triangulação** combina evidências para reduzir dependência de uma única percepção. Autoavaliação é útil para reflexão, mas não deve ser evidência única para decisões relevantes.
@@ -189,7 +189,7 @@ Uma **trilha de aprendizagem** combina experiências orientadas a determinada ca
 | conhecimento | retenção e transferência do saber crítico | repositório sem uso não produz aprendizagem |
 | reconhecimento | valorização de entregas e desenvolvimento | remuneração depende do regime aplicável |
 
-A gestão por competências deve integrar esses subsistemas, e não funcionar como cadastro isolado do RH.
+A gestão por competências deve integrar esses subsistemas, e não funcionar como cadastro isolado do <abbr title="Recursos Humanos">RH</abbr>.
 
 ## 7. Governança, implantação e avaliação
 
@@ -244,7 +244,7 @@ Indicadores úteis incluem:
 
 Tendência é uma direção relevante de mudança, não moda obrigatória. Deve ser avaliada pela compatibilidade com **evidência, missão, regime jurídico, riscos, maturidade e geração de valor público**.
 
-### 8.1 Transformação digital, IA e automação
+### 8.1 Transformação digital, <abbr title="Inteligência artificial">IA</abbr> e automação
 
 Podem apoiar triagem, organização de informação, aprendizagem, planejamento e decisões. Ganhos de escala e consistência não eliminam a responsabilidade humana.
 
