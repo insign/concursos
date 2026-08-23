@@ -101,6 +101,24 @@ test('refreshes from IndexedDB when an alias changes without reloading', async (
   await expect(page.getByRole('button', { name: 'Resumir leitura' })).toBeVisible();
 });
 
+test('highlights the in-progress subject check in the catalog listing', async ({ page }) => {
+  await page.addInitScript((profileId) => {
+    localStorage.setItem('concursos:active-alias', profileId);
+  }, alias);
+  await page.goto(contestRoute);
+  await seedLocalNavigation(page, readingDocument());
+  await page.evaluate((profileId) => {
+    window.dispatchEvent(
+      new CustomEvent('concursos:navigation-updated', { detail: { profileId } }),
+    );
+  }, alias);
+
+  const inProgress = page.locator(
+    '[data-subject-studied-toggle][data-subject-id="exemplo--fundamentos"]',
+  );
+  await expect(inProgress).toHaveAttribute('data-progress', 'true');
+});
+
 test('waits for remote bootstrap before exposing a stale local candidate', async ({
   page,
   kvStore,

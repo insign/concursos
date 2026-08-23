@@ -685,24 +685,47 @@ a.subject-reading-link:hover {
   color: var(--signal);
 }
 
-/* Indicador de assunto estudado na listagem compacta (#107). */
-.subject-studied-indicator {
+/* Botão de conclusão do assunto na listagem compacta (#107): check vazio quando
+   pendente, fundo verde quando concluído; âmbar enquanto é o assunto em andamento. */
+.subject-studied-toggle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0;
+  border: 1px solid var(--line);
   border-radius: 50%;
-  color: var(--paper);
-  background: var(--positive);
-  font-family: var(--sans);
-  font-size: var(--step--1);
-  font-weight: 800;
-  line-height: 1;
+  color: var(--muted);
+  background: var(--paper);
+  cursor: pointer;
 }
 
-.subject-studied-indicator[hidden] {
-  display: none;
+.subject-studied-toggle:not([data-state='studied']):hover:not(:disabled),
+.subject-studied-toggle:not([data-state='studied']):focus-visible {
+  color: var(--accent-strong);
+  border-color: var(--accent-strong);
+}
+
+.subject-studied-toggle:not([data-state='studied'])[data-progress] {
+  color: var(--status-busy);
+  border-color: var(--status-busy);
+}
+
+.subject-studied-toggle:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.subject-studied-toggle[data-state='studied'] {
+  color: var(--paper);
+  border-color: var(--positive);
+  background: var(--positive);
+}
+
+.subject-studied-toggle .subject-action-icon {
+  width: 1rem;
+  height: 1rem;
 }
 
 /* Entrada do modo de leitura, mantida no fluxo normal fora da barra fixa. */
