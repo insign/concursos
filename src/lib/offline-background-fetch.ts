@@ -22,6 +22,49 @@ export function backgroundFetchSupported(registration: unknown): boolean {
   );
 }
 
+const BG_ID_PREFIX = 'offline-package-';
+
+export interface ActivePackageFetch {
+  id: string;
+  contestStorageId: string;
+}
+
+function backgroundFetchManager(registration: unknown): { getActiveFetches?: () => Promise<Array<{ id: string }>> } | null {
+  if (typeof registration !== 'object' || registration === null) return null;
+  const manager = (registration as { backgroundFetch?: { getActiveFetches?: unknown } }).backgroundFetch;
+  if (!manager || typeof manager.getActiveFetches !== 'function') return null;
+  return manager as { getActiveFetches: () => Promise<Array<{ id: string }>> };
+}
+
+/** Transferências em andamento conduzidas pelo navegador para este app. */
+export async function getActivePackageFetches(
+  registration: unknown,
+): Promise<ActivePackageFetch[]> {
+  const manager = backgroundFetchManager(registration);
+  if (!manager) return [];
+  try {
+    const fetches = await manager.getActiveFetches();
+    return fetches
+      .filter((fetch) => fetch.id.startsWith(BG_ID_PREFIX))
+      .map((fetch) => {
+        // Formato: offline-package-<timestamp 13 dígitos>-<storageId>
+        const rest = fetch.id.slice(BG_ID_PREFIX.length);
+        return { id: fetch.id, contestStorageId: rest.slice(13 + 1) };
+      });
+  } catch {
+    return [];
+  }
+}
+
+export async function hasActivePackageDownload(
+  registration: unknown,
+  storageId: string,
+): Promise<boolean> {
+  return (await getActivePackageFetches(registration)).some(
+    (fetch) => fetch.contestStorageId === storageId,
+  );
+}
+
 export function buildPackageRequests(manifest: OfflinePackageManifest, origin: string): Request[] {
   const resources = [...new Set([...manifest.routes, ...manifest.assets, ...manifest.sharedAssets])];
   return resources.map((resource) => new Request(`${origin}${resource}`, { credentials: 'same-origin' }));
@@ -33,7 +76,7 @@ export async function startBackgroundPackageDownload(
   },
   manifest: OfflinePackageManifest,
 ): Promise<void> {
-  const id = `offline-package-${manifest.contestStorageId}-${Date.now()}`;
+  const id = `offline-package-${Date.now()}-${manifest.contestStorageId}`;
   const manager = registration.backgroundFetch;
   if (!manager?.fetch) throw new Error('Background Fetch indisponível neste navegador.');
   await saveDownloadJob({ id, manifest: structuredClone(manifest), createdAt: Date.now() });
@@ -48,6 +91,12 @@ export async function startBackgroundPackageDownload(
     );
   } catch (error) {
     await deleteDownloadJob(id);
+    const raw = error instanceof Error ? error.message : String(error);
+    if (/too many active fetches/i.test(raw)) {
+      throw new Error(
+        'O navegador atingiu o limite de downloads simultâneos deste site. Aguarde alguns instantes e tente novamente.',
+      );
+    }
     throw error;
   }
 }

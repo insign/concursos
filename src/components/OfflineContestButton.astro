@@ -39,7 +39,7 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
     type OfflinePackageManifest,
   } from '../lib/offline-packages';
   import { subscribeDownloadEvents } from '../lib/offline-download-events';
-  import { backgroundFetchSupported, startBackgroundPackageDownload } from '../lib/offline-background-fetch';
+  import { backgroundFetchSupported, startBackgroundPackageDownload, hasActivePackageDownload } from '../lib/offline-background-fetch';
 
   function formatBytes(bytes: number | null): string {
     if (bytes === null) return '';
@@ -105,12 +105,19 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
           ? await navigator.serviceWorker.ready.catch(() => undefined)
           : undefined;
         if (registration && backgroundFetchSupported(registration)) {
+          // Um download por concurso: clicar de novo não empilha transferências.
+          if (await hasActivePackageDownload(registration, manifest.contestStorageId)) {
+            downloadButton.disabled = true;
+            message.textContent = 'Já existe um download em andamento para este concurso.';
+            return;
+          }
           // Mesmo gate amigável do fluxo em página, antes de entregar ao navegador.
           await assertStorageCapacity(manifest, navigator.storage);
           message.textContent = size
             ? `Download em segundo plano iniciado (${size}). Você pode navegar ou fechar o app.`
             : 'Download em segundo plano iniciado. Você pode navegar ou fechar o app.';
           await startBackgroundPackageDownload(registration, manifest);
+          window.dispatchEvent(new CustomEvent('concursos:download-scan'));
           return;
         }
 
