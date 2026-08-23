@@ -3,9 +3,9 @@
 ## Corte e núcleo
 
 - **Corte de prova:** 6/7/2026.
-- Núcleo 1: **competência → mapeamento → gap → tratamento → integração**.
+- Núcleo 1: **competência → mapeamento → <abbr title="lacuna de competência">gap</abbr> → tratamento → integração**.
 - Núcleo 2: **tendência → oportunidade → risco/guardrail → valor público**.
-- Norma federal específica só entra como referência; não presumir aplicação automática ao TCE-MA.
+- Norma federal específica só entra como referência; não presumir aplicação automática ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## CHA × competência
 
@@ -66,7 +66,7 @@ O gap pode ser individual, de equipe, organizacional ou apenas aparente quando a
 - questionários;
 - observação;
 - incidentes críticos;
-- especialistas/Delphi;
+- especialistas/<abbr title="método iterativo de consulta a especialistas">Delphi</abbr>;
 - dados de entregas e sistemas.
 
 **Triangulação:** combinar fontes para reduzir viés.
@@ -113,7 +113,7 @@ Priorize por:
 ## Governança
 
 - alta administração: direção e prioridade;
-- pessoas/RH: metodologia e integração;
+- pessoas/<abbr title="Recursos Humanos">RH</abbr>: metodologia e integração;
 - gestores: entregas e aplicação;
 - equipes/especialistas: trabalho real;
 - tecnologia, integridade, controle e proteção de dados: riscos específicos.
@@ -137,16 +137,16 @@ Priorize por:
 
 | Tendência | Ganho possível | Risco/guardrail |
 | --- | --- | --- |
-| IA/automação | escala, produtividade, apoio à decisão | opacidade, viés, vigilância; revisão humana real |
-| people analytics | decisões por evidências | correlação ≠ causalidade; qualidade/proteção de dados |
+| <abbr title="Inteligência artificial">IA</abbr>/automação | escala, produtividade, apoio à decisão | opacidade, viés, vigilância; revisão humana real |
+| <abbr title="análise de dados aplicada à gestão de pessoas">people analytics</abbr> | decisões por evidências | correlação ≠ causalidade; qualidade/proteção de dados |
 | sistemas integrados | visão consolidada, menos retrabalho | dado ruim em escala, acesso excessivo, baixa interoperabilidade |
 | autosserviço | agilidade e autonomia operacional | acessibilidade, segurança e suporte |
 | trabalho flexível | autonomia e acesso a talentos | isolamento, viés de proximidade, disponibilidade permanente |
 | aprendizagem contínua | adaptação e proficiência | certificado como fim em si |
-| upskilling | atualizar/aprofundar capacidades atuais | desenvolver sem necessidade real |
-| reskilling | preparar para novas atividades | reconversão sem oportunidade de aplicação |
+| <abbr title="atualização ou aprofundamento de capacidades atuais">upskilling</abbr> | atualizar/aprofundar capacidades atuais | desenvolver sem necessidade real |
+| <abbr title="preparação para novas atividades">reskilling</abbr> | preparar para novas atividades | reconversão sem oportunidade de aplicação |
 | bem-estar | sustentabilidade do desempenho | individualizar problema organizacional |
-| DEIA/acessibilidade | participação e equidade | tokenismo, barreiras, dados usados de modo discriminatório |
+| <abbr title="Diversidade, equidade, inclusão e acessibilidade">DEIA</abbr>/acessibilidade | participação e equidade | tokenismo, barreiras, dados usados de modo discriminatório |
 | gestão do conhecimento | continuidade institucional | repositório sem uso |
 | agilidade/redes | aprendizagem e cooperação | responsabilidades difusas, segurança insuficiente |
 | força de trabalho | antecipar gaps críticos | tratar planejamento como mera contagem de vagas |
