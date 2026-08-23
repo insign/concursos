@@ -29,9 +29,12 @@ export interface ActivePackageFetch {
   contestStorageId: string;
 }
 
-function backgroundFetchManager(registration: unknown): { getActiveFetches?: () => Promise<Array<{ id: string }>> } | null {
+function backgroundFetchManager(
+  registration: unknown,
+): { getActiveFetches: () => Promise<Array<{ id: string }>> } | null {
   if (typeof registration !== 'object' || registration === null) return null;
-  const manager = (registration as { backgroundFetch?: { getActiveFetches?: unknown } }).backgroundFetch;
+  const manager = (registration as { backgroundFetch?: { getActiveFetches?: unknown } })
+    .backgroundFetch;
   if (!manager || typeof manager.getActiveFetches !== 'function') return null;
   return manager as { getActiveFetches: () => Promise<Array<{ id: string }>> };
 }
