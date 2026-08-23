@@ -144,14 +144,20 @@ export function resolveVersionAction(
 class RequestGate {
   private lastRequestAt = 0;
 
+  constructor(private readonly minIntervalMs = 500) {}
+
   async wait(): Promise<void> {
-    const delay = Math.max(0, this.lastRequestAt + 500 - Date.now());
+    const delay = Math.max(0, this.lastRequestAt + this.minIntervalMs - Date.now());
     if (delay > 0) await new Promise((resolve) => setTimeout(resolve, delay));
     this.lastRequestAt = Date.now();
   }
 }
 
 const requestGate = new RequestGate();
+// Leituras do preflight são GETs públicos e idempotentes: espaçamento curto
+// evita martelar o KV sem tornar a ativação minutos mais lenta.
+const readGate = new RequestGate(40);
+const ANSWER_READ_CONCURRENCY = 6;
 const leaseName = 'answer-sync';
 const ownerId = typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : `${Date.now()}-${Math.random()}`;
 let serialQueue: Promise<unknown> = Promise.resolve();
@@ -289,7 +295,7 @@ async function validatedRemote(
   ensureLease: EnsureSyncLease,
 ): Promise<RemoteDocument<AnswerDocument> | null> {
   await ensureLease();
-  await requestGate.wait();
+  await readGate.wait();
   await ensureLease();
   const envelope = await readKv(documentId, {
     beforeRetry: async () => {
@@ -439,7 +445,7 @@ async function validatedSharedRemote<T extends Preferences | ProgressDocument | 
   ensureLease: EnsureSyncLease,
 ): Promise<RemoteDocument<T> | null> {
   await ensureLease();
-  await requestGate.wait();
+  await readGate.wait();
   await ensureLease();
   const envelope = await readKv(documentId, {
     beforeRetry: async () => {
@@ -745,17 +751,29 @@ async function readProfilePreflight(
     buildReadingPreferencesDocumentId(profileId),
     ensureLease,
   );
-  const answers: ProfilePreflight['answers'] = [];
-  // Keep reads serial so the shared request gate and lease cover every catalog entry.
-  for (const entry of catalog) {
-    const documentId = buildAnswerDocumentId(
-      profileId,
-      entry.contestStorageId,
-      entry.subjectStorageId,
-    );
-    const remote = await validatedRemote(profileId, documentId, entry.questionSet, ensureLease);
-    answers.push({ documentId, entry, remote });
-  }
+  const answers: ProfilePreflight['answers'] = new Array(catalog.length);
+  let cursor = 0;
+  // Leituras concorrentes limitadas: encurtam a janela do lease de minutos
+  // para segundos em catálogos grandes (cada leitura renova o lease).
+  const workers = Array.from(
+    { length: Math.min(ANSWER_READ_CONCURRENCY, catalog.length) },
+    async () => {
+      while (true) {
+        const index = cursor;
+        cursor += 1;
+        if (index >= catalog.length) break;
+        const entry = catalog[index]!;
+        const documentId = buildAnswerDocumentId(
+          profileId,
+          entry.contestStorageId,
+          entry.subjectStorageId,
+        );
+        const remote = await validatedRemote(profileId, documentId, entry.questionSet, ensureLease);
+        answers[index] = { documentId, entry, remote };
+      }
+    },
+  );
+  await Promise.all(workers);
   const progressDocumentId = buildProgressDocumentId(profileId);
   const progress = await validatedSharedRemote<ProgressDocument>(
     profileId,
