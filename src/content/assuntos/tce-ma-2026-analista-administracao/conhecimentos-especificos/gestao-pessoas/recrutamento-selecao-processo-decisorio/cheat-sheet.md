@@ -95,7 +95,7 @@
 
 - Viés pode entrar no perfil, canal, filtro, pergunta, observação ou decisão.
 - Acessibilidade remove barreiras; não elimina requisito essencial.
-- LBI: vedada discriminação por deficiência e exigência genérica de “aptidão plena”.
+- <abbr title="Lei Brasileira de Inclusão">LBI</abbr>: vedada discriminação por deficiência e exigência genérica de “aptidão plena”.
 - Dados de candidatos: coletar e usar apenas o necessário à finalidade seletiva.
 - Ingresso efetivo no setor público: observar a regra constitucional do concurso.
 - **Seleção interna ≠ concurso de ingresso originário.**

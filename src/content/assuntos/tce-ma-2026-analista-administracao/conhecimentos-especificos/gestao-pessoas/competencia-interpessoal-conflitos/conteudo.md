@@ -155,7 +155,7 @@ Aplicar escuta, assertividade, feedback, regras de respeito, facilitação e rep
 
 **Posição** é a exigência declarada; **interesse** é a necessidade, risco ou objetivo subjacente. Investigar interesses amplia opções, sem obrigar aceitação de pedido ilegal ou incompatível com a finalidade pública.
 
-**BATNA** é a melhor alternativa caso não haja acordo. Serve para avaliar propostas e evitar acordo pior que a alternativa disponível; não é ameaça nem autorização para abandonar dever legal.
+**<abbr title="Best Alternative to a Negotiated Agreement">BATNA</abbr>** é a melhor alternativa caso não haja acordo. Serve para avaliar propostas e evitar acordo pior que a alternativa disponível; não é ameaça nem autorização para abandonar dever legal.
 
 ## 13. Terceiros
 
@@ -165,7 +165,7 @@ Aplicar escuta, assertividade, feedback, regras de respeito, facilitação e rep
 | mediação | auxilia comunicação e solução consensual, sem decidir |
 | arbitragem | decide a controvérsia nos limites jurídicos e procedimentais aplicáveis |
 
-A Lei nº 13.140/2015 define mediação e disciplina autocomposição, inclusive no âmbito público. Sua existência não torna qualquer interesse negociável nem cria, sozinha, competência interna ou câmara aplicável ao TCE-MA.
+A Lei nº 13.140/2015 define mediação e disciplina autocomposição, inclusive no âmbito público. Sua existência não torna qualquer interesse negociável nem cria, sozinha, competência interna ou câmara aplicável ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## 14. Vieses e poder
 

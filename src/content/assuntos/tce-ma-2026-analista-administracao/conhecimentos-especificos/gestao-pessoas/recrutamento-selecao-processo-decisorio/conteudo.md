@@ -153,7 +153,7 @@ Vieses podem entrar na definição do perfil, no canal, na triagem, nas pergunta
 
 **Acessibilidade** busca remover barreiras sem alterar desnecessariamente o requisito essencial avaliado. A Lei Brasileira de Inclusão veda discriminação por deficiência no recrutamento, seleção, contratação e ascensão e rejeita a exigência genérica de “aptidão plena”.
 
-Dados de candidatos devem ser tratados apenas na medida necessária ao processo e com finalidade compatível. O detalhamento da LGPD pertence ao assunto próprio; aqui importa reconhecer que coleta excessiva ou uso opaco de dados não melhora a qualidade seletiva.
+Dados de candidatos devem ser tratados apenas na medida necessária ao processo e com finalidade compatível. O detalhamento da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> pertence ao assunto próprio; aqui importa reconhecer que coleta excessiva ou uso opaco de dados não melhora a qualidade seletiva.
 
 No setor público, recrutamento e seleção devem respeitar legalidade, impessoalidade, publicidade, eficiência e as regras do vínculo aplicável. **Seleção interna não substitui concurso público quando a Constituição exige concurso para o ingresso originário em cargo ou emprego efetivo.**
 

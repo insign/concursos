@@ -113,7 +113,7 @@ A escolha considera características da tarefa, do ambiente e dos liderados. Dir
 
 ## 8. Troca líder-membro
 
-A teoria **LMX** examina relações diádicas: o líder não constrói necessariamente a mesma qualidade de troca com todas as pessoas. Trocas de alta qualidade podem ampliar confiança, informação, apoio e autonomia.
+A teoria **<abbr title="Leader-Member Exchange">LMX</abbr>** examina relações diádicas: o líder não constrói necessariamente a mesma qualidade de troca com todas as pessoas. Trocas de alta qualidade podem ampliar confiança, informação, apoio e autonomia.
 
 Essa diferenciação não legitima favoritismo. Critérios opacos, oportunidades desiguais ou grupos internos e externos cristalizados podem prejudicar justiça, cooperação e desenvolvimento. A aplicação responsável busca relações de qualidade com todos, respeitando critérios impessoais.
 
@@ -144,7 +144,7 @@ Enfatiza visão, comunicação e atribuição de qualidades extraordinárias ao 
 - **autêntica:** combina autoconsciência, transparência relacional, processamento equilibrado e perspectiva moral internalizada;
 - **compartilhada:** distribui influência entre membros da equipe conforme conhecimentos e necessidades.
 
-Nenhuma delas elimina autoridade formal, accountability ou controles. Liderança compartilhada não significa ausência de coordenação; liderança autêntica não é exposição irrestrita da vida privada; liderança servidora não é submissão a qualquer demanda.
+Nenhuma delas elimina autoridade formal, <abbr title="prestação de contas e responsabilização">accountability</abbr> ou controles. Liderança compartilhada não significa ausência de coordenação; liderança autêntica não é exposição irrestrita da vida privada; liderança servidora não é submissão a qualquer demanda.
 
 ## 11. Motivação: conceito e distinções
 
