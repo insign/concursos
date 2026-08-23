@@ -37,3 +37,51 @@ test('surfaces service-worker update progress on the package control', async ({ 
   });
   await expect(message).not.toHaveText(/Atualizando \d+ de \d+ recursos/);
 });
+
+test('reflects download progress on the global application-status button', async ({ page }) => {
+  await page.goto('/concursos/concurso-exemplo/');
+  const status = page.locator('[data-application-status]');
+
+  await page.evaluate(() => {
+    const bus = new BroadcastChannel('concursos-offline-downloads');
+    bus.postMessage({
+      type: 'progress',
+      contestStorageId: 'exemplo',
+      phase: 'download',
+      completed: 6,
+      total: 10,
+      downloadedBytes: 4096,
+    });
+    bus.close();
+  });
+
+  await expect(status).toHaveAttribute('data-source', 'download');
+  await expect(status).toHaveAttribute('data-state', 'busy');
+  await expect(status.getByText('Baixando conteúdo offline… 60%')).toBeVisible();
+
+  // Falha assíncrona aparece no botão com a mensagem do evento.
+  await page.evaluate(() => {
+    const bus = new BroadcastChannel('concursos-offline-downloads');
+    bus.postMessage({
+      type: 'failed',
+      contestStorageId: 'exemplo',
+      phase: 'download',
+      message: 'O navegador interrompeu o download offline.',
+    });
+    bus.close();
+  });
+  await expect(status).toHaveAttribute('data-tone', 'red');
+  await expect(status.getByText('Falha no download offline')).toBeVisible();
+
+  // O flash de sucesso sai sozinho do estado de download (idle timeout).
+  await page.evaluate(() => {
+    const bus = new BroadcastChannel('concursos-offline-downloads');
+    bus.postMessage({ type: 'started', contestStorageId: 'exemplo', phase: 'download' });
+    bus.postMessage({ type: 'completed', contestStorageId: 'exemplo', phase: 'download' });
+    bus.close();
+  });
+  await expect(status.getByText('Conteúdo offline atualizado.')).toBeVisible({ timeout: 5_000 });
+  await expect(status.locator('[data-status-label]')).not.toHaveText('Download offline', {
+    timeout: 6_000,
+  });
+});

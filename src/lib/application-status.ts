@@ -1,7 +1,13 @@
 import type { PwaStatusDetail } from './pwa-update';
 
 export type ApplicationStatusTone = 'green' | 'yellow' | 'orange' | 'red';
-export type ApplicationStatusSource = 'none' | 'sync' | 'simulados' | 'navigation' | 'pwa';
+export type ApplicationStatusSource = 'none' | 'sync' | 'simulados' | 'navigation' | 'pwa' | 'download';
+
+export interface DownloadStatusDetail {
+  state: 'downloading' | 'success' | 'failed' | 'idle';
+  percent?: number | null;
+  message?: string | null;
+}
 
 export interface SyncStatusDetail {
   state: 'offline' | 'syncing' | 'synced' | 'error';
@@ -33,6 +39,9 @@ export interface ApplicationStatusState {
   pwaRevision: number;
   pwaActivity: string | null;
   pwaError: StatusError | null;
+  downloadActivity: { message: string; percent: number | null; sequence: number } | null;
+  downloadActive: boolean;
+  downloadError: StatusError | null;
 }
 
 export type ApplicationStatusEvent =
@@ -45,7 +54,8 @@ export type ApplicationStatusEvent =
       profileId: string;
       failures: number;
     }
-  | { type: 'pwa'; detail: PwaStatusDetail };
+  | { type: 'pwa'; detail: PwaStatusDetail }
+  | { type: 'download'; detail: DownloadStatusDetail };
 
 export interface ApplicationStatusView {
   tone: ApplicationStatusTone;
@@ -69,6 +79,9 @@ export function createApplicationStatusState(
     pwaRevision: 0,
     pwaActivity: null,
     pwaError: null,
+    downloadActivity: null,
+    downloadActive: false,
+    downloadError: null,
   };
 }
 
@@ -182,6 +195,47 @@ export function reduceApplicationStatus(
     };
   }
 
+  if (event.type === 'download') {
+    const detail = event.detail;
+    if (detail.state === 'idle') {
+      return { ...state, downloadActivity: null, downloadActive: false, downloadError: null };
+    }
+    const sequence = state.sequence + 1;
+    if (detail.state === 'downloading') {
+      const percent = typeof detail.percent === 'number' ? Math.max(0, Math.min(100, Math.round(detail.percent))) : null;
+      return {
+        ...state,
+        sequence,
+        downloadActive: true,
+        downloadError: null,
+        downloadActivity: {
+          message: percent === null ? 'Baixando conteúdo offline…' : `Baixando conteúdo offline… ${percent}%`,
+          percent,
+          sequence,
+        },
+      };
+    }
+    if (detail.state === 'success') {
+      return {
+        ...state,
+        sequence,
+        downloadError: null,
+        downloadActivity: { message: 'Conteúdo offline atualizado.', percent: null, sequence },
+      };
+    }
+    return {
+      ...state,
+      sequence,
+      downloadActivity: null,
+      downloadError: {
+        source: 'download',
+        message: detail.message ?? 'Falha no download offline.',
+        retryable: false,
+        sequence,
+      },
+    };
+  }
+
   const pwaRevision = event.detail.revision ?? state.pwaRevision + 1;
   if (pwaRevision < state.pwaRevision) return state;
   if (event.detail.state === 'error') {
@@ -209,7 +263,19 @@ export function reduceApplicationStatus(
 }
 
 export function deriveApplicationStatus(state: ApplicationStatusState): ApplicationStatusView {
-  const error = [...Object.values(state.syncErrors), state.pwaError]
+  // Download em andamento é o estado mais imediato para o usuário: aparece
+  // mesmo com erros antigos pendentes, que voltam a aparecer quando ele acaba.
+  if (state.downloadActive && state.downloadActivity) {
+    return {
+      tone: 'yellow',
+      state: 'busy',
+      source: 'download',
+      label: 'Download offline',
+      message: state.downloadActivity.message,
+      retry: null,
+    };
+  }
+  const error = [...Object.values(state.syncErrors), state.downloadError, state.pwaError]
     .filter((candidate): candidate is StatusError => candidate != null)
     .sort((left, right) => right.sequence - left.sequence)[0];
   if (error) {
@@ -226,7 +292,11 @@ export function deriveApplicationStatus(state: ApplicationStatusState): Applicat
       tone: 'red',
       state: 'error',
       source: error.source,
-      label: error.source === 'pwa' ? 'Falha na atualização' : 'Falha de sincronização',
+      label: error.source === 'pwa'
+        ? 'Falha na atualização'
+        : error.source === 'download'
+          ? 'Falha no download offline'
+          : 'Falha de sincronização',
       message: error.message,
       retry,
     };
@@ -238,6 +308,16 @@ export function deriveApplicationStatus(state: ApplicationStatusState): Applicat
       source: 'none',
       label: 'Offline',
       message: 'Os dados locais continuam disponíveis.',
+      retry: null,
+    };
+  }
+  if (state.downloadActivity) {
+    return {
+      tone: 'yellow',
+      state: 'busy',
+      source: 'download',
+      label: 'Download offline',
+      message: state.downloadActivity.message,
       retry: null,
     };
   }
