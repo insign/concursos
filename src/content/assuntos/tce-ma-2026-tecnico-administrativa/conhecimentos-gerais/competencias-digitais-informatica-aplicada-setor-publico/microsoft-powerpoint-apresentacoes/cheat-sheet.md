@@ -199,15 +199,15 @@
 
 | Formato | Regra |
 |---|---|
-| PPTX | apresentação moderna sem VBA |
-| PPTM | apresentação com macros |
-| PPSX | abre em modo de apresentação |
-| PPSM | apresentação de slides com macros |
-| POTX | modelo |
+| <abbr title="PowerPoint Presentation">PPTX</abbr> | apresentação moderna sem <abbr title="Visual Basic for Applications">VBA</abbr> |
+| <abbr title="PowerPoint Macro-Enabled Presentation">PPTM</abbr> | apresentação com macros |
+| <abbr title="PowerPoint Show">PPSX</abbr> | abre em modo de apresentação |
+| <abbr title="PowerPoint Macro-Enabled Show">PPSM</abbr> | apresentação de slides com macros |
+| <abbr title="PowerPoint Design Template">POTX</abbr> | modelo |
 | PPT/PPS | legados |
-| ODP | compatibilidade parcial |
-| PDF | saída fixa |
-| MP4 | vídeo |
+| <abbr title="OpenDocument Presentation">ODP</abbr> | compatibilidade parcial |
+| <abbr title="Portable Document Format">PDF</abbr> | saída fixa |
+| <abbr title="MPEG-4 Video">MP4</abbr> | vídeo |
 | imagens | slides estáticos |
 
 - PDF perde interatividade.

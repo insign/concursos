@@ -8,19 +8,19 @@
 
 | Tipo | Área típica |
 |---|---|
-| PAN | pessoal |
-| LAN | sala, prédio, campus |
-| MAN | cidade/região metropolitana |
-| WAN | regiões, países, mundo |
+| <abbr title="rede de área pessoal">PAN</abbr> | pessoal |
+| <abbr title="rede de área local">LAN</abbr> | sala, prédio, campus |
+| <abbr title="rede de área metropolitana">MAN</abbr> | cidade/região metropolitana |
+| <abbr title="rede de longa distância">WAN</abbr> | regiões, países, mundo |
 
 - Internet = redes interconectadas.
-- Web = serviço sobre HTTP/HTTPS.
+- Web = serviço sobre <abbr title="Hypertext Transfer Protocol">HTTP</abbr>/<abbr title="HTTP protegido por TLS">HTTPS</abbr>.
 - Intranet = tecnologias de Internet em ambiente restrito.
 - Extranet = acesso externo autorizado a parte da intranet.
 
 ## Equipamentos e camadas
 
-| Equipamento | Função | OSI |
+| Equipamento | Função | <abbr title="Open Systems Interconnection">OSI</abbr> |
 |---|---|---:|
 | hub | repete sinais | 1 |
 | switch | encaminha por MAC | 2 |
@@ -30,7 +30,7 @@
 
 ## OSI × TCP/IP
 
-| OSI | TCP/IP |
+| OSI | <abbr title="Transmission Control Protocol / Internet Protocol">TCP/IP</abbr> |
 |---|---|
 | Aplicação + Apresentação + Sessão | Aplicação |
 | Transporte | Transporte |
@@ -46,7 +46,7 @@
 | MAC | interface no enlace |
 | IP | interface/host na rede |
 | porta | serviço/processo |
-| domínio | nome resolvido por DNS |
+| domínio | nome resolvido por <abbr title="Domain Name System">DNS</abbr> |
 | socket | IP + transporte + porta |
 
 ## IPv4 especial
@@ -57,7 +57,7 @@
 | `172.16.0.0/12` | privado |
 | `192.168.0.0/16` | privado |
 | `127.0.0.0/8` | loopback |
-| `169.254.0.0/16` | link-local/APIPA |
+| `169.254.0.0/16` | link-local/<abbr title="Automatic Private IP Addressing">APIPA</abbr> |
 | `0.0.0.0` | não especificado |
 
 ## Sub-redes
@@ -83,8 +83,8 @@ Broadcast não pode ser gateway.
 
 | Técnica | Tradução |
 |---|---|
-| NAT | endereço |
-| NAPT/PAT | endereço + porta |
+| <abbr title="Network Address Translation">NAT</abbr> | endereço |
+| <abbr title="tradução de endereço e porta">NAPT/PAT</abbr> | endereço + porta |
 
 NAT ≠ DHCP ≠ firewall ≠ criptografia.
 
@@ -95,16 +95,16 @@ NAT ≠ DHCP ≠ firewall ≠ criptografia.
 - `::` não especificado;
 - `fe80::/10` link-local;
 - sem broadcast;
-- NDP substitui/amplia funções do ARP;
-- SLAAC e DHCPv6 podem coexistir.
+- <abbr title="Neighbor Discovery Protocol">NDP</abbr> substitui/amplia funções do <abbr title="Address Resolution Protocol">ARP</abbr>;
+- <abbr title="Stateless Address Autoconfiguration">SLAAC</abbr> e <abbr title="Dynamic Host Configuration Protocol for IPv6">DHCPv6</abbr> podem coexistir.
 
 ## Transporte e controle
 
 | Protocolo | Regra |
 |---|---|
-| TCP | conexão, ordem, confirmação, retransmissão |
-| UDP | datagramas, sem garantias intrínsecas |
-| ICMP | controle, erro e diagnóstico |
+| <abbr title="Transmission Control Protocol">TCP</abbr> | conexão, ordem, confirmação, retransmissão |
+| <abbr title="User Datagram Protocol">UDP</abbr> | datagramas, sem garantias intrínsecas |
+| <abbr title="Internet Control Message Protocol">ICMP</abbr> | controle, erro e diagnóstico |
 
 - TCP: `SYN → SYN-ACK → ACK`.
 - `ping` usa ICMP, não porta TCP/UDP.
@@ -115,17 +115,17 @@ NAT ≠ DHCP ≠ firewall ≠ criptografia.
 | Protocolo | Finalidade |
 |---|---|
 | DNS | nomes e registros |
-| DHCP | configuração automática |
+| <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr> | configuração automática |
 | ARP | IPv4 local → MAC |
 | NDP | vizinhos/roteadores no IPv6 |
 | HTTP | Web/APIs |
 | HTTPS | HTTP sobre TLS |
-| SMTP | envio/transferência de e-mail |
-| IMAP | acesso e sincronização no servidor |
-| POP3 | obtenção de mensagens |
-| FTP | transferência clássica |
-| FTPS | FTP + TLS |
-| SFTP | transferência sobre SSH |
+| <abbr title="Simple Mail Transfer Protocol">SMTP</abbr> | envio/transferência de e-mail |
+| <abbr title="Internet Message Access Protocol">IMAP</abbr> | acesso e sincronização no servidor |
+| <abbr title="Post Office Protocol - Version 3">POP3</abbr> | obtenção de mensagens |
+| <abbr title="File Transfer Protocol">FTP</abbr> | transferência clássica |
+| <abbr title="FTP protegido por TLS">FTPS</abbr> | FTP + TLS |
+| <abbr title="SSH File Transfer Protocol">SFTP</abbr> | transferência sobre SSH |
 
 ## DNS
 
@@ -217,7 +217,7 @@ Pode fornecer IP, máscara, gateway, DNS e concessão. Reserva mantém administr
 | OpenAPI | descrição de API HTTP |
 
 - API ≠ REST ≠ HTTP ≠ JSON.
-- e-PING: padrões mínimos no contexto federal definido.
+- <abbr title="Padrões de Interoperabilidade de Governo Eletrônico">e-PING</abbr>: padrões mínimos no contexto federal definido.
 - e-PING não obriga automaticamente todo órgão brasileiro.
 - interoperabilidade não autoriza compartilhamento irrestrito.
 

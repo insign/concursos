@@ -359,12 +359,12 @@ Diagnóstico:
 | XLSM | habilitado para macros |
 | XLSB | binário |
 | XLS | legado |
-| CSV | uma planilha textual, sem estilos/fórmulas/gráficos |
-| ODS | compatibilidade parcial |
-| PDF | saída fixa |
+| <abbr title="Comma-Separated Values">CSV</abbr> | uma planilha textual, sem estilos/fórmulas/gráficos |
+| <abbr title="OpenDocument Spreadsheet">ODS</abbr> | compatibilidade parcial |
+| <abbr title="Portable Document Format">PDF</abbr> | saída fixa |
 
 - CSV ≠ pasta completa;
-- XLSX não preserva VBA;
+- XLSX não preserva <abbr title="Visual Basic for Applications">VBA</abbr>;
 - macros podem executar código;
 - Excel Web ≠ desktop.
 
