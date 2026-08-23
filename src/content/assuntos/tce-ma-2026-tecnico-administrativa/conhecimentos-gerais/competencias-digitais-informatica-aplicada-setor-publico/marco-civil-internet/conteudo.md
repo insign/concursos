@@ -28,7 +28,7 @@ Por isso, o estudo precisa separar três planos:
 
 - Lei nº 12.965/2014;
 - Decreto nº 8.771/2016 na redação vigente em 6/7/2026;
-- interpretação vinculante do STF sobre o art. 19, observada a regra temporal de jurisprudência;
+- interpretação vinculante do <abbr title="Supremo Tribunal Federal">STF</abbr> sobre o art. 19, observada a regra temporal de jurisprudência;
 - neutralidade, direitos, registros, responsabilidade e atuação do poder público.
 
 ### 1.2 Atualização posterior ao edital
@@ -86,7 +86,7 @@ O rol não é fechado: o MCI preserva outros princípios do ordenamento e de tra
 |---|---|
 | internet | sistema mundial de protocolos lógicos, público e irrestrito, que comunica dados entre terminais por diferentes redes |
 | terminal | computador ou qualquer dispositivo conectado |
-| endereço IP | código atribuído ao terminal para identificação na rede |
+| endereço <abbr title="Internet Protocol">IP</abbr> | código atribuído ao terminal para identificação na rede |
 | administrador de sistema autônomo | pessoa que administra blocos de IP e sistema autônomo de roteamento |
 | conexão à internet | habilitação do terminal para enviar e receber pacotes |
 | registro de conexão | início, término, duração e IP usado |
@@ -109,7 +109,7 @@ O art. 15-A do Decreto nº 8.771/2016, incluído pelo Decreto nº 12.975/2026, d
 - o fornecimento continua submetido aos arts. 10 e 22 do MCI;
 - guardar não significa poder entregar sem ordem judicial.
 
-Exemplo em rede com CGNAT:
+Exemplo em rede com <abbr title="Carrier-Grade NAT">CGNAT</abbr>:
 
 ```text
 IP público: 203.0.113.20
@@ -140,13 +140,13 @@ O usuário tem direito, entre outros, a:
 10. exclusão dos dados fornecidos ao término da relação, ressalvadas guardas legais;
 11. políticas de uso claras;
 12. acessibilidade;
-13. aplicação do CDC nas relações de consumo.
+13. aplicação do <abbr title="Código de Defesa do Consumidor">CDC</abbr> nas relações de consumo.
 
 ### 4.1 Privacidade, foro e normas complementares
 
 São nulas cláusulas que violem a privacidade e a liberdade de expressão, inclusive, em contrato de adesão para serviço prestado no Brasil, cláusula que não ofereça alternativa de foro brasileiro.
 
-O MCI, a LGPD e o CDC são complementares:
+O MCI, a <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> e o CDC são complementares:
 
 - MCI: internet, registros, comunicações e provedores;
 - LGPD: regime geral de tratamento de dados;
@@ -416,7 +416,7 @@ O requerente não precisa conhecer previamente a identidade que procura descobri
 ### 11.1 Diretrizes
 
 - governança multiparticipativa, transparente, colaborativa e democrática;
-- racionalização da gestão com participação do CGI.br;
+- racionalização da gestão com participação do <abbr title="Comitê Gestor da Internet no Brasil">CGI.br</abbr>;
 - interoperabilidade entre Poderes, entes, sistemas e terminais;
 - preferência por tecnologias, padrões e formatos abertos;
 - dados públicos abertos e estruturados;
@@ -511,7 +511,7 @@ Grupo ou canal aberto não deve ser equiparado automaticamente a comunicação p
 - dados de cada anúncio, impulsionamento e anunciante devem ser guardados por **1 ano** após o fim da veiculação;
 - publicidade enganosa, abusiva ou fraudulenta deve ser indisponibilizada após notificação legitimada.
 
-### 12.6 ANPD
+### 12.6 <abbr title="Agência Nacional de Proteção de Dados">ANPD</abbr>
 
 A ANPD regula, fiscaliza e apura infrações quanto aos direitos dos usuários e aos deveres sistêmicos.
 
@@ -535,7 +535,7 @@ A ANPD não atua como julgadora administrativa de cada postagem isolada.
 
 ### 13.1 Conteúdo íntimo
 
-Conteúdo íntimo inclui imagem, vídeo, áudio, texto ou combinação que exponha nudez, seminudez, ato sexual ou contexto sexualizante, inclusive material produzido ou manipulado por IA.
+Conteúdo íntimo inclui imagem, vídeo, áudio, texto ou combinação que exponha nudez, seminudez, ato sexual ou contexto sexualizante, inclusive material produzido ou manipulado por <abbr title="inteligência artificial">IA</abbr>.
 
 ### 13.2 Prazos
 
@@ -567,9 +567,9 @@ O Decreto nº 12.976 não substitui o art. 21. Ele cria regime específico e mai
 
 | Órgão | Foco |
 |---|---|
-| Anatel | telecomunicações e requisitos técnicos de neutralidade |
-| Senacon/SNDC | consumo e publicidade |
-| Cade/SBDC | concorrência |
+| <abbr title="Agência Nacional de Telecomunicações">Anatel</abbr> | telecomunicações e requisitos técnicos de neutralidade |
+| <abbr title="Secretaria Nacional do Consumidor">Senacon</abbr>/<abbr title="Sistema Nacional de Defesa do Consumidor">SNDC</abbr> | consumo e publicidade |
+| <abbr title="Conselho Administrativo de Defesa Econômica">Cade</abbr>/<abbr title="Sistema Brasileiro de Defesa da Concorrência">SBDC</abbr> | concorrência |
 | ANPD | direitos dos usuários e deveres sistêmicos |
 | Judiciário | acesso, indisponibilização e reparação |
 | autoridades investigativas | preservação, investigação e pedidos judiciais |
@@ -586,7 +586,7 @@ Operadora redireciona temporariamente pacotes por rota alternativa após rompime
 
 ### 15.2 IP compartilhado
 
-Milhares de clientes usam o mesmo IPv4 público por CGNAT. O IP e o horário podem ser insuficientes; a porta lógica de origem pode ser necessária. O acesso aos dados continua judicial.
+Milhares de clientes usam o mesmo <abbr title="Internet Protocol version 4">IPv4</abbr> público por CGNAT. O IP e o horário podem ser insuficientes; a porta lógica de origem pode ser necessária. O acesso aos dados continua judicial.
 
 ### 15.3 Pedido administrativo
 

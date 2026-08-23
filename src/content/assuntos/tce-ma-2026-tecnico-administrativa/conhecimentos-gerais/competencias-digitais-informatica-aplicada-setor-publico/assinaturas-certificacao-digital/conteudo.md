@@ -15,7 +15,7 @@ storageId: tec-assinaturas-certificacao
 A prova pode misturar três planos diferentes:
 
 1. **técnico:** assinatura, certificado, chaves e hash;
-2. **jurídico:** validade, presunção da ICP-Brasil e níveis simples, avançado e qualificado;
+2. **jurídico:** validade, presunção da <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr> e níveis simples, avançado e qualificado;
 3. **administrativo:** qual nível de assinatura é suficiente ou obrigatório para determinado ato.
 
 A questão deve ser resolvida nessa ordem. Um mecanismo tecnicamente seguro pode não ser o nível jurídico exigido; uma assinatura válida em certa situação pode não servir quando a norma exigir assinatura qualificada.
@@ -24,12 +24,12 @@ A questão deve ser resolvida nessa ordem. Um mecanismo tecnicamente seguro pode
 
 | Norma | Núcleo para este assunto |
 | --- | --- |
-| MP nº 2.200-2/2001 | ICP-Brasil e efeitos jurídicos dos documentos eletrônicos |
+| <abbr title="Medida Provisória">MP</abbr> nº 2.200-2/2001 | ICP-Brasil e efeitos jurídicos dos documentos eletrônicos |
 | Lei nº 14.063/2020 | assinaturas simples, avançadas e qualificadas |
 | Decreto nº 10.543/2020 | níveis mínimos na administração pública federal direta, autárquica e fundacional |
 | Decreto nº 8.539/2015 | autoria e integridade no processo administrativo eletrônico federal |
 | Lei nº 14.129/2021 | adequação da assinatura ao risco em serviços e processos digitais |
-| Resolução CG ICP-Brasil nº 211/2024 | modernização dos tipos de certificados e transição da ICP-Brasil |
+| Resolução <abbr title="Comitê Gestor">CG</abbr> ICP-Brasil nº 211/2024 | modernização dos tipos de certificados e transição da ICP-Brasil |
 
 ## 2. Conceitos que não podem ser confundidos
 
@@ -126,7 +126,7 @@ A MP nº 2.200-2/2001 instituiu a **Infraestrutura de Chaves Públicas Brasileir
 | Integrante | Função de prova |
 | --- | --- |
 | **Comitê Gestor da ICP-Brasil** | define políticas, critérios e normas da infraestrutura |
-| **ITI** | autarquia federal que exerce a função de Autoridade Certificadora Raiz |
+| **<abbr title="Instituto Nacional de Tecnologia da Informação">ITI</abbr>** | autarquia federal que exerce a função de Autoridade Certificadora Raiz |
 | **AC Raiz** | certifica autoridades do nível seguinte e supervisiona a cadeia; não emite certificado ao usuário final |
 | **Autoridade Certificadora — AC** | emite, distribui, revoga e gerencia certificados |
 | **Autoridade de Registro — AR** | identifica e cadastra usuários e encaminha solicitações à AC |
@@ -229,7 +229,7 @@ Pontos de prova:
 - documento nato-digital corretamente assinado pode ser considerado original;
 - autenticação do usuário e assinatura de um ato são operações distintas;
 - documento digitalizado não se torna original apenas por existir em PDF;
-- regras completas de processo eletrônico, PEN e SEI pertencem ao assunto seguinte.
+- regras completas de processo eletrônico, <abbr title="Processo Eletrônico Nacional">PEN</abbr> e <abbr title="Sistema Eletrônico de Informações">SEI</abbr> pertencem ao assunto seguinte.
 
 A Lei nº 14.129/2021 reforça a escolha de soluções de assinatura compatíveis com autenticidade, integridade, segurança e risco.
 
