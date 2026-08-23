@@ -55,7 +55,7 @@ $$
 
 do valor inicial.
 
-O **MMC** aparece em coincidência de ciclos; o **MDC**, em agrupamentos máximos idênticos sem sobra. Na divisão euclidiana,
+O **<abbr title="mínimo múltiplo comum">MMC</abbr>** aparece em coincidência de ciclos; o **<abbr title="máximo divisor comum">MDC</abbr>**, em agrupamentos máximos idênticos sem sobra. Na divisão euclidiana,
 
 $$
 n=dq+r,\qquad 0\le r<d.
@@ -313,7 +313,7 @@ Em sequências, teste primeiro:
 4. relação com a posição;
 5. recorrência explícita fornecida pelo enunciado.
 
-Não presuma PA ou PG sem evidência. Fórmulas de progressões não são o centro deste recorte.
+Não presuma <abbr title="progressão aritmética">PA</abbr> ou <abbr title="progressão geométrica">PG</abbr> sem evidência. Fórmulas de progressões não são o centro deste recorte.
 
 Juros também devem ser tratados como aplicação de fatores percentuais quando necessários:
 

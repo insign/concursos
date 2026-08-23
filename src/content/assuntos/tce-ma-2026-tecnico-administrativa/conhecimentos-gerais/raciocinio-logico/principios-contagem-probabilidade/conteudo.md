@@ -436,7 +436,7 @@ A fórmula exige independência e a mesma probabilidade de fracasso em cada tent
 
 Essas ferramentas são úteis quando o espaço é dividido em origens ou hipóteses.
 
-Se $B_1,\ldots,B_k$ formam uma partição de $\Omega$ e $P(B_i)>0$:
+Se $B_1,\ldots,B_k$ formam uma <abbr title="eventos disjuntos cuja união é o espaço amostral">partição</abbr> de $\Omega$ e $P(B_i)>0$:
 
 $$
 P(A)
@@ -502,7 +502,7 @@ Identifique:
 
 ## 18. Cobrança oficial do CEBRASPE
 
-No BNB 2018, o CEBRASPE cobrou no mesmo bloco:
+No <abbr title="Banco do Nordeste do Brasil">BNB</abbr> 2018, o <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">CEBRASPE</abbr> cobrou no mesmo bloco:
 
 - probabilidade por razão entre casos favoráveis e total;
 - complemento;

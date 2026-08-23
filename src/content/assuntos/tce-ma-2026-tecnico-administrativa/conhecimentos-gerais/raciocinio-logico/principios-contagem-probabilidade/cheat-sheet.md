@@ -180,7 +180,7 @@ $$
 
 ## Probabilidade total e Bayes
 
-Se $B_1,\ldots,B_k$ formam partição:
+Se $B_1,\ldots,B_k$ formam <abbr title="eventos disjuntos cuja união é o espaço amostral">partição</abbr>:
 
 $$
 P(A)=\sum_iP(A\mid B_i)P(B_i)
