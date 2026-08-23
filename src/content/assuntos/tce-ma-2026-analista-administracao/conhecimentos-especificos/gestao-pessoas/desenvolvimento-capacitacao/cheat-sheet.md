@@ -14,7 +14,7 @@
 
 Se a causa não for educacional, treinamento isolado tende a falhar.
 
-## LNT/ANT
+## <abbr title="Levantamento de Necessidades de Treinamento">LNT</abbr>/<abbr title="Avaliação de Necessidades de Treinamento">ANT</abbr>
 
 $$
 \text{lacuna} = \text{requerido} - \text{atual}

@@ -5,7 +5,7 @@
 - **Corte de prova:** 6/7/2026.
 - Núcleo: **avaliar cargos → estruturar remuneração → organizar carreiras**.
 - Análise/descrição de cargos = **insumo**; não repetir métodos do assunto 149.
-- No setor público, técnica de RH **não substitui lei, orçamento ou competência**.
+- No setor público, técnica de <abbr title="Recursos Humanos">RH</abbr> **não substitui lei, orçamento ou competência**.
 
 ## Distinções essenciais
 
@@ -27,7 +27,7 @@
 - **avaliação de cargos:** estima **valor relativo do cargo**;
 - **avaliação de desempenho:** julga **a pessoa no período**.
 
-## Plano CCS
+## Plano <abbr title="Cargos, carreiras e salários">CCS</abbr>
 
 ### Objetivos
 
@@ -133,12 +133,12 @@ Nenhum desses conceitos cria direito automático: a regra concreta depende do re
 
 ## Limites públicos que importam aqui
 
-- **CF, art. 37, X:** remuneração depende de lei específica.
+- **<abbr title="Constituição Federal">CF</abbr>, art. 37, X:** remuneração depende de lei específica.
 - **art. 37, XI:** teto.
 - **art. 37, XIII:** vedada vinculação/equiparação remuneratória.
 - **art. 37, XV:** irredutibilidade, ressalvas constitucionais.
 - **art. 39, § 1º:** natureza + responsabilidade + complexidade + requisitos + peculiaridades.
-- **SV 37:** Judiciário não aumenta vencimentos por isonomia.
+- **<abbr title="Súmula Vinculante">SV</abbr> 37:** Judiciário não aumenta vencimentos por isonomia.
 - **Subsídio:** depende do regime constitucional/legal competente; não presumir para qualquer cargo.
 
 ## Pegadinhas finais
@@ -154,4 +154,4 @@ Nenhum desses conceitos cria direito automático: a regra concreta depende do re
 - Mobilidade lateral = promoção → **errado**.
 - Pesquisa salarial autoriza reajuste público → **errado**.
 - Avaliação do cargo autoriza aumento público → **errado**.
-- TCE-MA adota progressão/benefício X sem fonte própria → **não afirmar**.
+- <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> adota progressão/benefício X sem fonte própria → **não afirmar**.

@@ -226,11 +226,11 @@ Para este assunto, os limites diretamente ligados à remuneração são os mais 
 - **art. 37, XIII:** é vedada vinculação ou equiparação remuneratória para efeito de remuneração de pessoal;
 - **art. 37, XV:** subsídio e vencimentos são irredutíveis, ressalvadas as hipóteses constitucionais;
 - **art. 39, § 1º:** padrões de vencimento devem considerar natureza, responsabilidade, complexidade, requisitos de investidura e peculiaridades dos cargos;
-- **Súmula Vinculante 37/STF:** o Judiciário não pode aumentar vencimentos de servidores sob fundamento de isonomia.
+- **Súmula Vinculante 37/<abbr title="Supremo Tribunal Federal">STF</abbr>:** o Judiciário não pode aumentar vencimentos de servidores sob fundamento de isonomia.
 
 **Subsídio** é forma remuneratória prevista constitucionalmente para determinados agentes e pode alcançar servidores organizados em carreira quando o regime competente assim estabelecer. Não se deve presumir sua adoção para qualquer cargo.
 
-### Regra de prudência para o TCE-MA
+### Regra de prudência para o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>
 
 O edital informa o concurso, o cargo, requisitos, jornada e remuneração do certame. Ele **não permite inventar** progressões, classes, benefícios, vantagens ou critérios de carreira futuros do Tribunal. Qualquer afirmação concreta sobre esses pontos exige fonte estadual ou institucional aplicável.
 
