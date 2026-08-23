@@ -103,7 +103,7 @@
 - “Vendem-se imóveis”: passiva; verbo concorda.
 - “Assiste-se a palestras”: sujeito indeterminado; singular.
 - “Obedece-se às normas”: sujeito indeterminado; singular.
-- A passiva de **obedecer** é exceção registrada, não regra geral para VTI.
+- A passiva de **obedecer** é exceção registrada, não regra geral para <abbr title="verbo transitivo indireto">VTI</abbr>.
 
 ## Orações completivas
 
@@ -184,7 +184,7 @@ Um único complemento não serve automaticamente a regentes diferentes.
 
 1. A acepção mudou?
 2. A preposição é exigida ou circunstancial?
-3. O pronome substitui OD ou OI?
+3. O pronome substitui <abbr title="objeto direto">OD</abbr> ou <abbr title="objeto indireto">OI</abbr>?
 4. Há objeto direto para formar passiva?
 5. A preposição foi mantida antes de **que** ou do relativo?
 6. Regentes coordenados têm construções compatíveis?
