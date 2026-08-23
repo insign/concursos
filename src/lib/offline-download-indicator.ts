@@ -95,6 +95,7 @@ export function startOfflineDownloadIndicator(
 
   // Fonte 2: progresso nativo do Background Fetch — cobre quem abre o app
   // com a transferência já em andamento (o canal pode ter perdido eventos).
+  let rescanTimer: ReturnType<typeof setTimeout> | null = null;
   const watchNativeFetches = async () => {
     if (!('serviceWorker' in navigator)) return;
     try {
@@ -105,8 +106,10 @@ export function startOfflineDownloadIndicator(
         }
       ).backgroundFetch;
       if (!manager?.getActiveFetches) return;
+      let foundActive = false;
       for (const fetch of await manager.getActiveFetches()) {
         if (!fetch.id.startsWith(BG_ID_PREFIX)) continue;
+        foundActive = true;
         const reportProgress = () => {
           if (fetch.result === 'success') {
             apply({ type: 'background-result', ok: true });
@@ -128,6 +131,13 @@ export function startOfflineDownloadIndicator(
         reportProgress();
         fetch.addEventListener('progress', reportProgress);
       }
+      // Enquanto houver transferência ativa, acompanha periodicamente.
+      if (foundActive && !rescanTimer) {
+        rescanTimer = setTimeout(() => {
+          rescanTimer = null;
+          void watchNativeFetches();
+        }, 15_000);
+      }
     } catch {
       // Indicador é best-effort; falhas aqui nunca afetam o download.
     }
@@ -135,6 +145,7 @@ export function startOfflineDownloadIndicator(
 
   void watchNativeFetches();
   window.addEventListener('online', () => void watchNativeFetches());
+  window.addEventListener('concursos:download-scan', () => void watchNativeFetches());
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'visible') void watchNativeFetches();
   });
