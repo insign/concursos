@@ -4,7 +4,7 @@
 
 1. **Acentuação e mudanças do Acordo.**
 2. **Hífen em prefixos, compostos e locuções.**
-3. **Grafia lexical: confirme no VOLP.**
+3. **Grafia lexical: confirme no <abbr title="Vocabulário Ortográfico da Língua Portuguesa">VOLP</abbr>.**
 4. **Maiúsculas, apóstrofo, siglas e símbolos.**
 
 Regra produtiva resolve padrões; o VOLP resolve registro, variante e lexicalização. Faculdade não é obrigação, e analogia não substitui consulta.

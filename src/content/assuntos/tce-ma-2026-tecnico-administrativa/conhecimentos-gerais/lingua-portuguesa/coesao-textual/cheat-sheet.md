@@ -28,11 +28,11 @@
 | Tipo | Funcionamento | Exemplo |
 | --- | --- | --- |
 | Anáfora direta | Retoma o mesmo referente. | `O ato foi publicado. Ele vigora.` |
-| Anáfora indireta | Ativa referente associado a uma âncora. | `Entrou no prédio. A recepção estava vazia.` |
+| Anáfora indireta | Ativa referente associado a uma <abbr title="elemento anterior que ativa um referente associado">âncora</abbr>. | `Entrou no prédio. A recepção estava vazia.` |
 | Catáfora | Antecipa conteúdo posterior. | `Isto importa: revisar o contrato.` |
 | Exófora | Depende da situação externa. | `Coloque isso ali.` |
 
-- Anáfora indireta não exige correferência literal; exige associação inferível.
+- Anáfora indireta não exige <abbr title="referência de expressões ao mesmo referente">correferência</abbr> literal; exige associação inferível.
 - Demonstrativos podem retomar, antecipar ou apontar para fora do texto.
 - Não aplicar mecanicamente `este = catáfora` e `esse = anáfora`.
 - `Outro` costuma introduzir entidade diferente, não simples retomada.
