@@ -240,7 +240,7 @@ Voz verbal mostra a relação entre o sujeito e o processo.
 | --- | --- |
 | Ativa | o sujeito pratica a ação: `A comissão aprovou o relatório.` |
 | Passiva analítica | o sujeito recebe a ação: `O relatório foi aprovado pela comissão.` |
-| Passiva sintética | `se` apassivador + VTD ou VTDI, com sujeito paciente: `Aprovam-se relatórios.` |
+| Passiva sintética | `se` apassivador + <abbr title="verbo transitivo direto">VTD</abbr> ou <abbr title="verbo transitivo direto e indireto">VTDI</abbr>, com sujeito paciente: `Aprovam-se relatórios.` |
 | Reflexiva | o sujeito pratica e recebe a ação: `Ela feriu a si mesma.` |
 | Recíproca | sujeitos agem mutuamente: `Eles se cumprimentaram.` |
 
@@ -272,7 +272,7 @@ Nem todo `se` é apassivador. A função deve ser identificada pela construção
 | Valor do `se` | Estrutura e teste | Exemplo |
 | --- | --- | --- |
 | Partícula apassivadora | VTD ou VTDI; há sujeito paciente; admite `ser + particípio`; o verbo concorda | `Vendem-se livros.` |
-| Índice de indeterminação do sujeito | VTI, VI ou VL; não há sujeito paciente; verbo na 3ª pessoa do singular | `Precisa-se de apoio.` |
+| Índice de indeterminação do sujeito | <abbr title="verbo transitivo indireto">VTI</abbr>, <abbr title="verbo intransitivo">VI</abbr> ou <abbr title="verbo de ligação">VL</abbr>; não há sujeito paciente; verbo na 3ª pessoa do singular | `Precisa-se de apoio.` |
 | Pronome reflexivo | a ação recai sobre o próprio sujeito; teste de `a si mesmo` | `Ela se feriu.` |
 | Pronome recíproco | a ação é mútua entre os sujeitos | `Eles se cumprimentaram.` |
 

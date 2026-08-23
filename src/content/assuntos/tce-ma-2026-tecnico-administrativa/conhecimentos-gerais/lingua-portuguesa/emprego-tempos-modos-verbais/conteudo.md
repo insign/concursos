@@ -296,7 +296,7 @@ A correlação não é tabela mecânica, mas alguns padrões são altamente prod
 
 Aqui, `se` introduz interrogativa indireta; não é conjunção condicional. A sequência pode ser correta.
 
-Na prótase condicional normativa, porém, evita-se:
+Na <abbr title="oração que expressa a condição">prótase</abbr> condicional normativa, porém, evita-se:
 
 > Se teria estudado, passaria. ✗  
 > Se tivesse estudado, teria passado. ✓
@@ -333,7 +333,7 @@ A interpretação de auxiliares como `poder` e `dever` depende do contexto.
 
 ## 9. Discurso direto e indireto
 
-Ao ancorar o relato no passado, podem ocorrer mudanças de tempo, pessoa e dêixis.
+Ao ancorar o relato no passado, podem ocorrer mudanças de tempo, pessoa e <abbr title="referência a pessoa, tempo ou espaço da enunciação">dêixis</abbr>.
 
 | Discurso direto | Relato ancorado no passado |
 | --- | --- |
@@ -414,7 +414,7 @@ As formas podem preservar anterioridade, mas diferem em registro e frequência d
 3. Determine o aspecto: concluído, em curso, habitual, reiterado, inicial ou resultante.
 4. Verifique o modo e a modalidade.
 5. Observe o predicado principal e as conjunções.
-6. Em condicionais, separe prótase e apódose.
+6. Em condicionais, separe prótase e <abbr title="oração principal que expressa a consequência">apódose</abbr>.
 7. Em relativas, identifique se o referente é factual ou eventual.
 8. Em locuções, examine o valor do auxiliar.
 9. Compare correção, coerência e preservação do sentido separadamente.
