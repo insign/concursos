@@ -80,8 +80,8 @@
 
 | Estrutura | Regra |
 | --- | --- |
-| VTD/VTDI + se apassivador | verbo com sujeito paciente |
-| VI/VTI/VL + se indeterminador | 3ª pessoa singular |
+| <abbr title="verbo transitivo direto">VTD</abbr>/<abbr title="verbo transitivo direto e indireto">VTDI</abbr> + se apassivador | verbo com sujeito paciente |
+| <abbr title="verbo intransitivo">VI</abbr>/<abbr title="verbo transitivo indireto">VTI</abbr>/<abbr title="verbo de ligação">VL</abbr> + se indeterminador | 3ª pessoa singular |
 | “Publicaram-se os editais” | passiva |
 | “Precisa-se de analistas” | indeterminação |
 | “Devem-se revisar os atos” | atos devem ser revisados |
