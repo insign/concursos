@@ -234,7 +234,7 @@ São formas tradicionais e marcadas. Em texto administrativo, prefira clareza:
 | sujeito sempre atrai | errado |
 | coordenativa sempre exige ênclise | errado |
 | colocação entre verbos é sempre incorreta | errado |
-| clítico pode ficar depois do particípio | errado |
+| <abbr title="pronome átono fonologicamente dependente">clítico</abbr> pode ficar depois do particípio | errado |
 | mesóclise é sempre a melhor escolha | errado |
 | mover `se` preserva sua função | errado |
 | `lhe` substitui qualquer pessoa | errado |
