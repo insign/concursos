@@ -81,10 +81,10 @@ Fonte única é risco:
 
 ## Métodos estruturados: só o essencial
 
-- **PAQ:** padronização/comparação; pode perder contexto.
-- **FJA:** dados, pessoas e coisas.
-- **O*NET:** referência ocupacional; não substitui análise local.
-- **KSAO:** conhecimentos, habilidades, capacidades e outras características.
+- **<abbr title="Position Analysis Questionnaire">PAQ</abbr>:** padronização/comparação; pode perder contexto.
+- **<abbr title="Functional Job Analysis">FJA</abbr>:** dados, pessoas e coisas.
+- **<abbr title="Occupational Information Network">O*NET</abbr>:** referência ocupacional; não substitui análise local.
+- **<abbr title="Knowledge, skills, abilities and other characteristics">KSAO</abbr>:** conhecimentos, habilidades, capacidades e outras características.
 
 ## Vantagens da análise
 

@@ -54,8 +54,8 @@
 | **Comparação pareada** | pessoa × pessoa em pares | ordenação relativa | cresce em custo; não mede padrão absoluto |
 | **Ranking** | ordena pessoas | visão rápida de posição | não mede distância para padrão; competição |
 | **Distribuição forçada** | proporções obrigatórias por faixa | evita concentração artificial | pode criar diferenças artificiais |
-| **BARS** | graus ancorados em comportamentos | concretude e feedback | cara, demorada, exige atualização |
-| **APO/MBO** | alcance de objetivos pactuados | alinhamento, participação, clareza | curto-prazismo, meta fácil, foco no mensurável |
+| **<abbr title="Behaviorally Anchored Rating Scales">BARS</abbr>** | graus ancorados em comportamentos | concretude e feedback | cara, demorada, exige atualização |
+| **<abbr title="Administração por Objetivos">APO</abbr>/<abbr title="Management by Objectives">MBO</abbr>** | alcance de objetivos pactuados | alinhamento, participação, clareza | curto-prazismo, meta fácil, foco no mensurável |
 | **360°** | múltiplas fontes | amplia perspectivas | custo, divergência, confidencialidade e vieses |
 
 ## Distinções que derrubam questão
