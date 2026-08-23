@@ -5,9 +5,9 @@
 | Plano | Situação |
 |---|---|
 | edital | normas vigentes em 6/7/2026 |
-| Portaria MGI nº 3.485 | vigente; âmbito institucional delimitado |
-| PL nº 2.338 | projeto, não lei |
-| Portaria SGD/MGI nº 5.921 | vigência em 1º/9/2026 |
+| Portaria <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 3.485 | vigente; âmbito institucional delimitado |
+| <abbr title="Projeto de Lei">PL</abbr> nº 2.338 | projeto, não lei |
+| Portaria <abbr title="Secretaria de Governo Digital">SGD</abbr>/<abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 5.921 | vigência em 1º/9/2026 |
 
 ## Conceitos
 
@@ -17,12 +17,12 @@
 | determinística | mesma condição, ação prevista |
 | algoritmo | instruções |
 | IA | infere saídas |
-| ML | aprende padrões |
+| <abbr title="aprendizado de máquina">ML</abbr> | aprende padrões |
 | generativa | cria conteúdo |
-| RPA | imita ações em interfaces |
+| <abbr title="automação robótica de processos">RPA</abbr> | imita ações em interfaces |
 | chatbot | interface conversacional |
 
-Automação ≠ IA. Chatbot ≠ LLM.
+Automação ≠ IA. Chatbot ≠ <abbr title="grande modelo de linguagem">LLM</abbr>.
 
 ## Modelo × sistema
 
@@ -51,7 +51,7 @@ Prompt → contexto → geração → verificação
 - contexto ≠ treinamento;
 - mesma IA confirmando ≠ auditoria independente.
 
-## RAG
+## <abbr title="geração aumentada por recuperação">RAG</abbr>
 
 ```text
 Busca → trecho → contexto → resposta
@@ -112,7 +112,7 @@ Controle real exige tempo, fonte, competência e poder de discordar.
 - medir falso positivo/negativo e impacto;
 - corrigir exclusão digital.
 
-## LGPD
+## <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>
 
 - finalidade;
 - necessidade;

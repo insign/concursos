@@ -27,10 +27,10 @@ O edital foi publicado em **6 de julho de 2026**. Para estudar corretamente, dif
 
 ### 1.1 Situação normativa
 
-- Constituição, LGPD, Lei nº 13.460/2017 e Lei nº 14.129/2021 já fornecem regras relevantes.
-- A Portaria MGI nº 3.485/2026 instituiu política de governança de IA no âmbito do MGI e das iniciativas do ColaboraGov por ela abrangidas; entrou em vigor em **23/6/2026**.
+- Constituição, <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>, Lei nº 13.460/2017 e Lei nº 14.129/2021 já fornecem regras relevantes.
+- A Portaria <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 3.485/2026 instituiu política de governança de IA no âmbito do MGI e das iniciativas do ColaboraGov por ela abrangidas; entrou em vigor em **23/6/2026**.
 - O PL nº 2.338/2023 continua sendo **projeto de lei**, em análise na Câmara dos Deputados.
-- A Portaria SGD/MGI nº 5.921/2026 foi publicada depois do edital e só entra em vigor em **1º/9/2026**; não é regra vigente em 28/7/2026.
+- A Portaria <abbr title="Secretaria de Governo Digital">SGD</abbr>/MGI nº 5.921/2026 foi publicada depois do edital e só entra em vigor em **1º/9/2026**; não é regra vigente em 28/7/2026.
 
 > **Roteiro:** problema público → processo → dados → modelo → sistema → efeito → risco → controle → supervisão → monitoramento.
 
@@ -128,7 +128,7 @@ Quanto maior o impacto sobre benefício, sanção, prioridade, fiscalização ou
 
 ### Exemplo
 
-Um LLM é apenas um componente. O chatbot institucional pode incluir:
+Um <abbr title="grande modelo de linguagem">LLM</abbr> é apenas um componente. O chatbot institucional pode incluir:
 
 - fonte normativa;
 - mecanismo de busca;
@@ -648,7 +648,7 @@ Pode analisar:
 - dependências;
 - risco residual.
 
-Não substitui RIPD, segurança, auditoria ou decisão competente.
+Não substitui <abbr title="Relatório de Impacto à Proteção de Dados Pessoais">RIPD</abbr>, segurança, auditoria ou decisão competente.
 
 ### 18.3 Contratação
 
@@ -806,7 +806,7 @@ Pessoa recebe centenas de recomendações e não possui tempo para revisar.
 
 ## 22. Situação institucional e legislativa
 
-### 22.1 Portaria MGI nº 3.485/2026
+### 22.1 Portaria <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 3.485/2026
 
 Vigente antes do edital, institui política de governança de IA no âmbito delimitado do MGI e de iniciativas abrangidas do ColaboraGov.
 
@@ -823,7 +823,7 @@ Pontos:
 
 Não é lei geral nacional para todos os órgãos e Poderes.
 
-### 22.2 PL nº 2.338/2023
+### 22.2 <abbr title="Projeto de Lei">PL</abbr> nº 2.338/2023
 
 Em 28/7/2026:
 
@@ -831,11 +831,11 @@ Em 28/7/2026:
 - aguarda parecer na comissão especial da Câmara;
 - não deve ser citado como lei vigente.
 
-### 22.3 Portaria SGD/MGI nº 5.921/2026
+### 22.3 Portaria <abbr title="Secretaria de Governo Digital">SGD</abbr>/<abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 5.921/2026
 
 - publicada depois do edital;
 - entra em vigor em 1º/9/2026;
-- trata de governança de IA em modelo específico de contratação de operação de infraestrutura do SISP;
+- trata de governança de IA em modelo específico de contratação de operação de infraestrutura do <abbr title="Sistema de Administração dos Recursos de Tecnologia da Informação">SISP</abbr>;
 - não integra o núcleo vigente em 28/7/2026.
 
 ---
@@ -873,7 +873,7 @@ Em 28/7/2026:
 
 ## 24. Método de resolução
 
-1. Identifique se é automação determinística, ML ou IA generativa.
+1. Identifique se é automação determinística, <abbr title="aprendizado de máquina">ML</abbr> ou IA generativa.
 2. Separe modelo, sistema e serviço público.
 3. Classifique a saída: apoio, triagem, recomendação ou decisão.
 4. Verifique finalidade, competência, dados e efeito.

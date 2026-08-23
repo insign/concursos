@@ -130,7 +130,7 @@ Use tabela ou grade quando categorias diferentes precisam ser relacionadas.
 
 Em uma associação **um a um**:
 
-- confirmar Lia = TI elimina os demais setores para Lia;
+- confirmar Lia = <abbr title="tecnologia da informação">TI</abbr> elimina os demais setores para Lia;
 - também elimina TI para as demais pessoas;
 - uma pista como “a pessoa de TI trabalha na quarta” liga duas categorias mesmo antes de identificar a pessoa.
 
