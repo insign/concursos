@@ -44,6 +44,7 @@
     requestSimuladosProfileSync,
   } from '../lib/simulados-profile-sync';
   import { requestProfileSync, startSyncCoordinator } from '../lib/sync';
+  import { startOfflineDownloadIndicator } from '../lib/offline-download-indicator';
 
   const root = document.querySelector<HTMLElement>('[data-application-status]');
 
@@ -95,6 +96,31 @@
     });
     window.addEventListener('concursos:pwa-status', (event) => {
       update({ type: 'pwa', detail: (event as CustomEvent<PwaStatusDetail>).detail });
+    });
+
+    // Camada de downloads offline no mesmo botão: em andamento, concluído
+    // (flash) ou falha — unindo canal de eventos e progresso nativo do
+    // navegador numa única fonte de verdade para o usuário.
+    startOfflineDownloadIndicator((snapshot) => {
+      if (snapshot.state === 'idle') {
+        update({ type: 'download', detail: { state: 'idle' } });
+        return;
+      }
+      if (snapshot.state === 'active') {
+        update({
+          type: 'download',
+          detail: { state: 'downloading', percent: snapshot.percent },
+        });
+        return;
+      }
+      if (snapshot.state === 'success') {
+        update({ type: 'download', detail: { state: 'success' } });
+        return;
+      }
+      update({
+        type: 'download',
+        detail: { state: 'failed', message: snapshot.message },
+      });
     });
 
     retry?.addEventListener('click', () => {

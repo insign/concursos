@@ -160,10 +160,12 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
     subscribeDownloadEvents((event) => {
       if (event.contestStorageId !== contestStorageId) return;
       if (event.phase === 'download') {
-        // UI própria do navegador conduz o progresso; a conclusão renova a
-        // disponibilidade e uma falha assíncrona restaura o controle com a
-        // mensagem do evento — sem renderAvailability, que apagaria o erro.
-        if (event.type === 'completed') {
+        // UI própria do navegador conduz o progresso; o botão reflete início
+        // e falha assíncrona, e a conclusão renova a disponibilidade.
+        if (event.type === 'started') {
+          downloadButton.disabled = true;
+          message.textContent = 'Download em segundo plano em andamento...';
+        } else if (event.type === 'completed') {
           window.dispatchEvent(new CustomEvent('concursos:offline-packages-changed'));
           void renderAvailability();
         } else if (event.type === 'failed') {

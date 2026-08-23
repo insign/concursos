@@ -40,7 +40,14 @@ async function fetchResolutionDocument(
   container.querySelectorAll<HTMLElement>('article[data-resolution-question-id]').forEach((article) => {
     article.querySelectorAll('script').forEach((script) => script.remove());
     if (mermaidRuntimeSource) article.dataset.resolutionMermaidSrc = mermaidRuntimeSource;
-    if (referencesBlock) article.appendChild(referencesBlock.cloneNode(true));
+    if (referencesBlock) {
+      const clone = referencesBlock.cloneNode(true) as HTMLElement;
+      // O resumo clonado não pode roubar o foco quando o diálogo fecha.
+      clone.querySelectorAll<HTMLElement>('summary').forEach((summary) => {
+        summary.setAttribute('tabindex', '-1');
+      });
+      article.appendChild(clone);
+    }
     const questionId = article.dataset.resolutionQuestionId;
     if (questionId) articles.set(questionId, article);
   });
@@ -130,7 +137,13 @@ export function createResolutionDialog(root: ParentNode): ResolutionDialogContro
     status.textContent = '';
     const previousTrigger = trigger;
     trigger = null;
-    previousTrigger?.focus();
+    // A área de feedback pode ter sido re-renderizada enquanto o diálogo estava
+    // aberto; se o nó original morreu, devolve o foco ao trigger atual.
+    if (previousTrigger?.isConnected) {
+      previousTrigger.focus();
+      return;
+    }
+    document.querySelector<HTMLElement>('[data-question-resolution-trigger]')?.focus();
   };
 
   closeButton.addEventListener('click', () => dialog.close());

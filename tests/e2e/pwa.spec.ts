@@ -160,7 +160,7 @@ test('reports insufficient quota without activating a contest package', async ({
   await waitForServiceWorker(page);
   await page.getByRole('button', { name: 'Baixar concurso' }).click();
 
-  await expect(page.getByText('Não há espaço suficiente para concluir o download. O pacote anterior foi preservado.')).toBeVisible();
+  await expect(page.locator('[data-offline-message]')).toHaveText('Não há espaço suficiente para concluir o download. O pacote anterior foi preservado.');
   await expect.poll(() =>
     page.evaluate(async () => (await caches.keys()).filter((name) => name.startsWith('contest--'))),
   ).toEqual([]);
