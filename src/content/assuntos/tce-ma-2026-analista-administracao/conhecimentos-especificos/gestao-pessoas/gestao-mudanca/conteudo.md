@@ -14,7 +14,7 @@ storageId: "gp-gestao-mudanca"
 
 Ela não se reduz a comunicar uma decisão, ministrar treinamento ou controlar o escopo de um projeto. O projeto organiza entregas; a gestão da mudança cuida especialmente da adoção humana e organizacional dessas entregas.
 
-Neste assunto, comunicação, liderança, conflitos, processos, projetos, QVT e inovação aparecem apenas quando necessários para compreender a mudança, sem repetir suas teorias gerais.
+Neste assunto, comunicação, liderança, conflitos, processos, projetos, <abbr title="Qualidade de Vida no Trabalho">QVT</abbr> e inovação aparecem apenas quando necessários para compreender a mudança, sem repetir suas teorias gerais.
 
 > **Recorte bibliográfico:** referências consultadas até 17 de julho de 2026. O edital cobra apenas **“7 Gestão da mudança”**; por isso, modelos e conceitos complementares são apresentados na profundidade necessária para prova, não como especialização autônoma.
 
@@ -150,7 +150,7 @@ A participação de atores de diferentes setores pode ampliar conhecimento do pr
 | coalizão orientadora | reunir influência e coordenar áreas envolvidas |
 | agente de mudança | apoiar diagnóstico, comunicação, capacitação e feedback |
 | gestor de linha | traduzir a mudança para rotinas e apoiar a equipe |
-| governança | definir competências, decisões, riscos, indicadores e accountability |
+| governança | definir competências, decisões, riscos, indicadores e <abbr title="prestação de contas e responsabilização">accountability</abbr> |
 | públicos afetados | fornecer conhecimento, testar soluções e sinalizar impactos |
 
 Patrocínio simbólico não basta. Delegar toda a mudança a uma equipe técnica enfraquece legitimidade, coordenação e remoção de barreiras.

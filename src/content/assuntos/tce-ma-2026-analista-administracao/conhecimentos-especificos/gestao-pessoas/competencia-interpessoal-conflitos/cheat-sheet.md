@@ -81,7 +81,7 @@
 - Distributiva: divide valor percebido como limitado.
 - Integrativa: interesses, opções e critérios objetivos.
 - Posição = exigência; interesse = razão, risco ou necessidade subjacente.
-- BATNA = melhor alternativa sem acordo.
+- <abbr title="Best Alternative to a Negotiated Agreement">BATNA</abbr> = melhor alternativa sem acordo.
 - Nem todo conflito admite ganha-ganha.
 
 ## Terceiros
@@ -103,4 +103,4 @@
 - Empatia não autoriza favorecimento.
 - Confidencialidade não elimina transparência, registro ou apuração.
 - Negociação não permite renunciar a competência ou interesse público.
-- Deveres concretos dependem do regime e das normas aplicáveis ao TCE-MA.
+- Deveres concretos dependem do regime e das normas aplicáveis ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.

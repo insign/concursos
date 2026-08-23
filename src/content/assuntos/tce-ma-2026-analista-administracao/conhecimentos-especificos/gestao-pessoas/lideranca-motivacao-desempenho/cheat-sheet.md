@@ -53,13 +53,13 @@
 
 ## Relacionais e contemporâneas
 
-- LMX: qualidade da troca em cada díade; não legitima favoritismo.
+- <abbr title="Leader-Member Exchange">LMX</abbr>: qualidade da troca em cada díade; não legitima favoritismo.
 - Transacional: trocas, papéis, recompensa contingente e exceção.
 - Transformacional: influência idealizada, inspiração, estimulação intelectual e consideração individualizada.
 - Carismática ≠ transformacional.
 - Servidora: servir e desenvolver.
 - Autêntica: autoconsciência, transparência, equilíbrio e moral internalizada.
-- Compartilhada: influência distribuída; preserva coordenação e accountability.
+- Compartilhada: influência distribuída; preserva coordenação e <abbr title="prestação de contas e responsabilização">accountability</abbr>.
 
 ## Motivação
 

@@ -102,13 +102,13 @@ Mudança em um elemento costuma repercutir em outros:
 - Coalizão: influência e coordenação.
 - Agente: diagnóstico + comunicação + capacitação + feedback.
 - Gestor de linha: traduz para rotinas.
-- Governança: decisões + riscos + métricas + accountability.
+- Governança: decisões + riscos + métricas + <abbr title="prestação de contas e responsabilização">accountability</abbr>.
 
 ## Ciclo
 
 1. Estado atual e linha de base.
 2. Estado desejado e critérios de sucesso.
-3. Stakeholders, impactos, riscos e capacidade.
+3. <abbr title="partes interessadas">Stakeholders</abbr>, impactos, riscos e capacidade.
 4. Governança, comunicação, participação e capacitação.
 5. Piloto/contingência quando cabível.
 6. Implementação e suporte.
