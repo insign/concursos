@@ -116,7 +116,7 @@ export function startOfflineDownloadIndicator(
             apply({ type: 'background-result', ok: false });
             return;
           }
-          if (state.status !== 'active') apply({ type: 'started' });
+          if (state.state !== 'active') apply({ type: 'started' });
           const total = fetch.downloadTotal ?? 0;
           if (total > 0) {
             apply({
