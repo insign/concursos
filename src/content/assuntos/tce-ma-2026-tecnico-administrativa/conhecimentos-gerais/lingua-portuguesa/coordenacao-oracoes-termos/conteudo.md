@@ -64,7 +64,7 @@ Membros coordenados podem conter estruturas internas complexas:
 
 Os núcleos *técnicos* e *auditores* coordenam-se como sujeito composto; cada núcleo conserva seus próprios modificadores. Pergunte sempre até onde vai cada membro da série.
 
-Em construções como “técnicos e auditores experientes”, o adjetivo pode alcançar os dois grupos ou apenas o segundo, conforme contexto e prosódia. A reescrita deve eliminar a ambiguidade quando ela for relevante:
+Em construções como “técnicos e auditores experientes”, o adjetivo pode alcançar os dois grupos ou apenas o segundo, conforme contexto e <abbr title="ritmo, acento e entonação da fala">prosódia</abbr>. A reescrita deve eliminar a ambiguidade quando ela for relevante:
 
 - **técnicos experientes e auditores experientes** — alcance sobre ambos;
 - **técnicos e auditores que sejam experientes** — alcance explicitado;
