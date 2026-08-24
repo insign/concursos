@@ -18,7 +18,7 @@ O edital do Cargo 16 cobra, em **Direito Administrativo**, o **controle da admin
 
 Este assunto reúne essas três perspectivas em uma visão sistemática, sem transformar o tópico em estudo aprofundado de Controle Externo, Poder Legislativo ou remédios constitucionais. Esses temas aparecem em outros pontos do programa e, aqui, entram apenas no grau necessário para compreender **quem controla, o que controla, por qual instrumento e com quais limites**.
 
-O corte normativo adotado é **6 de julho de 2026**, data do Edital nº 1 do TCE/MA. A Constituição Federal, a Lei nº 9.784/1999 e os entendimentos consolidados do STF utilizados abaixo são considerados conforme esse corte.
+O corte normativo adotado é **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A Constituição Federal, a Lei nº 9.784/1999 e os entendimentos consolidados do <abbr title="Supremo Tribunal Federal">STF</abbr> utilizados abaixo são considerados conforme esse corte.
 
 > **Ideia central:** controlar a Administração não significa substituir o administrador. Cada espécie de controle possui fundamento, objeto, competência e limites próprios.
 

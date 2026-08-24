@@ -82,7 +82,7 @@ Pode ser substituído por instrumento hábil:
 Exceção:
 → pequena compra/serviço de pronto pagamento dentro do limite legal.
 
-### PNCP
+### <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>
 
 | Origem | Prazo de divulgação |
 |---|---:|
@@ -101,7 +101,7 @@ A cada exercício:
 → crédito orçamentário.
 
 Se ultrapassar 1 exercício:
-→ atenção ao PPA.
+→ atenção ao <abbr title="Plano Plurianual">PPA</abbr>.
 
 ### Contínuos
 
@@ -113,7 +113,7 @@ prorrogações sucessivas
 
 desde que haja previsão e vantagem.
 
-### TI estruturante
+### <abbr title="Tecnologia da informação">TI</abbr> estruturante
 
 `MÁXIMO 15 ANOS`
 
@@ -383,7 +383,7 @@ Não é aplicação integral automática.
 - acordo de cooperação técnica;
 - acordo de adesão.
 
-**Atenção:** disciplina federal; não transformar em regra universal do TCE/MA.
+**Atenção:** disciplina federal; não transformar em regra universal do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
 ---
 

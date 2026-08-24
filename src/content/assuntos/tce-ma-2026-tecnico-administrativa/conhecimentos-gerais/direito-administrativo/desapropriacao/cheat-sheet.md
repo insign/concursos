@@ -44,9 +44,9 @@ Podem declarar/promover nos termos da lei:
 
 - União;
 - estados;
-- DF;
+- <abbr title="Distrito Federal">DF</abbr>;
 - municípios;
-- delegados legalmente autorizados, nas hipóteses do DL 3.365.
+- delegados legalmente autorizados, nas hipóteses do <abbr title="Decreto-Lei">DL</abbr> 3.365.
 
 `LEGISLAR ≠ EXECUTAR`
 
@@ -152,7 +152,7 @@ Exceção legal:
 | resposta à oferta do art. 10-A | **15 dias** |
 | urgência: requerer imissão provisória | **120 dias** |
 | interesse social — Lei 4.132 | **2 anos** |
-| reforma agrária — LC 76 | **2 anos** |
+| reforma agrária — <abbr title="Lei Complementar">LC</abbr> 76 | **2 anos** |
 | Tema 1019 — hipótese repetitiva | **10 anos** |
 
 ### Silêncio na oferta
@@ -265,7 +265,7 @@ Nas desapropriações-sanção por descumprimento de função social dos:
 | ordinário | dinheiro |
 | urbano comum | dinheiro |
 | urbano sancionatório | títulos da dívida pública |
-| reforma agrária | TDA + benfeitorias úteis/necessárias em dinheiro |
+| reforma agrária | <abbr title="Títulos da Dívida Agrária">TDA</abbr> + benfeitorias úteis/necessárias em dinheiro |
 | art. 243 | **sem indenização** |
 
 ---
@@ -285,7 +285,7 @@ Nas desapropriações-sanção por descumprimento de função social dos:
 Ordem:
 
 1. parcelamento/edificação compulsórios;
-2. IPTU progressivo no tempo;
+2. <abbr title="Imposto sobre a Propriedade Predial e Territorial Urbana">IPTU</abbr> progressivo no tempo;
 3. desapropriação em títulos.
 
 Títulos:
@@ -375,7 +375,7 @@ Destinação:
 
 ---
 
-## 21. Tema 1019/STJ
+## 21. Tema 1019/<abbr title="Superior Tribunal de Justiça">STJ</abbr>
 
 Hipótese:
 

@@ -19,7 +19,7 @@ O edital do Cargo 16 cobra, em **Direito Administrativo**, a responsabilidade ci
 
 O foco deste assunto é identificar **quando o dano pode ser juridicamente imputado ao Estado**. Não é necessário transformar o tópico em estudo completo de responsabilidade civil privada, cálculo de indenizações, prescrição ou processo civil.
 
-O corte normativo adotado é **6 de julho de 2026**, data do Edital nº 1 do TCE/MA.
+O corte normativo adotado é **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
 > **Regra de prova:** responsabilidade objetiva elimina a necessidade de provar culpa, mas **não elimina dano nem nexo causal**.
 
@@ -164,7 +164,7 @@ O edital, porém, não exige desenvolver toda a teoria dos danos decorrentes de 
 
 A responsabilidade por omissão exige atenção especial porque **não cabe decorar uma fórmula absoluta para todos os casos**.
 
-### 7.1. Regra geral adotada pelo STJ
+### 7.1. Regra geral adotada pelo <abbr title="Superior Tribunal de Justiça">STJ</abbr>
 
 A jurisprudência do STJ registra, como regra geral, que a responsabilidade estatal por **conduta omissiva** é **subjetiva**.
 
@@ -174,7 +174,7 @@ Nessa linha, devem ser demonstrados:
 
 A culpa é compreendida como deficiência do serviço público: serviço que não funcionou quando devia, funcionou mal ou funcionou tardiamente, conforme as circunstâncias do caso.
 
-### 7.2. Dever específico de proteção e jurisprudência do STF
+### 7.2. Dever específico de proteção e jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr>
 
 O STF reconhece hipóteses em que a omissão estatal está ligada a um **dever específico de proteção**.
 

@@ -18,7 +18,7 @@ O edital do Cargo 16 reúne, em **Direito Administrativo**, três blocos que pre
 
 Dentro de contratos administrativos, o programa menciona expressamente **conceito, características, vigência, alterações, execução, inexecução e rescisão**.
 
-> **Corte jurídico:** este material adota como referência a legislação vigente em **6 de julho de 2026**, data do Edital nº 1 do TCE/MA. Alterações posteriores devem ser tratadas como pós-edital e não substituem silenciosamente a regra aplicável ao corte.
+> **Corte jurídico:** este material adota como referência a legislação vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Alterações posteriores devem ser tratadas como pós-edital e não substituem silenciosamente a regra aplicável ao corte.
 
 Nos conhecimentos específicos do Cargo 16, **Gestão de Contratos** aprofunda vários dispositivos da Lei nº 14.133/2021. Aqui, o objetivo é diferente: formar uma **visão geral de Direito Administrativo**, suficiente para reconhecer o regime jurídico do contrato e relacioná-lo com consórcios, convênios e outros ajustes cooperativos.
 
@@ -379,7 +379,7 @@ Mesmo quando possui personalidade de direito privado, o consórcio público deve
 - prestação de contas;
 - admissão de pessoal.
 
-O pessoal do consórcio é regido pela CLT, conforme a legislação aplicável.
+O pessoal do consórcio é regido pela <abbr title="Consolidação das Leis do Trabalho">CLT</abbr>, conforme a legislação aplicável.
 
 ---
 
@@ -612,7 +612,7 @@ Pergunte:
 | contrato de rateio | não | transferência de recursos dos consorciados ao consórcio | Lei nº 11.107/2005 + Decreto nº 6.017/2007 |
 | contrato de programa | não | obrigações da gestão associada de serviços | Lei nº 11.107/2005 e legislação correlata |
 | convênio | não | interesse recíproco e mútua colaboração | norma específica + art. 184 da Lei nº 14.133/2021 |
-| convênio de cooperação | não | cooperação federativa/gestão associada | CF, art. 241 + Lei nº 11.107/2005 no que couber |
+| convênio de cooperação | não | cooperação federativa/gestão associada | <abbr title="Constituição Federal">CF</abbr>, art. 241 + Lei nº 11.107/2005 no que couber |
 | contrato de repasse federal | não | transferência com mandatária financeira da União | Decreto nº 11.531/2023, no âmbito federal |
 
 ---
