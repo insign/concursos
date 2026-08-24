@@ -136,7 +136,7 @@ Para a prova, não confunda **ilicitude do ato** com **existência de dever de r
 
 A responsabilidade por omissão exige cuidado porque **não existe uma fórmula única para todas as situações**.
 
-### 7.1. Regra geral no STJ
+### 7.1. Regra geral no <abbr title="Superior Tribunal de Justiça">STJ</abbr>
 
 A jurisprudência do STJ registra, como regra geral, que a responsabilidade estatal por **conduta omissiva** é **subjetiva**.
 
@@ -148,7 +148,7 @@ A culpa do serviço corresponde à deficiência juridicamente relevante do servi
 
 O **Informativo 733 do STJ**, ao tratar de acidente em rodovia estadual causado por buraco não sinalizado, reafirma a necessidade de omissão culposa, dano e nexo causal.
 
-### 7.2. Dever específico de proteção — Tema 592 do STF
+### 7.2. Dever específico de proteção — Tema 592 do <abbr title="Supremo Tribunal Federal">STF</abbr>
 
 No **Tema 592**, sobre morte de detento, o STF fixou que, em caso de inobservância do dever específico de proteção previsto no art. 5º, XLIX, da Constituição, o Estado é responsável pela morte do preso.
 
@@ -156,7 +156,7 @@ A técnica de prova é identificar se havia **dever jurídico específico de agi
 
 ### 7.3. Atividade de risco anormal — STJ Informativo 674
 
-O STJ reconhece situação excepcional de responsabilidade objetiva por omissão quando a atividade estatal envolve **risco anormal**. No **Informativo 674**, referente ao REsp 1.869.046/SP, aplicou-se o art. 927, parágrafo único, do Código Civil a atividade naturalmente perigosa, sendo irrelevante, nessa hipótese específica, que a conduta fosse comissiva ou omissiva.
+O STJ reconhece situação excepcional de responsabilidade objetiva por omissão quando a atividade estatal envolve **risco anormal**. No **Informativo 674**, referente ao <abbr title="Recurso Especial">REsp</abbr> 1.869.046/SP, aplicou-se o art. 927, parágrafo único, do Código Civil a atividade naturalmente perigosa, sendo irrelevante, nessa hipótese específica, que a conduta fosse comissiva ou omissiva.
 
 A lição é restrita: não se converte toda omissão estatal em responsabilidade objetiva. É preciso identificar o fundamento jurídico especial para a objetivação.
 
@@ -184,7 +184,7 @@ Pergunte:
 3. a omissão contribuiu causalmente para o dano?
 4. alguma causa independente rompeu essa conexão?
 
-### 8.1. Tema 362 do STF — preso foragido
+### 8.1. Tema 362 do <abbr title="Supremo Tribunal Federal">STF</abbr> — preso foragido
 
 No **Tema 362**, o STF fixou que não se caracteriza responsabilidade civil objetiva do Estado por crime praticado por pessoa foragida do sistema prisional quando **não demonstrado nexo causal direto entre o momento da fuga e a conduta criminosa**.
 
@@ -229,7 +229,7 @@ O art. 945 do Código Civil determina que, concorrendo culposamente a vítima pa
 | culpa **exclusiva** da vítima | rompe o nexo → pode excluir |
 | culpa **concorrente** da vítima | preserva contribuição estatal → pode atenuar |
 
-## 11. Direito de regresso e Tema 940 do STF
+## 11. Direito de regresso e Tema 940 do <abbr title="Supremo Tribunal Federal">STF</abbr>
 
 O art. 37, § 6º, assegura ação regressiva contra o agente quando houver **dolo ou culpa**.
 

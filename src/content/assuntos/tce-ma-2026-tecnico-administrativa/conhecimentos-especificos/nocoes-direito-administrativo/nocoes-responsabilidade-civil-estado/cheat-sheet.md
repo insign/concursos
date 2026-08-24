@@ -71,7 +71,7 @@ Excludentes continuam possíveis quando rompem o nexo.
 | Ponto | Comissivo | Omissivo |
 |---|---|---|
 | comportamento | ação | não agir |
-| regra de prova | objetiva | em regra subjetiva no STJ |
+| regra de prova | objetiva | em regra subjetiva no <abbr title="Superior Tribunal de Justiça">STJ</abbr> |
 | culpa | não é requisito para a vítima | normalmente integra a falha do serviço |
 | dano | obrigatório | obrigatório |
 | nexo | obrigatório | obrigatório |
@@ -101,13 +101,13 @@ Depois:
 
 ## 7. Tema 592 — detento
 
-**STF:**
+**<abbr title="Supremo Tribunal Federal">STF</abbr>:**
 
 `DEVER ESPECÍFICO DE PROTEÇÃO + INOBSERVÂNCIA + MORTE DO DETENTO`
 
 → responsabilidade estatal.
 
-Base: CF, art. 5º, XLIX.
+Base: <abbr title="Constituição Federal">CF</abbr>, art. 5º, XLIX.
 
 **Pegadinha:** não use o caso para afirmar que “toda omissão é objetiva”.
 
@@ -221,7 +221,7 @@ Se o evento integra o risco da atividade ou havia dever específico de prevenç�
 
 `1. QUEM RESPONDE?`
 
-→ PJ pública / prestadora de serviço público?
+→ <abbr title="Pessoa Jurídica">PJ</abbr> pública / prestadora de serviço público?
 
 `2. AÇÃO OU OMISSÃO?`
 

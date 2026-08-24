@@ -83,11 +83,11 @@ ESTABELECIMENTO viola regra sanitária
 
 **Sanção exige competência, fundamento jurídico, processo devido, defesa e motivação.**
 
-Lei nº 8.112/1990 = **exemplo federal**, não estatuto do TCE/MA.
+Lei nº 8.112/1990 = **exemplo federal**, não estatuto do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
 ## Regulamentar
 
-### Regra — CF, art. 84, IV
+### Regra — <abbr title="Constituição Federal">CF</abbr>, art. 84, IV
 
 ```text
 LEI
@@ -119,7 +119,7 @@ Pode tratar de:
 | regulamento executivo pode alterar a lei | **ERRADO** |
 | poder normativo pode ser expressão mais ampla que regulamentar | **CERTO, conforme a classificação adotada** |
 
-## Poder de polícia — CTN, art. 78
+## Poder de polícia — <abbr title="Código Tributário Nacional">CTN</abbr>, art. 78
 
 ### Conceito-relâmpago
 
@@ -180,7 +180,7 @@ Nem toda situação percorre as quatro fases.
 
 **Não transforme o ciclo em tabela absoluta de delegabilidade.**
 
-## Tema 532/STF — delegação
+## Tema 532/<abbr title="Supremo Tribunal Federal">STF</abbr> — delegação
 
 Delegação por **LEI** a pessoa jurídica de direito privado da Administração indireta somente na tese quando houver cumulativamente:
 

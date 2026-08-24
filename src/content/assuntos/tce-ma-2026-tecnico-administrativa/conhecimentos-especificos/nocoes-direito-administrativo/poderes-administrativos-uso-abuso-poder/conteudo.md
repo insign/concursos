@@ -12,7 +12,7 @@ storageId: tec-nocoes-poderes-145
 
 Este assunto integra **Conhecimentos específicos — Noções de Direito Administrativo** do Cargo 16 e cobre exatamente os itens **4 Poderes administrativos; 4.1 Hierárquico, disciplinar, regulamentar e de polícia; 4.2 Uso e abuso do poder**.
 
-> **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do TCE/MA. A conferência editorial foi feita posteriormente, sem ampliar o corte.
+> **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A conferência editorial foi feita posteriormente, sem ampliar o corte.
 
 O foco é reconhecer o núcleo de cada poder, seus limites e as distinções que mais geram erro em prova. Referências federais aparecem apenas para concretizar conceitos; não transformam processo disciplinar, regime funcional ou processo administrativo federal em matérias autônomas deste assunto.
 
@@ -33,7 +33,7 @@ As referências normativas e jurisprudenciais principais são:
 - Código Tributário Nacional, arts. 77 e 78, como definição legal clássica do poder de polícia e de seu exercício regular;
 - Lei nº 9.784/1999, arts. 11 a 15, apenas como **referência federal** para competência, delegação e avocação;
 - Lei nº 8.112/1990, arts. 127 a 143, apenas como **exemplo federal** de exercício disciplinar sobre servidores submetidos àquele regime;
-- STF, Tema 532 da repercussão geral (RE 633.782), sobre delegação do poder de polícia a determinadas pessoas jurídicas de direito privado da Administração indireta.
+- <abbr title="Supremo Tribunal Federal">STF</abbr>, Tema 532 da repercussão geral (<abbr title="Recurso Extraordinário">RE</abbr> 633.782), sobre delegação do poder de polícia a determinadas pessoas jurídicas de direito privado da Administração indireta.
 
 As Leis nº 9.784/1999 e nº 8.112/1990 são usadas somente como referências do regime **federal**. Elas não são apresentadas como estatutos automaticamente aplicáveis ao TCE/MA.
 
@@ -229,7 +229,7 @@ O **poder de polícia** permite à Administração limitar ou disciplinar direit
 
 O art. 78 do Código Tributário Nacional oferece uma definição legal clássica: considera poder de polícia a atividade administrativa que, limitando ou disciplinando direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato em razão de interesses públicos relacionados, entre outros, à segurança, higiene, ordem, costumes, disciplina da produção e do mercado, tranquilidade pública, propriedade e direitos individuais ou coletivos.
 
-### 5.1 Exercício regular — CTN, art. 78, parágrafo único
+### 5.1 Exercício regular — <abbr title="Código Tributário Nacional">CTN</abbr>, art. 78, parágrafo único
 
 O CTN considera regular o exercício quando o poder de polícia é desempenhado:
 
@@ -316,7 +316,7 @@ regra sanitária
 
 A utilidade da classificação é organizar o raciocínio, não criar uma tabela absoluta de delegabilidade.
 
-## 7. Delegação do poder de polícia — Tema 532/STF
+## 7. Delegação do poder de polícia — Tema 532/<abbr title="Supremo Tribunal Federal">STF</abbr>
 
 O STF, no **Tema 532 da repercussão geral**, superou a ideia de que toda atividade de polícia seria indelegável a qualquer pessoa jurídica de direito privado.
 
@@ -327,7 +327,7 @@ A tese admite, **por meio de lei**, delegação do poder de polícia a pessoa ju
 - serviço de atuação própria do Estado;
 - atuação em **regime não concorrencial**.
 
-No caso paradigma, discutia-se a atuação da BHTrans e a aplicação de multas de trânsito.
+No caso paradigma, discutia-se a atuação da <abbr title="Empresa de Transportes e Trânsito de Belo Horizonte S/A">BHTrans</abbr> e a aplicação de multas de trânsito.
 
 ### 7.1 O que não concluir do Tema 532
 

@@ -24,7 +24,7 @@ Não levar para esta unidade como matéria autônoma: procedimentos auxiliares, 
 
 ### Rol de alta cobrança
 
-Legalidade, impessoalidade, moralidade, publicidade, eficiência, interesse público, probidade, igualdade, **planejamento**, transparência, eficácia, **segregação de funções**, motivação, **vinculação ao edital**, **julgamento objetivo**, segurança jurídica, razoabilidade, **competitividade**, proporcionalidade, celeridade, **economicidade**, desenvolvimento nacional sustentável + LINDB.
+Legalidade, impessoalidade, moralidade, publicidade, eficiência, interesse público, probidade, igualdade, **planejamento**, transparência, eficácia, **segregação de funções**, motivação, **vinculação ao edital**, **julgamento objetivo**, segurança jurídica, razoabilidade, **competitividade**, proporcionalidade, celeridade, **economicidade**, desenvolvimento nacional sustentável + <abbr title="Lei de Introdução às Normas do Direito Brasileiro">LINDB</abbr>.
 
 ### Contrastes
 
