@@ -14,7 +14,7 @@ O edital do Cargo 16 abre **Direito Constitucional** com dois núcleos insepará
 
 O recorte adequado é estudar a Constituição de 1988 como texto constitucional vigente e, em profundidade proporcional à prova, o **Título I — Dos Princípios Fundamentais (arts. 1º a 4º)**. Teoria geral da Constituição, classificações e emendas constitucionais serão tratadas no assunto específico de Noções de Direito Constitucional; eficácia e aplicabilidade das normas são objeto do assunto 124; direitos e garantias fundamentais, do assunto 125.
 
-> **Corte de prova:** texto constitucional vigente em **6 de julho de 2026**, data do Edital nº 1 do TCE/MA. A Emenda Constitucional nº 139/2026 já integrava esse corte, mas alterou os arts. 31 e 75, sem modificar os arts. 1º a 4º.
+> **Corte de prova:** texto constitucional vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A Emenda Constitucional nº 139/2026 já integrava esse corte, mas alterou os arts. 31 e 75, sem modificar os arts. 1º a 4º.
 
 Para este assunto, a sequência de recuperação mais útil é:
 
@@ -31,7 +31,7 @@ ART. 4º → RELAÇÕES INTERNACIONAIS + INTEGRAÇÃO LATINO-AMERICANA
 
 A Constituição da República Federativa do Brasil foi promulgada em **5 de outubro de 1988**. Para este recorte, não é necessário antecipar classificações doutrinárias do texto constitucional. O que interessa é reconhecer que os princípios fundamentais estão logo no início da Constituição e estruturam a identidade constitucional do Estado brasileiro.
 
-Antes do Título I há o **Preâmbulo**, que anuncia valores e finalidades da ordem constitucional. O Supremo Tribunal Federal, na ADI 2.076, assentou que a invocação da proteção de Deus no preâmbulo **não é norma de reprodução obrigatória nas constituições estaduais e não possui força normativa autônoma**.
+Antes do Título I há o **Preâmbulo**, que anuncia valores e finalidades da ordem constitucional. O Supremo Tribunal Federal, na <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2.076, assentou que a invocação da proteção de Deus no preâmbulo **não é norma de reprodução obrigatória nas constituições estaduais e não possui força normativa autônoma**.
 
 Isso produz uma pegadinha frequente:
 
@@ -334,7 +334,7 @@ INTEGRAÇÃO → econômica + política + social + cultural
 FINALIDADE → comunidade latino-americana de nações
 ```
 
-No material oficial do STF, há precedente ressaltando que esse dispositivo não elimina, por si só, os mecanismos constitucionais de incorporação de tratados ao direito interno. Para este nível de prova, a cobrança mais importante é a **literalidade e a finalidade do parágrafo único**.
+No material oficial do <abbr title="Supremo Tribunal Federal">STF</abbr>, há precedente ressaltando que esse dispositivo não elimina, por si só, os mecanismos constitucionais de incorporação de tratados ao direito interno. Para este nível de prova, a cobrança mais importante é a **literalidade e a finalidade do parágrafo único**.
 
 ---
 

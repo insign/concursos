@@ -204,7 +204,7 @@ VALORES/EXORTAÇÃO
 NÃO = ARTS. 1º–4º
 ```
 
-STF — ADI 2.076:
+<abbr title="Supremo Tribunal Federal">STF</abbr> — <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2.076:
 
 `"sob a proteção de Deus" ≠ reprodução estadual obrigatória`
 

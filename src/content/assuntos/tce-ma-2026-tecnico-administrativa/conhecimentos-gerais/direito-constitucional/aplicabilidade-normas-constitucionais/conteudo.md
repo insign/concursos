@@ -10,9 +10,9 @@ storageId: tec-aplicabilidade-124
 
 ## 1. Recorte do edital e corte temporal
 
-O Cargo 16 do TCE/MA cobra, em Direito Constitucional, **aplicabilidade das normas constitucionais**, com menção expressa a **normas de eficácia plena, contida e limitada** e a **normas programáticas**. O Edital nº 2, de 29/7/2026, ampliou a relação de cargos excluídos da matéria, mas não alterou esses itens para o Cargo 16.
+O Cargo 16 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> cobra, em Direito Constitucional, **aplicabilidade das normas constitucionais**, com menção expressa a **normas de eficácia plena, contida e limitada** e a **normas programáticas**. O Edital nº 2, de 29/7/2026, ampliou a relação de cargos excluídos da matéria, mas não alterou esses itens para o Cargo 16.
 
-> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1. A classificação estudada é predominantemente doutrinária. Jurisprudência do STF é usada aqui apenas para fixar exemplos e efeitos, sem antecipar assuntos constitucionais vizinhos.
+> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1. A classificação estudada é predominantemente doutrinária. Jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr> é usada aqui apenas para fixar exemplos e efeitos, sem antecipar assuntos constitucionais vizinhos.
 
 O ponto central é responder: **quanto do comando constitucional já pode produzir seus efeitos essenciais por força do próprio texto e qual papel cabe à legislação posterior?**
 

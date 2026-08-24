@@ -10,9 +10,9 @@ storageId: tec-jurisprudencia-adm-121
 
 ## 1. Recorte do edital e método de estudo
 
-O edital do Cargo 16 cobra, em **Direito Administrativo**, **súmulas e jurisprudência vinculante do STF e do STJ**. O objetivo desta unidade não é memorizar todo o acervo dos tribunais superiores. O recorte útil para a prova é a jurisprudência **consolidada ou qualificada diretamente relacionada aos temas administrativos do próprio programa**.
+O edital do Cargo 16 cobra, em **Direito Administrativo**, **súmulas e jurisprudência vinculante do <abbr title="Supremo Tribunal Federal">STF</abbr> e do <abbr title="Superior Tribunal de Justiça">STJ</abbr>**. O objetivo desta unidade não é memorizar todo o acervo dos tribunais superiores. O recorte útil para a prova é a jurisprudência **consolidada ou qualificada diretamente relacionada aos temas administrativos do próprio programa**.
 
-> **Corte jurídico:** esta unidade considera súmulas e precedentes consolidados até **6 de julho de 2026**, data do Edital nº 1 do TCE/MA. Julgamentos posteriores não substituem silenciosamente o entendimento vigente no corte.
+> **Corte jurídico:** esta unidade considera súmulas e precedentes consolidados até **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Julgamentos posteriores não substituem silenciosamente o entendimento vigente no corte.
 
 A estratégia de estudo é:
 

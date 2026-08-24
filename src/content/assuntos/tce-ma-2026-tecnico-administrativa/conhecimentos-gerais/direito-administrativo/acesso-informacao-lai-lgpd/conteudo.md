@@ -10,9 +10,9 @@ storageId: tec-acesso-informacao-122
 
 ## 1. Recorte do edital e método de estudo
 
-O edital do Cargo 16 cobra, em **Direito Administrativo**, o tema **acesso à informação**, com referência expressa à **Lei nº 12.527/2011 (LAI)** e à **Lei nº 13.709/2018 (LGPD)**.
+O edital do Cargo 16 cobra, em **Direito Administrativo**, o tema **acesso à informação**, com referência expressa à **Lei nº 12.527/2011 (<abbr title="Lei de Acesso à Informação">LAI</abbr>)** e à **Lei nº 13.709/2018 (<abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>)**.
 
-> **Corte jurídico:** este assunto considera a legislação vigente em **6 de julho de 2026**, data do Edital nº 1 do TCE/MA. A Lei nº 15.352/2026 já estava vigente nesse corte e passou a tratar a ANPD como **Agência Nacional de Proteção de Dados**, preservada a sigla.
+> **Corte jurídico:** este assunto considera a legislação vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A Lei nº 15.352/2026 já estava vigente nesse corte e passou a tratar a ANPD como **Agência Nacional de Proteção de Dados**, preservada a sigla.
 
 Este assunto tem foco jurídico-administrativo. O estudo detalhado de conceitos gerais de proteção de dados, segurança, incidentes e direitos dos titulares já aparece no assunto de LGPD de Competências Digitais; governo digital, dados abertos e canais eletrônicos aparecem no assunto próprio. Aqui, esses elementos só retornam quando são necessários para resolver a relação **publicidade × restrição legítima × proteção de dados pessoais**.
 
@@ -159,7 +159,7 @@ Os sítios oficiais devem favorecer:
 
 ### 5.1 Município pequeno: exceção específica
 
-Municípios com **até 10 mil habitantes** ficam dispensados da divulgação obrigatória na internet prevista no art. 8º, § 2º, mas permanece a obrigação de divulgar, em tempo real, informações relativas à execução orçamentária e financeira nos termos da LRF.
+Municípios com **até 10 mil habitantes** ficam dispensados da divulgação obrigatória na internet prevista no art. 8º, § 2º, mas permanece a obrigação de divulgar, em tempo real, informações relativas à execução orçamentária e financeira nos termos da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>.
 
 > **Pegadinha:** a exceção não significa “dispensa de transparência”. Ela é específica quanto à obrigação de divulgação na internet prevista nesse dispositivo.
 
@@ -272,7 +272,7 @@ SUPERIOR HIERÁRQUICO
 
 ### 9.2 Não universalize o fluxo federal
 
-A LAI disciplina recursos específicos à **CGU** e à **Comissão Mista de Reavaliação de Informações** para hipóteses do Poder Executivo federal. Os Poderes Legislativo e Judiciário e o Ministério Público possuem regulamentação própria para revisão de negativas e de classificação em seus âmbitos.
+A LAI disciplina recursos específicos à **<abbr title="Controladoria-Geral da União">CGU</abbr>** e à **Comissão Mista de Reavaliação de Informações** para hipóteses do Poder Executivo federal. Os Poderes Legislativo e Judiciário e o Ministério Público possuem regulamentação própria para revisão de negativas e de classificação em seus âmbitos.
 
 > **Pegadinha:** `CGU ≠ instância recursal automática de qualquer órgão estadual, municipal, tribunal de contas ou Poder autônomo`.
 
