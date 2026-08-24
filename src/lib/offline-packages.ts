@@ -43,7 +43,6 @@ export interface DownloadProgress {
 }
 
 const OFFLINE_PACKAGE_LOCK = 'concursos:offline-packages';
-let fallbackPackageLock = Promise.resolve();
 
 interface PackageEnvironment {
   cacheStorage?: CacheStorage;
@@ -74,24 +73,58 @@ function requestFor(path: string, origin: string): Request {
   return new Request(url, { credentials: 'same-origin' });
 }
 
+const OFFLINE_PACKAGE_LEASE_TTL = 15_000;
+const OFFLINE_PACKAGE_LEASE_WAIT_MS = 60_000;
+
+/**
+ * Serialização única via lease IndexedDB (funciona em página E Service
+ * Worker): dono POR OPERAÇÃO (o mesmo dono não pode re-adquirir), heartbeat
+ * de renovação a cada TTL/3 e falha do trabalho se o lease for perdido.
+ */
 async function withOfflinePackageLock<T>(operation: () => Promise<T>): Promise<T> {
-  if (typeof navigator !== 'undefined' && navigator.locks) {
-    return navigator.locks.request(OFFLINE_PACKAGE_LOCK, operation);
-  }
-  if (typeof window !== 'undefined') {
-    throw new Error('Este navegador não oferece coordenação segura para downloads offline.');
+  const { acquireSyncLease, renewSyncLease, releaseSyncLease } = await import('./offline-db');
+  const ownerId =
+    typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : `${Date.now()}-${Math.random()}`;
+  const deadline = Date.now() + OFFLINE_PACKAGE_LEASE_WAIT_MS;
+  while (!(await acquireSyncLease(OFFLINE_PACKAGE_LOCK, ownerId, OFFLINE_PACKAGE_LEASE_TTL))) {
+    if (Date.now() >= deadline) {
+      throw new Error('Outro download está em andamento; aguarde alguns instantes.');
+    }
+    await new Promise((resolve) => setTimeout(resolve, 250));
   }
 
-  const previous = fallbackPackageLock;
-  let release: () => void = () => undefined;
-  fallbackPackageLock = new Promise<void>((resolve) => {
-    release = resolve;
-  });
-  await previous;
+  let lost = false;
+  let renewalInFlight: Promise<void> | null = null;
+  const heartbeat = setInterval(() => {
+    renewalInFlight = renewSyncLease(OFFLINE_PACKAGE_LOCK, ownerId, OFFLINE_PACKAGE_LEASE_TTL)
+      .then(() => undefined)
+      .catch(() => {
+        lost = true;
+      });
+  }, OFFLINE_PACKAGE_LEASE_TTL / 3);
+
   try {
-    return await operation();
+    const result = await operation();
+    // Barreira: resolve qualquer renovação em voo ANTES do veredito final,
+    // para que perda de lease não passe despercebida numa operação bem-sucedida.
+    // Cast local: TS não acompanha atribuições dentro do callback do
+    // setInterval, estreitando renewalInFlight para never aqui.
+    const pendingRenewal = renewalInFlight as Promise<void> | null;
+    if (pendingRenewal) await pendingRenewal.catch(() => undefined);
+    if (lost) {
+      throw new Error('Coordenação de download perdida durante a operação; tente novamente.');
+    }
+    return result;
+  } catch (error) {
+    const pendingOnErr = renewalInFlight as Promise<void> | null;
+    if (pendingOnErr) await pendingOnErr.catch(() => undefined);
+    if (lost && !(error instanceof Error && error.message.startsWith('Coordenação de download perdida'))) {
+      throw new Error('Coordenação de download perdida durante a operação; tente novamente.', { cause: error });
+    }
+    throw error;
   } finally {
-    release();
+    clearInterval(heartbeat);
+    await releaseSyncLease(OFFLINE_PACKAGE_LOCK, ownerId).catch(() => undefined);
   }
 }
 

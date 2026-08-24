@@ -106,7 +106,13 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
           : undefined;
         if (registration && backgroundFetchSupported(registration)) {
           // Um download por concurso: clicar de novo não empilha transferências.
-          if (await hasActivePackageDownload(registration, manifest.contestStorageId)) {
+          let alreadyActive = false;
+          try {
+            alreadyActive = await hasActivePackageDownload(registration, manifest.contestStorageId);
+          } catch {
+            alreadyActive = false;
+          }
+          if (alreadyActive) {
             downloadButton.disabled = true;
             message.textContent = 'Já existe um download em andamento para este concurso.';
             return;

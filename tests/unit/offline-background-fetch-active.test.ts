@@ -5,9 +5,15 @@ import {
 } from '../../src/lib/offline-background-fetch';
 
 function registrationWith(fetches: Array<{ id: string }>) {
+  const store = new Map(fetches.map((fetch) => [fetch.id, { id: fetch.id }]));
   return {
     backgroundFetch: {
-      getActiveFetches: async () => fetches,
+      async getIds(): Promise<string[]> {
+        return [...store.keys()];
+      },
+      async get(id: string) {
+        return store.get(id);
+      },
     },
   };
 }
@@ -31,6 +37,20 @@ describe('active package fetches', () => {
     const registration = registrationWith([{ id: 'offline-package-1724400000002-exemplo' }]);
     await expect(hasActivePackageDownload(registration, 'exemplo')).resolves.toBe(true);
     await expect(hasActivePackageDownload(registration, 'tcema')).resolves.toBe(false);
+  });
+
+  it('propagates per-id get() rejection as uncertainty', async () => {
+    const registration = {
+      backgroundFetch: {
+        async getIds() {
+          return ['offline-package-1724400000003-exemplo'];
+        },
+        async get() {
+          throw new Error('record unavailable');
+        },
+      },
+    };
+    await expect(getActivePackageFetches(registration)).rejects.toThrow('record unavailable');
   });
 
   it('tolerates browsers without Background Fetch or with failing managers', async () => {

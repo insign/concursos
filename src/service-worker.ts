@@ -9,6 +9,7 @@ import { maybeUpdateOfflinePackages } from './lib/offline-auto-update';
 import {
   finalizeFailedBackgroundFetch,
   finalizeSuccessfulBackgroundFetch,
+  reconcileOrphanedPackageJobs,
   type BackgroundFetchRegistrationLike,
 } from './lib/offline-background-fetch';
 import {
@@ -20,6 +21,11 @@ import {
 
 type WorkerScope = typeof globalThis & {
   __WB_MANIFEST: Array<{ revision: string | null; url: string } | string>;
+  registration: ServiceWorkerRegistration & {
+    backgroundFetch?: {
+      getActiveFetches(): Promise<Array<{ id: string }>>;
+    };
+  };
   clients: {
     matchAll(options: { type: 'window' }): Promise<ReadonlyArray<{ postMessage(message: unknown): void }>>;
   };
@@ -214,6 +220,20 @@ worker.addEventListener('backgroundfetchsuccess', (event) => {
       console.warn('[concursos] Falha ao adotar download em background.', error);
     }),
   );
+});
+
+// Reconcilia jobs órfãos quando o Service Worker assume o controle: conclusões
+// entregues a um worker substituído nunca serão recuperadas de outra forma.
+worker.addEventListener('activate', (event) => {
+  const activateEvent = event as Event & { waitUntil(promise: Promise<unknown>): void };
+  if (typeof activateEvent.waitUntil !== 'function') return;
+  activateEvent.waitUntil(reconcileOrphanedPackageJobs(worker.registration).catch(() => undefined));
+});
+
+worker.addEventListener('backgroundfetchabort', (event) => {
+  const typed = backgroundFetchEvent(event);
+  if (!typed) return;
+  typed.waitUntil(finalizeFailedBackgroundFetch(typed.registration));
 });
 
 worker.addEventListener('backgroundfetchfail', (event) => {

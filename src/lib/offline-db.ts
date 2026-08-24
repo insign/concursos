@@ -4,7 +4,7 @@ import type { AnswerDocument } from './questionnaire';
 import type { SimuladoDocument } from './simulados';
 
 export const OFFLINE_DB_NAME = 'concursos-offline';
-const OFFLINE_DB_VERSION = 5;
+const OFFLINE_DB_VERSION = 6;
 
 export type OutboxState = 'clean' | 'pending';
 
@@ -154,6 +154,10 @@ interface ConcursosDbSchema extends DBSchema {
     key: string;
     value: DownloadJobRecord;
   };
+  downloadDiagnostics: {
+    key: string;
+    value: DownloadDiagnosticRecord;
+  };
   leases: {
     key: string;
     value: SyncLeaseRecord;
@@ -164,7 +168,7 @@ interface ConcursosDbSchema extends DBSchema {
   };
 }
 
-let databasePromise: Promise<IDBPDatabase<ConcursosDbSchema>> | undefined;
+let databasePromise: Promise<IDBPDatabase<ConcursosDbSchema>> | null = null;
 const pendingWrites = new Set<Promise<unknown>>();
 
 function trackWrite<T>(write: Promise<T>): Promise<T> {
@@ -175,6 +179,11 @@ function trackWrite<T>(write: Promise<T>): Promise<T> {
 
 export function openOfflineDb(): Promise<IDBPDatabase<ConcursosDbSchema>> {
   databasePromise ??= openDB<ConcursosDbSchema>(OFFLINE_DB_NAME, OFFLINE_DB_VERSION, {
+    blocked() {
+      // Outra conexão (aba antiga) segurando versão inferior: libera o cache
+      // para que a próxima abertura tente o upgrade novamente.
+      databasePromise = null;
+    },
     upgrade(database) {
       // Migração aditiva e idempotente: cria apenas os stores ausentes, para que os bumps
       // de versão (v1->v2 'estudados', v2->v3 'leitura', v3->v4 'simulados'/'simuladosIndex')
@@ -218,6 +227,10 @@ export function openOfflineDb(): Promise<IDBPDatabase<ConcursosDbSchema>> {
       if (!database.objectStoreNames.contains('downloadJobs')) {
         database.createObjectStore('downloadJobs', { keyPath: 'id' });
       }
+      // v5 -> v6: diagnóstico durável dos downloads em segundo plano.
+      if (!database.objectStoreNames.contains('downloadDiagnostics')) {
+        database.createObjectStore('downloadDiagnostics', { keyPath: 'id' });
+      }
     },
   });
   return databasePromise;
@@ -239,6 +252,87 @@ export async function getDownloadJob(id: string): Promise<DownloadJobRecord | un
 
 export async function deleteDownloadJob(id: string): Promise<void> {
   await (await openOfflineDb()).delete('downloadJobs', id);
+}
+
+export type DownloadDiagnosticStep =
+  | 'job-read'
+  | 'job-missing'
+  | 'manifest-invalid'
+  | 'staging'
+  | 'adoption'
+  | 'browser-failed'
+  | 'reconcile'
+  | 'complete';
+
+export interface DownloadDiagnosticRecord {
+  id: string;
+  contestStorageId: string | null;
+  outcome: 'completed' | 'failed';
+  reasonCode: string;
+  occurredAt: number;
+  jobId: string | null;
+  manifestHash?: string;
+  errorName?: string;
+  errorMessage?: string;
+}
+
+const DOWNLOAD_DIAGNOSTICS_LIMIT = 50;
+
+/** Grava o diagnóstico podando o histórico; nunca lança. */
+export async function saveDownloadDiagnostic(record: DownloadDiagnosticRecord): Promise<void> {
+  try {
+    const database = await openOfflineDb();
+    const tx = database.transaction('downloadDiagnostics', 'readwrite');
+    const store = tx.objectStore('downloadDiagnostics');
+    await store.put(record);
+    const all = (await store.getAll()) as DownloadDiagnosticRecord[];
+    const excess = all.length - DOWNLOAD_DIAGNOSTICS_LIMIT;
+    if (excess > 0) {
+      const byTime = [...all].sort((left, right) => left.occurredAt - right.occurredAt);
+      for (let i = 0; i < excess; i += 1) {
+        await store.delete(byTime[i]!.id);
+      }
+    }
+    await tx.done;
+  } catch {
+    // Diagnóstico é best-effort.
+  }
+}
+
+export async function listDownloadDiagnostics(limit = 20): Promise<DownloadDiagnosticRecord[]> {
+  const all = await (await openOfflineDb()).getAll('downloadDiagnostics');
+  return all.sort((left, right) => right.occurredAt - left.occurredAt).slice(0, limit);
+}
+
+/**
+ * Fecha um job com o diagnóstico correspondente em UMA transação:
+ * o diagnóstico é gravado antes da remoção; abort preserva o job.
+ */
+export async function finishDownloadJob(diagnostic: DownloadDiagnosticRecord & { jobId: string }): Promise<void> {
+  const database = await openOfflineDb();
+  const tx = database.transaction(['downloadDiagnostics', 'downloadJobs'], 'readwrite');
+  const diagnostics = tx.objectStore('downloadDiagnostics');
+  const jobs = tx.objectStore('downloadJobs');
+  try {
+    await diagnostics.put(diagnostic);
+    const allDiag = (await diagnostics.getAll()) as DownloadDiagnosticRecord[];
+    const diagExcess = allDiag.length - DOWNLOAD_DIAGNOSTICS_LIMIT;
+    if (diagExcess > 0) {
+      const byTime = [...allDiag].sort((left, right) => left.occurredAt - right.occurredAt);
+      for (let i = 0; i < diagExcess; i += 1) {
+        await diagnostics.delete(byTime[i]!.id);
+      }
+    }
+    await jobs.delete(diagnostic.jobId);
+    await tx.done;
+  } catch (error) {
+    try { tx.abort(); } catch { /* já abortada */ }
+    throw error;
+  }
+}
+
+export async function listDownloadJobs(): Promise<DownloadJobRecord[]> {
+  return (await openOfflineDb()).getAll('downloadJobs');
 }
 
 export async function getLocalAnswerRecord(documentId: string): Promise<LocalAnswerRecord | undefined> {
@@ -1141,7 +1235,7 @@ export async function deleteOfflineDatabase(): Promise<void> {
   if (databasePromise) {
     const database = await databasePromise;
     database.close();
-    databasePromise = undefined;
+    databasePromise = null;
   }
   await deleteDB(OFFLINE_DB_NAME);
 }

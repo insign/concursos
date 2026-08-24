@@ -5,8 +5,8 @@ export type DownloadPhase = 'download' | 'update';
 export type DownloadEvent =
   | { type: 'started'; contestStorageId: string; phase: DownloadPhase }
   | { type: 'progress'; contestStorageId: string; phase: DownloadPhase; completed: number; total: number; downloadedBytes: number }
-  | { type: 'completed'; contestStorageId: string; phase: DownloadPhase }
-  | { type: 'failed'; contestStorageId: string; phase: DownloadPhase; message: string };
+  | { type: 'completed'; contestStorageId: string; phase: DownloadPhase; reason?: string }
+  | { type: 'failed'; contestStorageId: string; phase: DownloadPhase; message: string; reason?: string };
 
 type Publish = (payload: DownloadEvent) => void;
 
