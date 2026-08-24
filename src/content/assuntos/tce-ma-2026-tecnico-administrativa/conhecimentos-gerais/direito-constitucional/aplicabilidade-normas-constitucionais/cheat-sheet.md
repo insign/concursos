@@ -81,7 +81,7 @@ qualificações que a lei estabelecer
 EFICÁCIA CONTIDA
 ```
 
-STF: aplicação imediata + eficácia contida.
+<abbr title="Supremo Tribunal Federal">STF</abbr>: aplicação imediata + eficácia contida.
 
 ### Art. 37, I — estrangeiros em cargos públicos
 

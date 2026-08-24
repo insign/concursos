@@ -1,4 +1,4 @@
-# Acesso à informação — LAI × LGPD
+# Acesso à informação — <abbr title="Lei de Acesso à Informação">LAI</abbr> × <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>
 
 ## 1. Algoritmo de prova
 
@@ -31,7 +31,7 @@ FUNDAMENTAR + INFORMAR RECURSO
 | Judiciário | sim |
 | Ministério Público | sim |
 | autarquias/fundações | sim |
-| EP/SEM e controladas | sim, conforme LAI |
+| <abbr title="empresa pública / sociedade de economia mista">EP/SEM</abbr> e controladas | sim, conforme LAI |
 | privada sem fins lucrativos com recurso público | no que couber; foco na parcela recebida + destinação |
 
 ---

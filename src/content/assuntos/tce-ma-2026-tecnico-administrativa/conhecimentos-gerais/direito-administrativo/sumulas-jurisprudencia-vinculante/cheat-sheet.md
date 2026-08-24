@@ -4,8 +4,8 @@
 
 | Tipo | Quem | Efeito para prova |
 |---|---|---|
-| **SV** | STF | art. 103-A: vincula Judiciário + Administração direta/indireta |
-| súmula comum | STF/STJ | orientação consolidada; **não** é SV |
+| **<abbr title="Súmula Vinculante">SV</abbr>** | <abbr title="Supremo Tribunal Federal">STF</abbr> | art. 103-A: vincula Judiciário + Administração direta/indireta |
+| súmula comum | STF/<abbr title="Superior Tribunal de Justiça">STJ</abbr> | orientação consolidada; **não** é SV |
 | repercussão geral | STF | precedente constitucional qualificado |
 | repetitivo | STJ | precedente federal qualificado |
 
@@ -19,7 +19,7 @@
 
 | SV | Palavra-chave |
 |---:|---|
-| **3** | TCU + contraditório |
+| **3** | <abbr title="Tribunal de Contas da União">TCU</abbr> + contraditório |
 | **5** | PAD sem advogado |
 | **13** | nepotismo |
 | **21** | recurso sem depósito |
@@ -196,7 +196,7 @@ pode satisfazer requisito técnico/profissionalizante de nível médio.
 
 ---
 
-# STJ — PAD
+# STJ — <abbr title="processo administrativo disciplinar">PAD</abbr>
 
 ## 12. Matriz limpa
 
