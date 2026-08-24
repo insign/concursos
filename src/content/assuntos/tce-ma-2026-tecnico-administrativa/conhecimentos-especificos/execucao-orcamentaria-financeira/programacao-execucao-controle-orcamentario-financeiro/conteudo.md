@@ -21,7 +21,7 @@ Este assunto integra **Conhecimentos específicos — Execução Orçamentária 
 7. **1.6 conformidade diária e documental**;
 8. **1.7 rol de responsáveis**.
 
-O foco é operacional e conceitual: entender como a autorização orçamentária se transforma em execução da despesa, como o fluxo financeiro é programado, quais controles cercam os registros e como se distinguem institutos próximos. Os assuntos seguintes possuem recorte próprio e não devem ser antecipados aqui: **retenção e recolhimento de tributos** (150), **SIAFI e CPR** em detalhe (151), **MCASP — 11ª edição** (152) e **Lei de Responsabilidade Fiscal** (153).
+O foco é operacional e conceitual: entender como a autorização orçamentária se transforma em execução da despesa, como o fluxo financeiro é programado, quais controles cercam os registros e como se distinguem institutos próximos. Os assuntos seguintes possuem recorte próprio e não devem ser antecipados aqui: **retenção e recolhimento de tributos** (150), **<abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> e <abbr title="Contas a Pagar e a Receber">CPR</abbr>** em detalhe (151), **<abbr title="Manual de Contabilidade Aplicada ao Setor Público">MCASP</abbr> — 11ª edição** (152) e **Lei de Responsabilidade Fiscal** (153).
 
 O corte normativo é o do edital, publicado em **6 de julho de 2026**. Por isso, este material considera alterações e rotinas oficiais vigentes até essa data, inclusive a mudança da emissão avulsa de GRU Simples e Judicial para o Portal PagTesouro–GRU a partir de 3 de abril de 2026.
 
@@ -44,7 +44,7 @@ A existência de dotação não significa, por si só, que o pagamento possa oco
 
 A **programação financeira** organiza o fluxo de desembolsos compatibilizando a execução das despesas autorizadas com a disponibilidade de caixa. No âmbito federal, o Decreto nº 93.872/1986 estabelece, entre outros pontos, que:
 
-- as diretrizes gerais da programação financeira da despesa autorizada na LOA são fixadas por decreto;
+- as diretrizes gerais da programação financeira da despesa autorizada na <abbr title="Lei Orçamentária Anual">LOA</abbr> são fixadas por decreto;
 - a Secretaria do Tesouro Nacional aprova limites globais de saque, considerando as dotações e a previsão do fluxo de caixa;
 - órgãos e Poderes distribuem seus limites às unidades orçamentárias, segundo o cronograma de execução;
 - compromissos financeiros ficam subordinados aos limites da programação aprovada;
@@ -175,7 +175,7 @@ A GRU está ligada ao **recolhimento de receitas/valores à União**. Portanto, 
 - Nota de Empenho;
 - documento de liquidação;
 - Ordem Bancária de pagamento de despesa;
-- DARF, quando a legislação determinar instrumento arrecadatório diferente.
+- <abbr title="Documento de Arrecadação de Receitas Federais">DARF</abbr>, quando a legislação determinar instrumento arrecadatório diferente.
 
 A escolha do documento de arrecadação depende da natureza do ingresso e da disciplina aplicável.
 
@@ -195,7 +195,7 @@ O edital cobra “sistemas de informações” no contexto da programação, exe
 
 O **Sistema Integrado de Planejamento e Orçamento (SIOP)** é sistema estruturante do Governo Federal que oferece suporte ao planejamento e ao orçamento federal.
 
-Em visão de prova, ele se relaciona especialmente à dimensão de **planejamento e orçamento**, incluindo processos e informações ligados a PPA, LDO, LOA, alterações orçamentárias e acompanhamento.
+Em visão de prova, ele se relaciona especialmente à dimensão de **planejamento e orçamento**, incluindo processos e informações ligados a <abbr title="Plano Plurianual">PPA</abbr>, <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>, LOA, alterações orçamentárias e acompanhamento.
 
 ### 5.2. SIAFI
 
@@ -357,7 +357,7 @@ Não se trata de mera formalidade mecânica. É ponto de controle sobre a confia
 
 O **rol de responsáveis** identifica agentes que, pela posição e pelos atos de gestão praticados, integram o universo de responsabilização e prestação de contas da unidade.
 
-No regime atual de prestação de contas ao TCU, a IN-TCU nº 84/2020 concentra o rol no **nível estratégico e nos agentes legalmente relevantes**, e não em toda pessoa que tenha praticado qualquer ato operacional.
+No regime atual de prestação de contas ao <abbr title="Tribunal de Contas da União">TCU</abbr>, a IN-TCU nº 84/2020 concentra o rol no **nível estratégico e nos agentes legalmente relevantes**, e não em toda pessoa que tenha praticado qualquer ato operacional.
 
 De forma sintética, compõem o rol os titulares e respectivos substitutos que, durante o período de referência, tenham ocupado cargos ou equivalentes de:
 

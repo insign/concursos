@@ -18,9 +18,9 @@ O **Manual de Contabilidade Aplicada ao Setor Público (MCASP), 11ª edição**,
 
 Os assuntos vizinhos têm recorte próprio:
 
-- o assunto **149** aprofunda programação, execução e controle de recursos, estágios da despesa, restos a pagar, DEA e suprimento de fundos;
+- o assunto **149** aprofunda programação, execução e controle de recursos, estágios da despesa, restos a pagar, <abbr title="Despesas de Exercícios Anteriores">DEA</abbr> e suprimento de fundos;
 - o assunto **150** trata de retenção e recolhimento de tributos;
-- o assunto **151** trata de SIAFI e CPR;
+- o assunto **151** trata de <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> e <abbr title="Contas a Pagar e a Receber">CPR</abbr>;
 - o assunto **153** trata especificamente da **Lei de Responsabilidade Fiscal**.
 
 Aqui esses temas aparecem apenas quando necessários para compreender a **lógica contábil do MCASP**.
@@ -88,7 +88,7 @@ Seus instrumentos centrais incluem o **Balanço Patrimonial (BP)** e a **Demonst
 
 Compreende a apuração e a evidenciação contábil de indicadores fiscais, como os relacionados a despesa com pessoal, operações de crédito, dívida consolidada, disponibilidade de caixa e resultados primário e nominal.
 
-O **RGF** e o **RREO** estão entre os principais instrumentos desse aspecto.
+O **<abbr title="Relatório de Gestão Fiscal">RGF</abbr>** e o **RREO** estão entre os principais instrumentos desse aspecto.
 
 > **Pegadinha:** orçamentário, patrimonial e fiscal são aspectos interligados, mas **não são sinônimos** e não podem ser fundidos em um único regime de reconhecimento.
 
@@ -129,7 +129,7 @@ Não confunda:
 
 - **universalidade** → todas as receitas e despesas devem constar do orçamento, conforme a disciplina aplicável;
 - **orçamento bruto** → receitas e despesas constam pelos valores totais e brutos, sem deduções;
-- **exclusividade** → a LOA não contém matéria estranha à previsão da receita e fixação da despesa, ressalvadas as exceções constitucionais.
+- **exclusividade** → a <abbr title="Lei Orçamentária Anual">LOA</abbr> não contém matéria estranha à previsão da receita e fixação da despesa, ressalvadas as exceções constitucionais.
 
 ### 6.2. Receita orçamentária
 
@@ -143,7 +143,7 @@ PREVISÃO → LANÇAMENTO, quando aplicável → ARRECADAÇÃO → RECOLHIMENTO
 
 Nem toda receita percorre necessariamente o lançamento. A classificação por natureza identifica a origem econômica do ingresso orçamentário e permite padronização e consolidação.
 
-A receita orçamentária não deve ser confundida automaticamente com **VPA**. Uma arrecadação pode decorrer de fato patrimonial reconhecido em momento distinto; o regime contábil patrimonial observa o fato gerador.
+A receita orçamentária não deve ser confundida automaticamente com **<abbr title="Variação Patrimonial Aumentativa">VPA</abbr>**. Uma arrecadação pode decorrer de fato patrimonial reconhecido em momento distinto; o regime contábil patrimonial observa o fato gerador.
 
 ### 6.3. Despesa orçamentária
 
@@ -156,7 +156,7 @@ FIXAÇÃO / AUTORIZAÇÃO → EMPENHO → LIQUIDAÇÃO → PAGAMENTO
 O MCASP detalha classificações e procedimentos, mas, neste assunto, o ponto central é a convivência entre:
 
 - **execução orçamentária** da despesa; e
-- **reconhecimento patrimonial** da obrigação ou da VPD.
+- **reconhecimento patrimonial** da obrigação ou da <abbr title="Variação Patrimonial Diminutiva">VPD</abbr>.
 
 O fato gerador patrimonial pode ocorrer em momento que não coincida exatamente com empenho, liquidação ou pagamento.
 
@@ -246,7 +246,7 @@ O raciocínio de prova deve separar **reconhecimento** de **evidenciação em no
 A Parte III aplica a lógica da CASP a operações e áreas específicas. Na 11ª edição, o sumário inclui:
 
 1. **FUNDEB**;
-2. **concessões de serviços públicos**, inclusive PPP;
+2. **concessões de serviços públicos**, inclusive <abbr title="Parceria Público-Privada">PPP</abbr>;
 3. **operações de crédito**;
 4. **benefícios pós-emprego**, incluindo temas previdenciários;
 5. **dívida ativa**;
@@ -288,7 +288,7 @@ Seu uso é obrigatório, conforme o alcance do Manual, para órgãos e entidades
 
 | Natureza | Classes |
 |---|---|
-| **Patrimonial** | **1 Ativo · 2 Passivo e PL · 3 VPD · 4 VPA** |
+| **Patrimonial** | **1 Ativo · 2 Passivo e <abbr title="Patrimônio Líquido">PL</abbr> · 3 VPD · 4 VPA** |
 | **Orçamentária** | **5 Controles da Aprovação do Planejamento e Orçamento · 6 Controles da Execução do Planejamento e Orçamento** |
 | **Controle** | **7 Controles Devedores · 8 Controles Credores** |
 

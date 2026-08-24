@@ -12,7 +12,7 @@ storageId: tec-retencao-tributos-150
 
 Este assunto cobre integralmente o item **2 — Retenção e recolhimento de tributos incidentes sobre bens e serviços**, em **Conhecimentos específicos — Execução Orçamentária e Financeira** do Cargo 16. O foco é operacional: diante de um pagamento, identificar **se há retenção, qual tributo, quem é o responsável, como se obtém a base e a alíquota, quando se recolhe e qual prova documental deve permanecer no processo**.
 
-O corte normativo é **6 de julho de 2026**, data do Edital nº 1. O assunto 149 já cobre empenho, liquidação e pagamento; o 151 cuidará de SIAFI/CPR. Aqui, a retenção entra como controle tributário associado à liquidação e ao pagamento.
+O corte normativo é **6 de julho de 2026**, data do Edital nº 1. O assunto 149 já cobre empenho, liquidação e pagamento; o 151 cuidará de <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr>/<abbr title="Contas a Pagar e a Receber">CPR</abbr>. Aqui, a retenção entra como controle tributário associado à liquidação e ao pagamento.
 
 > **Ideia central:** valor bruto da obrigação pode ser diferente do valor líquido entregue ao credor. Retenção separa parcela do pagamento; recolhimento destina essa parcela ao ente competente.
 
@@ -45,7 +45,7 @@ Uma mesma nota pode gerar mais de uma retenção, desde que **cada uma** tenha f
 
 ### 3.1. Constituição e Tema 1.130 do STF
 
-O art. 157, I, da Constituição atribui aos estados e ao Distrito Federal o produto do imposto de renda retido na fonte sobre rendimentos pagos por eles, suas autarquias e fundações. No **Tema 1.130 (RE 1.293.453)**, o STF fixou que pertence a estados, DF e municípios o IRRF incidente sobre valores pagos por eles, suas autarquias e fundações a pessoas físicas ou jurídicas contratadas para fornecimento de bens ou prestação de serviços, nos termos dos arts. 157, I, e 158, I, da Constituição.
+O art. 157, I, da Constituição atribui aos estados e ao Distrito Federal o produto do imposto de renda retido na fonte sobre rendimentos pagos por eles, suas autarquias e fundações. No **Tema 1.130 (RE 1.293.453)**, o <abbr title="Supremo Tribunal Federal">STF</abbr> fixou que pertence a estados, DF e municípios o IRRF incidente sobre valores pagos por eles, suas autarquias e fundações a pessoas físicas ou jurídicas contratadas para fornecimento de bens ou prestação de serviços, nos termos dos arts. 157, I, e 158, I, da Constituição.
 
 ### 3.2. IN RFB nº 1.234/2012: federal ≠ subnacional
 
@@ -91,7 +91,7 @@ A **Portaria Conjunta SEPLAN/SEFAZ nº 001, de 22 de agosto de 2022, publicada e
 Para as unidades gestoras da administração direta, autárquica e fundacional estadual alcançadas pela Portaria:
 
 1. o IR é retido no **ato do pagamento**, inclusive antecipado;
-2. o valor retido é **recolhido imediatamente ao Tesouro Estadual**, via **SIGEF/MA**;
+2. o valor retido é **recolhido imediatamente ao Tesouro Estadual**, via **<abbr title="Sistema Integrado de Planejamento e Gestão Fiscal do Estado do Maranhão">SIGEF/MA</abbr>**;
 3. comprovantes de **retenção e recolhimento** são anexados ao processo de pagamento;
 4. os procedimentos observam a IN RFB nº 1.234/2012;
 5. a própria Portaria exclui de seu âmbito empresas públicas e sociedades de economia mista estaduais.
@@ -135,11 +135,11 @@ O Simples não fornece resposta única. Em matéria previdenciária, **optantes 
 
 A Lei nº 8.212/1991 fixa recolhimento, em regra, até o **dia 20 do mês subsequente ao da emissão da nota fiscal ou fatura**, antecipado para o dia útil imediatamente anterior quando não houver expediente bancário.
 
-No ambiente atual, serviços tomados sujeitos à retenção são informados na **EFD-Reinf**, notadamente no evento **R-2010**, com reflexos na DCTFWeb conforme a disciplina vigente.
+No ambiente atual, serviços tomados sujeitos à retenção são informados na **<abbr title="Escrituração Fiscal Digital de Retenções e Outras Informações Fiscais">EFD-Reinf</abbr>**, notadamente no evento **R-2010**, com reflexos na <abbr title="Declaração de Débitos e Créditos Tributários Federais">DCTFWeb</abbr> conforme a disciplina vigente.
 
 ## 6. ISS
 
-O ISS é tributo municipal/DF. Pela LC nº 116/2003:
+O <abbr title="Imposto sobre Serviços de Qualquer Natureza">ISS</abbr> é tributo municipal/DF. Pela LC nº 116/2003:
 
 - art. 5º: contribuinte é, em regra, o **prestador**;
 - art. 6º: município/DF pode, **mediante lei**, atribuir expressamente responsabilidade a terceiro vinculado ao fato gerador;
@@ -158,11 +158,11 @@ Assim, não existe regra nacional segundo a qual todo órgão público retém IS
 
 No regime da IN nº 1.234/2012, essas contribuições integram o pacote de retenções do **regime federal** do art. 2º. Para os entes subnacionais abrangidos pelo art. 2º-A, a regra específica introduzida é a retenção do **IR**.
 
-Portanto, em questão sobre pagamento estadual, não acrescente CSLL, Cofins e PIS/Pasep apenas porque aparecem na tabela federal. Outra hipótese legal específica deve ser identificada antes de afirmar retenção.
+Portanto, em questão sobre pagamento estadual, não acrescente <abbr title="Contribuição Social sobre o Lucro Líquido">CSLL</abbr>, <abbr title="Contribuição Social para o Financiamento da Seguridade Social">Cofins</abbr> e <abbr title="Programa de Integração Social e Programa de Formação do Patrimônio do Servidor Público">PIS/Pasep</abbr> apenas porque aparecem na tabela federal. Outra hipótese legal específica deve ser identificada antes de afirmar retenção.
 
 ## 8. CBS e IBS em 2026
 
-No corte de 6/7/2026, orientação oficial da Receita Federal caracteriza **2026 como ano de teste/transição** da CBS e do IBS. Há obrigações documentais conforme leiautes e regras aplicáveis, e o contribuinte que cumpre as obrigações acessórias previstas fica dispensado do recolhimento de IBS e CBS em 2026 nos termos da disciplina transitória.
+No corte de 6/7/2026, orientação oficial da Receita Federal caracteriza **2026 como ano de teste/transição** da <abbr title="Contribuição Social sobre Bens e Serviços">CBS</abbr> e do <abbr title="Imposto sobre Bens e Serviços">IBS</abbr>. Há obrigações documentais conforme leiautes e regras aplicáveis, e o contribuinte que cumpre as obrigações acessórias previstas fica dispensado do recolhimento de IBS e CBS em 2026 nos termos da disciplina transitória.
 
 ISS e ICMS ainda coexistem no período; a substituição gradual pelo IBS ocorre depois. Para este assunto, basta reconhecer a transição: ela **não elimina imediatamente** IRRF, retenção previdenciária e ISS.
 

@@ -21,7 +21,7 @@ NF + ATESTE → LIQUIDAÇÃO → identificar retenções → BRUTO − RETENÇÕ
 
 **Pegadinha máxima:** não transportar o pacote federal de quatro tributos para o regime subnacional.
 
-### IRRF de PJ no ente subnacional
+### <abbr title="Imposto de Renda Retido na Fonte">IRRF</abbr> de PJ no ente subnacional
 
 - base: **valor a ser pago**;
 - alíquota: **coluna 02 — IR do Anexo I**;
@@ -35,13 +35,13 @@ NF + ATESTE → LIQUIDAÇÃO → identificar retenções → BRUTO − RETENÇÕ
 **Portaria Conjunta SEPLAN/SEFAZ nº 001/2022**, no âmbito por ela abrangido:
 
 1. reter IR em pagamentos por bens/serviços;
-2. recolher **imediatamente ao Tesouro Estadual** via **SIGEF/MA**;
+2. recolher **imediatamente ao Tesouro Estadual** via **<abbr title="Sistema Integrado de Planejamento e Gestão Fiscal do Estado do Maranhão">SIGEF/MA</abbr>**;
 3. anexar comprovantes de retenção + recolhimento ao processo;
 4. retenção no **ato do pagamento**, inclusive antecipado;
 5. observar IN RFB nº 1.234/2012;
 6. empresas públicas e sociedades de economia mista estaduais ficam fora do âmbito da própria Portaria.
 
-**Tema STF 1.130:** IRRF sobre bens/serviços pagos por estados/municípios e suas autarquias/fundações pertence ao ente, nos termos constitucionais.
+**Tema <abbr title="Supremo Tribunal Federal">STF</abbr> 1.130:** IRRF sobre bens/serviços pagos por estados/municípios e suas autarquias/fundações pertence ao ente, nos termos constitucionais.
 
 ## Retenção previdenciária
 
@@ -76,9 +76,9 @@ Trabalhadores à disposição do contratante + serviço contínuo, conforme requ
 ### Prazo / obrigação acessória
 
 Lei nº 8.212: até **dia 20 do mês subsequente à emissão** da NF/fatura; sem expediente bancário, dia útil anterior.  
-EFD-Reinf: serviços tomados sujeitos → **R-2010**, conforme disciplina vigente.
+<abbr title="Escrituração Fiscal Digital de Retenções e Outras Informações Fiscais">EFD-Reinf</abbr>: serviços tomados sujeitos → **R-2010**, conforme disciplina vigente.
 
-## ISS
+## <abbr title="Imposto sobre Serviços de Qualquer Natureza">ISS</abbr>
 
 | Pergunta | Resposta |
 |---|---|
@@ -91,13 +91,13 @@ EFD-Reinf: serviços tomados sujeitos → **R-2010**, conforme disciplina vigent
 
 **Método:** serviço da lista → município competente → lei local → responsabilidade → alíquota/prazo.
 
-## CSLL + Cofins + PIS/Pasep
+## <abbr title="Contribuição Social sobre o Lucro Líquido">CSLL</abbr> + <abbr title="Contribuição Social para o Financiamento da Seguridade Social">Cofins</abbr> + <abbr title="Programa de Integração Social e Programa de Formação do Patrimônio do Servidor Público">PIS/Pasep</abbr>
 
 **Art. 2º federal:** podem compor retenção com IR.  
 **Art. 2º-A subnacional:** comando específico = **IR**.  
 Não acrescente as contribuições ao pagamento estadual sem outro fundamento legal.
 
-## CBS/IBS — corte 6/7/2026
+## <abbr title="Contribuição Social sobre Bens e Serviços">CBS</abbr>/<abbr title="Imposto sobre Bens e Serviços">IBS</abbr> — corte 6/7/2026
 
 - **2026 = teste/transição**;
 - há obrigações documentais aplicáveis;

@@ -27,7 +27,7 @@ SIAFI
 
 | Elemento | Associação |
 |---|---|
-| **SIAFI** | sistema integrado de registro, acompanhamento e controle da execução orçamentária, financeira e patrimonial federal |
+| **<abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr>** | sistema integrado de registro, acompanhamento e controle da execução orçamentária, financeira e patrimonial federal |
 | **CPR** | Contas a Pagar e a Receber; integra a estrutura do SIAFI |
 | **Erro clássico** | tratar CPR como sistema autônomo ou apenas como contas a pagar |
 
@@ -117,7 +117,7 @@ CPR cobre **os dois lados**.
 **Pré-doc:** prepara dados.  
 **Documento de realização:** efetiva.
 
-O demonstrativo do CPR admite, conforme o caso, documentos como **OB, GRU, DARF e outros previstos no sistema**.
+O demonstrativo do CPR admite, conforme o caso, documentos como **<abbr title="Ordem Bancária">OB</abbr>, <abbr title="Guia de Recolhimento da União">GRU</abbr>, <abbr title="Documento de Arrecadação de Receitas Federais">DARF</abbr> e outros previstos no sistema**.
 
 **Pegadinha:** nem todo compromisso usa OB; GRU não é documento universal de pagamento.
 
