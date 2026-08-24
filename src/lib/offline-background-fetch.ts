@@ -37,11 +37,20 @@ export interface ActivePackageFetch {
   contestStorageId: string;
 }
 
-function backgroundFetchManager(registration: unknown): { getActiveFetches: () => Promise<Array<{ id: string }>> } | null {
+interface NativeManagerLike {
+  fetch?(id: string, requests: RequestInfo[], options?: unknown): Promise<unknown>;
+  get?(id: string): Promise<{ id?: string } | undefined>;
+  getIds?(): Promise<string[]>;
+}
+
+export function backgroundFetchManager(registration: unknown): NativeManagerLike | null {
   if (typeof registration !== 'object' || registration === null) return null;
-  const manager = (registration as { backgroundFetch?: { getActiveFetches?: unknown } }).backgroundFetch;
-  if (!manager || typeof manager.getActiveFetches !== 'function') return null;
-  return manager as { getActiveFetches: () => Promise<Array<{ id: string }>> };
+  const candidate = (registration as { backgroundFetch?: unknown }).backgroundFetch as
+    | NativeManagerLike
+    | undefined;
+  if (!candidate) return null;
+  if (typeof candidate.getIds !== 'function' || typeof candidate.get !== 'function') return null;
+  return candidate;
 }
 
 /** Transferências em andamento conduzidas pelo navegador para este app. */
@@ -49,19 +58,16 @@ export async function getActivePackageFetches(
   registration: unknown,
 ): Promise<ActivePackageFetch[]> {
   const manager = backgroundFetchManager(registration);
-  if (!manager) return [];
-  try {
-    const fetches = await manager.getActiveFetches();
-    return fetches
-      .filter((fetch) => fetch.id.startsWith(BG_ID_PREFIX))
-      .map((fetch) => {
-        // Formato: offline-package-<timestamp 13 dígitos>-<storageId>
-        const rest = fetch.id.slice(BG_ID_PREFIX.length);
-        return { id: fetch.id, contestStorageId: rest.slice(13 + 1) };
-      });
-  } catch {
-    return [];
+  if (!manager?.getIds || !manager.get) return [];
+  const ids = await manager.getIds();
+  const out: ActivePackageFetch[] = [];
+  for (const id of ids) {
+    if (!id.startsWith(BG_ID_PREFIX)) continue;
+    // Formato: offline-package-<timestamp 13 dígitos>-<storageId>
+    const rest = id.slice(BG_ID_PREFIX.length);
+    out.push({ id, contestStorageId: rest.length > 14 ? rest.slice(14) : '' });
   }
+  return out;
 }
 
 export async function hasActivePackageDownload(
@@ -137,24 +143,30 @@ const BG_REASON_MESSAGES: Record<string, string> = {
 };
 
 async function recordStep(
-  registration: BackgroundFetchRegistrationLike,
+  registrationId: string,
   diagnostic: Omit<DownloadDiagnosticRecord, 'id' | 'occurredAt'>,
   message?: string,
 ): Promise<void> {
+  const contestStorageId =
+    diagnostic.contestStorageId ?? contestStorageIdFromBgId(registrationId);
   await saveDownloadDiagnostic({
     ...diagnostic,
+    contestStorageId,
     id: `${diagnostic.reasonCode}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
     occurredAt: Date.now(),
   });
-  publishDownloadEvent({
-    type: diagnostic.outcome === 'failed' ? 'failed' : 'completed',
-    contestStorageId: diagnostic.contestStorageId ?? contestStorageIdFromBgId(registration.id),
-    phase: 'download',
-    reason: diagnostic.reasonCode,
-    ...(diagnostic.outcome === 'failed'
-      ? { message: message ?? BG_REASON_MESSAGES[diagnostic.reasonCode] ?? 'Falha no download em segundo plano.' }
-      : {}),
-  } as never);
+  if (diagnostic.outcome === 'failed') {
+    publishDownloadEvent({
+      type: 'failed',
+      contestStorageId,
+      phase: 'download',
+      reason: diagnostic.reasonCode,
+      message:
+        message ??
+        BG_REASON_MESSAGES[diagnostic.reasonCode] ??
+        'Falha no download em segundo plano.',
+    });
+  }
 }
 
 export async function finalizeSuccessfulBackgroundFetch(
@@ -169,7 +181,7 @@ export async function finalizeSuccessfulBackgroundFetch(
   } catch (error) {
     const errorName = error instanceof Error ? error.name : 'Error';
     await recordStep(
-      registration,
+      registration.id,
       { contestStorageId: storageIdGuess || null, outcome: 'failed', reasonCode: 'bgf.job-read', jobId: registration.id, errorName, errorMessage: String(error) },
     );
     return;
@@ -177,7 +189,7 @@ export async function finalizeSuccessfulBackgroundFetch(
 
   if (!job) {
     await recordStep(
-      registration,
+      registration.id,
       { contestStorageId: storageIdGuess || null, outcome: 'failed', reasonCode: 'bgf.job-missing', jobId: registration.id },
     );
     return;
@@ -186,7 +198,7 @@ export async function finalizeSuccessfulBackgroundFetch(
   const parsed = offlinePackageManifestSchema.safeParse(job.manifest);
   if (!parsed.success) {
     await recordStep(
-      registration,
+      registration.id,
       { contestStorageId: storageIdGuess || null, outcome: 'failed', reasonCode: 'bgf.manifest-invalid', jobId: registration.id },
     );
     await deleteDownloadJob(registration.id);
@@ -220,11 +232,17 @@ export async function finalizeSuccessfulBackgroundFetch(
     }
 
     await adoptStagedPackageUnderLock(manifest, stagingName, { cacheStorage });
-    await recordStep(
-      registration,
-      { contestStorageId: storageId, outcome: 'completed', reasonCode: 'complete', jobId: registration.id, manifestHash: manifest.manifestHash },
-      'Conteúdo offline atualizado.',
-    );
+    const completionDiagnostic: DownloadDiagnosticRecord & { jobId: string } = {
+      id: `${storageId}-complete-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+      contestStorageId: storageId,
+      outcome: 'completed',
+      reasonCode: 'complete',
+      occurredAt: Date.now(),
+      jobId: registration.id,
+      manifestHash: manifest.manifestHash,
+    };
+    await finishDownloadJob(completionDiagnostic);
+    publishDownloadEvent({ type: 'completed', contestStorageId: storageId, phase: 'download', reason: 'complete' });
     try {
       await registration.updateUI?.({ title: 'Conteúdo offline atualizado.' });
     } catch {
@@ -234,23 +252,20 @@ export async function finalizeSuccessfulBackgroundFetch(
     const isStaging = !staging;
     const reasonCode = isStaging ? 'bgf.staging' : 'bgf.adoption';
     const errorName = error instanceof Error ? error.name : 'Error';
-    await recordStep(
-      registration,
-      { contestStorageId: storageId, outcome: 'failed', reasonCode, jobId: registration.id, errorName, errorMessage: error instanceof Error ? error.message : String(error) },
-    );
+    await finishDownloadJob({
+      id: `${storageId}-${reasonCode}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+      contestStorageId: storageId,
+      outcome: 'failed',
+      reasonCode,
+      occurredAt: Date.now(),
+      jobId: registration.id,
+      errorName,
+      errorMessage: error instanceof Error ? error.message : String(error),
+    });
+    await recordStep(registration.id, { contestStorageId: storageId, outcome: 'failed', reasonCode, jobId: registration.id, errorName, errorMessage: error instanceof Error ? error.message : String(error) });
   } finally {
-    try {
-      await finishDownloadJob({
-        id: `${storageId}-complete-${Date.now()}`,
-        jobId: registration.id,
-        contestStorageId: storageId,
-        outcome: 'completed',
-        reasonCode: 'complete',
-        occurredAt: Date.now(),
-      });
-    } catch {
-      try { await deleteDownloadJob(registration.id); } catch { /* job órfão será reconciliado */ }
-    }
+    // Limpeza do job é responsabilidade de quem publicou o terminal
+    // (finishDownloadJob transacional); nada a fazer aqui.
   }
 }
 
@@ -262,24 +277,35 @@ export async function finalizeFailedBackgroundFetch(
     job = await getDownloadJob(registration.id);
   } catch (error) {
     await recordStep(
-      registration,
+      registration.id,
       { contestStorageId: contestStorageIdFromBgId(registration.id) || null, outcome: 'failed', reasonCode: 'bgf.job-read', jobId: registration.id, errorName: error instanceof Error ? error.name : 'Error' },
     );
     return;
   }
   if (!job) {
     await recordStep(
-      registration,
+      registration.id,
       { contestStorageId: contestStorageIdFromBgId(registration.id) || null, outcome: 'failed', reasonCode: 'bgf.browser-failed', jobId: registration.id },
     );
     return;
   }
   const parsed = offlinePackageManifestSchema.safeParse(job.manifest);
-  await deleteDownloadJob(registration.id);
-  if (!parsed.success) return;
+  const storageId = parsed.success
+    ? parsed.data.contestStorageId
+    : contestStorageIdFromBgId(registration.id) || null;
+  const reasonCode = parsed.success ? 'bgf.browser-failed' : 'bgf.manifest-invalid';
+  await finishDownloadJob({
+    id: `${storageId}-${reasonCode}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+    contestStorageId: storageId,
+    outcome: 'failed',
+    reasonCode,
+    occurredAt: Date.now(),
+    jobId: registration.id,
+    errorName: parsed.success ? undefined : 'ManifestSchemaError',
+  });
   await recordStep(
-    registration,
-    { contestStorageId: parsed.data.contestStorageId, outcome: 'failed', reasonCode: 'bgf.browser-failed', jobId: registration.id },
+    registration.id,
+    { contestStorageId: storageId, outcome: 'failed', reasonCode, jobId: registration.id },
   );
 }
 

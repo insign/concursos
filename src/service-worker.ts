@@ -230,6 +230,12 @@ worker.addEventListener('activate', (event) => {
   activateEvent.waitUntil(reconcileOrphanedPackageJobs(worker.registration).catch(() => undefined));
 });
 
+worker.addEventListener('backgroundfetchabort', (event) => {
+  const typed = backgroundFetchEvent(event);
+  if (!typed) return;
+  typed.waitUntil(finalizeFailedBackgroundFetch(typed.registration));
+});
+
 worker.addEventListener('backgroundfetchfail', (event) => {
   const typed = backgroundFetchEvent(event);
   if (!typed) return;

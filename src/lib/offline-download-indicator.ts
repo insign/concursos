@@ -16,7 +16,6 @@ export type OfflineDownloadSourceEvent =
   | { type: 'idle-timeout' };
 
 export type OfflineDownloadState = OfflineDownloadSnapshot;
-type OfflineDownloadStatus = OfflineDownloadSnapshot['state'];
 
 export const OFFLINE_DOWNLOAD_IDLE_TIMEOUT_MS = 4_000;
 
@@ -58,39 +57,71 @@ interface ActiveFetchLike {
 }
 
 interface BackgroundFetchManagerLike {
-  getActiveFetches?(): Promise<ActiveFetchLike[]>;
+  getIds?(): Promise<string[]>;
+  get?(id: string): Promise<{ id?: string; downloaded?: number; downloadTotal?: number; result?: string; addEventListener?(type: 'progress', listener: () => void): void } | undefined>;
 }
 
 const BG_ID_PREFIX = 'offline-package-';
 
+function contestIdFromFetchId(id: string): string | null {
+  if (!id.startsWith(BG_ID_PREFIX)) return null;
+  // Formato: offline-package-<13 dígitos de timestamp>-<storageId>
+  const rest = id.slice(BG_ID_PREFIX.length);
+  return rest.length > 14 ? rest.slice(14) : null;
+}
+
 export function startOfflineDownloadIndicator(
   dispatch: (snapshot: OfflineDownloadSnapshot) => void = () => undefined,
 ): void {
-  let state: OfflineDownloadState = { state: 'idle', percent: null, message: null };
+  // Estado POR concurso: uma falha não mascara o progresso dos outros.
+  const perContest = new Map<string, OfflineDownloadState>();
   let idleTimer: ReturnType<typeof setTimeout> | null = null;
 
-  const apply = (event: OfflineDownloadSourceEvent) => {
-    const next = reduceOfflineDownload(state, event);
-    if (next.state === state.state && next.percent === state.percent) return;
-    state = next;
-    if (state.state === 'success') {
+  const aggregate = (): OfflineDownloadSnapshot => {
+    const entries = [...perContest.values()];
+    const active = entries.find((entry) => entry.state === 'active');
+    if (active) return { ...active, message: null };
+    const failed = entries.find((entry) => entry.state === 'failed');
+    if (failed) return { ...failed, percent: null };
+    const success = entries.find((entry) => entry.state === 'success');
+    if (success) return { ...success, percent: null };
+    return { state: 'idle', percent: null, message: null };
+  };
+
+  const emit = () => dispatch(aggregate());
+
+  const applyFor = (contestStorageId: string, event: OfflineDownloadSourceEvent) => {
+    const current =
+      perContest.get(contestStorageId) ?? { state: 'idle' as const, percent: null, message: null };
+    const next = reduceOfflineDownload(current, event);
+    if (next.state === 'idle') perContest.delete(contestStorageId);
+    else perContest.set(contestStorageId, next);
+
+    if (next.state === 'success') {
       if (idleTimer) clearTimeout(idleTimer);
-      idleTimer = setTimeout(() => apply({ type: 'idle-timeout' }), OFFLINE_DOWNLOAD_IDLE_TIMEOUT_MS);
+      idleTimer = setTimeout(() => {
+        for (const [id, entry] of perContest) {
+          if (entry.state === 'success') perContest.delete(id);
+        }
+        emit();
+      }, OFFLINE_DOWNLOAD_IDLE_TIMEOUT_MS);
       window.dispatchEvent(new CustomEvent('concursos:offline-packages-changed'));
     }
-    dispatch({ ...state });
+    emit();
   };
 
   // Fonte 1: eventos publicados no canal (página ou Service Worker).
   subscribeDownloadEvents((event) => {
-    if (event.type === 'started') apply({ type: 'started' });
+    if (event.type === 'started') applyFor(event.contestStorageId, { type: 'started' });
     else if (event.type === 'progress') {
-      apply({
+      applyFor(event.contestStorageId, {
         type: 'progress',
         percent: event.total > 0 ? (event.completed / event.total) * 100 : 0,
       });
-    } else if (event.type === 'completed') apply({ type: 'completed' });
-    else if (event.type === 'failed') apply({ type: 'failed', message: event.message });
+    } else if (event.type === 'completed') applyFor(event.contestStorageId, { type: 'completed' });
+    else if (event.type === 'failed') {
+      applyFor(event.contestStorageId, { type: 'failed', message: event.message });
+    }
   });
 
   // Fonte 2: progresso nativo do Background Fetch — cobre quem abre o app
@@ -105,24 +136,30 @@ export function startOfflineDownloadIndicator(
           backgroundFetch?: BackgroundFetchManagerLike;
         }
       ).backgroundFetch;
-      if (!manager?.getActiveFetches) return;
+      if (!manager?.getIds || !manager.get) return;
+      const getFn = manager.get.bind(manager);
+      const getIdsFn = manager.getIds.bind(manager);
       let foundActive = false;
-      for (const fetch of await manager.getActiveFetches()) {
-        if (!fetch.id.startsWith(BG_ID_PREFIX)) continue;
+      const ids = await getIdsFn();
+      for (const id of ids) {
+        const contestId = contestIdFromFetchId(id);
+        if (!contestId) continue;
+        const fetch = await getFn(id);
+        if (!fetch) continue;
         foundActive = true;
         const reportProgress = () => {
           if (fetch.result === 'success') {
-            apply({ type: 'background-result', ok: true });
+            applyFor(contestId, { type: 'background-result', ok: true });
             return;
           }
           if (fetch.result === 'failure') {
-            apply({ type: 'background-result', ok: false });
+            applyFor(contestId, { type: 'background-result', ok: false });
             return;
           }
-          if (state.state !== 'active') apply({ type: 'started' });
+          applyFor(contestId, { type: 'started' });
           const total = fetch.downloadTotal ?? 0;
           if (total > 0) {
-            apply({
+            applyFor(contestId, {
               type: 'background-progress',
               percent: ((fetch.downloaded ?? 0) / total) * 100,
             });

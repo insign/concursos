@@ -74,27 +74,46 @@ function requestFor(path: string, origin: string): Request {
 }
 
 const OFFLINE_PACKAGE_LEASE_TTL = 15_000;
-let packageLeaseOwnerId =
-  typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : `${Date.now()}-${Math.random()}`;
+const OFFLINE_PACKAGE_LEASE_WAIT_MS = 60_000;
 
 /**
  * Serialização única via lease IndexedDB (funciona em página E Service
- * Worker): substitui o par Web Locks/mutex de módulo, que não serializava
- * a adoção em segundo plano contra downloads iniciados na página.
+ * Worker): dono POR OPERAÇÃO (o mesmo dono não pode re-adquirir), heartbeat
+ * de renovação a cada TTL/3 e falha do trabalho se o lease for perdido.
  */
 async function withOfflinePackageLock<T>(operation: () => Promise<T>): Promise<T> {
-  const { acquireSyncLease, releaseSyncLease } = await import('./offline-db');
-  for (let attempt = 0; attempt < 120; attempt += 1) {
-    if (await acquireSyncLease(OFFLINE_PACKAGE_LOCK, packageLeaseOwnerId, OFFLINE_PACKAGE_LEASE_TTL)) {
-      try {
-        return await operation();
-      } finally {
-        await releaseSyncLease(OFFLINE_PACKAGE_LOCK, packageLeaseOwnerId);
-      }
+  const { acquireSyncLease, renewSyncLease, releaseSyncLease } = await import('./offline-db');
+  const ownerId =
+    typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : `${Date.now()}-${Math.random()}`;
+  const deadline = Date.now() + OFFLINE_PACKAGE_LEASE_WAIT_MS;
+  while (!(await acquireSyncLease(OFFLINE_PACKAGE_LOCK, ownerId, OFFLINE_PACKAGE_LEASE_TTL))) {
+    if (Date.now() >= deadline) {
+      throw new Error('Outro download está em andamento; aguarde alguns instantes.');
     }
     await new Promise((resolve) => setTimeout(resolve, 250));
   }
-  throw new Error('Outro download está em andamento; aguarde alguns instantes.');
+
+  let lost = false;
+  const heartbeat = setInterval(() => {
+    void renewSyncLease(OFFLINE_PACKAGE_LOCK, ownerId, OFFLINE_PACKAGE_LEASE_TTL)
+      .then((renewed) => {
+        if (!renewed) lost = true;
+      })
+      .catch(() => undefined);
+  }, OFFLINE_PACKAGE_LEASE_TTL / 3);
+
+  try {
+    if (lost) throw new Error('Coordenação de download perdida; tente novamente.');
+    return await operation();
+  } catch (error) {
+    if (lost) {
+      throw new Error('Coordenação de download perdida durante a operação; tente novamente.', { cause: error });
+    }
+    throw error;
+  } finally {
+    clearInterval(heartbeat);
+    await releaseSyncLease(OFFLINE_PACKAGE_LOCK, ownerId).catch(() => undefined);
+  }
 }
 
 function readableError(error: unknown): Error {

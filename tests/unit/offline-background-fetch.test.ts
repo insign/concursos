@@ -2,11 +2,13 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 const getJob = vi.fn();
 const deleteJob = vi.fn();
+const finishJob = vi.fn(async () => undefined);
 const saveRecord = vi.fn();
 
 vi.mock('../../src/lib/offline-db', () => ({
   getDownloadJob: (...args: unknown[]) => getJob(...args),
   deleteDownloadJob: (...args: unknown[]) => deleteJob(...args),
+  finishDownloadJob: (...args: unknown[]) => finishJob(...args),
   listDownloadJobs: async () => [],
   saveDownloadDiagnostic: vi.fn(async () => undefined),
   acquireSyncLease: vi.fn(async () => true),
@@ -99,6 +101,8 @@ function registrationWith(records: Array<{ url: string; body: string }>, id = 'j
 beforeEach(() => {
   getJob.mockReset();
   deleteJob.mockReset();
+  finishJob.mockReset();
+  finishJob.mockResolvedValue(undefined);
   saveRecord.mockReset();
 });
 
@@ -135,7 +139,8 @@ describe('background fetch adoption', () => {
     expect([...(cacheStorage.caches.get(activeName)?.store.keys() ?? [])][0]).toContain('/concursos/exemplo/');
     expect(cacheStorage.caches.get(SHARED_ASSET_CACHE)?.store.size).toBe(1);
     expect(saveRecord).toHaveBeenCalledTimes(1);
-    expect(deleteJob).toHaveBeenCalledWith('job-1');
+    expect(finishJob).toHaveBeenCalledTimes(1);
+    expect(finishJob.mock.calls[0]?.[0]).toMatchObject({ jobId: 'job-1', outcome: 'completed', reasonCode: 'complete' });
     expect(events).toEqual(['started', 'completed']);
   });
 
@@ -162,7 +167,9 @@ describe('background fetch adoption', () => {
     await new Promise((resolve) => setTimeout(resolve, 25));
     unsubscribe();
 
-    expect(deleteJob).toHaveBeenCalledWith('job-1');
+    expect(finishJob).toHaveBeenCalledWith(
+      expect.objectContaining({ jobId: 'job-1', outcome: 'failed' }),
+    );
     expect(events.at(-1)).toMatchObject({ type: 'failed', phase: 'download' });
   });
 });

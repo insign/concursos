@@ -5,9 +5,15 @@ import {
 } from '../../src/lib/offline-background-fetch';
 
 function registrationWith(fetches: Array<{ id: string }>) {
+  const store = new Map(fetches.map((fetch) => [fetch.id, { id: fetch.id }]));
   return {
     backgroundFetch: {
-      getActiveFetches: async () => fetches,
+      async getIds(): Promise<string[]> {
+        return [...store.keys()];
+      },
+      async get(id: string) {
+        return store.get(id);
+      },
     },
   };
 }
