@@ -80,7 +80,7 @@ Ex.: liberdade de expressão = direito humano no plano internacional + direito f
 |---:|---|
 | **1º** | aplicação imediata |
 | **2º** | catálogo aberto |
-| **3º** | tratado de DH pode equivaler a emenda |
+| **3º** | tratado de <abbr title="direitos humanos">DH</abbr> pode equivaler a emenda |
 | **4º** | Tribunal Penal Internacional |
 
 ### Rito do § 3º
@@ -108,7 +108,7 @@ Norma limitada **já produz efeitos jurídicos** e vincula os Poderes.
 | vertical | pessoa × Estado |
 | horizontal | particular × particular |
 
-**RE 201.819/RJ:** exclusão de associado da UBC → contraditório + ampla defesa + devido processo no caso concreto.
+**RE 201.819/RJ:** exclusão de associado da <abbr title="União Brasileira de Compositores">UBC</abbr> → contraditório + ampla defesa + devido processo no caso concreto.
 
 Autonomia privada ≠ imunidade constitucional.
 
@@ -119,7 +119,7 @@ Autonomia privada ≠ imunidade constitucional.
 | Situação | Status |
 |---|---|
 | DH + rito § 3º | equivalente a emenda constitucional |
-| DH sem rito § 3º | **supralegal**, conforme STF |
+| DH sem rito § 3º | **supralegal**, conforme <abbr title="Supremo Tribunal Federal">STF</abbr> |
 | tratado comum | em regra, nível de lei ordinária |
 
 **Hierarquia:** Constituição > tratado DH supralegal > lei ordinária.
@@ -130,7 +130,7 @@ Exemplos § 3º: Convenção sobre Direitos das Pessoas com Deficiência, Tratad
 
 **SV 25:** prisão civil de depositário infiel = ilícita, qualquer modalidade.
 
-CADH **não revogou** o art. 5º, LXVII.
+<abbr title="Convenção Americana sobre Direitos Humanos">CADH</abbr> **não revogou** o art. 5º, LXVII.
 
 Tratado supralegal paralisa a lei incompatível; não supera a Constituição.
 
@@ -167,13 +167,13 @@ Cláusula pétrea ≠ proibição de toda disciplina ou ajuste.
 
 ## Questão oficial comprovada
 
-**Cebraspe · TRF6 · Técnico Judiciário, cargos 27 e 28 · 19/01/2025 · caderno 034_TRF6_CG6_01 · item 32**
+**Cebraspe · <abbr title="Tribunal Regional Federal da 6ª Região">TRF6</abbr> · Técnico Judiciário, cargos 27 e 28 · 19/01/2025 · caderno 034_TRF6_CG6_01 · item 32**
 
 Liberdade de expressão → **1ª dimensão** → gabarito definitivo **Certo**.
 
 ## Pegadinhas finais
 
-- DH ≠ DF materialmente opostos.
+- <abbr title="direitos humanos">DH</abbr> ≠ <abbr title="direitos fundamentais">DF</abbr> materialmente opostos.
 - Dimensões não se substituem.
 - Universalidade ≠ titularidade idêntica.
 - Direito fundamental ≠ absoluto.
@@ -184,6 +184,6 @@ Liberdade de expressão → **1ª dimensão** → gabarito definitivo **Certo**.
 - Todo tratado de DH ≠ emenda.
 - § 3º = cada Casa + 2 turnos + 3/5.
 - Supralegal ≠ supraconstitucional.
-- § 4º = TPI, não Corte IDH.
+- § 4º = <abbr title="Tribunal Penal Internacional">TPI</abbr>, não <abbr title="Corte Interamericana de Direitos Humanos">Corte IDH</abbr>.
 - CADH não apagou o art. 5º, LXVII.
 - Interesse público abstrato não resolve colisão.
