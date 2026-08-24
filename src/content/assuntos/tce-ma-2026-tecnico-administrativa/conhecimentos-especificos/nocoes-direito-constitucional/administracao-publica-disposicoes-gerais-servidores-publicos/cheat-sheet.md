@@ -79,7 +79,7 @@ REVISÃO GERAL → anual + mesma data + sem distinção de índices
 
 | Âmbito | Teto/subteto |
 |---|---|
-| nacional | Ministros STF |
+| nacional | Ministros <abbr title="Supremo Tribunal Federal">STF</abbr> |
 | Município | Prefeito |
 | Estado/DF Executivo | Governador |
 | Estado/DF Legislativo | Deputados Estaduais/Distritais |
@@ -93,7 +93,7 @@ Não alcança subsídios de Deputados Estaduais/Distritais e Vereadores.
 
 ---
 
-## 7. EC 135/2024 — indenizatórias
+## 7. <abbr title="Emenda Constitucional">EC</abbr> 135/2024 — indenizatórias
 
 Para ficar fora do teto:
 
@@ -200,7 +200,7 @@ ORIENTAÇÃO SOCIAL
 
 ---
 
-## 14. Art. 39 — RJU: atualização decisiva
+## 14. Art. 39 — <abbr title="Regime Jurídico Único">RJU</abbr>: atualização decisiva
 
 ```text
 ORIGINAL 1988 → RJU obrigatório
@@ -261,7 +261,7 @@ CARGO EM COMISSÃO
 
 ---
 
-## 19. RPPS — art. 40
+## 19. <abbr title="Regime Próprio de Previdência Social">RPPS</abbr> — art. 40
 
 ```text
 NÚCLEO → TITULAR DE CARGO EFETIVO
@@ -269,7 +269,7 @@ CARÁTER → CONTRIBUTIVO + SOLIDÁRIO
 META → EQUILÍBRIO FINANCEIRO + ATUARIAL
 ```
 
-### Quem vai ao RGPS — § 13
+### Quem vai ao <abbr title="Regime Geral de Previdência Social">RGPS</abbr> — § 13
 
 ```text
 COMISSIONADO EXCLUSIVO

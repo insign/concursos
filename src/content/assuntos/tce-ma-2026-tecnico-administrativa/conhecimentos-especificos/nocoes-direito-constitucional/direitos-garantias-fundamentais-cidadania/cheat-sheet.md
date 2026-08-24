@@ -64,10 +64,10 @@ SUSPENDER → decisão judicial
 
 | Gatilho | Remédio |
 |---|---|
-| locomoção | **HC** |
-| direito líquido e certo residual | **MS** |
-| omissão normativa inviabiliza direito/prerrogativa | **MI** |
-| conhecer/retificar dado pessoal em banco público | **HD** |
+| locomoção | **<abbr title="Habeas Corpus">HC</abbr>** |
+| direito líquido e certo residual | **<abbr title="Mandado de Segurança">MS</abbr>** |
+| omissão normativa inviabiliza direito/prerrogativa | **<abbr title="Mandado de Injunção">MI</abbr>** |
+| conhecer/retificar dado pessoal em banco público | **<abbr title="Habeas Data">HD</abbr>** |
 | ato lesivo a patrimônio/moralidade/meio ambiente/patrimônio histórico-cultural | **ação popular** |
 
 ### MS coletivo
@@ -265,7 +265,7 @@ MINISTRO DA DEFESA
 
 ---
 
-## 16. Perda da nacionalidade — EC 131/2023
+## 16. Perda da nacionalidade — <abbr title="Emenda Constitucional">EC</abbr> 131/2023
 
 ```text
 NÃO: mera aquisição de outra nacionalidade
@@ -380,7 +380,7 @@ Militar:
 
 ---
 
-## 23. AIME
+## 23. <abbr title="Ação de Impugnação de Mandato Eletivo">AIME</abbr>
 
 ```text
 PRAZO → 15 DIAS DA DIPLOMAÇÃO
