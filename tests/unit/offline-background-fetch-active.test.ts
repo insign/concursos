@@ -39,6 +39,20 @@ describe('active package fetches', () => {
     await expect(hasActivePackageDownload(registration, 'tcema')).resolves.toBe(false);
   });
 
+  it('propagates per-id get() rejection as uncertainty', async () => {
+    const registration = {
+      backgroundFetch: {
+        async getIds() {
+          return ['offline-package-1724400000003-exemplo'];
+        },
+        async get() {
+          throw new Error('record unavailable');
+        },
+      },
+    };
+    await expect(getActivePackageFetches(registration)).rejects.toThrow('record unavailable');
+  });
+
   it('tolerates browsers without Background Fetch or with failing managers', async () => {
     await expect(getActivePackageFetches({})).resolves.toEqual([]);
     await expect(

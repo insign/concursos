@@ -72,12 +72,9 @@ export async function getActivePackageFetches(
     if (!id.startsWith(BG_ID_PREFIX)) continue;
     // Confirma cada registro via get(): enumeração pode listar ids cujos
     // registros falharam ao resolver.
-    let record: { id?: string } | undefined;
-    try {
-      record = await manager.get(id);
-    } catch {
-      continue;
-    }
+    // Rejeição de get() é INCERTEZA, não ausência: propaga para que o
+    // reconcile aborte e o botão trate como desconhecido.
+    const record = await manager.get(id);
     if (!record) continue;
     // Formato: offline-package-<timestamp 13 dígitos>-<storageId>
     const rest = id.slice(BG_ID_PREFIX.length);

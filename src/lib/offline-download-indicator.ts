@@ -102,11 +102,11 @@ export function startOfflineDownloadIndicator(
       sequence: 0,
     };
     const next = reduceOfflineDownload(current, event);
-    if (event.type === 'failed' || (event.type === 'background-result' && !event.ok)) {
-      failureSequence += 1;
-    }
+    const isFailure =
+      event.type === 'failed' || (event.type === 'background-result' && event.ok === false);
+    if (isFailure) failureSequence += 1;
     if (next.state === 'idle') perContest.delete(contestStorageId);
-    else perContest.set(contestStorageId, { ...next, sequence: event.type === 'failed' ? failureSequence : current.sequence ?? 0 });
+    else perContest.set(contestStorageId, { ...next, sequence: isFailure ? failureSequence : current.sequence ?? 0 });
 
     if (next.state === 'success') {
       if (idleTimer) clearTimeout(idleTimer);
