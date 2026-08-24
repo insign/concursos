@@ -14,7 +14,7 @@
 | responsável | parte qualificada pela ordem jurídica |
 | interessado | parte com razão legítima para intervir reconhecida |
 | relator | preside a instrução |
-| MPC | fiscal da lei |
+| <abbr title="Ministério Público de Contas">MPC</abbr> | fiscal da lei |
 | Secretaria | documentação, comunicação e instrução sob direção do relator |
 
 **Parte = responsável + interessado.**
@@ -60,14 +60,14 @@ Art. 122: tramitação; vista/cópia; nulidades/comunicações; certidões/infor
 | intimação interlocutória | recebimento pela parte |
 | outra ciência comprovada | data do documento |
 | parte não localizada | publicação do edital |
-| acórdão/parecer prévio | publicação no DOE do TCE/MA |
+| acórdão/parecer prévio | publicação no <abbr title="Diário Oficial Eletrônico">DOE</abbr> do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> |
 | demais decisões | publicação no DOE, salvo regra expressa |
 
 ## Citação, defesa e revelia
 
 | Situação | Regra |
 | --- | --- |
-| citação normal | carta registrada + AR no endereço indicado |
+| citação normal | carta registrada + <abbr title="Aviso de recebimento">AR</abbr> no endereço indicado |
 | assinatura no AR | não precisa ser do próprio citado |
 | nenhuma assinatura/rubrica no AR | edital no DOE |
 | comparecimento espontâneo | supre falta de citação |

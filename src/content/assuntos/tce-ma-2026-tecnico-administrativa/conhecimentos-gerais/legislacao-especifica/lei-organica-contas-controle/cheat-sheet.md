@@ -1,10 +1,10 @@
-# Lei Orgânica do TCE/MA: contas e controle
+# Lei Orgânica do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: contas e controle
 
 ## Corte
 
 **Edital: 6/7/2026.**
 
-Núcleo: **arts. 8º–13 e 34–58 da Lei nº 8.258/2005** + **ADPF 982** + **Tema 445/STF**.
+Núcleo: **arts. 8º–13 e 34–58 da Lei nº 8.258/2005** + **<abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982** + **Tema 445/<abbr title="Supremo Tribunal Federal">STF</abbr>**.
 
 ## Governo x gestão
 
@@ -21,7 +21,7 @@ Núcleo: **arts. 8º–13 e 34–58 da Lei nº 8.258/2005** + **ADPF 982** + **T
 **governo → parecer → Câmara**  
 **gestão/ordenador → TCE julga**  
 **débito + sanções não eleitorais → TCE, sem ratificação**  
-**efeito eleitoral da LC 64/1990, art. 1º, I, `g` → Câmara**
+**efeito eleitoral da <abbr title="Lei Complementar">LC</abbr> 64/1990, art. 1º, I, `g` → Câmara**
 
 ⚠️ “Toda conta de Prefeito é julgada pela Câmara” = errado.
 
@@ -74,7 +74,7 @@ Fiscalização de ofício: também **eficiência + eficácia + efetividade**.
 | acompanhamento | **observar em curso** |
 | monitoramento | **verificar deliberação anterior** |
 
-Também: **RREO + RGF**.
+Também: **<abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr> + <abbr title="Relatório de Gestão Fiscal">RGF</abbr>**.
 
 Rol = **não exaustivo** (“dentre outros”).
 
@@ -129,7 +129,7 @@ Depois:
 
 ## Art. 53
 
-Transferências; convênios; subvenções; receitas; renúncia; LRF; desestatização; declarações patrimoniais; PPP.
+Transferências; convênios; subvenções; receitas; renúncia; <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>; desestatização; declarações patrimoniais; <abbr title="Parceria público-privada">PPP</abbr>.
 
 **RREO/RGF → até 30 dias após o período + acesso público.**
 
