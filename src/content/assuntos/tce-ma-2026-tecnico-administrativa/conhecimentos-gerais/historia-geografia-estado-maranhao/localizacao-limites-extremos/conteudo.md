@@ -20,7 +20,7 @@ Outros elementos aparecem apenas quando ajudam a delimitar o território:
 
 Para números cartográficos, associe sempre o dado à edição da fonte. Neste material:
 
-- **área territorial:** IBGE, Malha Municipal Digital 2025;
+- **área territorial:** <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, Malha Municipal Digital 2025;
 - **pontos extremos:** Anuário Estatístico do Brasil, tabela 2025 baseada na Malha Municipal 2024.
 
 ## 2. Posição geográfica
