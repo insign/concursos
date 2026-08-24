@@ -11,9 +11,9 @@
 - sanções: isoladas ou cumulativas conforme gravidade;
 - multa pode chegar ao dobro se o valor ordinário for ineficaz;
 - menor ofensa: sanção limitada à multa, sem excluir ressarcimento/perda cabíveis;
-- LIA + Lei Anticorrupção: `non bis in idem`.
+- <abbr title="Lei de Improbidade Administrativa">LIA</abbr> + Lei Anticorrupção: `non bis in idem`.
 
-## STF 2026 — sanções
+## <abbr title="Supremo Tribunal Federal">STF</abbr> 2026 — sanções
 
 ### Perda da função
 
@@ -39,7 +39,7 @@ Art. 12, § 10 → detração entre decisão colegiada e trânsito **inconstituc
 | ressarcimento/responsabilidade patrimonial | pode ser solidária |
 | benefício direto do terceiro | **não** é requisito autônomo para responsabilidade patrimonial |
 
-STF: expressão “e dos benefícios diretos” do art. 17-C, § 2º → inconstitucional **ex nunc**.
+STF: expressão “e dos benefícios diretos” do art. 17-C, § 2º → inconstitucional **<abbr title="efeito prospectivo, sem retroação">ex nunc</abbr>**.
 
 ## Efeitos patrimoniais
 
@@ -53,7 +53,7 @@ STF: expressão “e dos benefícios diretos” do art. 17-C, § 2º → inconst
 ### Art. 18
 
 - ente lesado promove liquidação/cumprimento;
-- inércia por **6 meses** após trânsito → MP assume;
+- inércia por **6 meses** após trânsito → <abbr title="Ministério Público">MP</abbr> assume;
 - descontar serviços efetivamente prestados;
 - incapacidade financeira comprovada → até **48 parcelas**.
 
@@ -113,7 +113,7 @@ Pode impedir a improbidade, nas hipóteses qualificadas do STF, quando houver de
 
 **Insuficiência de provas ≠ extinção automática.**
 
-## ANPC
+## <abbr title="Acordo de Não Persecução Civil">ANPC</abbr>
 
 Mínimo:
 
@@ -167,14 +167,14 @@ Não multiplicar o mesmo valor por número de réus.
 ### Proteções
 
 - terceiro: efetiva concorrência;
-- PJ por desconsideração: incidente próprio;
+- <abbr title="pessoa jurídica">PJ</abbr> por desconsideração: incidente próprio;
 - substituição: caução, fiança ou seguro-garantia;
 - contas bancárias vêm depois das demais classes previstas;
 - proteção de até **40 salários mínimos** nas hipóteses legais;
 - bem de família protegido, salvo se o próprio imóvel for vantagem ilícita do art. 9º;
 - preservar subsistência, empresa e serviços públicos.
 
-### Tema 1257/STJ
+### Tema 1257/<abbr title="Superior Tribunal de Justiça">STJ</abbr>
 
 Normas processuais da reforma alcançam processos em curso e medidas anteriores podem ser reapreciadas.
 

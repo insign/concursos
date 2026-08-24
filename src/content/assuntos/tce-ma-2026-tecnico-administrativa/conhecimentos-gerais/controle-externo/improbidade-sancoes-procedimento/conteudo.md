@@ -21,7 +21,7 @@ O art. 37, § 4º, da Constituição prevê, na forma e gradação legais, suspe
 
 ### 1.1. Regra legal e jurisprudência aplicável
 
-Na publicação do edital, em **6 de julho de 2026**, vigorava a LIA com a redação dada pela Lei nº 14.230/2021. Poucos dias antes, em **1º de julho de 2026**, o STF havia concluído as ADIs 7156 e 7236, alterando a interpretação de diversos dispositivos relevantes deste assunto.
+Na publicação do edital, em **6 de julho de 2026**, vigorava a LIA com a redação dada pela Lei nº 14.230/2021. Poucos dias antes, em **1º de julho de 2026**, o <abbr title="Supremo Tribunal Federal">STF</abbr> havia concluído as <abbr title="Ações Diretas de Inconstitucionalidade">ADIs</abbr> 7156 e 7236, alterando a interpretação de diversos dispositivos relevantes deste assunto.
 
 Por isso, a leitura correta para a prova combina:
 
@@ -29,7 +29,7 @@ Por isso, a leitura correta para a prova combina:
 - as decisões do STF nas ADIs 7042 e 7043 sobre legitimidade;
 - o julgamento concluído das ADIs 7156 e 7236;
 - os Temas 1199 e 897 do STF;
-- o Tema 1257 do STJ, lido à luz do controle concentrado posterior do STF.
+- o Tema 1257 do <abbr title="Superior Tribunal de Justiça">STJ</abbr>, lido à luz do controle concentrado posterior do STF.
 
 > **Vocabulário-chave:** indisponibilidade é tutela provisória; perda/reversão retira vantagem ilícita; ressarcimento recompõe dano; multa civil é sanção.
 
@@ -62,7 +62,7 @@ Nos atos de menor ofensa aos bens jurídicos tutelados, a sanção limita-se à 
 
 Ao sancionar pessoa jurídica, o juiz deve considerar os efeitos econômicos e sociais da sanção, de modo a viabilizar a manutenção de suas atividades.
 
-Quando houver incidência da LIA e da Lei nº 12.846/2013, deve-se observar o **non bis in idem**, evitando duplicação sancionatória pelo mesmo fundamento. Isso não elimina a obrigação de reparar dano efetivamente causado.
+Quando houver incidência da <abbr title="Lei de Improbidade Administrativa">LIA</abbr> e da Lei nº 12.846/2013, deve-se observar o **non bis in idem**, evitando duplicação sancionatória pelo mesmo fundamento. Isso não elimina a obrigação de reparar dano efetivamente causado.
 
 ## 3. Dosimetria e individualização
 
@@ -82,7 +82,7 @@ O art. 17-C exige fundamentação concreta. Entre os elementos relevantes estão
 
 As **sanções pessoais** são individualizadas conforme a participação de cada réu.
 
-Nas ADIs 7156 e 7236, o STF declarou, com **efeitos ex nunc**, a inconstitucionalidade da expressão “e dos benefícios diretos” do art. 17-C, § 2º, e fixou a leitura de que:
+Nas ADIs 7156 e 7236, o STF declarou, com **efeitos <abbr title="efeito prospectivo, sem retroação">ex nunc</abbr>**, a inconstitucionalidade da expressão “e dos benefícios diretos” do art. 17-C, § 2º, e fixou a leitura de que:
 
 - é vedada solidariedade **para fins de sanção**;
 - admite-se solidariedade **para fins de responsabilidade patrimonial**;
@@ -204,7 +204,7 @@ Cada legitimado pode agir por iniciativa própria para:
 
 - propor a ação;
 - requerer tutelas provisórias;
-- celebrar ANPC.
+- celebrar <abbr title="Acordo de Não Persecução Civil">ANPC</abbr>.
 
 Quando o Ministério Público propõe a ação, a pessoa jurídica interessada é intimada para, se quiser, intervir.
 
@@ -238,7 +238,7 @@ Imputação genérica não satisfaz o regime sancionatório.
 Na ação de improbidade:
 
 - a revelia não gera presunção de veracidade;
-- não se aplica contra o réu a distribuição dinâmica do ônus da prova prevista no art. 373, §§ 1º e 2º, do CPC;
+- não se aplica contra o réu a distribuição dinâmica do ônus da prova prevista no art. 373, §§ 1º e 2º, do <abbr title="Código de Processo Civil">CPC</abbr>;
 - ordens judiciais de apresentação de documentos continuam obrigatórias;
 - o réu pode ser interrogado;
 - silêncio ou recusa não importam confissão.

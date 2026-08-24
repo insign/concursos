@@ -2,7 +2,7 @@
 
 ## Regra-matriz
 
-**CF, art. 5º, XXXV → Brasil = jurisdição una.**
+**<abbr title="Constituição Federal">CF</abbr>, art. 5º, XXXV → Brasil = jurisdição una.**
 
 Lesão ou ameaça a direito pode chegar ao Judiciário.
 
@@ -43,11 +43,11 @@ Processo administrativo existe e produz efeitos; não cria jurisdição administ
 
 **Não há exaurimento administrativo geral no Brasil.**
 
-### Tema 350/STF
+### Tema 350/<abbr title="Supremo Tribunal Federal">STF</abbr>
 
 Concessão inicial de benefício previdenciário:
 
-- requerimento ao INSS → regra;
+- requerimento ao <abbr title="Instituto Nacional do Seguro Social">INSS</abbr> → regra;
 - recursos até a última instância → **não exigidos**;
 - posição administrativa notória e reiteradamente contrária → pode dispensar requerimento.
 
@@ -68,7 +68,7 @@ Resistência administrativa:
 
 - acesso: mais de **10 dias** sem decisão;
 - retificação/anotação: mais de **15 dias**;
-- Súmula 2/STJ: sem recusa, não cabe.
+- Súmula 2/<abbr title="Superior Tribunal de Justiça">STJ</abbr>: sem recusa, não cabe.
 
 ### Mandado de segurança
 
@@ -138,9 +138,9 @@ Direito fundamental + ausência/deficiência grave de serviço:
 - Administração apresenta **plano/meios**;
 - sem imunidade da omissão e sem microgestão automática.
 
-## PAD
+## <abbr title="Processo Administrativo Disciplinar">PAD</abbr>
 
-### SV 5/STF
+### <abbr title="Súmula Vinculante">SV</abbr> 5/STF
 
 Sem advogado no PAD ≠ nulidade constitucional automática.
 
@@ -160,7 +160,7 @@ Exceções qualificadas:
 - teratologia;
 - manifesta desproporcionalidade.
 
-## LINDB — matriz mínima
+## <abbr title="Lei de Introdução às Normas do Direito Brasileiro">LINDB</abbr> — matriz mínima
 
 | Art. | Palavra-chave |
 | --- | --- |
@@ -176,12 +176,12 @@ LINDB melhora a decisão; **não blinda ilegalidade**.
 
 | Instrumento | Núcleo |
 | --- | --- |
-| MS | direito líquido e certo + prova pré-constituída + 120 dias |
+| <abbr title="mandado de segurança">MS</abbr> | direito líquido e certo + prova pré-constituída + 120 dias |
 | ação popular | cidadão + ato lesivo |
-| ACP | tutela coletiva + legitimados legais |
+| <abbr title="ação civil pública">ACP</abbr> | tutela coletiva + legitimados legais |
 | habeas data | dados pessoais + resistência |
-| MI | omissão normativa constitucional |
-| HC | liberdade de locomoção |
+| <abbr title="mandado de injunção">MI</abbr> | omissão normativa constitucional |
+| <abbr title="habeas corpus">HC</abbr> | liberdade de locomoção |
 | ação comum | instrução ampla quando necessária |
 
 ## Fluxo de prova

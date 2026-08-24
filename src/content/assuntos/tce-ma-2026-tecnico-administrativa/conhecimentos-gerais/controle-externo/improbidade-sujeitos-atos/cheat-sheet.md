@@ -12,7 +12,7 @@
 
 ## Natureza
 
-- CF, art. 37, § 4º.
+- <abbr title="Constituição Federal">CF</abbr>, art. 37, § 4º.
 - Direito administrativo sancionador.
 - Ação civil e sancionatória.
 - Responsabilidade subjetiva.
@@ -40,14 +40,14 @@ Mero benefício ou proximidade não bastam.
 
 - sem responsabilidade automática;
 - participação dolosa individualizada;
-- STF/2026: “e benefícios diretos” é inconstitucional;
-- efeitos **ex tunc**, ressalvada coisa julgada.
+- <abbr title="Supremo Tribunal Federal">STF</abbr>/2026: “e benefícios diretos” é inconstitucional;
+- efeitos **<abbr title="efeito retroativo desde a origem">ex tunc</abbr>**, ressalvada coisa julgada.
 
-## LIA x Lei Anticorrupção
+## <abbr title="Lei de Improbidade Administrativa">LIA</abbr> x Lei Anticorrupção
 
 | LIA | Lei nº 12.846/2013 |
 | --- | --- |
-| requisitos subjetivos da improbidade | PJ responde objetivamente |
+| requisitos subjetivos da improbidade | <abbr title="pessoa jurídica">PJ</abbr> responde objetivamente |
 | dolo | ato no interesse/benefício da PJ |
 | participação individualizada | pessoa natural conforme culpabilidade |
 
@@ -87,7 +87,7 @@ Não opera quando evidenciado **dolo ou erro grosseiro**, consideradas as circun
 
 ### Art. 9º, VII — patrimônio a descoberto
 
-STJ, REsp 2.256.539/MS:
+<abbr title="Superior Tribunal de Justiça">STJ</abbr>, <abbr title="Recurso Especial">REsp</abbr> 2.256.539/MS:
 
 - incremento patrimonial significativo e sem origem identificada;
 - relação mínima com a atividade pública;
