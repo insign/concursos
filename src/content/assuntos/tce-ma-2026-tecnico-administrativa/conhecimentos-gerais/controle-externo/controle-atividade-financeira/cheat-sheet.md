@@ -2,7 +2,7 @@
 
 ## Regra-matriz
 
-**Art. 70 da CF = CFOOP + legalidade/legitimidade/economicidade + subvenções/renúncia + controle externo/interno.**
+**Art. 70 da <abbr title="Constituição Federal">CF</abbr> = CFOOP + legalidade/legitimidade/economicidade + subvenções/renúncia + controle externo/interno.**
 
 ## CFOOP
 
@@ -76,7 +76,7 @@ Legalidade dos atos de execução orçamentária:
 Na União:
 
 - **titular:** Congresso Nacional;
-- **auxílio:** TCU.
+- **auxílio:** <abbr title="Tribunal de Contas da União">TCU</abbr>.
 
 Auxílio ≠ subordinação hierárquica.
 
@@ -86,7 +86,7 @@ TCU ≠ Poder Judiciário.
 
 Legislativo + Executivo + Judiciário mantêm sistema integrado para:
 
-1. **PPA + programas + orçamentos**;
+1. **<abbr title="Plano Plurianual">PPA</abbr> + programas + orçamentos**;
 2. **legalidade + eficácia + eficiência** da gestão orçamentária, financeira e patrimonial, inclusive recursos públicos aplicados por privados;
 3. **crédito + avais + garantias + direitos + haveres**;
 4. **apoiar o controle externo**.
@@ -142,7 +142,7 @@ Não pode, só por ser controle social:
 | 78 | contas podem ser levantadas/prestadas/tomadas a qualquer tempo |
 | 79 | controle do programa de trabalho |
 | 80 | contabilidade verifica limites das cotas |
-| 81 | Legislativo: probidade + guarda/emprego legal + cumprimento da LOA |
+| 81 | Legislativo: probidade + guarda/emprego legal + cumprimento da <abbr title="Lei Orçamentária Anual">LOA</abbr> |
 | 82 | contas anuais do Executivo ao Legislativo + parecer prévio |
 
 ## Pegadinhas finais

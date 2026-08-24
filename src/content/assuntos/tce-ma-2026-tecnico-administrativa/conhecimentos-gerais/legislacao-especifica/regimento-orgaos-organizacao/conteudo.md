@@ -132,7 +132,7 @@ Não confunda:
 - **Ouvidoria** → escuta e relacionamento;
 - **Corregedoria** → orientação e controle funcional interno;
 - **Plenário/Câmaras** → colegiados deliberativos;
-- **MPC** → órgão ministerial que atua junto ao Tribunal.
+- **<abbr title="Ministério Público de Contas">MPC</abbr>** → órgão ministerial que atua junto ao Tribunal.
 
 ## 7. Comissões regimentais
 
@@ -202,7 +202,7 @@ A Lei nº 8.258/2005, com a redação dada pela **Lei nº 11.614/2021**, estabel
 A investidura no cargo depende de:
 
 - concurso público de provas e títulos;
-- participação da OAB na realização;
+- participação da <abbr title="Ordem dos Advogados do Brasil">OAB</abbr> na realização;
 - bacharelado em Direito;
 - no mínimo **três anos de atividade jurídica**;
 - observância da ordem de classificação nas nomeações.
@@ -215,7 +215,7 @@ A página institucional do TCE/MA informa que os Procuradores de Contas são nom
 
 São regras sobre objetos diferentes. Em prova, identifique se a questão trata do **ingresso na carreira de Procurador de Contas** ou da **chefia do MPC**.
 
-## 9. Secretaria, gabinetes e ESCEX: apoio, não art. 9º
+## 9. Secretaria, gabinetes e <abbr title="Escola Superior de Controle Externo">ESCEX</abbr>: apoio, não art. 9º
 
 A estrutura administrativa detalhada pertence principalmente à Lei nº 9.936/2013.
 
