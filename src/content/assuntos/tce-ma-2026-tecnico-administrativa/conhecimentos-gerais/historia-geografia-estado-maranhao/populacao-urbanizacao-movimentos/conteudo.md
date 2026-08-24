@@ -15,9 +15,9 @@ Este assunto cobre o item do edital sobre **população absoluta, povoamento, ur
 O corte documental é **4 de agosto de 2026**. As referências temporais principais são:
 
 - **Censo Demográfico 2022:** população, densidade e situação urbana/rural;
-- **Estimativa IBGE 2025:** população estimada em 1º de julho de 2025;
+- **Estimativa <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> 2025:** população estimada em 1º de julho de 2025;
 - **amostra do Censo 2022:** migração e deslocamentos, divulgados como resultados preliminares;
-- **Arranjos Populacionais 2016** e **REGIC 2018:** apenas como apoio para compreender integração funcional e rede urbana, sem transformar esses estudos em núcleo autônomo do assunto.
+- **Arranjos Populacionais 2016** e **<abbr title="Regiões de Influência das Cidades">REGIC</abbr> 2018:** apenas como apoio para compreender integração funcional e rede urbana, sem transformar esses estudos em núcleo autônomo do assunto.
 
 O Assunto 082 tratou dos principais fatos sociais maranhenses da segunda metade do século XX. Agricultura, extrativismo, indústria, comércio e transportes pertencem aos assuntos seguintes e aparecem aqui somente quando indispensáveis para explicar a distribuição da população.
 
@@ -63,7 +63,7 @@ Números de referência do Maranhão:
 | população Censo 2022 | **6.776.699** | valor corrente do Censo 2022 |
 | população estimada | **7.018.211** | estimativa para 1º/7/2025 |
 | área territorial | 329.651,463 km² | Área Territorial Brasileira 2022 |
-| densidade no Censo 2022 | **20,56 hab./km²** | população/área |
+| densidade no Censo 2022 | **20,56 <abbr title="habitantes por quilômetro quadrado">hab./km²</abbr>** | população/área |
 
 A estimativa de 2025 **não substitui** o Censo 2022. Assim, é incorreto afirmar que o Censo 2022 contou mais de sete milhões de habitantes.
 
@@ -203,7 +203,7 @@ Diferentes medidas respondem a perguntas diferentes:
 No Censo 2022, os estoques por naturalidade indicaram:
 
 - **514.870** residentes no Maranhão nascidos no Brasil e não naturais do estado;
-- **1.826.563** naturais do Maranhão residindo em outra UF.
+- **1.826.563** naturais do Maranhão residindo em outra <abbr title="Unidade da Federação">UF</abbr>.
 
 Esses valores **não são** os números de imigrantes e emigrantes do quinquênio 2017-2022; acumulam movimentos ocorridos em diferentes momentos da vida.
 

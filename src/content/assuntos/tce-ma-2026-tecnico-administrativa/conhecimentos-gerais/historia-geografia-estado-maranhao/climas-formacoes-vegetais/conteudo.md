@@ -17,7 +17,7 @@ O edital cobra, na Geografia do Maranhão, dois núcleos diretamente relacionado
 
 O objetivo é reconhecer **padrões regionais, sazonalidade e relações entre clima e vegetação**, sem transformar o assunto em curso de climatologia ou fitogeografia. Rios, bacias, agropecuária, extrativismo e unidades de conservação pertencem aos assuntos próprios.
 
-O corte documental adotado é **4 de agosto de 2026**. Para números meteorológicos, a referência principal são as **Normais Climatológicas INMET 1991-2020**. Mapas e estudos com outros períodos são identificados separadamente.
+O corte documental adotado é **4 de agosto de 2026**. Para números meteorológicos, a referência principal são as **Normais Climatológicas <abbr title="Instituto Nacional de Meteorologia">INMET</abbr> 1991-2020**. Mapas e estudos com outros períodos são identificados separadamente.
 
 ## 2. Padrão climático do Maranhão
 
@@ -97,7 +97,7 @@ Exemplos das Normais 1991-2020:
 
 ## 5. Classificações climáticas: use como apoio
 
-O **Mapa de Clima do Brasil do IBGE**, atualizado em 2002, mostra o Maranhão predominantemente na categoria térmica **quente**, com transição entre:
+O **Mapa de Clima do Brasil do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>**, atualizado em 2002, mostra o Maranhão predominantemente na categoria térmica **quente**, com transição entre:
 
 - **Tropical da Zona Equatorial**;
 - **Tropical do Brasil Central**.
