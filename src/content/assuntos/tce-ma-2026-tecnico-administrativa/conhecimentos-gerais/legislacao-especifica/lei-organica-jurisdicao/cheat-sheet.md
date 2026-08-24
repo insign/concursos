@@ -1,8 +1,8 @@
-# Lei Orgânica do TCE/MA: jurisdição e competência
+# Lei Orgânica do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: jurisdição e competência
 
 ## Corte
 
-**Edital: 6/7/2026.** Núcleo: **arts. 1º–7º da Lei nº 8.258/2005** + distinção indispensável sobre Prefeito ordenador de despesas conforme a **ADPF 982**.
+**Edital: 6/7/2026.** Núcleo: **arts. 1º–7º da Lei nº 8.258/2005** + distinção indispensável sobre Prefeito ordenador de despesas conforme a **<abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982**.
 
 ## Mapa mental
 
@@ -18,7 +18,7 @@
 | **apreciar** | contas de governo; legalidade para registro; cálculo de quotas-partes; constitucionalidade incidental |
 | **julgar** | contas de administradores/responsáveis; contas do Presidente da Câmara; infrações administrativas fiscais |
 | **realizar** | auditorias, inspeções e acompanhamentos |
-| **acompanhar/fiscalizar** | receitas, LRF, desestatização, transferências e aplicação de recursos |
+| **acompanhar/fiscalizar** | receitas, <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>, desestatização, transferências e aplicação de recursos |
 | **decidir** | denúncias, consultas e representações |
 | **assinar prazo** | correção de ilegalidade |
 | **sustar** | ato impugnado não corrigido |
@@ -76,7 +76,7 @@
 | V | dirigentes/liquidantes de empresa encampada, intervinda ou incorporada ao patrimônio público |
 | VI | responsáveis por entidade privada com contribuição parafiscal + serviço de interesse público/social |
 | VII | responsáveis por recursos de convênio, acordo, ajuste ou congênere |
-| VIII | representantes públicos em assembleias de estatais/S.A. + conselhos fiscal/administração, nos atos de gestão ruinosa/liberalidade previstos |
+| VIII | representantes públicos em assembleias de estatais/<abbr title="Sociedade anônima">S.A.</abbr> + conselhos fiscal/administração, nos atos de gestão ruinosa/liberalidade previstos |
 | IX | sucessores, **até o valor do patrimônio transferido** |
 
 ### Contrastes do art. 7º
@@ -92,7 +92,7 @@
 | --- | --- | --- |
 | chefe de governo | contas de governo | TCE emite parecer prévio → Câmara julga |
 | ordenador de despesas | contas de gestão | **TCE julga** |
-| reflexo eleitoral da LC 64/1990, art. 1º, I, “g” | efeito eleitoral | competência da **Câmara Municipal** preservada |
+| reflexo eleitoral da <abbr title="Lei Complementar">LC</abbr> 64/1990, art. 1º, I, “g” | efeito eleitoral | competência da **Câmara Municipal** preservada |
 
 ### ADPF 982
 

@@ -1,4 +1,4 @@
-# Regimento Interno do TCE/MA: atos normativos, ética e regras finais
+# Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: atos normativos, ética e regras finais
 
 ## Corte
 
@@ -23,7 +23,7 @@
 
 Podem propor **ato normativo / enunciado de Súmula / projeto de lei privativo**:
 
-**Presidente + Conselheiros + Conselheiros-Substitutos + MPC + Comissões regimentais.**
+**Presidente + Conselheiros + Conselheiros-Substitutos + <abbr title="Ministério Público de Contas">MPC</abbr> + Comissões regimentais.**
 
 ### Relatoria
 
@@ -161,7 +161,7 @@ Fim do prazo → Relator apresenta relatório e parecer **até a 2ª Sessão Ple
 
 ## Pegadinhas de uma linha
 
-- **RI/Súmula/PL:** 2 Conselheiros **fora** da conta do proponente Conselheiro/Substituto.
+- **RI/Súmula/<abbr title="Projeto de lei">PL</abbr>:** 2 Conselheiros **fora** da conta do proponente Conselheiro/Substituto.
 - **Ato normativo comum:** 2 Conselheiros **podendo incluir** o proponente Conselheiro/Substituto.
 - **alterar RI:** maioria absoluta dos **Conselheiros titulares**.
 - **aprovar proposição (art. 318):** maioria absoluta dos **votos dos membros** + desempate do Presidente.

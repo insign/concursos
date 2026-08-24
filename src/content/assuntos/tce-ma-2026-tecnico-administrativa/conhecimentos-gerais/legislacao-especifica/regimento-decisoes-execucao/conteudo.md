@@ -19,7 +19,7 @@ O foco é compreender:
 - multas e outras sanções regimentais;
 - intimação para pagamento, parcelamento, quitação e inadimplemento;
 - cobrança administrativa e execução judicial;
-- legitimidade executiva conforme a jurisprudência do STF.
+- legitimidade executiva conforme a jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr>.
 
 Ficam fora deste assunto os recursos, revisão, embargos, respectivos prazos e efeitos, tratados no Assunto 062, e os atos normativos gerais, ética e regras finais, tratados no Assunto 063.
 
@@ -33,7 +33,7 @@ As regras de execução e sanções foram alteradas ao longo do tempo, inclusive
 
 ### 2.1. Função decisória do Tribunal de Contas
 
-A Constituição Federal atribui aos tribunais de contas competências como apreciar contas, julgar contas de responsáveis, fiscalizar atos, aplicar sanções previstas em lei e assinar prazo para correção de ilegalidades. Aos Estados aplica-se, no que couber, o modelo constitucional do TCU.
+A Constituição Federal atribui aos tribunais de contas competências como apreciar contas, julgar contas de responsáveis, fiscalizar atos, aplicar sanções previstas em lei e assinar prazo para correção de ilegalidades. Aos Estados aplica-se, no que couber, o modelo constitucional do <abbr title="Tribunal de Contas da União">TCU</abbr>.
 
 No Maranhão, a Constituição estadual e a legislação do TCE/MA reproduzem essa lógica. Entre as competências oficiais do Tribunal estão:
 
@@ -215,7 +215,7 @@ Decorrido o prazo do art. 199 sem manifestação satisfatória, o Regimento prev
 
 O fluxo não deve ser memorizado como se o próprio TCE ajuizasse qualquer execução em nome próprio. A legitimidade judicial precisa ser combinada com a jurisprudência do STF.
 
-## 6. Art. 202 × jurisprudência do STF
+## 6. Art. 202 × jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr>
 
 ### 6.1. A literalidade regimental não encerra a legitimidade judicial
 
@@ -232,7 +232,7 @@ O Tema 642 do STF hoje consolida dois cenários:
 | multa aplicada por TCE estadual a agente municipal em razão de dano ao erário municipal | **Município prejudicado** |
 | multa simples decorrente de violação de normas de Direito Financeiro ou descumprimento de deveres de colaboração perante TCE estadual | **Estado-membro** |
 
-A segunda parte da tese foi harmonizada com o julgamento da ADPF 1.011.
+A segunda parte da tese foi harmonizada com o julgamento da <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 1.011.
 
 Pegadinha: não responda que **toda** multa aplicada a agente municipal é executada pelo Município, nem que **toda** multa do TCE estadual é executada pelo Estado.
 
@@ -240,7 +240,7 @@ Pegadinha: não responda que **toda** multa aplicada a agente municipal é execu
 
 O TCE/MA mantém serviços e rotinas administrativas ligados à execução de seus acórdãos, como certidão de trânsito em julgado e validação de certidão de débito — título executivo.
 
-A SUPEX aparece na prática institucional relacionada ao acompanhamento da execução dos acórdãos e às providências administrativas de cobrança. Notícias oficiais também registram mecanismos como declaração de inadimplência, CEI, DDNT e inscrição em dívida ativa conforme o regime aplicável.
+A <abbr title="Supervisão de Execução de Acórdãos">SUPEX</abbr> aparece na prática institucional relacionada ao acompanhamento da execução dos acórdãos e às providências administrativas de cobrança. Notícias oficiais também registram mecanismos como declaração de inadimplência, <abbr title="Cadastro Estadual de Inadimplentes">CEI</abbr>, <abbr title="Declaração de Dívida Não Tributária">DDNT</abbr> e inscrição em dívida ativa conforme o regime aplicável.
 
 Esses instrumentos não alteram três regras:
 
@@ -277,5 +277,5 @@ Em uma questão prática, percorra esta sequência:
 | pagamento integral apaga automaticamente contas irregulares | gera quitação, mas não muda sozinho o julgamento definitivo |
 | inabilitação é multa | é sanção distinta, por até 5 anos, com maioria absoluta |
 | TCE executa judicialmente todos os créditos | legitimidade depende da natureza do crédito e da jurisprudência |
-| MPC é sempre legitimado judicial | STF não admite essa generalização |
+| <abbr title="Ministério Público de Contas">MPC</abbr> é sempre legitimado judicial | STF não admite essa generalização |
 | recurso e execução são a mesma coisa | recurso impugna; execução cumpre ou cobra |
