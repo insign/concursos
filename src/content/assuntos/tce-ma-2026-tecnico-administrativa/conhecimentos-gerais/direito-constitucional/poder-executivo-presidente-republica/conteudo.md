@@ -12,7 +12,7 @@ storageId: tec-poder-executivo-128
 
 O edital do Cargo 16 exige **Poder Executivo**, com foco nas **atribuições e responsabilidades do Presidente da República**. O núcleo constitucional está nos **arts. 76 a 86 da Constituição Federal**.
 
-> **Corte de prova:** regras vigentes em **6 de julho de 2026**. A EC nº 139/2026, última emenda constitucional antes do corte, não alterou os arts. 76 a 86.
+> **Corte de prova:** regras vigentes em **6 de julho de 2026**. A <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026, última emenda constitucional antes do corte, não alterou os arts. 76 a 86.
 
 A unidade usa os arts. 76 a 83 como moldura e aprofunda o art. 84 (atribuições) e os arts. 85 e 86 (responsabilidade). O art. 52, I e parágrafo único, entra apenas para completar o julgamento político pelo Senado. A Lei nº 1.079/1950 complementa o tema, sempre subordinada à Constituição vigente.
 
@@ -183,7 +183,7 @@ A participação do Congresso prevista em várias dessas hipóteses não elimina
 Compete ao Presidente:
 
 - remeter **mensagem e plano de governo** ao Congresso na abertura da sessão legislativa — XI;
-- enviar **PPA, LDO e propostas de orçamento** — XXIII;
+- enviar **<abbr title="Plano Plurianual">PPA</abbr>, <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> e propostas de orçamento** — XXIII;
 - prestar anualmente ao Congresso, **dentro de 60 dias após a abertura da sessão legislativa**, as contas referentes ao exercício anterior — XXIV.
 
 ```text
@@ -209,7 +209,7 @@ O inciso XII é especialmente cobrado porque está no rol das competências **de
 
 O Presidente nomeia, **após aprovação pelo Senado Federal**:
 
-- Ministros do STF e dos Tribunais Superiores;
+- Ministros do <abbr title="Supremo Tribunal Federal">STF</abbr> e dos Tribunais Superiores;
 - Governadores de Territórios;
 - Procurador-Geral da República;
 - presidente e diretores do Banco Central;
@@ -219,7 +219,7 @@ O Presidente nomeia, **após aprovação pelo Senado Federal**:
 
 Também lhe compete:
 
-- nomear Ministros do TCU, observado o art. 73 — XV;
+- nomear Ministros do <abbr title="Tribunal de Contas da União">TCU</abbr>, observado o art. 73 — XV;
 - nomear magistrados nos casos constitucionais e o Advogado-Geral da União — XVI;
 - nomear membros do Conselho da República na hipótese constitucional — XVII.
 
@@ -432,7 +432,7 @@ Cessa o afastamento, mas **não** o processo.
 10. Decreto autônomo não cria nem extingue órgão.
 11. Cargo ou função só é extinto pelo decreto do VI se estiver **vago**.
 12. Delegáveis: VI, XII e XXV, primeira parte.
-13. Delegatários: Ministro, PGR e AGU.
+13. Delegatários: Ministro, <abbr title="Procurador-Geral da República">PGR</abbr> e <abbr title="Advogado-Geral da União">AGU</abbr>.
 14. Contas: **60 dias** após abertura da sessão legislativa.
 15. Acusação: **2/3 da Câmara**.
 16. Crime comum → STF; responsabilidade → Senado.

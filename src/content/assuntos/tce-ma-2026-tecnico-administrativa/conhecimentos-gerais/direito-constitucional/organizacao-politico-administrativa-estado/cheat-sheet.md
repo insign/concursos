@@ -56,7 +56,7 @@ PLEBISCITO → população diretamente interessada
 LC → Congresso Nacional
 ```
 
-### Municípios — CF art. 18, § 4º
+### Municípios — <abbr title="Constituição Federal">CF</abbr> art. 18, § 4º
 
 ```text
 LC FEDERAL → período
@@ -67,7 +67,7 @@ LEI ESTADUAL → conclui
 
 ---
 
-## 5. LC 230/2026 — não generalize
+## 5. <abbr title="Lei Complementar">LC</abbr> 230/2026 — não generalize
 
 Objeto:
 
@@ -239,7 +239,7 @@ LEGISLATIVO MUNICIPAL → controle externo
 EXECUTIVO MUNICIPAL   → controle interno
 ```
 
-### EC 139/2026
+### <abbr title="Emenda Constitucional">EC</abbr> 139/2026
 
 `TCs/Conselhos referidos no §1º → VEDADA extinção, criação ou instalação`
 

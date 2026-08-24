@@ -18,7 +18,7 @@ O núcleo constitucional está no **Título III — Da Organização do Estado**
 2. **como a Constituição reparte competências entre União, estados, Distrito Federal e municípios**;
 3. **como se organizam estados, municípios, Distrito Federal e Territórios Federais**.
 
-> **Corte de prova:** texto constitucional vigente em **6 de julho de 2026**, data do Edital nº 1. A **EC nº 139/2026**, de 5/5/2026, já integrava o corte e alterou o art. 31, § 1º. A **LC nº 230/2026**, de 15/4/2026, também já estava em vigor e disciplina uma hipótese específica de desmembramento municipal para incorporação a município limítrofe.
+> **Corte de prova:** texto constitucional vigente em **6 de julho de 2026**, data do Edital nº 1. A <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026, de 5/5/2026, já integrava o corte e alterou o art. 31, § 1º. A <abbr title="Lei Complementar">LC</abbr> nº 230/2026, de 15/4/2026, também já estava em vigor e disciplina uma hipótese específica de desmembramento municipal para incorporação a município limítrofe.
 
 Ficam fora deste assunto, salvo referência indispensável:
 
@@ -147,7 +147,7 @@ A própria lei determina que, nessa modalidade:
 - a iniciativa do processo compete à **Assembleia Legislativa**;
 - deve haver **EVM**;
 - a Assembleia delibera sobre decreto legislativo que convoca o plebiscito;
-- o **TRE** providencia a consulta;
+- o <abbr title="Tribunal Regional Eleitoral">TRE</abbr> providencia a consulta;
 - a vontade popular é aferida conjuntamente nos **dois municípios**, por **plebiscito único**;
 - se o resultado for favorável, a conclusão ocorre por **lei estadual** que fixa os novos limites.
 
@@ -657,7 +657,7 @@ LEI FEDERAL POSTERIOR → SUSPENDE EFICÁCIA DO CONFLITO
 20. DF **não** pode ser dividido em municípios.
 21. DF possui competências legislativas reservadas a **estados e municípios**.
 22. Território pode ser dividido em municípios.
-23. Contas do Governo territorial → **Congresso Nacional**, com parecer prévio do **TCU**.
+23. Contas do Governo territorial → **Congresso Nacional**, com parecer prévio do <abbr title="Tribunal de Contas da União">TCU</abbr>.
 24. Território com mais de **100 mil habitantes** recebe estrutura específica do art. 33, § 3º.
 
 ---
