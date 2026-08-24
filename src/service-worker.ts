@@ -21,6 +21,11 @@ import {
 
 type WorkerScope = typeof globalThis & {
   __WB_MANIFEST: Array<{ revision: string | null; url: string } | string>;
+  registration: ServiceWorkerRegistration & {
+    backgroundFetch?: {
+      getActiveFetches(): Promise<Array<{ id: string }>>;
+    };
+  };
   clients: {
     matchAll(options: { type: 'window' }): Promise<ReadonlyArray<{ postMessage(message: unknown): void }>>;
   };
@@ -222,7 +227,7 @@ worker.addEventListener('backgroundfetchsuccess', (event) => {
 worker.addEventListener('activate', (event) => {
   const activateEvent = event as Event & { waitUntil(promise: Promise<unknown>): void };
   if (typeof activateEvent.waitUntil !== 'function') return;
-  activateEvent.waitUntil(reconcileOrphanedPackageJobs(self.registration).catch(() => undefined));
+  activateEvent.waitUntil(reconcileOrphanedPackageJobs(worker.registration).catch(() => undefined));
 });
 
 worker.addEventListener('backgroundfetchfail', (event) => {

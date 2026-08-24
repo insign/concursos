@@ -1231,7 +1231,7 @@ export async function deleteOfflineDatabase(): Promise<void> {
   if (databasePromise) {
     const database = await databasePromise;
     database.close();
-    databasePromise = undefined;
+    databasePromise = null;
   }
   await deleteDB(OFFLINE_DB_NAME);
 }
