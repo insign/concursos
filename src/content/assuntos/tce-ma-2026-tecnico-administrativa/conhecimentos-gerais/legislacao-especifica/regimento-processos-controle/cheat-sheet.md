@@ -1,4 +1,4 @@
-# Regimento Interno do TCE/MA: processos de controle externo
+# Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: processos de controle externo
 
 ## Corte
 
@@ -43,7 +43,7 @@
 
 **I-D-E**
 
-> **Instaurar = Autuar → Desenvolver = Instruir + MPC + Relator + Colegiados + recursos → Encerrar = trânsito em julgado e/ou arquivamento**
+> **Instaurar = Autuar → Desenvolver = Instruir + <abbr title="Ministério Público de Contas">MPC</abbr> + Relator + Colegiados + recursos → Encerrar = trânsito em julgado e/ou arquivamento**
 
 | Etapa | Núcleo |
 | --- | --- |

@@ -1,4 +1,4 @@
-# Regimento Interno do TCE/MA: sessões, distribuição e deliberação
+# Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: sessões, distribuição e deliberação
 
 ## Números que caem
 
@@ -24,7 +24,7 @@
 
 Última ordinária do Plenário: **segunda quarta-feira de dezembro**.
 
-## Quórum e MPC
+## Quórum e <abbr title="Ministério Público de Contas">MPC</abbr>
 
 - Plenário: 4, incluído o Presidente.
 - Sessão plenária exige representante do **MPC**.
@@ -97,4 +97,4 @@ Pauta **não** julga. Ata **não** é recurso.
 - Câmara empatou → Plenário.
 - MPC atua junto ao Tribunal; não é Plenário nem Câmara.
 - Pauta vem antes; ata registra; deliberação expressa resultado.
-- Sorteio eletrônico da TCE é regra vigente no corte do edital.
+- Sorteio eletrônico da <abbr title="tomada de contas especial">TCE</abbr> é regra vigente no corte do edital.

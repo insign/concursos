@@ -1,4 +1,4 @@
-# Regimento Interno do TCE/MA: denúncias, representações e consultas
+# Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: denúncias, representações e consultas
 
 ## Mapa de 20 segundos
 
@@ -32,20 +32,20 @@ Art. 43 da Lei nº 8.258/2005:
 - parlamentares, magistrados, servidores e autoridades em razão do cargo;
 - Tribunais de Contas e Câmaras Municipais;
 - equipes de inspeção/auditoria;
-- MPC e unidades técnicas do TCE/MA;
+- <abbr title="Ministério Público de Contas">MPC</abbr> e unidades técnicas do TCE/MA;
 - outros legitimados por lei específica.
 
 ## Fluxo da Resolução nº 437/2026
 
 ### Regra geral
 
-**Ouvidoria → triagem → SPE → seletividade → instrução/priorização**
+**Ouvidoria → triagem → <abbr title="Sistema de Processo Eletrônico">SPE</abbr> → seletividade → instrução/priorização**
 
 Triagem verifica:
 
 1. competência;
 2. clareza;
-3. nome + CPF/CNPJ;
+3. nome + <abbr title="Cadastro de Pessoas Físicas">CPF</abbr>/<abbr title="Cadastro Nacional da Pessoa Jurídica">CNPJ</abbr>;
 4. endereço residencial + e-mail;
 5. lastro probatório mínimo.
 
@@ -84,7 +84,7 @@ Seletividade **não é mérito** e **não aplica sanção**.
 
 Representações destes legitimados **não passam por triagem nem seletividade**:
 
-- MP Federal/Estadual;
+- <abbr title="Ministério Público">MP</abbr> Federal/Estadual;
 - controle interno;
 - parlamentares, magistrados, servidores e demais autoridades em razão do cargo;
 - Tribunais de Contas e Câmaras Municipais;
@@ -111,11 +111,11 @@ Representações destes legitimados **não passam por triagem nem seletividade**
 Legitimados centrais:
 
 - Governador;
-- Presidentes da Assembleia e TJ;
+- Presidentes da Assembleia e <abbr title="Tribunal de Justiça">TJ</abbr>;
 - Prefeito;
 - Presidente de Câmara;
-- PGJ;
-- PGE;
+- <abbr title="Procurador-Geral de Justiça">PGJ</abbr>;
+- <abbr title="Procurador-Geral do Estado">PGE</abbr>;
 - presidente de comissão parlamentar;
 - Secretários de Estado/equivalentes.
 
