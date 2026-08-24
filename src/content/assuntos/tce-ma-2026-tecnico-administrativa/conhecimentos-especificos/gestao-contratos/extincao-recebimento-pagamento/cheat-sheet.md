@@ -4,7 +4,7 @@
 
 - **Regra de prova:** legislação vigente em **6/7/2026**, data de publicação do edital.
 - Datas posteriores de consulta de fontes não alteram o corte jurídico da prova.
-- Rotinas de pagamento da IN SEGES/ME nº 77/2022 são disciplina **federal** e não se tornam automaticamente prazo ou procedimento do TCE-MA.
+- Rotinas de pagamento da <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Gestão do Ministério da Economia">SEGES/ME</abbr> nº 77/2022 são disciplina **federal** e não se tornam automaticamente prazo ou procedimento do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## Extinção: ideias centrais
 
@@ -145,4 +145,4 @@ Hipóteses exclusivas:
 ## Regra de competência
 
 - Lei nº 14.133/2021: regime geral nacional.
-- Rotinas TCU, AGU e MGI: referência federal, não aplicação automática ao TCE-MA.
+- Rotinas <abbr title="Tribunal de Contas da União">TCU</abbr>, <abbr title="Advocacia-Geral da União">AGU</abbr> e <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr>: referência federal, não aplicação automática ao TCE-MA.

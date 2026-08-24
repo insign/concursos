@@ -4,7 +4,7 @@
 
 - **Regra de prova:** legislação vigente em **6/7/2026**, data do edital.
 - **Pós-edital:** Lei nº 15.471/2026 alterou o art. 75, XVI, em 21/7/2026; não substituir a redação-base do corte.
-- Orientação federal não se aplica automaticamente ao TCE-MA.
+- Orientação federal não se aplica automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## Mapa do recorte
 
@@ -41,7 +41,7 @@
 - Sigilo: somente se imprescindível à segurança da sociedade e do Estado.
 - Forma eletrônica: admitida conforme regulamento.
 - Direito real sobre imóvel: escritura pública + divulgação.
-- Antes de formar ou prorrogar: regularidade fiscal, Ceis, Cnep e certidões de inidoneidade, impedimento e débitos trabalhistas.
+- Antes de formar ou prorrogar: regularidade fiscal, <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">Ceis</abbr>, <abbr title="Cadastro Nacional de Empresas Punidas">Cnep</abbr> e certidões de inidoneidade, impedimento e débitos trabalhistas.
 
 ## Cláusulas necessárias — matriz de memória
 
@@ -70,10 +70,10 @@
 
 - Projeto, serviço técnico, software e documentação: cessão patrimonial à Administração.
 - Obra tecnológica imaterial: inclui dados e elementos da tecnologia.
-- P&D científico, tecnológico ou inovação: cessão pode ser dispensada.
+- <abbr title="Pesquisa e Desenvolvimento">P&D</abbr> científico, tecnológico ou inovação: cessão pode ser dispensada.
 - Alteração posterior pela Administração: comunicar autor e registrar.
 
-## PNCP e eficácia
+## <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> e eficácia
 
 | Origem | Prazo após assinatura |
 |---|---:|
@@ -104,7 +104,7 @@
 - Modalidades:
   - caução em dinheiro ou títulos escriturais;
   - seguro-garantia;
-  - fiança de instituição autorizada pelo Bacen;
+  - fiança de instituição autorizada pelo <abbr title="Banco Central do Brasil">Bacen</abbr>;
   - título de capitalização de pagamento único e resgate total.
 - Seguro escolhido: mínimo de um mês entre homologação e assinatura para prestar garantia.
 - Suspensão por ordem/inadimplemento administrativo: sem renovar ou endossar até reinício/adimplemento.
@@ -167,7 +167,7 @@
 
 - Prazo vem do edital.
 - Créditos: na contratação e em cada exercício.
-- PPA: quando ultrapassar um exercício.
+- <abbr title="Plano Plurianual">PPA</abbr>: quando ultrapassar um exercício.
 - Restos a pagar de plurianual: sem cancelamento automático antes do fim.
 
 | Hipótese | Limite |
@@ -178,7 +178,7 @@
 | serviço público monopolizado | indeterminado + crédito anual |
 | receita/eficiência sem investimento | 10 anos |
 | receita/eficiência com investimento reversível | 35 anos |
-| sistema estruturante de TI | 15 anos |
+| sistema estruturante de <abbr title="Tecnologia da Informação">TI</abbr> | 15 anos |
 
 ## Contínuo x escopo
 
@@ -186,7 +186,7 @@
 - Até cinco anos iniciais: demonstrar vantagem plurianual.
 - Início e cada exercício: crédito + vantagem.
 - **Lei, art. 106:** falta de crédito/desvantagem permite optar pela extinção; sem ônus, aplica-se a próxima data de aniversário e a regra temporal de dois meses do § 1º.
-- **ON AGU nº 98/2025 — esfera federal:** interpreta os dois meses como prazo mínimo para ciência; antes do aniversário admite extinção com ônus.
+- **<abbr title="Orientação Normativa da Advocacia-Geral da União">ON AGU</abbr> nº 98/2025 — esfera federal:** interpreta os dois meses como prazo mínimo para ciência; antes do aniversário admite extinção com ônus.
 - Prorrogação até dez anos: previsão + vantagem + termo antes do fim.
 - Prorrogação de contínuo não é automática nem direito do contratado.
 - Escopo: entrega específica; objeto incompleto prorroga vigência automaticamente.
