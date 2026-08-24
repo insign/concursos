@@ -4,10 +4,10 @@
 
 | Fonte | Ponto-chave |
 | --- | --- |
-| Lei nº 9.936/2013 | estrutura legal do TCE/MA |
-| Lei nº 11.170/2019 | quatro secretarias; 3 NUFIS e 12 Líderes na lei |
+| Lei nº 9.936/2013 | estrutura legal do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> |
+| Lei nº 11.170/2019 | quatro secretarias; 3 <abbr title="Núcleos de Fiscalização">NUFIS</abbr> e 12 Líderes na lei |
 | Resolução nº 408/2024 | estrutura administrativa geral |
-| Resolução nº 417/2025, republicada em 8/4/2025 | organização específica da SEFIS; **3 Gerentes** |
+| Resolução nº 417/2025, republicada em 8/4/2025 | organização específica da <abbr title="Secretaria de Fiscalização">SEFIS</abbr>; **3 Gerentes** |
 | Lei nº 12.822/2026, republicada em 9/4/2026 | Gabinete do Procurador-Geral de Contas no art. 3º |
 
 **Art. 7º da Resolução nº 417:** prevalece sobre as atribuições dos arts. 63 a 72 da Resolução nº 408.
@@ -36,7 +36,7 @@
 8. Corregedoria.
 9. Ouvidoria.
 10. Secretaria do Tribunal.
-11. ESCEX.
+11. <abbr title="Escola Superior de Controle Externo">ESCEX</abbr>.
 12. **Gabinete do Procurador-Geral de Contas** — incluído em 2026 antes do edital.
 
 ## Secretaria Do Tribunal
@@ -45,22 +45,22 @@
 
 | Secretaria | Direção essencial |
 | --- | --- |
-| SEGER | apoio técnico e serviços administrativos em geral |
-| SEGES | finanças, patrimônio e pessoas |
-| SETIN | tecnologia e inovação |
+| <abbr title="Secretaria Geral">SEGER</abbr> | apoio técnico e serviços administrativos em geral |
+| <abbr title="Secretaria de Gestão">SEGES</abbr> | finanças, patrimônio e pessoas |
+| <abbr title="Secretaria de Tecnologia e Inovação">SETIN</abbr> | tecnologia e inovação |
 | SEFIS | controle externo |
 
 **Vínculo:** SEGES + SETIN + SEFIS → SEGER.
 
 - Art. 10: finalidade e atribuições da ESCEX vêm da Lei Orgânica.
-- Art. 11: ato do TCE regulamenta Presidência, Vice, Corregedoria, Ouvidoria, unidades da Secretaria, ESCEX e COFIP.
+- Art. 11: ato do TCE regulamenta Presidência, Vice, Corregedoria, Ouvidoria, unidades da Secretaria, ESCEX e <abbr title="Comitê de Gestão Orçamentária, Financeira e de Política Salarial">COFIP</abbr>.
 
 ## Lei × Regulamento
 
 | Fonte | Estrutura finalística da SEFIS |
 | --- | --- |
 | Lei nº 9.936/2013 | Gabinete + **3 NUFIS** + **12 Líderes** |
-| Resolução nº 417/2025 | GAFIS + **3 GEFIS** + Líderes; NIE e segmentos temáticos no art. 4º |
+| Resolução nº 417/2025 | <abbr title="Gabinete do Secretário de Fiscalização">GAFIS</abbr> + **3 <abbr title="Gerentes de Fiscalização">GEFIS</abbr>** + Líderes; <abbr title="Núcleo de Informações Estratégicas">NIE</abbr> e segmentos temáticos no art. 4º |
 
 **Regra de prova:** identifique a fonte. Não misture os dois retratos e não diga que resolução revogou a lei.
 
@@ -93,7 +93,7 @@ A republicação de **8/4/2025** corrigiu o inciso II do primeiro art. 3º:
 | NIE | informações estratégicas; vínculo direto ao GAFIS | 1 |
 | Gerência I | ações de fiscalização | 4 |
 | Gerência II | atos normativos, consultas e atos de pessoal | 3 |
-| Gerência III | contas, TCE, denúncias e representações | 4 |
+| Gerência III | contas, <abbr title="Tomada de contas especial">TCE</abbr>, denúncias e representações | 4 |
 | **Total** |  | **12** |
 
 **Soma:** 1 + 4 + 3 + 4 = 12.

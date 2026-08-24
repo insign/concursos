@@ -38,18 +38,18 @@
 8. Corregedoria.
 9. Ouvidoria.
 10. Secretaria do Tribunal.
-11. ESCEX.
+11. <abbr title="Escola Superior de Controle Externo">ESCEX</abbr>.
 12. Gabinete do Procurador-Geral de Contas.
 
-- O inciso XII criou o gabinete da chefia do MPC; não criou um quinto Procurador.
+- O inciso XII criou o gabinete da chefia do <abbr title="Ministério Público de Contas">MPC</abbr>; não criou um quinto Procurador.
 - A Resolução nº 408/2024 ainda não o enumera porque é anterior.
 
 ## Classificação da Resolução nº 408
 
 | Classe | Unidades |
 |---|---|
-| apoio às autoridades | GAPRE, GVICE, GCORE, GOUVI, GCONS, GCSUB, GPROC |
-| básicas | SEGER, SEGES, SETIN, SEFIS |
+| apoio às autoridades | <abbr title="Gabinete da Presidência">GAPRE</abbr>, <abbr title="Gabinete da Vice-Presidência">GVICE</abbr>, <abbr title="Gabinete da Corregedoria">GCORE</abbr>, <abbr title="Gabinete da Ouvidoria">GOUVI</abbr>, <abbr title="Gabinetes de Conselheiros">GCONS</abbr>, <abbr title="Gabinetes de Conselheiros-Substitutos">GCSUB</abbr>, <abbr title="Gabinetes de Procuradores de Contas">GPROC</abbr> |
+| básicas | <abbr title="Secretaria Geral">SEGER</abbr>, <abbr title="Secretaria de Gestão">SEGES</abbr>, <abbr title="Secretaria de Tecnologia e Inovação">SETIN</abbr>, <abbr title="Secretaria de Fiscalização">SEFIS</abbr> |
 | apoio estratégico | ESCEX |
 
 - SEGES, SETIN e SEFIS vinculam-se à SEGER.
@@ -59,14 +59,14 @@
 
 | Unidade | Função |
 |---|---|
-| ASESP | apoio jurídico-administrativo |
-| ASRIP | articulação e relações institucionais |
-| ASCER | cerimonial e protocolo |
-| ASCOM | comunicação e marketing |
-| GASIP | segurança institucional |
+| <abbr title="Assessoria Especial da Presidência">ASESP</abbr> | apoio jurídico-administrativo |
+| <abbr title="Assessoria de Articulação e Relacionamento Institucional">ASRIP</abbr> | articulação e relações institucionais |
+| <abbr title="Assessoria de Cerimonial">ASCER</abbr> | cerimonial e protocolo |
+| <abbr title="Assessoria de Comunicação e Marketing">ASCOM</abbr> | comunicação e marketing |
+| <abbr title="Gabinete de Segurança Institucional">GASIP</abbr> | segurança institucional |
 
-- COFIP funciona junto ao GAPRE como órgão consultivo.
-- GASIP: PM/BM requisitados.
+- <abbr title="Comitê de Gestão Orçamentária, Financeira e de Política Salarial">COFIP</abbr> funciona junto ao GAPRE como órgão consultivo.
+- GASIP: <abbr title="Polícia Militar / Bombeiros Militares">PM/BM</abbr> requisitados.
 - Chefia do GASIP: Coronel QOPM; na ausência, Oficial inferior, respeitada a precedência.
 
 ## Outros gabinetes
@@ -97,21 +97,21 @@
 
 | Sigla | Campo |
 |---|---|
-| GAGES | apoio ao Secretário |
-| UNGEP | pessoas, folha, desempenho, saúde e estágio |
-| UNFIN | orçamento, finanças, contabilidade e FUMTEC |
-| UNINF | engenharia, manutenção, espaços e transporte |
-| COLIC | licitações, contratações e contratos |
-| COPAT | bens, materiais, inventário e desfazimento |
+| <abbr title="Gabinete do Secretário de Gestão">GAGES</abbr> | apoio ao Secretário |
+| <abbr title="Unidade de Gestão de Pessoas">UNGEP</abbr> | pessoas, folha, desempenho, saúde e estágio |
+| <abbr title="Unidade de Finanças">UNFIN</abbr> | orçamento, finanças, contabilidade e <abbr title="Fundo de Modernização do TCE/MA">FUMTEC</abbr> |
+| <abbr title="Unidade de Infraestrutura">UNINF</abbr> | engenharia, manutenção, espaços e transporte |
+| <abbr title="Coordenadoria de Licitações e Contratos">COLIC</abbr> | licitações, contratações e contratos |
+| <abbr title="Coordenadoria de Gestão Patrimonial">COPAT</abbr> | bens, materiais, inventário e desfazimento |
 
 ## SETIN
 
 | Sigla | Campo |
 |---|---|
-| GATEC | apoio ao Secretário |
-| TECNO | política e estratégia de TI |
-| INOVA | inovação e melhoria |
-| GETEC | soluções, infraestrutura, serviços e acessos |
+| <abbr title="Gabinete do Secretário de Tecnologia e Inovação">GATEC</abbr> | apoio ao Secretário |
+| <abbr title="Comitê de Tecnologia">TECNO</abbr> | política e estratégia de <abbr title="Tecnologia da Informação">TI</abbr> |
+| <abbr title="Comitê de Inovação">INOVA</abbr> | inovação e melhoria |
+| <abbr title="Gerência de Tecnologia da Informação">GETEC</abbr> | soluções, infraestrutura, serviços e acessos |
 
 Exigência de formação para Gerente de Projetos de TI e Supervisores de Desenvolvimento, Redes e Segurança, Sistemas e Suporte:
 
@@ -125,7 +125,7 @@ Exigência de formação para Gerente de Projetos de TI e Supervisores de Desenv
 - direção administrativa: Conselheiro-Substituto Diretor-Geral.
 - gestão operacional/pedagógica: Gestor da ESCEX.
 - ações educacionais: Líderes de Ação Educacional e Secretaria.
-- públicos: TCE/MA, fiscalizados e sociedade.
+- públicos: <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, fiscalizados e sociedade.
 - Assistentes da ESCEX após 2026: **3**.
 
 ## Reservas dos cargos
@@ -135,7 +135,7 @@ Exigência de formação para Gerente de Projetos de TI e Supervisores de Desenv
 - Secretário de Fiscalização.
 - Gerente de Tecnologia da Informação.
 - Chefe da UCINT.
-- Gerente de NUFIS.
+- Gerente de <abbr title="Núcleos de Fiscalização">NUFIS</abbr>.
 - Líder de Fiscalização.
 
 ### Preferenciais
@@ -146,7 +146,7 @@ Exigência de formação para Gerente de Projetos de TI e Supervisores de Desenv
 
 ### Formação específica
 
-- Jurídicos: graduação em Direito/Ciências Jurídicas + OAB.
+- Jurídicos: graduação em Direito/Ciências Jurídicas + <abbr title="Ordem dos Advogados do Brasil">OAB</abbr>.
 - Tecnologia: graduação em TI ou graduação + pós em TI.
 
 ## Vedações
@@ -175,9 +175,9 @@ $$
 
 - Exceção do art. 20: comitê ou grupo especial, a critério do Presidente.
 - Até 40 horas/mês além da jornada.
-- Hora: vencimento + ATS, com acréscimo de 50%.
+- Hora: vencimento + <abbr title="Adicional por tempo de serviço">ATS</abbr>, com acréscimo de 50%.
 
-## GACE vigente
+## <abbr title="Gratificação de Apoio ao Controle Externo">GACE</abbr> vigente
 
 | Hipótese do caput | Valor | Quantidade |
 |---|---:|---:|
@@ -201,7 +201,7 @@ $$
 
 - Encargo de curso/concurso: participação eventual; não incorpora; até 20% do padrão legal por evento.
 - Art. 22-A: comissionado sem vínculo participa integralmente do programa de produtividade; conversão de folgas até 1,5 vez o cargo.
-- FGE militar: Anexo III; não acumula com retribuição da Lei nº 8.591/2007 nem vantagem de cargo em comissão.
+- <abbr title="Função Gratificada Especial">FGE</abbr> militar: Anexo III; não acumula com retribuição da Lei nº 8.591/2007 nem vantagem de cargo em comissão.
 
 ## Anexo II-A: cargos em comissão
 
@@ -278,7 +278,7 @@ $$
 - Assistentes ESCEX: 3.
 - Novo Gabinete do Procurador-Geral de Contas.
 - Anexos II e III integralmente substituídos.
-- Implementação sujeita ao art. 169 da CF e à LRF.
+- Implementação sujeita ao art. 169 da <abbr title="Constituição Federal">CF</abbr> e à <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>.
 
 ## Quadro efetivo
 

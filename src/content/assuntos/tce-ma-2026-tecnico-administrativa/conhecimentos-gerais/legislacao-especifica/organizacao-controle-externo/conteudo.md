@@ -8,7 +8,7 @@ storageId: tec-organizacao-controle
 
 ## 1. Recorte do assunto e corte temporal
 
-O edital cobra a **Lei Estadual nº 9.936/2013 (Organização Administrativa do TCE/MA)**. Neste assunto, o núcleo é a estrutura institucional e finalística: composição do Tribunal, órgãos e unidades, Secretaria do Tribunal, direção das secretarias e organização técnica da Secretaria de Fiscalização (SEFIS).
+O edital cobra a **Lei Estadual nº 9.936/2013 (Organização Administrativa do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>)**. Neste assunto, o núcleo é a estrutura institucional e finalística: composição do Tribunal, órgãos e unidades, Secretaria do Tribunal, direção das secretarias e organização técnica da Secretaria de Fiscalização (SEFIS).
 
 O corte é o da publicação do edital, em **6 de julho de 2026**. Por isso, integram a leitura:
 
@@ -33,8 +33,8 @@ Isso produz duas camadas que não devem ser fundidas:
 
 A consequência mais importante para prova é esta:
 
-- a **lei** ainda usa a nomenclatura **NUFIS** para a estrutura finalística da SEFIS; e
-- a **Resolução nº 417/2025**, específica e posterior, organiza o funcionamento da SEFIS com **GAFIS, GEFIS e Líderes de Fiscalização**, além do NIE e dos segmentos temáticos.
+- a **lei** ainda usa a nomenclatura **<abbr title="Núcleos de Fiscalização">NUFIS</abbr>** para a estrutura finalística da SEFIS; e
+- a **Resolução nº 417/2025**, específica e posterior, organiza o funcionamento da SEFIS com **<abbr title="Gabinete do Secretário de Fiscalização">GAFIS</abbr>, <abbr title="Gerentes de Fiscalização">GEFIS</abbr> e Líderes de Fiscalização**, além do <abbr title="Núcleo de Informações Estratégicas">NIE</abbr> e dos segmentos temáticos.
 
 Uma resolução não revoga a lei. Em questão literal, identifique a fonte indicada no enunciado.
 
@@ -259,7 +259,7 @@ A soma regulamentar coincide com o quantitativo de 12 Líderes previsto na lei.
 | Gerente × Líder | Gerente coordena segmento temático; Líder chefia e supervisiona equipe |
 | GAFIS × NIE | NIE é núcleo especializado diretamente vinculado ao GAFIS |
 | Gerência I × II | fiscalização × normas, consultas e atos de pessoal |
-| Gerência II × III | normas/consultas/pessoal × contas, TCE, denúncias e representações |
+| Gerência II × III | normas/consultas/pessoal × contas, <abbr title="Tomada de contas especial">TCE</abbr>, denúncias e representações |
 | Resolução nº 408 × nº 417 | moldura geral × disciplina específica da SEFIS |
 | instrução × julgamento | relatório e instrução subsidiam a decisão; não a substituem |
 

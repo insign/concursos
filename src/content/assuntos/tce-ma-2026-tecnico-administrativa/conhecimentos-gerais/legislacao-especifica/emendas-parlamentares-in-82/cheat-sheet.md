@@ -1,4 +1,4 @@
-# IN TCE/MA nº 82/2025
+# <abbr title="Instrução Normativa">IN</abbr> <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 82/2025
 
 ## Recorte
 
@@ -27,10 +27,10 @@ $$
 | 3º | plano de ação |
 | 4º | divulgação prévia |
 | 5º | sistemas + dados abertos |
-| 6º | fiscalização + possível TCE |
-| 7º | TCU × TCE/MA |
+| 6º | fiscalização + possível <abbr title="Tomada de contas especial">TCE</abbr> |
+| 7º | <abbr title="Tribunal de Contas da União">TCU</abbr> × TCE/MA |
 | 8º | implementação até 1º jan. 2026 |
-| 9º | Sefis: 30 dias |
+| 9º | <abbr title="Secretaria de Fiscalização">Sefis</abbr>: 30 dias |
 | 10 | vigência na publicação |
 
 ## Art. 1º — alcance
@@ -55,7 +55,7 @@ Princípios expressos:
 2. Fiscalizar **entidades privadas sem fins lucrativos** beneficiárias.
 3. Acompanhar transparência, inclusive eventual integração de sistemas.
 4. Verificar **contas intermediárias, contas de passagem e saques em espécie**.
-5. Verificar receitas/despesas conforme normas nacionais e **PCASP**, com fontes, classificações e códigos.
+5. Verificar receitas/despesas conforme normas nacionais e **<abbr title="Plano de Contas Aplicado ao Setor Público">PCASP</abbr>**, com fontes, classificações e códigos.
 6. Expedir atos complementares de padronização.
 
 **Prática de risco ≠ ilícito automaticamente comprovado.**
@@ -107,7 +107,7 @@ Destinatários: **Executivo Estadual + Executivos Municipais**.
 Devem:
 
 - adaptar sistemas;
-- integrar bases, inclusive **Transferegov**;
+- integrar bases, inclusive **<abbr title="Plataforma de transferências e parcerias da União">Transferegov</abbr>**;
 - garantir transparência **completa + gratuita + tempestiva + aberta**;
 - manter plataforma de dados abertos;
 - designar unidade de governança.
@@ -155,7 +155,7 @@ Após conversão:
 |---|---|
 | julga prestação de contas de **emenda federal individual** | fiscaliza e analisa **execução local** pelos jurisdicionados |
 
-Destaque: **Rede Integrar**.
+Destaque: **<abbr title="Rede Integrar de Políticas Públicas Descentralizadas">Rede Integrar</abbr>**.
 
 Origem federal não cria zona sem fiscalização estadual.
 
@@ -182,7 +182,7 @@ Para quê? Propor edição/alteração de INs complementares sobre:
 
 ## Pegadinhas finais
 
-- IN nº 82 ≠ apenas emendas PIX.
+- IN nº 82 ≠ apenas <abbr title="transferências especiais">emendas PIX</abbr>.
 - Transferência voluntária só entra quando decorrer da emenda abrangida.
 - Entidade privada sem fins lucrativos também é fiscalizada.
 - Plano de ação ≠ plano de trabalho.
@@ -190,7 +190,7 @@ Para quê? Propor edição/alteração de INs complementares sobre:
 - Transparência prévia ≠ esperar o encerramento da despesa.
 - Conta de passagem ≠ prova automática de crime.
 - Cooperação técnica facultativa ≠ obrigações tecnológicas facultativas.
-- PDF apenas visível ≠ necessariamente dado aberto reutilizável.
+- <abbr title="Portable Document Format">PDF</abbr> apenas visível ≠ necessariamente dado aberto reutilizável.
 - Conversão em TCE ≠ automática.
 - TCU julga a conta federal individual; TCE/MA fiscaliza a execução local.
 - 10 dez. 2025 = data da IN; **15 dez. 2025 = vigência**.
