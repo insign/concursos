@@ -60,7 +60,7 @@ PLEBISCITO → populações envolvidas
 LEI ESTADUAL → ato final
 ```
 
-### LC 230/2026
+### <abbr title="Lei Complementar">LC</abbr> 230/2026
 
 `PARTE DE MUNICÍPIO → MUNICÍPIO LIMÍTROFE`
 
@@ -292,7 +292,7 @@ CONTAS MUNICIPAIS
 → 60 dias/ano à disposição de qualquer contribuinte
 ```
 
-### EC 139/2026
+### <abbr title="Emenda Constitucional">EC</abbr> 139/2026
 
 `órgãos do §1º → vedada extinção, criação ou instalação`
 

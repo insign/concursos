@@ -1,4 +1,4 @@
-# CF/1988 — conceito, classificações, princípios e emendas
+# <abbr title="Constituição Federal de 1988">CF/1988</abbr> — conceito, classificações, princípios e emendas
 
 ## 1. Mapa do assunto
 
@@ -156,7 +156,7 @@ AMÉRICA LATINA
 
 # Art. 60 — emendas constitucionais
 
-## 10. Quem pode propor PEC?
+## 10. Quem pode propor <abbr title="Proposta de Emenda à Constituição">PEC</abbr>?
 
 ```text
 1/3 Câmara
@@ -233,7 +233,7 @@ Sessão legislativa ≠ legislatura.
 
 ## 16. Reforma × revisão
 
-| Emenda — art. 60 | Revisão — art. 3º ADCT |
+| Emenda — art. 60 | Revisão — art. 3º do <abbr title="Ato das Disposições Constitucionais Transitórias">ADCT</abbr> |
 |---|---|
 | permanente | transitória/exaurida |
 | Casas separadas | sessão unicameral |
@@ -250,7 +250,7 @@ EC 139 → 05/05/2026
 PUBLICAÇÃO → 06/05/2026
 ```
 
-Logo: **EC 139/2026 já integra o corte**.
+Logo: **<abbr title="Emenda Constitucional">EC</abbr> 139/2026 já integra o corte**.
 
 ---
 
