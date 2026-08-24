@@ -23,7 +23,7 @@ O edital do Cargo 16 cobra, em **Direito Administrativo**, um recorte completo, 
 
 O núcleo é compreender **quando e como o Estado retira compulsoriamente um bem do patrimônio particular por finalidade pública ou social**, quais garantias protegem o expropriado e quais regimes constitucionais excepcionam a regra geral de indenização em dinheiro.
 
-> **Corte jurídico:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do TCE/MA. Não se devem transportar automaticamente alterações posteriores ao corte.
+> **Corte jurídico:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Não se devem transportar automaticamente alterações posteriores ao corte.
 
 As fontes centrais deste assunto são:
 
@@ -32,7 +32,7 @@ As fontes centrais deste assunto são:
 - Lei nº 4.132/1962, sobre desapropriação por interesse social;
 - Lei Complementar nº 76/1993, quanto ao rito da desapropriação para reforma agrária;
 - Lei nº 10.257/2001 (Estatuto da Cidade), apenas no ponto necessário à desapropriação urbanística sancionatória;
-- jurisprudência indispensável à desapropriação indireta, em especial o Tema 1019 do STJ.
+- jurisprudência indispensável à desapropriação indireta, em especial o Tema 1019 do <abbr title="Superior Tribunal de Justiça">STJ</abbr>.
 
 ---
 
@@ -382,7 +382,7 @@ desde que a área esteja incluída no plano diretor e haja lei específica.
 As medidas são **sucessivas**:
 
 1. parcelamento ou edificação compulsórios;
-2. IPTU progressivo no tempo;
+2. <abbr title="Imposto sobre a Propriedade Predial e Territorial Urbana">IPTU</abbr> progressivo no tempo;
 3. desapropriação com pagamento em títulos da dívida pública.
 
 Os títulos:
