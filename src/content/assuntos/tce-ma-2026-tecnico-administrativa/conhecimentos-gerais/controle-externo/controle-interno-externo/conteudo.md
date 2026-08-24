@@ -139,7 +139,7 @@ O art. 74 estabelece que o sistema de controle interno deve:
 
 ### 6.2. Ciência de irregularidade ou ilegalidade
 
-O art. 74, § 1º, determina que os responsáveis pelo controle interno, ao tomarem conhecimento de irregularidade ou ilegalidade, deem ciência ao TCU, sob pena de responsabilidade solidária.
+O art. 74, § 1º, determina que os responsáveis pelo controle interno, ao tomarem conhecimento de irregularidade ou ilegalidade, deem ciência ao <abbr title="Tribunal de Contas da União">TCU</abbr>, sob pena de responsabilidade solidária.
 
 A regra não torna toda falha automaticamente solidária. A consequência constitucional está ligada à omissão de quem, na posição de responsável pelo controle interno, conhece irregularidade ou ilegalidade e deixa de dar a ciência exigida.
 
@@ -170,7 +170,7 @@ A provocação não transfere ao interessado a competência para instruir, decid
 
 Participação de cidadãos e organizações, pedidos de informação, denúncias e acompanhamento da atuação pública costumam ser agrupados sob a expressão **controle social**.
 
-Esse controle pode provocar instituições estatais e ampliar accountability, mas não transforma o cidadão em órgão de controle interno ou externo nem produz automaticamente invalidação ou sanção.
+Esse controle pode provocar instituições estatais e ampliar <abbr title="prestação de contas e responsabilização">accountability</abbr>, mas não transforma o cidadão em órgão de controle interno ou externo nem produz automaticamente invalidação ou sanção.
 
 ## 10. Limites da atividade de controle
 
