@@ -39,7 +39,7 @@ Lei nº 8.429/1992, art. 2º: conceito amplo **para os efeitos da própria lei**
 | militar | regime constitucional próprio | militar estadual/federal |
 | particular em colaboração | função pública sem quadro permanente | jurado, mesário, delegatário |
 
-**Magistrados e MP:** enquadramento como agentes políticos varia conforme a corrente doutrinária.
+**Magistrados e <abbr title="Ministério Público">MP</abbr>:** enquadramento como agentes políticos varia conforme a corrente doutrinária.
 
 ## Cargo × emprego × função
 
@@ -48,7 +48,7 @@ Lei nº 8.429/1992, art. 2º: conceito amplo **para os efeitos da própria lei**
 | posição estatutária | posição trabalhista | atribuições públicas |
 | servidor | empregado | qualquer agente apto à hipótese |
 | concurso em regra | concurso em regra | depende da hipótese |
-| efetivo ou comissão | vínculo predominantemente CLT | pode existir sem cargo/emprego |
+| efetivo ou comissão | vínculo predominantemente <abbr title="Consolidação das Leis do Trabalho">CLT</abbr> | pode existir sem cargo/emprego |
 
 ### Fórmula
 
@@ -89,7 +89,7 @@ por igual período
 | direção, chefia, assessoramento | direção, chefia, assessoramento |
 | não é novo cargo efetivo | é cargo público |
 
-### Tema 1.010/STF
+### Tema 1.010/<abbr title="Supremo Tribunal Federal">STF</abbr>
 
 Cargo em comissão:
 
@@ -141,7 +141,7 @@ No corte de 6/7/2026:
 2. **1 cargo de professor + outro de qualquer natureza**;
 3. **2 cargos/empregos privativos de profissionais de saúde**, profissões regulamentadas.
 
-### EC nº 138/2025 — pegadinha quente
+### <abbr title="Emenda Constitucional">EC</abbr> nº 138/2025 — pegadinha quente
 
 ```text
 ANTIGO: professor + técnico/científico
@@ -167,7 +167,7 @@ Lei nº 8.112/1990:
 - art. 2º: servidor = pessoa legalmente investida em cargo público;
 - art. 3º: cargo = conjunto de atribuições e responsabilidades.
 
-**Não aplicar automaticamente ao TCE/MA.**
+**Não aplicar automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.**
 
 ## Agente político
 

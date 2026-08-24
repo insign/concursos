@@ -24,7 +24,7 @@ O edital cobra **princípios, contratação direta, modalidades, tipos, procedim
 
 > **Pegadinha central:** modalidade, critério de julgamento, modo de disputa e procedimento auxiliar são categorias distintas. O **sistema de registro de preços (SRP)** é procedimento auxiliar; não é modalidade de licitação.
 
-O corte normativo deste material é **6 de julho de 2026**, data do Edital nº 1 do TCE/MA. Os valores de dispensa indicados adiante são os vigentes desde **1º de janeiro de 2026**, conforme o Decreto nº 12.807/2025. A Lei nº 15.471, de 20 de julho de 2026, alterou posteriormente o art. 75, XVI, da Lei nº 14.133/2021; essa alteração é **pós-edital** e não substitui silenciosamente a redação aplicável no corte.
+O corte normativo deste material é **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Os valores de dispensa indicados adiante são os vigentes desde **1º de janeiro de 2026**, conforme o Decreto nº 12.807/2025. A Lei nº 15.471, de 20 de julho de 2026, alterou posteriormente o art. 75, XVI, da Lei nº 14.133/2021; essa alteração é **pós-edital** e não substitui silenciosamente a redação aplicável no corte.
 
 O Decreto nº 11.462/2023 é objeto expresso do edital. Ele regulamenta os arts. 82 a 86 da Lei nº 14.133/2021 para o SRP no âmbito da **Administração Pública federal direta, autárquica e fundacional**. Portanto, deve ser estudado porque o edital o exige, sem afirmar que o decreto federal se aplica automaticamente ao TCE/MA.
 
@@ -54,7 +54,7 @@ O art. 5º reúne um rol amplo. Na aplicação da Lei, observam-se:
 - celeridade;
 - economicidade;
 - desenvolvimento nacional sustentável;
-- e as disposições da LINDB.
+- e as disposições da <abbr title="Lei de Introdução às Normas do Direito Brasileiro">LINDB</abbr>.
 
 Não basta memorizar a lista. A banca costuma cobrar **consequências práticas**.
 
@@ -290,7 +290,7 @@ Contratação direta não significa contratação sem processo. A Lei exige inst
 
 O processo de contratação direta deve conter:
 
-1. documento de formalização de demanda e, se for o caso, ETP, análise de riscos, termo de referência, projeto básico ou executivo;
+1. documento de formalização de demanda e, se for o caso, <abbr title="Estudo Técnico Preliminar">ETP</abbr>, análise de riscos, termo de referência, projeto básico ou executivo;
 2. estimativa de despesa;
 3. parecer jurídico e pareceres técnicos, se cabíveis;
 4. demonstração da compatibilidade orçamentária;
@@ -414,7 +414,7 @@ Para obras e serviços de engenharia, o decreto exige simultaneamente:
 
 Na fase preparatória, o gerenciador realiza procedimento público de **IRP** para permitir a participação de outros órgãos ou entidades e determinar a estimativa total de quantidades.
 
-Prazo mínimo: **oito dias úteis**, contado do primeiro dia útil subsequente à divulgação no SRP digital e no PNCP.
+Prazo mínimo: **oito dias úteis**, contado do primeiro dia útil subsequente à divulgação no SRP digital e no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>.
 
 A IRP pode ser dispensada quando o gerenciador for o **único contratante**.
 

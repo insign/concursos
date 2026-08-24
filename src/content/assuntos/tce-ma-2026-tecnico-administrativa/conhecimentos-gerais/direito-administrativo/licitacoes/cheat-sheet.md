@@ -10,7 +10,7 @@
 | Como ofertar? | modo de disputa |
 | Em que ordem o processo avança? | procedimento |
 | Pode contratar sem disputa? | dispensa / inexigibilidade |
-| Como registrar preço para futuro uso? | SRP |
+| Como registrar preço para futuro uso? | <abbr title="Sistema de Registro de Preços">SRP</abbr> |
 
 **Não misture:** modalidade ≠ critério ≠ modo de disputa ≠ procedimento auxiliar.
 
@@ -47,7 +47,7 @@ Corte normativo: **6 jul. 2026**.
 - celeridade
 - economicidade
 - desenvolvimento nacional sustentável
-- LINDB
+- <abbr title="Lei de Introdução às Normas do Direito Brasileiro">LINDB</abbr>
 
 ### Contrastes
 
@@ -187,7 +187,7 @@ Preço registrado **não obriga** a Administração a contratar.
 
 Administração Pública **federal direta, autárquica e fundacional**.
 
-Estudar porque o edital exige; não presumir aplicação automática ao TCE/MA.
+Estudar porque o edital exige; não presumir aplicação automática ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
 ### Quando usar SRP
 
@@ -199,7 +199,7 @@ Estudar porque o edital exige; não presumir aplicação automática ao TCE/MA.
 
 Engenharia: padronização sem complexidade + necessidade permanente/frequente.
 
-### IRP
+### <abbr title="Intenção de Registro de Preços">IRP</abbr>
 
 - pública;
 - mínimo **8 dias úteis**;
@@ -221,7 +221,7 @@ Crédito orçamentário: exigido na **formalização da contratação**, não pa
 
 ### Ata
 
-- vigência: **1 ano** a partir do 1º dia útil após divulgação no PNCP;
+- vigência: **1 ano** a partir do 1º dia útil após divulgação no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>;
 - prorrogação: + **1 ano**, se preço vantajoso;
 - acréscimo de quantitativos na ata: **vedado**.
 
