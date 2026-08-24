@@ -18,7 +18,7 @@ O edital do Cargo 16 reúne, em um único item de **Direito Constitucional**, os
 4. direitos políticos — **arts. 14 a 16**;
 5. partidos políticos — **art. 17**.
 
-> **Corte de prova:** texto constitucional vigente em **6 de julho de 2026**, data do Edital nº 1. A EC nº 139/2026, última emenda promulgada antes do edital, alterou apenas os arts. 31 e 75 e não modificou o Título II. Para este assunto, são especialmente relevantes as alterações anteriores já incorporadas ao texto, como a **EC nº 115/2022** (proteção de dados pessoais), a **EC nº 117/2022** (participação política das mulheres), a **EC nº 131/2023** (perda da nacionalidade) e a **EC nº 133/2024** (recursos para candidaturas de pessoas pretas e pardas).
+> **Corte de prova:** texto constitucional vigente em **6 de julho de 2026**, data do Edital nº 1. A <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026, última emenda promulgada antes do edital, alterou apenas os arts. 31 e 75 e não modificou o Título II. Para este assunto, são especialmente relevantes as alterações anteriores já incorporadas ao texto, como a **EC nº 115/2022** (proteção de dados pessoais), a **EC nº 117/2022** (participação política das mulheres), a **EC nº 131/2023** (perda da nacionalidade) e a **EC nº 133/2024** (recursos para candidaturas de pessoas pretas e pardas).
 
 O objetivo não é transformar este assunto em curso de Direito Eleitoral ou Direito do Trabalho. A cobrança deve permanecer na **Constituição**, com jurisprudência apenas quando indispensável para evitar erro de prova.
 
@@ -226,7 +226,7 @@ Ninguém será levado à prisão ou nela mantido quando a lei admitir liberdade 
 
 ### 2.13 Prisão civil por dívida
 
-A literalidade do art. 5º, LXVII, admite exceção para inadimplemento voluntário e inescusável de obrigação alimentícia e para depositário infiel. Contudo, o STF consolidou que é **ilícita a prisão civil do depositário infiel, qualquer que seja a modalidade do depósito** (Súmula Vinculante 25).
+A literalidade do art. 5º, LXVII, admite exceção para inadimplemento voluntário e inescusável de obrigação alimentícia e para depositário infiel. Contudo, o <abbr title="Supremo Tribunal Federal">STF</abbr> consolidou que é **ilícita a prisão civil do depositário infiel, qualquer que seja a modalidade do depósito** (Súmula Vinculante 25).
 
 Para prova:
 
@@ -703,7 +703,7 @@ Somente têm direito a recursos do Fundo Partidário e acesso gratuito ao rádio
 A EC nº 117/2022 acrescentou ao art. 17:
 
 - mínimo de **5% dos recursos do Fundo Partidário** para criação e manutenção de programas de promoção e difusão da participação política das mulheres;
-- no mínimo **30%** do FEFC e da parcela do Fundo Partidário destinada a campanhas eleitorais, bem como do tempo de propaganda gratuita no rádio e na televisão, para candidaturas femininas, proporcionalmente ao número de candidatas e conforme critérios partidários e estatutários.
+- no mínimo **30%** do <abbr title="Fundo Especial de Financiamento de Campanha">FEFC</abbr> e da parcela do Fundo Partidário destinada a campanhas eleitorais, bem como do tempo de propaganda gratuita no rádio e na televisão, para candidaturas femininas, proporcionalmente ao número de candidatas e conforme critérios partidários e estatutários.
 
 ## 34. Recursos para candidaturas de pessoas pretas e pardas
 

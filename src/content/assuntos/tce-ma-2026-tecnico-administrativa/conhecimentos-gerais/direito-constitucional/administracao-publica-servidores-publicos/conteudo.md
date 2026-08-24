@@ -12,7 +12,7 @@ storageId: tec-adm-publica-cf-127
 
 O item 5 de **Direito Constitucional** do Cargo 16 exige **Administração pública**, com dois subnúcleos expressos: **disposições gerais** e **servidores públicos**. O recorte constitucional correspondente está no **Capítulo VII do Título III da Constituição Federal**, especialmente nos **arts. 37 a 41**.
 
-> **Corte de prova:** texto constitucional e jurisprudência consolidados até **6 de julho de 2026**, data do Edital nº 1 do TCE/MA. Nesse corte já vigoram, entre outras alterações relevantes, a **EC nº 135/2024**, a **EC nº 138/2025** e a decisão definitiva do STF na **ADI 2.135**, julgada em 6/11/2024.
+> **Corte de prova:** texto constitucional e jurisprudência consolidados até **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Nesse corte já vigoram, entre outras alterações relevantes, a <abbr title="Emenda Constitucional">EC</abbr> nº 135/2024, a **EC nº 138/2025** e a decisão definitiva do <abbr title="Supremo Tribunal Federal">STF</abbr> na <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2.135, julgada em 6/11/2024.
 
 Este assunto tem natureza **constitucional**. Não deve duplicar:
 
@@ -415,7 +415,7 @@ Nos casos que exigem afastamento, o tempo de serviço conta para todos os efeito
 
 ### 24.2 Previdência
 
-Se o servidor for segurado de RPPS, permanecerá filiado ao regime do **ente federativo de origem**.
+Se o servidor for segurado de <abbr title="Regime Próprio de Previdência Social">RPPS</abbr>, permanecerá filiado ao regime do **ente federativo de origem**.
 
 ---
 
@@ -506,7 +506,7 @@ O regime tem caráter:
 
 Contribuem, conforme o sistema constitucional, o respectivo ente federativo, servidores ativos, aposentados e pensionistas.
 
-**Pegadinha:** empregado público, temporário e ocupante exclusivamente de cargo em comissão não entram no RPPS apenas por exercerem função pública. O § 13 os remete ao **RGPS** nas hipóteses constitucionais.
+**Pegadinha:** empregado público, temporário e ocupante exclusivamente de cargo em comissão não entram no RPPS apenas por exercerem função pública. O § 13 os remete ao **<abbr title="Regime Geral de Previdência Social">RGPS</abbr>** nas hipóteses constitucionais.
 
 ---
 
@@ -650,7 +650,7 @@ Não confunda disponibilidade com demissão.
 | publicidade oficial | sem promoção pessoal |
 | mandato de Prefeito | afastamento + opção pela remuneração |
 | mandato de Vereador | compatibilidade decide acumulação funcional/remuneratória |
-| RJU | não é mais obrigatoriedade constitucional — ADI 2.135 |
+| <abbr title="Regime Jurídico Único">RJU</abbr> | não é mais obrigatoriedade constitucional — ADI 2.135 |
 | subsídio | parcela única nas hipóteses do art. 39, § 4º |
 | RPPS | núcleo: titular de cargo efetivo |
 | compulsória | 75 anos nas hipóteses da LC 152/2015 |

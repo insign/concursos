@@ -187,7 +187,7 @@ PGR
 AGU
 ```
 
-Não entram: veto, MP, nomeação STF, declaração de guerra.
+Não entram: veto, MP, nomeação <abbr title="Supremo Tribunal Federal">STF</abbr>, declaração de guerra.
 
 # Responsabilidade
 
@@ -212,7 +212,7 @@ QUALQUER CIDADÃO
 → perante CÂMARA
 ```
 
-A lei é anterior à CF/88: Constituição prevalece em conflito.
+A lei é anterior à <abbr title="Constituição Federal de 1988">CF/88</abbr>: Constituição prevalece em conflito.
 
 ## 17. Fluxo art. 86
 
