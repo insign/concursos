@@ -78,7 +78,7 @@ Desfazimento que atinge situação concretizada pode exigir:
 
 ### Regra-matriz
 
-**CF, art. 5º, XXXV → jurisdição una.**
+**<abbr title="Constituição Federal">CF</abbr>, art. 5º, XXXV → jurisdição una.**
 
 - processo administrativo pode decidir e produzir efeitos;
 - decisão administrativa ≠ coisa julgada judicial material;
@@ -113,11 +113,11 @@ Judiciário pode examinar:
 
 | Via | Núcleo |
 |---|---|
-| MS | direito líquido e certo |
+| <abbr title="Mandado de Segurança">MS</abbr> | direito líquido e certo |
 | ação popular | cidadão + ato lesivo |
-| ACP | tutela coletiva |
+| <abbr title="Ação Civil Pública">ACP</abbr> | tutela coletiva |
 | habeas data | dados pessoais |
-| HC | locomoção |
+| <abbr title="Habeas Corpus">HC</abbr> | locomoção |
 | ação comum | cognição/prova compatíveis |
 
 ## 5. Legislativo
@@ -141,7 +141,7 @@ Fiscalização constitucional **não** cria hierarquia sobre o Executivo.
 | convocação pessoal | Câmara, Senado ou comissão |
 | pedido escrito | Mesas da Câmara e do Senado |
 
-### CPI
+### <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr>
 
 `1/3 + fato determinado + prazo certo`
 
@@ -168,7 +168,7 @@ Parâmetros:
 
 ### Art. 71
 
-**Congresso exerce controle externo com auxílio do TCU.**
+**Congresso exerce controle externo com auxílio do <abbr title="Tribunal de Contas da União">TCU</abbr>.**
 
 - auxílio ≠ subordinação;
 - TCU ≠ Poder Judiciário;

@@ -12,7 +12,7 @@ storageId: tec-nocoes-licitacao-146
 
 Este assunto integra **Conhecimentos específicos — Noções de Direito Administrativo** do Cargo 16 e cobre exatamente os itens **5 Licitação; 5.1 Princípios; 5.2 Contratação direta: dispensa e inexigibilidade; 5.3 Modalidades; 5.4 Tipos; 5.5 Procedimento**.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data do Edital nº 1 do TCE/MA. A conferência editorial posterior não amplia esse corte.
+> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A conferência editorial posterior não amplia esse corte.
 
 A Lei nº 14.133/2021 é a principal referência normativa para compreender esses tópicos. O edital específico do Cargo 16, porém, **não transforma toda a Lei de Licitações em objeto autônomo deste assunto**. O estudo aqui permanece limitado ao recorte expresso.
 
@@ -66,7 +66,7 @@ O art. 5º da Lei nº 14.133/2021 determina a observância de:
 - celeridade;
 - economicidade;
 - desenvolvimento nacional sustentável;
-- e das disposições da LINDB.
+- e das disposições da <abbr title="Lei de Introdução às Normas do Direito Brasileiro">LINDB</abbr>.
 
 A prova costuma cobrar menos a recitação do rol e mais suas consequências práticas.
 
