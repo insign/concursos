@@ -14,7 +14,7 @@ Este assunto integra **Conhecimentos específicos — Noções de Direito Admini
 
 O objetivo é reconhecer a estrutura jurídica do ato administrativo, identificar seus elementos de validade, distinguir os atributos mais cobrados e classificar atos por critérios doutrinários usuais, em profundidade compatível com um conteúdo de **noções**.
 
-> **Corte de prova:** legislação e jurisprudência aplicáveis em **6 de julho de 2026**, data do Edital nº 1 do TCE/MA.
+> **Corte de prova:** legislação e jurisprudência aplicáveis em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
 Não são objeto central desta unidade a extinção do ato, anulação e revogação, convalidação, processo administrativo em geral, poderes administrativos ou responsabilidade civil do Estado. Referências a esses temas aparecem apenas quando necessárias para explicar os cinco núcleos do edital.
 

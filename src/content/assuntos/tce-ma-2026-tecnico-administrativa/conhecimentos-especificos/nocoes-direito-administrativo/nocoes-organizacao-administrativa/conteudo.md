@@ -22,9 +22,9 @@ Este assunto corresponde ao item de **Noções de Direito Administrativo** dos c
 
 O nível é de **noções**. O objetivo é reconhecer a estrutura administrativa, distinguir órgão de entidade e identificar o regime básico das quatro categorias expressamente cobradas. Não se aprofundam aqui atos administrativos, agentes públicos, poderes administrativos, licitações, controle da Administração ou responsabilidade civil do Estado, porque esses temas possuem assuntos próprios.
 
-> **Corte de prova:** legislação e jurisprudência aplicáveis em **6 de julho de 2026**, data do Edital nº 1 do TCE/MA.
+> **Corte de prova:** legislação e jurisprudência aplicáveis em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-As referências centrais são o **Decreto-Lei nº 200/1967**, especialmente os arts. 4º e 5º; a **Constituição Federal**, sobretudo o art. 37, XIX e XX; a **Lei nº 13.303/2016**, para empresa pública e sociedade de economia mista; e o **Tema 545 da repercussão geral do STF**, para evitar generalizações incorretas sobre a natureza jurídica das fundações instituídas pelo Estado.
+As referências centrais são o **Decreto-Lei nº 200/1967**, especialmente os arts. 4º e 5º; a **Constituição Federal**, sobretudo o art. 37, XIX e XX; a **Lei nº 13.303/2016**, para empresa pública e sociedade de economia mista; e o **Tema 545 da repercussão geral do <abbr title="Supremo Tribunal Federal">STF</abbr>**, para evitar generalizações incorretas sobre a natureza jurídica das fundações instituídas pelo Estado.
 
 ---
 

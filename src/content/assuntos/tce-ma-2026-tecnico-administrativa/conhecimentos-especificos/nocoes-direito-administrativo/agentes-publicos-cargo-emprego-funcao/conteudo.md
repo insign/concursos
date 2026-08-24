@@ -12,7 +12,7 @@ storageId: tec-nocoes-agentes-144
 
 Este assunto integra **Conhecimentos específicos — Noções de Direito Administrativo** do Cargo 16 e cobre exatamente: **agentes públicos; disposições constitucionais aplicáveis; conceito e espécies; cargo, emprego e função pública**.
 
-> **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do TCE/MA.
+> **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
 O foco aqui é identificar **quem é agente público, qual é a espécie e qual vínculo funcional está presente**. As regras constitucionais aparecem apenas quando necessárias para distinguir cargo, emprego e função.
 
@@ -23,7 +23,7 @@ Referências centrais:
 - Constituição Federal, especialmente art. 37, I, II, V e IX, e art. 236;
 - Lei nº 8.429/1992, art. 2º, somente no alcance conceitual próprio da Lei de Improbidade;
 - Lei nº 8.112/1990, arts. 1º a 3º, apenas como referência do regime federal;
-- STF, Tema 1.010 da repercussão geral, quanto aos limites constitucionais dos cargos em comissão.
+- <abbr title="Supremo Tribunal Federal">STF</abbr>, Tema 1.010 da repercussão geral, quanto aos limites constitucionais dos cargos em comissão.
 
 ---
 
@@ -112,7 +112,7 @@ Essas definições são úteis como referência conceitual, mas a Lei nº 8.112/
 
 ### 5.2 Empregado público
 
-O **empregado público** ocupa **emprego público** e mantém vínculo de natureza trabalhista, em regra regido pela CLT, sem deixar de se submeter às exigências constitucionais e administrativas próprias do setor público.
+O **empregado público** ocupa **emprego público** e mantém vínculo de natureza trabalhista, em regra regido pela <abbr title="Consolidação das Leis do Trabalho">CLT</abbr>, sem deixar de se submeter às exigências constitucionais e administrativas próprias do setor público.
 
 Pontos essenciais:
 

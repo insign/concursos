@@ -24,7 +24,7 @@ UNIÃO + ESTADOS + DF + MUNICÍPIOS
 | 21 | material da União |
 | 22 | legislativa privativa da União |
 | **23** | **material comum** |
-| 24 | legislativa concorrente: União + estados + DF |
+| 24 | legislativa concorrente: União + estados + <abbr title="Distrito Federal">DF</abbr> |
 
 Município: **sim no 23; não no caput do 24**.
 
@@ -86,7 +86,7 @@ TODOS
 | I | processos ecológicos / manejo |
 | II | patrimônio genético |
 | III | espaços especialmente protegidos |
-| IV | EIA prévio + publicidade |
+| IV | <abbr title="Estudo Prévio de Impacto Ambiental">EIA</abbr> prévio + publicidade |
 | V | técnicas/métodos/substâncias de risco |
 | VI | educação ambiental |
 | VII | fauna/flora + crueldade |
