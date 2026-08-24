@@ -2,7 +2,7 @@
 
 ## Regra central
 
-> **APA = Uso Sustentável · PARNA = Proteção Integral**
+> **<abbr title="Área de Proteção Ambiental">APA</abbr> = Uso Sustentável · <abbr title="Parque Nacional">PARNA</abbr> = Proteção Integral**
 
 ## APA × PARNA
 
@@ -46,10 +46,10 @@
 
 **APA Delta do Parnaíba**
 
-- federal → ICMBio;
+- federal → <abbr title="Instituto Chico Mendes de Conservação da Biodiversidade">ICMBio</abbr>;
 - PI + MA + CE;
 - Uso Sustentável;
-- **não** é a RESEX Marinha do Delta;
+- **não** é a <abbr title="Reserva Extrativista">RESEX</abbr> Marinha do Delta;
 - **não** é a APA estadual dos Pequenos Lençóis.
 
 ## Três PARNAs no Maranhão
@@ -68,10 +68,10 @@
 
 ## Ramsar e UNESCO
 
-- Baixada + Reentrâncias → **Ramsar**.
-- Lençóis → **Patrimônio Mundial UNESCO (2024)**.
+- Baixada + Reentrâncias → **<abbr title="zonas úmidas de importância internacional">Ramsar</abbr>**.
+- Lençóis → **Patrimônio Mundial <abbr title="Organização das Nações Unidas para a Educação, a Ciência e a Cultura">UNESCO</abbr> (2024)**.
 
-> Reconhecimento internacional **não substitui** a categoria SNUC.
+> Reconhecimento internacional **não substitui** a categoria <abbr title="Sistema Nacional de Unidades de Conservação da Natureza">SNUC</abbr>.
 
 ## Nomes que confundem
 
@@ -88,7 +88,7 @@
 - APA sem restrição → **falso**.
 - PARNA sem visitação → **falso**.
 - Pesquisa em PARNA é livre → **falso**.
-- APA exige ZA → **falso**.
+- APA exige <abbr title="zona de amortecimento">ZA</abbr> → **falso**.
 - PARNA é domínio público → **verdadeiro**.
 - Maranhão tem 3 PARNAs → **verdadeiro**.
 - Cadastro diferente altera limite por si só → **falso**.
@@ -100,5 +100,5 @@
 3. Domínio e uso.
 4. Localização da unidade.
 5. Esfera/gestor.
-6. Nome parecido ≠ mesma UC.
+6. Nome parecido ≠ mesma <abbr title="unidade de conservação">UC</abbr>.
 7. Designação internacional ≠ SNUC.

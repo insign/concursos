@@ -6,7 +6,7 @@
 
 | Setor | Chuva | Temperatura | Vegetação mais associada |
 |---|---|---|---|
-| norte/litoral | estação chuvosa mais longa; forte influência da ZCIT | menor amplitude pela maritimidade | formações florestais, cocais e ambientes costeiros |
+| norte/litoral | estação chuvosa mais longa; forte influência da <abbr title="Zona de Convergência Intertropical">ZCIT</abbr> | menor amplitude pela maritimidade | formações florestais, cocais e ambientes costeiros |
 | oeste | mais úmido | quente | floresta ombrófila, influência amazônica |
 | centro | sazonalidade crescente | quente | transições, cocais e Cerrado |
 | leste/sul | seca mais longa | máximas elevadas na seca | Cerrado e formações mais sazonais |
@@ -24,7 +24,7 @@
 - **Seca ≠ chuva zero.**
 - El Niño/La Niña e anomalias oceânicas **modulam**, não explicam sozinhos cada evento.
 
-## Normais INMET 1991-2020
+## Normais <abbr title="Instituto Nacional de Meteorologia">INMET</abbr> 1991-2020
 
 | Estação | Chuva anual |
 |---|---:|
@@ -47,7 +47,7 @@ Chaves:
 - Interior: maior aquecimento na seca; litoral: maior moderação térmica.
 - **Máxima normal ≠ temperatura média.**
 
-## IBGE × Köppen
+## <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> × Köppen
 
 | Sistema | Chave |
 |---|---|
