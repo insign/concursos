@@ -278,17 +278,6 @@ export interface DownloadDiagnosticRecord {
 
 const DOWNLOAD_DIAGNOSTICS_LIMIT = 50;
 
-/** Remove os registros mais antigos por occurredAt acima do limite. */
-async function pruneDiagnostics(store: import('idb').IDBPObjectStore<unknown, string[]>): Promise<void> {
-  const all = (await store.getAll()) as DownloadDiagnosticRecord[];
-  const excess = all.length - DOWNLOAD_DIAGNOSTICS_LIMIT;
-  if (excess <= 0) return;
-  const byTime = [...all].sort((left, right) => left.occurredAt - right.occurredAt);
-  for (let i = 0; i < excess; i += 1) {
-    await store.delete(byTime[i]!.id);
-  }
-}
-
 /** Grava o diagnóstico podando o histórico; nunca lança. */
 export async function saveDownloadDiagnostic(record: DownloadDiagnosticRecord): Promise<void> {
   try {
@@ -296,7 +285,14 @@ export async function saveDownloadDiagnostic(record: DownloadDiagnosticRecord): 
     const tx = database.transaction('downloadDiagnostics', 'readwrite');
     const store = tx.objectStore('downloadDiagnostics');
     await store.put(record);
-    await pruneDiagnostics(store);
+    const all = (await store.getAll()) as DownloadDiagnosticRecord[];
+    const excess = all.length - DOWNLOAD_DIAGNOSTICS_LIMIT;
+    if (excess > 0) {
+      const byTime = [...all].sort((left, right) => left.occurredAt - right.occurredAt);
+      for (let i = 0; i < excess; i += 1) {
+        await store.delete(byTime[i]!.id);
+      }
+    }
     await tx.done;
   } catch {
     // Diagnóstico é best-effort.
@@ -319,7 +315,14 @@ export async function finishDownloadJob(diagnostic: DownloadDiagnosticRecord & {
   const jobs = tx.objectStore('downloadJobs');
   try {
     await diagnostics.put(diagnostic);
-    await pruneDiagnostics(diagnostics);
+    const allDiag = (await diagnostics.getAll()) as DownloadDiagnosticRecord[];
+    const diagExcess = allDiag.length - DOWNLOAD_DIAGNOSTICS_LIMIT;
+    if (diagExcess > 0) {
+      const byTime = [...allDiag].sort((left, right) => left.occurredAt - right.occurredAt);
+      for (let i = 0; i < diagExcess; i += 1) {
+        await diagnostics.delete(byTime[i]!.id);
+      }
+    }
     await jobs.delete(diagnostic.jobId);
     await tx.done;
   } catch (error) {

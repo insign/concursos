@@ -2,7 +2,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 const getJob = vi.fn();
 const deleteJob = vi.fn();
-const finishJob = vi.fn(async () => undefined);
+const finishJob = vi.fn(async (..._args: unknown[]) => undefined);
 const saveRecord = vi.fn();
 
 vi.mock('../../src/lib/offline-db', () => ({

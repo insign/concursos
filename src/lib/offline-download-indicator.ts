@@ -58,7 +58,7 @@ interface ActiveFetchLike {
 
 interface BackgroundFetchManagerLike {
   getIds?(): Promise<string[]>;
-  get?(id: string): Promise<{ id?: string; downloaded?: number; downloadTotal?: number; result?: string; addEventListener?(type: 'progress', listener: () => void): void } | undefined>;
+  get?(id: string): Promise<{ id?: string; downloaded?: number; downloadTotal?: number; result?: string; addEventListener(type: 'progress', listener: () => void): void } | undefined>;
 }
 
 const BG_ID_PREFIX = 'offline-package-';
@@ -137,8 +137,8 @@ export function startOfflineDownloadIndicator(
         }
       ).backgroundFetch;
       if (!manager?.getIds || !manager.get) return;
-      const getFn = manager.get.bind(manager);
-      const getIdsFn = manager.getIds.bind(manager);
+      const getFn = manager.get;
+      const getIdsFn = manager.getIds;
       let foundActive = false;
       const ids = await getIdsFn();
       for (const id of ids) {

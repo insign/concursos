@@ -96,10 +96,10 @@ async function withOfflinePackageLock<T>(operation: () => Promise<T>): Promise<T
   let lost = false;
   const heartbeat = setInterval(() => {
     void renewSyncLease(OFFLINE_PACKAGE_LOCK, ownerId, OFFLINE_PACKAGE_LEASE_TTL)
-      .then((renewed) => {
-        if (!renewed) lost = true;
-      })
-      .catch(() => undefined);
+      .then(() => undefined)
+      .catch(() => {
+        lost = true;
+      });
   }, OFFLINE_PACKAGE_LEASE_TTL / 3);
 
   try {
