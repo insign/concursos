@@ -43,7 +43,6 @@ export interface DownloadProgress {
 }
 
 const OFFLINE_PACKAGE_LOCK = 'concursos:offline-packages';
-let fallbackPackageLock = Promise.resolve();
 
 interface PackageEnvironment {
   cacheStorage?: CacheStorage;
@@ -74,25 +73,28 @@ function requestFor(path: string, origin: string): Request {
   return new Request(url, { credentials: 'same-origin' });
 }
 
-async function withOfflinePackageLock<T>(operation: () => Promise<T>): Promise<T> {
-  if (typeof navigator !== 'undefined' && navigator.locks) {
-    return navigator.locks.request(OFFLINE_PACKAGE_LOCK, operation);
-  }
-  if (typeof window !== 'undefined') {
-    throw new Error('Este navegador não oferece coordenação segura para downloads offline.');
-  }
+const OFFLINE_PACKAGE_LEASE_TTL = 15_000;
+let packageLeaseOwnerId =
+  typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : `${Date.now()}-${Math.random()}`;
 
-  const previous = fallbackPackageLock;
-  let release: () => void = () => undefined;
-  fallbackPackageLock = new Promise<void>((resolve) => {
-    release = resolve;
-  });
-  await previous;
-  try {
-    return await operation();
-  } finally {
-    release();
+/**
+ * Serialização única via lease IndexedDB (funciona em página E Service
+ * Worker): substitui o par Web Locks/mutex de módulo, que não serializava
+ * a adoção em segundo plano contra downloads iniciados na página.
+ */
+async function withOfflinePackageLock<T>(operation: () => Promise<T>): Promise<T> {
+  const { acquireSyncLease, releaseSyncLease } = await import('./offline-db');
+  for (let attempt = 0; attempt < 120; attempt += 1) {
+    if (await acquireSyncLease(OFFLINE_PACKAGE_LOCK, packageLeaseOwnerId, OFFLINE_PACKAGE_LEASE_TTL)) {
+      try {
+        return await operation();
+      } finally {
+        await releaseSyncLease(OFFLINE_PACKAGE_LOCK, packageLeaseOwnerId);
+      }
+    }
+    await new Promise((resolve) => setTimeout(resolve, 250));
   }
+  throw new Error('Outro download está em andamento; aguarde alguns instantes.');
 }
 
 function readableError(error: unknown): Error {
