@@ -29,7 +29,7 @@ A palavra **noções** orienta a profundidade: é necessário reconhecer a posi�
 | inquérito civil e ação civil pública | **Ministério Público** |
 | representação judicial e extrajudicial da União | **Advocacia-Geral da União** |
 | consultoria e assessoramento jurídico do Poder Executivo federal | **Advocacia-Geral da União** |
-| representação judicial e consultoria jurídica dos Estados e do DF | **Procuradores dos Estados e do DF** |
+| representação judicial e consultoria jurídica dos Estados e do <abbr title="Distrito Federal">DF</abbr> | **Procuradores dos Estados e do DF** |
 | orientação jurídica e defesa integral e gratuita dos necessitados | **Defensoria Pública** |
 
 A primeira grande pegadinha é confundir instituições que aparecem no mesmo capítulo constitucional:
@@ -82,7 +82,7 @@ A Constituição assegura ao MP:
 
 - **autonomia funcional**;
 - **autonomia administrativa**;
-- elaboração de sua **proposta orçamentária**, dentro dos limites da LDO.
+- elaboração de sua **proposta orçamentária**, dentro dos limites da <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>.
 
 Também pode propor ao Poder Legislativo, observado o art. 169, medidas referentes a cargos, serviços auxiliares, política remuneratória e planos de carreira.
 
@@ -198,7 +198,7 @@ Essa é a fronteira mais importante com a Advocacia Pública.
 
 O ingresso ocorre por **concurso público de provas e títulos**, com:
 
-- participação da **OAB na realização** do concurso;
+- participação da **<abbr title="Ordem dos Advogados do Brasil">OAB</abbr> na realização** do concurso;
 - bacharelado em Direito;
 - mínimo de **3 anos de atividade jurídica**;
 - observância da ordem de classificação nas nomeações.
@@ -340,7 +340,7 @@ A Constituição assegura aos integrantes a **inamovibilidade** e veda o exercí
 - autonomia administrativa;
 - iniciativa de sua proposta orçamentária dentro dos limites da LDO.
 
-O regime alcança as Defensorias dos Estados e, por extensão constitucional, a **DPU** e a **Defensoria Pública do Distrito Federal**.
+O regime alcança as Defensorias dos Estados e, por extensão constitucional, a **<abbr title="Defensoria Pública da União">DPU</abbr>** e a **Defensoria Pública do Distrito Federal**.
 
 São princípios institucionais da Defensoria:
 

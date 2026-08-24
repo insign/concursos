@@ -124,7 +124,7 @@ Vitaliciedade no 1º grau → **2 anos**.
 
 ## 6. Arts. 96–100 — atalhos
 
-### EC 134/2024
+### <abbr title="Emenda Constitucional">EC</abbr> 134/2024
 
 TJ com **mais de 170 desembargadores em efetivo exercício**:
 
@@ -171,14 +171,14 @@ EC 136/2025 → art. 100, §5º = 1º de fevereiro
 
 | Órgão | Composição |
 |---|---:|
-| STF | **11** |
-| CNJ | **15** |
-| STJ | **mínimo 33** |
-| TST | **27** |
-| TSE | **mínimo 7** |
-| STM | **15** |
-| TRF | **mínimo 7** |
-| TRT | **mínimo 7** |
+| <abbr title="Supremo Tribunal Federal">STF</abbr> | **11** |
+| <abbr title="Conselho Nacional de Justiça">CNJ</abbr> | **15** |
+| <abbr title="Superior Tribunal de Justiça">STJ</abbr> | **mínimo 33** |
+| <abbr title="Tribunal Superior do Trabalho">TST</abbr> | **27** |
+| <abbr title="Tribunal Superior Eleitoral">TSE</abbr> | **mínimo 7** |
+| <abbr title="Superior Tribunal Militar">STM</abbr> | **15** |
+| <abbr title="Tribunal Regional Federal">TRF</abbr> | **mínimo 7** |
+| <abbr title="Tribunal Regional do Trabalho">TRT</abbr> | **mínimo 7** |
 
 ---
 
@@ -275,7 +275,7 @@ D → DISCIPLINAR
 - determinar remoção/disponibilidade;
 - aplicar sanções administrativas cabíveis;
 - rever processo disciplinar julgado há **menos de 1 ano**;
-- representar ao MP;
+- representar ao <abbr title="Ministério Público">MP</abbr>;
 - elaborar relatório estatístico **semestral**;
 - elaborar relatório **anual**.
 
@@ -283,7 +283,7 @@ D → DISCIPLINAR
 
 - funcionar como recurso geral contra sentença/acórdão;
 - rever mérito jurisdicional apenas por discordar da decisão;
-- julgar RE ou REsp;
+- julgar <abbr title="Recurso Extraordinário">RE</abbr> ou <abbr title="Recurso Especial">REsp</abbr>;
 - condenar criminalmente magistrado;
 - controlar jurisdicionalmente o STF como órgão superior.
 
@@ -412,7 +412,7 @@ Não é: "qualquer causa envolvendo militar".
 
 ## 18. Justiça dos Estados
 
-- Estado organiza sua Justiça observando a CF;
+- Estado organiza sua Justiça observando a <abbr title="Constituição Federal">CF</abbr>;
 - lei de organização judiciária → iniciativa TJ;
 - TJM estadual → efetivo militar **superior a 20 mil**;
 - TJ pode ter câmaras regionais;

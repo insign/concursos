@@ -15,15 +15,15 @@
 
 | Situação | Resposta |
 |---|---|
-| ação penal pública | **MP** |
-| inquérito civil / ACP | **MP** |
+| ação penal pública | **<abbr title="Ministério Público">MP</abbr>** |
+| inquérito civil / <abbr title="Ação Civil Pública">ACP</abbr> | **MP** |
 | controle externo da polícia | **MP** |
-| representar a União | **AGU** |
+| representar a União | **<abbr title="Advocacia-Geral da União">AGU</abbr>** |
 | consultoria do Executivo federal | **AGU** |
-| dívida ativa tributária da União | **PGFN** |
-| representar Estado/DF | **Procuradores estaduais/DF** |
+| dívida ativa tributária da União | **<abbr title="Procuradoria-Geral da Fazenda Nacional">PGFN</abbr>** |
+| representar Estado/<abbr title="Distrito Federal">DF</abbr> | **Procuradores estaduais/DF** |
 | defesa integral e gratuita dos necessitados | **Defensoria** |
-| controle administrativo/financeiro do MP | **CNMP** |
+| controle administrativo/financeiro do MP | **<abbr title="Conselho Nacional do Ministério Público">CNMP</abbr>** |
 
 **Regra de ouro:** `MP ≠ advogado do governo`.
 
@@ -67,12 +67,12 @@ MPEs
 
 ---
 
-## 5. PGR × PG estadual/MPDFT
+## 5. <abbr title="Procurador-Geral da República">PGR</abbr> × PG estadual/MPDFT
 
 | Ponto | PGR | PG estadual/MPDFT |
 |---|---|---|
 | carreira | sim | sim |
-| idade | **>35** | CF não fixa no § 3º |
+| idade | **>35** | <abbr title="Constituição Federal">CF</abbr> não fixa no § 3º |
 | lista tríplice | não | **sim** |
 | Senado | **maioria absoluta** | não |
 | mandato | **2 anos** | **2 anos** |

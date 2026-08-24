@@ -14,7 +14,7 @@ Este assunto corresponde ao tópico de **Noções de Direito Constitucional** do
 
 O núcleo constitucional está no **Capítulo III do Título IV da Constituição Federal, arts. 92 a 126**, com atenção especial ao **art. 103-B**, que disciplina o Conselho Nacional de Justiça (CNJ).
 
-> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1 do TCE/MA. A Constituição já incorporava a **EC nº 139/2026**. Para este capítulo, são particularmente relevantes a **EC nº 134/2024**, sobre eleição de cargos diretivos em determinados Tribunais de Justiça, e a **EC nº 136/2025**, sobre precatórios.
+> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A Constituição já incorporava a **<abbr title="Emenda Constitucional">EC</abbr> nº 139/2026**. Para este capítulo, são particularmente relevantes a **EC nº 134/2024**, sobre eleição de cargos diretivos em determinados Tribunais de Justiça, e a **EC nº 136/2025**, sobre precatórios.
 
 A palavra **noções** é importante: o objetivo é compreender o desenho constitucional do Judiciário, reconhecer seus órgãos, identificar competências essenciais e dominar a composição e as funções do CNJ. Não é necessário transformar cada ramo da Justiça em disciplina processual autônoma.
 
@@ -87,7 +87,7 @@ Lei complementar, de iniciativa do **STF**, dispõe sobre o Estatuto da Magistra
 
 O cargo inicial é o de **juiz substituto**, mediante concurso público de provas e títulos, com:
 
-- participação da OAB em todas as fases;
+- participação da <abbr title="Ordem dos Advogados do Brasil">OAB</abbr> em todas as fases;
 - exigência de, no mínimo, **três anos de atividade jurídica** do bacharel em Direito;
 - nomeação segundo a ordem de classificação.
 
@@ -270,11 +270,11 @@ Ao STF compete, **precipuamente, a guarda da Constituição**.
 
 Entre as competências originárias mais importantes para identificação em prova estão:
 
-- ADI de lei ou ato normativo federal ou estadual e ADC de lei ou ato normativo federal;
-- crimes comuns do Presidente da República, Vice-Presidente, membros do Congresso Nacional, Ministros do próprio STF e PGR;
+- <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> de lei ou ato normativo federal ou estadual e <abbr title="Ação Declaratória de Constitucionalidade">ADC</abbr> de lei ou ato normativo federal;
+- crimes comuns do Presidente da República, Vice-Presidente, membros do Congresso Nacional, Ministros do próprio STF e <abbr title="Procurador-Geral da República">PGR</abbr>;
 - extradição solicitada por Estado estrangeiro;
 - conflitos federativos nas hipóteses do art. 102;
-- **ações contra o CNJ e o CNMP**.
+- **ações contra o CNJ e o <abbr title="Conselho Nacional do Ministério Público">CNMP</abbr>**.
 
 O recurso típico associado ao STF é o **recurso extraordinário**, nas hipóteses constitucionais do art. 102, III.
 
@@ -567,7 +567,7 @@ Corregedor = Ministro do STJ no Conselho
 | recurso especial | STJ |
 | relação de trabalho | Justiça do Trabalho |
 | crimes militares definidos em lei | Justiça Militar |
-| grave violação de direitos humanos — IDC | PGR suscita perante STJ |
+| grave violação de direitos humanos — <abbr title="Incidente de Deslocamento de Competência">IDC</abbr> | PGR suscita perante STJ |
 
 ---
 

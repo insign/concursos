@@ -12,7 +12,7 @@ storageId: tec-nocoes-executivo-138
 
 O Cargo 16 exige, em **Noções de Direito Constitucional**, o tópico **Poder Executivo: atribuições do Presidente da República e dos Ministros de Estado**. O núcleo de estudo está nos **arts. 76, 84 e 87 da Constituição Federal**, com o art. 88 apenas como contraste sobre criação e extinção de Ministérios e órgãos.
 
-> **Corte de prova:** 6 de julho de 2026. A EC nº 139/2026, vigente antes do edital, não alterou os arts. 76, 84, 87 ou 88.
+> **Corte de prova:** 6 de julho de 2026. A <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026, vigente antes do edital, não alterou os arts. 76, 84, 87 ou 88.
 
 Este assunto não aprofunda eleição, posse, substituição, sucessão ou vacância presidencial (arts. 77 a 83), nem responsabilidade do Presidente (arts. 85 e 86), Conselhos da República e de Defesa Nacional (arts. 89 a 91) ou processo legislativo completo. O foco é **quem exerce o Executivo e quais atribuições constitucionais cabem ao Presidente e aos Ministros**.
 
@@ -152,7 +152,7 @@ Neste assunto, o objetivo é identificar **a atribuição presidencial**; o proc
 Compete ao Presidente:
 
 - remeter **mensagem e plano de governo** ao Congresso por ocasião da abertura da sessão legislativa — **XI**;
-- enviar ao Congresso o **PPA**, o projeto de **LDO** e as propostas de **orçamento** — **XXIII**;
+- enviar ao Congresso o **<abbr title="Plano Plurianual">PPA</abbr>**, o projeto de **<abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>** e as propostas de **orçamento** — **XXIII**;
 - prestar anualmente ao Congresso, dentro de **60 dias após a abertura da sessão legislativa**, as contas do exercício anterior — **XXIV**;
 - propor ao Congresso a decretação do **estado de calamidade pública de âmbito nacional** previsto nas hipóteses constitucionais — **XXVIII**.
 
@@ -179,7 +179,7 @@ Essa competência é especialmente importante porque integra o pequeno rol de at
 
 Após aprovação pelo Senado Federal, o Presidente nomeia:
 
-- Ministros do STF e dos Tribunais Superiores;
+- Ministros do <abbr title="Supremo Tribunal Federal">STF</abbr> e dos Tribunais Superiores;
 - Governadores de Territórios;
 - Procurador-Geral da República;
 - presidente e diretores do Banco Central;
@@ -189,7 +189,7 @@ Após aprovação pelo Senado Federal, o Presidente nomeia:
 
 Também compete ao Presidente:
 
-- nomear Ministros do TCU, observado o art. 73 — **XV**;
+- nomear Ministros do <abbr title="Tribunal de Contas da União">TCU</abbr>, observado o art. 73 — **XV**;
 - nomear magistrados nos casos constitucionais e o Advogado-Geral da União — **XVI**;
 - nomear membros do Conselho da República, na hipótese constitucional — **XVII**;
 - convocar e presidir o Conselho da República e o Conselho de Defesa Nacional — **XVIII**.

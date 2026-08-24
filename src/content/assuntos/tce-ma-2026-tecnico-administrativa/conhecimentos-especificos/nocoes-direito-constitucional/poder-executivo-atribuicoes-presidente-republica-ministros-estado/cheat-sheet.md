@@ -17,7 +17,7 @@
 | administração | direção superior federal | orientação + coordenação + supervisão setorial |
 | norma administrativa | decreto/regulamento | instrução |
 | prestação anual | contas ao Congresso | relatório ao Presidente |
-| delegação | delega nos limites do art. 84, p.u. | pode receber |
+| delegação | delega nos limites do art. 84, <abbr title="parágrafo único">p.u.</abbr> | pode receber |
 
 ## 3. Art. 84 — blocos
 
