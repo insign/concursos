@@ -45,7 +45,7 @@ $$
 
 ## Junta de 1889
 
-Ofício do APEM lista:
+Ofício do <abbr title="Arquivo Público do Estado do Maranhão">APEM</abbr> lista:
 
 - João Luís Tavares;
 - José Francisco de Viveiros;

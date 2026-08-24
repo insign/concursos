@@ -27,7 +27,7 @@ $$
 |---|---|
 | 1951-1965 | desgaste do vitorinismo e crescimento oposicionista |
 | 1965/1966-1970 | vitória de José Sarney e “Maranhão Novo” |
-| 1970-1979 | eleições indiretas e disputas dentro da ARENA |
+| 1970-1979 | eleições indiretas e disputas dentro da <abbr title="Aliança Renovadora Nacional">ARENA</abbr> |
 | 1979-1986 | pluripartidarismo, abertura e retorno do voto direto |
 | 1986-1989 | governo Cafeteira e Constituição estadual |
 | 1990-2000 | Lobão, Roseana e reorganização do grupo Sarney |
@@ -45,13 +45,13 @@ A Greve de 1951 desgastou o grupo de Vitorino Freire, mas não encerrou sua infl
 
 As Oposições Coligadas eram uma frente heterogênea contra o vitorinismo. Não constituíam um partido único nem um bloco ideologicamente uniforme.
 
-José Sarney iniciou sua trajetória eleitoral no PSD, rompeu com o campo vitorinista e passou ao campo oposicionista, com forte vinculação posterior à UDN. Foi eleito deputado federal em 1958 no contexto das Oposições Coligadas e reeleito em 1962.
+José Sarney iniciou sua trajetória eleitoral no <abbr title="Partido Social Democrático">PSD</abbr>, rompeu com o campo vitorinista e passou ao campo oposicionista, com forte vinculação posterior à <abbr title="União Democrática Nacional">UDN</abbr>. Foi eleito deputado federal em 1958 no contexto das Oposições Coligadas e reeleito em 1962.
 
 > **Cuidado com a legenda de 1958:** fontes institucionais consultadas não são uniformes na forma de registrar a filiação daquele mandato. Para prova, o ponto seguro é a eleição de Sarney no campo das Oposições Coligadas e sua posterior liderança udenista no Maranhão.
 
 ### 3.1. Eleição de 1965
 
-Em **3 de outubro de 1965**, houve eleição direta para governador. José Sarney concorreu pela coligação **UDN-PSP** e venceu.
+Em **3 de outubro de 1965**, houve eleição direta para governador. José Sarney concorreu pela coligação **UDN-<abbr title="Partido Social Progressista">PSP</abbr>** e venceu.
 
 A vitória deve ser explicada por causas combinadas:
 
@@ -86,7 +86,7 @@ Expressões como **“oligarquia Sarney”**, **patrimonialismo** e **clientelis
 Depois da extinção dos partidos anteriores pelo regime militar, o sistema passou a ter:
 
 - **ARENA**: partido de sustentação do regime;
-- **MDB**: oposição consentida.
+- **<abbr title="Movimento Democrático Brasileiro">MDB</abbr>**: oposição consentida.
 
 Sarney e Vitorino ingressaram formalmente na ARENA. Isso é essencial porque mostra que a disputa maranhense não pode ser reduzida a ARENA contra MDB.
 
@@ -116,10 +116,10 @@ O retorno de Vitorino à articulação durante a década de 1970 não significou
 
 Em **1979**, o bipartidarismo foi encerrado. Na reorganização partidária:
 
-- ARENA → principalmente **PDS**;
-- MDB → **PMDB**;
-- surgiram ou se reorganizaram outras siglas, como PDT e PT;
-- dissidências posteriores do PDS participaram da formação da Frente Liberal e do **PFL**.
+- ARENA → principalmente **<abbr title="Partido Democrático Social">PDS</abbr>**;
+- MDB → **<abbr title="Partido do Movimento Democrático Brasileiro">PMDB</abbr>**;
+- surgiram ou se reorganizaram outras siglas, como <abbr title="Partido Democrático Trabalhista">PDT</abbr> e <abbr title="Partido dos Trabalhadores">PT</abbr>;
+- dissidências posteriores do PDS participaram da formação da Frente Liberal e do **<abbr title="Partido da Frente Liberal">PFL</abbr>**.
 
 A trajetória nacional de Sarney em 1984-1985 interessa ao assunto apenas porque reforçou a conexão entre a política maranhense e o poder federal: ele rompeu com a candidatura de Paulo Maluf, participou da Frente Liberal, integrou a chapa de Tancredo Neves e assumiu a Presidência em 1985.
 

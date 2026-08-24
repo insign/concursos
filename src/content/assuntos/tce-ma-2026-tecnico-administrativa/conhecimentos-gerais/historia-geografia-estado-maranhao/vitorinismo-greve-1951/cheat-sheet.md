@@ -15,7 +15,7 @@ $$
 
 - influência de Vitorino ≠ mandato pessoal e contínuo como governador;
 - ruptura da hegemonia em 1965 ≠ desaparecimento instantâneo de toda influência posterior;
-- Vitorino nasceu em **Pedra (PE)**;
+- Vitorino nasceu em **Pedra (<abbr title="Pernambuco">PE</abbr>)**;
 - nome biográfico: **Vitorino de Brito Freire**.
 
 ## Mecanismos
@@ -31,10 +31,10 @@ $$
 ## Trajetória mínima
 
 - **1934**: secretário do interventor Martins de Almeida.
-- **1945**: organiza o PSD maranhense, apoia Dutra e é eleito constituinte.
+- **1945**: organiza o <abbr title="Partido Social Democrático">PSD</abbr> maranhense, apoia Dutra e é eleito constituinte.
 - **1946**: Saturnino Belo é nomeado interventor por indicação de Vitorino.
 - **1947**: Sebastião Archer é eleito governador; Vitorino, senador.
-- PPB → reorganização como **PST**.
+- <abbr title="Partido Proletário do Brasil">PPB</abbr> → reorganização como **<abbr title="Partido Social Trabalhista">PST</abbr>**.
 - **1951**: Eugênio Barros assume em meio à contestação eleitoral.
 - **1965**: derrota eleitoral decisiva e quebra da hegemonia vitorinista.
 
@@ -65,7 +65,7 @@ Nunca trate Saturnino como opositor permanente nem diga que Eugênio o substitui
 4. diplomação de Eugênio;
 5. posse em **28 fev.** → primeira fase;
 6. licença em **14 mar.** → César Aboud interino;
-7. TSE mantém o diploma em **3 set.**;
+7. <abbr title="Tribunal Superior Eleitoral">TSE</abbr> mantém o diploma em **3 set.**;
 8. Eugênio reassume em **18 set.** → segunda fase;
 9. encerramento em **8 out.**, na cronologia adotada.
 
@@ -148,4 +148,4 @@ Nunca trate Saturnino como opositor permanente nem diga que Eugênio o substitui
 - reassunção de Eugênio: **18 set. 1951**.
 - greve ≠ movimento apenas salarial, sindical ou partidário.
 - 1965 = quebra da hegemonia, não apagamento imediato de toda influência.
-- item 29 PM/MA 2017: **anulado**; a justificativa do Cebraspe literalmente contrapõe “Victoriano Freire” a “Victorino Freire”. A referência biográfica adotada registra **Vitorino de Brito Freire**.
+- item 29 <abbr title="Polícia Militar do Maranhão">PM/MA</abbr> 2017: **anulado**; a justificativa do <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> literalmente contrapõe “Victoriano Freire” a “Victorino Freire”. A referência biográfica adotada registra **Vitorino de Brito Freire**.

@@ -91,7 +91,7 @@ Conforme a síntese de Marcelo Cheche Galves sobre a obra de Matthias Röhrig As
 
 ### 4.2. Três matrizes do campesinato
 
-Uma interpretação cobrada pelo Cebraspe descreve três matrizes da formação camponesa maranhense:
+Uma interpretação cobrada pelo <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> descreve três matrizes da formação camponesa maranhense:
 
 1. indígenas aldeados ou destribalizados;
 2. descendentes de africanos libertos, forros ou aquilombados;
@@ -123,7 +123,7 @@ A explicação escolar mais conhecida relaciona a Balaiada à crise do algodão 
 - ignorar pecuária, abastecimento interno e economia camponesa;
 - supor que todos os proprietários foram atingidos da mesma forma.
 
-Na PM/MA de 2017, o Cebraspe considerou errado afirmar que a economia maranhense estava assentada na agroindústria açucareira porque algodão e arroz teriam fracassado completamente.
+Na <abbr title="Polícia Militar do Maranhão">PM/MA</abbr> de 2017, o Cebraspe considerou errado afirmar que a economia maranhense estava assentada na agroindústria açucareira porque algodão e arroz teriam fracassado completamente.
 
 ## 6. Causas políticas: bem-te-vis, cabanos e poder local
 
