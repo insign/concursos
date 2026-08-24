@@ -1,10 +1,10 @@
-# Lei Orgânica do TCE/MA: organização, membros e MPC
+# Lei Orgânica do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: organização, membros e <abbr title="Ministério Público de Contas">MPC</abbr>
 
 ## Corte
 
 **Edital: 6/7/2026.**
 
-Inclui a **EC 139/2026**: Tribunais de Contas são **instituições permanentes e essenciais ao exercício do controle externo**.
+Inclui a **<abbr title="Emenda Constitucional">EC</abbr> 139/2026**: Tribunais de Contas são **instituições permanentes e essenciais ao exercício do controle externo**.
 
 ## Estrutura
 
@@ -121,7 +121,7 @@ Pode:
 - dar posse;
 - expedir atos funcionais;
 - administrar orçamento, finanças e patrimônio;
-- publicar RGF;
+- publicar <abbr title="Relatório de Gestão Fiscal">RGF</abbr>;
 - firmar cooperação.
 
 Não pode sozinho:
@@ -135,7 +135,7 @@ Essas matérias → **proposta legislativa à Assembleia**.
 
 **Núcleo: inspeção + correição + disciplina + governança interna.**
 
-- PAD/sindicância de servidor → Corregedor **concorrentemente com Presidente**;
+- <abbr title="Processo Administrativo Disciplinar">PAD</abbr>/sindicância de servidor → Corregedor **concorrentemente com Presidente**;
 - procedimento contra membro → proposta ao Pleno, **sessão extraordinária reservada + maioria absoluta**;
 - relata procedimentos disciplinares;
 - designa comissões processantes;
@@ -167,7 +167,7 @@ Princípios:
 
 Ingresso:
 - concurso de provas e títulos;
-- OAB participa;
+- <abbr title="Ordem dos Advogados do Brasil">OAB</abbr> participa;
 - bacharel em Direito;
 - **3 anos de atividade jurídica**;
 - ordem de classificação.
@@ -190,7 +190,7 @@ Substituição:
 - manifesta-se oralmente/escrito;
 - interpõe recursos;
 - promove cobrança/execução;
-- aciona MP competente.
+- aciona <abbr title="Ministério Público">MP</abbr> competente.
 
 ### Audiência obrigatória
 
@@ -232,7 +232,7 @@ Cobrança/execução + acionamento de outro MP:
 - prazos das partes **não suspendem nem interrompem** pelo recesso;
 - relatório trimestral à Assembleia → **60 dias**;
 - relatório anual → **90 dias**;
-- DOE-TCE = veículo oficial;
+- <abbr title="Diário Oficial Eletrônico do TCE/MA">DOE-TCE</abbr> = veículo oficial;
 - falha temporária → DOE estadual vale + republicação eletrônica posterior;
 - sessão ordinária = pública;
 - extraordinária reservada → exige representante do MPC;
@@ -240,14 +240,14 @@ Cobrança/execução + acionamento de outro MP:
 
 ## Pegadinhas de uma linha
 
-- **EC 139/2026:** TC = permanente + essencial.
+- **EC 139/2026:** <abbr title="Tribunal de Contas">TC</abbr> = permanente + essencial.
 - **7 titulares, 3 substitutos.**
 - **4 Assembleia + 3 Governador.**
 - **idade atual titular e substituto: >35 e <70.**
 - **Substituto sem convocação: proposta de decisão.**
 - **Presidente é eleito; Procurador-Geral é nomeado pelo Governador.**
 - **Corregedoria é interna.**
-- **MPC não é Secretaria nem MPE.**
+- **MPC não é Secretaria nem <abbr title="Ministério Público Estadual">MPE</abbr>.**
 - **4 cargos legais do MPC ≠ número circunstancial de ocupantes.**
-- **concurso MPC: PG; vacância PG: Presidente.**
+- **concurso MPC: <abbr title="Procurador-Geral">PG</abbr>; vacância PG: Presidente.**
 - **recesso não para Secretaria nem prazos das partes.**

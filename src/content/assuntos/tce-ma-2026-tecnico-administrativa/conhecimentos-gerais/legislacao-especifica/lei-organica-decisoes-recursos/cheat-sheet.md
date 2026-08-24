@@ -1,4 +1,4 @@
-# Lei Orgânica do TCE/MA: decisões, sanções e recursos
+# Lei Orgânica do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: decisões, sanções e recursos
 
 ## Corte
 
@@ -26,9 +26,9 @@
 - Arquivamento por economia processual **não cancela débito**.
 - Art. 23, § 2º: preserve as remissões literais do texto consolidado; não “corrija” a Lei por inferência.
 
-## Prefeito/governador: conta anual × TCE especial
+## Prefeito/governador: conta anual × <abbr title="Tomada de contas especial">TCE</abbr> especial
 
-**Tema 1287/STF:**
+**Tema 1287/<abbr title="Supremo Tribunal Federal">STF</abbr>:**
 
 `convênio interfederativo + responsabilidade pessoal + tomada de contas especial → Tribunal de Contas pode imputar débito/multa sem aprovação posterior do Legislativo`
 
@@ -60,7 +60,7 @@ Não confunda com **contas anuais**, em que o Tribunal emite parecer prévio nos
 | Crédito | Quem executa |
 | --- | --- |
 | multa por dano ao erário municipal | Município prejudicado — Tema 642 |
-| multa simples financeira/de colaboração perante TCE estadual | Estado-membro — Tema 642 após ADPF 1.011 |
+| multa simples financeira/de colaboração perante TCE estadual | Estado-membro — Tema 642 após <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 1.011 |
 | débito ressarcitório | identificar o ente titular do crédito |
 
 - **Tema 899:** ressarcimento fundado em decisão de Tribunal de Contas é prescritível.
@@ -80,7 +80,7 @@ Não confunda com **contas anuais**, em que o Tribunal emite parecer prévio nos
 | --- | --- |
 | afastamento | risco à fiscalização, de novo dano ou ao ressarcimento |
 | indisponibilidade | até **1 ano**; bens suficientes à garantia |
-| arresto | Tribunal solicita providência externa por intermédio do MPC |
+| arresto | Tribunal solicita providência externa por intermédio do <abbr title="Ministério Público de Contas">MPC</abbr> |
 | cautelar geral | urgência, grave lesão ou risco de ineficácia do mérito |
 
 - Cautelar urgente do relator → Pleno na primeira sessão subsequente.
@@ -92,7 +92,7 @@ Não confunda com **contas anuais**, em que o Tribunal emite parecer prévio nos
 
 - Recursos: **reconsideração + embargos de declaração + revisão**.
 - Interposição, mesmo sem conhecimento → **preclusão consumativa**.
-- Irrecorríveis: conversão/instauração de TCE, citação, inspeção e auditoria.
+- Irrecorríveis: conversão/instauração de <abbr title="Tomada de contas especial">TCE</abbr>, citação, inspeção e auditoria.
 - Recurso indevido: documentação pode ser aproveitada como defesa, quando possível.
 - MPC: ouvido em todos os recursos, **exceto embargos**.
 - Fundamento objetivo favorável → aproveita aos corresponsáveis; fundamento pessoal → não.

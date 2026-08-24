@@ -335,7 +335,7 @@ A reserva da sessão não elimina os direitos processuais assegurados às partes
 
 ### 8.6. Aplicação subsidiária
 
-Na falta de regra própria compatível, aplicam-se subsidiariamente as fontes indicadas pela Lei Orgânica, entre elas normas processuais e, no que couber, a Lei Orgânica e o Regimento do TCU, a organização judiciária estadual e o Estatuto dos servidores estaduais.
+Na falta de regra própria compatível, aplicam-se subsidiariamente as fontes indicadas pela Lei Orgânica, entre elas normas processuais e, no que couber, a Lei Orgânica e o Regimento do <abbr title="Tribunal de Contas da União">TCU</abbr>, a organização judiciária estadual e o Estatuto dos servidores estaduais.
 
 **Subsidiariedade integra lacunas; não revoga regra específica da Lei nº 8.258/2005.**
 
