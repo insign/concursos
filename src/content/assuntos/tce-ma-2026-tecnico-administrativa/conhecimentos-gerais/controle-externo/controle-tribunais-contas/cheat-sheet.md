@@ -3,10 +3,10 @@
 ## Núcleo
 
 - Congresso = titular do controle externo federal.
-- TCU = auxílio com competências constitucionais próprias.
+- <abbr title="Tribunal de Contas da União">TCU</abbr> = auxílio com competências constitucionais próprias.
 - Auxílio ≠ subordinação.
 - Tribunal de contas ≠ Poder Judiciário.
-- EC nº 139/2026: instituições **permanentes e essenciais** ao controle externo.
+- <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026: instituições **permanentes e essenciais** ao controle externo.
 
 ## Art. 70
 
@@ -37,8 +37,8 @@ Presta contas quem maneja recursos, bens, valores ou obrigações públicos, inc
 | Situação | Tribunal de contas | Câmara Municipal |
 | --- | --- | --- |
 | contas anuais do prefeito | parecer prévio | **julga** |
-| contas de gestão do prefeito ordenador de despesas | **julga** para débito e sanções não eleitorais — ADPF 982 | preserva competência para efeito eleitoral da LC nº 64/1990 |
-| TCE por convênio interfederativo | pode responsabilizar pessoalmente — Tema 1287 | não precisa ratificar a condenação administrativa |
+| contas de gestão do prefeito ordenador de despesas | **julga** para débito e sanções não eleitorais — <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982 | preserva competência para efeito eleitoral da <abbr title="Lei Complementar">LC</abbr> nº 64/1990 |
+| <abbr title="tomada de contas especial">TCE</abbr> por convênio interfederativo | pode responsabilizar pessoalmente — Tema 1287 | não precisa ratificar a condenação administrativa |
 
 - Tema 157: contas anuais → Câmara; sem julgamento ficto.
 - Tema 835: para inelegibilidade da LC nº 64/1990, decisão relevante é da Câmara.
@@ -62,7 +62,7 @@ Registro:
 - concessão inicial de aposentadoria, reforma e pensão;
 - melhoria sem alteração do fundamento legal não exige novo registro.
 
-**SV 3:** contraditório e defesa quando decisão puder desfazer ato favorável; ressalva da concessão inicial.
+**<abbr title="Súmula Vinculante">SV</abbr> 3:** contraditório e defesa quando decisão puder desfazer ato favorável; ressalva da concessão inicial.
 
 **Tema 445:** 5 anos desde a **chegada do processo ao tribunal de contas**.
 
@@ -74,7 +74,7 @@ Podem ocorrer:
 - por iniciativa da Câmara;
 - do Senado;
 - de comissão técnica;
-- de CPI.
+- de <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr>.
 
 Auditoria operacional ≠ mera busca de fraude.
 
