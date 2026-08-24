@@ -1,4 +1,4 @@
-# LBI: inclusão, acessibilidade e responsabilização
+# <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>: inclusão, acessibilidade e responsabilização
 
 ## Recorte
 
@@ -23,7 +23,7 @@ Colocação competitiva = **modo de inclusão** + igualdade + acessibilidade + t
 Trabalho com apoio:
 
 1. prioridade à maior dificuldade de inserção;
-2. suporte individualizado + TA + agente facilitador;
+2. suporte individualizado + <abbr title="tecnologia assistiva">TA</abbr> + agente facilitador;
 3. perfil vocacional + interesse;
 4. aconselhamento ao empregador + superação de barreiras;
 5. avaliações periódicas;
@@ -48,7 +48,7 @@ Regras:
 - cinema: recursos em **todas** as sessões;
 - ingresso sem preço superior.
 
-CAA cultural, art. 42, § 3º: poder público **incentivará** museus, exposições, monumentos, exibições e galerias a empregar comunicação aumentativa e alternativa para a acessibilidade de pessoas com necessidades complexas de comunicação.
+<abbr title="comunicação aumentativa e alternativa">CAA</abbr> cultural, art. 42, § 3º: poder público **incentivará** museus, exposições, monumentos, exibições e galerias a empregar comunicação aumentativa e alternativa para a acessibilidade de pessoas com necessidades complexas de comunicação.
 
 ## Hospedagem
 
@@ -85,7 +85,7 @@ Vaga:
 - credencial do órgão de trânsito;
 - vinculada à pessoa;
 - validade nacional;
-- uso indevido → CTB.
+- uso indevido → <abbr title="Código de Trânsito Brasileiro">CTB</abbr>.
 
 Coletivo:
 
@@ -174,7 +174,7 @@ Telecomunicação: pleno acesso conforme regulamento.
 Radiodifusão:
 
 - legenda oculta;
-- janela de Libras;
+- janela de <abbr title="Língua Brasileira de Sinais">Libras</abbr>;
 - audiodescrição.
 
 ## Livros, consumo e eventos
@@ -217,7 +217,7 @@ Plano:
 - importação;
 - pesquisa/produção nacional;
 - tributação;
-- inclusão no SUS/outros órgãos.
+- inclusão no <abbr title="Sistema Único de Saúde">SUS</abbr>/outros órgãos.
 
 Ciência/tecnologia: pesquisa + inovação + capacitação + TA/tecnologia social + governo eletrônico acessível.
 
@@ -238,7 +238,7 @@ Uso somente:
 
 Disseminação em formato acessível.
 
-Cadastro-Inclusão ≠ CadÚnico/BPC/estacionamento.
+Cadastro-Inclusão ≠ CadÚnico/<abbr title="Benefício de Prestação Continuada">BPC</abbr>/estacionamento.
 
 ## Controle, auxílio e comparecimento
 
@@ -247,7 +247,7 @@ Art. 93: controle interno/externo verifica legislação + acessibilidade em insp
 Art. 94, auxílio-inclusão:
 
 - deficiência moderada/grave;
-- BPC atual + atividade como segurado obrigatório RGPS; ou
+- BPC atual + atividade como segurado obrigatório <abbr title="Regime Geral de Previdência Social">RGPS</abbr>; ou
 - BPC nos últimos **5 anos** + mesma atividade.
 
 Art. 95:
@@ -255,7 +255,7 @@ Art. 95:
 - sem comparecimento se deslocamento impõe ônus desproporcional/indevido;
 - interesse público → agente vai à residência;
 - interesse da pessoa → atendimento domiciliar ou procurador;
-- perícia/saúde/SUS/Suas podem atender em domicílio.
+- perícia/saúde/SUS/<abbr title="Sistema Único de Assistência Social">Suas</abbr> podem atender em domicílio.
 
 ## Crimes
 
@@ -270,7 +270,7 @@ Art. 88:
 
 - cuidado/responsabilidade → +1/3;
 - comunicação/publicação → reclusão 2–5 + multa;
-- apreensão/interdição antes do inquérito, ouvido MP ou a pedido;
+- apreensão/interdição antes do inquérito, ouvido <abbr title="Ministério Público">MP</abbr> ou a pedido;
 - descumprimento da ordem → desobediência;
 - destruição após trânsito em julgado.
 

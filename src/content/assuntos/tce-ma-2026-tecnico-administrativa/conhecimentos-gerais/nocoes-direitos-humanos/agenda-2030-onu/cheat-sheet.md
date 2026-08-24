@@ -1,11 +1,11 @@
-# Agenda 2030 da ONU
+# Agenda 2030 da <abbr title="Organização das Nações Unidas">ONU</abbr>
 
 ## Núcleo numérico
 
 **2015 / 2016 / 17 / 169 / 5 Ps / 3 dimensões**
 
 - adoção: **25/09/2015**;
-- início dos ODS e metas: **01/01/2016**;
+- início dos <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> e metas: **01/01/2016**;
 - **17 ODS**;
 - **169 metas**;
 - **5 Ps**;
@@ -128,11 +128,11 @@ Níveis:
 
 Princípios: voluntário + liderado pelo país + participativo + transparente + baseado em evidências.
 
-### HLPF
+### <abbr title="Fórum Político de Alto Nível sobre Desenvolvimento Sustentável">HLPF</abbr>
 
 - plataforma central da ONU;
 - origem institucional ligada à Rio+20;
-- anual sob **ECOSOC**;
+- anual sob **<abbr title="Conselho Econômico e Social das Nações Unidas">ECOSOC</abbr>**;
 - quadrienal sob **Assembleia Geral**;
 - recebe VNRs.
 
