@@ -43,7 +43,7 @@ Lei nº 8.429/1992, art. 2º: conceito amplo **para os efeitos da própria lei**
 | militar | regime constitucional próprio | militar federal/estadual |
 | particular em colaboração | função pública sem quadro permanente | jurado, mesário, delegatário |
 
-**Magistrados e MP:** classificação como agentes políticos varia conforme a corrente doutrinária.
+**Magistrados e <abbr title="Ministério Público">MP</abbr>:** classificação como agentes políticos varia conforme a corrente doutrinária.
 
 ---
 
@@ -54,7 +54,7 @@ Lei nº 8.429/1992, art. 2º: conceito amplo **para os efeitos da própria lei**
 | posição estatutária | posição trabalhista | conjunto de atribuições públicas |
 | ocupado por servidor | ocupado por empregado | pode ser exercida por diferentes agentes |
 | concurso em regra | concurso em regra | depende da hipótese |
-| efetivo ou comissão | predominantemente CLT | pode existir sem cargo/emprego |
+| efetivo ou comissão | predominantemente <abbr title="Consolidação das Leis do Trabalho">CLT</abbr> | pode existir sem cargo/emprego |
 
 ### Fórmula
 
@@ -101,7 +101,7 @@ CARGO EM COMISSÃO
 
 ---
 
-## Tema 1.010/STF — cargo em comissão
+## Tema 1.010/<abbr title="Supremo Tribunal Federal">STF</abbr> — cargo em comissão
 
 Cargo em comissão:
 
@@ -159,7 +159,7 @@ Lei 8.112
 
 - servidor, para a lei: pessoa legalmente investida em cargo público;
 - cargo: conjunto de atribuições e responsabilidades;
-- **não aplicar automaticamente ao TCE/MA**.
+- **não aplicar automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>**.
 
 ---
 

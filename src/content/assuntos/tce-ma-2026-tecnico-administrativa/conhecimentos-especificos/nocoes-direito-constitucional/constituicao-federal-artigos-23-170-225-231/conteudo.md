@@ -21,7 +21,7 @@ O recorte é deliberadamente literal e aplicado. A prova pode misturar quatro bl
 | **225** | direito ao meio ambiente ecologicamente equilibrado |
 | **231** | direitos dos povos indígenas e terras tradicionalmente ocupadas |
 
-> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1. A retificação de 29 de julho de 2026 não ampliou esta linha. O estudo abaixo usa a Constituição vigente no corte e, no art. 231, a jurisprudência do STF já consolidada antes do edital.
+> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1. A retificação de 29 de julho de 2026 não ampliou esta linha. O estudo abaixo usa a Constituição vigente no corte e, no art. 231, a jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr> já consolidada antes do edital.
 
 A palavra **noções** importa: é preciso conhecer bem a literalidade, as distinções e as consequências constitucionais centrais, sem transformar o assunto em curso completo de Direito Ambiental, Direito Econômico ou Direito dos Povos Indígenas.
 
@@ -647,7 +647,7 @@ Não se deve usar a competência comum do art. 23 para apagar atribuições espe
 7. Defesa ambiental é princípio expresso da ordem econômica.
 8. Livre exercício de atividade econômica admite exceções previstas em lei.
 9. Art. 225: titular do direito = todos; dever = Poder Público + coletividade.
-10. EIA é exigido para obra/atividade potencialmente causadora de **significativa** degradação.
+10. <abbr title="Estudo Prévio de Impacto Ambiental">EIA</abbr> é exigido para obra/atividade potencialmente causadora de **significativa** degradação.
 11. Alteração/supressão de espaço especialmente protegido exige lei.
 12. Responsabilidade ambiental pode reunir sanções penais, administrativas e reparação.
 13. Patrimônio nacional ≠ propriedade da União.

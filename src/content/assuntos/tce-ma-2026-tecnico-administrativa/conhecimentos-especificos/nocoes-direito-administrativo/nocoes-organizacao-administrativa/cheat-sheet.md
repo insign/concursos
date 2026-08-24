@@ -30,7 +30,7 @@ PESSOA POLÍTICA
 └─ entidades com personalidade própria → ADMINISTRAÇÃO INDIRETA
 ```
 
-DL 200/1967 — matriz federal clássica da indireta:
+<abbr title="Decreto-Lei">DL</abbr> 200/1967 — matriz federal clássica da indireta:
 
 - autarquia;
 - empresa pública;
@@ -49,7 +49,7 @@ DL 200/1967 — matriz federal clássica da indireta:
 
 ## Lei cria × lei autoriza
 
-Art. 37, XIX, CF:
+Art. 37, XIX, <abbr title="Constituição Federal">CF</abbr>:
 
 ```text
 AUTARQUIA → lei específica CRIA
@@ -67,7 +67,7 @@ LC define áreas de atuação
 | autarquia | direito público | criada por lei; atividade típica administrativa |
 | fundação pública | público ou privado conforme regime aplicável | Tema 545: olhar criação/autorização + atividade |
 | empresa pública | direito privado | capital integralmente público |
-| sociedade de economia mista | direito privado | S.A.; admite capital privado; controle votante público |
+| sociedade de economia mista | direito privado | <abbr title="Sociedade anônima">S.A.</abbr>; admite capital privado; controle votante público |
 
 ## Autarquia
 
@@ -84,7 +84,7 @@ LC define áreas de atuação
 
 **Não absolutize a natureza jurídica.**
 
-Tema 545/STF:
+Tema 545/<abbr title="Supremo Tribunal Federal">STF</abbr>:
 
 1. examinar estatuto de criação/autorização;
 2. examinar atividades prestadas.
@@ -93,9 +93,9 @@ Tema 545/STF:
 - fundação pública de direito privado → personalidade privada, sem sair da indireta;
 - finalidade fundacional → sem distribuição de lucros.
 
-## Empresa pública × SEM
+## Empresa pública × <abbr title="Sociedade de economia mista">SEM</abbr>
 
-| Critério | EP | SEM |
+| Critério | <abbr title="Empresa pública">EP</abbr> | SEM |
 |---|---|---|
 | direito | privado | privado |
 | lei | autoriza | autoriza |
@@ -134,7 +134,7 @@ Tema 545/STF:
 
 ## Questão oficial para lembrar
 
-SEE/DF 2017, Cebraspe, conhecimentos básicos, item 24: a assertiva colocou **autarquias e empresas públicas** como pessoas de direito público e SEM como pessoa de direito privado. O gabarito definitivo foi **ERRADO**.
+<abbr title="Secretaria de Estado de Educação do Distrito Federal">SEE/DF</abbr> 2017, <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>, conhecimentos básicos, item 24: a assertiva colocou **autarquias e empresas públicas** como pessoas de direito público e SEM como pessoa de direito privado. O gabarito definitivo foi **ERRADO**.
 
 Correção:
 
