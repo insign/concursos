@@ -15,7 +15,7 @@ export type OfflineDownloadSourceEvent =
   | { type: 'background-result'; ok: boolean }
   | { type: 'idle-timeout' };
 
-export type OfflineDownloadState = OfflineDownloadSnapshot;
+export type OfflineDownloadState = OfflineDownloadSnapshot & { sequence?: number };
 
 export const OFFLINE_DOWNLOAD_IDLE_TIMEOUT_MS = 4_000;
 
@@ -77,11 +77,15 @@ export function startOfflineDownloadIndicator(
   const perContest = new Map<string, OfflineDownloadState>();
   let idleTimer: ReturnType<typeof setTimeout> | null = null;
 
+  let failureSequence = 0;
   const aggregate = (): OfflineDownloadSnapshot => {
     const entries = [...perContest.values()];
     const active = entries.find((entry) => entry.state === 'active');
     if (active) return { ...active, message: null };
-    const failed = entries.find((entry) => entry.state === 'failed');
+    // Entre falhas concorrentes, a mais recente é a acionável.
+    const failed = entries
+      .filter((entry) => entry.state === 'failed')
+      .sort((left, right) => (right.sequence ?? 0) - (left.sequence ?? 0))[0];
     if (failed) return { ...failed, percent: null };
     const success = entries.find((entry) => entry.state === 'success');
     if (success) return { ...success, percent: null };
@@ -91,11 +95,16 @@ export function startOfflineDownloadIndicator(
   const emit = () => dispatch(aggregate());
 
   const applyFor = (contestStorageId: string, event: OfflineDownloadSourceEvent) => {
-    const current =
-      perContest.get(contestStorageId) ?? { state: 'idle' as const, percent: null, message: null };
+      const current = perContest.get(contestStorageId) ?? {
+      state: 'idle' as const,
+      percent: null,
+      message: null,
+      sequence: 0,
+    };
     const next = reduceOfflineDownload(current, event);
+    if (event.type === 'failed') failureSequence += 1;
     if (next.state === 'idle') perContest.delete(contestStorageId);
-    else perContest.set(contestStorageId, next);
+    else perContest.set(contestStorageId, { ...next, sequence: event.type === 'failed' ? failureSequence : current.sequence ?? 0 });
 
     if (next.state === 'success') {
       if (idleTimer) clearTimeout(idleTimer);

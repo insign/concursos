@@ -59,10 +59,25 @@ export async function getActivePackageFetches(
 ): Promise<ActivePackageFetch[]> {
   const manager = backgroundFetchManager(registration);
   if (!manager?.getIds || !manager.get) return [];
-  const ids = await manager.getIds();
+  let ids: string[];
+  try {
+    ids = await manager.getIds();
+  } catch {
+    // Falha de enumeração não pode ser lida como 'nenhum download ativo'.
+    return [];
+  }
   const out: ActivePackageFetch[] = [];
   for (const id of ids) {
     if (!id.startsWith(BG_ID_PREFIX)) continue;
+    // Confirma cada registro via get(): enumeração pode listar ids cujos
+    // registros falharam ao resolver.
+    let record: { id?: string } | undefined;
+    try {
+      record = await manager.get(id);
+    } catch {
+      continue;
+    }
+    if (!record) continue;
     // Formato: offline-package-<timestamp 13 dígitos>-<storageId>
     const rest = id.slice(BG_ID_PREFIX.length);
     out.push({ id, contestStorageId: rest.length > 14 ? rest.slice(14) : '' });

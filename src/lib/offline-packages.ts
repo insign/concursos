@@ -103,10 +103,15 @@ async function withOfflinePackageLock<T>(operation: () => Promise<T>): Promise<T
   }, OFFLINE_PACKAGE_LEASE_TTL / 3);
 
   try {
-    if (lost) throw new Error('Coordenação de download perdida; tente novamente.');
-    return await operation();
-  } catch (error) {
+    const result = await operation();
+    // Operação bem-sucedida só é válida se o lease sobreviveu até o fim:
+    // perda no meio permite que outro contexto tenha assumido e mutado.
     if (lost) {
+      throw new Error('Coordenação de download perdida durante a operação; tente novamente.');
+    }
+    return result;
+  } catch (error) {
+    if (lost && !(error instanceof Error && error.message.startsWith('Coordenação de download perdida'))) {
       throw new Error('Coordenação de download perdida durante a operação; tente novamente.', { cause: error });
     }
     throw error;
