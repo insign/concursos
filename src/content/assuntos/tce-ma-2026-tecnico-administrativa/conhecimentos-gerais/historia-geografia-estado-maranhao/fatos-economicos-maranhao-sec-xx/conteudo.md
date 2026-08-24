@@ -34,9 +34,9 @@ Fatos políticos entram apenas quando explicam instrumentos econômicos. Migraç
 | Período | Núcleo econômico |
 |---|---|
 | anos 1950 | crise relativa do parque têxtil; importância de arroz e babaçu |
-| 1959-1969 | SUDENE, crédito e integração rodoviária |
+| 1959-1969 | <abbr title="Superintendência do Desenvolvimento do Nordeste">SUDENE</abbr>, crédito e integração rodoviária |
 | anos 1970 | política de terras, pecuarização, madeira e novas fronteiras produtivas |
-| 1980-1986 | Alumar, Programa Grande Carajás, EFC e Ponta da Madeira |
+| 1980-1986 | Alumar, Programa Grande Carajás, <abbr title="Estrada de Ferro Carajás">EFC</abbr> e Ponta da Madeira |
 | segunda metade dos anos 1980-1990 | corredor exportador, ferro-gusa e agricultura mecanizada |
 | 1995-2000 | reformas, privatizações e consolidação logística/exportadora |
 
@@ -141,7 +141,7 @@ A **Estrada de Ferro Carajás (EFC)** foi construída para integrar a produção
 
 A função econômica central era o escoamento de minério até o **Terminal Marítimo de Ponta da Madeira**, em São Luís. A ferrovia depois passou a transportar também outros produtos e passageiros, mas esses detalhes não constituem o núcleo deste item.
 
-**Ponta da Madeira é terminal privado da então CVRD/Vale**, distinto do Porto do Itaqui. Sua operação regular se consolidou em **1986**.
+**Ponta da Madeira é terminal privado da então <abbr title="Companhia Vale do Rio Doce">CVRD</abbr>/Vale**, distinto do Porto do Itaqui. Sua operação regular se consolidou em **1986**.
 
 A integração mina → ferrovia → terminal marítimo tornou-se um dos principais exemplos do novo corredor exportador maranhense.
 
@@ -189,7 +189,7 @@ Na segunda metade dos anos 1990, reformas administrativas, ajuste fiscal e deses
 Dois marcos dentro do recorte são suficientes:
 
 - **1997**: privatização federal da Companhia Vale do Rio Doce;
-- **2000**: privatização da CEMAR.
+- **2000**: privatização da <abbr title="Companhia Energética do Maranhão">CEMAR</abbr>.
 
 A infraestrutura de Carajás já funcionava antes da privatização da Vale; por isso, **1997 não é início da EFC nem de Ponta da Madeira**.
 
