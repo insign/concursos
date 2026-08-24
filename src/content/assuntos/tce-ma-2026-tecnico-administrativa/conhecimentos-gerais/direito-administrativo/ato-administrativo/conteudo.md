@@ -12,7 +12,7 @@ storageId: tec-ato-administrativo
 
 O edital do Cargo 16 exige **ato administrativo** em cinco núcleos: **conceito, requisitos, atributos, classificação e espécies**. Este assunto trata desses núcleos em profundidade compatível com o cargo técnico, sem transformar o item em um curso completo de Direito Administrativo.
 
-> **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do TCE/MA.
+> **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
 Não são objeto central desta unidade a extinção do ato, anulação e revogação, convalidação, processo administrativo em geral ou responsabilidade civil. Quando algum desses temas aparece, é apenas para esclarecer um requisito ou atributo.
 

@@ -12,7 +12,7 @@ storageId: tec-poderes-administrativos
 
 O edital do Cargo 16 exige quatro poderes administrativos — **hierárquico, disciplinar, regulamentar e de polícia** — e, em seguida, **uso e abuso do poder**. Esta unidade trata exatamente desse recorte, em profundidade compatível com o cargo técnico.
 
-> **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do TCE/MA. A conferência editorial foi feita posteriormente, sem ampliar o corte.
+> **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A conferência editorial foi feita posteriormente, sem ampliar o corte.
 
 Não são objeto central desta unidade:
 
@@ -31,7 +31,7 @@ As referências normativas e jurisprudenciais principais são:
 - Código Tributário Nacional, arts. 77 e 78, como definição legal clássica do poder de polícia e de seu exercício regular;
 - Lei nº 9.784/1999, arts. 11 a 15, apenas como **referência federal** para competência, delegação e avocação;
 - Lei nº 8.112/1990, arts. 127 a 143, apenas como **exemplo federal** de exercício disciplinar sobre servidores submetidos àquele regime;
-- STF, Tema 532 da repercussão geral (RE 633.782), sobre delegação do poder de polícia a determinadas pessoas jurídicas de direito privado da Administração indireta.
+- <abbr title="Supremo Tribunal Federal">STF</abbr>, Tema 532 da repercussão geral (<abbr title="Recurso Extraordinário">RE</abbr> 633.782), sobre delegação do poder de polícia a determinadas pessoas jurídicas de direito privado da Administração indireta.
 
 As Leis nº 9.784/1999 e nº 8.112/1990 são usadas somente como referências do regime **federal**. Elas não são apresentadas como estatutos automaticamente aplicáveis ao TCE/MA.
 
@@ -325,7 +325,7 @@ A tese admite, **por meio de lei**, delegação do poder de polícia a pessoa ju
 - serviço de atuação própria do Estado;
 - atuação em **regime não concorrencial**.
 
-No caso paradigma, discutia-se a atuação da BHTrans e a aplicação de multas de trânsito.
+No caso paradigma, discutia-se a atuação da <abbr title="Empresa de Transportes e Trânsito de Belo Horizonte S/A">BHTrans</abbr> e a aplicação de multas de trânsito.
 
 ### 7.1 O que não concluir do Tema 532
 

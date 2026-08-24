@@ -12,7 +12,7 @@ storageId: tec-agentes-publicos
 
 O edital do Cargo 16 exige **agentes públicos** em três frentes conectadas: **legislação pertinente e disposições constitucionais aplicáveis**, **conceito e espécies doutrinárias** e **cargo, emprego e função pública**. Esta unidade cobre esses pontos na profundidade adequada ao cargo técnico.
 
-> **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do TCE/MA.
+> **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
 Não são objeto central desta unidade o regime disciplinar completo, provimento e vacância em todas as suas modalidades, processo administrativo disciplinar, aposentadoria, previdência ou um estatuto funcional específico. Esses temas só aparecem quando indispensáveis para distinguir os vínculos estudados aqui.
 
@@ -22,7 +22,7 @@ As referências normativas e jurisprudenciais principais são:
 - Emenda Constitucional nº 138/2025, já vigente no corte, que alterou o art. 37, XVI, **b**, sobre acumulação de cargo de professor;
 - Lei nº 8.429/1992, art. 2º, apenas como exemplo de **conceito legal amplo de agente público para os efeitos da própria Lei de Improbidade**;
 - Lei nº 8.112/1990, arts. 2º e 3º, apenas como **referência federal** para os conceitos de servidor e cargo público naquele regime;
-- STF, Tema 1.010 da repercussão geral, sobre requisitos constitucionais para a criação de cargos em comissão;
+- <abbr title="Supremo Tribunal Federal">STF</abbr>, Tema 1.010 da repercussão geral, sobre requisitos constitucionais para a criação de cargos em comissão;
 - STF, Tema 784, apenas no ponto necessário para evitar afirmações absolutas sobre concurso e direito à nomeação.
 
 A Lei nº 8.112/1990 disciplina servidores civis **da União, das autarquias federais e das fundações públicas federais**. Ela não deve ser apresentada como estatuto automaticamente aplicável ao TCE/MA. Da mesma forma, o conceito do art. 2º da Lei nº 8.429/1992 é formulado **para os efeitos daquela lei** e não substitui, por si só, todas as classificações doutrinárias.
@@ -114,7 +114,7 @@ Essas definições ajudam conceitualmente, mas devem vir acompanhadas da pergunt
 
 ### 4.2 Empregados públicos
 
-O **empregado público** ocupa **emprego público** e mantém vínculo de natureza trabalhista, em regra regido pela CLT, sem deixar de estar sujeito às normas constitucionais e administrativas aplicáveis ao setor público.
+O **empregado público** ocupa **emprego público** e mantém vínculo de natureza trabalhista, em regra regido pela <abbr title="Consolidação das Leis do Trabalho">CLT</abbr>, sem deixar de estar sujeito às normas constitucionais e administrativas aplicáveis ao setor público.
 
 Pontos de prova:
 
@@ -281,7 +281,7 @@ O inciso IX não cria uma exceção genérica ao concurso para atender conveniê
 
 A contratação temporária também não se confunde com cargo em comissão: são fundamentos constitucionais, finalidades e vínculos distintos.
 
-## 11. Acumulação remunerada — atenção à EC nº 138/2025
+## 11. Acumulação remunerada — atenção à <abbr title="Emenda Constitucional">EC</abbr> nº 138/2025
 
 A regra constitucional é a **vedação de acumulação remunerada de cargos públicos**, ressalvadas as hipóteses do art. 37, XVI, **quando houver compatibilidade de horários**.
 
