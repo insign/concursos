@@ -14,7 +14,7 @@ O edital do Cargo 16 exige o tratamento de **registro e notificação de irregul
 
 A base normativa é a Lei nº 14.133/2021, em especial os arts. 92, 117, 137 e 155 a 169. A exposição integral do regime de infrações e sanções pertence ao estudo sistemático da Lei; aqui ele é retomado apenas no necessário para compreender como a fiscalização deve documentar o fato, comunicar a contratada, preservar prova, encaminhar a ocorrência e respeitar a competência e o devido processo.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Atualizações posteriores devem ser tratadas separadamente como pós-edital.
+> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Atualizações posteriores devem ser tratadas separadamente como pós-edital.
 
 ## 1. A sequência mental correta
 

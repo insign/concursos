@@ -66,7 +66,7 @@ Bom indicador = **relevante + objetivo + mensurável + reproduzível + auditáve
 | indicador | mede |
 | meta | define o resultado esperado |
 | tolerância | admite variação previamente definida |
-| SLA | compromisso contratual de nível de serviço |
+| <abbr title="Service Level Agreement">SLA</abbr> | compromisso contratual de nível de serviço |
 | evidência | prova o fato |
 | consequência | trata o resultado |
 

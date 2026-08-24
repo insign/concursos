@@ -14,7 +14,7 @@ Este assunto conclui o estudo normativo da Lei nº 14.133/2021 aplicado à contr
 
 Os Assuntos 124 a 129 estudaram fundamentos, planejamento, seleção, formalização e execução contratual. Aqui, esses institutos aparecem apenas quando necessários para compreender as consequências de irregularidades, a publicidade, o controle e o encerramento do regime de transição.
 
-O texto legal consolidado é a referência normativa central. Orientações do Tribunal de Contas da União (TCU) e regulamentos do Poder Executivo federal são referências qualificadas, mas não constituem automaticamente regras de organização ou procedimento do TCE-MA. O art. 187 permite que Estados, Distrito Federal e Municípios apliquem regulamentos da União; não estabelece incorporação automática.
+O texto legal consolidado é a referência normativa central. Orientações do Tribunal de Contas da União (TCU) e regulamentos do Poder Executivo federal são referências qualificadas, mas não constituem automaticamente regras de organização ou procedimento do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. O art. 187 permite que Estados, Distrito Federal e Municípios apliquem regulamentos da União; não estabelece incorporação automática.
 
 > **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Datas posteriores de consulta das fontes servem apenas à conferência editorial e não alteram o corte jurídico.
 
@@ -328,7 +328,7 @@ Não é necessário transformar este item de Gestão de Contratos em estudo espe
 ### 12.1 Organização, atualização e contagem
 
 - **Art. 181:** entes instituirão centrais de compras; Municípios com até dez mil habitantes formarão preferencialmente consórcios públicos para compras em grande escala.
-- **Art. 182:** o Executivo federal atualiza em cada 1º de janeiro, pelo IPCA-E ou substituto, os valores fixados na Lei e os divulga no PNCP.
+- **Art. 182:** o Executivo federal atualiza em cada 1º de janeiro, pelo <abbr title="Índice Nacional de Preços ao Consumidor Amplo Especial">IPCA-E</abbr> ou substituto, os valores fixados na Lei e os divulga no PNCP.
 - **Art. 183:** exclui-se o dia do começo e inclui-se o do vencimento; dias corridos contam continuamente; meses e anos contam de data a data; dias úteis consideram expediente administrativo.
 
 Salvo disposição contrária, o prazo começa no primeiro dia útil após a disponibilização da informação na internet ou na data de juntada do aviso de recebimento postal. Vencimento sem expediente, com encerramento antecipado ou indisponibilidade eletrônica prorroga-se ao primeiro dia útil seguinte. Se não houver data equivalente no mês final, usa-se o último dia do mês.
@@ -345,7 +345,7 @@ O art. 184-A cria regime simplificado para convênios, contratos de repasse e co
 - **Art. 186:** a Lei nº 14.133/2021 aplica-se subsidiariamente às Leis nº 8.987/1995, nº 11.079/2004 e nº 12.232/2010.
 - **Art. 187:** Estados, Distrito Federal e Municípios podem aplicar regulamentos da União.
 - **Arts. 188 e 192:** o art. 188 foi vetado; contratos de imóveis da União, autarquias e fundações federais seguem a legislação pertinente, com aplicação subsidiária da Lei nº 14.133/2021.
-- **Art. 189:** referências legais expressas às antigas Leis nº 8.666/1993 e nº 10.520/2002 e aos arts. 1º a 47-A do RDC passam a ser entendidas como referências à Lei nº 14.133/2021.
+- **Art. 189:** referências legais expressas às antigas Leis nº 8.666/1993 e nº 10.520/2002 e aos arts. 1º a 47-A do <abbr title="Regime Diferenciado de Contratações Públicas">RDC</abbr> passam a ser entendidas como referências à Lei nº 14.133/2021.
 
 ### 12.4 Transição, revogação e vigência
 

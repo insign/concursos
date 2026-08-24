@@ -14,9 +14,9 @@ O edital do Cargo 16 exige noções de organização administrativa em três blo
 
 O objetivo é reconhecer **quem executa a atividade**, **se existe ou não nova pessoa jurídica**, **como as competências são distribuídas internamente** e **qual é o regime básico das entidades da administração indireta**. Não é objetivo deste assunto aprofundar licitações, responsabilidade civil, agentes públicos, poderes administrativos ou serviços públicos, que possuem recortes próprios no edital.
 
-> **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do TCE/MA.
+> **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-Como referência legal, o Decreto-Lei nº 200/1967 disciplina a Administração Federal e fornece a matriz clássica de administração direta e indireta. A Constituição Federal, especialmente o art. 37, XIX e XX, define exigências de criação/autorização de entidades. Para empresas estatais, a Lei nº 13.303/2016 atualiza conceitos de empresa pública e sociedade de economia mista. Para fundações instituídas pelo Estado, o Tema 545 da repercussão geral do STF impede simplificações absolutas quanto ao regime público ou privado.
+Como referência legal, o Decreto-Lei nº 200/1967 disciplina a Administração Federal e fornece a matriz clássica de administração direta e indireta. A Constituição Federal, especialmente o art. 37, XIX e XX, define exigências de criação/autorização de entidades. Para empresas estatais, a Lei nº 13.303/2016 atualiza conceitos de empresa pública e sociedade de economia mista. Para fundações instituídas pelo Estado, o Tema 545 da repercussão geral do <abbr title="Supremo Tribunal Federal">STF</abbr> impede simplificações absolutas quanto ao regime público ou privado.
 
 ## 1. Quatro fenômenos organizacionais
 
@@ -174,7 +174,7 @@ Autonomia administrativa não equivale a soberania nem a independência absoluta
 
 Autarquia não possui personalidade de direito privado e não se confunde com empresa pública ou sociedade de economia mista.
 
-Essa distinção é cobrada de forma direta pelo Cebraspe: personalidade jurídica é um dos primeiros filtros para identificar a entidade.
+Essa distinção é cobrada de forma direta pelo <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>: personalidade jurídica é um dos primeiros filtros para identificar a entidade.
 
 ## 6. Fundações públicas
 
@@ -239,7 +239,7 @@ A Lei nº 13.303/2016 define sociedade de economia mista como entidade dotada de
 | personalidade | direito privado | direito privado |
 | autorização legal | sim | sim |
 | capital | integralmente público | público + possibilidade de capital privado |
-| forma societária | forma admitida em direito | obrigatoriamente S.A. |
+| forma societária | forma admitida em direito | obrigatoriamente <abbr title="Sociedade anônima">S.A.</abbr> |
 | controle | público | maioria das ações com voto sob controle público |
 | administração indireta | sim | sim |
 
@@ -295,7 +295,7 @@ Lei autoriza uma sociedade anônima com maioria das ações votantes sob control
 |---|---|
 | Descentralização cria órgãos. | Desconcentração distribui competências entre órgãos; descentralização envolve sujeito distinto. |
 | Órgão possui personalidade jurídica própria. | A personalidade é da pessoa jurídica a que o órgão pertence. |
-| Toda entidade da indireta é de direito público. | EP e SEM são de direito privado; fundações exigem análise de seu regime. |
+| Toda entidade da indireta é de direito público. | <abbr title="Empresa pública">EP</abbr> e <abbr title="Sociedade de economia mista">SEM</abbr> são de direito privado; fundações exigem análise de seu regime. |
 | Autarquia é autorizada por lei e nasce depois no registro. | A Constituição diz que autarquia é criada por lei específica. |
 | EP e SEM são criadas diretamente pela lei. | A lei específica autoriza sua instituição. |
 | Empresa pública precisa ser S.A. | A obrigatoriedade de S.A. é da SEM. |

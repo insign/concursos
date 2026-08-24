@@ -151,7 +151,7 @@ Isso **não** substitui a defesa da contratada.
 | Situação | Providência |
 |---|---|
 | simples impropriedade formal | saneamento + prevenção de recorrência + melhoria de controles/capacitação |
-| irregularidade com dano | medidas anteriores + apuração + segregação + individualização + remessa cabível ao MP |
+| irregularidade com dano | medidas anteriores + apuração + segregação + individualização + remessa cabível ao <abbr title="Ministério Público">MP</abbr> |
 
 ## Art. 155 — infrações mais ligadas à execução
 

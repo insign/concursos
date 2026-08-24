@@ -19,7 +19,7 @@ O edital do **Cargo 16 — Técnico Estadual de Controle Externo, Especialidade 
 
 A base normativa central é a **Lei nº 14.133/2021**, especialmente os arts. 6º, XXIII, 92, 115, 117, 118, 119 e 123. O foco aqui não é repetir todo o regime jurídico dos contratos administrativos, mas transformar obrigações contratuais em acompanhamento verificável.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data do Edital nº 1 do TCE/MA. A versão consolidada do edital, com as retificações disponíveis até 29 de julho de 2026, foi usada para confirmar o recorte programático. Consultas posteriores servem à conferência editorial e não deslocam o corte jurídico.
+> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A versão consolidada do edital, com as retificações disponíveis até 29 de julho de 2026, foi usada para confirmar o recorte programático. Consultas posteriores servem à conferência editorial e não deslocam o corte jurídico.
 
 A lógica do assunto pode ser resumida assim:
 
@@ -479,7 +479,7 @@ A Administração contrata especialista para realizar ensaio técnico e produzir
 | Afirmação | Julgamento |
 |---|---|
 | Indicador cria obrigação mesmo sem previsão contratual. | Errada. |
-| SLA é compromisso de desempenho ligado ao contrato. | Certa. |
+| <abbr title="Service Level Agreement">SLA</abbr> é compromisso de desempenho ligado ao contrato. | Certa. |
 | Toda métrica deve ser percentual. | Errada. |
 | Relatório da contratada dispensa validação. | Errada. |
 | Fiscal pode determinar correção de defeito já abrangido pelo contrato. | Certa. |
