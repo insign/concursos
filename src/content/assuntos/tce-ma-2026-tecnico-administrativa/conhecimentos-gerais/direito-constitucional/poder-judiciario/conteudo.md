@@ -20,7 +20,7 @@ O item 8 de **Direito Constitucional** do Cargo 16 exige:
 
 O núcleo constitucional está no **Capítulo III do Título IV da Constituição Federal, arts. 92 a 126**.
 
-> **Corte de prova:** texto constitucional e jurisprudência consolidada até **6 de julho de 2026**. A Constituição já estava emendada até a **EC nº 139/2026**. Dentro do capítulo do Poder Judiciário, merecem atenção especial a **EC nº 134/2024**, que acrescentou regra ao art. 96 sobre eleição de cargos diretivos em determinados Tribunais de Justiça, e a **EC nº 136/2025**, que alterou o regime constitucional de precatórios do art. 100.
+> **Corte de prova:** texto constitucional e jurisprudência consolidada até **6 de julho de 2026**. A Constituição já estava emendada até a **<abbr title="Emenda Constitucional">EC</abbr> nº 139/2026**. Dentro do capítulo do Poder Judiciário, merecem atenção especial a **EC nº 134/2024**, que acrescentou regra ao art. 96 sobre eleição de cargos diretivos em determinados Tribunais de Justiça, e a **EC nº 136/2025**, que alterou o regime constitucional de precatórios do art. 100.
 
 A retificação do Edital nº 2, de 29 de julho de 2026, manteve este recorte para Direito Constitucional. O assunto é amplo, mas deve permanecer proporcional ao cargo: a finalidade é dominar o **desenho constitucional dos órgãos, sua composição essencial, competências mais cobradas e regras institucionais**, sem transformar cada ramo do Judiciário em disciplina processual autônoma.
 
@@ -65,7 +65,7 @@ Lei complementar, de iniciativa do **STF**, dispõe sobre o Estatuto da Magistra
 
 O cargo inicial é o de **juiz substituto**, mediante concurso público de provas e títulos:
 
-- participação da OAB em todas as fases;
+- participação da <abbr title="Ordem dos Advogados do Brasil">OAB</abbr> em todas as fases;
 - exigência mínima de **três anos de atividade jurídica** do bacharel em Direito;
 - nomeações segundo a ordem de classificação.
 
@@ -210,7 +210,7 @@ Pagamentos devidos pelas Fazendas Públicas em razão de sentença judicial segu
 - créditos próprios para esse fim;
 - proibição de designação casuística de pessoas ou casos na dotação.
 
-Obrigações de pequeno valor definidas em lei (**RPV**) não seguem o regime de precatório.
+Obrigações de pequeno valor definidas em lei (**<abbr title="Requisição de Pequeno Valor">RPV</abbr>**) não seguem o regime de precatório.
 
 ### 7.2 Preferência
 
@@ -257,12 +257,12 @@ Ao STF compete, **precipuamente, a guarda da Constituição**.
 
 O STF processa e julga originariamente, entre outros:
 
-- ADI de lei/ato normativo federal ou estadual e ADC de lei/ato normativo federal;
+- <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> de lei/ato normativo federal ou estadual e <abbr title="Ação Declaratória de Constitucionalidade">ADC</abbr> de lei/ato normativo federal;
 - infrações penais comuns do Presidente, Vice-Presidente, membros do Congresso, Ministros do próprio STF e PGR;
 - litígios entre Estado estrangeiro/organismo internacional e União, Estado, DF ou Território;
 - causas e conflitos entre União e Estados, União e DF, ou entre uns e outros;
 - extradição solicitada por Estado estrangeiro;
-- ações contra CNJ e CNMP;
+- ações contra <abbr title="Conselho Nacional de Justiça">CNJ</abbr> e <abbr title="Conselho Nacional do Ministério Público">CNMP</abbr>;
 - conflitos de competência envolvendo STJ e outros tribunais nas hipóteses do art. 102, I, “o”.
 
 ### 8.4 Recursos
@@ -327,7 +327,7 @@ O CNJ possui **15 membros**, com mandato de **2 anos**, admitida **1 reconduçã
 | 1 juiz federal | STJ |
 | 1 juiz de TRT | TST |
 | 1 juiz do trabalho | TST |
-| 1 membro do MPU | PGR |
+| 1 membro do <abbr title="Ministério Público da União">MPU</abbr> | <abbr title="Procurador-Geral da República">PGR</abbr> |
 | 1 membro de MP estadual | PGR, dentre nomes indicados pelas instituições estaduais |
 | 2 advogados | Conselho Federal da OAB |
 | 2 cidadãos de notável saber jurídico e reputação ilibada | 1 pela Câmara e 1 pelo Senado |
@@ -354,7 +354,7 @@ ADMINISTRAÇÃO + FINANÇAS + DEVERES FUNCIONAIS DOS JUÍZES
 Compete ao CNJ:
 
 1. zelar pela autonomia do Poder Judiciário e pelo Estatuto da Magistratura, expedindo atos regulamentares no âmbito de sua competência ou recomendando providências;
-2. zelar pelo art. 37 e apreciar a legalidade de atos administrativos de membros ou órgãos do Judiciário, podendo desconstituí-los, revê-los ou fixar prazo para providências, sem prejuízo da competência do TCU;
+2. zelar pelo art. 37 e apreciar a legalidade de atos administrativos de membros ou órgãos do Judiciário, podendo desconstituí-los, revê-los ou fixar prazo para providências, sem prejuízo da competência do <abbr title="Tribunal de Contas da União">TCU</abbr>;
 3. receber reclamações contra membros ou órgãos do Judiciário, serviços auxiliares, serventias e serviços notariais e de registro abrangidos pelo dispositivo;
 4. avocar processos disciplinares em curso e aplicar as sanções administrativas constitucionalmente cabíveis, assegurada ampla defesa;
 5. representar ao Ministério Público em caso de crime contra a administração pública ou abuso de autoridade;
@@ -461,7 +461,7 @@ Cada TRF possui, no mínimo, **7 juízes**, recrutados quando possível na regi�
 
 Composição:
 
-- 1/5 de advogados e membros do MPF com os requisitos constitucionais;
+- 1/5 de advogados e membros do <abbr title="Ministério Público Federal">MPF</abbr> com os requisitos constitucionais;
 - demais mediante promoção de juízes federais com mais de 5 anos de exercício, alternadamente por antiguidade e merecimento.
 
 TRFs:
@@ -540,8 +540,8 @@ Nas Varas do Trabalho, a jurisdição é exercida por **juiz singular**.
 
 São órgãos da Justiça Eleitoral:
 
-- TSE;
-- TREs;
+- <abbr title="Tribunal Superior Eleitoral">TSE</abbr>;
+- <abbr title="Tribunais Regionais Eleitorais">TREs</abbr>;
 - Juízes Eleitorais;
 - Juntas Eleitorais.
 

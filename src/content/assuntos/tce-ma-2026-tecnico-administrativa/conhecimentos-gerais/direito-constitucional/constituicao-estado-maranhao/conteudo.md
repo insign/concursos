@@ -24,7 +24,7 @@ O **corte da prova é 6 de julho de 2026**, data do edital. A edição consolida
 Este assunto não repete em profundidade:
 
 - a teoria geral da Constituição Federal, já tratada nos assuntos 123–131;
-- a disciplina detalhada do **TCE/MA**, já estudada no assunto 054 de Controle Externo;
+- a disciplina detalhada do **<abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>**, já estudada no assunto 054 de Controle Externo;
 - a disciplina federal completa de Ministério Público, Advocacia Pública e Defensoria Pública, já estudada no assunto 131.
 
 Aqui o foco é **o desenho estadual e suas peculiaridades**.
@@ -44,7 +44,7 @@ A Constituição é organizada, em linhas gerais, assim:
 | Título VI | tributação e orçamento |
 | Título VII | organização municipal |
 | Título VIII | ordem econômica e social |
-| Título IX + ADCT | disposições gerais finais e transitórias |
+| Título IX + <abbr title="Ato das Disposições Constitucionais Transitórias">ADCT</abbr> | disposições gerais finais e transitórias |
 
 Esse mapa ajuda a localizar a matéria, mas prova costuma cobrar **regra concreta**, e não apenas o nome dos títulos.
 
@@ -230,7 +230,7 @@ A sessão legislativa não pode ser interrompida sem a aprovação da lei de dir
 
 A Constituição prevê Procuradoria-Geral da Assembleia para consultoria jurídica e representação judicial do Poder Legislativo, no que couber.
 
-A EC nº 101/2024 acrescentou o art. 28-C sobre a Direção Superior da Assembleia. O tema exige uma cautela jurisprudencial: no corte do edital, o STF já havia julgado a **ADI 7.757**, invalidando a extensão de foro por prerrogativa de função a ocupantes de cargos administrativos da Direção Superior. A existência da estrutura administrativa não autoriza criar foro especial sem base na Constituição Federal.
+A EC nº 101/2024 acrescentou o art. 28-C sobre a Direção Superior da Assembleia. O tema exige uma cautela jurisprudencial: no corte do edital, o <abbr title="Supremo Tribunal Federal">STF</abbr> já havia julgado a **<abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 7.757**, invalidando a extensão de foro por prerrogativa de função a ocupantes de cargos administrativos da Direção Superior. A existência da estrutura administrativa não autoriza criar foro especial sem base na Constituição Federal.
 
 > **Pegadinha:** cargo de alta direção administrativa da Assembleia ≠ autoridade automaticamente dotada de foro criminal originário no TJ/MA.
 
@@ -267,7 +267,7 @@ Podem propor emenda:
 - mais da metade das Câmaras Municipais, cada uma pela maioria relativa de seus membros;
 - cidadãos, por iniciativa popular.
 
-Para iniciativa popular de **PEC estadual**:
+Para iniciativa popular de **<abbr title="Proposta de Emenda à Constituição">PEC</abbr> estadual**:
 
 ```text
 2% do eleitorado estadual
@@ -430,7 +430,7 @@ Entre as atribuições privativas:
 
 Admitida a acusação por **2/3 dos deputados**, o Governador será julgado:
 
-- pelo **STJ**, nas infrações penais comuns;
+- pelo **<abbr title="Superior Tribunal de Justiça">STJ</abbr>**, nas infrações penais comuns;
 - pela **Assembleia Legislativa**, nos crimes de responsabilidade.
 
 Se o julgamento não terminar em **180 dias**, cessa o afastamento, sem prejuízo do prosseguimento do processo.
@@ -592,9 +592,9 @@ Os Municípios podem instituir guardas municipais para proteção de seus bens, 
 
 A Constituição estadual deve ser lida à luz do Sistema Tributário Nacional. O Estado institui, no núcleo constitucional atual:
 
-- ITCMD;
-- ICMS;
-- IPVA.
+- <abbr title="Imposto sobre Transmissão Causa Mortis e Doação">ITCMD</abbr>;
+- <abbr title="Imposto sobre Circulação de Mercadorias e Serviços">ICMS</abbr>;
+- <abbr title="Imposto sobre a Propriedade de Veículos Automotores">IPVA</abbr>.
 
 A edição consolidada reproduz limitações ao poder de tributar, como legalidade, isonomia, irretroatividade, anterioridade, vedação de confisco e imunidades.
 
@@ -606,9 +606,9 @@ Como o edital possui assunto próprio de Execução Orçamentária e Financeira,
 
 Leis de iniciativa do Executivo estabelecem:
 
-1. PPA;
-2. LDO;
-3. LOA;
+1. <abbr title="Plano Plurianual">PPA</abbr>;
+2. <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>;
+3. <abbr title="Lei Orçamentária Anual">LOA</abbr>;
 4. **Plano Estratégico de Longo Prazo**.
 
 O quarto instrumento foi introduzido pela EC nº 98/2024.
@@ -771,7 +771,7 @@ Também protege topônimos de origem indígena ou histórica.
 
 O Estado deve promover desenvolvimento científico, pesquisa e capacitação tecnológica.
 
-A Constituição destina à FAPEMA parcela constitucional específica e limita despesas administrativas da Fundação. Para prova, a regra de recuperação rápida é:
+A Constituição destina à <abbr title="Fundação de Amparo à Pesquisa e ao Desenvolvimento Científico e Tecnológico do Maranhão">FAPEMA</abbr> parcela constitucional específica e limita despesas administrativas da Fundação. Para prova, a regra de recuperação rápida é:
 
 ```text
 FAPEMA → 0,5% da receita corrente anual
@@ -854,9 +854,9 @@ Exemplos de cautela:
 | afastamento em processo do Governador | máximo inicial de **180 dias** |
 | DPG | **2 anos + 1 recondução** |
 | ADI por omissão — órgão administrativo | **30 dias** |
-| RREO estadual | até **30 dias após cada bimestre** |
+| <abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr> estadual | até **30 dias após cada bimestre** |
 | plano estratégico de longo prazo | mínimo **20 anos / 5 PPAs** |
-| emendas individuais — EC 103/2025 | **1,55% RCL** |
+| emendas individuais — EC 103/2025 | **1,55% <abbr title="Receita Corrente Líquida">RCL</abbr>** |
 | parcela das emendas individuais para saúde | **metade** |
 | transferências especiais — capital | **≥70%** |
 | duodécimos/dotações constitucionais | até dia **20** |

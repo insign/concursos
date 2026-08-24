@@ -62,7 +62,7 @@ SALVO QUÓRUM CONSTITUCIONAL ESPECIAL
 - processa/julga crime de responsabilidade
 - aprova autoridades
 - limites de dívida/operações
-- suspende execução de lei declarada inconstitucional pelo STF
+- suspende execução de lei declarada inconstitucional pelo <abbr title="Supremo Tribunal Federal">STF</abbr>
 
 ---
 
@@ -77,7 +77,7 @@ SALVO QUÓRUM CONSTITUCIONAL ESPECIAL
 Convocáveis:
 - Ministro;
 - titular de órgão diretamente subordinado à Presidência;
-- Presidente do Comitê Gestor do IBS.
+- Presidente do Comitê Gestor do <abbr title="Imposto sobre Bens e Serviços">IBS</abbr>.
 
 ---
 
@@ -117,7 +117,7 @@ STF recebe denúncia
 
 ---
 
-## 8. CPI — fórmula
+## 8. <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr> — fórmula
 
 ```text
 1/3
@@ -140,9 +140,9 @@ STF recebe denúncia
 
 `CPI INVESTIGA ≠ JULGA`
 
-Conclusões → MP, se for o caso.
+Conclusões → <abbr title="Ministério Público">MP</abbr>, se for o caso.
 
-### MS 40.799 — 26/3/2026
+### <abbr title="Mandado de Segurança">MS</abbr> 40.799 — 26/3/2026
 
 ```text
 DIREITO À CRIAÇÃO ≠ DIREITO AUTOMÁTICO À PRORROGAÇÃO
@@ -166,7 +166,7 @@ RES
 
 ---
 
-## 10. PEC
+## 10. <abbr title="Proposta de Emenda à Constituição">PEC</abbr>
 
 ```text
 INICIATIVA
@@ -210,7 +210,7 @@ SANÇÃO
 
 ---
 
-## 12. MP
+## 12. <abbr title="Medida Provisória">MP</abbr>
 
 ```text
 RELEVÂNCIA + URGÊNCIA
@@ -223,8 +223,8 @@ Não pode, entre outras:
 - nacionalidade/cidadania/direitos políticos/eleitoral;
 - penal/processual penal/processual civil;
 - organização Judiciário/MP;
-- matéria de LC;
-- PPA/LDO/orçamento, salvo exceção;
+- matéria de <abbr title="Lei Complementar">LC</abbr>;
+- <abbr title="Plano Plurianual">PPA</abbr>/<abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>/orçamento, salvo exceção;
 - sequestro de ativos.
 
 `REJEITADA/CADUCA → NÃO reeditada na mesma sessão`
@@ -317,7 +317,7 @@ Não delega:
 
 ---
 
-## 19. Congresso × TCU
+## 19. Congresso × <abbr title="Tribunal de Contas da União">TCU</abbr>
 
 ```text
 CONGRESSO → TITULAR controle externo
@@ -350,7 +350,7 @@ Legitimados para denunciar:
 
 ---
 
-## 21. EC 139/2026 — art. 75
+## 21. <abbr title="Emenda Constitucional">EC</abbr> 139/2026 — art. 75
 
 ```text
 TRIBUNAIS DE CONTAS

@@ -20,7 +20,7 @@ O item 7 de **Direito Constitucional** do Cargo 16 exige cinco subnúcleos:
 
 O eixo constitucional é o **Capítulo I do Título IV da Constituição Federal, arts. 44 a 75**.
 
-> **Corte de prova:** texto constitucional e jurisprudência consolidados até **6 de julho de 2026**. Nesse corte já vigora a **EC nº 139/2026**, que alterou o art. 75, e já havia sido julgado pelo STF o **MS 40.799**, relevante para a prorrogação de CPI/CPMI.
+> **Corte de prova:** texto constitucional e jurisprudência consolidados até **6 de julho de 2026**. Nesse corte já vigora a **<abbr title="Emenda Constitucional">EC</abbr> nº 139/2026**, que alterou o art. 75, e já havia sido julgado pelo <abbr title="Supremo Tribunal Federal">STF</abbr> o **<abbr title="Mandado de Segurança">MS</abbr> 40.799**, relevante para a prorrogação de CPI/<abbr title="Comissão Parlamentar Mista de Inquérito">CPMI</abbr>.
 
 Este assunto integra a visão constitucional do Legislativo. Para evitar duplicidade:
 
@@ -107,7 +107,7 @@ Logo, a Constituição distingue:
 
 Essa regra cede quando a própria Constituição exige quórum especial, como:
 
-- PEC → **3/5**, em dois turnos, em cada Casa;
+- <abbr title="Proposta de Emenda à Constituição">PEC</abbr> → **3/5**, em dois turnos, em cada Casa;
 - lei complementar → **maioria absoluta**;
 - autorização da Câmara do art. 51, I → **2/3**;
 - suspensão de imunidades no estado de sítio → **2/3** da Casa respectiva.
@@ -125,7 +125,7 @@ A sanção não é exigida nas competências dos arts. **49, 51 e 52**.
 Entre os temas do art. 48 estão:
 
 - sistema tributário, arrecadação e distribuição de rendas;
-- PPA, LDO e orçamento anual;
+- <abbr title="Plano Plurianual">PPA</abbr>, <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> e orçamento anual;
 - operações de crédito, dívida pública e emissões;
 - efetivo das Forças Armadas;
 - planos e programas nacionais, regionais e setoriais;
@@ -164,7 +164,7 @@ Entre as mais cobradas:
 - fiscalizar e controlar atos do Executivo, inclusive da administração indireta;
 - zelar pela preservação da competência legislativa;
 - apreciar concessões de rádio e televisão;
-- escolher **2/3 dos membros do TCU**;
+- escolher **2/3 dos membros do <abbr title="Tribunal de Contas da União">TCU</abbr>**;
 - autorizar referendo e convocar plebiscito;
 - autorizar, em terras indígenas, aproveitamento de recursos hídricos e pesquisa/lavra mineral;
 - aprovar previamente alienação ou concessão de terras públicas acima de 2.500 hectares;
@@ -186,7 +186,7 @@ Podem ser convocados:
 
 - Ministro de Estado;
 - titular de órgão diretamente subordinado à Presidência da República;
-- Presidente do Comitê Gestor do IBS.
+- Presidente do Comitê Gestor do <abbr title="Imposto sobre Bens e Serviços">IBS</abbr>.
 
 A ausência sem justificação adequada importa **crime de responsabilidade**.
 
@@ -212,7 +212,7 @@ Entre as mais cobradas:
 
 - processar e julgar Presidente e Vice nos crimes de responsabilidade;
 - processar e julgar Ministros de Estado e Comandantes das Forças Armadas nos crimes conexos;
-- processar e julgar, nos casos constitucionais, Ministros do STF, membros do CNJ/CNMP, PGR e AGU;
+- processar e julgar, nos casos constitucionais, Ministros do STF, membros do <abbr title="Conselho Nacional de Justiça">CNJ</abbr>/<abbr title="Conselho Nacional do Ministério Público">CNMP</abbr>, <abbr title="Procurador-Geral da República">PGR</abbr> e <abbr title="Advogado-Geral da União">AGU</abbr>;
 - aprovar previamente certas autoridades;
 - autorizar operações externas de natureza financeira;
 - fixar limites para dívida e operações de crédito;

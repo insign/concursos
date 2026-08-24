@@ -16,14 +16,14 @@
 | Função | Instituição |
 |---|---|
 | ação penal pública | **MP** |
-| inquérito civil / ACP | **MP** |
+| inquérito civil / <abbr title="Ação Civil Pública">ACP</abbr> | **MP** |
 | controle externo da polícia | **MP** |
-| representar judicialmente a União | **AGU** |
+| representar judicialmente a União | **<abbr title="Advocacia-Geral da União">AGU</abbr>** |
 | consultoria jurídica do Executivo federal | **AGU** |
-| dívida ativa tributária da União | **PGFN** |
+| dívida ativa tributária da União | **<abbr title="Procuradoria-Geral da Fazenda Nacional">PGFN</abbr>** |
 | representar Estado/DF | **Procuradorias estaduais/DF** |
 | orientação + direitos humanos + defesa integral gratuita dos necessitados | **Defensoria** |
-| controle administrativo/financeiro do MP | **CNMP** |
+| controle administrativo/financeiro do MP | **<abbr title="Conselho Nacional do Ministério Público">CNMP</abbr>** |
 
 `MP NÃO representa nem presta consultoria jurídica a entidades públicas.`
 
@@ -67,7 +67,7 @@ MPEs
 
 ---
 
-## 5. PGR × PG estadual/MPDFT
+## 5. <abbr title="Procurador-Geral da República">PGR</abbr> × PG estadual/<abbr title="Ministério Público do Distrito Federal e Territórios">MPDFT</abbr>
 
 | Ponto | PGR | PG estadual/MPDFT |
 |---|---|---|
@@ -140,7 +140,7 @@ direitos
 
 **NÃO conclua:** “MPC é ramo do MPU/MPE”.
 
-STF:
+<abbr title="Supremo Tribunal Federal">STF</abbr>:
 
 `MPC ligado estrutural/administrativamente ao Tribunal de Contas perante o qual oficia.`
 
@@ -182,7 +182,7 @@ Composição:
 Pode:
 
 - rever/desconstituir ato administrativo;
-- avocar PAD;
+- avocar <abbr title="Processo Administrativo Disciplinar">PAD</abbr>;
 - remover/disponibilizar/aplicar sanções administrativas cabíveis;
 - rever PAD julgado há **< 1 ano**;
 - relatório anual.
