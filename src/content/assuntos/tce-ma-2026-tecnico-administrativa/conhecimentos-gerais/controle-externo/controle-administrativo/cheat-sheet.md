@@ -29,7 +29,7 @@ Pode envolver:
 | fiscalização, instauração, revisão | petição, requerimento, reclamação, representação, recurso |
 | não depende de pedido | pedido não garante deferimento |
 
-Direito de petição: **sem taxa** — CF, art. 5º, XXXIV.
+Direito de petição: **sem taxa** — <abbr title="Constituição Federal">CF</abbr>, art. 5º, XXXIV.
 
 ## Hierarquia x tutela
 
@@ -112,7 +112,7 @@ Decisão que:
 - dirigido inicialmente à autoridade que decidiu;
 - ela pode reconsiderar em **5 dias** antes de encaminhar à superior;
 - essa reconsideração não é um recurso autônomo genérico;
-- SV 21: sem depósito/arrolamento prévio de dinheiro ou bens para admitir recurso.
+- <abbr title="Súmula Vinculante">SV</abbr> 21: sem depósito/arrolamento prévio de dinheiro ou bens para admitir recurso.
 
 ## Delegação x avocação
 

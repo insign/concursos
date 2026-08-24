@@ -20,7 +20,7 @@ Para o Cargo 16, o foco é compreender:
 6. intensidade do controle sobre discricionariedade, políticas públicas e procedimentos administrativos;
 7. instrumentos judiciais apenas no necessário para identificar a via de controle.
 
-Direito Administrativo e Direito Constitucional não integram, como disciplinas autônomas, o programa do Cargo 16. Por isso, remédios constitucionais, LINDB e processo administrativo aparecem somente como **apoio ao tema central**.
+Direito Administrativo e Direito Constitucional não integram, como disciplinas autônomas, o programa do Cargo 16. Por isso, remédios constitucionais, <abbr title="Lei de Introdução às Normas do Direito Brasileiro">LINDB</abbr> e processo administrativo aparecem somente como **apoio ao tema central**.
 
 ## 2. Sistemas de controle dos litígios administrativos
 
@@ -75,7 +75,7 @@ Ela:
 
 ## 4. Autotutela × controle jurisdicional
 
-As Súmulas 346 e 473 do STF sintetizam a autotutela: a Administração pode anular seus atos ilegais e revogar atos válidos por conveniência ou oportunidade, respeitados os limites jurídicos.
+As Súmulas 346 e 473 do <abbr title="Supremo Tribunal Federal">STF</abbr> sintetizam a autotutela: a Administração pode anular seus atos ilegais e revogar atos válidos por conveniência ou oportunidade, respeitados os limites jurídicos.
 
 O Judiciário, por sua vez:
 
@@ -106,11 +106,11 @@ Pode haver, entretanto, situações em que a própria existência de lesão ou i
 
 ### 5.2. Tema 350 do STF
 
-No RE 631.240, Tema 350, o STF tratou da **concessão de benefício previdenciário**.
+No <abbr title="Recurso Extraordinário">RE</abbr> 631.240, Tema 350, o STF tratou da **concessão de benefício previdenciário**.
 
 Regra essencial:
 
-- para concessão inicial, exige-se em regra requerimento ao INSS;
+- para concessão inicial, exige-se em regra requerimento ao <abbr title="Instituto Nacional do Seguro Social">INSS</abbr>;
 - não é necessário esgotar recursos administrativos;
 - o requerimento pode ser dispensado quando houver posição administrativa notória e reiteradamente contrária à pretensão;
 - em revisão, restabelecimento ou manutenção, a lesão em geral já está configurada, ressalvado fato novo ainda não submetido à Administração.
@@ -128,7 +128,7 @@ A Justiça Desportiva não integra o Poder Judiciário, e sua decisão permanece
 
 ### 5.4. Dois exemplos legais específicos
 
-**Habeas data:** a Lei nº 9.507/1997 exige resistência administrativa, mediante recusa ou decurso dos prazos legais. A Súmula 2 do STJ afasta o habeas data sem recusa da autoridade.
+**Habeas data:** a Lei nº 9.507/1997 exige resistência administrativa, mediante recusa ou decurso dos prazos legais. A Súmula 2 do <abbr title="Superior Tribunal de Justiça">STJ</abbr> afasta o habeas data sem recusa da autoridade.
 
 **Mandado de segurança:** o art. 5º, I, da Lei nº 12.016/2009 impede MS contra ato do qual caiba recurso administrativo com efeito suspensivo, independentemente de caução.
 
@@ -195,7 +195,7 @@ Complexidade técnica não cria imunidade. O controle exige prova e cautela: o j
 
 ## 8. Tema 1420 do STF: heteroidentificação
 
-No ARE 1.553.243, Tema 1420 da repercussão geral, o STF reafirmou que:
+No <abbr title="Recurso Extraordinário com Agravo">ARE</abbr> 1.553.243, Tema 1420 da repercussão geral, o STF reafirmou que:
 
 1. o Poder Judiciário **pode controlar** o ato administrativo de heteroidentificação de candidatos às vagas reservadas a pessoas pretas e pardas, para garantia de contraditório e ampla defesa;
 2. a controvérsia sobre a adequação dos critérios e fundamentos da exclusão é fática e pressupõe análise das cláusulas do edital.
@@ -223,7 +223,7 @@ O precedente rejeita dois extremos:
 
 Urgência, dever legal preciso, solução única ou descumprimento persistente podem justificar ordem mais específica.
 
-## 10. PAD e sanções administrativas
+## 10. <abbr title="Processo Administrativo Disciplinar">PAD</abbr> e sanções administrativas
 
 O art. 5º, LIV e LV, assegura devido processo, contraditório e ampla defesa também nos processos administrativos.
 

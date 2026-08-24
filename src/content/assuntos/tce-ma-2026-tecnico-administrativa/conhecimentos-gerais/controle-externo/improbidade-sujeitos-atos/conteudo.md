@@ -97,7 +97,7 @@ Mero benefício, proximidade com o agente ou relação contratual não substitue
 
 O art. 3º, § 1º, impede responsabilização automática de pessoas ligadas à pessoa jurídica privada. É indispensável individualizar a participação.
 
-No julgamento conjunto das ADIs 7156 e 7236, o STF declarou inconstitucional a expressão **“e benefícios diretos”** do § 1º, com **efeitos ex tunc**, ressalvados os casos já transitados em julgado.
+No julgamento conjunto das <abbr title="Ações Diretas de Inconstitucionalidade">ADIs</abbr> 7156 e 7236, o <abbr title="Supremo Tribunal Federal">STF</abbr> declarou inconstitucional a expressão **“e benefícios diretos”** do § 1º, com **efeitos <abbr title="efeito retroativo desde a origem">ex tunc</abbr>**, ressalvados os casos já transitados em julgado.
 
 Portanto:
 
@@ -203,7 +203,7 @@ O rol usa “notadamente” e inclui, entre outras situações:
 
 ### 11.2. Art. 9º, VII — acréscimo patrimonial a descoberto
 
-Em maio de 2026, no REsp 2.256.539/MS, a Primeira Turma do STJ reafirmou que o art. 9º, VII, continua permitindo a responsabilização por **acréscimo patrimonial significativo, incompatível com rendimentos legítimos e sem origem razoavelmente justificada**.
+Em maio de 2026, no <abbr title="Recurso Especial">REsp</abbr> 2.256.539/MS, a Primeira Turma do <abbr title="Superior Tribunal de Justiça">STJ</abbr> reafirmou que o art. 9º, VII, continua permitindo a responsabilização por **acréscimo patrimonial significativo, incompatível com rendimentos legítimos e sem origem razoavelmente justificada**.
 
 A orientação exige cuidado com o ônus probatório:
 
@@ -329,7 +329,7 @@ A mesma lógica pode alcançar rejeição da denúncia ou arquivamento nos termo
 
 ## 17. Direito intertemporal — Tema 1199
 
-No ARE 843.989, Tema 1199, o STF estabeleceu, entre outros pontos:
+No <abbr title="Recurso Extraordinário com Agravo">ARE</abbr> 843.989, Tema 1199, o STF estabeleceu, entre outros pontos:
 
 1. a responsabilidade nos arts. 9º, 10 e 11 é subjetiva e exige dolo;
 2. a revogação da modalidade culposa não desfaz condenação transitada em julgado nem sua execução;
