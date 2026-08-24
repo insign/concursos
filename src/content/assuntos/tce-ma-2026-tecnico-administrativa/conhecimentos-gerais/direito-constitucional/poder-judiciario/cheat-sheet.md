@@ -21,14 +21,14 @@
 
 | Órgão | Composição constitucional |
 |---|---:|
-| STF | **11** Ministros |
-| STJ | **mínimo 33** Ministros |
-| TST | **27** Ministros |
-| TSE | **mínimo 7** membros |
-| STM | **15** Ministros |
-| CNJ | **15** membros |
-| TRF | **mínimo 7** juízes |
-| TRT | **mínimo 7** juízes |
+| <abbr title="Supremo Tribunal Federal">STF</abbr> | **11** Ministros |
+| <abbr title="Superior Tribunal de Justiça">STJ</abbr> | **mínimo 33** Ministros |
+| <abbr title="Tribunal Superior do Trabalho">TST</abbr> | **27** Ministros |
+| <abbr title="Tribunal Superior Eleitoral">TSE</abbr> | **mínimo 7** membros |
+| <abbr title="Superior Tribunal Militar">STM</abbr> | **15** Ministros |
+| <abbr title="Conselho Nacional de Justiça">CNJ</abbr> | **15** membros |
+| <abbr title="Tribunal Regional Federal">TRF</abbr> | **mínimo 7** juízes |
+| <abbr title="Tribunal Regional do Trabalho">TRT</abbr> | **mínimo 7** juízes |
 
 ### Idades
 
@@ -165,7 +165,7 @@ TRIBUNAL declara inconstitucionalidade
 → maioria absoluta do pleno OU órgão especial
 ```
 
-### EC 134/2024
+### <abbr title="Emenda Constitucional">EC</abbr> 134/2024
 
 TJ com **>170 desembargadores em efetivo exercício**:
 
@@ -224,12 +224,12 @@ PR indica → Senado MA aprova → PR nomeia
 
 ### Originária
 
-- ADI federal/estadual;
-- ADC federal;
+- <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> federal/estadual;
+- <abbr title="Ação Declaratória de Constitucionalidade">ADC</abbr> federal;
 - crimes comuns: Presidente, Vice, Congresso, Ministros STF, PGR;
 - extradição;
 - conflitos federativos constitucionais;
-- **ações contra CNJ/CNMP**.
+- **ações contra CNJ/<abbr title="Conselho Nacional do Ministério Público">CNMP</abbr>**.
 
 ### Recursos
 
@@ -290,7 +290,7 @@ Demais membros:
 Pode:
 - controlar legalidade de atos administrativos;
 - desconstituir/rever ato administrativo;
-- avocar PAD;
+- avocar <abbr title="Processo Administrativo Disciplinar">PAD</abbr>;
 - remover/disponibilizar e aplicar sanções administrativas cabíveis;
 - rever PAD julgado há **menos de 1 ano**;
 - representar ao MP;
@@ -322,8 +322,8 @@ ADI 4638 → competência disciplinar do CNJ é originária/concorrente
 - pode requisitar/designar nos termos constitucionais.
 
 Junto ao CNJ oficiam:
-- PGR;
-- Presidente do Conselho Federal OAB.
+- <abbr title="Procurador-Geral da República">PGR</abbr>;
+- Presidente do Conselho Federal <abbr title="Ordem dos Advogados do Brasil">OAB</abbr>.
 
 ---
 
@@ -350,7 +350,7 @@ Composição:
 - Governador em crime comum → **STJ**;
 - sentença estrangeira + exequatur → **STJ**;
 - conflito entre tribunais (salvo STF) → **STJ**;
-- REsp → lei federal/tratado.
+- <abbr title="Recurso Especial">REsp</abbr> → lei federal/tratado.
 
 Filtro de relevância do REsp:
 `não conhecer só por ausência de relevância → 2/3 do órgão competente`.
@@ -365,13 +365,13 @@ TRF ≥7
 ```
 
 TRF:
-- 1/5 advocacia + MPF;
+- 1/5 advocacia + <abbr title="Ministério Público Federal">MPF</abbr>;
 - demais juízes federais com >5 anos, promoção antiguidade/merecimento.
 
 Regra clássica art. 109:
 `União/autarquia/empresa pública federal interessada → Justiça Federal`, ressalvadas exceções constitucionais.
 
-IDC:
+<abbr title="Incidente de Deslocamento de Competência">IDC</abbr>:
 
 ```text
 grave violação DH
@@ -444,7 +444,7 @@ Competência Justiça Militar:
 ## 20. Estados
 
 - Estado organiza sua Justiça;
-- competência tribunal → Constituição estadual;
+- competência tribunal → <abbr title="Constituição Estadual">CE</abbr>;
 - lei organização judiciária → iniciativa TJ;
 - controle concentrado estadual contra lei/ato estadual ou municipal em face da CE;
 - TJM pode existir se efetivo militar estadual **>20 mil**;

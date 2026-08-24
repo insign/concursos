@@ -18,11 +18,11 @@ O item de **Direito Constitucional** do Cargo 16 exige o estudo das **funções 
 
 O núcleo constitucional está no **Capítulo IV do Título IV da Constituição Federal**, especialmente nos **arts. 127 a 132 e 134 a 135**. O art. 133, sobre advocacia privada, serve apenas como fronteira conceitual e não será aprofundado, porque o edital nomeia **Advocacia Pública**, não a disciplina profissional da advocacia privada.
 
-> **Corte de prova:** Constituição e jurisprudência consolidadas até **6 de julho de 2026**. A Constituição já incorporava a **EC nº 139/2026**, de 5 de maio de 2026. Essa emenda reforçou a permanência e essencialidade dos Tribunais de Contas no controle externo, mas não alterou os arts. 127 a 135. A retificação de 29 de julho de 2026 não ampliou este recorte.
+> **Corte de prova:** Constituição e jurisprudência consolidadas até **6 de julho de 2026**. A Constituição já incorporava a **<abbr title="Emenda Constitucional">EC</abbr> nº 139/2026**, de 5 de maio de 2026. Essa emenda reforçou a permanência e essencialidade dos Tribunais de Contas no controle externo, mas não alterou os arts. 127 a 135. A retificação de 29 de julho de 2026 não ampliou este recorte.
 
 ### Fronteiras com assuntos vizinhos
 
-- **Assunto 130 — Poder Judiciário e CNJ:** aqui não se repetem organização, competências e composição do Judiciário; o CNJ aparece somente para contraste com o **CNMP**.
+- **Assunto 130 — Poder Judiciário e <abbr title="Conselho Nacional de Justiça">CNJ</abbr>:** aqui não se repetem organização, competências e composição do Judiciário; o CNJ aparece somente para contraste com o **<abbr title="Conselho Nacional do Ministério Público">CNMP</abbr>**.
 - **Assunto 132 — Constituição do Estado do Maranhão:** regras próprias da Constituição maranhense ficam para o assunto seguinte.
 - **Assunto 140 — Noções de Direito Constitucional:** terá versão adaptada e mais enxuta deste mesmo eixo; por isso o assunto 131 é a unidade completa de Direito Constitucional geral.
 - **Controle Externo:** o **Ministério Público junto aos Tribunais de Contas** é tratado aqui apenas sob o art. 130 e a posição constitucional de seus membros, sem repetir a disciplina geral dos Tribunais de Contas.
@@ -70,7 +70,7 @@ Ao MP são asseguradas **autonomia funcional e administrativa**. Observado o art
 - política remuneratória;
 - planos de carreira.
 
-O MP elabora sua **proposta orçamentária** dentro dos limites da LDO.
+O MP elabora sua **proposta orçamentária** dentro dos limites da <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>.
 
 ### Se a proposta não for enviada no prazo
 
@@ -251,7 +251,7 @@ Essa vedação é uma fronteira direta com a **Advocacia Pública**.
 
 O ingresso ocorre por **concurso público de provas e títulos**:
 
-- participação da OAB na realização;
+- participação da <abbr title="Ordem dos Advogados do Brasil">OAB</abbr> na realização;
 - bacharelado em Direito;
 - mínimo de **3 anos de atividade jurídica**;
 - nomeações observam a ordem de classificação.
@@ -283,7 +283,7 @@ A jurisprudência do STF firmou que o Ministério Público especial:
 - não recebe automaticamente toda a autonomia orgânico-institucional do Ministério Público comum;
 - possui, para seus membros, a proteção constitucional relativa a direitos, vedações e forma de ingresso.
 
-Na **ADI 4.427**, o STF reafirmou a integração estrutural do Parquet de Contas ao Tribunal de Contas e reconheceu espaço de conformação legislativa quanto à forma de escolha de sua chefia, ausente regra constitucional específica equivalente à do PGR.
+Na **<abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 4.427**, o STF reafirmou a integração estrutural do Parquet de Contas ao Tribunal de Contas e reconheceu espaço de conformação legislativa quanto à forma de escolha de sua chefia, ausente regra constitucional específica equivalente à do PGR.
 
 **Pegadinha TCE:** “aplicam-se direitos, vedações e investidura” é diferente de “o Ministério Público de Contas integra o Ministério Público comum”.
 

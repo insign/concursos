@@ -9,7 +9,7 @@ ALEMA consolidada: EC 1/1989 → EC 101/2024
 + EC 103/2025
 ```
 
-**EC 102** → Defensoria + ADI estadual.  
+**<abbr title="Emenda Constitucional">EC</abbr> 102** → Defensoria + ADI estadual.  
 **EC 103** → emendas individuais ao orçamento.
 
 ---
@@ -122,11 +122,11 @@ sessão:
 
 EC 101 criou Direção Superior.
 
-**ADI 7.757/STF:** direção administrativa **não ganha foro especial** por norma estadual.
+**<abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 7.757/<abbr title="Supremo Tribunal Federal">STF</abbr>:** direção administrativa **não ganha foro especial** por norma estadual.
 
 ---
 
-## 9. PEC estadual
+## 9. <abbr title="Proposta de Emenda à Constituição">PEC</abbr> estadual
 
 Iniciativa:
 
@@ -193,7 +193,7 @@ PL rejeitado, mesma sessão
 
 ---
 
-## 13. TCE/MA — só localização
+## 13. <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> — só localização
 
 ```text
 Assembleia = titular do controle externo
@@ -263,11 +263,11 @@ Omissão administrativa → **30 dias**.
 
 Declaração de inconstitucionalidade no TJ → **maioria absoluta**.
 
-**DPG legitimado para ADI ≠ foro criminal especial.**
+**<abbr title="Defensor Público-Geral do Estado">DPG</abbr> legitimado para ADI ≠ foro criminal especial.**
 
 ---
 
-## 17. PGE estadual
+## 17. <abbr title="Procuradoria-Geral do Estado">PGE</abbr> estadual
 
 Procurador-Geral:
 
@@ -346,7 +346,7 @@ Plano de longo prazo:
 
 `mínimo 20 anos = 5 PPAs`.
 
-RREO → até **30 dias após cada bimestre**.
+<abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr> → até **30 dias após cada bimestre**.
 
 ---
 
@@ -429,7 +429,7 @@ Nuclear:
 
 ## 25. Meio ambiente — palavras-chave maranhenses
 
-APPs/elementos expressos:
+<abbr title="Áreas de Preservação Permanente">APPs</abbr>/elementos expressos:
 
 ```text
 manguezais
