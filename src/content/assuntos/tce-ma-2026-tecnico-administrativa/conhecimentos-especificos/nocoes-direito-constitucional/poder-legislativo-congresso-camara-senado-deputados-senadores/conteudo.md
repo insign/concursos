@@ -14,7 +14,7 @@ Este assunto corresponde ao item de **Noções de Direito Constitucional** do Ca
 
 O núcleo constitucional está nos **arts. 44 a 56 da Constituição Federal de 1988**. O objetivo é dominar a estrutura bicameral, a repartição de competências entre Congresso, Câmara e Senado e o estatuto constitucional dos parlamentares, com profundidade proporcional ao comando de **noções**.
 
-> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1 do TCE/MA. O recorte deste assunto é essencialmente constitucional e não inclui, como objeto autônomo, reuniões do Congresso (art. 57), comissões e CPIs (art. 58), processo legislativo (arts. 59 a 69) nem fiscalização contábil, financeira e orçamentária (arts. 70 a 75), que pertencem a outros tópicos do programa.
+> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. O recorte deste assunto é essencialmente constitucional e não inclui, como objeto autônomo, reuniões do Congresso (art. 57), comissões e CPIs (art. 58), processo legislativo (arts. 59 a 69) nem fiscalização contábil, financeira e orçamentária (arts. 70 a 75), que pertencem a outros tópicos do programa.
 
 Mapa de estudo:
 
@@ -124,7 +124,7 @@ O art. 48 estabelece que cabe ao Congresso Nacional, **com sanção do President
 Entre os temas do art. 48 estão:
 
 - sistema tributário, arrecadação e distribuição de rendas;
-- PPA, LDO, orçamento anual, operações de crédito e dívida pública;
+- <abbr title="Plano Plurianual">PPA</abbr>, <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>, orçamento anual, operações de crédito e dívida pública;
 - efetivo das Forças Armadas;
 - planos e programas nacionais, regionais e setoriais;
 - limites do território nacional e bens da União;
@@ -134,7 +134,7 @@ Entre os temas do art. 48 estão:
 - criação e extinção de Ministérios e órgãos;
 - telecomunicações e radiodifusão;
 - matéria financeira, cambial e monetária;
-- fixação do subsídio dos Ministros do STF.
+- fixação do subsídio dos Ministros do <abbr title="Supremo Tribunal Federal">STF</abbr>.
 
 ### Fórmula de prova
 
@@ -162,7 +162,7 @@ Pontos de maior incidência:
 - fixar subsídios de deputados e senadores e os do Presidente, Vice e Ministros de Estado;
 - julgar anualmente as contas do Presidente da República;
 - fiscalizar e controlar atos do Executivo, inclusive da administração indireta;
-- escolher **2/3 dos membros do TCU**;
+- escolher **2/3 dos membros do <abbr title="Tribunal de Contas da União">TCU</abbr>**;
 - autorizar referendo e convocar plebiscito;
 - autorizar, em terras indígenas, exploração e aproveitamento de recursos hídricos e pesquisa/lavra de riquezas minerais;
 - aprovar previamente alienação ou concessão de terras públicas com área superior a 2.500 hectares;
@@ -226,7 +226,7 @@ Entre as competências mais cobradas do Senado:
 
 - processar e julgar Presidente e Vice nos crimes de responsabilidade;
 - processar e julgar Ministros de Estado e Comandantes das Forças Armadas nos crimes de responsabilidade conexos com os do Presidente ou Vice;
-- processar e julgar, nos casos constitucionais, Ministros do STF, membros do CNJ e CNMP, PGR e AGU;
+- processar e julgar, nos casos constitucionais, Ministros do STF, membros do <abbr title="Conselho Nacional de Justiça">CNJ</abbr> e <abbr title="Conselho Nacional do Ministério Público">CNMP</abbr>, <abbr title="Procurador-Geral da República">PGR</abbr> e <abbr title="Advogado-Geral da União">AGU</abbr>;
 - aprovar previamente certas autoridades, em regra por **voto secreto após arguição pública**;
 - aprovar chefes de missão diplomática permanente por voto secreto após **arguição em sessão secreta**;
 - autorizar operações externas de natureza financeira de interesse da União, Estados, DF, Territórios e Municípios;

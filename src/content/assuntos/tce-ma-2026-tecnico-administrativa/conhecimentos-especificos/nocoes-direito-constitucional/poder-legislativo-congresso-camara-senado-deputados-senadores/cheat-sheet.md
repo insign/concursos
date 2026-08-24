@@ -18,7 +18,7 @@
 
 | Regra | Câmara | Senado |
 |---|---|---|
-| representa | povo | Estados + DF |
+| representa | povo | Estados + <abbr title="Distrito Federal">DF</abbr> |
 | eleição | proporcional | majoritária |
 | mandato | 4 anos | 8 anos |
 | por UF | 8–70 | 3 |
@@ -56,7 +56,7 @@ SALVO quórum constitucional especial
 - Presidente/Vice fora do País por **mais de 15 dias** → autorização do Congresso.
 - ato normativo do Executivo exorbitante → Congresso **susta**.
 - contas anuais do Presidente → Congresso **julga**.
-- TCU → Congresso escolhe **2/3** dos membros.
+- <abbr title="Tribunal de Contas da União">TCU</abbr> → Congresso escolhe **2/3** dos membros.
 - soberania popular → **autoriza referendo / convoca plebiscito**.
 - terras indígenas → autoriza recursos hídricos + pesquisa/lavra mineral.
 
@@ -105,7 +105,7 @@ FIXA limites de dívida/crédito/garantias
 SUSPENDE execução de lei declarada inconstitucional pelo STF
 ```
 
-### PGR
+### <abbr title="Procurador-Geral da República">PGR</abbr>
 
 `EXONERAÇÃO DE OFÍCIO → maioria absoluta + voto secreto`
 
