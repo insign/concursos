@@ -130,7 +130,7 @@ Entraves, obstáculos, atitudes ou comportamentos que limitam ou impedem partici
 
 Forma de interação que inclui, entre outras opções:
 
-- línguas, inclusive Libras;
+- línguas, inclusive <abbr title="Língua Brasileira de Sinais">Libras</abbr>;
 - visualização de textos e Braille;
 - comunicação tátil e caracteres ampliados;
 - dispositivos multimídia;
@@ -179,7 +179,7 @@ Pessoa com mobilidade reduzida não é necessariamente pessoa com deficiência.
 
 ### 5.10 Moradias
 
-- **residência inclusiva:** unidade do Suas em área residencial da comunidade para jovens e adultos com deficiência em situação de dependência, sem autossustentação e com vínculos fragilizados ou rompidos;
+- **residência inclusiva:** unidade do <abbr title="Sistema Único de Assistência Social">Suas</abbr> em área residencial da comunidade para jovens e adultos com deficiência em situação de dependência, sem autossustentação e com vínculos fragilizados ou rompidos;
 - **moradia para vida independente:** estrutura com apoios coletivos ou individuais que respeitam e ampliam autonomia.
 
 ### 5.11 Necessidades complexas de comunicação
@@ -326,7 +326,7 @@ Diretrizes:
 - organização, métodos, técnicas, tecnologia assistiva e recursos individualizados e acessíveis;
 - capacitação continuada dos profissionais.
 
-SUS e Suas devem articular informação, orientação e acesso às políticas públicas.
+<abbr title="Sistema Único de Saúde">SUS</abbr> e Suas devem articular informação, orientação e acesso às políticas públicas.
 
 ## 11. Direito à saúde
 
@@ -423,7 +423,7 @@ O artigo 29 foi **vetado**; não lhe atribua obrigação educacional inexistente
 
 Devem cumprir as obrigações legais sem cobrança adicional de qualquer natureza em mensalidade, anuidade ou matrícula.
 
-O STF, na ADI 5.357/DF, confirmou a constitucionalidade do dever de inclusão pelas escolas privadas e da proibição de cobrança adicional.
+O <abbr title="Supremo Tribunal Federal">STF</abbr>, na ADI 5.357/DF, confirmou a constitucionalidade do dever de inclusão pelas escolas privadas e da proibição de cobrança adicional.
 
 A Lei nº 15.249/2025 acrescentou o inciso XIX ao artigo 28, com sistemas de comunicação aumentativa e alternativa de baixa tecnologia no atendimento educacional especializado. Na literalidade vigente, porém, o § 1º continua enumerando expressamente os incisos aplicáveis às instituições privadas e **não inclui o inciso XIX**. Em questão de letra da lei, não acrescente esse inciso ao rol do § 1º; isso não afasta os demais deveres legais de inclusão das instituições privadas.
 
@@ -491,13 +491,13 @@ Articula Proteção Social Básica e Especial no Suas. Serviços destinados à p
 
 ### 15.2 Benefício assistencial
 
-A pessoa sem meios de prover a subsistência nem de tê-la provida pela família tem direito a benefício mensal de um salário mínimo **nos termos da LOAS**.
+A pessoa sem meios de prover a subsistência nem de tê-la provida pela família tem direito a benefício mensal de um salário mínimo **nos termos da <abbr title="Lei Orgânica da Assistência Social">LOAS</abbr>**.
 
 O benefício não é automático para toda pessoa com deficiência.
 
 ### 15.3 Previdência
 
-A pessoa com deficiência segurada do RGPS tem direito à aposentadoria conforme a Lei Complementar nº 142/2013. Não confunda aposentadoria contributiva com benefício assistencial.
+A pessoa com deficiência segurada do <abbr title="Regime Geral de Previdência Social">RGPS</abbr> tem direito à aposentadoria conforme a Lei Complementar nº 142/2013. Não confunda aposentadoria contributiva com benefício assistencial.
 
 ## 16. Cultura, esporte, turismo e lazer
 
@@ -608,7 +608,7 @@ Outras alterações civis relevantes:
 - a pessoa com deficiência mental ou intelectual em idade núbil pode expressar sua vontade de casar diretamente ou por meio de responsável ou curador;
 - deficiência deixou de integrar hipóteses automáticas de erro essencial sobre a pessoa no casamento.
 
-O STJ, no REsp 1.927.423/SP, reafirmou que enfermidade ou deficiência mental não torna adulto absolutamente incapaz.
+O <abbr title="Superior Tribunal de Justiça">STJ</abbr>, no REsp 1.927.423/SP, reafirmou que enfermidade ou deficiência mental não torna adulto absolutamente incapaz.
 
 ## 21. Tomada de decisão apoiada
 
@@ -690,7 +690,7 @@ Ficam no Assunto 100 as normas gerais das Leis nº 10.048/2000 e nº 10.098/2000
 | acompanhante recebe todas as prioridades | errado: há exceções de IR e tramitação |
 | emergência ignora protocolo médico | errado: prioridade segue protocolo |
 | escola privada pode cobrar adicional | errado |
-| BPC é automático | errado: depende dos requisitos da LOAS |
+| <abbr title="Benefício de Prestação Continuada">BPC</abbr> é automático | errado: depende dos requisitos da LOAS |
 | a LBI exclui outras normas protetivas | errado: o art. 121 preserva outras normas e manda prevalecer a mais benéfica |
 | tomada apoiada pode ser imposta | errado: pedido parte da pessoa apoiada |
 

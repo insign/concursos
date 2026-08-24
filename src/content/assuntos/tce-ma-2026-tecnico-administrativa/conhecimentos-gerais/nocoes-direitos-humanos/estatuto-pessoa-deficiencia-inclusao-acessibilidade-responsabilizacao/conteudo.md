@@ -323,7 +323,7 @@ O poder público deve incentivar aparelhos de telefonia fixa e móvel acessívei
 Serviços de radiodifusão de sons e imagens devem permitir, entre outros:
 
 1. legenda oculta;
-2. janela com intérprete de Libras;
+2. janela com intérprete de <abbr title="Língua Brasileira de Sinais">Libras</abbr>;
 3. audiodescrição.
 
 ### 9.4 Livros em formatos acessíveis
@@ -385,7 +385,7 @@ O poder público deve desenvolver plano de medidas renovado a cada **quatro anos
 2. agilizar, simplificar e priorizar importação;
 3. fomentar pesquisa e produção nacional;
 4. eliminar ou reduzir tributação da cadeia produtiva e importação;
-5. facilitar a inclusão de novos recursos entre os produtos distribuídos pelo SUS e outros órgãos.
+5. facilitar a inclusão de novos recursos entre os produtos distribuídos pelo <abbr title="Sistema Único de Saúde">SUS</abbr> e outros órgãos.
 
 Os procedimentos do plano devem ser avaliados, no mínimo, a cada **dois anos**. Renovação quadrienal e avaliação bienal não são sinônimos.
 
@@ -423,7 +423,7 @@ Seus dados só podem ser usados para:
 1. formulação, gestão, monitoramento e avaliação de políticas e identificação de barreiras;
 2. estudos e pesquisas.
 
-As informações devem ser disseminadas em formatos acessíveis. Cadastro-Inclusão não é sinônimo de CadÚnico, credencial de estacionamento ou cadastro do BPC.
+As informações devem ser disseminadas em formatos acessíveis. Cadastro-Inclusão não é sinônimo de CadÚnico, credencial de estacionamento ou cadastro do <abbr title="Benefício de Prestação Continuada">BPC</abbr>.
 
 ### 11.2 Inspeções e auditorias
 
@@ -438,7 +438,7 @@ Não confunda esse artigo 93 com a responsabilidade técnica fiscalizada pelas e
 
 Nos termos da lei, a LBI reconhece auxílio-inclusão à pessoa com deficiência **moderada ou grave** que:
 
-- receba BPC e passe a exercer atividade remunerada que a enquadre como segurada obrigatória do RGPS; ou
+- receba BPC e passe a exercer atividade remunerada que a enquadre como segurada obrigatória do <abbr title="Regime Geral de Previdência Social">RGPS</abbr>; ou
 - tenha recebido BPC nos últimos **cinco anos** e exerça atividade remunerada com esse enquadramento.
 
 Os demais detalhes pertencem à legislação assistencial. Não confunda auxílio-inclusão com BPC ou benefício previdenciário.
@@ -452,7 +452,7 @@ Se o contato interessar ao poder público, o agente vai à residência. Se inter
 - solicitar atendimento domiciliar; ou
 - constituir procurador.
 
-Nessa mesma situação, é assegurado atendimento domiciliar por perícia médica e social do INSS, serviço público de saúde, serviço privado conveniado ou contratado que integre o SUS e entidades da rede socioassistencial do Suas.
+Nessa mesma situação, é assegurado atendimento domiciliar por perícia médica e social do <abbr title="Instituto Nacional do Seguro Social">INSS</abbr>, serviço público de saúde, serviço privado conveniado ou contratado que integre o SUS e entidades da rede socioassistencial do <abbr title="Sistema Único de Assistência Social">Suas</abbr>.
 
 ## 12. Crimes da LBI
 

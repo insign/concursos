@@ -10,7 +10,7 @@ storageId: tec-agenda-2030
 
 ## 1. Recorte do edital
 
-No **Edital nº 1 – TCE/MA, de 6 de julho de 2026**, o item 4 de **Noções de Direitos Humanos** cobra a **Agenda 2030 da ONU**. O foco deste assunto é reconhecer a identidade do documento, seus princípios, sua arquitetura e as associações essenciais entre os Objetivos de Desenvolvimento Sustentável (ODS).
+No **Edital nº 1 – TCE/MA, de 6 de julho de 2026**, o item 4 de **Noções de Direitos Humanos** cobra a **Agenda 2030 da <abbr title="Organização das Nações Unidas">ONU</abbr>**. O foco deste assunto é reconhecer a identidade do documento, seus princípios, sua arquitetura e as associações essenciais entre os Objetivos de Desenvolvimento Sustentável (ODS).
 
 Para a prova, priorize:
 
@@ -220,7 +220,7 @@ A Agenda prevê acompanhamento em níveis **nacional, regional e global**. Os pr
 
 O **High-level Political Forum on Sustainable Development (HLPF)** é a plataforma central da ONU para acompanhamento e revisão da Agenda e dos ODS. Reúne-se:
 
-- anualmente sob os auspícios do **ECOSOC**;
+- anualmente sob os auspícios do **<abbr title="Conselho Econômico e Social das Nações Unidas">ECOSOC</abbr>**;
 - a cada quatro anos, em nível de chefes de Estado e de governo, sob os auspícios da **Assembleia Geral**.
 
 ### 10.2 Revisões Nacionais Voluntárias
