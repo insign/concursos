@@ -41,13 +41,13 @@ DOTAÇÃO/CRÉDITO
 - ajusta desembolsos ao fluxo de caixa;
 - não substitui a autorização orçamentária;
 - compromissos financeiros respeitam limites aprovados;
-- RP constituem item específico da programação financeira.
+- <abbr title="Restos a Pagar">RP</abbr> constituem item específico da programação financeira.
 
 **Memória:** orçamento responde **“posso gastar?”**; financeiro responde **“posso desembolsar agora?”**.
 
 ## GRU
 
-**GRU = arrecadação/recolhimento à União**, não documento de pagamento de despesa.
+**<abbr title="Guia de Recolhimento da União">GRU</abbr> = arrecadação/recolhimento à União**, não documento de pagamento de despesa.
 
 Usos: taxas, multas, aluguéis, serviços e outras receitas de entidades abrangidas.
 
@@ -57,10 +57,10 @@ Usos: taxas, multas, aluguéis, serviços e outras receitas de entidades abrangi
 
 | Sistema | Associação de prova |
 |---|---|
-| **SIOP** | planejamento + orçamento |
-| **SIAFI** | registro/acompanhamento/controle da execução orçamentária, financeira e patrimonial |
+| **<abbr title="Sistema Integrado de Planejamento e Orçamento">SIOP</abbr>** | planejamento + orçamento |
+| **<abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr>** | registro/acompanhamento/controle da execução orçamentária, financeira e patrimonial |
 
-Não aprofundar CPR aqui: ele é assunto próprio.
+Não aprofundar <abbr title="Contas a Pagar e a Receber">CPR</abbr> aqui: ele é assunto próprio.
 
 ## Restos a pagar
 
@@ -73,12 +73,12 @@ Não aprofundar CPR aqui: ele é assunto próprio.
 
 - registro por exercício e credor;
 - RP integram programação financeira;
-- inscrição de RPNP depende de indicação do ordenador;
+- inscrição de <abbr title="Restos a Pagar Não Processados">RPNP</abbr> depende de indicação do ordenador;
 - regra federal: RPNP não liquidado é **bloqueado em 30/6 do segundo ano subsequente à inscrição**, ressalvadas exceções.
 
 **Bloqueio ≠ cancelamento.**
 
-## DEA × RP
+## <abbr title="Despesas de Exercícios Anteriores">DEA</abbr> × RP
 
 ### DEA — art. 37 da Lei nº 4.320/1964
 
@@ -108,7 +108,7 @@ Não conceder, entre outros, a:
 - servidor em alcance;
 - guardião/utilizador do material a adquirir, salvo inexistência de outro servidor.
 
-Regra federal: uso de **CPGF**; saque é excepcional.
+Regra federal: uso de **<abbr title="Cartão de Pagamento do Governo Federal">CPGF</abbr>**; saque é excepcional.
 
 ## Conformidade
 
@@ -116,7 +116,7 @@ Regra federal: uso de **CPGF**; saque é excepcional.
 
 “**Conformidade diária e documental**” → pense em **registro correto + documento hábil**.
 
-### Terminologia atual STN
+### Terminologia atual <abbr title="Secretaria do Tesouro Nacional">STN</abbr>
 
 **Conformidade de Registro de Gestão:** certifica:
 

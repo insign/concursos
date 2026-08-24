@@ -209,7 +209,7 @@ documento de realização
 
 A **realização** é a etapa em que o compromisso é efetivado pelo documento apropriado.
 
-O demonstrativo do Manual SIAFI admite diferentes documentos de realização conforme a natureza do compromisso, como **Ordem Bancária (OB), GRU, DARF e outros instrumentos previstos no sistema**.
+O demonstrativo do Manual SIAFI admite diferentes documentos de realização conforme a natureza do compromisso, como **Ordem Bancária (OB), <abbr title="Guia de Recolhimento da União">GRU</abbr>, <abbr title="Documento de Arrecadação de Receitas Federais">DARF</abbr> e outros instrumentos previstos no sistema**.
 
 A escolha depende da operação. Portanto:
 
@@ -286,7 +286,7 @@ A documentação do demonstrativo distingue inclusive:
 
 ### 12.1. Pagamento com dedução
 
-Uma UG registra obrigação de R$ 100.000. Há retenção juridicamente cabível de R$ 5.000.
+Uma <abbr title="Unidade Gestora">UG</abbr> registra obrigação de R$ 100.000. Há retenção juridicamente cabível de R$ 5.000.
 
 No estudo do CPR, interessa visualizar:
 
