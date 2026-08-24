@@ -23,7 +23,7 @@ A última alteração consolidada relevante foi a **Lei nº 14.553/2023**, que a
 O Item 8 foi dividido funcionalmente:
 
 - este Assunto 101 trata dos fundamentos, da igualdade material e do conteúdo jurídico dos direitos;
-- o Assunto 102 tratará da implementação por políticas públicas, Sinapir, órgãos, conselhos, ouvidorias, planejamento, financiamento, monitoramento e articulação federativa.
+- o Assunto 102 tratará da implementação por políticas públicas, <abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr>, órgãos, conselhos, ouvidorias, planejamento, financiamento, monitoramento e articulação federativa.
 
 A divisão é feita por **proposição normativa**, não por faixa artificial de artigos. Quando um dispositivo combina direito e mecanismo, este assunto explica o direito; o próximo desenvolve a operação institucional.
 
@@ -82,7 +82,7 @@ Não é a definição genérica de desigualdade entre homens e mulheres nem apen
 
 É o conjunto de pessoas que:
 
-- se autodeclaram **pretas e pardas**, conforme o quesito cor ou raça usado pelo IBGE; ou
+- se autodeclaram **pretas e pardas**, conforme o quesito cor ou raça usado pelo <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>; ou
 - adotam autodefinição análoga.
 
 A definição não se restringe às pessoas pretas. Também não exige uma declaração de terceiro.
@@ -175,7 +175,7 @@ O poder público garante a saúde da população negra por políticas **universa
 
 ### 6.2 SUS
 
-O acesso ao SUS deve ser:
+O acesso ao <abbr title="Sistema Único de Saúde">SUS</abbr> deve ser:
 
 - universal;
 - igualitário;
@@ -423,7 +423,7 @@ A implementação de medidas para inclusão da população negra no mercado de t
 
 - o Estatuto;
 - a Convenção Internacional sobre Eliminação de Todas as Formas de Discriminação Racial;
-- a Convenção nº 111 da OIT;
+- a Convenção nº 111 da <abbr title="Organização Internacional do Trabalho">OIT</abbr>;
 - demais compromissos internacionais formalmente assumidos pelo Brasil.
 
 ### 12.2 Igualdade nas contratações
@@ -459,14 +459,14 @@ A regra aplica-se expressamente a:
 
 1. admissão e demissão;
 2. acidente de trabalho;
-3. registros do Sine ou estrutura sucessora;
-4. Rais ou documento equivalente;
-5. inscrição de segurados e dependentes no RGPS, inclusive eletrônica;
+3. registros do <abbr title="Sistema Nacional de Emprego">Sine</abbr> ou estrutura sucessora;
+4. <abbr title="Relação Anual de Informações Sociais">Rais</abbr> ou documento equivalente;
+5. inscrição de segurados e dependentes no <abbr title="Regime Geral de Previdência Social">RGPS</abbr>, inclusive eletrônica;
 6. questionários de pesquisas do IBGE ou entidade sucessora.
 
 Regulamento pode identificar outros documentos ou registros de mesma natureza para extensão obrigatória.
 
-Não confunda autoclassificação desses registros com os mecanismos subsidiários de heteroidentificação admitidos pelo STF para controlar fraudes em política específica de cotas.
+Não confunda autoclassificação desses registros com os mecanismos subsidiários de heteroidentificação admitidos pelo <abbr title="Supremo Tribunal Federal">STF</abbr> para controlar fraudes em política específica de cotas.
 
 ## 13. Meios de comunicação
 
@@ -609,7 +609,7 @@ Este assunto respondeu **quem é protegido, por quê e quais direitos possui**.
 O Assunto 102 responderá **como o Estado organiza e executa a promoção da igualdade racial**, incluindo:
 
 - Sinapir, adesão e objetivos;
-- PNPIR e plano nacional;
+- <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr> e plano nacional;
 - órgãos, fórum intergovernamental e colegiados;
 - conselhos e prioridade de repasses;
 - Ouvidorias como estrutura permanente;
