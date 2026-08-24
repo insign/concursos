@@ -94,8 +94,9 @@ async function withOfflinePackageLock<T>(operation: () => Promise<T>): Promise<T
   }
 
   let lost = false;
+  let renewalInFlight: Promise<void> | null = null;
   const heartbeat = setInterval(() => {
-    void renewSyncLease(OFFLINE_PACKAGE_LOCK, ownerId, OFFLINE_PACKAGE_LEASE_TTL)
+    renewalInFlight = renewSyncLease(OFFLINE_PACKAGE_LOCK, ownerId, OFFLINE_PACKAGE_LEASE_TTL)
       .then(() => undefined)
       .catch(() => {
         lost = true;
@@ -104,13 +105,19 @@ async function withOfflinePackageLock<T>(operation: () => Promise<T>): Promise<T
 
   try {
     const result = await operation();
-    // Operação bem-sucedida só é válida se o lease sobreviveu até o fim:
-    // perda no meio permite que outro contexto tenha assumido e mutado.
+    // Barreira: resolve qualquer renovação em voo ANTES do veredito final,
+    // para que perda de lease não passe despercebida numa operação bem-sucedida.
+    // Cast local: TS não acompanha atribuições dentro do callback do
+    // setInterval, estreitando renewalInFlight para never aqui.
+    const pendingRenewal = renewalInFlight as Promise<void> | null;
+    if (pendingRenewal) await pendingRenewal.catch(() => undefined);
     if (lost) {
       throw new Error('Coordenação de download perdida durante a operação; tente novamente.');
     }
     return result;
   } catch (error) {
+    const pendingOnErr = renewalInFlight as Promise<void> | null;
+    if (pendingOnErr) await pendingOnErr.catch(() => undefined);
     if (lost && !(error instanceof Error && error.message.startsWith('Coordenação de download perdida'))) {
       throw new Error('Coordenação de download perdida durante a operação; tente novamente.', { cause: error });
     }

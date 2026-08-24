@@ -62,9 +62,10 @@ export async function getActivePackageFetches(
   let ids: string[];
   try {
     ids = await manager.getIds();
-  } catch {
-    // Falha de enumeração não pode ser lida como 'nenhum download ativo'.
-    return [];
+  } catch (error) {
+    // Enumeração falha NÃO é 'nenhum ativo': sinaliza para o chamador decidir
+    // (o reconcile aborta; a deduplicação trata como desconhecido e permite).
+    throw new Error('Falha ao listar downloads em segundo plano ativos.', { cause: error });
   }
   const out: ActivePackageFetch[] = [];
   for (const id of ids) {
@@ -337,6 +338,8 @@ export async function reconcileOrphanedPackageJobs(
   try {
     const [jobs, active] = await Promise.all([
       listDownloadJobs(),
+      // Sem enumeração confirmada, reconciliar apagaria jobs de transferências
+      // genuinamente ativas — então propaga e aborta.
       getActivePackageFetches(registration),
     ]);
     if (jobs.length === 0) return;
