@@ -10,7 +10,7 @@ $$
 
 | Ano | O que lembrar |
 |---|---|
-| **1641** | WIC conquista São Luís |
+| **1641** | <abbr title="Companhia Neerlandesa das Índias Ocidentais">WIC</abbr> conquista São Luís |
 | **1642** | resistência organizada ganha força no Itapecuru |
 | **1643** | recuperação progressiva de áreas |
 | **1644** | fim do domínio neerlandês no Maranhão |
