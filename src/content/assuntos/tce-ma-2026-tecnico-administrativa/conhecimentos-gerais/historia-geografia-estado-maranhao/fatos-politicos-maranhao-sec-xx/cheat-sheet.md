@@ -20,7 +20,7 @@ $$
 |---|---|
 | 1951-1965 | desgaste do vitorinismo |
 | 1965/1966-1970 | vitória de Sarney e “Maranhão Novo” |
-| 1970-1979 | governos indiretos + facções da ARENA |
+| 1970-1979 | governos indiretos + facções da <abbr title="Aliança Renovadora Nacional">ARENA</abbr> |
 | 1979-1986 | pluripartidarismo + volta do voto direto |
 | 1986-1989 | Cafeteira + Constituição estadual |
 | 1990-2000 | Lobão + Roseana + “Novo Tempo” |
@@ -35,10 +35,10 @@ $$
 
 ## Sarney antes de 1965
 
-- trajetória inicial no **PSD**;
+- trajetória inicial no **<abbr title="Partido Social Democrático">PSD</abbr>**;
 - rompe com o campo vitorinista;
 - atua nas **Oposições Coligadas**;
-- vinculação posterior à **UDN**;
+- vinculação posterior à **<abbr title="União Democrática Nacional">UDN</abbr>**;
 - deputado federal eleito em 1958 e reeleito em 1962.
 
 > Evite transformar a legenda formal do mandato iniciado em 1959 em pegadinha: fontes institucionais consultadas não são uniformes nesse registro. O ponto seguro é Oposições Coligadas + liderança udenista posterior.
@@ -46,7 +46,7 @@ $$
 ## Eleição de 1965
 
 - **3 out. 1965**: eleição direta.
-- Sarney: **UDN-PSP**.
+- Sarney: **UDN-<abbr title="Partido Social Progressista">PSP</abbr>**.
 - Causas combinadas: oposição acumulada + divisão vitorinista + força eleitoral de Sarney + apoio federal + revisão eleitoral.
 - Não explicar por causa única.
 
@@ -71,7 +71,7 @@ $$
 | Sigla | Papel formal |
 |---|---|
 | ARENA | sustentação do regime militar |
-| MDB | oposição consentida |
+| <abbr title="Movimento Democrático Brasileiro">MDB</abbr> | oposição consentida |
 
 - Sarney e Vitorino estiveram na **ARENA**.
 - Disputa importante ocorreu **dentro da ARENA**.
@@ -92,9 +92,9 @@ $$
 ## Reorganização partidária
 
 - **1979**: fim do bipartidarismo.
-- ARENA → principalmente **PDS**.
-- MDB → **PMDB**.
-- Frente Liberal → **PFL**.
+- ARENA → principalmente **<abbr title="Partido Democrático Social">PDS</abbr>**.
+- MDB → **<abbr title="Partido do Movimento Democrático Brasileiro">PMDB</abbr>**.
+- Frente Liberal → **<abbr title="Partido da Frente Liberal">PFL</abbr>**.
 
 ## Direta × indireta
 
@@ -112,7 +112,7 @@ $$
 
 ## Volta do voto direto
 
-- EC federal **15/1980** restabelece eleição direta para governador.
+- <abbr title="Emenda Constitucional">EC</abbr> federal **15/1980** restabelece eleição direta para governador.
 - **1982**: primeira eleição direta no Maranhão desde 1965.
 - vencedor: **Luís Rocha (PDS)**.
 - **1985**: capitais voltam a eleger prefeitos diretamente; em São Luís, vence Gardênia Gonçalves.
@@ -129,7 +129,7 @@ $$
 - **1990**: Lobão vence João Castelo no 2º turno.
 - **1994**: Roseana vence Cafeteira no 2º turno.
 - Roseana = primeira mulher eleita para governar o Maranhão.
-- EC federal **16/1997** permite uma recondução consecutiva.
+- <abbr title="Emenda Constitucional">EC</abbr> federal **16/1997** permite uma recondução consecutiva.
 - **1998**: Roseana reeleita no 1º turno.
 
 ## “Maranhão Novo” × “Novo Tempo”

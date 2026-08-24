@@ -211,4 +211,4 @@ $$
 - Lei dos Prefeitos: nomeação, não eleição.
 - Recrutamento: causa e estopim.
 - Anistia: seletiva e desigual.
-- Item constitucional da PM/MA 2017: anulado por ambiguidade.
+- Item constitucional da <abbr title="Polícia Militar do Maranhão">PM/MA</abbr> 2017: anulado por ambiguidade.

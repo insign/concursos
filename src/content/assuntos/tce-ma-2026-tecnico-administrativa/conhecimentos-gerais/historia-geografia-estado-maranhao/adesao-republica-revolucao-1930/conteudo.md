@@ -154,13 +154,13 @@ Na eleição presidencial de 1º de março:
 
 Fraude, coerção e controle eleitoral da Primeira República exigem cautela: resultado oficial não mede de forma transparente toda a preferência popular.
 
-Na eleição estadual, venceu **José Pires Sexto**, que governou de **1º de março a 8 de outubro de 1930**, conforme registro do TRE-MA. Foi ele, e não Magalhães de Almeida, o governador deposto.
+Na eleição estadual, venceu **José Pires Sexto**, que governou de **1º de março a 8 de outubro de 1930**, conforme registro do <abbr title="Tribunal Regional Eleitoral do Maranhão">TRE-MA</abbr>. Foi ele, e não Magalhães de Almeida, o governador deposto.
 
 ## 10. Reis Perdigão, Tarquínio e o 24º BC
 
 **José Maria dos Reis Perdigão** participara da Revolta de 1924 e da Coluna Prestes. De volta ao Maranhão, articulou redes revolucionárias e assumiu a chefia civil do movimento em São Luís.
 
-**Tarquínio Lopes Filho** era liderança dos tarquinistas e da oposição estadual. O Cebraspe considerou correta a associação de Reis Perdigão e Tarquínio ao grupo que apoiou o tenentismo e a Revolução de 1930.
+**Tarquínio Lopes Filho** era liderança dos tarquinistas e da oposição estadual. O <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> considerou correta a associação de Reis Perdigão e Tarquínio ao grupo que apoiou o tenentismo e a Revolução de 1930.
 
 O ponto militar decisivo era o **24º Batalhão de Caçadores**, em São Luís. A tentativa de identificar conspiradores precipitou a sublevação.
 
@@ -179,7 +179,7 @@ A Junta de 1930 foi composta por:
 - tenente Celso Reis de Freitas;
 - tenente José Ribamar Campos.
 
-Segundo o Atlas Histórico da FGV, governou de **8 de outubro a 14 de novembro de 1930**. Depois, a sequência foi:
+Segundo o Atlas Histórico da <abbr title="Fundação Getulio Vargas">FGV</abbr>, governou de **8 de outubro a 14 de novembro de 1930**. Depois, a sequência foi:
 
 1. major José Luso Torres, interventor federal;
 2. Reis Perdigão, interventor interino a partir de 27 de novembro;
