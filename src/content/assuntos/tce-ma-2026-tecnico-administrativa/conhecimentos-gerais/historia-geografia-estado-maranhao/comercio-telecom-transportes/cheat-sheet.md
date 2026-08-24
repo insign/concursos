@@ -24,7 +24,7 @@ Circulação ≠ produção do bem.
 
 **Pegadinha:** atacado ≠ loja grande; grande rede pode ser varejista.
 
-**Receita ≠ VAB**
+**Receita ≠ <abbr title="valor adicionado bruto">VAB</abbr>**
 
 $$VAB = VP - CI$$
 
@@ -32,11 +32,11 @@ Pesquisa empresarial ≠ toda informalidade.
 
 ## Rede urbana
 
-**REGIC 2018:** hierarquia + regiões de influência.
+**<abbr title="Regiões de Influência das Cidades">REGIC</abbr> 2018:** hierarquia + regiões de influência.
 
 Metrópoles → Capitais Regionais → Centros Sub-Regionais → Centros de Zona → Centros Locais.
 
-- **São Luís:** AP classificado como **Capital Regional A**; principal centralidade estadual.
+- **São Luís:** <abbr title="Arranjo Populacional">AP</abbr> classificado como **Capital Regional A**; principal centralidade estadual.
 - **Imperatriz:** centralidade regional importante no oeste/sudoeste e em conexões interestaduais.
 
 **Influência ≠ região metropolitana.**  
@@ -83,7 +83,7 @@ Venda digital ≠ fim da logística física.
 ## Passageiros x cargas
 
 - passageiro: embarque, desembarque, viagem, origem/destino;
-- carga: tonelada, t.km, valor, origem/destino, trânsito.
+- carga: tonelada, <abbr title="tonelada-quilômetro">t.km</abbr>, valor, origem/destino, trânsito.
 
 **Tonelada ≠ tonelada-quilômetro.**
 
@@ -108,7 +108,7 @@ Maranhão pode ser:
 
 ## Questão oficial
 
-PM-MA, Soldado, CESPE/Cebraspe, 2017, item 35: redes de transporte/logística agilizam a circulação de insumos, pessoas e mercadorias — **Certo**.
+<abbr title="Polícia Militar do Maranhão">PM-MA</abbr>, Soldado, CESPE/Cebraspe, 2017, item 35: redes de transporte/logística agilizam a circulação de insumos, pessoas e mercadorias — **Certo**.
 
 ## Pegadinhas de uma linha
 
@@ -116,7 +116,7 @@ PM-MA, Soldado, CESPE/Cebraspe, 2017, item 35: redes de transporte/logística ag
 2. atacado ≠ loja grande;
 3. receita ≠ VAB;
 4. pesquisa empresarial ≠ informalidade total;
-5. REGIC ≠ ranking de PIB;
+5. REGIC ≠ ranking de <abbr title="Produto Interno Bruto">PIB</abbr>;
 6. influência ≠ região metropolitana;
 7. acesso ≠ usuário;
 8. cobertura ≠ uso;

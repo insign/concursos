@@ -12,7 +12,7 @@ storageId: tec-industrias-base
 
 O edital exige a caracterização do **parque industrial maranhense**, com atenção às **indústrias de base** e às **indústrias de transformação**. O foco é reconhecer as principais cadeias, seus polos territoriais, fatores locacionais e relações entre matéria-prima, processamento e logística.
 
-O corte documental é **4 de agosto de 2026**. As referências centrais são a classificação oficial de atividades do IBGE/CONCLA, fontes institucionais do Governo do Maranhão e informações operacionais das principais empresas presentes no estado.
+O corte documental é **4 de agosto de 2026**. As referências centrais são a classificação oficial de atividades do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>/<abbr title="Comissão Nacional de Classificação">CONCLA</abbr>, fontes institucionais do Governo do Maranhão e informações operacionais das principais empresas presentes no estado.
 
 Agricultura e pecuária pertencem ao Assunto 089; extrativismo, ao 090; comércio, telecomunicações, transportes, portos e aeroportos, aos assuntos seguintes. Esses elementos aparecem aqui apenas quando ajudam a explicar a **localização ou a cadeia industrial**.
 
@@ -22,7 +22,7 @@ As duas expressões respondem a perguntas diferentes.
 
 ### 2.1 Indústria de base
 
-É uma **categoria funcional**, não uma seção própria da CNAE. Em sentido didático, reúne atividades que fornecem insumos fundamentais ou produtos intermediários para outras cadeias, como:
+É uma **categoria funcional**, não uma seção própria da <abbr title="Classificação Nacional de Atividades Econômicas">CNAE</abbr>. Em sentido didático, reúne atividades que fornecem insumos fundamentais ou produtos intermediários para outras cadeias, como:
 
 - alumina e alumínio primário;
 - ferro-gusa e aço;
@@ -78,7 +78,7 @@ Esses polos não esgotam o parque estadual.
 
 ## 5. São Luís: alumina e alumínio
 
-O complexo **Alumar**, em São Luís, integra uma cadeia de transformação mineral:
+O complexo **<abbr title="Consórcio de Alumínio do Maranhão">Alumar</abbr>**, em São Luís, integra uma cadeia de transformação mineral:
 
 **bauxita → alumina → alumínio primário**
 
@@ -110,7 +110,7 @@ A celulose funciona principalmente como **bem intermediário**, pois abastece et
 
 Páginas corporativas atuais podem apresentar a capacidade da unidade com agregações diferentes — por exemplo, separando celulose de mercado e integrada ou apresentando um total aproximado. A prova deve privilegiar a **cadeia e o papel industrial de Imperatriz**, não a reconciliação de capacidades publicadas sob escopos distintos.
 
-A SEINC também distingue, em sua relação corrente de áreas industriais, o **Distrito Industrial de Imperatriz** e o **Parque Empresarial Imperatriz**. Distrito, parque empresarial e parque industrial estadual não são sinônimos.
+A <abbr title="Secretaria de Estado de Indústria e Comércio">SEINC</abbr> também distingue, em sua relação corrente de áreas industriais, o **Distrito Industrial de Imperatriz** e o **Parque Empresarial Imperatriz**. Distrito, parque empresarial e parque industrial estadual não são sinônimos.
 
 ## 7. Açailândia: metalurgia e siderurgia
 
@@ -204,7 +204,7 @@ Grandes complexos também demandam manutenção, engenharia, automação, segura
 6. Bauxita recebida em São Luís ≠ lavra maranhense automática.
 7. **Alumar produz alumina e alumínio; não ferro-gusa nem aço inoxidável.**
 8. Eucalipto cultivado ≠ celulose: a primeira etapa é florestal; a segunda, industrial.
-9. Minério em trânsito pela EFC ≠ extração em Açailândia.
+9. Minério em trânsito pela <abbr title="Estrada de Ferro Carajás">EFC</abbr> ≠ extração em Açailândia.
 10. Gipsita ≠ gesso; calcário ≠ cimento.
 11. Distrito industrial ≠ todo o parque industrial estadual.
 12. Projeto, implantação, operação e produção são estágios diferentes.
