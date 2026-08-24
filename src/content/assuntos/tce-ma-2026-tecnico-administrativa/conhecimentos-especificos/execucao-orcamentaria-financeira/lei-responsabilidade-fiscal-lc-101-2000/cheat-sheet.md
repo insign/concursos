@@ -24,14 +24,14 @@ alerta · prudencial · recondução · restrições
 
 | Regra | Situação em 6/7/2026 |
 |---|---|
-| **LC 224/2025** | alterações relevantes já eficazes desde 1/1/2026 |
+| **<abbr title="Lei Complementar">LC</abbr> 224/2025** | alterações relevantes já eficazes desde 1/1/2026 |
 | **art. 14-A** | **aplicável** |
 | **LC 212/2025** | já alterou a LRF |
 | **art. 41-A** | no texto, mas aplicação só em **1/1/2027** |
 
 **Pegadinha:** art. 14-A vale; art. 41-A ainda é futuro.
 
-## AMF × ARF
+## <abbr title="Anexo de Metas Fiscais">AMF</abbr> × <abbr title="Anexo de Riscos Fiscais">ARF</abbr>
 
 | AMF | ARF |
 |---|---|
@@ -41,9 +41,9 @@ alerta · prudencial · recondução · restrições
 | dívida pública | providências se risco ocorrer |
 | exercício + 2 seguintes | riscos e respostas |
 
-## LOA: lembretes
+## <abbr title="Lei Orçamentária Anual">LOA</abbr>: lembretes
 
-- compatível com **PPA + LDO + LRF**;
+- compatível com **<abbr title="Plano Plurianual">PPA</abbr> + <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> + LRF**;
 - demonstrativo de compatibilidade com metas;
 - medidas de compensação;
 - **reserva de contingência**;
@@ -76,7 +76,7 @@ receita ameaça metas?
 limitação de empenho/movimentação
 ```
 
-**STF / ADI 2238:** Executivo não pode impor unilateralmente contingenciamento aos outros Poderes/órgãos autônomos.
+**<abbr title="Supremo Tribunal Federal">STF</abbr> / <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2238:** Executivo não pode impor unilateralmente contingenciamento aos outros Poderes/órgãos autônomos.
 
 ## Renúncia de receita — art. 14
 
@@ -101,7 +101,7 @@ Compensação pode vir de:
 
 ## Art. 14-A
 
-Para benefício tributário com renúncia e beneficiário **PJ**:
+Para benefício tributário com renúncia e beneficiário **<abbr title="Pessoa Jurídica">PJ</abbr>**:
 
 - número estimado de beneficiários;
 - prazo;
@@ -129,7 +129,7 @@ Aumento por criação/expansão/aperfeiçoamento de ação:
   - adequação à LOA;
   - compatibilidade com PPA e LDO.
 
-### Art. 17 — DOCC
+### Art. 17 — <abbr title="Despesa Obrigatória de Caráter Continuado">DOCC</abbr>
 
 ```text
 despesa CORRENTE
@@ -147,7 +147,7 @@ Exige origem de recursos e preservação das metas conforme a lei.
 
 ### Limite global
 
-| Ente | % RCL |
+| Ente | % <abbr title="Receita Corrente Líquida">RCL</abbr> |
 |---|---:|
 | União | **50%** |
 | Estados | **60%** |
@@ -157,10 +157,10 @@ Exige origem de recursos e preservação das metas conforme a lei.
 
 | Poder/órgão | % RCL |
 |---|---:|
-| Legislativo + TCE | **3%** |
+| Legislativo + <abbr title="Tribunal de Contas do Estado">TCE</abbr> | **3%** |
 | Judiciário | **6%** |
 | Executivo | **49%** |
-| MP | **2%** |
+| <abbr title="Ministério Público">MP</abbr> | **2%** |
 
 ### Município
 
@@ -216,7 +216,7 @@ pelo menos 1/3 no primeiro
 - auxílio;
 - assistência financeira;
 
-**não** decorrente de determinação constitucional/legal e **não** destinado ao SUS.
+**não** decorrente de determinação constitucional/legal e **não** destinado ao <abbr title="Sistema Único de Saúde">SUS</abbr>.
 
 Exigências incluem:
 
@@ -238,7 +238,7 @@ Regra: operação de crédito **entre entes** é vedada, salvo hipóteses legais
 
 Instituição financeira estatal **não empresta ao ente controlador** como beneficiário.
 
-### ARO
+### <abbr title="Antecipação de Receita Orçamentária">ARO</abbr>
 
 ```text
 finalidade = insuficiência de caixa
@@ -306,8 +306,8 @@ Instrumentos do art. 48:
 - orçamentos;
 - LDO;
 - contas + parecer prévio;
-- **RREO**;
-- **RGF**;
+- **<abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr>**;
+- **<abbr title="Relatório de Gestão Fiscal">RGF</abbr>**;
 - versões simplificadas.
 
 Também:
@@ -360,7 +360,7 @@ Pontos:
 
 - metas da LDO;
 - crédito;
-- RP;
+- <abbr title="Restos a Pagar">RP</abbr>;
 - pessoal;
 - dívida;
 - alienação de ativos.
@@ -397,7 +397,7 @@ Regime excepcional temporário:
 
 ### Art. 66 — baixo crescimento
 
-Se crescimento real acumulado do PIB < **1%** nos 4 últimos trimestres:
+Se crescimento real acumulado do <abbr title="Produto Interno Bruto">PIB</abbr> < **1%** nos 4 últimos trimestres:
 
 - determinados prazos são duplicados.
 

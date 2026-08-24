@@ -18,14 +18,14 @@ O corte normativo é **6 de julho de 2026**. Para esse corte:
 
 - a **LC nº 224/2025** já produz efeitos, em regra, desde **1º de janeiro de 2026**, inclusive nas alterações da LOA e nos arts. 14 e 14-A;
 - a **LC nº 212/2025** já alterou dispositivos da LRF, mas o **art. 41-A** contém regra temporal própria: sua aplicação começa **em 1º de janeiro de 2027**;
-- a jurisprudência do STF formada antes do corte deve ser considerada quando altera a leitura literal de dispositivos, especialmente a **ADI 2238**, a **ADI 2324** e, com alcance contextual, a **ADI 6533**.
+- a jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr> formada antes do corte deve ser considerada quando altera a leitura literal de dispositivos, especialmente a **<abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2238**, a **ADI 2324** e, com alcance contextual, a **ADI 6533**.
 
 Os assuntos vizinhos continuam separados:
 
 - o assunto **149** aprofunda execução orçamentária e financeira, restos a pagar e outros procedimentos;
 - o assunto **150** aprofunda retenções e recolhimentos tributários;
-- o assunto **151** aprofunda SIAFI e CPR;
-- o assunto **152** aprofunda MCASP, PCASP e DCASP.
+- o assunto **151** aprofunda <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> e <abbr title="Contas a Pagar e a Receber">CPR</abbr>;
+- o assunto **152** aprofunda <abbr title="Manual de Contabilidade Aplicada ao Setor Público">MCASP</abbr>, <abbr title="Plano de Contas Aplicado ao Setor Público">PCASP</abbr> e <abbr title="Demonstrações Contábeis Aplicadas ao Setor Público">DCASP</abbr>.
 
 Aqui o foco é a **disciplina fiscal da LC nº 101/2000**.
 
@@ -71,11 +71,11 @@ Para prova, o essencial é reconhecer que a RCL serve como denominador para vár
 - dívida consolidada;
 - operações de crédito;
 - garantias;
-- reserva de contingência, conforme disciplina da LDO.
+- reserva de contingência, conforme disciplina da <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>.
 
 > **Pegadinha:** RCL não é sinônimo de receita tributária, nem de receita corrente bruta.
 
-## 3. Planejamento fiscal: PPA, LDO e LOA
+## 3. Planejamento fiscal: <abbr title="Plano Plurianual">PPA</abbr>, LDO e <abbr title="Lei Orçamentária Anual">LOA</abbr>
 
 A LRF reforça a integração entre planejamento, orçamento e metas fiscais.
 
@@ -401,7 +401,7 @@ Não se trata de toda terceirização indistintamente.
 
 | Poder/órgão | Percentual da RCL |
 |---|---:|
-| Legislativo, incluído o TCE | **3%** |
+| Legislativo, incluído o <abbr title="Tribunal de Contas do Estado">TCE</abbr> | **3%** |
 | Judiciário | **6%** |
 | Executivo | **49%** |
 | Ministério Público | **2%** |
@@ -419,7 +419,7 @@ Não se trata de toda terceirização indistintamente.
 
 O art. 20 também reparte o limite federal entre:
 
-- Legislativo + TCU;
+- Legislativo + <abbr title="Tribunal de Contas da União">TCU</abbr>;
 - Judiciário;
 - Executivo;
 - Ministério Público da União.
@@ -493,7 +493,7 @@ Transferência voluntária é a entrega de recursos correntes ou de capital a ou
 - auxílio;
 - assistência financeira;
 
-que **não** decorra de determinação constitucional ou legal e **não** seja destinada ao SUS.
+que **não** decorra de determinação constitucional ou legal e **não** seja destinada ao <abbr title="Sistema Único de Saúde">SUS</abbr>.
 
 ### 18.1. Exigências
 
@@ -587,7 +587,7 @@ A LRF também equipara certas condutas a operações de crédito e as veda.
 
 A lógica é impedir que formas jurídicas diferentes escondam endividamento material.
 
-## 23. ARO — antecipação de receita orçamentária
+## 23. <abbr title="Antecipação de Receita Orçamentária">ARO</abbr> — antecipação de receita orçamentária
 
 A ARO é operação de curto prazo destinada a atender **insuficiência de caixa durante o exercício**.
 
@@ -683,8 +683,8 @@ São instrumentos de transparência, entre outros:
 - LDO;
 - prestações de contas;
 - parecer prévio;
-- RREO;
-- RGF;
+- <abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr>;
+- <abbr title="Relatório de Gestão Fiscal">RGF</abbr>;
 - versões simplificadas desses documentos.
 
 A divulgação deve ser ampla, inclusive em meios eletrônicos.
@@ -763,7 +763,7 @@ No último quadrimestre, inclui informações específicas sobre:
 |---|---|---|
 | periodicidade | **bimestral** | **quadrimestral** |
 | prazo-base | até 30 dias após bimestre | ao final de cada quadrimestre |
-| abrangência | todos os Poderes + MP | titulares dos Poderes/órgãos do art. 20 |
+| abrangência | todos os Poderes + <abbr title="Ministério Público">MP</abbr> | titulares dos Poderes/órgãos do art. 20 |
 | foco | execução orçamentária e indicadores | limites e gestão fiscal |
 | base legal | arts. 52–53 | arts. 54–55 |
 
@@ -834,7 +834,7 @@ Entre os efeitos possíveis:
 
 ## 36. Baixo crescimento — art. 66
 
-Determinados prazos de recondução são **duplicados** quando houver crescimento real baixo ou negativo do PIB nacional, regional ou estadual por período igual ou superior a quatro trimestres.
+Determinados prazos de recondução são **duplicados** quando houver crescimento real baixo ou negativo do <abbr title="Produto Interno Bruto">PIB</abbr> nacional, regional ou estadual por período igual ou superior a quatro trimestres.
 
 Considera-se **baixo crescimento** a variação real acumulada do PIB inferior a **1%** nos quatro últimos trimestres.
 
