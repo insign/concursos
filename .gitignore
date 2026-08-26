@@ -28,3 +28,4 @@ pnpm-debug.log*
 
 # agent task checkpoint
 /TASK_MEMORY.md
+/.task-memory/

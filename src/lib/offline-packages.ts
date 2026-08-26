@@ -75,17 +75,21 @@ function requestFor(path: string, origin: string): Request {
 
 const OFFLINE_PACKAGE_LEASE_TTL = 15_000;
 const OFFLINE_PACKAGE_LEASE_WAIT_MS = 60_000;
+export const ADOPTION_LEASE_WAIT_MS = 300_000;
 
 /**
  * Serialização única via lease IndexedDB (funciona em página E Service
  * Worker): dono POR OPERAÇÃO (o mesmo dono não pode re-adquirir), heartbeat
  * de renovação a cada TTL/3 e falha do trabalho se o lease for perdido.
  */
-async function withOfflinePackageLock<T>(operation: () => Promise<T>): Promise<T> {
+async function withOfflinePackageLock<T>(
+  operation: () => Promise<T>,
+  options: { waitMs?: number } = {},
+): Promise<T> {
   const { acquireSyncLease, renewSyncLease, releaseSyncLease } = await import('./offline-db');
   const ownerId =
     typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : `${Date.now()}-${Math.random()}`;
-  const deadline = Date.now() + OFFLINE_PACKAGE_LEASE_WAIT_MS;
+  const deadline = Date.now() + (options.waitMs ?? OFFLINE_PACKAGE_LEASE_WAIT_MS);
   while (!(await acquireSyncLease(OFFLINE_PACKAGE_LOCK, ownerId, OFFLINE_PACKAGE_LEASE_TTL))) {
     if (Date.now() >= deadline) {
       throw new Error('Outro download está em andamento; aguarde alguns instantes.');
@@ -129,7 +133,8 @@ async function withOfflinePackageLock<T>(operation: () => Promise<T>): Promise<T
 }
 
 function readableError(error: unknown): Error {
-  if (error instanceof DOMException && error.name === 'QuotaExceededError') {
+  const name = error instanceof DOMException ? error.name : (error as { name?: string })?.name;
+  if (name === 'QuotaExceededError') {
     return new Error('Não há espaço suficiente para concluir o download. O pacote anterior foi preservado.');
   }
   return error instanceof Error ? error : new Error('Não foi possível concluir o download offline.');
@@ -178,7 +183,7 @@ async function cacheContains(cache: Cache, resources: Iterable<string>, origin: 
   return true;
 }
 
-async function packageIsComplete(
+export async function packageIsComplete(
   cacheStorage: CacheStorage,
   record: OfflineContestRecord,
   manifest: OfflinePackageManifest,
@@ -401,9 +406,12 @@ export async function adoptStagedPackageUnderLock(
   manifest: OfflinePackageManifest,
   temporaryCacheName: string,
   overrides: PackageEnvironment = {},
+  options: { waitMs?: number } = {},
 ): Promise<OfflineContestRecord> {
-  return withOfflinePackageLock(() => activateStagedPackage(manifest, temporaryCacheName, overrides));
+  return withOfflinePackageLock(() => activateStagedPackage(manifest, temporaryCacheName, overrides), options);
 }
+
+export { OFFLINE_PACKAGE_LEASE_WAIT_MS };
 
 export async function removeContestPackage(
   contestStorageId: string,
