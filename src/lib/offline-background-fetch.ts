@@ -1,4 +1,5 @@
 import {
+  ADOPTION_LEASE_WAIT_MS,
   adoptStagedPackageUnderLock,
   offlinePackageManifestSchema,
   type OfflinePackageManifest,
@@ -138,7 +139,7 @@ function stagingCacheName(manifestHash: string, storageId: string): string {
  * (recursos do pacote) e no cache compartilhado (assets globais), promove
  * com a mesma sequência atômica do fluxo em página e publica o evento.
  */
-function contestStorageIdFromBgId(id: string): string {
+export function contestStorageIdFromBgId(id: string): string {
   if (!id.startsWith(BG_ID_PREFIX)) return '';
   const rest = id.slice(BG_ID_PREFIX.length);
   // Formato: <13 dígitos de timestamp>-<storageId>
@@ -151,6 +152,7 @@ const BG_REASON_MESSAGES: Record<string, string> = {
   'bgf.manifest-invalid': 'O download em segundo plano não pôde ser concluído. Toque em Baixar novamente.',
   'bgf.staging': 'Não foi possível armazenar o conteúdo baixado. Tente novamente.',
   'bgf.adoption': 'Não foi possível concluir o download em segundo plano. Tente baixar novamente.',
+  'bgf.quota': 'Não há espaço suficiente para concluir o download. Libere espaço e toque em Baixar novamente.',
   'bgf.browser-failed': 'O navegador interrompeu o download offline.',
   'bgf.reconcile-orphan': 'Um download em segundo plano não foi concluído. Toque em Baixar novamente.',
 };
@@ -244,7 +246,7 @@ export async function finalizeSuccessfulBackgroundFetch(
       }
     }
 
-    await adoptStagedPackageUnderLock(manifest, stagingName, { cacheStorage });
+    await adoptStagedPackageUnderLock(manifest, stagingName, { cacheStorage }, { waitMs: ADOPTION_LEASE_WAIT_MS });
     const completionDiagnostic: DownloadDiagnosticRecord & { jobId: string } = {
       id: `${storageId}-complete-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
       contestStorageId: storageId,
@@ -262,9 +264,12 @@ export async function finalizeSuccessfulBackgroundFetch(
       // updateUI é opcional e pode falhar fora da janela do evento.
     }
   } catch (error) {
+    const quota = (error as { name?: string })?.name === 'QuotaExceededError';
     const isStaging = !staging;
-    const reasonCode = isStaging ? 'bgf.staging' : 'bgf.adoption';
+    let reasonCode = isStaging ? 'bgf.staging' : 'bgf.adoption';
+    if (quota) reasonCode = 'bgf.quota';
     const errorName = error instanceof Error ? error.name : 'Error';
+    const message = quota ? BG_REASON_MESSAGES['bgf.quota'] : undefined;
     await finishDownloadJob({
       id: `${storageId}-${reasonCode}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
       contestStorageId: storageId,
@@ -275,7 +280,21 @@ export async function finalizeSuccessfulBackgroundFetch(
       errorName,
       errorMessage: error instanceof Error ? error.message : String(error),
     });
-    await recordStep(registration.id, { contestStorageId: storageId, outcome: 'failed', reasonCode, jobId: registration.id, errorName, errorMessage: error instanceof Error ? error.message : String(error) });
+    // finishDownloadJob já gravou o diagnóstico durável; apenas publica o evento de falha (best-effort)
+    // sem duplicar o registro no store de diagnósticos.
+    publishDownloadEvent({
+      type: 'failed',
+      contestStorageId: storageId,
+      phase: 'download',
+      reason: reasonCode,
+      message: message ?? BG_REASON_MESSAGES[reasonCode] ?? 'Falha no download em segundo plano.',
+    });
+    // Limpeza best-effort do staging quando já não será adotado.
+    try {
+      await cacheStorage.delete(stagingName);
+    } catch {
+      // staging órfão será removido por cleanupInactiveContestCaches.
+    }
   } finally {
     // Limpeza do job é responsabilidade de quem publicou o terminal
     // (finishDownloadJob transacional); nada a fazer aqui.
@@ -316,10 +335,13 @@ export async function finalizeFailedBackgroundFetch(
     jobId: registration.id,
     errorName: parsed.success ? undefined : 'ManifestSchemaError',
   });
-  await recordStep(
-    registration.id,
-    { contestStorageId: storageId, outcome: 'failed', reasonCode, jobId: registration.id },
-  );
+  publishDownloadEvent({
+    type: 'failed',
+    contestStorageId: storageId ?? contestStorageIdFromBgId(registration.id),
+    phase: 'download',
+    reason: reasonCode,
+    message: BG_REASON_MESSAGES[reasonCode] ?? 'Falha no download em segundo plano.',
+  });
 }
 
 const RECONCILE_GRACE_MS = 10 * 60_000;

@@ -29,6 +29,9 @@
   window.addEventListener('concursos:pwa-retry', () => void controller.retry());
 
   if ('caches' in window) void cleanupInactiveContestCaches().catch(() => undefined);
+  if (typeof navigator !== 'undefined' && navigator.storage?.persist) {
+    void navigator.storage.persist().catch(() => undefined);
+  }
 
   navigator.serviceWorker?.addEventListener('message', (event) => {
     if (event.data?.type === 'SYNC_REQUESTED') {
