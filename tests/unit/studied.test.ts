@@ -35,12 +35,12 @@ describe('studied subjects document', () => {
     expect(isStudied(doc, 'a--c')).toBe(false);
   });
 
-  it('adds a subject keeping the list sorted and deduplicated', () => {
+  it('adds a subject preserving insertion order and deduplicated', () => {
     const doc: StudiedDocument = { schemaVersion: 1, studiedSubjectIds: ['b--two'], updatedAt: at };
     const next = toggleStudiedIds(doc, 'a--one', true, at);
-    expect(next.studiedSubjectIds).toEqual(['a--one', 'b--two']);
-    // Marcar de novo é idempotente.
-    expect(toggleStudiedIds(next, 'a--one', true, at).studiedSubjectIds).toEqual(['a--one', 'b--two']);
+    expect(next.studiedSubjectIds).toEqual(['b--two', 'a--one']);
+    // Marcar de novo é idempotente e não move.
+    expect(toggleStudiedIds(next, 'a--one', true, at).studiedSubjectIds).toEqual(['b--two', 'a--one']);
     expect(next.updatedAt).toBe(at);
   });
 
