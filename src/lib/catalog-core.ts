@@ -80,15 +80,17 @@ export interface CatalogIndex {
 }
 
 export interface OfflineInventory {
-  schemaVersion: 2;
+  schemaVersion: 3;
   contestSlug: string;
   contestStorageId: string;
   manifestHash: string;
+  sharedHash: string;
   routes: string[];
   assets: string[];
   sharedAssets: string[];
   estimatedBytes: number | null;
   resources: Record<string, string>;
+  sharedResources: Record<string, string>;
 }
 
 function assertUnique(values: string[], label: string): void {
@@ -426,14 +428,16 @@ export function createOfflineInventory(
   appendMegaReviewRoutes(contest.children, contest.slug, routes);
 
   return {
-    schemaVersion: 2,
+    schemaVersion: 3,
     contestSlug: contest.slug,
     contestStorageId: contest.storageId,
     manifestHash: 'development',
+    sharedHash: 'development',
     routes,
     assets: [...new Set(assets)].sort(),
     sharedAssets: [],
     estimatedBytes: null,
     resources: {},
+    sharedResources: {},
   };
 }

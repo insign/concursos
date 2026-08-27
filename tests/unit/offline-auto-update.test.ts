@@ -14,16 +14,19 @@ vi.mock(import('../../src/lib/offline-packages'), async (importOriginal) => {
 
 function manifest(hash: string, storageId = 'exemplo') {
   return {
-    schemaVersion: 2,
+    schemaVersion: 3,
     contestSlug: 'exemplo',
     contestStorageId: storageId,
     manifestHash: hash,
+    sharedHash: hash,
     routes: ['/concursos/exemplo/'],
     assets: [],
     sharedAssets: ['/_astro/shared.js'],
     estimatedBytes: 256,
     resources: {
       '/concursos/exemplo/': 'aaaaaaaaaaaaaaaaaaaa',
+    },
+    sharedResources: {
       '/_astro/shared.js': 'bbbbbbbbbbbbbbbbbbbb',
     },
   };

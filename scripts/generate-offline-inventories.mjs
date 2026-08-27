@@ -96,28 +96,46 @@ async function buildManifest(seed) {
   const discoveredAssets = (await collectAssets(seed.routes)).filter((asset) => asset !== '/manifest.webmanifest');
   const assets = [...new Set([...seed.assets, ...discoveredAssets.filter((asset) => !isSharedAsset(asset))])].sort();
   const sharedAssets = discoveredAssets.filter(isSharedAsset);
-  const resources = [...seed.routes, ...assets, ...sharedAssets];
-  const hash = createHash('sha256');
+  const contentResources = [...seed.routes, ...assets];
+  const sharedResourcesList = [...sharedAssets];
+  const contentHash = createHash('sha256');
+  const sharedHash = createHash('sha256');
   const resourceHashes = {};
+  const sharedResourceHashes = {};
   let estimatedBytes = 0;
 
-  for (const resource of resources) {
+  for (const resource of contentResources) {
     const file = outputPath(resource);
     const metadata = await stat(file);
     const contents = await readFile(file);
     estimatedBytes += metadata.size;
-    hash.update(resource);
-    hash.update(contents);
+    contentHash.update(resource);
+    contentHash.update(contents);
     resourceHashes[resource] = createHash('sha256').update(resource).update(contents).digest('hex').slice(0, 20);
   }
 
+  for (const resource of sharedResourcesList) {
+    const file = outputPath(resource);
+    const metadata = await stat(file);
+    const contents = await readFile(file);
+    estimatedBytes += metadata.size;
+    sharedHash.update(resource);
+    sharedHash.update(contents);
+    sharedResourceHashes[resource] = createHash('sha256').update(resource).update(contents).digest('hex').slice(0, 20);
+  }
+
+  const finalSharedHash = sharedResourcesList.length ? sharedHash.digest('hex').slice(0, 20) : createHash('sha256').digest('hex').slice(0, 20);
+
   return {
     ...seed,
-    manifestHash: hash.digest('hex').slice(0, 20),
+    schemaVersion: 3,
+    manifestHash: contentHash.digest('hex').slice(0, 20),
+    sharedHash: finalSharedHash,
     assets,
     sharedAssets,
     estimatedBytes,
     resources: resourceHashes,
+    sharedResources: sharedResourceHashes,
   };
 }
 

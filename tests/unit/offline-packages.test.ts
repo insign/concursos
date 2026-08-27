@@ -65,17 +65,26 @@ function manifest(
   resources: Record<string, string> = Object.fromEntries(
     [...routes, '/_astro/shared.js'].map((path) => [path, 'aaaaaaaaaaaaaaaaaaaa']),
   ),
+  sharedHash = hash,
 ): OfflinePackageManifest {
+  const sharedResources = Object.fromEntries(
+    ['/_astro/shared.js'].map((path) => [path, resources[path] ?? 'bbbbbbbbbbbbbbbbbbbb']),
+  );
+  const contentResources = Object.fromEntries(
+    Object.entries(resources).filter(([k]) => !sharedResources[k]),
+  );
   return {
-    schemaVersion: 2,
+    schemaVersion: 3,
     contestSlug: 'exemplo',
     contestStorageId: 'exemplo',
     manifestHash: hash,
+    sharedHash,
     routes,
     assets: [],
     sharedAssets: ['/_astro/shared.js'],
     estimatedBytes: 256,
-    resources,
+    resources: contentResources,
+    sharedResources,
   };
 }
 
@@ -360,7 +369,8 @@ describe('offline contest packages', () => {
 
     expect(fetchResource).toHaveBeenCalledTimes(1);
     expect((fetchResource.mock.calls[0][0] as Request).url).toContain('/concursos/exemplo/');
-    expect(record.resourceHashes).toEqual(unchangedResources);
+    expect(record.resourceHashes).toEqual({ '/concursos/exemplo/': 'aaaaaaaaaaaaaaaaaaaa' });
+    expect((record as unknown as { sharedHashes?: Record<string,string> }).sharedHashes).toEqual({ '/_astro/shared.js': 'bbbbbbbbbbbbbbbbbbbb' });
     expect((await cacheStorage.caches.get(record.activeCacheName)?.keys())?.length).toBe(1);
   });
 
@@ -425,7 +435,8 @@ describe('offline contest packages', () => {
       fetch: fetchResource as typeof fetch,
     });
 
-    expect(fetchResource).toHaveBeenCalledTimes(2);
+    // Com schema v3, sharedResources tem hash mesmo quando resources é vazio, então shared é copiado
+    expect(fetchResource).toHaveBeenCalledTimes(1);
     expect(record.resourceHashes).toEqual({});
   });
 });
