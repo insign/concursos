@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q284",
@@ -3001,6 +3001,66 @@
       ],
       "correctOptionId": "e",
       "explanation": "O uso existencial de `ter` é frequente no português brasileiro, mas concursos normativos podem exigir `haver` ou `existir` conforme a construção. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — PC/RN, Agente e Escrivão, 2009, Q95585: https://www.qconcursos.com/questoes-de-concursos/questoes/7b38a7a5-72."
+    },
+    {
+      "id": "q384",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção que indica a única palavra em que a letra A desempenha o papel de desinência modo-temporal.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fazia."
+        },
+        {
+          "id": "b",
+          "text": "Cessar."
+        },
+        {
+          "id": "c",
+          "text": "Trabalha."
+        },
+        {
+          "id": "d",
+          "text": "Ajuda."
+        },
+        {
+          "id": "e",
+          "text": "Altar."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito definitivo: A. Fonte: questão oficial; FGV; SEEC/RN — Professor de Língua Portuguesa, Tipo 1 (Branca); 2025; questão 49; https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-lingua-portuguesacns112-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_seadrn_v3.pdf."
+    },
+    {
+      "id": "q385",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção que indica a única frase que apresenta um tipo de voz passiva diferente da empregada nas demais frases.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A única certeza do planejamento é que as coisas nunca ocorrem como foram planejadas."
+        },
+        {
+          "id": "b",
+          "text": "A pedra filosofal, procurada em vão pelos alquimistas, foi por fim encontrada pelos vigaristas; a pedra filosofal é o dinheiro alheio."
+        },
+        {
+          "id": "c",
+          "text": "Nada é impossível... até que o caso seja mandado a uma comissão."
+        },
+        {
+          "id": "d",
+          "text": "A concorrência é um estilo de vida. Se você não tem um concorrente forte é obrigado a inventar um."
+        },
+        {
+          "id": "e",
+          "text": "Nada é feito até que se veja algo por fazer."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Gabarito definitivo: E. Fonte: questão oficial; FGV; SEEC/RN — Professor de Língua Portuguesa, Tipo 1 (Branca); 2025; questão 58; https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-lingua-portuguesacns112-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_seadrn_v3.pdf."
     }
   ]
 }
