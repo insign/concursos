@@ -62,10 +62,12 @@ export interface LocalSharedDocumentRecord {
 export interface OfflineContestRecord {
   contestStorageId: string;
   manifestHash: string;
+  sharedHash?: string;
   activeCacheName: string;
   downloadedAt: number;
   resourceCount: number;
   resourceHashes?: Record<string, string>;
+  sharedHashes?: Record<string, string>;
 }
 
 export async function getOfflineContestRecord(

@@ -22,17 +22,25 @@ const localPathSchema = z
 
 export const offlinePackageManifestSchema = z
   .object({
-    schemaVersion: z.literal(2),
+    schemaVersion: z.union([z.literal(2), z.literal(3)]),
     contestSlug: z.string().min(1),
     contestStorageId: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
     manifestHash: z.string().regex(/^(?:development|[a-f0-9]{20})$/),
+    sharedHash: z.string().regex(/^(?:development|[a-f0-9]{20})$/).optional(),
     routes: z.array(localPathSchema).min(1),
     assets: z.array(localPathSchema),
     sharedAssets: z.array(localPathSchema),
     estimatedBytes: z.number().int().nonnegative().nullable(),
     resources: z.record(z.string().min(1), z.string().regex(/^[a-f0-9]{20}$/)),
+    sharedResources: z.record(z.string().min(1), z.string().regex(/^[a-f0-9]{20}$/)).optional(),
   })
-  .strict();
+  .strict()
+  .transform((data) => ({
+    ...data,
+    schemaVersion: 3 as const,
+    sharedHash: data.sharedHash ?? data.manifestHash,
+    sharedResources: data.sharedResources ?? {},
+  }));
 
 export type OfflinePackageManifest = z.infer<typeof offlinePackageManifestSchema>;
 
@@ -387,8 +395,14 @@ async function downloadContestPackageLocked(
       const request = requestFor(resource, origin);
       const isPackageResource = packageResources.has(resource);
       const destination = isPackageResource ? temporary : shared;
+      const expectedHash = isPackageResource
+        ? manifest.resources[resource]
+        : ((manifest as unknown as { sharedResources?: Record<string,string> }).sharedResources?.[resource] ?? manifest.resources[resource]);
+      const previousHash = isPackageResource
+        ? previousHashes?.[resource]
+        : ((existing as unknown as { sharedHashes?: Record<string,string> })?.sharedHashes?.[resource] ?? previousHashes?.[resource]);
       let stored = false;
-      if (previousHashes && nextHashes[resource] !== undefined && previousHashes[resource] === nextHashes[resource]) {
+      if (expectedHash !== undefined && previousHash !== undefined && expectedHash === previousHash) {
         stored = await copyResourceLocally(isPackageResource ? previousActive : shared, request, destination);
       }
         if (!stored) {
@@ -454,10 +468,12 @@ export async function activateStagedPackage(
     const record: OfflineContestRecord = {
       contestStorageId: manifest.contestStorageId,
       manifestHash: manifest.manifestHash,
+      sharedHash: (manifest as unknown as { sharedHash?: string }).sharedHash ?? manifest.manifestHash,
       activeCacheName,
       downloadedAt: Date.now(),
       resourceCount: resourcesCountOf(manifest),
       resourceHashes: { ...manifest.resources },
+      sharedHashes: { ...((manifest as unknown as { sharedResources?: Record<string,string> }).sharedResources ?? {}) },
     };
     await saveOfflineContestRecord(record);
     activatedRecord = record;

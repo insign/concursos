@@ -72,16 +72,19 @@ class MemCacheStorage {
 
 function manifest(hash = '11111111111111111111') {
   return {
-    schemaVersion: 2 as const,
+    schemaVersion: 3 as const,
     contestSlug: 'exemplo',
     contestStorageId: 'exemplo',
     manifestHash: hash,
+    sharedHash: hash,
     routes: ['/concursos/exemplo/'],
     assets: [],
     sharedAssets: ['/_astro/shared.js'],
     estimatedBytes: 256,
     resources: {
       '/concursos/exemplo/': 'aaaaaaaaaaaaaaaaaaaa',
+    },
+    sharedResources: {
       '/_astro/shared.js': 'bbbbbbbbbbbbbbbbbbbb',
     },
   };
