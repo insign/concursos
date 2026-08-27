@@ -184,6 +184,17 @@ export function openOfflineDb(): Promise<IDBPDatabase<ConcursosDbSchema>> {
       // para que a próxima abertura tente o upgrade novamente.
       databasePromise = null;
     },
+    blocking() {
+      void databasePromise?.then((db) => {
+        try {
+          db.close();
+        } catch {}
+      }).catch(() => undefined);
+      databasePromise = null;
+    },
+    terminated() {
+      databasePromise = null;
+    },
     upgrade(database) {
       // Migração aditiva e idempotente: cria apenas os stores ausentes, para que os bumps
       // de versão (v1->v2 'estudados', v2->v3 'leitura', v3->v4 'simulados'/'simuladosIndex')
@@ -234,6 +245,22 @@ export function openOfflineDb(): Promise<IDBPDatabase<ConcursosDbSchema>> {
     },
   });
   return databasePromise;
+}
+
+export function withDatabaseTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
+  return new Promise<T>((resolve, reject) => {
+    const timer = setTimeout(() => reject(new Error('IndexedDB timeout')), ms);
+    promise.then(
+      (value) => {
+        clearTimeout(timer);
+        resolve(value);
+      },
+      (error) => {
+        clearTimeout(timer);
+        reject(error);
+      },
+    );
+  });
 }
 
 export interface DownloadJobRecord {

@@ -39,12 +39,6 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
     type OfflinePackageManifest,
   } from '../lib/offline-packages';
   import { subscribeDownloadEvents } from '../lib/offline-download-events';
-  import {
-    backgroundFetchSupported,
-    startBackgroundPackageDownload,
-    hasActivePackageDownload,
-    contestStorageIdFromBgId,
-  } from '../lib/offline-background-fetch';
   import { evaluateOfflineAvailability } from '../lib/offline-availability';
 
   function formatBytes(bytes: number | null): string {
@@ -63,7 +57,6 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
     const message = root.querySelector<HTMLElement>('[data-offline-message]')!;
     let latestManifest: OfflinePackageManifest | undefined;
     let renderSeq = 0;
-    let bgPollTimer: ReturnType<typeof setInterval> | null = null;
 
     const loadManifest = async () => {
       const response = await fetch(manifestUrl, { cache: 'no-store' });
@@ -74,7 +67,6 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
     const renderAvailability = async () => {
       const seq = ++renderSeq;
       const record = await getOfflineContestRecord(contestStorageId);
-      // Verifica se o cache ativo realmente existe (durável) — fail-open em erro.
       let cachePresent = true;
       if (record) {
         try {
@@ -98,62 +90,17 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
         latestManifest = undefined;
       }
 
-      // Somente quando não há registro, tenta detectar falha recente ou job órfão para mensagem acionável.
-      let recentFailureMessage: string | null | undefined = null;
-      let orphan = false;
-      let hasActive = false;
-      if (!record) {
-        try {
-          const { listDownloadDiagnostics, listDownloadJobs } = await import('../lib/offline-db');
-          const diags = await listDownloadDiagnostics(20);
-          const recent = diags
-            .filter((d) => d.contestStorageId === contestStorageId && d.outcome === 'failed')
-            .sort((a, b) => b.occurredAt - a.occurredAt)[0];
-          if (recent && Date.now() - recent.occurredAt < 24 * 60 * 60 * 1000) {
-            recentFailureMessage = recent.errorMessage ?? recent.reasonCode;
-            // Mensagens de diagnóstico já são amigáveis via BG_REASON_MESSAGES; fallback genérico
-            if (recent.reasonCode === 'bgf.quota') recentFailureMessage = 'Não há espaço suficiente. Libere espaço e toque em Baixar novamente.';
-            else if (recent.reasonCode.startsWith('bgf.')) recentFailureMessage = recent.errorMessage ?? 'Falha no download em segundo plano. Toque em Baixar novamente.';
-          }
-          const jobs = await listDownloadJobs();
-          const jobForContest = jobs.find((j) => contestStorageIdFromBgId(j.id) === contestStorageId);
-          if (jobForContest) {
-            try {
-              const reg = 'serviceWorker' in navigator ? await navigator.serviceWorker.ready.catch(() => undefined) : undefined;
-              if (reg) {
-                const active = await hasActivePackageDownload(reg, contestStorageId);
-                hasActive = active;
-                if (!active) orphan = true;
-              } else {
-                orphan = true;
-              }
-            } catch {
-              // Enumeração incerta -> não afirmar órfão
-            }
-          }
-        } catch {
-          // best-effort
-        }
-      }
-
       if (seq !== renderSeq) return;
       if (!record) {
-        const avail = evaluateOfflineAvailability({ hasRecord: false, cachePresent: false, recentFailureMessage, orphanJobWithoutTransfer: orphan });
+        const avail = evaluateOfflineAvailability({ hasRecord: false, cachePresent: false });
         downloadButton.textContent = 'Baixar concurso';
         downloadButton.hidden = false;
         removeButton.hidden = true;
-        if (hasActive) {
-          downloadButton.disabled = true;
-          message.textContent = 'Download em segundo plano em andamento...';
-        } else {
-          downloadButton.disabled = false;
-          if (avail.status === 'retry-advice') message.textContent = avail.message;
-          else message.textContent = 'Este concurso ainda não foi baixado.';
-        }
+        downloadButton.disabled = false;
+        message.textContent = 'Este concurso ainda não foi baixado.';
         return;
       }
 
-      // Com registro
       if (!cachePresent) {
         downloadButton.textContent = 'Baixar concurso';
         downloadButton.hidden = false;
@@ -195,69 +142,18 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
       }
     };
 
-    const startBgPolling = (registration: ServiceWorkerRegistration) => {
-      if (bgPollTimer) clearInterval(bgPollTimer);
-      let polls = 0;
-      bgPollTimer = setInterval(async () => {
-        polls += 1;
-        if (polls > 30) {
-          if (bgPollTimer) clearInterval(bgPollTimer);
-          bgPollTimer = null;
-          await renderAvailability();
-          return;
-        }
-        try {
-          const stillActive = await hasActivePackageDownload(registration, contestStorageId);
-          if (!stillActive) {
-            if (bgPollTimer) clearInterval(bgPollTimer);
-            bgPollTimer = null;
-            await renderAvailability();
-          }
-        } catch {
-          // incerta -> mantém polling
-        }
-      }, 3000);
-    };
-
     downloadButton.addEventListener('click', async () => {
       if (typeof navigator !== 'undefined' && navigator.onLine === false) {
         message.textContent = 'Sem conexão à internet. Conecte-se para baixar o concurso.';
         return;
       }
-      let startedBg = false;
       downloadButton.disabled = true;
       progress.hidden = false;
       message.textContent = 'Preparando o download...';
       try {
         const manifest: OfflinePackageManifest = latestManifest ?? await loadManifest();
         const size = typeof manifest.estimatedBytes === 'number' ? formatBytes(manifest.estimatedBytes) : '';
-
-        const registration = 'serviceWorker' in navigator
-          ? await navigator.serviceWorker.ready.catch(() => undefined)
-          : undefined;
-        if (registration && backgroundFetchSupported(registration)) {
-          let alreadyActive = false;
-          try {
-            alreadyActive = await hasActivePackageDownload(registration, manifest.contestStorageId);
-          } catch {
-            alreadyActive = false;
-          }
-          if (alreadyActive) {
-            downloadButton.disabled = true;
-            message.textContent = 'Já existe um download em andamento para este concurso.';
-            return;
-          }
-          await assertStorageCapacity(manifest, navigator.storage);
-          message.textContent = size
-            ? `Download em segundo plano iniciado (${size}). Você pode navegar ou fechar o app.`
-            : 'Download em segundo plano iniciado. Você pode navegar ou fechar o app.';
-          await startBackgroundPackageDownload(registration, manifest);
-          startedBg = true;
-          window.dispatchEvent(new CustomEvent('concursos:download-scan'));
-          if (registration) startBgPolling(registration as ServiceWorkerRegistration);
-          return;
-        }
-
+        await assertStorageCapacity(manifest, navigator.storage);
         message.textContent = size ? `Baixando aproximadamente ${size}...` : 'Baixando concurso...';
         await downloadContestPackage(manifest, ({ completed, total }) => {
           progress.max = total;
@@ -270,14 +166,8 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
       } catch (error) {
         message.textContent = error instanceof Error ? error.message : 'Não foi possível concluir o download.';
       } finally {
-        // Após entregar ao Background Fetch, mantém desabilitado até evento ou polling confirmar.
-        if (!startedBg) {
-          downloadButton.disabled = false;
-          progress.hidden = true;
-        } else {
-          // Mantém progresso oculto mas botão desabilitado; renderAvailability cuidará de reabilitar em falha.
-          progress.hidden = true;
-        }
+        downloadButton.disabled = false;
+        progress.hidden = true;
       }
     });
 
@@ -316,7 +206,7 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
       if (event.phase === 'download') {
         if (event.type === 'started') {
           downloadButton.disabled = true;
-          message.textContent = 'Download em segundo plano em andamento...';
+          message.textContent = 'Baixando concurso...';
         } else if (event.type === 'completed') {
           window.dispatchEvent(new CustomEvent('concursos:offline-packages-changed'));
           void renderAvailability();
@@ -325,6 +215,11 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
           progress.hidden = true;
           message.textContent = event.message;
           void renderAvailability();
+        } else if (event.type === 'progress') {
+          progress.hidden = false;
+          progress.max = event.total;
+          progress.value = event.completed;
+          message.textContent = `Baixando ${event.completed} de ${event.total} recursos...`;
         }
         return;
       }

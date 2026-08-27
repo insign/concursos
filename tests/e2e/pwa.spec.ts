@@ -170,12 +170,7 @@ test('starts a browser-managed background download when Background Fetch is avai
   await page.goto('/concursos/concurso-exemplo/');
   await waitForServiceWorker(page);
 
-  const supported = await page.evaluate(() => {
-    const registration = navigator.serviceWorker.controller;
-    return Boolean(registration && 'backgroundFetch' in ServiceWorkerRegistration.prototype);
-  });
-  test.skip(!supported, 'Background Fetch não é suportado neste navegador.');
-
+  // Background Fetch foi removido em #516 (defasado); o download agora usa pool 4 em todos browsers
   await page.getByRole('button', { name: 'Baixar concurso' }).click();
-  await expect(page.getByText(/Download em segundo plano iniciado/)).toBeVisible({ timeout: 10_000 });
+  await expect(page.locator('[data-offline-message]')).toContainText(/Baixando/, { timeout: 10_000 });
 });
