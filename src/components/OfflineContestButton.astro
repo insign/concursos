@@ -155,10 +155,14 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
         const size = typeof manifest.estimatedBytes === 'number' ? formatBytes(manifest.estimatedBytes) : '';
         await assertStorageCapacity(manifest, navigator.storage);
         message.textContent = size ? `Baixando aproximadamente ${size}...` : 'Baixando concurso...';
-        await downloadContestPackage(manifest, ({ completed, total }) => {
+        await downloadContestPackage(manifest, ({ completed, total, fetched, copied }) => {
           progress.max = total;
           progress.value = completed;
-          message.textContent = `Baixando ${completed} de ${total} recursos${size ? `, cerca de ${size}` : ''}...`;
+          if (fetched !== undefined && copied !== undefined && copied > 0) {
+            message.textContent = `Atualizando ${fetched} novos de ${total} (${copied} copiados)${size ? `, cerca de ${size}` : ''}...`;
+          } else {
+            message.textContent = `Baixando ${completed} de ${total} recursos${size ? `, cerca de ${size}` : ''}...`;
+          }
         });
         message.textContent = `${contestTitle} está disponível offline.`;
         window.dispatchEvent(new CustomEvent('concursos:offline-packages-changed'));
