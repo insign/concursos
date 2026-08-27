@@ -246,6 +246,46 @@ export async function downloadContestPackage(
   }
 }
 
+const OFFLINE_DOWNLOAD_CONCURRENCY = 4;
+
+async function runConcurrentPool<T>(
+  items: readonly T[],
+  concurrency: number,
+  worker: (item: T, signal: AbortSignal | undefined) => Promise<void>,
+): Promise<void> {
+  if (items.length === 0) return;
+  const controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
+  const signal = controller?.signal;
+  const poolSize = Math.max(1, Math.min(concurrency, items.length));
+  // nextIndex++ é atômico no JS single-thread: incremento síncrono antes de qualquer await distribui sem duplicação
+  let nextIndex = 0;
+  let firstError: unknown = null;
+  let hasError = false;
+  const runners = Array.from({ length: poolSize }, async () => {
+    while (true) {
+      if (signal?.aborted) break;
+      if (hasError) break;
+      const index = nextIndex++;
+      if (index >= items.length) break;
+      const item = items[index]!;
+      try {
+        await worker(item, signal);
+      } catch (error) {
+        if (!hasError) {
+          hasError = true;
+          firstError = error;
+          try {
+            controller?.abort();
+          } catch {}
+        }
+        break;
+      }
+    }
+  });
+  await Promise.all(runners);
+  if (hasError) throw firstError;
+}
+
 async function downloadContestPackageLocked(
   manifest: OfflinePackageManifest,
   onProgress: (progress: DownloadProgress) => void,
@@ -291,9 +331,11 @@ async function downloadContestPackageLocked(
   const temporary = await cacheStorage.open(temporaryCacheName);
   const shared = await cacheStorage.open(SHARED_ASSET_CACHE);
   let downloadedBytes = 0;
+  let completed = 0;
 
   try {
-    for (const [index, resource] of resources.entries()) {
+    await runConcurrentPool(resources, OFFLINE_DOWNLOAD_CONCURRENCY, async (resource, signal) => {
+      if (signal?.aborted) return;
       const request = requestFor(resource, origin);
       const isPackageResource = packageResources.has(resource);
       const destination = isPackageResource ? temporary : shared;
@@ -301,18 +343,26 @@ async function downloadContestPackageLocked(
       if (previousHashes && nextHashes[resource] !== undefined && previousHashes[resource] === nextHashes[resource]) {
         stored = await copyResourceLocally(isPackageResource ? previousActive : shared, request, destination);
       }
-      if (!stored) {
-        const response = await fetchResource(request, { cache: 'reload', credentials: 'same-origin' });
-        if (!response.ok || response.type === 'opaque') {
-          throw new Error(`Falha ao baixar ${resource}: HTTP ${response.status}`);
+        if (!stored) {
+          if (signal?.aborted) return;
+          const response = await fetchResource(request, {
+            cache: 'reload',
+            credentials: 'same-origin',
+            ...(signal ? { signal } : {}),
+          });
+          if (!response.ok || response.type === 'opaque') {
+            throw new Error(`Falha ao baixar ${resource}: HTTP ${response.status}`);
+          }
+          if (signal?.aborted) return;
+          const contentLength = Number(response.headers.get('content-length'));
+          if (Number.isFinite(contentLength)) downloadedBytes += contentLength;
+          if (signal?.aborted) return;
+          await destination.put(request, response);
         }
-
-        const contentLength = Number(response.headers.get('content-length'));
-        if (Number.isFinite(contentLength)) downloadedBytes += contentLength;
-        await destination.put(request, response);
-      }
-      onProgress({ completed: index + 1, total: resources.length, downloadedBytes });
-    }
+        if (signal?.aborted) return;
+        completed += 1;
+        onProgress({ completed, total: resources.length, downloadedBytes });
+    });
 
     return await activateStagedPackage(manifest, temporaryCacheName, overrides);
   } catch (error) {
