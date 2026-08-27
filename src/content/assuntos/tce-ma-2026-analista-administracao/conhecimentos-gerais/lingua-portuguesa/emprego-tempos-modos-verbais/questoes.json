@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q184",
@@ -2701,6 +2701,58 @@
       ],
       "correctOptionId": "e",
       "explanation": "Questões reais mostram que formas distintas podem ser corretas, mas não equivalentes. Fonte: síntese adaptada de CESPE/CEBRASPE, Joinville 2022, PC/DF 2021, PGE/PE 2019 e SEGESP/AL 2013; fontes indicadas nas questões anteriores."
+    },
+    {
+      "id": "q274",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção em que, no trecho extraído do texto, se identifica forma verbal no gerúndio.",
+      "options": [
+        {
+          "id": "a",
+          "text": "“À primeira vista, ‘onde’ parece uma palavra inocente e inofensiva” (R.3)"
+        },
+        {
+          "id": "b",
+          "text": "“Confesso que eu não tinha me dado conta do problema” (R.16)"
+        },
+        {
+          "id": "c",
+          "text": "“vi o assunto sendo discutido no programa de TV do professor Pasquale” (R.20)"
+        },
+        {
+          "id": "d",
+          "text": "“Mas o pior vai ser quando ‘por que’ virar ‘por onde’” (R.29)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Na alternativa C, `sendo` é forma nominal do verbo `ser` no gerúndio. Fonte: questão oficial; CESPE/UnB; SEAD/UEPA — Cargo 44: Nível Médio Profissional – Técnico em Informática; 2008; questão 6; https://cdn.cebraspe.org.br/concursos/_antigos/2007/UEPA2007/arquivos/UEPA_044_1.pdf. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/_antigos/2007/UEPA2007/arquivos/UEPA_Gab_Definitivo_044_1.pdf."
+    },
+    {
+      "id": "q275",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Na oração “Todos os momentos em que deveríamos usar ‘em que’ (R.6), o verbo está empregado no",
+      "options": [
+        {
+          "id": "a",
+          "text": "pretérito imperfeito do indicativo."
+        },
+        {
+          "id": "b",
+          "text": "futuro do presente do subjuntivo."
+        },
+        {
+          "id": "c",
+          "text": "pretérito perfeito do indicativo."
+        },
+        {
+          "id": "d",
+          "text": "futuro do pretérito do indicativo."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A forma `deveríamos` está no futuro do pretérito do indicativo. Fonte: questão oficial; CESPE/UnB; SEAD/UEPA — Cargo 44: Nível Médio Profissional – Técnico em Informática; 2008; questão 7; https://cdn.cebraspe.org.br/concursos/_antigos/2007/UEPA2007/arquivos/UEPA_044_1.pdf. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/_antigos/2007/UEPA2007/arquivos/UEPA_Gab_Definitivo_044_1.pdf."
     }
   ]
 }

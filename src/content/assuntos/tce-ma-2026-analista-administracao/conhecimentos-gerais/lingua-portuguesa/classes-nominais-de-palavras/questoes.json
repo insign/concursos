@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q234",
@@ -751,6 +751,96 @@
       ],
       "correctOptionId": "d",
       "explanation": "“Estas” determina “servidoras” como demonstrativo; “duas” quantifica; “seus” indica posse; “ninguém” refere-se de modo indeterminado e negativo; “qual” integra a pergunta indireta subordinada a “soube informar”. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q284",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que o SE sublinhado exerce a função de pronome com valor reflexivo.",
+      "options": [
+        { "id": "a", "text": "O amor é o que acontece entre um homem e uma mulher que não `se` conhecem muito bem." },
+        { "id": "b", "text": "Amor é querer estar perto, `se` longe; e mais perto, se perto." },
+        { "id": "c", "text": "A vida não consiste em ter boas cartas na mão e sim em jogar bem as que `se` tem." },
+        { "id": "d", "text": "A pessoa que `se` abre para uma nova ideia jamais voltará ao tamanho original." },
+        { "id": "e", "text": "A maior parte das férias os turistas não `se` divertem muito." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Na alternativa D, `se` tem valor reflexivo. Nas demais, o termo exerce outros valores no contexto. Fonte: questão oficial; FGV; Prefeitura do Jaboatão dos Guararapes/PE — Secretaria Municipal de Educação, Professor 2 (Língua Portuguesa), Tipo 4 (Azul); 2023; questão 47; https://conhecimento.fgv.br/sites/default/files/concursos/cns202-professor-2-lingua-portuguesacns202-tipo-4_1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefeitura-jaboatao-gabarito-definitivo.pdf. Sublinhados do original normalizados com crases."
+    },
+    {
+      "id": "q285",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Todas as frases a seguir trazem expressões de quantidade. Assinale a opção em que a quantificação está definida inadequadamente.",
+      "options": [
+        { "id": "a", "text": "O sucesso resulta de cem pequenas coisas feitas de forma um pouco melhor / quantidade precisa." },
+        { "id": "b", "text": "A função da liderança é produzir muitos líderes, não muitos seguidores / alta quantidade de forma imprecisa." },
+        { "id": "c", "text": "Segunda-feira é um modo terrível de você gastar 1/7 de sua vida / quantidade fracionada de forma precisa." },
+        { "id": "d", "text": "Conhecemos bastantes truques para evitar o trabalho, mas dispomos de pouco ócio autêntico / grande quantidade sem especificação." },
+        { "id": "e", "text": "Os turistas brasileiros gastam pouco dinheiro em viagens internacionais / baixa quantidade de forma precisa." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Em E, `pouco` indica baixa quantidade de modo impreciso, e não preciso; por isso a definição apresentada é inadequada. Fonte: questão oficial; FGV; Prefeitura do Jaboatão dos Guararapes/PE — Secretaria Municipal de Educação, Professor 2 (Língua Portuguesa), Tipo 4 (Azul); 2023; questão 51; https://conhecimento.fgv.br/sites/default/files/concursos/cns202-professor-2-lingua-portuguesacns202-tipo-4_1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefeitura-jaboatao-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q286",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que o pronome possessivo indica a propriedade material de algo.",
+      "options": [
+        { "id": "a", "text": "O homem não pode montar nas suas costas a não ser que elas se inclinem." },
+        { "id": "b", "text": "O problema de morar sozinho é que sempre é a nossa vez de lavar a louça." },
+        { "id": "c", "text": "Adulação é a moeda falsa que só está em circulação graças à nossa vaidade." },
+        { "id": "d", "text": "Ame seus vizinhos, mas não derrube a cerca." },
+        { "id": "e", "text": "Cuidado com os bolsos das suas calças!" }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Em E, `suas` estabelece relação de propriedade material com `calças`; nas demais frases, o possessivo exprime outras relações. Fonte: questão oficial; FGV; Prefeitura do Jaboatão dos Guararapes/PE — Secretaria Municipal de Educação, Professor 2 (Língua Portuguesa), Tipo 4 (Azul); 2023; questão 54; https://conhecimento.fgv.br/sites/default/files/concursos/cns202-professor-2-lingua-portuguesacns202-tipo-4_1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefeitura-jaboatao-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q287",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O posicionamento de uma palavra em relação a outra pode modificar o sentido de algumas palavras. Assinale a frase em que o posicionamento do termo adjetivo em relação ao substantivo não modifica o seu sentido.",
+      "options": [
+        { "id": "a", "text": "Há `vários motivos` para não se amar uma pessoa e um só para amá-la." },
+        { "id": "b", "text": "Não ser amado é uma `simples desventura`. A verdadeira desgraça é não saber amar." },
+        { "id": "c", "text": "Melhor não fazer nada do que fazer `qualquer coisa`." },
+        { "id": "d", "text": "Você acha `unanimidade total` somente no cemitério." },
+        { "id": "e", "text": "Em cada `homem mau` está preso um `homem bom` querendo manifestar-se." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Na alternativa D, a inversão entre `unanimidade total` e `total unanimidade` não produz a mudança semântica cobrada pela questão. Fonte: questão oficial; FGV; Prefeitura do Jaboatão dos Guararapes/PE — Secretaria Municipal de Educação, Professor 2 (Língua Portuguesa), Tipo 4 (Azul); 2023; questão 56; https://conhecimento.fgv.br/sites/default/files/concursos/cns202-professor-2-lingua-portuguesacns202-tipo-4_1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefeitura-jaboatao-gabarito-definitivo.pdf. Sublinhados do original normalizados com crases."
+    },
+    {
+      "id": "q288",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que o artigo sublinhado mostra valor diferente do de posse.",
+      "options": [
+        { "id": "a", "text": "O lutador trazia `o` rosto ferido." },
+        { "id": "b", "text": "O policial estava com `a` farda rasgada." },
+        { "id": "c", "text": "O monge estava absorto com `as` meditações." },
+        { "id": "d", "text": "O estudante não trouxe `a` mãe para a festa." },
+        { "id": "e", "text": "Na loja, a mulher viu `os` celulares na vitrine." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Em E, `os` funciona como artigo definido sem o valor possessivo presente nas demais alternativas. Fonte: questão oficial; FGV; Prefeitura do Jaboatão dos Guararapes/PE — Secretaria Municipal de Educação, Professor 2 (Língua Portuguesa), Tipo 4 (Azul); 2023; questão 62; https://conhecimento.fgv.br/sites/default/files/concursos/cns202-professor-2-lingua-portuguesacns202-tipo-4_1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefeitura-jaboatao-gabarito-definitivo.pdf. Sublinhados do original normalizados com crases."
+    },
+    {
+      "id": "q289",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que houve a substituição adequada do adjetivo “grande”, de valor semântico geral, por um outro adjetivo de valor mais específico.",
+      "options": [
+        { "id": "a", "text": "Nunca houve grandes invenções sem muito estudo prévio / inovadoras." },
+        { "id": "b", "text": "As grandes marcas de hoje já gastaram muito dinheiro em publicidade / caras." },
+        { "id": "c", "text": "Todos os alunos do curso obtiveram grandes resultados / inesperados." },
+        { "id": "d", "text": "As grandes ideias sempre encontram os homens que as procuram / brilhantes." },
+        { "id": "e", "text": "A jaqueira produz grandes frutos / saborosos." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Em D, `brilhantes` substitui adequadamente `grandes` com valor específico de excelência intelectual; nas demais alternativas, os adjetivos propostos alteram o sentido. Fonte: questão oficial; FGV; Prefeitura do Jaboatão dos Guararapes/PE — Secretaria Municipal de Educação, Professor 2 (Língua Portuguesa), Tipo 4 (Azul); 2023; questão 66; https://conhecimento.fgv.br/sites/default/files/concursos/cns202-professor-2-lingua-portuguesacns202-tipo-4_1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefeitura-jaboatao-gabarito-definitivo.pdf."
     }
   ]
 }
