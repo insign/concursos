@@ -117,7 +117,7 @@ describe('offline contest packages', () => {
     });
 
     expect(record.resourceCount).toBe(2);
-    expect(progress).toHaveBeenLastCalledWith({ completed: 2, total: 2, downloadedBytes: 64 });
+    expect(progress).toHaveBeenLastCalledWith({ completed: 2, total: 2, downloadedBytes: 64, fetched: 2, copied: 0 });
     expect(await getOfflineContestRecord('exemplo')).toEqual(record);
     expect(cacheStorage.caches.has(record.activeCacheName)).toBe(true);
     const sharedResponse = await cacheStorage.caches.get(SHARED_ASSET_CACHE)?.match('https://concursos.test/_astro/shared.js');

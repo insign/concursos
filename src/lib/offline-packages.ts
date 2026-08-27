@@ -48,6 +48,8 @@ export interface DownloadProgress {
   completed: number;
   total: number;
   downloadedBytes: number;
+  fetched?: number;
+  copied?: number;
 }
 
 const OFFLINE_PACKAGE_LOCK = 'concursos:offline-packages';
@@ -384,6 +386,8 @@ async function downloadContestPackageLocked(
   const shared = await cacheStorage.open(SHARED_ASSET_CACHE);
   let downloadedBytes = 0;
   let completed = 0;
+  let fetched = 0;
+  let copied = 0;
 
   const adaptiveHints = readAdaptiveHints();
   const adaptiveConcurrency = resolveAdaptiveConcurrency(adaptiveHints);
@@ -420,10 +424,13 @@ async function downloadContestPackageLocked(
           if (Number.isFinite(contentLength)) downloadedBytes += contentLength;
           if (signal?.aborted) return;
           await destination.put(request, response);
+          fetched += 1;
+        } else {
+          copied += 1;
         }
         if (signal?.aborted) return;
         completed += 1;
-        onProgress({ completed, total: resources.length, downloadedBytes });
+        onProgress({ completed, total: resources.length, downloadedBytes, fetched, copied });
     });
 
     return await activateStagedPackage(manifest, temporaryCacheName, overrides);
