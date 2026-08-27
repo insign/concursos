@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q031",
@@ -1801,6 +1801,32 @@
       ],
       "correctOptionId": "a",
       "explanation": "Ambos orientam ação futura e podem aparecer sob o rótulo injuntivo; o primeiro enfatiza o modo de fazer, e o segundo, a regulação da conduta."
+    },
+    {
+      "id": "q094",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Texto CB1A1\n\nPercebe-se no Brasil um persistente discurso de negativação da atividade fiscal, do Estado fiscal, ainda marcado por figuras arcaicas como a do “leão” do imposto de renda, a tão repetida expressão “carga tributária”, entre outras. Essa “demonização” do fisco em muito se justifica por uma deslegitimação do Estado brasileiro como um todo e, na seara tributária, especialmente por não sentir retorno a população em relação ao quanto é onerada. Frise-se, porém, que essa imagem negativa é, às vezes, patrocinada por quem ideologicamente julga desnecessária uma tributação nas proporções em que o Estado brasileiro vem aplicando.\n\nNesse cenário, percebe-se, com linhas mais nítidas, um fenômeno que acompanha toda a história tributária do homem: o da oposição social aos tributos, entendida aqui não como uma predisposição “natural”, “inata” dos contribuintes, mas como todo desvio que afasta o contribuinte do cumprimento de uma obrigação tributária, não sendo naturais as causas que o levam a resistir. O contribuinte resiste diante da cobrança de uma tributação ilícita; diante da cobrança ou da instituição de um tributo por um governo ou legislador ilegítimo; diante da possibilidade de se praticar uma conduta tributária menos onerosa, tendo o contribuinte a liberdade e o direito de resistir à tributação mais severa; e, no caso dos crimes contra a ordem tributária, quando apenas há a vontade livre e consciente de cometer o crime.\n\nA resistência fiscal, assim, tem um conteúdo que ora se distancia dos conceitos clássicos de direito de resistência (objeção de consciência, desobediência civil, greve política, direito de revolta, entre outros), ora se aproxima desses mesmos conceitos. É quando se veem na literatura, especialmente na estrangeira, expressões como “direito de resistência fiscal”, “objeção fiscal”, “desobediência fiscal”, “greve fiscal”, “revolta fiscal”, “rebelião fiscal”. Entre outras, tais expressões relacionam-se com os conceitos de “direito de resistência” e de “resistência fiscal”, tomados como dois gêneros em que algumas espécies coincidem, mas que também possuem pontos incomunicáveis.\n\nCom efeito, dado que seja gênero de múltiplas espécies, podem ser elencadas como modalidades de resistência fiscal: a) a resistência à cobrança de tributos ilícitos/inconstitucionais, que tem total amparo no princípio constitucional da legalidade tributária, tendo os contribuintes direito de resistir a essa tributação ilegal/inconstitucional; b) a resistência à cobrança ou à instituição de tributos que, mesmo amparados na lei e na Constituição Federal de 1988, são, porém, rechaçados pela sociedade, considerados ilegítimos pela população, ou rechaçados por camada social que se veja prejudicada com sua instituição; c) o crime tributário, que não passa de uma ofensa deliberada à lei; e d) a resistência lícita, na qual se opta por alternativa legal menos onerosa ou pela abstenção de conduta tributável.\n\nA história mostrou que a resistência fiscal, por mais que pareça natural e inevitável a toda realidade tributária, teve proporções menores em regimes considerados mais democráticos, uma vez que os abusos e o arbítrio das autoridades foram, em muitas sociedades, as principais causas para a recusa ao pagamento dos tributos. Verifica-se, assim, uma razão inversamente proporcional entre o quantum democrático de um regime político e a resistência social aos tributos por ele instituídos. Assim, a democracia participativa, em superação aos modelos clássicos e insuficientes da representação ou do exercício semidireto do poder, aponta para uma “relegitimação” do Estado fiscal, na qual a sociedade passa a tomar parte de espaços de decisões políticas.\n\nA sociedade contribuinte deve-se preocupar, portanto, no caminho a ser trilhado em direção a uma educação (para a cidadania) fiscal, não apenas com a “carga tributária”, mas com o destino das arrecadações e com os gastos públicos. Nesse sentido, já existem alguns avanços, como o da Lei n.º 12.741/2012, que obrigou, como direito básico dos consumidores, informarem-se os tributos incidentes e repassados no preço dos produtos, e os programas de educação fiscal ligados aos órgãos fiscais da União, dos estados e das capitais. Muito ainda, porém, estão alheios os cidadãos acerca do que o Estado arrecada e, mais ainda, de como gastam os governantes tais recursos, o que pode aumentar os índices de resistência fiscal na sociedade brasileira.\n\nIsaac Rodrigues Cunha. Resistência fiscal, democracia e educação tributária: fundamentos para uma fiscalidade democrático-participativa por meio de uma “pedagogia fiscal”. Universidade Federal do Ceará, Faculdade de Direito, Programa de Pós-Graduação em Direito, Fortaleza, 2017 (com adaptações).\n\nQuanto à tipologia e aos gêneros textuais, o texto CB1A1 classifica-se como",
+      "options": [
+        {
+          "id": "a",
+          "text": "narrativo, dado o conjunto de fatos nele relatados."
+        },
+        {
+          "id": "b",
+          "text": "descritivo, pelo volume de dados apresentados."
+        },
+        {
+          "id": "c",
+          "text": "dissertativo-argumentativo, pela exposição de ideias do autor e de outrem."
+        },
+        {
+          "id": "d",
+          "text": "jornalístico, dada a programática omissão, pelo autor, de opinião acerca do assunto tratado."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito oficial: C, conforme justificativa oficial da banca. O texto expõe ideias, informações e argumentos, com presença de posicionamento e desenvolvimento argumentativo, por isso é dissertativo-argumentativo. Fonte: Cebraspe; SEPLAD/DF; Auditor de Controle Interno — Finanças e Controle; 2022; questão 4; caderno com justificativas oficiais: https://cdn.cebraspe.org.br/concursos/seplad_df_22_auditor/arquivos/798_SEPLAD_DFCB1_CE1_COM_JUSTIFICATIVAS.PDF."
     }
   ]
 }

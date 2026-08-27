@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q001",
@@ -1933,6 +1933,36 @@
       ],
       "correctOptionId": "b",
       "explanation": "O percentual se refere às mulheres universitárias, não ao conjunto de todas as mulheres brasileiras. O item amplia indevidamente o universo quantificado. Fonte: questão oficial Cebraspe/ANM/Especialista em Recursos Minerais - Comunicação/2025/questão #3317620/https://www.tecconcursos.com.br/questoes/3317620; adaptação: explicitação do grupo de referência."
+    },
+    {
+      "id": "q102",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Texto CG1A01AAA\n\nO crime organizado não é um fenômeno recente. Encontramos indícios dele nos grandes grupos contrabandistas do antigo regime na Europa, nas atividades dos piratas e corsários e nas grandes redes de receptação da Inglaterra do século XVIII. A diferença dos nossos dias é que as organizações criminosas se tornaram mais precisas, mais profissionais.\n\nUm erro na análise do fenômeno é a suposição de que tudo é crime organizado. Mesmo quando se trata de uma pequena apreensão de crack em um local remoto, alguns órgãos da imprensa falam em crime organizado. Em muitos casos, o varejo do tráfico é um dos crimes mais desorganizados que existe. É praticado por um usuário que compra de alguém umas poucas pedras de crack e fuma a metade. Ele não tem chefe, parceiros, nem capital de giro. Possui apenas a necessidade de suprir o vício. No outro extremo, fica o grande traficante, muitas vezes um indivíduo que nem mesmo vê a droga. Só utiliza seu dinheiro para financiar o tráfico ou seus contatos para facilitar as transações. A organização criminosa envolvida com o tráfico de drogas fica, na maior parte das vezes, entre esses dois extremos. É constituída de pequenos e médios traficantes e uns poucos traficantes de grande porte.\n\nNas outras atividades criminosas, a situação é a mesma. O crime pode ser praticado por um indivíduo, uma quadrilha ou uma organização. Portanto, não é a modalidade do crime que identifica a existência de crime organizado.\n\nGuaracy Mingardi. Inteligência policial e crime organizado. In: Renato Sérgio de Lima e Liana de Paula (Orgs.). Segurança pública e violência: o Estado está cumprindo seu papel? São Paulo: Contexto, 2006, p. 42 (com adaptações).\n\nDe acordo com o texto CG1A01AAA,",
+      "options": [
+        {
+          "id": "a",
+          "text": "poucas são as modalidades de crime que podem ser tipificadas como crime organizado."
+        },
+        {
+          "id": "b",
+          "text": "nem sempre o que o senso comum supõe ser crime organizado é de fato crime organizado."
+        },
+        {
+          "id": "c",
+          "text": "há registros da associação de pessoas para o cometimento de crimes desde a Antiguidade."
+        },
+        {
+          "id": "d",
+          "text": "as primeiras organizações criminosas estruturavam-se de modo totalmente impreciso e amador, em comparação com as organizações criminosas da atualidade."
+        },
+        {
+          "id": "e",
+          "text": "o conceito da expressão crime organizado foi distorcido porque a imprensa passou a empregá-la para tratar de qualquer crime que envolva entorpecentes."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito oficial definitivo: B. O texto critica a suposição de que toda ocorrência associada ao tráfico seja crime organizado e distingue atividades desorganizadas de organizações criminosas. Fonte: Cebraspe; SDS/PE — Polícia Civil; 2016; questão 1; caderno: https://cdn.cebraspe.org.br/concursos/SDS_PE_16_CIVIL/arquivos/258_SDS_PE_CG1_01.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/SDS_PE_16_CIVIL/arquivos/Gab_Definitivo_258_SDS_PE_CG1_01.PDF."
     }
   ]
 }

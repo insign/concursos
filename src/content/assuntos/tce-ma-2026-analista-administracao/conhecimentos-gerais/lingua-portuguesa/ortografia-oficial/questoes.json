@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q084",
@@ -2101,6 +2101,32 @@
       ],
       "correctOptionId": "c",
       "explanation": "O elemento “co-” aglutina-se ao segundo elemento; a grafia registrada é “coexistem”, sem hífen. Fonte: questão adaptada de Cebraspe/DPE-DF/Analista de Apoio à Assistência Judiciária — Administração/2022/Q1883768/https://www.qconcursos.com/questoes-de-concursos/provas/cespe-cebraspe-2022-dpe-df-analista-de-apoio-a-assistencia-judiciaria-administracao/questoes?page=2; adaptação: conversão do julgamento certo/errado para múltipla escolha."
+    },
+    {
+      "id": "q154",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção em que todas as palavras estão grafadas de modo correto.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gás, giz, encher, ascento"
+        },
+        {
+          "id": "b",
+          "text": "querosene, azilo, enxada, progresso"
+        },
+        {
+          "id": "c",
+          "text": "exceção, maisena, caatinga, botequim"
+        },
+        {
+          "id": "d",
+          "text": "suscinto, busina, azar, assessor"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito oficial definitivo: C. As grafias corretas são “exceção”, “maisena”, “caatinga” e “botequim”; nas demais opções aparecem formas como “ascento”, “azilo”, “suscinto” e “busina”, não admitidas pela ortografia vigente. Fonte: CESPE/UnB; Prefeitura Municipal de Teresina — SEMEC; Professor de Ensino Fundamental (6.º ao 9.º ano) — Língua Portuguesa; 2009; questão 46; caderno: https://cdn.cebraspe.org.br/concursos/SEMECAFERICAO2009/arquivos/010-SEMEC_PI_LINGUA_PORTUGUESA.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/SEMECAFERICAO2009/arquivos/SEMEC09_Gab_Definitivo_010_10.PDF."
     }
   ]
 }

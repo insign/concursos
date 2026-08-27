@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q134",
@@ -1801,6 +1801,36 @@
       ],
       "correctOptionId": "e",
       "explanation": "O demonstrativo com nome geral recategoriza o campo introduzido no período anterior. O valor é anafórico e temático, não necessariamente locativo físico. Fonte: questão adaptada de Cebraspe/SEPLAG-DF/Analista de Trânsito — Estatística/2008/Gran Questões Q304155/https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/304155; adaptação: criação de trecho administrativo equivalente, paráfrase e conversão para múltipla escolha."
+    },
+    {
+      "id": "q194",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No trecho “Muitas autoridades públicas não só evitam associar-se ao assunto como também o tratam de modo simplista” (R. 14 a 16), do texto CG1A01BBB, o vocábulo “como” integra uma expressão que introduz no período uma ideia de",
+      "options": [
+        {
+          "id": "a",
+          "text": "proporcionalidade."
+        },
+        {
+          "id": "b",
+          "text": "adição."
+        },
+        {
+          "id": "c",
+          "text": "comparação."
+        },
+        {
+          "id": "d",
+          "text": "explicação."
+        },
+        {
+          "id": "e",
+          "text": "oposição."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito oficial definitivo: B. A construção correlativa “não só ... como também” acrescenta uma segunda predicação à primeira e exprime adição. Fonte: Cebraspe; SDS/PE — Polícia Civil; 2016; questão 7; caderno: https://cdn.cebraspe.org.br/concursos/SDS_PE_16_CIVIL/arquivos/258_SDS_PE_CG1_01.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/SDS_PE_16_CIVIL/arquivos/Gab_Definitivo_258_SDS_PE_CG1_01.PDF."
     }
   ]
 }
