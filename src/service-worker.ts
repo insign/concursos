@@ -108,7 +108,10 @@ registerRoute(
           new Promise<undefined>((resolve) => setTimeout(() => resolve(undefined), 2000)),
         ]).catch(() => undefined);
         if (downloaded) {
-          try { return await fetchWithTimeout(request); } catch { return downloaded; }
+          // Cache-first para quem já baixou: serve offline imediato, revalida em background
+          // maybeUpdate já foi agendado no waitUntil acima; fetchWithTimeout é best-effort sem atrasar resposta
+          fetchWithTimeout(request).catch(() => undefined);
+          return downloaded;
         }
         return fetch(request.url);
       })(),
