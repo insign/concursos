@@ -246,6 +246,50 @@ export async function downloadContestPackage(
   }
 }
 
+export const ADAPTIVE_CONCURRENCY_MIN = 2;
+export const ADAPTIVE_CONCURRENCY_DEFAULT = 12;
+export const ADAPTIVE_CONCURRENCY_MAX = 15;
+
+interface AdaptiveHints {
+  effectiveType?: string;
+  type?: string;
+  deviceMemory?: number;
+  hardwareConcurrency?: number;
+}
+
+function readAdaptiveHints(): AdaptiveHints {
+  if (typeof navigator === 'undefined') return {};
+  const nav = navigator as unknown as {
+    connection?: { effectiveType?: string; type?: string };
+    deviceMemory?: number;
+    hardwareConcurrency?: number;
+  };
+  const hints: AdaptiveHints = {};
+  if (nav.connection) {
+    if (typeof nav.connection.effectiveType === 'string') hints.effectiveType = nav.connection.effectiveType;
+    if (typeof nav.connection.type === 'string') hints.type = nav.connection.type;
+  }
+  if (typeof nav.deviceMemory === 'number' && Number.isFinite(nav.deviceMemory)) hints.deviceMemory = nav.deviceMemory;
+  if (typeof nav.hardwareConcurrency === 'number' && Number.isFinite(nav.hardwareConcurrency)) hints.hardwareConcurrency = nav.hardwareConcurrency;
+  return hints;
+}
+
+export function resolveAdaptiveConcurrency(hints: AdaptiveHints = readAdaptiveHints()): number {
+  const et = hints.effectiveType;
+  const type = hints.type;
+  const isWifi = type === 'wifi';
+  const isFast = et === '4g' || isWifi;
+  if (et === 'slow-2g' || et === '2g') return 2;
+  if (et === '3g') return 4;
+  if (isWifi && hints.deviceMemory !== undefined && hints.deviceMemory >= 8 && hints.hardwareConcurrency !== undefined && hints.hardwareConcurrency >= 8) return 15;
+  if (isWifi && hints.deviceMemory !== undefined && hints.deviceMemory >= 4 && hints.hardwareConcurrency !== undefined && hints.hardwareConcurrency >= 4) return 12;
+  if (isFast) return 12;
+  if (hints.effectiveType === undefined && hints.type === undefined) {
+    if ((hints.deviceMemory !== undefined && hints.deviceMemory >= 4) || (hints.hardwareConcurrency !== undefined && hints.hardwareConcurrency >= 4)) return 12;
+  }
+  return 4;
+}
+
 const OFFLINE_DOWNLOAD_CONCURRENCY = 4;
 
 async function runConcurrentPool<T>(
@@ -333,8 +377,12 @@ async function downloadContestPackageLocked(
   let downloadedBytes = 0;
   let completed = 0;
 
+  const adaptiveHints = readAdaptiveHints();
+  const adaptiveConcurrency = resolveAdaptiveConcurrency(adaptiveHints);
+  const boundedConcurrency = Math.max(ADAPTIVE_CONCURRENCY_MIN, Math.min(ADAPTIVE_CONCURRENCY_MAX, Math.floor(adaptiveConcurrency)));
+
   try {
-    await runConcurrentPool(resources, OFFLINE_DOWNLOAD_CONCURRENCY, async (resource, signal) => {
+    await runConcurrentPool(resources, boundedConcurrency, async (resource, signal) => {
       if (signal?.aborted) return;
       const request = requestFor(resource, origin);
       const isPackageResource = packageResources.has(resource);
