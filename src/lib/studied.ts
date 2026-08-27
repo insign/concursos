@@ -41,10 +41,17 @@ export function toggleStudiedIds(
   studied: boolean,
   updatedAt: string,
 ): StudiedDocument {
-  const ids = new Set(current.studiedSubjectIds);
-  if (studied) ids.add(subjectId);
-  else ids.delete(subjectId);
-  return { schemaVersion: 1, studiedSubjectIds: [...ids].sort(), updatedAt };
+  const ids = [...new Set(current.studiedSubjectIds)];
+  const idx = ids.indexOf(subjectId);
+  if (studied) {
+    if (idx === -1) ids.push(subjectId);
+  } else if (idx !== -1) {
+    ids.splice(idx, 1);
+  }
+  if (ids.length === current.studiedSubjectIds.length && ids.every((v, i) => v === current.studiedSubjectIds[i])) {
+    return current;
+  }
+  return { schemaVersion: 1, studiedSubjectIds: ids, updatedAt };
 }
 
 export async function loadStudied(profileId: string): Promise<StudiedDocument> {

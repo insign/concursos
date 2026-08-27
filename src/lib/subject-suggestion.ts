@@ -61,12 +61,42 @@ export function buildSubjectSuggestionModel(
   return { groups };
 }
 
+function groupForSubject(model: SubjectSuggestionModel, subjectId: string): SubjectSuggestionGroup | undefined {
+  return model.groups.find((group) => group.subjects.some((s) => s.studiedSubjectId === subjectId));
+}
+
+function firstPendingInGroup(
+  group: SubjectSuggestionGroup,
+  studied: Set<string>,
+  currentSubjectId: string | null,
+): SubjectSuggestionCandidate | null {
+  return group.subjects.find((s) => s.studiedSubjectId !== currentSubjectId && !studied.has(s.studiedSubjectId)) ?? null;
+}
+
 export function suggestNextSubject(
   model: SubjectSuggestionModel,
   studiedSubjectIds: Iterable<string>,
   currentSubjectId: string | null = null,
+  lastStudiedSubjectId: string | null = null,
 ): SubjectSuggestionCandidate | null {
   const studied = new Set(studiedSubjectIds);
+
+  if (currentSubjectId) {
+    const g = groupForSubject(model, currentSubjectId);
+    if (g) {
+      const cand = firstPendingInGroup(g, studied, currentSubjectId);
+      if (cand) return cand;
+    }
+  }
+
+  if (lastStudiedSubjectId && studied.has(lastStudiedSubjectId)) {
+    const g = groupForSubject(model, lastStudiedSubjectId);
+    if (g) {
+      const cand = firstPendingInGroup(g, studied, currentSubjectId);
+      if (cand) return cand;
+    }
+  }
+
   let selected: {
     candidate: SubjectSuggestionCandidate;
     group: SubjectSuggestionGroup;
