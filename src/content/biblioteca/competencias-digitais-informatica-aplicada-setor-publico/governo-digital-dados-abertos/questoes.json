@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q4599",
@@ -1861,6 +1861,24 @@
       ],
       "correctOptionId": "C",
       "explanation": "A LAI veda exigir os motivos do pedido de acesso; as demais afirmações restringem indevidamente a transparência. Fonte: questão adaptada de FGV; Câmara Municipal de Fortaleza; Consultor Legislativo — Administração Pública; 2024; questão 66; prova https://conhecimento.fgv.br/sites/default/files/concursos/consultor-legislativo-administracao-publicacns016-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/cmfor2024_gabarito_definitivo-retificado-17.05.2024.pdf; adaptação: enunciado condensado, com alternativas semanticamente preservadas."
+    },
+    {
+      "id": "q8799",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Julgue os próximos itens, relativos à Política de Dados Abertos, estabelecida pelo Decreto n.º 8.777/2016.\n\nA Infraestrutura Nacional de Dados Abertos (INDA) poderá estabelecer normas complementares relacionadas à elaboração do plano de dados abertos bem como à proteção de informações pessoais na publicação de bases de dados abertos.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Certo. O § 3º do art. 5º do Decreto nº 8.777/2016 permite à INDA estabelecer normas complementares relacionadas à elaboração do Plano de Dados Abertos e à proteção de informações pessoais na publicação de bases de dados abertos. Fonte: questão oficial; Cebraspe; TCE/AC — Analista de Controle Externo, Área Tecnologia da Informação — Especialidade Projetos de TI; 2024; item 59; caderno https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/993_TCE_AC_009_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_009_01.PDF."
     }
   ]
 }
