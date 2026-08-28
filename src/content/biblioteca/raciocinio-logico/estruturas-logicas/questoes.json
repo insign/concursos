@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q4839",
@@ -1231,6 +1231,66 @@
       ],
       "correctOptionId": "C",
       "explanation": "E fecha o dia 3. O par A-B ocupa integralmente o dia 1 ou 2; as duas vagas do outro dia restam para C e D, contrariando a incompatibilidade. Não existe distribuição válida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q52203601",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Cinco pessoas formam uma fila. Essa fila será modificada com a seguinte sequência de trocas de posição: o 2º com o 4º, o 1º com o 3º, o 2º com o 5º e o 1º com o 4º.\n\nA pessoa que estava no 3º lugar na fila inicial estará, na fila final, no",
+      "options": [
+        {
+          "id": "A",
+          "text": "1º lugar."
+        },
+        {
+          "id": "B",
+          "text": "2º lugar."
+        },
+        {
+          "id": "C",
+          "text": "3º lugar."
+        },
+        {
+          "id": "D",
+          "text": "4º lugar."
+        },
+        {
+          "id": "E",
+          "text": "5º lugar."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Acompanhando a pessoa inicialmente na 3ª posição: após a troca entre o 1º e o 3º lugares ela passa ao 1º; as trocas seguintes levam essa pessoa ao 4º lugar. Fonte: questão oficial; FGV; Tribunal Regional do Trabalho da 16ª Região — Analista Judiciário (Área Administrativa — Qualquer Área), Tipo 1 (Branca); 2022; questão 11; https://conhecimento.fgv.br/sites/default/files/concursos/analista_judiciario_area_administrativa_-_qualquer_areacnsm003_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trt_-_16_2022_-_gabarito_definitivo_8913849131354864.pdf."
+    },
+    {
+      "id": "q52203602",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Cinco amigos, A, B, C, D e E, marcaram um encontro em data e hora determinados, mas todos chegaram em horários diferentes.\n\nSabe-se que\n• A chegou depois de B.\n• C chegou antes de A.\n• Quando D chegou, C já estava, mas B não.\n• Quando E chegou somente 2 amigos já haviam chegado.\n\nÉ correto concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "A não foi o último a chegar."
+        },
+        {
+          "id": "B",
+          "text": "E chegou antes de D."
+        },
+        {
+          "id": "C",
+          "text": "C foi o 2º a chegar."
+        },
+        {
+          "id": "D",
+          "text": "D chegou depois de B."
+        },
+        {
+          "id": "E",
+          "text": "B foi o 4º a chegar."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "As condições impõem C antes de D, D antes de B e B antes de A. Como E chegou quando exatamente dois amigos já haviam chegado, E ocupa a 3ª posição; resta a ordem C, D, E, B, A, de modo que B foi o 4º a chegar. Fonte: questão oficial; FGV; Tribunal Regional do Trabalho da 16ª Região — Técnico Judiciário (Área Administrativa — Qualquer Área), Tipo 4 (Azul); 2022; questão 12; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico_judiciario_area_administrativa_-_qualquer_areacnmt001_tipo_4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trt_-_16_2022_-_gabarito_definitivo_8913849131354864.pdf."
     }
   ]
 }
