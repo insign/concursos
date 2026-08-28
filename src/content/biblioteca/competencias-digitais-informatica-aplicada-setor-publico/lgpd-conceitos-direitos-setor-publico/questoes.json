@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q4359",
@@ -1921,6 +1921,36 @@
       ],
       "correctOptionId": "C",
       "explanation": "O uso compartilhado pelo poder público exige transparência, finalidade específica e observância contínua dos princípios, inclusive necessidade; o órgão receptor também responde pela proteção no tratamento que realiza. Fonte: questão adaptada de FGV; Assembleia Legislativa do Estado do Tocantins; Procurador Jurídico; 2024; questão 88; prova https://conhecimento.fgv.br/sites/default/files/concursos/procurador-juridicocns100-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/aletoprocurador2024_gabarito_definitivo_das1ca64.pdf; adaptação: afirmações condensadas e terminologia atualizada, preservando o gabarito."
+    },
+    {
+      "id": "q522028",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Sobre a Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018), é correto afirmar que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "o tratamento de dados pessoais sensíveis somente poderá ocorrer quando o seu titular autorizar;"
+        },
+        {
+          "id": "B",
+          "text": "poderá ser considerado dado pessoal aquele utilizado para formação do perfil comportamental de determinada pessoa natural, se identificada;"
+        },
+        {
+          "id": "C",
+          "text": "é sempre vedado ao poder público transferir a entidades privadas dados pessoais constantes de bases de dados a que tenha acesso;"
+        },
+        {
+          "id": "D",
+          "text": "o operador é o responsável por indicar o encarregado pelo tratamento de dados pessoais, cuja identidade e informações de contato deverão ser públicas;"
+        },
+        {
+          "id": "E",
+          "text": "o controlador deverá comunicar, no prazo de 48 horas, à autoridade nacional e ao titular a ocorrência de incidente de segurança que possa acarretar risco ou dano relevante aos titulares."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alternativa B reproduz a regra legal que admite como dado pessoal o dado usado para formar o perfil comportamental de pessoa natural identificada. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado do Espírito Santo (TJES) — Juiz Substituto, Tipo 3; 2023; questão 11; https://conhecimento.fgv.br/sites/default/files/concursos/juiz-substitutojuizsubstituto-tipo-3.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjes2023_gabarito_definitivo.pdf."
     }
   ]
 }
