@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q3339",
@@ -3901,6 +3901,66 @@
       ],
       "correctOptionId": "E",
       "explanation": "O conector pode ser deslocado para o início; a vírgula separa-o do restante do enunciado nesse emprego. Fonte: questão adaptada de Cebraspe — STJ, 2008, item Q322660 sobre conector e relação entre orações. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/322660"
+    },
+    {
+      "id": "q3469",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que, comparativamente, as reticências mostram a expressão de uma emoção intensa.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O quadro não é ... um pouco ... como dizer?"
+        },
+        {
+          "id": "B",
+          "text": "Mas a barata ... a barata ... você a matou?"
+        },
+        {
+          "id": "C",
+          "text": "Quem diria..."
+        },
+        {
+          "id": "D",
+          "text": "Você já sabe, né? O casamento dele..."
+        },
+        {
+          "id": "E",
+          "text": "Comprei o carro barato... barato ..."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Na alternativa B, as reticências interrompem reiteradamente a fala e reforçam a emoção expressa. Questão original da FGV, EBSERH — Técnico em Radiologia/Radioterapia, Tipo 1 (Branca), 2025, questão 3. Gabarito definitivo: B. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/grupo-20-tecnico-em-radiologia-radiotepariae3cnmgp20-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/ebserrhassistencial2024_gabarito_definitivo.pdf"
+    },
+    {
+      "id": "q3470",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase cuja pontuação está correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A verdade, como todos sabem incomoda."
+        },
+        {
+          "id": "B",
+          "text": "Você Paulo, me deve um grande favor."
+        },
+        {
+          "id": "C",
+          "text": "Eis a verdade: nada dura a vida toda."
+        },
+        {
+          "id": "D",
+          "text": "Eu, cumpri o meu dever."
+        },
+        {
+          "id": "E",
+          "text": "Nós, graças a Deus, estamos, bem."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na alternativa C, os dois-pontos introduzem o conteúdo anunciado por «a verdade». Questão original da FGV, EBSERH — Técnico em Radiologia/Radioterapia, Tipo 1 (Branca), 2025, questão 9. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/grupo-20-tecnico-em-radiologia-radiotepariae3cnmgp20-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/ebserrhassistencial2024_gabarito_definitivo.pdf"
     }
   ]
 }
