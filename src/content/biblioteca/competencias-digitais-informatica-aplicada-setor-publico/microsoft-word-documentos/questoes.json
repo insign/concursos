@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q3939",
@@ -2041,6 +2041,36 @@
       ],
       "correctOptionId": "C",
       "explanation": "Selecionar o texto e aplicar a nova formatação são etapas corretas. A proposição III erra ao localizar o grupo Estilos na guia Arquivo; ele fica em Página Inicial. Fonte: questão adaptada de FGV; Ministério Público do Estado do Rio de Janeiro; Analista do Ministério Público — Área Administrativa; 2025; questão 57; prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-do-ministerio-publico-area-administrativacns101-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabaritodefinitivo09.09_mprjanalista.pdf; adaptação: proposições condensadas, preservando a falha de localização e o gabarito do Tipo 1."
+    },
+    {
+      "id": "q4007",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um investigador prepara um relatório que detalha a ocorrência de manchas criminais em uma determinada cidade, a ser submetido ao delegado responsável por uma área. Todavia, é necessário que no documento inicialmente produzido exista uma indicação ao fundo de todas as páginas, com o texto “MINUTA” na diagonal de forma semitransparente.\n\nO recurso do editor Microsoft Word 365, versão português brasileiro, que viabiliza tal demanda é denominado",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Comentários”, localizado no grupo “Marcação” da guia “Revisão”."
+        },
+        {
+          "id": "B",
+          "text": "“Formatar Plano de Fundo”, localizado no grupo “Editar” da guia “Desenhar”."
+        },
+        {
+          "id": "C",
+          "text": "“Marca-d’água”, localizado no grupo “Plano de Fundo de Página” da guia “Design”."
+        },
+        {
+          "id": "D",
+          "text": "“Ocultar Tinta”, localizado no grupo “Tinta” da guia “Revisão”."
+        },
+        {
+          "id": "E",
+          "text": "“Estilos”, localizado no grupo “Suplementos” da guia “Página Inicial”."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A indicação semitransparente ao fundo das páginas é inserida pelo recurso Marca-d’água, disponível em Design > Plano de Fundo de Página. Fonte: questão oficial; FGV; Polícia Civil do Estado do Piauí — Oficial Investigador, Tipo 4; 2026; questão 17; https://conhecimento.fgv.br/sites/default/files/concursos/oficial-investigador-cns100-tipo-4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/pc-pi-investigador-e-perito-2025.pdf."
     }
   ]
 }
