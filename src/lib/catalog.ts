@@ -8,7 +8,7 @@ import {
   type CatalogSubjectIndex,
   type CatalogTreeNodeIndex,
 } from './catalog-core';
-import { parseResolutionId } from './content-paths';
+import { parseBibliotecaResolutionId, parseResolutionId } from './content-paths';
 
 export * from './catalog-core';
 
@@ -59,7 +59,22 @@ function createContestOfflineInventory(contest: CatalogContestIndex) {
 }
 
 export async function getCatalog(): Promise<Catalog> {
-  const [contestEntries, groupEntries, megaReviewEntries, contentEntries, cheatSheetEntries, questionSetEntries, resolutionEntries, referenceEntries] = await Promise.all([
+  const [
+    contestEntries,
+    groupEntries,
+    megaReviewEntries,
+    contentEntries,
+    cheatSheetEntries,
+    questionSetEntries,
+    resolutionEntries,
+    referenceEntries,
+    bibliotecaContentEntries,
+    bibliotecaCheatSheetEntries,
+    bibliotecaQuestionSetEntries,
+    bibliotecaResolutionEntries,
+    bibliotecaReferenceEntries,
+    vinculoEntries,
+  ] = await Promise.all([
     getCollection('concursos'),
     getCollection('grupos'),
     getCollection('megaRevisoes'),
@@ -68,11 +83,22 @@ export async function getCatalog(): Promise<Catalog> {
     getCollection('questoes'),
     getCollection('resolucoes'),
     getCollection('referencias'),
+    getCollection('bibliotecaConteudos'),
+    getCollection('bibliotecaCheatSheets'),
+    getCollection('bibliotecaQuestoes'),
+    getCollection('bibliotecaResolucoes'),
+    getCollection('bibliotecaReferencias'),
+    getCollection('vinculos'),
   ]);
 
   for (const entry of referenceEntries) {
     if (!(entry.body ?? '').trim()) {
       throw new Error(`Referências "${entry.id}" não possuem conteúdo`);
+    }
+  }
+  for (const entry of bibliotecaReferenceEntries) {
+    if (!(entry.body ?? '').trim()) {
+      throw new Error(`Referências de biblioteca "${entry.id}" não possuem conteúdo`);
     }
   }
 
@@ -85,6 +111,12 @@ export async function getCatalog(): Promise<Catalog> {
     questionSets: questionSetEntries.map(({ id, data }) => ({ id, data })),
     resolutions: resolutionEntries.map(({ id, data }) => ({ id, data })),
     references: referenceEntries.map(({ id, data }) => ({ id, data })),
+    bibliotecaContents: bibliotecaContentEntries.map(({ id, data }) => ({ id, data })),
+    bibliotecaCheatSheetIds: bibliotecaCheatSheetEntries.map(({ id }) => id),
+    bibliotecaQuestionSets: bibliotecaQuestionSetEntries.map(({ id, data }) => ({ id, data })),
+    bibliotecaResolutions: bibliotecaResolutionEntries.map(({ id, data }) => ({ id, data })),
+    bibliotecaReferences: bibliotecaReferenceEntries.map(({ id, data }) => ({ id, data })),
+    vinculos: vinculoEntries.map(({ id, data }) => ({ id, data })),
   }, { requireReferences: REQUIRE_REFERENCES });
 
   const contentById = new Map(contentEntries.map((entry) => [entry.id, entry]));
@@ -92,6 +124,18 @@ export async function getCatalog(): Promise<Catalog> {
   const cheatSheetById = new Map(cheatSheetEntries.map((entry) => [entry.id, entry]));
   const questionSetById = new Map(questionSetEntries.map((entry) => [entry.id, entry]));
   const referenceById = new Map(referenceEntries.map((entry) => [entry.id, entry]));
+  const vinculoById = new Map(vinculoEntries.map((entry) => [entry.id, entry]));
+  const bibliotecaContentById = new Map(bibliotecaContentEntries.map((entry) => [entry.id, entry]));
+  const bibliotecaCheatById = new Map(bibliotecaCheatSheetEntries.map((entry) => [entry.id, entry]));
+  const bibliotecaQuestionById = new Map(bibliotecaQuestionSetEntries.map((entry) => [entry.id, entry]));
+  const bibliotecaReferenceById = new Map(bibliotecaReferenceEntries.map((entry) => [entry.id, entry]));
+  const bibliotecaResolutionEntriesByCanonical = new Map<string, typeof bibliotecaResolutionEntries>();
+  for (const entry of bibliotecaResolutionEntries) {
+    const { bibliotecaId } = parseBibliotecaResolutionId(entry.id);
+    const list = bibliotecaResolutionEntriesByCanonical.get(bibliotecaId) ?? [];
+    list.push(entry);
+    bibliotecaResolutionEntriesByCanonical.set(bibliotecaId, list);
+  }
   const resolutionEntriesBySubjectId = new Map<string, CollectionEntry<'resolucoes'>[]>();
   for (const entry of resolutionEntries) {
     const subjectId = parseResolutionId(entry.id).subjectId;
@@ -99,18 +143,52 @@ export async function getCatalog(): Promise<Catalog> {
     entries.push(entry);
     resolutionEntriesBySubjectId.set(subjectId, entries);
   }
+  // Provide synthetic resolution entries for vinculated subjects via biblioteca
+  for (const vinculo of vinculoEntries) {
+    const canonical = vinculo.data.canonical as string;
+    const bibResList = bibliotecaResolutionEntriesByCanonical.get(canonical);
+    if (!bibResList || bibResList.length === 0) continue;
+    // Map biblioteca resolution entry to synthetic subject resolution id, but hydration expects CollectionEntry<'resolucoes'>
+    // We keep original biblioteca entries as fallback; catalog index already validated synthetic ids,
+    // but for page rendering we provide the biblioteca entries themselves.
+    resolutionEntriesBySubjectId.set(vinculo.id, bibResList as unknown as CollectionEntry<'resolucoes'>[]);
+  }
 
   return {
     contests: index.contests.map((contest) => {
-      const subjects = contest.subjects.map((subject): CatalogSubject => ({
-        ...subject,
-        contentEntry: contentById.get(subject.id)!,
-        cheatSheetEntry: cheatSheetById.get(subject.id)!,
-        questionSetEntry: questionSetById.get(subject.id)!,
-        resolutionEntries: resolutionEntriesBySubjectId.get(subject.id) ?? [],
-        referencesEntry: referenceById.get(subject.id) ?? null,
-        resolutionReferencesEntry: referenceById.get(`${subject.id}/resolucoes`) ?? null,
-      }));
+      const subjects = contest.subjects.map((subject): CatalogSubject => {
+        const vinculo = vinculoById.get(subject.id);
+        const canonical = vinculo?.data.canonical as string | undefined;
+        const contentEntry =
+          contentById.get(subject.id) ??
+          (canonical ? (bibliotecaContentById.get(canonical) as unknown as CollectionEntry<'conteudos'>) : undefined);
+        const cheatSheetEntry =
+          cheatSheetById.get(subject.id) ??
+          (canonical ? (bibliotecaCheatById.get(canonical) as unknown as CollectionEntry<'cheatSheets'>) : undefined);
+        const questionSetEntry =
+          questionSetById.get(subject.id) ??
+          (canonical ? (bibliotecaQuestionById.get(canonical) as unknown as CollectionEntry<'questoes'>) : undefined);
+        const referencesEntry =
+          referenceById.get(subject.id) ??
+          (canonical ? (bibliotecaReferenceById.get(canonical) as unknown as CollectionEntry<'referencias'>) : null);
+        const resolutionReferencesEntry =
+          referenceById.get(`${subject.id}/resolucoes`) ??
+          (canonical
+            ? (bibliotecaReferenceById.get(`${canonical}/resolucoes`) as unknown as CollectionEntry<'referencias'>)
+            : null);
+        if (!contentEntry || !cheatSheetEntry || !questionSetEntry) {
+          throw new Error(`Entradas de catálogo ausentes para o assunto "${subject.id}"`);
+        }
+        return {
+          ...subject,
+          contentEntry: contentEntry as CollectionEntry<'conteudos'>,
+          cheatSheetEntry: cheatSheetEntry as CollectionEntry<'cheatSheets'>,
+          questionSetEntry: questionSetEntry as CollectionEntry<'questoes'>,
+          resolutionEntries: resolutionEntriesBySubjectId.get(subject.id) ?? [],
+          referencesEntry: (referencesEntry ?? null) as CollectionEntry<'referencias'> | null,
+          resolutionReferencesEntry: (resolutionReferencesEntry ?? null) as CollectionEntry<'referencias'> | null,
+        };
+      });
       const subjectsById = new Map(subjects.map((subject) => [subject.id, subject]));
 
       const hydrateNode = (node: CatalogTreeNodeIndex): CatalogTreeNode =>
