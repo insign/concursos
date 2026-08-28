@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q3579",
@@ -4201,6 +4201,66 @@
       ],
       "correctOptionId": "E",
       "explanation": "Itens avançados cruzam colocação com outros níveis de análise; uma forma localmente possível pode não preservar o restante. Fonte: Questão autoral baseada no padrão de cobrança Cebraspe sobre colocação pronominal."
+    },
+    {
+      "id": "q3719",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que a colocação do pronome oblíquo está correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Me mostraram a prova do crime."
+        },
+        {
+          "id": "B",
+          "text": "Deram-me três dias de prazo."
+        },
+        {
+          "id": "C",
+          "text": "Não deu-me a menor importância."
+        },
+        {
+          "id": "D",
+          "text": "Quem viu-me fazer isso?"
+        },
+        {
+          "id": "E",
+          "text": "Ninguém observou-me durante a corrida."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A ênclise em “Deram-me” está adequada: não há elemento atrativo antes do verbo, e a colocação pós-verbal atende à norma-padrão. Fonte: questão oficial; FGV; EBSERH — Técnico em Farmácia, Tipo 1 (Branca); 2025; questão 8; https://conhecimento.fgv.br/sites/default/files/concursos/grupo-17-tecnico-em-farmaciae3cnmgp17-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/ebserrhassistencial2024_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q3720",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção em que o uso da próclise é obrigatório.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os convidados que não dançavam se haviam espalhado por várias partes da casa."
+        },
+        {
+          "id": "B",
+          "text": "Não lhe posso contar o que aconteceu depois desse dia."
+        },
+        {
+          "id": "C",
+          "text": "E ele se pôs a caminho, mas a pé, para poupar o tostão do bonde."
+        },
+        {
+          "id": "D",
+          "text": "Em se tratando de música, ele era o especialista."
+        },
+        {
+          "id": "E",
+          "text": "Depois deste feito, Clara se sentiu completamente só no mundo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Na construção “Em se tratando de”, a preposição “em” antes do gerúndio torna obrigatória a próclise. Fonte: questão oficial; FGV; Prefeitura Municipal de Nova Iguaçu — Auditor Fiscal do Tesouro Municipal, Tipo 1 (Branca); 2024; questão 2; https://conhecimento.fgv.br/sites/default/files/concursos/auditor-fiscal-do-tesouro-municipalcns01-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_semef.pdf."
     }
   ]
 }

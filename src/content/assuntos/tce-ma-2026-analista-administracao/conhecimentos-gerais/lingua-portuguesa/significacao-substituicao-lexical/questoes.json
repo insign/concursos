@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q3639",
@@ -4801,6 +4801,186 @@
       ],
       "correctOptionId": "E",
       "explanation": "A troca de “assistir” por “ver” exige retirar a preposição, mas pode manter o conteúdo perceptivo no contexto. Fonte: questão autoral inspirada em Cebraspe — Instituto Rio Branco (2010), cobrança sobre denotação e escolha lexical; enunciado e alternativas integralmente reescritos."
+    },
+    {
+      "id": "q3799",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em todas as frases abaixo houve a substituição do termo sublinhado para evitar-se a repetição de palavras.\n\nAssinale a frase em que a substituição foi feita por um sinônimo.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Eu fiz o `desenho` em uma hora, mas para fazê-lo nesse tempo, tive que correr."
+        },
+        {
+          "id": "B",
+          "text": "A `guerra` na Ucrânia já dura mais de um ano e o conflito não dá sinais de acabar."
+        },
+        {
+          "id": "C",
+          "text": "`João`, que é engenheiro, elaborou o plano da obra."
+        },
+        {
+          "id": "D",
+          "text": "`Choveu durante dias`, coisa rara nesta estação do ano."
+        },
+        {
+          "id": "E",
+          "text": "`João` e Maria fizeram a prova, mas aquele foi melhor que esta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "“Conflito” retoma “guerra” por sinonímia contextual; nas demais alternativas, a retomada ocorre por pronome, oração relativa, encapsulamento ou demonstrativo. Os sublinhados do caderno foram normalizados com crases Markdown. Fonte: questão oficial; FGV; Prefeitura Municipal de Canaã dos Carajás/PA — Agente de Serviços de Culinária, Tipo 1 (Branca); 2025; questão 4; https://conhecimento.fgv.br/sites/default/files/concursos/agente-de-servicos-de-culinariacnf201-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefcanaa202401_gabarito_definitivo-compilado-23.03_0.pdf."
+    },
+    {
+      "id": "q3800",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Todas as frases abaixo mostram a presença do verbo TER; a única frase em que ele conserva o sentido original de “possuir” é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ele não tem tempo para nada."
+        },
+        {
+          "id": "B",
+          "text": "Tenha a bondade de sentar-se."
+        },
+        {
+          "id": "C",
+          "text": "Meu amigo tem uma fazenda em Mato Grosso."
+        },
+        {
+          "id": "D",
+          "text": "Os policiais tiveram momentos de angústia."
+        },
+        {
+          "id": "E",
+          "text": "O jogo teve momentos interessantes."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Em “tem uma fazenda”, o verbo “ter” mantém o sentido lexical de possuir; nos demais exemplos, integra expressões com outros valores contextuais. Fonte: questão oficial; FGV; Prefeitura Municipal de Canaã dos Carajás/PA — Agente de Serviços de Culinária, Tipo 1 (Branca); 2025; questão 8; https://conhecimento.fgv.br/sites/default/files/concursos/agente-de-servicos-de-culinariacnf201-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefcanaa202401_gabarito_definitivo-compilado-23.03_0.pdf."
+    },
+    {
+      "id": "q3801",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em todas as frases abaixo aparece o adjetivo GRANDE; a frase em que ele foi corretamente substituído por outro adjetivo de sentido equivalente é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "O grande Machado de Assis é admirado até hoje / famoso."
+        },
+        {
+          "id": "B",
+          "text": "A amizade de um grande homem é um bem valioso / alto."
+        },
+        {
+          "id": "C",
+          "text": "Pretendo fazer grandes coisas / volumosas."
+        },
+        {
+          "id": "D",
+          "text": "O grande artista não tem pátria / popular."
+        },
+        {
+          "id": "E",
+          "text": "É grande a ambição do homem / conhecida."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "No contexto, “grande Machado de Assis” significa “famoso” ou notável; as demais substituições não preservam a acepção contextual de “grande”. Fonte: questão oficial; FGV; Prefeitura Municipal de Canaã dos Carajás/PA — Agente de Serviços de Culinária, Tipo 1 (Branca); 2025; questão 9; https://conhecimento.fgv.br/sites/default/files/concursos/agente-de-servicos-de-culinariacnf201-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefcanaa202401_gabarito_definitivo-compilado-23.03_0.pdf."
+    },
+    {
+      "id": "q3802",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A expressão abaixo que foi corretamente substituída por um só verbo de sentido equivalente é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mudar completamente / substituir."
+        },
+        {
+          "id": "B",
+          "text": "Afastar totalmente / despedir."
+        },
+        {
+          "id": "C",
+          "text": "Pagar integralmente / solucionar."
+        },
+        {
+          "id": "D",
+          "text": "Destruir totalmente / arrasar."
+        },
+        {
+          "id": "E",
+          "text": "Dedicar-se completamente / gostar."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "“Arrasar” pode significar destruir totalmente, preservando o sentido da expressão; as demais equivalências propostas não são válidas. Fonte: questão oficial; FGV; Prefeitura Municipal de Canaã dos Carajás/PA — Agente de Serviços de Culinária, Tipo 1 (Branca); 2025; questão 10; https://conhecimento.fgv.br/sites/default/files/concursos/agente-de-servicos-de-culinariacnf201-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefcanaa202401_gabarito_definitivo-compilado-23.03_0.pdf."
+    },
+    {
+      "id": "q3803",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um célebre escritor espanhol, Benito Péres Galdós, escreveu o seguinte raciocínio.\n\n“Assusta pensar que talvez a admiração mais sincera de que gozamos seja a das pessoas que não nos compreenderam.”\n\nA substituição inadequada de um dos termos dessa frase por outro indicado a seguir, é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Assusta `pensar` que talvez a admiração mais sincera de que gozamos seja a das pessoas que não nos compreenderam.” / o pensamento de"
+        },
+        {
+          "id": "B",
+          "text": "“Assusta pensar que `talvez` a admiração mais sincera de que gozamos seja a das pessoas que não nos compreenderam.” / quem sabe"
+        },
+        {
+          "id": "C",
+          "text": "“Assusta pensar que talvez a admiração mais sincera `de que gozamos` seja a das pessoas que não nos compreenderam.” / gozada por nós"
+        },
+        {
+          "id": "D",
+          "text": "“Assusta pensar que talvez `a admiração mais sincera` de que gozamos seja a das pessoas que não nos compreenderam.” / o ato de admirar mais sincero"
+        },
+        {
+          "id": "E",
+          "text": "“Assusta pensar que talvez a admiração mais sincera de que gozamos seja a das pessoas `que não nos compreenderam`.” / incompreendidas"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "“Incompreendidas” designaria pessoas que não foram compreendidas, enquanto o original designa pessoas que não compreenderam o enunciador; a direção semântica se inverte. Os sublinhados do caderno foram normalizados com crases Markdown. Fonte: questão oficial; FGV; Agência Brasileira de Apoio à Gestão do SUS — Auxiliar de Gestão, Tipo 1 (Branca); 2025; questão 7; https://conhecimento.fgv.br/sites/default/files/concursos/auxiliar-de-gestaocnm001-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-agsus.pdf."
+    },
+    {
+      "id": "q3804",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Os sinônimos são palavras de mesma classe gramatical que possuem significados idênticos ou muito próximos e são utilizados de modo que não haja repetição desnecessária.\n\nO exemplo em que o termo sublinhado foi substituído por um sinônimo, é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A `democracia` não corre, mas ela chega segura ao seu objetivo."
+        },
+        {
+          "id": "B",
+          "text": "A `democracia` não existe em todos os países, mas é claro que esse sistema é apreciável."
+        },
+        {
+          "id": "C",
+          "text": "Um pouco de `rebeldia` de vez em quando é uma boa coisa; uma agitação também pode trazer benefícios."
+        },
+        {
+          "id": "D",
+          "text": "O revolucionário inventa as `ideias`; quando as exaure, o conservador as adota."
+        },
+        {
+          "id": "E",
+          "text": "A `pessoa` que brilha na primeira fila pode apagar-se na segunda."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "“Rebeldia” e “agitação” funcionam como sinônimos contextuais na alternativa C; as demais retomadas são pronominais, hiperonímicas ou referenciais. Os sublinhados do caderno foram normalizados com crases Markdown. Fonte: questão oficial; FGV; Agência Brasileira de Apoio à Gestão do SUS — Auxiliar de Gestão, Tipo 1 (Branca); 2025; questão 13; https://conhecimento.fgv.br/sites/default/files/concursos/auxiliar-de-gestaocnm001-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-agsus.pdf."
     }
   ]
 }
