@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q3999",
@@ -2071,6 +2071,36 @@
       ],
       "correctOptionId": "D",
       "explanation": "A função soma, no próprio intervalo, os valores estritamente maiores que 70: 90 + 80 + 110 = 280. Fonte: questão adaptada de FGV; MPRJ; Analista do Ministério Público — Área Administrativa; 2025; questão 59; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-do-ministerio-publico-area-administrativacns101-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/gabaritodefinitivo09.09_mprjanalista.pdf; adaptação: tabela convertida em lista textual, preservando valores, fórmula e gabarito."
+    },
+    {
+      "id": "q4068",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Com relação às funcionalidades do MS Excel 365 (BR), avalie as afirmativas a seguir.\n\nI. A função =SOMA(A1:A10) irá resultar em um erro #VALOR! se o intervalo A1:A10 contiver quaisquer células com texto.\n\nII. A aplicação de um Filtro Automático a um intervalo de dados permite ocultar linhas que não atendam aos critérios especificados, sem excluí-las.\n\nIII. A proteção de uma planilha (Proteger Planilha) e a proteção da pasta de trabalho (Proteger Estrutura da Pasta) são ações distintas, sendo a primeira voltada para restringir a edição de células e a segunda para impedir a inserção, exclusão ou renomeação de planilhas.\n\nEstá correto o que se afirma em",
+      "options": [
+        {
+          "id": "A",
+          "text": "I, apenas."
+        },
+        {
+          "id": "B",
+          "text": "II, apenas."
+        },
+        {
+          "id": "C",
+          "text": "I e III, apenas."
+        },
+        {
+          "id": "D",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "E",
+          "text": "I, II e III."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A afirmativa I é falsa: a função SOMA ignora texto presente em células referenciadas no intervalo, em vez de produzir necessariamente #VALOR!. As afirmativas II e III são verdadeiras. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado do Amazonas — Agente Legislativo - Assistente Técnico Administrativo, Tipo 4; 2025; questão 18; https://conhecimento.fgv.br/sites/default/files/concursos/agente-legislativo-assistente-tecnico-administrativo-cnm400-tipo-4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-am.pdf."
     }
   ]
 }
