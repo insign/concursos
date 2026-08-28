@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q3399",
@@ -4201,6 +4201,66 @@
       ],
       "correctOptionId": "E",
       "explanation": "“Leso” varia em gênero no composto conforme o segundo elemento. Fonte: adaptação conceitual de questão de banca similar sobre concordância verbal e nominal; enunciado integralmente reescrito."
+    },
+    {
+      "id": "q3539",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que a palavra sublinhada está empregada corretamente.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chegamos `meios` cansados."
+        },
+        {
+          "id": "B",
+          "text": "Ela estava `meia` abatida."
+        },
+        {
+          "id": "C",
+          "text": "As frutas estavam `meio` caras."
+        },
+        {
+          "id": "D",
+          "text": "Nos `meio` tempos, os times mudam."
+        },
+        {
+          "id": "E",
+          "text": "Ficaram todos `meios` tristes com o ocorrido."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na alternativa C, «meio» funciona como advérbio, com sentido de «um pouco», e permanece invariável. Questão original da FGV, EBSERH — Técnico em Radiologia/Radioterapia, Tipo 1 (Branca), 2025, questão 7. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/grupo-20-tecnico-em-radiologia-radiotepariae3cnmgp20-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/ebserrhassistencial2024_gabarito_definitivo.pdf"
+    },
+    {
+      "id": "q3540",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Entre as frases abaixo, há uma em que foi mal-feita a concordância do termo sublinhado; assinale essa frase.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os homens `têm` intenção de prestar favores até que consigam o poder."
+        },
+        {
+          "id": "B",
+          "text": "Não merecem o doce quem não `experimentaram` o amargo."
+        },
+        {
+          "id": "C",
+          "text": "Quando não sopra mesmo nenhum vento, até o cata-vento da torre da igreja `tem` caráter."
+        },
+        {
+          "id": "D",
+          "text": "Aqueles que `desejam` menos coisas estão mais perto dos deuses."
+        },
+        {
+          "id": "E",
+          "text": "Às vezes eu tento ser modesto, mas aí `começam` a me faltar argumentos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Segundo o gabarito definitivo, a alternativa B contém a concordância inadequada no termo sublinhado; com o pronome relativo «quem», a forma esperada no contexto é «experimentou». Questão original da FGV, SEEC/RN — Professor de Língua Portuguesa, Tipo 1 (Branca), 2025, questão 8. Gabarito definitivo: B. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-lingua-portuguesacns112-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_seadrn_v3.pdf"
     }
   ]
 }
