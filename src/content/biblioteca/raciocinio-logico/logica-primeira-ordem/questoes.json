@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q5079",
@@ -8,26 +8,11 @@
       "origin": "authorial",
       "prompt": "Na semântica clássica de primeira ordem adotada no conteúdo, o domínio de uma interpretação deve ser",
       "options": [
-        {
-          "id": "A",
-          "text": "um conjunto não vazio de objetos."
-        },
-        {
-          "id": "B",
-          "text": "necessariamente o conjunto dos números naturais."
-        },
-        {
-          "id": "C",
-          "text": "uma lista de proposições sem estrutura interna."
-        },
-        {
-          "id": "D",
-          "text": "um conjunto formado apenas por valores verdadeiro e falso."
-        },
-        {
-          "id": "E",
-          "text": "um conjunto que obrigatoriamente contém exatamente um objeto."
-        }
+        {"id": "A", "text": "um conjunto não vazio de objetos."},
+        {"id": "B", "text": "necessariamente o conjunto dos números naturais."},
+        {"id": "C", "text": "uma lista de proposições sem estrutura interna."},
+        {"id": "D", "text": "um conjunto formado apenas por valores verdadeiro e falso."},
+        {"id": "E", "text": "um conjunto que obrigatoriamente contém exatamente um objeto."}
       ],
       "correctOptionId": "A",
       "explanation": "O domínio reúne os objetos percorridos pelas variáveis e, na semântica clássica usual adotada, é não vazio; sua cardinalidade e natureza dependem da interpretação."
@@ -38,26 +23,11 @@
       "origin": "authorial",
       "prompt": "Em uma linguagem de primeira ordem, uma constante como a é interpretada como",
       "options": [
-        {
-          "id": "A",
-          "text": "uma propriedade de todos os objetos do domínio."
-        },
-        {
-          "id": "B",
-          "text": "uma relação binária entre fórmulas."
-        },
-        {
-          "id": "C",
-          "text": "um objeto específico do domínio."
-        },
-        {
-          "id": "D",
-          "text": "um quantificador existencial abreviado."
-        },
-        {
-          "id": "E",
-          "text": "uma variável que precisa percorrer todos os objetos do domínio."
-        }
+        {"id": "A", "text": "uma propriedade de todos os objetos do domínio."},
+        {"id": "B", "text": "uma relação binária entre fórmulas."},
+        {"id": "C", "text": "um objeto específico do domínio."},
+        {"id": "D", "text": "um quantificador existencial abreviado."},
+        {"id": "E", "text": "uma variável que precisa percorrer todos os objetos do domínio."}
       ],
       "correctOptionId": "C",
       "explanation": "Constantes são termos que nomeiam objetos do domínio. O referente depende da interpretação."
@@ -68,26 +38,11 @@
       "origin": "authorial",
       "prompt": "Se f é um símbolo funcional unário, a interpretação de f deve",
       "options": [
-        {
-          "id": "A",
-          "text": "atribuir diretamente verdadeiro ou falso a cada fórmula."
-        },
-        {
-          "id": "B",
-          "text": "associar a cada objeto do domínio um objeto do domínio."
-        },
-        {
-          "id": "C",
-          "text": "selecionar apenas alguns objetos, sem fornecer saída aos demais."
-        },
-        {
-          "id": "D",
-          "text": "quantificar sobre todos os predicados da linguagem."
-        },
-        {
-          "id": "E",
-          "text": "associar a cada objeto do domínio uma proposição, e não outro objeto."
-        }
+        {"id": "A", "text": "atribuir diretamente verdadeiro ou falso a cada fórmula."},
+        {"id": "B", "text": "associar a cada objeto do domínio um objeto do domínio."},
+        {"id": "C", "text": "selecionar apenas alguns objetos, sem fornecer saída aos demais."},
+        {"id": "D", "text": "quantificar sobre todos os predicados da linguagem."},
+        {"id": "E", "text": "associar a cada objeto do domínio uma proposição, e não outro objeto."}
       ],
       "correctOptionId": "B",
       "explanation": "Uma função unária é interpretada como função total de U em U: recebe um objeto e devolve um objeto do domínio."
@@ -98,26 +53,11 @@
       "origin": "authorial",
       "prompt": "A aridade de um predicado informa",
       "options": [
-        {
-          "id": "A",
-          "text": "quantas interpretações tornam a fórmula válida."
-        },
-        {
-          "id": "B",
-          "text": "quantos quantificadores devem aparecer antes dele."
-        },
-        {
-          "id": "C",
-          "text": "quantos valores lógicos ele pode receber."
-        },
-        {
-          "id": "D",
-          "text": "quantos argumentos o predicado exige."
-        },
-        {
-          "id": "E",
-          "text": "quantos objetos existem no domínio da interpretação."
-        }
+        {"id": "A", "text": "quantas interpretações tornam a fórmula válida."},
+        {"id": "B", "text": "quantos quantificadores devem aparecer antes dele."},
+        {"id": "C", "text": "quantos valores lógicos ele pode receber."},
+        {"id": "D", "text": "quantos argumentos o predicado exige."},
+        {"id": "E", "text": "quantos objetos existem no domínio da interpretação."}
       ],
       "correctOptionId": "D",
       "explanation": "Aridade é o número fixo de argumentos exigidos por um predicado ou função."
@@ -128,26 +68,11 @@
       "origin": "authorial",
       "prompt": "Qual das expressões é um termo, e não uma fórmula, supondo f unária e P unário?",
       "options": [
-        {
-          "id": "A",
-          "text": "P(a)."
-        },
-        {
-          "id": "B",
-          "text": "a = f(a)."
-        },
-        {
-          "id": "C",
-          "text": "¬P(x)."
-        },
-        {
-          "id": "D",
-          "text": "f(a)."
-        },
-        {
-          "id": "E",
-          "text": "∀x P(x)."
-        }
+        {"id": "A", "text": "P(a)."},
+        {"id": "B", "text": "a = f(a)."},
+        {"id": "C", "text": "¬P(x)."},
+        {"id": "D", "text": "f(a)."},
+        {"id": "E", "text": "∀x P(x)."}
       ],
       "correctOptionId": "D",
       "explanation": "f(a) designa o objeto obtido pela aplicação da função e, por isso, é termo; as demais expressões são fórmulas."
@@ -158,26 +83,11 @@
       "origin": "authorial",
       "prompt": "Em uma linguagem com igualdade, a expressão f(a)=b é",
       "options": [
-        {
-          "id": "A",
-          "text": "um termo funcional de aridade dois."
-        },
-        {
-          "id": "B",
-          "text": "uma fórmula atômica que afirma identidade entre os objetos designados."
-        },
-        {
-          "id": "C",
-          "text": "uma abreviação do quantificador universal."
-        },
-        {
-          "id": "D",
-          "text": "uma relação de mera semelhança, nunca de identidade."
-        },
-        {
-          "id": "E",
-          "text": "uma fórmula aberta apenas por conter o símbolo f."
-        }
+        {"id": "A", "text": "um termo funcional de aridade dois."},
+        {"id": "B", "text": "uma fórmula atômica que afirma identidade entre os objetos designados."},
+        {"id": "C", "text": "uma abreviação do quantificador universal."},
+        {"id": "D", "text": "uma relação de mera semelhança, nunca de identidade."},
+        {"id": "E", "text": "uma fórmula aberta apenas por conter o símbolo f."}
       ],
       "correctOptionId": "B",
       "explanation": "A igualdade entre dois termos é fórmula atômica e afirma que eles designam o mesmo objeto."
@@ -188,26 +98,11 @@
       "origin": "authorial",
       "prompt": "Sem uma premissa adicional sobre as constantes a e b, é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "a e b podem designar o mesmo objeto."
-        },
-        {
-          "id": "B",
-          "text": "a e b necessariamente designam objetos distintos."
-        },
-        {
-          "id": "C",
-          "text": "a designa um objeto, mas b precisa designar um predicado."
-        },
-        {
-          "id": "D",
-          "text": "a=b é sempre falsa por diferença de grafia."
-        },
-        {
-          "id": "E",
-          "text": "a e b somente podem aparecer dentro de quantificadores."
-        }
+        {"id": "A", "text": "a e b podem designar o mesmo objeto."},
+        {"id": "B", "text": "a e b necessariamente designam objetos distintos."},
+        {"id": "C", "text": "a designa um objeto, mas b precisa designar um predicado."},
+        {"id": "D", "text": "a=b é sempre falsa por diferença de grafia."},
+        {"id": "E", "text": "a e b somente podem aparecer dentro de quantificadores."}
       ],
       "correctOptionId": "A",
       "explanation": "A LPO usual não assume automaticamente nomes distintos; duas constantes podem ter o mesmo referente."
@@ -218,26 +113,11 @@
       "origin": "authorial",
       "prompt": "O que caracteriza os quantificadores de primeira ordem?",
       "options": [
-        {
-          "id": "A",
-          "text": "Eles percorrem apenas fórmulas verdadeiras."
-        },
-        {
-          "id": "B",
-          "text": "Eles percorrem todos os conjuntos possíveis de objetos."
-        },
-        {
-          "id": "C",
-          "text": "Eles percorrem objetos do domínio, não predicados ou relações."
-        },
-        {
-          "id": "D",
-          "text": "Eles podem ligar conectivos, mas não variáveis."
-        },
-        {
-          "id": "E",
-          "text": "Eles percorrem somente constantes já nomeadas na linguagem."
-        }
+        {"id": "A", "text": "Eles percorrem apenas fórmulas verdadeiras."},
+        {"id": "B", "text": "Eles percorrem todos os conjuntos possíveis de objetos."},
+        {"id": "C", "text": "Eles percorrem objetos do domínio, não predicados ou relações."},
+        {"id": "D", "text": "Eles podem ligar conectivos, mas não variáveis."},
+        {"id": "E", "text": "Eles percorrem somente constantes já nomeadas na linguagem."}
       ],
       "correctOptionId": "C",
       "explanation": "Na primeira ordem, ∀x e ∃x variam sobre objetos do domínio, não sobre predicados ou relações."
@@ -248,26 +128,11 @@
       "origin": "authorial",
       "prompt": "Supondo R binário e a e b termos, qual é uma fórmula atômica bem formada?",
       "options": [
-        {
-          "id": "A",
-          "text": "R."
-        },
-        {
-          "id": "B",
-          "text": "R(a,b)."
-        },
-        {
-          "id": "C",
-          "text": "∀R(a,b)."
-        },
-        {
-          "id": "D",
-          "text": "R(a,b,c)."
-        },
-        {
-          "id": "E",
-          "text": "R(a)."
-        }
+        {"id": "A", "text": "R."},
+        {"id": "B", "text": "R(a,b)."},
+        {"id": "C", "text": "∀R(a,b)."},
+        {"id": "D", "text": "R(a,b,c)."},
+        {"id": "E", "text": "R(a)."}
       ],
       "correctOptionId": "B",
       "explanation": "Um predicado binário exige exatamente dois termos como argumentos; R(a,b) respeita essa aridade."
@@ -278,26 +143,11 @@
       "origin": "authorial",
       "prompt": "Se Q é predicado unário, qual expressão viola sua aridade?",
       "options": [
-        {
-          "id": "A",
-          "text": "Q(a)."
-        },
-        {
-          "id": "B",
-          "text": "¬Q(x)."
-        },
-        {
-          "id": "C",
-          "text": "∃x Q(x)."
-        },
-        {
-          "id": "D",
-          "text": "Q(a,b)."
-        },
-        {
-          "id": "E",
-          "text": "∀x ¬Q(x)."
-        }
+        {"id": "A", "text": "Q(a)."},
+        {"id": "B", "text": "¬Q(x)."},
+        {"id": "C", "text": "∃x Q(x)."},
+        {"id": "D", "text": "Q(a,b)."},
+        {"id": "E", "text": "∀x ¬Q(x)."}
       ],
       "correctOptionId": "D",
       "explanation": "Q tem aridade 1 e deve receber um único termo; Q(a,b) fornece dois argumentos."
@@ -308,26 +158,11 @@
       "origin": "authorial",
       "prompt": "Na fórmula ∀x R(x,y), a variável y ocorre",
       "options": [
-        {
-          "id": "A",
-          "text": "ligada pelo quantificador de x."
-        },
-        {
-          "id": "B",
-          "text": "como constante do domínio."
-        },
-        {
-          "id": "C",
-          "text": "livre."
-        },
-        {
-          "id": "D",
-          "text": "fora da fórmula, sem qualquer ocorrência."
-        },
-        {
-          "id": "E",
-          "text": "ligada implicitamente por ser o segundo argumento de R."
-        }
+        {"id": "A", "text": "ligada pelo quantificador de x."},
+        {"id": "B", "text": "como constante do domínio."},
+        {"id": "C", "text": "livre."},
+        {"id": "D", "text": "fora da fórmula, sem qualquer ocorrência."},
+        {"id": "E", "text": "ligada implicitamente por ser o segundo argumento de R."}
       ],
       "correctOptionId": "C",
       "explanation": "∀x liga as ocorrências de x em seu escopo, não as de y; sem quantificador para y, ela permanece livre."
@@ -338,26 +173,11 @@
       "origin": "authorial",
       "prompt": "Qual expressão é uma sentença, isto é, uma fórmula sem variável livre?",
       "options": [
-        {
-          "id": "A",
-          "text": "∀x∃y R(x,y)."
-        },
-        {
-          "id": "B",
-          "text": "P(x) ∨ Q(a)."
-        },
-        {
-          "id": "C",
-          "text": "∀x R(x,y)."
-        },
-        {
-          "id": "D",
-          "text": "P(y) → ∃x R(x,y)."
-        },
-        {
-          "id": "E",
-          "text": "R(a,y) ∧ Q(a)."
-        }
+        {"id": "A", "text": "∀x∃y R(x,y)."},
+        {"id": "B", "text": "P(x) ∨ Q(a)."},
+        {"id": "C", "text": "∀x R(x,y)."},
+        {"id": "D", "text": "P(y) → ∃x R(x,y)."},
+        {"id": "E", "text": "R(a,y) ∧ Q(a)."}
       ],
       "correctOptionId": "A",
       "explanation": "Em ∀x∃y R(x,y), todas as ocorrências de x e y estão ligadas; nas demais, ao menos uma variável permanece livre."
@@ -368,26 +188,11 @@
       "origin": "authorial",
       "prompt": "Na fórmula P(x) ∧ ∃x Q(x), é correto dizer que",
       "options": [
-        {
-          "id": "A",
-          "text": "todas as ocorrências de x são ligadas pelo existencial."
-        },
-        {
-          "id": "B",
-          "text": "todas as ocorrências de x são livres."
-        },
-        {
-          "id": "C",
-          "text": "x ocorre livre em P(x) e ligada em Q(x)."
-        },
-        {
-          "id": "D",
-          "text": "a fórmula não contém variável, pois as ocorrências se anulam."
-        },
-        {
-          "id": "E",
-          "text": "x ocorre ligada em P(x) e livre em Q(x)."
-        }
+        {"id": "A", "text": "todas as ocorrências de x são ligadas pelo existencial."},
+        {"id": "B", "text": "todas as ocorrências de x são livres."},
+        {"id": "C", "text": "x ocorre livre em P(x) e ligada em Q(x)."},
+        {"id": "D", "text": "a fórmula não contém variável, pois as ocorrências se anulam."},
+        {"id": "E", "text": "x ocorre ligada em P(x) e livre em Q(x)."}
       ],
       "correctOptionId": "C",
       "explanation": "O escopo de ∃x é Q(x); a ocorrência em P(x), fora desse escopo, continua livre."
@@ -398,26 +203,11 @@
       "origin": "authorial",
       "prompt": "Em ∀x(P(x) → ∃y R(x,y)), o escopo de ∃y é",
       "options": [
-        {
-          "id": "A",
-          "text": "R(x,y)."
-        },
-        {
-          "id": "B",
-          "text": "somente a ocorrência P(x)."
-        },
-        {
-          "id": "C",
-          "text": "o quantificador ∀x, mas não a condicional."
-        },
-        {
-          "id": "D",
-          "text": "toda a linguagem de primeira ordem."
-        },
-        {
-          "id": "E",
-          "text": "P(x) → ∃y R(x,y), incluindo o próprio quantificador existencial."
-        }
+        {"id": "A", "text": "R(x,y)."},
+        {"id": "B", "text": "somente a ocorrência P(x)."},
+        {"id": "C", "text": "o quantificador ∀x, mas não a condicional."},
+        {"id": "D", "text": "toda a linguagem de primeira ordem."},
+        {"id": "E", "text": "P(x) → ∃y R(x,y), incluindo o próprio quantificador existencial."}
       ],
       "correctOptionId": "A",
       "explanation": "O existencial precede a subfórmula R(x,y) e liga as ocorrências de y nela."
@@ -428,26 +218,11 @@
       "origin": "authorial",
       "prompt": "Qual renomeação de variável ligada preserva o sentido?",
       "options": [
-        {
-          "id": "A",
-          "text": "∀x P(x) para ∀y P(x)."
-        },
-        {
-          "id": "B",
-          "text": "∀x R(x,y) para ∀y R(y,y)."
-        },
-        {
-          "id": "C",
-          "text": "∃x P(x) para ∀z P(z)."
-        },
-        {
-          "id": "D",
-          "text": "∀x P(x) para ∀z P(z)."
-        },
-        {
-          "id": "E",
-          "text": "∀x P(x) para ∃z P(z)."
-        }
+        {"id": "A", "text": "∀x P(x) para ∀y P(x)."},
+        {"id": "B", "text": "∀x R(x,y) para ∀y R(y,y)."},
+        {"id": "C", "text": "∃x P(x) para ∀z P(z)."},
+        {"id": "D", "text": "∀x P(x) para ∀z P(z)."},
+        {"id": "E", "text": "∀x P(x) para ∃z P(z)."}
       ],
       "correctOptionId": "D",
       "explanation": "A variável ligada pode ser renomeada consistentemente, sem mudar o quantificador nem capturar ocorrências livres."
@@ -458,26 +233,11 @@
       "origin": "authorial",
       "prompt": "Ao substituir x por y em ∃y R(x,y), a forma ∃y R(y,y) é problemática porque",
       "options": [
-        {
-          "id": "A",
-          "text": "todo predicado binário proíbe argumentos iguais."
-        },
-        {
-          "id": "B",
-          "text": "a ocorrência antes livre é capturada pelo quantificador ∃y."
-        },
-        {
-          "id": "C",
-          "text": "uma fórmula existencial não pode conter duas ocorrências de variável."
-        },
-        {
-          "id": "D",
-          "text": "y nunca pode ser variável ligada."
-        },
-        {
-          "id": "E",
-          "text": "a substituição transforma R em função, e não em predicado."
-        }
+        {"id": "A", "text": "todo predicado binário proíbe argumentos iguais."},
+        {"id": "B", "text": "a ocorrência antes livre é capturada pelo quantificador ∃y."},
+        {"id": "C", "text": "uma fórmula existencial não pode conter duas ocorrências de variável."},
+        {"id": "D", "text": "y nunca pode ser variável ligada."},
+        {"id": "E", "text": "a substituição transforma R em função, e não em predicado."}
       ],
       "correctOptionId": "B",
       "explanation": "A substituição colocaria a ocorrência antes livre sob o escopo de ∃y, alterando o sentido da fórmula."
@@ -488,26 +248,11 @@
       "origin": "authorial",
       "prompt": "Para avaliar a fórmula aberta P(x), além da interpretação de P e do domínio, é preciso",
       "options": [
-        {
-          "id": "A",
-          "text": "atribuir um objeto do domínio à variável livre x."
-        },
-        {
-          "id": "B",
-          "text": "transformar P em constante."
-        },
-        {
-          "id": "C",
-          "text": "eliminar todos os objetos do domínio."
-        },
-        {
-          "id": "D",
-          "text": "provar que P é válida em qualquer linguagem."
-        },
-        {
-          "id": "E",
-          "text": "substituir x obrigatoriamente pelo mesmo símbolo em todas as interpretações."
-        }
+        {"id": "A", "text": "atribuir um objeto do domínio à variável livre x."},
+        {"id": "B", "text": "transformar P em constante."},
+        {"id": "C", "text": "eliminar todos os objetos do domínio."},
+        {"id": "D", "text": "provar que P é válida em qualquer linguagem."},
+        {"id": "E", "text": "substituir x obrigatoriamente pelo mesmo símbolo em todas as interpretações."}
       ],
       "correctOptionId": "A",
       "explanation": "O valor de uma fórmula aberta depende de uma atribuição às variáveis livres, além da interpretação dos símbolos."
@@ -518,26 +263,11 @@
       "origin": "authorial",
       "prompt": "Se x não ocorre livre na sentença φ e o domínio é não vazio, então",
       "options": [
-        {
-          "id": "A",
-          "text": "∀xφ é sempre falsa."
-        },
-        {
-          "id": "B",
-          "text": "∃xφ é sempre verdadeira, mesmo se φ for falsa."
-        },
-        {
-          "id": "C",
-          "text": "∀xφ e ∃xφ são sempre contraditórias entre si."
-        },
-        {
-          "id": "D",
-          "text": "∀xφ e ∃xφ têm o mesmo valor de φ."
-        },
-        {
-          "id": "E",
-          "text": "quantificar x transforma φ necessariamente em fórmula aberta."
-        }
+        {"id": "A", "text": "∀xφ é sempre falsa."},
+        {"id": "B", "text": "∃xφ é sempre verdadeira, mesmo se φ for falsa."},
+        {"id": "C", "text": "∀xφ e ∃xφ são sempre contraditórias entre si."},
+        {"id": "D", "text": "∀xφ e ∃xφ têm o mesmo valor de φ."},
+        {"id": "E", "text": "quantificar x transforma φ necessariamente em fórmula aberta."}
       ],
       "correctOptionId": "D",
       "explanation": "Se x não ocorre livre, variar seu valor não afeta φ; em domínio não vazio, ∀xφ e ∃xφ preservam seu valor."
@@ -548,26 +278,11 @@
       "origin": "authorial",
       "prompt": "A tradução correta de “Todo analista é servidor”, com A(x) para analista e S(x) para servidor, é",
       "options": [
-        {
-          "id": "A",
-          "text": "∃x(A(x) ∧ S(x))."
-        },
-        {
-          "id": "B",
-          "text": "∀x(A(x) → S(x))."
-        },
-        {
-          "id": "C",
-          "text": "∀x(A(x) ∧ S(x))."
-        },
-        {
-          "id": "D",
-          "text": "∃x(A(x) → S(x))."
-        },
-        {
-          "id": "E",
-          "text": "∀x(S(x) → A(x))."
-        }
+        {"id": "A", "text": "∃x(A(x) ∧ S(x))."},
+        {"id": "B", "text": "∀x(A(x) → S(x))."},
+        {"id": "C", "text": "∀x(A(x) ∧ S(x))."},
+        {"id": "D", "text": "∃x(A(x) → S(x))."},
+        {"id": "E", "text": "∀x(S(x) → A(x))."}
       ],
       "correctOptionId": "B",
       "explanation": "Uma universal restrita usa implicação: para qualquer objeto, se ele for analista, então é servidor."
@@ -578,26 +293,11 @@
       "origin": "authorial",
       "prompt": "“Nenhum processo é público”, com P(x) para processo e U(x) para público, formaliza-se como",
       "options": [
-        {
-          "id": "A",
-          "text": "∃x(P(x) ∧ ¬U(x))."
-        },
-        {
-          "id": "B",
-          "text": "∀x(¬P(x) → U(x))."
-        },
-        {
-          "id": "C",
-          "text": "∀x(P(x) → ¬U(x))."
-        },
-        {
-          "id": "D",
-          "text": "¬∀x(P(x) → U(x))."
-        },
-        {
-          "id": "E",
-          "text": "∃x(P(x) ∧ U(x))."
-        }
+        {"id": "A", "text": "∃x(P(x) ∧ ¬U(x))."},
+        {"id": "B", "text": "∀x(¬P(x) → U(x))."},
+        {"id": "C", "text": "∀x(P(x) → ¬U(x))."},
+        {"id": "D", "text": "¬∀x(P(x) → U(x))."},
+        {"id": "E", "text": "∃x(P(x) ∧ U(x))."}
       ],
       "correctOptionId": "C",
       "explanation": "A universal negativa afirma que todo objeto que seja processo não é público; equivale a negar a existência de P∧U."
@@ -608,26 +308,11 @@
       "origin": "authorial",
       "prompt": "A fórmula para “Algum servidor é treinado” é",
       "options": [
-        {
-          "id": "A",
-          "text": "∀x(S(x) → T(x))."
-        },
-        {
-          "id": "B",
-          "text": "∃x(S(x) → T(x))."
-        },
-        {
-          "id": "C",
-          "text": "∀x(S(x) ∧ T(x))."
-        },
-        {
-          "id": "D",
-          "text": "∃x(S(x) ∧ T(x))."
-        },
-        {
-          "id": "E",
-          "text": "∀x(T(x) → S(x))."
-        }
+        {"id": "A", "text": "∀x(S(x) → T(x))."},
+        {"id": "B", "text": "∃x(S(x) → T(x))."},
+        {"id": "C", "text": "∀x(S(x) ∧ T(x))."},
+        {"id": "D", "text": "∃x(S(x) ∧ T(x))."},
+        {"id": "E", "text": "∀x(T(x) → S(x))."}
       ],
       "correctOptionId": "D",
       "explanation": "A existencial restrita exige um mesmo testemunho que seja servidor e treinado, por isso usa conjunção."
@@ -638,26 +323,11 @@
       "origin": "authorial",
       "prompt": "“Algum relatório não é sigiloso”, com R(x) e S(x), corresponde a",
       "options": [
-        {
-          "id": "A",
-          "text": "∃x(R(x) ∧ ¬S(x))."
-        },
-        {
-          "id": "B",
-          "text": "∀x(R(x) → ¬S(x))."
-        },
-        {
-          "id": "C",
-          "text": "¬∃x R(x)."
-        },
-        {
-          "id": "D",
-          "text": "∀x(R(x) ∨ ¬S(x))."
-        },
-        {
-          "id": "E",
-          "text": "∃x(R(x) ∧ S(x))."
-        }
+        {"id": "A", "text": "∃x(R(x) ∧ ¬S(x))."},
+        {"id": "B", "text": "∀x(R(x) → ¬S(x))."},
+        {"id": "C", "text": "¬∃x R(x)."},
+        {"id": "D", "text": "∀x(R(x) ∨ ¬S(x))."},
+        {"id": "E", "text": "∃x(R(x) ∧ S(x))."}
       ],
       "correctOptionId": "A",
       "explanation": "A frase exige ao menos um mesmo objeto que seja relatório e não seja sigiloso."
@@ -668,26 +338,11 @@
       "origin": "authorial",
       "prompt": "“Somente servidores acessam o sistema”, com S(x) e A(x), significa",
       "options": [
-        {
-          "id": "A",
-          "text": "∀x(S(x) → A(x))."
-        },
-        {
-          "id": "B",
-          "text": "∃x(S(x) ∧ A(x))."
-        },
-        {
-          "id": "C",
-          "text": "∀x(A(x) → S(x))."
-        },
-        {
-          "id": "D",
-          "text": "∀x(S(x) ↔ A(x))."
-        },
-        {
-          "id": "E",
-          "text": "∃x(A(x) ∧ ¬S(x))."
-        }
+        {"id": "A", "text": "∀x(S(x) → A(x))."},
+        {"id": "B", "text": "∃x(S(x) ∧ A(x))."},
+        {"id": "C", "text": "∀x(A(x) → S(x))."},
+        {"id": "D", "text": "∀x(S(x) ↔ A(x))."},
+        {"id": "E", "text": "∃x(A(x) ∧ ¬S(x))."}
       ],
       "correctOptionId": "C",
       "explanation": "“Somente servidores” restringe quem acessa: se alguém acessa, então é servidor; não implica que todo servidor acesse."
@@ -698,26 +353,11 @@
       "origin": "authorial",
       "prompt": "A frase “Nem todo servidor é treinado” equivale a",
       "options": [
-        {
-          "id": "A",
-          "text": "∀x(S(x) → ¬T(x))."
-        },
-        {
-          "id": "B",
-          "text": "∃x(S(x) ∧ ¬T(x))."
-        },
-        {
-          "id": "C",
-          "text": "¬∃x S(x)."
-        },
-        {
-          "id": "D",
-          "text": "∃x(¬S(x) ∧ T(x))."
-        },
-        {
-          "id": "E",
-          "text": "∀x(S(x) → T(x))."
-        }
+        {"id": "A", "text": "∀x(S(x) → ¬T(x))."},
+        {"id": "B", "text": "∃x(S(x) ∧ ¬T(x))."},
+        {"id": "C", "text": "¬∃x S(x)."},
+        {"id": "D", "text": "∃x(¬S(x) ∧ T(x))."},
+        {"id": "E", "text": "∀x(S(x) → T(x))."}
       ],
       "correctOptionId": "B",
       "explanation": "Negar que todo servidor seja treinado exige um contraexemplo: existe servidor que não é treinado."
@@ -728,26 +368,11 @@
       "origin": "authorial",
       "prompt": "“Todo auditor analisa algum processo” é representado adequadamente por",
       "options": [
-        {
-          "id": "A",
-          "text": "∃y(Processo(y) ∧ ∀x(Auditor(x) → Analisa(x,y)))."
-        },
-        {
-          "id": "B",
-          "text": "∀x∀y((Auditor(x) ∧ Processo(y)) → Analisa(x,y))."
-        },
-        {
-          "id": "C",
-          "text": "∀x(Auditor(x) → ∃y(Processo(y) ∧ Analisa(x,y)))."
-        },
-        {
-          "id": "D",
-          "text": "∃x(Auditor(x) ∧ ∀y(Processo(y) → Analisa(x,y)))."
-        },
-        {
-          "id": "E",
-          "text": "∃x∃y(Auditor(x) ∧ Processo(y) ∧ Analisa(x,y))."
-        }
+        {"id": "A", "text": "∃y(Processo(y) ∧ ∀x(Auditor(x) → Analisa(x,y)))."},
+        {"id": "B", "text": "∀x∀y((Auditor(x) ∧ Processo(y)) → Analisa(x,y))."},
+        {"id": "C", "text": "∀x(Auditor(x) → ∃y(Processo(y) ∧ Analisa(x,y)))."},
+        {"id": "D", "text": "∃x(Auditor(x) ∧ ∀y(Processo(y) → Analisa(x,y)))."},
+        {"id": "E", "text": "∃x∃y(Auditor(x) ∧ Processo(y) ∧ Analisa(x,y))."}
       ],
       "correctOptionId": "C",
       "explanation": "Para cada auditor deve existir ao menos um processo que ele analise; o testemunho y pode variar conforme x."
@@ -758,26 +383,11 @@
       "origin": "authorial",
       "prompt": "Qual fórmula expressa “Existe um processo analisado por todos os auditores”?",
       "options": [
-        {
-          "id": "A",
-          "text": "∀x(Auditor(x) → ∃y(Processo(y) ∧ Analisa(x,y)))."
-        },
-        {
-          "id": "B",
-          "text": "∃y(Processo(y) ∧ ∀x(Auditor(x) → Analisa(x,y)))."
-        },
-        {
-          "id": "C",
-          "text": "∀y(Processo(y) → ∃x(Auditor(x) ∧ Analisa(x,y)))."
-        },
-        {
-          "id": "D",
-          "text": "∃x(Auditor(x) ∧ ∀y(Processo(y) → Analisa(x,y)))."
-        },
-        {
-          "id": "E",
-          "text": "∀x∀y((Auditor(x) ∧ Processo(y)) → Analisa(x,y))."
-        }
+        {"id": "A", "text": "∀x(Auditor(x) → ∃y(Processo(y) ∧ Analisa(x,y)))."},
+        {"id": "B", "text": "∃y(Processo(y) ∧ ∀x(Auditor(x) → Analisa(x,y)))."},
+        {"id": "C", "text": "∀y(Processo(y) → ∃x(Auditor(x) ∧ Analisa(x,y)))."},
+        {"id": "D", "text": "∃x(Auditor(x) ∧ ∀y(Processo(y) → Analisa(x,y)))."},
+        {"id": "E", "text": "∀x∀y((Auditor(x) ∧ Processo(y)) → Analisa(x,y))."}
       ],
       "correctOptionId": "B",
       "explanation": "O existencial externo fixa um mesmo processo y e o universal interno exige que todo auditor o analise."
@@ -788,26 +398,11 @@
       "origin": "authorial",
       "prompt": "Por que a tradução de “Todo A é B” usa A(x)→B(x), em vez de A(x)∧B(x), dentro da universal?",
       "options": [
-        {
-          "id": "A",
-          "text": "Porque somente os objetos que são A devem ser obrigados a ser B."
-        },
-        {
-          "id": "B",
-          "text": "Porque uma conjunção nunca pode aparecer sob ∀."
-        },
-        {
-          "id": "C",
-          "text": "Porque a implicação cria automaticamente algum A."
-        },
-        {
-          "id": "D",
-          "text": "Porque B deve ser verdadeiro apenas para objetos que não são A."
-        },
-        {
-          "id": "E",
-          "text": "Porque A(x)∧B(x) expressaria apenas a existência de um objeto A e B."
-        }
+        {"id": "A", "text": "Porque somente os objetos que são A devem ser obrigados a ser B."},
+        {"id": "B", "text": "Porque uma conjunção nunca pode aparecer sob ∀."},
+        {"id": "C", "text": "Porque a implicação cria automaticamente algum A."},
+        {"id": "D", "text": "Porque B deve ser verdadeiro apenas para objetos que não são A."},
+        {"id": "E", "text": "Porque A(x)∧B(x) expressaria apenas a existência de um objeto A e B."}
       ],
       "correctOptionId": "A",
       "explanation": "A implicação restringe a exigência à classe A; ∀x(A∧B) afirmaria que todo objeto do domínio é simultaneamente A e B."
@@ -818,26 +413,11 @@
       "origin": "authorial",
       "prompt": "Por que “Algum A é B” usa ∃x(A(x)∧B(x)) e não ∃x(A(x)→B(x))?",
       "options": [
-        {
-          "id": "A",
-          "text": "Porque existenciais não admitem condicionais em nenhuma fórmula."
-        },
-        {
-          "id": "B",
-          "text": "Porque a conjunção exige que todos os objetos sejam A e B."
-        },
-        {
-          "id": "C",
-          "text": "Porque a implicação força a existência de exatamente um A."
-        },
-        {
-          "id": "D",
-          "text": "Porque a conjunção exige um mesmo testemunho que seja A e B; a implicação poderia valer para um não A."
-        },
-        {
-          "id": "E",
-          "text": "Porque a implicação sob ∃ equivale sempre a uma contradição."
-        }
+        {"id": "A", "text": "Porque existenciais não admitem condicionais em nenhuma fórmula."},
+        {"id": "B", "text": "Porque a conjunção exige que todos os objetos sejam A e B."},
+        {"id": "C", "text": "Porque a implicação força a existência de exatamente um A."},
+        {"id": "D", "text": "Porque a conjunção exige um mesmo testemunho que seja A e B; a implicação poderia valer para um não A."},
+        {"id": "E", "text": "Porque a implicação sob ∃ equivale sempre a uma contradição."}
       ],
       "correctOptionId": "D",
       "explanation": "A conjunção garante as duas propriedades no mesmo objeto; uma implicação pode ser verdadeira com antecedente A falso."
@@ -848,26 +428,11 @@
       "origin": "authorial",
       "prompt": "Na interpretação lógica usual, a palavra “algum” em “Algum servidor é treinado” afirma",
       "options": [
-        {
-          "id": "A",
-          "text": "exatamente um servidor treinado."
-        },
-        {
-          "id": "B",
-          "text": "ao menos um, mas necessariamente não todos."
-        },
-        {
-          "id": "C",
-          "text": "a maioria dos servidores."
-        },
-        {
-          "id": "D",
-          "text": "ao menos um servidor treinado, sem excluir que todos sejam."
-        },
-        {
-          "id": "E",
-          "text": "pelo menos dois servidores treinados."
-        }
+        {"id": "A", "text": "exatamente um servidor treinado."},
+        {"id": "B", "text": "ao menos um, mas necessariamente não todos."},
+        {"id": "C", "text": "a maioria dos servidores."},
+        {"id": "D", "text": "ao menos um servidor treinado, sem excluir que todos sejam."},
+        {"id": "E", "text": "pelo menos dois servidores treinados."}
       ],
       "correctOptionId": "D",
       "explanation": "O existencial é inclusivo: exige ao menos um testemunho e é compatível com o caso em que todos satisfaçam a propriedade."
@@ -878,26 +443,11 @@
       "origin": "authorial",
       "prompt": "Qual fórmula expressa que existe exatamente um objeto com a propriedade P?",
       "options": [
-        {
-          "id": "A",
-          "text": "∃x(P(x) ∧ ∀y(P(y) → y=x))."
-        },
-        {
-          "id": "B",
-          "text": "∀x P(x)."
-        },
-        {
-          "id": "C",
-          "text": "∃x∃y(P(x) ∧ P(y) ∧ x≠y)."
-        },
-        {
-          "id": "D",
-          "text": "∀x∀y(P(x) → P(y))."
-        },
-        {
-          "id": "E",
-          "text": "∃x P(x) ∧ ∃y P(y)."
-        }
+        {"id": "A", "text": "∃x(P(x) ∧ ∀y(P(y) → y=x))."},
+        {"id": "B", "text": "∀x P(x)."},
+        {"id": "C", "text": "∃x∃y(P(x) ∧ P(y) ∧ x≠y)."},
+        {"id": "D", "text": "∀x∀y(P(x) → P(y))."},
+        {"id": "E", "text": "∃x P(x) ∧ ∃y P(y)."}
       ],
       "correctOptionId": "A",
       "explanation": "A fórmula combina existência de um x com P e unicidade: qualquer y com P deve ser idêntico a x."
@@ -908,26 +458,11 @@
       "origin": "authorial",
       "prompt": "A negação de ∀x P(x) é equivalente a",
       "options": [
-        {
-          "id": "A",
-          "text": "∀x ¬P(x)."
-        },
-        {
-          "id": "B",
-          "text": "∃x P(x)."
-        },
-        {
-          "id": "C",
-          "text": "∃x ¬P(x)."
-        },
-        {
-          "id": "D",
-          "text": "¬∃x ¬P(x)."
-        },
-        {
-          "id": "E",
-          "text": "∀x(P(x) ∧ ¬P(x))."
-        }
+        {"id": "A", "text": "∀x ¬P(x)."},
+        {"id": "B", "text": "∃x P(x)."},
+        {"id": "C", "text": "∃x ¬P(x)."},
+        {"id": "D", "text": "¬∃x ¬P(x)."},
+        {"id": "E", "text": "∀x(P(x) ∧ ¬P(x))."}
       ],
       "correctOptionId": "C",
       "explanation": "Negar o universal troca ∀ por ∃ e nega o escopo: existe ao menos um contraexemplo a P."
@@ -938,26 +473,11 @@
       "origin": "authorial",
       "prompt": "A forma equivalente a ¬∃x P(x) é",
       "options": [
-        {
-          "id": "A",
-          "text": "∃x ¬P(x)."
-        },
-        {
-          "id": "B",
-          "text": "∀x ¬P(x)."
-        },
-        {
-          "id": "C",
-          "text": "¬∀x ¬P(x)."
-        },
-        {
-          "id": "D",
-          "text": "∀x P(x)."
-        },
-        {
-          "id": "E",
-          "text": "∃x(P(x) ∧ ¬P(x))."
-        }
+        {"id": "A", "text": "∃x ¬P(x)."},
+        {"id": "B", "text": "∀x ¬P(x)."},
+        {"id": "C", "text": "¬∀x ¬P(x)."},
+        {"id": "D", "text": "∀x P(x)."},
+        {"id": "E", "text": "∃x(P(x) ∧ ¬P(x))."}
       ],
       "correctOptionId": "B",
       "explanation": "Negar o existencial troca ∃ por ∀ e nega o escopo: nenhum objeto possui P."
@@ -968,26 +488,11 @@
       "origin": "authorial",
       "prompt": "A negação de “Todo A é B” é",
       "options": [
-        {
-          "id": "A",
-          "text": "Algum A não é B."
-        },
-        {
-          "id": "B",
-          "text": "Nenhum A é B."
-        },
-        {
-          "id": "C",
-          "text": "Todo B não é A."
-        },
-        {
-          "id": "D",
-          "text": "Algum objeto não é A nem B."
-        },
-        {
-          "id": "E",
-          "text": "Todo A não é B."
-        }
+        {"id": "A", "text": "Algum A não é B."},
+        {"id": "B", "text": "Nenhum A é B."},
+        {"id": "C", "text": "Todo B não é A."},
+        {"id": "D", "text": "Algum objeto não é A nem B."},
+        {"id": "E", "text": "Todo A não é B."}
       ],
       "correctOptionId": "A",
       "explanation": "¬∀x(A→B) equivale a ∃x(A∧¬B): um único A fora de B refuta a universal."
@@ -998,26 +503,11 @@
       "origin": "authorial",
       "prompt": "A negação de “Algum A é B” é",
       "options": [
-        {
-          "id": "A",
-          "text": "Algum A não é B."
-        },
-        {
-          "id": "B",
-          "text": "Nenhum A é B."
-        },
-        {
-          "id": "C",
-          "text": "Todo A é B."
-        },
-        {
-          "id": "D",
-          "text": "Nem todo B é A."
-        },
-        {
-          "id": "E",
-          "text": "Todo B é A."
-        }
+        {"id": "A", "text": "Algum A não é B."},
+        {"id": "B", "text": "Nenhum A é B."},
+        {"id": "C", "text": "Todo A é B."},
+        {"id": "D", "text": "Nem todo B é A."},
+        {"id": "E", "text": "Todo B é A."}
       ],
       "correctOptionId": "B",
       "explanation": "¬∃x(A∧B) afirma que não existe objeto simultaneamente A e B, isto é, nenhum A é B."
@@ -1028,26 +518,11 @@
       "origin": "authorial",
       "prompt": "Segundo o padrão formal cobrado em item oficial do CEBRASPE, a negação de “Todos são iguais perante a lei” deve afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "ninguém é igual perante a lei."
-        },
-        {
-          "id": "B",
-          "text": "todos são diferentes perante a lei."
-        },
-        {
-          "id": "C",
-          "text": "a frase original é simultaneamente verdadeira e falsa."
-        },
-        {
-          "id": "D",
-          "text": "existe ao menos um indivíduo que não é igual perante a lei."
-        },
-        {
-          "id": "E",
-          "text": "existe ao menos um indivíduo igual perante a lei."
-        }
+        {"id": "A", "text": "ninguém é igual perante a lei."},
+        {"id": "B", "text": "todos são diferentes perante a lei."},
+        {"id": "C", "text": "a frase original é simultaneamente verdadeira e falsa."},
+        {"id": "D", "text": "existe ao menos um indivíduo que não é igual perante a lei."},
+        {"id": "E", "text": "existe ao menos um indivíduo igual perante a lei."}
       ],
       "correctOptionId": "D",
       "explanation": "A matriz oficial exemplifica a regra ¬∀xP(x)≡∃x¬P(x): a negação de “todos” exige ao menos um contraexemplo, não uma universal negativa."
@@ -1058,26 +533,11 @@
       "origin": "authorial",
       "prompt": "Da premissa ∀x(A(x)→B(x)), sem outras premissas, segue necessariamente que",
       "options": [
-        {
-          "id": "A",
-          "text": "existe algum A."
-        },
-        {
-          "id": "B",
-          "text": "existe algum B."
-        },
-        {
-          "id": "C",
-          "text": "não existe objeto que seja A e não seja B."
-        },
-        {
-          "id": "D",
-          "text": "todo B é A."
-        },
-        {
-          "id": "E",
-          "text": "existe objeto que seja simultaneamente A e B."
-        }
+        {"id": "A", "text": "existe algum A."},
+        {"id": "B", "text": "existe algum B."},
+        {"id": "C", "text": "não existe objeto que seja A e não seja B."},
+        {"id": "D", "text": "todo B é A."},
+        {"id": "E", "text": "existe objeto que seja simultaneamente A e B."}
       ],
       "correctOptionId": "C",
       "explanation": "A universal proíbe contraexemplos A∧¬B, mas não garante existência de A ou B nem autoriza a recíproca."
@@ -1088,26 +548,11 @@
       "origin": "authorial",
       "prompt": "Na semântica com domínio global não vazio, ∀x P(x) implica ∃x P(x) porque",
       "options": [
-        {
-          "id": "A",
-          "text": "todo predicado possui extensão não vazia por definição."
-        },
-        {
-          "id": "B",
-          "text": "qualquer universal contém uma classe-sujeito oculta."
-        },
-        {
-          "id": "C",
-          "text": "se todo objeto tem P e há ao menos um objeto no domínio, algum objeto tem P."
-        },
-        {
-          "id": "D",
-          "text": "o existencial e o universal são o mesmo símbolo."
-        },
-        {
-          "id": "E",
-          "text": "a validade de P independe de qualquer interpretação."
-        }
+        {"id": "A", "text": "todo predicado possui extensão não vazia por definição."},
+        {"id": "B", "text": "qualquer universal contém uma classe-sujeito oculta."},
+        {"id": "C", "text": "se todo objeto tem P e há ao menos um objeto no domínio, algum objeto tem P."},
+        {"id": "D", "text": "o existencial e o universal são o mesmo símbolo."},
+        {"id": "E", "text": "a validade de P independe de qualquer interpretação."}
       ],
       "correctOptionId": "C",
       "explanation": "Se o domínio contém ao menos um objeto e P vale para todos, então esse objeto satisfaz P, produzindo a existência."
@@ -1118,26 +563,11 @@
       "origin": "authorial",
       "prompt": "Qual afirmação descreve corretamente a convenção adotada?",
       "options": [
-        {
-          "id": "A",
-          "text": "O domínio global pode ser vazio, mas toda classe-sujeito deve existir."
-        },
-        {
-          "id": "B",
-          "text": "O domínio e todas as extensões de predicados devem ser não vazios."
-        },
-        {
-          "id": "C",
-          "text": "A lógica dispensa domínio e interpreta apenas fórmulas como V ou F."
-        },
-        {
-          "id": "D",
-          "text": "O domínio global é não vazio, mas a extensão de um predicado como A pode ser vazia."
-        },
-        {
-          "id": "E",
-          "text": "O domínio deve ser infinito, embora os predicados possam ser vazios."
-        }
+        {"id": "A", "text": "O domínio global pode ser vazio, mas toda classe-sujeito deve existir."},
+        {"id": "B", "text": "O domínio e todas as extensões de predicados devem ser não vazios."},
+        {"id": "C", "text": "A lógica dispensa domínio e interpreta apenas fórmulas como V ou F."},
+        {"id": "D", "text": "O domínio global é não vazio, mas a extensão de um predicado como A pode ser vazia."},
+        {"id": "E", "text": "O domínio deve ser infinito, embora os predicados possam ser vazios."}
       ],
       "correctOptionId": "D",
       "explanation": "A semântica clássica usual exige U não vazio, mas um predicado pode ter extensão vazia dentro desse domínio."
@@ -1148,26 +578,11 @@
       "origin": "authorial",
       "prompt": "Considere U={u} e A interpretado como conjunto vazio. A sentença ∀x(A(x)→B(x)) é",
       "options": [
-        {
-          "id": "A",
-          "text": "falsa, pois toda universal cria um A."
-        },
-        {
-          "id": "B",
-          "text": "verdadeira, qualquer que seja B, pois não há contraexemplo A."
-        },
-        {
-          "id": "C",
-          "text": "sem valor lógico, porque U deveria ser vazio."
-        },
-        {
-          "id": "D",
-          "text": "equivalente a ∃x A(x)."
-        },
-        {
-          "id": "E",
-          "text": "verdadeira somente se B também tiver extensão vazia."
-        }
+        {"id": "A", "text": "falsa, pois toda universal cria um A."},
+        {"id": "B", "text": "verdadeira, qualquer que seja B, pois não há contraexemplo A."},
+        {"id": "C", "text": "sem valor lógico, porque U deveria ser vazio."},
+        {"id": "D", "text": "equivalente a ∃x A(x)."},
+        {"id": "E", "text": "verdadeira somente se B também tiver extensão vazia."}
       ],
       "correctOptionId": "B",
       "explanation": "Como A(u) é falsa, A(u)→B(u) é verdadeira; não existe contraexemplo A∧¬B."
@@ -1178,26 +593,11 @@
       "origin": "authorial",
       "prompt": "A negação de “Nenhum A é B” é",
       "options": [
-        {
-          "id": "A",
-          "text": "Algum A é B."
-        },
-        {
-          "id": "B",
-          "text": "Todo A é B."
-        },
-        {
-          "id": "C",
-          "text": "Algum A não é B."
-        },
-        {
-          "id": "D",
-          "text": "Nenhum B é A."
-        },
-        {
-          "id": "E",
-          "text": "Todo A não é B."
-        }
+        {"id": "A", "text": "Algum A é B."},
+        {"id": "B", "text": "Todo A é B."},
+        {"id": "C", "text": "Algum A não é B."},
+        {"id": "D", "text": "Nenhum B é A."},
+        {"id": "E", "text": "Todo A não é B."}
       ],
       "correctOptionId": "A",
       "explanation": "“Nenhum A é B” equivale a ¬∃x(A∧B); sua negação afirma a existência de um objeto na interseção."
@@ -1208,26 +608,11 @@
       "origin": "authorial",
       "prompt": "A fórmula ∀x∃y R(x,y) afirma que",
       "options": [
-        {
-          "id": "A",
-          "text": "existe um único y relacionado com todos os x."
-        },
-        {
-          "id": "B",
-          "text": "para cada x existe algum y, que pode variar conforme x."
-        },
-        {
-          "id": "C",
-          "text": "cada y relaciona-se com todos os x."
-        },
-        {
-          "id": "D",
-          "text": "nenhum x se relaciona com qualquer y."
-        },
-        {
-          "id": "E",
-          "text": "existe exatamente um par ordenado que satisfaz R."
-        }
+        {"id": "A", "text": "existe um único y relacionado com todos os x."},
+        {"id": "B", "text": "para cada x existe algum y, que pode variar conforme x."},
+        {"id": "C", "text": "cada y relaciona-se com todos os x."},
+        {"id": "D", "text": "nenhum x se relaciona com qualquer y."},
+        {"id": "E", "text": "existe exatamente um par ordenado que satisfaz R."}
       ],
       "correctOptionId": "B",
       "explanation": "O universal escolhe cada x e, dentro de seu escopo, o existencial fornece algum y, que pode depender de x."
@@ -1238,26 +623,11 @@
       "origin": "authorial",
       "prompt": "A fórmula ∃y∀x R(x,y) exige",
       "options": [
-        {
-          "id": "A",
-          "text": "um mesmo y relacionado com todo x."
-        },
-        {
-          "id": "B",
-          "text": "um y diferente para cada x."
-        },
-        {
-          "id": "C",
-          "text": "que R seja predicado unário."
-        },
-        {
-          "id": "D",
-          "text": "que todos os objetos sejam idênticos."
-        },
-        {
-          "id": "E",
-          "text": "que exista um x relacionado com todos os y."
-        }
+        {"id": "A", "text": "um mesmo y relacionado com todo x."},
+        {"id": "B", "text": "um y diferente para cada x."},
+        {"id": "C", "text": "que R seja predicado unário."},
+        {"id": "D", "text": "que todos os objetos sejam idênticos."},
+        {"id": "E", "text": "que exista um x relacionado com todos os y."}
       ],
       "correctOptionId": "A",
       "explanation": "O existencial externo fixa um testemunho y e o universal interno exige R(x,y) para cada x."
@@ -1268,26 +638,11 @@
       "origin": "authorial",
       "prompt": "No domínio não vazio, qual relação geral vale entre ∃y∀xR(x,y) e ∀x∃yR(x,y)?",
       "options": [
-        {
-          "id": "A",
-          "text": "São sempre equivalentes."
-        },
-        {
-          "id": "B",
-          "text": "A segunda implica a primeira, mas nunca o contrário."
-        },
-        {
-          "id": "C",
-          "text": "A primeira implica a segunda, mas a recíproca pode falhar."
-        },
-        {
-          "id": "D",
-          "text": "Nenhuma pode ser verdadeira."
-        },
-        {
-          "id": "E",
-          "text": "A primeira e a segunda são sempre contraditórias."
-        }
+        {"id": "A", "text": "São sempre equivalentes."},
+        {"id": "B", "text": "A segunda implica a primeira, mas nunca o contrário."},
+        {"id": "C", "text": "A primeira implica a segunda, mas a recíproca pode falhar."},
+        {"id": "D", "text": "Nenhuma pode ser verdadeira."},
+        {"id": "E", "text": "A primeira e a segunda são sempre contraditórias."}
       ],
       "correctOptionId": "C",
       "explanation": "Se um mesmo y funciona para todos os x, então cada x possui algum y. A recíproca pode falhar porque os testemunhos da segunda fórmula podem variar."
@@ -1298,26 +653,11 @@
       "origin": "authorial",
       "prompt": "Por que ∀x∃y R(x,y) e ∃y∀x R(x,y) não são equivalentes em geral?",
       "options": [
-        {
-          "id": "A",
-          "text": "Porque quantificadores não podem ocorrer juntos."
-        },
-        {
-          "id": "B",
-          "text": "Porque R precisaria ser sempre falso na primeira."
-        },
-        {
-          "id": "C",
-          "text": "Porque o domínio teria de ser vazio na segunda."
-        },
-        {
-          "id": "D",
-          "text": "Porque a primeira permite testemunhos y diferentes, enquanto a segunda exige um comum."
-        },
-        {
-          "id": "E",
-          "text": "Porque o universal só pode aparecer depois do existencial."
-        }
+        {"id": "A", "text": "Porque quantificadores não podem ocorrer juntos."},
+        {"id": "B", "text": "Porque R precisaria ser sempre falso na primeira."},
+        {"id": "C", "text": "Porque o domínio teria de ser vazio na segunda."},
+        {"id": "D", "text": "Porque a primeira permite testemunhos y diferentes, enquanto a segunda exige um comum."},
+        {"id": "E", "text": "Porque o universal só pode aparecer depois do existencial."}
       ],
       "correctOptionId": "D",
       "explanation": "A ordem determina a dependência do testemunho: ∀∃ permite que y varie; ∃∀ exige um único y para todos."
@@ -1328,26 +668,11 @@
       "origin": "authorial",
       "prompt": "Qual troca de quantificadores preserva a equivalência?",
       "options": [
-        {
-          "id": "A",
-          "text": "∀x∃y R(x,y) por ∃y∀x R(x,y)."
-        },
-        {
-          "id": "B",
-          "text": "∃x∀y R(x,y) por ∀y∃x ¬R(x,y)."
-        },
-        {
-          "id": "C",
-          "text": "∀x∃y R(x,y) por ∃x∀y R(x,y)."
-        },
-        {
-          "id": "D",
-          "text": "∀x∀y R(x,y) por ∀y∀x R(x,y)."
-        },
-        {
-          "id": "E",
-          "text": "∃x∀y R(x,y) por ∀x∃y R(x,y)."
-        }
+        {"id": "A", "text": "∀x∃y R(x,y) por ∃y∀x R(x,y)."},
+        {"id": "B", "text": "∃x∀y R(x,y) por ∀y∃x ¬R(x,y)."},
+        {"id": "C", "text": "∀x∃y R(x,y) por ∃x∀y R(x,y)."},
+        {"id": "D", "text": "∀x∀y R(x,y) por ∀y∀x R(x,y)."},
+        {"id": "E", "text": "∃x∀y R(x,y) por ∀x∃y R(x,y)."}
       ],
       "correctOptionId": "D",
       "explanation": "Quantificadores consecutivos do mesmo tipo podem trocar de ordem; quantificadores mistos não comutam em geral."
@@ -1358,26 +683,11 @@
       "origin": "authorial",
       "prompt": "A fórmula (∃xP(x))∧(∃xQ(x)) não implica ∃x(P(x)∧Q(x)) porque",
       "options": [
-        {
-          "id": "A",
-          "text": "P e Q não podem coexistir na mesma linguagem."
-        },
-        {
-          "id": "B",
-          "text": "duas existenciais sempre se anulam."
-        },
-        {
-          "id": "C",
-          "text": "os testemunhos de P e Q podem ser objetos diferentes."
-        },
-        {
-          "id": "D",
-          "text": "a conjunção transforma o domínio em vazio."
-        },
-        {
-          "id": "E",
-          "text": "a conclusão exige que P e Q sejam válidos em todas as interpretações."
-        }
+        {"id": "A", "text": "P e Q não podem coexistir na mesma linguagem."},
+        {"id": "B", "text": "duas existenciais sempre se anulam."},
+        {"id": "C", "text": "os testemunhos de P e Q podem ser objetos diferentes."},
+        {"id": "D", "text": "a conjunção transforma o domínio em vazio."},
+        {"id": "E", "text": "a conclusão exige que P e Q sejam válidos em todas as interpretações."}
       ],
       "correctOptionId": "C",
       "explanation": "Cada existencial pode ser satisfeita por objeto diferente; a conclusão exige um mesmo objeto com P e Q."
@@ -1388,26 +698,11 @@
       "origin": "authorial",
       "prompt": "Qual equivalência distributiva é válida?",
       "options": [
-        {
-          "id": "A",
-          "text": "∀x(P(x)∧Q(x)) ≡ (∀xP(x))∧(∀xQ(x))."
-        },
-        {
-          "id": "B",
-          "text": "∃x(P(x)∧Q(x)) ≡ (∃xP(x))∧(∃xQ(x))."
-        },
-        {
-          "id": "C",
-          "text": "∀x(P(x)∨Q(x)) ≡ (∀xP(x))∨(∀xQ(x))."
-        },
-        {
-          "id": "D",
-          "text": "∀xP(x) ≡ ∃xP(x) sem qualquer condição."
-        },
-        {
-          "id": "E",
-          "text": "∃x(P(x)∧Q(x)) ≡ (∀xP(x))∧(∀xQ(x))."
-        }
+        {"id": "A", "text": "∀x(P(x)∧Q(x)) ≡ (∀xP(x))∧(∀xQ(x))."},
+        {"id": "B", "text": "∃x(P(x)∧Q(x)) ≡ (∃xP(x))∧(∃xQ(x))."},
+        {"id": "C", "text": "∀x(P(x)∨Q(x)) ≡ (∀xP(x))∨(∀xQ(x))."},
+        {"id": "D", "text": "∀xP(x) ≡ ∃xP(x) sem qualquer condição."},
+        {"id": "E", "text": "∃x(P(x)∧Q(x)) ≡ (∀xP(x))∧(∀xQ(x))."}
       ],
       "correctOptionId": "A",
       "explanation": "Todo objeto satisfazer P∧Q equivale a todo objeto satisfazer P e todo objeto satisfazer Q."
@@ -1418,26 +713,11 @@
       "origin": "authorial",
       "prompt": "Qual equivalência com o existencial e a disjunção é válida?",
       "options": [
-        {
-          "id": "A",
-          "text": "∃x(P(x)∨Q(x)) ≡ (∀xP(x))∨(∀xQ(x))."
-        },
-        {
-          "id": "B",
-          "text": "∃x(P(x)∨Q(x)) ≡ (∃xP(x))∨(∃xQ(x))."
-        },
-        {
-          "id": "C",
-          "text": "∃x(P(x)∨Q(x)) ≡ (∃xP(x))∧(∃xQ(x))."
-        },
-        {
-          "id": "D",
-          "text": "∃x(P(x)∨Q(x)) ≡ ∀x(P(x)∧Q(x))."
-        },
-        {
-          "id": "E",
-          "text": "∃x(P(x)∨Q(x)) ≡ (∀xP(x))∧(∀xQ(x))."
-        }
+        {"id": "A", "text": "∃x(P(x)∨Q(x)) ≡ (∀xP(x))∨(∀xQ(x))."},
+        {"id": "B", "text": "∃x(P(x)∨Q(x)) ≡ (∃xP(x))∨(∃xQ(x))."},
+        {"id": "C", "text": "∃x(P(x)∨Q(x)) ≡ (∃xP(x))∧(∃xQ(x))."},
+        {"id": "D", "text": "∃x(P(x)∨Q(x)) ≡ ∀x(P(x)∧Q(x))."},
+        {"id": "E", "text": "∃x(P(x)∨Q(x)) ≡ (∀xP(x))∧(∀xQ(x))."}
       ],
       "correctOptionId": "B",
       "explanation": "Existir objeto que satisfaça P ou Q equivale a existir objeto com P ou existir objeto com Q."
@@ -1448,26 +728,11 @@
       "origin": "authorial",
       "prompt": "Se φ é uma sentença, dizer que I⊨φ significa que",
       "options": [
-        {
-          "id": "A",
-          "text": "a interpretação I satisfaz a sentença φ."
-        },
-        {
-          "id": "B",
-          "text": "φ é válida em todas as interpretações possíveis."
-        },
-        {
-          "id": "C",
-          "text": "I é uma fórmula derivada de φ."
-        },
-        {
-          "id": "D",
-          "text": "φ não possui modelo."
-        },
-        {
-          "id": "E",
-          "text": "φ é falsa em I, mas verdadeira em algum outro modelo."
-        }
+        {"id": "A", "text": "a interpretação I satisfaz a sentença φ."},
+        {"id": "B", "text": "φ é válida em todas as interpretações possíveis."},
+        {"id": "C", "text": "I é uma fórmula derivada de φ."},
+        {"id": "D", "text": "φ não possui modelo."},
+        {"id": "E", "text": "φ é falsa em I, mas verdadeira em algum outro modelo."}
       ],
       "correctOptionId": "A",
       "explanation": "I⊨φ afirma verdade da sentença φ em uma interpretação específica I; validade exige verdade em todas as interpretações."
@@ -1478,26 +743,11 @@
       "origin": "authorial",
       "prompt": "A fórmula ∃x P(x), considerada sem premissas sobre P, é",
       "options": [
-        {
-          "id": "A",
-          "text": "válida, pois todo predicado tem membro."
-        },
-        {
-          "id": "B",
-          "text": "insatisfatível, pois existenciais são contraditórias."
-        },
-        {
-          "id": "C",
-          "text": "satisfatível, mas não válida."
-        },
-        {
-          "id": "D",
-          "text": "simultaneamente válida e insatisfatível."
-        },
-        {
-          "id": "E",
-          "text": "válida apenas porque o domínio é não vazio."
-        }
+        {"id": "A", "text": "válida, pois todo predicado tem membro."},
+        {"id": "B", "text": "insatisfatível, pois existenciais são contraditórias."},
+        {"id": "C", "text": "satisfatível, mas não válida."},
+        {"id": "D", "text": "simultaneamente válida e insatisfatível."},
+        {"id": "E", "text": "válida apenas porque o domínio é não vazio."}
       ],
       "correctOptionId": "C",
       "explanation": "Há interpretações em que P possui membro e outras em que sua extensão é vazia; logo a fórmula é satisfatível, mas não válida."
@@ -1508,26 +758,11 @@
       "origin": "authorial",
       "prompt": "A fórmula ∃x(P(x)∧¬P(x)) é",
       "options": [
-        {
-          "id": "A",
-          "text": "válida por terceiro excluído."
-        },
-        {
-          "id": "B",
-          "text": "satisfatível apenas em domínio unitário."
-        },
-        {
-          "id": "C",
-          "text": "equivalente a ∃xP(x)."
-        },
-        {
-          "id": "D",
-          "text": "insatisfatível."
-        },
-        {
-          "id": "E",
-          "text": "satisfatível sempre que P tiver extensão não vazia."
-        }
+        {"id": "A", "text": "válida por terceiro excluído."},
+        {"id": "B", "text": "satisfatível apenas em domínio unitário."},
+        {"id": "C", "text": "equivalente a ∃xP(x)."},
+        {"id": "D", "text": "insatisfatível."},
+        {"id": "E", "text": "satisfatível sempre que P tiver extensão não vazia."}
       ],
       "correctOptionId": "D",
       "explanation": "Nenhum objeto pode satisfazer simultaneamente P e ¬P na lógica clássica; não existe interpretação que satisfaça a fórmula."
@@ -1538,26 +773,11 @@
       "origin": "authorial",
       "prompt": "Qual fórmula é válida na lógica clássica?",
       "options": [
-        {
-          "id": "A",
-          "text": "∃x P(x)."
-        },
-        {
-          "id": "B",
-          "text": "∀x(P(x)∨¬P(x))."
-        },
-        {
-          "id": "C",
-          "text": "∀x P(x)."
-        },
-        {
-          "id": "D",
-          "text": "∃x(P(x)∧¬P(x))."
-        },
-        {
-          "id": "E",
-          "text": "∀x(P(x)∧¬P(x))."
-        }
+        {"id": "A", "text": "∃x P(x)."},
+        {"id": "B", "text": "∀x(P(x)∨¬P(x))."},
+        {"id": "C", "text": "∀x P(x)."},
+        {"id": "D", "text": "∃x(P(x)∧¬P(x))."},
+        {"id": "E", "text": "∀x(P(x)∧¬P(x))."}
       ],
       "correctOptionId": "B",
       "explanation": "Para cada objeto, P ou ¬P vale pelo terceiro excluído; as demais fórmulas dependem da interpretação ou são contraditórias."
@@ -1568,26 +788,11 @@
       "origin": "authorial",
       "prompt": "A relação Γ⊨φ afirma que",
       "options": [
-        {
-          "id": "A",
-          "text": "φ possui a mesma quantidade de símbolos que Γ."
-        },
-        {
-          "id": "B",
-          "text": "toda interpretação e atribuição que satisfazem Γ também satisfazem φ."
-        },
-        {
-          "id": "C",
-          "text": "alguma interpretação e atribuição satisfazem Γ e falsificam φ."
-        },
-        {
-          "id": "D",
-          "text": "Γ e φ são termos que designam o mesmo objeto."
-        },
-        {
-          "id": "E",
-          "text": "φ é consequência de Γ apenas em uma interpretação previamente escolhida."
-        }
+        {"id": "A", "text": "φ possui a mesma quantidade de símbolos que Γ."},
+        {"id": "B", "text": "toda interpretação e atribuição que satisfazem Γ também satisfazem φ."},
+        {"id": "C", "text": "alguma interpretação e atribuição satisfazem Γ e falsificam φ."},
+        {"id": "D", "text": "Γ e φ são termos que designam o mesmo objeto."},
+        {"id": "E", "text": "φ é consequência de Γ apenas em uma interpretação previamente escolhida."}
       ],
       "correctOptionId": "B",
       "explanation": "Consequência lógica exige preservação da verdade em toda interpretação admissível que satisfaça as premissas."
@@ -1598,26 +803,11 @@
       "origin": "authorial",
       "prompt": "Para refutar que uma conclusão é consequência lógica das premissas, basta construir",
       "options": [
-        {
-          "id": "A",
-          "text": "uma interpretação em que alguma premissa seja falsa."
-        },
-        {
-          "id": "B",
-          "text": "uma fórmula com mais quantificadores que a conclusão."
-        },
-        {
-          "id": "C",
-          "text": "um modelo em que premissas e conclusão sejam todas verdadeiras."
-        },
-        {
-          "id": "D",
-          "text": "um contramodelo com premissas verdadeiras e conclusão falsa."
-        },
-        {
-          "id": "E",
-          "text": "uma interpretação em que premissas e conclusão sejam todas falsas."
-        }
+        {"id": "A", "text": "uma interpretação em que alguma premissa seja falsa."},
+        {"id": "B", "text": "uma fórmula com mais quantificadores que a conclusão."},
+        {"id": "C", "text": "um modelo em que premissas e conclusão sejam todas verdadeiras."},
+        {"id": "D", "text": "um contramodelo com premissas verdadeiras e conclusão falsa."},
+        {"id": "E", "text": "uma interpretação em que premissas e conclusão sejam todas falsas."}
       ],
       "correctOptionId": "D",
       "explanation": "Um único contramodelo, com premissas verdadeiras e conclusão falsa, mostra que a consequência não vale."
@@ -1628,26 +818,11 @@
       "origin": "authorial",
       "prompt": "Da premissa ∀x P(x), qual conclusão é obtida por instanciação universal adequada?",
       "options": [
-        {
-          "id": "A",
-          "text": "P(a), para termo a livre para x na fórmula."
-        },
-        {
-          "id": "B",
-          "text": "¬P(a)."
-        },
-        {
-          "id": "C",
-          "text": "∃P P(x)."
-        },
-        {
-          "id": "D",
-          "text": "∀P P(a)."
-        },
-        {
-          "id": "E",
-          "text": "P(a) apenas se a for o único objeto do domínio."
-        }
+        {"id": "A", "text": "P(a), para termo a livre para x na fórmula."},
+        {"id": "B", "text": "¬P(a)."},
+        {"id": "C", "text": "∃P P(x)."},
+        {"id": "D", "text": "∀P P(a)."},
+        {"id": "E", "text": "P(a) apenas se a for o único objeto do domínio."}
       ],
       "correctOptionId": "A",
       "explanation": "Se P vale para todo objeto, vale para o objeto designado por qualquer termo adequado, como a."
@@ -1658,26 +833,11 @@
       "origin": "authorial",
       "prompt": "De P(a), pode-se concluir legitimamente",
       "options": [
-        {
-          "id": "A",
-          "text": "∀x P(x), sem qualquer outra condição."
-        },
-        {
-          "id": "B",
-          "text": "∀x ¬P(x)."
-        },
-        {
-          "id": "C",
-          "text": "∃x P(x)."
-        },
-        {
-          "id": "D",
-          "text": "P(b) para toda constante b."
-        },
-        {
-          "id": "E",
-          "text": "¬∃x P(x)."
-        }
+        {"id": "A", "text": "∀x P(x), sem qualquer outra condição."},
+        {"id": "B", "text": "∀x ¬P(x)."},
+        {"id": "C", "text": "∃x P(x)."},
+        {"id": "D", "text": "P(b) para toda constante b."},
+        {"id": "E", "text": "¬∃x P(x)."}
       ],
       "correctOptionId": "C",
       "explanation": "Se o objeto designado por a possui P, então existe ao menos um objeto com P; isso é generalização existencial."
@@ -1688,26 +848,11 @@
       "origin": "authorial",
       "prompt": "De ∃x P(x), sem informação adicional, não se pode concluir P(a) para uma constante a já usada porque",
       "options": [
-        {
-          "id": "A",
-          "text": "existenciais não possuem testemunho."
-        },
-        {
-          "id": "B",
-          "text": "o testemunho de P pode ser objeto diferente daquele nomeado por a."
-        },
-        {
-          "id": "C",
-          "text": "P(a) seria um termo, não uma fórmula."
-        },
-        {
-          "id": "D",
-          "text": "a constante a necessariamente está fora do domínio."
-        },
-        {
-          "id": "E",
-          "text": "todo testemunho existencial precisa ser único."
-        }
+        {"id": "A", "text": "existenciais não possuem testemunho."},
+        {"id": "B", "text": "o testemunho de P pode ser objeto diferente daquele nomeado por a."},
+        {"id": "C", "text": "P(a) seria um termo, não uma fórmula."},
+        {"id": "D", "text": "a constante a necessariamente está fora do domínio."},
+        {"id": "E", "text": "todo testemunho existencial precisa ser único."}
       ],
       "correctOptionId": "B",
       "explanation": "A existencial garante algum objeto com P, mas não o identifica com uma constante preexistente."
@@ -1718,26 +863,11 @@
       "origin": "authorial",
       "prompt": "Para uma generalização universal correta a partir de P(a), é essencial que",
       "options": [
-        {
-          "id": "A",
-          "text": "a represente um objeto arbitrário, sem hipótese particular indevida."
-        },
-        {
-          "id": "B",
-          "text": "a seja o testemunho específico de uma premissa existencial."
-        },
-        {
-          "id": "C",
-          "text": "P(a) seja falsa."
-        },
-        {
-          "id": "D",
-          "text": "o domínio possua exatamente um objeto."
-        },
-        {
-          "id": "E",
-          "text": "a seja uma constante que nomeie todos os objetos simultaneamente."
-        }
+        {"id": "A", "text": "a represente um objeto arbitrário, sem hipótese particular indevida."},
+        {"id": "B", "text": "a seja o testemunho específico de uma premissa existencial."},
+        {"id": "C", "text": "P(a) seja falsa."},
+        {"id": "D", "text": "o domínio possua exatamente um objeto."},
+        {"id": "E", "text": "a seja uma constante que nomeie todos os objetos simultaneamente."}
       ],
       "correctOptionId": "A",
       "explanation": "A conclusão universal só é justificada quando o raciocínio vale para um objeto arbitrário e não depende de particularidades dele."
@@ -1748,26 +878,11 @@
       "origin": "authorial",
       "prompt": "Das premissas a=b e P(a), segue",
       "options": [
-        {
-          "id": "A",
-          "text": "a≠b."
-        },
-        {
-          "id": "B",
-          "text": "∀x P(x)."
-        },
-        {
-          "id": "C",
-          "text": "P(b), pela substituição de idênticos."
-        },
-        {
-          "id": "D",
-          "text": "¬P(b)."
-        },
-        {
-          "id": "E",
-          "text": "∃x ¬P(x)."
-        }
+        {"id": "A", "text": "a≠b."},
+        {"id": "B", "text": "∀x P(x)."},
+        {"id": "C", "text": "P(b), pela substituição de idênticos."},
+        {"id": "D", "text": "¬P(b)."},
+        {"id": "E", "text": "∃x ¬P(x)."}
       ],
       "correctOptionId": "C",
       "explanation": "Se a e b designam o mesmo objeto, uma propriedade verdadeira sob o nome a também vale sob o nome b."
@@ -1778,29 +893,26 @@
       "origin": "authorial",
       "prompt": "Na fórmula ∃x(P(x)∧∀y(P(y)→y=x)), a parte universal interna garante que",
       "options": [
-        {
-          "id": "A",
-          "text": "todo objeto do domínio possui P."
-        },
-        {
-          "id": "B",
-          "text": "existem ao menos dois objetos com P."
-        },
-        {
-          "id": "C",
-          "text": "nenhum objeto possui P."
-        },
-        {
-          "id": "D",
-          "text": "qualquer objeto com P é idêntico ao testemunho x, assegurando unicidade."
-        },
-        {
-          "id": "E",
-          "text": "todo objeto do domínio é idêntico a x, mesmo sem possuir P."
-        }
+        {"id": "A", "text": "todo objeto do domínio possui P."},
+        {"id": "B", "text": "existem ao menos dois objetos com P."},
+        {"id": "C", "text": "nenhum objeto possui P."},
+        {"id": "D", "text": "qualquer objeto com P é idêntico ao testemunho x, assegurando unicidade."},
+        {"id": "E", "text": "todo objeto do domínio é idêntico a x, mesmo sem possuir P."}
       ],
       "correctOptionId": "D",
       "explanation": "O existencial fornece um x com P; a universal interna diz que qualquer y com P coincide com x, garantindo unicidade."
+    },
+    {
+      "id": "q2026082804",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No que se refere a lógica de primeira ordem e lógica de argumentação, julgue os seguintes itens.\n\nConsidere o conjunto universo dos deputados e os predicados a seguir:\np(x): x é favorável à matéria.\nq(x): x vota favorável.\nNesse caso, a frase “Existe deputado que não é favorável à matéria e sua votação não é favorável.” pode ser escrita, em representação simbólica, como ∃ x ¬(p(x) → q(x)).",
+      "options": [
+        {"id": "C", "text": "Certo"},
+        {"id": "E", "text": "Errado"}
+      ],
+      "correctOptionId": "E",
+      "explanation": "A frase exige ∃x(¬p(x) ∧ ¬q(x)); já ¬(p(x) → q(x)) equivale a p(x) ∧ ¬q(x). Logo, a representação proposta não corresponde à frase e o item é errado. Fonte: questão oficial; Cebraspe; Câmara dos Deputados — Técnico Legislativo, Especialidade Policial Legislativo Federal; 2026; item 42; https://cdn.cebraspe.org.br/concursos/cd_26_pl/arquivos/6BA6C911910A9996895927100E426BD4733C0601F6E27F998FD96D420A356EDC.pdf. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/CD_26_PL/arquivos/8F0511C4502CAC8A5705D0E0CEFA75BF710D19558FF34EB0A66FAD449B8863AC.pdf."
     }
   ]
 }
