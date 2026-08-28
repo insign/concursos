@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q4059",
@@ -1831,6 +1831,36 @@
       ],
       "correctOptionId": "B",
       "explanation": "PPT/PPTX são formatos de apresentação editável; PPS/PPSX iniciam a exibição de slides. Abrir em apresentação não equivale a configurar todas as regras de quiosque. Fonte: questão adaptada de FGV; COMPESA; Assistente de Saneamento e Gestão — Técnico em Segurança do Trabalho; 2016; questão 21; prova https://conhecimento.fgv.br/sites/default/files/concursos/compesa2016/201605_Assistente_de_Saneamento_e_Gestao_%28Tecnico_em_Seguranca_do_Trabalho%29_%28NM002%29_Tipo_1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/compesa2016/compesa_gabarito_definitivo_RETIFICADO.pdf; adaptação: enunciado e alternativas condensados, preservando a distinção entre arquivo de edição e arquivo que abre em apresentação."
+    },
+    {
+      "id": "a023-fgv-camara-2023-q53",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No contexto do PowerPoint, assinale o propósito do recurso SmartArt, disponível na guia Inserir.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Criar animações e transições."
+        },
+        {
+          "id": "B",
+          "text": "Inserir áudio, vídeo e narrações."
+        },
+        {
+          "id": "C",
+          "text": "Inserir elementos gráficos para comunicação visual, organogramas e diagramas."
+        },
+        {
+          "id": "D",
+          "text": "Inserir formas prontas, fluxogramas e textos explicativos."
+        },
+        {
+          "id": "E",
+          "text": "Inserir gráficos para ilustrar, comparar e analisar tendências em conjuntos de dados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "SmartArt insere elementos gráficos voltados à comunicação visual, incluindo organogramas e diagramas. Fonte oficial: FGV; Câmara dos Deputados; Analista Legislativo — Assistente Social; Concurso Público 2023, Edital 2 (manhã); Tipo 4 (Roxa); questão 53; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns201-analista-legislativo-assistente-socialcns201-tipo-4-manha.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-2-manha.pdf; gabarito C."
     }
   ]
 }

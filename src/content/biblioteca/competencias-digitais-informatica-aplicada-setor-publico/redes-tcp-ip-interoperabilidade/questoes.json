@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q4119",
@@ -2191,6 +2191,36 @@
       ],
       "correctOptionId": "D",
       "explanation": "ARP resolve IPv4 em endereço de enlace para comunicação local. Fonte: questão adaptada de FGV; ALEMA; Técnico de Gestão Administrativa — Analista de Suporte de Rede; 2023; questão 55; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns106-tecnico-de-gestao-administrativa-analista-de-suporte-de-redecns106-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf; adaptação: enunciado condensado, alternativas semanticamente preservadas."
+    },
+    {
+      "id": "a024-fgv-tjap-2024-q48",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Os protocolos DNS, HTTPS, DHCP e SSH utilizam, respectivamente, as portas:",
+      "options": [
+        {
+          "id": "A",
+          "text": "22, 80, 53 e 21;"
+        },
+        {
+          "id": "B",
+          "text": "67, 80, 22 e 443;"
+        },
+        {
+          "id": "C",
+          "text": "53, 443, 67 e 22;"
+        },
+        {
+          "id": "D",
+          "text": "443, 53, 143 e 67;"
+        },
+        {
+          "id": "E",
+          "text": "79, 80, 67 e 21."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na associação cobrada, DNS usa a porta 53; HTTPS, 443; DHCP, 67 (porta do servidor); e SSH, 22. Fonte oficial: FGV; Tribunal de Justiça do Estado do Amapá (TJAP); Analista Judiciário — Área Apoio Especializado — Tecnologia da Informação — Segurança da Informação; Edital 1/2023; prova aplicada em 24/03/2024; Tipo 1 (Branca); questão 48; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-judiciario-apoio-especializado-tecnologia-da-informacao-seguranca-da-informacaoseg-09-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/tjap2024_gabarito_definitivo.pdf; gabarito C."
     }
   ]
 }
