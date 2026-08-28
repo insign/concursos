@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q3879",
@@ -2341,6 +2341,66 @@
       ],
       "correctOptionId": "A",
       "explanation": "Os atalhos abrem nova janela do Explorador e o menu Iniciar, respectivamente. Fonte: questão adaptada de concurso real — Instituto Consulplan, Prefeitura de Venda Nova do Imigrante, Administrador, 2026, Q3955328; consulta: https://www.qconcursos.com/questoes-de-concursos/disciplinas/tecnologia-da-informacao-nocoes-de-informatica/teclas-de-atalho/questoes; adaptação: enunciado tornado autônomo e alternativas reescritas sem alterar o núcleo técnico."
+    },
+    {
+      "id": "q4419",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Por meio do Explorador de Arquivos do Windows 10, João pretendia arrastar uma pasta X, com todos os seus arquivos, para dentro da pasta Y. Porém, logo após a movimentação, João percebeu que tinha feito o movimento errado com o mouse, e arrastado a pasta X para dentro de outra pasta. Felizmente, João lembrou-se de um atalho de teclado e desfez a operação imediatamente.\n\nO atalho usado por João foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ctrl+S"
+        },
+        {
+          "id": "B",
+          "text": "Ctrl+Shift+D"
+        },
+        {
+          "id": "C",
+          "text": "Ctrl+U"
+        },
+        {
+          "id": "D",
+          "text": "Ctrl+Y"
+        },
+        {
+          "id": "E",
+          "text": "Ctrl+Z"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "No contexto apresentado, `Ctrl+Z` desfaz a operação de movimentação realizada por engano no Explorador de Arquivos. Questão original da FGV, Ministério Público do Estado de Goiás, Assistente de Informática, 2022, questão 34. Gabarito definitivo: E. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/assistente_de_informaticampgo-nm002_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/mpgo2022serv_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q4420",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Analise as afirmativas sobre a Lixeira do Windows 10.\n\nI. Os arquivos são deletados definitivamente após 30 dias de permanência na Lixeira.\nII. Arquivos deletados de um pen drive não são armazenados na Lixeira.\nIII. A Lixeira tem uma capacidade de armazenagem limitada, que pode ser estendida se necessário.\n\nEstá correto o que se afirma em",
+      "options": [
+        {
+          "id": "A",
+          "text": "I, somente."
+        },
+        {
+          "id": "B",
+          "text": "II, somente."
+        },
+        {
+          "id": "C",
+          "text": "III, somente."
+        },
+        {
+          "id": "D",
+          "text": "I e II, somente."
+        },
+        {
+          "id": "E",
+          "text": "II e III, somente."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A afirmativa I é falsa porque não há, no comportamento cobrado, exclusão definitiva obrigatória após exatamente 30 dias; II e III são verdadeiras, pois a exclusão em pen drive não passa pela Lixeira e a capacidade reservada à Lixeira é limitada e configurável. Questão original da FGV, Secretaria de Segurança Pública do Amazonas, Assistente Operacional, Concurso Público 2021, prova aplicada em 13/03/2022, Tipo 1 — Branca, questão 54. Gabarito definitivo: E. Prova: https://www.ssp.am.gov.br/wp-content/uploads/2025/08/28.-Prova-NIVEL-MEDIO-TIPO-1-%E2%80%93-BRANCA.pdf. Gabarito definitivo: https://www.ssp.am.gov.br/wp-content/uploads/2025/08/33.-Gabarito-Oficial-Definitivo-da-Prova-Objetiva.pdf."
     }
   ]
 }

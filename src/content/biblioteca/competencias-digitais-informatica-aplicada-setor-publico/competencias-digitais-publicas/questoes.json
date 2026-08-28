@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q3819",
@@ -2341,6 +2341,36 @@
       ],
       "correctOptionId": "A",
       "explanation": "Fact-checking é método ou modalidade de checagem; não substitui toda cobertura jornalística cotidiana. Fonte: questão adaptada de concurso real — Instituto Consulplan, Câmara de Belo Horizonte, Jornalista, 2024, Q3265361; consulta: https://questoes.grancursosonline.com.br/questoes-de-concursos/comunicacao-social-17/3265361."
+    },
+    {
+      "id": "q4389",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Certa startup brasileira desenvolveu uma aplicação de inteligência artificial para auxiliar a justiça federal na análise inicial de recursos jurídicos de baixo valor. O sistema opera como um agente inteligente que utiliza um extenso dataset de jurisprudências passadas para calcular a probabilidade de sucesso de novos recursos, com o objetivo de otimizar a triagem processual ao maximizar a taxa de acerto nas suas previsões. Em testes, a aplicação atingiu uma impressionante taxa de precisão de 98% na previsão de resultados. No entanto, uma auditoria de compliance ético revelou que o algoritmo apresentava um viés: os recursos originários de regiões com baixo índice de desenvolvimento humano (IDH) do Nordeste brasileiro eram sistematicamente classificados com menor probabilidade de sucesso, mesmo quando apresentavam mérito legal similar a casos de regiões mais desenvolvidas. A equipe técnica defendeu o sistema, alegando que ele era racional, pois maximizava consistentemente a métrica de acerto definida.\n\nConsiderando a natureza do sistema criado nessa situação hipotética e a distinção fundamental entre racionalidade e justiça em sistemas de IA, assinale a opção que apresenta corretamente a falha ética do sistema à luz dos conceitos básicos da inteligência artificial.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O viés regional é uma prova incontestável de que o sistema é um exemplo de inteligência artificial simbólica, pois somente essa arquitetura, baseada em regras pré-codificadas, é capaz de manifestar discriminação explícita, ao contrário dos modelos conectivistas (redes neurais)."
+        },
+        {
+          "id": "B",
+          "text": "A falha do sistema é uma evidência de que ele não pode ser classificado como um agente racional, pois, por definição, ele deve seguir a função de utilidade ideal de uma sociedade justa, o que exige que o sistema possua consciência e um senso moral."
+        },
+        {
+          "id": "C",
+          "text": "O sistema é um agente puramente reativo, e sua incapacidade de manter estados internos sobre a equidade do dataset é a causa direta do viés, o que demonstra a ineficácia dos sistemas de machine learning baseados em modelos."
+        },
+        {
+          "id": "D",
+          "text": "O sistema demonstra uma limitação da inteligência artificial forte, cuja alta taxa de acerto é incompatível com o viés, o que confirma que a singularidade tecnológica não será alcançada enquanto os sistemas de inteligência artificial não forem treinados apenas com dados totalmente neutros, sem histórico humano."
+        },
+        {
+          "id": "E",
+          "text": "A racionalidade técnica do sistema é mantida, pois ele maximiza sua função utilidade (taxa de acerto), mas o viés detectado reside na definição dessa utilidade ou na qualidade dos dados de treinamento, o que o caracteriza como um sistema racionalmente tendencioso, mas não irracional."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A alternativa E distingue racionalidade técnica de justiça: maximizar a função de utilidade definida não impede viés na própria definição da utilidade ou nos dados de treinamento. Questão original do Cebraspe, TCE/MG, Analista de Controle Externo — Especialidade Ciência da Computação, prova aplicada em 25/01/2026, questão 37. Gabarito definitivo: E. Prova: https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/C8E90765DF4F7D7B2FBCC7F3F1D8EC0DACC552563907792148F9160AB5706AC8.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/95B28874A5BBD4AC9DBC3AE82106DF08EC7177210B7AE7823A1A3DB37F84718A.pdf."
     }
   ]
 }
