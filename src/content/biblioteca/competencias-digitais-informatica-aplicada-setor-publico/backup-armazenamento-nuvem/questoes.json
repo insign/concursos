@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q4239",
@@ -1861,6 +1861,66 @@
       ],
       "correctOptionId": "E",
       "explanation": "O serviço pode receber cópias, mas sincronização isolada não garante política completa. Fonte: questão adaptada de CEBRASPE; Secretaria de Educação do Recife; Professor; 2023; item 45; prova https://cdn.cebraspe.org.br/concursos/seduc_recife_23_professor/arquivos/829_SEDUC_RECIFE_23_CB1_01.PDF; gabarito definitivo oficial: Certo; adaptação: item certo/errado convertido para cinco alternativas, preservando o núcleo e o gabarito."
+    },
+    {
+      "id": "q4301",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Josafá e Josias utilizam OneDrive no Microsoft 365 para melhorar o desempenho das atividades diárias no TJ-RS. Com o objetivo de treinar os colegas da repartição, eles decidiram estudar a documentação oficial do produto.\n\nDiante desse cenário, analise as afirmativas a seguir.\n\nI. O recurso Arquivos sob Demanda do OneDrive permite que Josafá e Josias visualizem, pesquisem e interajam com os arquivos armazenados no OneDrive a partir do Windows Explorer, sem a necessidade de transferi-los integralmente para os seus dispositivos.\nII. O OneDrive se integra ao Microsoft Outlook, permitindo o compartilhamento fácil de arquivos armazenados na nuvem como se fossem anexos de e-mail. Esse recurso fornece uma experiência familiar de compartilhamento para o usuário, ao mesmo tempo que centraliza o armazenamento dos anexos no OneDrive.\nIII. O recurso Restauração de Arquivos do OneDrive permite que Josafá e Josias restaurem arquivos a partir de qualquer ponto dos últimos 30 dias. Para selecionar o tempo de recuperação desejado, o OneDrive exibe um histograma de atividades, facilitando a identificação de qual tempo recuperado atende às suas necessidades.\n\nEstá correto o que se afirma em",
+      "options": [
+        {
+          "id": "A",
+          "text": "II, apenas."
+        },
+        {
+          "id": "B",
+          "text": "III, apenas."
+        },
+        {
+          "id": "C",
+          "text": "I e II, apenas."
+        },
+        {
+          "id": "D",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "E",
+          "text": "I, II e III."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "As três afirmativas estão corretas no contexto da prova: Arquivos sob Demanda possibilita acessar arquivos no Explorador sem baixá-los integralmente; o OneDrive integra o compartilhamento de arquivos com o Outlook; e a restauração permite retornar a um ponto dos últimos 30 dias com apoio do gráfico de atividades. Fonte: FGV; TJ-RS; Analista do Poder Judiciário – Área Administrativa; 2025; Tipo 3 (Amarela); questão 37; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-do-poder-judiciario-area-administrativa-cns101-tipo-3.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-edital-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q4302",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Na computação em nuvem, o processo que envolve replicar e fazer backup com segurança de dados e cargas de trabalhos críticos para locais secundários ou vários locais é denominado",
+      "options": [
+        {
+          "id": "A",
+          "text": "biblioteca de dados."
+        },
+        {
+          "id": "B",
+          "text": "alta disponibilidade."
+        },
+        {
+          "id": "C",
+          "text": "escalabilidade."
+        },
+        {
+          "id": "D",
+          "text": "recuperação de desastres."
+        },
+        {
+          "id": "E",
+          "text": "ponto único de falha."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A descrição corresponde à recuperação de desastres, que combina cópias ou replicação e locais secundários para possibilitar a retomada após eventos graves. Fonte: Cebraspe; CAGEPA; Técnico em Informática; 2024; questão 60; prova https://cdn.cebraspe.org.br/concursos/cagepa_24/arquivos/992_CAGEPA_023_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/cagepa_24/arquivos/GAB_DEFINITIVO_992_CAGEPA_023_01.PDF."
     }
   ]
 }

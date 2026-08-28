@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q4179",
@@ -1831,6 +1831,36 @@
       ],
       "correctOptionId": "A",
       "explanation": "SMTP é usado para submissão e transferência de mensagens; a porta TCP 25 é convencional na transferência entre servidores. Fonte: questão adaptada de FGV; Câmara Municipal do Recife; Analista de Sistemas; 2014; questão 50; prova https://conhecimento.fgv.br/sites/default/files/concursos/recife_analista_de_sistemas_ansis_tipo_1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/camararecife/recife_c_gabarito_definitivo.pdf; adaptação: redação modernizada sem alterar alternativas, núcleo ou gabarito."
+    },
+    {
+      "id": "q4240",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A ferramenta de comunicação colaborativa Microsoft Teams possui como característica",
+      "options": [
+        {
+          "id": "A",
+          "text": "o acesso dos administradores e das pessoas da equipe ao sítio do canal privado, ainda que eles não sejam membros do canal."
+        },
+        {
+          "id": "B",
+          "text": "o acesso externo para que usuários se comuniquem com usuários em outros domínios e organizações fora da sua organização por meio do chat."
+        },
+        {
+          "id": "C",
+          "text": "a edição de documentos no Google Docs diretamente dentro do aplicativo."
+        },
+        {
+          "id": "D",
+          "text": "a desativação da gravação de uma reunião pelos organizadores independentemente das políticas de administração."
+        },
+        {
+          "id": "E",
+          "text": "o deslocamento de um canal privado vinculado à equipe pai para uma equipe diferente, sem a necessidade de se criar outra conta para gerenciar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alternativa B descreve o acesso externo do Microsoft Teams, que permite comunicação por chat com usuários de outros domínios e organizações, conforme as configurações de acesso externo. Fonte: Cebraspe; CAGEPA; Técnico em Informática; 2024; questão 68; prova https://cdn.cebraspe.org.br/concursos/cagepa_24/arquivos/992_CAGEPA_023_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/cagepa_24/arquivos/GAB_DEFINITIVO_992_CAGEPA_023_01.PDF."
     }
   ]
 }
