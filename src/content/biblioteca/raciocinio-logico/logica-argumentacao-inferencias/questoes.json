@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q4899",
@@ -1051,6 +1051,36 @@
       ],
       "correctOptionId": "B",
       "explanation": "A análise começa pela estrutura e pela força da inferência. Depois se aplicam contraexemplo, avaliação indutiva ou teste de analogia conforme o caso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2026082801",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O tipo de argumento lógico utilizado em cada texto está incorretamente identificado em:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Segundo a Sociedade Chilena de Saúde Mental, a falta de competência em leitura se manifesta nas dificuldades de interpretação de texto e no baixo rendimento nos testes de linguagem. / critério de autoridade da Sociedade Chilena de Saúde Mental."
+        },
+        {
+          "id": "B",
+          "text": "A tristeza patológica, o abatimento, a irritabilidade ou a limitação da atividade vital e cognitiva são sintomas inequívocos de uma depressão. / raciocínio que se apoia em sintomas de algo em determinada situação."
+        },
+        {
+          "id": "C",
+          "text": "Estar de férias é um bom momento para refletir sobre a vida. / raciocínio por analogia, comparando dois elementos."
+        },
+        {
+          "id": "D",
+          "text": "O motorista não respeitou o sinal e acabou por atropelar um pedestre; os motoristas são irresponsáveis. / raciocínio por generalização."
+        },
+        {
+          "id": "E",
+          "text": "Os temporais no Rio Grande do Sul causaram muitos prejuízos, daí a necessidade de ajudar as populações locais. / raciocínio estabelecido na relação causa/consequência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C classifica como analogia uma frase que não estabelece comparação entre dois casos; as demais identificações correspondem ao tipo de apoio apresentado. Fonte: questão oficial; FGV; AGESAN-RS — Agente Administrativo, Tipo 1; 2025; questão 11; https://conhecimento.fgv.br/sites/default/files/concursos/agente-administrativocns001-tipo-1.pdf. Gabarito oficial definitivo retificado: https://conhecimento.fgv.br/sites/default/files/concursos/agesan_rs_gabarito-definitivo-retificado.pdf."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q4959",
@@ -871,6 +871,36 @@
       ],
       "correctOptionId": "D",
       "explanation": "O procedimento correto respeita completude e estrutura: letras distintas, 2^n atribuições, subfórmulas internas e leitura da coluna final. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2026082802",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A proposição lógica “se q ou t, então p e r e s” tem valor lógico verdadeiro.\nDado que o valor lógico de s é falso, conclui-se corretamente que",
+      "options": [
+        {
+          "id": "A",
+          "text": "p tem valor lógico falso e r tem valor lógico verdadeiro."
+        },
+        {
+          "id": "B",
+          "text": "p tem valor lógico verdadeiro e r tem valor lógico falso."
+        },
+        {
+          "id": "C",
+          "text": "q tem valor lógico falso e t tem valor lógico falso."
+        },
+        {
+          "id": "D",
+          "text": "q tem valor lógico falso e t tem valor lógico verdadeiro."
+        },
+        {
+          "id": "E",
+          "text": "q tem valor lógico verdadeiro e t tem valor lógico falso."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Como s é falsa, a conjunção p e r e s é falsa. Para que a condicional inteira permaneça verdadeira, seu antecedente q ou t deve ser falso; numa disjunção inclusiva, isso exige q=F e t=F. Fonte: questão oficial; FGV; Prefeitura Municipal de Nova Iguaçu — Analista Tributário do Tesouro Municipal, Tipo 2 (Verde); 2024; questão 16; https://conhecimento.fgv.br/sites/default/files/concursos/analista-tributario-do-tesouro-municipalcns02-tipo-2.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_semef.pdf."
     }
   ]
 }
