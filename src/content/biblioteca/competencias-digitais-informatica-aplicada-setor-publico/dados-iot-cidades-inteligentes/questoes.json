@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q4719",
@@ -1801,6 +1801,24 @@
       ],
       "correctOptionId": "A",
       "explanation": "A solução conecta medição, comunicação, análise e avaliação. Tecnologia apoia a política, sem eliminar incerteza, manutenção ou responsabilidade."
+    },
+    {
+      "id": "q4779",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Com referência à transformação digital, julgue o próximo item.\n\nA Internet das coisas (IoT) aumenta a quantidade e a complexidade dos dados por meio de novas formas e novas fontes de informações, influenciando diretamente em uma ou mais das características do big data, a exemplo de volume, velocidade e variedade.",
+      "options": [
+        {
+          "id": "certo",
+          "text": "Certo"
+        },
+        {
+          "id": "errado",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "certo",
+      "explanation": "Certo. A IoT cria novas fontes e fluxos de dados, podendo aumentar volume, velocidade e variedade. Fonte: questão oficial; Cebraspe; Polícia Rodoviária Federal — Policial Rodoviário Federal; 2021; item 36; prova https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/578_prf_001_01.pdf; gabarito definitivo https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/GAB_DEFINITIVO_578_PRF_001_01.PDF."
     }
   ]
 }
