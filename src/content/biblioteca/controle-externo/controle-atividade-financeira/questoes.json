@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "q5859",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O controle da atividade financeira do Estado alcança, em sentido compatível com a matriz constitucional,",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas pagamentos já efetuados pelo Tesouro."
+        },
+        {
+          "id": "B",
+          "text": "somente receitas tributárias e despesas de pessoal."
+        },
+        {
+          "id": "C",
+          "text": "recursos, orçamento, patrimônio e resultados submetidos às dimensões de fiscalização pertinentes."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente registros contábeis do exercício encerrado."
+        },
+        {
+          "id": "E",
+          "text": "apenas atos que já tenham sido julgados pelo tribunal de contas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A fiscalização financeira estatal não se limita ao pagamento. O art. 70 da Constituição abrange dimensões contábil, financeira, orçamentária, operacional e patrimonial."
+    },
+    {
+      "id": "q5860",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quanto às espécies de controle da atividade financeira segundo o momento de incidência, a classificação clássica distingue",
+      "options": [
+        {
+          "id": "A",
+          "text": "interno, externo e social."
+        },
+        {
+          "id": "B",
+          "text": "prévio, concomitante e posterior ou subsequente."
+        },
+        {
+          "id": "C",
+          "text": "contábil, financeiro e patrimonial apenas."
+        },
+        {
+          "id": "D",
+          "text": "legal, legítimo e econômico."
+        },
+        {
+          "id": "E",
+          "text": "legislativo, judicial e administrativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Prévio, concomitante e posterior/subsequente são espécies temporais. Interno e externo são sistemas; CFOOP são dimensões; legalidade, legitimidade e economicidade são parâmetros."
+    },
+    {
+      "id": "q5861",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na compra pública de um equipamento, a fiscalização pode examinar simultaneamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a dimensão financeira, porque houve pagamento."
+        },
+        {
+          "id": "B",
+          "text": "apenas orçamento e contabilidade, nunca patrimônio ou desempenho."
+        },
+        {
+          "id": "C",
+          "text": "dotação, pagamento, registro contábil, incorporação patrimonial e utilidade operacional."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente a entrega física, sem verificar autorização ou registro."
+        },
+        {
+          "id": "E",
+          "text": "uma única dimensão, porque as categorias do art. 70 são excludentes."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As cinco dimensões do art. 70 são focos analíticos e podem incidir simultaneamente sobre a mesma operação."
+    },
+    {
+      "id": "q5862",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No controle financeiro, a relação entre regularidade dos meios e resultados é corretamente expressa pela afirmação de que",
+      "options": [
+        {
+          "id": "A",
+          "text": "resultado positivo convalida qualquer ilegalidade."
+        },
+        {
+          "id": "B",
+          "text": "regularidade documental prova necessariamente efetividade."
+        },
+        {
+          "id": "C",
+          "text": "resultado insatisfatório demonstra sozinho desvio de recursos."
+        },
+        {
+          "id": "D",
+          "text": "legalidade e desempenho são eixos complementares, sem convalidação automática entre eles."
+        },
+        {
+          "id": "E",
+          "text": "somente o resultado operacional pode ser fiscalizado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Uma boa entrega não cura ilegalidade, e um resultado ruim não prova ilícito por si só. A fiscalização combina parâmetros de regularidade e desempenho conforme a competência."
+    },
+    {
+      "id": "q5863",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Nos termos do art. 70 da Constituição, são dimensões da fiscalização",
+      "options": [
+        {
+          "id": "A",
+          "text": "contábil, financeira, orçamentária, operacional e patrimonial."
+        },
+        {
+          "id": "B",
+          "text": "legalidade, legitimidade, economicidade, eficácia e sanção."
+        },
+        {
+          "id": "C",
+          "text": "subvenção, renúncia, denúncia, auditoria e inspeção."
+        },
+        {
+          "id": "D",
+          "text": "interno, externo, prévio, concomitante e posterior."
+        },
+        {
+          "id": "E",
+          "text": "receita, despesa, multa, recurso e parecer."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O conjunto CFOOP corresponde às cinco dimensões expressamente previstas no art. 70."
+    },
+    {
+      "id": "q5864",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Legalidade, legitimidade e economicidade, no art. 70 da Constituição, funcionam como",
+      "options": [
+        {
+          "id": "A",
+          "text": "órgãos responsáveis pela fiscalização."
+        },
+        {
+          "id": "B",
+          "text": "parâmetros de avaliação."
+        },
+        {
+          "id": "C",
+          "text": "momentos obrigatórios do controle."
+        },
+        {
+          "id": "D",
+          "text": "espécies de prestação de contas."
+        },
+        {
+          "id": "E",
+          "text": "dimensões equivalentes à fiscalização contábil."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Legalidade, legitimidade e economicidade são critérios ou parâmetros pelos quais os objetos fiscalizados são avaliados."
+    },
+    {
+      "id": "q5865",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Além das dimensões e dos parâmetros, o art. 70 da Constituição menciona expressamente como matérias submetidas à fiscalização",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas dívida pública e operações de crédito."
+        },
+        {
+          "id": "B",
+          "text": "somente atos de admissão e aposentadoria."
+        },
+        {
+          "id": "C",
+          "text": "aplicação das subvenções e renúncia de receitas."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente licitações e contratos."
+        },
+        {
+          "id": "E",
+          "text": "apenas transferências entre entes federativos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 70 destaca expressamente aplicação das subvenções e renúncia de receitas. Elas são matérias fiscalizadas, não dimensões ou sistemas."
+    },
+    {
+      "id": "q5866",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A fiscalização federal prevista no art. 70 da Constituição é exercida",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente pelo Poder Judiciário."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente pelo sistema de controle interno do Executivo."
+        },
+        {
+          "id": "C",
+          "text": "apenas pelo TCU, sem participação do Legislativo."
+        },
+        {
+          "id": "D",
+          "text": "pelo Congresso Nacional, mediante controle externo, e pelo sistema de controle interno de cada Poder."
+        },
+        {
+          "id": "E",
+          "text": "apenas por órgãos de controle social."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Constituição combina controle externo a cargo do Congresso Nacional com sistemas de controle interno de cada Poder."
+    },
+    {
+      "id": "q5867",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma associação privada que utilize ou administre recursos públicos",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode estar sujeita à prestação de contas quanto a esses recursos."
+        },
+        {
+          "id": "B",
+          "text": "fica imune ao controle por não integrar a Administração."
+        },
+        {
+          "id": "C",
+          "text": "transforma-se automaticamente em autarquia."
+        },
+        {
+          "id": "D",
+          "text": "só presta contas se tiver finalidade lucrativa."
+        },
+        {
+          "id": "E",
+          "text": "somente presta contas após condenação judicial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 70, parágrafo único, alcança pessoas físicas ou jurídicas, públicas ou privadas, conforme seu vínculo material com dinheiros, bens, valores ou obrigações públicas."
+    },
+    {
+      "id": "q5868",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para o dever de prestar contas do art. 70, parágrafo único, o critério decisivo é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ocupação obrigatória de cargo efetivo."
+        },
+        {
+          "id": "B",
+          "text": "o vínculo material com dinheiro, bem, valor ou obrigação pública."
+        },
+        {
+          "id": "C",
+          "text": "a personalidade jurídica exclusivamente estatal."
+        },
+        {
+          "id": "D",
+          "text": "a existência de condenação judicial prévia."
+        },
+        {
+          "id": "E",
+          "text": "a submissão hierárquica ao Poder Executivo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O dever constitucional decorre da relação material com recursos, bens, valores ou obrigações públicas, e não apenas da natureza estatal do responsável."
+    },
+    {
+      "id": "q5869",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre os sistemas de controle da atividade financeira e a participação social, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Controle social substitui os sistemas interno e externo."
+        },
+        {
+          "id": "B",
+          "text": "Os arts. 70 e 74 estruturam controle externo e sistema de controle interno; a participação social atua de modo complementar."
+        },
+        {
+          "id": "C",
+          "text": "Controle social é o único sistema constitucional de fiscalização."
+        },
+        {
+          "id": "D",
+          "text": "Controle interno é modalidade de controle social."
+        },
+        {
+          "id": "E",
+          "text": "Controle externo depende sempre de denúncia de cidadão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A arquitetura constitucional central contrapõe controle externo e sistemas de controle interno. A participação social acompanha e provoca, mas não é um terceiro sistema equivalente."
+    },
+    {
+      "id": "q5870",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O controle social da atividade financeira permite ao cidadão, nos termos do ordenamento,",
+      "options": [
+        {
+          "id": "A",
+          "text": "anular diretamente atos administrativos."
+        },
+        {
+          "id": "B",
+          "text": "julgar contas e aplicar multa."
+        },
+        {
+          "id": "C",
+          "text": "acompanhar informações e provocar os órgãos competentes, sem receber por isso poder sancionador."
+        },
+        {
+          "id": "D",
+          "text": "substituir o Congresso Nacional no controle externo."
+        },
+        {
+          "id": "E",
+          "text": "exercer jurisdição sobre gestores."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Controle social produz escrutínio, participação e provocação. Decisões coercitivas permanecem com os órgãos constitucional ou legalmente competentes."
+    },
+    {
+      "id": "q5871",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma unidade interna fiscaliza, durante a execução, a economicidade de determinada despesa. Essa atuação pode ser classificada simultaneamente como",
+      "options": [
+        {
+          "id": "A",
+          "text": "interna, concomitante e orientada pela economicidade."
+        },
+        {
+          "id": "B",
+          "text": "externa, posterior e patrimonial apenas."
+        },
+        {
+          "id": "C",
+          "text": "judicial, preventiva e contábil."
+        },
+        {
+          "id": "D",
+          "text": "social, posterior e de legitimidade apenas."
+        },
+        {
+          "id": "E",
+          "text": "externa porque toda fiscalização econômica é externa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Posição institucional, momento e parâmetro são eixos distintos e podem ser cumulados."
+    },
+    {
+      "id": "q5872",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Controle externo financeiro e controle judicial",
+      "options": [
+        {
+          "id": "A",
+          "text": "são expressões sempre sinônimas."
+        },
+        {
+          "id": "B",
+          "text": "não se confundem: o controle externo dos arts. 70 e 71 possui arquitetura constitucional própria."
+        },
+        {
+          "id": "C",
+          "text": "são necessariamente posteriores."
+        },
+        {
+          "id": "D",
+          "text": "são exercidos exclusivamente pelo TCU."
+        },
+        {
+          "id": "E",
+          "text": "dependem sempre de exaurimento administrativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O controle externo financeiro tem sentido constitucional específico, a cargo do Legislativo com auxílio do tribunal de contas. Controle judicial pertence a outro regime."
+    },
+    {
+      "id": "q5873",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quanto à iniciativa, uma fiscalização pode ser classificada como",
+      "options": [
+        {
+          "id": "A",
+          "text": "contábil ou patrimonial."
+        },
+        {
+          "id": "B",
+          "text": "prévia ou posterior."
+        },
+        {
+          "id": "C",
+          "text": "de ofício ou provocada."
+        },
+        {
+          "id": "D",
+          "text": "legal ou econômica."
+        },
+        {
+          "id": "E",
+          "text": "interna ou operacional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A iniciativa pergunta como o controle começou. Objeto, momento, parâmetro e sistema pertencem a outros eixos classificatórios."
+    },
+    {
+      "id": "q5874",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A afirmação 'todo controle externo é posterior' é",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta, porque externo e posterior são sinônimos."
+        },
+        {
+          "id": "B",
+          "text": "incorreta, porque sistema e momento são critérios distintos."
+        },
+        {
+          "id": "C",
+          "text": "correta apenas para o TCU."
+        },
+        {
+          "id": "D",
+          "text": "correta porque o art. 77 veda atuação concomitante."
+        },
+        {
+          "id": "E",
+          "text": "incorreta apenas quando houver controle social."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Interno/externo classificam o sistema ou posição; prévio/concomitante/posterior classificam o momento. Um eixo não determina automaticamente o outro."
+    },
+    {
+      "id": "q5875",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "É exemplo de controle prévio",
+      "options": [
+        {
+          "id": "A",
+          "text": "verificar requisitos antes da prática do ato ou de seus efeitos."
+        },
+        {
+          "id": "B",
+          "text": "acompanhar a execução enquanto ocorre."
+        },
+        {
+          "id": "C",
+          "text": "examinar contas após o encerramento."
+        },
+        {
+          "id": "D",
+          "text": "verificar o cumprimento de determinação já expedida."
+        },
+        {
+          "id": "E",
+          "text": "julgar definitivamente contas anuais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Controle prévio antecede o ato ou seus efeitos e busca prevenir ou reduzir riscos antes da consumação."
+    },
+    {
+      "id": "q5876",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A conferência realizada durante a execução de determinada atividade caracteriza, quanto ao momento, controle",
+      "options": [
+        {
+          "id": "A",
+          "text": "posterior."
+        },
+        {
+          "id": "B",
+          "text": "concomitante."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente externo."
+        },
+        {
+          "id": "D",
+          "text": "judicial."
+        },
+        {
+          "id": "E",
+          "text": "subsequente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Concomitante é o controle que acompanha a atividade enquanto ela está em execução."
+    },
+    {
+      "id": "q5877",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O exame de contas e resultados depois de concluída a atividade constitui exemplo típico de controle",
+      "options": [
+        {
+          "id": "A",
+          "text": "prévio."
+        },
+        {
+          "id": "B",
+          "text": "concomitante."
+        },
+        {
+          "id": "C",
+          "text": "posterior ou subsequente."
+        },
+        {
+          "id": "D",
+          "text": "hierárquico."
+        },
+        {
+          "id": "E",
+          "text": "preventivo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O controle posterior/subsequente incide depois da prática do ato ou da produção dos resultados."
+    },
+    {
+      "id": "q5878",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Segundo o art. 77 da Lei nº 4.320/1964, será prévia, concomitante e subsequente a verificação",
+      "options": [
+        {
+          "id": "A",
+          "text": "de qualquer política pública, sem recorte."
+        },
+        {
+          "id": "B",
+          "text": "apenas da efetividade social."
+        },
+        {
+          "id": "C",
+          "text": "da composição dos tribunais de contas."
+        },
+        {
+          "id": "D",
+          "text": "da legalidade dos atos de execução orçamentária."
+        },
+        {
+          "id": "E",
+          "text": "da conveniência política de toda despesa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Essa é a formulação específica do art. 77: verificação da legalidade dos atos de execução orçamentária nos três momentos."
+    },
+    {
+      "id": "q5879",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No plano federal, a titularidade do controle externo é do",
+      "options": [
+        {
+          "id": "A",
+          "text": "Congresso Nacional."
+        },
+        {
+          "id": "B",
+          "text": "Tribunal de Contas da União isoladamente."
+        },
+        {
+          "id": "C",
+          "text": "Supremo Tribunal Federal."
+        },
+        {
+          "id": "D",
+          "text": "sistema de controle interno do Executivo."
+        },
+        {
+          "id": "E",
+          "text": "Ministério Público Federal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 71 estabelece que o controle externo, a cargo do Congresso Nacional, é exercido com o auxílio do TCU."
+    },
+    {
+      "id": "q5880",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O auxílio prestado pelo TCU ao Congresso Nacional",
+      "options": [
+        {
+          "id": "A",
+          "text": "transforma o Tribunal em departamento hierarquicamente subordinado."
+        },
+        {
+          "id": "B",
+          "text": "preserva competências constitucionais próprias e não implica subordinação hierárquica."
+        },
+        {
+          "id": "C",
+          "text": "transfere toda a titularidade do controle externo ao Tribunal."
+        },
+        {
+          "id": "D",
+          "text": "elimina os sistemas de controle interno."
+        },
+        {
+          "id": "E",
+          "text": "transforma o TCU em órgão do Poder Judiciário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Auxílio descreve a arquitetura constitucional do controle externo; o TCU possui competências próprias e não é subordinado hierarquicamente ao Congresso."
+    },
+    {
+      "id": "q5881",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Os tribunais de contas",
+      "options": [
+        {
+          "id": "A",
+          "text": "integram o Poder Judiciário por utilizarem a palavra tribunal."
+        },
+        {
+          "id": "B",
+          "text": "produzem coisa julgada judicial em toda decisão."
+        },
+        {
+          "id": "C",
+          "text": "não integram o Poder Judiciário e exercem competências próprias no sistema de controle externo."
+        },
+        {
+          "id": "D",
+          "text": "são unidades de auditoria interna do Executivo."
+        },
+        {
+          "id": "E",
+          "text": "dependem de autorização judicial para toda fiscalização."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Tribunais de contas são órgãos constitucionais de controle, não órgãos judiciais. O detalhamento institucional fica para o assunto seguinte."
+    },
+    {
+      "id": "q5882",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O sistema de controle interno",
+      "options": [
+        {
+          "id": "A",
+          "text": "resume-se à unidade formal de auditoria."
+        },
+        {
+          "id": "B",
+          "text": "exclui controles realizados pela própria gestão."
+        },
+        {
+          "id": "C",
+          "text": "só atua depois do encerramento do exercício."
+        },
+        {
+          "id": "D",
+          "text": "é mais amplo que uma unidade especializada e integra responsabilidades de controle da própria estrutura estatal."
+        },
+        {
+          "id": "E",
+          "text": "substitui o controle externo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O sistema interno compreende mecanismos e responsabilidades existentes na estrutura dos Poderes e não se reduz a uma única unidade de auditoria."
+    },
+    {
+      "id": "q5883",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Entre as finalidades do sistema de controle interno previstas no art. 74 está",
+      "options": [
+        {
+          "id": "A",
+          "text": "avaliar o cumprimento das metas do PPA, a execução dos programas de governo e dos orçamentos."
+        },
+        {
+          "id": "B",
+          "text": "julgar definitivamente toda conta do Executivo."
+        },
+        {
+          "id": "C",
+          "text": "substituir o controle externo."
+        },
+        {
+          "id": "D",
+          "text": "exercer jurisdição sobre gestores."
+        },
+        {
+          "id": "E",
+          "text": "editar a lei orçamentária anual."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O inciso I do art. 74 reúne avaliação das metas do PPA, dos programas de governo e dos orçamentos."
+    },
+    {
+      "id": "q5884",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O art. 74, II, da Constituição combina",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas exame contábil e aplicação automática de sanção."
+        },
+        {
+          "id": "B",
+          "text": "comprovação da legalidade e avaliação de eficácia e eficiência da gestão orçamentária, financeira e patrimonial."
+        },
+        {
+          "id": "C",
+          "text": "controle judicial e revogação por conveniência."
+        },
+        {
+          "id": "D",
+          "text": "somente fiscalização de entidades públicas, excluídas as privadas."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente análise de endividamento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O inciso II exige comprovação da legalidade e avaliação dos resultados quanto à eficácia e eficiência, inclusive sobre recursos públicos aplicados por entidades privadas."
+    },
+    {
+      "id": "q5885",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O controle de operações de crédito, avais, garantias, direitos e haveres é finalidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclusiva do controle social."
+        },
+        {
+          "id": "B",
+          "text": "alheia à atividade financeira."
+        },
+        {
+          "id": "C",
+          "text": "do sistema de controle interno, conforme o art. 74, III."
+        },
+        {
+          "id": "D",
+          "text": "reservada ao Poder Judiciário."
+        },
+        {
+          "id": "E",
+          "text": "exclusiva do Congresso sem apoio interno."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O inciso III do art. 74 inclui expressamente operações de crédito, avais, garantias, direitos e haveres."
+    },
+    {
+      "id": "q5886",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Nos termos do art. 74, IV, o sistema de controle interno deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "subordinar-se hierarquicamente ao tribunal de contas."
+        },
+        {
+          "id": "B",
+          "text": "transferir toda sua competência ao Legislativo."
+        },
+        {
+          "id": "C",
+          "text": "aguardar sempre provocação externa."
+        },
+        {
+          "id": "D",
+          "text": "apoiar o controle externo no exercício de sua missão institucional."
+        },
+        {
+          "id": "E",
+          "text": "julgar as contas anuais do chefe do Executivo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Apoiar o controle externo é a quarta finalidade constitucional do sistema interno; apoio não significa subordinação ou perda de competência."
+    },
+    {
+      "id": "q5887",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Os responsáveis pelo controle interno, ao tomarem conhecimento de irregularidade ou ilegalidade, devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "dar ciência ao TCU, sob pena de responsabilidade solidária pela omissão, nos termos do art. 74, § 1º."
+        },
+        {
+          "id": "B",
+          "text": "aguardar o encerramento do exercício para agir."
+        },
+        {
+          "id": "C",
+          "text": "comunicar somente depois de condenação judicial."
+        },
+        {
+          "id": "D",
+          "text": "aplicar pena criminal diretamente."
+        },
+        {
+          "id": "E",
+          "text": "arquivar o fato se ainda houver providência administrativa possível."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 74, § 1º, impõe o dever de ciência ao TCU e prevê responsabilidade solidária diante da omissão dos responsáveis pelo controle interno."
+    },
+    {
+      "id": "q5888",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A ciência ao tribunal de contas prevista no art. 74, § 1º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "dispensa qualquer correção dentro do órgão."
+        },
+        {
+          "id": "B",
+          "text": "convive com as providências internas necessárias para conter, corrigir ou apurar a falha."
+        },
+        {
+          "id": "C",
+          "text": "transforma o controle interno em órgão externo."
+        },
+        {
+          "id": "D",
+          "text": "só pode ocorrer por ordem judicial."
+        },
+        {
+          "id": "E",
+          "text": "substitui automaticamente a prestação de contas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Comunicar o controle externo não elimina o dever de atuação interna sobre a irregularidade ou ilegalidade conhecida."
+    },
+    {
+      "id": "q5889",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Segundo o art. 74, § 2º, podem denunciar irregularidades ou ilegalidades perante o TCU, na forma da lei,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente membros do Congresso."
+        },
+        {
+          "id": "B",
+          "text": "apenas servidores efetivos."
+        },
+        {
+          "id": "C",
+          "text": "cidadão, partido político, associação ou sindicato."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente o Ministério Público."
+        },
+        {
+          "id": "E",
+          "text": "somente pessoas jurídicas de direito público."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Constituição enumera cidadão, partido político, associação e sindicato como legitimados para denunciar ao TCU."
+    },
+    {
+      "id": "q5890",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A denúncia prevista no art. 74, § 2º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "transfere ao denunciante competência para aplicar multa."
+        },
+        {
+          "id": "B",
+          "text": "autoriza o cidadão a anular diretamente o ato."
+        },
+        {
+          "id": "C",
+          "text": "substitui o sistema de controle interno."
+        },
+        {
+          "id": "D",
+          "text": "provoca o órgão competente, sem transferir ao denunciante poder decisório ou sancionador."
+        },
+        {
+          "id": "E",
+          "text": "produz coisa julgada judicial."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A denúncia é mecanismo de provocação e participação; a decisão permanece com o órgão competente."
+    },
+    {
+      "id": "q5891",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A fiscalização contábil concentra-se predominantemente em",
+      "options": [
+        {
+          "id": "A",
+          "text": "registros, demonstrações e evidenciação dos fatos."
+        },
+        {
+          "id": "B",
+          "text": "somente impacto social de políticas."
+        },
+        {
+          "id": "C",
+          "text": "apenas conveniência política do gasto."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente guarda física de bens."
+        },
+        {
+          "id": "E",
+          "text": "apenas operações de crédito."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A dimensão contábil examina reconhecimento, registro e apresentação das informações contábeis."
+    },
+    {
+      "id": "q5892",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Entradas, saídas, disponibilidades, crédito e dívida constituem foco predominante da fiscalização",
+      "options": [
+        {
+          "id": "A",
+          "text": "patrimonial."
+        },
+        {
+          "id": "B",
+          "text": "financeira."
+        },
+        {
+          "id": "C",
+          "text": "jurisdicional."
+        },
+        {
+          "id": "D",
+          "text": "disciplinar."
+        },
+        {
+          "id": "E",
+          "text": "operacional exclusivamente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A dimensão financeira acompanha fluxos e posições de recursos, inclusive disponibilidades, crédito e dívida."
+    },
+    {
+      "id": "q5893",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O confronto entre planejamento, autorização e execução do orçamento pertence predominantemente à fiscalização",
+      "options": [
+        {
+          "id": "A",
+          "text": "contábil."
+        },
+        {
+          "id": "B",
+          "text": "financeira."
+        },
+        {
+          "id": "C",
+          "text": "orçamentária."
+        },
+        {
+          "id": "D",
+          "text": "patrimonial."
+        },
+        {
+          "id": "E",
+          "text": "judicial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A dimensão orçamentária examina planejamento, autorização legislativa e execução do orçamento."
+    },
+    {
+      "id": "q5894",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A fiscalização operacional examina principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a existência de nota de empenho."
+        },
+        {
+          "id": "B",
+          "text": "apenas a propriedade formal de imóveis."
+        },
+        {
+          "id": "C",
+          "text": "processos, desempenho, produtos e resultados."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente a competência do ordenador."
+        },
+        {
+          "id": "E",
+          "text": "apenas registros contábeis."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A dimensão operacional dirige-se ao funcionamento, ao desempenho e aos resultados das organizações, programas e ações."
+    },
+    {
+      "id": "q5895",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A fiscalização patrimonial concentra-se predominantemente em",
+      "options": [
+        {
+          "id": "A",
+          "text": "bens, direitos, obrigações, guarda e variações patrimoniais."
+        },
+        {
+          "id": "B",
+          "text": "somente metas do PPA."
+        },
+        {
+          "id": "C",
+          "text": "apenas arrecadação tributária."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente decisões judiciais."
+        },
+        {
+          "id": "E",
+          "text": "apenas legitimidade do gasto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A dimensão patrimonial examina bens, direitos e obrigações e sua adequada gestão e registro."
+    },
+    {
+      "id": "q5896",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre as cinco dimensões do art. 70, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "cada operação só pode pertencer a uma dimensão."
+        },
+        {
+          "id": "B",
+          "text": "a dimensão operacional exclui qualquer análise financeira."
+        },
+        {
+          "id": "C",
+          "text": "registro contábil regular impede fiscalização patrimonial."
+        },
+        {
+          "id": "D",
+          "text": "elas podem incidir simultaneamente sobre uma mesma operação."
+        },
+        {
+          "id": "E",
+          "text": "uma vez escolhida a dimensão orçamentária, as demais ficam vedadas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "CFOOP representa focos analíticos que podem se sobrepor no exame de uma mesma operação."
+    },
+    {
+      "id": "q5897",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O parâmetro da legalidade verifica",
+      "options": [
+        {
+          "id": "A",
+          "text": "conformidade com o ordenamento aplicável."
+        },
+        {
+          "id": "B",
+          "text": "apenas se o preço é o menor possível."
+        },
+        {
+          "id": "C",
+          "text": "somente impacto social de longo prazo."
+        },
+        {
+          "id": "D",
+          "text": "preferência pessoal do controlador."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente satisfação política do beneficiário."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Legalidade examina a conformidade jurídica da atuação, inclusive competência, procedimento e requisitos normativos."
+    },
+    {
+      "id": "q5898",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Legitimidade, como parâmetro de fiscalização, relaciona-se à",
+      "options": [
+        {
+          "id": "A",
+          "text": "dispensa de base jurídica quando houver boa intenção."
+        },
+        {
+          "id": "B",
+          "text": "aderência à finalidade pública e aos princípios que justificam a competência."
+        },
+        {
+          "id": "C",
+          "text": "escolha automática do menor preço."
+        },
+        {
+          "id": "D",
+          "text": "substituição de toda decisão do gestor pelo controlador."
+        },
+        {
+          "id": "E",
+          "text": "exclusão do exame de legalidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Legitimidade amplia o exame para finalidade pública e princípios, sem eliminar a legalidade nem autorizar preferência pessoal do controlador."
+    },
+    {
+      "id": "q5899",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Economicidade significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "comprar sempre pelo menor preço nominal."
+        },
+        {
+          "id": "B",
+          "text": "reduzir qualidade a qualquer custo."
+        },
+        {
+          "id": "C",
+          "text": "avaliar a relação racional entre custos, meios, qualidade e benefícios."
+        },
+        {
+          "id": "D",
+          "text": "verificar apenas se a meta quantitativa foi cumprida."
+        },
+        {
+          "id": "E",
+          "text": "aplicar automaticamente sanção quando houver preço superior ao menor encontrado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Economicidade não se reduz ao menor preço; considera adequação dos meios e custos à finalidade e à qualidade necessária."
+    },
+    {
+      "id": "q5900",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O art. 75, I, da Lei nº 4.320/1964 inclui no controle da execução orçamentária",
+      "options": [
+        {
+          "id": "A",
+          "text": "a legalidade dos atos que resultem arrecadação da receita, realização da despesa e nascimento ou extinção de direitos e obrigações."
+        },
+        {
+          "id": "B",
+          "text": "somente a guarda física de bens."
+        },
+        {
+          "id": "C",
+          "text": "apenas impacto social das políticas."
+        },
+        {
+          "id": "D",
+          "text": "a composição do tribunal de contas."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente a avaliação de efetividade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O inciso I do art. 75 trata da legalidade dos atos relacionados à receita, despesa, direitos e obrigações."
+    },
+    {
+      "id": "q5901",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A fidelidade funcional dos agentes responsáveis por bens e valores públicos aparece",
+      "options": [
+        {
+          "id": "A",
+          "text": "como momento posterior do art. 77."
+        },
+        {
+          "id": "B",
+          "text": "como um dos três focos do art. 75 da Lei nº 4.320/1964."
+        },
+        {
+          "id": "C",
+          "text": "como forma de renúncia fiscal."
+        },
+        {
+          "id": "D",
+          "text": "somente na Lei nº 14.133/2021."
+        },
+        {
+          "id": "E",
+          "text": "como competência exclusiva do Poder Judiciário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 75, II, trata da fidelidade funcional. Não se deve confundir esse foco com os momentos do art. 77."
+    },
+    {
+      "id": "q5902",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O cumprimento do programa de trabalho, segundo o art. 75, III, da Lei nº 4.320/1964, é examinado",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente pelo saldo bancário final."
+        },
+        {
+          "id": "B",
+          "text": "apenas por documentos contábeis."
+        },
+        {
+          "id": "C",
+          "text": "em termos monetários e de realização de obras e prestação de serviços."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente depois de decisão judicial."
+        },
+        {
+          "id": "E",
+          "text": "apenas quanto ao menor preço."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O inciso III relaciona execução monetária com realização de obras e prestação de serviços."
+    },
+    {
+      "id": "q5903",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A distinção correta entre os arts. 75 e 77 da Lei nº 4.320/1964 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos enumeram apenas órgãos de controle."
+        },
+        {
+          "id": "B",
+          "text": "o art. 75 enumera três momentos e o art. 77 três focos."
+        },
+        {
+          "id": "C",
+          "text": "o art. 75 traz focos do controle da execução orçamentária, enquanto o art. 77 fixa os momentos da verificação de legalidade."
+        },
+        {
+          "id": "D",
+          "text": "ambos tratam exclusivamente de composição dos tribunais de contas."
+        },
+        {
+          "id": "E",
+          "text": "o art. 77 revoga os controles do art. 75."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pegadinha central: art. 75 = três focos; art. 77 = verificação prévia, concomitante e subsequente da legalidade da execução orçamentária."
+    },
+    {
+      "id": "q5904",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Nos termos do art. 76 da Lei nº 4.320/1964,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o Poder Executivo exerce os controles do art. 75, sem prejuízo das atribuições do tribunal de contas ou órgão equivalente."
+        },
+        {
+          "id": "B",
+          "text": "o Executivo fica dispensado de controle interno quando existe tribunal de contas."
+        },
+        {
+          "id": "C",
+          "text": "somente o Legislativo controla a execução orçamentária."
+        },
+        {
+          "id": "D",
+          "text": "o Judiciário substitui o Executivo na fiscalização."
+        },
+        {
+          "id": "E",
+          "text": "o tribunal de contas passa a integrar hierarquicamente o Executivo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 76 atribui ao Executivo os controles do art. 75 sem prejuízo das atribuições do tribunal de contas ou órgão equivalente."
+    },
+    {
+      "id": "q5905",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "De acordo com o art. 78 da Lei nº 4.320/1964, além das contas anuais ou por fim de gestão,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é proibido qualquer exame durante o exercício."
+        },
+        {
+          "id": "B",
+          "text": "somente o Judiciário pode exigir contas."
+        },
+        {
+          "id": "C",
+          "text": "a tomada de contas depende sempre do encerramento definitivo."
+        },
+        {
+          "id": "D",
+          "text": "pode haver levantamento, prestação ou tomada de contas a qualquer tempo."
+        },
+        {
+          "id": "E",
+          "text": "o controle fica limitado ao momento posterior."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 78 permite levantamento, prestação ou tomada de contas a qualquer tempo, além das hipóteses anuais ou de fim de gestão."
+    },
+    {
+      "id": "q5906",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O art. 79 da Lei nº 4.320/1964 relaciona-se ao controle",
+      "options": [
+        {
+          "id": "A",
+          "text": "do cumprimento do programa de trabalho pelo órgão de elaboração da proposta orçamentária ou outro indicado."
+        },
+        {
+          "id": "B",
+          "text": "da composição do TCU."
+        },
+        {
+          "id": "C",
+          "text": "da defesa técnica em processo disciplinar."
+        },
+        {
+          "id": "D",
+          "text": "da jurisdição judicial sobre o orçamento."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente das operações de crédito externas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 79 disciplina o controle do cumprimento do programa de trabalho pelo órgão responsável pela proposta orçamentária ou outro indicado."
+    },
+    {
+      "id": "q5907",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O art. 80 da Lei nº 4.320/1964 atribui aos serviços de contabilidade ou órgãos equivalentes a verificação",
+      "options": [
+        {
+          "id": "A",
+          "text": "da constitucionalidade abstrata das leis."
+        },
+        {
+          "id": "B",
+          "text": "dos limites das cotas atribuídas às unidades orçamentárias."
+        },
+        {
+          "id": "C",
+          "text": "da composição dos tribunais de contas."
+        },
+        {
+          "id": "D",
+          "text": "da conveniência política do orçamento."
+        },
+        {
+          "id": "E",
+          "text": "da validade de decisões judiciais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 80 trata da verificação dos limites das cotas atribuídas às unidades orçamentárias."
+    },
+    {
+      "id": "q5908",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Segundo o art. 81 da Lei nº 4.320/1964, o controle da execução orçamentária pelo Poder Legislativo tem por objetivo verificar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas eficácia e efetividade."
+        },
+        {
+          "id": "B",
+          "text": "somente o saldo financeiro."
+        },
+        {
+          "id": "C",
+          "text": "probidade da Administração, guarda e legal emprego dos dinheiros públicos e cumprimento da Lei de Orçamento."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente a composição do tribunal de contas."
+        },
+        {
+          "id": "E",
+          "text": "apenas atos de pessoal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 81 enumera probidade, guarda e legal emprego dos dinheiros públicos e cumprimento da Lei de Orçamento."
+    },
+    {
+      "id": "q5909",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O art. 82 da Lei nº 4.320/1964 prevê, em síntese,",
+      "options": [
+        {
+          "id": "A",
+          "text": "sigilo das contas anuais do Executivo."
+        },
+        {
+          "id": "B",
+          "text": "prestação anual de contas do Executivo ao Legislativo, acompanhada do parecer prévio do tribunal de contas ou órgão equivalente."
+        },
+        {
+          "id": "C",
+          "text": "julgamento judicial obrigatório de toda conta pública."
+        },
+        {
+          "id": "D",
+          "text": "dispensa de parecer prévio."
+        },
+        {
+          "id": "E",
+          "text": "prestação de contas apenas quando houver déficit."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 82 trata da prestação anual de contas do Executivo ao Legislativo e do parecer prévio do tribunal de contas ou órgão equivalente."
+    },
+    {
+      "id": "q5910",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A melhor formulação sobre controle social e sistemas constitucionais de controle é",
+      "options": [
+        {
+          "id": "A",
+          "text": "controle social substitui o sistema interno."
+        },
+        {
+          "id": "B",
+          "text": "controle social e externo são a mesma coisa."
+        },
+        {
+          "id": "C",
+          "text": "controle social complementa o controle institucional, mas os arts. 70 e 74 estruturam os sistemas interno e externo."
+        },
+        {
+          "id": "D",
+          "text": "somente o controle social pode receber denúncias."
+        },
+        {
+          "id": "E",
+          "text": "controle social integra hierarquicamente o TCU."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Participação social é complementar. A estrutura constitucional central da fiscalização financeira é composta por controle externo e sistemas de controle interno."
+    },
+    {
+      "id": "q5911",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A relação entre controle externo e tribunal de contas, no plano federal, é corretamente resumida por",
+      "options": [
+        {
+          "id": "A",
+          "text": "TCU titular exclusivo; Congresso mero auxiliar."
+        },
+        {
+          "id": "B",
+          "text": "Congresso titular; TCU auxilia e exerce competências próprias."
+        },
+        {
+          "id": "C",
+          "text": "ambos integram o Poder Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "TCU subordinado hierarquicamente ao Executivo."
+        },
+        {
+          "id": "E",
+          "text": "Congresso só atua após decisão judicial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A titularidade do controle externo é do Congresso Nacional; o TCU o auxilia e possui competências constitucionais próprias."
+    },
+    {
+      "id": "q5912",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre a relação entre controle interno e externo, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o controle interno deixa de existir quando há tribunal de contas."
+        },
+        {
+          "id": "B",
+          "text": "o controle externo absorve hierarquicamente o sistema interno."
+        },
+        {
+          "id": "C",
+          "text": "os sistemas são complementares e preservam responsabilidades próprias."
+        },
+        {
+          "id": "D",
+          "text": "o controle interno só atua por provocação do externo."
+        },
+        {
+          "id": "E",
+          "text": "a comunicação de irregularidade transfere toda responsabilidade ao TCU."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O sistema interno apoia o externo, mas ambos mantêm competências e responsabilidades próprias."
+    },
+    {
+      "id": "q5913",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma unidade do próprio Poder acompanha, enquanto ocorre, determinada execução orçamentária. Quanto aos eixos sistema e momento, o controle é",
+      "options": [
+        {
+          "id": "A",
+          "text": "externo e posterior."
+        },
+        {
+          "id": "B",
+          "text": "interno e concomitante."
+        },
+        {
+          "id": "C",
+          "text": "social e prévio."
+        },
+        {
+          "id": "D",
+          "text": "judicial e subsequente."
+        },
+        {
+          "id": "E",
+          "text": "externo e necessariamente preventivo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Por estar dentro da estrutura controlada, é interno; por atuar durante a execução, é concomitante."
+    },
+    {
+      "id": "q5914",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma entidade privada recebe recursos públicos e argumenta que não deve prestar contas porque não integra a Administração. A afirmação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta em qualquer hipótese."
+        },
+        {
+          "id": "B",
+          "text": "incorreta, pois o art. 70, parágrafo único, adota critério material ligado ao manejo de recursos, bens, valores ou obrigações públicas."
+        },
+        {
+          "id": "C",
+          "text": "correta se a entidade não tiver fins lucrativos."
+        },
+        {
+          "id": "D",
+          "text": "correta se o recurso vier de transferência."
+        },
+        {
+          "id": "E",
+          "text": "incorreta apenas depois de condenação judicial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O dever constitucional pode alcançar pessoa privada conforme seu vínculo material com recursos ou valores públicos."
+    },
+    {
+      "id": "q5915",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Subvenções e renúncia de receitas, no art. 70 da Constituição, são",
+      "options": [
+        {
+          "id": "A",
+          "text": "dimensões equivalentes à contábil e à financeira."
+        },
+        {
+          "id": "B",
+          "text": "sistemas de controle."
+        },
+        {
+          "id": "C",
+          "text": "momentos de fiscalização."
+        },
+        {
+          "id": "D",
+          "text": "matérias expressamente submetidas à fiscalização."
+        },
+        {
+          "id": "E",
+          "text": "órgãos auxiliares do Congresso."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Subvenções e renúncia de receitas são matérias expressamente fiscalizadas, e não dimensões, parâmetros, momentos ou sistemas."
+    },
+    {
+      "id": "q5916",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O art. 74, II, alcança a aplicação de recursos públicos por entidades de direito privado porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a natureza privada exclui a legalidade."
+        },
+        {
+          "id": "B",
+          "text": "o controle interno deve comprovar a legalidade e avaliar eficácia e eficiência também nesses casos."
+        },
+        {
+          "id": "C",
+          "text": "somente o Judiciário pode examinar recursos aplicados por privados."
+        },
+        {
+          "id": "D",
+          "text": "o controle externo fica proibido."
+        },
+        {
+          "id": "E",
+          "text": "toda entidade privada se torna órgão público."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O inciso II menciona expressamente a aplicação de recursos públicos por entidades de direito privado no âmbito da avaliação da gestão."
+    },
+    {
+      "id": "q5917",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O controle interno toma conhecimento de ilegalidade relevante e apenas registra o fato internamente, sem dar ciência ao TCU. À luz do art. 74, § 1º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a conduta é suficiente em qualquer caso."
+        },
+        {
+          "id": "B",
+          "text": "o dever constitucional de ciência não foi atendido e a omissão pode gerar responsabilidade solidária."
+        },
+        {
+          "id": "C",
+          "text": "a ciência ao TCU é facultativa."
+        },
+        {
+          "id": "D",
+          "text": "somente o cidadão pode comunicar o TCU."
+        },
+        {
+          "id": "E",
+          "text": "o controle interno deve aguardar decisão judicial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Conhecida a irregularidade ou ilegalidade, os responsáveis pelo controle interno devem dar ciência ao TCU, sob pena de responsabilidade solidária."
+    },
+    {
+      "id": "q5918",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre espécies e sistemas de controle da atividade financeira do Estado, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "CFOOP corresponde aos momentos do controle."
+        },
+        {
+          "id": "B",
+          "text": "legalidade, legitimidade e economicidade são sistemas institucionais."
+        },
+        {
+          "id": "C",
+          "text": "controle social é terceiro sistema constitucional equivalente aos controles interno e externo."
+        },
+        {
+          "id": "D",
+          "text": "art. 75 da Lei nº 4.320 enumera momentos e art. 77 enumera dimensões."
+        },
+        {
+          "id": "E",
+          "text": "dimensão, parâmetro, momento e sistema são eixos distintos; os arts. 70 e 74 estruturam controle externo e interno, e o art. 77 explicita os três momentos da verificação da legalidade da execução orçamentária."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A alternativa reúne as distinções centrais do assunto: CFOOP são dimensões; LLE são parâmetros; interno/externo são sistemas; e prévio/concomitante/subsequente são momentos."
+    }
+  ]
+}

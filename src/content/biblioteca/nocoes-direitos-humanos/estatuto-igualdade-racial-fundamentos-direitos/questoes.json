@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q8739",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Estatuto da Igualdade Racial destina-se a",
+      "options": [
+        {
+          "id": "A",
+          "text": "efetivar a igualdade de oportunidades da população negra, defender direitos étnicos individuais, coletivos e difusos e combater discriminação e intolerância étnica."
+        },
+        {
+          "id": "B",
+          "text": "regular exclusivamente cotas em concursos públicos."
+        },
+        {
+          "id": "C",
+          "text": "proteger apenas direitos individuais e patrimoniais."
+        },
+        {
+          "id": "D",
+          "text": "substituir a legislação penal sobre racismo."
+        },
+        {
+          "id": "E",
+          "text": "criar benefícios restritos às relações com o poder público."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As três finalidades cumulativas constam do artigo 1º. O Estatuto não se reduz a cotas, sanções penais ou relações estatais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8740",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na definição legal, discriminação racial ou étnico-racial",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige sempre exclusão formal e explícita."
+        },
+        {
+          "id": "B",
+          "text": "pode consistir em distinção, exclusão, restrição ou preferência fundada nos critérios legais e alcançar a vida pública ou privada."
+        },
+        {
+          "id": "C",
+          "text": "abrange somente raça e cor, não descendência ou origem."
+        },
+        {
+          "id": "D",
+          "text": "existe apenas no campo político."
+        },
+        {
+          "id": "E",
+          "text": "não afeta liberdades fundamentais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O conceito é amplo quanto à conduta, aos fundamentos, aos direitos e às esferas pública e privada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8741",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Desigualdade racial é",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer diferenciação, ainda que corretiva e justificada."
+        },
+        {
+          "id": "B",
+          "text": "sinônimo integral de discriminação racial."
+        },
+        {
+          "id": "C",
+          "text": "situação injustificada de diferenciação no acesso e na fruição de bens, serviços e oportunidades, nas esferas pública e privada, pelos critérios raciais ou étnicos legais."
+        },
+        {
+          "id": "D",
+          "text": "apenas diferença de renda no setor público."
+        },
+        {
+          "id": "E",
+          "text": "assimetria exclusiva entre homens negros e mulheres negras."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A definição exige diferenciação injustificada e não se confunde com discriminação nem com desigualdade de gênero e raça. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8742",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A desigualdade de gênero e raça, para o Estatuto, corresponde à",
+      "options": [
+        {
+          "id": "A",
+          "text": "distância entre homens e mulheres de qualquer grupo, sem recorte racial."
+        },
+        {
+          "id": "B",
+          "text": "diferença exclusiva entre mulheres negras e homens negros."
+        },
+        {
+          "id": "C",
+          "text": "desigualdade de renda entre toda a população feminina."
+        },
+        {
+          "id": "D",
+          "text": "assimetria social que acentua a distância entre mulheres negras e os demais segmentos sociais."
+        },
+        {
+          "id": "E",
+          "text": "restrição apenas à participação política da mulher negra."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A lei usa mulheres negras como grupo de referência e compara sua distância social com os demais segmentos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8743",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O direito geral previsto no artigo 9º assegura à população negra",
+      "options": [
+        {
+          "id": "A",
+          "text": "participação apenas em atividades educacionais obrigatórias."
+        },
+        {
+          "id": "B",
+          "text": "acesso exclusivamente a eventos organizados pelo Estado."
+        },
+        {
+          "id": "C",
+          "text": "atividades esportivas somente em nível profissional."
+        },
+        {
+          "id": "D",
+          "text": "participação cultural desvinculada do patrimônio comunitário."
+        },
+        {
+          "id": "E",
+          "text": "participação em atividades educacionais, culturais, esportivas e de lazer adequadas a seus interesses e condições."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O direito geral combina quatro campos de participação e contribuição ao patrimônio cultural da comunidade e da sociedade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8744",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Políticas públicas, na definição da Lei nº 12.288/2010, são",
+      "options": [
+        {
+          "id": "A",
+          "text": "ações, iniciativas e programas adotados pelo Estado no cumprimento de suas atribuições institucionais."
+        },
+        {
+          "id": "B",
+          "text": "somente medidas especiais de empresas privadas."
+        },
+        {
+          "id": "C",
+          "text": "apenas leis aprovadas pelo Congresso Nacional."
+        },
+        {
+          "id": "D",
+          "text": "programas de cotas em universidades, exclusivamente."
+        },
+        {
+          "id": "E",
+          "text": "qualquer atividade beneficente de pessoa natural."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O sujeito da definição de política pública é o Estado. A iniciativa privada aparece expressamente na definição de ação afirmativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8745",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ações afirmativas são",
+      "options": [
+        {
+          "id": "A",
+          "text": "medidas necessariamente permanentes e exclusivamente estatais."
+        },
+        {
+          "id": "B",
+          "text": "programas e medidas especiais do Estado e da iniciativa privada para corrigir desigualdades raciais e promover igualdade de oportunidades."
+        },
+        {
+          "id": "C",
+          "text": "sinônimo legal exclusivo de reserva de vagas."
+        },
+        {
+          "id": "D",
+          "text": "sanções penais aplicadas a atos discriminatórios."
+        },
+        {
+          "id": "E",
+          "text": "políticas vedadas pela igualdade formal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A definição inclui Estado e iniciativa privada e não restringe ações afirmativas a cotas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8746",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O dever de garantir igualdade de oportunidades cabe",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente à União."
+        },
+        {
+          "id": "B",
+          "text": "apenas às empresas privadas."
+        },
+        {
+          "id": "C",
+          "text": "ao Estado e à sociedade, com reconhecimento da participação comunitária e proteção da dignidade e dos valores religiosos e culturais."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente ao Poder Judiciário."
+        },
+        {
+          "id": "E",
+          "text": "somente ao movimento negro."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 2º distribui o dever entre Estado e sociedade e protege participação, dignidade e valores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8747",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diretriz político-jurídica do Estatuto reúne",
+      "options": [
+        {
+          "id": "A",
+          "text": "neutralidade estatal e proibição de medidas especiais."
+        },
+        {
+          "id": "B",
+          "text": "apenas punição de condutas individuais."
+        },
+        {
+          "id": "C",
+          "text": "substituição da identidade nacional por identidades locais."
+        },
+        {
+          "id": "D",
+          "text": "inclusão das vítimas de desigualdade étnico-racial, valorização da igualdade étnica e fortalecimento da identidade nacional brasileira."
+        },
+        {
+          "id": "E",
+          "text": "exclusão de normas constitucionais de direitos fundamentais."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os três elementos constam do artigo 3º e complementam, não afastam, as normas constitucionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8748",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação entre igualdade e a função reparadora das ações afirmativas é corretamente expressa em",
+      "options": [
+        {
+          "id": "A",
+          "text": "a igualdade formal exige tratamento idêntico mesmo diante de desigualdades históricas concretas."
+        },
+        {
+          "id": "B",
+          "text": "a igualdade material proíbe qualquer medida especial dirigida a grupo social."
+        },
+        {
+          "id": "C",
+          "text": "ações afirmativas substituem definitivamente os serviços universais."
+        },
+        {
+          "id": "D",
+          "text": "a reparação legal alcança apenas distorções formadas no setor público."
+        },
+        {
+          "id": "E",
+          "text": "a igualdade material admite correções justificadas, e os programas afirmativos reparam distorções, desigualdades e práticas discriminatórias historicamente formadas nas esferas pública e privada."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A igualdade formal afasta discriminações arbitrárias; a material admite diferenciação corretiva, e o parágrafo único do artigo 4º explicita a função reparadora pública e privada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8749",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A síntese correta da jurisprudência do STF sobre ações afirmativas é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ADC 41 validou os 20% da Lei nº 12.990/2014 e a heteroidentificação subsidiária com garantias; em 2026, o STF invalidou a proibição geral catarinense de cotas, sem fixar modelo universal."
+        },
+        {
+          "id": "B",
+          "text": "a ADC 41 julgou o Estatuto da Igualdade Racial e fixou 20% para toda ação afirmativa."
+        },
+        {
+          "id": "C",
+          "text": "o STF proibiu qualquer mecanismo subsidiário de heteroidentificação."
+        },
+        {
+          "id": "D",
+          "text": "as ADIs catarinenses confirmaram a validade da proibição geral de cotas."
+        },
+        {
+          "id": "E",
+          "text": "os precedentes tornaram toda ação afirmativa imune a avaliação ou revisão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A ADC 41 julgou lei federal específica e condicionou a heteroidentificação a dignidade, contraditório e ampla defesa; as ADIs 7.927 a 7.930/SC afastaram vedação geral sem impor percentual único. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8750",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na ADPF 186, o STF",
+      "options": [
+        {
+          "id": "A",
+          "text": "considerou inconstitucional qualquer critério racial no ingresso universitário."
+        },
+        {
+          "id": "B",
+          "text": "validou a política de cotas da UnB com base em igualdade material, justiça distributiva e pluralismo, sem criar percentual universal para toda ação afirmativa."
+        },
+        {
+          "id": "C",
+          "text": "julgou diretamente a Lei nº 12.990/2014 sobre concursos federais."
+        },
+        {
+          "id": "D",
+          "text": "dispensou adequação, proporcionalidade e avaliação temporal das medidas."
+        },
+        {
+          "id": "E",
+          "text": "fixou reserva constitucional obrigatória de 20% para todas as universidades."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A ADPF 186 reconheceu a constitucionalidade do desenho da UnB e seus fundamentos materiais, mas não universalizou percentual ou modelo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8751",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O direito à saúde da população negra será garantido",
+      "options": [
+        {
+          "id": "A",
+          "text": "por sistema separado do SUS."
+        },
+        {
+          "id": "B",
+          "text": "somente por ações assistenciais privadas."
+        },
+        {
+          "id": "C",
+          "text": "pelo poder público mediante políticas universais, sociais e econômicas de redução do risco de doenças e agravos."
+        },
+        {
+          "id": "D",
+          "text": "apenas após comprovação de discriminação."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente em comunidades quilombolas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Estatuto preserva a universalidade e direciona políticas à redução de riscos e agravos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8752",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A responsabilidade pelo acesso universal e igualitário da população negra ao SUS alcança",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a administração federal direta."
+        },
+        {
+          "id": "B",
+          "text": "apenas Estados e Municípios."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente hospitais públicos."
+        },
+        {
+          "id": "D",
+          "text": "órgãos e instituições federais, estaduais, distritais e municipais, da administração direta e indireta."
+        },
+        {
+          "id": "E",
+          "text": "somente entidades privadas conveniadas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O § 1º do artigo 6º distribui a responsabilidade entre os quatro níveis e as administrações direta e indireta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8753",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos seguros privados de saúde, o Estatuto determina que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não se submetem a qualquer regra racial."
+        },
+        {
+          "id": "B",
+          "text": "sejam substituídos pelo SUS."
+        },
+        {
+          "id": "C",
+          "text": "atendam somente pessoas quilombolas."
+        },
+        {
+          "id": "D",
+          "text": "possam cobrar adicional pela autodeclaração."
+        },
+        {
+          "id": "E",
+          "text": "o poder público garanta tratamento sem discriminação à população negra vinculada a eles."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A proteção contra discriminação alcança expressamente o segmento vinculado a seguros privados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8754",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os incentivos específicos de saúde para moradores de comunidades remanescentes de quilombos incluem",
+      "options": [
+        {
+          "id": "A",
+          "text": "condições ambientais, saneamento, segurança alimentar e nutricional e atenção integral à saúde."
+        },
+        {
+          "id": "B",
+          "text": "somente atendimento hospitalar."
+        },
+        {
+          "id": "C",
+          "text": "apenas fornecimento de medicamentos."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente seguro privado."
+        },
+        {
+          "id": "E",
+          "text": "somente obras de transporte."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A proteção quilombola é intersetorial e não se limita ao atendimento médico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8755",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O estudo da história geral da África e da história da população negra no Brasil é obrigatório",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente em universidades públicas."
+        },
+        {
+          "id": "B",
+          "text": "no ensino fundamental e médio, em estabelecimentos públicos e privados."
+        },
+        {
+          "id": "C",
+          "text": "apenas no ensino médio público."
+        },
+        {
+          "id": "D",
+          "text": "somente como atividade extracurricular."
+        },
+        {
+          "id": "E",
+          "text": "apenas nas escolas que aderirem voluntariamente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 11 define os dois níveis e alcança as redes pública e privada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8756",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os conteúdos sobre história da população negra no Brasil devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "ficar restritos à disciplina de religião."
+        },
+        {
+          "id": "B",
+          "text": "ser ministrados apenas em datas cívicas."
+        },
+        {
+          "id": "C",
+          "text": "integrar todo o currículo, resgatando a contribuição negra ao desenvolvimento social, econômico, político e cultural."
+        },
+        {
+          "id": "D",
+          "text": "excluir a história geral da África."
+        },
+        {
+          "id": "E",
+          "text": "ser facultativos em escolas privadas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A transversalidade curricular e as quatro dimensões de contribuição constam do § 1º do artigo 11. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8757",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para cumprir a obrigação educacional, o órgão competente do Poder Executivo",
+      "options": [
+        {
+          "id": "A",
+          "text": "proibirá material didático específico."
+        },
+        {
+          "id": "B",
+          "text": "delegará toda formação a entidades privadas."
+        },
+        {
+          "id": "C",
+          "text": "atuará apenas nas universidades."
+        },
+        {
+          "id": "D",
+          "text": "fomentará formação inicial e continuada de professores e elaboração de material didático específico."
+        },
+        {
+          "id": "E",
+          "text": "substituirá o currículo por eventos anuais."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O § 2º do artigo 11 prevê cumulativamente formação docente e material específico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8758",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os órgãos de fomento à pesquisa e à pós-graduação",
+      "options": [
+        {
+          "id": "A",
+          "text": "são proibidos de financiar estudos sobre quilombos."
+        },
+        {
+          "id": "B",
+          "text": "devem criar obrigatoriamente uma universidade temática."
+        },
+        {
+          "id": "C",
+          "text": "atuam apenas no âmbito municipal."
+        },
+        {
+          "id": "D",
+          "text": "só podem pesquisar mercado de trabalho."
+        },
+        {
+          "id": "E",
+          "text": "poderão criar incentivos a pesquisas e programas sobre relações étnicas, quilombos e população negra."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 12 usa o verbo poderão, não estabelece obrigação absoluta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8759",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No ensino superior, o Poder Executivo federal incentivará",
+      "options": [
+        {
+          "id": "A",
+          "text": "instituições públicas e privadas a apoiar pesquisa, pluralidade na formação docente, extensão tecnológica e cooperação, com proporcionalidade de gênero entre beneficiários quando prevista."
+        },
+        {
+          "id": "B",
+          "text": "somente instituições federais a extinguir grupos de pesquisa."
+        },
+        {
+          "id": "C",
+          "text": "apenas ensino a distância para jovens negros."
+        },
+        {
+          "id": "D",
+          "text": "a exclusão de instituições comunitárias da cooperação docente."
+        },
+        {
+          "id": "E",
+          "text": "programas sem observância de ética em pesquisa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 13 reúne essas linhas de incentivo e alcança instituições superiores públicas e privadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8760",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na seção de educação, o Estatuto afirma que o poder público",
+      "options": [
+        {
+          "id": "A",
+          "text": "poderá avaliar se adotará alguma medida, sem compromisso legal."
+        },
+        {
+          "id": "B",
+          "text": "adotará programas de ação afirmativa."
+        },
+        {
+          "id": "C",
+          "text": "proibirá ações socioeducacionais do movimento negro."
+        },
+        {
+          "id": "D",
+          "text": "atuará somente por sanções."
+        },
+        {
+          "id": "E",
+          "text": "limitará programas ao ensino privado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 15 usa adotará. Não se trata de simples faculdade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8761",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sociedades negras, clubes e outras manifestações coletivas da população negra",
+      "options": [
+        {
+          "id": "A",
+          "text": "são patrimônio automático sem qualquer requisito."
+        },
+        {
+          "id": "B",
+          "text": "só recebem proteção se forem órgãos públicos."
+        },
+        {
+          "id": "C",
+          "text": "com trajetória histórica comprovada devem ser reconhecidos como patrimônio histórico e cultural nos termos constitucionais."
+        },
+        {
+          "id": "D",
+          "text": "não integram a proteção cultural do Estatuto."
+        },
+        {
+          "id": "E",
+          "text": "precisam exercer atividade econômica."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 17 exige trajetória histórica comprovada e remete à proteção constitucional do patrimônio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8762",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A proteção cultural das comunidades quilombolas assegura",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a preservação de documentos públicos."
+        },
+        {
+          "id": "B",
+          "text": "substituição de tradições por padrão nacional uniforme."
+        },
+        {
+          "id": "C",
+          "text": "proteção apenas a sítios não tombados."
+        },
+        {
+          "id": "D",
+          "text": "preservação de usos, costumes, tradições e manifestos religiosos, com atenção especial a documentos e sítios históricos tombados."
+        },
+        {
+          "id": "E",
+          "text": "apenas financiamento de festas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 18 usa literalmente manifestos religiosos, protege o patrimônio vivo das comunidades e atribui atenção especial aos documentos e sítios tombados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8763",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Como patrimônio cultural, a capoeira",
+      "options": [
+        {
+          "id": "A",
+          "text": "é protegida apenas na modalidade esportiva."
+        },
+        {
+          "id": "B",
+          "text": "não integra a identidade cultural brasileira."
+        },
+        {
+          "id": "C",
+          "text": "pode ser registrada somente por entidade privada."
+        },
+        {
+          "id": "D",
+          "text": "não recebe proteção nas relações internacionais."
+        },
+        {
+          "id": "E",
+          "text": "deve ser registrada e protegida em todas as modalidades como bem imaterial, e o poder público buscará preservar seus elementos tradicionais internacionalmente."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 20 combina proteção interna ampla e preservação dos elementos tradicionais nas relações internacionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8764",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No esporte e lazer, cabe ao poder público",
+      "options": [
+        {
+          "id": "A",
+          "text": "fomentar o pleno acesso da população negra às práticas desportivas, consolidando esporte e lazer como direitos sociais."
+        },
+        {
+          "id": "B",
+          "text": "limitar a capoeira a cerimônias culturais."
+        },
+        {
+          "id": "C",
+          "text": "restringir práticas a atletas profissionais."
+        },
+        {
+          "id": "D",
+          "text": "substituir lazer por competição."
+        },
+        {
+          "id": "E",
+          "text": "atuar somente em eventos privados."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 21 relaciona pleno acesso às práticas desportivas com os direitos sociais ao esporte e ao lazer. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8765",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A capoeira é reconhecida pelo Estatuto como",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas dança regional."
+        },
+        {
+          "id": "B",
+          "text": "desporto de criação nacional, podendo manifestar-se como esporte, luta, dança ou música, com exercício livre no País."
+        },
+        {
+          "id": "C",
+          "text": "atividade dependente de licença federal individual."
+        },
+        {
+          "id": "D",
+          "text": "prática exclusiva de instituições públicas."
+        },
+        {
+          "id": "E",
+          "text": "manifestação sem natureza esportiva."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 22 e seu § 1º reúnem reconhecimento nacional, quatro modalidades e liberdade de exercício. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8766",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O ensino da capoeira em instituições públicas e privadas",
+      "options": [
+        {
+          "id": "A",
+          "text": "é obrigatório em todos os níveis."
+        },
+        {
+          "id": "B",
+          "text": "só pode ser realizado por professor universitário."
+        },
+        {
+          "id": "C",
+          "text": "é facultado a capoeiristas e mestres tradicionais pública e formalmente reconhecidos."
+        },
+        {
+          "id": "D",
+          "text": "é proibido no ensino privado."
+        },
+        {
+          "id": "E",
+          "text": "depende de concurso público nacional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A lei usa facultado e reconhece capoeiristas e mestres tradicionais com reconhecimento público e formal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8767",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O livre exercício dos cultos de matriz africana compreende",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas cerimônias dentro de templos públicos."
+        },
+        {
+          "id": "B",
+          "text": "proibição de instituições beneficentes religiosas."
+        },
+        {
+          "id": "C",
+          "text": "financiamento público automático de todos os cultos."
+        },
+        {
+          "id": "D",
+          "text": "cultos, reuniões, fundação e manutenção por iniciativa privada de lugares reservados e instituições beneficentes, além de materiais, publicações, contribuições privadas e comunicação."
+        },
+        {
+          "id": "E",
+          "text": "somente liberdade de crença individual sem expressão coletiva."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 24 apresenta um rol amplo e atribui à iniciativa privada a fundação e manutenção dos lugares e instituições, sem qualificá-los pela propriedade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8768",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A produção, comercialização, aquisição e uso de artigos religiosos de matriz africana",
+      "options": [
+        {
+          "id": "A",
+          "text": "não possuem proteção legal."
+        },
+        {
+          "id": "B",
+          "text": "são permitidos sem qualquer limite jurídico."
+        },
+        {
+          "id": "C",
+          "text": "dependem de autorização do Ministério Público."
+        },
+        {
+          "id": "D",
+          "text": "são permitidos apenas por instituições beneficentes."
+        },
+        {
+          "id": "E",
+          "text": "integram a liberdade religiosa, ressalvadas as condutas vedadas por legislação específica."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O inciso IV do artigo 24 protege os materiais, mas preserva proibições legais específicas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8769",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Diante de intolerância religiosa em meio de comunicação ou outro local, o Estatuto assegura",
+      "options": [
+        {
+          "id": "A",
+          "text": "comunicação ao Ministério Público para abertura de ação penal, sem dispensar as regras processuais aplicáveis."
+        },
+        {
+          "id": "B",
+          "text": "condenação automática do comunicador."
+        },
+        {
+          "id": "C",
+          "text": "ação penal privada obrigatória em todos os casos."
+        },
+        {
+          "id": "D",
+          "text": "apenas reclamação administrativa interna."
+        },
+        {
+          "id": "E",
+          "text": "comunicação exclusiva à autoridade religiosa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A literalidade garante comunicação ao MP; isso não transforma a notícia em condenação ou ação automática. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8770",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A assistência religiosa a praticantes de religiões de matrizes africanas é assegurada",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente em hospitais privados."
+        },
+        {
+          "id": "B",
+          "text": "em hospitais e outras instituições de internação coletiva, inclusive a pessoas submetidas a pena privativa de liberdade."
+        },
+        {
+          "id": "C",
+          "text": "apenas a quem não esteja privado de liberdade."
+        },
+        {
+          "id": "D",
+          "text": "somente após decisão judicial."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente em locais de culto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 25 inclui expressamente hospitais, internação coletiva e pessoas privadas de liberdade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8771",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No combate à intolerância religiosa, o poder público deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "permitir mensagens de ódio como regra absoluta."
+        },
+        {
+          "id": "B",
+          "text": "proteger apenas edifícios, não bens ambientais."
+        },
+        {
+          "id": "C",
+          "text": "coibir a difusão de ódio ou desprezo, proteger bens vinculados às religiões e promover participação proporcional em instâncias deliberativas."
+        },
+        {
+          "id": "D",
+          "text": "excluir representantes das religiões de matriz africana de conselhos."
+        },
+        {
+          "id": "E",
+          "text": "atuar somente após condenação penal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os três eixos do artigo 26 abrangem comunicação, patrimônio cultural e ambiental e representação institucional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8772",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A participação da população negra em igualdade de oportunidades será promovida prioritariamente por",
+      "options": [
+        {
+          "id": "A",
+          "text": "cotas educacionais como único instrumento admitido."
+        },
+        {
+          "id": "B",
+          "text": "sanções penais, sem alteração de estruturas estatais."
+        },
+        {
+          "id": "C",
+          "text": "ações restritas ao campo econômico e ao setor público."
+        },
+        {
+          "id": "D",
+          "text": "políticas de desenvolvimento, ações afirmativas, mudanças institucionais e normativas, remoção de obstáculos, apoio à sociedade civil e programas em diferentes direitos."
+        },
+        {
+          "id": "E",
+          "text": "medidas que excluam qualquer outra iniciativa favorável à população negra."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 4º enumera meios prioritários, não exclusivos, e o artigo 58 preserva outras medidas em prol da população negra. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8773",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para a população negra rural, o Estatuto prevê",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente titulação urbana."
+        },
+        {
+          "id": "B",
+          "text": "apenas educação geral, sem orientação agrícola."
+        },
+        {
+          "id": "C",
+          "text": "crédito sem assistência técnica ou logística."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente financiamento privado."
+        },
+        {
+          "id": "E",
+          "text": "acesso à terra, financiamento, assistência técnica, crédito simplificado, logística e educação e orientação profissional agrícola."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Os artigos 27 a 30 combinam acesso produtivo, financeiro, técnico, logístico e educacional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8774",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Aos remanescentes das comunidades dos quilombos que estejam ocupando suas terras",
+      "options": [
+        {
+          "id": "A",
+          "text": "é reconhecida a propriedade definitiva, cabendo ao Estado emitir os títulos."
+        },
+        {
+          "id": "B",
+          "text": "é concedido apenas direito real de uso temporário."
+        },
+        {
+          "id": "C",
+          "text": "é vedada titulação coletiva ou definitiva."
+        },
+        {
+          "id": "D",
+          "text": "é reconhecida posse sem dever estatal de titular."
+        },
+        {
+          "id": "E",
+          "text": "é exigida aquisição onerosa do imóvel."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 31 combina ocupação, propriedade definitiva e dever estatal de emissão dos títulos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8775",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As comunidades quilombolas recebem, segundo o Estatuto,",
+      "options": [
+        {
+          "id": "A",
+          "text": "política de desenvolvimento que pode ignorar tradições ambientais."
+        },
+        {
+          "id": "B",
+          "text": "desenvolvimento sustentável respeitoso às tradições, tratamento especial, assistência técnica e linhas especiais de financiamento público."
+        },
+        {
+          "id": "C",
+          "text": "somente crédito privado comum."
+        },
+        {
+          "id": "D",
+          "text": "proteção limitada à cultura, sem atividade produtiva."
+        },
+        {
+          "id": "E",
+          "text": "exclusão das demais iniciativas de igualdade étnica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os artigos 32 a 34 reúnem sustentabilidade, diferenciação, suporte produtivo e acesso às demais iniciativas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8776",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Moradia adequada, para o Estatuto, inclui",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente o provimento de unidade habitacional."
+        },
+        {
+          "id": "B",
+          "text": "apenas regularização fundiária rural."
+        },
+        {
+          "id": "C",
+          "text": "habitação, infraestrutura urbana, equipamentos comunitários e assistência técnica e jurídica para construção, reforma ou regularização fundiária urbana."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente financiamento bancário."
+        },
+        {
+          "id": "E",
+          "text": "somente áreas já plenamente urbanizadas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O parágrafo único do artigo 35 define moradia adequada de forma multidimensional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8777",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A garantia de moradia adequada dirige-se especialmente à população negra que vive",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente em imóveis rurais produtivos."
+        },
+        {
+          "id": "B",
+          "text": "apenas em unidades habitacionais já regularizadas."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente em áreas urbanas plenamente integradas."
+        },
+        {
+          "id": "D",
+          "text": "em favelas, cortiços e áreas urbanas subutilizadas, degradadas ou em processo de degradação, buscando reintegração urbana e melhoria da qualidade de vida."
+        },
+        {
+          "id": "E",
+          "text": "apenas em imóveis financiados por banco público."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 35 identifica esses espaços e vincula a política à dinâmica urbana, ao ambiente e à qualidade de vida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8778",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O acesso da população negra aos financiamentos habitacionais deve ser promovido por",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas bancos públicos federais."
+        },
+        {
+          "id": "B",
+          "text": "somente fundos municipais."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente entidades sem fins lucrativos."
+        },
+        {
+          "id": "D",
+          "text": "apenas agentes financeiros privados."
+        },
+        {
+          "id": "E",
+          "text": "agentes financeiros públicos ou privados."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 37 inclui expressamente ambos os tipos de agente financeiro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8779",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A inclusão da população negra no mercado de trabalho",
+      "options": [
+        {
+          "id": "A",
+          "text": "é responsabilidade do poder público, observados o Estatuto e compromissos internacionais contra discriminação racial e no emprego."
+        },
+        {
+          "id": "B",
+          "text": "é responsabilidade exclusiva das empresas privadas."
+        },
+        {
+          "id": "C",
+          "text": "não se relaciona à Convenção nº 111 da OIT."
+        },
+        {
+          "id": "D",
+          "text": "dispensa compromissos assumidos pelo Brasil."
+        },
+        {
+          "id": "E",
+          "text": "abrange apenas cargos públicos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 38 vincula a responsabilidade estatal ao Estatuto e a compromissos internacionais expressos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8780",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A igualdade de oportunidades nas contratações será promovida",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente por obrigação idêntica no setor privado."
+        },
+        {
+          "id": "B",
+          "text": "por medidas no setor público e incentivo à adoção de medidas similares por empresas e organizações privadas."
+        },
+        {
+          "id": "C",
+          "text": "sem programas de formação, emprego ou renda."
+        },
+        {
+          "id": "D",
+          "text": "apenas por critérios de cargos em comissão."
+        },
+        {
+          "id": "E",
+          "text": "com exclusão da proporcionalidade de gênero."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 39 distingue medidas públicas e incentivo ao setor privado e ainda prevê formação e proporcionalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8781",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nas ações de trabalho e renda, o Estatuto",
+      "options": [
+        {
+          "id": "A",
+          "text": "proíbe qualquer recorte de gênero."
+        },
+        {
+          "id": "B",
+          "text": "reserva crédito apenas a grandes empresas."
+        },
+        {
+          "id": "C",
+          "text": "assegura proporcionalidade de gênero entre beneficiários e prevê ações afirmativas para mulheres negras no crédito à pequena produção."
+        },
+        {
+          "id": "D",
+          "text": "exclui o meio urbano do acesso ao crédito."
+        },
+        {
+          "id": "E",
+          "text": "não enfrenta marginalização no trabalho artístico."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os §§ 4º a 6º do artigo 39 articulam gênero, crédito e combate à marginalização da mulher negra. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8782",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O poder público deve promover, no campo do trabalho,",
+      "options": [
+        {
+          "id": "A",
+          "text": "redução da escolaridade em setores com alta presença negra."
+        },
+        {
+          "id": "B",
+          "text": "somente campanhas sem qualificação."
+        },
+        {
+          "id": "C",
+          "text": "qualificação apenas para ocupações públicas."
+        },
+        {
+          "id": "D",
+          "text": "ações para elevar escolaridade e qualificação em setores com alto índice de trabalhadores negros de baixa escolarização."
+        },
+        {
+          "id": "E",
+          "text": "substituição do emprego por assistência permanente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O § 7º do artigo 39 dirige ações aos setores com alta ocupação negra e baixa escolarização. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8783",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto a cargos em comissão e funções de confiança, o Estatuto estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "há reserva obrigatória de 20% em todo concurso."
+        },
+        {
+          "id": "B",
+          "text": "somente Estados podem criar critérios."
+        },
+        {
+          "id": "C",
+          "text": "os dados demográficos são irrelevantes."
+        },
+        {
+          "id": "D",
+          "text": "a medida alcança apenas cargos efetivos."
+        },
+        {
+          "id": "E",
+          "text": "o Executivo federal poderá implementar critérios para ampliar participação negra, buscando refletir distribuição étnica nacional ou estadual."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 42 usa poderá e trata de cargos em comissão e funções de confiança, não de cota geral em concurso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8784",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os campos étnico-raciais introduzidos pela Lei nº 14.553/2023 usam",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoclassificação em grupos previamente delimitados."
+        },
+        {
+          "id": "B",
+          "text": "heteroidentificação obrigatória por banca."
+        },
+        {
+          "id": "C",
+          "text": "classificação livre do empregador."
+        },
+        {
+          "id": "D",
+          "text": "apenas nacionalidade do trabalhador."
+        },
+        {
+          "id": "E",
+          "text": "decisão judicial individual."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 8º do artigo 39 adota expressamente autoclassificação, distinta do controle de cotas específicas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8785",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A coleta étnico-racial de 2023 aplica-se expressamente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente formulários de admissão."
+        },
+        {
+          "id": "B",
+          "text": "admissão e demissão, acidente de trabalho, Sine, Rais, inscrição no RGPS e pesquisas do IBGE, sem prejuízo de registros similares definidos em regulamento."
+        },
+        {
+          "id": "C",
+          "text": "apenas documentos da Administração Pública."
+        },
+        {
+          "id": "D",
+          "text": "somente registros de trabalhadores, nunca documentos de segurados e dependentes do RGPS."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente registros em papel."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 9º do artigo 39 lista seis grupos e admite extensão regulamentar a registros de mesma natureza. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8786",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos meios de comunicação, o Estatuto determina que",
+      "options": [
+        {
+          "id": "A",
+          "text": "produções ignorem a participação negra na história."
+        },
+        {
+          "id": "B",
+          "text": "oportunidades se limitem a atores, excluindo técnicos."
+        },
+        {
+          "id": "C",
+          "text": "produções valorizem a herança negra e filmes e programas ofereçam oportunidades a atores, figurantes e técnicos, ressalvadas obras sobre especificidades étnicas."
+        },
+        {
+          "id": "D",
+          "text": "a exceção alcance qualquer obra sem justificativa."
+        },
+        {
+          "id": "E",
+          "text": "discriminação artística seja permitida."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os artigos 43 a 45 combinam valorização, oportunidades, proibição de discriminação e exceção específica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8787",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na publicidade federal contratada, a prática de iguais oportunidades busca diversidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente étnica."
+        },
+        {
+          "id": "B",
+          "text": "apenas de sexo e idade."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente entre artistas, nunca na equipe."
+        },
+        {
+          "id": "D",
+          "text": "étnica, de sexo e de idade na equipe vinculada ao projeto ou serviço."
+        },
+        {
+          "id": "E",
+          "text": "apenas entre servidores efetivos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O § 2º do artigo 46 define a prática sistemática por essas três dimensões de diversidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8788",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A auditoria para verificar iguais oportunidades em publicidade federal",
+      "options": [
+        {
+          "id": "A",
+          "text": "é automática em todos os contratos."
+        },
+        {
+          "id": "B",
+          "text": "é proibida pelo Estatuto."
+        },
+        {
+          "id": "C",
+          "text": "só pode ser feita por empresa privada."
+        },
+        {
+          "id": "D",
+          "text": "substitui as cláusulas de participação."
+        },
+        {
+          "id": "E",
+          "text": "poderá ser requerida pela autoridade contratante a órgão público federal, se considerada necessária."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O § 3º do artigo 46 estabelece faculdade condicionada, não auditoria obrigatória. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8789",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "À vítima de discriminação étnica é assegurado acesso",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Ouvidoria Permanente, Defensoria Pública, Ministério Público e Judiciário; mulheres negras em violência recebem assistência física, psíquica, social e jurídica."
+        },
+        {
+          "id": "B",
+          "text": "somente ao Judiciário de primeira instância."
+        },
+        {
+          "id": "C",
+          "text": "apenas ao Ministério Público."
+        },
+        {
+          "id": "D",
+          "text": "a assistência exclusivamente patrimonial."
+        },
+        {
+          "id": "E",
+          "text": "somente após esgotar via administrativa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 52 assegura múltiplos canais e proteção integral à mulher negra em situação de violência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8790",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No campo da segurança e da proteção, o Estado deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "tratar violência policial como tema estranho ao Estatuto."
+        },
+        {
+          "id": "B",
+          "text": "coibir violência policial incidente sobre a população negra e promover ressocialização e proteção da juventude negra exposta à exclusão."
+        },
+        {
+          "id": "C",
+          "text": "atuar apenas contra agentes privados."
+        },
+        {
+          "id": "D",
+          "text": "excluir jovens em conflito com a lei das medidas protetivas."
+        },
+        {
+          "id": "E",
+          "text": "depender de adesão ao Sinapir para toda medida."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 53 combina resposta à violência policial e ações para a juventude negra em conflito com a lei. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8791",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Lesões ou ameaças coletivas decorrentes de desigualdade étnica",
+      "options": [
+        {
+          "id": "A",
+          "text": "não admitem ação civil pública."
+        },
+        {
+          "id": "B",
+          "text": "geram prestação em dinheiro sem destinação vinculada."
+        },
+        {
+          "id": "C",
+          "text": "podem ser enfrentadas por ação civil pública, e valores de acordo ou condenação por discriminação revertem ao fundo para ações de igualdade conforme a extensão do dano."
+        },
+        {
+          "id": "D",
+          "text": "só podem ser julgadas criminalmente."
+        },
+        {
+          "id": "E",
+          "text": "só recebem tutela depois da consumação do dano, nunca diante de ameaça."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 55 e a alteração da Lei da Ação Civil Pública ligam tutela de lesões e ameaças, fundo e promoção da igualdade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8792",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto às disposições finais do Estatuto, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "suas medidas excluem iniciativas posteriores favoráveis à população negra."
+        },
+        {
+          "id": "B",
+          "text": "entrou em vigor na data da publicação."
+        },
+        {
+          "id": "C",
+          "text": "recrutamento com exigência racial injustificada gera necessariamente detenção pela regra alterada."
+        },
+        {
+          "id": "D",
+          "text": "suas medidas não excluem outras favoráveis, sua vigência ocorreu 90 dias após a publicação e o recrutamento racial injustificado recebe multa e prestação de serviços na regra específica."
+        },
+        {
+          "id": "E",
+          "text": "a proteção se limita à União."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os artigos 58, 60 e 65 preservam outras medidas, fixam a consequência trabalhista específica e estabelecem vacatio de 90 dias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8793",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considerando os conceitos legais estabelecidos no Estatuto da Igualdade Racial, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A população negra é o conjunto de pessoas que se autodeclaram pretas ou pardas conforme o quesito cor ou raça utilizado pelo IBGE, ou que adotam autodefinição análoga."
+        },
+        {
+          "id": "B",
+          "text": "Os conceitos de desigualdade racial e discriminação racial são equivalentes e podem ser usados indistintamente."
+        },
+        {
+          "id": "C",
+          "text": "Ações afirmativas restringem-se à iniciativa privada e não se relacionam a programas estatais."
+        },
+        {
+          "id": "D",
+          "text": "Desigualdade de gênero e raça é a assimetria entre homens e mulheres de qualquer raça ou entre negros e os demais segmentos."
+        },
+        {
+          "id": "E",
+          "text": "Discriminação racial existe apenas em exclusões formais e explícitas de natureza social ou econômica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alternativa A reproduz a definição legal. As demais confundem conceitos ou restringem indevidamente sujeitos e condutas. Fonte: questão oficial; Cebraspe; PGE/ES - Procurador do Estado de 1ª Categoria; 2025; questão 64; https://cdn.cebraspe.org.br/concursos/pge_es_25_procurador/arquivos/B74D957199F41F1F09471843AFEE009AE57464FCB4EF02AA9684E2E2206FD832.pdf; gabarito definitivo A em https://cdn.cebraspe.org.br/concursos/pge_es_25_procurador/arquivos/C3001B6627B2DCD5570E3B4D81F8EE9EAA61CF242C6ACA67E628218EE69625F1.pdf."
+    },
+    {
+      "id": "q8794",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Tendo como referência o Estatuto da Igualdade Racial, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Parte de suas disposições carece de aplicabilidade por contrariar a igualdade constitucional."
+        },
+        {
+          "id": "B",
+          "text": "Questões de gênero não estão previstas na legislação."
+        },
+        {
+          "id": "C",
+          "text": "Quilombolas ocupantes recebem somente concessão de direito real de uso."
+        },
+        {
+          "id": "D",
+          "text": "Exigir aparência racial injustificada no recrutamento sujeita o agente à pena de detenção."
+        },
+        {
+          "id": "E",
+          "text": "O poder público deve coibir a propagação de ódio às religiões de matrizes africanas e a discriminação de seus seguidores nos meios de comunicação social."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A alternativa E corresponde ao artigo 26. A propriedade quilombola é definitiva, gênero é conceito expresso e a sanção específica do recrutamento é multa e prestação de serviços. Fonte: questão oficial; Cebraspe; CGE/CE - Auditor de Controle Interno, Área de Fomento ao Controle Social; 2019; questão 77; https://cdn.cebraspe.org.br/concursos/CGE_CE_18/arquivos/MATRIZ_441_CGECE005_PAG_7.PDF; gabarito definitivo E em https://cdn.cebraspe.org.br/concursos/CGE_CE_18/arquivos/7_GAB_DEFINITIVO_MATRIZ_441_CGECE005_PAG_7.PDF."
+    },
+    {
+      "id": "q8795",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Após abordagem policial potencialmente discriminatória contra jovens negros, é compatível com o sistema de proteção afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o Ministério Público não pode ser procurado antes de condenação penal."
+        },
+        {
+          "id": "B",
+          "text": "os jovens podem buscar o Ministério Público para apuração dos fatos, e o Estado deve coibir violência policial incidente sobre a população negra."
+        },
+        {
+          "id": "C",
+          "text": "somente a corregedoria policial possui atribuição para apurar os fatos."
+        },
+        {
+          "id": "D",
+          "text": "a inexistência de prisão impede qualquer atuação institucional."
+        },
+        {
+          "id": "E",
+          "text": "o Estatuto exclui abordagens policiais de sua proteção."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O acesso ao MP e o dever estatal de coibir violência policial integram a proteção contra discriminação e violência institucional. Fonte: questão adaptada de Cespe/Cebraspe; MPU - Analista do MPU, Especialidade Direito; 2018; item 46; https://cdn.cebraspe.org.br/concursos/MPU_18/arquivos/MATRIZ_421_MPUCB1.PDF; gabarito definitivo C (certo) em https://cdn.cebraspe.org.br/concursos/MPU_18/arquivos/GAB_DEFINITIVO_MATRIZ_421_MPUCB1__PAG_4.PDF; adaptação: item certo ou errado convertido em questão de cinco alternativas e relacionado aos arts. 52 e 53 do Estatuto."
+    },
+    {
+      "id": "q8796",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A afirmação de que a miscigenação impediria uma definição legal de população negra é",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta, porque a lei usa apenas nacionalidade."
+        },
+        {
+          "id": "B",
+          "text": "correta, porque o IBGE não é mencionado."
+        },
+        {
+          "id": "C",
+          "text": "errada, pois o Estatuto define população negra por autodeclaração de pessoas pretas e pardas segundo o quesito do IBGE ou autodefinição análoga."
+        },
+        {
+          "id": "D",
+          "text": "correta, porque somente quilombolas integram a população negra."
+        },
+        {
+          "id": "E",
+          "text": "errada apenas porque a definição depende de heteroidentificação obrigatória."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 1º contém definição expressa baseada em autodeclaração/autodefinição, de modo que a premissa original é falsa. Fonte: questão adaptada de Cespe/Cebraspe; MPU - Analista do MPU, Especialidade Direito; 2018; item 48; https://cdn.cebraspe.org.br/concursos/MPU_18/arquivos/MATRIZ_421_MPUCB1.PDF; gabarito definitivo E (errado) em https://cdn.cebraspe.org.br/concursos/MPU_18/arquivos/GAB_DEFINITIVO_MATRIZ_421_MPUCB1__PAG_4.PDF; adaptação: item certo ou errado convertido em questão de cinco alternativas, preservando a negação da definição legal."
+    },
+    {
+      "id": "q8797",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Sobre o ensino de história e cultura da África em escola pública de ensino fundamental, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a matéria é facultativa e pode ser proibida pela direção."
+        },
+        {
+          "id": "B",
+          "text": "qualquer referência acadêmica a religiões africanas viola necessariamente a laicidade."
+        },
+        {
+          "id": "C",
+          "text": "a obrigação existe apenas no ensino médio privado."
+        },
+        {
+          "id": "D",
+          "text": "o estudo é obrigatório, e a abordagem acadêmica de aspectos religiosos da cultura africana não é, por si só, culto estatal nem violação da laicidade."
+        },
+        {
+          "id": "E",
+          "text": "o conteúdo deve ficar fora do currículo escolar."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A história geral da África e da população negra é conteúdo obrigatório; estudar fenômenos religiosos em perspectiva histórica não equivale a instituir culto. Fonte: questão adaptada de Cespe/Cebraspe; MPU - Analista do MPU, Especialidade Direito; 2018; item 49; https://cdn.cebraspe.org.br/concursos/MPU_18/arquivos/MATRIZ_421_MPUCB1.PDF; gabarito definitivo E (errado) em https://cdn.cebraspe.org.br/concursos/MPU_18/arquivos/GAB_DEFINITIVO_MATRIZ_421_MPUCB1__PAG_4.PDF; adaptação: item certo ou errado convertido em questão de cinco alternativas, preservando educação obrigatória e laicidade."
+    },
+    {
+      "id": "q8798",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Medidas destinadas a permitir que grupos minoritários superem barreiras históricas ao pleno exercício de direitos",
+      "options": [
+        {
+          "id": "A",
+          "text": "são sempre discriminatórias por produzirem tratamento diferente."
+        },
+        {
+          "id": "B",
+          "text": "violam a igualdade mesmo quando proporcionais."
+        },
+        {
+          "id": "C",
+          "text": "são permitidas apenas à iniciativa privada."
+        },
+        {
+          "id": "D",
+          "text": "não podem promover valores universais de paz e igualdade."
+        },
+        {
+          "id": "E",
+          "text": "podem constituir ações afirmativas não discriminatórias, comprometidas com igualdade material e superação de desigualdades históricas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Medidas especiais corretivas são compatíveis com a igualdade material quando enfrentam barreiras históricas de forma legítima e proporcional. Fonte: questão adaptada de Cespe/Cebraspe; MPU - Analista do MPU, Especialidade Direito; 2018; item 50; https://cdn.cebraspe.org.br/concursos/MPU_18/arquivos/MATRIZ_421_MPUCB1.PDF; gabarito definitivo C (certo) em https://cdn.cebraspe.org.br/concursos/MPU_18/arquivos/GAB_DEFINITIVO_MATRIZ_421_MPUCB1__PAG_4.PDF; adaptação: item certo ou errado convertido em questão de cinco alternativas, preservando o núcleo sobre medidas especiais e igualdade."
+    }
+  ]
+}

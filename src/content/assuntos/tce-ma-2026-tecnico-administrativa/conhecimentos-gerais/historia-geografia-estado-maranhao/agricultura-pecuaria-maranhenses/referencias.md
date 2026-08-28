@@ -1,9 +1,0 @@
-- CEBRASPE. [Edital nº 1 do TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático. Acesso em 4 ago. 2026.
-- IBGE. [Censo Agropecuário 2017: resultados definitivos do Maranhão](https://www.ibge.gov.br/biblioteca/visualizacao/periodicos/3096/agro_2017_ma.pdf). Acesso em 4 ago. 2026.
-- IBGE. [Produção Agrícola Municipal — culturas temporárias e permanentes](https://www.ibge.gov.br/estatisticas/economicas/agricultura-e-pecuaria/9117-producao-agricola-municipal-culturas-temporarias-e-permanentes.html). Edição 2024. Acesso em 4 ago. 2026.
-- IBGE/SIDRA. [PAM 2024 — lavouras temporárias do Maranhão](https://apisidra.ibge.gov.br/values/t/1612/n3/21/p/2024/v/allxp/c81/all?formato=json). Tabela 1612. Acesso em 4 ago. 2026.
-- IBGE/SIDRA. [PAM 2024 — lavouras permanentes do Maranhão](https://apisidra.ibge.gov.br/values/t/1613/n3/21/p/2024/v/allxp/c82/all?formato=json). Tabela 1613. Acesso em 4 ago. 2026.
-- IBGE. [Pesquisa da Pecuária Municipal](https://www.ibge.gov.br/estatisticas/economicas/agricultura-e-pecuaria/9107-producao-da-pecuaria-municipal.html). Edição 2024. Acesso em 4 ago. 2026.
-- IBGE/SIDRA. [PPM 2024 — efetivos dos rebanhos do Maranhão](https://apisidra.ibge.gov.br/values/t/3939/n3/21/p/2024/v/allxp/c79/all?formato=json). Tabela 3939. Acesso em 4 ago. 2026.
-- IBGE/SIDRA. [PPM 2024 — produtos de origem animal do Maranhão](https://apisidra.ibge.gov.br/values/t/74/n3/21/p/2024/v/allxp/c80/all?formato=json). Tabela 74. Acesso em 4 ago. 2026.
-- EMBRAPA. [MATOPIBA — sobre o tema](https://www.embrapa.br/tema-matopiba/sobre-o-tema). Delimitação e caracterização territorial. Acesso em 4 ago. 2026.

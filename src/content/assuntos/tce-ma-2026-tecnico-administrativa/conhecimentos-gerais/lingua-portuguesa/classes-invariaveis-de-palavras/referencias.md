@@ -1,5 +1,0 @@
-- CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS (CEBRASPE). **Edital nº 1 — TCE/MA, de 6 de julho de 2026**. [PDF oficial](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf).
-- BRASIL. Ministério da Educação e Cultura. **Nomenclatura Gramatical Brasileira**. Portaria nº 36, de 28 de janeiro de 1959. [Cópia hospedada pela UFPR](https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf).
-- BECHARA, Evanildo. **Moderna Gramática Portuguesa**. Rio de Janeiro: Nova Fronteira.
-- CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. Rio de Janeiro: Lexikon.
-- FUNDAÇÃO GETULIO VARGAS. **Classes gramaticais**. [Material didático](https://ead4.fgv.br/producao/enem/portugues/curso_3/aula1/conteudo.htm).

@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "q7659",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Maranhão integra oficialmente qual região geográfica brasileira?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nordeste."
+        },
+        {
+          "id": "B",
+          "text": "Norte."
+        },
+        {
+          "id": "C",
+          "text": "Centro-Oeste."
+        },
+        {
+          "id": "D",
+          "text": "Sudeste."
+        },
+        {
+          "id": "E",
+          "text": "Sul."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Maranhão é uma unidade da Região Nordeste, embora parte de seu território integre a Amazônia Legal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7660",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos hemisférios, o território maranhense está",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao norte e a leste."
+        },
+        {
+          "id": "B",
+          "text": "ao norte e a oeste."
+        },
+        {
+          "id": "C",
+          "text": "ao sul e a oeste."
+        },
+        {
+          "id": "D",
+          "text": "ao sul e a leste."
+        },
+        {
+          "id": "E",
+          "text": "nos quatro hemisférios."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As latitudes são sul e as longitudes são oeste, logo o estado está nos hemisférios Sul e Ocidental. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7661",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a posição geopolítica do Maranhão, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Faz fronteira com a Guiana Francesa."
+        },
+        {
+          "id": "B",
+          "text": "Integra a faixa de fronteira internacional."
+        },
+        {
+          "id": "C",
+          "text": "Limita-se com dois países."
+        },
+        {
+          "id": "D",
+          "text": "Possui fronteira internacional no Atlântico."
+        },
+        {
+          "id": "E",
+          "text": "Não possui fronteira internacional."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O Maranhão possui divisas interestaduais e linha costeira, mas não separa o Brasil de outro Estado soberano. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7662",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A posição latitudinal do Maranhão permite afirmar que o estado",
+      "options": [
+        {
+          "id": "A",
+          "text": "atravessa o Círculo Polar Antártico."
+        },
+        {
+          "id": "B",
+          "text": "situa-se na zona tropical, ao sul do Equador."
+        },
+        {
+          "id": "C",
+          "text": "está integralmente ao norte do Equador."
+        },
+        {
+          "id": "D",
+          "text": "alcança o Trópico de Capricórnio."
+        },
+        {
+          "id": "E",
+          "text": "está na zona temperada do Norte."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As latitudes aproximadas de 1° S a 10° S colocam todo o estado na zona tropical e ao sul do Equador. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7663",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A leitura correta da posição do Maranhão pelas coordenadas geográficas é",
+      "options": [
+        {
+          "id": "A",
+          "text": "latitudes sul e longitudes oeste confirmam os hemisférios Sul e Ocidental."
+        },
+        {
+          "id": "B",
+          "text": "latitudes sul indicam que o estado está no hemisfério Norte."
+        },
+        {
+          "id": "C",
+          "text": "longitudes oeste colocam o estado no hemisfério Oriental."
+        },
+        {
+          "id": "D",
+          "text": "a presença de litoral faz o estado cruzar o meridiano de Greenwich."
+        },
+        {
+          "id": "E",
+          "text": "a localização tropical exige longitude leste."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O território maranhense apresenta latitudes ao sul do Equador e longitudes a oeste de Greenwich; a interpretação dos sinais é mais útil que decorar um envelope numérico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7664",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A área territorial oficial do Maranhão na edição IBGE 2025 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "329.651,463 km²."
+        },
+        {
+          "id": "B",
+          "text": "251.755,499 km²."
+        },
+        {
+          "id": "C",
+          "text": "331.936,949 km²."
+        },
+        {
+          "id": "D",
+          "text": "564.760,429 km²."
+        },
+        {
+          "id": "E",
+          "text": "277.423,627 km²."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Malha Municipal Digital 2025 resultou em 329.651,463 km²; 331.936,949 km² pertence a edições antigas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7665",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O valor atual da área maranhense foi calculado com base",
+      "options": [
+        {
+          "id": "A",
+          "text": "no Censo de 1950."
+        },
+        {
+          "id": "B",
+          "text": "em uma estimativa de rotas rodoviárias."
+        },
+        {
+          "id": "C",
+          "text": "na Malha Municipal Digital 2025."
+        },
+        {
+          "id": "D",
+          "text": "no mar territorial de 12 milhas."
+        },
+        {
+          "id": "E",
+          "text": "em mapas escolares sem escala."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O IBGE reprocessa as áreas sobre a malha territorial anual; a edição atual usa a Malha Municipal Digital 2025. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7666",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em área territorial, o Maranhão ocupa aproximadamente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "1ª posição nacional."
+        },
+        {
+          "id": "B",
+          "text": "3ª posição nacional."
+        },
+        {
+          "id": "C",
+          "text": "5ª posição nacional."
+        },
+        {
+          "id": "D",
+          "text": "12ª posição nacional."
+        },
+        {
+          "id": "E",
+          "text": "8ª posição nacional."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A comparação das áreas das 27 unidades federativas coloca o Maranhão na 8ª posição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7667",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os estados do Nordeste, o Maranhão é o",
+      "options": [
+        {
+          "id": "A",
+          "text": "maior, acima da Bahia."
+        },
+        {
+          "id": "B",
+          "text": "segundo maior, atrás da Bahia."
+        },
+        {
+          "id": "C",
+          "text": "terceiro maior, atrás de Bahia e Piauí."
+        },
+        {
+          "id": "D",
+          "text": "menor em área."
+        },
+        {
+          "id": "E",
+          "text": "quarto maior, atrás de Ceará."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Bahia é o maior estado nordestino e o Maranhão ocupa a segunda posição regional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7668",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para a noção de superfície no edital, a informação mais relevante é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a área territorial oficial, associada à fonte e ao ano da malha."
+        },
+        {
+          "id": "B",
+          "text": "o número de habitantes da capital."
+        },
+        {
+          "id": "C",
+          "text": "o comprimento de uma rodovia federal."
+        },
+        {
+          "id": "D",
+          "text": "uma medida única e invariável do litoral."
+        },
+        {
+          "id": "E",
+          "text": "a soma da área terrestre com o mar territorial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Superfície, neste item, corresponde à área territorial calculada sobre a malha oficial; percentuais acessórios não são o núcleo da cobrança. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7669",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O valor aproximado de 331.937 km² para o Maranhão deve ser tratado como",
+      "options": [
+        {
+          "id": "A",
+          "text": "valor de edição cartográfica anterior, não como área atual."
+        },
+        {
+          "id": "B",
+          "text": "extensão atual da costa."
+        },
+        {
+          "id": "C",
+          "text": "área exclusiva da Amazônia Legal."
+        },
+        {
+          "id": "D",
+          "text": "área do Piauí."
+        },
+        {
+          "id": "E",
+          "text": "medida do mar territorial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O valor foi amplamente publicado em edições anteriores, mas a área oficial atual é 329.651,463 km². Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7670",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pequena mudança anual na área calculada pelo IBGE",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova sempre cessão de território."
+        },
+        {
+          "id": "B",
+          "text": "só pode decorrer de guerra."
+        },
+        {
+          "id": "C",
+          "text": "pode decorrer de refinamento cartográfico, sem perda territorial."
+        },
+        {
+          "id": "D",
+          "text": "transforma divisa em fronteira internacional."
+        },
+        {
+          "id": "E",
+          "text": "é impossível em malhas digitais."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Novos insumos, resolução, linha costeira e atualizações legais podem alterar o cálculo sem implicar cessão territorial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7671",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A associação correta entre direção e limite do Maranhão é",
+      "options": [
+        {
+          "id": "A",
+          "text": "norte-Bahia; sul-Atlântico."
+        },
+        {
+          "id": "B",
+          "text": "leste-Pará; oeste-Piauí."
+        },
+        {
+          "id": "C",
+          "text": "sul-Ceará; oeste-Amazonas."
+        },
+        {
+          "id": "D",
+          "text": "norte-Tocantins; leste-Atlântico."
+        },
+        {
+          "id": "E",
+          "text": "norte-Atlântico; leste-Piauí; sul-Tocantins; oeste-Pará."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O esquema completo é Atlântico ao norte, Piauí a leste, Tocantins ao sul e Pará a oeste. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7672",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao norte, o Maranhão limita-se com",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Bahia."
+        },
+        {
+          "id": "B",
+          "text": "o Oceano Atlântico."
+        },
+        {
+          "id": "C",
+          "text": "o Tocantins."
+        },
+        {
+          "id": "D",
+          "text": "o Piauí."
+        },
+        {
+          "id": "E",
+          "text": "o Pará exclusivamente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A linha costeira atlântica constitui o limite setentrional do estado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7673",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O estado que limita o Maranhão a oeste e noroeste é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Piauí."
+        },
+        {
+          "id": "B",
+          "text": "Ceará."
+        },
+        {
+          "id": "C",
+          "text": "Bahia."
+        },
+        {
+          "id": "D",
+          "text": "Pará."
+        },
+        {
+          "id": "E",
+          "text": "Amazonas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Pará fica a oeste e noroeste; o Piauí está a leste e o Tocantins ao sul. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7674",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Piauí localiza-se, em relação ao Maranhão, principalmente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "leste e sudeste."
+        },
+        {
+          "id": "B",
+          "text": "oeste e noroeste."
+        },
+        {
+          "id": "C",
+          "text": "sul e sudoeste."
+        },
+        {
+          "id": "D",
+          "text": "norte, além do Atlântico."
+        },
+        {
+          "id": "E",
+          "text": "oeste, além do Pará."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A divisa Maranhão-Piauí ocupa os setores leste e sudeste do território maranhense. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7675",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Tocantins limita o Maranhão nos setores",
+      "options": [
+        {
+          "id": "A",
+          "text": "norte e nordeste."
+        },
+        {
+          "id": "B",
+          "text": "leste e nordeste."
+        },
+        {
+          "id": "C",
+          "text": "sul e sudoeste."
+        },
+        {
+          "id": "D",
+          "text": "oeste e noroeste apenas."
+        },
+        {
+          "id": "E",
+          "text": "costeiro e insular."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A divisa com o Tocantins se estende pelos setores sul e sudoeste do Maranhão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7676",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No uso técnico, as linhas MA-PA, MA-PI e MA-TO são",
+      "options": [
+        {
+          "id": "A",
+          "text": "fronteiras internacionais."
+        },
+        {
+          "id": "B",
+          "text": "linhas de maré."
+        },
+        {
+          "id": "C",
+          "text": "limites de biomas."
+        },
+        {
+          "id": "D",
+          "text": "faixas de fronteira."
+        },
+        {
+          "id": "E",
+          "text": "divisas interestaduais."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Elas separam unidades da mesma Federação; fronteira internacional separa Estados soberanos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7677",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Maranhão não integra a faixa constitucional de fronteira porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "não possui litoral."
+        },
+        {
+          "id": "B",
+          "text": "não confronta país estrangeiro."
+        },
+        {
+          "id": "C",
+          "text": "não possui rios limítrofes."
+        },
+        {
+          "id": "D",
+          "text": "fica fora do Brasil."
+        },
+        {
+          "id": "E",
+          "text": "integra todo o bioma Amazônia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A faixa de fronteira acompanha limites internacionais; o Maranhão só possui divisas internas e costa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7678",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um rio de referência em parte relevante da divisa Maranhão-Piauí é o",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gurupi."
+        },
+        {
+          "id": "B",
+          "text": "Araguaia."
+        },
+        {
+          "id": "C",
+          "text": "Mearim."
+        },
+        {
+          "id": "D",
+          "text": "Parnaíba."
+        },
+        {
+          "id": "E",
+          "text": "Itapecuru."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Parnaíba é a principal referência fluvial da divisa leste, mas não se deve generalizar automaticamente para cada trecho legal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7679",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na divisa entre Maranhão e Pará, destaca-se como referência o rio",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gurupi."
+        },
+        {
+          "id": "B",
+          "text": "Parnaíba."
+        },
+        {
+          "id": "C",
+          "text": "Preguiças."
+        },
+        {
+          "id": "D",
+          "text": "Munim."
+        },
+        {
+          "id": "E",
+          "text": "Balsas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Gurupi é referência importante da divisa noroeste com o Pará. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7680",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a divisa Maranhão-Tocantins, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "coincide integralmente com o oceano."
+        },
+        {
+          "id": "B",
+          "text": "é formada somente por linha reta."
+        },
+        {
+          "id": "C",
+          "text": "o rio Tocantins participa de trechos, mas não define sozinho toda a linha."
+        },
+        {
+          "id": "D",
+          "text": "não possui elementos naturais."
+        },
+        {
+          "id": "E",
+          "text": "é fronteira com outro país."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O rio Tocantins é uma referência parcial; a linha completa também depende de outros elementos e descrições legais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7681",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A presença de um rio em uma divisa permite concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda a divisa segue obrigatoriamente sua margem esquerda."
+        },
+        {
+          "id": "B",
+          "text": "a linha nunca usa talvegue."
+        },
+        {
+          "id": "C",
+          "text": "a lei de limites se torna desnecessária."
+        },
+        {
+          "id": "D",
+          "text": "o rio pertence integralmente a um só estado."
+        },
+        {
+          "id": "E",
+          "text": "o trecho exato ainda depende do memorial e da malha oficiais."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Rios podem ser referências, mas o traçado jurídico exige critérios como talvegue, canais, confluências ou marcos descritos oficialmente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7682",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Linha de costa é",
+      "options": [
+        {
+          "id": "A",
+          "text": "sinônimo obrigatório de limite externo do mar territorial."
+        },
+        {
+          "id": "B",
+          "text": "representação cartográfica da interface terra-mar."
+        },
+        {
+          "id": "C",
+          "text": "fronteira internacional terrestre."
+        },
+        {
+          "id": "D",
+          "text": "área de todos os municípios litorâneos."
+        },
+        {
+          "id": "E",
+          "text": "medida invariável em qualquer escala."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A linha de costa representa a interface terra-mar e muda em detalhamento conforme escala e metodologia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7683",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A linha atlântica ao norte do Maranhão deve ser entendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "fronteira terrestre com outro país."
+        },
+        {
+          "id": "B",
+          "text": "limite costeiro do estado, sem constituir fronteira internacional."
+        },
+        {
+          "id": "C",
+          "text": "divisa com a Bahia."
+        },
+        {
+          "id": "D",
+          "text": "limite exclusivo da Amazônia Legal."
+        },
+        {
+          "id": "E",
+          "text": "prolongamento do rio Parnaíba."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Atlântico compõe o limite setentrional e a linha de costa, mas fronteira internacional exige confronto com outro Estado soberano. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7684",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre o comprimento da costa maranhense, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "é invariável em qualquer mapa."
+        },
+        {
+          "id": "B",
+          "text": "coincide necessariamente com a área territorial."
+        },
+        {
+          "id": "C",
+          "text": "pode variar conforme escala, resolução e método de medição."
+        },
+        {
+          "id": "D",
+          "text": "define a posição do extremo sul."
+        },
+        {
+          "id": "E",
+          "text": "é sempre igual ao número de municípios litorâneos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Costas recortadas podem produzir medidas diferentes conforme o detalhamento cartográfico; por isso, o item não exige decorar uma cifra única. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7685",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se duas fontes apresentarem comprimentos diferentes para o litoral maranhense, a primeira verificação deve ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "se uma delas mudou o Maranhão de região."
+        },
+        {
+          "id": "B",
+          "text": "a escala, a edição e o critério de medição usados."
+        },
+        {
+          "id": "C",
+          "text": "se o Piauí deixou de fazer divisa."
+        },
+        {
+          "id": "D",
+          "text": "se a área estadual passou a incluir o mar territorial."
+        },
+        {
+          "id": "E",
+          "text": "se o estado perdeu sua costa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Diferenças de escala e metodologia explicam comprimentos distintos de uma linha costeira detalhada sem implicar alteração territorial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7686",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual grandeza não deve ser confundida com a superfície territorial do Maranhão?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A área do polígono estadual em km²."
+        },
+        {
+          "id": "B",
+          "text": "A área oficial publicada pelo IBGE."
+        },
+        {
+          "id": "C",
+          "text": "A posição relativa entre estados por área."
+        },
+        {
+          "id": "D",
+          "text": "A ordem de grandeza de 329,65 mil km²."
+        },
+        {
+          "id": "E",
+          "text": "O comprimento da linha de costa em quilômetros."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Superfície é área, expressa em km²; comprimento de costa é uma medida linear e responde a outra pergunta cartográfica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7687",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A presença do Oceano Atlântico ao norte do Maranhão significa que o estado",
+      "options": [
+        {
+          "id": "A",
+          "text": "faz fronteira internacional com um país oceânico."
+        },
+        {
+          "id": "B",
+          "text": "não possui divisas terrestres."
+        },
+        {
+          "id": "C",
+          "text": "pertence à Região Norte."
+        },
+        {
+          "id": "D",
+          "text": "possui litoral, sem que isso crie fronteira internacional."
+        },
+        {
+          "id": "E",
+          "text": "deixa de ter limite com o Piauí."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O litoral atlântico é um limite costeiro; fronteira internacional depende de confronto territorial com outro país. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7688",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual associação distingue corretamente a costa das divisas interestaduais do Maranhão?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atlântico ao norte; Pará, Piauí e Tocantins como estados limítrofes."
+        },
+        {
+          "id": "B",
+          "text": "Atlântico a oeste; Bahia, Ceará e Goiás como estados limítrofes."
+        },
+        {
+          "id": "C",
+          "text": "Atlântico ao sul; Amazonas, Pará e Bahia como estados limítrofes."
+        },
+        {
+          "id": "D",
+          "text": "Parnaíba ao norte e Atlântico a leste, sem estados vizinhos."
+        },
+        {
+          "id": "E",
+          "text": "Oceano Atlântico como estado da Federação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Atlântico é o limite costeiro ao norte; as divisas terrestres são com Pará, Piauí e Tocantins. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7689",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual associação entre os quatro pontos extremos e seus setores está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "norte-Carutapera; sul-Alto Parnaíba; leste-Araioses; oeste-São Pedro da Água Branca."
+        },
+        {
+          "id": "B",
+          "text": "norte-Araioses; sul-Carutapera; leste-Alto Parnaíba; oeste-São Luís."
+        },
+        {
+          "id": "C",
+          "text": "norte-São Pedro da Água Branca; sul-Araioses; leste-Carutapera; oeste-Alto Parnaíba."
+        },
+        {
+          "id": "D",
+          "text": "norte-São Luís; sul-Imperatriz; leste-Balsas; oeste-Caxias."
+        },
+        {
+          "id": "E",
+          "text": "norte-Alto Parnaíba; sul-Carutapera; leste-São Pedro da Água Branca; oeste-Araioses."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A tabela oficial associa os extremos aos setores de Carutapera, Alto Parnaíba, Araioses e São Pedro da Água Branca, respectivamente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7690",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um ponto extremo estadual pode não coincidir com a sede do município associado porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "extremos são definidos pela população municipal."
+        },
+        {
+          "id": "B",
+          "text": "sedes sempre ficam no centro geométrico do estado."
+        },
+        {
+          "id": "C",
+          "text": "o extremo deriva da geometria territorial, podendo estar em área rural ou insular."
+        },
+        {
+          "id": "D",
+          "text": "a sede é escolhida pelo Oceano Atlântico."
+        },
+        {
+          "id": "E",
+          "text": "pontos extremos são sempre aeroportos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os extremos são vértices da geometria territorial da malha, não coordenadas administrativas das sedes municipais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7691",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para identificar o extremo leste entre coordenadas expressas em longitude oeste, deve-se procurar",
+      "options": [
+        {
+          "id": "A",
+          "text": "a maior longitude oeste."
+        },
+        {
+          "id": "B",
+          "text": "a maior latitude sul."
+        },
+        {
+          "id": "C",
+          "text": "longitude leste obrigatoriamente."
+        },
+        {
+          "id": "D",
+          "text": "a menor longitude oeste."
+        },
+        {
+          "id": "E",
+          "text": "latitude zero."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "No hemisfério Ocidental, o ponto mais a leste tem menor valor de longitude oeste, isto é, está mais próximo de Greenwich. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7692",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para identificar o extremo sul entre coordenadas expressas em latitude sul, deve-se procurar",
+      "options": [
+        {
+          "id": "A",
+          "text": "a menor latitude sul."
+        },
+        {
+          "id": "B",
+          "text": "a maior latitude sul."
+        },
+        {
+          "id": "C",
+          "text": "a menor longitude oeste."
+        },
+        {
+          "id": "D",
+          "text": "longitude zero."
+        },
+        {
+          "id": "E",
+          "text": "latitude norte."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "No hemisfério Sul, o maior valor absoluto de latitude indica maior afastamento do Equador para o sul. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7693",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O setor associado ao extremo norte do Maranhão fica em",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alto Parnaíba."
+        },
+        {
+          "id": "B",
+          "text": "Araioses."
+        },
+        {
+          "id": "C",
+          "text": "São Pedro da Água Branca."
+        },
+        {
+          "id": "D",
+          "text": "Carutapera."
+        },
+        {
+          "id": "E",
+          "text": "Balsas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As fontes consultadas associam o extremo norte ao setor costeiro/insular de Carutapera, mantendo cautela quanto ao topônimo exato do vértice. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7694",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O extremo leste do Maranhão está associado ao município de",
+      "options": [
+        {
+          "id": "A",
+          "text": "Araioses."
+        },
+        {
+          "id": "B",
+          "text": "Carutapera."
+        },
+        {
+          "id": "C",
+          "text": "Imperatriz."
+        },
+        {
+          "id": "D",
+          "text": "Alto Parnaíba."
+        },
+        {
+          "id": "E",
+          "text": "São Pedro da Água Branca."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Araioses, no sistema do Delta do Parnaíba, está associado ao extremo leste. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7695",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O extremo oeste do Maranhão está associado a",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tutóia."
+        },
+        {
+          "id": "B",
+          "text": "Araioses."
+        },
+        {
+          "id": "C",
+          "text": "São Pedro da Água Branca."
+        },
+        {
+          "id": "D",
+          "text": "Carutapera."
+        },
+        {
+          "id": "E",
+          "text": "São Luís."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O setor de São Pedro da Água Branca, próximo ao sistema Tocantins-Araguaia, contém o extremo oeste. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7696",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O setor do extremo sul do Maranhão é associado a",
+      "options": [
+        {
+          "id": "A",
+          "text": "Carutapera e rio Gurupi."
+        },
+        {
+          "id": "B",
+          "text": "Araioses e Delta do Parnaíba."
+        },
+        {
+          "id": "C",
+          "text": "São Luís e ilha homônima."
+        },
+        {
+          "id": "D",
+          "text": "São Pedro da Água Branca e litoral."
+        },
+        {
+          "id": "E",
+          "text": "Alto Parnaíba e faixa da Chapada das Mangabeiras."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O extremo sul fica no setor de Alto Parnaíba, na faixa da Chapada das Mangabeiras. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7697",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre coordenadas expressas em latitude sul, o ponto mais ao norte tem",
+      "options": [
+        {
+          "id": "A",
+          "text": "a maior longitude oeste."
+        },
+        {
+          "id": "B",
+          "text": "o menor valor absoluto de latitude."
+        },
+        {
+          "id": "C",
+          "text": "sempre latitude zero."
+        },
+        {
+          "id": "D",
+          "text": "o maior valor absoluto de latitude."
+        },
+        {
+          "id": "E",
+          "text": "longitude leste."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "No hemisfério Sul, aproximar-se do Equador reduz o valor absoluto da latitude. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7698",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre coordenadas expressas em longitude oeste, o ponto mais a oeste tem",
+      "options": [
+        {
+          "id": "A",
+          "text": "menor latitude obrigatoriamente."
+        },
+        {
+          "id": "B",
+          "text": "longitude zero."
+        },
+        {
+          "id": "C",
+          "text": "menor valor absoluto de longitude."
+        },
+        {
+          "id": "D",
+          "text": "maior valor absoluto de longitude."
+        },
+        {
+          "id": "E",
+          "text": "longitude leste."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "No hemisfério Ocidental, longitudes oeste maiores em valor absoluto ficam mais distantes de Greenwich para oeste. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7699",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O extremo leste tem longitude 41°47′46″ O porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "é a menor longitude oeste entre os extremos."
+        },
+        {
+          "id": "B",
+          "text": "é a maior latitude sul."
+        },
+        {
+          "id": "C",
+          "text": "fica no hemisfério Oriental."
+        },
+        {
+          "id": "D",
+          "text": "coincide com o extremo sul."
+        },
+        {
+          "id": "E",
+          "text": "fica a oeste de 48°45′19″ O."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Entre valores oeste, 41°47′46″ é menor que 48°45′19″ e, portanto, está mais a leste. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7700",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As coordenadas dos pontos extremos do IBGE representam",
+      "options": [
+        {
+          "id": "A",
+          "text": "sedes municipais obrigatoriamente."
+        },
+        {
+          "id": "B",
+          "text": "médias da população."
+        },
+        {
+          "id": "C",
+          "text": "posições derivadas da geometria territorial da malha."
+        },
+        {
+          "id": "D",
+          "text": "capitais regionais."
+        },
+        {
+          "id": "E",
+          "text": "centroides dos municípios."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os extremos vêm dos vértices da geometria territorial, não de sedes, centroides ou dados populacionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7701",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em uma questão sobre pontos extremos, o procedimento mais seguro é",
+      "options": [
+        {
+          "id": "A",
+          "text": "usar a fonte oficial e identificar a edição da malha de referência."
+        },
+        {
+          "id": "B",
+          "text": "usar apenas um mapa turístico sem data."
+        },
+        {
+          "id": "C",
+          "text": "tomar a sede municipal como extremo automático."
+        },
+        {
+          "id": "D",
+          "text": "ignorar ilhas representadas na geometria."
+        },
+        {
+          "id": "E",
+          "text": "substituir coordenadas por estimativas rodoviárias."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pontos extremos são resultados cartográficos; fonte, edição e geometria de referência são essenciais para interpretar pequenas diferenças entre publicações. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7702",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ilhas pertencentes ao território estadual",
+      "options": [
+        {
+          "id": "A",
+          "text": "nunca influenciam pontos extremos."
+        },
+        {
+          "id": "B",
+          "text": "podem conter o vértice mais ao norte, leste ou oeste da geometria estadual."
+        },
+        {
+          "id": "C",
+          "text": "transformam automaticamente a costa em fronteira internacional."
+        },
+        {
+          "id": "D",
+          "text": "não são representadas em malhas oficiais."
+        },
+        {
+          "id": "E",
+          "text": "fazem o estado mudar de região geográfica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A geometria estadual inclui porções insulares pertencentes ao território; por isso, uma ilha pode conter um ponto extremo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7703",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O Oceano Atlântico no limite norte do Maranhão",
+      "options": [
+        {
+          "id": "A",
+          "text": "é uma divisa com outro estado brasileiro."
+        },
+        {
+          "id": "B",
+          "text": "coloca o Maranhão na faixa de fronteira internacional."
+        },
+        {
+          "id": "C",
+          "text": "é limite costeiro e não cria fronteira internacional com outro país."
+        },
+        {
+          "id": "D",
+          "text": "substitui as divisas com Pará, Piauí e Tocantins."
+        },
+        {
+          "id": "E",
+          "text": "define o extremo sul."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A costa atlântica delimita o estado ao norte, mas fronteira internacional exige confronto com território de outro Estado soberano. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7704",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A formulação adequada sobre o extremo norte do Maranhão é",
+      "options": [
+        {
+          "id": "A",
+          "text": "associá-lo ao setor de Carutapera e usar a coordenada oficial, sem tratá-lo como coordenada da sede municipal."
+        },
+        {
+          "id": "B",
+          "text": "identificá-lo obrigatoriamente com o centro urbano de São Luís."
+        },
+        {
+          "id": "C",
+          "text": "situá-lo em Alto Parnaíba."
+        },
+        {
+          "id": "D",
+          "text": "confundi-lo com o extremo leste de Araioses."
+        },
+        {
+          "id": "E",
+          "text": "localizá-lo 12 milhas mar adentro."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O extremo norte decorre da geometria territorial e é associado ao setor costeiro/insular de Carutapera, não à sede municipal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7705",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se uma futura publicação oficial revisar os pontos extremos do Maranhão, o material de estudo deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "manter para sempre a edição antiga, independentemente da fonte."
+        },
+        {
+          "id": "B",
+          "text": "usar notícia sem coordenadas como substituta automática."
+        },
+        {
+          "id": "C",
+          "text": "somar os valores antigos e novos."
+        },
+        {
+          "id": "D",
+          "text": "priorizar a nova publicação oficial e registrar a edição utilizada."
+        },
+        {
+          "id": "E",
+          "text": "abandonar toda referência cartográfica."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Atualização cartográfica deve ser incorporada quando houver publicação técnica oficial; fontes transitórias sem resultado final não substituem a referência oficial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7706",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à Amazônia Legal, o Maranhão",
+      "options": [
+        {
+          "id": "A",
+          "text": "está totalmente excluído."
+        },
+        {
+          "id": "B",
+          "text": "integra-a por todo o território."
+        },
+        {
+          "id": "C",
+          "text": "deixa de pertencer ao Nordeste."
+        },
+        {
+          "id": "D",
+          "text": "integra apenas o bioma, não o recorte legal."
+        },
+        {
+          "id": "E",
+          "text": "participa parcialmente, na porção a oeste de 44° O."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O recorte legal alcança a parte maranhense a oeste do meridiano 44° O; isso não muda sua região geográfica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7707",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O meridiano usado historicamente para delimitar a porção maranhense da Amazônia Legal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "0°."
+        },
+        {
+          "id": "B",
+          "text": "44° O."
+        },
+        {
+          "id": "C",
+          "text": "10° S."
+        },
+        {
+          "id": "D",
+          "text": "48° L."
+        },
+        {
+          "id": "E",
+          "text": "150° O."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A legislação inclui na área amazônica a parte do Maranhão situada a oeste do meridiano 44° O. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7708",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No contexto deste assunto, a Amazônia Legal é uma pegadinha de localização porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "transforma todo o Maranhão em Região Norte."
+        },
+        {
+          "id": "B",
+          "text": "elimina as divisas interestaduais do estado."
+        },
+        {
+          "id": "C",
+          "text": "é sinônimo obrigatório do bioma Amazônia."
+        },
+        {
+          "id": "D",
+          "text": "define a área oficial do Maranhão em lugar do IBGE."
+        },
+        {
+          "id": "E",
+          "text": "parte do Maranhão integra o recorte legal sem deixar de pertencer à Região Nordeste."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Amazônia Legal é um recorte jurídico-administrativo parcial e não altera a região geográfica oficial do Maranhão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7709",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Amazônia Legal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "recorte jurídico-administrativo distinto de região geográfica e bioma."
+        },
+        {
+          "id": "B",
+          "text": "sinônimo exato da Região Norte."
+        },
+        {
+          "id": "C",
+          "text": "um novo estado."
+        },
+        {
+          "id": "D",
+          "text": "somente a bacia do Amazonas."
+        },
+        {
+          "id": "E",
+          "text": "todo o território maranhense."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Amazônia Legal delimita a atuação de políticas e da SUDAM; não coincide necessariamente com região, bioma ou bacia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7710",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O meridiano 44° O, relacionado ao recorte da Amazônia Legal no Maranhão, não deve ser confundido com",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma coordenada geográfica."
+        },
+        {
+          "id": "B",
+          "text": "uma divisa interestadual ou fronteira internacional do Maranhão."
+        },
+        {
+          "id": "C",
+          "text": "um meridiano."
+        },
+        {
+          "id": "D",
+          "text": "uma referência de longitude oeste."
+        },
+        {
+          "id": "E",
+          "text": "um elemento cartográfico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O meridiano serve ao recorte jurídico-administrativo da Amazônia Legal; as divisas do Maranhão são com PA, PI e TO, além da costa atlântica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7711",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A posição ocidental do Maranhão no Nordeste ajuda a explicar",
+      "options": [
+        {
+          "id": "A",
+          "text": "sua localização no hemisfério Oriental."
+        },
+        {
+          "id": "B",
+          "text": "a ausência de divisa com o Pará."
+        },
+        {
+          "id": "C",
+          "text": "sua fronteira com a Argentina."
+        },
+        {
+          "id": "D",
+          "text": "sua localização ao norte do Equador."
+        },
+        {
+          "id": "E",
+          "text": "a transição regional e sua inclusão parcial na Amazônia Legal."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O oeste maranhense se aproxima da Região Norte e parte dele integra o recorte legal amazônico, sem deixar o Nordeste. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7712",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual elemento pode mudar entre edições cartográficas sem alterar necessariamente a lei de divisa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A região geográfica oficial do estado."
+        },
+        {
+          "id": "B",
+          "text": "O detalhamento da geometria e o valor calculado da área."
+        },
+        {
+          "id": "C",
+          "text": "A inexistência do Oceano Atlântico."
+        },
+        {
+          "id": "D",
+          "text": "O hemisfério do Maranhão."
+        },
+        {
+          "id": "E",
+          "text": "A condição de unidade federativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Melhor resolução e novos insumos refinam o polígono e sua área, mesmo sem mudança jurídica do território. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7713",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se a área territorial e os pontos extremos forem publicados com base em edições diferentes da malha, deve-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "indicar a fonte e a edição de cada dado, sem presumir que usam a mesma base."
+        },
+        {
+          "id": "B",
+          "text": "descartar ambos os dados."
+        },
+        {
+          "id": "C",
+          "text": "somar as duas malhas."
+        },
+        {
+          "id": "D",
+          "text": "transformar a diferença em litígio territorial."
+        },
+        {
+          "id": "E",
+          "text": "usar apenas a edição mais antiga."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Produtos cartográficos podem ter cronologias diferentes; a solução é registrar a referência de cada informação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7714",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se duas edições oficiais apresentarem pequena diferença na área calculada do Maranhão, isso",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova automaticamente cessão de território."
+        },
+        {
+          "id": "B",
+          "text": "significa mudança de região geográfica."
+        },
+        {
+          "id": "C",
+          "text": "pode refletir refinamento da geometria e dos insumos cartográficos."
+        },
+        {
+          "id": "D",
+          "text": "elimina a divisa com o Piauí."
+        },
+        {
+          "id": "E",
+          "text": "transforma a costa em fronteira internacional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pequenas diferenças entre edições podem resultar de aprimoramentos cartográficos e não demonstram, por si só, mudança jurídica do território. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7715",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No item do edital, superfície deve ser estudada principalmente como",
+      "options": [
+        {
+          "id": "A",
+          "text": "número de habitantes."
+        },
+        {
+          "id": "B",
+          "text": "extensão de rodovias."
+        },
+        {
+          "id": "C",
+          "text": "área territorial do polígono oficial, com ano e metodologia."
+        },
+        {
+          "id": "D",
+          "text": "comprimento único do litoral."
+        },
+        {
+          "id": "E",
+          "text": "soma da área terrestre com 12 milhas marítimas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Superfície é a área territorial calculada sobre a malha oficial; população, costa e mar territorial são grandezas distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7716",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual conjunto contém somente limites do Maranhão?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bahia, Ceará, Goiás e Atlântico."
+        },
+        {
+          "id": "B",
+          "text": "Amazonas, Pará, Piauí e Bahia."
+        },
+        {
+          "id": "C",
+          "text": "Ceará, Tocantins, Goiás e Atlântico."
+        },
+        {
+          "id": "D",
+          "text": "Pará, Amazonas, Bahia e Piauí."
+        },
+        {
+          "id": "E",
+          "text": "Pará, Piauí, Tocantins e Oceano Atlântico."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Os três estados limítrofes são Pará, Piauí e Tocantins, além do Atlântico ao norte. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7717",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual distinção cartográfica está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "superfície é área; linha de costa é traçado/comprimento; divisa interestadual separa estados."
+        },
+        {
+          "id": "B",
+          "text": "superfície e litoral são sempre a mesma grandeza."
+        },
+        {
+          "id": "C",
+          "text": "divisa interestadual separa países soberanos."
+        },
+        {
+          "id": "D",
+          "text": "linha de costa é área expressa em km²."
+        },
+        {
+          "id": "E",
+          "text": "fronteira internacional é sinônimo de litoral."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As três noções medem ou descrevem objetos diferentes e não devem ser fundidas em uma única grandeza territorial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7718",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A síntese territorial correta do Maranhão é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Região Norte, 331.937 km² atuais e fronteira internacional."
+        },
+        {
+          "id": "B",
+          "text": "Nordeste, sem litoral e integralmente na Amazônia Legal."
+        },
+        {
+          "id": "C",
+          "text": "Nordeste, limitado por Bahia, Ceará e Amazonas."
+        },
+        {
+          "id": "D",
+          "text": "Nordeste, cerca de 329,65 mil km², Atlântico ao norte e divisas com PA, PI e TO."
+        },
+        {
+          "id": "E",
+          "text": "Centro-Oeste, com mar territorial incluído na área."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alternativa reúne região, ordem de grandeza da área e todos os limites corretos, sem confundir costa com fronteira internacional. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}

@@ -1,0 +1,1926 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "q4359",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A finalidade central da LGPD é",
+      "options": [
+        {
+          "id": "A",
+          "text": "regular apenas bancos de dados mantidos por empresas privadas."
+        },
+        {
+          "id": "B",
+          "text": "proteger exclusivamente informações classificadas como sigilosas."
+        },
+        {
+          "id": "C",
+          "text": "disciplinar somente dados tratados em meio digital."
+        },
+        {
+          "id": "D",
+          "text": "criar direito absoluto de impedir qualquer tratamento."
+        },
+        {
+          "id": "E",
+          "text": "proteger liberdade, privacidade e livre desenvolvimento da personalidade da pessoa natural."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A lei protege direitos fundamentais e alcança tratamento público ou privado, físico ou digital. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4360",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Empresa sem sede no Brasil oferece serviço a pessoas localizadas no país e trata seus dados. A LGPD",
+      "options": [
+        {
+          "id": "A",
+          "text": "não se aplica porque o agente não possui sede nacional."
+        },
+        {
+          "id": "B",
+          "text": "aplica-se apenas se todos os titulares forem brasileiros."
+        },
+        {
+          "id": "C",
+          "text": "depende exclusivamente do local físico do servidor."
+        },
+        {
+          "id": "D",
+          "text": "pode ser aplicável em razão do objetivo da atividade, ainda que os servidores estejam no exterior."
+        },
+        {
+          "id": "E",
+          "text": "só se aplica depois de autorização individual da ANPD."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A aplicação territorial considera o local do tratamento, o público localizado no Brasil e a coleta no território. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4361",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Pessoa natural organiza, sem finalidade econômica, os contatos de sua agenda doméstica. Esse tratamento",
+      "options": [
+        {
+          "id": "A",
+          "text": "submete-se sempre à LGPD integralmente."
+        },
+        {
+          "id": "B",
+          "text": "é permitido somente com consentimento escrito dos contatos."
+        },
+        {
+          "id": "C",
+          "text": "é automaticamente tratamento de dado sensível."
+        },
+        {
+          "id": "D",
+          "text": "depende de registro prévio na ANPD."
+        },
+        {
+          "id": "E",
+          "text": "está excluído da LGPD por ser exclusivamente particular e não econômico."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A exclusão do art. 4º alcança o uso exclusivamente particular e não econômico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4362",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A exclusão da LGPD para tratamento destinado exclusivamente à segurança pública significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer uso estatal fica livre de limites jurídicos."
+        },
+        {
+          "id": "B",
+          "text": "empresas privadas podem usar esses dados em finalidade própria."
+        },
+        {
+          "id": "C",
+          "text": "os princípios gerais de proteção perdem relevância."
+        },
+        {
+          "id": "D",
+          "text": "todo dado deve ser publicado para controle social."
+        },
+        {
+          "id": "E",
+          "text": "a matéria deve ser disciplinada por legislação específica com medidas proporcionais, necessárias e compatíveis com direitos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A exclusão não cria zona sem proteção e exige salvaguardas e devido processo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4363",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para a LGPD, dado pessoal é informação relacionada",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclusivamente a quem tenha CPF informado."
+        },
+        {
+          "id": "B",
+          "text": "a pessoa jurídica ou natural, sem distinção."
+        },
+        {
+          "id": "C",
+          "text": "a pessoa natural identificada ou identificável."
+        },
+        {
+          "id": "D",
+          "text": "somente a atributo íntimo ou sensível."
+        },
+        {
+          "id": "E",
+          "text": "apenas a registro mantido em banco digital."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Nome e CPF não são requisitos; a identificação pode ser indireta e contextual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4364",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale o dado que NÃO integra, por si só, o rol legal de dados pessoais sensíveis.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Biometria vinculada a uma pessoa."
+        },
+        {
+          "id": "B",
+          "text": "Informação sobre saúde."
+        },
+        {
+          "id": "C",
+          "text": "Opinião política."
+        },
+        {
+          "id": "D",
+          "text": "Renda mensal."
+        },
+        {
+          "id": "E",
+          "text": "Origem racial ou étnica."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Renda é dado pessoal comum; as demais categorias estão no rol de dados sensíveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4365",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um conjunto foi transformado de modo que a associação a indivíduo não é razoavelmente possível com os meios disponíveis. Enquanto essa condição persistir, ele é",
+      "options": [
+        {
+          "id": "A",
+          "text": "pseudonimizado necessariamente."
+        },
+        {
+          "id": "B",
+          "text": "bloqueado, com suspensão temporária das operações."
+        },
+        {
+          "id": "C",
+          "text": "anonimizado e, em regra, não é considerado dado pessoal para a LGPD."
+        },
+        {
+          "id": "D",
+          "text": "sensível apenas porque sofreu transformação técnica."
+        },
+        {
+          "id": "E",
+          "text": "eliminado, ainda que continue armazenado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Anonimização efetiva afasta a identificação razoável; o regime pode voltar se a reversão se tornar viável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4366",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O nome é substituído por código e a tabela de correspondência fica separada em ambiente seguro. A técnica é",
+      "options": [
+        {
+          "id": "A",
+          "text": "anonimização irreversível."
+        },
+        {
+          "id": "B",
+          "text": "eliminação definitiva."
+        },
+        {
+          "id": "C",
+          "text": "bloqueio temporário."
+        },
+        {
+          "id": "D",
+          "text": "portabilidade."
+        },
+        {
+          "id": "E",
+          "text": "pseudonimização, e o dado continua pessoal."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A informação adicional permite reassociação, embora a técnica reduza risco. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4367",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual operação está abrangida pelo conceito legal de tratamento?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Somente vender banco a terceiro."
+        },
+        {
+          "id": "B",
+          "text": "Apenas coletar automaticamente."
+        },
+        {
+          "id": "C",
+          "text": "Exclusivamente publicar na Internet."
+        },
+        {
+          "id": "D",
+          "text": "Somente analisar dado sensível."
+        },
+        {
+          "id": "E",
+          "text": "Armazenar, consultar, compartilhar e também eliminar dados."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O conceito é amplo e inclui praticamente todo o ciclo de vida do dado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4368",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na terminologia da LGPD, bloqueio significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "suspensão temporária das operações de tratamento, preservada a guarda do dado."
+        },
+        {
+          "id": "B",
+          "text": "exclusão definitiva do dado."
+        },
+        {
+          "id": "C",
+          "text": "anonimização obrigatória do banco."
+        },
+        {
+          "id": "D",
+          "text": "transferência internacional para ambiente seguro."
+        },
+        {
+          "id": "E",
+          "text": "publicação do dado para transparência."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Bloqueio é temporário; eliminação é exclusão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4369",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Órgão define finalidade, campos e prazo de retenção de cadastro público. Nessa operação, atua como",
+      "options": [
+        {
+          "id": "A",
+          "text": "operador apenas por ser órgão público."
+        },
+        {
+          "id": "B",
+          "text": "titular dos dados."
+        },
+        {
+          "id": "C",
+          "text": "encarregado externo."
+        },
+        {
+          "id": "D",
+          "text": "controlador."
+        },
+        {
+          "id": "E",
+          "text": "autoridade certificadora."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Quem decide finalidade e elementos essenciais exerce a função de controlador. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4370",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Empresa processa folha de pagamento somente conforme instruções e finalidades definidas pelo órgão. Ela tende a ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "controladora porque é empresa privada."
+        },
+        {
+          "id": "B",
+          "text": "titular dos dados."
+        },
+        {
+          "id": "C",
+          "text": "ANPD."
+        },
+        {
+          "id": "D",
+          "text": "operadora."
+        },
+        {
+          "id": "E",
+          "text": "encarregada obrigatória do órgão."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Operador trata em nome do controlador; natureza pública ou privada não define o papel. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4371",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "São agentes de tratamento, na definição da LGPD,",
+      "options": [
+        {
+          "id": "A",
+          "text": "titular e encarregado."
+        },
+        {
+          "id": "B",
+          "text": "ANPD e titular."
+        },
+        {
+          "id": "C",
+          "text": "controlador, operador e qualquer servidor com acesso."
+        },
+        {
+          "id": "D",
+          "text": "encarregado e autoridade certificadora."
+        },
+        {
+          "id": "E",
+          "text": "controlador e operador."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O encarregado atua como canal e orientador, mas não integra a expressão agentes de tratamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4372",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A função central do encarregado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir o controlador em toda responsabilidade."
+        },
+        {
+          "id": "B",
+          "text": "julgar infrações e aplicar sanções."
+        },
+        {
+          "id": "C",
+          "text": "definir sozinho todas as finalidades."
+        },
+        {
+          "id": "D",
+          "text": "autorizar previamente cada tratamento."
+        },
+        {
+          "id": "E",
+          "text": "atuar como canal entre controlador, titulares e ANPD e orientar a organização."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O encarregado comunica e orienta; a conformidade continua sob responsabilidade do agente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4373",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Conforme a regulamentação, a indicação do encarregado",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige certificação profissional reconhecida pela ANPD."
+        },
+        {
+          "id": "B",
+          "text": "só pode recair sobre empregado do controlador."
+        },
+        {
+          "id": "C",
+          "text": "deve ser formalizada, pode recair em pessoa natural ou jurídica e exige contato público e atualizado."
+        },
+        {
+          "id": "D",
+          "text": "dispensa substituto em ausências."
+        },
+        {
+          "id": "E",
+          "text": "é sempre facultativa para órgão abrangido pela LAI."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Resolução nº 18/2024 disciplina ato formal, publicidade, recursos e substituição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4374",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em 2026, a sigla ANPD designa",
+      "options": [
+        {
+          "id": "A",
+          "text": "Autoridade Nacional de Processamento Digital."
+        },
+        {
+          "id": "B",
+          "text": "Agência Nacional de Publicidade de Dados."
+        },
+        {
+          "id": "C",
+          "text": "Agência Nacional de Proteção de Dados."
+        },
+        {
+          "id": "D",
+          "text": "Autoridade Nacional de Documentos Públicos."
+        },
+        {
+          "id": "E",
+          "text": "Agência Nacional de Proteção Digital apenas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei nº 15.352/2026 atualizou a denominação e preservou a sigla. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4375",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O princípio que exige propósito legítimo, específico, explícito e informado é o da",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualidade dos dados."
+        },
+        {
+          "id": "B",
+          "text": "finalidade."
+        },
+        {
+          "id": "C",
+          "text": "livre acesso."
+        },
+        {
+          "id": "D",
+          "text": "segurança."
+        },
+        {
+          "id": "E",
+          "text": "não discriminação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Finalidade responde para que o tratamento ocorre. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4376",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Formulário público solicita dados sem utilidade para a política executada. A coleta excessiva afronta diretamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "a portabilidade."
+        },
+        {
+          "id": "B",
+          "text": "a proteção do crédito."
+        },
+        {
+          "id": "C",
+          "text": "a publicização da infração."
+        },
+        {
+          "id": "D",
+          "text": "o livre acesso."
+        },
+        {
+          "id": "E",
+          "text": "o princípio da necessidade."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Necessidade limita o tratamento ao mínimo pertinente, proporcional e não excessivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4377",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Fornecer informações claras, precisas e acessíveis sobre o tratamento concretiza",
+      "options": [
+        {
+          "id": "A",
+          "text": "o princípio da transparência."
+        },
+        {
+          "id": "B",
+          "text": "a tutela da saúde."
+        },
+        {
+          "id": "C",
+          "text": "a oposição."
+        },
+        {
+          "id": "D",
+          "text": "a proteção do crédito."
+        },
+        {
+          "id": "E",
+          "text": "a não discriminação apenas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Transparência diz respeito à informação oferecida ao titular e à sociedade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4378",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Adotar controles eficazes e manter evidências capazes de demonstrar conformidade aplica",
+      "options": [
+        {
+          "id": "A",
+          "text": "portabilidade."
+        },
+        {
+          "id": "B",
+          "text": "exclusão territorial."
+        },
+        {
+          "id": "C",
+          "text": "responsabilização e prestação de contas."
+        },
+        {
+          "id": "D",
+          "text": "proteção da vida."
+        },
+        {
+          "id": "E",
+          "text": "anonimização automática."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Prestação de contas exige demonstrar, não apenas declarar, a observância da LGPD. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4379",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O fato de dado pessoal estar publicamente acessível",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoriza qualquer reutilização."
+        },
+        {
+          "id": "B",
+          "text": "transforma o dado em anonimizado."
+        },
+        {
+          "id": "C",
+          "text": "elimina os direitos do titular."
+        },
+        {
+          "id": "D",
+          "text": "dispensa base legal."
+        },
+        {
+          "id": "E",
+          "text": "não elimina finalidade, boa-fé, necessidade, direitos e demais regras aplicáveis."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Publicidade anterior não converte dado pessoal em recurso de uso irrestrito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4380",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Órgão executa cadastro obrigatório previsto em lei. A análise mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "exigir consentimento porque é a única base legal."
+        },
+        {
+          "id": "B",
+          "text": "usar legítimo interesse para qualquer dado sensível."
+        },
+        {
+          "id": "C",
+          "text": "identificar obrigação legal, competência ou política pública, em vez de exigir consentimento artificial."
+        },
+        {
+          "id": "D",
+          "text": "dispensar transparência por ser tratamento público."
+        },
+        {
+          "id": "E",
+          "text": "tratar sem base porque a finalidade é administrativa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O poder público frequentemente atua por obrigação ou atribuição legal, sempre sujeito aos princípios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4381",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Consentimento válido deve ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "genérico e irrevogável."
+        },
+        {
+          "id": "B",
+          "text": "presumido pelo silêncio em qualquer contexto."
+        },
+        {
+          "id": "C",
+          "text": "livre, informado, inequívoco, para finalidade determinada e demonstrável."
+        },
+        {
+          "id": "D",
+          "text": "obrigatório em toda política pública."
+        },
+        {
+          "id": "E",
+          "text": "oculto em cláusula extensa e ambígua."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Autorização genérica é nula e a revogação deve ser facilitada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4382",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O teste de legítimo interesse recomendado pela ANPD envolve",
+      "options": [
+        {
+          "id": "A",
+          "text": "consentimento, portabilidade e eliminação."
+        },
+        {
+          "id": "B",
+          "text": "finalidade, necessidade, balanceamento e salvaguardas."
+        },
+        {
+          "id": "C",
+          "text": "somente vantagem econômica do controlador."
+        },
+        {
+          "id": "D",
+          "text": "apenas publicação de aviso."
+        },
+        {
+          "id": "E",
+          "text": "classificação, sigilo e multa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A hipótese exige interesse concreto, meio necessário e compatibilidade com direitos e expectativas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4383",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre legítimo interesse, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoriza qualquer tratamento público sem justificativa."
+        },
+        {
+          "id": "B",
+          "text": "não é base autônoma para tratamento de dados sensíveis."
+        },
+        {
+          "id": "C",
+          "text": "substitui obrigação legal sempre."
+        },
+        {
+          "id": "D",
+          "text": "dispensa transparência."
+        },
+        {
+          "id": "E",
+          "text": "é idêntico ao consentimento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 11 não contém legítimo interesse entre as bases de dados sensíveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4384",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Dado sensível pode ser tratado sem consentimento quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "houver mera conveniência administrativa."
+        },
+        {
+          "id": "B",
+          "text": "o dado estiver em planilha interna."
+        },
+        {
+          "id": "C",
+          "text": "a operação for indispensável e se enquadrar em hipótese taxativa do art. 11, como política pública ou pesquisa."
+        },
+        {
+          "id": "D",
+          "text": "o controlador invocar legítimo interesse genericamente."
+        },
+        {
+          "id": "E",
+          "text": "o titular não responder ao e-mail."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Dados sensíveis possuem bases próprias e requisitos reforçados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4385",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Segundo o entendimento consolidado pela ANPD, dados de crianças e adolescentes",
+      "options": [
+        {
+          "id": "A",
+          "text": "dependem sempre e exclusivamente de consentimento."
+        },
+        {
+          "id": "B",
+          "text": "podem ser tratados com bases dos arts. 7º ou 11, desde que o melhor interesse prevaleça."
+        },
+        {
+          "id": "C",
+          "text": "não podem ser tratados pelo poder público."
+        },
+        {
+          "id": "D",
+          "text": "deixam de ser pessoais em ambiente escolar."
+        },
+        {
+          "id": "E",
+          "text": "podem ser usados livremente quando coletados por aplicativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O melhor interesse é critério central, sem reduzir toda operação a uma única base. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4386",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quando o consentimento é usado para tratar dados de criança,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o silêncio do usuário sempre basta."
+        },
+        {
+          "id": "B",
+          "text": "não é necessário informar o tipo de dado coletado."
+        },
+        {
+          "id": "C",
+          "text": "a finalidade pode ser genérica."
+        },
+        {
+          "id": "D",
+          "text": "devem ser observados os requisitos específicos do art. 14, inclusive consentimento específico e em destaque de responsável, salvo exceção legal."
+        },
+        {
+          "id": "E",
+          "text": "qualquer terceiro pode consentir."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A escolha do consentimento atrai requisitos reforçados, além do melhor interesse. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4387",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Plataforma escolar exige biometria, localização permanente e preferências de consumo apenas para entregar exercícios. O ponto central é",
+      "options": [
+        {
+          "id": "A",
+          "text": "aceitar a coleta porque toda tecnologia educacional é política pública."
+        },
+        {
+          "id": "B",
+          "text": "considerar todos os dados anonimizados por serem de crianças."
+        },
+        {
+          "id": "C",
+          "text": "dispensar transparência por se tratar de ensino."
+        },
+        {
+          "id": "D",
+          "text": "avaliar base legal, melhor interesse e necessidade, pois parte dos dados pode ser excessiva."
+        },
+        {
+          "id": "E",
+          "text": "usar legítimo interesse automaticamente para a biometria."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Finalidade legítima não autoriza coleta de qualquer categoria. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4388",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Entre os direitos do titular estão",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclusão automática de toda informação pública."
+        },
+        {
+          "id": "B",
+          "text": "confirmação, acesso e correção de dados incompletos, inexatos ou desatualizados."
+        },
+        {
+          "id": "C",
+          "text": "impedimento absoluto de obrigação legal."
+        },
+        {
+          "id": "D",
+          "text": "aplicação de multa diretamente ao operador."
+        },
+        {
+          "id": "E",
+          "text": "anonimização de qualquer dado por simples preferência."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 18 enumera direitos, mas alguns dependem de requisitos e exceções. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4389",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A eliminação de dados tratados com consentimento",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre imediata, mesmo com dever de guarda."
+        },
+        {
+          "id": "B",
+          "text": "só pode ser pedida à ANPD."
+        },
+        {
+          "id": "C",
+          "text": "elimina também todos os atos jurídicos anteriores."
+        },
+        {
+          "id": "D",
+          "text": "não é absoluta e admite conservação em hipóteses legais, como obrigação legal ou uso exclusivo anonimizado."
+        },
+        {
+          "id": "E",
+          "text": "é proibida para qualquer dado digital."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A LGPD preserva hipóteses específicas de conservação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4390",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Revogação do consentimento e oposição distinguem-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "são sinônimos absolutos."
+        },
+        {
+          "id": "B",
+          "text": "oposição só existe para dados anonimizados."
+        },
+        {
+          "id": "C",
+          "text": "revogação é sanção da ANPD."
+        },
+        {
+          "id": "D",
+          "text": "a revogação atua sobre consentimento; a oposição pode questionar tratamento sem consentimento em descumprimento."
+        },
+        {
+          "id": "E",
+          "text": "oposição elimina toda obrigação legal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os institutos possuem fundamentos e alcances diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4391",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em decisão tomada unicamente com base em tratamento automatizado que afete interesses, o titular pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "exigir sempre que uma pessoa natural substitua o sistema, pela literalidade atual."
+        },
+        {
+          "id": "B",
+          "text": "pedir revisão e informações sobre critérios e procedimentos, preservados segredos protegidos."
+        },
+        {
+          "id": "C",
+          "text": "apagar o algoritmo do controlador."
+        },
+        {
+          "id": "D",
+          "text": "impedir toda automação no setor público."
+        },
+        {
+          "id": "E",
+          "text": "dispensar autenticação do pedido."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O direito de revisão permanece; a lei vigente não exige expressamente revisão humana. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4392",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao autenticar pedido de acesso, o controlador deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "usar verificação proporcional ao risco, evitando tanto liberação indevida quanto coleta excessiva."
+        },
+        {
+          "id": "B",
+          "text": "dispensar qualquer verificação."
+        },
+        {
+          "id": "C",
+          "text": "exigir sempre renda, biometria e nome dos pais."
+        },
+        {
+          "id": "D",
+          "text": "publicar o pedido e a resposta."
+        },
+        {
+          "id": "E",
+          "text": "cobrar taxa para reduzir fraudes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Segurança e necessidade devem ser equilibradas no atendimento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4393",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Depois de corrigir ou eliminar dado, o controlador deve, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "informar os agentes com quem compartilhou, salvo impossibilidade ou esforço desproporcional comprovado."
+        },
+        {
+          "id": "B",
+          "text": "comunicar somente ao titular e nunca a terceiros."
+        },
+        {
+          "id": "C",
+          "text": "apagar todos os registros de auditoria."
+        },
+        {
+          "id": "D",
+          "text": "pedir nova base legal para cada destinatário."
+        },
+        {
+          "id": "E",
+          "text": "publicar o nome do titular."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A providência deve alcançar a cadeia de compartilhamento quando cabível. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4394",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre o acesso aos dados, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo pedido público deve ser respondido em 24 horas."
+        },
+        {
+          "id": "B",
+          "text": "há resposta simplificada imediata ou declaração completa em até 15 dias na regra geral, e o poder público observa também legislação específica."
+        },
+        {
+          "id": "C",
+          "text": "o prazo de 15 dias substitui a LAI."
+        },
+        {
+          "id": "D",
+          "text": "não existe acesso simplificado."
+        },
+        {
+          "id": "E",
+          "text": "o titular deve pagar pela primeira resposta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Habeas data, processo administrativo e LAI podem disciplinar o procedimento público. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4395",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um fluxo adequado para pedidos de titulares é",
+      "options": [
+        {
+          "id": "A",
+          "text": "receber e excluir imediatamente qualquer dado."
+        },
+        {
+          "id": "B",
+          "text": "encaminhar sempre à ANPD sem análise."
+        },
+        {
+          "id": "C",
+          "text": "receber, registrar, autenticar, localizar, decidir, responder, executar, propagar e guardar evidências."
+        },
+        {
+          "id": "D",
+          "text": "exigir consentimento para exercer o direito."
+        },
+        {
+          "id": "E",
+          "text": "responder verbalmente sem protocolo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Rastreabilidade e execução comprovável são partes do atendimento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4396",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O RIPD é",
+      "options": [
+        {
+          "id": "A",
+          "text": "aviso de privacidade destinado apenas ao titular."
+        },
+        {
+          "id": "B",
+          "text": "inventário simples sem análise de riscos."
+        },
+        {
+          "id": "C",
+          "text": "certificado emitido pela ANPD para cada sistema."
+        },
+        {
+          "id": "D",
+          "text": "documento do controlador que descreve tratamentos de risco e medidas de mitigação."
+        },
+        {
+          "id": "E",
+          "text": "relatório de auditoria financeira."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "RIPD avalia riscos a direitos e salvaguardas; não é declaração genérica de conformidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4397",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "RIPD e aviso de privacidade diferenciam-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o RIPD avalia riscos e mitigação; o aviso informa o titular sobre o tratamento."
+        },
+        {
+          "id": "B",
+          "text": "o RIPD é público por definição e o aviso é sempre sigiloso."
+        },
+        {
+          "id": "C",
+          "text": "ambos são exatamente o mesmo documento."
+        },
+        {
+          "id": "D",
+          "text": "o aviso substitui inventário e política."
+        },
+        {
+          "id": "E",
+          "text": "o RIPD é elaborado pelo titular."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os documentos podem se relacionar, mas possuem finalidades distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4398",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No poder público, o tratamento deve atender",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer interesse interno não documentado."
+        },
+        {
+          "id": "B",
+          "text": "finalidade pública, interesse público e execução de competência ou atribuição legal."
+        },
+        {
+          "id": "C",
+          "text": "apenas consentimento."
+        },
+        {
+          "id": "D",
+          "text": "livre exploração comercial pelo servidor."
+        },
+        {
+          "id": "E",
+          "text": "sigilo automático de toda operação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 23 exige finalidade e competência, além de transparência e direitos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4399",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sociedade de economia mista que atua em concorrência econômica",
+      "options": [
+        {
+          "id": "A",
+          "text": "segue sempre o capítulo público em qualquer tratamento."
+        },
+        {
+          "id": "B",
+          "text": "fica fora da LGPD."
+        },
+        {
+          "id": "C",
+          "text": "torna-se operadora da ANPD."
+        },
+        {
+          "id": "D",
+          "text": "submete-se, nessa atividade, ao regime aplicável às pessoas jurídicas de direito privado."
+        },
+        {
+          "id": "E",
+          "text": "não precisa de base legal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A atividade exercida influencia o regime; política pública pode atrair regras públicas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4400",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Compartilhamento entre órgãos públicos exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "finalidade específica, competência, necessidade dos campos, transparência e segurança."
+        },
+        {
+          "id": "B",
+          "text": "apenas compatibilidade técnica dos sistemas."
+        },
+        {
+          "id": "C",
+          "text": "consentimento obrigatório em qualquer caso."
+        },
+        {
+          "id": "D",
+          "text": "envio da base completa para evitar omissões."
+        },
+        {
+          "id": "E",
+          "text": "publicação de todos os dados compartilhados."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Interoperabilidade não afasta os princípios da LGPD. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4401",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A transferência de dados públicos a pessoa privada",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre livre quando há contrato."
+        },
+        {
+          "id": "B",
+          "text": "é vedada como regra, ressalvadas hipóteses legais como execução descentralizada ou instrumento específico."
+        },
+        {
+          "id": "C",
+          "text": "depende apenas de e-mail do gestor."
+        },
+        {
+          "id": "D",
+          "text": "é proibida sem qualquer exceção."
+        },
+        {
+          "id": "E",
+          "text": "transforma o particular em titular."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os arts. 26 e 27 exigem finalidade, hipótese e controles próprios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4402",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Contrato com operador privado deve definir",
+      "options": [
+        {
+          "id": "A",
+          "text": "finalidade, instruções, segurança, retenção e responsabilidades."
+        },
+        {
+          "id": "B",
+          "text": "somente preço e prazo."
+        },
+        {
+          "id": "C",
+          "text": "autorização para uso comercial próprio de todos os dados."
+        },
+        {
+          "id": "D",
+          "text": "publicidade irrestrita."
+        },
+        {
+          "id": "E",
+          "text": "dispensa de auditoria e controle."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O instrumento deve limitar e demonstrar o tratamento realizado em nome do órgão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4403",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Dado pessoal disponibilizado publicamente pode ser reutilizado",
+      "options": [
+        {
+          "id": "A",
+          "text": "para qualquer finalidade porque perdeu proteção."
+        },
+        {
+          "id": "B",
+          "text": "somente com finalidade compatível, boa-fé, interesse público e respeito aos demais princípios."
+        },
+        {
+          "id": "C",
+          "text": "apenas com anonimização impossível."
+        },
+        {
+          "id": "D",
+          "text": "sem base legal ou transparência."
+        },
+        {
+          "id": "E",
+          "text": "como dado sensível automaticamente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A origem pública não elimina limites de tratamento posterior. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4404",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A relação correta entre LGPD e LAI é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a LGPD revogou a LAI."
+        },
+        {
+          "id": "B",
+          "text": "a LAI autoriza divulgar qualquer identificador."
+        },
+        {
+          "id": "C",
+          "text": "todo dado pessoal é automaticamente sigiloso."
+        },
+        {
+          "id": "D",
+          "text": "a LGPD impede publicidade de contratos."
+        },
+        {
+          "id": "E",
+          "text": "as leis são complementares: transparência deve conviver com proteção de dados e minimização."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Deve-se divulgar o interesse público e proteger o excesso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4405",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Contrato público contém objeto, valor, empresa, CPF de testemunha e endereço residencial. A solução adequada tende a ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "divulgar os elementos de interesse público e ocultar identificadores pessoais desnecessários."
+        },
+        {
+          "id": "B",
+          "text": "negar integralmente o acesso por existir dado pessoal."
+        },
+        {
+          "id": "C",
+          "text": "publicar tudo sem análise."
+        },
+        {
+          "id": "D",
+          "text": "anonimizar também valor e objeto."
+        },
+        {
+          "id": "E",
+          "text": "exigir consentimento de todos para publicar o contrato."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Acesso parcial e tarja conciliam publicidade e necessidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4406",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O prazo de até 100 anos da LAI para informação pessoal",
+      "options": [
+        {
+          "id": "A",
+          "text": "transforma todo cadastro em sigilo centenário."
+        },
+        {
+          "id": "B",
+          "text": "foi revogado pela LGPD."
+        },
+        {
+          "id": "C",
+          "text": "obriga publicação após um ano."
+        },
+        {
+          "id": "D",
+          "text": "não se aplica automaticamente a qualquer dado pessoal; relaciona-se a intimidade, vida privada, honra e imagem."
+        },
+        {
+          "id": "E",
+          "text": "é o prazo geral de retenção da LGPD."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A proteção da LAI possui objeto e hipóteses próprios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4407",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Segurança desde a concepção significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "adicionar controles apenas depois de incidente."
+        },
+        {
+          "id": "B",
+          "text": "incorporar medidas técnicas e administrativas desde o projeto e durante o ciclo de vida."
+        },
+        {
+          "id": "C",
+          "text": "delegar toda segurança ao operador."
+        },
+        {
+          "id": "D",
+          "text": "usar somente criptografia."
+        },
+        {
+          "id": "E",
+          "text": "dispensar treinamento e monitoramento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Proteção deve integrar arquitetura, processos, pessoas e fornecedores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4408",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma vulnerabilidade ainda não explorada",
+      "options": [
+        {
+          "id": "A",
+          "text": "não é, por si só, incidente confirmado com dados pessoais."
+        },
+        {
+          "id": "B",
+          "text": "deve ser sempre comunicada a todos os titulares em três dias."
+        },
+        {
+          "id": "C",
+          "text": "é automaticamente vazamento em larga escala."
+        },
+        {
+          "id": "D",
+          "text": "dispensa correção porque não houve incidente."
+        },
+        {
+          "id": "E",
+          "text": "equivale a dado sensível."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A vulnerabilidade deve ser corrigida e monitorada, mas incidente exige evento adverso confirmado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4409",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A comunicação de incidente à ANPD e aos titulares é exigida quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer alerta automático for gerado."
+        },
+        {
+          "id": "B",
+          "text": "houver apenas indisponibilidade sem dado pessoal."
+        },
+        {
+          "id": "C",
+          "text": "o incidente confirmado puder acarretar risco ou dano relevante, observados os critérios regulamentares."
+        },
+        {
+          "id": "D",
+          "text": "o operador preferir não investigar."
+        },
+        {
+          "id": "E",
+          "text": "existir vulnerabilidade teórica."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Sensíveis, menores, autenticação, finanças, sigilo e larga escala são critérios relevantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4410",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O prazo geral regulamentar para o controlador comunicar incidente comunicável é",
+      "options": [
+        {
+          "id": "A",
+          "text": "vinte e quatro horas em qualquer setor."
+        },
+        {
+          "id": "B",
+          "text": "quinze dias corridos."
+        },
+        {
+          "id": "C",
+          "text": "trinta dias úteis."
+        },
+        {
+          "id": "D",
+          "text": "três dias úteis a partir do conhecimento, ressalvada legislação específica."
+        },
+        {
+          "id": "E",
+          "text": "apenas após ordem da ANPD."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Resolução nº 15/2024 fixou três dias úteis e admite complementação justificada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4411",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No fluxo de incidentes, o operador deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "comunicar titulares em nome próprio em qualquer cenário."
+        },
+        {
+          "id": "B",
+          "text": "informar o controlador sem demora injustificada."
+        },
+        {
+          "id": "C",
+          "text": "aguardar cinco anos antes de registrar."
+        },
+        {
+          "id": "D",
+          "text": "apagar logs para reduzir exposição."
+        },
+        {
+          "id": "E",
+          "text": "decidir sozinho se há política pública."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A obrigação de comunicação externa é do controlador; o operador deve fornecer informação tempestiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4412",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre registros de incidentes, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "só registra incidentes comunicados."
+        },
+        {
+          "id": "B",
+          "text": "pode eliminar imediatamente os não comunicáveis."
+        },
+        {
+          "id": "C",
+          "text": "o registro substitui a contenção."
+        },
+        {
+          "id": "D",
+          "text": "o controlador deve mantê-los por pelo menos cinco anos, ressalvadas regras arquivísticas aplicáveis."
+        },
+        {
+          "id": "E",
+          "text": "o prazo é sempre de cem anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A regulamentação exige registro inclusive para incidentes não comunicados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4413",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Exposição confirmada de logins e senhas em larga escala",
+      "options": [
+        {
+          "id": "A",
+          "text": "é irrelevante por não envolver biometria."
+        },
+        {
+          "id": "B",
+          "text": "é somente vulnerabilidade, nunca incidente."
+        },
+        {
+          "id": "C",
+          "text": "tende a demandar contenção, avaliação de risco relevante, registro e possível comunicação."
+        },
+        {
+          "id": "D",
+          "text": "deve ser ocultada dos titulares em qualquer caso."
+        },
+        {
+          "id": "E",
+          "text": "dispensa revogação de credenciais."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Dados de autenticação são critério expresso de risco ou dano relevante. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4414",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O operador pode responder solidariamente quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "viola a LGPD ou descumpre instruções lícitas do controlador."
+        },
+        {
+          "id": "B",
+          "text": "atua corretamente e sem dano."
+        },
+        {
+          "id": "C",
+          "text": "é empresa privada em qualquer contrato."
+        },
+        {
+          "id": "D",
+          "text": "o titular pede acesso."
+        },
+        {
+          "id": "E",
+          "text": "a ANPD publica guia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A responsabilidade depende da conduta e das hipóteses legais, não apenas do rótulo contratual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4415",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Entre as excludentes de responsabilidade está demonstrar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não houve violação à legislação ou que o dano decorreu de culpa exclusiva do titular ou terceiro."
+        },
+        {
+          "id": "B",
+          "text": "o agente possuía encarregado."
+        },
+        {
+          "id": "C",
+          "text": "o tratamento era automatizado."
+        },
+        {
+          "id": "D",
+          "text": "o dado estava em nuvem."
+        },
+        {
+          "id": "E",
+          "text": "o incidente foi comunicado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A simples existência de governança não elimina responsabilidade por dano decorrente de violação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4416",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quanto às sanções administrativas aplicáveis a pessoa jurídica de direito público,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente multa diária é possível."
+        },
+        {
+          "id": "B",
+          "text": "nenhuma sanção administrativa se aplica."
+        },
+        {
+          "id": "C",
+          "text": "apenas prisão do encarregado é prevista."
+        },
+        {
+          "id": "D",
+          "text": "a única sanção é portabilidade."
+        },
+        {
+          "id": "E",
+          "text": "podem ocorrer advertência, publicização, bloqueio, eliminação, suspensão ou proibição, mas não multa simples ou diária pela ANPD."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 52 possui regime específico para entes públicos, sem afastar outras responsabilidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4417",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Transferência internacional de dados",
+      "options": [
+        {
+          "id": "A",
+          "text": "é livre sempre que o servidor estiver em nuvem."
+        },
+        {
+          "id": "B",
+          "text": "depende de hipótese e mecanismo previsto em lei e regulamentação, como adequação ou garantias contratuais."
+        },
+        {
+          "id": "C",
+          "text": "é proibida sem qualquer exceção."
+        },
+        {
+          "id": "D",
+          "text": "depende apenas do operador estrangeiro."
+        },
+        {
+          "id": "E",
+          "text": "transforma o dado em anonimizado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A LGPD e a Resolução nº 19/2024 disciplinam mecanismos e garantias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4418",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Órgão compartilha dados biométricos de crianças com empresa para finalidade não prevista e sem minimização. A análise correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o compartilhamento é livre por envolver órgão público."
+        },
+        {
+          "id": "B",
+          "text": "consentimento genérico resolve todos os problemas."
+        },
+        {
+          "id": "C",
+          "text": "biometria deixa de ser sensível em política pública."
+        },
+        {
+          "id": "D",
+          "text": "a empresa é sempre operadora, mesmo usando os dados para finalidade própria."
+        },
+        {
+          "id": "E",
+          "text": "há dado sensível e titulares vulneráveis; é preciso base do art. 11, melhor interesse, finalidade, necessidade, instrumento e salvaguardas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O caso exige análise conjunta de dado, base, criança/adolescente, papel, compartilhamento e princípios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4419",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma agência governamental pretende tratar dados pessoais sensíveis sem consentimento para realizar estudo estatístico de interesse público. A hipótese compatível com a LGPD é",
+      "options": [
+        {
+          "id": "A",
+          "text": "usar legítimo interesse como base autônoma para qualquer dado sensível."
+        },
+        {
+          "id": "B",
+          "text": "tratar livremente os dados por serem mantidos pelo poder público."
+        },
+        {
+          "id": "C",
+          "text": "realizar estudo por órgão de pesquisa, com anonimização dos dados sensíveis sempre que possível."
+        },
+        {
+          "id": "D",
+          "text": "publicar os dados identificados para demonstrar transparência."
+        },
+        {
+          "id": "E",
+          "text": "dispensar finalidade específica porque o estudo possui interesse público."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A LGPD admite tratamento de dados sensíveis para estudos por órgão de pesquisa, garantindo-se, sempre que possível, a anonimização. Fonte: questão adaptada de FGV; DATAPREV; Analista de Tecnologia da Informação — Segurança Cibernética e Proteção de Dados; 2024; questão 50; prova https://conhecimento.fgv.br/sites/default/files/concursos/ati-seguranca-cibernetica-e-protecao-de-dados-cns005-tipo-01.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf; adaptação: cenário e alternativas condensados, preservando o instituto e o gabarito."
+    },
+    {
+      "id": "q4420",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Nos termos da LGPD, dado biométrico vinculado a uma pessoa natural é classificado como",
+      "options": [
+        {
+          "id": "A",
+          "text": "dado pessoal sensível."
+        },
+        {
+          "id": "B",
+          "text": "dado anonimizado."
+        },
+        {
+          "id": "C",
+          "text": "dado público por natureza."
+        },
+        {
+          "id": "D",
+          "text": "dado cadastral sem proteção específica."
+        },
+        {
+          "id": "E",
+          "text": "informação exclusiva de pessoa jurídica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O dado biométrico vinculado a pessoa natural integra expressamente o rol de dados pessoais sensíveis. Fonte: questão adaptada de FGV; DATAPREV; Analista de Tecnologia da Informação — Arquitetura, Engenharia e Sustentação Tecnológica; 2024; questão 58; prova https://conhecimento.fgv.br/sites/default/files/concursos/ati-arquitetura-engenharia-e-sustentacao-tecnologica-cns002-tipo-01.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf; adaptação: enunciado condensado e alternativas reformuladas, preservando o conhecimento e o gabarito."
+    },
+    {
+      "id": "q4421",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Na pseudonimização, a informação adicional capaz de permitir a associação do dado ao titular deve ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "mantida separadamente pelo controlador em ambiente controlado e seguro."
+        },
+        {
+          "id": "B",
+          "text": "publicada juntamente com o conjunto pseudonimizado."
+        },
+        {
+          "id": "C",
+          "text": "eliminada obrigatoriamente antes de qualquer tratamento."
+        },
+        {
+          "id": "D",
+          "text": "disponibilizada a todo operador sem restrição."
+        },
+        {
+          "id": "E",
+          "text": "convertida em consentimento genérico do titular."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A pseudonimização mantém separadamente a informação adicional necessária à reassociação, em ambiente controlado e seguro; por isso o dado continua pessoal. Fonte: questão adaptada de FGV; DATAPREV; Analista de Tecnologia da Informação — Arquitetura, Engenharia e Sustentação Tecnológica; 2024; questão 61; prova https://conhecimento.fgv.br/sites/default/files/concursos/ati-arquitetura-engenharia-e-sustentacao-tecnologica-cns002-tipo-01.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf; adaptação: enunciado condensado e alternativas reformuladas, preservando o instituto e o gabarito."
+    },
+    {
+      "id": "q4422",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No compartilhamento de dados pessoais entre uma Assembleia Legislativa e uma Secretaria de Educação para finalidade pública específica, analise: I. a operação e sua finalidade devem ser informadas de forma clara e atualizada; II. o princípio da necessidade deixa de incidir por se tratar de órgãos públicos; III. o órgão receptor também deve proteger os dados conforme a LGPD. Está correto o que se afirma em",
+      "options": [
+        {
+          "id": "A",
+          "text": "I, apenas."
+        },
+        {
+          "id": "B",
+          "text": "II, apenas."
+        },
+        {
+          "id": "C",
+          "text": "I e III, apenas."
+        },
+        {
+          "id": "D",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "E",
+          "text": "I, II e III."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O uso compartilhado pelo poder público exige transparência, finalidade específica e observância contínua dos princípios, inclusive necessidade; o órgão receptor também responde pela proteção no tratamento que realiza. Fonte: questão adaptada de FGV; Assembleia Legislativa do Estado do Tocantins; Procurador Jurídico; 2024; questão 88; prova https://conhecimento.fgv.br/sites/default/files/concursos/procurador-juridicocns100-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/aletoprocurador2024_gabarito_definitivo_das1ca64.pdf; adaptação: afirmações condensadas e terminologia atualizada, preservando o gabarito."
+    }
+  ]
+}

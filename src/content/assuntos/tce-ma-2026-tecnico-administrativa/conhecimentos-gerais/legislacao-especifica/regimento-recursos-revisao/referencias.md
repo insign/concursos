@@ -1,7 +1,0 @@
-- [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), Presidência da República, art. 5º, XXXIV, XXXV, LIV, LV e LXXVIII.
-- [Lei nº 8.258/2005 — publicação legislativa](https://www.al.ma.leg.br/sitealema/wp-content/uploads/diarios/DIARIO17-05-2005.pdf), Assembleia Legislativa do Maranhão, especialmente arts. 136 a 139.
-- [Resolução TCE/MA nº 252/2016](https://app.tcema.tc.br/diario/publicacao/pdf/7126), alteração do art. 288, § 3º, do Regimento Interno.
-- [D.O.E. TCE/MA nº 9519](https://diario.apps.tcema.tc.br/publicacao/pdf/9519), 19 jun. 2026, aplicação contemporânea do recurso de reconsideração.
-- [D.O.E. TCE/MA nº 9512](https://diario.apps.tcema.tc.br/publicacao/pdf/9512), 2026, embargos e recurso de revisão.
-- [D.O.E. TCE/MA nº 9062](https://app.tcema.tc.br/diario/publicacao/pdf/9062), 2024, aplicação do art. 139 e regras de revisão/trânsito.
-- [Certidão de trânsito em julgado](https://www.tcema.tc.br/index.php/servicos/certidoes/certidao-de-transito-em-julgado), Tribunal de Contas do Estado do Maranhão.

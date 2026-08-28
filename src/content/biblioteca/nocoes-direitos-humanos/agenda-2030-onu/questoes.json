@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "q8499",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Agenda 2030 foi formalmente adotada por meio",
+      "options": [
+        {
+          "id": "A",
+          "text": "da Resolução A/RES/70/1 da Assembleia Geral da ONU."
+        },
+        {
+          "id": "B",
+          "text": "de tratado do Conselho de Segurança."
+        },
+        {
+          "id": "C",
+          "text": "de sentença da Corte Internacional de Justiça."
+        },
+        {
+          "id": "D",
+          "text": "de protocolo da DUDH."
+        },
+        {
+          "id": "E",
+          "text": "de convenção da OIT."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Resolução A/RES/70/1 contém o plano Transformando Nosso Mundo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8500",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação cronológica correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "adoção em 2016 e início em 2015."
+        },
+        {
+          "id": "B",
+          "text": "adoção em 25 de setembro de 2015 e início dos ODS e metas em 1º de janeiro de 2016."
+        },
+        {
+          "id": "C",
+          "text": "adoção e término em 2015."
+        },
+        {
+          "id": "D",
+          "text": "adoção em 2000 e início em 2012."
+        },
+        {
+          "id": "E",
+          "text": "adoção em 2030 e início em 2025."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Agenda foi adotada em 2015 e orienta o período de 2016 a 2030. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8501",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à natureza, a Agenda 2030 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "tratado multilateral sujeito a ratificação."
+        },
+        {
+          "id": "B",
+          "text": "pacto com tribunal próprio."
+        },
+        {
+          "id": "C",
+          "text": "plano de ação universal incorporado a resolução da Assembleia Geral."
+        },
+        {
+          "id": "D",
+          "text": "emenda à Carta da ONU."
+        },
+        {
+          "id": "E",
+          "text": "convenção regional americana."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Objetivos e metas são compromissos políticos aspiracionais e globais, não cláusulas de tratado ratificável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8502",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A referência aos 193 Estados-membros significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "193 instrumentos de ratificação foram depositados."
+        },
+        {
+          "id": "B",
+          "text": "a Agenda se aplica apenas a 193 países em desenvolvimento."
+        },
+        {
+          "id": "C",
+          "text": "cada Estado celebrou tratado bilateral."
+        },
+        {
+          "id": "D",
+          "text": "os Estados-membros adotaram politicamente a Agenda, sem procedimento de ratificação."
+        },
+        {
+          "id": "E",
+          "text": "somente 193 metas foram aprovadas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Adoção por todos os Estados-membros não transforma a resolução em tratado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8503",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O título institucional da Agenda é",
+      "options": [
+        {
+          "id": "A",
+          "text": "O Futuro que Queremos: ODM 2030."
+        },
+        {
+          "id": "B",
+          "text": "Declaração Universal do Desenvolvimento."
+        },
+        {
+          "id": "C",
+          "text": "Pacto Global para o Clima."
+        },
+        {
+          "id": "D",
+          "text": "Carta dos Dezoito Objetivos."
+        },
+        {
+          "id": "E",
+          "text": "Transformando Nosso Mundo: A Agenda 2030 para o Desenvolvimento Sustentável."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Transforming our world é o título da A/RES/70/1. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8504",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No preâmbulo, a erradicação da pobreza é apresentada como",
+      "options": [
+        {
+          "id": "A",
+          "text": "maior desafio global e requisito indispensável ao desenvolvimento sustentável."
+        },
+        {
+          "id": "B",
+          "text": "tema restrito aos países menos desenvolvidos."
+        },
+        {
+          "id": "C",
+          "text": "objetivo já integralmente alcançado pelos ODM."
+        },
+        {
+          "id": "D",
+          "text": "questão sem relação com sustentabilidade."
+        },
+        {
+          "id": "E",
+          "text": "meta facultativa fora dos ODS."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A formulação alcança todas as formas e dimensões da pobreza, inclusive a extrema. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8505",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os cinco Ps da Agenda correspondem a",
+      "options": [
+        {
+          "id": "A",
+          "text": "pobreza, política, produção, publicidade e patrimônio."
+        },
+        {
+          "id": "B",
+          "text": "pessoas, planeta, prosperidade, paz e parceria."
+        },
+        {
+          "id": "C",
+          "text": "cinco metas adicionais ao ODS 17."
+        },
+        {
+          "id": "D",
+          "text": "cinco indicadores estatísticos."
+        },
+        {
+          "id": "E",
+          "text": "cinco tratados de direitos humanos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os cinco Ps sintetizam áreas críticas do preâmbulo, não objetivos extras. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8506",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O eixo Pessoas concentra-se em",
+      "options": [
+        {
+          "id": "A",
+          "text": "financiamento internacional apenas."
+        },
+        {
+          "id": "B",
+          "text": "conservação exclusiva dos oceanos."
+        },
+        {
+          "id": "C",
+          "text": "acabar com pobreza e fome e assegurar dignidade, igualdade e ambiente saudável."
+        },
+        {
+          "id": "D",
+          "text": "revisões nacionais obrigatórias."
+        },
+        {
+          "id": "E",
+          "text": "crescimento sem inclusão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O potencial de todos deve realizar-se em dignidade e igualdade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8507",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O eixo Planeta envolve",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir toda responsabilidade nacional pela ONU."
+        },
+        {
+          "id": "B",
+          "text": "promover consumo sem limites."
+        },
+        {
+          "id": "C",
+          "text": "separar clima e recursos naturais dos demais ODS."
+        },
+        {
+          "id": "D",
+          "text": "proteger contra degradação, gerir recursos e agir sobre o clima considerando gerações presentes e futuras."
+        },
+        {
+          "id": "E",
+          "text": "restringir sustentabilidade aos países pobres."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Produção e consumo sustentáveis também integram esse eixo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8508",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A fórmula do eixo Paz afirma que",
+      "options": [
+        {
+          "id": "A",
+          "text": "paz substitui direitos humanos."
+        },
+        {
+          "id": "B",
+          "text": "desenvolvimento dispensa instituições."
+        },
+        {
+          "id": "C",
+          "text": "conflito favorece sustentabilidade."
+        },
+        {
+          "id": "D",
+          "text": "paz interessa apenas ao ODS 17."
+        },
+        {
+          "id": "E",
+          "text": "não há desenvolvimento sustentável sem paz nem paz sem desenvolvimento sustentável."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O eixo associa sociedades pacíficas, justas e inclusivas ao desenvolvimento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8509",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No preâmbulo, Parceria significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "mobilização dos meios de implementação por parceria global revitalizada e multissetorial."
+        },
+        {
+          "id": "B",
+          "text": "privatização obrigatória dos ODS."
+        },
+        {
+          "id": "C",
+          "text": "atuação exclusiva do sistema ONU."
+        },
+        {
+          "id": "D",
+          "text": "eliminação da responsabilidade estatal."
+        },
+        {
+          "id": "E",
+          "text": "cooperação apenas entre países desenvolvidos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A parceria reúne países, partes interessadas e pessoas em solidariedade global. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8510",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A universalidade da Agenda deve ser entendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "aplicação apenas ao Sul Global."
+        },
+        {
+          "id": "B",
+          "text": "aplicação a todos os países, considerando realidades, capacidades e prioridades nacionais."
+        },
+        {
+          "id": "C",
+          "text": "execução idêntica e automática em qualquer contexto."
+        },
+        {
+          "id": "D",
+          "text": "substituição das políticas nacionais."
+        },
+        {
+          "id": "E",
+          "text": "dispensa de obrigações internacionais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Universalidade e diferenciação contextual coexistem no texto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8511",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dizer que os ODS são integrados e indivisíveis significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "cada objetivo pode ser isolado sem efeitos cruzados."
+        },
+        {
+          "id": "B",
+          "text": "somente objetivos ambientais se relacionam."
+        },
+        {
+          "id": "C",
+          "text": "há interconexões e a implementação não deve tratá-los como compartimentos independentes."
+        },
+        {
+          "id": "D",
+          "text": "todos possuem texto idêntico."
+        },
+        {
+          "id": "E",
+          "text": "não existem prioridades nacionais."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As dimensões e os objetivos produzem relações transversais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8512",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As dimensões expressamente equilibradas pela Agenda são",
+      "options": [
+        {
+          "id": "A",
+          "text": "militar, religiosa e cultural."
+        },
+        {
+          "id": "B",
+          "text": "nacional, regional e municipal."
+        },
+        {
+          "id": "C",
+          "text": "paz, parceria e política."
+        },
+        {
+          "id": "D",
+          "text": "econômica, social e ambiental."
+        },
+        {
+          "id": "E",
+          "text": "somente econômica e ecológica."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Paz e parceria são eixos transversais, não novas dimensões formais no texto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8513",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O compromisso de não deixar ninguém para trás exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "avaliar apenas médias globais."
+        },
+        {
+          "id": "B",
+          "text": "priorizar somente Estados ricos."
+        },
+        {
+          "id": "C",
+          "text": "ignorar segmentos sociais."
+        },
+        {
+          "id": "D",
+          "text": "cumprir metas apenas onde o custo for menor."
+        },
+        {
+          "id": "E",
+          "text": "alcançar todas as nações, povos e segmentos, com atenção aos excluídos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A dignidade humana é fundamento da abrangência do compromisso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8514",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A expressão reach the furthest behind first orienta a",
+      "options": [
+        {
+          "id": "A",
+          "text": "procurar alcançar primeiro quem ficou mais para trás."
+        },
+        {
+          "id": "B",
+          "text": "abandonar metas universais."
+        },
+        {
+          "id": "C",
+          "text": "usar somente dados agregados."
+        },
+        {
+          "id": "D",
+          "text": "priorizar quem já alcançou melhores resultados."
+        },
+        {
+          "id": "E",
+          "text": "eliminar participação social."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A prioridade reforça equidade e identificação de grupos ocultos pelas médias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8515",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A base de direitos humanos da Agenda inclui",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas normas ambientais."
+        },
+        {
+          "id": "B",
+          "text": "Carta da ONU, DUDH e tratados internacionais de direitos humanos."
+        },
+        {
+          "id": "C",
+          "text": "somente legislação doméstica."
+        },
+        {
+          "id": "D",
+          "text": "apenas os ODM."
+        },
+        {
+          "id": "E",
+          "text": "um novo tribunal criado pela A/RES/70/1."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Agenda reafirma dignidade, direitos, liberdades e direito internacional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8516",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A abordagem de não discriminação da Agenda",
+      "options": [
+        {
+          "id": "A",
+          "text": "protege apenas nacionais."
+        },
+        {
+          "id": "B",
+          "text": "exclui deficiência e situação migratória."
+        },
+        {
+          "id": "C",
+          "text": "alcança múltiplas condições e orienta atenção às pessoas vulneráveis."
+        },
+        {
+          "id": "D",
+          "text": "é incompatível com dados desagregados."
+        },
+        {
+          "id": "E",
+          "text": "limita-se ao ODS 13."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O texto enumera diversos motivos e inclui qualquer outra condição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8517",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No eixo Prosperidade, a Agenda busca",
+      "options": [
+        {
+          "id": "A",
+          "text": "separar progresso econômico e proteção da natureza."
+        },
+        {
+          "id": "B",
+          "text": "restringir realização pessoal aos países desenvolvidos."
+        },
+        {
+          "id": "C",
+          "text": "promover crescimento sem dimensões social e tecnológica."
+        },
+        {
+          "id": "D",
+          "text": "assegurar vidas prósperas e plenas e progresso econômico, social e tecnológico em harmonia com a natureza."
+        },
+        {
+          "id": "E",
+          "text": "substituir os demais quatro Ps."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Prosperidade combina plena realização das pessoas e progresso compatível com a natureza. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8518",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Soberania e responsabilidade nacional significam que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não existe cooperação global."
+        },
+        {
+          "id": "B",
+          "text": "a ONU administra recursos naturais nacionais."
+        },
+        {
+          "id": "C",
+          "text": "cada país pode ignorar o direito internacional."
+        },
+        {
+          "id": "D",
+          "text": "a Agenda não possui acompanhamento global."
+        },
+        {
+          "id": "E",
+          "text": "cada Estado lidera seu desenvolvimento e preserva espaço nacional, dentro de parceria e compromissos internacionais."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Agenda concilia apropriação nacional, soberania e cooperação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8519",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os Objetivos de Desenvolvimento do Milênio eram",
+      "options": [
+        {
+          "id": "A",
+          "text": "oito objetivos associados ao período 2000–2015."
+        },
+        {
+          "id": "B",
+          "text": "dezessete objetivos iniciados em 2016."
+        },
+        {
+          "id": "C",
+          "text": "cento e sessenta e nove indicadores."
+        },
+        {
+          "id": "D",
+          "text": "parte da A/RES/71/313."
+        },
+        {
+          "id": "E",
+          "text": "metas criadas pela Rio+20 em 2012."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os ODM são antecedente imediato dos ODS. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8520",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação entre ODS e ODM é corretamente descrita por",
+      "options": [
+        {
+          "id": "A",
+          "text": "abandono de todas as conquistas anteriores."
+        },
+        {
+          "id": "B",
+          "text": "continuidade da agenda inacabada e ampliação substantiva do escopo."
+        },
+        {
+          "id": "C",
+          "text": "redução de dezessete para oito objetivos."
+        },
+        {
+          "id": "D",
+          "text": "aplicação dos ODS somente a países pobres."
+        },
+        {
+          "id": "E",
+          "text": "eliminação dos temas sociais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Agenda busca concluir o não alcançado e vai além dos ODM. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8521",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Rio+20 é relevante porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "ratificou a Agenda 2030."
+        },
+        {
+          "id": "B",
+          "text": "adotou o marco de indicadores em 2017."
+        },
+        {
+          "id": "C",
+          "text": "impulsionou o processo dos ODS e está na origem institucional do HLPF."
+        },
+        {
+          "id": "D",
+          "text": "criou os ODM em 2000."
+        },
+        {
+          "id": "E",
+          "text": "encerrou as consultas públicas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Futuro que Queremos e o Grupo de Trabalho Aberto integram essa trajetória. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8522",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A estrutura numérica central da Agenda é",
+      "options": [
+        {
+          "id": "A",
+          "text": "8 ODS e 17 metas."
+        },
+        {
+          "id": "B",
+          "text": "17 metas e 169 indicadores."
+        },
+        {
+          "id": "C",
+          "text": "18 ODS e 234 metas."
+        },
+        {
+          "id": "D",
+          "text": "17 ODS e 169 metas."
+        },
+        {
+          "id": "E",
+          "text": "193 ODS e 251 metas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os números não devem ser confundidos com Estados ou indicadores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8523",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distinção correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "objetivo é medida estatística."
+        },
+        {
+          "id": "B",
+          "text": "meta é sempre um tratado."
+        },
+        {
+          "id": "C",
+          "text": "indicador é direção política ampla."
+        },
+        {
+          "id": "D",
+          "text": "objetivo e indicador são sinônimos."
+        },
+        {
+          "id": "E",
+          "text": "objetivo dá direção, meta especifica resultado ou meio e indicador mede progresso."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Os três níveis possuem funções diferentes na arquitetura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8524",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na numeração das metas, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "metas decimais costumam expressar resultados e metas por letras costumam indicar meios de implementação."
+        },
+        {
+          "id": "B",
+          "text": "toda letra indica meta anulada."
+        },
+        {
+          "id": "C",
+          "text": "somente metas por letras integram as 169."
+        },
+        {
+          "id": "D",
+          "text": "metas decimais são indicadores."
+        },
+        {
+          "id": "E",
+          "text": "a numeração define obrigatoriedade jurídica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Exemplos são 16.3, substantiva, e 16.a, meio de implementação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8525",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As metas identificadas por letras",
+      "options": [
+        {
+          "id": "A",
+          "text": "são facultativas e externas à Agenda."
+        },
+        {
+          "id": "B",
+          "text": "integram as 169 metas e possuem igual importância."
+        },
+        {
+          "id": "C",
+          "text": "pertencem somente ao ODS 17."
+        },
+        {
+          "id": "D",
+          "text": "foram criadas apenas em 2026."
+        },
+        {
+          "id": "E",
+          "text": "não tratam de implementação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Meios aparecem no ODS 17 e também dentro dos demais ODS. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8526",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos prazos das metas, a Agenda",
+      "options": [
+        {
+          "id": "A",
+          "text": "fixa 2030 para todas sem exceção."
+        },
+        {
+          "id": "B",
+          "text": "não contém prazo algum."
+        },
+        {
+          "id": "C",
+          "text": "possui horizonte geral em 2030, mas preserva metas com prazos como 2020 e 2025."
+        },
+        {
+          "id": "D",
+          "text": "encerrou todas as metas em 2016."
+        },
+        {
+          "id": "E",
+          "text": "delega todo prazo ao HLPF."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O horizonte da Agenda não torna uniforme a data de cada meta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8527",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O ODS 1 busca",
+      "options": [
+        {
+          "id": "A",
+          "text": "regular instituições de justiça."
+        },
+        {
+          "id": "B",
+          "text": "conservar oceanos."
+        },
+        {
+          "id": "C",
+          "text": "promover industrialização."
+        },
+        {
+          "id": "D",
+          "text": "acabar com a pobreza em todas as suas formas e lugares."
+        },
+        {
+          "id": "E",
+          "text": "revitalizar a parceria global."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A pobreza é tratada de forma multidimensional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8528",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Fome, segurança alimentar, nutrição e agricultura sustentável compõem",
+      "options": [
+        {
+          "id": "A",
+          "text": "o ODS 4."
+        },
+        {
+          "id": "B",
+          "text": "o ODS 7."
+        },
+        {
+          "id": "C",
+          "text": "o ODS 10."
+        },
+        {
+          "id": "D",
+          "text": "o ODS 16."
+        },
+        {
+          "id": "E",
+          "text": "o ODS 2."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O título completo reúne os quatro elementos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8529",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Vida saudável e bem-estar para todos, em todas as idades, correspondem ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "ODS 3."
+        },
+        {
+          "id": "B",
+          "text": "ODS 5."
+        },
+        {
+          "id": "C",
+          "text": "ODS 8."
+        },
+        {
+          "id": "D",
+          "text": "ODS 11."
+        },
+        {
+          "id": "E",
+          "text": "ODS 15."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Saúde e bem-estar são o núcleo do ODS 3. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8530",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Educação inclusiva, equitativa e de qualidade e aprendizagem ao longo da vida integram",
+      "options": [
+        {
+          "id": "A",
+          "text": "o ODS 2."
+        },
+        {
+          "id": "B",
+          "text": "o ODS 4."
+        },
+        {
+          "id": "C",
+          "text": "o ODS 6."
+        },
+        {
+          "id": "D",
+          "text": "o ODS 9."
+        },
+        {
+          "id": "E",
+          "text": "o ODS 14."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O título do ODS 4 inclui oportunidades de aprendizagem para todos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8531",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O marco global de indicadores da Agenda 2030",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitui qualquer indicador nacional ou regional."
+        },
+        {
+          "id": "B",
+          "text": "permanece imutável desde 2015."
+        },
+        {
+          "id": "C",
+          "text": "é complementado por indicadores nacionais e regionais desenvolvidos pelos Estados-membros."
+        },
+        {
+          "id": "D",
+          "text": "contém somente um indicador por ODS."
+        },
+        {
+          "id": "E",
+          "text": "foi integralmente definido na A/RES/70/1."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A A/RES/71/313 prevê complementação nacional e regional, e o marco global recebe revisões e refinamentos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8532",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A associação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ODS 6 — energia; ODS 7 — saneamento."
+        },
+        {
+          "id": "B",
+          "text": "ODS 6 — clima; ODS 7 — oceanos."
+        },
+        {
+          "id": "C",
+          "text": "ODS 6 — cidades; ODS 7 — instituições."
+        },
+        {
+          "id": "D",
+          "text": "ODS 6 — água e saneamento; ODS 7 — energia acessível e sustentável."
+        },
+        {
+          "id": "E",
+          "text": "ODS 6 — pobreza; ODS 7 — fome."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Água/saneamento e energia são objetivos consecutivos, mas distintos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8533",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Crescimento econômico sustentado, emprego pleno e produtivo e trabalho decente são núcleo do",
+      "options": [
+        {
+          "id": "A",
+          "text": "ODS 5."
+        },
+        {
+          "id": "B",
+          "text": "ODS 10."
+        },
+        {
+          "id": "C",
+          "text": "ODS 12."
+        },
+        {
+          "id": "D",
+          "text": "ODS 17."
+        },
+        {
+          "id": "E",
+          "text": "ODS 8."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O ODS 8 combina crescimento inclusivo e sustentável com trabalho decente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8534",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Infraestruturas resilientes, industrialização inclusiva e sustentável e inovação pertencem ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "ODS 9."
+        },
+        {
+          "id": "B",
+          "text": "ODS 11."
+        },
+        {
+          "id": "C",
+          "text": "ODS 13."
+        },
+        {
+          "id": "D",
+          "text": "ODS 15."
+        },
+        {
+          "id": "E",
+          "text": "ODS 17."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os três componentes formam o título do ODS 9. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8535",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Reduzir a desigualdade dentro dos países e entre eles é o",
+      "options": [
+        {
+          "id": "A",
+          "text": "ODS 5."
+        },
+        {
+          "id": "B",
+          "text": "ODS 10."
+        },
+        {
+          "id": "C",
+          "text": "ODS 12."
+        },
+        {
+          "id": "D",
+          "text": "ODS 15."
+        },
+        {
+          "id": "E",
+          "text": "ODS 16."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O ODS 10 não deve ser confundido com acesso à justiça do ODS 16. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8536",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Cidades e assentamentos humanos inclusivos, seguros, resilientes e sustentáveis integram",
+      "options": [
+        {
+          "id": "A",
+          "text": "o ODS 7."
+        },
+        {
+          "id": "B",
+          "text": "o ODS 9."
+        },
+        {
+          "id": "C",
+          "text": "o ODS 11."
+        },
+        {
+          "id": "D",
+          "text": "o ODS 13."
+        },
+        {
+          "id": "E",
+          "text": "o ODS 17."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O ODS 11 trata do ambiente urbano e dos assentamentos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8537",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Padrões sustentáveis de produção e consumo correspondem ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "ODS 6."
+        },
+        {
+          "id": "B",
+          "text": "ODS 8."
+        },
+        {
+          "id": "C",
+          "text": "ODS 10."
+        },
+        {
+          "id": "D",
+          "text": "ODS 12."
+        },
+        {
+          "id": "E",
+          "text": "ODS 14."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O ODS 12 reúne os dois lados dos padrões econômicos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8538",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Medidas urgentes contra a mudança climática e seus impactos integram",
+      "options": [
+        {
+          "id": "A",
+          "text": "o ODS 9."
+        },
+        {
+          "id": "B",
+          "text": "o ODS 11."
+        },
+        {
+          "id": "C",
+          "text": "o ODS 14."
+        },
+        {
+          "id": "D",
+          "text": "o ODS 16."
+        },
+        {
+          "id": "E",
+          "text": "o ODS 13."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O título oficial do ODS 13 determina a tomada de medidas urgentes contra a mudança climática e seus impactos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8539",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Oceanos, mares e recursos marinhos são objeto do",
+      "options": [
+        {
+          "id": "A",
+          "text": "ODS 14."
+        },
+        {
+          "id": "B",
+          "text": "ODS 12."
+        },
+        {
+          "id": "C",
+          "text": "ODS 10."
+        },
+        {
+          "id": "D",
+          "text": "ODS 8."
+        },
+        {
+          "id": "E",
+          "text": "ODS 6."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O ODS 14 trata de conservação e uso sustentável para o desenvolvimento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8540",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ecossistemas terrestres, florestas, desertificação, degradação da terra e biodiversidade integram",
+      "options": [
+        {
+          "id": "A",
+          "text": "o ODS 13."
+        },
+        {
+          "id": "B",
+          "text": "o ODS 15."
+        },
+        {
+          "id": "C",
+          "text": "o ODS 16."
+        },
+        {
+          "id": "D",
+          "text": "o ODS 11."
+        },
+        {
+          "id": "E",
+          "text": "o ODS 7."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O ODS 15 concentra a proteção da vida terrestre. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8541",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Estado de Direito, acesso à justiça e instituições eficazes, responsáveis e inclusivas pertencem ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "ODS 5."
+        },
+        {
+          "id": "B",
+          "text": "ODS 10."
+        },
+        {
+          "id": "C",
+          "text": "ODS 16."
+        },
+        {
+          "id": "D",
+          "text": "ODS 17."
+        },
+        {
+          "id": "E",
+          "text": "ODS 8."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O ODS 16 também promove sociedades pacíficas e inclusivas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8542",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O ODS 17 busca",
+      "options": [
+        {
+          "id": "A",
+          "text": "criar tribunal internacional dos ODS."
+        },
+        {
+          "id": "B",
+          "text": "substituir os demais objetivos."
+        },
+        {
+          "id": "C",
+          "text": "tratar apenas de meio ambiente."
+        },
+        {
+          "id": "D",
+          "text": "fortalecer meios de implementação e revitalizar a parceria global."
+        },
+        {
+          "id": "E",
+          "text": "eliminar metas nacionais."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Finanças, tecnologia, comércio, capacitação, coerência, parcerias e dados aparecem em sua estrutura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8543",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o chamado ODS 18, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "foi acrescentado à A/RES/70/1 em 2016."
+        },
+        {
+          "id": "B",
+          "text": "substituiu o ODS 17."
+        },
+        {
+          "id": "C",
+          "text": "é obrigatório a todos os Estados."
+        },
+        {
+          "id": "D",
+          "text": "faz a ONU possuir dezoito ODS."
+        },
+        {
+          "id": "E",
+          "text": "é iniciativa brasileira posterior e não altera os 17 ODS da ONU."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A pergunta sobre a Agenda 2030 da ONU continua tendo resposta numérica 17. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8544",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os meios de implementação",
+      "options": [
+        {
+          "id": "A",
+          "text": "aparecem em metas de cada ODS e são sistematizados no ODS 17."
+        },
+        {
+          "id": "B",
+          "text": "existem somente no preâmbulo."
+        },
+        {
+          "id": "C",
+          "text": "não integram as 169 metas."
+        },
+        {
+          "id": "D",
+          "text": "são inferiores às metas substantivas."
+        },
+        {
+          "id": "E",
+          "text": "limitam-se ao financiamento privado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A resolução declara igual importância dos meios em relação aos demais objetivos e metas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8545",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Agenda de Ação de Adis Abeba é",
+      "options": [
+        {
+          "id": "A",
+          "text": "um ODS adicional."
+        },
+        {
+          "id": "B",
+          "text": "parte integrante da Agenda 2030 e relevante aos meios de implementação."
+        },
+        {
+          "id": "C",
+          "text": "tratado que ratifica os ODS."
+        },
+        {
+          "id": "D",
+          "text": "documento sem relação com financiamento."
+        },
+        {
+          "id": "E",
+          "text": "resultado da Rio+20 de 2012."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ela resultou da conferência sobre financiamento realizada em julho de 2015. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8546",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A parceria global reúne",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente governos nacionais."
+        },
+        {
+          "id": "B",
+          "text": "apenas empresas multinacionais."
+        },
+        {
+          "id": "C",
+          "text": "governos, ONU, parlamentos, autoridades locais, setor privado, sociedade civil e comunidade científica, entre outros."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente países desenvolvidos."
+        },
+        {
+          "id": "E",
+          "text": "apenas órgãos estatísticos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A implementação é multissetorial e baseada em participação ampla. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8547",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A responsabilidade primária pelo desenvolvimento econômico e social cabe",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao HLPF."
+        },
+        {
+          "id": "B",
+          "text": "ao IAEG-SDGs."
+        },
+        {
+          "id": "C",
+          "text": "ao setor privado global."
+        },
+        {
+          "id": "D",
+          "text": "a cada país."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente ao ECOSOC."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Parcerias internacionais apoiam, mas não substituem a apropriação nacional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8548",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As metas globais da Agenda são",
+      "options": [
+        {
+          "id": "A",
+          "text": "automaticamente idênticas às metas nacionais."
+        },
+        {
+          "id": "B",
+          "text": "impostas por sentença internacional."
+        },
+        {
+          "id": "C",
+          "text": "dispensáveis para cada governo."
+        },
+        {
+          "id": "D",
+          "text": "independentes de prioridades nacionais."
+        },
+        {
+          "id": "E",
+          "text": "aspiracionais e globais, com definição nacional guiada pela ambição comum e pelo contexto."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A formulação concilia universalidade e circunstâncias nacionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8549",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O acompanhamento da Agenda deve ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "voluntário, liderado pelos países, participativo, transparente e baseado em evidências."
+        },
+        {
+          "id": "B",
+          "text": "secreto e exclusivamente global."
+        },
+        {
+          "id": "C",
+          "text": "judicial e sancionatório."
+        },
+        {
+          "id": "D",
+          "text": "alheio à sociedade civil."
+        },
+        {
+          "id": "E",
+          "text": "independente das circunstâncias nacionais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os princípios também incluem centralidade nas pessoas e respeito à soberania. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8550",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A arquitetura de revisão articula níveis",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas nacional e municipal."
+        },
+        {
+          "id": "B",
+          "text": "nacional, regional e global."
+        },
+        {
+          "id": "C",
+          "text": "judicial, legislativo e militar."
+        },
+        {
+          "id": "D",
+          "text": "somente regional e global."
+        },
+        {
+          "id": "E",
+          "text": "apenas estatístico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os níveis promovem implementação doméstica, aprendizagem entre pares e revisão global. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8551",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O HLPF",
+      "options": [
+        {
+          "id": "A",
+          "text": "foi criado pela A/RES/70/1 em 2015."
+        },
+        {
+          "id": "B",
+          "text": "é tribunal sancionador dos ODS."
+        },
+        {
+          "id": "C",
+          "text": "é plataforma central, anual sob o ECOSOC e quadrienal sob a Assembleia Geral."
+        },
+        {
+          "id": "D",
+          "text": "reúne-se somente em 2030."
+        },
+        {
+          "id": "E",
+          "text": "não recebe revisões nacionais."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Fórum deriva do processo da Rio+20 e exerce acompanhamento e orientação política. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8552",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As Revisões Nacionais Voluntárias são",
+      "options": [
+        {
+          "id": "A",
+          "text": "auditorias internacionais coercitivas."
+        },
+        {
+          "id": "B",
+          "text": "sentenças do HLPF."
+        },
+        {
+          "id": "C",
+          "text": "obrigações com sanção automática."
+        },
+        {
+          "id": "D",
+          "text": "processos voluntários liderados pelo país e apresentados no HLPF."
+        },
+        {
+          "id": "E",
+          "text": "relatórios exclusivos de empresas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As VNRs compartilham avanços, desafios, políticas e necessidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8553",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dados desagregados são importantes porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituem todos os indicadores."
+        },
+        {
+          "id": "B",
+          "text": "eliminam a responsabilidade nacional."
+        },
+        {
+          "id": "C",
+          "text": "servem apenas a países desenvolvidos."
+        },
+        {
+          "id": "D",
+          "text": "impedem comparações de progresso."
+        },
+        {
+          "id": "E",
+          "text": "revelam desigualdades que médias agregadas podem ocultar e apoiam o compromisso de não deixar ninguém para trás."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Agenda pede dados de qualidade, acessíveis, atuais e confiáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8554",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre o marco global de indicadores dos ODS, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "foi desenvolvido e adotado em processo posterior à A/RES/70/1, não tendo sido integralmente definido pela resolução de 2015."
+        },
+        {
+          "id": "B",
+          "text": "foi fixado de forma definitiva pela A/RES/70/1 e não admite refinamentos."
+        },
+        {
+          "id": "C",
+          "text": "substituiu os 17 ODS e as 169 metas como estrutura da Agenda."
+        },
+        {
+          "id": "D",
+          "text": "transformou a Agenda 2030 em tratado internacional ratificável."
+        },
+        {
+          "id": "E",
+          "text": "dispensa indicadores nacionais e regionais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Agenda de 2015 definiu 17 ODS e 169 metas; o marco global de indicadores foi desenvolvido posteriormente e adotado pela Assembleia Geral na A/RES/71/313, em 2017. Fonte: questão autoral baseada nas referências oficiais do conteúdo."
+    },
+    {
+      "id": "q8555",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para o estudo da estrutura da Agenda 2030, deve-se evitar memorizar uma contagem fixa de indicadores globais como se ela fosse parte imutável da A/RES/70/1 porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Agenda proíbe o uso de indicadores estatísticos."
+        },
+        {
+          "id": "B",
+          "text": "os indicadores globais possuem natureza sigilosa."
+        },
+        {
+          "id": "C",
+          "text": "o marco de indicadores é posterior à Agenda e pode ser refinado ao longo do tempo, enquanto o núcleo documental permanece em 17 ODS e 169 metas."
+        },
+        {
+          "id": "D",
+          "text": "todos os indicadores expiram obrigatoriamente a cada ano."
+        },
+        {
+          "id": "E",
+          "text": "cada país é proibido de desenvolver indicadores nacionais."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O ponto estrutural de prova é distinguir 17 ODS, 169 metas e indicadores. O marco global foi adotado posteriormente e admite refinamentos, por isso uma contagem circunstancial não deve ser confundida com a estrutura original da A/RES/70/1. Fonte: questão autoral baseada nas referências oficiais do conteúdo."
+    },
+    {
+      "id": "q8556",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma questão atribui à Agenda 2030 a obrigação de oferecer todos os recursos de tecnologia assistiva disponíveis para garantir acesso à justiça às pessoas com deficiência. A leitura correta é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a obrigação aparece literalmente na meta 16.3."
+        },
+        {
+          "id": "B",
+          "text": "todo recurso existente deve ser oferecido sem avaliação."
+        },
+        {
+          "id": "C",
+          "text": "a Agenda promove acesso à justiça, mas não contém essa obrigação absoluta com tal redação."
+        },
+        {
+          "id": "D",
+          "text": "acesso à justiça pertence ao ODS 10."
+        },
+        {
+          "id": "E",
+          "text": "a Agenda não contempla pessoas com deficiência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O ODS 16 e a inclusão das pessoas com deficiência não autorizam inserir obrigação textual absoluta inexistente. Fonte: questão adaptada de Cebraspe; TRF da 6ª Região; Técnico Judiciário, cargos 27 e 28; 2025; item 26; prova https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_CG6_01.PDF; gabarito definitivo E (errado) em https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/GAB_DEFINITIVO_034_TRF6_CG6_01.PDF; adaptação: item certo ou errado convertido em questão de cinco alternativas e explicitado o excesso da assertiva."
+    },
+    {
+      "id": "q8557",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "A igualdade de gênero e o empoderamento de todas as mulheres e meninas",
+      "options": [
+        {
+          "id": "A",
+          "text": "são apenas indicadores do ODS 10."
+        },
+        {
+          "id": "B",
+          "text": "não integram a Agenda 2030."
+        },
+        {
+          "id": "C",
+          "text": "constituem o eixo Planeta, sem objetivo próprio."
+        },
+        {
+          "id": "D",
+          "text": "constituem o ODS 5 da Agenda 2030."
+        },
+        {
+          "id": "E",
+          "text": "foram excluídos após 2015."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O ODS 5 estabelece alcançar a igualdade de gênero e empoderar todas as mulheres e meninas. Fonte: questão adaptada de Cebraspe; TRF da 6ª Região; Técnico Judiciário, cargos 27 e 28; 2025; item 28; prova https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_CG6_01.PDF; gabarito definitivo C (certo) em https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/GAB_DEFINITIVO_034_TRF6_CG6_01.PDF; adaptação: item certo ou errado convertido em questão de cinco alternativas, preservando o núcleo do item oficial."
+    },
+    {
+      "id": "q8558",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Os ODS e suas metas ambientais expressam, entre outros propósitos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "gestão predatória dos recursos naturais."
+        },
+        {
+          "id": "B",
+          "text": "abandono da ação climática."
+        },
+        {
+          "id": "C",
+          "text": "proteção somente das gerações futuras."
+        },
+        {
+          "id": "D",
+          "text": "separação absoluta entre ambiente, economia e sociedade."
+        },
+        {
+          "id": "E",
+          "text": "redução da degradação, gestão sustentável dos recursos e ação climática em benefício das gerações presentes e futuras."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O eixo Planeta e vários ODS combinam proteção ambiental, recursos e clima de forma integrada. Fonte: questão adaptada de Cebraspe; STJ; Analista Judiciário — Área Judiciária; 2024; item 40; prova https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/018_STJ_CB4_01.PDF; gabarito definitivo C (certo) em https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/GAB_DEFINITIVO_018_STJ_CB4_01.PDF; adaptação: item certo ou errado convertido em questão de cinco alternativas, preservando o núcleo ambiental."
+    }
+  ]
+}

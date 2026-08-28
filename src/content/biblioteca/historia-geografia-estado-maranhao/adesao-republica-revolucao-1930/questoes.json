@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q7359",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Sobre a reorganização política após a conturbada adesão do Maranhão à República, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A ordem republicana foi instalada por Junta que reuniu militares e civis, e não simplesmente pelas mesmas lideranças dominantes desde meados do século XIX."
+        },
+        {
+          "id": "B",
+          "text": "A Monarquia permaneceu oficialmente em vigor no estado até 1930."
+        },
+        {
+          "id": "C",
+          "text": "A transição foi conduzida apenas por políticos imperiais sem participação militar."
+        },
+        {
+          "id": "D",
+          "text": "A adesão ocorreu sem substituição de autoridades ou criação de governo provisório."
+        },
+        {
+          "id": "E",
+          "text": "A República foi rejeitada formalmente pela Junta de 18 de novembro."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Junta de 18 de novembro reuniu militares e civis ligados à implantação da nova ordem, e a repressão do dia 17 evidencia a transição conturbada. Fonte: questão adaptada de Cebraspe/PM-MA, cargos de nível superior/2017/item 30/https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG1_01.pdf; adaptação: conversão para cinco alternativas; o item oficial tinha gabarito Errado, e sua proposição foi substituída por formulação correta."
+    },
+    {
+      "id": "q7360",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção correta sobre lideranças maranhenses ligadas à Revolução de 1930.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reis Perdigão e Tarquínio Lopes Filho lideraram o magalhãesismo contra o tenentismo."
+        },
+        {
+          "id": "B",
+          "text": "Reis Perdigão articulou o movimento revolucionário, e Tarquínio Lopes Filho liderou a oposição tarquinista; ambos apoiaram o tenentismo e a Revolução."
+        },
+        {
+          "id": "C",
+          "text": "Ambos integraram a Junta republicana de 1889."
+        },
+        {
+          "id": "D",
+          "text": "Ambos governaram o Maranhão como presidentes provinciais do Império."
+        },
+        {
+          "id": "E",
+          "text": "Ambos se opuseram à Aliança Liberal e defenderam Júlio Prestes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Reis Perdigão atuou como articulador e chefe civil, enquanto Tarquínio era liderança da corrente oposicionista tarquinista. O item oficial associou ambos ao apoio ao tenentismo e à Revolução. Fonte: questão adaptada de Cebraspe/PM-MA, cargos de nível superior/2017/item 31/https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG1_01.pdf; adaptação: conversão para cinco alternativas com explicitação dos papéis; o item oficial tinha gabarito Certo."
+    },
+    {
+      "id": "q7361",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Proclamação da República ocorreu nacionalmente em",
+      "options": [
+        {
+          "id": "A",
+          "text": "13 de maio de 1888."
+        },
+        {
+          "id": "B",
+          "text": "18 de novembro de 1889."
+        },
+        {
+          "id": "C",
+          "text": "15 de novembro de 1889."
+        },
+        {
+          "id": "D",
+          "text": "24 de fevereiro de 1891."
+        },
+        {
+          "id": "E",
+          "text": "3 de outubro de 1930."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O ato nacional ocorreu em 15 de novembro; 18 de novembro marca a instalação formal no Maranhão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7362",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Decreto nº 1, de 15 de novembro de 1889,",
+      "options": [
+        {
+          "id": "A",
+          "text": "restaurou o Poder Moderador."
+        },
+        {
+          "id": "B",
+          "text": "revogou a Lei Áurea."
+        },
+        {
+          "id": "C",
+          "text": "manteve as províncias sem alteração."
+        },
+        {
+          "id": "D",
+          "text": "instituiu provisoriamente a República federativa e transformou províncias em estados."
+        },
+        {
+          "id": "E",
+          "text": "criou a Junta maranhense de 1930."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O decreto organizou provisoriamente o novo regime e a estrutura federativa. Não restaurou Monarquia nem escravidão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7363",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Maranhão, aderir à República significou",
+      "options": [
+        {
+          "id": "A",
+          "text": "declarar independência do Brasil."
+        },
+        {
+          "id": "B",
+          "text": "restaurar o governo provincial monárquico."
+        },
+        {
+          "id": "C",
+          "text": "abolir imediatamente todas as restrições eleitorais."
+        },
+        {
+          "id": "D",
+          "text": "manter o mesmo presidente provincial sem Junta."
+        },
+        {
+          "id": "E",
+          "text": "reconhecer o novo governo federal, substituir autoridades e organizar governo estadual provisório."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A adesão foi integração à República brasileira, não secessão. Ela envolveu Junta, atos administrativos e mudança de autoridades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7364",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A sequência correta dos eventos maranhenses de novembro de 1889 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "divulgação da mudança, manifestação e repressão em 17, instalação formal da Junta em 18."
+        },
+        {
+          "id": "B",
+          "text": "Junta em 15, Abolição em 17, Monarquia em 18."
+        },
+        {
+          "id": "C",
+          "text": "Constituição estadual em 15, massacre em 18."
+        },
+        {
+          "id": "D",
+          "text": "Revolução de 1930 em 17, República em 18."
+        },
+        {
+          "id": "E",
+          "text": "posse de Pedro Tavares em 15, Junta em 17."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A notícia circulou antes da formalização; o conflito ocorreu em 17 e a Junta foi instalada em 18. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7365",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Massacre dos Libertos ocorreu",
+      "options": [
+        {
+          "id": "A",
+          "text": "em Caxias durante a Balaiada."
+        },
+        {
+          "id": "B",
+          "text": "em São Luís, em 17 de novembro de 1889, diante do jornal O Globo."
+        },
+        {
+          "id": "C",
+          "text": "em 8 de outubro de 1930, no 24º BC."
+        },
+        {
+          "id": "D",
+          "text": "no Rio de Janeiro em 15 de novembro."
+        },
+        {
+          "id": "E",
+          "text": "em 1951 durante uma greve."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A manifestação negra contra os republicanos concentrou-se diante de O Globo e terminou sob fogo das tropas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7366",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O temor central de muitos manifestantes de 17 de novembro era",
+      "options": [
+        {
+          "id": "A",
+          "text": "a restauração da República."
+        },
+        {
+          "id": "B",
+          "text": "a manutenção da Lei Áurea."
+        },
+        {
+          "id": "C",
+          "text": "a perda da liberdade e possível retorno a formas de escravização."
+        },
+        {
+          "id": "D",
+          "text": "a eleição de Getúlio Vargas."
+        },
+        {
+          "id": "E",
+          "text": "a autonomia estadual prevista em 1891."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Abolição era recente e a liberdade permanecia materialmente precária; o medo tinha base na experiência pós-escravista. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7367",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação entre princesa Isabel e os manifestantes deve ser entendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "defesa da escravidão."
+        },
+        {
+          "id": "B",
+          "text": "apoio ao tenentismo."
+        },
+        {
+          "id": "C",
+          "text": "rejeição da Lei Áurea."
+        },
+        {
+          "id": "D",
+          "text": "associação da Monarquia à liberdade recém-conquistada no 13 de Maio."
+        },
+        {
+          "id": "E",
+          "text": "apoio a Júlio Prestes."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Parte da população negra associava Isabel à Abolição e temia que os republicanos ligados a proprietários ameaçassem a liberdade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7368",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo registros oficiais utilizados por Matheus Gato, a repressão de 17 de novembro deixou",
+      "options": [
+        {
+          "id": "A",
+          "text": "nenhuma vítima."
+        },
+        {
+          "id": "B",
+          "text": "exatamente cem mortos."
+        },
+        {
+          "id": "C",
+          "text": "apenas militares feridos."
+        },
+        {
+          "id": "D",
+          "text": "um morto e nenhum ferido."
+        },
+        {
+          "id": "E",
+          "text": "quatro mortos e vários feridos, sem impedir estimativas divergentes."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Quatro mortes aparecem nos registros oficiais; quantidades maiores de manifestantes ou vítimas exigem qualificação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7369",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A expressão cidadãos do 13 de Maio designava",
+      "options": [
+        {
+          "id": "A",
+          "text": "pessoas negras e libertas associadas à experiência política da Abolição."
+        },
+        {
+          "id": "B",
+          "text": "militares da Junta de 1930."
+        },
+        {
+          "id": "C",
+          "text": "senhores indenizados pela Lei Áurea."
+        },
+        {
+          "id": "D",
+          "text": "membros do governo imperial de 1823."
+        },
+        {
+          "id": "E",
+          "text": "constituintes estaduais de 1891."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A expressão ligava sujeitos do pós-Abolição à liberdade de 13 de maio de 1888 e às disputas de cidadania. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7370",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A leitura historiográfica mais adequada da manifestação de 17 de novembro é",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova de incapacidade política dos libertos."
+        },
+        {
+          "id": "B",
+          "text": "ação política fundada na experiência da Abolição e no risco percebido de perda de direitos."
+        },
+        {
+          "id": "C",
+          "text": "movimento para restaurar a escravidão."
+        },
+        {
+          "id": "D",
+          "text": "evento sem relação com raça e cidadania."
+        },
+        {
+          "id": "E",
+          "text": "simples cerimônia organizada pela Junta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A historiografia do pós-Abolição recupera agência popular e rejeita reduzir os manifestantes a massa irracional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7371",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os ofícios da Junta de 18 de novembro afirmavam que a mudança ocorreu",
+      "options": [
+        {
+          "id": "A",
+          "text": "com guerra civil nacional."
+        },
+        {
+          "id": "B",
+          "text": "sob comando de Reis Perdigão."
+        },
+        {
+          "id": "C",
+          "text": "sem abalo da ordem pública, formulação que expressa a versão administrativa."
+        },
+        {
+          "id": "D",
+          "text": "com restauração da Monarquia."
+        },
+        {
+          "id": "E",
+          "text": "após eleição popular universal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A frase legitimava a Junta, mas não descrevia integralmente o conflito e as mortes do dia anterior. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7372",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Como conciliar o ofício sem abalo e o Massacre dos Libertos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Um deles deve ser necessariamente falso."
+        },
+        {
+          "id": "B",
+          "text": "O massacre ocorreu em 1930."
+        },
+        {
+          "id": "C",
+          "text": "O ofício foi escrito antes da Abolição."
+        },
+        {
+          "id": "D",
+          "text": "São perspectivas e momentos distintos: cerimônia institucional de 18 e conflito social de 17."
+        },
+        {
+          "id": "E",
+          "text": "Ambos descrevem eleições de 1891."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Crítica de fontes distingue finalidade, autoria, data e objeto, sem apagar a documentação oficial nem a violência popularmente vivida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7373",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O último presidente da Província do Maranhão foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "José Pires Sexto."
+        },
+        {
+          "id": "B",
+          "text": "Pedro Augusto Tavares Júnior."
+        },
+        {
+          "id": "C",
+          "text": "Reis Perdigão."
+        },
+        {
+          "id": "D",
+          "text": "José Luso Torres."
+        },
+        {
+          "id": "E",
+          "text": "Tito Augusto Pereira de Matos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Tito de Matos ocupava a presidência provincial na mudança de 1889. Os demais pertencem à República ou a 1930. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7374",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O ofício da Junta de 18 de novembro exposto pelo APEM",
+      "options": [
+        {
+          "id": "A",
+          "text": "lista seis integrantes, sem resolver sozinho todas as variantes sobre a composição política da Junta."
+        },
+        {
+          "id": "B",
+          "text": "prova que a Junta teve exatamente dez membros."
+        },
+        {
+          "id": "C",
+          "text": "foi assinado em 1930."
+        },
+        {
+          "id": "D",
+          "text": "nomeia apenas Deodoro da Fonseca."
+        },
+        {
+          "id": "E",
+          "text": "não contém nomes de militares."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O documento lista seis signatários; outras obras mencionam sete e incluem Belfort Duarte. Atribuir a lista à fonte evita falsa certeza. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7375",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "João Luís Tavares está associado",
+      "options": [
+        {
+          "id": "A",
+          "text": "à Junta de 1930."
+        },
+        {
+          "id": "B",
+          "text": "ao comando militar e à Junta Provisória de 1889."
+        },
+        {
+          "id": "C",
+          "text": "ao governo de Pires Sexto."
+        },
+        {
+          "id": "D",
+          "text": "à Balaiada."
+        },
+        {
+          "id": "E",
+          "text": "à Greve de 1951."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "João Luís Tavares figura no ofício da Junta de 1889. A Junta de 1930 teve outros integrantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7376",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O decreto maranhense de 22 de novembro de 1889 determinou",
+      "options": [
+        {
+          "id": "A",
+          "text": "o retorno das coroas imperiais."
+        },
+        {
+          "id": "B",
+          "text": "a reabertura do tráfico escravista."
+        },
+        {
+          "id": "C",
+          "text": "a retirada de símbolos monárquicos das repartições e uniformes."
+        },
+        {
+          "id": "D",
+          "text": "a posse de Getúlio Vargas."
+        },
+        {
+          "id": "E",
+          "text": "a dissolução da Junta de 1930."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A medida buscava materializar simbolicamente a substituição do regime monárquico pelo republicano. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7377",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A documentação de Turiaçu, Viana e Carolina demonstra que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o interior aderiu antes do Rio de Janeiro."
+        },
+        {
+          "id": "B",
+          "text": "todas as cidades rejeitaram a República."
+        },
+        {
+          "id": "C",
+          "text": "a Junta não comunicou a mudança."
+        },
+        {
+          "id": "D",
+          "text": "a difusão e as aclamações no interior ocorreram gradualmente."
+        },
+        {
+          "id": "E",
+          "text": "a República terminou em janeiro de 1890."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ofícios municipais e religiosos mostram circulação progressiva da notícia e das adesões, não simultaneidade instantânea. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7378",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Pedro Augusto Tavares Júnior assumiu o governo do Maranhão em",
+      "options": [
+        {
+          "id": "A",
+          "text": "15 de novembro de 1889."
+        },
+        {
+          "id": "B",
+          "text": "17 de novembro de 1889."
+        },
+        {
+          "id": "C",
+          "text": "22 de novembro de 1889."
+        },
+        {
+          "id": "D",
+          "text": "4 de julho de 1891."
+        },
+        {
+          "id": "E",
+          "text": "17 de dezembro de 1889."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Nomeado pelo Governo Provisório federal, Pedro Tavares substituiu a Junta em 17 de dezembro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7379",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Constituição republicana do Maranhão foi promulgada em",
+      "options": [
+        {
+          "id": "A",
+          "text": "4 de julho de 1891."
+        },
+        {
+          "id": "B",
+          "text": "15 de novembro de 1889."
+        },
+        {
+          "id": "C",
+          "text": "13 de maio de 1888."
+        },
+        {
+          "id": "D",
+          "text": "8 de outubro de 1930."
+        },
+        {
+          "id": "E",
+          "text": "9 de janeiro de 1931."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Constituição estadual seguiu a Constituição federal de 24 de fevereiro de 1891 e organizou a autonomia maranhense. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7380",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O federalismo republicano de 1891",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminou os estados."
+        },
+        {
+          "id": "B",
+          "text": "ampliou autonomia estadual, mas preservou exclusões eleitorais e sociais."
+        },
+        {
+          "id": "C",
+          "text": "instituiu voto universal feminino."
+        },
+        {
+          "id": "D",
+          "text": "restabeleceu escravidão."
+        },
+        {
+          "id": "E",
+          "text": "manteve o Poder Moderador."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A autonomia formal coexistiu com exclusão de analfabetos, mulheres e outros grupos, além da marginalização dos libertos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7381",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os excluídos do voto na Primeira República estavam",
+      "options": [
+        {
+          "id": "A",
+          "text": "todos os proprietários."
+        },
+        {
+          "id": "B",
+          "text": "todos os homens alfabetizados."
+        },
+        {
+          "id": "C",
+          "text": "mulheres e analfabetos."
+        },
+        {
+          "id": "D",
+          "text": "apenas militares oficiais."
+        },
+        {
+          "id": "E",
+          "text": "somente governadores."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O regime representativo manteve sufrágio restrito; a maioria analfabeta e as mulheres não participavam eleitoralmente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7382",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A mudança de 1889 pode ser chamada de democratização social completa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sim, porque distribuiu terras aos libertos."
+        },
+        {
+          "id": "B",
+          "text": "Sim, porque instituiu voto universal."
+        },
+        {
+          "id": "C",
+          "text": "Sim, porque aboliu desigualdades raciais."
+        },
+        {
+          "id": "D",
+          "text": "Não; mudou instituições, mas manteve exclusões eleitorais, raciais e econômicas."
+        },
+        {
+          "id": "E",
+          "text": "Não, porque restaurou formalmente a Monarquia."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "República e federalismo não produziram integração social ampla nem igualdade política universal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7383",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Magalhãesistas eram",
+      "options": [
+        {
+          "id": "A",
+          "text": "manifestantes negros de 1889."
+        },
+        {
+          "id": "B",
+          "text": "membros da Junta de 1930."
+        },
+        {
+          "id": "C",
+          "text": "todos os eleitores da Aliança Liberal."
+        },
+        {
+          "id": "D",
+          "text": "integrantes da Junta imperial."
+        },
+        {
+          "id": "E",
+          "text": "a situação política ligada a José Maria Magalhães de Almeida."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O termo identifica rede situacionista estadual, não partido nacional homogêneo nem grupo popular de 1889. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7384",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Tarquinistas eram identificados com",
+      "options": [
+        {
+          "id": "A",
+          "text": "a oposição ligada a Tarquínio Lopes Filho."
+        },
+        {
+          "id": "B",
+          "text": "o governo de Tito de Matos."
+        },
+        {
+          "id": "C",
+          "text": "a Junta de 1889 exclusivamente."
+        },
+        {
+          "id": "D",
+          "text": "a reação monárquica de 1823."
+        },
+        {
+          "id": "E",
+          "text": "o Vitorinismo posterior."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Tarquínio Lopes Filho liderava corrente oposicionista que apoiou tenentismo e Revolução de 1930. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7385",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Magalhães de Almeida governou o Maranhão",
+      "options": [
+        {
+          "id": "A",
+          "text": "até 8 de outubro de 1930."
+        },
+        {
+          "id": "B",
+          "text": "de 1926 a 1º de março de 1930, permanecendo depois como líder situacionista."
+        },
+        {
+          "id": "C",
+          "text": "como interventor a partir de janeiro de 1931."
+        },
+        {
+          "id": "D",
+          "text": "durante toda a década de 1930."
+        },
+        {
+          "id": "E",
+          "text": "como presidente provincial em 1889."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Seu mandato terminara em março; associá-lo à crise de outubro não o torna governador deposto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7386",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O governador efetivamente deposto em outubro de 1930 foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tito Augusto Pereira de Matos."
+        },
+        {
+          "id": "B",
+          "text": "Magalhães de Almeida."
+        },
+        {
+          "id": "C",
+          "text": "José Pires Sexto."
+        },
+        {
+          "id": "D",
+          "text": "Pedro Tavares Júnior."
+        },
+        {
+          "id": "E",
+          "text": "Astolfo Serra."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O TRE-MA registra Pires Sexto no governo de 1º de março a 8 de outubro de 1930. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7387",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na eleição presidencial de março de 1930, o resultado oficial no Maranhão favoreceu",
+      "options": [
+        {
+          "id": "A",
+          "text": "Getúlio Vargas."
+        },
+        {
+          "id": "B",
+          "text": "João Pessoa para presidente."
+        },
+        {
+          "id": "C",
+          "text": "Reis Perdigão."
+        },
+        {
+          "id": "D",
+          "text": "Júlio Prestes."
+        },
+        {
+          "id": "E",
+          "text": "Tarquínio Lopes."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Júlio Prestes venceu oficialmente no estado, embora oposição denunciasse fraude e coerção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7388",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os resultados eleitorais de 1930 devem ser lidos com cautela porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "não houve votação."
+        },
+        {
+          "id": "B",
+          "text": "o voto era eletrônico."
+        },
+        {
+          "id": "C",
+          "text": "todos os adultos votavam livremente."
+        },
+        {
+          "id": "D",
+          "text": "a Aliança Liberal controlava toda a máquina estadual."
+        },
+        {
+          "id": "E",
+          "text": "fraude, coerção e controle oligárquico limitavam sua representatividade."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O resultado oficial não é retrato transparente da preferência popular no sistema eleitoral da Primeira República. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7389",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Revolução de 1930 começou nacionalmente em",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 de outubro de 1930."
+        },
+        {
+          "id": "B",
+          "text": "1º de março de 1930."
+        },
+        {
+          "id": "C",
+          "text": "8 de outubro de 1930."
+        },
+        {
+          "id": "D",
+          "text": "14 de novembro de 1930."
+        },
+        {
+          "id": "E",
+          "text": "9 de janeiro de 1931."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O movimento nacional foi deflagrado em 3 de outubro; a tomada do poder no Maranhão ocorreu dias depois. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7390",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A divergência entre 7 e 8 de outubro no Maranhão pode ser resolvida ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "declarar todas as fontes falsas."
+        },
+        {
+          "id": "B",
+          "text": "distinguir início da deflagração e consolidação do levante, queda do governo e Junta."
+        },
+        {
+          "id": "C",
+          "text": "transferir o episódio para 1889."
+        },
+        {
+          "id": "D",
+          "text": "afirmar que Pires Sexto caiu em março."
+        },
+        {
+          "id": "E",
+          "text": "ignorar o 24º BC."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O dia 7 aparece como início em parte das narrativas; 8 marca a sublevação decisiva e o governo da Junta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7391",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O núcleo militar do movimento de 1930 em São Luís foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "o 5º Batalhão de 1889."
+        },
+        {
+          "id": "B",
+          "text": "a Guarda Negra."
+        },
+        {
+          "id": "C",
+          "text": "o 24º Batalhão de Caçadores."
+        },
+        {
+          "id": "D",
+          "text": "a Armada Imperial."
+        },
+        {
+          "id": "E",
+          "text": "o Corpo de Polícia de 1836."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A conspiração e a sublevação do 24º BC foram decisivas para derrubar Pires Sexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7392",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Reis Perdigão tinha como experiência anterior",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Junta de 1889."
+        },
+        {
+          "id": "B",
+          "text": "o governo provincial imperial."
+        },
+        {
+          "id": "C",
+          "text": "a Greve de 1951."
+        },
+        {
+          "id": "D",
+          "text": "a Revolta de 1924 e a Coluna Prestes."
+        },
+        {
+          "id": "E",
+          "text": "a Guerra da Balaiada."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Sua trajetória tenentista e revolucionária ajuda a explicar a articulação civil de 1930 no Maranhão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7393",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Tarquínio Lopes Filho deve ser distinguido de Reis Perdigão porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "apoiava a situação magalhãesista."
+        },
+        {
+          "id": "B",
+          "text": "viveu apenas no Império."
+        },
+        {
+          "id": "C",
+          "text": "comandou o Massacre dos Libertos."
+        },
+        {
+          "id": "D",
+          "text": "foi governador deposto."
+        },
+        {
+          "id": "E",
+          "text": "era liderança faccional oposicionista, enquanto Perdigão foi articulador conspiratório e chefe civil."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Ambos apoiaram o movimento, mas suas trajetórias e funções não eram idênticas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7394",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Junta maranhense de 1930 foi composta por",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reis Perdigão, Celso Reis de Freitas e José Ribamar Campos."
+        },
+        {
+          "id": "B",
+          "text": "Magalhães de Almeida, Pires Sexto e Luso Torres."
+        },
+        {
+          "id": "C",
+          "text": "João Luís Tavares, Belfort Duarte e Tito de Matos."
+        },
+        {
+          "id": "D",
+          "text": "Vargas, João Pessoa e Júlio Prestes."
+        },
+        {
+          "id": "E",
+          "text": "Astolfo Serra, Deodoro e Quintino Bocaiúva."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Junta reuniu um civil e dois tenentes e governou de 8 de outubro a 14 de novembro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7395",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Junta Revolucionária governou o Maranhão",
+      "options": [
+        {
+          "id": "A",
+          "text": "de 1889 a 1891."
+        },
+        {
+          "id": "B",
+          "text": "de 8 de outubro a 14 de novembro de 1930."
+        },
+        {
+          "id": "C",
+          "text": "de março a outubro de 1930."
+        },
+        {
+          "id": "D",
+          "text": "até a Greve de 1951."
+        },
+        {
+          "id": "E",
+          "text": "durante todo o Estado Novo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Atlas FGV fixa esse período breve, encerrado pela passagem a interventor federal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7396",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "José Luso Torres",
+      "options": [
+        {
+          "id": "A",
+          "text": "integrou a Junta de 1889."
+        },
+        {
+          "id": "B",
+          "text": "foi governador eleito em março."
+        },
+        {
+          "id": "C",
+          "text": "assumiu como interventor após a Junta de 1930, sem integrá-la."
+        },
+        {
+          "id": "D",
+          "text": "liderou os libertos em 1889."
+        },
+        {
+          "id": "E",
+          "text": "foi presidente provincial imperial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Luso Torres sucedeu a Junta em novembro; não está entre seus três membros. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7397",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a saída de Luso Torres, assumiu interinamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tito de Matos."
+        },
+        {
+          "id": "B",
+          "text": "Pires Sexto."
+        },
+        {
+          "id": "C",
+          "text": "Magalhães de Almeida."
+        },
+        {
+          "id": "D",
+          "text": "Reis Perdigão."
+        },
+        {
+          "id": "E",
+          "text": "Belfort Duarte."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Perdigão acumulou depois a função de interventor interino, antes de Astolfo Serra. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7398",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Astolfo de Barros Serra assumiu a interventoria em",
+      "options": [
+        {
+          "id": "A",
+          "text": "15 de novembro de 1889."
+        },
+        {
+          "id": "B",
+          "text": "8 de outubro de 1930."
+        },
+        {
+          "id": "C",
+          "text": "14 de novembro de 1930."
+        },
+        {
+          "id": "D",
+          "text": "27 de novembro de 1930."
+        },
+        {
+          "id": "E",
+          "text": "9 de janeiro de 1931."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Astolfo Serra sucedeu o interino Reis Perdigão em janeiro de 1931. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7399",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A sequência correta de poder em 1930-1931 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pires Sexto, Junta, Luso Torres, Reis Perdigão interino, Astolfo Serra."
+        },
+        {
+          "id": "B",
+          "text": "Magalhães, Astolfo, Junta, Pires Sexto."
+        },
+        {
+          "id": "C",
+          "text": "Junta de 1889, Deodoro, Vargas."
+        },
+        {
+          "id": "D",
+          "text": "Luso Torres, Pires Sexto, Tito de Matos."
+        },
+        {
+          "id": "E",
+          "text": "Astolfo, Junta, Magalhães."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A ordem distingue governador eleito, governo revolucionário e interventorias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7400",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os decretos de 9 de outubro de 1930 buscaram",
+      "options": [
+        {
+          "id": "A",
+          "text": "restaurar a Monarquia."
+        },
+        {
+          "id": "B",
+          "text": "organizar o Governo Provisório e reestruturar a administração estadual."
+        },
+        {
+          "id": "C",
+          "text": "promulgar a Constituição de 1891."
+        },
+        {
+          "id": "D",
+          "text": "reintegrar Pires Sexto."
+        },
+        {
+          "id": "E",
+          "text": "iniciar a Greve de 1951."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A nova autoridade reorganizou secretarias e substituiu estruturas e agentes do governo deposto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7401",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um efeito político imediato de 1930 no Maranhão foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "fortalecimento inalterado do governo Pires Sexto."
+        },
+        {
+          "id": "B",
+          "text": "fim de qualquer centralização federal."
+        },
+        {
+          "id": "C",
+          "text": "enfraquecimento do magalhãesismo e passagem a Junta e interventores."
+        },
+        {
+          "id": "D",
+          "text": "implantação do sufrágio universal."
+        },
+        {
+          "id": "E",
+          "text": "retorno à condição de província."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A ruptura substituiu o governo eleito e aproximou a administração estadual do Governo Provisório de Vargas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7402",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Revolução de 1930 no Maranhão",
+      "options": [
+        {
+          "id": "A",
+          "text": "produziu igualdade social imediata."
+        },
+        {
+          "id": "B",
+          "text": "eliminou todas as oligarquias."
+        },
+        {
+          "id": "C",
+          "text": "restaurou o Império."
+        },
+        {
+          "id": "D",
+          "text": "alterou o arranjo político e centralizou a relação federal, sem democratização social completa."
+        },
+        {
+          "id": "E",
+          "text": "foi apenas uma eleição regular."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A denominação revolução não implica transformação total; houve ruptura e recomposição de elites sob interventorias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7403",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A tentativa de reação de Magalhães de Almeida",
+      "options": [
+        {
+          "id": "A",
+          "text": "reinstalou Pires Sexto em São Luís."
+        },
+        {
+          "id": "B",
+          "text": "derrotou a Junta em 8 de outubro."
+        },
+        {
+          "id": "C",
+          "text": "foi comandada pelo 24º BC revolucionário."
+        },
+        {
+          "id": "D",
+          "text": "ocorreu em 1889."
+        },
+        {
+          "id": "E",
+          "text": "não conseguiu retomar a capital, e ele acabou preso."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Magalhães tentou articular reação legalista pelo vapor Pará, mas a nova ordem se consolidou. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7404",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual comparação entre 1889 e 1930 está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ambos instalaram Juntas, mas 1889 mudou o regime e 1930 derrubou o governo estadual situacionista."
+        },
+        {
+          "id": "B",
+          "text": "Ambos foram manifestações de libertos."
+        },
+        {
+          "id": "C",
+          "text": "Ambos ocorreram em 15 de novembro."
+        },
+        {
+          "id": "D",
+          "text": "Ambos depuseram José Pires Sexto."
+        },
+        {
+          "id": "E",
+          "text": "Ambos restauraram a Monarquia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As duas rupturas tiveram governos provisórios, mas contextos, agentes e resultados distintos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7405",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 1889, a relação com o poder federal foi marcada pela",
+      "options": [
+        {
+          "id": "A",
+          "text": "interventoria de Luso Torres."
+        },
+        {
+          "id": "B",
+          "text": "transformação da província em estado e posterior nomeação de Pedro Tavares."
+        },
+        {
+          "id": "C",
+          "text": "posse de Vargas."
+        },
+        {
+          "id": "D",
+          "text": "deposição de Pires Sexto."
+        },
+        {
+          "id": "E",
+          "text": "Coluna Prestes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A mudança republicana reorganizou a unidade federativa e conectou a sucessão local ao Governo Provisório federal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7406",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 1930, a relação com o poder federal passou a ser mediada principalmente por",
+      "options": [
+        {
+          "id": "A",
+          "text": "presidentes provinciais imperiais."
+        },
+        {
+          "id": "B",
+          "text": "câmaras coloniais."
+        },
+        {
+          "id": "C",
+          "text": "interventores nomeados no contexto do Governo Provisório de Vargas."
+        },
+        {
+          "id": "D",
+          "text": "princesa Isabel."
+        },
+        {
+          "id": "E",
+          "text": "Cortes de Lisboa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Após a Junta, interventorias expressaram a centralização do novo governo federal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7407",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a associação correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tito de Matos — governador deposto em 1930."
+        },
+        {
+          "id": "B",
+          "text": "Pires Sexto — presidente provincial em 1889."
+        },
+        {
+          "id": "C",
+          "text": "João Luís Tavares — Junta de 1930."
+        },
+        {
+          "id": "D",
+          "text": "Reis Perdigão — Junta Revolucionária de 1930."
+        },
+        {
+          "id": "E",
+          "text": "Luso Torres — Massacre dos Libertos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Reis Perdigão integrou a Junta de 1930; os demais pares misturam períodos e funções. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7408",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A afirmação de que Magalhães de Almeida foi o governador derrubado em 8 de outubro está",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta, pois governou até novembro."
+        },
+        {
+          "id": "B",
+          "text": "correta, pois substituiu Pires Sexto."
+        },
+        {
+          "id": "C",
+          "text": "correta, pois integrou a Junta."
+        },
+        {
+          "id": "D",
+          "text": "incorreta apenas porque era interventor."
+        },
+        {
+          "id": "E",
+          "text": "incorreta, pois seu mandato terminara em março e o deposto foi José Pires Sexto."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Magalhães continuava líder situacionista, mas não ocupava o governo estadual em outubro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7409",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A afirmação de que a adesão de 1889 foi totalmente pacífica deve ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "rejeitada, pois ignora a manifestação negra e a repressão de 17 de novembro."
+        },
+        {
+          "id": "B",
+          "text": "aceita, pois nenhum tiro foi disparado."
+        },
+        {
+          "id": "C",
+          "text": "aceita, pois o APEM não documenta Junta."
+        },
+        {
+          "id": "D",
+          "text": "rejeitada apenas porque ocorreu em 1930."
+        },
+        {
+          "id": "E",
+          "text": "aceita, pois a Abolição ainda não ocorrera."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A cerimônia oficial pode ter sido apresentada como ordeira, mas a transição social incluiu mortes e perseguição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7410",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A afirmação de que os libertos queriam restaurar a escravidão está",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta, pois rejeitavam a liberdade."
+        },
+        {
+          "id": "B",
+          "text": "incorreta; eles temiam perder a liberdade associada ao 13 de Maio."
+        },
+        {
+          "id": "C",
+          "text": "correta, segundo a Lei Áurea."
+        },
+        {
+          "id": "D",
+          "text": "correta, pois apoiavam proprietários republicanos."
+        },
+        {
+          "id": "E",
+          "text": "incorreta apenas porque o conflito foi em 1930."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A defesa da Monarquia exprimia proteção da liberdade recém-conquistada, não desejo de reescravização. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7411",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual evidência institucional evita atribuir a Magalhães de Almeida a condição de governador deposto em outubro de 1930?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O Decreto nº 1 de 1889, que transformou províncias em estados."
+        },
+        {
+          "id": "B",
+          "text": "O ofício da Junta maranhense de 18 de novembro de 1889."
+        },
+        {
+          "id": "C",
+          "text": "A cronologia do TRE-MA, segundo a qual José Pires Sexto governou de 1º de março a 8 de outubro de 1930."
+        },
+        {
+          "id": "D",
+          "text": "A Constituição estadual de 4 de julho de 1891."
+        },
+        {
+          "id": "E",
+          "text": "O registro das quatro mortes no Massacre dos Libertos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O período institucional de Pires Sexto coincide com a deposição de 8 de outubro. Magalhães de Almeida deixara o cargo em março, embora permanecesse líder situacionista. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7412",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O silêncio posterior sobre o Massacre dos Libertos",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova que o conflito não ocorreu."
+        },
+        {
+          "id": "B",
+          "text": "resultou de ausência completa de fontes."
+        },
+        {
+          "id": "C",
+          "text": "foi determinado pelos manifestantes."
+        },
+        {
+          "id": "D",
+          "text": "integrou a construção de memória republicana que minimizou agência e violência racial."
+        },
+        {
+          "id": "E",
+          "text": "decorreu da Revolução de 1930."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Crônicas e historiografia tradicional frequentemente reduziram o episódio a desordem sem importância. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7413",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A melhor formulação sobre as Juntas de 1889 e 1930 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "tinham os mesmos membros."
+        },
+        {
+          "id": "B",
+          "text": "foram eleitas por sufrágio universal."
+        },
+        {
+          "id": "C",
+          "text": "duraram exatamente o mesmo período."
+        },
+        {
+          "id": "D",
+          "text": "ambas eram governos monárquicos."
+        },
+        {
+          "id": "E",
+          "text": "foram governos provisórios de rupturas distintas, com composições e funções próprias."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A semelhança da forma Junta não elimina diferenças de contexto, atores e relação com o poder federal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7414",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ordem cronológica correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Abolição, República, Constituição estadual, Revolução de 1930."
+        },
+        {
+          "id": "B",
+          "text": "Revolução de 1930, Abolição, República."
+        },
+        {
+          "id": "C",
+          "text": "Constituição estadual, Abolição, República."
+        },
+        {
+          "id": "D",
+          "text": "República, Abolição, Independência."
+        },
+        {
+          "id": "E",
+          "text": "Massacre, Abolição, República."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os marcos são 1888, 1889, 1891 e 1930, respectivamente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7415",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Junta Revolucionária maranhense transferiu o poder ao interventor José Luso Torres em",
+      "options": [
+        {
+          "id": "A",
+          "text": "8 de outubro de 1930."
+        },
+        {
+          "id": "B",
+          "text": "14 de novembro de 1930."
+        },
+        {
+          "id": "C",
+          "text": "27 de novembro de 1930."
+        },
+        {
+          "id": "D",
+          "text": "9 de janeiro de 1931."
+        },
+        {
+          "id": "E",
+          "text": "17 de dezembro de 1889."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Segundo o Atlas Histórico da FGV, a Junta governou de 8 de outubro a 14 de novembro de 1930, quando transferiu o poder a Luso Torres. As demais datas marcam início da Junta, interinidade de Perdigão, posse de Astolfo Serra e sucessão da Junta de 1889. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7416",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A principal diferença entre federalismo de 1889-1891 e interventoria de 1930 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos eliminaram estados."
+        },
+        {
+          "id": "B",
+          "text": "ambos criaram voto universal."
+        },
+        {
+          "id": "C",
+          "text": "o primeiro ampliou autonomia formal dos estados; a segunda reforçou direção federal sobre o governo estadual."
+        },
+        {
+          "id": "D",
+          "text": "o primeiro restaurou Monarquia; a segunda, Império."
+        },
+        {
+          "id": "E",
+          "text": "não houve diferença institucional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A República federativa reorganizou autonomia; o Governo Provisório de Vargas recorreu a interventores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7417",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para avaliar uma afirmação sobre 1889 e 1930, o primeiro passo é",
+      "options": [
+        {
+          "id": "A",
+          "text": "presumir que todas as datas são iguais."
+        },
+        {
+          "id": "B",
+          "text": "ignorar a fonte."
+        },
+        {
+          "id": "C",
+          "text": "tratar toda mudança como democrática."
+        },
+        {
+          "id": "D",
+          "text": "separar evento nacional, ato local, conflito social e mudança administrativa."
+        },
+        {
+          "id": "E",
+          "text": "usar somente memórias dos vencedores."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Distinguir níveis e momentos evita confundir proclamação, adesão, Junta, repressão e interventoria. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7418",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sintetiza corretamente o assunto a afirmação de que",
+      "options": [
+        {
+          "id": "A",
+          "text": "1889 e 1930 foram transições pacíficas e universalmente democráticas."
+        },
+        {
+          "id": "B",
+          "text": "o Maranhão permaneceu monárquico até 1930."
+        },
+        {
+          "id": "C",
+          "text": "as duas rupturas tiveram os mesmos líderes."
+        },
+        {
+          "id": "D",
+          "text": "o Massacre dos Libertos ocorreu durante a Junta de 1930."
+        },
+        {
+          "id": "E",
+          "text": "1889 instalou a ordem republicana sob conflito racial, e 1930 substituiu o governo situacionista por Junta e interventorias."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A síntese preserva contexto, agentes e limites de cada ruptura sem tratá-las como democratização completa. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}

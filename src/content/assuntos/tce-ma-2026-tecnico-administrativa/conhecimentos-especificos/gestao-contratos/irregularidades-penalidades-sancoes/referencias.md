@@ -1,3 +1,0 @@
-- BRASIL. Presidência da República. **Lei nº 14.133, de 1º de abril de 2021**. Arts. 92, 117, 137 e 155 a 169, no texto vigente no corte de 6 jul. 2026.
-- BRASIL. Tribunal de Contas da União. **Licitações e Contratos: Orientações e Jurisprudência do TCU**. Capítulos sobre execução contratual, fiscalização, infrações e sanções administrativas.
-- CEBRASPE. **TCE/MA 2026 — Edital nº 1, de 6 de julho de 2026**, consolidado com as retificações aplicáveis ao Cargo 16.

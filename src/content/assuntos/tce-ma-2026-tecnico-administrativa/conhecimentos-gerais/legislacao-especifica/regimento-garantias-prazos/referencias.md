@@ -1,9 +1,0 @@
-- [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), Presidência da República, art. 5º, LIV, LV, LVI e LXXVIII.
-- [Legislação do TCE/MA](https://publicacao.apps.tcema.tc.br/), base oficial de atos normativos do Tribunal, incluindo o Regimento Interno e suas alterações.
-- Resolução Administrativa nº 001/2000 — Regimento Interno do Tribunal de Contas do Estado do Maranhão, especialmente arts. 157-A, 158, 163, 281 e 290 a 294 e art. 300, com alterações vigentes na publicação do edital.
-- Resolução TCE/MA nº 423, de 12 de março de 2025 — reforma da tramitação e do processo eletrônico, vigente antes do edital.
-- [D.O.E. TCE/MA — Edição nº 2983/2026, de 30 mar. 2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9468), ato oficial que confirma aplicação do Regimento com redação dada pela Resolução nº 423/2025.
-- [D.O.E. TCE/MA — Edição nº 2992/2026, de 15 abr. 2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9477), editais oficiais que aplicam o art. 290 e registram prazos de defesa e prorrogação.
-- [D.O.E. TCE/MA — Edição nº 3026/2026, de 9 jun. 2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9511), aplicação oficial do art. 290 em citação por edital antes do edital do concurso.
-- [D.O.E. TCE/MA — Edição nº 2096/2022, de 1º jun. 2022](https://diario.apps.tcema.tc.br/publicacao/pdf/8557), decisão que transcreve e aplica o art. 294 do Regimento.
-- [Consulta de Processos](https://www.tcema.tc.br/index.php/servicos/consulta-de-processos), Tribunal de Contas do Estado do Maranhão.

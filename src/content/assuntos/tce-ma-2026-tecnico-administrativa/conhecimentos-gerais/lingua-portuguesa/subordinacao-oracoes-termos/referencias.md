@@ -1,7 +1,0 @@
-- AZEREDO, José Carlos de. *Gramática Houaiss da língua portuguesa*. 6. ed. rev. Parábola Editorial, 2026.
-- BECHARA, Evanildo. *Moderna gramática portuguesa*. 40. ed. Nova Fronteira, 2024.
-- CUNHA, Celso; CINTRA, Lindley. *Nova gramática do português contemporâneo*. Lexikon, 2016.
-- FUNDAÇÃO GETULIO VARGAS. [A subordinação de orações](https://ensinomediodigital.fgv.br/files/ObjetosDigitais/obj_aprendizagem/fgvpor12/FGVPOR12.pdf).
-- CEBRASPE. [CAESB 2024: matriz com justificativas](https://cdn.cebraspe.org.br/concursos/caesb_24/arquivos/MATRIZ_039_CAESB_CG3_00_Com%20Justificativas_OK.pdf).
-- CEBRASPE. [PCPE 2023: matriz com justificativas](https://cdn.cebraspe.org.br/concursos/pc_pe_23/arquivos/MATRIZ_954PC_PE001_00_COM_JUSTIFICATIVA.PDF).
-- CEBRASPE. [PGDF 2019: matriz com justificativas](https://cdn.cebraspe.org.br/concursos/pg_df_19/arquivos/MATRIZ_521_PGDF_007_COM_JUSTIFICATIVA.PDF).

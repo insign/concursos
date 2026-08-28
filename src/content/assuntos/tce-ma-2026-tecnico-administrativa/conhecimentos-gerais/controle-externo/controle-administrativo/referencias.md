@@ -1,7 +1,0 @@
-- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — arts. 5º, XXXIV, LIV e LV, e 37.
-- [Lei nº 9.784, de 29 de janeiro de 1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm) — processo administrativo federal, especialmente arts. 1º, 5º, 48, 50 e 53 a 56.
-- [Decreto-Lei nº 200, de 25 de fevereiro de 1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) — vinculação e supervisão ministerial da Administração indireta.
-- [Tema 138 — RE 594.296/MG](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=138) — processo administrativo prévio ao desfazimento de ato com efeitos concretos.
-- [Súmula 346](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1576) — nulidade dos próprios atos pela Administração.
-- [Súmula 473](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1602) — anulação e revogação administrativas.
-- [Súmula Vinculante 21](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1184) — depósito ou arrolamento prévio para recurso administrativo.

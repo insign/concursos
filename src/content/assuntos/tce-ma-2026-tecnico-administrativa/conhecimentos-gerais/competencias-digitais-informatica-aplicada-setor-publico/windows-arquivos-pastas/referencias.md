@@ -1,9 +1,0 @@
-- CEBRASPE. [Edital nº 1 do concurso TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático. Acesso em 18 jul. 2026.
-- MICROSOFT. [Windows 11 release information](https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information). Versões 24H2, 25H2 e 26H1. Acesso em 19 jul. 2026.
-- MICROSOFT. [O suporte ao Windows 10 terminou em 14 de outubro de 2025](https://support.microsoft.com/en-us/windows/deployment/updates-lifecycle/windows-10-support-has-ended-on-october-14-2025). Acesso em 18 jul. 2026.
-- MICROSOFT. [File Explorer in Windows](https://support.microsoft.com/en-us/windows/file-explorer-in-windows-ef370130-1cca-9dc5-e0df-2f7416fe1cb1). Acesso em 18 jul. 2026.
-- MICROSOFT. [Keyboard shortcuts in Windows](https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec). Acesso em 18 jul. 2026.
-- MICROSOFT. [Naming Files, Paths, and Namespaces](https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file). Acesso em 19 jul. 2026.
-- MICROSOFT. [Search indexing in Windows](https://support.microsoft.com/en-us/windows/experience/performance-optimization/search-indexing-in-windows). Acesso em 19 jul. 2026.
-- MICROSOFT. [Zip and unzip files](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5). Acesso em 18 jul. 2026.
-- MICROSOFT. [Permissions when you copy and move files](https://learn.microsoft.com/en-us/troubleshoot/windows-client/windows-security/permissions-on-copying-moving-files). Atualização de fev. 2026. Acesso em 18 jul. 2026.

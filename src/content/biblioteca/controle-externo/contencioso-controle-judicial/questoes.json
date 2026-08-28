@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "q5799",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O sistema brasileiro de controle de litígios administrativos caracteriza-se pela",
+      "options": [
+        {
+          "id": "A",
+          "text": "jurisdição una, assegurada a apreciação judicial de lesão ou ameaça a direito."
+        },
+        {
+          "id": "B",
+          "text": "dualidade obrigatória entre justiça comum e uma jurisdição administrativa autônoma."
+        },
+        {
+          "id": "C",
+          "text": "impossibilidade de a Administração decidir recursos."
+        },
+        {
+          "id": "D",
+          "text": "irrecorribilidade judicial das decisões administrativas definitivas."
+        },
+        {
+          "id": "E",
+          "text": "necessidade de confirmação judicial prévia de todo ato administrativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 5º, XXXV, da Constituição fundamenta a jurisdição una: decisões administrativas podem produzir efeitos, mas lesão ou ameaça permanece submetida ao Judiciário."
+    },
+    {
+      "id": "q5800",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No modelo francês clássico, contencioso administrativo designa",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer pedido de reconsideração dirigido ao superior hierárquico."
+        },
+        {
+          "id": "B",
+          "text": "uma ordem jurisdicional administrativa separada da jurisdição comum."
+        },
+        {
+          "id": "C",
+          "text": "o mesmo sistema de jurisdição una brasileiro."
+        },
+        {
+          "id": "D",
+          "text": "a ausência de órgãos administrativos julgadores."
+        },
+        {
+          "id": "E",
+          "text": "apenas o controle parlamentar sobre a Administração."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A dualidade clássica francesa distingue a jurisdição administrativa da jurisdição comum; mero recurso interno não constitui contencioso administrativo nesse sentido técnico."
+    },
+    {
+      "id": "q5801",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Jurisdição una significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todos os processos brasileiros são julgados por um único órgão."
+        },
+        {
+          "id": "B",
+          "text": "não podem existir Justiça Federal nem justiças especializadas."
+        },
+        {
+          "id": "C",
+          "text": "a Administração não pode decidir requerimentos."
+        },
+        {
+          "id": "D",
+          "text": "lesão ou ameaça a direito pode ser apreciada pelo Poder Judiciário, sem uma jurisdição administrativa definitivamente imune."
+        },
+        {
+          "id": "E",
+          "text": "todo processo administrativo depende de homologação judicial."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Unidade de jurisdição diz respeito à possibilidade de controle judicial, não à inexistência de ramos especializados ou de processos administrativos."
+    },
+    {
+      "id": "q5802",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre os tribunais de contas no sistema brasileiro, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Integram o Poder Judiciário porque exercem função de julgamento."
+        },
+        {
+          "id": "B",
+          "text": "São órgãos administrativos subordinados hierarquicamente ao Poder Executivo."
+        },
+        {
+          "id": "C",
+          "text": "Exercem competências constitucionais de controle e decisão, mas não integram o Poder Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "Produzem coisa julgada judicial material em qualquer decisão."
+        },
+        {
+          "id": "E",
+          "text": "Suas decisões são imunes ao controle jurisdicional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Tribunais de contas são órgãos constitucionais de controle externo, com competências decisórias próprias, mas não integram o Poder Judiciário."
+    },
+    {
+      "id": "q5803",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A chamada coisa julgada administrativa corresponde, de forma segura, à",
+      "options": [
+        {
+          "id": "A",
+          "text": "definitividade interna da decisão administrativa, sem equivaler à coisa julgada judicial material."
+        },
+        {
+          "id": "B",
+          "text": "imutabilidade absoluta contra qualquer revisão judicial."
+        },
+        {
+          "id": "C",
+          "text": "transformação do órgão administrativo em tribunal judicial."
+        },
+        {
+          "id": "D",
+          "text": "impossibilidade de decadência da autotutela."
+        },
+        {
+          "id": "E",
+          "text": "necessidade de ação rescisória para toda revisão administrativa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A expressão indica estabilidade na esfera administrativa. Ela não produz a mesma autoridade da coisa julgada judicial nem afasta o acesso ao Judiciário."
+    },
+    {
+      "id": "q5804",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A coisa julgada judicial distingue-se da chamada coisa julgada administrativa porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode ser livremente revogada pela Administração."
+        },
+        {
+          "id": "B",
+          "text": "decorre de decisão administrativa definitiva."
+        },
+        {
+          "id": "C",
+          "text": "não produz estabilidade alguma."
+        },
+        {
+          "id": "D",
+          "text": "existe apenas quando a Administração concorda."
+        },
+        {
+          "id": "E",
+          "text": "possui a autoridade própria da decisão judicial transitada em julgado, sujeita ao regime processual de desconstituição."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A coisa julgada judicial tem regime processual próprio; a definitividade administrativa permanece interna e não se equipara a ela."
+    },
+    {
+      "id": "q5805",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula 473 do STF, a Administração",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente pode rever seus atos após ordem judicial."
+        },
+        {
+          "id": "B",
+          "text": "anula atos ilegais e pode revogar atos válidos por conveniência ou oportunidade, respeitados os limites jurídicos."
+        },
+        {
+          "id": "C",
+          "text": "revoga atos ilegais e anula atos inconvenientes."
+        },
+        {
+          "id": "D",
+          "text": "não pode rever atos que produzam efeitos."
+        },
+        {
+          "id": "E",
+          "text": "fica imune ao controle judicial quando exerce autotutela."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Autotutela permite anulação por ilegalidade e revogação de ato válido por mérito administrativo, com respeito aos limites jurídicos e à apreciação judicial."
+    },
+    {
+      "id": "q5806",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao examinar ato administrativo válido, o Poder Judiciário",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve revogá-lo se preferir outra política pública."
+        },
+        {
+          "id": "B",
+          "text": "atua como superior hierárquico da autoridade."
+        },
+        {
+          "id": "C",
+          "text": "pode substituir qualquer decisão técnica por sua preferência."
+        },
+        {
+          "id": "D",
+          "text": "não possui poder geral para revogá-lo por mera discordância de conveniência ou oportunidade."
+        },
+        {
+          "id": "E",
+          "text": "deve sempre escolher a alternativa menos onerosa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Judiciário controla juridicidade e pode anular vícios, mas revogação de ato válido por mérito pertence à Administração competente."
+    },
+    {
+      "id": "q5807",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A inafastabilidade da jurisdição está expressa na regra constitucional segundo a qual",
+      "options": [
+        {
+          "id": "A",
+          "text": "a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito."
+        },
+        {
+          "id": "B",
+          "text": "toda demanda contra o Estado será necessariamente procedente."
+        },
+        {
+          "id": "C",
+          "text": "todo recurso administrativo deve ser esgotado antes da ação."
+        },
+        {
+          "id": "D",
+          "text": "atos administrativos só produzem efeitos após sentença."
+        },
+        {
+          "id": "E",
+          "text": "a Administração não pode possuir instâncias recursais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 5º, XXXV, da Constituição assegura apreciação judicial de lesão ou ameaça a direito."
+    },
+    {
+      "id": "q5808",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A garantia de acesso ao Judiciário",
+      "options": [
+        {
+          "id": "A",
+          "text": "elimina competência e legitimidade."
+        },
+        {
+          "id": "B",
+          "text": "dispensa interesse processual."
+        },
+        {
+          "id": "C",
+          "text": "torna irrelevante a adequação da via escolhida."
+        },
+        {
+          "id": "D",
+          "text": "garante procedência automática."
+        },
+        {
+          "id": "E",
+          "text": "convive com requisitos processuais legítimos, como interesse, legitimidade, competência e adequação."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Inafastabilidade assegura acesso, não vitória automática nem dispensa dos requisitos processuais."
+    },
+    {
+      "id": "q5809",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Requerimento administrativo prévio e exaurimento da via administrativa",
+      "options": [
+        {
+          "id": "A",
+          "text": "são conceitos idênticos."
+        },
+        {
+          "id": "B",
+          "text": "são distintos: o primeiro provoca inicialmente a Administração; o segundo percorre todas as instâncias administrativas disponíveis."
+        },
+        {
+          "id": "C",
+          "text": "sempre devem ocorrer juntos."
+        },
+        {
+          "id": "D",
+          "text": "foram ambos proibidos pelo art. 5º, XXXV."
+        },
+        {
+          "id": "E",
+          "text": "somente existem no sistema francês."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Provocação inicial e esgotamento recursal são institutos distintos; não há regra geral de exaurimento no Brasil."
+    },
+    {
+      "id": "q5810",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No Tema 350 do STF, relativo à concessão inicial de benefício previdenciário, a regra é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ajuizamento direto sem qualquer requerimento em todos os casos."
+        },
+        {
+          "id": "B",
+          "text": "esgotamento obrigatório de todos os recursos do INSS."
+        },
+        {
+          "id": "C",
+          "text": "prévio requerimento administrativo em regra, sem necessidade de exaurir os recursos administrativos."
+        },
+        {
+          "id": "D",
+          "text": "ação popular antes do requerimento ao INSS."
+        },
+        {
+          "id": "E",
+          "text": "recurso judicial somente após decisão do Conselho de Recursos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Tema 350 relaciona o requerimento inicial à existência de lesão/interesse de agir, mas não exige exaurimento administrativo."
+    },
+    {
+      "id": "q5811",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ainda no Tema 350, o interessado",
+      "options": [
+        {
+          "id": "A",
+          "text": "precisa necessariamente recorrer até a última instância administrativa."
+        },
+        {
+          "id": "B",
+          "text": "não precisa exaurir recursos administrativos para acessar o Judiciário após a provocação necessária."
+        },
+        {
+          "id": "C",
+          "text": "só pode ir a juízo se o INSS aplicar multa."
+        },
+        {
+          "id": "D",
+          "text": "deve aguardar cinco anos após o indeferimento."
+        },
+        {
+          "id": "E",
+          "text": "não pode judicializar omissão administrativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O precedente distingue requerimento inicial de exaurimento: a última instância administrativa não é requisito geral."
+    },
+    {
+      "id": "q5812",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O Tema 350 admite dispensar o requerimento administrativo inicial quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "a posição administrativa for notória e reiteradamente contrária à pretensão."
+        },
+        {
+          "id": "B",
+          "text": "o interessado não quiser apresentar documentos necessários."
+        },
+        {
+          "id": "C",
+          "text": "houver mera preferência pela via judicial."
+        },
+        {
+          "id": "D",
+          "text": "a ação envolver matéria já prescrita."
+        },
+        {
+          "id": "E",
+          "text": "existir qualquer recurso administrativo com efeito suspensivo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Se a Administração adota posição notória e reiteradamente contrária, a provocação inicial pode ser dispensada nos termos do precedente."
+    },
+    {
+      "id": "q5813",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em revisão ou restabelecimento de benefício já concedido, segundo a lógica do Tema 350,",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre se exige novo requerimento e todos os recursos."
+        },
+        {
+          "id": "B",
+          "text": "nunca pode existir requerimento administrativo."
+        },
+        {
+          "id": "C",
+          "text": "novo requerimento pode ser necessário se a pretensão depender de fato ainda não submetido à Administração."
+        },
+        {
+          "id": "D",
+          "text": "o Judiciário perde competência."
+        },
+        {
+          "id": "E",
+          "text": "a decisão administrativa torna-se coisa julgada judicial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Em regra a lesão já existe, mas fato novo não submetido pode justificar provocação administrativa inicial."
+    },
+    {
+      "id": "q5814",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O esgotamento da Justiça Desportiva é constitucionalmente exigido",
+      "options": [
+        {
+          "id": "A",
+          "text": "em todo contrato celebrado por atleta."
+        },
+        {
+          "id": "B",
+          "text": "em qualquer conflito relacionado a esporte."
+        },
+        {
+          "id": "C",
+          "text": "somente depois de decisão judicial."
+        },
+        {
+          "id": "D",
+          "text": "nas ações relativas à disciplina e às competições desportivas."
+        },
+        {
+          "id": "E",
+          "text": "para impedir definitivamente o controle judicial."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 217, § 1º, limita o condicionamento às ações relativas à disciplina e às competições desportivas."
+    },
+    {
+      "id": "q5815",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Constituição determina que a Justiça Desportiva profira decisão final",
+      "options": [
+        {
+          "id": "A",
+          "text": "em até 60 dias da instauração do processo."
+        },
+        {
+          "id": "B",
+          "text": "em 120 dias da infração."
+        },
+        {
+          "id": "C",
+          "text": "em cinco anos."
+        },
+        {
+          "id": "D",
+          "text": "sem prazo definido."
+        },
+        {
+          "id": "E",
+          "text": "em 30 dias do primeiro recurso."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 217, § 2º, fixa prazo máximo de 60 dias a partir da instauração do processo."
+    },
+    {
+      "id": "q5816",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para o habeas data, a resistência administrativa é relevante porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitui a necessidade de dados pessoais."
+        },
+        {
+          "id": "B",
+          "text": "transforma o remédio em ação popular."
+        },
+        {
+          "id": "C",
+          "text": "comprova interesse para acesso, retificação ou anotação de dados pessoais, conforme a Lei nº 9.507/1997 e a Súmula 2 do STJ."
+        },
+        {
+          "id": "D",
+          "text": "obriga o exaurimento de toda a hierarquia administrativa."
+        },
+        {
+          "id": "E",
+          "text": "permite usar o habeas data para qualquer informação sobre terceiros."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O habeas data exige resistência administrativa; isso não equivale a exaurimento de recursos."
+    },
+    {
+      "id": "q5817",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Nos termos da Lei nº 9.507/1997, considera-se relevante para demonstrar resistência no habeas data o decurso de",
+      "options": [
+        {
+          "id": "A",
+          "text": "mais de 10 dias para acesso e mais de 15 dias para retificação ou anotação."
+        },
+        {
+          "id": "B",
+          "text": "5 dias para qualquer pedido."
+        },
+        {
+          "id": "C",
+          "text": "60 dias para acesso e 120 para retificação."
+        },
+        {
+          "id": "D",
+          "text": "30 dias para qualquer finalidade."
+        },
+        {
+          "id": "E",
+          "text": "1 ano para acesso e 2 anos para retificação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei diferencia os prazos: mais de 10 dias para acesso e mais de 15 dias para retificação ou anotação."
+    },
+    {
+      "id": "q5818",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Lei nº 12.016/2009 não admite mandado de segurança contra ato",
+      "options": [
+        {
+          "id": "A",
+          "text": "praticado por autoridade federal."
+        },
+        {
+          "id": "B",
+          "text": "que ameace direito líquido e certo."
+        },
+        {
+          "id": "C",
+          "text": "do qual caiba recurso administrativo com efeito suspensivo, independentemente de caução."
+        },
+        {
+          "id": "D",
+          "text": "administrativo discricionário em qualquer circunstância."
+        },
+        {
+          "id": "E",
+          "text": "que tenha motivação expressa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Trata-se de limitação específica do mandado de segurança e não de exaurimento administrativo geral."
+    },
+    {
+      "id": "q5819",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No sistema brasileiro, a regra geral quanto ao acesso ao Judiciário é",
+      "options": [
+        {
+          "id": "A",
+          "text": "exaurir sempre três instâncias administrativas."
+        },
+        {
+          "id": "B",
+          "text": "aguardar coisa julgada administrativa absoluta."
+        },
+        {
+          "id": "C",
+          "text": "não exigir exaurimento administrativo, ressalvados condicionamentos constitucionais ou legais específicos."
+        },
+        {
+          "id": "D",
+          "text": "ajuizar somente após parecer do tribunal de contas."
+        },
+        {
+          "id": "E",
+          "text": "obter autorização do órgão administrativo que proferiu a decisão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A jurisdição una rejeita uma exigência geral de exaurimento, sem excluir condicionamentos específicos."
+    },
+    {
+      "id": "q5820",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O controle de juridicidade da Administração abrange",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a literalidade de decretos."
+        },
+        {
+          "id": "B",
+          "text": "Constituição, leis, princípios, direitos fundamentais e regras processuais aplicáveis."
+        },
+        {
+          "id": "C",
+          "text": "somente conveniência e oportunidade."
+        },
+        {
+          "id": "D",
+          "text": "preferências pessoais do juiz."
+        },
+        {
+          "id": "E",
+          "text": "apenas aspectos formais, nunca fatos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Juridicidade é parâmetro mais amplo que a legalidade formal estrita."
+    },
+    {
+      "id": "q5821",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Motivo do ato administrativo é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a exposição escrita das razões."
+        },
+        {
+          "id": "B",
+          "text": "o resultado econômico do ato."
+        },
+        {
+          "id": "C",
+          "text": "o pressuposto de fato e de direito que sustenta a decisão."
+        },
+        {
+          "id": "D",
+          "text": "a conveniência pessoal do agente."
+        },
+        {
+          "id": "E",
+          "text": "a autoridade responsável pelo ato."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Motivo é a base fática e jurídica; motivação é a exteriorização das razões."
+    },
+    {
+      "id": "q5822",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Motivação corresponde",
+      "options": [
+        {
+          "id": "A",
+          "text": "à exteriorização das razões de fato e de direito da decisão."
+        },
+        {
+          "id": "B",
+          "text": "ao órgão competente."
+        },
+        {
+          "id": "C",
+          "text": "ao efeito produzido pelo ato."
+        },
+        {
+          "id": "D",
+          "text": "à possibilidade de revogação judicial."
+        },
+        {
+          "id": "E",
+          "text": "à coisa julgada administrativa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Motivação é a exposição das razões que justificam a decisão."
+    },
+    {
+      "id": "q5823",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Pela teoria dos motivos determinantes,",
+      "options": [
+        {
+          "id": "A",
+          "text": "os motivos declarados são irrelevantes em atos discricionários."
+        },
+        {
+          "id": "B",
+          "text": "a Administração pode substituir depois fato falso por justificativa inventada."
+        },
+        {
+          "id": "C",
+          "text": "o Judiciário escolhe livremente novos motivos."
+        },
+        {
+          "id": "D",
+          "text": "a validade do ato vincula-se à existência e à veracidade dos motivos declarados."
+        },
+        {
+          "id": "E",
+          "text": "somente atos vinculados podem ter motivação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Quando a Administração declara motivos, sua existência e veracidade podem ser controladas."
+    },
+    {
+      "id": "q5824",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Discricionariedade administrativa é",
+      "options": [
+        {
+          "id": "A",
+          "text": "imunidade contra o Direito."
+        },
+        {
+          "id": "B",
+          "text": "poder de agir sem motivação."
+        },
+        {
+          "id": "C",
+          "text": "margem juridicamente conferida para escolher entre alternativas válidas."
+        },
+        {
+          "id": "D",
+          "text": "competência do juiz para administrar."
+        },
+        {
+          "id": "E",
+          "text": "sinônimo de arbitrariedade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A discricionariedade existe dentro do ordenamento e não dispensa finalidade, fatos ou proporcionalidade."
+    },
+    {
+      "id": "q5825",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em ato discricionário, o Poder Judiciário pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "controlar competência, fatos, finalidade, motivação, proporcionalidade e direitos fundamentais."
+        },
+        {
+          "id": "B",
+          "text": "revogar o ato por discordar da conveniência."
+        },
+        {
+          "id": "C",
+          "text": "escolher sempre a política pública que preferir."
+        },
+        {
+          "id": "D",
+          "text": "ignorar a lei diante de opção técnica."
+        },
+        {
+          "id": "E",
+          "text": "substituir toda avaliação administrativa sem demonstrar vício."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O mérito legítimo é preservado, mas os parâmetros de juridicidade permanecem controláveis."
+    },
+    {
+      "id": "q5826",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Mérito administrativo corresponde",
+      "options": [
+        {
+          "id": "A",
+          "text": "a qualquer ilegalidade."
+        },
+        {
+          "id": "B",
+          "text": "ao espaço legítimo de conveniência e oportunidade entre alternativas juridicamente válidas."
+        },
+        {
+          "id": "C",
+          "text": "à coisa julgada judicial."
+        },
+        {
+          "id": "D",
+          "text": "à competência do Judiciário para revogar atos."
+        },
+        {
+          "id": "E",
+          "text": "à ausência de qualquer controle."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Mérito é a escolha legítima restante depois de observados os limites jurídicos."
+    },
+    {
+      "id": "q5827",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Conceitos jurídicos indeterminados, como urgência e risco grave,",
+      "options": [
+        {
+          "id": "A",
+          "text": "geram poder arbitrário."
+        },
+        {
+          "id": "B",
+          "text": "nunca permitem controle de fatos."
+        },
+        {
+          "id": "C",
+          "text": "eliminam a necessidade de motivação."
+        },
+        {
+          "id": "D",
+          "text": "exigem concretização e podem ser controlados quanto a fatos, finalidade, coerência e proporcionalidade."
+        },
+        {
+          "id": "E",
+          "text": "sempre produzem uma única solução matemática."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A abertura semântica pode deixar margem, mas não afasta a juridicidade."
+    },
+    {
+      "id": "q5828",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A providência adequada para retirar ato ilegal é, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "revogação judicial."
+        },
+        {
+          "id": "B",
+          "text": "anulação, pela Administração ou pelo Judiciário conforme o caso."
+        },
+        {
+          "id": "C",
+          "text": "manutenção obrigatória por segurança jurídica."
+        },
+        {
+          "id": "D",
+          "text": "homologação pelo tribunal de contas."
+        },
+        {
+          "id": "E",
+          "text": "conversão em ato legislativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Anulação responde à invalidade; revogação recai sobre ato válido por conveniência ou oportunidade."
+    },
+    {
+      "id": "q5829",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quando a lei e os fatos deixam apenas uma consequência juridicamente válida, o Judiciário",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode reconhecer diretamente o direito sem escolher entre alternativas de mérito."
+        },
+        {
+          "id": "B",
+          "text": "deve necessariamente devolver a decisão mesmo sem margem."
+        },
+        {
+          "id": "C",
+          "text": "precisa revogar o ato anterior."
+        },
+        {
+          "id": "D",
+          "text": "fica impedido de conceder tutela específica."
+        },
+        {
+          "id": "E",
+          "text": "transforma a questão vinculada em política discricionária."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Se não resta escolha legítima, reconhecer a consequência vinculada não significa substituir mérito administrativo."
+    },
+    {
+      "id": "q5830",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A complexidade técnica de decisão administrativa",
+      "options": [
+        {
+          "id": "A",
+          "text": "torna o ato imune ao Judiciário."
+        },
+        {
+          "id": "B",
+          "text": "autoriza o juiz a substituir a Administração sem prova."
+        },
+        {
+          "id": "C",
+          "text": "elimina o dever de motivação."
+        },
+        {
+          "id": "D",
+          "text": "impede análise de erro fático."
+        },
+        {
+          "id": "E",
+          "text": "recomenda cautela e prova adequada, mas não impede controle de erro demonstrado, incoerência ou violação normativa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Deferência técnica não é imunidade; o controle deve ter base jurídica e probatória."
+    },
+    {
+      "id": "q5831",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No Tema 1420 do STF, relativo à heteroidentificação em concurso público, ficou assentado que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o ato da comissão é sempre imune ao Judiciário."
+        },
+        {
+          "id": "B",
+          "text": "o Judiciário pode controlar o ato para garantir contraditório e ampla defesa."
+        },
+        {
+          "id": "C",
+          "text": "o juiz deve substituir sempre a avaliação da comissão."
+        },
+        {
+          "id": "D",
+          "text": "heteroidentificação é inconstitucional."
+        },
+        {
+          "id": "E",
+          "text": "somente o tribunal de contas pode rever a comissão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A primeira tese do Tema 1420 admite controle judicial do ato de heteroidentificação para garantia do contraditório e da ampla defesa."
+    },
+    {
+      "id": "q5832",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A segunda tese do Tema 1420 afirma que a controvérsia sobre a adequação dos critérios e fundamentos de exclusão por comissão de heteroidentificação",
+      "options": [
+        {
+          "id": "A",
+          "text": "é exclusivamente jurídica e abstrata."
+        },
+        {
+          "id": "B",
+          "text": "dispensa análise do edital."
+        },
+        {
+          "id": "C",
+          "text": "é fática e pressupõe análise das cláusulas do edital do concurso."
+        },
+        {
+          "id": "D",
+          "text": "não pode ser debatida em processo algum."
+        },
+        {
+          "id": "E",
+          "text": "produz automaticamente reinclusão do candidato."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O STF qualificou essa controvérsia como fática, ligada aos critérios e cláusulas do edital."
+    },
+    {
+      "id": "q5833",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A melhor leitura do Tema 1420 para os limites do controle jurisdicional é",
+      "options": [
+        {
+          "id": "A",
+          "text": "controle judicial significa substituição automática da comissão."
+        },
+        {
+          "id": "B",
+          "text": "contraditório e ampla defesa podem ser controlados, sem autorização genérica para substituir toda avaliação fática administrativa."
+        },
+        {
+          "id": "C",
+          "text": "toda comissão administrativa possui coisa julgada judicial."
+        },
+        {
+          "id": "D",
+          "text": "a Administração não pode utilizar heteroidentificação."
+        },
+        {
+          "id": "E",
+          "text": "o Judiciário somente atua depois de exauridos todos os recursos de qualquer concurso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O precedente combina controle de garantias com respeito ao recorte fático e aos limites da revisão judicial."
+    },
+    {
+      "id": "q5834",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Segundo o Tema 698 do STF, diante de ausência ou deficiência grave de serviço público destinado à realização de direito fundamental,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a intervenção judicial sempre viola a separação dos Poderes."
+        },
+        {
+          "id": "B",
+          "text": "a omissão é imune se houver discricionariedade."
+        },
+        {
+          "id": "C",
+          "text": "a intervenção judicial pode ser legítima."
+        },
+        {
+          "id": "D",
+          "text": "o juiz deve necessariamente gerir diretamente o serviço."
+        },
+        {
+          "id": "E",
+          "text": "somente o Legislativo pode reconhecer a deficiência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Tema 698 afasta a tese de imunidade da omissão grave e admite intervenção judicial."
+    },
+    {
+      "id": "q5835",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Como regra no Tema 698, a decisão judicial deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "escolher cada servidor e contrato."
+        },
+        {
+          "id": "B",
+          "text": "indicar finalidades ou resultados e determinar que a Administração apresente plano e/ou meios adequados."
+        },
+        {
+          "id": "C",
+          "text": "substituir integralmente o orçamento."
+        },
+        {
+          "id": "D",
+          "text": "proibir qualquer escolha administrativa."
+        },
+        {
+          "id": "E",
+          "text": "limitar-se a declarar a omissão sem providência."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A técnica preferencial fixa o resultado devido e preserva à Administração espaço para definir meios legítimos."
+    },
+    {
+      "id": "q5836",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No exemplo de saúde constante do Tema 698, o déficit de profissionais",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente pode ser suprido por nomeação judicial individual."
+        },
+        {
+          "id": "B",
+          "text": "não pode ser objeto de controle."
+        },
+        {
+          "id": "C",
+          "text": "pode ser enfrentado por concurso ou por alternativas legítimas como remanejamento e contratação de organizações sociais ou OSCIPs."
+        },
+        {
+          "id": "D",
+          "text": "exige privatização do serviço."
+        },
+        {
+          "id": "E",
+          "text": "deve ser ignorado se houver alegação genérica de falta de recursos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A tese mostra que o resultado devido não impõe necessariamente um único meio administrativo."
+    },
+    {
+      "id": "q5837",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O Tema 698 rejeita simultaneamente as ideias de que",
+      "options": [
+        {
+          "id": "A",
+          "text": "omissão grave é sempre imune e intervenção judicial autoriza microgestão automática."
+        },
+        {
+          "id": "B",
+          "text": "direitos fundamentais podem ser tutelados e a Administração possui meios próprios."
+        },
+        {
+          "id": "C",
+          "text": "o juiz pode fixar resultados e a Administração pode apresentar plano."
+        },
+        {
+          "id": "D",
+          "text": "urgência pode influenciar a intensidade e a separação de Poderes permanece relevante."
+        },
+        {
+          "id": "E",
+          "text": "decisões judiciais precisam ser fundamentadas e políticas públicas possuem custos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O precedente admite controle da omissão grave, mas preserva espaço administrativo para os meios como regra."
+    },
+    {
+      "id": "q5838",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Súmula Vinculante 5 do STF estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o PAD pode ocorrer sem defesa alguma."
+        },
+        {
+          "id": "B",
+          "text": "todo PAD exige advogado particular."
+        },
+        {
+          "id": "C",
+          "text": "a falta de defesa técnica por advogado no PAD não ofende, por si só, a Constituição."
+        },
+        {
+          "id": "D",
+          "text": "sanções disciplinares dispensam motivação."
+        },
+        {
+          "id": "E",
+          "text": "a Administração pode impedir produção de prova pertinente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A SV 5 afasta nulidade constitucional automática pela ausência de advogado, sem eliminar contraditório e ampla defesa."
+    },
+    {
+      "id": "q5839",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Mesmo com a Súmula Vinculante 5, o PAD deve assegurar",
+      "options": [
+        {
+          "id": "A",
+          "text": "ciência, contraditório, oportunidade efetiva de defesa e decisão motivada."
+        },
+        {
+          "id": "B",
+          "text": "condenação por fato não comunicado."
+        },
+        {
+          "id": "C",
+          "text": "sigilo absoluto contra o acusado."
+        },
+        {
+          "id": "D",
+          "text": "presunção irreversível de culpa."
+        },
+        {
+          "id": "E",
+          "text": "advogado como requisito constitucional universal em todo caso."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A SV 5 trata apenas da defesa técnica por advogado; as garantias processuais permanecem."
+    },
+    {
+      "id": "q5840",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Súmula 665 do STJ orienta que o controle jurisdicional do PAD se concentra",
+      "options": [
+        {
+          "id": "A",
+          "text": "na escolha da sanção que o juiz pessoalmente preferir."
+        },
+        {
+          "id": "B",
+          "text": "na regularidade do procedimento e na legalidade do ato, sem incursão ordinária no mérito."
+        },
+        {
+          "id": "C",
+          "text": "na repetição integral da instrução pelo Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "na conveniência administrativa."
+        },
+        {
+          "id": "E",
+          "text": "apenas na existência formal do processo, nunca em direitos de defesa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O verbete preserva o mérito ordinário e concentra o controle em regularidade e legalidade."
+    },
+    {
+      "id": "q5841",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula 665 do STJ, o controle judicial do PAD pode alcançar, excepcionalmente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer discordância com a comissão."
+        },
+        {
+          "id": "B",
+          "text": "mera preferência por pena mais branda."
+        },
+        {
+          "id": "C",
+          "text": "flagrante ilegalidade, teratologia ou manifesta desproporcionalidade da sanção."
+        },
+        {
+          "id": "D",
+          "text": "toda valoração de testemunhas."
+        },
+        {
+          "id": "E",
+          "text": "apenas erro material de digitação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O próprio verbete ressalva esses vícios qualificados."
+    },
+    {
+      "id": "q5842",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O art. 20 da LINDB determina que decisão baseada em valor jurídico abstrato",
+      "options": [
+        {
+          "id": "A",
+          "text": "ignore as consequências práticas."
+        },
+        {
+          "id": "B",
+          "text": "considere consequências práticas e motive necessidade e adequação da medida."
+        },
+        {
+          "id": "C",
+          "text": "preserve sempre o ato, ainda que ilegal."
+        },
+        {
+          "id": "D",
+          "text": "substitua o Direito por cálculo econômico."
+        },
+        {
+          "id": "E",
+          "text": "não examine alternativas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 20 qualifica a motivação consequencial, sem autorizar afastamento da legalidade."
+    },
+    {
+      "id": "q5843",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Nos termos do art. 21 da LINDB, a decisão que invalida ato, contrato, ajuste, processo ou norma administrativa deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "limitar-se à palavra nulo."
+        },
+        {
+          "id": "B",
+          "text": "sempre manter todos os efeitos do ato."
+        },
+        {
+          "id": "C",
+          "text": "indicar consequências jurídicas e administrativas e, quando cabível, condições de regularização."
+        },
+        {
+          "id": "D",
+          "text": "deixar a execução sem orientação."
+        },
+        {
+          "id": "E",
+          "text": "aplicar sanção automática a todos os agentes."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A LINDB exige invalidação responsável, com efeitos e eventual regularização proporcional."
+    },
+    {
+      "id": "q5844",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O art. 22 da LINDB orienta considerar",
+      "options": [
+        {
+          "id": "A",
+          "text": "obstáculos e dificuldades reais da gestão e exigências das políticas públicas, sem prejuízo dos direitos dos administrados."
+        },
+        {
+          "id": "B",
+          "text": "qualquer dificuldade imaginária como imunidade."
+        },
+        {
+          "id": "C",
+          "text": "somente a intenção subjetiva do controlador."
+        },
+        {
+          "id": "D",
+          "text": "a gestão pública como esfera sem controle."
+        },
+        {
+          "id": "E",
+          "text": "apenas consequências financeiras privadas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A realidade da gestão integra a interpretação, mas não apaga direitos nem legaliza omissões."
+    },
+    {
+      "id": "q5845",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O art. 23 da LINDB relaciona-se à",
+      "options": [
+        {
+          "id": "A",
+          "text": "proibição de mudança interpretativa."
+        },
+        {
+          "id": "B",
+          "text": "possibilidade de regime de transição quando nova interpretação ou orientação impõe novo dever."
+        },
+        {
+          "id": "C",
+          "text": "revogação judicial por conveniência."
+        },
+        {
+          "id": "D",
+          "text": "dispensa de motivação."
+        },
+        {
+          "id": "E",
+          "text": "coisa julgada administrativa absoluta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A transição serve à segurança jurídica quando nova orientação sobre norma indeterminada impõe dever novo."
+    },
+    {
+      "id": "q5846",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na revisão de situação plenamente constituída, o art. 24 da LINDB manda considerar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a orientação mais recente."
+        },
+        {
+          "id": "B",
+          "text": "as orientações gerais da época, evitando invalidar apenas por mudança posterior de orientação."
+        },
+        {
+          "id": "C",
+          "text": "a preferência pessoal do controlador."
+        },
+        {
+          "id": "D",
+          "text": "a presunção absoluta de má-fé."
+        },
+        {
+          "id": "E",
+          "text": "somente decisões judiciais estrangeiras."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 24 protege coerência temporal e confiança, sem blindar fraude ou ilegalidade já reconhecível."
+    },
+    {
+      "id": "q5847",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O mandado de segurança protege",
+      "options": [
+        {
+          "id": "A",
+          "text": "direito líquido e certo não amparado por habeas corpus ou habeas data, com prova pré-constituída."
+        },
+        {
+          "id": "B",
+          "text": "qualquer pretensão dependente de ampla perícia."
+        },
+        {
+          "id": "C",
+          "text": "somente liberdade de locomoção."
+        },
+        {
+          "id": "D",
+          "text": "apenas dados pessoais."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente interesses coletivos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O MS exige direito líquido e certo demonstrável por prova pré-constituída."
+    },
+    {
+      "id": "q5848",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O prazo decadencial para impetração de mandado de segurança é, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 dias."
+        },
+        {
+          "id": "B",
+          "text": "30 dias."
+        },
+        {
+          "id": "C",
+          "text": "60 dias."
+        },
+        {
+          "id": "D",
+          "text": "120 dias da ciência do ato impugnado."
+        },
+        {
+          "id": "E",
+          "text": "5 anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Lei nº 12.016/2009 fixa 120 dias, contados da ciência do ato impugnado."
+    },
+    {
+      "id": "q5849",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A legitimidade ativa originária para ação popular pertence",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao Ministério Público exclusivamente."
+        },
+        {
+          "id": "B",
+          "text": "ao cidadão em gozo de direitos políticos."
+        },
+        {
+          "id": "C",
+          "text": "a qualquer empresa privada."
+        },
+        {
+          "id": "D",
+          "text": "somente à Defensoria Pública."
+        },
+        {
+          "id": "E",
+          "text": "ao tribunal de contas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 5º, LXXIII, da Constituição reserva a ação popular ao cidadão."
+    },
+    {
+      "id": "q5850",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Entre os legitimados da ação civil pública estão, observados os requisitos legais,",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas cidadãos com título eleitoral."
+        },
+        {
+          "id": "B",
+          "text": "somente o Ministério Público."
+        },
+        {
+          "id": "C",
+          "text": "MP, Defensoria, entes e entidades públicas e associações qualificadas."
+        },
+        {
+          "id": "D",
+          "text": "somente tribunais de contas."
+        },
+        {
+          "id": "E",
+          "text": "qualquer pessoa física isoladamente em toda hipótese."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei nº 7.347/1985 prevê rol de legitimados; cidadania, sozinha, não cria legitimidade universal para ACP."
+    },
+    {
+      "id": "q5851",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O habeas data é adequado para",
+      "options": [
+        {
+          "id": "A",
+          "text": "obter qualquer informação sobre terceiro."
+        },
+        {
+          "id": "B",
+          "text": "conhecer, retificar ou anotar dados pessoais do impetrante em registro governamental ou de caráter público."
+        },
+        {
+          "id": "C",
+          "text": "proteger liberdade de locomoção."
+        },
+        {
+          "id": "D",
+          "text": "anular toda sanção disciplinar."
+        },
+        {
+          "id": "E",
+          "text": "cobrar parcelas vencidas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O habeas data possui objeto pessoal e não se confunde com instrumento geral de transparência."
+    },
+    {
+      "id": "q5852",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O mandado de injunção enfrenta",
+      "options": [
+        {
+          "id": "A",
+          "text": "omissão normativa que inviabiliza direito ou liberdade constitucional ou prerrogativa constitucional indicada em lei."
+        },
+        {
+          "id": "B",
+          "text": "todo descumprimento de norma já suficiente."
+        },
+        {
+          "id": "C",
+          "text": "qualquer inadimplemento contratual."
+        },
+        {
+          "id": "D",
+          "text": "ameaça à liberdade de locomoção."
+        },
+        {
+          "id": "E",
+          "text": "retificação de dados pessoais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O núcleo do MI é a falta total ou parcial de norma regulamentadora necessária ao exercício do direito ou prerrogativa constitucional."
+    },
+    {
+      "id": "q5853",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O habeas corpus pode controlar ato administrativo quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "a pretensão for somente patrimonial."
+        },
+        {
+          "id": "B",
+          "text": "houver ameaça ou coação ilegal concreta à liberdade de locomoção."
+        },
+        {
+          "id": "C",
+          "text": "o objetivo for retificar dado pessoal."
+        },
+        {
+          "id": "D",
+          "text": "se buscar apenas indenização."
+        },
+        {
+          "id": "E",
+          "text": "houver mera discordância com nota de concurso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A origem administrativa da coação não impede HC, desde que esteja em jogo a liberdade de locomoção."
+    },
+    {
+      "id": "q5854",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O procedimento comum é especialmente adequado quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "a controvérsia exige instrução probatória, perícia ou pedidos incompatíveis com remédio especial."
+        },
+        {
+          "id": "B",
+          "text": "se pretende ignorar o prazo do mandado de segurança sem outra causa de pedir."
+        },
+        {
+          "id": "C",
+          "text": "não há interesse processual."
+        },
+        {
+          "id": "D",
+          "text": "o único bem ameaçado é a liberdade de locomoção."
+        },
+        {
+          "id": "E",
+          "text": "se busca apenas retificar registro pessoal sem resistência."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A via comum comporta cognição e prova amplas para declaração, anulação, obrigação e reparação."
+    },
+    {
+      "id": "q5855",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A invalidação judicial de ato administrativo",
+      "options": [
+        {
+          "id": "A",
+          "text": "gera indenização automática em qualquer caso."
+        },
+        {
+          "id": "B",
+          "text": "dispensa demonstração de dano."
+        },
+        {
+          "id": "C",
+          "text": "não produz, sozinha, dever automático de indenizar; a responsabilidade depende de seus pressupostos próprios."
+        },
+        {
+          "id": "D",
+          "text": "impede qualquer regularização."
+        },
+        {
+          "id": "E",
+          "text": "converte automaticamente o ato em crime."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Anulação e responsabilidade civil têm fundamentos distintos; dano e nexo devem ser demonstrados segundo o regime aplicável."
+    },
+    {
+      "id": "q5856",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma decisão administrativa definitiva na própria Administração",
+      "options": [
+        {
+          "id": "A",
+          "text": "torna-se imune ao Judiciário."
+        },
+        {
+          "id": "B",
+          "text": "produz necessariamente coisa julgada material."
+        },
+        {
+          "id": "C",
+          "text": "pode continuar sujeita ao controle judicial de juridicidade quando houver lesão ou ameaça a direito."
+        },
+        {
+          "id": "D",
+          "text": "integra automaticamente o Poder Judiciário."
+        },
+        {
+          "id": "E",
+          "text": "só pode ser revista se o órgão administrativo autorizar."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A definitividade administrativa não afasta a garantia do art. 5º, XXXV."
+    },
+    {
+      "id": "q5857",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se a Administração declara como fundamento de uma sanção um fato que comprovadamente não ocorreu, o controle judicial desse ponto",
+      "options": [
+        {
+          "id": "A",
+          "text": "é proibido por envolver mérito."
+        },
+        {
+          "id": "B",
+          "text": "é possível, pois a existência e a veracidade do motivo integram a juridicidade do ato."
+        },
+        {
+          "id": "C",
+          "text": "equivale a revogação por conveniência."
+        },
+        {
+          "id": "D",
+          "text": "depende de autorização legislativa individual."
+        },
+        {
+          "id": "E",
+          "text": "transforma o juiz em superior hierárquico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Controlar motivo falso ou inexistente não é escolher conveniência; é verificar a validade jurídica da decisão."
+    },
+    {
+      "id": "q5858",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A fórmula mais adequada para o controle jurisdicional da Administração é",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo mérito é imune, inclusive fatos falsos."
+        },
+        {
+          "id": "B",
+          "text": "toda decisão administrativa deve ser substituída pelo juiz."
+        },
+        {
+          "id": "C",
+          "text": "o Judiciário controla juridicidade e pode anular vícios, mas não substitui ordinariamente escolhas válidas de conveniência ou oportunidade."
+        },
+        {
+          "id": "D",
+          "text": "todo processo exige exaurimento administrativo."
+        },
+        {
+          "id": "E",
+          "text": "decisão administrativa definitiva equivale a sentença judicial transitada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O sistema brasileiro combina jurisdição una com respeito ao espaço legítimo de decisão administrativa."
+    }
+  ]
+}

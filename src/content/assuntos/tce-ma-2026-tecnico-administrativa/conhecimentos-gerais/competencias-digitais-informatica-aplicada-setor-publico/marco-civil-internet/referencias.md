@@ -1,9 +1,0 @@
-- CEBRASPE. [Edital nº 1 do concurso TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Item 3.5 e regras de atualização; publicado em 6 jul. 2026; acesso em 27 jul. 2026.
-- BRASIL. [Lei nº 12.965, de 23 de abril de 2014](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm). Marco Civil da Internet; acesso em 27 jul. 2026.
-- BRASIL. [Decreto nº 8.771, de 11 de maio de 2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8771.htm). Regulamentação compilada; acesso em 27 jul. 2026.
-- BRASIL. [Decreto nº 12.975, de 20 de maio de 2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d12975.htm). Porta lógica, deveres das plataformas, notificações, anúncios e ANPD; vigente desde 20 jul. 2026; acesso em 27 jul. 2026.
-- BRASIL. [Decreto nº 12.976, de 20 de maio de 2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d12976.htm). Proteção de mulheres no ambiente digital; vigente desde 20 jul. 2026; acesso em 27 jul. 2026.
-- STF. [Tese sobre responsabilidade de plataformas e art. 19](https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2026/06/17180658/MCI_tese.pdf). Tese consolidada após embargos; acesso em 27 jul. 2026.
-- ANPD. [Marco Civil da Internet](https://www.gov.br/anpd/pt-br/assuntos/marco-civil-da-internet). Competências sistêmicas e FAQ dos decretos; acesso em 27 jul. 2026.
-- FGV. [Prova ALERJ — Procurador Legislativo — Tipo 1](https://conhecimento.fgv.br/sites/default/files/concursos/procurador-legislativo-1-cns301-tipo-1.pdf). Questões 79 e 80; aplicada em 8 fev. 2026; acesso em 27 jul. 2026.
-- FGV. [Gabarito definitivo ALERJ — Procurador Legislativo](https://conhecimento.fgv.br/sites/default/files/concursos/procurador-alerj-gabarito-definitivo.pdf). Questões 79 e 80; acesso em 27 jul. 2026.

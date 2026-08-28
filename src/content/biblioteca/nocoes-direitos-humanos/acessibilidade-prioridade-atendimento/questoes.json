@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "q8679",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na evolução legislativa do rol de atendimento prioritário da Lei nº 10.048/2000,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o Estatuto da Pessoa Idosa reduziu de 65 para 60 anos a idade da pessoa idosa, e a LBI incluiu as pessoas obesas."
+        },
+        {
+          "id": "B",
+          "text": "a LBI elevou de 60 para 65 anos a idade e excluiu as pessoas obesas."
+        },
+        {
+          "id": "C",
+          "text": "a idade permanece em 65 anos, sem alteração posterior."
+        },
+        {
+          "id": "D",
+          "text": "o Estatuto da Pessoa Idosa retirou gestantes e lactantes do rol."
+        },
+        {
+          "id": "E",
+          "text": "a inclusão de pessoas obesas ocorreu apenas em 2023."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 10.741/2003 substituiu 65 por 60 anos, e a Lei nº 13.146/2015 incluiu as pessoas obesas na redação do artigo 1º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8680",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O atendimento prioritário do doador de sangue ocorre",
+      "options": [
+        {
+          "id": "A",
+          "text": "antes de todos os demais beneficiários."
+        },
+        {
+          "id": "B",
+          "text": "sem necessidade de comprovante."
+        },
+        {
+          "id": "C",
+          "text": "depois dos demais grupos prioritários, mediante comprovante válido por 120 dias."
+        },
+        {
+          "id": "D",
+          "text": "apenas no dia exato da doação."
+        },
+        {
+          "id": "E",
+          "text": "depois das pessoas sem prioridade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O doador é o último entre os grupos prioritários, mas ainda precede pessoas sem prioridade. O comprovante de doação vale por 120 dias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8681",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para a Lei nº 10.098/2000, acompanhante é a pessoa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitui obrigatoriamente a manifestação da pessoa com deficiência."
+        },
+        {
+          "id": "B",
+          "text": "exerce sempre atividade profissional remunerada."
+        },
+        {
+          "id": "C",
+          "text": "precisa ser parente da pessoa acompanhada."
+        },
+        {
+          "id": "D",
+          "text": "desempenha necessariamente funções de atendente pessoal."
+        },
+        {
+          "id": "E",
+          "text": "acompanha a pessoa com deficiência e pode ou não exercer funções de atendente pessoal."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A definição legal não exige parentesco, remuneração nem o exercício obrigatório de funções de atendente pessoal. Ela se distingue da regra de prioridade conjunta e acessória. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8682",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se não houver guichê ou atendente específico, o beneficiário prioritário deve ser atendido",
+      "options": [
+        {
+          "id": "A",
+          "text": "interrompendo imediatamente o atendimento em curso."
+        },
+        {
+          "id": "B",
+          "text": "após a conclusão do atendimento em andamento e antes das demais pessoas."
+        },
+        {
+          "id": "C",
+          "text": "somente ao final do expediente."
+        },
+        {
+          "id": "D",
+          "text": "depois de qualquer pessoa já presente."
+        },
+        {
+          "id": "E",
+          "text": "apenas mediante agendamento judicial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 4º do artigo 1º preserva o atendimento já iniciado e coloca o prioritário antes das demais pessoas logo depois de sua conclusão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8683",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Devem oferecer serviços individualizados com tratamento diferenciado e atendimento imediato",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente instituições financeiras privadas."
+        },
+        {
+          "id": "B",
+          "text": "apenas hospitais federais."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente empresas de transporte."
+        },
+        {
+          "id": "D",
+          "text": "repartições públicas e empresas concessionárias de serviços públicos."
+        },
+        {
+          "id": "E",
+          "text": "somente estabelecimentos comerciais."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 2º dirige essa obrigação a repartições e concessionárias. As instituições financeiras também asseguram prioridade, por regra do parágrafo único. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8684",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nas instituições financeiras, a prioridade da Lei nº 10.048/2000",
+      "options": [
+        {
+          "id": "A",
+          "text": "alcança apenas bancos públicos."
+        },
+        {
+          "id": "B",
+          "text": "é assegurada em todas as instituições financeiras."
+        },
+        {
+          "id": "C",
+          "text": "depende do valor da operação."
+        },
+        {
+          "id": "D",
+          "text": "exclui doadores de sangue."
+        },
+        {
+          "id": "E",
+          "text": "só existe em agência física federal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei emprega a expressão todas as instituições financeiras e remete ao rol vigente do artigo 1º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8685",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O rol específico dos assentos reservados no transporte coletivo",
+      "options": [
+        {
+          "id": "A",
+          "text": "inclui doadores de sangue e pessoas obesas."
+        },
+        {
+          "id": "B",
+          "text": "é idêntico ao rol geral do artigo 1º."
+        },
+        {
+          "id": "C",
+          "text": "exclui pessoas com TEA."
+        },
+        {
+          "id": "D",
+          "text": "inclui PcD, TEA, idosos, gestantes, lactantes, pessoas com criança de colo e com mobilidade reduzida, mas não obesos nem doadores."
+        },
+        {
+          "id": "E",
+          "text": "abrange somente idosos e gestantes."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Lei nº 14.626/2023 ampliou os assentos para TEA e mobilidade reduzida, mas não incluiu obesos ou doadores no artigo 3º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8686",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para fins de licenciamento, a autoridade competente deve editar normas de construção que facilitem o acesso de pessoas com deficiência a",
+      "options": [
+        {
+          "id": "A",
+          "text": "logradouros públicos, sanitários públicos e edifícios de uso público."
+        },
+        {
+          "id": "B",
+          "text": "somente residências unifamiliares."
+        },
+        {
+          "id": "C",
+          "text": "apenas veículos particulares."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente estabelecimentos bancários."
+        },
+        {
+          "id": "E",
+          "text": "somente parques privados."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 4º da Lei nº 10.048/2000 possui esse objeto específico. O regime urbanístico completo está na Lei nº 10.098/2000. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8687",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os veículos de transporte coletivo produzidos após doze meses da publicação da Lei nº 10.048/2000 deveriam",
+      "options": [
+        {
+          "id": "A",
+          "text": "manter o desenho anterior sem adaptação."
+        },
+        {
+          "id": "B",
+          "text": "reservar 10% da frota a táxis."
+        },
+        {
+          "id": "C",
+          "text": "ser planejados para facilitar o acesso ao interior por pessoas com deficiência."
+        },
+        {
+          "id": "D",
+          "text": "ser substituídos por veículos particulares."
+        },
+        {
+          "id": "E",
+          "text": "dispensar normas técnicas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 5º determinou planejamento de acesso facilitado para os novos veículos. O seu § 1º foi vetado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8688",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para veículos de transporte coletivo que já estavam em uso, a lei fixou prazo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "60 dias da publicação."
+        },
+        {
+          "id": "B",
+          "text": "120 dias da doação."
+        },
+        {
+          "id": "C",
+          "text": "um ano da compra."
+        },
+        {
+          "id": "D",
+          "text": "cinco anos da licença."
+        },
+        {
+          "id": "E",
+          "text": "180 dias contados da regulamentação para as adaptações necessárias."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O prazo histórico para proprietários dos veículos em uso foi de 180 dias a partir da regulamentação, não da publicação da lei. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8689",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Servidor ou chefia responsável por repartição que infrinja a Lei nº 10.048/2000 sujeita-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "à multa por veículo."
+        },
+        {
+          "id": "B",
+          "text": "somente a advertência verbal."
+        },
+        {
+          "id": "C",
+          "text": "às sanções da Lei nº 4.595/1964."
+        },
+        {
+          "id": "D",
+          "text": "às penalidades previstas na legislação específica."
+        },
+        {
+          "id": "E",
+          "text": "à perda automática do cargo, sem processo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A lei diferencia os responsáveis. Servidor ou chefia responde conforme legislação específica; multa por veículo é da concessionária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8690",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A multa da concessionária prevista na Lei nº 10.048/2000 é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "R$ 500,00 a R$ 2.500,00 por veículo sem as condições dos artigos 3º e 5º."
+        },
+        {
+          "id": "B",
+          "text": "R$ 100,00 por usuário em qualquer falha."
+        },
+        {
+          "id": "C",
+          "text": "R$ 10.000,00 por agência bancária."
+        },
+        {
+          "id": "D",
+          "text": "2% do faturamento anual."
+        },
+        {
+          "id": "E",
+          "text": "valor livremente definido pelo usuário."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A multa legal é vinculada ao veículo desconforme com os artigos 3º e 5º e varia de R$ 500,00 a R$ 2.500,00. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8691",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quanto ao art. 6º, III, da Lei nº 10.048/2000 e à legislação posterior, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Lei nº 13.506/2017 revogou o próprio art. 6º, III, da Lei nº 10.048/2000."
+        },
+        {
+          "id": "B",
+          "text": "o texto da Lei nº 10.048/2000 ainda remete aos incisos I a III do art. 44 da Lei nº 4.595/1964, mas o art. 44 foi revogado pela Lei nº 13.506/2017."
+        },
+        {
+          "id": "C",
+          "text": "o art. 44 da Lei nº 4.595/1964 permanece integralmente vigente e pode ser aplicado como se não houvesse alteração posterior."
+        },
+        {
+          "id": "D",
+          "text": "a revogação do art. 44 transformou automaticamente a multa veicular do art. 6º, II, em sanção aplicável às instituições financeiras."
+        },
+        {
+          "id": "E",
+          "text": "a revogação do dispositivo referido dispensou as instituições financeiras do dever de atendimento prioritário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A redação do art. 6º, III, da Lei nº 10.048/2000 ainda contém a remissão aos incisos I a III do art. 44 da Lei nº 4.595/1964. Porém, o art. 71, IV, da Lei nº 13.506/2017 revogou integralmente o art. 44 referido. A revogação não elimina o dever de prioridade nem autoriza inventar um regime sancionatório substituto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8692",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em caso de reincidência nas infrações à Lei nº 10.048/2000, as penalidades",
+      "options": [
+        {
+          "id": "A",
+          "text": "são reduzidas pela metade."
+        },
+        {
+          "id": "B",
+          "text": "permanecem sempre iguais."
+        },
+        {
+          "id": "C",
+          "text": "são substituídas por recomendação."
+        },
+        {
+          "id": "D",
+          "text": "dependem de três novas infrações."
+        },
+        {
+          "id": "E",
+          "text": "são elevadas ao dobro."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O parágrafo único do artigo 6º determina expressamente a duplicação na reincidência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8693",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 10.048/2000",
+      "options": [
+        {
+          "id": "A",
+          "text": "entrou em vigor 180 dias depois."
+        },
+        {
+          "id": "B",
+          "text": "não previu regulamentação."
+        },
+        {
+          "id": "C",
+          "text": "entrou em vigor na publicação e deu 60 dias ao Executivo para regulamentá-la."
+        },
+        {
+          "id": "D",
+          "text": "foi integralmente revogada pela LBI."
+        },
+        {
+          "id": "E",
+          "text": "só passou a valer em 2004."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os artigos 7º e 8º distinguem prazo regulamentar de 60 dias e vigência imediata na publicação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8694",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 10.098/2000 promove acessibilidade mediante supressão de barreiras",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente em edifícios públicos."
+        },
+        {
+          "id": "B",
+          "text": "apenas nos transportes."
+        },
+        {
+          "id": "C",
+          "text": "em vias, espaços, mobiliário, edifícios, transportes e comunicação."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente em ambiente digital."
+        },
+        {
+          "id": "E",
+          "text": "apenas em imóveis novos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 1º possui alcance multissetorial e inclui construção e reforma, não apenas obras novas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8695",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto às classes de barreira enumeradas pela Lei nº 10.098/2000, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "as urbanísticas existem somente dentro de edifícios públicos."
+        },
+        {
+          "id": "B",
+          "text": "as arquitetônicas alcançam apenas edifícios públicos, nunca privados."
+        },
+        {
+          "id": "C",
+          "text": "as barreiras nos transportes se limitam ao interior dos veículos."
+        },
+        {
+          "id": "D",
+          "text": "barreiras atitudinais e tecnológicas aparecem como classes autônomas nessa lei."
+        },
+        {
+          "id": "E",
+          "text": "a lei enumera barreiras urbanísticas, arquitetônicas, nos transportes e nas comunicações e informação, cada qual com âmbito próprio."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "As urbanísticas alcançam vias e espaços públicos ou privados abertos ao público ou de uso coletivo; as arquitetônicas, edifícios públicos e privados; as de transporte, sistemas e meios; e as comunicacionais, a expressão ou recepção de mensagens e informações. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8696",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Pessoa com mobilidade reduzida é aquela que",
+      "options": [
+        {
+          "id": "A",
+          "text": "possui necessariamente deficiência permanente."
+        },
+        {
+          "id": "B",
+          "text": "tem apenas limitação física certificada judicialmente."
+        },
+        {
+          "id": "C",
+          "text": "exclui gestantes, lactantes e obesos."
+        },
+        {
+          "id": "D",
+          "text": "tem dificuldade permanente ou temporária de movimentação, com redução efetiva, incluindo grupos expressamente enumerados."
+        },
+        {
+          "id": "E",
+          "text": "não é protegida na zona rural."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A mobilidade reduzida pode ser temporária e inclui pessoa idosa, gestante, lactante, pessoa com criança de colo e obesa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8697",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distinção correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "elemento de urbanização integra a obra urbana, enquanto mobiliário é objeto adicionado sem alteração substancial desses elementos."
+        },
+        {
+          "id": "B",
+          "text": "mobiliário e elemento de urbanização são sinônimos."
+        },
+        {
+          "id": "C",
+          "text": "semáforo nunca é mobiliário."
+        },
+        {
+          "id": "D",
+          "text": "paisagismo não integra urbanização."
+        },
+        {
+          "id": "E",
+          "text": "mobiliário modifica necessariamente a estrutura da edificação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei diferencia componentes estruturais da urbanização de objetos superpostos ou adicionados, como semáforos, bancos e quiosques. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8698",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Tecnologia assistiva, comunicação e desenho universal",
+      "options": [
+        {
+          "id": "A",
+          "text": "são conceitos limitados a aparelhos eletrônicos."
+        },
+        {
+          "id": "B",
+          "text": "abrangem, respectivamente, recursos e estratégias de funcionalidade; múltiplas formas de interação; e concepção para uso por todas as pessoas."
+        },
+        {
+          "id": "C",
+          "text": "excluem Libras e Braille."
+        },
+        {
+          "id": "D",
+          "text": "dependem sempre de projeto individual."
+        },
+        {
+          "id": "E",
+          "text": "são aplicáveis somente à deficiência visual."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As três definições são amplas e funcionais. Desenho universal busca uso por todos sem adaptação ou projeto específico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8699",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Pessoa com necessidades complexas de comunicação",
+      "options": [
+        {
+          "id": "A",
+          "text": "é nova categoria automática de deficiência."
+        },
+        {
+          "id": "B",
+          "text": "tem dificuldade significativa de compreender ou expressar mensagens e necessita de recursos alternativos ou aumentativos."
+        },
+        {
+          "id": "C",
+          "text": "utiliza apenas linguagem oral."
+        },
+        {
+          "id": "D",
+          "text": "foi excluída da lei em 2025."
+        },
+        {
+          "id": "E",
+          "text": "não pode usar pictogramas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei nº 15.249/2025 incluiu essa definição funcional, sem criar diagnóstico ou categoria autônoma de deficiência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8700",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O passeio público",
+      "options": [
+        {
+          "id": "A",
+          "text": "destina-se ao estacionamento de veículos."
+        },
+        {
+          "id": "B",
+          "text": "não integra a via pública."
+        },
+        {
+          "id": "C",
+          "text": "é facultativo na urbanização."
+        },
+        {
+          "id": "D",
+          "text": "deve ficar sempre no mesmo nível da pista."
+        },
+        {
+          "id": "E",
+          "text": "é elemento obrigatório, destinado somente a pedestres e pode receber mobiliário e vegetação quando possível."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O passeio integra a via, normalmente é segregado e em nível diferente e possui destinação exclusiva à circulação de pedestres. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8701",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Vias, parques, espaços públicos, instalações e mobiliário já existentes devem ser adaptados",
+      "options": [
+        {
+          "id": "A",
+          "text": "sem qualquer ordem de prioridade."
+        },
+        {
+          "id": "B",
+          "text": "somente após reconstrução total."
+        },
+        {
+          "id": "C",
+          "text": "segundo prioridade voltada à maior eficiência e à acessibilidade mais ampla."
+        },
+        {
+          "id": "D",
+          "text": "apenas se forem federais."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente para pessoas com deficiência física."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 4º determina adaptação do existente com ordem de prioridade que maximize a eficiência das modificações. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8702",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos locais abrangidos pelo artigo 4º, devem ser adaptados e identificados",
+      "options": [
+        {
+          "id": "A",
+          "text": "5% do total de brinquedos, escolhidos livremente."
+        },
+        {
+          "id": "B",
+          "text": "10% de cada brinquedo, sem limite técnico."
+        },
+        {
+          "id": "C",
+          "text": "somente brinquedos para deficiência física."
+        },
+        {
+          "id": "D",
+          "text": "no mínimo 5% de cada brinquedo e equipamento de lazer, tanto quanto tecnicamente possível, inclusive para deficiência visual."
+        },
+        {
+          "id": "E",
+          "text": "todos os brinquedos, sem considerar viabilidade."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A redação atual usa 5% de cada brinquedo e equipamento, inclui deficiência visual e preserva o limite da possibilidade técnica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8703",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Projetos e traçados dos elementos de urbanização de uso comunitário devem observar",
+      "options": [
+        {
+          "id": "A",
+          "text": "normas técnicas da ABNT para itinerários, passagens, entradas, saídas, escadas e rampas."
+        },
+        {
+          "id": "B",
+          "text": "somente decisão do proprietário."
+        },
+        {
+          "id": "C",
+          "text": "apenas regras de transporte aéreo."
+        },
+        {
+          "id": "D",
+          "text": "normas técnicas apenas se a obra for federal."
+        },
+        {
+          "id": "E",
+          "text": "dispensa de acessibilidade em área privada comunitária."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 5º alcança elementos públicos e privados de uso comunitário e enumera esses percursos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8704",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Banheiros públicos em parques, praças, jardins e espaços livres devem dispor de",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas um lavatório comum."
+        },
+        {
+          "id": "B",
+          "text": "dois sanitários em cada bloco."
+        },
+        {
+          "id": "C",
+          "text": "unidade acessível somente sob solicitação."
+        },
+        {
+          "id": "D",
+          "text": "pelo menos um sanitário e um lavatório acessíveis."
+        },
+        {
+          "id": "E",
+          "text": "banheiro químico em qualquer hipótese."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 6º exige cumulativamente ao menos um sanitário e um lavatório segundo as normas técnicas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8705",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em evento público ou privado com banheiros químicos, as unidades acessíveis devem corresponder a",
+      "options": [
+        {
+          "id": "A",
+          "text": "2%, sem mínimo."
+        },
+        {
+          "id": "B",
+          "text": "5%, apenas em evento público."
+        },
+        {
+          "id": "C",
+          "text": "10% do total, garantida ao menos uma se o cálculo resultar em fração inferior a um."
+        },
+        {
+          "id": "D",
+          "text": "20%, apenas em evento privado."
+        },
+        {
+          "id": "E",
+          "text": "uma unidade somente se houver cem banheiros."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei nº 13.825/2019 fixou 10% e proteção mínima de uma unidade para qualquer evento com banheiro químico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8706",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As vagas reservadas pela Lei nº 10.098/2000 em vias e espaços públicos equivalem a",
+      "options": [
+        {
+          "id": "A",
+          "text": "10%, sem mínimo."
+        },
+        {
+          "id": "B",
+          "text": "2% do total, garantida ao menos uma vaga sinalizada próxima ao acesso."
+        },
+        {
+          "id": "C",
+          "text": "5%, somente para idosos."
+        },
+        {
+          "id": "D",
+          "text": "1%, sem exigência de acesso próximo."
+        },
+        {
+          "id": "E",
+          "text": "20%, para qualquer veículo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A reserva é de 2%, mínimo uma, para veículo que transporte pessoa com deficiência com dificuldade de locomoção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8707",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sinais, semáforos, postes e outros elementos verticais em itinerário de pedestre devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "obstruir a circulação para maior visibilidade."
+        },
+        {
+          "id": "B",
+          "text": "ser instalados somente no centro do passeio."
+        },
+        {
+          "id": "C",
+          "text": "ignorar o uso por pessoa com deficiência."
+        },
+        {
+          "id": "D",
+          "text": "dispensar qualquer comodidade."
+        },
+        {
+          "id": "E",
+          "text": "ser dispostos sem dificultar a circulação e de modo utilizável com máxima comodidade."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 8º protege circulação e uso, não apenas a visibilidade do elemento vertical. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8708",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O sinal sonoro suave ou mecanismo alternativo no semáforo de pedestres tem por finalidade legal",
+      "options": [
+        {
+          "id": "A",
+          "text": "servir de guia ou orientação para a travessia da pessoa com deficiência visual."
+        },
+        {
+          "id": "B",
+          "text": "substituir toda a sinalização visual da via."
+        },
+        {
+          "id": "C",
+          "text": "alertar exclusivamente os condutores de veículos."
+        },
+        {
+          "id": "D",
+          "text": "permitir travessia apenas com acompanhante."
+        },
+        {
+          "id": "E",
+          "text": "produzir aviso contínuo e estridente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A finalidade expressa é guiar ou orientar a travessia da pessoa com deficiência visual. Os critérios e situações de instalação constituem regra distinta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8709",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O mobiliário urbano deve ser projetado e instalado",
+      "options": [
+        {
+          "id": "A",
+          "text": "sem considerar pessoas com mobilidade reduzida."
+        },
+        {
+          "id": "B",
+          "text": "apenas para uso estético."
+        },
+        {
+          "id": "C",
+          "text": "sempre em rota de circulação."
+        },
+        {
+          "id": "D",
+          "text": "sem observância das normas técnicas."
+        },
+        {
+          "id": "E",
+          "text": "em local que permita uso por pessoas com deficiência ou mobilidade reduzida."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 10 estabelece usabilidade como critério de projeto e localização do mobiliário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8710",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Mobiliário urbano que ofereça risco de acidente em área de circulação comum deve possuir",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas pintura decorativa."
+        },
+        {
+          "id": "B",
+          "text": "sinalização tátil de alerta no piso."
+        },
+        {
+          "id": "C",
+          "text": "barreira que impeça toda passagem."
+        },
+        {
+          "id": "D",
+          "text": "sinal sonoro estridente contínuo."
+        },
+        {
+          "id": "E",
+          "text": "autorização judicial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 10-A exige alerta tátil no piso conforme normas técnicas, sem eliminar a circulação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8711",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os requisitos mínimos de edifício público ou privado de uso coletivo estão",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente vaga e elevador."
+        },
+        {
+          "id": "B",
+          "text": "apenas um acesso externo."
+        },
+        {
+          "id": "C",
+          "text": "banheiro acessível apenas em cada pavimento."
+        },
+        {
+          "id": "D",
+          "text": "vaga próxima, um acesso sem barreira, um itinerário horizontal e vertical e pelo menos um banheiro acessível."
+        },
+        {
+          "id": "E",
+          "text": "somente comunicação em Braille."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 11 reúne quatro requisitos mínimos. A lei não reduz acessibilidade a entrada ou vaga. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8712",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Locais de espetáculos, conferências e aulas devem oferecer",
+      "options": [
+        {
+          "id": "A",
+          "text": "espaços para cadeiras de rodas, lugares para deficiência auditiva e visual, acompanhante e condições acessíveis de acesso, circulação e comunicação."
+        },
+        {
+          "id": "B",
+          "text": "somente assentos para idosos."
+        },
+        {
+          "id": "C",
+          "text": "área segregada sem acompanhante."
+        },
+        {
+          "id": "D",
+          "text": "apenas acesso ao palco."
+        },
+        {
+          "id": "E",
+          "text": "recursos somente mediante pagamento adicional."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 12 protege diferentes necessidades e exige conformidade com as normas da ABNT. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8713",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Centros comerciais e estabelecimentos congêneres devem fornecer",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas carrinhos infantis."
+        },
+        {
+          "id": "B",
+          "text": "cadeira de rodas somente mediante aluguel."
+        },
+        {
+          "id": "C",
+          "text": "carros e cadeiras de rodas, motorizados ou não, para PcD ou pessoa com mobilidade reduzida."
+        },
+        {
+          "id": "D",
+          "text": "somente cadeira manual para pessoa com laudo."
+        },
+        {
+          "id": "E",
+          "text": "equipamentos exclusivamente a empregados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 12-A impõe o fornecimento e abrange equipamentos motorizados ou não, sem criar cobrança ou laudo como requisito textual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8714",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em edifício privado com elevador obrigatório, a acessibilidade exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "percursos acessíveis entre unidades, exterior e áreas comuns, além de cabine e porta acessíveis."
+        },
+        {
+          "id": "B",
+          "text": "somente elevador de serviço."
+        },
+        {
+          "id": "C",
+          "text": "acesso apenas até a garagem."
+        },
+        {
+          "id": "D",
+          "text": "dispensa de ligação com a via pública."
+        },
+        {
+          "id": "E",
+          "text": "apenas sinal sonoro."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 13 exige integração dos percursos e acessibilidade da cabine e da porta, alcançando via pública e anexos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8715",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Edifício a ser construído com mais de um pavimento além do acesso, sem elevador obrigatório, deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser sempre demolido."
+        },
+        {
+          "id": "B",
+          "text": "dispensar acessibilidade nas áreas comuns."
+        },
+        {
+          "id": "C",
+          "text": "instalar imediatamente elevador em habitação unifamiliar."
+        },
+        {
+          "id": "D",
+          "text": "ignorar futura adaptação."
+        },
+        {
+          "id": "E",
+          "text": "possuir especificações técnicas e de projeto que facilitem futura instalação de elevador adaptado, salvo habitação unifamiliar."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 14 dirige a previsão técnica aos edifícios a serem construídos e excepciona habitações unifamiliares. Os elementos de uso comum continuam sujeitos à acessibilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8716",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na política habitacional, cabe ao órgão federal coordenador",
+      "options": [
+        {
+          "id": "A",
+          "text": "proibir reserva de habitações."
+        },
+        {
+          "id": "B",
+          "text": "fixar percentual único de 50% na própria lei."
+        },
+        {
+          "id": "C",
+          "text": "regulamentar percentual mínimo conforme a demanda da população local."
+        },
+        {
+          "id": "D",
+          "text": "atuar apenas em imóveis comerciais."
+        },
+        {
+          "id": "E",
+          "text": "dispensar pessoas com mobilidade reduzida."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 15 remete a regulamentação do percentual ao órgão federal e considera a característica da população local. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8717",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os veículos de transporte coletivo, segundo a Lei nº 10.098/2000, devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "seguir apenas decisão da empresa."
+        },
+        {
+          "id": "B",
+          "text": "cumprir requisitos de acessibilidade estabelecidos em normas técnicas específicas."
+        },
+        {
+          "id": "C",
+          "text": "reservar exatamente 10% da frota."
+        },
+        {
+          "id": "D",
+          "text": "ser acessíveis somente em capitais."
+        },
+        {
+          "id": "E",
+          "text": "dispensar terminais de acessibilidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 16 remete às normas técnicas específicas. O decreto complementa o conceito sistêmico do transporte. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8718",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei nº 15.249/2025, o artigo 17 exige que as ações de acessibilidade comunicacional incluam",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente equipamentos de alta tecnologia."
+        },
+        {
+          "id": "B",
+          "text": "pranchas apenas em órgãos fechados."
+        },
+        {
+          "id": "C",
+          "text": "conteúdo idêntico em qualquer ambiente."
+        },
+        {
+          "id": "D",
+          "text": "CAA com pranchas de baixa tecnologia e pictogramas, adequada às necessidades do contexto em espaços públicos e abertos ao público."
+        },
+        {
+          "id": "E",
+          "text": "apenas Libras."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alteração protege pessoas com necessidades complexas de comunicação e exige adequação contextual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8719",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O poder público deve implementar formação de profissionais",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente de arquitetura."
+        },
+        {
+          "id": "B",
+          "text": "apenas de legendagem automática."
+        },
+        {
+          "id": "C",
+          "text": "intérpretes de escrita em Braille, língua de sinais e guias-intérpretes."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente para transporte aéreo."
+        },
+        {
+          "id": "E",
+          "text": "sem contato com pessoas com deficiência sensorial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 18 visa facilitar comunicação direta às pessoas com deficiência sensorial e dificuldade de comunicação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8720",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os serviços de radiodifusão devem adotar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas transmissão sonora comum."
+        },
+        {
+          "id": "B",
+          "text": "proibição de subtitulação."
+        },
+        {
+          "id": "C",
+          "text": "medidas somente após decisão judicial."
+        },
+        {
+          "id": "D",
+          "text": "plano de medidas técnicas para língua de sinais ou outra subtitulação, conforme regulamento."
+        },
+        {
+          "id": "E",
+          "text": "exclusão da pessoa com deficiência auditiva."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 19 estabelece plano técnico para garantir acesso à informação, nos termos regulamentares. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8721",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A supressão de barreiras mediante ajudas técnicas alcança",
+      "options": [
+        {
+          "id": "A",
+          "text": "barreiras urbanísticas, arquitetônicas, de transporte e de comunicação."
+        },
+        {
+          "id": "B",
+          "text": "somente barreiras digitais."
+        },
+        {
+          "id": "C",
+          "text": "apenas edifícios federais."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente tratamento médico."
+        },
+        {
+          "id": "E",
+          "text": "somente transporte privado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 20 associa ajudas técnicas à eliminação dessas quatro frentes de barreiras. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8722",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Agências de financiamento e organismos de apoio à pesquisa devem fomentar",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente importação de veículos."
+        },
+        {
+          "id": "B",
+          "text": "apenas publicidade institucional."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente pesquisas sem aplicação."
+        },
+        {
+          "id": "D",
+          "text": "redução da formação profissional."
+        },
+        {
+          "id": "E",
+          "text": "pesquisa sobre prevenção e tratamento, desenvolvimento de ajudas técnicas e especialização em acessibilidade."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 21 possui três eixos expressos e integra ciência, tecnologia e formação de recursos humanos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8723",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O kit acessível para cartão é garantido à pessoa com deficiência visual",
+      "options": [
+        {
+          "id": "A",
+          "text": "automaticamente e mediante tarifa."
+        },
+        {
+          "id": "B",
+          "text": "quando solicitado e sem custo adicional."
+        },
+        {
+          "id": "C",
+          "text": "apenas por ordem judicial."
+        },
+        {
+          "id": "D",
+          "text": "somente para cartão público."
+        },
+        {
+          "id": "E",
+          "text": "sem informações em Braille."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei nº 13.835/2019 condiciona o fornecimento à solicitação e proíbe custo adicional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8724",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O kit acessível para cartão contém, no mínimo,",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas uma etiqueta com o nome."
+        },
+        {
+          "id": "B",
+          "text": "somente o número completo impresso."
+        },
+        {
+          "id": "C",
+          "text": "leitor eletrônico obrigatório."
+        },
+        {
+          "id": "D",
+          "text": "segunda via do cartão sem Braille."
+        },
+        {
+          "id": "E",
+          "text": "etiqueta em Braille com tipo e seis dígitos finais, identificação do tipo, fita adesiva e porta-cartão informativo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O porta-cartão deve trazer em Braille número completo, tipo, bandeira, emissor, validade, código de segurança e nome do titular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8725",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 10.098/2000 instituiu",
+      "options": [
+        {
+          "id": "A",
+          "text": "o Programa Nacional de Acessibilidade, com dotação orçamentária específica."
+        },
+        {
+          "id": "B",
+          "text": "o Cadastro-Inclusão."
+        },
+        {
+          "id": "C",
+          "text": "o benefício de prestação continuada."
+        },
+        {
+          "id": "D",
+          "text": "uma multa geral de acessibilidade."
+        },
+        {
+          "id": "E",
+          "text": "o cordão de girassóis."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 22 institui o programa e remete sua execução a regulamento. Os demais institutos pertencem a outras normas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8726",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Administração Pública federal direta e indireta deve destinar",
+      "options": [
+        {
+          "id": "A",
+          "text": "dotação apenas uma vez."
+        },
+        {
+          "id": "B",
+          "text": "anualmente dotação para adaptar e eliminar barreiras arquitetônicas em edifícios de uso público próprios ou sob sua administração ou uso."
+        },
+        {
+          "id": "C",
+          "text": "recursos somente para edifícios privados."
+        },
+        {
+          "id": "D",
+          "text": "verba apenas após ação judicial."
+        },
+        {
+          "id": "E",
+          "text": "dotação exclusiva para transporte."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 23 cria dever orçamentário anual e o restringe a edifícios de uso público de propriedade da Administração federal ou sob sua administração ou uso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8727",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As campanhas previstas na Lei nº 10.098/2000 devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser exclusivamente eleitorais."
+        },
+        {
+          "id": "B",
+          "text": "ocorrer somente em escolas."
+        },
+        {
+          "id": "C",
+          "text": "ser financiadas por particulares."
+        },
+        {
+          "id": "D",
+          "text": "informar e educar a população para conscientização sobre acessibilidade e integração social."
+        },
+        {
+          "id": "E",
+          "text": "omitir pessoas com mobilidade reduzida."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 24 atribui ao poder público campanhas informativas e educativas dirigidas à população em geral. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8728",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos bens de interesse cultural ou histórico-artístico, a Lei nº 10.098/2000",
+      "options": [
+        {
+          "id": "A",
+          "text": "os dispensa automaticamente de acessibilidade."
+        },
+        {
+          "id": "B",
+          "text": "determina demolição se houver barreira."
+        },
+        {
+          "id": "C",
+          "text": "aplica-se a eles, desde que as modificações respeitem as normas específicas de proteção."
+        },
+        {
+          "id": "D",
+          "text": "alcança somente bens não tombados."
+        },
+        {
+          "id": "E",
+          "text": "proíbe qualquer adaptação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A proteção cultural condiciona a forma da intervenção, mas não cria exclusão automática da lei de acessibilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8729",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As organizações representativas de pessoas com deficiência têm legitimidade para",
+      "options": [
+        {
+          "id": "A",
+          "text": "revogar normas técnicas."
+        },
+        {
+          "id": "B",
+          "text": "aplicar multa sem processo."
+        },
+        {
+          "id": "C",
+          "text": "substituir qualquer pessoa em toda ação judicial."
+        },
+        {
+          "id": "D",
+          "text": "acompanhar o cumprimento dos requisitos de acessibilidade da lei."
+        },
+        {
+          "id": "E",
+          "text": "dispensar licenciamento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 26 assegura acompanhamento e fiscalização social; não declara substituição processual irrestrita. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8730",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 10.098/2000",
+      "options": [
+        {
+          "id": "A",
+          "text": "fixa multa geral de R$ 500 a R$ 2.500 e só vigorou após regulamento."
+        },
+        {
+          "id": "B",
+          "text": "duplica automaticamente toda sanção."
+        },
+        {
+          "id": "C",
+          "text": "vigora desde a publicação e não possui tabela geral própria de multas, sem afastar sanções previstas em outras normas."
+        },
+        {
+          "id": "D",
+          "text": "não admite responsabilização civil."
+        },
+        {
+          "id": "E",
+          "text": "revogou as sanções da Lei nº 10.048."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 27 fixou vigência na publicação. A tabela com responsáveis e multa veicular está na Lei nº 10.048, enquanto outras sanções podem decorrer do ordenamento aplicável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8731",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a jurisprudência do STJ, a obrigação de acessibilidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "só nasce depois de regulamento específico."
+        },
+        {
+          "id": "B",
+          "text": "pode ser exigível com base na lei e nas normas técnicas, sem dispensa automática por demora regulamentar ou antiguidade da edificação."
+        },
+        {
+          "id": "C",
+          "text": "não alcança transporte coletivo."
+        },
+        {
+          "id": "D",
+          "text": "depende sempre de reforma posterior à lei."
+        },
+        {
+          "id": "E",
+          "text": "é apenas recomendação sem efeito jurídico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os REsps 1.292.875/PR e 2.041.463/RJ afastam a ideia de que a falta de regulamento ou de reforma posterior elimine automaticamente o dever legal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8732",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considerando conjuntamente as Leis nº 10.048/2000 e nº 10.098/2000, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "pessoas obesas têm atendimento prioritário, e espaços públicos devem ser planejados ou adaptados para acessibilidade."
+        },
+        {
+          "id": "B",
+          "text": "pessoas obesas foram excluídas do rol prioritário."
+        },
+        {
+          "id": "C",
+          "text": "a acessibilidade aplica-se somente a edifícios novos."
+        },
+        {
+          "id": "D",
+          "text": "espaços públicos não integram o objeto da Lei nº 10.098."
+        },
+        {
+          "id": "E",
+          "text": "prioridade e acessibilidade dependem sempre de decisão judicial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A obesidade integra o rol da prioridade, e a Lei nº 10.098 alcança planejamento e adaptação de espaços públicos. Fonte: questão adaptada de Cebraspe; TRF da 6ª Região; conhecimentos gerais para os cargos 14 a 18; 2025; item 37; prova https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_CG4_01.PDF; gabarito definitivo C (certo) em https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/GAB_DEFINITIVO_034_TRF6_CG4_01.PDF; adaptação: item certo ou errado convertido em questão de cinco alternativas, preservando os dois núcleos legais."
+    },
+    {
+      "id": "q8733",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Atualmente, o atendimento prioritário alcança",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente PcD, idosos, gestantes e lactantes."
+        },
+        {
+          "id": "B",
+          "text": "apenas pessoas com deficiência física."
+        },
+        {
+          "id": "C",
+          "text": "idosos somente a partir de 65 anos."
+        },
+        {
+          "id": "D",
+          "text": "os grupos históricos, mas não TEA, mobilidade reduzida ou doadores."
+        },
+        {
+          "id": "E",
+          "text": "PcD, TEA, idosos 60+, gestantes, lactantes, pessoas com criança de colo, obesas, com mobilidade reduzida e doadores de sangue."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Lei nº 14.626/2023 ampliou o rol posterior à prova original. Fonte: questão adaptada de Cebraspe; SEE/DF; Monitor de Gestão Educacional; 2017; item 81; prova https://cdn.cebraspe.org.br/concursos/SEE_16_DF/arquivos/291_SEEDF_012_01.pdf; gabarito definitivo C (certo) em https://cdn.cebraspe.org.br/concursos/SEE_16_DF/arquivos/Gab_Definitivo_291_SEEDF_012_01.pdf; adaptação: proposição convertida em múltipla escolha e atualizada para a Lei nº 14.626/2023, preservando o núcleo de identificação do rol prioritário."
+    },
+    {
+      "id": "q8734",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O mecanismo acessível em semáforo para pedestres",
+      "options": [
+        {
+          "id": "A",
+          "text": "só pode ser instalado mediante solicitação."
+        },
+        {
+          "id": "B",
+          "text": "deve sempre emitir som estridente."
+        },
+        {
+          "id": "C",
+          "text": "depende de fluxo e periculosidade na regra geral, sendo o som suave obrigatório em grande circulação ou acesso à reabilitação."
+        },
+        {
+          "id": "D",
+          "text": "é proibido em via de grande circulação."
+        },
+        {
+          "id": "E",
+          "text": "não pode ser substituído por mecanismo alternativo na regra geral."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A lei não condiciona a instalação a pedido do interessado. Fonte: questão adaptada de Cebraspe; SEE/DF; Monitor de Gestão Educacional; 2017; item 82; prova https://cdn.cebraspe.org.br/concursos/SEE_16_DF/arquivos/291_SEEDF_012_01.pdf; gabarito definitivo E (errado) em https://cdn.cebraspe.org.br/concursos/SEE_16_DF/arquivos/Gab_Definitivo_291_SEEDF_012_01.pdf; adaptação: assertiva negativa convertida em questão de cinco alternativas, preservando fluxo, periculosidade e orientação à pessoa com deficiência visual."
+    },
+    {
+      "id": "q8735",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A definição legal de acessibilidade abrange",
+      "options": [
+        {
+          "id": "A",
+          "text": "alcance e uso com segurança e autonomia de espaços, serviços e instalações abertos ao público, de uso público ou privados de uso coletivo, nas zonas urbana e rural."
+        },
+        {
+          "id": "B",
+          "text": "somente edifícios públicos urbanos."
+        },
+        {
+          "id": "C",
+          "text": "apenas transportes e calçadas."
+        },
+        {
+          "id": "D",
+          "text": "uso sem autonomia."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente instalações governamentais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A definição vigente combina três âmbitos — abertos ao público, de uso público ou privados de uso coletivo — e alcança as zonas urbana e rural. Fonte: questão adaptada de Cebraspe; SEE/DF; Monitor de Gestão Educacional; 2017; item 83; prova https://cdn.cebraspe.org.br/concursos/SEE_16_DF/arquivos/291_SEEDF_012_01.pdf; gabarito definitivo C (certo) em https://cdn.cebraspe.org.br/concursos/SEE_16_DF/arquivos/Gab_Definitivo_291_SEEDF_012_01.pdf; adaptação: item certo ou errado convertido em questão de cinco alternativas, preservando a definição legal."
+    },
+    {
+      "id": "q8736",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Na definição vigente, barreira",
+      "options": [
+        {
+          "id": "A",
+          "text": "é apenas obstáculo arquitetônico."
+        },
+        {
+          "id": "B",
+          "text": "nunca resulta de comportamento."
+        },
+        {
+          "id": "C",
+          "text": "só limita liberdade de movimento."
+        },
+        {
+          "id": "D",
+          "text": "deixa de existir quando se remove obstáculo físico."
+        },
+        {
+          "id": "E",
+          "text": "pode ser entrave, obstáculo, atitude ou comportamento e afetar participação, comunicação, compreensão e outros direitos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A noção legal não é exclusivamente física. Fonte: questão adaptada de Cebraspe; SEE/DF; Monitor de Gestão Educacional; 2017; item 84; prova https://cdn.cebraspe.org.br/concursos/SEE_16_DF/arquivos/291_SEEDF_012_01.pdf; gabarito definitivo E (errado) em https://cdn.cebraspe.org.br/concursos/SEE_16_DF/arquivos/Gab_Definitivo_291_SEEDF_012_01.pdf; adaptação: assertiva restritiva convertida em múltipla escolha, preservando a contraposição entre barreira física e conceito amplo."
+    },
+    {
+      "id": "q8737",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "As infrações à Lei nº 10.048/2000",
+      "options": [
+        {
+          "id": "A",
+          "text": "não geram sanção."
+        },
+        {
+          "id": "B",
+          "text": "recebem a mesma multa qualquer que seja o responsável."
+        },
+        {
+          "id": "C",
+          "text": "atingem somente instituições financeiras."
+        },
+        {
+          "id": "D",
+          "text": "geram consequências distintas para servidor/chefia, concessionária e instituição financeira, com dobro na reincidência."
+        },
+        {
+          "id": "E",
+          "text": "sempre acarretam perda automática do cargo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 6º diferencia responsáveis e sanções. Fonte: questão adaptada de Cebraspe; SEE/DF; Monitor de Gestão Educacional; 2017; item 85; prova https://cdn.cebraspe.org.br/concursos/SEE_16_DF/arquivos/291_SEEDF_012_01.pdf; gabarito definitivo C (certo) em https://cdn.cebraspe.org.br/concursos/SEE_16_DF/arquivos/Gab_Definitivo_291_SEEDF_012_01.pdf; adaptação: proposição certo ou errado convertida em questão de cinco alternativas e explicitada a reincidência."
+    },
+    {
+      "id": "q8738",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Os acompanhantes ou atendentes pessoais das pessoas com prioridade",
+      "options": [
+        {
+          "id": "A",
+          "text": "só são atendidos depois da última pessoa prioritária."
+        },
+        {
+          "id": "B",
+          "text": "são atendidos junta e acessoriamente aos titulares."
+        },
+        {
+          "id": "C",
+          "text": "possuem prioridade autônoma para assunto próprio."
+        },
+        {
+          "id": "D",
+          "text": "não podem acompanhar o titular no atendimento."
+        },
+        {
+          "id": "E",
+          "text": "são atendidos antes do próprio titular."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei nº 14.364/2022 assegura atendimento conjunto e acessório. Fonte: questão adaptada de Cebraspe; CNMP; Técnico — Segurança Institucional; 2023; item 118; prova https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_011_01.PDF; gabarito definitivo E (errado) em https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_011_01.PDF; adaptação: assertiva negativa convertida em questão de cinco alternativas, preservando o núcleo sobre acompanhante."
+    }
+  ]
+}

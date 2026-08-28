@@ -1,0 +1,2046 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "q3939",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quanto à relação entre o Microsoft Word e o arquivo relatorio.docx, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O Word é o aplicativo de processamento de texto, enquanto relatorio.docx é um documento que pode ser aberto e editado por ele."
+        },
+        {
+          "id": "B",
+          "text": "O Word é a extensão do arquivo, e DOCX é o nome do aplicativo."
+        },
+        {
+          "id": "C",
+          "text": "Word e DOCX designam obrigatoriamente o mesmo processo do sistema operacional."
+        },
+        {
+          "id": "D",
+          "text": "Um arquivo DOCX deixa de existir quando a janela do Word é fechada."
+        },
+        {
+          "id": "E",
+          "text": "DOCX é um formato exclusivo de planilhas eletrônicas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Aplicativo e documento são entidades distintas: o Word executa operações sobre arquivos, e DOCX é um formato de documento. Fechar o programa não apaga o arquivo, e DOCX não é formato de planilha. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3940",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No Word, a guia Arquivo conduz ao modo de exibição Backstage. Qual alternativa descreve corretamente sua finalidade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Concentrar operações sobre o arquivo e o aplicativo, como abrir, salvar, imprimir, exportar, compartilhar e acessar opções."
+        },
+        {
+          "id": "B",
+          "text": "Reunir exclusivamente comandos de fonte e parágrafo."
+        },
+        {
+          "id": "C",
+          "text": "Editar apenas a largura e a altura de células de tabela."
+        },
+        {
+          "id": "D",
+          "text": "Exibir somente comentários e alterações controladas."
+        },
+        {
+          "id": "E",
+          "text": "Substituir permanentemente todas as demais guias da Faixa de Opções."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Backstage cuida de arquivo, impressão, exportação, compartilhamento e opções da aplicação. Fonte e parágrafo ficam principalmente em Página Inicial, e comandos de objetos aparecem em guias próprias ou contextuais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3941",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Aumentar o zoom de um documento de 100% para 200% produz qual efeito?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Duplica o tamanho das letras armazenadas no arquivo."
+        },
+        {
+          "id": "B",
+          "text": "Amplia a visualização na tela, sem alterar por si só o tamanho da fonte nem o tamanho impresso."
+        },
+        {
+          "id": "C",
+          "text": "Reduz pela metade as margens da seção."
+        },
+        {
+          "id": "D",
+          "text": "Converte o documento para PDF."
+        },
+        {
+          "id": "E",
+          "text": "Altera automaticamente a orientação para paisagem."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Zoom é um recurso de visualização. Ele não modifica fonte, margem, orientação nem formato do arquivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3942",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma guia contextual da Faixa de Opções do Word caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "permanecer sempre visível em qualquer documento."
+        },
+        {
+          "id": "B",
+          "text": "existir somente quando o documento está em Modo de Compatibilidade."
+        },
+        {
+          "id": "C",
+          "text": "ser aberta exclusivamente pela guia Arquivo."
+        },
+        {
+          "id": "D",
+          "text": "aparecer de acordo com o objeto selecionado, oferecendo comandos pertinentes, como os de tabela ou imagem."
+        },
+        {
+          "id": "E",
+          "text": "alterar o conteúdo do documento apenas por ser exibida."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Guias contextuais dependem da seleção ou do contexto; ao selecionar uma tabela, por exemplo, surgem comandos específicos. Sua mera exibição não altera o documento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3943",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Depois que nome, local e formato já foram definidos, o comando Salvar normalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "grava as alterações no arquivo atual, mantendo o nome, o local e o formato existentes."
+        },
+        {
+          "id": "B",
+          "text": "sempre cria uma segunda cópia com outro nome."
+        },
+        {
+          "id": "C",
+          "text": "abre obrigatoriamente a caixa de escolha de formato."
+        },
+        {
+          "id": "D",
+          "text": "transforma o documento em texto simples."
+        },
+        {
+          "id": "E",
+          "text": "descarta todas as alterações feitas desde a abertura."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Salvar atualiza o arquivo atual; Salvar como é o comando apropriado para mudar nome, local ou formato e possivelmente criar uma cópia. O comando não converte nem descarta alterações por definição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3944",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um usuário precisa gerar uma cópia do documento em outro diretório e no formato PDF, preservando o DOCX original. O comando mais adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Salvar, sem escolher destino ou formato."
+        },
+        {
+          "id": "B",
+          "text": "Salvar como ou Exportar, escolhendo o novo local e o formato PDF."
+        },
+        {
+          "id": "C",
+          "text": "Localizar e Substituir."
+        },
+        {
+          "id": "D",
+          "text": "Controlar Alterações."
+        },
+        {
+          "id": "E",
+          "text": "Limpar Toda a Formatação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A mudança de local e formato exige Salvar como ou Exportar, conforme a interface. Salvar simples mantém o arquivo atual, e os demais comandos não tratam de formato de saída. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3945",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre os formatos DOCX e PDF no fluxo de trabalho do Word, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "PDF é o formato editável padrão de todo novo documento do Word."
+        },
+        {
+          "id": "B",
+          "text": "DOCX não admite estilos, campos ou imagens."
+        },
+        {
+          "id": "C",
+          "text": "um PDF exportado se atualiza automaticamente quando o DOCX muda."
+        },
+        {
+          "id": "D",
+          "text": "DOCX é o formato editável moderno do Word, enquanto PDF prioriza layout fixo para distribuição e impressão."
+        },
+        {
+          "id": "E",
+          "text": "salvar como PDF preserva obrigatoriamente todos os recursos de edição do DOCX."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "DOCX preserva a estrutura editável do Word; PDF é outro arquivo, orientado à apresentação do layout. Não há vínculo automático de atualização e nem equivalência integral de recursos editáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3946",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Depois de exportar um DOCX como PDF, o usuário altera o DOCX. O PDF anterior",
+      "options": [
+        {
+          "id": "A",
+          "text": "é atualizado em tempo real por estar vinculado ao DOCX."
+        },
+        {
+          "id": "B",
+          "text": "deixa de existir quando o DOCX é salvo."
+        },
+        {
+          "id": "C",
+          "text": "volta automaticamente ao formato DOCX."
+        },
+        {
+          "id": "D",
+          "text": "passa a incorporar todas as alterações controladas sem nova exportação."
+        },
+        {
+          "id": "E",
+          "text": "permanece como arquivo separado e não é atualizado automaticamente."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Exportar cria outro arquivo. Para refletir mudanças, é preciso gerar um novo PDF; não existe sincronização automática entre os dois. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3947",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao salvar um DOCX com revisões, campos e proteção no formato ODT, o procedimento tecnicamente seguro é",
+      "options": [
+        {
+          "id": "A",
+          "text": "presumir que todos os recursos serão preservados de modo idêntico."
+        },
+        {
+          "id": "B",
+          "text": "considerar que o ODT não pode ser aberto pelo Word."
+        },
+        {
+          "id": "C",
+          "text": "concluir que o arquivo será convertido em planilha."
+        },
+        {
+          "id": "D",
+          "text": "verificar a compatibilidade, pois parte do texto pode permanecer enquanto recursos sofrem perda ou conversão."
+        },
+        {
+          "id": "E",
+          "text": "considerar que a proteção será sempre reforçada pela conversão."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Interoperabilidade não significa paridade integral. ODT pode manter o texto, mas revisão, proteção, temas, campos e layout podem ter suporte parcial ou diferente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3948",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Salvar um documento complexo no formato TXT implica, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "preservar integralmente todos os objetos do DOCX."
+        },
+        {
+          "id": "B",
+          "text": "preservar o texto simples e perder formatação rica, estilos, imagens, tabelas e campos."
+        },
+        {
+          "id": "C",
+          "text": "ativar automaticamente a criptografia do documento."
+        },
+        {
+          "id": "D",
+          "text": "converter cada tabela em planilha vinculada."
+        },
+        {
+          "id": "E",
+          "text": "manter sumário e legendas como campos atualizáveis."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "TXT armazena texto simples e não conserva a estrutura rica do Word. Objetos, estilos e campos não permanecem como tais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3949",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O Modo de Compatibilidade do Word pode ser usado quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer documento novo em branco é criado."
+        },
+        {
+          "id": "B",
+          "text": "o usuário aumenta o zoom acima de 100%."
+        },
+        {
+          "id": "C",
+          "text": "um comentário é resolvido."
+        },
+        {
+          "id": "D",
+          "text": "o documento é enviado à impressora."
+        },
+        {
+          "id": "E",
+          "text": "um documento de formato ou versão anterior é aberto e certos recursos atuais são limitados para preservar compatibilidade."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Modo de Compatibilidade está ligado a formatos ou versões anteriores. Zoom, comentários e impressão não o acionam por definição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3950",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao comparar Word desktop e Word para a Web, a afirmação mais segura é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a versão Web sempre oferece todos os recursos avançados do desktop."
+        },
+        {
+          "id": "B",
+          "text": "as duas versões possuem obrigatoriamente os mesmos formatos de salvamento."
+        },
+        {
+          "id": "C",
+          "text": "atalhos e comandos são idênticos em qualquer navegador."
+        },
+        {
+          "id": "D",
+          "text": "qualquer documento protegido pode ser criado e editado integralmente na Web."
+        },
+        {
+          "id": "E",
+          "text": "os recursos e comportamentos podem diferir; a plataforma deve ser considerada no enunciado."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Há diferenças de recursos, formatos, atalhos e proteção entre plataformas. Questões devem delimitar o ambiente quando essa diferença for decisiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3951",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma questão pergunta qual letra de atalho abre, salva ou seleciona tudo no Word, mas não informa idioma, plataforma nem personalização. A conduta mais segura é",
+      "options": [
+        {
+          "id": "A",
+          "text": "presumir que todo Word usa o mapa da interface inglesa."
+        },
+        {
+          "id": "B",
+          "text": "reconhecer a ambiguidade e priorizar o comando, a guia e o efeito, pois atalhos localizados podem variar."
+        },
+        {
+          "id": "C",
+          "text": "presumir que todo Word usa o mesmo mapa pt-BR."
+        },
+        {
+          "id": "D",
+          "text": "ignorar a plataforma porque navegadores nunca interceptam atalhos."
+        },
+        {
+          "id": "E",
+          "text": "considerar que atalhos não podem ser personalizados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Atalhos por letras podem mudar com idioma, plataforma, layout e personalização. Sem delimitação, uma associação universal pode ser tecnicamente insegura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3952",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao usar Copiar em um trecho selecionado, o Word",
+      "options": [
+        {
+          "id": "A",
+          "text": "mantém o trecho na origem e envia uma cópia à Área de Transferência."
+        },
+        {
+          "id": "B",
+          "text": "remove o trecho da origem e impede sua recuperação."
+        },
+        {
+          "id": "C",
+          "text": "envia apenas a formatação, nunca o conteúdo."
+        },
+        {
+          "id": "D",
+          "text": "converte o trecho em imagem obrigatoriamente."
+        },
+        {
+          "id": "E",
+          "text": "salva o documento automaticamente em PDF."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Copiar preserva o conteúdo original; Recortar é que remove a seleção da origem. O tipo de colagem posterior pode alterar a forma de inserção, mas Copiar não converte nem exporta o arquivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3953",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O comando Recortar, aplicado a uma seleção,",
+      "options": [
+        {
+          "id": "A",
+          "text": "remove a seleção da origem e a coloca na Área de Transferência para possível colagem."
+        },
+        {
+          "id": "B",
+          "text": "apaga definitivamente o conteúdo sem usar a Área de Transferência."
+        },
+        {
+          "id": "C",
+          "text": "copia somente estilos e mantém o texto no lugar."
+        },
+        {
+          "id": "D",
+          "text": "atua apenas sobre imagens, não sobre texto."
+        },
+        {
+          "id": "E",
+          "text": "equivale ao comando Salvar como."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Recortar prepara a movimentação do conteúdo por meio da Área de Transferência e pode ser desfeito ou seguido de colagem. Não é exclusão definitiva nem cópia de formatação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3954",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao colar no Word desktop uma tabela copiada da Web com a opção Manter Somente Texto, é esperado que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todas as bordas, imagens e estilos da origem sejam preservados."
+        },
+        {
+          "id": "B",
+          "text": "o conteúdo seja vinculado permanentemente à página da Web."
+        },
+        {
+          "id": "C",
+          "text": "o documento de destino seja convertido em HTML."
+        },
+        {
+          "id": "D",
+          "text": "a tabela seja transformada obrigatoriamente em planilha do Excel."
+        },
+        {
+          "id": "E",
+          "text": "a formatação e os objetos não textuais sejam descartados, e a tabela possa ser convertida em parágrafos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Manter Somente Texto elimina a maior parte da estrutura e da aparência da origem. O texto adota o contexto do destino, sem vínculo obrigatório nem conversão para Excel. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3955",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No Word desktop, a opção Mesclar Formatação tende a",
+      "options": [
+        {
+          "id": "A",
+          "text": "adotar o estilo do destino e preservar parte das ênfases diretas, como negrito ou itálico."
+        },
+        {
+          "id": "B",
+          "text": "preservar integralmente todos os estilos da origem, ignorando o destino."
+        },
+        {
+          "id": "C",
+          "text": "descartar todo o conteúdo e colar apenas uma imagem."
+        },
+        {
+          "id": "D",
+          "text": "remover o texto de origem sem inseri-lo no destino."
+        },
+        {
+          "id": "E",
+          "text": "criar automaticamente uma nova seção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Mesclar Formatação integra o conteúdo ao estilo do destino e pode conservar ênfases diretas. Manter Formatação de Origem e Manter Somente Texto têm efeitos diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3956",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A distinção correta entre Refazer e Repetir é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Refazer e Repetir sempre executam exatamente a mesma operação."
+        },
+        {
+          "id": "B",
+          "text": "Refazer imprime; Repetir salva."
+        },
+        {
+          "id": "C",
+          "text": "Refazer apaga o documento; Repetir cria uma cópia."
+        },
+        {
+          "id": "D",
+          "text": "Refazer restaura uma ação desfeita quando possível; Repetir executa novamente a última ação compatível."
+        },
+        {
+          "id": "E",
+          "text": "ambos atuam somente sobre comentários."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Refazer está ligado ao histórico de desfazer, enquanto Repetir reaplica uma ação compatível. Dependendo do estado do Word, uma mesma tecla pode representar funções distintas, mas os conceitos não se confundem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3957",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O recurso Substituir Tudo exige cautela porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "só funciona em cabeçalhos e rodapés."
+        },
+        {
+          "id": "B",
+          "text": "altera sempre o formato do arquivo para TXT."
+        },
+        {
+          "id": "C",
+          "text": "uma regra ampla pode modificar ocorrências que deveriam permanecer inalteradas."
+        },
+        {
+          "id": "D",
+          "text": "não admite procurar formatação ou itens especiais."
+        },
+        {
+          "id": "E",
+          "text": "é incapaz de modificar mais de uma ocorrência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Substituir pode atuar sobre texto, formatação e itens especiais, e Substituir Tudo alcança várias ocorrências. A definição imprecisa do critério pode gerar alterações indevidas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3958",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sem seleção ativa, `Ctrl + Backspace` e `Ctrl + Delete` normalmente excluem, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o parágrafo anterior e o documento inteiro."
+        },
+        {
+          "id": "B",
+          "text": "a linha atual e a página seguinte."
+        },
+        {
+          "id": "C",
+          "text": "o arquivo atual e sua cópia de segurança."
+        },
+        {
+          "id": "D",
+          "text": "uma palavra à esquerda e uma palavra à direita do ponto de inserção."
+        },
+        {
+          "id": "E",
+          "text": "uma página à esquerda e uma seção à direita."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As combinações ampliam a exclusão de um caractere para uma palavra em cada direção; não atuam sobre páginas, seções ou arquivos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3959",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual opção contém somente exemplos de formatação de caractere?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Margens, orientação, papel e colunas."
+        },
+        {
+          "id": "B",
+          "text": "Família da fonte, tamanho, negrito, cor e sobrescrito."
+        },
+        {
+          "id": "C",
+          "text": "Recuo esquerdo, espaçamento antes e quebra de página."
+        },
+        {
+          "id": "D",
+          "text": "Cabeçalho, rodapé, número de página e seção."
+        },
+        {
+          "id": "E",
+          "text": "Linhas, colunas, células e repetição de cabeçalho de tabela."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Fonte, tamanho, efeitos e cor atuam sobre caracteres. As demais alternativas tratam de parágrafo, seção, página ou tabela. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3960",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No Word para Windows, o comando que remove formatação manual de caracteres sem apagar o texto é",
+      "options": [
+        {
+          "id": "A",
+          "text": "`Ctrl + Enter`."
+        },
+        {
+          "id": "B",
+          "text": "`Shift + Enter`."
+        },
+        {
+          "id": "C",
+          "text": "`Ctrl + Barra de espaços`."
+        },
+        {
+          "id": "D",
+          "text": "`Alt + F4`."
+        },
+        {
+          "id": "E",
+          "text": "`Ctrl + P`."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "`Ctrl + Barra de espaços` limpa formatação direta de caracteres. `Ctrl + Enter` insere quebra de página, `Shift + Enter` quebra de linha, `Alt + F4` fecha a janela e `Ctrl + P` abre impressão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3961",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual associação entre tarefa e guia principal está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Margens e orientação — Referências."
+        },
+        {
+          "id": "B",
+          "text": "Sumário e notas de rodapé — Exibição."
+        },
+        {
+          "id": "C",
+          "text": "Comentários e Controlar Alterações — Design."
+        },
+        {
+          "id": "D",
+          "text": "Fonte e parágrafo — Arquivo."
+        },
+        {
+          "id": "E",
+          "text": "Mala direta e seleção de destinatários — Correspondências."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Correspondências concentra mala direta. Margens ficam em Layout; sumário em Referências; comentários em Revisão; fonte e parágrafo em Página Inicial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3962",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No Word, o alinhamento justificado",
+      "options": [
+        {
+          "id": "A",
+          "text": "centraliza todas as linhas no meio da página."
+        },
+        {
+          "id": "B",
+          "text": "ajusta o espaçamento para alinhar as linhas às margens esquerda e direita, com particularidades na última linha."
+        },
+        {
+          "id": "C",
+          "text": "altera automaticamente as margens da seção."
+        },
+        {
+          "id": "D",
+          "text": "cria uma coluna de texto em cada margem."
+        },
+        {
+          "id": "E",
+          "text": "converte o parágrafo em tabela."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Justificar distribui as linhas entre as margens; centralizar é outro alinhamento. A operação não muda margens, não cria colunas e não converte o conteúdo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3963",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O recuo deslocado, também chamado pendente, caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "alterar a margem física de todas as páginas."
+        },
+        {
+          "id": "B",
+          "text": "centralizar apenas a primeira linha do parágrafo."
+        },
+        {
+          "id": "C",
+          "text": "inserir uma quebra de seção antes do parágrafo."
+        },
+        {
+          "id": "D",
+          "text": "mudar automaticamente a orientação para paisagem."
+        },
+        {
+          "id": "E",
+          "text": "posicionar a primeira linha mais à esquerda que as linhas seguintes do mesmo parágrafo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O recuo pendente é propriedade de parágrafo: as linhas após a primeira ficam recuadas em relação a ela. Não altera margem, seção ou orientação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3964",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para criar distância vertical consistente entre parágrafos, a prática estruturada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "inserir várias sequências de espaços."
+        },
+        {
+          "id": "B",
+          "text": "configurar o espaçamento antes ou depois do parágrafo."
+        },
+        {
+          "id": "C",
+          "text": "pressionar Enter repetidamente para criar parágrafos vazios."
+        },
+        {
+          "id": "D",
+          "text": "aumentar o zoom."
+        },
+        {
+          "id": "E",
+          "text": "usar uma quebra de seção para cada intervalo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Espaçamento antes/depois mantém a distância como propriedade do parágrafo. Parágrafos vazios e espaços são soluções frágeis, e zoom ou seção não têm essa finalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3965",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma parada de tabulação no Word",
+      "options": [
+        {
+          "id": "A",
+          "text": "corresponde sempre a cinco espaços fixos."
+        },
+        {
+          "id": "B",
+          "text": "altera a margem física do papel."
+        },
+        {
+          "id": "C",
+          "text": "define uma posição de alinhamento, que pode ser esquerda, central, direita, decimal ou barra."
+        },
+        {
+          "id": "D",
+          "text": "só pode ser usada em planilhas."
+        },
+        {
+          "id": "E",
+          "text": "cria automaticamente uma nova seção."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Tabulação é uma posição configurável de alinhamento, não uma quantidade fixa de espaços. Ela atua em texto e parágrafos, não altera margem nem cria seção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3966",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre listas estruturadas no Word, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Digitar números manualmente cria sempre uma lista multinível."
+        },
+        {
+          "id": "B",
+          "text": "Listas não admitem mudança de nível ou recuo."
+        },
+        {
+          "id": "C",
+          "text": "Uma lista nunca pode continuar a numeração de outra."
+        },
+        {
+          "id": "D",
+          "text": "Listas estruturadas são exclusivas do Excel."
+        },
+        {
+          "id": "E",
+          "text": "Podem usar marcadores, numeração ou vários níveis, mantendo sequência, recuos e hierarquia."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O recurso de lista administra marcador ou número, nível e recuo. Numeração digitada manualmente não garante estrutura, e a sequência pode ser continuada ou reiniciada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3967",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Aplicar o estilo Título 1 a um parágrafo contribui para",
+      "options": [
+        {
+          "id": "A",
+          "text": "criptografar o documento."
+        },
+        {
+          "id": "B",
+          "text": "padronização, navegação estrutural, acessibilidade e geração de sumário automático."
+        },
+        {
+          "id": "C",
+          "text": "converter o arquivo em PDF."
+        },
+        {
+          "id": "D",
+          "text": "impedir qualquer edição futura."
+        },
+        {
+          "id": "E",
+          "text": "criar uma tabela de dados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Estilos de título fornecem aparência e estrutura semântica. Eles não são mecanismos de criptografia, exportação, bloqueio ou tabelas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3968",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Tema, estilo e modelo distinguem-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "os três termos designam exatamente o mesmo recurso."
+        },
+        {
+          "id": "B",
+          "text": "tema é uma senha, estilo é uma permissão e modelo é um PDF."
+        },
+        {
+          "id": "C",
+          "text": "tema coordena o sistema visual geral, estilo formata elementos específicos e modelo fornece uma base reutilizável."
+        },
+        {
+          "id": "D",
+          "text": "estilo só existe em TXT e tema apenas em ODT."
+        },
+        {
+          "id": "E",
+          "text": "modelo impede qualquer alteração de estilos e temas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Tema, estilo e modelo operam em níveis diferentes e podem trabalhar juntos. Nenhum deles é sinônimo de senha, permissão ou formato fixo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3969",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No Word, `Shift + Enter` insere",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma quebra de página na mesma seção."
+        },
+        {
+          "id": "B",
+          "text": "uma quebra de linha dentro do mesmo parágrafo."
+        },
+        {
+          "id": "C",
+          "text": "uma quebra de seção em próxima página."
+        },
+        {
+          "id": "D",
+          "text": "um novo documento."
+        },
+        {
+          "id": "E",
+          "text": "um campo de número de página."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "`Shift + Enter` muda de linha sem criar nova marca de parágrafo. Quebra de página usa `Ctrl + Enter`, e quebra de seção é outro comando. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3970",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para permitir orientação, margens ou cabeçalhos diferentes em partes do mesmo documento, o recurso estrutural adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "aumentar o zoom."
+        },
+        {
+          "id": "B",
+          "text": "inserir uma sequência de espaços."
+        },
+        {
+          "id": "C",
+          "text": "a quebra de seção, com as configurações aplicadas à seção correta."
+        },
+        {
+          "id": "D",
+          "text": "usar apenas quebra de linha."
+        },
+        {
+          "id": "E",
+          "text": "aplicar negrito ao primeiro parágrafo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Seções delimitam conjuntos independentes de configurações de página. Zoom, espaços, quebra de linha e negrito não criam essa independência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3971",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para deixar somente uma página intermediária em paisagem e manter as demais em retrato, a solução usual é",
+      "options": [
+        {
+          "id": "A",
+          "text": "inserir apenas uma quebra de página antes dela."
+        },
+        {
+          "id": "B",
+          "text": "diminuir o zoom nessa página."
+        },
+        {
+          "id": "C",
+          "text": "aumentar a largura da fonte."
+        },
+        {
+          "id": "D",
+          "text": "isolar a página com quebras de seção antes e depois e aplicar paisagem à seção intermediária."
+        },
+        {
+          "id": "E",
+          "text": "inserir várias linhas vazias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A orientação é propriedade de seção. Uma página intermediária precisa ser delimitada para que a mudança não alcance as páginas vizinhas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3972",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Colunas de texto no Word",
+      "options": [
+        {
+          "id": "A",
+          "text": "são necessariamente células de uma tabela."
+        },
+        {
+          "id": "B",
+          "text": "só existem em arquivos de planilha."
+        },
+        {
+          "id": "C",
+          "text": "organizam o fluxo do texto em faixas verticais e podem usar quebra de coluna para controlar a passagem à faixa seguinte."
+        },
+        {
+          "id": "D",
+          "text": "impedem o uso de seções no documento."
+        },
+        {
+          "id": "E",
+          "text": "alteram obrigatoriamente o tamanho físico do papel."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Colunas são recurso de layout do fluxo textual, distinto de tabelas. Seções podem delimitar onde o layout em colunas se aplica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3973",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma nova seção herdou o mesmo cabeçalho da seção anterior por estar Vinculada ao Anterior. Para torná-lo independente, é necessário",
+      "options": [
+        {
+          "id": "A",
+          "text": "excluir o cabeçalho da seção anterior."
+        },
+        {
+          "id": "B",
+          "text": "converter o documento em TXT."
+        },
+        {
+          "id": "C",
+          "text": "alterar apenas o zoom."
+        },
+        {
+          "id": "D",
+          "text": "desativar o vínculo na nova seção e então editar seu cabeçalho."
+        },
+        {
+          "id": "E",
+          "text": "resolver todos os comentários."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Vincular ao Anterior faz a nova seção reutilizar o cabeçalho ou rodapé anterior. Desativar o vínculo permite conteúdo próprio sem exigir exclusão da seção precedente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3974",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A numeração automática de páginas no Word é normalmente inserida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "texto digitado manualmente em cada página."
+        },
+        {
+          "id": "B",
+          "text": "comentário oculto."
+        },
+        {
+          "id": "C",
+          "text": "um campo que pode ter formato e início diferentes por seção."
+        },
+        {
+          "id": "D",
+          "text": "nome do arquivo repetido."
+        },
+        {
+          "id": "E",
+          "text": "objeto de planilha vinculado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O campo de página produz e atualiza a numeração. Digitação manual não cria paginação automática e comentários ou planilhas não têm essa função. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3975",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em uma tabela do Word, pressionar `Tab` na última célula normalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "fecha o documento."
+        },
+        {
+          "id": "B",
+          "text": "cria uma nova linha e posiciona o cursor na primeira célula dessa linha."
+        },
+        {
+          "id": "C",
+          "text": "insere uma quebra de seção."
+        },
+        {
+          "id": "D",
+          "text": "converte a tabela em imagem."
+        },
+        {
+          "id": "E",
+          "text": "apaga a última linha."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "`Tab` navega para a próxima célula e, na última, pode acrescentar uma linha. Para inserir uma tabulação dentro da célula, usa-se `Ctrl + Tab`. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3976",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Dentro de uma célula de tabela, o usuário quer inserir um caractere de tabulação sem avançar para a próxima célula. Deve pressionar",
+      "options": [
+        {
+          "id": "A",
+          "text": "`Ctrl + Tab`."
+        },
+        {
+          "id": "B",
+          "text": "`Tab`."
+        },
+        {
+          "id": "C",
+          "text": "`Ctrl + Enter`."
+        },
+        {
+          "id": "D",
+          "text": "`Shift + Tab`."
+        },
+        {
+          "id": "E",
+          "text": "`Alt + Tab`."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "`Tab` navega entre células e `Shift + Tab` retorna à anterior; `Ctrl + Tab` insere a tabulação dentro da célula. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3977",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Mesclar células em uma tabela do Word significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "transformar a tabela em uma planilha do Excel."
+        },
+        {
+          "id": "B",
+          "text": "duplicar automaticamente todas as linhas."
+        },
+        {
+          "id": "C",
+          "text": "apagar as bordas de todas as páginas."
+        },
+        {
+          "id": "D",
+          "text": "converter cada célula em uma caixa de texto independente."
+        },
+        {
+          "id": "E",
+          "text": "combinar duas ou mais células selecionadas em uma única célula."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Mesclar modifica a estrutura da tabela ao unir células selecionadas; não converte o objeto nem afeta páginas alheias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3978",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma imagem configurada Em linha com o texto",
+      "options": [
+        {
+          "id": "A",
+          "text": "fica obrigatoriamente atrás do texto."
+        },
+        {
+          "id": "B",
+          "text": "não pode ser selecionada ou redimensionada."
+        },
+        {
+          "id": "C",
+          "text": "torna-se texto simples editável."
+        },
+        {
+          "id": "D",
+          "text": "comporta-se como um caractere dentro do parágrafo para posicionamento e fluxo."
+        },
+        {
+          "id": "E",
+          "text": "é convertida automaticamente em marca d’água."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Em linha integra o objeto ao fluxo do parágrafo. Disposições flutuantes usam contorno e âncora; a imagem continua sendo um objeto selecionável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3979",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A âncora de um objeto flutuante no Word",
+      "options": [
+        {
+          "id": "A",
+          "text": "criptografa o objeto."
+        },
+        {
+          "id": "B",
+          "text": "associa o objeto a um parágrafo e pode influenciar sua posição quando o texto muda."
+        },
+        {
+          "id": "C",
+          "text": "converte a imagem em nota de rodapé."
+        },
+        {
+          "id": "D",
+          "text": "impede qualquer redimensionamento."
+        },
+        {
+          "id": "E",
+          "text": "transforma o objeto em campo de mala direta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A âncora estabelece vínculo estrutural entre objeto flutuante e parágrafo. Não é mecanismo de segurança, nota, dimensionamento ou mesclagem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3980",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No tratamento de uma imagem, Recortar e Redimensionar distinguem-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos apagam obrigatoriamente o arquivo de origem."
+        },
+        {
+          "id": "B",
+          "text": "recortar muda o idioma e redimensionar muda o zoom."
+        },
+        {
+          "id": "C",
+          "text": "redimensionar remove partes e recortar altera somente a largura da página."
+        },
+        {
+          "id": "D",
+          "text": "recortar altera a área visível, enquanto redimensionar muda as dimensões exibidas."
+        },
+        {
+          "id": "E",
+          "text": "não existe diferença entre as operações."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Recorte oculta partes da imagem; redimensionamento altera largura e altura. Compressão é ainda outra operação, ligada a resolução e tamanho do arquivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3981",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em um documento acessível, uma imagem informativa deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser descrita apenas pela cor da borda."
+        },
+        {
+          "id": "B",
+          "text": "ficar sempre atrás do texto."
+        },
+        {
+          "id": "C",
+          "text": "ser convertida obrigatoriamente em tabela."
+        },
+        {
+          "id": "D",
+          "text": "ser marcada como decorativa mesmo quando transmite informação."
+        },
+        {
+          "id": "E",
+          "text": "receber texto alternativo que comunique sua informação ou finalidade relevante."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Texto alternativo permite que tecnologias assistivas comuniquem o conteúdo relevante. Marcar como decorativa é apropriado apenas para objetos sem informação necessária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3982",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um sumário automático do Word é gerado principalmente a partir de",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer texto acima de 14 pontos."
+        },
+        {
+          "id": "B",
+          "text": "comentários resolvidos."
+        },
+        {
+          "id": "C",
+          "text": "estilos de título ou níveis estruturais configurados no documento."
+        },
+        {
+          "id": "D",
+          "text": "nomes de arquivos anexos."
+        },
+        {
+          "id": "E",
+          "text": "parágrafos que contenham números digitados manualmente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O sumário usa estrutura, não apenas aparência. Texto grande ou numerado sem nível de título não entra automaticamente na hierarquia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3983",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Novos títulos foram inseridos, mas não aparecem no sumário automático. A ação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "aumentar o zoom para 200%."
+        },
+        {
+          "id": "B",
+          "text": "atualizar somente números de página, independentemente da estrutura."
+        },
+        {
+          "id": "C",
+          "text": "confirmar os estilos de título e atualizar a tabela inteira."
+        },
+        {
+          "id": "D",
+          "text": "converter o documento em TXT."
+        },
+        {
+          "id": "E",
+          "text": "transformar os títulos em comentários."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Quando a hierarquia muda, é necessário atualizar a tabela inteira e verificar os estilos. Atualizar apenas números serve quando os títulos permanecem os mesmos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3984",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A distinção correta entre nota de rodapé e nota de fim é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a nota de rodapé contém somente imagens e a de fim somente texto."
+        },
+        {
+          "id": "B",
+          "text": "a nota de fim aparece sempre no cabeçalho."
+        },
+        {
+          "id": "C",
+          "text": "ambas aparecem obrigatoriamente no mesmo local."
+        },
+        {
+          "id": "D",
+          "text": "a nota de rodapé aparece no fim da página; a nota de fim, no fim do documento ou da seção."
+        },
+        {
+          "id": "E",
+          "text": "a nota de rodapé não possui marca vinculada ao texto."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A localização é a diferença central. Ambas usam marcas e numeração administradas pelo Word; um número sobrescrito manual não cria uma nota vinculada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3985",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Legendas e referências cruzadas no Word são úteis porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "identificam elementos e criam relações atualizáveis por meio de campos."
+        },
+        {
+          "id": "B",
+          "text": "substituem toda a necessidade de texto alternativo."
+        },
+        {
+          "id": "C",
+          "text": "funcionam somente em documentos TXT."
+        },
+        {
+          "id": "D",
+          "text": "são números fixos que nunca precisam de atualização."
+        },
+        {
+          "id": "E",
+          "text": "impedem a reorganização de figuras e tabelas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Legendas e referências cruzadas usam campos e podem ser atualizadas quando a estrutura muda. Elas não substituem acessibilidade, não se limitam a TXT e não impedem reorganização. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3986",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No Word para Windows, `F9` é usado para",
+      "options": [
+        {
+          "id": "A",
+          "text": "fechar o aplicativo."
+        },
+        {
+          "id": "B",
+          "text": "abrir o Editor de ortografia."
+        },
+        {
+          "id": "C",
+          "text": "inserir uma quebra de página."
+        },
+        {
+          "id": "D",
+          "text": "ativar o modo de leitura."
+        },
+        {
+          "id": "E",
+          "text": "atualizar os campos selecionados."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Sumários, números, legendas e referências podem depender de campos atualizáveis com `F9`. `F7` abre o Editor, e os demais efeitos não correspondem à tecla. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3987",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O Editor do Word pode produzir resultados diferentes para o mesmo trecho quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "o zoom muda de 100% para 150%."
+        },
+        {
+          "id": "B",
+          "text": "a página é exibida em Layout de Impressão."
+        },
+        {
+          "id": "C",
+          "text": "a barra de status é ocultada."
+        },
+        {
+          "id": "D",
+          "text": "o idioma de revisão atribuído ao texto é alterado."
+        },
+        {
+          "id": "E",
+          "text": "um cabeçalho é desvinculado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ortografia e gramática dependem do idioma de revisão. Zoom, modo de exibição, barra de status e vínculo de cabeçalho não alteram as regras linguísticas aplicadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3988",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Comentários e Controlar Alterações são recursos distintos porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "comentários substituem sempre o texto e o controle muda apenas o zoom."
+        },
+        {
+          "id": "B",
+          "text": "resolver um comentário aceita automaticamente todas as revisões."
+        },
+        {
+          "id": "C",
+          "text": "comentários existem apenas em PDF."
+        },
+        {
+          "id": "D",
+          "text": "comentários registram observações, enquanto Controlar Alterações registra edições que devem ser aceitas ou rejeitadas."
+        },
+        {
+          "id": "E",
+          "text": "alterações controladas não podem registrar exclusões."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Comentários sustentam discussão; alterações controladas representam propostas de edição. Seus ciclos de resolução são independentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3989",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quando Controlar Alterações está ativo, o Word pode registrar",
+      "options": [
+        {
+          "id": "A",
+          "text": "inserções, exclusões, movimentações e mudanças de formatação, conforme as opções de controle."
+        },
+        {
+          "id": "B",
+          "text": "somente alterações de zoom."
+        },
+        {
+          "id": "C",
+          "text": "apenas comentários, pois pertencem ao mesmo mecanismo."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente o horário da impressão."
+        },
+        {
+          "id": "E",
+          "text": "somente mudanças feitas depois de exportar para PDF."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O controle registra propostas de edição. Comentários são um mecanismo separado, e zoom ou impressão não constituem revisões do conteúdo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3990",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Selecionar Nenhuma Marcação em um documento com revisões pendentes",
+      "options": [
+        {
+          "id": "A",
+          "text": "oculta a apresentação das marcações, mas mantém as revisões armazenadas."
+        },
+        {
+          "id": "B",
+          "text": "aceita todas as alterações."
+        },
+        {
+          "id": "C",
+          "text": "rejeita todas as exclusões."
+        },
+        {
+          "id": "D",
+          "text": "remove definitivamente os dados de revisão."
+        },
+        {
+          "id": "E",
+          "text": "desativa a proteção por senha."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Exibição e resolução são ações diferentes. As revisões só deixam de ficar pendentes quando são aceitas ou rejeitadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3991",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Desativar Controlar Alterações em um documento que já contém revisões",
+      "options": [
+        {
+          "id": "A",
+          "text": "aceita automaticamente todas as revisões existentes."
+        },
+        {
+          "id": "B",
+          "text": "rejeita automaticamente todas as exclusões."
+        },
+        {
+          "id": "C",
+          "text": "remove comentários e campos do documento."
+        },
+        {
+          "id": "D",
+          "text": "converte o arquivo em uma cópia sem histórico."
+        },
+        {
+          "id": "E",
+          "text": "interrompe o registro automático de novas edições, mas mantém as revisões existentes até serem aceitas ou rejeitadas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Ativar ou desativar o controle afeta as próximas edições. Revisões já registradas exigem decisão explícita de aceitar ou rejeitar. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3992",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Desmarcar Imprimir Marcação antes de imprimir um documento com revisões pendentes",
+      "options": [
+        {
+          "id": "A",
+          "text": "aceita automaticamente todas as alterações."
+        },
+        {
+          "id": "B",
+          "text": "rejeita todas as exclusões."
+        },
+        {
+          "id": "C",
+          "text": "desativa permanentemente Controlar Alterações."
+        },
+        {
+          "id": "D",
+          "text": "impede que as marcações saiam naquela impressão, sem removê-las do arquivo."
+        },
+        {
+          "id": "E",
+          "text": "converte o documento em PDF protegido."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Imprimir Marcação é uma opção de saída. O estado editorial do documento permanece até que as revisões sejam aceitas ou rejeitadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3993",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para coautoria em tempo real em um único documento, é necessário",
+      "options": [
+        {
+          "id": "A",
+          "text": "enviar cópias independentes por anexo."
+        },
+        {
+          "id": "B",
+          "text": "salvar obrigatoriamente em TXT."
+        },
+        {
+          "id": "C",
+          "text": "usar local, formato, versão e permissões compatíveis e compartilhar o mesmo arquivo."
+        },
+        {
+          "id": "D",
+          "text": "desativar toda conexão de rede."
+        },
+        {
+          "id": "E",
+          "text": "marcar o documento como final."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Coautoria depende de infraestrutura compatível e de um arquivo comum. Anexos criam cópias, e TXT ou Marcar como Final não estabelecem sessão colaborativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3994",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na mala direta, o documento principal e a fonte de dados desempenham, respectivamente, os papéis de",
+      "options": [
+        {
+          "id": "A",
+          "text": "armazenar apenas imagens e apenas senhas."
+        },
+        {
+          "id": "B",
+          "text": "fornecer o conteúdo comum e fornecer os registros variáveis usados na personalização."
+        },
+        {
+          "id": "C",
+          "text": "definir o gabarito e corrigir ortografia."
+        },
+        {
+          "id": "D",
+          "text": "criar a planilha e converter o resultado em TXT."
+        },
+        {
+          "id": "E",
+          "text": "proteger o arquivo e impedir a seleção de destinatários."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O documento principal contém texto e layout comuns; a fonte de dados contém campos e registros, como nome e endereço. Campos de mesclagem conectam esses dois componentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3995",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre os mecanismos de proteção do Word, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Marcar como Final oferece a mesma criptografia de uma senha para abrir."
+        },
+        {
+          "id": "B",
+          "text": "Restringir Edição e senha para abrir são exatamente o mesmo mecanismo."
+        },
+        {
+          "id": "C",
+          "text": "a Microsoft garante a recuperação de qualquer senha perdida."
+        },
+        {
+          "id": "D",
+          "text": "o Word para a Web possui sempre paridade integral com o desktop para criar proteção."
+        },
+        {
+          "id": "E",
+          "text": "Senha para abrir, Restringir Edição e Marcar como Final possuem finalidades e níveis de proteção diferentes."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Senha para abrir pode criptografar; Restringir Edição limita alterações; Marcar como Final é um aviso de intenção. Senha perdida pode não ser recuperável e a Web possui limitações. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3996",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "É uma combinação adequada de práticas de acessibilidade em documentos do Word",
+      "options": [
+        {
+          "id": "A",
+          "text": "usar títulos em ordem lógica, links descritivos, idioma correto, texto alternativo e cabeçalhos de tabela apropriados."
+        },
+        {
+          "id": "B",
+          "text": "distinguir avisos somente pela cor e remover descrições de imagens."
+        },
+        {
+          "id": "C",
+          "text": "simular todos os títulos apenas com fonte grande e negrito."
+        },
+        {
+          "id": "D",
+          "text": "usar tabelas complexas para diagramar todo o documento."
+        },
+        {
+          "id": "E",
+          "text": "inserir endereços extensos como texto de link e omitir o idioma."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Acessibilidade depende de estrutura semântica, descrições e informação que não dependa apenas da aparência visual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3997",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O Verificador de Acessibilidade do Word",
+      "options": [
+        {
+          "id": "A",
+          "text": "garante sozinho acessibilidade plena em qualquer documento."
+        },
+        {
+          "id": "B",
+          "text": "aponta erros, avisos e recomendações, mas precisa ser complementado por revisão humana."
+        },
+        {
+          "id": "C",
+          "text": "serve exclusivamente para corrigir ortografia."
+        },
+        {
+          "id": "D",
+          "text": "substitui a necessidade de títulos e texto alternativo."
+        },
+        {
+          "id": "E",
+          "text": "funciona apenas depois de converter o arquivo em PDF."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A ferramenta auxilia a detecção de problemas, mas não avalia integralmente sentido, contexto, clareza e experiência real de uso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3998",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para resolver uma situação complexa no Word com segurança, a sequência de análise mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "identificar ambiente, objeto, guia, alcance, efeito real, formato e dependências."
+        },
+        {
+          "id": "B",
+          "text": "decorar a posição visual de todos os botões e ignorar o objeto."
+        },
+        {
+          "id": "C",
+          "text": "presumir que qualquer operação atua no documento inteiro."
+        },
+        {
+          "id": "D",
+          "text": "tratar aparência e estrutura como sinônimos."
+        },
+        {
+          "id": "E",
+          "text": "ignorar se o arquivo é DOCX, ODT, TXT ou PDF."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O raciocínio por ambiente, objeto e alcance reduz ambiguidades de interface. Formato e dependências podem mudar o resultado, e aparência não substitui estrutura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3999",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um servidor deseja colocar uma moldura ao redor de toda a página no Microsoft Word. Em qual caminho ele encontra o recurso específico para isso?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inserir → Formas."
+        },
+        {
+          "id": "B",
+          "text": "Layout → Margens."
+        },
+        {
+          "id": "C",
+          "text": "Inserir → Tabela."
+        },
+        {
+          "id": "D",
+          "text": "Design da Tabela → Bordas."
+        },
+        {
+          "id": "E",
+          "text": "Design → Bordas da Página."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Bordas da Página é o comando próprio para aplicar moldura ao documento ou à seção; bordas de tabela e formas atingem outros objetos. Fonte: questão adaptada de FGV; Tribunal de Justiça do Estado do Amapá; Técnico Judiciário — Especialidade Técnico em Informática; 2024; questão 45; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-judiciario-area-apoio-especializado-tecnico-de-informaticatec-jud-ti-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjap2024_gabarito_definitivo.pdf; adaptação: enunciado condensado, com preservação do núcleo técnico e da ordem das alternativas."
+    },
+    {
+      "id": "q4000",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um usuário quer reproduzir em outro trecho a mesma fonte, o mesmo tamanho e o mesmo alinhamento já aplicados a um texto. Qual recurso deve usar?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pincel de Formatação."
+        },
+        {
+          "id": "B",
+          "text": "Cor de Realce."
+        },
+        {
+          "id": "C",
+          "text": "Mesclar Formatação na colagem."
+        },
+        {
+          "id": "D",
+          "text": "Hifenização automática."
+        },
+        {
+          "id": "E",
+          "text": "Efeitos de Texto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Pincel de Formatação copia propriedades de formatação da origem e as aplica ao destino; ele não copia necessariamente o conteúdo. Fonte: questão adaptada de FGV; Tribunal de Justiça do Estado do Amapá; Técnico Judiciário — Especialidade Técnico em Informática; 2024; questão 52; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-judiciario-area-apoio-especializado-tecnico-de-informaticatec-jud-ti-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjap2024_gabarito_definitivo.pdf; adaptação: cenário e alternativas reescritos sem alterar o recurso cobrado."
+    },
+    {
+      "id": "q4001",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Ao copiar texto de um site para um documento já padronizado, o usuário quer inserir apenas os caracteres, sem estilos, imagens ou outros objetos da origem. Qual opção de colagem atende ao objetivo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Imagem."
+        },
+        {
+          "id": "B",
+          "text": "Vincular e Manter Formatação de Origem."
+        },
+        {
+          "id": "C",
+          "text": "Manter Somente Texto."
+        },
+        {
+          "id": "D",
+          "text": "Manter Formatação de Origem."
+        },
+        {
+          "id": "E",
+          "text": "Transpor."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Manter Somente Texto descarta a aparência e os objetos da origem, permitindo que o conteúdo se adapte ao documento de destino. Fonte: questão adaptada de FGV; Tribunal de Justiça do Estado do Amapá; Técnico Judiciário — Especialidade Técnico em Informática; 2024; questão 54; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-judiciario-area-apoio-especializado-tecnico-de-informaticatec-jud-ti-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjap2024_gabarito_definitivo.pdf; adaptação: enunciado condensado e alternativas normalizadas."
+    },
+    {
+      "id": "q4002",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Depois de mandar o Word ignorar erros gramaticais, um estudante quer executar novamente a verificação do documento. Avalie os procedimentos: I. Arquivo → Opções → Revisão de Texto → Verificar Documento Novamente. II. Desmarcar as opções de verificação ao digitar. III. Pressionar Windows + F9. Está correto o que se afirma em",
+      "options": [
+        {
+          "id": "A",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "B",
+          "text": "I e III, apenas."
+        },
+        {
+          "id": "C",
+          "text": "III, apenas."
+        },
+        {
+          "id": "D",
+          "text": "II, apenas."
+        },
+        {
+          "id": "E",
+          "text": "I, apenas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Verificar Documento Novamente reinicia a conferência de ocorrências previamente ignoradas. Desativar as caixas impede verificações, e Windows + F9 não é o comando descrito. Fonte: questão adaptada de FGV; Ministério Público do Estado do Rio de Janeiro; Técnico do Ministério Público — Área Administrativa; 2025; questão 52; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-ministerio-publico-area-administrativacnm101-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabdef-consolidado-mprj-tecnico.pdf; adaptação: redação condensada, preservando as três proposições e o gabarito do Tipo 1."
+    },
+    {
+      "id": "q4003",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Após inserir uma tabela no Word, o usuário precisa definir largura e altura específicas para suas células. Qual guia contextual reúne esses ajustes estruturais?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Referências da Tabela."
+        },
+        {
+          "id": "B",
+          "text": "Design da Tabela."
+        },
+        {
+          "id": "C",
+          "text": "Layout da Tabela."
+        },
+        {
+          "id": "D",
+          "text": "Ajuda da Tabela."
+        },
+        {
+          "id": "E",
+          "text": "Exibir Tabela."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Layout da Tabela concentra tamanho, distribuição, inserção, exclusão, mesclagem e outros ajustes estruturais; Design da Tabela trata principalmente da aparência. Fonte: questão adaptada de FGV; Ministério Público do Estado do Rio de Janeiro; Técnico do Ministério Público — Área Administrativa; 2025; questão 54; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-ministerio-publico-area-administrativacnm101-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabdef-consolidado-mprj-tecnico.pdf; adaptação: terminologia normalizada para a interface atual, com preservação do núcleo e do gabarito do Tipo 1."
+    },
+    {
+      "id": "q4004",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Sobre tabelas no Word 2019, avalie: I. admitem estilos de borda, preenchimento e fontes; II. sua estrutura não pode ser alterada depois da inserção; III. só podem ser inseridas no início do documento. Está correto o que se afirma em",
+      "options": [
+        {
+          "id": "A",
+          "text": "I, apenas."
+        },
+        {
+          "id": "B",
+          "text": "I e II, apenas."
+        },
+        {
+          "id": "C",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "D",
+          "text": "I e III, apenas."
+        },
+        {
+          "id": "E",
+          "text": "I, II e III."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A proposição I é verdadeira: tabelas admitem formatação visual. As proposições II e III são falsas, pois a estrutura pode ser alterada e a tabela pode ser inserida ou movida em diferentes partes do documento. Fonte: questão adaptada de FGV; Assembleia Legislativa do Estado do Tocantins; Técnico Legislativo — Assistência Administrativa; 2024; questão 22; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-legislativo-assistencia-administrativacnm201-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/aleto-2024-gabarito-definitivo-cargos-policial-e-tecnico-legislativo_retif.pdf; adaptação: redação condensada, preservando as proposições e o gabarito do Tipo 1."
+    },
+    {
+      "id": "q4005",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um documento do Word possui 11 páginas, e o usuário quer imprimir somente o intervalo da página 3 à página 9. Qual opção de impressão deve selecionar?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Impressão interativa."
+        },
+        {
+          "id": "B",
+          "text": "Imprimir todas as páginas."
+        },
+        {
+          "id": "C",
+          "text": "Impressão personalizada, com o intervalo 3-9."
+        },
+        {
+          "id": "D",
+          "text": "Imprimir páginas ímpares."
+        },
+        {
+          "id": "E",
+          "text": "Imprimir páginas pares."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A impressão personalizada permite informar um intervalo específico, como 3-9; as opções de páginas pares, ímpares ou documento inteiro produzem outros conjuntos. Fonte: questão adaptada de FGV; Ministério Público do Estado do Rio de Janeiro; Técnico do Ministério Público — Área Administrativa; 2025; questão 59; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-ministerio-publico-area-administrativacnm101-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabdef-consolidado-mprj-tecnico.pdf; adaptação: enunciado condensado e alternativa correta explicitada, preservando o gabarito do Tipo 1."
+    },
+    {
+      "id": "q4006",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Para atualizar um estilo do Word com base em uma seleção já formatada, avalie: I. selecionar texto que já usa o estilo; II. aplicar à seleção os novos atributos; III. abrir o grupo Estilos na guia Arquivo e escolher Atualizar para Corresponder à Seleção. Está correto o que se afirma em",
+      "options": [
+        {
+          "id": "A",
+          "text": "I, II e III."
+        },
+        {
+          "id": "B",
+          "text": "I e III, apenas."
+        },
+        {
+          "id": "C",
+          "text": "I e II, apenas."
+        },
+        {
+          "id": "D",
+          "text": "III, apenas."
+        },
+        {
+          "id": "E",
+          "text": "II, apenas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Selecionar o texto e aplicar a nova formatação são etapas corretas. A proposição III erra ao localizar o grupo Estilos na guia Arquivo; ele fica em Página Inicial. Fonte: questão adaptada de FGV; Ministério Público do Estado do Rio de Janeiro; Analista do Ministério Público — Área Administrativa; 2025; questão 57; prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-do-ministerio-publico-area-administrativacns101-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabaritodefinitivo09.09_mprjanalista.pdf; adaptação: proposições condensadas, preservando a falha de localização e o gabarito do Tipo 1."
+    }
+  ]
+}

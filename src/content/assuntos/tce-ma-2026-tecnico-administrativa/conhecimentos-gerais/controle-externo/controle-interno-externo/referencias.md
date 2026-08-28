@@ -1,3 +1,0 @@
-- CEBRASPE. [Edital nº 1 — TCE/MA, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Controle Externo, itens 1 e 2.
-- BRASIL. [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm). Arts. 70, 71 e 74, texto consolidado.
-- BRASIL. [Decreto-Lei nº 200, de 25 de fevereiro de 1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm). Referência complementar sobre controle na Administração Federal.
