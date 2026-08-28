@@ -7,13 +7,27 @@ import type {
   ResolutionData,
   SubjectData,
 } from './content-schema';
-import { parseGroupId, parseReferenceId, parseResolutionId, parseSubjectId } from './content-paths';
+import {
+  parseBibliotecaId,
+  parseBibliotecaReferenceId,
+  parseBibliotecaResolutionId,
+  parseGroupId,
+  parseReferenceId,
+  parseResolutionId,
+  parseSubjectId,
+} from './content-paths';
 import { megaReviewRoute } from './mega-review-routes';
 import type { ResolutionDescriptor } from './resolution-routes';
 
 export interface CatalogRecord<T> {
   id: string;
   data: T;
+}
+
+export interface VinculoData {
+  schemaVersion: 1;
+  canonical: string;
+  order: number;
 }
 
 export interface CatalogSources {
@@ -25,6 +39,12 @@ export interface CatalogSources {
   questionSets: CatalogRecord<QuestionSet>[];
   resolutions?: CatalogRecord<ResolutionData>[];
   references?: CatalogRecord<ReferenceData>[];
+  bibliotecaContents?: CatalogRecord<SubjectData>[];
+  bibliotecaCheatSheetIds?: string[];
+  bibliotecaQuestionSets?: CatalogRecord<QuestionSet>[];
+  bibliotecaResolutions?: CatalogRecord<ResolutionData>[];
+  bibliotecaReferences?: CatalogRecord<ReferenceData>[];
+  vinculos?: CatalogRecord<VinculoData>[];
 }
 
 export interface CatalogIndexOptions {
@@ -162,22 +182,184 @@ function appendMegaReviewRoutes(
 
 export function buildCatalogIndex(sources: CatalogSources, options: CatalogIndexOptions = {}): CatalogIndex {
   const requireReferences = options.requireReferences === true;
+
+  // ----- biblioteca + vinculo preprocessing -----
+  const bibliotecaContents = sources.bibliotecaContents ?? [];
+  const bibliotecaCheatSheetIds = sources.bibliotecaCheatSheetIds ?? [];
+  const bibliotecaQuestionSets = sources.bibliotecaQuestionSets ?? [];
+  const bibliotecaReferences = sources.bibliotecaReferences ?? [];
+  const bibliotecaResolutions = sources.bibliotecaResolutions ?? [];
+  const vinculos = sources.vinculos ?? [];
+
+  // Validate biblioteca uniqueness
+  assertUnique(bibliotecaContents.map(({ id }) => id), 'ID de biblioteca');
+  assertUnique(bibliotecaCheatSheetIds, 'ID de cheat sheet de biblioteca');
+  assertUnique(bibliotecaQuestionSets.map(({ id }) => id), 'ID de questões de biblioteca');
+  assertUnique(bibliotecaResolutions.map(({ id }) => id), 'ID de resolução de biblioteca');
+  assertUnique(bibliotecaReferences.map(({ id }) => id), 'ID de referências de biblioteca');
+  assertUnique(vinculos.map(({ id }) => id), 'ID de vínculo');
+
+  const bibliotecaContentIds = new Set(bibliotecaContents.map(({ id }) => id));
+  const bibliotecaCheatIds = new Set(bibliotecaCheatSheetIds);
+  const bibliotecaQuestionIds = new Set(bibliotecaQuestionSets.map(({ id }) => id));
+  const bibliotecaQuestionById = new Map(bibliotecaQuestionSets.map((qs) => [qs.id, qs]));
+  const bibliotecaDataById = new Map(bibliotecaContents.map((c) => [c.id, c]));
+
+  if (bibliotecaContents.length > 0) {
+    assertMatchingSubjectFiles(bibliotecaContentIds, bibliotecaCheatIds, 'cheat sheet de biblioteca');
+    assertMatchingSubjectFiles(bibliotecaContentIds, bibliotecaQuestionIds, 'arquivo de questões de biblioteca');
+  }
+
+  // Validate biblioteca resolutions
+  const bibliotecaResolutionsBySubject = new Map<string, ResolutionDescriptor[]>();
+  for (const resolution of bibliotecaResolutions) {
+    const { bibliotecaId, questionId } = parseBibliotecaResolutionId(resolution.id);
+    if (!bibliotecaContentIds.has(bibliotecaId)) {
+      throw new Error(`Resolução de biblioteca órfã para o assunto "${bibliotecaId}"`);
+    }
+    const questionSet = bibliotecaQuestionById.get(bibliotecaId)?.data;
+    const question = questionSet?.questions.find((candidate) => candidate.id === questionId);
+    if (!question) {
+      throw new Error(`Resolução de biblioteca "${resolution.id}" referencia questão inexistente`);
+    }
+    if (resolution.data.questionRevision !== question.revision) {
+      throw new Error(
+        `Resolução de biblioteca "${resolution.id}" usa a revisão ${resolution.data.questionRevision}, ` +
+          `mas a questão usa a revisão ${question.revision}`,
+      );
+    }
+    const list = bibliotecaResolutionsBySubject.get(bibliotecaId) ?? [];
+    list.push({ questionId, questionRevision: resolution.data.questionRevision });
+    bibliotecaResolutionsBySubject.set(bibliotecaId, list);
+  }
+
+  // Validate biblioteca references
+  const bibliotecaSubjectReferenceIds = new Set<string>();
+  const bibliotecaResolutionReferenceIds = new Set<string>();
+  for (const reference of bibliotecaReferences) {
+    const parsed = parseBibliotecaReferenceId(reference.id);
+    if (parsed.kind === 'subject') {
+      if (!bibliotecaContentIds.has(parsed.subjectId!)) {
+        throw new Error(`Referências de biblioteca órfãs para o assunto "${parsed.subjectId}"`);
+      }
+      bibliotecaSubjectReferenceIds.add(parsed.subjectId!);
+      continue;
+    }
+    if (!bibliotecaContentIds.has(parsed.subjectId!) || !bibliotecaResolutionsBySubject.has(parsed.subjectId!)) {
+      throw new Error(`Referências de biblioteca órfãs para as resoluções do assunto "${parsed.subjectId}"`);
+    }
+    bibliotecaResolutionReferenceIds.add(parsed.subjectId!);
+  }
+  if (bibliotecaContents.length > 0) {
+    // Biblioteca references are optional globally, but if requireReferences is true we enforce? For now don't enforce,
+    // because biblioteca is not part of contest subjects directly. Synthetic validation will occur later.
+  }
+
+  // Build vinculo synthetic data
+  const contentIdsPhysical = new Set(sources.contents.map(({ id }) => id));
+  // Check collision vinculo vs physical
+  for (const vinculo of vinculos) {
+    if (contentIdsPhysical.has(vinculo.id)) {
+      throw new Error(`Vínculo "${vinculo.id}" colide com assunto físico "${vinculo.id}"`);
+    }
+    // Validate canonical exists
+    if (!bibliotecaContentIds.has(vinculo.data.canonical)) {
+      throw new Error(`Vínculo "${vinculo.id}" referencia biblioteca inexistente "${vinculo.data.canonical}"`);
+    }
+    // Validate canonical parsing
+    parseBibliotecaId(vinculo.data.canonical);
+    // Validate subject slug matches? Enforce that vinculo slug equals canonical slug for coherence
+    const { subjectSlug: vinculoSlug } = parseSubjectId(vinculo.id);
+    const { subjectSlug: canonicalSlug } = parseBibliotecaId(vinculo.data.canonical);
+    if (vinculoSlug !== canonicalSlug) {
+      throw new Error(
+        `Vínculo "${vinculo.id}" tem slug "${vinculoSlug}" divergente do canônico "${canonicalSlug}"`,
+      );
+    }
+  }
+
+  // Check duplicate canonical within same contest? Not error but we ensure pair uniqueness later handles it.
+  // Also need to ensure vinculo canonical pair not duplicating storageId pair? That will be caught later.
+
+  const syntheticContents: CatalogRecord<SubjectData>[] = [];
+  const syntheticCheatSheetIds: string[] = [];
+  const syntheticQuestionSets: CatalogRecord<QuestionSet>[] = [];
+  const syntheticReferences: CatalogRecord<ReferenceData>[] = [];
+  const syntheticResolutions: CatalogRecord<ResolutionData>[] = [];
+
+  for (const vinculo of vinculos) {
+    const canonical = vinculo.data.canonical;
+    const bibEntry = bibliotecaDataById.get(canonical)!;
+    const bibQuestionSet = bibliotecaQuestionById.get(canonical)!;
+
+    const syntheticData: SubjectData = {
+      ...bibEntry.data,
+      order: vinculo.data.order,
+    };
+
+    syntheticContents.push({ id: vinculo.id, data: syntheticData });
+    syntheticCheatSheetIds.push(vinculo.id);
+    syntheticQuestionSets.push({ id: vinculo.id, data: bibQuestionSet.data });
+
+    // References: if biblioteca has subject reference for canonical, create synthetic for vinculo
+    if (bibliotecaSubjectReferenceIds.has(canonical)) {
+      const bibRef = bibliotecaReferences.find((r) => r.id === canonical)!;
+      syntheticReferences.push({ id: vinculo.id, data: bibRef.data });
+    }
+    // Resolution companion references
+    if (bibliotecaResolutionReferenceIds.has(canonical)) {
+      const bibResRefId = `${canonical}/resolucoes`;
+      const bibResRef = bibliotecaReferences.find((r) => r.id === bibResRefId)!;
+      syntheticReferences.push({ id: `${vinculo.id}/resolucoes`, data: bibResRef.data });
+    }
+
+    // Resolutions remap
+    for (const bibRes of bibliotecaResolutions) {
+      const { bibliotecaId, questionId } = parseBibliotecaResolutionId(bibRes.id);
+      if (bibliotecaId !== canonical) continue;
+      syntheticResolutions.push({
+        id: `${vinculo.id}/resolucoes/${questionId}`,
+        data: bibRes.data,
+      });
+    }
+  }
+
+  // Combine physical + synthetic for final catalog validation
+  const allContents = [...sources.contents, ...syntheticContents];
+  const allCheatSheetIds = [...sources.cheatSheetIds, ...syntheticCheatSheetIds];
+  const allQuestionSets = [...sources.questionSets, ...syntheticQuestionSets];
+  const allResolutions = [...(sources.resolutions ?? []), ...syntheticResolutions];
+  const allReferences = [...(sources.references ?? []), ...syntheticReferences];
+
+  // ----- original validations but using combined -----
   assertUnique(sources.contests.map(({ id }) => id), 'ID de concurso');
   assertUnique(sources.groups.map(({ id }) => id), 'ID de grupo');
-  assertUnique(sources.contents.map(({ id }) => id), 'ID de assunto');
+  assertUnique(allContents.map(({ id }) => id), 'ID de assunto');
   const megaReviews = sources.megaReviews ?? [];
   assertUnique(megaReviews.map(({ id }) => id), 'ID de mega revisão');
-  assertUnique(sources.cheatSheetIds, 'ID de cheat sheet');
-  assertUnique(sources.questionSets.map(({ id }) => id), 'ID de questões');
+  assertUnique(allCheatSheetIds, 'ID de cheat sheet');
+  assertUnique(allQuestionSets.map(({ id }) => id), 'ID de questões');
   assertUnique(sources.contests.map(({ data }) => data.storageId), 'storageId de concurso');
-  assertUnique(sources.contents.map(({ data }) => data.storageId), 'storageId de assunto');
+
+  // storageId pair-unique: allow same storageId across concursos but not within same contest
+  {
+    const seen = new Set<string>();
+    for (const content of allContents) {
+      const { contestSlug } = parseSubjectId(content.id);
+      const pair = `${contestSlug}--${content.data.storageId}`;
+      if (seen.has(pair)) {
+        throw new Error(`storageId de assunto duplicado no par concurso+assunto: "${pair}"`);
+      }
+      seen.add(pair);
+    }
+  }
 
   const contestsById = new Map(sources.contests.map((contest) => [contest.id, contest]));
-  const contentIds = new Set(sources.contents.map(({ id }) => id));
-  const cheatSheetIds = new Set(sources.cheatSheetIds);
-  const questionSetIds = new Set(sources.questionSets.map(({ id }) => id));
-  const questionSetsById = new Map(sources.questionSets.map((questionSet) => [questionSet.id, questionSet]));
-  const resolutions = sources.resolutions ?? [];
+  const contentIds = new Set(allContents.map(({ id }) => id));
+  const cheatSheetIds = new Set(allCheatSheetIds);
+  const questionSetIds = new Set(allQuestionSets.map(({ id }) => id));
+  const questionSetsById = new Map(allQuestionSets.map((questionSet) => [questionSet.id, questionSet]));
+  const resolutions = allResolutions;
   assertUnique(resolutions.map(({ id }) => id), 'ID de resolução');
 
   assertMatchingSubjectFiles(contentIds, cheatSheetIds, 'cheat sheet');
@@ -265,7 +447,7 @@ export function buildCatalogIndex(sources: CatalogSources, options: CatalogIndex
     };
   }
 
-  const references = sources.references ?? [];
+  const references = allReferences;
   assertUnique(references.map(({ id }) => id), 'ID de referências');
   const subjectReferenceIds = new Set<string>();
   const megaReviewReferenceIds = new Set<string>();
@@ -328,7 +510,7 @@ export function buildCatalogIndex(sources: CatalogSources, options: CatalogIndex
   const subjectsByContest = new Map<string, CatalogSubjectIndex[]>();
   const publicSubjectSlugsByContest = new Map<string, Set<string>>();
 
-  for (const content of sources.contents) {
+  for (const content of allContents) {
     const { contestSlug, groupSlugs, subjectSlug } = parseSubjectId(content.id);
 
     if (!contestsById.has(contestSlug)) {

@@ -1,0 +1,4 @@
+- CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS (CEBRASPE). **Edital nº 1 — TCE/MA, de 6 de julho de 2026**. Programa de Língua Portuguesa. Disponível no [edital do TCE/MA no Cebraspe (PDF)](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Acesso em: 17 jul. 2026.
+- BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. Disponível no [catálogo da Biblioteca Lúcio Craveiro](https://biblioteca.fgv.br/catalogo). Acesso em: 17 jul. 2026.
+- CUNHA, Celso; CINTRA, Luís F. Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017.
+- BRASIL. [Manual de Redação da Presidência da República](https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica/manual-de-redacao.pdf). 3. ed., 2018. Acesso em: 17 jul. 2026.

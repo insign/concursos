@@ -41,6 +41,14 @@ export const subjectSchema = z
   })
   .strict();
 
+export const vinculoSchema = z
+  .object({
+    schemaVersion: z.literal(1),
+    canonical: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*(?:\/[a-z0-9]+(?:-[a-z0-9]+)*)+$/),
+    order: z.number().int().nonnegative(),
+  })
+  .strict();
+
 export const cheatSheetSchema = z.object({}).strict();
 
 export const referenceSchema = z.object({}).strict();

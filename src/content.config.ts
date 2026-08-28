@@ -9,14 +9,19 @@ import {
   referenceSchema,
   resolutionSchema,
   subjectSchema,
+  vinculoSchema,
 } from './lib/content-schema';
 import {
+  bibliotecaIdFromEntry,
+  bibliotecaReferenceIdFromEntry,
+  bibliotecaResolutionIdFromEntry,
   contestIdFromEntry,
   groupIdFromEntry,
   megaReviewIdFromEntry,
   referenceIdFromEntry,
   resolutionIdFromEntry,
   subjectIdFromEntry,
+  vinculoIdFromEntry,
 } from './lib/content-paths';
 
 const concursos = defineCollection({
@@ -92,4 +97,73 @@ const referencias = defineCollection({
   schema: referenceSchema,
 });
 
-export const collections = { concursos, grupos, megaRevisoes, conteudos, cheatSheets, questoes, resolucoes, referencias };
+const bibliotecaConteudos = defineCollection({
+  loader: glob({
+    base: './src/content/biblioteca',
+    pattern: '**/conteudo.md',
+    generateId: ({ entry }) => bibliotecaIdFromEntry(entry, 'conteudo.md'),
+  }),
+  schema: subjectSchema,
+});
+
+const bibliotecaCheatSheets = defineCollection({
+  loader: glob({
+    base: './src/content/biblioteca',
+    pattern: '**/cheat-sheet.md',
+    generateId: ({ entry }) => bibliotecaIdFromEntry(entry, 'cheat-sheet.md'),
+  }),
+  schema: cheatSheetSchema,
+});
+
+const bibliotecaQuestoes = defineCollection({
+  loader: glob({
+    base: './src/content/biblioteca',
+    pattern: '**/questoes.json',
+    generateId: ({ entry }) => bibliotecaIdFromEntry(entry, 'questoes.json'),
+  }),
+  schema: questionSetSchema,
+});
+
+const bibliotecaReferencias = defineCollection({
+  loader: glob({
+    base: './src/content/biblioteca',
+    pattern: '**/referencias.md',
+    generateId: ({ entry }) => bibliotecaReferenceIdFromEntry(entry),
+  }),
+  schema: referenceSchema,
+});
+
+const bibliotecaResolucoes = defineCollection({
+  loader: glob({
+    base: './src/content/biblioteca',
+    pattern: ['**/resolucoes/*.md', '!**/resolucoes/referencias.md'],
+    generateId: ({ entry }) => bibliotecaResolutionIdFromEntry(entry),
+  }),
+  schema: resolutionSchema,
+});
+
+const vinculos = defineCollection({
+  loader: glob({
+    base: './src/content/assuntos',
+    pattern: '**/vinculo.json',
+    generateId: ({ entry }) => vinculoIdFromEntry(entry),
+  }),
+  schema: vinculoSchema,
+});
+
+export const collections = {
+  concursos,
+  grupos,
+  megaRevisoes,
+  conteudos,
+  cheatSheets,
+  questoes,
+  resolucoes,
+  referencias,
+  bibliotecaConteudos,
+  bibliotecaCheatSheets,
+  bibliotecaQuestoes,
+  bibliotecaReferencias,
+  bibliotecaResolucoes,
+  vinculos,
+};

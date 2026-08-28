@@ -172,3 +172,108 @@ export function parseReferenceId(id: string): ParsedReferenceId {
   parseSubjectId(id);
   return { kind: 'subject', subjectId: id };
 }
+
+export function parseBibliotecaId(id: string): { groupSlugs: string[]; subjectSlug: string } {
+  const parts = id.split('/');
+
+  if (parts.length < 2) {
+    throw new Error(`ID de biblioteca deve usar <grupo>[/<grupo>...]/<assunto>: "${id}"`);
+  }
+
+  const groupSlugs = parts.slice(0, -1);
+  const subjectSlug = parts.at(-1)!;
+  for (const groupSlug of groupSlugs) {
+    assertRouteSegment(groupSlug, 'Slug de grupo');
+  }
+  assertRouteSegment(subjectSlug, 'Slug de assunto');
+  return { groupSlugs, subjectSlug };
+}
+
+export function bibliotecaIdFromEntry(entry: string, fileName: string): string {
+  const normalized = normalizeEntry(entry);
+  const suffix = `/${fileName}`;
+
+  if (!normalized.endsWith(suffix)) {
+    throw new Error(`Arquivo de biblioteca deve terminar em "${suffix}": "${entry}"`);
+  }
+
+  const id = normalized.slice(0, -suffix.length);
+  parseBibliotecaId(id);
+  return id;
+}
+
+export function bibliotecaResolutionIdFromEntry(entry: string): string {
+  const normalized = normalizeEntry(entry);
+  const match = /^(.*)\/resolucoes\/([^/]+)\.md$/.exec(normalized);
+  if (!match) {
+    throw new Error(`Arquivo de resolução de biblioteca deve terminar em "<assunto>/resolucoes/<questão>.md": "${entry}"`);
+  }
+
+  if (match[2] === 'referencias') {
+    throw new Error(
+      `"${entry}" pertence à collection de referências e não pode ser tratado como resolução de questão`,
+    );
+  }
+
+  parseBibliotecaId(match[1]!);
+  if (!STABLE_ID.test(match[2]!)) {
+    throw new Error(`ID de questão de resolução inválido: "${match[2]}"`);
+  }
+  return `${match[1]}/resolucoes/${match[2]}`;
+}
+
+export function parseBibliotecaResolutionId(id: string): {
+  bibliotecaId: string;
+  questionId: string;
+} {
+  const marker = '/resolucoes/';
+  const markerIndex = id.lastIndexOf(marker);
+  const bibliotecaId = markerIndex > 0 ? id.slice(0, markerIndex) : '';
+  const questionId = markerIndex > 0 ? id.slice(markerIndex + marker.length) : '';
+
+  if (!bibliotecaId || !questionId || questionId.includes('/')) {
+    throw new Error(`ID de resolução de biblioteca inválido: "${id}"`);
+  }
+  parseBibliotecaId(bibliotecaId);
+  if (!STABLE_ID.test(questionId)) {
+    throw new Error(`ID de questão de resolução inválido: "${questionId}"`);
+  }
+  return { bibliotecaId, questionId };
+}
+
+export function bibliotecaReferenceIdFromEntry(entry: string): string {
+  const normalized = normalizeEntry(entry);
+  const suffix = '/referencias.md';
+
+  if (!normalized.endsWith(suffix)) {
+    throw new Error(`Arquivo de referências de biblioteca deve terminar em "${suffix}": "${entry}"`);
+  }
+
+  const id = normalized.slice(0, -suffix.length);
+  parseBibliotecaReferenceId(id);
+  return id;
+}
+
+export function parseBibliotecaReferenceId(id: string): ParsedReferenceId {
+  if (id.endsWith('/resolucoes')) {
+    const bibliotecaId = id.slice(0, -'/resolucoes'.length);
+    parseBibliotecaId(bibliotecaId);
+    return { kind: 'resolutions', subjectId: bibliotecaId };
+  }
+
+  parseBibliotecaId(id);
+  return { kind: 'subject', subjectId: id };
+}
+
+export function vinculoIdFromEntry(entry: string): string {
+  const normalized = normalizeEntry(entry);
+  const suffix = '/vinculo.json';
+
+  if (!normalized.endsWith(suffix)) {
+    throw new Error(`Arquivo de vínculo deve terminar em "${suffix}": "${entry}"`);
+  }
+
+  const id = normalized.slice(0, -suffix.length);
+  parseSubjectId(id);
+  return id;
+}
