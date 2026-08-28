@@ -1,2 +1,0 @@
-- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — especialmente arts. 70, 71 e 74; texto compilado.
-- [Lei nº 4.320, de 17 de março de 1964](https://www.planalto.gov.br/ccivil_03/leis/l4320compilado.htm) — especialmente arts. 75 a 82; texto compilado.

@@ -1,0 +1,876 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "q5019",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Duas fórmulas P e Q são logicamente equivalentes quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "recebem o mesmo valor lógico em todas as atribuições possíveis de suas proposições simples."
+        },
+        {
+          "id": "B",
+          "text": "possuem exatamente a mesma quantidade de símbolos."
+        },
+        {
+          "id": "C",
+          "text": "são verdadeiras em pelo menos uma mesma atribuição."
+        },
+        {
+          "id": "D",
+          "text": "começam pela mesma letra proposicional."
+        },
+        {
+          "id": "E",
+          "text": "possuem o mesmo conectivo principal, independentemente dos demais termos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Equivalência lógica exige coincidência semântica em todas as atribuições; aparência, quantidade de símbolos ou coincidência pontual não bastam. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5020",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma forma de testar se P e Q são equivalentes é verificar se",
+      "options": [
+        {
+          "id": "A",
+          "text": "P ∧ Q é uma contradição."
+        },
+        {
+          "id": "B",
+          "text": "P ↔ Q é uma tautologia."
+        },
+        {
+          "id": "C",
+          "text": "P ∨ Q é uma contingência."
+        },
+        {
+          "id": "D",
+          "text": "P → Q é falsa em alguma linha."
+        },
+        {
+          "id": "E",
+          "text": "P e Q contêm a mesma quantidade de proposições simples."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A bicondicional é verdadeira quando os lados têm o mesmo valor. Se P ↔ Q é tautológica, P e Q coincidem em toda atribuição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5027",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A forma equivalente a p ∧ (q ∨ r), pela distributividade, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "(p ∧ q) ∨ (p ∧ r)."
+        },
+        {
+          "id": "B",
+          "text": "(p ∨ q) ∧ r."
+        },
+        {
+          "id": "C",
+          "text": "p ∨ (q ∧ r)."
+        },
+        {
+          "id": "D",
+          "text": "(p ∧ q) ∧ (p ∧ r)."
+        },
+        {
+          "id": "E",
+          "text": "(p ∨ q) ∨ (p ∨ r)."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A conjunção de p com uma disjunção distribui p para cada parcela, mantendo ∧ dentro dos termos e ∨ entre eles. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5031",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A eliminação correta da seta em p → q produz",
+      "options": [
+        {
+          "id": "A",
+          "text": "¬p ∨ q."
+        },
+        {
+          "id": "B",
+          "text": "p ∨ ¬q."
+        },
+        {
+          "id": "C",
+          "text": "¬p ∧ q."
+        },
+        {
+          "id": "D",
+          "text": "p ∧ ¬q."
+        },
+        {
+          "id": "E",
+          "text": "p ∨ q."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A condicional material e ¬p ∨ q possuem a mesma coluna final. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5032",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A contrapositiva, logicamente equivalente a p → q, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "q → p."
+        },
+        {
+          "id": "B",
+          "text": "¬q → ¬p."
+        },
+        {
+          "id": "C",
+          "text": "¬p → ¬q."
+        },
+        {
+          "id": "D",
+          "text": "p ∧ ¬q."
+        },
+        {
+          "id": "E",
+          "text": "¬q → p."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A contrapositiva nega antecedente e consequente e inverte a ordem: ¬q → ¬p. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5033",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A fórmula q → p, obtida de p → q pela troca entre antecedente e consequente, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a contrapositiva e sempre equivale à original."
+        },
+        {
+          "id": "B",
+          "text": "a negação da condicional."
+        },
+        {
+          "id": "C",
+          "text": "a conversa e não equivale, em geral, à original."
+        },
+        {
+          "id": "D",
+          "text": "uma dupla negação da original."
+        },
+        {
+          "id": "E",
+          "text": "a inversa e sempre equivale à original."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Trocar os lados sem negá-los produz a conversa. Ela pode divergir da condicional original. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5034",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A negação de p → q é equivalente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "¬p → ¬q."
+        },
+        {
+          "id": "B",
+          "text": "q → p."
+        },
+        {
+          "id": "C",
+          "text": "¬p ∨ q."
+        },
+        {
+          "id": "D",
+          "text": "p ∧ ¬q."
+        },
+        {
+          "id": "E",
+          "text": "¬p ∧ q."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Negar a condicional afirma sua única situação falsa: antecedente verdadeiro e consequente falso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5035",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A bicondicional p ↔ q é equivalente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "(p → q) ∧ (q → p)."
+        },
+        {
+          "id": "B",
+          "text": "(p → q) ∨ (q → p)."
+        },
+        {
+          "id": "C",
+          "text": "p ∧ ¬q."
+        },
+        {
+          "id": "D",
+          "text": "p ∨ q."
+        },
+        {
+          "id": "E",
+          "text": "(p → q) ∧ (p → ¬q)."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A bicondicional exige simultaneamente as duas direções condicionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5039",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A expressão (p ∧ q) ∨ (p ∧ ¬q) simplifica-se para",
+      "options": [
+        {
+          "id": "A",
+          "text": "p."
+        },
+        {
+          "id": "B",
+          "text": "q."
+        },
+        {
+          "id": "C",
+          "text": "¬p."
+        },
+        {
+          "id": "D",
+          "text": "p ↔ q."
+        },
+        {
+          "id": "E",
+          "text": "p → q."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pela distributividade, resulta p ∧ (q ∨ ¬q); como q ∨ ¬q é tautologia, sobra p. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5044",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual atribuição, entre as apresentadas, refuta a equivalência entre p → q e q → p?",
+      "options": [
+        {
+          "id": "A",
+          "text": "p=V e q=V."
+        },
+        {
+          "id": "B",
+          "text": "p=V e q=F."
+        },
+        {
+          "id": "C",
+          "text": "p=F e q=F."
+        },
+        {
+          "id": "D",
+          "text": "Nenhuma, pois as fórmulas são equivalentes."
+        },
+        {
+          "id": "E",
+          "text": "Somente p=F e q=V pode ser usada como contraexemplo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Com p=V e q=F, p → q é F e q → p é V. Uma única divergência refuta a equivalência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5049",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Segundo uma das leis de De Morgan, ¬(p ∧ q) é equivalente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "¬p ∧ ¬q."
+        },
+        {
+          "id": "B",
+          "text": "p ∨ q."
+        },
+        {
+          "id": "C",
+          "text": "¬p ∨ ¬q."
+        },
+        {
+          "id": "D",
+          "text": "p ∧ ¬q."
+        },
+        {
+          "id": "E",
+          "text": "p ∨ ¬q."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ao negar uma conjunção, negam-se as parcelas e troca-se ∧ por ∨. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5050",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A negação correta de p ∨ q é",
+      "options": [
+        {
+          "id": "A",
+          "text": "¬p ∨ q."
+        },
+        {
+          "id": "B",
+          "text": "p ∧ ¬q."
+        },
+        {
+          "id": "C",
+          "text": "¬p ∨ ¬q."
+        },
+        {
+          "id": "D",
+          "text": "¬p ∧ ¬q."
+        },
+        {
+          "id": "E",
+          "text": "p ∧ q."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Para que a disjunção inclusiva seja falsa, ambas as parcelas precisam ser falsas: ¬p ∧ ¬q. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5051",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A frase “Não é verdade que Ana protocolou o pedido e Bruno emitiu o recibo” equivale a afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ana não protocolou o pedido ou Bruno não emitiu o recibo, admitindo inclusive que ambos tenham falhado."
+        },
+        {
+          "id": "B",
+          "text": "Ana não protocolou o pedido e Bruno necessariamente emitiu o recibo."
+        },
+        {
+          "id": "C",
+          "text": "Ana protocolou o pedido ou Bruno emitiu o recibo."
+        },
+        {
+          "id": "D",
+          "text": "exatamente uma das duas ações ocorreu."
+        },
+        {
+          "id": "E",
+          "text": "Ana protocolou o pedido se e somente se Bruno emitiu o recibo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "De Morgan transforma a negação da conjunção em disjunção inclusiva das negações. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5058",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual aplicação das leis de De Morgan está incorreta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "¬(p ∧ q) ≡ ¬p ∨ ¬q."
+        },
+        {
+          "id": "B",
+          "text": "¬(p ∨ q ∨ r) ≡ ¬p ∧ ¬q ∧ ¬r."
+        },
+        {
+          "id": "C",
+          "text": "¬(p ∧ q ∧ r) ≡ ¬p ∨ ¬q ∨ ¬r."
+        },
+        {
+          "id": "D",
+          "text": "¬(p ∨ q) ≡ ¬p ∨ ¬q."
+        },
+        {
+          "id": "E",
+          "text": "¬(p ∨ q) ≡ ¬p ∧ ¬q."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Na negação de uma disjunção, o conectivo troca para conjunção: ¬(p ∨ q) ≡ ¬p ∧ ¬q. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5060",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A negação da afirmação categórica “Todo auditor é servidor” é",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Nenhum auditor é servidor”."
+        },
+        {
+          "id": "B",
+          "text": "“Algum auditor não é servidor”."
+        },
+        {
+          "id": "C",
+          "text": "“Todo servidor é auditor”."
+        },
+        {
+          "id": "D",
+          "text": "“Algum servidor não é auditor”."
+        },
+        {
+          "id": "E",
+          "text": "“Nenhum servidor é auditor”."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Negar uma universal afirmativa exige um contraexemplo: ao menos um auditor que não seja servidor. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5061",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em um diagrama lógico, “Todo A é B” estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "A e B são necessariamente classes idênticas."
+        },
+        {
+          "id": "B",
+          "text": "B está inteiramente contido em A."
+        },
+        {
+          "id": "C",
+          "text": "a região de A fora de B está vazia, isto é, A está contido em B."
+        },
+        {
+          "id": "D",
+          "text": "existe necessariamente um objeto em A."
+        },
+        {
+          "id": "E",
+          "text": "a interseção entre A e B está vazia."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A universal afirmativa proíbe membros de A fora de B; ela não inverte a inclusão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5062",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A proposição “Nenhum A é B” é representada por",
+      "options": [
+        {
+          "id": "A",
+          "text": "um X na interseção de A e B."
+        },
+        {
+          "id": "B",
+          "text": "A inteiramente dentro de B."
+        },
+        {
+          "id": "C",
+          "text": "um X na região de A fora de B."
+        },
+        {
+          "id": "D",
+          "text": "a interseção entre A e B vazia."
+        },
+        {
+          "id": "E",
+          "text": "B inteiramente dentro de A."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "“Nenhum” exclui qualquer objeto comum às duas classes; a interseção deve estar vazia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5063",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A afirmação “Algum A é B” exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao menos um objeto na interseção entre A e B."
+        },
+        {
+          "id": "B",
+          "text": "que todo A esteja dentro de B."
+        },
+        {
+          "id": "C",
+          "text": "que a interseção esteja vazia."
+        },
+        {
+          "id": "D",
+          "text": "que exista objeto em A fora de B."
+        },
+        {
+          "id": "E",
+          "text": "que todo B esteja dentro de A."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A particular afirmativa declara existência de pelo menos um objeto em A ∩ B. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5064",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "“Algum A não é B” deve ser registrado por",
+      "options": [
+        {
+          "id": "A",
+          "text": "hachura em toda a classe A."
+        },
+        {
+          "id": "B",
+          "text": "um X na região de A situada fora de B."
+        },
+        {
+          "id": "C",
+          "text": "um X na interseção entre A e B."
+        },
+        {
+          "id": "D",
+          "text": "inclusão total de B em A."
+        },
+        {
+          "id": "E",
+          "text": "hachura apenas na região de B fora de A."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A particular negativa exige ao menos um membro de A que esteja fora de B. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5065",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na convenção operacional de Venn adotada neste material, a premissa “Todo A é B”, sem informação existencial adicional,",
+      "options": [
+        {
+          "id": "A",
+          "text": "garante que existe ao menos um A."
+        },
+        {
+          "id": "B",
+          "text": "garante que existe ao menos um B fora de A."
+        },
+        {
+          "id": "C",
+          "text": "esvazia a região de A fora de B e não introduz qualquer X."
+        },
+        {
+          "id": "D",
+          "text": "garante que A e B são não vazios e iguais."
+        },
+        {
+          "id": "E",
+          "text": "obriga a colocar um X na interseção A-B."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Neste método, a universal restringe regiões, enquanto a existência precisa ser fornecida por “algum”, por indivíduo identificado ou por informação equivalente. Se o enunciado fixar outra convenção, deve-se segui-la. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5066",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao construir diagrama com premissas universais e existenciais, o procedimento mais seguro é",
+      "options": [
+        {
+          "id": "A",
+          "text": "colocar todos os X antes de desenhar as classes."
+        },
+        {
+          "id": "B",
+          "text": "escolher primeiro a conclusão e adaptar as premissas."
+        },
+        {
+          "id": "C",
+          "text": "tratar toda região em branco como ocupada."
+        },
+        {
+          "id": "D",
+          "text": "hachurar primeiro as regiões vedadas pelas universais e depois posicionar os X das existenciais."
+        },
+        {
+          "id": "E",
+          "text": "colocar um X em toda região que não esteja hachurada."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As universais reduzem as posições admissíveis; lançá-las primeiro evita colocar um X em região já proibida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5067",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Das premissas “Todo auditor é servidor” e “Todo servidor é capacitado”, conclui-se necessariamente que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo auditor é capacitado."
+        },
+        {
+          "id": "B",
+          "text": "todo capacitado é auditor."
+        },
+        {
+          "id": "C",
+          "text": "algum auditor existe."
+        },
+        {
+          "id": "D",
+          "text": "nenhum servidor é auditor."
+        },
+        {
+          "id": "E",
+          "text": "todo capacitado é servidor."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As inclusões se encadeiam: auditor ⊆ servidor e servidor ⊆ capacitado, logo auditor ⊆ capacitado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5068",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Considere: todo auditor é servidor; algum auditor é gestor. Segue-se que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo servidor é gestor."
+        },
+        {
+          "id": "B",
+          "text": "algum servidor é gestor."
+        },
+        {
+          "id": "C",
+          "text": "nenhum gestor é servidor."
+        },
+        {
+          "id": "D",
+          "text": "todo gestor é auditor."
+        },
+        {
+          "id": "E",
+          "text": "nenhum auditor é gestor."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O objeto que é auditor e gestor também é servidor; isso garante algum servidor gestor, sem universalizar a relação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5069",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Considere: todo auditor é servidor; algum servidor é gestor. A conclusão “algum auditor é gestor”",
+      "options": [
+        {
+          "id": "A",
+          "text": "é necessária, porque toda existência no conjunto maior desce ao menor."
+        },
+        {
+          "id": "B",
+          "text": "é incompatível, porque auditor e gestor nunca podem coincidir."
+        },
+        {
+          "id": "C",
+          "text": "não é necessária, pois o servidor gestor pode estar fora da classe dos auditores."
+        },
+        {
+          "id": "D",
+          "text": "é equivalente à primeira premissa."
+        },
+        {
+          "id": "E",
+          "text": "é necessária apenas porque a segunda premissa é existencial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Um membro do conjunto maior pode estar fora do menor. As premissas admitem diagrama sem auditor gestor. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5070",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Das premissas “Nenhum auditor é terceirizado” e “Algum analista é auditor”, decorre que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo analista é auditor."
+        },
+        {
+          "id": "B",
+          "text": "algum terceirizado é analista."
+        },
+        {
+          "id": "C",
+          "text": "nenhum analista é terceirizado."
+        },
+        {
+          "id": "D",
+          "text": "algum analista não é terceirizado."
+        },
+        {
+          "id": "E",
+          "text": "todo terceirizado é analista."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O analista existente que é auditor não pode ser terceirizado, pois auditor e terceirizado não se intersectam. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5071",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se todo A é B e nenhum B é C, então",
+      "options": [
+        {
+          "id": "A",
+          "text": "nenhum A é C."
+        },
+        {
+          "id": "B",
+          "text": "todo C é A."
+        },
+        {
+          "id": "C",
+          "text": "algum A é C."
+        },
+        {
+          "id": "D",
+          "text": "A e B são classes idênticas."
+        },
+        {
+          "id": "E",
+          "text": "algum B é necessariamente C."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Todo eventual membro de A está em B, e B não possui membros em C; portanto A e C não se intersectam. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5073",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Considere: algum A é B; nenhum B é C. Segue-se necessariamente que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo A está fora de C."
+        },
+        {
+          "id": "B",
+          "text": "algum C é A."
+        },
+        {
+          "id": "C",
+          "text": "algum A não é C."
+        },
+        {
+          "id": "D",
+          "text": "nenhum A é B."
+        },
+        {
+          "id": "E",
+          "text": "todo B é A."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O objeto existente em A ∩ B não pode pertencer a C, pois B e C são disjuntos; ele testemunha algum A não C. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5075",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em diagrama de três classes, um X colocado sobre a fronteira que separa duas sub-regiões indica que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a existência é conhecida, mas as premissas não determinam em qual das duas sub-regiões está o objeto."
+        },
+        {
+          "id": "B",
+          "text": "as duas sub-regiões estão vazias."
+        },
+        {
+          "id": "C",
+          "text": "existem necessariamente dois objetos, um de cada lado."
+        },
+        {
+          "id": "D",
+          "text": "o objeto não pertence a nenhuma classe."
+        },
+        {
+          "id": "E",
+          "text": "a conclusão já está provada independentemente das demais premissas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A marca sobre a fronteira preserva posições alternativas ainda possíveis sem escolher arbitrariamente uma delas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5076",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma conclusão categórica é necessária relativamente às premissas quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode ser desenhada em pelo menos um arranjo conveniente."
+        },
+        {
+          "id": "B",
+          "text": "aparece em todos os diagramas compatíveis com as premissas."
+        },
+        {
+          "id": "C",
+          "text": "seu conteúdo é verdadeiro no mundo real, ainda que não decorra das premissas."
+        },
+        {
+          "id": "D",
+          "text": "exige acrescentar um X não fornecido."
+        },
+        {
+          "id": "E",
+          "text": "aparece no primeiro diagrama que o candidato consegue construir."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Necessidade exige que a conclusão valha em todo diagrama admissível; um único contraexemplo compatível basta para refutá-la. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}

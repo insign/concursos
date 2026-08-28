@@ -1,5 +1,0 @@
-- CEBRASPE. [Edital do concurso público do TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Edital nº 1, de 6 de julho de 2026. Conteúdo comum de Raciocínio Lógico, item 7.
-- IMPA; OBMEP. [Elementos Básicos de Geometria Plana - Parte 1](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=17&tipo=7).
-- IMPA; OBMEP. [Semelhança de Triângulos e Teorema de Tales](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=10&tipo=7).
-- IMPA; OBMEP. [Relações Métricas em Triângulos Retângulos](https://cdnportaldaobmep.impa.br/portaldaobmep/uploads/material_teorico/ofbsnucvbhcks.pdf).
-- IMPA; OBMEP. [Geometria Espacial 2 - Volumes e Áreas](https://cdnportaldaobmep.impa.br/portaldaobmep/uploads/material_teorico/5wnumy4t030o0.pdf).

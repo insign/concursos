@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "q7059",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Segundo a tradição religiosa sobre a Batalha de Guaxenduba, o auxílio de Nossa Senhora da Vitória a Jerônimo de Albuquerque teria favorecido a vitória contra as forças de",
+      "options": [
+        {
+          "id": "A",
+          "text": "Manuel Beckman, ligado à revolta contra a Companhia de Comércio no fim do século XVII."
+        },
+        {
+          "id": "B",
+          "text": "Maurício de Nassau, dirigente da ocupação neerlandesa no Nordeste."
+        },
+        {
+          "id": "C",
+          "text": "Daniel de La Touche, La Ravardière, dirigente da França Equinocial."
+        },
+        {
+          "id": "D",
+          "text": "Negro Cosme, liderança da Balaiada no século XIX."
+        },
+        {
+          "id": "E",
+          "text": "Miguel Bruce, personagem das disputas políticas posteriores à Independência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A questão retoma o núcleo da questão 14 do Processo Seletivo EAD UEMA 2024, aplicada em 30/06/2024, cujo gabarito definitivo foi C. A referência a Nossa Senhora da Vitória pertence à tradição religiosa sobre Guaxenduba; o adversário francês era La Ravardière. Fontes oficiais: prova https://www.uema.br/wp-content/uploads/2024/07/PROVA-EAD-UEMA-2024-EDITAL-32_2024-GR-UEMA.pdf e gabarito definitivo https://www.uema.br/wp-content/uploads/2024/07/GAB_DEFINITIVO-EAD-UEMA-2024.pdf."
+    },
+    {
+      "id": "q7060",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A Batalha de Guaxenduba, em 1614, integrou a disputa colonial no Maranhão entre forças ligadas principalmente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "portugueses e neerlandeses, sem participação indígena."
+        },
+        {
+          "id": "B",
+          "text": "portugueses e franceses, ambos apoiados por alianças indígenas."
+        },
+        {
+          "id": "C",
+          "text": "espanhóis e ingleses, com exclusão de portugueses."
+        },
+        {
+          "id": "D",
+          "text": "franceses e neerlandeses, após o fim da União Ibérica."
+        },
+        {
+          "id": "E",
+          "text": "brasileiros independentes e portugueses metropolitanos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Guaxenduba ocorreu no contexto da França Equinocial e da reação luso-ibérica. Franceses e portugueses mobilizaram aliados indígenas; reduzir a batalha a europeus isolados distorce o conflito."
+    },
+    {
+      "id": "q7061",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "É incorreto afirmar que o projeto de colonização francesa no território que viria a ser o Brasil começou com a França Equinocial porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a França Antártica, na baía de Guanabara, começou em 1555."
+        },
+        {
+          "id": "B",
+          "text": "a França Equinocial foi implantada somente depois da Independência do Brasil."
+        },
+        {
+          "id": "C",
+          "text": "os franceses não realizaram qualquer tentativa colonial na América portuguesa."
+        },
+        {
+          "id": "D",
+          "text": "a França Antártica ocorreu no Maranhão depois de 1615."
+        },
+        {
+          "id": "E",
+          "text": "a França Equinocial antecedeu a França Antártica em mais de meio século."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação do núcleo do item 27 da prova Cebraspe PM/MA, Soldado, aplicação em 17/12/2017. O item original afirmava que a colonização francesa teria começado com a França Equinocial e teve gabarito definitivo E, pois a França Antártica a precedeu. Fontes oficiais: prova https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf e gabarito https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/Gab_Definitivo_359_PMMA_CG2_01.pdf."
+    },
+    {
+      "id": "q7062",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Sobre a formação do núcleo de São Luís, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o forte foi construído pelos neerlandeses durante o governo de Nassau."
+        },
+        {
+          "id": "B",
+          "text": "a povoação surgiu apenas em 1823, após a adesão do Maranhão à Independência."
+        },
+        {
+          "id": "C",
+          "text": "o forte francês ficava na posição continental de Guaxenduba."
+        },
+        {
+          "id": "D",
+          "text": "a construção do Forte de São Luís, em ilha da baía de São Marcos, resultou da ação de Daniel de La Touche e da expedição francesa."
+        },
+        {
+          "id": "E",
+          "text": "o núcleo de São Luís foi criado por Alexandre de Moura somente após a capitulação de 1615."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Adaptação do item 28 da prova Cebraspe PM/MA, Soldado, aplicação em 17/12/2017, cujo gabarito definitivo foi C (certo). O núcleo fortificado de Saint-Louis foi estabelecido pela expedição francesa de Daniel de La Touche. Fontes oficiais: prova https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf e gabarito https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/Gab_Definitivo_359_PMMA_CG2_01.pdf."
+    },
+    {
+      "id": "q7063",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A expressão França Equinocial associa o projeto colonial francês",
+      "options": [
+        {
+          "id": "A",
+          "text": "à região próxima à linha do Equador, no norte da América portuguesa."
+        },
+        {
+          "id": "B",
+          "text": "ao extremo sul do continente, junto ao estreito de Magalhães."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente à baía de Guanabara."
+        },
+        {
+          "id": "D",
+          "text": "a uma colônia francesa estabelecida no Caribe."
+        },
+        {
+          "id": "E",
+          "text": "ao interior do atual estado de Minas Gerais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Equinocial remete à faixa próxima ao Equador; no caso, ao projeto francês implantado no Maranhão. Guanabara se relaciona à França Antártica."
+    },
+    {
+      "id": "q7064",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Quando a França Equinocial foi implantada, Portugal",
+      "options": [
+        {
+          "id": "A",
+          "text": "já era uma república independente da Espanha."
+        },
+        {
+          "id": "B",
+          "text": "integrava a União Ibérica sob a Monarquia Hispânica."
+        },
+        {
+          "id": "C",
+          "text": "era governado por Maurício de Nassau."
+        },
+        {
+          "id": "D",
+          "text": "havia transferido sua capital para São Luís."
+        },
+        {
+          "id": "E",
+          "text": "estava politicamente unido à França."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A França Equinocial ocorreu durante a União Ibérica, vigente de 1580 a 1640."
+    },
+    {
+      "id": "q7065",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A França Equinocial deve ser entendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma escala comercial temporária, sem intenção de ocupação."
+        },
+        {
+          "id": "B",
+          "text": "uma missão exclusivamente religiosa, sem fortificação."
+        },
+        {
+          "id": "C",
+          "text": "um projeto colonial com ocupação, fortificação, povoamento, comércio e missão."
+        },
+        {
+          "id": "D",
+          "text": "uma expedição portuguesa de reconhecimento do Grão-Pará."
+        },
+        {
+          "id": "E",
+          "text": "uma revolta indígena contra franceses e portugueses."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O empreendimento incluía colonos, fortificação, organização política e militar, comércio e missão capuchinha, ultrapassando o modelo de simples feitoria."
+    },
+    {
+      "id": "q7066",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O apoio de Maria de Médici à empresa do Maranhão relaciona-se ao fato de ela",
+      "options": [
+        {
+          "id": "A",
+          "text": "comandar pessoalmente a força francesa em Guaxenduba."
+        },
+        {
+          "id": "B",
+          "text": "governar Portugal durante a União Ibérica."
+        },
+        {
+          "id": "C",
+          "text": "liderar a resistência portuguesa na ilha."
+        },
+        {
+          "id": "D",
+          "text": "apoiar politicamente o projeto francês durante a regência de Luís XIII."
+        },
+        {
+          "id": "E",
+          "text": "negociar a capitulação francesa em nome de Filipe III."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Maria de Médici, regente durante a menoridade de Luís XIII, apoiou a empresa francesa e seus dirigentes."
+    },
+    {
+      "id": "q7067",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Daniel de La Touche é corretamente associado ao título de",
+      "options": [
+        {
+          "id": "A",
+          "text": "senhor de La Ravardière, principal dirigente francês no Maranhão."
+        },
+        {
+          "id": "B",
+          "text": "capitão-mor português da campanha de 1614."
+        },
+        {
+          "id": "C",
+          "text": "governador neerlandês do Maranhão."
+        },
+        {
+          "id": "D",
+          "text": "líder da Revolta de Beckman."
+        },
+        {
+          "id": "E",
+          "text": "fundador do Forte do Presépio em Belém."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Daniel de La Touche, senhor de La Ravardière, foi um dos principais dirigentes da França Equinocial e comandou sua defesa."
+    },
+    {
+      "id": "q7068",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "François de Razilly participou da França Equinocial como",
+      "options": [
+        {
+          "id": "A",
+          "text": "militar português subordinado a Jerônimo de Albuquerque."
+        },
+        {
+          "id": "B",
+          "text": "um dos dirigentes franceses da empresa colonial."
+        },
+        {
+          "id": "C",
+          "text": "líder indígena aliado exclusivamente aos portugueses."
+        },
+        {
+          "id": "D",
+          "text": "governador do Maranhão após 1616."
+        },
+        {
+          "id": "E",
+          "text": "comandante dos reforços portugueses de 1615."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Razilly integrou a direção francesa do empreendimento ao lado de La Ravardière."
+    },
+    {
+      "id": "q7069",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A presença de capuchinhos na França Equinocial revela que o empreendimento",
+      "options": [
+        {
+          "id": "A",
+          "text": "recusava qualquer atividade religiosa."
+        },
+        {
+          "id": "B",
+          "text": "era exclusivamente militar."
+        },
+        {
+          "id": "C",
+          "text": "também possuía dimensão missionária católica."
+        },
+        {
+          "id": "D",
+          "text": "foi organizado pelos jesuítas portugueses."
+        },
+        {
+          "id": "E",
+          "text": "pretendia implantar oficialmente o calvinismo como única religião."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Missionários capuchinhos participaram do projeto, que articulava objetivos coloniais e missão católica."
+    },
+    {
+      "id": "q7070",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A curta duração da França Equinocial não impede classificá-la como projeto colonial porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "não houve qualquer estrutura de governo ou defesa."
+        },
+        {
+          "id": "B",
+          "text": "a presença francesa foi apenas uma escala naval de poucos dias."
+        },
+        {
+          "id": "C",
+          "text": "os franceses evitaram estabelecer população permanente."
+        },
+        {
+          "id": "D",
+          "text": "houve núcleo fortificado, povoamento, organização e alianças locais."
+        },
+        {
+          "id": "E",
+          "text": "a França reconheceu desde o início a soberania portuguesa sobre Saint-Louis."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A existência de fortificação, colonos, organização e alianças políticas demonstra intenção de ocupação permanente."
+    },
+    {
+      "id": "q7071",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O marco tradicional de estabelecimento de Saint-Louis é",
+      "options": [
+        {
+          "id": "A",
+          "text": "8 de setembro de 1612."
+        },
+        {
+          "id": "B",
+          "text": "19 de novembro de 1614."
+        },
+        {
+          "id": "C",
+          "text": "4 de novembro de 1615."
+        },
+        {
+          "id": "D",
+          "text": "12 de janeiro de 1616."
+        },
+        {
+          "id": "E",
+          "text": "28 de julho de 1823."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "8 de setembro de 1612 é o marco tradicional da cerimônia de posse e do estabelecimento do núcleo francês de Saint-Louis."
+    },
+    {
+      "id": "q7072",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O núcleo de Saint-Louis foi estabelecido",
+      "options": [
+        {
+          "id": "A",
+          "text": "na margem continental da baía de São José, em Guaxenduba."
+        },
+        {
+          "id": "B",
+          "text": "na ilha de Upaon-Açu, atual ilha de São Luís."
+        },
+        {
+          "id": "C",
+          "text": "na baía de Guanabara, no antigo núcleo da França Antártica."
+        },
+        {
+          "id": "D",
+          "text": "no vale do rio Parnaíba, no atual Piauí."
+        },
+        {
+          "id": "E",
+          "text": "na ilha de Marajó, no atual Pará."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Saint-Louis ficava na ilha de Upaon-Açu. Guaxenduba era a posição portuguesa no continente."
+    },
+    {
+      "id": "q7073",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A relação geográfica correta entre Saint-Louis e Guaxenduba é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos ficavam no mesmo forte francês da ilha."
+        },
+        {
+          "id": "B",
+          "text": "Saint-Louis ficava no continente e Guaxenduba na ilha."
+        },
+        {
+          "id": "C",
+          "text": "Saint-Louis ficava na ilha e Guaxenduba na margem continental."
+        },
+        {
+          "id": "D",
+          "text": "ambos ficavam na baía de Guanabara."
+        },
+        {
+          "id": "E",
+          "text": "Guaxenduba ficava no Grão-Pará, sem relação com São Luís."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A distinção ilha versus continente é uma pegadinha recorrente: Saint-Louis estava em Upaon-Açu; Guaxenduba, no continente diante da ilha."
+    },
+    {
+      "id": "q7074",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A instalação de Saint-Louis em 1612 representa",
+      "options": [
+        {
+          "id": "A",
+          "text": "a capitulação francesa diante de Alexandre de Moura."
+        },
+        {
+          "id": "B",
+          "text": "o início da administração portuguesa consolidada."
+        },
+        {
+          "id": "C",
+          "text": "a Batalha de Guaxenduba."
+        },
+        {
+          "id": "D",
+          "text": "o estabelecimento do núcleo colonial francês no Maranhão."
+        },
+        {
+          "id": "E",
+          "text": "o fim da União Ibérica."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "1612 corresponde ao estabelecimento francês; Guaxenduba ocorreu em 1614 e o fim do domínio francês em 1615."
+    },
+    {
+      "id": "q7075",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Reconhecer o forte Saint-Louis como núcleo da fundação francesa significa afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a cidade atual já estava completamente urbanizada em 1612."
+        },
+        {
+          "id": "B",
+          "text": "o domínio francês permaneceu até o século XIX."
+        },
+        {
+          "id": "C",
+          "text": "a administração portuguesa nunca exerceu papel na continuidade da cidade."
+        },
+        {
+          "id": "D",
+          "text": "Guaxenduba foi construída pelos franceses na mesma ilha."
+        },
+        {
+          "id": "E",
+          "text": "houve um núcleo fortificado e uma povoação francesa que antecederam a conquista portuguesa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Fundação francesa designa o estabelecimento do núcleo e do topônimo, não uma cidade acabada nem domínio francês duradouro."
+    },
+    {
+      "id": "q7076",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Entre os elementos que demonstram a natureza colonial da França Equinocial está",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ausência de colonos e fortificações."
+        },
+        {
+          "id": "B",
+          "text": "a presença de povoamento, defesa, comércio e missão."
+        },
+        {
+          "id": "C",
+          "text": "a proibição de qualquer aliança local."
+        },
+        {
+          "id": "D",
+          "text": "a renúncia francesa a ocupar território."
+        },
+        {
+          "id": "E",
+          "text": "o reconhecimento imediato da autoridade de Jerônimo de Albuquerque."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Povoamento, fortificação, comércio, missão e organização são elementos de um projeto colonial permanente."
+    },
+    {
+      "id": "q7077",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Upaon-Açu deve ser associada, neste tema,",
+      "options": [
+        {
+          "id": "A",
+          "text": "à ilha em que os franceses estabeleceram Saint-Louis."
+        },
+        {
+          "id": "B",
+          "text": "ao nome português do forte de Guaxenduba."
+        },
+        {
+          "id": "C",
+          "text": "à baía de Guanabara."
+        },
+        {
+          "id": "D",
+          "text": "à base dos reforços de Alexandre de Moura no Pará."
+        },
+        {
+          "id": "E",
+          "text": "à revolta de Beckman."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Upaon-Açu é a ilha onde se estabeleceu o núcleo francês de Saint-Louis, origem da atual São Luís."
+    },
+    {
+      "id": "q7078",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O dia 8 de setembro de 1612 relaciona-se diretamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao início da União Ibérica."
+        },
+        {
+          "id": "B",
+          "text": "à capitulação francesa."
+        },
+        {
+          "id": "C",
+          "text": "à expulsão dos neerlandeses."
+        },
+        {
+          "id": "D",
+          "text": "à cerimônia de posse e ao estabelecimento de Saint-Louis."
+        },
+        {
+          "id": "E",
+          "text": "à Batalha de Guaxenduba."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O marco de 8 de setembro de 1612 é associado ao estabelecimento do núcleo francês; Guaxenduba ocorreu em 1614."
+    },
+    {
+      "id": "q7079",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Quanto ao nome Saint-Louis, a formulação historicamente mais prudente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "atribuir o nome exclusivamente a um governador português chamado Luís."
+        },
+        {
+          "id": "B",
+          "text": "ligá-lo à tradição monárquica e católica francesa, sem criar oposição absoluta entre a referência a São Luís e o contexto de Luís XIII."
+        },
+        {
+          "id": "C",
+          "text": "afirmar que o nome surgiu apenas após a conquista portuguesa."
+        },
+        {
+          "id": "D",
+          "text": "relacioná-lo à família de Maurício de Nassau."
+        },
+        {
+          "id": "E",
+          "text": "considerar o topônimo sem qualquer relação com a monarquia francesa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As interpretações podem enfatizar São Luís (Luís IX) e o contexto dinástico de Luís XIII; o ponto seguro é a vinculação francesa monárquica e católica."
+    },
+    {
+      "id": "q7080",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em sentido colonial e toponímico, a fundação francesa de São Luís em 1612 corresponde",
+      "options": [
+        {
+          "id": "A",
+          "text": "à construção de toda a cidade atual e de suas instituições posteriores."
+        },
+        {
+          "id": "B",
+          "text": "à criação de uma capital portuguesa já plenamente organizada."
+        },
+        {
+          "id": "C",
+          "text": "ao estabelecimento do núcleo, da fortificação e do topônimo Saint-Louis."
+        },
+        {
+          "id": "D",
+          "text": "ao fim definitivo da presença francesa no Maranhão."
+        },
+        {
+          "id": "E",
+          "text": "à instalação do Forte do Presépio."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A fundação francesa deve ser entendida como início do núcleo colonial e do topônimo, não como cidade pronta ou domínio permanente."
+    },
+    {
+      "id": "q7081",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A relação correta entre os marcos de 1612 e 1616 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "1612 marcou a fundação francesa; 1616, a consolidação administrativa portuguesa."
+        },
+        {
+          "id": "B",
+          "text": "1612 marcou Guaxenduba; 1616, a chegada francesa."
+        },
+        {
+          "id": "C",
+          "text": "ambos correspondem à mesma cerimônia de fundação francesa."
+        },
+        {
+          "id": "D",
+          "text": "1612 marcou a ocupação neerlandesa; 1616, sua expulsão."
+        },
+        {
+          "id": "E",
+          "text": "1612 e 1616 ocorreram depois da Independência do Brasil."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os anos representam etapas distintas: núcleo francês em 1612 e organização portuguesa consolidada após a conquista."
+    },
+    {
+      "id": "q7082",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A principal base indígena das alianças francesas no Maranhão foi formada por",
+      "options": [
+        {
+          "id": "A",
+          "text": "incas transferidos do Peru."
+        },
+        {
+          "id": "B",
+          "text": "astecas da Nova Espanha."
+        },
+        {
+          "id": "C",
+          "text": "guaranis das missões do Prata."
+        },
+        {
+          "id": "D",
+          "text": "Tupinambá da ilha e de áreas próximas."
+        },
+        {
+          "id": "E",
+          "text": "araucanos do Chile."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os Tupinambá foram centrais para as alianças políticas, militares e logísticas do projeto francês."
+    },
+    {
+      "id": "q7083",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Reconhecer agência indígena no conflito significa entender que os povos indígenas",
+      "options": [
+        {
+          "id": "A",
+          "text": "eram apenas espectadores da disputa europeia."
+        },
+        {
+          "id": "B",
+          "text": "obedeciam automaticamente aos franceses."
+        },
+        {
+          "id": "C",
+          "text": "não participavam de decisões ou alianças."
+        },
+        {
+          "id": "D",
+          "text": "atuavam somente como fornecedores de alimentos."
+        },
+        {
+          "id": "E",
+          "text": "negociavam alianças e agiam segundo interesses e conflitos próprios."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A agência indígena afasta a imagem de auxiliares passivos: comunidades e lideranças negociavam alianças e estratégias."
+    },
+    {
+      "id": "q7084",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "As alianças indígenas no Maranhão do início do século XVII devem ser compreendidas como",
+      "options": [
+        {
+          "id": "A",
+          "text": "negociadas e variáveis entre diferentes lideranças e comunidades."
+        },
+        {
+          "id": "B",
+          "text": "fixas e iguais para todos os grupos durante todo o conflito."
+        },
+        {
+          "id": "C",
+          "text": "inexistentes do lado português."
+        },
+        {
+          "id": "D",
+          "text": "determinadas exclusivamente pela religião dos europeus."
+        },
+        {
+          "id": "E",
+          "text": "sem qualquer influência sobre a logística militar."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Alianças não eram blocos permanentes; podiam variar segundo interesses locais, relações políticas e circunstâncias do conflito."
+    },
+    {
+      "id": "q7085",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na campanha ligada aos portugueses, aliados indígenas atuaram como",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente observadores sem função militar."
+        },
+        {
+          "id": "B",
+          "text": "guerreiros, remeiros, guias, intérpretes e apoio logístico."
+        },
+        {
+          "id": "C",
+          "text": "apenas representantes diplomáticos enviados a Paris."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente administradores do forte Saint-Louis."
+        },
+        {
+          "id": "E",
+          "text": "soldados neerlandeses incorporados à força portuguesa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A participação indígena incluía combate, navegação, interpretação, conhecimento territorial e provisão de mantimentos."
+    },
+    {
+      "id": "q7086",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma leitura adequada dos povos indígenas no conflito evita tratá-los como",
+      "options": [
+        {
+          "id": "A",
+          "text": "participantes com estratégias próprias."
+        },
+        {
+          "id": "B",
+          "text": "atores relevantes para navegação e logística."
+        },
+        {
+          "id": "C",
+          "text": "blocos homogêneos com alianças políticas imutáveis."
+        },
+        {
+          "id": "D",
+          "text": "combatentes presentes em ambos os lados."
+        },
+        {
+          "id": "E",
+          "text": "conhecedores das rotas e do território."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Etnônimos e alianças não significavam uniformidade política; comunidades e lideranças podiam tomar decisões diferentes."
+    },
+    {
+      "id": "q7087",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A conquista do Maranhão pode ser descrita como guerra híbrida porque combinou",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente duelos entre nobres europeus."
+        },
+        {
+          "id": "B",
+          "text": "apenas decisões tomadas nas cortes europeias."
+        },
+        {
+          "id": "C",
+          "text": "tecnologia industrial do século XIX com cavalaria medieval."
+        },
+        {
+          "id": "D",
+          "text": "fortificações e armas europeias com canoas, flechas, intérpretes e conhecimentos indígenas."
+        },
+        {
+          "id": "E",
+          "text": "operações aéreas e navais modernas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O conflito articulou técnicas, armas, logística e conhecimentos de diferentes matrizes europeias e indígenas."
+    },
+    {
+      "id": "q7088",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Sobre a participação indígena em Guaxenduba, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente os franceses possuíam aliados indígenas."
+        },
+        {
+          "id": "B",
+          "text": "somente os portugueses possuíam aliados indígenas."
+        },
+        {
+          "id": "C",
+          "text": "os indígenas não participaram do combate."
+        },
+        {
+          "id": "D",
+          "text": "a participação indígena ocorreu apenas depois de 1615."
+        },
+        {
+          "id": "E",
+          "text": "ambos os lados mobilizaram aliados indígenas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A força atacante franco-Tupinambá e a defesa luso-indígena mostram que alianças indígenas existiam nos dois lados."
+    },
+    {
+      "id": "q7089",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Jerônimo de Albuquerque é associado principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao comando da campanha luso-indígena de 1614."
+        },
+        {
+          "id": "B",
+          "text": "à direção inicial da França Equinocial."
+        },
+        {
+          "id": "C",
+          "text": "à missão capuchinha francesa."
+        },
+        {
+          "id": "D",
+          "text": "ao governo neerlandês no Nordeste."
+        },
+        {
+          "id": "E",
+          "text": "à fundação da França Antártica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Jerônimo de Albuquerque foi o capitão-mor da campanha portuguesa que estabeleceu a posição de Guaxenduba em 1614."
+    },
+    {
+      "id": "q7090",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Diogo de Campos Moreno deve ser associado",
+      "options": [
+        {
+          "id": "A",
+          "text": "à fundação francesa de Saint-Louis."
+        },
+        {
+          "id": "B",
+          "text": "ao comando português como sargento-mor e à narrativa da Jornada do Maranhão."
+        },
+        {
+          "id": "C",
+          "text": "à chefia da missão capuchinha."
+        },
+        {
+          "id": "D",
+          "text": "à liderança Tupinambá aliada aos franceses."
+        },
+        {
+          "id": "E",
+          "text": "ao governo português apenas depois de 1640."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Diogo de Campos Moreno participou do comando da jornada de 1614 e deixou uma narrativa portuguesa do conflito."
+    },
+    {
+      "id": "q7091",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Durante a fase decisiva da França Equinocial, La Ravardière",
+      "options": [
+        {
+          "id": "A",
+          "text": "comandava as forças portuguesas."
+        },
+        {
+          "id": "B",
+          "text": "era um missionário capuchinho sem função política."
+        },
+        {
+          "id": "C",
+          "text": "dirigia a resistência francesa no Maranhão."
+        },
+        {
+          "id": "D",
+          "text": "liderava a Revolta de Beckman."
+        },
+        {
+          "id": "E",
+          "text": "governava o Grão-Pará em nome de Portugal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "La Ravardière era Daniel de La Touche, principal comandante francês durante a reação portuguesa."
+    },
+    {
+      "id": "q7092",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Alexandre de Moura teve papel decisivo ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "criar a França Antártica."
+        },
+        {
+          "id": "B",
+          "text": "fundar Saint-Louis em 1612."
+        },
+        {
+          "id": "C",
+          "text": "comandar os Tupinambá aliados aos franceses."
+        },
+        {
+          "id": "D",
+          "text": "levar reforços portugueses e conduzir a pressão que culminou no desfecho de 1615."
+        },
+        {
+          "id": "E",
+          "text": "liderar Guaxenduba pelo lado francês."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Alexandre de Moura chegou com reforços em 1615 e participou da operação que encerrou o domínio colonial francês."
+    },
+    {
+      "id": "q7093",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A posição de Guaxenduba foi estabelecida",
+      "options": [
+        {
+          "id": "A",
+          "text": "no interior da ilha, dentro de Saint-Louis."
+        },
+        {
+          "id": "B",
+          "text": "na baía de Guanabara."
+        },
+        {
+          "id": "C",
+          "text": "no atual Piauí, junto ao Parnaíba."
+        },
+        {
+          "id": "D",
+          "text": "na ilha de Marajó."
+        },
+        {
+          "id": "E",
+          "text": "no continente, diante da ilha do Maranhão, na área da baía de São José."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Guaxenduba era uma posição continental portuguesa, associada à área de Icatu e à baía de São José."
+    },
+    {
+      "id": "q7094",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A Batalha de Guaxenduba ocorreu em",
+      "options": [
+        {
+          "id": "A",
+          "text": "19 de novembro de 1614."
+        },
+        {
+          "id": "B",
+          "text": "8 de setembro de 1612."
+        },
+        {
+          "id": "C",
+          "text": "novembro de 1615, durante a capitulação."
+        },
+        {
+          "id": "D",
+          "text": "1641, durante a ocupação neerlandesa."
+        },
+        {
+          "id": "E",
+          "text": "1823, durante a Independência."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "19 de novembro de 1614 é a data central do combate de Guaxenduba."
+    },
+    {
+      "id": "q7095",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na Batalha de Guaxenduba, a relação entre atacante e defensor pode ser resumida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "ataque português contra fortificação francesa no continente."
+        },
+        {
+          "id": "B",
+          "text": "ataque franco-Tupinambá contra posição luso-indígena fortificada."
+        },
+        {
+          "id": "C",
+          "text": "ataque neerlandês contra posição francesa."
+        },
+        {
+          "id": "D",
+          "text": "ataque espanhol contra forças portuguesas independentes."
+        },
+        {
+          "id": "E",
+          "text": "combate exclusivamente naval entre França e Inglaterra."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "La Ravardière tentou destruir a posição de Santa Maria de Guaxenduba defendida pela força luso-indígena."
+    },
+    {
+      "id": "q7096",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A fortificação portuguesa em Guaxenduba favoreceu a defesa porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "impediu qualquer uso de armas de fogo."
+        },
+        {
+          "id": "B",
+          "text": "obrigou os portugueses a combater apenas em mar aberto."
+        },
+        {
+          "id": "C",
+          "text": "protegeu os defensores e reduziu parte da vantagem do ataque."
+        },
+        {
+          "id": "D",
+          "text": "foi construída pelos franceses para facilitar o desembarque."
+        },
+        {
+          "id": "E",
+          "text": "eliminou a participação indígena no combate."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A posição fortificada organizou e protegeu a defesa diante de uma força atacante tradicionalmente descrita como numericamente superior."
+    },
+    {
+      "id": "q7097",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A maré aparece nas explicações de Guaxenduba porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "destruiu permanentemente a ilha de São Luís."
+        },
+        {
+          "id": "B",
+          "text": "encerrou a União Ibérica."
+        },
+        {
+          "id": "C",
+          "text": "impediu qualquer embarcação de navegar na região por anos."
+        },
+        {
+          "id": "D",
+          "text": "dificultou a chegada coordenada de parte dos reforços atacantes."
+        },
+        {
+          "id": "E",
+          "text": "foi a única causa da vitória portuguesa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A maré é um dos fatores táticos citados para explicar dificuldades no desembarque e na coordenação do ataque, não uma causa exclusiva."
+    },
+    {
+      "id": "q7098",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Sobre os números de combatentes e baixas em Guaxenduba, a postura mais segura é",
+      "options": [
+        {
+          "id": "A",
+          "text": "adotar como exata a maior cifra encontrada."
+        },
+        {
+          "id": "B",
+          "text": "considerar que todos os relatos registram os mesmos números."
+        },
+        {
+          "id": "C",
+          "text": "ignorar os combatentes indígenas nas estimativas."
+        },
+        {
+          "id": "D",
+          "text": "tratar qualquer número como mera invenção sem valor histórico."
+        },
+        {
+          "id": "E",
+          "text": "reconhecer divergências entre as fontes e evitar falsa precisão."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "As fontes usam critérios distintos para contar europeus, indígenas, marinheiros, desembarcados e baixas. O essencial é não transformar estimativas em recenseamento exato."
+    },
+    {
+      "id": "q7099",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "As estimativas tradicionais sobre Guaxenduba costumam indicar",
+      "options": [
+        {
+          "id": "A",
+          "text": "superioridade numérica da força franco-Tupinambá, sem cifra consensual."
+        },
+        {
+          "id": "B",
+          "text": "ausência completa de aliados indígenas do lado francês."
+        },
+        {
+          "id": "C",
+          "text": "milhares de portugueses europeus contra poucos franceses."
+        },
+        {
+          "id": "D",
+          "text": "igualdade exata entre as forças comprovada documentalmente."
+        },
+        {
+          "id": "E",
+          "text": "superioridade portuguesa absoluta em todos os relatos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Muitas narrativas atribuem maior número ao ataque franco-Tupinambá, mas as cifras variam entre as fontes."
+    },
+    {
+      "id": "q7100",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Guaxenduba foi estratégica para a campanha portuguesa porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "entregou imediatamente Saint-Louis sem negociação."
+        },
+        {
+          "id": "B",
+          "text": "preservou a base continental e enfraqueceu a iniciativa ofensiva francesa."
+        },
+        {
+          "id": "C",
+          "text": "encerrou a União Ibérica em 1614."
+        },
+        {
+          "id": "D",
+          "text": "eliminou toda presença individual francesa no mesmo dia."
+        },
+        {
+          "id": "E",
+          "text": "transferiu o Maranhão para domínio neerlandês."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A vitória permitiu manter a posição portuguesa e prosseguir a campanha, mas não encerrou o domínio francês imediatamente."
+    },
+    {
+      "id": "q7101",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A afirmação de que Guaxenduba expulsou definitivamente os franceses em 1614 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta, porque La Ravardière abandonou Saint-Louis no mesmo dia."
+        },
+        {
+          "id": "B",
+          "text": "correta, pois não houve negociação após a batalha."
+        },
+        {
+          "id": "C",
+          "text": "incorreta, porque o domínio francês organizado terminou apenas na campanha de 1615."
+        },
+        {
+          "id": "D",
+          "text": "incorreta, porque os franceses governaram o Maranhão até 1822."
+        },
+        {
+          "id": "E",
+          "text": "correta, porque Alexandre de Moura já comandava a capitulação em 1614."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Guaxenduba foi vitória estratégica, não desfecho imediato. Saint-Louis permaneceu sob controle francês até a campanha de 1615."
+    },
+    {
+      "id": "q7102",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A tradição de Nossa Senhora da Vitória deve ser estudada como",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova documental de intervenção sobrenatural aceita pelos dois exércitos."
+        },
+        {
+          "id": "B",
+          "text": "substituição suficiente para a análise da fortificação, maré e logística."
+        },
+        {
+          "id": "C",
+          "text": "relato neerlandês da ocupação de 1641."
+        },
+        {
+          "id": "D",
+          "text": "memória religiosa que atribui auxílio mariano à vitória luso-indígena."
+        },
+        {
+          "id": "E",
+          "text": "causa militar demonstrada por recenseamento contemporâneo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A tradição é relevante para a memória cultural e religiosa, mas não constitui demonstração causal do resultado militar."
+    },
+    {
+      "id": "q7103",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Distinguir tradição religiosa de fato histórico permite afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a própria batalha é uma lenda sem documentação."
+        },
+        {
+          "id": "B",
+          "text": "Guaxenduba foi uma vitória francesa."
+        },
+        {
+          "id": "C",
+          "text": "a maré baixa pertence exclusivamente ao campo sobrenatural."
+        },
+        {
+          "id": "D",
+          "text": "não existem fontes sobre o conflito."
+        },
+        {
+          "id": "E",
+          "text": "a batalha e a vitória são fatos históricos; o milagre pertence à interpretação religiosa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A ocorrência do combate e seu resultado são documentados; a intervenção mariana pertence à tradição de fé."
+    },
+    {
+      "id": "q7104",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A devoção a Nossa Senhora da Vitória relaciona-se à memória de",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma vitória luso-indígena em Guaxenduba interpretada de modo providencial."
+        },
+        {
+          "id": "B",
+          "text": "uma vitória francesa sobre os Tupinambá."
+        },
+        {
+          "id": "C",
+          "text": "uma batalha neerlandesa de 1644."
+        },
+        {
+          "id": "D",
+          "text": "uma revolta popular do período imperial."
+        },
+        {
+          "id": "E",
+          "text": "uma campanha contra a Balaiada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A tradição católica atribui auxílio mariano à força comandada por Jerônimo de Albuquerque em Guaxenduba."
+    },
+    {
+      "id": "q7105",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O fato de haver negociação depois de Guaxenduba demonstra que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a batalha nunca ocorreu."
+        },
+        {
+          "id": "B",
+          "text": "a vitória de 1614 não encerrou imediatamente a disputa pelo Maranhão."
+        },
+        {
+          "id": "C",
+          "text": "os franceses haviam conquistado definitivamente o continente."
+        },
+        {
+          "id": "D",
+          "text": "a União Ibérica terminou após o combate."
+        },
+        {
+          "id": "E",
+          "text": "o domínio francês permaneceu inalterado até o século XIX."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A campanha prosseguiu depois da batalha por meio de negociação, espera por reforços e nova pressão militar."
+    },
+    {
+      "id": "q7106",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A fase de negociação posterior a Guaxenduba teve como efeito principal",
+      "options": [
+        {
+          "id": "A",
+          "text": "declarar a independência do Maranhão."
+        },
+        {
+          "id": "B",
+          "text": "transferir imediatamente Belém para a França."
+        },
+        {
+          "id": "C",
+          "text": "suspender temporariamente as hostilidades enquanto os lados aguardavam decisões e reforços."
+        },
+        {
+          "id": "D",
+          "text": "restaurar a França Antártica na Guanabara."
+        },
+        {
+          "id": "E",
+          "text": "encerrar a União Ibérica."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A negociação posterior à batalha não resolveu de imediato a soberania, mas abriu uma fase de suspensão e preparação para o desfecho posterior."
+    },
+    {
+      "id": "q7107",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O processo de conquista do Maranhão entre 1614 e 1615 combinou",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente confronto militar, sem qualquer negociação."
+        },
+        {
+          "id": "B",
+          "text": "somente diplomacia, sem combate."
+        },
+        {
+          "id": "C",
+          "text": "guerra entre Portugal e Espanha após o fim da União Ibérica."
+        },
+        {
+          "id": "D",
+          "text": "combate, alianças locais, negociação e chegada de reforços."
+        },
+        {
+          "id": "E",
+          "text": "intervenção exclusivamente religiosa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Guaxenduba foi seguida por negociação e por reforços que tornaram possível o desfecho de 1615."
+    },
+    {
+      "id": "q7108",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em 1615, Alexandre de Moura",
+      "options": [
+        {
+          "id": "A",
+          "text": "fundou a França Equinocial."
+        },
+        {
+          "id": "B",
+          "text": "publicou o relato capuchinho de 1614."
+        },
+        {
+          "id": "C",
+          "text": "comandou as forças francesas em Guaxenduba."
+        },
+        {
+          "id": "D",
+          "text": "liderou uma revolta contra Jerônimo de Albuquerque."
+        },
+        {
+          "id": "E",
+          "text": "chegou com reforços portugueses e participou da operação que levou à capitulação francesa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Alexandre de Moura reforçou a campanha portuguesa e conduziu a pressão final sobre a posição francesa em 1615."
+    },
+    {
+      "id": "q7109",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Para a cronologia central do edital, a capitulação francesa deve ser situada em",
+      "options": [
+        {
+          "id": "A",
+          "text": "1615."
+        },
+        {
+          "id": "B",
+          "text": "1555."
+        },
+        {
+          "id": "C",
+          "text": "1612."
+        },
+        {
+          "id": "D",
+          "text": "1614, no mesmo dia de Guaxenduba."
+        },
+        {
+          "id": "E",
+          "text": "1640."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O ponto relevante é que Guaxenduba ocorreu em 1614 e o fim do domínio colonial francês se deu no ano seguinte, em 1615."
+    },
+    {
+      "id": "q7110",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "No contexto de 1615, a expressão expulsão dos franceses designa principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "a deportação imediata de toda pessoa de origem francesa."
+        },
+        {
+          "id": "B",
+          "text": "o encerramento do domínio colonial e militar organizado da França Equinocial."
+        },
+        {
+          "id": "C",
+          "text": "a eliminação da língua francesa em toda a América."
+        },
+        {
+          "id": "D",
+          "text": "o fim de qualquer relação social entre franceses e indígenas."
+        },
+        {
+          "id": "E",
+          "text": "a retirada portuguesa do Maranhão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Expulsão, no contexto, significa fim da colônia como poder político-militar organizado; não exige imaginar retirada física instantânea de todo indivíduo francês."
+    },
+    {
+      "id": "q7111",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A consolidação portuguesa a partir de 1616 envolveu principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "restauração do governo de Maria de Médici."
+        },
+        {
+          "id": "B",
+          "text": "abandono de São Luís."
+        },
+        {
+          "id": "C",
+          "text": "governo, defesa, povoamento e controle territorial."
+        },
+        {
+          "id": "D",
+          "text": "retorno da administração francesa."
+        },
+        {
+          "id": "E",
+          "text": "submissão do Maranhão aos neerlandeses."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Após a queda francesa, a monarquia portuguesa consolidou governo, defesa, povoamento e domínio territorial."
+    },
+    {
+      "id": "q7112",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Após a queda francesa, Jerônimo de Albuquerque ficou associado",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao governo português da Conquista do Maranhão."
+        },
+        {
+          "id": "B",
+          "text": "à condição de rei independente do Maranhão."
+        },
+        {
+          "id": "C",
+          "text": "ao comando francês de Saint-Louis."
+        },
+        {
+          "id": "D",
+          "text": "à missão capuchinha."
+        },
+        {
+          "id": "E",
+          "text": "à administração neerlandesa de Pernambuco."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Jerônimo de Albuquerque, capitão-mor da campanha, passou a exercer função central na organização portuguesa posterior."
+    },
+    {
+      "id": "q7113",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A consolidação portuguesa no Maranhão contribuiu para",
+      "options": [
+        {
+          "id": "A",
+          "text": "recriar a França Antártica."
+        },
+        {
+          "id": "B",
+          "text": "ampliar a presença colonial em direção ao Grão-Pará."
+        },
+        {
+          "id": "C",
+          "text": "encerrar imediatamente a União Ibérica."
+        },
+        {
+          "id": "D",
+          "text": "transferir São Luís para o continente."
+        },
+        {
+          "id": "E",
+          "text": "restaurar o governo francês da ilha."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A conquista do Maranhão fortaleceu a expansão luso-ibérica para o norte e serviu de base ao avanço em direção ao Grão-Pará."
+    },
+    {
+      "id": "q7114",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A formulação mais adequada sobre a controvérsia da fundação de São Luís é",
+      "options": [
+        {
+          "id": "A",
+          "text": "não houve núcleo urbano antes de 1823."
+        },
+        {
+          "id": "B",
+          "text": "somente os portugueses tiveram presença na ilha no início do século XVII."
+        },
+        {
+          "id": "C",
+          "text": "a fundação francesa exclui qualquer papel português na continuidade da cidade."
+        },
+        {
+          "id": "D",
+          "text": "o núcleo e o topônimo foram franceses em 1612; conquista e institucionalização posteriores foram portuguesas."
+        },
+        {
+          "id": "E",
+          "text": "a divergência historiográfica torna impossível estabelecer qualquer cronologia."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A distinção entre núcleo fundacional francês e continuidade administrativa portuguesa evita simplificações e acomoda a controvérsia historiográfica."
+    },
+    {
+      "id": "q7115",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um enunciado afirma que São Luís só passou a existir depois da conquista portuguesa de 1615. À luz da documentação sobre Saint-Louis, essa afirmação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta, porque não havia qualquer núcleo francês em 1612."
+        },
+        {
+          "id": "B",
+          "text": "correta, porque o topônimo Saint-Louis surgiu apenas em 1616."
+        },
+        {
+          "id": "C",
+          "text": "incorreta, porque os franceses já haviam estabelecido núcleo fortificado e povoação em 1612."
+        },
+        {
+          "id": "D",
+          "text": "incorreta apenas porque Guaxenduba ocorreu em 1555."
+        },
+        {
+          "id": "E",
+          "text": "correta, porque La Ravardière comandava tropas portuguesas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A conquista portuguesa é posterior ao núcleo francês de Saint-Louis, estabelecido em 1612. A continuidade portuguesa não apaga essa etapa."
+    },
+    {
+      "id": "q7116",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A sequência cronológica correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "capitulação francesa → Saint-Louis → Guaxenduba → consolidação portuguesa."
+        },
+        {
+          "id": "B",
+          "text": "Saint-Louis → Guaxenduba → capitulação francesa → consolidação portuguesa."
+        },
+        {
+          "id": "C",
+          "text": "Guaxenduba → França Antártica → Saint-Louis → capitulação."
+        },
+        {
+          "id": "D",
+          "text": "consolidação portuguesa → Saint-Louis → Guaxenduba → capitulação."
+        },
+        {
+          "id": "E",
+          "text": "França Antártica → consolidação portuguesa → Saint-Louis → Guaxenduba."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O núcleo francês é de 1612, Guaxenduba de 1614, a capitulação de 1615 e a consolidação portuguesa de 1616."
+    },
+    {
+      "id": "q7117",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A afirmação de que a vitória em Guaxenduba e o fim da França Equinocial são o mesmo evento deve ser rejeitada porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "Guaxenduba ocorreu depois da Independência do Brasil."
+        },
+        {
+          "id": "B",
+          "text": "a França Equinocial terminou antes da chegada francesa."
+        },
+        {
+          "id": "C",
+          "text": "a batalha foi vencida pelos franceses."
+        },
+        {
+          "id": "D",
+          "text": "Guaxenduba ocorreu em 1614, enquanto o domínio colonial francês terminou em 1615."
+        },
+        {
+          "id": "E",
+          "text": "a França Equinocial continuou até o século XIX."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A distinção entre vitória militar de 1614 e desfecho colonial de 1615 é uma das principais pegadinhas do assunto."
+    },
+    {
+      "id": "q7118",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Sintetiza corretamente o processo de 1612 a 1616 a afirmação de que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a França Equinocial venceu Guaxenduba e manteve o Maranhão até o Império."
+        },
+        {
+          "id": "B",
+          "text": "os europeus agiram sem alianças indígenas e sem negociação."
+        },
+        {
+          "id": "C",
+          "text": "a batalha de 1614 encerrou no mesmo dia toda presença francesa."
+        },
+        {
+          "id": "D",
+          "text": "a presença francesa começou somente depois da consolidação portuguesa."
+        },
+        {
+          "id": "E",
+          "text": "os franceses estabeleceram Saint-Louis em 1612, sofreram derrota estratégica em Guaxenduba em 1614 e perderam o domínio organizado em 1615, seguido da consolidação portuguesa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A alternativa reúne a cronologia essencial e distingue fundação, batalha, fim do domínio francês e organização portuguesa, sem apagar as alianças indígenas."
+    }
+  ]
+}

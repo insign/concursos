@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "q8379",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distinção predominante entre direitos humanos e direitos fundamentais considera",
+      "options": [
+        {
+          "id": "A",
+          "text": "o plano internacional ou constitucional interno de positivação."
+        },
+        {
+          "id": "B",
+          "text": "que apenas os primeiros protegem a dignidade."
+        },
+        {
+          "id": "C",
+          "text": "que os segundos não vinculam o Estado."
+        },
+        {
+          "id": "D",
+          "text": "conteúdos materiais necessariamente opostos."
+        },
+        {
+          "id": "E",
+          "text": "que direitos humanos não possuem proteção jurídica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Direitos humanos e fundamentais podem proteger o mesmo conteúdo; a distinção didática central é o plano de reconhecimento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8380",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A expressão “direitos do homem” é tradicionalmente associada",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a tratados aprovados pelo art. 5º, § 3º."
+        },
+        {
+          "id": "B",
+          "text": "à concepção jusnaturalista de direitos inerentes, ainda que não positivados."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente a garantias processuais."
+        },
+        {
+          "id": "D",
+          "text": "somente aos direitos políticos."
+        },
+        {
+          "id": "E",
+          "text": "à negação da universalidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A expressão possui sentido histórico e doutrinário ligado a direitos concebidos como naturais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8381",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A associação correta entre direito e garantia é",
+      "options": [
+        {
+          "id": "A",
+          "text": "habeas corpus — direito à propriedade."
+        },
+        {
+          "id": "B",
+          "text": "liberdade de locomoção — garantia do habeas data."
+        },
+        {
+          "id": "C",
+          "text": "liberdade de locomoção — direito; habeas corpus — garantia."
+        },
+        {
+          "id": "D",
+          "text": "habeas data — direito de reunião."
+        },
+        {
+          "id": "E",
+          "text": "ampla defesa — instrumento sem conteúdo próprio."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A garantia protege ou restaura o direito, embora certas normas também possuam conteúdo próprio e função garantidora. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8382",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na Constituição de 1988, a relação com os direitos humanos é sustentada, entre outros elementos, pela",
+      "options": [
+        {
+          "id": "A",
+          "text": "supressão da dignidade da pessoa humana."
+        },
+        {
+          "id": "B",
+          "text": "proibição de tratados internacionais."
+        },
+        {
+          "id": "C",
+          "text": "taxatividade do art. 5º."
+        },
+        {
+          "id": "D",
+          "text": "dignidade como fundamento e prevalência dos direitos humanos nas relações internacionais."
+        },
+        {
+          "id": "E",
+          "text": "subordinação da Constituição a toda resolução internacional."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os arts. 1º, III, e 4º, II, articulam dignidade e prevalência dos direitos humanos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8383",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A historicidade dos direitos fundamentais significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todos surgiram simultaneamente."
+        },
+        {
+          "id": "B",
+          "text": "não possuem estabilidade jurídica."
+        },
+        {
+          "id": "C",
+          "text": "dependem sempre da vontade da maioria."
+        },
+        {
+          "id": "D",
+          "text": "podem ser abolidos sem limites."
+        },
+        {
+          "id": "E",
+          "text": "são reconhecidos e reconstruídos ao longo de processos históricos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A historicidade afasta um catálogo imóvel, mas não elimina a proteção constitucional já alcançada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8384",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A universalidade dos direitos humanos",
+      "options": [
+        {
+          "id": "A",
+          "text": "é compatível com proteção específica de grupos vulnerabilizados."
+        },
+        {
+          "id": "B",
+          "text": "exige tratamento formal idêntico em qualquer situação."
+        },
+        {
+          "id": "C",
+          "text": "impede ações afirmativas."
+        },
+        {
+          "id": "D",
+          "text": "elimina requisitos próprios dos direitos políticos."
+        },
+        {
+          "id": "E",
+          "text": "significa uniformidade cultural absoluta."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Universalidade proíbe discriminação arbitrária, mas permite diferenciações voltadas à igualdade material. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8385",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A indivisibilidade e a interdependência indicam que",
+      "options": [
+        {
+          "id": "A",
+          "text": "direitos civis são superiores aos sociais."
+        },
+        {
+          "id": "B",
+          "text": "direitos de diferentes categorias integram uma proteção comum e podem depender uns dos outros."
+        },
+        {
+          "id": "C",
+          "text": "somente direitos políticos são exigíveis."
+        },
+        {
+          "id": "D",
+          "text": "cada direito deve ser realizado isoladamente."
+        },
+        {
+          "id": "E",
+          "text": "a Declaração de Viena rejeitou a universalidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Declaração de Viena de 1993 afirma universalidade, indivisibilidade, interdependência e inter-relação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8386",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A inalienabilidade dos direitos fundamentais",
+      "options": [
+        {
+          "id": "A",
+          "text": "impede qualquer negócio sobre efeito patrimonial."
+        },
+        {
+          "id": "B",
+          "text": "proíbe consentimento pontual."
+        },
+        {
+          "id": "C",
+          "text": "significa que o direito nuclear não pode ser vendido como mercadoria."
+        },
+        {
+          "id": "D",
+          "text": "torna toda autorização irrevogável."
+        },
+        {
+          "id": "E",
+          "text": "elimina a autonomia privada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O direito não é transferível como mercadoria, mas efeitos patrimoniais e autorizações específicas podem receber disciplina própria. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8387",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A imprescritibilidade dos direitos fundamentais permite afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda indenização é imprescritível."
+        },
+        {
+          "id": "B",
+          "text": "nenhuma pretensão se submete a prazo."
+        },
+        {
+          "id": "C",
+          "text": "o decurso do tempo extingue a dignidade."
+        },
+        {
+          "id": "D",
+          "text": "o direito nuclear não se perde, embora pretensões patrimoniais possam prescrever."
+        },
+        {
+          "id": "E",
+          "text": "prescrição e decadência são inconstitucionais."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A característica não se transfere automaticamente a toda consequência patrimonial da violação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8388",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A irrenunciabilidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "impede qualquer não exercício."
+        },
+        {
+          "id": "B",
+          "text": "torna todo consentimento ilícito."
+        },
+        {
+          "id": "C",
+          "text": "proíbe autolimitação revogável."
+        },
+        {
+          "id": "D",
+          "text": "autoriza renúncia definitiva à dignidade."
+        },
+        {
+          "id": "E",
+          "text": "não se confunde com não exercício temporário ou consentimento pontual válido."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A vedação recai sobre renúncia geral e definitiva, não sobre toda decisão concreta de exercício. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8389",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relatividade dos direitos fundamentais",
+      "options": [
+        {
+          "id": "A",
+          "text": "admite limites justificados, mas não restrições arbitrárias ou destruição do conteúdo essencial."
+        },
+        {
+          "id": "B",
+          "text": "autoriza sempre a prevalência abstrata do interesse público."
+        },
+        {
+          "id": "C",
+          "text": "significa inexistência de proteção jurídica."
+        },
+        {
+          "id": "D",
+          "text": "torna dispensável a proporcionalidade."
+        },
+        {
+          "id": "E",
+          "text": "afirma que todo direito é absoluto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Direitos convivem com outros bens constitucionais, e suas restrições permanecem controladas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8390",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na classificação tradicional, os direitos civis e políticos ligam-se predominantemente à",
+      "options": [
+        {
+          "id": "A",
+          "text": "terceira dimensão e solidariedade."
+        },
+        {
+          "id": "B",
+          "text": "primeira dimensão e liberdade."
+        },
+        {
+          "id": "C",
+          "text": "segunda dimensão e igualdade material."
+        },
+        {
+          "id": "D",
+          "text": "quinta dimensão consensual."
+        },
+        {
+          "id": "E",
+          "text": "ausência de proteção estatal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A primeira dimensão é associada à liberdade, à defesa e à participação política. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8391",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Direitos sociais, econômicos e culturais são associados, tradicionalmente, à",
+      "options": [
+        {
+          "id": "A",
+          "text": "primeira dimensão."
+        },
+        {
+          "id": "B",
+          "text": "terceira dimensão."
+        },
+        {
+          "id": "C",
+          "text": "segunda dimensão e igualdade material."
+        },
+        {
+          "id": "D",
+          "text": "quarta dimensão unânime."
+        },
+        {
+          "id": "E",
+          "text": "negação das prestações públicas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A segunda dimensão destaca igualdade material e direitos prestacionais, sem excluir facetas defensivas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8392",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O direito ao meio ambiente equilibrado é usualmente associado à",
+      "options": [
+        {
+          "id": "A",
+          "text": "primeira dimensão exclusivamente individual."
+        },
+        {
+          "id": "B",
+          "text": "segunda dimensão apenas contratual."
+        },
+        {
+          "id": "C",
+          "text": "quinta dimensão consensual."
+        },
+        {
+          "id": "D",
+          "text": "terceira dimensão e solidariedade."
+        },
+        {
+          "id": "E",
+          "text": "ausência de titularidade coletiva."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A terceira dimensão abrange direitos transindividuais ligados à solidariedade ou fraternidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8393",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A formulação correta sobre as dimensões dos direitos é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a segunda revogou a primeira."
+        },
+        {
+          "id": "B",
+          "text": "a terceira tornou desnecessários direitos individuais."
+        },
+        {
+          "id": "C",
+          "text": "cada dimensão possui função única."
+        },
+        {
+          "id": "D",
+          "text": "gerações se substituem cronologicamente."
+        },
+        {
+          "id": "E",
+          "text": "as dimensões coexistem, acumulam-se e se influenciam."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O termo dimensões enfatiza cumulatividade e unidade da proteção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8394",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à quarta e à quinta dimensões, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não há consenso; a resposta deve observar a classificação e o autor indicados."
+        },
+        {
+          "id": "B",
+          "text": "a Constituição fixa conteúdo uniforme para ambas."
+        },
+        {
+          "id": "C",
+          "text": "todos os autores colocam paz na quarta."
+        },
+        {
+          "id": "D",
+          "text": "o STF aboliu classificações além da terceira."
+        },
+        {
+          "id": "E",
+          "text": "substituem as dimensões anteriores."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Democracia, informação, bioética, tecnologia e paz são distribuídas de modos distintos pela doutrina. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8395",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A referência do art. 5º a estrangeiros residentes no País",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclui qualquer proteção de não residente."
+        },
+        {
+          "id": "B",
+          "text": "não impede proteção compatível a estrangeiro não residente submetido à jurisdição brasileira."
+        },
+        {
+          "id": "C",
+          "text": "concede direitos políticos a todo visitante."
+        },
+        {
+          "id": "D",
+          "text": "afasta a universalidade."
+        },
+        {
+          "id": "E",
+          "text": "protege somente pessoas jurídicas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A literalidade não autoriza negar automaticamente direitos fundamentais compatíveis a não residentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8396",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Pessoas jurídicas",
+      "options": [
+        {
+          "id": "A",
+          "text": "nunca titularizam direitos fundamentais."
+        },
+        {
+          "id": "B",
+          "text": "possuem todos os direitos personalíssimos humanos."
+        },
+        {
+          "id": "C",
+          "text": "podem titularizar direitos compatíveis com sua natureza."
+        },
+        {
+          "id": "D",
+          "text": "exercem direitos políticos de cidadania."
+        },
+        {
+          "id": "E",
+          "text": "não têm acesso ao devido processo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A titularidade depende de compatibilidade; proteção processual e patrimonial pode alcançar pessoas jurídicas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8397",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A função defensiva dos direitos fundamentais",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige somente gasto orçamentário."
+        },
+        {
+          "id": "B",
+          "text": "é exclusiva dos direitos sociais."
+        },
+        {
+          "id": "C",
+          "text": "não vincula particulares."
+        },
+        {
+          "id": "D",
+          "text": "protege contra ingerências indevidas e permite exigir sua cessação."
+        },
+        {
+          "id": "E",
+          "text": "elimina a necessidade de lei."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A função de defesa cria posições de resistência contra intervenção arbitrária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8398",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A função prestacional pode exigir",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas entrega de dinheiro."
+        },
+        {
+          "id": "B",
+          "text": "somente abstenção."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente sentença judicial."
+        },
+        {
+          "id": "D",
+          "text": "nunca organização administrativa."
+        },
+        {
+          "id": "E",
+          "text": "prestações materiais, normativas e organizacionais."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A atuação positiva inclui serviços, normas, instituições e procedimentos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8399",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A função protetiva impõe ao Estado",
+      "options": [
+        {
+          "id": "A",
+          "text": "prevenir e remediar violações praticadas também por terceiros."
+        },
+        {
+          "id": "B",
+          "text": "atuar somente contra seus próprios agentes."
+        },
+        {
+          "id": "C",
+          "text": "abandonar grupos vulneráveis à autonomia privada."
+        },
+        {
+          "id": "D",
+          "text": "proibir todo risco social."
+        },
+        {
+          "id": "E",
+          "text": "substituir toda decisão individual."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Deveres de proteção alcançam poderes privados e fundamentam a proibição de proteção insuficiente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8400",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Informação, participação, contraditório e motivação relacionam-se à função",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclusivamente patrimonial."
+        },
+        {
+          "id": "B",
+          "text": "procedimental."
+        },
+        {
+          "id": "C",
+          "text": "apenas defensiva."
+        },
+        {
+          "id": "D",
+          "text": "de substituição constitucional."
+        },
+        {
+          "id": "E",
+          "text": "de revogação de tratados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Processos adequados são condições de proteção e realização dos direitos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8401",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na dimensão subjetiva, o direito fundamental",
+      "options": [
+        {
+          "id": "A",
+          "text": "é apenas valor político abstrato."
+        },
+        {
+          "id": "B",
+          "text": "não possui titular."
+        },
+        {
+          "id": "C",
+          "text": "atribui ao titular posição jurídica exigível."
+        },
+        {
+          "id": "D",
+          "text": "produz somente dever legislativo geral."
+        },
+        {
+          "id": "E",
+          "text": "não admite proteção judicial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A posição subjetiva permite exigir abstenção, prestação, proteção ou procedimento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8402",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A dimensão objetiva dos direitos fundamentais",
+      "options": [
+        {
+          "id": "A",
+          "text": "elimina direitos subjetivos."
+        },
+        {
+          "id": "B",
+          "text": "vale apenas para o Executivo."
+        },
+        {
+          "id": "C",
+          "text": "impede eficácia no direito privado."
+        },
+        {
+          "id": "D",
+          "text": "estrutura a ordem jurídica e gera deveres de proteção e eficácia irradiante."
+        },
+        {
+          "id": "E",
+          "text": "transforma todo interesse em direito."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Direitos também funcionam como valores e princípios vinculantes para todo o sistema. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8403",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A sequência correta dos deveres estatais é",
+      "options": [
+        {
+          "id": "A",
+          "text": "punir, tributar e restringir."
+        },
+        {
+          "id": "B",
+          "text": "omitir, delegar e renunciar."
+        },
+        {
+          "id": "C",
+          "text": "julgar, legislar e recorrer."
+        },
+        {
+          "id": "D",
+          "text": "defender, prescrever e alienar."
+        },
+        {
+          "id": "E",
+          "text": "respeitar, proteger e promover ou realizar."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O Estado deve não violar, enfrentar violações de terceiros e criar condições de efetividade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8404",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O art. 5º, § 1º, estabelece",
+      "options": [
+        {
+          "id": "A",
+          "text": "aplicação imediata das normas definidoras de direitos e garantias fundamentais."
+        },
+        {
+          "id": "B",
+          "text": "taxatividade do catálogo."
+        },
+        {
+          "id": "C",
+          "text": "rito dos tratados de direitos humanos."
+        },
+        {
+          "id": "D",
+          "text": "jurisdição da Corte IDH."
+        },
+        {
+          "id": "E",
+          "text": "equivalência de todo tratado a emenda."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 1º busca máxima efetividade e impede tratar tais normas como promessas sem força jurídica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8405",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Aplicação imediata dos direitos fundamentais",
+      "options": [
+        {
+          "id": "A",
+          "text": "significa eficácia plena de toda norma."
+        },
+        {
+          "id": "B",
+          "text": "não exclui necessidade de conformação legislativa ou institucional em certos casos."
+        },
+        {
+          "id": "C",
+          "text": "impede controle de omissão."
+        },
+        {
+          "id": "D",
+          "text": "vale apenas para direitos civis."
+        },
+        {
+          "id": "E",
+          "text": "autoriza negar efeito a norma limitada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Imediatidade é dever de máxima eficácia possível, não uniformidade estrutural de todas as normas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8406",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na classificação didática da eficácia constitucional, a norma contida",
+      "options": [
+        {
+          "id": "A",
+          "text": "não produz efeito antes de lei."
+        },
+        {
+          "id": "B",
+          "text": "é sempre programática."
+        },
+        {
+          "id": "C",
+          "text": "tem aplicação direta e imediata, mas pode sofrer restrição autorizada."
+        },
+        {
+          "id": "D",
+          "text": "equivale a tratado supralegal."
+        },
+        {
+          "id": "E",
+          "text": "não vincula o legislador."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Norma contida já incide, embora seu alcance possa ser reduzido nos termos constitucionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8407",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Eficácia vertical descreve a incidência dos direitos fundamentais",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas entre empresas."
+        },
+        {
+          "id": "B",
+          "text": "somente em relações de consumo."
+        },
+        {
+          "id": "C",
+          "text": "entre particulares assimétricos."
+        },
+        {
+          "id": "D",
+          "text": "na relação entre pessoa e Estado."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente entre Estados soberanos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A eficácia vertical corresponde à proteção clássica diante do poder estatal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8408",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A eficácia horizontal reconhece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Constituição não alcança relações privadas."
+        },
+        {
+          "id": "B",
+          "text": "autonomia privada é absoluta."
+        },
+        {
+          "id": "C",
+          "text": "todo particular exerce função estatal."
+        },
+        {
+          "id": "D",
+          "text": "qualquer contrato é inválido."
+        },
+        {
+          "id": "E",
+          "text": "direitos fundamentais podem incidir entre particulares."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Poderes privados também podem ameaçar direitos; a incidência deve ser compatibilizada com a autonomia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8409",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No RE 201.819/RJ, o STF",
+      "options": [
+        {
+          "id": "A",
+          "text": "exigiu contraditório e ampla defesa na exclusão de associado da UBC, considerada a posição de poder da entidade."
+        },
+        {
+          "id": "B",
+          "text": "afastou toda eficácia horizontal."
+        },
+        {
+          "id": "C",
+          "text": "declarou a UBC órgão estatal."
+        },
+        {
+          "id": "D",
+          "text": "aboliu a autonomia associativa."
+        },
+        {
+          "id": "E",
+          "text": "tratou de prisão civil."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A dependência profissional e o espaço público não estatal reforçaram a aplicação direta no caso concreto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8410",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A liberdade de expressão é protegida tanto pela Constituição brasileira quanto por instrumentos internacionais de direitos humanos. Essa situação demonstra que",
+      "options": [
+        {
+          "id": "A",
+          "text": "direitos humanos e direitos fundamentais possuem necessariamente conteúdos opostos."
+        },
+        {
+          "id": "B",
+          "text": "o reconhecimento internacional elimina a proteção constitucional interna."
+        },
+        {
+          "id": "C",
+          "text": "o mesmo conteúdo pode ser direito humano no plano internacional e direito fundamental no plano constitucional interno."
+        },
+        {
+          "id": "D",
+          "text": "somente o tratado internacional pode gerar proteção jurídica da liberdade."
+        },
+        {
+          "id": "E",
+          "text": "direitos fundamentais deixam de existir quando há tratado sobre o mesmo tema."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A distinção central entre direitos humanos e direitos fundamentais é o plano de positivação, não uma oposição material obrigatória. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8411",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O art. 5º, § 2º, consagra",
+      "options": [
+        {
+          "id": "A",
+          "text": "o fechamento do catálogo."
+        },
+        {
+          "id": "B",
+          "text": "a superioridade de lei ordinária sobre tratado."
+        },
+        {
+          "id": "C",
+          "text": "a abertura a direitos decorrentes do regime, dos princípios e dos tratados."
+        },
+        {
+          "id": "D",
+          "text": "a jurisdição do TPI."
+        },
+        {
+          "id": "E",
+          "text": "a prisão do depositário infiel."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O rol constitucional é materialmente aberto, embora novos direitos precisem de fundamento identificável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8412",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Direitos fundamentais previstos fora do art. 5º",
+      "options": [
+        {
+          "id": "A",
+          "text": "não vinculam o Estado."
+        },
+        {
+          "id": "B",
+          "text": "são apenas recomendações."
+        },
+        {
+          "id": "C",
+          "text": "não integram o Título II e por isso são inválidos."
+        },
+        {
+          "id": "D",
+          "text": "podem ser reconhecidos pela abertura material e pela estrutura constitucional."
+        },
+        {
+          "id": "E",
+          "text": "dependem sempre de tratado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A fundamentalidade não depende exclusivamente da localização topográfica no art. 5º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8413",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O rito do art. 5º, § 3º, exige aprovação do tratado de direitos humanos",
+      "options": [
+        {
+          "id": "A",
+          "text": "em uma Casa, por maioria simples."
+        },
+        {
+          "id": "B",
+          "text": "em turno único, por maioria absoluta."
+        },
+        {
+          "id": "C",
+          "text": "por unanimidade do Congresso."
+        },
+        {
+          "id": "D",
+          "text": "por decreto do Executivo."
+        },
+        {
+          "id": "E",
+          "text": "em cada Casa, em dois turnos, por três quintos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O rito reproduz quórum qualificado e bicameral equivalente ao de emenda. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8414",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O art. 5º, § 4º, refere-se à",
+      "options": [
+        {
+          "id": "A",
+          "text": "submissão do Brasil à jurisdição do Tribunal Penal Internacional a cuja criação tenha aderido."
+        },
+        {
+          "id": "B",
+          "text": "Comissão Interamericana."
+        },
+        {
+          "id": "C",
+          "text": "Corte Internacional de Justiça."
+        },
+        {
+          "id": "D",
+          "text": "aprovação de tratados por três quintos."
+        },
+        {
+          "id": "E",
+          "text": "aplicação imediata."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O dispositivo trata do TPI, não da Corte Interamericana de Direitos Humanos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8415",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Tratado de direitos humanos aprovado pelo rito do art. 5º, § 3º, possui status",
+      "options": [
+        {
+          "id": "A",
+          "text": "de decreto autônomo."
+        },
+        {
+          "id": "B",
+          "text": "equivalente ao de emenda constitucional."
+        },
+        {
+          "id": "C",
+          "text": "inferior à lei ordinária."
+        },
+        {
+          "id": "D",
+          "text": "meramente político."
+        },
+        {
+          "id": "E",
+          "text": "supraconstitucional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A própria Constituição determina a equivalência às emendas constitucionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8416",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o STF, tratado de direitos humanos incorporado sem o rito qualificado possui, em regra, status",
+      "options": [
+        {
+          "id": "A",
+          "text": "supraconstitucional."
+        },
+        {
+          "id": "B",
+          "text": "inferior a regulamento."
+        },
+        {
+          "id": "C",
+          "text": "supralegal."
+        },
+        {
+          "id": "D",
+          "text": "de emenda automática."
+        },
+        {
+          "id": "E",
+          "text": "sem eficácia interna."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O RE 466.343 colocou esses tratados abaixo da Constituição e acima da legislação ordinária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8417",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Tratados internacionais comuns possuem, em regra, nível",
+      "options": [
+        {
+          "id": "A",
+          "text": "supraconstitucional."
+        },
+        {
+          "id": "B",
+          "text": "de cláusula pétrea."
+        },
+        {
+          "id": "C",
+          "text": "de emenda constitucional."
+        },
+        {
+          "id": "D",
+          "text": "infraconstitucional equivalente ao da legislação ordinária."
+        },
+        {
+          "id": "E",
+          "text": "sempre supralegal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A supralegalidade é construção específica para tratados de direitos humanos sem o rito qualificado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8418",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Súmula Vinculante 25 estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "depositário judicial pode ser preso."
+        },
+        {
+          "id": "B",
+          "text": "somente depósito voluntário impede prisão."
+        },
+        {
+          "id": "C",
+          "text": "tratado revogou a Constituição."
+        },
+        {
+          "id": "D",
+          "text": "a prisão depende de maioria qualificada."
+        },
+        {
+          "id": "E",
+          "text": "é ilícita a prisão civil de depositário infiel em qualquer modalidade de depósito."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A legislação infraconstitucional incompatível tornou-se inaplicável diante do tratado supralegal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8419",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após o entendimento sobre o depositário infiel",
+      "options": [
+        {
+          "id": "A",
+          "text": "o texto do art. 5º, LXVII, permaneceu, mas a legislação que viabilizava a prisão ficou inaplicável."
+        },
+        {
+          "id": "B",
+          "text": "a Convenção Americana revogou formalmente a Constituição."
+        },
+        {
+          "id": "C",
+          "text": "tratado supralegal passou a superar emenda."
+        },
+        {
+          "id": "D",
+          "text": "a SV 25 autorizou prisão em contrato bancário."
+        },
+        {
+          "id": "E",
+          "text": "todo tratado tornou-se constitucional."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A supralegalidade controla a lei, não elimina norma constitucional originária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8420",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma restrição a direito fundamental",
+      "options": [
+        {
+          "id": "A",
+          "text": "é válida sempre que invocar interesse público."
+        },
+        {
+          "id": "B",
+          "text": "pode decorrer da Constituição ou de lei autorizada, mas permanece sujeita a controle."
+        },
+        {
+          "id": "C",
+          "text": "dispensa competência e forma."
+        },
+        {
+          "id": "D",
+          "text": "nunca decorre da convivência entre direitos."
+        },
+        {
+          "id": "E",
+          "text": "equivale necessariamente a abolição."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Restrições e conformações devem respeitar fundamento constitucional e limites materiais e formais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8421",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma autoridade proíbe manifestação pacífica apenas com a afirmação genérica de que a medida atende ao “interesse público”, sem demonstrar necessidade concreta. À luz da teoria dos direitos fundamentais, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a invocação do interesse público torna a proibição automaticamente válida."
+        },
+        {
+          "id": "B",
+          "text": "direitos fundamentais são absolutos e jamais admitem limitação."
+        },
+        {
+          "id": "C",
+          "text": "qualquer restrição é válida se praticada por agente público competente."
+        },
+        {
+          "id": "D",
+          "text": "a relatividade dos direitos não dispensa fundamento constitucional e controle de proporcionalidade da restrição."
+        },
+        {
+          "id": "E",
+          "text": "a proporcionalidade só se aplica a tratados internacionais."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Direitos fundamentais não são, em regra, absolutos, mas sua restrição exige justificação constitucional; interesse público abstrato não basta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8422",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre as dimensões dos direitos fundamentais, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Direitos de primeira dimensão exigem exclusivamente omissão do Estado."
+        },
+        {
+          "id": "B",
+          "text": "Direitos de segunda dimensão possuem apenas conteúdo prestacional e nunca função defensiva."
+        },
+        {
+          "id": "C",
+          "text": "As dimensões são cumulativas, e direitos de liberdade podem exigir ações estatais enquanto direitos sociais também podem possuir facetas defensivas."
+        },
+        {
+          "id": "D",
+          "text": "A terceira dimensão revogou as duas anteriores."
+        },
+        {
+          "id": "E",
+          "text": "A dimensão histórica determina uma única função jurídica possível para cada direito."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As dimensões organizam tendências históricas, mas não criam caixas funcionais rígidas; elas coexistem e se acumulam. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8423",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quanto à titularidade de direitos fundamentais, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "pessoas jurídicas nunca podem ser titulares."
+        },
+        {
+          "id": "B",
+          "text": "estrangeiro não residente está automaticamente excluído de toda proteção constitucional."
+        },
+        {
+          "id": "C",
+          "text": "universalidade significa que todos exercem direitos políticos nas mesmas condições."
+        },
+        {
+          "id": "D",
+          "text": "pessoas jurídicas podem titularizar direitos compatíveis com sua natureza, e a condição de não residente não exclui automaticamente toda proteção do estrangeiro."
+        },
+        {
+          "id": "E",
+          "text": "somente cidadãos brasileiros podem invocar garantias processuais."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A titularidade depende da natureza do direito e da situação jurídica; universalidade não equivale a titularidade idêntica em todos os casos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8424",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na análise de proporcionalidade de uma restrição a direito fundamental, a sequência didática correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "adequação, necessidade e proporcionalidade em sentido estrito."
+        },
+        {
+          "id": "B",
+          "text": "necessidade, reserva legal e hierarquia de direitos."
+        },
+        {
+          "id": "C",
+          "text": "ponderação, unanimidade e adequação."
+        },
+        {
+          "id": "D",
+          "text": "competência, supremacia estatal e abolição do direito concorrente."
+        },
+        {
+          "id": "E",
+          "text": "interesse público, conveniência e oportunidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A adequação examina a contribuição do meio ao fim; a necessidade compara alternativas menos restritivas; e o sentido estrito avalia a relação entre benefício e sacrifício. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8425",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quando dois direitos fundamentais entram em colisão em um caso concreto, a solução constitucionalmente adequada parte da ideia de que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o direito mais antigo sempre prevalece."
+        },
+        {
+          "id": "B",
+          "text": "há hierarquia abstrata automática entre todos os direitos."
+        },
+        {
+          "id": "C",
+          "text": "o interesse público sempre vence sem necessidade de motivação."
+        },
+        {
+          "id": "D",
+          "text": "a solução deve ser fundamentada concretamente, buscando compatibilizar e preservar tanto quanto possível os bens em conflito."
+        },
+        {
+          "id": "E",
+          "text": "a colisão torna ambos os direitos inaplicáveis."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A concordância prática e a proporcionalidade rejeitam hierarquia abstrata automática e exigem fundamentação concreta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8426",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma norma definidora de direito fundamental de eficácia limitada",
+      "options": [
+        {
+          "id": "A",
+          "text": "não produz qualquer efeito antes da lei integradora."
+        },
+        {
+          "id": "B",
+          "text": "é incompatível com o art. 5º, § 1º."
+        },
+        {
+          "id": "C",
+          "text": "pode depender de integração para produzir todos os efeitos, mas já vincula os Poderes e possui eficácia jurídica."
+        },
+        {
+          "id": "D",
+          "text": "equivale automaticamente a norma de eficácia plena."
+        },
+        {
+          "id": "E",
+          "text": "só vincula após decisão do STF."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Aplicação imediata exige máxima eficácia possível, mas não elimina diferenças estruturais entre normas plenas, contidas e limitadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8427",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Concordância prática busca",
+      "options": [
+        {
+          "id": "A",
+          "text": "abolir um dos direitos em colisão."
+        },
+        {
+          "id": "B",
+          "text": "fixar solução aritmética."
+        },
+        {
+          "id": "C",
+          "text": "dispensar motivação."
+        },
+        {
+          "id": "D",
+          "text": "harmonizar os bens e preservar o máximo possível de cada um."
+        },
+        {
+          "id": "E",
+          "text": "declarar todo direito absoluto."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A harmonização não elimina a necessidade de justificar a solução concreta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8428",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A proibição de proteção insuficiente",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoriza omissão estatal."
+        },
+        {
+          "id": "B",
+          "text": "é sinônimo de liberdade negativa."
+        },
+        {
+          "id": "C",
+          "text": "elimina autonomia privada."
+        },
+        {
+          "id": "D",
+          "text": "protege apenas patrimônio."
+        },
+        {
+          "id": "E",
+          "text": "controla omissões ou respostas estatais inadequadas diante do dever de proteger."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A proporcionalidade também impede tutela estatal aquém do constitucionalmente devido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8429",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em colisão de direitos fundamentais",
+      "options": [
+        {
+          "id": "A",
+          "text": "não há hierarquia abstrata automática; a solução requer análise e fundamentação concretas."
+        },
+        {
+          "id": "B",
+          "text": "o interesse público sempre vence."
+        },
+        {
+          "id": "C",
+          "text": "a dignidade dispensa argumentação."
+        },
+        {
+          "id": "D",
+          "text": "o direito mais antigo sempre prevalece."
+        },
+        {
+          "id": "E",
+          "text": "ponderação significa escolha intuitiva."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Fatos, finalidade, alternativas e intensidade da restrição devem ser justificados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8430",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O art. 60, § 4º, IV, impede proposta de emenda",
+      "options": [
+        {
+          "id": "A",
+          "text": "que apenas regulamente direito."
+        },
+        {
+          "id": "B",
+          "text": "tendente a abolir direitos e garantias individuais."
+        },
+        {
+          "id": "C",
+          "text": "sobre qualquer matéria do Título II."
+        },
+        {
+          "id": "D",
+          "text": "que amplie proteção."
+        },
+        {
+          "id": "E",
+          "text": "aprovada por três quintos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A expressão “tendente a abolir” alcança ataques ao conteúdo essencial, mesmo sem supressão textual explícita. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8431",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A abertura da Constituição de 1988 aos direitos humanos é evidenciada, em conjunto, por",
+      "options": [
+        {
+          "id": "A",
+          "text": "dignidade da pessoa humana, prevalência dos direitos humanos nas relações internacionais e abertura do catálogo constitucional a direitos decorrentes do regime, dos princípios e dos tratados."
+        },
+        {
+          "id": "B",
+          "text": "taxatividade do art. 5º e proibição de tratados de direitos humanos."
+        },
+        {
+          "id": "C",
+          "text": "supremacia automática de toda declaração internacional sobre a Constituição."
+        },
+        {
+          "id": "D",
+          "text": "exclusão de direitos fundamentais previstos fora do art. 5º."
+        },
+        {
+          "id": "E",
+          "text": "equivalência automática de qualquer tratado internacional a emenda constitucional."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os arts. 1º, III, 4º, II, e 5º, § 2º, expressam abertura e compromisso constitucional com a proteção dos direitos humanos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8432",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação entre proteção constitucional e internacional deve ser compreendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclusão recíproca."
+        },
+        {
+          "id": "B",
+          "text": "subordinação automática do STF a qualquer comissão."
+        },
+        {
+          "id": "C",
+          "text": "inexistência de diálogo normativo."
+        },
+        {
+          "id": "D",
+          "text": "coexistência de parâmetros complementares, observados seus níveis e competências."
+        },
+        {
+          "id": "E",
+          "text": "superioridade de toda declaração sobre a Constituição."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Constituição abre-se aos direitos humanos sem apagar a estrutura e a hierarquia de cada fonte. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8433",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O sistema interamericano de direitos humanos",
+      "options": [
+        {
+          "id": "A",
+          "text": "é quarta instância recursal ordinária."
+        },
+        {
+          "id": "B",
+          "text": "substitui todos os tribunais nacionais."
+        },
+        {
+          "id": "C",
+          "text": "é integrado pelo TPI."
+        },
+        {
+          "id": "D",
+          "text": "dispensa admissibilidade."
+        },
+        {
+          "id": "E",
+          "text": "atua de forma complementar ou subsidiária à proteção interna."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O sistema internacional não funciona como simples recurso para reexaminar qualquer erro interno. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8434",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Considere dois tratados de direitos humanos: T1 foi aprovado pelo rito do art. 5º, § 3º, e T2 foi incorporado sem esse rito. No direito brasileiro, a classificação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "T1 é equivalente a emenda constitucional; T2 possui, segundo o STF, status supralegal."
+        },
+        {
+          "id": "B",
+          "text": "T1 e T2 são necessariamente supraconstitucionais."
+        },
+        {
+          "id": "C",
+          "text": "T1 possui força de lei ordinária; T2 equivale a emenda."
+        },
+        {
+          "id": "D",
+          "text": "T1 e T2 possuem sempre o mesmo nível de tratado internacional comum."
+        },
+        {
+          "id": "E",
+          "text": "T2 não produz efeitos internos por não ter seguido o rito qualificado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 3º atribui equivalência a emenda ao tratado aprovado pelo rito qualificado; o STF atribui supralegalidade aos tratados de direitos humanos incorporados sem esse rito. Fonte: Constituição e RE 466.343/SP."
+    },
+    {
+      "id": "q8435",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Lei que organiza procedimento para proteger dados pessoais concretiza, simultaneamente, dimensões",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas subjetivas, sem efeitos sistêmicos."
+        },
+        {
+          "id": "B",
+          "text": "subjetiva, ao proteger titulares, e objetiva, ao estruturar deveres para a ordem jurídica."
+        },
+        {
+          "id": "C",
+          "text": "somente históricas."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente internacionais."
+        },
+        {
+          "id": "E",
+          "text": "sem relação com direitos fundamentais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A posição do titular convive com deveres estruturantes e efeitos irradiantes sobre o sistema. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8436",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Pessoa sofre ameaça ilegal à liberdade de locomoção. O bem protegido e o instrumento constitucional correspondente são",
+      "options": [
+        {
+          "id": "A",
+          "text": "propriedade e mandado de injunção."
+        },
+        {
+          "id": "B",
+          "text": "informação pessoal e ação popular."
+        },
+        {
+          "id": "C",
+          "text": "liberdade de locomoção e habeas corpus."
+        },
+        {
+          "id": "D",
+          "text": "reunião e habeas data."
+        },
+        {
+          "id": "E",
+          "text": "nacionalidade e mandado de segurança coletivo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A locomoção é direito, e o habeas corpus é garantia específica contra violência ou coação ilegal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8437",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Tratado de direitos humanos foi incorporado sem aprovação em dois turnos por três quintos de cada Casa. Conforme o STF, ele possui, em regra, status",
+      "options": [
+        {
+          "id": "A",
+          "text": "de emenda constitucional automática."
+        },
+        {
+          "id": "B",
+          "text": "supraconstitucional."
+        },
+        {
+          "id": "C",
+          "text": "inferior a decreto."
+        },
+        {
+          "id": "D",
+          "text": "supralegal, acima da lei ordinária e abaixo da Constituição."
+        },
+        {
+          "id": "E",
+          "text": "sem efeito interno."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A ausência do rito do § 3º afasta equivalência a emenda, mas não reduz o tratado de direitos humanos a lei ordinária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8438",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Conforme a classificação tradicional dos direitos fundamentais em gerações ou dimensões, a liberdade de expressão integra predominantemente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "segunda dimensão, ligada à igualdade material."
+        },
+        {
+          "id": "B",
+          "text": "terceira dimensão, ligada à solidariedade."
+        },
+        {
+          "id": "C",
+          "text": "quarta dimensão, em classificação consensual."
+        },
+        {
+          "id": "D",
+          "text": "quinta dimensão, ligada necessariamente à paz."
+        },
+        {
+          "id": "E",
+          "text": "primeira dimensão, ligada à liberdade."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A liberdade de expressão é direito civil de primeira dimensão. Fonte oficial: Cebraspe; Tribunal Regional Federal da 6ª Região (TRF6); 1º concurso público, Edital nº 1 – TRF da 6ª Região, de 10/10/2024; conhecimentos gerais de Técnico Judiciário para os cargos 27 e 28; prova aplicada em 19/01/2025; caderno 034_TRF6_CG6_01; item 32, cujo núcleo afirma que a liberdade de expressão é direito de primeira geração ou dimensão; gabarito oficial definitivo C (Certo). Prova: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_CG6_01.PDF. Gabarito: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/GAB_DEFINITIVO_034_TRF6_CG6_01.PDF. Adaptação: item certo/errado convertido em questão de cinco alternativas, preservando o núcleo e a resposta oficial."
+    }
+  ]
+}

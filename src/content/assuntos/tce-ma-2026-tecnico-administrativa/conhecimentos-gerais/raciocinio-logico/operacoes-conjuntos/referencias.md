@@ -1,4 +1,0 @@
-- CEBRASPE. [Edital nº 1 — TCE/MA, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Raciocínio Lógico, item 6 — Operações com conjuntos.
-- BEMM, Laerte. [Lógica e teoria de conjuntos](https://prh.uem.br/kit/topicos-especiais/logica-e-teoria-de-conjuntos.pdf). Universidade Estadual de Maringá. Noções de conjuntos, operações, propriedades e leis de De Morgan.
-- ROISENBERG, Mauro. [Teoria dos conjuntos](https://www.inf.ufsc.br/~mauro.roisenberg/ine5403/slide/Conjuntos.PDF). Universidade Federal de Santa Catarina. Pertinência, inclusão, operações e cardinalidade.
-- UNIVERSIDADE FEDERAL DE JUIZ DE FORA. [Fundamentos de Matemática Elementar I](https://www2.ufjf.br/mat/files/2009/05/fundamentosdematemticaelementari.pdf). Referência acadêmica para conceitos e operações elementares com conjuntos.

@@ -1,4 +1,0 @@
-- CEBRASPE. [Edital nº 1 — TCE/MA, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático do Cargo 16.
-- DUTIH NOVAES, Catarina; BENTHEM, Johan van; HITCHCOCK, David. [Argument and Argumentation](https://plato.stanford.edu/archives/fall2024/entries/argument/). Stanford Encyclopedia of Philosophy, edição de outono de 2024.
-- HAWTHORNE, James. [Inductive Logic](https://plato.stanford.edu/entries/logic-inductive/). Stanford Encyclopedia of Philosophy, revisão substantiva de 24 fev. 2025.
-- ALMEIDA, Aires. [Validade, verdade e solidez de argumentos](https://ensina.rtp.pt/explicador/validade-verdade-e-solidez-de-argumentos/). RTP Ensina, 2020.

@@ -1,7 +1,0 @@
-- ASSEMBLEIA LEGISLATIVA DO ESTADO DO MARANHÃO. [Constituição do Estado do Maranhão](https://legislacao.al.ma.leg.br/resources/arq/constituicaoma.pdf). Promulgada em 5 out. 1989; versão consolidada. Acesso em: 14 ago. 2026.
-- BARBOSA, Zulene Muniz. [As “temporalidades” da política no Maranhão](https://revistas.pucsp.br/index.php/ls/article/view/18970/14130). *Lutas Sociais*, n. 9/10, 2003. Acesso em: 14 ago. 2026.
-- BRASIL. Câmara dos Deputados. [José Sarney — biografia parlamentar](https://www.camara.leg.br/deputados/131036/biografia). Consultada para a trajetória parlamentar. Acesso em: 14 ago. 2026.
-- FUNDAÇÃO GETULIO VARGAS. CPDOC. [José Sarney](https://atlas.fgv.br/verbete/4909). *Atlas Histórico do Brasil*. Acesso em: 14 ago. 2026.
-- GUILHON, Maria Virginia Moreira. [Sarneísmo no Maranhão: os primórdios de uma oligarquia](https://periodicoseletronicos.ufma.br/index.php/rppublica/article/download/10158/5908). *Revista de Políticas Públicas*, UFMA. Acesso em: 14 ago. 2026.
-- TEIXEIRA, Marcos Paulo. [Transição política brasileira](https://ppghist.uema.br/wp-content/uploads/2023/11/DISSERTACAO-Marcos-Paulo-Teixeira.pdf). Dissertação de mestrado, Universidade Estadual do Maranhão, 2022. Acesso em: 14 ago. 2026.
-- TRIBUNAL REGIONAL ELEITORAL DO MARANHÃO. [Eleições anteriores](https://www.tre-ma.jus.br/eleicoes/eleicoes-anteriores/eleicoes-anteriores). Cronologia, forma e base legal dos pleitos. Acesso em: 14 ago. 2026.

@@ -1,5 +1,0 @@
-- CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS (CEBRASPE). **Edital nº 1 — TCE/MA, de 6 de julho de 2026**. Programa de Língua Portuguesa do Cargo 16.
-- MARCUSCHI, Luiz Antônio. **Gêneros textuais: definição e funcionalidade**.
-- ROJO, Roxane. **Gêneros do discurso**. Glossário Ceale, Faculdade de Educação da UFMG.
-- INSTITUTO NACIONAL DE ESTUDOS E PESQUISAS EDUCACIONAIS ANÍSIO TEIXEIRA (INEP). **Matrizes de referência de Língua Portuguesa/Linguagens do Saeb — BNCC**. Brasília, 2022.
-- GARCEZ, Lucília Helena do Carmo; CORRÊA, Vilma Reche (org.). **Textos dissertativo-argumentativos: subsídios para qualificação de avaliadores**. Brasília: Inep/Cebraspe, 2017.

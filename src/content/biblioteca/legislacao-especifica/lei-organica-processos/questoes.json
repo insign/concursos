@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "q6699",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Segundo o art. 118, são sujeitos do processo no TCE/MA",
+      "options": [
+        {
+          "id": "A",
+          "text": "a parte, o relator, o Ministério Público de Contas e a Secretaria do Tribunal."
+        },
+        {
+          "id": "B",
+          "text": "somente o responsável e seu advogado."
+        },
+        {
+          "id": "C",
+          "text": "apenas o Plenário e a Câmara Municipal."
+        },
+        {
+          "id": "D",
+          "text": "o relator e qualquer cidadão, necessariamente como partes."
+        },
+        {
+          "id": "E",
+          "text": "a parte, o relator e o Ministério Público de Contas, excluída a Secretaria do Tribunal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei enumera parte, relator, MPC e Secretaria como sujeitos processuais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6700",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "São partes no processo perante o TCE/MA",
+      "options": [
+        {
+          "id": "A",
+          "text": "o relator e a Secretaria."
+        },
+        {
+          "id": "B",
+          "text": "o responsável e o interessado."
+        },
+        {
+          "id": "C",
+          "text": "o MPC e a unidade técnica."
+        },
+        {
+          "id": "D",
+          "text": "todos os cidadãos do Estado."
+        },
+        {
+          "id": "E",
+          "text": "o responsável, o interessado e o procurador constituído, todos na condição de partes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 118, § 1º, reserva a condição de parte ao responsável e ao interessado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6701",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Responsável, para a Lei Orgânica, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo servidor da Secretaria, sem relação com o processo."
+        },
+        {
+          "id": "B",
+          "text": "somente quem pede vista dos autos."
+        },
+        {
+          "id": "C",
+          "text": "aquele assim qualificado pelas Constituições, pela Lei Orgânica e pela legislação aplicável."
+        },
+        {
+          "id": "D",
+          "text": "qualquer procurador constituído."
+        },
+        {
+          "id": "E",
+          "text": "aquele que for indicado pelo relator no processo, independentemente de qualificação constitucional ou legal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Esse é o conceito remissivo do art. 118, § 2º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6702",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Interessado é aquele que",
+      "options": [
+        {
+          "id": "A",
+          "text": "se autodeclara parte, sem controle."
+        },
+        {
+          "id": "B",
+          "text": "integra obrigatoriamente o MPC."
+        },
+        {
+          "id": "C",
+          "text": "somente pode ingressar antes da instauração."
+        },
+        {
+          "id": "D",
+          "text": "tem razão legítima para intervir reconhecida pelo relator ou Tribunal, em qualquer etapa."
+        },
+        {
+          "id": "E",
+          "text": "aquele que demonstre interesse econômico no resultado, independentemente de reconhecimento pelo relator ou pelo Tribunal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A razão legítima e seu reconhecimento constam do art. 118, § 3º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6703",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O responsável e o interessado podem praticar atos processuais",
+      "options": [
+        {
+          "id": "A",
+          "text": "diretamente ou por procurador regularmente constituído."
+        },
+        {
+          "id": "B",
+          "text": "somente mediante defensor público."
+        },
+        {
+          "id": "C",
+          "text": "apenas por membro do MPC."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente em sessão presencial."
+        },
+        {
+          "id": "E",
+          "text": "somente por intermédio de procurador que seja advogado regularmente inscrito."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 118, § 1º, admite atuação direta ou por procurador. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6704",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Quanto ao procurador da parte no processo do TCE/MA, a Lei admite que",
+      "options": [
+        {
+          "id": "A",
+          "text": "seja necessariamente Conselheiro."
+        },
+        {
+          "id": "B",
+          "text": "seja regularmente constituído, ainda que não seja advogado."
+        },
+        {
+          "id": "C",
+          "text": "atue sem qualquer constituição."
+        },
+        {
+          "id": "D",
+          "text": "substitua o Ministério Público de Contas."
+        },
+        {
+          "id": "E",
+          "text": "seja regularmente constituído e necessariamente advogado quando praticar ato em sessão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A capacidade postulatória da parte não é reservada a advogado no art. 118, § 1º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6705",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O Ministério Público de Contas, no processo,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é procurador particular do responsável."
+        },
+        {
+          "id": "B",
+          "text": "é sempre interessado."
+        },
+        {
+          "id": "C",
+          "text": "é sujeito processual e atua como fiscal da lei, sem ser automaticamente parte."
+        },
+        {
+          "id": "D",
+          "text": "pratica apenas atos de documentação."
+        },
+        {
+          "id": "E",
+          "text": "é sujeito processual e atua como representante jurídico do Tribunal perante as partes."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os §§ 1º e 5º do art. 118 distinguem partes e atuação institucional do MPC. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6706",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "À Secretaria do Tribunal incumbe, sob direção do relator,",
+      "options": [
+        {
+          "id": "A",
+          "text": "julgar definitivamente toda conta."
+        },
+        {
+          "id": "B",
+          "text": "representar privadamente o interessado."
+        },
+        {
+          "id": "C",
+          "text": "substituir o Plenário na decisão de mérito."
+        },
+        {
+          "id": "D",
+          "text": "praticar atos de documentação, comunicação e instrução necessários ao processo."
+        },
+        {
+          "id": "E",
+          "text": "praticar atos de documentação e comunicação, ficando a instrução reservada exclusivamente ao relator."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Essa função processual da Secretaria está no art. 118, § 6º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6707",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O relator, que pode ser Conselheiro ou Conselheiro-Substituto/Auditor,",
+      "options": [
+        {
+          "id": "A",
+          "text": "preside a instrução do processo."
+        },
+        {
+          "id": "B",
+          "text": "atua somente depois do trânsito em julgado."
+        },
+        {
+          "id": "C",
+          "text": "é servidor da Secretaria em qualquer caso."
+        },
+        {
+          "id": "D",
+          "text": "não pode ordenar saneamento."
+        },
+        {
+          "id": "E",
+          "text": "preside a instrução e decide sozinho o mérito de todos os processos submetidos ao Tribunal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A presidência da instrução é atribuída ao relator pelo art. 118, § 4º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6708",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "As providências instrutórias do relator podem ser determinadas",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a pedido da parte."
+        },
+        {
+          "id": "B",
+          "text": "de ofício ou por provocação da unidade de instrução ou do MPC."
+        },
+        {
+          "id": "C",
+          "text": "somente pelo Poder Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "apenas após o julgamento."
+        },
+        {
+          "id": "E",
+          "text": "de ofício ou exclusivamente por provocação da parte responsável ou interessada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 118, § 4º, prevê iniciativa de ofício ou provocada nesses termos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6709",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Depois de concluída a instrução, o relator",
+      "options": [
+        {
+          "id": "A",
+          "text": "arquiva sempre o processo."
+        },
+        {
+          "id": "B",
+          "text": "remete o feito ao responsável para julgamento particular."
+        },
+        {
+          "id": "C",
+          "text": "submete o feito ao Plenário ou à Câmara competente para decisão de mérito."
+        },
+        {
+          "id": "D",
+          "text": "transforma o processo em consulta."
+        },
+        {
+          "id": "E",
+          "text": "submete o feito exclusivamente ao Plenário, ainda que a competência seja de Câmara."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A submissão ao colegiado competente encerra a função descrita no art. 118, § 4º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6710",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A distribuição dos processos obedece aos princípios de",
+      "options": [
+        {
+          "id": "A",
+          "text": "sigilo, livre escolha e concentração."
+        },
+        {
+          "id": "B",
+          "text": "antiguidade, hierarquia e prevenção, apenas."
+        },
+        {
+          "id": "C",
+          "text": "oralidade, informalidade e gratuidade."
+        },
+        {
+          "id": "D",
+          "text": "publicidade, alternatividade e sorteio."
+        },
+        {
+          "id": "E",
+          "text": "publicidade, prevenção e ordem cronológica de chegada."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A tríade está expressamente prevista no art. 119. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6711",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A forma concreta da distribuição dos processos aos relatores é regulamentada",
+      "options": [
+        {
+          "id": "A",
+          "text": "pelo Regimento Interno."
+        },
+        {
+          "id": "B",
+          "text": "por contrato entre as partes."
+        },
+        {
+          "id": "C",
+          "text": "pela Câmara Municipal."
+        },
+        {
+          "id": "D",
+          "text": "pelo responsável fiscalizado."
+        },
+        {
+          "id": "E",
+          "text": "por ato da Presidência, independentemente do que disponha o Regimento Interno."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O parágrafo único do art. 119 remete a disciplina ao Regimento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6712",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual sequência reproduz as etapas do rito processual do art. 120?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recurso, execução, instauração, sanção e revisão."
+        },
+        {
+          "id": "B",
+          "text": "Instauração, instrução, parecer do MPC, julgamento e recursos."
+        },
+        {
+          "id": "C",
+          "text": "Auditoria, inspeção, sorteio, multa e cobrança."
+        },
+        {
+          "id": "D",
+          "text": "Citação, contrato, parecer prévio, denúncia e registro."
+        },
+        {
+          "id": "E",
+          "text": "Instauração, citação, instrução, julgamento e execução."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Essas cinco etapas estão enumeradas no art. 120. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6713",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A Lei Orgânica admite o uso de meio eletrônico",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente para decisões regulares."
+        },
+        {
+          "id": "B",
+          "text": "apenas para recursos."
+        },
+        {
+          "id": "C",
+          "text": "no rito processual e nos procedimentos do art. 122."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente para comunicação entre Conselheiros."
+        },
+        {
+          "id": "E",
+          "text": "somente na etapa de instrução, sem alcançar os procedimentos mencionados no art. 122."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A autorização consta do art. 120, § 2º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6714",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Para a Lei Orgânica, transmissão eletrônica é",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer armazenamento local de papel digitalizado."
+        },
+        {
+          "id": "B",
+          "text": "apenas a assinatura feita com certificado digital."
+        },
+        {
+          "id": "C",
+          "text": "o cadastro presencial do responsável no Tribunal."
+        },
+        {
+          "id": "D",
+          "text": "toda comunicação a distância por redes, preferencialmente a internet."
+        },
+        {
+          "id": "E",
+          "text": "qualquer forma de armazenamento ou tráfego de documentos e arquivos digitais."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O conceito consta do art. 36, § 2º, II, incorporado ao rito pelo art. 120, § 2º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6715",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "As provas produzidas perante o TCE/MA devem ser apresentadas",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre de forma documental."
+        },
+        {
+          "id": "B",
+          "text": "somente por depoimento oral."
+        },
+        {
+          "id": "C",
+          "text": "sem registro nos autos."
+        },
+        {
+          "id": "D",
+          "text": "apenas em papel autenticado."
+        },
+        {
+          "id": "E",
+          "text": "de forma documental ou oral, conforme escolha do relator em cada processo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A forma documental é exigida pelo art. 121. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6716",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Sobre a prova eletrônica, a Lei Orgânica estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre ilícita."
+        },
+        {
+          "id": "B",
+          "text": "a modalidade eletrônica é compatível com a forma documental."
+        },
+        {
+          "id": "C",
+          "text": "somente o MPC pode produzi-la."
+        },
+        {
+          "id": "D",
+          "text": "não integra a instrução."
+        },
+        {
+          "id": "E",
+          "text": "só é admitida quando posteriormente convertida em documento físico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 121 admite expressamente apresentação documental em modalidade eletrônica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6717",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Prova obtida por meio ilícito, no processo do TCE/MA,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é válida se houver dano elevado."
+        },
+        {
+          "id": "B",
+          "text": "é admitida apenas em tomada especial."
+        },
+        {
+          "id": "C",
+          "text": "é inadmissível."
+        },
+        {
+          "id": "D",
+          "text": "depende somente da vontade da parte."
+        },
+        {
+          "id": "E",
+          "text": "pode ser admitida excepcionalmente quando indispensável à proteção do interesse público."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A vedação está no parágrafo único do art. 121 e na Constituição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6718",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A identificação inequívoca do signatário pode caracterizar assinatura eletrônica, segundo a Lei Orgânica, mediante",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas rubrica manuscrita digitalizada, sem identificação."
+        },
+        {
+          "id": "B",
+          "text": "mensagem anônima enviada à Secretaria."
+        },
+        {
+          "id": "C",
+          "text": "qualquer senha definida unilateralmente pela parte, sem disciplina do Tribunal."
+        },
+        {
+          "id": "D",
+          "text": "assinatura digital baseada em certificado digital emitido por Autoridade Certificadora credenciada, na forma de lei específica, ou cadastro de responsáveis e usuários disciplinado pelo Tribunal."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente por assinatura digital baseada em certificado, vedado cadastro de usuários disciplinado pelo Tribunal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 36, § 2º, III, prevê essas duas formas de identificação inequívoca do signatário, e o art. 120, § 2º, incorpora os conceitos ao rito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6719",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Entre as matérias regulamentadas por atos normativos do TCE/MA está",
+      "options": [
+        {
+          "id": "A",
+          "text": "a instauração, a instrução e a tramitação processual."
+        },
+        {
+          "id": "B",
+          "text": "a criação de competência constitucional nova."
+        },
+        {
+          "id": "C",
+          "text": "a eleição do Governador."
+        },
+        {
+          "id": "D",
+          "text": "a alteração unilateral da Constituição."
+        },
+        {
+          "id": "E",
+          "text": "a definição das hipóteses de recurso judicial contra as decisões do Tribunal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esse é o inciso I do art. 122. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6720",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Pedidos de vista e de cópia dos autos",
+      "options": [
+        {
+          "id": "A",
+          "text": "são proibidos pela Lei Orgânica."
+        },
+        {
+          "id": "B",
+          "text": "têm seus procedimentos regulamentados por atos normativos do Tribunal."
+        },
+        {
+          "id": "C",
+          "text": "são decididos pelo jurisdicionado."
+        },
+        {
+          "id": "D",
+          "text": "substituem a citação."
+        },
+        {
+          "id": "E",
+          "text": "dependem sempre de deferimento ad hoc do relator, sem disciplina por ato normativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A remissão consta do art. 122, II. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6721",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O art. 122 remete a atos normativos os procedimentos relativos",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas ao mérito das contas."
+        },
+        {
+          "id": "B",
+          "text": "somente ao sorteio."
+        },
+        {
+          "id": "C",
+          "text": "às nulidades e às comunicações dos atos processuais."
+        },
+        {
+          "id": "D",
+          "text": "à criação de multas não previstas em lei."
+        },
+        {
+          "id": "E",
+          "text": "somente às comunicações dos atos processuais, pois as nulidades não podem ser regulamentadas pelo Tribunal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Nulidades e comunicações aparecem no inciso III. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6722",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Também integram a remissão do art. 122",
+      "options": [
+        {
+          "id": "A",
+          "text": "nomeação de Conselheiros e eleição municipal."
+        },
+        {
+          "id": "B",
+          "text": "criação de tributos e orçamento estadual."
+        },
+        {
+          "id": "C",
+          "text": "penas criminais e ações eleitorais."
+        },
+        {
+          "id": "D",
+          "text": "certidões, informações e arquivamento de processo."
+        },
+        {
+          "id": "E",
+          "text": "certidões e informações, enquanto o arquivamento deve ser disciplinado exclusivamente pela própria Lei Orgânica."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os incisos IV e V abrangem essas matérias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6723",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A expressão “dentre outros”, empregada pelo art. 122 antes de enumerar procedimentos regulamentáveis, indica que a lista",
+      "options": [
+        {
+          "id": "A",
+          "text": "é não exaustiva e não fornece, por si só, todos os detalhes operacionais."
+        },
+        {
+          "id": "B",
+          "text": "revoga o Regimento Interno."
+        },
+        {
+          "id": "C",
+          "text": "dispensa base legal para o processo."
+        },
+        {
+          "id": "D",
+          "text": "torna todo processo sigiloso."
+        },
+        {
+          "id": "E",
+          "text": "é taxativa, porque os cinco incisos esgotam as matérias que podem receber regulamentação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 122 apresenta enumeração não exaustiva; os detalhes vêm dos atos normativos vigentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6724",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Os prazos referidos na Lei nº 8.258/2005 são",
+      "options": [
+        {
+          "id": "A",
+          "text": "contados apenas em dias úteis."
+        },
+        {
+          "id": "B",
+          "text": "contínuos e não se interrompem nos feriados."
+        },
+        {
+          "id": "C",
+          "text": "sempre suspensos no fim de semana."
+        },
+        {
+          "id": "D",
+          "text": "definidos livremente pela parte."
+        },
+        {
+          "id": "E",
+          "text": "contínuos, mas deixam de correr aos sábados, domingos e feriados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Essa regra abre o art. 123. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6725",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na citação e na intimação de decisão interlocutória, o art. 123 toma como referência",
+      "options": [
+        {
+          "id": "A",
+          "text": "a data do julgamento final."
+        },
+        {
+          "id": "B",
+          "text": "a posse do relator."
+        },
+        {
+          "id": "C",
+          "text": "o recebimento pela parte."
+        },
+        {
+          "id": "D",
+          "text": "a abertura da sessão legislativa."
+        },
+        {
+          "id": "E",
+          "text": "a publicação no Diário Oficial Eletrônico do TCE/MA, tanto para citação quanto para intimação interlocutória."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O recebimento é o evento indicado no art. 123, I. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6726",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Quando a parte não é localizada, o prazo tem como referência",
+      "options": [
+        {
+          "id": "A",
+          "text": "a emissão interna do edital."
+        },
+        {
+          "id": "B",
+          "text": "a tentativa telefônica."
+        },
+        {
+          "id": "C",
+          "text": "o relatório técnico."
+        },
+        {
+          "id": "D",
+          "text": "a publicação do edital no Diário Oficial Eletrônico do TCE/MA."
+        },
+        {
+          "id": "E",
+          "text": "a data da primeira tentativa de entrega da citação no endereço informado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Essa hipótese está no art. 123, III. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6727",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Para acórdão ou parecer prévio, o termo indicado pela Lei é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a publicação no Diário Oficial Eletrônico do TCE/MA."
+        },
+        {
+          "id": "B",
+          "text": "a elaboração da minuta."
+        },
+        {
+          "id": "C",
+          "text": "o recebimento das contas pelo controle interno."
+        },
+        {
+          "id": "D",
+          "text": "a sessão legislativa seguinte."
+        },
+        {
+          "id": "E",
+          "text": "a data da sessão em que o colegiado aprovou o acórdão ou o parecer prévio."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A publicação consta do art. 123, IV. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6728",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Se houver documento que comprove a ciência da parte, a referência é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a data escolhida pelo interessado."
+        },
+        {
+          "id": "B",
+          "text": "a data constante do documento."
+        },
+        {
+          "id": "C",
+          "text": "o início do recesso."
+        },
+        {
+          "id": "D",
+          "text": "o fim do exercício."
+        },
+        {
+          "id": "E",
+          "text": "a data fixada pelo relator, ainda que diversa da constante do documento comprobatório."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 123, II, usa a data do documento comprobatório. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6729",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Nos demais casos, salvo disposição legal expressa em contrário, conta-se da",
+      "options": [
+        {
+          "id": "A",
+          "text": "instauração da auditoria."
+        },
+        {
+          "id": "B",
+          "text": "escolha do relator."
+        },
+        {
+          "id": "C",
+          "text": "publicação da decisão no Diário Oficial Eletrônico do TCE/MA."
+        },
+        {
+          "id": "D",
+          "text": "apresentação das contas anuais."
+        },
+        {
+          "id": "E",
+          "text": "a data da assinatura da decisão pelo relator."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Essa regra residual está no art. 123, V. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6730",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Acréscimos em publicação e retificações, inclusive de citação ou intimação,",
+      "options": [
+        {
+          "id": "A",
+          "text": "não afetam prazo algum."
+        },
+        {
+          "id": "B",
+          "text": "reduzem o prazo à metade."
+        },
+        {
+          "id": "C",
+          "text": "geram revelia imediata."
+        },
+        {
+          "id": "D",
+          "text": "devolvem o prazo à parte."
+        },
+        {
+          "id": "E",
+          "text": "suspendem apenas o saldo do prazo já transcorrido, que volta a correr da publicação corrigida."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Essa é a regra expressa do art. 124. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6731",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na contagem dos prazos, salvo regra contrária,",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclui-se o dia inicial e inclui-se o vencimento."
+        },
+        {
+          "id": "B",
+          "text": "incluem-se ambos e se exclui o dia anterior."
+        },
+        {
+          "id": "C",
+          "text": "exclui-se sempre o vencimento."
+        },
+        {
+          "id": "D",
+          "text": "a parte escolhe os dias computados."
+        },
+        {
+          "id": "E",
+          "text": "excluem-se tanto o dia inicial quanto o dia do vencimento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A fórmula está no caput do art. 125. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6732",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Se o vencimento recair em dia sem expediente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o prazo vence no dia anterior."
+        },
+        {
+          "id": "B",
+          "text": "prorroga-se até o primeiro dia útil imediato."
+        },
+        {
+          "id": "C",
+          "text": "o prazo é cancelado."
+        },
+        {
+          "id": "D",
+          "text": "abre-se sempre novo prazo de trinta dias."
+        },
+        {
+          "id": "E",
+          "text": "mantém-se o vencimento nessa data, admitindo-se apenas protocolo no dia útil seguinte sem prorrogação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único do art. 125 estabelece essa prorrogação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6733",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Durante o recesso do Tribunal, os prazos fixados para a parte",
+      "options": [
+        {
+          "id": "A",
+          "text": "são automaticamente duplicados."
+        },
+        {
+          "id": "B",
+          "text": "começam novamente depois do recesso."
+        },
+        {
+          "id": "C",
+          "text": "não se suspendem nem se interrompem."
+        },
+        {
+          "id": "D",
+          "text": "dependem de autorização do responsável."
+        },
+        {
+          "id": "E",
+          "text": "são suspensos durante o recesso, mas não se consideram interrompidos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A continuidade durante o recesso decorre do art. 126. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6734",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A regra do recesso alcança",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente prazos do MPC."
+        },
+        {
+          "id": "B",
+          "text": "apenas recursos conhecidos."
+        },
+        {
+          "id": "C",
+          "text": "somente determinações sem defesa."
+        },
+        {
+          "id": "D",
+          "text": "recursos, defesa, cumprimento de determinação e demais prazos da parte."
+        },
+        {
+          "id": "E",
+          "text": "recursos e defesa, mas não prazo para cumprimento de determinação do Tribunal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 126 formula a regra de modo abrangente para os prazos fixados à parte. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6735",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Decorrido o prazo para a prática do ato, o direito de praticá-lo ou alterá-lo",
+      "options": [
+        {
+          "id": "A",
+          "text": "extingue-se independentemente de declaração, ressalvado justo motivo comprovado."
+        },
+        {
+          "id": "B",
+          "text": "permanece indefinidamente."
+        },
+        {
+          "id": "C",
+          "text": "só se extingue por sentença judicial."
+        },
+        {
+          "id": "D",
+          "text": "transfere-se ao MPC."
+        },
+        {
+          "id": "E",
+          "text": "extingue-se somente após declaração expressa do relator ou do colegiado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O parágrafo único do art. 126 disciplina a preclusão e a ressalva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6736",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A exceção legal à perda da oportunidade processual exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "simples alegação genérica."
+        },
+        {
+          "id": "B",
+          "text": "justo motivo comprovado."
+        },
+        {
+          "id": "C",
+          "text": "concordância do outro responsável."
+        },
+        {
+          "id": "D",
+          "text": "recesso do Tribunal."
+        },
+        {
+          "id": "E",
+          "text": "pedido apresentado antes do vencimento, ainda que sem demonstração do motivo alegado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei exige comprovação do justo motivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6737",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na instrução dos processos, a ciência da parte para apresentar defesa é",
+      "options": [
+        {
+          "id": "A",
+          "text": "faculdade dispensável da Secretaria."
+        },
+        {
+          "id": "B",
+          "text": "necessária apenas após a execução."
+        },
+        {
+          "id": "C",
+          "text": "formalidade essencial."
+        },
+        {
+          "id": "D",
+          "text": "substituída sempre por sustentação oral."
+        },
+        {
+          "id": "E",
+          "text": "dispensável quando a irregularidade estiver integralmente demonstrada por documentos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O caput do art. 127 qualifica expressamente a ciência dessa forma. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6738",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A citação postal prevista no art. 127 utiliza",
+      "options": [
+        {
+          "id": "A",
+          "text": "mensagem informal sem comprovação."
+        },
+        {
+          "id": "B",
+          "text": "qualquer endereço escolhido pelo Tribunal."
+        },
+        {
+          "id": "C",
+          "text": "publicação sem tentativa de entrega."
+        },
+        {
+          "id": "D",
+          "text": "carta registrada com AR entregue no endereço indicado pelo responsável."
+        },
+        {
+          "id": "E",
+          "text": "mensagem eletrônica simples enviada a qualquer endereço conhecido da parte, mesmo sem comprovação de entrega."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Esses são os elementos do art. 127, § 1º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6739",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Para a validade da entrega postal descrita na Lei,",
+      "options": [
+        {
+          "id": "A",
+          "text": "não se exige assinatura ou rubrica do próprio citado no AR."
+        },
+        {
+          "id": "B",
+          "text": "somente o relator pode assinar o AR."
+        },
+        {
+          "id": "C",
+          "text": "o citado deve comparecer ao Tribunal no mesmo dia."
+        },
+        {
+          "id": "D",
+          "text": "é indispensável reconhecimento de firma."
+        },
+        {
+          "id": "E",
+          "text": "o AR deve ser assinado pelo próprio citado ou por procurador com poderes específicos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 127, § 1º, dispensa assinatura de próprio punho do citado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6740",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Se nenhuma assinatura ou rubrica for obtida no AR enviado ao endereço indicado,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o processo é extinto com mérito."
+        },
+        {
+          "id": "B",
+          "text": "a citação será realizada por edital no Diário Oficial Eletrônico."
+        },
+        {
+          "id": "C",
+          "text": "a defesa é presumida apresentada."
+        },
+        {
+          "id": "D",
+          "text": "o responsável é absolvido."
+        },
+        {
+          "id": "E",
+          "text": "deve ser feita uma segunda tentativa postal antes de qualquer possibilidade de citação por edital."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Essa passagem à citação editalícia está no art. 127, § 2º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6741",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O comparecimento espontâneo do responsável para ciência nos autos",
+      "options": [
+        {
+          "id": "A",
+          "text": "gera automaticamente quitação."
+        },
+        {
+          "id": "B",
+          "text": "substitui o julgamento."
+        },
+        {
+          "id": "C",
+          "text": "supre a falta da citação."
+        },
+        {
+          "id": "D",
+          "text": "impede qualquer defesa."
+        },
+        {
+          "id": "E",
+          "text": "não supre a citação, servindo apenas para suspender o prazo até novo ato citatório."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A regra de aproveitamento está no art. 127, § 3º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6742",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O prazo legal de defesa é",
+      "options": [
+        {
+          "id": "A",
+          "text": "quinze dias, improrrogáveis."
+        },
+        {
+          "id": "B",
+          "text": "sessenta dias, sempre automáticos."
+        },
+        {
+          "id": "C",
+          "text": "dez dias úteis."
+        },
+        {
+          "id": "D",
+          "text": "trinta dias, prorrogáveis por até trinta a critério do relator."
+        },
+        {
+          "id": "E",
+          "text": "trinta dias, prorrogáveis automaticamente por mais trinta se houver pedido da parte."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 127, § 4º, fixa o prazo e seu limite de prorrogação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6743",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "No art. 127, o prazo de defesa é contado",
+      "options": [
+        {
+          "id": "A",
+          "text": "da assinatura ou rubrica no AR ou da publicação do edital, conforme a citação."
+        },
+        {
+          "id": "B",
+          "text": "sempre da distribuição do processo."
+        },
+        {
+          "id": "C",
+          "text": "da publicação do parecer do MPC."
+        },
+        {
+          "id": "D",
+          "text": "do encerramento do exercício."
+        },
+        {
+          "id": "E",
+          "text": "do recebimento pela parte, tanto na modalidade postal quanto na citação por edital."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os dois termos específicos estão no art. 127, § 4º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6744",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A prorrogação do prazo de defesa",
+      "options": [
+        {
+          "id": "A",
+          "text": "ocorre sempre e dobra automaticamente o prazo."
+        },
+        {
+          "id": "B",
+          "text": "depende do critério do relator e não pode exceder trinta dias."
+        },
+        {
+          "id": "C",
+          "text": "é decidida pelo responsável."
+        },
+        {
+          "id": "D",
+          "text": "não possui limite legal."
+        },
+        {
+          "id": "E",
+          "text": "pode ultrapassar trinta dias adicionais quando houver justificativa apresentada pela parte."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A prorrogação é discricionária dentro do teto do art. 127, § 4º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6745",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A defesa deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "limitar-se a negar tudo genericamente."
+        },
+        {
+          "id": "B",
+          "text": "tratar apenas do ponto escolhido pelo relator."
+        },
+        {
+          "id": "C",
+          "text": "manifestar-se precisamente sobre toda a matéria, com razões articuladas de fato e de direito."
+        },
+        {
+          "id": "D",
+          "text": "ser exclusivamente oral."
+        },
+        {
+          "id": "E",
+          "text": "pode limitar-se às ocorrências que a parte considere relevantes, sem necessidade de enfrentar toda a matéria."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Esse ônus de impugnação específica consta do art. 127, § 5º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6746",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Ao impugnar as ocorrências do relatório técnico, a parte deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "aguardar o recurso para produzir qualquer elemento."
+        },
+        {
+          "id": "B",
+          "text": "entregar as provas ao jurisdicionado."
+        },
+        {
+          "id": "C",
+          "text": "omitir os fundamentos de direito."
+        },
+        {
+          "id": "D",
+          "text": "juntar as provas em que funda sua defesa."
+        },
+        {
+          "id": "E",
+          "text": "pode apenas indicar as provas e juntá-las após encerrada a instrução, independentemente de autorização."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A juntada das provas integra a regra do art. 127, § 5º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6747",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Se a parte apresenta defesa, mas não contesta uma ocorrência específica,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é considerada revel quanto à ocorrência não contestada."
+        },
+        {
+          "id": "B",
+          "text": "toda a defesa é necessariamente inexistente."
+        },
+        {
+          "id": "C",
+          "text": "o processo deve ser arquivado."
+        },
+        {
+          "id": "D",
+          "text": "a ocorrência é automaticamente afastada."
+        },
+        {
+          "id": "E",
+          "text": "não há revelia parcial: ela somente existe quando nenhuma defesa é apresentada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 127, § 5º, admite revelia relativa ao ponto não impugnado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6748",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A ausência de defesa no prazo faz com que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o processo fique suspenso indefinidamente."
+        },
+        {
+          "id": "B",
+          "text": "a parte seja revel e o processo prossiga normalmente."
+        },
+        {
+          "id": "C",
+          "text": "a tomada de contas seja automaticamente regular."
+        },
+        {
+          "id": "D",
+          "text": "o relator perca a competência."
+        },
+        {
+          "id": "E",
+          "text": "a parte seja revel, com confissão automática e julgamento imediato sem exame dos demais elementos dos autos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Esses efeitos estão no art. 127, § 6º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6749",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Contra a parte revel, os prazos",
+      "options": [
+        {
+          "id": "A",
+          "text": "ficam suspensos por cinco anos."
+        },
+        {
+          "id": "B",
+          "text": "dependem de citação postal para cada ato."
+        },
+        {
+          "id": "C",
+          "text": "correm independentemente de intimação."
+        },
+        {
+          "id": "D",
+          "text": "são escolhidos pelo procurador."
+        },
+        {
+          "id": "E",
+          "text": "somente correm depois de intimação pessoal da parte para cada novo ato processual."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A regra está no art. 127, § 7º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6750",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A parte revel pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "exigir repetição de todos os atos."
+        },
+        {
+          "id": "B",
+          "text": "intervir somente após recurso."
+        },
+        {
+          "id": "C",
+          "text": "alterar ato precluso sem justificativa."
+        },
+        {
+          "id": "D",
+          "text": "intervir em qualquer fase, recebendo o processo no estado em que se encontra."
+        },
+        {
+          "id": "E",
+          "text": "intervir em qualquer fase e exigir o retorno automático do processo à etapa de defesa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Essa possibilidade é preservada pelo art. 127, § 7º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6751",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A intervenção posterior do revel",
+      "options": [
+        {
+          "id": "A",
+          "text": "não reabre automaticamente fases já preclusas."
+        },
+        {
+          "id": "B",
+          "text": "anula obrigatoriamente a instrução."
+        },
+        {
+          "id": "C",
+          "text": "gera nova distribuição."
+        },
+        {
+          "id": "D",
+          "text": "transforma-o em relator."
+        },
+        {
+          "id": "E",
+          "text": "reabre automaticamente o prazo de defesa, embora não repita os demais atos processuais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Receber o processo no estado atual não significa repetir atos concluídos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6752",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A sustentação oral ocorre",
+      "options": [
+        {
+          "id": "A",
+          "text": "antes da apresentação do relatório."
+        },
+        {
+          "id": "B",
+          "text": "depois do relatório e antes do voto ou proposta de decisão."
+        },
+        {
+          "id": "C",
+          "text": "somente após o trânsito em julgado."
+        },
+        {
+          "id": "D",
+          "text": "depois da execução da multa."
+        },
+        {
+          "id": "E",
+          "text": "depois do voto do relator e antes da proclamação do resultado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O momento é definido pelo art. 128. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6753",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Pode produzir sustentação oral",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente advogado inscrito na OAB."
+        },
+        {
+          "id": "B",
+          "text": "apenas o MPC."
+        },
+        {
+          "id": "C",
+          "text": "a parte pessoalmente ou procurador devidamente constituído, ainda que não advogado."
+        },
+        {
+          "id": "D",
+          "text": "qualquer espectador da sessão."
+        },
+        {
+          "id": "E",
+          "text": "a parte pessoalmente ou advogado constituído, vedada a atuação de procurador que não seja advogado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A legitimação consta do art. 128 e acompanha a regra de representação do art. 118. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6754",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Para exercer a sustentação oral, a parte deve requerê-la",
+      "options": [
+        {
+          "id": "A",
+          "text": "depois do voto."
+        },
+        {
+          "id": "B",
+          "text": "somente no recurso."
+        },
+        {
+          "id": "C",
+          "text": "trinta dias após a sessão."
+        },
+        {
+          "id": "D",
+          "text": "antes do início da sessão."
+        },
+        {
+          "id": "E",
+          "text": "até o momento imediatamente anterior ao voto, mesmo que a sessão já tenha começado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O requerimento prévio é condição expressa do art. 128. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6755",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A forma de exercício da sustentação oral é regulamentada",
+      "options": [
+        {
+          "id": "A",
+          "text": "pelo Regimento Interno."
+        },
+        {
+          "id": "B",
+          "text": "pelo responsável fiscalizado."
+        },
+        {
+          "id": "C",
+          "text": "pela Constituição Municipal."
+        },
+        {
+          "id": "D",
+          "text": "por cada procurador da parte."
+        },
+        {
+          "id": "E",
+          "text": "por ato do Ministério Público de Contas, que define o rito da manifestação em sessão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O parágrafo único do art. 128 faz essa remissão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6756",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na etapa da instrução, o art. 120, § 1º, aplica aos servidores",
+      "options": [
+        {
+          "id": "A",
+          "text": "a competência para julgar definitivamente as contas."
+        },
+        {
+          "id": "B",
+          "text": "a vedação de atuar nos processos abrangidos pelo art. 96, VIII, inclusive por interesse próprio ou de familiares até terceiro grau."
+        },
+        {
+          "id": "C",
+          "text": "o direito de representar privadamente o responsável."
+        },
+        {
+          "id": "D",
+          "text": "a dispensa de imparcialidade quando já tenham atuado no processo."
+        },
+        {
+          "id": "E",
+          "text": "apenas aos Conselheiros e Conselheiros-Substitutos, sem extensão aos servidores que atuam na instrução."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 120, § 1º, estende aos servidores, na instrução, a vedação do art. 96, VIII. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6757",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Não se deve confundir citação com intimação porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambas são recursos."
+        },
+        {
+          "id": "B",
+          "text": "nenhuma comunica atos processuais."
+        },
+        {
+          "id": "C",
+          "text": "a citação abre a defesa, enquanto a intimação dá ciência nas hipóteses decisórias previstas."
+        },
+        {
+          "id": "D",
+          "text": "a intimação sempre substitui julgamento."
+        },
+        {
+          "id": "E",
+          "text": "citação e intimação exercem a mesma função processual, diferenciando-se apenas pelo meio utilizado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os arts. 123 e 127 atribuem funções e termos próprios a essas comunicações. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6758",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Durante o recesso do TCE/MA, um prazo de defesa continua correndo e seu último dia recai em data sem expediente. Segundo os arts. 125 e 126 da Lei nº 8.258/2005, o prazo",
+      "options": [
+        {
+          "id": "A",
+          "text": "fica suspenso desde o início do recesso e recomeça integralmente depois dele."
+        },
+        {
+          "id": "B",
+          "text": "continua correndo, mas o vencimento é prorrogado até o primeiro dia útil imediato."
+        },
+        {
+          "id": "C",
+          "text": "é interrompido pelo recesso e reiniciado por novo prazo de trinta dias."
+        },
+        {
+          "id": "D",
+          "text": "continua correndo e vence no último dia contado, ainda que não haja expediente."
+        },
+        {
+          "id": "E",
+          "text": "é automaticamente prorrogado por mais trinta dias em razão do recesso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 126 determina que o recesso não suspende nem interrompe os prazos da parte. Já o art. 125, parágrafo único, prorroga o vencimento para o primeiro dia útil imediato quando o último dia recair em data sem expediente. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}

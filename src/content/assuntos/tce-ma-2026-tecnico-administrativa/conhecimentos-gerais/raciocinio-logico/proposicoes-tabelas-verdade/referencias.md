@@ -1,3 +1,0 @@
-- CEBRASPE. [Edital do concurso público do TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático vigente consultado em 18 jul. 2026.
-- UNIVERSIDADE FEDERAL DE MINAS GERAIS. [Fundamentos da lógica](https://homepages.dcc.ufmg.br/~loureiro/md/md_1FundamentosDaLogica.pdf). Departamento de Ciência da Computação. Material didático consultado em 18 jul. 2026.
-- UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL. [Lógica proposicional](https://www.facom.ufms.br/~eah/ftc/logica-4p.pdf). Faculdade de Computação. Material didático consultado em 18 jul. 2026.
