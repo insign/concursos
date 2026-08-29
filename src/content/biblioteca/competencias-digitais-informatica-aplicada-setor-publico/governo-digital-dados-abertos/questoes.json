@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q4599",
@@ -8,26 +8,11 @@
       "origin": "authorial",
       "prompt": "Governo digital distingue-se da mera informatização porque",
       "options": [
-        {
-          "id": "A",
-          "text": "redesenha processos, jornadas e capacidades para gerar valor público com apoio da tecnologia."
-        },
-        {
-          "id": "B",
-          "text": "consiste apenas em converter formulários de papel em PDF."
-        },
-        {
-          "id": "C",
-          "text": "elimina obrigatoriamente todo atendimento humano."
-        },
-        {
-          "id": "D",
-          "text": "dispensa avaliar acessibilidade e experiência do usuário."
-        },
-        {
-          "id": "E",
-          "text": "torna desnecessárias mudanças organizacionais."
-        }
+        { "id": "A", "text": "redesenha processos, jornadas e capacidades para gerar valor público com apoio da tecnologia." },
+        { "id": "B", "text": "consiste apenas em converter formulários de papel em PDF." },
+        { "id": "C", "text": "elimina obrigatoriamente todo atendimento humano." },
+        { "id": "D", "text": "dispensa avaliar acessibilidade e experiência do usuário." },
+        { "id": "E", "text": "torna desnecessárias mudanças organizacionais." }
       ],
       "correctOptionId": "A",
       "explanation": "Transformação digital modifica a forma de entregar o serviço; simples conversão de suporte pode ser apenas informatização. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -38,26 +23,11 @@
       "origin": "authorial",
       "prompt": "Em iniciativa de governo digital, a tecnologia deve ser tratada como",
       "options": [
-        {
-          "id": "A",
-          "text": "fim autônomo, ainda que não melhore o serviço."
-        },
-        {
-          "id": "B",
-          "text": "meio para ampliar acesso, inclusão, segurança, transparência e efetividade."
-        },
-        {
-          "id": "C",
-          "text": "substituta de qualquer decisão administrativa."
-        },
-        {
-          "id": "D",
-          "text": "garantia automática de acessibilidade."
-        },
-        {
-          "id": "E",
-          "text": "razão suficiente para eliminar canais assistidos."
-        }
+        { "id": "A", "text": "fim autônomo, ainda que não melhore o serviço." },
+        { "id": "B", "text": "meio para ampliar acesso, inclusão, segurança, transparência e efetividade." },
+        { "id": "C", "text": "substituta de qualquer decisão administrativa." },
+        { "id": "D", "text": "garantia automática de acessibilidade." },
+        { "id": "E", "text": "razão suficiente para eliminar canais assistidos." }
       ],
       "correctOptionId": "B",
       "explanation": "O resultado esperado é valor público, não a adoção de ferramenta por si mesma. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -68,26 +38,11 @@
       "origin": "authorial",
       "prompt": "Quanto ao âmbito da Lei nº 14.129/2021, é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "se aplica diretamente apenas ao Poder Executivo federal."
-        },
-        {
-          "id": "B",
-          "text": "obriga automaticamente todos os municípios sem ato local."
-        },
-        {
-          "id": "C",
-          "text": "alcança diretamente os órgãos federais indicados, e sua adoção por outros entes depende do respectivo ato normativo."
-        },
-        {
-          "id": "D",
-          "text": "exclui autarquias e fundações federais."
-        },
-        {
-          "id": "E",
-          "text": "se limita aos serviços prestados por aplicativo móvel."
-        }
+        { "id": "A", "text": "se aplica diretamente apenas ao Poder Executivo federal." },
+        { "id": "B", "text": "obriga automaticamente todos os municípios sem ato local." },
+        { "id": "C", "text": "alcança diretamente os órgãos federais indicados, e sua adoção por outros entes depende do respectivo ato normativo." },
+        { "id": "D", "text": "exclui autarquias e fundações federais." },
+        { "id": "E", "text": "se limita aos serviços prestados por aplicativo móvel." }
       ],
       "correctOptionId": "C",
       "explanation": "A lei define seu âmbito federal e prevê adoção por estados, DF e municípios mediante atos próprios. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -98,26 +53,11 @@
       "origin": "authorial",
       "prompt": "A prestação digital de serviços públicos",
       "options": [
-        {
-          "id": "A",
-          "text": "proíbe atendimento presencial."
-        },
-        {
-          "id": "B",
-          "text": "dispensa linguagem simples."
-        },
-        {
-          "id": "C",
-          "text": "pode ignorar pessoas sem conectividade."
-        },
-        {
-          "id": "D",
-          "text": "deve conviver com acessibilidade, universalização e canais adequados ao público."
-        },
-        {
-          "id": "E",
-          "text": "exige autosserviço em toda atividade."
-        }
+        { "id": "A", "text": "proíbe atendimento presencial." },
+        { "id": "B", "text": "dispensa linguagem simples." },
+        { "id": "C", "text": "pode ignorar pessoas sem conectividade." },
+        { "id": "D", "text": "deve conviver com acessibilidade, universalização e canais adequados ao público." },
+        { "id": "E", "text": "exige autosserviço em toda atividade." }
       ],
       "correctOptionId": "D",
       "explanation": "Digital por padrão não significa digital como única barreira. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -128,26 +68,11 @@
       "origin": "authorial",
       "prompt": "Autosserviço, na Lei do Governo Digital, corresponde ao",
       "options": [
-        {
-          "id": "A",
-          "text": "atendimento por terceirizado."
-        },
-        {
-          "id": "B",
-          "text": "compartilhamento irrestrito de dados."
-        },
-        {
-          "id": "C",
-          "text": "uso obrigatório de canal presencial."
-        },
-        {
-          "id": "D",
-          "text": "acesso mediado por servidor em videoconferência."
-        },
-        {
-          "id": "E",
-          "text": "acesso do cidadão ao serviço por meio digital sem mediação humana."
-        }
+        { "id": "A", "text": "atendimento por terceirizado." },
+        { "id": "B", "text": "compartilhamento irrestrito de dados." },
+        { "id": "C", "text": "uso obrigatório de canal presencial." },
+        { "id": "D", "text": "acesso mediado por servidor em videoconferência." },
+        { "id": "E", "text": "acesso do cidadão ao serviço por meio digital sem mediação humana." }
       ],
       "correctOptionId": "E",
       "explanation": "O traço distintivo é a realização digital direta pelo usuário. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -158,26 +83,11 @@
       "origin": "authorial",
       "prompt": "Plataforma de governo digital é",
       "options": [
-        {
-          "id": "A",
-          "text": "ferramenta ou serviço comum, centralizado e compartilhado, necessário à oferta digital de serviços."
-        },
-        {
-          "id": "B",
-          "text": "qualquer perfil oficial em rede social."
-        },
-        {
-          "id": "C",
-          "text": "um arquivo isolado sem integração."
-        },
-        {
-          "id": "D",
-          "text": "sinônimo obrigatório do Portal GOV.BR."
-        },
-        {
-          "id": "E",
-          "text": "aplicação exclusiva de um único servidor."
-        }
+        { "id": "A", "text": "ferramenta ou serviço comum, centralizado e compartilhado, necessário à oferta digital de serviços." },
+        { "id": "B", "text": "qualquer perfil oficial em rede social." },
+        { "id": "C", "text": "um arquivo isolado sem integração." },
+        { "id": "D", "text": "sinônimo obrigatório do Portal GOV.BR." },
+        { "id": "E", "text": "aplicação exclusiva de um único servidor." }
       ],
       "correctOptionId": "A",
       "explanation": "Plataformas são capacidades comuns e reutilizáveis. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -188,26 +98,11 @@
       "origin": "authorial",
       "prompt": "Governo como plataforma refere-se principalmente a",
       "options": [
-        {
-          "id": "A",
-          "text": "um único site com toda informação estatal."
-        },
-        {
-          "id": "B",
-          "text": "infraestrutura que facilita uso seguro de dados e interação entre agentes para inovação e serviços."
-        },
-        {
-          "id": "C",
-          "text": "digitalização de documentos em papel."
-        },
-        {
-          "id": "D",
-          "text": "regime de sigilo para bases públicas."
-        },
-        {
-          "id": "E",
-          "text": "terceirização integral da decisão administrativa."
-        }
+        { "id": "A", "text": "um único site com toda informação estatal." },
+        { "id": "B", "text": "infraestrutura que facilita uso seguro de dados e interação entre agentes para inovação e serviços." },
+        { "id": "C", "text": "digitalização de documentos em papel." },
+        { "id": "D", "text": "regime de sigilo para bases públicas." },
+        { "id": "E", "text": "terceirização integral da decisão administrativa." }
       ],
       "correctOptionId": "B",
       "explanation": "O conceito organiza capacidades compartilhadas e ecossistemas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -218,26 +113,11 @@
       "origin": "authorial",
       "prompt": "São componentes essenciais da prestação digital previstos na Lei nº 14.129/2021",
       "options": [
-        {
-          "id": "A",
-          "text": "redes sociais, mensagens e publicidade."
-        },
-        {
-          "id": "B",
-          "text": "certificados privados, bancos e aplicativos."
-        },
-        {
-          "id": "C",
-          "text": "Base Nacional de Serviços Públicos, Cartas de Serviços e Plataformas de Governo Digital."
-        },
-        {
-          "id": "D",
-          "text": "somente sistemas de pagamento."
-        },
-        {
-          "id": "E",
-          "text": "apenas portais institucionais."
-        }
+        { "id": "A", "text": "redes sociais, mensagens e publicidade." },
+        { "id": "B", "text": "certificados privados, bancos e aplicativos." },
+        { "id": "C", "text": "Base Nacional de Serviços Públicos, Cartas de Serviços e Plataformas de Governo Digital." },
+        { "id": "D", "text": "somente sistemas de pagamento." },
+        { "id": "E", "text": "apenas portais institucionais." }
       ],
       "correctOptionId": "C",
       "explanation": "A enumeração legal não se reduz a canais ou tecnologias isoladas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -248,26 +128,11 @@
       "origin": "authorial",
       "prompt": "Entre as funcionalidades mínimas de uma Plataforma de Governo Digital estão",
       "options": [
-        {
-          "id": "A",
-          "text": "divulgar senha do usuário."
-        },
-        {
-          "id": "B",
-          "text": "deferir automaticamente toda solicitação."
-        },
-        {
-          "id": "C",
-          "text": "funcionar somente em computador de mesa."
-        },
-        {
-          "id": "D",
-          "text": "permitir solicitar e acompanhar serviços e oferecer painel de monitoramento de desempenho."
-        },
-        {
-          "id": "E",
-          "text": "eliminar registros de auditoria."
-        }
+        { "id": "A", "text": "divulgar senha do usuário." },
+        { "id": "B", "text": "deferir automaticamente toda solicitação." },
+        { "id": "C", "text": "funcionar somente em computador de mesa." },
+        { "id": "D", "text": "permitir solicitar e acompanhar serviços e oferecer painel de monitoramento de desempenho." },
+        { "id": "E", "text": "eliminar registros de auditoria." }
       ],
       "correctOptionId": "D",
       "explanation": "Solicitação, acompanhamento e monitoramento são elementos expressos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -278,26 +143,11 @@
       "origin": "authorial",
       "prompt": "Espaço aberto à participação e colaboração social para desenvolver ideias, ferramentas e métodos inovadores é",
       "options": [
-        {
-          "id": "A",
-          "text": "registro de referência."
-        },
-        {
-          "id": "B",
-          "text": "formato aberto."
-        },
-        {
-          "id": "C",
-          "text": "plataforma de governo digital."
-        },
-        {
-          "id": "D",
-          "text": "governo como plataforma."
-        },
-        {
-          "id": "E",
-          "text": "laboratório de inovação."
-        }
+        { "id": "A", "text": "registro de referência." },
+        { "id": "B", "text": "formato aberto." },
+        { "id": "C", "text": "plataforma de governo digital." },
+        { "id": "D", "text": "governo como plataforma." },
+        { "id": "E", "text": "laboratório de inovação." }
       ],
       "correctOptionId": "E",
       "explanation": "Laboratório é ambiente de experimentação colaborativa. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -308,26 +158,11 @@
       "origin": "authorial",
       "prompt": "A distinção correta entre ENGD e EFGD é",
       "options": [
-        {
-          "id": "A",
-          "text": "a ENGD articula objetivos nacionais; a EFGD orienta a administração federal abrangida."
-        },
-        {
-          "id": "B",
-          "text": "a ENGD é municipal e a EFGD estadual."
-        },
-        {
-          "id": "C",
-          "text": "a EFGD substituiu a ENGD."
-        },
-        {
-          "id": "D",
-          "text": "ambas são nomes do Portal GOV.BR."
-        },
-        {
-          "id": "E",
-          "text": "a ENGD regula somente dados abertos."
-        }
+        { "id": "A", "text": "a ENGD articula objetivos nacionais; a EFGD orienta a administração federal abrangida." },
+        { "id": "B", "text": "a ENGD é municipal e a EFGD estadual." },
+        { "id": "C", "text": "a EFGD substituiu a ENGD." },
+        { "id": "D", "text": "ambas são nomes do Portal GOV.BR." },
+        { "id": "E", "text": "a ENGD regula somente dados abertos." }
       ],
       "correctOptionId": "A",
       "explanation": "Os instrumentos possuem abrangências diferentes e complementares. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -338,26 +173,11 @@
       "origin": "authorial",
       "prompt": "A adesão de estados, DF e municípios à Rede Gov.br é",
       "options": [
-        {
-          "id": "A",
-          "text": "compulsória e transfere competências."
-        },
-        {
-          "id": "B",
-          "text": "voluntária e voltada à colaboração e intercâmbio em governo digital."
-        },
-        {
-          "id": "C",
-          "text": "reservada à União."
-        },
-        {
-          "id": "D",
-          "text": "condicionada a sistema local idêntico."
-        },
-        {
-          "id": "E",
-          "text": "sinônimo de integração automática de todas as bases."
-        }
+        { "id": "A", "text": "compulsória e transfere competências." },
+        { "id": "B", "text": "voluntária e voltada à colaboração e intercâmbio em governo digital." },
+        { "id": "C", "text": "reservada à União." },
+        { "id": "D", "text": "condicionada a sistema local idêntico." },
+        { "id": "E", "text": "sinônimo de integração automática de todas as bases." }
       ],
       "correctOptionId": "B",
       "explanation": "A rede promove articulação sem uniformização obrigatória. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -368,26 +188,11 @@
       "origin": "authorial",
       "prompt": "Infraestrutura pública digital é",
       "options": [
-        {
-          "id": "A",
-          "text": "base secreta sem integração."
-        },
-        {
-          "id": "B",
-          "text": "aplicativo destinado a um único setor sem reúso."
-        },
-        {
-          "id": "C",
-          "text": "capacidade estruturante e transversal, com padrões, interoperabilidade, segurança e interesse público."
-        },
-        {
-          "id": "D",
-          "text": "serviço que dispensa mitigação de riscos."
-        },
-        {
-          "id": "E",
-          "text": "qualquer software adquirido pelo Estado."
-        }
+        { "id": "A", "text": "base secreta sem integração." },
+        { "id": "B", "text": "aplicativo destinado a um único setor sem reúso." },
+        { "id": "C", "text": "capacidade estruturante e transversal, com padrões, interoperabilidade, segurança e interesse público." },
+        { "id": "D", "text": "serviço que dispensa mitigação de riscos." },
+        { "id": "E", "text": "qualquer software adquirido pelo Estado." }
       ],
       "correctOptionId": "C",
       "explanation": "A ideia central é capacidade compartilhada e reutilizável. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -398,26 +203,11 @@
       "origin": "authorial",
       "prompt": "Assinale a associação correta no ecossistema GOV.BR.",
       "options": [
-        {
-          "id": "A",
-          "text": "Portal: credencial pessoal."
-        },
-        {
-          "id": "B",
-          "text": "Conta: catálogo de notícias."
-        },
-        {
-          "id": "C",
-          "text": "Carteira: órgão emissor universal."
-        },
-        {
-          "id": "D",
-          "text": "Aplicativo: canal móvel para segurança e funcionalidades da conta."
-        },
-        {
-          "id": "E",
-          "text": "Serviço integrado: executado necessariamente pela Secretaria de Governo Digital."
-        }
+        { "id": "A", "text": "Portal: credencial pessoal." },
+        { "id": "B", "text": "Conta: catálogo de notícias." },
+        { "id": "C", "text": "Carteira: órgão emissor universal." },
+        { "id": "D", "text": "Aplicativo: canal móvel para segurança e funcionalidades da conta." },
+        { "id": "E", "text": "Serviço integrado: executado necessariamente pela Secretaria de Governo Digital." }
       ],
       "correctOptionId": "D",
       "explanation": "Portal, conta, aplicativo, carteira e serviço possuem papéis distintos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -428,26 +218,11 @@
       "origin": "authorial",
       "prompt": "Sobre conta e aplicativo GOV.BR, é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "a conta só existe enquanto o aplicativo está instalado."
-        },
-        {
-          "id": "B",
-          "text": "desinstalar o aplicativo elimina automaticamente a conta."
-        },
-        {
-          "id": "C",
-          "text": "todo acesso à conta exige reconhecimento facial."
-        },
-        {
-          "id": "D",
-          "text": "o aplicativo é o órgão emissor dos documentos."
-        },
-        {
-          "id": "E",
-          "text": "é possível ter conta sem aplicativo, embora recursos específicos dependam dele."
-        }
+        { "id": "A", "text": "a conta só existe enquanto o aplicativo está instalado." },
+        { "id": "B", "text": "desinstalar o aplicativo elimina automaticamente a conta." },
+        { "id": "C", "text": "todo acesso à conta exige reconhecimento facial." },
+        { "id": "D", "text": "o aplicativo é o órgão emissor dos documentos." },
+        { "id": "E", "text": "é possível ter conta sem aplicativo, embora recursos específicos dependam dele." }
       ],
       "correctOptionId": "E",
       "explanation": "A conta é a identidade; o aplicativo é um canal funcional e de segurança. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -458,26 +233,11 @@
       "origin": "authorial",
       "prompt": "O login único GOV.BR significa que",
       "options": [
-        {
-          "id": "A",
-          "text": "a mesma identidade pode autenticar o usuário em serviços integrados, sem criar autorização universal."
-        },
-        {
-          "id": "B",
-          "text": "todos os serviços públicos ficam automaticamente liberados."
-        },
-        {
-          "id": "C",
-          "text": "nenhum órgão pode exigir nível adicional."
-        },
-        {
-          "id": "D",
-          "text": "todos os dados passam a uma base única."
-        },
-        {
-          "id": "E",
-          "text": "o Portal GOV.BR decide os benefícios."
-        }
+        { "id": "A", "text": "a mesma identidade pode autenticar o usuário em serviços integrados, sem criar autorização universal." },
+        { "id": "B", "text": "todos os serviços públicos ficam automaticamente liberados." },
+        { "id": "C", "text": "nenhum órgão pode exigir nível adicional." },
+        { "id": "D", "text": "todos os dados passam a uma base única." },
+        { "id": "E", "text": "o Portal GOV.BR decide os benefícios." }
       ],
       "correctOptionId": "A",
       "explanation": "Login único reutiliza a autenticação, mas cada serviço mantém requisitos e competência. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -488,26 +248,11 @@
       "origin": "authorial",
       "prompt": "Os níveis Bronze, Prata e Ouro indicam",
       "options": [
-        {
-          "id": "A",
-          "text": "classe econômica."
-        },
-        {
-          "id": "B",
-          "text": "grau de confiança e segurança da validação da identidade e capacidades associadas."
-        },
-        {
-          "id": "C",
-          "text": "mérito do cidadão."
-        },
-        {
-          "id": "D",
-          "text": "prioridade no atendimento."
-        },
-        {
-          "id": "E",
-          "text": "quantidade de benefícios recebidos."
-        }
+        { "id": "A", "text": "classe econômica." },
+        { "id": "B", "text": "grau de confiança e segurança da validação da identidade e capacidades associadas." },
+        { "id": "C", "text": "mérito do cidadão." },
+        { "id": "D", "text": "prioridade no atendimento." },
+        { "id": "E", "text": "quantidade de benefícios recebidos." }
       ],
       "correctOptionId": "B",
       "explanation": "Níveis são atributos de confiança da conta. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -518,26 +263,11 @@
       "origin": "authorial",
       "prompt": "Constitui exemplo atual de obtenção de conta Bronze",
       "options": [
-        {
-          "id": "A",
-          "text": "reconhecimento facial na base da Justiça Eleitoral."
-        },
-        {
-          "id": "B",
-          "text": "leitura do QR Code da CIN."
-        },
-        {
-          "id": "C",
-          "text": "validação em bases da Receita Federal ou do INSS."
-        },
-        {
-          "id": "D",
-          "text": "certificado ICP-Brasil de pessoa física."
-        },
-        {
-          "id": "E",
-          "text": "reconhecimento facial com base da CNH."
-        }
+        { "id": "A", "text": "reconhecimento facial na base da Justiça Eleitoral." },
+        { "id": "B", "text": "leitura do QR Code da CIN." },
+        { "id": "C", "text": "validação em bases da Receita Federal ou do INSS." },
+        { "id": "D", "text": "certificado ICP-Brasil de pessoa física." },
+        { "id": "E", "text": "reconhecimento facial com base da CNH." }
       ],
       "correctOptionId": "C",
       "explanation": "Receita e INSS são métodos Bronze; a lista operacional pode mudar. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -548,26 +278,11 @@
       "origin": "authorial",
       "prompt": "É exemplo atual de validação que pode elevar a conta a Prata",
       "options": [
-        {
-          "id": "A",
-          "text": "formulário simples da Receita Federal."
-        },
-        {
-          "id": "B",
-          "text": "leitura do QR Code da CIN."
-        },
-        {
-          "id": "C",
-          "text": "reconhecimento facial na Justiça Eleitoral."
-        },
-        {
-          "id": "D",
-          "text": "reconhecimento facial com base da CNH ou banco credenciado."
-        },
-        {
-          "id": "E",
-          "text": "qualquer fotografia enviada por e-mail."
-        }
+        { "id": "A", "text": "formulário simples da Receita Federal." },
+        { "id": "B", "text": "leitura do QR Code da CIN." },
+        { "id": "C", "text": "reconhecimento facial na Justiça Eleitoral." },
+        { "id": "D", "text": "reconhecimento facial com base da CNH ou banco credenciado." },
+        { "id": "E", "text": "qualquer fotografia enviada por e-mail." }
       ],
       "correctOptionId": "D",
       "explanation": "CNH, banco credenciado e SIGEPE são métodos Prata. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -578,26 +293,11 @@
       "origin": "authorial",
       "prompt": "Entre os métodos atuais associados ao nível Ouro está",
       "options": [
-        {
-          "id": "A",
-          "text": "formulário do INSS."
-        },
-        {
-          "id": "B",
-          "text": "atendimento do Balcão por decisão do atendente."
-        },
-        {
-          "id": "C",
-          "text": "banco credenciado."
-        },
-        {
-          "id": "D",
-          "text": "SIGEPE."
-        },
-        {
-          "id": "E",
-          "text": "leitura do QR Code da CIN ou certificado digital ICP-Brasil de pessoa física."
-        }
+        { "id": "A", "text": "formulário do INSS." },
+        { "id": "B", "text": "atendimento do Balcão por decisão do atendente." },
+        { "id": "C", "text": "banco credenciado." },
+        { "id": "D", "text": "SIGEPE." },
+        { "id": "E", "text": "leitura do QR Code da CIN ou certificado digital ICP-Brasil de pessoa física." }
       ],
       "correctOptionId": "E",
       "explanation": "CIN, Justiça Eleitoral e certificado PF são métodos Ouro. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -608,26 +308,11 @@
       "origin": "authorial",
       "prompt": "A sequência conceitual adequada é",
       "options": [
-        {
-          "id": "A",
-          "text": "identificação, autenticação, nível de confiança, autorização, elegibilidade e decisão."
-        },
-        {
-          "id": "B",
-          "text": "autorização, identidade, benefício e senha."
-        },
-        {
-          "id": "C",
-          "text": "elegibilidade, autenticação e emissão automática."
-        },
-        {
-          "id": "D",
-          "text": "nível, classe social e deferimento."
-        },
-        {
-          "id": "E",
-          "text": "cadastro, portal e pagamento."
-        }
+        { "id": "A", "text": "identificação, autenticação, nível de confiança, autorização, elegibilidade e decisão." },
+        { "id": "B", "text": "autorização, identidade, benefício e senha." },
+        { "id": "C", "text": "elegibilidade, autenticação e emissão automática." },
+        { "id": "D", "text": "nível, classe social e deferimento." },
+        { "id": "E", "text": "cadastro, portal e pagamento." }
       ],
       "correctOptionId": "A",
       "explanation": "Cada etapa responde a pergunta diferente sobre identidade, acesso e direito material. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -638,26 +323,11 @@
       "origin": "authorial",
       "prompt": "Pessoa com conta Ouro solicita benefício sem cumprir o requisito legal. Nesse caso",
       "options": [
-        {
-          "id": "A",
-          "text": "o nível obriga o deferimento."
-        },
-        {
-          "id": "B",
-          "text": "a identidade pode estar autenticada, mas a elegibilidade ainda pode levar ao indeferimento."
-        },
-        {
-          "id": "C",
-          "text": "o órgão perde competência para decidir."
-        },
-        {
-          "id": "D",
-          "text": "o requisito deve ser ignorado."
-        },
-        {
-          "id": "E",
-          "text": "a conta se torna Bronze."
-        }
+        { "id": "A", "text": "o nível obriga o deferimento." },
+        { "id": "B", "text": "a identidade pode estar autenticada, mas a elegibilidade ainda pode levar ao indeferimento." },
+        { "id": "C", "text": "o órgão perde competência para decidir." },
+        { "id": "D", "text": "o requisito deve ser ignorado." },
+        { "id": "E", "text": "a conta se torna Bronze." }
       ],
       "correctOptionId": "B",
       "explanation": "Autenticação não substitui os critérios da política pública. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -668,26 +338,11 @@
       "origin": "authorial",
       "prompt": "Sobre o Balcão GOV.BR, é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "o atendente atribui Ouro por decisão administrativa."
-        },
-        {
-          "id": "B",
-          "text": "o sistema sempre eleva Bronze para Prata."
-        },
-        {
-          "id": "C",
-          "text": "o Balcão pode orientar e consultar, mas não aumenta diretamente o nível da conta."
-        },
-        {
-          "id": "D",
-          "text": "somente atende usuários Ouro."
-        },
-        {
-          "id": "E",
-          "text": "substitui os métodos do aplicativo."
-        }
+        { "id": "A", "text": "o atendente atribui Ouro por decisão administrativa." },
+        { "id": "B", "text": "o sistema sempre eleva Bronze para Prata." },
+        { "id": "C", "text": "o Balcão pode orientar e consultar, mas não aumenta diretamente o nível da conta." },
+        { "id": "D", "text": "somente atende usuários Ouro." },
+        { "id": "E", "text": "substitui os métodos do aplicativo." }
       ],
       "correctOptionId": "C",
       "explanation": "A elevação ocorre pelos métodos de validação disponíveis, não por atribuição do atendente. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -698,26 +353,11 @@
       "origin": "authorial",
       "prompt": "A verificação em duas etapas da conta GOV.BR está disponível para",
       "options": [
-        {
-          "id": "A",
-          "text": "apenas contas Bronze."
-        },
-        {
-          "id": "B",
-          "text": "qualquer visitante sem conta."
-        },
-        {
-          "id": "C",
-          "text": "somente conta Ouro."
-        },
-        {
-          "id": "D",
-          "text": "contas Prata e Ouro."
-        },
-        {
-          "id": "E",
-          "text": "apenas servidores públicos."
-        }
+        { "id": "A", "text": "apenas contas Bronze." },
+        { "id": "B", "text": "qualquer visitante sem conta." },
+        { "id": "C", "text": "somente conta Ouro." },
+        { "id": "D", "text": "contas Prata e Ouro." },
+        { "id": "E", "text": "apenas servidores públicos." }
       ],
       "correctOptionId": "D",
       "explanation": "A funcionalidade requer conta de nível Prata ou Ouro. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -728,26 +368,11 @@
       "origin": "authorial",
       "prompt": "O código da verificação em duas etapas GOV.BR",
       "options": [
-        {
-          "id": "A",
-          "text": "é enviado por SMS."
-        },
-        {
-          "id": "B",
-          "text": "é gerado por qualquer autenticador externo."
-        },
-        {
-          "id": "C",
-          "text": "é enviado por e-mail em todo acesso."
-        },
-        {
-          "id": "D",
-          "text": "é fornecido pelo atendente do Balcão."
-        },
-        {
-          "id": "E",
-          "text": "é gerado no aplicativo GOV.BR."
-        }
+        { "id": "A", "text": "é enviado por SMS." },
+        { "id": "B", "text": "é gerado por qualquer autenticador externo." },
+        { "id": "C", "text": "é enviado por e-mail em todo acesso." },
+        { "id": "D", "text": "é fornecido pelo atendente do Balcão." },
+        { "id": "E", "text": "é gerado no aplicativo GOV.BR." }
       ],
       "correctOptionId": "E",
       "explanation": "A documentação exclui SMS e aplicativos autenticadores externos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -758,26 +383,11 @@
       "origin": "authorial",
       "prompt": "A gestão de dispositivos permite",
       "options": [
-        {
-          "id": "A",
-          "text": "visualizar dispositivos autorizados, excluir autorizações e consultar histórico de acessos."
-        },
-        {
-          "id": "B",
-          "text": "transferir a conta para outra pessoa."
-        },
-        {
-          "id": "C",
-          "text": "emitir documentos novos."
-        },
-        {
-          "id": "D",
-          "text": "aumentar automaticamente o nível."
-        },
-        {
-          "id": "E",
-          "text": "eliminar a necessidade de senha em qualquer computador."
-        }
+        { "id": "A", "text": "visualizar dispositivos autorizados, excluir autorizações e consultar histórico de acessos." },
+        { "id": "B", "text": "transferir a conta para outra pessoa." },
+        { "id": "C", "text": "emitir documentos novos." },
+        { "id": "D", "text": "aumentar automaticamente o nível." },
+        { "id": "E", "text": "eliminar a necessidade de senha em qualquer computador." }
       ],
       "correctOptionId": "A",
       "explanation": "Dispositivos confiáveis são gerenciados como parte da segurança da conta. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -788,26 +398,11 @@
       "origin": "authorial",
       "prompt": "Após perder o celular vinculado à conta, a prática adequada é",
       "options": [
-        {
-          "id": "A",
-          "text": "compartilhar a senha com atendente."
-        },
-        {
-          "id": "B",
-          "text": "recuperar por canal oficial, revisar dispositivos e desvincular o equipamento antigo."
-        },
-        {
-          "id": "C",
-          "text": "aprovar solicitações inesperadas."
-        },
-        {
-          "id": "D",
-          "text": "criar outra conta com CPF diferente."
-        },
-        {
-          "id": "E",
-          "text": "publicar o código de recuperação."
-        }
+        { "id": "A", "text": "compartilhar a senha com atendente." },
+        { "id": "B", "text": "recuperar por canal oficial, revisar dispositivos e desvincular o equipamento antigo." },
+        { "id": "C", "text": "aprovar solicitações inesperadas." },
+        { "id": "D", "text": "criar outra conta com CPF diferente." },
+        { "id": "E", "text": "publicar o código de recuperação." }
       ],
       "correctOptionId": "B",
       "explanation": "A resposta deve restaurar controle e revisar acessos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -818,26 +413,11 @@
       "origin": "authorial",
       "prompt": "A Carteira de Documentos Digitais do aplicativo GOV.BR exige, em regra, conta",
       "options": [
-        {
-          "id": "A",
-          "text": "apenas Bronze."
-        },
-        {
-          "id": "B",
-          "text": "sem nível de confiança."
-        },
-        {
-          "id": "C",
-          "text": "Prata ou Ouro."
-        },
-        {
-          "id": "D",
-          "text": "exclusivamente Ouro."
-        },
-        {
-          "id": "E",
-          "text": "corporativa."
-        }
+        { "id": "A", "text": "apenas Bronze." },
+        { "id": "B", "text": "sem nível de confiança." },
+        { "id": "C", "text": "Prata ou Ouro." },
+        { "id": "D", "text": "exclusivamente Ouro." },
+        { "id": "E", "text": "corporativa." }
       ],
       "correctOptionId": "C",
       "explanation": "A carteira está disponível a contas Prata e Ouro. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -848,26 +428,11 @@
       "origin": "authorial",
       "prompt": "Adicionar documento à carteira GOV.BR significa",
       "options": [
-        {
-          "id": "A",
-          "text": "emitir documento novo em nome do órgão."
-        },
-        {
-          "id": "B",
-          "text": "substituir a norma do documento."
-        },
-        {
-          "id": "C",
-          "text": "transformar o GOV.BR no emissor."
-        },
-        {
-          "id": "D",
-          "text": "incluir na carteira documento previamente disponibilizado pelo órgão competente."
-        },
-        {
-          "id": "E",
-          "text": "garantir validade universal a qualquer arquivo."
-        }
+        { "id": "A", "text": "emitir documento novo em nome do órgão." },
+        { "id": "B", "text": "substituir a norma do documento." },
+        { "id": "C", "text": "transformar o GOV.BR no emissor." },
+        { "id": "D", "text": "incluir na carteira documento previamente disponibilizado pelo órgão competente." },
+        { "id": "E", "text": "garantir validade universal a qualquer arquivo." }
       ],
       "correctOptionId": "D",
       "explanation": "Emissão e apresentação são etapas distintas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -878,26 +443,11 @@
       "origin": "authorial",
       "prompt": "Ao compartilhar PDF de documento pela carteira, a autenticidade pode ser verificada por",
       "options": [
-        {
-          "id": "A",
-          "text": "senha do atendente."
-        },
-        {
-          "id": "B",
-          "text": "nível Bronze."
-        },
-        {
-          "id": "C",
-          "text": "e-mail do usuário."
-        },
-        {
-          "id": "D",
-          "text": "histórico do navegador."
-        },
-        {
-          "id": "E",
-          "text": "QR Code, conforme o mecanismo do documento."
-        }
+        { "id": "A", "text": "senha do atendente." },
+        { "id": "B", "text": "nível Bronze." },
+        { "id": "C", "text": "e-mail do usuário." },
+        { "id": "D", "text": "histórico do navegador." },
+        { "id": "E", "text": "QR Code, conforme o mecanismo do documento." }
       ],
       "correctOptionId": "E",
       "explanation": "A carteira oferece compartilhamento com mecanismo de verificação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -908,26 +458,11 @@
       "origin": "authorial",
       "prompt": "Em serviço integrado ao GOV.BR, o órgão responsável",
       "options": [
-        {
-          "id": "A",
-          "text": "continua definindo requisitos, nível exigido, decisão, prazo e recurso."
-        },
-        {
-          "id": "B",
-          "text": "transfere toda competência ao Portal."
-        },
-        {
-          "id": "C",
-          "text": "deve deferir após login."
-        },
-        {
-          "id": "D",
-          "text": "não pode pedir dado adicional necessário."
-        },
-        {
-          "id": "E",
-          "text": "deixa de aplicar sua norma."
-        }
+        { "id": "A", "text": "continua definindo requisitos, nível exigido, decisão, prazo e recurso." },
+        { "id": "B", "text": "transfere toda competência ao Portal." },
+        { "id": "C", "text": "deve deferir após login." },
+        { "id": "D", "text": "não pode pedir dado adicional necessário." },
+        { "id": "E", "text": "deixa de aplicar sua norma." }
       ],
       "correctOptionId": "A",
       "explanation": "Integração de identidade não desloca a competência material. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -938,26 +473,11 @@
       "origin": "authorial",
       "prompt": "Acessibilidade e multicanalidade exigem",
       "options": [
-        {
-          "id": "A",
-          "text": "uso exclusivo de aplicativo."
-        },
-        {
-          "id": "B",
-          "text": "linguagem simples, compatibilidade assistiva e alternativas adequadas ao público."
-        },
-        {
-          "id": "C",
-          "text": "eliminação do presencial em qualquer caso."
-        },
-        {
-          "id": "D",
-          "text": "design apenas para computador."
-        },
-        {
-          "id": "E",
-          "text": "autenticação Ouro para informações públicas."
-        }
+        { "id": "A", "text": "uso exclusivo de aplicativo." },
+        { "id": "B", "text": "linguagem simples, compatibilidade assistiva e alternativas adequadas ao público." },
+        { "id": "C", "text": "eliminação do presencial em qualquer caso." },
+        { "id": "D", "text": "design apenas para computador." },
+        { "id": "E", "text": "autenticação Ouro para informações públicas." }
       ],
       "correctOptionId": "B",
       "explanation": "Transformação digital deve incluir diferentes capacidades e contextos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -968,26 +488,11 @@
       "origin": "authorial",
       "prompt": "Dado público, dado acessível e dado aberto",
       "options": [
-        {
-          "id": "A",
-          "text": "são sempre sinônimos."
-        },
-        {
-          "id": "B",
-          "text": "não podem conter qualquer restrição jurídica."
-        },
-        {
-          "id": "C",
-          "text": "são conceitos distintos; abertura exige condições técnicas e jurídicas de reúso."
-        },
-        {
-          "id": "D",
-          "text": "existem apenas em meio digital."
-        },
-        {
-          "id": "E",
-          "text": "dispensam metadados."
-        }
+        { "id": "A", "text": "são sempre sinônimos." },
+        { "id": "B", "text": "não podem conter qualquer restrição jurídica." },
+        { "id": "C", "text": "são conceitos distintos; abertura exige condições técnicas e jurídicas de reúso." },
+        { "id": "D", "text": "existem apenas em meio digital." },
+        { "id": "E", "text": "dispensam metadados." }
       ],
       "correctOptionId": "C",
       "explanation": "A origem pública não basta para caracterizar abertura. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -998,26 +503,11 @@
       "origin": "authorial",
       "prompt": "Um conjunto é adequadamente publicado como dado aberto quando oferece",
       "options": [
-        {
-          "id": "A",
-          "text": "somente imagem de tabela."
-        },
-        {
-          "id": "B",
-          "text": "download com proibição de reúso."
-        },
-        {
-          "id": "C",
-          "text": "arquivo sem descrição e sem licença."
-        },
-        {
-          "id": "D",
-          "text": "acesso, estrutura para máquina, formato aberto, metadados e licença de reúso."
-        },
-        {
-          "id": "E",
-          "text": "apenas consulta visual."
-        }
+        { "id": "A", "text": "somente imagem de tabela." },
+        { "id": "B", "text": "download com proibição de reúso." },
+        { "id": "C", "text": "arquivo sem descrição e sem licença." },
+        { "id": "D", "text": "acesso, estrutura para máquina, formato aberto, metadados e licença de reúso." },
+        { "id": "E", "text": "apenas consulta visual." }
       ],
       "correctOptionId": "D",
       "explanation": "Abertura combina acesso, técnica e autorização jurídica. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1028,26 +518,11 @@
       "origin": "authorial",
       "prompt": "Formato aberto é aquele cuja especificação",
       "options": [
-        {
-          "id": "A",
-          "text": "depende de um único fornecedor e não é documentada."
-        },
-        {
-          "id": "B",
-          "text": "proíbe implementação por terceiros."
-        },
-        {
-          "id": "C",
-          "text": "exige licença exclusiva para leitura."
-        },
-        {
-          "id": "D",
-          "text": "é secreta e variável."
-        },
-        {
-          "id": "E",
-          "text": "é pública, documentada e utilizável sem restrição impeditiva."
-        }
+        { "id": "A", "text": "depende de um único fornecedor e não é documentada." },
+        { "id": "B", "text": "proíbe implementação por terceiros." },
+        { "id": "C", "text": "exige licença exclusiva para leitura." },
+        { "id": "D", "text": "é secreta e variável." },
+        { "id": "E", "text": "é pública, documentada e utilizável sem restrição impeditiva." }
       ],
       "correctOptionId": "E",
       "explanation": "A especificação deve permitir interoperabilidade e implementação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1058,26 +533,11 @@
       "origin": "authorial",
       "prompt": "Publicar planilha apenas como imagem escaneada",
       "options": [
-        {
-          "id": "A",
-          "text": "pode permitir leitura humana, mas não atende sozinha à abertura estruturada e processável por máquina."
-        },
-        {
-          "id": "B",
-          "text": "é equivalente a API documentada."
-        },
-        {
-          "id": "C",
-          "text": "gera licença aberta automaticamente."
-        },
-        {
-          "id": "D",
-          "text": "elimina a necessidade de metadados."
-        },
-        {
-          "id": "E",
-          "text": "torna os dados anônimos."
-        }
+        { "id": "A", "text": "pode permitir leitura humana, mas não atende sozinha à abertura estruturada e processável por máquina." },
+        { "id": "B", "text": "é equivalente a API documentada." },
+        { "id": "C", "text": "gera licença aberta automaticamente." },
+        { "id": "D", "text": "elimina a necessidade de metadados." },
+        { "id": "E", "text": "torna os dados anônimos." }
       ],
       "correctOptionId": "A",
       "explanation": "Imagem não fornece estrutura adequada à automação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1088,26 +548,11 @@
       "origin": "authorial",
       "prompt": "A relação correta entre conjunto, recurso e catálogo é",
       "options": [
-        {
-          "id": "A",
-          "text": "o catálogo é o dado original e o conjunto é a licença."
-        },
-        {
-          "id": "B",
-          "text": "o conjunto é coleção lógica, o recurso é arquivo ou endpoint e o catálogo facilita a descoberta."
-        },
-        {
-          "id": "C",
-          "text": "o recurso é apenas metadado."
-        },
-        {
-          "id": "D",
-          "text": "o conjunto é sempre um único CSV."
-        },
-        {
-          "id": "E",
-          "text": "o catálogo substitui o órgão produtor."
-        }
+        { "id": "A", "text": "o catálogo é o dado original e o conjunto é a licença." },
+        { "id": "B", "text": "o conjunto é coleção lógica, o recurso é arquivo ou endpoint e o catálogo facilita a descoberta." },
+        { "id": "C", "text": "o recurso é apenas metadado." },
+        { "id": "D", "text": "o conjunto é sempre um único CSV." },
+        { "id": "E", "text": "o catálogo substitui o órgão produtor." }
       ],
       "correctOptionId": "B",
       "explanation": "A arquitetura separa a coleção, suas distribuições e o mecanismo de descoberta. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1118,26 +563,11 @@
       "origin": "authorial",
       "prompt": "Metadados servem para",
       "options": [
-        {
-          "id": "A",
-          "text": "substituir o conteúdo dos dados."
-        },
-        {
-          "id": "B",
-          "text": "impedir o reúso."
-        },
-        {
-          "id": "C",
-          "text": "descrever título, origem, campos, atualização, licença, responsável e limitações."
-        },
-        {
-          "id": "D",
-          "text": "tornar todo dado público."
-        },
-        {
-          "id": "E",
-          "text": "eliminar o dicionário de dados."
-        }
+        { "id": "A", "text": "substituir o conteúdo dos dados." },
+        { "id": "B", "text": "impedir o reúso." },
+        { "id": "C", "text": "descrever título, origem, campos, atualização, licença, responsável e limitações." },
+        { "id": "D", "text": "tornar todo dado público." },
+        { "id": "E", "text": "eliminar o dicionário de dados." }
       ],
       "correctOptionId": "C",
       "explanation": "Metadados dão contexto e tornam o recurso compreensível. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1148,26 +578,11 @@
       "origin": "authorial",
       "prompt": "Licença aberta é importante porque",
       "options": [
-        {
-          "id": "A",
-          "text": "define apenas a extensão do arquivo."
-        },
-        {
-          "id": "B",
-          "text": "substitui qualidade e metadados."
-        },
-        {
-          "id": "C",
-          "text": "concede acesso a dado sigiloso."
-        },
-        {
-          "id": "D",
-          "text": "autoriza juridicamente uso, modificação e compartilhamento nos termos previstos."
-        },
-        {
-          "id": "E",
-          "text": "transforma PDF em CSV."
-        }
+        { "id": "A", "text": "define apenas a extensão do arquivo." },
+        { "id": "B", "text": "substitui qualidade e metadados." },
+        { "id": "C", "text": "concede acesso a dado sigiloso." },
+        { "id": "D", "text": "autoriza juridicamente uso, modificação e compartilhamento nos termos previstos." },
+        { "id": "E", "text": "transforma PDF em CSV." }
       ],
       "correctOptionId": "D",
       "explanation": "A licença trata da permissão de reúso. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1178,26 +593,11 @@
       "origin": "authorial",
       "prompt": "Uma API de dados abertos",
       "options": [
-        {
-          "id": "A",
-          "text": "é necessariamente o único recurso do conjunto."
-        },
-        {
-          "id": "B",
-          "text": "dispensa documentação."
-        },
-        {
-          "id": "C",
-          "text": "torna qualquer dado pessoal publicável."
-        },
-        {
-          "id": "D",
-          "text": "substitui licença."
-        },
-        {
-          "id": "E",
-          "text": "fornece acesso programático, devendo ser documentada, versionada e governada."
-        }
+        { "id": "A", "text": "é necessariamente o único recurso do conjunto." },
+        { "id": "B", "text": "dispensa documentação." },
+        { "id": "C", "text": "torna qualquer dado pessoal publicável." },
+        { "id": "D", "text": "substitui licença." },
+        { "id": "E", "text": "fornece acesso programático, devendo ser documentada, versionada e governada." }
       ],
       "correctOptionId": "E",
       "explanation": "API é um meio de distribuição, não solução isolada para todos os requisitos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1208,26 +608,11 @@
       "origin": "authorial",
       "prompt": "O Portal Brasileiro de Dados Abertos atua principalmente como",
       "options": [
-        {
-          "id": "A",
-          "text": "catálogo que permite descobrir conjuntos e recursos mantidos pelos órgãos responsáveis."
-        },
-        {
-          "id": "B",
-          "text": "banco único que produz toda base pública."
-        },
-        {
-          "id": "C",
-          "text": "órgão emissor de documentos."
-        },
-        {
-          "id": "D",
-          "text": "serviço de autenticação."
-        },
-        {
-          "id": "E",
-          "text": "sistema de ouvidoria."
-        }
+        { "id": "A", "text": "catálogo que permite descobrir conjuntos e recursos mantidos pelos órgãos responsáveis." },
+        { "id": "B", "text": "banco único que produz toda base pública." },
+        { "id": "C", "text": "órgão emissor de documentos." },
+        { "id": "D", "text": "serviço de autenticação." },
+        { "id": "E", "text": "sistema de ouvidoria." }
       ],
       "correctOptionId": "A",
       "explanation": "O portal cataloga; a fonte continua sob responsabilidade do órgão. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1238,26 +623,11 @@
       "origin": "authorial",
       "prompt": "A INDA tem como função central",
       "options": [
-        {
-          "id": "A",
-          "text": "emitir conta GOV.BR."
-        },
-        {
-          "id": "B",
-          "text": "coordenar padrões, governança e política de dados abertos no Executivo federal."
-        },
-        {
-          "id": "C",
-          "text": "julgar recursos da LAI."
-        },
-        {
-          "id": "D",
-          "text": "publicar apenas dados municipais."
-        },
-        {
-          "id": "E",
-          "text": "substituir todos os PDAs."
-        }
+        { "id": "A", "text": "emitir conta GOV.BR." },
+        { "id": "B", "text": "coordenar padrões, governança e política de dados abertos no Executivo federal." },
+        { "id": "C", "text": "julgar recursos da LAI." },
+        { "id": "D", "text": "publicar apenas dados municipais." },
+        { "id": "E", "text": "substituir todos os PDAs." }
       ],
       "correctOptionId": "B",
       "explanation": "A INDA estrutura a governança federal de dados abertos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1268,26 +638,11 @@
       "origin": "authorial",
       "prompt": "O Plano de Dados Abertos organiza",
       "options": [
-        {
-          "id": "A",
-          "text": "somente a aparência do portal."
-        },
-        {
-          "id": "B",
-          "text": "senha e nível da conta."
-        },
-        {
-          "id": "C",
-          "text": "inventário, prioridade, cronograma, responsáveis, participação e monitoramento da abertura."
-        },
-        {
-          "id": "D",
-          "text": "classificação de todos os dados como públicos."
-        },
-        {
-          "id": "E",
-          "text": "emissão de documentos digitais."
-        }
+        { "id": "A", "text": "somente a aparência do portal." },
+        { "id": "B", "text": "senha e nível da conta." },
+        { "id": "C", "text": "inventário, prioridade, cronograma, responsáveis, participação e monitoramento da abertura." },
+        { "id": "D", "text": "classificação de todos os dados como públicos." },
+        { "id": "E", "text": "emissão de documentos digitais." }
       ],
       "correctOptionId": "C",
       "explanation": "PDA é instrumento de planejamento e governança. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1298,26 +653,11 @@
       "origin": "authorial",
       "prompt": "Sobre a duração do PDA, é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "o Decreto nº 8.777 fixa obrigatoriamente dois anos para qualquer ente."
-        },
-        {
-          "id": "B",
-          "text": "todo PDA deve ser anual."
-        },
-        {
-          "id": "C",
-          "text": "não pode haver ciclo definido pelo órgão."
-        },
-        {
-          "id": "D",
-          "text": "ciclos bienais são comuns, mas a periodicidade universal não decorre apenas do Decreto nº 8.777."
-        },
-        {
-          "id": "E",
-          "text": "o PDA nunca precisa ser atualizado."
-        }
+        { "id": "A", "text": "o Decreto nº 8.777 fixa obrigatoriamente dois anos para qualquer ente." },
+        { "id": "B", "text": "todo PDA deve ser anual." },
+        { "id": "C", "text": "não pode haver ciclo definido pelo órgão." },
+        { "id": "D", "text": "ciclos bienais são comuns, mas a periodicidade universal não decorre apenas do Decreto nº 8.777." },
+        { "id": "E", "text": "o PDA nunca precisa ser atualizado." }
       ],
       "correctOptionId": "D",
       "explanation": "Atos e planos podem definir ciclos, sem generalização indevida. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1328,26 +668,11 @@
       "origin": "authorial",
       "prompt": "Um conjunto pode estar tecnicamente aberto e ainda ter baixa utilidade quando",
       "options": [
-        {
-          "id": "A",
-          "text": "possui metadados completos."
-        },
-        {
-          "id": "B",
-          "text": "mantém esquema estável."
-        },
-        {
-          "id": "C",
-          "text": "informa data de atualização."
-        },
-        {
-          "id": "D",
-          "text": "documenta campos nulos."
-        },
-        {
-          "id": "E",
-          "text": "está desatualizado, sem dicionário e com mudanças de estrutura não informadas."
-        }
+        { "id": "A", "text": "possui metadados completos." },
+        { "id": "B", "text": "mantém esquema estável." },
+        { "id": "C", "text": "informa data de atualização." },
+        { "id": "D", "text": "documenta campos nulos." },
+        { "id": "E", "text": "está desatualizado, sem dicionário e com mudanças de estrutura não informadas." }
       ],
       "correctOptionId": "E",
       "explanation": "Qualidade e manutenção condicionam o valor do dado. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1358,26 +683,11 @@
       "origin": "authorial",
       "prompt": "Identificador persistente e versionamento de esquema ajudam a",
       "options": [
-        {
-          "id": "A",
-          "text": "manter referências estáveis e comunicar mudanças aos consumidores."
-        },
-        {
-          "id": "B",
-          "text": "eliminar licenças."
-        },
-        {
-          "id": "C",
-          "text": "substituir metadados."
-        },
-        {
-          "id": "D",
-          "text": "tornar dado pessoal automaticamente aberto."
-        },
-        {
-          "id": "E",
-          "text": "impedir atualização."
-        }
+        { "id": "A", "text": "manter referências estáveis e comunicar mudanças aos consumidores." },
+        { "id": "B", "text": "eliminar licenças." },
+        { "id": "C", "text": "substituir metadados." },
+        { "id": "D", "text": "tornar dado pessoal automaticamente aberto." },
+        { "id": "E", "text": "impedir atualização." }
       ],
       "correctOptionId": "A",
       "explanation": "Governança de mudanças evita quebrar integrações. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1388,26 +698,11 @@
       "origin": "authorial",
       "prompt": "Transparência ativa corresponde à",
       "options": [
-        {
-          "id": "A",
-          "text": "resposta a pedido individual."
-        },
-        {
-          "id": "B",
-          "text": "publicação de informações independentemente de solicitação."
-        },
-        {
-          "id": "C",
-          "text": "negativa de acesso."
-        },
-        {
-          "id": "D",
-          "text": "denúncia de ouvidoria."
-        },
-        {
-          "id": "E",
-          "text": "autenticação em serviço."
-        }
+        { "id": "A", "text": "resposta a pedido individual." },
+        { "id": "B", "text": "publicação de informações independentemente de solicitação." },
+        { "id": "C", "text": "negativa de acesso." },
+        { "id": "D", "text": "denúncia de ouvidoria." },
+        { "id": "E", "text": "autenticação em serviço." }
       ],
       "correctOptionId": "B",
       "explanation": "A transparência ativa antecede qualquer pedido. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1418,26 +713,11 @@
       "origin": "authorial",
       "prompt": "Transparência passiva corresponde à",
       "options": [
-        {
-          "id": "A",
-          "text": "abertura automática de todas as bases."
-        },
-        {
-          "id": "B",
-          "text": "publicação espontânea no portal."
-        },
-        {
-          "id": "C",
-          "text": "resposta da administração a solicitação de acesso."
-        },
-        {
-          "id": "D",
-          "text": "emissão de documento na carteira."
-        },
-        {
-          "id": "E",
-          "text": "validação da conta."
-        }
+        { "id": "A", "text": "abertura automática de todas as bases." },
+        { "id": "B", "text": "publicação espontânea no portal." },
+        { "id": "C", "text": "resposta da administração a solicitação de acesso." },
+        { "id": "D", "text": "emissão de documento na carteira." },
+        { "id": "E", "text": "validação da conta." }
       ],
       "correctOptionId": "C",
       "explanation": "O fluxo é iniciado pelo pedido do interessado. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1448,26 +728,11 @@
       "origin": "authorial",
       "prompt": "Em pedido de acesso à informação, a administração",
       "options": [
-        {
-          "id": "A",
-          "text": "pode exigir justificativa política."
-        },
-        {
-          "id": "B",
-          "text": "pode condicionar o protocolo à demonstração de interesse jurídico."
-        },
-        {
-          "id": "C",
-          "text": "deve exigir exposição detalhada da finalidade."
-        },
-        {
-          "id": "D",
-          "text": "não pode exigir os motivos determinantes da solicitação."
-        },
-        {
-          "id": "E",
-          "text": "pode negar por ausência de motivação."
-        }
+        { "id": "A", "text": "pode exigir justificativa política." },
+        { "id": "B", "text": "pode condicionar o protocolo à demonstração de interesse jurídico." },
+        { "id": "C", "text": "deve exigir exposição detalhada da finalidade." },
+        { "id": "D", "text": "não pode exigir os motivos determinantes da solicitação." },
+        { "id": "E", "text": "pode negar por ausência de motivação." }
       ],
       "correctOptionId": "D",
       "explanation": "A LAI veda exigir a razão do pedido. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1478,26 +743,11 @@
       "origin": "authorial",
       "prompt": "A associação correta é",
       "options": [
-        {
-          "id": "A",
-          "text": "SIC: carteira de documentos."
-        },
-        {
-          "id": "B",
-          "text": "e-SIC: método de nível Ouro."
-        },
-        {
-          "id": "C",
-          "text": "Fala.BR: catálogo de dados."
-        },
-        {
-          "id": "D",
-          "text": "SIC: órgão emissor de identidade."
-        },
-        {
-          "id": "E",
-          "text": "SIC é o serviço de acesso, e-SIC é o meio eletrônico e Fala.BR integra acesso e ouvidoria."
-        }
+        { "id": "A", "text": "SIC: carteira de documentos." },
+        { "id": "B", "text": "e-SIC: método de nível Ouro." },
+        { "id": "C", "text": "Fala.BR: catálogo de dados." },
+        { "id": "D", "text": "SIC: órgão emissor de identidade." },
+        { "id": "E", "text": "SIC é o serviço de acesso, e-SIC é o meio eletrônico e Fala.BR integra acesso e ouvidoria." }
       ],
       "correctOptionId": "E",
       "explanation": "Os canais se relacionam, mas não são sinônimos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1508,26 +758,11 @@
       "origin": "authorial",
       "prompt": "Pedido de acesso e denúncia enviados pelo Fala.BR",
       "options": [
-        {
-          "id": "A",
-          "text": "usam plataforma integrada, mas mantêm fundamentos e fluxos jurídicos distintos."
-        },
-        {
-          "id": "B",
-          "text": "tornam-se a mesma manifestação."
-        },
-        {
-          "id": "C",
-          "text": "dispensam classificação do assunto."
-        },
-        {
-          "id": "D",
-          "text": "sempre seguem o prazo da denúncia."
-        },
-        {
-          "id": "E",
-          "text": "não podem coexistir na plataforma."
-        }
+        { "id": "A", "text": "usam plataforma integrada, mas mantêm fundamentos e fluxos jurídicos distintos." },
+        { "id": "B", "text": "tornam-se a mesma manifestação." },
+        { "id": "C", "text": "dispensam classificação do assunto." },
+        { "id": "D", "text": "sempre seguem o prazo da denúncia." },
+        { "id": "E", "text": "não podem coexistir na plataforma." }
       ],
       "correctOptionId": "A",
       "explanation": "Integração tecnológica não unifica institutos jurídicos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1538,26 +773,11 @@
       "origin": "authorial",
       "prompt": "Publicar relatório em PDF no portal",
       "options": [
-        {
-          "id": "A",
-          "text": "sempre satisfaz dados abertos."
-        },
-        {
-          "id": "B",
-          "text": "pode cumprir transparência humana sem oferecer necessariamente reúso estruturado."
-        },
-        {
-          "id": "C",
-          "text": "dispensa formato e licença."
-        },
-        {
-          "id": "D",
-          "text": "elimina o dever de acesso passivo."
-        },
-        {
-          "id": "E",
-          "text": "torna a informação anônima."
-        }
+        { "id": "A", "text": "sempre satisfaz dados abertos." },
+        { "id": "B", "text": "pode cumprir transparência humana sem oferecer necessariamente reúso estruturado." },
+        { "id": "C", "text": "dispensa formato e licença." },
+        { "id": "D", "text": "elimina o dever de acesso passivo." },
+        { "id": "E", "text": "torna a informação anônima." }
       ],
       "correctOptionId": "B",
       "explanation": "Transparência e dados abertos são dimensões relacionadas, porém diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1568,26 +788,11 @@
       "origin": "authorial",
       "prompt": "Quanto a dados pessoais em bases públicas",
       "options": [
-        {
-          "id": "A",
-          "text": "devem ser abertos integralmente."
-        },
-        {
-          "id": "B",
-          "text": "perdem proteção ao entrar em sistema estatal."
-        },
-        {
-          "id": "C",
-          "text": "a abertura depende de finalidade, base, necessidade e medidas de proteção."
-        },
-        {
-          "id": "D",
-          "text": "todo dado pessoal é sigiloso por cem anos."
-        },
-        {
-          "id": "E",
-          "text": "licença aberta substitui a LGPD."
-        }
+        { "id": "A", "text": "devem ser abertos integralmente." },
+        { "id": "B", "text": "perdem proteção ao entrar em sistema estatal." },
+        { "id": "C", "text": "a abertura depende de finalidade, base, necessidade e medidas de proteção." },
+        { "id": "D", "text": "todo dado pessoal é sigiloso por cem anos." },
+        { "id": "E", "text": "licença aberta substitui a LGPD." }
       ],
       "correctOptionId": "C",
       "explanation": "Governo aberto deve conviver com proteção de dados. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1598,26 +803,11 @@
       "origin": "authorial",
       "prompt": "Informação sujeita a sigilo legal",
       "options": [
-        {
-          "id": "A",
-          "text": "deve ser publicada em formato aberto."
-        },
-        {
-          "id": "B",
-          "text": "pode ser liberada por simples licença."
-        },
-        {
-          "id": "C",
-          "text": "deixa de ser sigilosa no catálogo."
-        },
-        {
-          "id": "D",
-          "text": "não pode ser aberta apenas porque o órgão adota política de dados abertos."
-        },
-        {
-          "id": "E",
-          "text": "deve ser convertida em API."
-        }
+        { "id": "A", "text": "deve ser publicada em formato aberto." },
+        { "id": "B", "text": "pode ser liberada por simples licença." },
+        { "id": "C", "text": "deixa de ser sigilosa no catálogo." },
+        { "id": "D", "text": "não pode ser aberta apenas porque o órgão adota política de dados abertos." },
+        { "id": "E", "text": "deve ser convertida em API." }
       ],
       "correctOptionId": "D",
       "explanation": "A política de abertura respeita restrições legais. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1628,26 +818,11 @@
       "origin": "authorial",
       "prompt": "Conjunto aparece no Portal Brasileiro, mas o link do recurso está quebrado. Isso demonstra que",
       "options": [
-        {
-          "id": "A",
-          "text": "o catálogo garante disponibilidade."
-        },
-        {
-          "id": "B",
-          "text": "o portal é o produtor da base."
-        },
-        {
-          "id": "C",
-          "text": "os metadados substituem o arquivo."
-        },
-        {
-          "id": "D",
-          "text": "o conjunto deixa de existir juridicamente."
-        },
-        {
-          "id": "E",
-          "text": "catalogação não garante disponibilidade ou qualidade da fonte mantida pelo órgão."
-        }
+        { "id": "A", "text": "o catálogo garante disponibilidade." },
+        { "id": "B", "text": "o portal é o produtor da base." },
+        { "id": "C", "text": "os metadados substituem o arquivo." },
+        { "id": "D", "text": "o conjunto deixa de existir juridicamente." },
+        { "id": "E", "text": "catalogação não garante disponibilidade ou qualidade da fonte mantida pelo órgão." }
       ],
       "correctOptionId": "E",
       "explanation": "O responsável pelo recurso precisa manter links e atualizações. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1658,26 +833,11 @@
       "origin": "authorial",
       "prompt": "Órgão publica despesas em imagem de planilha. A avaliação correta é",
       "options": [
-        {
-          "id": "A",
-          "text": "há alguma transparência visual, mas faltam estrutura e processamento por máquina para dados abertos."
-        },
-        {
-          "id": "B",
-          "text": "a imagem é API."
-        },
-        {
-          "id": "C",
-          "text": "a publicação é automaticamente licenciada."
-        },
-        {
-          "id": "D",
-          "text": "metadados são desnecessários."
-        },
-        {
-          "id": "E",
-          "text": "a imagem é formato aberto por definição."
-        }
+        { "id": "A", "text": "há alguma transparência visual, mas faltam estrutura e processamento por máquina para dados abertos." },
+        { "id": "B", "text": "a imagem é API." },
+        { "id": "C", "text": "a publicação é automaticamente licenciada." },
+        { "id": "D", "text": "metadados são desnecessários." },
+        { "id": "E", "text": "a imagem é formato aberto por definição." }
       ],
       "correctOptionId": "A",
       "explanation": "A imagem não preserva a estrutura tabular reutilizável. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1688,26 +848,11 @@
       "origin": "authorial",
       "prompt": "Órgão reúne servidores e cidadãos para testar protótipos de jornada. Trata-se de",
       "options": [
-        {
-          "id": "A",
-          "text": "registro de referência."
-        },
-        {
-          "id": "B",
-          "text": "laboratório de inovação."
-        },
-        {
-          "id": "C",
-          "text": "carteira de documentos."
-        },
-        {
-          "id": "D",
-          "text": "PDA."
-        },
-        {
-          "id": "E",
-          "text": "nível Ouro."
-        }
+        { "id": "A", "text": "registro de referência." },
+        { "id": "B", "text": "laboratório de inovação." },
+        { "id": "C", "text": "carteira de documentos." },
+        { "id": "D", "text": "PDA." },
+        { "id": "E", "text": "nível Ouro." }
       ],
       "correctOptionId": "B",
       "explanation": "Experimentação aberta e colaborativa caracteriza laboratório. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1718,26 +863,11 @@
       "origin": "authorial",
       "prompt": "Usuário autentica com Ouro, mas não cumpre requisito de renda. A conclusão é",
       "options": [
-        {
-          "id": "A",
-          "text": "o benefício deve ser concedido."
-        },
-        {
-          "id": "B",
-          "text": "a autenticação falhou."
-        },
-        {
-          "id": "C",
-          "text": "a identidade foi validada, mas a elegibilidade pode impedir o deferimento."
-        },
-        {
-          "id": "D",
-          "text": "o serviço não pode verificar renda."
-        },
-        {
-          "id": "E",
-          "text": "a conta deve ser excluída."
-        }
+        { "id": "A", "text": "o benefício deve ser concedido." },
+        { "id": "B", "text": "a autenticação falhou." },
+        { "id": "C", "text": "a identidade foi validada, mas a elegibilidade pode impedir o deferimento." },
+        { "id": "D", "text": "o serviço não pode verificar renda." },
+        { "id": "E", "text": "a conta deve ser excluída." }
       ],
       "correctOptionId": "C",
       "explanation": "Confiança da identidade não decide o mérito do pedido. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1748,26 +878,11 @@
       "origin": "authorial",
       "prompt": "No Balcão GOV.BR, o atendente pode",
       "options": [
-        {
-          "id": "A",
-          "text": "atribuir Ouro por análise documental."
-        },
-        {
-          "id": "B",
-          "text": "mudar diretamente Bronze para Prata."
-        },
-        {
-          "id": "C",
-          "text": "dispensar validação."
-        },
-        {
-          "id": "D",
-          "text": "orientar e auxiliar o cidadão a usar os métodos oficiais, sem elevar o nível automaticamente."
-        },
-        {
-          "id": "E",
-          "text": "gerar certificado ICP-Brasil."
-        }
+        { "id": "A", "text": "atribuir Ouro por análise documental." },
+        { "id": "B", "text": "mudar diretamente Bronze para Prata." },
+        { "id": "C", "text": "dispensar validação." },
+        { "id": "D", "text": "orientar e auxiliar o cidadão a usar os métodos oficiais, sem elevar o nível automaticamente." },
+        { "id": "E", "text": "gerar certificado ICP-Brasil." }
       ],
       "correctOptionId": "D",
       "explanation": "O Balcão presta apoio, mas o nível decorre da validação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1778,26 +893,11 @@
       "origin": "authorial",
       "prompt": "Um conjunto de contratos possui CSV, JSON, API, metadados, licença e órgão responsável. Essa organização evidencia",
       "options": [
-        {
-          "id": "A",
-          "text": "que o catálogo é o emissor do dado."
-        },
-        {
-          "id": "B",
-          "text": "que API substitui todos os arquivos."
-        },
-        {
-          "id": "C",
-          "text": "que licença é formato."
-        },
-        {
-          "id": "D",
-          "text": "que metadado é o próprio conjunto."
-        },
-        {
-          "id": "E",
-          "text": "arquitetura com conjunto lógico, múltiplos recursos, descrição e autorização de reúso."
-        }
+        { "id": "A", "text": "que o catálogo é o emissor do dado." },
+        { "id": "B", "text": "que API substitui todos os arquivos." },
+        { "id": "C", "text": "que licença é formato." },
+        { "id": "D", "text": "que metadado é o próprio conjunto." },
+        { "id": "E", "text": "arquitetura com conjunto lógico, múltiplos recursos, descrição e autorização de reúso." }
       ],
       "correctOptionId": "E",
       "explanation": "Os componentes se complementam na publicação de dados abertos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1808,26 +908,11 @@
       "origin": "previous_exam",
       "prompt": "Para os fins da Lei nº 14.129/2021, o espaço aberto à participação e à colaboração da sociedade para desenvolver ideias, ferramentas e métodos inovadores para a gestão pública, os serviços e o controle social é denominado",
       "options": [
-        {
-          "id": "A",
-          "text": "laboratório de inovação."
-        },
-        {
-          "id": "B",
-          "text": "formato aberto."
-        },
-        {
-          "id": "C",
-          "text": "dados abertos."
-        },
-        {
-          "id": "D",
-          "text": "governo como plataforma."
-        },
-        {
-          "id": "E",
-          "text": "plataforma de governo digital."
-        }
+        { "id": "A", "text": "laboratório de inovação." },
+        { "id": "B", "text": "formato aberto." },
+        { "id": "C", "text": "dados abertos." },
+        { "id": "D", "text": "governo como plataforma." },
+        { "id": "E", "text": "plataforma de governo digital." }
       ],
       "correctOptionId": "A",
       "explanation": "A definição legal corresponde a laboratório de inovação. Fonte: questão adaptada de FGV; Câmara Municipal de Fortaleza; Consultor Legislativo — Administração Pública; 2024; questão 61; prova https://conhecimento.fgv.br/sites/default/files/concursos/consultor-legislativo-administracao-publicacns016-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/cmfor2024_gabarito_definitivo-retificado-17.05.2024.pdf; adaptação: enunciado condensado, com alternativas e gabarito preservados."
@@ -1838,26 +923,11 @@
       "origin": "previous_exam",
       "prompt": "Sobre transparência passiva segundo a Lei nº 12.527/2011, assinale a alternativa correta.",
       "options": [
-        {
-          "id": "A",
-          "text": "Municípios com menos de cinquenta mil habitantes são dispensados de qualquer transparência ativa."
-        },
-        {
-          "id": "B",
-          "text": "Programas, metas e indicadores podem ser mantidos em sigilo sem motivação."
-        },
-        {
-          "id": "C",
-          "text": "O pedido de acesso a informação não sigilosa não pode ser condicionado à exposição dos motivos determinantes."
-        },
-        {
-          "id": "D",
-          "text": "O particular deve provar previamente que a informação não está sujeita a sigilo."
-        },
-        {
-          "id": "E",
-          "text": "A transparência municipal limita-se aos atos publicados no diário oficial."
-        }
+        { "id": "A", "text": "Municípios com menos de cinquenta mil habitantes são dispensados de qualquer transparência ativa." },
+        { "id": "B", "text": "Programas, metas e indicadores podem ser mantidos em sigilo sem motivação." },
+        { "id": "C", "text": "O pedido de acesso a informação não sigilosa não pode ser condicionado à exposição dos motivos determinantes." },
+        { "id": "D", "text": "O particular deve provar previamente que a informação não está sujeita a sigilo." },
+        { "id": "E", "text": "A transparência municipal limita-se aos atos publicados no diário oficial." }
       ],
       "correctOptionId": "C",
       "explanation": "A LAI veda exigir os motivos do pedido de acesso; as demais afirmações restringem indevidamente a transparência. Fonte: questão adaptada de FGV; Câmara Municipal de Fortaleza; Consultor Legislativo — Administração Pública; 2024; questão 66; prova https://conhecimento.fgv.br/sites/default/files/concursos/consultor-legislativo-administracao-publicacns016-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/cmfor2024_gabarito_definitivo-retificado-17.05.2024.pdf; adaptação: enunciado condensado, com alternativas semanticamente preservadas."
@@ -1868,17 +938,179 @@
       "origin": "previous_exam",
       "prompt": "Julgue os próximos itens, relativos à Política de Dados Abertos, estabelecida pelo Decreto n.º 8.777/2016.\n\nA Infraestrutura Nacional de Dados Abertos (INDA) poderá estabelecer normas complementares relacionadas à elaboração do plano de dados abertos bem como à proteção de informações pessoais na publicação de bases de dados abertos.",
       "options": [
-        {
-          "id": "C",
-          "text": "Certo"
-        },
-        {
-          "id": "E",
-          "text": "Errado"
-        }
+        { "id": "C", "text": "Certo" },
+        { "id": "E", "text": "Errado" }
       ],
       "correctOptionId": "C",
       "explanation": "Certo. O § 3º do art. 5º do Decreto nº 8.777/2016 permite à INDA estabelecer normas complementares relacionadas à elaboração do Plano de Dados Abertos e à proteção de informações pessoais na publicação de bases de dados abertos. Fonte: questão oficial; Cebraspe; TCE/AC — Analista de Controle Externo, Área Tecnologia da Informação — Especialidade Projetos de TI; 2024; item 59; caderno https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/993_TCE_AC_009_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_009_01.PDF."
+    },
+    {
+      "id": "q522320",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Julgue os próximos itens, relativos à Política de Dados Abertos, estabelecida pelo Decreto n.º 8.777/2016.\n\nA gestão da Política de Dados Abertos do Poder Executivo federal será coordenada pela Advocacia-Geral da União, por meio da Infraestrutura Nacional de Dados Abertos (INDA).",
+      "options": [
+        { "id": "C", "text": "Certo" },
+        { "id": "E", "text": "Errado" }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Errado. O gabarito definitivo rejeita a atribuição da coordenação da Política de Dados Abertos à Advocacia-Geral da União. Fonte: questão oficial; Cebraspe; TCE/AC — Analista de Controle Externo, Área Tecnologia da Informação — Especialidade Projetos de TI; 2024; item 60; caderno https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/993_TCE_AC_009_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_009_01.PDF."
+    },
+    {
+      "id": "q522321",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Com relação a governo digital e contratação de serviços de TI, julgue os próximos itens.\n\nDe acordo com a Lei n.º 14.129/2021, a estratégia de governo digital da administração pública de cada ente federado deve estar subordinada à estratégia federal, sendo vedada qualquer edição ou iniciativa alternativa de estratégia para interoperabilidade técnica.",
+      "options": [
+        { "id": "C", "text": "Certo" },
+        { "id": "E", "text": "Errado" }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Errado. A Lei nº 14.129/2021 não impõe a subordinação descrita da estratégia de cada ente federado à estratégia federal. Fonte: questão oficial; Cebraspe; Fundação Universidade de Brasília (FUB) — Técnico de Tecnologia da Informação; 2022; item 116; caderno https://cdn.cebraspe.org.br/concursos/fub_22/arquivos/678_FUB_016_01.pdf; gabarito definitivo https://cdn.cebraspe.org.br/concursos/fub_22/arquivos/GAB_DEFINITIVO_678_FUB_016_01.PDF."
+    },
+    {
+      "id": "q522322",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No que se refere à Política de Dados Abertos, instituída pelo Decreto n.º 8.777/2016, julgue os itens seguintes.\n\nOs dados disponibilizados pelo Poder Executivo federal são de livre utilização pelos poderes públicos, sendo aquele poder obrigado a indicar o detentor de direitos autorais pertencentes a terceiros e as condições de utilização por este autorizadas na divulgação de bases de dados protegidas por direitos autorais.",
+      "options": [
+        { "id": "C", "text": "Certo" },
+        { "id": "E", "text": "Errado" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Certo. O item reproduz regra da Política de Dados Abertos quanto à utilização de dados e à indicação de direitos autorais de terceiros. Fonte: questão oficial; Cebraspe; Ministério do Planejamento e Orçamento — Analista de Planejamento e Orçamento, Especialidade Governança e Gestão de Projetos de TI; 2024; item 99; caderno https://cdn.cebraspe.org.br/concursos/MPO_24/arquivos/958_MPO_ANALISTA_003_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/MPO_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_003_01.PDF."
+    },
+    {
+      "id": "q522323",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No que se refere à Política de Dados Abertos, instituída pelo Decreto n.º 8.777/2016, julgue os itens seguintes.\n\nO objetivo dessa política é franquear aos cidadãos o acesso à publicação de dados contidos em bases de dados de órgãos da administração pública federal direta e indireta, com exceção das entidades autárquicas.",
+      "options": [
+        { "id": "C", "text": "Certo" },
+        { "id": "E", "text": "Errado" }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Errado. A exclusão das entidades autárquicas torna a assertiva incompatível com o âmbito da Política de Dados Abertos. Fonte: questão oficial; Cebraspe; Ministério do Planejamento e Orçamento — Analista de Planejamento e Orçamento, Especialidade Governança e Gestão de Projetos de TI; 2024; item 100; caderno https://cdn.cebraspe.org.br/concursos/MPO_24/arquivos/958_MPO_ANALISTA_003_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/MPO_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_003_01.PDF."
+    },
+    {
+      "id": "q522324",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Dados abertos são um tema de crescente importância no serviço público. Um analista do TCE-PE estava apresentando para seus colegas de repartição as três normas fundamentais dos dados abertos preconizados pela Open Knowledge Foundation.\n\nNesse contexto, avalie se as seguintes ações devem ser realizadas e assinale (V) para verdadeira ou (F) para falsa.\n\n( ) Disponibilidade e acesso: os dados devem estar disponíveis como um todo e sob custo não maior que um custo razoável de reprodução e, preferencialmente, devem ser possíveis de serem baixados pela Internet. Os dados devem também estar disponíveis de uma forma conveniente e modificável.\n\n( ) Reuso e redistribuição: os dados devem ser disponibilizados com termos que autorizem sua reutilização e redistribuição, inclusive permitindo sua integração com outros conjuntos de dados.\n\n( ) Uso ético e seguro: todos os usuários de dados devem ser devidamente identificados e ter condições de utilizar, reutilizar e armazenar os dados com segurança. É fundamental garantir a não discriminação por gênero, área de atuação, identidade pessoal, pertencimento a grupos sociais ou vínculo com órgãos governamentais.\n\nAs ações são, na ordem apresentada,",
+      "options": [
+        { "id": "A", "text": "V – F – V." },
+        { "id": "B", "text": "F – V – V." },
+        { "id": "C", "text": "V – F – F." },
+        { "id": "D", "text": "F – F – V." },
+        { "id": "E", "text": "V – V – F." }
+      ],
+      "correctOptionId": "E",
+      "explanation": "As duas primeiras afirmações correspondem às normas de disponibilidade/acesso e reúso/redistribuição; a terceira não corresponde à norma de participação universal. Fonte: questão oficial; FGV; TCE-PE — Analista de Controle Externo, Tecnologia da Informação; 2025; questão 19; caderno https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-controle-externo-tecnologia-da-informacaocns103-tipo-1.pdf; gabarito definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_tce-pe_retificado-17.07.2026.pdf."
+    },
+    {
+      "id": "q522325",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em uma cultura de acesso, os agentes públicos entendem que as informações pertencem ao cidadão. Por isso, é dever do Estado fornecê-las de forma rápida, clara e útil, para atender bem às necessidades da sociedade.\n\nNesse contexto, é correto afirmar que, de acordo com a Lei de Acesso à Informação (Lei nº 12.527/2011), o acesso à informação é reconhecido como um direito:",
+      "options": [
+        { "id": "A", "text": "individual, baseado no princípio de que o sigilo à informação de interesse particular constitui regra fundamental;" },
+        { "id": "B", "text": "à transparência ponderada, baseado no princípio de que a publicidade moderada da quantidade e qualidade de informações evita a desinformação entre os cidadãos;" },
+        { "id": "C", "text": "à participação política, baseado no princípio de que a transparência ativa depende da iniciativa do cidadão para solicitar informações de interesse público;" },
+        { "id": "D", "text": "humano fundamental, baseado no princípio de que toda pessoa deve ter a liberdade de buscar, receber e divulgar informações e ideias por quaisquer meios;" },
+        { "id": "E", "text": "à igualdade perante a lei, baseado no princípio de que os meios físicos são canais obrigatórios e facilitadores para divulgação equitativa das iniciativas públicas." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alternativa D corresponde ao reconhecimento do acesso à informação como direito humano fundamental. Fonte: questão oficial; FGV; Concurso Público Nacional Unificado — 2ª Edição — Bloco Temático 2 Cultura e Educação; 2025; questão 37, Tipo 1; caderno https://conhecimento.fgv.br/sites/default/files/concursos/b2201.pdf; gabarito oficial definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf."
+    },
+    {
+      "id": "q522326",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A alternativa que apresenta corretamente as diretrizes e os princípios estabelecidos pela Lei Federal nº 14.129/2021, que dispõe sobre o Governo Digital e a eficiência pública, é a seguinte:",
+      "options": [
+        { "id": "A", "text": "a ampliação dos trâmites burocráticos nas etapas de solicitação, oferta e acompanhamento dos serviços digitais contribui para a previsibilidade das ações e decisões;" },
+        { "id": "B", "text": "a supressão do atendimento presencial promove a inclusão social e o acesso universal, ao disponibilizar canais digitais amplamente acessíveis à população;" },
+        { "id": "C", "text": "a descentralização dos serviços digitais por meio de múltiplas plataformas autônomas permite uma experiência mais personalizada, acessível e conveniente para o cidadão;" },
+        { "id": "D", "text": "a eliminação de formalidades e exigências nos serviços digitais, cujo custo econômico ou social seja superior ao risco envolvido, permite a simplificação dos processos;" },
+        { "id": "E", "text": "a remoção do autosserviço nos serviços digitais contribui para reduzir erros e arbitrariedades por parte dos cidadãos, ao delegar as operações a servidores públicos capacitados." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alternativa D expressa a diretriz de simplificação por eliminação de formalidades cujo custo econômico ou social supere o risco envolvido. Fonte: questão oficial; FGV; Concurso Público Nacional Unificado — 2ª Edição — Bloco Temático 2 Cultura e Educação; 2025; questão 38, Tipo 1; caderno https://conhecimento.fgv.br/sites/default/files/concursos/b2201.pdf; gabarito oficial definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf."
+    },
+    {
+      "id": "q522327",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Determinado gestor, integrante do alto escalão da administração pública federal direta, formulou consulta à sua assessoria imediata em relação à possibilidade, ou não, de serem inseridas três ordens de informações afetas aos servidores públicos, devidamente individualizados e independentemente de prévio consentimento, no Portal da Transparência do Governo Federal. Esses dados consistiriam em:\n\nI. remuneração;\nII. aplicação da sanção de demissão ou de cassação de aposentadoria; e\nIII. filiação a um sindicato.\n\nConsiderando a natureza das informações indicadas, a assessoria respondeu corretamente que:",
+      "options": [
+        { "id": "A", "text": "todas devem ser inseridas;" },
+        { "id": "B", "text": "apenas deve ser inserida a informação referida em I;" },
+        { "id": "C", "text": "apenas devem ser inseridas as informações referidas em I e II;" },
+        { "id": "D", "text": "apenas devem ser inseridas as informações referidas em I e III;" },
+        { "id": "E", "text": "apenas devem ser inseridas as informações referidas em II e III." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Remuneração e sanções funcionais podem ser objeto de transparência ativa, enquanto a filiação sindical recebe proteção própria como dado pessoal sensível. Fonte: questão oficial; FGV; Concurso Público Nacional Unificado — 2ª Edição — Bloco Temático 3 Ciências, Dados e Tecnologia; 2025; questão 13, Tipo 1; caderno https://conhecimento.fgv.br/sites/default/files/concursos/b3301.pdf; gabarito oficial definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf."
+    },
+    {
+      "id": "q522328",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "João está preparando um conjunto de dados do seu setor para publicar no Portal de Dados Abertos. Após cadastrar sua organização no portal, ele deve informar alguns descritores sobre o conjunto de dados que serão publicados. Um deles é a licença de uso que permite o uso, a modificação e a distribuição dos dados, exigindo atribuição ao autor original.\n\nDe acordo com as instruções de publicação de conjunto de dados do Portal de Dados Abertos, a licença de uso que João deve informar é:",
+      "options": [
+        { "id": "A", "text": "Creative Commons CC0;" },
+        { "id": "B", "text": "Creative Commons Atribuição;" },
+        { "id": "C", "text": "Licença Aberta do esquema e organização do Banco de Dados;" },
+        { "id": "D", "text": "Licença e Dedicação ao Domínio Público do Open Data Commons;" },
+        { "id": "E", "text": "Licença Aberta para Bases de Dados (ODbL) do Open Data Commons." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A licença descrita, que admite uso, modificação e distribuição com atribuição, é a Creative Commons Atribuição. Fonte: questão oficial; FGV; Concurso Público Nacional Unificado — 2ª Edição — Bloco Temático 3 Ciências, Dados e Tecnologia; 2025; questão 67, Tipo 1; caderno https://conhecimento.fgv.br/sites/default/files/concursos/b3301.pdf; gabarito oficial definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf."
+    },
+    {
+      "id": "q522329",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Maria é a responsável por implementar uma funcionalidade no sistema de informação do seu órgão, que precisa de dados sobre a nacionalidade e a naturalidade do cidadão. Ela sabe que esses dados já estão armazenados no Cadastro Base do Cidadão (CPF) da Receita Federal. Para que o cidadão não tenha que reapresentar essas informações, é necessário recuperá-las do programa do governo federal que promove a troca automática e segura de dados entre os sistemas de informação governamentais.\n\nPara isso, Maria deve usar o programa:",
+      "options": [
+        { "id": "A", "text": "CISC GOV.BR" },
+        { "id": "B", "text": "Conta GOV.BR" },
+        { "id": "C", "text": "Agenda GOV.BR" },
+        { "id": "D", "text": "Conecta GOV.BR" },
+        { "id": "E", "text": "Protocolo GOV.BR" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Conecta GOV.BR é o programa de interoperabilidade para troca automática e segura de dados entre sistemas governamentais. Fonte: questão oficial; FGV; Concurso Público Nacional Unificado — 2ª Edição — Bloco Temático 3 Ciências, Dados e Tecnologia; 2025; questão 73, Tipo 1; caderno https://conhecimento.fgv.br/sites/default/files/concursos/b3301.pdf; gabarito oficial definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf."
+    },
+    {
+      "id": "q522330",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Com o avanço da transformação digital na Administração Pública, o governo eletrônico tem se consolidado como uma importante ferramenta para o desenvolvimento de novos processos de inovação nos serviços públicos. Nesse contexto, foi editado o Decreto nº 12.069, de 28 de maio de 2024, que institui a Estratégia Nacional de Governo Digital (ENGD), com diretrizes e objetivos específicos voltados à promoção da digitalização dos serviços públicos.\n\nÀ luz desse decreto, representa corretamente um dos objetivos específicos estabelecidos para o quadriênio de 2024 a 2027:",
+      "options": [
+        { "id": "A", "text": "estimular uso de tecnologias tradicionais de governo digital, com a participação ativa da iniciativa privada na sua concepção;" },
+        { "id": "B", "text": "coibir a interoperabilidade das estruturas tecnológicas governamentais, assegurando a substituição tempestiva e gradual por componentes de software livre;" },
+        { "id": "C", "text": "qualificar tecnicamente a tomada de decisões e a oferta de serviços nas organizações públicas, evitando reuso constante dos dados brutos disponíveis para personalização;" },
+        { "id": "D", "text": "promover o desenvolvimento do ecossistema de inovação público, de modo a viabilizar a independência de sistemas da União, dos estados, do Distrito Federal e dos municípios;" },
+        { "id": "E", "text": "implementar e manter solução estruturante de identificação única e nacional, associada à Carteira de Identidade Nacional, com segurança, ampla disponibilidade e validade para todos os entes federativos." }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A alternativa E corresponde a objetivo específico da ENGD para 2024–2027. Fonte: questão oficial; FGV; Concurso Público Nacional Unificado — 2ª Edição — Bloco Temático 5 Administração; 2025; questão 52, Tipo 1; caderno https://conhecimento.fgv.br/sites/default/files/concursos/b5501.pdf; gabarito oficial definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf."
+    },
+    {
+      "id": "q522331",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A governança pública reforça a importância do controle social e da cidadania ativa ao promover a transparência e a coprodução das políticas públicas, reconhecendo o cidadão como um ator de direitos capaz de intervir e contribuir diretamente nas decisões e ações do Estado.\n\nNesse contexto, os dados abertos governamentais são instrumentos fundamentais para viabilizar essa participação. No entanto, a Administração Pública ainda enfrenta desafios importantes nesse processo.\n\nAssinale a alternativa que apresenta corretamente um desses desafios.",
+      "options": [
+        { "id": "A", "text": "Falta de desafios técnicos, sendo a única barreira a ausência de legislação específica sobre dados abertos." },
+        { "id": "B", "text": "Acesso irrestrito aos dados por qualquer cidadão, o que torna desnecessária a infraestrutura tecnológica." },
+        { "id": "C", "text": "Alta padronização e excesso de uso dos dados por parte da sociedade civil, dificultando sua atualização." },
+        { "id": "D", "text": "Alto engajamento de órgãos de controle e sociedade civil, o que gera sobrecarga na gestão dos dados abertos." },
+        { "id": "E", "text": "Resistência organizacional, baixa qualidade e padronização dos dados, além da limitada infraestrutura tecnológica." }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A alternativa E reúne obstáculos práticos reconhecidos para a abertura governamental de dados. Fonte: questão oficial; FGV; Secretaria da Administração e da Previdência do Estado do Paraná (SEAP-PR) — Auditor Fiscal; 2025; questão 23, Tipo Branca, manhã; caderno https://conhecimento.fgv.br/sites/default/files/concursos/auditor-fiscal-manhacns101-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/gabdefinitivo-seappr-auditor-fiscal.pdf."
     }
   ]
 }
