@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q4779",
@@ -943,6 +943,33 @@
       ],
       "correctOptionId": "E",
       "explanation": "Alternativa E. A questão cobra o tratamento de imagens complexas previsto na ABNT NBR 17225, com texto alternativo que as identifique e descrição detalhada disponível na própria página ou em página indicada. Fonte: questão oficial; FGV; Procuradoria-Geral do Município do Rio de Janeiro — Analista de Procuradoria, Especialidade Comunicação; 2025; questão 38; caderno https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-procuradoria-especialidade-comunicacao-pgmcns202-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-procuradoria-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q5220353",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O eMAG estabelece diretrizes para que os sítios e portais da administração pública federal brasileira sejam acessíveis a todas as pessoas, incluídas aquelas com deficiência, e é baseado em recomendações internacionais, como as diretrizes de acessibilidade para conteúdo web do W3C.",
+      "options": [
+        { "id": "C", "text": "Certo" },
+        { "id": "E", "text": "Errado" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Certo. O item cobra duas características próprias do eMAG: seu uso como referência de acessibilidade para sítios e portais da administração pública federal e sua base em recomendações internacionais do W3C. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/Gab_Definitivo_088_FUB_018_01.pdf. Fonte: questão oficial; Cebraspe; Fundação Universidade de Brasília (FUB) — Técnico de Tecnologia da Informação; 2025; item 85; https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/088_FUB_018_01.pdf."
+    },
+    {
+      "id": "q5220354",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Com relação às boas práticas de acessibilidade no design de interfaces e conteúdo digital, assinale (V) para a afirmativa verdadeira e (F) para a falsa.\n( ) O atributo \"texto alternativo\" (alt text) em imagens é um requisito essencial, pois permite que leitores de tela descrevam o conteúdo visual para usuários com deficiência visual e melhora a indexação nos motores de busca (SEO).\n( ) Para garantir a legibilidade segundo as normas WCAG (nível AA), o contraste entre a cor do texto e a cor do fundo deve apresentar uma razão mínima de 4.5:1 para textos de tamanho normal.\n( ) O uso de texto \"achatado\" dentro de imagens (salvar o texto como parte do JPG ou PNG) é a prática mais recomendada para web design, pois garante que a fonte nunca será alterada pelo navegador do usuário, independentemente das questões de acessibilidade.\nAs afirmativas são, respectivamente,",
+      "options": [
+        { "id": "A", "text": "V – V – F." },
+        { "id": "B", "text": "F – V – V." },
+        { "id": "C", "text": "V – F – F." },
+        { "id": "D", "text": "F – F – V." },
+        { "id": "E", "text": "V – V – V." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A sequência definitiva é V–V–F: texto alternativo é recurso essencial para acesso ao conteúdo visual; o critério WCAG nível AA indicado no item exige contraste mínimo de 4.5:1 para texto normal; e texto achatado em imagem não é a prática recomendada quando se considera acessibilidade. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-atualizado_amazulv2.pdf. Fonte: questão oficial; FGV; AMAZUL — Analista em Desenvolvimento de Tecnologia Nuclear e Defesa, Designer Gráfico; 2026; questão 48; https://conhecimento.fgv.br/sites/default/files/concursos/ok-designer-grafico-cnsa109-tipo-1.pdf."
     }
   ]
 }
