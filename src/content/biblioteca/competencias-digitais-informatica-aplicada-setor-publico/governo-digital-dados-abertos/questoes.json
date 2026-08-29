@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q4599",
@@ -1879,6 +1879,318 @@
       ],
       "correctOptionId": "C",
       "explanation": "Certo. O § 3º do art. 5º do Decreto nº 8.777/2016 permite à INDA estabelecer normas complementares relacionadas à elaboração do Plano de Dados Abertos e à proteção de informações pessoais na publicação de bases de dados abertos. Fonte: questão oficial; Cebraspe; TCE/AC — Analista de Controle Externo, Área Tecnologia da Informação — Especialidade Projetos de TI; 2024; item 59; caderno https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/993_TCE_AC_009_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_009_01.PDF."
+    },
+    {
+      "id": "q522320",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Julgue os próximos itens, relativos à Política de Dados Abertos, estabelecida pelo Decreto n.º 8.777/2016.\n\nA gestão da Política de Dados Abertos do Poder Executivo federal será coordenada pela Advocacia-Geral da União, por meio da Infraestrutura Nacional de Dados Abertos (INDA).",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Errado. O gabarito definitivo rejeita a atribuição da coordenação da Política de Dados Abertos à Advocacia-Geral da União. Fonte: questão oficial; Cebraspe; TCE/AC — Analista de Controle Externo, Área Tecnologia da Informação — Especialidade Projetos de TI; 2024; item 60; caderno https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/993_TCE_AC_009_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_009_01.PDF."
+    },
+    {
+      "id": "q522321",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "De acordo com a Lei n.º 14.129/2021, a estratégia de governo digital da administração pública de cada ente federado deve estar subordinada à estratégia federal, sendo vedada qualquer edição ou iniciativa alternativa de estratégia para interoperabilidade técnica.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Errado. A Lei nº 14.129/2021 não impõe a subordinação descrita da estratégia de cada ente federado à estratégia federal. Fonte: questão oficial; Cebraspe; Fundação Universidade de Brasília (FUB) — Técnico de Tecnologia da Informação; 2022; item 116; caderno https://cdn.cebraspe.org.br/concursos/fub_22/arquivos/678_FUB_016_01.pdf; gabarito definitivo https://cdn.cebraspe.org.br/concursos/fub_22/arquivos/GAB_DEFINITIVO_678_FUB_016_01.PDF."
+    },
+    {
+      "id": "q522322",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Os dados disponibilizados pelo Poder Executivo federal são de livre utilização pelos poderes públicos, sendo aquele poder obrigado a indicar o detentor de direitos autorais pertencentes a terceiros e as condições de utilização por este autorizadas na divulgação de bases de dados protegidas por direitos autorais.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Certo. O item reproduz regra da Política de Dados Abertos quanto à utilização de dados e à indicação de direitos autorais de terceiros. Fonte: questão oficial; Cebraspe; Ministério do Planejamento e Orçamento — Analista de Planejamento e Orçamento, Especialidade Governança e Gestão de Projetos de TI; 2024; item 99; caderno https://cdn.cebraspe.org.br/concursos/MPO_24/arquivos/958_MPO_ANALISTA_003_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/MPO_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_003_01.PDF."
+    },
+    {
+      "id": "q522323",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O objetivo dessa política é franquear aos cidadãos o acesso à publicação de dados contidos em bases de dados de órgãos da administração pública federal direta e indireta, com exceção das entidades autárquicas.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Errado. A exclusão das entidades autárquicas torna a assertiva incompatível com o âmbito da Política de Dados Abertos. Fonte: questão oficial; Cebraspe; Ministério do Planejamento e Orçamento — Analista de Planejamento e Orçamento, Especialidade Governança e Gestão de Projetos de TI; 2024; item 100; caderno https://cdn.cebraspe.org.br/concursos/MPO_24/arquivos/958_MPO_ANALISTA_003_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/MPO_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_003_01.PDF."
+    },
+    {
+      "id": "q522324",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Dados abertos são um tema de crescente importância no serviço público. Um analista do TCE-PE estava apresentando para seus colegas de repartição as três normas fundamentais dos dados abertos preconizados pela Open Knowledge Foundation.\n\nNesse contexto, avalie se as seguintes ações devem ser realizadas e assinale (V) para verdadeira ou (F) para falsa.\n\n( ) Disponibilidade e acesso: os dados devem estar disponíveis como um todo e sob custo não maior que um custo razoável de reprodução e, preferencialmente, devem ser possíveis de serem baixados pela Internet. Os dados devem também estar disponíveis de uma forma conveniente e modificável.\n\n( ) Reuso e redistribuição: os dados devem ser disponibilizados com termos que autorizem sua reutilização e redistribuição, inclusive permitindo sua integração com outros conjuntos de dados.\n\n( ) Uso ético e seguro: todos os usuários de dados devem ser devidamente identificados e ter condições de utilizar, reutilizar e armazenar os dados com segurança. É fundamental garantir a não discriminação por gênero, área de atuação, identidade pessoal, pertencimento a grupos sociais ou vínculo com órgãos governamentais.\n\nAs ações são, na ordem apresentada,",
+      "options": [
+        {
+          "id": "A",
+          "text": "V – F – V."
+        },
+        {
+          "id": "B",
+          "text": "F – V – V."
+        },
+        {
+          "id": "C",
+          "text": "V – F – F."
+        },
+        {
+          "id": "D",
+          "text": "F – F – V."
+        },
+        {
+          "id": "E",
+          "text": "V – V – F."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "As duas primeiras afirmações correspondem às normas de disponibilidade/acesso e reúso/redistribuição; a terceira não corresponde à norma de participação universal. Fonte: questão oficial; FGV; TCE-PE — Analista de Controle Externo, Tecnologia da Informação; 2025; questão 19; caderno https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-controle-externo-tecnologia-da-informacaocns103-tipo-1.pdf; gabarito definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_tce-pe_retificado-17.07.2026.pdf."
+    },
+    {
+      "id": "q522325",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em uma cultura de acesso, os agentes públicos entendem que as informações pertencem ao cidadão. Por isso, é dever do Estado fornecê-las de forma rápida, clara e útil, para atender bem às necessidades da sociedade.\n\nNesse contexto, é correto afirmar que, de acordo com a Lei de Acesso à Informação (Lei nº 12.527/2011), o acesso à informação é reconhecido como um direito:",
+      "options": [
+        {
+          "id": "A",
+          "text": "individual, baseado no princípio de que o sigilo à informação de interesse particular constitui regra fundamental;"
+        },
+        {
+          "id": "B",
+          "text": "à transparência ponderada, baseado no princípio de que a publicidade moderada da quantidade e qualidade de informações evita a desinformação entre os cidadãos;"
+        },
+        {
+          "id": "C",
+          "text": "à participação política, baseado no princípio de que a transparência ativa depende da iniciativa do cidadão para solicitar informações de interesse público;"
+        },
+        {
+          "id": "D",
+          "text": "humano fundamental, baseado no princípio de que toda pessoa deve ter a liberdade de buscar, receber e divulgar informações e ideias por quaisquer meios;"
+        },
+        {
+          "id": "E",
+          "text": "à igualdade perante a lei, baseado no princípio de que os meios físicos são canais obrigatórios e facilitadores para divulgação equitativa das iniciativas públicas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alternativa D corresponde ao reconhecimento do acesso à informação como direito humano fundamental. Fonte: questão oficial; FGV; Concurso Público Nacional Unificado — 2ª Edição — Bloco Temático 2 Cultura e Educação; 2025; questão 37, Tipo 1; caderno https://conhecimento.fgv.br/sites/default/files/concursos/b2201.pdf; gabarito oficial definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf."
+    },
+    {
+      "id": "q522326",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A alternativa que apresenta corretamente as diretrizes e os princípios estabelecidos pela Lei Federal nº 14.129/2021, que dispõe sobre o Governo Digital e a eficiência pública, é a seguinte:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ampliação dos trâmites burocráticos nas etapas de solicitação, oferta e acompanhamento dos serviços digitais contribui para a previsibilidade das ações e decisões;"
+        },
+        {
+          "id": "B",
+          "text": "a supressão do atendimento presencial promove a inclusão social e o acesso universal, ao disponibilizar canais digitais amplamente acessíveis à população;"
+        },
+        {
+          "id": "C",
+          "text": "a descentralização dos serviços digitais por meio de múltiplas plataformas autônomas permite uma experiência mais personalizada, acessível e conveniente para o cidadão;"
+        },
+        {
+          "id": "D",
+          "text": "a eliminação de formalidades e exigências nos serviços digitais, cujo custo econômico ou social seja superior ao risco envolvido, permite a simplificação dos processos;"
+        },
+        {
+          "id": "E",
+          "text": "a remoção do autosserviço nos serviços digitais contribui para reduzir erros e arbitrariedades por parte dos cidadãos, ao delegar as operações a servidores públicos capacitados."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alternativa D expressa a diretriz de simplificação por eliminação de formalidades cujo custo econômico ou social supere o risco envolvido. Fonte: questão oficial; FGV; Concurso Público Nacional Unificado — 2ª Edição — Bloco Temático 2 Cultura e Educação; 2025; questão 38, Tipo 1; caderno https://conhecimento.fgv.br/sites/default/files/concursos/b2201.pdf; gabarito oficial definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf."
+    },
+    {
+      "id": "q522327",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Determinado gestor, integrante do alto escalão da administração pública federal direta, formulou consulta à sua assessoria imediata em relação à possibilidade, ou não, de serem inseridas três ordens de informações afetas aos servidores públicos, devidamente individualizados e independentemente de prévio consentimento, no Portal da Transparência do Governo Federal. Esses dados consistiriam em:\n\nI. remuneração;\nII. aplicação da sanção de demissão ou de cassação de aposentadoria; e\nIII. filiação a um sindicato.\n\nConsiderando a natureza das informações indicadas, a assessoria respondeu corretamente que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "todas devem ser inseridas;"
+        },
+        {
+          "id": "B",
+          "text": "apenas deve ser inserida a informação referida em I;"
+        },
+        {
+          "id": "C",
+          "text": "apenas devem ser inseridas as informações referidas em I e II;"
+        },
+        {
+          "id": "D",
+          "text": "apenas devem ser inseridas as informações referidas em I e III;"
+        },
+        {
+          "id": "E",
+          "text": "apenas devem ser inseridas as informações referidas em II e III."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Remuneração e sanções funcionais podem ser objeto de transparência ativa, enquanto a filiação sindical recebe proteção própria como dado pessoal sensível. Fonte: questão oficial; FGV; Concurso Público Nacional Unificado — 2ª Edição — Bloco Temático 3 Ciências, Dados e Tecnologia; 2025; questão 13, Tipo 1; caderno https://conhecimento.fgv.br/sites/default/files/concursos/b3301.pdf; gabarito oficial definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf."
+    },
+    {
+      "id": "q522328",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "João está preparando um conjunto de dados do seu setor para publicar no Portal de Dados Abertos. Após cadastrar sua organização no portal, ele deve informar alguns descritores sobre o conjunto de dados que serão publicados. Um deles é a licença de uso que permite o uso, a modificação e a distribuição dos dados, exigindo atribuição ao autor original.\n\nDe acordo com as instruções de publicação de conjunto de dados do Portal de Dados Abertos, a licença de uso que João deve informar é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Creative Commons CC0;"
+        },
+        {
+          "id": "B",
+          "text": "Creative Commons Atribuição;"
+        },
+        {
+          "id": "C",
+          "text": "Licença Aberta do esquema e organização do Banco de Dados;"
+        },
+        {
+          "id": "D",
+          "text": "Licença e Dedicação ao Domínio Público do Open Data Commons;"
+        },
+        {
+          "id": "E",
+          "text": "Licença Aberta para Bases de Dados (ODbL) do Open Data Commons."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A licença descrita, que admite uso, modificação e distribuição com atribuição, é a Creative Commons Atribuição. Fonte: questão oficial; FGV; Concurso Público Nacional Unificado — 2ª Edição — Bloco Temático 3 Ciências, Dados e Tecnologia; 2025; questão 67, Tipo 1; caderno https://conhecimento.fgv.br/sites/default/files/concursos/b3301.pdf; gabarito oficial definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf."
+    },
+    {
+      "id": "q522329",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Maria é a responsável por implementar uma funcionalidade no sistema de informação do seu órgão, que precisa de dados sobre a nacionalidade e a naturalidade do cidadão. Ela sabe que esses dados já estão armazenados no Cadastro Base do Cidadão (CPF) da Receita Federal. Para que o cidadão não tenha que reapresentar essas informações, é necessário recuperá-las do programa do governo federal que promove a troca automática e segura de dados entre os sistemas de informação governamentais.\n\nPara isso, Maria deve usar o programa:",
+      "options": [
+        {
+          "id": "A",
+          "text": "CISC GOV.BR"
+        },
+        {
+          "id": "B",
+          "text": "Conta GOV.BR"
+        },
+        {
+          "id": "C",
+          "text": "Agenda GOV.BR"
+        },
+        {
+          "id": "D",
+          "text": "Conecta GOV.BR"
+        },
+        {
+          "id": "E",
+          "text": "Protocolo GOV.BR"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Conecta GOV.BR é o programa de interoperabilidade para troca automática e segura de dados entre sistemas governamentais. Fonte: questão oficial; FGV; Concurso Público Nacional Unificado — 2ª Edição — Bloco Temático 3 Ciências, Dados e Tecnologia; 2025; questão 73, Tipo 1; caderno https://conhecimento.fgv.br/sites/default/files/concursos/b3301.pdf; gabarito oficial definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf."
+    },
+    {
+      "id": "q522330",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Com o avanço da transformação digital na Administração Pública, o governo eletrônico tem se consolidado como uma importante ferramenta para o desenvolvimento de novos processos de inovação nos serviços públicos. Nesse contexto, foi editado o Decreto nº 12.069, de 28 de maio de 2024, que institui a Estratégia Nacional de Governo Digital (ENGD), com diretrizes e objetivos específicos voltados à promoção da digitalização dos serviços públicos.\n\nÀ luz desse decreto, representa corretamente um dos objetivos específicos estabelecidos para o quadriênio de 2024 a 2027:",
+      "options": [
+        {
+          "id": "A",
+          "text": "estimular uso de tecnologias tradicionais de governo digital, com a participação ativa da iniciativa privada na sua concepção;"
+        },
+        {
+          "id": "B",
+          "text": "coibir a interoperabilidade das estruturas tecnológicas governamentais, assegurando a substituição tempestiva e gradual por componentes de software livre;"
+        },
+        {
+          "id": "C",
+          "text": "qualificar tecnicamente a tomada de decisões e a oferta de serviços nas organizações públicas, evitando reuso constante dos dados brutos disponíveis para personalização;"
+        },
+        {
+          "id": "D",
+          "text": "promover o desenvolvimento do ecossistema de inovação público, de modo a viabilizar a independência de sistemas da União, dos estados, do Distrito Federal e dos municípios;"
+        },
+        {
+          "id": "E",
+          "text": "implementar e manter solução estruturante de identificação única e nacional, associada à Carteira de Identidade Nacional, com segurança, ampla disponibilidade e validade para todos os entes federativos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A alternativa E corresponde a objetivo específico da ENGD para 2024–2027. Fonte: questão oficial; FGV; Concurso Público Nacional Unificado — 2ª Edição — Bloco Temático 5 Administração; 2025; questão 52, Tipo 1; caderno https://conhecimento.fgv.br/sites/default/files/concursos/b5501.pdf; gabarito oficial definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf."
+    },
+    {
+      "id": "q522331",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A governança pública reforça a importância do controle social e da cidadania ativa ao promover a transparência e a coprodução das políticas públicas, reconhecendo o cidadão como um ator de direitos capaz de intervir e contribuir diretamente nas decisões e ações do Estado.\n\nNesse contexto, os dados abertos governamentais são instrumentos fundamentais para viabilizar essa participação. No entanto, a Administração Pública ainda enfrenta desafios importantes nesse processo.\n\nAssinale a alternativa que apresenta corretamente um desses desafios.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Falta de desafios técnicos, sendo a única barreira a ausência de legislação específica sobre dados abertos."
+        },
+        {
+          "id": "B",
+          "text": "Acesso irrestrito aos dados por qualquer cidadão, o que torna desnecessária a infraestrutura tecnológica."
+        },
+        {
+          "id": "C",
+          "text": "Alta padronização e excesso de uso dos dados por parte da sociedade civil, dificultando sua atualização."
+        },
+        {
+          "id": "D",
+          "text": "Alto engajamento de órgãos de controle e sociedade civil, o que gera sobrecarga na gestão dos dados abertos."
+        },
+        {
+          "id": "E",
+          "text": "Resistência organizacional, baixa qualidade e padronização dos dados, além da limitada infraestrutura tecnológica."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A alternativa E reúne obstáculos práticos reconhecidos para a abertura governamental de dados. Fonte: questão oficial; FGV; Secretaria da Administração e da Previdência do Estado do Paraná (SEAP-PR) — Auditor Fiscal; 2025; questão 23, Tipo Branca, manhã; caderno https://conhecimento.fgv.br/sites/default/files/concursos/auditor-fiscal-manhacns101-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/gabdefinitivo-seappr-auditor-fiscal.pdf."
     }
   ]
 }
