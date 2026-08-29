@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q3759",
@@ -8,22 +8,10 @@
       "origin": "authorial",
       "prompt": "Antes de reescrever um texto para outro gênero, o procedimento mais seguro é",
       "options": [
-        {
-          "id": "A",
-          "text": "identificar enunciador, destinatário, finalidade, gênero, suporte e registro."
-        },
-        {
-          "id": "B",
-          "text": "substituir todas as palavras por sinônimos formais."
-        },
-        {
-          "id": "C",
-          "text": "eliminar datas e responsáveis para reduzir a extensão."
-        },
-        {
-          "id": "D",
-          "text": "passar todos os verbos para a voz passiva."
-        }
+        {"id": "A", "text": "identificar enunciador, destinatário, finalidade, gênero, suporte e registro."},
+        {"id": "B", "text": "substituir todas as palavras por sinônimos formais."},
+        {"id": "C", "text": "eliminar datas e responsáveis para reduzir a extensão."},
+        {"id": "D", "text": "passar todos os verbos para a voz passiva."}
       ],
       "correctOptionId": "A",
       "explanation": "A ficha da situação comunicativa orienta as escolhas globais de conteúdo, estrutura e linguagem. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -34,22 +22,10 @@
       "origin": "authorial",
       "prompt": "Gênero textual é",
       "options": [
-        {
-          "id": "A",
-          "text": "sinônimo de suporte material."
-        },
-        {
-          "id": "B",
-          "text": "uma forma social relativamente estável de comunicação, associada a finalidades e convenções."
-        },
-        {
-          "id": "C",
-          "text": "apenas uma sequência de verbos no passado."
-        },
-        {
-          "id": "D",
-          "text": "uma classificação limitada a narração e descrição."
-        }
+        {"id": "A", "text": "sinônimo de suporte material."},
+        {"id": "B", "text": "uma forma social relativamente estável de comunicação, associada a finalidades e convenções."},
+        {"id": "C", "text": "apenas uma sequência de verbos no passado."},
+        {"id": "D", "text": "uma classificação limitada a narração e descrição."}
       ],
       "correctOptionId": "B",
       "explanation": "Gêneros como aviso, relatório e notícia organizam práticas comunicativas com finalidades e expectativas próprias. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -60,22 +36,10 @@
       "origin": "authorial",
       "prompt": "Assinale a associação correta.",
       "options": [
-        {
-          "id": "A",
-          "text": "Relatório é tipo; exposição é gênero."
-        },
-        {
-          "id": "B",
-          "text": "Site é gênero; notícia é suporte."
-        },
-        {
-          "id": "C",
-          "text": "Relatório é gênero; exposição é tipo textual."
-        },
-        {
-          "id": "D",
-          "text": "Injunção é suporte; aplicativo é tipo."
-        }
+        {"id": "A", "text": "Relatório é tipo; exposição é gênero."},
+        {"id": "B", "text": "Site é gênero; notícia é suporte."},
+        {"id": "C", "text": "Relatório é gênero; exposição é tipo textual."},
+        {"id": "D", "text": "Injunção é suporte; aplicativo é tipo."}
       ],
       "correctOptionId": "C",
       "explanation": "Relatório é gênero social; exposição é uma organização linguística que pode integrá-lo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -86,22 +50,10 @@
       "origin": "authorial",
       "prompt": "Sobre gênero e suporte, é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "todo texto em aplicativo pertence ao mesmo gênero."
-        },
-        {
-          "id": "B",
-          "text": "o suporte não interfere na leitura."
-        },
-        {
-          "id": "C",
-          "text": "cada gênero só pode circular em papel."
-        },
-        {
-          "id": "D",
-          "text": "um aviso pode circular em papel, site ou aplicativo, com adaptações ao canal."
-        }
+        {"id": "A", "text": "todo texto em aplicativo pertence ao mesmo gênero."},
+        {"id": "B", "text": "o suporte não interfere na leitura."},
+        {"id": "C", "text": "cada gênero só pode circular em papel."},
+        {"id": "D", "text": "um aviso pode circular em papel, site ou aplicativo, com adaptações ao canal."}
       ],
       "correctOptionId": "D",
       "explanation": "O gênero pode circular em diferentes suportes, que influenciam extensão, disposição e contexto de leitura. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -112,22 +64,10 @@
       "origin": "authorial",
       "prompt": "Qual afirmação distingue formalidade de correção?",
       "options": [
-        {
-          "id": "A",
-          "text": "Uma fala informal pode ser correta, e um texto formal pode conter erros."
-        },
-        {
-          "id": "B",
-          "text": "Todo texto informal é gramaticalmente incorreto."
-        },
-        {
-          "id": "C",
-          "text": "Todo texto formal é automaticamente claro."
-        },
-        {
-          "id": "D",
-          "text": "Correção depende apenas da distância entre interlocutores."
-        }
+        {"id": "A", "text": "Uma fala informal pode ser correta, e um texto formal pode conter erros."},
+        {"id": "B", "text": "Todo texto informal é gramaticalmente incorreto."},
+        {"id": "C", "text": "Todo texto formal é automaticamente claro."},
+        {"id": "D", "text": "Correção depende apenas da distância entre interlocutores."}
       ],
       "correctOptionId": "A",
       "explanation": "Registro é adequação contextual; correção gramatical é outro eixo de avaliação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -138,22 +78,10 @@
       "origin": "authorial",
       "prompt": "Em relação ao texto formal, assinale a opção correta.",
       "options": [
-        {
-          "id": "A",
-          "text": "Deve empregar palavras raras sempre que possível."
-        },
-        {
-          "id": "B",
-          "text": "Pode ser direto, claro e conciso sem perder formalidade."
-        },
-        {
-          "id": "C",
-          "text": "Exige períodos longos e voz passiva."
-        },
-        {
-          "id": "D",
-          "text": "Dispensa precisão quando o destinatário é autoridade."
-        }
+        {"id": "A", "text": "Deve empregar palavras raras sempre que possível."},
+        {"id": "B", "text": "Pode ser direto, claro e conciso sem perder formalidade."},
+        {"id": "C", "text": "Exige períodos longos e voz passiva."},
+        {"id": "D", "text": "Dispensa precisão quando o destinatário é autoridade."}
       ],
       "correctOptionId": "B",
       "explanation": "Formalidade não é rebuscamento; clareza, precisão e concisão favorecem a comunicação formal. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -164,22 +92,10 @@
       "origin": "authorial",
       "prompt": "Qual fator tende a elevar a formalidade exigida?",
       "options": [
-        {
-          "id": "A",
-          "text": "A proximidade íntima entre amigos."
-        },
-        {
-          "id": "B",
-          "text": "A efemeridade de conversa privada."
-        },
-        {
-          "id": "C",
-          "text": "A publicidade e a responsabilidade institucional do texto."
-        },
-        {
-          "id": "D",
-          "text": "O uso de qualquer abreviação."
-        }
+        {"id": "A", "text": "A proximidade íntima entre amigos."},
+        {"id": "B", "text": "A efemeridade de conversa privada."},
+        {"id": "C", "text": "A publicidade e a responsabilidade institucional do texto."},
+        {"id": "D", "text": "O uso de qualquer abreviação."}
       ],
       "correctOptionId": "C",
       "explanation": "Publicidade, permanência e responsabilidade institucional aumentam a necessidade de protocolo e precisão. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -190,22 +106,10 @@
       "origin": "authorial",
       "prompt": "Ao passar uma fala espontânea para relatório, deve-se",
       "options": [
-        {
-          "id": "A",
-          "text": "manter toda hesitação para garantir correção."
-        },
-        {
-          "id": "B",
-          "text": "substituir toda hipótese por certeza."
-        },
-        {
-          "id": "C",
-          "text": "apagar a autoria de toda declaração."
-        },
-        {
-          "id": "D",
-          "text": "retirar ruídos não funcionais e explicitar referentes sem falsear a informação."
-        }
+        {"id": "A", "text": "manter toda hesitação para garantir correção."},
+        {"id": "B", "text": "substituir toda hipótese por certeza."},
+        {"id": "C", "text": "apagar a autoria de toda declaração."},
+        {"id": "D", "text": "retirar ruídos não funcionais e explicitar referentes sem falsear a informação."}
       ],
       "correctOptionId": "D",
       "explanation": "A escrita pode eliminar marcas de processamento oral, mas deve preservar conteúdo, modalidade e atribuição. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -216,22 +120,10 @@
       "origin": "authorial",
       "prompt": "Na reescrita global, o conteúdo essencial inclui",
       "options": [
-        {
-          "id": "A",
-          "text": "fatos, participantes, datas, condições, ressalvas e ações necessárias."
-        },
-        {
-          "id": "B",
-          "text": "somente substantivos e adjetivos."
-        },
-        {
-          "id": "C",
-          "text": "apenas a ideia que o revisor considera principal."
-        },
-        {
-          "id": "D",
-          "text": "toda repetição e toda hesitação da fonte oral."
-        }
+        {"id": "A", "text": "fatos, participantes, datas, condições, ressalvas e ações necessárias."},
+        {"id": "B", "text": "somente substantivos e adjetivos."},
+        {"id": "C", "text": "apenas a ideia que o revisor considera principal."},
+        {"id": "D", "text": "toda repetição e toda hesitação da fonte oral."}
       ],
       "correctOptionId": "A",
       "explanation": "O inventário factual impede que a adaptação apague informação necessária à finalidade. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -242,22 +134,10 @@
       "origin": "authorial",
       "prompt": "O mesmo fato pode gerar relatório e aviso porque",
       "options": [
-        {
-          "id": "A",
-          "text": "a verdade do fato muda conforme o gênero."
-        },
-        {
-          "id": "B",
-          "text": "cada gênero seleciona e hierarquiza informações segundo sua finalidade."
-        },
-        {
-          "id": "C",
-          "text": "avisos não precisam preservar datas."
-        },
-        {
-          "id": "D",
-          "text": "relatórios não possuem destinatário."
-        }
+        {"id": "A", "text": "a verdade do fato muda conforme o gênero."},
+        {"id": "B", "text": "cada gênero seleciona e hierarquiza informações segundo sua finalidade."},
+        {"id": "C", "text": "avisos não precisam preservar datas."},
+        {"id": "D", "text": "relatórios não possuem destinatário."}
       ],
       "correctOptionId": "B",
       "explanation": "A finalidade orienta a estrutura e o destaque, sem autorizar alteração dos fatos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -268,22 +148,10 @@
       "origin": "authorial",
       "prompt": "Ao adaptar texto técnico ao público geral, é adequado",
       "options": [
-        {
-          "id": "A",
-          "text": "eliminar toda precisão para facilitar a leitura."
-        },
-        {
-          "id": "B",
-          "text": "manter o jargão sem explicação."
-        },
-        {
-          "id": "C",
-          "text": "substituir ou explicar termos técnicos, preservando distinções necessárias."
-        },
-        {
-          "id": "D",
-          "text": "inventar exemplo que contradiga o procedimento."
-        }
+        {"id": "A", "text": "eliminar toda precisão para facilitar a leitura."},
+        {"id": "B", "text": "manter o jargão sem explicação."},
+        {"id": "C", "text": "substituir ou explicar termos técnicos, preservando distinções necessárias."},
+        {"id": "D", "text": "inventar exemplo que contradiga o procedimento."}
       ],
       "correctOptionId": "C",
       "explanation": "Linguagem clara reduz barreiras, mas não pode eliminar precisão normativa ou operacional relevante. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -294,22 +162,10 @@
       "origin": "authorial",
       "prompt": "A escolha do suporte deve levar em conta que",
       "options": [
-        {
-          "id": "A",
-          "text": "todo conteúdo digital deve ser informal."
-        },
-        {
-          "id": "B",
-          "text": "processos administrativos dispensam identificação."
-        },
-        {
-          "id": "C",
-          "text": "textos para celular devem omitir condições."
-        },
-        {
-          "id": "D",
-          "text": "o canal influencia extensão e disposição, mas não autoriza perda de informação essencial."
-        }
+        {"id": "A", "text": "todo conteúdo digital deve ser informal."},
+        {"id": "B", "text": "processos administrativos dispensam identificação."},
+        {"id": "C", "text": "textos para celular devem omitir condições."},
+        {"id": "D", "text": "o canal influencia extensão e disposição, mas não autoriza perda de informação essencial."}
       ],
       "correctOptionId": "D",
       "explanation": "O suporte condiciona a apresentação; prazo, requisito e responsabilidade continuam necessários. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -320,22 +176,10 @@
       "origin": "authorial",
       "prompt": "Qual transformação preserva a modalidade?",
       "options": [
-        {
-          "id": "A",
-          "text": "A medida pode reduzir custos / É possível que a medida reduza custos."
-        },
-        {
-          "id": "B",
-          "text": "A medida pode reduzir custos / A medida reduzirá custos."
-        },
-        {
-          "id": "C",
-          "text": "A equipe recomenda revisar / A revisão é obrigatória."
-        },
-        {
-          "id": "D",
-          "text": "O serviço talvez retorne / O serviço certamente retornou."
-        }
+        {"id": "A", "text": "A medida pode reduzir custos / É possível que a medida reduza custos."},
+        {"id": "B", "text": "A medida pode reduzir custos / A medida reduzirá custos."},
+        {"id": "C", "text": "A equipe recomenda revisar / A revisão é obrigatória."},
+        {"id": "D", "text": "O serviço talvez retorne / O serviço certamente retornou."}
       ],
       "correctOptionId": "A",
       "explanation": "As duas formulações mantêm possibilidade; as demais aumentam a certeza ou a força normativa. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -346,22 +190,10 @@
       "origin": "authorial",
       "prompt": "Na base 'A unidade fechará das 14h às 16h', o aviso 'A unidade fechará à tarde' é inadequado porque",
       "options": [
-        {
-          "id": "A",
-          "text": "usa futuro."
-        },
-        {
-          "id": "B",
-          "text": "perde a precisão do intervalo informado."
-        },
-        {
-          "id": "C",
-          "text": "tem sujeito expresso."
-        },
-        {
-          "id": "D",
-          "text": "é curto demais por definição."
-        }
+        {"id": "A", "text": "usa futuro."},
+        {"id": "B", "text": "perde a precisão do intervalo informado."},
+        {"id": "C", "text": "tem sujeito expresso."},
+        {"id": "D", "text": "é curto demais por definição."}
       ],
       "correctOptionId": "B",
       "explanation": "A condensação enfraquece uma informação temporal útil ao destinatário. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -372,22 +204,10 @@
       "origin": "authorial",
       "prompt": "Qual mudança exige confirmação externa antes de ser feita?",
       "options": [
-        {
-          "id": "A",
-          "text": "Retirar um marcador como 'né'."
-        },
-        {
-          "id": "B",
-          "text": "Criar um título informativo."
-        },
-        {
-          "id": "C",
-          "text": "Transformar 'acho que das 14h às 16h' em horário oficial categórico."
-        },
-        {
-          "id": "D",
-          "text": "Dividir o texto em parágrafos."
-        }
+        {"id": "A", "text": "Retirar um marcador como 'né'."},
+        {"id": "B", "text": "Criar um título informativo."},
+        {"id": "C", "text": "Transformar 'acho que das 14h às 16h' em horário oficial categórico."},
+        {"id": "D", "text": "Dividir o texto em parágrafos."}
       ],
       "correctOptionId": "C",
       "explanation": "A fala de origem expressa incerteza; categorizá-la como fato exige confirmação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -398,22 +218,10 @@
       "origin": "authorial",
       "prompt": "Ao adaptar uma mensagem para aviso público, não se deve",
       "options": [
-        {
-          "id": "A",
-          "text": "explicitar a ação esperada."
-        },
-        {
-          "id": "B",
-          "text": "criar título."
-        },
-        {
-          "id": "C",
-          "text": "ajustar a saudação."
-        },
-        {
-          "id": "D",
-          "text": "apagar uma condição necessária para usar o serviço."
-        }
+        {"id": "A", "text": "explicitar a ação esperada."},
+        {"id": "B", "text": "criar título."},
+        {"id": "C", "text": "ajustar a saudação."},
+        {"id": "D", "text": "apagar uma condição necessária para usar o serviço."}
       ],
       "correctOptionId": "D",
       "explanation": "Condição operacional é parte do conteúdo essencial e precisa permanecer acessível. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -424,22 +232,10 @@
       "origin": "authorial",
       "prompt": "Qual versão é adequada para comunicar manutenção ao público?",
       "options": [
-        {
-          "id": "A",
-          "text": "O serviço ficará indisponível das 14h às 16h para manutenção preventiva."
-        },
-        {
-          "id": "B",
-          "text": "Galera, o negócio vai cair um pouco, beleza?"
-        },
-        {
-          "id": "C",
-          "text": "A indisponibilidade acontecerá em algum momento, talvez."
-        },
-        {
-          "id": "D",
-          "text": "Proceder-se-á à consecução da intervenção manutencional supracitada."
-        }
+        {"id": "A", "text": "O serviço ficará indisponível das 14h às 16h para manutenção preventiva."},
+        {"id": "B", "text": "Galera, o negócio vai cair um pouco, beleza?"},
+        {"id": "C", "text": "A indisponibilidade acontecerá em algum momento, talvez."},
+        {"id": "D", "text": "Proceder-se-á à consecução da intervenção manutencional supracitada."}
       ],
       "correctOptionId": "A",
       "explanation": "A opção informa evento, intervalo e motivo com clareza e registro institucional. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -450,22 +246,10 @@
       "origin": "authorial",
       "prompt": "Na adaptação de jargão, o termo técnico deve ser mantido e explicado quando",
       "options": [
-        {
-          "id": "A",
-          "text": "for longo."
-        },
-        {
-          "id": "B",
-          "text": "for necessário à precisão jurídica ou operacional."
-        },
-        {
-          "id": "C",
-          "text": "o redator quiser demonstrar erudição."
-        },
-        {
-          "id": "D",
-          "text": "houver qualquer sinônimo cotidiano."
-        }
+        {"id": "A", "text": "for longo."},
+        {"id": "B", "text": "for necessário à precisão jurídica ou operacional."},
+        {"id": "C", "text": "o redator quiser demonstrar erudição."},
+        {"id": "D", "text": "houver qualquer sinônimo cotidiano."}
       ],
       "correctOptionId": "B",
       "explanation": "A simplificação tem limite quando a distinção técnica é indispensável à compreensão correta. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -476,22 +260,10 @@
       "origin": "authorial",
       "prompt": "A passagem de texto informativo para injuntivo caracteriza-se por",
       "options": [
-        {
-          "id": "A",
-          "text": "apagar prazos."
-        },
-        {
-          "id": "B",
-          "text": "inserir opinião."
-        },
-        {
-          "id": "C",
-          "text": "explicitar a ação que o destinatário deve realizar."
-        },
-        {
-          "id": "D",
-          "text": "eliminar verbos."
-        }
+        {"id": "A", "text": "apagar prazos."},
+        {"id": "B", "text": "inserir opinião."},
+        {"id": "C", "text": "explicitar a ação que o destinatário deve realizar."},
+        {"id": "D", "text": "eliminar verbos."}
       ],
       "correctOptionId": "C",
       "explanation": "O texto injuntivo orienta conduta, sem perder requisitos e limites da informação-base. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -502,22 +274,10 @@
       "origin": "authorial",
       "prompt": "Sobre o imperativo em instruções, é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "é sempre agressivo."
-        },
-        {
-          "id": "B",
-          "text": "é incompatível com texto formal."
-        },
-        {
-          "id": "C",
-          "text": "só pode ser usado entre amigos."
-        },
-        {
-          "id": "D",
-          "text": "pode ser a forma mais clara, e a cortesia depende do conjunto da comunicação."
-        }
+        {"id": "A", "text": "é sempre agressivo."},
+        {"id": "B", "text": "é incompatível com texto formal."},
+        {"id": "C", "text": "só pode ser usado entre amigos."},
+        {"id": "D", "text": "pode ser a forma mais clara, e a cortesia depende do conjunto da comunicação."}
       ],
       "correctOptionId": "D",
       "explanation": "Comandos como 'Clique em Enviar' são diretos, funcionais e compatíveis com instruções formais. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -528,22 +288,10 @@
       "origin": "authorial",
       "prompt": "Qual reescrita transforma adequadamente a informação em instrução?",
       "options": [
-        {
-          "id": "A",
-          "text": "O prazo para envio do pedido termina em 30 de agosto / Envie o pedido até 30 de agosto."
-        },
-        {
-          "id": "B",
-          "text": "O prazo para envio do pedido termina em 30 de agosto / Envie quando puder."
-        },
-        {
-          "id": "C",
-          "text": "O prazo para envio do pedido termina em 30 de agosto / O pedido já foi enviado."
-        },
-        {
-          "id": "D",
-          "text": "O prazo para envio do pedido termina em 30 de agosto / Talvez não haja prazo."
-        }
+        {"id": "A", "text": "O prazo para envio do pedido termina em 30 de agosto / Envie o pedido até 30 de agosto."},
+        {"id": "B", "text": "O prazo para envio do pedido termina em 30 de agosto / Envie quando puder."},
+        {"id": "C", "text": "O prazo para envio do pedido termina em 30 de agosto / O pedido já foi enviado."},
+        {"id": "D", "text": "O prazo para envio do pedido termina em 30 de agosto / Talvez não haja prazo."}
       ],
       "correctOptionId": "A",
       "explanation": "A nova versão explicita a ação e preserva o objeto e o limite temporal. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -554,22 +302,10 @@
       "origin": "authorial",
       "prompt": "Ao converter opinião em notícia informativa, deve-se",
       "options": [
-        {
-          "id": "A",
-          "text": "manter todo adjetivo avaliativo como fato."
-        },
-        {
-          "id": "B",
-          "text": "separar fatos de avaliações e atribuir declarações às fontes."
-        },
-        {
-          "id": "C",
-          "text": "suprimir toda fonte."
-        },
-        {
-          "id": "D",
-          "text": "transformar previsão em resultado comprovado."
-        }
+        {"id": "A", "text": "manter todo adjetivo avaliativo como fato."},
+        {"id": "B", "text": "separar fatos de avaliações e atribuir declarações às fontes."},
+        {"id": "C", "text": "suprimir toda fonte."},
+        {"id": "D", "text": "transformar previsão em resultado comprovado."}
       ],
       "correctOptionId": "B",
       "explanation": "A atribuição permite distinguir o que foi observado do que uma fonte avalia ou pretende. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -580,22 +316,10 @@
       "origin": "authorial",
       "prompt": "A base é 'A excelente medida finalmente resolverá o grave problema' e não identifica fonte externa. Qual reescrita informativa evita inventar atribuição?",
       "options": [
-        {
-          "id": "A",
-          "text": "Segundo o órgão, a medida resolverá o problema."
-        },
-        {
-          "id": "B",
-          "text": "O autor avalia que a medida resolverá o problema."
-        },
-        {
-          "id": "C",
-          "text": "O órgão comprovou que a medida já resolveu o problema."
-        },
-        {
-          "id": "D",
-          "text": "Especialistas confirmaram a eficácia definitiva da medida."
-        }
+        {"id": "A", "text": "Segundo o órgão, a medida resolverá o problema."},
+        {"id": "B", "text": "O autor avalia que a medida resolverá o problema."},
+        {"id": "C", "text": "O órgão comprovou que a medida já resolveu o problema."},
+        {"id": "D", "text": "Especialistas confirmaram a eficácia definitiva da medida."}
       ],
       "correctOptionId": "B",
       "explanation": "A versão identifica a avaliação como posição do enunciador disponível na base, sem criar órgão, especialistas ou resultado comprovado. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -606,22 +330,10 @@
       "origin": "authorial",
       "prompt": "Em relatório, é recomendável distinguir",
       "options": [
-        {
-          "id": "A",
-          "text": "apenas título e data."
-        },
-        {
-          "id": "B",
-          "text": "somente frases curtas e longas."
-        },
-        {
-          "id": "C",
-          "text": "vocabulário formal e qualquer evidência."
-        },
-        {
-          "id": "D",
-          "text": "dado observado, interpretação, recomendação e limites da evidência."
-        }
+        {"id": "A", "text": "apenas título e data."},
+        {"id": "B", "text": "somente frases curtas e longas."},
+        {"id": "C", "text": "vocabulário formal e qualquer evidência."},
+        {"id": "D", "text": "dado observado, interpretação, recomendação e limites da evidência."}
       ],
       "correctOptionId": "D",
       "explanation": "A separação evita apresentar inferência ou recomendação como observação factual. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -632,22 +344,10 @@
       "origin": "authorial",
       "prompt": "Entre os atributos da redação oficial, inclui-se",
       "options": [
-        {
-          "id": "A",
-          "text": "clareza, precisão, objetividade, concisão, coesão, coerência e impessoalidade."
-        },
-        {
-          "id": "B",
-          "text": "ornamentação, intimidade e linguagem cifrada."
-        },
-        {
-          "id": "C",
-          "text": "ambiguidade estratégica e promoção pessoal."
-        },
-        {
-          "id": "D",
-          "text": "uso obrigatório de frases extensas."
-        }
+        {"id": "A", "text": "clareza, precisão, objetividade, concisão, coesão, coerência e impessoalidade."},
+        {"id": "B", "text": "ornamentação, intimidade e linguagem cifrada."},
+        {"id": "C", "text": "ambiguidade estratégica e promoção pessoal."},
+        {"id": "D", "text": "uso obrigatório de frases extensas."}
       ],
       "correctOptionId": "A",
       "explanation": "Esses atributos orientam a comunicação oficial segundo o Manual de Redação da Presidência da República. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -658,22 +358,10 @@
       "origin": "authorial",
       "prompt": "Concisão, na redação oficial, significa",
       "options": [
-        {
-          "id": "A",
-          "text": "eliminar todo fundamento."
-        },
-        {
-          "id": "B",
-          "text": "transmitir a informação necessária sem redundância ou excesso."
-        },
-        {
-          "id": "C",
-          "text": "usar o menor número possível de palavras em qualquer caso."
-        },
-        {
-          "id": "D",
-          "text": "omitir condições conhecidas pelo redator."
-        }
+        {"id": "A", "text": "eliminar todo fundamento."},
+        {"id": "B", "text": "transmitir a informação necessária sem redundância ou excesso."},
+        {"id": "C", "text": "usar o menor número possível de palavras em qualquer caso."},
+        {"id": "D", "text": "omitir condições conhecidas pelo redator."}
       ],
       "correctOptionId": "B",
       "explanation": "Concisão não é mutilação; prazo, fundamento ou condição relevantes devem permanecer. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -684,22 +372,10 @@
       "origin": "authorial",
       "prompt": "Impessoalidade na comunicação oficial",
       "options": [
-        {
-          "id": "A",
-          "text": "proíbe identificar o responsável."
-        },
-        {
-          "id": "B",
-          "text": "obriga o emprego da voz passiva."
-        },
-        {
-          "id": "C",
-          "text": "afasta personalismo, mas admite agente explícito quando ele esclarece a ação."
-        },
-        {
-          "id": "D",
-          "text": "elimina a necessidade de cortesia."
-        }
+        {"id": "A", "text": "proíbe identificar o responsável."},
+        {"id": "B", "text": "obriga o emprego da voz passiva."},
+        {"id": "C", "text": "afasta personalismo, mas admite agente explícito quando ele esclarece a ação."},
+        {"id": "D", "text": "elimina a necessidade de cortesia."}
       ],
       "correctOptionId": "C",
       "explanation": "A impessoalidade decorre do caráter público da comunicação, não do apagamento mecânico de agentes. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -710,22 +386,10 @@
       "origin": "authorial",
       "prompt": "Padronização em comunicação oficial favorece",
       "options": [
-        {
-          "id": "A",
-          "text": "a substituição de conteúdo por modelo vazio."
-        },
-        {
-          "id": "B",
-          "text": "a eliminação de toda adaptação ao destinatário."
-        },
-        {
-          "id": "C",
-          "text": "o uso de uma única frase para todos os atos."
-        },
-        {
-          "id": "D",
-          "text": "consistência de forma, identificação e processamento dos documentos."
-        }
+        {"id": "A", "text": "a substituição de conteúdo por modelo vazio."},
+        {"id": "B", "text": "a eliminação de toda adaptação ao destinatário."},
+        {"id": "C", "text": "o uso de uma única frase para todos os atos."},
+        {"id": "D", "text": "consistência de forma, identificação e processamento dos documentos."}
       ],
       "correctOptionId": "D",
       "explanation": "Modelos e convenções consistentes apoiam reconhecimento e tramitação, sem dispensar adequação do conteúdo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -736,22 +400,10 @@
       "origin": "authorial",
       "prompt": "A mensagem 'Oi, chefe, dá para mandar o relatório até as 17h?' deve virar e-mail profissional sem aumentar a força do pedido. Assinale a melhor versão.",
       "options": [
-        {
-          "id": "A",
-          "text": "Determine-se o envio obrigatório do relatório até as 17h."
-        },
-        {
-          "id": "B",
-          "text": "Solicito, se possível, o envio do relatório até as 17h."
-        },
-        {
-          "id": "C",
-          "text": "O relatório foi enviado às 17h."
-        },
-        {
-          "id": "D",
-          "text": "É proibido enviar o relatório depois das 17h."
-        }
+        {"id": "A", "text": "Determine-se o envio obrigatório do relatório até as 17h."},
+        {"id": "B", "text": "Solicito, se possível, o envio do relatório até as 17h."},
+        {"id": "C", "text": "O relatório foi enviado às 17h."},
+        {"id": "D", "text": "É proibido enviar o relatório depois das 17h."}
       ],
       "correctOptionId": "B",
       "explanation": "A formulação ajusta saudação e registro, preserva o caráter de pedido e mantém o prazo. As demais criam obrigação, fato consumado ou proibição. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -762,22 +414,10 @@
       "origin": "authorial",
       "prompt": "Um aviso será publicado em página que permanecerá acessível por meses. A base diz 'o sistema ficará indisponível amanhã, das 14h às 16h'. Qual adaptação é mais segura, sabendo-se que a interrupção ocorrerá em 21 de julho de 2026?",
       "options": [
-        {
-          "id": "A",
-          "text": "O sistema ficará indisponível em breve."
-        },
-        {
-          "id": "B",
-          "text": "O sistema ficará indisponível amanhã, em algum horário."
-        },
-        {
-          "id": "C",
-          "text": "O sistema ficará indisponível em 21 de julho de 2026, das 14h às 16h."
-        },
-        {
-          "id": "D",
-          "text": "O sistema esteve indisponível ontem, das 14h às 16h."
-        }
+        {"id": "A", "text": "O sistema ficará indisponível em breve."},
+        {"id": "B", "text": "O sistema ficará indisponível amanhã, em algum horário."},
+        {"id": "C", "text": "O sistema ficará indisponível em 21 de julho de 2026, das 14h às 16h."},
+        {"id": "D", "text": "O sistema esteve indisponível ontem, das 14h às 16h."}
       ],
       "correctOptionId": "C",
       "explanation": "Em suporte persistente, a data absoluta ancora o dêitico e preserva o intervalo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -788,22 +428,10 @@
       "origin": "authorial",
       "prompt": "A nota técnica informa: 'A autenticação ficará indisponível, sem impacto sobre sessões já iniciadas'. Qual aviso ao público preserva a ressalva?",
       "options": [
-        {
-          "id": "A",
-          "text": "Todo acesso ao sistema será encerrado."
-        },
-        {
-          "id": "B",
-          "text": "Não será possível iniciar nova sessão durante a atualização; sessões já abertas continuarão funcionando."
-        },
-        {
-          "id": "C",
-          "text": "O sistema talvez deixe de funcionar por completo."
-        },
-        {
-          "id": "D",
-          "text": "A atualização não terá qualquer efeito sobre os usuários."
-        }
+        {"id": "A", "text": "Todo acesso ao sistema será encerrado."},
+        {"id": "B", "text": "Não será possível iniciar nova sessão durante a atualização; sessões já abertas continuarão funcionando."},
+        {"id": "C", "text": "O sistema talvez deixe de funcionar por completo."},
+        {"id": "D", "text": "A atualização não terá qualquer efeito sobre os usuários."}
       ],
       "correctOptionId": "B",
       "explanation": "A versão explica o efeito ao usuário e mantém a exceção relativa às sessões em andamento. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -814,22 +442,10 @@
       "origin": "authorial",
       "prompt": "A mensagem 'Parece que a bomba parou de novo; João chamou a manutenção' será registrada antes da confirmação da falha. Qual versão preserva a incerteza e os agentes?",
       "options": [
-        {
-          "id": "A",
-          "text": "João causou nova paralisação da bomba."
-        },
-        {
-          "id": "B",
-          "text": "A manutenção confirmou defeito definitivo na bomba."
-        },
-        {
-          "id": "C",
-          "text": "Foi relatada possível nova paralisação da bomba, e João acionou a manutenção."
-        },
-        {
-          "id": "D",
-          "text": "A bomba certamente parou, mas ninguém comunicou a manutenção."
-        }
+        {"id": "A", "text": "João causou nova paralisação da bomba."},
+        {"id": "B", "text": "A manutenção confirmou defeito definitivo na bomba."},
+        {"id": "C", "text": "Foi relatada possível nova paralisação da bomba, e João acionou a manutenção."},
+        {"id": "D", "text": "A bomba certamente parou, mas ninguém comunicou a manutenção."}
       ],
       "correctOptionId": "C",
       "explanation": "A reescrita mantém a modalidade de relato não confirmado e identifica quem acionou a manutenção. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -840,22 +456,10 @@
       "origin": "authorial",
       "prompt": "Pronomes de tratamento exigem verbo na",
       "options": [
-        {
-          "id": "A",
-          "text": "terceira pessoa."
-        },
-        {
-          "id": "B",
-          "text": "primeira pessoa do plural."
-        },
-        {
-          "id": "C",
-          "text": "segunda pessoa do singular."
-        },
-        {
-          "id": "D",
-          "text": "forma infinitiva obrigatoriamente."
-        }
+        {"id": "A", "text": "terceira pessoa."},
+        {"id": "B", "text": "primeira pessoa do plural."},
+        {"id": "C", "text": "segunda pessoa do singular."},
+        {"id": "D", "text": "forma infinitiva obrigatoriamente."}
       ],
       "correctOptionId": "A",
       "explanation": "Embora se refiram ao interlocutor, as formas de tratamento controlam concordância de terceira pessoa. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -866,22 +470,10 @@
       "origin": "authorial",
       "prompt": "Em 'A unidade recebeu o pedido. Ele será analisado amanhã', 'ele' retoma",
       "options": [
-        {
-          "id": "A",
-          "text": "a unidade."
-        },
-        {
-          "id": "B",
-          "text": "o pedido, sujeito paciente da segunda oração."
-        },
-        {
-          "id": "C",
-          "text": "o dia de amanhã."
-        },
-        {
-          "id": "D",
-          "text": "um referente inexistente."
-        }
+        {"id": "A", "text": "a unidade."},
+        {"id": "B", "text": "o pedido, sujeito paciente da segunda oração."},
+        {"id": "C", "text": "o dia de amanhã."},
+        {"id": "D", "text": "um referente inexistente."}
       ],
       "correctOptionId": "B",
       "explanation": "A concordância de gênero e número identifica 'o pedido' como antecedente de 'ele'. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -892,22 +484,10 @@
       "origin": "authorial",
       "prompt": "Ao mudar um texto de gênero, a coesão exige",
       "options": [
-        {
-          "id": "A",
-          "text": "eliminar qualquer repetição, mesmo se útil."
-        },
-        {
-          "id": "B",
-          "text": "trocar todos os conectores."
-        },
-        {
-          "id": "C",
-          "text": "manter referentes claros e relações lógicas sustentadas."
-        },
-        {
-          "id": "D",
-          "text": "usar sempre pronome em lugar do nome."
-        }
+        {"id": "A", "text": "eliminar qualquer repetição, mesmo se útil."},
+        {"id": "B", "text": "trocar todos os conectores."},
+        {"id": "C", "text": "manter referentes claros e relações lógicas sustentadas."},
+        {"id": "D", "text": "usar sempre pronome em lugar do nome."}
       ],
       "correctOptionId": "C",
       "explanation": "A adaptação não pode romper cadeias referenciais nem inventar causa, conclusão ou contraste. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -918,22 +498,10 @@
       "origin": "authorial",
       "prompt": "Um título é inadequado quando",
       "options": [
-        {
-          "id": "A",
-          "text": "resume o assunto."
-        },
-        {
-          "id": "B",
-          "text": "orienta o leitor."
-        },
-        {
-          "id": "C",
-          "text": "é breve."
-        },
-        {
-          "id": "D",
-          "text": "promete ou anuncia conteúdo que o texto não sustenta."
-        }
+        {"id": "A", "text": "resume o assunto."},
+        {"id": "B", "text": "orienta o leitor."},
+        {"id": "C", "text": "é breve."},
+        {"id": "D", "text": "promete ou anuncia conteúdo que o texto não sustenta."}
       ],
       "correctOptionId": "D",
       "explanation": "Título e corpo precisam integrar-se coerentemente e manter a mesma base factual. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -944,22 +512,10 @@
       "origin": "authorial",
       "prompt": "Qual formulação expressa recomendação?",
       "options": [
-        {
-          "id": "A",
-          "text": "Recomenda-se revisar o cadastro."
-        },
-        {
-          "id": "B",
-          "text": "É proibido revisar o cadastro."
-        },
-        {
-          "id": "C",
-          "text": "O cadastro foi revisado."
-        },
-        {
-          "id": "D",
-          "text": "A revisão ocorrerá necessariamente."
-        }
+        {"id": "A", "text": "Recomenda-se revisar o cadastro."},
+        {"id": "B", "text": "É proibido revisar o cadastro."},
+        {"id": "C", "text": "O cadastro foi revisado."},
+        {"id": "D", "text": "A revisão ocorrerá necessariamente."}
       ],
       "correctOptionId": "A",
       "explanation": "'Recomenda-se' aconselha uma conduta sem instituir, por si só, obrigação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -970,22 +526,10 @@
       "origin": "authorial",
       "prompt": "A forma 'deve ocorrer' exige análise contextual porque pode indicar",
       "options": [
-        {
-          "id": "A",
-          "text": "apenas passado."
-        },
-        {
-          "id": "B",
-          "text": "probabilidade ou obrigação."
-        },
-        {
-          "id": "C",
-          "text": "somente negação."
-        },
-        {
-          "id": "D",
-          "text": "sempre permissão."
-        }
+        {"id": "A", "text": "apenas passado."},
+        {"id": "B", "text": "probabilidade ou obrigação."},
+        {"id": "C", "text": "somente negação."},
+        {"id": "D", "text": "sempre permissão."}
       ],
       "correctOptionId": "B",
       "explanation": "O valor epistêmico ou deôntico de 'dever' depende do contexto. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -996,22 +540,10 @@
       "origin": "authorial",
       "prompt": "Ao tornar formal o pedido 'Você manda o arquivo?', é inadequado",
       "options": [
-        {
-          "id": "A",
-          "text": "explicitar um prazo real."
-        },
-        {
-          "id": "B",
-          "text": "identificar o documento."
-        },
-        {
-          "id": "C",
-          "text": "reescrevê-lo como obrigação legal se a base contém apenas pedido."
-        },
-        {
-          "id": "D",
-          "text": "usar saudação compatível."
-        }
+        {"id": "A", "text": "explicitar um prazo real."},
+        {"id": "B", "text": "identificar o documento."},
+        {"id": "C", "text": "reescrevê-lo como obrigação legal se a base contém apenas pedido."},
+        {"id": "D", "text": "usar saudação compatível."}
       ],
       "correctOptionId": "C",
       "explanation": "Formalização não autoriza aumentar a força ilocucionária de pedido para obrigação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1022,22 +554,10 @@
       "origin": "authorial",
       "prompt": "A cortesia em comunicação profissional pode ser favorecida por",
       "options": [
-        {
-          "id": "A",
-          "text": "vagueza sobre o que se espera."
-        },
-        {
-          "id": "B",
-          "text": "acúmulo de fórmulas vazias."
-        },
-        {
-          "id": "C",
-          "text": "apagamento do prazo."
-        },
-        {
-          "id": "D",
-          "text": "saudação adequada, justificativa pertinente e pedido claro."
-        }
+        {"id": "A", "text": "vagueza sobre o que se espera."},
+        {"id": "B", "text": "acúmulo de fórmulas vazias."},
+        {"id": "C", "text": "apagamento do prazo."},
+        {"id": "D", "text": "saudação adequada, justificativa pertinente e pedido claro."}
       ],
       "correctOptionId": "D",
       "explanation": "Cortesia e objetividade são compatíveis; excesso cerimonial pode obscurecer a ação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1048,22 +568,10 @@
       "origin": "authorial",
       "prompt": "Na frase 'A equipe identificou um erro', a escolha de 'a equipe' em lugar de 'nós' pode",
       "options": [
-        {
-          "id": "A",
-          "text": "explicitar o referente institucional do agente."
-        },
-        {
-          "id": "B",
-          "text": "eliminar o agente."
-        },
-        {
-          "id": "C",
-          "text": "transformar o fato em hipótese."
-        },
-        {
-          "id": "D",
-          "text": "tornar a frase informal."
-        }
+        {"id": "A", "text": "explicitar o referente institucional do agente."},
+        {"id": "B", "text": "eliminar o agente."},
+        {"id": "C", "text": "transformar o fato em hipótese."},
+        {"id": "D", "text": "tornar a frase informal."}
       ],
       "correctOptionId": "A",
       "explanation": "Nomear a equipe esclarece quem praticou a ação e evita um 'nós' sem referente definido. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1074,22 +582,10 @@
       "origin": "authorial",
       "prompt": "Em instrução ao usuário, 'Anexe o documento'",
       "options": [
-        {
-          "id": "A",
-          "text": "é necessariamente descortês."
-        },
-        {
-          "id": "B",
-          "text": "pode ser uma orientação direta e adequada ao gênero."
-        },
-        {
-          "id": "C",
-          "text": "não possui verbo."
-        },
-        {
-          "id": "D",
-          "text": "só pode ocorrer em conversa informal."
-        }
+        {"id": "A", "text": "é necessariamente descortês."},
+        {"id": "B", "text": "pode ser uma orientação direta e adequada ao gênero."},
+        {"id": "C", "text": "não possui verbo."},
+        {"id": "D", "text": "só pode ocorrer em conversa informal."}
       ],
       "correctOptionId": "B",
       "explanation": "A forma imperativa é funcional em procedimentos e não implica descortesia isoladamente. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1100,22 +596,10 @@
       "origin": "authorial",
       "prompt": "Qual recurso favorece linguagem clara?",
       "options": [
-        {
-          "id": "A",
-          "text": "Variar o termo usado para o mesmo referente em cada frase."
-        },
-        {
-          "id": "B",
-          "text": "Ocultar o responsável relevante."
-        },
-        {
-          "id": "C",
-          "text": "Usar verbos concretos e termos consistentes."
-        },
-        {
-          "id": "D",
-          "text": "Substituir prazos exatos por 'em breve'."
-        }
+        {"id": "A", "text": "Variar o termo usado para o mesmo referente em cada frase."},
+        {"id": "B", "text": "Ocultar o responsável relevante."},
+        {"id": "C", "text": "Usar verbos concretos e termos consistentes."},
+        {"id": "D", "text": "Substituir prazos exatos por 'em breve'."}
       ],
       "correctOptionId": "C",
       "explanation": "Verbos concretos, consistência terminológica e prazos inequívocos reduzem esforço e ambiguidade. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1126,22 +610,10 @@
       "origin": "authorial",
       "prompt": "Qual substituição torna a formulação mais direta sem mudar o sentido básico?",
       "options": [
-        {
-          "id": "A",
-          "text": "porque / apesar de"
-        },
-        {
-          "id": "B",
-          "text": "analisar / deixar de analisar"
-        },
-        {
-          "id": "C",
-          "text": "agora / futuramente"
-        },
-        {
-          "id": "D",
-          "text": "proceder à análise de / analisar"
-        }
+        {"id": "A", "text": "porque / apesar de"},
+        {"id": "B", "text": "analisar / deixar de analisar"},
+        {"id": "C", "text": "agora / futuramente"},
+        {"id": "D", "text": "proceder à análise de / analisar"}
       ],
       "correctOptionId": "D",
       "explanation": "O verbo simples evita uma locução nominal inflada e mantém a ação de examinar. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1152,22 +624,10 @@
       "origin": "authorial",
       "prompt": "Na frase 'O gerente informou ao servidor que seu cadastro estava bloqueado', a reescrita segura deve",
       "options": [
-        {
-          "id": "A",
-          "text": "explicitar de quem é o cadastro se o contexto determinar o referente."
-        },
-        {
-          "id": "B",
-          "text": "escolher o referente mais provável sem evidência."
-        },
-        {
-          "id": "C",
-          "text": "eliminar a informação sobre bloqueio."
-        },
-        {
-          "id": "D",
-          "text": "trocar 'seu' por 'nosso' automaticamente."
-        }
+        {"id": "A", "text": "explicitar de quem é o cadastro se o contexto determinar o referente."},
+        {"id": "B", "text": "escolher o referente mais provável sem evidência."},
+        {"id": "C", "text": "eliminar a informação sobre bloqueio."},
+        {"id": "D", "text": "trocar 'seu' por 'nosso' automaticamente."}
       ],
       "correctOptionId": "A",
       "explanation": "A explicitação resolve ambiguidade, mas não se deve inventar qual participante é o titular. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1178,22 +638,10 @@
       "origin": "authorial",
       "prompt": "No método de reescrita, inventariar o conteúdo significa",
       "options": [
-        {
-          "id": "A",
-          "text": "contar palavras."
-        },
-        {
-          "id": "B",
-          "text": "registrar fatos, fontes, datas, condições, responsáveis e modalidade."
-        },
-        {
-          "id": "C",
-          "text": "escolher primeiro sinônimos."
-        },
-        {
-          "id": "D",
-          "text": "apagar dados repetidos sem leitura."
-        }
+        {"id": "A", "text": "contar palavras."},
+        {"id": "B", "text": "registrar fatos, fontes, datas, condições, responsáveis e modalidade."},
+        {"id": "C", "text": "escolher primeiro sinônimos."},
+        {"id": "D", "text": "apagar dados repetidos sem leitura."}
       ],
       "correctOptionId": "B",
       "explanation": "O inventário cria uma base de comparação para detectar perdas e acréscimos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1204,22 +652,10 @@
       "origin": "authorial",
       "prompt": "Planejar o gênero de chegada envolve definir",
       "options": [
-        {
-          "id": "A",
-          "text": "apenas a quantidade de adjetivos."
-        },
-        {
-          "id": "B",
-          "text": "somente o tempo verbal."
-        },
-        {
-          "id": "C",
-          "text": "título, abertura, ordem das informações, seções, fecho e extensão."
-        },
-        {
-          "id": "D",
-          "text": "uma voz passiva para cada oração."
-        }
+        {"id": "A", "text": "apenas a quantidade de adjetivos."},
+        {"id": "B", "text": "somente o tempo verbal."},
+        {"id": "C", "text": "título, abertura, ordem das informações, seções, fecho e extensão."},
+        {"id": "D", "text": "uma voz passiva para cada oração."}
       ],
       "correctOptionId": "C",
       "explanation": "A mudança de gênero é estrutural e discursiva, não uma operação exclusivamente lexical. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1230,22 +666,10 @@
       "origin": "authorial",
       "prompt": "Depois de ajustar o registro, devem ser conferidos",
       "options": [
-        {
-          "id": "A",
-          "text": "apenas tamanho e fonte gráfica."
-        },
-        {
-          "id": "B",
-          "text": "somente os substantivos."
-        },
-        {
-          "id": "C",
-          "text": "apenas saudação e fechamento."
-        },
-        {
-          "id": "D",
-          "text": "concordância, regência, pontuação, referência, conectores e paralelismo."
-        }
+        {"id": "A", "text": "apenas tamanho e fonte gráfica."},
+        {"id": "B", "text": "somente os substantivos."},
+        {"id": "C", "text": "apenas saudação e fechamento."},
+        {"id": "D", "text": "concordância, regência, pontuação, referência, conectores e paralelismo."}
       ],
       "correctOptionId": "D",
       "explanation": "A adequação discursiva não substitui os gates gramaticais e coesivos da versão final. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1256,22 +680,10 @@
       "origin": "authorial",
       "prompt": "Qual pergunta pertence à simulação do leitor?",
       "options": [
-        {
-          "id": "A",
-          "text": "O destinatário sabe o que fazer, até quando e onde obter ajuda?"
-        },
-        {
-          "id": "B",
-          "text": "Quantos sinônimos raros foram usados?"
-        },
-        {
-          "id": "C",
-          "text": "Todos os períodos estão na passiva?"
-        },
-        {
-          "id": "D",
-          "text": "O texto eliminou toda repetição?"
-        }
+        {"id": "A", "text": "O destinatário sabe o que fazer, até quando e onde obter ajuda?"},
+        {"id": "B", "text": "Quantos sinônimos raros foram usados?"},
+        {"id": "C", "text": "Todos os períodos estão na passiva?"},
+        {"id": "D", "text": "O texto eliminou toda repetição?"}
       ],
       "correctOptionId": "A",
       "explanation": "A simulação verifica se a comunicação permite ao destinatário compreender e agir. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1282,22 +694,10 @@
       "origin": "authorial",
       "prompt": "Qual par apresenta mudança indevida de certeza?",
       "options": [
-        {
-          "id": "A",
-          "text": "Pode chover / É possível que chova."
-        },
-        {
-          "id": "B",
-          "text": "O sistema pode falhar / O sistema falhará."
-        },
-        {
-          "id": "C",
-          "text": "Recomenda-se revisar / É aconselhável revisar."
-        },
-        {
-          "id": "D",
-          "text": "Talvez retorne / É possível que retorne."
-        }
+        {"id": "A", "text": "Pode chover / É possível que chova."},
+        {"id": "B", "text": "O sistema pode falhar / O sistema falhará."},
+        {"id": "C", "text": "Recomenda-se revisar / É aconselhável revisar."},
+        {"id": "D", "text": "Talvez retorne / É possível que retorne."}
       ],
       "correctOptionId": "B",
       "explanation": "A possibilidade da base vira ocorrência categórica na reescrita. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1308,22 +708,10 @@
       "origin": "authorial",
       "prompt": "A reescrita 'Recadastre-se em agosto' para a base 'O prazo termina em 30 de agosto'",
       "options": [
-        {
-          "id": "A",
-          "text": "preserva integralmente o prazo."
-        },
-        {
-          "id": "B",
-          "text": "cria uma proibição."
-        },
-        {
-          "id": "C",
-          "text": "perde o dia-limite específico."
-        },
-        {
-          "id": "D",
-          "text": "muda o gênero para relatório."
-        }
+        {"id": "A", "text": "preserva integralmente o prazo."},
+        {"id": "B", "text": "cria uma proibição."},
+        {"id": "C", "text": "perde o dia-limite específico."},
+        {"id": "D", "text": "muda o gênero para relatório."}
       ],
       "correctOptionId": "C",
       "explanation": "A instrução mantém o mês, mas deixa de informar até qual dia a ação é aceita. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1334,22 +722,10 @@
       "origin": "authorial",
       "prompt": "Relatada posteriormente, em outro dia, a fala 'Enviarei hoje', proferida pelo diretor, pode tornar-se",
       "options": [
-        {
-          "id": "A",
-          "text": "O diretor disse que enviaria naquele dia."
-        },
-        {
-          "id": "B",
-          "text": "O diretor disse que envio ontem."
-        },
-        {
-          "id": "C",
-          "text": "O diretor disse que enviará sempre."
-        },
-        {
-          "id": "D",
-          "text": "O diretor disse: você enviará amanhã."
-        }
+        {"id": "A", "text": "O diretor disse que enviaria naquele dia."},
+        {"id": "B", "text": "O diretor disse que envio ontem."},
+        {"id": "C", "text": "O diretor disse que enviará sempre."},
+        {"id": "D", "text": "O diretor disse: você enviará amanhã."}
       ],
       "correctOptionId": "A",
       "explanation": "Como o relato ocorre a partir de outro ponto temporal, ajustam-se pessoa, futuro do pretérito e dêixis: 'naquele dia'. Em relato feito no mesmo dia, a ancoragem poderia ser diferente. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1360,22 +736,10 @@
       "origin": "authorial",
       "prompt": "Por que uma mensagem a colega não vira relatório por simples troca de vocabulário?",
       "options": [
-        {
-          "id": "A",
-          "text": "Porque o relatório exige reconstrução de finalidade, organização e convenções do gênero."
-        },
-        {
-          "id": "B",
-          "text": "Porque relatórios não usam verbos."
-        },
-        {
-          "id": "C",
-          "text": "Porque mensagens não contêm fatos."
-        },
-        {
-          "id": "D",
-          "text": "Porque todo relatório deve ser informal."
-        }
+        {"id": "A", "text": "Porque o relatório exige reconstrução de finalidade, organização e convenções do gênero."},
+        {"id": "B", "text": "Porque relatórios não usam verbos."},
+        {"id": "C", "text": "Porque mensagens não contêm fatos."},
+        {"id": "D", "text": "Porque todo relatório deve ser informal."}
       ],
       "correctOptionId": "A",
       "explanation": "Mudança de gênero envolve macroestrutura, seleção e hierarquia, não apenas léxico. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1386,22 +750,10 @@
       "origin": "authorial",
       "prompt": "Ao resumir um aviso, qual corte é inseguro?",
       "options": [
-        {
-          "id": "A",
-          "text": "Retirar 'neste momento atual' e usar 'agora'."
-        },
-        {
-          "id": "B",
-          "text": "Eliminar o documento obrigatório para realizar o procedimento."
-        },
-        {
-          "id": "C",
-          "text": "Trocar 'com a finalidade de' por 'para'."
-        },
-        {
-          "id": "D",
-          "text": "Retirar uma repetição sem função."
-        }
+        {"id": "A", "text": "Retirar 'neste momento atual' e usar 'agora'."},
+        {"id": "B", "text": "Eliminar o documento obrigatório para realizar o procedimento."},
+        {"id": "C", "text": "Trocar 'com a finalidade de' por 'para'."},
+        {"id": "D", "text": "Retirar uma repetição sem função."}
       ],
       "correctOptionId": "B",
       "explanation": "O requisito documental orienta a ação e não pode ser eliminado por concisão. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1412,22 +764,10 @@
       "origin": "authorial",
       "prompt": "Qual afirmação sobre passiva e formalidade é correta?",
       "options": [
-        {
-          "id": "A",
-          "text": "Todo texto formal deve usar passiva."
-        },
-        {
-          "id": "B",
-          "text": "A passiva é sempre mais clara."
-        },
-        {
-          "id": "C",
-          "text": "A passiva é um recurso possível, não requisito automático de formalidade ou impessoalidade."
-        },
-        {
-          "id": "D",
-          "text": "A ativa é proibida em documentos oficiais."
-        }
+        {"id": "A", "text": "Todo texto formal deve usar passiva."},
+        {"id": "B", "text": "A passiva é sempre mais clara."},
+        {"id": "C", "text": "A passiva é um recurso possível, não requisito automático de formalidade ou impessoalidade."},
+        {"id": "D", "text": "A ativa é proibida em documentos oficiais."}
       ],
       "correctOptionId": "C",
       "explanation": "A escolha de voz depende de foco e clareza; agente explícito pode ser necessário. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1438,22 +778,10 @@
       "origin": "authorial",
       "prompt": "Ao adaptar uma postagem institucional, deve-se evitar",
       "options": [
-        {
-          "id": "A",
-          "text": "contexto suficiente."
-        },
-        {
-          "id": "B",
-          "text": "orientação clara."
-        },
-        {
-          "id": "C",
-          "text": "link para detalhes."
-        },
-        {
-          "id": "D",
-          "text": "gíria ou emoji incompatível com público, finalidade e imagem institucional."
-        }
+        {"id": "A", "text": "contexto suficiente."},
+        {"id": "B", "text": "orientação clara."},
+        {"id": "C", "text": "link para detalhes."},
+        {"id": "D", "text": "gíria ou emoji incompatível com público, finalidade e imagem institucional."}
       ],
       "correctOptionId": "D",
       "explanation": "Recursos informais dependem da situação e podem prejudicar clareza, acessibilidade ou adequação institucional. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1464,22 +792,10 @@
       "origin": "authorial",
       "prompt": "Qual sequência representa avaliação completa da reescrita?",
       "options": [
-        {
-          "id": "A",
-          "text": "Situação comunicativa, conteúdo, gênero, registro, gates linguísticos e comparação com a base."
-        },
-        {
-          "id": "B",
-          "text": "Número de palavras, voz passiva e quantidade de adjetivos."
-        },
-        {
-          "id": "C",
-          "text": "Apenas ortografia e saudação."
-        },
-        {
-          "id": "D",
-          "text": "Somente fidelidade vocabular palavra por palavra."
-        }
+        {"id": "A", "text": "Situação comunicativa, conteúdo, gênero, registro, gates linguísticos e comparação com a base."},
+        {"id": "B", "text": "Número de palavras, voz passiva e quantidade de adjetivos."},
+        {"id": "C", "text": "Apenas ortografia e saudação."},
+        {"id": "D", "text": "Somente fidelidade vocabular palavra por palavra."}
       ],
       "correctOptionId": "A",
       "explanation": "A reescrita global integra adequação discursiva, fidelidade, estrutura e correção. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1490,22 +806,10 @@
       "origin": "authorial",
       "prompt": "Uma versão pode ser gramatical e factual, mas inadequada quando",
       "options": [
-        {
-          "id": "A",
-          "text": "possui verbo e sujeito."
-        },
-        {
-          "id": "B",
-          "text": "não cumpre a finalidade nem as convenções do gênero de chegada."
-        },
-        {
-          "id": "C",
-          "text": "usa palavras conhecidas."
-        },
-        {
-          "id": "D",
-          "text": "tem título coerente."
-        }
+        {"id": "A", "text": "possui verbo e sujeito."},
+        {"id": "B", "text": "não cumpre a finalidade nem as convenções do gênero de chegada."},
+        {"id": "C", "text": "usa palavras conhecidas."},
+        {"id": "D", "text": "tem título coerente."}
       ],
       "correctOptionId": "B",
       "explanation": "Adequação ao gênero, ao destinatário e ao contexto é gate independente da gramática e dos fatos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1516,22 +820,10 @@
       "origin": "authorial",
       "prompt": "Assinale o erro de reescrita global.",
       "options": [
-        {
-          "id": "A",
-          "text": "Explicar jargão ao público geral."
-        },
-        {
-          "id": "B",
-          "text": "Explicitar prazo em instrução."
-        },
-        {
-          "id": "C",
-          "text": "Retirar a atribuição e apresentar como fato uma opinião da fonte."
-        },
-        {
-          "id": "D",
-          "text": "Criar seções em relatório."
-        }
+        {"id": "A", "text": "Explicar jargão ao público geral."},
+        {"id": "B", "text": "Explicitar prazo em instrução."},
+        {"id": "C", "text": "Retirar a atribuição e apresentar como fato uma opinião da fonte."},
+        {"id": "D", "text": "Criar seções em relatório."}
       ],
       "correctOptionId": "C",
       "explanation": "Retirar a atribuição pode converter avaliação alheia em afirmação factual do novo texto. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1542,22 +834,10 @@
       "origin": "authorial",
       "prompt": "A principal fronteira entre este assunto e a reorganização de orações é que",
       "options": [
-        {
-          "id": "A",
-          "text": "a reescrita global dispensa sintaxe."
-        },
-        {
-          "id": "B",
-          "text": "a reorganização nunca altera foco."
-        },
-        {
-          "id": "C",
-          "text": "gêneros não possuem orações."
-        },
-        {
-          "id": "D",
-          "text": "aqui, mudanças sintáticas servem à adequação global de gênero e registro."
-        }
+        {"id": "A", "text": "a reescrita global dispensa sintaxe."},
+        {"id": "B", "text": "a reorganização nunca altera foco."},
+        {"id": "C", "text": "gêneros não possuem orações."},
+        {"id": "D", "text": "aqui, mudanças sintáticas servem à adequação global de gênero e registro."}
       ],
       "correctOptionId": "D",
       "explanation": "A sintaxe é um recurso e um gate; o objeto central é a situação comunicativa do texto inteiro. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1568,22 +848,10 @@
       "origin": "previous_exam",
       "prompt": "No trecho 'Sem mudanças substanciais, os impactos climáticos devem se intensificar', a forma 'devem' expressa principalmente",
       "options": [
-        {
-          "id": "A",
-          "text": "certeza consumada."
-        },
-        {
-          "id": "B",
-          "text": "probabilidade condicionada à ausência de mudanças."
-        },
-        {
-          "id": "C",
-          "text": "ordem dirigida aos impactos."
-        },
-        {
-          "id": "D",
-          "text": "permissão concedida pelo autor."
-        }
+        {"id": "A", "text": "certeza consumada."},
+        {"id": "B", "text": "probabilidade condicionada à ausência de mudanças."},
+        {"id": "C", "text": "ordem dirigida aos impactos."},
+        {"id": "D", "text": "permissão concedida pelo autor."}
       ],
       "correctOptionId": "B",
       "explanation": "No contexto, 'devem se intensificar' apresenta resultado provável, condicionado à inexistência de mudanças substanciais; não é certeza nem obrigação. Fonte: questão oficial adaptada de Cebraspe/CAESB/2024, questão 7, https://cdn.cebraspe.org.br/concursos/caesb_24/arquivos/MATRIZ_039_CAESB_CG3_00_Com%20Justificativas_OK.pdf; adaptação: conversão para enunciado autônomo de múltipla escolha."
@@ -1594,22 +862,10 @@
       "origin": "previous_exam",
       "prompt": "Um texto jornalístico aborda fatos atuais sobre aquecimento global, reúne previsões e declarações de especialistas e tem como finalidade principal informar. A classificação mais adequada é",
       "options": [
-        {
-          "id": "A",
-          "text": "reportagem informativa."
-        },
-        {
-          "id": "B",
-          "text": "ata deliberativa."
-        },
-        {
-          "id": "C",
-          "text": "manual injuntivo."
-        },
-        {
-          "id": "D",
-          "text": "requerimento administrativo."
-        }
+        {"id": "A", "text": "reportagem informativa."},
+        {"id": "B", "text": "ata deliberativa."},
+        {"id": "C", "text": "manual injuntivo."},
+        {"id": "D", "text": "requerimento administrativo."}
       ],
       "correctOptionId": "A",
       "explanation": "A apuração de fatos atuais, a presença de fontes e a finalidade de informar caracterizam reportagem informativa. Fonte: questão oficial adaptada de Cebraspe/CAESB/2024, questão 8, https://cdn.cebraspe.org.br/concursos/caesb_24/arquivos/MATRIZ_039_CAESB_CG3_00_Com%20Justificativas_OK.pdf; adaptação: síntese do texto-base e redução das alternativas."
@@ -1620,22 +876,10 @@
       "origin": "previous_exam",
       "prompt": "Na abertura 'Mesmo com a previsão de uma leve redução, o planeta continua em trajetória de aquecimento', qual substituição preserva correção e sentido?",
       "options": [
-        {
-          "id": "A",
-          "text": "Em razão da previsão de uma leve redução"
-        },
-        {
-          "id": "B",
-          "text": "Apesar da previsão de uma leve redução"
-        },
-        {
-          "id": "C",
-          "text": "Portanto, a previsão de uma leve redução"
-        },
-        {
-          "id": "D",
-          "text": "Como consequência da previsão de uma leve redução"
-        }
+        {"id": "A", "text": "Em razão da previsão de uma leve redução"},
+        {"id": "B", "text": "Apesar da previsão de uma leve redução"},
+        {"id": "C", "text": "Portanto, a previsão de uma leve redução"},
+        {"id": "D", "text": "Como consequência da previsão de uma leve redução"}
       ],
       "correctOptionId": "B",
       "explanation": "'Mesmo com' e 'apesar de' exprimem concessão; as demais opções introduzem causa ou conclusão. Fonte: questão oficial de Cebraspe/CAESB/2024, questão 9, https://cdn.cebraspe.org.br/concursos/caesb_24/arquivos/MATRIZ_039_CAESB_CG3_00_Com%20Justificativas_OK.pdf; adaptação: manutenção do núcleo da questão com alternativas condensadas."
@@ -1646,22 +890,10 @@
       "origin": "previous_exam",
       "prompt": "Em 'a clara trajetória ascendente em que estamos', a expressão 'em que' pode ser substituída, sem prejuízo da correção e do sentido, por",
       "options": [
-        {
-          "id": "A",
-          "text": "que."
-        },
-        {
-          "id": "B",
-          "text": "aonde."
-        },
-        {
-          "id": "C",
-          "text": "à qual."
-        },
-        {
-          "id": "D",
-          "text": "na qual."
-        }
+        {"id": "A", "text": "que."},
+        {"id": "B", "text": "aonde."},
+        {"id": "C", "text": "à qual."},
+        {"id": "D", "text": "na qual."}
       ],
       "correctOptionId": "D",
       "explanation": "A contração 'na' preserva a preposição 'em', e 'a qual' retoma a expressão feminina definida. Fonte: questão oficial de Cebraspe/CAESB/2024, questão 10, https://cdn.cebraspe.org.br/concursos/caesb_24/arquivos/MATRIZ_039_CAESB_CG3_00_Com%20Justificativas_OK.pdf; adaptação: reprodução do núcleo linguístico em formato autônomo."
@@ -1672,22 +904,10 @@
       "origin": "previous_exam",
       "prompt": "A base informa que a média de cinco anos entre 2024 e 2028 pode ultrapassar 1,5 °C acima do período pré-industrial. Qual resumo preserva a modalidade?",
       "options": [
-        {
-          "id": "A",
-          "text": "A média do período ultrapassará necessariamente 1,5 °C."
-        },
-        {
-          "id": "B",
-          "text": "A média do período pode ultrapassar 1,5 °C."
-        },
-        {
-          "id": "C",
-          "text": "A média do período já ultrapassou 1,9 °C em todos os anos."
-        },
-        {
-          "id": "D",
-          "text": "Não haverá aumento de temperatura no período."
-        }
+        {"id": "A", "text": "A média do período ultrapassará necessariamente 1,5 °C."},
+        {"id": "B", "text": "A média do período pode ultrapassar 1,5 °C."},
+        {"id": "C", "text": "A média do período já ultrapassou 1,9 °C em todos os anos."},
+        {"id": "D", "text": "Não haverá aumento de temperatura no período."}
       ],
       "correctOptionId": "B",
       "explanation": "A base expressa possibilidade, não certeza, e se refere à média de 2024 a 2028. Fonte: questão oficial adaptada de Cebraspe/CAESB/2024, questão 1, https://cdn.cebraspe.org.br/concursos/caesb_24/arquivos/MATRIZ_039_CAESB_CG3_00_Com%20Justificativas_OK.pdf; adaptação: transformação da inferência correta em controle de modalidade."
@@ -1698,22 +918,10 @@
       "origin": "previous_exam",
       "prompt": "A base prevê leve redução do aquecimento em 2025, devido ao La Niña, em comparação com 2024. Qual versão informativa é compatível com essa previsão?",
       "options": [
-        {
-          "id": "A",
-          "text": "Espera-se que 2025 seja ligeiramente mais frio que 2024."
-        },
-        {
-          "id": "B",
-          "text": "Está comprovado que 2025 será o ano mais quente da história."
-        },
-        {
-          "id": "C",
-          "text": "O uso de combustíveis fósseis terminará em 2025."
-        },
-        {
-          "id": "D",
-          "text": "Não existe previsão para 2025."
-        }
+        {"id": "A", "text": "Espera-se que 2025 seja ligeiramente mais frio que 2024."},
+        {"id": "B", "text": "Está comprovado que 2025 será o ano mais quente da história."},
+        {"id": "C", "text": "O uso de combustíveis fósseis terminará em 2025."},
+        {"id": "D", "text": "Não existe previsão para 2025."}
       ],
       "correctOptionId": "A",
       "explanation": "A alternativa preserva a previsão de leve redução em relação a 2024, sem transformar medidas desejáveis em fatos. Fonte: questão oficial adaptada de Cebraspe/CAESB/2024, questão 2, https://cdn.cebraspe.org.br/concursos/caesb_24/arquivos/MATRIZ_039_CAESB_CG3_00_Com%20Justificativas_OK.pdf; adaptação: explicitação do parâmetro comparativo."
@@ -1724,22 +932,10 @@
       "origin": "previous_exam",
       "prompt": "No trecho 'a meta de 1,5 °C do Acordo de Paris (...) Um relatório prevê que a média (...) possa ultrapassar esse limite', 'esse limite' retoma",
       "options": [
-        {
-          "id": "A",
-          "text": "0,2 °C por década."
-        },
-        {
-          "id": "B",
-          "text": "1,5 °C."
-        },
-        {
-          "id": "C",
-          "text": "a década de 2030."
-        },
-        {
-          "id": "D",
-          "text": "um único ano."
-        }
+        {"id": "A", "text": "0,2 °C por década."},
+        {"id": "B", "text": "1,5 °C."},
+        {"id": "C", "text": "a década de 2030."},
+        {"id": "D", "text": "um único ano."}
       ],
       "correctOptionId": "B",
       "explanation": "O demonstrativo retoma o limite de 1,5 °C mencionado imediatamente antes. Fonte: questão oficial de Cebraspe/CAESB/2024, questão 4, https://cdn.cebraspe.org.br/concursos/caesb_24/arquivos/MATRIZ_039_CAESB_CG3_00_Com%20Justificativas_OK.pdf; adaptação: recorte do mecanismo referencial."
@@ -1750,22 +946,10 @@
       "origin": "previous_exam",
       "prompt": "O texto apenas descreve a posição da delegação brasileira em conferência ambiental de 1972. Uma reescrita afirma que essa participação 'comprometeu a eficácia dos acordos estabelecidos'. O problema é que a versão",
       "options": [
-        {
-          "id": "A",
-          "text": "explicita uma consequência comprovada."
-        },
-        {
-          "id": "B",
-          "text": "extrapola o conteúdo ao criar efeito não informado."
-        },
-        {
-          "id": "C",
-          "text": "preserva exatamente a mesma informação."
-        },
-        {
-          "id": "D",
-          "text": "apenas reduz a formalidade."
-        }
+        {"id": "A", "text": "explicita uma consequência comprovada."},
+        {"id": "B", "text": "extrapola o conteúdo ao criar efeito não informado."},
+        {"id": "C", "text": "preserva exatamente a mesma informação."},
+        {"id": "D", "text": "apenas reduz a formalidade."}
       ],
       "correctOptionId": "B",
       "explanation": "Não havia informação sobre comprometimento da eficácia dos acordos; a afirmação acrescenta consequência. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 1, https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF; adaptação: conversão do julgamento em diagnóstico de reescrita."
@@ -1776,22 +960,10 @@
       "origin": "previous_exam",
       "prompt": "A base afirma que redemocratização, fortalecimento da sociedade civil, avanço científico e governança ambiental favoreceram novas percepções. Qual reescrita altera a direção causal?",
       "options": [
-        {
-          "id": "A",
-          "text": "Esses processos favoreceram novas percepções ambientais."
-        },
-        {
-          "id": "B",
-          "text": "Novas percepções ambientais resultaram desses processos."
-        },
-        {
-          "id": "C",
-          "text": "Esses processos resultaram da mudança de percepções ambientais."
-        },
-        {
-          "id": "D",
-          "text": "A mudança de percepções foi favorecida por esses processos."
-        }
+        {"id": "A", "text": "Esses processos favoreceram novas percepções ambientais."},
+        {"id": "B", "text": "Novas percepções ambientais resultaram desses processos."},
+        {"id": "C", "text": "Esses processos resultaram da mudança de percepções ambientais."},
+        {"id": "D", "text": "A mudança de percepções foi favorecida por esses processos."}
       ],
       "correctOptionId": "C",
       "explanation": "A alternativa C inverte causa e consequência: na base, os processos favorecem as novas percepções. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 5, https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF; adaptação: construção de alternativas de equivalência causal."
@@ -1802,22 +974,10 @@
       "origin": "previous_exam",
       "prompt": "No mesmo texto, 'as duas esferas' retoma soberania estatal e políticas ambientais, enquanto 'esses dois setores' retoma sociedade e instituições de defesa. Dizer que as duas expressões têm o mesmo referente é",
       "options": [
-        {
-          "id": "A",
-          "text": "correto, porque ambas estão no plural."
-        },
-        {
-          "id": "B",
-          "text": "correto, porque todo demonstrativo retoma o primeiro parágrafo."
-        },
-        {
-          "id": "C",
-          "text": "incorreto, porque as cadeias referenciais são diferentes."
-        },
-        {
-          "id": "D",
-          "text": "incorreto apenas por falta de concordância verbal."
-        }
+        {"id": "A", "text": "correto, porque ambas estão no plural."},
+        {"id": "B", "text": "correto, porque todo demonstrativo retoma o primeiro parágrafo."},
+        {"id": "C", "text": "incorreto, porque as cadeias referenciais são diferentes."},
+        {"id": "D", "text": "incorreto apenas por falta de concordância verbal."}
       ],
       "correctOptionId": "C",
       "explanation": "As expressões retomam pares distintos; igualá-las muda os participantes do texto. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 6, https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF; adaptação: explicitação dos referentes no enunciado."
@@ -1828,22 +988,10 @@
       "origin": "previous_exam",
       "prompt": "Em contexto que descreve uma percepção vigente durante certo tempo e depois superada, a substituição de 'a preservação foi vista como ameaça' por 'a preservação era vista como ameaça'",
       "options": [
-        {
-          "id": "A",
-          "text": "é coerente e gramaticalmente correta."
-        },
-        {
-          "id": "B",
-          "text": "transforma o passado em obrigação."
-        },
-        {
-          "id": "C",
-          "text": "elimina necessariamente o agente."
-        },
-        {
-          "id": "D",
-          "text": "é incorreta porque 'era' só expressa hábito presente."
-        }
+        {"id": "A", "text": "é coerente e gramaticalmente correta."},
+        {"id": "B", "text": "transforma o passado em obrigação."},
+        {"id": "C", "text": "elimina necessariamente o agente."},
+        {"id": "D", "text": "é incorreta porque 'era' só expressa hábito presente."}
       ],
       "correctOptionId": "A",
       "explanation": "O pretérito imperfeito pode apresentar estado ou percepção durativa no passado, compatível com 'durante certo tempo'. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 7, https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF; adaptação: apresentação autônoma do contexto."
@@ -1854,22 +1002,10 @@
       "origin": "previous_exam",
       "prompt": "Na estrutura 'foi vista não como precondição, mas como ameaça', substituir 'mas' por 'embora' preservaria o período?",
       "options": [
-        {
-          "id": "A",
-          "text": "Sim, sem nenhuma outra alteração."
-        },
-        {
-          "id": "B",
-          "text": "Não, porque 'embora' exigiria reorganização sintática e não completa a correlação 'não... mas'."
-        },
-        {
-          "id": "C",
-          "text": "Sim, porque 'mas' e 'embora' são sempre intercambiáveis."
-        },
-        {
-          "id": "D",
-          "text": "Não, porque 'embora' só pode introduzir causa."
-        }
+        {"id": "A", "text": "Sim, sem nenhuma outra alteração."},
+        {"id": "B", "text": "Não, porque 'embora' exigiria reorganização sintática e não completa a correlação 'não... mas'."},
+        {"id": "C", "text": "Sim, porque 'mas' e 'embora' são sempre intercambiáveis."},
+        {"id": "D", "text": "Não, porque 'embora' só pode introduzir causa."}
       ],
       "correctOptionId": "B",
       "explanation": "A correlação 'não... mas' organiza contraste; 'embora' é concessivo e não pode ocupar esse ponto sem reconstruir a frase. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 8, https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF; adaptação: explicitação da exigência de reorganização."
@@ -1880,22 +1016,10 @@
       "origin": "previous_exam",
       "prompt": "A expressão 'gerenciar seus recursos naturais de maneira autônoma, em busca do desenvolvimento' pode ser reescrita, preservando sentido e correção, como",
       "options": [
-        {
-          "id": "A",
-          "text": "gerenciar seus recursos naturais de maneira autônoma, visando ao desenvolvimento."
-        },
-        {
-          "id": "B",
-          "text": "gerenciar seus recursos naturais de maneira autônoma, apesar do desenvolvimento."
-        },
-        {
-          "id": "C",
-          "text": "gerenciar seus recursos naturais de maneira autônoma, porque o desenvolvimento."
-        },
-        {
-          "id": "D",
-          "text": "gerenciar seus recursos naturais de maneira autônoma, contrário ao desenvolvimento."
-        }
+        {"id": "A", "text": "gerenciar seus recursos naturais de maneira autônoma, visando ao desenvolvimento."},
+        {"id": "B", "text": "gerenciar seus recursos naturais de maneira autônoma, apesar do desenvolvimento."},
+        {"id": "C", "text": "gerenciar seus recursos naturais de maneira autônoma, porque o desenvolvimento."},
+        {"id": "D", "text": "gerenciar seus recursos naturais de maneira autônoma, contrário ao desenvolvimento."}
       ],
       "correctOptionId": "A",
       "explanation": "'Visando ao desenvolvimento' preserva a ideia de finalidade e atende à regência de 'visar' com sentido de almejar. Fonte: questão oficial de Cebraspe/PCDF/2024, item 10, https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF; adaptação: conversão para múltipla escolha."
@@ -1906,22 +1030,10 @@
       "origin": "previous_exam",
       "prompt": "Na citação 'qualquer fórmula que (...) impusesse uma sistemática de consulta seria inaceitável', a forma 'impusesse' apresenta",
       "options": [
-        {
-          "id": "A",
-          "text": "uma hipótese que caracteriza a fórmula."
-        },
-        {
-          "id": "B",
-          "text": "uma ordem já cumprida."
-        },
-        {
-          "id": "C",
-          "text": "uma condição introduzida por 'se'."
-        },
-        {
-          "id": "D",
-          "text": "um fato observado no presente."
-        }
+        {"id": "A", "text": "uma hipótese que caracteriza a fórmula."},
+        {"id": "B", "text": "uma ordem já cumprida."},
+        {"id": "C", "text": "uma condição introduzida por 'se'."},
+        {"id": "D", "text": "um fato observado no presente."}
       ],
       "correctOptionId": "A",
       "explanation": "O subjuntivo integra oração relativa e apresenta fórmula hipotética; não há oração condicional introduzida por 'se'. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 12, https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF; adaptação: transformação do julgamento em classificação contextual."
@@ -1932,22 +1044,10 @@
       "origin": "previous_exam",
       "prompt": "A base diz que vários processos 'favoreceram essas novas percepções e, sobretudo, a aproximação desses dois setores'. Reescrever o final como 'essas novas percepções, que aproximaram os dois setores'",
       "options": [
-        {
-          "id": "A",
-          "text": "preserva o agente da aproximação."
-        },
-        {
-          "id": "B",
-          "text": "muda o agente ao atribuir a aproximação às novas percepções."
-        },
-        {
-          "id": "C",
-          "text": "apenas troca voz ativa por passiva."
-        },
-        {
-          "id": "D",
-          "text": "elimina qualquer relação entre as ideias."
-        }
+        {"id": "A", "text": "preserva o agente da aproximação."},
+        {"id": "B", "text": "muda o agente ao atribuir a aproximação às novas percepções."},
+        {"id": "C", "text": "apenas troca voz ativa por passiva."},
+        {"id": "D", "text": "elimina qualquer relação entre as ideias."}
       ],
       "correctOptionId": "B",
       "explanation": "Na base, os processos enumerados favorecem tanto as percepções quanto a aproximação; a relativa atribui a aproximação às percepções. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 13, https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF; adaptação: explicitação da mudança de referente."
@@ -1958,22 +1058,10 @@
       "origin": "previous_exam",
       "prompt": "Dois períodos sucessivos acrescentam informações diferentes, sem relação conclusiva. Inserir 'Portanto' no início do segundo período",
       "options": [
-        {
-          "id": "A",
-          "text": "é adequado porque todo novo parágrafo é conclusão."
-        },
-        {
-          "id": "B",
-          "text": "é inadequado porque cria conclusão não sustentada."
-        },
-        {
-          "id": "C",
-          "text": "é obrigatório em texto formal."
-        },
-        {
-          "id": "D",
-          "text": "não afeta a relação lógica."
-        }
+        {"id": "A", "text": "é adequado porque todo novo parágrafo é conclusão."},
+        {"id": "B", "text": "é inadequado porque cria conclusão não sustentada."},
+        {"id": "C", "text": "é obrigatório em texto formal."},
+        {"id": "D", "text": "não afeta a relação lógica."}
       ],
       "correctOptionId": "B",
       "explanation": "O conector conclusivo altera a relação entre as ideias quando o segundo período apenas acrescenta informação. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 14, https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF; adaptação: generalização controlada do contexto original."
@@ -1984,22 +1072,10 @@
       "origin": "previous_exam",
       "prompt": "Em 'interpretações relativas às preocupações ambientais', a expressão 'relativas às' pode ser substituída, sem prejuízo da correção e da coerência, por",
       "options": [
-        {
-          "id": "A",
-          "text": "acerca das."
-        },
-        {
-          "id": "B",
-          "text": "apesar das."
-        },
-        {
-          "id": "C",
-          "text": "de encontro as."
-        },
-        {
-          "id": "D",
-          "text": "ao invés às."
-        }
+        {"id": "A", "text": "acerca das."},
+        {"id": "B", "text": "apesar das."},
+        {"id": "C", "text": "de encontro as."},
+        {"id": "D", "text": "ao invés às."}
       ],
       "correctOptionId": "A",
       "explanation": "No contexto, 'acerca das' mantém o sentido de 'a respeito das'. Fonte: questão oficial de Cebraspe/PCDF/2024, item 15, https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF; adaptação: conversão para múltipla escolha."
@@ -2010,22 +1086,10 @@
       "origin": "previous_exam",
       "prompt": "Substituir 'a relação nem sempre se deu em bases cooperativas' por 'a relação quase nunca se deu em bases cooperativas'",
       "options": [
-        {
-          "id": "A",
-          "text": "preserva a frequência expressa."
-        },
-        {
-          "id": "B",
-          "text": "altera o sentido, pois 'nem sempre' apenas nega constância, enquanto 'quase nunca' indica raridade."
-        },
-        {
-          "id": "C",
-          "text": "muda somente o nível de formalidade."
-        },
-        {
-          "id": "D",
-          "text": "é obrigatório para tornar o texto conciso."
-        }
+        {"id": "A", "text": "preserva a frequência expressa."},
+        {"id": "B", "text": "altera o sentido, pois 'nem sempre' apenas nega constância, enquanto 'quase nunca' indica raridade."},
+        {"id": "C", "text": "muda somente o nível de formalidade."},
+        {"id": "D", "text": "é obrigatório para tornar o texto conciso."}
       ],
       "correctOptionId": "B",
       "explanation": "'Nem sempre' admite extensão indeterminada dos momentos divergentes; 'quase nunca' afirma que os casos foram raros. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 16, https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF; adaptação: conversão do julgamento para comparação semântica."
@@ -2036,22 +1100,10 @@
       "origin": "previous_exam",
       "prompt": "No contexto em que um posicionamento é sinal de determinada compreensão, substituir 'seria sintomático desse entendimento' por 'seria revelador desse entendimento'",
       "options": [
-        {
-          "id": "A",
-          "text": "preserva coerência e sentido."
-        },
-        {
-          "id": "B",
-          "text": "transforma hipótese em obrigação."
-        },
-        {
-          "id": "C",
-          "text": "elimina o referente de 'desse'."
-        },
-        {
-          "id": "D",
-          "text": "é incorreto porque 'revelador' só se aplica a pessoas."
-        }
+        {"id": "A", "text": "preserva coerência e sentido."},
+        {"id": "B", "text": "transforma hipótese em obrigação."},
+        {"id": "C", "text": "elimina o referente de 'desse'."},
+        {"id": "D", "text": "é incorreto porque 'revelador' só se aplica a pessoas."}
       ],
       "correctOptionId": "A",
       "explanation": "'Revelador' possui sentido contextual próximo ao de 'sintomático': algo que evidencia determinada compreensão. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 17, https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF; adaptação: apresentação autônoma do contexto."
@@ -2062,22 +1114,10 @@
       "origin": "previous_exam",
       "prompt": "No trecho 'as inestimáveis riquezas naturais', substituir 'inestimáveis' por 'incalculáveis'",
       "options": [
-        {
-          "id": "A",
-          "text": "é possível no contexto, pois ambas podem indicar valor difícil ou impossível de estimar."
-        },
-        {
-          "id": "B",
-          "text": "cria necessariamente sentido de pequena importância."
-        },
-        {
-          "id": "C",
-          "text": "é impossível porque as palavras têm classes diferentes."
-        },
-        {
-          "id": "D",
-          "text": "transforma o substantivo em verbo."
-        }
+        {"id": "A", "text": "é possível no contexto, pois ambas podem indicar valor difícil ou impossível de estimar."},
+        {"id": "B", "text": "cria necessariamente sentido de pequena importância."},
+        {"id": "C", "text": "é impossível porque as palavras têm classes diferentes."},
+        {"id": "D", "text": "transforma o substantivo em verbo."}
       ],
       "correctOptionId": "A",
       "explanation": "No contexto, os adjetivos podem designar riquezas cujo valor não se consegue calcular ou estimar. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 18, https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF; adaptação: conversão para múltipla escolha."
@@ -2088,26 +1128,11 @@
       "origin": "previous_exam",
       "prompt": "Em situações de comunicação formal, é conveniente evitar o uso de linguagem informal.\nAssinale a opção que apresenta a frase cuja linguagem é inteiramente formal.",
       "options": [
-        {
-          "id": "A",
-          "text": "Caso tivéssemos nessa situação, reagiríamos de forma diferente."
-        },
-        {
-          "id": "B",
-          "text": "Para mim estudar de forma eficiente, é indispensável estar em lugar silencioso."
-        },
-        {
-          "id": "C",
-          "text": "A gente não deve passear à noite por lugares escuros e desconhecidos."
-        },
-        {
-          "id": "D",
-          "text": "Eu lia mais, se tivesse mais dinheiro e tempo."
-        },
-        {
-          "id": "E",
-          "text": "Os presentes que lhes demos custaram caro."
-        }
+        {"id": "A", "text": "Caso tivéssemos nessa situação, reagiríamos de forma diferente."},
+        {"id": "B", "text": "Para mim estudar de forma eficiente, é indispensável estar em lugar silencioso."},
+        {"id": "C", "text": "A gente não deve passear à noite por lugares escuros e desconhecidos."},
+        {"id": "D", "text": "Eu lia mais, se tivesse mais dinheiro e tempo."},
+        {"id": "E", "text": "Os presentes que lhes demos custaram caro."}
       ],
       "correctOptionId": "E",
       "explanation": "A alternativa E emprega construção compatível com a linguagem formal; as demais apresentam marcas informais ou construções inadequadas ao padrão solicitado. Questão original da FGV, SME-SP — Professor de Educação Infantil e Ensino Fundamental I, Tipo 1 (Branca), 2023, questão 4. Gabarito definitivo: E. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/cnm001_-_professor_de_educacao_infantil_e_ensino_fundamental_i_cnm001_tipo_1_-_15.01.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/smesp2022_gabarito_definitivo-edital-2.pdf."
@@ -2118,29 +1143,134 @@
       "origin": "previous_exam",
       "prompt": "Dois amigos diplomatas encontraram-se no balcão de um bar, antes de chegar ao Ministério.\n\nTendo em vista o conhecimento das variações linguísticas, a forma mais conveniente de cumprimento inicial seria:",
       "options": [
-        {
-          "id": "A",
-          "text": "Bom dia! Como é que vai?"
-        },
-        {
-          "id": "B",
-          "text": "Bom dia! Como estamos?"
-        },
-        {
-          "id": "C",
-          "text": "Bom dia! O senhor, como vai?"
-        },
-        {
-          "id": "D",
-          "text": "Bom dia! Como vai, Vossa Excelência?"
-        },
-        {
-          "id": "E",
-          "text": "Bom dia! Como está Vossa Senhoria?"
-        }
+        {"id": "A", "text": "Bom dia! Como é que vai?"},
+        {"id": "B", "text": "Bom dia! Como estamos?"},
+        {"id": "C", "text": "Bom dia! O senhor, como vai?"},
+        {"id": "D", "text": "Bom dia! Como vai, Vossa Excelência?"},
+        {"id": "E", "text": "Bom dia! Como está Vossa Senhoria?"}
       ],
       "correctOptionId": "A",
       "explanation": "A situação descrita é informal entre dois amigos, antes do ambiente institucional; por isso, a alternativa A apresenta o cumprimento mais adequado ao contexto. Questão original da FGV, SME-SP — Professor de Educação Infantil e Ensino Fundamental I, Tipo 1 (Branca), 2023, questão 5. Gabarito definitivo: A. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/cnm001_-_professor_de_educacao_infantil_e_ensino_fundamental_i_cnm001_tipo_1_-_15.01.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/smesp2022_gabarito_definitivo-edital-2.pdf."
+    },
+    {
+      "id": "q3841",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "As opções abaixo mostram a transformação de um pequeno segmento de linguagem informal para a linguagem formal.\nAssinale a opção em que a troca foi feita na direção contrária.",
+      "options": [
+        {"id": "A", "text": "Choveu pra burro / Choveu intensamente."},
+        {"id": "B", "text": "Empreste-me um livro / Me empresta um livro."},
+        {"id": "C", "text": "Senti dor à beça / Senti muita dor."},
+        {"id": "D", "text": "Corri atrás de um emprego / Procurei um emprego."},
+        {"id": "E", "text": "Botei meu dinheiro em criptomoedas / Investi em criptomoedas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Na alternativa B, a transformação ocorre da formulação formal para a informal, ao contrário das demais. Questão original da FGV, Prefeitura de Manaus/SEMSA — AS-Programador de Computador, Tipo 1 (Branca), 2022, questão 7. Gabarito definitivo: B. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/as-programador_de_computadornm204_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/semsa2021e02nm_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q3842",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção que mostra uma frase redigida inteiramente em linguagem formal.",
+      "options": [
+        {"id": "A", "text": "Se hoje é o primeiro dia do resto de sua vida, que droga foi ontem?"},
+        {"id": "B", "text": "A tecnologia moderna é capaz de realizar a produção sem emprego. O diabo é que a economia moderna não consegue inventar o consumo sem salário."},
+        {"id": "C", "text": "Não enriquece quem trabalha, mas quem faz os outros trabalharem."},
+        {"id": "D", "text": "Tem gente que se acha honesta só porque não sabia da mamata."},
+        {"id": "E", "text": "Trabalho em equipe é um monte de gente fazendo o que eu mando."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C não apresenta as marcas coloquiais ou populares presentes nas demais. Questão original da FGV, SEDUC-TO — Professor da Educação Básica, Professor Regente (Letras Português - Redação), Tipo 3 (Amarela), 2023, questão 52. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/cns108-professor-da-educacao-basica-professor-regente-letras-portugues-redacaocns108-tipo-3.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/edital-01.012.2023-gabarito-definitivo_4417844615184464.pdf."
+    },
+    {
+      "id": "q3843",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase inteiramente escrita em linguagem formal.",
+      "options": [
+        {"id": "A", "text": "Com organização e tempo a gente acha o segredo de fazer tudo."},
+        {"id": "B", "text": "Não tem assunto desinteressante, o que tem é pessoa desinteressada."},
+        {"id": "C", "text": "Aprenda a confiar em si mesmo e aprenderá o grande segredo da vida."},
+        {"id": "D", "text": "Aprenda a fazer o teu trabalho de forma organizada."},
+        {"id": "E", "text": "Não sei o que prometeram-te, mas é exagerado."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C mantém construção compatível com o registro formal; as demais exibem marcas populares, mistura de tratamento ou colocação pronominal inadequada ao padrão solicitado. Questão original da FGV, TCE-RR — Auditor Substituto de Conselheiro, Tipo 2 (Verde), 2025, questão 8. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/auditor-substituto-de-conselheirocns201-tipo-2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_tcerr_auditor-e-analista_ap01.pdf."
+    },
+    {
+      "id": "q3844",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase integralmente construída com linguagem formal (não popular).",
+      "options": [
+        {"id": "A", "text": "A gente não sabe o que está por vir."},
+        {"id": "B", "text": "Torna-se difícil para mim fazer isso hoje."},
+        {"id": "C", "text": "A raça humana não suporta muita realidade."},
+        {"id": "D", "text": "Me deram preocupações demais ao nascerem."},
+        {"id": "E", "text": "Tem muitos anos que não viajo para a Europa."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C é a opção integralmente formal conforme o gabarito definitivo. Questão original da FGV, TCE-RR — Técnico Administrativo, Tipo 4 (Azul), 2025, questão 2. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-administrativocnm101-tipo-4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_tcerr_10.03.2025.pdf."
+    },
+    {
+      "id": "q3845",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Ao escrever um texto, seus enunciadores utilizam variados registros de linguagem. Assinale a opção que apresenta o exemplo que está adequado ao registro indicado inicialmente.",
+      "options": [
+        {"id": "A", "text": "O registro corrente, que corresponde a uma utilização correta e cotidiana do discurso: Me deram todas as informações necessárias para a inscrição no concurso."},
+        {"id": "B", "text": "O registro formal, que manifesta certo cuidado estético na construção do discurso: Ela trouxe algumas coisas do lugar onde ela foi."},
+        {"id": "C", "text": "O registro familiar, que mostra certo descuido gramatical com a linguagem: Fizemos-nos de bêbados para que ninguém nos culpasse de nada."},
+        {"id": "D", "text": "O discurso da gíria, que indica um uso particular da linguagem por certos grupos: Puxa! Com esses preços não dá!"},
+        {"id": "E", "text": "O registro erudito, que prefere vocábulos raros e construções sofisticadas: Desde o último encontro, nunca mais nos vimos."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C apresenta o exemplo que corresponde ao registro indicado, conforme o gabarito definitivo. Questão original da FGV, Câmara dos Deputados — Analista Legislativo, Médico, Área Medicina de Emergência, Tipo 2 (Verde), 2023, questão 16. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/cns204-analista-legislativo-medico-area-medicina-de-emergenciacns204-tipo-2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-2-manha.pdf."
+    },
+    {
+      "id": "q3846",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase que não mostra marcas de linguagem informal.",
+      "options": [
+        {"id": "A", "text": "Os animais pastam; a gente come."},
+        {"id": "B", "text": "A mesa mata mais gente do que a guerra."},
+        {"id": "C", "text": "Tem tempo que eles não vêm aqui."},
+        {"id": "D", "text": "Me disseram que a verdade apareceria."},
+        {"id": "E", "text": "Eles vieram com um disse me disse, mas não acreditei."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alternativa B é a única sem marcas de linguagem informal entre as opções, conforme o gabarito definitivo. Questão original da FGV, ALESC — Analista Legislativo III, Direito, Tipo 1, 2024, questão 18. Gabarito definitivo: B. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-iii-direitocns106-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alesc2024_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q3847",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Os textos podem ser estruturados em diversos registros de linguagem: erudita, formal, informal etc.\nAssinale a frase que mostra marcas de linguagem informal.",
+      "options": [
+        {"id": "A", "text": "Místico é o sujeito que quer gozar com a alma ao invés do corpo."},
+        {"id": "B", "text": "Nenhum homem chegou a ser grande senão impelido por divina inspiração."},
+        {"id": "C", "text": "Quando o apocalipse vier, Senhor, que eu tenha, pelo menos, escovado os dentes."},
+        {"id": "D", "text": "Um devoto é aquele que, sob um rei ateu, seria ateu."},
+        {"id": "E", "text": "Não acredito em astrologia. Acho horóscopo uma tremenda bobagem e todos nós de Libra sentimos o mesmo."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "A alternativa E apresenta marcas de informalidade, notadamente o vocabulário coloquial, conforme o gabarito definitivo. Questão original da FGV, ADAB — Fiscal Estadual Agropecuário, Defesa Sanitária Vegetal, Tipo 2 (Verde), 2024, questão 1. Gabarito definitivo: E. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/fiscal-estadual-agropecuario-defesa-sanitaria-vegetalcns002-tipo-2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q3848",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase que está integralmente realizada no registro formal da Língua Portuguesa.",
+      "options": [
+        {"id": "A", "text": "A mulher ideal é a que gosta da gente como a gente gostaria que ela gostasse – isso se a gente gostasse dela."},
+        {"id": "B", "text": "As mulheres nos inspiram grandes coisas e nos impedem de obtê-las."},
+        {"id": "C", "text": "Turismo dá muito mais grana que o agronegócio."},
+        {"id": "D", "text": "Me encheram a cabeça com tantos problemas, que me arrependi de ter ido."},
+        {"id": "E", "text": "Por que uma mulher dá duro dez anos para melhorar os hábitos de seu marido e depois se queixa de que ele não é mais o homem com quem se casou?"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alternativa B está integralmente em registro formal, sem as marcas coloquiais presentes nas demais. Questão original da FGV, Prefeitura de Caraguatatuba — PEB II, Língua Portuguesa, Tipo 1, 2024, questão 58. Gabarito definitivo: B. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/cns349e3-peb-ii-lingua-portuguesacns349e3-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caraguatatuba2024e0302_gabarito_definitivo_20240226.pdf."
     }
   ]
 }
