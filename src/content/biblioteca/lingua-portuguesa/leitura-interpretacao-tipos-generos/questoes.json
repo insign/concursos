@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q001",
@@ -1963,6 +1963,366 @@
       ],
       "correctOptionId": "b",
       "explanation": "Gabarito oficial definitivo: B. O texto critica a suposição de que toda ocorrência associada ao tráfico seja crime organizado e distingue atividades desorganizadas de organizações criminosas. Fonte: Cebraspe; SDS/PE — Polícia Civil; 2016; questão 1; caderno: https://cdn.cebraspe.org.br/concursos/SDS_PE_16_CIVIL/arquivos/258_SDS_PE_CG1_01.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/SDS_PE_16_CIVIL/arquivos/Gab_Definitivo_258_SDS_PE_CG1_01.PDF."
+    },
+    {
+      "id": "q103",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Texto CG1A01BBB\n\nNão são muitas as experiências exitosas de políticas públicas de redução de homicídios no Brasil nos últimos vinte anos, e poucas são aquelas que tiveram continuidade. O Pacto pela Vida, política de segurança pública implantada no estado de Pernambuco em 2007, é identificado como uma política pública exitosa.\n\nO Pacto Pela Vida é um programa do governo do estado de Pernambuco que visa à redução da criminalidade e ao controle da violência. A decisão ou vontade política de eleger a segurança pública como prioridade é o primeiro marco que se deve destacar quando se pensa em recuperar a memória dessa política, sobretudo quando se considera o fato de que o tema da segurança pública, no Brasil, tem sido historicamente negligenciado. Muitas autoridades públicas não só evitam associar-se ao assunto como também o tratam de modo simplista, como uma questão que diz respeito apenas à polícia.\n\nO Pacto pela Vida, entendido como um grande concerto de ações com o objetivo de reduzir a violência e, em especial, os crimes contra a vida, foi apresentado à sociedade no início do mês de maio de 2007. Em seu bojo, foram estabelecidos os principais valores que orientaram a construção da política de segurança, a prioridade do combate aos crimes violentos letais intencionais e a meta de reduzir em 12% ao ano, em Pernambuco, a taxa desses crimes.\n\nDesse modo, definiu-se, no estado, um novo paradigma de segurança pública, que se baseou na consolidação dos valores descritos acima (que estavam em disputa tanto do ponto de vista institucional quanto da sociedade), no estabelecimento de prioridades básicas (como o foco na redução dos crimes contra a vida) e no intenso debate com a sociedade civil. A implementação do Pacto Pela Vida foi responsável pela diminuição de quase 40% dos homicídios no estado entre janeiro de 2007 e junho de 2013.\n\nJosé Luiz Ratton et al. O Pacto Pela Vida e a redução de homicídios em Pernambuco. Rio de Janeiro: Instituto Igarapé, 2014. Internet: <https://igarape.org.br> (com adaptações).\n\nO Pacto pela Vida é caracterizado no texto CG1A01BBB como uma política exitosa porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "teve como objetivos a redução da criminalidade e o controle da violência no estado de Pernambuco."
+        },
+        {
+          "id": "b",
+          "text": "tratou a questão da violência como um problema social complexo e inaugurou uma estratégia de contenção desse problema compatível com sua complexidade."
+        },
+        {
+          "id": "c",
+          "text": "definiu, no estado de Pernambuco, um novo paradigma de segurança pública, embasado em uma rede de ações de combate e de repressão à violência."
+        },
+        {
+          "id": "d",
+          "text": "foi fruto de um plano acertado que elegeu a área da segurança pública como prioridade."
+        },
+        {
+          "id": "e",
+          "text": "resultou em uma redução visível no número de crimes contra a vida no estado de Pernambuco."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Gabarito oficial definitivo: E. O texto caracteriza o Pacto pela Vida como política exitosa e informa que sua implementação foi responsável pela diminuição de quase 40% dos homicídios no estado entre janeiro de 2007 e junho de 2013. Fonte: Cebraspe; SDS/PE — Polícia Civil — Conhecimentos Gerais; 2016; questão 5; caderno: https://cdn.cebraspe.org.br/concursos/SDS_PE_16_CIVIL/arquivos/258_SDS_PE_CG1_01.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/SDS_PE_16_CIVIL/arquivos/Gab_Definitivo_258_SDS_PE_CG1_01.PDF."
+    },
+    {
+      "id": "q104",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A ideia de cultura foi cunhada e batizada no terceiro quartel do século XVIII como termo sintético para designar a administração do pensamento e do comportamento humanos. A palavra “cultura” não nasceu como um termo descritivo, uma forma reduzida para as já alcançadas, observadas e registradas regras de conduta de toda uma população. Só cerca de um século mais tarde, quando os gerentes da cultura olharam em retrospecto para aquilo que tinham passado a ver como criação sua e, seguindo o exemplo de Deus na criação do mundo, com carga positiva, é que “cultura” passou a significar a forma como um tipo regular e “normativamente regulado” de conduta humana diferia de outro, sob outro gerenciamento. A ideia de cultura nasceu com uma declaração de intenções.\n\nO termo “cultura” entrou no vocabulário como o nome de uma atividade intencional. No limiar da Era Moderna, homens e mulheres, não mais aceitos como “um dado não problematizado”, como elos preordenados na cadeia da criação divina (“divina” como algo inegociável e com o qual não devemos nos imiscuir), indispensáveis, ainda que sórdidos, torpes e deixando muito a desejar, passaram a ser vistos ao mesmo tempo como maleáveis e terrivelmente carentes de ajustes e melhoras. O termo “cultura” foi concebido no interior de uma família de conceitos que incluía expressões como “cultivo”, “lavoura”, “criação” — todos significando aperfeiçoamento, seja na prevenção de um prejuízo, seja na interrupção e reversão da deterioração. O que o agricultor fazia com a semente por meio de atenção cuidadosa, desde a semeadura até a colheita, podia e devia ser feito com os incipientes seres humanos pela educação e pelo treinamento. As pessoas não nasciam, eram feitas. Precisavam tornar-se humanas — e, nesse processo de se tornar humanas (uma trajetória cheia de obstáculos e armadilhas que elas não seriam capazes de evitar nem poderiam negociar, caso fossem deixadas por sua própria conta), teriam de ser guiadas por outros seres humanos, educados e treinados na arte de educar e treinar seres humanos.\n\nO termo “cultura” apareceu no vocabulário menos de cem anos depois de outro conceito moderno crucial, o de “gerenciar”, que significa, segundo o Oxford English Dictionary: “forçar (pessoas, animais etc.) a se submeter ao controle de alguém”, “exercer efeito sobre”, “ter sucesso em realizar”. E mais de cem anos antes de outro sintético, de “gerenciamento”, o de “obter sucesso ou sair-se bem”. Gerenciar, em suma, significava conseguir que as coisas fossem feitas de uma forma que as pessoas não fariam por conta própria e sem ajuda. Significava redirecionar eventos segundo motivos e desejo próprios. Em outras palavras, “gerenciar” (controlar o fluxo de eventos) veio a significar a manipulação de probabilidades: fazer a ocorrência de certas condutas (iniciais ou reativas) de “pessoas, animais etc.” mais provável, ou, de preferência, totalmente improvável a ocorrência de outros movimentos. Em última instância, “gerenciar” significa limitar a liberdade do gerenciado.\n\nZygmunt Bauman. Vida líquida. Carlos Alberto Medeiros (Trad.). Rio de Janeiro: Zahar, 2009 (com adaptações).\n\nCom relação às ideias e aos aspectos linguísticos do texto anterior, julgue os itens subsequentes.\n\nDe acordo com o texto, o conceito de gerenciar é mais antigo que o termo cultura, que só apareceu no vocabulário quase um século depois daquele.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Certo."
+        },
+        {
+          "id": "b",
+          "text": "Errado."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito oficial definitivo: C (Certo). O texto afirma que o termo “cultura” apareceu no vocabulário menos de cem anos depois do conceito de “gerenciar”. Fonte: Cebraspe; TCE/RJ — V Concurso — Analista de Controle Externo — Conhecimentos Básicos para todos os cargos; 2021; item 1; caderno: https://cdn.cebraspe.org.br/concursos/TCE_rj_20/arquivos/CARGO_1.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/tce_rj_20/arquivos/GAB_DEFINITIVO_MATRIZ_524_TCERJCB1__PAG_5.PDF."
+    },
+    {
+      "id": "q105",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A ideia de cultura foi cunhada e batizada no terceiro quartel do século XVIII como termo sintético para designar a administração do pensamento e do comportamento humanos. A palavra “cultura” não nasceu como um termo descritivo, uma forma reduzida para as já alcançadas, observadas e registradas regras de conduta de toda uma população. Só cerca de um século mais tarde, quando os gerentes da cultura olharam em retrospecto para aquilo que tinham passado a ver como criação sua e, seguindo o exemplo de Deus na criação do mundo, com carga positiva, é que “cultura” passou a significar a forma como um tipo regular e “normativamente regulado” de conduta humana diferia de outro, sob outro gerenciamento. A ideia de cultura nasceu com uma declaração de intenções.\n\nO termo “cultura” entrou no vocabulário como o nome de uma atividade intencional. No limiar da Era Moderna, homens e mulheres, não mais aceitos como “um dado não problematizado”, como elos preordenados na cadeia da criação divina (“divina” como algo inegociável e com o qual não devemos nos imiscuir), indispensáveis, ainda que sórdidos, torpes e deixando muito a desejar, passaram a ser vistos ao mesmo tempo como maleáveis e terrivelmente carentes de ajustes e melhoras. O termo “cultura” foi concebido no interior de uma família de conceitos que incluía expressões como “cultivo”, “lavoura”, “criação” — todos significando aperfeiçoamento, seja na prevenção de um prejuízo, seja na interrupção e reversão da deterioração. O que o agricultor fazia com a semente por meio de atenção cuidadosa, desde a semeadura até a colheita, podia e devia ser feito com os incipientes seres humanos pela educação e pelo treinamento. As pessoas não nasciam, eram feitas. Precisavam tornar-se humanas — e, nesse processo de se tornar humanas (uma trajetória cheia de obstáculos e armadilhas que elas não seriam capazes de evitar nem poderiam negociar, caso fossem deixadas por sua própria conta), teriam de ser guiadas por outros seres humanos, educados e treinados na arte de educar e treinar seres humanos.\n\nO termo “cultura” apareceu no vocabulário menos de cem anos depois de outro conceito moderno crucial, o de “gerenciar”, que significa, segundo o Oxford English Dictionary: “forçar (pessoas, animais etc.) a se submeter ao controle de alguém”, “exercer efeito sobre”, “ter sucesso em realizar”. E mais de cem anos antes de outro sintético, de “gerenciamento”, o de “obter sucesso ou sair-se bem”. Gerenciar, em suma, significava conseguir que as coisas fossem feitas de uma forma que as pessoas não fariam por conta própria e sem ajuda. Significava redirecionar eventos segundo motivos e desejo próprios. Em outras palavras, “gerenciar” (controlar o fluxo de eventos) veio a significar a manipulação de probabilidades: fazer a ocorrência de certas condutas (iniciais ou reativas) de “pessoas, animais etc.” mais provável, ou, de preferência, totalmente improvável a ocorrência de outros movimentos. Em última instância, “gerenciar” significa limitar a liberdade do gerenciado.\n\nZygmunt Bauman. Vida líquida. Carlos Alberto Medeiros (Trad.). Rio de Janeiro: Zahar, 2009 (com adaptações).\n\nCom relação às ideias e aos aspectos linguísticos do texto anterior, julgue os itens subsequentes.\n\nSegundo o texto, a primeira acepção de cultura era relacionada à noção de agricultura: o processo de tornar as pessoas humanas por meio da educação e do treinamento é comparável ao trabalho do agricultor.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Certo."
+        },
+        {
+          "id": "b",
+          "text": "Errado."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito oficial definitivo: C (Certo). O segundo parágrafo aproxima explicitamente cultivo agrícola e formação humana por educação e treinamento. Fonte: Cebraspe; TCE/RJ — V Concurso — Analista de Controle Externo — Conhecimentos Básicos para todos os cargos; 2021; item 2; caderno: https://cdn.cebraspe.org.br/concursos/TCE_rj_20/arquivos/CARGO_1.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/tce_rj_20/arquivos/GAB_DEFINITIVO_MATRIZ_524_TCERJCB1__PAG_5.PDF."
+    },
+    {
+      "id": "q106",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A ideia de cultura foi cunhada e batizada no terceiro quartel do século XVIII como termo sintético para designar a administração do pensamento e do comportamento humanos. A palavra “cultura” não nasceu como um termo descritivo, uma forma reduzida para as já alcançadas, observadas e registradas regras de conduta de toda uma população. Só cerca de um século mais tarde, quando os gerentes da cultura olharam em retrospecto para aquilo que tinham passado a ver como criação sua e, seguindo o exemplo de Deus na criação do mundo, com carga positiva, é que “cultura” passou a significar a forma como um tipo regular e “normativamente regulado” de conduta humana diferia de outro, sob outro gerenciamento. A ideia de cultura nasceu com uma declaração de intenções.\n\nO termo “cultura” entrou no vocabulário como o nome de uma atividade intencional. No limiar da Era Moderna, homens e mulheres, não mais aceitos como “um dado não problematizado”, como elos preordenados na cadeia da criação divina (“divina” como algo inegociável e com o qual não devemos nos imiscuir), indispensáveis, ainda que sórdidos, torpes e deixando muito a desejar, passaram a ser vistos ao mesmo tempo como maleáveis e terrivelmente carentes de ajustes e melhoras. O termo “cultura” foi concebido no interior de uma família de conceitos que incluía expressões como “cultivo”, “lavoura”, “criação” — todos significando aperfeiçoamento, seja na prevenção de um prejuízo, seja na interrupção e reversão da deterioração. O que o agricultor fazia com a semente por meio de atenção cuidadosa, desde a semeadura até a colheita, podia e devia ser feito com os incipientes seres humanos pela educação e pelo treinamento. As pessoas não nasciam, eram feitas. Precisavam tornar-se humanas — e, nesse processo de se tornar humanas (uma trajetória cheia de obstáculos e armadilhas que elas não seriam capazes de evitar nem poderiam negociar, caso fossem deixadas por sua própria conta), teriam de ser guiadas por outros seres humanos, educados e treinados na arte de educar e treinar seres humanos.\n\nO termo “cultura” apareceu no vocabulário menos de cem anos depois de outro conceito moderno crucial, o de “gerenciar”, que significa, segundo o Oxford English Dictionary: “forçar (pessoas, animais etc.) a se submeter ao controle de alguém”, “exercer efeito sobre”, “ter sucesso em realizar”. E mais de cem anos antes de outro sintético, de “gerenciamento”, o de “obter sucesso ou sair-se bem”. Gerenciar, em suma, significava conseguir que as coisas fossem feitas de uma forma que as pessoas não fariam por conta própria e sem ajuda. Significava redirecionar eventos segundo motivos e desejo próprios. Em outras palavras, “gerenciar” (controlar o fluxo de eventos) veio a significar a manipulação de probabilidades: fazer a ocorrência de certas condutas (iniciais ou reativas) de “pessoas, animais etc.” mais provável, ou, de preferência, totalmente improvável a ocorrência de outros movimentos. Em última instância, “gerenciar” significa limitar a liberdade do gerenciado.\n\nZygmunt Bauman. Vida líquida. Carlos Alberto Medeiros (Trad.). Rio de Janeiro: Zahar, 2009 (com adaptações).\n\nCom relação às ideias e aos aspectos linguísticos do texto anterior, julgue os itens subsequentes.\n\nO texto informa que o Oxford English Dictionary define o termo cultura como ‘forçar (pessoas, animais etc.) a se submeter ao controle de alguém’, ‘exercer efeito sobre’, ‘ter sucesso em realizar’.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Certo."
+        },
+        {
+          "id": "b",
+          "text": "Errado."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito oficial definitivo: E (Errado). As definições atribuídas ao Oxford English Dictionary referem-se ao conceito de “gerenciar”, não ao termo “cultura”. Fonte: Cebraspe; TCE/RJ — V Concurso — Analista de Controle Externo — Conhecimentos Básicos para todos os cargos; 2021; item 3; caderno: https://cdn.cebraspe.org.br/concursos/TCE_rj_20/arquivos/CARGO_1.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/tce_rj_20/arquivos/GAB_DEFINITIVO_MATRIZ_524_TCERJCB1__PAG_5.PDF."
+    },
+    {
+      "id": "q107",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A ideia de cultura foi cunhada e batizada no terceiro quartel do século XVIII como termo sintético para designar a administração do pensamento e do comportamento humanos. A palavra “cultura” não nasceu como um termo descritivo, uma forma reduzida para as já alcançadas, observadas e registradas regras de conduta de toda uma população. Só cerca de um século mais tarde, quando os gerentes da cultura olharam em retrospecto para aquilo que tinham passado a ver como criação sua e, seguindo o exemplo de Deus na criação do mundo, com carga positiva, é que “cultura” passou a significar a forma como um tipo regular e “normativamente regulado” de conduta humana diferia de outro, sob outro gerenciamento. A ideia de cultura nasceu com uma declaração de intenções.\n\nO termo “cultura” entrou no vocabulário como o nome de uma atividade intencional. No limiar da Era Moderna, homens e mulheres, não mais aceitos como “um dado não problematizado”, como elos preordenados na cadeia da criação divina (“divina” como algo inegociável e com o qual não devemos nos imiscuir), indispensáveis, ainda que sórdidos, torpes e deixando muito a desejar, passaram a ser vistos ao mesmo tempo como maleáveis e terrivelmente carentes de ajustes e melhoras. O termo “cultura” foi concebido no interior de uma família de conceitos que incluía expressões como “cultivo”, “lavoura”, “criação” — todos significando aperfeiçoamento, seja na prevenção de um prejuízo, seja na interrupção e reversão da deterioração. O que o agricultor fazia com a semente por meio de atenção cuidadosa, desde a semeadura até a colheita, podia e devia ser feito com os incipientes seres humanos pela educação e pelo treinamento. As pessoas não nasciam, eram feitas. Precisavam tornar-se humanas — e, nesse processo de se tornar humanas (uma trajetória cheia de obstáculos e armadilhas que elas não seriam capazes de evitar nem poderiam negociar, caso fossem deixadas por sua própria conta), teriam de ser guiadas por outros seres humanos, educados e treinados na arte de educar e treinar seres humanos.\n\nO termo “cultura” apareceu no vocabulário menos de cem anos depois de outro conceito moderno crucial, o de “gerenciar”, que significa, segundo o Oxford English Dictionary: “forçar (pessoas, animais etc.) a se submeter ao controle de alguém”, “exercer efeito sobre”, “ter sucesso em realizar”. E mais de cem anos antes de outro sintético, de “gerenciamento”, o de “obter sucesso ou sair-se bem”. Gerenciar, em suma, significava conseguir que as coisas fossem feitas de uma forma que as pessoas não fariam por conta própria e sem ajuda. Significava redirecionar eventos segundo motivos e desejo próprios. Em outras palavras, “gerenciar” (controlar o fluxo de eventos) veio a significar a manipulação de probabilidades: fazer a ocorrência de certas condutas (iniciais ou reativas) de “pessoas, animais etc.” mais provável, ou, de preferência, totalmente improvável a ocorrência de outros movimentos. Em última instância, “gerenciar” significa limitar a liberdade do gerenciado.\n\nZygmunt Bauman. Vida líquida. Carlos Alberto Medeiros (Trad.). Rio de Janeiro: Zahar, 2009 (com adaptações).\n\nCom relação às ideias e aos aspectos linguísticos do texto anterior, julgue os itens subsequentes.\n\nO verbo pronominal imiscuir-se está empregado, na linha 19, com o mesmo sentido de intrometer-se.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Certo."
+        },
+        {
+          "id": "b",
+          "text": "Errado."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito oficial definitivo: C (Certo). No contexto, “imiscuir-se” tem sentido de envolver-se/intrometer-se em algo. Fonte: Cebraspe; TCE/RJ — V Concurso — Analista de Controle Externo — Conhecimentos Básicos para todos os cargos; 2021; item 4; caderno: https://cdn.cebraspe.org.br/concursos/TCE_rj_20/arquivos/CARGO_1.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/tce_rj_20/arquivos/GAB_DEFINITIVO_MATRIZ_524_TCERJCB1__PAG_5.PDF."
+    },
+    {
+      "id": "q108",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A ideia de cultura foi cunhada e batizada no terceiro quartel do século XVIII como termo sintético para designar a administração do pensamento e do comportamento humanos. A palavra “cultura” não nasceu como um termo descritivo, uma forma reduzida para as já alcançadas, observadas e registradas regras de conduta de toda uma população. Só cerca de um século mais tarde, quando os gerentes da cultura olharam em retrospecto para aquilo que tinham passado a ver como criação sua e, seguindo o exemplo de Deus na criação do mundo, com carga positiva, é que “cultura” passou a significar a forma como um tipo regular e “normativamente regulado” de conduta humana diferia de outro, sob outro gerenciamento. A ideia de cultura nasceu com uma declaração de intenções.\n\nO termo “cultura” entrou no vocabulário como o nome de uma atividade intencional. No limiar da Era Moderna, homens e mulheres, não mais aceitos como “um dado não problematizado”, como elos preordenados na cadeia da criação divina (“divina” como algo inegociável e com o qual não devemos nos imiscuir), indispensáveis, ainda que sórdidos, torpes e deixando muito a desejar, passaram a ser vistos ao mesmo tempo como maleáveis e terrivelmente carentes de ajustes e melhoras. O termo “cultura” foi concebido no interior de uma família de conceitos que incluía expressões como “cultivo”, “lavoura”, “criação” — todos significando aperfeiçoamento, seja na prevenção de um prejuízo, seja na interrupção e reversão da deterioração. O que o agricultor fazia com a semente por meio de atenção cuidadosa, desde a semeadura até a colheita, podia e devia ser feito com os incipientes seres humanos pela educação e pelo treinamento. As pessoas não nasciam, eram feitas. Precisavam tornar-se humanas — e, nesse processo de se tornar humanas (uma trajetória cheia de obstáculos e armadilhas que elas não seriam capazes de evitar nem poderiam negociar, caso fossem deixadas por sua própria conta), teriam de ser guiadas por outros seres humanos, educados e treinados na arte de educar e treinar seres humanos.\n\nO termo “cultura” apareceu no vocabulário menos de cem anos depois de outro conceito moderno crucial, o de “gerenciar”, que significa, segundo o Oxford English Dictionary: “forçar (pessoas, animais etc.) a se submeter ao controle de alguém”, “exercer efeito sobre”, “ter sucesso em realizar”. E mais de cem anos antes de outro sintético, de “gerenciamento”, o de “obter sucesso ou sair-se bem”. Gerenciar, em suma, significava conseguir que as coisas fossem feitas de uma forma que as pessoas não fariam por conta própria e sem ajuda. Significava redirecionar eventos segundo motivos e desejo próprios. Em outras palavras, “gerenciar” (controlar o fluxo de eventos) veio a significar a manipulação de probabilidades: fazer a ocorrência de certas condutas (iniciais ou reativas) de “pessoas, animais etc.” mais provável, ou, de preferência, totalmente improvável a ocorrência de outros movimentos. Em última instância, “gerenciar” significa limitar a liberdade do gerenciado.\n\nZygmunt Bauman. Vida líquida. Carlos Alberto Medeiros (Trad.). Rio de Janeiro: Zahar, 2009 (com adaptações).\n\nCom relação às ideias e aos aspectos linguísticos do texto anterior, julgue os itens subsequentes.\n\nA ideia principal do texto consiste em mostrar a evolução da noção de cultura até o surgimento de outra noção, que a aperfeiçoa: a de gerenciamento.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Certo."
+        },
+        {
+          "id": "b",
+          "text": "Errado."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito oficial definitivo: E (Errado). O texto relaciona historicamente os conceitos, mas não apresenta “gerenciamento” como aperfeiçoamento da noção de cultura. Fonte: Cebraspe; TCE/RJ — V Concurso — Analista de Controle Externo — Conhecimentos Básicos para todos os cargos; 2021; item 5; caderno: https://cdn.cebraspe.org.br/concursos/TCE_rj_20/arquivos/CARGO_1.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/tce_rj_20/arquivos/GAB_DEFINITIVO_MATRIZ_524_TCERJCB1__PAG_5.PDF."
+    },
+    {
+      "id": "q109",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Texto CB1A1\n\nJeremy Bentham, filósofo e jurista que viveu na Inglaterra entre 1748 e 1832, foi o criador do utilitarismo como filosofia moral. Tal concepção surgiu em um período bastante específico, a era da razão. Bentham dirigiu suas críticas principalmente ao direito, tendo sido um vigoroso defensor da codificação das leis em um país que possui o sistema consuetudinário. A originalidade de suas críticas se forjava sob os auspícios da idade das luzes.\n\nRaoul Van Caenegem, historiador belga e renomado especialista no campo da história jurídica europeia, afirma, sobre o utilitarismo, que “O ponto de partida para a crítica de Bentham ao sistema inglês (que, em sua época, era substancialmente medieval) não foi o direito natural continental, mas sim uma ideia inteiramente original: o princípio da utilidade. Bentham não formulou axiomas nem deduziu normas do direito a partir deles; em vez disso, questionou a utilidade de cada conceito e norma jurídica, e o objetivo prático destes para o homem e a sociedade de sua época”.\n\nSegundo Caenegem, o princípio da utilidade pode ser definido como “o princípio que aprova ou desaprova qualquer ação, segundo a tendência que tem de aumentar ou diminuir a felicidade da pessoa cujo interesse está em jogo, ou seja, segundo a tendência de promover ou de comprometer a felicidade de alguém”.\n\nO utilitarismo envolve uma ética adequadamente denominada de consequencialista, na medida em que requer que se avaliem, em cada caso concreto, os efeitos das ações, isto é, se as condutas são eticamente reprováveis a partir do critério da utilidade. Preconiza que as ações humanas devem seguir o princípio da utilidade, consistente na consideração da quantidade de prazer e de dor que as ações provocam nos indivíduos. As ações devem considerar todos os interesses, de maneira que nenhum contrainteresse seja desconsiderado ou tenha preponderância sobre outro.\n\nAlém disso, o número de pessoas atingidas pelas ações é objeto de análise. Busca-se sempre promover a maior quantidade de prazer possível ao maior número de indivíduos, ao passo que se evita o desprazer em uma proporção inversa: há um paralelismo entre o prazer e o sofrimento para o inglês, de tal modo que a maximização de um significa proporcionalmente a minimização de outro.\n\nInternet: <http://publicadireito.com.br> (com adaptações).\n\nCom base no texto CB1A1, é correto afirmar que",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeremy Bentham se opunha à defesa dos interesses de minorias."
+        },
+        {
+          "id": "b",
+          "text": "Jeremy Bentham criou o utilitarismo com o intuito de reinstituir a moral na sociedade inglesa de sua época."
+        },
+        {
+          "id": "c",
+          "text": "Raoul Van Caenegem aperfeiçoou o conceito de utilitarismo criado por Bentham."
+        },
+        {
+          "id": "d",
+          "text": "Jeremy Bentham, por meio do utilitarismo, pôs em questão o sistema jurídico de sua época."
+        },
+        {
+          "id": "e",
+          "text": "Raoul Van Caenegem adaptou o princípio da utilidade de Bentham para que pudesse ser aplicado à sociedade moderna."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito oficial definitivo: D. O texto afirma que Bentham dirigiu suas críticas ao direito e que questionou a utilidade de conceitos e normas do sistema inglês. Fonte: Cebraspe; Ministério da Ciência, Tecnologia e Inovação — Agência Espacial Brasileira — Analista em Ciência e Tecnologia/Tecnologista — Conhecimentos Básicos; 2025; questão 1; caderno: https://cdn.cebraspe.org.br/concursos/aeb_24/arquivos/051_AEB_24_CB1_01.pdf; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/aeb_24/arquivos/Gab_Definitivo_051_AEB_24_CB1_01.pdf."
+    },
+    {
+      "id": "q110",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Texto CB1A1\n\nJeremy Bentham, filósofo e jurista que viveu na Inglaterra entre 1748 e 1832, foi o criador do utilitarismo como filosofia moral. Tal concepção surgiu em um período bastante específico, a era da razão. Bentham dirigiu suas críticas principalmente ao direito, tendo sido um vigoroso defensor da codificação das leis em um país que possui o sistema consuetudinário. A originalidade de suas críticas se forjava sob os auspícios da idade das luzes.\n\nRaoul Van Caenegem, historiador belga e renomado especialista no campo da história jurídica europeia, afirma, sobre o utilitarismo, que “O ponto de partida para a crítica de Bentham ao sistema inglês (que, em sua época, era substancialmente medieval) não foi o direito natural continental, mas sim uma ideia inteiramente original: o princípio da utilidade. Bentham não formulou axiomas nem deduziu normas do direito a partir deles; em vez disso, questionou a utilidade de cada conceito e norma jurídica, e o objetivo prático destes para o homem e a sociedade de sua época”.\n\nSegundo Caenegem, o princípio da utilidade pode ser definido como “o princípio que aprova ou desaprova qualquer ação, segundo a tendência que tem de aumentar ou diminuir a felicidade da pessoa cujo interesse está em jogo, ou seja, segundo a tendência de promover ou de comprometer a felicidade de alguém”.\n\nO utilitarismo envolve uma ética adequadamente denominada de consequencialista, na medida em que requer que se avaliem, em cada caso concreto, os efeitos das ações, isto é, se as condutas são eticamente reprováveis a partir do critério da utilidade. Preconiza que as ações humanas devem seguir o princípio da utilidade, consistente na consideração da quantidade de prazer e de dor que as ações provocam nos indivíduos. As ações devem considerar todos os interesses, de maneira que nenhum contrainteresse seja desconsiderado ou tenha preponderância sobre outro.\n\nAlém disso, o número de pessoas atingidas pelas ações é objeto de análise. Busca-se sempre promover a maior quantidade de prazer possível ao maior número de indivíduos, ao passo que se evita o desprazer em uma proporção inversa: há um paralelismo entre o prazer e o sofrimento para o inglês, de tal modo que a maximização de um significa proporcionalmente a minimização de outro.\n\nInternet: <http://publicadireito.com.br> (com adaptações).\n\nDe acordo com as ideias veiculadas no texto CB1A1, o utilitarismo",
+      "options": [
+        {
+          "id": "a",
+          "text": "advoga a adoção de ações capazes de promover prazer e felicidade, de forma ampla, ao maior número de pessoas possível."
+        },
+        {
+          "id": "b",
+          "text": "inova o mundo jurídico inglês pela introdução de princípios éticos nas práticas jurídicas."
+        },
+        {
+          "id": "c",
+          "text": "foi o movimento que deu origem à codificação das leis na Inglaterra."
+        },
+        {
+          "id": "d",
+          "text": "é um princípio subjacente às normas jurídicas das sociedades modernas."
+        },
+        {
+          "id": "e",
+          "text": "foi criado com vistas a direcionar as ações dos governantes para o bem-estar do povo inglês."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito oficial definitivo: A. O texto afirma que o utilitarismo busca maximizar prazer e felicidade para o maior número possível de indivíduos. Fonte: Cebraspe; Ministério da Ciência, Tecnologia e Inovação — Agência Espacial Brasileira — Analista em Ciência e Tecnologia/Tecnologista — Conhecimentos Básicos; 2025; questão 2; caderno: https://cdn.cebraspe.org.br/concursos/aeb_24/arquivos/051_AEB_24_CB1_01.pdf; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/aeb_24/arquivos/Gab_Definitivo_051_AEB_24_CB1_01.pdf."
+    },
+    {
+      "id": "q111",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Texto CB1A1-I\n\nQuais são as consequências dessa pandemia no que diz respeito à reflexão sobre igualdade, interdependência global e nossas obrigações uns com os outros? O vírus não discrimina. Por conta da forma pela qual se move e ataca, ele demonstra que a comunidade humana é igualmente precária. Ao mesmo tempo, contudo, o fracasso por parte de certos Estados ou regiões em se prepararem adequadamente de antemão, o fechamento de fronteiras e a chegada de empreendedores ávidos para capitalizar em cima do sofrimento global, tudo isso atesta a velocidade com a qual a desigualdade radical e a exploração capitalista encontram formas de reproduzir e fortalecer seus poderes no interior das zonas de pandemia. Um cenário que já podemos imaginar é a produção e comercialização de uma vacina eficaz contra a covid-19. Nós certamente veremos os ricos e os plenamente assegurados correrem para garantir acesso a qualquer vacina quando ela se tornar disponível. A desigualdade social e econômica garantirá a discriminação. O vírus por si só não discrimina, mas nós humanos certamente o fazemos, moldados e movidos como somos pelos poderes casados do nacionalismo, do racismo, da xenofobia e do capitalismo. Parece provável que passaremos a ver, no próximo ano, um cenário doloroso no qual algumas criaturas humanas afirmam seu direito de viver ao custo de outras, reinscrevendo a distinção espúria entre vidas passíveis e não passíveis de luto, isto é, entre aqueles que devem ser protegidos contra a morte a qualquer custo e aqueles cujas vidas não valem o bastante para serem salvaguardadas da doença e da morte.\n\nJudith Butler. O capitalismo tem seus limites. Internet: <blogdaboitempo.com.br> (com adaptações).\n\nNo texto CB1A1-I, a autora",
+      "options": [
+        {
+          "id": "a",
+          "text": "atesta que o desenvolvimento da vacina agravou a desigualdade social e econômica por meio da discriminação."
+        },
+        {
+          "id": "b",
+          "text": "questiona as consequências da pandemia com base em uma variável específica: a polarização política."
+        },
+        {
+          "id": "c",
+          "text": "alerta sobre a precariedade das pessoas vulneráveis ao vírus."
+        },
+        {
+          "id": "d",
+          "text": "aventa as razões por que a pandemia potencializa a vulnerabilidade de determinadas pessoas."
+        },
+        {
+          "id": "e",
+          "text": "reflete sobre a evolução histórica do capitalismo como um sistema que se sobressai em relação ao bem-estar coletivo."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito oficial definitivo: D. A autora discute mecanismos sociais, econômicos e políticos que fazem a pandemia agravar vulnerabilidades desigualmente. Fonte: Cebraspe; Prefeitura Municipal de Aracaju/SE — Auditor de Tributos Municipais — Conhecimentos Básicos; 2021; questão 1; caderno: https://cdn.cebraspe.org.br/concursos/pref_aracaju_se_20_auditor/arquivos/552_PREFEITURA_DE_ARACAJU_AUDITOR_CB1_01.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/pref_aracaju_se_20_auditor/arquivos/GAB_DEFINITIVO_552_PREFEITURA_DE_ARACAJU_AUDITOR_CB1_01.PDF."
+    },
+    {
+      "id": "q112",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Texto CB1A1-I\n\nQuais são as consequências dessa pandemia no que diz respeito à reflexão sobre igualdade, interdependência global e nossas obrigações uns com os outros? O vírus não discrimina. Por conta da forma pela qual se move e ataca, ele demonstra que a comunidade humana é igualmente precária. Ao mesmo tempo, contudo, o fracasso por parte de certos Estados ou regiões em se prepararem adequadamente de antemão, o fechamento de fronteiras e a chegada de empreendedores ávidos para capitalizar em cima do sofrimento global, tudo isso atesta a velocidade com a qual a desigualdade radical e a exploração capitalista encontram formas de reproduzir e fortalecer seus poderes no interior das zonas de pandemia. Um cenário que já podemos imaginar é a produção e comercialização de uma vacina eficaz contra a covid-19. Nós certamente veremos os ricos e os plenamente assegurados correrem para garantir acesso a qualquer vacina quando ela se tornar disponível. A desigualdade social e econômica garantirá a discriminação. O vírus por si só não discrimina, mas nós humanos certamente o fazemos, moldados e movidos como somos pelos poderes casados do nacionalismo, do racismo, da xenofobia e do capitalismo. Parece provável que passaremos a ver, no próximo ano, um cenário doloroso no qual algumas criaturas humanas afirmam seu direito de viver ao custo de outras, reinscrevendo a distinção espúria entre vidas passíveis e não passíveis de luto, isto é, entre aqueles que devem ser protegidos contra a morte a qualquer custo e aqueles cujas vidas não valem o bastante para serem salvaguardadas da doença e da morte.\n\nJudith Butler. O capitalismo tem seus limites. Internet: <blogdaboitempo.com.br> (com adaptações).\n\nA argumentação central do texto CB1A1-I é articulada a partir da dicotomia",
+      "options": [
+        {
+          "id": "a",
+          "text": "vida e morte."
+        },
+        {
+          "id": "b",
+          "text": "individual e coletivo."
+        },
+        {
+          "id": "c",
+          "text": "fraco e forte."
+        },
+        {
+          "id": "d",
+          "text": "capitalismo e socialismo."
+        },
+        {
+          "id": "e",
+          "text": "público e privado."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito oficial definitivo: B. A argumentação contrasta a condição compartilhada da comunidade humana com respostas e interesses individualizados que reproduzem desigualdades. Fonte: Cebraspe; Prefeitura Municipal de Aracaju/SE — Auditor de Tributos Municipais — Conhecimentos Básicos; 2021; questão 2; caderno: https://cdn.cebraspe.org.br/concursos/pref_aracaju_se_20_auditor/arquivos/552_PREFEITURA_DE_ARACAJU_AUDITOR_CB1_01.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/pref_aracaju_se_20_auditor/arquivos/GAB_DEFINITIVO_552_PREFEITURA_DE_ARACAJU_AUDITOR_CB1_01.PDF."
+    },
+    {
+      "id": "q113",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Texto CB1A1-I\n\nQuais são as consequências dessa pandemia no que diz respeito à reflexão sobre igualdade, interdependência global e nossas obrigações uns com os outros? O vírus não discrimina. Por conta da forma pela qual se move e ataca, ele demonstra que a comunidade humana é igualmente precária. Ao mesmo tempo, contudo, o fracasso por parte de certos Estados ou regiões em se prepararem adequadamente de antemão, o fechamento de fronteiras e a chegada de empreendedores ávidos para capitalizar em cima do sofrimento global, tudo isso atesta a velocidade com a qual a desigualdade radical e a exploração capitalista encontram formas de reproduzir e fortalecer seus poderes no interior das zonas de pandemia. Um cenário que já podemos imaginar é a produção e comercialização de uma vacina eficaz contra a covid-19. Nós certamente veremos os ricos e os plenamente assegurados correrem para garantir acesso a qualquer vacina quando ela se tornar disponível. A desigualdade social e econômica garantirá a discriminação. O vírus por si só não discrimina, mas nós humanos certamente o fazemos, moldados e movidos como somos pelos poderes casados do nacionalismo, do racismo, da xenofobia e do capitalismo. Parece provável que passaremos a ver, no próximo ano, um cenário doloroso no qual algumas criaturas humanas afirmam seu direito de viver ao custo de outras, reinscrevendo a distinção espúria entre vidas passíveis e não passíveis de luto, isto é, entre aqueles que devem ser protegidos contra a morte a qualquer custo e aqueles cujas vidas não valem o bastante para serem salvaguardadas da doença e da morte.\n\nJudith Butler. O capitalismo tem seus limites. Internet: <blogdaboitempo.com.br> (com adaptações).\n\nEm “Um cenário que já podemos imaginar é a produção e comercialização de uma vacina eficaz contra a covid-19”, o vocábulo “já” foi empregado com o sentido de",
+      "options": [
+        {
+          "id": "a",
+          "text": "primeiramente."
+        },
+        {
+          "id": "b",
+          "text": "antecipadamente."
+        },
+        {
+          "id": "c",
+          "text": "prontamente."
+        },
+        {
+          "id": "d",
+          "text": "inicialmente."
+        },
+        {
+          "id": "e",
+          "text": "anteriormente."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito oficial definitivo: C. A alternativa foi preservada exatamente conforme o caderno e o gabarito definitivo da banca. Fonte: Cebraspe; Prefeitura Municipal de Aracaju/SE — Auditor de Tributos Municipais — Conhecimentos Básicos; 2021; questão 3; caderno: https://cdn.cebraspe.org.br/concursos/pref_aracaju_se_20_auditor/arquivos/552_PREFEITURA_DE_ARACAJU_AUDITOR_CB1_01.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/pref_aracaju_se_20_auditor/arquivos/GAB_DEFINITIVO_552_PREFEITURA_DE_ARACAJU_AUDITOR_CB1_01.PDF."
+    },
+    {
+      "id": "q114",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Texto CB1A1-I\n\nQuais são as consequências dessa pandemia no que diz respeito à reflexão sobre igualdade, interdependência global e nossas obrigações uns com os outros? O vírus não discrimina. Por conta da forma pela qual se move e ataca, ele demonstra que a comunidade humana é igualmente precária. Ao mesmo tempo, contudo, o fracasso por parte de certos Estados ou regiões em se prepararem adequadamente de antemão, o fechamento de fronteiras e a chegada de empreendedores ávidos para capitalizar em cima do sofrimento global, tudo isso atesta a velocidade com a qual a desigualdade radical e a exploração capitalista encontram formas de reproduzir e fortalecer seus poderes no interior das zonas de pandemia. Um cenário que já podemos imaginar é a produção e comercialização de uma vacina eficaz contra a covid-19. Nós certamente veremos os ricos e os plenamente assegurados correrem para garantir acesso a qualquer vacina quando ela se tornar disponível. A desigualdade social e econômica garantirá a discriminação. O vírus por si só não discrimina, mas nós humanos certamente o fazemos, moldados e movidos como somos pelos poderes casados do nacionalismo, do racismo, da xenofobia e do capitalismo. Parece provável que passaremos a ver, no próximo ano, um cenário doloroso no qual algumas criaturas humanas afirmam seu direito de viver ao custo de outras, reinscrevendo a distinção espúria entre vidas passíveis e não passíveis de luto, isto é, entre aqueles que devem ser protegidos contra a morte a qualquer custo e aqueles cujas vidas não valem o bastante para serem salvaguardadas da doença e da morte.\n\nJudith Butler. O capitalismo tem seus limites. Internet: <blogdaboitempo.com.br> (com adaptações).\n\nNo trecho “Parece provável que passaremos a ver, no próximo ano, um cenário doloroso no qual algumas criaturas humanas afirmam seu direito de viver ao custo de outras, reinscrevendo a distinção espúria entre vidas passíveis e não passíveis de luto”, a palavra “espúria” poderia, sem alteração dos sentidos originais do texto, ser substituída por",
+      "options": [
+        {
+          "id": "a",
+          "text": "frágil."
+        },
+        {
+          "id": "b",
+          "text": "difícil."
+        },
+        {
+          "id": "c",
+          "text": "confusa."
+        },
+        {
+          "id": "d",
+          "text": "ilegal."
+        },
+        {
+          "id": "e",
+          "text": "desonesta."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Gabarito oficial definitivo: E. No contexto, “espúria” expressa caráter falso/não legítimo da distinção, e a banca fixou “desonesta” como substituição correta. Fonte: Cebraspe; Prefeitura Municipal de Aracaju/SE — Auditor de Tributos Municipais — Conhecimentos Básicos; 2021; questão 4; caderno: https://cdn.cebraspe.org.br/concursos/pref_aracaju_se_20_auditor/arquivos/552_PREFEITURA_DE_ARACAJU_AUDITOR_CB1_01.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/pref_aracaju_se_20_auditor/arquivos/GAB_DEFINITIVO_552_PREFEITURA_DE_ARACAJU_AUDITOR_CB1_01.PDF."
+    },
+    {
+      "id": "q115",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Texto CB1A1-II\n\nDe um dia para o outro, parecia que a peste se tinha instalado confortavelmente no seu paroxismo e incorporava aos seus assassinatos diários a precisão e a regularidade de um bom funcionário. Em princípio, segundo a opinião de pessoas competentes, era bom sinal. O gráfico da evolução da peste, com sua subida incessante, parecia inteiramente reconfortante ao Dr. Richard. Daqui em diante, só poderia decrescer. E ele atribuía o mérito disso ao novo soro de Gastei, que acabava de obter, com efeito, alguns êxitos imprevistos. As formas pulmonares da infecção, que já se tinham manifestado, multiplicavam-se agora nos quatro cantos da cidade. O contágio tinha agora probabilidade de ser maior, com essa nova forma de epidemia. Na realidade, as opiniões dos especialistas tinham sempre sido contraditórias sobre esse ponto. Havia, no entanto, outros motivos de inquietação em consequência das dificuldades de abastecimento, que cresciam com o tempo. A especulação interviera e oferecia, a preços fabulosos, os gêneros de primeira necessidade que faltavam no mercado habitual. As famílias pobres viam-se, assim, em uma situação muito difícil. A peste, que, pela imparcialidade eficaz com que exercia seu ministério, deveria ter reforçado a igualdade entre nossos concidadãos pelo jogo normal dos egoísmos, tornava, ao contrário, mais acentuado no coração dos homens o sentimento da injustiça. Restava, é bem verdade, a igualdade irrepreensível da morte, mas, esta, ninguém queria. Os pobres que sofriam de fome pensavam, com mais nostalgia ainda, nas cidades e nos campos vizinhos, onde a vida era livre e o pão não era caro. Difundira-se uma divisa que se lia, às vezes, nos muros ou se gritava à passagem do prefeito: “Pão ou ar”. Essa fórmula irônica dava o alarme de certas manifestações logo reprimidas, mas cuja gravidade todos percebiam.\n\nAlbert Camus. A peste. Internet: <www.ihu.unisinos.br> (com adaptações).\n\nNo texto CB1A1-II, o narrador",
+      "options": [
+        {
+          "id": "a",
+          "text": "explica a evolução de uma doença e alerta sobre suas consequências sociais."
+        },
+        {
+          "id": "b",
+          "text": "preocupa-se com a evolução de uma doença e informa sobre suas consequências sociais."
+        },
+        {
+          "id": "c",
+          "text": "descreve os pormenores da evolução de uma doença e critica suas consequências sociais."
+        },
+        {
+          "id": "d",
+          "text": "expõe a evolução de uma doença e reflete sobre suas consequências sociais."
+        },
+        {
+          "id": "e",
+          "text": "ocupa-se das causas para a evolução de uma doença e suas consequências sociais."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito oficial definitivo: D. O narrador expõe o quadro da peste e articula reflexão sobre seus efeitos sociais, especialmente desigualdade, escassez e injustiça. Fonte: Cebraspe; Prefeitura Municipal de Aracaju/SE — Auditor de Tributos Municipais — Conhecimentos Básicos; 2021; questão 6; caderno: https://cdn.cebraspe.org.br/concursos/pref_aracaju_se_20_auditor/arquivos/552_PREFEITURA_DE_ARACAJU_AUDITOR_CB1_01.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/pref_aracaju_se_20_auditor/arquivos/GAB_DEFINITIVO_552_PREFEITURA_DE_ARACAJU_AUDITOR_CB1_01.PDF."
+    },
+    {
+      "id": "q116",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Texto CB1A1-II\n\nDe um dia para o outro, parecia que a peste se tinha instalado confortavelmente no seu paroxismo e incorporava aos seus assassinatos diários a precisão e a regularidade de um bom funcionário. Em princípio, segundo a opinião de pessoas competentes, era bom sinal. O gráfico da evolução da peste, com sua subida incessante, parecia inteiramente reconfortante ao Dr. Richard. Daqui em diante, só poderia decrescer. E ele atribuía o mérito disso ao novo soro de Gastei, que acabava de obter, com efeito, alguns êxitos imprevistos. As formas pulmonares da infecção, que já se tinham manifestado, multiplicavam-se agora nos quatro cantos da cidade. O contágio tinha agora probabilidade de ser maior, com essa nova forma de epidemia. Na realidade, as opiniões dos especialistas tinham sempre sido contraditórias sobre esse ponto. Havia, no entanto, outros motivos de inquietação em consequência das dificuldades de abastecimento, que cresciam com o tempo. A especulação interviera e oferecia, a preços fabulosos, os gêneros de primeira necessidade que faltavam no mercado habitual. As famílias pobres viam-se, assim, em uma situação muito difícil. A peste, que, pela imparcialidade eficaz com que exercia seu ministério, deveria ter reforçado a igualdade entre nossos concidadãos pelo jogo normal dos egoísmos, tornava, ao contrário, mais acentuado no coração dos homens o sentimento da injustiça. Restava, é bem verdade, a igualdade irrepreensível da morte, mas, esta, ninguém queria. Os pobres que sofriam de fome pensavam, com mais nostalgia ainda, nas cidades e nos campos vizinhos, onde a vida era livre e o pão não era caro. Difundira-se uma divisa que se lia, às vezes, nos muros ou se gritava à passagem do prefeito: “Pão ou ar”. Essa fórmula irônica dava o alarme de certas manifestações logo reprimidas, mas cuja gravidade todos percebiam.\n\nAlbert Camus. A peste. Internet: <www.ihu.unisinos.br> (com adaptações).\n\nOs sentidos originais do texto CB1A1-II seriam prejudicados se a expressão “em princípio”, no segundo período do texto, fosse substituída por",
+      "options": [
+        {
+          "id": "a",
+          "text": "antes de qualquer consideração."
+        },
+        {
+          "id": "b",
+          "text": "em tese."
+        },
+        {
+          "id": "c",
+          "text": "na fase inicial."
+        },
+        {
+          "id": "d",
+          "text": "de modo geral."
+        },
+        {
+          "id": "e",
+          "text": "de forma geral."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito oficial definitivo: C. A banca definiu que a substituição por “na fase inicial” prejudica os sentidos originais do trecho; as alternativas foram preservadas sem adaptação. Fonte: Cebraspe; Prefeitura Municipal de Aracaju/SE — Auditor de Tributos Municipais — Conhecimentos Básicos; 2021; questão 7; caderno: https://cdn.cebraspe.org.br/concursos/pref_aracaju_se_20_auditor/arquivos/552_PREFEITURA_DE_ARACAJU_AUDITOR_CB1_01.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/pref_aracaju_se_20_auditor/arquivos/GAB_DEFINITIVO_552_PREFEITURA_DE_ARACAJU_AUDITOR_CB1_01.PDF."
     }
   ]
 }
