@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q5799",
@@ -1801,6 +1801,36 @@
       ],
       "correctOptionId": "C",
       "explanation": "O sistema brasileiro combina jurisdição una com respeito ao espaço legítimo de decisão administrativa."
+    },
+    {
+      "id": "q99252",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Conforme a jurisprudência do STF, no âmbito dos concursos públicos, o Poder Judiciário pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "avaliar as respostas dadas por candidatos em questões."
+        },
+        {
+          "id": "B",
+          "text": "reexaminar o conteúdo das questões e os critérios de correção utilizados."
+        },
+        {
+          "id": "C",
+          "text": "avaliar as notas atribuídas às respostas."
+        },
+        {
+          "id": "D",
+          "text": "substituir a banca examinadora em aspectos constantes do edital."
+        },
+        {
+          "id": "E",
+          "text": "exercer juízo de compatibilidade do conteúdo das questões do concurso com o previsto no respectivo edital."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O Tema 485 do STF veda ao Poder Judiciário substituir a banca examinadora para reexaminar o conteúdo das questões e os critérios de correção, mas admite o controle de legalidade, inclusive o juízo de compatibilidade entre o conteúdo cobrado e o edital. Fonte: questão oficial; Cebraspe; SESDEC/RO — CBM/RO, Cargo 1 — Oficial Bombeiro Militar Combatente; 2022; questão 55; https://cdn.cebraspe.org.br/concursos/cbm_ro_22/arquivos/734_CBM_RO_OFICIAL_001_01.PDF. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/cbm_ro_22/arquivos/GAB_DEFINITIVO_734_CBM_RO_OFICIAL_001_01.PDF."
     }
   ]
 }
