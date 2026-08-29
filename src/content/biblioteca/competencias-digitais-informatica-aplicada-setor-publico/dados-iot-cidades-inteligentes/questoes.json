@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q4719",
@@ -1819,6 +1819,60 @@
       ],
       "correctOptionId": "certo",
       "explanation": "Certo. A IoT cria novas fontes e fluxos de dados, podendo aumentar volume, velocidade e variedade. Fonte: questão oficial; Cebraspe; Polícia Rodoviária Federal — Policial Rodoviário Federal; 2021; item 36; prova https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/578_prf_001_01.pdf; gabarito definitivo https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/GAB_DEFINITIVO_578_PRF_001_01.PDF."
+    },
+    {
+      "id": "q52203401",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Julgue os próximos itens, relativos a dado, informação, conhecimento e inteligência.\n\nÉ possível que grandes dados numéricos ou textuais não sejam estruturados em razão da ineficiência em modelá-los como uma tabela.",
+      "options": [
+        {
+          "id": "certo",
+          "text": "Certo"
+        },
+        {
+          "id": "errado",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "certo",
+      "explanation": "Certo. Dados numéricos ou textuais de grande escala podem não ser modelados eficientemente em tabelas convencionais, permanecendo não estruturados em certos contextos. Fonte: questão oficial; Cebraspe; Tribunal de Contas do Distrito Federal — Auditor de Controle Externo — Área Especializada — Arquivologia; 2024; item 76; prova https://cdn.cebraspe.org.br/concursos/tc_df_24_auditor/arquivos/012_TCDF_AUDITOR_CG1_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/tc_df_24_auditor/arquivos/GAB_DEFINITIVO_012_TCDF_AUDITOR_CG1_01.PDF."
+    },
+    {
+      "id": "q52203402",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A rede que interligou nossos computadores e celulares\nentra em uma nova fase, ainda mais ambiciosa, na qual pretende\nconectar tudo o que existe na Terra. O nome é didático: Internet das\ncoisas. Coisas são carros e semáforos. Coisas são relógios,\ngeladeiras e televisores. Coisas são até informações sobre nosso\nmetabolismo pessoal, medidas à flor da pele. Bem-vindo a uma nova\nera. O ano de 2014 poderá ficar conhecido, na história da\ntecnologia, como o ano zero de uma revolução que começa a ocupar\nas vinte e quatro horas do dia de qualquer indivíduo, em casa, no\ntrabalho, na rua.\n\nVeja. 31/12/2014, p. 162-3 (com adaptações).\n\nTendo o fragmento de texto acima como referência inicial e considerando as múltiplas implicações do tema que ele focaliza, julgue os itens seguintes.\n\nA expressão cidades inteligentes é a denominação recente utilizada para definir centros urbanos que começam a funcionar como complexos laboratórios para experiências de crescente conexão, como a instalação de sensores conectados a semáforos, câmeras de segurança ou equipamentos que medem a poluição do ar.",
+      "options": [
+        {
+          "id": "certo",
+          "text": "Certo"
+        },
+        {
+          "id": "errado",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "certo",
+      "explanation": "Certo. O item associa cidades inteligentes a ambientes urbanos com crescente conectividade e sensoriamento aplicado à infraestrutura e ao monitoramento. Fonte: questão oficial; CESPE/Cebraspe; Fundação Universidade de Brasília — Conhecimentos Básicos/Nível Intermediário — Todos os Cargos (Exceto Cargos 8 e 12); 2015; item 43; prova https://cdn.cebraspe.org.br/concursos/FUB_14_2/arquivos/137FUB15_CBNI3_01.pdf; gabarito oficial definitivo corroborado em cópia secundária https://www.estudegratis.com.br/images/provas/33130-cespe-2015-fub-conhecimentos-basicos-nivel-intermediario-gabarito.pdf."
+    },
+    {
+      "id": "q52203403",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A rede que interligou nossos computadores e celulares\nentra em uma nova fase, ainda mais ambiciosa, na qual pretende\nconectar tudo o que existe na Terra. O nome é didático: Internet das\ncoisas. Coisas são carros e semáforos. Coisas são relógios,\ngeladeiras e televisores. Coisas são até informações sobre nosso\nmetabolismo pessoal, medidas à flor da pele. Bem-vindo a uma nova\nera. O ano de 2014 poderá ficar conhecido, na história da\ntecnologia, como o ano zero de uma revolução que começa a ocupar\nas vinte e quatro horas do dia de qualquer indivíduo, em casa, no\ntrabalho, na rua.\n\nVeja. 31/12/2014, p. 162-3 (com adaptações).\n\nTendo o fragmento de texto acima como referência inicial e considerando as múltiplas implicações do tema que ele focaliza, julgue os itens seguintes.\n\nUma das possibilidades dessa internet a que o texto alude é a de obter informações que se mostrem úteis para guiar com maior precisão as mais diversas políticas públicas.",
+      "options": [
+        {
+          "id": "certo",
+          "text": "Certo"
+        },
+        {
+          "id": "errado",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "certo",
+      "explanation": "Certo. Informações produzidas em contextos de IoT podem apoiar políticas públicas, desde que sejam interpretadas e usadas adequadamente. Fonte: questão oficial; CESPE/Cebraspe; Fundação Universidade de Brasília — Conhecimentos Básicos/Nível Intermediário — Todos os Cargos (Exceto Cargos 8 e 12); 2015; item 44; prova https://cdn.cebraspe.org.br/concursos/FUB_14_2/arquivos/137FUB15_CBNI3_01.pdf; gabarito oficial definitivo corroborado em cópia secundária https://www.estudegratis.com.br/images/provas/33130-cespe-2015-fub-conhecimentos-basicos-nivel-intermediario-gabarito.pdf."
     }
   ]
 }
