@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q334",
@@ -1771,6 +1771,302 @@
       ],
       "correctOptionId": "b",
       "explanation": "Gabarito definitivo: B. Fonte: questão oficial; FGV; Câmara dos Deputados — Analista Legislativo (Contador), Tipo 1 (Cinza); 2023; questão 7; https://conhecimento.fgv.br/sites/default/files/concursos/cns101-analista-legislativo-contadorcns101-tipo-1-manha.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-1-manha.pdf."
+    },
+    {
+      "id": "q393",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Todas as frases a seguir mostram o advérbio NÃO seguido de uma forma verbal; essa expressão não + verbo foi substituída por um só verbo de valor equivalente. Assinale a opção em que essa substituição foi mal realizada.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O jogador não falou diante do árbitro / acovardou-se."
+        },
+        {
+          "id": "b",
+          "text": "Os técnicos não gostam de alguns juízes / detestam."
+        },
+        {
+          "id": "c",
+          "text": "O goleiro não continuou a reclamação / interrompeu."
+        },
+        {
+          "id": "d",
+          "text": "O time não aceitou a marcação da falta / contestou."
+        },
+        {
+          "id": "e",
+          "text": "O zagueiro não seguiu as instruções / desobedeceu."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito definitivo: A. Fonte: questão oficial; FGV; Ministério Público do Estado do Rio de Janeiro — Técnico do Ministério Público - Área Administrativa, Tipo 3 (Amarela); 2025; questão 22; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-ministerio-publico-area-administrativacnm101-tipo-3.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabdef-consolidado-mprj-tecnico.pdf."
+    },
+    {
+      "id": "q394",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A preposição “para” mostra diferentes significados. Assinale a frase em que ela está empregada num significado de “finalidade”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Há três maneiras de se conseguir que algo seja feito: faça você mesmo, contrate alguém para fazê-lo ou proíba seus filhos de fazê-lo..."
+        },
+        {
+          "id": "b",
+          "text": "Há muito no mundo para temer. Há muito mais em nossa fé para nos fazer destemidos."
+        },
+        {
+          "id": "c",
+          "text": "É permissível para cada um de nós morrer pela sua fé, mas não matar pela sua fé."
+        },
+        {
+          "id": "d",
+          "text": "As religiões são caminhos diferentes que convergem para o mesmo ponto."
+        },
+        {
+          "id": "e",
+          "text": "Eu tenho muito respeito por Deus para considerá-lo responsável por esse mundo absurdo."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito definitivo: A. Fonte: questão oficial; FGV; Prefeitura de Caraguatatuba — Médico Reumatologista, Tipo 1 (Branca); 2024; questão 7; https://conhecimento.fgv.br/sites/default/files/concursos/e3nsce336-00-ce-medico-reumatologistae3nsce336-00-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caraguatatuba2024e0302_gabarito_definitivo_20240226.pdf."
+    },
+    {
+      "id": "q395",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A preposição DE, como outras preposições, podem ter valor gramatical, quando exigidas por uma palavra anterior, ou valor semântico, quando expressam algo importante para o texto. Assinale a opção em que a preposição DE é empregada com valor gramatical, exigida por um termo anterior.",
+      "options": [
+        {
+          "id": "a",
+          "text": "As boas ações que praticamos não passam da nossa rua, as más ações que nos atribuem vão de um extremo a outro da nossa cidade."
+        },
+        {
+          "id": "b",
+          "text": "A crença do cliente na integridade de nossos conselhos é o nosso maior patrimônio."
+        },
+        {
+          "id": "c",
+          "text": "Percorra os parques da cidade. Você não encontrará nenhuma estátua de uma mulher."
+        },
+        {
+          "id": "d",
+          "text": "Qualquer idiota é capaz de pintar um quadro. Mas só um gênio o venderá."
+        },
+        {
+          "id": "e",
+          "text": "Fora educar o gosto, o teatro serve apenas para desfantasiar o espírito, nos dias de maior aborrecimento."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito definitivo: D. Fonte: questão oficial; FGV; Prefeitura de Caraguatatuba — Médico Reumatologista, Tipo 1 (Branca); 2024; questão 8; https://conhecimento.fgv.br/sites/default/files/concursos/e3nsce336-00-ce-medico-reumatologistae3nsce336-00-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caraguatatuba2024e0302_gabarito_definitivo_20240226.pdf."
+    },
+    {
+      "id": "q396",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que a preposição com mostra valor corretamente indicado.",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Passou, porém, uma senhora com um menino.” / modo."
+        },
+        {
+          "id": "b",
+          "text": "“As armas com que lutava eram certamente de boa têmpera.” / companhia."
+        },
+        {
+          "id": "c",
+          "text": "“Capitu foi ao muro e, com um prego, disfarçadamente, riscou os nossos nomes escritos.” / meio ou instrumento."
+        },
+        {
+          "id": "d",
+          "text": "“Rubião ofereceu-lhe a casa com insistência.” / finalidade."
+        },
+        {
+          "id": "e",
+          "text": "“Rubião ficou passeando no jardim, com as mãos no bolso do chambre.” / companhia."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito definitivo: C. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado de Mato Grosso do Sul — Analista Judiciário - Área Fim, Tipo 2 (Verde); 2026; questão 2; https://conhecimento.fgv.br/sites/default/files/concursos/analista-judiciario-area-fim-cns101-tipo-2.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjms-analista-e-tecnico.pdf."
+    },
+    {
+      "id": "q397",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção que apresenta a frase em que a preposição entre tem o valor semântico de indicar posição intermediária entre dois pontos.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Havia muito riso, muito parolar de papagaios; pequenos travessavam, tão depressa rindo como chorando; os italianos faziam a ruidosa digestão dos seus jantares de festa; ouviam-se cantigas e pragas entre gargalhadas. (O Cortiço)"
+        },
+        {
+          "id": "b",
+          "text": "E fazendo do resto do seu dinheiro um bolo, que ele, um pouco ébrio, apertava nos dedos, agora, claros e quase descalejados, socou-o na algibeira do lado direito explicando entre dentes que ali ficava ainda bastante para o que desse e viesse, no caso de algum contratempo. (O Cortiço)"
+        },
+        {
+          "id": "c",
+          "text": "— Sei-o eu lá se me morreu?... disse Piedade entre soluços. Vi tanta coisa esta noite!... (O Cortiço)"
+        },
+        {
+          "id": "d",
+          "text": "A mulata então aproximou-se dele, por detrás; segurou-lhe a cabeça entre as mãos e beijou-o na boca, arredando com os lábios a espessura dos bigodes. (O Cortiço)"
+        },
+        {
+          "id": "e",
+          "text": "O Barão e o Botelho apareciam por lá quase todos os dias; examinavam os materiais escolhidos para a construção, batiam com a biqueira do chapéu de sol no pinho-de-riga destinado ao assoalho, e afetando-se bons entendedores, tomavam na palma da mão e esfarelavam entre os dedos um punhado da terra e da cal com que os operários faziam barro. (O Cortiço)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito definitivo: D. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado de Mato Grosso do Sul — Analista Judiciário - Área Fim, Tipo 2 (Verde); 2026; questão 13; https://conhecimento.fgv.br/sites/default/files/concursos/analista-judiciario-area-fim-cns101-tipo-2.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjms-analista-e-tecnico.pdf."
+    },
+    {
+      "id": "q398",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Todas as frases a seguir mostram advérbios com o sufixo – mente. A frase em que a substituição desse advérbio por uma locução inadequada semanticamente, é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Certos vícios são mais enfadonhos do que a própria virtude. Apenas por isso a virtude geralmente triunfa. / em geral."
+        },
+        {
+          "id": "b",
+          "text": "É melhor demonstrar naturalmente um defeito que talvez seja insignificante; se o esconderes, parecerá maior. / de acordo com a natureza."
+        },
+        {
+          "id": "c",
+          "text": "O que normalmente se chama de amor é de fato o desejo de satisfazer apetites. / dentro da normalidade."
+        },
+        {
+          "id": "d",
+          "text": "A ira nunca deixa de ter uma razão, mas raramente tem uma boa. / com raridade."
+        },
+        {
+          "id": "e",
+          "text": "É impossível gozar totalmente o ódio, a menos que se tenha muito trabalho a fazer. / na totalidade."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito definitivo: B. Fonte: questão oficial; FGV; Agência Reguladora Intermunicipal de Saneamento do Rio Grande do Sul (AGESAN-RS) — Agente de Controle Financeiro - Contábil, Tipo 1 (Branca); 2025; questão 10; https://conhecimento.fgv.br/sites/default/files/concursos/agente-de-controle-financeiro-contabilcnm001-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/agesan-rs-2025-gabaritos-para-publicacao-002.pdf."
+    },
+    {
+      "id": "q399",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que houve confusão entre sob / sobre.",
+      "options": [
+        {
+          "id": "a",
+          "text": "“O verso é uma vitória sobre os limites da linguagem” (Carlos D. de Andrade)."
+        },
+        {
+          "id": "b",
+          "text": "“A interpretação é a vingança do intelecto sobre a arte” (Susan Sontag)."
+        },
+        {
+          "id": "c",
+          "text": "“A coisa infeliz sobre esse mundo é que os bons hábitos são muito mais fáceis de desistir do que os maus” (Somerset Maugham)."
+        },
+        {
+          "id": "d",
+          "text": "“É necessário que saibamos tolerar-nos mutuamente sobre pena de vivermos em um tormento continuado de resistência, oposição e contradição entre uns e outros” (Marquês de Maricá)."
+        },
+        {
+          "id": "e",
+          "text": "“Os anos rodando sobre nós deixam nas rugas do nosso rosto os estigmas da sua ação e da velhice” (Marquês de Maricá)."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito definitivo: D. Fonte: questão oficial; FGV; Secretaria de Estado da Administração do Amapá (Peritos) — Auxiliar Técnico Pericial (Técnico em Agrimensura), Tipo 1 (Branca); 2022; questão 6; https://conhecimento.fgv.br/sites/default/files/concursos/auxiliar_tecnico_pericial_tecnico_em_agrimensuracnmt009_tipo_1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/seadapperitos2022_gabarito_definitivo_2023-03-10.pdf."
+    },
+    {
+      "id": "q400",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A preposição por apresenta diferentes valores semânticos. Assinale a frase em que o valor semântico dessa preposição está corretamente indicado.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Daria todas as minhas posses por uma fração de tempo. / em troca de."
+        },
+        {
+          "id": "b",
+          "text": "A História é escrita por pessoas imparciais. / em nome de."
+        },
+        {
+          "id": "c",
+          "text": "Deixe que os outros elogiem os tempos antigos; estou muito feliz por ter nascido agora. / condição."
+        },
+        {
+          "id": "d",
+          "text": "O show foi cancelado quando por umas cinquenta pessoas já estavam no estádio. / em relação a."
+        },
+        {
+          "id": "e",
+          "text": "A realização do comício está por uma autorização do secretário municipal. / ao lado de."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito definitivo: A. Fonte: questão oficial; FGV; Prefeitura Municipal de Niterói — Auditor Municipal de Controle Interno (CGM) - Ciências Contábeis, Tipo 1 (Branca); 2024; questão 12; https://conhecimento.fgv.br/sites/default/files/concursos/cns104-appgg-ciencias-contabeis-t01.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_seplag_niteroi_sadklasnnca1.pdf."
+    },
+    {
+      "id": "q401",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que a preposição para tem valor semântico diferente do das demais frases.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eu gosto do trabalho. Ele me fascina. Posso sentar e olhar para ele por horas."
+        },
+        {
+          "id": "b",
+          "text": "Os turistas caminharam para a catedral da cidade, famosa por suas pinturas."
+        },
+        {
+          "id": "c",
+          "text": "Para o ministro, a luta contra as injustiças sociais deve ser o principal do programa presidencial."
+        },
+        {
+          "id": "d",
+          "text": "A solução para resolver os problemas da pesquisa era ir para a biblioteca."
+        },
+        {
+          "id": "e",
+          "text": "Um casal deve caminhar sempre para a mesma meta."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito definitivo: C. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado do Maranhão (ALEMA) — Consultor Legislativo Especial - Direito Constitucional, Tipo 2 (Verde); 2023; questão 12; https://conhecimento.fgv.br/sites/default/files/concursos/cns101-consultor-legislativo-especial-direito-constitucionalcns101-tipo-2.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf."
+    },
+    {
+      "id": "q402",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O adjetivo pode ser substituído por algumas outras palavras ou estruturas de valor equivalente. Assinale a frase em que a adjetivação é realizada por meio de uma preposição mais um advérbio.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Os bois ouviam de longe o grito dos boiadeiros."
+        },
+        {
+          "id": "b",
+          "text": "Todos os viajantes vinham de perto."
+        },
+        {
+          "id": "c",
+          "text": "As meninas se posicionaram de lado na carroça."
+        },
+        {
+          "id": "d",
+          "text": "As rodas de trás estavam com os pneus vazios."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito definitivo: D. Fonte: questão oficial; FGV; SEPLAG / Secretaria de Estado de Educação de Minas Gerais — Professor de Educação Básica (PEB) - Matemática, Tipo 1 (Cinza); 2023; questão 2; https://conhecimento.fgv.br/sites/default/files/concursos/cns111-professor-de-educacao-basica-peb-matematicacns111-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/seplag-mg-gabarito-definitivo-22.10_451668415486461.pdf."
     }
   ]
 }
