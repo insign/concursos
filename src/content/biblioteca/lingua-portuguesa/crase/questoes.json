@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q3519",
@@ -2131,6 +2131,141 @@
       ],
       "correctOptionId": "A",
       "explanation": "A alternativa A apresenta emprego correto do acento grave em “à sua conta”; as demais colocam crase diante de pronome indefinido, possessivo masculino, “todo” masculino ou infinitivo. Questão original da FGV, ALEGO — Analista Legislativo – Analista Administrativo, Tipo 1 (Branca), 2026, questão 7. Gabarito definitivo: A. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-analista-administrativo-cns201-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-go.pdf."
+    },
+    {
+      "id": "q3661",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase, retirada do romance Memorial de Aires, de Machado de Assis, em que o emprego do acento grave indicativo da crase antes dos demonstrativos aquele, aquela, aqueles, aquelas, aquilo está equivocado.",
+      "options": [
+        {"id": "A", "text": "Quis perguntar-lhe se nos mares que percorreu viu algum peixe semelhante àquele que anda agora em volta dela, mas não há intimidade para tanto, e a cortesia opunha-se."},
+        {"id": "B", "text": "— Não disse isto a ninguém, conselheiro, nem à madrinha nem ao padrinho. Se lho faço aqui é que não ouso fazê-lo àqueles dois, e não tenho terceira pessoa a quem o diga."},
+        {"id": "C", "text": "A cara dele tinha a expressão de prazer que dá o serviço inesperado; àquele gosto de descobrir papéis que podem ser importantes fazia-o risonho, olhos escancarados, quase comovido."},
+        {"id": "D", "text": "Era nomeada nas gazetas, pertencia àquela dúzia de nomes planetários que figuram no meio da plebe de estrelas. O marido era capitalista e diretor de um banco."},
+        {"id": "E", "text": "Era também um modo de fazer cessar a conversação, estando a casa próxima. Não contava com o pai de Flora, que à fina força lhe quis mostrar, àquela hora, uma novidade, aliás uma velharia, um documento de valor diplomático."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Questão original da FGV, DNIT — Analista em Infraestrutura de Transportes – Engenharia Civil, Tipo 1 (Branca), 2024, questão 5. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-infraestrutura-de-transportes-engenharia-civilcns200-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/dnit2024_gabarito_definitivo_20240312.pdf."
+    },
+    {
+      "id": "q3662",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Entre as opções a seguir, assinale aquela que mostra o acento grave indicativo da crase num contexto em que seu uso é optativo.",
+      "options": [
+        {"id": "A", "text": "Quanto mais felizes somos, menos atenção prestamos à nossa felicidade."},
+        {"id": "B", "text": "De todos os caminhos que conduzem à riqueza, os mais seguros são a perseverança e o trabalho."},
+        {"id": "C", "text": "Se achares três mil-réis, leva-os à polícia; se achares três contos leva-os a um banco."},
+        {"id": "D", "text": "Derrote o medo da morte e dê boas-vindas à morte do medo."},
+        {"id": "E", "text": "Tudo o que vem da terra volta à terra e o que vem das águas volta ao mar."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Questão original da FGV, TCE-GO — Analista de Controle Externo – Ciências Contábeis, Tipo 1, 2024, questão 9. Gabarito definitivo: A. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-controle-externo-ciencias-contabeiscns101-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tce-go.pdf."
+    },
+    {
+      "id": "q3663",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que o emprego do acento grave indicativo da crase está correto.",
+      "options": [
+        {"id": "A", "text": "Meu objetivo principal na vida é fazer às pessoas felizes."},
+        {"id": "B", "text": "Encontre a paz e à preencha."},
+        {"id": "C", "text": "Fique atento à tartaruga: ela sai do casco."},
+        {"id": "D", "text": "Agora sei à metade do que já soube."},
+        {"id": "E", "text": "Eu cheguei à iludir a velhice, mas parei."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Questão original da FGV, Polícia Militar do Estado de São Paulo — Soldado PM de 2ª Classe, Tipo 1 (Branca), 2025, questão 10. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/soldado-pm-de-2a-classe-cnm001-tipo-1_0.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/doeco-04.321.25-gabarito-definitivo-ed.3.321.24.pdf."
+    },
+    {
+      "id": "q3664",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção que apresenta a frase em que o acento grave indicativo da crase está mal-empregado.",
+      "options": [
+        {"id": "A", "text": "A mulher chega à maturidade quando seus sapatos começam a incomodá-la mais do que os homens."},
+        {"id": "B", "text": "Nunca se deixe fascinar pelo extraordinário à ponto de esquecer o corriqueiro."},
+        {"id": "C", "text": "Olhe à frente, para que a vista preceda os passos."},
+        {"id": "D", "text": "Para levar uma alma à ação é preciso balançar o seu equilíbrio."},
+        {"id": "E", "text": "Não há como conviver com as restrições impostas às mulheres."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Questão original da FGV, Prefeitura de Caraguatatuba — PEB II – Língua Portuguesa, Tipo 1 (Branca), 2024, questão 56. Gabarito definitivo: B. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/cns349e3-peb-ii-lingua-portuguesacns349e3-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caraguatatuba2024e0302_gabarito_definitivo_20240226.pdf."
+    },
+    {
+      "id": "q3665",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Entre as frases abaixo, assinale aquela que mostra o acento grave indicativo da crase de forma correta.",
+      "options": [
+        {"id": "A", "text": "Não leve a vida tão à sério. Você não conseguirá sair dela com vida."},
+        {"id": "B", "text": "Ninguém é obrigado à fazer mais do que pode."},
+        {"id": "C", "text": "O que é verdade à luz de uma lâmpada não é sempre verdade sob o sol."},
+        {"id": "D", "text": "Deus deu à cada povo um profeta em sua própria língua."},
+        {"id": "E", "text": "O diabo é um otimista se pensa que pode fazer às pessoas piores do que são."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Questão original da FGV, Secretaria de Estado da Educação, do Esporte e do Lazer do Rio Grande do Norte — Professor de Língua Portuguesa, Tipo 1, 2025, questão 55. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-lingua-portuguesacns112-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_seadrn_v3.pdf."
+    },
+    {
+      "id": "q3666",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que a utilização do acento grave indicativo da crase é realizada de forma errada.",
+      "options": [
+        {"id": "A", "text": "Jamais alguém se arrependeu de ter-se acostumado à madrugar e à ter-se casado jovem."},
+        {"id": "B", "text": "Tempo é o suspiro de adeus do sol à terra."},
+        {"id": "C", "text": "Saio todos os dias às cinco horas e não permito que o meu trabalho interfira no meu jogo de tênis."},
+        {"id": "D", "text": "O momento de extrair uma lição da história está sempre à mão para os sábios."},
+        {"id": "E", "text": "Quando assumi, quatro anos atrás, estávamos à beira do precipício."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Questão original da FGV, Assembleia Legislativa do Tocantins — Analista Legislativo – Auditoria e Controle Interno, Tipo 1 (Branca), 2024, questão 7. Gabarito definitivo: A. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-auditoria-e-controle-internocns105-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-policial-legislativo-ii-tecnico-legislativo-e-analista-legislativo_dsa1c.pdf."
+    },
+    {
+      "id": "q3667",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que o emprego do acento grave indicativo da crase é optativo.",
+      "options": [
+        {"id": "A", "text": "Trabalhar às claras."},
+        {"id": "B", "text": "Comi frango à passarinho."},
+        {"id": "C", "text": "Dei um prêmio à Margarida."},
+        {"id": "D", "text": "Cansava-se à proporção que caminhava."},
+        {"id": "E", "text": "Respondi às perguntas do juiz."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Questão original da FGV, Assembleia Legislativa do Estado do Maranhão — Técnico de Gestão Administrativa – Revisor, Tipo 1 (Branca), 2013, questão 47. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_tecnico_de_gestao_administrativa_-_revisao_de_textos_-_tipo_01.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_tecnico_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q3668",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção que indica a frase em que o emprego do acento grave indicativo da crase é optativo.",
+      "options": [
+        {"id": "A", "text": "“O estoque de militares que fizeram a Revolução de 64 está acabando por força da biologia. Por isso, o governo vai manter os sobreviventes até à idade de Matusalém”."},
+        {"id": "B", "text": "“Os condenados à morte são contagiosos”."},
+        {"id": "C", "text": "“Se Deus realmente ajuda a quem cedo madruga, ninguém seria fuzilado, eletrocutado ou enforcado às cinco da manhã”."},
+        {"id": "D", "text": "“Copiar a si mesmo é mais perigoso que copiar os outros. Leva à esterilidade”."},
+        {"id": "E", "text": "“Nunca atribua à malícia o que pode ser explicado adequadamente pela estupidez”."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Questão original da FGV, Prefeitura de Paulínia — Professor III – Português, Tipo 1, 2016, questão 51. Gabarito definitivo retificado: A. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/prefeitura_paulinia2016/201602_Professor_III_%28Portugues%29_%28NS01007%29_Tipo_1.pdf. Gabarito definitivo retificado: https://conhecimento.fgv.br/sites/default/files/concursos/prefeitura_paulinia2016/paulinia_gabarito_definitivo_RETIFICADO_28_06_16.pdf."
+    },
+    {
+      "id": "q3669",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que a utilização do acento grave indicativo da crase é realizada de forma errada.",
+      "options": [
+        {"id": "A", "text": "Pensa de manhã. Age ao meio-dia. Come à tarde. Dorme à noite."},
+        {"id": "B", "text": "Se você de fato leva à sério a preparação de seu filho para o futuro, não lhe ensine a subtrair – ensine a deduzir."},
+        {"id": "C", "text": "A perspicácia de um momento às vezes vale a experiência de uma vida."},
+        {"id": "D", "text": "O tempo presente é semelhante à massa de argila; o tempo passado, ao pó; e o tempo futuro ao cântaro."},
+        {"id": "E", "text": "O passado e o futuro nada são se comparados à severidade do hoje."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Questão original da FGV, Câmara Municipal de São Paulo — Técnico Legislativo – sem especialidade, Tipo 3, 2024, questão 17. Gabarito definitivo: B. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/cnm101-tecnico-legislativo-sem-especialidadecnm101-tipo-3.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camarasp2024_definitivo_20240206.pdf."
     }
   ]
 }
