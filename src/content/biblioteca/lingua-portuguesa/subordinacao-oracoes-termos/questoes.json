@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q3279",
@@ -8,26 +8,11 @@
       "origin": "authorial",
       "prompt": "O critério mais seguro para reconhecer subordinação é verificar se uma unidade",
       "options": [
-        {
-          "id": "A",
-          "text": "exerce função sintática ou modifica outra unidade hierarquicamente superior."
-        },
-        {
-          "id": "B",
-          "text": "pode ser pronunciada com pausa longa."
-        },
-        {
-          "id": "C",
-          "text": "contém mais palavras que a oração matriz."
-        },
-        {
-          "id": "D",
-          "text": "apresenta sentido completo quando isolada."
-        },
-        {
-          "id": "E",
-          "text": "é sempre introduzida por conjunção explícita."
-        }
+        { "id": "A", "text": "exerce função sintática ou modifica outra unidade hierarquicamente superior." },
+        { "id": "B", "text": "pode ser pronunciada com pausa longa." },
+        { "id": "C", "text": "contém mais palavras que a oração matriz." },
+        { "id": "D", "text": "apresenta sentido completo quando isolada." },
+        { "id": "E", "text": "é sempre introduzida por conjunção explícita." }
       ],
       "correctOptionId": "A",
       "explanation": "A subordinação é relação hierárquica: a unidade dependente integra ou modifica outra; extensão e autonomia semântica aparente não a definem. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -38,26 +23,11 @@
       "origin": "authorial",
       "prompt": "Em 'medidas claras e objetivas', os adjetivos são",
       "options": [
-        {
-          "id": "A",
-          "text": "subordinados um ao outro em sequência causal."
-        },
-        {
-          "id": "B",
-          "text": "coordenados entre si e subordinados ao núcleo 'medidas'."
-        },
-        {
-          "id": "C",
-          "text": "núcleos de duas orações reduzidas."
-        },
-        {
-          "id": "D",
-          "text": "complementos verbais coordenados."
-        },
-        {
-          "id": "E",
-          "text": "predicativos do sujeito, sem relação de dependência com 'medidas'."
-        }
+        { "id": "A", "text": "subordinados um ao outro em sequência causal." },
+        { "id": "B", "text": "coordenados entre si e subordinados ao núcleo 'medidas'." },
+        { "id": "C", "text": "núcleos de duas orações reduzidas." },
+        { "id": "D", "text": "complementos verbais coordenados." },
+        { "id": "E", "text": "predicativos do sujeito, sem relação de dependência com 'medidas'." }
       ],
       "correctOptionId": "B",
       "explanation": "Claras e objetivas exercem a mesma função, por isso se coordenam; ambos modificam o substantivo medidas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -68,26 +38,11 @@
       "origin": "authorial",
       "prompt": "A presença de preposição em um termo ligado a nome",
       "options": [
-        {
-          "id": "A",
-          "text": "prova que se trata de adjunto adnominal."
-        },
-        {
-          "id": "B",
-          "text": "prova que se trata de complemento nominal."
-        },
-        {
-          "id": "C",
-          "text": "não basta para classificá-lo; seleção, função e sentido devem ser analisados."
-        },
-        {
-          "id": "D",
-          "text": "transforma o nome em verbo transitivo."
-        },
-        {
-          "id": "E",
-          "text": "determina complemento nominal sempre que o núcleo for abstrato."
-        }
+        { "id": "A", "text": "prova que se trata de adjunto adnominal." },
+        { "id": "B", "text": "prova que se trata de complemento nominal." },
+        { "id": "C", "text": "não basta para classificá-lo; seleção, função e sentido devem ser analisados." },
+        { "id": "D", "text": "transforma o nome em verbo transitivo." },
+        { "id": "E", "text": "determina complemento nominal sempre que o núcleo for abstrato." }
       ],
       "correctOptionId": "C",
       "explanation": "Complementos e modificadores podem ser preposicionados; o núcleo regente e o papel semântico distinguem as relações. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -98,26 +53,11 @@
       "origin": "authorial",
       "prompt": "Em 'favorável ao recurso', o segmento destacado relaciona-se diretamente",
       "options": [
-        {
-          "id": "A",
-          "text": "ao verbo elíptico 'favorecer'."
-        },
-        {
-          "id": "B",
-          "text": "a uma oração coordenada anterior."
-        },
-        {
-          "id": "C",
-          "text": "ao substantivo oculto 'favor'."
-        },
-        {
-          "id": "D",
-          "text": "ao adjetivo 'favorável', que funciona como regente nominal."
-        },
-        {
-          "id": "E",
-          "text": "ao substantivo 'recurso', que funciona como núcleo regente."
-        }
+        { "id": "A", "text": "ao verbo elíptico 'favorecer'." },
+        { "id": "B", "text": "a uma oração coordenada anterior." },
+        { "id": "C", "text": "ao substantivo oculto 'favor'." },
+        { "id": "D", "text": "ao adjetivo 'favorável', que funciona como regente nominal." },
+        { "id": "E", "text": "ao substantivo 'recurso', que funciona como núcleo regente." }
       ],
       "correctOptionId": "D",
       "explanation": "O complemento preposicionado completa o sentido do adjetivo favorável. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -128,26 +68,11 @@
       "origin": "authorial",
       "prompt": "Coordenação e subordinação podem coexistir porque",
       "options": [
-        {
-          "id": "A",
-          "text": "toda oração subordinada contém conjunção coordenativa."
-        },
-        {
-          "id": "B",
-          "text": "a pontuação elimina a hierarquia sintática."
-        },
-        {
-          "id": "C",
-          "text": "unidades coordenadas entre si podem, como conjunto, depender de outro núcleo."
-        },
-        {
-          "id": "D",
-          "text": "orações coordenadas exercem sempre função de objeto."
-        },
-        {
-          "id": "E",
-          "text": "a mesma relação sintática pode ser simultaneamente coordenativa e subordinativa entre os mesmos dois termos."
-        }
+        { "id": "A", "text": "toda oração subordinada contém conjunção coordenativa." },
+        { "id": "B", "text": "a pontuação elimina a hierarquia sintática." },
+        { "id": "C", "text": "unidades coordenadas entre si podem, como conjunto, depender de outro núcleo." },
+        { "id": "D", "text": "orações coordenadas exercem sempre função de objeto." },
+        { "id": "E", "text": "a mesma relação sintática pode ser simultaneamente coordenativa e subordinativa entre os mesmos dois termos." }
       ],
       "correctOptionId": "C",
       "explanation": "A relação interna entre membros pode ser coordenativa enquanto o bloco inteiro exerce função subordinada numa estrutura maior. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -158,26 +83,11 @@
       "origin": "authorial",
       "prompt": "A substituição de uma oração por 'isso' é especialmente útil como pista para reconhecer",
       "options": [
-        {
-          "id": "A",
-          "text": "oração subordinada substantiva."
-        },
-        {
-          "id": "B",
-          "text": "oração coordenada adversativa."
-        },
-        {
-          "id": "C",
-          "text": "oração subordinada adverbial temporal."
-        },
-        {
-          "id": "D",
-          "text": "oração intercalada."
-        },
-        {
-          "id": "E",
-          "text": "oração subordinada adjetiva restritiva."
-        }
+        { "id": "A", "text": "oração subordinada substantiva." },
+        { "id": "B", "text": "oração coordenada adversativa." },
+        { "id": "C", "text": "oração subordinada adverbial temporal." },
+        { "id": "D", "text": "oração intercalada." },
+        { "id": "E", "text": "oração subordinada adjetiva restritiva." }
       ],
       "correctOptionId": "A",
       "explanation": "Substantivas ocupam posições típicas de sintagmas nominais; a substituição por isso é um teste inicial, não uma prova isolada. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -188,26 +98,11 @@
       "origin": "authorial",
       "prompt": "Em 'Convém que os dados sejam revistos', a oração iniciada por 'que' é",
       "options": [
-        {
-          "id": "A",
-          "text": "objetiva direta."
-        },
-        {
-          "id": "B",
-          "text": "predicativa."
-        },
-        {
-          "id": "C",
-          "text": "apositiva."
-        },
-        {
-          "id": "D",
-          "text": "subjetiva."
-        },
-        {
-          "id": "E",
-          "text": "adverbial causal."
-        }
+        { "id": "A", "text": "objetiva direta." },
+        { "id": "B", "text": "predicativa." },
+        { "id": "C", "text": "apositiva." },
+        { "id": "D", "text": "subjetiva." },
+        { "id": "E", "text": "adverbial causal." }
       ],
       "correctOptionId": "D",
       "explanation": "Aquilo que convém é que os dados sejam revistos; a oração exerce função de sujeito de convém. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -218,26 +113,11 @@
       "origin": "authorial",
       "prompt": "Em 'O órgão informou que o prazo terminou', a subordinada funciona como",
       "options": [
-        {
-          "id": "A",
-          "text": "complemento nominal de 'órgão'."
-        },
-        {
-          "id": "B",
-          "text": "objeto direto de 'informou'."
-        },
-        {
-          "id": "C",
-          "text": "sujeito de 'terminou'."
-        },
-        {
-          "id": "D",
-          "text": "adjunto adverbial de tempo."
-        },
-        {
-          "id": "E",
-          "text": "predicativo do sujeito 'órgão'."
-        }
+        { "id": "A", "text": "complemento nominal de 'órgão'." },
+        { "id": "B", "text": "objeto direto de 'informou'." },
+        { "id": "C", "text": "sujeito de 'terminou'." },
+        { "id": "D", "text": "adjunto adverbial de tempo." },
+        { "id": "E", "text": "predicativo do sujeito 'órgão'." }
       ],
       "correctOptionId": "B",
       "explanation": "A oração completa diretamente o verbo informou: o órgão informou isso. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -248,26 +128,11 @@
       "origin": "authorial",
       "prompt": "A oração destacada em 'O relator duvida de que o dado seja suficiente' classifica-se como",
       "options": [
-        {
-          "id": "A",
-          "text": "objetiva indireta, pois completa verbo com preposição exigida."
-        },
-        {
-          "id": "B",
-          "text": "completiva nominal, pois completa o nome 'dado'."
-        },
-        {
-          "id": "C",
-          "text": "adverbial causal, pois explica a dúvida."
-        },
-        {
-          "id": "D",
-          "text": "adjetiva restritiva, pois delimita o dado."
-        },
-        {
-          "id": "E",
-          "text": "subjetiva, pois funciona como sujeito do verbo 'duvida'."
-        }
+        { "id": "A", "text": "objetiva indireta, pois completa verbo com preposição exigida." },
+        { "id": "B", "text": "completiva nominal, pois completa o nome 'dado'." },
+        { "id": "C", "text": "adverbial causal, pois explica a dúvida." },
+        { "id": "D", "text": "adjetiva restritiva, pois delimita o dado." },
+        { "id": "E", "text": "subjetiva, pois funciona como sujeito do verbo 'duvida'." }
       ],
       "correctOptionId": "A",
       "explanation": "O regente é o verbo duvidar, que seleciona complemento introduzido por de. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -278,26 +143,11 @@
       "origin": "authorial",
       "prompt": "Em 'Havia esperança de que o recurso fosse aceito', a oração completa",
       "options": [
-        {
-          "id": "A",
-          "text": "o verbo 'havia' como objeto indireto."
-        },
-        {
-          "id": "B",
-          "text": "o substantivo 'recurso' como adjetiva."
-        },
-        {
-          "id": "C",
-          "text": "o nome 'esperança' e é completiva nominal."
-        },
-        {
-          "id": "D",
-          "text": "o adjetivo 'aceito' e é consecutiva."
-        },
-        {
-          "id": "E",
-          "text": "o nome 'esperança' e é oração adjetiva explicativa."
-        }
+        { "id": "A", "text": "o verbo 'havia' como objeto indireto." },
+        { "id": "B", "text": "o substantivo 'recurso' como adjetiva." },
+        { "id": "C", "text": "o nome 'esperança' e é completiva nominal." },
+        { "id": "D", "text": "o adjetivo 'aceito' e é consecutiva." },
+        { "id": "E", "text": "o nome 'esperança' e é oração adjetiva explicativa." }
       ],
       "correctOptionId": "C",
       "explanation": "A preposição liga a oração ao nome abstrato esperança, cujo sentido ela completa. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -308,26 +158,11 @@
       "origin": "authorial",
       "prompt": "A subordinada de 'A verdade é que o prazo expirou' exerce função de",
       "options": [
-        {
-          "id": "A",
-          "text": "objeto direto."
-        },
-        {
-          "id": "B",
-          "text": "predicativo do sujeito."
-        },
-        {
-          "id": "C",
-          "text": "aposto explicativo."
-        },
-        {
-          "id": "D",
-          "text": "adjunto adnominal."
-        },
-        {
-          "id": "E",
-          "text": "complemento nominal de 'verdade'."
-        }
+        { "id": "A", "text": "objeto direto." },
+        { "id": "B", "text": "predicativo do sujeito." },
+        { "id": "C", "text": "aposto explicativo." },
+        { "id": "D", "text": "adjunto adnominal." },
+        { "id": "E", "text": "complemento nominal de 'verdade'." }
       ],
       "correctOptionId": "B",
       "explanation": "A oração atribui conteúdo ao sujeito a verdade por meio do verbo de ligação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -338,26 +173,11 @@
       "origin": "authorial",
       "prompt": "Em 'Só havia uma exigência: que todos assinassem', os dois-pontos introduzem oração",
       "options": [
-        {
-          "id": "A",
-          "text": "adverbial final."
-        },
-        {
-          "id": "B",
-          "text": "objetiva direta."
-        },
-        {
-          "id": "C",
-          "text": "adjetiva explicativa."
-        },
-        {
-          "id": "D",
-          "text": "substantiva apositiva."
-        },
-        {
-          "id": "E",
-          "text": "objetiva indireta de 'havia'."
-        }
+        { "id": "A", "text": "adverbial final." },
+        { "id": "B", "text": "objetiva direta." },
+        { "id": "C", "text": "adjetiva explicativa." },
+        { "id": "D", "text": "substantiva apositiva." },
+        { "id": "E", "text": "objetiva indireta de 'havia'." }
       ],
       "correctOptionId": "D",
       "explanation": "A oração especifica o conteúdo do termo genérico uma exigência e funciona como aposto. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -368,26 +188,11 @@
       "origin": "authorial",
       "prompt": "O que distingue, em regra, objetiva indireta de completiva nominal?",
       "options": [
-        {
-          "id": "A",
-          "text": "A primeira completa verbo; a segunda completa nome, adjetivo ou advérbio."
-        },
-        {
-          "id": "B",
-          "text": "Somente a primeira pode apresentar preposição."
-        },
-        {
-          "id": "C",
-          "text": "Somente a segunda pode ser substituída por 'isso'."
-        },
-        {
-          "id": "D",
-          "text": "A primeira é sempre reduzida; a segunda, desenvolvida."
-        },
-        {
-          "id": "E",
-          "text": "A primeira exige conjunção integrante; a segunda exige pronome relativo."
-        }
+        { "id": "A", "text": "A primeira completa verbo; a segunda completa nome, adjetivo ou advérbio." },
+        { "id": "B", "text": "Somente a primeira pode apresentar preposição." },
+        { "id": "C", "text": "Somente a segunda pode ser substituída por 'isso'." },
+        { "id": "D", "text": "A primeira é sempre reduzida; a segunda, desenvolvida." },
+        { "id": "E", "text": "A primeira exige conjunção integrante; a segunda exige pronome relativo." }
       ],
       "correctOptionId": "A",
       "explanation": "A identificação do regente, verbal ou nominal, separa as duas funções; ambas podem ser preposicionadas e substantivas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -398,26 +203,11 @@
       "origin": "authorial",
       "prompt": "Na frase 'O parecer afirma que os dados são válidos', o vocábulo 'que'",
       "options": [
-        {
-          "id": "A",
-          "text": "retoma 'parecer' e funciona como sujeito."
-        },
-        {
-          "id": "B",
-          "text": "retoma 'dados' e funciona como objeto."
-        },
-        {
-          "id": "C",
-          "text": "exprime consequência correlativa."
-        },
-        {
-          "id": "D",
-          "text": "é conjunção integrante, sem função sintática interna na subordinada."
-        },
-        {
-          "id": "E",
-          "text": "é advérbio de intensidade ligado a 'válidos'."
-        }
+        { "id": "A", "text": "retoma 'parecer' e funciona como sujeito." },
+        { "id": "B", "text": "retoma 'dados' e funciona como objeto." },
+        { "id": "C", "text": "exprime consequência correlativa." },
+        { "id": "D", "text": "é conjunção integrante, sem função sintática interna na subordinada." },
+        { "id": "E", "text": "é advérbio de intensidade ligado a 'válidos'." }
       ],
       "correctOptionId": "D",
       "explanation": "O que apenas introduz o conteúdo afirmado; não possui antecedente nem substitui termo dentro da oração. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -428,26 +218,11 @@
       "origin": "authorial",
       "prompt": "Em 'O parecer que foi publicado contém ressalvas', o 'que' é",
       "options": [
-        {
-          "id": "A",
-          "text": "conjunção integrante de objetiva direta."
-        },
-        {
-          "id": "B",
-          "text": "conjunção causal equivalente a 'porque'."
-        },
-        {
-          "id": "C",
-          "text": "pronome relativo que retoma 'parecer' e funciona como sujeito de 'foi publicado'."
-        },
-        {
-          "id": "D",
-          "text": "partícula expletiva sem antecedente."
-        },
-        {
-          "id": "E",
-          "text": "advérbio relativo de lugar."
-        }
+        { "id": "A", "text": "conjunção integrante de objetiva direta." },
+        { "id": "B", "text": "conjunção causal equivalente a 'porque'." },
+        { "id": "C", "text": "pronome relativo que retoma 'parecer' e funciona como sujeito de 'foi publicado'." },
+        { "id": "D", "text": "partícula expletiva sem antecedente." },
+        { "id": "E", "text": "advérbio relativo de lugar." }
       ],
       "correctOptionId": "C",
       "explanation": "A reconstrução 'o parecer foi publicado' mostra o antecedente e a função de sujeito do relativo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -458,26 +233,11 @@
       "origin": "authorial",
       "prompt": "Em 'Não sei se haverá recurso', o 'se' introduz",
       "options": [
-        {
-          "id": "A",
-          "text": "condição para o ato de saber."
-        },
-        {
-          "id": "B",
-          "text": "pergunta indireta total e funciona como conjunção integrante."
-        },
-        {
-          "id": "C",
-          "text": "oração adjetiva sem antecedente."
-        },
-        {
-          "id": "D",
-          "text": "voz passiva sintética."
-        },
-        {
-          "id": "E",
-          "text": "pronome reflexivo ligado ao verbo 'sei'."
-        }
+        { "id": "A", "text": "condição para o ato de saber." },
+        { "id": "B", "text": "pergunta indireta total e funciona como conjunção integrante." },
+        { "id": "C", "text": "oração adjetiva sem antecedente." },
+        { "id": "D", "text": "voz passiva sintética." },
+        { "id": "E", "text": "pronome reflexivo ligado ao verbo 'sei'." }
       ],
       "correctOptionId": "B",
       "explanation": "A oração completa não sei e apresenta a alternativa implícita haverá ou não haverá recurso. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -488,26 +248,11 @@
       "origin": "authorial",
       "prompt": "Em 'Se houver recurso, o prazo será reaberto', o segmento inicial estabelece",
       "options": [
-        {
-          "id": "A",
-          "text": "conteúdo substantivo do verbo 'haver'."
-        },
-        {
-          "id": "B",
-          "text": "causa já realizada."
-        },
-        {
-          "id": "C",
-          "text": "concessão à reabertura."
-        },
-        {
-          "id": "D",
-          "text": "condição para a reabertura do prazo."
-        },
-        {
-          "id": "E",
-          "text": "pergunta indireta total sobre a existência de recurso."
-        }
+        { "id": "A", "text": "conteúdo substantivo do verbo 'haver'." },
+        { "id": "B", "text": "causa já realizada." },
+        { "id": "C", "text": "concessão à reabertura." },
+        { "id": "D", "text": "condição para a reabertura do prazo." },
+        { "id": "E", "text": "pergunta indireta total sobre a existência de recurso." }
       ],
       "correctOptionId": "D",
       "explanation": "O se é conjunção condicional; a realização da oração principal depende da hipótese apresentada. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -518,26 +263,11 @@
       "origin": "authorial",
       "prompt": "Em 'É necessário que todos participem', é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "a oração iniciada por 'que' funciona como sujeito da expressão avaliativa."
-        },
-        {
-          "id": "B",
-          "text": "'todos' é sujeito da oração matriz 'é necessário'."
-        },
-        {
-          "id": "C",
-          "text": "a subordinada é adverbial final."
-        },
-        {
-          "id": "D",
-          "text": "a expressão exige objeto direto fora da subordinada."
-        },
-        {
-          "id": "E",
-          "text": "a oração iniciada por 'que' é objeto direto do adjetivo 'necessário'."
-        }
+        { "id": "A", "text": "a oração iniciada por 'que' funciona como sujeito da expressão avaliativa." },
+        { "id": "B", "text": "'todos' é sujeito da oração matriz 'é necessário'." },
+        { "id": "C", "text": "a subordinada é adverbial final." },
+        { "id": "D", "text": "a expressão exige objeto direto fora da subordinada." },
+        { "id": "E", "text": "a oração iniciada por 'que' é objeto direto do adjetivo 'necessário'." }
       ],
       "correctOptionId": "A",
       "explanation": "Aquilo que é necessário é a participação de todos; a oração substantiva é subjetiva. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -548,26 +278,11 @@
       "origin": "authorial",
       "prompt": "A oração matriz de uma construção subordinativa",
       "options": [
-        {
-          "id": "A",
-          "text": "precisa transmitir mensagem completa quando isolada."
-        },
-        {
-          "id": "B",
-          "text": "é sempre a primeira na ordem linear."
-        },
-        {
-          "id": "C",
-          "text": "contém a posição ou a estrutura à qual a subordinada se vincula."
-        },
-        {
-          "id": "D",
-          "text": "não pode conter outra subordinada."
-        },
-        {
-          "id": "E",
-          "text": "precisa conter verbo flexionado distinto de todo verbo da subordinada."
-        }
+        { "id": "A", "text": "precisa transmitir mensagem completa quando isolada." },
+        { "id": "B", "text": "é sempre a primeira na ordem linear." },
+        { "id": "C", "text": "contém a posição ou a estrutura à qual a subordinada se vincula." },
+        { "id": "D", "text": "não pode conter outra subordinada." },
+        { "id": "E", "text": "precisa conter verbo flexionado distinto de todo verbo da subordinada." }
       ],
       "correctOptionId": "C",
       "explanation": "Matriz é conceito estrutural, não sinônimo de trecho autônomo, primeiro ou semanticamente completo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -578,26 +293,11 @@
       "origin": "authorial",
       "prompt": "Uma oração subordinada adjetiva caracteriza-se por",
       "options": [
-        {
-          "id": "A",
-          "text": "completar diretamente qualquer verbo transitivo."
-        },
-        {
-          "id": "B",
-          "text": "modificar um nome antecedente, em geral por meio de pronome relativo."
-        },
-        {
-          "id": "C",
-          "text": "expressar somente causa ou condição."
-        },
-        {
-          "id": "D",
-          "text": "funcionar sempre como aposto separado por dois-pontos."
-        },
-        {
-          "id": "E",
-          "text": "exercer função de advérbio sobre toda a oração matriz."
-        }
+        { "id": "A", "text": "completar diretamente qualquer verbo transitivo." },
+        { "id": "B", "text": "modificar um nome antecedente, em geral por meio de pronome relativo." },
+        { "id": "C", "text": "expressar somente causa ou condição." },
+        { "id": "D", "text": "funcionar sempre como aposto separado por dois-pontos." },
+        { "id": "E", "text": "exercer função de advérbio sobre toda a oração matriz." }
       ],
       "correctOptionId": "B",
       "explanation": "Adjetivas exercem função modificadora semelhante à de adjetivo ou adjunto adnominal sobre um antecedente. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -608,26 +308,11 @@
       "origin": "authorial",
       "prompt": "Para descobrir a função de um pronome relativo na subordinada, deve-se",
       "options": [
-        {
-          "id": "A",
-          "text": "classificá-lo sempre como sujeito."
-        },
-        {
-          "id": "B",
-          "text": "observar apenas a vírgula anterior."
-        },
-        {
-          "id": "C",
-          "text": "reconstruir na subordinada o termo retomado e verificar sua função."
-        },
-        {
-          "id": "D",
-          "text": "substituí-lo por uma conjunção integrante."
-        },
-        {
-          "id": "E",
-          "text": "identificar apenas o gênero e o número do antecedente."
-        }
+        { "id": "A", "text": "classificá-lo sempre como sujeito." },
+        { "id": "B", "text": "observar apenas a vírgula anterior." },
+        { "id": "C", "text": "reconstruir na subordinada o termo retomado e verificar sua função." },
+        { "id": "D", "text": "substituí-lo por uma conjunção integrante." },
+        { "id": "E", "text": "identificar apenas o gênero e o número do antecedente." }
       ],
       "correctOptionId": "C",
       "explanation": "A reconstrução revela se o antecedente atua como sujeito, objeto, complemento preposicionado ou outra função interna. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -638,26 +323,11 @@
       "origin": "authorial",
       "prompt": "Em 'Os servidores que concluíram o curso receberam certificado', a oração relativa",
       "options": [
-        {
-          "id": "A",
-          "text": "comenta que todos os servidores concluíram o curso."
-        },
-        {
-          "id": "B",
-          "text": "funciona como objeto direto de 'receberam'."
-        },
-        {
-          "id": "C",
-          "text": "expressa causa obrigatória do recebimento."
-        },
-        {
-          "id": "D",
-          "text": "restringe o conjunto aos servidores que concluíram o curso."
-        },
-        {
-          "id": "E",
-          "text": "é explicativa justamente por não estar isolada por vírgulas."
-        }
+        { "id": "A", "text": "comenta que todos os servidores concluíram o curso." },
+        { "id": "B", "text": "funciona como objeto direto de 'receberam'." },
+        { "id": "C", "text": "expressa causa obrigatória do recebimento." },
+        { "id": "D", "text": "restringe o conjunto aos servidores que concluíram o curso." },
+        { "id": "E", "text": "é explicativa justamente por não estar isolada por vírgulas." }
       ],
       "correctOptionId": "D",
       "explanation": "Sem vírgulas, a relativa seleciona o subconjunto relevante entre os servidores. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -668,26 +338,11 @@
       "origin": "authorial",
       "prompt": "Em 'Os servidores, que concluíram o curso, receberam certificado', a relativa é",
       "options": [
-        {
-          "id": "A",
-          "text": "explicativa e apresenta a conclusão do curso como comentário sobre o referente já identificado."
-        },
-        {
-          "id": "B",
-          "text": "restritiva e seleciona apenas parte dos servidores."
-        },
-        {
-          "id": "C",
-          "text": "substantiva apositiva por estar entre vírgulas."
-        },
-        {
-          "id": "D",
-          "text": "adverbial causal por justificar o certificado."
-        },
-        {
-          "id": "E",
-          "text": "restritiva porque a pontuação não interfere no alcance do antecedente."
-        }
+        { "id": "A", "text": "explicativa e apresenta a conclusão do curso como comentário sobre o referente já identificado." },
+        { "id": "B", "text": "restritiva e seleciona apenas parte dos servidores." },
+        { "id": "C", "text": "substantiva apositiva por estar entre vírgulas." },
+        { "id": "D", "text": "adverbial causal por justificar o certificado." },
+        { "id": "E", "text": "restritiva porque a pontuação não interfere no alcance do antecedente." }
       ],
       "correctOptionId": "A",
       "explanation": "As vírgulas isolam a adjetiva explicativa e favorecem leitura não seletiva do grupo referido. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -698,26 +353,11 @@
       "origin": "authorial",
       "prompt": "Retirar as vírgulas de uma adjetiva explicativa pode",
       "options": [
-        {
-          "id": "A",
-          "text": "alterar apenas a velocidade de leitura."
-        },
-        {
-          "id": "B",
-          "text": "transformá-la necessariamente em substantiva."
-        },
-        {
-          "id": "C",
-          "text": "eliminar o pronome relativo implícito."
-        },
-        {
-          "id": "D",
-          "text": "mudar o alcance referencial ao produzir leitura restritiva."
-        },
-        {
-          "id": "E",
-          "text": "preservar obrigatoriamente o mesmo conjunto de referentes."
-        }
+        { "id": "A", "text": "alterar apenas a velocidade de leitura." },
+        { "id": "B", "text": "transformá-la necessariamente em substantiva." },
+        { "id": "C", "text": "eliminar o pronome relativo implícito." },
+        { "id": "D", "text": "mudar o alcance referencial ao produzir leitura restritiva." },
+        { "id": "E", "text": "preservar obrigatoriamente o mesmo conjunto de referentes." }
       ],
       "correctOptionId": "D",
       "explanation": "A oposição restritiva/explicativa afeta quais referentes recebem a propriedade, não apenas o ritmo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -728,26 +368,11 @@
       "origin": "authorial",
       "prompt": "A forma adequada para retomar pessoa com preposição exigida é",
       "options": [
-        {
-          "id": "A",
-          "text": "a servidora quem me referi."
-        },
-        {
-          "id": "B",
-          "text": "a servidora a quem me referi."
-        },
-        {
-          "id": "C",
-          "text": "a servidora cujo me referi."
-        },
-        {
-          "id": "D",
-          "text": "a servidora onde me referi."
-        },
-        {
-          "id": "E",
-          "text": "a servidora de quem me referi."
-        }
+        { "id": "A", "text": "a servidora quem me referi." },
+        { "id": "B", "text": "a servidora a quem me referi." },
+        { "id": "C", "text": "a servidora cujo me referi." },
+        { "id": "D", "text": "a servidora onde me referi." },
+        { "id": "E", "text": "a servidora de quem me referi." }
       ],
       "correctOptionId": "B",
       "explanation": "Referir-se rege a preposição a, que antecede o relativo quem com antecedente humano. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -758,26 +383,11 @@
       "origin": "authorial",
       "prompt": "Qual construção emprega corretamente o relativo possessivo?",
       "options": [
-        {
-          "id": "A",
-          "text": "O auditor cujo o relatório foi aprovado."
-        },
-        {
-          "id": "B",
-          "text": "O auditor que cujo relatório foi aprovado."
-        },
-        {
-          "id": "C",
-          "text": "O auditor cujo relatório foi aprovado."
-        },
-        {
-          "id": "D",
-          "text": "O auditor cujo foi aprovado o relatório dele."
-        },
-        {
-          "id": "E",
-          "text": "O auditor cujo relatório dele foi aprovado."
-        }
+        { "id": "A", "text": "O auditor cujo o relatório foi aprovado." },
+        { "id": "B", "text": "O auditor que cujo relatório foi aprovado." },
+        { "id": "C", "text": "O auditor cujo relatório foi aprovado." },
+        { "id": "D", "text": "O auditor cujo foi aprovado o relatório dele." },
+        { "id": "E", "text": "O auditor cujo relatório dele foi aprovado." }
       ],
       "correctOptionId": "C",
       "explanation": "Cujo liga possuidor e coisa possuída, concorda com relatório e não admite artigo depois. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -788,26 +398,11 @@
       "origin": "authorial",
       "prompt": "Em referência não espacial, a formulação mais precisa é",
       "options": [
-        {
-          "id": "A",
-          "text": "a situação em que ocorreu o erro."
-        },
-        {
-          "id": "B",
-          "text": "a situação onde ocorreu o erro."
-        },
-        {
-          "id": "C",
-          "text": "a situação aonde ocorreu o erro."
-        },
-        {
-          "id": "D",
-          "text": "a situação cujo ocorreu o erro."
-        },
-        {
-          "id": "E",
-          "text": "a situação a qual ocorreu o erro."
-        }
+        { "id": "A", "text": "a situação em que ocorreu o erro." },
+        { "id": "B", "text": "a situação onde ocorreu o erro." },
+        { "id": "C", "text": "a situação aonde ocorreu o erro." },
+        { "id": "D", "text": "a situação cujo ocorreu o erro." },
+        { "id": "E", "text": "a situação a qual ocorreu o erro." }
       ],
       "correctOptionId": "A",
       "explanation": "Onde retoma lugar; situação abstrata é retomada com segurança por em que nesse contexto. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -818,26 +413,11 @@
       "origin": "authorial",
       "prompt": "A frase que preserva a preposição exigida pelo termo interno da relativa é",
       "options": [
-        {
-          "id": "A",
-          "text": "A norma que o servidor obedeceu foi publicada."
-        },
-        {
-          "id": "B",
-          "text": "A norma a que o servidor obedeceu foi publicada."
-        },
-        {
-          "id": "C",
-          "text": "A norma cuja o servidor obedeceu foi publicada."
-        },
-        {
-          "id": "D",
-          "text": "A norma onde o servidor obedeceu foi publicada."
-        },
-        {
-          "id": "E",
-          "text": "A norma em que o servidor obedeceu foi publicada."
-        }
+        { "id": "A", "text": "A norma que o servidor obedeceu foi publicada." },
+        { "id": "B", "text": "A norma a que o servidor obedeceu foi publicada." },
+        { "id": "C", "text": "A norma cuja o servidor obedeceu foi publicada." },
+        { "id": "D", "text": "A norma onde o servidor obedeceu foi publicada." },
+        { "id": "E", "text": "A norma em que o servidor obedeceu foi publicada." }
       ],
       "correctOptionId": "B",
       "explanation": "Obedecer, no sentido usado, rege a preposição a; ela deve preceder o relativo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -848,26 +428,11 @@
       "origin": "authorial",
       "prompt": "Para eliminar a ambiguidade de 'os relatórios dos auditores que continham falhas', uma solução é",
       "options": [
-        {
-          "id": "A",
-          "text": "explicitar que os relatórios continham falhas e haviam sido elaborados pelos auditores."
-        },
-        {
-          "id": "B",
-          "text": "retirar o pronome relativo sem ajustar a oração."
-        },
-        {
-          "id": "C",
-          "text": "trocar 'que' por 'onde' mantendo os mesmos termos."
-        },
-        {
-          "id": "D",
-          "text": "inserir vírgula depois de 'relatórios' em qualquer contexto."
-        },
-        {
-          "id": "E",
-          "text": "trocar 'auditores' por 'eles' sem explicitar o antecedente do relativo."
-        }
+        { "id": "A", "text": "explicitar que os relatórios continham falhas e haviam sido elaborados pelos auditores." },
+        { "id": "B", "text": "retirar o pronome relativo sem ajustar a oração." },
+        { "id": "C", "text": "trocar 'que' por 'onde' mantendo os mesmos termos." },
+        { "id": "D", "text": "inserir vírgula depois de 'relatórios' em qualquer contexto." },
+        { "id": "E", "text": "trocar 'auditores' por 'eles' sem explicitar o antecedente do relativo." }
       ],
       "correctOptionId": "A",
       "explanation": "A reescrita nomeia o antecedente pretendido e elimina a concorrência entre relatórios e auditores. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -878,26 +443,11 @@
       "origin": "authorial",
       "prompt": "As orações subordinadas adverbiais expressam predominantemente",
       "options": [
-        {
-          "id": "A",
-          "text": "funções nominais de sujeito e objeto."
-        },
-        {
-          "id": "B",
-          "text": "modificação exclusiva de substantivo antecedente."
-        },
-        {
-          "id": "C",
-          "text": "coordenação entre termos equivalentes."
-        },
-        {
-          "id": "D",
-          "text": "relações circunstanciais ou lógico-semânticas com a oração núcleo."
-        },
-        {
-          "id": "E",
-          "text": "apenas relações de tempo e lugar com a oração principal."
-        }
+        { "id": "A", "text": "funções nominais de sujeito e objeto." },
+        { "id": "B", "text": "modificação exclusiva de substantivo antecedente." },
+        { "id": "C", "text": "coordenação entre termos equivalentes." },
+        { "id": "D", "text": "relações circunstanciais ou lógico-semânticas com a oração núcleo." },
+        { "id": "E", "text": "apenas relações de tempo e lugar com a oração principal." }
       ],
       "correctOptionId": "D",
       "explanation": "Adverbiais constroem relações como causa, condição, concessão, finalidade e tempo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -908,26 +458,11 @@
       "origin": "authorial",
       "prompt": "Em 'A sessão foi adiada porque faltaram documentos', a subordinada é",
       "options": [
-        {
-          "id": "A",
-          "text": "consecutiva, pois apresenta resultado."
-        },
-        {
-          "id": "B",
-          "text": "explicativa coordenada de uma ordem."
-        },
-        {
-          "id": "C",
-          "text": "causal, pois apresenta a causa do adiamento."
-        },
-        {
-          "id": "D",
-          "text": "conformativa, pois segue uma regra."
-        },
-        {
-          "id": "E",
-          "text": "final, pois apresenta o objetivo do adiamento."
-        }
+        { "id": "A", "text": "consecutiva, pois apresenta resultado." },
+        { "id": "B", "text": "explicativa coordenada de uma ordem." },
+        { "id": "C", "text": "causal, pois apresenta a causa do adiamento." },
+        { "id": "D", "text": "conformativa, pois segue uma regra." },
+        { "id": "E", "text": "final, pois apresenta o objetivo do adiamento." }
       ],
       "correctOptionId": "C",
       "explanation": "A falta de documentos é integrada como causa do fato descrito na oração principal. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -938,26 +473,11 @@
       "origin": "authorial",
       "prompt": "Em 'Havia tantos erros que o relatório foi refeito', ocorre subordinada",
       "options": [
-        {
-          "id": "A",
-          "text": "consecutiva correlacionada à intensidade expressa por 'tantos'."
-        },
-        {
-          "id": "B",
-          "text": "conclusiva coordenada introduzida por 'que'."
-        },
-        {
-          "id": "C",
-          "text": "causal reduzida de particípio."
-        },
-        {
-          "id": "D",
-          "text": "comparativa com verbo elíptico."
-        },
-        {
-          "id": "E",
-          "text": "temporal, pois a revisão ocorreu depois dos erros."
-        }
+        { "id": "A", "text": "consecutiva correlacionada à intensidade expressa por 'tantos'." },
+        { "id": "B", "text": "conclusiva coordenada introduzida por 'que'." },
+        { "id": "C", "text": "causal reduzida de particípio." },
+        { "id": "D", "text": "comparativa com verbo elíptico." },
+        { "id": "E", "text": "temporal, pois a revisão ocorreu depois dos erros." }
       ],
       "correctOptionId": "A",
       "explanation": "A correlação tantos... que apresenta a reelaboração como consequência da intensidade. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -968,26 +488,11 @@
       "origin": "authorial",
       "prompt": "A oração 'Caso haja recurso' em 'Caso haja recurso, haverá reexame' é",
       "options": [
-        {
-          "id": "A",
-          "text": "temporal, pois antecede o reexame."
-        },
-        {
-          "id": "B",
-          "text": "condicional, com verbo no subjuntivo."
-        },
-        {
-          "id": "C",
-          "text": "concessiva, pois admite fato contrário."
-        },
-        {
-          "id": "D",
-          "text": "substantiva subjetiva."
-        },
-        {
-          "id": "E",
-          "text": "causal, pois o recurso produz necessariamente o reexame."
-        }
+        { "id": "A", "text": "temporal, pois antecede o reexame." },
+        { "id": "B", "text": "condicional, com verbo no subjuntivo." },
+        { "id": "C", "text": "concessiva, pois admite fato contrário." },
+        { "id": "D", "text": "substantiva subjetiva." },
+        { "id": "E", "text": "causal, pois o recurso produz necessariamente o reexame." }
       ],
       "correctOptionId": "B",
       "explanation": "Caso introduz hipótese de cuja realização depende o reexame; o subjuntivo é compatível com esse valor. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -998,26 +503,11 @@
       "origin": "authorial",
       "prompt": "Em 'Embora houvesse recurso, a decisão foi mantida', a primeira oração exprime",
       "options": [
-        {
-          "id": "A",
-          "text": "causa eficiente da manutenção."
-        },
-        {
-          "id": "B",
-          "text": "condição necessária para manter."
-        },
-        {
-          "id": "C",
-          "text": "conformidade com o recurso."
-        },
-        {
-          "id": "D",
-          "text": "concessão, fato que não impede o resultado da principal."
-        },
-        {
-          "id": "E",
-          "text": "tempo, porque o recurso antecede a manutenção da decisão."
-        }
+        { "id": "A", "text": "causa eficiente da manutenção." },
+        { "id": "B", "text": "condição necessária para manter." },
+        { "id": "C", "text": "conformidade com o recurso." },
+        { "id": "D", "text": "concessão, fato que não impede o resultado da principal." },
+        { "id": "E", "text": "tempo, porque o recurso antecede a manutenção da decisão." }
       ],
       "correctOptionId": "D",
       "explanation": "A existência de recurso poderia criar expectativa contrária, mas não impediu a manutenção. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1028,26 +518,11 @@
       "origin": "authorial",
       "prompt": "Em 'O parecer foi mais claro do que o anterior [foi]', a subordinada é",
       "options": [
-        {
-          "id": "A",
-          "text": "comparativa, com verbo recuperável por elipse."
-        },
-        {
-          "id": "B",
-          "text": "adjetiva restritiva de 'parecer'."
-        },
-        {
-          "id": "C",
-          "text": "consecutiva sem termo intensificador."
-        },
-        {
-          "id": "D",
-          "text": "objetiva direta de 'foi'."
-        },
-        {
-          "id": "E",
-          "text": "adverbial causal, com verbo oculto."
-        }
+        { "id": "A", "text": "comparativa, com verbo recuperável por elipse." },
+        { "id": "B", "text": "adjetiva restritiva de 'parecer'." },
+        { "id": "C", "text": "consecutiva sem termo intensificador." },
+        { "id": "D", "text": "objetiva direta de 'foi'." },
+        { "id": "E", "text": "adverbial causal, com verbo oculto." }
       ],
       "correctOptionId": "A",
       "explanation": "A estrutura compara o grau de clareza dos pareceres e permite recuperar o verbo omitido. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1058,26 +533,11 @@
       "origin": "authorial",
       "prompt": "Em 'A análise ocorreu conforme determina a norma', a subordinada estabelece relação",
       "options": [
-        {
-          "id": "A",
-          "text": "proporcional."
-        },
-        {
-          "id": "B",
-          "text": "final."
-        },
-        {
-          "id": "C",
-          "text": "temporal."
-        },
-        {
-          "id": "D",
-          "text": "conformativa."
-        },
-        {
-          "id": "E",
-          "text": "consecutiva."
-        }
+        { "id": "A", "text": "proporcional." },
+        { "id": "B", "text": "final." },
+        { "id": "C", "text": "temporal." },
+        { "id": "D", "text": "conformativa." },
+        { "id": "E", "text": "consecutiva." }
       ],
       "correctOptionId": "D",
       "explanation": "O procedimento é apresentado em conformidade com aquilo que a norma determina. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1088,26 +548,11 @@
       "origin": "authorial",
       "prompt": "A oração destacada em 'Revisou os dados para que evitasse falhas' é",
       "options": [
-        {
-          "id": "A",
-          "text": "causal, pois explica a revisão."
-        },
-        {
-          "id": "B",
-          "text": "consecutiva, pois relata o resultado efetivo."
-        },
-        {
-          "id": "C",
-          "text": "final, pois expressa o objetivo da revisão."
-        },
-        {
-          "id": "D",
-          "text": "concessiva, pois admite obstáculos."
-        },
-        {
-          "id": "E",
-          "text": "temporal, pois situa quando a revisão ocorreu."
-        }
+        { "id": "A", "text": "causal, pois explica a revisão." },
+        { "id": "B", "text": "consecutiva, pois relata o resultado efetivo." },
+        { "id": "C", "text": "final, pois expressa o objetivo da revisão." },
+        { "id": "D", "text": "concessiva, pois admite obstáculos." },
+        { "id": "E", "text": "temporal, pois situa quando a revisão ocorreu." }
       ],
       "correctOptionId": "C",
       "explanation": "Para que introduz a finalidade pretendida, sem afirmar necessariamente que ela foi alcançada. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1118,26 +563,11 @@
       "origin": "authorial",
       "prompt": "Em 'À medida que os dados chegavam, a equipe os conferia', a relação é",
       "options": [
-        {
-          "id": "A",
-          "text": "comparativa de igualdade."
-        },
-        {
-          "id": "B",
-          "text": "proporcional entre chegada e conferência."
-        },
-        {
-          "id": "C",
-          "text": "causal entre dois fatos concluídos."
-        },
-        {
-          "id": "D",
-          "text": "adversativa entre ações incompatíveis."
-        },
-        {
-          "id": "E",
-          "text": "concessiva entre a chegada e a conferência."
-        }
+        { "id": "A", "text": "comparativa de igualdade." },
+        { "id": "B", "text": "proporcional entre chegada e conferência." },
+        { "id": "C", "text": "causal entre dois fatos concluídos." },
+        { "id": "D", "text": "adversativa entre ações incompatíveis." },
+        { "id": "E", "text": "concessiva entre a chegada e a conferência." }
       ],
       "correctOptionId": "B",
       "explanation": "As ações evoluem paralelamente, característica da relação proporcional. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1148,26 +578,11 @@
       "origin": "authorial",
       "prompt": "Em 'Quando a perícia terminou, o processo avançou', a subordinada situa",
       "options": [
-        {
-          "id": "A",
-          "text": "a finalidade do avanço."
-        },
-        {
-          "id": "B",
-          "text": "a condição hipotética do avanço."
-        },
-        {
-          "id": "C",
-          "text": "o tempo em que ocorreu o avanço."
-        },
-        {
-          "id": "D",
-          "text": "a concessão relacionada ao avanço."
-        },
-        {
-          "id": "E",
-          "text": "a causa necessária do avanço."
-        }
+        { "id": "A", "text": "a finalidade do avanço." },
+        { "id": "B", "text": "a condição hipotética do avanço." },
+        { "id": "C", "text": "o tempo em que ocorreu o avanço." },
+        { "id": "D", "text": "a concessão relacionada ao avanço." },
+        { "id": "E", "text": "a causa necessária do avanço." }
       ],
       "correctOptionId": "C",
       "explanation": "Quando introduz o marco temporal associado ao fato da principal. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1178,26 +593,11 @@
       "origin": "authorial",
       "prompt": "Para classificar uma oração adverbial, deve-se considerar",
       "options": [
-        {
-          "id": "A",
-          "text": "apenas o primeiro sentido registrado para a conjunção."
-        },
-        {
-          "id": "B",
-          "text": "somente o modo verbal empregado."
-        },
-        {
-          "id": "C",
-          "text": "a posição linear como critério decisivo."
-        },
-        {
-          "id": "D",
-          "text": "conectivo, contexto, estrutura, modo e relação construída."
-        },
-        {
-          "id": "E",
-          "text": "apenas a pontuação e a posição da oração no período."
-        }
+        { "id": "A", "text": "apenas o primeiro sentido registrado para a conjunção." },
+        { "id": "B", "text": "somente o modo verbal empregado." },
+        { "id": "C", "text": "a posição linear como critério decisivo." },
+        { "id": "D", "text": "conectivo, contexto, estrutura, modo e relação construída." },
+        { "id": "E", "text": "apenas a pontuação e a posição da oração no período." }
       ],
       "correctOptionId": "D",
       "explanation": "Conectores são polissêmicos; vários indícios atuam em conjunto na classificação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1208,26 +608,11 @@
       "origin": "authorial",
       "prompt": "Uma oração subordinada desenvolvida apresenta, tipicamente,",
       "options": [
-        {
-          "id": "A",
-          "text": "verbo flexionado e conectivo expresso."
-        },
-        {
-          "id": "B",
-          "text": "verbo exclusivamente no infinitivo."
-        },
-        {
-          "id": "C",
-          "text": "ausência de sujeito e de relação semântica."
-        },
-        {
-          "id": "D",
-          "text": "coordenação obrigatória com outra reduzida."
-        },
-        {
-          "id": "E",
-          "text": "verbo no gerúndio ou particípio e ausência obrigatória de conectivo."
-        }
+        { "id": "A", "text": "verbo flexionado e conectivo expresso." },
+        { "id": "B", "text": "verbo exclusivamente no infinitivo." },
+        { "id": "C", "text": "ausência de sujeito e de relação semântica." },
+        { "id": "D", "text": "coordenação obrigatória com outra reduzida." },
+        { "id": "E", "text": "verbo no gerúndio ou particípio e ausência obrigatória de conectivo." }
       ],
       "correctOptionId": "A",
       "explanation": "A forma desenvolvida costuma trazer verbo finito e conjunção ou relativo que explicita o vínculo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1238,26 +623,11 @@
       "origin": "authorial",
       "prompt": "Em 'Para reduzir erros, revise os dados', o segmento inicial é oração reduzida de",
       "options": [
-        {
-          "id": "A",
-          "text": "gerúndio com valor causal."
-        },
-        {
-          "id": "B",
-          "text": "infinitivo com valor final."
-        },
-        {
-          "id": "C",
-          "text": "particípio com valor temporal."
-        },
-        {
-          "id": "D",
-          "text": "infinitivo com valor concessivo."
-        },
-        {
-          "id": "E",
-          "text": "infinitivo com valor temporal."
-        }
+        { "id": "A", "text": "gerúndio com valor causal." },
+        { "id": "B", "text": "infinitivo com valor final." },
+        { "id": "C", "text": "particípio com valor temporal." },
+        { "id": "D", "text": "infinitivo com valor concessivo." },
+        { "id": "E", "text": "infinitivo com valor temporal." }
       ],
       "correctOptionId": "B",
       "explanation": "Reduzir está no infinitivo e a construção apresenta a finalidade da revisão. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1268,26 +638,11 @@
       "origin": "authorial",
       "prompt": "Em 'Havendo recurso, o processo será reexaminado', a leitura mais natural é",
       "options": [
-        {
-          "id": "A",
-          "text": "concessiva, equivalente a 'embora haja'."
-        },
-        {
-          "id": "B",
-          "text": "consecutiva, equivalente a 'tanto que'."
-        },
-        {
-          "id": "C",
-          "text": "explicativa de uma ordem."
-        },
-        {
-          "id": "D",
-          "text": "condicional, equivalente a 'se houver recurso'."
-        },
-        {
-          "id": "E",
-          "text": "causal, equivalente a 'porque há recurso'."
-        }
+        { "id": "A", "text": "concessiva, equivalente a 'embora haja'." },
+        { "id": "B", "text": "consecutiva, equivalente a 'tanto que'." },
+        { "id": "C", "text": "explicativa de uma ordem." },
+        { "id": "D", "text": "condicional, equivalente a 'se houver recurso'." },
+        { "id": "E", "text": "causal, equivalente a 'porque há recurso'." }
       ],
       "correctOptionId": "D",
       "explanation": "O gerúndio constrói a hipótese que condiciona o reexame; a forma nominal sozinha não fixa o valor. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1298,26 +653,11 @@
       "origin": "authorial",
       "prompt": "Em 'Os documentos enviados ontem serão analisados', o segmento 'enviados ontem' constitui",
       "options": [
-        {
-          "id": "A",
-          "text": "oração subordinada substantiva reduzida de infinitivo."
-        },
-        {
-          "id": "B",
-          "text": "oração subordinada adverbial temporal reduzida de gerúndio."
-        },
-        {
-          "id": "C",
-          "text": "oração subordinada adjetiva restritiva reduzida de particípio."
-        },
-        {
-          "id": "D",
-          "text": "oração coordenada assindética com verbo elíptico."
-        },
-        {
-          "id": "E",
-          "text": "oração subordinada adjetiva explicativa reduzida de particípio."
-        }
+        { "id": "A", "text": "oração subordinada substantiva reduzida de infinitivo." },
+        { "id": "B", "text": "oração subordinada adverbial temporal reduzida de gerúndio." },
+        { "id": "C", "text": "oração subordinada adjetiva restritiva reduzida de particípio." },
+        { "id": "D", "text": "oração coordenada assindética com verbo elíptico." },
+        { "id": "E", "text": "oração subordinada adjetiva explicativa reduzida de particípio." }
       ],
       "correctOptionId": "C",
       "explanation": "O particípio modifica documentos e equivale à adjetiva desenvolvida 'que foram enviados ontem'. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1328,26 +668,11 @@
       "origin": "authorial",
       "prompt": "Em 'É importante os servidores revisarem os dados', a forma 'revisarem' mostra que",
       "options": [
-        {
-          "id": "A",
-          "text": "todo infinitivo é invariável."
-        },
-        {
-          "id": "B",
-          "text": "o infinitivo pode ser pessoal e flexionar-se conforme seu sujeito."
-        },
-        {
-          "id": "C",
-          "text": "a oração é desenvolvida por possuir sujeito."
-        },
-        {
-          "id": "D",
-          "text": "a flexão transforma o infinitivo em particípio."
-        },
-        {
-          "id": "E",
-          "text": "o infinitivo perde caráter verbal quando recebe flexão pessoal."
-        }
+        { "id": "A", "text": "todo infinitivo é invariável." },
+        { "id": "B", "text": "o infinitivo pode ser pessoal e flexionar-se conforme seu sujeito." },
+        { "id": "C", "text": "a oração é desenvolvida por possuir sujeito." },
+        { "id": "D", "text": "a flexão transforma o infinitivo em particípio." },
+        { "id": "E", "text": "o infinitivo perde caráter verbal quando recebe flexão pessoal." }
       ],
       "correctOptionId": "B",
       "explanation": "O infinitivo pessoal marca o sujeito plural os servidores, embora continue forma nominal e oração reduzida. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1358,26 +683,11 @@
       "origin": "authorial",
       "prompt": "Ao desenvolver uma oração reduzida, é necessário",
       "options": [
-        {
-          "id": "A",
-          "text": "preservar sujeito, tempo, modo e relação semântica, pois a conversão pode alterar o sentido."
-        },
-        {
-          "id": "B",
-          "text": "inserir sempre a conjunção 'porque'."
-        },
-        {
-          "id": "C",
-          "text": "manter o verbo em forma nominal."
-        },
-        {
-          "id": "D",
-          "text": "transformar qualquer relação em coordenação."
-        },
-        {
-          "id": "E",
-          "text": "preservar apenas o sujeito, pois modo e relação podem mudar sem efeito semântico."
-        }
+        { "id": "A", "text": "preservar sujeito, tempo, modo e relação semântica, pois a conversão pode alterar o sentido." },
+        { "id": "B", "text": "inserir sempre a conjunção 'porque'." },
+        { "id": "C", "text": "manter o verbo em forma nominal." },
+        { "id": "D", "text": "transformar qualquer relação em coordenação." },
+        { "id": "E", "text": "preservar apenas o sujeito, pois modo e relação podem mudar sem efeito semântico." }
       ],
       "correctOptionId": "A",
       "explanation": "A escolha do conectivo e da forma finita explicita valores que podiam estar implícitos e deve respeitar a leitura original. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1388,26 +698,11 @@
       "origin": "authorial",
       "prompt": "Em 'O relator afirmou que a equipe demonstrou que os dados eram insuficientes', a oração mais interna",
       "options": [
-        {
-          "id": "A",
-          "text": "é sujeito de 'afirmou'."
-        },
-        {
-          "id": "B",
-          "text": "é adjetiva de 'equipe'."
-        },
-        {
-          "id": "C",
-          "text": "é objeto direto de 'demonstrou', dentro do bloco que completa 'afirmou'."
-        },
-        {
-          "id": "D",
-          "text": "coordena-se diretamente com 'o relator afirmou'."
-        },
-        {
-          "id": "E",
-          "text": "é oração principal independente de todo o período."
-        }
+        { "id": "A", "text": "é sujeito de 'afirmou'." },
+        { "id": "B", "text": "é adjetiva de 'equipe'." },
+        { "id": "C", "text": "é objeto direto de 'demonstrou', dentro do bloco que completa 'afirmou'." },
+        { "id": "D", "text": "coordena-se diretamente com 'o relator afirmou'." },
+        { "id": "E", "text": "é oração principal independente de todo o período." }
       ],
       "correctOptionId": "C",
       "explanation": "O conteúdo demonstrado é que os dados eram insuficientes; o bloco maior constitui o conteúdo afirmado. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1418,26 +713,11 @@
       "origin": "authorial",
       "prompt": "A correlação 'tão incompleto que exigiu revisão' introduz oração",
       "options": [
-        {
-          "id": "A",
-          "text": "comparativa de igualdade."
-        },
-        {
-          "id": "B",
-          "text": "consecutiva ligada ao grau expresso por 'tão'."
-        },
-        {
-          "id": "C",
-          "text": "conclusiva coordenada."
-        },
-        {
-          "id": "D",
-          "text": "substantiva predicativa."
-        },
-        {
-          "id": "E",
-          "text": "adverbial causal ligada ao intensificador 'tão'."
-        }
+        { "id": "A", "text": "comparativa de igualdade." },
+        { "id": "B", "text": "consecutiva ligada ao grau expresso por 'tão'." },
+        { "id": "C", "text": "conclusiva coordenada." },
+        { "id": "D", "text": "substantiva predicativa." },
+        { "id": "E", "text": "adverbial causal ligada ao intensificador 'tão'." }
       ],
       "correctOptionId": "B",
       "explanation": "Tão marca intensidade e que introduz a consequência associada a esse grau. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1448,26 +728,11 @@
       "origin": "authorial",
       "prompt": "A estrutura 'não apenas revisou, mas também publicou' exemplifica",
       "options": [
-        {
-          "id": "A",
-          "text": "subordinação consecutiva."
-        },
-        {
-          "id": "B",
-          "text": "subordinação proporcional."
-        },
-        {
-          "id": "C",
-          "text": "subordinação comparativa."
-        },
-        {
-          "id": "D",
-          "text": "coordenação aditiva correlativa."
-        },
-        {
-          "id": "E",
-          "text": "subordinação final correlativa."
-        }
+        { "id": "A", "text": "subordinação consecutiva." },
+        { "id": "B", "text": "subordinação proporcional." },
+        { "id": "C", "text": "subordinação comparativa." },
+        { "id": "D", "text": "coordenação aditiva correlativa." },
+        { "id": "E", "text": "subordinação final correlativa." }
       ],
       "correctOptionId": "D",
       "explanation": "O par correlativo soma dois predicados do mesmo nível; nem toda correlação é subordinativa. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1478,26 +743,11 @@
       "origin": "authorial",
       "prompt": "Em 'O resultado, afirmou o relator, será publicado', o trecho intercalado",
       "options": [
-        {
-          "id": "A",
-          "text": "é obrigatoriamente subordinada adverbial."
-        },
-        {
-          "id": "B",
-          "text": "ocupa posição parentética, que não constitui por si uma classe subordinativa."
-        },
-        {
-          "id": "C",
-          "text": "funciona como pronome relativo da oração principal."
-        },
-        {
-          "id": "D",
-          "text": "é consequência correlativa de 'resultado'."
-        },
-        {
-          "id": "E",
-          "text": "é oração principal da estrutura por estar entre vírgulas."
-        }
+        { "id": "A", "text": "é obrigatoriamente subordinada adverbial." },
+        { "id": "B", "text": "ocupa posição parentética, que não constitui por si uma classe subordinativa." },
+        { "id": "C", "text": "funciona como pronome relativo da oração principal." },
+        { "id": "D", "text": "é consequência correlativa de 'resultado'." },
+        { "id": "E", "text": "é oração principal da estrutura por estar entre vírgulas." }
       ],
       "correctOptionId": "B",
       "explanation": "Intercalada descreve a inserção parentética e sua pontuação, não uma nova categoria equivalente a substantiva, adjetiva ou adverbial. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1508,26 +758,11 @@
       "origin": "authorial",
       "prompt": "A diferença entre 'Atrasou porque faltou documento' e 'Confira, porque falta documento' é que",
       "options": [
-        {
-          "id": "A",
-          "text": "a primeira apresenta causa do fato; a segunda justifica o ato de fala e tende a ser explicativa."
-        },
-        {
-          "id": "B",
-          "text": "ambas são necessariamente causais subordinadas."
-        },
-        {
-          "id": "C",
-          "text": "a primeira é conclusiva e a segunda concessiva."
-        },
-        {
-          "id": "D",
-          "text": "o imperativo transforma a segunda em oração substantiva."
-        },
-        {
-          "id": "E",
-          "text": "a primeira justifica um ato de fala e a segunda apresenta a causa material do atraso."
-        }
+        { "id": "A", "text": "a primeira apresenta causa do fato; a segunda justifica o ato de fala e tende a ser explicativa." },
+        { "id": "B", "text": "ambas são necessariamente causais subordinadas." },
+        { "id": "C", "text": "a primeira é conclusiva e a segunda concessiva." },
+        { "id": "D", "text": "o imperativo transforma a segunda em oração substantiva." },
+        { "id": "E", "text": "a primeira justifica um ato de fala e a segunda apresenta a causa material do atraso." }
       ],
       "correctOptionId": "A",
       "explanation": "No primeiro caso, a falta integra a causa do atraso; no segundo, fundamenta a orientação do enunciador. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1538,26 +773,11 @@
       "origin": "authorial",
       "prompt": "Qual análise distingue adequadamente consequência de conclusão?",
       "options": [
-        {
-          "id": "A",
-          "text": "'Tantos erros que refez' e 'muitos erros; portanto, refez' são ambas subordinadas consecutivas."
-        },
-        {
-          "id": "B",
-          "text": "A posição final do resultado basta para classificá-lo como conclusão."
-        },
-        {
-          "id": "C",
-          "text": "A consecutiva se liga à intensidade ou à condição estrutural; a conclusiva formula inferência coordenada."
-        },
-        {
-          "id": "D",
-          "text": "Somente a conclusão pode apresentar relação de resultado."
-        },
-        {
-          "id": "E",
-          "text": "A conclusão depende de intensificador correlato, enquanto a consecutiva independe desse tipo de estrutura."
-        }
+        { "id": "A", "text": "'Tantos erros que refez' e 'muitos erros; portanto, refez' são ambas subordinadas consecutivas." },
+        { "id": "B", "text": "A posição final do resultado basta para classificá-lo como conclusão." },
+        { "id": "C", "text": "A consecutiva se liga à intensidade ou à condição estrutural; a conclusiva formula inferência coordenada." },
+        { "id": "D", "text": "Somente a conclusão pode apresentar relação de resultado." },
+        { "id": "E", "text": "A conclusão depende de intensificador correlato, enquanto a consecutiva independe desse tipo de estrutura." }
       ],
       "correctOptionId": "C",
       "explanation": "As relações podem ser semanticamente próximas, mas a consecutiva integra construção subordinativa e a conclusiva orienta inferência discursiva. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1568,26 +788,11 @@
       "origin": "authorial",
       "prompt": "Em 'Embora chovesse, saiu' e 'Chovia, mas saiu', há, respectivamente,",
       "options": [
-        {
-          "id": "A",
-          "text": "causa e consequência."
-        },
-        {
-          "id": "B",
-          "text": "condição e conclusão."
-        },
-        {
-          "id": "C",
-          "text": "duas coordenadas adversativas."
-        },
-        {
-          "id": "D",
-          "text": "subordinação concessiva e coordenação adversativa."
-        },
-        {
-          "id": "E",
-          "text": "coordenação conclusiva e subordinação causal."
-        }
+        { "id": "A", "text": "causa e consequência." },
+        { "id": "B", "text": "condição e conclusão." },
+        { "id": "C", "text": "duas coordenadas adversativas." },
+        { "id": "D", "text": "subordinação concessiva e coordenação adversativa." },
+        { "id": "E", "text": "coordenação conclusiva e subordinação causal." }
       ],
       "correctOptionId": "D",
       "explanation": "Embora subordina a circunstância concessiva; mas coordena o segundo segmento em relação adversativa. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1598,26 +803,11 @@
       "origin": "authorial",
       "prompt": "Em 'O relator trabalhou mais do que o assessor', a ausência do segundo verbo",
       "options": [
-        {
-          "id": "A",
-          "text": "impede a análise comparativa."
-        },
-        {
-          "id": "B",
-          "text": "prova que há apenas uma oração simples."
-        },
-        {
-          "id": "C",
-          "text": "pode resultar de elipse de 'trabalhou' numa estrutura comparativa."
-        },
-        {
-          "id": "D",
-          "text": "transforma 'assessor' em objeto direto."
-        },
-        {
-          "id": "E",
-          "text": "indica necessariamente zeugma de um verbo diferente de 'trabalhou'."
-        }
+        { "id": "A", "text": "impede a análise comparativa." },
+        { "id": "B", "text": "prova que há apenas uma oração simples." },
+        { "id": "C", "text": "pode resultar de elipse de 'trabalhou' numa estrutura comparativa." },
+        { "id": "D", "text": "transforma 'assessor' em objeto direto." },
+        { "id": "E", "text": "indica necessariamente zeugma de um verbo diferente de 'trabalhou'." }
       ],
       "correctOptionId": "C",
       "explanation": "O verbo é recuperável no segundo membro; contagem de verbos gráficos não resolve sozinha a delimitação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1628,26 +818,11 @@
       "origin": "authorial",
       "prompt": "A pontuação prototípica da oração adjetiva restritiva é",
       "options": [
-        {
-          "id": "A",
-          "text": "isolamento obrigatório por duas vírgulas."
-        },
-        {
-          "id": "B",
-          "text": "ausência de vírgulas que a separem do antecedente."
-        },
-        {
-          "id": "C",
-          "text": "dois-pontos antes do pronome relativo."
-        },
-        {
-          "id": "D",
-          "text": "ponto e vírgula depois do antecedente."
-        },
-        {
-          "id": "E",
-          "text": "isolamento facultativo por vírgulas sem alteração de sentido."
-        }
+        { "id": "A", "text": "isolamento obrigatório por duas vírgulas." },
+        { "id": "B", "text": "ausência de vírgulas que a separem do antecedente." },
+        { "id": "C", "text": "dois-pontos antes do pronome relativo." },
+        { "id": "D", "text": "ponto e vírgula depois do antecedente." },
+        { "id": "E", "text": "isolamento facultativo por vírgulas sem alteração de sentido." }
       ],
       "correctOptionId": "B",
       "explanation": "A restritiva integra a delimitação do nome e, em regra, não é isolada; a explicativa recebe isolamento. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1658,26 +833,11 @@
       "origin": "authorial",
       "prompt": "Em 'Quando a perícia terminou, o processo avançou', a vírgula",
       "options": [
-        {
-          "id": "A",
-          "text": "separa adequadamente a adverbial temporal anteposta."
-        },
-        {
-          "id": "B",
-          "text": "separa sujeito e predicado da oração principal."
-        },
-        {
-          "id": "C",
-          "text": "transforma a temporal em explicativa coordenada."
-        },
-        {
-          "id": "D",
-          "text": "marca a omissão do verbo 'avançou'."
-        },
-        {
-          "id": "E",
-          "text": "é proibida porque toda adverbial anteposta deve permanecer sem vírgula."
-        }
+        { "id": "A", "text": "separa adequadamente a adverbial temporal anteposta." },
+        { "id": "B", "text": "separa sujeito e predicado da oração principal." },
+        { "id": "C", "text": "transforma a temporal em explicativa coordenada." },
+        { "id": "D", "text": "marca a omissão do verbo 'avançou'." },
+        { "id": "E", "text": "é proibida porque toda adverbial anteposta deve permanecer sem vírgula." }
       ],
       "correctOptionId": "A",
       "explanation": "A oração adverbial deslocada para antes da principal é normalmente separada por vírgula. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1688,26 +848,11 @@
       "origin": "authorial",
       "prompt": "Qual frase evita separar por vírgula uma oração substantiva integrada ao regente?",
       "options": [
-        {
-          "id": "A",
-          "text": "O relator afirmou, que os dados eram válidos."
-        },
-        {
-          "id": "B",
-          "text": "Convém, que todos revisem o texto."
-        },
-        {
-          "id": "C",
-          "text": "A verdade é, que o prazo acabou."
-        },
-        {
-          "id": "D",
-          "text": "O relator afirmou que os dados eram válidos."
-        },
-        {
-          "id": "E",
-          "text": "O relator afirmou, os dados eram válidos."
-        }
+        { "id": "A", "text": "O relator afirmou, que os dados eram válidos." },
+        { "id": "B", "text": "Convém, que todos revisem o texto." },
+        { "id": "C", "text": "A verdade é, que o prazo acabou." },
+        { "id": "D", "text": "O relator afirmou que os dados eram válidos." },
+        { "id": "E", "text": "O relator afirmou, os dados eram válidos." }
       ],
       "correctOptionId": "D",
       "explanation": "A objetiva direta completa o verbo afirmou e não deve ser separada dele por vírgula sem motivo independente. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1718,26 +863,11 @@
       "origin": "authorial",
       "prompt": "A diferença entre 'não afirmou que era falso' e 'afirmou que não era falso' decorre principalmente",
       "options": [
-        {
-          "id": "A",
-          "text": "da classe morfológica do verbo."
-        },
-        {
-          "id": "B",
-          "text": "da troca entre coordenação e concessão."
-        },
-        {
-          "id": "C",
-          "text": "do escopo da negação sobre o ato de afirmar ou sobre o conteúdo afirmado."
-        },
-        {
-          "id": "D",
-          "text": "da presença de oração adjetiva na segunda frase."
-        },
-        {
-          "id": "E",
-          "text": "da mudança do tempo verbal da oração subordinada."
-        }
+        { "id": "A", "text": "da classe morfológica do verbo." },
+        { "id": "B", "text": "da troca entre coordenação e concessão." },
+        { "id": "C", "text": "do escopo da negação sobre o ato de afirmar ou sobre o conteúdo afirmado." },
+        { "id": "D", "text": "da presença de oração adjetiva na segunda frase." },
+        { "id": "E", "text": "da mudança do tempo verbal da oração subordinada." }
       ],
       "correctOptionId": "C",
       "explanation": "Na primeira estrutura, nega-se a afirmação; na segunda, há afirmação cujo conteúdo é negativo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1748,26 +878,11 @@
       "origin": "authorial",
       "prompt": "Em reescrita de período subordinado, a manutenção de sentido exige conferir",
       "options": [
-        {
-          "id": "A",
-          "text": "apenas o número e a ordem das palavras."
-        },
-        {
-          "id": "B",
-          "text": "função, conectivo, regência, antecedente, sujeito, modo, pontuação e escopo."
-        },
-        {
-          "id": "C",
-          "text": "somente se o mesmo conectivo foi preservado."
-        },
-        {
-          "id": "D",
-          "text": "apenas a correção ortográfica da versão final."
-        },
-        {
-          "id": "E",
-          "text": "somente se o número de orações permaneceu idêntico."
-        }
+        { "id": "A", "text": "apenas o número e a ordem das palavras." },
+        { "id": "B", "text": "função, conectivo, regência, antecedente, sujeito, modo, pontuação e escopo." },
+        { "id": "C", "text": "somente se o mesmo conectivo foi preservado." },
+        { "id": "D", "text": "apenas a correção ortográfica da versão final." },
+        { "id": "E", "text": "somente se o número de orações permaneceu idêntico." }
       ],
       "correctOptionId": "B",
       "explanation": "Uma frase pode permanecer gramatical e mudar relação, alcance ou foco; os vários níveis devem ser comparados. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1778,26 +893,11 @@
       "origin": "authorial",
       "prompt": "Diante de um período com várias subordinadas encaixadas, o procedimento mais seguro é",
       "options": [
-        {
-          "id": "A",
-          "text": "delimitar verbos e analisar primeiro o encaixamento interno, avançando para a estrutura externa."
-        },
-        {
-          "id": "B",
-          "text": "classificar todas as ocorrências de 'que' como conjunções integrantes."
-        },
-        {
-          "id": "C",
-          "text": "considerar apenas a primeira oração após a matriz."
-        },
-        {
-          "id": "D",
-          "text": "ignorar formas nominais para reduzir a complexidade."
-        },
-        {
-          "id": "E",
-          "text": "analisar exclusivamente pela ordem linear, de fora para dentro."
-        }
+        { "id": "A", "text": "delimitar verbos e analisar primeiro o encaixamento interno, avançando para a estrutura externa." },
+        { "id": "B", "text": "classificar todas as ocorrências de 'que' como conjunções integrantes." },
+        { "id": "C", "text": "considerar apenas a primeira oração após a matriz." },
+        { "id": "D", "text": "ignorar formas nominais para reduzir a complexidade." },
+        { "id": "E", "text": "analisar exclusivamente pela ordem linear, de fora para dentro." }
       ],
       "correctOptionId": "A",
       "explanation": "A análise de dentro para fora identifica a função local de cada oração antes de classificar o bloco maior. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1808,26 +908,11 @@
       "origin": "previous_exam",
       "prompt": "Na conhecida frase “Ao persistirem os sintomas, o médico deverá ser consultado”, a circunstância expressa pela oração subordinada é a mesma observada em",
       "options": [
-        {
-          "id": "A",
-          "text": "ao contrário do que se previa, conseguiu concluir seus estudos."
-        },
-        {
-          "id": "B",
-          "text": "quando você chegar ao fim da corda, dê um nó nela e segure-se."
-        },
-        {
-          "id": "C",
-          "text": "ao amanhecer, cada gota de orvalho parece uma lágrima."
-        },
-        {
-          "id": "D",
-          "text": "todo ser humano evolui à proporção que se esforça para isso."
-        },
-        {
-          "id": "E",
-          "text": "você pode ser o que quiser, contanto que seja bom."
-        }
+        { "id": "A", "text": "ao contrário do que se previa, conseguiu concluir seus estudos." },
+        { "id": "B", "text": "quando você chegar ao fim da corda, dê um nó nela e segure-se." },
+        { "id": "C", "text": "ao amanhecer, cada gota de orvalho parece uma lágrima." },
+        { "id": "D", "text": "todo ser humano evolui à proporção que se esforça para isso." },
+        { "id": "E", "text": "você pode ser o que quiser, contanto que seja bom." }
       ],
       "correctOptionId": "E",
       "explanation": "Gabarito definitivo: E. Em ambos os casos, a oração subordinada expressa condição. Fonte: questão oficial; FGV; Prefeitura de Vitória/ES — Guarda Municipal, Tipo 1; 2024; questão 3; https://conhecimento.fgv.br/sites/default/files/concursos/guarda-municipal-de-vitoriacnm-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gmvitoria2024_gabarito_definitivo.pdf."
@@ -1838,26 +923,11 @@
       "origin": "previous_exam",
       "prompt": "No trecho: “`Por mais que` os efeitos da mudança climática venham ficando cada dia mais evidentes no planeta, enfrentar as suas causas tem-se mostrado uma tarefa imensamente complexa.”, a locução conjuntiva em destaque poderia ser substituída, sem alteração de sentido, por",
       "options": [
-        {
-          "id": "A",
-          "text": "porquanto."
-        },
-        {
-          "id": "B",
-          "text": "conquanto."
-        },
-        {
-          "id": "C",
-          "text": "dado que."
-        },
-        {
-          "id": "D",
-          "text": "como."
-        },
-        {
-          "id": "E",
-          "text": "à medida que."
-        }
+        { "id": "A", "text": "porquanto." },
+        { "id": "B", "text": "conquanto." },
+        { "id": "C", "text": "dado que." },
+        { "id": "D", "text": "como." },
+        { "id": "E", "text": "à medida que." }
       ],
       "correctOptionId": "B",
       "explanation": "Gabarito definitivo: B. “Por mais que” e “conquanto” introduzem relação concessiva. Fonte: questão oficial; FGV; Serviço Geológico do Brasil — Analista em Geociências — Administração, Tipo 3 (Amarela); 2025; questão 9; https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-geociencias-administracao-cns02e01-tipo-3.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-cprm.pdf. A marcação em crases apenas normaliza o destaque tipográfico do original."
@@ -1868,26 +938,11 @@
       "origin": "previous_exam",
       "prompt": "No trecho “não resta dúvida de que a causa do aquecimento global são os gases do efeito estufa emitidos por seres humanos”, assinale a opção que classifica corretamente a oração subordinada.",
       "options": [
-        {
-          "id": "A",
-          "text": "Oração subordinada adverbial causal."
-        },
-        {
-          "id": "B",
-          "text": "Oração subordinada substantiva objetiva indireta."
-        },
-        {
-          "id": "C",
-          "text": "Oração subordinada substantiva completiva nominal."
-        },
-        {
-          "id": "D",
-          "text": "Oração subordinada adjetiva restritiva."
-        },
-        {
-          "id": "E",
-          "text": "Oração subordinada adverbial consecutiva."
-        }
+        { "id": "A", "text": "Oração subordinada adverbial causal." },
+        { "id": "B", "text": "Oração subordinada substantiva objetiva indireta." },
+        { "id": "C", "text": "Oração subordinada substantiva completiva nominal." },
+        { "id": "D", "text": "Oração subordinada adjetiva restritiva." },
+        { "id": "E", "text": "Oração subordinada adverbial consecutiva." }
       ],
       "correctOptionId": "C",
       "explanation": "Gabarito definitivo: C. A oração iniciada por “de que” completa o sentido do nome “dúvida”, classificando-se como oração subordinada substantiva completiva nominal. Fonte: questão oficial; FGV; Serviço Geológico do Brasil — Analista em Geociências — Administração, Tipo 3 (Amarela); 2025; questão 10; https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-geociencias-administracao-cns02e01-tipo-3.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-cprm.pdf."
@@ -1898,29 +953,221 @@
       "origin": "previous_exam",
       "prompt": "Observe o trecho seguinte: “A compra desses livros, `mesmo que` estejamos num país sem inflação exagerada, nos ensina a valorizar nosso dinheiro, só o empregando em necessidades reais.”\nA locução sublinhada poderia ser substituída, sem prejuízo do sentido, por",
       "options": [
-        {
-          "id": "A",
-          "text": "visto que."
-        },
-        {
-          "id": "B",
-          "text": "além do que."
-        },
-        {
-          "id": "C",
-          "text": "desde que."
-        },
-        {
-          "id": "D",
-          "text": "ainda que."
-        },
-        {
-          "id": "E",
-          "text": "mais do que."
-        }
+        { "id": "A", "text": "visto que." },
+        { "id": "B", "text": "além do que." },
+        { "id": "C", "text": "desde que." },
+        { "id": "D", "text": "ainda que." },
+        { "id": "E", "text": "mais do que." }
       ],
       "correctOptionId": "D",
       "explanation": "Gabarito definitivo: D. “Mesmo que” e “ainda que” exprimem concessão. Fonte: questão oficial; FGV; Assembleia Legislativa do Maranhão — Assistente Legislativo Administrativo — Criador e Desenvolvedor de Web e Plataformas Digitais, Tipo 2 (Verde); 2023; questão 14; https://conhecimento.fgv.br/sites/default/files/concursos/cnm201-assistente-legislativo-administrativo-criador-e-desenvolvedor-de-web-e-plataformas-digitaiscnm201-tipo-2.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf. A marcação em crases apenas normaliza o sublinhado do original."
+    },
+    {
+      "id": "q3343",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "É preciso estar atento e forte.\nSobre a estrutura sintática da frase em destaque, assinale a opção incorreta.",
+      "options": [
+        { "id": "A", "text": "Existe uma oração subordinada que exerce função de sujeito em relação à oração principal." },
+        { "id": "B", "text": "Nota-se uma oração subordinada substantiva, em que a segunda oração exerce função própria de um substantivo em relação à oração principal." },
+        { "id": "C", "text": "Observa-se uma oração subordinada reduzida de infinitivo." },
+        { "id": "D", "text": "Verifica-se a possibilidade de desenvolver a segunda oração em “que se esteja atento e forte”." },
+        { "id": "E", "text": "Há uma oração subordinada que delimita a informação presente na oração principal." }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Gabarito definitivo: E. “Estar atento e forte” é oração subordinada substantiva subjetiva reduzida de infinitivo; não delimita termo antecedente como faria uma oração adjetiva. Fonte: questão oficial; FGV; DATAPREV — Analista de Processamento, Tipo 1; 2024; questão 1; https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-processamentocns013-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf."
+    },
+    {
+      "id": "q3344",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção que relaciona de modo incorreto o adjetivo à locução adjetiva destacada.",
+      "options": [
+        { "id": "A", "text": "Pessoas `que não se contentavam com o que tinham` - descontentes." },
+        { "id": "B", "text": "Uma ferida `que não se apagava` - indelével." },
+        { "id": "C", "text": "Havia algo em sua imagem `que não se podia distinguir` - indistinguível." },
+        { "id": "D", "text": "Tinha a característica de alguém `que não se irrita com facilidade` – irascível." },
+        { "id": "E", "text": "Água e álcool são elementos `que não se misturam` - imiscíveis." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Gabarito definitivo: D. “Irascível” significa propenso a irritar-se ou colérico, não alguém que não se irrita com facilidade; as demais equivalências preservam o valor das orações adjetivas destacadas. Fonte: questão oficial; FGV; DATAPREV — Analista de Processamento, Tipo 1; 2024; questão 6; https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-processamentocns013-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf. A marcação em crases apenas normaliza o destaque tipográfico do original."
+    },
+    {
+      "id": "q3345",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção que indica corretamente a noção semântica expressa pelo elemento destacado em: “A moça recostara-se em uma cadeira de balanço no claro de uma janela, `de modo que` seu gracioso vulto imergia-se na plena luz”.",
+      "options": [
+        { "id": "A", "text": "Consequência." },
+        { "id": "B", "text": "Causa." },
+        { "id": "C", "text": "Finalidade." },
+        { "id": "D", "text": "Tempo." },
+        { "id": "E", "text": "Proporcionalidade." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Gabarito definitivo: A. “De modo que” introduz a consequência da posição da moça junto à janela. Fonte: questão oficial; FGV; DATAPREV — Analista de Processamento, Tipo 1; 2024; questão 9; https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-processamentocns013-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf. A marcação em crases apenas normaliza o destaque tipográfico do original."
+    },
+    {
+      "id": "q3346",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção que apresenta a frase que mostra uma oração concessiva.",
+      "options": [
+        { "id": "A", "text": "A fantasia não tem limites, ainda que a arte os tenha." },
+        { "id": "B", "text": "Não devemos nunca nos acostumar com a vida, pois isso seria a morte." },
+        { "id": "C", "text": "Uma forma de expressão estabelecida é também uma forma de opressão." },
+        { "id": "D", "text": "É muito mais fácil perdoar um inimigo depois que acertamos as contas com ele." },
+        { "id": "E", "text": "Quanto mais tempo discutimos, tanto mais longe nos achamos do fim da discussão." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Gabarito definitivo: A. A locução “ainda que” introduz oração subordinada adverbial concessiva. Fonte: questão oficial; FGV; Polícia Civil de Minas Gerais — Perito Criminal, Área I, Tipo 1; 2025; questão 10; https://conhecimento.fgv.br/sites/default/files/concursos/perito-criminal-area-icns301-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabaritodefinitivo_pcgmperito1-002pcmg.pdf."
+    },
+    {
+      "id": "q3347",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase abaixo em que uma oração desenvolvida foi substituída por uma oração reduzida de mesmo sentido.",
+      "options": [
+        { "id": "A", "text": "Abençoado aquele que faz com que meus companheiros riam / Abençoado aquele que faz meus companheiros rindo." },
+        { "id": "B", "text": "As crianças só são felizes porque ignoram o que seja a felicidade / As crianças só são felizes se ignorarem o que seja a felicidade." },
+        { "id": "C", "text": "Mesmo que alguém vivesse duas vezes mil anos, não veria a felicidade / Mesmo alguém vivendo duas vezes mil anos, não veria a felicidade." },
+        { "id": "D", "text": "A felicidade é como as neblinas ligeiras: quando estamos dentro dela, não a vemos / A felicidade é como as neblinas ligeiras: para estarmos dentro dela, não a vemos." },
+        { "id": "E", "text": "A verdadeira felicidade custa pouco; se é cara, não é de boa categoria / A verdadeira felicidade custa pouco; se encarecer, não é de boa categoria." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Gabarito definitivo: C. A oração concessiva desenvolvida “Mesmo que alguém vivesse...” é corretamente reduzida de gerúndio em “Mesmo alguém vivendo...”, preservando o sentido. Fonte: questão oficial; FGV; TRT da 13.ª Região — Técnico Judiciário, Área Administrativa, sem especialidade, Tipo 1; 2022; questão 8; https://conhecimento.fgv.br/sites/default/files/concursos/cnm201_-_tecnico_judiciario_area_administrativa_-_sem_especialidadecnm201_tipo_1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trtpb2022_gabarito_definitivo_-_atualizado_2023-01-12.pdf."
+    },
+    {
+      "id": "q3348",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção em que a modificação de oração reduzida para desenvolvida foi feita de forma correta e adequada.",
+      "options": [
+        { "id": "A", "text": "Na abastança é impossível compreender as lutas da miséria / Na abastança é impossível que se compreenda as lutas da miséria." },
+        { "id": "B", "text": "Todos nós somos doidos, mas ninguém tem o direito de impor aos outros a sua loucura / Todos nós somos loucos, mas ninguém tem o direito de imposição aos outros da sua loucura." },
+        { "id": "C", "text": "Qualquer um para entrar no hospício deveria assinar um termo / Qualquer um para que entre no hospício deveria assinar um termo." },
+        { "id": "D", "text": "Foi importante comunicar nossas decisões previamente / Foi importante a comunicação de nossas decisões previamente." },
+        { "id": "E", "text": "Será bastante útil ter a nossa disposição ferramentas adequadas / Será bastante útil que tenhamos a nossa disposição ferramentas adequadas." }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Gabarito definitivo: E. A transformação de “ter” em “que tenhamos” desenvolve a oração substantiva sem alterar a função nem o sentido; as demais propostas alteram estrutura, regência ou não produzem uma oração desenvolvida equivalente. Fonte: questão oficial; FGV; Câmara Municipal de Taubaté — Apresentador Legislativo de Rádio e Televisão, prova da tarde, Tipo 1; 2022; questão 13; https://conhecimento.fgv.br/sites/default/files/concursos/apresentador_legislativo_de_radio_e_televisao_tardee2t2cns01_tipo_1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_cmt_-_edital02.pdf."
+    },
+    {
+      "id": "q3349",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "As opções a seguir apresentam orações subordinadas adverbiais.\nAssinale aquela em que a classificação dada está correta.",
+      "options": [
+        { "id": "A", "text": "Se eu fosse rei, instituiria cátedras para ensinar a calar / oração comparativa." },
+        { "id": "B", "text": "Quando se tem tudo para temer, não se deve temer nada / oração condicional." },
+        { "id": "C", "text": "Não há nada de tão absurdo que o hábito não torne aceitável / oração consecutiva." },
+        { "id": "D", "text": "Algumas pessoas foram consideradas corajosas porque tinham medo de fugir / oração final." },
+        { "id": "E", "text": "Dai-me força e coragem para contemplar meu interior / oração concessiva." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Gabarito definitivo: C. A correlação “tão ... que” introduz oração subordinada adverbial consecutiva. Fonte: questão oficial; FGV; Assembleia Legislativa do Maranhão — Assistente Legislativo Administrativo — Agente Legislativo, Tipo 4; 2023; questão 14; https://conhecimento.fgv.br/sites/default/files/concursos/cnm202-assistente-legislativo-administrativo-agente-legislativocnm202-tipo-4.pdf. Gabarito oficial definitivo retificado: https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf."
+    },
+    {
+      "id": "q3350",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Observe o seguinte fragmento textual.\n“Há uma tendência, em nossa sociedade crescentemente complexa e altamente tecnológica, de esquecer que a democracia americana é menos uma forma de governo e mais uma romântica preferência por uma particular estrutura de valores”.\nSobre seu significado ou estruturação, é correto afirmar que",
+      "options": [
+        { "id": "A", "text": "o adjetivo “romântica” mostra um elogio à estrutura da democracia americana." },
+        { "id": "B", "text": "“complexa” e “altamente tecnológica” são adjetivos que se opõem no sentido." },
+        { "id": "C", "text": "“de esquecer” é um termo dependente sintaticamente do substantivo “tendência”." },
+        { "id": "D", "text": "o fragmento mostra uma opinião abalizada da sociedade moderna sobre a democracia americana." },
+        { "id": "E", "text": "os termos “menos” e “mais” mostram uma exclusão do primeiro em função do segundo." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Gabarito definitivo: C. O segmento “de esquecer” completa o substantivo “tendência” e exemplifica subordinação entre termos, com dependência sintática de um núcleo nominal. Fonte: questão oficial; FGV; Secretaria Municipal de Fazenda de Cuiabá — Auditor Fiscal Tributário da Receita Municipal, Área Direito/Processo Tributário, Prova I, manhã, Tipo 1; 2024; questão 7; https://conhecimento.fgv.br/sites/default/files/concursos/smf-cuiaba-area-direito-processo-tributario-prova-i-manha-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_semef_cuiaba_v2.pdf."
+    },
+    {
+      "id": "q3351",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção em que a oração reduzida de infinitivo é corretamente transformada em oração desenvolvida.",
+      "options": [
+        { "id": "A", "text": "Para fazer um bom soldado é necessária uma certa dose de sacrifício. / Para que se faça." },
+        { "id": "B", "text": "Os políticos olham muito o passado para se esquecerem do presente / para o esquecimento do presente." },
+        { "id": "C", "text": "O movimento ecológico está ajudando a preservar inúmeras espécies de políticos / a que se preserve." },
+        { "id": "D", "text": "O presidente me deu o privilégio de escolher o diretor da empresa. / de que escolha." },
+        { "id": "E", "text": "Ser político é ser amigo o suficiente para romper a amizade / para que se rompesse a amizade." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Gabarito definitivo: A. “Para fazer” pode ser desenvolvida como “Para que se faça”, preservando a relação final; nas demais opções há nominalização ou alteração de estrutura, sujeito, tempo/modo ou sentido. Fonte: questão oficial; FGV; Secretaria Municipal de Fazenda de Cuiabá — Auditor Fiscal Tributário da Receita Municipal, Área Direito/Processo Tributário, Prova I, manhã, Tipo 1; 2024; questão 8; https://conhecimento.fgv.br/sites/default/files/concursos/smf-cuiaba-area-direito-processo-tributario-prova-i-manha-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_semef_cuiaba_v2.pdf."
+    },
+    {
+      "id": "q3352",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Todas as frases abaixo mostram uma oração adjetiva.\nAssinale a frase em que a substituição dessa oração por um aposto de sentido equivalente, foi realizada de forma adequada,",
+      "options": [
+        { "id": "A", "text": "Morse, que inventou o telégrafo, era americano / Morse, criador do telégrafo, era americano." },
+        { "id": "B", "text": "Lope de Veja, que escreveu muitas comédias, era espanhol / Lope de Veja, comediante, era espanhol." },
+        { "id": "C", "text": "Aquele ator, que tinha algum dinheiro, era brasileiro / Aquele ator, biliardário, era brasileiro." },
+        { "id": "D", "text": "A mulher dele, que vestia roupas finas, era francesa / A mulher dele, exibida, era francesa." },
+        { "id": "E", "text": "O livro dele, que se publicou recentemente, é criativo / O livro dele, recém-escrito, é criativo." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Gabarito definitivo: A. “Criador do telégrafo” funciona como aposto equivalente à oração adjetiva explicativa “que inventou o telégrafo”. Fonte: questão oficial; FGV; NITTRANS — Técnico de Segurança do Trabalho, Tipo 1; 2025; questão 7; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-de-seguranca-do-trabalhocnt001-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-nittrans.pdf."
+    },
+    {
+      "id": "q3353",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Todas as opções a seguir mostram uma oração adjetiva sublinhada.\nAssinale aquela opção em que essa oração foi substituída de forma adequada por um adjetivo.",
+      "options": [
+        { "id": "A", "text": "Os preços vão melhorar na semana `que vem` / superveniente." },
+        { "id": "B", "text": "A montanha é um obstáculo `que não se pode transpor` / transponível." },
+        { "id": "C", "text": "Nossos adeptos são membros do partido `que atuam` nas comunidades em que vivem / atores." },
+        { "id": "D", "text": "Professor `que tem competência` deve ser protegido / competidor." },
+        { "id": "E", "text": "Estamos numa sociedade `que carece` de educação / carente." }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Gabarito definitivo: E. “Carente” equivale adequadamente à oração adjetiva “que carece”; as demais substituições não preservam o valor semântico. Fonte: questão oficial; FGV; Ministério Público do Estado do Rio de Janeiro — Técnico do Ministério Público, Área Administrativa, Tipo 1; 2025; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-ministerio-publico-area-administrativacnm101-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabdef-consolidado-mprj-tecnico.pdf. A marcação em crases apenas normaliza o sublinhado do original."
+    },
+    {
+      "id": "q3354",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a afirmativa em que se trocou adequadamente uma oração adjetiva por um adjetivo de valor equivalente.",
+      "options": [
+        { "id": "A", "text": "O estudo é uma atividade que não para nunca. / descontínua" },
+        { "id": "B", "text": "É para muitos um sucesso que ficou pouco tempo. / alternativo" },
+        { "id": "C", "text": "O maior problema é uma doença que se prolonga por muito tempo. / inata" },
+        { "id": "D", "text": "O objetivo é um governo que só dura certo tempo. / instável" },
+        { "id": "E", "text": "O concurso público é um esforço que dura pouco. / efêmero" }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Gabarito definitivo: E. “Efêmero” significa de curta duração e substitui adequadamente “que dura pouco”. Fonte: questão oficial; FGV; Procuradoria-Geral do Município do Rio de Janeiro — Analista de Procuradoria, Especialidade Comunicação, Tipo 1; 2025; questão 4; https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-procuradoria-especialidade-comunicacao-pgmcns202-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-procuradoria-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q3355",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase abaixo em que a oração adjetiva sublinhada foi adequadamente substituída por um adjetivo.",
+      "options": [
+        { "id": "A", "text": "Os pagamentos `que são feitos a cada dois meses` mostram risco de atraso. / bimensais." },
+        { "id": "B", "text": "As visitas `que ocorrem todas as semanas` não trazem benefícios aos presos. / diárias." },
+        { "id": "C", "text": "Os benefícios `que duram muito pouco tempo`. / efêmeros." },
+        { "id": "D", "text": "Os ruídos `que duram toda a noite`. / diuturnos." },
+        { "id": "E", "text": "Os jornais `que são publicados pela manhã` são os mais procurados. / vespertinos." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Gabarito definitivo: C. “Efêmeros” equivale a “que duram muito pouco tempo”; as demais substituições não correspondem à oração adjetiva original. Fonte: questão oficial; FGV; Prefeitura de São José dos Campos — Analista em Gestão Municipal, Tecnologia da Informação, Tipo 1; 2024; questão 6; https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-gestao-municipal-tecnologia-da-informacao-cns001-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/sjctecnologia2024_gabarito_definitivo_20240208.pdf. A marcação em crases apenas normaliza o sublinhado do original."
+    },
+    {
+      "id": "q3356",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O que tanta gente foi fazer do lado de fora do tribunal onde foi julgado um dos mais famosos casais acusados de assassinato no país? Torcer pela justiça, sim: as evidências permitiam uma forte convicção sobre os culpados, muito antes do encerramento das investigações. Contudo, para torcer pela justiça, não era necessário acampar na porta do tribunal, de onde ninguém podia pressionar os jurados. Bastava fazer abaixo-assinados via Internet pela condenação do pai e da madrasta da vítima. O que foram fazer lá, ao vivo? Penso que as pessoas não torceram apenas pela condenação dos principais suspeitos. Torceram também para que a versão que inculpou o pai e a madrasta fosse verdadeira.\n\nO relativo alívio que se sente ao saber que um assassinato se explica a partir do círculo de relações pessoais da vítima talvez tenha duas explicações. Primeiro, a fantasia de que em nossas famílias isso nunca há de acontecer. Em geral temos mais controle sobre nossas relações íntimas que sobre o acaso dos maus encontros que podem nos vitimar em uma cidade grande. Segundo, porque o crime familiar permite o lenitivo da construção de uma narrativa. Se toda morte violenta, ou súbita, nos deixa frente a frente com o real traumático, busca-se a possibilidade de inscrever o acontecido em uma narrativa, ainda que terrível, capaz de produzir sentido para o que não tem tamanho nem nunca terá, o que não tem conserto nem nunca terá, o que não faz sentido.\n\nMaria Rita Khel. A morte do sentido. Internet: <www.mariaritakehl.psc.br> (com adaptações).\n\nCom base no texto acima, julgue o item seguinte.\n\nSem prejuízo da correção gramatical e do sentido do texto, a oração “que inculpou o pai e a madrasta” (R.11-12) poderia ser isolada por vírgulas, sendo a opção pelo emprego desse sinal de pontuação uma questão de estilo apenas.",
+      "options": [
+        { "id": "C", "text": "Certo" },
+        { "id": "E", "text": "Errado" }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Gabarito definitivo: E (Errado). A oração relativa é restritiva; isolá-la por vírgulas produziria leitura explicativa e alteraria o alcance e o sentido, portanto não seria mera escolha estilística. Fonte: questão oficial; Cebraspe (CESPE/UnB); Departamento de Polícia Federal — Escrivão de Polícia Federal; 2013; item 8; https://cdn.cebraspe.org.br/concursos/DPF_12_ESCRIVAO/arquivos/DPF13ESC_001_01.pdf. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/DPF_12_ESCRIVAO/arquivos/Gab_Definitivo_DPF13ESC_001_01.PDF. O formato binário C/E foi preservado com as duas opções originais de julgamento."
     }
   ]
 }
