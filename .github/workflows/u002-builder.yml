@@ -1,0 +1,92 @@
+name: U002 builder
+
+on:
+  push:
+    branches:
+      - roadmap/u002-tipos-generos-textuais
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: "!contains(github.event.head_commit.message, '[u002-built]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Append verified previous-exam questions
+        shell: bash
+        run: |
+          python - <<'PY'
+          import base64
+          import gzip
+          import hashlib
+          import json
+          import pathlib
+          import re
+          import textwrap
+
+          path = pathlib.Path("src/content/biblioteca/lingua-portuguesa/tipos-generos-textuais/questoes.json")
+          raw = path.read_bytes()
+          blob_sha = hashlib.sha1(f"blob {len(raw)}\0".encode() + raw).hexdigest()
+          assert blob_sha == "5ccb1fdb58fb922bfd3c0cc16bc93f1e8813411f", blob_sha
+          text = raw.decode("utf-8")
+          before = json.loads(text)
+          assert before["schemaVersion"] == 1
+          assert before["questionSetRevision"] == 3
+          assert len(before["questions"]) == 64
+          assert before["questions"][0]["id"] == "q031"
+          assert before["questions"][-1]["id"] == "q094"
+
+          payload_dir = pathlib.Path(".u002-payload")
+          encoded = "".join(part.read_text().strip() for part in sorted(payload_dir.glob("part-*.b64")))
+          assert len(encoded) == 17436
+          assert hashlib.sha256(encoded.encode()).hexdigest() == "db9211496a81185a6a1146d7219172dbebed9f966bbd910575dfec61148d623c"
+          new_questions = json.loads(gzip.decompress(base64.b64decode(encoded)).decode("utf-8"))
+          assert len(new_questions) == 24
+          assert [q["id"] for q in new_questions] == [f"q{i:03d}" for i in range(95, 119)]
+
+          existing_ids = {q["id"] for q in before["questions"]}
+          assert not existing_ids.intersection(q["id"] for q in new_questions)
+          for question in new_questions:
+              assert question["revision"] == 1
+              assert question["origin"] == "previous_exam"
+              option_ids = [o["id"] for o in question["options"]]
+              assert option_ids == ["a", "b", "c", "d", "e"]
+              assert question["correctOptionId"] in option_ids
+
+          old_norm = {re.sub(r"\s+", " ", q["prompt"]).strip().casefold() for q in before["questions"]}
+          new_norm = [re.sub(r"\s+", " ", q["prompt"]).strip().casefold() for q in new_questions]
+          assert len(set(new_norm)) == len(new_norm)
+          assert not old_norm.intersection(new_norm)
+
+          old_revision = '  "questionSetRevision": 3,'
+          assert text.count(old_revision) == 1
+          suffix = "\n  ]\n}"
+          assert text.endswith(suffix)
+          serialized = [textwrap.indent(json.dumps(q, ensure_ascii=False, indent=2), "    ") for q in new_questions]
+          updated = text.replace(old_revision, '  "questionSetRevision": 4,', 1)
+          updated = updated[:-len(suffix)] + ",\n" + ",\n".join(serialized) + suffix
+
+          after = json.loads(updated)
+          assert after["questionSetRevision"] == 4
+          assert len(after["questions"]) == 88
+          assert after["questions"][:64] == before["questions"]
+          assert [q["id"] for q in after["questions"][-24:]] == [f"q{i:03d}" for i in range(95, 119)]
+          all_ids = [q["id"] for q in after["questions"]]
+          assert len(all_ids) == len(set(all_ids))
+          for question in after["questions"]:
+              option_ids = [o["id"] for o in question["options"]]
+              assert question["correctOptionId"] in option_ids
+
+          path.write_bytes(updated.encode("utf-8"))
+          print(f"validated: {len(before['questions'])} -> {len(after['questions'])}; revision 3 -> 4")
+          PY
+          rm -rf .u002-payload .github/workflows/u002-builder.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Amplia questões reais U002 — tipos e gêneros textuais [u002-built]"
+          git push
