@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q4779",
@@ -1801,6 +1801,54 @@
       ],
       "correctOptionId": "A",
       "explanation": "O desenho articula os quatro eixos do assunto, sem eliminar monitoramento, correção ou revisão futura."
+    },
+    {
+      "id": "q5220351",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere que um portal do governo eletrônico tenha publicado um vídeo institucional com áudio e imagem para divulgar uma nova política pública. Considere, ainda, que esse vídeo possua uma descrição textual da imagem que aparece na tela, mas que não ofereça legendas nem transcrição do áudio. Nessa situação hipotética, a publicação do vídeo no portal está em desconformidade com as diretrizes de acessibilidade do eMAG.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Certo. A ausência de legendas e de transcrição do áudio mantém barreira de acesso ao conteúdo audiovisual nas condições descritas. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/Gab_Definitivo_088_FUB_018_01.pdf. Fonte: questão oficial; Cebraspe; Fundação Universidade de Brasília (FUB) — Técnico de Tecnologia da Informação; 2025; item 84; https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/088_FUB_018_01.pdf."
+    },
+    {
+      "id": "q5220352",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em novembro de 2025, foi sancionada a Lei nº 15.263, que ‘institui a Política Nacional de Linguagem Simples nos órgãos e entidades da administração pública direta e indireta de todos os Poderes da União, dos Estados, do Distrito Federal e dos Municípios’.\n\nEsse ato gerou algumas críticas por indicar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o uso de listas, tabelas, recursos gráficos, termos técnicos e estrangeirismos, mesmo que legendados, traduzidos ou explicados, estivesse proibido nas comunicações oficiais."
+        },
+        {
+          "id": "B",
+          "text": "quando a comunicação oficial se destinasse a comunidades indígenas, ela fosse publicada prioritariamente na língua dos destinatários."
+        },
+        {
+          "id": "C",
+          "text": "o uso da Linguagem Simples, de início, aumentaria os custos administrativos e o tempo com atividades de atendimento ao cidadão, pois ele estaria mais próximo do poder público."
+        },
+        {
+          "id": "D",
+          "text": "não fossem usadas novas formas de flexão de gênero e de número das palavras da língua portuguesa, que estivessem em desacordo com as regras gramaticais já consolidadas."
+        },
+        {
+          "id": "E",
+          "text": "fossem usadas estruturas linguísticas de linguagem simples, destinadas unicamente a pessoas com deficiência, empobrecendo os conteúdos institucionais."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alternativa D é o gabarito definitivo: a Lei nº 15.263/2025 prevê que a administração pública não use novas formas de flexão de gênero e de número em desacordo com as regras gramaticais consolidadas. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/ale_ro-gabarito-definitivo.pdf. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado de Rondônia — Analista Legislativo — Comunicação Social — Relações Públicas; 2026; questão 64; https://conhecimento.fgv.br/sites/default/files/concursos/cnsal08-analista-legislativo-comunicacao-social-relacoes-publicas-cnsal08-tipo-1.pdf."
     }
   ]
 }
