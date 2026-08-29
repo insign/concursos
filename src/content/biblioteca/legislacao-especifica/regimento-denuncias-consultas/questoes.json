@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q6219",
@@ -1801,6 +1801,36 @@
       ],
       "correctOptionId": "E",
       "explanation": "A alternativa reúne as três distinções corretas: denúncia ampla, exceção do art. 20 e natureza normativa do prejulgado."
+    },
+    {
+      "id": "fcc_tce_ma_2005_q66",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A consulta formulada ao Tribunal de Contas do Estado do Maranhão deve:\n\nI. Conter indicação precisa de seu objeto.\nII. Ser formulada articuladamente.\nIII. Ser instruída, sempre que possível, com parecer do órgão de assistência técnica ou jurídica da autoridade consulente.\nIV. Ter demonstrada sua pertinência temática com a atribuição da Pasta da autoridade consulente quando formulada por Secretário de Estado.\n\nEstão corretos os itens",
+      "options": [
+        {
+          "id": "A",
+          "text": "I e II, apenas."
+        },
+        {
+          "id": "B",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "C",
+          "text": "I e IV, apenas."
+        },
+        {
+          "id": "D",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "E",
+          "text": "I, II, III e IV."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Os quatro itens correspondem aos requisitos cobrados pela FCC: indicação precisa do objeto, formulação articulada, parecer técnico ou jurídico sempre que possível e, para Secretário de Estado, pertinência temática. O gabarito definitivo é E, corroborado pelo arquivo de gabarito associado e por repositório que identifica a prova como gabarito definitivo. Fonte: questão oficial; FCC; TCE/MA — Analista de Controle Externo; 2005; questão 66; https://arquivos.qconcursos.com/prova/arquivo_prova/78856/fcc-2005-tce-ma-analista-de-controle-externo-prova.pdf."
     }
   ]
 }
