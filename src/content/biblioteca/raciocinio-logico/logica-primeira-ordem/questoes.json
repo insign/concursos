@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q5079",
@@ -913,6 +913,63 @@
       ],
       "correctOptionId": "E",
       "explanation": "A frase exige ∃x(¬p(x) ∧ ¬q(x)); já ¬(p(x) → q(x)) equivale a p(x) ∧ ¬q(x). Logo, a representação proposta não corresponde à frase e o item é errado. Fonte: questão oficial; Cebraspe; Câmara dos Deputados — Técnico Legislativo, Especialidade Policial Legislativo Federal; 2026; item 42; https://cdn.cebraspe.org.br/concursos/cd_26_pl/arquivos/6BA6C911910A9996895927100E426BD4733C0601F6E27F998FD96D420A356EDC.pdf. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/CD_26_PL/arquivos/8F0511C4502CAC8A5705D0E0CEFA75BF710D19558FF34EB0A66FAD449B8863AC.pdf."
+    },
+    {
+      "id": "q52204001",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere a seguinte proposição:\n“Todos os crimes foram sustentados por alguma evidência ou por algum depoimento”.\nA negação dessa proposição é logicamente equivalente a:",
+      "options": [
+        {"id": "A", "text": "Algum crime não foi sustentado por qualquer evidência, nem por qualquer depoimento."},
+        {"id": "B", "text": "Algum crime não foi sustentado por alguma evidência ou por algum depoimento."},
+        {"id": "C", "text": "Nenhum crime foi sustentado por todas as evidências ou por todos os depoimentos."},
+        {"id": "D", "text": "Todos os crimes não foram sustentados por alguma evidência ou por algum depoimento."},
+        {"id": "E", "text": "Todos os crimes não foram sustentados por alguma evidência, nem por algum depoimento."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Negar o universal exige ao menos um crime que seja contraexemplo; para esse crime, negar que haja alguma evidência ou algum depoimento que o sustente exige a ausência de ambos os tipos de suporte. Fonte: questão oficial; FGV; Polícia Civil do Estado do Piauí — Perito Oficial Criminal Odontolegista, Tipo 1; 2026; questão 13; https://conhecimento.fgv.br/sites/default/files/concursos/perito-oficial-criminal-odontolegista-cns213-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/pc-pi-investigador-e-perito-2025.pdf."
+    },
+    {
+      "id": "q52204002",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere a seguinte afirmação:\nTodo restaurante capixaba vende moqueca e caranguejada.\nA negação dessa proposição é logicamente equivalente a",
+      "options": [
+        {"id": "A", "text": "Há, pelo menos, um restaurante capixaba que não vende moqueca ou não vende caranguejada."},
+        {"id": "B", "text": "Há, pelo menos, um restaurante capixaba que não vende moqueca, nem vende caranguejada."},
+        {"id": "C", "text": "Todos os restaurantes capixabas não vendem moqueca ou não vendem caranguejada."},
+        {"id": "D", "text": "Todos os restaurantes capixabas não vendem moqueca, nem vendem caranguejada."},
+        {"id": "E", "text": "Todo restaurante que não vende moqueca, nem vende caranguejada, não é capixaba."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A negação de “todo” troca o universal por um existencial e, pela lei de De Morgan, negar “vende moqueca e caranguejada” resulta em “não vende moqueca ou não vende caranguejada”. Fonte: questão oficial; FGV; Secretaria Municipal de Saúde de Nova Iguaçu — Fiscal Sanitário — Odontologia, Tipo 1; 2025; questão 6; https://conhecimento.fgv.br/sites/default/files/concursos/fiscal-sanitario-odontologia-cns011-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-smsnovaiguacu.pdf."
+    },
+    {
+      "id": "q52204003",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A central de segurança de um condomínio comercial recebe Selo Verde se o zelador tiver, para toda porta no condomínio, pelo menos uma chave que a tranque; caso contrário, a central de segurança recebe Selo Vermelho. Se a central de segurança de um condomínio comercial recebeu Selo Vermelho, então, necessariamente, nesse condomínio,",
+      "options": [
+        {"id": "A", "text": "o zelador tem pelo menos uma chave que não tranca todas as portas."},
+        {"id": "B", "text": "nenhuma porta pode ser trancada por todas as chaves do zelador."},
+        {"id": "C", "text": "o zelador tem pelo menos uma chave que não tranca nenhuma porta."},
+        {"id": "D", "text": "existe pelo menos uma porta que não pode ser trancada por nenhuma chave do zelador."},
+        {"id": "E", "text": "todas as chaves do zelador trancam todas as portas."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Selo Vermelho nega a condição “para toda porta, existe pelo menos uma chave que a tranque”. A negação de ∀porta∃chave R troca os quantificadores e nega a relação: existe uma porta que nenhuma chave tranca, alternativa D. Fonte: caderno FCC do concurso SANASA Campinas — Analista de Tecnologia da Informação — Análise e Desenvolvimento; 2019; questão 29, preservado em repositório reconhecido: https://arquivos.qconcursos.com/prova/arquivo_prova/65153/fcc-2019-sanasa-campinas-analista-de-tecnologia-da-informacao-analise-e-desenvolvimento-prova.pdf. Gabarito D corroborado pelo espelho da prova: https://www.qconcursos.com/questoes-de-concursos/provas/fcc-2019-sanasa-campinas-analista-de-tecnologia-da-informacao-analise-e-desenvolvimento/questoes?page=2."
+    },
+    {
+      "id": "q52204004",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em determinado dia, 1.000 veículos de carga, com seus respectivos condutores e cargas, passaram por um posto de fiscalização de fronteira. Desses, 800 estavam com a documentação em situação regular — o veículo, o condutor e a carga —, e 200 apresentavam alguma irregularidade na documentação — do veículo, do condutor ou da carga. Além disso, as placas de todos esses 1.000 veículos foram devidamente registradas.\n\nTendo como base a situação hipotética apresentada, julgue os itens seguintes.\n\nA negação da sentença “todo condutor abordado na fiscalização era brasileiro ou estrangeiro” é a seguinte sentença: “nenhum condutor abordado na fiscalização era brasileiro ou estrangeiro”.",
+      "options": [
+        {"id": "C", "text": "Certo"},
+        {"id": "E", "text": "Errado"}
+      ],
+      "correctOptionId": "E",
+      "explanation": "Negar “todo condutor é brasileiro ou estrangeiro” exige a existência de ao menos um condutor que não seja brasileiro nem estrangeiro; não equivale a afirmar que nenhum condutor é brasileiro ou estrangeiro. Por isso, o item é errado. Fonte: questão oficial; Cebraspe; Polícia Federal — Conhecimentos Básicos, Bloco I, cargos 15 (Escrivão), 16 (Agente) e 17 (Papiloscopista); 2025; item 57; https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/C9D120798ADE72251CD5943D08BC5CE6B496A6DDABA37ABCF6A5CCD9D5F57CA9.pdf. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/D0F881898A969B6733B878291FC1201E6CFE079281391E04B7EE322628BC888C.pdf."
     }
   ]
 }
