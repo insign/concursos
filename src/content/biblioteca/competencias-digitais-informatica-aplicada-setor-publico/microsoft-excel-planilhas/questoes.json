@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q3999",
@@ -8,26 +8,11 @@
       "origin": "authorial",
       "prompt": "Em uma pasta de trabalho do Excel, é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "uma planilha é o arquivo completo e cada pasta de trabalho ocupa uma única célula."
-        },
-        {
-          "id": "B",
-          "text": "uma pasta de trabalho é o arquivo e pode conter uma ou mais planilhas."
-        },
-        {
-          "id": "C",
-          "text": "pasta de trabalho e planilha são necessariamente sinônimos."
-        },
-        {
-          "id": "D",
-          "text": "cada planilha só pode conter uma coluna e uma linha."
-        },
-        {
-          "id": "E",
-          "text": "uma pasta de trabalho não pode conter gráficos nem fórmulas."
-        }
+        {"id": "A", "text": "uma planilha é o arquivo completo e cada pasta de trabalho ocupa uma única célula."},
+        {"id": "B", "text": "uma pasta de trabalho é o arquivo e pode conter uma ou mais planilhas."},
+        {"id": "C", "text": "pasta de trabalho e planilha são necessariamente sinônimos."},
+        {"id": "D", "text": "cada planilha só pode conter uma coluna e uma linha."},
+        {"id": "E", "text": "uma pasta de trabalho não pode conter gráficos nem fórmulas."}
       ],
       "correctOptionId": "B",
       "explanation": "A pasta de trabalho é o arquivo; as planilhas são abas internas. Uma pasta pode reunir várias planilhas, fórmulas, tabelas e gráficos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -38,26 +23,11 @@
       "origin": "authorial",
       "prompt": "O endereço `D7` identifica",
       "options": [
-        {
-          "id": "A",
-          "text": "o intervalo entre as colunas D e G."
-        },
-        {
-          "id": "B",
-          "text": "a sétima planilha da pasta D."
-        },
-        {
-          "id": "C",
-          "text": "a linha D e a coluna 7."
-        },
-        {
-          "id": "D",
-          "text": "a célula localizada na coluna D e na linha 7."
-        },
-        {
-          "id": "E",
-          "text": "uma referência absoluta à coluna D e à linha 7."
-        }
+        {"id": "A", "text": "o intervalo entre as colunas D e G."},
+        {"id": "B", "text": "a sétima planilha da pasta D."},
+        {"id": "C", "text": "a linha D e a coluna 7."},
+        {"id": "D", "text": "a célula localizada na coluna D e na linha 7."},
+        {"id": "E", "text": "uma referência absoluta à coluna D e à linha 7."}
       ],
       "correctOptionId": "D",
       "explanation": "O endereço comum combina letra da coluna e número da linha. Como não há cifrões, a referência não é absoluta. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -68,26 +38,11 @@
       "origin": "authorial",
       "prompt": "Quando uma célula exibe o resultado `125`, mas foi calculada por `=A2+B2`, a Barra de Fórmulas normalmente mostra",
       "options": [
-        {
-          "id": "A",
-          "text": "somente o valor 125, pois a fórmula é apagada após o cálculo."
-        },
-        {
-          "id": "B",
-          "text": "o endereço da próxima célula vazia."
-        },
-        {
-          "id": "C",
-          "text": "a fórmula `=A2+B2`, enquanto a grade mostra o resultado calculado."
-        },
-        {
-          "id": "D",
-          "text": "apenas o formato numérico aplicado."
-        },
-        {
-          "id": "E",
-          "text": "obrigatoriamente o código interno do arquivo XLSX."
-        }
+        {"id": "A", "text": "somente o valor 125, pois a fórmula é apagada após o cálculo."},
+        {"id": "B", "text": "o endereço da próxima célula vazia."},
+        {"id": "C", "text": "a fórmula `=A2+B2`, enquanto a grade mostra o resultado calculado."},
+        {"id": "D", "text": "apenas o formato numérico aplicado."},
+        {"id": "E", "text": "obrigatoriamente o código interno do arquivo XLSX."}
       ],
       "correctOptionId": "C",
       "explanation": "A célula pode exibir o resultado, enquanto a Barra de Fórmulas preserva e mostra a expressão armazenada. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -98,26 +53,11 @@
       "origin": "authorial",
       "prompt": "Sobre limpar, excluir e ocultar no Excel, assinale a alternativa correta.",
       "options": [
-        {
-          "id": "A",
-          "text": "Excluir uma linha altera a estrutura; limpar conteúdo preserva a linha; ocultar apenas retira a linha da visualização normal."
-        },
-        {
-          "id": "B",
-          "text": "Limpar conteúdo e excluir linha sempre produzem o mesmo deslocamento."
-        },
-        {
-          "id": "C",
-          "text": "Ocultar uma linha apaga definitivamente seus dados."
-        },
-        {
-          "id": "D",
-          "text": "Excluir uma linha preserva todas as referências sem qualquer ajuste."
-        },
-        {
-          "id": "E",
-          "text": "Limpar formatos remove também todas as fórmulas."
-        }
+        {"id": "A", "text": "Excluir uma linha altera a estrutura; limpar conteúdo preserva a linha; ocultar apenas retira a linha da visualização normal."},
+        {"id": "B", "text": "Limpar conteúdo e excluir linha sempre produzem o mesmo deslocamento."},
+        {"id": "C", "text": "Ocultar uma linha apaga definitivamente seus dados."},
+        {"id": "D", "text": "Excluir uma linha preserva todas as referências sem qualquer ajuste."},
+        {"id": "E", "text": "Limpar formatos remove também todas as fórmulas."}
       ],
       "correctOptionId": "A",
       "explanation": "São operações distintas: limpar remove conteúdo ou aparência, excluir altera a estrutura e ocultar conserva dados. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -128,26 +68,11 @@
       "origin": "authorial",
       "prompt": "O intervalo `B2:E5` contém",
       "options": [
-        {
-          "id": "A",
-          "text": "16 células, organizadas em quatro colunas e quatro linhas."
-        },
-        {
-          "id": "B",
-          "text": "8 células, pois os extremos não são incluídos."
-        },
-        {
-          "id": "C",
-          "text": "10 células, correspondentes à soma dos números dos endereços."
-        },
-        {
-          "id": "D",
-          "text": "12 células, pois a coluna E é apenas referência final."
-        },
-        {
-          "id": "E",
-          "text": "20 células, pois cada linha tem cinco células."
-        }
+        {"id": "A", "text": "16 células, organizadas em quatro colunas e quatro linhas."},
+        {"id": "B", "text": "8 células, pois os extremos não são incluídos."},
+        {"id": "C", "text": "10 células, correspondentes à soma dos números dos endereços."},
+        {"id": "D", "text": "12 células, pois a coluna E é apenas referência final."},
+        {"id": "E", "text": "20 células, pois cada linha tem cinco células."}
       ],
       "correctOptionId": "A",
       "explanation": "O retângulo inclui B, C, D e E e as linhas 2, 3, 4 e 5: 4 × 4 = 16. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -158,26 +83,11 @@
       "origin": "authorial",
       "prompt": "A referência `Cadastro!A2` indica",
       "options": [
-        {
-          "id": "A",
-          "text": "uma pasta externa chamada Cadastro aberta na célula A2."
-        },
-        {
-          "id": "B",
-          "text": "um nome definido que obrigatoriamente aponta para a célula ativa."
-        },
-        {
-          "id": "C",
-          "text": "a célula A2 da planilha chamada Cadastro na mesma pasta de trabalho."
-        },
-        {
-          "id": "D",
-          "text": "a coluna Cadastro da planilha A2."
-        },
-        {
-          "id": "E",
-          "text": "uma referência absoluta, porque contém ponto de exclamação."
-        }
+        {"id": "A", "text": "uma pasta externa chamada Cadastro aberta na célula A2."},
+        {"id": "B", "text": "um nome definido que obrigatoriamente aponta para a célula ativa."},
+        {"id": "C", "text": "a célula A2 da planilha chamada Cadastro na mesma pasta de trabalho."},
+        {"id": "D", "text": "a coluna Cadastro da planilha A2."},
+        {"id": "E", "text": "uma referência absoluta, porque contém ponto de exclamação."}
       ],
       "correctOptionId": "C",
       "explanation": "O ponto de exclamação separa o nome da planilha do endereço. Cifrões, e não o ponto de exclamação, definem referência absoluta. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -188,26 +98,11 @@
       "origin": "authorial",
       "prompt": "Uma célula contém o valor numérico `0,25` e recebe o formato Porcentagem. Em regra, ela passa a exibir",
       "options": [
-        {
-          "id": "A",
-          "text": "`0,25%`, porque o formato apenas acrescenta o símbolo."
-        },
-        {
-          "id": "B",
-          "text": "`25%`, sem que o valor armazenado precise deixar de ser 0,25."
-        },
-        {
-          "id": "C",
-          "text": "`2500%`, pois o Excel multiplica o valor armazenado por cem duas vezes."
-        },
-        {
-          "id": "D",
-          "text": "`25`, convertendo o conteúdo em texto."
-        },
-        {
-          "id": "E",
-          "text": "`0,0025`, porque o formato divide o valor armazenado por cem."
-        }
+        {"id": "A", "text": "`0,25%`, porque o formato apenas acrescenta o símbolo."},
+        {"id": "B", "text": "`25%`, sem que o valor armazenado precise deixar de ser 0,25."},
+        {"id": "C", "text": "`2500%`, pois o Excel multiplica o valor armazenado por cem duas vezes."},
+        {"id": "D", "text": "`25`, convertendo o conteúdo em texto."},
+        {"id": "E", "text": "`0,0025`, porque o formato divide o valor armazenado por cem."}
       ],
       "correctOptionId": "B",
       "explanation": "O formato percentual apresenta 0,25 como 25%. A camada de exibição não é necessariamente o valor interno. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -218,26 +113,11 @@
       "origin": "authorial",
       "prompt": "Quando o usuário digita `15%` em uma célula numérica, o Excel normalmente armazena o valor equivalente a",
       "options": [
-        {
-          "id": "A",
-          "text": "`15` como texto."
-        },
-        {
-          "id": "B",
-          "text": "`1500`."
-        },
-        {
-          "id": "C",
-          "text": "`0,15`."
-        },
-        {
-          "id": "D",
-          "text": "`0,015`."
-        },
-        {
-          "id": "E",
-          "text": "`15/1000`."
-        }
+        {"id": "A", "text": "`15` como texto."},
+        {"id": "B", "text": "`1500`."},
+        {"id": "C", "text": "`0,15`."},
+        {"id": "D", "text": "`0,015`."},
+        {"id": "E", "text": "`15/1000`."}
       ],
       "correctOptionId": "C",
       "explanation": "Porcentagem representa divisão por cem: 15% corresponde a 0,15. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -248,26 +128,11 @@
       "origin": "authorial",
       "prompt": "No Excel, datas válidas são normalmente armazenadas como",
       "options": [
-        {
-          "id": "A",
-          "text": "imagens incorporadas à célula."
-        },
-        {
-          "id": "B",
-          "text": "texto obrigatório, sem possibilidade de cálculo."
-        },
-        {
-          "id": "C",
-          "text": "números seriais, exibidos conforme o formato de data aplicado."
-        },
-        {
-          "id": "D",
-          "text": "nomes definidos invisíveis."
-        },
-        {
-          "id": "E",
-          "text": "comentários associados à linha."
-        }
+        {"id": "A", "text": "imagens incorporadas à célula."},
+        {"id": "B", "text": "texto obrigatório, sem possibilidade de cálculo."},
+        {"id": "C", "text": "números seriais, exibidos conforme o formato de data aplicado."},
+        {"id": "D", "text": "nomes definidos invisíveis."},
+        {"id": "E", "text": "comentários associados à linha."}
       ],
       "correctOptionId": "C",
       "explanation": "Datas e horas são representadas numericamente, o que permite somar dias e calcular diferenças. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -278,26 +143,11 @@
       "origin": "authorial",
       "prompt": "Uma coluna contém códigos como `00127`, nos quais os zeros à esquerda são significativos. A estratégia mais segura é",
       "options": [
-        {
-          "id": "A",
-          "text": "converter todos os códigos em porcentagem."
-        },
-        {
-          "id": "B",
-          "text": "usar sempre o formato Geral e confiar que os zeros serão mantidos."
-        },
-        {
-          "id": "C",
-          "text": "somar zero a cada código antes de salvar."
-        },
-        {
-          "id": "D",
-          "text": "armazenar os códigos como texto ou aplicar uma modelagem que preserve explicitamente os zeros."
-        },
-        {
-          "id": "E",
-          "text": "transformar a coluna em data."
-        }
+        {"id": "A", "text": "converter todos os códigos em porcentagem."},
+        {"id": "B", "text": "usar sempre o formato Geral e confiar que os zeros serão mantidos."},
+        {"id": "C", "text": "somar zero a cada código antes de salvar."},
+        {"id": "D", "text": "armazenar os códigos como texto ou aplicar uma modelagem que preserve explicitamente os zeros."},
+        {"id": "E", "text": "transformar a coluna em data."}
       ],
       "correctOptionId": "D",
       "explanation": "Códigos são identificadores, não quantidades. Armazená-los como texto evita a perda de zeros à esquerda. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -308,26 +158,11 @@
       "origin": "authorial",
       "prompt": "Reduzir o número de casas decimais exibidas de quatro para duas",
       "options": [
-        {
-          "id": "A",
-          "text": "pode arredondar apenas a aparência, preservando maior precisão no valor armazenado."
-        },
-        {
-          "id": "B",
-          "text": "sempre substitui definitivamente o valor por duas casas."
-        },
-        {
-          "id": "C",
-          "text": "converte o número em texto."
-        },
-        {
-          "id": "D",
-          "text": "elimina todas as fórmulas dependentes."
-        },
-        {
-          "id": "E",
-          "text": "altera automaticamente o separador decimal do sistema."
-        }
+        {"id": "A", "text": "pode arredondar apenas a aparência, preservando maior precisão no valor armazenado."},
+        {"id": "B", "text": "sempre substitui definitivamente o valor por duas casas."},
+        {"id": "C", "text": "converte o número em texto."},
+        {"id": "D", "text": "elimina todas as fórmulas dependentes."},
+        {"id": "E", "text": "altera automaticamente o separador decimal do sistema."}
       ],
       "correctOptionId": "A",
       "explanation": "Formatação pode esconder casas sem alterar a precisão interna. Cálculos posteriores podem continuar usando o valor completo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -338,26 +173,11 @@
       "origin": "authorial",
       "prompt": "Uma coluna com os valores textuais `1`, `10` e `2` pode ser ordenada como `1`, `10`, `2` porque",
       "options": [
-        {
-          "id": "A",
-          "text": "o Excel sempre ordena números nessa sequência."
-        },
-        {
-          "id": "B",
-          "text": "a coluna foi obrigatoriamente convertida em data."
-        },
-        {
-          "id": "C",
-          "text": "o formato Moeda força essa ordem."
-        },
-        {
-          "id": "D",
-          "text": "texto é comparado lexicograficamente, e não como quantidade numérica."
-        },
-        {
-          "id": "E",
-          "text": "o valor 10 é considerado vazio."
-        }
+        {"id": "A", "text": "o Excel sempre ordena números nessa sequência."},
+        {"id": "B", "text": "a coluna foi obrigatoriamente convertida em data."},
+        {"id": "C", "text": "o formato Moeda força essa ordem."},
+        {"id": "D", "text": "texto é comparado lexicograficamente, e não como quantidade numérica."},
+        {"id": "E", "text": "o valor 10 é considerado vazio."}
       ],
       "correctOptionId": "D",
       "explanation": "Números armazenados como texto podem ordenar por caracteres. Converter só é adequado quando representam quantidades. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -368,26 +188,11 @@
       "origin": "authorial",
       "prompt": "Qual expressão é reconhecida como fórmula no Excel?",
       "options": [
-        {
-          "id": "A",
-          "text": "`=B2*C2`"
-        },
-        {
-          "id": "B",
-          "text": "`B2*C2` sem sinal inicial, em qualquer configuração."
-        },
-        {
-          "id": "C",
-          "text": "`FÓRMULA:B2*C2`"
-        },
-        {
-          "id": "D",
-          "text": "`#B2*C2`"
-        },
-        {
-          "id": "E",
-          "text": "`@B2*C2` como regra universal para fórmulas comuns."
-        }
+        {"id": "A", "text": "`=B2*C2`"},
+        {"id": "B", "text": "`B2*C2` sem sinal inicial, em qualquer configuração."},
+        {"id": "C", "text": "`FÓRMULA:B2*C2`"},
+        {"id": "D", "text": "`#B2*C2`"},
+        {"id": "E", "text": "`@B2*C2` como regra universal para fórmulas comuns."}
       ],
       "correctOptionId": "A",
       "explanation": "Em regra, fórmulas são iniciadas por `=`. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -398,26 +203,11 @@
       "origin": "authorial",
       "prompt": "O resultado de `=2+3*4` é",
       "options": [
-        {
-          "id": "A",
-          "text": "`20`, porque o Excel calcula sempre estritamente da esquerda para a direita."
-        },
-        {
-          "id": "B",
-          "text": "`24`, porque a soma é elevada ao quadrado."
-        },
-        {
-          "id": "C",
-          "text": "`9`, porque o operador `*` é ignorado."
-        },
-        {
-          "id": "D",
-          "text": "`5`, porque somente a primeira operação é executada."
-        },
-        {
-          "id": "E",
-          "text": "`14`, porque multiplicação precede adição."
-        }
+        {"id": "A", "text": "`20`, porque o Excel calcula sempre estritamente da esquerda para a direita."},
+        {"id": "B", "text": "`24`, porque a soma é elevada ao quadrado."},
+        {"id": "C", "text": "`9`, porque o operador `*` é ignorado."},
+        {"id": "D", "text": "`5`, porque somente a primeira operação é executada."},
+        {"id": "E", "text": "`14`, porque multiplicação precede adição."}
       ],
       "correctOptionId": "E",
       "explanation": "A precedência faz 3×4 antes de somar 2. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -428,26 +218,11 @@
       "origin": "authorial",
       "prompt": "O resultado de `=(2+3)*4` é",
       "options": [
-        {
-          "id": "A",
-          "text": "`14`, pois parênteses não alteram precedência."
-        },
-        {
-          "id": "B",
-          "text": "`9`, pois a multiplicação é executada antes do conteúdo entre parênteses."
-        },
-        {
-          "id": "C",
-          "text": "`24`, pois 4 é somado duas vezes."
-        },
-        {
-          "id": "D",
-          "text": "`5`, pois o operador externo é ignorado."
-        },
-        {
-          "id": "E",
-          "text": "`20`, pois os parênteses antecipam a soma."
-        }
+        {"id": "A", "text": "`14`, pois parênteses não alteram precedência."},
+        {"id": "B", "text": "`9`, pois a multiplicação é executada antes do conteúdo entre parênteses."},
+        {"id": "C", "text": "`24`, pois 4 é somado duas vezes."},
+        {"id": "D", "text": "`5`, pois o operador externo é ignorado."},
+        {"id": "E", "text": "`20`, pois os parênteses antecipam a soma."}
       ],
       "correctOptionId": "E",
       "explanation": "Parênteses modificam a ordem padrão: 2+3 é calculado antes da multiplicação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -458,26 +233,11 @@
       "origin": "authorial",
       "prompt": "Na fórmula `=A2&\" - \"&B2`, o operador `&`",
       "options": [
-        {
-          "id": "A",
-          "text": "soma numericamente A2 e B2."
-        },
-        {
-          "id": "B",
-          "text": "concatena os conteúdos e o texto intermediário."
-        },
-        {
-          "id": "C",
-          "text": "cria uma referência absoluta."
-        },
-        {
-          "id": "D",
-          "text": "calcula a interseção de dois intervalos."
-        },
-        {
-          "id": "E",
-          "text": "compara se A2 é maior que B2."
-        }
+        {"id": "A", "text": "soma numericamente A2 e B2."},
+        {"id": "B", "text": "concatena os conteúdos e o texto intermediário."},
+        {"id": "C", "text": "cria uma referência absoluta."},
+        {"id": "D", "text": "calcula a interseção de dois intervalos."},
+        {"id": "E", "text": "compara se A2 é maior que B2."}
       ],
       "correctOptionId": "B",
       "explanation": "`&` é operador de concatenação textual. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -488,26 +248,11 @@
       "origin": "authorial",
       "prompt": "A expressão `A2<>B2` é verdadeira quando",
       "options": [
-        {
-          "id": "A",
-          "text": "A2 é maior ou igual a B2."
-        },
-        {
-          "id": "B",
-          "text": "os valores de A2 e B2 são diferentes."
-        },
-        {
-          "id": "C",
-          "text": "A2 e B2 são idênticos."
-        },
-        {
-          "id": "D",
-          "text": "A2 está vazio."
-        },
-        {
-          "id": "E",
-          "text": "B2 contém texto e A2 contém número, independentemente dos valores."
-        }
+        {"id": "A", "text": "A2 é maior ou igual a B2."},
+        {"id": "B", "text": "os valores de A2 e B2 são diferentes."},
+        {"id": "C", "text": "A2 e B2 são idênticos."},
+        {"id": "D", "text": "A2 está vazio."},
+        {"id": "E", "text": "B2 contém texto e A2 contém número, independentemente dos valores."}
       ],
       "correctOptionId": "B",
       "explanation": "`<>` significa “diferente de”. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -518,26 +263,11 @@
       "origin": "authorial",
       "prompt": "Em uma instalação configurada para Português (Brasil), é comum usar",
       "options": [
-        {
-          "id": "A",
-          "text": "ponto decimal e vírgula entre argumentos em todas as máquinas, sem exceção."
-        },
-        {
-          "id": "B",
-          "text": "dois-pontos como separador decimal."
-        },
-        {
-          "id": "C",
-          "text": "barra como separador obrigatório de argumentos."
-        },
-        {
-          "id": "D",
-          "text": "o mesmo separador em qualquer país e plataforma."
-        },
-        {
-          "id": "E",
-          "text": "vírgula como separador decimal e ponto e vírgula entre argumentos, mas a configuração regional deve ser observada."
-        }
+        {"id": "A", "text": "ponto decimal e vírgula entre argumentos em todas as máquinas, sem exceção."},
+        {"id": "B", "text": "dois-pontos como separador decimal."},
+        {"id": "C", "text": "barra como separador obrigatório de argumentos."},
+        {"id": "D", "text": "o mesmo separador em qualquer país e plataforma."},
+        {"id": "E", "text": "vírgula como separador decimal e ponto e vírgula entre argumentos, mas a configuração regional deve ser observada."}
       ],
       "correctOptionId": "E",
       "explanation": "Sintaxe localizada depende da configuração regional; a associação pt-BR é comum, não universal. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -548,26 +278,11 @@
       "origin": "authorial",
       "prompt": "A referência relativa `B2`, copiada uma linha para baixo, normalmente se torna",
       "options": [
-        {
-          "id": "A",
-          "text": "`$B$2`."
-        },
-        {
-          "id": "B",
-          "text": "`B3`."
-        },
-        {
-          "id": "C",
-          "text": "`C2`."
-        },
-        {
-          "id": "D",
-          "text": "`B1`."
-        },
-        {
-          "id": "E",
-          "text": "`$B3`."
-        }
+        {"id": "A", "text": "`$B$2`."},
+        {"id": "B", "text": "`B3`."},
+        {"id": "C", "text": "`C2`."},
+        {"id": "D", "text": "`B1`."},
+        {"id": "E", "text": "`$B3`."}
       ],
       "correctOptionId": "B",
       "explanation": "Referências relativas ajustam linha e coluna segundo o deslocamento. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -578,26 +293,11 @@
       "origin": "authorial",
       "prompt": "Em `=B2*$H$1`, a referência `$H$1`",
       "options": [
-        {
-          "id": "A",
-          "text": "mantém apenas a coluna H fixa."
-        },
-        {
-          "id": "B",
-          "text": "mantém apenas a linha 1 fixa."
-        },
-        {
-          "id": "C",
-          "text": "permanece fixa ao copiar a fórmula para outras linhas e colunas."
-        },
-        {
-          "id": "D",
-          "text": "varia como uma referência totalmente relativa."
-        },
-        {
-          "id": "E",
-          "text": "é inválida por possuir dois cifrões."
-        }
+        {"id": "A", "text": "mantém apenas a coluna H fixa."},
+        {"id": "B", "text": "mantém apenas a linha 1 fixa."},
+        {"id": "C", "text": "permanece fixa ao copiar a fórmula para outras linhas e colunas."},
+        {"id": "D", "text": "varia como uma referência totalmente relativa."},
+        {"id": "E", "text": "é inválida por possuir dois cifrões."}
       ],
       "correctOptionId": "C",
       "explanation": "Cifrões antes da coluna e da linha tornam ambas absolutas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -608,26 +308,11 @@
       "origin": "authorial",
       "prompt": "A fórmula `=$A2*B$1` é copiada uma coluna à direita e uma linha abaixo. A nova fórmula é",
       "options": [
-        {
-          "id": "A",
-          "text": "`=$B3*C$2`."
-        },
-        {
-          "id": "B",
-          "text": "`=A3*$B1`."
-        },
-        {
-          "id": "C",
-          "text": "`=$A2*B$1`, sem qualquer alteração."
-        },
-        {
-          "id": "D",
-          "text": "`=$A3*C$1`."
-        },
-        {
-          "id": "E",
-          "text": "`=A$3*$C1`."
-        }
+        {"id": "A", "text": "`=$B3*C$2`."},
+        {"id": "B", "text": "`=A3*$B1`."},
+        {"id": "C", "text": "`=$A2*B$1`, sem qualquer alteração."},
+        {"id": "D", "text": "`=$A3*C$1`."},
+        {"id": "E", "text": "`=A$3*$C1`."}
       ],
       "correctOptionId": "D",
       "explanation": "A coluna A fica fixa, a linha 2 varia para 3; B varia para C, e a linha 1 fica fixa. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -638,26 +323,11 @@
       "origin": "authorial",
       "prompt": "Uma referência circular ocorre quando",
       "options": [
-        {
-          "id": "A",
-          "text": "uma fórmula usa uma célula de outra planilha."
-        },
-        {
-          "id": "B",
-          "text": "uma fórmula depende direta ou indiretamente da própria célula."
-        },
-        {
-          "id": "C",
-          "text": "um intervalo possui mais de cem linhas."
-        },
-        {
-          "id": "D",
-          "text": "uma célula é formatada como porcentagem."
-        },
-        {
-          "id": "E",
-          "text": "uma função contém dois critérios."
-        }
+        {"id": "A", "text": "uma fórmula usa uma célula de outra planilha."},
+        {"id": "B", "text": "uma fórmula depende direta ou indiretamente da própria célula."},
+        {"id": "C", "text": "um intervalo possui mais de cem linhas."},
+        {"id": "D", "text": "uma célula é formatada como porcentagem."},
+        {"id": "E", "text": "uma função contém dois critérios."}
       ],
       "correctOptionId": "B",
       "explanation": "Dependência de si mesma forma ciclo. Cálculo iterativo não deve ser presumido. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -668,26 +338,11 @@
       "origin": "authorial",
       "prompt": "Em C2 está `=A2+B2`. Ao copiar a fórmula para C3, o comportamento relativo padrão produz",
       "options": [
-        {
-          "id": "A",
-          "text": "`=A2+B2`."
-        },
-        {
-          "id": "B",
-          "text": "`=$A$2+$B$2`."
-        },
-        {
-          "id": "C",
-          "text": "`=B2+C2`."
-        },
-        {
-          "id": "D",
-          "text": "`=A3+B3`."
-        },
-        {
-          "id": "E",
-          "text": "`=A3+B2`."
-        }
+        {"id": "A", "text": "`=A2+B2`."},
+        {"id": "B", "text": "`=$A$2+$B$2`."},
+        {"id": "C", "text": "`=B2+C2`."},
+        {"id": "D", "text": "`=A3+B3`."},
+        {"id": "E", "text": "`=A3+B2`."}
       ],
       "correctOptionId": "D",
       "explanation": "Linhas relativas acompanham o deslocamento da fórmula. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -698,26 +353,11 @@
       "origin": "authorial",
       "prompt": "Na referência `A2:A10`, o operador `:` representa",
       "options": [
-        {
-          "id": "A",
-          "text": "concatenação de texto."
-        },
-        {
-          "id": "B",
-          "text": "comparação de igualdade."
-        },
-        {
-          "id": "C",
-          "text": "o intervalo contínuo entre A2 e A10, inclusive."
-        },
-        {
-          "id": "D",
-          "text": "divisão entre dois endereços."
-        },
-        {
-          "id": "E",
-          "text": "referência externa."
-        }
+        {"id": "A", "text": "concatenação de texto."},
+        {"id": "B", "text": "comparação de igualdade."},
+        {"id": "C", "text": "o intervalo contínuo entre A2 e A10, inclusive."},
+        {"id": "D", "text": "divisão entre dois endereços."},
+        {"id": "E", "text": "referência externa."}
       ],
       "correctOptionId": "C",
       "explanation": "Dois-pontos é operador de intervalo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -728,26 +368,11 @@
       "origin": "authorial",
       "prompt": "Para totalizar os valores numéricos de E2:E100 e obter a média, usam-se, respectivamente,",
       "options": [
-        {
-          "id": "A",
-          "text": "`CONT.NÚM(E2:E100)` e `SOMA(E2:E100)`."
-        },
-        {
-          "id": "B",
-          "text": "`SOMA(E2:E100)` e `MÉDIA(E2:E100)`."
-        },
-        {
-          "id": "C",
-          "text": "`MÁXIMO(E2:E100)` e `MÍNIMO(E2:E100)`."
-        },
-        {
-          "id": "D",
-          "text": "`CONT.VALORES(E2:E100)` e `MAIOR(E2:E100;1)`."
-        },
-        {
-          "id": "E",
-          "text": "`SOMASE(E2:E100)` e `PROCV(E2:E100)`."
-        }
+        {"id": "A", "text": "`CONT.NÚM(E2:E100)` e `SOMA(E2:E100)`."},
+        {"id": "B", "text": "`SOMA(E2:E100)` e `MÉDIA(E2:E100)`."},
+        {"id": "C", "text": "`MÁXIMO(E2:E100)` e `MÍNIMO(E2:E100)`."},
+        {"id": "D", "text": "`CONT.VALORES(E2:E100)` e `MAIOR(E2:E100;1)`."},
+        {"id": "E", "text": "`SOMASE(E2:E100)` e `PROCV(E2:E100)`."}
       ],
       "correctOptionId": "B",
       "explanation": "SOMA totaliza; MÉDIA calcula a média aritmética dos valores considerados. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -758,26 +383,11 @@
       "origin": "authorial",
       "prompt": "Para retornar o terceiro maior valor de E2:E100, a fórmula adequada é",
       "options": [
-        {
-          "id": "A",
-          "text": "`=MÁXIMO(E2:E100;3)`."
-        },
-        {
-          "id": "B",
-          "text": "`=MENOR(E2:E100;3)`."
-        },
-        {
-          "id": "C",
-          "text": "`=CONT.NÚM(E2:E100;3)`."
-        },
-        {
-          "id": "D",
-          "text": "`=MAIOR(E2:E100;3)`."
-        },
-        {
-          "id": "E",
-          "text": "`=MÉDIA(E2:E100;3)`."
-        }
+        {"id": "A", "text": "`=MÁXIMO(E2:E100;3)`."},
+        {"id": "B", "text": "`=MENOR(E2:E100;3)`."},
+        {"id": "C", "text": "`=CONT.NÚM(E2:E100;3)`."},
+        {"id": "D", "text": "`=MAIOR(E2:E100;3)`."},
+        {"id": "E", "text": "`=MÉDIA(E2:E100;3)`."}
       ],
       "correctOptionId": "D",
       "explanation": "MAIOR recebe a posição k. MÁXIMO retorna apenas o maior extremo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -788,26 +398,11 @@
       "origin": "authorial",
       "prompt": "Qual fórmula retorna o segundo menor valor de A2:A20?",
       "options": [
-        {
-          "id": "A",
-          "text": "`=MÍNIMO(A2:A20;2)`"
-        },
-        {
-          "id": "B",
-          "text": "`=MAIOR(A2:A20;2)`"
-        },
-        {
-          "id": "C",
-          "text": "`=MENOR(A2:A20;2)`"
-        },
-        {
-          "id": "D",
-          "text": "`=MENOR(A2:A20;-2)`"
-        },
-        {
-          "id": "E",
-          "text": "`=CONT.SE(A2:A20;2)`"
-        }
+        {"id": "A", "text": "`=MÍNIMO(A2:A20;2)`"},
+        {"id": "B", "text": "`=MAIOR(A2:A20;2)`"},
+        {"id": "C", "text": "`=MENOR(A2:A20;2)`"},
+        {"id": "D", "text": "`=MENOR(A2:A20;-2)`"},
+        {"id": "E", "text": "`=CONT.SE(A2:A20;2)`"}
       ],
       "correctOptionId": "C",
       "explanation": "MENOR retorna o k-ésimo menor; k=2 seleciona o segundo menor. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -818,26 +413,11 @@
       "origin": "authorial",
       "prompt": "A diferença entre `CONT.NÚM` e `CONT.VALORES` é que",
       "options": [
-        {
-          "id": "A",
-          "text": "`CONT.NÚM` soma números; `CONT.VALORES` calcula a média."
-        },
-        {
-          "id": "B",
-          "text": "`CONT.NÚM` conta somente texto; `CONT.VALORES` somente datas."
-        },
-        {
-          "id": "C",
-          "text": "as duas funções contam exclusivamente células vazias."
-        },
-        {
-          "id": "D",
-          "text": "`CONT.VALORES` ignora texto e conta somente números."
-        },
-        {
-          "id": "E",
-          "text": "`CONT.NÚM` conta células numéricas; `CONT.VALORES` conta células não vazias."
-        }
+        {"id": "A", "text": "`CONT.NÚM` soma números; `CONT.VALORES` calcula a média."},
+        {"id": "B", "text": "`CONT.NÚM` conta somente texto; `CONT.VALORES` somente datas."},
+        {"id": "C", "text": "as duas funções contam exclusivamente células vazias."},
+        {"id": "D", "text": "`CONT.VALORES` ignora texto e conta somente números."},
+        {"id": "E", "text": "`CONT.NÚM` conta células numéricas; `CONT.VALORES` conta células não vazias."}
       ],
       "correctOptionId": "E",
       "explanation": "As funções têm critérios de contagem diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -848,26 +428,11 @@
       "origin": "authorial",
       "prompt": "Uma célula contém a fórmula `=\"\"` e aparece vazia. Sobre contagens, é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "ela pode ser tratada como não vazia por `CONT.VALORES`, embora visualmente não mostre caracteres."
-        },
-        {
-          "id": "B",
-          "text": "ela é sempre idêntica a uma célula nunca utilizada em qualquer função."
-        },
-        {
-          "id": "C",
-          "text": "`CONT.NÚM` sempre a conta como número."
-        },
-        {
-          "id": "D",
-          "text": "ela contém o valor numérico zero."
-        },
-        {
-          "id": "E",
-          "text": "ela gera obrigatoriamente `#VALOR!`."
-        }
+        {"id": "A", "text": "ela pode ser tratada como não vazia por `CONT.VALORES`, embora visualmente não mostre caracteres."},
+        {"id": "B", "text": "ela é sempre idêntica a uma célula nunca utilizada em qualquer função."},
+        {"id": "C", "text": "`CONT.NÚM` sempre a conta como número."},
+        {"id": "D", "text": "ela contém o valor numérico zero."},
+        {"id": "E", "text": "ela gera obrigatoriamente `#VALOR!`."}
       ],
       "correctOptionId": "A",
       "explanation": "Texto vazio produzido por fórmula pode não ser uma célula realmente vazia. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -878,26 +443,11 @@
       "origin": "authorial",
       "prompt": "A fórmula `=SOMASE(A2:A10;\">70\")`",
       "options": [
-        {
-          "id": "A",
-          "text": "conta quantos valores são maiores que 70."
-        },
-        {
-          "id": "B",
-          "text": "soma obrigatoriamente uma coluna diferente, embora ela não tenha sido informada."
-        },
-        {
-          "id": "C",
-          "text": "retorna o maior valor do intervalo."
-        },
-        {
-          "id": "D",
-          "text": "considera também o valor 70."
-        },
-        {
-          "id": "E",
-          "text": "soma no próprio intervalo A2:A10 os valores maiores que 70."
-        }
+        {"id": "A", "text": "conta quantos valores são maiores que 70."},
+        {"id": "B", "text": "soma obrigatoriamente uma coluna diferente, embora ela não tenha sido informada."},
+        {"id": "C", "text": "retorna o maior valor do intervalo."},
+        {"id": "D", "text": "considera também o valor 70."},
+        {"id": "E", "text": "soma no próprio intervalo A2:A10 os valores maiores que 70."}
       ],
       "correctOptionId": "E",
       "explanation": "Sem o terceiro argumento, SOMASE testa e soma o mesmo intervalo; `>70` exclui 70. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -908,26 +458,11 @@
       "origin": "authorial",
       "prompt": "Em `=SOMASE(B2:B100;\"Saúde\";E2:E100)`, o Excel",
       "options": [
-        {
-          "id": "A",
-          "text": "soma os textos da coluna B."
-        },
-        {
-          "id": "B",
-          "text": "conta as células “Saúde” sem somar E."
-        },
-        {
-          "id": "C",
-          "text": "soma somente quando E contém o texto “Saúde”."
-        },
-        {
-          "id": "D",
-          "text": "procura “Saúde” na primeira linha e retorna a coluna E."
-        },
-        {
-          "id": "E",
-          "text": "soma E2:E100 nas linhas em que B2:B100 é igual a “Saúde”."
-        }
+        {"id": "A", "text": "soma os textos da coluna B."},
+        {"id": "B", "text": "conta as células “Saúde” sem somar E."},
+        {"id": "C", "text": "soma somente quando E contém o texto “Saúde”."},
+        {"id": "D", "text": "procura “Saúde” na primeira linha e retorna a coluna E."},
+        {"id": "E", "text": "soma E2:E100 nas linhas em que B2:B100 é igual a “Saúde”."}
       ],
       "correctOptionId": "E",
       "explanation": "O primeiro intervalo é testado, o segundo argumento é o critério e o terceiro é o intervalo somado. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -938,26 +473,11 @@
       "origin": "authorial",
       "prompt": "A sintaxe correta de `SOMASES` começa por",
       "options": [
-        {
-          "id": "A",
-          "text": "intervalo_soma, seguido de pares intervalo_critérios e critério."
-        },
-        {
-          "id": "B",
-          "text": "critério, intervalo_soma e somente depois a função."
-        },
-        {
-          "id": "C",
-          "text": "intervalo_critérios, intervalo_soma e nenhum critério."
-        },
-        {
-          "id": "D",
-          "text": "valor_procurado, tabela e índice de coluna."
-        },
-        {
-          "id": "E",
-          "text": "teste lógico, valor verdadeiro e valor falso."
-        }
+        {"id": "A", "text": "intervalo_soma, seguido de pares intervalo_critérios e critério."},
+        {"id": "B", "text": "critério, intervalo_soma e somente depois a função."},
+        {"id": "C", "text": "intervalo_critérios, intervalo_soma e nenhum critério."},
+        {"id": "D", "text": "valor_procurado, tabela e índice de coluna."},
+        {"id": "E", "text": "teste lógico, valor verdadeiro e valor falso."}
       ],
       "correctOptionId": "A",
       "explanation": "Em SOMASES, o intervalo somado vem primeiro. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -968,26 +488,11 @@
       "origin": "authorial",
       "prompt": "A fórmula `=CONT.SES(B2:B100;\"Educação\";F2:F100;\"Pendente\")` retorna",
       "options": [
-        {
-          "id": "A",
-          "text": "a soma dos valores de B e F."
-        },
-        {
-          "id": "B",
-          "text": "a média das linhas pendentes."
-        },
-        {
-          "id": "C",
-          "text": "a quantidade de linhas que atendem a pelo menos um dos critérios."
-        },
-        {
-          "id": "D",
-          "text": "a quantidade de linhas que atendem simultaneamente aos dois critérios."
-        },
-        {
-          "id": "E",
-          "text": "o primeiro registro encontrado."
-        }
+        {"id": "A", "text": "a soma dos valores de B e F."},
+        {"id": "B", "text": "a média das linhas pendentes."},
+        {"id": "C", "text": "a quantidade de linhas que atendem a pelo menos um dos critérios."},
+        {"id": "D", "text": "a quantidade de linhas que atendem simultaneamente aos dois critérios."},
+        {"id": "E", "text": "o primeiro registro encontrado."}
       ],
       "correctOptionId": "D",
       "explanation": "CONT.SES aplica lógica conjunta aos pares de critérios e conta registros. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -998,26 +503,11 @@
       "origin": "authorial",
       "prompt": "Para somar E2:E100 apenas quando o valor for maior que o limite em H1, o critério pode ser escrito como",
       "options": [
-        {
-          "id": "A",
-          "text": "`>H1` sem aspas ou concatenação, em qualquer situação."
-        },
-        {
-          "id": "B",
-          "text": "`H1>`."
-        },
-        {
-          "id": "C",
-          "text": "`\"H1>\"`."
-        },
-        {
-          "id": "D",
-          "text": "`\">\"&H1`."
-        },
-        {
-          "id": "E",
-          "text": "`MAIOR(H1)`."
-        }
+        {"id": "A", "text": "`>H1` sem aspas ou concatenação, em qualquer situação."},
+        {"id": "B", "text": "`H1>`."},
+        {"id": "C", "text": "`\"H1>\"`."},
+        {"id": "D", "text": "`\">\"&H1`."},
+        {"id": "E", "text": "`MAIOR(H1)`."}
       ],
       "correctOptionId": "D",
       "explanation": "Operador textual e referência são unidos por concatenação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1028,26 +518,11 @@
       "origin": "authorial",
       "prompt": "Em critérios de `CONT.SE`, o padrão `\"*saúde*\"`",
       "options": [
-        {
-          "id": "A",
-          "text": "localiza textos que contêm “saúde” em qualquer posição."
-        },
-        {
-          "id": "B",
-          "text": "localiza somente o texto exatamente igual a “saúde”."
-        },
-        {
-          "id": "C",
-          "text": "representa qualquer caractere único antes e depois."
-        },
-        {
-          "id": "D",
-          "text": "procura o símbolo de asterisco literalmente sem escape."
-        },
-        {
-          "id": "E",
-          "text": "soma valores da coluna."
-        }
+        {"id": "A", "text": "localiza textos que contêm “saúde” em qualquer posição."},
+        {"id": "B", "text": "localiza somente o texto exatamente igual a “saúde”."},
+        {"id": "C", "text": "representa qualquer caractere único antes e depois."},
+        {"id": "D", "text": "procura o símbolo de asterisco literalmente sem escape."},
+        {"id": "E", "text": "soma valores da coluna."}
       ],
       "correctOptionId": "A",
       "explanation": "`*` representa qualquer sequência de caracteres. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1058,26 +533,11 @@
       "origin": "authorial",
       "prompt": "A função `SE` possui a estrutura",
       "options": [
-        {
-          "id": "A",
-          "text": "`SE(intervalo;critério;intervalo_soma)`."
-        },
-        {
-          "id": "B",
-          "text": "`SE(valor;matriz;posição)`."
-        },
-        {
-          "id": "C",
-          "text": "`SE(tabela;índice_coluna;aproximação)`."
-        },
-        {
-          "id": "D",
-          "text": "`SE(valor1;valor2)`."
-        },
-        {
-          "id": "E",
-          "text": "`SE(teste_lógico;valor_se_verdadeiro;valor_se_falso)`."
-        }
+        {"id": "A", "text": "`SE(intervalo;critério;intervalo_soma)`."},
+        {"id": "B", "text": "`SE(valor;matriz;posição)`."},
+        {"id": "C", "text": "`SE(tabela;índice_coluna;aproximação)`."},
+        {"id": "D", "text": "`SE(valor1;valor2)`."},
+        {"id": "E", "text": "`SE(teste_lógico;valor_se_verdadeiro;valor_se_falso)`."}
       ],
       "correctOptionId": "E",
       "explanation": "SE avalia um teste e escolhe entre dois resultados. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1088,26 +548,11 @@
       "origin": "authorial",
       "prompt": "Na fórmula `=SE(E(B2=\"Saúde\";E2>100000);\"Prioritário\";\"Normal\")`, a palavra “Prioritário” aparece quando",
       "options": [
-        {
-          "id": "A",
-          "text": "ao menos uma condição é verdadeira."
-        },
-        {
-          "id": "B",
-          "text": "as duas condições são falsas."
-        },
-        {
-          "id": "C",
-          "text": "B2 está vazio, independentemente de E2."
-        },
-        {
-          "id": "D",
-          "text": "E2 é menor ou igual a 100000."
-        },
-        {
-          "id": "E",
-          "text": "as duas condições são verdadeiras."
-        }
+        {"id": "A", "text": "ao menos uma condição é verdadeira."},
+        {"id": "B", "text": "as duas condições são falsas."},
+        {"id": "C", "text": "B2 está vazio, independentemente de E2."},
+        {"id": "D", "text": "E2 é menor ou igual a 100000."},
+        {"id": "E", "text": "as duas condições são verdadeiras."}
       ],
       "correctOptionId": "E",
       "explanation": "A função E exige que todas as condições sejam verdadeiras. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1118,26 +563,11 @@
       "origin": "authorial",
       "prompt": "Na fórmula `=SE(OU(F2=\"Pendente\";F2=\"Bloqueado\");\"Acompanhar\";\"Sem alerta\")`, “Acompanhar” aparece quando",
       "options": [
-        {
-          "id": "A",
-          "text": "as duas comparações são obrigatoriamente verdadeiras ao mesmo tempo."
-        },
-        {
-          "id": "B",
-          "text": "pelo menos uma das duas comparações é verdadeira."
-        },
-        {
-          "id": "C",
-          "text": "F2 contém qualquer texto diferente."
-        },
-        {
-          "id": "D",
-          "text": "F2 é numérico."
-        },
-        {
-          "id": "E",
-          "text": "nenhuma comparação é verdadeira."
-        }
+        {"id": "A", "text": "as duas comparações são obrigatoriamente verdadeiras ao mesmo tempo."},
+        {"id": "B", "text": "pelo menos uma das duas comparações é verdadeira."},
+        {"id": "C", "text": "F2 contém qualquer texto diferente."},
+        {"id": "D", "text": "F2 é numérico."},
+        {"id": "E", "text": "nenhuma comparação é verdadeira."}
       ],
       "correctOptionId": "B",
       "explanation": "OU retorna verdadeiro quando ao menos um argumento é verdadeiro. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1148,26 +578,11 @@
       "origin": "authorial",
       "prompt": "A fórmula `=SE(A2=\"valor padrão\";0;SE(B2>0,5;B2;-1))` retorna `0` quando",
       "options": [
-        {
-          "id": "A",
-          "text": "B2 é maior que 0,5 em qualquer caso."
-        },
-        {
-          "id": "B",
-          "text": "B2 é menor ou igual a 0,5 em qualquer caso."
-        },
-        {
-          "id": "C",
-          "text": "A2 é exatamente “valor padrão”, sem precisar avaliar o resultado do segundo SE."
-        },
-        {
-          "id": "D",
-          "text": "A2 contém qualquer texto."
-        },
-        {
-          "id": "E",
-          "text": "A2 é diferente e B2 é maior que 0,5."
-        }
+        {"id": "A", "text": "B2 é maior que 0,5 em qualquer caso."},
+        {"id": "B", "text": "B2 é menor ou igual a 0,5 em qualquer caso."},
+        {"id": "C", "text": "A2 é exatamente “valor padrão”, sem precisar avaliar o resultado do segundo SE."},
+        {"id": "D", "text": "A2 contém qualquer texto."},
+        {"id": "E", "text": "A2 é diferente e B2 é maior que 0,5."}
       ],
       "correctOptionId": "C",
       "explanation": "O primeiro teste tem prioridade; quando verdadeiro, o resultado é zero. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1178,26 +593,11 @@
       "origin": "authorial",
       "prompt": "Sobre `SEERRO`, assinale a alternativa correta.",
       "options": [
-        {
-          "id": "A",
-          "text": "Retorna um valor alternativo quando a expressão produz erro, mas não corrige a causa do problema."
-        },
-        {
-          "id": "B",
-          "text": "corrige automaticamente referências quebradas."
-        },
-        {
-          "id": "C",
-          "text": "transforma qualquer erro em dado confiável."
-        },
-        {
-          "id": "D",
-          "text": "devolve sempre zero, sem possibilidade de outro resultado."
-        },
-        {
-          "id": "E",
-          "text": "funciona somente com PROCV."
-        }
+        {"id": "A", "text": "Retorna um valor alternativo quando a expressão produz erro, mas não corrige a causa do problema."},
+        {"id": "B", "text": "corrige automaticamente referências quebradas."},
+        {"id": "C", "text": "transforma qualquer erro em dado confiável."},
+        {"id": "D", "text": "devolve sempre zero, sem possibilidade de outro resultado."},
+        {"id": "E", "text": "funciona somente com PROCV."}
       ],
       "correctOptionId": "A",
       "explanation": "SEERRO trata a apresentação. Referência, cadastro ou tipo inválido ainda precisam ser diagnosticados. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1208,26 +608,11 @@
       "origin": "authorial",
       "prompt": "Para buscar A2 na primeira coluna de Cadastro!A:D e retornar a quarta coluna com correspondência exata, usa-se",
       "options": [
-        {
-          "id": "A",
-          "text": "`=PROCV(A2;Cadastro!A:D;1;VERDADEIRO)`."
-        },
-        {
-          "id": "B",
-          "text": "`=PROCV(A2;Cadastro!A:D;4;FALSO)`."
-        },
-        {
-          "id": "C",
-          "text": "`=CORRESP(A2;Cadastro!A:D;4)`."
-        },
-        {
-          "id": "D",
-          "text": "`=ÍNDICE(A2;Cadastro!A:D;4)`."
-        },
-        {
-          "id": "E",
-          "text": "`=SOMASE(Cadastro!A:D;A2;4)`."
-        }
+        {"id": "A", "text": "`=PROCV(A2;Cadastro!A:D;1;VERDADEIRO)`."},
+        {"id": "B", "text": "`=PROCV(A2;Cadastro!A:D;4;FALSO)`."},
+        {"id": "C", "text": "`=CORRESP(A2;Cadastro!A:D;4)`."},
+        {"id": "D", "text": "`=ÍNDICE(A2;Cadastro!A:D;4)`."},
+        {"id": "E", "text": "`=SOMASE(Cadastro!A:D;A2;4)`."}
       ],
       "correctOptionId": "B",
       "explanation": "PROCV recebe valor, tabela, índice relativo da coluna e modo de correspondência. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1238,26 +623,11 @@
       "origin": "authorial",
       "prompt": "Uma limitação clássica de `PROCV` é",
       "options": [
-        {
-          "id": "A",
-          "text": "não aceitar correspondência exata."
-        },
-        {
-          "id": "B",
-          "text": "procurar na primeira coluna do intervalo e retornar uma coluna à direita."
-        },
-        {
-          "id": "C",
-          "text": "não funcionar com números."
-        },
-        {
-          "id": "D",
-          "text": "não poder retornar texto."
-        },
-        {
-          "id": "E",
-          "text": "exigir sempre uma Tabela Dinâmica."
-        }
+        {"id": "A", "text": "não aceitar correspondência exata."},
+        {"id": "B", "text": "procurar na primeira coluna do intervalo e retornar uma coluna à direita."},
+        {"id": "C", "text": "não funcionar com números."},
+        {"id": "D", "text": "não poder retornar texto."},
+        {"id": "E", "text": "exigir sempre uma Tabela Dinâmica."}
       ],
       "correctOptionId": "B",
       "explanation": "A coluna de busca deve ser a primeira da matriz; isso limita buscas para a esquerda. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1268,26 +638,11 @@
       "origin": "authorial",
       "prompt": "A função `CORRESP(valor;intervalo;0)` retorna",
       "options": [
-        {
-          "id": "A",
-          "text": "o valor de outra coluna."
-        },
-        {
-          "id": "B",
-          "text": "a soma dos itens correspondentes."
-        },
-        {
-          "id": "C",
-          "text": "um gráfico de correspondência."
-        },
-        {
-          "id": "D",
-          "text": "a posição relativa da correspondência exata no intervalo."
-        },
-        {
-          "id": "E",
-          "text": "a referência absoluta do arquivo."
-        }
+        {"id": "A", "text": "o valor de outra coluna."},
+        {"id": "B", "text": "a soma dos itens correspondentes."},
+        {"id": "C", "text": "um gráfico de correspondência."},
+        {"id": "D", "text": "a posição relativa da correspondência exata no intervalo."},
+        {"id": "E", "text": "a referência absoluta do arquivo."}
       ],
       "correctOptionId": "D",
       "explanation": "CORRESP entrega posição, útil como argumento de ÍNDICE. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1298,26 +653,11 @@
       "origin": "authorial",
       "prompt": "Para retornar nome de analista em A2:A100 correspondente ao maior valor de D2:D100, usa-se",
       "options": [
-        {
-          "id": "A",
-          "text": "`=PROCV(MÁXIMO(D2:D100);A2:D100;1;FALSO)`."
-        },
-        {
-          "id": "B",
-          "text": "`=CORRESP(A2:A100;MÁXIMO(D2:D100);0)`."
-        },
-        {
-          "id": "C",
-          "text": "`=SOMA(A2:A100;MÁXIMO(D2:D100))`."
-        },
-        {
-          "id": "D",
-          "text": "`=CONT.SE(A2:A100;MÁXIMO(D2:D100))`."
-        },
-        {
-          "id": "E",
-          "text": "`ÍNDICE(A2:A100;CORRESP(MÁXIMO(D2:D100);D2:D100;0))`."
-        }
+        {"id": "A", "text": "`=PROCV(MÁXIMO(D2:D100);A2:D100;1;FALSO)`."},
+        {"id": "B", "text": "`=CORRESP(A2:A100;MÁXIMO(D2:D100);0)`."},
+        {"id": "C", "text": "`=SOMA(A2:A100;MÁXIMO(D2:D100))`."},
+        {"id": "D", "text": "`=CONT.SE(A2:A100;MÁXIMO(D2:D100))`."},
+        {"id": "E", "text": "`ÍNDICE(A2:A100;CORRESP(MÁXIMO(D2:D100);D2:D100;0))`."}
       ],
       "correctOptionId": "E",
       "explanation": "CORRESP encontra a posição do maior valor, e ÍNDICE devolve o nome na posição correspondente. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1328,26 +668,11 @@
       "origin": "authorial",
       "prompt": "Sobre `PROCX`, é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "faz correspondência exata por padrão e permite matrizes separadas de busca e retorno, mas sua disponibilidade depende da versão."
-        },
-        {
-          "id": "B",
-          "text": "existe em todas as versões, inclusive Excel 2010."
-        },
-        {
-          "id": "C",
-          "text": "procura somente para a direita."
-        },
-        {
-          "id": "D",
-          "text": "exige índice numérico da coluna de retorno."
-        },
-        {
-          "id": "E",
-          "text": "não admite resultado alternativo quando o valor não é encontrado."
-        }
+        {"id": "A", "text": "faz correspondência exata por padrão e permite matrizes separadas de busca e retorno, mas sua disponibilidade depende da versão."},
+        {"id": "B", "text": "existe em todas as versões, inclusive Excel 2010."},
+        {"id": "C", "text": "procura somente para a direita."},
+        {"id": "D", "text": "exige índice numérico da coluna de retorno."},
+        {"id": "E", "text": "não admite resultado alternativo quando o valor não é encontrado."}
       ],
       "correctOptionId": "A",
       "explanation": "PROCX é moderna, flexível e não deve ser presumida em versões antigas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1358,26 +683,11 @@
       "origin": "authorial",
       "prompt": "A fórmula `=TEXTO(HOJE();\"dd/mm/aaaa\")` retorna",
       "options": [
-        {
-          "id": "A",
-          "text": "uma data numérica sem formatação."
-        },
-        {
-          "id": "B",
-          "text": "o horário atual em segundos."
-        },
-        {
-          "id": "C",
-          "text": "a data atual representada como texto no formato indicado."
-        },
-        {
-          "id": "D",
-          "text": "o nome da planilha atual."
-        },
-        {
-          "id": "E",
-          "text": "uma referência absoluta à data do arquivo."
-        }
+        {"id": "A", "text": "uma data numérica sem formatação."},
+        {"id": "B", "text": "o horário atual em segundos."},
+        {"id": "C", "text": "a data atual representada como texto no formato indicado."},
+        {"id": "D", "text": "o nome da planilha atual."},
+        {"id": "E", "text": "uma referência absoluta à data do arquivo."}
       ],
       "correctOptionId": "C",
       "explanation": "HOJE fornece a data; TEXTO converte o resultado em representação textual. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1388,26 +698,11 @@
       "origin": "authorial",
       "prompt": "Em `=A2&\" - \"&TEXTO(B2;\"dd/mm/aaaa\")`, o resultado é",
       "options": [
-        {
-          "id": "A",
-          "text": "um texto que concatena A2, separador e a data de B2 formatada como texto."
-        },
-        {
-          "id": "B",
-          "text": "a soma numérica de A2 e B2."
-        },
-        {
-          "id": "C",
-          "text": "uma Tabela Dinâmica."
-        },
-        {
-          "id": "D",
-          "text": "uma referência circular obrigatória."
-        },
-        {
-          "id": "E",
-          "text": "uma data que preserva necessariamente o tipo numérico original em todo o resultado."
-        }
+        {"id": "A", "text": "um texto que concatena A2, separador e a data de B2 formatada como texto."},
+        {"id": "B", "text": "a soma numérica de A2 e B2."},
+        {"id": "C", "text": "uma Tabela Dinâmica."},
+        {"id": "D", "text": "uma referência circular obrigatória."},
+        {"id": "E", "text": "uma data que preserva necessariamente o tipo numérico original em todo o resultado."}
       ],
       "correctOptionId": "A",
       "explanation": "Concatenação produz texto; TEXTO também devolve texto. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1418,26 +713,11 @@
       "origin": "authorial",
       "prompt": "Uma fórmula que aponta para uma célula excluída pode produzir",
       "options": [
-        {
-          "id": "A",
-          "text": "`#DIV/0!` exclusivamente."
-        },
-        {
-          "id": "B",
-          "text": "`#N/D` exclusivamente."
-        },
-        {
-          "id": "C",
-          "text": "`#DESPEJAR!` exclusivamente."
-        },
-        {
-          "id": "D",
-          "text": "nenhum erro, pois referências nunca são afetadas por exclusões."
-        },
-        {
-          "id": "E",
-          "text": "`#REF!`."
-        }
+        {"id": "A", "text": "`#DIV/0!` exclusivamente."},
+        {"id": "B", "text": "`#N/D` exclusivamente."},
+        {"id": "C", "text": "`#DESPEJAR!` exclusivamente."},
+        {"id": "D", "text": "nenhum erro, pois referências nunca são afetadas por exclusões."},
+        {"id": "E", "text": "`#REF!`."}
       ],
       "correctOptionId": "E",
       "explanation": "`#REF!` indica referência inválida. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1448,26 +728,11 @@
       "origin": "authorial",
       "prompt": "Transformar uma base em Tabela do Excel oferece, entre outros recursos,",
       "options": [
-        {
-          "id": "A",
-          "text": "agregação automática idêntica a uma Tabela Dinâmica."
-        },
-        {
-          "id": "B",
-          "text": "conversão obrigatória do arquivo para CSV."
-        },
-        {
-          "id": "C",
-          "text": "remoção automática de todas as duplicatas."
-        },
-        {
-          "id": "D",
-          "text": "filtros integrados, expansão, estilos e referências estruturadas."
-        },
-        {
-          "id": "E",
-          "text": "bloqueio de fórmulas nas colunas."
-        }
+        {"id": "A", "text": "agregação automática idêntica a uma Tabela Dinâmica."},
+        {"id": "B", "text": "conversão obrigatória do arquivo para CSV."},
+        {"id": "C", "text": "remoção automática de todas as duplicatas."},
+        {"id": "D", "text": "filtros integrados, expansão, estilos e referências estruturadas."},
+        {"id": "E", "text": "bloqueio de fórmulas nas colunas."}
       ],
       "correctOptionId": "D",
       "explanation": "A Tabela do Excel estrutura a base, mas não substitui a Tabela Dinâmica. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1478,26 +743,11 @@
       "origin": "authorial",
       "prompt": "Uma base possui colunas Processo, Unidade e Valor. Ao classificar apenas a coluna Valor sem expandir a seleção, há risco de",
       "options": [
-        {
-          "id": "A",
-          "text": "converter todos os valores em texto."
-        },
-        {
-          "id": "B",
-          "text": "criar automaticamente uma cópia segura."
-        },
-        {
-          "id": "C",
-          "text": "manter a integridade porque as colunas são sempre inseparáveis."
-        },
-        {
-          "id": "D",
-          "text": "transformar a base em Tabela Dinâmica."
-        },
-        {
-          "id": "E",
-          "text": "desassociar valores dos respectivos processos e unidades."
-        }
+        {"id": "A", "text": "converter todos os valores em texto."},
+        {"id": "B", "text": "criar automaticamente uma cópia segura."},
+        {"id": "C", "text": "manter a integridade porque as colunas são sempre inseparáveis."},
+        {"id": "D", "text": "transformar a base em Tabela Dinâmica."},
+        {"id": "E", "text": "desassociar valores dos respectivos processos e unidades."}
       ],
       "correctOptionId": "E",
       "explanation": "A classificação precisa mover as linhas como registros completos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1508,26 +758,11 @@
       "origin": "authorial",
       "prompt": "Aplicar um filtro em uma tabela",
       "options": [
-        {
-          "id": "A",
-          "text": "remove permanentemente as linhas ocultas."
-        },
-        {
-          "id": "B",
-          "text": "altera os valores armazenados."
-        },
-        {
-          "id": "C",
-          "text": "oculta temporariamente as linhas que não atendem ao critério, sem excluí-las."
-        },
-        {
-          "id": "D",
-          "text": "substitui todas as fórmulas por resultados."
-        },
-        {
-          "id": "E",
-          "text": "impede qualquer classificação posterior."
-        }
+        {"id": "A", "text": "remove permanentemente as linhas ocultas."},
+        {"id": "B", "text": "altera os valores armazenados."},
+        {"id": "C", "text": "oculta temporariamente as linhas que não atendem ao critério, sem excluí-las."},
+        {"id": "D", "text": "substitui todas as fórmulas por resultados."},
+        {"id": "E", "text": "impede qualquer classificação posterior."}
       ],
       "correctOptionId": "C",
       "explanation": "Filtro é operação de visualização. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1538,26 +773,11 @@
       "origin": "authorial",
       "prompt": "Sobre Remover Duplicatas, é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "o recurso apenas colore duplicatas."
-        },
-        {
-          "id": "B",
-          "text": "fórmulas diferentes nunca podem produzir valores duplicados."
-        },
-        {
-          "id": "C",
-          "text": "ele oculta linhas temporariamente, como um filtro."
-        },
-        {
-          "id": "D",
-          "text": "as colunas selecionadas formam a chave; quando há duplicidade, uma linha inteira é removida e a primeira ocorrência é mantida."
-        },
-        {
-          "id": "E",
-          "text": "somente a célula duplicada é apagada, sem afetar as demais colunas da linha."
-        }
+        {"id": "A", "text": "o recurso apenas colore duplicatas."},
+        {"id": "B", "text": "fórmulas diferentes nunca podem produzir valores duplicados."},
+        {"id": "C", "text": "ele oculta linhas temporariamente, como um filtro."},
+        {"id": "D", "text": "as colunas selecionadas formam a chave; quando há duplicidade, uma linha inteira é removida e a primeira ocorrência é mantida."},
+        {"id": "E", "text": "somente a célula duplicada é apagada, sem afetar as demais colunas da linha."}
       ],
       "correctOptionId": "D",
       "explanation": "O recurso exclui registros de acordo com a combinação de colunas escolhida. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1568,26 +788,11 @@
       "origin": "authorial",
       "prompt": "A Validação de Dados pode",
       "options": [
-        {
-          "id": "A",
-          "text": "garantir que colagem nunca contorne a regra."
-        },
-        {
-          "id": "B",
-          "text": "substituir toda auditoria humana."
-        },
-        {
-          "id": "C",
-          "text": "alterar somente a cor da célula."
-        },
-        {
-          "id": "D",
-          "text": "restringir entradas por lista, número, data, comprimento ou fórmula personalizada e exibir mensagens."
-        },
-        {
-          "id": "E",
-          "text": "criar automaticamente um gráfico."
-        }
+        {"id": "A", "text": "garantir que colagem nunca contorne a regra."},
+        {"id": "B", "text": "substituir toda auditoria humana."},
+        {"id": "C", "text": "alterar somente a cor da célula."},
+        {"id": "D", "text": "restringir entradas por lista, número, data, comprimento ou fórmula personalizada e exibir mensagens."},
+        {"id": "E", "text": "criar automaticamente um gráfico."}
       ],
       "correctOptionId": "D",
       "explanation": "Validação orienta e bloqueia entradas, mas não elimina todos os caminhos de dados inválidos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1598,26 +803,11 @@
       "origin": "authorial",
       "prompt": "A Formatação Condicional",
       "options": [
-        {
-          "id": "A",
-          "text": "transforma automaticamente texto em número."
-        },
-        {
-          "id": "B",
-          "text": "altera a aparência com base em regras, sem modificar por si só o valor armazenado."
-        },
-        {
-          "id": "C",
-          "text": "remove duplicatas permanentemente."
-        },
-        {
-          "id": "D",
-          "text": "é equivalente à Validação de Dados."
-        },
-        {
-          "id": "E",
-          "text": "cria macros VBA."
-        }
+        {"id": "A", "text": "transforma automaticamente texto em número."},
+        {"id": "B", "text": "altera a aparência com base em regras, sem modificar por si só o valor armazenado."},
+        {"id": "C", "text": "remove duplicatas permanentemente."},
+        {"id": "D", "text": "é equivalente à Validação de Dados."},
+        {"id": "E", "text": "cria macros VBA."}
       ],
       "correctOptionId": "B",
       "explanation": "Cor, ícone ou barra visual não muda o conteúdo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1628,26 +818,11 @@
       "origin": "authorial",
       "prompt": "Em uma Tabela Dinâmica, os campos arrastados para a área Valores são usados principalmente para",
       "options": [
-        {
-          "id": "A",
-          "text": "agregar dados por soma, contagem, média ou outra função de resumo."
-        },
-        {
-          "id": "B",
-          "text": "renomear a pasta de trabalho."
-        },
-        {
-          "id": "C",
-          "text": "definir exclusivamente filtros de página."
-        },
-        {
-          "id": "D",
-          "text": "criar referências absolutas."
-        },
-        {
-          "id": "E",
-          "text": "excluir os registros da fonte."
-        }
+        {"id": "A", "text": "agregar dados por soma, contagem, média ou outra função de resumo."},
+        {"id": "B", "text": "renomear a pasta de trabalho."},
+        {"id": "C", "text": "definir exclusivamente filtros de página."},
+        {"id": "D", "text": "criar referências absolutas."},
+        {"id": "E", "text": "excluir os registros da fonte."}
       ],
       "correctOptionId": "A",
       "explanation": "A área Valores contém medidas agregadas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1658,26 +833,11 @@
       "origin": "authorial",
       "prompt": "Uma Tabela Dinâmica começou a mostrar Contagem quando se esperava Soma. Uma causa possível é",
       "options": [
-        {
-          "id": "A",
-          "text": "o arquivo possuir mais de uma planilha."
-        },
-        {
-          "id": "B",
-          "text": "a fonte estar em uma Tabela do Excel."
-        },
-        {
-          "id": "C",
-          "text": "o relatório ter campos em Linhas."
-        },
-        {
-          "id": "D",
-          "text": "a célula ativa estar formatada como moeda."
-        },
-        {
-          "id": "E",
-          "text": "o campo de origem conter texto, vazios problemáticos ou tipos mistos; também é preciso verificar a função de resumo."
-        }
+        {"id": "A", "text": "o arquivo possuir mais de uma planilha."},
+        {"id": "B", "text": "a fonte estar em uma Tabela do Excel."},
+        {"id": "C", "text": "o relatório ter campos em Linhas."},
+        {"id": "D", "text": "a célula ativa estar formatada como moeda."},
+        {"id": "E", "text": "o campo de origem conter texto, vazios problemáticos ou tipos mistos; também é preciso verificar a função de resumo."}
       ],
       "correctOptionId": "E",
       "explanation": "Campos não puramente numéricos podem ser agregados por Contagem. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1688,26 +848,11 @@
       "origin": "authorial",
       "prompt": "Para visualizar tendência mensal e identificar valores atípicos, uma combinação adequada é",
       "options": [
-        {
-          "id": "A",
-          "text": "pizza para tendência e radar para qualquer distribuição."
-        },
-        {
-          "id": "B",
-          "text": "gráfico 3D decorativo para ambos os objetivos."
-        },
-        {
-          "id": "C",
-          "text": "gráfico de linhas para a tendência e gráfico de caixa e bigodes para a distribuição e atípicos."
-        },
-        {
-          "id": "D",
-          "text": "colunas empilhadas para correlação causal."
-        },
-        {
-          "id": "E",
-          "text": "somente uma tabela sem qualquer visualização."
-        }
+        {"id": "A", "text": "pizza para tendência e radar para qualquer distribuição."},
+        {"id": "B", "text": "gráfico 3D decorativo para ambos os objetivos."},
+        {"id": "C", "text": "gráfico de linhas para a tendência e gráfico de caixa e bigodes para a distribuição e atípicos."},
+        {"id": "D", "text": "colunas empilhadas para correlação causal."},
+        {"id": "E", "text": "somente uma tabela sem qualquer visualização."}
       ],
       "correctOptionId": "C",
       "explanation": "O tipo deve corresponder ao objetivo: linhas para tempo, caixa para quartis e atípicos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1718,26 +863,11 @@
       "origin": "authorial",
       "prompt": "Na impressão de uma planilha larga, usar “Ajustar todas as colunas em uma página”",
       "options": [
-        {
-          "id": "A",
-          "text": "garante legibilidade em qualquer quantidade de colunas."
-        },
-        {
-          "id": "B",
-          "text": "pode reduzir demais a escala e tornar o conteúdo ilegível; orientação, área e escala devem ser revisadas."
-        },
-        {
-          "id": "C",
-          "text": "muda os valores das células."
-        },
-        {
-          "id": "D",
-          "text": "remove quebras de página da pasta inteira."
-        },
-        {
-          "id": "E",
-          "text": "converte a planilha em CSV."
-        }
+        {"id": "A", "text": "garante legibilidade em qualquer quantidade de colunas."},
+        {"id": "B", "text": "pode reduzir demais a escala e tornar o conteúdo ilegível; orientação, área e escala devem ser revisadas."},
+        {"id": "C", "text": "muda os valores das células."},
+        {"id": "D", "text": "remove quebras de página da pasta inteira."},
+        {"id": "E", "text": "converte a planilha em CSV."}
       ],
       "correctOptionId": "B",
       "explanation": "Compactação excessiva é um risco de impressão. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1748,26 +878,11 @@
       "origin": "authorial",
       "prompt": "Qual associação entre formato e característica está correta?",
       "options": [
-        {
-          "id": "A",
-          "text": "XLSM é habilitado para macros; XLSX é o padrão sem VBA; CSV não preserva a pasta completa."
-        },
-        {
-          "id": "B",
-          "text": "XLSX preserva obrigatoriamente macros VBA."
-        },
-        {
-          "id": "C",
-          "text": "CSV preserva múltiplas planilhas, gráficos e estilos."
-        },
-        {
-          "id": "D",
-          "text": "PDF é o formato editável padrão de fórmulas."
-        },
-        {
-          "id": "E",
-          "text": "XLS é o formato moderno exclusivo do Excel 2024."
-        }
+        {"id": "A", "text": "XLSM é habilitado para macros; XLSX é o padrão sem VBA; CSV não preserva a pasta completa."},
+        {"id": "B", "text": "XLSX preserva obrigatoriamente macros VBA."},
+        {"id": "C", "text": "CSV preserva múltiplas planilhas, gráficos e estilos."},
+        {"id": "D", "text": "PDF é o formato editável padrão de fórmulas."},
+        {"id": "E", "text": "XLS é o formato moderno exclusivo do Excel 2024."}
       ],
       "correctOptionId": "A",
       "explanation": "Cada formato possui capacidades próprias; CSV é texto delimitado. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1778,26 +893,11 @@
       "origin": "authorial",
       "prompt": "Sobre macros e Excel para a Web, assinale a alternativa correta.",
       "options": [
-        {
-          "id": "A",
-          "text": "todo XLSX contém macros executáveis."
-        },
-        {
-          "id": "B",
-          "text": "o Excel para a Web executa obrigatoriamente qualquer VBA."
-        },
-        {
-          "id": "C",
-          "text": "Macros podem executar código e não devem ser habilitadas de origem desconhecida; o Excel para a Web não possui paridade total com o desktop."
-        },
-        {
-          "id": "D",
-          "text": "assinatura digital torna qualquer macro automaticamente segura."
-        },
-        {
-          "id": "E",
-          "text": "CSV é o formato recomendado para preservar macros."
-        }
+        {"id": "A", "text": "todo XLSX contém macros executáveis."},
+        {"id": "B", "text": "o Excel para a Web executa obrigatoriamente qualquer VBA."},
+        {"id": "C", "text": "Macros podem executar código e não devem ser habilitadas de origem desconhecida; o Excel para a Web não possui paridade total com o desktop."},
+        {"id": "D", "text": "assinatura digital torna qualquer macro automaticamente segura."},
+        {"id": "E", "text": "CSV é o formato recomendado para preservar macros."}
       ],
       "correctOptionId": "C",
       "explanation": "Automação exige cautela de segurança e depende da plataforma e do formato. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1808,26 +908,11 @@
       "origin": "previous_exam",
       "prompt": "Uma planilha do Excel 2016 contém os produtos Banana, Morango e Maçã em A2:A4 e suas médias de venda em D2:D4. Qual fórmula devolve o nome do produto associado à maior média?",
       "options": [
-        {
-          "id": "A",
-          "text": "=PROCV(MÁXIMO(D2:D4);A2:D4;1;FALSO)"
-        },
-        {
-          "id": "B",
-          "text": "=PROCH(MÁXIMO(D2:D4);A2:D4;1;FALSO)"
-        },
-        {
-          "id": "C",
-          "text": "=CORRESP(MÁXIMO(D2:D4);D2:D4;0)"
-        },
-        {
-          "id": "D",
-          "text": "=ÍNDICE(A2:A4;CORRESP(MÁXIMO(D2:D4);D2:D4;0))"
-        },
-        {
-          "id": "E",
-          "text": "=ÍNDICE(A2:A4;PROCV(MÁXIMO(D2:D4);D2:D4;0);0)"
-        }
+        {"id": "A", "text": "=PROCV(MÁXIMO(D2:D4);A2:D4;1;FALSO)"},
+        {"id": "B", "text": "=PROCH(MÁXIMO(D2:D4);A2:D4;1;FALSO)"},
+        {"id": "C", "text": "=CORRESP(MÁXIMO(D2:D4);D2:D4;0)"},
+        {"id": "D", "text": "=ÍNDICE(A2:A4;CORRESP(MÁXIMO(D2:D4);D2:D4;0))"},
+        {"id": "E", "text": "=ÍNDICE(A2:A4;PROCV(MÁXIMO(D2:D4);D2:D4;0);0)"}
       ],
       "correctOptionId": "D",
       "explanation": "CORRESP localiza a posição exata do maior valor em D2:D4; ÍNDICE retorna o produto na mesma posição em A2:A4. Fonte: questão adaptada de FGV; PM-SP; Soldado PM de 2ª Classe; 2024; questão 53; prova https://conhecimento.fgv.br/sites/default/files/concursos/soldado-pm-de-2a-classe-cnm001-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/pmesp2024_gabarito_definitivo-1.pdf; adaptação: enunciado condensado, com preservação das fórmulas e do gabarito."
@@ -1838,26 +923,11 @@
       "origin": "previous_exam",
       "prompt": "Uma empresa paga 5% nas vendas de SmartPhone e 10% nas vendas de Notebook, sem comissão para valor unitário inferior a R$ 2.500. A coluna A contém vendedor, B produto e C valor. Qual fórmula calcula corretamente a comissão de André nas linhas 2 a 11?",
       "options": [
-        {
-          "id": "A",
-          "text": "=SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">2500\")*5%+SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">2500\")*10%"
-        },
-        {
-          "id": "B",
-          "text": "=SOMASES(C2:C11;A2:A11;\"André\";B2:B11;\"SmartPhone\")*5%+SOMASES(C2:C11;A2:A11;\"André\";B2:B11;\"Notebook\")*10%"
-        },
-        {
-          "id": "C",
-          "text": "=SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">=2500\")*5%+SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">=2500\")*10%"
-        },
-        {
-          "id": "D",
-          "text": "=SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">=2500\";B2:B11;\"SmartPhone\")*10%+SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">=2500\";B2:B11;\"Notebook\")*5%"
-        },
-        {
-          "id": "E",
-          "text": "=SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">=2500\";B2:B11;\"SmartPhone\")*5%+SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">=2500\";B2:B11;\"Notebook\")*10%"
-        }
+        {"id": "A", "text": "=SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">2500\")*5%+SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">2500\")*10%"},
+        {"id": "B", "text": "=SOMASES(C2:C11;A2:A11;\"André\";B2:B11;\"SmartPhone\")*5%+SOMASES(C2:C11;A2:A11;\"André\";B2:B11;\"Notebook\")*10%"},
+        {"id": "C", "text": "=SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">=2500\")*5%+SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">=2500\")*10%"},
+        {"id": "D", "text": "=SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">=2500\";B2:B11;\"SmartPhone\")*10%+SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">=2500\";B2:B11;\"Notebook\")*5%"},
+        {"id": "E", "text": "=SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">=2500\";B2:B11;\"SmartPhone\")*5%+SOMASES(C2:C11;A2:A11;\"André\";C2:C11;\">=2500\";B2:B11;\"Notebook\")*10%"}
       ],
       "correctOptionId": "E",
       "explanation": "A alternativa E aplica simultaneamente vendedor, valor mínimo e tipo de produto, usando a alíquota correspondente a cada produto. Fonte: questão adaptada de FGV; SEAP-PR; Auditor Fiscal; 2025; questão 34; prova https://conhecimento.fgv.br/sites/default/files/concursos/auditor-fiscal-tardecns102-tipo-1.pdf; gabarito definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/gabdefinitivo-seappr-auditor-fiscal.pdf; adaptação: cenário e fórmulas preservados, com redação condensada."
@@ -1868,26 +938,11 @@
       "origin": "previous_exam",
       "prompt": "Em uma planilha, A contém datas e B contém valores. Avalie: I. `=CONT.SES(A:A;\">=01/01/2024\";A:A;\"<=31/03/2024\")` pode contar registros do primeiro trimestre. II. `=TEXTO(HOJE();\"DD/MM/AAAA\")` devolve a data atual como texto formatado. III. `=SOMASES(B:B;A:A;\">=01/01/2024\";A:A;\"<=31/03/2024\")` devolve a quantidade de vendas no período. Está correto o que se afirma em",
       "options": [
-        {
-          "id": "A",
-          "text": "I, apenas."
-        },
-        {
-          "id": "B",
-          "text": "I e II, apenas."
-        },
-        {
-          "id": "C",
-          "text": "I e III, apenas."
-        },
-        {
-          "id": "D",
-          "text": "II e III, apenas."
-        },
-        {
-          "id": "E",
-          "text": "I, II e III."
-        }
+        {"id": "A", "text": "I, apenas."},
+        {"id": "B", "text": "I e II, apenas."},
+        {"id": "C", "text": "I e III, apenas."},
+        {"id": "D", "text": "II e III, apenas."},
+        {"id": "E", "text": "I, II e III."}
       ],
       "correctOptionId": "B",
       "explanation": "I é válida para contagem por período e II converte a data atual em texto. III soma os valores de B; não conta a quantidade de vendas. Fonte: questão adaptada de FGV; SEAP-PR; Auditor Fiscal; 2025; questão 35; prova https://conhecimento.fgv.br/sites/default/files/concursos/auditor-fiscal-tardecns102-tipo-1.pdf; gabarito definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/gabdefinitivo-seappr-auditor-fiscal.pdf; adaptação: proposições normalizadas sem alterar o núcleo ou o gabarito."
@@ -1898,26 +953,11 @@
       "origin": "previous_exam",
       "prompt": "Sobre valores exclusivos e duplicatas no Excel, avalie: I. filtrar exclusivos e remover duplicatas podem exibir uma lista sem repetições. II. o filtro oculta temporariamente, enquanto Remover Duplicatas exclui registros. III. resultados iguais de fórmulas diferentes nunca são duplicados. Está correto o que se afirma em",
       "options": [
-        {
-          "id": "A",
-          "text": "I, apenas."
-        },
-        {
-          "id": "B",
-          "text": "I e II, apenas."
-        },
-        {
-          "id": "C",
-          "text": "I e III, apenas."
-        },
-        {
-          "id": "D",
-          "text": "II e III, apenas."
-        },
-        {
-          "id": "E",
-          "text": "I, II e III."
-        }
+        {"id": "A", "text": "I, apenas."},
+        {"id": "B", "text": "I e II, apenas."},
+        {"id": "C", "text": "I e III, apenas."},
+        {"id": "D", "text": "II e III, apenas."},
+        {"id": "E", "text": "I, II e III."}
       ],
       "correctOptionId": "B",
       "explanation": "I e II são verdadeiras. A comparação considera os valores e as colunas escolhidas; fórmulas diferentes que resultam no mesmo valor podem compor duplicatas. Fonte: questão adaptada de FGV; SEAP-PR; Auditor Fiscal; 2025; questão 36; prova https://conhecimento.fgv.br/sites/default/files/concursos/auditor-fiscal-tardecns102-tipo-1.pdf; gabarito definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/gabdefinitivo-seappr-auditor-fiscal.pdf; adaptação: redação condensada e terminologia alinhada ao material."
@@ -1928,26 +968,11 @@
       "origin": "previous_exam",
       "prompt": "Para uma análise exploratória de vendas mensais por produto, incluindo tendência, distribuição e valores atípicos, a sequência mais adequada é",
       "options": [
-        {
-          "id": "A",
-          "text": "resumir por Tabela Dinâmica, usar barras para tendência temporal e histograma para identificar individualmente todos os atípicos."
-        },
-        {
-          "id": "B",
-          "text": "resumir por Tabela Dinâmica, usar linhas para tendência temporal e caixa e bigodes para distribuição e valores atípicos."
-        },
-        {
-          "id": "C",
-          "text": "usar apenas filtros mensais e dispersão entre preço e quantidade, sem resumir as vendas."
-        },
-        {
-          "id": "D",
-          "text": "usar Analisar Dados, linhas e teste de hipótese como primeira etapa obrigatória."
-        },
-        {
-          "id": "E",
-          "text": "somar o total, filtrar por produto e usar pizza para qualquer análise."
-        }
+        {"id": "A", "text": "resumir por Tabela Dinâmica, usar barras para tendência temporal e histograma para identificar individualmente todos os atípicos."},
+        {"id": "B", "text": "resumir por Tabela Dinâmica, usar linhas para tendência temporal e caixa e bigodes para distribuição e valores atípicos."},
+        {"id": "C", "text": "usar apenas filtros mensais e dispersão entre preço e quantidade, sem resumir as vendas."},
+        {"id": "D", "text": "usar Analisar Dados, linhas e teste de hipótese como primeira etapa obrigatória."},
+        {"id": "E", "text": "somar o total, filtrar por produto e usar pizza para qualquer análise."}
       ],
       "correctOptionId": "B",
       "explanation": "Tabela Dinâmica resume por produto e mês; linhas representam tendência temporal; caixa e bigodes evidencia quartis e valores atípicos. Fonte: questão adaptada de FGV; SEAP-PR; Auditor Fiscal; 2025; questão 38; prova https://conhecimento.fgv.br/sites/default/files/concursos/auditor-fiscal-tardecns102-tipo-1.pdf; gabarito definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/gabdefinitivo-seappr-auditor-fiscal.pdf; adaptação: alternativas resumidas, preservando os objetivos analíticos e o gabarito."
@@ -1958,26 +983,11 @@
       "origin": "previous_exam",
       "prompt": "Na linha 1, A contém texto e B contém número. C deve ser 0 se A1 for `valor padrão`; caso contrário, deve ser B1 se B1>0,5 e -1 nos demais casos. Qual fórmula implementa a regra?",
       "options": [
-        {
-          "id": "A",
-          "text": "=0;SE(A1=\"valor padrão\");SENÃO(B1;SE(B1>0,5);-1)"
-        },
-        {
-          "id": "B",
-          "text": "=(0;SE(A1==\"valor padrão\");SE(B1>0,5);B1;-1)"
-        },
-        {
-          "id": "C",
-          "text": "=SE(A1==\"valor padrão\";SE(B1>0,5;B1;-1);0)"
-        },
-        {
-          "id": "D",
-          "text": "=SE(A1=\"valor padrão\";0;SE(B1>0,5;B1;-1))"
-        },
-        {
-          "id": "E",
-          "text": "=SE(A1=\"valor padrão\";SE(B1>0,5;-1;B1);0)"
-        }
+        {"id": "A", "text": "=0;SE(A1=\"valor padrão\");SENÃO(B1;SE(B1>0,5);-1)"},
+        {"id": "B", "text": "=(0;SE(A1==\"valor padrão\");SE(B1>0,5);B1;-1)"},
+        {"id": "C", "text": "=SE(A1==\"valor padrão\";SE(B1>0,5;B1;-1);0)"},
+        {"id": "D", "text": "=SE(A1=\"valor padrão\";0;SE(B1>0,5;B1;-1))"},
+        {"id": "E", "text": "=SE(A1=\"valor padrão\";SE(B1>0,5;-1;B1);0)"}
       ],
       "correctOptionId": "D",
       "explanation": "O primeiro SE trata o texto; quando ele não é padrão, o segundo SE decide entre B1 e -1. Fonte: questão adaptada de FGV; SEAP-PR; Auditor Fiscal; 2025; questão 40; prova https://conhecimento.fgv.br/sites/default/files/concursos/auditor-fiscal-tardecns102-tipo-1.pdf; gabarito definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/gabdefinitivo-seappr-auditor-fiscal.pdf; adaptação: enunciado condensado, fórmulas preservadas."
@@ -1988,26 +998,11 @@
       "origin": "previous_exam",
       "prompt": "Sobre Tabelas Dinâmicas, avalie: I. agregam dados e resumem categorias. II. permitem mover campos entre linhas e colunas. III. permitem filtrar, classificar, agrupar e formatar. IV. permitem expandir e recolher níveis e detalhar resultados. Está correto o que se afirma em",
       "options": [
-        {
-          "id": "A",
-          "text": "I e III, apenas."
-        },
-        {
-          "id": "B",
-          "text": "III e IV, apenas."
-        },
-        {
-          "id": "C",
-          "text": "I, II e III, apenas."
-        },
-        {
-          "id": "D",
-          "text": "I, II e IV, apenas."
-        },
-        {
-          "id": "E",
-          "text": "I, II, III e IV."
-        }
+        {"id": "A", "text": "I e III, apenas."},
+        {"id": "B", "text": "III e IV, apenas."},
+        {"id": "C", "text": "I, II e III, apenas."},
+        {"id": "D", "text": "I, II e IV, apenas."},
+        {"id": "E", "text": "I, II, III e IV."}
       ],
       "correctOptionId": "E",
       "explanation": "As quatro afirmações descrevem recursos típicos de Tabelas Dinâmicas. Fonte: questão adaptada de FGV; SEAP-PR; Auditor Fiscal; 2025; questão 42; prova https://conhecimento.fgv.br/sites/default/files/concursos/auditor-fiscal-tardecns102-tipo-1.pdf; gabarito definitivo retificado https://conhecimento.fgv.br/sites/default/files/concursos/gabdefinitivo-seappr-auditor-fiscal.pdf; adaptação: itens condensados, preservando o gabarito."
@@ -2018,26 +1013,11 @@
       "origin": "previous_exam",
       "prompt": "Qual sequencia apresenta a precedência dos principais operadores do Excel, do nível mais alto para o mais baixo?",
       "options": [
-        {
-          "id": "A",
-          "text": "negação; referência; exponenciação; porcentagem; concatenação multiplicação/divisão; adição/subtração; comparação."
-        },
-        {
-          "id": "B",
-          "text": "concatenação; referência; comparação; porcentagem; exponenciação; multiplicação/divisão; adição/subtração; negação."
-        },
-        {
-          "id": "C",
-          "text": "multiplicação/divisão; referência; comparação; adição/subtração; concatenação exponenciação; porcentagem; negação."
-        },
-        {
-          "id": "D",
-          "text": "negação; multiplicação/divisão; comparação adição/subtração concatenação exponenciação porcentagem referência."
-        },
-        {
-          "id": "E",
-          "text": "referência; negação porcentagem exponenciação multiplicação/divisão adção/subtração concatenação comparação."
-        }
+        {"id": "A", "text": "negação; referência; exponenciação; porcentagem; concatenação multiplicação/divisão; adição/subtração; comparação."},
+        {"id": "B", "text": "concatenação; referência; comparação; porcentagem; exponenciação; multiplicação/divisão; adição/subtração; negação."},
+        {"id": "C", "text": "multiplicação/divisão; referência; comparação; adição/subtração; concatenação exponenciação; porcentagem; negação."},
+        {"id": "D", "text": "negação; multiplicação/divisão; comparação adição/subtração concatenação exponenciação porcentagem referência."},
+        {"id": "E", "text": "referência; negação porcentagem exponenciação multiplicação/divisão adção/subtração concatenação comparação."}
       ],
       "correctOptionId": "E",
       "explanation": "Operadores de referência precedem negação, porcentagem, exponenciação, multiplicação/divisão, adição/subtração, concatenação e comparação. Fonte: questão adaptada de FGV; MPRJ; Analista do Ministério Público — Área Administrativa; 2025; questão 58; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-do-ministerio-publico-area-administrativacns101-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/gabaritodefinitivo09.09_mprjanalista.pdf; adaptação: alternativas condensadas, preservando a ordem cobrada e o gabarito."
@@ -2048,26 +1028,11 @@
       "origin": "previous_exam",
       "prompt": "Em A2:A10 estão os valores -90, 90, 0, 80, -30, 70, -30, 40 e 110. O resultado de `=SOMASE(A2:A10;\">70\")` é",
       "options": [
-        {
-          "id": "A",
-          "text": "70."
-        },
-        {
-          "id": "B",
-          "text": "80."
-        },
-        {
-          "id": "C",
-          "text": "170."
-        },
-        {
-          "id": "D",
-          "text": "280."
-        },
-        {
-          "id": "E",
-          "text": "370."
-        }
+        {"id": "A", "text": "70."},
+        {"id": "B", "text": "80."},
+        {"id": "C", "text": "170."},
+        {"id": "D", "text": "280."},
+        {"id": "E", "text": "370."}
       ],
       "correctOptionId": "D",
       "explanation": "A função soma, no próprio intervalo, os valores estritamente maiores que 70: 90 + 80 + 110 = 280. Fonte: questão adaptada de FGV; MPRJ; Analista do Ministério Público — Área Administrativa; 2025; questão 59; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-do-ministerio-publico-area-administrativacns101-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/gabaritodefinitivo09.09_mprjanalista.pdf; adaptação: tabela convertida em lista textual, preservando valores, fórmula e gabarito."
@@ -2078,29 +1043,208 @@
       "origin": "previous_exam",
       "prompt": "Com relação às funcionalidades do MS Excel 365 (BR), avalie as afirmativas a seguir.\n\nI. A função =SOMA(A1:A10) irá resultar em um erro #VALOR! se o intervalo A1:A10 contiver quaisquer células com texto.\n\nII. A aplicação de um Filtro Automático a um intervalo de dados permite ocultar linhas que não atendam aos critérios especificados, sem excluí-las.\n\nIII. A proteção de uma planilha (Proteger Planilha) e a proteção da pasta de trabalho (Proteger Estrutura da Pasta) são ações distintas, sendo a primeira voltada para restringir a edição de células e a segunda para impedir a inserção, exclusão ou renomeação de planilhas.\n\nEstá correto o que se afirma em",
       "options": [
-        {
-          "id": "A",
-          "text": "I, apenas."
-        },
-        {
-          "id": "B",
-          "text": "II, apenas."
-        },
-        {
-          "id": "C",
-          "text": "I e III, apenas."
-        },
-        {
-          "id": "D",
-          "text": "II e III, apenas."
-        },
-        {
-          "id": "E",
-          "text": "I, II e III."
-        }
+        {"id": "A", "text": "I, apenas."},
+        {"id": "B", "text": "II, apenas."},
+        {"id": "C", "text": "I e III, apenas."},
+        {"id": "D", "text": "II e III, apenas."},
+        {"id": "E", "text": "I, II e III."}
       ],
       "correctOptionId": "D",
       "explanation": "A afirmativa I é falsa: a função SOMA ignora texto presente em células referenciadas no intervalo, em vez de produzir necessariamente #VALOR!. As afirmativas II e III são verdadeiras. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado do Amazonas — Agente Legislativo - Assistente Técnico Administrativo, Tipo 4; 2025; questão 18; https://conhecimento.fgv.br/sites/default/files/concursos/agente-legislativo-assistente-tecnico-administrativo-cnm400-tipo-4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-am.pdf."
+    },
+    {
+      "id": "q4069",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a fórmula que calcula o somatório de prêmios cujos valores sejam maiores que R$ 2000,00.",
+      "options": [
+        {"id": "A", "text": "=CONT.SE(L2:L6;\">2000\")"},
+        {"id": "B", "text": "=CONT.SE(L2:L6;\">2000\";L2:L6)"},
+        {"id": "C", "text": "=SOMA(L2:L6;\">2000\")"},
+        {"id": "D", "text": "=SOMASE(L2:L6;\">2000\")"},
+        {"id": "E", "text": "=SOMASE(L2:L6;\">2000\";K2:K6)"}
+      ],
+      "correctOptionId": "D",
+      "explanation": "SOMASE aplica o critério >2000 ao intervalo L2:L6 e, sem terceiro argumento, soma no próprio intervalo os valores que satisfazem o critério. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado do Tocantins; Analista Legislativo — Suporte Técnico em Informática; 2024; questão 62; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-suporte-tecnico-em-informaticacns120-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-policial-legislativo-ii-tecnico-legislativo-e-analista-legislativo_dsa1c.pdf."
+    },
+    {
+      "id": "q4070",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No âmbito do software Microsoft Excel, versão BR, integrante da suíte Microsoft 365, assinale a opção que indica o nome da função cujo objetivo é reduzir uma matriz a um valor acumulado aplicando um LAMBDA a cada valor, e retornando o valor total no acumulador.",
+      "options": [
+        {"id": "A", "text": "CODIFURL"},
+        {"id": "B", "text": "LAMBDA"},
+        {"id": "C", "text": "MARRED"},
+        {"id": "D", "text": "MATRIZ.MULT"},
+        {"id": "E", "text": "REDUZIR"}
+      ],
+      "correctOptionId": "E",
+      "explanation": "REDUZIR aplica uma função LAMBDA a cada valor de uma matriz e acumula o resultado. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado do Tocantins; Analista Legislativo — Suporte Técnico em Informática; 2024; questão 63; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-suporte-tecnico-em-informaticacns120-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-policial-legislativo-ii-tecnico-legislativo-e-analista-legislativo_dsa1c.pdf."
+    },
+    {
+      "id": "q4071",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere uma planilha nova no Excel 2010, na qual a(s) célula(s):\n• C6 até C8 contêm respectivamente os valores 7, 3 e 5;\n• D6 até D8 contêm respectivamente os valores 6, -1 e 5;\n• E6 até E8 contêm respectivamente os valores 3, 9 e 4;\n• F6 contém a fórmula “=SE(C$6>D6;C$7;C6)”;\n• F6 foi copiada e colada na célula G7, e na célula H8.\nConsiderando que nenhuma outra célula tenha sido alterada, os valores exibidos pelas células F6, G7 e H8 são, respectivamente,",
+      "options": [
+        {"id": "A", "text": "3, -1, 9."},
+        {"id": "B", "text": "5, 5, 4."},
+        {"id": "C", "text": "5, 9, 3."},
+        {"id": "D", "text": "7, -1, 4."},
+        {"id": "E", "text": "7, -1, 5."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A fórmula em F6 retorna C7=3; ao ser copiada para G7 e H8, as referências relativas/mistas se ajustam, produzindo -1 e 9. Fonte: questão oficial; FGV; Ministério Público do Estado de Goiás; Assistente de Informática; 2022; questão 28; prova https://conhecimento.fgv.br/sites/default/files/concursos/assistente_de_informaticampgo-nm002_tipo_1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/mpgo2022serv_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q4072",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No contexto do Excel 2010, assinale a fórmula que, digitada na célula C5, produz um aviso de “referência circular”.",
+      "options": [
+        {"id": "A", "text": "=SOMA(A2:B9) + MÁXIMO(D2:F5) +F4"},
+        {"id": "B", "text": "=SOMA(B2:B109) + MÁXIMO(C6:C8) +A4"},
+        {"id": "C", "text": "=SOMA(B2:B9) + MÁXIMO(C2:C3) +E4"},
+        {"id": "D", "text": "=SOMA(B2:C9) + MÁXIMO(C2:C4) +E4"},
+        {"id": "E", "text": "=SOMA(B2:D4) + MÁXIMO(C2:D4) +E4"}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Na alternativa D, o intervalo B2:C9 inclui a própria célula C5, criando dependência direta da fórmula em relação a si mesma. Fonte: questão oficial; FGV; Ministério Público do Estado de Goiás; Assistente de Informática; 2022; questão 43; prova https://conhecimento.fgv.br/sites/default/files/concursos/assistente_de_informaticampgo-nm002_tipo_1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/mpgo2022serv_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q4073",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "João prepara uma planilha na qual há uma coluna que é preenchida com o estado natal de uma pessoa. Para evitar falhas, João pretende criar uma lista suspensa com as siglas dos estados brasileiros, de modo a evitar erros de preenchimento. Essa funcionalidade pode ser obtida no Excel 2010 com o recurso",
+      "options": [
+        {"id": "A", "text": "Consolidar, na guia Dados."},
+        {"id": "B", "text": "Filtro, na guia Dados."},
+        {"id": "C", "text": "Formatação Condicional, na guia Página Inicial."},
+        {"id": "D", "text": "Tabela, na guia Inserir."},
+        {"id": "E", "text": "Validação de Dados, na guia Dados."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "Validação de Dados permite restringir entradas por uma lista e disponibilizar uma lista suspensa. Fonte: questão oficial; FGV; Ministério Público do Estado de Goiás; Assistente de Informática; 2022; questão 44; prova https://conhecimento.fgv.br/sites/default/files/concursos/assistente_de_informaticampgo-nm002_tipo_1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/mpgo2022serv_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q4074",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No Excel 2010, o Pincel de Formatação copia a formatação de um local e aplica-a a outro. Os itens de formatação a seguir podem ser copiados pelo Pincel de Formatação, à exceção de um. Assinale-o.",
+      "options": [
+        {"id": "A", "text": "Altura da Linha."},
+        {"id": "B", "text": "Bordas."},
+        {"id": "C", "text": "Fórmulas."},
+        {"id": "D", "text": "Largura da coluna."},
+        {"id": "E", "text": "Tamanho da fonte."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Pincel de Formatação copia formatação, não a fórmula armazenada na célula. Fonte: questão oficial; FGV; Ministério Público do Estado de Goiás; Assistente de Informática; 2022; questão 45; prova https://conhecimento.fgv.br/sites/default/files/concursos/assistente_de_informaticampgo-nm002_tipo_1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/mpgo2022serv_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q4075",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere uma planilha que teve a fórmula\n=A3+$B34\ndigitada na célula D10.\nDado que essa célula foi copiada e colada na célula F5, assinale a opção que indica a fórmula exibida na Barra de Fórmulas quando a célula F5 for selecionada.",
+      "options": [
+        {"id": "A", "text": "=#REF!+$B29"},
+        {"id": "B", "text": "=A1+$B29"},
+        {"id": "C", "text": "=A1+$B34"},
+        {"id": "D", "text": "=A3+$B29"},
+        {"id": "E", "text": "=A3+$B34"}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O deslocamento de D10 para F5 é de duas colunas à direita e cinco linhas acima. A referência relativa A3 passaria a C-2, o que é inválido por ultrapassar o limite superior das linhas e gera #REF!, enquanto a coluna absoluta $B permanece e a linha 34 ajusta-se para 29. Fonte: questão oficial; FGV; Ministério Público do Estado de Goiás; Assistente de Informática; 2022; questão 46; prova https://conhecimento.fgv.br/sites/default/files/concursos/assistente_de_informaticampgo-nm002_tipo_1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/mpgo2022serv_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q4076",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O Excel é um programa de desenvolvimento de planilhas digitais criado pela Microsoft na década de 1980.\nDevido ao renome da marca, a longa trajetória do software e as suas excelentes funcionalidades, atualmente, o Excel é um dos aplicativos mais utilizados por empresas no mundo.\nAssinale a opção que apresenta a funcionalidade do Excel que permite automatizar tarefas repetitivas.",
+      "options": [
+        {"id": "A", "text": "Tabela Dinâmica."},
+        {"id": "B", "text": "Power Query."},
+        {"id": "C", "text": "Colaboração em tempo real."},
+        {"id": "D", "text": "Macro."},
+        {"id": "E", "text": "Validação de Dados."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Macros são o recurso indicado para automatizar sequências de tarefas repetitivas. Fonte: questão oficial; FGV; Empresa de Pesquisa Energética; Analista de Gestão Corporativa — Tecnologia da Informação — Ciência de Dados; 2024; questão 39; prova https://conhecimento.fgv.br/sites/default/files/concursos/agc-ti-ciencia-de-dadoscns007-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_epe-gest.pdf."
+    },
+    {
+      "id": "q4077",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em controle de atividades com o uso do MS Excel 365 (BR), a função que conta tarefas “Concluídas” na coluna C (C2:C100) com prazo antes de 01/01/2025, é:",
+      "options": [
+        {"id": "A", "text": "=CONT.SE(C2:C100;\"Concluída\")"},
+        {"id": "B", "text": "=SOMASE(C2:C100;\"Concluída\")"},
+        {"id": "C", "text": "=CONT.SES(C2:C100;\"Concluída\";D2:D100;\"<01/01/2025\")"},
+        {"id": "D", "text": "=CONTAR.VALORES(C2:C100;\"Concluída\")"},
+        {"id": "E", "text": "=DBCONTAR(C2:D100;;\"Concluída\")"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "CONT.SES permite combinar o critério de status na coluna C com o critério de prazo na coluna D e contar somente as linhas que atendem a ambos. Fonte: questão oficial; FGV; Município de São José dos Campos; Assistente em Gestão Municipal; 2025; questão 47, Tipo 2; prova https://conhecimento.fgv.br/sites/default/files/concursos/assistente-em-gestao-municipalcnm200-tipo-2.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitovo-prefeitura-de-sjc.pdf."
+    },
+    {
+      "id": "q4078",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção que indica o atalho de teclado usado no Microsoft Excel para inserir a função de soma automática em um intervalo de células.",
+      "options": [
+        {"id": "A", "text": "Alt + S"},
+        {"id": "B", "text": "Ctrl + S"},
+        {"id": "C", "text": "Shift + S"},
+        {"id": "D", "text": "Alt + ="},
+        {"id": "E", "text": "Ctrl + ="}
+      ],
+      "correctOptionId": "D",
+      "explanation": "No Excel, Alt + = aciona a Soma Automática para o intervalo pertinente. Fonte: questão oficial; FGV; Município de São José dos Campos; Assistente em Gestão Municipal; 2024; questão 26, Tipo 2; prova https://conhecimento.fgv.br/sites/default/files/concursos/cnm202-assistente-em-gestao-municipalcnm202-tipo-2.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/sjcadministrativo2024_gabarito_definitivo_20240207.pdf."
+    },
+    {
+      "id": "q4079",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Sobre gráficos no Excel, assinale a afirmativa correta.",
+      "options": [
+        {"id": "A", "text": "Os gráficos no Excel só podem ser criados com dados numéricos, não sendo possível incluir rótulos de texto."},
+        {"id": "B", "text": "O Excel não permite a personalização de cores, estilos e rótulos nos gráficos, tornando-os todos iguais."},
+        {"id": "C", "text": "Os gráficos no Excel podem ser inseridos apenas em planilhas separadas, não sendo possível incluí-los diretamente em uma célula."},
+        {"id": "D", "text": "Os gráficos no Excel podem representar visualmente dados numéricos e podem ser personalizados com rótulos, cores, estilos e outros elementos gráficos."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alternativa D descreve corretamente a representação visual e as possibilidades de personalização de gráficos no Excel. Fonte: questão oficial; FGV; Prefeitura de Belo Horizonte — Secretaria de Educação; Assistente Administrativo Educacional; 2023; questão 13, Tipo 2; prova https://conhecimento.fgv.br/sites/default/files/concursos/cnm100-assistente-administrativo-educacionalcnm100-tipo-2.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/17.gabaritoaposrecursos-assinado.pdf. A questão possui quatro alternativas originais, preservadas sem acréscimo de quinta opção."
+    },
+    {
+      "id": "q4080",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Caio recebeu um arquivo Excel e ainda tem poucas informações sobre essa pasta de trabalho. Há várias planilhas, algumas protegidas, outras, não.\nAssinale a opção que apresenta o indicativo que permite concluir se uma planilha está protegida ou não.",
+      "options": [
+        {"id": "A", "text": "Protegida, se o ponteiro do mouse exibido na movimentação sobre as células contém um sinal de exclamação."},
+        {"id": "B", "text": "Protegida, se a opção Proteger Planilha na guia Revisão tiver dado lugar para a opção Desproteger Planilha."},
+        {"id": "C", "text": "Protegida, se a barra de status, normalmente localizada na parte inferior da tela, exibir a imagem de um cadeado."},
+        {"id": "D", "text": "Não protegida, se o Excel permitir a seleção de uma célula escolhida aleatoriamente."},
+        {"id": "E", "text": "Não protegida, se o Excel permitir a edição de uma célula escolhida aleatoriamente."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Quando a planilha está protegida, o comando da guia Revisão passa a oferecer a ação Desproteger Planilha. Fonte: questão oficial; FGV; Câmara dos Deputados; Analista Legislativo — Técnica Legislativa; 2023; questão 53, Tipo 3; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns301-analista-legislativo-tecnica-legislativacns301-tipo-3.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivos-para-publicacao-edital-3-manha.pdf."
+    },
+    {
+      "id": "q4081",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O Microsoft Excel 365 BR oferece como recurso fórmulas que automatizam tarefas. Cada função possui finalidade específica e comportamento próprio, não devendo ser confundidas entre si.\nNo âmbito do software Microsoft Excel 365 BR, a função",
+      "options": [
+        {"id": "A", "text": "DIA.DA.SEMANA() extrai o valor dia da semana de uma data, retornando o nome completo do dia da semana como texto formatado a partir de uma data informada, variando entre 1 e 31."},
+        {"id": "B", "text": "PROCX() busca o valor informado na matriz de pesquisa e retorna o resultado correspondente em uma linha ou coluna, permitindo buscas em qualquer direção."},
+        {"id": "C", "text": "REPT() retorna os caracteres mais à direita de um valor de texto, tabulados à esquerda, direita, centralizado ou justificado. A informação sobre o idioma do texto é opcional."},
+        {"id": "D", "text": "SOMASE() conta os valores de um intervalo segundo condição fornecida, somando ao final o número de ocorrências válidas."},
+        {"id": "E", "text": "SUBTOTAL() aplica sempre soma ao intervalo e ignora linhas ocultas manualmente, sendo projetada para funcionar em linhas de dados, flexibilizando o seu uso."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "PROCX procura o valor na matriz de pesquisa e pode retornar o correspondente a partir de uma matriz de retorno, sem a limitação direcional clássica do PROCV. Fonte: questão oficial; FGV; Amazônia Azul Tecnologias de Defesa S.A. — AMAZUL; Analista em Desenvolvimento de Tecnologia Nuclear e Defesa — Advogado; prova realizada em 25/01/2026; questão 21, Tipo 1; prova https://conhecimento.fgv.br/sites/default/files/concursos/ok-advogado-cnsa101-tipo-1.pdf; gabarito definitivo atualizado https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-atualizado_amazulv2.pdf."
     }
   ]
 }
