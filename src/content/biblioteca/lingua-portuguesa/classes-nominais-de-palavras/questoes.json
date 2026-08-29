@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q234",
@@ -1681,6 +1681,222 @@
       ],
       "correctOptionId": "d",
       "explanation": "Em D, `brilhantes` substitui adequadamente `grandes` com valor específico de excelência intelectual; nas demais alternativas, os adjetivos propostos alteram o sentido. Fonte: questão oficial; FGV; Prefeitura do Jaboatão dos Guararapes/PE — Secretaria Municipal de Educação, Professor 2 (Língua Portuguesa), Tipo 4 (Azul); 2023; questão 66; https://conhecimento.fgv.br/sites/default/files/concursos/cns202-professor-2-lingua-portuguesacns202-tipo-4_1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefeitura-jaboatao-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q290",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que o pronome possessivo mostra valor de deferência e respeito.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O homem bem-sucedido faz mais dinheiro do que sua esposa pode gastar."
+        },
+        {
+          "id": "b",
+          "text": "Ama teus vizinhos, mas escolha-os."
+        },
+        {
+          "id": "c",
+          "text": "O ciclista tinha seus 50 anos, mas era bastante eficiente."
+        },
+        {
+          "id": "d",
+          "text": "Minha avó tinha seus ataques de asma de forma discreta."
+        },
+        {
+          "id": "e",
+          "text": "Minha senhora, atenção aos degraus da escada."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Em E, “minha” integra a fórmula de tratamento “Minha senhora” e exprime deferência e respeito, não posse material. Fonte: questão oficial; FGV; Prefeitura do Jaboatão dos Guararapes/PE — Secretaria Municipal de Educação, Professor 2 (Língua Portuguesa), Tipo 4 (Azul); 2023; questão 1; https://conhecimento.fgv.br/sites/default/files/concursos/cns202-professor-2-lingua-portuguesacns202-tipo-4_1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefeitura-jaboatao-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q291",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção em que o vocábulo a está classificado erradamente.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A contar com ele, todos estaríamos perdidos. / conjunção condicional"
+        },
+        {
+          "id": "b",
+          "text": "Eu não conheço a que está de roupa clara. / pronome demonstrativo"
+        },
+        {
+          "id": "c",
+          "text": "Na opção a o erro de concordância é visível. / numeral ordinal"
+        },
+        {
+          "id": "d",
+          "text": "Esse é o leite classe a. / adjetivo"
+        },
+        {
+          "id": "e",
+          "text": "Não sei a que se refere o texto. / preposição"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Em A, o vocábulo “a” em “A contar com ele” é preposição diante de infinitivo, não conjunção condicional; por isso a classificação apresentada é a errada. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado da Bahia (ALBA), Técnico de Nível Superior — Redação e Revisão Legislativa (Letras), Tipo 1 (Branca); 2014; questão 71; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico_de_nivel_superior_-_redacao_e_revisao_legislativa_letras_-_tipo01.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alba14_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q292",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Leia as frases a seguir:\n1 – Já estive na França trocentas vezes.\n2 – Esta é a enésima vez que eu leio isso.\n3 – Por favor, ascensorista, me leve ao onze.\n4 – Pedro IX morreu cedo.\nSobre os numerais presentes nessas frases, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O numeral “trocentas” indica negativamente uma quantidade."
+        },
+        {
+          "id": "b",
+          "text": "O numeral “enésima” tem valor ordinal, sem cardinal correspondente."
+        },
+        {
+          "id": "c",
+          "text": "O numeral “onze” é ordinal em lugar de um cardinal."
+        },
+        {
+          "id": "d",
+          "text": "A forma “onze” atesta a dificuldade de conhecimento dos numerais fracionários."
+        },
+        {
+          "id": "e",
+          "text": "O numeral IX deve ser lido como cardinal (nove)."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A alternativa B é a correta: “enésima” tem valor ordinal e não corresponde a um cardinal determinado. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado da Bahia (ALBA), Técnico de Nível Superior — Redação e Revisão Legislativa (Letras), Tipo 1 (Branca); 2014; questão 73; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico_de_nivel_superior_-_redacao_e_revisao_legislativa_letras_-_tipo01.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alba14_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q293",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Nas frases com elementos de coesão pode ocorrer a anáfora, quando a referência ocorre do depois para antes, e catáfora no caso contrário, quando o termo referido vem depois do substituto.\nAssinale a frase em que o demonstrativo está em catáfora.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zico e Rivelino foram grandes jogadores de futebol: aquele, do Rio e este, de São Paulo."
+        },
+        {
+          "id": "b",
+          "text": "O problema maior é este: como ganhar mais dinheiro?"
+        },
+        {
+          "id": "c",
+          "text": "Comprei o seu livro: esse que está na minha mesa."
+        },
+        {
+          "id": "d",
+          "text": "Esse livro estava lá na estante: Os Lusíadas."
+        },
+        {
+          "id": "e",
+          "text": "Tenho aqui dois livros: este é seu!"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Em B, o demonstrativo “este” anuncia o conteúdo que vem depois dos dois-pontos, estabelecendo a relação catafórica cobrada. Fonte: questão oficial; FGV; Defensoria Pública do Estado de Rondônia, Analista em Redação — Classe A, Tipo 1 (Branca); 2025; questão 51; https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-redacao-classe-acns008-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-defintivo-dpe-ro_0.pdf."
+    },
+    {
+      "id": "q294",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que o emprego do demonstrativo está inadequado, segundo a norma culta tradicional.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dê-me essa sacola que você está carregando, pois está muito pesada."
+        },
+        {
+          "id": "b",
+          "text": "Guilherme e Heitor chegaram na mesma hora à festa: esse, de carro, aquele de motocicleta."
+        },
+        {
+          "id": "c",
+          "text": "As meninas declararam isto: ninguém notou a chegada dos assaltantes."
+        },
+        {
+          "id": "d",
+          "text": "Na Idade Média ainda não havia talheres na mesa: naquele tempo se comia com a mão."
+        },
+        {
+          "id": "e",
+          "text": "Comprei camisas e blusões na loja: aquelas de linho, estes de algodão."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Na alternativa B, a distribuição dos demonstrativos contraria a regra tradicional para dois referentes: “aquele” retoma o primeiro, mais distante, e “este” o segundo, mais próximo. Fonte: questão oficial; FGV; Defensoria Pública do Estado de Rondônia, Analista em Redação — Classe A, Tipo 1 (Branca); 2025; questão 65; https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-redacao-classe-acns008-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-defintivo-dpe-ro_0.pdf."
+    },
+    {
+      "id": "q295",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Nas frases machadianas a seguir, há um termo precedido de artigo indefinido.\nAssinale a frase em que a função desse artigo está incorretamente identificada.",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Indaguei de Virgília, depois ficamos a conversar uma meia hora.” / Há indicação de cálculo aproximado. (Memórias Póstumas de Brás Cubas)"
+        },
+        {
+          "id": "b",
+          "text": "“E o protesto não foi só com os lábios, foi também com os olhos – uns olhos aveludados e brilhantes.” / Mostra ideia de dupla, de par. (Ressurreição)"
+        },
+        {
+          "id": "c",
+          "text": "“Natividade e um padre Guedes que lá estava, gordo e maduro, eram as únicas pessoas interessantes da noite.” / Mostra sentido vago e indefinido. (Esaú e Jacó)"
+        },
+        {
+          "id": "d",
+          "text": "“Os dedos roçavam na nuca da pequena ou nas espáduas vestidas de chita, e a sensação era um deleite.” / Mostra valor cômico. (Dom Casmurro)."
+        },
+        {
+          "id": "e",
+          "text": "“-Sei, sei que você tem umas filosofias... Mas falemos do jantar; que há de servir hoje?” / Tem valor depreciativo. (Quincas Borba)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Em D, o artigo indefinido de “um deleite” não apresenta o alegado valor cômico; por isso essa identificação é a incorreta. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado de Mato Grosso do Sul, XI Concurso Público, Analista Judiciário — Área Fim, Tipo 2 (Verde); 2026; questão 15; https://conhecimento.fgv.br/sites/default/files/concursos/analista-judiciario-area-fim-cns101-tipo-2.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjms-analista-e-tecnico.pdf."
+    },
+    {
+      "id": "q296",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Quanto às classes gramaticais, o verso “Largos, pranchados, reumáticos” é formado de três adjetivos, todos flexionados no masculino plural.",
+      "options": [
+        {
+          "id": "c",
+          "text": "Certo"
+        },
+        {
+          "id": "e",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Os três termos do verso qualificam o referente nominal e estão flexionados no masculino plural, de modo que o item é CERTO. Fonte: questão oficial; CESPE/UnB; Fundação Universidade de Brasília (FUB), Cargo 20 — Revisor de Texto; 2008; item 105; https://cdn.cebraspe.org.br/concursos/_antigos/2008/FUB2008/arquivos/FUB_020_21.pdf. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/_antigos/2008/FUB2008/arquivos/FUB_Gab_definitivo_020_21.pdf. Formato CERTO/ERRADO preservado."
+    },
+    {
+      "id": "q297",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em relação à morfossintaxe e à semântica do verso “Contas redondas de ouro no pescoço”, julgue os itens a seguir.\nQuanto ao emprego das classes gramaticais, nele constam dois substantivos e dois adjetivos.",
+      "options": [
+        {
+          "id": "c",
+          "text": "Certo"
+        },
+        {
+          "id": "e",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O verso contém substantivos como “contas”, “ouro” e “pescoço”; a afirmação de que nele há dois substantivos e dois adjetivos é ERRADA. Fonte: questão oficial; CESPE/UnB; Fundação Universidade de Brasília (FUB), Cargo 20 — Revisor de Texto; 2008; item 106; https://cdn.cebraspe.org.br/concursos/_antigos/2008/FUB2008/arquivos/FUB_020_21.pdf. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/_antigos/2008/FUB2008/arquivos/FUB_Gab_definitivo_020_21.pdf. O bloco contextual impresso no caderno foi integrado ao prompt sem reescrita; formato CERTO/ERRADO preservado."
     }
   ]
 }
