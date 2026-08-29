@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q5739",
@@ -1801,6 +1801,36 @@
       ],
       "correctOptionId": "D",
       "explanation": "O Tema 897 limita a imprescritibilidade ao ressarcimento fundado em ato doloso tipificado na LIA. Adaptação do item 53 da prova Cebraspe/STJ 2024, Cargo 19 — Analista Judiciário, Área Judiciária, aplicação em 01/12/2024, caderno 018_STJ_019_01; no item original, a afirmação de que a prescrição das sanções obsta o ressarcimento recebeu gabarito oficial definitivo E (errado)."
+    },
+    {
+      "id": "q99251",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Após tomarem posse em cargos públicos no âmbito do Ministério da Cultura, Carlos, João e Maria, novos servidores públicos, foram convidados a acompanhar palestras sobre os contornos da Lei de Improbidade Administrativa, com especial enfoque às mudanças implementadas pela Lei nº 14.230/2021.\nDe acordo com a narrativa e considerando as disposições da Lei nº 8.429/1992, analise as afirmativas a seguir:\nI. Nas hipóteses de improcedência dos pedidos formulados pelo autor, nas ações de improbidade administrativa, incide o reexame obrigatório da sentença em segunda instância.\nII. Caso haja a conversão da ação de improbidade administrativa em ação civil pública caberá a interposição de agravo de instrumento.\nIII. Em caso de revelia do réu, incide a presunção relativa de veracidade dos fatos alegados pelo autor da ação.\nEstá correto o que se afirma em",
+      "options": [
+        {
+          "id": "A",
+          "text": "I, apenas."
+        },
+        {
+          "id": "B",
+          "text": "II, apenas."
+        },
+        {
+          "id": "C",
+          "text": "I e III, apenas."
+        },
+        {
+          "id": "D",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "E",
+          "text": "I, II e III."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Apenas a afirmativa II está correta: a LIA admite a conversão motivada da ação de improbidade em ação civil pública e prevê agravo de instrumento contra essa decisão. A afirmativa I contraria a regra que afasta o reexame obrigatório da sentença de improcedência, e a III contraria a vedação de presunção de veracidade decorrente da revelia. Fonte: questão oficial; FGV; Ministério da Cultura — Processo Seletivo Simplificado, Técnicas de Complexidade Intelectual, Tipo 2; 2024; questão 23; https://conhecimento.fgv.br/sites/default/files/concursos/complexidade-intelectualcns001-tipo-2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_minc_d1354s3s.pdf."
     }
   ]
 }
