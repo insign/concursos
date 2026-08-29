@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q031",
@@ -1827,6 +1827,726 @@
       ],
       "correctOptionId": "c",
       "explanation": "Gabarito oficial: C, conforme justificativa oficial da banca. O texto expõe ideias, informações e argumentos, com presença de posicionamento e desenvolvimento argumentativo, por isso é dissertativo-argumentativo. Fonte: Cebraspe; SEPLAD/DF; Auditor de Controle Interno — Finanças e Controle; 2022; questão 4; caderno com justificativas oficiais: https://cdn.cebraspe.org.br/concursos/seplad_df_22_auditor/arquivos/798_SEPLAD_DFCB1_CE1_COM_JUSTIFICATIVAS.PDF."
+    },
+    {
+      "id": "q095",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O texto descritivo a seguir tem por objeto o famoso quadro de Leonardo Da Vinci, a Monalisa.\n\nA mulher pintada é representada no modelo de uma pirâmide, numa geometrização triangular, em que as mãos cruzadas formam a base da pirâmide. O centro do quadro é o peito da mulher e está alinhado com o olho esquerdo e os dedos da mão direita. Seu braço esquerdo está confortavelmente apoiado no braço da cadeira e é cruzado pelo braço direito. A posição dos braços, junto com a da cadeira, transmite uma distância entre ela e o observador. A cabeça é coberta por um véu que simboliza a castidade, frequente nos retratos de uma esposa. Não apresenta joias ou sinais particulares de ostentação ou poder econômico. A postura da Monalisa indica serenidade e, junto com o olhar de soslaio, mas direto para o espectador, mostra o domínio dos sentimentos, algo que normalmente não era atribuído a uma mulher naquela época. O rosto não tem sobrancelhas. A expressão da mulher na pintura é enigmática ou ambígua. Isso porque o olhar, o corpo e as mãos são direcionados em ângulos sutilmente diferentes. Na borda esquerda da pintura você pode ver a base de uma coluna, sugerindo que a mulher está sentada em uma galeria. A paisagem ao fundo é pintada com uma perspectiva aérea. O azul esfumaçado e a perspectiva difusa e pouco nítida dão à composição maior profundidade. A paisagem de fundo apresenta um certo desequilíbrio, pois cria a ilusão de uma paisagem que se divide em duas. No entanto, não há continuidade entre os dois. Parece que não há correspondência em termos de alturas e linhas.\n\nSobre essa descrição, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A finalidade da descrição pode ser caracterizada como sentimental, já que o observador mostra sua profunda admiração pela obra."
+        },
+        {
+          "id": "b",
+          "text": "O observador, focalizando o quadro como real conhecedor de pintura, destaca técnicas geométricas que construíram a beleza do quadro e, como admirador, indica a composição progressiva da imagem da mulher."
+        },
+        {
+          "id": "c",
+          "text": "A descrição tem finalidade estética, ou seja, procura mostrar ao leitor os caminhos de uma real observação estética da pintura, com total conhecimento das estratégias e técnicas do pintor e dos efeitos produzidos."
+        },
+        {
+          "id": "d",
+          "text": "O texto mostra nítido valor simbólico, em que abundam os exemplos de linguagem figurada a fim de retratar de forma fiel uma obra tão importante."
+        },
+        {
+          "id": "e",
+          "text": "Os detalhes destacados na pintura e no modelo são bastante objetivos, com informações sobre as técnicas pictóricas utilizadas e sobre detalhes intrigantes do quadro, com os esclarecimentos necessários ao seu entendimento."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito oficial definitivo: C. A descrição tem finalidade estética e explicita estratégias pictóricas e efeitos produzidos na observação da obra. Fonte: FGV; Senado Federal; Advogado; 2022; questão 5; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/advogado_prova_objetivae3cns01_tipo_1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/senado2022_gabarito_definitivo_edital03.pdf."
+    },
+    {
+      "id": "q096",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um escritor francês aborda, no texto argumentativo a seguir, a influência americana na França atual.\n\n“Eu certamente admiro o povo americano; mas esse povo, por muitos aspectos de seu gênio, me é mais estrangeiro que qualquer outro. Eu nunca visitei os EUA. Mas eles fizeram muito mais do que nos visitar: eles nos transformaram. O ritmo de nossa vida cotidiana segue o modelo deles. Sua música aparece em milhões de discos. Milhares de filmes, sobre todas as telas de Paris e do interior, nos impõem seus modelos: a idolatria da técnica, de todas as técnicas criadas pelo homem, a loucura pela velocidade... “Não se compreende nada da civilização moderna, se não se admite antes que ela é uma conspiração universal contra toda vida interior...” escrevia Georges Bernanos, em 1945. Sim, contra tudo o que tinha valor para as pessoas de minha raça: uma vida recolhida numa mansão antiga onde viveram antes de nós aqueles de quem viemos e que nos amaram.”\n\nSobre esse texto argumentativo, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O texto protesta contra um colonialismo de um novo tipo: a influência crescente da cultura americana sobre a Europa, rejeitando-a parcialmente, sobretudo no terreno artístico."
+        },
+        {
+          "id": "b",
+          "text": "Os argumentos apresentados para demonstrar a influência americana são dificilmente refutáveis, já que apelam para a evidência cotidiana."
+        },
+        {
+          "id": "c",
+          "text": "A presença de termos como “idolatria” e “loucura” mostra, implicitamente, apreço pela cultura dos Estados Unidos, que o autor aparentemente rejeita."
+        },
+        {
+          "id": "d",
+          "text": "Um contra-argumento que se poderia opor ao pensamento do autor do texto é o de que a influência americana só atinge os países culturalmente mais débeis."
+        },
+        {
+          "id": "e",
+          "text": "A visão do autor do texto é bastante otimista, no sentido de que o mundo futuro será apoiado em brilhante tecnologia e vida exterior intensa, facilitando o enriquecimento mútuo das nações."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito oficial definitivo: B. O autor sustenta a influência americana com exemplos reconhecíveis da vida cotidiana, como ritmo de vida, música, filmes, técnica e velocidade. Fonte: FGV; Senado Federal; Advogado; 2022; questão 7; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/advogado_prova_objetivae3cns01_tipo_1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/senado2022_gabarito_definitivo_edital03.pdf."
+    },
+    {
+      "id": "q097",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Leia o texto injuntivo a seguir.\n\n“Para proteger a natureza e o meio ambiente contra a poluição, é necessário:\n* evitar atirar papéis no chão de locais abertos ou fechados.\n* diminuir o tráfego de veículos movidos à gasolina.\n* preferir o metrô e os ônibus como meios de transporte.\n* plantar árvores para aumentar o oxigênio no ar.\n* sensibilizar as pessoas contra o perigo da poluição.\n* combater os incêndios nas florestas\nEnfim, proteger o meio ambiente é preservar a biodiversidade. As plantas e os animais podem contribuir para nossa boa saúde.”\n\nAssinale a opção que apresenta a marca de estruturação de um texto injuntivo que não está de acordo com o fragmento acima.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neste caso, o texto injuntivo se apoia basicamente em conselhos dados aos leitores."
+        },
+        {
+          "id": "b",
+          "text": "A construção das frases injuntivas, neste caso, utiliza basicamente infinitivos."
+        },
+        {
+          "id": "c",
+          "text": "O texto é organizado de forma a descrever claramente os trabalhos a realizar, precisando todas as etapas."
+        },
+        {
+          "id": "d",
+          "text": "As tarefas a serem realizadas são apresentadas sem qualquer parâmetro de ordem."
+        },
+        {
+          "id": "e",
+          "text": "Os textos injuntivos, como este, podem justificar as tarefas a serem realizadas, o que é feito no parágrafo final."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito oficial definitivo: C. O fragmento reúne recomendações independentes, sem descrever um procedimento com etapas precisas e sequenciais. Fonte: FGV; Senado Federal; Advogado; 2022; questão 12; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/advogado_prova_objetivae3cns01_tipo_1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/senado2022_gabarito_definitivo_edital03.pdf."
+    },
+    {
+      "id": "q098",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção que apresenta o texto que deve ser classificado como descritivo.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A escola de samba entrou na avenida, passou diante dos jurados e, quando saiu na zona de dispersão, dava a impressão de ter certeza da vitória."
+        },
+        {
+          "id": "b",
+          "text": "Os jurados estavam sentados numa espécie de plataforma que se debruçava sobre a passarela do desfile, mostrando sempre muita atenção ao que se desenrolava à sua frente."
+        },
+        {
+          "id": "c",
+          "text": "As escolas de samba continuam sendo uma grande atração do carnaval carioca e é a razão principal da presença de turistas na cidade do Rio."
+        },
+        {
+          "id": "d",
+          "text": "O mestre-sala exibiu toda a sua categoria de sambista, fez os cumprimentos necessários aos jurados, agradeceu os aplausos do público e continuou sua caminhada."
+        },
+        {
+          "id": "e",
+          "text": "A bateria de uma escola de samba é uma atração à parte, atraindo o interesse do público em geral, já que ela se encarrega de dar o ritmo necessário ao samba."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito oficial definitivo: B. O segmento caracteriza a posição dos jurados e a plataforma, construindo um quadro estático, enquanto outras opções narram ações ou apresentam avaliações. Fonte: FGV; TCE-PA; Auditor de Controle Externo — Área Administrativa/Gestão Governamental; 2024; questão 6; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/auditor-de-controle-externo-administrativa-gestao-governamentalcns110-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tcepa2024ap01_gabarito_definitivo_todos_20240913.pdf."
+    },
+    {
+      "id": "q099",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Observe o trecho descritivo abaixo, que tem por objeto um personagem de uma cidade interiorana:\n\n’Seu Paulo’ era um mineiro já de alguma idade, que já havia trabalhado em São Paulo como motorista, mas agora era um faz-tudo em Lavras. Tinha bom humor, gostava muito de conversar e, na minha pequena propriedade, fazia as pequenas tarefas agrícolas diárias, como limpar o terreno, botar água nas plantas e tirar pragas que surgissem na grama.\n\nEssa pequena descrição",
+      "options": [
+        {
+          "id": "a",
+          "text": "procura identificar o personagem por meio de seus traços físicos."
+        },
+        {
+          "id": "b",
+          "text": "destaca sobretudo os traços psíquicos do personagem."
+        },
+        {
+          "id": "c",
+          "text": "mostra traços físicos e psíquicos do personagem."
+        },
+        {
+          "id": "d",
+          "text": "descreve o personagem em diversas épocas, procurando valorizá-lo."
+        },
+        {
+          "id": "e",
+          "text": "indica somente características sociais do personagem descrito, mostrando-o como símbolo do interiorano."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito oficial definitivo: B. O trecho destaca sobretudo temperamento, sociabilidade e comportamento do personagem, não sua aparência física. Fonte: FGV; TCE-PA; Auditor de Controle Externo — Área Administrativa/Gestão Governamental; 2024; questão 7; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/auditor-de-controle-externo-administrativa-gestao-governamentalcns110-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tcepa2024ap01_gabarito_definitivo_todos_20240913.pdf."
+    },
+    {
+      "id": "q100",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Observe o pequeno texto narrativo a seguir:\n\nPasseava despreocupadamente pelas ruas do meu bairro e passei diante de uma loja da loteria esportiva e me lembrei de que havia um alto prêmio acumulado. Fiquei tentado em jogar, mas não podia gastar aquele dinheiro no momento e desisti. Um pouco mais adiante, porém, arrependi-me e voltei para a loja.\n\nSobre a estruturação desse texto narrativo, assinale a afirmação inadequada.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Há uma situação inicial que mostra o passeio despreocupado do narrador."
+        },
+        {
+          "id": "b",
+          "text": "Ocorre um fato motivador de uma modificação na situação inicial, que é o fato de passar pela loja de loteria e lembrar-se do prêmio acumulado."
+        },
+        {
+          "id": "c",
+          "text": "Há uma discussão interior do personagem que corresponde à trama narrativa e a um problema a ser resolvido."
+        },
+        {
+          "id": "d",
+          "text": "Desistir de jogar corresponde a uma solução temporária do conflito interior do narrador."
+        },
+        {
+          "id": "e",
+          "text": "Arrepender-se equivale ao final da narrativa, em que o conflito do texto é resolvido."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Gabarito oficial definitivo: E. O arrependimento reabre o conflito e leva o narrador a voltar à loja, portanto não constitui uma resolução final. Fonte: FGV; TCE-PA; Auditor de Controle Externo — Área Administrativa/Gestão Governamental; 2024; questão 8; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/auditor-de-controle-externo-administrativa-gestao-governamentalcns110-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tcepa2024ap01_gabarito_definitivo_todos_20240913.pdf."
+    },
+    {
+      "id": "q101",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Leia com atenção o texto a seguir, retirado do romance lusitano O Barão de Lavos.\n\n“Naquela noite de março, desabrida e húmida, uma grande animação fervilhava alacremente ao fundo da Rua do Salitre. Era em 1867. Frente a frente, as Variedades e o Circo Price alinhavam os seus bicos de gás festeiros, a que as vergastadas do noroeste impunham um tremelilhar inquieto. Quinta feira — noite de cabriolas com sobrescrito à fina sociedade. Enchente certa no Circo. De cada lado do portal da entrada, um semicírculo compacto de gente se agitava, tendo por centro cada um seu postigo de bilheteiro, e ambos por igual colados, premidos sofregamente contra a parede verdoenga do barracão, e arredondando pela rua fora, numa irregularidade gritada e confusa, a toda a largura do macadame.”\n\nSobre a sua tipologia textual, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trata-se de um texto narrativo, que mostra as ações de uma noite de enchente num circo."
+        },
+        {
+          "id": "b",
+          "text": "Mostra um texto de tipo informativo sobre uma sequência de acontecimentos ocorridos numa noite de março."
+        },
+        {
+          "id": "c",
+          "text": "Exemplifica um texto publicitário, divulgando as atividades de uma empresa circense."
+        },
+        {
+          "id": "d",
+          "text": "Apresenta um texto descritivo, tendo por foco o cenário de uma noite agitada em função da presença de um circo."
+        },
+        {
+          "id": "e",
+          "text": "Compõe-se de frases que, indiretamente, recomendam ao leitor a ida ao circo, exemplificando um texto injuntivo."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito oficial definitivo: D. O fragmento constrói o cenário noturno e sua atmosfera por meio de localização, aparência e movimentação coletiva, com predominância descritiva. Fonte: FGV; ALE-AM; Analista Legislativo — Redator; 2025; questão 3; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-redator-cns327-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-am.pdf."
+    },
+    {
+      "id": "q102",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Observe o texto abaixo, retirado do livro “Composições Infantis”, da autoria de Millôr Fernandes.\n\n“O leão é um animal que há muito tempo não vai ao barbeiro. Senão teria cortado o cabelo e ficaria muito igual à mulher dele. O leão tem a cabeça muito grande que é para não poder fugir da jaula. Agora na jaula quem põe ele lá é o guarda e aí está por que é o rei dos animais. O leão dizem que é feroz, mas deve ser quando a gente não está olhando porque quando a gente está olhando ele fica o tempo todo dormindo e não há jeito de enferocizá-lo e quem fica furioso com isso é o guarda. O leão também papai gosta muito de jogar nele, mas isso só quando sonha com elefante. E aí é que dá cobra.”\n\nA observação correta sobre esse segmento textual",
+      "options": [
+        {
+          "id": "a",
+          "text": "a linguagem empregada no texto mostra um desprezo geral pela gramática da língua, causando incompreensão."
+        },
+        {
+          "id": "b",
+          "text": "a descrição do leão é prejudicada pela limitação de conhecimento do observador."
+        },
+        {
+          "id": "c",
+          "text": "a descrição feita do leão concentra seu interesse no aspecto físico do animal."
+        },
+        {
+          "id": "d",
+          "text": "o final do texto marca traços de infantilidade em função da falta de coerência."
+        },
+        {
+          "id": "e",
+          "text": "o texto traz, indiretamente, um protesto contra o jogo do bicho, por sua ilegalidade."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito oficial definitivo: B. O efeito humorístico decorre das explicações equivocadas e associações limitadas do observador infantil, que comprometem a descrição objetiva do leão. Fonte: FGV; ALE-AM; Analista Legislativo — Redator; 2025; questão 6; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-redator-cns327-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-am.pdf."
+    },
+    {
+      "id": "q103",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "As opções abaixo trazem segmentos textuais retirados do romance O Crime do Padre Amaro, do autor português Eça de Queiroz. A opção que mostra um segmento predominantemente narrativo, é a seguinte:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“O cônego vivia só com uma irmã velha, a Sra. D. Josefa Dias, e uma criada, que todos conheciam também em Leiria, sempre na rua, entrouxada num xale tingido de negro, e arrastando pesadamente as suas chinelas de ourelo.”"
+        },
+        {
+          "id": "b",
+          "text": "“Era uma tarde de agosto e passeavam ambos para os lados da Ponte Nova. Andava então a construir-se a estrada da Figueira: o velho passadiço de pau sobre a ribeira do Lis tinha sido destruído, já se passava sobre a Ponte Nova, muito gabada, com os seus dois largos arcos de pedra, fortes e atarracados.”"
+        },
+        {
+          "id": "c",
+          "text": "“Em roda da Ponte a paisagem é larga e tranquila. Para o lado de onde o rio vem são colinas baixas, de formas arredondadas, cobertas da rama verde-negra dos pinheiros novos; embaixo, na espessura dos arvoredos, estão os casais que dão àqueles lugares melancólicos uma feição mais viva e humana...”"
+        },
+        {
+          "id": "d",
+          "text": "“Duas vacas, guardadas por uma rapariga, apareceram então pelo caminho lodoso que do outro lado do rio, defronte da alameda, corre junto de um silvado; entraram no rio devagar, e estendendo o pescoço pelado da canga, bebiam de leve, sem ruído;”"
+        },
+        {
+          "id": "e",
+          "text": "“Ao pé da Ponte, uma rampa desce para a alameda que se estende um pouco à beira do rio. É um lugar recolhido, coberto de árvores antigas. Chamam-lhe a Alameda Velha. Ali, caminhando devagar, falando baixo, o cônego consultava o coadjutor sobre a carta de Amaro Vieira, e sobre ''uma ideia que ela lhe dera, que lhe parecia de mestre! De mestre!''”"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito oficial definitivo: D. O segmento encadeia ações sucessivas — as vacas aparecem, entram no rio e bebem —, o que estabelece predominância narrativa. Fonte: FGV; ALE-AM; Analista Legislativo — Redator; 2025; questão 52; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-redator-cns327-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-am.pdf."
+    },
+    {
+      "id": "q104",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A frase de Benjamin Franklin “A necessidade nunca fez bons negócios” pode ser incluída entre os textos argumentativos, pois representa uma tese.\n\nAssinale a frase a seguir que não pode ser considerada como texto argumentativo.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Não há documento que te garanta contra a ignorância."
+        },
+        {
+          "id": "b",
+          "text": "Pensar é o trabalho mais duro que há."
+        },
+        {
+          "id": "c",
+          "text": "Eu sou um preguiçoso que trabalha muito."
+        },
+        {
+          "id": "d",
+          "text": "Nada é impossível."
+        },
+        {
+          "id": "e",
+          "text": "Êxito é poder viver como se deseja."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito oficial definitivo: C. A frase é uma autocaracterização paradoxal, sem formular uma tese geral sustentável como as demais máximas. Fonte: FGV; DPE-RO; Técnico Administrativo — Classe A; 2025; questão 8; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-administrativo-classe-acnm001-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-defintivo-dpe-ro_0.pdf."
+    },
+    {
+      "id": "q105",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Observe o seguinte fragmento textual:\n\n“O texto que o professor tinha diante dele ocupava duas páginas inteiras do livro. A introdução era em forma de suspense e o desenvolvimento do texto ia lentamente desvendando o mistério. A conclusão do texto era surpreendente, pois ia contra as expectativas do leitor.”\n\nTrata-se de um texto descritivo sobre o qual podemos fazer corretamente a seguinte observação:",
+      "options": [
+        {
+          "id": "a",
+          "text": "a descrição do texto mostra um observador especializado, pois indica conhecimento específico sobre o tema."
+        },
+        {
+          "id": "b",
+          "text": "o fragmento descritivo que compõe o texto se insere num texto narrativo, conforme fica evidente no final do texto."
+        },
+        {
+          "id": "c",
+          "text": "o tema do texto descritivo acima se insere entre temas populares, de ampla utilidade."
+        },
+        {
+          "id": "d",
+          "text": "as observações presentes no texto mostram um julgamento estético sobre o que foi lido."
+        },
+        {
+          "id": "e",
+          "text": "o observador mostra limitações em seu conhecimento do texto por meio do vocabulário utilizado."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito oficial definitivo: A. O observador emprega categorias de composição textual — introdução, desenvolvimento e conclusão — que revelam conhecimento específico sobre o objeto descrito. Fonte: FGV; DPE-RO; Técnico Administrativo — Classe A; 2025; questão 13; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-administrativo-classe-acnm001-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-defintivo-dpe-ro_0.pdf."
+    },
+    {
+      "id": "q106",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Observe o seguinte texto, retirado do romance O Cortiço, de Aluísio Azevedo e assinale a afirmação correta sobre sua estrutura ou significação:\n\n“Era um pobre-diabo caminhando para os setenta anos, antipático, cabelo branco, curto e duro, como escova, barba e bigode do mesmo teor; muito macilento, com uns óculos redondos que lhe aumentavam o tamanho da pupila e davam-lhe à cara uma expressão de abutre, perfeitamente de acordo com o seu nariz adunco e com a sua boca sem lábios: viam-se-lhe ainda todos os dentes, mas, tão gastos, que pareciam limados até ao meio.”",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trata-se de um texto argumentativo em que o autor procura mostrar a miséria de um personagem."
+        },
+        {
+          "id": "b",
+          "text": "Exemplifica um texto descritivo de uma pessoa, com dados físicos e psicológicos."
+        },
+        {
+          "id": "c",
+          "text": "Mostra ser um texto narrativo, pois mostra uma sequência de fatos em relação de causa e consequência."
+        },
+        {
+          "id": "d",
+          "text": "Antipático, branco, curto, duro, macilento são adjetivos que se apoiam no sentido da visão."
+        },
+        {
+          "id": "e",
+          "text": "A última oração do texto indica uma causa do que é anteriormente afirmado."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito oficial definitivo: B. O fragmento caracteriza a aparência do personagem e acrescenta traços avaliativos ou psicológicos, como “antipático” e a expressão de abutre. Fonte: FGV; DPE-RO; Técnico Administrativo — Classe A; 2025; questão 17; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-administrativo-classe-acnm001-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-defintivo-dpe-ro_0.pdf."
+    },
+    {
+      "id": "q107",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "“Homem morre eletrocutado ao tentar furtar fios de linha de trem em SP - Situação aconteceu nas proximidades da estação Itapevi da Linha 8-Diamante nesta sexta-feira (27)\nNesta sexta-feira, por volta das 5h40, um homem morreu eletrocutado tentando furtar fios da estação Itapevi da Linha 8-Diamante, na região metropolitana de São Paulo.\nA Via Mobilidade informou que o Corpo de Bombeiros e o Serviço Atendimento Móvel de Urgência (Samu) foram acionados, mas o homem já estava morto. O caso foi registrado no 1°DP de Itapevi.\nAinda de acordo com a responsável pelo trecho, a circulação de trens não foi afetada porque o incidente aconteceu longe dos trilhos.”\n(RedeTV – 28/01/2023 - adaptado)\n\nO trecho exemplifica o que designamos como texto informativo; sobre a estruturação desse texto, assinale a afirmação inadequada.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O primeiro período do texto funciona como manchete e resume os dados mais importantes da notícia."
+        },
+        {
+          "id": "b",
+          "text": "O segundo parágrafo repete informações já dadas na manchete, fornecendo novos detalhes do ocorrido."
+        },
+        {
+          "id": "c",
+          "text": "O terceiro parágrafo concentra o foco informativo sobre as decorrências do fato já relatado."
+        },
+        {
+          "id": "d",
+          "text": "O último parágrafo não obedece cronologicamente à exposição dos fatos."
+        },
+        {
+          "id": "e",
+          "text": "Os parágrafos do texto mostram a preocupação com a precisão dos vocábulos, característica do texto informativo."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Gabarito oficial definitivo: E. A alternativa atribui ao texto uma precisão vocabular que não constitui a marca estrutural observada no fragmento informativo. Fonte: FGV; MPSP; Analista de Promotoria I — Psicólogo; 2023; questão 3; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/cns005-analista-de-promotoria-i-area-de-saude-e-assistencia-social-psicologocns005-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/edital-33-analista-de-promotoria-i-gabaritos-definitivos-e-resultados-recursos-para-publicacao-mpsp-.pdf."
+    },
+    {
+      "id": "q108",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "“Homem morre eletrocutado ao tentar furtar fios de linha de trem em SP - Situação aconteceu nas proximidades da estação Itapevi da Linha 8-Diamante nesta sexta-feira (27)\nNesta sexta-feira, por volta das 5h40, um homem morreu eletrocutado tentando furtar fios da estação Itapevi da Linha 8-Diamante, na região metropolitana de São Paulo.\nA Via Mobilidade informou que o Corpo de Bombeiros e o Serviço Atendimento Móvel de Urgência (Samu) foram acionados, mas o homem já estava morto. O caso foi registrado no 1°DP de Itapevi.\nAinda de acordo com a responsável pelo trecho, a circulação de trens não foi afetada porque o incidente aconteceu longe dos trilhos.”\n(RedeTV – 28/01/2023 - adaptado)\n\nAssinale a orientação sobre textos informativos que não foi seguida nesse caso.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Clareza na exposição da ideia central."
+        },
+        {
+          "id": "b",
+          "text": "Ausência de generalidades dispensáveis."
+        },
+        {
+          "id": "c",
+          "text": "Informação ordenada e hierarquizada."
+        },
+        {
+          "id": "d",
+          "text": "Preocupação com a legibilidade do texto."
+        },
+        {
+          "id": "e",
+          "text": "Citação de fontes das informações dadas."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito oficial definitivo: C. O fragmento não apresenta as informações em ordenação e hierarquia plenamente regulares, embora identifique fontes e exponha o fato com clareza. Fonte: FGV; MPSP; Analista de Promotoria I — Psicólogo; 2023; questão 4; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/cns005-analista-de-promotoria-i-area-de-saude-e-assistencia-social-psicologocns005-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/edital-33-analista-de-promotoria-i-gabaritos-definitivos-e-resultados-recursos-para-publicacao-mpsp-.pdf."
+    },
+    {
+      "id": "q109",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Observe o seguinte fragmento de um texto narrativo:\n“Assim que entrou na loja, o turista passou a observar o homem que vagava entre os corredores com uma sacola aberta a tiracolo. Quando viu que ele retirou um objeto da prateleira e enfiou-o na bolsa, decidiu denunciá-lo por roubo”.\nAssinale a opção que mostra uma marca adequada a esse gênero textual (narrativo).",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quanto ao conteúdo do texto, ocorre a atenção do observador por seres, objetos e cenas."
+        },
+        {
+          "id": "b",
+          "text": "Quanto ao tempo, ocorre a apreensão de um momento único."
+        },
+        {
+          "id": "c",
+          "text": "Quanto ao objetivo, sua finalidade está em identificar, localizar e qualificar os fatos narrados."
+        },
+        {
+          "id": "d",
+          "text": "Quanto às classes de palavras predominantes, há a preferência por verbos e conjunções temporais."
+        },
+        {
+          "id": "e",
+          "text": "Quanto ao emprego de tempos verbais, ocorre a preferência pelo presente ou pretérito imperfeito do indicativo."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito oficial definitivo: D. Verbos de ação e conectores temporais organizam a sucessão de acontecimentos típica da narrativa. Fonte: FGV; MPSP; Analista de Promotoria I — Psicólogo; 2023; questão 8; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/cns005-analista-de-promotoria-i-area-de-saude-e-assistencia-social-psicologocns005-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/edital-33-analista-de-promotoria-i-gabaritos-definitivos-e-resultados-recursos-para-publicacao-mpsp-.pdf."
+    },
+    {
+      "id": "q110",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção que indica o fragmento textual que pertence ao modo narrativo de organização discursiva.",
+      "options": [
+        {
+          "id": "a",
+          "text": "“A iluminação era fraca, mas, como havia luz externa, o problema era de pouca monta.”"
+        },
+        {
+          "id": "b",
+          "text": "“Alguns clientes conversavam em diversas mesas e pareciam contentes com alguma coisa.”"
+        },
+        {
+          "id": "c",
+          "text": "“O restaurante era pequeno, com muitas mesas espalhadas pelo salão, com velas sobre elas.”"
+        },
+        {
+          "id": "d",
+          "text": "“Restaurantes são lugares públicos e devem estar sempre com boa aparência para atrair os clientes.”"
+        },
+        {
+          "id": "e",
+          "text": "“Estava com fome. Dobrei a esquina, dirigi-me a um restaurante que estava aberto e sentei-me na primeira mesa.”"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Gabarito oficial definitivo: E. O trecho encadeia ações concluídas em sequência temporal: dobrar a esquina, dirigir-se ao restaurante e sentar-se. Fonte: FGV; TCE-PI; Auditor de Controle Externo — Tecnologia da Informação/Infraestrutura e Segurança; 2025; questão 8; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/auditor-de-controle-externo-tec-informacao-infrestrutura-e-seguranca-manha-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/255_tce-pi-gabarito-definitivo-13.02.2025.pdf."
+    },
+    {
+      "id": "q111",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Todo texto argumentativo mostra uma tese e os argumentos que a defendem.\nAssinale a frase em que o argumento apresentado é caracterizado como testemunho de autoridade.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Não deixe para amanhã o que pode fazer depois de amanhã."
+        },
+        {
+          "id": "b",
+          "text": "Se quiser consertar o país, basta fazer com que todos creiam em Deus."
+        },
+        {
+          "id": "c",
+          "text": "Sigo tomando o ônibus em lugar do metrô, pois assim faz a maioria dos cidadãos."
+        },
+        {
+          "id": "d",
+          "text": "Já dizia meu pai que o samba brasileiro ia perder espaço para a música estrangeira."
+        },
+        {
+          "id": "e",
+          "text": "Ontem choveu e as ruas ficaram alagadas; hoje, choveu de novo, logo as ruas ficarão alagadas."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito oficial definitivo: D. A frase atribui a afirmação ao pai do enunciador, mobilizando seu testemunho como autoridade para sustentar a ideia. Fonte: FGV; TCE-PI; Auditor de Controle Externo — Tecnologia da Informação/Infraestrutura e Segurança; 2025; questão 10; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/auditor-de-controle-externo-tec-informacao-infrestrutura-e-seguranca-manha-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/255_tce-pi-gabarito-definitivo-13.02.2025.pdf."
+    },
+    {
+      "id": "q112",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale o segmento descritivo que exemplifica a técnica cinematográfica da descrição, ou seja, com o objeto móvel e o observador imóvel.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sentado à porta da casa, o velhinho via passar as pessoas do bairro, algumas arrumadas para o trabalho, outros com uniformes escolares com as mães ao lado, outros ainda com roupas esportivas especiais."
+        },
+        {
+          "id": "b",
+          "text": "Caminhando pelo calçadão da praia, ele pôde observar os inúmeros ambulantes que ofereciam camisetas de clubes, pequenas estátuas do Cristo Redentor, lenços coloridos, que encantavam os turistas."
+        },
+        {
+          "id": "c",
+          "text": "O investigador observava a arma do crime: uma pequena faca com lâmina especialmente afiada, cabo de madeira com parafusos e arranhões por todo ele."
+        },
+        {
+          "id": "d",
+          "text": "A paisagem era calma, com árvores paradas pela falta de vento, os caminhos desertos de gente, mas, com o deslocamento do meu corpo para a direita, podia ver alguns animais pastando à beira da estrada."
+        },
+        {
+          "id": "e",
+          "text": "A estrada era estreita e ladeada de casas humildes, mas, ao seu final, podia-se observar novas construções de aparência mais moderna e luxuosa."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito oficial definitivo: A. O observador permanece sentado, enquanto as pessoas descritas passam diante dele, configurando objeto móvel e ponto de observação imóvel. Fonte: FGV; Prefeitura de Vitória; Analista em Gestão Pública — Administrador; 2024; questão 1; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-gestao-publica-administradorangp-01-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/analistavitoria2024_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q113",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Observe o texto descritivo e assinale a opção em que a característica apontada se refere a um texto narrativo e não a um texto descritivo:\n\nNa praça havia um camponês com uma enxada, um lavrador, em todos os tipos de atitudes, duas vezes um semeador, duas vezes uma menina com uma vassoura. A seguir, uma mulher com uma roupa branca, descascando batatas, e um pastor apoiado em seu bastão, e enfim um velho camponês doente, sentado numa cadeira perto do fogão, a cabeça entre as mãos e os cotovelos sobre os joelhos.\n\n– Van Gogh",
+      "options": [
+        {
+          "id": "a",
+          "text": "Os elementos descritos no texto são apresentados num só momento temporal, sem sucessividade."
+        },
+        {
+          "id": "b",
+          "text": "Há predominância textual de substantivos designativos e adjetivos."
+        },
+        {
+          "id": "c",
+          "text": "Ordenação dos elementos no espaço como mostram as palavras “a seguir” e “enfim”."
+        },
+        {
+          "id": "d",
+          "text": "Predominância de orações coordenadas."
+        },
+        {
+          "id": "e",
+          "text": "Formas verbais no passado com evolução cronológica."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Gabarito oficial definitivo: E. Evolução cronológica expressa por verbos no passado é traço narrativo, enquanto o fragmento organiza simultaneamente elementos de uma cena. Fonte: FGV; Prefeitura de Vitória; Analista em Gestão Pública — Administrador; 2024; questão 2; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-gestao-publica-administradorangp-01-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/analistavitoria2024_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q114",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Observe o seguinte texto descritivo de Van Gogh:\n\n“Estes troncos estavam num charco, em meio à lama preta. Alguns, pretos, encontravam-se sob a água na qual reverberavam, outros, descorados, sobre a campina preta. Um caminhozinho branco atravessa a planície, e atrás há ainda mais turfas, de um preto de fuligem. Por cima, um céu de tempestade”.\n\nAssinale a observação que não está adequada ao texto acima.",
+      "options": [
+        {
+          "id": "a",
+          "text": "As cores ganham destaque na observação das realidades descritas."
+        },
+        {
+          "id": "b",
+          "text": "A estratégia descritiva mostra uma aproximação progressiva do observador em relação aos elementos observados."
+        },
+        {
+          "id": "c",
+          "text": "A descrição é de caráter objetivo, dando destaque a características visuais do que é descrito."
+        },
+        {
+          "id": "d",
+          "text": "O texto tem por objeto aspectos de uma paisagem, sem a presença de humanos."
+        },
+        {
+          "id": "e",
+          "text": "Os elementos descritos estão apresentados de forma dispersa, sem relações lógicas entre eles."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito oficial definitivo: B. A descrição distribui os elementos no espaço, mas não mostra aproximação progressiva do observador em relação ao cenário. Fonte: FGV; Prefeitura de Vitória; Analista em Gestão Pública — Administrador; 2024; questão 3; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-gestao-publica-administradorangp-01-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/analistavitoria2024_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q115",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase que mostra uma definição técnica, que poderia fazer parte de um dicionário.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informação é a moeda da democracia."
+        },
+        {
+          "id": "b",
+          "text": "Uma linguagem diferente é uma visão da vida diferente."
+        },
+        {
+          "id": "c",
+          "text": "O amor é mais precioso que a vida."
+        },
+        {
+          "id": "d",
+          "text": "O conto é uma pequena narrativa."
+        },
+        {
+          "id": "e",
+          "text": "Amor é fogo que arde sem se ver."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito oficial definitivo: D. A frase define “conto” de maneira denotativa por meio de uma classe geral e uma característica delimitadora, compatível com verbete. Fonte: FGV; Prefeitura de Vitória; Analista em Gestão Pública — Administrador; 2024; questão 4; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-gestao-publica-administradorangp-01-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/analistavitoria2024_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q116",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Observe o seguinte texto narrativo:\n\n“O mendigo aproximou-se do casal que estava sentado no banco da praça; pediu ajuda, argumentando que precisava de dinheiro, pois havia perdido o emprego e tinha dois filhos ainda menores para alimentar. O casal ficou penalizado e deu ao mendigo algum dinheiro”.\n\nAssinale a opção que indique quais são as duas formas verbais que mostram uma sequência cronológica.",
+      "options": [
+        {
+          "id": "a",
+          "text": "aproximou-se / estava sentado."
+        },
+        {
+          "id": "b",
+          "text": "pediu ajuda / argumentando."
+        },
+        {
+          "id": "c",
+          "text": "precisava / havia perdido."
+        },
+        {
+          "id": "d",
+          "text": "tinha / alimentar."
+        },
+        {
+          "id": "e",
+          "text": "ficou / deu."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Gabarito oficial definitivo: E. O casal primeiro ficou penalizado e, em seguida, deu dinheiro ao mendigo, formando sequência cronológica explícita. Fonte: FGV; Prefeitura de Vitória; Analista em Gestão Pública — Administrador; 2024; questão 5; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-gestao-publica-administradorangp-01-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/analistavitoria2024_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q117",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Leia o texto argumentativo a seguir.\n\nO Brasil enfrenta um momento crucial na jornada rumo à Agenda 2030, com o cumprimento das metas do Objetivo de Desenvolvimento Sustentável (ODS) 4, referente à educação. Relatório do Instituto de Pesquisa Econômica Aplicada (Ipea), destaca que na área da educação, menos de 40% dos alunos conseguem atingir os níveis esperados de conhecimento ao final do ensino fundamental, e apenas cerca de 30% alcançam esse patamar em matemática no término do ensino médio. Milko Matijascic, autor e técnico de planejamento e pesquisa do Ipea, ressalta a urgência de enfrentar os desafios educacionais do país. \"A baixa qualidade da educação também é preocupante, já que afeta a produtividade dos alunos e sua capacidade de entender seus direitos e agir de forma sustentável\", ressalta o pesquisador. \"A fixação de metas realistas e determinação para alcançá-las são essenciais para elevar os padrões educacionais e promover o desenvolvimento sustentável em todas as suas dimensões”.\n\nAdaptado de: https://www.ipea.gov.br/portal/categorias/45-todas-as-noticias/noticias/15057-estudo-apresenta-indicadores-para-aprimoramento-da-educacao-no-brasil\n\nCom base na leitura do trecho, assinale a opção que identifica corretamente a significação ou a estruturação do texto.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A defesa da tese expressa no texto se fundamenta no argumento do princípio da autoridade."
+        },
+        {
+          "id": "b",
+          "text": "Há no texto uma crítica a um plano educacional a ser apresentado ao país."
+        },
+        {
+          "id": "c",
+          "text": "O primeiro período é contraditado pelo restante do texto"
+        },
+        {
+          "id": "d",
+          "text": "Na forma verbal “alcançá-las”, o pronome “las” se refere aos substantivos “fixação” e “determinação”."
+        },
+        {
+          "id": "e",
+          "text": "A existência de siglas entre parênteses mostra a preocupação do autor com a atualidade das informações."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito oficial definitivo retificado: A. A argumentação se apoia no relatório do Ipea e na fala de pesquisador identificado, mobilizando autoridade institucional e especializada. Fonte: FGV; TCE-PE; Analista de Gestão — Administração; 2025; questão 7; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-gestao-administracaocns302-tipo-1.pdf; gabarito definitivo retificado em 17/07/2026: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_tce-pe_retificado-17.07.2026.pdf."
+    },
+    {
+      "id": "q118",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Leia o seguinte texto argumentativo:\n\nSenhor professor, sei que o senhor é bastante compreensivo, e está certo em suspender o meu filho por seus constantes atrasos, mas ocorre que nós moramos muito longe da escola e os ônibus que passam por nosso bairro não obedecem a um horário preciso. O não-comparecimento à escola só vai prejudicá-lo, por isso peço a sua reconsideração.\n\nQuanto à estruturação argumentativa do texto, é correto afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "a justificativa apresentada pela mãe do aluno suspenso se apoia em argumentos de caráter sentimental."
+        },
+        {
+          "id": "b",
+          "text": "na tentativa de convencer o professor, a mãe apela para razões sociais e educacionais."
+        },
+        {
+          "id": "c",
+          "text": "os argumentos apresentados ao professor mostram fuga do assunto que motiva o pedido, ou seja, os atrasos do aluno."
+        },
+        {
+          "id": "d",
+          "text": "o pedido apresentado pela mãe do aluno mostra a estruturação de um círculo vicioso."
+        },
+        {
+          "id": "e",
+          "text": "apesar de ser um pedido, o texto mostra um caráter impositivo por parte da mãe."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito oficial definitivo retificado: B. A distância e a irregularidade do transporte constituem razões sociais; o prejuízo decorrente da ausência escolar constitui razão educacional. Fonte: FGV; TCE-PE; Analista de Gestão — Administração; 2025; questão 9; Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-gestao-administracaocns302-tipo-1.pdf; gabarito definitivo retificado em 17/07/2026: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_tce-pe_retificado-17.07.2026.pdf."
     }
   ]
 }
