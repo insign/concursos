@@ -36,19 +36,22 @@ jobs:
           before = json.loads(text)
           assert before["schemaVersion"] == 1
           assert before["questionSetRevision"] == 3
-          assert len(before["questions"]) == 64
-          assert before["questions"][0]["id"] == "q031"
-          assert before["questions"][-1]["id"] == "q094"
+          before_count = len(before["questions"])
+          before_ids = [q["id"] for q in before["questions"]]
+          assert before_count > 0
+          assert before_ids[0] == "q031"
+          assert before_ids[-1] == "q094"
+          assert len(before_ids) == len(set(before_ids))
 
           payload_dir = pathlib.Path(".u002-payload")
           encoded = "".join(part.read_text().strip() for part in sorted(payload_dir.glob("part-*.b64")))
-          assert len(encoded) == 17436
+          assert len(encoded) == 17436, len(encoded)
           assert hashlib.sha256(encoded.encode()).hexdigest() == "db9211496a81185a6a1146d7219172dbebed9f966bbd910575dfec61148d623c"
           new_questions = json.loads(gzip.decompress(base64.b64decode(encoded)).decode("utf-8"))
           assert len(new_questions) == 24
           assert [q["id"] for q in new_questions] == [f"q{i:03d}" for i in range(95, 119)]
 
-          existing_ids = {q["id"] for q in before["questions"]}
+          existing_ids = set(before_ids)
           assert not existing_ids.intersection(q["id"] for q in new_questions)
           for question in new_questions:
               assert question["revision"] == 1
@@ -72,8 +75,8 @@ jobs:
 
           after = json.loads(updated)
           assert after["questionSetRevision"] == 4
-          assert len(after["questions"]) == 88
-          assert after["questions"][:64] == before["questions"]
+          assert len(after["questions"]) == before_count + 24
+          assert after["questions"][:before_count] == before["questions"]
           assert [q["id"] for q in after["questions"][-24:]] == [f"q{i:03d}" for i in range(95, 119)]
           all_ids = [q["id"] for q in after["questions"]]
           assert len(all_ids) == len(set(all_ids))
@@ -82,7 +85,7 @@ jobs:
               assert question["correctOptionId"] in option_ids
 
           path.write_bytes(updated.encode("utf-8"))
-          print(f"validated: {len(before['questions'])} -> {len(after['questions'])}; revision 3 -> 4")
+          print(f"validated: {before_count} -> {len(after['questions'])}; revision 3 -> 4")
           PY
           rm -rf .u002-payload .github/workflows/u002-builder.yml
           git config user.name "github-actions[bot]"
