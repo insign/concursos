@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q134",
@@ -1831,6 +1831,126 @@
       ],
       "correctOptionId": "b",
       "explanation": "Gabarito oficial definitivo: B. A construção correlativa “não só ... como também” acrescenta uma segunda predicação à primeira e exprime adição. Fonte: Cebraspe; SDS/PE — Polícia Civil; 2016; questão 7; caderno: https://cdn.cebraspe.org.br/concursos/SDS_PE_16_CIVIL/arquivos/258_SDS_PE_CG1_01.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/SDS_PE_16_CIVIL/arquivos/Gab_Definitivo_258_SDS_PE_CG1_01.PDF."
+    },
+    {
+      "id": "q195",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção em que o verbo fazer funciona como elemento de coesão, substituindo todo o predicado.",
+      "options": [
+        {
+          "id": "a",
+          "text": "As crianças, no zoológico, brincaram com todos os animais, mas os pais não faziam o mesmo."
+        },
+        {
+          "id": "b",
+          "text": "Os professores da turma fizeram, com os alunos, todos os exercícios do livro."
+        },
+        {
+          "id": "c",
+          "text": "Nunca mais se fez nada igual no Brasil."
+        },
+        {
+          "id": "d",
+          "text": "Os meninos e as meninas fizeram os mesmos desenhos."
+        },
+        {
+          "id": "e",
+          "text": "A costureira, com paciência, fez as casas dos botões."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito oficial definitivo: A. Em “os pais não faziam o mesmo”, o verbo “fazer” retoma o predicado anterior, funcionando como recurso de substituição e evitando sua repetição. Fonte: FGV; Defensoria Pública do Estado de Rondônia — Analista em Redação, Classe A; 2025; questão 47; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-redacao-classe-acns008-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-defintivo-dpe-ro_0.pdf."
+    },
+    {
+      "id": "q196",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Num texto argumentativo, é frequente a presença de argumentadores lógicos. A opção em que o exemplo dado tem o valor de seu conector lógico corretamente indicado é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Os acidentes de trânsito provocam a morte de muitas pessoas além de trazerem grande prejuízo ao transporte de mercadorias, que fica paralisado por horas / conector lógico que permite a comparação entre dois fatos;"
+        },
+        {
+          "id": "b",
+          "text": "Os adolescentes abandonam o lar materno quando crescem; do mesmo modo, os pássaros deixam o ninho assim que aprendem a voar / conector lógico que permite acrescentar um argumento novo;"
+        },
+        {
+          "id": "c",
+          "text": "Os produtos estrangeiros são bem-conceituados no mercado brasileiro; no entanto, alguns produtos nacionais são bem superiores aos estrangeiros / conector lógico que expressa a razão de um fato;"
+        },
+        {
+          "id": "d",
+          "text": "Ainda que as estradas estejam em mau estado de conservação, as pessoas ainda mantêm o prazer de viajar nas férias / conector lógico que permite mostrar a consequência, o ponto de chegada de uma ideia;"
+        },
+        {
+          "id": "e",
+          "text": "É muito arriscado que, nas viagens, os turistas contem somente com os cartões de crédito como meios de pagamento, dado que a tecnologia pode trazer surpresas desagradáveis / conector lógico que expressa a razão de um fato."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Gabarito oficial definitivo: E. A locução “dado que” introduz a razão para o risco afirmado; nas demais opções, a classificação atribuída ao conector não corresponde à relação semântica construída. Fonte: FGV; Tribunal de Justiça do Estado de Santa Catarina — Analista Jurídico; 2024; questão 3, Tipo 2; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista-juridicoan-jur-tipo-2.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjscservidor2024_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q197",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Chegaram todos atrasados; além disso, não trouxeram as encomendas. Nessa frase, aparece o conector “além disso” com valor de adição; a frase abaixo em que NÃO há um conector do mesmo valor aditivo é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Além de usar máscara, os passageiros dos ônibus deviam estar mais separados uns dos outros;"
+        },
+        {
+          "id": "b",
+          "text": "Ainda por cima, as pessoas parecem considerar que a pandemia já acabou;"
+        },
+        {
+          "id": "c",
+          "text": "Corria o risco de contrair a doença e mesmo assim não se importava;"
+        },
+        {
+          "id": "d",
+          "text": "Nem a máscara nem o álcool protegem integralmente contra a Covid;"
+        },
+        {
+          "id": "e",
+          "text": "Não só a pandemia não terminou, como também novas cepas são esperadas."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito oficial definitivo: C. “Mesmo assim” estabelece valor concessivo/adversativo, diferentemente das construções aditivas presentes nas demais alternativas. Fonte: FGV; Tribunal de Justiça do Distrito Federal e dos Territórios — Analista Judiciário, Administração; 2022; questão 4, Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista_judiciario_-_administracaons-adm_tipo_1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjdft2022_gabarito_definitivo468411564.pdf."
+    },
+    {
+      "id": "q198",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Acampamento Farroupilha termina neste domingo com público total superior a 2 milhões de pessoas\n\nO tempo nublado e chuvoso que marcou o último final de semana do Acampamento Farroupilha trouxe transtornos, mas a meta de público almejada pelos organizadores do evento realizado no Parque Maurício Sirotsky Sobrinho, em Porto Alegre, foi alcançada conforme estimativa da concessionária do espaço, a empresa GAM3 Parks.\n\nPelas contas preliminares dos organizadores, a barreira de 2 milhões de frequentadores foi mais uma vez ultrapassada e ficou em um mesmo patamar do que o evento do ano passado.\n\nJornal Zero Hora, set. 2025: https://gauchazh.clicrbs.com.br/\n\nOs conectivos são um recurso de coesão textual e podem apontar para direções argumentativas que conduzem o leitor à compreensão de informações implícitas.\n\nAssinale a opção em que o primeiro período do primeiro parágrafo da notícia foi reescrito, mas sem alterar o sentido original.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Como o tempo nublado e chuvoso que marcou o último final de semana do Acampamento Farroupilha trouxe transtornos, a meta de público almejada pelos organizadores do evento foi alcançada."
+        },
+        {
+          "id": "b",
+          "text": "Pelo fato de o tempo nublado e chuvoso que marcou o último final de semana do Acampamento Farroupilha ter trazido transtornos, a meta de público almejada pelos organizadores do evento foi alcançada."
+        },
+        {
+          "id": "c",
+          "text": "Embora o tempo nublado e chuvoso que marcou o último final de semana do Acampamento Farroupilha tenha trazido transtornos, a meta de público almejada pelos organizadores do evento foi alcançada."
+        },
+        {
+          "id": "d",
+          "text": "Contanto que o tempo nublado e chuvoso que marcou o último final de semana do Acampamento Farroupilha traga transtornos, a meta de público almejada pelos organizadores do evento será alcançada."
+        },
+        {
+          "id": "e",
+          "text": "Na medida em que o tempo nublado e chuvoso que marcou o último final de semana do Acampamento Farroupilha tenha trazido transtornos, a meta de público almejada pelos organizadores do evento foi alcançada."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito oficial definitivo: C. A construção concessiva com “embora” preserva o contraste expresso por “mas” entre os transtornos causados pelo tempo e o alcance da meta de público. Fonte: FGV; Tribunal de Justiça do Estado do Rio Grande do Sul — Analista do Poder Judiciário, Área Administrativa; 2025; questão 6, Tipo 3; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista-do-poder-judiciario-area-administrativa-cns101-tipo-3.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-edital-gabarito-definitivo.pdf."
     }
   ]
 }
