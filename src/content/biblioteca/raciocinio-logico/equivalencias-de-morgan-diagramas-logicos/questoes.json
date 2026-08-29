@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q5019",
@@ -553,6 +553,51 @@
       ],
       "correctOptionId": "E",
       "explanation": "Todo sapo amarelo não toca gaita e, pela terceira premissa, não pula; todo sapo feliz pula. Logo nenhum sapo pode ser simultaneamente feliz e amarelo. Fonte: questão oficial; FGV; Prefeitura Municipal de Paulínia — Enfermeiro, Tipo 2 (Verde); 2021; questão 12; https://conhecimento.fgv.br/sites/default/files/concursos/paulinia2021-e2ns13-enfermeiro-e2ns13-tipo-2.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/paulinia2021e2_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q52203908",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Sabe-se que:\n• Todo A é B.\n• Nem todo B é C.\nÉ correto concluir que:",
+      "options": [
+        {"id": "A", "text": "todo A é C;"},
+        {"id": "B", "text": "nenhum A é C;"},
+        {"id": "C", "text": "algum C não é B;"},
+        {"id": "D", "text": "algum B não é C;"},
+        {"id": "E", "text": "algum C não é A."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A afirmação “Nem todo B é C” equivale a dizer que existe pelo menos um elemento de B que não pertence a C; por isso, conclui-se que algum B não é C. Fonte: questão oficial; FGV; Ministério Público do Estado de Santa Catarina — Auxiliar do Ministério Público, Tipo 1; 2022; questão 21; https://conhecimento.fgv.br/sites/default/files/concursos/mp_sc_2022_auxiliar_do_ministerio_publico_tipo_1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/mpsc2022_gabarito_definitivo_retificado_25.07.2022.pdf."
+    },
+    {
+      "id": "q52203909",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere a sentença: “Todo catarinense gosta de camarão ou é torcedor do Figueirense”.\nA negação lógica da sentença dada é:",
+      "options": [
+        {"id": "A", "text": "Nenhum catarinense gosta de camarão ou é torcedor do Figueirense;"},
+        {"id": "B", "text": "Todo catarinense gosta de camarão, mas não é torcedor do Figueirense;"},
+        {"id": "C", "text": "Todo catarinense não gosta de camarão e não é torcedor do Figueirense;"},
+        {"id": "D", "text": "Algum catarinense não gosta de camarão e não é torcedor do Figueirense;"},
+        {"id": "E", "text": "Algum catarinense não gosta de camarão ou não é torcedor do Figueirense."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A negação de “todo catarinense” introduz “algum catarinense”; em seguida, De Morgan transforma a negação de “gosta de camarão ou é torcedor” em “não gosta de camarão e não é torcedor”. Fonte: questão oficial; FGV; Tribunal de Justiça de Santa Catarina — Oficial de Justiça Avaliador, Tipo 1; 2018; questão 21; https://conhecimento.fgv.br/sites/default/files/concursos/tj-sc-2018-oficial-de-justica-avaliador-oja-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjsc2018_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q52203910",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere os operadores lógicos listados a seguir, apresentados na ordem decrescente de precedência de cada operação.\n\n~ Negação (not)\n& Conjunção (and)\n| Disjunção (or)\nV Disjunção exclusiva (xor)\n\nDado que P e Q são variáveis lógicas, no domínio [True, False], assinale a expressão equivalente a P V Q.",
+      "options": [
+        {"id": "A", "text": "( ~P | Q ) & ( P | ~Q)"},
+        {"id": "B", "text": "( P & Q ) & ( ~P | Q )"},
+        {"id": "C", "text": "~( P & ~Q )"},
+        {"id": "D", "text": "~( P & Q ) & ( P | Q )"},
+        {"id": "E", "text": "~( P & Q ) | ( P & Q )"}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A disjunção exclusiva é verdadeira quando exatamente uma das proposições é verdadeira. A alternativa D exige que pelo menos uma seja verdadeira, por P | Q, e impede que ambas sejam verdadeiras, por ~(P & Q). Fonte: questão oficial; FGV; Ministério Público do Estado de Goiás — Analista em Informática, Tipo Branca; 2022; questão 35; https://conhecimento.fgv.br/sites/default/files/concursos/analista_em_informaticampgons003_tipo_1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/mpgo2022serv_gabarito_definitivo.pdf."
     }
   ]
 }
