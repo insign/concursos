@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q184",
@@ -2753,6 +2753,186 @@
       ],
       "correctOptionId": "d",
       "explanation": "A forma `deveríamos` está no futuro do pretérito do indicativo. Fonte: questão oficial; CESPE/UnB; SEAD/UEPA — Cargo 44: Nível Médio Profissional – Técnico em Informática; 2008; questão 7; https://cdn.cebraspe.org.br/concursos/_antigos/2007/UEPA2007/arquivos/UEPA_044_1.pdf. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/_antigos/2007/UEPA2007/arquivos/UEPA_Gab_Definitivo_044_1.pdf."
+    },
+    {
+      "id": "q276",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em todas as frases abaixo foi empregada uma forma verbal no pretérito imperfeito do indicativo. Assinale a opção que indica a frase em que esse tempo verbal marca uma forma substituta do futuro do pretérito, na linguagem popular.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eu viajava neste mês ainda, se me liberassem na firma."
+        },
+        {
+          "id": "b",
+          "text": "Nós sempre viajávamos no mês de dezembro."
+        },
+        {
+          "id": "c",
+          "text": "Bom dia, o que o senhor procurava?"
+        },
+        {
+          "id": "d",
+          "text": "A paisagem, vista da janela, parecia um quadro."
+        },
+        {
+          "id": "e",
+          "text": "Enquanto falava com o cliente, viu o roubo acontecer."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Na alternativa A, o pretérito imperfeito `viajava` funciona, na linguagem popular, em lugar do futuro do pretérito `viajaria` sob a condição expressa por `se me liberassem`. Fonte: questão oficial; FGV; Secretaria de Estado da Educação, do Esporte e do Lazer do Rio Grande do Norte — Professor de Língua Portuguesa; 2025; questão 63, Tipo 4 – Azul; https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-lingua-portuguesacns112-tipo-4.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_seadrn_v3.pdf."
+    },
+    {
+      "id": "q277",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Todas as frases abaixo mostram formas do pretérito imperfeito do indicativo; aquela frase em que esse tempo verbal tem valor de polidez é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "O atendente da loja perguntou à cliente o que ela desejava;"
+        },
+        {
+          "id": "b",
+          "text": "Se tivesse dinheiro, eu o comprava agora mesmo;"
+        },
+        {
+          "id": "c",
+          "text": "Olhe onde estava o livro que tanto procurei ontem;"
+        },
+        {
+          "id": "d",
+          "text": "Meu irmão tinha o hábito de falar baixo, sem pressa;"
+        },
+        {
+          "id": "e",
+          "text": "Ele pensava ir à Faculdade na próxima segunda-feira."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Na alternativa A, `desejava` suaviza a pergunta do atendente e configura emprego do pretérito imperfeito com valor de polidez. Fonte: questão oficial; FGV; Tribunal de Justiça de Santa Catarina — Técnico Judiciário Auxiliar; 2024; questão 16, Tipo 1; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-judiciario-auxiliartec-jur-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjscservidor2024_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q278",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Todas as frases a seguir mostram formas verbais no futuro do pretérito. Assinale a frase que mostra o valor semântico desse tempo verbal de forma adequada.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tens a certeza de que, passadas as primeiras semanas, não lamentaria tamanho sacrifício? / Indicação de incerteza."
+        },
+        {
+          "id": "b",
+          "text": "Ela teria, talvez, uns treze anos. / Designação de ações posteriores à época em que se fala."
+        },
+        {
+          "id": "c",
+          "text": "Gostaríamos ouvi-lo sobre o crime. / Forma polida de presente, em geral denotando desejo."
+        },
+        {
+          "id": "d",
+          "text": "Nosso amor morreu... Quem diria? / Indicação de uma afirmação condicionada."
+        },
+        {
+          "id": "e",
+          "text": "Era ela, seria ela? / Emprego em certas frases interrogativas e exclamativas para denotar surpresa ou indignação."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Na alternativa C, `Gostaríamos` emprega o futuro do pretérito como forma polida de presente, exprimindo desejo. Fonte: questão oficial; FGV; Câmara dos Deputados — Analista Legislativo – Contador; 2023; questão 4, Tipo 1; https://conhecimento.fgv.br/sites/default/files/concursos/cns101-analista-legislativo-contadorcns101-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-1-manha.pdf."
+    },
+    {
+      "id": "q279",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Se colocarmos as formas de imperativo – faça, atenda, assista, descubra – na forma negativa, mantendo-se a pessoa gramatical, as formas adequadas serão:",
+      "options": [
+        {
+          "id": "a",
+          "text": "não faça, não atenda, não assista, não descubra."
+        },
+        {
+          "id": "b",
+          "text": "não faz, não atende, não assiste, não descobre."
+        },
+        {
+          "id": "c",
+          "text": "não faças, não atendas, não assistas, não descubras."
+        },
+        {
+          "id": "d",
+          "text": "não fazes, não atendes, não assistes, não descobres."
+        },
+        {
+          "id": "e",
+          "text": "não faze, não atenda, não assiste, não descubra."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O imperativo negativo mantém a pessoa gramatical por meio das formas correspondentes do presente do subjuntivo; a sequência correta é a alternativa A. Fonte: questão oficial; FGV; Secretaria de Estado de Educação e Qualidade do Ensino do Amazonas — Professor – Ciclo Regular 20h; 2014; questão 6, Tipo 2; https://conhecimento.fgv.br/sites/default/files/concursos/nivel_superior_completo_professor_20_e_40h_-_ciclo_regular_tipo02.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/seduc/SEDUC_gabarito_definitivo_superior-retificado_(ok).pdf."
+    },
+    {
+      "id": "q280",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Todas as frases a seguir mostram formas verbais no pretérito imperfeito do indicativo. Assinale a frase em que o emprego desse tempo verbal tem o valor de “ação habitual”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nessa hora meu irmão lia, enquanto minha mãe tirava a sesta e eu me aborrecia."
+        },
+        {
+          "id": "b",
+          "text": "Nas manhãs da primavera, ele metia o pé na estrada bem cedo."
+        },
+        {
+          "id": "c",
+          "text": "Bernardo afirmou que Magda compreendia bem a sua ideia."
+        },
+        {
+          "id": "d",
+          "text": "A torre media mais de 100m e o vento soprava muito forte a seu redor."
+        },
+        {
+          "id": "e",
+          "text": "O diretor dava o mesmo aviso em todas as salas, alertando para o perigo."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Na alternativa B, `metia`, associado a `Nas manhãs da primavera`, expressa ação habitual ou reiterada no passado. Fonte: questão oficial; FGV; Câmara dos Deputados — Analista Legislativo – Consultoria / Consultor Legislativo – Área XX; 2023; questão 21, Tipo 1, tarde; https://conhecimento.fgv.br/sites/default/files/concursos/area-xx-t1-tarde.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tardecamara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-4-tarde.pdf."
+    },
+    {
+      "id": "q281",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Entre as opções abaixo, adaptadas de O Estado de S.Paulo de 21/3/2008, assinale a que apresenta erro no emprego de tempo e modo verbais.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Para reter trabalhadores preparados, as empresas vêm aumentando salários, ampliando a concessão de benefícios sociais e criando programas de qualificação e treinamento com recursos próprios."
+        },
+        {
+          "id": "b",
+          "text": "Como os candidatos a cargos de nível técnico se apresentassem com formação deficiente, tendo de passar por um processo de reforço em português e matemática antes de serem admitidos."
+        },
+        {
+          "id": "c",
+          "text": "Para serem treinados no exterior, trabalhadores qualificados também têm de fazer cursos intensivos de inglês ou alemão."
+        },
+        {
+          "id": "d",
+          "text": "E, para preparar mão-de-obra para funções específicas e complexas e acelerar o treinamento de trabalhadores mais jovens para ocupar gerências intermediárias, as empresas estão criando universidades corporativas."
+        },
+        {
+          "id": "e",
+          "text": "Todas essas iniciativas, contudo, não eliminam o risco de um “apagão de mão-de-obra”, uma vez que a demanda de profissionais qualificados deve continuar sendo maior que a capacidade de formação das escolas de ensino básico, dos colégios técnicos e das unidades do SESI e do SENAC."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Na alternativa B, `apresentassem` está no pretérito imperfeito do subjuntivo em um contexto em que a própria banca manteve a questão e apontou essa opção como o erro de emprego de tempo e modo verbal. Fonte: questão oficial; CESPE/UnB; Tribunal de Justiça do Estado do Rio de Janeiro — Técnico de Atividade Judiciária; 2008; questão 22, Caderno D; https://cdn.cebraspe.org.br/concursos/TJRJTecnico2008/arquivos/TJRJ_002_4.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/TJRJTecnico2008/arquivos/TJRJ_Gab_Definitivo_002_4.PDF. Justificativa oficial da banca (questão mantida): https://cdn.cebraspe.org.br/concursos/TJRJTecnico2008/arquivos/TJRJ_T__CNICO_JUSTIFICATIVAS_DE_TODA_A_PROVA_CADERNO_D_CONFORME_16_18_EDITAL__4_.PDF."
     }
   ]
 }
