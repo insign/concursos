@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q5139",
@@ -931,6 +931,111 @@
       ],
       "correctOptionId": "D",
       "explanation": "Fixada a distribuição de Gabi, Luana pode distribuir suas três cores de 3!=6 maneiras equiprováveis. Em 2 dessas maneiras nenhuma cor coincide na mesma caixa; nas outras 4 há ao menos uma coincidência. Logo, a probabilidade pedida é 4/6=2/3. Fonte: questão oficial; FGV; Prefeitura Municipal de Paulínia — Cirurgião Dentista Plantonista, Tipo 1 (Branca); 2021; questão 15; https://conhecimento.fgv.br/sites/default/files/concursos/paulinia2021-e2ns06-cirurgiao-dentista-plantonista-e2ns06-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/paulinia2021e2_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q52204101",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Ana, Bernardo, César e Débora vão ocupar 4 poltronas vizinhas de uma fila do cinema. O lugar de cada um será decidido por sorteio. Entretanto, Ana deseja ficar ao lado de Bernardo e não gostaria de ficar ao lado de César.\n\nNesse sorteio, a probabilidade de que os desejos de Ana sejam atendidos é",
+      "options": [
+        {"id": "A", "text": "1/2."},
+        {"id": "B", "text": "1/3."},
+        {"id": "C", "text": "2/3."},
+        {"id": "D", "text": "1/4."},
+        {"id": "E", "text": "3/4."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Há 4!=24 ordens equiprováveis. Em 8 delas Ana fica ao lado de Bernardo sem ficar ao lado de César, logo a probabilidade é 8/24=1/3. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado de Rondônia (ALE-RO) — Analista Legislativo — Tecnologia da Informação — Análise e Desenvolvimento de Sistemas, Tipo 1; 2026; questão 17; https://conhecimento.fgv.br/sites/default/files/concursos/cnsal25-analista-legislativo-tecnologia-da-informacao-analise-e-desenvolvimento-de-sistemas-cnsal25-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/ale_ro-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q52204102",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma urna contém oito bolas idênticas numeradas de 1 a 8. Se sortearmos duas bolas ao acaso dessa urna, com reposição, a probabilidade de que a soma dos dois números sorteados seja maior do que 13 é aproximadamente igual a",
+      "options": [
+        {"id": "A", "text": "0,03"},
+        {"id": "B", "text": "0,06"},
+        {"id": "C", "text": "0,09"},
+        {"id": "D", "text": "0,12"},
+        {"id": "E", "text": "0,15"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Com reposição, há 64 pares ordenados equiprováveis. Seis deles têm soma maior que 13, portanto 6/64=0,09375, aproximadamente 0,09. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado de Roraima (TJRR) — Analista Judiciário — Estatística, Tipo 1; 2024; questão 39; https://conhecimento.fgv.br/sites/default/files/concursos/cns111t01-analista-judiciario-estatistica.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjrr_gabarito_definitivo_v3.pdf."
+    },
+    {
+      "id": "q52204103",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Se A e B são eventos tais que P[ A ] = 0,6 e P[ B ] = 0,8, avalie as afirmativas a seguir:\n\nI. A e B não podem ser independentes.\nII. O maior valor possível de P[ A ∪ B ] é 1,0.\nIII. O maior valor possível de P[ A ∩ B ] é 0,6.\n\nEstá correto o que se afirma em",
+      "options": [
+        {"id": "A", "text": "I, apenas."},
+        {"id": "B", "text": "I e II, apenas."},
+        {"id": "C", "text": "I e III, apenas."},
+        {"id": "D", "text": "II e III, apenas."},
+        {"id": "E", "text": "I, II e III."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A independência é possível, pois P(A∩B)=0,48 satisfaz os limites da interseção; logo I é falsa. O maior valor da união é 1 e o maior valor da interseção é min(0,6;0,8)=0,6, tornando II e III verdadeiras. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado de Roraima (TJRR) — Analista Judiciário — Estatística, Tipo 1; 2024; questão 41; https://conhecimento.fgv.br/sites/default/files/concursos/cns111t01-analista-judiciario-estatistica.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjrr_gabarito_definitivo_v3.pdf."
+    },
+    {
+      "id": "q52204104",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Cinco pessoas, com nomes diferentes, formam uma fila de forma aleatória.\n\nA probabilidade de que, do primeiro ao quinto da fila, os nomes estejam em ordem alfabética é igual a",
+      "options": [
+        {"id": "A", "text": "1/2."},
+        {"id": "B", "text": "1/5."},
+        {"id": "C", "text": "1/25."},
+        {"id": "D", "text": "1/120."},
+        {"id": "E", "text": "1/150."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Há 5!=120 ordens equiprováveis e somente uma coincide com a ordem alfabética, logo a probabilidade é 1/120. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado do Amazonas (ALE-AM) — Agente Legislativo — Assistente Técnico Administrativo, Tipo 1; 2025; questão 13; https://conhecimento.fgv.br/sites/default/files/concursos/agente-legislativo-assistente-tecnico-administrativo-cnm400-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-am.pdf."
+    },
+    {
+      "id": "q52204105",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere o conjunto {17, 27, 36, 48, 64, 75}.\n\nO número de subconjuntos com 3 elementos diferentes do conjunto dado tais que a soma dos 3 elementos seja par é:",
+      "options": [
+        {"id": "A", "text": "6."},
+        {"id": "B", "text": "8."},
+        {"id": "C", "text": "9."},
+        {"id": "D", "text": "10."},
+        {"id": "E", "text": "18."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Há três pares e três ímpares. A soma é par com três pares (1 subconjunto) ou com dois ímpares e um par (C(3,2)·C(3,1)=9), totalizando 10. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado do Amazonas (ALE-AM) — Agente Legislativo — Assistente Técnico Administrativo, Tipo 1; 2025; questão 15; https://conhecimento.fgv.br/sites/default/files/concursos/agente-legislativo-assistente-tecnico-administrativo-cnm400-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-am.pdf."
+    },
+    {
+      "id": "q52204106",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Os soldados Lauro, Mário, Paulo, Renato, Sílvio e Túlio devem ser separados em duas equipes, uma com quatro pessoas e outra com as restantes para investigar, separadamente, duas ocorrências diferentes. Por serem os mais experientes, Mário e Renato devem ficar em equipes diferentes e os novatos Lauro e Túlio devem ficar na mesma equipe.\n\nO número de maneiras diferentes em que essas equipes podem ser formadas é:",
+      "options": [
+        {"id": "A", "text": "3."},
+        {"id": "B", "text": "4."},
+        {"id": "C", "text": "6."},
+        {"id": "D", "text": "8."},
+        {"id": "E", "text": "10."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Lauro e Túlio não podem ser a equipe de duas pessoas, pois isso deixaria Mário e Renato juntos. Assim, a equipe de duas pessoas deve ter um entre Mário/Renato e um entre Paulo/Sílvio, em 2·2=4 formas. Fonte: questão oficial; FGV; Polícia Militar do Estado do Tocantins (PM-TO) — Cadete I do Quadro de Praças Especiais, Tipo 1; 2025; questão 24; https://conhecimento.fgv.br/sites/default/files/concursos/cadete-i-do-quadro-de-pracas-especiaiscns001-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-pm-to-cadete-i-do-quadro-de-pracas-especiais-qpes.pdf."
+    },
+    {
+      "id": "q52204107",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "João, Laura e mais quatro pessoas ocuparão as seis poltronas de uma fila de um avião. Na figura abaixo, as poltronas A e F ficam junto às janelas e C e D no corredor.\n\nOs lugares que as seis pessoas ocuparão serão decididos por sorteio.\n\nA probabilidade de que João não sente junto a nenhuma janela e que Laura sente junto a uma das janelas é",
+      "options": [
+        {"id": "A", "text": "1/3."},
+        {"id": "B", "text": "1/5."},
+        {"id": "C", "text": "2/5."},
+        {"id": "D", "text": "3/10."},
+        {"id": "E", "text": "4/15."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "Laura ocupa uma das duas poltronas junto à janela com probabilidade 2/6. Restando uma poltrona junto à janela entre cinco lugares, João evita essa poltrona com probabilidade 4/5. Logo, (2/6)(4/5)=4/15. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado de Rondônia (ALE-RO) — Assistente Legislativo — Técnico em Informática, Tipo 1; 2026; questão 18; https://conhecimento.fgv.br/sites/default/files/concursos/cnmas08-assistente-legislativo-tecnico-em-informatica-cnmas08-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/ale_ro-gabarito-definitivo.pdf."
     }
   ]
 }
