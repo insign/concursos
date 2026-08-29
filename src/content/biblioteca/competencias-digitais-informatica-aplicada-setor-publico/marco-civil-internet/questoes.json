@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q4419",
@@ -1861,6 +1861,162 @@
       ],
       "correctOptionId": "D",
       "explanation": "O art. 3º vincula a responsabilização à atividade efetivamente desempenhada e a compatibiliza com os demais princípios. Fonte: questão adaptada de FGV; ALERJ; Procurador Legislativo; 2026; questão 80; prova https://conhecimento.fgv.br/sites/default/files/concursos/procurador-legislativo-1-cns301-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/procurador-alerj-gabarito-definitivo.pdf; adaptação: enunciado condensado e alternativas semanticamente preservadas."
+    },
+    {
+      "id": "q522040",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O Marco Civil da Internet (Lei nº 12.965/2014) estabelece princípios, garantias, direitos e deveres para o uso da Internet e trata da atuação do Poder Público nessa seara.\n\nConsiderando a Lei nº 12.965/2014, analise as afirmativas a seguir.\n\nI. Constitui diretriz para a atuação da União, dos Estados, do Distrito Federal e dos Municípios no desenvolvimento da Internet no Brasil, a otimização da infraestrutura das redes e o estímulo à implantação de centros de armazenamento, gerenciamento e disseminação de dados no país.\nII. As iniciativas públicas de fomento à cultura digital e de promoção da internet como ferramenta social devem promover a inclusão digital; buscar reduzir as desigualdades, sobretudo entre as diferentes regiões do país, no acesso às tecnologias da informação e comunicação e no seu uso; e fomentar a produção e circulação de conteúdo nacional.\nIII. O cumprimento do dever constitucional do Estado na prestação da educação, em todos os níveis de ensino, inclui a capacitação, integrada a outras práticas educacionais, para o uso seguro, consciente e responsável da internet como ferramenta para o exercício da cidadania, a promoção da cultura e o desenvolvimento tecnológico.\n\nEstá correto o que se afirma em",
+      "options": [
+        {
+          "id": "A",
+          "text": "II, apenas."
+        },
+        {
+          "id": "B",
+          "text": "I e II, apenas."
+        },
+        {
+          "id": "C",
+          "text": "I e III, apenas."
+        },
+        {
+          "id": "D",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "E",
+          "text": "I, II e III."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "As três afirmativas estão corretas. O item I corresponde à diretriz sobre otimização da infraestrutura e centros de armazenamento, gerenciamento e disseminação de dados; o item II trata das iniciativas públicas de cultura digital, inclusão e redução de desigualdades; e o item III abrange a capacitação para uso seguro, consciente e responsável da internet. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/ed.-3-macaeproc2024_gabarito_definitivo_100_v2.pdf. Fonte: questão oficial; FGV; Prefeitura Municipal de Macaé — Procurador — Tipo 1; 2024; questão 15; https://conhecimento.fgv.br/sites/default/files/concursos/procuradorcns001-tipo-1.pdf."
+    },
+    {
+      "id": "q522041",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um grupo de usuários, insatisfeitos com a retirada de conteúdo de uma rede social, decide entrar com uma ação judicial contra a plataforma alegando que a remoção do conteúdo violou a liberdade de expressão garantida pelo Marco Civil da Internet. No processo, argumentam que o conteúdo não se enquadrava nas exceções previstas nos termos de uso da plataforma para a remoção, como conteúdos que violem direitos autorais ou contenham expresso discurso de ódio.\n\nA plataforma, por sua vez, argumenta que a remoção foi baseada nos seus termos de uso, que proíbem certos tipos de comportamentos violentos.\n\nConsiderando o cenário acima e as disposições da Lei nº 12.965/2014, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O Marco Civil da Internet não permite a remoção de qualquer conteúdo sem ordem judicial, exceto nos dois casos expressamente previstos nessa legislação, como em conteúdo que viole direitos autorais ou contenha discurso de ódio, não sendo autorizada na lei a remoção baseada em termos de uso da plataforma."
+        },
+        {
+          "id": "B",
+          "text": "A plataforma está correta em sua ação, pois o Marco Civil da Internet de forma expressa dá autonomia total às plataformas para removerem administrativamente qualquer conteúdo que julguem violar seus termos de uso, independentemente da natureza do conteúdo, não cabendo ao Poder Judiciário em qualquer caso interferir nessa tomada de decisão."
+        },
+        {
+          "id": "C",
+          "text": "O Marco Civil da Internet e sua corrente interpretação permitem a remoção de conteúdos pelas plataformas sem ordem judicial apenas em situações que envolvam exposição de nudez ou de atos sexuais de caráter privado, sendo todas as outras situações sujeitas a decisão judicial."
+        },
+        {
+          "id": "D",
+          "text": "A partir da interpretação do Marco Civil da Internet, é possível afirmar que as plataformas podem remover conteúdos que violem expressamente seus termos de uso, mesmo sem ordem judicial, desde que tal remoção esteja claramente prevista nos termos de uso firmados entre as partes e não infrinja direitos fundamentais e o princípio da proporcionalidade, sendo recomendável que haja uma justificação nos casos de remoção."
+        },
+        {
+          "id": "E",
+          "text": "A plataforma deveria ter solicitado uma ordem judicial antes de remover o conteúdo, pois o Marco Civil da Internet exige que toda remoção seja precedida de decisão judicial para assegurar que não haja violação da liberdade de expressão."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alternativa D é a correta: o Marco Civil não transforma toda moderação privada em reserva de jurisdição; a aplicação de termos de uso deve respeitar direitos fundamentais e proporcionalidade, com justificativa da remoção. As alternativas A, C e E tratam a ordem judicial como requisito geral para qualquer remoção, enquanto B atribui autonomia irrestrita à plataforma. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/ed.-3-macaeproc2024_gabarito_definitivo_100_v2.pdf. Fonte: questão oficial; FGV; Prefeitura Municipal de Macaé — Procurador — Tipo 1; 2024; questão 83; https://conhecimento.fgv.br/sites/default/files/concursos/procuradorcns001-tipo-1.pdf."
+    },
+    {
+      "id": "q522042",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A Lei nº 12.965, de 23 de 2014, conhecida como Marco Civil da Internet, estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil.\n\nDe acordo com ela,",
+      "options": [
+        {
+          "id": "A",
+          "text": "as empresas provedoras das redes sociais digitais têm responsabilidade civil sobre os danos decorrentes dos conteúdos nelas postados, independentemente de notificação judicial."
+        },
+        {
+          "id": "B",
+          "text": "na provisão de conexão à internet, cabe ao administrador de sistema autônomo respectivo o dever de manter os registros de conexão, sob sigilo, em ambiente controlado e de segurança, pelo prazo de 5 (cinco) anos."
+        },
+        {
+          "id": "C",
+          "text": "a União, Estados, Distrito Federal e Municípios devem adotar preferencialmente tecnologias, padrões e formatos abertos e livres, além de publicizar dados e informações públicos, de forma aberta e estruturada."
+        },
+        {
+          "id": "D",
+          "text": "na provisão gratuita de conexão à internet, bem como na transmissão, comutação ou roteamento, é permitido ao provedor bloquear, monitorar, filtrar ou analisar o conteúdo dos pacotes de dados."
+        },
+        {
+          "id": "E",
+          "text": "a discriminação ou degradação do tráfego só poderá ocorrer em benefício de parceiros comerciais dos provedores ou para priorização de serviços de emergência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C reproduz diretrizes do Marco Civil para o poder público: adoção preferencial de tecnologias, padrões e formatos abertos e livres e publicidade de dados e informações públicos de forma aberta e estruturada. A alternativa B erra o prazo dos registros de conexão; D contraria as restrições de neutralidade; e E inclui parceria comercial entre as hipóteses de discriminação ou degradação de tráfego. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/senado2022_gabarito_definitivo_edital04.pdf. Fonte: questão oficial; FGV; Senado Federal — Consultor Legislativo — Assessoramento Legislativo (Comunicação e Tecnologia da Informação) — Tipo 1; 2022; questão 91; https://conhecimento.fgv.br/sites/default/files/concursos/assessoramento_legislativo_comunicacao_e_tecnologia_da_informacaoe4cns04_tipo_1.pdf."
+    },
+    {
+      "id": "q522043",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Valentina recebeu mensagens eletrônicas, enviadas por meio de aplicativo, nas quais o autor ameaçava divulgar publicamente fotos íntimas armazenadas no computador pessoal da vítima, caso ela não efetuasse o pagamento do valor equivalente a R$ 20.000,00 em criptoativos.\n\nCom o objetivo de identificar o criminoso responsável pela ameaça, foi ajuizada medida cautelar que resultou na expedição de ordem judicial de afastamento do sigilo de dados dirigida tanto ao provedor de aplicação, responsável pelo aplicativo de mensagem utilizado na prática delituosa, quanto ao provedor de conexão utilizado pelo investigado.\n\nA decisão judicial determinou que fossem fornecidos, entre outras informações, os respectivos endereços de protocolo de internet (endereços IP) e, quando aplicáveis, as portas lógicas correspondentes.\n\nOcorre que ambos os provedores deixaram de informar os dados sobre as portas lógicas. Diante disso, o Ministério Público requereu a fixação de multa.\n\nNessa hipótese, é correto afirmar que o juiz",
+      "options": [
+        {
+          "id": "A",
+          "text": "poderá fixar multa contra os provedores de aplicação e de conexão, com o objetivo de compelir ao cumprimento da ordem judicial e à entrega dos dados referentes à porta lógica, valendo-se, para tanto, do seu poder geral de cautela."
+        },
+        {
+          "id": "B",
+          "text": "poderá fixar multa apenas contra o provedor de conexão, com o objetivo de compelir ao cumprimento da ordem judicial e à entrega dos dados referentes à porta lógica, valendo-se, para tanto, do seu poder geral de cautela."
+        },
+        {
+          "id": "C",
+          "text": "não poderá fixar multa contra os provedores, pois o poder geral de cautela não tem aplicação no processo penal e o princípio do nemo tenetur se detegere veda o emprego desse meio coercitivo em investigação criminal."
+        },
+        {
+          "id": "D",
+          "text": "não poderá fixar multa, pois o Marco Civil da Internet não incluiu os dados de porta lógica na definição de registro de conexão, nem de registro de acesso a aplicações de internet."
+        },
+        {
+          "id": "E",
+          "text": "não poderá fixar multa, pois os provedores não são parte do processo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alternativa A é o gabarito definitivo: o juiz pode valer-se do poder geral de cautela para impor multa coercitiva aos provedores de aplicação e de conexão e compelir a entrega dos dados de porta lógica determinados judicialmente. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-trf2-juiz-substituto_dscaksl.pdf. Fonte: questão oficial; FGV; TRF da 2ª Região — XIX Concurso Público — Juiz Federal Substituto — Tipo Branca; 2026; questão 23; https://conhecimento.fgv.br/sites/default/files/concursos/juiz-federal-substituto-da-2a-regiao-cns100-tipo-1.pdf."
+    },
+    {
+      "id": "q522044",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Julgue os próximos itens, considerando as disposições da Lei n.º 12.965/2014 (Marco Civil da Internet).\n\nO Marco Civil da Internet define expressamente os conceitos de rede social e de moderação em redes sociais, elencando um rol de direitos e garantias dos usuários de redes sociais.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Errado. A Lei nº 12.965/2014 não define expressamente os conceitos de rede social e de moderação em redes sociais nos termos afirmados. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/antt_23/arquivos/GAB_DEFINITIVO_951_ANTT_002_01.PDF. Fonte: questão oficial; Cebraspe; ANTT — Especialista em Regulação de Serviços de Transportes Terrestres — Especialidade Direito; 2024; item 93; https://cdn.cebraspe.org.br/concursos/antt_23/arquivos/951_ANTT_002_01.PDF."
+    },
+    {
+      "id": "q522045",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Julgue os próximos itens, considerando as disposições da Lei n.º 12.965/2014 (Marco Civil da Internet).\n\nEntre as diretrizes que norteiam a atuação do poder público no desenvolvimento da Internet no Brasil, está a adoção preferencial de tecnologias, padrões e formatos abertos e livres, devendo as aplicações de Internet dos entes públicos buscar a acessibilidade a todos os interessados, independentemente de suas capacidades físico-motoras, perceptivas, sensoriais, intelectuais, mentais, culturais e sociais, resguardados os aspectos de sigilo e restrições administrativas e legais.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Certo. A afirmação reúne a diretriz de adoção preferencial de tecnologias, padrões e formatos abertos e livres e a regra de que as aplicações de internet dos entes públicos devem buscar acessibilidade a todos, preservados sigilo e restrições administrativas e legais. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/antt_23/arquivos/GAB_DEFINITIVO_951_ANTT_002_01.PDF. Fonte: questão oficial; Cebraspe; ANTT — Especialista em Regulação de Serviços de Transportes Terrestres — Especialidade Direito; 2024; item 94; https://cdn.cebraspe.org.br/concursos/antt_23/arquivos/951_ANTT_002_01.PDF."
     }
   ]
 }
