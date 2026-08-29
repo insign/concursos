@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q4059",
@@ -8,26 +8,11 @@
       "origin": "authorial",
       "prompt": "Quanto à relação entre Microsoft PowerPoint e o arquivo reuniao.pptx, assinale a alternativa correta.",
       "options": [
-        {
-          "id": "A",
-          "text": "PPTX é o aplicativo e PowerPoint é apenas uma extensão de arquivo."
-        },
-        {
-          "id": "B",
-          "text": "PowerPoint e PPTX designam obrigatoriamente o mesmo componente do Windows."
-        },
-        {
-          "id": "C",
-          "text": "O PowerPoint é o aplicativo, enquanto reuniao.pptx é uma apresentação que pode ser aberta e editada por ele."
-        },
-        {
-          "id": "D",
-          "text": "A apresentação deixa de existir quando a janela do PowerPoint é fechada."
-        },
-        {
-          "id": "E",
-          "text": "PPTX é formato exclusivo de planilhas."
-        }
+        {"id": "A", "text": "PPTX é o aplicativo e PowerPoint é apenas uma extensão de arquivo."},
+        {"id": "B", "text": "PowerPoint e PPTX designam obrigatoriamente o mesmo componente do Windows."},
+        {"id": "C", "text": "O PowerPoint é o aplicativo, enquanto reuniao.pptx é uma apresentação que pode ser aberta e editada por ele."},
+        {"id": "D", "text": "A apresentação deixa de existir quando a janela do PowerPoint é fechada."},
+        {"id": "E", "text": "PPTX é formato exclusivo de planilhas."}
       ],
       "correctOptionId": "C",
       "explanation": "Aplicativo e arquivo são entidades distintas; PPTX é o formato moderno de apresentação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -38,26 +23,11 @@
       "origin": "authorial",
       "prompt": "Em uma apresentação, um slide é",
       "options": [
-        {
-          "id": "A",
-          "text": "uma página visual individual que pode conter objetos e pertencer a uma seção."
-        },
-        {
-          "id": "B",
-          "text": "o arquivo completo que contém todas as apresentações do computador."
-        },
-        {
-          "id": "C",
-          "text": "um grupo obrigatório de arquivos externos vinculados."
-        },
-        {
-          "id": "D",
-          "text": "um modelo que só pode conter texto."
-        },
-        {
-          "id": "E",
-          "text": "sinônimo de seção e de apresentação personalizada."
-        }
+        {"id": "A", "text": "uma página visual individual que pode conter objetos e pertencer a uma seção."},
+        {"id": "B", "text": "o arquivo completo que contém todas as apresentações do computador."},
+        {"id": "C", "text": "um grupo obrigatório de arquivos externos vinculados."},
+        {"id": "D", "text": "um modelo que só pode conter texto."},
+        {"id": "E", "text": "sinônimo de seção e de apresentação personalizada."}
       ],
       "correctOptionId": "A",
       "explanation": "Slide é a unidade visual individual dentro da apresentação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -68,26 +38,11 @@
       "origin": "authorial",
       "prompt": "A finalidade principal de uma seção no PowerPoint é",
       "options": [
-        {
-          "id": "A",
-          "text": "criar um arquivo PPTX separado para cada grupo."
-        },
-        {
-          "id": "B",
-          "text": "aplicar uma animação obrigatória a todos os objetos."
-        },
-        {
-          "id": "C",
-          "text": "substituir o Slide Mestre."
-        },
-        {
-          "id": "D",
-          "text": "converter o grupo em apresentação PPSX."
-        },
-        {
-          "id": "E",
-          "text": "organizar grupos de slides dentro do mesmo arquivo, facilitando recolher, expandir e mover partes."
-        }
+        {"id": "A", "text": "criar um arquivo PPTX separado para cada grupo."},
+        {"id": "B", "text": "aplicar uma animação obrigatória a todos os objetos."},
+        {"id": "C", "text": "substituir o Slide Mestre."},
+        {"id": "D", "text": "converter o grupo em apresentação PPSX."},
+        {"id": "E", "text": "organizar grupos de slides dentro do mesmo arquivo, facilitando recolher, expandir e mover partes."}
       ],
       "correctOptionId": "E",
       "explanation": "Seções organizam slides; não criam arquivos independentes. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -98,26 +53,11 @@
       "origin": "authorial",
       "prompt": "Um espaço reservado distingue-se de uma caixa de texto comum porque",
       "options": [
-        {
-          "id": "A",
-          "text": "sempre contém fórmula do Excel."
-        },
-        {
-          "id": "B",
-          "text": "participa da estrutura do layout e pode herdar posição e formatação do mestre."
-        },
-        {
-          "id": "C",
-          "text": "não pode receber texto ou imagens."
-        },
-        {
-          "id": "D",
-          "text": "é obrigatoriamente vinculado a outro arquivo."
-        },
-        {
-          "id": "E",
-          "text": "só existe no Mestre de Folhetos."
-        }
+        {"id": "A", "text": "sempre contém fórmula do Excel."},
+        {"id": "B", "text": "participa da estrutura do layout e pode herdar posição e formatação do mestre."},
+        {"id": "C", "text": "não pode receber texto ou imagens."},
+        {"id": "D", "text": "é obrigatoriamente vinculado a outro arquivo."},
+        {"id": "E", "text": "só existe no Mestre de Folhetos."}
       ],
       "correctOptionId": "B",
       "explanation": "Espaços reservados fazem parte do layout e da herança estrutural. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -128,26 +68,11 @@
       "origin": "authorial",
       "prompt": "A guia Arquivo do PowerPoint abre o Backstage, que concentra",
       "options": [
-        {
-          "id": "A",
-          "text": "somente efeitos de entrada e saída."
-        },
-        {
-          "id": "B",
-          "text": "apenas alinhamento e distribuição."
-        },
-        {
-          "id": "C",
-          "text": "exclusivamente edição do Slide Mestre."
-        },
-        {
-          "id": "D",
-          "text": "operações como criar, abrir, salvar, imprimir, exportar, compartilhar e acessar opções."
-        },
-        {
-          "id": "E",
-          "text": "somente ferramentas de áudio e vídeo."
-        }
+        {"id": "A", "text": "somente efeitos de entrada e saída."},
+        {"id": "B", "text": "apenas alinhamento e distribuição."},
+        {"id": "C", "text": "exclusivamente edição do Slide Mestre."},
+        {"id": "D", "text": "operações como criar, abrir, salvar, imprimir, exportar, compartilhar e acessar opções."},
+        {"id": "E", "text": "somente ferramentas de áudio e vídeo."}
       ],
       "correctOptionId": "D",
       "explanation": "Backstage trata do arquivo e da aplicação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -158,26 +83,11 @@
       "origin": "authorial",
       "prompt": "O modo Classificação de Slides é especialmente adequado para",
       "options": [
-        {
-          "id": "A",
-          "text": "editar com precisão cada caractere do slide atual."
-        },
-        {
-          "id": "B",
-          "text": "visualizar miniaturas, reorganizar a sequência, administrar seções e comparar transições."
-        },
-        {
-          "id": "C",
-          "text": "exibir notas privadas em um segundo monitor durante a apresentação."
-        },
-        {
-          "id": "D",
-          "text": "criar fórmulas do Excel."
-        },
-        {
-          "id": "E",
-          "text": "alterar código VBA."
-        }
+        {"id": "A", "text": "editar com precisão cada caractere do slide atual."},
+        {"id": "B", "text": "visualizar miniaturas, reorganizar a sequência, administrar seções e comparar transições."},
+        {"id": "C", "text": "exibir notas privadas em um segundo monitor durante a apresentação."},
+        {"id": "D", "text": "criar fórmulas do Excel."},
+        {"id": "E", "text": "alterar código VBA."}
       ],
       "correctOptionId": "B",
       "explanation": "A Classificação de Slides oferece visão global da apresentação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -188,26 +98,11 @@
       "origin": "authorial",
       "prompt": "Ao escolher um layout para um novo slide, o usuário define principalmente",
       "options": [
-        {
-          "id": "A",
-          "text": "o formato de arquivo da apresentação."
-        },
-        {
-          "id": "B",
-          "text": "a senha de abertura."
-        },
-        {
-          "id": "C",
-          "text": "a disposição dos espaços reservados e dos elementos herdados do mestre."
-        },
-        {
-          "id": "D",
-          "text": "o codec de cada vídeo."
-        },
-        {
-          "id": "E",
-          "text": "a ordem completa de todas as animações existentes."
-        }
+        {"id": "A", "text": "o formato de arquivo da apresentação."},
+        {"id": "B", "text": "a senha de abertura."},
+        {"id": "C", "text": "a disposição dos espaços reservados e dos elementos herdados do mestre."},
+        {"id": "D", "text": "o codec de cada vídeo."},
+        {"id": "E", "text": "a ordem completa de todas as animações existentes."}
       ],
       "correctOptionId": "C",
       "explanation": "Layout organiza a estrutura do slide. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -218,26 +113,11 @@
       "origin": "authorial",
       "prompt": "O comando Redefinir, aplicado a um slide, normalmente",
       "options": [
-        {
-          "id": "A",
-          "text": "exclui todos os objetos e cria um slide em branco."
-        },
-        {
-          "id": "B",
-          "text": "remove definitivamente o tema."
-        },
-        {
-          "id": "C",
-          "text": "converte o arquivo em modelo POTX."
-        },
-        {
-          "id": "D",
-          "text": "apaga comentários, notas e mídia."
-        },
-        {
-          "id": "E",
-          "text": "reaplica posições e formatações padrão dos espaços reservados sem apagar seu conteúdo."
-        }
+        {"id": "A", "text": "exclui todos os objetos e cria um slide em branco."},
+        {"id": "B", "text": "remove definitivamente o tema."},
+        {"id": "C", "text": "converte o arquivo em modelo POTX."},
+        {"id": "D", "text": "apaga comentários, notas e mídia."},
+        {"id": "E", "text": "reaplica posições e formatações padrão dos espaços reservados sem apagar seu conteúdo."}
       ],
       "correctOptionId": "E",
       "explanation": "Redefinir restaura padrões do layout para espaços reservados. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -248,26 +128,11 @@
       "origin": "authorial",
       "prompt": "Ocultar Slide produz qual efeito?",
       "options": [
-        {
-          "id": "A",
-          "text": "Mantém o slide no arquivo, mas o retira da sequência normal da apresentação."
-        },
-        {
-          "id": "B",
-          "text": "Exclui o slide e libera seu número."
-        },
-        {
-          "id": "C",
-          "text": "Remove apenas as imagens do slide."
-        },
-        {
-          "id": "D",
-          "text": "Converte o slide em página de anotações."
-        },
-        {
-          "id": "E",
-          "text": "Impede qualquer hiperlink de alcançar o slide."
-        }
+        {"id": "A", "text": "Mantém o slide no arquivo, mas o retira da sequência normal da apresentação."},
+        {"id": "B", "text": "Exclui o slide e libera seu número."},
+        {"id": "C", "text": "Remove apenas as imagens do slide."},
+        {"id": "D", "text": "Converte o slide em página de anotações."},
+        {"id": "E", "text": "Impede qualquer hiperlink de alcançar o slide."}
       ],
       "correctOptionId": "A",
       "explanation": "Ocultar não equivale a excluir; navegação explícita ainda pode alcançar o slide. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -278,26 +143,11 @@
       "origin": "authorial",
       "prompt": "Ao usar Reutilizar Slides sem marcar Manter Formatação de Origem, o slide importado tende a",
       "options": [
-        {
-          "id": "A",
-          "text": "ficar dinamicamente vinculado ao arquivo original."
-        },
-        {
-          "id": "B",
-          "text": "ser convertido obrigatoriamente em imagem."
-        },
-        {
-          "id": "C",
-          "text": "perder todo o conteúdo, mantendo só o título."
-        },
-        {
-          "id": "D",
-          "text": "adotar o tema da apresentação de destino e permanecer como cópia independente."
-        },
-        {
-          "id": "E",
-          "text": "abrir em modo quiosque."
-        }
+        {"id": "A", "text": "ficar dinamicamente vinculado ao arquivo original."},
+        {"id": "B", "text": "ser convertido obrigatoriamente em imagem."},
+        {"id": "C", "text": "perder todo o conteúdo, mantendo só o título."},
+        {"id": "D", "text": "adotar o tema da apresentação de destino e permanecer como cópia independente."},
+        {"id": "E", "text": "abrir em modo quiosque."}
       ],
       "correctOptionId": "D",
       "explanation": "Reutilizar cria cópia e, por padrão, favorece o tema de destino. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -308,26 +158,11 @@
       "origin": "authorial",
       "prompt": "A opção Manter Formatação de Origem, em Reutilizar Slides, busca",
       "options": [
-        {
-          "id": "A",
-          "text": "preservar o tema e a aparência do slide importado sem criar vínculo dinâmico."
-        },
-        {
-          "id": "B",
-          "text": "aplicar obrigatoriamente o Slide Mestre do destino."
-        },
-        {
-          "id": "C",
-          "text": "converter todos os objetos em vídeos."
-        },
-        {
-          "id": "D",
-          "text": "bloquear o slide contra edição."
-        },
-        {
-          "id": "E",
-          "text": "atualizar a cópia quando o arquivo original mudar."
-        }
+        {"id": "A", "text": "preservar o tema e a aparência do slide importado sem criar vínculo dinâmico."},
+        {"id": "B", "text": "aplicar obrigatoriamente o Slide Mestre do destino."},
+        {"id": "C", "text": "converter todos os objetos em vídeos."},
+        {"id": "D", "text": "bloquear o slide contra edição."},
+        {"id": "E", "text": "atualizar a cópia quando o arquivo original mudar."}
       ],
       "correctOptionId": "A",
       "explanation": "A opção preserva aparência, mas o slide continua independente. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -338,26 +173,11 @@
       "origin": "authorial",
       "prompt": "Tema e layout distinguem-se porque",
       "options": [
-        {
-          "id": "A",
-          "text": "tema define senha e layout define formato de arquivo."
-        },
-        {
-          "id": "B",
-          "text": "layout controla identidade visual geral e tema serve apenas para impressão."
-        },
-        {
-          "id": "C",
-          "text": "tema coordena cores, fontes e efeitos; layout organiza espaços reservados e sua disposição."
-        },
-        {
-          "id": "D",
-          "text": "os dois termos são sinônimos em qualquer versão."
-        },
-        {
-          "id": "E",
-          "text": "tema só existe na Web e layout apenas no desktop."
-        }
+        {"id": "A", "text": "tema define senha e layout define formato de arquivo."},
+        {"id": "B", "text": "layout controla identidade visual geral e tema serve apenas para impressão."},
+        {"id": "C", "text": "tema coordena cores, fontes e efeitos; layout organiza espaços reservados e sua disposição."},
+        {"id": "D", "text": "os dois termos são sinônimos em qualquer versão."},
+        {"id": "E", "text": "tema só existe na Web e layout apenas no desktop."}
       ],
       "correctOptionId": "C",
       "explanation": "Tema atua na identidade visual; layout, na estrutura do slide. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -368,26 +188,11 @@
       "origin": "authorial",
       "prompt": "Em Design → Formatar Plano de Fundo, clicar em Aplicar a Todos",
       "options": [
-        {
-          "id": "A",
-          "text": "transforma o fundo em objeto selecionável comum."
-        },
-        {
-          "id": "B",
-          "text": "replica a configuração de fundo para os slides da apresentação."
-        },
-        {
-          "id": "C",
-          "text": "aplica uma animação a todos os objetos."
-        },
-        {
-          "id": "D",
-          "text": "substitui todos os layouts por Em Branco."
-        },
-        {
-          "id": "E",
-          "text": "exporta a apresentação para PDF."
-        }
+        {"id": "A", "text": "transforma o fundo em objeto selecionável comum."},
+        {"id": "B", "text": "replica a configuração de fundo para os slides da apresentação."},
+        {"id": "C", "text": "aplica uma animação a todos os objetos."},
+        {"id": "D", "text": "substitui todos os layouts por Em Branco."},
+        {"id": "E", "text": "exporta a apresentação para PDF."}
       ],
       "correctOptionId": "B",
       "explanation": "Aplicar a Todos amplia o alcance da configuração do fundo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -398,26 +203,11 @@
       "origin": "authorial",
       "prompt": "O Slide Mestre é usado principalmente para",
       "options": [
-        {
-          "id": "A",
-          "text": "armazenar apenas notas privadas."
-        },
-        {
-          "id": "B",
-          "text": "controlar a ordem de animação de um único slide."
-        },
-        {
-          "id": "C",
-          "text": "executar fórmulas vinculadas do Excel."
-        },
-        {
-          "id": "D",
-          "text": "compactar todos os vídeos."
-        },
-        {
-          "id": "E",
-          "text": "definir padrões compartilhados de tema, fontes, espaços reservados e elementos gráficos."
-        }
+        {"id": "A", "text": "armazenar apenas notas privadas."},
+        {"id": "B", "text": "controlar a ordem de animação de um único slide."},
+        {"id": "C", "text": "executar fórmulas vinculadas do Excel."},
+        {"id": "D", "text": "compactar todos os vídeos."},
+        {"id": "E", "text": "definir padrões compartilhados de tema, fontes, espaços reservados e elementos gráficos."}
       ],
       "correctOptionId": "E",
       "explanation": "O mestre centraliza padrões herdados por layouts e slides. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -428,26 +218,11 @@
       "origin": "authorial",
       "prompt": "Um logotipo foi inserido diretamente em um slide. Depois, o mesmo logotipo foi removido do Slide Mestre. O objeto local",
       "options": [
-        {
-          "id": "A",
-          "text": "será sempre removido, pois todo objeto pertence ao mestre."
-        },
-        {
-          "id": "B",
-          "text": "será convertido em espaço reservado."
-        },
-        {
-          "id": "C",
-          "text": "passará ao Mestre de Folhetos."
-        },
-        {
-          "id": "D",
-          "text": "pode permanecer, pois não era necessariamente herdado do mestre."
-        },
-        {
-          "id": "E",
-          "text": "ficará visível apenas durante a impressão."
-        }
+        {"id": "A", "text": "será sempre removido, pois todo objeto pertence ao mestre."},
+        {"id": "B", "text": "será convertido em espaço reservado."},
+        {"id": "C", "text": "passará ao Mestre de Folhetos."},
+        {"id": "D", "text": "pode permanecer, pois não era necessariamente herdado do mestre."},
+        {"id": "E", "text": "ficará visível apenas durante a impressão."}
       ],
       "correctOptionId": "D",
       "explanation": "Objetos locais e herdados são camadas distintas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -458,26 +233,11 @@
       "origin": "authorial",
       "prompt": "O Mestre de Folhetos controla principalmente",
       "options": [
-        {
-          "id": "A",
-          "text": "a sequência das animações em tela."
-        },
-        {
-          "id": "B",
-          "text": "a aparência de páginas impressas com vários slides, incluindo cabeçalho e rodapé."
-        },
-        {
-          "id": "C",
-          "text": "a reprodução de mídia."
-        },
-        {
-          "id": "D",
-          "text": "o vínculo com planilhas do Excel."
-        },
-        {
-          "id": "E",
-          "text": "a ordem de leitura de cada slide."
-        }
+        {"id": "A", "text": "a sequência das animações em tela."},
+        {"id": "B", "text": "a aparência de páginas impressas com vários slides, incluindo cabeçalho e rodapé."},
+        {"id": "C", "text": "a reprodução de mídia."},
+        {"id": "D", "text": "o vínculo com planilhas do Excel."},
+        {"id": "E", "text": "a ordem de leitura de cada slide."}
       ],
       "correctOptionId": "B",
       "explanation": "O Mestre de Folhetos é voltado à saída impressa. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -488,26 +248,11 @@
       "origin": "authorial",
       "prompt": "O Painel de Seleção ajuda a",
       "options": [
-        {
-          "id": "A",
-          "text": "renomear, localizar, mostrar, ocultar e reordenar objetos no slide."
-        },
-        {
-          "id": "B",
-          "text": "calcular a duração total das transições."
-        },
-        {
-          "id": "C",
-          "text": "definir o formato de salvamento."
-        },
-        {
-          "id": "D",
-          "text": "criar apresentações personalizadas automaticamente."
-        },
-        {
-          "id": "E",
-          "text": "substituir integralmente o Painel de Animação."
-        }
+        {"id": "A", "text": "renomear, localizar, mostrar, ocultar e reordenar objetos no slide."},
+        {"id": "B", "text": "calcular a duração total das transições."},
+        {"id": "C", "text": "definir o formato de salvamento."},
+        {"id": "D", "text": "criar apresentações personalizadas automaticamente."},
+        {"id": "E", "text": "substituir integralmente o Painel de Animação."}
       ],
       "correctOptionId": "A",
       "explanation": "O painel administra objetos e sua ordem visual. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -518,26 +263,11 @@
       "origin": "authorial",
       "prompt": "Distribuir Horizontalmente três objetos significa",
       "options": [
-        {
-          "id": "A",
-          "text": "fundir os objetos em uma única forma."
-        },
-        {
-          "id": "B",
-          "text": "tornar todos da mesma largura."
-        },
-        {
-          "id": "C",
-          "text": "ordenar as animações por duração."
-        },
-        {
-          "id": "D",
-          "text": "igualar os espaços horizontais entre eles, sem necessariamente igualar seus tamanhos."
-        },
-        {
-          "id": "E",
-          "text": "converter cada objeto em slide."
-        }
+        {"id": "A", "text": "fundir os objetos em uma única forma."},
+        {"id": "B", "text": "tornar todos da mesma largura."},
+        {"id": "C", "text": "ordenar as animações por duração."},
+        {"id": "D", "text": "igualar os espaços horizontais entre eles, sem necessariamente igualar seus tamanhos."},
+        {"id": "E", "text": "converter cada objeto em slide."}
       ],
       "correctOptionId": "D",
       "explanation": "Distribuir trata do espaçamento; tamanho é outra propriedade. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -548,26 +278,11 @@
       "origin": "authorial",
       "prompt": "Agrupar objetos permite",
       "options": [
-        {
-          "id": "A",
-          "text": "transformá-los em um único slide."
-        },
-        {
-          "id": "B",
-          "text": "substituir todos por um espaço reservado."
-        },
-        {
-          "id": "C",
-          "text": "movê-los, redimensioná-los e formatá-los como unidade, sem mesclar definitivamente suas geometrias."
-        },
-        {
-          "id": "D",
-          "text": "criar automaticamente uma transição."
-        },
-        {
-          "id": "E",
-          "text": "eliminar a possibilidade de desagrupar."
-        }
+        {"id": "A", "text": "transformá-los em um único slide."},
+        {"id": "B", "text": "substituir todos por um espaço reservado."},
+        {"id": "C", "text": "movê-los, redimensioná-los e formatá-los como unidade, sem mesclar definitivamente suas geometrias."},
+        {"id": "D", "text": "criar automaticamente uma transição."},
+        {"id": "E", "text": "eliminar a possibilidade de desagrupar."}
       ],
       "correctOptionId": "C",
       "explanation": "Agrupar cria tratamento conjunto, mas não é Mesclar Formas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -578,26 +293,11 @@
       "origin": "authorial",
       "prompt": "Trazer para Frente e Enviar para Trás alteram",
       "options": [
-        {
-          "id": "A",
-          "text": "o formato de arquivo."
-        },
-        {
-          "id": "B",
-          "text": "a posição geométrica dos objetos no eixo horizontal."
-        },
-        {
-          "id": "C",
-          "text": "o tempo de cada transição."
-        },
-        {
-          "id": "D",
-          "text": "a ordem das seções."
-        },
-        {
-          "id": "E",
-          "text": "a ordem de sobreposição dos objetos, não a ordem das animações."
-        }
+        {"id": "A", "text": "o formato de arquivo."},
+        {"id": "B", "text": "a posição geométrica dos objetos no eixo horizontal."},
+        {"id": "C", "text": "o tempo de cada transição."},
+        {"id": "D", "text": "a ordem das seções."},
+        {"id": "E", "text": "a ordem de sobreposição dos objetos, não a ordem das animações."}
       ],
       "correctOptionId": "E",
       "explanation": "Camadas visuais e sequência de animação são independentes. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -608,26 +308,11 @@
       "origin": "authorial",
       "prompt": "Recortar e redimensionar uma imagem distinguem-se porque",
       "options": [
-        {
-          "id": "A",
-          "text": "ambos apagam o arquivo de origem."
-        },
-        {
-          "id": "B",
-          "text": "recortar muda o codec e redimensionar muda o tema."
-        },
-        {
-          "id": "C",
-          "text": "recortar altera a área visível; redimensionar altera largura e altura."
-        },
-        {
-          "id": "D",
-          "text": "recortar cria uma seção e redimensionar cria um layout."
-        },
-        {
-          "id": "E",
-          "text": "não existe diferença entre as operações."
-        }
+        {"id": "A", "text": "ambos apagam o arquivo de origem."},
+        {"id": "B", "text": "recortar muda o codec e redimensionar muda o tema."},
+        {"id": "C", "text": "recortar altera a área visível; redimensionar altera largura e altura."},
+        {"id": "D", "text": "recortar cria uma seção e redimensionar cria um layout."},
+        {"id": "E", "text": "não existe diferença entre as operações."}
       ],
       "correctOptionId": "C",
       "explanation": "Recorte e dimensão são operações distintas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -638,26 +323,11 @@
       "origin": "authorial",
       "prompt": "Em uma apresentação acessível, uma imagem informativa deve",
       "options": [
-        {
-          "id": "A",
-          "text": "ser descrita apenas pela cor da borda."
-        },
-        {
-          "id": "B",
-          "text": "ser sempre convertida em plano de fundo."
-        },
-        {
-          "id": "C",
-          "text": "ser marcada como decorativa independentemente da função."
-        },
-        {
-          "id": "D",
-          "text": "ficar obrigatoriamente atrás do texto."
-        },
-        {
-          "id": "E",
-          "text": "receber texto alternativo que comunique seu propósito ou informação relevante."
-        }
+        {"id": "A", "text": "ser descrita apenas pela cor da borda."},
+        {"id": "B", "text": "ser sempre convertida em plano de fundo."},
+        {"id": "C", "text": "ser marcada como decorativa independentemente da função."},
+        {"id": "D", "text": "ficar obrigatoriamente atrás do texto."},
+        {"id": "E", "text": "receber texto alternativo que comunique seu propósito ou informação relevante."}
       ],
       "correctOptionId": "E",
       "explanation": "Texto alternativo torna a informação acessível a tecnologias assistivas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -668,26 +338,11 @@
       "origin": "authorial",
       "prompt": "Tabela do PowerPoint e objeto do Excel distinguem-se porque",
       "options": [
-        {
-          "id": "A",
-          "text": "toda tabela do PowerPoint executa fórmulas como uma planilha."
-        },
-        {
-          "id": "B",
-          "text": "a tabela do PowerPoint organiza conteúdo, enquanto cálculos e atualização de dados pertencem ao Excel."
-        },
-        {
-          "id": "C",
-          "text": "objeto do Excel não pode ser incorporado."
-        },
-        {
-          "id": "D",
-          "text": "tabela do PowerPoint é obrigatoriamente imagem."
-        },
-        {
-          "id": "E",
-          "text": "os dois recursos são idênticos."
-        }
+        {"id": "A", "text": "toda tabela do PowerPoint executa fórmulas como uma planilha."},
+        {"id": "B", "text": "a tabela do PowerPoint organiza conteúdo, enquanto cálculos e atualização de dados pertencem ao Excel."},
+        {"id": "C", "text": "objeto do Excel não pode ser incorporado."},
+        {"id": "D", "text": "tabela do PowerPoint é obrigatoriamente imagem."},
+        {"id": "E", "text": "os dois recursos são idênticos."}
       ],
       "correctOptionId": "B",
       "explanation": "Para cálculos e vínculos, o Excel é o objeto apropriado. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -698,26 +353,11 @@
       "origin": "authorial",
       "prompt": "Para mostrar tendência mensal de despesas, o tipo de gráfico mais adequado costuma ser",
       "options": [
-        {
-          "id": "A",
-          "text": "linhas, porque destaca a evolução ao longo do tempo."
-        },
-        {
-          "id": "B",
-          "text": "pizza com dezenas de categorias."
-        },
-        {
-          "id": "C",
-          "text": "dispersão sem eixo temporal."
-        },
-        {
-          "id": "D",
-          "text": "radar 3D decorativo."
-        },
-        {
-          "id": "E",
-          "text": "caixa e bigodes para mostrar apenas a sequência cronológica."
-        }
+        {"id": "A", "text": "linhas, porque destaca a evolução ao longo do tempo."},
+        {"id": "B", "text": "pizza com dezenas de categorias."},
+        {"id": "C", "text": "dispersão sem eixo temporal."},
+        {"id": "D", "text": "radar 3D decorativo."},
+        {"id": "E", "text": "caixa e bigodes para mostrar apenas a sequência cronológica."}
       ],
       "correctOptionId": "A",
       "explanation": "Gráfico de linhas é apropriado a séries temporais. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -728,26 +368,11 @@
       "origin": "authorial",
       "prompt": "Transição é",
       "options": [
-        {
-          "id": "A",
-          "text": "um efeito aplicado obrigatoriamente a cada objeto."
-        },
-        {
-          "id": "B",
-          "text": "a ordem de sobreposição de formas."
-        },
-        {
-          "id": "C",
-          "text": "o formato de arquivo PPSX."
-        },
-        {
-          "id": "D",
-          "text": "o efeito aplicado à passagem para um slide."
-        },
-        {
-          "id": "E",
-          "text": "um comentário do revisor."
-        }
+        {"id": "A", "text": "um efeito aplicado obrigatoriamente a cada objeto."},
+        {"id": "B", "text": "a ordem de sobreposição de formas."},
+        {"id": "C", "text": "o formato de arquivo PPSX."},
+        {"id": "D", "text": "o efeito aplicado à passagem para um slide."},
+        {"id": "E", "text": "um comentário do revisor."}
       ],
       "correctOptionId": "D",
       "explanation": "Transição atua no slide; animação atua em objetos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -758,26 +383,11 @@
       "origin": "authorial",
       "prompt": "O comando Aplicar a Todos na guia Transições",
       "options": [
-        {
-          "id": "A",
-          "text": "converte todas as animações em transições."
-        },
-        {
-          "id": "B",
-          "text": "apaga a temporização de todos os slides."
-        },
-        {
-          "id": "C",
-          "text": "replica a configuração de transição do slide atual para os demais slides."
-        },
-        {
-          "id": "D",
-          "text": "exporta cada slide como imagem."
-        },
-        {
-          "id": "E",
-          "text": "aplica o mesmo layout a toda a apresentação."
-        }
+        {"id": "A", "text": "converte todas as animações em transições."},
+        {"id": "B", "text": "apaga a temporização de todos os slides."},
+        {"id": "C", "text": "replica a configuração de transição do slide atual para os demais slides."},
+        {"id": "D", "text": "exporta cada slide como imagem."},
+        {"id": "E", "text": "aplica o mesmo layout a toda a apresentação."}
       ],
       "correctOptionId": "C",
       "explanation": "O comando amplia o efeito e sua temporização aos slides. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -788,26 +398,11 @@
       "origin": "authorial",
       "prompt": "A transição Transformação (Morph), quando disponível,",
       "options": [
-        {
-          "id": "A",
-          "text": "cria continuidade visual entre objetos correspondentes em slides consecutivos."
-        },
-        {
-          "id": "B",
-          "text": "é uma trajetória dentro de um único slide."
-        },
-        {
-          "id": "C",
-          "text": "funciona de forma idêntica em qualquer versão."
-        },
-        {
-          "id": "D",
-          "text": "substitui o Slide Mestre."
-        },
-        {
-          "id": "E",
-          "text": "converte o arquivo em vídeo."
-        }
+        {"id": "A", "text": "cria continuidade visual entre objetos correspondentes em slides consecutivos."},
+        {"id": "B", "text": "é uma trajetória dentro de um único slide."},
+        {"id": "C", "text": "funciona de forma idêntica em qualquer versão."},
+        {"id": "D", "text": "substitui o Slide Mestre."},
+        {"id": "E", "text": "converte o arquivo em vídeo."}
       ],
       "correctOptionId": "A",
       "explanation": "Morph depende de versão e correspondência entre objetos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -818,26 +413,11 @@
       "origin": "authorial",
       "prompt": "As categorias Entrada, Ênfase, Saída e Trajetória pertencem a",
       "options": [
-        {
-          "id": "A",
-          "text": "formatos de arquivo."
-        },
-        {
-          "id": "B",
-          "text": "modos de impressão."
-        },
-        {
-          "id": "C",
-          "text": "tipos de Slide Mestre."
-        },
-        {
-          "id": "D",
-          "text": "configurações de plano de fundo."
-        },
-        {
-          "id": "E",
-          "text": "animações de objetos."
-        }
+        {"id": "A", "text": "formatos de arquivo."},
+        {"id": "B", "text": "modos de impressão."},
+        {"id": "C", "text": "tipos de Slide Mestre."},
+        {"id": "D", "text": "configurações de plano de fundo."},
+        {"id": "E", "text": "animações de objetos."}
       ],
       "correctOptionId": "E",
       "explanation": "Essas são categorias de efeitos de animação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -848,26 +428,11 @@
       "origin": "authorial",
       "prompt": "Em temporização de animações, Após o Anterior significa que o efeito",
       "options": [
-        {
-          "id": "A",
-          "text": "aguarda sempre um clique, independentemente da sequência."
-        },
-        {
-          "id": "B",
-          "text": "inicia quando o efeito anterior termina."
-        },
-        {
-          "id": "C",
-          "text": "inicia junto com o efeito anterior."
-        },
-        {
-          "id": "D",
-          "text": "ocorre antes da transição."
-        },
-        {
-          "id": "E",
-          "text": "é executado somente na impressão."
-        }
+        {"id": "A", "text": "aguarda sempre um clique, independentemente da sequência."},
+        {"id": "B", "text": "inicia quando o efeito anterior termina."},
+        {"id": "C", "text": "inicia junto com o efeito anterior."},
+        {"id": "D", "text": "ocorre antes da transição."},
+        {"id": "E", "text": "é executado somente na impressão."}
       ],
       "correctOptionId": "B",
       "explanation": "Após o Anterior encadeia o início ao término do efeito precedente. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -878,26 +443,11 @@
       "origin": "authorial",
       "prompt": "Para aplicar Entrada, Ênfase e Saída ao mesmo objeto sem substituir o efeito anterior, deve-se usar",
       "options": [
-        {
-          "id": "A",
-          "text": "Aplicar a Todos na guia Transições."
-        },
-        {
-          "id": "B",
-          "text": "Reutilizar Slides."
-        },
-        {
-          "id": "C",
-          "text": "Redefinir Layout."
-        },
-        {
-          "id": "D",
-          "text": "Adicionar Animação para cada efeito adicional."
-        },
-        {
-          "id": "E",
-          "text": "Mestre de Anotações."
-        }
+        {"id": "A", "text": "Aplicar a Todos na guia Transições."},
+        {"id": "B", "text": "Reutilizar Slides."},
+        {"id": "C", "text": "Redefinir Layout."},
+        {"id": "D", "text": "Adicionar Animação para cada efeito adicional."},
+        {"id": "E", "text": "Mestre de Anotações."}
       ],
       "correctOptionId": "D",
       "explanation": "Adicionar Animação acumula efeitos no mesmo objeto. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -908,26 +458,11 @@
       "origin": "authorial",
       "prompt": "O Pincel de Animação serve para",
       "options": [
-        {
-          "id": "A",
-          "text": "copiar apenas fonte, preenchimento e contorno."
-        },
-        {
-          "id": "B",
-          "text": "criar uma cópia vinculada do slide."
-        },
-        {
-          "id": "C",
-          "text": "substituir o Slide Mestre."
-        },
-        {
-          "id": "D",
-          "text": "converter animação em vídeo."
-        },
-        {
-          "id": "E",
-          "text": "copiar efeitos e configurações de animação de um objeto para outro."
-        }
+        {"id": "A", "text": "copiar apenas fonte, preenchimento e contorno."},
+        {"id": "B", "text": "criar uma cópia vinculada do slide."},
+        {"id": "C", "text": "substituir o Slide Mestre."},
+        {"id": "D", "text": "converter animação em vídeo."},
+        {"id": "E", "text": "copiar efeitos e configurações de animação de um objeto para outro."}
       ],
       "correctOptionId": "E",
       "explanation": "O Pincel de Animação transfere efeitos; aparência geral pertence ao Pincel de Formatação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -938,26 +473,11 @@
       "origin": "authorial",
       "prompt": "O número exibido ao lado de um objeto animado normalmente indica",
       "options": [
-        {
-          "id": "A",
-          "text": "o número do slide."
-        },
-        {
-          "id": "B",
-          "text": "a quantidade de comentários."
-        },
-        {
-          "id": "C",
-          "text": "sua posição na sequência de animação."
-        },
-        {
-          "id": "D",
-          "text": "a camada visual no Painel de Seleção."
-        },
-        {
-          "id": "E",
-          "text": "o tamanho da fonte."
-        }
+        {"id": "A", "text": "o número do slide."},
+        {"id": "B", "text": "a quantidade de comentários."},
+        {"id": "C", "text": "sua posição na sequência de animação."},
+        {"id": "D", "text": "a camada visual no Painel de Seleção."},
+        {"id": "E", "text": "o tamanho da fonte."}
       ],
       "correctOptionId": "C",
       "explanation": "A numeração refere-se à ordem dos efeitos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -968,26 +488,11 @@
       "origin": "authorial",
       "prompt": "Um gatilho de animação permite",
       "options": [
-        {
-          "id": "A",
-          "text": "iniciar um efeito ao clicar em objeto específico ou ao alcançar marcador de mídia."
-        },
-        {
-          "id": "B",
-          "text": "converter o efeito em transição."
-        },
-        {
-          "id": "C",
-          "text": "alterar o formato PPTX para PPSX."
-        },
-        {
-          "id": "D",
-          "text": "aplicar o tema de destino."
-        },
-        {
-          "id": "E",
-          "text": "imprimir apenas o objeto."
-        }
+        {"id": "A", "text": "iniciar um efeito ao clicar em objeto específico ou ao alcançar marcador de mídia."},
+        {"id": "B", "text": "converter o efeito em transição."},
+        {"id": "C", "text": "alterar o formato PPTX para PPSX."},
+        {"id": "D", "text": "aplicar o tema de destino."},
+        {"id": "E", "text": "imprimir apenas o objeto."}
       ],
       "correctOptionId": "A",
       "explanation": "Gatilho define uma condição de disparo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -998,26 +503,11 @@
       "origin": "authorial",
       "prompt": "Ao avançar do slide 1 para o slide 2, a ordem geral correta é",
       "options": [
-        {
-          "id": "A",
-          "text": "animações do slide 2, depois transição, depois carregamento do slide."
-        },
-        {
-          "id": "B",
-          "text": "Slide Mestre, impressão e transição."
-        },
-        {
-          "id": "C",
-          "text": "exportação para vídeo antes da transição."
-        },
-        {
-          "id": "D",
-          "text": "transição para o slide 2, estado inicial do slide e, depois, animações conforme a temporização."
-        },
-        {
-          "id": "E",
-          "text": "ordem de camadas, transição e tema."
-        }
+        {"id": "A", "text": "animações do slide 2, depois transição, depois carregamento do slide."},
+        {"id": "B", "text": "Slide Mestre, impressão e transição."},
+        {"id": "C", "text": "exportação para vídeo antes da transição."},
+        {"id": "D", "text": "transição para o slide 2, estado inicial do slide e, depois, animações conforme a temporização."},
+        {"id": "E", "text": "ordem de camadas, transição e tema."}
       ],
       "correctOptionId": "D",
       "explanation": "A transição introduz o slide; os efeitos de seus objetos ocorrem em seguida. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1028,26 +518,11 @@
       "origin": "authorial",
       "prompt": "Um objeto possui somente uma animação de Saída. Ao entrar no slide, ele",
       "options": [
-        {
-          "id": "A",
-          "text": "começa invisível até a saída."
-        },
-        {
-          "id": "B",
-          "text": "começa visível e desaparece quando o efeito de saída for disparado."
-        },
-        {
-          "id": "C",
-          "text": "não pode ser exibido."
-        },
-        {
-          "id": "D",
-          "text": "é convertido em plano de fundo."
-        },
-        {
-          "id": "E",
-          "text": "fica visível apenas no Modo do Apresentador."
-        }
+        {"id": "A", "text": "começa invisível até a saída."},
+        {"id": "B", "text": "começa visível e desaparece quando o efeito de saída for disparado."},
+        {"id": "C", "text": "não pode ser exibido."},
+        {"id": "D", "text": "é convertido em plano de fundo."},
+        {"id": "E", "text": "fica visível apenas no Modo do Apresentador."}
       ],
       "correctOptionId": "B",
       "explanation": "Sem entrada, o estado inicial é visível. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1058,26 +533,11 @@
       "origin": "authorial",
       "prompt": "No PowerPoint desktop para Windows, F5 e Shift+F5 iniciam, respectivamente,",
       "options": [
-        {
-          "id": "A",
-          "text": "o Slide Mestre e o Mestre de Folhetos."
-        },
-        {
-          "id": "B",
-          "text": "a gravação e a exportação."
-        },
-        {
-          "id": "C",
-          "text": "a apresentação do começo e do slide atual."
-        },
-        {
-          "id": "D",
-          "text": "o modo quiosque e o modo janela."
-        },
-        {
-          "id": "E",
-          "text": "a impressão e o PDF."
-        }
+        {"id": "A", "text": "o Slide Mestre e o Mestre de Folhetos."},
+        {"id": "B", "text": "a gravação e a exportação."},
+        {"id": "C", "text": "a apresentação do começo e do slide atual."},
+        {"id": "D", "text": "o modo quiosque e o modo janela."},
+        {"id": "E", "text": "a impressão e o PDF."}
       ],
       "correctOptionId": "C",
       "explanation": "São atalhos comuns de início da apresentação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1088,26 +548,11 @@
       "origin": "authorial",
       "prompt": "O Modo do Apresentador pode mostrar ao apresentador",
       "options": [
-        {
-          "id": "A",
-          "text": "o código VBA de todas as macros."
-        },
-        {
-          "id": "B",
-          "text": "somente a tela preta."
-        },
-        {
-          "id": "C",
-          "text": "as fórmulas do Excel vinculadas."
-        },
-        {
-          "id": "D",
-          "text": "obrigatoriamente todos os comentários."
-        },
-        {
-          "id": "E",
-          "text": "slide atual, próximo slide, anotações, tempo e ferramentas, enquanto o público vê a saída configurada."
-        }
+        {"id": "A", "text": "o código VBA de todas as macros."},
+        {"id": "B", "text": "somente a tela preta."},
+        {"id": "C", "text": "as fórmulas do Excel vinculadas."},
+        {"id": "D", "text": "obrigatoriamente todos os comentários."},
+        {"id": "E", "text": "slide atual, próximo slide, anotações, tempo e ferramentas, enquanto o público vê a saída configurada."}
       ],
       "correctOptionId": "E",
       "explanation": "O modo separa a visão do apresentador da visão do público. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1118,26 +563,11 @@
       "origin": "authorial",
       "prompt": "Anotações de um slide",
       "options": [
-        {
-          "id": "A",
-          "text": "podem auxiliar o apresentador e ser impressas, mas não aparecem automaticamente ao público."
-        },
-        {
-          "id": "B",
-          "text": "são sempre exibidas em tela cheia."
-        },
-        {
-          "id": "C",
-          "text": "substituem o conteúdo do slide."
-        },
-        {
-          "id": "D",
-          "text": "são o mesmo que comentários."
-        },
-        {
-          "id": "E",
-          "text": "controlam o plano de fundo."
-        }
+        {"id": "A", "text": "podem auxiliar o apresentador e ser impressas, mas não aparecem automaticamente ao público."},
+        {"id": "B", "text": "são sempre exibidas em tela cheia."},
+        {"id": "C", "text": "substituem o conteúdo do slide."},
+        {"id": "D", "text": "são o mesmo que comentários."},
+        {"id": "E", "text": "controlam o plano de fundo."}
       ],
       "correctOptionId": "A",
       "explanation": "Anotações são material de apoio, distinto de comentários e conteúdo visual. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1148,26 +578,11 @@
       "origin": "authorial",
       "prompt": "Em Configurar Apresentação de Slides, o modo quiosque",
       "options": [
-        {
-          "id": "A",
-          "text": "abre obrigatoriamente em janela editável."
-        },
-        {
-          "id": "B",
-          "text": "remove todos os intervalos."
-        },
-        {
-          "id": "C",
-          "text": "transforma cada slide em imagem."
-        },
-        {
-          "id": "D",
-          "text": "usa tela inteira, restringe a navegação e pode repetir continuamente até Esc."
-        },
-        {
-          "id": "E",
-          "text": "é sinônimo de salvar como PPSX."
-        }
+        {"id": "A", "text": "abre obrigatoriamente em janela editável."},
+        {"id": "B", "text": "remove todos os intervalos."},
+        {"id": "C", "text": "transforma cada slide em imagem."},
+        {"id": "D", "text": "usa tela inteira, restringe a navegação e pode repetir continuamente até Esc."},
+        {"id": "E", "text": "é sinônimo de salvar como PPSX."}
       ],
       "correctOptionId": "D",
       "explanation": "Quiosque é uma configuração de execução autoatendida. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1178,26 +593,11 @@
       "origin": "authorial",
       "prompt": "Salvar como PPSX",
       "options": [
-        {
-          "id": "A",
-          "text": "transforma a apresentação em modelo."
-        },
-        {
-          "id": "B",
-          "text": "faz o arquivo abrir diretamente em modo de apresentação, mas não configura sozinho todas as regras de quiosque."
-        },
-        {
-          "id": "C",
-          "text": "remove todas as animações."
-        },
-        {
-          "id": "D",
-          "text": "incorpora automaticamente qualquer planilha externa."
-        },
-        {
-          "id": "E",
-          "text": "bloqueia a tecla Esc."
-        }
+        {"id": "A", "text": "transforma a apresentação em modelo."},
+        {"id": "B", "text": "faz o arquivo abrir diretamente em modo de apresentação, mas não configura sozinho todas as regras de quiosque."},
+        {"id": "C", "text": "remove todas as animações."},
+        {"id": "D", "text": "incorpora automaticamente qualquer planilha externa."},
+        {"id": "E", "text": "bloqueia a tecla Esc."}
       ],
       "correctOptionId": "B",
       "explanation": "Formato de abertura e configuração de quiosque são conceitos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1208,26 +608,11 @@
       "origin": "authorial",
       "prompt": "Ensaiar Intervalos e Gravar Apresentação distinguem-se porque",
       "options": [
-        {
-          "id": "A",
-          "text": "o primeiro registra tempos; o segundo pode registrar narração, tempos, tinta e câmera, conforme a versão."
-        },
-        {
-          "id": "B",
-          "text": "Ensaiar exporta vídeo e Gravar apenas imprime."
-        },
-        {
-          "id": "C",
-          "text": "os dois são sinônimos absolutos."
-        },
-        {
-          "id": "D",
-          "text": "Gravar não admite temporização."
-        },
-        {
-          "id": "E",
-          "text": "Ensaiar cria obrigatoriamente um arquivo PPSX."
-        }
+        {"id": "A", "text": "o primeiro registra tempos; o segundo pode registrar narração, tempos, tinta e câmera, conforme a versão."},
+        {"id": "B", "text": "Ensaiar exporta vídeo e Gravar apenas imprime."},
+        {"id": "C", "text": "os dois são sinônimos absolutos."},
+        {"id": "D", "text": "Gravar não admite temporização."},
+        {"id": "E", "text": "Ensaiar cria obrigatoriamente um arquivo PPSX."}
       ],
       "correctOptionId": "A",
       "explanation": "Ensaiar foca tempos; Gravar captura apresentação e mídia do apresentador. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1238,26 +623,11 @@
       "origin": "authorial",
       "prompt": "Uma apresentação personalizada permite",
       "options": [
-        {
-          "id": "A",
-          "text": "criar um novo PPTX para cada público."
-        },
-        {
-          "id": "B",
-          "text": "alterar definitivamente a ordem original dos slides."
-        },
-        {
-          "id": "C",
-          "text": "substituir todas as seções."
-        },
-        {
-          "id": "D",
-          "text": "definir subconjunto e ordem de slides sem duplicar o arquivo."
-        },
-        {
-          "id": "E",
-          "text": "converter cada slide em vídeo."
-        }
+        {"id": "A", "text": "criar um novo PPTX para cada público."},
+        {"id": "B", "text": "alterar definitivamente a ordem original dos slides."},
+        {"id": "C", "text": "substituir todas as seções."},
+        {"id": "D", "text": "definir subconjunto e ordem de slides sem duplicar o arquivo."},
+        {"id": "E", "text": "converter cada slide em vídeo."}
       ],
       "correctOptionId": "D",
       "explanation": "A apresentação personalizada cria um percurso alternativo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1268,26 +638,11 @@
       "origin": "authorial",
       "prompt": "Hiperlink e ação distinguem-se porque",
       "options": [
-        {
-          "id": "A",
-          "text": "hiperlink só funciona na impressão."
-        },
-        {
-          "id": "B",
-          "text": "ação é sempre uma animação de entrada."
-        },
-        {
-          "id": "C",
-          "text": "o hiperlink aponta para destinos; a ação pode também disparar som ou programa, conforme segurança e configuração."
-        },
-        {
-          "id": "D",
-          "text": "os dois são formatos de arquivo."
-        },
-        {
-          "id": "E",
-          "text": "hiperlink nunca aponta para outro slide."
-        }
+        {"id": "A", "text": "hiperlink só funciona na impressão."},
+        {"id": "B", "text": "ação é sempre uma animação de entrada."},
+        {"id": "C", "text": "o hiperlink aponta para destinos; a ação pode também disparar som ou programa, conforme segurança e configuração."},
+        {"id": "D", "text": "os dois são formatos de arquivo."},
+        {"id": "E", "text": "hiperlink nunca aponta para outro slide."}
       ],
       "correctOptionId": "C",
       "explanation": "Ações ampliam comportamentos interativos, enquanto hiperlinks apontam para destinos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1298,26 +653,11 @@
       "origin": "authorial",
       "prompt": "Zoom de Resumo, Zoom de Slide e Zoom de Seção servem para",
       "options": [
-        {
-          "id": "A",
-          "text": "aumentar o tamanho real da fonte."
-        },
-        {
-          "id": "B",
-          "text": "substituir o modo Classificação de Slides."
-        },
-        {
-          "id": "C",
-          "text": "compactar mídia."
-        },
-        {
-          "id": "D",
-          "text": "converter o arquivo em PDF."
-        },
-        {
-          "id": "E",
-          "text": "criar navegação não linear para partes da apresentação, slides ou seções, em versões compatíveis."
-        }
+        {"id": "A", "text": "aumentar o tamanho real da fonte."},
+        {"id": "B", "text": "substituir o modo Classificação de Slides."},
+        {"id": "C", "text": "compactar mídia."},
+        {"id": "D", "text": "converter o arquivo em PDF."},
+        {"id": "E", "text": "criar navegação não linear para partes da apresentação, slides ou seções, em versões compatíveis."}
       ],
       "correctOptionId": "E",
       "explanation": "Zoom é recurso de navegação, não ampliação visual comum. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1328,26 +668,11 @@
       "origin": "authorial",
       "prompt": "Dados do Excel incorporados e vinculados distinguem-se porque",
       "options": [
-        {
-          "id": "A",
-          "text": "incorporado significa sempre imagem estática."
-        },
-        {
-          "id": "B",
-          "text": "o incorporado é uma cópia dentro do PPTX; o vinculado depende do arquivo externo para atualização."
-        },
-        {
-          "id": "C",
-          "text": "vinculado é autossuficiente e não depende do XLSX."
-        },
-        {
-          "id": "D",
-          "text": "ambos são necessariamente tabelas do PowerPoint."
-        },
-        {
-          "id": "E",
-          "text": "incorporado nunca pode ser editado com recursos do Excel."
-        }
+        {"id": "A", "text": "incorporado significa sempre imagem estática."},
+        {"id": "B", "text": "o incorporado é uma cópia dentro do PPTX; o vinculado depende do arquivo externo para atualização."},
+        {"id": "C", "text": "vinculado é autossuficiente e não depende do XLSX."},
+        {"id": "D", "text": "ambos são necessariamente tabelas do PowerPoint."},
+        {"id": "E", "text": "incorporado nunca pode ser editado com recursos do Excel."}
       ],
       "correctOptionId": "B",
       "explanation": "Incorporação e vínculo possuem dependências diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1358,26 +683,11 @@
       "origin": "authorial",
       "prompt": "Um gráfico vinculado ao Excel deixou de atualizar depois que o XLSX foi movido. O diagnóstico mais provável é",
       "options": [
-        {
-          "id": "A",
-          "text": "ausência de Slide Mestre."
-        },
-        {
-          "id": "B",
-          "text": "transição muito longa."
-        },
-        {
-          "id": "C",
-          "text": "fonte não incorporada."
-        },
-        {
-          "id": "D",
-          "text": "vínculo externo quebrado por alteração de caminho ou acesso."
-        },
-        {
-          "id": "E",
-          "text": "slide oculto."
-        }
+        {"id": "A", "text": "ausência de Slide Mestre."},
+        {"id": "B", "text": "transição muito longa."},
+        {"id": "C", "text": "fonte não incorporada."},
+        {"id": "D", "text": "vínculo externo quebrado por alteração de caminho ou acesso."},
+        {"id": "E", "text": "slide oculto."}
       ],
       "correctOptionId": "D",
       "explanation": "Objetos vinculados dependem da origem externa e de seu caminho. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1388,26 +698,11 @@
       "origin": "authorial",
       "prompt": "A reprodução de áudio ou vídeo em outro computador pode falhar por causa de",
       "options": [
-        {
-          "id": "A",
-          "text": "ordem alfabética dos slides."
-        },
-        {
-          "id": "B",
-          "text": "codec, formato, versão, permissões, caminho externo ou equipamento."
-        },
-        {
-          "id": "C",
-          "text": "quantidade de seções apenas."
-        },
-        {
-          "id": "D",
-          "text": "cor do tema exclusivamente."
-        },
-        {
-          "id": "E",
-          "text": "presença do Mestre de Folhetos."
-        }
+        {"id": "A", "text": "ordem alfabética dos slides."},
+        {"id": "B", "text": "codec, formato, versão, permissões, caminho externo ou equipamento."},
+        {"id": "C", "text": "quantidade de seções apenas."},
+        {"id": "D", "text": "cor do tema exclusivamente."},
+        {"id": "E", "text": "presença do Mestre de Folhetos."}
       ],
       "correctOptionId": "B",
       "explanation": "Mídia depende do ambiente de reprodução. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1418,26 +713,11 @@
       "origin": "authorial",
       "prompt": "Para coautoria em um único arquivo, o procedimento adequado é",
       "options": [
-        {
-          "id": "A",
-          "text": "enviar anexos independentes a cada participante."
-        },
-        {
-          "id": "B",
-          "text": "converter obrigatoriamente para PDF."
-        },
-        {
-          "id": "C",
-          "text": "ocultar todos os slides."
-        },
-        {
-          "id": "D",
-          "text": "usar somente o modo quiosque."
-        },
-        {
-          "id": "E",
-          "text": "salvar em local e formato compatíveis, compartilhar o link e definir permissões."
-        }
+        {"id": "A", "text": "enviar anexos independentes a cada participante."},
+        {"id": "B", "text": "converter obrigatoriamente para PDF."},
+        {"id": "C", "text": "ocultar todos os slides."},
+        {"id": "D", "text": "usar somente o modo quiosque."},
+        {"id": "E", "text": "salvar em local e formato compatíveis, compartilhar o link e definir permissões."}
       ],
       "correctOptionId": "E",
       "explanation": "Link compartilhado mantém um arquivo comum; anexos geram cópias. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1448,26 +728,11 @@
       "origin": "authorial",
       "prompt": "Uma boa prática de acessibilidade é",
       "options": [
-        {
-          "id": "A",
-          "text": "atribuir título estrutural e exclusivo a cada slide e conferir a ordem de leitura."
-        },
-        {
-          "id": "B",
-          "text": "usar somente cor para transmitir estado."
-        },
-        {
-          "id": "C",
-          "text": "remover texto alternativo de imagens informativas."
-        },
-        {
-          "id": "D",
-          "text": "usar títulos apenas como caixas de texto sem estrutura."
-        },
-        {
-          "id": "E",
-          "text": "ocultar todos os objetos no Painel de Seleção."
-        }
+        {"id": "A", "text": "atribuir título estrutural e exclusivo a cada slide e conferir a ordem de leitura."},
+        {"id": "B", "text": "usar somente cor para transmitir estado."},
+        {"id": "C", "text": "remover texto alternativo de imagens informativas."},
+        {"id": "D", "text": "usar títulos apenas como caixas de texto sem estrutura."},
+        {"id": "E", "text": "ocultar todos os objetos no Painel de Seleção."}
       ],
       "correctOptionId": "A",
       "explanation": "Títulos e ordem de leitura permitem navegação por tecnologias assistivas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1478,26 +743,11 @@
       "origin": "authorial",
       "prompt": "A ordem de leitura para tecnologias assistivas",
       "options": [
-        {
-          "id": "A",
-          "text": "é sempre idêntica à ordem de animação."
-        },
-        {
-          "id": "B",
-          "text": "depende apenas do tamanho dos objetos."
-        },
-        {
-          "id": "C",
-          "text": "é definida exclusivamente pela transição."
-        },
-        {
-          "id": "D",
-          "text": "pode ser verificada e ajustada para que os objetos sejam anunciados em sequência lógica."
-        },
-        {
-          "id": "E",
-          "text": "não pode ser alterada."
-        }
+        {"id": "A", "text": "é sempre idêntica à ordem de animação."},
+        {"id": "B", "text": "depende apenas do tamanho dos objetos."},
+        {"id": "C", "text": "é definida exclusivamente pela transição."},
+        {"id": "D", "text": "pode ser verificada e ajustada para que os objetos sejam anunciados em sequência lógica."},
+        {"id": "E", "text": "não pode ser alterada."}
       ],
       "correctOptionId": "D",
       "explanation": "Ordem visual, ordem de leitura e ordem de animação podem ser diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1508,26 +758,11 @@
       "origin": "authorial",
       "prompt": "Qual associação entre formato e finalidade está correta?",
       "options": [
-        {
-          "id": "A",
-          "text": "PPTX preserva obrigatoriamente macros VBA."
-        },
-        {
-          "id": "B",
-          "text": "PPTX é apresentação moderna sem VBA; PPTM admite macros; PPSX abre diretamente em apresentação."
-        },
-        {
-          "id": "C",
-          "text": "PPSX é modelo editável padrão."
-        },
-        {
-          "id": "D",
-          "text": "PPTM é formato exclusivo de vídeo."
-        },
-        {
-          "id": "E",
-          "text": "POTX é apresentação de slides com macros."
-        }
+        {"id": "A", "text": "PPTX preserva obrigatoriamente macros VBA."},
+        {"id": "B", "text": "PPTX é apresentação moderna sem VBA; PPTM admite macros; PPSX abre diretamente em apresentação."},
+        {"id": "C", "text": "PPSX é modelo editável padrão."},
+        {"id": "D", "text": "PPTM é formato exclusivo de vídeo."},
+        {"id": "E", "text": "POTX é apresentação de slides com macros."}
       ],
       "correctOptionId": "B",
       "explanation": "Extensões distinguem edição, apresentação e presença de macros. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1538,26 +773,11 @@
       "origin": "authorial",
       "prompt": "Exportar uma apresentação para PDF",
       "options": [
-        {
-          "id": "A",
-          "text": "mantém vínculo automático com o PPTX."
-        },
-        {
-          "id": "B",
-          "text": "converte o PDF no formato editável padrão do PowerPoint."
-        },
-        {
-          "id": "C",
-          "text": "preserva obrigatoriamente gatilhos e macros."
-        },
-        {
-          "id": "D",
-          "text": "faz cada slide se tornar uma planilha."
-        },
-        {
-          "id": "E",
-          "text": "gera saída fixa e não preserva toda a interatividade, animações e mídia do PPTX."
-        }
+        {"id": "A", "text": "mantém vínculo automático com o PPTX."},
+        {"id": "B", "text": "converte o PDF no formato editável padrão do PowerPoint."},
+        {"id": "C", "text": "preserva obrigatoriamente gatilhos e macros."},
+        {"id": "D", "text": "faz cada slide se tornar uma planilha."},
+        {"id": "E", "text": "gera saída fixa e não preserva toda a interatividade, animações e mídia do PPTX."}
       ],
       "correctOptionId": "E",
       "explanation": "PDF prioriza layout para distribuição. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1568,26 +788,11 @@
       "origin": "authorial",
       "prompt": "Sobre incorporação de fontes, é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "qualquer fonte pode ser incorporada sem restrição."
-        },
-        {
-          "id": "B",
-          "text": "incorporar fonte converte texto em imagem."
-        },
-        {
-          "id": "C",
-          "text": "pode reduzir substituições, mas depende de licença, suporte da fonte e formato."
-        },
-        {
-          "id": "D",
-          "text": "a operação elimina a necessidade de testar o arquivo."
-        },
-        {
-          "id": "E",
-          "text": "só funciona em PDF."
-        }
+        {"id": "A", "text": "qualquer fonte pode ser incorporada sem restrição."},
+        {"id": "B", "text": "incorporar fonte converte texto em imagem."},
+        {"id": "C", "text": "pode reduzir substituições, mas depende de licença, suporte da fonte e formato."},
+        {"id": "D", "text": "a operação elimina a necessidade de testar o arquivo."},
+        {"id": "E", "text": "só funciona em PDF."}
       ],
       "correctOptionId": "C",
       "explanation": "Licenciamento e suporte podem limitar a incorporação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1598,26 +803,11 @@
       "origin": "authorial",
       "prompt": "Apresentações com macros exigem cautela porque",
       "options": [
-        {
-          "id": "A",
-          "text": "macros podem executar código e não devem ser habilitadas de origem desconhecida."
-        },
-        {
-          "id": "B",
-          "text": "PPTX comum sempre executa VBA."
-        },
-        {
-          "id": "C",
-          "text": "assinatura torna qualquer macro automaticamente segura."
-        },
-        {
-          "id": "D",
-          "text": "macros são apenas efeitos visuais."
-        },
-        {
-          "id": "E",
-          "text": "CSV é o formato recomendado para preservá-las."
-        }
+        {"id": "A", "text": "macros podem executar código e não devem ser habilitadas de origem desconhecida."},
+        {"id": "B", "text": "PPTX comum sempre executa VBA."},
+        {"id": "C", "text": "assinatura torna qualquer macro automaticamente segura."},
+        {"id": "D", "text": "macros são apenas efeitos visuais."},
+        {"id": "E", "text": "CSV é o formato recomendado para preservá-las."}
       ],
       "correctOptionId": "A",
       "explanation": "Macros são código e exigem avaliação de confiança. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1628,26 +818,11 @@
       "origin": "authorial",
       "prompt": "Folhetos impressos são adequados para",
       "options": [
-        {
-          "id": "A",
-          "text": "executar animações sem tela."
-        },
-        {
-          "id": "B",
-          "text": "substituir o Slide Mestre."
-        },
-        {
-          "id": "C",
-          "text": "incorporar planilhas do Excel."
-        },
-        {
-          "id": "D",
-          "text": "imprimir vários slides por página, com opções próprias de cabeçalho e rodapé."
-        },
-        {
-          "id": "E",
-          "text": "gravar narrações."
-        }
+        {"id": "A", "text": "executar animações sem tela."},
+        {"id": "B", "text": "substituir o Slide Mestre."},
+        {"id": "C", "text": "incorporar planilhas do Excel."},
+        {"id": "D", "text": "imprimir vários slides por página, com opções próprias de cabeçalho e rodapé."},
+        {"id": "E", "text": "gravar narrações."}
       ],
       "correctOptionId": "D",
       "explanation": "Folhetos são uma forma de saída impressa. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1658,26 +833,11 @@
       "origin": "authorial",
       "prompt": "A opção de imprimir slides ocultos",
       "options": [
-        {
-          "id": "A",
-          "text": "exclui os slides do arquivo."
-        },
-        {
-          "id": "B",
-          "text": "é separada da decisão de ocultá-los na sequência de apresentação em tela."
-        },
-        {
-          "id": "C",
-          "text": "transforma os slides em anotações."
-        },
-        {
-          "id": "D",
-          "text": "é obrigatoriamente ativada no modo quiosque."
-        },
-        {
-          "id": "E",
-          "text": "remove seus números de slide."
-        }
+        {"id": "A", "text": "exclui os slides do arquivo."},
+        {"id": "B", "text": "é separada da decisão de ocultá-los na sequência de apresentação em tela."},
+        {"id": "C", "text": "transforma os slides em anotações."},
+        {"id": "D", "text": "é obrigatoriamente ativada no modo quiosque."},
+        {"id": "E", "text": "remove seus números de slide."}
       ],
       "correctOptionId": "B",
       "explanation": "Exibição em tela e impressão possuem configurações independentes. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1688,26 +848,11 @@
       "origin": "authorial",
       "prompt": "Ao comparar PowerPoint desktop e PowerPoint para a Web, a afirmação mais segura é",
       "options": [
-        {
-          "id": "A",
-          "text": "os recursos podem diferir; versão e plataforma devem ser consideradas."
-        },
-        {
-          "id": "B",
-          "text": "há paridade total de macros, mestres, mídia e exportação."
-        },
-        {
-          "id": "C",
-          "text": "todo recurso do desktop funciona igual no navegador."
-        },
-        {
-          "id": "D",
-          "text": "a Web executa qualquer VBA."
-        },
-        {
-          "id": "E",
-          "text": "os formatos e atalhos são sempre idênticos."
-        }
+        {"id": "A", "text": "os recursos podem diferir; versão e plataforma devem ser consideradas."},
+        {"id": "B", "text": "há paridade total de macros, mestres, mídia e exportação."},
+        {"id": "C", "text": "todo recurso do desktop funciona igual no navegador."},
+        {"id": "D", "text": "a Web executa qualquer VBA."},
+        {"id": "E", "text": "os formatos e atalhos são sempre idênticos."}
       ],
       "correctOptionId": "A",
       "explanation": "A plataforma pode alterar disponibilidade e comportamento. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1718,26 +863,11 @@
       "origin": "authorial",
       "prompt": "Antes de distribuir uma apresentação, Inspecionar Apresentação ajuda a localizar",
       "options": [
-        {
-          "id": "A",
-          "text": "somente erros de ortografia."
-        },
-        {
-          "id": "B",
-          "text": "apenas slides ocultos."
-        },
-        {
-          "id": "C",
-          "text": "exclusivamente codecs de vídeo."
-        },
-        {
-          "id": "D",
-          "text": "comentários, anotações, propriedades e conteúdo oculto ou indesejado."
-        },
-        {
-          "id": "E",
-          "text": "apenas transições sem som."
-        }
+        {"id": "A", "text": "somente erros de ortografia."},
+        {"id": "B", "text": "apenas slides ocultos."},
+        {"id": "C", "text": "exclusivamente codecs de vídeo."},
+        {"id": "D", "text": "comentários, anotações, propriedades e conteúdo oculto ou indesejado."},
+        {"id": "E", "text": "apenas transições sem som."}
       ],
       "correctOptionId": "D",
       "explanation": "A inspeção busca metadados e conteúdo potencialmente não destinado ao público. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1748,26 +878,11 @@
       "origin": "authorial",
       "prompt": "Gravar Apresentação e Exportar para Vídeo distinguem-se porque",
       "options": [
-        {
-          "id": "A",
-          "text": "gravar sempre cria MP4 imediatamente."
-        },
-        {
-          "id": "B",
-          "text": "gravar captura narração e temporização; exportar produz o arquivo de vídeo."
-        },
-        {
-          "id": "C",
-          "text": "exportar apenas adiciona comentários."
-        },
-        {
-          "id": "D",
-          "text": "são exatamente o mesmo comando."
-        },
-        {
-          "id": "E",
-          "text": "exportar mantém o vídeo vinculado ao PPTX."
-        }
+        {"id": "A", "text": "gravar sempre cria MP4 imediatamente."},
+        {"id": "B", "text": "gravar captura narração e temporização; exportar produz o arquivo de vídeo."},
+        {"id": "C", "text": "exportar apenas adiciona comentários."},
+        {"id": "D", "text": "são exatamente o mesmo comando."},
+        {"id": "E", "text": "exportar mantém o vídeo vinculado ao PPTX."}
       ],
       "correctOptionId": "B",
       "explanation": "Captura e geração do arquivo final são etapas distintas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1778,26 +893,11 @@
       "origin": "authorial",
       "prompt": "Para resolver uma questão complexa de PowerPoint, a sequência mais segura é",
       "options": [
-        {
-          "id": "A",
-          "text": "decorar a posição visual dos botões e ignorar a versão."
-        },
-        {
-          "id": "B",
-          "text": "tratar tema, layout e mestre como sinônimos."
-        },
-        {
-          "id": "C",
-          "text": "identificar ambiente, objeto, guia, alcance, estrutura, temporização, dependências e saída."
-        },
-        {
-          "id": "D",
-          "text": "presumir que qualquer comando atua na apresentação inteira."
-        },
-        {
-          "id": "E",
-          "text": "ignorar formato, vínculos e mídia."
-        }
+        {"id": "A", "text": "decorar a posição visual dos botões e ignorar a versão."},
+        {"id": "B", "text": "tratar tema, layout e mestre como sinônimos."},
+        {"id": "C", "text": "identificar ambiente, objeto, guia, alcance, estrutura, temporização, dependências e saída."},
+        {"id": "D", "text": "presumir que qualquer comando atua na apresentação inteira."},
+        {"id": "E", "text": "ignorar formato, vínculos e mídia."}
       ],
       "correctOptionId": "C",
       "explanation": "O método evita generalizações entre objeto, alcance e ambiente. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1808,26 +908,11 @@
       "origin": "previous_exam",
       "prompt": "No PowerPoint, qual alternativa diferencia corretamente arquivos de edição e arquivos configurados para abrir diretamente em modo de apresentação?",
       "options": [
-        {
-          "id": "A",
-          "text": "PPT e PPTX abrem somente como apresentação, enquanto PPS e PPSX abrem somente para edição."
-        },
-        {
-          "id": "B",
-          "text": "PPT/PPTX são formatos de apresentação editável; PPS/PPSX são formatos que abrem diretamente na exibição de slides."
-        },
-        {
-          "id": "C",
-          "text": "PPSX é um modelo e PPTX é um vídeo."
-        },
-        {
-          "id": "D",
-          "text": "PPTM e PPSM não admitem macros."
-        },
-        {
-          "id": "E",
-          "text": "PPSX configura automaticamente toda apresentação em modo quiosque."
-        }
+        {"id": "A", "text": "PPT e PPTX abrem somente como apresentação, enquanto PPS e PPSX abrem somente para edição."},
+        {"id": "B", "text": "PPT/PPTX são formatos de apresentação editável; PPS/PPSX são formatos que abrem diretamente na exibição de slides."},
+        {"id": "C", "text": "PPSX é um modelo e PPTX é um vídeo."},
+        {"id": "D", "text": "PPTM e PPSM não admitem macros."},
+        {"id": "E", "text": "PPSX configura automaticamente toda apresentação em modo quiosque."}
       ],
       "correctOptionId": "B",
       "explanation": "PPT/PPTX são formatos de apresentação editável; PPS/PPSX iniciam a exibição de slides. Abrir em apresentação não equivale a configurar todas as regras de quiosque. Fonte: questão adaptada de FGV; COMPESA; Assistente de Saneamento e Gestão — Técnico em Segurança do Trabalho; 2016; questão 21; prova https://conhecimento.fgv.br/sites/default/files/concursos/compesa2016/201605_Assistente_de_Saneamento_e_Gestao_%28Tecnico_em_Seguranca_do_Trabalho%29_%28NM002%29_Tipo_1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/compesa2016/compesa_gabarito_definitivo_RETIFICADO.pdf; adaptação: enunciado e alternativas condensados, preservando a distinção entre arquivo de edição e arquivo que abre em apresentação."
@@ -1838,29 +923,104 @@
       "origin": "previous_exam",
       "prompt": "No contexto do PowerPoint, assinale o propósito do recurso SmartArt, disponível na guia Inserir.",
       "options": [
-        {
-          "id": "A",
-          "text": "Criar animações e transições."
-        },
-        {
-          "id": "B",
-          "text": "Inserir áudio, vídeo e narrações."
-        },
-        {
-          "id": "C",
-          "text": "Inserir elementos gráficos para comunicação visual, organogramas e diagramas."
-        },
-        {
-          "id": "D",
-          "text": "Inserir formas prontas, fluxogramas e textos explicativos."
-        },
-        {
-          "id": "E",
-          "text": "Inserir gráficos para ilustrar, comparar e analisar tendências em conjuntos de dados."
-        }
+        {"id": "A", "text": "Criar animações e transições."},
+        {"id": "B", "text": "Inserir áudio, vídeo e narrações."},
+        {"id": "C", "text": "Inserir elementos gráficos para comunicação visual, organogramas e diagramas."},
+        {"id": "D", "text": "Inserir formas prontas, fluxogramas e textos explicativos."},
+        {"id": "E", "text": "Inserir gráficos para ilustrar, comparar e analisar tendências em conjuntos de dados."}
       ],
       "correctOptionId": "C",
       "explanation": "SmartArt insere elementos gráficos voltados à comunicação visual, incluindo organogramas e diagramas. Fonte oficial: FGV; Câmara dos Deputados; Analista Legislativo — Assistente Social; Concurso Público 2023, Edital 2 (manhã); Tipo 4 (Roxa); questão 53; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns201-analista-legislativo-assistente-socialcns201-tipo-4-manha.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-2-manha.pdf; gabarito C."
+    },
+    {
+      "id": "a023-fgv-tcesp-2023-q65",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Roberto elaborou uma planilha no Microsoft Excel com formatação condicional usando diferentes escalas de cor, além de cabeçalho e diversas outras formatações visuais. Roberto quer exibir a planilha em uma apresentação elaborada no Microsoft PowerPoint sem perder as formatações nem permitir sua edição, tornando-se independente da planilha de origem.\n\nPara isso, Roberto deve copiar a planilha do Excel e, no PowerPoint, usar a opção:",
+      "options": [
+        {"id": "A", "text": "Inserir;"},
+        {"id": "B", "text": "Usar Estilos de Destino;"},
+        {"id": "C", "text": "Manter Somente Texto;"},
+        {"id": "D", "text": "Manter Formatação Original;"},
+        {"id": "E", "text": "Colar como Imagem."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "Colar como imagem preserva a aparência exibida, impede a edição como planilha e torna o conteúdo independente da planilha de origem. Fonte oficial: FGV; Tribunal de Contas do Estado de São Paulo (TCE-SP); Auxiliar Técnico da Fiscalização — TI; 2023; Tipo 1; questão 65; prova https://conhecimento.fgv.br/sites/default/files/concursos/auxiliar-tecnico-da-fiscalizacao-tiatf-001-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/tcesp2023_gabarito_definitivo-vf.pdf; gabarito E."
+    },
+    {
+      "id": "a023-fgv-caraguatatuba-2024-q26",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um usuário salvou seu arquivo PowerPoint como modelo habilitado para macro. Assim, esse arquivo ficou com a seguinte extensão:",
+      "options": [
+        {"id": "A", "text": ".potx"},
+        {"id": "B", "text": ".ppsx"},
+        {"id": "C", "text": ".pptx"},
+        {"id": "D", "text": ".pptm"},
+        {"id": "E", "text": ".potm"}
+      ],
+      "correctOptionId": "E",
+      "explanation": "A extensão .potm identifica um modelo do PowerPoint habilitado para macro. Fonte oficial: FGV; Prefeitura de Caraguatatuba; Procurador; 2024; Tipo 1; questão 26; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns301e2-procuradorcns301e2-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/caraguatatuba2024e02_gabarito_definitivo_20240207.pdf; gabarito E."
+    },
+    {
+      "id": "a023-fgv-canaa-farmaceutico-2025-q28",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Com relação ao recurso de inclusão de imagens oferecido pelo ícone “imagens” acessível a partir do menu “Inserir” do MS PowerPoint 365, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n\n( ) As imagens a serem inseridas na apresentação podem estar previamente armazenadas localmente no disco rígido ou drive virtual do usuário.\n( ) As imagens a serem inseridas na apresentação podem ser parte de um conjunto de imagens de estoque.\n( ) As imagens a serem inseridas na apresentação podem ser online e baixadas diretamente da internet.\n\nAs afirmativas são, respectivamente,",
+      "options": [
+        {"id": "A", "text": "V – F – V."},
+        {"id": "B", "text": "V – V – V."},
+        {"id": "C", "text": "V – F – F."},
+        {"id": "D", "text": "F – V – V."},
+        {"id": "E", "text": "F – F – V."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O PowerPoint 365 admite inclusão de imagens locais, de estoque e online. Fonte oficial: FGV; Prefeitura de Canaã dos Carajás; Farmacêutico; 2025; Tipo 1; questão 28; prova https://conhecimento.fgv.br/sites/default/files/concursos/farmaceuticocns202-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/prefcanaa202401_gabarito_definitivo-compilado-23.03_0.pdf; gabarito B."
+    },
+    {
+      "id": "a023-fgv-canaa-transito-2025-q26",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O programa Powerpoint da Microsoft é utilizado para a criação de apresentação visuais por meio de slides, mas ele também permite a impressão dos slides sob a forma de folhetos.\n\nO número máximo de slides por folheto permitido pelo PowerPoint é",
+      "options": [
+        {"id": "A", "text": "1."},
+        {"id": "B", "text": "2."},
+        {"id": "C", "text": "4."},
+        {"id": "D", "text": "9."},
+        {"id": "E", "text": "12."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "O PowerPoint permite imprimir até nove slides por página na configuração de folhetos. Fonte oficial: FGV; Prefeitura de Canaã dos Carajás; Agente de Serviços de Operação de Trânsito e Transporte; 2025; Tipo 1; questão 26; prova https://conhecimento.fgv.br/sites/default/files/concursos/agente-de-servicos-de-operacao-de-transito-e-transportecnm109-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/prefcanaa202403_gabarito_definitivo-compilado-06.04_0.pdf; gabarito D."
+    },
+    {
+      "id": "a023-fgv-amazul-2026-q45",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Durante a apresentação de um projeto de edifício residencial, o técnico deseja incluir uma sequência de slides com animações automáticas que exibam as plantas, cortes e fachadas sem precisar clicar manualmente.\n\nO recurso que deve ser configurado no Microsoft PowerPoint é",
+      "options": [
+        {"id": "A", "text": "“Transição de slides” → “Ao clicar com o mouse”."},
+        {"id": "B", "text": "“Animações” → “Com atraso de 0 segundos e duração automática”."},
+        {"id": "C", "text": "“Apresentação de slides” → “Configurar apresentação” → “Usar intervalos de slides gravados”."},
+        {"id": "D", "text": "“Exibir” → “Layout de slides” → “Executar automaticamente”."},
+        {"id": "E", "text": "“Inserir” → “Objeto” → “Executar automaticamente”."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A apresentação pode usar os intervalos previamente gravados para avançar os slides sem cliques manuais. Fonte oficial: FGV; AMAZUL; Técnico em Desenvolvimento de Tecnologia Nuclear e Defesa — Projetista Civil; 2026; Tipo 1; questão 45; prova https://conhecimento.fgv.br/sites/default/files/concursos/ok-projetista-de-engenharia-civil-cnm106-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-atualizado_amazulv2.pdf; gabarito C."
+    },
+    {
+      "id": "a023-fgv-macaeprev-2024-q26",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Os editores de apresentações eletrônicas mudaram a forma como as pessoas mostram seus trabalhos, estudos, produtos, sendo ferramentas fundamentais para estudantes e profissionais de várias áreas como profissionais da área comercial, gerentes, professores, etc.\n\nNessa seara, mais uma vez temos um embate entre o líder de mercado pago e o líder de mercado gratuito, respectivamente, o Microsoft PowerPoint e o LibreOffice Impress. Sobre os editores de apresentações Microsoft PowerPoint e LibreOffice Impress, assinale a afirmativa correta.",
+      "options": [
+        {"id": "A", "text": "O LibreOffice Impress não permite a inserção de transições entre os slides, enquanto o Microsoft PowerPoint oferece uma grande variedade de transições."},
+        {"id": "B", "text": "O atalho Ctrl + M é utilizado para criar um novo slide tanto no PowerPoint quanto no Impress."},
+        {"id": "C", "text": "Apenas o Microsoft PowerPoint permite a exportação da apresentação em formato PDF."},
+        {"id": "D", "text": "O LibreOffice Impress permite a criação de animações personalizadas para objetos, mas o Microsoft PowerPoint só permite animações pré-definidas."},
+        {"id": "E", "text": "No PowerPoint, é possível salvar uma apresentação no formato .odp, mas no Impress não é possível salvar no formato .pptx."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O atalho Ctrl + M cria um novo slide tanto no Microsoft PowerPoint quanto no LibreOffice Impress. Fonte oficial: FGV; Instituto de Previdência Social do Município de Macaé — MACAEPREV; Assistente Previdenciário; 2024; Tipo 1; questão 26; prova https://conhecimento.fgv.br/sites/default/files/concursos/assistente-previdenciariocnm101-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/ed.-2-macaeprev2024_recursos_gabarito_definitivo_compilado.pdf; gabarito B."
     }
   ]
 }
