@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q4839",
@@ -840,6 +840,201 @@
       ],
       "correctOptionId": "D",
       "explanation": "As comparações produzem a ordem Laura, Fernanda, Beatriz, Dalva, Sônia; Beatriz ocupa a terceira posição. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado do Maranhão — Auxiliar Legislativo Operacional, Bombeiro Hidráulico, Tipo 2 (Verde); 2013; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_auxiliar_legislativo_-_bombeiro_hidraulico_-_prova_tipo_02.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_auxiliar_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q52203616",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Cinco amigos – Ana, Bruno, Carla, Daniel e Elisa – participaram de uma competição de lógica. Cada um terminou em uma colocação diferente (1º ao 5º lugar).\n\nSabe-se que:\n– Ana não ficou em primeiro nem em último.\n– Bruno ficou exatamente uma posição à frente de Carla.\n– Daniel ficou à frente de Elisa, mas não foi o vencedor.\n– Carla não ficou em nenhuma das posições extremas (1º ou 5º).\n– Elisa ficou duas posições atrás de Ana.\n\nCom base nas informações acima, assinale a opção que indica a pessoa que ficou em terceiro lugar.",
+      "options": [
+        {"id": "A", "text": "Ana."},
+        {"id": "B", "text": "Bruno."},
+        {"id": "C", "text": "Carla."},
+        {"id": "D", "text": "Daniel."},
+        {"id": "E", "text": "Elisa."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "As restrições de posições, adjacência Bruno–Carla e distância entre Ana e Elisa forçam Ana ao terceiro lugar. Fonte: questão oficial; FGV; Secretaria de Estado da Administração e da Previdência do Paraná — Auditor Fiscal, Tipo 2, tarde; 2025; questão 46; https://conhecimento.fgv.br/sites/default/files/concursos/auditor-fiscal-tardecns102-tipo-2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabdefinitivo-seappr-auditor-fiscal_def.pdf."
+    },
+    {
+      "id": "q52203617",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Cinco pessoas, A, B, C, D, E, formaram uma fila. Sabe-se que:\n• A tem como vizinhos D e E.\n• Nem E nem C são vizinhos de B.\n• D não é o 4º da fila.\n\nNesse caso, é correto concluir que",
+      "options": [
+        {"id": "A", "text": "A é a segunda pessoa da fila."},
+        {"id": "B", "text": "B é a última pessoa da fila."},
+        {"id": "C", "text": "C é a terceira pessoa da fila."},
+        {"id": "D", "text": "D é a primeira pessoa da fila."},
+        {"id": "E", "text": "E é a quarta pessoa da fila."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "As relações de vizinhança e a restrição sobre D determinam E como a quarta pessoa da fila. Fonte: questão oficial; FGV; Prefeitura de São José dos Campos — Analista em Gestão Municipal, Administração de Empresas, Tipo 1 (Branca); 2024; questão 17; https://conhecimento.fgv.br/sites/default/files/concursos/cns301-agm-administracao-de-empresascns301-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/sjcadministrativo2024_gabarito_definitivo_20240207.pdf."
+    },
+    {
+      "id": "q52203618",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Alberto, Bernardo e Carlos fizeram, cada um deles e no mesmo dia, uma afirmação:\nAlberto: – Hoje não é dia 13.\nBernardo: – Ontem foi dia 11.\nCarlos: – Amanhã será dia 14.\nSabe-se que um deles mentiu e que os outros dois falaram a verdade.\n\nNesse caso, é correto concluir eles fizeram as afirmações no dia",
+      "options": [
+        {"id": "A", "text": "10."},
+        {"id": "B", "text": "11."},
+        {"id": "C", "text": "12."},
+        {"id": "D", "text": "13."},
+        {"id": "E", "text": "14."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "No dia 12, Alberto e Bernardo dizem a verdade e Carlos mente, satisfazendo a condição de exatamente uma fala falsa. Fonte: questão oficial; FGV; Prefeitura de São José dos Campos — Analista em Gestão Municipal, Administração de Empresas, Tipo 1 (Branca); 2024; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/cns301-agm-administracao-de-empresascns301-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/sjcadministrativo2024_gabarito_definitivo_20240207.pdf."
+    },
+    {
+      "id": "q52203619",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Alberto, Bernardo e Camilo trabalham em uma obra. Um deles é eletricista, outro é marceneiro e outro pintor, não necessariamente nessa ordem. Quando o novo supervisor perguntou sobre suas qualificações eles disseram:\n• Alberto: — Eu sou eletricista.\n• Bernardo: — Alberto não é marceneiro.\n• Camilo: — Bernardo não é pintor.\nSabe-se que das três declarações acima, somente uma é verdadeira.\n\nÉ correto concluir que",
+      "options": [
+        {"id": "A", "text": "Camilo é eletricista."},
+        {"id": "B", "text": "Bernardo é marceneiro."},
+        {"id": "C", "text": "Alberto é eletricista."},
+        {"id": "D", "text": "Camilo é pintor."},
+        {"id": "E", "text": "Bernardo disse a verdade."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A exigência de exatamente uma declaração verdadeira é satisfeita quando Camilo é pintor. Fonte: questão oficial; FGV; Superintendência do Desenvolvimento do Nordeste — Agente Administrativo, Tipo 1; 2013; questão 23; https://conhecimento.fgv.br/sites/default/files/concursos/sudene_2013_nm_agente_administrativo_tipo_01.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/sudene13_gabarito_definitivo_todos.pdf."
+    },
+    {
+      "id": "q52203620",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Sílvio, Robson e Túlio estão em uma fila, nessa ordem, ou seja, Robson está atrás de Sílvio e Túlio está atrás de Robson.\nSabe-se que:\n• Robson está no meio da fila, ou seja, há tantas pessoas na frente dele como atrás dele.\n• Há 7 pessoas entre Sílvio e Robson.\n• Há 10 pessoas entre Robson e Túlio.\n• Sílvio é o 12º da fila.\n\nNessa fila, o número de pessoas atrás de Túlio é",
+      "options": [
+        {"id": "A", "text": "6."},
+        {"id": "B", "text": "7."},
+        {"id": "C", "text": "8."},
+        {"id": "D", "text": "9."},
+        {"id": "E", "text": "10."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Sílvio é o 12º e Robson está oito posições atrás, no 20º lugar. Como Robson é o centro, a fila tem 39 pessoas; Túlio está no 31º lugar, deixando oito pessoas atrás dele. Fonte: questão oficial; FGV; Prefeitura Municipal de Salvador — Guarda Civil Municipal, Guarda-Municipal de Proteção e Valorização do Cidadão, Tipo 2 (Verde); 2019; questão 15; https://conhecimento.fgv.br/sites/default/files/concursos/pms2019-guarda-civil-municipal-na-area-de-qualificacao-de-guarda-municipal-de-protecao-e-valorizacao-do-cidadao-e1nm04-tipo-2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/pms2019_gabarito_definitivo_e1.pdf."
+    },
+    {
+      "id": "q52203621",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Manoel, Augusto, Joaquim, Carlos e Valdo marcaram hora e lugar para uma reunião. Todos chegaram, mas em horários ligeiramente diferentes.\nSabe-se que:\n• Augusto chegou antes de Valdo e de Joaquim, mas não foi o primeiro a chegar.\n• Valdo chegou depois de Joaquim, mas não foi o último a chegar.\n• Carlos chegou antes de Valdo.\n\nÉ correto concluir que",
+      "options": [
+        {"id": "A", "text": "Carlos foi o segundo a chegar."},
+        {"id": "B", "text": "Manoel foi o último a chegar."},
+        {"id": "C", "text": "Augusto foi o terceiro a chegar."},
+        {"id": "D", "text": "Joaquim foi o último a chegar."},
+        {"id": "E", "text": "Valdo foi o terceiro a chegar."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "As precedências deixam Valdo depois de Augusto, Joaquim e Carlos, mas ainda não em último; assim Manoel necessariamente ocupa a última posição. Fonte: questão oficial; FGV; Prefeitura Municipal de Salvador — Guarda Civil Municipal, Guarda-Municipal de Proteção e Valorização do Cidadão, Tipo 2 (Verde); 2019; questão 21; https://conhecimento.fgv.br/sites/default/files/concursos/pms2019-guarda-civil-municipal-na-area-de-qualificacao-de-guarda-municipal-de-protecao-e-valorizacao-do-cidadao-e1nm04-tipo-2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/pms2019_gabarito_definitivo_e1.pdf."
+    },
+    {
+      "id": "q52203622",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Renata, Sara e Tânia estão, nessa ordem, em uma fila. Sabe-se que há 10 pessoas na frente de Renata, 8 pessoas entre Renata e Sara e 7 pessoas depois de Tânia. Sabe-se ainda que Sara está no centro da fila.\n\nO lugar que Tânia ocupa nessa fila é o",
+      "options": [
+        {"id": "A", "text": "30º."},
+        {"id": "B", "text": "31º."},
+        {"id": "C", "text": "32º."},
+        {"id": "D", "text": "33º."},
+        {"id": "E", "text": "34º."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Renata está no 11º lugar e Sara, nove posições depois, no 20º; sendo Sara o centro, a fila tem 39 pessoas. Com sete pessoas depois de Tânia, ela ocupa o 32º lugar. Fonte: questão oficial; FGV; Ministério Público do Estado de Goiás — Assistente de Informática, Tipo 1 (Branca); 2022; questão 16; https://conhecimento.fgv.br/sites/default/files/concursos/assistente_de_informaticampgo-nm002_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/mpgo2022serv_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q52203623",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Cinco amigas, Ana, Bia, Carol, Deise e Elisa, foram ao cinema e sentaram-se em cinco cadeiras consecutivas.\nPassados 5 minutos, Ana trocou de lugar com Deise e Carol trocou de lugar com Elisa.\nPassados mais 5 minutos, Bia trocou de lugar com Ana e Deise trocou de lugar com Elisa.\nApós essas trocas, a ordem delas era: Ana, Elisa, Bia, Carol e Deise (AEBCD).\n\nRepresentando cada uma delas pela letra inicial do respectivo nome, a ordem inicial em que elas estavam sentadas foi",
+      "options": [
+        {"id": "A", "text": "BCAED."},
+        {"id": "B", "text": "DCBEA."},
+        {"id": "C", "text": "DAEBC."},
+        {"id": "D", "text": "EABDC."},
+        {"id": "E", "text": "BADEC."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "Desfazendo as trocas na ordem inversa, a disposição inicial é BADEC. Fonte: questão oficial; FGV; Ministério Público do Estado de Goiás — Assistente de Informática, Tipo 1 (Branca); 2022; questão 24; https://conhecimento.fgv.br/sites/default/files/concursos/assistente_de_informaticampgo-nm002_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/mpgo2022serv_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q52203624",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "As irmãs Laura, Míriam, Paula e Rita nasceram em anos diferentes e possuem alturas diferentes. Com elas foi organizada uma fila da mais baixa para a mais alta.\nSabe-se que:\n• Laura é mais jovem que Rita.\n• Laura está imediatamente à frente de Míriam, que é a mais jovem de todas.\n• A mais alta não é a mais velha.\n• Paula é mais baixa do que Rita, mas não é a mais baixa de todas.\n\nÉ correto concluir que:",
+      "options": [
+        {"id": "A", "text": "Paula é a primeira da fila."},
+        {"id": "B", "text": "a mais velha está no 3º lugar da fila."},
+        {"id": "C", "text": "Míriam é mais baixa que Laura."},
+        {"id": "D", "text": "Laura está imediatamente atrás de Míriam."},
+        {"id": "E", "text": "a primeira da fila é mais velha que Paula."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "As restrições de altura e idade forçam a pessoa mais velha à terceira posição da fila. Fonte: questão oficial; FGV; Prefeitura Municipal de Paulínia — Auditor Fiscal Tributário, Tipo 2; 2021; questão 11; https://conhecimento.fgv.br/sites/default/files/concursos/paulinia2021-e2ns04-auditor-fiscal-tributario-e2ns04-tipo-2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/paulinia2021e2_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q52203625",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Carlos e Alberto estão em uma fila. Carlos está na frente de Alberto, mas há 3 pessoas entre eles. Há 7 pessoas depois de Alberto e a pessoa que está imediatamente à frente de Alberto ocupa o centro da fila.\n\nO número de pessoas que estão à frente de Carlos é",
+      "options": [
+        {"id": "A", "text": "4."},
+        {"id": "B", "text": "5."},
+        {"id": "C", "text": "6."},
+        {"id": "D", "text": "7."},
+        {"id": "E", "text": "8."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A posição imediatamente anterior à de Alberto é o centro da fila; combinando essa condição com as sete pessoas posteriores e a distância de quatro posições entre Carlos e Alberto, há cinco pessoas à frente de Carlos. Fonte: questão oficial; FGV; Tribunal Regional do Trabalho da 13ª Região — Técnico Judiciário, Área Administrativa, sem especialidade, Tipo 3 (Amarela); 2022; questão 12; https://conhecimento.fgv.br/sites/default/files/concursos/cnm201_-_tecnico_judiciario_area_administrativa_-_sem_especialidadecnm201_tipo_3.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trtpb2022_gabarito_definitivo_-_atualizado_2023-01-12.pdf."
+    },
+    {
+      "id": "q52203626",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Roberto, Sérgio e Tiago estão com bonés de cores diferentes: azul, vermelho e amarelo, não necessariamente nessa ordem.\nDas afirmativas a seguir, somente uma é verdadeira.\n• O boné de Roberto é azul.\n• O boné de Sérgio não é azul.\n• O boné de Tiago não é vermelho.\n\nAs cores dos bonés de Roberto, Sérgio e Tiago são, respectivamente,",
+      "options": [
+        {"id": "A", "text": "vermelho, amarelo e azul."},
+        {"id": "B", "text": "vermelho, azul e amarelo."},
+        {"id": "C", "text": "amarelo, vermelho e azul."},
+        {"id": "D", "text": "amarelo, azul e vermelho."},
+        {"id": "E", "text": "azul, amarelo e vermelho."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A única distribuição compatível com exatamente uma das três afirmações verdadeira é Roberto com vermelho, Sérgio com azul e Tiago com amarelo. Fonte: questão oficial; FGV; Câmara Municipal de Caruaru — Analista Legislativo, Contabilidade, Tipo 1; 2015; questão 25; https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/CP201502_Analista_Legislativo_%28Contabilidade%29_%28NS004%29_Tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/caruaru_gabarito_definitivo_conccamaracaruaru_150624_syuyxsgh.pdf."
+    },
+    {
+      "id": "q52203627",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Três pessoas, X, Y e Z conversam na sala de espera de um consultório médico. A secretária, que está ouvindo a conversa, sabe que uma delas nasceu em Corumbá, outra em Ponta Porã e outra em Coxim. Em certo momento, cada uma das três pessoas faz uma declaração:\n• X diz: “Eu nasci em Coxim”.\n• Y diz: “Eu não nasci em Ponta Porã”.\n• Z diz: “Eu não nasci em Coxim”.\nA secretária sabe que apenas uma delas disse a verdade.\n\nEntão, é correto concluir que:",
+      "options": [
+        {"id": "A", "text": "X nasceu em Corumbá."},
+        {"id": "B", "text": "Y nasceu em Coxim."},
+        {"id": "C", "text": "Z nasceu em Ponta Porã."},
+        {"id": "D", "text": "X nasceu em Ponta Porã."},
+        {"id": "E", "text": "Y não nasceu em Corumbá."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A condição de exatamente uma declaração verdadeira força X a ter nascido em Ponta Porã. Fonte: questão oficial; FGV; Ministério Público do Estado de Mato Grosso do Sul — Analista, Direito, Tipo 1 (Branca); Concurso Público 2012; questão 12; https://conhecimento.fgv.br/sites/default/files/concursos/mpms_analista_direito_tipo_01__2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/mpms_gabarito_definitivo_analista_direito.pdf."
+    },
+    {
+      "id": "q52203628",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Texto 1A6-I\nCinco pessoas (Arnaldo, Bernardo, Cláudio, Diógenes e Ernesto), suspeitas de determinada contravenção, são chamadas para acareação por uma autoridade policial. Exatamente dois deles são culpados, e as seguintes declarações foram feitas durante o depoimento:\nI Arnaldo disse que os culpados não foram Ernesto nem Bernardo;\nII Bernardo disse que os culpados não foram Arnaldo nem Cláudio;\nIII Cláudio disse que os culpados não foram Bernardo nem Diógenes.\n\nSe, no texto 1A6-I, a declaração II for a única declaração falsa entre as declarações I, II, III, então, imediatamente, os dois culpados serão",
+      "options": [
+        {"id": "A", "text": "Arnaldo e Bernardo."},
+        {"id": "B", "text": "Arnaldo e Cláudio."},
+        {"id": "C", "text": "Arnaldo e Ernesto."},
+        {"id": "D", "text": "Cláudio e Bernardo."},
+        {"id": "E", "text": "Cláudio e Diógenes."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Com I e III verdadeiras e II falsa, os dois culpados são Arnaldo e Cláudio. Fonte: questão oficial; Cebraspe; Polícia Militar do Estado do Tocantins — Quadro de Praças Policiais Militares (QPPM); 2021; questão 56; https://cdn.cebraspe.org.br/concursos/pm_to_20_qppm/arquivos/MATRIZ_573PMTO001.PDF. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PM_TO_20_QPPM/arquivos/GAB_DEFINITIVO_MATRIZ_573PMTO001.PDF."
     }
   ]
 }
