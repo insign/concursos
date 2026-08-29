@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q5199",
@@ -1021,6 +1021,66 @@
       ],
       "correctOptionId": "D",
       "explanation": "Somente A = 80-35=45; somente B = 55-35=20; exatamente um = 65."
+    },
+    {
+      "id": "q2026082843",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere os conjuntos A, B e C tais que:\nA = {conjunto dos múltiplos inteiros e positivos de 3};\nB = {conjunto dos múltiplos inteiros e positivos de 8};\nC = {conjunto dos múltiplos inteiros e positivos de 12}.\nÉ correto afirmar que A ∩ C − B corresponde ao conjunto",
+      "options": [
+        {
+          "id": "A",
+          "text": "dos múltiplos inteiros e positivos de 12."
+        },
+        {
+          "id": "B",
+          "text": "dos múltiplos inteiros e positivos de 24."
+        },
+        {
+          "id": "C",
+          "text": "dos números inteiros e positivos que, divididos por 24, deixam resto 12."
+        },
+        {
+          "id": "D",
+          "text": "dos números inteiros e positivos que, divididos por 24, deixam resto 6."
+        },
+        {
+          "id": "E",
+          "text": "vazio."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Como todo múltiplo de 12 é múltiplo de 3, A ∩ C = C. Retirando de C os múltiplos de 8, sobram os múltiplos ímpares de 12, isto é, números da forma 24k+12. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado de Mato Grosso — Analista Judiciário — Tecnologia da Informação, Tipo 1 (Branca); 2024; questão 22; https://conhecimento.fgv.br/sites/default/files/concursos/cns102-analista-judiciario-analista-de-ti-t01.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjmt_servidor_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q2026082844",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Sejam A e B dois conjuntos finitos não vazios tais que A ∪ B tem 8 elementos e A ∩ B tem 3 elementos. O conjunto A − B tem, no mínimo,",
+      "options": [
+        {
+          "id": "A",
+          "text": "4 elementos."
+        },
+        {
+          "id": "B",
+          "text": "3 elementos."
+        },
+        {
+          "id": "C",
+          "text": "2 elementos."
+        },
+        {
+          "id": "D",
+          "text": "1 elemento."
+        },
+        {
+          "id": "E",
+          "text": "0 elemento."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O mínimo é 0: é possível ter A ⊆ B, com |A|=3 e |B|=8, de modo que |A∩B|=3, |A∪B|=8 e A−B=∅. Fonte: questão oficial; FGV; Prefeitura de Caraguatatuba — Técnico em Prótese Dentária, Tipo 1 (Branca); 2024; questão 11; https://conhecimento.fgv.br/sites/default/files/concursos/cnm222e3-tecnico-em-protese-dentariacnm222e3-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caraguatatuba2024e0302_gabarito_definitivo_20240226.pdf."
     }
   ]
 }
