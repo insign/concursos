@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q7059",
@@ -1801,6 +1801,32 @@
       ],
       "correctOptionId": "E",
       "explanation": "A alternativa reúne a cronologia essencial e distingue fundação, batalha, fim do domínio francês e organização portuguesa, sem apagar as alianças indígenas."
+    },
+    {
+      "id": "q150002",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No ano de 1612 os franceses tentaram organizar uma colônia no Brasil: a França Equinocial. A expedição francesa, comandada por Daniel de La Touche, fundou o Forte de São Luís, em homenagem ao rei da França, e que deu origem à cidade de São Luís, hoje capital do Maranhão. A respeito da invasão francesa no Maranhão, além dos objetivos comerciais, outro fato que originou tal intento foi:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A França estava inserida no Tratado de Tordesilhas e, por direito, essas terras eram suas."
+        },
+        {
+          "id": "B",
+          "text": "O não reconhecimento e a discordância dos franceses com relação ao Tratado de Tordesilhas."
+        },
+        {
+          "id": "C",
+          "text": "O fato dos franceses serem antigos aliados dos ingleses e, com isso, almejarem as terras ocupadas por Portugal."
+        },
+        {
+          "id": "D",
+          "text": "Como a capitania do Maranhão estava totalmente abandonada e desabitada, os franceses se aproveitaram para efetuar a invasão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Gabarito pós-recursos: B. A alternativa correta registra o não reconhecimento e a discordância franceses quanto ao Tratado de Tordesilhas como fator do intento colonial. As quatro alternativas originais foram preservadas. Fonte: Instituto Consulplan; TJMA — Técnico Judiciário – Apoio Técnico Administrativo; 2024; Tipo 1; questão 22; prova https://arquivos.qconcursos.com/prova/arquivo_prova/114430/instituto-consulplan-2024-tj-ma-tecnico-judiciario-apoio-tecnico-administrativo-prova.pdf; gabarito pós-recursos https://arquivos.qconcursos.com/prova/arquivo_gabarito/114430/instituto-consulplan-2024-tj-ma-tecnico-judiciario-apoio-tecnico-administrativo-gabarito.pdf."
     }
   ]
 }
