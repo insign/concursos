@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q001",
@@ -1963,6 +1963,36 @@
       ],
       "correctOptionId": "b",
       "explanation": "Gabarito oficial definitivo: B. O texto critica a suposição de que toda ocorrência associada ao tráfico seja crime organizado e distingue atividades desorganizadas de organizações criminosas. Fonte: Cebraspe; SDS/PE — Polícia Civil; 2016; questão 1; caderno: https://cdn.cebraspe.org.br/concursos/SDS_PE_16_CIVIL/arquivos/258_SDS_PE_CG1_01.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/SDS_PE_16_CIVIL/arquivos/Gab_Definitivo_258_SDS_PE_CG1_01.PDF."
+    },
+    {
+      "id": "q103",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Texto CG1A01BBB\n\nNão são muitas as experiências exitosas de políticas públicas de redução de homicídios no Brasil nos últimos vinte anos, e poucas são aquelas que tiveram continuidade. O Pacto pela Vida, política de segurança pública implantada no estado de Pernambuco em 2007, é identificado como uma política pública exitosa.\n\nO Pacto Pela Vida é um programa do governo do estado de Pernambuco que visa à redução da criminalidade e ao controle da violência. A decisão ou vontade política de eleger a segurança pública como prioridade é o primeiro marco que se deve destacar quando se pensa em recuperar a memória dessa política, sobretudo quando se considera o fato de que o tema da segurança pública, no Brasil, tem sido historicamente negligenciado. Muitas autoridades públicas não só evitam associar-se ao assunto como também o tratam de modo simplista, como uma questão que diz respeito apenas à polícia.\n\nO Pacto pela Vida, entendido como um grande concerto de ações com o objetivo de reduzir a violência e, em especial, os crimes contra a vida, foi apresentado à sociedade no início do mês de maio de 2007. Em seu bojo, foram estabelecidos os principais valores que orientaram a construção da política de segurança, a prioridade do combate aos crimes violentos letais intencionais e a meta de reduzir em 12% ao ano, em Pernambuco, a taxa desses crimes.\n\nDesse modo, definiu-se, no estado, um novo paradigma de segurança pública, que se baseou na consolidação dos valores descritos acima (que estavam em disputa tanto do ponto de vista institucional quanto da sociedade), no estabelecimento de prioridades básicas (como o foco na redução dos crimes contra a vida) e no intenso debate com a sociedade civil. A implementação do Pacto Pela Vida foi responsável pela diminuição de quase 40% dos homicídios no estado entre janeiro de 2007 e junho de 2013.\n\nJosé Luiz Ratton et al. O Pacto Pela Vida e a redução de homicídios em Pernambuco. Rio de Janeiro: Instituto Igarapé, 2014. Internet: <https://igarape.org.br> (com adaptações).\n\nO Pacto pela Vida é caracterizado no texto CG1A01BBB como uma política exitosa porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "teve como objetivos a redução da criminalidade e o controle da violência no estado de Pernambuco."
+        },
+        {
+          "id": "b",
+          "text": "tratou a questão da violência como um problema social complexo e inaugurou uma estratégia de contenção desse problema compatível com sua complexidade."
+        },
+        {
+          "id": "c",
+          "text": "definiu, no estado de Pernambuco, um novo paradigma de segurança pública, embasado em uma rede de ações de combate e de repressão à violência."
+        },
+        {
+          "id": "d",
+          "text": "foi fruto de um plano acertado que elegeu a área da segurança pública como prioridade."
+        },
+        {
+          "id": "e",
+          "text": "resultou em uma redução visível no número de crimes contra a vida no estado de Pernambuco."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Gabarito oficial definitivo: E. O texto caracteriza o Pacto pela Vida como política exitosa e informa que sua implementação foi responsável pela diminuição de quase 40% dos homicídios no estado entre janeiro de 2007 e junho de 2013. Fonte: Cebraspe; SDS/PE — Polícia Civil — Conhecimentos Gerais; 2016; questão 5; caderno: https://cdn.cebraspe.org.br/concursos/SDS_PE_16_CIVIL/arquivos/258_SDS_PE_CG1_01.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/SDS_PE_16_CIVIL/arquivos/Gab_Definitivo_258_SDS_PE_CG1_01.PDF."
     }
   ]
 }
