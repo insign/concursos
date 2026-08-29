@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q4539",
@@ -8,26 +8,11 @@
       "origin": "authorial",
       "prompt": "O Processo Eletrônico Nacional (PEN) é corretamente compreendido como",
       "options": [
-        {
-          "id": "A",
-          "text": "um software único obrigatório para todo órgão público brasileiro."
-        },
-        {
-          "id": "B",
-          "text": "uma infraestrutura pública que integra soluções e serviços de processo administrativo eletrônico."
-        },
-        {
-          "id": "C",
-          "text": "um formato de documento eletrônico assinado."
-        },
-        {
-          "id": "D",
-          "text": "um canal exclusivo para protocolo de cidadãos."
-        },
-        {
-          "id": "E",
-          "text": "um módulo interno do SEI destinado apenas a prazos."
-        }
+        { "id": "A", "text": "um software único obrigatório para todo órgão público brasileiro." },
+        { "id": "B", "text": "uma infraestrutura pública que integra soluções e serviços de processo administrativo eletrônico." },
+        { "id": "C", "text": "um formato de documento eletrônico assinado." },
+        { "id": "D", "text": "um canal exclusivo para protocolo de cidadãos." },
+        { "id": "E", "text": "um módulo interno do SEI destinado apenas a prazos." }
       ],
       "correctOptionId": "B",
       "explanation": "O PEN é uma infraestrutura pública formada por soluções e serviços integrados; não é software único nem sinônimo de SEI."
@@ -38,26 +23,11 @@
       "origin": "authorial",
       "prompt": "A relação correta entre PEN e SEI é",
       "options": [
-        {
-          "id": "A",
-          "text": "o SEI é um sistema de processo administrativo eletrônico integrante do ecossistema PEN."
-        },
-        {
-          "id": "B",
-          "text": "o PEN é um recurso interno criado pelo SEI."
-        },
-        {
-          "id": "C",
-          "text": "PEN e SEI designam exatamente a mesma solução."
-        },
-        {
-          "id": "D",
-          "text": "o SEI serve apenas para consulta ao Protocolo Integrado."
-        },
-        {
-          "id": "E",
-          "text": "o PEN substituiu o SEI em 2024."
-        }
+        { "id": "A", "text": "o SEI é um sistema de processo administrativo eletrônico integrante do ecossistema PEN." },
+        { "id": "B", "text": "o PEN é um recurso interno criado pelo SEI." },
+        { "id": "C", "text": "PEN e SEI designam exatamente a mesma solução." },
+        { "id": "D", "text": "o SEI serve apenas para consulta ao Protocolo Integrado." },
+        { "id": "E", "text": "o PEN substituiu o SEI em 2024." }
       ],
       "correctOptionId": "A",
       "explanation": "O SEI integra o PEN, mas o ecossistema inclui também outras soluções, como Tramita GOV.BR e Protocolo GOV.BR."
@@ -68,26 +38,11 @@
       "origin": "authorial",
       "prompt": "Sobre a origem institucional do SEI, assinale a correta.",
       "options": [
-        {
-          "id": "A",
-          "text": "Foi criado pelo Arquivo Nacional como repositório permanente."
-        },
-        {
-          "id": "B",
-          "text": "Foi criado por empresa privada para substituir a ePING."
-        },
-        {
-          "id": "C",
-          "text": "Foi desenvolvido pelo Tribunal Regional Federal da 4ª Região."
-        },
-        {
-          "id": "D",
-          "text": "Foi criado diretamente pelo Decreto nº 8.539/2015."
-        },
-        {
-          "id": "E",
-          "text": "Foi criado pelo Protocolo Integrado em 2025."
-        }
+        { "id": "A", "text": "Foi criado pelo Arquivo Nacional como repositório permanente." },
+        { "id": "B", "text": "Foi criado por empresa privada para substituir a ePING." },
+        { "id": "C", "text": "Foi desenvolvido pelo Tribunal Regional Federal da 4ª Região." },
+        { "id": "D", "text": "Foi criado diretamente pelo Decreto nº 8.539/2015." },
+        { "id": "E", "text": "Foi criado pelo Protocolo Integrado em 2025." }
       ],
       "correctOptionId": "C",
       "explanation": "O SEI foi desenvolvido pelo TRF4; o Decreto nº 8.539/2015 disciplina o processo eletrônico federal, mas não criou o sistema."
@@ -98,26 +53,11 @@
       "origin": "authorial",
       "prompt": "É correto afirmar que o Decreto nº 8.539/2015",
       "options": [
-        {
-          "id": "A",
-          "text": "formalizou originalmente o PEN em 2013."
-        },
-        {
-          "id": "B",
-          "text": "criou o SEI como único sistema admissível."
-        },
-        {
-          "id": "C",
-          "text": "substituiu o PEN pelo ProPEN."
-        },
-        {
-          "id": "D",
-          "text": "é marco do processo administrativo eletrônico federal, mas não criou o PEN."
-        },
-        {
-          "id": "E",
-          "text": "aplica-se automaticamente a todos os entes e Poderes."
-        }
+        { "id": "A", "text": "formalizou originalmente o PEN em 2013." },
+        { "id": "B", "text": "criou o SEI como único sistema admissível." },
+        { "id": "C", "text": "substituiu o PEN pelo ProPEN." },
+        { "id": "D", "text": "é marco do processo administrativo eletrônico federal, mas não criou o PEN." },
+        { "id": "E", "text": "aplica-se automaticamente a todos os entes e Poderes." }
       ],
       "correctOptionId": "D",
       "explanation": "O PEN foi formalizado anteriormente; o decreto disciplina o uso do meio eletrônico no âmbito federal por ele abrangido."
@@ -128,26 +68,11 @@
       "origin": "authorial",
       "prompt": "O Programa Nacional de Processo Eletrônico (ProPEN) tem como finalidade central",
       "options": [
-        {
-          "id": "A",
-          "text": "ampliar a adoção das soluções do PEN por instituições elegíveis."
-        },
-        {
-          "id": "B",
-          "text": "eliminar normas internas dos entes aderentes."
-        },
-        {
-          "id": "C",
-          "text": "substituir o SEI por software privado."
-        },
-        {
-          "id": "D",
-          "text": "restringir o PEN à administração federal direta."
-        },
-        {
-          "id": "E",
-          "text": "atuar como serviço de certificação digital."
-        }
+        { "id": "A", "text": "ampliar a adoção das soluções do PEN por instituições elegíveis." },
+        { "id": "B", "text": "eliminar normas internas dos entes aderentes." },
+        { "id": "C", "text": "substituir o SEI por software privado." },
+        { "id": "D", "text": "restringir o PEN à administração federal direta." },
+        { "id": "E", "text": "atuar como serviço de certificação digital." }
       ],
       "correctOptionId": "A",
       "explanation": "O ProPEN expande a adoção das soluções do ecossistema; não uniformiza automaticamente todas as configurações e regras locais."
@@ -158,26 +83,11 @@
       "origin": "authorial",
       "prompt": "Assinale a associação correta entre solução e função.",
       "options": [
-        {
-          "id": "A",
-          "text": "NUP — assinatura eletrônica qualificada."
-        },
-        {
-          "id": "B",
-          "text": "Tramita GOV.BR — expedição entre sistemas de processo eletrônico."
-        },
-        {
-          "id": "C",
-          "text": "Protocolo GOV.BR — repositório arquivístico permanente."
-        },
-        {
-          "id": "D",
-          "text": "Protocolo Integrado — criação de sigilo legal."
-        },
-        {
-          "id": "E",
-          "text": "SEI — emissão de certificados ICP-Brasil."
-        }
+        { "id": "A", "text": "NUP — assinatura eletrônica qualificada." },
+        { "id": "B", "text": "Tramita GOV.BR — expedição entre sistemas de processo eletrônico." },
+        { "id": "C", "text": "Protocolo GOV.BR — repositório arquivístico permanente." },
+        { "id": "D", "text": "Protocolo Integrado — criação de sigilo legal." },
+        { "id": "E", "text": "SEI — emissão de certificados ICP-Brasil." }
       ],
       "correctOptionId": "B",
       "explanation": "O Tramita GOV.BR conecta SPEs para tramitação externa; as demais alternativas atribuem funções que as soluções não possuem."
@@ -188,26 +98,11 @@
       "origin": "authorial",
       "prompt": "A função essencial do Número Único de Protocolo (NUP) é",
       "options": [
-        {
-          "id": "A",
-          "text": "definir o nível de acesso."
-        },
-        {
-          "id": "B",
-          "text": "assinar documentos."
-        },
-        {
-          "id": "C",
-          "text": "identificar processos e documentos avulsos por numeração padronizada."
-        },
-        {
-          "id": "D",
-          "text": "tramitar automaticamente entre órgãos."
-        },
-        {
-          "id": "E",
-          "text": "substituir a classificação arquivística."
-        }
+        { "id": "A", "text": "definir o nível de acesso." },
+        { "id": "B", "text": "assinar documentos." },
+        { "id": "C", "text": "identificar processos e documentos avulsos por numeração padronizada." },
+        { "id": "D", "text": "tramitar automaticamente entre órgãos." },
+        { "id": "E", "text": "substituir a classificação arquivística." }
       ],
       "correctOptionId": "C",
       "explanation": "O NUP identifica o expediente; não assina, não tramita e não define acesso."
@@ -218,26 +113,11 @@
       "origin": "authorial",
       "prompt": "Uma pessoa física precisa enviar requerimento eletrônico a órgão aderente. A porta de entrada do ecossistema PEN é o",
       "options": [
-        {
-          "id": "A",
-          "text": "Tramita GOV.BR."
-        },
-        {
-          "id": "B",
-          "text": "NUP."
-        },
-        {
-          "id": "C",
-          "text": "Protocolo Integrado."
-        },
-        {
-          "id": "D",
-          "text": "Protocolo GOV.BR."
-        },
-        {
-          "id": "E",
-          "text": "bloco de assinatura."
-        }
+        { "id": "A", "text": "Tramita GOV.BR." },
+        { "id": "B", "text": "NUP." },
+        { "id": "C", "text": "Protocolo Integrado." },
+        { "id": "D", "text": "Protocolo GOV.BR." },
+        { "id": "E", "text": "bloco de assinatura." }
       ],
       "correctOptionId": "D",
       "explanation": "O Protocolo GOV.BR recebe documentos, solicitações e requerimentos externos; Tramita GOV.BR é voltado à expedição entre sistemas."
@@ -248,26 +128,11 @@
       "origin": "authorial",
       "prompt": "O Protocolo Integrado permite, em linhas gerais,",
       "options": [
-        {
-          "id": "A",
-          "text": "consultar dados e histórico de tramitação informados pelos participantes."
-        },
-        {
-          "id": "B",
-          "text": "obter automaticamente a íntegra de qualquer processo sigiloso."
-        },
-        {
-          "id": "C",
-          "text": "substituir o sistema de processo de cada órgão."
-        },
-        {
-          "id": "D",
-          "text": "emitir certificado digital ao interessado."
-        },
-        {
-          "id": "E",
-          "text": "tramitar os autos para outra instituição."
-        }
+        { "id": "A", "text": "consultar dados e histórico de tramitação informados pelos participantes." },
+        { "id": "B", "text": "obter automaticamente a íntegra de qualquer processo sigiloso." },
+        { "id": "C", "text": "substituir o sistema de processo de cada órgão." },
+        { "id": "D", "text": "emitir certificado digital ao interessado." },
+        { "id": "E", "text": "tramitar os autos para outra instituição." }
       ],
       "correctOptionId": "A",
       "explanation": "O serviço integra e apresenta dados de tramitação; não equivale ao acesso automático à íntegra nem realiza a expedição entre SPEs."
@@ -278,26 +143,11 @@
       "origin": "authorial",
       "prompt": "O Decreto nº 8.539/2015 alcança diretamente a administração pública federal",
       "options": [
-        {
-          "id": "A",
-          "text": "apenas empresarial."
-        },
-        {
-          "id": "B",
-          "text": "direta, autárquica e fundacional."
-        },
-        {
-          "id": "C",
-          "text": "de todos os Poderes e entes, sem distinção."
-        },
-        {
-          "id": "D",
-          "text": "apenas do Poder Judiciário."
-        },
-        {
-          "id": "E",
-          "text": "apenas municipal conveniada."
-        }
+        { "id": "A", "text": "apenas empresarial." },
+        { "id": "B", "text": "direta, autárquica e fundacional." },
+        { "id": "C", "text": "de todos os Poderes e entes, sem distinção." },
+        { "id": "D", "text": "apenas do Poder Judiciário." },
+        { "id": "E", "text": "apenas municipal conveniada." }
       ],
       "correctOptionId": "B",
       "explanation": "Esse é o âmbito expresso do decreto; não se deve generalizá-lo automaticamente a outros entes ou Poderes."
@@ -308,26 +158,11 @@
       "origin": "authorial",
       "prompt": "Documento nato-digital é aquele",
       "options": [
-        {
-          "id": "A",
-          "text": "impresso e depois digitalizado."
-        },
-        {
-          "id": "B",
-          "text": "necessariamente publicado na internet."
-        },
-        {
-          "id": "C",
-          "text": "criado originariamente em meio eletrônico."
-        },
-        {
-          "id": "D",
-          "text": "sempre recebido de usuário externo."
-        },
-        {
-          "id": "E",
-          "text": "que depende de conversão de suporte físico."
-        }
+        { "id": "A", "text": "impresso e depois digitalizado." },
+        { "id": "B", "text": "necessariamente publicado na internet." },
+        { "id": "C", "text": "criado originariamente em meio eletrônico." },
+        { "id": "D", "text": "sempre recebido de usuário externo." },
+        { "id": "E", "text": "que depende de conversão de suporte físico." }
       ],
       "correctOptionId": "C",
       "explanation": "Nato-digital nasce em meio eletrônico; digitalizado resulta da conversão de documento não digital."
@@ -338,26 +173,11 @@
       "origin": "authorial",
       "prompt": "Entre os objetivos do uso do meio eletrônico no Decreto nº 8.539/2015 está",
       "options": [
-        {
-          "id": "A",
-          "text": "eliminar todo controle de acesso."
-        },
-        {
-          "id": "B",
-          "text": "abolir a participação do cidadão."
-        },
-        {
-          "id": "C",
-          "text": "impedir interoperabilidade."
-        },
-        {
-          "id": "D",
-          "text": "promover eficiência, segurança, transparência, economicidade e sustentabilidade."
-        },
-        {
-          "id": "E",
-          "text": "substituir toda gestão documental por tramitação."
-        }
+        { "id": "A", "text": "eliminar todo controle de acesso." },
+        { "id": "B", "text": "abolir a participação do cidadão." },
+        { "id": "C", "text": "impedir interoperabilidade." },
+        { "id": "D", "text": "promover eficiência, segurança, transparência, economicidade e sustentabilidade." },
+        { "id": "E", "text": "substituir toda gestão documental por tramitação." }
       ],
       "correctOptionId": "D",
       "explanation": "O decreto associa o processo eletrônico a eficiência, segurança, transparência, economicidade, sustentabilidade e facilitação do acesso."
@@ -368,26 +188,11 @@
       "origin": "authorial",
       "prompt": "No processo administrativo federal abrangido, o meio não eletrônico pode ser usado quando",
       "options": [
-        {
-          "id": "A",
-          "text": "qualquer servidor preferir papel."
-        },
-        {
-          "id": "B",
-          "text": "o procedimento eletrônico for inviável ou a indisponibilidade puder causar dano relevante à celeridade."
-        },
-        {
-          "id": "C",
-          "text": "o processo tiver nível público."
-        },
-        {
-          "id": "D",
-          "text": "houver documento interno."
-        },
-        {
-          "id": "E",
-          "text": "o interessado não quiser receber recibo eletrônico."
-        }
+        { "id": "A", "text": "qualquer servidor preferir papel." },
+        { "id": "B", "text": "o procedimento eletrônico for inviável ou a indisponibilidade puder causar dano relevante à celeridade." },
+        { "id": "C", "text": "o processo tiver nível público." },
+        { "id": "D", "text": "houver documento interno." },
+        { "id": "E", "text": "o interessado não quiser receber recibo eletrônico." }
       ],
       "correctOptionId": "B",
       "explanation": "O decreto prevê exceções justificadas pela inviabilidade ou indisponibilidade relevante do meio eletrônico."
@@ -398,26 +203,11 @@
       "origin": "authorial",
       "prompt": "O ato eletrônico considera-se realizado, em regra, no momento em que",
       "options": [
-        {
-          "id": "A",
-          "text": "o usuário começa a preencher o formulário."
-        },
-        {
-          "id": "B",
-          "text": "o servidor abre o processo no dia seguinte."
-        },
-        {
-          "id": "C",
-          "text": "é recebido pelo sistema, com registro de dia e hora."
-        },
-        {
-          "id": "D",
-          "text": "é impresso pela unidade."
-        },
-        {
-          "id": "E",
-          "text": "é lido pelo dirigente máximo."
-        }
+        { "id": "A", "text": "o usuário começa a preencher o formulário." },
+        { "id": "B", "text": "o servidor abre o processo no dia seguinte." },
+        { "id": "C", "text": "é recebido pelo sistema, com registro de dia e hora." },
+        { "id": "D", "text": "é impresso pela unidade." },
+        { "id": "E", "text": "é lido pelo dirigente máximo." }
       ],
       "correctOptionId": "C",
       "explanation": "O recebimento pelo sistema fixa o momento do ato eletrônico e deve gerar recibo de protocolo."
@@ -428,26 +218,11 @@
       "origin": "authorial",
       "prompt": "Sem regra especial, um ato eletrônico sujeito a prazo é tempestivo se recebido",
       "options": [
-        {
-          "id": "A",
-          "text": "até o fim do expediente presencial."
-        },
-        {
-          "id": "B",
-          "text": "até 12h do dia seguinte."
-        },
-        {
-          "id": "C",
-          "text": "até 23h59 do último dia, no horário oficial de Brasília."
-        },
-        {
-          "id": "D",
-          "text": "em qualquer data se iniciado antes."
-        },
-        {
-          "id": "E",
-          "text": "somente após validação manual da unidade."
-        }
+        { "id": "A", "text": "até o fim do expediente presencial." },
+        { "id": "B", "text": "até 12h do dia seguinte." },
+        { "id": "C", "text": "até 23h59 do último dia, no horário oficial de Brasília." },
+        { "id": "D", "text": "em qualquer data se iniciado antes." },
+        { "id": "E", "text": "somente após validação manual da unidade." }
       ],
       "correctOptionId": "C",
       "explanation": "O Decreto nº 8.539/2015 adota como regra o recebimento até 23h59 do último dia, salvo disciplina especial."
@@ -458,26 +233,11 @@
       "origin": "authorial",
       "prompt": "Documento digitalizado enviado pelo interessado",
       "options": [
-        {
-          "id": "A",
-          "text": "torna-se automaticamente original nato-digital."
-        },
-        {
-          "id": "B",
-          "text": "é sempre assinatura qualificada."
-        },
-        {
-          "id": "C",
-          "text": "dispensa qualquer conferência de integridade."
-        },
-        {
-          "id": "D",
-          "text": "não se transforma automaticamente em original apenas pelo envio eletrônico."
-        },
-        {
-          "id": "E",
-          "text": "deixa de ser documento digital."
-        }
+        { "id": "A", "text": "torna-se automaticamente original nato-digital." },
+        { "id": "B", "text": "é sempre assinatura qualificada." },
+        { "id": "C", "text": "dispensa qualquer conferência de integridade." },
+        { "id": "D", "text": "não se transforma automaticamente em original apenas pelo envio eletrônico." },
+        { "id": "E", "text": "deixa de ser documento digital." }
       ],
       "correctOptionId": "D",
       "explanation": "Digitalização e envio não mudam, por si só, a natureza e os efeitos jurídicos do documento."
@@ -488,26 +248,11 @@
       "origin": "authorial",
       "prompt": "Em 2026, sobre a versão do SEI, é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "o SEI permanecia limitado à linha 4 e não havia linha 5 disponível."
-        },
-        {
-          "id": "B",
-          "text": "a versão concreta elimina diferenças de configuração entre instituições."
-        },
-        {
-          "id": "C",
-          "text": "a linha SEI 5 já integrava o ambiente oficial do PEN, com versão 5.0.4 disponível desde abril de 2026."
-        },
-        {
-          "id": "D",
-          "text": "todas as instituições eram obrigadas a usar a mesma versão no mesmo dia."
-        },
-        {
-          "id": "E",
-          "text": "a versão do SEI define o fundamento jurídico de sigilo."
-        }
+        { "id": "A", "text": "o SEI permanecia limitado à linha 4 e não havia linha 5 disponível." },
+        { "id": "B", "text": "a versão concreta elimina diferenças de configuração entre instituições." },
+        { "id": "C", "text": "a linha SEI 5 já integrava o ambiente oficial do PEN, com versão 5.0.4 disponível desde abril de 2026." },
+        { "id": "D", "text": "todas as instituições eram obrigadas a usar a mesma versão no mesmo dia." },
+        { "id": "E", "text": "a versão do SEI define o fundamento jurídico de sigilo." }
       ],
       "correctOptionId": "C",
       "explanation": "A versão 5.0.4 estava disponível desde 29/04/2026; ainda assim, configurações e módulos podem variar entre instituições."
@@ -518,26 +263,11 @@
       "origin": "authorial",
       "prompt": "No SEI, documento externo é aquele",
       "options": [
-        {
-          "id": "A",
-          "text": "sempre produzido por estrangeiro."
-        },
-        {
-          "id": "B",
-          "text": "necessariamente sigiloso."
-        },
-        {
-          "id": "C",
-          "text": "que não pode integrar um processo."
-        },
-        {
-          "id": "D",
-          "text": "produzido ou recebido fora do editor do sistema e incluído nos autos."
-        },
-        {
-          "id": "E",
-          "text": "produzido apenas por usuário externo cadastrado."
-        }
+        { "id": "A", "text": "sempre produzido por estrangeiro." },
+        { "id": "B", "text": "necessariamente sigiloso." },
+        { "id": "C", "text": "que não pode integrar um processo." },
+        { "id": "D", "text": "produzido ou recebido fora do editor do sistema e incluído nos autos." },
+        { "id": "E", "text": "produzido apenas por usuário externo cadastrado." }
       ],
       "correctOptionId": "D",
       "explanation": "A distinção decorre da origem fora do editor do SEI, não da pessoa que produziu o documento ou de seu nível de acesso."
@@ -548,26 +278,11 @@
       "origin": "authorial",
       "prompt": "O usuário externo do SEI",
       "options": [
-        {
-          "id": "A",
-          "text": "recebe automaticamente todas as permissões de usuário interno."
-        },
-        {
-          "id": "B",
-          "text": "pode editar livremente qualquer processo público."
-        },
-        {
-          "id": "C",
-          "text": "exerce funções delimitadas, como consultar conteúdo liberado ou assinar documento disponibilizado."
-        },
-        {
-          "id": "D",
-          "text": "substitui a unidade administrativa responsável."
-        },
-        {
-          "id": "E",
-          "text": "sempre recebe acesso à íntegra do processo."
-        }
+        { "id": "A", "text": "recebe automaticamente todas as permissões de usuário interno." },
+        { "id": "B", "text": "pode editar livremente qualquer processo público." },
+        { "id": "C", "text": "exerce funções delimitadas, como consultar conteúdo liberado ou assinar documento disponibilizado." },
+        { "id": "D", "text": "substitui a unidade administrativa responsável." },
+        { "id": "E", "text": "sempre recebe acesso à íntegra do processo." }
       ],
       "correctOptionId": "C",
       "explanation": "Usuário externo possui permissões delimitadas por cadastro, liberação, prazo e regras institucionais."
@@ -578,26 +293,11 @@
       "origin": "authorial",
       "prompt": "O tipo de processo no SEI pode orientar",
       "options": [
-        {
-          "id": "A",
-          "text": "classificação, metadados, acesso e controles associados."
-        },
-        {
-          "id": "B",
-          "text": "apenas a cor exibida na tela."
-        },
-        {
-          "id": "C",
-          "text": "a emissão automática de certificado ICP-Brasil."
-        },
-        {
-          "id": "D",
-          "text": "o descarte imediato de todos os documentos."
-        },
-        {
-          "id": "E",
-          "text": "a substituição da unidade responsável."
-        }
+        { "id": "A", "text": "classificação, metadados, acesso e controles associados." },
+        { "id": "B", "text": "apenas a cor exibida na tela." },
+        { "id": "C", "text": "a emissão automática de certificado ICP-Brasil." },
+        { "id": "D", "text": "o descarte imediato de todos os documentos." },
+        { "id": "E", "text": "a substituição da unidade responsável." }
       ],
       "correctOptionId": "A",
       "explanation": "O tipo de processo estrutura metadados e controles relevantes; não é simples elemento visual."
@@ -608,26 +308,11 @@
       "origin": "authorial",
       "prompt": "A atribuição de processo a um usuário da unidade",
       "options": [
-        {
-          "id": "A",
-          "text": "transfere a titularidade jurídica dos autos."
-        },
-        {
-          "id": "B",
-          "text": "organiza a distribuição do trabalho sem criar propriedade exclusiva."
-        },
-        {
-          "id": "C",
-          "text": "conclui o processo em todas as unidades."
-        },
-        {
-          "id": "D",
-          "text": "transforma o usuário em interessado externo."
-        },
-        {
-          "id": "E",
-          "text": "impede qualquer outro usuário autorizado da unidade de atuar."
-        }
+        { "id": "A", "text": "transfere a titularidade jurídica dos autos." },
+        { "id": "B", "text": "organiza a distribuição do trabalho sem criar propriedade exclusiva." },
+        { "id": "C", "text": "conclui o processo em todas as unidades." },
+        { "id": "D", "text": "transforma o usuário em interessado externo." },
+        { "id": "E", "text": "impede qualquer outro usuário autorizado da unidade de atuar." }
       ],
       "correctOptionId": "B",
       "explanation": "Atribuição é ferramenta de organização interna e não transfere propriedade ou competência jurídica."
@@ -638,26 +323,11 @@
       "origin": "authorial",
       "prompt": "O recebimento de um processo na unidade deve permitir rastrear",
       "options": [
-        {
-          "id": "A",
-          "text": "apenas a cor escolhida pelo usuário."
-        },
-        {
-          "id": "B",
-          "text": "somente o nome do interessado."
-        },
-        {
-          "id": "C",
-          "text": "uma decisão de mérito automática."
-        },
-        {
-          "id": "D",
-          "text": "a movimentação, inclusive momento e responsável pelo recebimento."
-        },
-        {
-          "id": "E",
-          "text": "somente a versão do navegador."
-        }
+        { "id": "A", "text": "apenas a cor escolhida pelo usuário." },
+        { "id": "B", "text": "somente o nome do interessado." },
+        { "id": "C", "text": "uma decisão de mérito automática." },
+        { "id": "D", "text": "a movimentação, inclusive momento e responsável pelo recebimento." },
+        { "id": "E", "text": "somente a versão do navegador." }
       ],
       "correctOptionId": "D",
       "explanation": "O SEI registra o andamento para garantir rastreabilidade da tramitação e do recebimento."
@@ -668,26 +338,11 @@
       "origin": "authorial",
       "prompt": "Classificar um processo como público no SEI significa que",
       "options": [
-        {
-          "id": "A",
-          "text": "não há restrição jurídica cadastrada, sem que isso implique publicação irrestrita na internet."
-        },
-        {
-          "id": "B",
-          "text": "todo conteúdo deve ser divulgado em rede social."
-        },
-        {
-          "id": "C",
-          "text": "qualquer pessoa pode editar os autos."
-        },
-        {
-          "id": "D",
-          "text": "a proteção de dados deixa de existir."
-        },
-        {
-          "id": "E",
-          "text": "o processo foi automaticamente publicado em diário oficial."
-        }
+        { "id": "A", "text": "não há restrição jurídica cadastrada, sem que isso implique publicação irrestrita na internet." },
+        { "id": "B", "text": "todo conteúdo deve ser divulgado em rede social." },
+        { "id": "C", "text": "qualquer pessoa pode editar os autos." },
+        { "id": "D", "text": "a proteção de dados deixa de existir." },
+        { "id": "E", "text": "o processo foi automaticamente publicado em diário oficial." }
       ],
       "correctOptionId": "A",
       "explanation": "Nível público no sistema é conceito de acesso, não sinônimo de divulgação universal."
@@ -698,26 +353,11 @@
       "origin": "authorial",
       "prompt": "O nível restrito no SEI deve estar associado a",
       "options": [
-        {
-          "id": "A",
-          "text": "mera conveniência do usuário."
-        },
-        {
-          "id": "B",
-          "text": "hipótese jurídica que justifique a restrição."
-        },
-        {
-          "id": "C",
-          "text": "publicação automática."
-        },
-        {
-          "id": "D",
-          "text": "acesso irrestrito externo."
-        },
-        {
-          "id": "E",
-          "text": "conclusão obrigatória do processo."
-        }
+        { "id": "A", "text": "mera conveniência do usuário." },
+        { "id": "B", "text": "hipótese jurídica que justifique a restrição." },
+        { "id": "C", "text": "publicação automática." },
+        { "id": "D", "text": "acesso irrestrito externo." },
+        { "id": "E", "text": "conclusão obrigatória do processo." }
       ],
       "correctOptionId": "B",
       "explanation": "O sistema controla o acesso, mas o fundamento da restrição deve existir juridicamente."
@@ -728,26 +368,11 @@
       "origin": "authorial",
       "prompt": "Sobre o nível sigiloso do SEI, é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "equivale sempre ao grau ultrassecreto da LAI."
-        },
-        {
-          "id": "B",
-          "text": "dispensa fundamento jurídico."
-        },
-        {
-          "id": "C",
-          "text": "depende de credencial/configuração e não se confunde automaticamente com os graus da LAI."
-        },
-        {
-          "id": "D",
-          "text": "torna o processo inacessível até para credenciados."
-        },
-        {
-          "id": "E",
-          "text": "é criado automaticamente por qualquer anotação."
-        }
+        { "id": "A", "text": "equivale sempre ao grau ultrassecreto da LAI." },
+        { "id": "B", "text": "dispensa fundamento jurídico." },
+        { "id": "C", "text": "depende de credencial/configuração e não se confunde automaticamente com os graus da LAI." },
+        { "id": "D", "text": "torna o processo inacessível até para credenciados." },
+        { "id": "E", "text": "é criado automaticamente por qualquer anotação." }
       ],
       "correctOptionId": "C",
       "explanation": "O nível operacional do SEI e a classificação formal da LAI são regimes distintos."
@@ -758,26 +383,11 @@
       "origin": "authorial",
       "prompt": "Segundo orientação federal vigente, documentos formalmente classificados como reservado, secreto ou ultrassecreto",
       "options": [
-        {
-          "id": "A",
-          "text": "devem tramitar normalmente no SEI como públicos."
-        },
-        {
-          "id": "B",
-          "text": "devem receber apenas marcador colorido."
-        },
-        {
-          "id": "C",
-          "text": "podem circular por qualquer e-mail."
-        },
-        {
-          "id": "D",
-          "text": "não devem tramitar pelo SEI, devendo ser usado ambiente apropriado."
-        },
-        {
-          "id": "E",
-          "text": "perdem a classificação ao serem digitalizados."
-        }
+        { "id": "A", "text": "devem tramitar normalmente no SEI como públicos." },
+        { "id": "B", "text": "devem receber apenas marcador colorido." },
+        { "id": "C", "text": "podem circular por qualquer e-mail." },
+        { "id": "D", "text": "não devem tramitar pelo SEI, devendo ser usado ambiente apropriado." },
+        { "id": "E", "text": "perdem a classificação ao serem digitalizados." }
       ],
       "correctOptionId": "D",
       "explanation": "A orientação federal separa a classificação formal da LAI do nível sigiloso operacional do SEI."
@@ -788,26 +398,11 @@
       "origin": "authorial",
       "prompt": "A liberação de acesso externo a um processo",
       "options": [
-        {
-          "id": "A",
-          "text": "transforma o usuário externo em interno."
-        },
-        {
-          "id": "B",
-          "text": "libera automaticamente todos os documentos."
-        },
-        {
-          "id": "C",
-          "text": "pode ser delimitada por conteúdo, prazo e permissões, sem alterar o fundamento jurídico do acesso."
-        },
-        {
-          "id": "D",
-          "text": "elimina qualquer restrição legal."
-        },
-        {
-          "id": "E",
-          "text": "obriga a conclusão do processo na unidade."
-        }
+        { "id": "A", "text": "transforma o usuário externo em interno." },
+        { "id": "B", "text": "libera automaticamente todos os documentos." },
+        { "id": "C", "text": "pode ser delimitada por conteúdo, prazo e permissões, sem alterar o fundamento jurídico do acesso." },
+        { "id": "D", "text": "elimina qualquer restrição legal." },
+        { "id": "E", "text": "obriga a conclusão do processo na unidade." }
       ],
       "correctOptionId": "C",
       "explanation": "Acesso externo é controlado e delimitado; não muda a condição do usuário nem a base jurídica da proteção."
@@ -818,26 +413,11 @@
       "origin": "authorial",
       "prompt": "Enviar um processo simultaneamente a várias unidades é adequado especialmente quando",
       "options": [
-        {
-          "id": "A",
-          "text": "as atividades podem ocorrer de forma independente."
-        },
-        {
-          "id": "B",
-          "text": "cada etapa depende obrigatoriamente da anterior."
-        },
-        {
-          "id": "C",
-          "text": "se deseja apagar o histórico."
-        },
-        {
-          "id": "D",
-          "text": "o processo não possui documentos."
-        },
-        {
-          "id": "E",
-          "text": "se quer impedir atuação paralela."
-        }
+        { "id": "A", "text": "as atividades podem ocorrer de forma independente." },
+        { "id": "B", "text": "cada etapa depende obrigatoriamente da anterior." },
+        { "id": "C", "text": "se deseja apagar o histórico." },
+        { "id": "D", "text": "o processo não possui documentos." },
+        { "id": "E", "text": "se quer impedir atuação paralela." }
       ],
       "correctOptionId": "A",
       "explanation": "Tramitação paralela faz sentido quando as atividades são independentes; etapas encadeadas exigem sequência compatível."
@@ -848,26 +428,11 @@
       "origin": "authorial",
       "prompt": "Ao enviar um processo sem mantê-lo aberto na origem, normalmente",
       "options": [
-        {
-          "id": "A",
-          "text": "os autos são eliminados."
-        },
-        {
-          "id": "B",
-          "text": "o trabalho é concluído na unidade de origem, sem conclusão automática nas destinatárias."
-        },
-        {
-          "id": "C",
-          "text": "todos os documentos tornam-se públicos."
-        },
-        {
-          "id": "D",
-          "text": "o processo é anexado a outro."
-        },
-        {
-          "id": "E",
-          "text": "o NUP é substituído."
-        }
+        { "id": "A", "text": "os autos são eliminados." },
+        { "id": "B", "text": "o trabalho é concluído na unidade de origem, sem conclusão automática nas destinatárias." },
+        { "id": "C", "text": "todos os documentos tornam-se públicos." },
+        { "id": "D", "text": "o processo é anexado a outro." },
+        { "id": "E", "text": "o NUP é substituído." }
       ],
       "correctOptionId": "B",
       "explanation": "A conclusão decorrente do envio é local à origem; a unidade destinatária recebe o processo para sua atuação."
@@ -878,26 +443,11 @@
       "origin": "authorial",
       "prompt": "Concluir um processo em uma unidade no SEI",
       "options": [
-        {
-          "id": "A",
-          "text": "elimina documentos e histórico."
-        },
-        {
-          "id": "B",
-          "text": "equivale sempre a arquivamento definitivo."
-        },
-        {
-          "id": "C",
-          "text": "retira-o do trabalho local sem concluir automaticamente nas demais unidades."
-        },
-        {
-          "id": "D",
-          "text": "impede pesquisa futura."
-        },
-        {
-          "id": "E",
-          "text": "altera o NUP."
-        }
+        { "id": "A", "text": "elimina documentos e histórico." },
+        { "id": "B", "text": "equivale sempre a arquivamento definitivo." },
+        { "id": "C", "text": "retira-o do trabalho local sem concluir automaticamente nas demais unidades." },
+        { "id": "D", "text": "impede pesquisa futura." },
+        { "id": "E", "text": "altera o NUP." }
       ],
       "correctOptionId": "C",
       "explanation": "A conclusão é uma operação da unidade e não representa, por si só, encerramento global ou eliminação dos autos."
@@ -908,26 +458,11 @@
       "origin": "authorial",
       "prompt": "Uma unidade precisa praticar nova ação após a conclusão local. Nesse caso, pode",
       "options": [
-        {
-          "id": "A",
-          "text": "criar novo NUP obrigatoriamente."
-        },
-        {
-          "id": "B",
-          "text": "apagar o histórico anterior."
-        },
-        {
-          "id": "C",
-          "text": "consultar apenas com autorização judicial."
-        },
-        {
-          "id": "D",
-          "text": "reabrir o processo; simples consulta, porém, não exige reabertura."
-        },
-        {
-          "id": "E",
-          "text": "converter o processo em Protocolo Integrado."
-        }
+        { "id": "A", "text": "criar novo NUP obrigatoriamente." },
+        { "id": "B", "text": "apagar o histórico anterior." },
+        { "id": "C", "text": "consultar apenas com autorização judicial." },
+        { "id": "D", "text": "reabrir o processo; simples consulta, porém, não exige reabertura." },
+        { "id": "E", "text": "converter o processo em Protocolo Integrado." }
       ],
       "correctOptionId": "D",
       "explanation": "Reabrir recoloca o processo em trabalho quando há nova providência; consulta é operação distinta."
@@ -938,26 +473,11 @@
       "origin": "authorial",
       "prompt": "O acompanhamento especial serve para",
       "options": [
-        {
-          "id": "A",
-          "text": "monitorar processos sem tramitar nem alterar o acesso."
-        },
-        {
-          "id": "B",
-          "text": "substituir decisão administrativa."
-        },
-        {
-          "id": "C",
-          "text": "transferir competência."
-        },
-        {
-          "id": "D",
-          "text": "criar prazo legal."
-        },
-        {
-          "id": "E",
-          "text": "anexar processos automaticamente."
-        }
+        { "id": "A", "text": "monitorar processos sem tramitar nem alterar o acesso." },
+        { "id": "B", "text": "substituir decisão administrativa." },
+        { "id": "C", "text": "transferir competência." },
+        { "id": "D", "text": "criar prazo legal." },
+        { "id": "E", "text": "anexar processos automaticamente." }
       ],
       "correctOptionId": "A",
       "explanation": "É ferramenta de monitoramento e organização, não ato de tramitação ou decisão."
@@ -968,26 +488,11 @@
       "origin": "authorial",
       "prompt": "A anotação no SEI é, em regra,",
       "options": [
-        {
-          "id": "A",
-          "text": "parte obrigatória da decisão final."
-        },
-        {
-          "id": "B",
-          "text": "observação operacional da unidade que não acompanha a tramitação."
-        },
-        {
-          "id": "C",
-          "text": "fundamento jurídico de sigilo."
-        },
-        {
-          "id": "D",
-          "text": "assinatura automática de todos os documentos."
-        },
-        {
-          "id": "E",
-          "text": "forma de expedição para outro órgão."
-        }
+        { "id": "A", "text": "parte obrigatória da decisão final." },
+        { "id": "B", "text": "observação operacional da unidade que não acompanha a tramitação." },
+        { "id": "C", "text": "fundamento jurídico de sigilo." },
+        { "id": "D", "text": "assinatura automática de todos os documentos." },
+        { "id": "E", "text": "forma de expedição para outro órgão." }
       ],
       "correctOptionId": "B",
       "explanation": "A anotação é recurso local de organização e não integra automaticamente a instrução nem acompanha o envio."
@@ -998,26 +503,11 @@
       "origin": "authorial",
       "prompt": "O comentário no SEI",
       "options": [
-        {
-          "id": "A",
-          "text": "substitui qualquer documento formal necessário."
-        },
-        {
-          "id": "B",
-          "text": "é sempre invisível a outras unidades."
-        },
-        {
-          "id": "C",
-          "text": "é observação auxiliar e não substitui ato ou documento formal exigido."
-        },
-        {
-          "id": "D",
-          "text": "conclui automaticamente o processo."
-        },
-        {
-          "id": "E",
-          "text": "muda o nível de acesso por si só."
-        }
+        { "id": "A", "text": "substitui qualquer documento formal necessário." },
+        { "id": "B", "text": "é sempre invisível a outras unidades." },
+        { "id": "C", "text": "é observação auxiliar e não substitui ato ou documento formal exigido." },
+        { "id": "D", "text": "conclui automaticamente o processo." },
+        { "id": "E", "text": "muda o nível de acesso por si só." }
       ],
       "correctOptionId": "C",
       "explanation": "Comentário pode apoiar a comunicação, mas não substitui documento formal quando este é necessário à instrução."
@@ -1028,26 +518,11 @@
       "origin": "authorial",
       "prompt": "Registrar ciência em documento significa",
       "options": [
-        {
-          "id": "A",
-          "text": "aprovar juridicamente todo o conteúdo."
-        },
-        {
-          "id": "B",
-          "text": "assinar decisão de mérito."
-        },
-        {
-          "id": "C",
-          "text": "revogar documento anterior."
-        },
-        {
-          "id": "D",
-          "text": "registrar que o usuário tomou conhecimento."
-        },
-        {
-          "id": "E",
-          "text": "tramitar o processo automaticamente."
-        }
+        { "id": "A", "text": "aprovar juridicamente todo o conteúdo." },
+        { "id": "B", "text": "assinar decisão de mérito." },
+        { "id": "C", "text": "revogar documento anterior." },
+        { "id": "D", "text": "registrar que o usuário tomou conhecimento." },
+        { "id": "E", "text": "tramitar o processo automaticamente." }
       ],
       "correctOptionId": "D",
       "explanation": "Ciência registra conhecimento; não equivale a decisão, concordância ou assinatura do conteúdo."
@@ -1058,26 +533,11 @@
       "origin": "authorial",
       "prompt": "Quando vence um retorno programado, o SEI",
       "options": [
-        {
-          "id": "A",
-          "text": "apaga o processo da destinatária."
-        },
-        {
-          "id": "B",
-          "text": "conclui todas as unidades."
-        },
-        {
-          "id": "C",
-          "text": "devolve automaticamente os autos."
-        },
-        {
-          "id": "D",
-          "text": "mantém o monitoramento, mas a devolução exige tramitação de volta."
-        },
-        {
-          "id": "E",
-          "text": "altera o nível de acesso para restrito."
-        }
+        { "id": "A", "text": "apaga o processo da destinatária." },
+        { "id": "B", "text": "conclui todas as unidades." },
+        { "id": "C", "text": "devolve automaticamente os autos." },
+        { "id": "D", "text": "mantém o monitoramento, mas a devolução exige tramitação de volta." },
+        { "id": "E", "text": "altera o nível de acesso para restrito." }
       ],
       "correctOptionId": "D",
       "explanation": "Retorno programado é mecanismo de acompanhamento; o vencimento não realiza sozinho a devolução do processo."
@@ -1088,26 +548,11 @@
       "origin": "authorial",
       "prompt": "O bloco de assinatura é utilizado para",
       "options": [
-        {
-          "id": "A",
-          "text": "disponibilizar minutas para assinatura sem tramitar o processo inteiro."
-        },
-        {
-          "id": "B",
-          "text": "transferir a titularidade dos autos."
-        },
-        {
-          "id": "C",
-          "text": "criar NUP."
-        },
-        {
-          "id": "D",
-          "text": "eliminar a necessidade de competência do assinante."
-        },
-        {
-          "id": "E",
-          "text": "publicar automaticamente o documento."
-        }
+        { "id": "A", "text": "disponibilizar minutas para assinatura sem tramitar o processo inteiro." },
+        { "id": "B", "text": "transferir a titularidade dos autos." },
+        { "id": "C", "text": "criar NUP." },
+        { "id": "D", "text": "eliminar a necessidade de competência do assinante." },
+        { "id": "E", "text": "publicar automaticamente o documento." }
       ],
       "correctOptionId": "A",
       "explanation": "O bloco organiza a disponibilização de documentos para assinatura; não envia o processo nem corrige falta de competência."
@@ -1118,26 +563,11 @@
       "origin": "authorial",
       "prompt": "Inserir processo em bloco interno ou de reunião",
       "options": [
-        {
-          "id": "A",
-          "text": "torna todos os documentos públicos."
-        },
-        {
-          "id": "B",
-          "text": "não altera, por si só, tramitação, acesso ou competência."
-        },
-        {
-          "id": "C",
-          "text": "equivale a anexar processos."
-        },
-        {
-          "id": "D",
-          "text": "encerra prazos automaticamente."
-        },
-        {
-          "id": "E",
-          "text": "gera expedição pelo Tramita GOV.BR."
-        }
+        { "id": "A", "text": "torna todos os documentos públicos." },
+        { "id": "B", "text": "não altera, por si só, tramitação, acesso ou competência." },
+        { "id": "C", "text": "equivale a anexar processos." },
+        { "id": "D", "text": "encerra prazos automaticamente." },
+        { "id": "E", "text": "gera expedição pelo Tramita GOV.BR." }
       ],
       "correctOptionId": "B",
       "explanation": "Esses blocos são recursos de organização; a inserção não produz automaticamente efeitos processuais de tramitação ou acesso."
@@ -1148,26 +578,11 @@
       "origin": "authorial",
       "prompt": "Relacionar dois processos significa",
       "options": [
-        {
-          "id": "A",
-          "text": "fundir definitivamente todos os documentos."
-        },
-        {
-          "id": "B",
-          "text": "eliminar um dos processos."
-        },
-        {
-          "id": "C",
-          "text": "criar vínculo referencial mantendo a autonomia dos autos."
-        },
-        {
-          "id": "D",
-          "text": "sobrestar ambos."
-        },
-        {
-          "id": "E",
-          "text": "publicá-los automaticamente."
-        }
+        { "id": "A", "text": "fundir definitivamente todos os documentos." },
+        { "id": "B", "text": "eliminar um dos processos." },
+        { "id": "C", "text": "criar vínculo referencial mantendo a autonomia dos autos." },
+        { "id": "D", "text": "sobrestar ambos." },
+        { "id": "E", "text": "publicá-los automaticamente." }
       ],
       "correctOptionId": "C",
       "explanation": "O relacionamento preserva processos autônomos; anexação estabelece integração mais forte."
@@ -1178,26 +593,11 @@
       "origin": "authorial",
       "prompt": "A anexação difere do relacionamento porque",
       "options": [
-        {
-          "id": "A",
-          "text": "a anexação é apenas uma etiqueta visual."
-        },
-        {
-          "id": "B",
-          "text": "o relacionamento sempre elimina um processo."
-        },
-        {
-          "id": "C",
-          "text": "a anexação estabelece integração processual mais forte entre os autos."
-        },
-        {
-          "id": "D",
-          "text": "a anexação não depende de regra ou permissão."
-        },
-        {
-          "id": "E",
-          "text": "o relacionamento suspende o andamento."
-        }
+        { "id": "A", "text": "a anexação é apenas uma etiqueta visual." },
+        { "id": "B", "text": "o relacionamento sempre elimina um processo." },
+        { "id": "C", "text": "a anexação estabelece integração processual mais forte entre os autos." },
+        { "id": "D", "text": "a anexação não depende de regra ou permissão." },
+        { "id": "E", "text": "o relacionamento suspende o andamento." }
       ],
       "correctOptionId": "C",
       "explanation": "Relacionamento cria referência; anexação incorpora os processos em vínculo processual mais intenso."
@@ -1208,26 +608,11 @@
       "origin": "authorial",
       "prompt": "Sobrestar um processo significa",
       "options": [
-        {
-          "id": "A",
-          "text": "eliminar os autos."
-        },
-        {
-          "id": "B",
-          "text": "arquivar definitivamente."
-        },
-        {
-          "id": "C",
-          "text": "dispensar justificativa."
-        },
-        {
-          "id": "D",
-          "text": "suspender o andamento por motivo e determinação formal."
-        },
-        {
-          "id": "E",
-          "text": "tramitar para outro órgão."
-        }
+        { "id": "A", "text": "eliminar os autos." },
+        { "id": "B", "text": "arquivar definitivamente." },
+        { "id": "C", "text": "dispensar justificativa." },
+        { "id": "D", "text": "suspender o andamento por motivo e determinação formal." },
+        { "id": "E", "text": "tramitar para outro órgão." }
       ],
       "correctOptionId": "D",
       "explanation": "Sobrestamento é suspensão formal do andamento e não se confunde com conclusão, eliminação ou expedição."
@@ -1238,26 +623,11 @@
       "origin": "authorial",
       "prompt": "Uma pesquisa no SEI pode não exibir determinado conteúdo porque",
       "options": [
-        {
-          "id": "A",
-          "text": "os resultados respeitam as permissões de acesso do usuário."
-        },
-        {
-          "id": "B",
-          "text": "todo documento não localizado foi eliminado."
-        },
-        {
-          "id": "C",
-          "text": "a pesquisa só funciona em processo concluído."
-        },
-        {
-          "id": "D",
-          "text": "o histórico substitui todos os documentos."
-        },
-        {
-          "id": "E",
-          "text": "o NUP impede pesquisa textual."
-        }
+        { "id": "A", "text": "os resultados respeitam as permissões de acesso do usuário." },
+        { "id": "B", "text": "todo documento não localizado foi eliminado." },
+        { "id": "C", "text": "a pesquisa só funciona em processo concluído." },
+        { "id": "D", "text": "o histórico substitui todos os documentos." },
+        { "id": "E", "text": "o NUP impede pesquisa textual." }
       ],
       "correctOptionId": "A",
       "explanation": "Conteúdo protegido pode não aparecer ao usuário sem permissão; ausência no resultado não prova inexistência."
@@ -1268,26 +638,11 @@
       "origin": "authorial",
       "prompt": "O histórico do processo é importante porque",
       "options": [
-        {
-          "id": "A",
-          "text": "substitui a leitura dos documentos."
-        },
-        {
-          "id": "B",
-          "text": "registra operações e movimentações relevantes para a rastreabilidade."
-        },
-        {
-          "id": "C",
-          "text": "permite alterar fatos passados sem registro."
-        },
-        {
-          "id": "D",
-          "text": "publica automaticamente o processo."
-        },
-        {
-          "id": "E",
-          "text": "elimina a necessidade de metadados."
-        }
+        { "id": "A", "text": "substitui a leitura dos documentos." },
+        { "id": "B", "text": "registra operações e movimentações relevantes para a rastreabilidade." },
+        { "id": "C", "text": "permite alterar fatos passados sem registro." },
+        { "id": "D", "text": "publica automaticamente o processo." },
+        { "id": "E", "text": "elimina a necessidade de metadados." }
       ],
       "correctOptionId": "B",
       "explanation": "O histórico documenta a trajetória do processo, mas deve ser interpretado junto com seus documentos e atos."
@@ -1298,26 +653,11 @@
       "origin": "authorial",
       "prompt": "A função de publicação no SEI",
       "options": [
-        {
-          "id": "A",
-          "text": "é idêntica ao nível de acesso público."
-        },
-        {
-          "id": "B",
-          "text": "libera automaticamente todo o processo a qualquer pessoa."
-        },
-        {
-          "id": "C",
-          "text": "é operação própria e não se confunde com acesso público, acesso externo ou envio."
-        },
-        {
-          "id": "D",
-          "text": "transforma comentário em ato normativo."
-        },
-        {
-          "id": "E",
-          "text": "substitui o Tramita GOV.BR."
-        }
+        { "id": "A", "text": "é idêntica ao nível de acesso público." },
+        { "id": "B", "text": "libera automaticamente todo o processo a qualquer pessoa." },
+        { "id": "C", "text": "é operação própria e não se confunde com acesso público, acesso externo ou envio." },
+        { "id": "D", "text": "transforma comentário em ato normativo." },
+        { "id": "E", "text": "substitui o Tramita GOV.BR." }
       ],
       "correctOptionId": "C",
       "explanation": "Publicação, acesso e tramitação são operações distintas, ainda que possam coexistir em um mesmo processo."
@@ -1328,26 +668,11 @@
       "origin": "authorial",
       "prompt": "O Tramita GOV.BR é destinado principalmente a",
       "options": [
-        {
-          "id": "A",
-          "text": "receber requerimentos do cidadão diretamente."
-        },
-        {
-          "id": "B",
-          "text": "expedir processos e documentos avulsos entre sistemas de processo eletrônico."
-        },
-        {
-          "id": "C",
-          "text": "emitir certificados digitais."
-        },
-        {
-          "id": "D",
-          "text": "substituir o SEI dentro de cada unidade."
-        },
-        {
-          "id": "E",
-          "text": "organizar minutas para assinatura."
-        }
+        { "id": "A", "text": "receber requerimentos do cidadão diretamente." },
+        { "id": "B", "text": "expedir processos e documentos avulsos entre sistemas de processo eletrônico." },
+        { "id": "C", "text": "emitir certificados digitais." },
+        { "id": "D", "text": "substituir o SEI dentro de cada unidade." },
+        { "id": "E", "text": "organizar minutas para assinatura." }
       ],
       "correctOptionId": "B",
       "explanation": "O Tramita GOV.BR é a camada de interoperabilidade externa entre SPEs."
@@ -1358,26 +683,11 @@
       "origin": "authorial",
       "prompt": "Dois órgãos usam sistemas de processo diferentes. Eles podem interoperar pelo Tramita GOV.BR porque",
       "options": [
-        {
-          "id": "A",
-          "text": "a plataforma conecta SPEs diferentes quando integrados ao padrão aplicável."
-        },
-        {
-          "id": "B",
-          "text": "todos os participantes precisam migrar para a mesma instalação do SEI."
-        },
-        {
-          "id": "C",
-          "text": "o Tramita elimina requisitos de segurança."
-        },
-        {
-          "id": "D",
-          "text": "o Protocolo Integrado substitui os dois sistemas."
-        },
-        {
-          "id": "E",
-          "text": "o NUP funciona como sistema de transporte."
-        }
+        { "id": "A", "text": "a plataforma conecta SPEs diferentes quando integrados ao padrão aplicável." },
+        { "id": "B", "text": "todos os participantes precisam migrar para a mesma instalação do SEI." },
+        { "id": "C", "text": "o Tramita elimina requisitos de segurança." },
+        { "id": "D", "text": "o Protocolo Integrado substitui os dois sistemas." },
+        { "id": "E", "text": "o NUP funciona como sistema de transporte." }
       ],
       "correctOptionId": "A",
       "explanation": "A finalidade do Tramita é justamente permitir troca entre sistemas distintos, sem exigir identidade de software."
@@ -1388,26 +698,11 @@
       "origin": "authorial",
       "prompt": "A denominação histórica “Barramento de Serviços do PEN” corresponde atualmente ao",
       "options": [
-        {
-          "id": "A",
-          "text": "Protocolo GOV.BR."
-        },
-        {
-          "id": "B",
-          "text": "Tramita GOV.BR."
-        },
-        {
-          "id": "C",
-          "text": "NUP."
-        },
-        {
-          "id": "D",
-          "text": "Protocolo Integrado."
-        },
-        {
-          "id": "E",
-          "text": "bloco de assinatura."
-        }
+        { "id": "A", "text": "Protocolo GOV.BR." },
+        { "id": "B", "text": "Tramita GOV.BR." },
+        { "id": "C", "text": "NUP." },
+        { "id": "D", "text": "Protocolo Integrado." },
+        { "id": "E", "text": "bloco de assinatura." }
       ],
       "correctOptionId": "B",
       "explanation": "Barramento de Serviços do PEN é denominação histórica da solução atualmente chamada Tramita GOV.BR."
@@ -1418,26 +713,11 @@
       "origin": "authorial",
       "prompt": "Um cidadão envia requerimento ao órgão e depois o processo é expedido a outra instituição. Os serviços usados são, respectivamente,",
       "options": [
-        {
-          "id": "A",
-          "text": "Protocolo GOV.BR e Tramita GOV.BR."
-        },
-        {
-          "id": "B",
-          "text": "Protocolo Integrado e NUP."
-        },
-        {
-          "id": "C",
-          "text": "Tramita GOV.BR e acompanhamento especial."
-        },
-        {
-          "id": "D",
-          "text": "NUP e bloco interno."
-        },
-        {
-          "id": "E",
-          "text": "SEI e anotação."
-        }
+        { "id": "A", "text": "Protocolo GOV.BR e Tramita GOV.BR." },
+        { "id": "B", "text": "Protocolo Integrado e NUP." },
+        { "id": "C", "text": "Tramita GOV.BR e acompanhamento especial." },
+        { "id": "D", "text": "NUP e bloco interno." },
+        { "id": "E", "text": "SEI e anotação." }
       ],
       "correctOptionId": "A",
       "explanation": "O Protocolo GOV.BR é porta de entrada externa; o Tramita GOV.BR realiza a expedição entre sistemas."
@@ -1448,26 +728,11 @@
       "origin": "authorial",
       "prompt": "Sobre o NUP, assinale a correta.",
       "options": [
-        {
-          "id": "A",
-          "text": "Sua função central é identificar o expediente."
-        },
-        {
-          "id": "B",
-          "text": "Ele define automaticamente o sigilo."
-        },
-        {
-          "id": "C",
-          "text": "Ele substitui a assinatura eletrônica."
-        },
-        {
-          "id": "D",
-          "text": "Ele transporta o processo entre órgãos."
-        },
-        {
-          "id": "E",
-          "text": "Ele substitui a classificação documental."
-        }
+        { "id": "A", "text": "Sua função central é identificar o expediente." },
+        { "id": "B", "text": "Ele define automaticamente o sigilo." },
+        { "id": "C", "text": "Ele substitui a assinatura eletrônica." },
+        { "id": "D", "text": "Ele transporta o processo entre órgãos." },
+        { "id": "E", "text": "Ele substitui a classificação documental." }
       ],
       "correctOptionId": "A",
       "explanation": "Para este recorte, o essencial é sua função de identificação; a composição numérica detalhada é secundária."
@@ -1478,26 +743,11 @@
       "origin": "authorial",
       "prompt": "A adoção do processo eletrônico elimina a necessidade de gestão documental?",
       "options": [
-        {
-          "id": "A",
-          "text": "Não; classificação, temporalidade, destinação e preservação continuam relevantes."
-        },
-        {
-          "id": "B",
-          "text": "Sim, porque todo arquivo digital é permanente."
-        },
-        {
-          "id": "C",
-          "text": "Sim, quando há NUP."
-        },
-        {
-          "id": "D",
-          "text": "Sim, se o processo estiver no SEI."
-        },
-        {
-          "id": "E",
-          "text": "Não, mas somente documentos em papel possuem metadados."
-        }
+        { "id": "A", "text": "Não; classificação, temporalidade, destinação e preservação continuam relevantes." },
+        { "id": "B", "text": "Sim, porque todo arquivo digital é permanente." },
+        { "id": "C", "text": "Sim, quando há NUP." },
+        { "id": "D", "text": "Sim, se o processo estiver no SEI." },
+        { "id": "E", "text": "Não, mas somente documentos em papel possuem metadados." }
       ],
       "correctOptionId": "A",
       "explanation": "O suporte eletrônico não elimina as responsabilidades de gestão e preservação documental."
@@ -1508,26 +758,11 @@
       "origin": "authorial",
       "prompt": "A afirmação “o SEI, sozinho, resolve toda a preservação arquivística de longo prazo” é",
       "options": [
-        {
-          "id": "A",
-          "text": "correta em todo processo público."
-        },
-        {
-          "id": "B",
-          "text": "correta quando houver assinatura eletrônica."
-        },
-        {
-          "id": "C",
-          "text": "incorreta, pois gestão e preservação exigem políticas e requisitos próprios."
-        },
-        {
-          "id": "D",
-          "text": "incorreta apenas para documentos em papel."
-        },
-        {
-          "id": "E",
-          "text": "correta se o processo tiver NUP."
-        }
+        { "id": "A", "text": "correta em todo processo público." },
+        { "id": "B", "text": "correta quando houver assinatura eletrônica." },
+        { "id": "C", "text": "incorreta, pois gestão e preservação exigem políticas e requisitos próprios." },
+        { "id": "D", "text": "incorreta apenas para documentos em papel." },
+        { "id": "E", "text": "correta se o processo tiver NUP." }
       ],
       "correctOptionId": "C",
       "explanation": "O SEI apoia a gestão processual, mas não substitui todas as políticas e estruturas de gestão arquivística."
@@ -1538,26 +773,11 @@
       "origin": "authorial",
       "prompt": "A disponibilidade do SEI 5.0.4 em 2026 demonstra que",
       "options": [
-        {
-          "id": "A",
-          "text": "o material de estudo deve evitar tratar a linha 4 como única referência atual."
-        },
-        {
-          "id": "B",
-          "text": "todas as instalações são idênticas."
-        },
-        {
-          "id": "C",
-          "text": "a versão do sistema define a lei aplicável."
-        },
-        {
-          "id": "D",
-          "text": "o SEI substituiu o PEN."
-        },
-        {
-          "id": "E",
-          "text": "o Tramita GOV.BR deixou de existir."
-        }
+        { "id": "A", "text": "o material de estudo deve evitar tratar a linha 4 como única referência atual." },
+        { "id": "B", "text": "todas as instalações são idênticas." },
+        { "id": "C", "text": "a versão do sistema define a lei aplicável." },
+        { "id": "D", "text": "o SEI substituiu o PEN." },
+        { "id": "E", "text": "o Tramita GOV.BR deixou de existir." }
       ],
       "correctOptionId": "A",
       "explanation": "A linha 5 já estava disponível no corte; ainda assim, versão e configuração local não devem ser convertidas em regra jurídica universal."
@@ -1568,26 +788,11 @@
       "origin": "authorial",
       "prompt": "Prática observada em uma instalação específica do SEI",
       "options": [
-        {
-          "id": "A",
-          "text": "deve ser tratada automaticamente como regra nacional."
-        },
-        {
-          "id": "B",
-          "text": "pode variar conforme versão, módulos, perfis e normas internas."
-        },
-        {
-          "id": "C",
-          "text": "sempre decorre do Decreto nº 8.539/2015."
-        },
-        {
-          "id": "D",
-          "text": "nunca pode diferir entre instituições."
-        },
-        {
-          "id": "E",
-          "text": "substitui a documentação oficial."
-        }
+        { "id": "A", "text": "deve ser tratada automaticamente como regra nacional." },
+        { "id": "B", "text": "pode variar conforme versão, módulos, perfis e normas internas." },
+        { "id": "C", "text": "sempre decorre do Decreto nº 8.539/2015." },
+        { "id": "D", "text": "nunca pode diferir entre instituições." },
+        { "id": "E", "text": "substitui a documentação oficial." }
       ],
       "correctOptionId": "B",
       "explanation": "Instalações do SEI podem variar; é preciso separar comportamento local de regra geral documentada."
@@ -1598,26 +803,11 @@
       "origin": "authorial",
       "prompt": "No âmbito federal, a gestão do PEN está vinculada à SEGES/MGI e sua coordenação é exercida pela",
       "options": [
-        {
-          "id": "A",
-          "text": "Autoridade Certificadora Raiz."
-        },
-        {
-          "id": "B",
-          "text": "Diretoria de Transformação Digital em Processo Eletrônico e Sistemas de Gestão (DTGES)."
-        },
-        {
-          "id": "C",
-          "text": "Câmara dos Deputados."
-        },
-        {
-          "id": "D",
-          "text": "Autoridade de Registro."
-        },
-        {
-          "id": "E",
-          "text": "Controladoria-Geral da União exclusivamente."
-        }
+        { "id": "A", "text": "Autoridade Certificadora Raiz." },
+        { "id": "B", "text": "Diretoria de Transformação Digital em Processo Eletrônico e Sistemas de Gestão (DTGES)." },
+        { "id": "C", "text": "Câmara dos Deputados." },
+        { "id": "D", "text": "Autoridade de Registro." },
+        { "id": "E", "text": "Controladoria-Geral da União exclusivamente." }
       ],
       "correctOptionId": "B",
       "explanation": "A estrutura vigente em 2026 atribui à DTGES a coordenação do PEN no âmbito da Secretaria de Gestão e Inovação do MGI."
@@ -1628,26 +818,11 @@
       "origin": "authorial",
       "prompt": "O PEN foi formalizado originalmente",
       "options": [
-        {
-          "id": "A",
-          "text": "em 2013, por acordo de cooperação técnica entre instituições públicas."
-        },
-        {
-          "id": "B",
-          "text": "em 2025, com o Tramita GOV.BR."
-        },
-        {
-          "id": "C",
-          "text": "em 2024, com o ProPEN."
-        },
-        {
-          "id": "D",
-          "text": "em 2015, pelo Decreto nº 8.539."
-        },
-        {
-          "id": "E",
-          "text": "em 2026, com o SEI 5.0.4."
-        }
+        { "id": "A", "text": "em 2013, por acordo de cooperação técnica entre instituições públicas." },
+        { "id": "B", "text": "em 2025, com o Tramita GOV.BR." },
+        { "id": "C", "text": "em 2024, com o ProPEN." },
+        { "id": "D", "text": "em 2015, pelo Decreto nº 8.539." },
+        { "id": "E", "text": "em 2026, com o SEI 5.0.4." }
       ],
       "correctOptionId": "A",
       "explanation": "A formalização ocorreu em 2013; os demais marcos são posteriores e cumprem outras funções."
@@ -1658,26 +833,11 @@
       "origin": "authorial",
       "prompt": "O ProPEN deve ser lembrado principalmente como",
       "options": [
-        {
-          "id": "A",
-          "text": "programa de expansão das soluções do PEN."
-        },
-        {
-          "id": "B",
-          "text": "novo nome do SEI."
-        },
-        {
-          "id": "C",
-          "text": "serviço de assinatura qualificada."
-        },
-        {
-          "id": "D",
-          "text": "sinônimo de Protocolo GOV.BR."
-        },
-        {
-          "id": "E",
-          "text": "sistema de classificação de sigilo."
-        }
+        { "id": "A", "text": "programa de expansão das soluções do PEN." },
+        { "id": "B", "text": "novo nome do SEI." },
+        { "id": "C", "text": "serviço de assinatura qualificada." },
+        { "id": "D", "text": "sinônimo de Protocolo GOV.BR." },
+        { "id": "E", "text": "sistema de classificação de sigilo." }
       ],
       "correctOptionId": "A",
       "explanation": "O ProPEN amplia a adoção das soluções de processo eletrônico, sem substituir conceitualmente PEN ou SEI."
@@ -1688,26 +848,11 @@
       "origin": "authorial",
       "prompt": "Um cidadão protocola requerimento; o órgão o instrui no SEI e depois o remete a outro órgão por interoperabilidade. A sequência correta é",
       "options": [
-        {
-          "id": "A",
-          "text": "Protocolo GOV.BR → SEI → Tramita GOV.BR."
-        },
-        {
-          "id": "B",
-          "text": "NUP → Protocolo Integrado → anotação."
-        },
-        {
-          "id": "C",
-          "text": "Tramita GOV.BR → SEI → Protocolo GOV.BR."
-        },
-        {
-          "id": "D",
-          "text": "bloco de assinatura → NUP → ciência."
-        },
-        {
-          "id": "E",
-          "text": "Protocolo Integrado → NUP → bloco interno."
-        }
+        { "id": "A", "text": "Protocolo GOV.BR → SEI → Tramita GOV.BR." },
+        { "id": "B", "text": "NUP → Protocolo Integrado → anotação." },
+        { "id": "C", "text": "Tramita GOV.BR → SEI → Protocolo GOV.BR." },
+        { "id": "D", "text": "bloco de assinatura → NUP → ciência." },
+        { "id": "E", "text": "Protocolo Integrado → NUP → bloco interno." }
       ],
       "correctOptionId": "A",
       "explanation": "A sequência distingue entrada externa, gestão processual interna e expedição para outro sistema."
@@ -1718,26 +863,11 @@
       "origin": "authorial",
       "prompt": "Um usuário externo recebe documento para assinatura no SEI. Isso significa que",
       "options": [
-        {
-          "id": "A",
-          "text": "ele passa a possuir todas as permissões internas da unidade."
-        },
-        {
-          "id": "B",
-          "text": "ele pode praticar a função especificamente liberada, conforme permissões e prazo."
-        },
-        {
-          "id": "C",
-          "text": "todo o processo se torna público."
-        },
-        {
-          "id": "D",
-          "text": "a unidade perde competência sobre o processo."
-        },
-        {
-          "id": "E",
-          "text": "a assinatura substitui qualquer regra jurídica de competência."
-        }
+        { "id": "A", "text": "ele passa a possuir todas as permissões internas da unidade." },
+        { "id": "B", "text": "ele pode praticar a função especificamente liberada, conforme permissões e prazo." },
+        { "id": "C", "text": "todo o processo se torna público." },
+        { "id": "D", "text": "a unidade perde competência sobre o processo." },
+        { "id": "E", "text": "a assinatura substitui qualquer regra jurídica de competência." }
       ],
       "correctOptionId": "B",
       "explanation": "A assinatura externa pode ser disponibilizada de forma delimitada; o cadastro externo não converte o usuário em interno."
@@ -1748,26 +878,11 @@
       "origin": "authorial",
       "prompt": "Uma unidade atribui o processo a Ana, envia-o a outra unidade sem mantê-lo aberto e depois precisa apenas consultar o histórico. É correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "Ana tornou-se proprietária exclusiva e o envio era impossível."
-        },
-        {
-          "id": "B",
-          "text": "o envio apagou o histórico e exige novo NUP."
-        },
-        {
-          "id": "C",
-          "text": "a atribuição apenas organizou o trabalho, o envio concluiu normalmente na origem e a consulta não exige reabertura."
-        },
-        {
-          "id": "D",
-          "text": "o processo foi automaticamente concluído na destinatária."
-        },
-        {
-          "id": "E",
-          "text": "o processo tornou-se sigiloso pelo envio."
-        }
+        { "id": "A", "text": "Ana tornou-se proprietária exclusiva e o envio era impossível." },
+        { "id": "B", "text": "o envio apagou o histórico e exige novo NUP." },
+        { "id": "C", "text": "a atribuição apenas organizou o trabalho, o envio concluiu normalmente na origem e a consulta não exige reabertura." },
+        { "id": "D", "text": "o processo foi automaticamente concluído na destinatária." },
+        { "id": "E", "text": "o processo tornou-se sigiloso pelo envio." }
       ],
       "correctOptionId": "C",
       "explanation": "Atribuição, conclusão local e consulta são operações distintas; nenhuma delas produz os efeitos absolutos descritos nos distratores."
@@ -1778,29 +893,74 @@
       "origin": "authorial",
       "prompt": "Uma equipe quer monitorar um processo, registrar observação apenas local e acompanhar a expectativa de devolução de outra unidade. Os recursos adequados são",
       "options": [
-        {
-          "id": "A",
-          "text": "anexação, publicação e NUP."
-        },
-        {
-          "id": "B",
-          "text": "sigilo, ciência e bloco de assinatura."
-        },
-        {
-          "id": "C",
-          "text": "Protocolo Integrado, comentário e conclusão global."
-        },
-        {
-          "id": "D",
-          "text": "acompanhamento especial, anotação e retorno programado."
-        },
-        {
-          "id": "E",
-          "text": "Tramita GOV.BR, NUP e publicação."
-        }
+        { "id": "A", "text": "anexação, publicação e NUP." },
+        { "id": "B", "text": "sigilo, ciência e bloco de assinatura." },
+        { "id": "C", "text": "Protocolo Integrado, comentário e conclusão global." },
+        { "id": "D", "text": "acompanhamento especial, anotação e retorno programado." },
+        { "id": "E", "text": "Tramita GOV.BR, NUP e publicação." }
       ],
       "correctOptionId": "D",
       "explanation": "Acompanhamento especial monitora, anotação permanece local e retorno programado acompanha a devolução sem realizá-la automaticamente."
+    },
+    {
+      "id": "q522046",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Com base no Manual do Usuário do Sistema Eletrônico de Informações (SEI), no que tange à atribuição de processos, assinale a alternativa correta.",
+      "options": [
+        { "id": "A", "text": "O número máximo de processos que podem ser atribuídos a um usuário é de 15." },
+        { "id": "B", "text": "Dentro de uma unidade, um processo atribuído a um usuário não pode ser desatribuído." },
+        { "id": "C", "text": "Um processo recém-aberto é atribuído automaticamente ao usuário que o abriu." },
+        { "id": "D", "text": "A atribuição de um processo impede a edição por outro usuário da mesma unidade." },
+        { "id": "E", "text": "Um mesmo processo pode ser atribuído simultaneamente a uma ou mais pessoas dentro da unidade." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C é o gabarito definitivo: no SEI, o processo recém-aberto é atribuído automaticamente ao usuário que o abriu. Gabarito definitivo oficial: https://www.iades.com.br/inscricao/upload/1345/20241209155047238.pdf. Fonte da prova aplicada, corroborada pelo portal oficial do concurso (pacote de provas de nível médio): IADES; Conselho Federal de Medicina; Assistente de Tecnologia da Informação; prova Tipo A; 2024; questão 23; https://arquivos.qconcursos.com/prova/arquivo_prova/123223/iades-2024-cfm-assistente-de-tecnologia-da-informacao-prova.pdf; pacote oficial: https://www.iades.com.br/inscricao/upload/1345/2024111861833347.zip."
+    },
+    {
+      "id": "q522047",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No Sistema Eletrônico de Informações (SEI), o bloco de assinatura é a funcionalidade utilizada para que um documento seja assinado por um ou mais usuários de unidades diferentes da unidade elaboradora. Com base nesse tema, assinale a alternativa correta.",
+      "options": [
+        { "id": "A", "text": "O bloco de assinatura permite a assinatura simultânea de vários documentos, com ou sem visualização de seus conteúdos." },
+        { "id": "B", "text": "É possível disponibilizar bloco de assinatura para a unidade geradora do processo." },
+        { "id": "C", "text": "O bloco de assinatura pode ser disponibilizado para, no máximo, duas unidades distintas." },
+        { "id": "D", "text": "Não é possível assinar documentos de um bloco de assinatura antes da sua disponibilização." },
+        { "id": "E", "text": "O SEI não permite a inclusão de um único documento em vários blocos de assinatura." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alternativa A é o gabarito definitivo. Gabarito definitivo oficial: https://www.iades.com.br/inscricao/upload/1345/20241209155047238.pdf. Fonte da prova aplicada, corroborada pelo portal oficial do concurso (pacote de provas de nível superior): IADES; Conselho Federal de Medicina; Contador; prova Tipo A; 2024; questão 48; https://arquivos.qconcursos.com/prova/arquivo_prova/123219/iades-2024-cfm-contador-prova.pdf; pacote oficial: https://www.iades.com.br/inscricao/upload/1345/2024111861532211.zip."
+    },
+    {
+      "id": "q522048",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Acerca das operações básicas com processos, previstas no Manual do Usuário do Sistema Eletrônico de Informações (SEI), assinale a alternativa correta.",
+      "options": [
+        { "id": "A", "text": "Para garantir a segurança das informações, os processos abertos indevidamente no SEI não podem ser excluídos." },
+        { "id": "B", "text": "O envio de um processo para outra unidade sem selecionar a opção “manter processo aberto na unidade atual” não tem o mesmo efeito de proceder à conclusão do processo." },
+        { "id": "C", "text": "Somente é possível reabrir um processo que já tenha passado pela unidade em que a operação é efetuada." },
+        { "id": "D", "text": "A alteração do tipo de um processo será permitida apenas para a unidade que o criou." },
+        { "id": "E", "text": "Os processos sigilosos, para melhor organização e controle, devem ser incluídos em acompanhamento especial." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C é o gabarito definitivo: a reabertura só é possível em unidade pela qual o processo já tenha tramitado. Gabarito definitivo oficial: https://www.iades.com.br/inscricao/upload/1345/20241209155047238.pdf. Fonte da prova aplicada, corroborada pelo portal oficial do concurso (pacote de provas de nível superior): IADES; Conselho Federal de Medicina; Contador; prova Tipo A; 2024; questão 49; https://arquivos.qconcursos.com/prova/arquivo_prova/123219/iades-2024-cfm-contador-prova.pdf; pacote oficial: https://www.iades.com.br/inscricao/upload/1345/2024111861532211.zip."
+    },
+    {
+      "id": "q522049",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Segundo o previsto no Manual do Usuário do Sistema Eletrônico de Informações (SEI), o usuário externo é pessoa autorizada a visualizar processos e documentos do SEI. Acerca desse tema, assinale a alternativa correta.",
+      "options": [
+        { "id": "A", "text": "Os documentos externos podem ser liberados para assinatura por usuário externo." },
+        { "id": "B", "text": "A concessão de acesso ao usuário externo terá prazo de validade de 30 dias, prorrogável uma vez, por igual período." },
+        { "id": "C", "text": "O usuário externo não pode obter autorização para assinatura de documentos internos." },
+        { "id": "D", "text": "Os processos restritos e sigilosos não permitem que usuários externos possuam autorização de acesso." },
+        { "id": "E", "text": "O usuário externo poderá obter a visualização integral de um processo, bem como de todas as suas atualizações posteriores à disponibilização do acesso." }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A alternativa E é o gabarito definitivo: o usuário externo pode receber acesso integral ao processo, inclusive às atualizações posteriores, conforme a concessão realizada. Gabarito definitivo oficial: https://www.iades.com.br/inscricao/upload/1345/20241209155047238.pdf. Fonte da prova aplicada, corroborada pelo portal oficial do concurso (pacote de provas de nível superior): IADES; Conselho Federal de Medicina; Contador; prova Tipo A; 2024; questão 50; https://arquivos.qconcursos.com/prova/arquivo_prova/123219/iades-2024-cfm-contador-prova.pdf; pacote oficial: https://www.iades.com.br/inscricao/upload/1345/2024111861532211.zip."
     }
   ]
 }
