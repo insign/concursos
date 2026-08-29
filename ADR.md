@@ -154,3 +154,31 @@ Related: ADR-001, ADR-003, ADR-004, and GitHub issue #309.
 - ⚠️ Availability and coverage follow the current editorial catalog and require a new build when documents or nested-group delegation change.
 - ⚠️ Conditional runtime loading and offline inventory integration add review-specific build and validation paths.
 - ❌ A mega review has no independent subject progress, answers, studied state, simulator snapshot, backup record, or synchronization identity, and the group still has no public route of its own.
+
+## ADR-006: Defer custom incremental build cache — keep optimized full-build fallback (2026-08-29)
+
+**Status**: Accepted
+
+**Context**: The project is a fully static Astro 7 site deployed on Cloudflare Pages with Git integration (`concursos-ebs`, V3 build image `Node 22.16.0`, `build_caching: true` warm hit). Build performance investigation under issue #515 evaluated whether a custom incremental build cache could avoid full rebuilds. Verification against the official Pages Build caching documentation dated 2026-05-27 ([Build caching — Cloudflare Pages](https://developers.cloudflare.com/pages/configuration/build-caching/)) confirms the allow-list is closed: only `.npm` and `node_modules/.astro` are cached. Custom `BUILD_CACHE_DIR` paths are not supported. Verified hard limits for the current architecture are: 20k files on the Free plan / 100k files on the Paid plan when `PAGES_WRANGLER_MAJOR_VERSION=4`, 25 MiB per file, 20-minute build timeout, and a 7-day / 10 GB LRU build cache. At the projected scale of N×M = 30×300 contests/subjects (~27k HTML files plus assets), the Free-tier file limit would be exceeded regardless of caching strategy.
+
+Related: GitHub issue #515, PR #606.
+
+**Decision**:
+- Do not implement a custom `BUILD_CACHE_DIR` or transactional sharded-build-with-assemble strategy in this phase; Phase 4 is explicitly deferred.
+- Keep the optimized full-build fallback as the production build path.
+- Retain the gains already delivered by Phases 0–3: I/O parallelism, catalog memoization, and additive shards.
+- Re-evaluate only if N×M reaches the ~27k HTML threshold (30×300), at which point a Paid tier (100k files) and a re-evaluation of Cloudflare Workers Static Assets as an alternative to Pages become required.
+
+**Rationale**:
+- A custom incremental cache would depend on a `BUILD_CACHE_DIR` that Pages Build caching does not persist; any implementation would be silently ineffective and risk serving stale content.
+- Sharded builds with transactional assembly add significant complexity (deterministic sharding, atomic promotion, fallback on failure) without removing the underlying file-count ceiling.
+- Phases 0–3 already deliver 30–70% build-time improvement while preserving a simple, fully static, and cache-safe pipeline.
+- Deferring Phase 4 avoids premature coupling to an unsupported cache contract and keeps the architecture aligned with Cloudflare's documented behavior, while documenting the exact re-entry condition (30×300 scale).
+
+**Consequences**:
+- ✅ Deploys remain full builds but benefit from 30–70% gains via Phases 0–3 parallelism, memoization, and additive shards without additional infrastructure.
+- ✅ No risk of stale or inconsistent incremental cache, since no unsupported cache directory is relied upon.
+- ✅ Build pipeline stays simple, fully static, and compatible with the existing Pages Git integration and V3 image.
+- ⚠️ At 30×300 scale (~27k HTML) the 20k Free-tier file limit will be exceeded; upgrade to Paid tier (100k files) and re-evaluation of Workers Static Assets will be mandatory before Phase 4 can be reconsidered.
+- ⚠️ Phase 4 remains a deferred ADR; any future incremental strategy must re-validate the Pages Build caching allow-list and the `PAGES_WRANGLER_MAJOR_VERSION=4` limits before implementation.
+- ❌ No custom incremental build cache or sharded assemble optimization is introduced in this phase; every deploy still builds the full site.
