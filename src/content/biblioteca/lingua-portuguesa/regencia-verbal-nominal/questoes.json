@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q3459",
@@ -978,36 +978,6 @@
       "explanation": "O gabarito definitivo indica A, que mantém diante do relativo a preposição exigida em “precisar de”. Questão original da FGV, TCE-SP — Auxiliar Técnico da Fiscalização – TI, Tipo 2 (Verde), 2023, questão 8. Gabarito definitivo: A. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/auxiliar-tecnico-da-fiscalizacao-tiatf-001-tipo-2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tcesp2023_gabarito_definitivo-vf.pdf."
     },
     {
-      "id": "q3524",
-      "revision": 1,
-      "origin": "previous_exam",
-      "prompt": "As preposições podem ser nocionais, se colaboram com o significado da frase, e relacionais, se são empregadas por exigência da regência.\nAssinale a frase a seguir em que a preposição COM tem valor nocional e não gramatical.",
-      "options": [
-        {"id": "A", "text": "Não há como conviver com as restrições impostas."},
-        {"id": "B", "text": "As pessoas com quem casamos mudam com o tempo."},
-        {"id": "C", "text": "Deus Todo Poderoso fez as mulheres para combinarem com os homens."},
-        {"id": "D", "text": "Os poucos príncipes encantados que existem se casam com heroínas fantásticas."},
-        {"id": "E", "text": "Minha versão de príncipe encantado é um ator francês com a voz do Cid Moreira."}
-      ],
-      "correctOptionId": "E",
-      "explanation": "O gabarito definitivo indica E, em que “com” acrescenta valor nocional, em contraste com as ocorrências exigidas pelas construções verbais das demais alternativas. Questão original da FGV, DPE-RO — Técnico Administrativo – Classe A, Tipo 4 (Azul), 2025, questão 4. Gabarito definitivo: E. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-administrativo-classe-acnm001-tipo-4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-defintivo-dpe-ro.pdf."
-    },
-    {
-      "id": "q3525",
-      "revision": 1,
-      "origin": "previous_exam",
-      "prompt": "Etnias e culturas do Brasil\nDiante de um mapa do Brasil as diversidades regionais, oriundas dos contrastes geográficos, são ainda enriquecidas pela variação da paisagem cultural. Torna-se possível, enfim, em face das variedades geográficas e culturais, fixar duas regiões bem definidas, uma em que ainda se mantém viva a predominância da base cultural lusitana, outra em que os traços culturais não lusitanos – os alemães, os italianos, os poloneses, os japoneses – vêm dando nova coloração à paisagem tanto física ou geográfica como social e cultural. (Manuel Diégues Jr.)\n\nA preposição DE ora é empregada por exigência de um termo anterior, ora é empregada por necessidade semântica, não sendo exigida pela regência de um termo anterior.\nO termo abaixo (texto 1), introduzido pela preposição DE, que é fruto de exigência anterior é:",
-      "options": [
-        {"id": "A", "text": "Diante de um mapa do Brasil;"},
-        {"id": "B", "text": "oriundas dos contrastes geográficos;"},
-        {"id": "C", "text": "variação da paisagem cultural;"},
-        {"id": "D", "text": "predominância da base cultural lusitana;"},
-        {"id": "E", "text": "Etnias e culturas do Brasil."}
-      ],
-      "correctOptionId": "B",
-      "explanation": "O gabarito definitivo indica B: “oriundas” seleciona a preposição “de”, preservada em “oriundas dos contrastes geográficos”. Questão original da FGV, MPU — Técnico do MPU – Administração, Tipo 2, 2025, questão 3. Gabarito definitivo: B. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/t01-tecnico-do-mpu-administracaot01-tipo-2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/mpu-gabarito-definitivo.pdf."
-    },
-    {
       "id": "q3526",
       "revision": 1,
       "origin": "previous_exam",
@@ -1023,33 +993,169 @@
       "explanation": "O gabarito definitivo indica E como a única frase sem desvio de regência nominal ou verbal. Questão original da FGV, TJ-SC — Analista Administrativo, Tipo 1 (Branca), 2015, questão 14. Gabarito definitivo: E. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/tjsc/TJSC_Analista_Administrativo_%28Analista_Administrativo%29_Tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjsc/tjsc_gabarito_definitivo.pdf."
     },
     {
-      "id": "q3527",
+      "id": "q3529",
       "revision": 1,
       "origin": "previous_exam",
-      "prompt": "A regência é um dos tópicos dos conteúdos desta prova; assinale a frase abaixo que mostra regência gramaticalmente correta.",
+      "prompt": "Assinale a opção que apresenta corretamente a regência dos verbos.",
       "options": [
-        {"id": "A", "text": "O criminoso esqueceu da arma na cena do crime."},
-        {"id": "B", "text": "O prisioneiro namorou com a advogada por dois anos."},
-        {"id": "C", "text": "O prefeito entregou o prêmio os melhores policiais."},
-        {"id": "D", "text": "A prisão implica a aplicação de uma pena."}
+        {"id": "A", "text": "Não faz sentido obedecer a leis absurdas."},
+        {"id": "B", "text": "Admito que me simpatizei muito com a nova professora de Literatura."},
+        {"id": "C", "text": "Nossos vizinhos se mudaram e residem agora à rua das Laranjeiras."},
+        {"id": "D", "text": "Possuía uma dívida com o açougueiro, paguei-o assim que pude."},
+        {"id": "E", "text": "Vovó sempre lembra do aniversário de todos os seus netos."}
       ],
-      "correctOptionId": "D",
-      "explanation": "O gabarito definitivo indica D; na acepção de acarretar, “implicar” foi empregado com complemento direto. A questão original possui quatro alternativas, preservadas integralmente, sem quinta técnica. Questão original da FGV, Polícia Militar do Estado de São Paulo — Cabo PM 2022 (prova aplicada em 2023), Tipo 1 (Branca), questão 17. Gabarito definitivo: D. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/cabo-pmcnm001-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/pmespcabo2022_gabarito_definitivo.pdf."
+      "correctOptionId": "A",
+      "explanation": "Questão original da FGV, DATAPREV — Analista de Processamento, Tipo 1, 2024, questão 5. Gabarito definitivo: A. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-processamentocns013-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf."
     },
     {
-      "id": "q3528",
+      "id": "q3530",
       "revision": 1,
       "origin": "previous_exam",
-      "prompt": "Assinale a frase abaixo em que a preposição A – sozinha ou combinada – não é uma exigência da regência de um outro termo, mostrando um valor semântico específico.",
+      "prompt": "Nosso gramático Evanildo Bechara, recentemente falecido, já apontou a existência do dequeísmo entre nós; trata-se do emprego da preposição de junto à conjunção que em orações subordinadas substantivas, construção considerada errada.\nAssinale a opção em que a presença do dequeísmo é considerada válida.",
       "options": [
-        {"id": "A", "text": "Aos sonhos não importa o preço."},
-        {"id": "B", "text": "O despertar dá aos sonhos uma fama que eles não merecem."},
-        {"id": "C", "text": "Uma vez que somos destinados ao fracasso, tenhamos paciência."},
-        {"id": "D", "text": "Prefira afrontar o mundo servindo a sua consciência a afrontar a sua consciência servindo ao mundo."},
-        {"id": "E", "text": "Podemos nos defender de um ataque, mas somos indefesos a um elogio."}
+        {"id": "A", "text": "Reconheço de que o resultado não foi o esperado."},
+        {"id": "B", "text": "A afirmação de que todos vieram é falsa."},
+        {"id": "C", "text": "Creio de que você está com a razão."},
+        {"id": "D", "text": "É notório de que chegaremos atrasados."},
+        {"id": "E", "text": "Nego de que as coisas se tenham passado desse modo."}
       ],
-      "correctOptionId": "E",
-      "explanation": "O gabarito definitivo retificado indica E como a frase em que a preposição destacada tem valor semântico, e não de exigência regencial. Questão original da FGV, Câmara Municipal de Fortaleza — Agente Administrativo, Tipo 2 (Verde), 2024, questão 2. Gabarito definitivo: E. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/agente-administrativocnm001-tipo-2.pdf. Gabarito definitivo retificado: https://conhecimento.fgv.br/sites/default/files/concursos/cmfor2024_gabarito_definitivo-retificado-17.05.2024.pdf."
+      "correctOptionId": "B",
+      "explanation": "Questão original da FGV, Assembleia Legislativa do Estado do Amazonas — Analista de Controle, Tipo 1, 2025, questão 5. Gabarito definitivo: B. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-controle-cns202-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-am.pdf."
+    },
+    {
+      "id": "q3531",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A respeito da regência dos verbos, assinale a opção que mostra uma correta dupla possibilidade de contrução.",
+      "options": [
+        {"id": "A", "text": "Avisei-o do ocorrido / avisei-lhe o ocorrido."},
+        {"id": "B", "text": "Cientifiquei-os dos fatos / cientifiquei-lhe os fatos."},
+        {"id": "C", "text": "Contei-o da novidade / contei-lhe a novidade."},
+        {"id": "D", "text": "Disse-o da notícia / disse-lhe a notícia."},
+        {"id": "E", "text": "Narrei--lhe os detalhes / narrei-o dos detalhes."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Questão original da FGV, Assembleia Legislativa do Estado do Amazonas — Analista de Controle, Tipo 1, 2025, questão 10. Gabarito definitivo: A. As grafias “contrução” e “Narrei--lhe” foram preservadas do caderno oficial. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-controle-cns202-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-am.pdf."
+    },
+    {
+      "id": "q3532",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "“Por que me lembrei do homem que tinha vergonha de ter sido atropelado por uma carrocinha de pipoca?”\nNo fragmento acima se empregou corretamente a regência do verbo lembrar.\nAssinale a alternativa que apresenta a frase correta quanto à regência.",
+      "options": [
+        {"id": "A", "text": "Os governantes esquecem-se dos perigos das guerras."},
+        {"id": "B", "text": "Onde foram os tempos tranquilos de outras épocas?"},
+        {"id": "C", "text": "Alguns países aspiram posições mais importantes no mundo."},
+        {"id": "D", "text": "Os governantes não se importam que os critiquem."},
+        {"id": "E", "text": "Avisou-se aos governantes dos perigos de um ataque nuclear."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Questão original da FGV, Tribunal de Justiça do Estado do Amazonas — Auxiliar Judiciário II, Tipo 2 (Verde), 2013, questão 4. Gabarito definitivo: A. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/tjam_-_diversos_cargos_-_auxiliar_judiciario_ii_-_tipo_02.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjam13_auxiliar_gabarito50_definitivo.pdf."
+    },
+    {
+      "id": "q3533",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção que mostra um erro de regência verbal.",
+      "options": [
+        {"id": "A", "text": "“As razões pelas quais os pesadelos acontecem ainda não são claras, mas há algumas possibilidades”."},
+        {"id": "B", "text": "“Uma delas é que, assim como os sonhos, eles podem refletir situações que não conseguimos lidar muito bem diariamente”."},
+        {"id": "C", "text": "“Estresse, ansiedade, rotina de sono irregular, uso de medicamentos antidepressivos e para hipertensão, tudo isso pode aumentar o risco de ter pesadelos”."},
+        {"id": "D", "text": "“Pessoas que sofreram algum tipo de trauma recente, como acidentes, assalto, estupro, morte de uma pessoa querida, tendem a ter sonhos ruins cuja temática esteja, de alguma maneira, ligada ao estresse a que foram submetidos”."},
+        {"id": "E", "text": "“É como se o cérebro avisasse que elas precisam passar por todo o trauma de novo até superar seu medo”."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Questão original da FGV, Secretaria de Educação de Pernambuco — Professor Intérprete de Língua Brasileira de Sinais (nível médio), Tipo 1 (Branca), 2016, questão 6. Gabarito definitivo: B. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/seepe/201602_Professor_Interprete_de_Lingua_Brasileira_de_Sinais_%28NM%29_%28ED01-NM001%29_Tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/seepe/seepe_especial_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q3534",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A frase abaixo em que o adjetivo sublinhado tem seu enriquecimento na frase por meio de um grupo prepositivo é:",
+      "options": [
+        {"id": "A", "text": "Ele é um treinador `satisfeito` com a performance do time."},
+        {"id": "B", "text": "Os jogadores muito `nervosos` não rendem bem."},
+        {"id": "C", "text": "Seu uniforme era `verde` musgo."},
+        {"id": "D", "text": "A mãe está `orgulhosa` que seus filhos se formaram."},
+        {"id": "E", "text": "Desde o ano passado, meu carro se mostra `veloz`."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Questão original da FGV, Ministério Público da União — Técnico do MPU – Administração, Tipo 1, 2025, questão 19. Gabarito definitivo: A. Os sublinhados do caderno foram representados por crases, sem alteração lexical. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/t01-tecnico-do-mpu-administracaot01-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/mpu-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q3535",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "“está no forno uma revolução da qual os médicos não escaparão, mas que terá impactos positivos para os pacientes”.\nNesse segmento do texto 1, o termo “da qual” é decorrente da regência do verbo “escapar”; a frase abaixo em que o termo sublinhado está erradamente empregado é:",
+      "options": [
+        {"id": "A", "text": "essa é uma revolução `com a qual` discordamos;"},
+        {"id": "B", "text": "esses são os fatos `contra os quais` lutamos;"},
+        {"id": "C", "text": "essas são as dificuldades `com as quais` nos defrontamos;"},
+        {"id": "D", "text": "esses são os resultados `aos quais` aludimos;"},
+        {"id": "E", "text": "essa é a mudança `à qual` visamos."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Questão original da FGV, Ministério Público do Estado do Rio de Janeiro — Técnico do Ministério Público – Área de Notificação e Atos Intimatórios, Tipo 4 (Azul), 2016, questão 5. Gabarito definitivo: A. Os sublinhados foram representados por crases, sem alteração lexical. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/mprj/MPRJ_2016_Tecnico_do_Ministerio_Publico_-_Area_de_Notificacao_e_Atos_Intimatorios_%28TMPNA%29_Tipo_4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/mprj/mprj2016_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q3536",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "“para identificar e preencher nossas carências”; nesse segmento do texto 3 o autor empregou corretamente dois verbos de mesma regência. A frase abaixo que está mal construída em razão de os dois verbos terem regência distinta é:",
+      "options": [
+        {"id": "A", "text": "para comunicar e avisar aos demais;"},
+        {"id": "B", "text": "para necessitar e gastar dinheiro;"},
+        {"id": "C", "text": "para observar e contemplar algumas paisagens;"},
+        {"id": "D", "text": "para gostar e precisar de nossas qualidades;"},
+        {"id": "E", "text": "para deslocar-se e ir a vários lugares."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Questão original da FGV, Prefeitura Municipal de Florianópolis/SC — Técnico em Agrimensura – SMDU, Tipo 1, 2014, questão 14. Gabarito definitivo: B. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/prefeitura_florianopolis/PMF_Tecnico_em_Agrimensura_%28TAG%29_Tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefeitura_florianopolis/florianopolis_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q3537",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "“Essas pessoas sofrem com as grandes distâncias dos locais de residência com os centros comerciais e os locais onde trabalham”; a frase abaixo em que o vocábulo onde/aonde foi mal empregado é:",
+      "options": [
+        {"id": "A", "text": "“Muitos suicidas se detiveram no limiar da morte ao pensar no café aonde vão todas as noites para sua partida de dominó” (Balzac);"},
+        {"id": "B", "text": "“Onde há casamento sem amor, vai haver amor sem casamento” (Franklin);"},
+        {"id": "C", "text": "“Circo é o lugar onde se permite a cavalos, pôneis e elefantes verem homens, mulheres e crianças bancarem idiotas” (Ambrose Bierce);"},
+        {"id": "D", "text": "“As pessoas onde é difícil achar defeitos devem ser difíceis de achar” (Nouailles);"},
+        {"id": "E", "text": "“Os Lusíadas se tornaram para nós um pesadelo, porque ninguém sabia onde o diabo escondia o sujeito da oração naqueles versos retorcidos” (Fernando Sabino)."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Questão original da FGV, Ministério Público do Estado do Rio de Janeiro — Analista do Ministério Público – Área Processual, Tipo 2 (Verde), 2016, questão 3. Gabarito definitivo: D. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/mprj/MPRJ_2016_Analista_do_Ministerio_Publico_-_Area_Processual_%28AMPPR%29_Tipo_2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/mprj/mprj2016_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q3538",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "“que vise à promoção de políticas de controle”; nesse segmento de texto 1 emprega-se corretamente a regência do verbo visar, que muda de sentido conforme seja transitivo direto ou transitivo indireto.\nO verbo abaixo em que NÃO ocorre a mesma possibilidade de dupla regência e duplo sentido é:",
+      "options": [
+        {"id": "A", "text": "aspirar;"},
+        {"id": "B", "text": "assistir;"},
+        {"id": "C", "text": "carecer;"},
+        {"id": "D", "text": "chamar;"},
+        {"id": "E", "text": "precisar."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Questão original da FGV, Ministério Público do Estado do Rio de Janeiro — Analista do Ministério Público – Área Processual, Tipo 2 (Verde), 2016, questão 7. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/mprj/MPRJ_2016_Analista_do_Ministerio_Publico_-_Area_Processual_%28AMPPR%29_Tipo_2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/mprj/mprj2016_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q3539",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que houve troca indevida entre O/LHE.",
+      "options": [
+        {"id": "A", "text": "Geralmente aqueles que não têm nada a dizer conseguem levar o máximo de tempo para fazê-lo."},
+        {"id": "B", "text": "Quando você fica mais velho, começam a lhe atribuir virtudes que você jamais possuiu."},
+        {"id": "C", "text": "O povo é como uma cera mole, tudo depende da mão que o modele."},
+        {"id": "D", "text": "Toda idade tem seus frutos; o que falta é saber recolher-lhes."},
+        {"id": "E", "text": "Quanto melhor se enche a vida, menos tempo se tem de perdê-la."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Questão original da FGV, Câmara Municipal de Fortaleza — Agente Administrativo, Tipo 2 (Verde), 2024, questão 4. Gabarito definitivo: D. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/agente-administrativocnm001-tipo-2.pdf. Gabarito definitivo retificado: https://conhecimento.fgv.br/sites/default/files/concursos/cmfor2024_gabarito_definitivo-retificado-17.05.2024.pdf."
     }
   ]
 }
