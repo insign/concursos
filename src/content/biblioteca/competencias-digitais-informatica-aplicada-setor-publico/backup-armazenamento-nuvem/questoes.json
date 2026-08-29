@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q4239",
@@ -1921,6 +1921,120 @@
       ],
       "correctOptionId": "D",
       "explanation": "A descrição corresponde à recuperação de desastres, que combina cópias ou replicação e locais secundários para possibilitar a retomada após eventos graves. Fonte: Cebraspe; CAGEPA; Técnico em Informática; 2024; questão 60; prova https://cdn.cebraspe.org.br/concursos/cagepa_24/arquivos/992_CAGEPA_023_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/cagepa_24/arquivos/GAB_DEFINITIVO_992_CAGEPA_023_01.PDF."
+    },
+    {
+      "id": "q4303",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Leia o fragmento a seguir.\n\nEm 2023, uma grande empresa de logística, após sofrer um ataque de ransomware, ficou com seus sistemas inoperantes. À época, a empresa não possuía um ______ atualizado, o que impediu a recuperação rápida dos dados.\n\nAssinale a opção que indica o procedimento de segurança essencial que evitaria essa demora na recuperação dos dados e completa corretamente a lacuna do fragmento acima.",
+      "options": [
+        {
+          "id": "A",
+          "text": "antivírus premium"
+        },
+        {
+          "id": "B",
+          "text": "programa de firewall"
+        },
+        {
+          "id": "C",
+          "text": "sistema de autenticação 2FA"
+        },
+        {
+          "id": "D",
+          "text": "plano de backup e contingência"
+        },
+        {
+          "id": "E",
+          "text": "software de criptografia de dispositivos móveis"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alternativa D completa o fragmento: um plano atualizado de backup e contingência viabiliza a recuperação de dados e a retomada após uma indisponibilidade provocada por ransomware. Fonte: FGV; Município de São José dos Campos; Analista em Gestão Municipal – Administração; 2025; Tipo 1 (Branca); questão 29; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-gestao-municipal-administracaocns101-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitovo-prefeitura-de-sjc.pdf."
+    },
+    {
+      "id": "q4304",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Com relação a programas de correio eletrônico, armazenamento de dados na nuvem, firewall e procedimentos de backup, julgue os próximos itens.\n\nPara se utilizar o recurso de armazenamento na nuvem do OneDrive, o usuário deve estar conectado a sua conta da Microsoft.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O item está certo: o uso do OneDrive depende da autenticação em uma conta Microsoft. Fonte: Cebraspe; Prefeitura Municipal de Cachoeiro de Itapemirim/ES; conhecimentos básicos para cargos de nível médio; 2024; item 23; prova https://cdn.cebraspe.org.br/concursos/pref_cachoeiro_24_adm/arquivos/937_PCI_ADMINISTRATIVO_CB2_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/pref_cachoeiro_24_adm/arquivos/GAB_DEFINITIVO_937_PCI_ADMINISTRATIVO_CB2_01.PDF."
+    },
+    {
+      "id": "q4305",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Com relação a programas de correio eletrônico, armazenamento de dados na nuvem, firewall e procedimentos de backup, julgue os próximos itens.\n\nO OneDrive permite que sejam selecionadas pastas específicas de arquivos do computador para serem sincronizadas e utilizadas via Web.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O item está certo: o OneDrive permite escolher pastas do computador para sincronização, mantendo-as acessíveis pelo serviço na Web. Fonte: Cebraspe; Prefeitura Municipal de Cachoeiro de Itapemirim/ES; conhecimentos básicos para cargos de nível médio; 2024; item 24; prova https://cdn.cebraspe.org.br/concursos/pref_cachoeiro_24_adm/arquivos/937_PCI_ADMINISTRATIVO_CB2_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/pref_cachoeiro_24_adm/arquivos/GAB_DEFINITIVO_937_PCI_ADMINISTRATIVO_CB2_01.PDF."
+    },
+    {
+      "id": "q4306",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Os principais sistemas de armazenamento em nuvem utilizados pelos usuários finais incluem",
+      "options": [
+        {
+          "id": "A",
+          "text": "SaaS, Google Drive, Dropbox e OneDrive."
+        },
+        {
+          "id": "B",
+          "text": "Dropbox, iCloud, PaaS e Google Drive."
+        },
+        {
+          "id": "C",
+          "text": "Dropbox, IaaS, Google Drive e OneDrive."
+        },
+        {
+          "id": "D",
+          "text": "IaaS, SaaS, PaaS e iCloud."
+        },
+        {
+          "id": "E",
+          "text": "Google Drive, Dropbox, iCloud e OneDrive."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A alternativa E reúne apenas serviços/aplicações de armazenamento em nuvem voltados ao usuário final; IaaS, PaaS e SaaS são modelos de serviço em nuvem, não nomes de sistemas de armazenamento equivalentes a Drive, Dropbox, iCloud e OneDrive. Fonte: Cebraspe; Corpo de Bombeiros Militar do Estado de Rondônia; Oficial Bombeiro Militar Complementar – Engenheiro Civil; 2022; questão 50; prova https://cdn.cebraspe.org.br/concursos/cbm_ro_22/arquivos/734_CBM_RO_OFICIAL_002_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/cbm_ro_22/arquivos/GAB_DEFINITIVO_734_CBM_RO_OFICIAL_002_01.PDF."
+    },
+    {
+      "id": "q4307",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Julgue os itens que se seguem, relativos a MSOffice M365 (Word, Excel, PowerPoint, OneDrive, Sharepoint e Teams).\n\nCom o OneDrive, é possível compartilhar arquivos e pastas com outros usuários, que podem acessá-los por meio de vários dispositivos diferentes.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O item está certo: o OneDrive permite compartilhar arquivos e pastas com outros usuários e acessá-los em dispositivos distintos, conforme permissões e disponibilidade do serviço. Fonte: Cebraspe; Fundo Nacional de Desenvolvimento da Educação (FNDE); Especialista em Financiamento e Execução de Programas e Projetos Educacionais; 2023; item 42; prova https://cdn.cebraspe.org.br/concursos/fnde_23_especialista/arquivos/913_FNDE_CB1_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/fnde_23_especialista/arquivos/GAB_DEFINITIVO_913_FNDE_CB1_01.PDF."
     }
   ]
 }
