@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   buildSubjectSuggestionModel,
+  parseSubjectSuggestionPayload,
   suggestNextSubject,
   type SubjectSuggestionCandidate,
   type SubjectSuggestionModel,
@@ -142,5 +143,36 @@ describe('subject suggestion', () => {
       ['contest--nested-one', 'contest--nested-two'],
       ['contest--sibling-subject'],
     ]);
+  });
+
+  it('validates the static payload contract', () => {
+    const payload = parseSubjectSuggestionPayload({
+      schemaVersion: 1,
+      contestSlug: 'contest',
+      contestStorageId: 'contest',
+      model: model([['a1']]),
+    });
+    expect(payload.model.groups[0]?.subjects[0]?.studiedSubjectId).toBe('contest--a1');
+    expect(() => parseSubjectSuggestionPayload({ schemaVersion: 2 })).toThrow('incompatível');
+    expect(() => parseSubjectSuggestionPayload({
+      schemaVersion: 1,
+      contestSlug: 'contest',
+      contestStorageId: 'contest',
+      model: { groups: [{ id: 'group', subjects: [{
+        studiedSubjectId: 'contest--a1',
+        title: 'a1',
+        href: 'javascript:alert(1)',
+      }] }] },
+    })).toThrow('Assunto de sugestão inválido');
+    expect(() => parseSubjectSuggestionPayload({
+      schemaVersion: 1,
+      contestSlug: 'contest',
+      contestStorageId: 'contest',
+      model: { groups: [{ id: 'group', subjects: [{
+        studiedSubjectId: 'contest--subject--extra',
+        title: 'a1',
+        href: '/concursos/contest/a1/',
+      }] }] },
+    })).toThrow('Assunto de sugestão inválido');
   });
 });

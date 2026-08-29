@@ -2,7 +2,7 @@
 import type { CatalogContest } from '../lib/catalog';
 import {
   areAllSubjectsStudied,
-  buildSubjectSuggestionModel,
+  getSubjectSuggestionModel,
   suggestNextSubject,
 } from '../lib/subject-suggestion';
 
@@ -13,7 +13,7 @@ interface Props {
 }
 
 const { contest, instanceId, currentSubjectId = null } = Astro.props;
-const model = buildSubjectSuggestionModel(contest);
+const model = getSubjectSuggestionModel(contest);
 const initialSuggestion = suggestNextSubject(model, [], currentSubjectId, null);
 const initialComplete = areAllSubjectsStudied(model, []);
 const initialStatus = initialSuggestion
@@ -22,7 +22,11 @@ const initialStatus = initialSuggestion
     ? 'Todos os assuntos deste concurso foram concluídos.'
     : 'Não há outro assunto pendente para sugerir.';
 const componentId = `subject-suggestion-${contest.storageId}-${instanceId}`;
-const serializedConfig = JSON.stringify({ model, currentSubjectId, contestStorageId: contest.storageId }).replaceAll('<', '\\u003c');
+const serializedConfig = JSON.stringify({
+  currentSubjectId,
+  contestStorageId: contest.storageId,
+  endpoint: `/subject-suggestions/${contest.storageId}.json`,
+}).replaceAll('<', '\\u003c');
 ---
 
 <aside
@@ -59,6 +63,7 @@ const serializedConfig = JSON.stringify({ model, currentSubjectId, contestStorag
   import { canResumeReading } from '../lib/navigation';
   import {
     areAllSubjectsStudied,
+    parseSubjectSuggestionPayload,
     suggestNextSubject,
     type SubjectSuggestionModel,
   } from '../lib/subject-suggestion';
@@ -66,9 +71,35 @@ const serializedConfig = JSON.stringify({ model, currentSubjectId, contestStorag
   const completionMessage = 'Todos os assuntos deste concurso foram concluídos.';
   const noAlternativeMessage = 'Não há outro assunto pendente para sugerir.';
   interface SuggestionConfig {
-    model: SubjectSuggestionModel;
     currentSubjectId: string | null;
     contestStorageId: string;
+    endpoint: string;
+  }
+
+  const modelRequests = new Map<string, Promise<SubjectSuggestionModel>>();
+
+  function loadModel(config: SuggestionConfig): Promise<SubjectSuggestionModel> {
+    let request = modelRequests.get(config.endpoint);
+    if (!request) {
+      request = fetch(config.endpoint, { cache: 'no-store' })
+        .then((response) => {
+          if (!response.ok) throw new Error(`Não foi possível carregar sugestões: ${response.status}`);
+          return response.json();
+        })
+        .then((value) => {
+          const payload = parseSubjectSuggestionPayload(value);
+          if (payload.contestStorageId !== config.contestStorageId) {
+            throw new Error('Concurso divergente no payload de sugestões');
+          }
+          return payload.model;
+        })
+        .catch((error: unknown) => {
+          modelRequests.delete(config.endpoint);
+          throw error;
+        });
+      modelRequests.set(config.endpoint, request);
+    }
+    return request;
   }
 
   const instances = Array.from(
@@ -85,17 +116,27 @@ const serializedConfig = JSON.stringify({ model, currentSubjectId, contestStorag
   });
 
   if (instances.length > 0) {
-    const renderAll = async (studiedSubjectIds: Iterable<string>, resumeByContest: Map<string, string | null>) => {
+    let refreshVersion = 0;
+    const renderAll = async (
+      studiedSubjectIds: Iterable<string>,
+      resumeByContest: Map<string, string | null>,
+      version: number,
+    ) => {
       const studied = [...studiedSubjectIds];
       const lastStudied = studied.length > 0 ? studied[studied.length - 1]! : null;
-      instances.forEach(({ config, content, link, title, status }) => {
-        let suggestion = suggestNextSubject(config.model, studied, config.currentSubjectId, lastStudied);
-        const complete = areAllSubjectsStudied(config.model, studied);
+      const rendered = await Promise.all(instances.map(async ({ config, content, link, title, status }) => {
+        const model = await loadModel(config);
+        let suggestion = suggestNextSubject(model, studied, config.currentSubjectId, lastStudied);
+        const complete = areAllSubjectsStudied(model, studied);
         // Opcao A: ocultar quando sugerido === resume
         const resumeId = resumeByContest.get(config.contestStorageId) ?? null;
         if (suggestion && resumeId && suggestion.studiedSubjectId === resumeId) {
           suggestion = null;
         }
+        return { complete, config, content, link, suggestion, title, status };
+      }));
+      if (version !== refreshVersion) return;
+      rendered.forEach(({ complete, content, link, suggestion, title, status }) => {
         content.hidden = suggestion === null;
         status.textContent = suggestion === null ? (complete ? completionMessage : noAlternativeMessage) : '';
         if (suggestion) {
@@ -105,48 +146,55 @@ const serializedConfig = JSON.stringify({ model, currentSubjectId, contestStorag
       });
     };
 
-    const alias = getActiveAlias();
-    if (alias) {
-      let refreshVersion = 0;
-      const refresh = async () => {
-        const version = ++refreshVersion;
-        try {
-          const [studiedDoc, navRecord] = await Promise.all([
-            loadStudied(alias).catch(() => ({ studiedSubjectIds: [] as string[] })),
-            getNavigationRecord(alias).catch(() => null),
-          ]);
-          if (version !== refreshVersion) return;
-          const resumeByContest = new Map<string, string | null>();
-          for (const inst of instances) {
-            const cid = inst.config.contestStorageId;
-            if (!resumeByContest.has(cid)) {
-              let rid: string | null = null;
-              const cur = navRecord?.current;
-              if (cur && canResumeReading(cur, cid)) {
-                rid = studiedSubjectId(cur.context.contestStorageId!, cur.context.subjectStorageId!);
-              }
-              resumeByContest.set(cid, rid);
+    const refresh = async () => {
+      const profileId = getActiveAlias();
+      const version = ++refreshVersion;
+      if (!profileId) return;
+      try {
+        const [studiedDoc, navRecord] = await Promise.all([
+          loadStudied(profileId).catch(() => ({ studiedSubjectIds: [] as string[] })),
+          getNavigationRecord(profileId).catch(() => null),
+        ]);
+        if (version !== refreshVersion || getActiveAlias() !== profileId) return;
+        const resumeByContest = new Map<string, string | null>();
+        for (const inst of instances) {
+          const cid = inst.config.contestStorageId;
+          if (!resumeByContest.has(cid)) {
+            let rid: string | null = null;
+            const cur = navRecord?.current;
+            if (cur && canResumeReading(cur, cid)) {
+              rid = studiedSubjectId(cur.context.contestStorageId!, cur.context.subjectStorageId!);
             }
+            resumeByContest.set(cid, rid);
           }
-          if (version !== refreshVersion) return;
-          await renderAll(studiedDoc.studiedSubjectIds, resumeByContest);
-        } catch {
-          // best-effort
         }
-      };
-      refresh();
-
-      window.addEventListener('concursos:studied-updated', (event) => {
-        if ((event as CustomEvent<{ profileId?: string }>).detail?.profileId === alias) refresh();
-      });
-      window.addEventListener('concursos:sync-status', (event) => {
-        const state = (event as CustomEvent<{ state?: string }>).detail?.state;
-        if (state === 'synced' || state === 'error') refresh();
-      });
-      window.addEventListener('concursos:navigation-updated', () => refresh());
-      window.addEventListener('concursos:navigation-synced', () => refresh());
-    } else {
-      // Sem alias: render deterministico ja feito no SSR
-    }
+        if (version !== refreshVersion) return;
+        await renderAll(studiedDoc.studiedSubjectIds, resumeByContest, version);
+      } catch {
+        // best-effort; o link SSR permanece funcional
+      }
+    };
+    const refreshForProfile = (event: Event) => {
+      const profileId = (event as CustomEvent<{ profileId?: string }>).detail?.profileId;
+      if (!profileId || profileId === getActiveAlias()) void refresh();
+    };
+    window.addEventListener('concursos:studied-updated', refreshForProfile);
+    window.addEventListener('concursos:profile-changed', () => void refresh());
+    window.addEventListener('concursos:navigation-ready', refreshForProfile);
+    window.addEventListener('concursos:sync-status', (event) => {
+      const detail = (event as CustomEvent<{ profileId?: string; state?: string }>).detail;
+      if (
+        (!detail?.profileId || detail.profileId === getActiveAlias()) &&
+        (detail?.state === 'synced' || detail?.state === 'error')
+      ) void refresh();
+    });
+    window.addEventListener('concursos:navigation-updated', () => void refresh());
+    window.addEventListener('concursos:navigation-synced', () => void refresh());
+    window.addEventListener('storage', (event) => {
+      if (event.key === 'concursos:active-alias') void refresh();
+    });
+    window.addEventListener('pageshow', () => void refresh());
+    window.addEventListener('focus', () => void refresh());
+    if (getActiveAlias()) void refresh();
   }
 </script>

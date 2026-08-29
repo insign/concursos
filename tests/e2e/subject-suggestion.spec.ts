@@ -1,4 +1,5 @@
 import { expect, test } from './fixtures';
+import { suggestNextSubject, type SubjectSuggestionModel } from '../../src/lib/subject-suggestion';
 
 const alias = 'sugestao-assunto-2026';
 const contest = 'tce-ma-2026-analista-administracao';
@@ -49,15 +50,29 @@ test('shows synchronized top and bottom suggestions with unique ARIA ids on ever
   }
 });
 
-test('updates both suggestions after marking and unmarking the current subject', async ({ page }) => {
+test('keeps both suggestions consistent with the canonical algorithm after local updates', async ({ page }) => {
   await page.addInitScript((value) => localStorage.setItem('concursos:active-alias', value), alias);
   await page.goto(`${base}/`);
   const links = suggestionLinks(page);
   const initialHref = await links.first().getAttribute('href');
   expect(initialHref).toBeTruthy();
+  const serialized = await page.locator('[data-subject-suggestion-config]').first().textContent();
+  const config = JSON.parse(serialized!) as { currentSubjectId: string; endpoint: string };
+  const payload = await page.evaluate(async (endpoint) => {
+    const response = await fetch(endpoint, { cache: 'no-store' });
+    return response.json() as Promise<{ model: SubjectSuggestionModel }>;
+  }, config.endpoint);
+  const markedHref = suggestNextSubject(
+    payload.model,
+    [config.currentSubjectId],
+    config.currentSubjectId,
+    config.currentSubjectId,
+  )?.href;
+  expect(markedHref).toBeTruthy();
 
   await page.getByRole('button', { name: 'Marcar como concluído' }).click();
-  await expect(links.first()).not.toHaveAttribute('href', initialHref!);
+  await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
+  await expect(links.first()).toHaveAttribute('href', markedHref!);
   const updatedHrefs = await links.evaluateAll((elements) =>
     elements.map((element) => element.getAttribute('href')),
   );
@@ -74,9 +89,13 @@ test('adopts remote studied state and announces a fully completed contest', asyn
   const serialized = await page.locator('[data-subject-suggestion-config]').first().textContent();
   expect(serialized).toBeTruthy();
   const config = JSON.parse(serialized!) as {
-    model: { groups: { subjects: { studiedSubjectId: string }[] }[] };
+    endpoint: string;
   };
-  const studiedSubjectIds = config.model.groups.flatMap(({ subjects }) =>
+  const payload = await page.evaluate(async (endpoint) => {
+    const response = await fetch(endpoint, { cache: 'no-store' });
+    return response.json() as Promise<{ model: { groups: { subjects: { studiedSubjectId: string }[] }[] } }>;
+  }, config.endpoint);
+  const studiedSubjectIds = payload.model.groups.flatMap(({ subjects }) =>
     subjects.map(({ studiedSubjectId }) => studiedSubjectId),
   );
 

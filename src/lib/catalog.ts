@@ -50,6 +50,8 @@ function createContestOfflineInventory(contest: CatalogContestIndex) {
     routes: [
       ...inventory.routes,
       '/navigation-catalog.json',
+      `/navigation-catalog/${contest.storageId}.json`,
+      `/subject-suggestions/${contest.storageId}.json`,
       '/simulados/',
       '/simulados/catalog.json',
       `/simulados/pool/${contest.storageId}.json`,
@@ -58,7 +60,7 @@ function createContestOfflineInventory(contest: CatalogContestIndex) {
   };
 }
 
-export async function getCatalog(): Promise<Catalog> {
+async function loadCatalog(): Promise<Catalog> {
   const [
     contestEntries,
     groupEntries,
@@ -210,6 +212,18 @@ export async function getCatalog(): Promise<Catalog> {
       };
     }),
   };
+}
+
+let catalogPromise: Promise<Catalog> | null = null;
+
+export function getCatalog(): Promise<Catalog> {
+  if (!catalogPromise) {
+    catalogPromise = loadCatalog().catch((error: unknown) => {
+      catalogPromise = null;
+      throw error;
+    });
+  }
+  return catalogPromise;
 }
 
 export async function getSubjectStaticPaths() {

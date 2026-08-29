@@ -4,8 +4,7 @@ import { registerRoute } from 'workbox-routing';
 import { NetworkOnly } from 'workbox-strategies';
 import { listOfflineContestRecords, withDatabaseTimeout } from './lib/offline-db';
 import { maybeUpdateOfflinePackages } from './lib/offline-auto-update';
-import { normalizeNavigationPath } from './lib/pwa-cache';
-import { RUNTIME_PAGE_CACHE } from './lib/pwa-cache';
+import { normalizeNavigationPath, RUNTIME_PAGE_CACHE, SHARED_ASSET_CACHE } from './lib/pwa-cache';
 
 type WorkerScope = typeof globalThis & {
   __WB_MANIFEST: Array<{ revision: string | null; url: string } | string>;
@@ -52,6 +51,42 @@ async function matchDownloadedContest(request: Request): Promise<Response | unde
   return matchActiveContestCaches(candidates);
 }
 
+async function matchRuntimePage(request: Request): Promise<Response | undefined> {
+  try {
+    const cache = await caches.open(RUNTIME_PAGE_CACHE);
+    const url = new URL(request.url);
+    const normalizedPath = normalizeNavigationPath(url.pathname);
+    const candidates = [request, new URL(normalizedPath, url.origin), new URL(`${normalizedPath}index.html`, url.origin)];
+    for (const candidate of candidates) {
+      const response = await cache.match(candidate, { ignoreVary: true });
+      if (response) return response;
+    }
+  } catch {
+    // Cache runtime é best-effort; falhas não bloqueiam rede nem pacote offline.
+  }
+  return undefined;
+}
+
+async function matchOfflineAsset(request: Request): Promise<Response | undefined> {
+  const pathname = new URL(request.url).pathname;
+  const precached = await matchPrecache(pathname);
+  if (precached) return precached;
+  try {
+    const shared = await caches.open(SHARED_ASSET_CACHE);
+    const response = await shared.match(request, { ignoreVary: true });
+    if (response) return response;
+  } catch {
+    // O pacote do concurso ainda pode conter o recurso.
+  }
+  return matchActiveContestCaches([request]);
+}
+
+async function cacheRuntimePage(request: Request, response: Response): Promise<void> {
+  if (!response.ok || response.type === 'opaque') return;
+  const cache = await caches.open(RUNTIME_PAGE_CACHE);
+  await cache.put(request, response);
+}
+
 async function fetchWithTimeout(request: Request): Promise<Response> {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 4000);
@@ -77,45 +112,53 @@ registerRoute(
       url.pathname === '/simulados/catalog.json' ||
       url.pathname.startsWith('/simulados/pool/') ||
       url.pathname.startsWith('/resolucoes/')),
-  ({ request }) => fetch(request),
+  async ({ request }) => (await matchActiveContestCaches([request])) ?? fetch(request),
+);
+
+registerRoute(
+  ({ request, url }) =>
+    url.origin === worker.location.origin &&
+    request.method === 'GET' &&
+    (url.pathname.startsWith('/subject-suggestions/') ||
+      url.pathname.startsWith('/navigation-catalog/')),
+  async ({ request }) => (await matchActiveContestCaches([request])) ?? fetch(request),
 );
 
 registerRoute(
   ({ url }) => url.origin === worker.location.origin && url.pathname.startsWith('/_astro/'),
-  ({ request }) => fetch(request),
+  async ({ request }) => (await matchOfflineAsset(request)) ?? fetch(request),
 );
 
 registerRoute(
   ({ request, url }) => url.origin === worker.location.origin && request.destination === 'image',
-  ({ request }) => fetch(request),
+  async ({ request }) => (await matchOfflineAsset(request)) ?? fetch(request),
 );
 
-(self as unknown as { addEventListener: (type: string, handler: (event: unknown) => void) => void }).addEventListener(
-  'fetch',
-  (event: unknown) => {
-    const fetchEvent = event as unknown as {
-      request: Request;
-      respondWith(r: Promise<Response>): void;
-      waitUntil?: (promise: Promise<unknown>) => void;
-    };
-    const request = fetchEvent.request;
-    if (request.mode !== 'navigate') return;
-    fetchEvent.waitUntil?.(maybeUpdateOfflinePackages('navigation').catch(() => undefined));
-    fetchEvent.respondWith(
-      (async () => {
-        const downloaded = await Promise.race([
-          matchDownloadedContest(request),
-          new Promise<undefined>((resolve) => setTimeout(() => resolve(undefined), 2000)),
-        ]).catch(() => undefined);
-        if (downloaded) {
-          // Cache-first para quem já baixou: serve offline imediato, revalida em background
-          // maybeUpdate já foi agendado no waitUntil acima; fetchWithTimeout é best-effort sem atrasar resposta
-          fetchWithTimeout(request).catch(() => undefined);
-          return downloaded;
-        }
-        return fetch(request.url);
-      })(),
-    );
+registerRoute(
+  ({ request, url }) => url.origin === worker.location.origin && request.mode === 'navigate',
+  async ({ request, event }) => {
+    event.waitUntil(maybeUpdateOfflinePackages('navigation').catch(() => undefined));
+    const downloaded = await Promise.race([
+      matchDownloadedContest(request),
+      new Promise<undefined>((resolve) => setTimeout(() => resolve(undefined), 2000)),
+    ]).catch(() => undefined);
+    if (downloaded) {
+      void fetchWithTimeout(request).catch(() => undefined);
+      return downloaded;
+    }
+    try {
+      const response = await fetch(request);
+      event.waitUntil(cacheRuntimePage(request, response.clone()).catch(() => undefined));
+      return response;
+    } catch (error) {
+      const runtime = await matchRuntimePage(request);
+      if (runtime) return runtime;
+      const offline =
+        (await matchPrecache('/offline/index.html')) ??
+        (await matchPrecache('/offline/'));
+      if (offline) return offline;
+      throw error;
+    }
   },
 );
 
