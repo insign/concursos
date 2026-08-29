@@ -36,6 +36,71 @@ export interface SubjectSuggestionModel {
   groups: SubjectSuggestionGroup[];
 }
 
+export interface SubjectSuggestionPayload {
+  schemaVersion: 1;
+  contestSlug: string;
+  contestStorageId: string;
+  model: SubjectSuggestionModel;
+}
+
+const ROUTE_SEGMENT = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
+export function parseSubjectSuggestionPayload(value: unknown): SubjectSuggestionPayload {
+  if (!value || typeof value !== 'object') throw new Error('Payload de sugestão inválido');
+  const payload = value as Partial<SubjectSuggestionPayload>;
+  if (
+    payload.schemaVersion !== 1 ||
+    typeof payload.contestSlug !== 'string' ||
+    !ROUTE_SEGMENT.test(payload.contestSlug) ||
+    typeof payload.contestStorageId !== 'string' ||
+    !ROUTE_SEGMENT.test(payload.contestStorageId) ||
+    !payload.model
+  ) {
+    throw new Error('Payload de sugestão incompatível');
+  }
+  const candidateIds = new Set<string>();
+  const hrefPattern = new RegExp(`^/concursos/${payload.contestSlug}/[a-z0-9]+(?:-[a-z0-9]+)*/$`);
+  const candidateIdPattern = new RegExp(
+    `^${payload.contestStorageId}--[a-z0-9]+(?:-[a-z0-9]+)*$`,
+  );
+  if (!Array.isArray(payload.model.groups)) throw new Error('Modelo de sugestão inválido');
+  for (const group of payload.model.groups) {
+    if (!group || typeof group.id !== 'string' || group.id.length === 0 || !Array.isArray(group.subjects)) {
+      throw new Error('Grupo de sugestão inválido');
+    }
+    for (const subject of group.subjects) {
+      if (
+        !subject ||
+        typeof subject.studiedSubjectId !== 'string' ||
+        !candidateIdPattern.test(subject.studiedSubjectId) ||
+        candidateIds.has(subject.studiedSubjectId) ||
+        typeof subject.title !== 'string' ||
+        subject.title.length === 0 ||
+        typeof subject.href !== 'string' ||
+        !hrefPattern.test(subject.href)
+      ) {
+        throw new Error('Assunto de sugestão inválido');
+      }
+      candidateIds.add(subject.studiedSubjectId);
+    }
+  }
+  return payload as SubjectSuggestionPayload;
+}
+
+const modelCache = new WeakMap<object, SubjectSuggestionModel>();
+
+export function getSubjectSuggestionModel(
+  contest: SubjectSuggestionSourceContest,
+): SubjectSuggestionModel {
+  const source = contest as object;
+  let model = modelCache.get(source);
+  if (!model) {
+    model = buildSubjectSuggestionModel(contest);
+    modelCache.set(source, model);
+  }
+  return model;
+}
+
 export function buildSubjectSuggestionModel(
   contest: SubjectSuggestionSourceContest,
 ): SubjectSuggestionModel {

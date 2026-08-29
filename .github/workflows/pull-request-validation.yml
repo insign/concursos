@@ -39,3 +39,14 @@ jobs:
 
       - name: Build production site
         run: npm run build
+
+      - name: Check build budget
+        run: npm run build:budget
+
+      - name: Upload build metrics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-metrics
+          path: .build-metrics.json
+          if-no-files-found: warn

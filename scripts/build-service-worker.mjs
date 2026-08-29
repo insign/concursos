@@ -2,6 +2,7 @@ import { unlink } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { build } from 'vite';
 import { injectManifest } from 'workbox-build';
+import { collectShellScriptDependencies } from './lib/precache-dependencies.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const outputDirectory = fileURLToPath(new URL('../dist/', import.meta.url));
@@ -31,6 +32,7 @@ await build({
   },
 });
 
+const shellScripts = await collectShellScriptDependencies(outputDirectory);
 const result = await injectManifest({
   globDirectory: outputDirectory,
   globPatterns: [
@@ -48,6 +50,7 @@ const result = await injectManifest({
     '_astro/offline-packages.*.js',
     '_astro/preload-helper.*.js',
     '_astro/workbox-window.*.js',
+    ...shellScripts,
   ],
   maximumFileSizeToCacheInBytes: 5_000_000,
   swSrc: compiledSource,
@@ -56,4 +59,4 @@ const result = await injectManifest({
 
 await unlink(compiledSource);
 if (result.count === 0) throw new Error('Service Worker gerado sem recursos de precache.');
-console.log(`Service Worker generated with ${result.count} precached resources.`);
+console.log(`Service Worker generated with ${result.count} precached resources (${shellScripts.length} shell scripts).`);
