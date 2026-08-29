@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q3519",
@@ -2131,6 +2131,153 @@
       ],
       "correctOptionId": "A",
       "explanation": "A alternativa A apresenta emprego correto do acento grave em “à sua conta”; as demais colocam crase diante de pronome indefinido, possessivo masculino, “todo” masculino ou infinitivo. Questão original da FGV, ALEGO — Analista Legislativo – Analista Administrativo, Tipo 1 (Branca), 2026, questão 7. Gabarito definitivo: A. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-analista-administrativo-cns201-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-go.pdf."
+    },
+    {
+      "id": "q3661",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção em que o acento grave indicativo da crase é empregado de forma correta.",
+      "options": [
+        {"id": "A", "text": "A descrença é fenômeno alheio à vontade do eleitor; a abstenção é propósito."},
+        {"id": "B", "text": "Não acuses a natureza. Ela fez a parte dela. Agora faz à tua."},
+        {"id": "C", "text": "Nossos pais nos dão à vida, porém é o dinheiro a única coisa que a conserva para nós."},
+        {"id": "D", "text": "Vai para à cama sem jantar, e levanta-se sem dívidas."},
+        {"id": "E", "text": "Estou, no momento, à cargo de um trabalho difícil."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na alternativa A, `alheio a` rege a preposição `a` e `vontade` admite artigo definido, formando `à vontade`. Questão original da FGV, Prefeitura de Caraguatatuba/SP — PEB I – LIBRAS e Português, Tipo 1, 2024, questão 10. Gabarito definitivo: A. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/cns342e3-peb-i-libras-e-portuguescns342e3-tipo-1_0.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caraguatatuba2024e03_gabarito_definitivo_20240311.pdf."
+    },
+    {
+      "id": "q3662",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que o emprego do acento grave indicativo da crase está correto.",
+      "options": [
+        {"id": "A", "text": "Meu objetivo principal na vida é fazer às pessoas felizes."},
+        {"id": "B", "text": "Encontre a paz e à preencha."},
+        {"id": "C", "text": "Fique atento à tartaruga: ela sai do casco."},
+        {"id": "D", "text": "Agora sei à metade do que já soube."},
+        {"id": "E", "text": "Eu cheguei à iludir a velhice, mas parei."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na alternativa C, `atento a` exige preposição e `a tartaruga` admite artigo, formando `à tartaruga`. Questão original da FGV, Polícia Militar do Estado de São Paulo — Soldado PM de 2ª Classe, Tipo 1, 2025, questão 10. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/soldado-pm-de-2a-classe-cnm001-tipo-1_0.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/doeco-04.321.25-gabarito-definitivo-ed.3.321.24.pdf."
+    },
+    {
+      "id": "q3663",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que a utilização do acento grave indicativo da crase é realizada de forma errada.",
+      "options": [
+        {"id": "A", "text": "Jamais alguém se arrependeu de ter-se acostumado à madrugar e à ter-se casado jovem."},
+        {"id": "B", "text": "Tempo é o suspiro de adeus do sol à terra."},
+        {"id": "C", "text": "Saio todos os dias às cinco horas e não permito que o meu trabalho interfira no meu jogo de tênis."},
+        {"id": "D", "text": "O momento de extrair uma lição da história está sempre à mão para os sábios."},
+        {"id": "E", "text": "Quando assumi, quatro anos atrás, estávamos à beira do precipício."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alternativa A emprega indevidamente o acento grave diante dos infinitivos `madrugar` e `ter-se`, que não admitem artigo feminino. Questão original da FGV, Assembleia Legislativa do Estado do Tocantins — Analista Legislativo – Direito, Tipo 4, 2024, questão 5. Gabarito definitivo: A. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-direitocns110-tipo-4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-policial-legislativo-ii-tecnico-legislativo-e-analista-legislativo_dsa1c.pdf."
+    },
+    {
+      "id": "q3664",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase, retirada do romance Memorial de Aires, de Machado de Assis, em que o emprego do acento grave indicativo da crase antes dos demonstrativos aquele, aquela, aqueles, aquelas, aquilo está equivocado.",
+      "options": [
+        {"id": "A", "text": "Quis perguntar-lhe se nos mares que percorreu viu algum peixe semelhante àquele que anda agora em volta dela, mas não há intimidade para tanto, e a cortesia opunha-se."},
+        {"id": "B", "text": "— Não disse isto a ninguém, conselheiro, nem à madrinha nem ao padrinho. Se lho faço aqui é que não ouso fazê-lo àqueles dois, e não tenho terceira pessoa a quem o diga."},
+        {"id": "C", "text": "A cara dele tinha a expressão de prazer que dá o serviço inesperado; àquele gosto de descobrir papéis que podem ser importantes fazia-o risonho, olhos escancarados, quase comovido."},
+        {"id": "D", "text": "Era nomeada nas gazetas, pertencia àquela dúzia de nomes planetários que figuram no meio da plebe de estrelas. O marido era capitalista e diretor de um banco."},
+        {"id": "E", "text": "Era também um modo de fazer cessar a conversação, estando a casa próxima. Não contava com o pai de Flora, que à fina força lhe quis mostrar, àquela hora, uma novidade, aliás uma velharia, um documento de valor diplomático."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na alternativa C, `aquele gosto` funciona como sujeito, sem preposição anterior que justifique `àquele`. Questão original da FGV, DNIT — Analista em Infraestrutura de Transportes – Engenharia Civil (Transportes), Tipo 1, 2024, questão 5. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-infraestrutura-de-transportes-engenharia-civilcns200-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/dnit2024_gabarito_definitivo_20240312.pdf."
+    },
+    {
+      "id": "q3665",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase abaixo em que o emprego do acento grave indicativo da crase é optativo.",
+      "options": [
+        {"id": "A", "text": "Qualquer pessoa desprovida de senso de humor está à mercê de todos."},
+        {"id": "B", "text": "A vida ensina que jamais somos felizes senão à custa de certa ignorância."},
+        {"id": "C", "text": "Quando à noite não conseguir dormir, pare de contar ovelhas e converse com o pastor."},
+        {"id": "D", "text": "Um louco é alguém que crê em tudo o que vem à mente."},
+        {"id": "E", "text": "Quanto mais felizes somos, menos atenção prestamos à nossa felicidade."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "Na alternativa E, o artigo antes do possessivo feminino `nossa` pode ser usado ou omitido; com a preposição exigida por `prestar atenção a`, a crase torna-se optativa. Questão original da FGV, Polícia Civil de Santa Catarina — Delegado de Polícia Substituto, Tipo 3, 2024, questão 2. Gabarito definitivo: E. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/delegado-objetivacns100-tipo-3.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/pcscdelegado2024_gabarito_definitivo_20240220.pdf."
+    },
+    {
+      "id": "q3666",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que o emprego do acento grave indicativo da crase é optativo.",
+      "options": [
+        {"id": "A", "text": "Trabalhar às claras."},
+        {"id": "B", "text": "Comi frango à passarinho."},
+        {"id": "C", "text": "Dei um prêmio à Margarida."},
+        {"id": "D", "text": "Cansava‐se à proporção que caminhava."},
+        {"id": "E", "text": "Respondi às perguntas do juiz."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na alternativa C, o artigo diante do nome próprio feminino `Margarida` pode variar; como `dar algo a alguém` exige preposição, podem ocorrer `a Margarida` ou `à Margarida`. Questão original da FGV, Assembleia Legislativa do Maranhão — Técnico de Gestão Administrativa – Revisão de Textos, Tipo 2, 2013, questão 47. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_tecnico_de_gestao_administrativa_-_revisao_de_textos_-_tipo_02.pdf. Gabarito definitivo disponível na página oficial do concurso: https://conhecimento.fgv.br/concursos/alema13/tecnico."
+    },
+    {
+      "id": "q3667",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Há, no texto, três ocorrências do acento grave indicativo da crase: I. “...dedicadas exclusivamente às compras e ao lazer”; II. “Os xópis são civilizações à parte...”; III. “...pode vê-las como ataque (...) à civilização dos xópis”. As ocorrências em que o acento grave da crase é resultante da junção de uma preposição solicitada por um termo anterior + artigo definido são:",
+      "options": [
+        {"id": "A", "text": "I-II-III."},
+        {"id": "B", "text": "apenas I-II."},
+        {"id": "C", "text": "apenas I-III."},
+        {"id": "D", "text": "apenas II-III."},
+        {"id": "E", "text": "apenas II."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Em I e III há preposição regida pelo termo anterior somada ao artigo definido; em II, `à parte` é locução. Questão original da FGV, Defensoria Pública do Estado do Rio de Janeiro — Técnico Superior Especializado em Administração de Dados, Tipo 1, 2014, questão 11. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/nsce002_adminstrador_de_dados_-_tipo_1_-_formatada.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/dpgerj_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q3668",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que o acento grave da crase está corretamente empregado.",
+      "options": [
+        {"id": "A", "text": "Quem não amar à Deus, Deus não castiga."},
+        {"id": "B", "text": "Quando os deuses querem nos punir, eles respondem à nossas preces."},
+        {"id": "C", "text": "Os homens dão mais fé àquilo que não entendem."},
+        {"id": "D", "text": "Se alguém não vos recebe e não dá ouvidos à vossas palavras, sai daquela casa e sacudi o pó de vossos pés."},
+        {"id": "E", "text": "A religião não é outra coisa que a sombra do universo projetada sobre à inteligência humana."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na alternativa C, `dar fé a` exige preposição, que se incorpora ao início do demonstrativo `aquilo`, formando `àquilo`. Questão original da FGV, Prefeitura de São José dos Campos/SP — Técnico Tributário, concurso 2023 com prova aplicada em 2024, questão 9, Tipo 1. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-tributariocnm001-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/sjctecnologia2024_gabarito_definitivo_20240208.pdf."
+    },
+    {
+      "id": "q3669",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Entre as frases a seguir, assinale aquela que mostra o acento grave indicativo da crase num contexto em que seu uso é optativo.",
+      "options": [
+        {"id": "A", "text": "A fortuna é uma mulher, e, portanto, favorável às inovações."},
+        {"id": "B", "text": "Quem crê em seu valor deve tudo à sua sorte."},
+        {"id": "C", "text": "A esperança é um empréstimo que pedimos à felicidade."},
+        {"id": "D", "text": "Vós sois a esperança, o desejo e a semente que pelo infinito semeiam às mãos cheias."},
+        {"id": "E", "text": "As mentiras são essenciais à humanidade."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Na alternativa B, o possessivo feminino `sua` admite artigo facultativo; com a preposição exigida por `dever tudo a`, o acento grave pode ser empregado ou omitido. Questão original da FGV, Defensoria Pública do Estado de Rondônia — Técnico Administrativo – Classe A, Tipo 4, 2025, questão 20. Gabarito definitivo: B. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-administrativo-classe-acnm001-tipo-4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-defintivo-dpe-ro_0.pdf."
+    },
+    {
+      "id": "q3670",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No trecho “o acesso à infraestrutura pedagógica”, o emprego do acento indicativo de crase é obrigatório em decorrência de regra de regência nominal.",
+      "options": [
+        {"id": "C", "text": "Certo"},
+        {"id": "E", "text": "Errado"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O substantivo `acesso` rege a preposição `a`, e `infraestrutura` está determinada pelo artigo `a`, formando `à infraestrutura`. Item original do CESPE/UnB (atual Cebraspe), Secretaria de Estado da Educação e do Esporte de Alagoas — Professor, caderno de conhecimentos básicos para cargos de Professor, concurso 2013 com aplicação em 2014, item 6. Gabarito definitivo: C. Prova: https://cdn.cebraspe.org.br/concursos/SEE_AL_13/arquivos/SEEAL13_CBNS01_01.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/SEE_AL_13/arquivos/Gab_Definitivo_SEEAL13_CBNS01_01.PDF."
     }
   ]
 }
