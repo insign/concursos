@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q5019",
@@ -451,6 +451,108 @@
       ],
       "correctOptionId": "B",
       "explanation": "A sentença original equivale a ¬p ∨ g ∨ i. A alternativa B, ao eliminar a condicional, também resulta em g ∨ ¬p ∨ i, portanto é equivalente. Fonte: questão oficial; FGV; TJ-RS — Técnico do Poder Judiciário — Área Administrativo-Judiciária, Tipo 1 (Branca); 2025; questão 38; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-edital-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q52203901",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Texto CG4A2-I\n\nP: Se não houver uma virada nos números, nem uma situação de empate técnico, não há concessão possível.\n\nConsiderando o texto CG4A2-I, assinale a opção que apresenta uma forma correta de negar a proposição P.",
+      "options": [
+        {"id": "A", "text": "Se houver uma virada nos números ou uma situação de empate técnico, há concessão possível."},
+        {"id": "B", "text": "Não há uma virada nos números, nem uma situação de empate técnico, mas há concessão possível."},
+        {"id": "C", "text": "Se houver uma virada nos números e uma situação de empate técnico, há concessão possível."},
+        {"id": "D", "text": "Se não houver concessão possível, não há uma virada nos números, nem uma situação de empate técnico."},
+        {"id": "E", "text": "Há uma virada nos números ou uma situação de empate técnico, mas não há concessão possível."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A negação de uma condicional mantém verdadeiro o antecedente e nega o consequente. Assim, permanecem a ausência de virada e de empate técnico, mas afirma-se a concessão possível. Fonte: questão oficial; Cebraspe; Polícia Civil de Rondônia — Técnico em Necropsia; 2022; questão 17; https://cdn.cebraspe.org.br/concursos/pc_ro_22/arquivos/732_PCRO_CG4_01.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/pc_ro_22/arquivos/GAB_DEFINITIVO_732_PCRO_CG4_01.PDF."
+    },
+    {
+      "id": "q52203902",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Texto CG4A2-I\n\nP: Se não houver uma virada nos números, nem uma situação de empate técnico, não há concessão possível.\n\nConsiderando o texto CG4A2-I, assinale a opção que apresenta uma proposição equivalente à proposição P.",
+      "options": [
+        {"id": "A", "text": "Se há concessão possível, houve uma virada nos números ou uma situação de empate técnico."},
+        {"id": "B", "text": "Se houver uma virada nos números ou uma situação de empate técnico, há concessão possível."},
+        {"id": "C", "text": "Dado que não há concessão possível, não houve uma virada nos números, nem uma situação de empate técnico."},
+        {"id": "D", "text": "Não há uma virada nos números, nem uma situação de empate técnico, ou não há concessão possível."},
+        {"id": "E", "text": "Não há uma virada nos números, nem uma situação de empate técnico, mas há concessão possível."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pela contraposição, se a concessão é possível, então é falsa a conjunção 'não houve virada e não houve empate'; por De Morgan, houve virada ou houve empate técnico. Fonte: questão oficial; Cebraspe; Polícia Civil de Rondônia — Técnico em Necropsia; 2022; questão 18; https://cdn.cebraspe.org.br/concursos/pc_ro_22/arquivos/732_PCRO_CG4_01.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/pc_ro_22/arquivos/GAB_DEFINITIVO_732_PCRO_CG4_01.PDF."
+    },
+    {
+      "id": "q52203903",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere a sentença\n“Se como doces, então engordo ou tenho azia.”\nA negação lógica dessa sentença é",
+      "options": [
+        {"id": "A", "text": "se não como doces, então não engordo nem tenho azia."},
+        {"id": "B", "text": "se como doces, então não engordo nem tenho azia."},
+        {"id": "C", "text": "como doces e não engordo nem tenho azia."},
+        {"id": "D", "text": "não como doces e engordo ou tenho azia."},
+        {"id": "E", "text": "se não como doces, então engordo ou tenho azia."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Negar p → (q ∨ r) produz p ∧ ¬(q ∨ r); por De Morgan, isso equivale a p ∧ ¬q ∧ ¬r. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado de Mato Grosso — Técnico(a) Legislativo de Nível Superior, Tipo 2; 2013; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/al-mt_2013_tecnico_a_legislativo_nivel_superior_prova_tipo_02.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/almt13_superior_medio_gabarito_definitivo_2014_02_27.pdf."
+    },
+    {
+      "id": "q52203904",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A proposição “Um engenheiro de som é desnecessário em um filme se, e somente se, o filme em questão é mudo” é logicamente equivalente à proposição “Um engenheiro de som é desnecessário e o filme em questão é mudo ou um engenheiro de som é necessário e o filme em questão não é mudo”.",
+      "options": [
+        {"id": "C", "text": "Certo"},
+        {"id": "E", "text": "Errado"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A bicondicional é verdadeira quando as duas proposições têm o mesmo valor lógico: (p ∧ q) ∨ (¬p ∧ ¬q), exatamente a forma apresentada no item. Fonte: questão oficial; CESPE/UnB; ANCINE — Técnico em Regulação da Atividade Cinematográfica e Audiovisual; 2012; item 52; https://cdn.cebraspe.org.br/concursos/ANCINE_12/arquivos/ANCINE12_002_01.pdf. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/ANCINE_12/arquivos/Gab_definitivo_ANCINE12_002_01.PDF."
+    },
+    {
+      "id": "q52203905",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere a seguinte afirmação:\nTodo restaurante capixaba vende moqueca e caranguejada.\nA negação dessa proposição é logicamente equivalente a",
+      "options": [
+        {"id": "A", "text": "Há, pelo menos, um restaurante capixaba que não vende moqueca ou não vende caranguejada."},
+        {"id": "B", "text": "Há, pelo menos, um restaurante capixaba que não vende moqueca, nem vende caranguejada."},
+        {"id": "C", "text": "Todos os restaurantes capixabas não vendem moqueca ou não vendem caranguejada."},
+        {"id": "D", "text": "Todos os restaurantes capixabas não vendem moqueca, nem vendem caranguejada."},
+        {"id": "E", "text": "Todo restaurante que não vende moqueca, nem vende caranguejada, não é capixaba."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A negação de uma universal exige um contraexemplo; além disso, negar 'vende moqueca e caranguejada' produz 'não vende moqueca ou não vende caranguejada'. Fonte: questão oficial; FGV; Prefeitura Municipal de Nova Iguaçu — Fiscal Sanitário — Odontologia; 2025; questão 6; https://conhecimento.fgv.br/sites/default/files/concursos/fiscal-sanitario-odontologia-cns011-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-smsnovaiguacu.pdf."
+    },
+    {
+      "id": "q52203906",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A negação de “Nenhum advogado é ingênuo” é:",
+      "options": [
+        {"id": "A", "text": "Há, pelo menos, um advogado ingênuo."},
+        {"id": "B", "text": "Alguns ingênuos são advogados."},
+        {"id": "C", "text": "Todos os advogados são ingênuos."},
+        {"id": "D", "text": "Todos os ingênuos são advogados."},
+        {"id": "E", "text": "Todos os advogados não são ingênuos."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "'Nenhum advogado é ingênuo' nega a existência de alguém que seja simultaneamente advogado e ingênuo; sua negação afirma a existência de ao menos um caso assim. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado do Amazonas — Analista Legislativo — Analista de Sistema, Tipo Branca; 2025; questão 24; https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-analista-de-sistema-cns303-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-am.pdf."
+    },
+    {
+      "id": "q52203907",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em um grupo de sapos, alguns são amarelos e alguns são felizes.\nSabe-se que:\n1) Todo sapo feliz sabe pular.\n2) Nenhum sapo amarelo sabe tocar gaita.\n3) Todo sapo que não sabe tocar gaita também não sabe pular.\nÉ correto concluir que",
+      "options": [
+        {"id": "A", "text": "todo sapo amarelo sabe pular."},
+        {"id": "B", "text": "nenhum sapo feliz sabe tocar gaita."},
+        {"id": "C", "text": "todo sapo amarelo é feliz."},
+        {"id": "D", "text": "todo sapo que sabe pular é amarelo."},
+        {"id": "E", "text": "nenhum sapo feliz é amarelo."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "Todo sapo amarelo não toca gaita e, pela terceira premissa, não pula; todo sapo feliz pula. Logo nenhum sapo pode ser simultaneamente feliz e amarelo. Fonte: questão oficial; FGV; Prefeitura Municipal de Paulínia — Enfermeiro, Tipo 2 (Verde); 2021; questão 12; https://conhecimento.fgv.br/sites/default/files/concursos/paulinia2021-e2ns13-enfermeiro-e2ns13-tipo-2.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/paulinia2021e2_gabarito_definitivo.pdf."
     }
   ]
 }
