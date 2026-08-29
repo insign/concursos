@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q6639",
@@ -1801,6 +1801,36 @@
       ],
       "correctOptionId": "B",
       "explanation": "O art. 55, §2º, disciplina revisão de ato já registrado e conta o quinquênio do julgamento; o Tema 445 trata do registro inicial e conta da chegada à Corte."
+    },
+    {
+      "id": "fcc_tce_ma_2005_q102",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O Tribunal de Contas, ao conceder aposentadoria de servidor de seu quadro de pessoal, pratica ato",
+      "options": [
+        {
+          "id": "A",
+          "text": "inserto em sua função atípica, não sujeito a registro pelo próprio Tribunal."
+        },
+        {
+          "id": "B",
+          "text": "inserto em sua função atípica, sujeito a registro pelo próprio Tribunal."
+        },
+        {
+          "id": "C",
+          "text": "inserto em sua função típica, sujeito a registro pelo próprio Tribunal."
+        },
+        {
+          "id": "D",
+          "text": "inserto em sua função típica, não sujeito a registro pelo próprio Tribunal."
+        },
+        {
+          "id": "E",
+          "text": "de natureza discricionária, não sujeito a registro pelo próprio Tribunal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ao conceder aposentadoria a servidor do próprio quadro, o Tribunal exerce função administrativa atípica; a concessão permanece sujeita à apreciação de legalidade para fins de registro pelo próprio Tribunal. Fonte: FCC — TCE-MA, Procurador, 2005, questão 102. Gabarito definitivo: B. Caderno: https://arquivos.qconcursos.com/prova/arquivo_prova/78857/fcc-2005-tce-ma-procurador-prova.pdf. Gabarito definitivo: https://questoes.grancursosonline.com.br/prova/tce-ma-ma-2005-fcc-procurador-somente-gabarito-definitivo-2. Corroboração: https://www.qconcursos.com/questoes-de-concursos/questoes/ce7bb11d-2f."
     }
   ]
 }
