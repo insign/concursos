@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q3399",
@@ -4261,6 +4261,155 @@
       ],
       "correctOptionId": "B",
       "explanation": "Segundo o gabarito definitivo, a alternativa B contém a concordância inadequada no termo sublinhado; com o pronome relativo «quem», a forma esperada no contexto é «experimentou». Questão original da FGV, SEEC/RN — Professor de Língua Portuguesa, Tipo 1 (Branca), 2025, questão 8. Gabarito definitivo: B. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-lingua-portuguesacns112-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_seadrn_v3.pdf"
+    },
+    {
+      "id": "q3541",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase que apresenta um erro de concordância verbal.",
+      "options": [
+        {"id": "a", "text": "Basta de tantos processos e condenações injustas."},
+        {"id": "b", "text": "Esqueceu-me as datas dos pagamentos das contas."},
+        {"id": "c", "text": "Não me lembra dessas falhas em nosso sistema."},
+        {"id": "d", "text": "No Rio Grande do Sul faz invernos intensos."},
+        {"id": "e", "text": "Pouco me importam os desejos dela."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito definitivo: B. Fonte: questão oficial; FGV; Câmara dos Deputados — Consultor Legislativo – Área XXII, Edital 4, manhã, Tipo 1 (Branca); 2023; questão 16; https://conhecimento.fgv.br/sites/default/files/concursos/area-xxii-t1-manha.docx.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/manhacamara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-4-manha.pdf."
+    },
+    {
+      "id": "q3542",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que houve erro de concordância nominal.",
+      "options": [
+        {"id": "a", "text": "O Senado considerou válida a nomeação para o cargo vago."},
+        {"id": "b", "text": "O STF qualificou de antidemocrático aquelas declarações."},
+        {"id": "c", "text": "Vou devolver amanhã os livros que lhe pedi emprestados."},
+        {"id": "d", "text": "Considero como covardes as declarações do policial."},
+        {"id": "e", "text": "Envio-lhe anexas as faturas de sua compra."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito definitivo: B. Fonte: questão oficial; FGV; Câmara dos Deputados — Consultor Legislativo – Área XXII, Edital 4, manhã, Tipo 1 (Branca); 2023; questão 19; https://conhecimento.fgv.br/sites/default/files/concursos/area-xxii-t1-manha.docx.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/manhacamara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-4-manha.pdf."
+    },
+    {
+      "id": "q3543",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Avalie se as frases a seguir mostram erros:\nI. Devem haver muitos candidatos para este concurso.\nII. Existe muitos alunos ainda pouco dedicados ao estudo.\nIII. A alguns pais, custam dar esses conselhos.\nNo que diz respeito à concordância verbal, de fato está errado o que se apresenta em",
+      "options": [
+        {"id": "a", "text": "I, II e III."},
+        {"id": "b", "text": "I, apenas."},
+        {"id": "c", "text": "I e II, apenas."},
+        {"id": "d", "text": "I e III, apenas."},
+        {"id": "e", "text": "II e III, apenas."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito definitivo: A. Fonte: questão oficial; FGV; Câmara dos Deputados — Analista Legislativo – Técnico em Material e Patrimônio, Edital 1, manhã, Tipo 1 (Cinza); 2023; questão 2; https://conhecimento.fgv.br/sites/default/files/concursos/cns102-analista-legislativo-tecnico-em-material-e-patrimoniocns102-tipo-1-manha.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-1-manha.pdf."
+    },
+    {
+      "id": "q3544",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que há erro de concordância nominal.",
+      "options": [
+        {"id": "a", "text": "Os escoteiros partiram meio desanimados."},
+        {"id": "b", "text": "A escola estava toda pintada de verde e amarelo."},
+        {"id": "c", "text": "Vai anexo a documentação pedida."},
+        {"id": "d", "text": "Os quadros eram o mais belos possível."},
+        {"id": "e", "text": "Elas mesmas são as autoras do delito."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito definitivo: C. Fonte: questão oficial; FGV; Câmara dos Deputados — Analista Legislativo – Informática Legislativa, Edital 1, manhã, Tipo 1 (Branca); 2023; questão 12; https://conhecimento.fgv.br/sites/default/files/concursos/cns103-analista-legislativo-informatica-legislativacns103-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-1-manha.pdf."
+    },
+    {
+      "id": "q3545",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Sobre a concordância do verbo haver no trecho “Às vezes, há um assunto em evidência que você é obrigado a comentar”, é correto afirmar que o verbo se flexiona no singular, pois",
+      "options": [
+        {"id": "a", "text": "concorda com o sujeito (assunto) que está no singular."},
+        {"id": "b", "text": "está veiculando um sentido distinto do usual, nesse trecho."},
+        {"id": "c", "text": "funciona como verbo impessoal, no trecho."},
+        {"id": "d", "text": "deve concordar com o sujeito que está no singular, uma vez que possui o sentido do verbo ter."},
+        {"id": "e", "text": "tal verbo indica sentido de tempo transcorrido."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito definitivo: C. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado do Rio Grande do Sul — Técnico do Poder Judiciário – Área Administrativo-Judiciária, Tipo 4 (Azul); 2025; questão 22; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-4.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-edital-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q3546",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase que mostra erro de concordância nominal da palavra “conforme”.",
+      "options": [
+        {"id": "a", "text": "As dificuldades econômicas estão conformes com a crise do início do ano."},
+        {"id": "b", "text": "Todas as opiniões da plateia estão conforme."},
+        {"id": "c", "text": "No processo, as declarações oficiais estão conformes."},
+        {"id": "d", "text": "Os candidatos estão conformes com o regulamento."},
+        {"id": "e", "text": "Conforme iam saindo, todos recebiam a foto do evento."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito definitivo: B. Fonte: questão oficial; FGV; Defensoria Pública do Estado de Rondônia — Técnico em Informática – Classe A, Tipo 2 (Verde); 2025; questão 12; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-em-informatica-classe-acnm002-tipo-2.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-defintivo-dpe-ro_0.pdf."
+    },
+    {
+      "id": "q3547",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase que mostra erro de concordância da palavra “muito”.",
+      "options": [
+        {"id": "a", "text": "— O mar amanhã está de desafiar a gente, disse-me a voz de Escobar, ao pé de mim. — Você entra no mar amanhã? — Tenho entrado com mares maiores, muitos maiores."},
+        {"id": "b", "text": "Ao passar pelo espelho, concertou os cabelos tão demoradamente que pareceria afetação, se não soubéssemos que ela era muito amiga de si."},
+        {"id": "c", "text": "Capitu propôs metê-lo em um colégio, donde só viesse aos sábados; custou muito ao menino aceitar esta situação."},
+        {"id": "d", "text": "Assim fizemos. Quis que o enterro fosse pomposo, e a afluência dos amigos foi numerosa. Praia, ruas, Praça da Glória, tudo eram carros, muitos deles particulares."},
+        {"id": "e", "text": "Há muita gente que se mata sem ele, e nobremente expira; mas estou que muita mais gente poria termo aos seus dias, se pudesse achar essa espécie de cocaína moral dos bons livros."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito definitivo: A. Fonte: questão oficial; FGV; Câmara Municipal de São Paulo — Consultor Técnico Legislativo – Registro e Revisão, Tipo 1 (Branca); 2024; questão 39; https://conhecimento.fgv.br/sites/default/files/concursos/cns204-consultor-tecnico-legislativo-registro-e-revisaocns204-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camarasp2024_definitivo_20240206.pdf."
+    },
+    {
+      "id": "q3548",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase que mostra erro de concordância nominal.",
+      "options": [
+        {"id": "a", "text": "Eles vieram do hospital com o braço e a perna imobilizados."},
+        {"id": "b", "text": "Vossa Excelência é muito bem-informada."},
+        {"id": "c", "text": "Qualquer que sejam as razões, isso não serve para nada!"},
+        {"id": "d", "text": "Essas atividades não ficam baratas."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito definitivo: C. Fonte: questão oficial; FGV; Prefeitura de Belo Horizonte — Assistente Administrativo Educacional, Tipo 2 (Verde); 2023; questão 6; https://conhecimento.fgv.br/sites/default/files/concursos/cnm100-assistente-administrativo-educacionalcnm100-tipo-2.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/17.gabaritoaposrecursos-assinado.pdf. As quatro alternativas originais foram preservadas integralmente."
+    },
+    {
+      "id": "q3549",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase, baseada no romance Dom Casmurro, que mostra erro de concordância da palavra “todo”.",
+      "options": [
+        {"id": "a", "text": "As minhas ideias de ouro perderam todas a cor e o metal para se trocarem em cinza escura e feia, e não distingui mais nada."},
+        {"id": "b", "text": "Já viste que não era assim, a palavra obedecia-lhe, mas o homem não é sempre o mesmo em todos os instantes."},
+        {"id": "c", "text": "Quando ele saiu, referi as minhas dúvidas a Capitu; ela as desfez com a arte fina que possuía, um jeito, uma graça todo sua, capaz de dissipar as mesmas tristezas de Olímpio."},
+        {"id": "d", "text": "Quando eu via o meu filho chupando o leite da mãe, e toda aquela união da natureza para a nutrição e vida de um ser que não fora nada, mas que o nosso destino afirmou que seria..."},
+        {"id": "e", "text": "Ao cabo, pode ser que tudo fosse um sonho; nada mais natural a um ex-seminarista que ouvir sempre a todo-poderosa Escritura."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito definitivo: C. Fonte: questão oficial; FGV; Câmara Municipal de São Paulo — Técnico Legislativo – Informática, Tipo 1 (Branca); 2024; questão 14; https://conhecimento.fgv.br/sites/default/files/concursos/cnm105-tecnico-legislativo-informaticacnm105-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camarasp2024_definitivo_20240206.pdf."
+    },
+    {
+      "id": "q3550",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A frase abaixo em que a concordância do verbo sublinhado apresenta incorreção é:",
+      "options": [
+        {"id": "a", "text": "50% do grupo `receberam` a vacina."},
+        {"id": "b", "text": "Um terço dos capixabas já `foi vacinado`."},
+        {"id": "c", "text": "A maior parte dos turistas também `foi` vacinada."},
+        {"id": "d", "text": "`Chegaram` um milhão do total adquirido esta semana."},
+        {"id": "e", "text": "Mais da metade dos capixabas `vai` receber a segunda dose."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito definitivo: D. Fonte: questão oficial; FGV; Secretaria de Estado da Fazenda do Espírito Santo — Auditor Fiscal da Receita Estadual, Prova 2 (Tarde), Tipo 1 (Branca); 2021; questão 10; https://conhecimento.fgv.br/sites/default/files/concursos/sefaz-es-auditor-fiscal-da-receita-estadual-p2-af02-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/sefazes2021_gabarito_definitivo.pdf. As crases preservam, no JSON, os trechos sublinhados no caderno oficial, sem alterar o texto."
     }
   ]
 }
