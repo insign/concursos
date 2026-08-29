@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q5619",
@@ -1801,6 +1801,36 @@
       ],
       "correctOptionId": "D",
       "explanation": "O caso reúne ato favorável, decurso superior a cinco anos, ausência de má-fé e ausência de impugnação tempestiva; aplica-se, em regra, a decadência do art. 54."
+    },
+    {
+      "id": "q99050",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No âmbito do controle administrativo, o recurso hierárquico impróprio é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o recurso dirigido a uma autoridade que não possui relação hierárquica superior com quem praticou o ato objeto de controle, sendo somente cabível quando houver previsão legal expressa."
+        },
+        {
+          "id": "B",
+          "text": "o recurso endereçado a uma autoridade do Poder Judiciário, para que reveja um ato administrativo."
+        },
+        {
+          "id": "C",
+          "text": "o recurso autuado de ofício pela própria autoridade que adotou a decisão original."
+        },
+        {
+          "id": "D",
+          "text": "o recurso endereçado à mesma autoridade que praticou o ato objeto de controle, para que reconsidere sua decisão."
+        },
+        {
+          "id": "E",
+          "text": "o recurso padrão dirigido à autoridade que, dentro da estrutura de um mesmo órgão, é imediatamente superior a quem praticou o ato objeto de controle."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O recurso hierárquico impróprio dirige-se a autoridade que não é superior hierárquica da autoridade que praticou o ato e depende de previsão legal expressa. Cebraspe, TCE/MG, conhecimentos gerais para todos os cargos, 2026, questão 24; gabarito oficial definitivo: A."
     }
   ]
 }
