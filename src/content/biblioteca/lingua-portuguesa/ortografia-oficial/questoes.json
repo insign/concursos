@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q084",
@@ -2127,6 +2127,306 @@
       ],
       "correctOptionId": "c",
       "explanation": "Gabarito oficial definitivo: C. As grafias corretas são “exceção”, “maisena”, “caatinga” e “botequim”; nas demais opções aparecem formas como “ascento”, “azilo”, “suscinto” e “busina”, não admitidas pela ortografia vigente. Fonte: CESPE/UnB; Prefeitura Municipal de Teresina — SEMEC; Professor de Ensino Fundamental (6.º ao 9.º ano) — Língua Portuguesa; 2009; questão 46; caderno: https://cdn.cebraspe.org.br/concursos/SEMECAFERICAO2009/arquivos/010-SEMEC_PI_LINGUA_PORTUGUESA.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/SEMECAFERICAO2009/arquivos/SEMEC09_Gab_Definitivo_010_10.PDF."
+    },
+    {
+      "id": "q155",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Leia o seguinte trecho de uma crônica do escritor recentemente falecido Luís Fernando Veríssimo\nCom o tempo, ganhou uma reputação. Era de confiança. Um dia, foi procurado por um amigo com uma oferta de emprego. O salário era enorme.\n– Por que eu? – quis saber.\n– A posição é de muita responsabilidade – disse o amigo. – Recomendei você.\n– Por quê?\n– Pela sua descrição.\nSubiu na vida. Dele se dizia que sabia tudo sobre todos, mas nunca abria a boca para falar de ninguém. Além de bem-informado, um gentleman.\nCom base no trecho, assinale a afirmativa que apresenta uma análise adequada à gramática normativa.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A preposição “com” na expressão “Com o tempo”, tem valor de “companhia”."
+        },
+        {
+          "id": "b",
+          "text": "O trecho “Era de confiança” mostra um pensamento do personagem central da crônica."
+        },
+        {
+          "id": "c",
+          "text": "O termo “Por que eu?” mostra uma grafia errada do interrogativo “Por que”, que deveria ser grafado “Porque”."
+        },
+        {
+          "id": "d",
+          "text": "A palavra “descrição”, por erro gráfico, deveria ser substituída pela forma “discrição”."
+        },
+        {
+          "id": "e",
+          "text": "O estrangeirismo “gentleman” poderia ser substituído pelo vocábulo “cavaleiro”."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito oficial definitivo: D. No trecho, a característica atribuída ao personagem é a discrição (reserva, recato), não a descrição (ato ou efeito de descrever); por isso a substituição assinalada pela banca é adequada. Fonte: FGV; Tribunal de Justiça do Rio Grande do Sul; Analista do Poder Judiciário – Área Administrativa; 2025; questão 20; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista-do-poder-judiciario-area-administrativa-cns101-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-edital-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q156",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A ortografia e a acentuação são aspectos cruciais para garantir a clareza e a precisão na comunicação escrita.\nAssinale o grupo de palavras em que todas estão grafadas corretamente, de acordo com as regras de ortografia e acentuação.",
+      "options": [
+        {
+          "id": "a",
+          "text": "microondas – autoescola – antiaéreo"
+        },
+        {
+          "id": "b",
+          "text": "micro-ondas – auto-escola – anti-aéreo"
+        },
+        {
+          "id": "c",
+          "text": "microondas – autoescola- antiaereo"
+        },
+        {
+          "id": "d",
+          "text": "microondas – auto-escola – anti-aereo"
+        },
+        {
+          "id": "e",
+          "text": "micro-ondas – autoescola – antiaéreo"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Gabarito oficial definitivo: E. A grafia normativa é “micro-ondas”, “autoescola” e “antiaéreo”. Fonte: FGV; Serviço Geológico do Brasil (CPRM); Pesquisador em Geociências – Geologia – Levantamento Geológico e de Recursos Minerais; 2025; questão 4; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/pesquisador-em-geociencias-geologia-levantamento-geologico-e-de-recursos-minerais-cns01e02-tipo-2.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-cprm.pdf."
+    },
+    {
+      "id": "q157",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção em que as palavras estejam acentuadas adequadamente.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Os países tem vantagens comerciais com os últimos acordos."
+        },
+        {
+          "id": "b",
+          "text": "A platéia aplaudiu de pé o grande espetáculo."
+        },
+        {
+          "id": "c",
+          "text": "Os homens gostam de jogar pólo."
+        },
+        {
+          "id": "d",
+          "text": "Alcaloides são compostos orgânicos com propriedades farmacológicas."
+        },
+        {
+          "id": "e",
+          "text": "O professor é o verdadeiro heroi nacional."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito oficial definitivo: D. “Alcaloides” é grafada sem acento; nas demais opções há formas incompatíveis com a ortografia e a acentuação vigentes, como “tem” no plural verbal, “platéia”, “pólo” e “heroi”. Fonte: FGV; Serviço Geológico do Brasil (CPRM); Pesquisador em Geociências – Geologia – Levantamento Geológico e de Recursos Minerais; 2025; questão 6; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/pesquisador-em-geociencias-geologia-levantamento-geologico-e-de-recursos-minerais-cns01e02-tipo-2.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-cprm.pdf."
+    },
+    {
+      "id": "q158",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a frase em que todas as palavras estão corretamente escritas.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nesta casa não há previlégios."
+        },
+        {
+          "id": "b",
+          "text": "Devemos revindicar o que nos cabe."
+        },
+        {
+          "id": "c",
+          "text": "Os adolecentes sempre dão trabalho."
+        },
+        {
+          "id": "d",
+          "text": "As galinhas vivem no poleiro."
+        },
+        {
+          "id": "e",
+          "text": "Os clientes procuraram agaxar-se ante o perigo."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito oficial definitivo: D. “Poleiro” está corretamente grafado; as demais alternativas apresentam “previlégios”, “revindicar”, “adolecentes” e “agaxar-se”, em lugar das formas normativas “privilégios”, “reivindicar”, “adolescentes” e “agachar-se”. Fonte: FGV; Prefeitura de São José dos Campos; Agente Educador; 2023; questão 14; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/cnm301-agente-educadorcnm301-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-prefeitura-sjc-educacao.pdf."
+    },
+    {
+      "id": "q159",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A palavra “riqueza” é grafada corretamente no texto, com a letra z.\nAssinale o vocábulo abaixo cuja grafia está correta com essa mesma letra.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gáz."
+        },
+        {
+          "id": "b",
+          "text": "Audaz."
+        },
+        {
+          "id": "c",
+          "text": "Análize."
+        },
+        {
+          "id": "d",
+          "text": "Gazolina."
+        },
+        {
+          "id": "e",
+          "text": "Paralizia."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito oficial definitivo: B. “Audaz” recebe z; as demais grafias apresentadas não estão de acordo com o padrão: “gás”, “análise”, “gasolina” e “paralisia”. Fonte: FGV; Prefeitura de Santo André; Agente de Políticas Públicas e Gestão Governamental (APPGG); 2022; questão 12; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/agente_de_politicas_publicas_e_gestao_governamental_appggcns001_tipo_1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/psa2022_gabarito_defintiivo_468681681.pdf."
+    },
+    {
+      "id": "q160",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A sigla do estado brasileiro que está corretamente indicada é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acre / AR."
+        },
+        {
+          "id": "b",
+          "text": "Alagoas / AL."
+        },
+        {
+          "id": "c",
+          "text": "Amazonas / AZ."
+        },
+        {
+          "id": "d",
+          "text": "Bahia / BH."
+        },
+        {
+          "id": "e",
+          "text": "Pernambuco / PB."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito oficial definitivo: B. A sigla oficial de Alagoas é AL; as demais unidades citadas têm, respectivamente, AC, AM, BA e PE. Fonte: FGV; Prefeitura de Canaã dos Carajás; Agente de Serviços de Culinária; 2025; questão 11; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/agente-de-servicos-de-culinariacnf201-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefcanaa202401_gabarito_definitivo-compilado-23.03_0.pdf."
+    },
+    {
+      "id": "q161",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A palavra abaixo que mostra uma correta grafia é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "duqueza."
+        },
+        {
+          "id": "b",
+          "text": "frieza."
+        },
+        {
+          "id": "c",
+          "text": "empreza."
+        },
+        {
+          "id": "d",
+          "text": "despeza."
+        },
+        {
+          "id": "e",
+          "text": "princeza."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito oficial definitivo: B. “Frieza” é a forma correta; as demais seriam “duquesa”, “empresa”, “despesa” e “princesa”. Fonte: FGV; Prefeitura de Canaã dos Carajás; Agente de Serviços de Culinária; 2025; questão 13; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/agente-de-servicos-de-culinariacnf201-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefcanaa202401_gabarito_definitivo-compilado-23.03_0.pdf."
+    },
+    {
+      "id": "q162",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A única palavra de grafia correta entre as que aparecem abaixo é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "estrupo."
+        },
+        {
+          "id": "b",
+          "text": "buginganga."
+        },
+        {
+          "id": "c",
+          "text": "depedrar."
+        },
+        {
+          "id": "d",
+          "text": "compania."
+        },
+        {
+          "id": "e",
+          "text": "muçulmano."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Gabarito oficial definitivo: E. “Muçulmano” está corretamente grafado; nas demais opções aparecem formas não normativas, cujas correspondentes usuais são “estupro”, “bugiganga”, “depredar” e “companhia”. Fonte: FGV; Prefeitura de Canaã dos Carajás; Agente de Serviços de Culinária; 2025; questão 15; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/agente-de-servicos-de-culinariacnf201-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefcanaa202401_gabarito_definitivo-compilado-23.03_0.pdf."
+    },
+    {
+      "id": "q163",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Todas as opções abaixo mostram formas de diminutivos dos vocábulos entre parênteses, com o sufixo –inho.\nAssinale a opção em que todas as formas estão corretamente grafadas.",
+      "options": [
+        {
+          "id": "a",
+          "text": "paizinho (pai) / paisinho (país) / raizinha (raiz)."
+        },
+        {
+          "id": "b",
+          "text": "papelsinho (papel) / piresinho (pires) / reizinho (rei)."
+        },
+        {
+          "id": "c",
+          "text": "tunelzinho (túnel) / lapizinho (lápis) / avozinho (avô)."
+        },
+        {
+          "id": "d",
+          "text": "adeusinho (adeus) / camizinha (camisa) / mãozinha (mão)."
+        },
+        {
+          "id": "e",
+          "text": "dorzinha (dor) / tecnicazinha (técnica) / xadresinho (xadrez)."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito oficial definitivo: A. A banca considerou corretas as três formações da alternativa A: “paizinho”, “paisinho” e “raizinha”. Fonte: FGV; Corpo de Bombeiros Militar do Estado do Rio de Janeiro (CBMERJ); Cadete BM do 1.º ano do Curso de Formação de Oficiais; 2022; questão 12; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/cadete_bm_do_1o_ano_do_curso_de_formacao_de_oficiaiscnm001_tipo_1_8461654891.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/cbmerj2022_gabarito_definitivo_1.pdf."
+    },
+    {
+      "id": "q164",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A língua portuguesa contém vocábulos com três acentuações tônicas: oxítonas, paroxítonas e proparoxítonas.\nEntre as opções abaixo, assinale aquela que mostra dois vocábulos com idêntica acentuação tônica (as palavras estão propositalmente sem acentos gráficos).",
+      "options": [
+        {
+          "id": "a",
+          "text": "interim / decano."
+        },
+        {
+          "id": "b",
+          "text": "prototipo / gratuito."
+        },
+        {
+          "id": "c",
+          "text": "pesames / carater."
+        },
+        {
+          "id": "d",
+          "text": "filantropo / maquinaria."
+        },
+        {
+          "id": "e",
+          "text": "hipodromo / futil."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito oficial definitivo: D. “Filantropo” e “maquinaria” têm tonicidade paroxítona, portanto apresentam idêntica classificação tônica. Fonte: FGV; Tribunal de Contas do Estado de Santa Catarina; Auditor Fiscal de Controle Externo – Direito; 2026; questão 12; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/cns004-auditor-fiscal-de-controle-externo-direito-cns004-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tce-sc_0.pdf."
     }
   ]
 }
