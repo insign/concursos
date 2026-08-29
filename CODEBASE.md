@@ -9,12 +9,23 @@
 ├── tsconfig.json                     # Astro strict TypeScript configuration
 ├── vitest.config.ts                  # Unit-test discovery
 ├── playwright.config.ts              # Chromium E2E project and built-site server
+├── .build-metrics.json               # Generated build metrics (schemaVersion 1, phases, output stats)
 ├── scripts/
-│   ├── finalize-security.mjs         # Validates and finalizes generated CSP metadata
-│   ├── generate-offline-inventories.mjs # Discovers published package assets and hashes
+│   ├── build.mjs                     # Orchestrates Astro → CSP → (inventories ‖ SW), metrics + concurrency
+│   ├── build-budget.json             # Build-time budget thresholds (totalMs, astroMs, files, bytes)
+│   ├── check-build-budget.mjs        # Validates .build-metrics.json against build-budget.json
+│   ├── estimate-scale.mjs            # Estimates current/target study HTML scale for sharding planning
+│   ├── finalize-security.mjs         # Thin wrapper over scripts/lib/finalize-security.mjs
+│   ├── generate-offline-inventories.mjs # Wrapper over scripts/lib/offline-inventory-builder.mjs
 │   ├── build-service-worker.mjs      # Bundles and injects the Workbox precache manifest
 │   ├── migrate-references.mjs        # One-off references migration script (provenance)
-│   └── generate-icons.mjs            # Generates PWA and favicon assets
+│   ├── generate-icons.mjs            # Generates PWA and favicon assets
+│   └── lib/
+│       ├── build-budget.mjs          # Pure evaluateBuildBudget(metrics, budget) helper
+│       ├── concurrency.mjs           # resolveConcurrency() + mapConcurrent() pool
+│       ├── finalize-security.mjs     # CSP hash finalization extracted for unit testing
+│       ├── offline-inventory-builder.mjs # Inventory builder: hash cache, chunked hashing, transitive deps
+│       └── precache-dependencies.mjs # Transitive precache dependency discovery for SW
 ├── public/
 │   ├── _headers                       # Pages security and cache headers
 │   ├── _redirects                     # Legacy redirects
@@ -63,8 +74,13 @@
 - `src/pages/concursos/[concurso]/[assunto]/questoes.astro`: questionnaire route; passes the question set and resolution descriptors to `Questionnaire.astro`.
 - `src/pages/revisoes/[concurso]/[revisao].astro`: statically generates group mega-review pages and renders their rich Markdown scope.
 - `src/pages/simulados/index.astro`: static simulados shell; imports `simulados-controller` and the result breakdown runtime.
-- `src/service-worker.ts`: Workbox runtime, precache, offline navigation, package-cache fallback, background-sync bridge, navigation-triggered package auto-update, Periodic Background Sync and Background Fetch adoption.
-- `npm run build`: Astro build followed by `finalize-security.mjs`, `generate-offline-inventories.mjs` and `build-service-worker.mjs`.
+- `src/pages/sync-catalog.json.ts`: legacy global sync catalog (subjects across all contests).
+- `src/pages/sync-catalog/[concurso].json.ts` + `src/pages/sync-catalog-index.json.ts`: per-contest sync-catalog shards + lightweight index (contestStorageId, manifests).
+- `src/pages/navigation-catalog.json.ts` + `src/pages/navigation-catalog/[concurso].json.ts` + `src/pages/navigation-catalog-index.json.ts`: global navigation catalog + per-contest shards + lightweight index.
+- `src/pages/subject-suggestions/[concurso].json.ts`: per-contest lightweight payload `schemaVersion: 1` (`contestSlug`, `contestStorageId`, `model`) derived from `getSubjectSuggestionModel()`; same-origin validation.
+- `src/pages/offline-inventories/[concurso].json.ts`: exposes each catalog-derived contest inventory, including generated mega-review routes.
+- `src/service-worker.ts`: Workbox runtime, precache (transitive via `precache-dependencies`), offline navigation, `matchOfflineAsset`/`matchActiveContestCaches`/`matchRuntimePage`, NetworkOnly `https://kv.helio.me`, navigation-triggered auto-update, Periodic Background Sync.
+- `scripts/build.mjs`: canonical build orchestrator — `astro build` → `finalize-security.mjs` → `inventories ‖ serviceWorker` in parallel (sequential when `BUILD_SEQUENTIAL=1`); concurrency via `scripts/lib/concurrency.mjs`, metrics to `.build-metrics.json` (`BUILD_METRICS_PATH` override).
 - `tests/unit/**/*.test.ts`: Vitest entrypoint selected by `vitest.config.ts`.
 - `tests/e2e/**/*.spec.ts`: Playwright Chromium entrypoint; its web server builds `dist` and serves it with Wrangler Pages Dev.
 
@@ -102,18 +118,36 @@
 - `/revisoes/<contestSlug>/<reviewSlug>/`: statically rendered mega review for a group, including its derived descendant scope.
 - `/resolucoes/<contestStorageId>/<subjectStorageId>/`: pre-rendered resolution document containing all resolutions for a subject.
 - `/resolucoes/<contestStorageId>/index.json`: versioned resolution catalog for a contest.
-- `/sync-catalog.json`: current answerable question schemas for synchronization; `origin` is intentionally omitted.
+- `/sync-catalog.json`: legacy global answerable question schemas for synchronization; `origin` is intentionally omitted.
+- `/sync-catalog/<contestStorageId>.json`: per-contest sync-catalog shard (from `src/lib/static-catalogs.ts`).
+- `/sync-catalog-index.json`: lightweight index over sync-catalog shards.
+- `/navigation-catalog.json`: legacy global route/context catalog for navigation synchronization.
+- `/navigation-catalog/<contestStorageId>.json`: per-contest navigation shard.
+- `/navigation-catalog-index.json`: lightweight index over navigation shards.
+- `/subject-suggestions/<contestStorageId>.json`: per-contest subject-suggestion payload (`schemaVersion: 1`).
 - `/simulados/catalog.json`: contest/subject metadata and counts by question origin.
 - `/simulados/pool/<contestStorageId>.json`: full question pool for a contest, loaded when a simulado is generated.
 - `/offline-inventories/<contestStorageId>.json`: generated package manifest for a contest.
-- `/navigation-catalog.json`: static route/context catalog for navigation synchronization.
 - `/simulados/`, `/configuracoes/`, `/offline/` and `/404`: auxiliary UI routes.
 
 ## Core Modules
 
+### Build orchestration and budget
+
+- `scripts/build.mjs`: runs `astro build`, then `scripts/finalize-security.mjs`, then `generate-offline-inventories.mjs ‖ build-service-worker.mjs` in parallel; records `startedAt`, `mode` (`parallel`/`sequential`), `concurrency`, per-phase `durationMs` and output stats (`files`, `htmlFiles`, `bytes`) to `.build-metrics.json`.
+- `scripts/lib/concurrency.mjs`: `resolveConcurrency()` (env `BUILD_CONCURRENCY` → `availableParallelism()` clamped 2–16, max 64) and `mapConcurrent(items, concurrency, worker)` pool used by build orchestration, metrics collection and inventory building.
+- `scripts/lib/build-budget.mjs` + `scripts/build-budget.json` + `scripts/check-build-budget.mjs`: pure `evaluateBuildBudget(metrics, budget)` checks `totalMs`, `astroMs`, `files`, `bytes`; `check-build-budget.mjs` reads `.build-metrics.json` vs `build-budget.json`.
+- `scripts/estimate-scale.mjs`: scans `src/content/concursos` and `src/content/assuntos` to estimate current vs target (`TARGET_CONTESTS=30`, `TARGET_SUBJECTS_PER_CONTEST=300`) study HTML scale; used to size sharding.
+
+### Extracted testable build helpers
+
+- `scripts/lib/finalize-security.mjs`: CSP hash finalization logic extracted from the former monolithic wrapper; re-exported by `scripts/finalize-security.mjs` for backward compatibility and tested in `tests/unit/build-scripts.test.ts`.
+- `scripts/lib/offline-inventory-builder.mjs`: `buildOfflineManifest()` / `runOfflineInventoryBuild()` with resource-reader hash cache (retains only `icons`/`favicon`/`_astro/*.css|js|fonts`), `isInventoryAsset`/`isSharedAsset` separation, transitive `collectAssets` over HTML→CSS/JS→assets, and `hashInChunks` (chunk size = `concurrency`) producing `manifestHash`/`sharedHash`/`resourceHashes` (`schemaVersion: 3`).
+- `scripts/lib/precache-dependencies.mjs`: discovers transitive precache dependencies for the Service Worker manifest (same `/_astro/` + shared-asset classification used by the inventory builder).
+
 ### Catalog and editorial validation
 
-- `src/lib/catalog.ts`: `getCatalog()` loads all eight collections, calls `buildCatalogIndex()` with `REQUIRE_REFERENCES = true`, checks non-empty reference bodies, hydrates collection entries including optional group mega reviews and their `referencesEntry`/`resolutionReferencesEntry`/`megaReviewReferencesEntry`, indexes resolutions by subject, creates offline inventory metadata and supplies `getSubjectStaticPaths()`.
+- `src/lib/catalog.ts`: `getCatalog()` loads all eight collections, calls `buildCatalogIndex()` with `REQUIRE_REFERENCES = true`, checks non-empty reference bodies, hydrates collection entries including optional group mega reviews and their `referencesEntry`/`resolutionReferencesEntry`/`megaReviewReferencesEntry`, indexes resolutions by subject, creates offline inventory metadata and supplies `getSubjectStaticPaths()`. Phase 0–3 memoizes by build: module-scoped `catalogPromise` ensures a single `loadCatalog()` per build/SSR instance.
 - `src/lib/catalog-core.ts`: `buildCatalogIndex()` validates canonical IDs, optional mega-review ownership, contest-local review slugs alongside contest/subject storage IDs, companion files, group ancestry, non-empty groups, contest references, public subject slug uniqueness, orphan resolutions, question existence and exact question revisions; its validation matrix takes a `requireReferences` option (subject references always required; a mega review requires references iff it exists; resolutions require the aggregate iff any resolution exists; orphaned/duplicated/empty-body references fail); it sorts the group tree and flat subject projection, assigns previous/next subject IDs and adds mega-review routes to `createOfflineInventory()`.
 - `src/lib/content-schema.ts`: strict Zod schemas for contests, groups, mega reviews, subjects, resolutions, question sets and synchronization question sets.
 - `src/lib/content-paths.ts`: path normalization, route-segment checks and parsers for contest, group, mega-review, subject and resolution IDs; also `referenceIdFromEntry`/`parseReferenceId` for reference entries.
@@ -121,6 +155,7 @@
 - `src/lib/mega-review-routes.ts`: builds encoded public routes in `/revisoes/<contestSlug>/<reviewSlug>/`.
 - `src/lib/mega-review-scope.ts`: traverses a group tree in editorial order, listing subjects and delegating nested groups that have their own review.
 - `src/lib/markdown-headings.ts`: detects a real Markdown H1 outside fenced code blocks for review title fallback behavior.
+- `src/lib/static-catalogs.ts`: pure, catalog-free builders `buildSyncCatalogSubjects(contests)` (strips `origin` via `syncQuestionSet`) and `buildNavigationCatalogRoutes(contests, includeGlobalRoutes)` used by both global and per-contest endpoints; covered by `tests/unit/static-catalogs.test.ts`.
 
 ### Study layouts and shared runtimes
 
@@ -170,7 +205,7 @@
 - `src/lib/offline-auto-update.ts`: `maybeUpdateOfflinePackages('navigation' | 'periodic')` auto-update engine with in-memory throttling (30 min navigation / 60 min periodic), `navigator.onLine` guard, manifest-hash comparison per download record and delta downloads with `phase: 'update'`; failures are swallowed.
 - `src/lib/offline-background-fetch.ts`: Chromium Background Fetch integration — `startBackgroundPackageDownload()` persists the job in IndexedDB `downloadJobs` and hands the batch to the browser; success/failure finalizers adopt records under Web Lock (`adoptStagedPackageUnderLock`: package resources to staging, shared assets to the global cache).
 - `src/lib/pwa-cache.ts`: names `shared-assets-v1`, `runtime-pages-v1`, `runtime-media-v1` and `contest--<storageId>--<manifestHash>` caches and normalizes navigation paths.
-- `src/service-worker.ts`: precaches generated assets, uses NetworkFirst navigation with `/offline/` fallback, CacheFirst shared/media/downloaded resources, keeps `https://kv.helio.me` NetworkOnly, includes resolution/simulado auxiliary routes, forwards Background Sync messages to the page, triggers `maybeUpdateOfflinePackages('navigation')` on navigations (`waitUntil`, non-blocking), handles `periodicsync` tag `concursos-offline-updates` and adopts Background Fetch records on `backgroundfetchsuccess/fail`.
+- `src/service-worker.ts`: precaches generated assets (transitive deps via `precache-dependencies`), uses `matchPrecache` + `matchOfflineAsset` (precache → `SHARED_ASSET_CACHE` → contest caches) and `matchRuntimePage` fallback on navigation failure, NetworkFirst navigation with `/offline/` fallback, CacheFirst shared/media/downloaded resources, keeps `https://kv.helio.me` NetworkOnly, handles `/_astro/` + `image` via `matchOfflineAsset`, and `subject-suggestions`/`navigation-catalog` shards via contest-cache-first; forwards Background Sync, triggers `maybeUpdateOfflinePackages('navigation')` on navigations (`waitUntil`, non-blocking), handles `periodicsync` `concursos-offline-updates`.
 - `src/components/OfflineContestButton.astro` and `src/pages/offline.astro`: download/remove controls and the offline-availability page; the button cascades from Background Fetch to the in-page flow when supported, mirrors update-phase download events and renews availability after completions/failures.
 - `src/components/PwaRuntime.astro` and `src/lib/pwa-update.ts`: register the Service Worker, register Periodic Background Sync (`concursos-offline-updates`) in standalone mode when supported, wait for local durability before activation/reload and clean inactive package caches.
 - `src/lib/sync.ts`: serial KV synchronization for answers and global preferences/progress/studied/reading documents, with schema validation, revision checks, leases, retries, quarantine and last-write-wins arbitration.
@@ -178,17 +213,17 @@
 - `src/lib/identity.ts`: validates aliases/storage IDs and builds stable local/remote document IDs.
 - `src/lib/profile-backup.ts`, `preferences.ts`, `progress.ts`, `navigation-db.ts`, `navigation-sync.ts` and `local-durability.ts`: profile backup, materialized progress, navigation persistence/synchronization and durability barriers.
 - `src/pages/offline-inventories/[concurso].json.ts`: exposes each catalog-derived contest inventory, including generated mega-review routes.
-- `scripts/generate-offline-inventories.mjs`: scans generated HTML and transitive CSS/JavaScript references, separates shared assets from contest assets and writes manifest hashes/byte estimates for the derived inventories.
+- `scripts/generate-offline-inventories.mjs`: scans generated HTML and transitive CSS/JavaScript references, separates shared assets from contest assets and writes manifest hashes/byte estimates for the derived inventories (delegates to `scripts/lib/offline-inventory-builder.mjs`).
 - `scripts/build-service-worker.mjs`: bundles `src/service-worker.ts` and injects the final Workbox precache list after Astro and inventory generation.
 
 ## Data Flow
 
 1. Astro loaders validate editorial files through `src/content.config.ts` and `content-schema.ts`.
-2. Page entrypoints call `getCatalog()`, which builds and validates the tree/flat projections, attaches optional mega reviews to groups and creates static paths and endpoint payloads.
+2. Page entrypoints call `getCatalog()` (memoized per build via module-scoped `catalogPromise`), which builds and validates the tree/flat projections, attaches optional mega reviews to groups and creates static paths and endpoint payloads. `src/lib/static-catalogs.ts` provides pure builders for sync/navigation shards.
 3. Study pages render content or pass question data to browser controllers; local answer/progress state is stored in IndexedDB and optionally synchronized through `sync.ts` and `kv-client.ts`.
 4. Resolution descriptors are indexed at build time. A corrected question opens the static subject resolution document, checks the requested revision and lazily renders Mermaid in the dialog.
 5. Simulado generation fetches a static contest pool, draws questions into immutable snapshots, stores the detailed attempt locally, then updates the profile index; synchronization publishes details before the index.
-6. The build post-processes generated HTML, derives offline inventories containing the catalog's mega-review routes and produces the Service Worker. Contest downloads stage routes/assets in Cache Storage while IndexedDB records the active package; updates run as hash-based delta downloads triggered by navigation, Periodic Background Sync or the button, with Chromium Background Fetch handing batches to the browser for adoption by the Service Worker.
+6. The build post-processes generated HTML via `scripts/build.mjs` (Astro → security → inventories ‖ SW), derives offline inventories containing the catalog's mega-review routes with transitive asset hashing, produces the Service Worker with transitive precache deps, shards sync/navigation/subject-suggestions endpoints per contest, and writes `.build-metrics.json` for budget enforcement. Contest downloads stage routes/assets in Cache Storage while IndexedDB records the active package; updates run as hash-based delta downloads triggered by navigation, Periodic Background Sync or the button.
 
 ## Main Commands
 
@@ -209,15 +244,17 @@ npm run icons
 - `npm run test`: complete Vitest suite.
 - `npm run test:unit`: unit tests under `tests/unit`.
 - `npm run test:e2e`: Playwright Chromium against a built `dist` served by `wrangler pages dev`.
-- `npm run build`: static production build plus security, offline-inventory and Service Worker post-processing; publish directory is `dist`.
+- `npm run build`: static production build orchestrated by `scripts/build.mjs` (Astro → `finalize-security` → `generate-offline-inventories ‖ build-service-worker` with `BUILD_SEQUENTIAL`/`BUILD_CONCURRENCY`/`BUILD_METRICS_PATH` env overrides); publish directory is `dist`.
 - `npm run preview`: Astro preview server.
 - `npm run icons`: regenerates icons from the icon source/generator.
+- `node scripts/check-build-budget.mjs`: validates `.build-metrics.json` against `scripts/build-budget.json`.
+- `node scripts/estimate-scale.mjs`: estimates current vs target study-HTML scale (env `TARGET_CONTESTS`/`TARGET_SUBJECTS_PER_CONTEST`).
 - Deployment has no npm deploy script: the existing Cloudflare Pages Git integration builds `main` with `npm run build` and publishes `dist`; Wrangler Pages Dev is used locally by E2E.
 
 ## Testing
 
-- Unit coverage includes `catalog.test.ts`, `catalog-groups.test.ts`, `content-paths.test.ts`, `content-schema.test.ts`, `mega-review-routes.test.ts`, `mega-review-scope.test.ts`, `markdown-headings.test.ts`, `reading-progress.test.ts`, `resolutions.test.ts`, `markdown-features.test.ts`, `questionnaire.test.ts`, `question-order.test.ts`, `simulados.test.ts`, `simulados-validation.test.ts`, `simulados-sync.test.ts`, `offline-db.test.ts`, `offline-packages.test.ts`, `offline-download-events.test.ts`, `offline-auto-update.test.ts`, `offline-background-fetch.test.ts`, `pwa-update.test.ts`, `identity.test.ts`, `sync.test.ts`, `navigation*.test.ts`, profile backup, progress, preferences, theme and runtime tests. Mega-review coverage includes canonical IDs, strict metadata, catalog validation, offline routes, scope delegation and H1 detection.
-- E2E coverage includes `mega-review.spec.ts` for rich Markdown, catalog links, print behavior and no-JavaScript readability; `pwa.spec.ts` also verifies the mega-review route in the offline inventory and cached navigation. The suite also includes `questionnaire.spec.ts`, `resolutions.spec.ts`, `simulados.spec.ts`, `simulados-result-breakdown.spec.ts`, navigation/offline, background fetch (`offline-background.spec.ts`), catalog groups, subject suggestion/navigation/pagination, reading mode/customizer/resume, identity, sync, profile backup, studied, preferences/progress, security, header, theme, abbreviation and final validation specs.
+- Unit coverage includes `catalog.test.ts`, `catalog-groups.test.ts`, `content-paths.test.ts`, `content-schema.test.ts`, `mega-review-routes.test.ts`, `mega-review-scope.test.ts`, `markdown-headings.test.ts`, `reading-progress.test.ts`, `resolutions.test.ts`, `markdown-features.test.ts`, `questionnaire.test.ts`, `question-order.test.ts`, `simulados.test.ts`, `simulados-validation.test.ts`, `simulados-sync.test.ts`, `offline-db.test.ts`, `offline-packages.test.ts`, `offline-download-events.test.ts`, `offline-auto-update.test.ts`, `offline-background-fetch.test.ts`, `pwa-update.test.ts`, `identity.test.ts`, `sync.test.ts`, `navigation*.test.ts`, `build-scripts.test.ts` (lib/build-budget, lib/concurrency, lib/finalize-security, lib/offline-inventory-builder chunked hashing/cache), `static-catalogs.test.ts` (buildSyncCatalogSubjects, buildNavigationCatalogRoutes), profile backup, progress, preferences, theme and runtime tests. Mega-review coverage includes canonical IDs, strict metadata, catalog validation, offline routes, scope delegation and H1 detection.
+- E2E coverage includes `mega-review.spec.ts` for rich Markdown, catalog links, print behavior and no-JavaScript readability; `catalog-shards.spec.ts` for global vs per-contest sync/navigation/subject-suggestions shards and indices (schemaVersion, same-origin, storageId routing); `pwa.spec.ts` also verifies the mega-review route in the offline inventory and cached navigation. The suite also includes `questionnaire.spec.ts`, `resolutions.spec.ts`, `simulados.spec.ts`, `simulados-result-breakdown.spec.ts`, navigation/offline, background fetch (`offline-background.spec.ts`), catalog groups, subject suggestion/navigation/pagination, reading mode/customizer/resume, identity, sync, profile backup, studied, preferences/progress, security, header, theme, abbreviation and final validation specs.
 - `playwright.config.ts` blocks Service Workers by default; `tests/e2e/pwa.spec.ts` enables them explicitly. E2E runs against the Pages-compatible Wrangler server so `_headers` behavior is exercised.
 
 ## Configuration and External Dependencies
@@ -241,3 +278,4 @@ npm run icons
 - Simulado snapshots are historical documents and must not be rebuilt from the current catalog when reviewed.
 - KV traffic is never cached by the Service Worker; remote JSON is validated before adoption and invalid data is quarantined.
 - Mermaid resolution rendering is lazy, same-origin and strict, with readable source fallback when the runtime or diagram rendering fails.
+- `getCatalog()` is memoized per build process; repeated calls reuse the same promise. Sharded catalogs (`/sync-catalog/<id>.json`, `/navigation-catalog/<id>.json`, `/subject-suggestions/<id>.json`) are the scale path for 30×300 subjects; global endpoints remain for backward compatibility. Service Worker `matchOfflineAsset` and runtime-page fallback preserve offline navigation for sharded routes.
