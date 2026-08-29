@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q4119",
@@ -2221,6 +2221,246 @@
       ],
       "correctOptionId": "C",
       "explanation": "Na associação cobrada, DNS usa a porta 53; HTTPS, 443; DHCP, 67 (porta do servidor); e SSH, 22. Fonte oficial: FGV; Tribunal de Justiça do Estado do Amapá (TJAP); Analista Judiciário — Área Apoio Especializado — Tecnologia da Informação — Segurança da Informação; Edital 1/2023; prova aplicada em 24/03/2024; Tipo 1 (Branca); questão 48; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-judiciario-apoio-especializado-tecnologia-da-informacao-seguranca-da-informacaoseg-09-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/tjap2024_gabarito_definitivo.pdf; gabarito C."
+    },
+    {
+      "id": "q4192",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em um servidor DNS o arquivo de zona consiste das informações de cabeçalho e dos registros de recursos. Considere a seguir uma linha de um arquivo de zona de um servidor DNS:\nftp IN CNAME server01\nEste registro tem a função de",
+      "options": [
+        {
+          "id": "A",
+          "text": "definir que o servidor DNS server01 responda pelo host ftp."
+        },
+        {
+          "id": "B",
+          "text": "definir que CNAME é o servidor DNS responsável pelo domínio ftp."
+        },
+        {
+          "id": "C",
+          "text": "definir ftp como o servidor de nomes para server01."
+        },
+        {
+          "id": "D",
+          "text": "autorizar a transferência de arquivos a partir de server01."
+        },
+        {
+          "id": "E",
+          "text": "permitir que server01 seja referenciado pelo apelido ftp."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O registro CNAME define um nome canônico e permite referenciar server01 pelo alias ftp. Fonte oficial: FGV; Câmara Municipal de São Paulo; Técnico Legislativo — Informática; prova aplicada em 14/01/2024; Tipo 1 (Branca); questão 83; prova https://conhecimento.fgv.br/sites/default/files/concursos/cnm105-tecnico-legislativo-informaticacnm105-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/camarasp2024_definitivo_20240206.pdf; gabarito E; sem adaptação."
+    },
+    {
+      "id": "q4193",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção em que é apresentado um protocolo de comunicação usado para transferir arquivos para upload e download pela Internet.",
+      "options": [
+        {
+          "id": "A",
+          "text": "FTP"
+        },
+        {
+          "id": "B",
+          "text": "HTTP"
+        },
+        {
+          "id": "C",
+          "text": "DHCP"
+        },
+        {
+          "id": "D",
+          "text": "SMTP"
+        },
+        {
+          "id": "E",
+          "text": "DNS"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "FTP é o protocolo de transferência de arquivos identificado pela banca. Fonte oficial: Cebraspe; Ministério da Ciência, Tecnologia e Inovação/Laboratório Nacional de Astrofísica; Cargo 2 — Tecnologista — Especialidade: Infraestrutura de Redes; prova aplicada em 07/04/2024; questão 12; prova https://cdn.cebraspe.org.br/concursos/mcti_lna_23_tecnologista/arquivos/941_LNA_TECNOLOGISTA_002_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/mcti_lna_23_tecnologista/arquivos/GAB_DEFINITIVO_941_LNA_TECNOLOGISTA_002_01.PDF; gabarito A; sem adaptação."
+    },
+    {
+      "id": "q4194",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A topologia de rede em que todos os dispositivos estão conectados a um único cabo principal é do tipo",
+      "options": [
+        {
+          "id": "A",
+          "text": "malha."
+        },
+        {
+          "id": "B",
+          "text": "árvore."
+        },
+        {
+          "id": "C",
+          "text": "estrela."
+        },
+        {
+          "id": "D",
+          "text": "anel."
+        },
+        {
+          "id": "E",
+          "text": "barramento."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A conexão de todos os dispositivos a um único cabo principal caracteriza topologia em barramento. Fonte oficial: Cebraspe; Ministério da Ciência, Tecnologia e Inovação/Laboratório Nacional de Astrofísica; Cargo 2 — Tecnologista — Especialidade: Infraestrutura de Redes; prova aplicada em 07/04/2024; questão 13; prova https://cdn.cebraspe.org.br/concursos/mcti_lna_23_tecnologista/arquivos/941_LNA_TECNOLOGISTA_002_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/mcti_lna_23_tecnologista/arquivos/GAB_DEFINITIVO_941_LNA_TECNOLOGISTA_002_01.PDF; gabarito E; sem adaptação."
+    },
+    {
+      "id": "q4195",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma organização recebeu o seguinte bloco de endereços IPv4 da classe B: 172.16.0.0/16. A organização deseja criar sub-redes que possam acomodar até 1.000 hosts em cada uma, minimizando o desperdício de endereços IP.\nNessa situação, assinale a opção em que é apresentada a máscara de sub-rede mais apropriada para atender à exigência citada.",
+      "options": [
+        {
+          "id": "A",
+          "text": "255.255.254.0"
+        },
+        {
+          "id": "B",
+          "text": "255.255.255.240"
+        },
+        {
+          "id": "C",
+          "text": "255.255.255.0"
+        },
+        {
+          "id": "D",
+          "text": "255.255.255.128"
+        },
+        {
+          "id": "E",
+          "text": "255.255.252.0"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A máscara 255.255.252.0 corresponde a /22, com 1.024 endereços no bloco e 1.022 hosts utilizáveis no modelo tradicional. Fonte oficial: Cebraspe; Ministério da Ciência, Tecnologia e Inovação/Laboratório Nacional de Astrofísica; Cargo 2 — Tecnologista — Especialidade: Infraestrutura de Redes; prova aplicada em 07/04/2024; questão 17; prova https://cdn.cebraspe.org.br/concursos/mcti_lna_23_tecnologista/arquivos/941_LNA_TECNOLOGISTA_002_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/mcti_lna_23_tecnologista/arquivos/GAB_DEFINITIVO_941_LNA_TECNOLOGISTA_002_01.PDF; gabarito E; sem adaptação."
+    },
+    {
+      "id": "q4196",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O Engenheiro está configurando a rede local de um dos gabinetes da Assembleia Legislativa. A topologia física é centralizada, onde todos os computadores estão conectados a um switch central.\nAssinale a alternativa que nomeia a topologia de rede na qual todos os dispositivos se conectam a um nó central.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Topologia em Anel"
+        },
+        {
+          "id": "B",
+          "text": "Topologia em Barramento"
+        },
+        {
+          "id": "C",
+          "text": "Topologia em Estrela"
+        },
+        {
+          "id": "D",
+          "text": "Topologia em Malha"
+        },
+        {
+          "id": "E",
+          "text": "Topologia Híbrida"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Uma rede física centralizada em um switch central corresponde à topologia em estrela. Fonte oficial: FGV; Assembleia Legislativa do Estado de Rondônia; Analista Legislativo — Tecnologia da Informação — Infraestrutura de Redes e Comunicação; prova aplicada em 08/02/2026; Turno Tarde; Tipo 1 (Branca); questão 49; prova https://conhecimento.fgv.br/sites/default/files/concursos/cnsal27-analista-legislativo-tecnologia-da-informacao-infraestrutura-de-redes-e-comunicacao-cnsal27-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/ale_ro-gabarito-definitivo.pdf; gabarito C; sem adaptação."
+    },
+    {
+      "id": "q4197",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O Engenheiro da Computação está migrando a rede da Assembleia para IPv6. O endereço completo é:\n2001:0DB8:0000:0000:0000:0000:FE00:0001.\nAssinale a alternativa que apresenta a forma de notação simplificada válida para este endereço IPv6.",
+      "options": [
+        {
+          "id": "A",
+          "text": "2001:DB8:00:0:FE0:0:1"
+        },
+        {
+          "id": "B",
+          "text": "2001:DB8:0:0:0:0:FE00:1"
+        },
+        {
+          "id": "C",
+          "text": "2001:DB8:0000::FE00:0001"
+        },
+        {
+          "id": "D",
+          "text": "2001:DB8:0:0:FE00:1"
+        },
+        {
+          "id": "E",
+          "text": "2001:DB8::FE00:1"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Zeros à esquerda de cada hexteto podem ser omitidos e a sequência contínua de hextetos zero pode ser comprimida uma vez com ::. Fonte oficial: FGV; Assembleia Legislativa do Estado de Rondônia; Analista Legislativo — Tecnologia da Informação — Infraestrutura de Redes e Comunicação; prova aplicada em 08/02/2026; Turno Tarde; Tipo 1 (Branca); questão 51; prova https://conhecimento.fgv.br/sites/default/files/concursos/cnsal27-analista-legislativo-tecnologia-da-informacao-infraestrutura-de-redes-e-comunicacao-cnsal27-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/ale_ro-gabarito-definitivo.pdf; gabarito E; sem adaptação."
+    },
+    {
+      "id": "q4198",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A rede principal da Assembleia é 192.168.10.0/24. O Engenheiro precisa criar uma sub-rede para a rede de Convidados que suporte no máximo 30 hosts.\nAssinale a alternativa que identifica a máscara de sub-rede e o número máximo de hosts utilizáveis para atender a esse requisito.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Máscara 255.255.255.192 (prefixo /26), máximo de 62 hosts."
+        },
+        {
+          "id": "B",
+          "text": "Máscara 255.255.255.240 (prefixo /28), máximo de 14 hosts."
+        },
+        {
+          "id": "C",
+          "text": "Máscara 255.255.255.224 (prefixo /27), máximo de 30 hosts."
+        },
+        {
+          "id": "D",
+          "text": "Máscara 255.255.255.0 (prefixo /24), máximo de 254 hosts."
+        },
+        {
+          "id": "E",
+          "text": "Máscara 255.255.254.0 (prefixo /23), máximo de 510 hosts."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Um prefixo /27 possui 32 endereços e, no modelo IPv4 tradicional, 30 endereços utilizáveis para hosts. Fonte oficial: FGV; Assembleia Legislativa do Estado de Rondônia; Analista Legislativo — Tecnologia da Informação — Infraestrutura de Redes e Comunicação; prova aplicada em 08/02/2026; Turno Tarde; Tipo 1 (Branca); questão 55; prova https://conhecimento.fgv.br/sites/default/files/concursos/cnsal27-analista-legislativo-tecnologia-da-informacao-infraestrutura-de-redes-e-comunicacao-cnsal27-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/ale_ro-gabarito-definitivo.pdf; gabarito C; sem adaptação."
+    },
+    {
+      "id": "q4199",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considerando os diferentes aspectos do ePING e a tecnologia na administração pública, julgue os itens a seguir.\nI O ePING define diretrizes para a segurança da informação, estabelecendo requisitos para autenticação, criptografia e controle de acessos em sistemas governamentais.\nII O ePING estabelece que os serviços web, inclusive APIs RESTful, devem ser utilizados para garantir a interoperabilidade entre sistemas de diferentes órgãos governamentais.\nIII O ePING define padrões e especificações técnicas que devem ser seguidos para garantir a integração de dados e serviços governamentais.\nAssinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apenas o item I está certo."
+        },
+        {
+          "id": "B",
+          "text": "Apenas o item II está certo."
+        },
+        {
+          "id": "C",
+          "text": "Apenas os itens I e III estão certos."
+        },
+        {
+          "id": "D",
+          "text": "Apenas os itens II e III estão certos."
+        },
+        {
+          "id": "E",
+          "text": "Todos os itens estão certos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O gabarito oficial definitivo considerou corretos os três itens sobre diretrizes de segurança, serviços web/APIs e padrões técnicos de integração da ePING. Fonte oficial: Cebraspe; Ministério da Ciência, Tecnologia e Inovação — Agência Espacial Brasileira; Cargo 4 — Tecnologista Júnior — Especialidade: Tecnologia da Informação; prova aplicada em 13/04/2025; questão 28; prova https://cdn.cebraspe.org.br/concursos/aeb_24/arquivos/051_AEB_24_004_01.pdf; gabarito definitivo https://cdn.cebraspe.org.br/concursos/aeb_24/arquivos/Gab_Definitivo_051_AEB_24_004_01.pdf; gabarito E; sem adaptação."
     }
   ]
 }
