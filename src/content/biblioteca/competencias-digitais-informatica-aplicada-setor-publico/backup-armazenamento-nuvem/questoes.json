@@ -1,34 +1,13 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q4239",
       "revision": 2,
       "origin": "authorial",
       "prompt": "A finalidade essencial de um backup é",
-      "options": [
-        {
-          "id": "A",
-          "text": "sincronizar imediatamente toda alteração com todos os dispositivos."
-        },
-        {
-          "id": "B",
-          "text": "substituir controles de acesso ao original."
-        },
-        {
-          "id": "C",
-          "text": "eliminar a necessidade de testes."
-        },
-        {
-          "id": "D",
-          "text": "garantir disponibilidade contínua sem restauração."
-        },
-        {
-          "id": "E",
-          "text": "manter uma cópia recuperável de dados, configurações ou sistemas."
-        }
-      ],
+      "options": [{"id":"A","text":"sincronizar imediatamente toda alteração com todos os dispositivos."},{"id":"B","text":"substituir controles de acesso ao original."},{"id":"C","text":"eliminar a necessidade de testes."},{"id":"D","text":"garantir disponibilidade contínua sem restauração."},{"id":"E","text":"manter uma cópia recuperável de dados, configurações ou sistemas."}],
       "correctOptionId": "E",
       "explanation": "Backup existe para permitir recuperação; sincronização, redundância e disponibilidade são conceitos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -37,28 +16,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre backup e restauração, assinale a alternativa correta.",
-      "options": [
-        {
-          "id": "A",
-          "text": "A execução do backup prova automaticamente que a aplicação funciona após recuperar."
-        },
-        {
-          "id": "B",
-          "text": "Backup cria a cópia; restauração recupera dados ou sistemas a partir dela."
-        },
-        {
-          "id": "C",
-          "text": "Restauração é uma nova cópia feita sobre o repositório."
-        },
-        {
-          "id": "D",
-          "text": "Backup e restauração são sinônimos."
-        },
-        {
-          "id": "E",
-          "text": "Uma mensagem de sucesso dispensa validação."
-        }
-      ],
+      "options": [{"id":"A","text":"A execução do backup prova automaticamente que a aplicação funciona após recuperar."},{"id":"B","text":"Backup cria a cópia; restauração recupera dados ou sistemas a partir dela."},{"id":"C","text":"Restauração é uma nova cópia feita sobre o repositório."},{"id":"D","text":"Backup e restauração são sinônimos."},{"id":"E","text":"Uma mensagem de sucesso dispensa validação."}],
       "correctOptionId": "B",
       "explanation": "Cópia e recuperação são etapas diferentes; o teste comprova a utilidade do conjunto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -67,28 +25,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Uma pasta sincronizada entre computador e nuvem deve ser avaliada como",
-      "options": [
-        {
-          "id": "A",
-          "text": "backup imutável em qualquer configuração."
-        },
-        {
-          "id": "B",
-          "text": "arquivamento de retenção ilimitada."
-        },
-        {
-          "id": "C",
-          "text": "substituto automático da regra 3-2-1."
-        },
-        {
-          "id": "D",
-          "text": "mecanismo que mantém alterações coerentes e pode propagar exclusões ou corrupção."
-        },
-        {
-          "id": "E",
-          "text": "imagem completa do sistema operacional."
-        }
-      ],
+      "options": [{"id":"A","text":"backup imutável em qualquer configuração."},{"id":"B","text":"arquivamento de retenção ilimitada."},{"id":"C","text":"substituto automático da regra 3-2-1."},{"id":"D","text":"mecanismo que mantém alterações coerentes e pode propagar exclusões ou corrupção."},{"id":"E","text":"imagem completa do sistema operacional."}],
       "correctOptionId": "D",
       "explanation": "Sincronização replica estado e alterações; não garante independência histórica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -97,28 +34,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Um snapshot mantido no mesmo storage do volume original",
-      "options": [
-        {
-          "id": "A",
-          "text": "é necessariamente off-site."
-        },
-        {
-          "id": "B",
-          "text": "substitui toda política de retenção."
-        },
-        {
-          "id": "C",
-          "text": "é sempre imutável."
-        },
-        {
-          "id": "D",
-          "text": "pode compartilhar o mesmo domínio de falha e não ser backup independente."
-        },
-        {
-          "id": "E",
-          "text": "não pode auxiliar uma recuperação."
-        }
-      ],
+      "options": [{"id":"A","text":"é necessariamente off-site."},{"id":"B","text":"substitui toda política de retenção."},{"id":"C","text":"é sempre imutável."},{"id":"D","text":"pode compartilhar o mesmo domínio de falha e não ser backup independente."},{"id":"E","text":"não pode auxiliar uma recuperação."}],
       "correctOptionId": "D",
       "explanation": "O snapshot é útil, mas sua independência depende de onde e como é preservado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -127,28 +43,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Um arranjo RAID que mantém o serviço após a falha de um disco",
-      "options": [
-        {
-          "id": "A",
-          "text": "protege contra qualquer ransomware."
-        },
-        {
-          "id": "B",
-          "text": "elimina a necessidade de retenção."
-        },
-        {
-          "id": "C",
-          "text": "é redundância para tolerar falha de componente, mas não substitui backup."
-        },
-        {
-          "id": "D",
-          "text": "impede exclusões lógicas."
-        },
-        {
-          "id": "E",
-          "text": "é uma cópia off-site."
-        }
-      ],
+      "options": [{"id":"A","text":"protege contra qualquer ransomware."},{"id":"B","text":"elimina a necessidade de retenção."},{"id":"C","text":"é redundância para tolerar falha de componente, mas não substitui backup."},{"id":"D","text":"impede exclusões lógicas."},{"id":"E","text":"é uma cópia off-site."}],
       "correctOptionId": "C",
       "explanation": "RAID melhora disponibilidade diante de certas falhas físicas, sem criar histórico independente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -157,28 +52,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "A distinção correta entre arquivamento e backup é",
-      "options": [
-        {
-          "id": "A",
-          "text": "backup só existe para finalidade histórica."
-        },
-        {
-          "id": "B",
-          "text": "arquivamento sempre sincroniza alterações."
-        },
-        {
-          "id": "C",
-          "text": "arquivamento tende à preservação de longo prazo; backup atende à recuperação operacional."
-        },
-        {
-          "id": "D",
-          "text": "os conceitos são necessariamente idênticos."
-        },
-        {
-          "id": "E",
-          "text": "arquivamento elimina o descarte."
-        }
-      ],
+      "options": [{"id":"A","text":"backup só existe para finalidade histórica."},{"id":"B","text":"arquivamento sempre sincroniza alterações."},{"id":"C","text":"arquivamento tende à preservação de longo prazo; backup atende à recuperação operacional."},{"id":"D","text":"os conceitos são necessariamente idênticos."},{"id":"E","text":"arquivamento elimina o descarte."}],
       "correctOptionId": "C",
       "explanation": "As finalidades podem coexistir, mas não são sinônimas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -187,28 +61,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "O versionamento de arquivos",
-      "options": [
-        {
-          "id": "A",
-          "text": "impede toda exclusão."
-        },
-        {
-          "id": "B",
-          "text": "garante retenção eterna."
-        },
-        {
-          "id": "C",
-          "text": "torna desnecessária cópia externa."
-        },
-        {
-          "id": "D",
-          "text": "mantém estados anteriores, sujeito a limites de quantidade, prazo e política."
-        },
-        {
-          "id": "E",
-          "text": "é sinônimo de RAID."
-        }
-      ],
+      "options": [{"id":"A","text":"impede toda exclusão."},{"id":"B","text":"garante retenção eterna."},{"id":"C","text":"torna desnecessária cópia externa."},{"id":"D","text":"mantém estados anteriores, sujeito a limites de quantidade, prazo e política."},{"id":"E","text":"é sinônimo de RAID."}],
       "correctOptionId": "D",
       "explanation": "Versões ajudam a recuperar alterações, mas não são proteção ilimitada. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -217,28 +70,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "O backup completo copia",
-      "options": [
-        {
-          "id": "A",
-          "text": "somente mudanças desde o último incremental."
-        },
-        {
-          "id": "B",
-          "text": "somente mudanças desde o último completo."
-        },
-        {
-          "id": "C",
-          "text": "apenas os arquivos com erro."
-        },
-        {
-          "id": "D",
-          "text": "todo o conjunto selecionado para aquela execução."
-        },
-        {
-          "id": "E",
-          "text": "somente arquivos criados no dia."
-        }
-      ],
+      "options": [{"id":"A","text":"somente mudanças desde o último incremental."},{"id":"B","text":"somente mudanças desde o último completo."},{"id":"C","text":"apenas os arquivos com erro."},{"id":"D","text":"todo o conjunto selecionado para aquela execução."},{"id":"E","text":"somente arquivos criados no dia."}],
       "correctOptionId": "D",
       "explanation": "O completo abrange todo o escopo selecionado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -247,28 +79,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Após um completo no domingo e um incremental na segunda, o incremental de terça copia, conceitualmente, mudanças desde",
-      "options": [
-        {
-          "id": "A",
-          "text": "o completo de domingo."
-        },
-        {
-          "id": "B",
-          "text": "o início do mês."
-        },
-        {
-          "id": "C",
-          "text": "o backup anterior, realizado na segunda."
-        },
-        {
-          "id": "D",
-          "text": "o diferencial futuro."
-        },
-        {
-          "id": "E",
-          "text": "o último teste."
-        }
-      ],
+      "options": [{"id":"A","text":"o completo de domingo."},{"id":"B","text":"o início do mês."},{"id":"C","text":"o backup anterior, realizado na segunda."},{"id":"D","text":"o diferencial futuro."},{"id":"E","text":"o último teste."}],
       "correctOptionId": "C",
       "explanation": "Incremental usa como referência o backup anterior, qualquer que seja o tipo aplicável. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -277,28 +88,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Há um completo F0 e incrementais I1, I2 e I3. Para restaurar o estado de I3, usa-se",
-      "options": [
-        {
-          "id": "A",
-          "text": "F0 e I3 apenas."
-        },
-        {
-          "id": "B",
-          "text": "I3 apenas."
-        },
-        {
-          "id": "C",
-          "text": "I1 e I3, em qualquer ordem."
-        },
-        {
-          "id": "D",
-          "text": "F0, I1, I2 e I3, na ordem correta."
-        },
-        {
-          "id": "E",
-          "text": "F0 e o último diferencial."
-        }
-      ],
+      "options": [{"id":"A","text":"F0 e I3 apenas."},{"id":"B","text":"I3 apenas."},{"id":"C","text":"I1 e I3, em qualquer ordem."},{"id":"D","text":"F0, I1, I2 e I3, na ordem correta."},{"id":"E","text":"F0 e o último diferencial."}],
       "correctOptionId": "D",
       "explanation": "Cada incremental depende da base e dos elos anteriores. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -307,28 +97,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Em uma cadeia F0, I1, I2 e I3, a perda de I2 tende a",
-      "options": [
-        {
-          "id": "A",
-          "text": "não produzir efeito, pois I3 contém tudo desde F0."
-        },
-        {
-          "id": "B",
-          "text": "transformar I3 em diferencial."
-        },
-        {
-          "id": "C",
-          "text": "ser corrigida invertendo a ordem."
-        },
-        {
-          "id": "D",
-          "text": "permitir restauração apenas com I1 e I3."
-        },
-        {
-          "id": "E",
-          "text": "impedir a reconstrução completa do estado de I3."
-        }
-      ],
+      "options": [{"id":"A","text":"não produzir efeito, pois I3 contém tudo desde F0."},{"id":"B","text":"transformar I3 em diferencial."},{"id":"C","text":"ser corrigida invertendo a ordem."},{"id":"D","text":"permitir restauração apenas com I1 e I3."},{"id":"E","text":"impedir a reconstrução completa do estado de I3."}],
       "correctOptionId": "E",
       "explanation": "A cadeia incremental depende de cada elo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -337,28 +106,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "O backup diferencial copia as mudanças ocorridas desde",
-      "options": [
-        {
-          "id": "A",
-          "text": "o último backup completo."
-        },
-        {
-          "id": "B",
-          "text": "o backup imediatamente anterior."
-        },
-        {
-          "id": "C",
-          "text": "a última rotação."
-        },
-        {
-          "id": "D",
-          "text": "o último teste."
-        },
-        {
-          "id": "E",
-          "text": "o início do dia."
-        }
-      ],
+      "options": [{"id":"A","text":"o último backup completo."},{"id":"B","text":"o backup imediatamente anterior."},{"id":"C","text":"a última rotação."},{"id":"D","text":"o último teste."},{"id":"E","text":"o início do dia."}],
       "correctOptionId": "A",
       "explanation": "O diferencial mantém como base o último completo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -367,28 +115,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Há um completo F0 e diferenciais D1, D2 e D3. Para restaurar o estado de D3, bastam, em regra,",
-      "options": [
-        {
-          "id": "A",
-          "text": "D3 apenas."
-        },
-        {
-          "id": "B",
-          "text": "D1, D2 e D3."
-        },
-        {
-          "id": "C",
-          "text": "F0, D1, D2 e D3."
-        },
-        {
-          "id": "D",
-          "text": "I1, I2 e I3."
-        },
-        {
-          "id": "E",
-          "text": "F0 e D3."
-        }
-      ],
+      "options": [{"id":"A","text":"D3 apenas."},{"id":"B","text":"D1, D2 e D3."},{"id":"C","text":"F0, D1, D2 e D3."},{"id":"D","text":"I1, I2 e I3."},{"id":"E","text":"F0 e D3."}],
       "correctOptionId": "E",
       "explanation": "O último diferencial acumula mudanças desde o completo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -397,28 +124,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Até um novo completo, diferenciais sucessivos tendem a",
-      "options": [
-        {
-          "id": "A",
-          "text": "diminuir sempre."
-        },
-        {
-          "id": "B",
-          "text": "ter tamanho idêntico ao completo."
-        },
-        {
-          "id": "C",
-          "text": "crescer, pois acumulam mudanças desde a mesma base completa."
-        },
-        {
-          "id": "D",
-          "text": "limpar a origem."
-        },
-        {
-          "id": "E",
-          "text": "dispensar a base completa."
-        }
-      ],
+      "options": [{"id":"A","text":"diminuir sempre."},{"id":"B","text":"ter tamanho idêntico ao completo."},{"id":"C","text":"crescer, pois acumulam mudanças desde a mesma base completa."},{"id":"D","text":"limpar a origem."},{"id":"E","text":"dispensar a base completa."}],
       "correctOptionId": "C",
       "explanation": "O volume tende a crescer ao acumular alterações desde o completo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -427,28 +133,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Na classificação clássica, o backup de Cópia",
-      "options": [
-        {
-          "id": "A",
-          "text": "copia todos e limpa o atributo de arquivo."
-        },
-        {
-          "id": "B",
-          "text": "copia apenas alterados do dia e limpa o atributo."
-        },
-        {
-          "id": "C",
-          "text": "copia somente arquivos sem atributo."
-        },
-        {
-          "id": "D",
-          "text": "é sinônimo de incremental."
-        },
-        {
-          "id": "E",
-          "text": "copia todos e não limpa o atributo, preservando a sequência normal."
-        }
-      ],
+      "options": [{"id":"A","text":"copia todos e limpa o atributo de arquivo."},{"id":"B","text":"copia apenas alterados do dia e limpa o atributo."},{"id":"C","text":"copia somente arquivos sem atributo."},{"id":"D","text":"é sinônimo de incremental."},{"id":"E","text":"copia todos e não limpa o atributo, preservando a sequência normal."}],
       "correctOptionId": "E",
       "explanation": "O backup de Cópia permite uma execução extraordinária sem alterar o atributo clássico. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -457,28 +142,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Na classificação clássica, o backup Diário",
-      "options": [
-        {
-          "id": "A",
-          "text": "copia todos e limpa o atributo."
-        },
-        {
-          "id": "B",
-          "text": "copia desde o último completo."
-        },
-        {
-          "id": "C",
-          "text": "copia os alterados no dia e não limpa o atributo de arquivo."
-        },
-        {
-          "id": "D",
-          "text": "copia desde o backup anterior."
-        },
-        {
-          "id": "E",
-          "text": "é uma imagem de sistema."
-        }
-      ],
+      "options": [{"id":"A","text":"copia todos e limpa o atributo."},{"id":"B","text":"copia desde o último completo."},{"id":"C","text":"copia os alterados no dia e não limpa o atributo de arquivo."},{"id":"D","text":"copia desde o backup anterior."},{"id":"E","text":"é uma imagem de sistema."}],
       "correctOptionId": "C",
       "explanation": "O Diário seleciona itens alterados no dia e não redefine o atributo clássico. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -487,28 +151,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Na taxonomia baseada no atributo de arquivo, a distinção correta é",
-      "options": [
-        {
-          "id": "A",
-          "text": "incremental e diferencial sempre limpam o atributo."
-        },
-        {
-          "id": "B",
-          "text": "incremental não limpa; diferencial limpa."
-        },
-        {
-          "id": "C",
-          "text": "nenhum usa o atributo."
-        },
-        {
-          "id": "D",
-          "text": "incremental limpa; diferencial não limpa."
-        },
-        {
-          "id": "E",
-          "text": "ambos são completos."
-        }
-      ],
+      "options": [{"id":"A","text":"incremental e diferencial sempre limpam o atributo."},{"id":"B","text":"incremental não limpa; diferencial limpa."},{"id":"C","text":"nenhum usa o atributo."},{"id":"D","text":"incremental limpa; diferencial não limpa."},{"id":"E","text":"ambos são completos."}],
       "correctOptionId": "D",
       "explanation": "Essa diferença explica por que o diferencial volta a incluir mudanças desde o completo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -517,28 +160,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "A rotação avô–pai–filho é um exemplo de",
-      "options": [
-        {
-          "id": "A",
-          "text": "classificação de permissões em nuvem."
-        },
-        {
-          "id": "B",
-          "text": "algoritmo de checksum."
-        },
-        {
-          "id": "C",
-          "text": "tipo obrigatório de backup incremental."
-        },
-        {
-          "id": "D",
-          "text": "mecanismo de RAID."
-        },
-        {
-          "id": "E",
-          "text": "organização de gerações diárias, semanais e mensais."
-        }
-      ],
+      "options": [{"id":"A","text":"classificação de permissões em nuvem."},{"id":"B","text":"algoritmo de checksum."},{"id":"C","text":"tipo obrigatório de backup incremental."},{"id":"D","text":"mecanismo de RAID."},{"id":"E","text":"organização de gerações diárias, semanais e mensais."}],
       "correctOptionId": "E",
       "explanation": "Avô–pai–filho organiza gerações; não define, sozinho, o tipo de cópia. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -547,28 +169,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto à frequência de backup, a regra adequada é",
-      "options": [
-        {
-          "id": "A",
-          "text": "uma execução mensal atende qualquer dado."
-        },
-        {
-          "id": "B",
-          "text": "dados mais críticos exigem sempre menos pontos."
-        },
-        {
-          "id": "C",
-          "text": "frequência e retenção são o mesmo."
-        },
-        {
-          "id": "D",
-          "text": "frequência é definida apenas pela capacidade do disco."
-        },
-        {
-          "id": "E",
-          "text": "a frequência deve refletir criticidade, taxa de alteração e perda tolerável."
-        }
-      ],
+      "options": [{"id":"A","text":"uma execução mensal atende qualquer dado."},{"id":"B","text":"dados mais críticos exigem sempre menos pontos."},{"id":"C","text":"frequência e retenção são o mesmo."},{"id":"D","text":"frequência é definida apenas pela capacidade do disco."},{"id":"E","text":"a frequência deve refletir criticidade, taxa de alteração e perda tolerável."}],
       "correctOptionId": "E",
       "explanation": "Não há intervalo universal; a frequência deve atender ao risco e ao RPO. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -577,28 +178,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "A retenção de backup define",
-      "options": [
-        {
-          "id": "A",
-          "text": "a velocidade da conexão."
-        },
-        {
-          "id": "B",
-          "text": "o número de discos do RAID."
-        },
-        {
-          "id": "C",
-          "text": "o tempo pelo qual cópias ou versões ficam disponíveis."
-        },
-        {
-          "id": "D",
-          "text": "o papel de edição."
-        },
-        {
-          "id": "E",
-          "text": "a duração do processo de restauração."
-        }
-      ],
+      "options": [{"id":"A","text":"a velocidade da conexão."},{"id":"B","text":"o número de discos do RAID."},{"id":"C","text":"o tempo pelo qual cópias ou versões ficam disponíveis."},{"id":"D","text":"o papel de edição."},{"id":"E","text":"a duração do processo de restauração."}],
       "correctOptionId": "C",
       "explanation": "Retenção é o período de conservação dos pontos recuperáveis. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -607,28 +187,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Recovery Point Objective (RPO) expressa",
-      "options": [
-        {
-          "id": "A",
-          "text": "a perda máxima tolerável de dados, medida em tempo."
-        },
-        {
-          "id": "B",
-          "text": "o prazo máximo para concluir a recuperação."
-        },
-        {
-          "id": "C",
-          "text": "o número de mídias da regra 3-2-1."
-        },
-        {
-          "id": "D",
-          "text": "o tempo legal de retenção."
-        },
-        {
-          "id": "E",
-          "text": "a velocidade do backup."
-        }
-      ],
+      "options": [{"id":"A","text":"a perda máxima tolerável de dados, medida em tempo."},{"id":"B","text":"o prazo máximo para concluir a recuperação."},{"id":"C","text":"o número de mídias da regra 3-2-1."},{"id":"D","text":"o tempo legal de retenção."},{"id":"E","text":"a velocidade do backup."}],
       "correctOptionId": "A",
       "explanation": "RPO indica quão recente precisa ser o ponto recuperado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -637,28 +196,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Recovery Time Objective (RTO) relaciona-se ao",
-      "options": [
-        {
-          "id": "A",
-          "text": "ponto histórico mais antigo."
-        },
-        {
-          "id": "B",
-          "text": "prazo máximo admitido para recuperar e retomar o processo."
-        },
-        {
-          "id": "C",
-          "text": "volume de alterações."
-        },
-        {
-          "id": "D",
-          "text": "número de versões."
-        },
-        {
-          "id": "E",
-          "text": "tempo entre backups."
-        }
-      ],
+      "options": [{"id":"A","text":"ponto histórico mais antigo."},{"id":"B","text":"prazo máximo admitido para recuperar e retomar o processo."},{"id":"C","text":"volume de alterações."},{"id":"D","text":"número de versões."},{"id":"E","text":"tempo entre backups."}],
       "correctOptionId": "B",
       "explanation": "RTO limita a duração da recuperação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -667,28 +205,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Um sistema falha ao meio-dia; o último ponto é das 11 h e a recuperação termina às 17 h. É correto afirmar que",
-      "options": [
-        {
-          "id": "A",
-          "text": "RPO e RTO são iguais."
-        },
-        {
-          "id": "B",
-          "text": "o RPO foi cinco horas."
-        },
-        {
-          "id": "C",
-          "text": "o RTO foi uma hora."
-        },
-        {
-          "id": "D",
-          "text": "nenhum objetivo pode ser avaliado."
-        },
-        {
-          "id": "E",
-          "text": "o ponto pode atender a RPO de duas horas, mas a recuperação falhar em RTO de duas horas."
-        }
-      ],
+      "options": [{"id":"A","text":"RPO e RTO são iguais."},{"id":"B","text":"o RPO foi cinco horas."},{"id":"C","text":"o RTO foi uma hora."},{"id":"D","text":"nenhum objetivo pode ser avaliado."},{"id":"E","text":"o ponto pode atender a RPO de duas horas, mas a recuperação falhar em RTO de duas horas."}],
       "correctOptionId": "E",
       "explanation": "Perdeu-se potencialmente uma hora de dados e a recuperação levou cinco horas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -697,28 +214,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Uma política de backup completa deve especificar",
-      "options": [
-        {
-          "id": "A",
-          "text": "somente o programa."
-        },
-        {
-          "id": "B",
-          "text": "apenas a capacidade atual."
-        },
-        {
-          "id": "C",
-          "text": "escopo, responsáveis, frequência, retenção, destinos, proteção e testes."
-        },
-        {
-          "id": "D",
-          "text": "somente a pasta no mesmo disco."
-        },
-        {
-          "id": "E",
-          "text": "apenas o prazo da lixeira."
-        }
-      ],
+      "options": [{"id":"A","text":"somente o programa."},{"id":"B","text":"apenas a capacidade atual."},{"id":"C","text":"escopo, responsáveis, frequência, retenção, destinos, proteção e testes."},{"id":"D","text":"somente a pasta no mesmo disco."},{"id":"E","text":"apenas o prazo da lixeira."}],
       "correctOptionId": "C",
       "explanation": "A política cobre todo o ciclo de cópia e recuperação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -727,28 +223,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "O registro de que uma tarefa terminou com sucesso",
-      "options": [
-        {
-          "id": "A",
-          "text": "comprova restauração funcional."
-        },
-        {
-          "id": "B",
-          "text": "deve ser complementado por monitoramento e testes de restauração."
-        },
-        {
-          "id": "C",
-          "text": "garante legibilidade futura."
-        },
-        {
-          "id": "D",
-          "text": "dispensa investigar arquivos ignorados."
-        },
-        {
-          "id": "E",
-          "text": "torna checksum desnecessário."
-        }
-      ],
+      "options": [{"id":"A","text":"comprova restauração funcional."},{"id":"B","text":"deve ser complementado por monitoramento e testes de restauração."},{"id":"C","text":"garante legibilidade futura."},{"id":"D","text":"dispensa investigar arquivos ignorados."},{"id":"E","text":"torna checksum desnecessário."}],
       "correctOptionId": "B",
       "explanation": "Status de execução não comprova recuperação completa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -757,28 +232,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Uma comparação por checksum pode ajudar a",
-      "options": [
-        {
-          "id": "A",
-          "text": "recompor elo incremental ausente."
-        },
-        {
-          "id": "B",
-          "text": "definir permissões."
-        },
-        {
-          "id": "C",
-          "text": "reduzir RTO a zero."
-        },
-        {
-          "id": "D",
-          "text": "restaurar aplicação automaticamente."
-        },
-        {
-          "id": "E",
-          "text": "detectar alteração de conteúdo, sem provar sozinha recuperação funcional."
-        }
-      ],
+      "options": [{"id":"A","text":"recompor elo incremental ausente."},{"id":"B","text":"definir permissões."},{"id":"C","text":"reduzir RTO a zero."},{"id":"D","text":"restaurar aplicação automaticamente."},{"id":"E","text":"detectar alteração de conteúdo, sem provar sozinha recuperação funcional."}],
       "correctOptionId": "E",
       "explanation": "Checksum verifica bytes, não todo o processo de recuperação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -787,28 +241,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Um teste representativo de restauração deve verificar",
-      "options": [
-        {
-          "id": "A",
-          "text": "leitura, completude, cadeia, consistência, funcionamento, permissões e tempo."
-        },
-        {
-          "id": "B",
-          "text": "somente se o programa abre."
-        },
-        {
-          "id": "C",
-          "text": "apenas um arquivo pequeno em qualquer cenário."
-        },
-        {
-          "id": "D",
-          "text": "exclusivamente espaço livre."
-        },
-        {
-          "id": "E",
-          "text": "somente checksum."
-        }
-      ],
+      "options": [{"id":"A","text":"leitura, completude, cadeia, consistência, funcionamento, permissões e tempo."},{"id":"B","text":"somente se o programa abre."},{"id":"C","text":"apenas um arquivo pequeno em qualquer cenário."},{"id":"D","text":"exclusivamente espaço livre."},{"id":"E","text":"somente checksum."}],
       "correctOptionId": "A",
       "explanation": "O teste deve corresponder ao objetivo real de recuperação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -817,28 +250,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Ao restaurar após corrupção percebida hoje, escolher automaticamente a cópia mais recente pode ser inadequado porque",
-      "options": [
-        {
-          "id": "A",
-          "text": "a retenção impede pontos anteriores."
-        },
-        {
-          "id": "B",
-          "text": "a cópia mais recente pode já conter a corrupção."
-        },
-        {
-          "id": "C",
-          "text": "somente o primeiro completo é válido."
-        },
-        {
-          "id": "D",
-          "text": "backups recentes nunca funcionam."
-        },
-        {
-          "id": "E",
-          "text": "o RTO exige o ponto mais novo."
-        }
-      ],
+      "options": [{"id":"A","text":"a retenção impede pontos anteriores."},{"id":"B","text":"a cópia mais recente pode já conter a corrupção."},{"id":"C","text":"somente o primeiro completo é válido."},{"id":"D","text":"backups recentes nunca funcionam."},{"id":"E","text":"o RTO exige o ponto mais novo."}],
       "correctOptionId": "B",
       "explanation": "O ponto adequado deve anteceder o início do problema. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -847,28 +259,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Copiar arquivos para outra pasta na mesma unidade física",
-      "options": [
-        {
-          "id": "A",
-          "text": "cumpre sempre 3-2-1."
-        },
-        {
-          "id": "B",
-          "text": "pode ajudar contra exclusão pontual, mas compartilha o risco da unidade."
-        },
-        {
-          "id": "C",
-          "text": "torna a cópia off-site."
-        },
-        {
-          "id": "D",
-          "text": "protege integralmente contra falha do disco."
-        },
-        {
-          "id": "E",
-          "text": "cria uma imagem de sistema."
-        }
-      ],
+      "options": [{"id":"A","text":"cumpre sempre 3-2-1."},{"id":"B","text":"pode ajudar contra exclusão pontual, mas compartilha o risco da unidade."},{"id":"C","text":"torna a cópia off-site."},{"id":"D","text":"protege integralmente contra falha do disco."},{"id":"E","text":"cria uma imagem de sistema."}],
       "correctOptionId": "B",
       "explanation": "A segunda pasta não separa o domínio de falha físico. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -877,28 +268,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Uma cópia offline é aquela que",
-      "options": [
-        {
-          "id": "A",
-          "text": "fica fora do país."
-        },
-        {
-          "id": "B",
-          "text": "fica desconectada ou inacessível ao ambiente operacional normal quando não usada."
-        },
-        {
-          "id": "C",
-          "text": "está sempre na nuvem."
-        },
-        {
-          "id": "D",
-          "text": "permanece sincronizada em tempo real."
-        },
-        {
-          "id": "E",
-          "text": "não possui criptografia."
-        }
-      ],
+      "options": [{"id":"A","text":"fica fora do país."},{"id":"B","text":"fica desconectada ou inacessível ao ambiente operacional normal quando não usada."},{"id":"C","text":"está sempre na nuvem."},{"id":"D","text":"permanece sincronizada em tempo real."},{"id":"E","text":"não possui criptografia."}],
       "correctOptionId": "B",
       "explanation": "Offline descreve acessibilidade operacional, não localização. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -907,28 +277,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Uma cópia off-site é mantida",
-      "options": [
-        {
-          "id": "A",
-          "text": "obrigatoriamente sem rede."
-        },
-        {
-          "id": "B",
-          "text": "na mesma unidade da origem."
-        },
-        {
-          "id": "C",
-          "text": "sem controle de acesso."
-        },
-        {
-          "id": "D",
-          "text": "fora do local físico principal."
-        },
-        {
-          "id": "E",
-          "text": "somente em fita."
-        }
-      ],
+      "options": [{"id":"A","text":"obrigatoriamente sem rede."},{"id":"B","text":"na mesma unidade da origem."},{"id":"C","text":"sem controle de acesso."},{"id":"D","text":"fora do local físico principal."},{"id":"E","text":"somente em fita."}],
       "correctOptionId": "D",
       "explanation": "Off-site reduz exposição conjunta a desastre local. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -937,28 +286,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "A regra 3-2-1 recomenda",
-      "options": [
-        {
-          "id": "A",
-          "text": "três backups completos no mesmo disco."
-        },
-        {
-          "id": "B",
-          "text": "um original em três pastas."
-        },
-        {
-          "id": "C",
-          "text": "três cópias, dois tipos de mídia e uma cópia fora do local."
-        },
-        {
-          "id": "D",
-          "text": "três contas públicas."
-        },
-        {
-          "id": "E",
-          "text": "dois RPOs e um RTO."
-        }
-      ],
+      "options": [{"id":"A","text":"três backups completos no mesmo disco."},{"id":"B","text":"um original em três pastas."},{"id":"C","text":"três cópias, dois tipos de mídia e uma cópia fora do local."},{"id":"D","text":"três contas públicas."},{"id":"E","text":"dois RPOs e um RTO."}],
       "correctOptionId": "C",
       "explanation": "A contagem inclui a cópia primária e dois backups. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -967,28 +295,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Mesmo atendendo à regra 3-2-1, uma estratégia pode ser inadequada se",
-      "options": [
-        {
-          "id": "A",
-          "text": "existir uma cópia externa."
-        },
-        {
-          "id": "B",
-          "text": "houver mais de um ponto."
-        },
-        {
-          "id": "C",
-          "text": "os responsáveis estiverem documentados."
-        },
-        {
-          "id": "D",
-          "text": "as mídias forem diferentes."
-        },
-        {
-          "id": "E",
-          "text": "as cópias estiverem desatualizadas ou não forem testadas."
-        }
-      ],
+      "options": [{"id":"A","text":"existir uma cópia externa."},{"id":"B","text":"houver mais de um ponto."},{"id":"C","text":"os responsáveis estiverem documentados."},{"id":"D","text":"as mídias forem diferentes."},{"id":"E","text":"as cópias estiverem desatualizadas ou não forem testadas."}],
       "correctOptionId": "E",
       "explanation": "Separação não substitui atualização, retenção e teste. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -997,28 +304,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Armazenamento imutável significa, em regra, que",
-      "options": [
-        {
-          "id": "A",
-          "text": "o conteúdo está necessariamente off-site."
-        },
-        {
-          "id": "B",
-          "text": "a cópia é sempre íntegra."
-        },
-        {
-          "id": "C",
-          "text": "qualquer usuário pode restaurar."
-        },
-        {
-          "id": "D",
-          "text": "o conteúdo não pode ser alterado durante o período definido, mas ainda precisa ser testado."
-        },
-        {
-          "id": "E",
-          "text": "não há retenção."
-        }
-      ],
+      "options": [{"id":"A","text":"o conteúdo está necessariamente off-site."},{"id":"B","text":"a cópia é sempre íntegra."},{"id":"C","text":"qualquer usuário pode restaurar."},{"id":"D","text":"o conteúdo não pode ser alterado durante o período definido, mas ainda precisa ser testado."},{"id":"E","text":"não há retenção."}],
       "correctOptionId": "D",
       "explanation": "Imutabilidade reduz alteração maliciosa ou acidental, sem comprovar restaurabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1027,28 +313,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Um backup criptografado",
-      "options": [
-        {
-          "id": "A",
-          "text": "é automaticamente íntegro e restaurável."
-        },
-        {
-          "id": "B",
-          "text": "protege confidencialidade, mas ainda exige chave, integridade e teste."
-        },
-        {
-          "id": "C",
-          "text": "dispensa a chave na recuperação."
-        },
-        {
-          "id": "D",
-          "text": "é necessariamente imutável."
-        },
-        {
-          "id": "E",
-          "text": "não pode ser off-site."
-        }
-      ],
+      "options": [{"id":"A","text":"é automaticamente íntegro e restaurável."},{"id":"B","text":"protege confidencialidade, mas ainda exige chave, integridade e teste."},{"id":"C","text":"dispensa a chave na recuperação."},{"id":"D","text":"é necessariamente imutável."},{"id":"E","text":"não pode ser off-site."}],
       "correctOptionId": "B",
       "explanation": "Criptografia trata acesso ao conteúdo, não todo o ciclo de recuperação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1057,28 +322,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Para reduzir impacto de ransomware sobre os backups, é adequado",
-      "options": [
-        {
-          "id": "A",
-          "text": "separar credenciais, manter cópia offline/imutável e testar recuperação."
-        },
-        {
-          "id": "B",
-          "text": "usar as mesmas credenciais administrativas em todos os ambientes."
-        },
-        {
-          "id": "C",
-          "text": "manter todas as cópias permanentemente montadas."
-        },
-        {
-          "id": "D",
-          "text": "restaurar sempre o ponto mais recente sem análise."
-        },
-        {
-          "id": "E",
-          "text": "desativar monitoramento."
-        }
-      ],
+      "options": [{"id":"A","text":"separar credenciais, manter cópia offline/imutável e testar recuperação."},{"id":"B","text":"usar as mesmas credenciais administrativas em todos os ambientes."},{"id":"C","text":"manter todas as cópias permanentemente montadas."},{"id":"D","text":"restaurar sempre o ponto mais recente sem análise."},{"id":"E","text":"desativar monitoramento."}],
       "correctOptionId": "A",
       "explanation": "Separação de acesso e cópias protegidas aumentam resiliência. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1087,28 +331,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Backup em nível de arquivo e imagem de sistema distinguem-se porque",
-      "options": [
-        {
-          "id": "A",
-          "text": "a imagem pode incluir sistema, aplicações e configuração; o backup de arquivos pode cobrir itens selecionados."
-        },
-        {
-          "id": "B",
-          "text": "backup de arquivos sempre inclui boot."
-        },
-        {
-          "id": "C",
-          "text": "imagem não contém configuração."
-        },
-        {
-          "id": "D",
-          "text": "os dois são sinônimos."
-        },
-        {
-          "id": "E",
-          "text": "imagem serve apenas a arquivos de texto."
-        }
-      ],
+      "options": [{"id":"A","text":"a imagem pode incluir sistema, aplicações e configuração; o backup de arquivos pode cobrir itens selecionados."},{"id":"B","text":"backup de arquivos sempre inclui boot."},{"id":"C","text":"imagem não contém configuração."},{"id":"D","text":"os dois são sinônimos."},{"id":"E","text":"imagem serve apenas a arquivos de texto."}],
       "correctOptionId": "A",
       "explanation": "O escopo de recuperação é diferente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1117,28 +340,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Para recuperar uma aplicação, copiar apenas seus arquivos de dados pode ser insuficiente porque podem ser necessários",
-      "options": [
-        {
-          "id": "A",
-          "text": "apenas atalhos."
-        },
-        {
-          "id": "B",
-          "text": "configurações, banco consistente, chaves, metadados e versões compatíveis."
-        },
-        {
-          "id": "C",
-          "text": "um novo RPO criado depois da falha."
-        },
-        {
-          "id": "D",
-          "text": "papéis públicos de nuvem."
-        },
-        {
-          "id": "E",
-          "text": "somente a lixeira."
-        }
-      ],
+      "options": [{"id":"A","text":"apenas atalhos."},{"id":"B","text":"configurações, banco consistente, chaves, metadados e versões compatíveis."},{"id":"C","text":"um novo RPO criado depois da falha."},{"id":"D","text":"papéis públicos de nuvem."},{"id":"E","text":"somente a lixeira."}],
       "correctOptionId": "B",
       "explanation": "A aplicação depende de componentes além dos arquivos visíveis. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1147,28 +349,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Armazenamento em nuvem é corretamente descrito como",
-      "options": [
-        {
-          "id": "A",
-          "text": "publicação irrestrita."
-        },
-        {
-          "id": "B",
-          "text": "método que exige cópia completa em todos os dispositivos."
-        },
-        {
-          "id": "C",
-          "text": "guarda e acesso de dados em infraestrutura operada por provedor, sujeito a conta, rede e política."
-        },
-        {
-          "id": "D",
-          "text": "eliminação de permissões."
-        },
-        {
-          "id": "E",
-          "text": "sinônimo de backup imutável."
-        }
-      ],
+      "options": [{"id":"A","text":"publicação irrestrita."},{"id":"B","text":"método que exige cópia completa em todos os dispositivos."},{"id":"C","text":"guarda e acesso de dados em infraestrutura operada por provedor, sujeito a conta, rede e política."},{"id":"D","text":"eliminação de permissões."},{"id":"E","text":"sinônimo de backup imutável."}],
       "correctOptionId": "C",
       "explanation": "Cloud storage pode ser privado, sincronizado e condicionado a serviços. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1177,28 +358,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Um arquivo armazenado em nuvem",
-      "options": [
-        {
-          "id": "A",
-          "text": "torna-se público automaticamente."
-        },
-        {
-          "id": "B",
-          "text": "não pode ter versões."
-        },
-        {
-          "id": "C",
-          "text": "dispensa conta institucional."
-        },
-        {
-          "id": "D",
-          "text": "pode permanecer restrito a identidades autorizadas."
-        },
-        {
-          "id": "E",
-          "text": "não pode ser excluído."
-        }
-      ],
+      "options": [{"id":"A","text":"torna-se público automaticamente."},{"id":"B","text":"não pode ter versões."},{"id":"C","text":"dispensa conta institucional."},{"id":"D","text":"pode permanecer restrito a identidades autorizadas."},{"id":"E","text":"não pode ser excluído."}],
       "correctOptionId": "D",
       "explanation": "Nuvem não equivale a publicidade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1207,28 +367,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre usar OneDrive ou Google Drive como destino de backup, é correto afirmar que",
-      "options": [
-        {
-          "id": "A",
-          "text": "a nuvem pode guardar cópia, desde que independência, retenção e restauração sejam adequadas."
-        },
-        {
-          "id": "B",
-          "text": "nunca podem receber cópias."
-        },
-        {
-          "id": "C",
-          "text": "qualquer pasta sincronizada é política completa."
-        },
-        {
-          "id": "D",
-          "text": "lixeira elimina testes."
-        },
-        {
-          "id": "E",
-          "text": "espelhamento é imutável."
-        }
-      ],
+      "options": [{"id":"A","text":"a nuvem pode guardar cópia, desde que independência, retenção e restauração sejam adequadas."},{"id":"B","text":"nunca podem receber cópias."},{"id":"C","text":"qualquer pasta sincronizada é política completa."},{"id":"D","text":"lixeira elimina testes."},{"id":"E","text":"espelhamento é imutável."}],
       "correctOptionId": "A",
       "explanation": "O uso como destino depende da arquitetura, não apenas da marca do serviço. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1237,28 +376,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Enviar o endereço de um arquivo restrito na nuvem",
-      "options": [
-        {
-          "id": "A",
-          "text": "pode não conceder acesso, pois link não substitui permissão."
-        },
-        {
-          "id": "B",
-          "text": "garante edição."
-        },
-        {
-          "id": "C",
-          "text": "remove o proprietário."
-        },
-        {
-          "id": "D",
-          "text": "torna o item offline."
-        },
-        {
-          "id": "E",
-          "text": "desativa a política."
-        }
-      ],
+      "options": [{"id":"A","text":"pode não conceder acesso, pois link não substitui permissão."},{"id":"B","text":"garante edição."},{"id":"C","text":"remove o proprietário."},{"id":"D","text":"torna o item offline."},{"id":"E","text":"desativa a política."}],
       "correctOptionId": "A",
       "explanation": "A identidade precisa estar abrangida pela autorização. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1267,28 +385,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Para quem precisa apenas consultar um documento, a prática adequada é conceder",
-      "options": [
-        {
-          "id": "A",
-          "text": "propriedade."
-        },
-        {
-          "id": "B",
-          "text": "edição e gestão de acesso."
-        },
-        {
-          "id": "C",
-          "text": "link público permanente."
-        },
-        {
-          "id": "D",
-          "text": "o menor papel suficiente, como leitura."
-        },
-        {
-          "id": "E",
-          "text": "conta administrativa."
-        }
-      ],
+      "options": [{"id":"A","text":"propriedade."},{"id":"B","text":"edição e gestão de acesso."},{"id":"C","text":"link público permanente."},{"id":"D","text":"o menor papel suficiente, como leitura."},{"id":"E","text":"conta administrativa."}],
       "correctOptionId": "D",
       "explanation": "Menor privilégio reduz riscos de alteração e compartilhamento indevido. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1297,28 +394,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Ao conceder acesso a uma pasta em serviço de nuvem, deve-se considerar que",
-      "options": [
-        {
-          "id": "A",
-          "text": "as permissões podem alcançar itens contidos, conforme o modelo."
-        },
-        {
-          "id": "B",
-          "text": "pastas nunca influenciam arquivos."
-        },
-        {
-          "id": "C",
-          "text": "leitor sempre vira proprietário."
-        },
-        {
-          "id": "D",
-          "text": "a política deixa de valer."
-        },
-        {
-          "id": "E",
-          "text": "todo item fica público."
-        }
-      ],
+      "options": [{"id":"A","text":"as permissões podem alcançar itens contidos, conforme o modelo."},{"id":"B","text":"pastas nunca influenciam arquivos."},{"id":"C","text":"leitor sempre vira proprietário."},{"id":"D","text":"a política deixa de valer."},{"id":"E","text":"todo item fica público."}],
       "correctOptionId": "A",
       "explanation": "Herança e propagação podem ampliar o público dos arquivos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1327,28 +403,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "No setor público, documentos institucionais devem",
-      "options": [
-        {
-          "id": "A",
-          "text": "usar qualquer conta pessoal."
-        },
-        {
-          "id": "B",
-          "text": "seguir serviço autorizado, classificação, permissões, retenção e responsáveis definidos."
-        },
-        {
-          "id": "C",
-          "text": "ser públicos por padrão."
-        },
-        {
-          "id": "D",
-          "text": "dispensar recuperação."
-        },
-        {
-          "id": "E",
-          "text": "ficar apenas no dispositivo do servidor."
-        }
-      ],
+      "options": [{"id":"A","text":"usar qualquer conta pessoal."},{"id":"B","text":"seguir serviço autorizado, classificação, permissões, retenção e responsáveis definidos."},{"id":"C","text":"ser públicos por padrão."},{"id":"D","text":"dispensar recuperação."},{"id":"E","text":"ficar apenas no dispositivo do servidor."}],
       "correctOptionId": "B",
       "explanation": "Governança institucional orienta guarda e acesso. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1357,28 +412,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Histórico de versões e lixeira",
-      "options": [
-        {
-          "id": "A",
-          "text": "podem auxiliar a recuperação, mas possuem condições e retenção limitada."
-        },
-        {
-          "id": "B",
-          "text": "preservam tudo para sempre."
-        },
-        {
-          "id": "C",
-          "text": "impedem sincronização de exclusões."
-        },
-        {
-          "id": "D",
-          "text": "substituem toda cópia externa."
-        },
-        {
-          "id": "E",
-          "text": "garantem imagem de sistema."
-        }
-      ],
+      "options": [{"id":"A","text":"podem auxiliar a recuperação, mas possuem condições e retenção limitada."},{"id":"B","text":"preservam tudo para sempre."},{"id":"C","text":"impedem sincronização de exclusões."},{"id":"D","text":"substituem toda cópia externa."},{"id":"E","text":"garantem imagem de sistema."}],
       "correctOptionId": "A",
       "explanation": "São mecanismos úteis, mas não ilimitados. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1387,28 +421,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "No OneDrive com Arquivos Sob Demanda, um arquivo somente online",
-      "options": [
-        {
-          "id": "A",
-          "text": "mantém cópia integral local."
-        },
-        {
-          "id": "B",
-          "text": "aparece no Explorador, economiza disco e exige conexão para abrir."
-        },
-        {
-          "id": "C",
-          "text": "foi excluído da nuvem."
-        },
-        {
-          "id": "D",
-          "text": "fica sempre offline."
-        },
-        {
-          "id": "E",
-          "text": "é público."
-        }
-      ],
+      "options": [{"id":"A","text":"mantém cópia integral local."},{"id":"B","text":"aparece no Explorador, economiza disco e exige conexão para abrir."},{"id":"C","text":"foi excluído da nuvem."},{"id":"D","text":"fica sempre offline."},{"id":"E","text":"é público."}],
       "correctOptionId": "B",
       "explanation": "O conteúdo é obtido sob demanda. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1417,28 +430,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "No OneDrive, um arquivo disponível localmente",
-      "options": [
-        {
-          "id": "A",
-          "text": "não ocupa disco."
-        },
-        {
-          "id": "B",
-          "text": "é público."
-        },
-        {
-          "id": "C",
-          "text": "nunca pode ser liberado."
-        },
-        {
-          "id": "D",
-          "text": "deixa de sincronizar."
-        },
-        {
-          "id": "E",
-          "text": "foi baixado e pode abrir offline, mas pode voltar a somente online."
-        }
-      ],
+      "options": [{"id":"A","text":"não ocupa disco."},{"id":"B","text":"é público."},{"id":"C","text":"nunca pode ser liberado."},{"id":"D","text":"deixa de sincronizar."},{"id":"E","text":"foi baixado e pode abrir offline, mas pode voltar a somente online."}],
       "correctOptionId": "E",
       "explanation": "Disponibilidade local é estado de armazenamento, não permissão. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1447,28 +439,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "A opção Sempre manter neste dispositivo faz com que o item",
-      "options": [
-        {
-          "id": "A",
-          "text": "permaneça baixado e disponível offline, ocupando espaço local."
-        },
-        {
-          "id": "B",
-          "text": "seja removido da nuvem."
-        },
-        {
-          "id": "C",
-          "text": "se torne público."
-        },
-        {
-          "id": "D",
-          "text": "deixe de sincronizar."
-        },
-        {
-          "id": "E",
-          "text": "vire backup imutável."
-        }
-      ],
+      "options": [{"id":"A","text":"permaneça baixado e disponível offline, ocupando espaço local."},{"id":"B","text":"seja removido da nuvem."},{"id":"C","text":"se torne público."},{"id":"D","text":"deixe de sincronizar."},{"id":"E","text":"vire backup imutável."}],
       "correctOptionId": "A",
       "explanation": "A opção fixa a disponibilidade local. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1477,28 +448,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Usar Liberar espaço em um arquivo do OneDrive",
-      "options": [
-        {
-          "id": "A",
-          "text": "apaga de todos os locais."
-        },
-        {
-          "id": "B",
-          "text": "concede edição."
-        },
-        {
-          "id": "C",
-          "text": "torna o item somente online sem excluí-lo da nuvem."
-        },
-        {
-          "id": "D",
-          "text": "cria backup completo."
-        },
-        {
-          "id": "E",
-          "text": "move para lixeira."
-        }
-      ],
+      "options": [{"id":"A","text":"apaga de todos os locais."},{"id":"B","text":"concede edição."},{"id":"C","text":"torna o item somente online sem excluí-lo da nuvem."},{"id":"D","text":"cria backup completo."},{"id":"E","text":"move para lixeira."}],
       "correctOptionId": "C",
       "explanation": "Liberar espaço remove a cópia integral local. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1507,28 +457,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Excluir pelo Explorador um arquivo sincronizado do OneDrive tende a",
-      "options": [
-        {
-          "id": "A",
-          "text": "remover apenas o ícone local."
-        },
-        {
-          "id": "B",
-          "text": "excluí-lo da nuvem e dos dispositivos sincronizados, sujeito à lixeira."
-        },
-        {
-          "id": "C",
-          "text": "fixá-lo offline."
-        },
-        {
-          "id": "D",
-          "text": "criar versão imutável."
-        },
-        {
-          "id": "E",
-          "text": "desativar a conta."
-        }
-      ],
+      "options": [{"id":"A","text":"remover apenas o ícone local."},{"id":"B","text":"excluí-lo da nuvem e dos dispositivos sincronizados, sujeito à lixeira."},{"id":"C","text":"fixá-lo offline."},{"id":"D","text":"criar versão imutável."},{"id":"E","text":"desativar a conta."}],
       "correctOptionId": "B",
       "explanation": "A exclusão participa da sincronização. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1537,28 +466,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "O recurso Restaurar seu OneDrive, quando disponível, serve para",
-      "options": [
-        {
-          "id": "A",
-          "text": "desfazer ações em massa até um ponto anterior, dentro das condições do serviço."
-        },
-        {
-          "id": "B",
-          "text": "transformar qualquer conta em backup ilimitado."
-        },
-        {
-          "id": "C",
-          "text": "restaurar somente um arquivo."
-        },
-        {
-          "id": "D",
-          "text": "criar imagem do Windows."
-        },
-        {
-          "id": "E",
-          "text": "impedir futuras exclusões."
-        }
-      ],
+      "options": [{"id":"A","text":"desfazer ações em massa até um ponto anterior, dentro das condições do serviço."},{"id":"B","text":"transformar qualquer conta em backup ilimitado."},{"id":"C","text":"restaurar somente um arquivo."},{"id":"D","text":"criar imagem do Windows."},{"id":"E","text":"impedir futuras exclusões."}],
       "correctOptionId": "A",
       "explanation": "É uma recuperação ampla do conteúdo do OneDrive, distinta da versão de um arquivo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1567,28 +475,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre prazos da lixeira do OneDrive, é mais seguro afirmar que",
-      "options": [
-        {
-          "id": "A",
-          "text": "são ilimitados."
-        },
-        {
-          "id": "B",
-          "text": "são sempre 93 dias."
-        },
-        {
-          "id": "C",
-          "text": "variam por tipo de conta e política e não constituem retenção universal."
-        },
-        {
-          "id": "D",
-          "text": "são sempre 30 anos."
-        },
-        {
-          "id": "E",
-          "text": "não existe lixeira."
-        }
-      ],
+      "options": [{"id":"A","text":"são ilimitados."},{"id":"B","text":"são sempre 93 dias."},{"id":"C","text":"variam por tipo de conta e política e não constituem retenção universal."},{"id":"D","text":"são sempre 30 anos."},{"id":"E","text":"não existe lixeira."}],
       "correctOptionId": "C",
       "explanation": "Prazos comerciais devem ser tratados como condicionados à conta e administração. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1597,28 +484,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "No Drive para computador, o modo streaming",
-      "options": [
-        {
-          "id": "A",
-          "text": "mantém cópia completa local de tudo."
-        },
-        {
-          "id": "B",
-          "text": "desativa sincronização."
-        },
-        {
-          "id": "C",
-          "text": "torna arquivos públicos."
-        },
-        {
-          "id": "D",
-          "text": "mantém principalmente os arquivos na nuvem e reduz o uso local."
-        },
-        {
-          "id": "E",
-          "text": "é backup imutável."
-        }
-      ],
+      "options": [{"id":"A","text":"mantém cópia completa local de tudo."},{"id":"B","text":"desativa sincronização."},{"id":"C","text":"torna arquivos públicos."},{"id":"D","text":"mantém principalmente os arquivos na nuvem e reduz o uso local."},{"id":"E","text":"é backup imutável."}],
       "correctOptionId": "D",
       "explanation": "Streaming obtém conteúdo sob demanda. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1627,28 +493,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "No Drive para computador, o espelhamento",
-      "options": [
-        {
-          "id": "A",
-          "text": "não usa disco local."
-        },
-        {
-          "id": "B",
-          "text": "mantém nuvem e cópia completa local, mas não é proteção independente automática."
-        },
-        {
-          "id": "C",
-          "text": "impede exclusão sincronizada."
-        },
-        {
-          "id": "D",
-          "text": "é somente leitura."
-        },
-        {
-          "id": "E",
-          "text": "não funciona offline."
-        }
-      ],
+      "options": [{"id":"A","text":"não usa disco local."},{"id":"B","text":"mantém nuvem e cópia completa local, mas não é proteção independente automática."},{"id":"C","text":"impede exclusão sincronizada."},{"id":"D","text":"é somente leitura."},{"id":"E","text":"não funciona offline."}],
       "correctOptionId": "B",
       "explanation": "Mudanças continuam podendo propagar-se entre as cópias. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1657,28 +502,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "A vantagem institucional de um Drive compartilhado é que",
-      "options": [
-        {
-          "id": "A",
-          "text": "dispensa permissões."
-        },
-        {
-          "id": "B",
-          "text": "é público na Internet."
-        },
-        {
-          "id": "C",
-          "text": "não permite edição."
-        },
-        {
-          "id": "D",
-          "text": "o conteúdo pode permanecer no contexto organizacional, não depender apenas de proprietário individual."
-        },
-        {
-          "id": "E",
-          "text": "substitui backup."
-        }
-      ],
+      "options": [{"id":"A","text":"dispensa permissões."},{"id":"B","text":"é público na Internet."},{"id":"C","text":"não permite edição."},{"id":"D","text":"o conteúdo pode permanecer no contexto organizacional, não depender apenas de proprietário individual."},{"id":"E","text":"substitui backup."}],
       "correctOptionId": "D",
       "explanation": "O modelo favorece continuidade e administração pela unidade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1687,28 +511,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Em Drives compartilhados, o papel com maior capacidade geral é, em regra,",
-      "options": [
-        {
-          "id": "A",
-          "text": "Leitor."
-        },
-        {
-          "id": "B",
-          "text": "Comentador."
-        },
-        {
-          "id": "C",
-          "text": "Administrador."
-        },
-        {
-          "id": "D",
-          "text": "Colaborador."
-        },
-        {
-          "id": "E",
-          "text": "Administrador de conteúdo."
-        }
-      ],
+      "options": [{"id":"A","text":"Leitor."},{"id":"B","text":"Comentador."},{"id":"C","text":"Administrador."},{"id":"D","text":"Colaborador."},{"id":"E","text":"Administrador de conteúdo."}],
       "correctOptionId": "C",
       "explanation": "O Administrador gerencia membros, acesso e conteúdo conforme a política. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1717,28 +520,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Para arquivos não nativos no Google Drive, versões",
-      "options": [
-        {
-          "id": "A",
-          "text": "podem estar sujeitas a prazo ou quantidade e a opção de manutenção."
-        },
-        {
-          "id": "B",
-          "text": "são sempre ilimitadas."
-        },
-        {
-          "id": "C",
-          "text": "só existem para PDFs."
-        },
-        {
-          "id": "D",
-          "text": "impedem exclusão."
-        },
-        {
-          "id": "E",
-          "text": "substituem backup."
-        }
-      ],
+      "options": [{"id":"A","text":"podem estar sujeitas a prazo ou quantidade e a opção de manutenção."},{"id":"B","text":"são sempre ilimitadas."},{"id":"C","text":"só existem para PDFs."},{"id":"D","text":"impedem exclusão."},{"id":"E","text":"substituem backup."}],
       "correctOptionId": "A",
       "explanation": "A retenção de versões não nativas possui regras próprias. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1747,28 +529,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Itens enviados à lixeira do Google Drive",
-      "options": [
-        {
-          "id": "A",
-          "text": "possuem retenção limitada antes da exclusão permanente."
-        },
-        {
-          "id": "B",
-          "text": "ficam para sempre."
-        },
-        {
-          "id": "C",
-          "text": "não podem ser restaurados."
-        },
-        {
-          "id": "D",
-          "text": "viram snapshots."
-        },
-        {
-          "id": "E",
-          "text": "deixam de contar para qualquer política."
-        }
-      ],
+      "options": [{"id":"A","text":"possuem retenção limitada antes da exclusão permanente."},{"id":"B","text":"ficam para sempre."},{"id":"C","text":"não podem ser restaurados."},{"id":"D","text":"viram snapshots."},{"id":"E","text":"deixam de contar para qualquer política."}],
       "correctOptionId": "A",
       "explanation": "A lixeira é temporária, não um arquivo permanente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1777,28 +538,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Uma pessoa viajará sem conexão e precisa editar arquivos nos dois serviços. A preparação adequada é",
-      "options": [
-        {
-          "id": "A",
-          "text": "manter OneDrive somente online e Drive em streaming sem offline."
-        },
-        {
-          "id": "B",
-          "text": "usar links públicos."
-        },
-        {
-          "id": "C",
-          "text": "depender da lixeira."
-        },
-        {
-          "id": "D",
-          "text": "apagar a nuvem."
-        },
-        {
-          "id": "E",
-          "text": "baixar/manter no OneDrive e espelhar ou disponibilizar offline no Drive."
-        }
-      ],
+      "options": [{"id":"A","text":"manter OneDrive somente online e Drive em streaming sem offline."},{"id":"B","text":"usar links públicos."},{"id":"C","text":"depender da lixeira."},{"id":"D","text":"apagar a nuvem."},{"id":"E","text":"baixar/manter no OneDrive e espelhar ou disponibilizar offline no Drive."}],
       "correctOptionId": "E",
       "explanation": "O conteúdo precisa estar localmente disponível antes da viagem. Fonte: questão autoral baseada nas referências do conteúdo."
     },
@@ -1807,28 +547,7 @@
       "revision": 1,
       "origin": "previous_exam",
       "prompt": "Ao compartilhar um arquivo no Windows por meio do OneDrive com outro usuário, o comportamento esperado é",
-      "options": [
-        {
-          "id": "A",
-          "text": "enviar o arquivo como anexo de e-mail, sem link."
-        },
-        {
-          "id": "B",
-          "text": "enviar um link para acesso ao arquivo armazenado no OneDrive."
-        },
-        {
-          "id": "C",
-          "text": "transferir o arquivo para o Google Drive do destinatário."
-        },
-        {
-          "id": "D",
-          "text": "apagar automaticamente a cópia local."
-        },
-        {
-          "id": "E",
-          "text": "tornar o arquivo público para todos os usuários do OneDrive."
-        }
-      ],
+      "options": [{"id":"A","text":"enviar o arquivo como anexo de e-mail, sem link."},{"id":"B","text":"enviar um link para acesso ao arquivo armazenado no OneDrive."},{"id":"C","text":"transferir o arquivo para o Google Drive do destinatário."},{"id":"D","text":"apagar automaticamente a cópia local."},{"id":"E","text":"tornar o arquivo público para todos os usuários do OneDrive."}],
       "correctOptionId": "B",
       "explanation": "O compartilhamento fornece acesso por link ao item no OneDrive, sujeito às permissões. Fonte: questão adaptada de CEBRASPE; Polícia Civil de Rondônia; Datiloscopista Policial; 2022; questão 40; prova https://cdn.cebraspe.org.br/concursos/pc_ro_22/arquivos/732_PCRO_001_01.PDF; gabarito definitivo oficial do concurso; adaptação: redação condensada, alternativas e gabarito preservados."
     },
@@ -1837,28 +556,7 @@
       "revision": 1,
       "origin": "previous_exam",
       "prompt": "Sobre Google Drive e cópia de segurança, assinale a alternativa correta.",
-      "options": [
-        {
-          "id": "A",
-          "text": "O Google Drive nunca pode armazenar uma cópia de segurança."
-        },
-        {
-          "id": "B",
-          "text": "Qualquer pasta sincronizada no Google Drive constitui automaticamente política completa e imutável."
-        },
-        {
-          "id": "C",
-          "text": "O uso do Google Drive dispensa testar restaurações."
-        },
-        {
-          "id": "D",
-          "text": "Um arquivo no Google Drive fica necessariamente público."
-        },
-        {
-          "id": "E",
-          "text": "O Google Drive pode ser usado como destino de backup, desde que a estratégia considere independência, retenção e restauração."
-        }
-      ],
+      "options": [{"id":"A","text":"O Google Drive nunca pode armazenar uma cópia de segurança."},{"id":"B","text":"Qualquer pasta sincronizada no Google Drive constitui automaticamente política completa e imutável."},{"id":"C","text":"O uso do Google Drive dispensa testar restaurações."},{"id":"D","text":"Um arquivo no Google Drive fica necessariamente público."},{"id":"E","text":"O Google Drive pode ser usado como destino de backup, desde que a estratégia considere independência, retenção e restauração."}],
       "correctOptionId": "E",
       "explanation": "O serviço pode receber cópias, mas sincronização isolada não garante política completa. Fonte: questão adaptada de CEBRASPE; Secretaria de Educação do Recife; Professor; 2023; item 45; prova https://cdn.cebraspe.org.br/concursos/seduc_recife_23_professor/arquivos/829_SEDUC_RECIFE_23_CB1_01.PDF; gabarito definitivo oficial: Certo; adaptação: item certo/errado convertido para cinco alternativas, preservando o núcleo e o gabarito."
     },
@@ -1867,28 +565,7 @@
       "revision": 1,
       "origin": "previous_exam",
       "prompt": "Josafá e Josias utilizam OneDrive no Microsoft 365 para melhorar o desempenho das atividades diárias no TJ-RS. Com o objetivo de treinar os colegas da repartição, eles decidiram estudar a documentação oficial do produto.\n\nDiante desse cenário, analise as afirmativas a seguir.\n\nI. O recurso Arquivos sob Demanda do OneDrive permite que Josafá e Josias visualizem, pesquisem e interajam com os arquivos armazenados no OneDrive a partir do Windows Explorer, sem a necessidade de transferi-los integralmente para os seus dispositivos.\nII. O OneDrive se integra ao Microsoft Outlook, permitindo o compartilhamento fácil de arquivos armazenados na nuvem como se fossem anexos de e-mail. Esse recurso fornece uma experiência familiar de compartilhamento para o usuário, ao mesmo tempo que centraliza o armazenamento dos anexos no OneDrive.\nIII. O recurso Restauração de Arquivos do OneDrive permite que Josafá e Josias restaurem arquivos a partir de qualquer ponto dos últimos 30 dias. Para selecionar o tempo de recuperação desejado, o OneDrive exibe um histograma de atividades, facilitando a identificação de qual tempo recuperado atende às suas necessidades.\n\nEstá correto o que se afirma em",
-      "options": [
-        {
-          "id": "A",
-          "text": "II, apenas."
-        },
-        {
-          "id": "B",
-          "text": "III, apenas."
-        },
-        {
-          "id": "C",
-          "text": "I e II, apenas."
-        },
-        {
-          "id": "D",
-          "text": "II e III, apenas."
-        },
-        {
-          "id": "E",
-          "text": "I, II e III."
-        }
-      ],
+      "options": [{"id":"A","text":"II, apenas."},{"id":"B","text":"III, apenas."},{"id":"C","text":"I e II, apenas."},{"id":"D","text":"II e III, apenas."},{"id":"E","text":"I, II e III."}],
       "correctOptionId": "E",
       "explanation": "As três afirmativas estão corretas no contexto da prova: Arquivos sob Demanda possibilita acessar arquivos no Explorador sem baixá-los integralmente; o OneDrive integra o compartilhamento de arquivos com o Outlook; e a restauração permite retornar a um ponto dos últimos 30 dias com apoio do gráfico de atividades. Fonte: FGV; TJ-RS; Analista do Poder Judiciário – Área Administrativa; 2025; Tipo 3 (Amarela); questão 37; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-do-poder-judiciario-area-administrativa-cns101-tipo-3.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-edital-gabarito-definitivo.pdf."
     },
@@ -1897,28 +574,7 @@
       "revision": 1,
       "origin": "previous_exam",
       "prompt": "Na computação em nuvem, o processo que envolve replicar e fazer backup com segurança de dados e cargas de trabalhos críticos para locais secundários ou vários locais é denominado",
-      "options": [
-        {
-          "id": "A",
-          "text": "biblioteca de dados."
-        },
-        {
-          "id": "B",
-          "text": "alta disponibilidade."
-        },
-        {
-          "id": "C",
-          "text": "escalabilidade."
-        },
-        {
-          "id": "D",
-          "text": "recuperação de desastres."
-        },
-        {
-          "id": "E",
-          "text": "ponto único de falha."
-        }
-      ],
+      "options": [{"id":"A","text":"biblioteca de dados."},{"id":"B","text":"alta disponibilidade."},{"id":"C","text":"escalabilidade."},{"id":"D","text":"recuperação de desastres."},{"id":"E","text":"ponto único de falha."}],
       "correctOptionId": "D",
       "explanation": "A descrição corresponde à recuperação de desastres, que combina cópias ou replicação e locais secundários para possibilitar a retomada após eventos graves. Fonte: Cebraspe; CAGEPA; Técnico em Informática; 2024; questão 60; prova https://cdn.cebraspe.org.br/concursos/cagepa_24/arquivos/992_CAGEPA_023_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/cagepa_24/arquivos/GAB_DEFINITIVO_992_CAGEPA_023_01.PDF."
     },
@@ -1927,28 +583,7 @@
       "revision": 1,
       "origin": "previous_exam",
       "prompt": "Leia o fragmento a seguir.\n\nEm 2023, uma grande empresa de logística, após sofrer um ataque de ransomware, ficou com seus sistemas inoperantes. À época, a empresa não possuía um ______ atualizado, o que impediu a recuperação rápida dos dados.\n\nAssinale a opção que indica o procedimento de segurança essencial que evitaria essa demora na recuperação dos dados e completa corretamente a lacuna do fragmento acima.",
-      "options": [
-        {
-          "id": "A",
-          "text": "antivírus premium"
-        },
-        {
-          "id": "B",
-          "text": "programa de firewall"
-        },
-        {
-          "id": "C",
-          "text": "sistema de autenticação 2FA"
-        },
-        {
-          "id": "D",
-          "text": "plano de backup e contingência"
-        },
-        {
-          "id": "E",
-          "text": "software de criptografia de dispositivos móveis"
-        }
-      ],
+      "options": [{"id":"A","text":"antivírus premium"},{"id":"B","text":"programa de firewall"},{"id":"C","text":"sistema de autenticação 2FA"},{"id":"D","text":"plano de backup e contingência"},{"id":"E","text":"software de criptografia de dispositivos móveis"}],
       "correctOptionId": "D",
       "explanation": "A alternativa D completa o fragmento: um plano atualizado de backup e contingência viabiliza a recuperação de dados e a retomada após uma indisponibilidade provocada por ransomware. Fonte: FGV; Município de São José dos Campos; Analista em Gestão Municipal – Administração; 2025; Tipo 1 (Branca); questão 29; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-gestao-municipal-administracaocns101-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitovo-prefeitura-de-sjc.pdf."
     },
@@ -1957,16 +592,7 @@
       "revision": 1,
       "origin": "previous_exam",
       "prompt": "Com relação a programas de correio eletrônico, armazenamento de dados na nuvem, firewall e procedimentos de backup, julgue os próximos itens.\n\nPara se utilizar o recurso de armazenamento na nuvem do OneDrive, o usuário deve estar conectado a sua conta da Microsoft.",
-      "options": [
-        {
-          "id": "C",
-          "text": "Certo"
-        },
-        {
-          "id": "E",
-          "text": "Errado"
-        }
-      ],
+      "options": [{"id":"C","text":"Certo"},{"id":"E","text":"Errado"}],
       "correctOptionId": "C",
       "explanation": "O item está certo: o uso do OneDrive depende da autenticação em uma conta Microsoft. Fonte: Cebraspe; Prefeitura Municipal de Cachoeiro de Itapemirim/ES; conhecimentos básicos para cargos de nível médio; 2024; item 23; prova https://cdn.cebraspe.org.br/concursos/pref_cachoeiro_24_adm/arquivos/937_PCI_ADMINISTRATIVO_CB2_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/pref_cachoeiro_24_adm/arquivos/GAB_DEFINITIVO_937_PCI_ADMINISTRATIVO_CB2_01.PDF."
     },
@@ -1975,16 +601,7 @@
       "revision": 1,
       "origin": "previous_exam",
       "prompt": "Com relação a programas de correio eletrônico, armazenamento de dados na nuvem, firewall e procedimentos de backup, julgue os próximos itens.\n\nO OneDrive permite que sejam selecionadas pastas específicas de arquivos do computador para serem sincronizadas e utilizadas via Web.",
-      "options": [
-        {
-          "id": "C",
-          "text": "Certo"
-        },
-        {
-          "id": "E",
-          "text": "Errado"
-        }
-      ],
+      "options": [{"id":"C","text":"Certo"},{"id":"E","text":"Errado"}],
       "correctOptionId": "C",
       "explanation": "O item está certo: o OneDrive permite escolher pastas do computador para sincronização, mantendo-as acessíveis pelo serviço na Web. Fonte: Cebraspe; Prefeitura Municipal de Cachoeiro de Itapemirim/ES; conhecimentos básicos para cargos de nível médio; 2024; item 24; prova https://cdn.cebraspe.org.br/concursos/pref_cachoeiro_24_adm/arquivos/937_PCI_ADMINISTRATIVO_CB2_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/pref_cachoeiro_24_adm/arquivos/GAB_DEFINITIVO_937_PCI_ADMINISTRATIVO_CB2_01.PDF."
     },
@@ -1993,28 +610,7 @@
       "revision": 1,
       "origin": "previous_exam",
       "prompt": "Os principais sistemas de armazenamento em nuvem utilizados pelos usuários finais incluem",
-      "options": [
-        {
-          "id": "A",
-          "text": "SaaS, Google Drive, Dropbox e OneDrive."
-        },
-        {
-          "id": "B",
-          "text": "Dropbox, iCloud, PaaS e Google Drive."
-        },
-        {
-          "id": "C",
-          "text": "Dropbox, IaaS, Google Drive e OneDrive."
-        },
-        {
-          "id": "D",
-          "text": "IaaS, SaaS, PaaS e iCloud."
-        },
-        {
-          "id": "E",
-          "text": "Google Drive, Dropbox, iCloud e OneDrive."
-        }
-      ],
+      "options": [{"id":"A","text":"SaaS, Google Drive, Dropbox e OneDrive."},{"id":"B","text":"Dropbox, iCloud, PaaS e Google Drive."},{"id":"C","text":"Dropbox, IaaS, Google Drive e OneDrive."},{"id":"D","text":"IaaS, SaaS, PaaS e iCloud."},{"id":"E","text":"Google Drive, Dropbox, iCloud e OneDrive."}],
       "correctOptionId": "E",
       "explanation": "A alternativa E reúne apenas serviços/aplicações de armazenamento em nuvem voltados ao usuário final; IaaS, PaaS e SaaS são modelos de serviço em nuvem, não nomes de sistemas de armazenamento equivalentes a Drive, Dropbox, iCloud e OneDrive. Fonte: Cebraspe; Corpo de Bombeiros Militar do Estado de Rondônia; Oficial Bombeiro Militar Complementar – Engenheiro Civil; 2022; questão 50; prova https://cdn.cebraspe.org.br/concursos/cbm_ro_22/arquivos/734_CBM_RO_OFICIAL_002_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/cbm_ro_22/arquivos/GAB_DEFINITIVO_734_CBM_RO_OFICIAL_002_01.PDF."
     },
@@ -2023,18 +619,54 @@
       "revision": 1,
       "origin": "previous_exam",
       "prompt": "Julgue os itens que se seguem, relativos a MSOffice M365 (Word, Excel, PowerPoint, OneDrive, Sharepoint e Teams).\n\nCom o OneDrive, é possível compartilhar arquivos e pastas com outros usuários, que podem acessá-los por meio de vários dispositivos diferentes.",
-      "options": [
-        {
-          "id": "C",
-          "text": "Certo"
-        },
-        {
-          "id": "E",
-          "text": "Errado"
-        }
-      ],
+      "options": [{"id":"C","text":"Certo"},{"id":"E","text":"Errado"}],
       "correctOptionId": "C",
       "explanation": "O item está certo: o OneDrive permite compartilhar arquivos e pastas com outros usuários e acessá-los em dispositivos distintos, conforme permissões e disponibilidade do serviço. Fonte: Cebraspe; Fundo Nacional de Desenvolvimento da Educação (FNDE); Especialista em Financiamento e Execução de Programas e Projetos Educacionais; 2023; item 42; prova https://cdn.cebraspe.org.br/concursos/fnde_23_especialista/arquivos/913_FNDE_CB1_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/fnde_23_especialista/arquivos/GAB_DEFINITIVO_913_FNDE_CB1_01.PDF."
+    },
+    {
+      "id": "q4308",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O tipo de backup de dados que mais consome espaço de armazenamento no computador é o backup incremental.",
+      "options": [{"id":"C","text":"Certo"},{"id":"E","text":"Errado"}],
+      "correctOptionId": "E",
+      "explanation": "O item é errado: o incremental copia apenas dados alterados desde o backup anterior e, em regra, consome menos espaço por execução que um backup completo. Fonte: Cebraspe; Ministério Público do Estado do Tocantins (MPTO); Técnico Ministerial Especializado – Fotografia; 2024; item 118; prova https://cdn.cebraspe.org.br/concursos/mp_to_24_servidor/arquivos/952_MP_TO_016_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/mp_to_24_servidor/arquivos/GAB_DEFINITIVO_952_MP_TO_016_01.PDF."
+    },
+    {
+      "id": "q4309",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Ao se armazenar determinado arquivo em uma nuvem computacional pública, o acesso a esse arquivo passa a ser feito por meio da Internet.",
+      "options": [{"id":"C","text":"Certo"},{"id":"E","text":"Errado"}],
+      "correctOptionId": "C",
+      "explanation": "O item foi considerado certo no gabarito definitivo. Fonte: Cebraspe; Ministério Público do Estado do Tocantins (MPTO); Técnico Ministerial Especializado – Fotografia; 2024; item 119; prova https://cdn.cebraspe.org.br/concursos/mp_to_24_servidor/arquivos/952_MP_TO_016_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/mp_to_24_servidor/arquivos/GAB_DEFINITIVO_952_MP_TO_016_01.PDF."
+    },
+    {
+      "id": "q4310",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Algumas empresas, em razão das características de seus sistemas, fazem uso dos chamados hot backups, em que as cópias são feitas sem que o sistema interrompa o seu funcionamento.",
+      "options": [{"id":"C","text":"Certo"},{"id":"E","text":"Errado"}],
+      "correctOptionId": "C",
+      "explanation": "Hot backup é realizado com o sistema em funcionamento, sem exigir sua interrupção. Fonte: Cebraspe; Ministério Público do Estado do Tocantins (MPTO); Técnico Ministerial Especializado – Fotografia; 2024; item 120; prova https://cdn.cebraspe.org.br/concursos/mp_to_24_servidor/arquivos/952_MP_TO_016_01.PDF; gabarito definitivo https://cdn.cebraspe.org.br/concursos/mp_to_24_servidor/arquivos/GAB_DEFINITIVO_952_MP_TO_016_01.PDF."
+    },
+    {
+      "id": "q4311",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Dentre as opções a seguir, assinale qual é a melhor prática para o backup local de arquivos críticos de um usuário.",
+      "options": [{"id":"A","text":"Salvar em uma pasta diferente no mesmo disco."},{"id":"B","text":"Copiar para um pendrive e deixá-lo conectado."},{"id":"C","text":"Fazer cópia periódica em dispositivo externo, desconectando-o após o backup."},{"id":"D","text":"Copiar para a lixeira e preservar seu conteúdo."},{"id":"E","text":"Confiar apenas na Restauração do Sistema do Windows."}],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C separa a cópia do disco de origem e reduz a exposição contínua do dispositivo de backup. Fonte: FGV; Assembleia Legislativa do Estado do Amazonas (ALE-AM); Agente Legislativo – Técnico de Apoio ao Usuário de Computadores; 2025; Tipo 1 (Branca); questão 38; prova https://conhecimento.fgv.br/sites/default/files/concursos/agente-legislativo-tecnico-de-apoio-ao-usuario-de-computadores-cnm505-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-am.pdf."
+    },
+    {
+      "id": "q4312",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um sistema de gestão de documentos administrativos possui o plano de backup a seguir, com a execução das cópias dos dados, realizadas sempre às 23:00 do dia, com RPO (Recovery Point Object) de 24 horas. O backup completo possui duração de 240 minutos e o backup diferencial, de 25 minutos.\n\n• Dia 1 – backup completo\n• Dia 2 – backup diferencial\n• Dia 3 – backup diferencial\n• Dia 4 – backup diferencial\n\nNo dia 5, o administrador do sistema identificou uma invasão no servidor que acarretou o comprometimento dos dados a partir de 22:15h do dia 4. Para recuperar o sistema, o administrador instalou um novo servidor e precisou restaurar o backup íntegro e mais atualizado anterior à invasão, que atendesse ao RPO definido.\n\nPara atender aos requisitos de recuperação do sistema, o administrador restaurou sequencialmente os backups dos dias:",
+      "options": [{"id":"A","text":"Dia 1 + Dia 2 + Dia 3 + Dia 4;"},{"id":"B","text":"Dia 1 + Dia 2 + Dia 3;"},{"id":"C","text":"Dia 1 + Dia 2;"},{"id":"D","text":"Dia 1 + Dia 3;"},{"id":"E","text":"Dia 1 + Dia 4."}],
+      "correctOptionId": "D",
+      "explanation": "Como os backups diferenciais acumulam as mudanças desde o completo, o conjunto íntegro e mais recente anterior ao comprometimento é o completo do dia 1 mais o diferencial do dia 3. Fonte: FGV; Comissão de Valores Mobiliários (CVM); Analista CVM – Perfil 9 – TI – Infraestrutura e Segurança; 2024; Tipo 2 (Verde); questão 32; prova https://conhecimento.fgv.br/sites/default/files/concursos/tarde-analista-cvm-perfil-9-ti-infraestrutura-e-segurancaperfil-9-tipo-2.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/cvm2024_gabarito_definitivo_tarde_asdas5c.pdf."
     }
   ]
 }
