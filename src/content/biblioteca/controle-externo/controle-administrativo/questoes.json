@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q5619",
@@ -946,6 +946,90 @@
       ],
       "correctOptionId": "C",
       "explanation": "Gabarito oficial definitivo: C. A banca identifica a reclamação como o meio de controle administrativo para expressar oposição a atos da Administração que afetem direitos ou interesses legítimos do interessado. Fonte: CESPE/Cebraspe; Tribunal de Contas do Estado de Minas Gerais (TCE/MG); Analista de Controle Externo — Área de Graduação/Especialidade: Ciências Contábeis; 2018; questão 89; caderno: https://cdn.cebraspe.org.br/concursos/TCE_MG_18/arquivos/418_TCEMG_C_ESPEC_003_01.PDF; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/TCE_MG_18/arquivos/GAB_DEFINITIVO_418_TCEMG_C_ESPEC_003_01.PDF."
+    },
+    {
+      "id": "q52204903",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No Município Delta observou-se que a Lei local ABC exige o depósito ou arrolamento de bens para a admissibilidade de recurso administrativo, bem como determina que o efeito suspensivo para tal irresignação depende de apreciação da autoridade competente, salvo disposição legal em contrário.\n\nAlém disso, a mencionada norma prevê a possibilidade de agravamento de sanções e penalidades que se revelem em desacordo com a lei, de ofício, mesmo que em decorrência de impugnação apresentada apenas pelo particular, independentemente de sua prévia notificação.\n\nDiante dessas circunstâncias, à luz da jurisprudência dos Tribunais Superiores, é correto afirmar que",
+      "options": [
+        {"id": "A", "text": "todas as normas em questão são inválidas, pois cada uma delas viola aspecto distinto do princípio do devido processo legal, aplicável em âmbito administrativo."},
+        {"id": "B", "text": "é válida a exigência de prestação de caução ou arrolamento de bens para a apresentação de recurso administrativo, pois não foi consagrado, no ordenamento pátrio, o duplo grau de jurisdição obrigatório na esfera administrativa."},
+        {"id": "C", "text": "apesar de o agravamento de penalidades ser possível, em tese, no exercício da autotutela, para a adequação aos parâmetros legais, há necessidade de prévia notificação do interessado, à luz dos consectários do devido processo legal."},
+        {"id": "D", "text": "não há qualquer invalidade em nenhuma das mencionadas normas, na medida em que todas se revelam em consonância com o princípio do devido processo legal, aplicável em âmbito administrativo."},
+        {"id": "E", "text": "é inválido o condicionamento de apreciação da autoridade competente para fins de conceder efeito suspensivo aos recursos administrativos, pois viola a regra geral de que as impugnações são dotadas de tal efeito."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Gabarito oficial definitivo: C. O agravamento de penalidade no exercício da autotutela exige prévia ciência do interessado e respeito ao devido processo legal. Fonte: FGV; Ministério Público do Estado de Goiás; Promotor de Justiça Substituto; 2024; questão 93, Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/promotor-de-justica-substitutocns001-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/comissaodeconcurso_comunicado-n.-11.pdf."
+    },
+    {
+      "id": "q52204904",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em um determinado processo administrativo, sujeito ao regime jurídico estabelecido na Lei nº 9.784/1999, João é sancionado, após a observância do contraditório e da ampla defesa, como consectários do devido processo legal. Nada obstante, um ano e onze meses após à prolação da decisão, surgem circunstâncias relevantes suscetíveis de justificar a inadequação da sanção aplicada.\n\nNesse cenário, considerando as disposições da Lei nº 9.784/99, é correto afirmar que o processo administrativo poderá ser revisto",
+      "options": [
+        {"id": "A", "text": "observado o prazo decadencial de dois anos, contados do trânsito em julgado da última decisão proferida no processo, a pedido do interessado ou de ofício, sendo certo que da revisão do processo poderá resultar agravamento da sanção."},
+        {"id": "B", "text": "observado o prazo decadencial de dois anos, contados do trânsito em julgado da última decisão proferida no processo, a pedido do interessado, sendo certo que da revisão do processo não poderá resultar agravamento da sanção."},
+        {"id": "C", "text": "observado o prazo decadencial de dois anos, contados do trânsito em julgado da última decisão proferida no processo, a pedido do interessado, sendo certo que da revisão do processo poderá resultar agravamento da sanção."},
+        {"id": "D", "text": "a qualquer tempo, a pedido do interessado ou de ofício, sendo certo que da revisão do processo não poderá resultar agravamento da sanção."},
+        {"id": "E", "text": "a qualquer tempo, a pedido do interessado, sendo certo que da revisão do processo poderá resultar agravamento da sanção."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Gabarito oficial definitivo: D. Segundo o art. 65 da Lei nº 9.784/1999, processos administrativos sancionadores podem ser revistos a qualquer tempo, a pedido ou de ofício, quando surgirem fatos novos ou circunstâncias relevantes, sem agravamento da sanção. Fonte: FGV; Câmara dos Deputados; Consultor Legislativo — Área VIII; 2023; questão 53, Tipo 1, tarde; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/area-viii-t1-tarde.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tardecamara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-4-tarde.pdf."
+    },
+    {
+      "id": "q52204905",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em caso de recurso administrativo interposto perante autoridade incompetente, a legislação prevê que",
+      "options": [
+        {"id": "A", "text": "o recurso seja remetido à autoridade competente."},
+        {"id": "B", "text": "a autoridade competente seja indicada ao recorrente, sendo-lhe devolvido o prazo para recurso."},
+        {"id": "C", "text": "o seguimento do recurso seja negado."},
+        {"id": "D", "text": "o recurso seja conhecido, embora deva ser desprovido."},
+        {"id": "E", "text": "o processo administrativo correspondente seja arquivado."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Gabarito oficial definitivo: B. A Lei nº 9.784/1999 determina que, quando o recurso é interposto perante autoridade incompetente, seja indicada ao recorrente a autoridade competente e devolvido o prazo para recurso. Fonte: Cebraspe; Tribunal Regional Eleitoral da Bahia; Analista Judiciário — Área Judiciária; 2017; questão 26; caderno: https://cdn.cebraspe.org.br/concursos/TRE_BA_17/arquivos/329_TREBA_001_01.pdf; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/TRE_BA_17/arquivos/Gab_Definitivo_329_TREBA_001_01.pdf."
+    },
+    {
+      "id": "q52204906",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Diante do acúmulo de serviço em razão da grande demanda em sua competência originária e com o objetivo de conferir maior eficiência e celeridade em questões administrativas, o Delegado-Geral de Polícia Civil do Estado Alfa praticou ato administrativo delegando sua competência para a Secretaria Executiva de Polícia decidir recursos administrativos hierárquicos.\nO mencionado ato de delegação é:",
+      "options": [
+        {"id": "A", "text": "inválido, porque os atos previstos como de competência do Delegado-Geral não podem ser delegados, em respeito ao poder hierárquico;"},
+        {"id": "B", "text": "inválido, porque a legislação proíbe expressamente a delegação de decisão de recursos administrativos;"},
+        {"id": "C", "text": "lícito, porque a competência administrativa é imprescritível, improrrogável e irrenunciável;"},
+        {"id": "D", "text": "lícito, porque a competência é delegável, exceto nos casos de competência exclusiva definida em lei;"},
+        {"id": "E", "text": "lícito, porque a competência é delegável, exceto para a edição de atos normativos."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Gabarito oficial definitivo: B. A decisão de recursos administrativos está entre as competências que não podem ser objeto de delegação. Fonte: FGV; Polícia Civil do Rio Grande do Norte; Delegado de Polícia Civil Substituto; 2021; questão 61, Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/pcrn-delegado-de-policia-civil-substituto-deleg-01-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/pcrn_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q52204907",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O administrado que se sentir lesado em decorrência de decisão administrativa poderá interpor recursos hierárquicos até chegar à autoridade máxima da organização, sendo esse direito, na esfera federal, limitado a três instâncias administrativas.",
+      "options": [
+        {"id": "C", "text": "Certo"},
+        {"id": "E", "text": "Errado"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Gabarito oficial definitivo: Certo. Na esfera federal, a Lei nº 9.784/1999 limita a tramitação do recurso administrativo a três instâncias administrativas, salvo disposição legal diversa. Fonte: CESPE/UnB; Agência Nacional de Transportes Terrestres (ANTT); Técnico em Regulação de Serviços de Transportes Terrestres; 2013; item 90; caderno: https://cdn.cebraspe.org.br/concursos/ANTT_13/arquivos/ANTT13_017_34.pdf; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/ANTT_13/arquivos/Gab_definitivo_ANTT13_017_34.PDF."
+    },
+    {
+      "id": "q52204908",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Cidadãos ou associações têm legitimidade para interpor recurso administrativo para defender interesses difusos.",
+      "options": [
+        {"id": "C", "text": "Certo"},
+        {"id": "E", "text": "Errado"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Gabarito oficial definitivo: Certo. A Lei nº 9.784/1999 inclui cidadãos ou associações entre os legitimados para interpor recurso administrativo quanto a direitos ou interesses difusos. Fonte: CESPE/UnB; Tribunal de Contas da União; Técnico Federal de Controle Externo — Área Apoio Técnico e Administrativo — Especialidade Técnica Administrativa; 2012; item 54; caderno: https://cdn.cebraspe.org.br/concursos/TCU_12_TEFC/arquivos/TCU12_001_01.pdf; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/TCU_12_TEFC/arquivos/Gab_definitivo_TCU12_001_01.PDF."
     }
   ]
 }
