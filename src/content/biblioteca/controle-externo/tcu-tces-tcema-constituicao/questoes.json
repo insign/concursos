@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q5919",
@@ -8,26 +8,11 @@
       "origin": "authorial",
       "prompt": "No modelo constitucional federal, o controle externo da União é exercido",
       "options": [
-        {
-          "id": "A",
-          "text": "pelo Congresso Nacional, com auxílio do Tribunal de Contas da União."
-        },
-        {
-          "id": "B",
-          "text": "diretamente pelo Tribunal de Contas da União, sem participação do Congresso."
-        },
-        {
-          "id": "C",
-          "text": "pelo Poder Judiciário, com auxílio do Ministério Público."
-        },
-        {
-          "id": "D",
-          "text": "exclusivamente pelo sistema de controle interno do Poder Executivo."
-        },
-        {
-          "id": "E",
-          "text": "pelo Senado Federal, com auxílio do Supremo Tribunal Federal."
-        }
+        {"id": "A", "text": "pelo Congresso Nacional, com auxílio do Tribunal de Contas da União."},
+        {"id": "B", "text": "diretamente pelo Tribunal de Contas da União, sem participação do Congresso."},
+        {"id": "C", "text": "pelo Poder Judiciário, com auxílio do Ministério Público."},
+        {"id": "D", "text": "exclusivamente pelo sistema de controle interno do Poder Executivo."},
+        {"id": "E", "text": "pelo Senado Federal, com auxílio do Supremo Tribunal Federal."}
       ],
       "correctOptionId": "A",
       "explanation": "Os arts. 70 e 71 da Constituição atribuem o controle externo federal ao Congresso Nacional, exercido com auxílio do TCU. O auxílio não elimina competências próprias do Tribunal, mas também não retira a titularidade parlamentar. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -38,26 +23,11 @@
       "origin": "authorial",
       "prompt": "A expressão constitucional segundo a qual o TCU auxilia o Congresso Nacional significa que o Tribunal",
       "options": [
-        {
-          "id": "A",
-          "text": "é departamento hierarquicamente subordinado à Mesa do Congresso."
-        },
-        {
-          "id": "B",
-          "text": "possui competências constitucionais próprias, sem subordinação hierárquica ao Legislativo."
-        },
-        {
-          "id": "C",
-          "text": "apenas emite opiniões sem qualquer efeito jurídico."
-        },
-        {
-          "id": "D",
-          "text": "passa a integrar o Poder Judiciário para julgar contas."
-        },
-        {
-          "id": "E",
-          "text": "atua apenas quando provocado por comissão do Congresso, sem competências constitucionais próprias."
-        }
+        {"id": "A", "text": "é departamento hierarquicamente subordinado à Mesa do Congresso."},
+        {"id": "B", "text": "possui competências constitucionais próprias, sem subordinação hierárquica ao Legislativo."},
+        {"id": "C", "text": "apenas emite opiniões sem qualquer efeito jurídico."},
+        {"id": "D", "text": "passa a integrar o Poder Judiciário para julgar contas."},
+        {"id": "E", "text": "atua apenas quando provocado por comissão do Congresso, sem competências constitucionais próprias."}
       ],
       "correctOptionId": "B",
       "explanation": "Auxílio é fórmula institucional de controle externo, não hierarquia. O TCU exerce competências próprias e não integra o Judiciário. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -68,26 +38,11 @@
       "origin": "authorial",
       "prompt": "Após a EC nº 139/2026, os tribunais de contas são constitucionalmente definidos como instituições",
       "options": [
-        {
-          "id": "A",
-          "text": "temporárias e substituíveis por auditorias privadas."
-        },
-        {
-          "id": "B",
-          "text": "permanentes e essenciais ao exercício do controle externo."
-        },
-        {
-          "id": "C",
-          "text": "municipais obrigatórias em todos os Municípios."
-        },
-        {
-          "id": "D",
-          "text": "integrantes do Poder Judiciário nacional."
-        },
-        {
-          "id": "E",
-          "text": "integrantes da administração indireta do ente fiscalizado."
-        }
+        {"id": "A", "text": "temporárias e substituíveis por auditorias privadas."},
+        {"id": "B", "text": "permanentes e essenciais ao exercício do controle externo."},
+        {"id": "C", "text": "municipais obrigatórias em todos os Municípios."},
+        {"id": "D", "text": "integrantes do Poder Judiciário nacional."},
+        {"id": "E", "text": "integrantes da administração indireta do ente fiscalizado."}
       ],
       "correctOptionId": "B",
       "explanation": "A EC nº 139/2026 alterou o art. 75 para afirmar permanência e essencialidade dos tribunais de contas no controle externo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -98,26 +53,11 @@
       "origin": "authorial",
       "prompt": "A EC nº 139/2026 acrescentou, nos arts. 31 e 75 da Constituição, vedação expressa à",
       "options": [
-        {
-          "id": "A",
-          "text": "existência de Ministério Público junto aos tribunais de contas."
-        },
-        {
-          "id": "B",
-          "text": "realização de auditorias operacionais pelos tribunais de contas."
-        },
-        {
-          "id": "C",
-          "text": "extinção, criação ou instalação dos órgãos de contas mencionados."
-        },
-        {
-          "id": "D",
-          "text": "atuação dos tribunais de contas nos Municípios."
-        },
-        {
-          "id": "E",
-          "text": "apreciação das contas anuais dos chefes do Poder Executivo."
-        }
+        {"id": "A", "text": "existência de Ministério Público junto aos tribunais de contas."},
+        {"id": "B", "text": "realização de auditorias operacionais pelos tribunais de contas."},
+        {"id": "C", "text": "extinção, criação ou instalação dos órgãos de contas mencionados."},
+        {"id": "D", "text": "atuação dos tribunais de contas nos Municípios."},
+        {"id": "E", "text": "apreciação das contas anuais dos chefes do Poder Executivo."}
       ],
       "correctOptionId": "C",
       "explanation": "A emenda veda extinção, criação ou instalação, preservando a permanência institucional dos tribunais, conselhos e órgãos de contas indicados. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -128,26 +68,11 @@
       "origin": "authorial",
       "prompt": "O art. 75 da Constituição determina que as normas federais sobre organização, composição e fiscalização se aplicam aos tribunais estaduais e ao TCDF",
       "options": [
-        {
-          "id": "A",
-          "text": "literalmente, sem qualquer adaptação federativa."
-        },
-        {
-          "id": "B",
-          "text": "no que couber, preservado o núcleo constitucional obrigatório."
-        },
-        {
-          "id": "C",
-          "text": "somente quando autorizadas pelo TCU em cada caso."
-        },
-        {
-          "id": "D",
-          "text": "apenas quanto à nomenclatura dos cargos."
-        },
-        {
-          "id": "E",
-          "text": "somente após lei complementar nacional que autorize cada adaptação federativa."
-        }
+        {"id": "A", "text": "literalmente, sem qualquer adaptação federativa."},
+        {"id": "B", "text": "no que couber, preservado o núcleo constitucional obrigatório."},
+        {"id": "C", "text": "somente quando autorizadas pelo TCU em cada caso."},
+        {"id": "D", "text": "apenas quanto à nomenclatura dos cargos."},
+        {"id": "E", "text": "somente após lei complementar nacional que autorize cada adaptação federativa."}
       ],
       "correctOptionId": "B",
       "explanation": "A expressão 'no que couber' permite adaptação, mas não autoriza violar composição, vagas técnicas, garantias e estrutura essencial. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -158,26 +83,11 @@
       "origin": "authorial",
       "prompt": "O Tribunal de Contas da União é composto por",
       "options": [
-        {
-          "id": "A",
-          "text": "sete conselheiros, quatro da Assembleia e três do Governador."
-        },
-        {
-          "id": "B",
-          "text": "nove ministros."
-        },
-        {
-          "id": "C",
-          "text": "onze desembargadores de contas."
-        },
-        {
-          "id": "D",
-          "text": "cinco ministros e dois auditores."
-        },
-        {
-          "id": "E",
-          "text": "sete ministros e dois conselheiros-substitutos."
-        }
+        {"id": "A", "text": "sete conselheiros, quatro da Assembleia e três do Governador."},
+        {"id": "B", "text": "nove ministros."},
+        {"id": "C", "text": "onze desembargadores de contas."},
+        {"id": "D", "text": "cinco ministros e dois auditores."},
+        {"id": "E", "text": "sete ministros e dois conselheiros-substitutos."}
       ],
       "correctOptionId": "B",
       "explanation": "A composição constitucional do TCU é de nove ministros. Sete conselheiros é a estrutura típica dos tribunais estaduais e do Distrito Federal. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -188,26 +98,11 @@
       "origin": "authorial",
       "prompt": "Na composição do TCU, a escolha de seis ministros cabe ao",
       "options": [
-        {
-          "id": "A",
-          "text": "Congresso Nacional."
-        },
-        {
-          "id": "B",
-          "text": "Presidente da República, livremente."
-        },
-        {
-          "id": "C",
-          "text": "Supremo Tribunal Federal."
-        },
-        {
-          "id": "D",
-          "text": "Ministério Público junto ao TCU."
-        },
-        {
-          "id": "E",
-          "text": "Senado Federal, isoladamente."
-        }
+        {"id": "A", "text": "Congresso Nacional."},
+        {"id": "B", "text": "Presidente da República, livremente."},
+        {"id": "C", "text": "Supremo Tribunal Federal."},
+        {"id": "D", "text": "Ministério Público junto ao TCU."},
+        {"id": "E", "text": "Senado Federal, isoladamente."}
       ],
       "correctOptionId": "A",
       "explanation": "Dos nove ministros do TCU, seis são escolhidos pelo Congresso Nacional. As outras três vagas são do Presidente da República, com aprovação do Senado. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -218,26 +113,11 @@
       "origin": "authorial",
       "prompt": "As três vagas de escolha presidencial no TCU são compostas por",
       "options": [
-        {
-          "id": "A",
-          "text": "três nomes de livre escolha do Presidente."
-        },
-        {
-          "id": "B",
-          "text": "dois parlamentares e um ministro do STF."
-        },
-        {
-          "id": "C",
-          "text": "uma livre, uma de auditor/ministro-substituto e uma de membro do MPTCU."
-        },
-        {
-          "id": "D",
-          "text": "três auditores federais de controle externo."
-        },
-        {
-          "id": "E",
-          "text": "duas vagas de livre escolha e uma reservada a membro do Ministério Público Federal."
-        }
+        {"id": "A", "text": "três nomes de livre escolha do Presidente."},
+        {"id": "B", "text": "dois parlamentares e um ministro do STF."},
+        {"id": "C", "text": "uma livre, uma de auditor/ministro-substituto e uma de membro do MPTCU."},
+        {"id": "D", "text": "três auditores federais de controle externo."},
+        {"id": "E", "text": "duas vagas de livre escolha e uma reservada a membro do Ministério Público Federal."}
       ],
       "correctOptionId": "C",
       "explanation": "A Constituição reserva duas vagas técnicas entre as três escolhas presidenciais: uma de auditor/ministro-substituto e uma do Ministério Público junto ao TCU. Apenas uma é livre. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -248,26 +128,11 @@
       "origin": "authorial",
       "prompt": "A escolha dos três ministros do TCU pelo Presidente da República depende de aprovação do",
       "options": [
-        {
-          "id": "A",
-          "text": "Senado Federal."
-        },
-        {
-          "id": "B",
-          "text": "Plenário do TCU apenas."
-        },
-        {
-          "id": "C",
-          "text": "Conselho Nacional de Justiça."
-        },
-        {
-          "id": "D",
-          "text": "Tribunal Superior Eleitoral."
-        },
-        {
-          "id": "E",
-          "text": "Câmara dos Deputados."
-        }
+        {"id": "A", "text": "Senado Federal."},
+        {"id": "B", "text": "Plenário do TCU apenas."},
+        {"id": "C", "text": "Conselho Nacional de Justiça."},
+        {"id": "D", "text": "Tribunal Superior Eleitoral."},
+        {"id": "E", "text": "Câmara dos Deputados."}
       ],
       "correctOptionId": "A",
       "explanation": "O art. 73, § 2º, I, prevê escolha presidencial com aprovação do Senado Federal. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -278,26 +143,11 @@
       "origin": "authorial",
       "prompt": "Entre os requisitos constitucionais para ministro do TCU está",
       "options": [
-        {
-          "id": "A",
-          "text": "idade superior a 30 anos e inferior a 65 anos."
-        },
-        {
-          "id": "B",
-          "text": "mais de 35 e menos de 70 anos."
-        },
-        {
-          "id": "C",
-          "text": "qualquer idade, desde que haja aprovação em eleição direta."
-        },
-        {
-          "id": "D",
-          "text": "exigência exclusiva de formação em Direito."
-        },
-        {
-          "id": "E",
-          "text": "mais de 30 e menos de 75 anos, com bacharelado obrigatório em Direito."
-        }
+        {"id": "A", "text": "idade superior a 30 anos e inferior a 65 anos."},
+        {"id": "B", "text": "mais de 35 e menos de 70 anos."},
+        {"id": "C", "text": "qualquer idade, desde que haja aprovação em eleição direta."},
+        {"id": "D", "text": "exigência exclusiva de formação em Direito."},
+        {"id": "E", "text": "mais de 30 e menos de 75 anos, com bacharelado obrigatório em Direito."}
       ],
       "correctOptionId": "B",
       "explanation": "O limite atualizado é mais de 35 e menos de 70 anos, além de idoneidade, reputação, conhecimentos notórios e mais de dez anos de atividade compatível. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -308,26 +158,11 @@
       "origin": "authorial",
       "prompt": "A EC nº 122/2022 é relevante para este assunto porque",
       "options": [
-        {
-          "id": "A",
-          "text": "extinguiu as vagas técnicas do TCU."
-        },
-        {
-          "id": "B",
-          "text": "alterou o limite etário máximo para escolha de ministros do TCU."
-        },
-        {
-          "id": "C",
-          "text": "transformou o TCU em órgão do Poder Judiciário."
-        },
-        {
-          "id": "D",
-          "text": "criou tribunais de contas municipais em todos os Municípios."
-        },
-        {
-          "id": "E",
-          "text": "transferiu ao Congresso Nacional as três vagas antes atribuídas ao Presidente da República."
-        }
+        {"id": "A", "text": "extinguiu as vagas técnicas do TCU."},
+        {"id": "B", "text": "alterou o limite etário máximo para escolha de ministros do TCU."},
+        {"id": "C", "text": "transformou o TCU em órgão do Poder Judiciário."},
+        {"id": "D", "text": "criou tribunais de contas municipais em todos os Municípios."},
+        {"id": "E", "text": "transferiu ao Congresso Nacional as três vagas antes atribuídas ao Presidente da República."}
       ],
       "correctOptionId": "B",
       "explanation": "A EC nº 122/2022 atualizou o limite etário de escolha, levando à regra de menos de 70 anos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -338,26 +173,11 @@
       "origin": "authorial",
       "prompt": "Os ministros do TCU têm as mesmas garantias, prerrogativas, impedimentos, vencimentos e vantagens dos",
       "options": [
-        {
-          "id": "A",
-          "text": "ministros do Superior Tribunal de Justiça."
-        },
-        {
-          "id": "B",
-          "text": "deputados federais."
-        },
-        {
-          "id": "C",
-          "text": "desembargadores dos tribunais estaduais."
-        },
-        {
-          "id": "D",
-          "text": "servidores efetivos do Poder Executivo."
-        },
-        {
-          "id": "E",
-          "text": "ministros do Supremo Tribunal Federal."
-        }
+        {"id": "A", "text": "ministros do Superior Tribunal de Justiça."},
+        {"id": "B", "text": "deputados federais."},
+        {"id": "C", "text": "desembargadores dos tribunais estaduais."},
+        {"id": "D", "text": "servidores efetivos do Poder Executivo."},
+        {"id": "E", "text": "ministros do Supremo Tribunal Federal."}
       ],
       "correctOptionId": "A",
       "explanation": "A equiparação constitucional é com ministros do STJ. Isso não torna o TCU órgão judicial. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -368,26 +188,11 @@
       "origin": "authorial",
       "prompt": "Os ministros-substitutos do TCU são constitucionalmente denominados",
       "options": [
-        {
-          "id": "A",
-          "text": "desembargadores federais."
-        },
-        {
-          "id": "B",
-          "text": "auditores."
-        },
-        {
-          "id": "C",
-          "text": "procuradores-gerais."
-        },
-        {
-          "id": "D",
-          "text": "conselheiros estaduais."
-        },
-        {
-          "id": "E",
-          "text": "conselheiros-substitutos."
-        }
+        {"id": "A", "text": "desembargadores federais."},
+        {"id": "B", "text": "auditores."},
+        {"id": "C", "text": "procuradores-gerais."},
+        {"id": "D", "text": "conselheiros estaduais."},
+        {"id": "E", "text": "conselheiros-substitutos."}
       ],
       "correctOptionId": "B",
       "explanation": "A Constituição usa a expressão auditores, embora a prática institucional também utilize ministros-substitutos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -398,26 +203,11 @@
       "origin": "authorial",
       "prompt": "Os ministros-substitutos do TCU são selecionados por",
       "options": [
-        {
-          "id": "A",
-          "text": "concurso público de provas e títulos."
-        },
-        {
-          "id": "B",
-          "text": "eleição direta nacional."
-        },
-        {
-          "id": "C",
-          "text": "livre nomeação do Congresso, sem requisitos."
-        },
-        {
-          "id": "D",
-          "text": "lista do Ministério Público comum."
-        },
-        {
-          "id": "E",
-          "text": "indicação em lista sêxtupla elaborada pela Ordem dos Advogados do Brasil."
-        }
+        {"id": "A", "text": "concurso público de provas e títulos."},
+        {"id": "B", "text": "eleição direta nacional."},
+        {"id": "C", "text": "livre nomeação do Congresso, sem requisitos."},
+        {"id": "D", "text": "lista do Ministério Público comum."},
+        {"id": "E", "text": "indicação em lista sêxtupla elaborada pela Ordem dos Advogados do Brasil."}
       ],
       "correctOptionId": "A",
       "explanation": "Os ministros-substitutos são selecionados por concurso público de provas e títulos, nomeados pelo Presidente da República e submetidos aos requisitos constitucionais. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -428,26 +218,11 @@
       "origin": "authorial",
       "prompt": "É correto afirmar que ministro-substituto do TCU e auditor federal de controle externo",
       "options": [
-        {
-          "id": "A",
-          "text": "são a mesma carreira e possuem as mesmas atribuições."
-        },
-        {
-          "id": "B",
-          "text": "são categorias distintas, pois o ministro-substituto é autoridade judicante do Tribunal."
-        },
-        {
-          "id": "C",
-          "text": "são ambos membros do Ministério Público junto ao TCU."
-        },
-        {
-          "id": "D",
-          "text": "são cargos de escolha exclusiva do Senado Federal."
-        },
-        {
-          "id": "E",
-          "text": "diferem apenas na denominação, pois ambos são cargos em comissão de livre nomeação."
-        }
+        {"id": "A", "text": "são a mesma carreira e possuem as mesmas atribuições."},
+        {"id": "B", "text": "são categorias distintas, pois o ministro-substituto é autoridade judicante do Tribunal."},
+        {"id": "C", "text": "são ambos membros do Ministério Público junto ao TCU."},
+        {"id": "D", "text": "são cargos de escolha exclusiva do Senado Federal."},
+        {"id": "E", "text": "diferem apenas na denominação, pois ambos são cargos em comissão de livre nomeação."}
       ],
       "correctOptionId": "B",
       "explanation": "Ministro-substituto é autoridade constitucional que relata, instrui e substitui ministros; auditor federal de controle externo é servidor técnico. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -458,26 +233,11 @@
       "origin": "authorial",
       "prompt": "O Ministério Público junto ao TCU",
       "options": [
-        {
-          "id": "A",
-          "text": "é órgão constitucional que funciona junto ao Tribunal de Contas da União."
-        },
-        {
-          "id": "B",
-          "text": "é uma câmara do Ministério Público Federal sem autonomia funcional."
-        },
-        {
-          "id": "C",
-          "text": "substitui o Plenário do TCU em julgamentos de contas."
-        },
-        {
-          "id": "D",
-          "text": "não participa de nenhuma vaga técnica do TCU."
-        },
-        {
-          "id": "E",
-          "text": "integra o Ministério Público da União como um de seus ramos."
-        }
+        {"id": "A", "text": "é órgão constitucional que funciona junto ao Tribunal de Contas da União."},
+        {"id": "B", "text": "é uma câmara do Ministério Público Federal sem autonomia funcional."},
+        {"id": "C", "text": "substitui o Plenário do TCU em julgamentos de contas."},
+        {"id": "D", "text": "não participa de nenhuma vaga técnica do TCU."},
+        {"id": "E", "text": "integra o Ministério Público da União como um de seus ramos."}
       ],
       "correctOptionId": "A",
       "explanation": "O MPTCU tem fundamento constitucional e funciona junto ao TCU, atuando com pareceres, recursos e representações. Um de seus membros compõe uma das vagas técnicas presidenciais. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -488,26 +248,11 @@
       "origin": "authorial",
       "prompt": "O art. 130 da Constituição é importante porque trata",
       "options": [
-        {
-          "id": "A",
-          "text": "da aplicação, no que couber, de regras constitucionais do Ministério Público aos membros do Ministério Público junto aos tribunais de contas."
-        },
-        {
-          "id": "B",
-          "text": "da eleição direta dos ministros do TCU."
-        },
-        {
-          "id": "C",
-          "text": "da criação obrigatória de tribunais municipais."
-        },
-        {
-          "id": "D",
-          "text": "da competência criminal dos tribunais de contas."
-        },
-        {
-          "id": "E",
-          "text": "da competência originária do STF para julgar as contas do TCU."
-        }
+        {"id": "A", "text": "da aplicação, no que couber, de regras constitucionais do Ministério Público aos membros do Ministério Público junto aos tribunais de contas."},
+        {"id": "B", "text": "da eleição direta dos ministros do TCU."},
+        {"id": "C", "text": "da criação obrigatória de tribunais municipais."},
+        {"id": "D", "text": "da competência criminal dos tribunais de contas."},
+        {"id": "E", "text": "da competência originária do STF para julgar as contas do TCU."}
       ],
       "correctOptionId": "A",
       "explanation": "O art. 130 disciplina o Ministério Público junto aos tribunais de contas, sem transformá-lo automaticamente no Ministério Público comum. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -518,26 +263,11 @@
       "origin": "authorial",
       "prompt": "As decisões finais do TCU, segundo sua organização colegiada, são tomadas",
       "options": [
-        {
-          "id": "A",
-          "text": "somente por servidores técnicos individualmente."
-        },
-        {
-          "id": "B",
-          "text": "pelo Plenário ou por Câmaras, conforme a competência."
-        },
-        {
-          "id": "C",
-          "text": "exclusivamente pelo Presidente da República."
-        },
-        {
-          "id": "D",
-          "text": "sempre pelo Senado Federal."
-        },
-        {
-          "id": "E",
-          "text": "obrigatoriamente por decisão monocrática do Presidente do TCU."
-        }
+        {"id": "A", "text": "somente por servidores técnicos individualmente."},
+        {"id": "B", "text": "pelo Plenário ou por Câmaras, conforme a competência."},
+        {"id": "C", "text": "exclusivamente pelo Presidente da República."},
+        {"id": "D", "text": "sempre pelo Senado Federal."},
+        {"id": "E", "text": "obrigatoriamente por decisão monocrática do Presidente do TCU."}
       ],
       "correctOptionId": "B",
       "explanation": "A página institucional do TCU registra que o Tribunal é colegiado e delibera pelo Plenário ou por Câmaras. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -548,26 +278,11 @@
       "origin": "authorial",
       "prompt": "A composição típica dos tribunais de contas estaduais é de",
       "options": [
-        {
-          "id": "A",
-          "text": "nove ministros."
-        },
-        {
-          "id": "B",
-          "text": "sete conselheiros."
-        },
-        {
-          "id": "C",
-          "text": "três procuradores."
-        },
-        {
-          "id": "D",
-          "text": "onze juízes federais."
-        },
-        {
-          "id": "E",
-          "text": "cinco conselheiros e dois auditores titulares."
-        }
+        {"id": "A", "text": "nove ministros."},
+        {"id": "B", "text": "sete conselheiros."},
+        {"id": "C", "text": "três procuradores."},
+        {"id": "D", "text": "onze juízes federais."},
+        {"id": "E", "text": "cinco conselheiros e dois auditores titulares."}
       ],
       "correctOptionId": "B",
       "explanation": "TCEs são compostos por sete conselheiros, diferentemente do TCU, que possui nove ministros. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -578,26 +293,11 @@
       "origin": "authorial",
       "prompt": "Segundo a Súmula 653 do STF, em tribunal de contas estadual composto por sete conselheiros, a Assembleia Legislativa escolhe",
       "options": [
-        {
-          "id": "A",
-          "text": "quatro conselheiros."
-        },
-        {
-          "id": "B",
-          "text": "três conselheiros."
-        },
-        {
-          "id": "C",
-          "text": "todos os sete conselheiros."
-        },
-        {
-          "id": "D",
-          "text": "apenas o conselheiro-substituto."
-        },
-        {
-          "id": "E",
-          "text": "dois conselheiros."
-        }
+        {"id": "A", "text": "quatro conselheiros."},
+        {"id": "B", "text": "três conselheiros."},
+        {"id": "C", "text": "todos os sete conselheiros."},
+        {"id": "D", "text": "apenas o conselheiro-substituto."},
+        {"id": "E", "text": "dois conselheiros."}
       ],
       "correctOptionId": "A",
       "explanation": "A Súmula 653 fixa a divisão 4/3: quatro escolhidos pela Assembleia Legislativa e três pelo chefe do Executivo estadual. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -608,26 +308,11 @@
       "origin": "authorial",
       "prompt": "Nas três vagas de escolha do Governador para tribunal de contas estadual, a distribuição correta é",
       "options": [
-        {
-          "id": "A",
-          "text": "três livres escolhas políticas."
-        },
-        {
-          "id": "B",
-          "text": "duas livres escolhas e uma vaga de parlamentar."
-        },
-        {
-          "id": "C",
-          "text": "uma livre, uma de auditor/conselheiro-substituto e uma de membro do Ministério Público de Contas."
-        },
-        {
-          "id": "D",
-          "text": "três membros do Ministério Público comum."
-        },
-        {
-          "id": "E",
-          "text": "uma vaga livre e duas indicadas pelo Tribunal de Justiça."
-        }
+        {"id": "A", "text": "três livres escolhas políticas."},
+        {"id": "B", "text": "duas livres escolhas e uma vaga de parlamentar."},
+        {"id": "C", "text": "uma livre, uma de auditor/conselheiro-substituto e uma de membro do Ministério Público de Contas."},
+        {"id": "D", "text": "três membros do Ministério Público comum."},
+        {"id": "E", "text": "uma vaga livre e duas indicadas pelo Tribunal de Justiça."}
       ],
       "correctOptionId": "C",
       "explanation": "A simetria constitucional preserva duas vagas técnicas entre as três escolhas do Governador. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -638,26 +323,11 @@
       "origin": "authorial",
       "prompt": "A expressão 'no que couber' do art. 75 permite aos estados",
       "options": [
-        {
-          "id": "A",
-          "text": "eliminar todas as vagas técnicas dos seus tribunais de contas."
-        },
-        {
-          "id": "B",
-          "text": "adaptar o modelo federal sem violar o núcleo constitucional obrigatório."
-        },
-        {
-          "id": "C",
-          "text": "transformar conselheiros em juízes criminais."
-        },
-        {
-          "id": "D",
-          "text": "dispensar requisitos de idoneidade e conhecimentos notórios."
-        },
-        {
-          "id": "E",
-          "text": "dispensar a existência de tribunal de contas quando o controle interno estadual for considerado suficiente."
-        }
+        {"id": "A", "text": "eliminar todas as vagas técnicas dos seus tribunais de contas."},
+        {"id": "B", "text": "adaptar o modelo federal sem violar o núcleo constitucional obrigatório."},
+        {"id": "C", "text": "transformar conselheiros em juízes criminais."},
+        {"id": "D", "text": "dispensar requisitos de idoneidade e conhecimentos notórios."},
+        {"id": "E", "text": "dispensar a existência de tribunal de contas quando o controle interno estadual for considerado suficiente."}
       ],
       "correctOptionId": "B",
       "explanation": "O art. 75 admite adaptação federativa, mas preserva composição, garantias, fiscalização e vagas técnicas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -668,26 +338,11 @@
       "origin": "authorial",
       "prompt": "A autonomia estadual é incompatível com regra local que",
       "options": [
-        {
-          "id": "A",
-          "text": "respeite quatro escolhas legislativas e três do Governador."
-        },
-        {
-          "id": "B",
-          "text": "reserve vaga técnica para Ministério Público de Contas."
-        },
-        {
-          "id": "C",
-          "text": "transforme todas as vagas de conselheiro em livre escolha política."
-        },
-        {
-          "id": "D",
-          "text": "preveja conselheiros-substitutos."
-        },
-        {
-          "id": "E",
-          "text": "preveja aprovação legislativa das indicações do Governador, respeitada a repartição constitucional."
-        }
+        {"id": "A", "text": "respeite quatro escolhas legislativas e três do Governador."},
+        {"id": "B", "text": "reserve vaga técnica para Ministério Público de Contas."},
+        {"id": "C", "text": "transforme todas as vagas de conselheiro em livre escolha política."},
+        {"id": "D", "text": "preveja conselheiros-substitutos."},
+        {"id": "E", "text": "preveja aprovação legislativa das indicações do Governador, respeitada a repartição constitucional."}
       ],
       "correctOptionId": "C",
       "explanation": "A livre escolha total destruiria o núcleo de simetria, especialmente as vagas técnicas e a repartição constitucional de escolhas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -698,26 +353,11 @@
       "origin": "authorial",
       "prompt": "O Tribunal de Contas do Distrito Federal",
       "options": [
-        {
-          "id": "A",
-          "text": "é unidade descentralizada do TCU."
-        },
-        {
-          "id": "B",
-          "text": "é órgão próprio de controle externo do Distrito Federal."
-        },
-        {
-          "id": "C",
-          "text": "não possui conselheiros nem Ministério Público de Contas."
-        },
-        {
-          "id": "D",
-          "text": "exerce controle externo federal sobre todos os Estados."
-        },
-        {
-          "id": "E",
-          "text": "integra o Poder Judiciário do Distrito Federal."
-        }
+        {"id": "A", "text": "é unidade descentralizada do TCU."},
+        {"id": "B", "text": "é órgão próprio de controle externo do Distrito Federal."},
+        {"id": "C", "text": "não possui conselheiros nem Ministério Público de Contas."},
+        {"id": "D", "text": "exerce controle externo federal sobre todos os Estados."},
+        {"id": "E", "text": "integra o Poder Judiciário do Distrito Federal."}
       ],
       "correctOptionId": "B",
       "explanation": "O TCDF é tribunal próprio do Distrito Federal e não se confunde com o TCU. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -728,26 +368,11 @@
       "origin": "authorial",
       "prompt": "A existência de recursos federais aplicados no Distrito Federal pode atrair competência do TCU, mas isso",
       "options": [
-        {
-          "id": "A",
-          "text": "não torna o TCDF uma unidade do TCU."
-        },
-        {
-          "id": "B",
-          "text": "extingue automaticamente o TCDF."
-        },
-        {
-          "id": "C",
-          "text": "subordina toda gestão distrital ao Senado."
-        },
-        {
-          "id": "D",
-          "text": "impede qualquer atuação local de controle."
-        },
-        {
-          "id": "E",
-          "text": "transfere ao TCU a escolha dos conselheiros do TCDF."
-        }
+        {"id": "A", "text": "não torna o TCDF uma unidade do TCU."},
+        {"id": "B", "text": "extingue automaticamente o TCDF."},
+        {"id": "C", "text": "subordina toda gestão distrital ao Senado."},
+        {"id": "D", "text": "impede qualquer atuação local de controle."},
+        {"id": "E", "text": "transfere ao TCU a escolha dos conselheiros do TCDF."}
       ],
       "correctOptionId": "A",
       "explanation": "Competências específicas sobre recursos federais podem coexistir com o tribunal distrital próprio. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -758,26 +383,11 @@
       "origin": "authorial",
       "prompt": "No controle externo municipal, o órgão titular do julgamento político das contas anuais do prefeito é",
       "options": [
-        {
-          "id": "A",
-          "text": "a Câmara Municipal."
-        },
-        {
-          "id": "B",
-          "text": "o TCU, em qualquer Município."
-        },
-        {
-          "id": "C",
-          "text": "o Ministério Público de Contas."
-        },
-        {
-          "id": "D",
-          "text": "o Poder Judiciário local."
-        },
-        {
-          "id": "E",
-          "text": "a Assembleia Legislativa do Estado."
-        }
+        {"id": "A", "text": "a Câmara Municipal."},
+        {"id": "B", "text": "o TCU, em qualquer Município."},
+        {"id": "C", "text": "o Ministério Público de Contas."},
+        {"id": "D", "text": "o Poder Judiciário local."},
+        {"id": "E", "text": "a Assembleia Legislativa do Estado."}
       ],
       "correctOptionId": "A",
       "explanation": "A Câmara Municipal exerce controle externo municipal com auxílio do tribunal competente; o parecer prévio não substitui o julgamento parlamentar. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -788,26 +398,11 @@
       "origin": "authorial",
       "prompt": "O parecer prévio sobre as contas anuais do prefeito somente deixa de prevalecer por decisão de",
       "options": [
-        {
-          "id": "A",
-          "text": "maioria simples dos vereadores presentes."
-        },
-        {
-          "id": "B",
-          "text": "dois terços dos membros da Câmara Municipal."
-        },
-        {
-          "id": "C",
-          "text": "um terço da Assembleia Legislativa."
-        },
-        {
-          "id": "D",
-          "text": "maioria absoluta do tribunal de contas."
-        },
-        {
-          "id": "E",
-          "text": "maioria absoluta dos membros da Câmara Municipal."
-        }
+        {"id": "A", "text": "maioria simples dos vereadores presentes."},
+        {"id": "B", "text": "dois terços dos membros da Câmara Municipal."},
+        {"id": "C", "text": "um terço da Assembleia Legislativa."},
+        {"id": "D", "text": "maioria absoluta do tribunal de contas."},
+        {"id": "E", "text": "maioria absoluta dos membros da Câmara Municipal."}
       ],
       "correctOptionId": "B",
       "explanation": "A regra está no art. 31, § 2º, da Constituição. O quórum qualificado protege o peso técnico do parecer sem retirar o julgamento da Câmara. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -818,26 +413,11 @@
       "origin": "authorial",
       "prompt": "A Constituição Federal veda aos Municípios a criação de",
       "options": [
-        {
-          "id": "A",
-          "text": "sistemas de controle interno."
-        },
-        {
-          "id": "B",
-          "text": "tribunais, conselhos ou órgãos de contas municipais novos."
-        },
-        {
-          "id": "C",
-          "text": "Câmaras Municipais."
-        },
-        {
-          "id": "D",
-          "text": "ouvidorias municipais."
-        },
-        {
-          "id": "E",
-          "text": "controladorias-gerais municipais."
-        }
+        {"id": "A", "text": "sistemas de controle interno."},
+        {"id": "B", "text": "tribunais, conselhos ou órgãos de contas municipais novos."},
+        {"id": "C", "text": "Câmaras Municipais."},
+        {"id": "D", "text": "ouvidorias municipais."},
+        {"id": "E", "text": "controladorias-gerais municipais."}
       ],
       "correctOptionId": "B",
       "explanation": "O art. 31, § 4º, veda a criação de tribunais, conselhos ou órgãos de contas municipais. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -848,26 +428,11 @@
       "origin": "authorial",
       "prompt": "Tribunal de Contas dos Municípios designa, em regra,",
       "options": [
-        {
-          "id": "A",
-          "text": "órgão estadual especializado no controle dos Municípios."
-        },
-        {
-          "id": "B",
-          "text": "órgão de cada Município criado livremente por lei local."
-        },
-        {
-          "id": "C",
-          "text": "câmara do Tribunal Superior Eleitoral."
-        },
-        {
-          "id": "D",
-          "text": "unidade obrigatória do Ministério Público comum."
-        },
-        {
-          "id": "E",
-          "text": "órgão federal destinado exclusivamente a fiscalizar transferências voluntárias aos Municípios."
-        }
+        {"id": "A", "text": "órgão estadual especializado no controle dos Municípios."},
+        {"id": "B", "text": "órgão de cada Município criado livremente por lei local."},
+        {"id": "C", "text": "câmara do Tribunal Superior Eleitoral."},
+        {"id": "D", "text": "unidade obrigatória do Ministério Público comum."},
+        {"id": "E", "text": "órgão federal destinado exclusivamente a fiscalizar transferências voluntárias aos Municípios."}
       ],
       "correctOptionId": "A",
       "explanation": "Tribunal de Contas dos Municípios é normalmente órgão estadual especializado. Não se confunde com Tribunal de Contas do Município. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -878,26 +443,11 @@
       "origin": "authorial",
       "prompt": "Tribunal de Contas do Município é expressão que se refere",
       "options": [
-        {
-          "id": "A",
-          "text": "a órgão municipal específico existente onde já havia previsão histórica."
-        },
-        {
-          "id": "B",
-          "text": "a todo TCE que fiscaliza Municípios."
-        },
-        {
-          "id": "C",
-          "text": "ao TCU quando analisa recursos municipais."
-        },
-        {
-          "id": "D",
-          "text": "ao Ministério Público de Contas estadual."
-        },
-        {
-          "id": "E",
-          "text": "a órgão estadual especializado no controle do conjunto dos Municípios."
-        }
+        {"id": "A", "text": "a órgão municipal específico existente onde já havia previsão histórica."},
+        {"id": "B", "text": "a todo TCE que fiscaliza Municípios."},
+        {"id": "C", "text": "ao TCU quando analisa recursos municipais."},
+        {"id": "D", "text": "ao Ministério Público de Contas estadual."},
+        {"id": "E", "text": "a órgão estadual especializado no controle do conjunto dos Municípios."}
       ],
       "correctOptionId": "A",
       "explanation": "A expressão no singular indica órgão do próprio Município, distinto de Tribunal de Contas dos Municípios, que é órgão estadual especializado. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -908,26 +458,11 @@
       "origin": "authorial",
       "prompt": "Na Constituição do Maranhão, o controle externo estadual é exercido pela Assembleia Legislativa com auxílio do",
       "options": [
-        {
-          "id": "A",
-          "text": "Tribunal de Contas do Estado do Maranhão."
-        },
-        {
-          "id": "B",
-          "text": "Tribunal de Contas da União exclusivamente."
-        },
-        {
-          "id": "C",
-          "text": "Tribunal de Justiça do Maranhão."
-        },
-        {
-          "id": "D",
-          "text": "Ministério Público Eleitoral."
-        },
-        {
-          "id": "E",
-          "text": "Controladoria-Geral do Estado."
-        }
+        {"id": "A", "text": "Tribunal de Contas do Estado do Maranhão."},
+        {"id": "B", "text": "Tribunal de Contas da União exclusivamente."},
+        {"id": "C", "text": "Tribunal de Justiça do Maranhão."},
+        {"id": "D", "text": "Ministério Público Eleitoral."},
+        {"id": "E", "text": "Controladoria-Geral do Estado."}
       ],
       "correctOptionId": "A",
       "explanation": "O TCE/MA é o órgão constitucional que auxilia a Assembleia Legislativa no controle externo estadual. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -938,26 +473,11 @@
       "origin": "authorial",
       "prompt": "O TCE/MA auxilia, no controle externo municipal,",
       "options": [
-        {
-          "id": "A",
-          "text": "as Câmaras Municipais maranhenses."
-        },
-        {
-          "id": "B",
-          "text": "o Senado Federal."
-        },
-        {
-          "id": "C",
-          "text": "o Supremo Tribunal Federal."
-        },
-        {
-          "id": "D",
-          "text": "apenas o Governador do Estado."
-        },
-        {
-          "id": "E",
-          "text": "o Governador do Estado, em substituição às Câmaras Municipais."
-        }
+        {"id": "A", "text": "as Câmaras Municipais maranhenses."},
+        {"id": "B", "text": "o Senado Federal."},
+        {"id": "C", "text": "o Supremo Tribunal Federal."},
+        {"id": "D", "text": "apenas o Governador do Estado."},
+        {"id": "E", "text": "o Governador do Estado, em substituição às Câmaras Municipais."}
       ],
       "correctOptionId": "A",
       "explanation": "No âmbito municipal, a Câmara Municipal é titular do controle externo e recebe auxílio do tribunal competente, no Maranhão o TCE/MA. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -968,26 +488,11 @@
       "origin": "authorial",
       "prompt": "O TCE/MA é composto por",
       "options": [
-        {
-          "id": "A",
-          "text": "nove ministros."
-        },
-        {
-          "id": "B",
-          "text": "sete conselheiros."
-        },
-        {
-          "id": "C",
-          "text": "três desembargadores."
-        },
-        {
-          "id": "D",
-          "text": "cinco procuradores."
-        },
-        {
-          "id": "E",
-          "text": "cinco conselheiros e dois ministros-substitutos."
-        }
+        {"id": "A", "text": "nove ministros."},
+        {"id": "B", "text": "sete conselheiros."},
+        {"id": "C", "text": "três desembargadores."},
+        {"id": "D", "text": "cinco procuradores."},
+        {"id": "E", "text": "cinco conselheiros e dois ministros-substitutos."}
       ],
       "correctOptionId": "B",
       "explanation": "A composição do TCE/MA segue a lógica dos tribunais estaduais: sete conselheiros. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -998,26 +503,11 @@
       "origin": "authorial",
       "prompt": "Na composição do TCE/MA, a Assembleia Legislativa escolhe",
       "options": [
-        {
-          "id": "A",
-          "text": "quatro conselheiros."
-        },
-        {
-          "id": "B",
-          "text": "três conselheiros."
-        },
-        {
-          "id": "C",
-          "text": "todos os conselheiros."
-        },
-        {
-          "id": "D",
-          "text": "apenas os conselheiros-substitutos."
-        },
-        {
-          "id": "E",
-          "text": "um conselheiro, ficando as outras seis escolhas com o Governador."
-        }
+        {"id": "A", "text": "quatro conselheiros."},
+        {"id": "B", "text": "três conselheiros."},
+        {"id": "C", "text": "todos os conselheiros."},
+        {"id": "D", "text": "apenas os conselheiros-substitutos."},
+        {"id": "E", "text": "um conselheiro, ficando as outras seis escolhas com o Governador."}
       ],
       "correctOptionId": "A",
       "explanation": "A repartição simétrica é de quatro escolhas legislativas e três pelo Governador. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1028,26 +518,11 @@
       "origin": "authorial",
       "prompt": "Nas três vagas do Governador para o TCE/MA, uma deve ser destinada a membro do",
       "options": [
-        {
-          "id": "A",
-          "text": "Ministério Público junto ao Tribunal de Contas."
-        },
-        {
-          "id": "B",
-          "text": "Ministério Público Eleitoral obrigatoriamente."
-        },
-        {
-          "id": "C",
-          "text": "Tribunal de Justiça Federal."
-        },
-        {
-          "id": "D",
-          "text": "Congresso Nacional."
-        },
-        {
-          "id": "E",
-          "text": "Ministério Público Federal."
-        }
+        {"id": "A", "text": "Ministério Público junto ao Tribunal de Contas."},
+        {"id": "B", "text": "Ministério Público Eleitoral obrigatoriamente."},
+        {"id": "C", "text": "Tribunal de Justiça Federal."},
+        {"id": "D", "text": "Congresso Nacional."},
+        {"id": "E", "text": "Ministério Público Federal."}
       ],
       "correctOptionId": "A",
       "explanation": "A simetria exige vaga técnica oriunda do Ministério Público de Contas, isto é, do Ministério Público junto ao Tribunal. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1058,26 +533,11 @@
       "origin": "authorial",
       "prompt": "Outra vaga técnica entre as escolhas do Governador para o TCE/MA deve ser reservada a",
       "options": [
-        {
-          "id": "A",
-          "text": "auditor/conselheiro-substituto."
-        },
-        {
-          "id": "B",
-          "text": "vereador da capital."
-        },
-        {
-          "id": "C",
-          "text": "membro do Senado."
-        },
-        {
-          "id": "D",
-          "text": "servidor comissionado de livre escolha."
-        },
-        {
-          "id": "E",
-          "text": "membro do Tribunal de Justiça."
-        }
+        {"id": "A", "text": "auditor/conselheiro-substituto."},
+        {"id": "B", "text": "vereador da capital."},
+        {"id": "C", "text": "membro do Senado."},
+        {"id": "D", "text": "servidor comissionado de livre escolha."},
+        {"id": "E", "text": "membro do Tribunal de Justiça."}
       ],
       "correctOptionId": "A",
       "explanation": "A composição simétrica reserva uma vaga a auditor ou conselheiro-substituto. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1088,26 +548,11 @@
       "origin": "authorial",
       "prompt": "Segundo a Constituição do Maranhão, após a EC estadual nº 96/2024, a escolha de membro do TCE/MA submetida à Assembleia Legislativa",
       "options": [
-        {
-          "id": "A",
-          "text": "ocorre sem arguição pública e por votação aberta."
-        },
-        {
-          "id": "B",
-          "text": "é feita por eleição popular direta, após registro de candidatura."
-        },
-        {
-          "id": "C",
-          "text": "é precedida de arguição pública e aprovação prévia por voto secreto."
-        },
-        {
-          "id": "D",
-          "text": "compete ao Tribunal de Justiça, cabendo à Assembleia apenas dar posse."
-        },
-        {
-          "id": "E",
-          "text": "dispensa os requisitos constitucionais de idade, idoneidade, conhecimento e experiência."
-        }
+        {"id": "A", "text": "ocorre sem arguição pública e por votação aberta."},
+        {"id": "B", "text": "é feita por eleição popular direta, após registro de candidatura."},
+        {"id": "C", "text": "é precedida de arguição pública e aprovação prévia por voto secreto."},
+        {"id": "D", "text": "compete ao Tribunal de Justiça, cabendo à Assembleia apenas dar posse."},
+        {"id": "E", "text": "dispensa os requisitos constitucionais de idade, idoneidade, conhecimento e experiência."}
       ],
       "correctOptionId": "C",
       "explanation": "A EC estadual nº 96/2024 alterou a Constituição maranhense para prever arguição pública e aprovação prévia, por voto secreto, na escolha dos membros do TCE/MA. Permanecem os requisitos constitucionais aplicáveis ao cargo."
@@ -1118,26 +563,11 @@
       "origin": "authorial",
       "prompt": "Entre os requisitos para conselheiro do TCE/MA está",
       "options": [
-        {
-          "id": "A",
-          "text": "mais de 35 e menos de 70 anos, idoneidade, reputação ilibada e conhecimentos notórios."
-        },
-        {
-          "id": "B",
-          "text": "apenas residência no Município fiscalizado."
-        },
-        {
-          "id": "C",
-          "text": "idade mínima de 18 anos sem outros requisitos."
-        },
-        {
-          "id": "D",
-          "text": "exclusivamente aprovação em eleição popular."
-        },
-        {
-          "id": "E",
-          "text": "mais de 40 e menos de 75 anos e formação obrigatória em Direito."
-        }
+        {"id": "A", "text": "mais de 35 e menos de 70 anos, idoneidade, reputação ilibada e conhecimentos notórios."},
+        {"id": "B", "text": "apenas residência no Município fiscalizado."},
+        {"id": "C", "text": "idade mínima de 18 anos sem outros requisitos."},
+        {"id": "D", "text": "exclusivamente aprovação em eleição popular."},
+        {"id": "E", "text": "mais de 40 e menos de 75 anos e formação obrigatória em Direito."}
       ],
       "correctOptionId": "A",
       "explanation": "Os requisitos acompanham o modelo constitucional: idade, idoneidade, reputação, conhecimentos notórios e experiência superior a dez anos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1148,26 +578,11 @@
       "origin": "authorial",
       "prompt": "Os conselheiros do TCE/MA têm garantias, prerrogativas, impedimentos, vencimentos e vantagens equivalentes aos",
       "options": [
-        {
-          "id": "A",
-          "text": "desembargadores do Tribunal de Justiça do Maranhão."
-        },
-        {
-          "id": "B",
-          "text": "ministros do Supremo Tribunal Federal."
-        },
-        {
-          "id": "C",
-          "text": "vereadores dos Municípios fiscalizados."
-        },
-        {
-          "id": "D",
-          "text": "auditores fiscais estaduais."
-        },
-        {
-          "id": "E",
-          "text": "ministros do Superior Tribunal de Justiça."
-        }
+        {"id": "A", "text": "desembargadores do Tribunal de Justiça do Maranhão."},
+        {"id": "B", "text": "ministros do Supremo Tribunal Federal."},
+        {"id": "C", "text": "vereadores dos Municípios fiscalizados."},
+        {"id": "D", "text": "auditores fiscais estaduais."},
+        {"id": "E", "text": "ministros do Superior Tribunal de Justiça."}
       ],
       "correctOptionId": "A",
       "explanation": "A equiparação estadual é com desembargadores do TJ/MA, sem transformar o TCE/MA em órgão judicial. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1178,26 +593,11 @@
       "origin": "authorial",
       "prompt": "Os conselheiros-substitutos do TCE/MA são investidos por",
       "options": [
-        {
-          "id": "A",
-          "text": "nomeação após concurso público de provas e títulos, observada a classificação."
-        },
-        {
-          "id": "B",
-          "text": "eleição municipal direta."
-        },
-        {
-          "id": "C",
-          "text": "livre escolha das Câmaras Municipais."
-        },
-        {
-          "id": "D",
-          "text": "indicação obrigatória do TCU."
-        },
-        {
-          "id": "E",
-          "text": "livre nomeação do Governador, independentemente de concurso público."
-        }
+        {"id": "A", "text": "nomeação após concurso público de provas e títulos, observada a classificação."},
+        {"id": "B", "text": "eleição municipal direta."},
+        {"id": "C", "text": "livre escolha das Câmaras Municipais."},
+        {"id": "D", "text": "indicação obrigatória do TCU."},
+        {"id": "E", "text": "livre nomeação do Governador, independentemente de concurso público."}
       ],
       "correctOptionId": "A",
       "explanation": "A página oficial informa três conselheiros-substitutos nomeados pelo Governador, observada classificação em concurso público de provas e títulos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1208,26 +608,11 @@
       "origin": "authorial",
       "prompt": "Quando substituem conselheiro, os conselheiros-substitutos do TCE/MA possuem",
       "options": [
-        {
-          "id": "A",
-          "text": "as mesmas garantias e impedimentos do titular."
-        },
-        {
-          "id": "B",
-          "text": "apenas poderes consultivos informais."
-        },
-        {
-          "id": "C",
-          "text": "competência criminal judicial."
-        },
-        {
-          "id": "D",
-          "text": "mandato parlamentar temporário."
-        },
-        {
-          "id": "E",
-          "text": "as garantias de ministro do Supremo Tribunal Federal."
-        }
+        {"id": "A", "text": "as mesmas garantias e impedimentos do titular."},
+        {"id": "B", "text": "apenas poderes consultivos informais."},
+        {"id": "C", "text": "competência criminal judicial."},
+        {"id": "D", "text": "mandato parlamentar temporário."},
+        {"id": "E", "text": "as garantias de ministro do Supremo Tribunal Federal."}
       ],
       "correctOptionId": "A",
       "explanation": "Em substituição, possuem garantias e impedimentos do titular; nas demais atribuições, garantias de juiz de Direito de última entrância. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1238,26 +623,11 @@
       "origin": "authorial",
       "prompt": "Os procuradores de contas do TCE/MA integram",
       "options": [
-        {
-          "id": "A",
-          "text": "o Ministério Público junto ao Tribunal de Contas do Estado."
-        },
-        {
-          "id": "B",
-          "text": "o Plenário da Assembleia Legislativa como deputados."
-        },
-        {
-          "id": "C",
-          "text": "o Poder Judiciário como desembargadores."
-        },
-        {
-          "id": "D",
-          "text": "a carreira de ministros-substitutos do TCU."
-        },
-        {
-          "id": "E",
-          "text": "o Ministério Público Estadual, na carreira comum de promotor de justiça."
-        }
+        {"id": "A", "text": "o Ministério Público junto ao Tribunal de Contas do Estado."},
+        {"id": "B", "text": "o Plenário da Assembleia Legislativa como deputados."},
+        {"id": "C", "text": "o Poder Judiciário como desembargadores."},
+        {"id": "D", "text": "a carreira de ministros-substitutos do TCU."},
+        {"id": "E", "text": "o Ministério Público Estadual, na carreira comum de promotor de justiça."}
       ],
       "correctOptionId": "A",
       "explanation": "Os procuradores de contas atuam no Ministério Público junto ao TCE/MA, com regime próprio e seleção por concurso, conforme fonte institucional. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1268,26 +638,11 @@
       "origin": "authorial",
       "prompt": "Aos procuradores de contas do TCE/MA, a fonte institucional registra aplicação subsidiária, no que couber, de regras do",
       "options": [
-        {
-          "id": "A",
-          "text": "Ministério Público Estadual quanto a direitos, garantias, prerrogativas, vedações, regime disciplinar e investidura."
-        },
-        {
-          "id": "B",
-          "text": "regime de vereadores municipais."
-        },
-        {
-          "id": "C",
-          "text": "Código Eleitoral para juízes eleitorais."
-        },
-        {
-          "id": "D",
-          "text": "estatuto de parlamentares federais."
-        },
-        {
-          "id": "E",
-          "text": "Tribunal de Justiça do Maranhão quanto ao regime disciplinar e à investidura."
-        }
+        {"id": "A", "text": "Ministério Público Estadual quanto a direitos, garantias, prerrogativas, vedações, regime disciplinar e investidura."},
+        {"id": "B", "text": "regime de vereadores municipais."},
+        {"id": "C", "text": "Código Eleitoral para juízes eleitorais."},
+        {"id": "D", "text": "estatuto de parlamentares federais."},
+        {"id": "E", "text": "Tribunal de Justiça do Maranhão quanto ao regime disciplinar e à investidura."}
       ],
       "correctOptionId": "A",
       "explanation": "A página de Procuradores de Contas informa a aplicação subsidiária das regras do Ministério Público Estadual nos aspectos indicados. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1298,26 +653,11 @@
       "origin": "authorial",
       "prompt": "No TCE/MA, apreciar as contas anuais do Governador significa",
       "options": [
-        {
-          "id": "A",
-          "text": "emitir parecer prévio para subsidiar julgamento político pela Assembleia Legislativa."
-        },
-        {
-          "id": "B",
-          "text": "julgar criminalmente o Governador."
-        },
-        {
-          "id": "C",
-          "text": "substituir definitivamente a Assembleia em todo julgamento político."
-        },
-        {
-          "id": "D",
-          "text": "promulgar a lei orçamentária."
-        },
-        {
-          "id": "E",
-          "text": "julgar definitivamente essas contas, sem participação da Assembleia Legislativa."
-        }
+        {"id": "A", "text": "emitir parecer prévio para subsidiar julgamento político pela Assembleia Legislativa."},
+        {"id": "B", "text": "julgar criminalmente o Governador."},
+        {"id": "C", "text": "substituir definitivamente a Assembleia em todo julgamento político."},
+        {"id": "D", "text": "promulgar a lei orçamentária."},
+        {"id": "E", "text": "julgar definitivamente essas contas, sem participação da Assembleia Legislativa."}
       ],
       "correctOptionId": "A",
       "explanation": "A competência de apreciar contas anuais do chefe do Executivo mediante parecer prévio não se confunde com julgamento político pelo Legislativo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1328,26 +668,11 @@
       "origin": "authorial",
       "prompt": "Quanto às contas anuais dos Prefeitos no Maranhão, o TCE/MA",
       "options": [
-        {
-          "id": "A",
-          "text": "emite parecer prévio, cabendo à Câmara Municipal o julgamento."
-        },
-        {
-          "id": "B",
-          "text": "julga politicamente em lugar da Câmara Municipal em todos os casos."
-        },
-        {
-          "id": "C",
-          "text": "não atua, pois Municípios não prestam contas."
-        },
-        {
-          "id": "D",
-          "text": "encaminha diretamente ao Senado Federal."
-        },
-        {
-          "id": "E",
-          "text": "julga diretamente as contas, cabendo à Câmara apenas homologar sua decisão."
-        }
+        {"id": "A", "text": "emite parecer prévio, cabendo à Câmara Municipal o julgamento."},
+        {"id": "B", "text": "julga politicamente em lugar da Câmara Municipal em todos os casos."},
+        {"id": "C", "text": "não atua, pois Municípios não prestam contas."},
+        {"id": "D", "text": "encaminha diretamente ao Senado Federal."},
+        {"id": "E", "text": "julga diretamente as contas, cabendo à Câmara apenas homologar sua decisão."}
       ],
       "correctOptionId": "A",
       "explanation": "O TCE/MA auxilia as Câmaras Municipais, emitindo parecer prévio sobre contas anuais de prefeitos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1358,26 +683,11 @@
       "origin": "authorial",
       "prompt": "Segundo a página de competências do TCE/MA, o Tribunal julga as contas anuais prestadas pelo",
       "options": [
-        {
-          "id": "A",
-          "text": "Presidente das Câmaras Municipais."
-        },
-        {
-          "id": "B",
-          "text": "Presidente da República."
-        },
-        {
-          "id": "C",
-          "text": "Governador em substituição à Assembleia."
-        },
-        {
-          "id": "D",
-          "text": "Supremo Tribunal Federal."
-        },
-        {
-          "id": "E",
-          "text": "Prefeito municipal, em lugar do julgamento pela Câmara."
-        }
+        {"id": "A", "text": "Presidente das Câmaras Municipais."},
+        {"id": "B", "text": "Presidente da República."},
+        {"id": "C", "text": "Governador em substituição à Assembleia."},
+        {"id": "D", "text": "Supremo Tribunal Federal."},
+        {"id": "E", "text": "Prefeito municipal, em lugar do julgamento pela Câmara."}
       ],
       "correctOptionId": "A",
       "explanation": "A fonte institucional lista o julgamento das contas anuais dos Presidentes das Câmaras Municipais, com fundamento na Constituição estadual e na Lei Orgânica local. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1388,26 +698,11 @@
       "origin": "authorial",
       "prompt": "A competência de apreciar, para fins de registro, atos de pessoal no âmbito estadual e municipal maranhense alcança",
       "options": [
-        {
-          "id": "A",
-          "text": "admissões e concessões iniciais de aposentadoria, reforma e pensão, ressalvadas nomeações para cargo em comissão e melhorias sem alteração do fundamento legal."
-        },
-        {
-          "id": "B",
-          "text": "toda nomeação para cargo em comissão, sem exceção."
-        },
-        {
-          "id": "C",
-          "text": "somente atos de servidores federais do TCU."
-        },
-        {
-          "id": "D",
-          "text": "qualquer melhoria posterior, mesmo sem alteração do fundamento legal."
-        },
-        {
-          "id": "E",
-          "text": "nomeações para cargo em comissão, mas não concessões de aposentadoria."
-        }
+        {"id": "A", "text": "admissões e concessões iniciais de aposentadoria, reforma e pensão, ressalvadas nomeações para cargo em comissão e melhorias sem alteração do fundamento legal."},
+        {"id": "B", "text": "toda nomeação para cargo em comissão, sem exceção."},
+        {"id": "C", "text": "somente atos de servidores federais do TCU."},
+        {"id": "D", "text": "qualquer melhoria posterior, mesmo sem alteração do fundamento legal."},
+        {"id": "E", "text": "nomeações para cargo em comissão, mas não concessões de aposentadoria."}
       ],
       "correctOptionId": "A",
       "explanation": "A competência de registro segue a matriz constitucional: admite controle de admissões e concessões iniciais, com exceção de cargo em comissão e ressalva para melhorias posteriores que não alterem o fundamento legal. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1418,26 +713,11 @@
       "origin": "authorial",
       "prompt": "Auditorias, inspeções e acompanhamentos realizados pelo TCE/MA podem alcançar natureza",
       "options": [
-        {
-          "id": "A",
-          "text": "contábil, financeira, orçamentária, operacional ou patrimonial."
-        },
-        {
-          "id": "B",
-          "text": "apenas eleitoral."
-        },
-        {
-          "id": "C",
-          "text": "exclusivamente penal."
-        },
-        {
-          "id": "D",
-          "text": "somente cartorial, sem análise de gestão."
-        },
-        {
-          "id": "E",
-          "text": "somente financeira e orçamentária, excluídas as dimensões operacional e patrimonial."
-        }
+        {"id": "A", "text": "contábil, financeira, orçamentária, operacional ou patrimonial."},
+        {"id": "B", "text": "apenas eleitoral."},
+        {"id": "C", "text": "exclusivamente penal."},
+        {"id": "D", "text": "somente cartorial, sem análise de gestão."},
+        {"id": "E", "text": "somente financeira e orçamentária, excluídas as dimensões operacional e patrimonial."}
       ],
       "correctOptionId": "A",
       "explanation": "A competência institucional do TCE/MA usa as dimensões constitucionais da fiscalização: contábil, financeira, orçamentária, operacional e patrimonial. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1448,26 +728,11 @@
       "origin": "authorial",
       "prompt": "No âmbito do TCE/MA, fiscalizar quotas-partes municipais relaciona-se a",
       "options": [
-        {
-          "id": "A",
-          "text": "cálculo, entrega, distribuição e aplicação de recursos devidos aos Municípios, conforme regras locais."
-        },
-        {
-          "id": "B",
-          "text": "escolha de ministros do TCU."
-        },
-        {
-          "id": "C",
-          "text": "julgamento de contas presidenciais."
-        },
-        {
-          "id": "D",
-          "text": "criação de tribunal municipal novo."
-        },
-        {
-          "id": "E",
-          "text": "fixação da remuneração dos vereadores."
-        }
+        {"id": "A", "text": "cálculo, entrega, distribuição e aplicação de recursos devidos aos Municípios, conforme regras locais."},
+        {"id": "B", "text": "escolha de ministros do TCU."},
+        {"id": "C", "text": "julgamento de contas presidenciais."},
+        {"id": "D", "text": "criação de tribunal municipal novo."},
+        {"id": "E", "text": "fixação da remuneração dos vereadores."}
       ],
       "correctOptionId": "A",
       "explanation": "A página de competências do TCE/MA menciona fiscalização de quotas-partes e recursos repassados aos Municípios. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1478,26 +743,11 @@
       "origin": "authorial",
       "prompt": "Segundo o STF no julgamento da ADI 4.124, um Tribunal de Contas dos Municípios instituído pelo Estado",
       "options": [
-        {
-          "id": "A",
-          "text": "é órgão pertencente a cada Município fiscalizado e subordinado às respectivas Câmaras."
-        },
-        {
-          "id": "B",
-          "text": "é órgão estadual de contas, cuja autonomia é incompatível com regra que entregue à Assembleia Legislativa o julgamento de suas próprias contas."
-        },
-        {
-          "id": "C",
-          "text": "é unidade descentralizada do TCU e presta contas diretamente ao Congresso Nacional."
-        },
-        {
-          "id": "D",
-          "text": "pode ser criado por lei de qualquer Município, desde que haja autorização estadual."
-        },
-        {
-          "id": "E",
-          "text": "integra o Poder Judiciário estadual para fins de controle financeiro."
-        }
+        {"id": "A", "text": "é órgão pertencente a cada Município fiscalizado e subordinado às respectivas Câmaras."},
+        {"id": "B", "text": "é órgão estadual de contas, cuja autonomia é incompatível com regra que entregue à Assembleia Legislativa o julgamento de suas próprias contas."},
+        {"id": "C", "text": "é unidade descentralizada do TCU e presta contas diretamente ao Congresso Nacional."},
+        {"id": "D", "text": "pode ser criado por lei de qualquer Município, desde que haja autorização estadual."},
+        {"id": "E", "text": "integra o Poder Judiciário estadual para fins de controle financeiro."}
       ],
       "correctOptionId": "B",
       "explanation": "Na ADI 4.124, julgada em 16/12/2025 e publicada em 26/01/2026, o STF afastou regra baiana que atribuía à Assembleia Legislativa o julgamento das contas do Tribunal de Contas dos Municípios. A decisão reforça sua natureza de órgão estadual de contas e sua autonomia dentro do modelo constitucional de controle externo."
@@ -1508,26 +758,11 @@
       "origin": "authorial",
       "prompt": "Se o TCE/MA assina prazo para que órgão adote providências necessárias ao exato cumprimento da lei, essa atuação está ligada à função",
       "options": [
-        {
-          "id": "A",
-          "text": "corretiva do controle externo."
-        },
-        {
-          "id": "B",
-          "text": "eleitoral partidária."
-        },
-        {
-          "id": "C",
-          "text": "legislativa de criar leis ordinárias."
-        },
-        {
-          "id": "D",
-          "text": "judicial de decretar prisão civil."
-        },
-        {
-          "id": "E",
-          "text": "legislativa, pois equivale à edição de lei pelo próprio Tribunal."
-        }
+        {"id": "A", "text": "corretiva do controle externo."},
+        {"id": "B", "text": "eleitoral partidária."},
+        {"id": "C", "text": "legislativa de criar leis ordinárias."},
+        {"id": "D", "text": "judicial de decretar prisão civil."},
+        {"id": "E", "text": "legislativa, pois equivale à edição de lei pelo próprio Tribunal."}
       ],
       "correctOptionId": "A",
       "explanation": "Assinar prazo para cumprimento da lei é instrumento corretivo típico, relacionado à legalidade e à efetividade das decisões de controle. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1538,26 +773,11 @@
       "origin": "authorial",
       "prompt": "A possibilidade de o TCE/MA sustar a execução de ato impugnado não atendido deve ser compreendida como",
       "options": [
-        {
-          "id": "A",
-          "text": "competência de controle externo prevista em seu regime constitucional e legal."
-        },
-        {
-          "id": "B",
-          "text": "poder de revogar leis por conveniência."
-        },
-        {
-          "id": "C",
-          "text": "exercício de jurisdição penal."
-        },
-        {
-          "id": "D",
-          "text": "subordinação direta ao TCU."
-        },
-        {
-          "id": "E",
-          "text": "jurisdicional, permitindo ao Tribunal rescindir contratos por sentença."
-        }
+        {"id": "A", "text": "competência de controle externo prevista em seu regime constitucional e legal."},
+        {"id": "B", "text": "poder de revogar leis por conveniência."},
+        {"id": "C", "text": "exercício de jurisdição penal."},
+        {"id": "D", "text": "subordinação direta ao TCU."},
+        {"id": "E", "text": "jurisdicional, permitindo ao Tribunal rescindir contratos por sentença."}
       ],
       "correctOptionId": "A",
       "explanation": "A sustação de ato impugnado é instrumento de controle externo; não é revogação legislativa, jurisdição penal ou subordinação federal. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1568,26 +788,11 @@
       "origin": "authorial",
       "prompt": "Uma questão afirma que o TCE/MA é órgão subordinado à Assembleia Legislativa porque a auxilia. Essa afirmação é",
       "options": [
-        {
-          "id": "A",
-          "text": "incorreta, pois auxílio não significa subordinação hierárquica."
-        },
-        {
-          "id": "B",
-          "text": "correta, pois todo órgão auxiliar é departamento interno."
-        },
-        {
-          "id": "C",
-          "text": "correta apenas em processos municipais."
-        },
-        {
-          "id": "D",
-          "text": "incorreta somente porque o TCE/MA é órgão federal."
-        },
-        {
-          "id": "E",
-          "text": "correta, pois a Assembleia pode rever qualquer decisão do TCE/MA."
-        }
+        {"id": "A", "text": "incorreta, pois auxílio não significa subordinação hierárquica."},
+        {"id": "B", "text": "correta, pois todo órgão auxiliar é departamento interno."},
+        {"id": "C", "text": "correta apenas em processos municipais."},
+        {"id": "D", "text": "incorreta somente porque o TCE/MA é órgão federal."},
+        {"id": "E", "text": "correta, pois a Assembleia pode rever qualquer decisão do TCE/MA."}
       ],
       "correctOptionId": "A",
       "explanation": "O mesmo raciocínio aplicado ao TCU vale para o TCE/MA: auxiliar o Legislativo no controle externo não cria hierarquia administrativa. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1598,26 +803,11 @@
       "origin": "authorial",
       "prompt": "Afirmar que conselheiros do TCE/MA possuem garantias de desembargadores significa que eles",
       "options": [
-        {
-          "id": "A",
-          "text": "passam a integrar o Tribunal de Justiça."
-        },
-        {
-          "id": "B",
-          "text": "possuem equiparação institucional de garantias, sem se tornarem membros do Judiciário."
-        },
-        {
-          "id": "C",
-          "text": "podem julgar ações penais comuns."
-        },
-        {
-          "id": "D",
-          "text": "não se submetem a nenhum impedimento."
-        },
-        {
-          "id": "E",
-          "text": "integram órgão especial do Tribunal de Justiça quando julgam contas."
-        }
+        {"id": "A", "text": "passam a integrar o Tribunal de Justiça."},
+        {"id": "B", "text": "possuem equiparação institucional de garantias, sem se tornarem membros do Judiciário."},
+        {"id": "C", "text": "podem julgar ações penais comuns."},
+        {"id": "D", "text": "não se submetem a nenhum impedimento."},
+        {"id": "E", "text": "integram órgão especial do Tribunal de Justiça quando julgam contas."}
       ],
       "correctOptionId": "B",
       "explanation": "A equiparação protege independência e prerrogativas, mas não altera a natureza constitucional do Tribunal de Contas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1628,26 +818,11 @@
       "origin": "previous_exam",
       "prompt": "Sobre a composição dos tribunais de contas estaduais, assinale a opção correta.",
       "options": [
-        {
-          "id": "A",
-          "text": "Aplica-se a regra do quinto constitucional, reservando-se um quinto das vagas a advogados e membros do Ministério Público comum."
-        },
-        {
-          "id": "B",
-          "text": "Os sete conselheiros são escolhidos integralmente pela Assembleia Legislativa."
-        },
-        {
-          "id": "C",
-          "text": "Dos sete conselheiros, quatro são escolhidos pelo Governador e três pela Assembleia Legislativa."
-        },
-        {
-          "id": "D",
-          "text": "São sete conselheiros: quatro escolhidos pela Assembleia Legislativa e três pelo Governador, sendo, entre as vagas do Executivo, uma de auditor, uma de membro do Ministério Público de Contas e uma de livre escolha; essa repartição não é a regra do quinto constitucional."
-        },
-        {
-          "id": "E",
-          "text": "São nove conselheiros, reproduzindo-se integralmente a composição numérica do TCU."
-        }
+        {"id": "A", "text": "Aplica-se a regra do quinto constitucional, reservando-se um quinto das vagas a advogados e membros do Ministério Público comum."},
+        {"id": "B", "text": "Os sete conselheiros são escolhidos integralmente pela Assembleia Legislativa."},
+        {"id": "C", "text": "Dos sete conselheiros, quatro são escolhidos pelo Governador e três pela Assembleia Legislativa."},
+        {"id": "D", "text": "São sete conselheiros: quatro escolhidos pela Assembleia Legislativa e três pelo Governador, sendo, entre as vagas do Executivo, uma de auditor, uma de membro do Ministério Público de Contas e uma de livre escolha; essa repartição não é a regra do quinto constitucional."},
+        {"id": "E", "text": "São nove conselheiros, reproduzindo-se integralmente a composição numérica do TCU."}
       ],
       "correctOptionId": "D",
       "explanation": "A composição é de sete conselheiros, com repartição 4/3 conforme o art. 75 da Constituição e a Súmula 653 do STF. A expressão “quinto constitucional” é inadequada aqui. Adaptação do item 62 da prova CESPE/Cebraspe — TCE/PE 2017, Cargo 1: Auditor de Controle Externo — Área Auditoria de Contas Públicas, aplicada em 17/09/2017, caderno 332_TCEPE_001_01. No item original, a banca afirmou que se deveria observar a regra do quinto constitucional e, em seguida, descreveu a repartição 4/3; o gabarito oficial definitivo foi E (errado)."
@@ -1658,26 +833,11 @@
       "origin": "authorial",
       "prompt": "O método mais seguro para responder questão sobre composição de tribunal de contas é primeiro identificar",
       "options": [
-        {
-          "id": "A",
-          "text": "se o órgão é TCU, TCE, TCDF ou órgão municipal de contas."
-        },
-        {
-          "id": "B",
-          "text": "a preferência política do examinador."
-        },
-        {
-          "id": "C",
-          "text": "apenas o valor do contrato fiscalizado."
-        },
-        {
-          "id": "D",
-          "text": "se há auditoria operacional no caso concreto."
-        },
-        {
-          "id": "E",
-          "text": "se o processo de controle tramita em meio eletrônico ou físico."
-        }
+        {"id": "A", "text": "se o órgão é TCU, TCE, TCDF ou órgão municipal de contas."},
+        {"id": "B", "text": "a preferência política do examinador."},
+        {"id": "C", "text": "apenas o valor do contrato fiscalizado."},
+        {"id": "D", "text": "se há auditoria operacional no caso concreto."},
+        {"id": "E", "text": "se o processo de controle tramita em meio eletrônico ou físico."}
       ],
       "correctOptionId": "A",
       "explanation": "A composição varia: TCU tem nove ministros; TCEs e TCDF possuem sete conselheiros. Identificar o órgão evita troca de regras. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1688,26 +848,11 @@
       "origin": "authorial",
       "prompt": "Em questão sobre vaga técnica em tribunal de contas estadual, é incorreto afirmar que ela pode ser preenchida por",
       "options": [
-        {
-          "id": "A",
-          "text": "auditor/conselheiro-substituto, conforme lista e regras aplicáveis."
-        },
-        {
-          "id": "B",
-          "text": "membro do Ministério Público de Contas."
-        },
-        {
-          "id": "C",
-          "text": "membro do Ministério Público comum em substituição automática ao Ministério Público de Contas."
-        },
-        {
-          "id": "D",
-          "text": "integrante de carreira própria indicada pelo modelo constitucional."
-        },
-        {
-          "id": "E",
-          "text": "conselheiro-substituto aprovado em concurso, quando se tratar da vaga técnica destinada aos auditores."
-        }
+        {"id": "A", "text": "auditor/conselheiro-substituto, conforme lista e regras aplicáveis."},
+        {"id": "B", "text": "membro do Ministério Público de Contas."},
+        {"id": "C", "text": "membro do Ministério Público comum em substituição automática ao Ministério Público de Contas."},
+        {"id": "D", "text": "integrante de carreira própria indicada pelo modelo constitucional."},
+        {"id": "E", "text": "conselheiro-substituto aprovado em concurso, quando se tratar da vaga técnica destinada aos auditores."}
       ],
       "correctOptionId": "C",
       "explanation": "A vaga técnica é do Ministério Público junto ao Tribunal de Contas, não do Ministério Público comum por substituição automática. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1718,26 +863,11 @@
       "origin": "authorial",
       "prompt": "A regra de dois terços dos vereadores está ligada à hipótese de",
       "options": [
-        {
-          "id": "A",
-          "text": "afastar a prevalência do parecer prévio sobre contas anuais do prefeito."
-        },
-        {
-          "id": "B",
-          "text": "escolher ministro do TCU."
-        },
-        {
-          "id": "C",
-          "text": "nomear conselheiro-substituto estadual."
-        },
-        {
-          "id": "D",
-          "text": "aprovar membro do MPTCU."
-        },
-        {
-          "id": "E",
-          "text": "aprovar a indicação do Governador para conselheiro do TCE."
-        }
+        {"id": "A", "text": "afastar a prevalência do parecer prévio sobre contas anuais do prefeito."},
+        {"id": "B", "text": "escolher ministro do TCU."},
+        {"id": "C", "text": "nomear conselheiro-substituto estadual."},
+        {"id": "D", "text": "aprovar membro do MPTCU."},
+        {"id": "E", "text": "aprovar a indicação do Governador para conselheiro do TCE."}
       ],
       "correctOptionId": "A",
       "explanation": "O quórum de dois terços é regra municipal do art. 31, § 2º, referente ao parecer prévio sobre contas do prefeito. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1748,26 +878,11 @@
       "origin": "authorial",
       "prompt": "Uma Constituição estadual não pode, sob pretexto de autonomia, atribuir livremente à Assembleia o julgamento de todas as contas estaduais e municipais porque",
       "options": [
-        {
-          "id": "A",
-          "text": "deve respeitar o núcleo do modelo constitucional de controle externo e as competências próprias do tribunal de contas."
-        },
-        {
-          "id": "B",
-          "text": "a Assembleia não participa de nenhum controle externo."
-        },
-        {
-          "id": "C",
-          "text": "o TCU julga todas as contas estaduais."
-        },
-        {
-          "id": "D",
-          "text": "todo controle de contas pertence ao Ministério Público comum."
-        },
-        {
-          "id": "E",
-          "text": "quatro conselheiros são necessariamente escolhidos pelo Governador."
-        }
+        {"id": "A", "text": "deve respeitar o núcleo do modelo constitucional de controle externo e as competências próprias do tribunal de contas."},
+        {"id": "B", "text": "a Assembleia não participa de nenhum controle externo."},
+        {"id": "C", "text": "o TCU julga todas as contas estaduais."},
+        {"id": "D", "text": "todo controle de contas pertence ao Ministério Público comum."},
+        {"id": "E", "text": "quatro conselheiros são necessariamente escolhidos pelo Governador."}
       ],
       "correctOptionId": "A",
       "explanation": "A autonomia estadual encontra limites na Constituição Federal, no art. 75 e na distribuição constitucional de competências. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1778,29 +893,59 @@
       "origin": "authorial",
       "prompt": "Assinale a alternativa correta sobre o TCE/MA.",
       "options": [
-        {
-          "id": "A",
-          "text": "É órgão federal subordinado ao TCU."
-        },
-        {
-          "id": "B",
-          "text": "Possui sete conselheiros, auxilia a Assembleia Legislativa e as Câmaras Municipais no controle externo e não integra o Judiciário."
-        },
-        {
-          "id": "C",
-          "text": "Tem nove ministros escolhidos pelo Congresso Nacional."
-        },
-        {
-          "id": "D",
-          "text": "Pode ser livremente extinto por lei ordinária estadual após a EC nº 139/2026."
-        },
-        {
-          "id": "E",
-          "text": "É órgão do Poder Judiciário estadual, com competência recursal sobre decisões administrativas."
-        }
+        {"id": "A", "text": "É órgão federal subordinado ao TCU."},
+        {"id": "B", "text": "Possui sete conselheiros, auxilia a Assembleia Legislativa e as Câmaras Municipais no controle externo e não integra o Judiciário."},
+        {"id": "C", "text": "Tem nove ministros escolhidos pelo Congresso Nacional."},
+        {"id": "D", "text": "Pode ser livremente extinto por lei ordinária estadual após a EC nº 139/2026."},
+        {"id": "E", "text": "É órgão do Poder Judiciário estadual, com competência recursal sobre decisões administrativas."}
       ],
       "correctOptionId": "B",
       "explanation": "O TCE/MA é tribunal estadual com sete conselheiros, atua no controle externo estadual e municipal conforme a Constituição estadual e não integra o Judiciário nem é subordinado ao TCU. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q99254",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em um Tribunal de Contas Estadual havia sete conselheiros, sendo quatro nomeados pela Assembleia Legislativa e três pelo Governador do Estado. Ocorre que o decano da Corte de Contas se aposentou, conselheiro este que havia sido indicado pela Assembleia Legislativa, liberando sua vaga. Ocorre que, por razões históricas, as três indicações realizadas pelos Governadores à época foram de livre escolha, tendo sido preenchidas por membros da sociedade local, até então estranhos ao quadro de pessoal do Tribunal de Contas. A par da situação, o Governador questionou a Procuradoria-Geral quanto a possibilidade de ele nomear um dentre os membros do Ministério Público junto à Corte de Contas de modo a garantir a sua representatividade no Plenário, em observância ao prescrito na Carta Magna. Qual das alternativas apresenta parecer condizente à Súmula 653 e ao tema de repercussão geral 652, ambos do Supremo Tribunal Federal:",
+      "options": [
+        {"id": "A", "text": "Se mostra plenamente possível, haja vista a necessidade de salvaguardar as regras da Constituição Federal."},
+        {"id": "B", "text": "Não se mostra possível a nomeação do membro do Ministério Público junto à Corte de Contas pelo Governador, contudo em observância da regra Constitucional deve a Assembleia Legislativa indicar um dos membros do parquet de contas."},
+        {"id": "C", "text": "A situação é possível, contudo, há precedência para a ocupação da vaga por um dentre os auditores-substitutos, pela ordem prescrita no texto constitucional."},
+        {"id": "D", "text": "A situação é possível desde que o texto da Constituição Estadual seja emendado de modo a modificar a divisão proporcional das indicações entre os Poderes Legislativo e Executivo."},
+        {"id": "E", "text": "É inconstitucional a nomeação, pelo Governador, de membro do Ministério Público junto à Corte de Contas para preenchimento de cargo vago de conselheiro quando se tratar de vaga reservada à escolha da Assembleia Legislativa."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "O Tema 652 do STF exige respeito à divisão proporcional das vagas: o Governador não pode preencher com membro do Ministério Público de Contas uma vaga reservada à Assembleia Legislativa. Fonte: questão oficial; FGV; TCE-GO — Analista de Controle Externo — Controle Externo; 2024; questão 47; https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-controle-externo-controle-externocns102-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tce-go.pdf."
+    },
+    {
+      "id": "q99255",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O prefeito do Município Beta, ao fim do exercício financeiro, elaborou suas contas de governo e suas contas de gestão, já que atuava, igualmente, como ordenador de despesa. À luz da sistemática constitucional, é correto afirmar, em relação às referidas contas, que:",
+      "options": [
+        {"id": "A", "text": "ambas devem ser objeto de parecer prévio do Tribunal de Contas, que pode ser livremente acolhido ou rejeitado pela Câmara Municipal de Beta;"},
+        {"id": "B", "text": "ambas devem ser objeto de parecer prévio do Tribunal de Contas, que somente deixará de prevalecer por decisão de dois terços da Câmara Municipal de Beta;"},
+        {"id": "C", "text": "as contas de gestão devem ser julgadas pelo Tribunal de Contas, enquanto as contas de governo devem ser objeto de parecer prévio, que pode ser livremente acolhido ou rejeitado pela Câmara Municipal de Beta;"},
+        {"id": "D", "text": "as contas de governo devem ser julgadas pela Câmara Municipal de Beta, que contará com o auxílio do Tribunal de Contas do Município, se houver, enquanto as contas de gestão serão apreciadas pelos órgãos de controle interno;"},
+        {"id": "E", "text": "as contas de gestão devem ser julgadas pelo Tribunal de Contas, enquanto as contas de governo devem ser objeto de parecer prévio, que somente deixará de prevalecer por decisão da maioria absoluta da Câmara Municipal de Beta."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Para as contas anuais do prefeito, tanto de governo quanto de gestão, a apreciação cabe à Câmara Municipal com auxílio do Tribunal de Contas, e o parecer prévio só deixa de prevalecer por decisão de dois terços dos vereadores. Fonte: questão oficial; FGV; Controladoria Geral do Município do Rio de Janeiro — Técnico de Controle Interno; 2023; questão 32; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-de-controle-internocgm-tci-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/edital-cgm-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q99256",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Certo Tribunal de Contas, no âmbito de sua competência, realizou uma tomada de contas especial, para fins de verificar a regularidade no cumprimento de determinado convênio interfederativo de repasse de verbas e promover a responsabilização pessoal dos envolvidos, dentre os quais o prefeito do Município Alfa. Considerando as disposições constitucionais acerca do controle exercido pelas Cortes de Contas e a orientação do Supremo Tribunal Federal acerca do tema, é correto afirmar que, em relação à mencionada tomada de contas especial",
+      "options": [
+        {"id": "A", "text": "não é possível que o Tribunal de Contas aprecie condutas e gastos realizados pelo prefeito, considerando que a Constituição determina que o julgamento das contas do Chefe do Poder Executivo deve ser realizado pela respectiva Casa Legislativa."},
+        {"id": "B", "text": "cabe ao Tribunal de Contas apenas apreciar a regularidade dos gastos realizados pelo prefeito, mediante a elaboração de parecer, cuja conclusão apenas deixa de prevalecer pela votação de 2/3 (dois terços) da Câmara de Vereadores."},
+        {"id": "C", "text": "deve aplicar as sanções pertinentes ao prefeito, em decorrência da apuração de irregularidades no convênio em questão, considerando ser o órgão responsável pelo julgamento anual das contas do Chefe do Poder Executivo."},
+        {"id": "D", "text": "não pode ser compreendida como atribuição autônoma do Tribunal de Contas, de modo que eventual aplicação de penalidade ao Chefe do Poder Executivo, em decorrência de irregularidades no convênio em questão, deve ser submetida à apreciação da Casa Legislativa."},
+        {"id": "E", "text": "pode promover a condenação administrativa do Chefe do Poder Executivo, quando identificada a responsabilidade pessoal em face de irregularidades no cumprimento do convênio em questão, sem necessidade de posterior julgamento ou aprovação do ato pelo respectivo Poder Legislativo."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "A tomada de contas especial relativa a convênio é atribuição autônoma do Tribunal de Contas: constatada responsabilidade pessoal do prefeito por irregularidades, a Corte pode impor condenação administrativa sem posterior julgamento ou aprovação legislativa. Fonte: questão oficial; FGV; TCE-GO — Analista de Controle Externo — Controle Externo; 2024; questão 71; https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-controle-externo-controle-externocns102-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tce-go.pdf."
     }
   ]
 }
