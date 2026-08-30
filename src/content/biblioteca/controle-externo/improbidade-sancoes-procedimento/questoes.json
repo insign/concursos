@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q5739",
@@ -888,36 +888,6 @@
       "explanation": "O STF invalidou a redução pela metade prevista no art. 23, § 5º, preservou os marcos interruptivos e fixou prazo máximo de 20 anos para a tramitação da ação."
     },
     {
-      "id": "q5798",
-      "revision": 2,
-      "origin": "previous_exam",
-      "prompt": "Sobre prescrição e ressarcimento em matéria de improbidade administrativa, assinale a opção correta.",
-      "options": [
-        {"id": "A", "text": "A prescrição das sanções impede necessariamente o prosseguimento de qualquer pretensão de ressarcimento ao erário."},
-        {"id": "B", "text": "Sanções e ressarcimento são sempre inseparáveis para fins prescricionais."},
-        {"id": "C", "text": "Todo ressarcimento ao poder público é imprescritível, ainda que fundado em ilícito culposo ou não tipificado na LIA."},
-        {"id": "D", "text": "A prescrição das sanções não impede, por si só, o prosseguimento da pretensão de ressarcimento quando presentes os requisitos da imprescritibilidade do Tema 897 do STF."},
-        {"id": "E", "text": "Após a prescrição das sanções, somente tribunal de contas pode buscar ressarcimento."}
-      ],
-      "correctOptionId": "D",
-      "explanation": "O Tema 897 limita a imprescritibilidade ao ressarcimento fundado em ato doloso tipificado na LIA. Adaptação do item 53 da prova Cebraspe/STJ 2024, Cargo 19 — Analista Judiciário, Área Judiciária, aplicação em 01/12/2024, caderno 018_STJ_019_01; no item original, a afirmação de que a prescrição das sanções obsta o ressarcimento recebeu gabarito oficial definitivo E (errado)."
-    },
-    {
-      "id": "q99251",
-      "revision": 1,
-      "origin": "previous_exam",
-      "prompt": "Após tomarem posse em cargos públicos no âmbito do Ministério da Cultura, Carlos, João e Maria, novos servidores públicos, foram convidados a acompanhar palestras sobre os contornos da Lei de Improbidade Administrativa, com especial enfoque às mudanças implementadas pela Lei nº 14.230/2021.\nDe acordo com a narrativa e considerando as disposições da Lei nº 8.429/1992, analise as afirmativas a seguir:\nI. Nas hipóteses de improcedência dos pedidos formulados pelo autor, nas ações de improbidade administrativa, incide o reexame obrigatório da sentença em segunda instância.\nII. Caso haja a conversão da ação de improbidade administrativa em ação civil pública caberá a interposição de agravo de instrumento.\nIII. Em caso de revelia do réu, incide a presunção relativa de veracidade dos fatos alegados pelo autor da ação.\nEstá correto o que se afirma em",
-      "options": [
-        {"id": "A", "text": "I, apenas."},
-        {"id": "B", "text": "II, apenas."},
-        {"id": "C", "text": "I e III, apenas."},
-        {"id": "D", "text": "II e III, apenas."},
-        {"id": "E", "text": "I, II e III."}
-      ],
-      "correctOptionId": "B",
-      "explanation": "Apenas a afirmativa II está correta: a LIA admite a conversão motivada da ação de improbidade em ação civil pública e prevê agravo de instrumento contra essa decisão. A afirmativa I contraria a regra que afasta o reexame obrigatório da sentença de improcedência, e a III contraria a vedação de presunção de veracidade decorrente da revelia. Fonte: questão oficial; FGV; Ministério da Cultura — Processo Seletivo Simplificado, Técnicas de Complexidade Intelectual, Tipo 2; 2024; questão 23; https://conhecimento.fgv.br/sites/default/files/concursos/complexidade-intelectualcns001-tipo-2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_minc_d1354s3s.pdf."
-    },
-    {
       "id": "q52205101",
       "revision": 1,
       "origin": "previous_exam",
@@ -931,6 +901,36 @@
       ],
       "correctOptionId": "A",
       "explanation": "O gabarito definitivo é A: somente a afirmativa I foi considerada correta. A questão admite, no ANPC, ajuste sobre parcelamento e juros conforme interesse público, extensão do dano ou proveito patrimonial e capacidade financeira do compromitente, e considera incorretas as afirmações de impedimento absoluto ao parcelamento e de impossibilidade de cláusula de proibição de contratar. Fonte oficial: FGV; Ministério Público do Estado do Espírito Santo; Concurso Público para Promotor de Justiça Substituto; Tipo 1; prova aplicada em 30/11/2025; questão 45; https://conhecimento.fgv.br/sites/default/files/concursos/promotor-de-justica-substituto-cns100-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo_promotor-de-justica-substituto.pdf."
+    },
+    {
+      "id": "q52205102",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Ao realizar um estudo comparativo entre o acordo de leniência, elencado na Lei nº 12.846/2013 e o acordo de não persecução civil, previsto na Lei nº 8.429/92, com a redação conferida pela Lei nº 14.230/2021, Ana concluiu corretamente que",
+      "options": [
+        {"id": "A", "text": "tanto o acordo de não persecução civil quanto o acordo de leniência dependem de homologação judicial para surtirem efeitos, independentemente de o instrumento consensual ser formalizado antes ou depois do ajuizamento das demandas pertinentes."},
+        {"id": "B", "text": "o acordo de leniência não exime a pessoa jurídica da reparação integral do dano ao erário, no que se distingue do acordo de não persecução civil, instrumento por meio do qual o interessado poderá alcançar o abatimento de até metade de tal montante."},
+        {"id": "C", "text": "a celebração do acordo de não persecução civil depende da oitiva do ente federativo lesado, em momento anterior ou posterior à propositura da ação, requisito que não está previsto para a formalização do acordo de leniência."},
+        {"id": "D", "text": "os efeitos do acordo de leniência não poderão ser estendidos às pessoas jurídicas que integram o mesmo grupo econômico, de fato e de direito, ainda que firmem o acordo em conjunto e sejam respeitadas as condições nele estabelecidas."},
+        {"id": "E", "text": "em caso de descumprimento do acordo de leniência ou do acordo de não persecução civil, o interessado ficará impedido de celebrar novo instrumento consensual pelo prazo mínimo de 5 (cinco) anos a contar do descumprimento."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O gabarito definitivo é C. A LIA exige a oitiva do ente federativo lesado para o ANPC, antes ou depois da propositura da ação; a Lei Anticorrupção não estabelece esse requisito para o acordo de leniência. Fonte: questão oficial; FGV; TCE-SC — Auditor Fiscal de Controle Externo (Direito), Tipo 3; 2026; questão 25; https://conhecimento.fgv.br/sites/default/files/concursos/cns004-auditor-fiscal-de-controle-externo-direito-cns004-tipo-3.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tce-sc_0.pdf."
+    },
+    {
+      "id": "q52205103",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Acerca da responsabilização com base na Lei de Improbidade Administrativa (Lei nº 8.429/92), levando em conta a moderna orientação dos Tribunais Superiores, após as modificações promovidas pela Lei nº 14.230/2021, assinale a afirmativa correta.",
+      "options": [
+        {"id": "A", "text": "Apenas os atos de improbidade que importam em enriquecimento ilícito admitem a responsabilização do agente em razão de culpa grave, nos demais casos é necessário dolo específico para fins de aplicação das penalidades previstas na respectiva norma."},
+        {"id": "B", "text": "A revogação de conduta constante do rol dos atos de improbidade que atentam contra os princípios da Administração Pública não deve ser considerada nos processos em curso que estiverem em fase recursal, os quais deverão prosseguir com base na redação antiga da lei."},
+        {"id": "C", "text": "O novo regime prescricional previsto na norma em comento é irretroativo, aplicando-se os novos marcos temporais a partir da publicação da lei, diante da necessidade de observância dos princípios da segurança jurídica, do acesso à Justiça e da proteção da confiança."},
+        {"id": "D", "text": "O Ministério Público tem legitimidade exclusiva para o ajuizamento da ação de improbidade que importa em prejuízo ao erário, não sendo admitida a propositura da demanda pelo ente ou entidade lesada pela conduta ímproba."},
+        {"id": "E", "text": "A caracterização do ato de improbidade que causa prejuízo ao erário em razão da conduta de dispensa indevida de processo licitatório independe da comprovação do efetivo prejuízo, pois o dano é presumido (in re ipsa)."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O gabarito definitivo é C. Conforme a orientação do STF sobre a reforma da LIA, o novo regime prescricional é irretroativo e os novos marcos temporais incidem a partir da publicação da Lei nº 14.230/2021. Fonte: questão oficial; FGV; TCE-SC — Auditor Fiscal de Controle Externo (Direito), Tipo 3; 2026; questão 28; https://conhecimento.fgv.br/sites/default/files/concursos/cns004-auditor-fiscal-de-controle-externo-direito-cns004-tipo-3.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tce-sc_0.pdf."
     }
   ]
 }
