@@ -1,7 +1,11 @@
 import { deleteDB, openDB, type DBSchema, type IDBPDatabase } from 'idb';
 import {
   clearReadingPosition,
+  maxReadingPosition,
   normalizeNavigationDocument,
+  normalizeReadingPositionForResume,
+  readingPositionsSameSubject,
+  shouldPersistReadingPosition,
   type NavigationDocument,
 } from './navigation';
 
@@ -82,9 +86,39 @@ export function saveNavigationDocument(
     const database = await openNavigationDb();
     const transaction = database.transaction('navigation', 'readwrite');
     const existing = await transaction.store.get(profileId);
+    let normalizedCandidate = normalizeNavigationDocument({
+      ...document,
+      readingPosition: normalizeReadingPositionForResume(document.readingPosition),
+    });
+    if (existing) {
+      const existingNormalized = normalizeNavigationDocument(existing.current);
+      const sameSubject = readingPositionsSameSubject(existingNormalized, normalizedCandidate);
+      if (sameSubject) {
+        const existingPos = existingNormalized.readingPosition;
+        const candidatePos = normalizedCandidate.readingPosition;
+        const mergedPos = maxReadingPosition(existingPos, candidatePos);
+        const mergedDoc = normalizeNavigationDocument({
+          ...normalizedCandidate,
+          readingPosition: mergedPos,
+        });
+        const posSame = JSON.stringify(existingPos) === JSON.stringify(mergedPos);
+        const contextSame =
+          JSON.stringify(existingNormalized.context) === JSON.stringify(mergedDoc.context) &&
+          existingNormalized.route === mergedDoc.route;
+        if (posSame && contextSame) {
+          if (canCommit && !canCommit()) {
+            await transaction.done;
+            return undefined;
+          }
+          await transaction.done;
+          return undefined;
+        }
+        normalizedCandidate = mergedDoc;
+      }
+    }
     const record: LocalNavigationRecord = {
       profileId,
-      current: document,
+      current: normalizedCandidate,
       base: existing?.base ? normalizeNavigationDocument(existing.base) : null,
       remoteVersion: existing?.remoteVersion ?? null,
       remoteCreatedAt: existing?.remoteCreatedAt ?? null,

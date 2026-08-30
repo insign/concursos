@@ -9,6 +9,13 @@ import {
   whenLocalWritesSettled,
   type LocalAnswerRecord,
 } from './offline-db';
+import {
+  getNavigationRecord,
+  saveNavigationDocument,
+  whenNavigationWritesSettled,
+} from './navigation-db';
+import { flushPendingLocalState } from './local-durability';
+import { navigationDocumentSchema } from './navigation';
 import { loadPreferences, preferencesSchema } from './preferences';
 import {
   materializeSubjectProgress,
@@ -36,6 +43,7 @@ export const profileBackupSchema = z
     sourceAlias: z.string().max(32).regex(ID_SEGMENT_PATTERN),
     answers: z.array(backupAnswerSchema),
     preferences: preferencesSchema,
+    navigation: navigationDocumentSchema.nullable().optional(),
   })
   .strict()
   .superRefine((backup, context) => {
@@ -113,11 +121,15 @@ export function parseProfileBackup(value: unknown): ProfileBackup {
 
 export async function createProfileBackup(profileId: string, now = new Date()): Promise<ProfileBackup> {
   validateUserAlias(profileId);
-  await whenLocalWritesSettled();
-  const [records, preferences, catalog] = await Promise.all([
+  await flushPendingLocalState();
+  await Promise.all([whenLocalWritesSettled(), whenNavigationWritesSettled()]);
+  await flushPendingLocalState();
+  await Promise.all([whenLocalWritesSettled(), whenNavigationWritesSettled()]);
+  const [records, preferences, catalog, navigationRecord] = await Promise.all([
     listProfileAnswerRecords(profileId),
     loadPreferences(profileId),
     loadBackupCatalog(),
+    getNavigationRecord(profileId),
   ]);
   const catalogBySubject = new Map(
     catalog.map((subject) => [subjectKey(subject.contestStorageId, subject.subjectStorageId), subject]),
@@ -144,6 +156,7 @@ export async function createProfileBackup(profileId: string, now = new Date()): 
     sourceAlias: profileId,
     answers,
     preferences,
+    navigation: navigationRecord?.current ?? null,
   });
 }
 
@@ -219,6 +232,13 @@ export async function importProfileBackup(profileId: string, value: unknown): Pr
         progress: { schemaVersion: 1, subjects: progressSubjects },
         progressDirtyFields: [PREFERENCES_PROGRESS_DIRTY_FIELD, ...Object.keys(progressSubjects)],
       });
+      if (backup.navigation) {
+        try {
+          await saveNavigationDocument(targetAlias, backup.navigation);
+        } catch {
+          // Falha ao importar navegação não bloqueia importação das respostas
+        }
+      }
       return { answerCount: answers.length, sourceAlias: backup.sourceAlias, targetAlias };
     } catch (error) {
       if (!(error instanceof ProfileImportConflictError) || attempt === 2) throw error;

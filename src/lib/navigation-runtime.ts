@@ -11,12 +11,16 @@ import {
 } from './navigation-db';
 import {
   createNavigationDocument,
+  maxReadingPosition,
   navigationPendingRouteKey,
   navigationCatalogSchema,
   navigationDestination,
   navigationFingerprint,
   navigationSessionKey,
+  normalizeReadingPositionForResume,
   normalizeTextQuote,
+  readingPositionsSameSubject,
+  shouldPersistReadingPosition,
   shouldPreserveReadingForContestCatalog,
   type NavigationCatalog,
   type NavigationCatalogEntry,
@@ -476,6 +480,7 @@ export function startNavigationRuntime(): void {
     const context = captureContext(entry);
     const contentRoot = document.querySelector<HTMLElement>('[data-navigation-content]');
     let readingPosition: ReadingPosition | null = null;
+    let isStudiedForCurrent = false;
     if (
       context.activeTab !== 'questions' &&
       contentRoot &&
@@ -486,15 +491,50 @@ export function startNavigationRuntime(): void {
         await loadStudied(profileId),
         studiedSubjectId(context.contestStorageId, context.subjectStorageId),
       );
+      isStudiedForCurrent = studied;
       if (generation !== captureGeneration || offered) return;
       readingPosition = studied
         ? null
         : preservedReadingPosition ?? captureReadingPosition(contentRoot);
     }
-    const snapshot = createNavigationDocument(currentRoute(), context, readingPosition);
-    const fingerprint = navigationFingerprint(snapshot);
+    let normalizedReadingPosition = normalizeReadingPositionForResume(readingPosition);
+    let snapshot = createNavigationDocument(currentRoute(), context, normalizedReadingPosition);
+    let fingerprint = navigationFingerprint(snapshot);
     const record = await getNavigationRecord(profileId);
     if (generation !== captureGeneration || offered) return;
+
+    if (!forcePersist && record) {
+      const sameSubject = readingPositionsSameSubject(record.current, snapshot);
+      if (sameSubject) {
+        const existingPos = record.current.readingPosition;
+        const candidateRaw = readingPosition;
+        const isClearStudied = candidateRaw === null && existingPos !== null && isStudiedForCurrent;
+        if (isClearStudied) {
+          if (captureTimer) clearTimeout(captureTimer);
+          captureTimer = undefined;
+          captureGeneration += 1;
+          suppressedCaptureRequested = false;
+          semanticCaptureRequested = false;
+          suppressCaptureUntil = Date.now() + RESTORE_CAPTURE_SUPPRESSION_MS;
+          await clearSubjectReadingPosition(context.contestStorageId!, context.subjectStorageId!);
+          return;
+        }
+        const mergedPos = maxReadingPosition(existingPos, candidateRaw);
+        const mergedSnapshot = createNavigationDocument(currentRoute(), context, mergedPos);
+        const posSame = JSON.stringify(existingPos) === JSON.stringify(mergedPos);
+        const contextSame =
+          JSON.stringify(record.current.context) === JSON.stringify(mergedSnapshot.context) &&
+          record.current.route === mergedSnapshot.route;
+        if (posSame && contextSame) {
+          lastFingerprint = navigationFingerprint(record.current);
+          return;
+        }
+        if (JSON.stringify(mergedPos) !== JSON.stringify(snapshot.readingPosition)) {
+          snapshot = mergedSnapshot;
+          fingerprint = navigationFingerprint(snapshot);
+        }
+      }
+    }
 
     if (!forcePersist && record && shouldPreserveReadingForContestCatalog(record.current, entry)) {
       lastFingerprint = navigationFingerprint(record.current);
@@ -898,6 +938,7 @@ export function startNavigationRuntime(): void {
     captureGeneration += 1;
     suppressedCaptureRequested = false;
     semanticCaptureRequested = false;
+    suppressCaptureUntil = Date.now() + RESTORE_CAPTURE_SUPPRESSION_MS;
     await clearSubjectReadingPosition(detail.contestStorageId, detail.subjectStorageId);
   };
 

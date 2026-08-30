@@ -116,24 +116,38 @@ const LEGACY_READING_ROUTE = /^(\/concursos\/[^/]+\/[^/]+)\/leitura\/$/;
 const CANONICAL_SUBJECT_ROUTE = /^\/concursos\/[^/]+\/[^/]+\/$/;
 
 export function normalizeNavigationDocument(document: NavigationDocument): NavigationDocument {
-  const parsed = new URL(document.route, 'https://concursos.invalid');
+  const normalizedPosition =
+    document.readingPosition && document.readingPosition.progress < 0.02
+      ? null
+      : document.readingPosition;
+  const withNormalizedPosition =
+    normalizedPosition === document.readingPosition
+      ? document
+      : { ...document, readingPosition: normalizedPosition };
+  const parsed = new URL(withNormalizedPosition.route, 'https://concursos.invalid');
   const legacyMatch = parsed.pathname.match(LEGACY_READING_ROUTE);
   const hasLegacyContext =
-    document.context.activeTab === 'reading' &&
-    document.context.readingMode &&
+    withNormalizedPosition.context.activeTab === 'reading' &&
+    withNormalizedPosition.context.readingMode &&
     CANONICAL_SUBJECT_ROUTE.test(parsed.pathname);
   const isLegacyReading = Boolean(legacyMatch) || hasLegacyContext;
   const incompatibleReadingMode =
-    document.context.readingMode && document.context.activeTab !== 'content' && !isLegacyReading;
-  if (!isLegacyReading && !incompatibleReadingMode) return document;
+    withNormalizedPosition.context.readingMode &&
+    withNormalizedPosition.context.activeTab !== 'content' &&
+    !isLegacyReading;
+  if (!isLegacyReading && !incompatibleReadingMode) {
+    return normalizedPosition === document.readingPosition
+      ? withNormalizedPosition
+      : navigationDocumentSchema.parse(withNormalizedPosition);
+  }
 
-  const route = legacyMatch ? `${legacyMatch[1]}/${parsed.search}` : document.route;
+  const route = legacyMatch ? `${legacyMatch[1]}/${parsed.search}` : withNormalizedPosition.route;
   return navigationDocumentSchema.parse({
-    ...document,
+    ...withNormalizedPosition,
     route,
     context: {
-      ...document.context,
-      activeTab: isLegacyReading ? 'content' : document.context.activeTab,
+      ...withNormalizedPosition.context,
+      activeTab: isLegacyReading ? 'content' : withNormalizedPosition.context.activeTab,
       readingMode: isLegacyReading,
     },
   });
@@ -172,7 +186,8 @@ function hasResumeReadingPosition(document: NavigationDocument): boolean {
     document.context.activeTab === 'content' &&
     document.context.contestStorageId !== null &&
     document.context.subjectStorageId !== null &&
-    document.readingPosition !== null
+    document.readingPosition !== null &&
+    document.readingPosition.progress >= 0.02
   );
 }
 
@@ -200,6 +215,66 @@ export function clearReadingPosition(
     return document;
   }
   return { ...document, updatedAt: now.toISOString(), readingPosition: null };
+}
+
+export const READING_PROGRESS_EPSILON = 1e-6;
+export const MIN_RESUME_PROGRESS = 0.02;
+
+export function readingPositionsSameSubject(
+  a: NavigationDocument,
+  b: NavigationDocument,
+): boolean {
+  return (
+    a.route === b.route &&
+    a.context.contestStorageId === b.context.contestStorageId &&
+    a.context.subjectStorageId === b.context.subjectStorageId &&
+    a.context.subjectStorageId !== null
+  );
+}
+
+export function normalizeReadingPositionForResume(
+  position: ReadingPosition | null,
+): ReadingPosition | null {
+  if (!position) return null;
+  if (position.progress < MIN_RESUME_PROGRESS) return null;
+  return position;
+}
+
+export function shouldPersistReadingPosition(
+  existing: ReadingPosition | null,
+  candidate: ReadingPosition | null,
+  currentStudied: boolean,
+): boolean {
+  const normalizedCandidate = normalizeReadingPositionForResume(candidate);
+  if (currentStudied) return normalizedCandidate === null && existing !== null;
+  if (existing === null) return normalizedCandidate !== null;
+  if (normalizedCandidate === null) return false;
+  if (normalizedCandidate.progress > existing.progress + READING_PROGRESS_EPSILON) return true;
+  if (Math.abs(normalizedCandidate.progress - existing.progress) <= READING_PROGRESS_EPSILON) {
+    return (
+      normalizedCandidate.blockIndex > existing.blockIndex ||
+      normalizedCandidate.relativeOffset > existing.relativeOffset + READING_PROGRESS_EPSILON
+    );
+  }
+  return false;
+}
+
+export function maxReadingPosition(
+  existing: ReadingPosition | null,
+  candidate: ReadingPosition | null,
+): ReadingPosition | null {
+  if (!existing) return normalizeReadingPositionForResume(candidate);
+  if (!candidate) return existing;
+  const normalized = normalizeReadingPositionForResume(candidate);
+  if (!normalized) return existing;
+  if (normalized.progress > existing.progress + READING_PROGRESS_EPSILON) return normalized;
+  if (
+    Math.abs(normalized.progress - existing.progress) <= READING_PROGRESS_EPSILON &&
+    (normalized.blockIndex > existing.blockIndex ||
+      normalized.relativeOffset > existing.relativeOffset + READING_PROGRESS_EPSILON)
+  )
+    return normalized;
+  return existing;
 }
 
 export function shouldPreserveReadingForContestCatalog(
