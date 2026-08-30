@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q5379",
@@ -598,6 +598,51 @@
       ],
       "correctOptionId": "C",
       "explanation": "O padrão desloca ciclicamente as letras de VILHENA; na quarta linha, a primeira coluna é N. Fonte: questão oficial; Cebraspe; Ministério Público do Estado de Rondônia — Conhecimentos Gerais; 2023; questão 10; https://cdn.cebraspe.org.br/concursos/mpe_ro_23/arquivos/869_MPE_RO_SERVIDOR_CG1_01.PDF."
+    },
+    {
+      "id": "q52204508",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Dadas as matrizes A = [[-1, 0], [2, 3]] e B = [[2, -1], [1, 2]], a soma dos elementos da matriz AB − BA é:",
+      "options": [
+        {"id": "A", "text": "0;"},
+        {"id": "B", "text": "2;"},
+        {"id": "C", "text": "4;"},
+        {"id": "D", "text": "6;"},
+        {"id": "E", "text": "8."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "AB = [[-2, 1], [7, 4]] e BA = [[-4, -3], [3, 6]], então AB − BA = [[2, 4], [4, -2]], cuja soma dos elementos é 8. Fonte: questão oficial; FGV; Ministério Público do Estado de Santa Catarina — Analista em Tecnologia da Informação, Tipo 1 (Branca); 2022; questão 25; https://conhecimento.fgv.br/sites/default/files/concursos/mp_sc_2022_analista_em_tecnologia_da_informacao_tipo_1.pdf."
+    },
+    {
+      "id": "q52204509",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Três amigos A₁, A₂ e A₃ brincam de arremessar uma bola um para o outro. Cada elemento mᵢₖ da matriz M a seguir corresponde à probabilidade de o amigo Aᵢ, estando com a bola, jogá-la para o amigo Aₖ.\n\n```text\nM = [\n  [0    0,3  0,7]\n  [0,4  0    0,6]\n  [0,5  0,5  0]\n]\n```\n\nEm certo momento, a bola está com o amigo A₂.\n\nA probabilidade de que, após 3 arremessos, a bola termine com A₁ está",
+      "options": [
+        {"id": "A", "text": "entre 29% e 30%."},
+        {"id": "B", "text": "entre 30% e 31%."},
+        {"id": "C", "text": "entre 31% e 32%."},
+        {"id": "D", "text": "entre 32% e 33%."},
+        {"id": "E", "text": "entre 33% e 34%."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Partindo de A₂ e compondo as probabilidades de três arremessos, a probabilidade de terminar em A₁ é 30,8%, portanto está entre 30% e 31%. Fonte: questão oficial; FGV; Prefeitura de Caraguatatuba — PEB II — Matemática, Tipo 1 (Branca); 2024; questão 41; https://conhecimento.fgv.br/sites/default/files/concursos/cns350e3-peb-ii-matematicacns350e3-tipo-1.pdf."
+    },
+    {
+      "id": "q52204510",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Seja M uma matriz quadrada com 18 linhas e 18 colunas, tal que cada elemento aₚq de M é dado pelo maior valor quando se comparam p e q, em que p e q são, respectivamente, os números da linha e da coluna ocupados pelo elemento.\n\nA quantidade de termos ímpares na matriz M é",
+      "options": [
+        {"id": "A", "text": "153."},
+        {"id": "B", "text": "156."},
+        {"id": "C", "text": "162."},
+        {"id": "D", "text": "166."},
+        {"id": "E", "text": "169."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Para cada valor ímpar k = 1, 3, ..., 17, há 2k − 1 posições em que max(p,q)=k. A soma 1+5+9+...+33 é 153. Fonte: questão oficial; FGV; Prefeitura Municipal de Vitória/ES — Auditor de Controle Interno — Ciências Jurídicas, Tipo 1 (Branca); 2024; questão 10; https://conhecimento.fgv.br/sites/default/files/concursos/auditor-de-controle-interno-ciencias-juridicasauci-03-tipo-1.pdf."
     }
   ]
 }
