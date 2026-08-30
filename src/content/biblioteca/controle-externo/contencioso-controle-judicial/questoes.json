@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q5799",
@@ -1831,6 +1831,36 @@
       ],
       "correctOptionId": "E",
       "explanation": "O Tema 485 do STF veda ao Poder Judiciário substituir a banca examinadora para reexaminar o conteúdo das questões e os critérios de correção, mas admite o controle de legalidade, inclusive o juízo de compatibilidade entre o conteúdo cobrado e o edital. Fonte: questão oficial; Cebraspe; SESDEC/RO — CBM/RO, Cargo 1 — Oficial Bombeiro Militar Combatente; 2022; questão 55; https://cdn.cebraspe.org.br/concursos/cbm_ro_22/arquivos/734_CBM_RO_OFICIAL_001_01.PDF. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/cbm_ro_22/arquivos/GAB_DEFINITIVO_734_CBM_RO_OFICIAL_001_01.PDF."
+    },
+    {
+      "id": "q99253",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No que diz respeito às características do controle jurisdicional da administração pública brasileira, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O Poder Judiciário poderá, no exercício do controle jurisdicional, julgar as contas dos administradores públicos federais em seu mérito, caso o Tribunal de Contas da União as julgue irregulares."
+        },
+        {
+          "id": "B",
+          "text": "O controle jurisdicional é primariamente exercido de ofício pelo Poder Judiciário, quando verificados indícios de ilegalidade ou inoportunidade na atuação administrativa."
+        },
+        {
+          "id": "C",
+          "text": "O controle jurisdicional é primariamente exercido a posteriori, de forma corretiva, mas pode ser exercido de forma preventiva em casos excepcionais, como na emissão de ordens judiciais para se coibirem ilegalidades iminentes."
+        },
+        {
+          "id": "D",
+          "text": "O Poder Judiciário pode substituir o juízo de conveniência e oportunidade do administrador (mérito administrativo) sempre que constatar ofensa aos princípios da moralidade e da publicidade."
+        },
+        {
+          "id": "E",
+          "text": "O controle jurisdicional se restringe ao exame da legalidade formal (cumprimento da norma escrita), sendo vedado que ele analise a legalidade principiológica de determinado ato, como sua razoabilidade e sua proporcionalidade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O controle jurisdicional é, em regra, exercido a posteriori, de forma corretiva, mas admite atuação preventiva em situações excepcionais para coibir ilegalidades iminentes. Fonte: questão oficial; Cebraspe; TCE/MG — conhecimentos gerais para todos os cargos; 2026; questão 22; https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/320D70B97CC0EDBE166890B55FCDA7A4D04AC4E219402DE1DDEE1BDC051EC6F5.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/F6CF40CFC4CE65D590EE9EC52331D1C4C35D052F368F3B2E8C8631E4DDA7330E.pdf."
     }
   ]
 }
