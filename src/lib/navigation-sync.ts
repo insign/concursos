@@ -5,13 +5,18 @@ import {
   markNavigationRemoteRejected,
   markNavigationSynced,
   markNavigationSyncError,
+  saveNavigationDocument,
   shouldDeferNavigationSync,
   whenNavigationWritesSettled,
   type LocalNavigationRecord,
 } from './navigation-db';
+import { isStudied, loadStudied, studiedSubjectId } from './studied';
 import {
+  maxReadingPosition,
   navigationDocumentSchema,
   normalizeNavigationDocument,
+  normalizeReadingPositionForResume,
+  readingPositionsSameSubject,
   resolveNavigationVersionAction,
   type NavigationDocument,
 } from './navigation';
@@ -126,6 +131,8 @@ export async function bootstrapNavigation(profileId: string): Promise<Navigation
       return { failures: 0, remoteVersion: record?.remoteVersion ?? null, adoptedRemote: false };
     }
 
+    const localPrevForRepair = record?.current ?? null;
+    const beforeRevision = record?.localRevision ?? 0;
     await markNavigationSynced({
       profileId,
       expectedLocalRevision: record?.localRevision ?? 0,
@@ -136,6 +143,41 @@ export async function bootstrapNavigation(profileId: string): Promise<Navigation
       remoteCreatedAt: remote.createdAt,
       conflictWarning: record ? recreationWarning(record, remote.version, remote.createdAt) : null,
     });
+    const latestAfterAdopt = await getNavigationRecord(profileId);
+    const adoptedCleanly =
+      latestAfterAdopt !== undefined &&
+      latestAfterAdopt.remoteVersion === remote.version &&
+      latestAfterAdopt.localRevision === beforeRevision &&
+      JSON.stringify(latestAfterAdopt.current) ===
+        JSON.stringify(normalizeNavigationDocument(remote.document));
+    if (adoptedCleanly && localPrevForRepair) {
+      const sameSubject = readingPositionsSameSubject(localPrevForRepair, remote.document);
+      if (sameSubject) {
+        const contestStorageId = localPrevForRepair.context.contestStorageId;
+        const subjectStorageId = localPrevForRepair.context.subjectStorageId;
+        if (contestStorageId && subjectStorageId) {
+          const studiedDoc = await loadStudied(profileId);
+          if (!isStudied(studiedDoc, studiedSubjectId(contestStorageId, subjectStorageId))) {
+            const localPos = normalizeReadingPositionForResume(localPrevForRepair.readingPosition);
+            const remotePos = normalizeReadingPositionForResume(remote.document.readingPosition);
+            const maxPos = maxReadingPosition(localPos, remotePos);
+            if (maxPos && JSON.stringify(maxPos) !== JSON.stringify(remotePos)) {
+              const repaired = normalizeNavigationDocument({
+                ...remote.document,
+                readingPosition: maxPos,
+              });
+              await saveNavigationDocument(profileId, repaired);
+            } else if (!maxPos && remotePos) {
+              const repaired = normalizeNavigationDocument({
+                ...remote.document,
+                readingPosition: null,
+              });
+              await saveNavigationDocument(profileId, repaired);
+            }
+          }
+        }
+      }
+    }
     return { failures: 0, remoteVersion: remote.version, adoptedRemote: true };
   } catch (error) {
     await markNavigationSyncError(
@@ -186,6 +228,8 @@ export async function applyNavigationPreflight(
   }
 
   if (action === 'adopt-remote' && preflight.remote) {
+    const localPrevForRepair = record?.current ?? null;
+    const beforeRevision = record?.localRevision ?? 0;
     await markNavigationSynced({
       profileId,
       expectedLocalRevision: record?.localRevision ?? 0,
@@ -198,6 +242,41 @@ export async function applyNavigationPreflight(
         ? recreationWarning(record, preflight.remote.version, preflight.remote.createdAt)
         : null,
     });
+    const latestAfterAdopt = await getNavigationRecord(profileId);
+    const adoptedCleanly =
+      latestAfterAdopt !== undefined &&
+      latestAfterAdopt.remoteVersion === preflight.remote.version &&
+      latestAfterAdopt.localRevision === beforeRevision &&
+      JSON.stringify(latestAfterAdopt.current) ===
+        JSON.stringify(normalizeNavigationDocument(preflight.remote.document));
+    if (adoptedCleanly && localPrevForRepair) {
+      const sameSubject = readingPositionsSameSubject(localPrevForRepair, preflight.remote.document);
+      if (sameSubject) {
+        const contestStorageId = localPrevForRepair.context.contestStorageId;
+        const subjectStorageId = localPrevForRepair.context.subjectStorageId;
+        if (contestStorageId && subjectStorageId) {
+          const studiedDoc = await loadStudied(profileId);
+          if (!isStudied(studiedDoc, studiedSubjectId(contestStorageId, subjectStorageId))) {
+            const localPos = normalizeReadingPositionForResume(localPrevForRepair.readingPosition);
+            const remotePos = normalizeReadingPositionForResume(preflight.remote.document.readingPosition);
+            const maxPos = maxReadingPosition(localPos, remotePos);
+            if (maxPos && JSON.stringify(maxPos) !== JSON.stringify(remotePos)) {
+              const repaired = normalizeNavigationDocument({
+                ...preflight.remote.document,
+                readingPosition: maxPos,
+              });
+              await saveNavigationDocument(profileId, repaired);
+            } else if (!maxPos && remotePos) {
+              const repaired = normalizeNavigationDocument({
+                ...preflight.remote.document,
+                readingPosition: null,
+              });
+              await saveNavigationDocument(profileId, repaired);
+            }
+          }
+        }
+      }
+    }
     return { failures: 0, remoteVersion: preflight.remote.version, adoptedRemote: true };
   }
 
