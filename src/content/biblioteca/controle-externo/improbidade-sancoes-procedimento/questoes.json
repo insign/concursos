@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q5739",
@@ -8,26 +8,11 @@
       "origin": "authorial",
       "prompt": "Na condenação por ato de enriquecimento ilícito do art. 9º da LIA, qual conjunto corresponde às sanções previstas no art. 12, I?",
       "options": [
-        {
-          "id": "A",
-          "text": "Perda do acréscimo ilícito, perda da função, suspensão dos direitos políticos por até 14 anos, multa equivalente ao acréscimo e proibição de contratar ou receber benefícios por até 14 anos."
-        },
-        {
-          "id": "B",
-          "text": "Apenas ressarcimento e multa de até 24 remunerações."
-        },
-        {
-          "id": "C",
-          "text": "Perda da função e suspensão política obrigatoriamente perpétuas."
-        },
-        {
-          "id": "D",
-          "text": "Somente advertência e proibição de contratar por quatro anos."
-        },
-        {
-          "id": "E",
-          "text": "Apenas perda de bens e suspensão política por até quatro anos."
-        }
+        {"id": "A", "text": "Perda do acréscimo ilícito, perda da função, suspensão dos direitos políticos por até 14 anos, multa equivalente ao acréscimo e proibição de contratar ou receber benefícios por até 14 anos."},
+        {"id": "B", "text": "Apenas ressarcimento e multa de até 24 remunerações."},
+        {"id": "C", "text": "Perda da função e suspensão política obrigatoriamente perpétuas."},
+        {"id": "D", "text": "Somente advertência e proibição de contratar por quatro anos."},
+        {"id": "E", "text": "Apenas perda de bens e suspensão política por até quatro anos."}
       ],
       "correctOptionId": "A",
       "explanation": "O art. 12, I, prevê esse conjunto para o art. 9º. Ressarcimento, quando cabível, tem natureza reparatória e não substitui as sanções."
@@ -38,26 +23,11 @@
       "origin": "authorial",
       "prompt": "Nos atos do art. 10 da LIA, qual é a base legal ordinária da multa civil?",
       "options": [
-        {
-          "id": "A",
-          "text": "Sempre 24 vezes a remuneração do agente."
-        },
-        {
-          "id": "B",
-          "text": "O valor do dano efetivamente causado."
-        },
-        {
-          "id": "C",
-          "text": "O dobro do orçamento anual do ente lesado."
-        },
-        {
-          "id": "D",
-          "text": "O valor do acréscimo patrimonial, mesmo sem dano."
-        },
-        {
-          "id": "E",
-          "text": "Um percentual fixo de 10% do contrato envolvido."
-        }
+        {"id": "A", "text": "Sempre 24 vezes a remuneração do agente."},
+        {"id": "B", "text": "O valor do dano efetivamente causado."},
+        {"id": "C", "text": "O dobro do orçamento anual do ente lesado."},
+        {"id": "D", "text": "O valor do acréscimo patrimonial, mesmo sem dano."},
+        {"id": "E", "text": "Um percentual fixo de 10% do contrato envolvido."}
       ],
       "correctOptionId": "B",
       "explanation": "No art. 10, a multa civil equivale ao valor do dano; 24 remunerações é parâmetro do art. 11 e o acréscimo patrimonial é parâmetro do art. 9º."
@@ -68,26 +38,11 @@
       "origin": "authorial",
       "prompt": "Quais sanções são próprias do ato tipificado exclusivamente no art. 11 da LIA?",
       "options": [
-        {
-          "id": "A",
-          "text": "Perda da função, suspensão política e ressarcimento presumido."
-        },
-        {
-          "id": "B",
-          "text": "Perda de todos os bens e prisão civil."
-        },
-        {
-          "id": "C",
-          "text": "Multa de até 24 remunerações e proibição de contratar ou receber benefícios por até quatro anos."
-        },
-        {
-          "id": "D",
-          "text": "Suspensão dos direitos políticos por até 12 anos e multa equivalente ao dano."
-        },
-        {
-          "id": "E",
-          "text": "Perda da função e proibição de contratar por até 14 anos."
-        }
+        {"id": "A", "text": "Perda da função, suspensão política e ressarcimento presumido."},
+        {"id": "B", "text": "Perda de todos os bens e prisão civil."},
+        {"id": "C", "text": "Multa de até 24 remunerações e proibição de contratar ou receber benefícios por até quatro anos."},
+        {"id": "D", "text": "Suspensão dos direitos políticos por até 12 anos e multa equivalente ao dano."},
+        {"id": "E", "text": "Perda da função e proibição de contratar por até 14 anos."}
       ],
       "correctOptionId": "C",
       "explanation": "O art. 12, III, não prevê para o art. 11 perda da função nem suspensão dos direitos políticos."
@@ -98,26 +53,11 @@
       "origin": "authorial",
       "prompt": "Como o art. 12 disciplina a combinação das sanções de improbidade?",
       "options": [
-        {
-          "id": "A",
-          "text": "Todas devem ser cumuladas em qualquer condenação."
-        },
-        {
-          "id": "B",
-          "text": "A cumulação é proibida."
-        },
-        {
-          "id": "C",
-          "text": "Somente o Ministério Público escolhe a sanção, sem controle judicial."
-        },
-        {
-          "id": "D",
-          "text": "Podem ser aplicadas isolada ou cumulativamente, conforme a gravidade e com fundamentação."
-        },
-        {
-          "id": "E",
-          "text": "Devem ser aplicadas sempre pela metade quando o réu for primário."
-        }
+        {"id": "A", "text": "Todas devem ser cumuladas em qualquer condenação."},
+        {"id": "B", "text": "A cumulação é proibida."},
+        {"id": "C", "text": "Somente o Ministério Público escolhe a sanção, sem controle judicial."},
+        {"id": "D", "text": "Podem ser aplicadas isolada ou cumulativamente, conforme a gravidade e com fundamentação."},
+        {"id": "E", "text": "Devem ser aplicadas sempre pela metade quando o réu for primário."}
       ],
       "correctOptionId": "D",
       "explanation": "A LIA permite aplicação isolada ou cumulativa, conforme gravidade, proporcionalidade e fundamentação concreta."
@@ -128,26 +68,11 @@
       "origin": "authorial",
       "prompt": "Quando a multa civil pode ser elevada até o dobro?",
       "options": [
-        {
-          "id": "A",
-          "text": "Quando o valor ordinário for ineficaz para reprovação e prevenção diante da situação econômica do réu."
-        },
-        {
-          "id": "B",
-          "text": "Automaticamente sempre que houver recurso."
-        },
-        {
-          "id": "C",
-          "text": "Somente se o Tribunal de Contas autorizar."
-        },
-        {
-          "id": "D",
-          "text": "Apenas em ato culposo."
-        },
-        {
-          "id": "E",
-          "text": "Sempre que houver mais de um réu."
-        }
+        {"id": "A", "text": "Quando o valor ordinário for ineficaz para reprovação e prevenção diante da situação econômica do réu."},
+        {"id": "B", "text": "Automaticamente sempre que houver recurso."},
+        {"id": "C", "text": "Somente se o Tribunal de Contas autorizar."},
+        {"id": "D", "text": "Apenas em ato culposo."},
+        {"id": "E", "text": "Sempre que houver mais de um réu."}
       ],
       "correctOptionId": "A",
       "explanation": "O art. 12, § 2º, admite aumento até o dobro quando o valor ordinário for ineficaz, considerada a situação econômica do réu."
@@ -158,26 +83,11 @@
       "origin": "authorial",
       "prompt": "Nos atos de menor ofensa aos bens jurídicos tutelados pela LIA, a sanção fica limitada a quê?",
       "options": [
-        {
-          "id": "A",
-          "text": "Advertência sem qualquer efeito patrimonial."
-        },
-        {
-          "id": "B",
-          "text": "Multa, sem prejuízo do ressarcimento e da perda de valores quando cabíveis."
-        },
-        {
-          "id": "C",
-          "text": "Perda obrigatória de todas as funções."
-        },
-        {
-          "id": "D",
-          "text": "Suspensão política pelo prazo máximo."
-        },
-        {
-          "id": "E",
-          "text": "Proibição de contratar obrigatoriamente por quatro anos."
-        }
+        {"id": "A", "text": "Advertência sem qualquer efeito patrimonial."},
+        {"id": "B", "text": "Multa, sem prejuízo do ressarcimento e da perda de valores quando cabíveis."},
+        {"id": "C", "text": "Perda obrigatória de todas as funções."},
+        {"id": "D", "text": "Suspensão política pelo prazo máximo."},
+        {"id": "E", "text": "Proibição de contratar obrigatoriamente por quatro anos."}
       ],
       "correctOptionId": "B",
       "explanation": "O art. 12, § 5º, limita a sanção à multa, preservando ressarcimento e perda de valores quando cabíveis."
@@ -188,26 +98,11 @@
       "origin": "authorial",
       "prompt": "Após o julgamento das ADIs 7156 e 7236, qual é a regra sobre perda da função pública?",
       "options": [
-        {
-          "id": "A",
-          "text": "Atinge somente o vínculo ocupado na data do fato, sem exceção."
-        },
-        {
-          "id": "B",
-          "text": "Nunca alcança agente político."
-        },
-        {
-          "id": "C",
-          "text": "Alcança todas as funções públicas do condenado, admitida preservação específica, excepcional e fundamentada."
-        },
-        {
-          "id": "D",
-          "text": "Depende exclusivamente de decisão do Tribunal de Contas."
-        },
-        {
-          "id": "E",
-          "text": "Só pode alcançar função assumida antes da sentença."
-        }
+        {"id": "A", "text": "Atinge somente o vínculo ocupado na data do fato, sem exceção."},
+        {"id": "B", "text": "Nunca alcança agente político."},
+        {"id": "C", "text": "Alcança todas as funções públicas do condenado, admitida preservação específica, excepcional e fundamentada."},
+        {"id": "D", "text": "Depende exclusivamente de decisão do Tribunal de Contas."},
+        {"id": "E", "text": "Só pode alcançar função assumida antes da sentença."}
       ],
       "correctOptionId": "C",
       "explanation": "O STF adotou como regra a perda de todas as funções públicas, com possibilidade excepcional e motivada de preservação de função específica."
@@ -218,26 +113,11 @@
       "origin": "authorial",
       "prompt": "O juiz pretende preservar uma função pública específica do condenado. Qual exigência deve observar?",
       "options": [
-        {
-          "id": "A",
-          "text": "Basta pedido informal do réu."
-        },
-        {
-          "id": "B",
-          "text": "A preservação é sempre obrigatória se a função for nova."
-        },
-        {
-          "id": "C",
-          "text": "Não é possível preservar nenhuma função."
-        },
-        {
-          "id": "D",
-          "text": "A preservação é excepcional e deve ser fundamentada nas circunstâncias e na gravidade da infração."
-        },
-        {
-          "id": "E",
-          "text": "A preservação depende de autorização legislativa individual."
-        }
+        {"id": "A", "text": "Basta pedido informal do réu."},
+        {"id": "B", "text": "A preservação é sempre obrigatória se a função for nova."},
+        {"id": "C", "text": "Não é possível preservar nenhuma função."},
+        {"id": "D", "text": "A preservação é excepcional e deve ser fundamentada nas circunstâncias e na gravidade da infração."},
+        {"id": "E", "text": "A preservação depende de autorização legislativa individual."}
       ],
       "correctOptionId": "D",
       "explanation": "A preservação de função específica é exceção à regra e exige motivação concreta."
@@ -248,26 +128,11 @@
       "origin": "authorial",
       "prompt": "Qual alcance territorial o STF reconheceu para a sanção de proibição de contratar com o poder público?",
       "options": [
-        {
-          "id": "A",
-          "text": "Os três níveis da Federação, sem limitação automática ao ente diretamente lesado."
-        },
-        {
-          "id": "B",
-          "text": "Somente o órgão em que ocorreu o fato."
-        },
-        {
-          "id": "C",
-          "text": "Apenas o município do domicílio do réu."
-        },
-        {
-          "id": "D",
-          "text": "Somente a União."
-        },
-        {
-          "id": "E",
-          "text": "Apenas o ente que ajuizou a ação."
-        }
+        {"id": "A", "text": "Os três níveis da Federação, sem limitação automática ao ente diretamente lesado."},
+        {"id": "B", "text": "Somente o órgão em que ocorreu o fato."},
+        {"id": "C", "text": "Apenas o município do domicílio do réu."},
+        {"id": "D", "text": "Somente a União."},
+        {"id": "E", "text": "Apenas o ente que ajuizou a ação."}
       ],
       "correctOptionId": "A",
       "explanation": "O STF afastou a limitação ao ente diretamente lesado e reconheceu alcance nos três níveis federativos."
@@ -278,26 +143,11 @@
       "origin": "authorial",
       "prompt": "Quando as sanções previstas no art. 12 podem ser executadas?",
       "options": [
-        {
-          "id": "A",
-          "text": "Logo após a petição inicial."
-        },
-        {
-          "id": "B",
-          "text": "Após o trânsito em julgado da sentença condenatória."
-        },
-        {
-          "id": "C",
-          "text": "Após decisão administrativa não recorrível."
-        },
-        {
-          "id": "D",
-          "text": "Depois da primeira decisão colegiada, ainda recorrível."
-        },
-        {
-          "id": "E",
-          "text": "Assim que houver indisponibilidade cautelar."
-        }
+        {"id": "A", "text": "Logo após a petição inicial."},
+        {"id": "B", "text": "Após o trânsito em julgado da sentença condenatória."},
+        {"id": "C", "text": "Após decisão administrativa não recorrível."},
+        {"id": "D", "text": "Depois da primeira decisão colegiada, ainda recorrível."},
+        {"id": "E", "text": "Assim que houver indisponibilidade cautelar."}
       ],
       "correctOptionId": "B",
       "explanation": "O art. 12, § 9º, condiciona a execução das sanções ao trânsito em julgado; cautelares não se confundem com execução definitiva."
@@ -308,26 +158,11 @@
       "origin": "authorial",
       "prompt": "O que ocorreu com a regra que computava, na suspensão dos direitos políticos, o período entre decisão colegiada e trânsito em julgado?",
       "options": [
-        {
-          "id": "A",
-          "text": "Foi ampliada para qualquer decisão monocrática."
-        },
-        {
-          "id": "B",
-          "text": "Tornou-se obrigatória apenas para o art. 11."
-        },
-        {
-          "id": "C",
-          "text": "Foi declarada inconstitucional pelo STF."
-        },
-        {
-          "id": "D",
-          "text": "Foi convertida em pena criminal."
-        },
-        {
-          "id": "E",
-          "text": "Passou a valer apenas para condenações de até quatro anos."
-        }
+        {"id": "A", "text": "Foi ampliada para qualquer decisão monocrática."},
+        {"id": "B", "text": "Tornou-se obrigatória apenas para o art. 11."},
+        {"id": "C", "text": "Foi declarada inconstitucional pelo STF."},
+        {"id": "D", "text": "Foi convertida em pena criminal."},
+        {"id": "E", "text": "Passou a valer apenas para condenações de até quatro anos."}
       ],
       "correctOptionId": "C",
       "explanation": "O STF declarou inconstitucional o art. 12, § 10, afastando essa detração."
@@ -338,26 +173,11 @@
       "origin": "authorial",
       "prompt": "Qual afirmação descreve corretamente o afastamento cautelar do agente previsto no art. 20?",
       "options": [
-        {
-          "id": "A",
-          "text": "É sanção definitiva e implica perda da remuneração."
-        },
-        {
-          "id": "B",
-          "text": "Pode durar indefinidamente sem motivação."
-        },
-        {
-          "id": "C",
-          "text": "Exige condenação transitada em julgado."
-        },
-        {
-          "id": "D",
-          "text": "Pode ocorrer sem prejuízo da remuneração, por até 90 dias, prorrogável uma vez, se necessário à instrução ou para evitar novos ilícitos iminentes."
-        },
-        {
-          "id": "E",
-          "text": "Somente pode ser decretado por tribunal de contas."
-        }
+        {"id": "A", "text": "É sanção definitiva e implica perda da remuneração."},
+        {"id": "B", "text": "Pode durar indefinidamente sem motivação."},
+        {"id": "C", "text": "Exige condenação transitada em julgado."},
+        {"id": "D", "text": "Pode ocorrer sem prejuízo da remuneração, por até 90 dias, prorrogável uma vez, se necessário à instrução ou para evitar novos ilícitos iminentes."},
+        {"id": "E", "text": "Somente pode ser decretado por tribunal de contas."}
       ],
       "correctOptionId": "D",
       "explanation": "O afastamento é cautelar, remunerado, temporário e sujeito a motivação."
@@ -368,26 +188,11 @@
       "origin": "authorial",
       "prompt": "Qual fator integra expressamente a dosimetria do art. 17-C?",
       "options": [
-        {
-          "id": "A",
-          "text": "Natureza, gravidade, impacto, dano, proveito, circunstâncias e atuação para minorar prejuízos."
-        },
-        {
-          "id": "B",
-          "text": "Somente a opinião pública sobre o réu."
-        },
-        {
-          "id": "C",
-          "text": "A presunção de dolo decorrente do cargo."
-        },
-        {
-          "id": "D",
-          "text": "A rejeição de contas como condenação automática."
-        },
-        {
-          "id": "E",
-          "text": "A filiação partidária como agravante necessária."
-        }
+        {"id": "A", "text": "Natureza, gravidade, impacto, dano, proveito, circunstâncias e atuação para minorar prejuízos."},
+        {"id": "B", "text": "Somente a opinião pública sobre o réu."},
+        {"id": "C", "text": "A presunção de dolo decorrente do cargo."},
+        {"id": "D", "text": "A rejeição de contas como condenação automática."},
+        {"id": "E", "text": "A filiação partidária como agravante necessária."}
       ],
       "correctOptionId": "A",
       "explanation": "A dosimetria exige critérios concretos e individualizados, não automatismos baseados em cargo ou rejeição de contas."
@@ -398,26 +203,11 @@
       "origin": "authorial",
       "prompt": "Quanto ao terceiro demandado por improbidade, após o julgamento do STF em 2026, é correto afirmar que",
       "options": [
-        {
-          "id": "A",
-          "text": "a sanção pessoal pode ser solidária sempre que houver vários réus."
-        },
-        {
-          "id": "B",
-          "text": "a mera relação contratual gera responsabilidade objetiva."
-        },
-        {
-          "id": "C",
-          "text": "a sanção deve ser individualizada segundo sua atuação; a solidariedade é vedada para sanções, mas pode existir na responsabilidade patrimonial, sem exigir benefício direto próprio como requisito autônomo."
-        },
-        {
-          "id": "D",
-          "text": "sem benefício direto próprio jamais pode haver qualquer responsabilidade patrimonial."
-        },
-        {
-          "id": "E",
-          "text": "o terceiro recebe necessariamente a mesma sanção do agente público."
-        }
+        {"id": "A", "text": "a sanção pessoal pode ser solidária sempre que houver vários réus."},
+        {"id": "B", "text": "a mera relação contratual gera responsabilidade objetiva."},
+        {"id": "C", "text": "a sanção deve ser individualizada segundo sua atuação; a solidariedade é vedada para sanções, mas pode existir na responsabilidade patrimonial, sem exigir benefício direto próprio como requisito autônomo."},
+        {"id": "D", "text": "sem benefício direto próprio jamais pode haver qualquer responsabilidade patrimonial."},
+        {"id": "E", "text": "o terceiro recebe necessariamente a mesma sanção do agente público."}
       ],
       "correctOptionId": "C",
       "explanation": "O STF declarou inconstitucional, com efeitos ex nunc, a expressão 'e dos benefícios diretos' do art. 17-C, § 2º, preservando a individualização sancionatória e admitindo solidariedade patrimonial."
@@ -428,26 +218,11 @@
       "origin": "authorial",
       "prompt": "Como se relacionam individualização das sanções e ressarcimento entre vários causadores do dano?",
       "options": [
-        {
-          "id": "A",
-          "text": "Ambos são necessariamente divididos em quotas iguais."
-        },
-        {
-          "id": "B",
-          "text": "Ambos são sempre solidários."
-        },
-        {
-          "id": "C",
-          "text": "As sanções são individuais, mas a recomposição do dano pode ser solidária conforme o caso."
-        },
-        {
-          "id": "D",
-          "text": "A solidariedade elimina a necessidade de provar participação."
-        },
-        {
-          "id": "E",
-          "text": "O ressarcimento só pode ser cobrado do agente público principal."
-        }
+        {"id": "A", "text": "Ambos são necessariamente divididos em quotas iguais."},
+        {"id": "B", "text": "Ambos são sempre solidários."},
+        {"id": "C", "text": "As sanções são individuais, mas a recomposição do dano pode ser solidária conforme o caso."},
+        {"id": "D", "text": "A solidariedade elimina a necessidade de provar participação."},
+        {"id": "E", "text": "O ressarcimento só pode ser cobrado do agente público principal."}
       ],
       "correctOptionId": "C",
       "explanation": "Sanção pessoal e responsabilidade patrimonial seguem lógicas distintas; a solidariedade reparatória não dispensa a demonstração da responsabilidade."
@@ -458,26 +233,11 @@
       "origin": "authorial",
       "prompt": "Na aplicação simultânea da LIA e da Lei Anticorrupção a uma pessoa jurídica, qual princípio deve ser observado?",
       "options": [
-        {
-          "id": "A",
-          "text": "Responsabilidade penal automática."
-        },
-        {
-          "id": "B",
-          "text": "Irretroatividade absoluta de normas processuais."
-        },
-        {
-          "id": "C",
-          "text": "Sigilo obrigatório da sentença."
-        },
-        {
-          "id": "D",
-          "text": "Non bis in idem, evitando duplicação sancionatória pelo mesmo fundamento."
-        },
-        {
-          "id": "E",
-          "text": "Obrigatoriedade de aplicar sempre a sanção mais grave dos dois regimes."
-        }
+        {"id": "A", "text": "Responsabilidade penal automática."},
+        {"id": "B", "text": "Irretroatividade absoluta de normas processuais."},
+        {"id": "C", "text": "Sigilo obrigatório da sentença."},
+        {"id": "D", "text": "Non bis in idem, evitando duplicação sancionatória pelo mesmo fundamento."},
+        {"id": "E", "text": "Obrigatoriedade de aplicar sempre a sanção mais grave dos dois regimes."}
       ],
       "correctOptionId": "D",
       "explanation": "A coordenação entre LIA e Lei nº 12.846/2013 deve evitar duplicação sancionatória, sem apagar a reparação do dano."
@@ -488,26 +248,11 @@
       "origin": "authorial",
       "prompt": "Qual distinção entre ressarcimento e multa civil está correta?",
       "options": [
-        {
-          "id": "A",
-          "text": "Ressarcimento recompõe dano; multa civil reprova e previne como sanção."
-        },
-        {
-          "id": "B",
-          "text": "Ambos são sempre calculados sobre 24 remunerações."
-        },
-        {
-          "id": "C",
-          "text": "Ressarcimento é cautelar e multa é reparatória."
-        },
-        {
-          "id": "D",
-          "text": "São nomes diferentes para o mesmo efeito."
-        },
-        {
-          "id": "E",
-          "text": "Multa civil só existe quando houver dano ao erário."
-        }
+        {"id": "A", "text": "Ressarcimento recompõe dano; multa civil reprova e previne como sanção."},
+        {"id": "B", "text": "Ambos são sempre calculados sobre 24 remunerações."},
+        {"id": "C", "text": "Ressarcimento é cautelar e multa é reparatória."},
+        {"id": "D", "text": "São nomes diferentes para o mesmo efeito."},
+        {"id": "E", "text": "Multa civil só existe quando houver dano ao erário."}
       ],
       "correctOptionId": "A",
       "explanation": "Ressarcimento é reparatório; multa civil é sanção patrimonial."
@@ -518,26 +263,11 @@
       "origin": "authorial",
       "prompt": "Se o ente prejudicado não promover liquidação e cumprimento do ressarcimento após a condenação, quando o Ministério Público assume essa atuação?",
       "options": [
-        {
-          "id": "A",
-          "text": "Após 30 dias da sentença recorrível."
-        },
-        {
-          "id": "B",
-          "text": "Após seis meses de inércia contados do trânsito em julgado."
-        },
-        {
-          "id": "C",
-          "text": "Somente depois de cinco anos."
-        },
-        {
-          "id": "D",
-          "text": "Nunca, porque a legitimidade é exclusiva do ente."
-        },
-        {
-          "id": "E",
-          "text": "Imediatamente após a decisão de primeiro grau."
-        }
+        {"id": "A", "text": "Após 30 dias da sentença recorrível."},
+        {"id": "B", "text": "Após seis meses de inércia contados do trânsito em julgado."},
+        {"id": "C", "text": "Somente depois de cinco anos."},
+        {"id": "D", "text": "Nunca, porque a legitimidade é exclusiva do ente."},
+        {"id": "E", "text": "Imediatamente após a decisão de primeiro grau."}
       ],
       "correctOptionId": "B",
       "explanation": "O art. 18 prevê atuação subsidiária do Ministério Público após seis meses de inércia do ente prejudicado, contados do trânsito em julgado."
@@ -548,26 +278,11 @@
       "origin": "authorial",
       "prompt": "Na apuração do valor a ressarcir, como devem ser tratados os serviços efetivamente prestados?",
       "options": [
-        {
-          "id": "A",
-          "text": "São ignorados em qualquer hipótese."
-        },
-        {
-          "id": "B",
-          "text": "Duplicam automaticamente o valor do dano."
-        },
-        {
-          "id": "C",
-          "text": "Devem ser descontados para evitar enriquecimento sem causa, sem apagar sanções cabíveis."
-        },
-        {
-          "id": "D",
-          "text": "Transformam o ato em lícito."
-        },
-        {
-          "id": "E",
-          "text": "Eliminam automaticamente o dolo reconhecido na sentença."
-        }
+        {"id": "A", "text": "São ignorados em qualquer hipótese."},
+        {"id": "B", "text": "Duplicam automaticamente o valor do dano."},
+        {"id": "C", "text": "Devem ser descontados para evitar enriquecimento sem causa, sem apagar sanções cabíveis."},
+        {"id": "D", "text": "Transformam o ato em lícito."},
+        {"id": "E", "text": "Eliminam automaticamente o dolo reconhecido na sentença."}
       ],
       "correctOptionId": "C",
       "explanation": "O desconto ajusta a reparação ao prejuízo efetivo, sem convalidar o ato ou extinguir sanções."
@@ -578,26 +293,11 @@
       "origin": "authorial",
       "prompt": "Comprovada incapacidade financeira de quitar imediatamente o débito da condenação, qual providência é permitida?",
       "options": [
-        {
-          "id": "A",
-          "text": "Perdão automático do débito."
-        },
-        {
-          "id": "B",
-          "text": "Conversão em advertência."
-        },
-        {
-          "id": "C",
-          "text": "Parcelamento ilimitado sem correção."
-        },
-        {
-          "id": "D",
-          "text": "Parcelamento judicial em até 48 parcelas mensais corrigidas."
-        },
-        {
-          "id": "E",
-          "text": "Suspensão definitiva do cumprimento."
-        }
+        {"id": "A", "text": "Perdão automático do débito."},
+        {"id": "B", "text": "Conversão em advertência."},
+        {"id": "C", "text": "Parcelamento ilimitado sem correção."},
+        {"id": "D", "text": "Parcelamento judicial em até 48 parcelas mensais corrigidas."},
+        {"id": "E", "text": "Suspensão definitiva do cumprimento."}
       ],
       "correctOptionId": "D",
       "explanation": "O art. 18 admite até 48 parcelas mensais corrigidas quando demonstrada incapacidade financeira de pagamento imediato."
@@ -608,26 +308,11 @@
       "origin": "authorial",
       "prompt": "Na unificação por continuidade de ilícito, qual solução prevê o art. 18-A?",
       "options": [
-        {
-          "id": "A",
-          "text": "Maior sanção aumentada de um terço ou soma das sanções, adotando-se o resultado mais benéfico ao réu."
-        },
-        {
-          "id": "B",
-          "text": "Sempre a soma integral, ainda que mais gravosa."
-        },
-        {
-          "id": "C",
-          "text": "Extinção de todas as sanções."
-        },
-        {
-          "id": "D",
-          "text": "Aplicação exclusiva da sanção mais antiga, sem aumento."
-        },
-        {
-          "id": "E",
-          "text": "Aplicação obrigatória do dobro da maior sanção."
-        }
+        {"id": "A", "text": "Maior sanção aumentada de um terço ou soma das sanções, adotando-se o resultado mais benéfico ao réu."},
+        {"id": "B", "text": "Sempre a soma integral, ainda que mais gravosa."},
+        {"id": "C", "text": "Extinção de todas as sanções."},
+        {"id": "D", "text": "Aplicação exclusiva da sanção mais antiga, sem aumento."},
+        {"id": "E", "text": "Aplicação obrigatória do dobro da maior sanção."}
       ],
       "correctOptionId": "A",
       "explanation": "Na continuidade, comparam-se a maior sanção acrescida de um terço e a soma, aplicando-se a solução mais benéfica."
@@ -638,26 +323,11 @@
       "origin": "authorial",
       "prompt": "Qual limite total se aplica, na unificação, à suspensão dos direitos políticos e à proibição de contratar ou receber benefícios?",
       "options": [
-        {
-          "id": "A",
-          "text": "Dez anos."
-        },
-        {
-          "id": "B",
-          "text": "Vinte anos."
-        },
-        {
-          "id": "C",
-          "text": "Quarenta anos."
-        },
-        {
-          "id": "D",
-          "text": "Não existe limite."
-        },
-        {
-          "id": "E",
-          "text": "Oito anos."
-        }
+        {"id": "A", "text": "Dez anos."},
+        {"id": "B", "text": "Vinte anos."},
+        {"id": "C", "text": "Quarenta anos."},
+        {"id": "D", "text": "Não existe limite."},
+        {"id": "E", "text": "Oito anos."}
       ],
       "correctOptionId": "B",
       "explanation": "O art. 18-A fixa máximo total de 20 anos para essas sanções na unificação."
@@ -668,26 +338,11 @@
       "origin": "authorial",
       "prompt": "Quem pode representar à autoridade administrativa para que seja investigado possível ato de improbidade?",
       "options": [
-        {
-          "id": "A",
-          "text": "Somente servidor efetivo."
-        },
-        {
-          "id": "B",
-          "text": "Somente o Tribunal de Contas."
-        },
-        {
-          "id": "C",
-          "text": "Qualquer pessoa, mediante representação com os requisitos legais."
-        },
-        {
-          "id": "D",
-          "text": "Apenas o Ministério Público."
-        },
-        {
-          "id": "E",
-          "text": "Somente a pessoa jurídica lesada."
-        }
+        {"id": "A", "text": "Somente servidor efetivo."},
+        {"id": "B", "text": "Somente o Tribunal de Contas."},
+        {"id": "C", "text": "Qualquer pessoa, mediante representação com os requisitos legais."},
+        {"id": "D", "text": "Apenas o Ministério Público."},
+        {"id": "E", "text": "Somente a pessoa jurídica lesada."}
       ],
       "correctOptionId": "C",
       "explanation": "O art. 14 permite representação por qualquer pessoa, desde que observados os requisitos legais."
@@ -698,26 +353,11 @@
       "origin": "authorial",
       "prompt": "A autoridade rejeitou representação administrativa por falta de assinatura e qualificação. Qual efeito decorre?",
       "options": [
-        {
-          "id": "A",
-          "text": "Forma-se coisa julgada sobre a inexistência do fato."
-        },
-        {
-          "id": "B",
-          "text": "Fica proibida qualquer nova apuração."
-        },
-        {
-          "id": "C",
-          "text": "O Ministério Público deve arquivar automaticamente."
-        },
-        {
-          "id": "D",
-          "text": "A rejeição fundamentada não impede representação ao Ministério Público."
-        },
-        {
-          "id": "E",
-          "text": "O fato passa a ser automaticamente atípico."
-        }
+        {"id": "A", "text": "Forma-se coisa julgada sobre a inexistência do fato."},
+        {"id": "B", "text": "Fica proibida qualquer nova apuração."},
+        {"id": "C", "text": "O Ministério Público deve arquivar automaticamente."},
+        {"id": "D", "text": "A rejeição fundamentada não impede representação ao Ministério Público."},
+        {"id": "E", "text": "O fato passa a ser automaticamente atípico."}
       ],
       "correctOptionId": "D",
       "explanation": "A falta dos requisitos autoriza rejeição administrativa, mas não impede representação ao Ministério Público."
@@ -728,26 +368,11 @@
       "origin": "authorial",
       "prompt": "A quem a comissão processante deve comunicar a existência do procedimento administrativo de apuração?",
       "options": [
-        {
-          "id": "A",
-          "text": "Ao Ministério Público e ao Tribunal ou Conselho de Contas."
-        },
-        {
-          "id": "B",
-          "text": "Apenas ao chefe do Executivo."
-        },
-        {
-          "id": "C",
-          "text": "Somente à polícia judiciária."
-        },
-        {
-          "id": "D",
-          "text": "Exclusivamente ao investigado."
-        },
-        {
-          "id": "E",
-          "text": "Apenas à Advocacia-Geral da União."
-        }
+        {"id": "A", "text": "Ao Ministério Público e ao Tribunal ou Conselho de Contas."},
+        {"id": "B", "text": "Apenas ao chefe do Executivo."},
+        {"id": "C", "text": "Somente à polícia judiciária."},
+        {"id": "D", "text": "Exclusivamente ao investigado."},
+        {"id": "E", "text": "Apenas à Advocacia-Geral da União."}
       ],
       "correctOptionId": "A",
       "explanation": "O art. 15 prevê comunicação ao Ministério Público e ao órgão de contas, que podem acompanhar o procedimento."
@@ -758,26 +383,11 @@
       "origin": "authorial",
       "prompt": "Quem possui legitimidade ativa para ação de improbidade após as ADIs 7042 e 7043?",
       "options": [
-        {
-          "id": "A",
-          "text": "Exclusivamente o Ministério Público."
-        },
-        {
-          "id": "B",
-          "text": "Ministério Público e pessoa jurídica pública interessada, de modo concorrente e disjuntivo."
-        },
-        {
-          "id": "C",
-          "text": "Somente qualquer cidadão."
-        },
-        {
-          "id": "D",
-          "text": "Exclusivamente o Tribunal de Contas."
-        },
-        {
-          "id": "E",
-          "text": "Somente a Defensoria Pública."
-        }
+        {"id": "A", "text": "Exclusivamente o Ministério Público."},
+        {"id": "B", "text": "Ministério Público e pessoa jurídica pública interessada, de modo concorrente e disjuntivo."},
+        {"id": "C", "text": "Somente qualquer cidadão."},
+        {"id": "D", "text": "Exclusivamente o Tribunal de Contas."},
+        {"id": "E", "text": "Somente a Defensoria Pública."}
       ],
       "correctOptionId": "B",
       "explanation": "O STF reconheceu legitimidade concorrente e disjuntiva do Ministério Público e da pessoa jurídica pública interessada."
@@ -788,26 +398,11 @@
       "origin": "authorial",
       "prompt": "O que significa dizer que a legitimidade do MP e do ente público é concorrente e disjuntiva?",
       "options": [
-        {
-          "id": "A",
-          "text": "A ação exige assinatura conjunta dos dois."
-        },
-        {
-          "id": "B",
-          "text": "O ente depende de autorização prévia do MP."
-        },
-        {
-          "id": "C",
-          "text": "Cada legitimado pode agir por iniciativa própria, sem litisconsórcio ativo obrigatório."
-        },
-        {
-          "id": "D",
-          "text": "Somente um deles pode atuar em todo o país."
-        },
-        {
-          "id": "E",
-          "text": "A atuação do ente só começa depois de sentença."
-        }
+        {"id": "A", "text": "A ação exige assinatura conjunta dos dois."},
+        {"id": "B", "text": "O ente depende de autorização prévia do MP."},
+        {"id": "C", "text": "Cada legitimado pode agir por iniciativa própria, sem litisconsórcio ativo obrigatório."},
+        {"id": "D", "text": "Somente um deles pode atuar em todo o país."},
+        {"id": "E", "text": "A atuação do ente só começa depois de sentença."}
       ],
       "correctOptionId": "C",
       "explanation": "Cada legitimado pode atuar autonomamente, sem ação conjunta obrigatória ou subordinação ao outro."
@@ -818,26 +413,11 @@
       "origin": "authorial",
       "prompt": "Em ação de improbidade ajuizada pelo Ministério Público, como participa a pessoa jurídica interessada?",
       "options": [
-        {
-          "id": "A",
-          "text": "É proibida de ingressar no processo."
-        },
-        {
-          "id": "B",
-          "text": "Deve ser ré obrigatória."
-        },
-        {
-          "id": "C",
-          "text": "Substitui automaticamente o Ministério Público."
-        },
-        {
-          "id": "D",
-          "text": "É intimada para, se quiser, intervir, sem que isso elimine a legitimidade ativa autônoma reconhecida pelo STF."
-        },
-        {
-          "id": "E",
-          "text": "Só pode atuar depois do trânsito em julgado."
-        }
+        {"id": "A", "text": "É proibida de ingressar no processo."},
+        {"id": "B", "text": "Deve ser ré obrigatória."},
+        {"id": "C", "text": "Substitui automaticamente o Ministério Público."},
+        {"id": "D", "text": "É intimada para, se quiser, intervir, sem que isso elimine a legitimidade ativa autônoma reconhecida pelo STF."},
+        {"id": "E", "text": "Só pode atuar depois do trânsito em julgado."}
       ],
       "correctOptionId": "D",
       "explanation": "A intimação para intervenção convive com a legitimidade autônoma da pessoa jurídica pública interessada."
@@ -848,26 +428,11 @@
       "origin": "authorial",
       "prompt": "Qual é o foro legal da ação de improbidade?",
       "options": [
-        {
-          "id": "A",
-          "text": "O local do dano ou da pessoa jurídica prejudicada."
-        },
-        {
-          "id": "B",
-          "text": "Sempre o domicílio do réu."
-        },
-        {
-          "id": "C",
-          "text": "Exclusivamente o Distrito Federal."
-        },
-        {
-          "id": "D",
-          "text": "A sede do Tribunal de Contas."
-        },
-        {
-          "id": "E",
-          "text": "Sempre a capital do estado."
-        }
+        {"id": "A", "text": "O local do dano ou da pessoa jurídica prejudicada."},
+        {"id": "B", "text": "Sempre o domicílio do réu."},
+        {"id": "C", "text": "Exclusivamente o Distrito Federal."},
+        {"id": "D", "text": "A sede do Tribunal de Contas."},
+        {"id": "E", "text": "Sempre a capital do estado."}
       ],
       "correctOptionId": "A",
       "explanation": "A LIA adota o foro do local do dano ou da pessoa jurídica prejudicada."
@@ -878,26 +443,11 @@
       "origin": "authorial",
       "prompt": "Qual conteúdo mínimo específico deve constar da petição inicial da ação de improbidade?",
       "options": [
-        {
-          "id": "A",
-          "text": "Apenas a transcrição abstrata da lei."
-        },
-        {
-          "id": "B",
-          "text": "Individualização das condutas e elementos mínimos de fato, autoria e dolo, ou justificativa fundamentada da impossibilidade probatória."
-        },
-        {
-          "id": "C",
-          "text": "Condenação anterior do Tribunal de Contas como requisito absoluto."
-        },
-        {
-          "id": "D",
-          "text": "Prova de dano em todo tipo do art. 11."
-        },
-        {
-          "id": "E",
-          "text": "Confissão do réu como condição de procedibilidade."
-        }
+        {"id": "A", "text": "Apenas a transcrição abstrata da lei."},
+        {"id": "B", "text": "Individualização das condutas e elementos mínimos de fato, autoria e dolo, ou justificativa fundamentada da impossibilidade probatória."},
+        {"id": "C", "text": "Condenação anterior do Tribunal de Contas como requisito absoluto."},
+        {"id": "D", "text": "Prova de dano em todo tipo do art. 11."},
+        {"id": "E", "text": "Confissão do réu como condição de procedibilidade."}
       ],
       "correctOptionId": "B",
       "explanation": "A inicial deve evitar imputações genéricas e apresentar suporte mínimo para fato, autoria e dolo, ou justificar a impossibilidade."
@@ -908,26 +458,11 @@
       "origin": "authorial",
       "prompt": "Qual é o prazo comum para contestação na ação de improbidade?",
       "options": [
-        {
-          "id": "A",
-          "text": "Cinco dias."
-        },
-        {
-          "id": "B",
-          "text": "Quinze dias improrrogáveis desde a investigação."
-        },
-        {
-          "id": "C",
-          "text": "Trinta dias, contado na forma do CPC."
-        },
-        {
-          "id": "D",
-          "text": "Noventa dias."
-        },
-        {
-          "id": "E",
-          "text": "Sessenta dias."
-        }
+        {"id": "A", "text": "Cinco dias."},
+        {"id": "B", "text": "Quinze dias improrrogáveis desde a investigação."},
+        {"id": "C", "text": "Trinta dias, contado na forma do CPC."},
+        {"id": "D", "text": "Noventa dias."},
+        {"id": "E", "text": "Sessenta dias."}
       ],
       "correctOptionId": "C",
       "explanation": "O art. 17 fixa prazo comum de 30 dias para contestação."
@@ -938,26 +473,11 @@
       "origin": "authorial",
       "prompt": "Havendo perspectiva de solução consensual, por quanto tempo as partes podem pedir interrupção do prazo para contestar?",
       "options": [
-        {
-          "id": "A",
-          "text": "Por prazo ilimitado."
-        },
-        {
-          "id": "B",
-          "text": "Por cinco anos."
-        },
-        {
-          "id": "C",
-          "text": "Por no máximo 30 dias."
-        },
-        {
-          "id": "D",
-          "text": "Por no máximo 90 dias."
-        },
-        {
-          "id": "E",
-          "text": "Por no máximo 180 dias."
-        }
+        {"id": "A", "text": "Por prazo ilimitado."},
+        {"id": "B", "text": "Por cinco anos."},
+        {"id": "C", "text": "Por no máximo 30 dias."},
+        {"id": "D", "text": "Por no máximo 90 dias."},
+        {"id": "E", "text": "Por no máximo 180 dias."}
       ],
       "correctOptionId": "D",
       "explanation": "A LIA admite interrupção por até 90 dias para viabilizar solução consensual."
@@ -968,26 +488,11 @@
       "origin": "authorial",
       "prompt": "Qual efeito a revelia produz sobre os fatos alegados pelo autor na ação de improbidade?",
       "options": [
-        {
-          "id": "A",
-          "text": "Não produz presunção de veracidade."
-        },
-        {
-          "id": "B",
-          "text": "Gera condenação automática."
-        },
-        {
-          "id": "C",
-          "text": "Presume dolo e dano."
-        },
-        {
-          "id": "D",
-          "text": "Dispensa sentença fundamentada."
-        },
-        {
-          "id": "E",
-          "text": "Impõe automaticamente a multa civil máxima."
-        }
+        {"id": "A", "text": "Não produz presunção de veracidade."},
+        {"id": "B", "text": "Gera condenação automática."},
+        {"id": "C", "text": "Presume dolo e dano."},
+        {"id": "D", "text": "Dispensa sentença fundamentada."},
+        {"id": "E", "text": "Impõe automaticamente a multa civil máxima."}
       ],
       "correctOptionId": "A",
       "explanation": "A revelia não substitui a prova dos elementos da improbidade."
@@ -998,26 +503,11 @@
       "origin": "authorial",
       "prompt": "Como a LIA trata a distribuição dinâmica do ônus da prova contra o réu?",
       "options": [
-        {
-          "id": "A",
-          "text": "É obrigatória em qualquer ação."
-        },
-        {
-          "id": "B",
-          "text": "Não se aplica nos termos do art. 373, §§ 1º e 2º, do CPC, sem afastar ordens de exibição documental."
-        },
-        {
-          "id": "C",
-          "text": "Substitui a prova do dolo."
-        },
-        {
-          "id": "D",
-          "text": "Depende apenas de pedido do Tribunal de Contas."
-        },
-        {
-          "id": "E",
-          "text": "É presumida quando houver dano elevado."
-        }
+        {"id": "A", "text": "É obrigatória em qualquer ação."},
+        {"id": "B", "text": "Não se aplica nos termos do art. 373, §§ 1º e 2º, do CPC, sem afastar ordens de exibição documental."},
+        {"id": "C", "text": "Substitui a prova do dolo."},
+        {"id": "D", "text": "Depende apenas de pedido do Tribunal de Contas."},
+        {"id": "E", "text": "É presumida quando houver dano elevado."}
       ],
       "correctOptionId": "B",
       "explanation": "A vedação de distribuição dinâmica contra o réu não autoriza descumprir ordens judiciais de apresentação de documentos."
@@ -1028,26 +518,11 @@
       "origin": "authorial",
       "prompt": "Qual consequência decorre do silêncio do réu em seu interrogatório na ação de improbidade?",
       "options": [
-        {
-          "id": "A",
-          "text": "Confissão ficta obrigatória."
-        },
-        {
-          "id": "B",
-          "text": "Presunção absoluta de enriquecimento ilícito."
-        },
-        {
-          "id": "C",
-          "text": "Nenhuma confissão automática, pois silêncio ou recusa não têm esse efeito."
-        },
-        {
-          "id": "D",
-          "text": "Perda imediata da função."
-        },
-        {
-          "id": "E",
-          "text": "Inversão automática do ônus da prova."
-        }
+        {"id": "A", "text": "Confissão ficta obrigatória."},
+        {"id": "B", "text": "Presunção absoluta de enriquecimento ilícito."},
+        {"id": "C", "text": "Nenhuma confissão automática, pois silêncio ou recusa não têm esse efeito."},
+        {"id": "D", "text": "Perda imediata da função."},
+        {"id": "E", "text": "Inversão automática do ônus da prova."}
       ],
       "correctOptionId": "C",
       "explanation": "Silêncio ou recusa não importam confissão; a condenação continua dependente de prova."
@@ -1058,26 +533,11 @@
       "origin": "authorial",
       "prompt": "Após as ADIs 7156 e 7236, qual é o limite da qualificação jurídica feita pelo juiz?",
       "options": [
-        {
-          "id": "A",
-          "text": "O juiz está preso ao artigo indicado pelo autor, ainda que os fatos se enquadrem em outro tipo."
-        },
-        {
-          "id": "B",
-          "text": "Pode inventar fatos não narrados, sem contraditório."
-        },
-        {
-          "id": "C",
-          "text": "Pode condenar sem prova porque conhece o direito."
-        },
-        {
-          "id": "D",
-          "text": "Pode atribuir enquadramento jurídico adequado aos mesmos fatos, respeitando contraditório e defesa."
-        },
-        {
-          "id": "E",
-          "text": "Pode substituir fatos narrados por outros extraídos de processo diverso."
-        }
+        {"id": "A", "text": "O juiz está preso ao artigo indicado pelo autor, ainda que os fatos se enquadrem em outro tipo."},
+        {"id": "B", "text": "Pode inventar fatos não narrados, sem contraditório."},
+        {"id": "C", "text": "Pode condenar sem prova porque conhece o direito."},
+        {"id": "D", "text": "Pode atribuir enquadramento jurídico adequado aos mesmos fatos, respeitando contraditório e defesa."},
+        {"id": "E", "text": "Pode substituir fatos narrados por outros extraídos de processo diverso."}
       ],
       "correctOptionId": "D",
       "explanation": "O STF afastou a vinculação rígida à capitulação jurídica, sem permitir alteração do núcleo fático ou surpresa processual."
@@ -1088,26 +548,11 @@
       "origin": "authorial",
       "prompt": "Qual recurso a LIA admite contra decisões interlocutórias na ação de improbidade?",
       "options": [
-        {
-          "id": "A",
-          "text": "Agravo de instrumento."
-        },
-        {
-          "id": "B",
-          "text": "Somente recurso extraordinário."
-        },
-        {
-          "id": "C",
-          "text": "Reexame necessário."
-        },
-        {
-          "id": "D",
-          "text": "Nenhum recurso."
-        },
-        {
-          "id": "E",
-          "text": "Apenas embargos infringentes."
-        }
+        {"id": "A", "text": "Agravo de instrumento."},
+        {"id": "B", "text": "Somente recurso extraordinário."},
+        {"id": "C", "text": "Reexame necessário."},
+        {"id": "D", "text": "Nenhum recurso."},
+        {"id": "E", "text": "Apenas embargos infringentes."}
       ],
       "correctOptionId": "A",
       "explanation": "A LIA prevê agravo de instrumento contra decisões interlocutórias."
@@ -1118,26 +563,11 @@
       "origin": "authorial",
       "prompt": "A sentença de improcedência em ação de improbidade está sujeita a remessa necessária?",
       "options": [
-        {
-          "id": "A",
-          "text": "Sim, sempre."
-        },
-        {
-          "id": "B",
-          "text": "Não, a LIA afasta o reexame obrigatório."
-        },
-        {
-          "id": "C",
-          "text": "Somente se o MP recorrer."
-        },
-        {
-          "id": "D",
-          "text": "Somente em ação municipal."
-        },
-        {
-          "id": "E",
-          "text": "Somente se o dano superar determinado valor."
-        }
+        {"id": "A", "text": "Sim, sempre."},
+        {"id": "B", "text": "Não, a LIA afasta o reexame obrigatório."},
+        {"id": "C", "text": "Somente se o MP recorrer."},
+        {"id": "D", "text": "Somente em ação municipal."},
+        {"id": "E", "text": "Somente se o dano superar determinado valor."}
       ],
       "correctOptionId": "B",
       "explanation": "A LIA afasta a remessa necessária, sem impedir recursos voluntários."
@@ -1148,26 +578,11 @@
       "origin": "authorial",
       "prompt": "A assessoria jurídica que aprovou previamente o ato é sempre obrigada a defender o agente demandado?",
       "options": [
-        {
-          "id": "A",
-          "text": "Sim, mesmo sem previsão legal específica."
-        },
-        {
-          "id": "B",
-          "text": "Sim, e o agente escolhe qualquer advogado público."
-        },
-        {
-          "id": "C",
-          "text": "Não; o STF afastou a obrigatoriedade, embora lei específica possa autorizar representação."
-        },
-        {
-          "id": "D",
-          "text": "Não, porque a defesa é proibida em qualquer hipótese."
-        },
-        {
-          "id": "E",
-          "text": "Sim, mas somente depois do trânsito em julgado."
-        }
+        {"id": "A", "text": "Sim, mesmo sem previsão legal específica."},
+        {"id": "B", "text": "Sim, e o agente escolhe qualquer advogado público."},
+        {"id": "C", "text": "Não; o STF afastou a obrigatoriedade, embora lei específica possa autorizar representação."},
+        {"id": "D", "text": "Não, porque a defesa é proibida em qualquer hipótese."},
+        {"id": "E", "text": "Sim, mas somente depois do trânsito em julgado."}
       ],
       "correctOptionId": "C",
       "explanation": "Nas ADIs 7042 e 7043, o STF afastou o dever automático de defesa pela assessoria jurídica."
@@ -1178,26 +593,11 @@
       "origin": "authorial",
       "prompt": "Qual é a natureza da ação de improbidade segundo a Constituição e o STF?",
       "options": [
-        {
-          "id": "A",
-          "text": "Penal e inquisitorial."
-        },
-        {
-          "id": "B",
-          "text": "Administrativa sem jurisdição."
-        },
-        {
-          "id": "C",
-          "text": "Ação popular genérica."
-        },
-        {
-          "id": "D",
-          "text": "Civil, repressiva e sancionatória, voltada a atos específicos de improbidade."
-        },
-        {
-          "id": "E",
-          "text": "Tributária, destinada apenas a recuperar receitas."
-        }
+        {"id": "A", "text": "Penal e inquisitorial."},
+        {"id": "B", "text": "Administrativa sem jurisdição."},
+        {"id": "C", "text": "Ação popular genérica."},
+        {"id": "D", "text": "Civil, repressiva e sancionatória, voltada a atos específicos de improbidade."},
+        {"id": "E", "text": "Tributária, destinada apenas a recuperar receitas."}
       ],
       "correctOptionId": "D",
       "explanation": "A ação tem natureza civil e sancionatória e não substitui ação civil pública genérica."
@@ -1208,26 +608,11 @@
       "origin": "authorial",
       "prompt": "Qual absolvição criminal, entre as alternativas, não encerra automaticamente a ação de improbidade?",
       "options": [
-        {
-          "id": "A",
-          "text": "Absolvição por insuficiência de provas."
-        },
-        {
-          "id": "B",
-          "text": "Decisão transitada que reconhece inexistência do fato."
-        },
-        {
-          "id": "C",
-          "text": "Decisão transitada que reconhece que o réu não concorreu para a infração penal."
-        },
-        {
-          "id": "D",
-          "text": "Reconhecimento de legítima defesa nas hipóteses fixadas pelo STF."
-        },
-        {
-          "id": "E",
-          "text": "Reconhecimento de estado de necessidade nas hipóteses fixadas pelo STF."
-        }
+        {"id": "A", "text": "Absolvição por insuficiência de provas."},
+        {"id": "B", "text": "Decisão transitada que reconhece inexistência do fato."},
+        {"id": "C", "text": "Decisão transitada que reconhece que o réu não concorreu para a infração penal."},
+        {"id": "D", "text": "Reconhecimento de legítima defesa nas hipóteses fixadas pelo STF."},
+        {"id": "E", "text": "Reconhecimento de estado de necessidade nas hipóteses fixadas pelo STF."}
       ],
       "correctOptionId": "A",
       "explanation": "Insuficiência probatória não extingue automaticamente a improbidade. O STF reconheceu efeito impeditivo em hipóteses qualificadas, inclusive inexistência do fato, ausência de participação e excludentes do art. 65 do CPP, como estado de necessidade e legítima defesa."
@@ -1238,26 +623,11 @@
       "origin": "authorial",
       "prompt": "Quais resultados mínimos devem decorrer do acordo de não persecução civil?",
       "options": [
-        {
-          "id": "A",
-          "text": "Somente pedido público de desculpas."
-        },
-        {
-          "id": "B",
-          "text": "Ressarcimento integral do dano e reversão da vantagem indevida ao ente lesado."
-        },
-        {
-          "id": "C",
-          "text": "Apenas pagamento de multa simbólica."
-        },
-        {
-          "id": "D",
-          "text": "Perda automática de todos os direitos políticos."
-        },
-        {
-          "id": "E",
-          "text": "Suspensão obrigatória de qualquer contrato privado do acordante."
-        }
+        {"id": "A", "text": "Somente pedido público de desculpas."},
+        {"id": "B", "text": "Ressarcimento integral do dano e reversão da vantagem indevida ao ente lesado."},
+        {"id": "C", "text": "Apenas pagamento de multa simbólica."},
+        {"id": "D", "text": "Perda automática de todos os direitos políticos."},
+        {"id": "E", "text": "Suspensão obrigatória de qualquer contrato privado do acordante."}
       ],
       "correctOptionId": "B",
       "explanation": "O art. 17-B estabelece ressarcimento integral e reversão da vantagem indevida como núcleo material mínimo do ANPC, quando cabíveis."
@@ -1268,26 +638,11 @@
       "origin": "authorial",
       "prompt": "Em quais momentos o ANPC pode ser celebrado?",
       "options": [
-        {
-          "id": "A",
-          "text": "Somente antes da investigação."
-        },
-        {
-          "id": "B",
-          "text": "Apenas antes da contestação."
-        },
-        {
-          "id": "C",
-          "text": "Na investigação, no curso da ação ou na execução da sentença."
-        },
-        {
-          "id": "D",
-          "text": "Somente após o cumprimento integral de todas as sanções."
-        },
-        {
-          "id": "E",
-          "text": "Apenas depois do trânsito em julgado."
-        }
+        {"id": "A", "text": "Somente antes da investigação."},
+        {"id": "B", "text": "Apenas antes da contestação."},
+        {"id": "C", "text": "Na investigação, no curso da ação ou na execução da sentença."},
+        {"id": "D", "text": "Somente após o cumprimento integral de todas as sanções."},
+        {"id": "E", "text": "Apenas depois do trânsito em julgado."}
       ],
       "correctOptionId": "C",
       "explanation": "A LIA admite ANPC na investigação, durante a ação e na execução."
@@ -1298,26 +653,11 @@
       "origin": "authorial",
       "prompt": "O ANPC celebrado antes do ajuizamento dispensa homologação judicial?",
       "options": [
-        {
-          "id": "A",
-          "text": "Sim, se houver ressarcimento."
-        },
-        {
-          "id": "B",
-          "text": "Sim, se o ente público concordar."
-        },
-        {
-          "id": "C",
-          "text": "Somente acordos na execução são homologados."
-        },
-        {
-          "id": "D",
-          "text": "Não; a homologação judicial é exigida antes ou depois do ajuizamento."
-        },
-        {
-          "id": "E",
-          "text": "Sim, se houver parecer do Tribunal de Contas."
-        }
+        {"id": "A", "text": "Sim, se houver ressarcimento."},
+        {"id": "B", "text": "Sim, se o ente público concordar."},
+        {"id": "C", "text": "Somente acordos na execução são homologados."},
+        {"id": "D", "text": "Não; a homologação judicial é exigida antes ou depois do ajuizamento."},
+        {"id": "E", "text": "Sim, se houver parecer do Tribunal de Contas."}
       ],
       "correctOptionId": "D",
       "explanation": "A homologação judicial é exigida independentemente do momento do acordo."
@@ -1328,26 +668,11 @@
       "origin": "authorial",
       "prompt": "No acordo ministerial anterior ao ajuizamento, qual controle interno a lei exige?",
       "options": [
-        {
-          "id": "A",
-          "text": "Aprovação em até 60 dias pelo órgão do MP competente para promoções de arquivamento."
-        },
-        {
-          "id": "B",
-          "text": "Aprovação do Tribunal de Contas em 90 dias."
-        },
-        {
-          "id": "C",
-          "text": "Referendo popular."
-        },
-        {
-          "id": "D",
-          "text": "Autorização do réu para a investigação."
-        },
-        {
-          "id": "E",
-          "text": "Aprovação do Congresso Nacional."
-        }
+        {"id": "A", "text": "Aprovação em até 60 dias pelo órgão do MP competente para promoções de arquivamento."},
+        {"id": "B", "text": "Aprovação do Tribunal de Contas em 90 dias."},
+        {"id": "C", "text": "Referendo popular."},
+        {"id": "D", "text": "Autorização do réu para a investigação."},
+        {"id": "E", "text": "Aprovação do Congresso Nacional."}
       ],
       "correctOptionId": "A",
       "explanation": "Para acordo ministerial pré-processual, a LIA prevê controle interno pelo órgão competente para arquivamentos em até 60 dias."
@@ -1358,26 +683,11 @@
       "origin": "authorial",
       "prompt": "A manifestação prévia do Tribunal de Contas em 90 dias é condição obrigatória para o ANPC?",
       "options": [
-        {
-          "id": "A",
-          "text": "Sim, em qualquer acordo."
-        },
-        {
-          "id": "B",
-          "text": "Não; o STF declarou inconstitucional essa etapa obrigatória, sem impedir apoio técnico do órgão."
-        },
-        {
-          "id": "C",
-          "text": "Sim, mas apenas se não houver dano."
-        },
-        {
-          "id": "D",
-          "text": "Somente o Tribunal de Contas pode celebrar o acordo."
-        },
-        {
-          "id": "E",
-          "text": "Sim, sempre que a pessoa jurídica lesada for municipal."
-        }
+        {"id": "A", "text": "Sim, em qualquer acordo."},
+        {"id": "B", "text": "Não; o STF declarou inconstitucional essa etapa obrigatória, sem impedir apoio técnico do órgão."},
+        {"id": "C", "text": "Sim, mas apenas se não houver dano."},
+        {"id": "D", "text": "Somente o Tribunal de Contas pode celebrar o acordo."},
+        {"id": "E", "text": "Sim, sempre que a pessoa jurídica lesada for municipal."}
       ],
       "correctOptionId": "B",
       "explanation": "O STF afastou a consulta obrigatória ao Tribunal de Contas como condição de procedibilidade do ANPC."
@@ -1388,26 +698,11 @@
       "origin": "authorial",
       "prompt": "Qual consequência legal decorre do descumprimento efetivo do ANPC?",
       "options": [
-        {
-          "id": "A",
-          "text": "Prisão civil automática."
-        },
-        {
-          "id": "B",
-          "text": "Impossibilidade eterna de qualquer acordo."
-        },
-        {
-          "id": "C",
-          "text": "Impedimento de novo ANPC por cinco anos, contado do conhecimento do descumprimento pelo Ministério Público."
-        },
-        {
-          "id": "D",
-          "text": "Conversão automática em absolvição."
-        },
-        {
-          "id": "E",
-          "text": "Perda automática dos direitos políticos por 14 anos."
-        }
+        {"id": "A", "text": "Prisão civil automática."},
+        {"id": "B", "text": "Impossibilidade eterna de qualquer acordo."},
+        {"id": "C", "text": "Impedimento de novo ANPC por cinco anos, contado do conhecimento do descumprimento pelo Ministério Público."},
+        {"id": "D", "text": "Conversão automática em absolvição."},
+        {"id": "E", "text": "Perda automática dos direitos políticos por 14 anos."}
       ],
       "correctOptionId": "C",
       "explanation": "A redação legal prevê impedimento de novo ANPC por cinco anos a partir do conhecimento do efetivo descumprimento pelo Ministério Público."
@@ -1418,26 +713,11 @@
       "origin": "authorial",
       "prompt": "Além do ressarcimento e da reversão da vantagem, o ANPC pode incluir qual obrigação?",
       "options": [
-        {
-          "id": "A",
-          "text": "Renúncia a direitos indisponíveis sem controle."
-        },
-        {
-          "id": "B",
-          "text": "Sigilo para impedir fiscalização."
-        },
-        {
-          "id": "C",
-          "text": "Dispensa definitiva de integridade."
-        },
-        {
-          "id": "D",
-          "text": "Mecanismos de integridade, auditoria, denúncia e códigos de ética."
-        },
-        {
-          "id": "E",
-          "text": "Proibição de acesso ao Poder Judiciário."
-        }
+        {"id": "A", "text": "Renúncia a direitos indisponíveis sem controle."},
+        {"id": "B", "text": "Sigilo para impedir fiscalização."},
+        {"id": "C", "text": "Dispensa definitiva de integridade."},
+        {"id": "D", "text": "Mecanismos de integridade, auditoria, denúncia e códigos de ética."},
+        {"id": "E", "text": "Proibição de acesso ao Poder Judiciário."}
       ],
       "correctOptionId": "D",
       "explanation": "O acordo pode conter obrigações adicionais favoráveis ao interesse público, inclusive medidas de integridade e governança."
@@ -1448,26 +728,11 @@
       "origin": "authorial",
       "prompt": "Após as ADIs 7156 e 7236, qual pode ser o alcance patrimonial da indisponibilidade de bens?",
       "options": [
-        {
-          "id": "A",
-          "text": "Pode garantir ressarcimento, multa civil e enriquecimento ilícito, se houver, dentro do montante cautelar necessário e respeitadas as impenhorabilidades."
-        },
-        {
-          "id": "B",
-          "text": "Pode garantir somente futura multa civil, sem limite."
-        },
-        {
-          "id": "C",
-          "text": "Serve apenas para antecipar a perda definitiva de bens."
-        },
-        {
-          "id": "D",
-          "text": "Só pode alcançar patrimônio comprovadamente ilícito."
-        },
-        {
-          "id": "E",
-          "text": "É vedada antes do trânsito em julgado."
-        }
+        {"id": "A", "text": "Pode garantir ressarcimento, multa civil e enriquecimento ilícito, se houver, dentro do montante cautelar necessário e respeitadas as impenhorabilidades."},
+        {"id": "B", "text": "Pode garantir somente futura multa civil, sem limite."},
+        {"id": "C", "text": "Serve apenas para antecipar a perda definitiva de bens."},
+        {"id": "D", "text": "Só pode alcançar patrimônio comprovadamente ilícito."},
+        {"id": "E", "text": "É vedada antes do trânsito em julgado."}
       ],
       "correctOptionId": "A",
       "explanation": "O STF declarou inconstitucional, com efeitos ex nunc, a exclusão da multa civil e de bens de origem lícita do art. 16, § 10, permitindo garantia de ressarcimento, multa e enriquecimento ilícito dentro do limite cautelar e das impenhorabilidades."
@@ -1478,26 +743,11 @@
       "origin": "authorial",
       "prompt": "Em que momento pode ser formulado o pedido de indisponibilidade?",
       "options": [
-        {
-          "id": "A",
-          "text": "Somente após o trânsito em julgado."
-        },
-        {
-          "id": "B",
-          "text": "Em caráter antecedente ou incidental na ação."
-        },
-        {
-          "id": "C",
-          "text": "Apenas na fase administrativa."
-        },
-        {
-          "id": "D",
-          "text": "Somente depois da sentença de segundo grau."
-        },
-        {
-          "id": "E",
-          "text": "Apenas durante a execução definitiva."
-        }
+        {"id": "A", "text": "Somente após o trânsito em julgado."},
+        {"id": "B", "text": "Em caráter antecedente ou incidental na ação."},
+        {"id": "C", "text": "Apenas na fase administrativa."},
+        {"id": "D", "text": "Somente depois da sentença de segundo grau."},
+        {"id": "E", "text": "Apenas durante a execução definitiva."}
       ],
       "correctOptionId": "B",
       "explanation": "A indisponibilidade é tutela provisória e pode ser requerida de forma antecedente ou incidental."
@@ -1508,26 +758,11 @@
       "origin": "authorial",
       "prompt": "Como o STF ajustou, em 2026, a cognição cautelar da indisponibilidade de bens?",
       "options": [
-        {
-          "id": "A",
-          "text": "Eliminou qualquer necessidade de fundamentação."
-        },
-        {
-          "id": "B",
-          "text": "Proibiu bloqueio antes da sentença."
-        },
-        {
-          "id": "C",
-          "text": "Admitiu, excepcionalmente e mediante decisão fundamentada, tutela de evidência e presunção de urgência."
-        },
-        {
-          "id": "D",
-          "text": "Restabeleceu automaticamente toda medida anterior sem exame."
-        },
-        {
-          "id": "E",
-          "text": "Determinou que a urgência seja sempre presumida, sem exceção."
-        }
+        {"id": "A", "text": "Eliminou qualquer necessidade de fundamentação."},
+        {"id": "B", "text": "Proibiu bloqueio antes da sentença."},
+        {"id": "C", "text": "Admitiu, excepcionalmente e mediante decisão fundamentada, tutela de evidência e presunção de urgência."},
+        {"id": "D", "text": "Restabeleceu automaticamente toda medida anterior sem exame."},
+        {"id": "E", "text": "Determinou que a urgência seja sempre presumida, sem exceção."}
       ],
       "correctOptionId": "C",
       "explanation": "O STF afastou trechos que proibiam essas soluções de forma absoluta e admitiu, em caráter excepcional e motivado, tutela de evidência e presunção de urgência."
@@ -1538,26 +773,11 @@
       "origin": "authorial",
       "prompt": "Qual é a regra legal de contraditório antes da indisponibilidade?",
       "options": [
-        {
-          "id": "A",
-          "text": "Nunca se ouve o réu."
-        },
-        {
-          "id": "B",
-          "text": "A oitiva sempre ocorre depois, sem exceção."
-        },
-        {
-          "id": "C",
-          "text": "Exige-se contestação completa de 30 dias."
-        },
-        {
-          "id": "D",
-          "text": "O réu é ouvido em cinco dias, admitido contraditório diferido quando a prévia oitiva puder frustrar a medida ou houver circunstância liminar concreta."
-        },
-        {
-          "id": "E",
-          "text": "O réu só é ouvido após o trânsito em julgado."
-        }
+        {"id": "A", "text": "Nunca se ouve o réu."},
+        {"id": "B", "text": "A oitiva sempre ocorre depois, sem exceção."},
+        {"id": "C", "text": "Exige-se contestação completa de 30 dias."},
+        {"id": "D", "text": "O réu é ouvido em cinco dias, admitido contraditório diferido quando a prévia oitiva puder frustrar a medida ou houver circunstância liminar concreta."},
+        {"id": "E", "text": "O réu só é ouvido após o trânsito em julgado."}
       ],
       "correctOptionId": "D",
       "explanation": "A regra é a oitiva breve prévia; o contraditório pode ser diferido mediante justificativa concreta."
@@ -1568,26 +788,11 @@
       "origin": "authorial",
       "prompt": "A indisponibilidade pode incluir valor destinado a garantir futura multa civil?",
       "options": [
-        {
-          "id": "A",
-          "text": "Não; a multa civil está sempre excluída da medida cautelar."
-        },
-        {
-          "id": "B",
-          "text": "Sim; após o STF, o montante cautelar pode abranger multa civil, além de ressarcimento e enriquecimento ilícito, se houver, respeitados os limites e impenhorabilidades."
-        },
-        {
-          "id": "C",
-          "text": "Sim, mas somente em atos do art. 11."
-        },
-        {
-          "id": "D",
-          "text": "Depende exclusivamente de inscrição no CEIS."
-        },
-        {
-          "id": "E",
-          "text": "Sim, e por isso todo o patrimônio deve ser bloqueado sem limite."
-        }
+        {"id": "A", "text": "Não; a multa civil está sempre excluída da medida cautelar."},
+        {"id": "B", "text": "Sim; após o STF, o montante cautelar pode abranger multa civil, além de ressarcimento e enriquecimento ilícito, se houver, respeitados os limites e impenhorabilidades."},
+        {"id": "C", "text": "Sim, mas somente em atos do art. 11."},
+        {"id": "D", "text": "Depende exclusivamente de inscrição no CEIS."},
+        {"id": "E", "text": "Sim, e por isso todo o patrimônio deve ser bloqueado sem limite."}
       ],
       "correctOptionId": "B",
       "explanation": "Nas ADIs 7156 e 7236, o STF afastou, com efeitos ex nunc, a vedação do art. 16, § 10, à inclusão da multa civil na garantia cautelar."
@@ -1598,26 +803,11 @@
       "origin": "authorial",
       "prompt": "Em ação com vários réus, qual regra deve orientar o limite global das indisponibilidades?",
       "options": [
-        {
-          "id": "A",
-          "text": "Multiplica-se integralmente o valor garantido pelo número de réus."
-        },
-        {
-          "id": "B",
-          "text": "A soma das constrições deve respeitar o montante judicialmente definido como necessário à garantia, sem multiplicar artificialmente o mesmo valor por número de réus."
-        },
-        {
-          "id": "C",
-          "text": "Não existe limite enquanto não houver sentença."
-        },
-        {
-          "id": "D",
-          "text": "O limite é sempre 40 salários mínimos, independentemente do pedido."
-        },
-        {
-          "id": "E",
-          "text": "Cada réu deve ter bloqueado necessariamente todo o seu patrimônio."
-        }
+        {"id": "A", "text": "Multiplica-se integralmente o valor garantido pelo número de réus."},
+        {"id": "B", "text": "A soma das constrições deve respeitar o montante judicialmente definido como necessário à garantia, sem multiplicar artificialmente o mesmo valor por número de réus."},
+        {"id": "C", "text": "Não existe limite enquanto não houver sentença."},
+        {"id": "D", "text": "O limite é sempre 40 salários mínimos, independentemente do pedido."},
+        {"id": "E", "text": "Cada réu deve ter bloqueado necessariamente todo o seu patrimônio."}
       ],
       "correctOptionId": "B",
       "explanation": "A indisponibilidade assegura um resultado patrimonial útil e proporcional; não se multiplica a mesma garantia pelo número de demandados."
@@ -1628,26 +818,11 @@
       "origin": "authorial",
       "prompt": "Qual requisito se aplica à indisponibilidade de bens de terceiro ou de pessoa jurídica?",
       "options": [
-        {
-          "id": "A",
-          "text": "Mera amizade com o agente."
-        },
-        {
-          "id": "B",
-          "text": "Simples qualidade de sócio minoritário."
-        },
-        {
-          "id": "C",
-          "text": "Concorrência efetiva do terceiro; para desconsiderar pessoa jurídica, incidente processual próprio."
-        },
-        {
-          "id": "D",
-          "text": "Presunção automática decorrente de contrato."
-        },
-        {
-          "id": "E",
-          "text": "Parentesco, por si só, basta para atingir os bens."
-        }
+        {"id": "A", "text": "Mera amizade com o agente."},
+        {"id": "B", "text": "Simples qualidade de sócio minoritário."},
+        {"id": "C", "text": "Concorrência efetiva do terceiro; para desconsiderar pessoa jurídica, incidente processual próprio."},
+        {"id": "D", "text": "Presunção automática decorrente de contrato."},
+        {"id": "E", "text": "Parentesco, por si só, basta para atingir os bens."}
       ],
       "correctOptionId": "C",
       "explanation": "O vínculo pessoal ou societário não substitui a demonstração de participação; desconsideração da pessoa jurídica exige o incidente próprio."
@@ -1658,26 +833,11 @@
       "origin": "authorial",
       "prompt": "Qual alternativa reúne proteções e ordem legal relevantes na indisponibilidade?",
       "options": [
-        {
-          "id": "A",
-          "text": "Contas bancárias sempre vêm primeiro e bem de família é sempre bloqueável."
-        },
-        {
-          "id": "B",
-          "text": "Não existe proteção para valores de subsistência."
-        },
-        {
-          "id": "C",
-          "text": "Atividade empresarial e serviços públicos são irrelevantes."
-        },
-        {
-          "id": "D",
-          "text": "Contas vêm após outras classes de bens; há proteção de até 40 salários mínimos nas hipóteses legais; o bem de família só perde a proteção quando ele próprio for fruto da vantagem ilícita do art. 9º."
-        },
-        {
-          "id": "E",
-          "text": "Seguro-garantia judicial é proibido como substituto da constrição."
-        }
+        {"id": "A", "text": "Contas bancárias sempre vêm primeiro e bem de família é sempre bloqueável."},
+        {"id": "B", "text": "Não existe proteção para valores de subsistência."},
+        {"id": "C", "text": "Atividade empresarial e serviços públicos são irrelevantes."},
+        {"id": "D", "text": "Contas vêm após outras classes de bens; há proteção de até 40 salários mínimos nas hipóteses legais; o bem de família só perde a proteção quando ele próprio for fruto da vantagem ilícita do art. 9º."},
+        {"id": "E", "text": "Seguro-garantia judicial é proibido como substituto da constrição."}
       ],
       "correctOptionId": "D",
       "explanation": "A LIA estabelece ordem de bens, proteção de valores mínimos, salvaguarda do bem de família e possibilidade de substituição da constrição."
@@ -1688,26 +848,11 @@
       "origin": "authorial",
       "prompt": "Qual é a tese central do Tema 1257 do STJ, considerada a posterior decisão do STF?",
       "options": [
-        {
-          "id": "A",
-          "text": "As regras processuais da reforma sobre indisponibilidade alcançam processos em curso e medidas anteriores podem ser reapreciadas, mas os trechos depois invalidados pelo STF não continuam aplicáveis."
-        },
-        {
-          "id": "B",
-          "text": "Toda medida anterior foi automaticamente anulada."
-        },
-        {
-          "id": "C",
-          "text": "Normas cautelares nunca alcançam processos em andamento."
-        },
-        {
-          "id": "D",
-          "text": "O Tema 701 foi automaticamente restaurado pelo STF."
-        },
-        {
-          "id": "E",
-          "text": "O tema transformou indisponibilidade em sanção definitiva."
-        }
+        {"id": "A", "text": "As regras processuais da reforma sobre indisponibilidade alcançam processos em curso e medidas anteriores podem ser reapreciadas, mas os trechos depois invalidados pelo STF não continuam aplicáveis."},
+        {"id": "B", "text": "Toda medida anterior foi automaticamente anulada."},
+        {"id": "C", "text": "Normas cautelares nunca alcançam processos em andamento."},
+        {"id": "D", "text": "O Tema 701 foi automaticamente restaurado pelo STF."},
+        {"id": "E", "text": "O tema transformou indisponibilidade em sanção definitiva."}
       ],
       "correctOptionId": "A",
       "explanation": "O Tema 1257 admite aplicação processual imediata e reapreciação; o controle concentrado posterior prevalece sobre trechos do art. 16 declarados inconstitucionais."
@@ -1718,26 +863,11 @@
       "origin": "authorial",
       "prompt": "Qual combinação descreve corretamente prazo geral e investigação no art. 23?",
       "options": [
-        {
-          "id": "A",
-          "text": "Prazo de quatro anos e suspensão investigativa ilimitada."
-        },
-        {
-          "id": "B",
-          "text": "Prazo de oito anos; investigação suspende por até 180 dias, embora o inquérito civil possa durar 365 dias e ter uma prorrogação igual."
-        },
-        {
-          "id": "C",
-          "text": "Prazo de 20 anos sem qualquer suspensão."
-        },
-        {
-          "id": "D",
-          "text": "Prazo de oito anos contado sempre da exoneração."
-        },
-        {
-          "id": "E",
-          "text": "Prazo de dez anos e suspensão automática até o fim do processo."
-        }
+        {"id": "A", "text": "Prazo de quatro anos e suspensão investigativa ilimitada."},
+        {"id": "B", "text": "Prazo de oito anos; investigação suspende por até 180 dias, embora o inquérito civil possa durar 365 dias e ter uma prorrogação igual."},
+        {"id": "C", "text": "Prazo de 20 anos sem qualquer suspensão."},
+        {"id": "D", "text": "Prazo de oito anos contado sempre da exoneração."},
+        {"id": "E", "text": "Prazo de dez anos e suspensão automática até o fim do processo."}
       ],
       "correctOptionId": "B",
       "explanation": "O prazo geral é de oito anos; a suspensão por investigação é limitada a 180 dias e não se confunde com a duração do inquérito."
@@ -1748,26 +878,11 @@
       "origin": "authorial",
       "prompt": "Após a interrupção da prescrição, qual regime resulta do julgamento do STF concluído em 1º de julho de 2026?",
       "options": [
-        {
-          "id": "A",
-          "text": "Reinício obrigatório por dois anos."
-        },
-        {
-          "id": "B",
-          "text": "Fim de todos os marcos interruptivos."
-        },
-        {
-          "id": "C",
-          "text": "Reinício por oito anos, afastada a metade de quatro anos, com prazo máximo de 20 anos para a ação."
-        },
-        {
-          "id": "D",
-          "text": "Imprescritibilidade de todas as sanções."
-        },
-        {
-          "id": "E",
-          "text": "Reinício por quatro anos apenas para o art. 11."
-        }
+        {"id": "A", "text": "Reinício obrigatório por dois anos."},
+        {"id": "B", "text": "Fim de todos os marcos interruptivos."},
+        {"id": "C", "text": "Reinício por oito anos, afastada a metade de quatro anos, com prazo máximo de 20 anos para a ação."},
+        {"id": "D", "text": "Imprescritibilidade de todas as sanções."},
+        {"id": "E", "text": "Reinício por quatro anos apenas para o art. 11."}
       ],
       "correctOptionId": "C",
       "explanation": "O STF invalidou a redução pela metade prevista no art. 23, § 5º, preservou os marcos interruptivos e fixou prazo máximo de 20 anos para a tramitação da ação."
@@ -1778,26 +893,11 @@
       "origin": "previous_exam",
       "prompt": "Sobre prescrição e ressarcimento em matéria de improbidade administrativa, assinale a opção correta.",
       "options": [
-        {
-          "id": "A",
-          "text": "A prescrição das sanções impede necessariamente o prosseguimento de qualquer pretensão de ressarcimento ao erário."
-        },
-        {
-          "id": "B",
-          "text": "Sanções e ressarcimento são sempre inseparáveis para fins prescricionais."
-        },
-        {
-          "id": "C",
-          "text": "Todo ressarcimento ao poder público é imprescritível, ainda que fundado em ilícito culposo ou não tipificado na LIA."
-        },
-        {
-          "id": "D",
-          "text": "A prescrição das sanções não impede, por si só, o prosseguimento da pretensão de ressarcimento quando presentes os requisitos da imprescritibilidade do Tema 897 do STF."
-        },
-        {
-          "id": "E",
-          "text": "Após a prescrição das sanções, somente tribunal de contas pode buscar ressarcimento."
-        }
+        {"id": "A", "text": "A prescrição das sanções impede necessariamente o prosseguimento de qualquer pretensão de ressarcimento ao erário."},
+        {"id": "B", "text": "Sanções e ressarcimento são sempre inseparáveis para fins prescricionais."},
+        {"id": "C", "text": "Todo ressarcimento ao poder público é imprescritível, ainda que fundado em ilícito culposo ou não tipificado na LIA."},
+        {"id": "D", "text": "A prescrição das sanções não impede, por si só, o prosseguimento da pretensão de ressarcimento quando presentes os requisitos da imprescritibilidade do Tema 897 do STF."},
+        {"id": "E", "text": "Após a prescrição das sanções, somente tribunal de contas pode buscar ressarcimento."}
       ],
       "correctOptionId": "D",
       "explanation": "O Tema 897 limita a imprescritibilidade ao ressarcimento fundado em ato doloso tipificado na LIA. Adaptação do item 53 da prova Cebraspe/STJ 2024, Cargo 19 — Analista Judiciário, Área Judiciária, aplicação em 01/12/2024, caderno 018_STJ_019_01; no item original, a afirmação de que a prescrição das sanções obsta o ressarcimento recebeu gabarito oficial definitivo E (errado)."
@@ -1808,29 +908,29 @@
       "origin": "previous_exam",
       "prompt": "Após tomarem posse em cargos públicos no âmbito do Ministério da Cultura, Carlos, João e Maria, novos servidores públicos, foram convidados a acompanhar palestras sobre os contornos da Lei de Improbidade Administrativa, com especial enfoque às mudanças implementadas pela Lei nº 14.230/2021.\nDe acordo com a narrativa e considerando as disposições da Lei nº 8.429/1992, analise as afirmativas a seguir:\nI. Nas hipóteses de improcedência dos pedidos formulados pelo autor, nas ações de improbidade administrativa, incide o reexame obrigatório da sentença em segunda instância.\nII. Caso haja a conversão da ação de improbidade administrativa em ação civil pública caberá a interposição de agravo de instrumento.\nIII. Em caso de revelia do réu, incide a presunção relativa de veracidade dos fatos alegados pelo autor da ação.\nEstá correto o que se afirma em",
       "options": [
-        {
-          "id": "A",
-          "text": "I, apenas."
-        },
-        {
-          "id": "B",
-          "text": "II, apenas."
-        },
-        {
-          "id": "C",
-          "text": "I e III, apenas."
-        },
-        {
-          "id": "D",
-          "text": "II e III, apenas."
-        },
-        {
-          "id": "E",
-          "text": "I, II e III."
-        }
+        {"id": "A", "text": "I, apenas."},
+        {"id": "B", "text": "II, apenas."},
+        {"id": "C", "text": "I e III, apenas."},
+        {"id": "D", "text": "II e III, apenas."},
+        {"id": "E", "text": "I, II e III."}
       ],
       "correctOptionId": "B",
       "explanation": "Apenas a afirmativa II está correta: a LIA admite a conversão motivada da ação de improbidade em ação civil pública e prevê agravo de instrumento contra essa decisão. A afirmativa I contraria a regra que afasta o reexame obrigatório da sentença de improcedência, e a III contraria a vedação de presunção de veracidade decorrente da revelia. Fonte: questão oficial; FGV; Ministério da Cultura — Processo Seletivo Simplificado, Técnicas de Complexidade Intelectual, Tipo 2; 2024; questão 23; https://conhecimento.fgv.br/sites/default/files/concursos/complexidade-intelectualcns001-tipo-2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_minc_d1354s3s.pdf."
+    },
+    {
+      "id": "q52205101",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O Ministério Público do Estado do Espírito Santo, no bojo de uma ação de improbidade administrativa, firmou um Acordo de Não Persecução Cível (ANPC) com um ex-prefeito acusado de irregularidades em contrato de coleta de lixo. O acordo prevê o ressarcimento integral do dano ao erário, porém sem a incidência de juros e parcelado em 48 vezes, além do pagamento de multa civil e da proibição de contratar com o Poder Público por três anos.\nAo receber a petição de homologação do acordo, o juízo da Vara da Fazenda Pública questiona se o ANPC seria válido, já que o ressarcimento não contemplou os juros incidentes e foi objeto de parcelamento.\nConsiderando a disciplina legal e a finalidade do ANPC, analise as afirmativas a seguir a respeito da validade do acordo celebrado.\nI. O ANPC é válido, pois o parcelamento e a convenção sobre os juros podem ser objeto de ajuste, levando em conta o interesse público, a extensão do dano ou do proveito patrimonial, bem como a capacidade financeira do compromitente.\nII. O ANPC é inválido, pois somente é cabível quando há ressarcimento integral e global do dano ao erário, não sendo possível o parcelamento.\nIII. O ANPC é inválido, pois a Lei de Improbidade não prevê o impedimento de contratar com o Poder Público como cláusula possível no bojo do acordo.\nEstá correto o que se afirma em",
+      "options": [
+        {"id": "A", "text": "I, apenas."},
+        {"id": "B", "text": "II, apenas."},
+        {"id": "C", "text": "I e II, apenas."},
+        {"id": "D", "text": "II e III, apenas."},
+        {"id": "E", "text": "I, II e III."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O gabarito definitivo é A: somente a afirmativa I foi considerada correta. A questão admite, no ANPC, ajuste sobre parcelamento e juros conforme interesse público, extensão do dano ou proveito patrimonial e capacidade financeira do compromitente, e considera incorretas as afirmações de impedimento absoluto ao parcelamento e de impossibilidade de cláusula de proibição de contratar. Fonte oficial: FGV; Ministério Público do Estado do Espírito Santo; Concurso Público para Promotor de Justiça Substituto; Tipo 1; prova aplicada em 30/11/2025; questão 45; https://conhecimento.fgv.br/sites/default/files/concursos/promotor-de-justica-substituto-cns100-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo_promotor-de-justica-substituto.pdf."
     }
   ]
 }
