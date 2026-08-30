@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q5379",
@@ -496,6 +496,108 @@
       ],
       "correctOptionId": "D",
       "explanation": "A₂ pagou 3 cafés a A₁ e 2 a A₃, totalizando 5. A₂ recebeu 1 café de A₁ e 1 de A₃, totalizando 2. A diferença é 3. Fonte: questão oficial; FGV; Prefeitura de Caraguatatuba — Agente de Apoio Escolar, Tipo 1 (Branca); 2024; questão 15; https://conhecimento.fgv.br/sites/default/files/concursos/cnm201e1-agente-de-apoio-escolarcnm201e1-tipo-1.pdf."
+    },
+    {
+      "id": "q52204501",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Seja A = [[2, 1], [3, 1]].\n\nA soma dos elementos da matriz A² é:",
+      "options": [
+        {"id": "A", "text": "10;"},
+        {"id": "B", "text": "12;"},
+        {"id": "C", "text": "15;"},
+        {"id": "D", "text": "23;"},
+        {"id": "E", "text": "30."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A² = [[7, 3], [9, 4]], cuja soma dos elementos é 23. Fonte: questão oficial; FGV; Ministério Público do Estado de Santa Catarina — Auxiliar do Ministério Público, Tipo 1 (Branca); 2022; questão 26; https://conhecimento.fgv.br/sites/default/files/concursos/mp_sc_2022_auxiliar_do_ministerio_publico_tipo_1.pdf."
+    },
+    {
+      "id": "q52204502",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Os seis elementos de uma matriz formada por 2 linhas e 3 colunas são {1, 2, 3, 4, 5 e 6}. As colunas são contadas da esquerda para a direita e as linhas, de cima para baixo.\n\nSabe-se que:\n- a soma dos elementos da primeira coluna é 10;\n- a soma dos elementos da segunda coluna é 5;\n- a soma dos elementos da primeira linha é 8.\n\nO elemento que ocupa a posição correspondente à segunda linha e à terceira coluna é",
+      "options": [
+        {"id": "A", "text": "1."},
+        {"id": "B", "text": "2."},
+        {"id": "C", "text": "3."},
+        {"id": "D", "text": "4."},
+        {"id": "E", "text": "5."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "A única disposição compatível com as três somas coloca 5 na segunda linha e na terceira coluna. Fonte: questão oficial; FGV; Prefeitura Municipal de Macaé — MACAEPREV — Analista Previdenciário, Tipo 2 (Verde); 2024; questão 15; https://conhecimento.fgv.br/sites/default/files/concursos/analista-previdenciariocns101-tipo-2.pdf."
+    },
+    {
+      "id": "q52204503",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere as matrizes quadradas com duas linhas e duas colunas cujos elementos são escolhidos no conjunto {–1, 0, 1}.\n\nUma matriz com essas características, em que a soma de todos os seus elementos é positiva,",
+      "options": [
+        {"id": "A", "text": "pode ter a mesma quantidade de 0 e de –1."},
+        {"id": "B", "text": "pode ter a mesma quantidade de 1 e de –1."},
+        {"id": "C", "text": "não pode ter três elementos 0."},
+        {"id": "D", "text": "pode ter dois elementos –1."},
+        {"id": "E", "text": "tem que ter mais 0 do que –1."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "É possível ter um 0, um –1 e dois 1, caso em que a soma é positiva e há a mesma quantidade de 0 e de –1. Fonte: questão oficial; FGV; Prefeitura Municipal de Macaé — Psicólogo, Tipo 1 (Branca); 2024; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/psicologocns203-tipo-1.pdf."
+    },
+    {
+      "id": "q52204504",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere a matriz A = (aᵢⱼ)₃×₂ em que\n\naᵢⱼ = {\n2i + 3j, se i < j\n2ij, se i = j\n4i − j, se i > j\n}\n\ne Aᵗ sua transposta.\n\nA matriz Aᵗ é igual a",
+      "options": [
+        {"id": "A", "text": "[[2, 8], [7, 8], [11, 10]]"},
+        {"id": "B", "text": "[[2, 7], [8, 8], [11, 13]]"},
+        {"id": "C", "text": "[[1, 7, 11], [8, 4, 10]]"},
+        {"id": "D", "text": "[[2, 7, 11], [8, 8, 10]]"},
+        {"id": "E", "text": "[[2, 8, 11], [7, 8, 13]]"}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A = [[2, 8], [7, 8], [11, 10]], portanto Aᵗ = [[2, 7, 11], [8, 8, 10]]. Fonte: questão oficial; FGV; Prefeitura de São Lourenço da Mata — Professor de Matemática, Tipo 1 (Branca); 2024; questão 33; https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-matematicacns201-tipo-1.pdf."
+    },
+    {
+      "id": "q52204505",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Seja A uma matriz com n linhas e p colunas, tal que cada elemento aᵢⱼ de A é dado por i − j, em que i e j são, respectivamente, os números da linha e da coluna ocupados pelo elemento.\n\nSe n = 15 e p = 11, é correto afirmar que, nessa matriz, haverá",
+      "options": [
+        {"id": "A", "text": "55 elementos positivos."},
+        {"id": "B", "text": "99 elementos positivos."},
+        {"id": "C", "text": "15 elementos nulos."},
+        {"id": "D", "text": "44 elementos negativos."},
+        {"id": "E", "text": "88 elementos negativos."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os elementos positivos são os de i > j; contando-os nas 15 linhas e 11 colunas, obtêm-se 99 posições. Fonte: questão oficial; FGV; Prefeitura Municipal de Vitória/ES — Analista em Gestão Pública — Administrador, Tipo 1 (Branca); 2024; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-gestao-publica-administradorangp-01-tipo-1.pdf."
+    },
+    {
+      "id": "q52204506",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No que se refere à manipulação de dados vetoriais, numéricos e matriciais, julgue o seguinte item.\n\nUma matriz identidade é caracterizada por ter todos os elementos iguais a 1.",
+      "options": [
+        {"id": "C", "text": "Certo"},
+        {"id": "E", "text": "Errado"}
+      ],
+      "correctOptionId": "E",
+      "explanation": "Na matriz identidade, apenas os elementos da diagonal principal são iguais a 1; os demais são 0. Fonte: questão oficial; Cebraspe; EMBRAPA — Técnico, Área Suprimento, Manutenção e Serviços, Subárea Novas Tecnologias; 2025; item 81; https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/043_EMBRAPA_013_01.pdf."
+    },
+    {
+      "id": "q52204507",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A tabela a seguir ilustra uma matriz com seis linhas e sete colunas; cada linha da matriz deve ser completada utilizando todas as letras da palavra VILHENA, seguindo um padrão de formação específico.\n\n```text\nI |   | H |   | N |   |\nV | I | L | H | E | N | A\n  |   | I | L |   |   | N\n  |   |   | I |   | H | E\n  |   |   |   |   | L | H\n  |   |   |   |   | I | L\n```\n\nCom base nas informações precedentes, infere-se que a letra",
+      "options": [
+        {"id": "A", "text": "V aparece na quarta coluna da primeira linha."},
+        {"id": "B", "text": "L aparece na segunda coluna da terceira linha."},
+        {"id": "C", "text": "N aparece na primeira coluna da quarta linha."},
+        {"id": "D", "text": "E aparece na terceira coluna da sexta linha."},
+        {"id": "E", "text": "H aparece na quinta coluna da quinta linha."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O padrão desloca ciclicamente as letras de VILHENA; na quarta linha, a primeira coluna é N. Fonte: questão oficial; Cebraspe; Ministério Público do Estado de Rondônia — Conhecimentos Gerais; 2023; questão 10; https://cdn.cebraspe.org.br/concursos/mpe_ro_23/arquivos/869_MPE_RO_SERVIDOR_CG1_01.PDF."
     }
   ]
 }
