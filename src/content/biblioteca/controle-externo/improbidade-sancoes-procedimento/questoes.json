@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "q5739",
@@ -931,6 +931,18 @@
       ],
       "correctOptionId": "C",
       "explanation": "O gabarito definitivo é C. Conforme a orientação do STF sobre a reforma da LIA, o novo regime prescricional é irretroativo e os novos marcos temporais incidem a partir da publicação da Lei nº 14.230/2021. Fonte: questão oficial; FGV; TCE-SC — Auditor Fiscal de Controle Externo (Direito), Tipo 3; 2026; questão 28; https://conhecimento.fgv.br/sites/default/files/concursos/cns004-auditor-fiscal-de-controle-externo-direito-cns004-tipo-3.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tce-sc_0.pdf."
+    },
+    {
+      "id": "q52205104",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A prescrição das sanções decorrentes dos atos de improbidade administrativa obsta o prosseguimento de ação civil pública para pleitear o ressarcimento dos danos causados ao erário.",
+      "options": [
+        {"id": "A", "text": "Certo"},
+        {"id": "B", "text": "Errado"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O gabarito definitivo do item 53 é E (Errado): a prescrição das sanções decorrentes de improbidade não obsta, por si só, o prosseguimento da pretensão de ressarcimento ao erário nas hipóteses juridicamente cabíveis. Fonte: questão oficial; Cebraspe; Superior Tribunal de Justiça — Analista Judiciário, Área Judiciária, caderno 018_STJ_019_01; 2024; item 53; https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/018_STJ_019_01.PDF. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/GAB_DEFINITIVO_018_STJ_019_01.PDF."
     }
   ]
 }
