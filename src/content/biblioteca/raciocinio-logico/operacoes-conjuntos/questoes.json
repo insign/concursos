@@ -1,34 +1,13 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q5199",
       "revision": 2,
       "origin": "authorial",
       "prompt": "Se A = {1, 2, 3}, qual afirmação é correta?",
-      "options": [
-        {
-          "id": "A",
-          "text": "{2} ∈ A."
-        },
-        {
-          "id": "B",
-          "text": "2 ∈ A."
-        },
-        {
-          "id": "C",
-          "text": "4 ∈ A."
-        },
-        {
-          "id": "D",
-          "text": "{4} ⊆ A."
-        },
-        {
-          "id": "E",
-          "text": "2 ⊆ A."
-        }
-      ],
+      "options": [{"id":"A","text":"{2} ∈ A."},{"id":"B","text":"2 ∈ A."},{"id":"C","text":"4 ∈ A."},{"id":"D","text":"{4} ⊆ A."},{"id":"E","text":"2 ⊆ A."}],
       "correctOptionId": "B",
       "explanation": "Pertinência compara elemento e conjunto. O número 2 é elemento de A. O conjunto {2} é subconjunto de A, mas não foi listado como elemento."
     },
@@ -37,28 +16,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "A respeito da igualdade de conjuntos, assinale a alternativa correta.",
-      "options": [
-        {
-          "id": "A",
-          "text": "{1,2,2} ≠ {1,2}."
-        },
-        {
-          "id": "B",
-          "text": "{1,2} ≠ {2,1}."
-        },
-        {
-          "id": "C",
-          "text": "{1,1} = {1,2}."
-        },
-        {
-          "id": "D",
-          "text": "{1,2,2} = {2,1}."
-        },
-        {
-          "id": "E",
-          "text": "Dois conjuntos com a mesma cardinalidade são necessariamente iguais."
-        }
-      ],
+      "options": [{"id":"A","text":"{1,2,2} ≠ {1,2}."},{"id":"B","text":"{1,2} ≠ {2,1}."},{"id":"C","text":"{1,1} = {1,2}."},{"id":"D","text":"{1,2,2} = {2,1}."},{"id":"E","text":"Dois conjuntos com a mesma cardinalidade são necessariamente iguais."}],
       "correctOptionId": "D",
       "explanation": "Em conjuntos, ordem e repetição não alteram os elementos. Ambos os lados de D têm exatamente os elementos 1 e 2."
     },
@@ -67,28 +25,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Considere A = {1, {2}, 3}. É correto afirmar que:",
-      "options": [
-        {
-          "id": "A",
-          "text": "{2} ∈ A."
-        },
-        {
-          "id": "B",
-          "text": "2 ∈ A."
-        },
-        {
-          "id": "C",
-          "text": "{1} ∈ A."
-        },
-        {
-          "id": "D",
-          "text": "∅ ∈ A."
-        },
-        {
-          "id": "E",
-          "text": "{3} ∈ A."
-        }
-      ],
+      "options": [{"id":"A","text":"{2} ∈ A."},{"id":"B","text":"2 ∈ A."},{"id":"C","text":"{1} ∈ A."},{"id":"D","text":"∅ ∈ A."},{"id":"E","text":"{3} ∈ A."}],
       "correctOptionId": "A",
       "explanation": "O conjunto unitário {2} foi listado como elemento de A. O número 2 isolado não foi listado."
     },
@@ -97,28 +34,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Para um objeto x e um conjunto A, qual equivalência é correta?",
-      "options": [
-        {
-          "id": "A",
-          "text": "x ∈ A ⇔ x ⊆ A."
-        },
-        {
-          "id": "B",
-          "text": "x ∈ A ⇔ {x} ∈ A."
-        },
-        {
-          "id": "C",
-          "text": "x ∈ A ⇔ {x} ⊆ A."
-        },
-        {
-          "id": "D",
-          "text": "x ∈ A ⇔ A ⊆ {x}."
-        },
-        {
-          "id": "E",
-          "text": "x ∈ A ⇔ A ∈ {x}."
-        }
-      ],
+      "options": [{"id":"A","text":"x ∈ A ⇔ x ⊆ A."},{"id":"B","text":"x ∈ A ⇔ {x} ∈ A."},{"id":"C","text":"x ∈ A ⇔ {x} ⊆ A."},{"id":"D","text":"x ∈ A ⇔ A ⊆ {x}."},{"id":"E","text":"x ∈ A ⇔ A ∈ {x}."}],
       "correctOptionId": "C",
       "explanation": "O conjunto unitário {x} é subconjunto de A exatamente quando seu único elemento x pertence a A."
     },
@@ -127,28 +43,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Dois conjuntos A e B são iguais quando:",
-      "options": [
-        {
-          "id": "A",
-          "text": "possuem ao menos um elemento comum."
-        },
-        {
-          "id": "B",
-          "text": "têm a mesma cardinalidade."
-        },
-        {
-          "id": "C",
-          "text": "A ⊆ B e B ⊆ A."
-        },
-        {
-          "id": "D",
-          "text": "A é subconjunto próprio de B."
-        },
-        {
-          "id": "E",
-          "text": "A ∪ B = U, qualquer que seja o universo."
-        }
-      ],
+      "options": [{"id":"A","text":"possuem ao menos um elemento comum."},{"id":"B","text":"têm a mesma cardinalidade."},{"id":"C","text":"A ⊆ B e B ⊆ A."},{"id":"D","text":"A é subconjunto próprio de B."},{"id":"E","text":"A ∪ B = U, qualquer que seja o universo."}],
       "correctOptionId": "C",
       "explanation": "A igualdade de conjuntos equivale à dupla inclusão: todo elemento de A está em B e todo elemento de B está em A."
     },
@@ -157,28 +52,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Qual é a cardinalidade do conjunto {a, a, b, c, c}?",
-      "options": [
-        {
-          "id": "A",
-          "text": "2."
-        },
-        {
-          "id": "B",
-          "text": "3."
-        },
-        {
-          "id": "C",
-          "text": "4."
-        },
-        {
-          "id": "D",
-          "text": "5."
-        },
-        {
-          "id": "E",
-          "text": "6."
-        }
-      ],
+      "options": [{"id":"A","text":"2."},{"id":"B","text":"3."},{"id":"C","text":"4."},{"id":"D","text":"5."},{"id":"E","text":"6."}],
       "correctOptionId": "B",
       "explanation": "Repetições não criam novos elementos. O conjunto é {a,b,c}, portanto sua cardinalidade é 3."
     },
@@ -187,28 +61,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre o conjunto vazio, assinale a alternativa correta.",
-      "options": [
-        {
-          "id": "A",
-          "text": "Não é subconjunto de nenhum conjunto."
-        },
-        {
-          "id": "B",
-          "text": "É subconjunto de todo conjunto."
-        },
-        {
-          "id": "C",
-          "text": "Possui exatamente um elemento."
-        },
-        {
-          "id": "D",
-          "text": "É igual a {∅}."
-        },
-        {
-          "id": "E",
-          "text": "Pertence a todo conjunto."
-        }
-      ],
+      "options": [{"id":"A","text":"Não é subconjunto de nenhum conjunto."},{"id":"B","text":"É subconjunto de todo conjunto."},{"id":"C","text":"Possui exatamente um elemento."},{"id":"D","text":"É igual a {∅}."},{"id":"E","text":"Pertence a todo conjunto."}],
       "correctOptionId": "B",
       "explanation": "O vazio é subconjunto de qualquer conjunto. Isso não significa que ele pertença, como elemento, a qualquer conjunto."
     },
@@ -217,28 +70,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "A relação correta entre ∅ e {∅} é:",
-      "options": [
-        {
-          "id": "A",
-          "text": "São iguais e ambos têm cardinalidade zero."
-        },
-        {
-          "id": "B",
-          "text": "São iguais e ambos têm cardinalidade um."
-        },
-        {
-          "id": "C",
-          "text": "São diferentes; suas cardinalidades são 0 e 1, respectivamente."
-        },
-        {
-          "id": "D",
-          "text": "São diferentes; suas cardinalidades são 1 e 0, respectivamente."
-        },
-        {
-          "id": "E",
-          "text": "São diferentes, mas ambos têm cardinalidade zero."
-        }
-      ],
+      "options": [{"id":"A","text":"São iguais e ambos têm cardinalidade zero."},{"id":"B","text":"São iguais e ambos têm cardinalidade um."},{"id":"C","text":"São diferentes; suas cardinalidades são 0 e 1, respectivamente."},{"id":"D","text":"São diferentes; suas cardinalidades são 1 e 0, respectivamente."},{"id":"E","text":"São diferentes, mas ambos têm cardinalidade zero."}],
       "correctOptionId": "C",
       "explanation": "∅ não possui elementos. Já {∅} possui um elemento: o próprio conjunto vazio."
     },
@@ -247,28 +79,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação A ⊆ B significa que:",
-      "options": [
-        {
-          "id": "A",
-          "text": "A é elemento de B."
-        },
-        {
-          "id": "B",
-          "text": "Todo elemento de A também pertence a B."
-        },
-        {
-          "id": "C",
-          "text": "A e B têm a mesma cardinalidade."
-        },
-        {
-          "id": "D",
-          "text": "Todo elemento de B pertence a A."
-        },
-        {
-          "id": "E",
-          "text": "A e B são disjuntos."
-        }
-      ],
+      "options": [{"id":"A","text":"A é elemento de B."},{"id":"B","text":"Todo elemento de A também pertence a B."},{"id":"C","text":"A e B têm a mesma cardinalidade."},{"id":"D","text":"Todo elemento de B pertence a A."},{"id":"E","text":"A e B são disjuntos."}],
       "correctOptionId": "B",
       "explanation": "Inclusão A ⊆ B exige que cada elemento de A esteja também em B; ela admite a possibilidade A = B."
     },
@@ -277,28 +88,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Dois conjuntos A e B são disjuntos quando:",
-      "options": [
-        {
-          "id": "A",
-          "text": "A ∩ B = ∅."
-        },
-        {
-          "id": "B",
-          "text": "A ∪ B = ∅."
-        },
-        {
-          "id": "C",
-          "text": "A = B."
-        },
-        {
-          "id": "D",
-          "text": "A ⊆ B."
-        },
-        {
-          "id": "E",
-          "text": "A \\ B = ∅."
-        }
-      ],
+      "options": [{"id":"A","text":"A ∩ B = ∅."},{"id":"B","text":"A ∪ B = ∅."},{"id":"C","text":"A = B."},{"id":"D","text":"A ⊆ B."},{"id":"E","text":"A \\ B = ∅."}],
       "correctOptionId": "A",
       "explanation": "Conjuntos disjuntos não têm elementos em comum, logo sua interseção é vazia."
     },
@@ -307,28 +97,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Se A = {1,2,3} e B = {3,4}, então A ∪ B é:",
-      "options": [
-        {
-          "id": "A",
-          "text": "{1,2,3,4}."
-        },
-        {
-          "id": "B",
-          "text": "{3}."
-        },
-        {
-          "id": "C",
-          "text": "{1,2}."
-        },
-        {
-          "id": "D",
-          "text": "{1,2,4}."
-        },
-        {
-          "id": "E",
-          "text": "{1,2,3,3,4}."
-        }
-      ],
+      "options": [{"id":"A","text":"{1,2,3,4}."},{"id":"B","text":"{3}."},{"id":"C","text":"{1,2}."},{"id":"D","text":"{1,2,4}."},{"id":"E","text":"{1,2,3,3,4}."}],
       "correctOptionId": "A",
       "explanation": "A união reúne quem está em A, em B ou em ambos, sem repetir elementos."
     },
@@ -337,28 +106,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Se A = {1,2,3} e B = {3,4}, então A ∩ B é:",
-      "options": [
-        {
-          "id": "A",
-          "text": "{1,2,3,4}."
-        },
-        {
-          "id": "B",
-          "text": "{1,2}."
-        },
-        {
-          "id": "C",
-          "text": "{4}."
-        },
-        {
-          "id": "D",
-          "text": "{3}."
-        },
-        {
-          "id": "E",
-          "text": "∅."
-        }
-      ],
+      "options": [{"id":"A","text":"{1,2,3,4}."},{"id":"B","text":"{1,2}."},{"id":"C","text":"{4}."},{"id":"D","text":"{3}."},{"id":"E","text":"∅."}],
       "correctOptionId": "D",
       "explanation": "A interseção contém apenas os elementos presentes simultaneamente nos dois conjuntos."
     },
@@ -367,28 +115,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Se A = {1,2,3} e B = {3,4}, então A \\ B é:",
-      "options": [
-        {
-          "id": "A",
-          "text": "{4}."
-        },
-        {
-          "id": "B",
-          "text": "{1,2}."
-        },
-        {
-          "id": "C",
-          "text": "{3}."
-        },
-        {
-          "id": "D",
-          "text": "{1,2,4}."
-        },
-        {
-          "id": "E",
-          "text": "∅."
-        }
-      ],
+      "options": [{"id":"A","text":"{4}."},{"id":"B","text":"{1,2}."},{"id":"C","text":"{3}."},{"id":"D","text":"{1,2,4}."},{"id":"E","text":"∅."}],
       "correctOptionId": "B",
       "explanation": "A \\ B conserva os elementos de A que não pertencem a B; por isso, retira-se 3 e restam 1 e 2."
     },
@@ -397,28 +124,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre a diferença de conjuntos, é correto afirmar que:",
-      "options": [
-        {
-          "id": "A",
-          "text": "A \\ B = B \\ A para quaisquer A e B."
-        },
-        {
-          "id": "B",
-          "text": "A \\ B contém apenas elementos de B."
-        },
-        {
-          "id": "C",
-          "text": "Em geral, A \\ B ≠ B \\ A."
-        },
-        {
-          "id": "D",
-          "text": "A \\ A = A."
-        },
-        {
-          "id": "E",
-          "text": "A \\ ∅ = ∅."
-        }
-      ],
+      "options": [{"id":"A","text":"A \\ B = B \\ A para quaisquer A e B."},{"id":"B","text":"A \\ B contém apenas elementos de B."},{"id":"C","text":"Em geral, A \\ B ≠ B \\ A."},{"id":"D","text":"A \\ A = A."},{"id":"E","text":"A \\ ∅ = ∅."}],
       "correctOptionId": "C",
       "explanation": "A diferença depende da ordem. Além disso, A \\ A = ∅ e A \\ ∅ = A."
     },
@@ -427,28 +133,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Se U = {1,2,3,4,5} e A = {1,3,5}, o complemento de A em U é:",
-      "options": [
-        {
-          "id": "A",
-          "text": "{1,3,5}."
-        },
-        {
-          "id": "B",
-          "text": "{1,2,3,4,5}."
-        },
-        {
-          "id": "C",
-          "text": "{2,4}."
-        },
-        {
-          "id": "D",
-          "text": "∅."
-        },
-        {
-          "id": "E",
-          "text": "{2,3,4}."
-        }
-      ],
+      "options": [{"id":"A","text":"{1,3,5}."},{"id":"B","text":"{1,2,3,4,5}."},{"id":"C","text":"{2,4}."},{"id":"D","text":"∅."},{"id":"E","text":"{2,3,4}."}],
       "correctOptionId": "C",
       "explanation": "O complemento de A em U é U \\ A, isto é, os elementos do universo que não pertencem a A."
     },
@@ -457,28 +142,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "O complemento Aᶜ de um conjunto A:",
-      "options": [
-        {
-          "id": "A",
-          "text": "é sempre vazio."
-        },
-        {
-          "id": "B",
-          "text": "depende do conjunto universo considerado."
-        },
-        {
-          "id": "C",
-          "text": "é sempre igual a A."
-        },
-        {
-          "id": "D",
-          "text": "não pode ser escrito como diferença."
-        },
-        {
-          "id": "E",
-          "text": "é definido sem referência a qualquer universo."
-        }
-      ],
+      "options": [{"id":"A","text":"é sempre vazio."},{"id":"B","text":"depende do conjunto universo considerado."},{"id":"C","text":"é sempre igual a A."},{"id":"D","text":"não pode ser escrito como diferença."},{"id":"E","text":"é definido sem referência a qualquer universo."}],
       "correctOptionId": "B",
       "explanation": "Por definição, Aᶜ = U \\ A. Alterar o universo pode alterar o complemento."
     },
@@ -487,28 +151,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Se A = {1,2,3} e B = {3,4}, então a diferença simétrica A △ B é:",
-      "options": [
-        {
-          "id": "A",
-          "text": "{1,2,4}."
-        },
-        {
-          "id": "B",
-          "text": "{3}."
-        },
-        {
-          "id": "C",
-          "text": "{1,2,3,4}."
-        },
-        {
-          "id": "D",
-          "text": "{1,2}."
-        },
-        {
-          "id": "E",
-          "text": "{3,4}."
-        }
-      ],
+      "options": [{"id":"A","text":"{1,2,4}."},{"id":"B","text":"{3}."},{"id":"C","text":"{1,2,3,4}."},{"id":"D","text":"{1,2}."},{"id":"E","text":"{3,4}."}],
       "correctOptionId": "A",
       "explanation": "A diferença simétrica reúne os elementos que pertencem a exatamente um dos conjuntos, excluindo a interseção."
     },
@@ -517,28 +160,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Pela lei de De Morgan, (A ∪ B)ᶜ é igual a:",
-      "options": [
-        {
-          "id": "A",
-          "text": "Aᶜ ∪ Bᶜ."
-        },
-        {
-          "id": "B",
-          "text": "Aᶜ ∩ Bᶜ."
-        },
-        {
-          "id": "C",
-          "text": "A ∩ B."
-        },
-        {
-          "id": "D",
-          "text": "A △ B."
-        },
-        {
-          "id": "E",
-          "text": "A \\ B."
-        }
-      ],
+      "options": [{"id":"A","text":"Aᶜ ∪ Bᶜ."},{"id":"B","text":"Aᶜ ∩ Bᶜ."},{"id":"C","text":"A ∩ B."},{"id":"D","text":"A △ B."},{"id":"E","text":"A \\ B."}],
       "correctOptionId": "B",
       "explanation": "Estar fora da união significa estar fora de A e fora de B: (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ."
     },
@@ -547,28 +169,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Pela lei de De Morgan, (A ∩ B)ᶜ é igual a:",
-      "options": [
-        {
-          "id": "A",
-          "text": "Aᶜ ∩ Bᶜ."
-        },
-        {
-          "id": "B",
-          "text": "A ∩ B."
-        },
-        {
-          "id": "C",
-          "text": "Aᶜ ∪ Bᶜ."
-        },
-        {
-          "id": "D",
-          "text": "A ∪ B."
-        },
-        {
-          "id": "E",
-          "text": "A \\ B."
-        }
-      ],
+      "options": [{"id":"A","text":"Aᶜ ∩ Bᶜ."},{"id":"B","text":"A ∩ B."},{"id":"C","text":"Aᶜ ∪ Bᶜ."},{"id":"D","text":"A ∪ B."},{"id":"E","text":"A \\ B."}],
       "correctOptionId": "C",
       "explanation": "Não pertencer simultaneamente aos dois equivale a estar fora de A ou fora de B."
     },
@@ -577,28 +178,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "A expressão A ∪ (A ∩ B) simplifica-se para:",
-      "options": [
-        {
-          "id": "A",
-          "text": "A ∩ B."
-        },
-        {
-          "id": "B",
-          "text": "B."
-        },
-        {
-          "id": "C",
-          "text": "A ∪ B."
-        },
-        {
-          "id": "D",
-          "text": "A."
-        },
-        {
-          "id": "E",
-          "text": "∅."
-        }
-      ],
+      "options": [{"id":"A","text":"A ∩ B."},{"id":"B","text":"B."},{"id":"C","text":"A ∪ B."},{"id":"D","text":"A."},{"id":"E","text":"∅."}],
       "correctOptionId": "D",
       "explanation": "Pela absorção, A ∪ (A ∩ B) = A, pois A ∩ B já está contido em A."
     },
@@ -607,28 +187,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Qual identidade distributiva está correta?",
-      "options": [
-        {
-          "id": "A",
-          "text": "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)."
-        },
-        {
-          "id": "B",
-          "text": "A ∩ (B ∪ C) = (A ∪ B) ∩ C."
-        },
-        {
-          "id": "C",
-          "text": "A ∩ (B ∪ C) = A ∪ (B ∩ C)."
-        },
-        {
-          "id": "D",
-          "text": "A ∩ (B ∪ C) = (A ∩ B) ∩ (A ∩ C)."
-        },
-        {
-          "id": "E",
-          "text": "A ∩ (B ∪ C) = B ∪ C."
-        }
-      ],
+      "options": [{"id":"A","text":"A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)."},{"id":"B","text":"A ∩ (B ∪ C) = (A ∪ B) ∩ C."},{"id":"C","text":"A ∩ (B ∪ C) = A ∪ (B ∩ C)."},{"id":"D","text":"A ∩ (B ∪ C) = (A ∩ B) ∩ (A ∩ C)."},{"id":"E","text":"A ∩ (B ∪ C) = B ∪ C."}],
       "correctOptionId": "A",
       "explanation": "A interseção distribui sobre a união: é preciso pertencer a A e, além disso, a B ou a C."
     },
@@ -637,28 +196,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "A diferença A \\ B pode ser reescrita como:",
-      "options": [
-        {
-          "id": "A",
-          "text": "Aᶜ ∩ B."
-        },
-        {
-          "id": "B",
-          "text": "A ∪ Bᶜ."
-        },
-        {
-          "id": "C",
-          "text": "Aᶜ ∪ B."
-        },
-        {
-          "id": "D",
-          "text": "A ∩ Bᶜ."
-        },
-        {
-          "id": "E",
-          "text": "Aᶜ ∩ Bᶜ."
-        }
-      ],
+      "options": [{"id":"A","text":"Aᶜ ∩ B."},{"id":"B","text":"A ∪ Bᶜ."},{"id":"C","text":"Aᶜ ∪ B."},{"id":"D","text":"A ∩ Bᶜ."},{"id":"E","text":"Aᶜ ∩ Bᶜ."}],
       "correctOptionId": "D",
       "explanation": "Pertencer a A, mas não a B, equivale a pertencer a A e ao complemento de B."
     },
@@ -667,28 +205,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Em um grupo, 42 pessoas pertencem a A, 35 pertencem a B e 17 pertencem a ambos. Quantas pertencem a A ∪ B?",
-      "options": [
-        {
-          "id": "A",
-          "text": "24."
-        },
-        {
-          "id": "B",
-          "text": "60."
-        },
-        {
-          "id": "C",
-          "text": "77."
-        },
-        {
-          "id": "D",
-          "text": "94."
-        },
-        {
-          "id": "E",
-          "text": "17."
-        }
-      ],
+      "options": [{"id":"A","text":"24."},{"id":"B","text":"60."},{"id":"C","text":"77."},{"id":"D","text":"94."},{"id":"E","text":"17."}],
       "correctOptionId": "B",
       "explanation": "Pela inclusão-exclusão, |A ∪ B| = 42 + 35 - 17 = 60."
     },
@@ -697,28 +214,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Em um universo de 100 pessoas, |A| = 60, |B| = 50 e |A ∩ B| = 20. Quantas não pertencem a A nem a B?",
-      "options": [
-        {
-          "id": "A",
-          "text": "10."
-        },
-        {
-          "id": "B",
-          "text": "20."
-        },
-        {
-          "id": "C",
-          "text": "30."
-        },
-        {
-          "id": "D",
-          "text": "70."
-        },
-        {
-          "id": "E",
-          "text": "90."
-        }
-      ],
+      "options": [{"id":"A","text":"10."},{"id":"B","text":"20."},{"id":"C","text":"30."},{"id":"D","text":"70."},{"id":"E","text":"90."}],
       "correctOptionId": "A",
       "explanation": "A união tem 60 + 50 - 20 = 90 pessoas. Fora da união ficam 100 - 90 = 10."
     },
@@ -727,28 +223,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Se |A| = 60, |B| = 50 e |A ∩ B| = 20, quantos elementos pertencem a exatamente um dos conjuntos?",
-      "options": [
-        {
-          "id": "A",
-          "text": "40."
-        },
-        {
-          "id": "B",
-          "text": "50."
-        },
-        {
-          "id": "C",
-          "text": "70."
-        },
-        {
-          "id": "D",
-          "text": "90."
-        },
-        {
-          "id": "E",
-          "text": "110."
-        }
-      ],
+      "options": [{"id":"A","text":"40."},{"id":"B","text":"50."},{"id":"C","text":"70."},{"id":"D","text":"90."},{"id":"E","text":"110."}],
       "correctOptionId": "C",
       "explanation": "Somente A tem 40 e somente B tem 30; exatamente um totaliza 70."
     },
@@ -757,28 +232,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Se A e B são subconjuntos de um universo com 50 elementos, |A| = 30 e |B| = 28, qual é o menor valor possível de |A ∩ B|?",
-      "options": [
-        {
-          "id": "A",
-          "text": "0."
-        },
-        {
-          "id": "B",
-          "text": "2."
-        },
-        {
-          "id": "C",
-          "text": "8."
-        },
-        {
-          "id": "D",
-          "text": "20."
-        },
-        {
-          "id": "E",
-          "text": "28."
-        }
-      ],
+      "options": [{"id":"A","text":"0."},{"id":"B","text":"2."},{"id":"C","text":"8."},{"id":"D","text":"20."},{"id":"E","text":"28."}],
       "correctOptionId": "C",
       "explanation": "Como |A ∪ B| ≤ 50, temos |A ∩ B| ≥ 30 + 28 - 50 = 8."
     },
@@ -787,28 +241,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Se |A| = 30 e |B| = 28, qual é o maior valor possível de |A ∩ B|?",
-      "options": [
-        {
-          "id": "A",
-          "text": "2."
-        },
-        {
-          "id": "B",
-          "text": "28."
-        },
-        {
-          "id": "C",
-          "text": "30."
-        },
-        {
-          "id": "D",
-          "text": "50."
-        },
-        {
-          "id": "E",
-          "text": "58."
-        }
-      ],
+      "options": [{"id":"A","text":"2."},{"id":"B","text":"28."},{"id":"C","text":"30."},{"id":"D","text":"50."},{"id":"E","text":"58."}],
       "correctOptionId": "B",
       "explanation": "A interseção não pode ter mais elementos que o menor conjunto. O máximo é 28, atingido quando B ⊆ A."
     },
@@ -817,28 +250,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Para três conjuntos finitos, qual fórmula de inclusão-exclusão está correta?",
-      "options": [
-        {
-          "id": "A",
-          "text": "|A∪B∪C| = |A|+|B|+|C|."
-        },
-        {
-          "id": "B",
-          "text": "|A∪B∪C| = |A|+|B|+|C|-|A∩B∩C|."
-        },
-        {
-          "id": "C",
-          "text": "|A∪B∪C| = |A|+|B|+|C|+|A∩B|+|A∩C|+|B∩C|."
-        },
-        {
-          "id": "D",
-          "text": "|A∪B∪C| = |A|+|B|+|C|-|A∩B|-|A∩C|-|B∩C|+|A∩B∩C|."
-        },
-        {
-          "id": "E",
-          "text": "|A∪B∪C| = |A∩B|+|A∩C|+|B∩C|-|A∩B∩C|."
-        }
-      ],
+      "options": [{"id":"A","text":"|A∪B∪C| = |A|+|B|+|C|."},{"id":"B","text":"|A∪B∪C| = |A|+|B|+|C|-|A∩B∩C|."},{"id":"C","text":"|A∪B∪C| = |A|+|B|+|C|+|A∩B|+|A∩C|+|B∩C|."},{"id":"D","text":"|A∪B∪C| = |A|+|B|+|C|-|A∩B|-|A∩C|-|B∩C|+|A∩B∩C|."},{"id":"E","text":"|A∪B∪C| = |A∩B|+|A∩C|+|B∩C|-|A∩B∩C|."}],
       "correctOptionId": "D",
       "explanation": "Somam-se os conjuntos, subtraem-se as interseções de pares e adiciona-se de volta a interseção tripla."
     },
@@ -847,28 +259,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Se |A|=110, |B|=90, |C|=80, |A∩B|=50, |A∩C|=40, |B∩C|=30 e |A∩B∩C|=20, então |A∪B∪C| é:",
-      "options": [
-        {
-          "id": "A",
-          "text": "120."
-        },
-        {
-          "id": "B",
-          "text": "160."
-        },
-        {
-          "id": "C",
-          "text": "180."
-        },
-        {
-          "id": "D",
-          "text": "200."
-        },
-        {
-          "id": "E",
-          "text": "220."
-        }
-      ],
+      "options": [{"id":"A","text":"120."},{"id":"B","text":"160."},{"id":"C","text":"180."},{"id":"D","text":"200."},{"id":"E","text":"220."}],
       "correctOptionId": "C",
       "explanation": "Inclusão-exclusão: 110+90+80-50-40-30+20 = 180."
     },
@@ -877,28 +268,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Se |A|=110, |A∩B|=50, |A∩C|=40 e |A∩B∩C|=20, quantos elementos pertencem somente a A?",
-      "options": [
-        {
-          "id": "A",
-          "text": "20."
-        },
-        {
-          "id": "B",
-          "text": "30."
-        },
-        {
-          "id": "C",
-          "text": "40."
-        },
-        {
-          "id": "D",
-          "text": "50."
-        },
-        {
-          "id": "E",
-          "text": "70."
-        }
-      ],
+      "options": [{"id":"A","text":"20."},{"id":"B","text":"30."},{"id":"C","text":"40."},{"id":"D","text":"50."},{"id":"E","text":"70."}],
       "correctOptionId": "C",
       "explanation": "As regiões somente A∩B e somente A∩C valem 50-20=30 e 40-20=20. Logo, somente A = 110-30-20-20 = 40."
     },
@@ -907,28 +277,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Se |A∩B|=50, |A∩C|=40, |B∩C|=30 e |A∩B∩C|=20, quantos elementos pertencem a pelo menos dois dos três conjuntos?",
-      "options": [
-        {
-          "id": "A",
-          "text": "20."
-        },
-        {
-          "id": "B",
-          "text": "60."
-        },
-        {
-          "id": "C",
-          "text": "80."
-        },
-        {
-          "id": "D",
-          "text": "100."
-        },
-        {
-          "id": "E",
-          "text": "120."
-        }
-      ],
+      "options": [{"id":"A","text":"20."},{"id":"B","text":"60."},{"id":"C","text":"80."},{"id":"D","text":"100."},{"id":"E","text":"120."}],
       "correctOptionId": "C",
       "explanation": "Somar as três interseções de pares conta a região tripla três vezes. Para deixá-la uma vez, subtraem-se duas cópias: 50+40+30-2·20=80."
     },
@@ -937,28 +286,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação x ∉ A ∪ B equivale a:",
-      "options": [
-        {
-          "id": "A",
-          "text": "x ∈ A e x ∈ B."
-        },
-        {
-          "id": "B",
-          "text": "x ∉ A ou x ∉ B, necessariamente de forma exclusiva."
-        },
-        {
-          "id": "C",
-          "text": "x ∈ A e x ∉ B."
-        },
-        {
-          "id": "D",
-          "text": "x ∉ A e x ∉ B."
-        },
-        {
-          "id": "E",
-          "text": "x ∈ A △ B."
-        }
-      ],
+      "options": [{"id":"A","text":"x ∈ A e x ∈ B."},{"id":"B","text":"x ∉ A ou x ∉ B, necessariamente de forma exclusiva."},{"id":"C","text":"x ∈ A e x ∉ B."},{"id":"D","text":"x ∉ A e x ∉ B."},{"id":"E","text":"x ∈ A △ B."}],
       "correctOptionId": "D",
       "explanation": "Pela lei de De Morgan, estar fora da união significa estar fora de A e também fora de B."
     },
@@ -967,28 +295,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Em um universo U, o complemento da diferença simétrica A △ B contém os elementos que:",
-      "options": [
-        {
-          "id": "A",
-          "text": "pertencem a exatamente um dos conjuntos."
-        },
-        {
-          "id": "B",
-          "text": "pertencem somente a A."
-        },
-        {
-          "id": "C",
-          "text": "pertencem a ambos ou a nenhum dos dois."
-        },
-        {
-          "id": "D",
-          "text": "pertencem à união, mas não à interseção."
-        },
-        {
-          "id": "E",
-          "text": "pertencem somente a B."
-        }
-      ],
+      "options": [{"id":"A","text":"pertencem a exatamente um dos conjuntos."},{"id":"B","text":"pertencem somente a A."},{"id":"C","text":"pertencem a ambos ou a nenhum dos dois."},{"id":"D","text":"pertencem à união, mas não à interseção."},{"id":"E","text":"pertencem somente a B."}],
       "correctOptionId": "C",
       "explanation": "A △ B representa exatamente um. Seu complemento reúne os dois casos restantes: ambos ou nenhum."
     },
@@ -997,28 +304,7 @@
       "revision": 2,
       "origin": "authorial",
       "prompt": "Entre 120 servidores, 80 pertencem a A, 55 pertencem a B e 35 pertencem a ambos. Quantos pertencem a exatamente um dos conjuntos?",
-      "options": [
-        {
-          "id": "A",
-          "text": "20."
-        },
-        {
-          "id": "B",
-          "text": "35."
-        },
-        {
-          "id": "C",
-          "text": "45."
-        },
-        {
-          "id": "D",
-          "text": "65."
-        },
-        {
-          "id": "E",
-          "text": "100."
-        }
-      ],
+      "options": [{"id":"A","text":"20."},{"id":"B","text":"35."},{"id":"C","text":"45."},{"id":"D","text":"65."},{"id":"E","text":"100."}],
       "correctOptionId": "D",
       "explanation": "Somente A = 80-35=45; somente B = 55-35=20; exatamente um = 65."
     },
@@ -1027,28 +313,7 @@
       "revision": 1,
       "origin": "previous_exam",
       "prompt": "Considere os conjuntos A, B e C tais que:\nA = {conjunto dos múltiplos inteiros e positivos de 3};\nB = {conjunto dos múltiplos inteiros e positivos de 8};\nC = {conjunto dos múltiplos inteiros e positivos de 12}.\nÉ correto afirmar que A ∩ C − B corresponde ao conjunto",
-      "options": [
-        {
-          "id": "A",
-          "text": "dos múltiplos inteiros e positivos de 12."
-        },
-        {
-          "id": "B",
-          "text": "dos múltiplos inteiros e positivos de 24."
-        },
-        {
-          "id": "C",
-          "text": "dos números inteiros e positivos que, divididos por 24, deixam resto 12."
-        },
-        {
-          "id": "D",
-          "text": "dos números inteiros e positivos que, divididos por 24, deixam resto 6."
-        },
-        {
-          "id": "E",
-          "text": "vazio."
-        }
-      ],
+      "options": [{"id":"A","text":"dos múltiplos inteiros e positivos de 12."},{"id":"B","text":"dos múltiplos inteiros e positivos de 24."},{"id":"C","text":"dos números inteiros e positivos que, divididos por 24, deixam resto 12."},{"id":"D","text":"dos números inteiros e positivos que, divididos por 24, deixam resto 6."},{"id":"E","text":"vazio."}],
       "correctOptionId": "C",
       "explanation": "Como todo múltiplo de 12 é múltiplo de 3, A ∩ C = C. Retirando de C os múltiplos de 8, sobram os múltiplos ímpares de 12, isto é, números da forma 24k+12. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado de Mato Grosso — Analista Judiciário — Tecnologia da Informação, Tipo 1 (Branca); 2024; questão 22; https://conhecimento.fgv.br/sites/default/files/concursos/cns102-analista-judiciario-analista-de-ti-t01.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjmt_servidor_gabarito_definitivo.pdf."
     },
@@ -1057,30 +322,81 @@
       "revision": 1,
       "origin": "previous_exam",
       "prompt": "Sejam A e B dois conjuntos finitos não vazios tais que A ∪ B tem 8 elementos e A ∩ B tem 3 elementos. O conjunto A − B tem, no mínimo,",
-      "options": [
-        {
-          "id": "A",
-          "text": "4 elementos."
-        },
-        {
-          "id": "B",
-          "text": "3 elementos."
-        },
-        {
-          "id": "C",
-          "text": "2 elementos."
-        },
-        {
-          "id": "D",
-          "text": "1 elemento."
-        },
-        {
-          "id": "E",
-          "text": "0 elemento."
-        }
-      ],
+      "options": [{"id":"A","text":"4 elementos."},{"id":"B","text":"3 elementos."},{"id":"C","text":"2 elementos."},{"id":"D","text":"1 elemento."},{"id":"E","text":"0 elemento."}],
       "correctOptionId": "E",
       "explanation": "O mínimo é 0: é possível ter A ⊆ B, com |A|=3 e |B|=8, de modo que |A∩B|=3, |A∪B|=8 e A−B=∅. Fonte: questão oficial; FGV; Prefeitura de Caraguatatuba — Técnico em Prótese Dentária, Tipo 1 (Branca); 2024; questão 11; https://conhecimento.fgv.br/sites/default/files/concursos/cnm222e3-tecnico-em-protese-dentariacnm222e3-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caraguatatuba2024e0302_gabarito_definitivo_20240226.pdf."
+    },
+    {
+      "id": "q202608294201",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Dados dois conjuntos A e B não vazios, considere A − B = {x | x ∈ A e x ∉ B}.\nSabe-se que A possui, no mínimo, 7 elementos e que B possui, no máximo, 4 elementos.\nO menor número de elementos que A − B pode ter é",
+      "options": [{"id":"A","text":"3."},{"id":"B","text":"4."},{"id":"C","text":"7."},{"id":"D","text":"10."},{"id":"E","text":"11."}],
+      "correctOptionId": "A",
+      "explanation": "Para minimizar A − B, maximiza-se a quantidade de elementos de A que também estão em B. Com |A| = 7 e |B| = 4, é possível ter B ⊆ A, restando 3 elementos em A − B. Fonte: questão oficial; FGV; Serviço Geológico do Brasil (CPRM) — Analista em Geociências — Letras, Tipo 1; 2025; questão 18; https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-geociencias-letras-cns02e23-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-cprm.pdf."
+    },
+    {
+      "id": "q202608294202",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere dois conjuntos A e B cujos elementos são números naturais tais que:\nA ∪ B tem apenas 9 elementos;\nA ∩ B tem apenas 4 elementos;\nA – B tem apenas 3 elementos.\nÉ correto concluir que B – A",
+      "options": [{"id":"A","text":"é um conjunto vazio."},{"id":"B","text":"é um conjunto unitário."},{"id":"C","text":"tem 2 elementos, apenas."},{"id":"D","text":"tem 3 elementos, apenas."},{"id":"E","text":"tem 4 elementos, apenas."}],
+      "correctOptionId": "C",
+      "explanation": "A união é formada pelas três regiões disjuntas A − B, A ∩ B e B − A. Assim, |B − A| = 9 − 3 − 4 = 2. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado de Mato Grosso — Técnico Judiciário — Nível Médio, Tipo 1; 2024; questão 29; https://conhecimento.fgv.br/sites/default/files/concursos/cnm100-tecnico-judiciario-t01.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjmt_servidor_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q202608294203",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Dois conjuntos A e B têm a mesma quantidade de elementos.\nSe A ∪ B tem 11 elementos e A ∩ B tem 3 elementos, então A tem",
+      "options": [{"id":"A","text":"4 elementos."},{"id":"B","text":"5 elementos."},{"id":"C","text":"6 elementos."},{"id":"D","text":"7 elementos."},{"id":"E","text":"8 elementos."}],
+      "correctOptionId": "D",
+      "explanation": "Se |A| = |B| = x, então 11 = x + x − 3, logo 2x = 14 e x = 7. Fonte: questão oficial; FGV; Prefeitura Municipal de Nova Iguaçu — Auditor Fiscal do Tesouro Municipal, Tipo 3; 2024; questão 15; https://conhecimento.fgv.br/sites/default/files/concursos/auditor-fiscal-do-tesouro-municipalcns01-tipo-3.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_semef.pdf."
+    },
+    {
+      "id": "q202608294204",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Dados três conjuntos A, B e C, sabe-se que\nn(A ∩ B) = 5, n(A ∩ C) = 4, n(C ∩ B) = 7 e n[B ∩ (A ∪ C)] = 9.\nO valor de n(A ∩ B ∩ C) é",
+      "options": [{"id":"A","text":"3."},{"id":"B","text":"4."},{"id":"C","text":"5."},{"id":"D","text":"6."},{"id":"E","text":"7."}],
+      "correctOptionId": "A",
+      "explanation": "Como B ∩ (A ∪ C) = (A ∩ B) ∪ (B ∩ C), temos 9 = 5 + 7 − n(A ∩ B ∩ C), daí n(A ∩ B ∩ C) = 3. Fonte: questão oficial; FGV; Prefeitura Municipal de Macaé — Professor C — Matemática, Tipo 2; 2024; questão 62; https://conhecimento.fgv.br/sites/default/files/concursos/professor-c-matematicacns102-tipo-2.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/ed.-1-macaeadm2024_gabarito_definitivo_compilado.pdf."
+    },
+    {
+      "id": "q202608294205",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Seja A o conjunto de todos os números inteiros e positivos que são divisíveis por 4. Seja B o conjunto de todos os números inteiros e positivos que são divisíveis por 6.\nA interseção de A e B corresponde ao conjunto de todos os números inteiros e positivos que são",
+      "options": [{"id":"A","text":"divisíveis por 2."},{"id":"B","text":"divisíveis por 3."},{"id":"C","text":"divisíveis por 4."},{"id":"D","text":"divisíveis por 6."},{"id":"E","text":"divisíveis por 12."}],
+      "correctOptionId": "E",
+      "explanation": "Pertencer simultaneamente a A e a B exige divisibilidade por 4 e por 6; o mínimo múltiplo comum é 12. Fonte: questão oficial; FGV; Prefeitura Municipal de Canaã dos Carajás — Agente de Serviços de Monitoria Social, Tipo 1; 2025; questão 25; https://conhecimento.fgv.br/sites/default/files/concursos/agente-de-servicos-de-monitoria-socialcnf204-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefcanaa202401_gabarito_definitivo-compilado-23.03_0.pdf."
+    },
+    {
+      "id": "q202608294206",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Dados três conjuntos A, B e C não vazios, considere A̅, B̅ e C̅ os conjuntos formados, respectivamente, pelos elementos que não estão em A, pelos elementos que não estão em B e pelos elementos que não estão em C.\nO subconjunto de A ∪ B ∪ C formado pelos elementos que pertencem simultaneamente aos conjuntos A e B mas não pertencem ao conjunto C pode ser representado por",
+      "options": [{"id":"A","text":"(A ∪ B) ∩ C̅"},{"id":"B","text":"(A ∩ B) ∪ C̅"},{"id":"C","text":"(A ∩ C̅) ∩ (B ∩ C̅)"},{"id":"D","text":"(A ∩ C̅) ∪ (B ∩ C̅)"},{"id":"E","text":"(A ∪ C̅) ∩ (B ∪ C̅)"}],
+      "correctOptionId": "C",
+      "explanation": "Pertencer simultaneamente a A e B e não pertencer a C descreve A ∩ B ∩ C̅. A alternativa C, (A ∩ C̅) ∩ (B ∩ C̅), é exatamente essa região. Fonte: questão oficial; FGV; Câmara Municipal de São Paulo — Técnico Legislativo — sem especialidade, Tipo 4; 2024; questão 45; https://conhecimento.fgv.br/sites/default/files/concursos/cnm101-tecnico-legislativo-sem-especialidadecnm101-tipo-4.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camarasp2024_definitivo_20240206.pdf."
+    },
+    {
+      "id": "q202608294207",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere os conjuntos:\nA = {0, 2, 3, 5, 6, 7} e B = {0, 1, 4, 5, 7, 8}.\nSejam X e Y a união e a interseção, respectivamente, dos conjuntos A e B.\nÉ correto afirmar que:",
+      "options": [{"id":"A","text":"X tem 9 elementos a mais do que Y;"},{"id":"B","text":"Y tem 9 elementos a mais do que X;"},{"id":"C","text":"X tem 6 elementos a mais do que Y;"},{"id":"D","text":"Y tem 6 elementos a mais do que X;"},{"id":"E","text":"X e Y têm a mesma quantidade de elementos."}],
+      "correctOptionId": "C",
+      "explanation": "A união X tem 9 elementos e a interseção Y = {0, 5, 7} tem 3; portanto X tem 6 elementos a mais. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado do Amapá — Técnico Judiciário — Especialidade Técnico em Informática, Tipo 1; 2024; questão 23; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-judiciario-area-apoio-especializado-tecnico-de-informaticatec-jud-ti-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjap2024_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q202608294208",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em determinada data, 450 processos concluídos foram enviados para o arquivo geral. Verificou-se que 300 desses processos eram ou exclusivamente relacionados à área de saúde ou exclusivamente relacionados à área de infraestrutura, 210 não eram relacionados à área de infraestrutura e 160 eram relacionados à área de saúde.\nEm relação à situação hipotética precedente e às operações com conjuntos, julgue o item a seguir.\nO número de processos que não estão relacionados nem à área de saúde e nem à área de infraestrutura é inferior a 90.",
+      "options": [{"id":"C","text":"Certo"},{"id":"E","text":"Errado"}],
+      "correctOptionId": "E",
+      "explanation": "O item é errado. Seja x o número de processos relacionados às duas áreas. Como os exclusivos somam 300, (160 − x) + (240 − x) = 300, pois 450 − 210 = 240 são relacionados à infraestrutura. Logo x = 50, a união tem 350 e 100 processos não se relacionam a nenhuma das duas áreas. Fonte: questão oficial; Cebraspe; Tribunal de Contas do Distrito Federal — Analista Administrativo de Controle Externo — Área de Gestão — Especialidade Serviços Técnicos e Administrativos; 2023; item 35; https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/895_TCDF_CB1_01_COM_JUSTIFICATIVA.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/GAB_DEFINITIVO_895_TCDF_CB1_01.PDF. Formato original Certo/Errado preservado, sem quinta alternativa."
     }
   ]
 }
