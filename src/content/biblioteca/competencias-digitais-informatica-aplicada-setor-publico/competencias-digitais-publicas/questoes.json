@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q3819",
@@ -2371,6 +2371,108 @@
       ],
       "correctOptionId": "E",
       "explanation": "A alternativa E distingue racionalidade técnica de justiça: maximizar a função de utilidade definida não impede viés na própria definição da utilidade ou nos dados de treinamento. Questão original do Cebraspe, TCE/MG, Analista de Controle Externo — Especialidade Ciência da Computação, prova aplicada em 25/01/2026, questão 37. Gabarito definitivo: E. Prova: https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/C8E90765DF4F7D7B2FBCC7F3F1D8EC0DACC552563907792148F9160AB5706AC8.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/95B28874A5BBD4AC9DBC3AE82106DF08EC7177210B7AE7823A1A3DB37F84718A.pdf."
+    },
+    {
+      "id": "q4390",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Segundo relatório da McKinsey de 2024, 78% das organizações entrevistadas afirmam já usar IA em pelo menos uma função de negócio.\n\nApesar do entusiasmo, essa inserção de tecnologia disruptiva implica sérios riscos, como imprecisão dos resultados, quebra de privacidade e violação de propriedade intelectual. Esses riscos são tão evidentes que, segundo o mesmo estudo, cerca de 27% dos entrevistados afirmam que 100% dos resultados da IA generativa são revisados por humanos antes do uso. Ainda, o relatório aponta que não há uma propensão a abordar riscos relacionados à precisão ou explicabilidade dos resultados da IA.\n\nIvette Luna. Da predição à compreensão: o papel da explicabilidade na implementação de IA em políticas públicas. In: Jornal da UNICAMP, 29 de setembro de 2025. Internet: <jornal.unicamp.br> (com adaptações).\n\nNo que se refere a ética, transparência e responsabilidade no uso de IA, julgue os próximos itens.\n\nExplicabilidade e interpretabilidade tratam do desafio de entender como os modelos de aprendizado de máquina funcionam, devido especialmente à natureza de “caixa-preta” de muitos modelos, que pode tornar difícil ou impossível a capacidade de explicar uma previsão ou decisão.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O item foi julgado CERTO no gabarito definitivo. Questão original do Cebraspe, TCU, Auditor Federal de Controle Externo — Área Controle Externo — Orientação Auditoria de Tecnologia da Informação, prova aplicada em 22/02/2026, item 163. Prova: https://cdn.cebraspe.org.br/concursos/tcu_25_aufc/arquivos/9546624AF77A5D0A72692C2ACF3725FAF5033C9A8889BFC43D6665194D880172.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/tcu_25_aufc/arquivos/D599023DB31F3467DB9CC03BE3D58BFE91CD7351624DDF045C0FDB71B3569A51.pdf."
+    },
+    {
+      "id": "q4391",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No que se refere a fake news e jornalismo, julgue os próximos itens.\n\nO termo educação midiática é usado para definir a habilidade de consumir notícias a partir da consciência de sua veracidade ou não, identificando-se e separando-se o que é falso do que é verdadeiro.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O item foi julgado CERTO no gabarito definitivo. Questão original do Cebraspe, Polícia Federal, Técnico em Comunicação Social, prova aplicada em 29/06/2025, item 99. Prova: https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_014_01.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_014_01.pdf."
+    },
+    {
+      "id": "q4392",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Carina, professora de informática, planeja uma atividade interdisciplinar articulada com as disciplinas de geografia e matemática. No projeto, os alunos devem coletar dados reais sobre o fluxo de trânsito e os índices de poluição do bairro, organizá-los em planilhas eletrônicas e utilizar funções estatísticas para cruzar as variáveis. A professora estabeleceu que o foco da avaliação será a qualidade das hipóteses levantadas pelos estudantes sobre a relação entre os fenômenos observados. Nessa situação hipotética, ao incorporar técnicas de tratamento e análise de dados ao currículo escolar, a atividade vai propiciar, primariamente, o desenvolvimento da competência de",
+      "options": [
+        {
+          "id": "A",
+          "text": "memorização da sintaxe de fórmulas matemáticas para a execução manual de cálculos repetitivos."
+        },
+        {
+          "id": "B",
+          "text": "manutenção técnica de sistemas gerenciadores de bancos de dados, visando a otimização do armazenamento físico em disco."
+        },
+        {
+          "id": "C",
+          "text": "programação de baixo nível para a criação de drivers de comunicação direta entre sensores e o sistema operacional."
+        },
+        {
+          "id": "D",
+          "text": "interpretação crítica de evidências quantitativas, capacitando o aluno a transformar dados brutos em conhecimento para a fundamentação de argumentos."
+        },
+        {
+          "id": "E",
+          "text": "operação mecânica de periféricos de entrada para a digitalização veloz de documentos físicos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alternativa D é o gabarito definitivo. Questão original do Cebraspe, SEDUC-PI, Professor da Educação Básica — Informática, prova aplicada em 22/03/2026, questão 43. Prova: https://cdn.cebraspe.org.br/concursos/seduc_pi_25_professor/arquivos/A901EE526B1383A4B1776A3C1A6C46C4D910078E4102FD5F956A3FCFF1E8AB13.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/seduc_pi_25_professor/arquivos/46A954A409A39EC8807775B6619A070262B3BCB17A512A0D6B6615FC6DBEFC9D.pdf."
+    },
+    {
+      "id": "q4393",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Julgue os próximos itens, relativos ao Microsoft Teams, à Política Nacional de Educação Digital (PNED) e ao Marco Civil da Internet.\n\nDe acordo com a PNED, bootcamps são programas de imersão de curta duração em técnicas e linguagens computacionais que privilegiem a aprendizagem prática por meio de experimentação e aplicação de soluções tecnológicas.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O item foi julgado ERRADO no gabarito definitivo. Questão original do Cebraspe, TCE-RN, Analista Administrativo — Especialidade Tecnologia da Informação, prova aplicada em 12/04/2026, item 23. Prova: https://cdn.cebraspe.org.br/concursos/tce_rn_25/arquivos/ED8518BD51BAD9A2B1B81E90E0F8A6D26AD846B7FD2B3B3BCC0D4DEB6DF415DE.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/tce_rn_25/arquivos/40C25C309BEA8FC88976F48736B24399C5C5CF6122663A75A893F006A55DB8D6.pdf."
+    },
+    {
+      "id": "q4394",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Julgue os próximos itens, relativos ao Microsoft Office, à Política Nacional de Educação Digital (PNED) e a redes de computadores.\n\nNa PNED, o eixo capacitação e especialização digital visa à capacitação da população brasileira em idade ativa para o desenvolvimento de competências digitais para a plena inserção no mundo do trabalho, sendo uma de suas estratégias prioritárias a identificação das competências digitais necessárias para a empregabilidade.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O item foi julgado CERTO no gabarito definitivo. Questão original do Cebraspe, TCE-RN, Técnico Administrativo, prova aplicada em 12/04/2026, item 30. Prova: https://cdn.cebraspe.org.br/concursos/tce_rn_25/arquivos/134EC41064C2A2024C69A5C86A32CAA9974DD3C2F5EA79CD1A2AB99D217A33D0.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/tce_rn_25/arquivos/489C0237F8773897295274437A3B5683D799A9E70876938E15B36E1BFF28BFED.pdf."
     }
   ]
 }
