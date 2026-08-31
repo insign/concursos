@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q6399",
@@ -1801,6 +1801,66 @@
       ],
       "correctOptionId": "A",
       "explanation": "A matriz vigente é: reconsideração 15 dias com efeito suspensivo; embargos 5 dias e interrupção dos prazos do art. 288, § 3º; revisão 2 anos e sem efeito suspensivo."
+    },
+    {
+      "id": "q99269",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um ato do Presidente do Tribunal de Contas do Estado do Maranhão foi objeto de recurso na esfera administrativa. Nesse caso, nos termos do Regimento Interno do Tribunal, a relatoria do processo caberá ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "Presidente do Tribunal."
+        },
+        {
+          "id": "B",
+          "text": "Vice-Presidente do Tribunal."
+        },
+        {
+          "id": "C",
+          "text": "Conselheiro mais antigo."
+        },
+        {
+          "id": "D",
+          "text": "Corregedor do Tribunal."
+        },
+        {
+          "id": "E",
+          "text": "Presidente da Primeira Câmara."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Gabarito definitivo: D. O Regimento vigente mantém entre as atribuições do Corregedor relatar os recursos na esfera administrativa interpostos contra atos da Presidência do Tribunal. Questão 94 da prova FCC de 2015 para Auditor de Controle Interno — Área de Abrangência Geral da Prefeitura de São Luís/MA. Prova: https://arquivos.qconcursos.com/prova/arquivo_prova/57868/fcc-2015-prefeitura-de-sao-luis-ma-auditor-de-controle-interno-area-de-abrangencia-geral-prova.pdf. Gabarito FCC: https://www.estudegratis.com.br/images/provas/34397-fcc-2015-prefeitura-de-sao-luis-ma-auditor-de-controle-interno-engenharia-eletrica-gabarito.pdf."
+    },
+    {
+      "id": "q99270",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Nos termos da Lei Orgânica do Tribunal de Contas do Estado do Maranhão, sobre os recursos é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a interposição de recurso gera preclusão consumativa, salvo se não for conhecido."
+        },
+        {
+          "id": "B",
+          "text": "é obrigatória a audiência do Ministério Público junto ao Tribunal em todos os recursos."
+        },
+        {
+          "id": "C",
+          "text": "da decisão que determinar a realização de auditoria cabe recurso de embargos de declaração."
+        },
+        {
+          "id": "D",
+          "text": "da decisão que converter processo em tomada de contas especial não cabe recurso."
+        },
+        {
+          "id": "E",
+          "text": "em nenhuma hipótese é cabível recurso de revisão."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Gabarito definitivo: D. O art. 130 da Lei nº 8.258/2005 estabelece que não cabe recurso da decisão que converter processo em tomada de contas especial, determinar sua instauração ou determinar citação, inspeção ou auditoria. Questão 100 da prova FCC de 2015 para Auditor de Controle Interno — Área de Abrangência Geral da Prefeitura de São Luís/MA. Prova: https://arquivos.qconcursos.com/prova/arquivo_prova/57868/fcc-2015-prefeitura-de-sao-luis-ma-auditor-de-controle-interno-area-de-abrangencia-geral-prova.pdf. Gabarito FCC: https://www.estudegratis.com.br/images/provas/34397-fcc-2015-prefeitura-de-sao-luis-ma-auditor-de-controle-interno-engenharia-eletrica-gabarito.pdf."
     }
   ]
 }
