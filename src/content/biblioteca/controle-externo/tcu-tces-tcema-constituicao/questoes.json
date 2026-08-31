@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q5919",
@@ -813,21 +813,6 @@
       "explanation": "A equiparação protege independência e prerrogativas, mas não altera a natureza constitucional do Tribunal de Contas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q5973",
-      "revision": 2,
-      "origin": "previous_exam",
-      "prompt": "Sobre a composição dos tribunais de contas estaduais, assinale a opção correta.",
-      "options": [
-        {"id": "A", "text": "Aplica-se a regra do quinto constitucional, reservando-se um quinto das vagas a advogados e membros do Ministério Público comum."},
-        {"id": "B", "text": "Os sete conselheiros são escolhidos integralmente pela Assembleia Legislativa."},
-        {"id": "C", "text": "Dos sete conselheiros, quatro são escolhidos pelo Governador e três pela Assembleia Legislativa."},
-        {"id": "D", "text": "São sete conselheiros: quatro escolhidos pela Assembleia Legislativa e três pelo Governador, sendo, entre as vagas do Executivo, uma de auditor, uma de membro do Ministério Público de Contas e uma de livre escolha; essa repartição não é a regra do quinto constitucional."},
-        {"id": "E", "text": "São nove conselheiros, reproduzindo-se integralmente a composição numérica do TCU."}
-      ],
-      "correctOptionId": "D",
-      "explanation": "A composição é de sete conselheiros, com repartição 4/3 conforme o art. 75 da Constituição e a Súmula 653 do STF. A expressão “quinto constitucional” é inadequada aqui. Adaptação do item 62 da prova CESPE/Cebraspe — TCE/PE 2017, Cargo 1: Auditor de Controle Externo — Área Auditoria de Contas Públicas, aplicada em 17/09/2017, caderno 332_TCEPE_001_01. No item original, a banca afirmou que se deveria observar a regra do quinto constitucional e, em seguida, descreveu a repartição 4/3; o gabarito oficial definitivo foi E (errado)."
-    },
-    {
       "id": "q5974",
       "revision": 2,
       "origin": "authorial",
@@ -946,6 +931,51 @@
       ],
       "correctOptionId": "E",
       "explanation": "A tomada de contas especial relativa a convênio é atribuição autônoma do Tribunal de Contas: constatada responsabilidade pessoal do prefeito por irregularidades, a Corte pode impor condenação administrativa sem posterior julgamento ou aprovação legislativa. Fonte: questão oficial; FGV; TCE-GO — Analista de Controle Externo — Controle Externo; 2024; questão 71; https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-controle-externo-controle-externocns102-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tce-go.pdf."
+    },
+    {
+      "id": "q99257",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "À luz da Constituição da República e da jurisprudência atual do Supremo Tribunal Federal sobre a composição dos Tribunais de Contas, especialmente no que se refere ao provimento das vagas destinadas a auditores substitutos e a membros do Ministério Público junto ao Tribunal de Contas, é correto afirmar que:",
+      "options": [
+        {"id": "A", "text": "a omissão estatal no provimento dos cargos de auditor e de membros do Ministério Público junto ao Tribunal de Contas é constitucional, por se tratar de matéria sujeita à discricionariedade administrativa do chefe do Poder Executivo;"},
+        {"id": "B", "text": "a Constituição da República admite a livre escolha do conselheiro pelo governador apenas de forma subsidiária e temporária, devendo a vaga ser posteriormente regularizada com a nomeação de auditor ou de membro do Ministério Público de Contas;"},
+        {"id": "C", "text": "é inconstitucional interpretação que autorize a livre escolha, pelo governador, de conselheiro do Tribunal de Contas para vaga constitucionalmente reservada a auditor ou a membro do Ministério Público de Contas, ainda que não existam integrantes aptos nessas carreiras;"},
+        {"id": "D", "text": "a inexistência momentânea de auditores substitutos ou de membros do Ministério Público junto ao Tribunal de Contas autoriza interpretação flexível das normas constitucionais, permitindo ao governador escolher livremente o Conselheiro, sem ofensa ao princípio da simetria;"},
+        {"id": "E", "text": "é constitucional a livre nomeação, pelo governador, de conselheiro do Tribunal de Contas para vaga reservada a auditor substituto ou a membro do Ministério Público de Contas, quando inexistirem candidatos disponíveis nessas carreiras, em razão do princípio da eficiência administrativa."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A reserva constitucional das vagas técnicas não pode ser contornada por livre escolha do chefe do Executivo quando inexistirem integrantes aptos nas carreiras, conforme a jurisprudência do STF cobrada pela FGV. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado do Pará — Juiz Substituto; 2026; questão 89; https://conhecimento.fgv.br/sites/default/files/concursos/tjpa-t1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjpa-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q99258",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Sobre o Ministério Público Junto ao Tribunal de Contas, analise as afirmativas a seguir:\nI. É inconstitucional Lei Estadual que confere autonomia administrativa e orçamentária ao Ministério Público de Contas que atuar junto ao Tribunal de Contas Estadual.\nII. Se, em um processo de fiscalização de iniciativa do Tribunal de Contas do Estado, for verificada a prática de atos que tipifiquem crimes contra a administração pública, o respectivo Ministério Público de Contas poderá firmar acordo de não-persecução penal (ANPP) com os responsáveis, na forma da legislação penal aplicável.\nIII. Para requerer informações e documentos diretamente aos órgãos e entes jurisdicionados, o Ministério Público de Contas deverá, previamente, oficiar a Presidência do respectivo Tribunal de Contas, que autorizará a requisição.\nEstá correto o que se afirma em",
+      "options": [
+        {"id": "A", "text": "I, apenas."},
+        {"id": "B", "text": "I e III, apenas."},
+        {"id": "C", "text": "II, apenas."},
+        {"id": "D", "text": "II e III, apenas."},
+        {"id": "E", "text": "I, II e III."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A afirmativa I está correta: o Ministério Público de Contas não dispõe de autonomia administrativa e orçamentária própria em relação à Corte de Contas. As afirmativas II e III estão incorretas. Fonte: questão oficial; FGV; Tribunal de Contas do Estado de Roraima — Auditor de Controle Externo — Controle Externo; 2025; questão 68; https://conhecimento.fgv.br/sites/default/files/concursos/auditor-de-controle-externo-controle-externocns301-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_tcerr_10.03.2025.pdf."
+    },
+    {
+      "id": "q99259",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O TCU tem sede no Distrito Federal e compõe-se de nove ministros, nomeados pelo Presidente da República, dentre os quais um terço, mediante aprovação do Senado Federal, e dois terços indicados pelo Congresso Nacional.\n(...)\nJunto ao Tribunal, funciona um Ministério Público especializado, composto por um Procurador-Geral, três Subprocuradores-gerais e quatro Procuradores.\n(ZIMLER, Benjamin. Direito Administrativo e Controle. Ed. Forum, p. 171)\nSobre o Ministério Público especializado a que se refere o texto, assinale a afirmativa correta.",
+      "options": [
+        {"id": "A", "text": "Possui autonomia financeira e administrativa."},
+        {"id": "B", "text": "Possui personalidade judiciária, inclusive para propor ações de inconstitucionalidade perante os Tribunais Superiores."},
+        {"id": "C", "text": "Possui autonomia para gerir e prover seus recursos humanos, inclusive quanto ao pessoal de apoio administrativo."},
+        {"id": "D", "text": "Ao Ministério Público junto ao TCU se aplicam os princípios institucionais da unidade, da indivisibilidade e da independência funcional."},
+        {"id": "E", "text": "Poderá ajuizar a ação civil pública e outras ações de tutela coletiva perante o Tribunal de Contas da União."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ao Ministério Público junto ao TCU aplicam-se os princípios institucionais da unidade, da indivisibilidade e da independência funcional; as demais alternativas atribuem autonomias, personalidade judiciária ou capacidade processual que não decorrem do regime cobrado. Fonte: questão oficial; FGV; Tribunal de Contas do Estado do Pará — Auditor de Controle Externo — Área Administrativa — Direito; 2024; questão 53; https://conhecimento.fgv.br/sites/default/files/concursos/cns105-auditor-de-controle-externo-administrativa-direitocns105-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tcepa-1108_gabaritos-para-publicacao_definitivo.pdf."
     }
   ]
 }
