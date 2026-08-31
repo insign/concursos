@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q6159",
@@ -1801,6 +1801,36 @@
       ],
       "correctOptionId": "E",
       "explanation": "As garantias processuais, provas e prazos são o núcleo do Assunto 060; o 058 apenas os situa dentro da arquitetura processual."
+    },
+    {
+      "id": "q99267",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A Prefeitura Municipal de São Luís do Maranhão foi fiscalizada pelo Tribunal de Contas do Estado. Foram encontradas irregularidades em dois processos de adiantamento de numerário a servidores: num deles as falhas eram sanáveis e no outro insanáveis. Nesses casos, nos termos do Regimento Interno do Tribunal de Contas,",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos devem ser enviados ao Tribunal de Contas para julgamento."
+        },
+        {
+          "id": "B",
+          "text": "ambos os casos o técnico responsável pela verificação promoverá meios à sua regularização."
+        },
+        {
+          "id": "C",
+          "text": "o processo com irregularidades insanáveis deverá ser encaminhado ao Tribunal de Contas para julgamento e, no caso do processo com falhas sanáveis, o próprio técnico responsável pela verificação promoverá meios à sua regularização."
+        },
+        {
+          "id": "D",
+          "text": "ambos devem ser encaminhados ao Ministério Público junto ao Tribunal de Contas."
+        },
+        {
+          "id": "E",
+          "text": "o processo com irregularidades insanáveis deverá ser encaminhado ao Tribunal de Contas para julgamento e, no caso do processo com falhas sanáveis, deverá ser enviado ao Ministério Público junto ao Tribunal de Contas para análise."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Regimento distingue a falha sanável, que admite providência de regularização pelo responsável pela verificação, da irregularidade insanável, que exige encaminhamento do processo ao Tribunal para julgamento. Fonte: questão oficial; FCC; Prefeitura de São Luís/MA — Auditor de Controle Interno — Área de Abrangência Geral; 2015; questão 95; https://www.qconcursos.com/questoes-de-concursos/questoes/f74476bd-6a."
     }
   ]
 }
