@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q6039",
@@ -901,6 +901,36 @@
       ],
       "correctOptionId": "B",
       "explanation": "O mandato é de dois anos e a lei permite uma recondução."
+    },
+    {
+      "id": "q99262",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Nos termos do Regimento Interno do Tribunal de Contas do Estado do Maranhão, a competência para promover a defesa da ordem jurídica, requerendo, perante o Tribunal, as medidas de interesse da justiça é",
+      "options": [
+        {
+          "id": "A",
+          "text": "do Ministério Público junto ao Tribunal."
+        },
+        {
+          "id": "B",
+          "text": "do Presidente do Tribunal."
+        },
+        {
+          "id": "C",
+          "text": "do Vice-Presidente do Tribunal."
+        },
+        {
+          "id": "D",
+          "text": "do Corregedor do Tribunal."
+        },
+        {
+          "id": "E",
+          "text": "da Secretaria do Tribunal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A atribuição de promover a defesa da ordem jurídica e requerer, perante o Tribunal, medidas de interesse da Justiça pertence ao Ministério Público junto ao TCE/MA, regra ainda presente no Regimento publicado pelo Tribunal. Fonte: questão oficial; FCC; Prefeitura de São Luís/MA — Auditor de Controle Interno — Área de Abrangência Geral; 2015; questão 94; https://www.qconcursos.com/questoes-de-concursos/questoes/f7404504-6a."
     }
   ]
 }
