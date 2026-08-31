@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q4959",
@@ -682,6 +682,21 @@
       ],
       "correctOptionId": "C",
       "explanation": "A afirmação envolve três proposições simples distintas, logo a tabela-verdade possui 2³=8 linhas. Fonte: questão oficial; Cebraspe; SEFAZ-RJ — Analista em Finanças Públicas, Conhecimentos Gerais; 2025; questão 49; caderno https://cdn.cebraspe.org.br/concursos/SEFAZ_RJ_25_ANALISTA/arquivos/059_SEFAZRJANALISTA_CG_01.pdf; gabarito definitivo https://cdn.cebraspe.org.br/concursos/sefaz_rj_25_analista/arquivos/Gab_Definitivo_059_SEFAZRJANALISTA_CG_01.pdf."
+    },
+    {
+      "id": "q52203817",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considere a seguinte situação:\nUm advogado informa ao seu cliente que seguirá defendendo seu caso se, e somente se, ele se comprometer a seguir à risca as suas orientações.\nSe representarmos essa situação por meio das proposições lógicas “o advogado defende o cliente” e “o cliente segue as orientações”, o conectivo lógico que descreve corretamente a relação entre elas é o de",
+      "options": [
+        {"id": "A", "text": "negação."},
+        {"id": "B", "text": "condicionalidade."},
+        {"id": "C", "text": "disjunção."},
+        {"id": "D", "text": "bicondicionalidade."},
+        {"id": "E", "text": "conjunção."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A expressão “se, e somente se” estabelece uma relação bicondicional entre as duas proposições. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado do Rio Grande do Sul — Técnico do Poder Judiciário, Área Administrativo-Judiciária, Tipo 1 (Branca); concurso 2025; questão 32; caderno https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-1.pdf; gabarito oficial definitivo https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-edital-gabarito-definitivo.pdf."
     }
   ]
 }
