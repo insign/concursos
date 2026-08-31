@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q6339",
@@ -300,7 +300,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A página oficial do TCE/MA diferencia débito e multa por suas finalidades. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A página oficial do TCE/MA diferencia as consequências pela finalidade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6349",
@@ -1801,6 +1801,36 @@
       ],
       "correctOptionId": "D",
       "explanation": "Recursos e revisão pertencem ao Assunto 062; este recorte trata de decisão, sanção e execução. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q99268",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O Tribunal de Contas do Estado do Maranhão detém competência para aplicação de multa. Tomando-se, como referência, o texto constitucional e a Lei Orgânica do referido Tribunal, é INCORRETO afirmar:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Poderá o Tribunal de Contas aplicar multa quando as contas forem julgadas regulares com ressalvas, quando for o caso."
+        },
+        {
+          "id": "B",
+          "text": "Poderá o Tribunal de Contas aplicar multa quando as contas forem julgadas irregulares, ainda que não haja débito, na hipótese de infração à norma legal ou regulamentar de natureza contábil, financeira, orçamentária, operacional ou patrimonial."
+        },
+        {
+          "id": "C",
+          "text": "No caso de reincidência no descumprimento de decisão do Tribunal de Contas, demonstrada a inadequação da multa aplicada, o Tribunal de Contas poderá revê-la, de ofício, diminuindo seu valor ou tornando-a sem efeito."
+        },
+        {
+          "id": "D",
+          "text": "O Regimento Interno do Tribunal de Contas disporá sobre a gradação da multa a que o Tribunal de Contas, por previsão legal, detém competência para aplicar."
+        },
+        {
+          "id": "E",
+          "text": "Poderá o Tribunal de Contas aplicar multa em caso de ato de gestão ilegítimo ou antieconômico de que resulte injustificado dano ao erário."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C é a incorreta. A disciplina vigente mantém a reincidência no descumprimento de decisão como hipótese própria de multa, mas a revisão de ofício por inadequação não alcança essa hipótese: o art. 274, § 2º, restringe a revisão às multas fundadas nos incisos V, VI, VII ou VIII. As demais alternativas correspondem a hipóteses ou regras de aplicação e gradação de multa previstas no regime do TCE/MA. Fonte: questão oficial; FCC; TCE-MA — Analista de Controle Externo; 2005; questão 70; https://arquivos.qconcursos.com/prova/arquivo_prova/78856/fcc-2005-tce-ma-analista-de-controle-externo-prova.pdf."
     }
   ]
 }
