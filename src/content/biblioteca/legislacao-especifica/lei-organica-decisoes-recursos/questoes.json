@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q6759",
@@ -1801,36 +1801,6 @@
       ],
       "correctOptionId": "C",
       "explanation": "O Tema 1287 preserva a distinção entre o regime das contas anuais e a competência própria do Tribunal de Contas para responsabilização pessoal em tomada de contas especial relativa a convênio interfederativo. Fonte: STF, Tema 1287; questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q150001",
-      "revision": 1,
-      "origin": "previous_exam",
-      "prompt": "Para fins de inelegibilidade nos termos da Lei Complementar nº 64, de 18 de maio de 1990, o Tribunal de Contas do Estado do Maranhão, com a devida antecedência ou quando solicitado, nas hipóteses cabíveis, enviará, em tempo hábil, o nome dos responsáveis cujas contas houverem recebido parecer prévio pela desaprovação e/ou sido julgadas irregulares nos cinco anos imediatamente anteriores à época em que forem realizadas eleições no âmbito da União, dos Estados, do Distrito Federal e dos Municípios, ao",
-      "options": [
-        {
-          "id": "A",
-          "text": "Tribunal Regional Federal."
-        },
-        {
-          "id": "B",
-          "text": "Ministério Público Eleitoral."
-        },
-        {
-          "id": "C",
-          "text": "Tribunal Regional Eleitoral."
-        },
-        {
-          "id": "D",
-          "text": "Tribunal de Contas da União."
-        },
-        {
-          "id": "E",
-          "text": "Tribunal de Justiça do Estado do Maranhão."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "O art. 33 da Lei nº 8.258/2005 atribui o envio da relação ao Ministério Público Eleitoral; a relação não declara, por si só, inelegibilidade. Fonte: questão oficial; FCC; TCE-MA — Analista de Controle Externo; 2005; questão 68; https://arquivos.qconcursos.com/prova/arquivo_prova/78856/fcc-2005-tce-ma-analista-de-controle-externo-prova.pdf."
     }
   ]
 }

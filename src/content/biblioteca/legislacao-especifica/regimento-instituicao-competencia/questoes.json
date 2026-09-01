@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q5979",
@@ -1801,66 +1801,6 @@
       ],
       "correctOptionId": "B",
       "explanation": "O assunto 055 cobre instituição e competências; organização interna, processos, decisões, sanções e recursos são recortes posteriores."
-    },
-    {
-      "id": "q99260",
-      "revision": 1,
-      "origin": "previous_exam",
-      "prompt": "Em conformidade com a Lei Orgânica do Tribunal de Contas do Estado do Maranhão, é correto afirmar:",
-      "options": [
-        {
-          "id": "A",
-          "text": "admite-se à Câmara de Vereadores posterior deliberação sobre o mérito do julgamento, realizado pelo Tribunal de Contas, relativo às contas do administrador de autarquia municipal."
-        },
-        {
-          "id": "B",
-          "text": "o pagamento integral do débito apurado, por si só, após decisão definitiva do Tribunal de Contas, pode ensejar modificação do julgamento quanto à irregularidade das contas."
-        },
-        {
-          "id": "C",
-          "text": "o parecer prévio emitido pelo Tribunal de Contas, concernente às contas do Governador do Estado, poderá ser: i – pela aprovação; ii – pela aprovação, com ressalvas; iii – pela desaprovação; ou iv – com abstenção de opinião."
-        },
-        {
-          "id": "D",
-          "text": "compete ao Tribunal de Contas do Estado do Maranhão emitir pronunciamento conclusivo sobre matéria que seja submetida a sua apreciação por quaisquer das comissões da Assembléia Legislativa ou das Câmaras Municipais."
-        },
-        {
-          "id": "E",
-          "text": "as contas anuais dos Presidentes das Câmaras Municipais serão objeto de apreciação, pelo Tribunal de Contas, através de parecer prévio."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "O gabarito definitivo é C. O art. 8º, § 3º, da Lei Estadual nº 8.258/2005 prevê as modalidades do parecer prévio sobre as contas do Governador, incluindo aprovação, aprovação com ressalvas, desaprovação e abstenção de opinião. Fonte: questão oficial; FCC; TCE-MA — Analista de Controle Externo; 2005; questão 63; https://arquivos.qconcursos.com/prova/arquivo_prova/78856/fcc-2005-tce-ma-analista-de-controle-externo-prova.pdf. Gabarito: C, corroborado pelo repositório QConcursos da prova."
-    },
-    {
-      "id": "q99261",
-      "revision": 1,
-      "origin": "previous_exam",
-      "prompt": "A apreciação das contas anuais do chefe do Poder Executivo Municipal, realizada pelo Tribunal de Contas, mediante parecer prévio, somente deixará de prevalecer por decisão",
-      "options": [
-        {
-          "id": "A",
-          "text": "da Comissão de Constituição e Justiça da Câmara de Vereadores do respectivo Município."
-        },
-        {
-          "id": "B",
-          "text": "da metade dos membros da Câmara de Vereadores do respectivo Município."
-        },
-        {
-          "id": "C",
-          "text": "da metade dos membros presentes na sessão deliberativa da Câmara de Vereadores do respectivo Município."
-        },
-        {
-          "id": "D",
-          "text": "de dois terços dos membros da Câmara de Vereadores do respectivo Município."
-        },
-        {
-          "id": "E",
-          "text": "de dois terços dos membros presentes na sessão deliberativa da Câmara de Vereadores do respectivo Município."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "O gabarito definitivo é D. A regra permanece no art. 31, § 2º, da Constituição Federal: o parecer prévio sobre as contas anuais do Prefeito só deixa de prevalecer por decisão de dois terços dos membros da Câmara Municipal. Fonte: questão oficial; FCC; TCE-MA — Procurador; 2005; questão 93; https://arquivos.qconcursos.com/prova/arquivo_prova/78857/fcc-2005-tce-ma-procurador-prova.pdf."
     }
   ]
 }
