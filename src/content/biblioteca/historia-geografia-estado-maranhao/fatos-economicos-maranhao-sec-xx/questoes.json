@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q7539",
@@ -8,1799 +8,208 @@
       "origin": "authorial",
       "prompt": "O recorte principal do assunto econômico é",
       "options": [
-        {
-          "id": "A",
-          "text": "1951-2000, com antecedentes anteriores apenas quando indispensáveis para explicar as transformações."
-        },
-        {
-          "id": "B",
-          "text": "1822-1889."
-        },
-        {
-          "id": "C",
-          "text": "somente 1985."
-        },
-        {
-          "id": "D",
-          "text": "2004-2026."
-        },
-        {
-          "id": "E",
-          "text": "apenas a economia colonial."
-        }
+        {"id": "A", "text": "1951-2000, com antecedentes anteriores apenas quando indispensáveis para explicar as transformações."},
+        {"id": "B", "text": "1822-1889."},
+        {"id": "C", "text": "somente 1985."},
+        {"id": "D", "text": "2004-2026."},
+        {"id": "E", "text": "apenas a economia colonial."}
       ],
       "correctOptionId": "A",
       "explanation": "O tema cobre os principais fatos econômicos da segunda metade do século XX; antecedentes servem apenas como contexto e fatos posteriores a 2000 ficam fora. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7540",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "O declínio da indústria têxtil maranhense foi",
-      "options": [
-        {
-          "id": "A",
-          "text": "instantâneo em 1951."
-        },
-        {
-          "id": "B",
-          "text": "causado somente pela falta de algodão."
-        },
-        {
-          "id": "C",
-          "text": "processo gradual com fatores tecnológicos, financeiros, comerciais e logísticos."
-        },
-        {
-          "id": "D",
-          "text": "posterior a 2000."
-        },
-        {
-          "id": "E",
-          "text": "resultado da EFC."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "Paralisação, fechamento empresarial e abandono físico ocorreram em momentos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id": "q7540", "revision": 1, "origin": "authorial", "prompt": "O declínio da indústria têxtil maranhense foi",
+      "options": [{"id":"A","text":"instantâneo em 1951."},{"id":"B","text":"causado somente pela falta de algodão."},{"id":"C","text":"processo gradual com fatores tecnológicos, financeiros, comerciais e logísticos."},{"id":"D","text":"posterior a 2000."},{"id":"E","text":"resultado da EFC."}],
+      "correctOptionId":"C","explanation":"Paralisação, fechamento empresarial e abandono físico ocorreram em momentos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7541",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Entre as causas da crise têxtil estava",
-      "options": [
-        {
-          "id": "A",
-          "text": "a inexistência de concorrência."
-        },
-        {
-          "id": "B",
-          "text": "a modernização excessiva."
-        },
-        {
-          "id": "C",
-          "text": "o Porto do Itaqui em 1612."
-        },
-        {
-          "id": "D",
-          "text": "a privatização da CEMAR."
-        },
-        {
-          "id": "E",
-          "text": "maquinaria envelhecida, baixa capitalização e concorrência do Centro-Sul."
-        }
-      ],
-      "correctOptionId": "E",
-      "explanation": "A combinação reduziu competitividade e capacidade de renovação do parque fabril. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7541","revision":1,"origin":"authorial","prompt":"Entre as causas da crise têxtil estava","options":[{"id":"A","text":"a inexistência de concorrência."},{"id":"B","text":"a modernização excessiva."},{"id":"C","text":"o Porto do Itaqui em 1612."},{"id":"D","text":"a privatização da CEMAR."},{"id":"E","text":"maquinaria envelhecida, baixa capitalização e concorrência do Centro-Sul."}],"correctOptionId":"E","explanation":"A combinação reduziu competitividade e capacidade de renovação do parque fabril. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7542",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Desde os anos 1950, ganhou importância ao lado do babaçu a produção de",
-      "options": [
-        {
-          "id": "A",
-          "text": "café."
-        },
-        {
-          "id": "B",
-          "text": "arroz."
-        },
-        {
-          "id": "C",
-          "text": "trigo."
-        },
-        {
-          "id": "D",
-          "text": "borracha amazônica."
-        },
-        {
-          "id": "E",
-          "text": "petróleo."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "O arroz expandiu-se por vales e novas frentes, articulado a beneficiamento e comércio. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7542","revision":1,"origin":"authorial","prompt":"Desde os anos 1950, ganhou importância ao lado do babaçu a produção de","options":[{"id":"A","text":"café."},{"id":"B","text":"arroz."},{"id":"C","text":"trigo."},{"id":"D","text":"borracha amazônica."},{"id":"E","text":"petróleo."}],"correctOptionId":"B","explanation":"O arroz expandiu-se por vales e novas frentes, articulado a beneficiamento e comércio. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7543",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "O complexo do babaçu reunia",
-      "options": [
-        {
-          "id": "A",
-          "text": "somente exportação de coco inteiro."
-        },
-        {
-          "id": "B",
-          "text": "apenas pecuária."
-        },
-        {
-          "id": "C",
-          "text": "mineração e siderurgia."
-        },
-        {
-          "id": "D",
-          "text": "coleta, quebra, intermediação, comércio, óleo e derivados."
-        },
-        {
-          "id": "E",
-          "text": "apenas trabalho portuário."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "A cadeia ligava produção extrativa, casas comerciais e indústrias processadoras. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7543","revision":1,"origin":"authorial","prompt":"O complexo do babaçu reunia","options":[{"id":"A","text":"somente exportação de coco inteiro."},{"id":"B","text":"apenas pecuária."},{"id":"C","text":"mineração e siderurgia."},{"id":"D","text":"coleta, quebra, intermediação, comércio, óleo e derivados."},{"id":"E","text":"apenas trabalho portuário."}],"correctOptionId":"D","explanation":"A cadeia ligava produção extrativa, casas comerciais e indústrias processadoras. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7544",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "A trajetória econômica do babaçu na segunda metade do século XX é melhor resumida como",
-      "options": [
-        {
-          "id": "A",
-          "text": "desaparecimento imediato após 1950."
-        },
-        {
-          "id": "B",
-          "text": "crescimento da produção e do processamento no pós-guerra, seguido de perda de dinamismo nas décadas de 1970 e 1980."
-        },
-        {
-          "id": "C",
-          "text": "substituição completa pela mineração já em 1959."
-        },
-        {
-          "id": "D",
-          "text": "atividade sem qualquer beneficiamento industrial."
-        },
-        {
-          "id": "E",
-          "text": "expansão contínua e sem crises até 2000."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "O ponto relevante é a trajetória de expansão e industrialização do processamento seguida por crise associada a mudanças no campo, no mercado de óleos e nos custos industriais. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7544","revision":2,"origin":"authorial","prompt":"A trajetória econômica do babaçu na segunda metade do século XX é melhor resumida como","options":[{"id":"A","text":"desaparecimento imediato após 1950."},{"id":"B","text":"crescimento da produção e do processamento no pós-guerra, seguido de perda de dinamismo nas décadas de 1970 e 1980."},{"id":"C","text":"substituição completa pela mineração já em 1959."},{"id":"D","text":"atividade sem qualquer beneficiamento industrial."},{"id":"E","text":"expansão contínua e sem crises até 2000."}],"correctOptionId":"B","explanation":"O ponto relevante é a trajetória de expansão e industrialização do processamento seguida por crise associada a mudanças no campo, no mercado de óleos e nos custos industriais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7545",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A crise do babaçu nos anos 1970-1980 relacionou-se a",
-      "options": [
-        {
-          "id": "A",
-          "text": "uma causa única climática."
-        },
-        {
-          "id": "B",
-          "text": "fim do comércio externo em 1900."
-        },
-        {
-          "id": "C",
-          "text": "somente mecanização da coleta."
-        },
-        {
-          "id": "D",
-          "text": "pecuarização, madeira, óleos concorrentes, defasagem tecnológica e políticas descontínuas."
-        },
-        {
-          "id": "E",
-          "text": "excesso de integração industrial."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "A crise combinou mudanças no campo, no mercado de óleos e no processamento industrial. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7545","revision":1,"origin":"authorial","prompt":"A crise do babaçu nos anos 1970-1980 relacionou-se a","options":[{"id":"A","text":"uma causa única climática."},{"id":"B","text":"fim do comércio externo em 1900."},{"id":"C","text":"somente mecanização da coleta."},{"id":"D","text":"pecuarização, madeira, óleos concorrentes, defasagem tecnológica e políticas descontínuas."},{"id":"E","text":"excesso de integração industrial."}],"correctOptionId":"D","explanation":"A crise combinou mudanças no campo, no mercado de óleos e no processamento industrial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7546",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A SUDENE foi criada em",
-      "options": [
-        {
-          "id": "A",
-          "text": "1985."
-        },
-        {
-          "id": "B",
-          "text": "2000."
-        },
-        {
-          "id": "C",
-          "text": "1959."
-        },
-        {
-          "id": "D",
-          "text": "1969."
-        },
-        {
-          "id": "E",
-          "text": "1979."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "A autarquia integrou o Maranhão ao planejamento regional por incentivos, crédito e infraestrutura. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7546","revision":1,"origin":"authorial","prompt":"A SUDENE foi criada em","options":[{"id":"A","text":"1985."},{"id":"B","text":"2000."},{"id":"C","text":"1959."},{"id":"D","text":"1969."},{"id":"E","text":"1979."}],"correctOptionId":"C","explanation":"A autarquia integrou o Maranhão ao planejamento regional por incentivos, crédito e infraestrutura. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7547",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "As rodovias produziram economicamente",
-      "options": [
-        {
-          "id": "A",
-          "text": "isolamento dos mercados."
-        },
-        {
-          "id": "B",
-          "text": "integração de áreas produtoras e, também, maior concorrência externa às empresas locais."
-        },
-        {
-          "id": "C",
-          "text": "fim da agricultura."
-        },
-        {
-          "id": "D",
-          "text": "substituição da EFC antes de 1950."
-        },
-        {
-          "id": "E",
-          "text": "somente efeitos políticos."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "A integração viária abriu mercados, mas também facilitou a entrada de produtos do Centro-Sul. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7547","revision":1,"origin":"authorial","prompt":"As rodovias produziram economicamente","options":[{"id":"A","text":"isolamento dos mercados."},{"id":"B","text":"integração de áreas produtoras e, também, maior concorrência externa às empresas locais."},{"id":"C","text":"fim da agricultura."},{"id":"D","text":"substituição da EFC antes de 1950."},{"id":"E","text":"somente efeitos políticos."}],"correctOptionId":"B","explanation":"A integração viária abriu mercados, mas também facilitou a entrada de produtos do Centro-Sul. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7548",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "A integração rodoviária alterou a economia maranhense porque",
-      "options": [
-        {
-          "id": "A",
-          "text": "eliminou a circulação de mercadorias com outras regiões."
-        },
-        {
-          "id": "B",
-          "text": "conectou áreas produtoras e polos comerciais a mercados mais amplos, ao mesmo tempo em que aumentou a concorrência enfrentada por empresas locais."
-        },
-        {
-          "id": "C",
-          "text": "substituiu imediatamente todos os portos e ferrovias."
-        },
-        {
-          "id": "D",
-          "text": "teve efeito apenas sobre eleições municipais."
-        },
-        {
-          "id": "E",
-          "text": "impediu a expansão agropecuária no interior."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "A abertura de eixos viários ampliou mercados e circulação, mas também facilitou a entrada de produtos externos; seu impacto foi simultaneamente integrador e competitivo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7548","revision":2,"origin":"authorial","prompt":"A integração rodoviária alterou a economia maranhense porque","options":[{"id":"A","text":"eliminou a circulação de mercadorias com outras regiões."},{"id":"B","text":"conectou áreas produtoras e polos comerciais a mercados mais amplos, ao mesmo tempo em que aumentou a concorrência enfrentada por empresas locais."},{"id":"C","text":"substituiu imediatamente todos os portos e ferrovias."},{"id":"D","text":"teve efeito apenas sobre eleições municipais."},{"id":"E","text":"impediu a expansão agropecuária no interior."}],"correctOptionId":"B","explanation":"A abertura de eixos viários ampliou mercados e circulação, mas também facilitou a entrada de produtos externos; seu impacto foi simultaneamente integrador e competitivo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7549",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A Lei estadual nº 2.979/1969 é associada à",
-      "options": [
-        {
-          "id": "A",
-          "text": "criação da CEMAR."
-        },
-        {
-          "id": "B",
-          "text": "inauguração da EFC."
-        },
-        {
-          "id": "C",
-          "text": "política de terras devolutas e atração de projetos empresariais."
-        },
-        {
-          "id": "D",
-          "text": "privatização da Vale."
-        },
-        {
-          "id": "E",
-          "text": "criação da SUDENE."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "Conhecida historiograficamente como Lei de Terras, tornou grandes áreas disponíveis a investimentos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7549","revision":1,"origin":"authorial","prompt":"A Lei estadual nº 2.979/1969 é associada à","options":[{"id":"A","text":"criação da CEMAR."},{"id":"B","text":"inauguração da EFC."},{"id":"C","text":"política de terras devolutas e atração de projetos empresariais."},{"id":"D","text":"privatização da Vale."},{"id":"E","text":"criação da SUDENE."}],"correctOptionId":"C","explanation":"Conhecida historiograficamente como Lei de Terras, tornou grandes áreas disponíveis a investimentos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7550",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Sobre a concentração produtiva e fundiária, é correto afirmar que",
-      "options": [
-        {
-          "id": "A",
-          "text": "decorreu só da Lei de 1969."
-        },
-        {
-          "id": "B",
-          "text": "não existiu."
-        },
-        {
-          "id": "C",
-          "text": "foi causada apenas por rodovias."
-        },
-        {
-          "id": "D",
-          "text": "a lei atuou com crédito, incentivos, valorização da terra e infraestrutura."
-        },
-        {
-          "id": "E",
-          "text": "resultou da Alumar em 1950."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "A explicação multicausal evita atribuir toda transformação a um único instrumento legal. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7550","revision":1,"origin":"authorial","prompt":"Sobre a concentração produtiva e fundiária, é correto afirmar que","options":[{"id":"A","text":"decorreu só da Lei de 1969."},{"id":"B","text":"não existiu."},{"id":"C","text":"foi causada apenas por rodovias."},{"id":"D","text":"a lei atuou com crédito, incentivos, valorização da terra e infraestrutura."},{"id":"E","text":"resultou da Alumar em 1950."}],"correctOptionId":"D","explanation":"A explicação multicausal evita atribuir toda transformação a um único instrumento legal. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7551",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A pecuarização desde os anos 1970 foi favorecida por",
-      "options": [
-        {
-          "id": "A",
-          "text": "incentivos, crédito, grandes áreas e novas conexões rodoviárias."
-        },
-        {
-          "id": "B",
-          "text": "fim dos mercados de carne."
-        },
-        {
-          "id": "C",
-          "text": "somente portos privados."
-        },
-        {
-          "id": "D",
-          "text": "ausência de pastagens."
-        },
-        {
-          "id": "E",
-          "text": "proibição de projetos empresariais."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "A pecuária articulou ocupação territorial, valorização patrimonial e comércio de produtos animais. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7551","revision":1,"origin":"authorial","prompt":"A pecuarização desde os anos 1970 foi favorecida por","options":[{"id":"A","text":"incentivos, crédito, grandes áreas e novas conexões rodoviárias."},{"id":"B","text":"fim dos mercados de carne."},{"id":"C","text":"somente portos privados."},{"id":"D","text":"ausência de pastagens."},{"id":"E","text":"proibição de projetos empresariais."}],"correctOptionId":"A","explanation":"A pecuária articulou ocupação territorial, valorização patrimonial e comércio de produtos animais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7552",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A exploração madeireira destacou-se no oeste, tendo como centro importante",
-      "options": [
-        {
-          "id": "A",
-          "text": "Barreirinhas."
-        },
-        {
-          "id": "B",
-          "text": "Rosário."
-        },
-        {
-          "id": "C",
-          "text": "São José de Ribamar."
-        },
-        {
-          "id": "D",
-          "text": "Caxias exclusivamente."
-        },
-        {
-          "id": "E",
-          "text": "Imperatriz."
-        }
-      ],
-      "correctOptionId": "E",
-      "explanation": "O IBGE identifica Imperatriz como grande produtor, beneficiador e comerciante de madeira. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7552","revision":1,"origin":"authorial","prompt":"A exploração madeireira destacou-se no oeste, tendo como centro importante","options":[{"id":"A","text":"Barreirinhas."},{"id":"B","text":"Rosário."},{"id":"C","text":"São José de Ribamar."},{"id":"D","text":"Caxias exclusivamente."},{"id":"E","text":"Imperatriz."}],"correctOptionId":"E","explanation":"O IBGE identifica Imperatriz como grande produtor, beneficiador e comerciante de madeira. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7553",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A agricultura mecanizada dos cerrados consolidou-se especialmente na área de",
-      "options": [
-        {
-          "id": "A",
-          "text": "Alcântara."
-        },
-        {
-          "id": "B",
-          "text": "Balsas."
-        },
-        {
-          "id": "C",
-          "text": "Cururupu."
-        },
-        {
-          "id": "D",
-          "text": "Pinheiro."
-        },
-        {
-          "id": "E",
-          "text": "Raposa."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "Chapadões, correção de solos, máquinas e capital favoreceram o polo do sul maranhense. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7553","revision":1,"origin":"authorial","prompt":"A agricultura mecanizada dos cerrados consolidou-se especialmente na área de","options":[{"id":"A","text":"Alcântara."},{"id":"B","text":"Balsas."},{"id":"C","text":"Cururupu."},{"id":"D","text":"Pinheiro."},{"id":"E","text":"Raposa."}],"correctOptionId":"B","explanation":"Chapadões, correção de solos, máquinas e capital favoreceram o polo do sul maranhense. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7554",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Modernização conservadora significa",
-      "options": [
-        {
-          "id": "A",
-          "text": "ausência de inovação."
-        },
-        {
-          "id": "B",
-          "text": "fim da propriedade privada."
-        },
-        {
-          "id": "C",
-          "text": "apenas agricultura familiar."
-        },
-        {
-          "id": "D",
-          "text": "inovação técnica e maior escala sem mudança equivalente da concentração da propriedade."
-        },
-        {
-          "id": "E",
-          "text": "retorno ao algodão colonial."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "O conceito combina modernização produtiva com permanências estruturais. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7554","revision":1,"origin":"authorial","prompt":"Modernização conservadora significa","options":[{"id":"A","text":"ausência de inovação."},{"id":"B","text":"fim da propriedade privada."},{"id":"C","text":"apenas agricultura familiar."},{"id":"D","text":"inovação técnica e maior escala sem mudança equivalente da concentração da propriedade."},{"id":"E","text":"retorno ao algodão colonial."}],"correctOptionId":"D","explanation":"O conceito combina modernização produtiva com permanências estruturais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7555",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "O Porto do Itaqui é",
-      "options": [
-        {
-          "id": "A",
-          "text": "terminal privado da Vale."
-        },
-        {
-          "id": "B",
-          "text": "porto privado da Alumar."
-        },
-        {
-          "id": "C",
-          "text": "porto público."
-        },
-        {
-          "id": "D",
-          "text": "mina de ferro."
-        },
-        {
-          "id": "E",
-          "text": "ferrovia."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "Itaqui é instalação pública distinta de Ponta da Madeira e do terminal da Alumar. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7555","revision":1,"origin":"authorial","prompt":"O Porto do Itaqui é","options":[{"id":"A","text":"terminal privado da Vale."},{"id":"B","text":"porto privado da Alumar."},{"id":"C","text":"porto público."},{"id":"D","text":"mina de ferro."},{"id":"E","text":"ferrovia."}],"correctOptionId":"C","explanation":"Itaqui é instalação pública distinta de Ponta da Madeira e do terminal da Alumar. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7556",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "A importância econômica do Porto do Itaqui na segunda metade do século XX decorre principalmente de",
-      "options": [
-        {
-          "id": "A",
-          "text": "ser uma mina de ferro localizada em São Luís."
-        },
-        {
-          "id": "B",
-          "text": "ampliar a conexão portuária do Maranhão com cadeias regionais, nacionais e exportadoras."
-        },
-        {
-          "id": "C",
-          "text": "ter substituído toda a rede rodoviária estadual."
-        },
-        {
-          "id": "D",
-          "text": "ser terminal privado exclusivo da Vale."
-        },
-        {
-          "id": "E",
-          "text": "ter funcionado apenas para produtos agrícolas locais."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "O Itaqui tornou-se infraestrutura pública estratégica para fluxos de importação e exportação e para cadeias que ultrapassam o território maranhense. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7556","revision":2,"origin":"authorial","prompt":"A importância econômica do Porto do Itaqui na segunda metade do século XX decorre principalmente de","options":[{"id":"A","text":"ser uma mina de ferro localizada em São Luís."},{"id":"B","text":"ampliar a conexão portuária do Maranhão com cadeias regionais, nacionais e exportadoras."},{"id":"C","text":"ter substituído toda a rede rodoviária estadual."},{"id":"D","text":"ser terminal privado exclusivo da Vale."},{"id":"E","text":"ter funcionado apenas para produtos agrícolas locais."}],"correctOptionId":"B","explanation":"O Itaqui tornou-se infraestrutura pública estratégica para fluxos de importação e exportação e para cadeias que ultrapassam o território maranhense. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7557",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "Sobre os marcos de 1972 e 1974 associados ao início das atividades do Itaqui, a conduta mais segura é",
-      "options": [
-        {
-          "id": "A",
-          "text": "tratar uma das datas como necessariamente falsa."
-        },
-        {
-          "id": "B",
-          "text": "reconhecer que fontes institucionais empregam marcos distintos e priorizar a consolidação do porto na década de 1970, sem transformar a divergência em pegadinha fechada."
-        },
-        {
-          "id": "C",
-          "text": "afirmar que o porto só começou a existir depois de 1990."
-        },
-        {
-          "id": "D",
-          "text": "considerar ambas datas como privatizações do terminal."
-        },
-        {
-          "id": "E",
-          "text": "confundir o Itaqui com Ponta da Madeira."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "Há registros institucionais que adotam marcos diferentes; para este item, o relevante é a consolidação econômica do porto público na década de 1970. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7557","revision":2,"origin":"authorial","prompt":"Sobre os marcos de 1972 e 1974 associados ao início das atividades do Itaqui, a conduta mais segura é","options":[{"id":"A","text":"tratar uma das datas como necessariamente falsa."},{"id":"B","text":"reconhecer que fontes institucionais empregam marcos distintos e priorizar a consolidação do porto na década de 1970, sem transformar a divergência em pegadinha fechada."},{"id":"C","text":"afirmar que o porto só começou a existir depois de 1990."},{"id":"D","text":"considerar ambas datas como privatizações do terminal."},{"id":"E","text":"confundir o Itaqui com Ponta da Madeira."}],"correctOptionId":"B","explanation":"Há registros institucionais que adotam marcos diferentes; para este item, o relevante é a consolidação econômica do porto público na década de 1970. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7558",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "A infraestrutura portuária de São Luís na segunda metade do século XX deve ser entendida como",
-      "options": [
-        {
-          "id": "A",
-          "text": "um único porto privado pertencente à Vale."
-        },
-        {
-          "id": "B",
-          "text": "um conjunto em que o porto público do Itaqui passou a coexistir com terminais privados ligados a grandes projetos, ampliando a capacidade logística regional."
-        },
-        {
-          "id": "C",
-          "text": "estrutura exclusivamente voltada a passageiros."
-        },
-        {
-          "id": "D",
-          "text": "sistema criado apenas após a privatização da CVRD."
-        },
-        {
-          "id": "E",
-          "text": "rede sem conexão com ferrovia ou comércio exterior."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "Itaqui, Ponta da Madeira e o terminal da Alumar têm naturezas distintas e participam de uma ampliação mais ampla da infraestrutura logística de São Luís. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7558","revision":2,"origin":"authorial","prompt":"A infraestrutura portuária de São Luís na segunda metade do século XX deve ser entendida como","options":[{"id":"A","text":"um único porto privado pertencente à Vale."},{"id":"B","text":"um conjunto em que o porto público do Itaqui passou a coexistir com terminais privados ligados a grandes projetos, ampliando a capacidade logística regional."},{"id":"C","text":"estrutura exclusivamente voltada a passageiros."},{"id":"D","text":"sistema criado apenas após a privatização da CVRD."},{"id":"E","text":"rede sem conexão com ferrovia ou comércio exterior."}],"correctOptionId":"B","explanation":"Itaqui, Ponta da Madeira e o terminal da Alumar têm naturezas distintas e participam de uma ampliação mais ampla da infraestrutura logística de São Luís. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7559",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "O regime especial do Programa Grande Carajás foi instituído em",
-      "options": [
-        {
-          "id": "A",
-          "text": "1959."
-        },
-        {
-          "id": "B",
-          "text": "1969."
-        },
-        {
-          "id": "C",
-          "text": "1972."
-        },
-        {
-          "id": "D",
-          "text": "1985."
-        },
-        {
-          "id": "E",
-          "text": "24 de novembro de 1980."
-        }
-      ],
-      "correctOptionId": "E",
-      "explanation": "O Decreto-Lei nº 1.813/1980 criou incentivos e coordenação para o PGC. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7559","revision":1,"origin":"authorial","prompt":"O regime especial do Programa Grande Carajás foi instituído em","options":[{"id":"A","text":"1959."},{"id":"B","text":"1969."},{"id":"C","text":"1972."},{"id":"D","text":"1985."},{"id":"E","text":"24 de novembro de 1980."}],"correctOptionId":"E","explanation":"O Decreto-Lei nº 1.813/1980 criou incentivos e coordenação para o PGC. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7560",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "O PGC abrangia",
-      "options": [
-        {
-          "id": "A",
-          "text": "somente a mina de ferro."
-        },
-        {
-          "id": "B",
-          "text": "infraestrutura, portos, ferrovia, energia, mineração, agropecuária e madeira."
-        },
-        {
-          "id": "C",
-          "text": "apenas o Maranhão."
-        },
-        {
-          "id": "D",
-          "text": "somente transporte de passageiros."
-        },
-        {
-          "id": "E",
-          "text": "apenas alumínio."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "O texto legal define programa territorial e setorialmente mais amplo que o Projeto Ferro Carajás. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7560","revision":1,"origin":"authorial","prompt":"O PGC abrangia","options":[{"id":"A","text":"somente a mina de ferro."},{"id":"B","text":"infraestrutura, portos, ferrovia, energia, mineração, agropecuária e madeira."},{"id":"C","text":"apenas o Maranhão."},{"id":"D","text":"somente transporte de passageiros."},{"id":"E","text":"apenas alumínio."}],"correctOptionId":"B","explanation":"O texto legal define programa territorial e setorialmente mais amplo que o Projeto Ferro Carajás. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7561",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A Província Mineral, o Projeto Ferro e o Programa Grande Carajás são",
-      "options": [
-        {
-          "id": "A",
-          "text": "sinônimos perfeitos."
-        },
-        {
-          "id": "B",
-          "text": "três nomes do Itaqui."
-        },
-        {
-          "id": "C",
-          "text": "conceitos distintos: geologia, sistema mineral-logístico e programa territorial."
-        },
-        {
-          "id": "D",
-          "text": "empresas privadas idênticas."
-        },
-        {
-          "id": "E",
-          "text": "fatos posteriores a 2000."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "A distinção evita reduzir o programa amplo à extração mineral. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7561","revision":1,"origin":"authorial","prompt":"A Província Mineral, o Projeto Ferro e o Programa Grande Carajás são","options":[{"id":"A","text":"sinônimos perfeitos."},{"id":"B","text":"três nomes do Itaqui."},{"id":"C","text":"conceitos distintos: geologia, sistema mineral-logístico e programa territorial."},{"id":"D","text":"empresas privadas idênticas."},{"id":"E","text":"fatos posteriores a 2000."}],"correctOptionId":"C","explanation":"A distinção evita reduzir o programa amplo à extração mineral. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7562",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A função original principal da EFC era",
-      "options": [
-        {
-          "id": "A",
-          "text": "transportar passageiros urbanos."
-        },
-        {
-          "id": "B",
-          "text": "escoar algodão para Caxias."
-        },
-        {
-          "id": "C",
-          "text": "substituir todas as rodovias."
-        },
-        {
-          "id": "D",
-          "text": "levar minério de Carajás ao terminal de Ponta da Madeira."
-        },
-        {
-          "id": "E",
-          "text": "transportar bauxita da Alumar exclusivamente."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "A ferrovia integrou mina e terminal no Sistema Norte da então CVRD. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7562","revision":1,"origin":"authorial","prompt":"A função original principal da EFC era","options":[{"id":"A","text":"transportar passageiros urbanos."},{"id":"B","text":"escoar algodão para Caxias."},{"id":"C","text":"substituir todas as rodovias."},{"id":"D","text":"levar minério de Carajás ao terminal de Ponta da Madeira."},{"id":"E","text":"transportar bauxita da Alumar exclusivamente."}],"correctOptionId":"D","explanation":"A ferrovia integrou mina e terminal no Sistema Norte da então CVRD. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7563",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A EFC começou a ser construída e foi inaugurada, respectivamente, em",
-      "options": [
-        {
-          "id": "A",
-          "text": "1960 e 1972."
-        },
-        {
-          "id": "B",
-          "text": "1974 e 1980."
-        },
-        {
-          "id": "C",
-          "text": "1985 e 1986."
-        },
-        {
-          "id": "D",
-          "text": "1997 e 2000."
-        },
-        {
-          "id": "E",
-          "text": "1982 e 28 de fevereiro de 1985."
-        }
-      ],
-      "correctOptionId": "E",
-      "explanation": "A Vale distingue construção, inauguração e início posterior do trem de passageiros. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7563","revision":1,"origin":"authorial","prompt":"A EFC começou a ser construída e foi inaugurada, respectivamente, em","options":[{"id":"A","text":"1960 e 1972."},{"id":"B","text":"1974 e 1980."},{"id":"C","text":"1985 e 1986."},{"id":"D","text":"1997 e 2000."},{"id":"E","text":"1982 e 28 de fevereiro de 1985."}],"correctOptionId":"E","explanation":"A Vale distingue construção, inauguração e início posterior do trem de passageiros. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7564",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "Por que a EFC é um marco estrutural da economia maranhense no período?",
-      "options": [
-        {
-          "id": "A",
-          "text": "Porque foi criada para substituir toda a agricultura estadual."
-        },
-        {
-          "id": "B",
-          "text": "Porque integrou o corredor de grande escala entre a produção mineral de Carajás e o litoral de São Luís, ampliando a logística exportadora."
-        },
-        {
-          "id": "C",
-          "text": "Porque sua função inicial era exclusivamente turismo ferroviário."
-        },
-        {
-          "id": "D",
-          "text": "Porque só começou a funcionar após 2000."
-        },
-        {
-          "id": "E",
-          "text": "Porque pertence ao complexo da Alumar."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "A relevância histórica da EFC está na integração mina-ferrovia-terminal e na mudança de escala da circulação de cargas e exportações. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7564","revision":2,"origin":"authorial","prompt":"Por que a EFC é um marco estrutural da economia maranhense no período?","options":[{"id":"A","text":"Porque foi criada para substituir toda a agricultura estadual."},{"id":"B","text":"Porque integrou o corredor de grande escala entre a produção mineral de Carajás e o litoral de São Luís, ampliando a logística exportadora."},{"id":"C","text":"Porque sua função inicial era exclusivamente turismo ferroviário."},{"id":"D","text":"Porque só começou a funcionar após 2000."},{"id":"E","text":"Porque pertence ao complexo da Alumar."}],"correctOptionId":"B","explanation":"A relevância histórica da EFC está na integração mina-ferrovia-terminal e na mudança de escala da circulação de cargas e exportações. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7565",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Ponta da Madeira é",
-      "options": [
-        {
-          "id": "A",
-          "text": "berço público do Itaqui."
-        },
-        {
-          "id": "B",
-          "text": "terminal privado da CVRD/Vale."
-        },
-        {
-          "id": "C",
-          "text": "porto da Alumar."
-        },
-        {
-          "id": "D",
-          "text": "mina em Balsas."
-        },
-        {
-          "id": "E",
-          "text": "rodovia federal."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "O terminal privado recebe a EFC e integra o corredor mineral-exportador. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7565","revision":1,"origin":"authorial","prompt":"Ponta da Madeira é","options":[{"id":"A","text":"berço público do Itaqui."},{"id":"B","text":"terminal privado da CVRD/Vale."},{"id":"C","text":"porto da Alumar."},{"id":"D","text":"mina em Balsas."},{"id":"E","text":"rodovia federal."}],"correctOptionId":"B","explanation":"O terminal privado recebe a EFC e integra o corredor mineral-exportador. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7566",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "No corredor de Carajás, Ponta da Madeira exerce a função de",
-      "options": [
-        {
-          "id": "A",
-          "text": "terminal marítimo privado que recebe a carga transportada pela EFC e a conecta ao mercado externo."
-        },
-        {
-          "id": "B",
-          "text": "mina de ferro localizada no sul maranhense."
-        },
-        {
-          "id": "C",
-          "text": "porto público que substituiu o Itaqui."
-        },
-        {
-          "id": "D",
-          "text": "refinaria de alumina da Alumar."
-        },
-        {
-          "id": "E",
-          "text": "rodovia de ligação entre Imperatriz e Balsas."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "Ponta da Madeira é o elo marítimo privado do corredor mineral integrado à EFC, distinto do porto público do Itaqui. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7566","revision":2,"origin":"authorial","prompt":"No corredor de Carajás, Ponta da Madeira exerce a função de","options":[{"id":"A","text":"terminal marítimo privado que recebe a carga transportada pela EFC e a conecta ao mercado externo."},{"id":"B","text":"mina de ferro localizada no sul maranhense."},{"id":"C","text":"porto público que substituiu o Itaqui."},{"id":"D","text":"refinaria de alumina da Alumar."},{"id":"E","text":"rodovia de ligação entre Imperatriz e Balsas."}],"correctOptionId":"A","explanation":"Ponta da Madeira é o elo marítimo privado do corredor mineral integrado à EFC, distinto do porto público do Itaqui. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7567",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "A Alumar deve ser situada historicamente como",
-      "options": [
-        {
-          "id": "A",
-          "text": "empreendimento privado de alumina e alumínio implantado a partir de 1980 e inaugurado em 1984, independente da CVRD/Vale."
-        },
-        {
-          "id": "B",
-          "text": "mina de ferro criada pelo PGC em 1959."
-        },
-        {
-          "id": "C",
-          "text": "porto público administrado pela EMAP."
-        },
-        {
-          "id": "D",
-          "text": "atividade que só começou depois de 2000."
-        },
-        {
-          "id": "E",
-          "text": "empresa estadual de eletricidade privatizada em 1997."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "A Alumar integra o ciclo dos grandes projetos dos anos 1980, com cadeia própria de bauxita, alumina, alumínio e terminal portuário, sem pertencer à Vale. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7567","revision":2,"origin":"authorial","prompt":"A Alumar deve ser situada historicamente como","options":[{"id":"A","text":"empreendimento privado de alumina e alumínio implantado a partir de 1980 e inaugurado em 1984, independente da CVRD/Vale."},{"id":"B","text":"mina de ferro criada pelo PGC em 1959."},{"id":"C","text":"porto público administrado pela EMAP."},{"id":"D","text":"atividade que só começou depois de 2000."},{"id":"E","text":"empresa estadual de eletricidade privatizada em 1997."}],"correctOptionId":"A","explanation":"A Alumar integra o ciclo dos grandes projetos dos anos 1980, com cadeia própria de bauxita, alumina, alumínio e terminal portuário, sem pertencer à Vale. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7568",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A cadeia produtiva da Alumar compreende",
-      "options": [
-        {
-          "id": "A",
-          "text": "minério de ferro e gusa apenas."
-        },
-        {
-          "id": "B",
-          "text": "arroz e babaçu."
-        },
-        {
-          "id": "C",
-          "text": "bauxita, refino em alumina e redução para alumínio."
-        },
-        {
-          "id": "D",
-          "text": "petróleo e gás."
-        },
-        {
-          "id": "E",
-          "text": "somente transporte ferroviário."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "O complexo integra refinaria, redução eletrolítica e terminal portuário próprio. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7568","revision":1,"origin":"authorial","prompt":"A cadeia produtiva da Alumar compreende","options":[{"id":"A","text":"minério de ferro e gusa apenas."},{"id":"B","text":"arroz e babaçu."},{"id":"C","text":"bauxita, refino em alumina e redução para alumínio."},{"id":"D","text":"petróleo e gás."},{"id":"E","text":"somente transporte ferroviário."}],"correctOptionId":"C","explanation":"O complexo integra refinaria, redução eletrolítica e terminal portuário próprio. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7569",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A Alumar",
-      "options": [
-        {
-          "id": "A",
-          "text": "era mina da CVRD."
-        },
-        {
-          "id": "B",
-          "text": "era o Porto do Itaqui."
-        },
-        {
-          "id": "C",
-          "text": "foi criada pela SUDENE em 1959."
-        },
-        {
-          "id": "D",
-          "text": "é empreendimento privado autônomo em relação à CVRD, embora do mesmo ciclo de grandes projetos."
-        },
-        {
-          "id": "E",
-          "text": "começou após 2004."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "Confundir Alumar e Vale apaga cadeias empresariais e produtivas distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7569","revision":1,"origin":"authorial","prompt":"A Alumar","options":[{"id":"A","text":"era mina da CVRD."},{"id":"B","text":"era o Porto do Itaqui."},{"id":"C","text":"foi criada pela SUDENE em 1959."},{"id":"D","text":"é empreendimento privado autônomo em relação à CVRD, embora do mesmo ciclo de grandes projetos."},{"id":"E","text":"começou após 2004."}],"correctOptionId":"D","explanation":"Confundir Alumar e Vale apaga cadeias empresariais e produtivas distintas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7570",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "O ferro-gusa expandiu-se especialmente no eixo",
-      "options": [
-        {
-          "id": "A",
-          "text": "Alcântara-Cururupu."
-        },
-        {
-          "id": "B",
-          "text": "Açailândia-Imperatriz."
-        },
-        {
-          "id": "C",
-          "text": "Barreirinhas-Raposa."
-        },
-        {
-          "id": "D",
-          "text": "Pinheiro-Viana."
-        },
-        {
-          "id": "E",
-          "text": "Bacabal-Pedreiras."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "A localização aproveitou ferrovia, minério e saída portuária por São Luís. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7570","revision":1,"origin":"authorial","prompt":"O ferro-gusa expandiu-se especialmente no eixo","options":[{"id":"A","text":"Alcântara-Cururupu."},{"id":"B","text":"Açailândia-Imperatriz."},{"id":"C","text":"Barreirinhas-Raposa."},{"id":"D","text":"Pinheiro-Viana."},{"id":"E","text":"Bacabal-Pedreiras."}],"correctOptionId":"B","explanation":"A localização aproveitou ferrovia, minério e saída portuária por São Luís. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7571",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Qual associação entre polo e função está correta?",
-      "options": [
-        {
-          "id": "A",
-          "text": "São Luís — soja mecanizada exclusivamente."
-        },
-        {
-          "id": "B",
-          "text": "Balsas — terminal mineral marítimo."
-        },
-        {
-          "id": "C",
-          "text": "Açailândia — entroncamento ferroviário e metalurgia."
-        },
-        {
-          "id": "D",
-          "text": "Imperatriz — porto oceânico."
-        },
-        {
-          "id": "E",
-          "text": "Itaqui — produção de arroz."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "Açailândia ganhou funções logísticas e guseiras ligadas à EFC. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7571","revision":1,"origin":"authorial","prompt":"Qual associação entre polo e função está correta?","options":[{"id":"A","text":"São Luís — soja mecanizada exclusivamente."},{"id":"B","text":"Balsas — terminal mineral marítimo."},{"id":"C","text":"Açailândia — entroncamento ferroviário e metalurgia."},{"id":"D","text":"Imperatriz — porto oceânico."},{"id":"E","text":"Itaqui — produção de arroz."}],"correctOptionId":"C","explanation":"Açailândia ganhou funções logísticas e guseiras ligadas à EFC. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7572",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Corredor exportador é a integração entre",
-      "options": [
-        {
-          "id": "A",
-          "text": "produção, transporte, terminal e mercado externo."
-        },
-        {
-          "id": "B",
-          "text": "somente porto e turismo."
-        },
-        {
-          "id": "C",
-          "text": "partidos e eleições."
-        },
-        {
-          "id": "D",
-          "text": "saúde e educação."
-        },
-        {
-          "id": "E",
-          "text": "apenas lavoura familiar."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "A cadeia física articula origem da carga, logística terrestre e embarque marítimo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7572","revision":1,"origin":"authorial","prompt":"Corredor exportador é a integração entre","options":[{"id":"A","text":"produção, transporte, terminal e mercado externo."},{"id":"B","text":"somente porto e turismo."},{"id":"C","text":"partidos e eleições."},{"id":"D","text":"saúde e educação."},{"id":"E","text":"apenas lavoura familiar."}],"correctOptionId":"A","explanation":"A cadeia física articula origem da carga, logística terrestre e embarque marítimo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7573",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "O conceito de enclave deve ser usado",
-      "options": [
-        {
-          "id": "A",
-          "text": "como fato jurídico oficial."
-        },
-        {
-          "id": "B",
-          "text": "para negar todo encadeamento local."
-        },
-        {
-          "id": "C",
-          "text": "como sinônimo de porto público."
-        },
-        {
-          "id": "D",
-          "text": "somente para agricultura familiar."
-        },
-        {
-          "id": "E",
-          "text": "como interpretação sobre grau de integração de projetos exportadores, com qualificação."
-        }
-      ],
-      "correctOptionId": "E",
-      "explanation": "Grandes projetos tiveram efeitos locais; a discussão é sobre intensidade e distribuição dos encadeamentos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7573","revision":1,"origin":"authorial","prompt":"O conceito de enclave deve ser usado","options":[{"id":"A","text":"como fato jurídico oficial."},{"id":"B","text":"para negar todo encadeamento local."},{"id":"C","text":"como sinônimo de porto público."},{"id":"D","text":"somente para agricultura familiar."},{"id":"E","text":"como interpretação sobre grau de integração de projetos exportadores, com qualificação."}],"correctOptionId":"E","explanation":"Grandes projetos tiveram efeitos locais; a discussão é sobre intensidade e distribuição dos encadeamentos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7574",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Dualidade produtiva significa",
-      "options": [
-        {
-          "id": "A",
-          "text": "existência de apenas dois partidos."
-        },
-        {
-          "id": "B",
-          "text": "fim do setor primário."
-        },
-        {
-          "id": "C",
-          "text": "coexistência de produção tradicional, agropecuária empresarial, grandes indústrias e serviços."
-        },
-        {
-          "id": "D",
-          "text": "separação absoluta entre todos os segmentos."
-        },
-        {
-          "id": "E",
-          "text": "privatização da CEMAR."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "Os segmentos distintos coexistiam e mantinham relações econômicas entre si. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7574","revision":1,"origin":"authorial","prompt":"Dualidade produtiva significa","options":[{"id":"A","text":"existência de apenas dois partidos."},{"id":"B","text":"fim do setor primário."},{"id":"C","text":"coexistência de produção tradicional, agropecuária empresarial, grandes indústrias e serviços."},{"id":"D","text":"separação absoluta entre todos os segmentos."},{"id":"E","text":"privatização da CEMAR."}],"correctOptionId":"C","explanation":"Os segmentos distintos coexistiam e mantinham relações econômicas entre si. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7575",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A Companhia Vale do Rio Doce foi privatizada em",
-      "options": [
-        {
-          "id": "A",
-          "text": "1980."
-        },
-        {
-          "id": "B",
-          "text": "1985."
-        },
-        {
-          "id": "C",
-          "text": "2000."
-        },
-        {
-          "id": "D",
-          "text": "1997."
-        },
-        {
-          "id": "E",
-          "text": "2004."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "A mudança de controle ocorreu depois que EFC e Ponta da Madeira já operavam. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7575","revision":1,"origin":"authorial","prompt":"A Companhia Vale do Rio Doce foi privatizada em","options":[{"id":"A","text":"1980."},{"id":"B","text":"1985."},{"id":"C","text":"2000."},{"id":"D","text":"1997."},{"id":"E","text":"2004."}],"correctOptionId":"D","explanation":"A mudança de controle ocorreu depois que EFC e Ponta da Madeira já operavam. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7576",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "A privatização da CEMAR, em 2000, é relevante neste assunto porque",
-      "options": [
-        {
-          "id": "A",
-          "text": "marca, dentro do recorte, a política estadual de desestatização e reforma econômica dos anos 1990."
-        },
-        {
-          "id": "B",
-          "text": "criou o Programa Grande Carajás."
-        },
-        {
-          "id": "C",
-          "text": "inaugurou a Estrada de Ferro Carajás."
-        },
-        {
-          "id": "D",
-          "text": "transformou Ponta da Madeira em porto público."
-        },
-        {
-          "id": "E",
-          "text": "encerrou toda atuação estatal na economia maranhense."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "A alienação da distribuidora de energia integra o ciclo de reformas e privatizações no limite final do recorte, sem significar desaparecimento do papel econômico do Estado. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7576","revision":2,"origin":"authorial","prompt":"A privatização da CEMAR, em 2000, é relevante neste assunto porque","options":[{"id":"A","text":"marca, dentro do recorte, a política estadual de desestatização e reforma econômica dos anos 1990."},{"id":"B","text":"criou o Programa Grande Carajás."},{"id":"C","text":"inaugurou a Estrada de Ferro Carajás."},{"id":"D","text":"transformou Ponta da Madeira em porto público."},{"id":"E","text":"encerrou toda atuação estatal na economia maranhense."}],"correctOptionId":"A","explanation":"A alienação da distribuidora de energia integra o ciclo de reformas e privatizações no limite final do recorte, sem significar desaparecimento do papel econômico do Estado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7577",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "A relação entre a privatização da CVRD, em 1997, e o corredor de Carajás deve ser descrita como",
-      "options": [
-        {
-          "id": "A",
-          "text": "a privatização criou a EFC e Ponta da Madeira do zero."
-        },
-        {
-          "id": "B",
-          "text": "a mudança de controle da empresa ocorreu depois que a principal infraestrutura ferroviária e portuária do corredor já estava em operação."
-        },
-        {
-          "id": "C",
-          "text": "a privatização encerrou o transporte mineral pelo Maranhão."
-        },
-        {
-          "id": "D",
-          "text": "a CVRD foi privatizada pelo governo estadual junto com a CEMAR."
-        },
-        {
-          "id": "E",
-          "text": "o fato ocorreu apenas em 2004."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "A EFC foi inaugurada em 1985 e Ponta da Madeira consolidou operações em 1986; 1997 é mudança de controle da empresa, não início do corredor. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7577","revision":2,"origin":"authorial","prompt":"A relação entre a privatização da CVRD, em 1997, e o corredor de Carajás deve ser descrita como","options":[{"id":"A","text":"a privatização criou a EFC e Ponta da Madeira do zero."},{"id":"B","text":"a mudança de controle da empresa ocorreu depois que a principal infraestrutura ferroviária e portuária do corredor já estava em operação."},{"id":"C","text":"a privatização encerrou o transporte mineral pelo Maranhão."},{"id":"D","text":"a CVRD foi privatizada pelo governo estadual junto com a CEMAR."},{"id":"E","text":"o fato ocorreu apenas em 2004."}],"correctOptionId":"B","explanation":"A EFC foi inaugurada em 1985 e Ponta da Madeira consolidou operações em 1986; 1997 é mudança de controle da empresa, não início do corredor. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7578",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "As reformas estaduais dos anos 1990 devem ser apresentadas como",
-      "options": [
-        {
-          "id": "A",
-          "text": "apenas opinião acadêmica."
-        },
-        {
-          "id": "B",
-          "text": "somente privatização do BEM."
-        },
-        {
-          "id": "C",
-          "text": "fim completo do Estado."
-        },
-        {
-          "id": "D",
-          "text": "criação do PGC."
-        },
-        {
-          "id": "E",
-          "text": "reorganização, ajuste e desestatização, distinguindo discurso oficial e avaliação crítica."
-        }
-      ],
-      "correctOptionId": "E",
-      "explanation": "Eficiência e equilíbrio eram justificativas institucionais; neoliberalismo é categoria analítica atribuída. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7578","revision":1,"origin":"authorial","prompt":"As reformas estaduais dos anos 1990 devem ser apresentadas como","options":[{"id":"A","text":"apenas opinião acadêmica."},{"id":"B","text":"somente privatização do BEM."},{"id":"C","text":"fim completo do Estado."},{"id":"D","text":"criação do PGC."},{"id":"E","text":"reorganização, ajuste e desestatização, distinguindo discurso oficial e avaliação crítica."}],"correctOptionId":"E","explanation":"Eficiência e equilíbrio eram justificativas institucionais; neoliberalismo é categoria analítica atribuída. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7579",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A principal mudança estrutural do período foi",
-      "options": [
-        {
-          "id": "A",
-          "text": "retorno exclusivo à indústria têxtil."
-        },
-        {
-          "id": "B",
-          "text": "fim do setor agropecuário."
-        },
-        {
-          "id": "C",
-          "text": "desaparecimento de São Luís."
-        },
-        {
-          "id": "D",
-          "text": "passagem para estrutura agropecuária, industrial, logística e exportadora mais integrada."
-        },
-        {
-          "id": "E",
-          "text": "isolamento rodoviário."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "Atividades tradicionais permaneceram, mas perderam centralidade relativa diante dos novos eixos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7579","revision":1,"origin":"authorial","prompt":"A principal mudança estrutural do período foi","options":[{"id":"A","text":"retorno exclusivo à indústria têxtil."},{"id":"B","text":"fim do setor agropecuário."},{"id":"C","text":"desaparecimento de São Luís."},{"id":"D","text":"passagem para estrutura agropecuária, industrial, logística e exportadora mais integrada."},{"id":"E","text":"isolamento rodoviário."}],"correctOptionId":"D","explanation":"Atividades tradicionais permaneceram, mas perderam centralidade relativa diante dos novos eixos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7580",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Historicamente, o algodão relacionava-se à",
-      "options": [
-        {
-          "id": "A",
-          "text": "operação da EFC."
-        },
-        {
-          "id": "B",
-          "text": "produção de alumínio."
-        },
-        {
-          "id": "C",
-          "text": "matéria-prima têxtil e exportação."
-        },
-        {
-          "id": "D",
-          "text": "privatização elétrica."
-        },
-        {
-          "id": "E",
-          "text": "mineração de ferro."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "A crise algodoeira afetou um dos fundamentos do antigo parque fabril. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7580","revision":1,"origin":"authorial","prompt":"Historicamente, o algodão relacionava-se à","options":[{"id":"A","text":"operação da EFC."},{"id":"B","text":"produção de alumínio."},{"id":"C","text":"matéria-prima têxtil e exportação."},{"id":"D","text":"privatização elétrica."},{"id":"E","text":"mineração de ferro."}],"correctOptionId":"C","explanation":"A crise algodoeira afetou um dos fundamentos do antigo parque fabril. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7581",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Na estrutura industrial, a desintegração têxtil abriu espaço relativo principalmente para",
-      "options": [
-        {
-          "id": "A",
-          "text": "óleos vegetais, madeira, alimentos, cimento e outras atividades de beneficiamento."
-        },
-        {
-          "id": "B",
-          "text": "apenas mineração de ouro."
-        },
-        {
-          "id": "C",
-          "text": "somente construção naval."
-        },
-        {
-          "id": "D",
-          "text": "exclusivamente software."
-        },
-        {
-          "id": "E",
-          "text": "nenhuma atividade substituta."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "A caracterização do IBGE registra diversificação industrial mesmo com permanência do baixo peso manufatureiro. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7581","revision":1,"origin":"authorial","prompt":"Na estrutura industrial, a desintegração têxtil abriu espaço relativo principalmente para","options":[{"id":"A","text":"óleos vegetais, madeira, alimentos, cimento e outras atividades de beneficiamento."},{"id":"B","text":"apenas mineração de ouro."},{"id":"C","text":"somente construção naval."},{"id":"D","text":"exclusivamente software."},{"id":"E","text":"nenhuma atividade substituta."}],"correctOptionId":"A","explanation":"A caracterização do IBGE registra diversificação industrial mesmo com permanência do baixo peso manufatureiro. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7582",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "Quanto ao babaçu, a interpretação mais adequada do período é que",
-      "options": [
-        {
-          "id": "A",
-          "text": "sua importância permaneceu estática do início ao fim do século."
-        },
-        {
-          "id": "B",
-          "text": "a cadeia ganhou importância e capacidade de processamento antes de enfrentar crise e perda relativa de dinamismo."
-        },
-        {
-          "id": "C",
-          "text": "a atividade deixou de existir quando a SUDENE foi criada."
-        },
-        {
-          "id": "D",
-          "text": "o processamento industrial nunca ocorreu no Maranhão."
-        },
-        {
-          "id": "E",
-          "text": "o babaçu foi substituído diretamente por alumínio em 1960."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "A literatura descreve crescimento anterior do complexo e posterior crise, sem necessidade de transformar tonelagens específicas em núcleo de memorização. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7582","revision":2,"origin":"authorial","prompt":"Quanto ao babaçu, a interpretação mais adequada do período é que","options":[{"id":"A","text":"sua importância permaneceu estática do início ao fim do século."},{"id":"B","text":"a cadeia ganhou importância e capacidade de processamento antes de enfrentar crise e perda relativa de dinamismo."},{"id":"C","text":"a atividade deixou de existir quando a SUDENE foi criada."},{"id":"D","text":"o processamento industrial nunca ocorreu no Maranhão."},{"id":"E","text":"o babaçu foi substituído diretamente por alumínio em 1960."}],"correctOptionId":"B","explanation":"A literatura descreve crescimento anterior do complexo e posterior crise, sem necessidade de transformar tonelagens específicas em núcleo de memorização. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7583",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "O crescimento das usinas de babaçu demonstrou",
-      "options": [
-        {
-          "id": "A",
-          "text": "fim do beneficiamento local."
-        },
-        {
-          "id": "B",
-          "text": "industrialização do processamento, mas também risco de capacidade ociosa."
-        },
-        {
-          "id": "C",
-          "text": "substituição pela EFC."
-        },
-        {
-          "id": "D",
-          "text": "domínio exclusivo da mineração."
-        },
-        {
-          "id": "E",
-          "text": "ausência de crédito estatal."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "A capacidade instalada cresceu mais rapidamente que uma oferta estável de matéria-prima. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7583","revision":1,"origin":"authorial","prompt":"O crescimento das usinas de babaçu demonstrou","options":[{"id":"A","text":"fim do beneficiamento local."},{"id":"B","text":"industrialização do processamento, mas também risco de capacidade ociosa."},{"id":"C","text":"substituição pela EFC."},{"id":"D","text":"domínio exclusivo da mineração."},{"id":"E","text":"ausência de crédito estatal."}],"correctOptionId":"B","explanation":"A capacidade instalada cresceu mais rapidamente que uma oferta estável de matéria-prima. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7584",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A importação de palmiste afetou o babaçu porque",
-      "options": [
-        {
-          "id": "A",
-          "text": "era minério concorrente."
-        },
-        {
-          "id": "B",
-          "text": "substituía arroz."
-        },
-        {
-          "id": "C",
-          "text": "era óleo concorrente e substituto para parte da indústria."
-        },
-        {
-          "id": "D",
-          "text": "fechou o Itaqui."
-        },
-        {
-          "id": "E",
-          "text": "eliminou rodovias."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "A abertura a óleos substitutos agravou dificuldades já existentes no complexo babaçueiro. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7584","revision":1,"origin":"authorial","prompt":"A importação de palmiste afetou o babaçu porque","options":[{"id":"A","text":"era minério concorrente."},{"id":"B","text":"substituía arroz."},{"id":"C","text":"era óleo concorrente e substituto para parte da indústria."},{"id":"D","text":"fechou o Itaqui."},{"id":"E","text":"eliminou rodovias."}],"correctOptionId":"C","explanation":"A abertura a óleos substitutos agravou dificuldades já existentes no complexo babaçueiro. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7585",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "O papel econômico da malha rodoviária no período pode ser resumido como",
-      "options": [
-        {
-          "id": "A",
-          "text": "integração de áreas produtivas e centros comerciais a mercados mais amplos, favorecendo novas frentes econômicas e aumentando a concorrência."
-        },
-        {
-          "id": "B",
-          "text": "isolamento definitivo de São Luís do interior."
-        },
-        {
-          "id": "C",
-          "text": "substituição integral do transporte ferroviário e portuário."
-        },
-        {
-          "id": "D",
-          "text": "efeito restrito à circulação de passageiros."
-        },
-        {
-          "id": "E",
-          "text": "impedimento ao crescimento da pecuária e da agricultura."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "O núcleo do assunto é a integração econômica promovida pela rede viária e seus efeitos sobre mercados, polos e concorrência, não a memorização de uma rodovia específica. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7585","revision":2,"origin":"authorial","prompt":"O papel econômico da malha rodoviária no período pode ser resumido como","options":[{"id":"A","text":"integração de áreas produtivas e centros comerciais a mercados mais amplos, favorecendo novas frentes econômicas e aumentando a concorrência."},{"id":"B","text":"isolamento definitivo de São Luís do interior."},{"id":"C","text":"substituição integral do transporte ferroviário e portuário."},{"id":"D","text":"efeito restrito à circulação de passageiros."},{"id":"E","text":"impedimento ao crescimento da pecuária e da agricultura."}],"correctOptionId":"A","explanation":"O núcleo do assunto é a integração econômica promovida pela rede viária e seus efeitos sobre mercados, polos e concorrência, não a memorização de uma rodovia específica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7586",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Segundo Mesquita, os incentivos agropecuários examinados até 1985 favoreceram sobretudo",
-      "options": [
-        {
-          "id": "A",
-          "text": "pecuária de corte."
-        },
-        {
-          "id": "B",
-          "text": "indústria naval."
-        },
-        {
-          "id": "C",
-          "text": "turismo."
-        },
-        {
-          "id": "D",
-          "text": "pesca oceânica."
-        },
-        {
-          "id": "E",
-          "text": "informática."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "O dado é atribuído ao autor e ajuda a explicar a pecuarização, sem ser universalizado. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7586","revision":1,"origin":"authorial","prompt":"Segundo Mesquita, os incentivos agropecuários examinados até 1985 favoreceram sobretudo","options":[{"id":"A","text":"pecuária de corte."},{"id":"B","text":"indústria naval."},{"id":"C","text":"turismo."},{"id":"D","text":"pesca oceânica."},{"id":"E","text":"informática."}],"correctOptionId":"A","explanation":"O dado é atribuído ao autor e ajuda a explicar a pecuarização, sem ser universalizado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7587",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "O crescimento da agricultura mecanizada no sul combinou",
-      "options": [
-        {
-          "id": "A",
-          "text": "apenas terras naturalmente férteis."
-        },
-        {
-          "id": "B",
-          "text": "ausência de capital."
-        },
-        {
-          "id": "C",
-          "text": "isolamento logístico."
-        },
-        {
-          "id": "D",
-          "text": "somente trabalho manual."
-        },
-        {
-          "id": "E",
-          "text": "máquinas, correção de solos, fertilizantes, crédito e armazenagem."
-        }
-      ],
-      "correctOptionId": "E",
-      "explanation": "O pacote técnico e financeiro permitiu aproveitar os cerrados em maior escala. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7587","revision":1,"origin":"authorial","prompt":"O crescimento da agricultura mecanizada no sul combinou","options":[{"id":"A","text":"apenas terras naturalmente férteis."},{"id":"B","text":"ausência de capital."},{"id":"C","text":"isolamento logístico."},{"id":"D","text":"somente trabalho manual."},{"id":"E","text":"máquinas, correção de solos, fertilizantes, crédito e armazenagem."}],"correctOptionId":"E","explanation":"O pacote técnico e financeiro permitiu aproveitar os cerrados em maior escala. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7588",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A centralidade econômica de São Luís no novo sistema decorreu de",
-      "options": [
-        {
-          "id": "A",
-          "text": "produção exclusiva de arroz."
-        },
-        {
-          "id": "B",
-          "text": "portos, grande indústria, ferrovia e serviços logísticos."
-        },
-        {
-          "id": "C",
-          "text": "ausência de comércio exterior."
-        },
-        {
-          "id": "D",
-          "text": "fim do Itaqui."
-        },
-        {
-          "id": "E",
-          "text": "somente administração pública."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "A concentração de terminais e serviços conectou diferentes cadeias ao exterior. Fonte: questão autoral baseada nas referências do conteúdo."
+      "id":"q7588","revision":1,"origin":"authorial","prompt":"A centralidade econômica de São Luís no novo sistema decorreu de","options":[{"id":"A","text":"produção exclusiva de arroz."},{"id":"B","text":"portos, grande indústria, ferrovia e serviços logísticos."},{"id":"C","text":"ausência de comércio exterior."},{"id":"D","text":"fim do Itaqui."},{"id":"E","text":"somente administração pública."}],"correctOptionId":"B","explanation":"A concentração de terminais e serviços conectou diferentes cadeias ao exterior. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q7589",
+      "id":"q7589","revision":1,"origin":"previous_exam","prompt":"Quanto à influência econômica do Porto do Itaqui, assinale a alternativa correta.","options":[{"id":"A","text":"Sua área de influência ultrapassa o Maranhão e integra cadeias produtivas."},{"id":"B","text":"As operações restringem-se a produtos agropecuários maranhenses."},{"id":"C","text":"Sua posição dificulta o acesso a mercados externos."},{"id":"D","text":"Não existe integração multimodal."},{"id":"E","text":"O porto é financeiramente irrelevante para cadeias regionais."}],"correctOptionId":"A","explanation":"A área econômica do Itaqui alcança outras unidades e cadeias, apoiada por conexões terrestres e marítimas. Gabarito adaptado: A; gabarito oficial na prova original: D, referente às alternativas originais, não às letras desta adaptação. Fonte: questão adaptada de Cebraspe/Prefeitura de São Luís/Professor de Geografia/2017/questão 62/https://cdn.cebraspe.org.br/concursos/pref_saoluis_16/arquivos/287_prefsaoluis_007_01.pdf; adaptação: enunciado e alternativas condensados e reordenados, preservando o núcleo cobrado."
+    },
+    {
+      "id":"q7590","revision":1,"origin":"previous_exam","prompt":"O oeste maranhense participa diretamente do Programa Grande Carajás por meio","options":[{"id":"A","text":"da extração local do minério exportado por Carajás."},{"id":"B","text":"do cultivo exclusivo de mandioca."},{"id":"C","text":"da produção petroquímica."},{"id":"D","text":"do fornecimento exclusivo de eletricidade à Alumar."},{"id":"E","text":"do transporte de cargas da então CVRD pela Estrada de Ferro Carajás."}],"correctOptionId":"E","explanation":"A EFC atravessa o oeste maranhense no corredor entre a mina paraense e São Luís. Gabarito adaptado: E; gabarito oficial na prova original: D, referente às alternativas originais, não às letras desta adaptação. Fonte: questão adaptada de Cebraspe/Prefeitura de São Luís/Professor de Geografia/2017/questão 69/https://cdn.cebraspe.org.br/concursos/pref_saoluis_16/arquivos/287_prefsaoluis_007_01.pdf; adaptação: redação condensada e alternativas reordenadas, preservando o núcleo cobrado."
+    },
+    {
+      "id":"q7591","revision":2,"origin":"authorial","prompt":"O crescimento do processamento industrial do babaçu mostrou que","options":[{"id":"A","text":"a expansão da capacidade industrial podia coexistir com ociosidade e dificuldades de abastecimento de matéria-prima."},{"id":"B","text":"não houve qualquer industrialização do produto."},{"id":"C","text":"o babaçu passou a ser minério exportado pela EFC."},{"id":"D","text":"o setor ficou imune à concorrência de outros óleos."},{"id":"E","text":"o crescimento industrial eliminou todos os problemas da cadeia."}],"correctOptionId":"A","explanation":"A ampliação do beneficiamento não resolveu automaticamente problemas de oferta, custos e concorrência; esse contraste é mais relevante que decorar números de usinas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q7592","revision":1,"origin":"authorial","prompt":"A área legal do PGC abrangia partes de","options":[{"id":"A","text":"apenas Pará."},{"id":"B","text":"Maranhão e Piauí apenas."},{"id":"C","text":"Pará, Goiás e Maranhão."},{"id":"D","text":"todos os estados brasileiros."},{"id":"E","text":"somente São Luís."}],"correctOptionId":"C","explanation":"O Decreto-Lei nº 1.813 definiu área territorial ao norte do paralelo de oito graus. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q7593","revision":1,"origin":"authorial","prompt":"Além de minério, a EFC passou a transportar","options":[{"id":"A","text":"apenas passageiros."},{"id":"B","text":"somente alumina."},{"id":"C","text":"apenas babaçu."},{"id":"D","text":"combustíveis, siderúrgicos e grãos, entre outras cargas."},{"id":"E","text":"somente automóveis."}],"correctOptionId":"D","explanation":"A função mineral permaneceu central, mas a ferrovia ampliou sua diversidade de cargas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q7594","revision":2,"origin":"authorial","prompt":"A relação entre EFC e Ponta da Madeira é corretamente descrita como","options":[{"id":"A","text":"a ferrovia leva cargas do corredor de Carajás ao terminal marítimo privado em São Luís, formando um sistema logístico integrado."},{"id":"B","text":"Ponta da Madeira é uma mina localizada no Pará e a EFC é seu porto."},{"id":"C","text":"ambas são instalações do complexo da Alumar."},{"id":"D","text":"a EFC termina no Porto de Santos."},{"id":"E","text":"Ponta da Madeira é apenas um berço do porto público do Itaqui."}],"correctOptionId":"A","explanation":"O núcleo econômico é a integração mina-ferrovia-terminal; condições naturais específicas do porto não precisam ser memorizadas neste item. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q7595","revision":2,"origin":"authorial","prompt":"Qual cronologia resume adequadamente a implantação da Alumar para este assunto?","options":[{"id":"A","text":"implantação a partir de 1980 e inauguração do complexo em 1984."},{"id":"B","text":"criação em 1959 e privatização em 1969."},{"id":"C","text":"construção em 1997 e inauguração em 2000."},{"id":"D","text":"implantação somente após 2004."},{"id":"E","text":"inauguração em 1985 como unidade da CVRD."}],"correctOptionId":"A","explanation":"Para o nível de detalhe do edital, bastam os marcos institucionais de implantação em 1980 e inauguração em 1984, sem exigir datas internas de cada unidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q7596","revision":1,"origin":"authorial","prompt":"A nova pauta exportadora ganhou peso com","options":[{"id":"A","text":"somente tecidos."},{"id":"B","text":"apenas arroz."},{"id":"C","text":"minério, alumina, alumínio, ferro-gusa e, depois, grãos."},{"id":"D","text":"exclusivamente serviços públicos."},{"id":"E","text":"apenas babaçu in natura."}],"correctOptionId":"C","explanation":"Grandes projetos e logística mudaram a escala e a composição do comércio externo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q7597","revision":2,"origin":"authorial","prompt":"Qual sequência sintetiza melhor as transformações econômicas da segunda metade do século XX no Maranhão?","options":[{"id":"A","text":"integração regional e rodoviária → expansão agropecuária → grandes projetos industriais/minerais → corredor exportador → reformas e privatizações dos anos 1990."},{"id":"B","text":"privatizações → economia colonial → SUDENE → desaparecimento das rodovias."},{"id":"C","text":"PGC nos anos 1950 → EFC nos anos 1960 → crise têxtil apenas depois de 2000."},{"id":"D","text":"fim da agricultura → retorno exclusivo ao têxtil → isolamento portuário."},{"id":"E","text":"CEMAR privatizada antes da SUDENE → Alumar no século XIX → EFC após 2004."}],"correctOptionId":"A","explanation":"A sequência organiza os grandes ciclos sem depender de microdatas: integração e incentivos, novas frentes produtivas, grandes projetos, logística exportadora e reformas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q7598","revision":1,"origin":"authorial","prompt":"A síntese correta do período econômico é","options":[{"id":"A","text":"atividades tradicionais coexistiram com agropecuária empresarial, grandes indústrias, logística exportadora e reformas estatais."},{"id":"B","text":"rodovias e grandes projetos não alteraram a economia."},{"id":"C","text":"a economia tornou-se exclusivamente industrial."},{"id":"D","text":"o BEM foi privatizado em 1995."},{"id":"E","text":"as atividades tradicionais desapareceram completamente em 1951."}],"correctOptionId":"A","explanation":"A transformação foi desigual e combinou permanências com novos setores e corredores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q-u081-tjma-2024-20",
       "revision": 1,
       "origin": "previous_exam",
-      "prompt": "Quanto à influência econômica do Porto do Itaqui, assinale a alternativa correta.",
+      "prompt": "A expansão da cultura do eucalipto no Maranhão, especificamente na porção Amazônica, resulta de processos iniciados nos anos 1980 e representa um padrão de reprodução de capital fincado na economia de fronteira.\n\n(OLIVEIRA; PAZ; PEREIRA, 2021, p. 219.)\n\nA respeito da expansão a silvicultura no estado do Maranhão, é correto afirmar que:",
       "options": [
-        {
-          "id": "A",
-          "text": "Sua área de influência ultrapassa o Maranhão e integra cadeias produtivas."
-        },
-        {
-          "id": "B",
-          "text": "As operações restringem-se a produtos agropecuários maranhenses."
-        },
-        {
-          "id": "C",
-          "text": "Sua posição dificulta o acesso a mercados externos."
-        },
-        {
-          "id": "D",
-          "text": "Não existe integração multimodal."
-        },
-        {
-          "id": "E",
-          "text": "O porto é financeiramente irrelevante para cadeias regionais."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "A área econômica do Itaqui alcança outras unidades e cadeias, apoiada por conexões terrestres e marítimas. Gabarito adaptado: A; gabarito oficial na prova original: D, referente às alternativas originais, não às letras desta adaptação. Fonte: questão adaptada de Cebraspe/Prefeitura de São Luís/Professor de Geografia/2017/questão 62/https://cdn.cebraspe.org.br/concursos/pref_saoluis_16/arquivos/287_prefsaoluis_007_01.pdf; adaptação: enunciado e alternativas condensados e reordenados, preservando o núcleo cobrado."
-    },
-    {
-      "id": "q7590",
-      "revision": 1,
-      "origin": "previous_exam",
-      "prompt": "O oeste maranhense participa diretamente do Programa Grande Carajás por meio",
-      "options": [
-        {
-          "id": "A",
-          "text": "da extração local do minério exportado por Carajás."
-        },
-        {
-          "id": "B",
-          "text": "do cultivo exclusivo de mandioca."
-        },
-        {
-          "id": "C",
-          "text": "da produção petroquímica."
-        },
-        {
-          "id": "D",
-          "text": "do fornecimento exclusivo de eletricidade à Alumar."
-        },
-        {
-          "id": "E",
-          "text": "do transporte de cargas da então CVRD pela Estrada de Ferro Carajás."
-        }
-      ],
-      "correctOptionId": "E",
-      "explanation": "A EFC atravessa o oeste maranhense no corredor entre a mina paraense e São Luís. Gabarito adaptado: E; gabarito oficial na prova original: D, referente às alternativas originais, não às letras desta adaptação. Fonte: questão adaptada de Cebraspe/Prefeitura de São Luís/Professor de Geografia/2017/questão 69/https://cdn.cebraspe.org.br/concursos/pref_saoluis_16/arquivos/287_prefsaoluis_007_01.pdf; adaptação: redação condensada e alternativas reordenadas, preservando o núcleo cobrado."
-    },
-    {
-      "id": "q7591",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "O crescimento do processamento industrial do babaçu mostrou que",
-      "options": [
-        {
-          "id": "A",
-          "text": "a expansão da capacidade industrial podia coexistir com ociosidade e dificuldades de abastecimento de matéria-prima."
-        },
-        {
-          "id": "B",
-          "text": "não houve qualquer industrialização do produto."
-        },
-        {
-          "id": "C",
-          "text": "o babaçu passou a ser minério exportado pela EFC."
-        },
-        {
-          "id": "D",
-          "text": "o setor ficou imune à concorrência de outros óleos."
-        },
-        {
-          "id": "E",
-          "text": "o crescimento industrial eliminou todos os problemas da cadeia."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "A ampliação do beneficiamento não resolveu automaticamente problemas de oferta, custos e concorrência; esse contraste é mais relevante que decorar números de usinas. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q7592",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A área legal do PGC abrangia partes de",
-      "options": [
-        {
-          "id": "A",
-          "text": "apenas Pará."
-        },
-        {
-          "id": "B",
-          "text": "Maranhão e Piauí apenas."
-        },
-        {
-          "id": "C",
-          "text": "Pará, Goiás e Maranhão."
-        },
-        {
-          "id": "D",
-          "text": "todos os estados brasileiros."
-        },
-        {
-          "id": "E",
-          "text": "somente São Luís."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "O Decreto-Lei nº 1.813 definiu área territorial ao norte do paralelo de oito graus. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q7593",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Além de minério, a EFC passou a transportar",
-      "options": [
-        {
-          "id": "A",
-          "text": "apenas passageiros."
-        },
-        {
-          "id": "B",
-          "text": "somente alumina."
-        },
-        {
-          "id": "C",
-          "text": "apenas babaçu."
-        },
-        {
-          "id": "D",
-          "text": "combustíveis, siderúrgicos e grãos, entre outras cargas."
-        },
-        {
-          "id": "E",
-          "text": "somente automóveis."
-        }
+        {"id": "A", "text": "O eucalipto é uma espécie vegetal brasileira característica de áreas com clima quente e úmido, o que justifica o incentivo à sua rápida expansão na porção ocidental do estado do Maranhão."},
+        {"id": "B", "text": "A queda da produção de ferro-gusa no Maranhão, a partir de meados da década de 2010, gerou uma redução expressiva da área plantada de eucalipto, especialmente na microrregião de Imperatriz."},
+        {"id": "C", "text": "A partir da segunda metade do século XX, no Maranhão, a expansão da produção de commodities, em especial soja e eucalipto, se deu devido à migração de trabalhadores e camponeses sem terra."},
+        {"id": "D", "text": "O carvão vegetal derivado do eucalipto é a principal fonte de energia para produção de ferro-gusa pelo setor mínerometalúrgico que se instalou nas cidades de São Luís, Açailândia e Pindaré-Mirim."},
+        {"id": "E", "text": "Nenhuma das opções"}
       ],
       "correctOptionId": "D",
-      "explanation": "A função mineral permaneceu central, mas a ferrovia ampliou sua diversidade de cargas. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q7594",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "A relação entre EFC e Ponta da Madeira é corretamente descrita como",
-      "options": [
-        {
-          "id": "A",
-          "text": "a ferrovia leva cargas do corredor de Carajás ao terminal marítimo privado em São Luís, formando um sistema logístico integrado."
-        },
-        {
-          "id": "B",
-          "text": "Ponta da Madeira é uma mina localizada no Pará e a EFC é seu porto."
-        },
-        {
-          "id": "C",
-          "text": "ambas são instalações do complexo da Alumar."
-        },
-        {
-          "id": "D",
-          "text": "a EFC termina no Porto de Santos."
-        },
-        {
-          "id": "E",
-          "text": "Ponta da Madeira é apenas um berço do porto público do Itaqui."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "O núcleo econômico é a integração mina-ferrovia-terminal; condições naturais específicas do porto não precisam ser memorizadas neste item. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q7595",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "Qual cronologia resume adequadamente a implantação da Alumar para este assunto?",
-      "options": [
-        {
-          "id": "A",
-          "text": "implantação a partir de 1980 e inauguração do complexo em 1984."
-        },
-        {
-          "id": "B",
-          "text": "criação em 1959 e privatização em 1969."
-        },
-        {
-          "id": "C",
-          "text": "construção em 1997 e inauguração em 2000."
-        },
-        {
-          "id": "D",
-          "text": "implantação somente após 2004."
-        },
-        {
-          "id": "E",
-          "text": "inauguração em 1985 como unidade da CVRD."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "Para o nível de detalhe do edital, bastam os marcos institucionais de implantação em 1980 e inauguração em 1984, sem exigir datas internas de cada unidade. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q7596",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A nova pauta exportadora ganhou peso com",
-      "options": [
-        {
-          "id": "A",
-          "text": "somente tecidos."
-        },
-        {
-          "id": "B",
-          "text": "apenas arroz."
-        },
-        {
-          "id": "C",
-          "text": "minério, alumina, alumínio, ferro-gusa e, depois, grãos."
-        },
-        {
-          "id": "D",
-          "text": "exclusivamente serviços públicos."
-        },
-        {
-          "id": "E",
-          "text": "apenas babaçu in natura."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "Grandes projetos e logística mudaram a escala e a composição do comércio externo. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q7597",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "Qual sequência sintetiza melhor as transformações econômicas da segunda metade do século XX no Maranhão?",
-      "options": [
-        {
-          "id": "A",
-          "text": "integração regional e rodoviária → expansão agropecuária → grandes projetos industriais/minerais → corredor exportador → reformas e privatizações dos anos 1990."
-        },
-        {
-          "id": "B",
-          "text": "privatizações → economia colonial → SUDENE → desaparecimento das rodovias."
-        },
-        {
-          "id": "C",
-          "text": "PGC nos anos 1950 → EFC nos anos 1960 → crise têxtil apenas depois de 2000."
-        },
-        {
-          "id": "D",
-          "text": "fim da agricultura → retorno exclusivo ao têxtil → isolamento portuário."
-        },
-        {
-          "id": "E",
-          "text": "CEMAR privatizada antes da SUDENE → Alumar no século XIX → EFC após 2004."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "A sequência organiza os grandes ciclos sem depender de microdatas: integração e incentivos, novas frentes produtivas, grandes projetos, logística exportadora e reformas. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q7598",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A síntese correta do período econômico é",
-      "options": [
-        {
-          "id": "A",
-          "text": "atividades tradicionais coexistiram com agropecuária empresarial, grandes indústrias, logística exportadora e reformas estatais."
-        },
-        {
-          "id": "B",
-          "text": "rodovias e grandes projetos não alteraram a economia."
-        },
-        {
-          "id": "C",
-          "text": "a economia tornou-se exclusivamente industrial."
-        },
-        {
-          "id": "D",
-          "text": "o BEM foi privatizado em 1995."
-        },
-        {
-          "id": "E",
-          "text": "as atividades tradicionais desapareceram completamente em 1951."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "A transformação foi desigual e combinou permanências com novos setores e corredores. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Questão 20 do concurso do Tribunal de Justiça do Estado do Maranhão (TJ-MA), Instituto Consulplan, 2024, prova de Analista Judiciário — Analista de Sistemas — Segurança da Informação, tipo 1 branca. O gabarito oficial é D. A alternativa E, 'Nenhuma das opções', foi acrescentada exclusivamente para adequação ao schema de cinco alternativas e não é gabarito. Fontes: prova https://d676e6gwpn3ec.cloudfront.net/concursos/1218/ANALISTA%20JUDICI%C3%81RIO%20-%20ANALISTA%20DE%20SISTEMAS%20-%20SEGURAN%C3%87A%20DA%20INFORMA%C3%87%C3%83O%20%E2%80%93%20TIPO%201%20%E2%80%93%20BRANCA.pdf ; gabarito consolidado https://www.qconcursos.com/questoes-de-concursos/provas/instituto-consulplan-2024-tj-ma-oficial-de-justica/questoes ; resultado definitivo da prova objetiva https://novogerenciador.tjma.jus.br/storage/arquivos/concursos_proc_seletivos/edt_gp_532024_06_09_2024_20_11_08.pdf."
     }
   ]
 }
