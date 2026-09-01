@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q7899",
@@ -1021,6 +1021,96 @@
       ],
       "correctOptionId": "B",
       "explanation": "O Maranhão combina rios limítrofes, rios genuinamente maranhenses, bacias estaduais e sistemas costeiros em escalas distintas."
+    },
+    {
+      "id": "q20000",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Sobre a hidrografia do Maranhão é incorreto afirmar:",
+      "options": [
+        {
+          "id": "A",
+          "text": "O rio Itapecuru banha as cidades de Colinas, Codó e Rosário."
+        },
+        {
+          "id": "B",
+          "text": "Possui predominância de rios intermitentes."
+        },
+        {
+          "id": "C",
+          "text": "A Baixada Maranhense caracteriza-se pela grande concentração de lagos."
+        },
+        {
+          "id": "D",
+          "text": "Predomínio de rios com drenagem do tipo exorréica."
+        },
+        {
+          "id": "E",
+          "text": "A rede hidrográfica maranhense caracteriza-se pelo domínio de rios com foz do tipo estuário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alternativa B é a incorreta segundo o gabarito da banca: a hidrografia maranhense é predominantemente formada por rios perenes, e não intermitentes. Fonte: Instituto Coelho Neto, Prefeitura de Santo Amaro do Maranhão/MA, Professor — Geografia, 2016, questão 25, gabarito B. Prova arquivada: https://eticaconcursos.com.br/provas/arquivos/prova/instituto-coelho-neto-2016-prefeitura-de-santo-amaro-do-maranhao-ma-professor-ensino-fundamental-geografia-prova.pdf. Gabarito arquivado: https://eticaconcursos.com.br/provas/arquivos/gabarito/instituto-coelho-neto-2016-prefeitura-de-santo-amaro-do-maranhao-ma-professor-ensino-fundamental-geografia-gabarito.pdf."
+    },
+    {
+      "id": "q20001",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "“O Rio Itapecuru é o maior rio genuinamente maranhense, banha várias cidades do estado e recebe águas de muitos afluentes”.\n\nSão afluentes do Rio Itapecuru, Exceto:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rio Peritoró"
+        },
+        {
+          "id": "B",
+          "text": "Rio Gameleira"
+        },
+        {
+          "id": "C",
+          "text": "Rio Munim"
+        },
+        {
+          "id": "D",
+          "text": "Rio Alpercatas"
+        },
+        {
+          "id": "E",
+          "text": "Rio Codó"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O gabarito da banca é C: o Munim constitui curso e bacia distintos e não é afluente do Itapecuru. Fonte: Instituto Coelho Neto, Prefeitura de Santo Amaro do Maranhão/MA, Professor — Geografia, 2016, questão 35, gabarito C. Prova arquivada: https://eticaconcursos.com.br/provas/arquivos/prova/instituto-coelho-neto-2016-prefeitura-de-santo-amaro-do-maranhao-ma-professor-ensino-fundamental-geografia-prova.pdf. Gabarito arquivado: https://eticaconcursos.com.br/provas/arquivos/gabarito/instituto-coelho-neto-2016-prefeitura-de-santo-amaro-do-maranhao-ma-professor-ensino-fundamental-geografia-gabarito.pdf."
+    },
+    {
+      "id": "q20002",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Atualmente, as bacias hidrográficas vêm sendo adotadas como unidades de planejamento ambiental. As bacias limítrofes, compostas por rios que atravessam limites político-administrativos, representam um desafio para a gestão integrada dos recursos hídricos.\n\nSobre as bacias limítrofes maranhenses, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Entre as bacias limítrofes, a do rio Parnaíba é a que possui a maior área no estado do Maranhão."
+        },
+        {
+          "id": "B",
+          "text": "A bacia do rio Tocantins abrange, entre outros, os estados de Tocantins, Pará, Maranhão e Piauí."
+        },
+        {
+          "id": "C",
+          "text": "A bacia do Rio Mearim abrange as áreas limítrofes do Maranhão com o estado do Piauí."
+        },
+        {
+          "id": "D",
+          "text": "A área ocupada pelas bacias limítrofes no território do Maranhão é maior que a área ocupada pelas bacias dos rios genuinamente maranhenses."
+        },
+        {
+          "id": "E",
+          "text": "O Rio Gurupi constitui um trecho da linha limítrofe entre os estados do Maranhão e do Piauí."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alternativa A corresponde ao gabarito definitivo da FGV: entre as bacias limítrofes, a do Parnaíba possui a maior área no Maranhão. Fonte oficial: FGV, Concurso Público 2012 — Polícia Militar do Maranhão, Soldado Combatente, prova Tipo 3 — Amarela, questão 45, gabarito A. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/policia_militar_soldado_combatente_caderno_03.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/segep12_policia_militar_-_soldado_combatente_-_gabaritos_13_01_02.pdf."
     }
   ]
 }
