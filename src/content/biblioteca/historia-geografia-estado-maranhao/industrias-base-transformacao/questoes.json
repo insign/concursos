@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q8139",
@@ -1801,6 +1801,32 @@
       ],
       "correctOptionId": "D",
       "explanation": "Questão adaptada de CESPE/Cebraspe, Polícia Militar do Maranhão, cargo de Soldado do Quadro de Praça Policial, aplicação em 17/12/2017, caderno/matriz 359_PMMA_CG2_01, item 51. O item original afirmou que a Alumar seria siderúrgica produtora de ferro-gusa e aços inoxidáveis; o gabarito oficial definitivo foi E (Errado). A adaptação converte a assertiva C/E em cinco alternativas e preserva o núcleo cobrado: Alumar produz alumina e alumínio, não ferro-gusa ou aço inoxidável. Caderno oficial: https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG2_01.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/Gab_Definitivo_359_PMMA_CG2_01.pdf."
+    },
+    {
+      "id": "q20009",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A expansão da cultura do eucalipto no Maranhão, especificamente na porção Amazônica, resulta de processos iniciados nos anos 1980 e representa um padrão de reprodução de capital fincado na economia de fronteira.\n(OLIVEIRA; PAZ; PEREIRA, 2021, p. 219.)\n\nA respeito da expansão a silvicultura no estado do Maranhão, é correto afirmar que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "O eucalipto é uma espécie vegetal brasileira característica de áreas com clima quente e úmido, o que justifica o incentivo à sua rápida expansão na porção ocidental do estado do Maranhão."
+        },
+        {
+          "id": "B",
+          "text": "A queda da produção de ferro-gusa no Maranhão, a partir de meados da década de 2010, gerou uma redução expressiva da área plantada de eucalipto, especialmente na microrregião de Imperatriz."
+        },
+        {
+          "id": "C",
+          "text": "A partir da segunda metade do século XX, no Maranhão, a expansão da produção de commodities, em especial soja e eucalipto, se deu devido à migração de trabalhadores e camponeses sem terra."
+        },
+        {
+          "id": "D",
+          "text": "O carvão vegetal derivado do eucalipto é a principal fonte de energia para produção de ferro-gusa pelo setor mínerometalúrgico que se instalou nas cidades de São Luís, Açailândia e Pindaré-Mirim."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O gabarito pós-recursos é D: o carvão vegetal derivado do eucalipto abastece a produção de ferro-gusa no setor mínero-metalúrgico maranhense. Fonte: Instituto Consulplan, Tribunal de Justiça do Maranhão, Concurso Público Edital nº 001/2024, cargo Oficial de Justiça — Tipo 1/Branca, questão 20. Caderno de prova: https://arquivos.qconcursos.com/prova/arquivo_prova/113735/instituto-consulplan-2024-tj-ma-oficial-de-justica-prova.pdf. A página oficial do concurso do Instituto Consulplan publicou em 06/09/2024 a decisão dos recursos e os gabaritos pós-recursos; o espelho da prova confirma a questão 20 com chave D. Portal oficial do TJMA: https://www.tjma.jus.br/hotsite/drh/item/6589/0/concursos-de-servidoresas."
     }
   ]
 }
