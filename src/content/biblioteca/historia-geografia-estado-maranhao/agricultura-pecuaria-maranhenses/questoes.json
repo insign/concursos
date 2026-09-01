@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q8019",
@@ -1801,6 +1801,66 @@
       ],
       "correctOptionId": "A",
       "explanation": "Os dados exigem distinguir estrutura, sistema produtivo, território, ano e variável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q20005",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A vasta região do cerrado localizada no Norte-Nordeste brasileiro denominada MATOPIBA – Maranhão, Tocantins, Piauí e Bahia – vem se consolidando como importante fronteira agrícola. Na última década, a produção de soja e milho da região passou de seis milhões para 14 milhões de toneladas, e esse incremento justifica a necessidade de o crescimento agrícola se fundamentar em bases sustentáveis. Estudos recentes permitiram compreender os processos de expansão, transição, conversão e intensificação agrícola no MATOPIBA.\n\nSobre as condições que favoreceram a expansão da agricultura empresarial nessa região, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O baixo custo do fator terra, a previsibilidade das condições climáticas e a horizontalidade do relevo."
+        },
+        {
+          "id": "B",
+          "text": "A disponibilidade de capital humano, os baixos salários regionais e a homogênea distribuição de renda."
+        },
+        {
+          "id": "C",
+          "text": "A facilidade de acesso aos financiamentos bancários, a disponibilidade de capitais privados e as altas taxas de juros."
+        },
+        {
+          "id": "D",
+          "text": "A eficiência da infraestrutura viária, a facilidade de acesso aos portos exportadores e a proximidade das metrópoles."
+        },
+        {
+          "id": "E",
+          "text": "A qualificação da mão de obra regional, os fluxos migratórios e a ampliação do mercado de trabalho devido à mecanização."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alternativa A é o gabarito definitivo da FGV: baixo custo da terra, previsibilidade climática e relevo horizontal favoreceram a expansão da agricultura empresarial no MATOPIBA. Fonte oficial: FGV, Secretaria de Estado da Administração do Amapá (SEAD-AP), Professor da Educação Básica e Profissional — Geografia, Edital nº 001/2022, prova Tipo 1 aplicada em 16/10/2022, questão 49. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/professor_geografiacns009_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/seadap2022_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q20006",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Na região do Matopiba, que compreende os estados do Maranhão, Tocantins, Piauí e Bahia, o agronegócio bateu recorde de concentração de desmatamento do bioma:",
+      "options": [
+        {
+          "id": "A",
+          "text": "do Cerrado"
+        },
+        {
+          "id": "B",
+          "text": "da Caatinga"
+        },
+        {
+          "id": "C",
+          "text": "da Mata Atlântica"
+        },
+        {
+          "id": "D",
+          "text": "da Floresta Equatorial"
+        },
+        {
+          "id": "E",
+          "text": "da Mata das Araucárias"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O gabarito final definitivo da Selecon é A: a questão identifica o Cerrado como o bioma que concentrou o desmatamento associado ao agronegócio no MATOPIBA. Fonte oficial: Instituto Selecon, IBGE, Processo Seletivo Edital nº 06/2023, Agente de Pesquisas por Telefone, Prova A, aplicada em 22/10/2023, questão 57. Prova: https://anexos.cdn.selecao.net.br/uploads/769/concursos/3/anexos/hvsDSjq3YrDK5GM3ud8K3gT50mINyr2dpAPGf9ID.pdf. Gabarito final definitivo: https://anexos.cdn.selecao.net.br/uploads/769/concursos/3/anexos/kOgug6bdJVhAG0nJuT2guYK4YdCwhqm724Zeg8XL.pdf."
     }
   ]
 }
