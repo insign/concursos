@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q6099",
@@ -1801,126 +1801,6 @@
       ],
       "correctOptionId": "B",
       "explanation": "Para sessão ordinária, o pedido de inclusão deve chegar com 8 dias; a pauta ordinária é divulgada até 48h antes; empate em Câmara implica submissão ao Plenário."
-    },
-    {
-      "id": "q99263",
-      "revision": 1,
-      "origin": "previous_exam",
-      "prompt": "Nos termos do Regimento Interno do TCE/MA, os processos são julgados e apreciados por grupos e por classes de assuntos, conforme sua natureza, iniciando-se pelos classificados no Grupo I, seguindo-se os do Grupo II. Com base nessa divisão, numa determinada sessão plenária, ocorreram os seguintes fatos:\nI. Foi concedida preferência de julgamento, com inversão da ordem da pauta, para processo no qual foi produzida prova por sustentação oral.\nII. Num processo do Grupo II, a apresentação do relatório foi feita apenas de forma resumida.\nIII. Um Conselheiro solicitou audiência do Ministério Público junto ao Tribunal no curso da discussão de um processo.\nHouve consonância com o disciplinado no Regimento Interno do Tribunal de Contas do Estado do Maranhão o fato indicado em",
-      "options": [
-        {
-          "id": "A",
-          "text": "I, apenas."
-        },
-        {
-          "id": "B",
-          "text": "I, II e III."
-        },
-        {
-          "id": "C",
-          "text": "I e III, apenas."
-        },
-        {
-          "id": "D",
-          "text": "II e III, apenas."
-        },
-        {
-          "id": "E",
-          "text": "II, apenas."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "Os três fatos permanecem compatíveis com os arts. 42, § 2º, 44 e 45 do Regimento vigente: pode haver preferência quando deva ocorrer sustentação oral; no Grupo II a discussão se inicia com relatório ainda que resumido; e Relator ou Conselheiro pode solicitar audiência do Ministério Público durante a discussão. Fonte: questão oficial; FCC; Prefeitura de São Luís/MA — Auditor de Controle Interno — Área de Abrangência Geral; 2015; questão 88; https://www.qconcursos.com/questoes-de-concursos/questoes/f725669b-6a."
-    },
-    {
-      "id": "q99264",
-      "revision": 1,
-      "origin": "previous_exam",
-      "prompt": "Nos termos do Regimento Interno do Tribunal de Contas do Estado do Maranhão, sobre as sessões por ele realizadas é correto afirmar que",
-      "options": [
-        {
-          "id": "A",
-          "text": "pode haver sessão extraordinária de caráter reservado."
-        },
-        {
-          "id": "B",
-          "text": "as realizadas pelo Plenário somente poderão ser abertas com o quórum de três Conselheiros Efetivos ou seus substitutos, inclusive o Presidente."
-        },
-        {
-          "id": "C",
-          "text": "a obrigatoriedade da presença de representante do Ministério Público junto ao Tribunal está vinculada à matéria a ser julgada."
-        },
-        {
-          "id": "D",
-          "text": "a apreciação das contas prestadas anualmente pelo Governador do Estado ocorrerá em sessão ordinária."
-        },
-        {
-          "id": "E",
-          "text": "a convocação para uma sessão extraordinária deve ocorrer com, no mínimo, 24 horas de antecedência, em qualquer hipótese."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "A alternativa A permanece correta: o Regimento admite sessão extraordinária de caráter reservado. As demais contrariam o quórum plenário de quatro membros, a exigência geral de presença do Ministério Público, a apreciação extraordinária das contas anuais do Governador e a ressalva regimental à antecedência geral de 24 horas. Fonte: questão oficial; FCC; Prefeitura de São Luís/MA — Auditor de Controle Interno — Área de Abrangência Geral; 2015; questão 89; https://www.qconcursos.com/questoes-de-concursos/provas/fcc-2015-prefeitura-de-sao-luis-ma-auditor-de-controle-interno-area-de-abrangencia-geral/questoes?page=5."
-    },
-    {
-      "id": "q99265",
-      "revision": 1,
-      "origin": "previous_exam",
-      "prompt": "Para uma sessão ordinária do Tribunal de Contas do Estado do Maranhão foram pautados os seguintes processos:\nI. recurso.\nII. tomada de contas.\nIII. consulta.\nIV. matéria concernente à fiscalização contábil, financeira, orçamentária, operacional e patrimonial.\nNos termos do Regimento Interno do Tribunal, considerando que não houve solicitação de produção de sustentação oral, esses processos devem ser julgados na seguinte ordem:",
-      "options": [
-        {
-          "id": "A",
-          "text": "I, II, III e IV."
-        },
-        {
-          "id": "B",
-          "text": "II, I, III e IV."
-        },
-        {
-          "id": "C",
-          "text": "I, III, II e IV."
-        },
-        {
-          "id": "D",
-          "text": "IV, II, I e III."
-        },
-        {
-          "id": "E",
-          "text": "IV, II, III e I."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "O art. 42 do Regimento vigente mantém a ordem preferencial relevante: recursos, consultas, tomadas e prestações de contas e, depois, inspeções, auditorias e outras matérias de fiscalização, sem prejuízo das preferências regimentais. Assim, a sequência é I, III, II e IV. Fonte: questão oficial; FCC; Prefeitura de São Luís/MA — Auditor de Controle Interno — Área de Abrangência Geral; 2015; questão 90; https://www.qconcursos.com/questoes-de-concursos/provas/fcc-2015-prefeitura-de-sao-luis-ma-auditor-de-controle-interno-area-de-abrangencia-geral/questoes?page=5."
-    },
-    {
-      "id": "q99266",
-      "revision": 1,
-      "origin": "previous_exam",
-      "prompt": "Nos termos do Regimento Interno do Tribunal de Contas do Maranhão, a discussão de uma matéria na sessão poderá ser adiada nos seguintes casos:\nI. Se a matéria requerer maior estudo.\nII. Para instrução complementar, por considerar-se incompleta.\nIII. Se for solicitada a audiência do Representante do Ministério Público junto ao Tribunal.\nDeverá ser processado em caráter de urgência o indicado em",
-      "options": [
-        {
-          "id": "A",
-          "text": "I, apenas."
-        },
-        {
-          "id": "B",
-          "text": "III, apenas."
-        },
-        {
-          "id": "C",
-          "text": "I, II e III."
-        },
-        {
-          "id": "D",
-          "text": "I e III, apenas."
-        },
-        {
-          "id": "E",
-          "text": "II e III, apenas."
-        }
-      ],
-      "correctOptionId": "E",
-      "explanation": "O art. 51, § 2º, do Regimento vigente determina que a instrução complementar do inciso II e a audiência do Ministério Público prevista no inciso III sejam processadas em caráter de urgência. Portanto, a resposta é II e III, apenas. Fonte: questão oficial; FCC; Prefeitura de São Luís/MA — Auditor de Controle Interno — Área de Abrangência Geral; 2015; questão 91; https://www.qconcursos.com/questoes-de-concursos/questoes/f730d874-6a."
     }
   ]
 }
