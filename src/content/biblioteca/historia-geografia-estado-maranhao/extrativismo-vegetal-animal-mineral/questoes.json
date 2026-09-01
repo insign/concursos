@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q8079",
@@ -1801,6 +1801,66 @@
       ],
       "correctOptionId": "B",
       "explanation": "A matriz de leitura evita confundir extração, cultivo, criação, transformação e transporte, além de preservar unidade e período. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q20007",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O extrativismo vegetal é uma atividade tradicional do Estado do Maranhão. Dentre os produtos do extrativismo o que mais se destaca é o babaçu. As amêndoas dessa palmeira são transformadas em óleo ou azeite, utilizados no preparo de alimentos, na produção de sabão ou cosméticos e como combustível.\n\nSobre o extrativismo do babaçu no Maranhão, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A palmeira babaçu só é encontrada no Estado do Maranhão."
+        },
+        {
+          "id": "B",
+          "text": "A extração do babaçu envolve, atualmente, um alto grau de mecanização."
+        },
+        {
+          "id": "C",
+          "text": "A legislação não garante o acesso aos babaçuais e a proteção das palmeiras de babaçu."
+        },
+        {
+          "id": "D",
+          "text": "A Reserva Extrativista Quilombo do Frexal está situada em uma área de grande concentração de palmeiras de babaçu."
+        },
+        {
+          "id": "E",
+          "text": "A atividade extrativa de babaçu é realizada por homens que se autodenominam “quebradores de coco”."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O gabarito definitivo da FGV é D: a Reserva Extrativista Quilombo do Frexal situa-se em área de forte ocorrência de babaçu. Fonte oficial: FGV, Polícia Militar do Maranhão, Soldado Combatente, 2012, prova Tipo 1 — Branca, questão 50. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/policia_militar_soldado_combatente_caderno_01.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/segep12_policia_militar_-_soldado_combatente_-_gabaritos_13_01_02.pdf."
+    },
+    {
+      "id": "q20008",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O Movimento Interestadual das Quebradeiras de Coco Babaçu (MIQCB) e sua luta pelo \"Babaçu Livre\" dizem respeito ao esforço",
+      "options": [
+        {
+          "id": "A",
+          "text": "de populações tradicionais, cuja subsistência depende do aproveitamento integral da palmeira de babaçu, a comercializarem sua produção livre de barreiras fiscais e sanitárias."
+        },
+        {
+          "id": "B",
+          "text": "de mulheres extrativistas com vistas a garantir, entre outros objetivos, seu livre acesso aos babaçuais e a proteção contra a derrubada das palmeiras."
+        },
+        {
+          "id": "C",
+          "text": "de grupos de ambientalistas e simpatizantes que têm como objetivo controlar atividades extrativistas do coco babaçu no ecossistema da Mata dos Cocais."
+        },
+        {
+          "id": "D",
+          "text": "traduzido na luta por melhores condições de trabalho capitaneada sobretudo por mulheres contratadas pelos grandes latifúndios para plantio e colheita do babaçu."
+        },
+        {
+          "id": "E",
+          "text": "que resultou na aprovação, pelo Congresso Nacional, de lei Federal que regulamentou a atividade das quebradeiras de coco como trabalho autônomo e protegido."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A chave oficial registrada para a questão é B: o Babaçu Livre se relaciona ao livre acesso das mulheres extrativistas aos babaçuais e à proteção das palmeiras. Fonte: FCC, Defensoria Pública do Estado do Maranhão, Defensor(a) Público(a) de Classe Inicial, 2026, questão 93. Texto e metadados: https://www.qconcursos.com/questoes-de-concursos/provas/fcc-2026-dpe-ma-defensor-a-publico-a/questoes?page=5. Espelho de gabarito da prova (questão 93 = B, sem alteração): https://arquivos.qconcursos.com/prova/arquivo_gabarito/150087/fcc-2026-dpe-ma-defensor-a-publico-a-gabarito.pdf. Portal oficial do concurso: https://defensoria.ma.def.br/dpema/portal/concursos/9."
     }
   ]
 }
