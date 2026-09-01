@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q8379",
@@ -1801,6 +1801,66 @@
       ],
       "correctOptionId": "E",
       "explanation": "A liberdade de expressão é direito civil de primeira dimensão. Fonte oficial: Cebraspe; Tribunal Regional Federal da 6ª Região (TRF6); 1º concurso público, Edital nº 1 – TRF da 6ª Região, de 10/10/2024; conhecimentos gerais de Técnico Judiciário para os cargos 27 e 28; prova aplicada em 19/01/2025; caderno 034_TRF6_CG6_01; item 32, cujo núcleo afirma que a liberdade de expressão é direito de primeira geração ou dimensão; gabarito oficial definitivo C (Certo). Prova: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_CG6_01.PDF. Gabarito: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/GAB_DEFINITIVO_034_TRF6_CG6_01.PDF. Adaptação: item certo/errado convertido em questão de cinco alternativas, preservando o núcleo e a resposta oficial."
+    },
+    {
+      "id": "q20015",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A eficácia horizontal direta dos direitos fundamentais (unmittelbare Drittwirkung) é uma teoria atribuída ao jurista Hans Carl Nipperdey, o qual buscava superar a teoria clássica e demonstrar novas modalidades de violações de direitos fundamentais, até então não reconhecidas pela teoria mais tradicional, como a defendida por Jellineck.\n\nConstitui exemplo de aplicação inovadora da teoria da eficácia horizontal direta dos direitos fundamentais",
+      "options": [
+        {
+          "id": "A",
+          "text": "o ajuizamento de ação trabalhista contra uma fundação pública para que ela adote medidas concretas para a proteção do mercado de trabalho da mulher, mediante incentivos específicos."
+        },
+        {
+          "id": "B",
+          "text": "a interposição de mandado de segurança para exigir que as universidades públicas tenham banheiros designados para atender a pessoas transgêneros."
+        },
+        {
+          "id": "C",
+          "text": "a propositura de habeas corpus para garantir a inviolabilidade do corpo do paciente e fazer valer a sua negativa para a realização de exame de DNA exigido pela autoridade policial."
+        },
+        {
+          "id": "D",
+          "text": "a exigência de um cliente para que uma empresa privada, concessionária de serviço público de energia, respeite seu direito constitucional de inviolabilidade de domicílio, quando tal ingresso seja necessário à continuidade do serviço público em questão."
+        },
+        {
+          "id": "E",
+          "text": "a exigência para que uma escola particular tenha de observar o contraditório e a ampla defesa ao expulsar um aluno, mesmo que o contrato entre as partes estabeleça o contrário."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A alternativa E apresenta incidência direta de garantias fundamentais em uma relação entre particulares, entre escola particular e aluno, caracterizando a eficácia horizontal direta. Fonte oficial: Cebraspe; Defensoria Pública do Estado do Pará (DPE/PA); V Concurso Público para Defensor Público Substituto; Edital nº 1 – DPE/PA, de 12/08/2021; prova aplicada em 22/01/2022; caderno 623_DPE_PA_001_01; questão 5; gabarito oficial definitivo E. Prova: https://cdn.cebraspe.org.br/concursos/dpe_pa_21_defensor/arquivos/623_DPE_PA_001_01.PDF. Gabarito: https://cdn.cebraspe.org.br/concursos/dpe_pa_21_defensor/arquivos/GAB_DEFINITIVO_623_DPE_PA_001_01.PDF."
+    },
+    {
+      "id": "q20016",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No que se refere à abrangência material e subjetiva dos direitos fundamentais assegurados na Constituição Federal de 1988 (CF), deduz-se que os direitos humanos",
+      "options": [
+        {
+          "id": "A",
+          "text": "podem ser objeto de restrições quando confrontados com outros valores de ordem constitucional."
+        },
+        {
+          "id": "B",
+          "text": "não alcançam os estrangeiros não residentes no país."
+        },
+        {
+          "id": "C",
+          "text": "pertencem a toda pessoa humana que preencher os requisitos previstos na legislação nacional."
+        },
+        {
+          "id": "D",
+          "text": "não podem ser inferidos para além daqueles expressos na CF."
+        },
+        {
+          "id": "E",
+          "text": "são uma questão essencialmente doméstica do Estado brasileiro, cuja expressão internacional deve ser considerada em segundo plano pelo poder público."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Direitos fundamentais não são absolutos e podem sofrer restrições quando confrontados com outros valores de ordem constitucional, observados os limites constitucionais. Fonte oficial: Cebraspe; Polícia Civil do Estado da Paraíba (PC/PB); Edital nº 01–SEAD/SEDS/PC; conhecimentos complementares para todos os cargos de apoio técnico, cargos 14 a 17; prova aplicada em 20/02/2022; caderno 629_PC_PB_CC1_01; questão 43; gabarito oficial definitivo A. Prova: https://cdn.cebraspe.org.br/concursos/pc_pb_21/arquivos/629_PC_PB_CC1_01.PDF. Gabarito: https://cdn.cebraspe.org.br/concursos/pc_pb_21/arquivos/GAB_DEFINITIVO_629_PC_PB_CC1_01.PDF."
     }
   ]
 }
