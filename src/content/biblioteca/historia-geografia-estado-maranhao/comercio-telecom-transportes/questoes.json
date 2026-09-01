@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q8199",
@@ -1801,6 +1801,66 @@
       ],
       "correctOptionId": "D",
       "explanation": "Adaptação do item 35 do caderno 359_PMMA_CG2_01, prova de Soldado da Polícia Militar do Maranhão (PM-MA), CESPE/Cebraspe, aplicada em 17/12/2017. O núcleo original relaciona aglomerações industriais modernas ao desenvolvimento de redes de transporte e logística que agilizam a circulação de insumos, pessoas e mercadorias; o gabarito definitivo do item foi Certo. Prova oficial: https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG2_01.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/Gab_Definitivo_359_PMMA_CG2_01.pdf. A assertiva C/E foi convertida para cinco alternativas, preservando o núcleo cobrado."
+    },
+    {
+      "id": "q20010",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A estrutura das maiores metrópoles brasileiras apresenta situações e problemas que revelam a complexidade dos grandes espaços urbanos.\n\nAs alternativas a seguir apresentam corretamente situações ou problemas relativos à organização interna das metrópoles brasileiras, à exceção de uma. Assinale-a.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A segregação residencial exclui grupos de renda mais baixa dos espaços reservados para os grupos economicamente dominantes."
+        },
+        {
+          "id": "B",
+          "text": "O uso do solo urbano mostra grande diversidade – residencial, industrial, comercial, de serviços ou misto."
+        },
+        {
+          "id": "C",
+          "text": "A estrutura viária atende com eficiência os fluxos realizados pelos trabalhadores entre suas áreas de moradias e seus locais de trabalho."
+        },
+        {
+          "id": "D",
+          "text": "A área central corresponde, quase sempre, ao centro histórico e, em alguns casos, ao moderno centro de negócios."
+        },
+        {
+          "id": "E",
+          "text": "A proliferação de subcentros de comércio e de serviços resulta da expansão da metrópole em termos físicos e populacionais."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O gabarito definitivo da FGV é C: a alternativa incorreta é a que afirma eficiência da estrutura viária nos fluxos pendulares metropolitanos; as demais descrevem características recorrentes da organização interna das metrópoles, inclusive a formação de subcentros de comércio e serviços. Fonte oficial: FGV, Polícia Militar do Maranhão, Soldado Combatente, Concurso Público 2012, prova Tipo 4 — Azul, questão 48. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/policia_militar_soldado_combatente_caderno_04.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/segep12_policia_militar_-_soldado_combatente_-_gabaritos_13_01_02.pdf."
+    },
+    {
+      "id": "q20011",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O Brasil integrou-se, nas últimas décadas, ao processo de internacionalização da economia mundial. Os fatos que permitiram essa integração estão relacionados a seguir, à exceção de um. Assinale-o.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A participação do Brasil no Mercosul o integra aos países sul-americanos como a Argentina e o Uruguai."
+        },
+        {
+          "id": "B",
+          "text": "A adoção de uma política protecionista por parte do poder público garante mercados externos para os produtos nacionais."
+        },
+        {
+          "id": "C",
+          "text": "A maior participação no comércio mundial devido ao aumento das exportações de commodities, tais como soja e minérios."
+        },
+        {
+          "id": "D",
+          "text": "A maior abertura aos investimentos diretos de empresas multinacionais que passaram a operar em diversos setores da economia."
+        },
+        {
+          "id": "E",
+          "text": "A intensificação das conexões com o exterior, graças aos investimentos realizados em infraestrutura de transportes e de telecomunicações."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O gabarito definitivo da FGV é B: a política protecionista não é o fator que garante mercados externos; a questão reconhece, entre os fatores de integração, comércio de commodities, investimento estrangeiro e a ampliação das conexões sustentadas por transportes e telecomunicações. Fonte oficial: FGV, Polícia Militar do Maranhão, Soldado Combatente, Concurso Público 2012, prova Tipo 4 — Azul, questão 50. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/policia_militar_soldado_combatente_caderno_04.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/segep12_policia_militar_-_soldado_combatente_-_gabaritos_13_01_02.pdf."
     }
   ]
 }
