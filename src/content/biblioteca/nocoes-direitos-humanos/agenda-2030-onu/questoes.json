@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q8499",
@@ -1801,6 +1801,168 @@
       ],
       "correctOptionId": "E",
       "explanation": "O eixo Planeta e vários ODS combinam proteção ambiental, recursos e clima de forma integrada. Fonte: questão adaptada de Cebraspe; STJ; Analista Judiciário — Área Judiciária; 2024; item 40; prova https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/018_STJ_CB4_01.PDF; gabarito definitivo C (certo) em https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/GAB_DEFINITIVO_018_STJ_CB4_01.PDF; adaptação: item certo ou errado convertido em questão de cinco alternativas, preservando o núcleo ambiental."
+    },
+    {
+      "id": "q-agenda2030-tcemg-2026-28",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção em que é corretamente descrito o objetivo de desenvolvimento sustentável (ODS) relacionado à meta da Agenda 2030 de redução substancial da corrupção e do suborno em todas as suas formas.",
+      "options": [
+        {
+          "id": "A",
+          "text": "fortalecer os meios de implementação e revitalizar a parceria global para o desenvolvimento sustentável"
+        },
+        {
+          "id": "B",
+          "text": "acabar com a pobreza em todas as suas formas, em todos os lugares"
+        },
+        {
+          "id": "C",
+          "text": "promover o crescimento econômico sustentado, inclusivo e sustentável"
+        },
+        {
+          "id": "D",
+          "text": "reduzir a desigualdade dentro dos países e entre eles"
+        },
+        {
+          "id": "E",
+          "text": "promover sociedades pacíficas e inclusivas para o desenvolvimento sustentável"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A meta 16.5 prevê reduzir substancialmente a corrupção e o suborno em todas as suas formas, no ODS 16. Fonte: Cebraspe; Tribunal de Contas do Estado de Minas Gerais (TCE/MG); conhecimentos gerais — todos os cargos; 2026; questão 28; prova https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/320D70B97CC0EDBE166890B55FCDA7A4D04AC4E219402DE1DDEE1BDC051EC6F5.pdf; gabarito definitivo E em https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/F6CF40CFC4CE65D590EE9EC52331D1C4C35D052F368F3B2E8C8631E4DDA7330E.pdf."
+    },
+    {
+      "id": "q-agenda2030-embrapa-2025-81",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Nos ODS, uma das metas é fortalecer a pesquisa científica e melhorar as capacidades tecnológicas de setores industriais de todos os países, por meio do incentivo à inovação.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A assertiva reproduz a meta 9.5, que prevê fortalecer pesquisa científica, capacidades tecnológicas e incentivo à inovação. Fonte: Cebraspe; Embrapa; Analista — Transferência de Tecnologia e Comunicação — Inovação Social; 2025; item 81; prova https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/042_EMBRAPA_ANALISTA_078_01.pdf; gabarito definitivo C em https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/Gab_Definitivo_042_EMBRAPA_ANALISTA_078_01.PDF."
+    },
+    {
+      "id": "q-agenda2030-embrapa-2025-82",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "De acordo com os ODS, deve-se apoiar a inovação em países em desenvolvimento, o que inclui garantir um ambiente político propício para a diversificação industrial e valorização de commodities.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A assertiva é compatível com a meta 9.b, que apoia desenvolvimento tecnológico, pesquisa e inovação domésticos em países em desenvolvimento mediante ambiente político propício, inclusive à diversificação industrial e agregação de valor a commodities. Fonte: Cebraspe; Embrapa; Analista — Transferência de Tecnologia e Comunicação — Inovação Social; 2025; item 82; prova https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/042_EMBRAPA_ANALISTA_078_01.pdf; gabarito definitivo C em https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/Gab_Definitivo_042_EMBRAPA_ANALISTA_078_01.PDF."
+    },
+    {
+      "id": "q-agenda2030-embrapa-2025-83",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Nos ODS, a inovação perpassa diversos objetivos, constando, por exemplo, em meta do objetivo Parcerias e Meios de Implementação.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A assertiva é correta: a inovação aparece transversalmente nos ODS e também em metas do ODS 17 ligadas a ciência, tecnologia e inovação. Fonte: Cebraspe; Embrapa; Analista — Transferência de Tecnologia e Comunicação — Inovação Social; 2025; item 83; prova https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/042_EMBRAPA_ANALISTA_078_01.pdf; gabarito definitivo C em https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/Gab_Definitivo_042_EMBRAPA_ANALISTA_078_01.PDF."
+    },
+    {
+      "id": "q-agenda2030-bdmg-2025-50",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A Agenda 2030, a fim de assegurar padrões de produção e de consumo sustentáveis, propõe a implementação do Plano Quinquenal de Programas sobre Produção e Consumo Sustentáveis, em que os Estados-partes se comprometerão a incentivar empresas, especialmente microempresas e empresas de pequeno porte, a adotar práticas sustentáveis e informar, em seus relatórios, as ações de sustentabilidade escolhidas em seus ciclos produtivos.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A assertiva está errada: a meta 12.1 trata do Plano Decenal de Programas sobre Produção e Consumo Sustentáveis, e a meta 12.6 incentiva empresas, especialmente grandes e transnacionais, a adotar práticas sustentáveis e integrar informações de sustentabilidade aos relatórios. Fonte: Cebraspe; Banco de Desenvolvimento de Minas Gerais (BDMG); Analista de Desenvolvimento — Ênfase 3 — Engenharias; 2025; item 50; prova https://cdn.cebraspe.org.br/concursos/bdmg_24/arquivos/031_BDMG_003_01.pdf; gabarito definitivo E em https://cdn.cebraspe.org.br/concursos/bdmg_24/arquivos/Gab_Definitivo_031_BDMG_003_01.PDF."
+    },
+    {
+      "id": "q-agenda2030-tjes-2023-99",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em relação à Agenda 2030 da ONU, o Objetivo de Desenvolvimento Sustentável 16 propõe “promover sociedades pacíficas e inclusivas para o desenvolvimento sustentável, proporcionar o acesso à justiça para todos e construir instituições eficazes, responsáveis e inclusivas a todos os níveis”. Como desdobramento desse objetivo, pode-se citar:",
+      "options": [
+        {
+          "id": "A",
+          "text": "erradicar a pobreza extrema para todas as pessoas em todos os lugares;"
+        },
+        {
+          "id": "B",
+          "text": "promover e fazer cumprir leis e políticas não discriminatórias para o desenvolvimento sustentável;"
+        },
+        {
+          "id": "C",
+          "text": "apoiar e fortalecer a participação das comunidades locais, para melhorar a gestão da água e do saneamento;"
+        },
+        {
+          "id": "D",
+          "text": "aumentar substancialmente a participação de energias renováveis na matriz energética global;"
+        },
+        {
+          "id": "E",
+          "text": "promover práticas de compras públicas sustentáveis, de acordo com as políticas e prioridades nacionais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alternativa B reproduz a meta 16.b, que prevê promover e fazer cumprir leis e políticas não discriminatórias para o desenvolvimento sustentável. Fonte: FGV; Tribunal de Justiça do Estado do Espírito Santo (TJES); Juiz Substituto; 2023; questão 99 — Tipo 1; prova https://conhecimento.fgv.br/sites/default/files/concursos/juiz-substitutojuizsubstituto-tipo-1.pdf; gabarito definitivo B em https://conhecimento.fgv.br/sites/default/files/concursos/tjes2023_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q-agenda2030-trf1-2024-40",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Os objetivos de desenvolvimento sustentável, presentes na Agenda 2030 da Organização das Nações Unidas (ONU), são amplos e muito diversos. Eles tendem a trazer problemas e soluções comuns a diversos países. Um desses problemas é a criminalidade, e um objetivo, batizado como paz, justiça e instituições eficazes, aborda ideias consideradas relevantes. Quanto ao tema do enunciado, em especial com relação ao objetivo mencionado, é correto afirmar que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "o tráfico internacional de drogas ganhou destaque expresso e foi considerado como primeiro assunto na listagem, ante o problema global que representa;"
+        },
+        {
+          "id": "B",
+          "text": "as armas ilegais e a prática de crimes violentos, executados com o emprego delas, por terem sido compreendidos como um problema nacional de cada país, não mereceram atenção;"
+        },
+        {
+          "id": "C",
+          "text": "a proteção às crianças foi enfatizada e, com relação a elas, foi expresso o ambicioso objetivo de acabar com o abuso, a exploração, o tráfico e todas as formas de violência e tortura;"
+        },
+        {
+          "id": "D",
+          "text": "a existência de regimes autocráticos foi enfatizada como responsável pelo fomento à criminalidade transnacional, devido ao fato de a ausência de liberdade levar a uma maior ocorrência de ilícitos penais;"
+        },
+        {
+          "id": "E",
+          "text": "a opção pela formatação de instituições que atuem à base da decretação de sigilo e sem responsividade foi compreendida como a mais eficaz no combate ao crime organizado internacional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C corresponde à meta 16.2, que busca acabar com abuso, exploração, tráfico e todas as formas de violência e tortura contra crianças. Fonte: FGV; Tribunal Regional Federal da 1ª Região (TRF1); Analista Judiciário — Área Administrativa; 2024; questão 40 — Tipo 2; prova https://conhecimento.fgv.br/sites/default/files/concursos/3.pdf; gabarito definitivo C em https://conhecimento.fgv.br/sites/default/files/concursos/trf1_gabarito_definitivo_v4.pdf."
     }
   ]
 }
