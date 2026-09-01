@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q7959",
@@ -1801,6 +1801,62 @@
       ],
       "correctOptionId": "C",
       "explanation": "Os indicadores exigem datas, conceitos e escalas distintos para representar a população e seus movimentos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q20003",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Com relação à dinâmica e à distribuição populacional no Maranhão, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A cidade de Imperatriz é a mais populosa do estado."
+        },
+        {
+          "id": "B",
+          "text": "Em função do volume da produção no setor primário da economia, atualmente a população maranhense é majoritariamente rural."
+        },
+        {
+          "id": "C",
+          "text": "O setor de serviços nas grandes cidades do estado tem liberado mão de obra para o campo."
+        },
+        {
+          "id": "D",
+          "text": "Fatores de ordem social e econômica influenciam a existência de fluxos migratórios da população maranhense para outros estados brasileiros."
+        },
+        {
+          "id": "E",
+          "text": "Tem havido maior concentração da população no sul do estado, devido aos fluxos imigratórios."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alternativa D corresponde ao gabarito definitivo da banca: fatores sociais e econômicos influenciam fluxos migratórios de maranhenses para outras unidades da Federação. Fonte oficial: Cebraspe, Prefeitura de São Luís/MA, Cargo 7 — Professor Nível Superior/PNS-A, especialidade Geografia, 2017, questão 67. Prova: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/287_PREFSAOLUIS_007_01.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_007_01.pdf."
+    },
+    {
+      "id": "q20004",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Os movimentos populacionais são um importante fator de transformação social e econômica. Dentre as alternativas a seguir marque aquela que descreve corretamente uma característica recente da migração interna no Brasil, especialmente no que diz respeito ao Maranhão.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A migração em massa do Sudeste para o Nordeste, devido ao aumento de oportunidades industriais no Maranhão."
+        },
+        {
+          "id": "B",
+          "text": "A estagnação migratória no Maranhão, com população rural sem tendência de deslocamento para áreas urbanas."
+        },
+        {
+          "id": "C",
+          "text": "A migração em direção ao litoral maranhense devido ao crescimento do setor de mineração."
+        },
+        {
+          "id": "D",
+          "text": "A migração de maranhenses para o Centro-Oeste, impulsionada pela busca por trabalho no agronegócio e em áreas de expansão agrícola."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O gabarito definitivo é D: a questão associa a migração de maranhenses ao Centro-Oeste à busca por trabalho no agronegócio e em áreas de expansão agrícola. Fonte oficial: Instituto JK, Prefeitura de São Raimundo das Mangabeiras/MA, Professor do 6º ao 9º Ano — Geografia, Concurso Edital 001/2024, 2025, questão 33. Prova: https://institutojkma.org/wp-content/uploads/2025/09/PSRM_PROFESSOR_DE_GEOGRAFIA.pdf. Gabarito definitivo: https://institutojkma.org/wp-content/uploads/2025/02/GD_SRM_PROFESSOR_DE_GEOGRAFIA.pdf. A prova apresenta quatro alternativas (A–D), preservadas integralmente; o schema aceita esse formato, sem criação de quinta opção."
     }
   ]
 }
