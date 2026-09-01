@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q8319",
@@ -1801,6 +1801,66 @@
       ],
       "correctOptionId": "C",
       "explanation": "Patrimônio vivo envolve continuidade, transmissão e participação dos detentores. Transformação não equivale, por si só, a perda de identidade, e salvaguarda não é congelamento. Fonte: Iphan e referências do conteúdo."
+    },
+    {
+      "id": "q20013",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Dileusa Dinis Rodrigues, mais conhecida como Dila, é uma artista plástica autodidata, nascida no ano de 1939 no município de Humberto de Campos – MA. A obra dessa artista aborda temas",
+      "options": [
+        {
+          "id": "A",
+          "text": "presentes nas xilogravuras influenciadas pela Semana de Arte Moderna de 1922."
+        },
+        {
+          "id": "B",
+          "text": "comuns ao cotidiano e à vida do nordestino em festas típicas, paisagens urbanas e rurais."
+        },
+        {
+          "id": "C",
+          "text": "formais, principalmente abstratos e geométricos."
+        },
+        {
+          "id": "D",
+          "text": "políticos, especialmente no que diz respeito a movimentos populares da década de 60 do século passado."
+        },
+        {
+          "id": "E",
+          "text": "socioeconômicos, com particular atenção à questão da fome no Nordeste."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O gabarito oficial definitivo do Cebraspe é B. Fonte: Cebraspe, Prefeitura Municipal de São Luís/MA, Cargo 2 — Professor Nível Superior/PNS-A – Especialidade Arte, aplicação em 5/2/2017, questão 44. Prova oficial: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/287_PREFSAOLUIS_002_01.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_002_01.pdf."
+    },
+    {
+      "id": "q20014",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "TEXTO 1\n\nO tambor de crioula felizmente continua muito vivo e atuante em São Luís e em todo o Estado. Temores previstos na época da pesquisa de que o incentivo ao turismo poderia contribuir para a breve descaracterização desta manifestação cultural não se concretizaram. Ao lado de apresentações turísticas [...] continuam a ser realizados pagamentos de promessa do catolicismo popular e do tambor de mina, com a realização de festas de tambor de crioula. [...] Hoje a intelectualidade jovem do Maranhão está descobrindo e valorizando o tambor de crioula como forma de divertimento, como objeto de estudo e como importante manifestação da cultura popular maranhense.\n\n(FERRETTI, Sergio (Org.) Tambor de Crioula. Ritual e Espetáculo. 3. ed. São Luís: Comissão Maranhense de Folclore, 2002, p. 12)\n\nTEXTO 2\n\nA ligação feita entre tambor de crioula, santos e entidades foi mencionada em todos os grupos. Alguns afirmaram que a prática do tambor só se justifica se em louvor a São Benedito, ou outro santo festejado. Outros consideravam que o tambor é uma festa, uma diversão, logo a presença do santo só é necessária quando se está pagando promessa. Para alguns, apenas santos católicos. Já outros reverenciam santos, entidades de cultos afro, sobretudo do tambor de mina. Esta última distinção acompanha também a forma de dançar. Muitas coreiras reclamam de companheiras que “dançam tambor de crioula como se estivessem dançando mina”.\n\n(RAMASSOTE, Rodrigo Martins. Dossiê do Registro do tambor de crioula. Iphan, 2006, p. 32)\n\nÉ possível inferir, mediante a leitura dos textos, que o Tambor de Crioula é uma manifestação da cultura",
+      "options": [
+        {
+          "id": "A",
+          "text": "popular maranhense e vinculada a uma religiosidade heterogênea."
+        },
+        {
+          "id": "B",
+          "text": "afrobrasileira e ligada a terreiros fundados por grupos de origem jeje-nagô."
+        },
+        {
+          "id": "C",
+          "text": "colonial brasileira com predominância de santos católicos mais populares."
+        },
+        {
+          "id": "D",
+          "text": "nordestina e predominância em áreas que desenvolveram a escravidão."
+        },
+        {
+          "id": "E",
+          "text": "africana com a efetiva participação de um grande número elementos iorubás."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O gabarito oficial após a fase recursal da Fundação Sousândrade é A. Fonte: Fundação Sousândrade, Instituto Federal de Educação, Ciência e Tecnologia do Maranhão (IFMA), Concurso Público Magistério do Ensino Básico, Técnico e Tecnológico, Edital nº 01/2025/CC-EBTT, cargo Professor EBTT — Química, Prova 64-A, questão 18. Caderno: https://arquivos.qconcursos.com/prova/arquivo_prova/146152/fundacao-sousandrade-2025-if-ma-if-ma-professor-ebtt-quimica-prova.pdf. Gabarito oficial após fase recursal: https://www.fsaduconcursos.org.br/c/1357/get_doc.php?c=e0dfdd59b7fc77c3073e305814536445988bcdcb&id=17."
     }
   ]
 }
