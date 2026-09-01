@@ -1801,6 +1801,66 @@
       ],
       "correctOptionId": "B",
       "explanation": "O artigo 37 define colocação competitiva como modo de inclusão, e o trabalho com apoio pode realizá-la. Fonte: questão adaptada de Cebraspe; STM; Técnico Judiciário — Área Administrativa, Cargo 9; 2018; item 30; prova https://cdn.cebraspe.org.br/concursos/STM_17_ANALISTA_TECNICO/arquivos/375_STM_CB4_08_SUPER_40.PDF; gabarito definitivo E (errado) em https://cdn.cebraspe.org.br/concursos/STM_17_ANALISTA_TECNICO/arquivos/GAB_DEFINITIVO_375_STM_CB4_08_SUPER_40.PDF; adaptação: item certo ou errado convertido em questão de cinco alternativas, preservando o núcleo sobre colocação competitiva como inclusão, e não discriminação."
+    },
+    {
+      "id": "q8679",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Com relação ao que determina o Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015) sobre a acessibilidade, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) A acessibilidade relaciona-se ao uso autônomo e seguro de espaços, serviços e informações.\n( ) As barreiras atitudinais decorrem de comportamentos que limitam a plena participação da pessoa com deficiência.\n( ) A exigência de acessibilidade é obrigatória para espaços públicos e facultativa, para os privados de uso coletivo.\nAs afirmativas são, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "F – V – F."
+        },
+        {
+          "id": "B",
+          "text": "F – V – V."
+        },
+        {
+          "id": "C",
+          "text": "V – F – F."
+        },
+        {
+          "id": "D",
+          "text": "V – V – F."
+        },
+        {
+          "id": "E",
+          "text": "F – F – V."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A acessibilidade relaciona-se ao uso autônomo e seguro; barreiras atitudinais decorrem de atitudes ou comportamentos que impedem ou prejudicam a participação social em igualdade; e a acessibilidade também alcança espaços privados de uso coletivo, tornando falsa a terceira afirmativa. Fonte: FGV; Assembleia Legislativa do Estado do Rio de Janeiro (ALERJ); Especialista Legislativo — Nível IV — Assistência Social; 2026; questão 80; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns101-especialista-legislativo-nivel-iv-assistencia-social-cns101-tipo-1.pdf; gabarito oficial definitivo D em https://conhecimento.fgv.br/sites/default/files/concursos/especialista-alerj-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q8680",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A Lei Brasileira de Inclusão da Pessoa com Deficiência em relação à Tecnologia Assistiva (TA) garante, à pessoa com deficiência, acesso a produtos, recursos, estratégias, práticas, processos, métodos e serviços de Tecnologia Assistiva que maximizem sua autonomia, mobilidade pessoal e qualidade de vida.\nPara alcançar tal objetivo, o Art. 75 da referida Lei prevê que o poder público desenvolverá plano específico de medidas, a ser renovado em cada período de 4 (quatro) anos, com as seguintes finalidades, entre outras, à exceção de uma, que está errada. Assinale-a.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Desestimular o acesso a crédito especializado, especialmente os com oferta de linhas de crédito subsidiadas, específicas para aquisição de tecnologia assistiva."
+        },
+        {
+          "id": "B",
+          "text": "Agilizar, simplificar e priorizar procedimentos de importação de tecnologia assistiva, especialmente as questões atinentes a procedimentos alfandegários e sanitários."
+        },
+        {
+          "id": "C",
+          "text": "Criar mecanismos de fomento à pesquisa e à produção nacional de tecnologia assistiva, inclusive por meio de concessão de linhas de crédito subsidiado e de parcerias com institutos de pesquisa oficiais."
+        },
+        {
+          "id": "D",
+          "text": "Eliminar ou reduzir a tributação da cadeia produtiva e de importação de tecnologia assistiva."
+        },
+        {
+          "id": "E",
+          "text": "Facilitar e agilizar o processo de inclusão de novos recursos de tecnologia assistiva no rol de produtos distribuídos no âmbito do SUS e por outros órgãos governamentais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 75 determina facilitar o acesso a crédito especializado, inclusive com linhas subsidiadas, e não desestimulá-lo. As demais alternativas reproduzem finalidades previstas para o plano de tecnologia assistiva. Fonte: FGV; Secretaria Municipal de Educação de Jaboatão dos Guararapes/PE; Professor I — Brailista; 2023; questão 49; prova https://conhecimento.fgv.br/sites/default/files/concursos/cnm102-professor-1-brailistacnm102-tipo-1_1.pdf; gabarito oficial definitivo A em https://conhecimento.fgv.br/sites/default/files/concursos/prefeitura-jaboatao-gabarito-definitivo.pdf."
     }
   ]
 }
