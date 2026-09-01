@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q7239",
@@ -1801,6 +1801,66 @@
       ],
       "correctOptionId": "D",
       "explanation": "A incorporação foi processo político e militar: Jenipapo teve vitória tática portuguesa, a campanha avançou pelo interior e Cochrane pressionou uma capital já isolada."
+    },
+    {
+      "id": "qU076R01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Leia o trecho a seguir.\nEm 31 de março de 1823, o Juiz de Fora de Parnaíba, João Cândido de Deus e Silva, escreve da Vila da Granja ao Ilustríssimo Ministro e Secretário de Estado dos Negócios do Império, referindo-se ao ofício anterior no qual informara sobre a ocupação da Vila de Parnaíba. Nessa comunicação, relatava que o Governo Português ali permaneceu até o dia 1º de março, quando abandonou a vila para marchar em direção à cidade de Oeiras, que, em 24 de janeiro, na ausência do referido governador, proclamara, de forma gloriosa, sua adesão ao sistema brasileiro, hasteando o pavilhão da independência.\nAdaptado de: Informes do acontecido na edição de 21 de julho de 1823 no Jornal Diário do Governo.\nCom base na leitura do trecho, assinale a opção que apresenta corretamente os fatores que motivaram o início da Batalha de Jenipapo.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A batalha ocorreu devido ao abandono político sofrido pela província do Piauí por parte do governo português, levando a população a reivindicar o retorno de D. João VI ao Brasil."
+        },
+        {
+          "id": "B",
+          "text": "O conflito civil surgiu pelo medo da elite piauiense de perder privilégios com a independência do Brasil, o que a fez se opor à população da província que era favorável à emancipação."
+        },
+        {
+          "id": "C",
+          "text": "A batalha foi resultado da resistência das populações locais às forças portuguesas, após as vilas do Piauí se declararem a favor da independência."
+        },
+        {
+          "id": "D",
+          "text": "O conflito teve início após Maranhão e Ceará reconhecerem o domínio português, enquanto o Piauí permaneceu como a única província nordestina a rejeitá-lo."
+        },
+        {
+          "id": "E",
+          "text": "A batalha eclodiu devido ao desejo do Piauí de se tornar independente do restante do território brasileiro, alegando que seus recursos eram direcionados a outras províncias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C identifica o encadeamento apresentado no documento: a adesão de vilas piauienses ao sistema brasileiro colocou as populações locais em resistência às forças portuguesas, processo que culminou no confronto do Jenipapo. As demais alternativas atribuem causas ou alinhamentos incompatíveis com o contexto descrito. Fonte: questão oficial; FGV; PC-PI — Perito Médico Legista (Geral), Tipo 2; 2026; questão 23; https://conhecimento.fgv.br/sites/default/files/concursos/perito-medico-legista-geral-cns210-tipo-2.pdf."
+    },
+    {
+      "id": "qU076R02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "“O enfrentamento do Jenipapo ocorreu no dia 13 de março de 1823; é relativamente farta a crônica documentada pela escrita de autovencedores, para quem, preso e deportado o governador Fidié, a província estaria pacificada, voltando os combates do povo aos campos de lavrar e criar — porque política é coisa de branco”.\nFonte: SANTOS NETO, Antonio Fonseca dos. Jenipapo: riacho irrigado com os sonhos da esperança. Piauí: CCOM, 2010, p. 54\nEm 2022, intelectuais e estudantes brasileiros voltaram sua atenção para uma reflexão a respeito dos 200 anos da independência política do Brasil, oportunidade em que opiniões, posturas e decisões a respeito dessa experiência histórica nacional e local, assim como sugere o texto acima, foram expostas, permitindo compreender que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "como pensara Monsenhor Chaves, as elites parnaibanas não sabiam bem o que desejavam no 19 de outubro de 1822, considerando a situação de isolamento em que a província se encontrava em relação ao restante do Brasil."
+        },
+        {
+          "id": "B",
+          "text": "foi fortalecida a versão segundo a qual a emancipação política do Brasil, contrariamente ao que ocorrera na América Central, foi realizada sem a participação efetiva de populares, um movimento pacífico entre os interesses dos grupos sociais envolvidos."
+        },
+        {
+          "id": "C",
+          "text": "no Norte do Brasil, e no Piauí em particular, as forças políticas majoritárias apresentaram-se coesas desde a Proclamação da Independência, em torno da decisão de manter-se a favor de um processo de ruptura política entre Brasil e Portugal."
+        },
+        {
+          "id": "D",
+          "text": "mesmo não sendo possível defender um sentimento de nação e patriotismo brasileiro para a participação popular nas lutas pela independência, a historiografia recente discute a tese de que se formou, naquela ocasião, um grito de liberdade contra um sistema de exploração e violência que se apresentava além da relação política do Brasil com Portugal."
+        },
+        {
+          "id": "E",
+          "text": "a documentação histórica disponível, particularmente nos relatos dos \"autovencedores\", potencializa as implicações sociais e raciais do processo de independência, ao passo que a historiografia atual minimiza a complexidade da participação popular."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alternativa D expressa a interpretação historiográfica proposta: sem projetar um nacionalismo brasileiro já consolidado sobre os combatentes populares, a historiografia recente lê sua participação também como contestação a relações de exploração e violência que ultrapassavam a ruptura formal entre Brasil e Portugal. As demais alternativas apagam a participação popular, supõem coesão inexistente ou invertem o problema dos relatos dos “autovencedores”. Fonte: questão oficial; NUCEPE/UESPI; SEDUC-PI — Professor de História; 2025; questão 31; https://nucepe.uespi.br/consultas/downloads/2025_seduc_edital_40/PROVAS/8.%20Prova%20-%20Professor%20de%20HIST%C3%93RIA.pdf."
     }
   ]
 }
