@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q8259",
@@ -1801,6 +1801,36 @@
       ],
       "correctOptionId": "B",
       "explanation": "A questão original apresentou três afirmativas e o gabarito definitivo foi E, todas corretas. A adaptação preserva o recorte histórico e não transforma a EFC em modo exclusivo. Fonte oficial: FGV; PM-MA; Soldado Combatente; prova aplicada em 2/12/2012; caderno Tipo 1; questão 47; https://conhecimento.fgv.br/sites/default/files/concursos/policia_militar_soldado_combatente_caderno_01.pdf; gabarito definitivo original: E em https://conhecimento.fgv.br/sites/default/files/concursos/segep12_policia_militar_-_soldado_combatente_-_gabaritos_13_01_02.pdf. Adaptação: as três afirmativas foram convertidas em questão de cinco alternativas, preservando o núcleo e a resposta todas corretas."
+    },
+    {
+      "id": "q20012",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O porto de Itaqui é nacionalmente conhecido por ter uma das maiores amplitudes de maré do Brasil. No que se refere à importância do complexo de Itaqui e às suas condições de operação, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Embora haja perspectivas de ampliação, atualmente as atividades no porto de Itaqui se restringem ao embarque de produtos oriundos da agropecuária."
+        },
+        {
+          "id": "B",
+          "text": "A posição geográfica do porto de Itaqui constitui uma desvantagem logística, porque dificulta o escoamento de mercadorias para grandes mercados, como o europeu."
+        },
+        {
+          "id": "C",
+          "text": "Apesar de dinamizar a economia do Maranhão, as atividades do porto de Itaqui geram prejuízo financeiro ao estado."
+        },
+        {
+          "id": "D",
+          "text": "A área de influência econômica do porto de Itaqui se estende para além do estado do Maranhão e integra cadeias produtivas."
+        },
+        {
+          "id": "E",
+          "text": "A falta de integração multimodal, em Itaqui, constitui um fator limitante para as atividades portuárias do estado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O gabarito oficial definitivo do Cebraspe é D: a área de influência econômica do Porto do Itaqui ultrapassa o Maranhão e integra cadeias produtivas. Fonte oficial: Cebraspe, Prefeitura Municipal de São Luís/MA, Professor Nível Superior/PNS-A — Geografia, aplicação em 5/2/2017, questão 62. Prova: https://cdn.cebraspe.org.br/concursos/pref_saoluis_16/arquivos/287_prefsaoluis_007_01.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_007_01.pdf."
     }
   ]
 }
