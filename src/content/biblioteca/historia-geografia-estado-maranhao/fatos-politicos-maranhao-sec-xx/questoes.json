@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q7479",
@@ -1801,6 +1801,36 @@
       ],
       "correctOptionId": "E",
       "explanation": "A interpretação integra rupturas institucionais e permanências políticas sem reduzir o período a continuidade ou mudança absolutas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "prev-nucepe-parnarama-2014-q27",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "“A origem política de José Sarney no Maranhão, está a principio claramente associada à liderança do Senador Vitorino Freire, chefe oligárquico que dominou a política maranhense de 1946 a 1965. O período em que Sarney se insere no grupo vitorinista ocorre durante a gestão do Governador Eugênio Barros (1951-1954)”.\n(MELO, Francivaldo. História do Maranhão. São Luís: Gráfica & Editora Alpha, 2009. p.184).\nO trecho nos leva a concluir que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A trajetória política de José Sarney esta relacionada com os grupos menos favorecidos na política local."
+        },
+        {
+          "id": "B",
+          "text": "Atividade política de José Sarney tem sua gênese na sua relação com grupos tradicionais da oligarquia maranhense."
+        },
+        {
+          "id": "C",
+          "text": "Sua ampla atividade política foi favorecida pela sua oposição ao governo Eugênio de Barros, adversário político de Vitorino Freire, responsável direto pela trajetória inicial de José Sarney na política."
+        },
+        {
+          "id": "D",
+          "text": "O grupo vitorinista apoio José Sarney na eleição para concorrer com Eugênio Barros."
+        },
+        {
+          "id": "E",
+          "text": "A origem política de José Sarney foi favorecida pela oligárquica maranhense e que fazia oposição a Vitorino Freire e apoiava o grupo político de Eugênio Barros."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Gabarito definitivo: B. O item relaciona a gênese da atividade política de José Sarney à sua inserção inicial em grupos tradicionais da oligarquia maranhense, conforme o trecho. Prova: NUCEPE, Concurso Público da Prefeitura Municipal de Parnarama/MA, Professor da Educação Infantil, 2014, questão 27. Fontes oficiais: https://nucepe.uespi.br/consultas/downloads/prova_professor_infantil_parnarama.pdf ; https://nucepe.uespi.br/downloads/gabarito_professor_infantil_parnarama.pdf"
     }
   ]
 }
