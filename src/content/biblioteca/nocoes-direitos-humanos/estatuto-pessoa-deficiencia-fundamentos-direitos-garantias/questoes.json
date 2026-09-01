@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q8559",
@@ -1801,6 +1801,210 @@
       ],
       "correctOptionId": "E",
       "explanation": "O apoio fornece elementos para o exercício da capacidade e não substitui a vontade da pessoa. Fonte: questão adaptada de Cespe/Cebraspe; TRE/PE; Analista Judiciário — Análise de Sistemas; 2017; questão 18; prova https://cdn.cebraspe.org.br/concursos/TRE_PE_16/arquivos/283_TREPE_CG1_01.pdf; gabarito definitivo C em https://www.cespe.unb.br/concursos/TRE_PE_16/arquivos/Gab_Definitivo_283_TREPE_CG1_01.pdf; adaptação: núcleo da alternativa oficial correta atualizado e convertido em questão de cinco alternativas."
+    },
+    {
+      "id": "q-lbi-tjpa-2025-98",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Enquanto o serviço público de saúde tem o dever de assegurar às pessoas com deficiência a remoção de barreiras arquitetônicas e de comunicação conforme determinado pela legislação em vigor, os serviços privados podem adotar critérios próprios para a adaptação de seus espaços.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Os serviços privados de saúde também estão sujeitos aos deveres legais de acessibilidade e remoção de barreiras; não podem afastá-los por critérios próprios. Fonte: Cebraspe; Tribunal de Justiça do Estado do Pará (TJPA); Analista Judiciário — Serviço Social; 2025; item 98; prova https://cdn.cebraspe.org.br/concursos/tj_pa_25_servidor/arquivos/E12A9D602EF5537DCE56A90D81DF389C2B6C007AACF001499A12F69C86114E2C.pdf; gabarito oficial preliminar E em https://cdn.cebraspe.org.br/concursos/tj_pa_25_servidor/arquivos/CD021564F45906B05BA8789C3DE5861E20019B2600248D55B843990176DC5351.pdf, mantido no definitivo porque a relação oficial de alterações do cargo 21 não inclui o item 98: https://cdn.cebraspe.org.br/concursos/tj_pa_25_servidor/arquivos/5E10ADD3DCD4007DF1CFDCC2950380475E1C11ED98E3574F8A3A91CAA6C4EF82.pdf."
+    },
+    {
+      "id": "q-lbi-tjpa-2025-99",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Tanto o direito ao trabalho quanto o direito à educação para a pessoa com deficiência pressupõem articulação intersetorial de políticas públicas.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A articulação intersetorial integra a implementação das políticas públicas de inclusão relacionadas tanto à educação quanto ao trabalho da pessoa com deficiência. Fonte: Cebraspe; Tribunal de Justiça do Estado do Pará (TJPA); Analista Judiciário — Serviço Social; 2025; item 99; prova https://cdn.cebraspe.org.br/concursos/tj_pa_25_servidor/arquivos/E12A9D602EF5537DCE56A90D81DF389C2B6C007AACF001499A12F69C86114E2C.pdf; gabarito oficial preliminar C em https://cdn.cebraspe.org.br/concursos/tj_pa_25_servidor/arquivos/CD021564F45906B05BA8789C3DE5861E20019B2600248D55B843990176DC5351.pdf, mantido no definitivo porque a relação oficial de alterações do cargo 21 não inclui o item 99: https://cdn.cebraspe.org.br/concursos/tj_pa_25_servidor/arquivos/5E10ADD3DCD4007DF1CFDCC2950380475E1C11ED98E3574F8A3A91CAA6C4EF82.pdf."
+    },
+    {
+      "id": "q-lbi-agsus-2025-49",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O Estatuto da Pessoa com Deficiência busca assegurar e promover o exercício dos direitos e das liberdades fundamentais por parte das pessoas com deficiência, visando à sua inclusão social e cidadania. De acordo com a narrativa e considerando as disposições da Lei nº 13.146/2015, analise as afirmativas a seguir: I. A pessoa com deficiência tem direito, em igualdade de oportunidades com as demais pessoas, a condições justas e favoráveis de trabalho, incluindo igual remuneração por trabalho de igual valor. II. É garantida aos trabalhadores com deficiência acessibilidade em cursos de formação e de capacitação. III. As pessoas jurídicas de direito público são obrigadas e as pessoas jurídicas de direito privado têm a faculdade de garantir ambientes de trabalho acessíveis e inclusivos. Nesse cenário, considerando as disposições da Lei nº 13.146/2015, é correto o que se afirma em",
+      "options": [
+        {
+          "id": "A",
+          "text": "I, apenas."
+        },
+        {
+          "id": "B",
+          "text": "II, apenas."
+        },
+        {
+          "id": "C",
+          "text": "III, apenas."
+        },
+        {
+          "id": "D",
+          "text": "I e II, apenas."
+        },
+        {
+          "id": "E",
+          "text": "I, II e III."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As afirmativas I e II estão corretas. A III está errada: a obrigação de garantir ambiente de trabalho acessível e inclusivo alcança pessoas jurídicas de direito público, privado ou de qualquer natureza. Fonte: FGV; Agência Brasileira de Apoio à Gestão do SUS (AgSUS); Analista de Gestão — Advogado; 2025; questão 49 — Tipo 1; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-gestao-advogadocns002-tipo-1.pdf; gabarito definitivo D em https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-agsus.pdf."
+    },
+    {
+      "id": "q-lbi-mpu-2025-69-psicologia",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A psicóloga Ana Maria é deficiente visual e foi fazer compras no intervalo do trabalho, acompanhada da amiga Mariana. Em uma loja no shopping, ao entrar para escolher roupas, a vendedora só se dirigiu à Mariana, não interagindo com Ana Maria, que era a efetiva consumidora naquele momento. De acordo com a Lei nº 13.146/2015 (Estatuto da Pessoa com Deficiência), a conduta da vendedora expressa uma atitude que se caracteriza como barreira:",
+      "options": [
+        {
+          "id": "A",
+          "text": "informacional;"
+        },
+        {
+          "id": "B",
+          "text": "atitudinal;"
+        },
+        {
+          "id": "C",
+          "text": "comunicacional;"
+        },
+        {
+          "id": "D",
+          "text": "tecnológica;"
+        },
+        {
+          "id": "E",
+          "text": "urbanística."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A situação descreve comportamento que impede ou prejudica a participação social da pessoa com deficiência em igualdade de condições, caracterizando barreira atitudinal. Fonte: FGV; Ministério Público da União (MPU); Analista do MPU — Psicologia; 2025; questão 69 — Tipo 1; prova https://conhecimento.fgv.br/sites/default/files/concursos/a30-analista-do-mpu-psicologiaa30-tipo-1.pdf; gabarito definitivo B em https://conhecimento.fgv.br/sites/default/files/concursos/mpu-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q-lbi-mpu-2025-66-servico-social",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A Lei Brasileira de Inclusão da Pessoa com Deficiência propugna que compete ao SUS desenvolver ações destinadas à prevenção de deficiências por causas evitáveis, inclusive por meio de:",
+      "options": [
+        {
+          "id": "A",
+          "text": "interrupção da gestação;"
+        },
+        {
+          "id": "B",
+          "text": "remoção de barreiras;"
+        },
+        {
+          "id": "C",
+          "text": "controle genotípico;"
+        },
+        {
+          "id": "D",
+          "text": "protocolo de procedimentos de avaliação psicossocial inicial;"
+        },
+        {
+          "id": "E",
+          "text": "expansão dos programas de imunização e de triagem neonatal."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Entre as ações do SUS para prevenção de deficiências por causas evitáveis, a LBI inclui a expansão dos programas de imunização e de triagem neonatal. Fonte: FGV; Ministério Público da União (MPU); Analista do MPU — Serviço Social; 2025; questão 66 — Tipo 1; prova https://conhecimento.fgv.br/sites/default/files/concursos/a31-analista-do-mpu-servico-sociala31-tipo-1.pdf; gabarito definitivo E em https://conhecimento.fgv.br/sites/default/files/concursos/mpu-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q-lbi-stj-2024-29",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A Convenção Internacional sobre os Direitos das Pessoas com Deficiência prevê que os Estados-partes têm a obrigação de prover adaptação razoável para que as pessoas com deficiência privadas de sua liberdade façam jus, em igualdade de oportunidades com as demais pessoas, a garantias de acordo com o direito internacional dos direitos humanos e recebam tratamento em conformidade com os objetivos e princípios estabelecidos na citada convenção.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Convenção assegura às pessoas com deficiência privadas de liberdade garantias em igualdade de oportunidades, inclusive com adaptação razoável, conforme o direito internacional dos direitos humanos e os princípios da própria Convenção. Fonte: Cebraspe; Superior Tribunal de Justiça (STJ); conhecimentos básicos para todos os cargos, exceto 1, 3, 18 e 19; 2024; item 29; prova https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/018_STJ_CB1_01.PDF; gabarito definitivo C em https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/GAB_DEFINITIVO_018_STJ_CB1_01.PDF."
+    },
+    {
+      "id": "q-lbi-tjrj-2026-26",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015) instituiu o mecanismo da tomada de decisão apoiada, que consiste em um instrumento processual eficaz para auxiliar e apoiar a pessoa com deficiência a tomar decisões. Sobre esse instrumento, é correto afirmar que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer pessoa pode apresentar denúncia sobre eventual negligência de um apoiador;"
+        },
+        {
+          "id": "B",
+          "text": "a pessoa com deficiência pode selecionar até três pessoas para servirem como apoiadoras;"
+        },
+        {
+          "id": "C",
+          "text": "o Ministério Público pode indicar um indivíduo ou instituição para atuar como apoiador;"
+        },
+        {
+          "id": "D",
+          "text": "a pessoa apoiadora pode colocar fim imediato ao acordo firmado em processo de tomada de decisão apoiada;"
+        },
+        {
+          "id": "E",
+          "text": "prevalecerá, em regra, a opinião da pessoa apoiada em caso de divergência de opiniões entre a pessoa apoiada e um dos apoiadores."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na tomada de decisão apoiada, qualquer pessoa pode apresentar denúncia ao Ministério Público ou ao juiz quando houver negligência, pressão indevida ou inadimplemento das obrigações por apoiador. Fonte: FGV; Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ); Analista Judiciário — Tecnologia da Informação — Analista de Negócios; prova aplicada em 2026 no Concurso Público 2025; questão 26 — Tipo 1; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-judiciario-tecnologia-da-informacao-analista-de-negocios-ns-a11-ananegocios-tipo-1.pdf; gabarito definitivo A em https://conhecimento.fgv.br/sites/default/files/concursos/tjrj-analista-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q-lbi-tjrj-2026-27",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A Convenção Internacional sobre os Direitos das Pessoas com Deficiência foi ratificada pelo Brasil conforme procedimento previsto no Art. 5º, §3º, da Constituição Federal, tendo sido promulgada pelo Decreto nº 6.949/2009. A Convenção reconhece que as difíceis situações enfrentadas por pessoas com deficiência podem ser agravadas por outras formas de discriminação sofridas por grupos marginalizados, razão pela qual contém dispositivo específico para alguns desses grupos, como:",
+      "options": [
+        {
+          "id": "A",
+          "text": "idosos com deficiência;"
+        },
+        {
+          "id": "B",
+          "text": "mulheres com deficiência;"
+        },
+        {
+          "id": "C",
+          "text": "indígenas com deficiência;"
+        },
+        {
+          "id": "D",
+          "text": "transexuais com deficiência;"
+        },
+        {
+          "id": "E",
+          "text": "pessoas negras com deficiência."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Convenção dedica disposição específica às mulheres com deficiência e reconhece sua sujeição a múltiplas formas de discriminação. Fonte: FGV; Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ); Analista Judiciário — Tecnologia da Informação — Analista de Negócios; prova aplicada em 2026 no Concurso Público 2025; questão 27 — Tipo 1; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-judiciario-tecnologia-da-informacao-analista-de-negocios-ns-a11-ananegocios-tipo-1.pdf; gabarito definitivo B em https://conhecimento.fgv.br/sites/default/files/concursos/tjrj-analista-gabarito-definitivo.pdf."
     }
   ]
 }
