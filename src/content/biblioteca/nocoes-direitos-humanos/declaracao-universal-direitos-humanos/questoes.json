@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q8439",
@@ -1801,6 +1801,66 @@
       ],
       "correctOptionId": "E",
       "explanation": "O artigo 19 protege opinião e circulação de informações e ideias por quaisquer meios, sem consideração de fronteiras. Fonte oficial: Cebraspe; Tribunal Regional Federal da 6ª Região (TRF6); 1º concurso público, Edital nº 1 — TRF da 6ª Região, de 10/10/2024; conhecimentos gerais de Técnico Judiciário para os cargos 27 e 28; prova aplicada em 19/01/2025; caderno 034_TRF6_CG6_01; item 31; núcleo: a assertiva negava que a liberdade de expressão protegesse contra inquietação por opiniões e negava o direito de procurar, receber e difundir informações e ideias sem consideração de fronteiras; gabarito oficial definitivo E (Errado). Prova: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_CG6_01.PDF. Gabarito: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/GAB_DEFINITIVO_034_TRF6_CG6_01.PDF. Adaptação: assertiva errada convertida em questão de cinco alternativas, preservando o artigo cobrado."
+    },
+    {
+      "id": "q52209601",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A Declaração Universal de Direitos Humanos de 1948 inova a concepção de direitos humanos porque universaliza os direitos",
+      "options": [
+        {
+          "id": "A",
+          "text": "civis, políticos, econômicos, sociais e culturais, conferindo-lhes paridade hierárquica."
+        },
+        {
+          "id": "B",
+          "text": "enunciados na Declaração francesa de direitos humanos, assegurando globalmente direitos civis e políticos e conferindo-lhes supremacia."
+        },
+        {
+          "id": "C",
+          "text": "enunciados na Declaração do Povo Trabalhador e Explorado, assegurando globalmente direitos econômicos, sociais e culturais, conferindo-lhes supremacia."
+        },
+        {
+          "id": "D",
+          "text": "civis, políticos, econômicos, sociais e culturais, conferindo maior hierarquia aos direitos civis e políticos."
+        },
+        {
+          "id": "E",
+          "text": "enunciados na Declaração americana de direitos humanos, assegurando globalmente direitos de solidariedade e conferindo-lhes supremacia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A DUDH consolida em um mesmo catálogo direitos civis, políticos, econômicos, sociais e culturais sem estabelecer supremacia entre esses grupos. Fonte: Fundação Carlos Chagas (FCC); Defensoria Pública do Estado do Pará (DPE/PA); Defensor Público; 2009; questão 81. Prova: https://jcconcursos.com.br/media/uploads/provas/provas/2009/2099.pdf. Gabarito verificado em base secundária que reproduz o gabarito oficial: https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=214&institute_ids%5B%5D=6675&page=2; a alternativa de paridade hierárquica aparece como B na ordenação da base e como A no caderno original."
+    },
+    {
+      "id": "q52209602",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A Declaração Universal de Direitos Humanos",
+      "options": [
+        {
+          "id": "A",
+          "text": "apresenta força jurídica vinculante, seja por constituir uma interpretação autorizada do artigo 55 da Carta das Nações Unidas, seja por constituir direito costumeiro internacional, conforme sustenta parte considerável da doutrina, consagrando ainda a ideia de que, para ser titular de direitos, basta ser nacional de qualquer Estado."
+        },
+        {
+          "id": "B",
+          "text": "não apresenta qualquer força jurídica vinculante, consagrando a ideia de que, para ser titular de direitos, basta ser nacional de um Estado."
+        },
+        {
+          "id": "C",
+          "text": "apresenta força jurídica vinculante, seja por constituir uma interpretação autorizada do artigo 55 da Carta das Nações Unidas, seja por constituir direito costumeiro internacional, conforme sustenta parte considerável da doutrina, consagrando ainda a ideia de que, para ser titular de direitos, basta ser pessoa."
+        },
+        {
+          "id": "D",
+          "text": "não apresenta qualquer força jurídica vinculante, consagrando a ideia de que, para ser titular de direitos, basta ser nacional de um Estado membro da ONU."
+        },
+        {
+          "id": "E",
+          "text": "apresenta força jurídica vinculante, por constituir uma interpretação autorizada das modernas Declarações de direito, conforme sustenta parte considerável da doutrina, consagrando ainda a ideia de que, para ser titular de direitos, basta ser nacional de um Estado membro da ONU."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa correta combina os fundamentos de força vinculante indicados no próprio item — interpretação autorizada do artigo 55 da Carta da ONU e direito costumeiro internacional, segundo parte considerável da doutrina — com a titularidade dos direitos fundada na condição de pessoa. Fonte: Fundação Carlos Chagas (FCC); Defensoria Pública do Estado do Pará (DPE/PA); Defensor Público; 2009; questão 82. Prova: https://jcconcursos.com.br/media/uploads/provas/provas/2009/2099.pdf. Gabarito verificado em base secundária que reproduz o gabarito oficial: https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=214&institute_ids%5B%5D=6675; a alternativa correta aparece como D na ordenação da base e como C no caderno original. Confirmação independente do gabarito C na ordenação original: https://vlex.com.br/vid/sistema-global-protecao-dos-596673898."
     }
   ]
 }
