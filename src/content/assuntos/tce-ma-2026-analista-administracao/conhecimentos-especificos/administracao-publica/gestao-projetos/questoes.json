@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q684",
@@ -826,6 +826,110 @@
       ],
       "correctOptionId": "e",
       "explanation": "A fórmula distingue as taxonomias: 6ª edição, 49 processos, cinco grupos e dez áreas; 7ª, doze princípios e oito domínios; 8ª, seis princípios, sete domínios e cinco áreas de foco. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q109001",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No gerenciamento de projetos, existem distintas abordagens de desenvolvimento para projetos. Nelas podem ser utilizados diferentes métodos para criar e desenvolver o produto, serviço ou resultado durante o ciclo de vida do projeto.\nAs opções de métodos disponíveis são:",
+      "options": [
+        {"id": "a", "text": "em cascata e preditivos;"},
+        {"id": "b", "text": "XP; Scrum; SAFe; Kanban;"},
+        {"id": "c", "text": "preditivos; iterativos; incrementais; adaptativos; híbridos;"},
+        {"id": "d", "text": "tradicionais e ágeis;"},
+        {"id": "e", "text": "preditivos, iterativos; ágeis, Lean, Scrum."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A alternativa C reúne as abordagens preditiva, iterativa, incremental, adaptativa e híbrida. As demais misturam categorias amplas com métodos, frameworks ou práticas específicas. Fonte: questão oficial; FGV; CVM — Analista CVM — Perfil 5 — Gestão; 2024; questão 27; https://conhecimento.fgv.br/sites/default/files/concursos/tarde-analista-cvm-perfil-5-gestaoperfil-5-tipo-1.pdf."
+    },
+    {
+      "id": "q109002",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Você foi designado para trabalhar na concepção de um projeto inédito na sua empresa, em termos de escopo e de entregas. Para tal, a equipe deve apresentar uma proposta de ciclo de vida do projeto.\nEm relação a esse tema, é correto afirmar que:",
+      "options": [
+        {"id": "a", "text": "ciclo de vida do projeto é a série de fases pelas quais um projeto passa, do início à conclusão. A fase de um projeto é um conjunto de atividades relacionadas de maneira lógica que culmina na conclusão de uma ou mais entregas;"},
+        {"id": "b", "text": "os níveis de custo de mobilização e de desmobilização de recursos para redução de tempo devem ser altos desde o início e se mantêm à medida que o trabalho é executado, só tendo redução na sua fase de finalização;"},
+        {"id": "c", "text": "a definição das fases do ciclo de vida é essencial para o gerenciamento do risco do projeto. As ameaças e oportunidades são menores no início do projeto. Esses fatores aumentam ao longo do ciclo de vida do projeto, à medida que vão surgindo os imprevistos;"},
+        {"id": "d", "text": "a capacidade das partes interessadas para influenciar as características finais do produto do projeto, sem afetar significativamente os custos e o cronograma, é mais baixa no início do projeto e aumenta à medida que ele progride para o seu término, em função dos processos de engajamento das partes nele interessadas;"},
+        {"id": "e", "text": "uma boa definição das fases e do ciclo de vida do projeto é essencial para que o eventual custo das mudanças e correções de erros se mantenha estável ao longo de todo o ciclo."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O ciclo de vida compreende a série de fases do início à conclusão, e cada fase agrupa atividades logicamente relacionadas que culminam em uma ou mais entregas. Fonte: questão oficial; FGV; CVM — Analista CVM — Perfil 5 — Gestão; 2024; questão 30; https://conhecimento.fgv.br/sites/default/files/concursos/tarde-analista-cvm-perfil-5-gestaoperfil-5-tipo-1.pdf."
+    },
+    {
+      "id": "q109003",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Você é gerente de um projeto, que está na fase de estimativa dos custos. Você e sua equipe decidiram pedir que os envolvidos dividissem seus pacotes de trabalho em atividades menores, até obterem um nível de detalhamento que permitisse estimar de forma precisa a atividade. Assim, calculam o custo total do projeto a partir do somatório dos recursos necessários a cada atividade componente dos pacotes de trabalho. Essa técnica ou ferramenta para estimativa dos custos que vocês utilizaram no projeto é conhecida como estimativa",
+      "options": [
+        {"id": "a", "text": "análoga."},
+        {"id": "b", "text": "paramétrica."},
+        {"id": "c", "text": "de três pontos."},
+        {"id": "d", "text": "bottom-up"},
+        {"id": "e", "text": "análise de reserva"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A estimativa bottom-up estima componentes em nível detalhado e agrega seus valores para obter o custo total. Fonte: questão oficial; FGV; Secretaria Municipal de Fazenda de Cuiabá — Auditor Fiscal Tributário da Receita Municipal — Tecnologia da Informação; 2024; questão 22; https://conhecimento.fgv.br/sites/default/files/concursos/smf-cuiaba-area-tecnologia-da-informacao-prova-ii-tarde-tipo-1.pdf."
+    },
+    {
+      "id": "q109004",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O documento do escopo do projeto estabelece entendimento comum entre a equipe, o patrocinador e demais partes interessadas, detalhando requisitos do cliente, principais tarefas a serem executadas, entregas previstas e critérios de aceitação. Esse documento orienta todo o trabalho do projeto e define claramente o que está ou não incluído no escopo.\nConsiderando a estrutura típica do documento de escopo, assinale a opção que corresponde ao elemento destinado a descrever, de forma detalhada, os produtos ou saídas que serão fornecidos ao cliente ao longo do projeto.",
+      "options": [
+        {"id": "a", "text": "As exigências do cliente."},
+        {"id": "b", "text": "O caderno de encargos."},
+        {"id": "c", "text": "As entregas do projeto."},
+        {"id": "d", "text": "Os parâmetros de desempenho."},
+        {"id": "e", "text": "Os procedimentos de teste e inspeção."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "As entregas do projeto descrevem os produtos ou saídas que serão fornecidos ao cliente; os demais itens cumprem funções distintas na definição e no controle do escopo. Fonte: questão oficial; FGV; AMAZUL — Analista de Negócios; 2026; questão 49; https://conhecimento.fgv.br/sites/default/files/concursos/ok-analista-de-negocios-cnsa105-tipo-1.pdf."
+    },
+    {
+      "id": "q109005",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A identificação e o gerenciamento de stakeholders são etapas essenciais no início de qualquer projeto, permitindo mapear indivíduos e grupos que podem influenciar ou ser afetados pelos resultados. Para orientar esse processo, o gerente de projetos utiliza ferramentas que consolidam informações sobre interesses, expectativas, potenciais impactos e formas de comunicação com cada interessado.\nConsiderando as práticas recomendadas para o gerenciamento de stakeholders, assinale a opção que corresponde ao documento destinado a registrar informações relevantes sobre cada parte interessada identificada ao longo do projeto.",
+      "options": [
+        {"id": "a", "text": "Estrutura analítica do projeto."},
+        {"id": "b", "text": "Registro de partes interessadas."},
+        {"id": "c", "text": "Termo de abertura do projeto."},
+        {"id": "d", "text": "Matriz de categorização situacional."},
+        {"id": "e", "text": "Plano de gerenciamento de comunicação."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O registro de partes interessadas consolida as informações relevantes sobre os stakeholders identificados e subsidia seu gerenciamento ao longo do projeto. Fonte: questão oficial; FGV; AMAZUL — Analista de Negócios; 2026; questão 50; https://conhecimento.fgv.br/sites/default/files/concursos/ok-analista-de-negocios-cnsa105-tipo-1.pdf."
+    },
+    {
+      "id": "q109006",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A gestão de riscos em projetos envolve identificar eventos que possam comprometer o alcance dos objetivos, avaliando sua probabilidade e impacto, e definindo respostas adequadas para minimizá-los. Entre as abordagens recomendadas está a classificação dos riscos em categorias, o que facilita a análise sistemática das fontes potenciais de incerteza.\nConsiderando as categorias de riscos apresentadas na literatura de gestão de projetos, assinale a alternativa que exemplifica corretamente um risco de natureza externa.",
+      "options": [
+        {"id": "a", "text": "Dificuldade de cumprir requisitos técnicos definidos pelo cliente."},
+        {"id": "b", "text": "Indisponibilidade temporária de membros essenciais da equipe."},
+        {"id": "c", "text": "Aumento inesperado no consumo de recursos de software interno."},
+        {"id": "d", "text": "Retrabalho decorrente de falhas na definição dos critérios de aceitação."},
+        {"id": "e", "text": "Mudanças nas regulamentações governamentais que afetam o projeto."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Mudanças em regulamentações governamentais têm origem fora da organização e constituem exemplo de risco externo; as demais situações decorrem de fatores técnicos, de equipe ou internos ao projeto. Fonte: questão oficial; FGV; AMAZUL — Analista de Negócios; 2026; questão 51; https://conhecimento.fgv.br/sites/default/files/concursos/ok-analista-de-negocios-cnsa105-tipo-1.pdf."
+    },
+    {
+      "id": "q109007",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Os Escritórios de Gerenciamento de Projetos (EGPs), estruturas fundamentais nas organizações, foram instituídos com o objetivo de facilitar o gerenciamento eficaz de projetos. Conforme previsto no Guia PMBOK (6ª ed.), principal referencial da área, essas estruturas podem ser de diferentes tipos, variando conforme o papel designado pela organização, em função de suas necessidades.\nCom relação aos tipos possíveis de escritórios de projetos e respectivas atribuições, assinale a afirmativa correta.",
+      "options": [
+        {"id": "a", "text": "Os EGPs de Controle fornecem papel consultivo nos projetos, atuando como meros repositórios de informações acerca da metodologia gerenciamento."},
+        {"id": "b", "text": "Os EGPs de Suporte exigem conformidade dos projetos, por meio da imposição do uso de ferramentas e estruturas específicas."},
+        {"id": "c", "text": "Os EGPs Diretivos assumem a autoridade integral dos projetos, sendo responsáveis pela designação e supervisão dos gerentes de projeto."},
+        {"id": "d", "text": "Os EGPs de Matriz estabelecem uma autoridade dual nos projetos, em que os participantes do projeto respondem a uma gerência funcional e outra de conformidade."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Na classificação cobrada, o EGP diretivo exerce alto grau de controle e assume a gestão direta dos projetos; as descrições de suporte e controle nas alternativas A e B estão invertidas. Fonte: questão oficial; FGV; Controladoria-Geral do Município de Belo Horizonte — Auditor Interno — Administração; 2024; questão 73; https://conhecimento.fgv.br/sites/default/files/concursos/auditor-interno-administracaocns101-tipo-1.pdf."
     }
   ]
 }
