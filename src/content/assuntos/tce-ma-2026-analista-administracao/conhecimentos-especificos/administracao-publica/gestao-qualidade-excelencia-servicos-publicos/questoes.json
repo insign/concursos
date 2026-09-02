@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q634",
@@ -8,26 +8,11 @@
       "origin": "authorial",
       "prompt": "Um órgão reduziu o tempo médio de atendimento, mas passou a excluir usuários sem acesso digital e aumentou o retrabalho. Qual conclusão é adequada?",
       "options": [
-        {
-          "id": "a",
-          "text": "A redução do tempo, isoladamente, não comprova qualidade pública; é necessário considerar erros, equidade, acessibilidade e resultado."
-        },
-        {
-          "id": "b",
-          "text": "A redução do tempo prova excelência porque eficiência é o único critério público."
-        },
-        {
-          "id": "c",
-          "text": "A exclusão digital é irrelevante se a maioria dos usuários estiver satisfeita."
-        },
-        {
-          "id": "d",
-          "text": "O aumento do retrabalho confirma que o processo ficou mais produtivo."
-        },
-        {
-          "id": "e",
-          "text": "Qualidade pública depende apenas da conformidade do documento final."
-        }
+        {"id": "a", "text": "A redução do tempo, isoladamente, não comprova qualidade pública; é necessário considerar erros, equidade, acessibilidade e resultado."},
+        {"id": "b", "text": "A redução do tempo prova excelência porque eficiência é o único critério público."},
+        {"id": "c", "text": "A exclusão digital é irrelevante se a maioria dos usuários estiver satisfeita."},
+        {"id": "d", "text": "O aumento do retrabalho confirma que o processo ficou mais produtivo."},
+        {"id": "e", "text": "Qualidade pública depende apenas da conformidade do documento final."}
       ],
       "correctOptionId": "a",
       "explanation": "Qualidade pública combina eficiência com conformidade, equidade, acessibilidade, direitos e resultados. Um ganho local pode ser anulado por erro ou exclusão. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -38,26 +23,11 @@
       "origin": "authorial",
       "prompt": "Em uma abordagem centrada em inspeção, a principal ação ocorre quando?",
       "options": [
-        {
-          "id": "a",
-          "text": "Antes do desenho do processo, para eliminar toda incerteza."
-        },
-        {
-          "id": "b",
-          "text": "Depois da execução, para detectar defeitos ou não conformidades no resultado."
-        },
-        {
-          "id": "c",
-          "text": "Durante o planejamento estratégico, sem examinar entregas."
-        },
-        {
-          "id": "d",
-          "text": "Somente após auditoria externa de certificação."
-        },
-        {
-          "id": "e",
-          "text": "Exclusivamente na pesquisa de satisfação do usuário."
-        }
+        {"id": "a", "text": "Antes do desenho do processo, para eliminar toda incerteza."},
+        {"id": "b", "text": "Depois da execução, para detectar defeitos ou não conformidades no resultado."},
+        {"id": "c", "text": "Durante o planejamento estratégico, sem examinar entregas."},
+        {"id": "d", "text": "Somente após auditoria externa de certificação."},
+        {"id": "e", "text": "Exclusivamente na pesquisa de satisfação do usuário."}
       ],
       "correctOptionId": "b",
       "explanation": "A inspeção detecta problemas no produto ou serviço concluído; é útil, mas tardia e insuficiente para eliminar causas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -68,26 +38,11 @@
       "origin": "authorial",
       "prompt": "Qual alternativa caracteriza a Gestão da Qualidade Total?",
       "options": [
-        {
-          "id": "a",
-          "text": "Qualidade restrita ao setor de inspeção."
-        },
-        {
-          "id": "b",
-          "text": "Ênfase exclusiva em corrigir falhas após a entrega."
-        },
-        {
-          "id": "c",
-          "text": "Qualidade como responsabilidade de toda a organização, com foco no usuário, processos, prevenção e melhoria contínua."
-        },
-        {
-          "id": "d",
-          "text": "Substituição de dados por percepções da liderança."
-        },
-        {
-          "id": "e",
-          "text": "Eliminação de padrões para favorecer flexibilidade."
-        }
+        {"id": "a", "text": "Qualidade restrita ao setor de inspeção."},
+        {"id": "b", "text": "Ênfase exclusiva em corrigir falhas após a entrega."},
+        {"id": "c", "text": "Qualidade como responsabilidade de toda a organização, com foco no usuário, processos, prevenção e melhoria contínua."},
+        {"id": "d", "text": "Substituição de dados por percepções da liderança."},
+        {"id": "e", "text": "Eliminação de padrões para favorecer flexibilidade."}
       ],
       "correctOptionId": "c",
       "explanation": "A qualidade total amplia a responsabilidade para toda a organização e integra prevenção, processos, pessoas e melhoria. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -98,26 +53,11 @@
       "origin": "authorial",
       "prompt": "Uma equipe pretende distinguir variação inerente ao sistema de eventos identificáveis e acompanhar o processo ao longo do tempo. Qual contribuição clássica é mais diretamente aplicável?",
       "options": [
-        {
-          "id": "a",
-          "text": "Juran: zero defeitos e preço da não conformidade."
-        },
-        {
-          "id": "b",
-          "text": "Crosby: função perda e projeto robusto."
-        },
-        {
-          "id": "c",
-          "text": "Ishikawa: requisitos certificáveis da ISO 9001."
-        },
-        {
-          "id": "d",
-          "text": "Shewhart: causas comuns e especiais e cartas de controle."
-        },
-        {
-          "id": "e",
-          "text": "Feigenbaum: cinco lacunas do SERVQUAL."
-        }
+        {"id": "a", "text": "Juran: zero defeitos e preço da não conformidade."},
+        {"id": "b", "text": "Crosby: função perda e projeto robusto."},
+        {"id": "c", "text": "Ishikawa: requisitos certificáveis da ISO 9001."},
+        {"id": "d", "text": "Shewhart: causas comuns e especiais e cartas de controle."},
+        {"id": "e", "text": "Feigenbaum: cinco lacunas do SERVQUAL."}
       ],
       "correctOptionId": "d",
       "explanation": "Shewhart fundamentou o controle estatístico e as cartas de controle, distinguindo causas comuns e especiais. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -128,26 +68,11 @@
       "origin": "authorial",
       "prompt": "Qual prática é compatível com a filosofia de Deming?",
       "options": [
-        {
-          "id": "a",
-          "text": "Ampliar quotas numéricas sem analisar o processo."
-        },
-        {
-          "id": "b",
-          "text": "Estimular medo para impedir relatos de falha."
-        },
-        {
-          "id": "c",
-          "text": "Separar rigidamente as áreas para evitar interferência."
-        },
-        {
-          "id": "d",
-          "text": "Transferir toda responsabilidade da qualidade para a inspeção."
-        },
-        {
-          "id": "e",
-          "text": "Melhorar o sistema, desenvolver liderança, treinar pessoas e reduzir a dependência de inspeção em massa."
-        }
+        {"id": "a", "text": "Ampliar quotas numéricas sem analisar o processo."},
+        {"id": "b", "text": "Estimular medo para impedir relatos de falha."},
+        {"id": "c", "text": "Separar rigidamente as áreas para evitar interferência."},
+        {"id": "d", "text": "Transferir toda responsabilidade da qualidade para a inspeção."},
+        {"id": "e", "text": "Melhorar o sistema, desenvolver liderança, treinar pessoas e reduzir a dependência de inspeção em massa."}
       ],
       "correctOptionId": "e",
       "explanation": "Deming enfatiza sistema, aprendizagem, liderança e cooperação, e critica medo, slogans, quotas isoladas e inspeção em massa. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -158,26 +83,11 @@
       "origin": "authorial",
       "prompt": "A Trilogia de Juran compreende:",
       "options": [
-        {
-          "id": "a",
-          "text": "planejamento, controle e melhoria da qualidade."
-        },
-        {
-          "id": "b",
-          "text": "inspeção, certificação e terceirização."
-        },
-        {
-          "id": "c",
-          "text": "definir, medir e controlar, apenas."
-        },
-        {
-          "id": "d",
-          "text": "utilização, ordenação e limpeza."
-        },
-        {
-          "id": "e",
-          "text": "confiabilidade, empatia e tangibilidade."
-        }
+        {"id": "a", "text": "planejamento, controle e melhoria da qualidade."},
+        {"id": "b", "text": "inspeção, certificação e terceirização."},
+        {"id": "c", "text": "definir, medir e controlar, apenas."},
+        {"id": "d", "text": "utilização, ordenação e limpeza."},
+        {"id": "e", "text": "confiabilidade, empatia e tangibilidade."}
       ],
       "correctOptionId": "a",
       "explanation": "A trilogia de Juran reúne planejamento da qualidade, controle da qualidade e melhoria da qualidade. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -188,26 +98,11 @@
       "origin": "authorial",
       "prompt": "Em Crosby, a formulação mais adequada é:",
       "options": [
-        {
-          "id": "a",
-          "text": "qualidade como afastamento deliberado do requisito."
-        },
-        {
-          "id": "b",
-          "text": "qualidade como conformidade aos requisitos, com prevenção e zero defeitos como padrão de desempenho."
-        },
-        {
-          "id": "c",
-          "text": "qualidade medida apenas pela satisfação subjetiva."
-        },
-        {
-          "id": "d",
-          "text": "zero defeitos como afirmação de que riscos não existem."
-        },
-        {
-          "id": "e",
-          "text": "inspeção final como único mecanismo de qualidade."
-        }
+        {"id": "a", "text": "qualidade como afastamento deliberado do requisito."},
+        {"id": "b", "text": "qualidade como conformidade aos requisitos, com prevenção e zero defeitos como padrão de desempenho."},
+        {"id": "c", "text": "qualidade medida apenas pela satisfação subjetiva."},
+        {"id": "d", "text": "zero defeitos como afirmação de que riscos não existem."},
+        {"id": "e", "text": "inspeção final como único mecanismo de qualidade."}
       ],
       "correctOptionId": "b",
       "explanation": "Crosby associa qualidade à conformidade, prevenção e preço da não conformidade. Zero defeitos é orientação, não negação de risco. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -218,26 +113,11 @@
       "origin": "authorial",
       "prompt": "O diagrama de Ishikawa é usado principalmente para:",
       "options": [
-        {
-          "id": "a",
-          "text": "calcular limites de especificação."
-        },
-        {
-          "id": "b",
-          "text": "ordenar frequências em barras decrescentes."
-        },
-        {
-          "id": "c",
-          "text": "organizar hipóteses de causas de um efeito, sem comprovar causalidade por si só."
-        },
-        {
-          "id": "d",
-          "text": "mostrar a distribuição temporal do cronograma."
-        },
-        {
-          "id": "e",
-          "text": "certificar um sistema de gestão."
-        }
+        {"id": "a", "text": "calcular limites de especificação."},
+        {"id": "b", "text": "ordenar frequências em barras decrescentes."},
+        {"id": "c", "text": "organizar hipóteses de causas de um efeito, sem comprovar causalidade por si só."},
+        {"id": "d", "text": "mostrar a distribuição temporal do cronograma."},
+        {"id": "e", "text": "certificar um sistema de gestão."}
       ],
       "correctOptionId": "c",
       "explanation": "O diagrama causa e efeito estrutura hipóteses, que ainda precisam ser verificadas com evidências. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -248,26 +128,11 @@
       "origin": "authorial",
       "prompt": "A contribuição de Feigenbaum está associada a:",
       "options": [
-        {
-          "id": "a",
-          "text": "cinco sensos de organização do ambiente."
-        },
-        {
-          "id": "b",
-          "text": "modelo de lacunas em serviços."
-        },
-        {
-          "id": "c",
-          "text": "norma ISO 9000:2026."
-        },
-        {
-          "id": "d",
-          "text": "controle da qualidade total e responsabilidade integrada das áreas."
-        },
-        {
-          "id": "e",
-          "text": "apenas controle estatístico do operador."
-        }
+        {"id": "a", "text": "cinco sensos de organização do ambiente."},
+        {"id": "b", "text": "modelo de lacunas em serviços."},
+        {"id": "c", "text": "norma ISO 9000:2026."},
+        {"id": "d", "text": "controle da qualidade total e responsabilidade integrada das áreas."},
+        {"id": "e", "text": "apenas controle estatístico do operador."}
       ],
       "correctOptionId": "d",
       "explanation": "Feigenbaum difundiu o controle da qualidade total e a visão de responsabilidade organizacional ampla. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -278,26 +143,11 @@
       "origin": "authorial",
       "prompt": "Segundo Taguchi, qual afirmação é adequada?",
       "options": [
-        {
-          "id": "a",
-          "text": "Todo resultado dentro da tolerância possui qualidade idêntica."
-        },
-        {
-          "id": "b",
-          "text": "Robustez significa aumentar a sensibilidade a ruídos."
-        },
-        {
-          "id": "c",
-          "text": "A qualidade só pode ser verificada após a entrega."
-        },
-        {
-          "id": "d",
-          "text": "Função perda é sinônimo de gráfico de Pareto."
-        },
-        {
-          "id": "e",
-          "text": "O afastamento do valor-alvo pode gerar perda social mesmo quando o resultado ainda está dentro da especificação."
-        }
+        {"id": "a", "text": "Todo resultado dentro da tolerância possui qualidade idêntica."},
+        {"id": "b", "text": "Robustez significa aumentar a sensibilidade a ruídos."},
+        {"id": "c", "text": "A qualidade só pode ser verificada após a entrega."},
+        {"id": "d", "text": "Função perda é sinônimo de gráfico de Pareto."},
+        {"id": "e", "text": "O afastamento do valor-alvo pode gerar perda social mesmo quando o resultado ainda está dentro da especificação."}
       ],
       "correctOptionId": "e",
       "explanation": "Taguchi relaciona qualidade a robustez e função perda, que cresce com o desvio do alvo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -308,26 +158,11 @@
       "origin": "authorial",
       "prompt": "Qual conjunto pertence às dimensões de Garvin para produtos?",
       "options": [
-        {
-          "id": "a",
-          "text": "desempenho, confiabilidade, conformidade, durabilidade e qualidade percebida."
-        },
-        {
-          "id": "b",
-          "text": "empatia, segurança, responsividade, lacuna e blueprint."
-        },
-        {
-          "id": "c",
-          "text": "planejamento, controle, melhoria, prevenção e inspeção."
-        },
-        {
-          "id": "d",
-          "text": "utilização, ordenação, limpeza, saúde e disciplina."
-        },
-        {
-          "id": "e",
-          "text": "legalidade, publicidade, moralidade, eficiência e impessoalidade."
-        }
+        {"id": "a", "text": "desempenho, confiabilidade, conformidade, durabilidade e qualidade percebida."},
+        {"id": "b", "text": "empatia, segurança, responsividade, lacuna e blueprint."},
+        {"id": "c", "text": "planejamento, controle, melhoria, prevenção e inspeção."},
+        {"id": "d", "text": "utilização, ordenação, limpeza, saúde e disciplina."},
+        {"id": "e", "text": "legalidade, publicidade, moralidade, eficiência e impessoalidade."}
       ],
       "correctOptionId": "a",
       "explanation": "Garvin propôs oito dimensões, entre elas desempenho, características, confiabilidade, conformidade, durabilidade, atendimento, estética e qualidade percebida. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -338,26 +173,11 @@
       "origin": "authorial",
       "prompt": "Em 18 de julho de 2026, qual descrição normativa está correta?",
       "options": [
-        {
-          "id": "a",
-          "text": "A ISO 9001:2026 já revogou a edição de 2015 em maio de 2026."
-        },
-        {
-          "id": "b",
-          "text": "A ISO 9000:2026 está publicada; a ISO 9001:2015 com a Emenda 1:2024 permanece a edição publicada de requisitos, e a ISO 9001:2026 está em publicação."
-        },
-        {
-          "id": "c",
-          "text": "A ISO 9000:2015 continua sendo a edição vigente de fundamentos."
-        },
-        {
-          "id": "d",
-          "text": "A ISO 9000:2026 contém os requisitos usados para certificação."
-        },
-        {
-          "id": "e",
-          "text": "ISO 9000 e ISO 9001 são o mesmo documento."
-        }
+        {"id": "a", "text": "A ISO 9001:2026 já revogou a edição de 2015 em maio de 2026."},
+        {"id": "b", "text": "A ISO 9000:2026 está publicada; a ISO 9001:2015 com a Emenda 1:2024 permanece a edição publicada de requisitos, e a ISO 9001:2026 está em publicação."},
+        {"id": "c", "text": "A ISO 9000:2015 continua sendo a edição vigente de fundamentos."},
+        {"id": "d", "text": "A ISO 9000:2026 contém os requisitos usados para certificação."},
+        {"id": "e", "text": "ISO 9000 e ISO 9001 são o mesmo documento."}
       ],
       "correctOptionId": "b",
       "explanation": "A ISO 9000:2026 foi publicada em maio; a nova ISO 9001 estava prevista para setembro de 2026. Fonte: páginas oficiais da ISO consultadas em 18 jul. 2026."
@@ -368,26 +188,11 @@
       "origin": "authorial",
       "prompt": "Qual alternativa apresenta somente princípios de gestão da qualidade?",
       "options": [
-        {
-          "id": "a",
-          "text": "inspeção, punição, quotas, slogans, competição interna e sigilo."
-        },
-        {
-          "id": "b",
-          "text": "planejamento, organização, direção, controle, comando, previsão e centralização."
-        },
-        {
-          "id": "c",
-          "text": "foco no usuário, liderança, engajamento das pessoas, abordagem de processo, melhoria, decisão baseada em evidência e gestão de relacionamentos."
-        },
-        {
-          "id": "d",
-          "text": "utilização, ordenação, limpeza, saúde, disciplina, empatia e garantia."
-        },
-        {
-          "id": "e",
-          "text": "legalidade, lucro, publicidade, estética, durabilidade, certificação e auditoria."
-        }
+        {"id": "a", "text": "inspeção, punição, quotas, slogans, competição interna e sigilo."},
+        {"id": "b", "text": "planejamento, organização, direção, controle, comando, previsão e centralização."},
+        {"id": "c", "text": "foco no usuário, liderança, engajamento das pessoas, abordagem de processo, melhoria, decisão baseada em evidência e gestão de relacionamentos."},
+        {"id": "d", "text": "utilização, ordenação, limpeza, saúde, disciplina, empatia e garantia."},
+        {"id": "e", "text": "legalidade, lucro, publicidade, estética, durabilidade, certificação e auditoria."}
       ],
       "correctOptionId": "c",
       "explanation": "A ISO apresenta sete princípios interdependentes, sem ordem universal rígida. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -398,26 +203,11 @@
       "origin": "authorial",
       "prompt": "Na abordagem de processo, o que deve ser analisado?",
       "options": [
-        {
-          "id": "a",
-          "text": "somente a produtividade de cada departamento."
-        },
-        {
-          "id": "b",
-          "text": "apenas o organograma formal."
-        },
-        {
-          "id": "c",
-          "text": "exclusivamente a satisfação da chefia."
-        },
-        {
-          "id": "d",
-          "text": "entradas, saídas, sequência, interações, responsabilidades, recursos, riscos, critérios e indicadores."
-        },
-        {
-          "id": "e",
-          "text": "somente a etapa final do serviço."
-        }
+        {"id": "a", "text": "somente a produtividade de cada departamento."},
+        {"id": "b", "text": "apenas o organograma formal."},
+        {"id": "c", "text": "exclusivamente a satisfação da chefia."},
+        {"id": "d", "text": "entradas, saídas, sequência, interações, responsabilidades, recursos, riscos, critérios e indicadores."},
+        {"id": "e", "text": "somente a etapa final do serviço."}
       ],
       "correctOptionId": "d",
       "explanation": "A abordagem de processo considera o fluxo e suas interações, evitando otimização local prejudicial. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -428,26 +218,11 @@
       "origin": "authorial",
       "prompt": "O pensamento baseado em riscos é aplicado corretamente quando a organização:",
       "options": [
-        {
-          "id": "a",
-          "text": "preenche uma planilha anual sem usar seus resultados."
-        },
-        {
-          "id": "b",
-          "text": "elimina toda incerteza antes de executar."
-        },
-        {
-          "id": "c",
-          "text": "substitui indicadores por opinião."
-        },
-        {
-          "id": "d",
-          "text": "trata apenas riscos já materializados."
-        },
-        {
-          "id": "e",
-          "text": "incorpora riscos e oportunidades ao planejamento, à operação, à avaliação e à melhoria."
-        }
+        {"id": "a", "text": "preenche uma planilha anual sem usar seus resultados."},
+        {"id": "b", "text": "elimina toda incerteza antes de executar."},
+        {"id": "c", "text": "substitui indicadores por opinião."},
+        {"id": "d", "text": "trata apenas riscos já materializados."},
+        {"id": "e", "text": "incorpora riscos e oportunidades ao planejamento, à operação, à avaliação e à melhoria."}
       ],
       "correctOptionId": "e",
       "explanation": "Risco deve influenciar decisões e controles, não ser um registro isolado. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -458,26 +233,11 @@
       "origin": "authorial",
       "prompt": "Após emitir uma certidão com dado incorreto, o órgão reenviou a versão correta e alterou a validação do sistema que permitira o erro. As duas ações são, respectivamente:",
       "options": [
-        {
-          "id": "a",
-          "text": "correção e ação corretiva."
-        },
-        {
-          "id": "b",
-          "text": "ação corretiva e auditoria."
-        },
-        {
-          "id": "c",
-          "text": "prevenção e inspeção."
-        },
-        {
-          "id": "d",
-          "text": "correção e causa comum."
-        },
-        {
-          "id": "e",
-          "text": "avaliação e falha externa."
-        }
+        {"id": "a", "text": "correção e ação corretiva."},
+        {"id": "b", "text": "ação corretiva e auditoria."},
+        {"id": "c", "text": "prevenção e inspeção."},
+        {"id": "d", "text": "correção e causa comum."},
+        {"id": "e", "text": "avaliação e falha externa."}
       ],
       "correctOptionId": "a",
       "explanation": "Correção trata a falha detectada; ação corretiva elimina sua causa para evitar recorrência. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -488,26 +248,11 @@
       "origin": "authorial",
       "prompt": "No PDCA, a definição do problema, da meta, das causas e do plano ocorre em:",
       "options": [
-        {
-          "id": "a",
-          "text": "Do."
-        },
-        {
-          "id": "b",
-          "text": "Plan."
-        },
-        {
-          "id": "c",
-          "text": "Check."
-        },
-        {
-          "id": "d",
-          "text": "Act."
-        },
-        {
-          "id": "e",
-          "text": "Control."
-        }
+        {"id": "a", "text": "Do."},
+        {"id": "b", "text": "Plan."},
+        {"id": "c", "text": "Check."},
+        {"id": "d", "text": "Act."},
+        {"id": "e", "text": "Control."}
       ],
       "correctOptionId": "b",
       "explanation": "Plan prepara a intervenção; Do executa; Check/Study avalia; Act padroniza ou corrige. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -518,26 +263,11 @@
       "origin": "authorial",
       "prompt": "Uma mudança testada alcançou a meta e demonstrou estabilidade. No PDCA, a decisão de incorporá-la ao padrão pertence a:",
       "options": [
-        {
-          "id": "a",
-          "text": "Plan."
-        },
-        {
-          "id": "b",
-          "text": "Do."
-        },
-        {
-          "id": "c",
-          "text": "Act."
-        },
-        {
-          "id": "d",
-          "text": "Check."
-        },
-        {
-          "id": "e",
-          "text": "Analyze."
-        }
+        {"id": "a", "text": "Plan."},
+        {"id": "b", "text": "Do."},
+        {"id": "c", "text": "Act."},
+        {"id": "d", "text": "Check."},
+        {"id": "e", "text": "Analyze."}
       ],
       "correctOptionId": "c",
       "explanation": "Act incorpora o aprendizado, padronizando a solução bem-sucedida ou redefinindo o plano. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -548,26 +278,11 @@
       "origin": "authorial",
       "prompt": "Por que Deming preferiu a denominação PDSA?",
       "options": [
-        {
-          "id": "a",
-          "text": "Para excluir planejamento do ciclo."
-        },
-        {
-          "id": "b",
-          "text": "Para substituir dados por intuição."
-        },
-        {
-          "id": "c",
-          "text": "Para transformar o ciclo em sequência sem repetição."
-        },
-        {
-          "id": "d",
-          "text": "Para enfatizar estudo e aprendizagem, e não mera conferência mecânica."
-        },
-        {
-          "id": "e",
-          "text": "Para limitar a melhoria à inspeção."
-        }
+        {"id": "a", "text": "Para excluir planejamento do ciclo."},
+        {"id": "b", "text": "Para substituir dados por intuição."},
+        {"id": "c", "text": "Para transformar o ciclo em sequência sem repetição."},
+        {"id": "d", "text": "Para enfatizar estudo e aprendizagem, e não mera conferência mecânica."},
+        {"id": "e", "text": "Para limitar a melhoria à inspeção."}
       ],
       "correctOptionId": "d",
       "explanation": "O S de Study reforça a interpretação dos resultados e o aprendizado. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -578,26 +293,11 @@
       "origin": "authorial",
       "prompt": "No MASP, qual distinção é adequada?",
       "options": [
-        {
-          "id": "a",
-          "text": "Observação implementa a solução; análise padroniza."
-        },
-        {
-          "id": "b",
-          "text": "Observação encerra o ciclo; análise coleta reclamações."
-        },
-        {
-          "id": "c",
-          "text": "Observação e análise são sinônimos obrigatórios."
-        },
-        {
-          "id": "d",
-          "text": "Análise ocorre somente após a padronização."
-        },
-        {
-          "id": "e",
-          "text": "Observação delimita e estratifica o problema; análise procura suas causas."
-        }
+        {"id": "a", "text": "Observação implementa a solução; análise padroniza."},
+        {"id": "b", "text": "Observação encerra o ciclo; análise coleta reclamações."},
+        {"id": "c", "text": "Observação e análise são sinônimos obrigatórios."},
+        {"id": "d", "text": "Análise ocorre somente após a padronização."},
+        {"id": "e", "text": "Observação delimita e estratifica o problema; análise procura suas causas."}
       ],
       "correctOptionId": "e",
       "explanation": "As etapas cumprem funções distintas: primeiro entender fatos e padrão; depois investigar causas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -608,26 +308,11 @@
       "origin": "authorial",
       "prompt": "No MASP, após verificar que a solução atingiu a meta, a etapa que reduz o risco de retorno do problema é:",
       "options": [
-        {
-          "id": "a",
-          "text": "padronização."
-        },
-        {
-          "id": "b",
-          "text": "identificação."
-        },
-        {
-          "id": "c",
-          "text": "observação."
-        },
-        {
-          "id": "d",
-          "text": "análise."
-        },
-        {
-          "id": "e",
-          "text": "definição."
-        }
+        {"id": "a", "text": "padronização."},
+        {"id": "b", "text": "identificação."},
+        {"id": "c", "text": "observação."},
+        {"id": "d", "text": "análise."},
+        {"id": "e", "text": "definição."}
       ],
       "correctOptionId": "a",
       "explanation": "A padronização incorpora o novo método, documentação, treinamento e controle. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -638,26 +323,11 @@
       "origin": "authorial",
       "prompt": "Para registrar, por dia e tipo, cada erro encontrado em requerimentos, a ferramenta inicial mais adequada é:",
       "options": [
-        {
-          "id": "a",
-          "text": "diagrama de dispersão."
-        },
-        {
-          "id": "b",
-          "text": "folha de verificação."
-        },
-        {
-          "id": "c",
-          "text": "carta de controle."
-        },
-        {
-          "id": "d",
-          "text": "service blueprint."
-        },
-        {
-          "id": "e",
-          "text": "função perda."
-        }
+        {"id": "a", "text": "diagrama de dispersão."},
+        {"id": "b", "text": "folha de verificação."},
+        {"id": "c", "text": "carta de controle."},
+        {"id": "d", "text": "service blueprint."},
+        {"id": "e", "text": "função perda."}
       ],
       "correctOptionId": "b",
       "explanation": "A folha de verificação estrutura a coleta antes das análises posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -668,26 +338,11 @@
       "origin": "authorial",
       "prompt": "Separar reclamações por canal, região e tipo de usuário corresponde a:",
       "options": [
-        {
-          "id": "a",
-          "text": "histograma."
-        },
-        {
-          "id": "b",
-          "text": "ação corretiva."
-        },
-        {
-          "id": "c",
-          "text": "estratificação."
-        },
-        {
-          "id": "d",
-          "text": "certificação."
-        },
-        {
-          "id": "e",
-          "text": "zero defeitos."
-        }
+        {"id": "a", "text": "histograma."},
+        {"id": "b", "text": "ação corretiva."},
+        {"id": "c", "text": "estratificação."},
+        {"id": "d", "text": "certificação."},
+        {"id": "e", "text": "zero defeitos."}
       ],
       "correctOptionId": "c",
       "explanation": "Estratificação divide os dados em categorias relevantes para revelar padrões ocultos na média. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -698,26 +353,11 @@
       "origin": "authorial",
       "prompt": "Qual ferramenta mostra a distribuição de frequências de uma variável contínua em classes?",
       "options": [
-        {
-          "id": "a",
-          "text": "Pareto."
-        },
-        {
-          "id": "b",
-          "text": "Ishikawa."
-        },
-        {
-          "id": "c",
-          "text": "RACI."
-        },
-        {
-          "id": "d",
-          "text": "histograma."
-        },
-        {
-          "id": "e",
-          "text": "blueprint."
-        }
+        {"id": "a", "text": "Pareto."},
+        {"id": "b", "text": "Ishikawa."},
+        {"id": "c", "text": "RACI."},
+        {"id": "d", "text": "histograma."},
+        {"id": "e", "text": "blueprint."}
       ],
       "correctOptionId": "d",
       "explanation": "O histograma revela forma, dispersão e concentração da distribuição. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -728,26 +368,11 @@
       "origin": "authorial",
       "prompt": "Um gráfico ordena causas de reclamação da mais frequente para a menos frequente e apresenta percentual acumulado. Trata-se de:",
       "options": [
-        {
-          "id": "a",
-          "text": "diagrama de dispersão."
-        },
-        {
-          "id": "b",
-          "text": "carta de controle."
-        },
-        {
-          "id": "c",
-          "text": "folha de verificação."
-        },
-        {
-          "id": "d",
-          "text": "matriz de riscos."
-        },
-        {
-          "id": "e",
-          "text": "gráfico de Pareto."
-        }
+        {"id": "a", "text": "diagrama de dispersão."},
+        {"id": "b", "text": "carta de controle."},
+        {"id": "c", "text": "folha de verificação."},
+        {"id": "d", "text": "matriz de riscos."},
+        {"id": "e", "text": "gráfico de Pareto."}
       ],
       "correctOptionId": "e",
       "explanation": "Pareto ajuda a priorizar categorias; a proporção 80/20 não é lei universal nem prova causalidade. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -758,26 +383,11 @@
       "origin": "authorial",
       "prompt": "Em um diagrama de causa e efeito para atraso, “sistema indisponível”, “regra confusa” e “equipe insuficiente” representam:",
       "options": [
-        {
-          "id": "a",
-          "text": "hipóteses de causa que precisam ser verificadas."
-        },
-        {
-          "id": "b",
-          "text": "provas conclusivas de causalidade."
-        },
-        {
-          "id": "c",
-          "text": "limites estatísticos de controle."
-        },
-        {
-          "id": "d",
-          "text": "dimensões do SERVQUAL."
-        },
-        {
-          "id": "e",
-          "text": "custos de avaliação."
-        }
+        {"id": "a", "text": "hipóteses de causa que precisam ser verificadas."},
+        {"id": "b", "text": "provas conclusivas de causalidade."},
+        {"id": "c", "text": "limites estatísticos de controle."},
+        {"id": "d", "text": "dimensões do SERVQUAL."},
+        {"id": "e", "text": "custos de avaliação."}
       ],
       "correctOptionId": "a",
       "explanation": "Ishikawa organiza hipóteses e favorece investigação, mas não demonstra causa sozinho. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -788,26 +398,11 @@
       "origin": "authorial",
       "prompt": "Um diagrama de dispersão mostra associação entre carga de trabalho e tempo de resposta. O que se pode concluir com segurança?",
       "options": [
-        {
-          "id": "a",
-          "text": "A carga de trabalho é necessariamente a única causa."
-        },
-        {
-          "id": "b",
-          "text": "Há indício de associação; causalidade exige investigação adicional."
-        },
-        {
-          "id": "c",
-          "text": "Todo ponto fora da tendência é defeito."
-        },
-        {
-          "id": "d",
-          "text": "O processo é capaz de atender à especificação."
-        },
-        {
-          "id": "e",
-          "text": "A associação dispensa análise do contexto."
-        }
+        {"id": "a", "text": "A carga de trabalho é necessariamente a única causa."},
+        {"id": "b", "text": "Há indício de associação; causalidade exige investigação adicional."},
+        {"id": "c", "text": "Todo ponto fora da tendência é defeito."},
+        {"id": "d", "text": "O processo é capaz de atender à especificação."},
+        {"id": "e", "text": "A associação dispensa análise do contexto."}
       ],
       "correctOptionId": "b",
       "explanation": "Correlação ou associação não comprova causalidade. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -818,26 +413,11 @@
       "origin": "authorial",
       "prompt": "Qual é a finalidade principal de uma carta de controle?",
       "options": [
-        {
-          "id": "a",
-          "text": "definir requisitos legais do serviço."
-        },
-        {
-          "id": "b",
-          "text": "ordenar categorias por frequência."
-        },
-        {
-          "id": "c",
-          "text": "Acompanhar a estabilidade do processo ao longo do tempo e sinalizar causas especiais."
-        },
-        {
-          "id": "d",
-          "text": "desenhar a jornada do usuário."
-        },
-        {
-          "id": "e",
-          "text": "calcular satisfação sem série temporal."
-        }
+        {"id": "a", "text": "definir requisitos legais do serviço."},
+        {"id": "b", "text": "ordenar categorias por frequência."},
+        {"id": "c", "text": "Acompanhar a estabilidade do processo ao longo do tempo e sinalizar causas especiais."},
+        {"id": "d", "text": "desenhar a jornada do usuário."},
+        {"id": "e", "text": "calcular satisfação sem série temporal."}
       ],
       "correctOptionId": "c",
       "explanation": "Cartas de controle usam limites do comportamento do processo, que não são metas nem especificações. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -848,26 +428,11 @@
       "origin": "authorial",
       "prompt": "Uma variação causada por regra inadequada comum a todas as unidades deve ser tratada prioritariamente como:",
       "options": [
-        {
-          "id": "a",
-          "text": "causa especial atribuída ao último servidor."
-        },
-        {
-          "id": "b",
-          "text": "falha externa inevitável."
-        },
-        {
-          "id": "c",
-          "text": "custo de avaliação."
-        },
-        {
-          "id": "d",
-          "text": "causa comum, com melhoria do sistema."
-        },
-        {
-          "id": "e",
-          "text": "evidência de capacidade."
-        }
+        {"id": "a", "text": "causa especial atribuída ao último servidor."},
+        {"id": "b", "text": "falha externa inevitável."},
+        {"id": "c", "text": "custo de avaliação."},
+        {"id": "d", "text": "causa comum, com melhoria do sistema."},
+        {"id": "e", "text": "evidência de capacidade."}
       ],
       "correctOptionId": "d",
       "explanation": "Causas comuns pertencem ao sistema atual e exigem ação gerencial sobre o processo. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -878,26 +443,11 @@
       "origin": "authorial",
       "prompt": "Um processo apresenta comportamento previsível, porém sua média está fora do requisito. Ele é:",
       "options": [
-        {
-          "id": "a",
-          "text": "instável e capaz."
-        },
-        {
-          "id": "b",
-          "text": "estável e necessariamente excelente."
-        },
-        {
-          "id": "c",
-          "text": "capaz porque não há ponto fora do limite."
-        },
-        {
-          "id": "d",
-          "text": "incapaz porque possui causa especial obrigatória."
-        },
-        {
-          "id": "e",
-          "text": "estável, mas incapaz."
-        }
+        {"id": "a", "text": "instável e capaz."},
+        {"id": "b", "text": "estável e necessariamente excelente."},
+        {"id": "c", "text": "capaz porque não há ponto fora do limite."},
+        {"id": "d", "text": "incapaz porque possui causa especial obrigatória."},
+        {"id": "e", "text": "estável, mas incapaz."}
       ],
       "correctOptionId": "e",
       "explanation": "Estabilidade indica previsibilidade; capacidade indica atendimento à especificação. Uma não garante a outra. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -908,26 +458,11 @@
       "origin": "authorial",
       "prompt": "No 5S, separar documentos e objetos necessários dos desnecessários corresponde a:",
       "options": [
-        {
-          "id": "a",
-          "text": "Seiri."
-        },
-        {
-          "id": "b",
-          "text": "Seiton."
-        },
-        {
-          "id": "c",
-          "text": "Seiso."
-        },
-        {
-          "id": "d",
-          "text": "Seiketsu."
-        },
-        {
-          "id": "e",
-          "text": "Shitsuke."
-        }
+        {"id": "a", "text": "Seiri."},
+        {"id": "b", "text": "Seiton."},
+        {"id": "c", "text": "Seiso."},
+        {"id": "d", "text": "Seiketsu."},
+        {"id": "e", "text": "Shitsuke."}
       ],
       "correctOptionId": "a",
       "explanation": "Seiri é o senso de utilização. As traduções portuguesas podem variar, mas o conceito permanece. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -938,26 +473,11 @@
       "origin": "authorial",
       "prompt": "No 5S, manter padrões de organização, limpeza, saúde e higiene está associado a:",
       "options": [
-        {
-          "id": "a",
-          "text": "Seiri."
-        },
-        {
-          "id": "b",
-          "text": "Seiketsu."
-        },
-        {
-          "id": "c",
-          "text": "Seiton."
-        },
-        {
-          "id": "d",
-          "text": "Seiso."
-        },
-        {
-          "id": "e",
-          "text": "Shitsuke."
-        }
+        {"id": "a", "text": "Seiri."},
+        {"id": "b", "text": "Seiketsu."},
+        {"id": "c", "text": "Seiton."},
+        {"id": "d", "text": "Seiso."},
+        {"id": "e", "text": "Shitsuke."}
       ],
       "correctOptionId": "b",
       "explanation": "Seiketsu costuma ser traduzido como padronização, saúde ou higiene. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -968,26 +488,11 @@
       "origin": "authorial",
       "prompt": "Qual é o objetivo central do Six Sigma?",
       "options": [
-        {
-          "id": "a",
-          "text": "Aumentar a variabilidade para testar a equipe."
-        },
-        {
-          "id": "b",
-          "text": "Substituir processos por inspeção final."
-        },
-        {
-          "id": "c",
-          "text": "Reduzir variabilidade e defeitos por análise de dados e melhoria estruturada."
-        },
-        {
-          "id": "d",
-          "text": "Eliminar toda medição estatística."
-        },
-        {
-          "id": "e",
-          "text": "Aplicar apenas organização física do 5S."
-        }
+        {"id": "a", "text": "Aumentar a variabilidade para testar a equipe."},
+        {"id": "b", "text": "Substituir processos por inspeção final."},
+        {"id": "c", "text": "Reduzir variabilidade e defeitos por análise de dados e melhoria estruturada."},
+        {"id": "d", "text": "Eliminar toda medição estatística."},
+        {"id": "e", "text": "Aplicar apenas organização física do 5S."}
       ],
       "correctOptionId": "c",
       "explanation": "Six Sigma usa dados para melhorar desempenho e reduzir variação e falhas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -998,26 +503,11 @@
       "origin": "authorial",
       "prompt": "No DMAIC, confirmar e quantificar causas do desempenho insuficiente ocorre em:",
       "options": [
-        {
-          "id": "a",
-          "text": "Define."
-        },
-        {
-          "id": "b",
-          "text": "Measure."
-        },
-        {
-          "id": "c",
-          "text": "Improve."
-        },
-        {
-          "id": "d",
-          "text": "Analyze."
-        },
-        {
-          "id": "e",
-          "text": "Control."
-        }
+        {"id": "a", "text": "Define."},
+        {"id": "b", "text": "Measure."},
+        {"id": "c", "text": "Improve."},
+        {"id": "d", "text": "Analyze."},
+        {"id": "e", "text": "Control."}
       ],
       "correctOptionId": "d",
       "explanation": "Analyze investiga causas; Measure estabelece dados e desempenho atual. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1028,26 +518,11 @@
       "origin": "authorial",
       "prompt": "No DMAIC, criar monitoramento, plano de reação e responsabilidade para sustentar o ganho pertence a:",
       "options": [
-        {
-          "id": "a",
-          "text": "Define."
-        },
-        {
-          "id": "b",
-          "text": "Measure."
-        },
-        {
-          "id": "c",
-          "text": "Analyze."
-        },
-        {
-          "id": "d",
-          "text": "Improve."
-        },
-        {
-          "id": "e",
-          "text": "Control."
-        }
+        {"id": "a", "text": "Define."},
+        {"id": "b", "text": "Measure."},
+        {"id": "c", "text": "Analyze."},
+        {"id": "d", "text": "Improve."},
+        {"id": "e", "text": "Control."}
       ],
       "correctOptionId": "e",
       "explanation": "Control evita regressão e mantém o processo melhorado sob acompanhamento. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1058,26 +533,11 @@
       "origin": "authorial",
       "prompt": "Treinamento preventivo e auditoria de conformidade são classificados, respectivamente, como custos de:",
       "options": [
-        {
-          "id": "a",
-          "text": "prevenção e avaliação."
-        },
-        {
-          "id": "b",
-          "text": "falha interna e falha externa."
-        },
-        {
-          "id": "c",
-          "text": "avaliação e prevenção."
-        },
-        {
-          "id": "d",
-          "text": "falha externa e prevenção."
-        },
-        {
-          "id": "e",
-          "text": "correção e ação corretiva."
-        }
+        {"id": "a", "text": "prevenção e avaliação."},
+        {"id": "b", "text": "falha interna e falha externa."},
+        {"id": "c", "text": "avaliação e prevenção."},
+        {"id": "d", "text": "falha externa e prevenção."},
+        {"id": "e", "text": "correção e ação corretiva."}
       ],
       "correctOptionId": "a",
       "explanation": "Prevenção evita falhas; avaliação verifica conformidade. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1088,26 +548,11 @@
       "origin": "authorial",
       "prompt": "Indenização e retrabalho provocados por erro descoberto após a entrega ao usuário constituem principalmente custo de:",
       "options": [
-        {
-          "id": "a",
-          "text": "prevenção."
-        },
-        {
-          "id": "b",
-          "text": "falha externa."
-        },
-        {
-          "id": "c",
-          "text": "avaliação."
-        },
-        {
-          "id": "d",
-          "text": "falha interna."
-        },
-        {
-          "id": "e",
-          "text": "planejamento."
-        }
+        {"id": "a", "text": "prevenção."},
+        {"id": "b", "text": "falha externa."},
+        {"id": "c", "text": "avaliação."},
+        {"id": "d", "text": "falha interna."},
+        {"id": "e", "text": "planejamento."}
       ],
       "correctOptionId": "b",
       "explanation": "Falha externa é percebida após a entrega e costuma envolver impacto reputacional e custo elevado. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1118,26 +563,11 @@
       "origin": "authorial",
       "prompt": "Um órgão cumpre corretamente o prazo prometido, mas demora a responder dúvidas emergenciais. As dimensões afetadas são, respectivamente:",
       "options": [
-        {
-          "id": "a",
-          "text": "responsividade preservada e confiabilidade insuficiente."
-        },
-        {
-          "id": "b",
-          "text": "tangibilidade e empatia."
-        },
-        {
-          "id": "c",
-          "text": "confiabilidade preservada e responsividade insuficiente."
-        },
-        {
-          "id": "d",
-          "text": "segurança e estética."
-        },
-        {
-          "id": "e",
-          "text": "conformidade e durabilidade."
-        }
+        {"id": "a", "text": "responsividade preservada e confiabilidade insuficiente."},
+        {"id": "b", "text": "tangibilidade e empatia."},
+        {"id": "c", "text": "confiabilidade preservada e responsividade insuficiente."},
+        {"id": "d", "text": "segurança e estética."},
+        {"id": "e", "text": "conformidade e durabilidade."}
       ],
       "correctOptionId": "c",
       "explanation": "No SERVQUAL, confiabilidade é cumprir corretamente; responsividade é ajudar com rapidez. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1148,26 +578,11 @@
       "origin": "authorial",
       "prompt": "A gestão compreende as expectativas do usuário, mas não as converte em padrão operacional adequado. No modelo de lacunas, isso corresponde à lacuna entre:",
       "options": [
-        {
-          "id": "a",
-          "text": "serviço esperado e percebido."
-        },
-        {
-          "id": "b",
-          "text": "execução e comunicação externa."
-        },
-        {
-          "id": "c",
-          "text": "usuário e evidência física."
-        },
-        {
-          "id": "d",
-          "text": "percepção gerencial e especificação do serviço."
-        },
-        {
-          "id": "e",
-          "text": "inspeção e ação corretiva."
-        }
+        {"id": "a", "text": "serviço esperado e percebido."},
+        {"id": "b", "text": "execução e comunicação externa."},
+        {"id": "c", "text": "usuário e evidência física."},
+        {"id": "d", "text": "percepção gerencial e especificação do serviço."},
+        {"id": "e", "text": "inspeção e ação corretiva."}
       ],
       "correctOptionId": "d",
       "explanation": "É a lacuna 2: entendimento gerencial não convertido em especificações adequadas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1178,26 +593,11 @@
       "origin": "authorial",
       "prompt": "Qual elemento pertence a um service blueprint?",
       "options": [
-        {
-          "id": "a",
-          "text": "Apenas barras de frequência acumulada."
-        },
-        {
-          "id": "b",
-          "text": "Somente limites estatísticos de controle."
-        },
-        {
-          "id": "c",
-          "text": "Exclusivamente o organograma."
-        },
-        {
-          "id": "d",
-          "text": "Somente os custos de falha externa."
-        },
-        {
-          "id": "e",
-          "text": "Ações do usuário, atividades visíveis e internas, processos de apoio e linhas de interação e visibilidade."
-        }
+        {"id": "a", "text": "Apenas barras de frequência acumulada."},
+        {"id": "b", "text": "Somente limites estatísticos de controle."},
+        {"id": "c", "text": "Exclusivamente o organograma."},
+        {"id": "d", "text": "Somente os custos de falha externa."},
+        {"id": "e", "text": "Ações do usuário, atividades visíveis e internas, processos de apoio e linhas de interação e visibilidade."}
       ],
       "correctOptionId": "e",
       "explanation": "Blueprint representa a experiência e o sistema de prestação do serviço, incluindo front office, back office e apoio. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1208,26 +608,11 @@
       "origin": "authorial",
       "prompt": "Uma unidade atingiu a meta de produtividade, mas aumentou erros e desigualdade entre regiões. Qual decisão é adequada?",
       "options": [
-        {
-          "id": "a",
-          "text": "Reavaliar o conjunto de indicadores e o desenho do processo, pois produtividade isolada pode induzir comportamento disfuncional."
-        },
-        {
-          "id": "b",
-          "text": "Declarar excelência porque a meta numérica foi atingida."
-        },
-        {
-          "id": "c",
-          "text": "Excluir indicadores de qualidade para evitar conflito."
-        },
-        {
-          "id": "d",
-          "text": "Usar apenas a média nacional."
-        },
-        {
-          "id": "e",
-          "text": "Transferir a responsabilidade integral aos usuários."
-        }
+        {"id": "a", "text": "Reavaliar o conjunto de indicadores e o desenho do processo, pois produtividade isolada pode induzir comportamento disfuncional."},
+        {"id": "b", "text": "Declarar excelência porque a meta numérica foi atingida."},
+        {"id": "c", "text": "Excluir indicadores de qualidade para evitar conflito."},
+        {"id": "d", "text": "Usar apenas a média nacional."},
+        {"id": "e", "text": "Transferir a responsabilidade integral aos usuários."}
       ],
       "correctOptionId": "a",
       "explanation": "Indicadores devem equilibrar prazo, custo, qualidade, acesso, equidade e resultado. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1238,26 +623,11 @@
       "origin": "authorial",
       "prompt": "Automatizar um fluxo com aprovações duplicadas e regra confusa tende a:",
       "options": [
-        {
-          "id": "a",
-          "text": "eliminar automaticamente todo retrabalho."
-        },
-        {
-          "id": "b",
-          "text": "acelerar ou escalar o desperdício se o processo não for analisado antes."
-        },
-        {
-          "id": "c",
-          "text": "garantir certificação ISO 9001."
-        },
-        {
-          "id": "d",
-          "text": "substituir ação corretiva."
-        },
-        {
-          "id": "e",
-          "text": "tornar desnecessário o monitoramento."
-        }
+        {"id": "a", "text": "eliminar automaticamente todo retrabalho."},
+        {"id": "b", "text": "acelerar ou escalar o desperdício se o processo não for analisado antes."},
+        {"id": "c", "text": "garantir certificação ISO 9001."},
+        {"id": "d", "text": "substituir ação corretiva."},
+        {"id": "e", "text": "tornar desnecessário o monitoramento."}
       ],
       "correctOptionId": "b",
       "explanation": "Tecnologia deve apoiar um processo compreendido; automação não corrige desenho ruim por si só. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1268,26 +638,11 @@
       "origin": "authorial",
       "prompt": "Qual alternativa expressa valor público?",
       "options": [
-        {
-          "id": "a",
-          "text": "Maior satisfação de um grupo, ainda que viole equidade."
-        },
-        {
-          "id": "b",
-          "text": "Redução de custo com perda de acesso essencial."
-        },
-        {
-          "id": "c",
-          "text": "Melhoria legítima que amplia direitos ou resultados, usa recursos responsavelmente e considera diferentes públicos."
-        },
-        {
-          "id": "d",
-          "text": "Cumprimento formal sem entrega de resultado."
-        },
-        {
-          "id": "e",
-          "text": "Premiação sem evidência de maturidade."
-        }
+        {"id": "a", "text": "Maior satisfação de um grupo, ainda que viole equidade."},
+        {"id": "b", "text": "Redução de custo com perda de acesso essencial."},
+        {"id": "c", "text": "Melhoria legítima que amplia direitos ou resultados, usa recursos responsavelmente e considera diferentes públicos."},
+        {"id": "d", "text": "Cumprimento formal sem entrega de resultado."},
+        {"id": "e", "text": "Premiação sem evidência de maturidade."}
       ],
       "correctOptionId": "c",
       "explanation": "Valor público combina legitimidade, resultados, confiança, direitos, custos e impactos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1298,26 +653,11 @@
       "origin": "authorial",
       "prompt": "Qual conjunto corresponde aos critérios historicamente associados ao MEGP?",
       "options": [
-        {
-          "id": "a",
-          "text": "definir; medir; analisar; melhorar; controlar; certificar; premiar; fiscalizar."
-        },
-        {
-          "id": "b",
-          "text": "tangibilidade; confiabilidade; responsividade; segurança; empatia; custo; prazo; lucro."
-        },
-        {
-          "id": "c",
-          "text": "utilização; ordenação; limpeza; saúde; disciplina; controle; comando; previsão."
-        },
-        {
-          "id": "d",
-          "text": "liderança; estratégias e planos; cidadãos; sociedade; informação e conhecimento; pessoas; processos; resultados."
-        },
-        {
-          "id": "e",
-          "text": "inspeção; auditoria; certificação; privatização; lucro; marketing; estética; vendas."
-        }
+        {"id": "a", "text": "definir; medir; analisar; melhorar; controlar; certificar; premiar; fiscalizar."},
+        {"id": "b", "text": "tangibilidade; confiabilidade; responsividade; segurança; empatia; custo; prazo; lucro."},
+        {"id": "c", "text": "utilização; ordenação; limpeza; saúde; disciplina; controle; comando; previsão."},
+        {"id": "d", "text": "liderança; estratégias e planos; cidadãos; sociedade; informação e conhecimento; pessoas; processos; resultados."},
+        {"id": "e", "text": "inspeção; auditoria; certificação; privatização; lucro; marketing; estética; vendas."}
       ],
       "correctOptionId": "d",
       "explanation": "O MEGP histórico organizava a avaliação nesses oito critérios. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1328,26 +668,11 @@
       "origin": "authorial",
       "prompt": "Em 2026, o Gestaopublicagov.br pode ser corretamente descrito como:",
       "options": [
-        {
-          "id": "a",
-          "text": "nome atual do GesPública, que nunca foi revogado."
-        },
-        {
-          "id": "b",
-          "text": "norma ISO de certificação do governo brasileiro."
-        },
-        {
-          "id": "c",
-          "text": "modelo restrito a empresas privadas."
-        },
-        {
-          "id": "d",
-          "text": "programa de inspeção de produtos industriais."
-        },
-        {
-          "id": "e",
-          "text": "modelo atual de maturidade de governança e gestão pública, com IMGGs, melhoria e reconhecimento."
-        }
+        {"id": "a", "text": "nome atual do GesPública, que nunca foi revogado."},
+        {"id": "b", "text": "norma ISO de certificação do governo brasileiro."},
+        {"id": "c", "text": "modelo restrito a empresas privadas."},
+        {"id": "d", "text": "programa de inspeção de produtos industriais."},
+        {"id": "e", "text": "modelo atual de maturidade de governança e gestão pública, com IMGGs, melhoria e reconhecimento."}
       ],
       "correctOptionId": "e",
       "explanation": "O Gestaopublicagov.br permaneceu ativo em 2026, inclusive com jornada municipal e reconhecimento nacional. Fonte: páginas oficiais do MGI."
@@ -1358,26 +683,11 @@
       "origin": "authorial",
       "prompt": "Sobre o GesPública, assinale a alternativa correta.",
       "options": [
-        {
-          "id": "a",
-          "text": "Foi revogado, mas seu modelo e fundamentos podem continuar sendo cobrados como referência histórica."
-        },
-        {
-          "id": "b",
-          "text": "Está vigente e substituiu a Lei nº 13.460/2017."
-        },
-        {
-          "id": "c",
-          "text": "É sinônimo da ISO 9001:2026."
-        },
-        {
-          "id": "d",
-          "text": "Foi criado em 2026 como instrumento municipal."
-        },
-        {
-          "id": "e",
-          "text": "Proíbe foco no cidadão."
-        }
+        {"id": "a", "text": "Foi revogado, mas seu modelo e fundamentos podem continuar sendo cobrados como referência histórica."},
+        {"id": "b", "text": "Está vigente e substituiu a Lei nº 13.460/2017."},
+        {"id": "c", "text": "É sinônimo da ISO 9001:2026."},
+        {"id": "d", "text": "Foi criado em 2026 como instrumento municipal."},
+        {"id": "e", "text": "Proíbe foco no cidadão."}
       ],
       "correctOptionId": "a",
       "explanation": "Revogação do programa não apaga seu valor histórico para questões de administração pública. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1388,26 +698,11 @@
       "origin": "authorial",
       "prompt": "Segundo a Lei nº 13.460/2017, a Carta de Serviços ao Usuário deve:",
       "options": [
-        {
-          "id": "a",
-          "text": "ser sigilosa para evitar cobrança do usuário."
-        },
-        {
-          "id": "b",
-          "text": "informar serviços, requisitos, etapas, prazos, forma de prestação e mecanismos de comunicação."
-        },
-        {
-          "id": "c",
-          "text": "conter somente a estrutura do órgão."
-        },
-        {
-          "id": "d",
-          "text": "substituir a ouvidoria."
-        },
-        {
-          "id": "e",
-          "text": "dispensar atualização após publicação."
-        }
+        {"id": "a", "text": "ser sigilosa para evitar cobrança do usuário."},
+        {"id": "b", "text": "informar serviços, requisitos, etapas, prazos, forma de prestação e mecanismos de comunicação."},
+        {"id": "c", "text": "conter somente a estrutura do órgão."},
+        {"id": "d", "text": "substituir a ouvidoria."},
+        {"id": "e", "text": "dispensar atualização após publicação."}
       ],
       "correctOptionId": "b",
       "explanation": "A Carta promove transparência sobre o serviço e deve permanecer atualizada. Fonte: Lei nº 13.460/2017."
@@ -1418,26 +713,11 @@
       "origin": "authorial",
       "prompt": "Qual atuação é compatível com a ouvidoria pública?",
       "options": [
-        {
-          "id": "a",
-          "text": "Receber apenas elogios."
-        },
-        {
-          "id": "b",
-          "text": "Substituir todo controle interno."
-        },
-        {
-          "id": "c",
-          "text": "Receber manifestações, promover participação e produzir informação para melhoria dos serviços."
-        },
-        {
-          "id": "d",
-          "text": "Anular decisões judiciais."
-        },
-        {
-          "id": "e",
-          "text": "Impedir manifestações anônimas em qualquer hipótese."
-        }
+        {"id": "a", "text": "Receber apenas elogios."},
+        {"id": "b", "text": "Substituir todo controle interno."},
+        {"id": "c", "text": "Receber manifestações, promover participação e produzir informação para melhoria dos serviços."},
+        {"id": "d", "text": "Anular decisões judiciais."},
+        {"id": "e", "text": "Impedir manifestações anônimas em qualquer hipótese."}
       ],
       "correctOptionId": "c",
       "explanation": "A ouvidoria trata diferentes tipos de manifestação e gera informação gerencial. Fonte: Lei nº 13.460/2017 e referências do conteúdo."
@@ -1448,26 +728,11 @@
       "origin": "authorial",
       "prompt": "A avaliação continuada dos serviços públicos deve:",
       "options": [
-        {
-          "id": "a",
-          "text": "medir somente popularidade da chefia."
-        },
-        {
-          "id": "b",
-          "text": "eliminar indicadores operacionais."
-        },
-        {
-          "id": "c",
-          "text": "considerar apenas usuários satisfeitos."
-        },
-        {
-          "id": "d",
-          "text": "combinar percepção dos usuários com dados técnicos, equidade, acesso, cumprimento de direitos e resultados."
-        },
-        {
-          "id": "e",
-          "text": "ser mantida em sigilo."
-        }
+        {"id": "a", "text": "medir somente popularidade da chefia."},
+        {"id": "b", "text": "eliminar indicadores operacionais."},
+        {"id": "c", "text": "considerar apenas usuários satisfeitos."},
+        {"id": "d", "text": "combinar percepção dos usuários com dados técnicos, equidade, acesso, cumprimento de direitos e resultados."},
+        {"id": "e", "text": "ser mantida em sigilo."}
       ],
       "correctOptionId": "d",
       "explanation": "Satisfação é relevante, mas não substitui qualidade técnica, direitos e resultado público. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1478,26 +743,11 @@
       "origin": "authorial",
       "prompt": "Um órgão reduziu o prazo em 40%, mas o retrabalho dobrou. Qual sequência de ação é mais adequada?",
       "options": [
-        {
-          "id": "a",
-          "text": "Manter a mudança porque o prazo é o único indicador."
-        },
-        {
-          "id": "b",
-          "text": "Punir o último executor sem examinar o sistema."
-        },
-        {
-          "id": "c",
-          "text": "Certificar o processo antes de investigar."
-        },
-        {
-          "id": "d",
-          "text": "Substituir todos os indicadores por pesquisa de satisfação."
-        },
-        {
-          "id": "e",
-          "text": "Estratificar os dados, investigar causas, revisar a mudança, testar solução e monitorar prazo e erro em conjunto."
-        }
+        {"id": "a", "text": "Manter a mudança porque o prazo é o único indicador."},
+        {"id": "b", "text": "Punir o último executor sem examinar o sistema."},
+        {"id": "c", "text": "Certificar o processo antes de investigar."},
+        {"id": "d", "text": "Substituir todos os indicadores por pesquisa de satisfação."},
+        {"id": "e", "text": "Estratificar os dados, investigar causas, revisar a mudança, testar solução e monitorar prazo e erro em conjunto."}
       ],
       "correctOptionId": "e",
       "explanation": "O caso exige visão sistêmica e equilíbrio de indicadores, com método de análise e melhoria. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1508,26 +758,11 @@
       "origin": "previous_exam",
       "prompt": "Em item anterior sobre autores da qualidade, foram contrapostas contribuições de Shewhart, Deming, Juran, Ishikawa e Feigenbaum. Qual associação está correta?",
       "options": [
-        {
-          "id": "a",
-          "text": "Shewhart — cartas de controle e análise da variabilidade."
-        },
-        {
-          "id": "b",
-          "text": "Deming — defesa da inspeção em massa."
-        },
-        {
-          "id": "c",
-          "text": "Juran — criação do programa 5S."
-        },
-        {
-          "id": "d",
-          "text": "Ishikawa — requisitos certificáveis da ISO 9001."
-        },
-        {
-          "id": "e",
-          "text": "Feigenbaum — cinco lacunas do SERVQUAL."
-        }
+        {"id": "a", "text": "Shewhart — cartas de controle e análise da variabilidade."},
+        {"id": "b", "text": "Deming — defesa da inspeção em massa."},
+        {"id": "c", "text": "Juran — criação do programa 5S."},
+        {"id": "d", "text": "Ishikawa — requisitos certificáveis da ISO 9001."},
+        {"id": "e", "text": "Feigenbaum — cinco lacunas do SERVQUAL."}
       ],
       "correctOptionId": "a",
       "explanation": "Fonte: questão adaptada de Cebraspe/SEFAZ-RJ/Analista em Finanças Públicas/2025, item sobre autores da qualidade; conferência temática: https://www.tecconcursos.com.br/questoes/3402620. Adaptação: conversão para múltipla escolha e reescrita integral."
@@ -1538,26 +773,11 @@
       "origin": "previous_exam",
       "prompt": "À luz dos 14 pontos de Deming, assinale a prática adequada.",
       "options": [
-        {
-          "id": "a",
-          "text": "Fortalecer slogans sem método."
-        },
-        {
-          "id": "b",
-          "text": "Reduzir dependência de inspeção em massa e promover melhoria do sistema e liderança."
-        },
-        {
-          "id": "c",
-          "text": "Instituir quotas numéricas isoladas."
-        },
-        {
-          "id": "d",
-          "text": "Estimular medo para aumentar disciplina."
-        },
-        {
-          "id": "e",
-          "text": "Criar barreiras entre departamentos."
-        }
+        {"id": "a", "text": "Fortalecer slogans sem método."},
+        {"id": "b", "text": "Reduzir dependência de inspeção em massa e promover melhoria do sistema e liderança."},
+        {"id": "c", "text": "Instituir quotas numéricas isoladas."},
+        {"id": "d", "text": "Estimular medo para aumentar disciplina."},
+        {"id": "e", "text": "Criar barreiras entre departamentos."}
       ],
       "correctOptionId": "b",
       "explanation": "Fonte: questão adaptada de Cebraspe/TCE-SC/2022, item sobre Deming; conferência temática: https://concursos.estrategia.com/public/questoes/conceito-qualidade84f0a9a745/. Adaptação: conversão de julgamento para cinco alternativas."
@@ -1568,26 +788,11 @@
       "origin": "previous_exam",
       "prompt": "Em relação à família ISO 9000, qual afirmação está correta?",
       "options": [
-        {
-          "id": "a",
-          "text": "A ISO 9000 é a única norma certificável."
-        },
-        {
-          "id": "b",
-          "text": "A ISO 9001 contém apenas vocabulário."
-        },
-        {
-          "id": "c",
-          "text": "A ISO 9000 fornece fundamentos e vocabulário, enquanto a ISO 9001 estabelece requisitos do sistema de gestão."
-        },
-        {
-          "id": "d",
-          "text": "Certificação elimina toda não conformidade."
-        },
-        {
-          "id": "e",
-          "text": "ISO 9000 e ISO 9001 são versões da mesma norma."
-        }
+        {"id": "a", "text": "A ISO 9000 é a única norma certificável."},
+        {"id": "b", "text": "A ISO 9001 contém apenas vocabulário."},
+        {"id": "c", "text": "A ISO 9000 fornece fundamentos e vocabulário, enquanto a ISO 9001 estabelece requisitos do sistema de gestão."},
+        {"id": "d", "text": "Certificação elimina toda não conformidade."},
+        {"id": "e", "text": "ISO 9000 e ISO 9001 são versões da mesma norma."}
       ],
       "correctOptionId": "c",
       "explanation": "Fonte: questão adaptada de Cebraspe/PF/área administrativa/2025, item sobre ISO 9000; página do concurso: https://www.cebraspe.org.br/concursos/pf_25_adm. Adaptação: atualização para a situação normativa de julho de 2026 e múltipla escolha."
@@ -1598,26 +803,11 @@
       "origin": "previous_exam",
       "prompt": "Em item anterior sobre 5S, houve troca entre os sensos. Qual associação está correta?",
       "options": [
-        {
-          "id": "a",
-          "text": "Seiri — disciplina."
-        },
-        {
-          "id": "b",
-          "text": "Seiton — limpeza."
-        },
-        {
-          "id": "c",
-          "text": "Seiso — utilização."
-        },
-        {
-          "id": "d",
-          "text": "Seiketsu — padronização, saúde ou higiene."
-        },
-        {
-          "id": "e",
-          "text": "Shitsuke — ordenação."
-        }
+        {"id": "a", "text": "Seiri — disciplina."},
+        {"id": "b", "text": "Seiton — limpeza."},
+        {"id": "c", "text": "Seiso — utilização."},
+        {"id": "d", "text": "Seiketsu — padronização, saúde ou higiene."},
+        {"id": "e", "text": "Shitsuke — ordenação."}
       ],
       "correctOptionId": "d",
       "explanation": "Fonte: questão adaptada de Cebraspe/CNMP/Analista/2023, identificador 2833414 no banco Gran: https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-geral-404571/2833414. Adaptação: múltipla escolha e explicitação da variação de tradução."
@@ -1628,26 +818,11 @@
       "origin": "previous_exam",
       "prompt": "Sobre Six Sigma e DMAIC, assinale a alternativa correta.",
       "options": [
-        {
-          "id": "a",
-          "text": "Six Sigma aumenta variabilidade deliberadamente."
-        },
-        {
-          "id": "b",
-          "text": "DMAIC começa pela etapa Control."
-        },
-        {
-          "id": "c",
-          "text": "Analyze é a fase de padronização final."
-        },
-        {
-          "id": "d",
-          "text": "Measure elimina a necessidade de dados."
-        },
-        {
-          "id": "e",
-          "text": "DMAIC estrutura a melhoria de processo existente, e Six Sigma procura reduzir variabilidade e defeitos."
-        }
+        {"id": "a", "text": "Six Sigma aumenta variabilidade deliberadamente."},
+        {"id": "b", "text": "DMAIC começa pela etapa Control."},
+        {"id": "c", "text": "Analyze é a fase de padronização final."},
+        {"id": "d", "text": "Measure elimina a necessidade de dados."},
+        {"id": "e", "text": "DMAIC estrutura a melhoria de processo existente, e Six Sigma procura reduzir variabilidade e defeitos."}
       ],
       "correctOptionId": "e",
       "explanation": "Fonte: questão adaptada de Cebraspe/Embrapa/Analista/2025, identificador 3734311 no banco Gran: https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-geral-404571/3734311. Adaptação: conversão para múltipla escolha."
@@ -1658,26 +833,11 @@
       "origin": "previous_exam",
       "prompt": "No PDCA, uma organização mediu os efeitos da solução e concluiu que a meta foi alcançada. Para sustentar o resultado, deve:",
       "options": [
-        {
-          "id": "a",
-          "text": "atuar na etapa Act, padronizando e acompanhando o novo método."
-        },
-        {
-          "id": "b",
-          "text": "retornar a Plan sem analisar o resultado."
-        },
-        {
-          "id": "c",
-          "text": "encerrar o ciclo em Check."
-        },
-        {
-          "id": "d",
-          "text": "classificar a ação como falha externa."
-        },
-        {
-          "id": "e",
-          "text": "substituir o padrão por inspeção final."
-        }
+        {"id": "a", "text": "atuar na etapa Act, padronizando e acompanhando o novo método."},
+        {"id": "b", "text": "retornar a Plan sem analisar o resultado."},
+        {"id": "c", "text": "encerrar o ciclo em Check."},
+        {"id": "d", "text": "classificar a ação como falha externa."},
+        {"id": "e", "text": "substituir o padrão por inspeção final."}
       ],
       "correctOptionId": "a",
       "explanation": "Fonte: questão adaptada de Cebraspe/ANM/2025, item sobre PDCA e melhoria contínua; página do concurso: https://www.cebraspe.org.br/concursos/anm_24. Adaptação: situação-problema e cinco alternativas."
@@ -1688,26 +848,11 @@
       "origin": "previous_exam",
       "prompt": "Uma equipe quer visualizar ações do usuário, atendimento visível, atividades internas e apoio. A ferramenta indicada é:",
       "options": [
-        {
-          "id": "a",
-          "text": "histograma."
-        },
-        {
-          "id": "b",
-          "text": "service blueprint."
-        },
-        {
-          "id": "c",
-          "text": "carta de controle."
-        },
-        {
-          "id": "d",
-          "text": "gráfico de Pareto."
-        },
-        {
-          "id": "e",
-          "text": "folha de verificação."
-        }
+        {"id": "a", "text": "histograma."},
+        {"id": "b", "text": "service blueprint."},
+        {"id": "c", "text": "carta de controle."},
+        {"id": "d", "text": "gráfico de Pareto."},
+        {"id": "e", "text": "folha de verificação."}
       ],
       "correctOptionId": "b",
       "explanation": "Fonte: questão adaptada de Cebraspe/Telebras/2022, item sobre qualidade em serviços e blueprint; identificador: https://www.qconcursos.com/questoes-de-concursos/questoes/670a0dcc-9f. Adaptação: reescrita e múltipla escolha."
@@ -1718,26 +863,11 @@
       "origin": "previous_exam",
       "prompt": "Uma carta de controle apresenta todos os pontos dentro dos limites, mas há sequência longa crescente. Qual conclusão é adequada?",
       "options": [
-        {
-          "id": "a",
-          "text": "O processo é necessariamente estável."
-        },
-        {
-          "id": "b",
-          "text": "O processo é capaz por definição."
-        },
-        {
-          "id": "c",
-          "text": "O padrão não aleatório pode sinalizar causa especial, mesmo sem ponto fora dos limites."
-        },
-        {
-          "id": "d",
-          "text": "Os limites equivalem à especificação."
-        },
-        {
-          "id": "e",
-          "text": "A tendência deve ser ignorada."
-        }
+        {"id": "a", "text": "O processo é necessariamente estável."},
+        {"id": "b", "text": "O processo é capaz por definição."},
+        {"id": "c", "text": "O padrão não aleatório pode sinalizar causa especial, mesmo sem ponto fora dos limites."},
+        {"id": "d", "text": "Os limites equivalem à especificação."},
+        {"id": "e", "text": "A tendência deve ser ignorada."}
       ],
       "correctOptionId": "c",
       "explanation": "Fonte: questão adaptada de Cespe/Unipampa/2009, item sobre cartas de controle; identificador: https://www.qconcursos.com/questoes-de-concursos/questoes/4da0802f-d7. Adaptação: inclusão de padrão não aleatório e múltipla escolha."
@@ -1748,26 +878,11 @@
       "origin": "previous_exam",
       "prompt": "Em relação à excelência na gestão pública, qual alternativa é correta?",
       "options": [
-        {
-          "id": "a",
-          "text": "Excelência pública é sinônimo de lucro."
-        },
-        {
-          "id": "b",
-          "text": "O MEGP exclui processos e resultados."
-        },
-        {
-          "id": "c",
-          "text": "Inovação é incompatível com legalidade."
-        },
-        {
-          "id": "d",
-          "text": "Cultura da inovação, foco no cidadão, informação, governança e geração de valor são compatíveis com modelos de excelência pública."
-        },
-        {
-          "id": "e",
-          "text": "Reconhecimento dispensa melhoria contínua."
-        }
+        {"id": "a", "text": "Excelência pública é sinônimo de lucro."},
+        {"id": "b", "text": "O MEGP exclui processos e resultados."},
+        {"id": "c", "text": "Inovação é incompatível com legalidade."},
+        {"id": "d", "text": "Cultura da inovação, foco no cidadão, informação, governança e geração de valor são compatíveis com modelos de excelência pública."},
+        {"id": "e", "text": "Reconhecimento dispensa melhoria contínua."}
       ],
       "correctOptionId": "d",
       "explanation": "Fonte: questão adaptada de Cebraspe/TSE/Analista/2024, item sobre excelência e inovação pública; identificador: https://www.questoesestrategicas.com.br/questoes/ver/iMUAfaPYqNLa3XiHTJriBw5OCLt1YJIG_cEvQPqyC5g. Adaptação: múltipla escolha e separação entre modelo histórico e atual."
@@ -1778,29 +893,59 @@
       "origin": "previous_exam",
       "prompt": "Uma não conformidade foi corrigida, mas voltou a ocorrer porque sua causa não foi tratada. A providência que faltou foi:",
       "options": [
-        {
-          "id": "a",
-          "text": "nova correção do mesmo efeito como única medida."
-        },
-        {
-          "id": "b",
-          "text": "inspeção sem análise."
-        },
-        {
-          "id": "c",
-          "text": "classificação como custo de prevenção."
-        },
-        {
-          "id": "d",
-          "text": "aumento da tolerância sem justificativa."
-        },
-        {
-          "id": "e",
-          "text": "ação corretiva com eliminação da causa e verificação de eficácia."
-        }
+        {"id": "a", "text": "nova correção do mesmo efeito como única medida."},
+        {"id": "b", "text": "inspeção sem análise."},
+        {"id": "c", "text": "classificação como custo de prevenção."},
+        {"id": "d", "text": "aumento da tolerância sem justificativa."},
+        {"id": "e", "text": "ação corretiva com eliminação da causa e verificação de eficácia."}
       ],
       "correctOptionId": "e",
       "explanation": "Fonte: questão adaptada de itens Cebraspe sobre sistemas de gestão e melhoria, com base nos requisitos de ação corretiva da ISO 9001; fonte normativa: https://www.iso.org/standard/88464.html. Adaptação: situação administrativa e múltipla escolha."
+    },
+    {
+      "id": "q-u108-sefapr2026-20",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Os fundamentos da gestão da qualidade e os modelos de excelência gerencial são aplicáveis a diversas organizações, inclusive às pertencentes ao setor público. No que diz respeito à gestão da qualidade e à excelência gerencial, assinale a opção correta.",
+      "options": [
+        {"id": "A", "text": "A aplicação dos fundamentos da gestão da qualidade e dos modelos de excelência gerencial no setor público pressupõe abordagem sistêmica, na qual liderança, pessoas, processos e resultados devem ser tratados de forma integrada, sendo a melhoria da qualidade entendida como um processo contínuo de aprendizado organizacional."},
+        {"id": "B", "text": "As ferramentas da qualidade, como fluxogramas, diagramas de causa e efeito e cartas de controle, são instrumentos voltados à indústria manufatureira e, assim, apresentam aplicação limitada em organizações públicas prestadoras de serviços."},
+        {"id": "C", "text": "Independentemente da maturidade organizacional, da cultura institucional e da capacidade de liderança, a adoção de modelos de excelência gerencial no setor público garante a melhoria sustentada da qualidade dos serviços."},
+        {"id": "D", "text": "Nos modelos clássicos de gestão da qualidade, a ênfase na padronização dos processos e na conformidade com especificações reduz a necessidade de envolvimento das pessoas, uma vez que a qualidade passa a ser assegurada primordialmente por controles formais e procedimentos normativos."},
+        {"id": "E", "text": "O modelo de excelência gerencial adotado no setor público brasileiro enfatiza resultados institucionais, mas trata liderança, pessoas e processos como elementos acessórios, uma vez que o foco principal do modelo reside na mensuração de desempenho organizacional."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alternativa A expressa a abordagem sistêmica da excelência: liderança, pessoas, processos e resultados são integrados, com melhoria contínua e aprendizado organizacional. Fonte: questão oficial; Cebraspe; SEFA/PR — Agente Fazendário Estadual — função Administrador; 2026; questão 20; https://cdn.cebraspe.org.br/concursos/sefa_pr_25/arquivos/90ECB71259732E8F2E4407EDA63B6754CADD1809D7F1A2741FB1422320521691.pdf. Gabarito oficial definitivo: A; https://cdn.cebraspe.org.br/concursos/sefa_pr_25/arquivos/DCA73FE92A4BF95CA33C4169BCECBB8091DD5C9F19508E6718D4D5FE0F7D289D.pdf."
+    },
+    {
+      "id": "q-u108-caesb2025-70",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma empresa de manufatura busca implementar a metodologia 5S em sua área de produção para melhorar a organização, a limpeza e a eficiência dos processos. Após a fase inicial de organização e limpeza, a empresa percebeu que ainda havia desafios em manter os resultados alcançados a longo prazo. Considerando os princípios da metodologia 5S e os desafios enfrentados pela empresa mencionada na situação hipotética apresentada, assinale, entre as opções a seguir, aquela que apresenta a ação mais eficaz para consolidar a implementação da metodologia 5S nessa empresa e garantir a sua sustentabilidade.",
+      "options": [
+        {"id": "A", "text": "Criar um comitê 5S composto por gestores de diferentes áreas, responsável por definir as metas e acompanhar o desempenho da implementação, mas sem envolver os operadores de produção nas atividades diárias, para que o foco possa ser mantido."},
+        {"id": "B", "text": "Realizar auditorias periódicas para verificar a conformidade com os padrões estabelecidos, aplicando punições aos colaboradores que não cumprirem as normas."},
+        {"id": "C", "text": "Desenvolver um sistema de reconhecimento e recompensa para os colaboradores que contribuírem para a melhoria contínua, incentivando a participação de todos na manutenção dos resultados."},
+        {"id": "D", "text": "Concentrar os esforços na fase de limpeza (Seiso), realizando atividades de limpeza profunda de forma semanal, e delegar as demais atividades do 5S aos líderes de equipe."},
+        {"id": "E", "text": "Priorizar a fase de padronização (Seiketsu), desenvolvendo procedimentos operacionais padrão (POPs) detalhados para todas as atividades, mas sem envolver os colaboradores na criação desses documentos, a fim de evitar constrangimentos."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C é a indicada pela própria justificativa oficial: reconhecimento, recompensa e participação de todos fortalecem a cultura de melhoria contínua e a sustentabilidade do 5S. Fonte: questão oficial; Cebraspe; CAESB — Analista de Sistemas de Saneamento — especialidade Engenheiro Mecânico; 2025; questão 70; https://cdn.cebraspe.org.br/concursos/caesb_24/arquivos/905BAE8B8901D96A45D9CBF7F17341894AF8405A0E2D9122A552F640CAC8B9DB.pdf."
+    },
+    {
+      "id": "q-u108-inmetro2010-54",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considerando que a qualidade pressupõe ações contínuas, compartilhadas e direcionadas, assinale a opção correta.",
+      "options": [
+        {"id": "A", "text": "O ciclo da qualidade de Deming é uma ferramenta voltada primordialmente para o controle de resultados."},
+        {"id": "B", "text": "Os esforços para a implementação da qualidade seguem a tendência da centralização de poder, de modo a verticalizar a comunicação na organização."},
+        {"id": "C", "text": "O discurso principal do kaizen é focado na melhoria incremental, a partir da eliminação da sobrecarga de trabalho, do desperdício de tempo e recursos e da irregularidade nas ações e atividades."},
+        {"id": "D", "text": "Podem ser usadas como ferramentas da qualidade: ciclo PDCA; 5W2H; matriz GUT; brainstorming; fluxograma; desvio padrão; análise de Pareto; diagrama de causa e efeito; 5S e escala Richter."},
+        {"id": "E", "text": "O controle da qualidade total estende seu conceito de qualidade por toda a organização, muitas vezes preterindo a satisfação dos clientes externos."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C está correta porque o kaizen enfatiza melhoria incremental e eliminação de desperdícios e irregularidades. Fonte: questão oficial; Cespe/UnB; INMETRO — Pesquisador-Tecnologista em Metrologia e Qualidade — área Acreditação; 2010; questão 54; https://cdn.cebraspe.org.br/concursos/INMETRO2010/arquivos/INMETRO10_010_14.pdf. Gabarito oficial definitivo: C; conferência do espelho definitivo: https://www.passeidireto.com/arquivo/117613336/prova-instituto-nacional-de-metrologia-normalizacao-e-qualidade-industrial-cebra."
     }
   ]
 }
