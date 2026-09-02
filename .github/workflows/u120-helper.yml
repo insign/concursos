@@ -1,0 +1,115 @@
+name: U120 helper
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+
+jobs:
+  update-u120:
+    if: github.head_ref == 'feat/u120-questoes-reais-20260902'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Add verified previous-exam questions
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-recursos-materiais-patrimoniais/almoxarifado-armazenamento/questoes.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          assert data['schemaVersion'] == 1
+          assert data['questionSetRevision'] == 2
+          assert len(data['questions']) == 200
+          assert not any(q.get('id', '').startswith('u120_') for q in data['questions'])
+
+          questions = [
+            {
+              'id': 'u120_tceac2024_q94',
+              'revision': 1,
+              'origin': 'previous_exam',
+              'prompt': 'O arranjo físico do almoxarifado deve considerar, além do planejamento da expansão e necessidade de recursos financeiros, os métodos de movimentação e de armazenagem.',
+              'options': [{'id': 'C', 'text': 'Certo'}, {'id': 'E', 'text': 'Errado'}],
+              'correctOptionId': 'C',
+              'explanation': 'O item está correto: o leiaute do almoxarifado deve compatibilizar expansão e recursos com os métodos de movimentação e armazenagem. Fonte: questão oficial; Cebraspe; TCE-AC — Técnico de Controle Externo, Área Técnico-Administrativo, Especialidade Instrutivo; 2024; item 94; https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/993_TCE_AC_019_01.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_019_01.PDF.'
+            },
+            {
+              'id': 'u120_tceac2024_q95',
+              'revision': 1,
+              'origin': 'previous_exam',
+              'prompt': 'O evitamento da obsolescência e o provimento de treinamento aos colaboradores contribuem para a redução dos custos de armazenagem.',
+              'options': [{'id': 'C', 'text': 'Certo'}, {'id': 'E', 'text': 'Errado'}],
+              'correctOptionId': 'C',
+              'explanation': 'O item está correto: prevenir obsolescência reduz perdas, e o treinamento contribui para operações de armazenagem mais eficientes e com menos falhas. Fonte: questão oficial; Cebraspe; TCE-AC — Técnico de Controle Externo, Área Técnico-Administrativo, Especialidade Instrutivo; 2024; item 95; https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/993_TCE_AC_019_01.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_019_01.PDF.'
+            },
+            {
+              'id': 'u120_anm2025_q98',
+              'revision': 1,
+              'origin': 'previous_exam',
+              'prompt': 'As embalagens são mecanismos de proteção física e apresentam também os objetivos de contenção e comunicação para os materiais.',
+              'options': [{'id': 'C', 'text': 'Certo'}, {'id': 'E', 'text': 'Errado'}],
+              'correctOptionId': 'C',
+              'explanation': 'O item está correto: além da proteção física, a embalagem pode conter o material e comunicar informações relevantes para identificação e manuseio. Fonte: questão oficial; Cebraspe; ANM — Analista Administrativo, Especialidade Administração; 2025; item 98; https://cdn.cebraspe.org.br/concursos/anm_24/arquivos/038_ANM_001_01.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/anm_24/arquivos/Gab_Definitivo_038_ANM_001_01.PDF.'
+            },
+            {
+              'id': 'u120_mme2023_q92',
+              'revision': 1,
+              'origin': 'previous_exam',
+              'prompt': 'Variação de demanda e obsolescência das instalações são exemplos de situações que podem promover uma mudança de leiaute em um almoxarifado.',
+              'options': [{'id': 'C', 'text': 'Certo'}, {'id': 'E', 'text': 'Errado'}],
+              'correctOptionId': 'C',
+              'explanation': 'O item está correto: alterações relevantes no volume e no perfil da demanda, assim como instalações que se tornam inadequadas, podem exigir revisão do leiaute. Fonte: questão oficial; Cebraspe; Ministério de Minas e Energia — Administrador; 2023; item 92; https://cdn.cebraspe.org.br/concursos/mme_23/arquivos/908_MME_001_01.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/mme_23/arquivos/GAB_DEFINITIVO_908_MME_001_01.PDF.'
+            },
+            {
+              'id': 'u120_cmmaceio2024_q84',
+              'revision': 1,
+              'origin': 'previous_exam',
+              'prompt': 'Um dos objetivos da armazenagem é dispor de um arranjo físico que possibilite o uso eficiente de mão de obra e de equipamentos de movimentação de materiais.',
+              'options': [{'id': 'C', 'text': 'Certo'}, {'id': 'E', 'text': 'Errado'}],
+              'correctOptionId': 'C',
+              'explanation': 'O item está correto: o arranjo físico deve favorecer fluxo e uso eficiente dos recursos humanos e dos equipamentos de movimentação. Fonte: questão oficial; Cebraspe; Câmara Municipal de Maceió — Analista Administrativo; 2024; item 84; https://cdn.cebraspe.org.br/concursos/camara_municipal_maceio_24/arquivos/972_CAMARA_MACEIO_001_01.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/camara_municipal_maceio_24/arquivos/GAB_DEFINITIVO_972_CAMARA_MACEIO_001_01.PDF.'
+            },
+            {
+              'id': 'u120_pf2025_q116',
+              'revision': 1,
+              'origin': 'previous_exam',
+              'prompt': 'Os paletes de duas faces são utilizados quando o sistema de movimentação de materiais requer cruzamento de equipamentos de manuseio.',
+              'options': [{'id': 'C', 'text': 'Certo'}, {'id': 'E', 'text': 'Errado'}],
+              'correctOptionId': 'E',
+              'explanation': 'O item está errado: o requisito de cruzamento/acesso dos equipamentos se relaciona ao número de entradas do palete; a classificação em uma ou duas faces diz respeito às faces e ao reforço da unidade. Fonte: questão oficial; Cebraspe; Polícia Federal — Administrador; 2025; item 116; https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf.'
+            }
+          ]
+
+          data['questionSetRevision'] = 3
+          data['questions'].extend(questions)
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+      - name: Install dependencies
+        run: npm ci
+      - name: Unit tests
+        run: npm run test:unit
+      - name: Check
+        run: npm run check
+      - name: Build
+        run: npm run build
+      - name: Commit validated question set
+        run: |
+          if git diff --quiet; then
+            echo 'No changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-recursos-materiais-patrimoniais/almoxarifado-armazenamento/questoes.json
+          git commit -m 'content: amplia U120 com questões reais de almoxarifado'
+          git push origin HEAD:${{ github.head_ref }}
