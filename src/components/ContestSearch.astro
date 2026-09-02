@@ -1,0 +1,259 @@
+---
+interface Props {
+  contestStorageId: string;
+  contestSlug: string;
+  contestTitle: string;
+  placeholder?: string;
+}
+const { contestStorageId, contestSlug, contestTitle, placeholder } = Astro.props;
+const inputId = `search-${contestStorageId}`;
+---
+
+<section class="contest-search print-hidden" data-contest-search data-storage-id={contestStorageId} data-contest-slug={contestSlug} data-contest-title={contestTitle} hidden>
+  <label for={inputId} class="contest-search__label">Buscar em {contestTitle}</label>
+  <div class="contest-search__field">
+    <input
+      id={inputId}
+      data-search-input
+      type="search"
+      autocomplete="off"
+      spellcheck="false"
+      enterkeyhint="search"
+      placeholder={placeholder ?? `Buscar em ${contestTitle}…`}
+      aria-autocomplete="list"
+      aria-controls={`${inputId}-results`}
+      aria-expanded="false"
+    />
+    <p class="contest-search__status" data-search-status role="status" aria-live="polite"></p>
+    <ol id={`${inputId}-results`} class="contest-search__results" data-search-results role="listbox" hidden></ol>
+  </div>
+  <label class="contest-search__global">
+    <input type="checkbox" data-search-global />
+    <span>Buscar em todos os concursos (online)</span>
+  </label>
+</section>
+<noscript>
+  <p>Busca requer JavaScript. Acesse <a href={`/busca/?q=&concurso=${contestStorageId}`}>a página de busca</a>.</p>
+</noscript>
+
+<script>
+  import { searchContest, isOnline } from '../lib/orama-client.ts';
+
+  const roots = document.querySelectorAll('[data-contest-search]');
+  for (const root of roots) {
+    const storageId = (root as HTMLElement).dataset.storageId!;
+    const contestSlug = (root as HTMLElement).dataset.contestSlug!;
+    const input = root.querySelector('[data-search-input]') as HTMLInputElement | null;
+    const resultsEl = root.querySelector('[data-search-results]') as HTMLOListElement | null;
+    const statusEl = root.querySelector('[data-search-status]') as HTMLElement | null;
+    const globalToggle = root.querySelector('[data-search-global]') as HTMLInputElement | null;
+    if (!input || !resultsEl || !statusEl) continue;
+
+    // Reveal section (hidden until JS)
+    (root as HTMLElement).hidden = false;
+
+    let debounce: number | undefined;
+    let seq = 0;
+    let lastResults: Array<{ slug: string; title: string; excerpt: string; highlightedTitle: string; highlightedExcerpt: string }> = [];
+
+    function setStatus(text: string) {
+      if (statusEl) statusEl.textContent = text;
+    }
+
+    function escapeAttr(s: string) {
+      return s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    function render(hits: Array<{ document: { slug: string; title: string; type: string }; highlightedTitle: string; highlightedExcerpt: string }>) {
+      if (hits.length === 0) {
+        resultsEl!.hidden = true;
+        resultsEl!.innerHTML = '';
+        input!.setAttribute('aria-expanded', 'false');
+        return;
+      }
+      resultsEl!.hidden = false;
+      input!.setAttribute('aria-expanded', 'true');
+      resultsEl!.innerHTML = hits
+        .map(
+          (hit) => {
+            const isConteudo = hit.document.type === 'conteudo';
+            const secondary = isConteudo
+              ? `<a href="${hit.document.slug}cheat-sheet/" class="contest-search__hit-secondary" aria-label="Cheat sheet de ${escapeAttr(hit.document.title)}">cheat sheet</a>`
+              : '';
+            return `
+        <li role="option">
+          <a href="${hit.document.slug}" class="contest-search__hit">
+            <strong class="contest-search__hit-title">${hit.highlightedTitle}</strong>
+            <span class="contest-search__hit-excerpt">${hit.highlightedExcerpt}</span>
+            <small class="contest-search__hit-meta">${hit.document.slug.includes('/revisoes/') ? 'Mega revisão' : 'Conteúdo'}</small>
+          </a>
+          ${secondary}
+        </li>
+      `;
+          },
+        )
+        .join('');
+    }
+
+    async function doSearch(term: string) {
+      const mySeq = ++seq;
+      if (globalToggle?.checked) {
+        // Global checkbox marcado -> redirect para /busca/ em modo global
+        const q = encodeURIComponent(term.trim());
+        if (q.length < 2) return;
+        window.location.href = `/busca/?q=${q}&concurso=${storageId}&global=1`;
+        return;
+      }
+      if (term.trim().length < 2) {
+        render([]);
+        setStatus('');
+        return;
+      }
+      setStatus('Buscando…');
+      try {
+        const hits = await searchContest(storageId, term, 8);
+        if (mySeq !== seq) return;
+        if (hits.length === 0) {
+          setStatus('Nenhum resultado');
+          render([]);
+        } else {
+          setStatus(`${hits.length} resultado(s)`);
+          // @ts-ignore
+          render(hits);
+          lastResults = hits as unknown as typeof lastResults;
+        }
+      } catch (e) {
+        if (mySeq !== seq) return;
+        const msg = e instanceof Error && e.message.includes('Failed to fetch') ? 'Índice offline indisponível — baixe este concurso para buscar sem conexão.' : 'Falha na busca.';
+        setStatus(msg);
+        render([]);
+      }
+    }
+
+    input.addEventListener('input', () => {
+      window.clearTimeout(debounce);
+      const term = input.value;
+      debounce = window.setTimeout(() => doSearch(term), 180);
+    });
+
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        render([]);
+        setStatus('');
+        input.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    // Global checkbox guard offline
+    function syncGlobalToggle() {
+      if (!globalToggle) return;
+      const online = isOnline();
+      globalToggle.disabled = !online;
+      globalToggle.title = online ? '' : 'Disponível apenas com conexão';
+      if (!online && globalToggle.checked) {
+        globalToggle.checked = false;
+        setStatus('Busca global requer conexão. Você está offline.');
+      }
+    }
+    syncGlobalToggle();
+    window.addEventListener('online', syncGlobalToggle);
+    window.addEventListener('offline', syncGlobalToggle);
+
+    globalToggle?.addEventListener('change', () => {
+      if (globalToggle.checked && !isOnline()) {
+        globalToggle.checked = false;
+        setStatus('Busca global requer conexão. Você está offline.');
+        return;
+      }
+      // Se já há termo, redirect imediato para global
+      if (globalToggle.checked && input.value.trim().length >= 2) {
+        const q = encodeURIComponent(input.value.trim());
+        window.location.href = `/busca/?q=${q}&concurso=${storageId}&global=1`;
+      }
+    });
+
+    // Não indexar a própria UI
+    root.setAttribute('data-pagefind-ignore', '');
+    root.setAttribute('data-orama-ignore', '');
+  }
+</script>
+
+<style>
+  .contest-search {
+    margin: 1.25rem 0;
+    padding: 1rem;
+    border: 1px solid var(--line, #ddd);
+    border-radius: 8px;
+    background: var(--paper, #fff);
+  }
+  .contest-search__label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .contest-search__field {
+    position: relative;
+  }
+  .contest-search__field input[type='search'] {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid var(--line, #ccc);
+    border-radius: 6px;
+    font: inherit;
+  }
+  .contest-search__status {
+    min-height: 1.2em;
+    margin: 0.35rem 0 0;
+    font-size: 0.85rem;
+    color: var(--muted, #666);
+  }
+  .contest-search__results {
+    list-style: none;
+    margin: 0.5rem 0 0;
+    padding: 0;
+    border: 1px solid var(--line, #ddd);
+    border-radius: 6px;
+    max-height: 320px;
+    overflow: auto;
+    background: var(--paper, #fff);
+  }
+  .contest-search__results[hidden] {
+    display: none;
+  }
+  .contest-search__results li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--line, #eee);
+  }
+  .contest-search__results li:last-child {
+    border-bottom: 0;
+  }
+  .contest-search__hit {
+    flex: 1;
+    text-decoration: none;
+    color: inherit;
+    display: grid;
+    gap: 0.15rem;
+  }
+  .contest-search__hit-title :global(mark.orama-highlight) {
+    background: mark;
+    padding: 0 0.1em;
+  }
+  .contest-search__hit-excerpt {
+    font-size: 0.85rem;
+    color: var(--muted, #555);
+  }
+  .contest-search__hit-secondary {
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+  .contest-search__global {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+  }
+</style>

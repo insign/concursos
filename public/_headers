@@ -17,3 +17,9 @@
 
 /offline-inventories/*
   Cache-Control: public, max-age=0, must-revalidate
+
+/search/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+/search-global.json
+  Cache-Control: public, max-age=0, must-revalidate

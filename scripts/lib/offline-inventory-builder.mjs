@@ -166,7 +166,21 @@ export async function runOfflineInventoryBuild({
   const generated = await mapConcurrent(entries, inventoryConcurrency, async (entry) => {
     const inventoryUrl = new URL(entry.name, inventoryDirectory);
     const seed = JSON.parse(await readFile(inventoryUrl, 'utf8'));
-    const manifest = await buildOfflineManifest(seed, { readResource, concurrency: resourceConcurrency });
+    // Injeta índice Orama por concurso (/search/<storageId>.json) como asset do pacote
+    // O JSON não é referenciado no HTML, então coleta transitiva não o encontraria.
+    const contestStorageId = seed.contestStorageId;
+    let seedWithSearch = seed;
+    if (contestStorageId) {
+      const searchResource = `/search/${contestStorageId}.json`;
+      try {
+        await readResource(searchResource);
+        const assets = [...(seed.assets ?? []), searchResource];
+        seedWithSearch = { ...seed, assets };
+      } catch {
+        // sem índice (concurso vazio) — ignora
+      }
+    }
+    const manifest = await buildOfflineManifest(seedWithSearch, { readResource, concurrency: resourceConcurrency });
     await writeFile(inventoryUrl, `${JSON.stringify(manifest, null, 2)}\n`);
     return join('offline-inventories', entry.name);
   });
