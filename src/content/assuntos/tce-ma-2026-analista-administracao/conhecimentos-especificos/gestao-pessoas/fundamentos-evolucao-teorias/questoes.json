@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q2499",
@@ -901,6 +901,81 @@
       ],
       "correctOptionId": "D",
       "explanation": "A alternativa reúne evolução, visão sistêmica e pluralidade teórica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q52214201",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Max Weber conceitua a burocracia como uma organização eficiente por excelência, constituindo-se de algumas características, como a",
+      "options": [
+        {"id": "A", "text": "super conformidade."},
+        {"id": "B", "text": "internalização das normas."},
+        {"id": "C", "text": "hierarquia da autoridade."},
+        {"id": "D", "text": "exibição de sinais de autoridade."},
+        {"id": "E", "text": "categorização do relacionamento."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A hierarquia da autoridade integra as características do tipo ideal burocrático de Weber. Fonte: FGV, DNIT, Analista Administrativo – Administração, prova aplicada em 2024, Tipo 2 (verde), questão 69; gabarito oficial definitivo: C."
+    },
+    {
+      "id": "q52214202",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A Administração Científica teorizada por Frederick Taylor tinha como essência a busca da melhoria da eficiência e da produtividade nos métodos de trabalho e enfatizava alguns princípios secundários. Um desses princípios onde estabelecia que movimentos mal planejados produziriam cansaço e redução da eficiência do operário, denomina-se",
+      "options": [
+        {"id": "A", "text": "fadiga humana."},
+        {"id": "B", "text": "supervisão funcional."},
+        {"id": "C", "text": "padrão de produção."},
+        {"id": "D", "text": "tempos e movimentos."},
+        {"id": "E", "text": "condição ambiental de trabalho."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O princípio descrito no enunciado corresponde ao estudo da fadiga humana na Administração Científica. Fonte: FGV, AMAZUL, Analista de Administração, prova aplicada em 2026, Tipo 1 (branca), questão 32; gabarito oficial definitivo: A."
+    },
+    {
+      "id": "q52214203",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Com base na Teoria Geral dos Sistemas, assinale a alternativa que apresenta os princípios da abordagem sistêmica.",
+      "options": [
+        {"id": "A", "text": "Expansionismo – Pensamento Sintético – Mecanicismo"},
+        {"id": "B", "text": "Reducionismo – Pensamento Analítico – Mecanicismo"},
+        {"id": "C", "text": "Expansionismo – Pensamento Sintético – Teleologia"},
+        {"id": "D", "text": "Expansionismo – Pensamento Analítico – Teleologia"},
+        {"id": "E", "text": "Reducionismo – Pensamento Sintético – Mecanicismo"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A abordagem sistêmica contrapõe-se ao reducionismo e ao mecanicismo, articulando expansionismo, pensamento sintético e teleologia. Fonte: FGV, SUDENE, Analista Técnico-Administrativo – Área 1 Administração, prova aplicada em 2013, Tipo 1 (branca), questão 43; gabarito oficial definitivo: C."
+    },
+    {
+      "id": "q52214204",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O desenho da estrutura organizacional, segundo a Teoria da Contingência, requer a identificação de variáveis. A esse respeito, leia o fragmento a seguir: “As características do ambiente geral e principalmente do ambiente de tarefa (fornecedores de recursos, clientes e usuários, concorrentes e entidades regulamentadoras)”. O fragmento apresenta o conceito da variável",
+      "options": [
+        {"id": "A", "text": "tarefas ou funções."},
+        {"id": "B", "text": "saídas ou resultados."},
+        {"id": "C", "text": "estruturas."},
+        {"id": "D", "text": "entradas."},
+        {"id": "E", "text": "tecnologias."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Na classificação cobrada pela questão, as características do ambiente geral e de tarefa constituem entradas para o desenho contingencial. Fonte: FGV, SUDENE, Analista Técnico-Administrativo – Área 1 Administração, prova aplicada em 2013, Tipo 1 (branca), questão 44; gabarito oficial definitivo: D."
+    },
+    {
+      "id": "q52214205",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A evolução do pensamento administrativo coincidiu com a mudança de valores da sociedade em cada época da história, acarretando o surgimento de diferentes teorias voltadas para a administração. Nesse contexto, relacione os conceitos a seguir às respectivas teorias. X Teoria Estruturalista; Y Teoria dos Sistemas; Z Teoria das Relações Humanas. 1. É pioneira na priorização dos aspectos simbólicos da organização e dos grupos sociais. 2. É uma teoria de abordagem múltipla, surgida a partir de estudos sobre as limitações do modelo burocrático e outras teorias. 3. Estabelece a necessidade de análise das variáveis exógenas, considerando a interação entre as organizações e seus ambientes para explicar aspectos da estrutura. Assinale a opção que indica a relação correta.",
+      "options": [
+        {"id": "A", "text": "1X – 2Y – 3Z."},
+        {"id": "B", "text": "1X – 2Z – 3Y."},
+        {"id": "C", "text": "1Y – 2X – 3Z."},
+        {"id": "D", "text": "1Y – 2Z – 3X."},
+        {"id": "E", "text": "1Z – 2X – 3Y."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "Relações Humanas corresponde ao item 1, Estruturalismo ao item 2 e Sistemas ao item 3. Fonte: FGV, SEDUC-SP, PEFM – Educação Profissional, Eixo 1 Gestão e Negócios, prova aplicada em 2023, Tipo 2 (verde), questão 23; gabarito oficial definitivo: E."
     }
   ]
 }
