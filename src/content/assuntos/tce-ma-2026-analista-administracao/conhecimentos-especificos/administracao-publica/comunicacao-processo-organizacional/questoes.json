@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q484",
@@ -1505,7 +1505,7 @@
     {
       "id": "q534",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Em item de prova, afirmou-se que a comunicação atua na motivação, informação e expressão emocional, mas não no controle. A correção é:",
       "options": [
         {
@@ -1535,7 +1535,7 @@
     {
       "id": "q535",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Qual conjunto apresenta as quatro funções clássicas da comunicação dentro de grupos e organizações?",
       "options": [
         {
@@ -1565,7 +1565,7 @@
     {
       "id": "q536",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Uma questão sustenta que redes formais prevalecem e, por isso, redes informais devem ser desconsideradas. Essa conclusão é",
       "options": [
         {
@@ -1595,7 +1595,7 @@
     {
       "id": "q537",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Sobre a rede de rumores, qual afirmação é mais adequada?",
       "options": [
         {
@@ -1625,7 +1625,7 @@
     {
       "id": "q538",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Em item anterior, afirmou-se que controle e informação são funções da comunicação interpessoal. O julgamento conceitualmente correto é",
       "options": [
         {
@@ -1655,7 +1655,7 @@
     {
       "id": "q539",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Um plano de comunicação prevê mensagens da direção às equipes, relatórios das equipes à direção e coordenação entre áreas equivalentes. Os fluxos são, respectivamente,",
       "options": [
         {
@@ -1685,7 +1685,7 @@
     {
       "id": "q540",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Uma organização precisa comunicar decisão delicada e ambígua, permitir perguntas imediatas e depois preservar registro. A combinação mais adequada é",
       "options": [
         {
@@ -1715,7 +1715,7 @@
     {
       "id": "q541",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Associe a perspectiva interpretativa à afirmação que melhor a representa.",
       "options": [
         {
@@ -1745,7 +1745,7 @@
     {
       "id": "q542",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Ao perceber que um rumor sobre reestruturação se espalhou, a gestão deve",
       "options": [
         {
@@ -1775,7 +1775,7 @@
     {
       "id": "q543",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Uma devolutiva de desempenho informa o resultado, esclarece padrão esperado e incentiva melhoria. Nessa interação coexistem principalmente as funções de",
       "options": [
         {
@@ -1801,6 +1801,156 @@
       ],
       "correctOptionId": "e",
       "explanation": "As funções podem coexistir: a mensagem traz dados, orienta comportamento e influencia esforço. Fonte: questão adaptada de CESPE/CEBRASPE, TCE/PA, 2016, item sobre funções da comunicação, concurso oficial (https://cdn.cebraspe.org.br/concursos/TCE_PA_16/); adaptação: integração entre funções em situação gerencial."
+    },
+    {
+      "id": "q10501",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma tarefa necessária ao bom gestor é o uso da comunicação adequada para cada tipo de situação. Nesse sentido, ele pode se pautar na ideia de riqueza dos canais de comunicação, que trata da multiplicidade de sinais de cada canal escolhido.\n\nNesse contexto, avalie se as situações em que o uso de canais de comunicação pobres é mais recomendado incluem\n\nI. transmissão de uma mensagem que deve permanecer registrada para consulta e conferência futuras;\nII. comunicação de uma informação que precisa alcançar um grande número de pessoas, de forma rápida e padronizada;\nIII. comunicação de uma mensagem que não deve deixar margem para ambiguidades ou interpretações divergentes.\n\nEstá correto o que se afirma em",
+      "options": [
+        {
+          "id": "a",
+          "text": "I, apenas."
+        },
+        {
+          "id": "b",
+          "text": "II, apenas."
+        },
+        {
+          "id": "c",
+          "text": "I e II, apenas."
+        },
+        {
+          "id": "d",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "e",
+          "text": "I, II e III."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Canais pobres favorecem registro e disseminação padronizada a grandes públicos (I e II); mensagens com ambiguidades ou interpretações divergentes tendem a exigir canais mais ricos. Fonte: FGV, ALE-RO, Assistente Legislativo (Sem Especialidade), 2026, questão 51, Tipo 1 – Branca. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/cnmas01-assistente-legislativo-sem-especialidade-cnmas01-tipo-1.pdf. Gabarito: https://conhecimento.fgv.br/sites/default/files/concursos/ale_ro-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q10502",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No contexto da comunicação organizacional, os elementos do processo comunicativo possuem funções específicas que contribuem para a transmissão eficaz das informações, assegurando assim o sucesso da comunicação.\n\nCom base nesses elementos, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O feedback é o meio utilizado pelo transmissor para decodificar a mensagem."
+        },
+        {
+          "id": "b",
+          "text": "A mensagem é a mídia escolhida para a passagem do conteúdo da comunicação."
+        },
+        {
+          "id": "c",
+          "text": "O ruído é qualquer tipo de interferência que pode afetar o processo de comunicação."
+        },
+        {
+          "id": "d",
+          "text": "O remetente representa a pessoa ou o grupo a quem a mensagem é dirigida."
+        },
+        {
+          "id": "e",
+          "text": "O canal é o elemento responsável pelo início do processo de comunicação."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ruído é qualquer interferência capaz de afetar o processo de comunicação; as demais alternativas trocam as funções de feedback, mensagem, remetente e canal. Fonte: FGV, DPE-RO, Técnico Administrativo – Classe A, 2025, questão 68, Tipo 4 – Azul. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-administrativo-classe-acnm001-tipo-4.pdf. Gabarito: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-defintivo-dpe-ro_0.pdf."
+    },
+    {
+      "id": "q10503",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No processo de comunicação organizacional e seus elementos, é correto afirmar que a comunicação é eficaz quando",
+      "options": [
+        {
+          "id": "a",
+          "text": "o canal da comunicação não possui ruídos."
+        },
+        {
+          "id": "b",
+          "text": "o emissor tem boa capacidade de expressão."
+        },
+        {
+          "id": "c",
+          "text": "o destinatário da mensagem tem boa audição."
+        },
+        {
+          "id": "d",
+          "text": "o destinatário compreende a mensagem."
+        },
+        {
+          "id": "e",
+          "text": "o canal utilizado é o meio mais apropriado."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A eficácia comunicacional se verifica quando o destinatário compreende a mensagem; ausência de ruído, boa expressão e canal adequado favorecem o processo, mas não bastam isoladamente. Fonte: FGV, Câmara Municipal de Fortaleza, Agente Administrativo, 2024, questão 39, Tipo 2 – Verde. Gabarito definitivo retificado: D. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/agente-administrativocnm001-tipo-2.pdf. Gabarito: https://conhecimento.fgv.br/sites/default/files/concursos/cmfor2024_gabarito_definitivo-retificado-17.05.2024.pdf."
+    },
+    {
+      "id": "q10504",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "As análises acerca da comunicação organizacional devem ter como base tanto a comunicação formal quanto a informal. No que tange à comunicação informal, destaca-se como uma de suas principais fontes a rede de rumores, que, caso não seja devidamente administrada, pode trazer consequências negativas para a organização.\n\nAvalie se, para o tratamento adequado da rede de rumores, as medidas a seguir devem ser efetivadas.\n\nI. Evitar atingir o mensageiro.\nII. Manter canais de comunicação abertos.\nIII. Anunciar um cronograma sobre as principais decisões.\n\nEstá correto o que se afirma em",
+      "options": [
+        {
+          "id": "a",
+          "text": "I, apenas."
+        },
+        {
+          "id": "b",
+          "text": "II, apenas."
+        },
+        {
+          "id": "c",
+          "text": "I e II, apenas."
+        },
+        {
+          "id": "d",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "e",
+          "text": "I, II e III."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "As três medidas reduzem efeitos negativos da rede de rumores: preservar o mensageiro, manter canais de comunicação abertos e dar previsibilidade às principais decisões. Fonte: FGV, Câmara Municipal de Fortaleza, Analista de Gestão de Pessoas, 2024, questão 34, Tipo 1 – Branca. Gabarito definitivo retificado: E. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-gestao-de-pessoascns001-tipo-1.pdf. Gabarito: https://conhecimento.fgv.br/sites/default/files/concursos/cmfor2024_gabarito_definitivo-retificado-17.05.2024.pdf."
+    },
+    {
+      "id": "q10505",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A comunicação organizacional é o processo onde as empresas transferem as informações com o objetivo de estabelecer um entendimento comum para quem as recebem, fluindo através de canais formais e informais. Entre os tipos de canais formais, as comunicações descendentes são aquelas encaminhadas do topo da organização aos seus subordinados englobando diversos assuntos.\n\nAssinale a opção em que todos assuntos pertencem às comunicações descendentes.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informações contábil e financeira e relatórios de desempenho."
+        },
+        {
+          "id": "b",
+          "text": "Sugestões de melhorias e coordenação interdepartamental."
+        },
+        {
+          "id": "c",
+          "text": "Problemas, exceções e melhorias nos procedimentos relacionados com a tarefa."
+        },
+        {
+          "id": "d",
+          "text": "Solução de problemas intradepartamentais e assessoria de staff para os departamentos de linha."
+        },
+        {
+          "id": "e",
+          "text": "Retroação de desempenho e implementação de objetivos e estratégias."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Retroação de desempenho e implementação de objetivos e estratégias são conteúdos de comunicação descendente, do topo aos subordinados; as demais alternativas combinam conteúdos ascendentes ou horizontais. Fonte: FGV, DNIT, Analista Administrativo – Administração, 2024, questão 62, Tipo 1 – Branca. Gabarito definitivo: E. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-administrativo-administracaocns101-tipo-1.pdf. Gabarito: https://conhecimento.fgv.br/sites/default/files/concursos/dnit2024_gabarito_definitivo_20240312.pdf."
     }
   ]
 }
