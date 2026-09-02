@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q1434",
@@ -1501,6 +1501,92 @@
       ],
       "correctOptionId": "e",
       "explanation": "A lei admite certificação independente acreditada pelo Inmetro para estudos/projetos, conclusão de fases ou objetos e material ou corpo técnico de habilitação, com pertinência e proporcionalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1484",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção que contém os princípios consagrados na Lei nº 14.133/2021, no que concerne às licitações e contratações públicas.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Economicidade, ponderação de interesses e pessoalidade."
+        },
+        {
+          "id": "b",
+          "text": "Razoabilidade, improbidade administrativa e vinculação ao edital."
+        },
+        {
+          "id": "c",
+          "text": "Proporcionalidade, moralidade e julgamento subjetivo das propostas."
+        },
+        {
+          "id": "d",
+          "text": "Competitividade, planejamento e desenvolvimento nacional sustentável."
+        },
+        {
+          "id": "e",
+          "text": "Segurança jurídica, supremacia do interesse público e direcionamento razoável."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito: D. O art. 5º da Lei nº 14.133/2021 inclui competitividade, planejamento e desenvolvimento nacional sustentável entre os princípios aplicáveis. As demais alternativas combinam princípios legais com expressões que não integram o rol legal, como pessoalidade, improbidade administrativa, julgamento subjetivo e direcionamento razoável. Fonte: FGV, Prefeitura do Rio de Janeiro/PGM, Analista de Procuradoria – Especialidade Administrativa, 2025, prova Tipo 1, questão 77; gabarito oficial definitivo D."
+    },
+    {
+      "id": "q1485",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Ressalvados os casos previstos em lei, é vedado ao agente público designado para atuar na área de licitações e contratos",
+      "options": [
+        {
+          "id": "a",
+          "text": "admitir, prever, incluir ou tolerar, nos atos que praticar, situações que sejam impertinentes ou irrelevantes para o objeto específico do contrato."
+        },
+        {
+          "id": "b",
+          "text": "instituir instrumentos que permitam, preferencialmente, a centralização dos procedimentos de aquisição e contratação de bens e serviço."
+        },
+        {
+          "id": "c",
+          "text": "criar catálogo eletrônico de padronização de compras, serviços e obras, admitida a adoção do catálogo do Poder Executivo federal por todos os entes federativos."
+        },
+        {
+          "id": "d",
+          "text": "instituir sistema informatizado de acompanhamento de obras, inclusive com recursos de imagem e vídeo."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gabarito: A. O art. 9º, I, c, da Lei nº 14.133/2021 veda ao agente público admitir, prever, incluir ou tolerar situações impertinentes ou irrelevantes para o objeto específico do contrato. As demais alternativas reproduzem instrumentos de centralização, padronização e acompanhamento previstos no art. 19, não vedações do art. 9º. Fonte: Instituto Access, Câmara Municipal de Santana de Parnaíba/SP, Agente de Contratação Pública, 2022, questão 34; gabarito definitivo A."
+    },
+    {
+      "id": "q1486",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "De acordo com a Lei nº 14.133/2021, a princípio, poderá disputar licitação ou participar da execução de contrato, direta ou indiretamente,",
+      "options": [
+        {
+          "id": "a",
+          "text": "autor do anteprojeto, do projeto básico ou do projeto executivo, pessoa física ou jurídica, quando a licitação versar sobre obra, serviços ou fornecimento de bens a ele relacionados."
+        },
+        {
+          "id": "b",
+          "text": "pessoa física ou jurídica que se encontre, ao tempo da licitação, impossibilitada de participar da licitação em decorrência de sanção que lhe foi imposta."
+        },
+        {
+          "id": "c",
+          "text": "pessoa física que, dez anos antes da divulgação do edital, tenha sido condenada judicialmente, com trânsito em julgado, por submissão de trabalhadores a condições análogas às de escravo."
+        },
+        {
+          "id": "d",
+          "text": "empresa, isoladamente ou em consórcio, responsável pela elaboração do projeto básico ou do projeto executivo, ou empresa da qual o autor do projeto seja dirigente, gerente, controlador, acionista ou detentor de mais de 5% (cinco por cento) do capital com direito a voto, responsável técnico ou subcontratado, quando a licitação versar sobre obra, serviços ou fornecimento de bens a ela necessários."
+        },
+        {
+          "id": "e",
+          "text": "aquele que mantenha vínculo de natureza técnica, comercial, econômica, financeira, trabalhista ou civil com dirigente do órgão ou entidade contratante ou com agente público que desempenhe função na licitação ou atue na fiscalização ou na gestão do contrato, ou que deles seja cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, devendo essa proibição constar expressamente do edital de licitação."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito: C. O art. 14, VI, da Lei nº 14.133/2021 impede a participação de pessoa física ou jurídica condenada, com trânsito em julgado, por exploração de trabalho infantil, submissão de trabalhadores a condições análogas às de escravo ou contratação de adolescentes nos casos vedados pela legislação trabalhista, mas somente no período de cinco anos anterior à divulgação do edital. Uma condenação ocorrida dez anos antes está fora desse intervalo; as demais alternativas descrevem hipóteses de impedimento do art. 14. Fonte: FGV, CGE-SC, Auditor do Estado – Ciências Contábeis (Tarde), Tipo 1, 2023, questão 55; gabarito oficial definitivo C."
     }
   ]
 }
