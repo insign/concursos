@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q934",
@@ -751,6 +751,51 @@
       ],
       "correctOptionId": "b",
       "explanation": "A resposta combina acomodação da necessidade presente e correção estrutural: atendimento, evidência, responsabilização, teste e prevenção, em vez de transferir o custo da barreira ao usuário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q114001",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Com relação à Lei nº 10.098/2000, que estabelece normas gerais e critérios básicos para a promoção da acessibilidade das pessoas portadoras de deficiência ou com mobilidade reduzida, relacione alguns conceitos importantes às suas respectivas definições.\n\n1. elemento de urbanização\n2. mobiliário urbano\n3. desenho universal\n\n( ) quaisquer componentes de obras de urbanização, tais como os referentes a pavimentação, saneamento, encanamento para esgotos, distribuição de energia elétrica e de gás, iluminação pública, serviços de comunicação, abastecimento e distribuição de água, paisagismo e os que materializam as indicações do planejamento urbanístico.\n( ) concepção de produtos, ambientes, programas e serviços a serem usados por todas as pessoas, sem necessidade de adaptação ou de projeto específico, incluindo os recursos de tecnologia assistiva.\n( ) conjunto de objetos existentes nas vias e nos espaços públicos, superpostos ou adicionados aos elementos de urbanização ou de edificação, de forma que sua modificação ou seu traslado não provoque alterações substanciais nesses elementos.\n\nAssinale a opção que indica a relação correta, na ordem apresentada.",
+      "options": [
+        {"id": "A", "text": "1 – 2 – 3."},
+        {"id": "B", "text": "1 – 3 – 2."},
+        {"id": "C", "text": "2 – 3 – 1."},
+        {"id": "D", "text": "2 – 1 – 3."},
+        {"id": "E", "text": "3 – 2 – 1."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A sequência correta é 1 – 3 – 2: a primeira definição descreve elemento de urbanização; a segunda, desenho universal; e a terceira, mobiliário urbano. Fonte: FGV; Secretaria de Estado da Administração do Amapá; Perito Criminal – Fonoaudiólogo; 2022; questão 59; prova https://conhecimento.fgv.br/sites/default/files/concursos/perito_criminal_fonoaudiologocnsm008_tipo_1.pdf; gabarito oficial definitivo B em https://conhecimento.fgv.br/sites/default/files/concursos/seadapperitos2022_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q114002",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A Lei Brasileira de Inclusão da Pessoa com Deficiência em relação à Tecnologia Assistiva (TA) garante, à pessoa com deficiência, acesso a produtos, recursos, estratégias, práticas, processos, métodos e serviços de Tecnologia Assistiva que maximizem sua autonomia, mobilidade pessoal e qualidade de vida.\nPara alcançar tal objetivo, o Art. 75 da referida Lei prevê que o poder público desenvolverá plano específico de medidas, a ser renovado em cada período de 4 (quatro) anos, com as seguintes finalidades, entre outras, à exceção de uma, que está errada. Assinale-a.",
+      "options": [
+        {"id": "A", "text": "Desestimular o acesso a crédito especializado, especialmente os com oferta de linhas de crédito subsidiadas, específicas para aquisição de tecnologia assistiva."},
+        {"id": "B", "text": "Agilizar, simplificar e priorizar procedimentos de importação de tecnologia assistiva, especialmente as questões atinentes a procedimentos alfandegários e sanitários."},
+        {"id": "C", "text": "Criar mecanismos de fomento à pesquisa e à produção nacional de tecnologia assistiva, inclusive por meio de concessão de linhas de crédito subsidiado e de parcerias com institutos de pesquisa oficiais."},
+        {"id": "D", "text": "Eliminar ou reduzir a tributação da cadeia produtiva e de importação de tecnologia assistiva."},
+        {"id": "E", "text": "Facilitar e agilizar o processo de inclusão de novos recursos de tecnologia assistiva no rol de produtos distribuídos no âmbito do SUS e por outros órgãos governamentais."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O item incorreto é o da alternativa A: o art. 75 determina facilitar o acesso a crédito especializado, inclusive com oferta de linhas de crédito subsidiadas, e não desestimulá-lo. As demais alternativas reproduzem finalidades previstas para o plano. Fonte: FGV; Secretaria Municipal de Educação de Jaboatão dos Guararapes/PE; Professor I – Brailista; 2023; questão 49; prova https://conhecimento.fgv.br/sites/default/files/concursos/cnm102-professor-1-brailistacnm102-tipo-1_1.pdf; gabarito oficial definitivo A em https://conhecimento.fgv.br/sites/default/files/concursos/prefeitura-jaboatao-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q114003",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "De acordo com ABNT NBR 17225, que trata da acessibilidade em conteúdo e aplicações web, “imagens facilitam a compreensão e tornam o conteúdo mais amigável ao transmitir informações de forma visual”.\nMas, para garantir a integral acessibilidade comunicacional, as imagens",
+      "options": [
+        {"id": "A", "text": "informativas devem permitir ampliação de até 10x para atender apenas às demandas das pessoas com baixa visão."},
+        {"id": "B", "text": "puramente decorativas precisam ser detalhadamente descritas em texto alternativo detectável por tecnologia assistiva."},
+        {"id": "C", "text": "funcionais prescindem de legendas ou descrições textuais suplementares que expliquem a função específica do elemento no contexto da interface."},
+        {"id": "D", "text": "interativas de mapas devem ter um texto alternativo geral com a descrição da ferramenta, mas prescindem de descrição para cada área interativa."},
+        {"id": "E", "text": "complexas devem ter texto alternativo que as identifique e descrição detalhada disponível na página - próximo à respectiva imagem - ou em outra página indicada."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "A alternativa E reproduz a exigência para imagens complexas: texto alternativo identificador e descrição detalhada disponibilizada na própria página, próxima à imagem, ou em página indicada. Fonte: FGV; Procuradoria-Geral do Município do Rio de Janeiro; Analista de Procuradoria – Especialidade Comunicação; 2025; questão 38; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-procuradoria-especialidade-comunicacao-pgmcns202-tipo-1.pdf; gabarito oficial definitivo E em https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-procuradoria-gabarito-definitivo.pdf."
     }
   ]
 }
