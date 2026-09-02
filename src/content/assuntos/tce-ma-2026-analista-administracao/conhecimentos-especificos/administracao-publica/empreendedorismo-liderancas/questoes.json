@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q784",
@@ -4501,6 +4501,110 @@
       ],
       "correctOptionId": "e",
       "explanation": "O conceito integra propósito, execução e responsabilidade. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q111001",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "As opções a seguir apresentam princípios do conceito de empreendedorismo governamental, desenvolvido na obra “Reinventando o Governo”, à exceção de uma. Assinale-a.",
+      "options": [
+        {"id": "a", "text": "Governo competitivo."},
+        {"id": "b", "text": "Governo orientado por missões."},
+        {"id": "c", "text": "Governo preventivo."},
+        {"id": "d", "text": "Governo orientado para o mercado."},
+        {"id": "e", "text": "Governo centralizado."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Governo competitivo, orientado por missões, preventivo e orientado para o mercado integram os princípios do governo empreendedor; a centralização não integra essa formulação. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado do Maranhão (ALE-MA) — Assistente Legislativo Administrativo — Agente Legislativo; 2023; questão 37; https://conhecimento.fgv.br/sites/default/files/concursos/cnm202-assistente-legislativo-administrativo-agente-legislativocnm202-tipo-1.pdf."
+    },
+    {
+      "id": "q111002",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O empreendedorismo governamental, um conceito de forte influência na construção do Estado Moderno, parte do princípio de que os modelos convencionais de Administração Pública não são adequados para a sociedade.\nAssinale a opção que apresenta corretamente preceitos do empreendedorismo governamental.",
+      "options": [
+        {"id": "a", "text": "O poder deve ser incorporado pela comunidade, oferecendo possibilidade de participação dos cidadãos no governo."},
+        {"id": "b", "text": "As atividades da Administração Pública devem ser orientadas, essencialmente, pela utilização de regras e regulamentos em escala sistemática."},
+        {"id": "c", "text": "O governo deve participar diretamente no provimento de bens para a sociedade, por meio da estatização de setores pouco atrativos para a iniciativa privada."},
+        {"id": "d", "text": "A autoridade governamental deve ser centralizada, permitindo ganhos de escala na realização das atividades."},
+        {"id": "e", "text": "A atuação do governo deve priorizar a detecção e a correção de problemas, em vez do enfrentamento por meio de práticas preventivas."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A incorporação de poder pela comunidade e a participação dos cidadãos são compatíveis com o governo empreendedor. Orientação essencialmente por regras, centralização, estatização como preceito e atuação meramente reativa não correspondem à formulação cobrada. Fonte: questão oficial; FGV; BB Tecnologia e Serviços (BBTS) — Analista — Perfil Interno; 2023; questão 64; https://conhecimento.fgv.br/sites/default/files/concursos/cns002-analista-internocns002-tipo-1.pdf."
+    },
+    {
+      "id": "q111003",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A teoria do empreendedorismo governamental foi inspirada na concepção de que era necessário garantir que o governo estivesse sempre à frente das demandas da sociedade e preparado para enfrentar desafios futuros.\nAcerca dessa teoria, analise os itens a seguir.\nI. Aumentar a competição entre os prestadores de serviços.\nII. Estatizar setores estratégicos.\nIII. Dar preferência aos mecanismos de controle exercidos por meio de regras ou regulamentos.\nAssinale a opção que apresenta apenas o(s) princípio(s) do empreendedorismo governamental.",
+      "options": [
+        {"id": "a", "text": "I, apenas."},
+        {"id": "b", "text": "II, apenas."},
+        {"id": "c", "text": "I e II, apenas."},
+        {"id": "d", "text": "II e III, apenas."},
+        {"id": "e", "text": "I, II e III."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A competição entre prestadores de serviços é princípio associado ao governo empreendedor; estatização de setores estratégicos e preferência por controle centrado em regras e regulamentos não integram a formulação cobrada. Fonte: questão oficial; FGV; Agência Reguladora de Energia e Saneamento Básico do Estado do Rio de Janeiro (AGENERSA) — Especialista em Regulação; 2023; questão 78; https://conhecimento.fgv.br/sites/default/files/concursos/cns002-especialista-em-regulacaocns002-tipo-1.pdf."
+    },
+    {
+      "id": "q111004",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "As novas lideranças no setor público passaram a lidar, devido ao realce do empreendedorismo governamental, com mais situações-problema adaptativas e, para lidar com tais situações, os líderes devem lançar mão de alguns princípios, entre os quais se inclui o princípio que consiste em",
+      "options": [
+        {"id": "a", "text": "proteger a organização de ameaças externas."},
+        {"id": "b", "text": "manter a atenção disciplinada."},
+        {"id": "c", "text": "definir problemas e fornecer soluções."},
+        {"id": "d", "text": "restaurar a ordem."},
+        {"id": "e", "text": "esclarecer os papéis e responsabilidades."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Em situações adaptativas, manter a atenção disciplinada é um dos princípios da liderança adaptativa; a lógica não é simplesmente restaurar a ordem ou fornecer respostas prontas. Fonte: questão oficial; CESPE/CEBRASPE; Tribunal Regional Eleitoral de Mato Grosso (TRE-MT) — Técnico Judiciário — Área Administrativa; 2015; questão 48; https://cdn.cebraspe.org.br/concursos/TRE_MT_15/arquivos/210TREMT_006_01.pdf."
+    },
+    {
+      "id": "q111005",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O empreendedorismo governamental ocorre quando os gestores públicos aproveitam os recursos disponíveis de formas novas e melhores, buscando a satisfação e o benefício dos cidadãos. O conceito de empreendedorismo governamental surgiu com o livro Reinventando o Governo - como o espírito empreendedor está transformando o poder público, de Osborne e Gaebler. Sobre o tema assinale a alternativa correta:",
+      "options": [
+        {"id": "a", "text": "Um governo empreendedor pretende controlar a economia, seja por meio direto ou indireto, bem como concentrar a gestão das atividades empresariais na administração pública"},
+        {"id": "b", "text": "Para um modelo de empreendedorismo governamental deve se buscar o desaparecimento do Estado, para que a administração pública conte, cada vez mais, com características próprias da iniciativa privada"},
+        {"id": "c", "text": "Um governo empreendedor atua estrategicamente buscando gerar receitas, e não despesas, ampliando as prestações dos serviços públicos e considerando os gastos sob uma perspectiva de investimento"},
+        {"id": "d", "text": "O conceito de empreendedorismo governamental prestigia, em diversos aspectos, a manutenção da burocracia do Estado como critério para seu próprio funcionamento"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A alternativa C expressa a orientação empreendedora de buscar receitas e tratar determinados gastos sob perspectiva de investimento para ampliar a capacidade de prestação de serviços. Fonte: questão de concurso; IBFC; Secretaria de Estado do Planejamento, Orçamento e Gestão de Sergipe (SEPLAG-SE) — Especialista em Políticas Públicas e Gestão Governamental; 2018; questão 51; transcrição conferida em https://pt.scribd.com/document/853322512/ibfc-2018-seplag-se-especialista-em-politicas-publicas-e-gestao-governamental-prova; gabarito definitivo no portal IBFC."
+    },
+    {
+      "id": "q111006",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Nas discussões acerca dos modelos governamentais mais adequados às demandas da sociedade, surgiram diferentes concepções que propõem mudanças na forma de atuação do Estado, entre as quais se destaca o conceito de empreendedorismo governamental.\nCom base nesse modelo, avalie as assertivas a seguir.\nI. Os governos devem convocar os cidadãos a participar das decisões que afetam sua comunidade.\nII. Os governos devem atuar de forma preventiva diante dos problemas públicos, em vez de concentrar esforços apenas em seu tratamento.\nIII. O governo deve incentivar a competição na prestação de serviços públicos, com vistas à ampliação da eficiência.\nOs ideais condizentes com os princípios do empreendedorismo governamental incluem",
+      "options": [
+        {"id": "a", "text": "I, apenas."},
+        {"id": "b", "text": "II, apenas."},
+        {"id": "c", "text": "I e II, apenas."},
+        {"id": "d", "text": "II e III, apenas."},
+        {"id": "e", "text": "I, II e III."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Participação da comunidade, atuação preventiva e competição na prestação de serviços integram os princípios do governo empreendedor, razão pela qual as três assertivas estão corretas. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado de Rondônia (ALE-RO) — Assistente Legislativo — Sem Especialidade; 2026; questão 75; https://conhecimento.fgv.br/sites/default/files/concursos/cnmas01-assistente-legislativo-sem-especialidade-cnmas01-tipo-1.pdf."
+    },
+    {
+      "id": "q111007",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Com relação ao empreendedorismo governamental, assinale V para a afirmativa verdadeira e F para a falsa.\n(   ) O empreendedorismo governamental mobiliza a atuação de todos os setores – público, privado e voluntário – para uma ação conjunta capaz de resolver os problemas e atender às demandas sociais.\n(   ) O empreendedorismo governamental adota uma gestão aberta à participação e ao trabalho em equipe, em que a iniciativa e a proatividade são incentivadas com vistas à criação de valor para os usuários dos serviços e para a própria gestão pública.\n(   ) O empreendedorismo governamental identifica e aproveita oportunidades, imagina, desenvolve e realiza visões que solucionem os problemas sociais, mesmo que para isso tenham de assumir alguns riscos calculados.\nAs afirmativas são, respectivamente,",
+      "options": [
+        {"id": "a", "text": "V, F e V."},
+        {"id": "b", "text": "F, F e V."},
+        {"id": "c", "text": "F, F e F."},
+        {"id": "d", "text": "V, V e V."},
+        {"id": "e", "text": "F, V e F."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "As três afirmações descrevem características compatíveis com o empreendedorismo governamental: articulação entre setores, participação e trabalho em equipe, proatividade, aproveitamento de oportunidades e assunção de riscos calculados. Fonte: questão oficial; FGV; Superintendência do Desenvolvimento do Nordeste (SUDENE) — Agente Administrativo — Tipo 2; 2013; questão 45; https://conhecimento.fgv.br/sites/default/files/concursos/sudene_2013_nm_agente_administrativo_tipo_02.pdf."
     }
   ]
 }
