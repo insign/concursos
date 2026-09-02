@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q2019",
@@ -648,36 +648,6 @@
       "explanation": "Reajuste por índice trata variação ordinária; repactuação trata custos de serviço contínuo com mão de obra dedicada ou predominante; revisão trata ruptura extraordinária comprovada. Fonte: questão autoral baseada em referências do conteúdo."
     },
     {
-      "id": "q2062",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "O reajuste em sentido estrito consiste em",
-      "options": [
-        { "id": "A", "text": "aplicar índice contratual que reflita a variação efetiva do custo de produção." },
-        { "id": "B", "text": "refazer toda a planilha trabalhista a cada mês." },
-        { "id": "C", "text": "indenizar qualquer erro do licitante." },
-        { "id": "D", "text": "aplicar multa por inflação." },
-        { "id": "E", "text": "recalcular analiticamente todos os custos de mão de obra com base em nova convenção coletiva." }
-      ],
-      "correctOptionId": "A",
-      "explanation": "Essa é a definição do art. 6º, LVIII. Em serviço contínuo sem dedicação exclusiva ou predominância de mão de obra, usam-se índices específicos ou setoriais. Fonte: questão autoral baseada em referências do conteúdo."
-    },
-    {
-      "id": "q2063",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "A repactuação é adequada para",
-      "options": [
-        { "id": "A", "text": "serviço contínuo com dedicação exclusiva ou predominância de mão de obra, mediante demonstração analítica." },
-        { "id": "B", "text": "qualquer compra com entrega imediata." },
-        { "id": "C", "text": "sanção por atraso." },
-        { "id": "D", "text": "pagamento de parcela incontroversa." },
-        { "id": "E", "text": "qualquer evento imprevisível que rompa a equação inicial, independentemente de dedicação de mão de obra." }
-      ],
-      "correctOptionId": "A",
-      "explanation": "Os arts. 6º, LIX, 92, § 4º, II, e 135 da Lei nº 14.133/2021 definem o campo e a técnica da repactuação. Fonte: questão autoral baseada em referências do conteúdo."
-    },
-    {
       "id": "q2064",
       "revision": 2,
       "origin": "authorial",
@@ -706,21 +676,6 @@
       ],
       "correctOptionId": "B",
       "explanation": "A dualidade de datas reconhece origens diferentes da variação. Para mão de obra, importa o acordo, convenção ou dissídio ao qual a proposta se vinculou. Fonte: questão autoral baseada em referências do conteúdo."
-    },
-    {
-      "id": "q2066",
-      "revision": 2,
-      "origin": "authorial",
-      "prompt": "O interregno mínimo da repactuação é de",
-      "options": [
-        { "id": "A", "text": "trinta dias." },
-        { "id": "B", "text": "seis meses." },
-        { "id": "C", "text": "um ano." },
-        { "id": "D", "text": "cinco anos." },
-        { "id": "E", "text": "dois anos, salvo se a Administração autorizar período menor no edital." }
-      ],
-      "correctOptionId": "C",
-      "explanation": "O art. 135, § 3º, exige um ano contado da proposta ou da última repactuação, conforme a parcela e o fato gerador analisados. Fonte: questão autoral baseada em referências do conteúdo."
     },
     {
       "id": "q2067",
@@ -901,6 +856,63 @@
       ],
       "correctOptionId": "B",
       "explanation": "Cada instituto responde a problema distinto: IMR dimensiona a prestação, art. 143 protege a parcela incontroversa e repactuação analisa a variação de custos mediante prova própria. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q52213401",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção correta acerca do controle de execução e de medições de obras e serviços de engenharia nos contratos públicos.",
+      "options": [
+        { "id": "A", "text": "Uma vez avençado verbalmente o valor da medição mensal com o preposto da contratada, o fiscal do contrato pode prescindir do procedimento de ateste na nota fiscal dos serviços executados." },
+        { "id": "B", "text": "Havendo aditivo contratual de prorrogação de prazo e de modificação de quantitativos de serviços, é facultativa a atualização do cronograma físico-financeiro." },
+        { "id": "C", "text": "Mesmo quando prevista a diluição do custo de fornecimento de energia elétrica, para fins de construção das obras, nos preços unitários dos demais itens contratuais, a contratante deve pagá-lo à contratada como item separado." },
+        { "id": "D", "text": "A instalação do canteiro de obras somente será paga pela contratante após sua completa conclusão, conforme previsto na planilha orçamentária de contratação." },
+        { "id": "E", "text": "O dano ao erário caracterizado pela medição de quantidades superiores às efetivamente executadas ou fornecidas desvincula-se da figura de superfaturamento." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alternativa D é o gabarito oficial definitivo. O ateste da execução não é dispensado por ajuste verbal; alterações de prazo e quantitativos repercutem no cronograma físico-financeiro; custo já diluído em preços unitários não deve ser pago novamente em separado; e medição acima do efetivamente executado ou fornecido pode caracterizar superfaturamento. Fonte: questão oficial; CEBRASPE; CAGEPA — Cargo 1: Administrador; 2024; questão 41; https://cdn.cebraspe.org.br/concursos/cagepa_24/arquivos/992_CAGEPA_001_01.PDF."
+    },
+    {
+      "id": "q52213402",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "À luz da Lei n.º 14.133/2021 (Lei de Licitações e Contratos), assinale a opção correta com relação ao reajustamento de preços nos contratos públicos.",
+      "options": [
+        { "id": "A", "text": "O reajuste do valor contratual é utilizado para corrigir a desvalorização da moeda em virtude da inflação." },
+        { "id": "B", "text": "A manutenção do equilíbrio econômico-financeiro do contrato mediante revisão é direito privativo da administração pública." },
+        { "id": "C", "text": "Nos contratos para serviços contínuos com regime de dedicação exclusiva de mão de obra, a repactuação deve observar o interregno mínimo de dezoito meses, contado da data de apresentação da proposta comercial da contratada." },
+        { "id": "D", "text": "O denominado fato do príncipe constitui motivo exclusivo para a realização da revisão do valor contratual." },
+        { "id": "E", "text": "O reajuste ocorre a partir do momento em que há situações excepcionais, supervenientes à apresentação da proposta comercial, de consequências incalculáveis e capazes de retardar ou obstar a regular execução contratual." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alternativa A corresponde ao reajustamento em sentido estrito para recompor a variação ordinária dos custos, inclusive a perda inflacionária conforme o índice contratual. A revisão não é direito privativo da Administração; a repactuação observa interregno mínimo de um ano; fato do príncipe não é a única hipótese de revisão; e situações excepcionais de consequências incalculáveis remetem à recomposição extraordinária, não ao reajuste por índice. Fonte: questão oficial; CEBRASPE; CAGEPA — Cargo 1: Administrador; 2024; questão 43; https://cdn.cebraspe.org.br/concursos/cagepa_24/arquivos/992_CAGEPA_001_01.PDF."
+    },
+    {
+      "id": "q52213403",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Na contratação de serviços com dedicação exclusiva de mão de obra, a conta-depósito vinculada – bloqueada para movimentação é um instrumento de controle interno que tem por objetivo constituir um fundo de reserva destinado ao pagamento de eventuais débitos ou danos causados pela contratada.",
+      "options": [
+        { "id": "C", "text": "Certo" },
+        { "id": "E", "text": "Errado" }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Errado. A conta-depósito vinculada bloqueada para movimentação é destinada ao provisionamento de parcelas trabalhistas e previdenciárias específicas vinculadas aos trabalhadores alocados no contrato, com movimentação controlada pela Administração; não é um fundo geral para cobrir eventuais débitos ou danos da contratada, função que se aproxima da garantia de execução. Fonte: questão oficial; CEBRASPE; CNJ — Cargo 8: Técnico Judiciário, Apoio Especializado, Programação de Sistemas; 2024; item 37; https://cdn.cebraspe.org.br/concursos/cnj_24/arquivos/979_CNJ_CB4_01.PDF."
+    },
+    {
+      "id": "q52213404",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "É necessário que o instrumento contratual estabeleça, de forma clara e precisa, as condições para a execução do objeto, definindo os direitos, as obrigações e as responsabilidades das partes, em conformidade com os termos do edital de licitação e os da proposta vencedora. A partir das informações do texto 2A1, assinale a opção correta a respeito da formalização contratual.",
+      "options": [
+        { "id": "A", "text": "O foro competente para dirimir qualquer questão em contratos para aquisição de bens e serviços firmados por unidades administrativas com sede no exterior será o foro da sede da administração pública, sem exceção." },
+        { "id": "B", "text": "Os contratos de serviços contínuos com regime de dedicação exclusiva de mão de obra deverão conter critério de reajustamento de preços por repactuação, observado o interregno mínimo de um ano, mediante comprovação analítica da variação dos custos." },
+        { "id": "C", "text": "O instrumento de contrato é obrigatório em todas as contratações diretas decorrentes de dispensa ou inexigibilidade de licitação." },
+        { "id": "D", "text": "O licitante remanescente regularmente convocado que não assinar o contrato estará sujeito somente às penalidades legalmente previstas." },
+        { "id": "E", "text": "Por constituir ato acessório, a prorrogação do prazo de vigência contratual não demandará a comprovação da regularidade fiscal do contratado." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alternativa B é o gabarito oficial definitivo e reproduz a disciplina da Lei nº 14.133/2021 para serviços contínuos com dedicação exclusiva de mão de obra: repactuação, interregno mínimo anual e demonstração analítica da variação dos custos. As demais opções generalizam ou afastam requisitos legais de formalização, convocação e manutenção das condições de habilitação. Fonte: questão oficial; CEBRASPE; SEFA/PR — Cargo 2: Agente Fazendário Estadual, função Analista Fazendário; 2026; questão 11; https://cdn.cebraspe.org.br/concursos/sefa_pr_25/arquivos/2F58995126C3CE0CD3ED52F1A50A1158B2AD11CC1A73B73D20B9B3308C4F549C.pdf."
     }
   ]
 }
