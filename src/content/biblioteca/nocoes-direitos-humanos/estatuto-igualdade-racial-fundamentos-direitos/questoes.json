@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q8739",
@@ -64,33 +64,33 @@
     },
     {
       "id": "q8741",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Desigualdade racial é",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "O Estatuto da Igualdade Racial, promulgado no Brasil em 2010, representa um marco legislativo significativo na busca por equidade e justiça social. Sobre o conceito de desigualdade racial, constante no Estatuto de Igualdade Racial, encontra-se pertinente",
       "options": [
         {
           "id": "A",
-          "text": "qualquer diferenciação, ainda que corretiva e justificada."
+          "text": "toda distinção, exclusão, restrição ou preferência baseada em raça, cor, descendência ou origem nacional ou étnica que tenha por objeto anular direitos humanos e liberdades fundamentais no campo político."
         },
         {
           "id": "B",
-          "text": "sinônimo integral de discriminação racial."
+          "text": "toda situação injustificada de diferenciação de acesso e fruição de bens, serviços e oportunidades, nas esferas pública e privada, em virtude de raça, cor, descendência ou origem nacional ou étnica."
         },
         {
           "id": "C",
-          "text": "situação injustificada de diferenciação no acesso e na fruição de bens, serviços e oportunidades, nas esferas pública e privada, pelos critérios raciais ou étnicos legais."
+          "text": "toda distinção, exclusão, restrição ou preferência baseada em raça, cor, descendência ou origem nacional ou étnica que tenha por objeto anular direitos humanos e liberdades fundamentais no campo econômico."
         },
         {
           "id": "D",
-          "text": "apenas diferença de renda no setor público."
+          "text": "assimetria existente no âmbito da sociedade que acentua a distância social entre mulheres negras e os demais segmentos sociais."
         },
         {
           "id": "E",
-          "text": "assimetria exclusiva entre homens negros e mulheres negras."
+          "text": "toda distinção, exclusão, restrição ou preferência baseada em raça, cor, descendência ou origem nacional ou étnica que tenha por objeto anular direitos humanos e liberdades fundamentais no campo social."
         }
       ],
-      "correctOptionId": "C",
-      "explanation": "A definição exige diferenciação injustificada e não se confunde com discriminação nem com desigualdade de gênero e raça. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "A alternativa B corresponde à definição legal de desigualdade racial. As demais alternativas confundem o conceito com discriminação racial ou com desigualdade de gênero e raça. Fonte: questão oficial; FGV; DNIT - Analista em Infraestrutura de Transportes, Engenharia Civil, Tipo 1; 2024; questão 29; https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-infraestrutura-de-transportes-engenharia-civilcns200-tipo-1.pdf; gabarito definitivo B em https://conhecimento.fgv.br/sites/default/files/concursos/dnit2024_gabarito_definitivo_20240312.pdf."
     },
     {
       "id": "q8742",
@@ -1801,6 +1801,36 @@
       ],
       "correctOptionId": "E",
       "explanation": "Medidas especiais corretivas são compatíveis com a igualdade material quando enfrentam barreiras históricas de forma legítima e proporcional. Fonte: questão adaptada de Cespe/Cebraspe; MPU - Analista do MPU, Especialidade Direito; 2018; item 50; https://cdn.cebraspe.org.br/concursos/MPU_18/arquivos/MATRIZ_421_MPUCB1.PDF; gabarito definitivo C (certo) em https://cdn.cebraspe.org.br/concursos/MPU_18/arquivos/GAB_DEFINITIVO_MATRIZ_421_MPUCB1__PAG_4.PDF; adaptação: item certo ou errado convertido em questão de cinco alternativas, preservando o núcleo sobre medidas especiais e igualdade."
+    },
+    {
+      "id": "u101_fgv_pmerj2021_q68",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A Diretora da Escola particular XX recebeu a informação, de uma comissão de pais, de que o estabelecimento de ensino não promovia o estudo da história da África e da história da população negra no Brasil. Além disso, foi identificada a ausência de participação de intelectuais do movimento negro para debater com os estudantes, nas datas comemorativas de caráter cívico, suas vivências relativas ao tema em comemoração, embora isto fosse estimulado pelo Poder Público. Sabedora de que os fatos descritos eram verdadeiros, a Diretora respondeu corretamente, à luz do Estatuto da igualdade Racial, que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o estudo da história da África e da história da população negra no Brasil era obrigatório, mas apenas nas escolas públicas, e que a participação de intelectuais negros afrontava a autonomia didática das escolas."
+        },
+        {
+          "id": "B",
+          "text": "as normas afetas à igualdade racial, por apresentarem contornos eminentemente afirmativos, se baseiam no voluntarismo, não na imposição, e que a escola entendia que o momento não era adequado à adoção dessas medidas."
+        },
+        {
+          "id": "C",
+          "text": "o estudo da história da África e da história da população negra no Brasil era obrigatório, mas apenas nas escolas públicas, e que a participação de intelectuais negros, apesar de estranha à igualdade racial, seria analisada."
+        },
+        {
+          "id": "D",
+          "text": "iria determinar a correção curricular, de modo a promover o estudo da história da África e da história da população negra no Brasil, e que promoveria, sempre que possível, a participação de intelectuais do movimento negro."
+        },
+        {
+          "id": "E",
+          "text": "iria determinar a correção curricular, de modo a promover o estudo da história da África e da história da população negra no Brasil, e que a participação de intelectuais negros afrontava a autonomia didática das escolas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O estudo da história da África e da história da população negra no Brasil é obrigatório no ensino fundamental e médio, público e privado; nas datas cívicas, o poder público incentiva a participação de intelectuais e representantes do movimento negro para debater suas vivências com os estudantes. Fonte: questão oficial; FGV; PMERJ - Curso de Formação de Oficiais da PM (QOPM), Tipo 2 - Verde; 2021; questão 68; https://conhecimento.fgv.br/sites/default/files/concursos/pmerj2021-curso-de-formacao-de-oficiais-da-pmerj-pmcfo01-tipo-2.pdf; gabarito definitivo D em https://conhecimento.fgv.br/sites/default/files/concursos/pmerj2021_gabarito_definitivo.pdf."
     }
   ]
 }
