@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q1234",
@@ -3277,6 +3277,60 @@
       ],
       "correctOptionId": "errado",
       "explanation": "O item está errado: o afastamento indicado de 20 cm não corresponde à orientação cobrada pela banca para a armazenagem segura. Fonte: CESPE/UnB, MPU, Técnico do MPU – Apoio Técnico-Administrativo – Administração, 2013, item 117; gabarito oficial E."
+    },
+    {
+      "id": "u120_tceac2024_q94",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O arranjo físico do almoxarifado deve considerar, além do planejamento da expansão e necessidade de recursos financeiros, os métodos de movimentação e de armazenagem.",
+      "options": [
+        {
+          "id": "certo",
+          "text": "Certo"
+        },
+        {
+          "id": "errado",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "certo",
+      "explanation": "O item está correto: o leiaute do almoxarifado deve compatibilizar expansão e recursos com os métodos de movimentação e armazenagem. Fonte: questão oficial; Cebraspe; TCE-AC — Técnico de Controle Externo, Área Técnico-Administrativo, Especialidade Instrutivo; 2024; item 94; https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/993_TCE_AC_019_01.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_019_01.PDF."
+    },
+    {
+      "id": "u120_tceac2024_q95",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O evitamento da obsolescência e o provimento de treinamento aos colaboradores contribuem para a redução dos custos de armazenagem.",
+      "options": [
+        {
+          "id": "certo",
+          "text": "Certo"
+        },
+        {
+          "id": "errado",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "certo",
+      "explanation": "O item está correto: prevenir obsolescência reduz perdas, e o treinamento contribui para operações de armazenagem mais eficientes e com menos falhas. Fonte: questão oficial; Cebraspe; TCE-AC — Técnico de Controle Externo, Área Técnico-Administrativo, Especialidade Instrutivo; 2024; item 95; https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/993_TCE_AC_019_01.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_019_01.PDF."
+    },
+    {
+      "id": "u120_cmmaceio2024_q84",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um dos objetivos da armazenagem é dispor de um arranjo físico que possibilite o uso eficiente de mão de obra e de equipamentos de movimentação de materiais.",
+      "options": [
+        {
+          "id": "certo",
+          "text": "Certo"
+        },
+        {
+          "id": "errado",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "certo",
+      "explanation": "O item está correto: o arranjo físico deve favorecer fluxo e uso eficiente dos recursos humanos e dos equipamentos de movimentação. Fonte: questão oficial; Cebraspe; Câmara Municipal de Maceió — Analista Administrativo; 2024; item 84; https://cdn.cebraspe.org.br/concursos/camara_municipal_maceio_24/arquivos/972_CAMARA_MACEIO_001_01.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/camara_municipal_maceio_24/arquivos/GAB_DEFINITIVO_972_CAMARA_MACEIO_001_01.PDF."
     }
   ]
 }
