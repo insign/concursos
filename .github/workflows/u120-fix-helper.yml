@@ -1,0 +1,29 @@
+name: U120 fix helper runtime
+
+on:
+  pull_request:
+    types: [synchronize]
+
+permissions:
+  contents: write
+
+jobs:
+  fix-runtime:
+    if: github.head_ref == 'feat/u120-questoes-reais-20260902'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Align helper Node runtime
+        run: |
+          if ! grep -q 'node-version: 20' .github/workflows/u120-helper.yml; then
+            echo 'Helper runtime already aligned.'
+            exit 0
+          fi
+          sed -i 's/node-version: 20/node-version: 24/' .github/workflows/u120-helper.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .github/workflows/u120-helper.yml
+          git commit -m 'chore: alinha runtime temporário da U120'
+          git push origin HEAD:${{ github.head_ref }}
