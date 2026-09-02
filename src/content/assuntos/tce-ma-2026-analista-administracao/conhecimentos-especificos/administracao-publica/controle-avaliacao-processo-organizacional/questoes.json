@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q534",
@@ -751,6 +751,36 @@
       ],
       "correctOptionId": "e",
       "explanation": "O art. 14 associa controle à racionalidade administrativa. A presença do controle em todos os níveis, prevista no art. 13, não legitima formalismo inútil ou antieconômico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q52210601",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Códigos: P: Indicador de processo/implementação (execução, cobertura, conformidade). R: Indicador de resultado (outcome) no público-alvo. Situação: (Programa Fila Zero – consultas especializadas). Um município do Estado de São Paulo implementou o Programa Fila Zero que consiste em triagem padronizada, ampliação de agenda de consultas especializadas e busca ativa para reduzir a espera de pacientes elegíveis para a primeira consulta com especialista. O objetivo do programa é reduzir o tempo de espera entre o encaminhamento feito em uma unidade básica de saúde e a primeira consulta com especialista. Classifique as afirmativas a seguir, usando P ou R. ( ) Percentual de unidades que realizou a triagem inicial, conforme protocolo no semestre. ( ) Tempo médio de espera (dias) entre o encaminhamento e a primeira consulta dos pacientes elegíveis. ( ) Percentual de consultas adicionais (extras) necessárias no semestre em relação ao planejado. ( ) Percentual de pacientes elegíveis atendidos em até 30 dias após o encaminhamento. ( ) Proporção de prontuários com registro completo dos campos definidos para o programa. Assinale a opção que apresenta a classificação correta, na ordem apresentada.",
+      "options": [
+        {"id": "A", "text": "P – R – P – R – P."},
+        {"id": "B", "text": "R – P – P – R – P."},
+        {"id": "C", "text": "P – P – R – R – P."},
+        {"id": "D", "text": "R – R – P – P – R."},
+        {"id": "E", "text": "P – R – R – P – P."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Indicadores de processo/implementação acompanham execução, cobertura e conformidade; indicadores de resultado observam mudanças no público-alvo. Assim, a sequência correta é P – R – P – R – P. Questão 54 da prova FGV 2025 da Controladoria Geral do Estado de São Paulo (CGE-SP), cargo Auditor Estadual de Controle – Obras e Concessões, Tipo 2, turno da tarde. Gabarito definitivo: A. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/cns2a04-auditor-estadual-de-controle-cge-obras-e-concessoes-cns2a04-tipo-2.pdf. Gabarito: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-cge-sp.pdf."
+    },
+    {
+      "id": "q52210602",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Sistemas de gestão baseados em indicadores de desempenho permitem avaliar o quão próxima de seus objetivos e suas metas uma organização está no curso de suas ações. Serve, assim, como importante base para a tomada de decisão, orientando a gestão em diferentes níveis. Sobre os indicadores de desempenho, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Ao usar o Balance Scorecard (BSC) como instrumento para construção do mapa estratégico, é recomendado que os indicadores de desempenho estejam relacionados com os objetivos estratégicos, os quais devem ter ao menos um indicador associado. ( ) O uso de indicadores pode encontrar obstáculos, sobretudo quando há um descolamento entre os indicadores usados e as necessidades do usuário. ( ) Entre as qualidades de um bom indicador, podemos citar a confiabilidade, a simplicidade, a rastreabilidade e a praticidade. As afirmativas são, na ordem apresentada, respectivamente,",
+      "options": [
+        {"id": "A", "text": "V, F e F."},
+        {"id": "B", "text": "F, V e V."},
+        {"id": "C", "text": "V, V e F."},
+        {"id": "D", "text": "V, V e V."},
+        {"id": "E", "text": "F, V e F."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os indicadores devem se alinhar aos objetivos, atender às necessidades dos usuários e apresentar qualidades como confiabilidade, simplicidade, rastreabilidade e praticidade. Questão 67 da prova FGV 2022 do Senado Federal, cargo Analista Legislativo – Administração, Tipo 3. Gabarito definitivo: D. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/e1cns01_-_analista_legislativo_-_administracaoe1cns01_tipo_3.pdf. Gabarito: https://conhecimento.fgv.br/sites/default/files/concursos/senado2022_gabarito_definitivo_edital01.pdf."
     }
   ]
 }
