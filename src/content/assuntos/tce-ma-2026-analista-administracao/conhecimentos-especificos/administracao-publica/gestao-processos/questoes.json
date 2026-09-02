@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q584",
@@ -1801,6 +1801,186 @@
       ],
       "correctOptionId": "e",
       "explanation": "Modelagem e análise apoiam decisão; os resultados dependem de implementação e acompanhamento. Fonte: questão adaptada de Cebraspe/STJ/Analista Judiciário/2024/https://www.mapadaprova.com.br/questoes/superior-tribunal-de-justica-instituicao/administracao/bpm-cbok-ciclo-pdca-6-sigma-etc; adaptação: conversão de certo/errado para múltipla escolha e contextualização."
+    },
+    {
+      "id": "q107001",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Analise as afirmativas a seguir, sobre a modelagem de processos utilizando Business Process Modelling and Notation (BPMN).\nI. Deve-se tentar sempre utilizar o máximo de detalhes possíveis no diagrama para garantir que todos os aspectos do processo sejam visualizados.\nII. Ao modelar processos complexos, é recomendado dividir o diagrama em subprocessos para facilitar a visualização e o entendimento do fluxo.\nIII. É uma boa prática definir pontos de decisão com gateways para representar alternativas e condições no fluxo do processo, garantindo que as ramificações sejam claras e consistentes.\nEstá correto o que se afirma em",
+      "options": [
+        {
+          "id": "a",
+          "text": "I, apenas."
+        },
+        {
+          "id": "b",
+          "text": "I e III, apenas."
+        },
+        {
+          "id": "c",
+          "text": "I e II, apenas."
+        },
+        {
+          "id": "d",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "e",
+          "text": "I, II e III."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A afirmativa I é incorreta porque detalhamento excessivo prejudica a legibilidade do modelo; II e III expressam boas práticas para processos complexos e pontos de decisão. Fonte: questão oficial; FGV; SMF Cuiabá — Auditor Fiscal Tributário da Receita Municipal — Tecnologia da Informação; 2024; questão 28; https://conhecimento.fgv.br/sites/default/files/concursos/smf-cuiaba-area-tecnologia-da-informacao-prova-ii-tarde-tipo-1.pdf."
+    },
+    {
+      "id": "q107002",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em gestão de processos de negócio, handoff (transferências/passagens) é qualquer ponto em um processo em que o trabalho ou a informação passa de um sistema, pessoa, ou grupo para outro, o que pode gerar atrasos ou desconexões no processo e distorções ou perdas de informações. Uma das formas de otimizar um processo é simplificar e limitar as transferências quando possível, incluindo a automatização dos handoffs através da tecnologia.\nNo BPMN, para explicitar os handoffs em um processo deve-se modelar um(a):",
+      "options": [
+        {
+          "id": "a",
+          "text": "token;"
+        },
+        {
+          "id": "b",
+          "text": "swimlane;"
+        },
+        {
+          "id": "c",
+          "text": "manual task;"
+        },
+        {
+          "id": "d",
+          "text": "atomic activity;"
+        },
+        {
+          "id": "e",
+          "text": "adhoc subprocess."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Swimlanes explicitam os participantes e responsabilidades no fluxo, tornando visíveis as passagens de trabalho ou informação entre responsáveis. Fonte: questão oficial; FGV; TJRJ — Analista Judiciário — Tecnologia da Informação — Analista de Negócios; 2026; questão 36; https://conhecimento.fgv.br/sites/default/files/concursos/analista-judiciario-tecnologia-da-informacao-analista-de-negocios-ns-a11-ananegocios-tipo-1.pdf."
+    },
+    {
+      "id": "q107003",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Gerenciamento de Processos de Negócio (BPM) propicia a implantação de melhorias em processos e seu gerenciamento, a fim de se obterem benefícios relacionados, dentre os quais a elevação da qualidade dos serviços prestados pelo Poder Judiciário.\nDe acordo com o CBOK 4.0, o ciclo de Gerenciamento de Processos de Negócio é composto por etapas que, a depender da demanda, podem ser suprimidas ou executadas individualmente.\nA avaliação de como os processos de negócio estão operando para, a partir do entendimento comum de seu estado atual, identificar possíveis melhorias para atender aos objetivos do negócio com efetividade ocorre no(a):",
+      "options": [
+        {
+          "id": "a",
+          "text": "análise de processos;"
+        },
+        {
+          "id": "b",
+          "text": "desenho de processo;"
+        },
+        {
+          "id": "c",
+          "text": "modelagem de processos;"
+        },
+        {
+          "id": "d",
+          "text": "transformação de processos;"
+        },
+        {
+          "id": "e",
+          "text": "gerenciamento do desempenho do processo."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "No BPM CBOK, a análise busca compreender o estado atual do processo, seu desempenho e suas oportunidades de melhoria antes do desenho ou da transformação. Fonte: questão oficial; FGV; TJRJ — Analista Judiciário — Tecnologia da Informação — Analista de Negócios; 2026; questão 43; https://conhecimento.fgv.br/sites/default/files/concursos/analista-judiciario-tecnologia-da-informacao-analista-de-negocios-ns-a11-ananegocios-tipo-1.pdf."
+    },
+    {
+      "id": "q107004",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "De acordo com o BPM CBOK 4.0, o desenho de processos é a criação de especificações para processos de negócio novos e modificados.\nOs princípios do desenho de processos representam os principais conceitos envolvidos na maioria dos projetos de redesenho de processos.\nO princípio do desenho de processo que orienta que se estude o fluxograma AS-IS do processo, para determinar exatamente onde as atividades de agregação de valor são executadas, é o seguinte:",
+      "options": [
+        {
+          "id": "a",
+          "text": "reduza o tamanho do lote;"
+        },
+        {
+          "id": "b",
+          "text": "redesenhe, depois automatize;"
+        },
+        {
+          "id": "c",
+          "text": "providencie um único ponto de contato;"
+        },
+        {
+          "id": "d",
+          "text": "capture a informação uma vez e compartilhe-a;"
+        },
+        {
+          "id": "e",
+          "text": "desenhe em torno de atividades que agregam valor."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O enunciado descreve o princípio de desenhar o processo em torno das atividades que efetivamente agregam valor, usando o AS-IS para localizar essas atividades. Fonte: questão oficial; FGV; TJRJ — Analista Judiciário — Tecnologia da Informação — Analista de Negócios; 2026; questão 46; https://conhecimento.fgv.br/sites/default/files/concursos/analista-judiciario-tecnologia-da-informacao-analista-de-negocios-ns-a11-ananegocios-tipo-1.pdf."
+    },
+    {
+      "id": "q107005",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma empresa de e-commerce está automatizando seu processo de liberação de pedidos de forma que se integre com os dados de estoque, pagamento e logística.\nApós um estudo sobre o assunto, a equipe de automação identificou, como solução mais adequada para modelar fluxos, a necessidade de aplicar as regras de negócios e executar o monitoramento de indicadores em tempo real por meio de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "planilha colaborativa com macros;"
+        },
+        {
+          "id": "b",
+          "text": "ferramenta de BI para análise de dados históricos;"
+        },
+        {
+          "id": "c",
+          "text": "CRM com automação de marketing;"
+        },
+        {
+          "id": "d",
+          "text": "ERP tradicional com foco contábil;"
+        },
+        {
+          "id": "e",
+          "text": "BPMS com recursos de orquestração e monitoramento."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Uma suíte BPMS é apropriada para modelar e orquestrar fluxos, aplicar regras de negócio e monitorar a execução e os indicadores do processo. Fonte: questão oficial; FGV; TJRJ — Analista Judiciário — Tecnologia da Informação — Analista de Negócios; 2026; questão 51; https://conhecimento.fgv.br/sites/default/files/concursos/analista-judiciario-tecnologia-da-informacao-analista-de-negocios-ns-a11-ananegocios-tipo-1.pdf."
+    },
+    {
+      "id": "q107006",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um Tribunal de Contas adotou a notação BPMN para modelar seus processos e utiliza uma plataforma BPMS para automatizar fluxos críticos.\nUm dos processos automatizados refere-se à análise e concessão de prazos para defesa de jurisdicionados, e inclui os seguintes elementos:\n• uma tarefa manual em que o analista jurídico avalia o pedido do jurisdicionado.\n• um gateway exclusivo que decide entre conceder ou negar o prazo solicitado.\n• uma tarefa de serviço que consulta automaticamente o histórico processual do jurisdicionado no sistema de controle de processos.\n• um evento de mensagem intermediário que aguarda o envio de documentação complementar pelo jurisdicionado.\n• indicadores de desempenho mostrando que o tempo médio de resposta dos jurisdicionados compromete o prazo legal para emissão de parecer.\nCom base nos conceitos de modelagem BPMN e automação com BPMS, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Apenas tarefas automatizadas, como consultas a sistemas, devem constar no BPMS; tarefas manuais como avaliação jurídica devem ocorrer fora da plataforma."
+        },
+        {
+          "id": "b",
+          "text": "O uso de gateway exclusivo no processo é inadequado, pois sempre resulta em atrasos; o correto seria adotar um gateway paralelo para execução simultânea."
+        },
+        {
+          "id": "c",
+          "text": "O evento de mensagem intermediário compromete a automação do processo e não deve ser usado em BPMS."
+        },
+        {
+          "id": "d",
+          "text": "A modelagem apresentada está alinhada às práticas de BPMN e permite automação parcial e monitoramento eficaz via BPMS."
+        },
+        {
+          "id": "e",
+          "text": "Para que o gargalo identificado possa ser tratado, seria necessário modelar o processo como coreografia BPMN, o que não é possível em processos internos."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "BPMN e BPMS acomodam tarefas manuais e automatizadas, gateways exclusivos e eventos de mensagem; o fluxo descrito permite automação parcial e monitoramento do desempenho. Fonte: questão oficial; FGV; TCE-PE — Analista de Controle Externo — Tecnologia da Informação; 2025; questão 49; https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-controle-externo-tecnologia-da-informacaocns103-tipo-2.pdf."
     }
   ]
 }
