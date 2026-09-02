@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q1819",
@@ -393,21 +393,6 @@
       "explanation": "As três fases amplas são planejamento, seleção e gestão. DFD, ETP e Mapa são instrumentos ou atividades inseridos no procedimento e não substituem essa divisão geral. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q1845",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Dentro da fase de Planejamento da Contratação, o art. 20 estabelece as etapas de:",
-      "options": [
-        { "id": "a", "text": "habilitação, julgamento e homologação." },
-        { "id": "b", "text": "Estudos Preliminares, Gerenciamento de Riscos e Termo de Referência ou Projeto Básico." },
-        { "id": "c", "text": "empenho, execução e pagamento." },
-        { "id": "d", "text": "sanção, recurso e reabilitação." },
-        { "id": "e", "text": "pesquisa de preços, adjudicação e fiscalização." }
-      ],
-      "correctOptionId": "b",
-      "explanation": "O art. 20 distingue três etapas internas do planejamento: estudos, riscos e TR/PB. Habilitação e julgamento pertencem à seleção; execução, pagamento e fiscalização se projetam na gestão. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
       "id": "q1846",
       "revision": 1,
       "origin": "authorial",
@@ -678,21 +663,6 @@
       "explanation": "O processo combina identificação, avaliação de probabilidade e impacto, tratamento, contingência para risco residual inaceitável e atribuição de responsabilidades. Gerenciar não significa eliminar toda incerteza nem transferi-la indiscriminadamente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q1864",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Em quais momentos mínimos o Mapa de Riscos deve ser atualizado e juntado aos autos?",
-      "options": [
-        { "id": "a", "text": "Ao final do ETP, ao final do TR/PB, após a seleção e depois de eventos relevantes na gestão." },
-        { "id": "b", "text": "Somente uma vez, antes do DFD." },
-        { "id": "c", "text": "Apenas depois da extinção contratual." },
-        { "id": "d", "text": "Exclusivamente quando o contratado pedir." },
-        { "id": "e", "text": "Somente após a aplicação de sanção." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "O Mapa acompanha a evolução do procedimento: fecha estudos, especificação, seleção e responde a eventos relevantes da execução. Um registro único e estático não satisfaz a natureza contínua do gerenciamento. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
       "id": "q1865",
       "revision": 1,
       "origin": "authorial",
@@ -888,21 +858,6 @@
       "explanation": "A continuidade institucional precisa ser planejada antes da execução. Quando pertinente, o modelo prevê transição e transferência do conhecimento; subcontratação e consórcio também exigem decisão motivada, não presunção automática. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
-      "id": "q1878",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A remuneração de serviços exclusivamente por horas ou postos de trabalho:",
-      "options": [
-        { "id": "a", "text": "é obrigatória em qualquer terceirização." },
-        { "id": "b", "text": "dispensa controle do resultado." },
-        { "id": "c", "text": "transforma os empregados em servidores." },
-        { "id": "d", "text": "pode ser escolhida sem método de cálculo." },
-        { "id": "e", "text": "é excepcional e exige método e justificativa quando resultados não puderem ser medidos de modo mais adequado." }
-      ],
-      "correctOptionId": "e",
-      "explanation": "A norma privilegia unidades que mensurem resultados. Horas e postos podem ser necessários em casos justificados, mas exigem método de cálculo e não afastam padrões de desempenho, fiscalização ou a natureza do objeto como serviço. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
       "id": "q1879",
       "revision": 1,
       "origin": "authorial",
@@ -976,6 +931,44 @@
       ],
       "correctOptionId": "e",
       "explanation": "Quem executa o objeto não pode simultaneamente auxiliar a Administração a fiscalizar ou supervisionar sua própria execução. A segregação reduz conflito de interesses e deve ser incorporada ao desenho da contratação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q52213101",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A INSTRUÇÃO NORMATIVA Nº 5, DE 26 DE MAIO DE 2017, que dispõe sobre as regras e diretrizes do procedimento de contratação de serviços sob o regime de execução indireta no âmbito da Administração Pública federal direta, autárquica e fundacional, estabelece em Art.20 “O Planejamento da Contratação, para cada serviço a ser contratado, consistirá nas seguintes etapas”. Considere as etapas do planejamento da contratação abaixo, atribuindo V para a(s) verdadeira(s) e F para a(s) falsa(s): ( ) Formalização de Demanda; ( ) Gerenciamento de Riscos; ( ) Estudos Preliminares; ( ) Elaboração de Edital; ( ) Termo de Referência ou Projeto Básico. Assinale a sequência CORRETA:",
+      "options": [
+        { "id": "a", "text": "V, F, V, F, F." },
+        { "id": "b", "text": "F, V, V, F, V." },
+        { "id": "c", "text": "F, V, F, V, V." },
+        { "id": "d", "text": "V, F, F, V, F." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A alternativa B foi mantida pela UFV após recurso. O art. 20 da IN nº 5/2017 enumera Estudos Preliminares, Gerenciamento de Riscos e Termo de Referência ou Projeto Básico. Questão 35, UFV, Administrador, 2022. Prova: https://pgp.ufv.br/wp-content/uploads/2022/03/ADMINISTRADOR.pdf. Recurso/gabarito oficial: https://pgp.ufv.br/wp-content/uploads/2022/05/Recursos_contra_questoes-gabaritos.pdf."
+    },
+    {
+      "id": "q52213102",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O mapa de riscos deve ser atualizado ao final da elaboração do termo de referência ou do projeto básico.",
+      "options": [
+        { "id": "a", "text": "Certo" },
+        { "id": "b", "text": "Errado" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Certo. A justificativa oficial remete ao art. 26, § 1º, II, da IN nº 5/2017. Item 113, Cebraspe, Procuradoria-Geral do Distrito Federal (PGDF), Analista Jurídico — Especialidade: Analista de Sistema (Desenvolvimento de Sistema), 2021. Prova/matriz oficial comentada: https://cdn.cebraspe.org.br/concursos/pg_df_19/arquivos/MATRIZ_521_PGDF_002_COM_JUSTIFICATIVA.PDF."
+    },
+    {
+      "id": "q52213103",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Na elaboração do projeto básico ou do termo de referência, o critério de remuneração da contratada por postos de trabalho poderá ser excepcionalmente adotado, sendo vedados a realização de horas extras ou o pagamento de adicionais não previstos nem estimados originariamente no ato convocatório.",
+      "options": [
+        { "id": "a", "text": "Certo" },
+        { "id": "b", "text": "Errado" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Certo. A justificativa oficial remete ao Anexo V, subitem 2.6, alínea d, e aos subitens d.1.2 e d.1.3 da IN nº 5/2017. Item 115, Cebraspe, Procuradoria-Geral do Distrito Federal (PGDF), Analista Jurídico — Especialidade: Analista de Sistema (Desenvolvimento de Sistema), 2021. Prova/matriz oficial comentada: https://cdn.cebraspe.org.br/concursos/pg_df_19/arquivos/MATRIZ_521_PGDF_002_COM_JUSTIFICATIVA.PDF."
     }
   ]
 }
