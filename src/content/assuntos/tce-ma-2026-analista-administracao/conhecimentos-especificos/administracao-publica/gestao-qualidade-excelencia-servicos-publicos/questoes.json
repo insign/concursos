@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q634",
@@ -1801,6 +1801,96 @@
       ],
       "correctOptionId": "e",
       "explanation": "Fonte: questão adaptada de itens Cebraspe sobre sistemas de gestão e melhoria, com base nos requisitos de ação corretiva da ISO 9001; fonte normativa: https://www.iso.org/standard/88464.html. Adaptação: situação administrativa e múltipla escolha."
+    },
+    {
+      "id": "q-u108-sefapr2026-20",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Os fundamentos da gestão da qualidade e os modelos de excelência gerencial são aplicáveis a diversas organizações, inclusive às pertencentes ao setor público. No que diz respeito à gestão da qualidade e à excelência gerencial, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A aplicação dos fundamentos da gestão da qualidade e dos modelos de excelência gerencial no setor público pressupõe abordagem sistêmica, na qual liderança, pessoas, processos e resultados devem ser tratados de forma integrada, sendo a melhoria da qualidade entendida como um processo contínuo de aprendizado organizacional."
+        },
+        {
+          "id": "B",
+          "text": "As ferramentas da qualidade, como fluxogramas, diagramas de causa e efeito e cartas de controle, são instrumentos voltados à indústria manufatureira e, assim, apresentam aplicação limitada em organizações públicas prestadoras de serviços."
+        },
+        {
+          "id": "C",
+          "text": "Independentemente da maturidade organizacional, da cultura institucional e da capacidade de liderança, a adoção de modelos de excelência gerencial no setor público garante a melhoria sustentada da qualidade dos serviços."
+        },
+        {
+          "id": "D",
+          "text": "Nos modelos clássicos de gestão da qualidade, a ênfase na padronização dos processos e na conformidade com especificações reduz a necessidade de envolvimento das pessoas, uma vez que a qualidade passa a ser assegurada primordialmente por controles formais e procedimentos normativos."
+        },
+        {
+          "id": "E",
+          "text": "O modelo de excelência gerencial adotado no setor público brasileiro enfatiza resultados institucionais, mas trata liderança, pessoas e processos como elementos acessórios, uma vez que o foco principal do modelo reside na mensuração de desempenho organizacional."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alternativa A expressa a abordagem sistêmica da excelência: liderança, pessoas, processos e resultados são integrados, com melhoria contínua e aprendizado organizacional. Fonte: questão oficial; Cebraspe; SEFA/PR — Agente Fazendário Estadual — função Administrador; 2026; questão 20; https://cdn.cebraspe.org.br/concursos/sefa_pr_25/arquivos/90ECB71259732E8F2E4407EDA63B6754CADD1809D7F1A2741FB1422320521691.pdf. Gabarito oficial definitivo: A; https://cdn.cebraspe.org.br/concursos/sefa_pr_25/arquivos/DCA73FE92A4BF95CA33C4169BCECBB8091DD5C9F19508E6718D4D5FE0F7D289D.pdf."
+    },
+    {
+      "id": "q-u108-caesb2025-70",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma empresa de manufatura busca implementar a metodologia 5S em sua área de produção para melhorar a organização, a limpeza e a eficiência dos processos. Após a fase inicial de organização e limpeza, a empresa percebeu que ainda havia desafios em manter os resultados alcançados a longo prazo. Considerando os princípios da metodologia 5S e os desafios enfrentados pela empresa mencionada na situação hipotética apresentada, assinale, entre as opções a seguir, aquela que apresenta a ação mais eficaz para consolidar a implementação da metodologia 5S nessa empresa e garantir a sua sustentabilidade.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Criar um comitê 5S composto por gestores de diferentes áreas, responsável por definir as metas e acompanhar o desempenho da implementação, mas sem envolver os operadores de produção nas atividades diárias, para que o foco possa ser mantido."
+        },
+        {
+          "id": "B",
+          "text": "Realizar auditorias periódicas para verificar a conformidade com os padrões estabelecidos, aplicando punições aos colaboradores que não cumprirem as normas."
+        },
+        {
+          "id": "C",
+          "text": "Desenvolver um sistema de reconhecimento e recompensa para os colaboradores que contribuírem para a melhoria contínua, incentivando a participação de todos na manutenção dos resultados."
+        },
+        {
+          "id": "D",
+          "text": "Concentrar os esforços na fase de limpeza (Seiso), realizando atividades de limpeza profunda de forma semanal, e delegar as demais atividades do 5S aos líderes de equipe."
+        },
+        {
+          "id": "E",
+          "text": "Priorizar a fase de padronização (Seiketsu), desenvolvendo procedimentos operacionais padrão (POPs) detalhados para todas as atividades, mas sem envolver os colaboradores na criação desses documentos, a fim de evitar constrangimentos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C é a indicada pela própria justificativa oficial: reconhecimento, recompensa e participação de todos fortalecem a cultura de melhoria contínua e a sustentabilidade do 5S. Fonte: questão oficial; Cebraspe; CAESB — Analista de Sistemas de Saneamento — especialidade Engenheiro Mecânico; 2025; questão 70; https://cdn.cebraspe.org.br/concursos/caesb_24/arquivos/905BAE8B8901D96A45D9CBF7F17341894AF8405A0E2D9122A552F640CAC8B9DB.pdf."
+    },
+    {
+      "id": "q-u108-inmetro2010-54",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considerando que a qualidade pressupõe ações contínuas, compartilhadas e direcionadas, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O ciclo da qualidade de Deming é uma ferramenta voltada primordialmente para o controle de resultados."
+        },
+        {
+          "id": "B",
+          "text": "Os esforços para a implementação da qualidade seguem a tendência da centralização de poder, de modo a verticalizar a comunicação na organização."
+        },
+        {
+          "id": "C",
+          "text": "O discurso principal do kaizen é focado na melhoria incremental, a partir da eliminação da sobrecarga de trabalho, do desperdício de tempo e recursos e da irregularidade nas ações e atividades."
+        },
+        {
+          "id": "D",
+          "text": "Podem ser usadas como ferramentas da qualidade: ciclo PDCA; 5W2H; matriz GUT; brainstorming; fluxograma; desvio padrão; análise de Pareto; diagrama de causa e efeito; 5S e escala Richter."
+        },
+        {
+          "id": "E",
+          "text": "O controle da qualidade total estende seu conceito de qualidade por toda a organização, muitas vezes preterindo a satisfação dos clientes externos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C está correta porque o kaizen enfatiza melhoria incremental e eliminação de desperdícios e irregularidades. Fonte: questão oficial; Cespe/UnB; INMETRO — Pesquisador-Tecnologista em Metrologia e Qualidade — área Acreditação; 2010; questão 54; https://cdn.cebraspe.org.br/concursos/INMETRO2010/arquivos/INMETRO10_010_14.pdf. Gabarito oficial definitivo: C; conferência do espelho definitivo: https://www.passeidireto.com/arquivo/117613336/prova-instituto-nacional-de-metrologia-normalizacao-e-qualidade-industrial-cebra."
     }
   ]
 }
