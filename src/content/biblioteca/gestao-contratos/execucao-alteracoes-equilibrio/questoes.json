@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q1644",
@@ -1681,6 +1681,306 @@
       ],
       "correctOptionId": "b",
       "explanation": "No Tema 1118 (RE 1.298.647/SP), o STF afastou a responsabilização subsidiária fundada apenas na inversão do ônus da prova e exigiu que a parte autora demonstre comportamento negligente ou nexo causal. A tese considera negligente a inércia da Administração após notificação formal idônea de descumprimento trabalhista e reforça a adoção das medidas preventivas do art. 121, § 3º. Fonte: questão autoral baseada na tese vinculante do STF, julgada em 13/2/2025 e transitada em julgado em 29/4/2025."
+    },
+    {
+      "id": "q9912801",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A respeito da contratação de bens e serviços, julgue os itens a seguir, com base na Lei n.º 14.133/2021.\n\nPara a execução do contrato, é permitido ao contratado subcontratar parte do serviço ou do fornecimento.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 122 da Lei nº 14.133/2021 admite a subcontratação de partes da obra, do serviço ou do fornecimento até o limite autorizado pela Administração, sem afastar as responsabilidades do contratado. Fonte: item 79 da prova Cebraspe/TSE 2024, Cargo 1 — Analista Judiciário, Área Administrativa; gabarito oficial definitivo: C."
+    },
+    {
+      "id": "q9912802",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A respeito da contratação de bens e serviços, julgue os itens a seguir, com base na Lei n.º 14.133/2021.\n\nConsidere que, no curso de determinado contrato de serviço continuado, a administração tenha-se recusado a emitir decisão sobre reclamação relacionada a sua execução, sob a alegação de ser meramente protelatória. Nessa situação hipotética, a administração agiu em desconformidade com a lei.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 123 da Lei nº 14.133/2021 excepciona do dever de decisão explícita os requerimentos manifestamente impertinentes, meramente protelatórios ou de nenhum interesse para a boa execução do contrato. Fonte: item 80 da prova Cebraspe/TSE 2024, Cargo 1 — Analista Judiciário, Área Administrativa; gabarito oficial definitivo: E."
+    },
+    {
+      "id": "q9912803",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A respeito da contratação de bens e serviços, julgue os itens a seguir, com base na Lei n.º 14.133/2021.\n\nEm caso de suspensão do contrato, o cronograma de execução será prorrogado automaticamente pelo tempo correspondente, anotadas tais circunstâncias mediante simples apostila.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 115, § 5º, da Lei nº 14.133/2021 determina a prorrogação automática do cronograma pelo tempo correspondente ao impedimento, à ordem de paralisação ou à suspensão, com anotação por simples apostila. Fonte: item 81 da prova Cebraspe/TSE 2024, Cargo 1 — Analista Judiciário, Área Administrativa; gabarito oficial definitivo: C."
+    },
+    {
+      "id": "q9912804",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A respeito da contratação de bens e serviços, julgue os itens a seguir, com base na Lei n.º 14.133/2021.\n\nA contratação de terceiro exime a responsabilidade do fiscal do contrato.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Nos termos do art. 117, § 4º, II, da Lei nº 14.133/2021, a contratação de terceiro para assistir e subsidiar o fiscal não exime este de responsabilidade nos limites das informações recebidas. Fonte: item 82 da prova Cebraspe/TSE 2024, Cargo 1 — Analista Judiciário, Área Administrativa; gabarito oficial definitivo: E."
+    },
+    {
+      "id": "q9912805",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Acerca da elaboração e da fiscalização de contratos administrativos, julgue os itens que se seguem.\n\nO preposto da contratada, que deve ser aceito pela administração, deve permanecer no local da execução do contrato.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 118 da Lei nº 14.133/2021 exige que o contratado mantenha preposto aceito pela Administração no local da obra ou do serviço para representá-lo na execução do contrato. Fonte: item 85 da prova Cebraspe/TSE 2024, Cargo 1 — Analista Judiciário, Área Administrativa; gabarito oficial definitivo: C."
+    },
+    {
+      "id": "q9912806",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Acerca da elaboração e da fiscalização de contratos administrativos, julgue os itens que se seguem.\n\nO preposto da contratada deverá anotar, em registro próprio, todas as ocorrências relacionadas à execução do contrato, determinando a regularização das faltas.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A anotação das ocorrências e a determinação do necessário à regularização das faltas ou defeitos são atribuições do fiscal do contrato, nos termos do art. 117, § 1º, e não do preposto da contratada. Fonte: item 87 da prova Cebraspe/TSE 2024, Cargo 1 — Analista Judiciário, Área Administrativa; gabarito oficial definitivo: E."
+    },
+    {
+      "id": "q9912807",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No que se refere ao acompanhamento da execução contratual e à aplicação de penalidades e sanções administrativas, julgue os itens subsequentes.\n\nÉ direito do fiscal do contrato administrativo, durante a sua execução, ser auxiliado pelos órgãos de assessoramento jurídico e de controle interno da administração.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 117, § 3º, da Lei nº 14.133/2021 prevê que o fiscal do contrato será auxiliado pelos órgãos de assessoramento jurídico e de controle interno da Administração. Fonte: item 91 da prova Cebraspe/TSE 2024, Cargo 1 — Analista Judiciário, Área Administrativa; gabarito oficial definitivo: C."
+    },
+    {
+      "id": "q9912808",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No que se refere ao acompanhamento da execução contratual e à aplicação de penalidades e sanções administrativas, julgue os itens subsequentes.\n\nA obrigação do contratado de comprovar o cumprimento da reserva de cargos prevista em lei para pessoas com deficiência esgota-se a cada prorrogação do prazo de vigência do ajuste.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 116 da Lei nº 14.133/2021 exige o cumprimento da reserva legal de cargos durante toda a execução do contrato e permite à Administração solicitar a comprovação a qualquer tempo, não apenas a cada prorrogação. Fonte: item 92 da prova Cebraspe/TSE 2024, Cargo 1 — Analista Judiciário, Área Administrativa; gabarito oficial definitivo: E."
+    },
+    {
+      "id": "q9912809",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Acerca dos contratos administrativos, julgue os itens a seguir.\n\nOs limites estabelecidos na Lei n.º 14.133/2021, concernentes às alterações decorrentes de supressões no objeto contratual, poderão ser ultrapassados, por consenso entre as partes, desde que não transfigurem o objeto da contratação.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O limite de 25% do art. 125 refere-se às alterações unilaterais a que alude o art. 124, I. A supressão consensual pode superar esse percentual, sem admitir a transfiguração do objeto. Fonte: item 55 da prova Cebraspe/STJ 2024, Cargo 19 — Analista Judiciário, Área Judiciária; gabarito oficial definitivo: C."
+    },
+    {
+      "id": "q9912810",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Acerca dos contratos administrativos, julgue os itens a seguir.\n\nOs contratos administrativos regidos pela Lei n.º 14.133/2021 poderão ser alterados unilateralmente pela administração pública, quando for necessária a modificação do regime de execução da obra ou do serviço, em face de verificação técnica da inaplicabilidade dos termos contratuais originários.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A modificação do regime de execução da obra ou do serviço por inaplicabilidade técnica dos termos originários é hipótese de alteração por acordo entre as partes, conforme o art. 124, II, b, da Lei nº 14.133/2021, e não de alteração unilateral. Fonte: item 56 da prova Cebraspe/STJ 2024, Cargo 19 — Analista Judiciário, Área Judiciária; gabarito oficial definitivo: E."
+    },
+    {
+      "id": "q9912811",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A respeito da elaboração e fiscalização de contratos administrativos, julgue os itens que se seguem.\n\nNos contratos de serviços contínuos com regime de dedicação exclusiva de mão de obra, para assegurar o cumprimento de obrigações trabalhistas, o contratante pode exigir, mediante disposição em contrato ou em edital, contratação de seguro-garantia com cobertura para verbas rescisórias inadimplidas.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 121, § 3º, I, da Lei nº 14.133/2021 autoriza, mediante disposição em edital ou contrato, a exigência de caução, fiança bancária ou seguro-garantia com cobertura para verbas rescisórias inadimplidas. Fonte: item 102 da prova Cebraspe/STM 2025, Cargo 8 — Técnico Judiciário, Área Administrativa; gabarito oficial definitivo: C."
+    },
+    {
+      "id": "q9912812",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A respeito da elaboração e fiscalização de contratos administrativos, julgue os itens que se seguem.\n\nA execução contratual deve ser acompanhada e fiscalizada por, no mínimo, três fiscais de contrato, especialmente designados conforme os requisitos legais aplicáveis.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 117 da Lei nº 14.133/2021 determina que a execução seja acompanhada e fiscalizada por um ou mais fiscais especialmente designados, não estabelecendo número mínimo de três. Fonte: item 103 da prova Cebraspe/STM 2025, Cargo 8 — Técnico Judiciário, Área Administrativa; gabarito oficial definitivo: E."
+    },
+    {
+      "id": "q9912813",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Julgue os itens subsecutivos, a respeito de gestão de contratos administrativos.\n\nOs eventos que exijam resolução e diligência que suplantem a competência do fiscal devem ser registrados e encaminhados ao gestor do contrato, para a adoção de medidas saneadoras.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei nº 14.133/2021 exige o registro das ocorrências e o encaminhamento tempestivo das situações que ultrapassem a competência do fiscal, para adoção das providências cabíveis. Fonte: item 105 da prova Cebraspe/STM 2025, Cargo 8 — Técnico Judiciário, Área Administrativa; gabarito oficial definitivo: C."
+    },
+    {
+      "id": "q9912814",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considerando o disposto na Lei n.º 14.133/2021, assinale a opção em que é indicada a forma de manutenção do equilíbrio econômico-financeiro de contrato relativa à aplicação do índice de correção monetária previsto no contrato.",
+      "options": [
+        {
+          "id": "A",
+          "text": "matriz de riscos"
+        },
+        {
+          "id": "B",
+          "text": "estudo técnico preliminar"
+        },
+        {
+          "id": "C",
+          "text": "repactuação"
+        },
+        {
+          "id": "D",
+          "text": "reajustamento em sentido estrito"
+        },
+        {
+          "id": "E",
+          "text": "termo de referência"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O reajustamento em sentido estrito é a forma de manutenção do equilíbrio econômico-financeiro que aplica o índice de correção monetária previsto no contrato. Fonte: questão 63 da prova Cebraspe/SEFAZ-RJ 2025, Cargo 1 — Analista em Finanças Públicas, Especialidade Administrativo-Financeira; gabarito oficial definitivo: D."
+    },
+    {
+      "id": "q9912815",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Julgue os próximos itens, a respeito da análise e interpretação de editais de licitação, contratos e aditivos contratuais.\n\nO contrato de uma obra de reforma de um edifício público poderá ser alterado tanto quantitativa quanto qualitativamente, de forma unilateral, pela administração pública, desde que as alterações não transfigurem o objeto da contratação e observem o limite de acréscimos e supressões de 50% do valor contratado atualizado.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Na reforma de edifício ou equipamento, o art. 125 da Lei nº 14.133/2021 eleva a 50% apenas o limite de acréscimos; as supressões unilaterais permanecem sujeitas ao limite geral de 25% do valor inicial atualizado. Fonte: item 55 da prova Cebraspe/TCE-AC 2024, Cargo 4 — Analista Administrativo, Área Engenharia Civil; gabarito oficial definitivo: E."
+    },
+    {
+      "id": "q9912816",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Julgue os próximos itens, a respeito da análise e interpretação de editais de licitação, contratos e aditivos contratuais.\n\nComo regra geral, a execução de um serviço na obra deve possuir lastro contratual e as alterações contratuais, mediante formalização de aditivos de serviços, devem ocorrer antes da autorização e execução dos serviços na obra, ainda que não haja pagamento antecipado.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 132 da Lei nº 14.133/2021 estabelece, como regra, que a formalização do termo aditivo é condição para a execução das prestações determinadas pela Administração no curso do contrato. Fonte: item 58 da prova Cebraspe/TCE-AC 2024, Cargo 4 — Analista Administrativo, Área Engenharia Civil; gabarito oficial definitivo: C."
     }
   ]
 }
