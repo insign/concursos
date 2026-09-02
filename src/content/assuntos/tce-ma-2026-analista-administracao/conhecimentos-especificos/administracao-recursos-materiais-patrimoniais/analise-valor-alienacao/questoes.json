@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q1384",
@@ -6001,6 +6001,96 @@
       ],
       "correctOptionId": "b",
       "explanation": "Condição descreve o que foi encontrado. Fonte: questão autoral inspirada no padrão Cebraspe de situações de controle e auditoria; reescrita integralmente."
+    },
+    {
+      "id": "q1584",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Entende-se por investidura, na forma da Lei de Licitações e Contratos Administrativos (Lei Federal no 14.133/2021), a",
+      "options": [
+        {
+          "id": "a",
+          "text": "alienação, ao legítimo possuidor direto ou, na falta dele, ao poder público, de imóvel para fins residenciais construído em núcleo urbano anexo a usina hidrelétrica, desde que considerado indispensável na fase de operação da usina e que integre a categoria de bens reversíveis ao final da concessão."
+        },
+        {
+          "id": "b",
+          "text": "concessão de título de propriedade a pessoa natural que, nos termos de lei, regulamento ou ato normativo do órgão competente, haja implementado os requisitos mínimos de cultura, de ocupação mansa e pacífica e de exploração direta sobre área rural."
+        },
+        {
+          "id": "c",
+          "text": "alienação gratuita de bens imóveis comerciais de âmbito local, com área de até 250 m2 (duzentos e cinquenta metros quadrados) e destinados a programas de regularização fundiária de interesse social desenvolvidos por órgão ou entidade da Administração Pública."
+        },
+        {
+          "id": "d",
+          "text": "alienação gratuita a pessoa física que comprova detenção anterior a 1o de dezembro de 2004, uso residencial e hipossuficiência econômica ou vulnerabilidade social."
+        },
+        {
+          "id": "e",
+          "text": "alienação, ao proprietário de imóvel lindeiro, de área remanescente ou resultante de obra pública que se tornar inaproveitável isoladamente, por preço que não seja inferior ao da avaliação nem superior a 50% (cinquenta por cento) do valor máximo permitido para dispensa de licitação de bens e serviços."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Gabarito: E. O art. 76, § 5º, I, da Lei nº 14.133/2021 define investidura como a alienação ao proprietário de imóvel lindeiro de área remanescente ou resultante de obra pública que se tornar inaproveitável isoladamente, observados os limites legais de preço. Fonte: VUNESP, Prefeitura de Tremembé/SP, Procurador do Contencioso Administrativo/Procurador do Contencioso Civil, 2026, questão 14; gabarito publicado: E."
+    },
+    {
+      "id": "q1585",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Acerca da inspeção e identificação de bens inservíveis ou de recuperação antieconômica é correto afirmar, exceto:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bens inservíveis ociosos são aqueles que, embora em perfeitas condições de uso, não estão sendo utilizados."
+        },
+        {
+          "id": "b",
+          "text": "Na etapa de avaliação econômica é feito o exame de cada bem para avaliar seu estado físico, funcionalidade e condição operacional."
+        },
+        {
+          "id": "c",
+          "text": "Recuperação antieconômica refere-se a bens que, embora possam ser consertados, têm um custo de reparo superior ao benefício gerado por sua utilização futura."
+        },
+        {
+          "id": "d",
+          "text": "A inspeção e a identificação de bens inservíveis ou de recuperação antieconômica são etapas fundamentais na gestão patrimonial, garantindo a eficiência no uso dos recursos e a conformidade com as normas regulatórias."
+        },
+        {
+          "id": "e",
+          "text": "Visam identificar, avaliar e classificar bens que não possuem mais utilidade funcional ou cuja recuperação ou manutenção não seja economicamente viável."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gabarito: B. O exame do estado físico, da funcionalidade e da condição operacional caracteriza a inspeção ou avaliação técnica do bem, e não propriamente a etapa de avaliação econômica. Fonte: Avança SP, Câmara Municipal de Santana de Parnaíba/SP, Oficial Administrativo de Patrimônio, 2025, questão 25; gabarito oficial definitivo: B."
+    },
+    {
+      "id": "q1586",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Durante o inventário anual de uma universidade federal, a unidade de patrimônio constatou que alguns computadores haviam sido movidos de sala sem registro, outros apresentavam defeitos que inviabilizavam o uso e alguns não foram encontrados no local indicado, embora constassem no sistema. A chefia do departamento solicitou que a equipe realizasse imediatamente a baixa dos bens danificados, removesse do inventário os não localizados e redistribuísse livremente os equipamentos em uso para acelerar o fechamento do relatório. O setor de patrimônio afirmou que, mesmo diante da urgência, todos os procedimentos deveriam seguir etapas formais para evitar irregularidades e garantir rastreabilidade das informações. Considerando as práticas de gestão de bens públicos, a decisão correta nesse caso é",
+      "options": [
+        {
+          "id": "a",
+          "text": "autorizar a baixa imediata dos equipamentos danificados, pois sua inutilização justifica o encerramento do registro sem necessidade de laudo."
+        },
+        {
+          "id": "b",
+          "text": "excluir do inventário os bens não encontrados, já que a ausência física comprova perda e permite atualização direta do sistema."
+        },
+        {
+          "id": "c",
+          "text": "registrar formalmente a movimentação dos bens, solicitar vistoria técnica para os que apresentam defeitos e conduzir processo de baixa apenas após emissão de laudo que comprove irrecuperabilidade."
+        },
+        {
+          "id": "d",
+          "text": "redistribuir os equipamentos conforme necessidade interna, dispensando controle formal, pois a movimentação dentro do mesmo órgão não exige registro patrimonial."
+        },
+        {
+          "id": "e",
+          "text": "suspender o inventário e adquirir novos equipamentos, pois a divergência entre sistema e realidade impede a aplicação dos procedimentos regulares."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gabarito: C. A rastreabilidade patrimonial exige formalizar movimentações, apurar divergências e submeter bens com defeito à vistoria e ao laudo antes de eventual baixa; nem dano aparente nem não localização autorizam exclusão imediata do registro. Fonte: Instituto AOCP, UNIRIO, Assistente em Administração, 2026, questão 55; gabarito definitivo pós-recurso: C."
     }
   ]
 }
