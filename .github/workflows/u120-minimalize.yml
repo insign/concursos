@@ -1,0 +1,101 @@
+name: U120 minimal diff helper
+
+on:
+  pull_request:
+    types: [synchronize, reopened]
+
+permissions:
+  contents: write
+
+jobs:
+  minimalize:
+    if: github.head_ref == 'feat/u120-complemento-reais-20260902'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Reapply complement without reserializing existing questions
+        run: |
+          python - <<'PY'
+          import json
+          import subprocess
+          from pathlib import Path
+
+          path = Path('src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-recursos-materiais-patrimoniais/almoxarifado-armazenamento/questoes.json')
+          main_text = subprocess.check_output(['git', 'show', f'origin/main:{path.as_posix()}'], text=True)
+          assert '"questionSetRevision": 3,' in main_text
+          assert 'u120_tceac2024_q94' not in main_text
+          assert 'u120_tceac2024_q95' not in main_text
+          assert 'u120_cmmaceio2024_q84' not in main_text
+
+          questions = [
+            {
+              'id': 'u120_tceac2024_q94',
+              'revision': 1,
+              'origin': 'previous_exam',
+              'prompt': 'O arranjo físico do almoxarifado deve considerar, além do planejamento da expansão e necessidade de recursos financeiros, os métodos de movimentação e de armazenagem.',
+              'options': [{'id': 'certo', 'text': 'Certo'}, {'id': 'errado', 'text': 'Errado'}],
+              'correctOptionId': 'certo',
+              'explanation': 'O item está correto: o leiaute do almoxarifado deve compatibilizar expansão e recursos com os métodos de movimentação e armazenagem. Fonte: questão oficial; Cebraspe; TCE-AC — Técnico de Controle Externo, Área Técnico-Administrativo, Especialidade Instrutivo; 2024; item 94; https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/993_TCE_AC_019_01.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_019_01.PDF.'
+            },
+            {
+              'id': 'u120_tceac2024_q95',
+              'revision': 1,
+              'origin': 'previous_exam',
+              'prompt': 'O evitamento da obsolescência e o provimento de treinamento aos colaboradores contribuem para a redução dos custos de armazenagem.',
+              'options': [{'id': 'certo', 'text': 'Certo'}, {'id': 'errado', 'text': 'Errado'}],
+              'correctOptionId': 'certo',
+              'explanation': 'O item está correto: prevenir obsolescência reduz perdas, e o treinamento contribui para operações de armazenagem mais eficientes e com menos falhas. Fonte: questão oficial; Cebraspe; TCE-AC — Técnico de Controle Externo, Área Técnico-Administrativo, Especialidade Instrutivo; 2024; item 95; https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/993_TCE_AC_019_01.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_019_01.PDF.'
+            },
+            {
+              'id': 'u120_cmmaceio2024_q84',
+              'revision': 1,
+              'origin': 'previous_exam',
+              'prompt': 'Um dos objetivos da armazenagem é dispor de um arranjo físico que possibilite o uso eficiente de mão de obra e de equipamentos de movimentação de materiais.',
+              'options': [{'id': 'certo', 'text': 'Certo'}, {'id': 'errado', 'text': 'Errado'}],
+              'correctOptionId': 'certo',
+              'explanation': 'O item está correto: o arranjo físico deve favorecer fluxo e uso eficiente dos recursos humanos e dos equipamentos de movimentação. Fonte: questão oficial; Cebraspe; Câmara Municipal de Maceió — Analista Administrativo; 2024; item 84; https://cdn.cebraspe.org.br/concursos/camara_municipal_maceio_24/arquivos/972_CAMARA_MACEIO_001_01.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/camara_municipal_maceio_24/arquivos/GAB_DEFINITIVO_972_CAMARA_MACEIO_001_01.PDF.'
+            }
+          ]
+
+          text = main_text.replace('"questionSetRevision": 3,', '"questionSetRevision": 4,', 1)
+          suffix = '\n    }\n  ]\n}\n'
+          assert text.endswith(suffix)
+          blocks = []
+          for q in questions:
+            raw = json.dumps(q, ensure_ascii=False, indent=2)
+            blocks.append('\n'.join('    ' + line for line in raw.splitlines()))
+          text = text[:-len(suffix)] + '\n    },\n' + ',\n'.join(blocks) + '\n  ]\n}\n'
+          parsed = json.loads(text)
+          assert parsed['questionSetRevision'] == 4
+          assert len(parsed['questions']) == 213
+          assert len({q['id'] for q in parsed['questions']}) == 213
+          path.write_text(text, encoding='utf-8')
+          PY
+      - name: Install dependencies
+        run: npm ci
+      - name: Unit tests
+        run: npm run test:unit
+      - name: Check
+        run: npm run check
+      - name: Build
+        run: npm run build
+      - name: Build budget
+        run: npm run build:budget
+      - name: Commit minimal content diff
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-recursos-materiais-patrimoniais/almoxarifado-armazenamento/questoes.json
+          if git diff --cached --quiet; then
+            echo 'Target already minimal and validated.'
+            exit 0
+          fi
+          git commit -m 'content: reduz diff da U120 ao complemento real'
+          git push origin HEAD:${{ github.head_ref }}
