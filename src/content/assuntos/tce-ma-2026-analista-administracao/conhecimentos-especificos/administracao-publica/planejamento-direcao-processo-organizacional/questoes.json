@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q434",
@@ -1801,6 +1801,66 @@
       ],
       "correctOptionId": "e",
       "explanation": "A questão de origem avaliava as diferenças entre satisfação, otimização e adaptação. Fonte: questão adaptada de IF-MT/Tecnólogo em Gestão Pública/2016/Q2768455/https://www.qconcursos.com/questoes-de-concursos/questoes/6f30ce0b5a4; adaptação: condensação das assertivas em alternativa comparativa."
+    },
+    {
+      "id": "q494",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a alternativa correspondente ao instrumento de descentralização administrativa que busca maior rapidez e objetividade em relação às decisões, localizando-se próximo a problemas, pessoas e fatos.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Controle"
+        },
+        {
+          "id": "b",
+          "text": "Planejamento"
+        },
+        {
+          "id": "c",
+          "text": "Delegação de competência"
+        },
+        {
+          "id": "d",
+          "text": "Liderança"
+        },
+        {
+          "id": "e",
+          "text": "Centralização"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A alternativa C corresponde ao art. 11 do Decreto-Lei nº 200/1967: a delegação de competência é instrumento de descentralização administrativa destinado a assegurar maior rapidez e objetividade às decisões, situando-as na proximidade dos fatos, pessoas ou problemas. Fonte: IADES/CENSIPAM/Técnico de Apoio/2024/questão 32; prova: https://arquivos.qconcursos.com/prova/arquivo_prova/113097/iades-2024-censipam-tecnico-de-apoio-prova.pdf; página oficial do certame: https://www.iades.com.br/inscricao/ProcessoSeletivo.aspx?id=180d096dda; gabarito definitivo C: https://www.iades.com.br/inscricao/upload/1342/20240730155421784.pdf."
+    },
+    {
+      "id": "q495",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A Administração tradicionalmente persegue dois objetivos centrais que se complementam: a eficiência e a eficácia. Na empresa ABC, a equipe de produção utiliza integralmente os recursos disponíveis, segue rigorosamente os procedimentos operacionais padronizados e minimiza desperdícios, embora os objetivos estratégicos definidos para o trimestre não tenham sido atingidos. A situação descrita evidencia que a empresa ABC operou com",
+      "options": [
+        {
+          "id": "a",
+          "text": "eficácia e eficiência simultaneamente."
+        },
+        {
+          "id": "b",
+          "text": "ausência de eficiência e de eficácia."
+        },
+        {
+          "id": "c",
+          "text": "excelência operacional plena."
+        },
+        {
+          "id": "d",
+          "text": "eficiência, sem eficácia."
+        },
+        {
+          "id": "e",
+          "text": "eficácia, sem eficiência."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A equipe utilizou adequadamente recursos e procedimentos e reduziu desperdícios, caracterizando eficiência, mas não atingiu os objetivos estratégicos, logo não foi eficaz. Fonte oficial: FGV/TJ-SC/Analista Administrativo/2026/Tipo 1/questão 33; prova: https://conhecimento.fgv.br/sites/default/files/concursos/prova-1.pdf; gabarito oficial definitivo D: https://conhecimento.fgv.br/sites/default/files/concursos/tribunal-de-justica-do-estado-de-santa-catarina.pdf; página do certame: https://conhecimento.fgv.br/concursos/tjscservidor26."
     }
   ]
 }
