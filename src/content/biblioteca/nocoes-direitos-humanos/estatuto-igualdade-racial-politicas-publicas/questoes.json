@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q8803",
@@ -721,6 +721,96 @@
       ],
       "correctOptionId": "B",
       "explanation": "A alternativa B reproduz o artigo 56. A transversalidade da alternativa A é princípio da PNPIR instituída pelo Decreto nº 4.886/2003, não garantia expressa do Estatuto com essa formulação; trabalho, educação e saúde possuem disciplina legal específica, o que também invalida C, D e E. Fonte: questão oficial; Cebraspe; MP/BA - Promotor de Justiça Substituto; 2023; questão 86; https://cdn.cebraspe.org.br/concursos/MP_BA_23_PROMOTOR/arquivos/853_MPBA_PROMOTOR_OBJ_001_01.PDF; gabarito definitivo B em https://cdn.cebraspe.org.br/concursos/mp_ba_23_promotor/arquivos/GAB_DEFINITIVO_853_MPBA_PROMOTOR_OBJ_001_01.PDF."
+    },
+    {
+      "id": "q8859",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Nos termos do Estatuto da Igualdade Racial (Lei nº 12.288/2010), o poder público federal instituirá, na forma da lei e no âmbito dos Poderes ________ e ________, Ouvidorias Permanentes em Defesa da Igualdade Racial, para receber e encaminhar denúncias de preconceito e discriminação com base em etnia ou cor e acompanhar a implementação de medidas para a promoção da igualdade. Para a apreciação judicial das lesões e das ameaças de lesão aos interesses da população negra decorrentes de situações de desigualdade étnica, recorrer-se-á, entre outros instrumentos, _____________. Assinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Legislativo – Judiciário – ao habeas data"
+        },
+        {
+          "id": "B",
+          "text": "Municipal – Estadual – à ação civil pública"
+        },
+        {
+          "id": "C",
+          "text": "Legislativo – Executivo – à ação civil pública"
+        },
+        {
+          "id": "D",
+          "text": "Executivo – Judiciário – ao habeas corpus"
+        },
+        {
+          "id": "E",
+          "text": "Legislativo – Moderador – ao habeas data"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os arts. 51 e 55 estabelecem, respectivamente, Ouvidorias Permanentes no âmbito dos Poderes Legislativo e Executivo e a ação civil pública entre os instrumentos para apreciação judicial de lesões ou ameaças aos interesses da população negra. Fonte: FUNDATEC; Prefeitura de Esteio/RS - Agente de Combate às Endemias, Edital nº 04; 2022; questão 22; prova: https://arquivos.qconcursos.com/prova/arquivo_prova/86831/fundatec-2022-prefeitura-de-esteio-rs-agente-de-combate-as-endemias-edital-n-04-prova.pdf; gabarito definitivo C: https://arquivos.qconcursos.com/prova/arquivo_gabarito/86831/fundatec-2022-prefeitura-de-esteio-rs-agente-de-combate-as-endemias-edital-n-04-gabarito.pdf."
+    },
+    {
+      "id": "q8860",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O Estatuto da Igualdade Racial, Lei n. 12.288, de 20 de julho de 2010, dispõe especificamente acerca da implementação de políticas voltadas à inclusão da população negra no mercado de trabalho, a produção veiculada pelos órgãos de comunicação e institui o Sistema Nacional de Promoção da Igualdade Racial (Sinapir), forma de organização e de articulação voltadas à implementação do conjunto de políticas e serviços destinados a superar as desigualdades étnicas existentes no País. A respeito desses dispositivos legais, analise as afirmativas a seguir. I. O Poder Executivo federal deverá implementar critérios para provimento de cargos em comissão e funções de confiança destinados a ampliar a participação de negros. II. Os órgãos e entidades da administração pública federal direta, autárquica ou fundacional, as empresas públicas e as sociedades de economia mista federais deverão incluir cláusulas de participação de artistas negros nos contratos de realização de filmes, programas ou quaisquer outras peças de caráter publicitário. III. A adesão dos Estados, do Distrito Federal e dos Municípios ao Sistema Nacional de Promoção da Igualdade Racial (Sinapir) é obrigatória. IV. Os Poderes Executivos estaduais, distrital e municipais, no âmbito das respectivas esferas de competência, poderão instituir conselhos de promoção da igualdade étnica, de caráter permanente e consultivo, compostos por igual número de representantes de órgãos e entidades públicas e de organizações da sociedade civil representativas da população negra. Assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apenas as afirmativas I e III estão corretas"
+        },
+        {
+          "id": "B",
+          "text": "Apenas as afirmativas II e IV estão corretas"
+        },
+        {
+          "id": "C",
+          "text": "Apenas as afirmativas I e II estão corretas"
+        },
+        {
+          "id": "D",
+          "text": "Apenas as afirmativas I e IV estão corretas"
+        },
+        {
+          "id": "E",
+          "text": "Apenas as afirmativas III e IV estão corretas"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A afirmativa II corresponde ao art. 46 e a IV ao art. 50. A I é falsa porque o art. 42 prevê que o Poder Executivo federal poderá implementar tais critérios, e a III é falsa porque os entes subnacionais poderão participar do Sinapir mediante adesão. Fonte oficial: IBFC; Secretaria da Educação do Estado da Bahia (SEC/BA) - Mediador; 2023; questão 26; prova: https://fs.ibfc.org.br/arquivos/2229/2LKSnhlHSJsf9_Caderno_Quest%C3%A3o/pdf/CADERNO_IBFC_01.pdf; gabarito oficial pós-recurso B: https://fs.ibfc.org.br/arquivos/2229/2AJKHDJKAD9_Gabarito_Definitivo/pdf/GABARITO_IBFC_01_POS_RECURSO.pdf."
+    },
+    {
+      "id": "q8861",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Referenciando-se nos termos do Estatuto Nacional da Igualdade Racial, analise as assertivas abaixo: I. O Poder Executivo Federal é autorizado a adotar medidas que garantam, em cada exercício, a transparência na alocação e na execução dos recursos necessários ao financiamento das ações previstas na Lei nº 12.288/2010, Estatuto Nacional da Igualdade Racial, explicitando, entre outros, a proporção dos recursos orçamentários destinados aos programas de promoção da igualdade, especialmente nas áreas de educação, saúde, emprego e renda, desenvolvimento agrário, habitação popular, desenvolvimento regional, cultura, esporte e lazer. II. O Poder Executivo Federal criará instrumentos para aferir a eficácia social das medidas previstas na Lei nº 12.288/2010, Estatuto Nacional da Igualdade Racial, e efetuará seu monitoramento constante, com a emissão e a divulgação de relatórios periódicos, inclusive pela rede mundial de computadores. III. As medidas instituídas na Lei nº 12.288/2010, Estatuto Nacional da Igualdade Racial, não excluem outras em prol da população negra que tenham sido ou venham a ser adotadas no âmbito da União, dos Estados, do Distrito Federal ou dos Municípios. Quais estão corretas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Todas estão corretas."
+        },
+        {
+          "id": "B",
+          "text": "Todas estão incorretas."
+        },
+        {
+          "id": "C",
+          "text": "Apenas I e II estão corretas."
+        },
+        {
+          "id": "D",
+          "text": "Apenas I e III estão corretas."
+        },
+        {
+          "id": "E",
+          "text": "Apenas II e III estão corretas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As três assertivas reproduzem disposições dos arts. 56, § 1º, 59 e 58 do Estatuto, respectivamente. Fonte: FUNDATEC; Prefeitura de Restinga Sêca/RS - Engenheiro Florestal; 2022; questão 27; prova: https://arquivos.qconcursos.com/prova/arquivo_prova/88264/fundatec-2022-prefeitura-de-restinga-seca-rs-engenheiro-florestal-prova.pdf; gabarito definitivo A: https://arquivos.qconcursos.com/prova/arquivo_gabarito/88264/fundatec-2022-prefeitura-de-restinga-seca-rs-engenheiro-florestal-gabarito.pdf."
     }
   ]
 }
