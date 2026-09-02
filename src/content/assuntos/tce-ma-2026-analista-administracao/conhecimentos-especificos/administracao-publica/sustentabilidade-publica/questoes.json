@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q884",
@@ -4501,6 +4501,66 @@
       ],
       "correctOptionId": "e",
       "explanation": "O indicador mede classificação documental e não comprova desempenho. Fonte: Questão autoral integrada sobre indicador e greenwashing."
+    },
+    {
+      "id": "q113001",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O processo de compras governamentais tem evoluído com a incorporação de critérios que estimulam, entre outros, o desenvolvimento sustentável, a inovação tecnológica, a demanda de produtos locais e a acessibilidade.\n\nO poder de compra do Estado é reconhecido como um importante instrumento de política pública. E no caso da sustentabilidade, a legislação de contratações públicas tem amparado as condições para a sua promoção. A nova lei de licitações, a Lei nº 14.133 de 2021, por exemplo, consagra, em seu artigo 5º, o desenvolvimento nacional sustentável como um de seus princípios e, em seu artigo 11º, como um dos objetivos do processo licitatório.\n\nSobre a sustentabilidade nos procedimentos de compras governamentais, analise os itens a seguir.\n\nI. A sustentabilidade nas contratações públicas se expressa exclusivamente na publicação dos instrumentos convocatórios.\n\nII. A busca da sustentabilidade nas compras governamentais deve considerar todo ciclo de vida de um produto na análise do seu custo, podendo também ser indutora de novos mercados para produtos sustentáveis.\n\nIII. A prática de compras governamentais compartilhadas pode estimular ganhos de escala que viabilizem a contratação de produtos sustentáveis, reforçando a importância de que a sustentabilidade das contratações seja perseguida desde o seu planejamento.\n\nEstá correto o que se afirma em",
+      "options": [
+        {
+          "id": "a",
+          "text": "I, II e III."
+        },
+        {
+          "id": "b",
+          "text": "I e II, apenas."
+        },
+        {
+          "id": "c",
+          "text": "I e III, apenas."
+        },
+        {
+          "id": "d",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "e",
+          "text": "II, apenas."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Os itens II e III estão corretos: compras sustentáveis consideram o ciclo de vida e podem usar compras compartilhadas para obter ganhos de escala, desde o planejamento; a sustentabilidade não se limita à publicação do instrumento convocatório. Fonte: questão oficial; FGV; Receita Federal do Brasil — Auditor-Fiscal da Receita Federal do Brasil; 2023; questão 48; https://conhecimento.fgv.br/sites/default/files/concursos/cns101-auditor-fiscal-da-receita-federal-do-brasil-afrfbcns101-tipo-4.pdf."
+    },
+    {
+      "id": "q113002",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Ana, servidora de certo Tribunal de Justiça, foi incumbida da elaboração da minuta do Plano de Logística Sustentável (PLS), disciplinado pela Resolução CNJ nº 400/2021. Ao inteirar-se das normas a serem observadas para o cumprimento da tarefa recebida, Ana concluiu que o PLS deve:\n1. ser composto por um indicador de desempenho mínimo unitário, obtido a partir da diferença entre receita e despesa nos três últimos exercícios financeiros;\n2. ser instituído por ato do Tribunal Pleno, ou órgão especial, onde houver; e\n3. contar com uma pluralidade de planos de ações.\nÀ luz da sistemática estabelecida pela Resolução CNJ nº 400/2021, deve ser reconhecido, em relação às conclusões de Ana, que",
+      "options": [
+        {
+          "id": "a",
+          "text": "todas estão corretas."
+        },
+        {
+          "id": "b",
+          "text": "todas estão incorretas."
+        },
+        {
+          "id": "c",
+          "text": "apenas a conclusão 3 está correta."
+        },
+        {
+          "id": "d",
+          "text": "apenas a conclusão 2 está correta."
+        },
+        {
+          "id": "e",
+          "text": "apenas as conclusões 1 e 2 estão corretas."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Na sistemática da Resolução CNJ nº 400/2021, somente a conclusão 3 está correta: o PLS conta com planos de ações; as conclusões 1 e 2 não correspondem aos requisitos do instrumento. Fonte: questão oficial; FGV; Tribunal Regional do Trabalho da 16ª Região (MA) — Analista Judiciário — Área Administrativa — Qualquer Área; 2022; questão 38; https://conhecimento.fgv.br/sites/default/files/concursos/analista_judiciario_area_administrativa_-_qualquer_areacnsm003_tipo_4.pdf."
     }
   ]
 }
