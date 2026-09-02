@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q734",
@@ -1505,7 +1505,7 @@
     {
       "id": "q784",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Uma declaração institucional afirma: “Exercer o controle externo, orientando e fiscalizando a gestão dos recursos públicos, em benefício da sociedade”. Essa declaração representa melhor",
       "options": [
         {
@@ -1535,7 +1535,7 @@
     {
       "id": "q785",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Em ambiente altamente volátil, qual postura estratégica é mais adequada?",
       "options": [
         {
@@ -1565,7 +1565,7 @@
     {
       "id": "q786",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Na SWOT de uma organização, ameaças e oportunidades são",
       "options": [
         {
@@ -1595,7 +1595,7 @@
     {
       "id": "q787",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Uma organização mede capacitação de equipes e, meses depois, mede a redução do tempo de atendimento. Para validar a estratégia, deve",
       "options": [
         {
@@ -1625,7 +1625,7 @@
     {
       "id": "q788",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "A eficácia da execução estratégica depende do alinhamento vertical porque ele",
       "options": [
         {
@@ -1655,7 +1655,7 @@
     {
       "id": "q789",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Uma autarquia usa o BSC. Qual medida financeira é compatível com sua natureza pública?",
       "options": [
         {
@@ -1685,7 +1685,7 @@
     {
       "id": "q790",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Qual opção corrige a inversão entre missão e visão?",
       "options": [
         {
@@ -1715,7 +1715,7 @@
     {
       "id": "q791",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Em um mapa BSC, a meta “reduzir o tempo médio de deslocamento em 20%” deve ser classificada como",
       "options": [
         {
@@ -1745,7 +1745,7 @@
     {
       "id": "q792",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Uma secretaria classifica crescimento da frota particular como fraqueza e baixa integração entre modais como ameaça. A classificação mais adequada é",
       "options": [
         {
@@ -1775,7 +1775,7 @@
     {
       "id": "q793",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Em planejamento, matriz GUT e 5W2H exercem funções diferentes porque",
       "options": [
         {
@@ -1805,7 +1805,7 @@
     {
       "id": "q794",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "No BSC de uma empresa industrial, automação de linha de produção e melhoria do ciclo produtivo pertencem predominantemente à perspectiva",
       "options": [
         {
@@ -1835,7 +1835,7 @@
     {
       "id": "q795",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "O BSC contribui para o planejamento porque",
       "options": [
         {
@@ -1865,7 +1865,7 @@
     {
       "id": "q796",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Na construção de um mapa estratégico, qual prática é correta?",
       "options": [
         {
@@ -1895,7 +1895,7 @@
     {
       "id": "q797",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "No BSC, o mapa estratégico tem por função",
       "options": [
         {
@@ -1925,7 +1925,7 @@
     {
       "id": "q798",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Uma aplicação adequada do BSC deve considerar",
       "options": [
         {
@@ -1955,7 +1955,7 @@
     {
       "id": "q799",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Planejamento por cenários é mais bem definido como",
       "options": [
         {
@@ -1985,7 +1985,7 @@
     {
       "id": "q800",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Segundo Porter, a estratégia de enfoque",
       "options": [
         {
@@ -2015,7 +2015,7 @@
     {
       "id": "q801",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Qual afirmação sintetiza corretamente o uso do BSC?",
       "options": [
         {
@@ -2045,7 +2045,7 @@
     {
       "id": "q802",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Os objetivos “desenvolver competências de liderança” e “inovar em tecnologia da informação” pertencem, no BSC, à perspectiva",
       "options": [
         {
@@ -2075,7 +2075,7 @@
     {
       "id": "q803",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Assinale a opção correta sobre níveis de planejamento.",
       "options": [
         {
@@ -2105,7 +2105,7 @@
     {
       "id": "q804",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "A análise SWOT integra o planejamento estratégico porque",
       "options": [
         {
@@ -2135,7 +2135,7 @@
     {
       "id": "q805",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Um órgão que concentra atendimento em contribuintes de maior valor adota, no modelo de Porter, predominantemente",
       "options": [
         {
@@ -2165,7 +2165,7 @@
     {
       "id": "q806",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Uma organização que constrói a estratégia a partir de como seus servidores percebem e interpretam o ambiente aproxima-se da escola",
       "options": [
         {
@@ -2195,7 +2195,7 @@
     {
       "id": "q807",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Os objetivos estratégicos de uma organização devem ser estabelecidos considerando",
       "options": [
         {
@@ -2225,7 +2225,7 @@
     {
       "id": "q808",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Uma declaração de missão pode incluir",
       "options": [
         {
@@ -2255,7 +2255,7 @@
     {
       "id": "q809",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Estratégias emergentes",
       "options": [
         {
@@ -2285,7 +2285,7 @@
     {
       "id": "q810",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "A estratégia deliberada distingue-se da emergente porque a deliberada",
       "options": [
         {
@@ -2315,7 +2315,7 @@
     {
       "id": "q811",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Um fator crítico de sucesso pode apoiar",
       "options": [
         {
@@ -2345,7 +2345,7 @@
     {
       "id": "q812",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "No planejamento público, fatores críticos de sucesso devem ser tratados como",
       "options": [
         {
@@ -2375,7 +2375,7 @@
     {
       "id": "q813",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "“Pequeno capital disponível para investimento” é, em regra, melhor classificado como",
       "options": [
         {
@@ -2405,7 +2405,7 @@
     {
       "id": "q814",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Fatores demográficos, sociais, legais e ecológicos devem ser examinados, no planejamento estratégico, principalmente por meio da análise",
       "options": [
         {
@@ -2435,7 +2435,7 @@
     {
       "id": "q815",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "No BSC clássico, as quatro perspectivas são",
       "options": [
         {
@@ -2465,7 +2465,7 @@
     {
       "id": "q816",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Qual relação entre planejamento tático e operacional está correta?",
       "options": [
         {
@@ -2495,7 +2495,7 @@
     {
       "id": "q817",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Em uma sequência coerente de planejamento, qual ordenação é mais adequada?",
       "options": [
         {
@@ -2525,7 +2525,7 @@
     {
       "id": "q818",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Na matriz BCG, pontos de interrogação apresentam",
       "options": [
         {
@@ -2555,7 +2555,7 @@
     {
       "id": "q819",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "O método de fatores críticos de sucesso",
       "options": [
         {
@@ -2585,7 +2585,7 @@
     {
       "id": "q820",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Um objetivo que seja específico, mensurável, atingível, relevante e temporal atende ao critério",
       "options": [
         {
@@ -2615,7 +2615,7 @@
     {
       "id": "q821",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Na análise ambiental de uma prefeitura, distribuição de renda e perfil etário da população são",
       "options": [
         {
@@ -2645,7 +2645,7 @@
     {
       "id": "q822",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "O planejamento baseado em cenários",
       "options": [
         {
@@ -2675,7 +2675,7 @@
     {
       "id": "q823",
       "revision": 1,
-      "origin": "previous_exam",
+      "origin": "authorial",
       "prompt": "Nos cinco Ps de Mintzberg, quando a organização define seu lugar em relação ao ambiente e aos públicos, estratégia é entendida como",
       "options": [
         {
@@ -2701,6 +2701,114 @@
       ],
       "correctOptionId": "e",
       "explanation": "Posição expressa a localização estratégica em relação ao contexto. Fonte: questão adaptada de VUNESP, SPTrans, Analista de Gestão Pleno — Administração, 2012, Q274571. Referência: https://www.qconcursos.com/questoes-de-concursos/questoes/d4dff537-32. Adaptação: uso de questão similar para preencher lacuna pouco cobrada pelo Cebraspe."
+    },
+    {
+      "id": "q110001",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O planejamento estratégico engloba projeções futuras que envolvem variáveis internas e externas à organização, o que contribui para seu elevado grau de subjetividade.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Certo"
+        },
+        {
+          "id": "b",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Planejamento estratégico lida com projeções de longo prazo e variáveis internas e externas, o que amplia a incerteza e o grau de subjetividade. Fonte: questão oficial; Cebraspe; DATAPREV — Analista de Tecnologia da Informação — Perfil: Estratégia e Governança; 2023; item 54; https://cdn.cebraspe.org.br/concursos/dataprev_23/arquivos/893_DATAPREV_012_01.PDF."
+    },
+    {
+      "id": "q110002",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A governança pública organizacional envolve a aplicação de práticas de liderança, estratégia e controle para que os gestores e as partes interessadas possam avaliar, direcionar e monitorar a atuação da organização pública, com o objetivo de melhorar os resultados entregues aos cidadãos, especialmente em serviços e políticas públicas.\nAssinale a opção que apresenta, corretamente, a diferença entre governança e gestão.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A governança concentra-se em planejar e executar atividades, enquanto a gestão é voltada para avaliar e monitorar a eficácia organizacional."
+        },
+        {
+          "id": "b",
+          "text": "A governança foca em aspectos como eficácia e eficiência, enquanto a gestão ocupa-se da estratégia e do planejamento organizacional."
+        },
+        {
+          "id": "c",
+          "text": "A governança está relacionada à avaliação, à direção e ao monitoramento em prol da efetividade, enquanto a gestão envolve planejar, executar e controlar as atividades organizacionais visando à eficiência."
+        },
+        {
+          "id": "d",
+          "text": "A gestão é responsável por avaliar a eficácia econômica e monitorar as atividades, enquanto a governança trata de planejar e controlar os recursos."
+        },
+        {
+          "id": "e",
+          "text": "A governança e a gestão são processos idênticos, sem distinção clara entre suas funções dentro da organização."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Na distinção adotada na governança pública, governança avalia, direciona e monitora; gestão planeja, executa e controla. Fonte: questão oficial; FGV; TRT da 24ª Região — Técnico Judiciário — Área Administrativa — Sem Especialidade; 2025; questão 41; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-judiciario-administrativa-sem-especialidadecns201-tipo-3.pdf."
+    },
+    {
+      "id": "q110003",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um dos benefícios da gestão de riscos é o rigor que ela proporciona ao processo de identificação e seleção de alternativas de respostas aos riscos. Opções de tratamento de riscos incluem: 1. evitar o risco; 2. reduzir o risco; 3. transferir o risco; e 4. aceitar o risco.\nNo âmbito da gestão de riscos, aceitar o risco é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "a decisão de não iniciar ou de descontinuar a atividade, ou ainda desfazer-se do objeto sujeito ao risco;"
+        },
+        {
+          "id": "b",
+          "text": "não tomar, deliberadamente, nenhuma medida para alterar a probabilidade ou a consequência do risco;"
+        },
+        {
+          "id": "c",
+          "text": "adotar medidas para mitigar a probabilidade ou a consequência dos riscos;"
+        },
+        {
+          "id": "d",
+          "text": "mitigar a consequência ou probabilidade de ocorrência do risco por meio do compartilhamento de uma parte do risco;"
+        },
+        {
+          "id": "e",
+          "text": "contratar seguros ou terceirizar atividades sobre as quais a organização não tem suficiente domínio."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Aceitar o risco significa tomar conscientemente a decisão de não alterar sua probabilidade ou consequência. Fonte: questão oficial; FGV; TJ-AP — Analista Judiciário — Apoio Especializado — Controle Interno; 2024; questão 61; https://conhecimento.fgv.br/sites/default/files/concursos/analista-judiciario-apoio-especializado-controle-internocoi-05-tipo-1.pdf."
+    },
+    {
+      "id": "q110004",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma organização realiza uma avaliação minuciosa dos recursos humanos disponíveis para dar início a um planejamento estratégico. Com uma visão clara de seus princípios orientadores e do propósito organizacional, delineou um plano abrangente para o ano seguinte. Contudo, apesar desses esforços iniciais bem definidos, a estratégia não atingiu os resultados esperados. A causa do fracasso residia na estrutura hierárquica rígida da organização, que se mostrou um empecilho significativo na formação de uma cultura interna alinhada com as novas direções.\nA situação acima ilustra um problema frequente na implementação do planejamento estratégico, apontado como:",
+      "options": [
+        {
+          "id": "a",
+          "text": "ausência de uma estrutura organizacional pensada para o planejamento estratégico;"
+        },
+        {
+          "id": "b",
+          "text": "ausência de mecanismos efetivos para monitoramento e ajuste contínuo da implementação;"
+        },
+        {
+          "id": "c",
+          "text": "falta de uma declaração de missão, levando a uma falta de direção e a objetivos mal definidos;"
+        },
+        {
+          "id": "d",
+          "text": "falta de análise interna aprofundada, o que impediu a identificação da ausência de pessoal adequado;"
+        },
+        {
+          "id": "e",
+          "text": "falta de definição dos seus valores, o que levou à desconexão entre a organização e a estratégia adotada."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O caso aponta a estrutura organizacional rígida como obstáculo à implementação, apesar de identidade e análise inicial estarem presentes. Fonte: questão oficial; FGV; TJ-AP — Analista Judiciário — Apoio Especializado — Pedagogo; 2024; questão 43; https://conhecimento.fgv.br/sites/default/files/concursos/analista-judiciario-apoio-especializado-pedagogoped-07-tipo-1.pdf."
     }
   ]
 }
