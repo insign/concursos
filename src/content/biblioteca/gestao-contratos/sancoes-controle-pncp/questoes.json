@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q1754",
@@ -1801,6 +1801,96 @@
       ],
       "correctOptionId": "e",
       "explanation": "A alternativa reúne os arts. 189, 190 e 192. O art. 188 foi vetado; contratos anteriores e imóveis da União não sofrem substituição integral automática de regime. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1814",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Conforme o Art. 169 da Lei nº 14.133/2021, as contratações públicas sujeitar-se-ão a linhas de defesa. A segunda linha de defesa é integrada:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pelo órgão central de controle interno da Administração e pelo tribunal de contas."
+        },
+        {
+          "id": "b",
+          "text": "Por servidores e empregados públicos, agentes de licitação e autoridades que atuam na estrutura de governança."
+        },
+        {
+          "id": "c",
+          "text": "Pelas unidades de auditoria interna e consultoria externa contratada."
+        },
+        {
+          "id": "d",
+          "text": "Pelas unidades de assessoramento jurídico e de controle interno do próprio órgão ou entidade."
+        },
+        {
+          "id": "e",
+          "text": "Exclusivamente pela comissão de contratação e pelo fiscal do contrato."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 169, II, da Lei nº 14.133/2021 situa as unidades de assessoramento jurídico e de controle interno do próprio órgão ou entidade na segunda linha de defesa. Fonte: questão oficial; Instituto Avança São Paulo; SAAEC Cerquilho/SP — Controlador Interno; 2025; questão 42; https://anexos.cdn.selecao.net.br/uploads/301/concursos/213/anexos/86d51e12-756d-4aa6-b474-921b8b68f04f.pdf. Gabarito oficial definitivo: https://anexos.cdn.selecao.net.br/uploads/301/concursos/213/anexos/b0cc3a76-6b80-4ce2-842e-107096f7135b.pdf."
+    },
+    {
+      "id": "q1815",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Acerca da penalidade de impedimento de licitar e contratar com a Administração Pública, nos termos da Lei nº 14.133/2021, é correto afirmar que tal sanção",
+      "options": [
+        {
+          "id": "a",
+          "text": "é a mais grave prevista na norma em comento, de modo que é a única que não pode ser cumulada com a multa, diferentemente das demais penalidades administrativas."
+        },
+        {
+          "id": "b",
+          "text": "admite a reabilitação do licitante ou contratado, mediante o preenchimento cumulativo dos requisitos legais, dentre os quais, o transcurso do prazo mínimo de 1 (um) ano da aplicação da penalidade."
+        },
+        {
+          "id": "c",
+          "text": "não poderá ser aplicada nas infrações em que o responsável deixar de entregar a documentação exigida, nem naquela em que ele não mantiver a proposta, salvo em decorrência de fato superveniente devidamente justificado."
+        },
+        {
+          "id": "d",
+          "text": "impedirá o responsável de licitar ou contratar no âmbito da Administração Pública direta e indireta de todos os entes federativos, pelo prazo mínimo de 3 (três) anos e máximo de 6 (seis) anos."
+        },
+        {
+          "id": "e",
+          "text": "quando aplicada por órgão do Poder Executivo, será de competência exclusiva de Ministro de Estado, de Secretário Estadual ou de Secretário Municipal e, quando aplicada por autarquia ou fundação, será de competência exclusiva da autoridade máxima da entidade."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A reabilitação após impedimento exige, cumulativamente, os requisitos do art. 163, entre eles o transcurso do prazo mínimo de um ano da aplicação da penalidade. Fonte: questão oficial; FGV; Controladoria-Geral do Município de Cuiabá/MT — Auditor Público Interno; 2025; questão 51; https://conhecimento.fgv.br/sites/default/files/concursos/auditor-publico-interno-da-controladoria-geral-do-municipio-de-cuiabacns001-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_cuiaba_auditor.pdf."
+    },
+    {
+      "id": "q1816",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Na Lei nº 8.666/93, os crimes licitatórios estavam elencados em seção própria, previstos nos artigos 89 a 108. Com a entrada em vigor da Lei nº 14.133/2021, os referidos artigos foram revogados e alocados no Código Penal, no capítulo que se refere aos crimes praticados por particular contra a Administração em geral e correspondem, atualmente, aos artigos 337-E a 337-P do diploma criminal. Constitui crime em licitações e contratos administrativos, EXCETO:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Admitir à licitação empresa ou profissional declarado inidôneo."
+        },
+        {
+          "id": "b",
+          "text": "Admitir, possibilitar ou dar causa à contratação direta fora das hipóteses previstas em lei."
+        },
+        {
+          "id": "c",
+          "text": "Dar causa à inexecução parcial do contrato que cause grave dano à Administração, ao funcionamento dos serviços públicos ou ao interesse coletivo."
+        },
+        {
+          "id": "d",
+          "text": "Devassar o sigilo de proposta apresentada em processo licitatório ou proporcionar a terceiro o ensejo de devassá-lo."
+        },
+        {
+          "id": "e",
+          "text": "Não marque essa."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A conduta da alternativa C é infração administrativa prevista no art. 155, II, da Lei nº 14.133/2021, mas não corresponde, por si, a um dos crimes licitatórios tipificados nos arts. 337-E a 337-O do Código Penal. Fonte: questão adaptada de FUMARC; Assembleia Legislativa do Estado de Minas Gerais — Procurador — Caderno 201, Tipo 1; 2023; questão 60; https://mediaserver.almg.gov.br/acervo/750/166/1750166.pdf; adaptação: inclusão da quinta alternativa técnica “Não marque essa.” para compatibilidade com o banco, sem alteração do gabarito. Gabarito oficial após recursos: https://mediaserver.almg.gov.br/acervo/768/818/1768818.pdf."
     }
   ]
 }
