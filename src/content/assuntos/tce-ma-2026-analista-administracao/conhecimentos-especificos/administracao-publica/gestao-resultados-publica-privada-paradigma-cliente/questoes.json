@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q834",
@@ -3001,6 +3001,66 @@
       ],
       "correctOptionId": "e",
       "explanation": "A lei fixa 30 dias, prorrogáveis uma vez por igual período de forma justificada. A ouvidoria promove participação, melhoria e tratamento de manifestações; seu relatório anual é publicado. Fonte: questão adaptada de concurso anterior — Lei nº 13.460/2017; questões Cebraspe TCE-RO 2019 e TCE-MS 2025. O enunciado e os distratores foram reescritos para cinco alternativas, preservando a tese cobrada."
+    },
+    {
+      "id": "q112001",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção que indica a avaliação que busca verificar se determinada política pública responde a um problema bem delimitado e evita a ocorrência de erros de formulação e desenho.",
+      "options": [
+        {
+          "id": "a",
+          "text": "avaliação de resultados"
+        },
+        {
+          "id": "b",
+          "text": "avaliação ex post"
+        },
+        {
+          "id": "c",
+          "text": "avaliação de processos"
+        },
+        {
+          "id": "d",
+          "text": "avaliação ex ante"
+        },
+        {
+          "id": "e",
+          "text": "avaliação de performance"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A avaliação ex ante é realizada antes da implementação para examinar a pertinência e a consistência do desenho da intervenção, ajudando a prevenir erros de formulação. Fonte: questão oficial; CESPE/CEBRASPE; Tribunal de Contas do Estado de Minas Gerais (TCE-MG) — Analista de Controle Externo — Administração; 2018; questão 65; https://cdn.cebraspe.org.br/concursos/TCE_MG_18/arquivos/418_TCEMG_C_ESPEC_001_01.PDF; gabarito oficial definitivo D: https://cdn.cebraspe.org.br/concursos/TCE_MG_18/arquivos/GAB_DEFINITIVO_418_TCEMG_C_ESPEC_001_01.PDF."
+    },
+    {
+      "id": "q112002",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A teoria da mudança trata da lógica programática de certa intervenção e ajuda gestores e stakeholders a entender, de forma harmônica e compartilhada, as atividades, os produtos e os resultados esperados de determinado projeto. Nesse aspecto, no âmbito de um projeto, a teoria da mudança deve ser desenvolvida fundamentalmente na fase de",
+      "options": [
+        {
+          "id": "a",
+          "text": "análise."
+        },
+        {
+          "id": "b",
+          "text": "elaboração."
+        },
+        {
+          "id": "c",
+          "text": "monitoramento."
+        },
+        {
+          "id": "d",
+          "text": "implementação."
+        },
+        {
+          "id": "e",
+          "text": "avaliação."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A teoria da mudança explicita, na elaboração, a lógica causal que conecta atividades, produtos e resultados esperados, orientando posteriormente a implementação, o monitoramento e a avaliação. Fonte: questão oficial; CESPE/CEBRASPE; Tribunal de Contas do Estado de Minas Gerais (TCE-MG) — Analista de Controle Externo — Administração; 2018; questão 68; https://cdn.cebraspe.org.br/concursos/TCE_MG_18/arquivos/418_TCEMG_C_ESPEC_001_01.PDF; gabarito oficial definitivo B: https://cdn.cebraspe.org.br/concursos/TCE_MG_18/arquivos/GAB_DEFINITIVO_418_TCEMG_C_ESPEC_001_01.PDF."
     }
   ]
 }
