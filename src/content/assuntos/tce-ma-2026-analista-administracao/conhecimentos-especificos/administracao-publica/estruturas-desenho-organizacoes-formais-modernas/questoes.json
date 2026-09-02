@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q384",
@@ -751,6 +751,66 @@
       ],
       "correctOptionId": "a",
       "explanation": "Os centros são definidos por campos de conhecimento. No programa, permanece a autoridade dos centros e surge autoridade transversal sobre prioridades, caracterizando componente matricial; a coexistência de formas torna o conjunto híbrido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8862",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma das estruturas organizacionais é a matricial, que é adotada algumas vezes em conjunto com a estrutura de linha e assessoria tradicional em uma organização. Esta estrutura combina essencialmente duas formas de departamentalização: funcional e por produto. As principais desvantagens da estrutura matricial são:",
+      "options": [
+        {"id": "a", "text": "Menor desempenho e menos oportunidade."},
+        {"id": "b", "text": "Falta de trabalho de equipe e uso deficiente dos recursos."},
+        {"id": "c", "text": "Inflexibilidade e incapacidade de conciliar objetivos conflitantes."},
+        {"id": "d", "text": "Menos oportunidade para desenvolvimento pessoal e profissional."},
+        {"id": "e", "text": "Lutas de poder, confusão entre os membros da equipe e falta de coesão."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A estrutura matricial sobrepõe eixos de autoridade, o que pode gerar disputas de poder, ambiguidade e dificuldades de coesão. Fonte: Instituto Consulplan, PGE/SC, Analista Técnico Administrativo II, 2022, questão 67, Tipo 1 – Branca. Gabarito pós-recursos: E. Prova: https://arquivos.qconcursos.com/prova/arquivo_prova/89903/instituto-consulplan-2022-pge-sc-analista-tecnico-administrativo-ii-prova.pdf. Gabarito: https://arquivos.qconcursos.com/prova/arquivo_gabarito/89902/instituto-consulplan-2022-pge-sc-assistente-juridico-edital-n-2-gabarito.pdf."
+    },
+    {
+      "id": "q8863",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Sobre estrutura organizacional, assinale a afirmativa INCORRETA.",
+      "options": [
+        {"id": "a", "text": "Funciona como a espinha dorsal da organização. Nesse sentido, costuma apresentar uma natureza predominantemente estática."},
+        {"id": "b", "text": "Do ponto de vista tradicional, a autoridade a ser considerada em uma estrutura organizacional depende de uma posição organizacional e não de pessoas."},
+        {"id": "c", "text": "Em estruturas organizacionais horizontalizadas, a comunicação sofre menos distorções, as decisões são tomadas mais prontamente e ocorre redução da possibilidade de promoções."},
+        {"id": "d", "text": "A estrutura vertical de uma organização envolve três principais fatores: hierarquia administrativa, amplitude de controle e grau de centralização ou descentralização do processo de tomada de decisões."},
+        {"id": "e", "text": "Em estruturas organizações verticalizadas (altas), a média da amplitude de controle é menos estreita e as decisões são mais ágeis, pois a estrutura alongada requer menor coordenação entre as fronteiras funcionais."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Em estruturas verticalizadas, a amplitude tende a ser mais estreita e a existência de mais níveis pode tornar comunicação e decisões menos ágeis; por isso, a alternativa E é a incorreta. Fonte: Instituto Consulplan, PGE/SC, Analista Técnico Administrativo II, 2022, questão 87, Tipo 1 – Branca. Gabarito pós-recursos: E. Prova: https://arquivos.qconcursos.com/prova/arquivo_prova/89903/instituto-consulplan-2022-pge-sc-analista-tecnico-administrativo-ii-prova.pdf. Gabarito: https://arquivos.qconcursos.com/prova/arquivo_gabarito/89902/instituto-consulplan-2022-pge-sc-assistente-juridico-edital-n-2-gabarito.pdf."
+    },
+    {
+      "id": "q8864",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma variante da abordagem divisional é a departamentalização por localização geográfica. Sobre esse tipo de departamentalização, analise as afirmativas a seguir.\n\nI. Cada divisão tem seus recursos próprios, havendo dispêndios de esforços para evitar compartilhamento entre as unidades.\nII. Os sistemas internos precisam ser organizados de diferentes maneiras para servir a diferentes segmentos territoriais de mercados.\nIII. A organização se orienta para seu mercado de atuação.\nIV. A focalização no mercado torna a organização mais atenta a mudanças nas preferências e necessidade de mercado.\nV. A percepção, pela organização, da reação do mercado territorial aos seus produtos e serviços, é súpera.\n\nSão desvantagens da departamentalização por localização geográfica o que se afirma apenas em",
+      "options": [
+        {"id": "a", "text": "I e II."},
+        {"id": "b", "text": "I e IV."},
+        {"id": "c", "text": "III e IV."},
+        {"id": "d", "text": "II, III e V."},
+        {"id": "e", "text": "III, IV e V."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Recursos próprios por divisão e sistemas internos adaptados a segmentos territoriais podem elevar duplicação e custos; os demais itens descrevem vantagens de orientação ao mercado. Fonte: Instituto Consulplan, PGE/SC, Analista Técnico Administrativo II, 2022, questão 89, Tipo 1 – Branca. Gabarito pós-recursos: A. Prova: https://arquivos.qconcursos.com/prova/arquivo_prova/89903/instituto-consulplan-2022-pge-sc-analista-tecnico-administrativo-ii-prova.pdf. Gabarito: https://arquivos.qconcursos.com/prova/arquivo_gabarito/89902/instituto-consulplan-2022-pge-sc-assistente-juridico-edital-n-2-gabarito.pdf."
+    },
+    {
+      "id": "q8865",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A departamentalização constitui uma característica fundamental da estrutura organizacional. Significa o agrupamento de atividades em unidades organizacionais e o agrupamento dessas unidades em uma organização total. Assinale a afirmativa que apresenta vantagens da Departamentalização Funcional.",
+      "options": [
+        {"id": "a", "text": "A integração é proporcionada pela hierarquia."},
+        {"id": "b", "text": "Cada unidade envolve pessoas que falam a mesma língua e compartilham a mesma especialidade."},
+        {"id": "c", "text": "Cada departamento tem seus próprios objetivos táticos e departamentais com diferentes prioridades."},
+        {"id": "d", "text": "Os gerentes são especialistas em uma área particular e específica e não são gerentes generalistas capazes de tocar a operação inteira."},
+        {"id": "e", "text": "Cada divisão da empresa faz uma parte específica da tarefa da organização e depende das outras. A coordenação e a comunicação são inopinadas."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A departamentalização funcional reúne especialistas da mesma área, favorecendo linguagem comum e aprofundamento técnico. Fonte: Instituto Consulplan, PGE/SC, Analista Técnico Administrativo II, 2022, questão 90, Tipo 1 – Branca. Gabarito pós-recursos: B. Prova: https://arquivos.qconcursos.com/prova/arquivo_prova/89903/instituto-consulplan-2022-pge-sc-analista-tecnico-administrativo-ii-prova.pdf. Gabarito: https://arquivos.qconcursos.com/prova/arquivo_gabarito/89902/instituto-consulplan-2022-pge-sc-assistente-juridico-edital-n-2-gabarito.pdf."
     }
   ]
 }
