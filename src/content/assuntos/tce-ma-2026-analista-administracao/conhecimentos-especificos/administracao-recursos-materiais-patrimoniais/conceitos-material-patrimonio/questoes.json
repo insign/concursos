@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q984",
@@ -4501,6 +4501,42 @@
       ],
       "correctOptionId": "e",
       "explanation": "Divergência exige evidência, análise de causa, identificação e regularização formal. Fonte: Questão autoral integrada inspirada em itens Cebraspe sobre inventário e conciliação."
+    },
+    {
+      "id": "q115001",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O conhecimento, as patentes e as logomarcas registradas de uma organização constituem recursos incorpóreos dela.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Gabarito oficial definitivo: Certo. Conhecimento, patentes e logomarcas são recursos incorpóreos. Fonte: CEBRASPE; TCE/AC; Cargo 12 — Analista Ministerial – Área Administração; 2024; item 78; prova https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/993_TCE_AC_012_01.PDF; gabarito https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_012_01.PDF."
+    },
+    {
+      "id": "q115002",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Patrimônio pode ser concebido como o conjunto de objetos administrados que servem para propiciar às entidades a obtenção de seus fins.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Gabarito oficial definitivo: Certo. O item apresenta patrimônio como conjunto de objetos administrados em função dos fins da entidade. Fonte: CEBRASPE; Fundação Universidade de Brasília (FUB); Cargo 15 — Assistente em Administração; 2025; item 104; prova https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/088_FUB_015_01.pdf; gabarito https://cdn.cebraspe.org.br/concursos/fub_25/arquivos/Gab_Definitivo_088_FUB_015_01.pdf."
     }
   ]
 }
