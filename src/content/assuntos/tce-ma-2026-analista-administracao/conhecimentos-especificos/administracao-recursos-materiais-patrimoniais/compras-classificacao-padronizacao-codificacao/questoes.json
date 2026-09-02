@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q1284",
@@ -1501,6 +1501,156 @@
       ],
       "correctOptionId": "a",
       "explanation": "Catálogo e padronização orientam a compra, mas não substituem aderência à necessidade, motivação, competição, código correto e análise de mercado. Questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q20001",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "No processo de classificação de materiais em um almoxarifado, os procedimentos de rotina são realizados na seguinte ordem",
+      "options": [
+        {
+          "id": "a",
+          "text": "cadastramento, catalogação, Identificação e codificação."
+        },
+        {
+          "id": "b",
+          "text": "cadastramento, identificação, codificação e catalogação."
+        },
+        {
+          "id": "c",
+          "text": "identificação, codificação, cadastramento e catalogação."
+        },
+        {
+          "id": "d",
+          "text": "identificação, catalogação, cadastramento e codificação."
+        },
+        {
+          "id": "e",
+          "text": "catalogação, identificação, codificação e cadastramento."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A sequência cobrada pela banca é identificação → codificação → cadastramento → catalogação. Assim, a alternativa correta é C."
+    },
+    {
+      "id": "q20002",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "As compras envolvem a aquisição de matérias-primas, suprimentos e componentes para o conjunto da organização.\nEntre as atividades associadas a elas, incluem-se:\nI. Selecionar e qualificar fornecedores\nII. Prever mudanças de preços\nIII. Negociar contratos\nIV. Programar o transporte das matérias-primas\nV. Estabelecer os termos das vendas\nVI. Avaliar o valor recebido\nVII. Avaliar desempenho de fornecedores\n\nAs atividades associadas a compras estão contempladas somente em:",
+      "options": [
+        {
+          "id": "a",
+          "text": "I, II, III, IV, V, VII;"
+        },
+        {
+          "id": "b",
+          "text": "I, II, III, IV, VI, VII;"
+        },
+        {
+          "id": "c",
+          "text": "I, II, III, V, VI, VII;"
+        },
+        {
+          "id": "d",
+          "text": "I, II, IV, V, VI, VII;"
+        },
+        {
+          "id": "e",
+          "text": "I, III, IV, V, VI, VII."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A alternativa C reúne as atividades atribuídas à função compras e exclui apenas a programação do transporte das matérias-primas, atividade associada à logística de transporte."
+    },
+    {
+      "id": "q20003",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Uma das principais atribuições do gestor de materiais é a classificação. Assinale a opção que apresenta algumas etapas da classificação.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Simplificação, normalização e desnivelamento."
+        },
+        {
+          "id": "b",
+          "text": "Normatização, catalogação e generalização."
+        },
+        {
+          "id": "c",
+          "text": "Especificação, anotação e descrição."
+        },
+        {
+          "id": "d",
+          "text": "Catalogação, especificação e codificação."
+        },
+        {
+          "id": "e",
+          "text": "Generalização, simplificação e discriminação."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Catalogação, especificação e codificação integram o processo de classificação de materiais, conforme o gabarito definitivo da prova. Logo, a alternativa correta é D."
+    },
+    {
+      "id": "q20004",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Códigos de barras de vários padrões, como DataMatrix, EAN-13, Bidimensional, QR, Alfanumérico 39, Código intercalado 2 em 5, PDF 417, são empregados para identificar materiais, serviços, operações robotizadas, conexões à Internet, entre outras atividades. Nos materiais comuns, de prateleira, o padrão regularmente empregado é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "PDF 417;"
+        },
+        {
+          "id": "b",
+          "text": "Intercalado 2 em 5;"
+        },
+        {
+          "id": "c",
+          "text": "EAN-13 e variações;"
+        },
+        {
+          "id": "d",
+          "text": "QR (resposta rápida);"
+        },
+        {
+          "id": "e",
+          "text": "Alfanumérico 39."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O gabarito definitivo aponta o EAN-13 e suas variações como o padrão regularmente empregado em materiais comuns de prateleira. Portanto, a alternativa correta é C."
+    },
+    {
+      "id": "q20005",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Considere o seguinte problema: você recebeu a tarefa de identificar, classificar e codificar um conjunto de itens de materiais diferentes entre si. Para realizar a tarefa você dispõe de um manual de catalogação. Cada item de material deverá receber um código individual com base no código:",
+      "options": [
+        {
+          "id": "a",
+          "text": "de barras do fornecedor;"
+        },
+        {
+          "id": "b",
+          "text": "de (maior nível) a que pertence o item;"
+        },
+        {
+          "id": "c",
+          "text": "sequencial do item;"
+        },
+        {
+          "id": "d",
+          "text": "de material (grupo, subgrupo, classe e individual);"
+        },
+        {
+          "id": "e",
+          "text": "de barras atribuído pelo recebedor do material."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O código individual deve se apoiar na estrutura do código de material — grupo, subgrupo, classe e individual —, preservando a hierarquia de classificação. A alternativa correta é D."
     }
   ]
 }
