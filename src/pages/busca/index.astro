@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Busca">
+  <main class="page busca-page">
+    <h1>Busca</h1>
+    <section class="busca-search" data-busca-root>
+      <label for="busca-input">Buscar em todos os concursos</label>
+      <input id="busca-input" data-busca-input type="search" autocomplete="off" spellcheck="false" placeholder="Buscar… (mín. 2 caracteres)" aria-controls="busca-results" aria-expanded="false" aria-autocomplete="list" />
+      <label class="busca-global">
+        <input type="checkbox" data-busca-global />
+        <span>Buscar em todos os concursos (online)</span>
+      </label>
+      <p data-busca-status role="status" aria-live="polite"></p>
+      <ol id="busca-results" data-busca-results role="listbox" hidden></ol>
+    </section>
+    <noscript><p>Busca requer JavaScript. Use o <a href="/">catálogo</a>.</p></noscript>
+  </main>
+</BaseLayout>
+
+<script>
+  import { searchContest, searchGlobal, isOnline } from '../../lib/orama-client.ts';
+
+  const root = document.querySelector('[data-busca-root]') as HTMLElement | null;
+  if (root) {
+    const input = root.querySelector('[data-busca-input]') as HTMLInputElement;
+    const resultsEl = root.querySelector('[data-busca-results]') as HTMLOListElement;
+    const statusEl = root.querySelector('[data-busca-status]') as HTMLElement;
+    const globalToggle = root.querySelector('[data-busca-global]') as HTMLInputElement;
+
+    const params = new URLSearchParams(window.location.search);
+    const initialQ = params.get('q') ?? '';
+    const initialConcurso = params.get('concurso') ?? '';
+    const initialGlobal = params.get('global') === '1';
+    if (initialQ) input.value = initialQ;
+    // Inicializa checkbox: respeita global=1 explícito, senão global por padrão, per-concurso se há concurso
+    if (initialGlobal) globalToggle.checked = true;
+    else if (initialConcurso) globalToggle.checked = false;
+    else globalToggle.checked = true;
+
+    let seq = 0;
+    let debounce: number | undefined;
+
+    function setStatus(t: string) { statusEl.textContent = t; }
+    function render(hits: Array<{ document: { slug: string; title: string; contestSlug: string }; highlightedTitle: string; highlightedExcerpt: string }>) {
+      if (hits.length === 0) { resultsEl.hidden = true; resultsEl.innerHTML=''; input.setAttribute('aria-expanded','false'); return; }
+      resultsEl.hidden = false; input.setAttribute('aria-expanded','true');
+      resultsEl.innerHTML = hits.map(h=>`
+        <li role="option"><a href="${h.document.slug}" class="busca-hit"><strong>${h.highlightedTitle}</strong><span>${h.highlightedExcerpt}</span><small>${h.document.contestSlug} · ${h.document.slug.includes('/revisoes/')?'Mega revisão':'Conteúdo'}</small></a></li>
+      `).join('');
+    }
+
+    async function doSearch(term: string) {
+      const mySeq = ++seq;
+      if (term.trim().length < 2) { render([]); setStatus(''); history.replaceState(null,'', term?`?q=${encodeURIComponent(term)}`:'/busca/'); return; }
+      const useGlobal = globalToggle.checked;
+      if (useGlobal && !isOnline()) { setStatus('Busca global requer conexão. Você está offline.'); render([]); return; }
+      if (!useGlobal && !initialConcurso) { setStatus('Selecione um concurso ou marque busca global.'); render([]); return; }
+      setStatus('Buscando…');
+      try {
+        const hits = useGlobal ? await searchGlobal(term, 10) : await searchContest(initialConcurso, term, 10);
+        if (mySeq!==seq) return;
+        // Update URL
+        const url = new URL(window.location.href);
+        url.searchParams.set('q', term);
+        if (initialConcurso) url.searchParams.set('concurso', initialConcurso);
+        else url.searchParams.delete('concurso');
+        if (useGlobal) url.searchParams.set('global', '1');
+        else url.searchParams.delete('global');
+        history.replaceState(null,'', url.toString());
+        if (hits.length===0) { setStatus('Nenhum resultado'); render([]);}
+        else { setStatus(`${hits.length} resultado(s)`); // @ts-ignore
+          render(hits as unknown as Array<{document:{slug:string;title:string;contestSlug:string};highlightedTitle:string;highlightedExcerpt:string}>); }
+      } catch(e){
+        if(mySeq!==seq) return;
+        const msg = e instanceof Error && e.message==='offline' ? 'Busca global requer conexão.' : 'Falha na busca.';
+        setStatus(msg); render([]);
+      }
+    }
+
+    input.addEventListener('input', ()=>{ window.clearTimeout(debounce); debounce=window.setTimeout(()=>doSearch(input.value),180); });
+    input.addEventListener('keydown', (e)=>{ if(e.key==='Escape'){ render([]); setStatus(''); input.setAttribute('aria-expanded','false'); }});
+    globalToggle.addEventListener('change', ()=>{
+      if(globalToggle.checked && !isOnline()){ globalToggle.checked=false; setStatus('Busca global requer conexão. Você está offline.'); return; }
+      if(input.value.trim().length>=2) doSearch(input.value);
+    });
+    function syncToggle(){
+      const online=isOnline();
+      if (!online && globalToggle.checked) {
+        globalToggle.checked = false;
+        setStatus('Busca global requer conexão. Você está offline.');
+      }
+      globalToggle.disabled=!online;
+      globalToggle.title=online?'':'Disponível apenas com conexão';
+    }
+    syncToggle(); window.addEventListener('online',syncToggle); window.addEventListener('offline',syncToggle);
+
+    if (initialQ) doSearch(initialQ);
+  }
+</script>
+
+<style>
+  .busca-page { max-width: 720px; margin: 0 auto; padding: 1.5rem; }
+  .busca-search { display: grid; gap: 0.6rem; }
+  .busca-search input[type='search']{ width:100%; padding:0.6rem 0.8rem; border:1px solid var(--line,#ccc); border-radius:6px; font:inherit;}
+  .busca-search [data-busca-results]{ list-style:none; margin:0; padding:0; border:1px solid var(--line,#ddd); border-radius:6px; max-height:420px; overflow:auto; }
+  .busca-search [data-busca-results][hidden]{display:none}
+  .busca-search [data-busca-results] li{ padding:0.6rem 0.8rem; border-bottom:1px solid var(--line,#eee);}
+  .busca-hit{ text-decoration:none; color:inherit; display:grid; gap:0.15rem;}
+  .busca-hit :global(mark.orama-highlight){ background:mark; padding:0 .1em; }
+</style>

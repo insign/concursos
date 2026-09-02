@@ -351,12 +351,12 @@ test('does not expose editorial groups through sync or offline contracts', async
   expect(readingSubject).toMatchObject({
     contestStorageId: 'tcema-2026-adm',
     subjectStorageId: 'leitura-tipos-generos',
-    questionSet: { questionSetRevision: 3 },
+    questionSet: { questionSetRevision: 5 },
   });
   expect(typesSubject).toMatchObject({
     contestStorageId: 'tcema-2026-adm',
     subjectStorageId: 'tipos-generos-textuais',
-    questionSet: { questionSetRevision: 2 },
+    questionSet: { questionSetRevision: 4 },
   });
   expect(Object.keys(readingSubject ?? {}).sort()).toEqual([
     'contestStorageId',

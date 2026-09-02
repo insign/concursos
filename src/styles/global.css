@@ -2218,6 +2218,10 @@ a.subject-pagination-link:hover {
     padding-inline: 0.25rem;
   }
 
+  .header-busca {
+    display: none !important;
+  }
+
   .site-header nav {
     gap: 0.25rem;
     font-size: 0.68rem;

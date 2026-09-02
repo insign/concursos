@@ -2,6 +2,7 @@
 import SubjectNavigation from '../components/SubjectNavigation.astro';
 import SubjectPagination from '../components/SubjectPagination.astro';
 import SubjectActionBar from '../components/SubjectActionBar.astro';
+import ContestSearch from '../components/ContestSearch.astro';
 import NextSubjectSuggestion from '../components/NextSubjectSuggestion.astro';
 import ReadingFocusRuntime from '../components/ReadingFocusRuntime.astro';
 import BaseLayout from './BaseLayout.astro';
@@ -74,6 +75,10 @@ const contestTitleStart = contestMiddleTruncated
     />
 
     <SubjectNavigation contest={contest} subject={subject} active={active} />
+
+    {active === 'content' && (
+      <ContestSearch contestStorageId={contest.storageId} contestSlug={contest.slug} contestTitle={contest.title} />
+    )}
 
     {
       active === 'content' ? (

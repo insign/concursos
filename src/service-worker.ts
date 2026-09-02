@@ -135,6 +135,26 @@ registerRoute(
 );
 
 registerRoute(
+  ({ request, url }) =>
+    url.origin === worker.location.origin &&
+    request.method === 'GET' &&
+    url.pathname.startsWith('/search/'),
+  async ({ request }) => {
+    // Respeita reload do offline update delta (cache: 'reload' deve ir à rede)
+    if (request.cache === 'reload') return fetch(request);
+    return (await matchActiveContestCaches([request])) ?? fetch(request);
+  },
+);
+
+registerRoute(
+  ({ request, url }) =>
+    url.origin === worker.location.origin &&
+    request.method === 'GET' &&
+    url.pathname === '/search-global.json',
+  async ({ request }) => fetch(request),
+);
+
+registerRoute(
   ({ request, url }) => url.origin === worker.location.origin && request.mode === 'navigate',
   async ({ request, event }) => {
     event.waitUntil(maybeUpdateOfflinePackages('navigation').catch(() => undefined));
