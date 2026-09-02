@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q1334",
@@ -746,11 +746,77 @@
         {"id": "a", "text": "há necessariamente extravio de 10 unidades"},
         {"id": "b", "text": "a saída deve ser ignorada porque ocorreu durante o inventário"},
         {"id": "c", "text": "a diferença pode ser explicada pelo movimento pendente, que deve ser validado e processado com rastreabilidade"},
-       {"id": "d", "text": "o físico deve ser alterado para 500"},
+        {"id": "d", "text": "o físico deve ser alterado para 500"},
         {"id": "e", "text": "o documento deve ser destruído após ajustar o saldo"}
       ],
       "correctOptionId": "c",
       "explanation": "O corte controlado identifica movimentos legítimos ainda não refletidos no sistema. Confirmado o documento e o momento, processa-se a saída sem presumir extravio nem apagar evidência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q-u122-vunesp-poa-2015-38",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "O recebimento de mercadorias pelo almoxarifado compreende 4 fases:",
+      "options": [
+        {"id": "A", "text": "compra do material, recebimento, armazenagem e distribuição."},
+        {"id": "B", "text": "entrada de materiais, conferência quantitativa, conferência qualitativa e regularização."},
+        {"id": "C", "text": "recebimento, estocagem, armazenagem e expedição."},
+        {"id": "D", "text": "conferência quantitativa, entrada de materiais, devolução e estocagem."},
+        {"id": "E", "text": "recebimento da nota fiscal, conferência, estocagem e distribuição para produção."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O gabarito oficial indica a alternativa B: o recebimento compreende entrada de materiais, conferência quantitativa, conferência qualitativa e regularização. VUNESP, Prefeitura da Estância Hidromineral de Poá/SP, Almoxarife, 2015, questão 38; prova de 11/10/2015; gabarito oficial B."
+    },
+    {
+      "id": "q-u122-vunesp-poa-2015-41",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a alternativa que apresenta corretamente o conceito de recebimento.",
+      "options": [
+        {"id": "A", "text": "A atividade intermediária entre as tarefas de compra e pagamento ao fornecedor, sendo de responsabilidade do almoxarife a conferência dos materiais destinados à empresa."},
+        {"id": "B", "text": "A tomada de conhecimento do setor, ao entrar a mercadoria, pela conferência da nota fiscal e distribuição aos usuários."},
+        {"id": "C", "text": "Um segmento intermediário que antecede os procedimentos de compra, estocagem e distribuição dos materiais."},
+        {"id": "D", "text": "Um roteiro intermediário entre o planejamento, compra e venda de mercadorias e distribuição a todos usuários."},
+        {"id": "E", "text": "A atividade entre as tarefas de faturamento e pagamento ao fornecedor."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O gabarito oficial indica a alternativa A, que situa o recebimento entre a compra e o pagamento e atribui ao almoxarife a conferência dos materiais destinados à empresa. VUNESP, Prefeitura da Estância Hidromineral de Poá/SP, Almoxarife, 2015, questão 41; prova de 11/10/2015; gabarito oficial A."
+    },
+    {
+      "id": "q-u122-quadrix-crefito4-2021-103",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Para Fonseca, pode-se considerar como baixa patrimonial a retirada de bem da carga patrimonial do órgão, mediante registro da transferência deste para o controle de bens baixados, feita exclusivamente pelo setor de patrimônio, devidamente autorizado pelo gestor. A partir dessa informação, julgue os itens de 101 a 110 quanto ao patrimônio.\n\nSão seis os princípios que devem ser observados quando da execução do inventário de uma instituição: instantaneidade; oportunidade; especificação; homogeneidade; integridade; e uniformidade.",
+      "options": [
+        {"id": "C", "text": "Certo"},
+        {"id": "E", "text": "Errado"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O gabarito definitivo da Quadrix marcou o item 103 como C (certo). Quadrix, CREFITO-4ª Região/MG, cargo Almoxarife (código 200), prova aplicada em 25/07/2021, item 103. O formato original Certo/Errado foi preservado."
+    },
+    {
+      "id": "q-u122-quadrix-crefito4-2021-104",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Para Fonseca, pode-se considerar como baixa patrimonial a retirada de bem da carga patrimonial do órgão, mediante registro da transferência deste para o controle de bens baixados, feita exclusivamente pelo setor de patrimônio, devidamente autorizado pelo gestor. A partir dessa informação, julgue os itens de 101 a 110 quanto ao patrimônio.\n\nO princípio da uniformidade determina que, uma vez fixados os limites do inventário, todos os elementos patrimoniais compreendidos deverão ser objeto do levantamento.",
+      "options": [
+        {"id": "C", "text": "Certo"},
+        {"id": "E", "text": "Errado"}
+      ],
+      "correctOptionId": "E",
+      "explanation": "O gabarito definitivo da Quadrix marcou o item 104 como E (errado): a determinação de abranger todos os elementos dentro dos limites fixados corresponde ao princípio da integridade, e não ao da uniformidade. Quadrix, CREFITO-4ª Região/MG, Almoxarife (código 200), prova aplicada em 25/07/2021, item 104. O formato original Certo/Errado foi preservado."
+    },
+    {
+      "id": "q-u122-quadrix-crefito4-2021-105",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Para Fonseca, pode-se considerar como baixa patrimonial a retirada de bem da carga patrimonial do órgão, mediante registro da transferência deste para o controle de bens baixados, feita exclusivamente pelo setor de patrimônio, devidamente autorizado pelo gestor. A partir dessa informação, julgue os itens de 101 a 110 quanto ao patrimônio.\n\nAs fases que constituem um inventário são: levantamento; arrolamento; e avaliação.",
+      "options": [
+        {"id": "C", "text": "Certo"},
+        {"id": "E", "text": "Errado"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O gabarito definitivo da Quadrix marcou o item 105 como C (certo): levantamento, arrolamento e avaliação são as três fases apresentadas no item. Quadrix, CREFITO-4ª Região/MG, Almoxarife (código 200), prova aplicada em 25/07/2021, item 105. O formato original Certo/Errado foi preservado."
     }
   ]
 }
