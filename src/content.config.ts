@@ -5,6 +5,7 @@ import {
   contestSchema,
   groupSchema,
   megaReviewSchema,
+  megaReviewVinculoSchema,
   questionSetSchema,
   referenceSchema,
   resolutionSchema,
@@ -13,11 +14,13 @@ import {
 } from './lib/content-schema';
 import {
   bibliotecaIdFromEntry,
+  bibliotecaMegaReviewIdFromEntry,
   bibliotecaReferenceIdFromEntry,
   bibliotecaResolutionIdFromEntry,
   contestIdFromEntry,
   groupIdFromEntry,
   megaReviewIdFromEntry,
+  megaReviewVinculoIdFromEntry,
   referenceIdFromEntry,
   resolutionIdFromEntry,
   subjectIdFromEntry,
@@ -47,6 +50,24 @@ const megaRevisoes = defineCollection({
     base: './src/content/assuntos',
     pattern: '**/mega-revisao/index.md',
     generateId: ({ entry }) => megaReviewIdFromEntry(entry),
+  }),
+  schema: megaReviewSchema,
+});
+
+const megaReviewVinculos = defineCollection({
+  loader: glob({
+    base: './src/content/assuntos',
+    pattern: '**/mega-revisao/vinculo.json',
+    generateId: ({ entry }) => megaReviewVinculoIdFromEntry(entry),
+  }),
+  schema: megaReviewVinculoSchema,
+});
+
+const bibliotecaMegaRevisoes = defineCollection({
+  loader: glob({
+    base: './src/content/biblioteca',
+    pattern: '**/mega-revisao/index.md',
+    generateId: ({ entry }) => bibliotecaMegaReviewIdFromEntry(entry),
   }),
   schema: megaReviewSchema,
 });
@@ -145,7 +166,7 @@ const bibliotecaResolucoes = defineCollection({
 const vinculos = defineCollection({
   loader: glob({
     base: './src/content/assuntos',
-    pattern: '**/vinculo.json',
+    pattern: ['**/vinculo.json', '!**/mega-revisao/vinculo.json'],
     generateId: ({ entry }) => vinculoIdFromEntry(entry),
   }),
   schema: vinculoSchema,
@@ -155,6 +176,7 @@ export const collections = {
   concursos,
   grupos,
   megaRevisoes,
+  megaReviewVinculos,
   conteudos,
   cheatSheets,
   questoes,
@@ -165,5 +187,6 @@ export const collections = {
   bibliotecaQuestoes,
   bibliotecaReferencias,
   bibliotecaResolucoes,
+  bibliotecaMegaRevisoes,
   vinculos,
 };

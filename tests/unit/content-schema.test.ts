@@ -3,6 +3,7 @@ import {
   contestSchema,
   groupSchema,
   megaReviewSchema,
+  megaReviewVinculoSchema,
   questionSetSchema,
   referenceSchema,
   resolutionSchema,
@@ -96,6 +97,36 @@ describe('content schemas', () => {
     expect(() => megaReviewSchema.parse({ schemaVersion: 2, slug: 'revisao' })).toThrow();
     expect(() => megaReviewSchema.parse({ schemaVersion: 1, slug: 'Revisao' })).toThrow();
     expect(() => megaReviewSchema.parse({ schemaVersion: 1, slug: 'revisao', extra: true })).toThrow();
+  });
+
+  it('accepts canonical mega review links and rejects overrides or manual scope', () => {
+    expect(megaReviewVinculoSchema.parse({ schemaVersion: 1, canonical: 'gestao-contratos' })).toEqual({
+      schemaVersion: 1,
+      canonical: 'gestao-contratos',
+    });
+    expect(
+      megaReviewVinculoSchema.parse({ schemaVersion: 1, canonical: 'area/sub-area' }),
+    ).toBeTruthy();
+    expect(() => megaReviewVinculoSchema.parse({ schemaVersion: 2, canonical: 'grupo' })).toThrow();
+    expect(() =>
+      megaReviewVinculoSchema.parse({ schemaVersion: 1, canonical: 'Grupo' }),
+    ).toThrow();
+    expect(() =>
+      megaReviewVinculoSchema.parse({ schemaVersion: 1, canonical: 'grupo/' }),
+    ).toThrow();
+    expect(() => megaReviewVinculoSchema.parse({ schemaVersion: 1, canonical: '' })).toThrow();
+    expect(() =>
+      megaReviewVinculoSchema.parse({ schemaVersion: 1, canonical: 'grupo', slug: 'x' }),
+    ).toThrow();
+    expect(() =>
+      megaReviewVinculoSchema.parse({ schemaVersion: 1, canonical: 'grupo', title: 'T' }),
+    ).toThrow();
+    expect(() =>
+      megaReviewVinculoSchema.parse({ schemaVersion: 1, canonical: 'grupo', order: 0 }),
+    ).toThrow();
+    expect(() =>
+      megaReviewVinculoSchema.parse({ schemaVersion: 1, canonical: 'grupo', scope: [] }),
+    ).toThrow();
   });
 
   it('validates question IDs, revisions and answer keys', () => {

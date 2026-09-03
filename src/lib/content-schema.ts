@@ -49,6 +49,13 @@ export const vinculoSchema = z
   })
   .strict();
 
+export const megaReviewVinculoSchema = z
+  .object({
+    schemaVersion: z.literal(1),
+    canonical: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*(?:\/[a-z0-9]+(?:-[a-z0-9]+)*)*$/),
+  })
+  .strict();
+
 export const cheatSheetSchema = z.object({}).strict();
 
 export const referenceSchema = z.object({}).strict();
@@ -178,6 +185,7 @@ export const questionSetSchema = z
 export type ContestData = z.infer<typeof contestSchema>;
 export type GroupData = z.infer<typeof groupSchema>;
 export type MegaReviewData = z.infer<typeof megaReviewSchema>;
+export type MegaReviewVinculoData = z.infer<typeof megaReviewVinculoSchema>;
 export type SubjectData = z.infer<typeof subjectSchema>;
 export type ReferenceData = z.infer<typeof referenceSchema>;
 export type ResolutionData = z.infer<typeof resolutionSchema>;

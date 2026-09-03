@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest';
-import { buildCatalogIndex, createOfflineInventory, type CatalogSources } from '../../src/lib/catalog-core';
+import {
+  buildCatalogIndex,
+  createOfflineInventory,
+  remapBibliotecaResolutionId,
+  type CatalogSources,
+} from '../../src/lib/catalog-core';
 
 function questionSet() {
   return { schemaVersion: 1 as const, questionSetRevision: 1, questions: [] };
@@ -442,5 +447,175 @@ describe('catalog references', () => {
     const withReview = sources();
     addMegaReview(withReview, 'concurso-a/area-b', 'revisao-b');
     expect(() => buildCatalogIndex(withReview, { requireReferences: false })).not.toThrow();
+  });
+});
+
+function linkedSources(): CatalogSources {
+  const fixture: CatalogSources = {
+    contests: [
+      {
+        id: 'concurso-a',
+        data: { schemaVersion: 1, title: 'A', description: 'A', order: 1, storageId: 'a' },
+      },
+      {
+        id: 'concurso-b',
+        data: { schemaVersion: 1, title: 'B', description: 'B', order: 2, storageId: 'b' },
+      },
+    ],
+    groups: [
+      { id: 'concurso-a/area', data: { schemaVersion: 1, title: 'Área', order: 1 } },
+      { id: 'concurso-b/campo', data: { schemaVersion: 1, title: 'Campo', order: 1 } },
+    ],
+    contents: [],
+    cheatSheetIds: [],
+    questionSets: [],
+    bibliotecaContents: [
+      {
+        id: 'bib-grupo/x',
+        data: { schemaVersion: 1, title: 'X', description: 'X', order: 1, storageId: 'x' },
+      },
+      {
+        id: 'bib-grupo/y',
+        data: { schemaVersion: 1, title: 'Y', description: 'Y', order: 2, storageId: 'y' },
+      },
+    ],
+    bibliotecaCheatSheetIds: ['bib-grupo/x', 'bib-grupo/y'],
+    bibliotecaQuestionSets: [
+      { id: 'bib-grupo/x', data: questionSet() },
+      { id: 'bib-grupo/y', data: questionSet() },
+    ],
+    bibliotecaMegaReviews: [
+      { id: 'bib-grupo/mega-revisao', data: { schemaVersion: 1, slug: 'revisao' } },
+    ],
+    megaReviewVinculos: [
+      { id: 'concurso-a/area', data: { schemaVersion: 1, canonical: 'bib-grupo' } },
+      { id: 'concurso-b/campo', data: { schemaVersion: 1, canonical: 'bib-grupo' } },
+    ],
+    vinculos: [],
+  };
+  for (const contest of ['concurso-a', 'concurso-b'] as const) {
+    const group = contest === 'concurso-a' ? 'area' : 'campo';
+    // Assuntos existem apenas como vínculos: o pipeline sintético cria as
+    // visões a partir da biblioteca; conteúdo físico coexistente é inválido.
+    for (const subject of ['x', 'y']) {
+      const id = `${contest}/${group}/${subject}`;
+      fixture.vinculos!.push({
+        id,
+        data: { schemaVersion: 1, canonical: `bib-grupo/${subject}`, order: 1 },
+      });
+    }
+  }
+  return fixture;
+}
+
+function dropSubject(fixture: CatalogSources, id: string): void {
+  fixture.vinculos = (fixture.vinculos ?? []).filter((vinculo) => vinculo.id !== id);
+}
+
+describe('linked mega reviews', () => {
+  it('shares one canonical review across contests with per-contest routes', () => {
+    const catalog = buildCatalogIndex(linkedSources());
+    const [contestA, contestB] = catalog.contests;
+
+    expect(contestA!.children[0]!.megaReview).toMatchObject({
+      id: 'concurso-a/area',
+      slug: 'revisao',
+    });
+    expect(contestB!.children[0]!.megaReview).toMatchObject({
+      id: 'concurso-b/campo',
+      slug: 'revisao',
+    });
+
+    const inventoryA = createOfflineInventory(contestA!);
+    const inventoryB = createOfflineInventory(contestB!);
+    expect(inventoryA.routes).toContain('/revisoes/concurso-a/revisao/');
+    expect(inventoryB.routes).toContain('/revisoes/concurso-b/revisao/');
+    expect(inventoryA.routes).not.toContain('/revisoes/concurso-b/revisao/');
+    expect(
+      [...inventoryA.routes, ...inventoryB.routes].some((route) => route.includes('biblioteca')),
+    ).toBe(false);
+  });
+
+  it('rejects links to nonexistent canonical reviews', () => {
+    const fixture = linkedSources();
+    fixture.megaReviewVinculos![0]!.data.canonical = 'ausente';
+    expect(() => buildCatalogIndex(fixture)).toThrow('inexistente');
+  });
+
+  it('rejects physical content beside a canonical link', () => {
+    const fixture = linkedSources();
+    addMegaReview(fixture, 'concurso-a/area', 'outra');
+    expect(() => buildCatalogIndex(fixture)).toThrow('apenas um');
+  });
+
+  it('rejects incompatible scopes reporting missing IDs', () => {
+    const fixture = linkedSources();
+    dropSubject(fixture, 'concurso-b/campo/y');
+    expect(() => buildCatalogIndex(fixture)).toThrow('incompatível');
+    expect(() => buildCatalogIndex(fixture)).toThrow('bib-grupo/y');
+  });
+
+  it('rejects linked groups with local subjects', () => {
+    const fixture = linkedSources();
+    addSubject(fixture, 'concurso-a/area/local', 'Local', 3, 'local');
+    expect(() => buildCatalogIndex(fixture)).toThrow('sem vínculo');
+    expect(() => buildCatalogIndex(fixture)).toThrow('concurso-a/area/local');
+  });
+
+  it('does not share reviews by slug without an explicit link', () => {
+    const fixture = linkedSources();
+    fixture.megaReviewVinculos = [];
+    addMegaReview(fixture, 'concurso-a/area', 'revisao');
+    addMegaReview(fixture, 'concurso-b/campo', 'revisao');
+    const catalog = buildCatalogIndex(fixture);
+    expect(catalog.contests[0]!.children[0]!.megaReview).toMatchObject({ id: 'concurso-a/area' });
+    expect(catalog.contests[1]!.children[0]!.megaReview).toMatchObject({ id: 'concurso-b/campo' });
+  });
+
+  it('rejects duplicate public slugs within one contest', () => {
+    const fixture = linkedSources();
+    fixture.groups.push({ id: 'concurso-a/extra', data: { schemaVersion: 1, title: 'Extra', order: 2 } });
+    for (const subject of ['x', 'y']) {
+      fixture.vinculos!.push({
+        id: `concurso-a/extra/${subject}`,
+        data: { schemaVersion: 1, canonical: `bib-grupo/${subject}`, order: 1 },
+      });
+    }
+    fixture.megaReviewVinculos!.push({
+      id: 'concurso-a/extra',
+      data: { schemaVersion: 1, canonical: 'bib-grupo' },
+    });
+    expect(() => buildCatalogIndex(fixture)).toThrow('duplicado');
+  });
+
+  it('remaps biblioteca resolution IDs to the consumer namespace', () => {
+    expect(remapBibliotecaResolutionId('concurso-a/area/x', 'bib-grupo/x/resolucoes/q001')).toBe(
+      'concurso-a/area/x/resolucoes/q001',
+    );
+    expect(() => remapBibliotecaResolutionId('concurso-a/area/x', 'bib-grupo/x/q001')).toThrow(
+      'ID de resolução de biblioteca inválido',
+    );
+  });
+
+  it('reuses canonical references and rejects local companions', () => {
+    const fixture = linkedSources();
+    for (const vinculo of fixture.vinculos!) {
+      fixture.references ??= [];
+      fixture.references.push({ id: vinculo.id, data: {} });
+    }
+    fixture.bibliotecaReferences = [{ id: 'bib-grupo/mega-revisao', data: {} }];
+    expect(() => buildCatalogIndex(fixture, { requireReferences: true })).not.toThrow();
+
+    const withLocal = structuredClone(fixture);
+    withLocal.references!.push({ id: 'concurso-a/area/mega-revisao', data: {} });
+    expect(() => buildCatalogIndex(withLocal, { requireReferences: true })).toThrow(
+      'referências locais',
+    );
+
+    const withoutCanonical = structuredClone(fixture);
+    withoutCanonical.bibliotecaReferences = [];
+    expect(() => buildCatalogIndex(withoutCanonical, { requireReferences: true })).toThrow(
+      'não possui referências',
+    );
   });
 });

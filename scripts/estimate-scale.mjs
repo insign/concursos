@@ -1,6 +1,7 @@
 import { readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { isMegaReviewRouteFile, isSubjectMarkerFile } from './lib/estimate-counting.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -15,12 +16,10 @@ async function listFiles(directory) {
 const contestFiles = (await listFiles(path.join(root, 'src/content/concursos'))).filter((file) => file.endsWith('.json'));
 const subjectFiles = await listFiles(path.join(root, 'src/content/assuntos'));
 const subjectDirectories = new Set(
-  subjectFiles
-    .filter((file) => file.endsWith('/questoes.json') || file.endsWith('/vinculo.json'))
-    .map(path.dirname),
+  subjectFiles.filter(isSubjectMarkerFile).map(path.dirname),
 );
 const resolutions = subjectFiles.filter((file) => /\/resolucoes\/(?!referencias\.md$)[^/]+\.md$/.test(file)).length;
-const megaReviews = subjectFiles.filter((file) => file.endsWith('/mega-revisao/index.md')).length;
+const megaReviews = subjectFiles.filter(isMegaReviewRouteFile).length;
 const targetContests = Number.parseInt(process.env.TARGET_CONTESTS || '30', 10);
 const targetSubjectsPerContest = Number.parseInt(process.env.TARGET_SUBJECTS_PER_CONTEST || '300', 10);
 const targetSubjects = targetContests * targetSubjectsPerContest;
