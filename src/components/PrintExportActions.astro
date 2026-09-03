@@ -1,0 +1,529 @@
+---
+import { PRINT_SECTIONS, SECTION_LABELS, activeToSection } from '../lib/print-export';
+
+interface Props {
+  contestSlug: string;
+  subjectSlug: string;
+  contestTitle: string;
+  subjectTitle: string;
+  questionSetRevision: number;
+  active: 'content' | 'cheat-sheet' | 'questions';
+  instanceId: string;
+}
+
+const {
+  contestSlug,
+  subjectSlug,
+  contestTitle,
+  subjectTitle,
+  questionSetRevision,
+  active,
+  instanceId,
+} = Astro.props;
+
+const defaultSection = activeToSection(active);
+const titleId = `${instanceId}-print-dialog-title`;
+const statusId = `${instanceId}-print-status`;
+const config = JSON.stringify({
+  contestSlug,
+  subjectSlug,
+  contestTitle,
+  subjectTitle,
+  questionSetRevision,
+  active,
+}).replaceAll('<', '\\u003c');
+---
+
+<div class="print-export" data-print-export data-instance-id={instanceId}>
+  <button
+    class="subject-action-control"
+    type="button"
+    data-print-open="print"
+    aria-haspopup="dialog"
+    aria-label="Imprimir"
+    title="Imprimir"
+    hidden
+  >
+    <svg class="subject-action-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6 9V3h12v6" />
+      <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
+      <rect x="6" y="14" width="12" height="7" />
+    </svg>
+    <span class="subject-action-label">Imprimir</span>
+  </button>
+  <button
+    class="subject-action-control"
+    type="button"
+    data-print-open="pdf"
+    aria-haspopup="dialog"
+    aria-label="Salvar como PDF"
+    title="Salvar como PDF"
+    hidden
+  >
+    <svg class="subject-action-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" />
+      <path d="M14 3v5h5" />
+      <path d="M12 11v6" />
+      <path d="m9 15 3 3 3-3" />
+    </svg>
+    <span class="subject-action-label">Salvar como PDF</span>
+  </button>
+
+  <dialog class="print-dialog" data-print-dialog aria-labelledby={titleId}>
+    <div class="print-dialog-panel">
+      <h3 id={titleId} data-print-dialog-title>Imprimir</h3>
+      <p class="print-dialog-description">Selecione o que incluir. Referências não saem no impresso.</p>
+      <fieldset class="print-dialog-fieldset">
+        <legend>Seções</legend>
+        {
+          PRINT_SECTIONS.map((section) => (
+            <label class="print-dialog-option">
+              <input
+                type="checkbox"
+                name="print-section"
+                value={section}
+                checked={section === defaultSection}
+                data-print-section-checkbox={section}
+              />
+              {SECTION_LABELS[section]}
+            </label>
+          ))
+        }
+      </fieldset>
+      <div class="print-dialog-quick">
+        <button class="button button-secondary" type="button" data-print-only-current>
+          Somente esta aba
+        </button>
+        <button class="button button-secondary" type="button" data-print-all>
+          Marcar todas
+        </button>
+      </div>
+      <label class="print-dialog-option" data-print-gabarito-row>
+        <input type="checkbox" data-print-gabarito checked />
+        Incluir gabarito ao final (só a letra, sem explicações)
+      </label>
+      <p class="print-dialog-hint" data-print-pdf-hint hidden>
+        Na janela do sistema, escolha “Salvar como PDF” como destino.
+      </p>
+      <div class="print-dialog-actions">
+        <button class="button button-secondary" type="button" data-print-cancel>
+          Cancelar
+        </button>
+        <button class="button" type="button" data-print-confirm>
+          Imprimir
+        </button>
+      </div>
+      <p class="print-dialog-status" id={statusId} data-print-status aria-live="polite"></p>
+    </div>
+  </dialog>
+
+  <script type="application/json" data-print-config set:html={config}></script>
+</div>
+
+<script>
+  import { PRINT_SECTIONS, SECTION_LABELS, scopeLabel } from '../lib/print-export';
+
+  interface PrintConfig {
+    contestSlug: string;
+    subjectSlug: string;
+    contestTitle: string;
+    subjectTitle: string;
+    questionSetRevision: number;
+    active: 'content' | 'cheat-sheet' | 'questions';
+  }
+
+  interface QuestionnaireConfig {
+    questionSet: {
+      questionSetRevision: number;
+      questions: Array<{
+        id: string;
+        revision: number;
+        prompt: string;
+        options: Array<{ id: string; text: string }>;
+        correctOptionId: string;
+      }>;
+    };
+  }
+
+  type PrintSection = (typeof PRINT_SECTIONS)[number];
+
+  const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+  function escapeHtml(value: string): string {
+    return value
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;');
+  }
+
+  function withTimeout(promise: Promise<unknown>, ms: number): Promise<void> {
+    return Promise.race([
+      promise.then(() => undefined),
+      new Promise<void>((resolve) => window.setTimeout(resolve, ms)),
+    ]);
+  }
+
+  async function waitForStablePrint(): Promise<void> {
+    const pending: Array<Promise<unknown>> = [];
+    const state = window as Window & { mermaidReady?: Promise<unknown> };
+    pending.push(state.mermaidReady ?? Promise.resolve());
+    if (document.fonts?.ready) pending.push(document.fonts.ready);
+    await withTimeout(Promise.allSettled(pending), 8000);
+    await new Promise<void>((resolve) => {
+      window.requestAnimationFrame(() => window.requestAnimationFrame(() => resolve()));
+    });
+  }
+
+  function stripReferences(root: ParentNode): void {
+    for (const node of root.querySelectorAll('[data-document-references], .document-references')) {
+      node.remove();
+    }
+  }
+
+  function cloneLiveArticle(): Element | null {
+    const content = document.querySelector('[data-navigation-content]');
+    if (!content) return null;
+    const article = content.querySelector('article');
+    const source = article ?? content;
+    const clone = source.cloneNode(true) as Element;
+    stripReferences(clone);
+    clone.querySelectorAll('script, button, input, select, textarea').forEach((node) => node.remove());
+    return clone;
+  }
+
+  function extractFromHtml(html: string, selector: string, fallback: string): Element | null {
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    const found = doc.querySelector(selector) ?? doc.querySelector(fallback);
+    if (!found) return null;
+    const adopted = document.importNode(found, true);
+    stripReferences(adopted);
+    adopted.querySelectorAll('script, button, input, select, textarea').forEach((node) => node.remove());
+    return adopted;
+  }
+
+  function parseQuestionnaireConfig(html: string): QuestionnaireConfig | null {
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    const script = doc.querySelector('script[data-questionnaire-config]');
+    if (!script?.textContent) return null;
+    try {
+      return JSON.parse(script.textContent) as QuestionnaireConfig;
+    } catch {
+      return null;
+    }
+  }
+
+  function readLiveQuestionnaireConfig(): QuestionnaireConfig | null {
+    const script = document.querySelector<HTMLScriptElement>('script[data-questionnaire-config]');
+    if (!script?.textContent) return null;
+    try {
+      return JSON.parse(script.textContent) as QuestionnaireConfig;
+    } catch {
+      return null;
+    }
+  }
+
+  function renderQuestions(config: QuestionnaireConfig, includeGabarito: boolean): string {
+    const questions = config.questionSet.questions;
+    const cards = questions
+      .map((question, index) => {
+        const number = index + 1;
+        const options = question.options
+          .map((option, optionIndex) => {
+            const letter = LETTERS[optionIndex] ?? String(optionIndex + 1);
+            return `<li><span class="print-option-letter">(${letter})</span> ${escapeHtml(option.text)}</li>`;
+          })
+          .join('');
+        return `<article class="print-question"><h3>Questão ${number}</h3><p>${escapeHtml(question.prompt)}</p><ol class="print-options">${options}</ol></article>`;
+      })
+      .join('');
+    if (!includeGabarito) return cards;
+    const rows = questions
+      .map((question, index) => {
+        const optionIndex = question.options.findIndex((option) => option.id === question.correctOptionId);
+        const letter = LETTERS[optionIndex] ?? '–';
+        return `<tr><th scope="row">${index + 1}</th><td>${letter}</td></tr>`;
+      })
+      .join('');
+    return `${cards}<section class="print-gabarito"><h3>Gabarito</h3><table><thead><tr><th scope="col">Questão</th><th scope="col">Resposta</th></tr></thead><tbody>${rows}</tbody></table></section>`;
+  }
+
+  async function fetchText(url: string): Promise<string> {
+    const response = await fetch(url, { cache: 'force-cache', credentials: 'same-origin' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.text();
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-print-export]').forEach((root) => {
+    const configScript = root.querySelector<HTMLScriptElement>('[data-print-config]');
+    if (!configScript?.textContent) return;
+    const config = JSON.parse(configScript.textContent) as PrintConfig;
+    const dialog = root.querySelector<HTMLDialogElement>('[data-print-dialog]');
+    const title = root.querySelector<HTMLElement>('[data-print-dialog-title]');
+    const confirm = root.querySelector<HTMLButtonElement>('[data-print-confirm]');
+    const cancel = root.querySelector<HTMLButtonElement>('[data-print-cancel]');
+    const status = root.querySelector<HTMLElement>('[data-print-status]');
+    const pdfHint = root.querySelector<HTMLElement>('[data-print-pdf-hint]');
+    const gabaritoRow = root.querySelector<HTMLElement>('[data-print-gabarito-row]');
+    const gabarito = root.querySelector<HTMLInputElement>('[data-print-gabarito]');
+    const sectionBoxes = Array.from(
+      root.querySelectorAll<HTMLInputElement>('input[data-print-section-checkbox]'),
+    );
+    if (!dialog || !confirm || !cancel || !status) return;
+
+    // Sem JavaScript os botões permanecem ocultos (hidden) e vale o Ctrl+P nativo.
+    root.querySelectorAll<HTMLButtonElement>('[data-print-open]').forEach((button) => {
+      button.hidden = false;
+    });
+
+    let mode: 'print' | 'pdf' = 'print';
+    let opener: HTMLElement | null = null;
+    let cleaning = false;
+
+    const setStatus = (message: string) => {
+      status.textContent = message;
+    };
+
+    const syncGabaritoRow = () => {
+      const questionsChecked = sectionBoxes.some(
+        (box) => box.value === 'questoes' && box.checked,
+      );
+      if (gabaritoRow) gabaritoRow.hidden = !questionsChecked;
+    };
+
+    const selectedSections = (): PrintSection[] => {
+      const checked = new Set(sectionBoxes.filter((box) => box.checked).map((box) => box.value));
+      return PRINT_SECTIONS.filter((section) => checked.has(section));
+    };
+
+    const openDialog = (nextMode: 'print' | 'pdf', trigger: HTMLElement) => {
+      mode = nextMode;
+      opener = trigger;
+      if (title) title.textContent = mode === 'print' ? 'Imprimir' : 'Salvar como PDF';
+      confirm.textContent = mode === 'print' ? 'Imprimir' : 'Salvar PDF';
+      if (pdfHint) pdfHint.hidden = mode !== 'pdf';
+      setStatus('');
+      syncGabaritoRow();
+      if (!dialog.open) dialog.showModal();
+      const first = sectionBoxes[0];
+      if (first) first.focus();
+    };
+
+    const closeDialog = () => {
+      if (dialog.open) dialog.close();
+      if (opener) opener.focus();
+    };
+
+    const cleanupBundle = (previousTitle: string) => {
+      if (cleaning) return;
+      cleaning = true;
+      window.setTimeout(() => {
+        document.querySelectorAll('[data-print-bundle]').forEach((node) => node.remove());
+        document.body.classList.remove('printing-bundle');
+        document.title = previousTitle;
+        confirm.disabled = false;
+        confirm.removeAttribute('aria-busy');
+        cleaning = false;
+      }, 400);
+    };
+
+    const buildSection = async (
+      section: PrintSection,
+      bundle: HTMLElement,
+      includeGabarito: boolean,
+    ): Promise<boolean> => {
+      const base = `/concursos/${config.contestSlug}/${config.subjectSlug}/`;
+      const wrapper = document.createElement('section');
+      wrapper.className = 'print-bundle-section';
+      wrapper.dataset.printBundleSection = section;
+      const heading = document.createElement('h2');
+      heading.textContent = SECTION_LABELS[section];
+      wrapper.append(heading);
+
+      try {
+        if (section === 'questoes') {
+          const live = config.active === 'questions' ? readLiveQuestionnaireConfig() : null;
+          const questionnaire = live ?? parseQuestionnaireConfig(await fetchText(`${base}questoes/`));
+          if (!questionnaire) return false;
+          const template = document.createElement('template');
+          template.innerHTML = renderQuestions(questionnaire, includeGabarito);
+          wrapper.append(template.content);
+        } else {
+          const path = section === 'conteudo' ? base : `${base}cheat-sheet/`;
+          const isLive =
+            (section === 'conteudo' && config.active === 'content') ||
+            (section === 'cheat-sheet' && config.active === 'cheat-sheet');
+          const node = isLive
+            ? cloneLiveArticle()
+            : extractFromHtml(await fetchText(path), 'article', '[data-navigation-content]');
+          if (!node) return false;
+          wrapper.append(node);
+        }
+        bundle.append(wrapper);
+        return true;
+      } catch {
+        const notice = document.createElement('p');
+        notice.className = 'print-bundle-unavailable';
+        notice.textContent = `Seção ${SECTION_LABELS[section]} indisponível offline.`;
+        wrapper.append(notice);
+        bundle.append(wrapper);
+        return true;
+      }
+    };
+
+    root.querySelectorAll<HTMLButtonElement>('[data-print-open]').forEach((button) => {
+      button.addEventListener('click', () => {
+        openDialog(button.dataset.printOpen === 'pdf' ? 'pdf' : 'print', button);
+      });
+    });
+
+    root.querySelector('[data-print-only-current]')?.addEventListener('click', () => {
+      const current =
+        config.active === 'content' ? 'conteudo' : config.active === 'cheat-sheet' ? 'cheat-sheet' : 'questoes';
+      sectionBoxes.forEach((box) => {
+        box.checked = box.value === current;
+      });
+      syncGabaritoRow();
+    });
+
+    root.querySelector('[data-print-all]')?.addEventListener('click', () => {
+      sectionBoxes.forEach((box) => {
+        box.checked = true;
+      });
+      syncGabaritoRow();
+    });
+
+    sectionBoxes.forEach((box) => {
+      box.addEventListener('change', syncGabaritoRow);
+    });
+
+    cancel.addEventListener('click', closeDialog);
+    dialog.addEventListener('click', (event) => {
+      if (event.target === dialog) closeDialog();
+    });
+
+    confirm.addEventListener('click', () => {
+      void (async () => {
+        const sections = selectedSections();
+        if (sections.length === 0) {
+          setStatus('Selecione ao menos uma seção.');
+          return;
+        }
+        const includeGabarito = gabarito?.checked ?? true;
+        confirm.disabled = true;
+        confirm.setAttribute('aria-busy', 'true');
+        setStatus('Preparando impressão…');
+        const previousTitle = document.title;
+        try {
+          await waitForStablePrint();
+          document.querySelectorAll('[data-print-bundle]').forEach((node) => node.remove());
+          const bundle = document.createElement('div');
+          bundle.className = 'print-bundle';
+          bundle.dataset.printBundle = '';
+          const header = document.createElement('header');
+          header.className = 'print-bundle-header';
+          const emitted = new Date().toLocaleDateString('pt-BR');
+          header.innerHTML =
+            `<p class="print-bundle-contest">${escapeHtml(config.contestTitle)}</p>` +
+            `<h1>${escapeHtml(config.subjectTitle)}</h1>` +
+            `<p class="print-bundle-meta">${escapeHtml(scopeLabel(sections))} · rev. ${config.questionSetRevision} · ${escapeHtml(emitted)}</p>`;
+          bundle.append(header);
+          for (const section of sections) {
+            await buildSection(section, bundle, includeGabarito);
+          }
+          document.body.append(bundle);
+          document.body.classList.add('printing-bundle');
+          document.title = `${config.subjectTitle} - ${scopeLabel(sections)}`;
+          dialog.close();
+          setStatus('');
+          const done = () => cleanupBundle(previousTitle);
+          window.addEventListener('afterprint', done, { once: true });
+          window.addEventListener('pagehide', done, { once: true });
+          window.setTimeout(done, 60_000);
+          window.print();
+        } catch {
+          setStatus('Não foi possível preparar a impressão. Tente de novo.');
+          confirm.disabled = false;
+          confirm.removeAttribute('aria-busy');
+        }
+      })();
+    });
+  });
+</script>
+
+<style>
+  .print-export {
+    display: contents;
+  }
+
+  .print-dialog {
+    max-width: min(22rem, 90vw);
+    border: 1px solid var(--line);
+    border-radius: 0.75rem;
+    padding: 0;
+    color: var(--ink);
+    background: var(--paper);
+  }
+
+  .print-dialog::backdrop {
+    background: rgb(0 0 0 / 0.45);
+  }
+
+  .print-dialog-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-height: 90dvh;
+    overflow: auto;
+    padding: 1rem;
+  }
+
+  .print-dialog-panel h3 {
+    margin: 0;
+    font-size: 1.05rem;
+  }
+
+  .print-dialog-description,
+  .print-dialog-hint {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  .print-dialog-fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin: 0;
+    border: 1px solid var(--line);
+    border-radius: 0.5rem;
+    padding: 0.6rem 0.75rem;
+  }
+
+  .print-dialog-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .print-dialog-quick {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .print-dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+
+  .print-dialog-status {
+    min-height: 1.25em;
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  /* O bundle é criado em runtime via createElement (sem data-astro-cid),
+     então sua ocultação em tela vive em global.css (não escopado). */
+</style>

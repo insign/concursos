@@ -61,7 +61,7 @@ test('keeps the three study modes centered between category navigation controls'
     expect(routeGeometry.rightDelta).toBeLessThan(1);
 
     const actionBar = actions(page);
-    await expect(actionBar.getByRole('button')).toHaveCount(1);
+    await expect(actionBar.getByRole('button')).toHaveCount(3);
     const actionLinkCount = route.active === 'Conteúdo' ? 3 : 2;
     await expect(actionBar.getByRole('link')).toHaveCount(actionLinkCount);
     await expect(actionBar.getByRole('link', { name: 'Voltar para o concurso' })).toHaveAttribute(
@@ -76,7 +76,7 @@ test('keeps the three study modes centered between category navigation controls'
     if (route.active === 'Conteúdo') await expect(focusAction).toHaveAttribute('href', '#focus');
     else await expect(focusAction).toHaveCount(0);
     const visibleIcons = actionBar.locator('svg:visible');
-    await expect(visibleIcons).toHaveCount(actionLinkCount + 1);
+    await expect(visibleIcons).toHaveCount(actionLinkCount + 3);
     for (const icon of await visibleIcons.all()) {
       await expect(icon).toHaveAttribute('aria-hidden', 'true');
     }

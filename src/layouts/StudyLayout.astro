@@ -103,8 +103,12 @@ const contestTitleStart = contestMiddleTruncated
           <SubjectActionBar
             contestSlug={contest.slug}
             contestStorageId={contest.storageId}
+            contestTitle={contest.title}
+            subjectSlug={subject.slug}
+            subjectTitle={subject.title}
             subjectStorageId={subject.storageId}
             subjectHref={subjectHref}
+            questionSetRevision={subject.questionSetEntry.data.questionSetRevision}
             active={active}
           />
         </div>
@@ -128,8 +132,12 @@ const contestTitleStart = contestMiddleTruncated
         <SubjectActionBar
           contestSlug={contest.slug}
           contestStorageId={contest.storageId}
+          contestTitle={contest.title}
+          subjectSlug={subject.slug}
+          subjectTitle={subject.title}
           subjectStorageId={subject.storageId}
           subjectHref={subjectHref}
+          questionSetRevision={subject.questionSetEntry.data.questionSetRevision}
           active={active}
         />
       )

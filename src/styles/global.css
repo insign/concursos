@@ -808,6 +808,12 @@ a.subject-reading-link:hover {
   display: none;
 }
 
+/* Bundle de impressão (criado em runtime, sem data-astro-cid): oculto em
+   tela; visível só no papel via print.css sob body.printing-bundle. */
+.print-bundle {
+  display: none;
+}
+
 .reading-focus:is(:target, [data-reading-focus-active]) .reading-progress {
   position: fixed;
   display: block;
