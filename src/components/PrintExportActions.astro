@@ -51,23 +51,6 @@ const config = JSON.stringify({
     </svg>
     <span class="subject-action-label">Imprimir</span>
   </button>
-  <button
-    class="subject-action-control"
-    type="button"
-    data-print-open="pdf"
-    aria-haspopup="dialog"
-    aria-label="Salvar como PDF"
-    title="Salvar como PDF"
-    hidden
-  >
-    <svg class="subject-action-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" />
-      <path d="M14 3v5h5" />
-      <path d="M12 11v6" />
-      <path d="m9 15 3 3 3-3" />
-    </svg>
-    <span class="subject-action-label">Salvar como PDF</span>
-  </button>
 
   <dialog class="print-dialog" data-print-dialog aria-labelledby={titleId}>
     <div class="print-dialog-panel">
@@ -102,8 +85,8 @@ const config = JSON.stringify({
         <input type="checkbox" data-print-gabarito checked />
         Incluir gabarito ao final (só a letra, sem explicações)
       </label>
-      <p class="print-dialog-hint" data-print-pdf-hint hidden>
-        Na janela do sistema, escolha “Salvar como PDF” como destino.
+      <p class="print-dialog-hint">
+        Na janela do sistema, escolha “Salvar como PDF” como destino se quiser um PDF.
       </p>
       <div class="print-dialog-actions">
         <button class="button button-secondary" type="button" data-print-cancel>
@@ -263,7 +246,6 @@ const config = JSON.stringify({
     const confirm = root.querySelector<HTMLButtonElement>('[data-print-confirm]');
     const cancel = root.querySelector<HTMLButtonElement>('[data-print-cancel]');
     const status = root.querySelector<HTMLElement>('[data-print-status]');
-    const pdfHint = root.querySelector<HTMLElement>('[data-print-pdf-hint]');
     const gabaritoRow = root.querySelector<HTMLElement>('[data-print-gabarito-row]');
     const gabarito = root.querySelector<HTMLInputElement>('[data-print-gabarito]');
     const sectionBoxes = Array.from(
@@ -276,7 +258,6 @@ const config = JSON.stringify({
       button.hidden = false;
     });
 
-    let mode: 'print' | 'pdf' = 'print';
     let opener: HTMLElement | null = null;
     let cleaning = false;
 
@@ -296,12 +277,10 @@ const config = JSON.stringify({
       return PRINT_SECTIONS.filter((section) => checked.has(section));
     };
 
-    const openDialog = (nextMode: 'print' | 'pdf', trigger: HTMLElement) => {
-      mode = nextMode;
+    const openDialog = (trigger: HTMLElement) => {
       opener = trigger;
-      if (title) title.textContent = mode === 'print' ? 'Imprimir' : 'Salvar como PDF';
-      confirm.textContent = mode === 'print' ? 'Imprimir' : 'Salvar PDF';
-      if (pdfHint) pdfHint.hidden = mode !== 'pdf';
+      if (title) title.textContent = 'Imprimir';
+      confirm.textContent = 'Imprimir';
       setStatus('');
       syncGabaritoRow();
       if (!dialog.open) dialog.showModal();
@@ -373,7 +352,7 @@ const config = JSON.stringify({
 
     root.querySelectorAll<HTMLButtonElement>('[data-print-open]').forEach((button) => {
       button.addEventListener('click', () => {
-        openDialog(button.dataset.printOpen === 'pdf' ? 'pdf' : 'print', button);
+        openDialog(button);
       });
     });
 
