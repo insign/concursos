@@ -2,7 +2,6 @@
 import { render } from 'astro:content';
 import AbbreviationRuntime from '../../../../components/AbbreviationRuntime.astro';
 import MermaidRuntime from '../../../../components/MermaidRuntime.astro';
-import PrintButton from '../../../../components/PrintButton.astro';
 import StudyLayout from '../../../../layouts/StudyLayout.astro';
 import { getSubjectStaticPaths, type CatalogContest, type CatalogSubject } from '../../../../lib/catalog';
 
@@ -21,7 +20,6 @@ const hasMermaid = body.includes('```mermaid');
 ---
 
 <StudyLayout contest={contest} subject={subject} active="cheat-sheet">
-  <PrintButton />
   <article class="cheat-sheet-content">
     <Content />
   </article>

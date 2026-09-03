@@ -1,16 +1,21 @@
 ---
+import PrintExportActions from './PrintExportActions.astro';
 import StudiedToggle from './StudiedToggle.astro';
 import ReadingCustomizer from './ReadingCustomizer.astro';
 
 interface Props {
   contestSlug: string;
   contestStorageId: string;
+  contestTitle: string;
+  subjectSlug: string;
+  subjectTitle: string;
   subjectStorageId: string;
   subjectHref: string;
+  questionSetRevision: number;
   active: 'content' | 'cheat-sheet' | 'questions';
 }
 
-const { contestSlug, contestStorageId, subjectStorageId, subjectHref, active } = Astro.props;
+const { contestSlug, contestStorageId, contestTitle, subjectSlug, subjectTitle, subjectStorageId, subjectHref, questionSetRevision, active } = Astro.props;
 ---
 
 <div class="subject-action-bar print-hidden" data-subject-action-bar role="group" aria-label="Ações do assunto">
@@ -48,6 +53,15 @@ const { contestSlug, contestStorageId, subjectStorageId, subjectHref, active } =
       </svg>
       <span class="subject-action-label">Voltar ao topo</span>
     </a>
+    <PrintExportActions
+      contestSlug={contestSlug}
+      subjectSlug={subjectSlug}
+      contestTitle={contestTitle}
+      subjectTitle={subjectTitle}
+      questionSetRevision={questionSetRevision}
+      active={active}
+      instanceId="print-normal"
+    />
     {
       active === 'content' && (
         <a

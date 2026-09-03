@@ -42,7 +42,9 @@
   .breadcrumbs,
   .subject-tabs,
   .subject-heading,
-  .subject-pagination {
+  .subject-pagination,
+  .print-dialog,
+  .document-references {
     display: none !important;
   }
 
@@ -52,21 +54,17 @@
     cursor: inherit;
   }
 
-  /* Referências impressas sempre expostas: o script de beforeprint abre os
-     details; estas regras escondem o gatilho e tentam revelar o conteúdo
-     mesmo sem JavaScript, onde o estado fechado não pode ser alterado. */
+  .reading-surface article abbr[title]::after,
+  .print-bundle-section abbr[title]::after {
+    content: " (" attr(title) ")";
+    font-size: 8.5pt;
+  }
+
+  /* Referências nunca saem no impresso/PDF: bloco oculto na tela de
+     impressão e excluído do bundle (o script de beforeprint continua
+     inofensivo, pois o bloco permanece oculto). */
   .document-references-details > summary {
     display: none !important;
-  }
-
-  .document-references-details:not([open]) > .document-references-body {
-    display: block !important;
-  }
-
-  /* Imprimir a partir do modo de leitura não pode omitir as referências:
-     o ocultamento do #focus vale apenas para a tela. */
-  .reading-focus:is(:target, [data-reading-focus-active]) .document-references {
-    display: block !important;
   }
 
   .study-shell,
@@ -115,6 +113,77 @@
     font-size: 22pt;
   }
 
+  h1,
+  h2,
+  h3,
+  h4 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  p,
+  li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Bundle de impressão montado em memória (sem rota agregada, sem
+     duplicar estáticos/offline): na tela fica oculto; no papel, só ele. */
+  .print-bundle {
+    display: none;
+  }
+
+  body.printing-bundle .study-shell,
+  body.printing-bundle .site-header {
+    display: none !important;
+  }
+
+  body.printing-bundle .print-bundle {
+    display: block !important;
+  }
+
+  .print-bundle-header {
+    margin-bottom: 10pt;
+    border-bottom: 1pt solid #777;
+    padding-bottom: 6pt;
+  }
+
+  .print-bundle-header p,
+  .print-bundle-header h1 {
+    margin: 0 0 4pt;
+  }
+
+  .print-bundle-contest,
+  .print-bundle-meta {
+    font-size: 9pt;
+    color: #333;
+  }
+
+  .print-bundle-section + .print-bundle-section {
+    break-before: page;
+    page-break-before: always;
+  }
+
+  .print-question,
+  .print-gabarito table {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .print-bundle-unavailable {
+    font-size: 9.5pt;
+    color: #333;
+  }
+
+  .print-options {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .print-option-letter {
+    font-weight: 700;
+  }
+
   h2 {
     margin-top: 16pt;
     font-size: 15pt;
@@ -125,8 +194,6 @@
     text-decoration: none;
   }
 
-  table,
-  pre,
   figure,
   .katex-display,
   pre.mermaid,
@@ -135,15 +202,36 @@
     page-break-inside: avoid;
   }
 
+  thead {
+    display: table-header-group;
+  }
+
+  tr {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
   table {
     display: table !important;
     width: 100%;
     overflow: visible !important;
+    border-collapse: collapse;
+    font-size: 9pt;
+  }
+
+  img {
+    max-width: 100% !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   pre {
     white-space: pre-wrap;
     overflow-wrap: anywhere;
+    word-break: break-word;
+    border: 1pt solid #999;
+    padding: 6pt;
+    font-size: 8.5pt;
   }
 
   .katex-display {

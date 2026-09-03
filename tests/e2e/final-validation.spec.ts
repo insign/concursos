@@ -19,7 +19,7 @@ test('keeps study content readable without JavaScript', async ({ browser }) => {
   await context.close();
 });
 
-test('waits for Mermaid before printing and applies the print layout', async ({ page }) => {
+test('opens the print dialog and waits for Mermaid before printing', async ({ page }) => {
   await page.addInitScript(() => {
     Object.defineProperty(window, 'print', {
       configurable: true,
@@ -39,18 +39,41 @@ test('waits for Mermaid before printing and applies the print layout', async ({ 
     });
   });
 
-  const printButton = page.getByRole('button', { name: 'Imprimir cheat sheet' });
-  await printButton.click();
-  await expect(printButton).toHaveAttribute('aria-busy', 'true');
+  await page.locator('[data-print-open="print"]').first().click();
+  const dialog = page.locator('[data-print-dialog]');
+  await expect(dialog).toBeVisible();
+  const confirm = page.locator('[data-print-confirm]');
+  await confirm.click();
+  await expect(confirm).toHaveAttribute('aria-busy', 'true');
   expect(await page.evaluate(() => (window as Window & { __printCalls?: number }).__printCalls ?? 0)).toBe(0);
   await page.evaluate(() => (window as Window & { __releasePrint?: () => void }).__releasePrint?.());
   await expect.poll(() => page.evaluate(() => (window as Window & { __printCalls?: number }).__printCalls ?? 0)).toBe(1);
+  await expect(page.locator('[data-print-bundle]')).toContainText('Cheat sheet');
 
+  await page.evaluate(() => window.dispatchEvent(new Event('afterprint')));
   await page.emulateMedia({ media: 'print' });
   await expect(page.locator('.site-header')).toBeHidden();
-  await expect(printButton).toBeHidden();
-  await expect(page.locator('.reading-surface article')).toBeVisible();
-  await expect(page.getByRole('table')).toHaveCSS('display', 'table');
+  await expect(page.locator('[data-subject-action-bar]')).toBeHidden();
+  await expect(dialog).toBeHidden();
+  await expect(page.locator('[data-document-references]')).toBeHidden();
+});
+
+test('requires at least one print section and toggles the gabarito option', async ({ page }) => {
+  await page.goto('/concursos/concurso-exemplo/assunto-exemplo/');
+  const bar = page.locator('[data-subject-action-normal]');
+  await bar.locator('[data-print-open="print"]').click();
+  const dialog = bar.locator('[data-print-dialog]');
+  await expect(dialog).toBeVisible();
+  // Por padrão, só a aba atual (Conteúdo) vem marcada e o gabarito fica oculto.
+  await expect(bar.locator('[data-print-gabarito-row]')).toBeHidden();
+  await bar.locator('[data-print-section-checkbox="questoes"]').check();
+  await expect(bar.locator('[data-print-gabarito-row]')).toBeVisible();
+  await expect(bar.locator('[data-print-gabarito]')).toBeChecked();
+  for (const section of ['conteudo', 'cheat-sheet', 'questoes']) {
+    await bar.locator(`[data-print-section-checkbox="${section}"]`).uncheck();
+  }
+  await bar.locator('[data-print-confirm]').click();
+  await expect(bar.locator('[data-print-status]')).toHaveText('Selecione ao menos uma seção.');
 });
 
 test('exposes an installable standalone manifest with reachable icons', async ({ request }) => {

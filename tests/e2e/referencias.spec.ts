@@ -69,6 +69,13 @@ test('expands references for printing and restores state afterwards', async ({ p
   await expect(details).not.toHaveAttribute('open');
 });
 
+test('hides references in print media (never printed nor in PDF)', async ({ page }) => {
+  await page.goto(subjectPath);
+  await page.emulateMedia({ media: 'print' });
+  await expect(page.locator('[data-document-references]')).toBeHidden();
+  await page.emulateMedia({ media: 'screen' });
+});
+
 test('processes references through the Markdown pipeline on the mega review', async ({ page }) => {
   await page.goto(reviewPath);
   const reviewDetails = page.locator('article.mega-review-content [data-document-references] details');
