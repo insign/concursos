@@ -182,3 +182,35 @@ Related: GitHub issue #515, PR #606.
 - ⚠️ At 30×300 scale (~27k HTML) the 20k Free-tier file limit will be exceeded; upgrade to Paid tier (100k files) and re-evaluation of Workers Static Assets will be mandatory before Phase 4 can be reconsidered.
 - ⚠️ Phase 4 remains a deferred ADR; any future incremental strategy must re-validate the Pages Build caching allow-list and the `PAGES_WRANGLER_MAJOR_VERSION=4` limits before implementation.
 - ❌ No custom incremental build cache or sharded assemble optimization is introduced in this phase; every deploy still builds the full site.
+
+## ADR-007: Canonical mega reviews shared across contests via biblioteca links (2026-09-03)
+
+**Status**: Accepted
+
+**Context**: Mega reviews (ADR-005) are physical documents bound to one contest group, while subjects can already be shared across contests through `biblioteca` + `vinculo.json`. Contests reusing the same canonical subjects would need duplicated mega-review copies with silent divergence risk. Issue #715 requires shared canonical reviews before scaling #714 production.
+
+Related: ADR-001, ADR-005, and GitHub issues #715, #717, #723, #728, #729, #730.
+
+**Decision**:
+- Store an optional canonical mega review at `src/content/biblioteca/<grupo>[/<grupo>...]/mega-revisao/index.md` with reusable `mega-revisao/referencias.md`, using the existing `megaReviewSchema`.
+- Link it from a contest group with `src/content/assuntos/<concurso>/<grupo>[/<grupo>...]/mega-revisao/vinculo.json` carrying strict versioned frontmatter `{schemaVersion: 1, canonical}` where `canonical` is the biblioteca group path. No slug/title overrides in v1; per-contest deltas belong to a future overlay proposal (#721).
+- Keep physical/local mode unchanged; a group uses exactly one mode and the build fails on physical+link collision.
+- Share by explicit link only: equal slugs or titles never attach a canonical review.
+- Validate scope compatibility as a derived function over canonical subject IDs after subject-vínculo resolution (exact set equality, order-insensitive); groups with physical descendants fail. No manually maintained scope field; the centralized comparator is the seam for a future scope fingerprint (#723).
+- Reuse the canonical references entry for every consumer; a local `referencias.md` beside a link fails instead of acting as an implicit overlay.
+- Keep public routes per contest (`/revisoes/<contestSlug>/<reviewSlug>/`), one search document and one offline-inventory entry per consuming route, and no persisted group identity.
+- Ship a read-only migration-support report (`npm run report:mega-review-equivalences`, #717-minimal) that lists scope-equivalent groups across contests as editorial candidates, never as automatic migrations.
+
+**Rationale**:
+- Mirroring the proven `biblioteca` + `vinculo.json` mechanism keeps one editorial source per reusable review while contests remain views/organizations of content.
+- Derived scope validation prevents reusing a review where groups diverge (e.g. an organ-specific norm) without adding manual fields that drift.
+- Per-contest routes preserve contest context, search isolation, and offline packaging without cross-package deduplication complexity (#728).
+
+**Consequences**:
+- ✅ One canonical review improvement benefits every linked contest with per-contest routes, search, and offline entries.
+- ✅ Build-time validation rejects nonexistent canonicals, collisions, local companions, and scope mismatches with actionable missing/extra ID diffs.
+- ✅ The fingerprint seam allows #723 to replace comparison internals without schema or caller changes.
+- ⚠️ Mixed physical/canonical groups are invalid in v1; subjects must be canonicalized first.
+- ⚠️ Scope equality is not semantic proof; migration still requires editorial comparison of body, references, and temporal cut.
+- ❌ No automatic migration, no contest-specific overlay, and no shared public route are introduced.
+- ❌ The `mega-revisao` path segment is reserved and may not be used as a final subject slug; this supersedes ADR-005's wording that mega-review paths leave all valid slugs available.

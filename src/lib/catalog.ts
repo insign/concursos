@@ -2,6 +2,7 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 import {
   buildCatalogIndex,
   createOfflineInventory,
+  remapBibliotecaResolutionId,
   type CatalogContestIndex,
   type CatalogGroupIndex,
   type CatalogIndex,
@@ -65,6 +66,7 @@ async function loadCatalog(): Promise<Catalog> {
     contestEntries,
     groupEntries,
     megaReviewEntries,
+    megaReviewVinculoEntries,
     contentEntries,
     cheatSheetEntries,
     questionSetEntries,
@@ -75,11 +77,13 @@ async function loadCatalog(): Promise<Catalog> {
     bibliotecaQuestionSetEntries,
     bibliotecaResolutionEntries,
     bibliotecaReferenceEntries,
+    bibliotecaMegaReviewEntries,
     vinculoEntries,
   ] = await Promise.all([
     getCollection('concursos'),
     getCollection('grupos'),
     getCollection('megaRevisoes'),
+    getCollection('megaReviewVinculos'),
     getCollection('conteudos'),
     getCollection('cheatSheets'),
     getCollection('questoes'),
@@ -90,6 +94,7 @@ async function loadCatalog(): Promise<Catalog> {
     getCollection('bibliotecaQuestoes'),
     getCollection('bibliotecaResolucoes'),
     getCollection('bibliotecaReferencias'),
+    getCollection('bibliotecaMegaRevisoes'),
     getCollection('vinculos'),
   ]);
 
@@ -108,6 +113,7 @@ async function loadCatalog(): Promise<Catalog> {
     contests: contestEntries.map(({ id, data }) => ({ id, data })),
     groups: groupEntries.map(({ id, data }) => ({ id, data })),
     megaReviews: megaReviewEntries.map(({ id, data }) => ({ id, data })),
+    megaReviewVinculos: megaReviewVinculoEntries.map(({ id, data }) => ({ id, data })),
     contents: contentEntries.map(({ id, data }) => ({ id, data })),
     cheatSheetIds: cheatSheetEntries.map(({ id }) => id),
     questionSets: questionSetEntries.map(({ id, data }) => ({ id, data })),
@@ -118,11 +124,14 @@ async function loadCatalog(): Promise<Catalog> {
     bibliotecaQuestionSets: bibliotecaQuestionSetEntries.map(({ id, data }) => ({ id, data })),
     bibliotecaResolutions: bibliotecaResolutionEntries.map(({ id, data }) => ({ id, data })),
     bibliotecaReferences: bibliotecaReferenceEntries.map(({ id, data }) => ({ id, data })),
+    bibliotecaMegaReviews: bibliotecaMegaReviewEntries.map(({ id, data }) => ({ id, data })),
     vinculos: vinculoEntries.map(({ id, data }) => ({ id, data })),
   }, { requireReferences: REQUIRE_REFERENCES });
 
   const contentById = new Map(contentEntries.map((entry) => [entry.id, entry]));
   const megaReviewById = new Map(megaReviewEntries.map((entry) => [entry.id, entry]));
+  const megaReviewVinculoById = new Map(megaReviewVinculoEntries.map((entry) => [entry.id, entry]));
+  const bibliotecaMegaReviewById = new Map(bibliotecaMegaReviewEntries.map((entry) => [entry.id, entry]));
   const cheatSheetById = new Map(cheatSheetEntries.map((entry) => [entry.id, entry]));
   const questionSetById = new Map(questionSetEntries.map((entry) => [entry.id, entry]));
   const referenceById = new Map(referenceEntries.map((entry) => [entry.id, entry]));
@@ -145,15 +154,19 @@ async function loadCatalog(): Promise<Catalog> {
     entries.push(entry);
     resolutionEntriesBySubjectId.set(subjectId, entries);
   }
-  // Provide synthetic resolution entries for vinculated subjects via biblioteca
+  // Provide synthetic resolution entries for vinculated subjects via biblioteca,
+  // remapped to the consumer namespace so resolution pages can parse their IDs.
   for (const vinculo of vinculoEntries) {
     const canonical = vinculo.data.canonical as string;
     const bibResList = bibliotecaResolutionEntriesByCanonical.get(canonical);
     if (!bibResList || bibResList.length === 0) continue;
-    // Map biblioteca resolution entry to synthetic subject resolution id, but hydration expects CollectionEntry<'resolucoes'>
-    // We keep original biblioteca entries as fallback; catalog index already validated synthetic ids,
-    // but for page rendering we provide the biblioteca entries themselves.
-    resolutionEntriesBySubjectId.set(vinculo.id, bibResList as unknown as CollectionEntry<'resolucoes'>[]);
+    resolutionEntriesBySubjectId.set(
+      vinculo.id,
+      bibResList.map((entry) => ({
+        ...entry,
+        id: remapBibliotecaResolutionId(vinculo.id, entry.id),
+      })) as unknown as CollectionEntry<'resolucoes'>[],
+    );
   }
 
   return {
@@ -195,14 +208,37 @@ async function loadCatalog(): Promise<Catalog> {
 
       const hydrateNode = (node: CatalogTreeNodeIndex): CatalogTreeNode =>
         node.kind === 'subject' ? subjectsById.get(node.id)! : hydrateGroup(node);
-      const hydrateGroup = (group: CatalogGroupIndex): CatalogGroup => ({
-        ...group,
-        megaReviewEntry: group.megaReview ? megaReviewById.get(group.megaReview.id)! : null,
-        megaReviewReferencesEntry: group.megaReview
-          ? referenceById.get(`${group.megaReview.id}/mega-revisao`) ?? null
-          : null,
-        children: group.children.map(hydrateNode),
-      });
+      const hydrateGroup = (group: CatalogGroupIndex): CatalogGroup => {
+        let megaReviewEntry: CollectionEntry<'megaRevisoes'> | null = null;
+        let megaReviewReferencesEntry: CollectionEntry<'referencias'> | null = null;
+        if (group.megaReview) {
+          const link = megaReviewVinculoById.get(group.megaReview.id);
+          if (link) {
+            const canonical = (link.data as { canonical: string }).canonical;
+            megaReviewEntry =
+              (bibliotecaMegaReviewById.get(`${canonical}/mega-revisao`) as unknown as
+                | CollectionEntry<'megaRevisoes'>
+                | undefined) ?? null;
+            megaReviewReferencesEntry =
+              (bibliotecaReferenceById.get(`${canonical}/mega-revisao`) as unknown as
+                | CollectionEntry<'referencias'>
+                | undefined) ?? null;
+          } else {
+            megaReviewEntry = megaReviewById.get(group.megaReview.id) ?? null;
+            megaReviewReferencesEntry =
+              referenceById.get(`${group.megaReview.id}/mega-revisao`) ?? null;
+          }
+          if (!megaReviewEntry) {
+            throw new Error(`Entradas de mega revisão ausentes para o grupo "${group.megaReview.id}"`);
+          }
+        }
+        return {
+          ...group,
+          megaReviewEntry,
+          megaReviewReferencesEntry,
+          children: group.children.map(hydrateNode),
+        };
+      };
 
       return {
         ...contest,

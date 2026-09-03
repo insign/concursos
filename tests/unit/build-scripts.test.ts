@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { createHash } from 'node:crypto';
 import { evaluateBuildBudget } from '../../scripts/lib/build-budget.mjs';
 import { mapConcurrent, resolveConcurrency } from '../../scripts/lib/concurrency.mjs';
+import { isMegaReviewRouteFile, isSubjectMarkerFile } from '../../scripts/lib/estimate-counting.mjs';
 import { finalizeSecurityHtml } from '../../scripts/lib/finalize-security.mjs';
 import { isInventoryAsset, resourceHash } from '../../scripts/lib/offline-inventory-builder.mjs';
 import { scriptReferences } from '../../scripts/lib/precache-dependencies.mjs';
@@ -49,5 +50,15 @@ describe('build scripts', () => {
     expect(scriptReferences(
       `import{a}from"./identity.hash.js";const x=import('./lazy.hash.js');import('/_astro/root.hash.js')`,
     )).toEqual(['identity.hash.js', 'lazy.hash.js', 'root.hash.js']);
+  });
+
+  it('classifies mega review links as review routes, not subjects', () => {
+    expect(isSubjectMarkerFile('src/content/assuntos/c/g/a/questoes.json')).toBe(true);
+    expect(isSubjectMarkerFile('src/content/assuntos/c/g/a/vinculo.json')).toBe(true);
+    expect(isSubjectMarkerFile('src/content/assuntos/c/g/mega-revisao/vinculo.json')).toBe(false);
+    expect(isSubjectMarkerFile('src/content/assuntos/c/g/mega-revisao/index.md')).toBe(false);
+    expect(isMegaReviewRouteFile('src/content/assuntos/c/g/mega-revisao/index.md')).toBe(true);
+    expect(isMegaReviewRouteFile('src/content/assuntos/c/g/mega-revisao/vinculo.json')).toBe(true);
+    expect(isMegaReviewRouteFile('src/content/assuntos/c/g/a/vinculo.json')).toBe(false);
   });
 });

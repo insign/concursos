@@ -2,6 +2,7 @@ import type {
   ContestData,
   GroupData,
   MegaReviewData,
+  MegaReviewVinculoData,
   QuestionSet,
   ReferenceData,
   ResolutionData,
@@ -9,6 +10,7 @@ import type {
 } from './content-schema';
 import {
   parseBibliotecaId,
+  parseBibliotecaMegaReferenceId,
   parseBibliotecaReferenceId,
   parseBibliotecaResolutionId,
   parseGroupId,
@@ -17,6 +19,7 @@ import {
   parseSubjectId,
 } from './content-paths';
 import { megaReviewRoute } from './mega-review-routes';
+import { deriveBibliotecaMegaReviewScope, deriveLinkedMegaReviewScope, diffMegaReviewScopes } from './mega-review-scope';
 import type { ResolutionDescriptor } from './resolution-routes';
 
 export interface CatalogRecord<T> {
@@ -44,6 +47,8 @@ export interface CatalogSources {
   bibliotecaQuestionSets?: CatalogRecord<QuestionSet>[];
   bibliotecaResolutions?: CatalogRecord<ResolutionData>[];
   bibliotecaReferences?: CatalogRecord<ReferenceData>[];
+  bibliotecaMegaReviews?: CatalogRecord<MegaReviewData>[];
+  megaReviewVinculos?: CatalogRecord<MegaReviewVinculoData>[];
   vinculos?: CatalogRecord<VinculoData>[];
 }
 
@@ -149,6 +154,19 @@ function compareCatalogEntries(
   return a.order - b.order || a.title.localeCompare(b.title, 'pt-BR') || a.id.localeCompare(b.id);
 }
 
+/**
+ * Remapeia um ID de resolução de biblioteca para o namespace do assunto
+ * consumidor. A hidratação deve expor IDs do consumidor porque as páginas
+ * de resoluções derivam o assunto via `parseResolutionId`.
+ */
+export function remapBibliotecaResolutionId(
+  vinculoSubjectId: string,
+  bibliotecaResolutionId: string,
+): string {
+  const { questionId } = parseBibliotecaResolutionId(bibliotecaResolutionId);
+  return `${vinculoSubjectId}/resolucoes/${questionId}`;
+}
+
 function sortTree(nodes: CatalogTreeNodeIndex[]): void {
   nodes.sort(compareCatalogEntries);
 
@@ -238,6 +256,11 @@ export function buildCatalogIndex(sources: CatalogSources, options: CatalogIndex
   const bibliotecaResolutionReferenceIds = new Set<string>();
   for (const reference of bibliotecaReferences) {
     const parsed = parseBibliotecaReferenceId(reference.id);
+    if (parsed.kind === 'mega-review') {
+      // Referências de mega revisão canônica: orfandade validada no bloco
+      // de mega revisões canônicas abaixo, após carregar os vínculos.
+      continue;
+    }
     if (parsed.kind === 'subject') {
       if (!bibliotecaContentIds.has(parsed.subjectId!)) {
         throw new Error(`Referências de biblioteca órfãs para o assunto "${parsed.subjectId}"`);
@@ -324,6 +347,61 @@ export function buildCatalogIndex(sources: CatalogSources, options: CatalogIndex
     }
   }
 
+  // ----- canonical mega reviews + links -----
+  const bibliotecaMegaReviews = sources.bibliotecaMegaReviews ?? [];
+  const megaReviewVinculos = sources.megaReviewVinculos ?? [];
+  assertUnique(bibliotecaMegaReviews.map(({ id }) => id), 'ID de mega revisão de biblioteca');
+  assertUnique(megaReviewVinculos.map(({ id }) => id), 'ID de vínculo de mega revisão');
+
+  const bibliotecaMegaById = new Map(bibliotecaMegaReviews.map((review) => [review.id, review]));
+  for (const review of bibliotecaMegaReviews) {
+    parseBibliotecaMegaReferenceId(review.id);
+  }
+  for (const reference of sources.bibliotecaReferences ?? []) {
+    const parsed = parseBibliotecaReferenceId(reference.id);
+    if (parsed.kind === 'mega-review' && !bibliotecaMegaById.has(reference.id)) {
+      throw new Error(`Referências de biblioteca órfãs para a mega revisão "${reference.id}"`);
+    }
+  }
+
+  const syntheticMegaReviews: CatalogRecord<MegaReviewData>[] = [];
+  for (const vinculo of megaReviewVinculos) {
+    parseGroupId(vinculo.id);
+    const canonicalId = `${vinculo.data.canonical}/mega-revisao`;
+    if (!bibliotecaMegaById.has(canonicalId)) {
+      throw new Error(
+        `Vínculo de mega revisão "${vinculo.id}" referencia mega revisão canônica inexistente "${vinculo.data.canonical}"`,
+      );
+    }
+    syntheticMegaReviews.push({ id: vinculo.id, data: bibliotecaMegaById.get(canonicalId)!.data });
+  }
+
+  const physicalMegaReviewIds = new Set((sources.megaReviews ?? []).map(({ id }) => id));
+  for (const review of syntheticMegaReviews) {
+    if (physicalMegaReviewIds.has(review.id)) {
+      throw new Error(
+        `Mega revisão "${review.id}" possui conteúdo físico e vínculo canônico; use apenas um`,
+      );
+    }
+  }
+
+  const bibliotecaReferenceById = new Map(
+    (sources.bibliotecaReferences ?? []).map((reference) => [reference.id, reference]),
+  );
+  const localReferenceIds = new Set((sources.references ?? []).map(({ id }) => id));
+  for (const vinculo of megaReviewVinculos) {
+    if (localReferenceIds.has(`${vinculo.id}/mega-revisao`)) {
+      throw new Error(
+        `Mega revisão vinculada "${vinculo.id}" possui referências locais; ` +
+          `remova-as para usar o canônico "${vinculo.data.canonical}"`,
+      );
+    }
+    const bibRef = bibliotecaReferenceById.get(`${vinculo.data.canonical}/mega-revisao`);
+    if (bibRef) {
+      syntheticReferences.push({ id: `${vinculo.id}/mega-revisao`, data: bibRef.data });
+    }
+  }
+
   // Combine physical + synthetic for final catalog validation
   const allContents = [...sources.contents, ...syntheticContents];
   const allCheatSheetIds = [...sources.cheatSheetIds, ...syntheticCheatSheetIds];
@@ -335,7 +413,7 @@ export function buildCatalogIndex(sources: CatalogSources, options: CatalogIndex
   assertUnique(sources.contests.map(({ id }) => id), 'ID de concurso');
   assertUnique(sources.groups.map(({ id }) => id), 'ID de grupo');
   assertUnique(allContents.map(({ id }) => id), 'ID de assunto');
-  const megaReviews = sources.megaReviews ?? [];
+  const megaReviews = [...(sources.megaReviews ?? []), ...syntheticMegaReviews];
   assertUnique(megaReviews.map(({ id }) => id), 'ID de mega revisão');
   assertUnique(allCheatSheetIds, 'ID de cheat sheet');
   assertUnique(allQuestionSets.map(({ id }) => id), 'ID de questões');
@@ -563,6 +641,42 @@ export function buildCatalogIndex(sources: CatalogSources, options: CatalogIndex
   for (const group of groupsById.values()) {
     if (!hasSubjectDescendant(group)) {
       throw new Error(`Grupo "${group.id}" não possui assunto descendente`);
+    }
+  }
+
+  // ----- linked mega review scope compatibility -----
+  // Cada grupo vinculado deve cobrir exatamente o escopo canônico resolvido
+  // pelos vínculos de assunto; a comparação é derivada, sem campo manual.
+  const vinculoCanonicalBySubject = new Map(
+    vinculos.map((vinculo) => [vinculo.id, vinculo.data.canonical]),
+  );
+  for (const vinculo of megaReviewVinculos) {
+    const group = groupsById.get(vinculo.id)!;
+    const scope = deriveLinkedMegaReviewScope(group, vinculoCanonicalBySubject);
+    if (scope.unresolvedSubjectIds.length > 0) {
+      throw new Error(
+        `Mega revisão vinculada "${vinculo.id}" possui assuntos locais sem vínculo: ` +
+          scope.unresolvedSubjectIds.map((id) => `"${id}"`).join(', '),
+      );
+    }
+    const expected = deriveBibliotecaMegaReviewScope(vinculo.data.canonical, bibliotecaContentIds);
+    if (expected.length === 0) {
+      throw new Error(
+        `Mega revisão canônica "${vinculo.data.canonical}" não possui assuntos de biblioteca`,
+      );
+    }
+    const diff = diffMegaReviewScopes(scope.canonicalSubjectIds, expected);
+    if (diff.missing.length > 0 || diff.extra.length > 0) {
+      throw new Error(
+        `Escopo incompatível para a mega revisão vinculada "${vinculo.id}" ` +
+          `(canônico "${vinculo.data.canonical}")` +
+          (diff.missing.length > 0
+            ? `; faltando: ${diff.missing.map((id) => `"${id}"`).join(', ')}`
+            : '') +
+          (diff.extra.length > 0
+            ? `; excedentes: ${diff.extra.map((id) => `"${id}"`).join(', ')}`
+            : ''),
+      );
     }
   }
 

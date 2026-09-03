@@ -1,8 +1,14 @@
 import { describe, expect, it } from 'vitest';
 import {
+  bibliotecaMegaReferenceIdFromEntry,
+  bibliotecaMegaReviewIdFromEntry,
   contestIdFromEntry,
   groupIdFromEntry,
   megaReviewIdFromEntry,
+  megaReviewVinculoIdFromEntry,
+  parseBibliotecaMegaGroupId,
+  parseBibliotecaMegaReferenceId,
+  parseBibliotecaReferenceId,
   parseReferenceId,
   parseResolutionId,
   parseGroupId,
@@ -111,5 +117,56 @@ describe('content paths', () => {
     expect(() =>
       resolutionIdFromEntry('concurso/grupo/assunto/resolucoes/referencias.md'),
     ).toThrow('collection de referências');
+  });
+
+  it('derives canonical mega review IDs from biblioteca paths', () => {
+    expect(bibliotecaMegaReviewIdFromEntry('gestao-contratos/mega-revisao/index.md')).toBe(
+      'gestao-contratos/mega-revisao',
+    );
+    expect(bibliotecaMegaReviewIdFromEntry('area\\sub-area\\mega-revisao\\index.md')).toBe(
+      'area/sub-area/mega-revisao',
+    );
+    expect(bibliotecaMegaReferenceIdFromEntry('gestao-contratos/mega-revisao/referencias.md')).toBe(
+      'gestao-contratos/mega-revisao',
+    );
+    expect(parseBibliotecaMegaReferenceId('gestao-contratos/mega-revisao')).toEqual({
+      kind: 'mega-review',
+      groupId: 'gestao-contratos',
+    });
+    expect(parseBibliotecaMegaGroupId('gestao-contratos')).toEqual({
+      groupSlugs: ['gestao-contratos'],
+    });
+    expect(parseBibliotecaReferenceId('gestao-contratos/mega-revisao')).toEqual({
+      kind: 'mega-review',
+      groupId: 'gestao-contratos',
+    });
+    expect(() => bibliotecaMegaReviewIdFromEntry('/mega-revisao/index.md')).toThrow(
+      'grupo de biblioteca',
+    );
+    expect(() => bibliotecaMegaReviewIdFromEntry('Grupo/mega-revisao/index.md')).toThrow(
+      'Slug de grupo de biblioteca inválido',
+    );
+    expect(() => bibliotecaMegaReviewIdFromEntry('gestao-contratos/index.md')).toThrow(
+      'deve terminar',
+    );
+    expect(() => parseBibliotecaMegaReferenceId('gestao-contratos')).toThrow('inválido');
+  });
+
+  it('derives local group IDs from mega review links', () => {
+    expect(megaReviewVinculoIdFromEntry('concurso/grupo/mega-revisao/vinculo.json')).toBe(
+      'concurso/grupo',
+    );
+    expect(megaReviewVinculoIdFromEntry('concurso\\grupo\\sub\\mega-revisao\\vinculo.json')).toBe(
+      'concurso/grupo/sub',
+    );
+    expect(() => megaReviewVinculoIdFromEntry('concurso/grupo/assunto/vinculo.json')).toThrow(
+      'deve terminar',
+    );
+    expect(() => megaReviewVinculoIdFromEntry('concurso/mega-revisao/vinculo.json')).toThrow(
+      '<concurso>/<grupo>',
+    );
+    expect(() => megaReviewVinculoIdFromEntry('concurso/grupo/mega-revisao/index.md')).toThrow(
+      'deve terminar',
+    );
   });
 });

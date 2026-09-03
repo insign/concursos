@@ -17,6 +17,7 @@
     "build:sequential": "BUILD_SEQUENTIAL=1 node scripts/build.mjs",
     "build:budget": "node scripts/check-build-budget.mjs",
     "build:estimate": "node scripts/estimate-scale.mjs",
+    "report:mega-review-equivalences": "node scripts/report-mega-review-equivalences.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },
