@@ -50,8 +50,14 @@ test('opens the print dialog and waits for Mermaid before printing', async ({ pa
   await expect.poll(() => page.evaluate(() => (window as Window & { __printCalls?: number }).__printCalls ?? 0)).toBe(1);
   await expect(page.locator('[data-print-bundle]')).toContainText('Cheat sheet');
 
-  await page.evaluate(() => window.dispatchEvent(new Event('afterprint')));
   await page.emulateMedia({ media: 'print' });
+  await expect(page.locator('[data-print-bundle] td').first()).not.toHaveCSS('border-top-width', '0px');
+  await expect(page.locator('[data-print-bundle] th').first()).toHaveCSS(
+    'background-color',
+    'rgb(235, 235, 235)',
+  );
+
+  await page.evaluate(() => window.dispatchEvent(new Event('afterprint')));
   await expect(page.locator('.site-header')).toBeHidden();
   await expect(page.locator('[data-subject-action-bar]')).toBeHidden();
   await expect(dialog).toBeHidden();

@@ -219,6 +219,33 @@
     font-size: 9pt;
   }
 
+  /* Tabelas do bundle vivem fora de .reading-surface (direto no body), então
+     as regras de tela não as alcançam: replicar bordas, respiro e fundo do
+     cabeçalho aqui. O fundo exige print-color-adjust, pois navegadores
+     ignoram cores de fundo com "gráficos de fundo" desligado. */
+  .print-bundle-section table,
+  .print-gabarito table {
+    margin: 1rem 0;
+  }
+
+  .print-bundle-section th,
+  .print-bundle-section td,
+  .print-gabarito th,
+  .print-gabarito td {
+    padding: 0.45rem 0.6rem;
+    border: 1pt solid #777;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .print-bundle-section th,
+  .print-gabarito th,
+  .reading-surface th {
+    background: #ebebeb !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
   img {
     max-width: 100% !important;
     break-inside: avoid;
