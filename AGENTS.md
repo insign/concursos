@@ -1,323 +1,318 @@
-# Project Agent Guide
+# AGENTS.md
 
-Status: guia operacional autoritativo e documento vivo.
+## Finalidade
 
-## Autoridade e leitura obrigatória
+Este arquivo reúne as regras invariantes para agentes humanos e de IA que alterem o repositório. Leia-o antes de pesquisar, redigir, revisar, programar ou publicar.
 
-- `ROADMAP.md` é a fonte autoritativa do backlog editorial, do conteúdo programático e do estado de produção de cada assunto.
+Pedidos explícitos do usuário prevalecem. Em caso de conflito entre uma campanha e estas regras, preserve primeiro segurança, integridade arquitetural, contratos de dados e fatos verificáveis; registre a divergência no PR.
 
-## Estado atual
+## Fontes de verdade
 
-- Repositório: `https://github.com/insign/concursos`.
-- Branch padrão: `main`.
-- Plano âncora: `2fc0ce077e0b198827b0f4713f94d98d9b1df45b`.
-- Projeto: Astro 7 estático, Node.js 22.12.0 ou superior, npm e TypeScript strict.
-- Pipeline editorial: Unified via `@astrojs/markdown-remark`, GFM, KaTeX local, Shiki e `astro-mermaid`/Mermaid client-side.
-- Domínio: `https://concursos.helio.me`.
-- Cloudflare Pages: projeto `concursos`, URL `https://concursos-ebs.pages.dev`.
-- O Pages já possui Git integration com `insign/concursos` e faz deploy de `main`.
-- Build do Pages: `npm run build`.
-- Diretório publicado: `dist`.
-- O scaffold, o projeto Pages, a Git integration e o custom domain já existem. Não os recrie.
-- A implementação, os testes integrados, a revisão independente, a documentação e a validação de produção foram concluídos em 14 de julho de 2026.
+- A `main`, os schemas, os catálogos de concursos, os descritores `grupo.json`, os vínculos explícitos, os testes e os ADRs definem a estrutura vigente.
+- O corpo da issue indicada por uma campanha é a fonte de verdade apenas para o estado operacional dessa campanha: seleção, concorrência, progresso e totais. Comentários não carregam estado, salvo instrução expressa.
+- O arquivo legado `ROADMAP.md` foi removido. Referências históricas a ele não definem escopo, ordem, estado ou arquitetura e não justificam recriá-lo.
+- Escopo programático e ordem publicados devem ser obtidos dos catálogos, do conteúdo resolvido na `main` e das fontes primárias do edital correspondente.
+- Nunca substitua uma fonte de verdade atual por memória de conversa, comentário antigo, nome de pasta, título semelhante ou inferência.
 
-## Comandos atuais
+## Princípios gerais
+
+1. Faça a menor mudança que resolva integralmente o problema.
+2. Não invente norma, dado, entendimento, citação, questão, exemplo factual, URL, resultado de comando ou estado de CI.
+3. Diferencie fato verificado, inferência editorial e decisão de projeto.
+4. Preserve compatibilidade de rotas, identidades persistidas, catálogos, sincronização, PWA e conteúdo offline.
+5. Não abra commit ou PR vazio.
+6. Não altere artefatos fora do escopo solicitado apenas para “aproveitar” a edição.
+7. Conteúdo correto, mas impossível de aprender no tempo disponível, ainda é conteúdo editorialmente inadequado.
+
+## Stack e comandos
+
+- Node.js `>=22.12.0`
+- Astro, TypeScript estrito, Zod, Vitest e Playwright
+- Site estático com PWA e conteúdo offline
+
+Comandos principais:
 
 ```bash
 npm install
-npm run dev
-npm run check
-npm run test
 npm run test:unit
-npm run test:e2e
-npm run icons
+npm run check
 npm run build
+npm run build:budget
+npm run test:e2e
 npm run preview
 ```
 
-- Execute `npm run test:unit`, `npm run check` e `npm run build` após mudanças em conteúdo, schemas ou catálogo.
-- `npm run test` executa a suíte Vitest completa; `npm run test:e2e` executa Playwright Chromium sobre `dist` servido por `wrangler pages dev`, para aplicar `public/_headers`.
-- Execute `npm run test:e2e` após mudanças em PWA ou Service Worker, pacotes offline, persistência ou sincronização no navegador, CSP, headers, `noindex`, Mermaid, impressão ou comportamento observado no Pages.
-- `npm run icons` regenera os ícones da PWA; execute-o somente quando a fonte ou a geração de ícones mudar.
-- Use Wrangler v4 instalado no projeto para diagnóstico do Pages.
-- Não use `wrangler pages project create`: isso criaria um projeto Direct Upload separado e sem a Git integration existente.
+Use os comandos exigidos pelo escopo e pelo workflow. Não declare sucesso sem evidência. Não edite `.astro/`, `dist/` ou outros artefatos gerados.
 
-## Restrições técnicas
+## Arquitetura editorial
 
-- Preserve saída Astro totalmente estática.
-- Use npm e mantenha `package-lock.json` sincronizado.
-- Preserve TypeScript strict.
-- Use componentes Astro e JavaScript/TypeScript nativo para interatividade, salvo instrução expressa.
-- Não adicione adapter Cloudflare enquanto o projeto permanecer estático.
-- Não introduza backend, autenticação ou CMS fora do escopo aprovado.
-- Prefira a menor mudança correta e preserve a arquitetura descrita no plano.
+### Concursos, grupos e rotas
 
-## Markdown técnico
+- Catálogos de concursos ficam em `src/content/concursos/`.
+- Todo nível editorial de grupo deve possuir `grupo.json` válido.
+- Grupos organizam apresentação e cobertura, mas não recebem identidade persistida própria.
+- A rota pública do assunto continua baseada no concurso e no slug final; caminhos de grupo não servem para resolver colisões.
+- `contestStorageId` e `subjectStorageId` são identidades estáveis. Não os renomeie sem migração deliberada.
+- `order` pertence à visão consumidora e pode diferir entre concursos ou cargos.
 
-- O Astro 7 usa explicitamente o processador Unified configurado em `astro.config.mjs`; preserve e revalide GFM e a renderização KaTeX ao alterar o pipeline Markdown.
-- KaTeX é renderizado no build, e seu CSS e suas fontes são empacotados localmente. Não adicione CDN.
-- Mermaid é transformado por `astro-mermaid`, renderizado no navegador e deve permanecer com `securityLevel: "strict"`.
-- Páginas com diagramas devem incluir `MermaidRuntime.astro`, que expõe `window.mermaidReady`, marca `data-render-status` e preserva fallback textual em falha.
-- Controles de impressão devem aguardar `window.mermaidReady` antes de chamar `window.print()`.
-- Mantenha carregamento condicional: páginas sem diagramas não devem importar o runtime Mermaid no navegador.
-- `remarkMarkdownFeatures` inspeciona nós HTML reais do AST Markdown e sinaliza `<abbr title>` via `remarkPluginFrontmatter`; conteúdo e cheat sheet incluem `AbbreviationRuntime.astro` somente quando essa flag existe. O runtime externo same-origin preserva `title` como fallback sem JavaScript, oferece popover acessível por hover, foco e toque, fecha por Escape/toque externo e permanece oculto na impressão; páginas sem abreviações tituladas não devem referenciá-lo.
+### Unidade editorial real
 
-## Conteúdo e rotas
+Antes de editar qualquer assunto, resolva sua origem:
 
-- A hierarquia canônica é concurso -> um ou mais grupos -> assunto.
-- Cada assunto terá conteúdo completo, cheat sheet e questões, e poderá ter resoluções complexas opcionais.
-- Cada grupo pode ter opcionalmente uma mega revisão autoral em `mega-revisao/index.md`, sem criar identidade persistida para o grupo.
-- Conteúdo e cheat sheet ficam em Markdown; questões ficam em JSON.
-- As Content Collections de concurso/assunto ficam em `src/content.config.ts`: `concursos`, `grupos`, `megaRevisoes`, `megaReviewVinculos`, `conteudos`, `cheatSheets`, `questoes`, `resolucoes` e `referencias`; a biblioteca espelha o modelo com `bibliotecaMegaRevisoes` para revisões canônicas compartilhadas (#715).
-- Schemas Zod reutilizáveis ficam em `src/lib/content-schema.ts`; mantenha objetos estritos e versões conhecidas.
-- Todo grupo deve ter um descritor estrito `grupo.json`; grupos são obrigatórios, podem ser aninhados e arquivos de assunto diretamente sob o concurso são proibidos.
-- `src/lib/catalog.ts` relaciona as collections, e a página raiz chama `getCatalog()` para que toda validação cruzada execute no build.
-- O caminho gera o ID canônico interno completo: arquivo do concurso para `<concurso>`, descritor de grupo para `<concurso>/<grupo-1>[/<grupo-n>...]` e pasta do assunto para `<concurso>/<grupo-1>[/<grupo-n>...]/<assunto>`; o slug final do assunto deve ser único dentro de cada concurso.
-- As URLs públicas permanecem curtas, em `/concursos/<concurso>/<assunto>/`, independentemente da profundidade dos grupos internos.
-- A mega revisão fica em `src/content/assuntos/<concurso>/<grupo>[/<grupo-n>...]/mega-revisao/index.md`; seu ID é o caminho completo do grupo, seu frontmatter estrito é `{schemaVersion: 1, slug, title?}`, e sua rota é `/revisoes/<concurso>/<revisao>/`, única por concurso e pertencente ao documento, não ao grupo.
-- Grupos não têm `storageId`, rota própria ou identidade de KV, IndexedDB, backup, progresso, sincronização ou offline; a rota da mega revisão não altera essa regra.
-- `contest.subjects` permanece a projeção plana para rotas, persistência e offline; `contest.children` é a árvore editorial.
-- Todo assunto deve possuir `conteudo.md`, `cheat-sheet.md`, `questoes.json` e `referencias.md`; pode conter resoluções opcionais em `resolucoes/<questionId>.md`; arquivos obrigatórios ausentes, resoluções órfãs, `questionId` inexistentes ou `questionRevision` divergentes devem falhar no build.
-- `referencias.md` não tem frontmatter nem heading de nível 1 ou 2 (o rótulo visível pertence ao componente); cada grupo com mega revisão exige `mega-revisao/referencias.md`, e cada assunto com resoluções exige o agregado `resolucoes/referencias.md`; ausência, órfão, duplicado ou corpo vazio falham no build. Na página, as referências aparecem inline ao final do artigo em `<details>` nativo colapsado, ocultas no modo de leitura sem distrações, excluídas do cálculo do progresso de leitura e nunca impressas (ocultas na impressão e no PDF via `print.css` e excluídas do bundle de impressão).
-- Todo grupo pode ter no máximo uma mega revisão opcional; o build falha para revisão órfã, grupo inexistente, ID duplicado ou slug de revisão duplicado no concurso. A abrangência percorre descendentes em ordem editorial e delega subgrupos que tenham sua própria revisão, evitando duplicação. A revisão pode ser física (`mega-revisao/index.md`) ou vinculada a um canônico de biblioteca via `mega-revisao/vinculo.json` (`{schemaVersion: 1, canonical}`, sem overrides); o compartilhamento é sempre por vínculo explícito, nunca por slug/título, e o build valida a compatibilidade de escopo derivada dos assuntos canônicos, rejeitando canônico inexistente, colisão físico/vínculo, referências locais ao lado de vínculo e descendentes físicos sem vínculo. O segmento `mega-revisao` é reservado: nunca o use como slug final de assunto, pois um `vinculo.json` sob esse segmento é sempre lido como vínculo de mega revisão (o schema estrito rejeita `order` e falha fechado).
-- O `/sync-catalog.json` mantém apenas o schema necessário para respostas, sem `origin`, para compatibilidade com clientes PWA já publicados; o filtro de origem usa o `QuestionSet` editorial entregue na página estática.
-- `resolucoes` usa frontmatter estrito versionado `{schemaVersion: 1, questionRevision, title?}`; sua disponibilidade é derivada do catálogo, sem campos em `questionSchema`, `syncQuestionSchema`, `/sync-catalog.json`, pools de simulados, snapshots ou documentos persistidos.
-- Preserve IDs e `storageId` estáveis; nunca use posição de array como identidade.
-- Não duplique metadados que possam ser derivados de sua fonte canônica.
-- `BaseLayout.astro` concentra metadados, CSS global e cabeçalho; `StudyLayout.astro` concentra breadcrumbs, abas e navegação entre assuntos.
-- Resoluções são pré-renderizadas no build pelo pipeline Unified/KaTeX e servidas em `/resolucoes/<contestStorageId>/<subjectStorageId>/`, com índice em `/resolucoes/<contestStorageId>/index.json`; atualizar uma resolução não altera revisões de questões ou snapshots, e seu conteúdo não é congelado no simulado.
-- O modo de leitura sem distrações (#101) agora é o estado `#focus` integrado à rota canônica `/concursos/<concurso>/<assunto>/`, usando a única árvore de conteúdo de `StudyLayout.astro`, `ReadingFocusRuntime.astro`, `ReadingCustomizer.astro` (#103, ajustes de tipografia e cor persistidos no documento de leitura) e o único `StudiedToggle`; permanece legível sem JavaScript via `:target`, que mantém a âncora real de fechamento. A entrada explícita pelos controles da própria página solicita a Fullscreen API no `documentElement`, preservando a rolagem da janela; a saída explícita encerra também o fullscreen. Deep links, Forward, API ausente/negada e saída nativa do fullscreen mantêm o modo `#focus` funcional sem novo request; conforme o navegador, o primeiro `Escape` nativo pode apenas sair do fullscreen e o segundo fecha o foco. `SubjectActionBar.astro` é fixa e sobrepõe o conteúdo sem reservar espaço inline ou inferior no layout. Em `#focus`, o único `ReadingCustomizer` e a âncora real de fechamento aparecem como controles de ícone na pilha inferior direita, enquanto as ações normais do assunto ficam ocultas. A pilha se oculta ao descer e reaparece ao subir a rolagem tanto no modo normal quanto em foco; clique ou toque em uma área vazia também alterna sua visibilidade, e uma revelação manual se oculta após cinco segundos sem interação com a barra. Links, controles, conteúdo textual, seleção e gestos de rolagem não acionam esse toggle. `data-reading-progress` fica fixa no canto inferior esquerdo somente em `#focus`, usa os tokens de fundo e tipografia do conteúdo com metade do tamanho, calcula a fração do artigo durante a rolagem, acompanha mudanças de layout e não persiste estado; permanece oculta na impressão. `/leitura/` é apenas um redirect permanente legado em `public/_redirects`. Há três rotas estáticas de estudo: conteúdo, cheat sheet e questões.
-- `ContestResumeReading.astro` aparece na página principal do concurso somente para o alias ativo cujo único documento `record.current` representa conteúdo do mesmo concurso com `readingPosition`. A captura automática do catálogo preserva esse ponto apenas ao voltar ao mesmo concurso; raiz, outro concurso, cheat sheet, questões e persistência explícita mantêm a semântica normal de última navegação. O clique grava a autorização `pending-route`, força `#focus` mesmo quando `readingMode` era falso e reutiliza a restauração semântica existente. O CTA aguarda o bootstrap do perfil que o runtime realmente inicializa; aliases trocados sem reload usam o registro local já preparado. Marcar o mesmo assunto como concluído limpa a posição, preserva rota/contexto e suprime recapturas enquanto a marca permanecer; desfazer a conclusão não restaura o ponto apagado, mas permite novas capturas. O evento é propagado entre abas e a adoção remota é sanitizada antes de oferecer retomada. `Voltar ao topo` preserva o ponto anterior durante e depois do salto nativo para `#study-top`; pagehide, flusher e capturas periódicas não gravam o topo, e a primeira rolagem posterior reativa a captura normal. `Continuar aqui` continua sendo uma substituição explícita.
-- `NextSubjectSuggestion.astro` é renderizado nessas três rotas estáticas de estudo por `StudyLayout.astro`, com as instâncias e o posicionamento atuais, sem introduzir T4; `src/lib/subject-suggestion.ts` prioriza `T1` grupo do `currentSubjectId` com pendente, `T1b` último do array `studiedSubjectIds` (preserva inserção) com pendente, `T2` fallback menor razão estudados explícitos/total, desempata pela pré-ordem determinística da árvore, oculta quando `sugerido === resume` (`ContestResumeReading`), e indica o primeiro assunto pendente na ordem do grupo. Grupos nunca integram a identidade persistida, e o destino é a rota estática normal de conteúdo para suporte offline; SSR/sem JavaScript preserva um link real determinístico, o navegador o atualiza pelo documento e pelos eventos existentes de estudados, e a conclusão total produz uma mensagem acessível.
-- As abas de conteúdo, cheat sheet e questões são rotas estáticas e links reais com `aria-current="page"`.
-- Mega revisões são pré-renderizadas por `BaseLayout.astro`, permanecem legíveis sem JavaScript e podem usar GFM, KaTeX, Shiki, abreviações e Mermaid condicional, com impressão e fallback textual conforme os contratos existentes.
-- Busca Orama é isolada por `contestStorageId` em `/search/<contestStorageId>.json` (pt stemmer, `id` determinístico `contest--subject--storageId`/`--mega--slug`, `max-age=0 must-revalidate`) + global online `/search-global.json`; índices cobrem `conteudo`+`mega-revisão` (5k chars, sem `cheat-sheet`/`resoluções`), offline per-concurso via `offline-inventories` + `matchActiveContestCaches` em `src/service-worker.ts` (bypass `cache:'reload'`), UI `ContestSearch.astro` autocomplete headless (`@orama/highlight`, debounce 180ms, `global=1` redirect para `/busca/`) + `/busca/` global com checkbox `isOnline` guard; Header ícone `header-busca` oculto `<24rem` para caber em 288px.
-- Conteúdo, cheat sheet e mega revisão devem continuar legíveis sem JavaScript; só Mermaid e controles interativos dependem do navegador.
-- `src/styles/global.css` define a linguagem editorial responsiva, e `src/styles/print.css` preserva o cheat sheet e remove navegação/controles na impressão.
-- Impressão/PDF de estudo usa `PrintExportActions.astro` (ícone discreto Imprimir em `SubjectActionBar.astro`, fora do grupo `#focus`) com `<dialog>` de checkboxes multisseleção (`src/lib/print-export.ts`: `conteudo`/`cheat-sheet`/`questoes`, default só a aba atual, gabarito só-letra default ligado); o bundle é montado em memória via `fetch` same-origin `force-cache` das rotas existentes + `window.print()` nativo (o destino “Salvar como PDF” é escolhido na janela do sistema), sem rota agregada, sem libs PDF, sem itens novos no offline e sem referências; limpeza em `afterprint`/`pagehide` + guarda de 60s.
-- `Questionnaire.astro` usa controles nativos e delega o estado da sessão a `questionnaire-controller.ts`.
-- Questionários e simulados exibem resoluções em `<dialog>` acessível somente quando a correção é revelável; no simulado, o status deve ser `completed` e o trigger fica fora do `fieldset` desabilitado. `questionRevision` bloqueia conteúdo defasado.
-- Os layouts `single`, `ten` e `all` são apenas apresentações; `all` deve continuar carregando blocos de dez progressivamente.
-- O filtro de origem do questionário é efêmero: altera apenas o subconjunto exibido, a contagem, paginação e embaralhamento; nunca o persista em preferências, `localStorage`, IndexedDB, KV ou backup. Respostas, finalização, assinatura, pontuação, sincronização e progresso permanecem sobre o `QuestionSet` completo.
-- `immediate` revela correção por seleção; `on-submit` só revela após todas as questões e uma assinatura válida.
-- Alterar qualquer resposta invalida a assinatura de submissão; hash e pontuação ficam em `src/lib/questionnaire.ts`.
-- Embaralhamento usa `question-order.ts`: a ordem inicial permanece determinística por usuário, concurso, assunto e revisão do conjunto; a ação explícita de gerar nova ordem usa aleatoriedade efêmera e nunca altera a identidade ou a persistência das respostas.
-- Simulados personalizados usam a rota estática `/simulados/`, com o comportamento no navegador isolado em `src/lib/simulados-controller.ts`; cada criação congela ordem, snapshot editorial e configuração, e uma nova tentativa sempre recebe outro UUID.
-- `/simulados/catalog.json` expõe apenas metadados e contagens por origem; `/simulados/pool/<contestStorageId>.json` entrega o pool completo daquele concurso somente quando o usuário gera uma tentativa. Ambos são pré-renderizados, sem SSR ou backend Astro.
+- **física/local:** arquivos no próprio caminho do consumidor, sob  
+  `src/content/assuntos/<concurso>/<grupo...>/<assunto>/`;
+- **canônica:** o consumidor contém `vinculo.json` e a origem fica sob  
+  `src/content/biblioteca/<grupo...>/<assunto>/`.
 
-## Fluxo editorial para novos conteúdos
+O vínculo é sempre explícito. Nunca deduza compartilhamento por slug, título, conteúdo parecido ou proximidade no edital.
 
-### Seleção e estado no roadmap
+A unidade de trabalho é o **assunto resolvido**, não cada aparição em catálogo:
 
-- Ao receber uma solicitação para adicionar conteúdo, leia `ROADMAP.md` antes de pesquisar ou editar arquivos.
-- Os títulos de matérias no roadmap organizam grupos editoriais. Cada assunto editorial deve formar uma unidade de estudo coesa, ser atribuído a um ou mais títulos de grupo coesos representados por `grupo.json` e ter sua própria pasta contendo `conteudo.md`, `cheat-sheet.md` e `questoes.json`.
-- Um assunto pode corresponder a um item principal, reunir itens intrinsecamente relacionados ou cobrir uma parte coesa de um item excessivamente amplo. O roadmap deve registrar explicitamente todos os itens, subitens e recortes abrangidos, sem omissão ou duplicação de escopo.
-- Não combine itens apenas por pertencerem à mesma matéria. O agrupamento deve possuir unidade conceitual, normativa, cronológica ou de processo e permanecer viável para estudo isolado; a divisão deve ser usada quando um único item produzir material excessivamente longo ou heterogêneo.
-- Se o usuário indicar um assunto, selecione esse item; caso contrário, selecione o primeiro assunto pendente na ordem do roadmap.
-- Trabalhe em um assunto por vez, salvo pedido explícito para processar um lote.
-- Não selecione um item já marcado como em progresso ou em revisão por outro trabalho concorrente.
-- Marque o assunto como `[>] Em progresso` e publique essa reserva em commit próprio antes da pesquisa. Se o push for rejeitado, sincronize o estado e reavalie a seleção antes de continuar.
-- Mova o assunto para `[R] Em revisão` durante a conferência final e mantenha esse estado no commit que publica o conteúdo, até a CI e o deployment terminarem com sucesso.
-- Só depois do deployment bem-sucedido marque `[x] Concluído` em um commit de estado do roadmap e envie-o ao remoto.
-- Use `[!] Bloqueado` quando uma fonte, requisito ou validação impedir a conclusão e registre objetivamente o motivo no item.
-- Se uma retificação ou mudança normativa afetar um assunto concluído, reabra o item, registre fonte, data e impacto, atualize as revisões editoriais aplicáveis e repita todos os gates antes de retorná-lo a `[x]`.
-- O concurso `tce-ma-2026-analista-administracao` já existe no catálogo. Não o recrie nem altere seu `storageId` ao adicionar os assuntos previstos no roadmap.
-- Só crie outro arquivo de concurso quando o usuário solicitar um concurso ou cargo que ainda não esteja cadastrado.
+- edite uma origem canônica apenas uma vez;
+- considere todos os consumidores e todas as ordens dessa origem;
+- mantenha o texto canônico aplicável a todos eles;
+- não introduza no canônico recorte exclusivo de um consumidor;
+- atualize juntas as visões que representam a mesma unidade real quando a campanha assim exigir.
 
-### Pesquisa e fontes
+Um assunto consumidor não pode misturar arquivos físicos com `vinculo.json`. Não use overrides ou cópias divergentes para contornar o vínculo. Se os escopos deixarem de ser equivalentes, trate a arquitetura explicitamente em vez de esconder a diferença no texto.
 
-- Use o subagente `researcher` para pesquisar o assunto antes de redigir. O briefing deve informar concurso, cargo, matéria e todos os itens, subitens e recortes do edital atribuídos ao assunto selecionado.
-- Toda pesquisa que envolva o Brasil, legislação brasileira ou conteúdo editorial brasileiro deve usar português brasileiro no briefing ao `researcher`, nas consultas aos provedores e no relatório solicitado. Preserve citações exatas, nomes oficiais, títulos de fontes e termos técnicos necessários no idioma original; o prompt ao `urlreader` deve ser escrito em português, mas o conteúdo extraído deve permanecer no idioma original e sem tradução ou síntese.
-- Solicite material completo e relevante para aprendizagem e cobrança em concursos, incluindo provas similares, sem limitar a pesquisa a resumos superficiais.
-- Priorize, nesta ordem conforme a natureza do assunto: edital e retificações; normas e documentação oficial; jurisprudência aplicável; provas e gabaritos oficiais; fontes técnicas primárias; e referências acadêmicas reconhecidas.
-- Use sites de concursos apenas como fontes secundárias para comparar cobertura e abordagem didática. Eles não substituem fontes primárias nem sustentam, isoladamente, afirmações factuais, normativas, jurisprudenciais ou gabaritos.
-- Use o subagente `urlreader` para ler integralmente as páginas mais relevantes e resolver lacunas, divergências ou detalhes que snippets de busca não sustentem.
-- O `urlreader` deve retornar o conteúdo extraído do URL, sem síntese, interpretação, contextualização ou agregação de valor; a análise e a decisão sobre esse conteúdo são responsabilidade do agente que o chamou.
-- Em matérias jurídicas ou normativas, fixe o corte temporal antes da redação e separe explicitamente: legislação vigente na data de publicação do edital; norma futura citada pelo próprio edital; jurisprudência formada ou aplicável dentro do corte; e atualização posterior, sempre marcada como `pós-edital` ou `direito vigente hoje`, sem projetá-la retroativamente sobre o recorte da prova.
-- Nunca apresente como fato uma afirmação sem apoio nas fontes consultadas. Se fontes confiáveis divergirem, explique o recorte adotado no conteúdo.
-- Registre as referências em `referencias.md` com título, entidade responsável e URL de cada fonte efetivamente usada; para normas e jurisprudência, registre também versão, publicação ou vigência relevante e data de acesso. `conteudo.md` não deve conter seção de referências.
-- Em Markdown editorial, nunca exponha uma URL crua como texto visível. Todo link deve usar um título curto, descritivo e contextual na forma `[título](URL)`, inclusive nas referências, preservando o endereço completo apenas no destino do link.
+A resolução de conteúdo deve usar os utilitários e contratos vigentes do projeto, especialmente `src/lib/subject-source.ts`, schemas e testes. Caminho aparente não substitui resolução.
 
-### Conteúdo completo
+### Contrato dos artefatos
 
-- Antes de escrever, inspecione os schemas e um assunto existente para preservar caminhos, frontmatter, IDs, estilo Markdown e contratos do catálogo.
-- Salve o material em `src/content/assuntos/<concurso>/<grupo>/.../<assunto>/conteudo.md`, sob um ou mais grupos com `grupo.json`, e cubra integralmente todos os itens, subitens e recortes atribuídos ao assunto no roadmap.
-- Abra o conteúdo com o recorte e o objetivo do assunto e, quando aplicável, seu corte temporal. Cubra tudo que possa ser cobrado dentro desse recorte, mas só acrescente matéria expressa no edital, pré-requisito indispensável, distinção necessária para evitar ambiguidade ou pegadinha, ou conhecimento que ajude a resolver questão ou situação-problema pertinente.
-- Não fuja do tema, não repita em profundidade tópicos que possuem assunto próprio e não transforme comandos introdutórios como `noções` em especialização. Ajuste a profundidade à redação do edital, ao histórico de cobrança e à utilidade concreta para a prova.
-- Defina `order` conforme a numeração fixa do assunto no roadmap; não renumere assuntos já publicados por mudança de status, omissão ou renomeação.
-- Escreva para aprendizagem: apresente fundamentos, desenvolvimento gradual, exemplos, comparações, classificações, exceções, fórmulas, aplicações e erros recorrentes de prova.
-- Organize o texto em uma ordem pedagógica própria quando a ordem bruta do edital não for a melhor sequência de aprendizagem, sem omitir nenhum tópico.
-- Prefira, quando fizer sentido para o assunto, esta sequência: recorte e objetivo; corte temporal; conceitos e distinções; regras e aplicações; fluxos ou matrizes; exemplos ou casos; pegadinhas; método de resolução ou aplicação; referências. Adapte a estrutura quando outra ordem ensinar melhor, sem omitir os elementos relevantes.
-- O resultado deve ser correto, didático, completo em relação ao edital, focado e não ambíguo. Distinções, exemplos e exceções devem esclarecer a cobrança, não inflar o texto ou reproduzir conteúdo de outros assuntos.
-- Use tabelas, fórmulas, código, imagens ou Mermaid apenas quando melhorarem a compreensão e respeite todas as regras locais do pipeline Markdown.
-- O conteúdo deve ensinar corretamente os conceitos necessários para responder ao banco de questões; não insira respostas artificiais apenas para espelhar perguntas específicas.
+Cada artefato tem função distinta:
 
-### Cheat sheet
+- **`conteudo.md`: aprende.** Constrói o modelo mental e ensina o assunto a quem ainda não o domina.
+- **`cheat-sheet.md`: recupera.** Reativa rapidamente conhecimento já estudado.
+- **`questoes.json`: testa.** Exige reconhecimento, discriminação, aplicação, análise e transferência.
+- **`resolucoes/*.md`: explica questões complexas.** Não substitui a aula nem altera a identidade da questão.
+- **`referencias.md`: sustenta.** Registra fontes suficientes, identificáveis e pertinentes.
+- **mega revisão: integra.** Conecta assuntos de um grupo para revisão final sem concatenar capítulos.
 
-- Produza `cheat-sheet.md` depois de concluir o conteúdo completo e de revisar as fontes principais.
-- Não adicione frontmatter ao cheat sheet nem repita metadados pertencentes ao assunto.
-- Não replique nem apenas comprima linearmente o conteúdo integral. Selecione o que favorece recuperação rápida e use matrizes, contrastes, fórmulas, fluxos, regras de uma linha, prazos, exceções e pegadinhas.
-- Use formulações afirmativas, curtas e precisas para relembrar conceitos, classificações, distinções, fórmulas, exceções e pegadinhas relevantes.
-- Otimize a estrutura para leitura rápida e impressão, com títulos claros, listas e tabelas compactas quando apropriado.
-- Não introduza no cheat sheet afirmações ausentes, mais amplas ou contraditórias em relação ao conteúdo completo.
+Não transforme `conteudo.md` em cheat sheet expandido, nem o cheat sheet em uma segunda apostila.
 
-### Questões
+## Contrato pedagógico de `conteudo.md`
 
-- Salve pelo menos 50 questões em `questoes.json`; esse é um mínimo editorial obrigatório, não um limite máximo nem uma validação do schema.
-- Toda questão deve declarar `origin` como `authorial` ou `previous_exam`. Use `previous_exam` apenas para questão oficial ou adaptação de prova anterior verificável; use `authorial` para questão explicitamente autoral, inclusive inspirada sem reprodução literal. Revise fontes ausentes ou ambíguas antes de classificar; nunca infira origem no navegador a partir da explicação.
-- Distribua as questões entre todos os subitens relevantes do edital, com variedade de dificuldade, formulação e aplicação, evitando duplicações disfarçadas.
-- Prefira questões reais de concursos anteriores obtidas de provas e gabaritos oficiais. Não use como fonte primária bancos pagos, compilações sem proveniência ou gabaritos não verificáveis.
-- Priorize, entre as questões verificáveis, a mesma banca; depois órgãos semelhantes, áreas próximas e provas mais recentes. Use questões autorais para cobrir lacunas do edital, sem tratá-las como substitutas de questões reais pertinentes.
-- Adicione questões oficiais úteis enquanto a busca trouxer cobrança substantivamente pertinente; interrompa quando os resultados se tornarem repetitivos ou distantes do recorte. Não cite nem liste prova que não tenha sido efetivamente usada na questão, na adaptação ou na análise editorial.
-- Só identifique uma questão como oficial quando enunciado, alternativas, prova e gabarito puderem ser verificados. Preserve o sentido original e normalize apenas a formatação necessária ao formato do projeto.
-- Quando adaptar uma questão por mudança legislativa, formato incompatível ou necessidade didática, preserve o núcleo cobrado e o gabarito, mantenha cinco alternativas de `A` a `E` e registre a prova de origem, o gabarito oficial e a adaptação realizada. Identifique-a explicitamente como adaptada e nunca atribua questão autoral a uma banca.
-- Questões reais desatualizadas devem ser excluídas ou adaptadas de forma explícita para refletir o conteúdo vigente e o recorte do edital.
-- Ao revisar um conjunto já publicado, preserve questões úteis e seus IDs permanentes. Remova uma questão somente quando estiver errada, duplicada, fora do escopo, irremediavelmente ambígua ou incompatível com a regra vigente e não puder ser corrigida por adaptação válida.
-- Cada explicação deve justificar a alternativa correta, esclarecer os distratores relevantes e terminar com uma destas convenções textuais de proveniência:
-- `Fonte: questão oficial; <banca>; <concurso/prova>; <ano>; questão <número>; <URL oficial>.`
-- `Fonte: questão adaptada de <banca/prova/ano/número/URL>; adaptação: <motivo>.`
-- `Fonte: questão autoral baseada em <referências do conteúdo>.`
-- `origin` é metadado editorial de seleção: uma alteração exclusiva de origem preserva IDs, ordem, enunciado, opções, gabarito, explicação, `question.revision` e `questionSetRevision`.
-- Preserve IDs permanentes. Reordenar questões ou corrigir apenas a ortografia da explicação não altera revisões; alterar enunciado, opções ou gabarito incrementa `question.revision`; adicionar ou remover questões incrementa `questionSetRevision`.
+### Leitor e objetivo
 
-### Double-check, validação e publicação
+Pressuponha um candidato inteligente, com pouco tempo e sem domínio prévio daquele assunto. O texto deve permitir aprender sem precisar pedir a outra pessoa ou a um modelo que “explique a apostila”.
 
-- Faça uma segunda conferência separada da redação para comparar edital, fontes, conteúdo completo, cheat sheet e questões.
-- Avalie explicitamente aderência ao recorte, atualização e corte temporal, distinções necessárias, qualidade dos exemplos e pegadinhas, lacunas, redundâncias e profundidade proporcional ao edital.
-- Confirme que todo subitem do edital foi ensinado, que cada gabarito é correto, que os distratores não criam ambiguidade e que as respostas estão sustentadas pelo conteúdo.
-- Confira quantidade, IDs, revisões, duplicações, ortografia, links, atribuições de questões reais, consistência entre os três arquivos e correspondência única do `order` com a numeração fixa do roadmap.
-- Reabra fontes primárias para afirmações de maior risco e use nova pesquisa quando houver dúvida ou divergência; não aprove conteúdo com incerteza factual conhecida.
-- Execute `npm run test:unit`, `npm run check` e `npm run build` para toda adição ou alteração de conteúdo.
-- Execute `npm run test:e2e` quando o conteúdo introduzir Mermaid ou elementos que exijam revalidar impressão, CSP ou comportamento observado no navegador.
-- Submeta a mudança ao fluxo de revisão independente, com atenção especial a cobertura do edital, correção factual, qualidade pedagógica, schemas, revisões e regressões.
-- Mantenha o item em revisão enquanto qualquer correção aprovada estiver pendente e repita os gates afetados depois de corrigir.
-- Uma solicitação para adicionar conteúdo autoriza os commits e pushes de reserva, publicação e conclusão somente dos arquivos do assunto selecionado, do estado correspondente no roadmap e de arquivos canônicos estritamente necessários, salvo instrução contrária do usuário.
-- Antes de cada commit, revise status e diff, não inclua mudanças alheias e nunca inclua credenciais.
-- Publique o conteúdo com o item em `[R]`, envie para `origin/main` e confirme CI e deployment automático do Pages.
-- Se o push, a CI ou o deployment falhar, não declare a entrega concluída; corrija a falha mantendo `[R]` ou registre o item como `[!] Bloqueado`.
-- Depois do deployment bem-sucedido, altere somente o estado aplicável para `[x]`, faça o commit de conclusão e envie-o ao remoto.
+Otimize, conjuntamente:
 
-## KV, offline e sincronização
+\[
+\frac{\text{compreensão + retenção + precisão para prova}}{\text{tempo de estudo}}
+\]
 
-- O endpoint aprovado é `https://kv.helio.me`.
-- A API é pública, sem autenticação, last-write-wins e usa PUT de documento completo.
-- Nunca envie `Authorization`, credenciais ou dados sensíveis.
-- Nunca faça PUT parcial nem trate CORS como autorização.
-- Valide todo JSON remoto antes de usá-lo.
-- Nunca coloque respostas da API KV no Cache Storage do Service Worker.
-- IndexedDB é a persistência local para respostas e outbox; `localStorage` não substitui a outbox.
-- `src/lib/identity.ts` valida aliases sem normalização; segmentos usam `^[a-z0-9]+(?:-[a-z0-9]+)*$` e os limites do plano.
-- IDs de respostas usam `concursos--<alias>--<contestStorageId>--<subjectStorageId>`; preferências usam `concursos--<alias>--preferencias`; progresso usa `concursos--<alias>--progresso`; assuntos estudados usam `concursos--<alias>--estudados`; preferências de leitura usam `concursos--<alias>--leitura`; o índice de simulados usa `concursos--<alias>--simulados`; cada tentativa usa `concursos--<alias>--simulado--<simuladoId>`.
-- O documento de estudados (`src/lib/studied.ts`, schema versionado `{ schemaVersion: 1, studiedSubjectIds: string[], updatedAt }`) é a marcação EXPLÍCITA de assuntos estudados, separada do `progresso` (visão materializada, que é rematerializada por respostas e apagaria a marcação). A lista preserva ordem de inserção (append ao final, idempotente não move, `splice` remove, deduplica preservando primeira ocorrência) e o último elemento é o último marcado. É um documento global independente (sem acoplamento a preferences/progress), sincronizado pelo MESMO coordenador: cada `studiedSubjectId` (`<contestStorageId>--<subjectStorageId>`) é um campo sujo mesclado a partir do registro IndexedDB mais recente; a arbitragem remota é por documento completo (last-write-wins por versão, sem CAS); `updatedAt` é informativo e nunca entra em merge/arbitragem.
-- O documento de preferências de leitura (`src/lib/reading-preferences.ts`, schema estrito `readingPreferencesSchema` com `schemaVersion: 1`, `fontFamily`, `fontSize`, `lineHeight`, `contentWidth`, `horizontalSpacing`, `colorScheme`) personaliza APENAS o modo de leitura (#103) e é um documento global independente, sincronizado pelo MESMO coordenador com merge de campos sujos e arbitragem por documento completo (last-write-wins, sem CAS). É um documento SEPARADO de `preferencias` de propósito: o schema estrito das preferências rejeitaria o campo novo em clientes já publicados (quarentena), enquanto um documento próprio é simplesmente ignorado por clientes antigos (compatível entre versões). `colorScheme` usa presets com contraste garantido (`auto` segue o tema global de #98; `claro`/`sepia`/`cinza`/`escuro` redefinem tokens semânticos apenas dentro do `.reading-focus`). Sem alias, o painel ajusta a visualização de forma efêmera e não persiste.
-- Alias, concurso e assunto têm limites respectivos de 32, 20 e 32 caracteres; o ID remoto completo deve ter no máximo 100 caracteres.
-- O alias ativo é o único dado de identidade em `localStorage`, na chave `concursos:active-alias`; ele é público e não é conta ou segredo.
-- Ativar o primeiro alias ou trocar de alias exige conexão e um preflight completo do alvo: leia e valide preferências, assuntos estudados, preferências de leitura, todas as respostas enumeradas por `/sync-catalog.json`, progresso, índice de simulados e cada documento detalhado referenciado antes de qualquer PUT ou alteração do `localStorage`; alias remoto existente é vinculado diretamente após o preflight, sem confirmação adicional. Sem registro local do documento alvo, adote sua cópia remota; o progresso derivado ainda pode ser recalculado e republicado a partir das respostas resolvidas.
-- O alias ativo deve permanecer inalterado em falha de rede, catálogo, validação, lease ou aplicação. Revalide-o após operações assíncronas e imediatamente antes do commit; sincronize pendências do alias atual quando possível e só execute descarte explicitamente autorizado depois de preparar o alvo.
-- `src/lib/offline-db.ts` possui stores para respostas, preferências, progresso, estudados, leitura, simulados detalhados, índice de simulados, downloads, leases e quarentena. O `OFFLINE_DB_VERSION` é 4; o `upgrade` é aditivo e idempotente (cria apenas stores ausentes), então os bumps v1→v2 (`estudados`), v2→v3 (`leitura`) e v3→v4 (`simulados`/`simuladosIndex`) não recriam stores existentes. `hasPendingOutbox` e `discardPendingProfile` incluem todos esses documentos para a segurança da troca de alias.
-- `src/lib/simulados.ts` mantém schemas estritos e versionados, sorteio equilibrado sem repetição, snapshots imutáveis, respostas e finalização idempotente. O índice retém os 20 resumos mais recentes, sem IDs duplicados, e nunca substitui o documento detalhado como fonte da tentativa.
-- `src/lib/simulados-sync.ts` valida e coloca remoto inválido em quarentena, sincroniza cada documento detalhado antes do índice e repara com segurança detalhes ausentes no índice ou referências sem documento. `src/lib/simulados-profile-sync.ts` integra esse fluxo à mesma fila, ao mesmo lease `answer-sync` e ao cliente `kv-client.ts`, inclusive durante troca de alias.
-- Cada resposta local mantém documento atual, snapshot-base, metadados remotos, IDs sujos, outbox, tentativas, erro e aviso de conflito.
-- Escritas locais concorrentes mesclam somente os IDs de questões marcados como sujos com o registro IndexedDB mais recente, preservando respostas gravadas por outras abas.
-- Toda seleção e finalização deve concluir a transação IndexedDB antes de anunciar salvamento local; a finalização reconcilia e assina o registro durável mais recente dentro da mesma transação, nunca o snapshot potencialmente obsoleto da aba.
-- Trocar de alias nunca reutiliza respostas ou simulados do perfil anterior; vinculação offline é recusada, e pendências exigem sincronização online ou descarte explícito posterior ao preflight do alvo.
-- O backup de perfil usa schema v1 com `schemaVersion`, `exportedAt`, `sourceAlias`, documentos de respostas identificados pelos `contestStorageId` e `subjectStorageId` estáveis, e preferências; não exporta metadados internos de sincronização, progresso, simulados, leases, quarentena ou downloads.
-- A exportação aguarda escritas locais, inclui apenas assuntos do catálogo atual e reconcilia respostas às revisões e opções atuais das questões.
-- A importação exige confirmação explícita, sempre grava no alias ativo e valida estritamente o schema e o catálogo atual; ela sobrepõe atomicamente os assuntos importados, preserva assuntos locais não relacionados, substitui preferências, reconstrói progresso e tenta novamente snapshots de perfil obsoletos até três vezes. Dados importados permanecem pendentes para sincronização.
-- `src/lib/kv-client.ts` é o único cliente do KV: usa `fetch`, timeout, limite operacional de corpo e retry limitado para 429, sem `Authorization`.
-- `src/lib/sync.ts` coordena uma fila serial limitada a duas requisições por segundo, protegida por lease IndexedDB e acordada entre abas por `BroadcastChannel`; a aquisição inicial do preflight de vínculo tolera contenção transitória por até dez tentativas espaçadas em 500 ms, sem alterar a aquisição das sincronizações normais. Renovar exige um lease existente, não expirado e do mesmo owner, nunca readquire um lease perdido, e qualquer falha interrompe a operação antes de novas leituras, retries ou escritas remotas.
-- O catálogo estático `/sync-catalog.json` fornece schemas editoriais ao coordenador; ele não contém identidade nem estado do usuário.
-- Todo JSON remoto é validado antes da arbitragem; documento malformado vai para quarentena e nunca substitui estado local válido.
-- A arbitragem remota é por documento completo: remoto maior que uma versão local conhecida vence mesmo com outbox pendente; empate pendente publica o local e empate limpo é no-op. Uma pendência sem `remoteVersion` conhecida não tem linhagem comparável e deve ser preservada/publicada, não descartada como se o remoto fosse maior; se substituir um remoto existente, registre aviso de conflito. Regressões, remoções e mudanças de `created_at` seguem as salvaguardas de recriação específicas de cada tipo de documento. Não faça merge remoto por questão, campo ou assunto.
-- O PUT sempre envia o documento completo mais recente. Uma edição local concluída durante o PUT permanece pendente e não é apagada pela confirmação remota.
-- Saltos de versão, regressão e mudança de `created_at` geram aviso; um cliente com catálogo editorial mais antigo recusa reconciliar ou sobrescrever documento local ou remoto com `questionSetRevision` mais nova; não alegue recuperação ou sincronização perfeita.
-- Gatilhos atuais: seleção/finalização de questionários e simulados, inicialização, `online`, foco, visibilidade, Background Sync, retry manual e troca de perfil.
-- Background Sync apenas acorda o coordenador em uma janela; nunca deve repetir diretamente um PUT antigo nem contornar IndexedDB, lease, validação e reconciliação.
-- Preferências são cacheadas no IndexedDB e sincronizadas como documento global completo pela mesma arbitragem de versão. Somente escritas locais concorrentes mesclam os campos sujos com o registro IndexedDB mais recente.
-- Progresso é uma visão materializada das respostas, não sua fonte; no modo `on-submit`, `correct` só existe depois de submissão válida.
-- Progresso sincroniza como documento completo pela mesma arbitragem, mas permanece uma visão materializada: após resolver preferências e respostas, rematerialize-o com `answerVersion` e o catálogo vigentes. Revisão divergente aparece como desatualizada, e Configurações oferece recálculo sequencial local.
-- Escritas locais concorrentes de preferências mesclam somente os campos sujos, e atualizações de progresso mesclam somente os assuntos alterados com o registro IndexedDB mais recente.
-- Cada atualização local de um assunto do progresso lê a preferência vigente e grava o assunto na mesma transação `preferences` + `progress`, impedindo abas com modo de correção obsoleto de reintroduzir `correct`.
-- Não publique progresso antes de sincronizar respostas pendentes do catálogo atual e preferências. Mudanças de `correctionMode` persistem a preferência, sanitizam imediatamente o progresso local não submetido e gravam o marcador de rematerialização na mesma transação IndexedDB.
-- Antes do primeiro PUT de progresso e em cada retry por 429, confira as revisões exatas de progresso e preferências e a ausência de respostas pendentes; filtre assuntos removidos do catálogo e mantenha registros de respostas órfãos como erros sem bloquear o progresso válido.
-- Falha de preferências ou progresso permanece recuperável e nunca invalida o documento de respostas.
-- Não declare sincronização perfeita, pois a API não possui compare-and-set.
+Ser didático não significa ser longo, infantil, informal ou superficial. A revisão pedagógica deve preferir **reorganizar, substituir e cortar** antes de acrescentar.
 
-## PWA e Cloudflare
+### Ordem cognitiva
 
-- Preserve a Git integration e o deploy automático existentes.
-- Use previews do Pages durante a implementação.
-- Mantenha `concursos.helio.me` e `concursos-ebs.pages.dev` com `noindex, nofollow`.
-- `noindex` não oferece privacidade.
-- O tráfego KV deve permanecer NetworkOnly no Service Worker.
-- `vite-plugin-pwa` integra manifesto e Service Worker ao Astro; `scripts/finalize-security.mjs` é executado imediatamente após o build Astro e antes dos inventários offline e do build final do Service Worker por `scripts/generate-offline-inventories.mjs` e `scripts/build-service-worker.mjs`.
-- As rotas de resolução entram no inventário offline do concurso e no Service Worker; Mermaid em conteúdo de resolução injetado usa entrypoint condicional same-origin, `securityLevel: "strict"` e fallback textual, sem `unsafe-eval` ou CDN.
-- As rotas `/revisoes/<concurso>/<revisao>/` de mega revisão entram no inventário offline do concurso; seus assets são descobertos pelo mesmo pipeline transitivo, e hash, promoção, remoção e fallback do Service Worker permanecem genéricos.
-- Os caches persistentes são `shared-assets-v1`, `runtime-pages-v1`, `runtime-media-v1` e os pacotes de concurso `contest--...`.
-- Downloads, remoção e limpeza de pacotes devem ser serializados por Web Locks; se o navegador não puder coordená-los com segurança, a operação deve ser recusada.
-- Pacotes devem armazenar a resposta original de assets same-origin e usar `ignoreVary`; os inventários devem descobrir dependências transitivas de CSS e JavaScript e classificar imagens editoriais como assets do pacote, não compartilhados.
-- O inventário offline é `schemaVersion: 2` e embute `resources`, o mapa de hash SHA-256 truncado a 20 hex por recurso, calculado pelo build sobre caminho+conteúdo; o seed de desenvolvimento usa `resources: {}` e `manifestHash: "development"`.
-- Atualizações de pacote são incrementais: recurso com hash igual ao registrado em `resourceHashes` do documento `downloads` e presente no cache ativo ou compartilhado é copiado localmente (`match`+`put`, sem rede); alterado, ausente ou evitado é baixado com `cache: 'reload'`. A promoção permanece a sequência atômica existente (staging completo → verificação → registro IndexedDB → remoção do temporário e do cache antigo), e o Service Worker continua inalterado. Não há retrocompatibilidade com clientes ou registros anteriores ao manifesto v2.
-- Downloads de concurso devem ser atômicos, preservar o cache anterior até a atualização por hash ser ativada e limpar caches de concurso órfãos; a promoção deve remover rotas visitadas equivalentes sem barra, com barra e `index.html` do cache de páginas. Assets compartilhados são intencionalmente retidos para páginas já visitadas.
-- O motor de download delta é compartilhado entre página e Service Worker (`offline-packages.ts` usa apenas `globalThis.*`); o mesmo nome de Web Lock serializa os dois contextos. Downloads em página usam pool adaptativo deslizante `2-15` (`resolveAdaptiveConcurrency` → `runConcurrentPool` com `AbortController` sobre `uniqueResources`) — `2` para `2G/slow-2g`, `4` para `3G`, `12` para `4G`/`fallback` potente ou `Wi-Fi` médio, `15` para `Wi-Fi` + `deviceMemory≥8`/`cores≥8`; `copyResourceLocally` se hash igual senão `fetch({cache:'reload',signal})→put`, `completed` só após `put`, abort em primeira falha descarta `temporary` e preserva pacote ativo.
-- Atualização automática durante a navegação: o handler de navegação do SW dispara `maybeUpdateOfflinePackages('navigation')` (`offline-auto-update.ts`) com throttle em memória de 30 min por vida do worker, `waitUntil` sem atrasar a resposta, checagem de `navigator.onLine`, comparação de `manifestHash` por registro e falhas engolidas com aviso; o download roda com `phase: 'update'`.
-- Periodic Background Sync (app instalado, Chromium): o PwaRuntime registra `concursos-offline-updates` com `minInterval` de 24 h somente em `display-mode: standalone`; o handler `periodicsync` do SW reusa `maybeUpdateOfflinePackages('periodic')` com throttle próprio de 60 min. Registro é best-effort (engagement/cota do navegador podem recusar).
-- Progresso publica eventos no canal `concursos-offline-downloads` (`offline-download-events.ts`: started/progress/completed/failed com fase); o botão espelha somente a fase `update` e renova a disponibilidade na conclusão; publicação é best-effort e nunca interrompe o download.
-- Background Fetch nativo (Chromium) foi removido em #516 por depreciação (<0.00002%, CVE-2026-1504) e lentidão em foreground; `OfflineContestButton.astro` agora usa sempre `downloadContestPackage` com pool 4 em todos browsers, inclusive Chrome. `offline-background-fetch.ts` e `downloadJobs` permanecem órfãos no IndexedDB v6 por compatibilidade com clients já instalados, sem caminho de produção ativo.
-- Atualizações automáticas só podem ativar ou recarregar depois da barreira de durabilidade de `src/lib/pwa-update.ts`, que usa o registro compartilhado de `src/lib/local-durability.ts` para executar os flushers locais e as duas barreiras de transações IndexedDB, repetindo enquanto a revisão monotônica de atividade mudar; qualquer falha de persistência aborta a operação como erro de durabilidade recuperável.
-- O Playwright continua bloqueando Service Workers por padrão e serve `dist` com `wrangler pages dev` para que os headers de Pages sejam aplicados; `tests/e2e/pwa.spec.ts` os habilita explicitamente.
-- A zona `helio.me` possui uma Cache Rule restrita ao caminho `/service-worker.js` que respeita o Browser TTL da origem. Preserve e revalide essa exceção, pois o Browser Cache TTL global da zona não pode sobrepor o `max-age=0` emitido por `public/_headers` para o Service Worker.
-- Valide PWA, Service Worker, CSP, caches, TLS e headers no domínio real antes de concluir.
+A ordem do edital, da lei, do manual ou da bibliografia não é automaticamente a melhor ordem de ensino. Preserve a cobertura, mas apresente as ideias na sequência em que possam ser compreendidas.
 
-## Segurança
+Em regra:
 
-- Nunca commite `.env`, tokens, credenciais ou segredos.
-- Não exponha credenciais da Cloudflare ou GitHub em comandos, logs, bundle ou documentação.
-- Mantenha Mermaid em `securityLevel: "strict"`.
-- Preserve `X-Robots-Tag: noindex, nofollow` e a meta tag equivalente.
-- O Astro gera uma meta CSP por página com hashes SHA-256 para scripts; `script-src` nunca pode permitir `unsafe-inline` nem `unsafe-eval`.
-- `scripts/finalize-security.mjs` deve validar a CSP gerada e substituir somente `style-src`, permitindo estilos inline exigidos por KaTeX, Shiki e Mermaid.
-- `public/_headers` é a fonte da CSP HTTP e de `frame-ancestors`, `X-Robots-Tag`, `Permissions-Policy`, `X-Content-Type-Options`, políticas de referrer e frame, e cache de assets hashados, manifesto e Service Worker.
-- CSP deve permitir somente `'self'` e `https://kv.helio.me` em `connect-src`; `font-src` pode incluir `data:` para fontes Mermaid, e `unsafe-eval` permanece proibido.
-- As fontes do modo de leitura (Lora, Source Serif 4, Inter e Atkinson Hyperlegible, pesos 400/700) são empacotadas localmente em `src/styles/fonts/` e declaradas em `src/styles/fonts.css` (importado por `BaseLayout.astro`); o Vite as hasheia em `_astro/` e o Service Worker as inclui no precache. Não use CDN de fontes: `font-src 'self'` já cobre todas as fontes, e `data:` permanece apenas para o Mermaid.
-- `robots.txt` deve permitir crawling para que crawlers observem o `noindex`; `noindex` não oferece privacidade.
-- A página 404 própria deve usar `BaseLayout` e preservar a meta `noindex` e a CSP.
-- Trate o alias do usuário como identificador público, não como conta ou segredo.
+1. mostre a pergunta, o problema, o contraste ou o mapa central;
+2. dê a intuição mínima necessária;
+3. use exemplo, cenário, representação ou demonstração quando houver ganho real;
+4. introduza os nomes técnicos;
+5. sistematize definições, classificações e relações;
+6. acrescente requisitos, exceções, prazos, fórmulas, divergências e literalidade;
+7. mostre como reconhecer e aplicar isso em prova;
+8. proponha poucas perguntas de recuperação quando forem úteis.
 
-## Git e validação
+Essa sequência é uma heurística, não um template obrigatório. A disciplina e o assunto determinam a melhor estratégia.
 
-- Trabalhe em `main`, salvo instrução explícita diferente.
-- Antes de editar, leia o status, o diff, os commits recentes e o plano ativo.
-- Nunca reverta ou sobrescreva mudanças do usuário ou de outros agentes.
-- Faça commits e push somente quando autorizados pelas regras da sessão ou pelo usuário.
-- Neste repositório, essa autorização também permite criar a branch de entrega e o PR sem nova confirmação, pois `main` é protegida. Envie a branch, abra o PR, aguarde todos os checks/CI obrigatórios concluírem com sucesso e só então faça o merge; depois, confirme o deployment aplicável.
-- Antes de um commit, revise o diff completo, execute os checks aplicáveis e não inclua arquivos não relacionados.
-- Após push, confirme o deployment automático do Pages quando a mudança afetar produção.
+### Abertura
 
-## Manutenção deste arquivo
+O início deve reduzir desorientação. Priorize uma ideia central, pergunta, contraste, fluxo ou pequeno cenário. Evite abrir rotineiramente com uma página de:
 
-Este `AGENTS.md` é um documento vivo, não um snapshot descartável.
+- reprodução do edital;
+- inventário de assuntos vizinhos;
+- corte temporal;
+- fontes e ressalvas metodológicas;
+- taxonomias sem preparação.
 
-Atualize-o na mesma mudança quando ocorrer qualquer alteração relevante em:
+Recorte, aplicabilidade e corte normativo continuam obrigatórios quando relevantes, mas devem ocupar a posição que preserve a correção sem bloquear a entrada pedagógica.
 
-- comandos ou scripts;
-- dependências estruturais;
-- diretórios, módulos ou entry points;
-- fontes canônicas de dados;
-- schemas e formatos persistidos;
-- invariantes de KV, IndexedDB ou sincronização;
-- estratégia PWA e caches;
-- testes e gates obrigatórios;
-- build, deploy, domínio ou headers;
-- segurança, escopo ou restrições arquiteturais.
+### Contexto funcional
 
+Contextualização não é requisito universal. Inclua origem histórica, evolução, finalidade institucional ou “por que existe” somente quando isso:
 
-## Fora de escopo
+- explica o conceito;
+- organiza causas e consequências;
+- distingue institutos;
+- melhora aplicação;
+- reduz memorização arbitrária.
 
-- Autenticação e autorização.
-- Privacidade garantida.
-- Backend Astro.
-- CMS visual.
-- Ranking e comentários.
-- Migração automática entre aliases.
-- Resolução perfeita de concorrência.
+Corte curiosidades e narrativas que não aumentem a chance de compreender, reter ou acertar.
+
+Exemplos de adaptação:
+
+- Português, Matemática e Lógica normalmente pedem mecanismo, contraste e prática, não história da disciplina.
+- História pede cronologia, atores, causas, interesses, rupturas e consequências.
+- Direito costuma ganhar com problema jurídico e lógica da regra antes da literalidade, sem sacrificar requisitos e exceções.
+- Administração, Contabilidade, TI e matérias operacionais costumam ganhar com processo, decisão ou situação concreta antes da taxonomia.
+
+### Exemplos, analogias e mnemônicos
+
+- Use poucos exemplos decisivos; prefira um cenário reaproveitado a vários exemplos decorativos.
+- Faça o exemplo carregar conceitos e permitir comparação.
+- Explique onde uma analogia deixa de valer.
+- Use mnemônico apenas quando ele economizar esforço sem distorcer o conteúdo.
+- Exemplos factuais devem ser verificáveis; exemplos hipotéticos devem ser claramente hipotéticos.
+- Não faça o aluno decorar o mnemônico antes de entender o que ele representa.
+
+### Tabelas, listas e fórmulas
+
+No conteúdo, a tabela deve em geral **sintetizar uma relação já construída**, não substituir toda a explicação. No cheat sheet, ela pode ser o principal instrumento de recuperação.
+
+- Evite sucessões de tabelas e listas sem narrativa ou raciocínio.
+- Explique o critério de comparação antes de apresentar classificações extensas.
+- Use LaTeX para fórmulas reais; não use matemática como decoração.
+- Fórmulas devem trazer significado das variáveis, unidade, condições e pelo menos uma aplicação quando necessário.
+
+### Autonomia e fronteiras entre assuntos
+
+A divisão em assuntos deve evitar duplicação, mas cada capítulo precisa ser autonomamente compreensível dentro do seu recorte.
+
+É permitido apontar que um tema será aprofundado em outro assunto. Antes disso:
+
+- explique o pré-requisito mínimo necessário aqui;
+- mostre a relação entre os assuntos;
+- não interrompa um raciocínio indispensável;
+- não obrigue leitura em ordem perfeita;
+- não use “isso será visto depois” como substituto da explicação.
+
+Remissões devem limitar aprofundamento, não terceirizar entendimento. Quando dois capítulos dependem um do outro, construa pontes curtas e coerentes nos dois lados.
+
+### Densidade e tempo de estudo
+
+- Não há tamanho mínimo ou máximo arbitrário.
+- Não aumente o arquivo por padrão.
+- Remova repetição, metadiscurso, enumeração redundante e explicações que não pagam seu custo de leitura.
+- Não repita a mesma arquitetura do cheat sheet com parágrafos entre os itens.
+- Preserve profundidade necessária para a prova, mas destaque a trilha essencial e deixe detalhes progressivamente navegáveis.
+- Uma seção pode ser curta quando o conceito é simples; uma norma complexa pode exigir mais espaço.
+- Não antecipe em profundidade matéria com assunto próprio.
+- Não transforme atualização editorial em compêndio doutrinário ou manual operacional sem relação com o edital.
+
+### Precisão, fontes e atualidade
+
+- Cubra integralmente o recorte publicado, sem omissão nem duplicação silenciosa.
+- Verifique legislação consolidada, vigência, jurisprudência oficial, atos do órgão, manuais oficiais, documentação técnica e fontes acadêmicas confiáveis.
+- Use fonte primária para pontos materiais sempre que disponível.
+- Respeite o corte definido pelo edital e diferencie expressamente regra aplicável no corte de alteração posterior relevante.
+- Não apresente norma federal infralegal como automaticamente aplicável a outro ente ou órgão.
+- Não force questões anteriores quando não existirem ou não forem pertinentes.
+- Mantenha citações e referências suficientes para auditoria, sem transformar o corpo em bibliografia comentada.
+- Preserve terminologia técnica correta depois de construir seu significado.
+
+### Verificação pedagógica
+
+Antes de considerar o conteúdo pronto, teste:
+
+- A ideia central aparece cedo?
+- Um iniciante entende os termos antes de depender deles?
+- A progressão constrói entendimento ou apenas acompanha a fonte?
+- O contexto incluído é funcional?
+- As distinções surgem de um critério compreensível?
+- Há exemplos suficientes, mas não decorativos?
+- Alguma tabela tenta substituir a aula?
+- Alguma remissão remove um pré-requisito?
+- O texto repete o cheat sheet em mais palavras?
+- É possível cortar trechos sem perder aprendizado ou cobertura?
+- O aluno consegue explicar o núcleo com suas próprias palavras?
+- O conteúdo continua válido para todos os consumidores canônicos?
+
+## `cheat-sheet.md`
+
+O cheat sheet pressupõe estudo anterior. Deve ser curto, escaneável e útil isoladamente para revisão:
+
+- mapas, fórmulas, fluxos, comparações e gatilhos;
+- prazos, requisitos, exceções e pegadinhas;
+- mnemônicos realmente úteis;
+- linguagem comprimida sem perder exatidão.
+
+Não reensine todo o assunto, não copie o capítulo e não introduza fundamento indispensável que inexiste no `conteudo.md`.
+
+## Questões e resoluções
+
+- Siga rigorosamente os schemas vigentes.
+- Preserve IDs estáveis.
+- Alterar enunciado, opções ou gabarito exige a revisão prevista pelo contrato de dados.
+- Adicionar ou remover questões exige a revisão do conjunto prevista pelo schema.
+- Cada questão deve ter uma única resposta correta, distratores plausíveis e explicação suficiente.
+- Use apenas os valores de dificuldade aceitos pelo schema; não improvise grafia.
+- Não invente atribuição a banca, ano ou prova.
+- Resoluções opcionais seguem ADR-004, devem corresponder à revisão da questão e não alteram a identidade persistida.
+- Não ajuste questões ou resoluções numa campanha restrita ao conteúdo, salvo autorização expressa; registre problemas externos no PR.
+
+## Referências
+
+- `referencias.md` não possui frontmatter.
+- Siga a hierarquia de headings aceita pelo projeto; mega revisões possuem contrato próprio.
+- Inclua título/órgão ou autor, identificação suficiente, URL válida e data/edição quando material.
+- Não use agregadores ou blogs quando a fonte primária estiver disponível.
+- Links devem ser reais, pertinentes e verificáveis.
+- Ao retirar uma afirmação material, retire também referência que ficou órfã; ao acrescentar uma afirmação material, acrescente suporte adequado.
+- Não confunda data de acesso com vigência ou corte normativo.
+
+## Mega revisões
+
+Mega revisões seguem ADR-005 e ADR-007.
+
+- Física: `src/content/assuntos/<concurso>/<grupo...>/mega-revisao/index.md`.
+- Canônica: `src/content/biblioteca/<grupo-canônico>/mega-revisao/index.md`, consumida por `mega-revisao/vinculo.json`.
+- Compartilhamento é explícito e exige igualdade exata do conjunto de assuntos resolvidos.
+- Não misture revisão física e vínculo, não use overrides e não deixe referências locais junto ao vínculo.
+- A revisão integra e sintetiza; não concatena conteúdos nem substitui o aprendizado inicial de cada assunto.
+- Não altere mega revisão numa campanha restrita a `conteudo.md`, salvo autorização expressa.
+
+## Markdown e estilo editorial
+
+- Escreva em português brasileiro claro e profissional.
+- Não use emojis no conteúdo do repositório.
+- Use headings progressivos e títulos informativos.
+- Evite heading vazio, parágrafo excessivamente longo e fragmentos telegráficos sem função.
+- Use negrito com moderação e não como substituto de hierarquia.
+- Use `<abbr title="...">` apenas quando ajudar acessibilidade; não dependa de HTML arbitrário.
+- Mantenha cercas de código, tabelas, links e fórmulas válidos.
+- Não use TODO, placeholder, fonte inventada, texto de bastidor ou instrução ao agente no conteúdo publicado.
+
+## Processo de trabalho
+
+1. Releia a issue da campanha, `AGENTS.md`, a `main`, schemas, catálogos e ADRs pertinentes.
+2. Resolva a unidade real e todos os consumidores antes de reservar ou editar.
+3. Leia o conteúdo completo, cheat sheet, questões, resoluções e referências pertinentes.
+4. Leia assuntos vizinhos suficientes para detectar lacunas, sobreposição, pré-requisitos terceirizados e fragmentação.
+5. Inventarie cobertura, ordem cognitiva, redundância, densidade, vigência e fontes.
+6. Pesquise e revalide pontos materiais.
+7. Reestruture o texto inteiro quando necessário; não limite a revisão a acrescentar uma introdução “didática”.
+8. Atualize apenas os arquivos permitidos pela campanha.
+9. Valide schemas, frontmatter, Markdown, links, referências, rotas, vínculos, colisões e escopo do diff.
+10. Execute os checks exigidos.
+11. Crie branch a partir da `main`, commits coerentes e PR descritivo.
+12. Antes do merge, releia o estado da campanha e a `main`; confirme propriedade, conflitos, diff e checks.
+13. Mescle somente após sucesso e confirme o conteúdo na `main`.
+14. Atualize o estado da campanha apenas depois da confirmação na `main`.
+
+Se a auditoria concluir que nenhuma alteração é necessária, não crie PR vazio; registre critérios e evidência conforme a campanha.
+
+## Git e PR
+
+- Prefira o conector GitHub quando estiver disponível; não pressuponha `gh`.
+- Branches partem da `main` atual.
+- Commits devem ter propósito claro; use squash no merge quando a sequência de commits for apenas operacional.
+- O PR deve registrar unidade real, consumidores, arquivos, antes/depois, decisões editoriais, cobertura, fontes, corte, problemas externos e validações.
+- Revise o diff inteiro.
+- Nunca inclua segredo, token, credencial ou dado pessoal.
+- Não finalize trabalho alheio nem normalize estado concorrente sem autorização.
+
+## Qualidade técnica, segurança e acessibilidade
+
+- TypeScript permanece estrito; evite `any` sem justificativa.
+- Validação de conteúdo deve falhar de modo fechado em vínculos, schemas e identidades inválidos.
+- Preserve CSP, sanitização, rotas estáticas e ausência de dependências remotas não autorizadas.
+- Funcionalidades interativas devem funcionar por teclado, ter rótulos e estados acessíveis e respeitar foco.
+- Mudanças que afetem PWA, persistência, sincronização, simuladores, impressão ou offline exigem leitura dos ADRs e testes específicos.
+- Não enfraqueça contratos técnicos para fazer conteúdo “passar”.
