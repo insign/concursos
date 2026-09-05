@@ -1,17 +1,24 @@
-### Referências complementares da revisão
+# Referências — Verbo como classe de palavras
 
-- BECHARA, Evanildo. **Moderna gramática portuguesa**. Referência para morfologia verbal, infinitivo, vozes e verbos pronominais.
-- CUNHA, Celso; CINTRA, Lindley. **Nova gramática do português contemporâneo**. Referência para flexão, formas nominais e classificações verbais.
-- ROCHA LIMA, Carlos Henrique. **Gramática normativa da língua portuguesa**. Referência para locuções, infinitivo e impessoalidade.
-- NEVES, Maria Helena de Moura. **Gramática de usos do português**. Referência para usos contextuais, auxiliares e construções pronominais.
-- CASTILHO, Ataliba T. de. **Nova gramática do português brasileiro**. Referência para descrição do português brasileiro.
-- CEBRASPE. Questões anteriores de Língua Portuguesa sobre formas nominais, infinitivo, auxiliares, voz verbal, valores de `se` e impessoalidade, indicadas nas explicações do banco de questões.
+Consultas verificadas em **5 de setembro de 2026**. O capítulo trata a norma-padrão brasileira e distingue classificações tradicionais, variantes reconhecidas e recomendações editoriais. A data de consulta não cria um corte normativo nem transforma preferência de manual de redação em proibição gramatical universal.
 
+## Programa e nomenclatura
 
-- CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS (CEBRASPE). **Edital nº 1 - TCE/MA, de 6 de julho de 2026**. Programa de Língua Portuguesa do Cargo 1. Disponível no [edital do TCE/MA no Cebraspe (PDF)](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Acesso em: 15 jul. 2026.
-- BRASIL. Ministério da Educação e Cultura. **Nomenclatura Gramatical Brasileira**. Portaria nº 36, de 28 de janeiro de 1959. Disponível na [NGB hospedada pela UFPR (PDF)](https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf). Acesso em: 15 jul. 2026.
-- MICHAELIS. **Verbos**. Dicionário Brasileiro da Língua Portuguesa. Classificação, predicação, auxiliares e impessoais. Disponível na [página de noções gramaticais do Michaelis](https://michaelis.uol.com.br/moderno-portugues/nocoes-gramaticais/verbos/). Acesso em: 15 jul. 2026.
-- SOUZA, Warley. **Formas nominais do verbo**. Brasil Escola. Disponível na [página sobre formas nominais](https://brasilescola.uol.com.br/gramatica/formas-nominais-verbo.htm). Acesso em: 15 jul. 2026.
-- VIANA, Guilherme. **Vozes verbais**. Mundo Educação. Disponível na [página sobre vozes verbais](https://mundoeducacao.uol.com.br/gramatica/vozes-verbais.htm). Acesso em: 15 jul. 2026.
-- ESCOLA FAZENDÁRIA DO PARANÁ. **Dicas de Português: emprego do infinitivo impessoal e pessoal**. Governo do Paraná, 2014. Disponível na [orientação sobre infinitivo da EFAZ-PR](https://efaz.fazenda.pr.gov.br/Pagina/Dicas-de-Portugues-0). Acesso em: 15 jul. 2026.
-- PEREZ, Luana Castro Alves. **Diferenças entre o gerúndio e o gerundismo**. Brasil Escola. Disponível na [página sobre gerúndio e gerundismo](https://brasilescola.uol.com.br/gramatica/diferencas-entre-gerundio-gerundismo.htm). Acesso em: 15 jul. 2026.
+- **Tribunal de Contas do Estado do Maranhão / <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>.** [Edital número 1, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Língua Portuguesa: classes de palavras e estrutura morfossintática, em articulação com tempos e modos, concordância e regência. Recorte compartilhado pelo cargo 1, Analista — Administração, e pelo cargo 16, Técnico — Técnico-Administrativa.
+- **Ministério da Educação e Cultura.** [Nomenclatura Gramatical Brasileira — Portaria número 36, de 28 de janeiro de 1959](https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf). Reprodução disponibilizada pela Universidade Federal do Paraná. Seção de morfologia, “Verbo”: conjugações, classificações, formas nominais, modos, tempos e vozes; nota sobre *pôr* e derivados na segunda conjugação. É referência de nomenclatura, não explicação exaustiva dos usos.
+
+## Estrutura e funcionamento verbal
+
+- **Editora Melhoramentos. Michaelis On-line.** [Noções gramaticais — Verbos](https://michaelis.uol.com.br/moderno-portugues/nocoes-gramaticais/verbos/). Estrutura das formas, conjugação, regularidade, defectividade, abundância, predicação, auxiliares e paradigmas. O capítulo desenvolve as distinções e evita tomar definições esquemáticas como regras sem contexto.
+- **Priberam. Dicionário Priberam da Língua Portuguesa.** [Reaver](https://dicionario.priberam.org/reaver) e [haver](https://dicionario.priberam.org/haver). Apoio lexical à defectividade de *reaver* e aos diferentes empregos de *haver*, inclusive *haver-se* e *haver por bem*. Empregam-se no capítulo apenas os usos pertinentes à norma brasileira.
+
+## Infinitivo, particípio e concordância
+
+- **Senado Federal. Manual de Comunicação.** [Infinitivo flexionado](https://www12.senado.leg.br/manualdecomunicacao/estilos/infinitivo-flexionado); [De o/de ele/de este](https://www12.senado.leg.br/manualdecomunicacao/estilos/de-o-de-ele-de-este); [Concordância verbal](https://www12.senado.leg.br/manualdecomunicacao/estilos/concordancia-verbal). Regras de locução, sujeito do infinitivo, separação da preposição e concordância. As orientações são editoriais: a própria página do infinitivo reconhece variação; suas simplificações não substituem a análise de cada construção.
+- **Escola Fazendária do Paraná.** [Dicas de Português](https://efaz.fazenda.pr.gov.br/Pagina/Dicas-de-Portugues-0), trechos sobre infinitivo pessoal e impessoal e “O particípio verbal — entregue ou entregado?” (17 de setembro de 2015). Apoio às alternâncias com verbos de percepção e causação, ao infinitivo acompanhado de pronome e ao par *entregado/entregue*; não se estendem ao capítulo juízos gerais de outras dicas da página.
+- **Senado Federal. Manual de Comunicação.** [Particípios duplos](https://www12.senado.leg.br/manualdecomunicacao/estilos/participios-duplos). Orientação tradicional de combinação com auxiliares, formas aceitas como *pago*, *gasto* e *pego* com *ter/haver*, e distinção entre *chegado/trazido* e os usos inadequados de *chego/trago* como particípios na escrita formal.
+- **Mourato, Sara.** [Completiva de infinitivo vs. a construção “ser fácil de”](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/completiva-de-infinitivo-vs-a-construcao-ser-facil-de/38308). Ciberdúvidas da Língua Portuguesa, 22 de novembro de 2024. Análise da construção de valor passivo com adjetivo e *de + infinitivo*, distinguindo-a de outras estruturas com infinitivo.
+
+## Desenvolvimento do processo e gerúndio
+
+- **Silva, Ana Rosa da.** [Português — Gerúndio e gerundismo](https://educacao.uol.com.br/planos-de-aula/medio/portugues-gerundio-e-gerundismo.htm). Plano de aula autoral, <abbr title="Universo Online">UOL</abbr> Educação, seção “Estratégias”. Apoio didático aos valores de duração, simultaneidade e desenvolvimento, inclusive com referência futura. Não se adota como fato comprovado a hipótese de origem do gerundismo apresentada na seção “Comentário”.

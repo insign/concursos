@@ -8,372 +8,197 @@ storageId: verbo-como-classe-de-palavras
 
 # Verbo como classe de palavras
 
-Este assunto trata o verbo como classe de palavras. O foco não é o emprego detalhado de tempos e modos, já estudado no Assunto 005, mas o reconhecimento da forma verbal, das classificações tradicionais e do seu funcionamento na oração.
+**“A análise do recurso” nomeia uma atividade; “A comissão analisou o recurso” apresenta essa atividade como acontecimento.** *Análise* é substantivo; *analisou* é verbo. Não basta procurar uma “palavra de ação”: *análise* também nomeia uma ação, enquanto *está*, em “A servidora está tranquila”, exprime estado.
 
-## 1. O que o verbo exprime
+O **verbo** exprime um processo — ação, estado, mudança de estado ou fenômeno — e pode receber marcas de pessoa, número, tempo e modo. Compare *analisou*, *permaneceu calma*, *ficou preocupada* e *choveu*: todos são empregos verbais. Os exemplos deste capítulo são hipotéticos.
 
-O **verbo** é classe variável que exprime processo: ação, estado, mudança de estado ou fenômeno da natureza. Portanto, não se deve reduzi-lo a “palavra que indica ação”.
+## 1. Como reconhecer e decompor uma forma verbal
 
-| Processo | Exemplo |
+Trocar “eu analiso” por “nós analisamos” muda **pessoa** e **número**: quem fala é primeira pessoa; o interlocutor, segunda; aquele de quem se fala, terceira; singular e plural distinguem as formas. *Você* designa o interlocutor, mas exige terceira pessoa: “você analisa”. Trocar *analiso* por *analisava* muda o **tempo**; trocar “sei que analisa” por “espero que analise” envolve o **modo**, a maneira gramatical de apresentar o processo.
+
+Os modos são **indicativo**, **subjuntivo** e **imperativo**: apresentam, respectivamente, o conteúdo como afirmado, subordinado a hipótese ou avaliação, ou dirigido ao interlocutor como pedido, ordem ou orientação. Não são rótulos automáticos de verdade e falsidade. *Emprego de tempos e modos verbais* aprofunda esses valores.
+
+### As partes que carregam significado e flexão
+
+Em *cantar*, *cantava* e *cantávamos*, a parte **cant-** mantém o significado básico: é o **radical**. As partes acrescentadas organizam a conjugação e a **flexão**, isto é, as mudanças de forma que expressam categorias gramaticais. **Conjugar** é distribuir as formas do verbo pelas pessoas, números, tempos e modos; esse conjunto constitui seu **paradigma**.
+
+Em **cant-á-va-mos**, distinguem-se:
+
+| Parte | Nome e informação |
 | --- | --- |
-| Ação | `A comissão analisou o recurso.` |
-| Estado | `A servidora está atenta.` |
-| Mudança de estado | `O candidato ficou tranquilo.` |
-| Fenômeno natural | `Choveu durante a prova.` |
+| cant- | Radical: significado básico de cantar |
+| -a- | Vogal temática: associa o verbo à primeira conjugação |
+| canta- | Tema: radical mais vogal temática |
+| -va- | Desinência modo-temporal: indica pretérito imperfeito do indicativo, isto é, passado apresentado em desenvolvimento ou como hábito |
+| -mos | Desinência número-pessoal: indica primeira pessoa do plural |
 
-O verbo pode variar em pessoa, número, modo, tempo e voz. Neste recorte, pessoa, número e voz só importam para identificar a classe e a construção; tempos e modos serão retomados apenas quando indispensáveis para a análise.
+**Desinências** são terminações que expressam flexão. Na segmentação tradicional de *beb-i-a* e *faz-i-a*, o *-i-* é vogal temática e o *-a-* marca tempo e modo. Nem toda forma apresenta essas partes separáveis: não force o modelo sobre *sou* ou *fiz*.
 
-<!-- REVISAO-VERBO-2026 -->
-### 1.1 Estrutura morfológica do verbo
+As três **conjugações** agrupam verbos em *-ar* (*analisar*), *-er* (*vender*) e *-ir* (*partir*). **Pôr e seus derivados pertencem à segunda**, vinculados à antiga forma *poer*: *propor* e *compor* não criam uma quarta conjugação. Essa classificação consta da [Nomenclatura Gramatical Brasileira](https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf), ou <abbr title="Nomenclatura Gramatical Brasileira">NGB</abbr>.
 
-Uma forma verbal pode ser analisada em partes:
+A sílaba pronunciada com maior intensidade é a **tônica**. Em **can**to, ela está no radical: a forma é **rizotônica**. Em can**ta**mos, está fora dele: **arrizotônica**. A classificação é da forma, não uma etiqueta única para todo o verbo.
 
-| Elemento | Função | Exemplo em `cantávamos` |
-| --- | --- | --- |
-| radical | concentra o conteúdo lexical básico | `cant-` |
-| vogal temática | indica a conjugação | `-a-` |
-| tema | radical + vogal temática | `canta-` |
-| desinência modo-temporal | marca modo e tempo | `-va-` |
-| desinência número-pessoal | marca número e pessoa | `-mos` |
+## 2. Nomear, desenvolver e apresentar um resultado
 
-A segmentação pode variar em formas irregulares, mas o modelo ajuda a explicar onde ocorre a alteração. Em `faço`, por exemplo, a irregularidade afeta o radical em relação ao infinitivo `fazer`.
+*Analisávamos* situa o processo em um tempo e modo e o relaciona à primeira pessoa do plural: é uma **forma finita**. Já *analisar*, *analisando* e *analisado* não trazem, por si, esse conjunto completo de informações: são **formas não finitas**, tradicionalmente chamadas **nominais**. Podem conservar <abbr title="Termos que completam a relação expressa pelo verbo">complementos</abbr> e participar de construções com <abbr title="Termo do qual se declara algo e com o qual o verbo normalmente concorda">sujeito</abbr>; “não finita” não significa “sem funcionamento verbal”.
 
-- **Rizotônica:** a sílaba tônica está no radical, como em `canto`.
-- **Arrizotônica:** a tonicidade recai fora do radical, como em `cantamos`.
+### <abbr title="Forma que nomeia o processo sem indicar tempo e modo">Infinitivo</abbr>: o processo e seu sujeito
 
-Um verbo pode ser irregular apenas em parte do paradigma. Não se deve concluir que todas as suas formas se afastam igualmente do modelo regular.
-
-### 1.2 Formas finitas e não finitas
-
-- **Forma finita:** apresenta o conjunto de marcas de pessoa, número, tempo e modo, como `analisávamos`.
-- **Forma não finita:** infinitivo, gerúndio ou particípio; não apresenta o conjunto completo dessas marcas, embora possa conservar sujeito, complementos e valor de processo.
-
-Em `É necessário os servidores revisarem o cadastro`, `revisarem` é infinitivo pessoal e possui sujeito próprio. Em `Os servidores devem revisar o cadastro`, `revisar` integra uma locução e a flexão aparece no auxiliar `devem`.
-
-## 2. Conjugações
-
-A [Nomenclatura Gramatical Brasileira (NGB)](https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf) reconhece três conjugações, identificadas pela vogal temática do infinitivo:
-
-| Conjugação | Terminação | Exemplos |
-| --- | --- | --- |
-| 1ª | `-ar` | `estudar`, `falar`, `analisar` |
-| 2ª | `-er` | `vender`, `receber`, `fazer` |
-| 3ª | `-ir` | `partir`, `dormir`, `decidir` |
-
-`Pôr` e seus derivados (`propor`, `compor`, `supor`) são tradicionalmente vinculados à segunda conjugação, apesar de não terminarem em `-er` na forma atual. Em prova, a exceção não autoriza inventar uma quarta conjugação.
-
-## 3. Formas nominais
-
-As formas nominais conservam valor verbal, mas podem aproximar-se de funções próprias de nomes. São **infinitivo**, **gerúndio** e **particípio**.
-
-| Forma | Marca típica | Valor básico |
-| --- | --- | --- |
-| Infinitivo | `-ar`, `-er`, `-ir`, `pôr` | processo sem marca própria de tempo/modo |
-| Gerúndio | `-ndo` | processo em curso, duração ou simultaneidade |
-| Particípio | frequentemente `-ado` ou `-ido` | ação concluída ou estado resultante |
-
-### 3.1 Infinitivo pessoal e impessoal
-
-O infinitivo **impessoal** não se flexiona em pessoa ou número: `estudar`, `vender`, `partir`. O **pessoal** admite flexão: `estudares`, `estudar`, `estudarmos`, `estudardes`, `estudarem`.
+O **infinitivo** nomeia o processo sem marcar, por si, tempo e modo: *analisar*, *vender*, *partir*, *pôr*. Para distinguir seus usos, observe a quem o processo é atribuído. **Sujeito** é o termo com o qual o verbo normalmente concorda e do qual se declara algo; não é necessariamente quem pratica uma ação.
 
 > É preciso **estudar**.  
-> É necessário **eu estudar** antes da prova.  
-> Antes de os candidatos **estudarem**, a banca divulgou o cronograma.
+> É preciso **eu estudar**.  
+> Antes de **os candidatos estudarem**, a comissão publicou o aviso.
 
-No primeiro caso, não há sujeito próprio destacado para o infinitivo. No segundo, `eu` é sujeito do infinitivo pessoal de primeira pessoa do singular; no terceiro, `os candidatos` é sujeito de `estudarem`, o que justifica a marca de plural.
+Na primeira frase, *estudar* tem sentido geral, sem sujeito próprio determinado: **infinitivo impessoal**. Na segunda, *eu* é sujeito de *estudar*: **infinitivo pessoal**, embora sem terminação diferente. Na terceira, *os candidatos* é sujeito de *estudarem*, e a terminação mostra o plural.
 
-As formas da primeira e da terceira pessoas do singular do infinitivo pessoal coincidem graficamente com a forma impessoal. Por isso, uma forma isolada como `estudar` não basta para decidir a classificação: o contexto e a existência de sujeito próprio resolvem a análise.
+As formas pessoais são *eu estudar*, *tu estudares*, *ele estudar*, *nós estudarmos*, *vós estudardes*, *eles estudarem*. **Pessoal não é sinônimo de flexionado de maneira visível**: a primeira e a terceira pessoas do singular coincidem com a forma impessoal.
 
-O infinitivo pode ser substantivado:
+A flexão depende da construção, não do plural mais próximo:
 
-> O **estudar** exige constância.
+- **Sujeito próprio expresso antes do infinitivo:** “antes de os candidatos **estudarem**”. Na escrita formal, preserve *de os*: a <abbr title="Palavra de ligação, como de, a ou com">preposição</abbr> introduz a construção de infinitivo; não transforma *os candidatos* em seu <abbr title="Termo que completa a relação expressa por outra palavra">complemento</abbr>.
+- **Unidade com <abbr title="Verbo que acrescenta informações ao processo do verbo principal">auxiliar</abbr>:** “os candidatos **devem estudar**”. *Estudar* nomeia o processo principal; *devem* acrescenta obrigação e já recebe pessoa e número. Formam uma **locução verbal**, conjunto que funciona como uma unidade: não se emprega *devem estudarem*.
+- **Construção com autonomia:** “os candidatos saíram para **estudar/estudarem**”. Ambas são admitidas; a flexão destaca o sujeito. Também há contextos como “a capacidade das pessoas de **ter/terem** acesso”, em que não cabe impor plural só pela proximidade de *pessoas*.
 
-Nesse uso, `estudar` continua formalmente infinitivo, mas nomeia uma atividade e recebe artigo.
+Mesmo sujeitos diferentes não tornam a flexão universalmente obrigatória. Com verbos de percepção ou de causação — ver, ouvir, mandar, fazer — há alternâncias como “vi os candidatos **sair/saírem**”. Com o pronome que substitui esse termo, a construção normativa é “vi-os **sair**”, não *vi-os saírem*. Em “o diretor autorizou os técnicos a **revisarem**”, a flexão evidencia quem revisa, mas não demonstra que apenas a forma flexionada seria possível.
 
-### 3.2 Gerúndio e gerundismo
+O infinitivo também pode funcionar como substantivo: em “**O estudar** exige constância”, o artigo *o* permite tratar a atividade como um nome. É o **infinitivo substantivado**.
 
-O gerúndio apresenta processo em desenvolvimento, duração ou simultaneidade:
+### <abbr title="Forma em -ndo que apresenta desenvolvimento ou relação com outro processo">Gerúndio</abbr>: observar o desenvolvimento
 
-> As candidatas estão **estudando**.  
-> Vi o relator **saindo** da sala.
+O **gerúndio**, reconhecível por *-ndo*, apresenta o processo em desenvolvimento ou relacionado a outro: “a equipe está **analisando**”; “vi o relator **saindo**”; “conferiu os dados **comparando-os** com o cadastro”. Os dois últimos exemplos mostram, respectivamente, simultaneidade e modo de realização.
 
-O chamado **gerundismo** não significa que todo gerúndio esteja errado. A crítica normativa recai sobre fórmulas estereotipadas como `vou estar encaminhando` quando a intenção é apenas anunciar ação futura simples. Em contexto de processo em curso, o gerúndio é plenamente adequado. A questão deve ser resolvida pelo valor expresso e pelo comando da banca, sem condenação automática da forma `-ndo`.
+O gerúndio não fixa sozinho o tempo: “amanhã, às dez horas, a equipe **estará analisando** o recurso” descreve atividade em curso num ponto futuro. Não há erro por ser futuro.
 
-### 3.3 Particípio
+**Gerundismo** é o nome dado ao emprego desnecessário ou inadequado de cadeias como *vou estar encaminhando* quando se pretende apenas prometer um envio. Nesse caso, *encaminharei* ou *vou encaminhar* é mais direto. A crítica à prolixidade não autoriza condenar todo gerúndio nem toda construção futura com ele.
 
-O particípio pode integrar locução verbal ou funcionar como adjetivo:
+### <abbr title="Forma como analisado ou feito, usada em locuções e como característica">Particípio</abbr>: forma verbal ou característica
 
-> A comissão tinha **analisado** o recurso.  
-> O recurso está **analisado**.
+O **particípio** aparece em “a comissão tinha **analisado** o recurso” e em “o recurso está **analisado**”. No primeiro, integra uma locução; no segundo, pode apresentar o estado resultante, aproximando-se de um **adjetivo**, palavra que caracteriza um nome. Também pode organizar uma construção como “**concluída a análise**, a comissão publicou o resultado”: a conclusão é anterior à publicação.
 
-Particípios regulares frequentemente terminam em `-ado` ou `-ido`: `analisado`, `vendido`, `partido`. Formas como `aberto`, `escrito`, `feito`, `visto` e `posto` são tradicionalmente chamadas de irregulares.
+As terminações regulares são *-ado* e *-ido*; entre as irregulares estão *aberto*, *escrito*, *feito*, *visto* e *posto*. Com *ter/haver*, o particípio do <abbr title="Tempo formado com ter ou haver seguido de particípio">tempo composto</abbr> permanece invariável: “as servidoras tinham **analisado** as propostas”. Como característica ou em construção passiva, acompanha o nome: “propostas **analisadas**”; “as propostas foram **analisadas**”. A passiva apresenta o processo a partir de quem o recebe e será examinada adiante.
 
-Não confunda **particípio irregular** com **verbo irregular**: a primeira expressão qualifica uma forma nominal; a segunda, o paradigma de conjugação inteiro.
+Uma **oração** organiza-se em torno de verbo ou locução verbal. Quando seu verbo está em forma nominal, pode ser uma **oração reduzida**: *ao terminar a análise* indica tempo; *para aprimorar o serviço*, finalidade. Reconhecer a forma não dispensa identificar a relação expressa pelo contexto.
 
-### 3.1 Roteiro para flexão do infinitivo
+## 3. Regularidade, lacunas e formas alternativas
 
-A escolha não se resolve apenas pela terminação gráfica. Observe o sujeito e a relação com o verbo principal.
+**Regular** é o verbo que segue o <abbr title="Conjunto das formas de conjugação de um verbo">paradigma</abbr> de sua conjugação, como *amar*, *vender* e *partir*. **Irregular** afasta-se desse modelo no radical ou nas desinências: *fazer/faço/fiz*, *pedir/peço*, *dar/dou*. Uma alteração em parte do paradigma não torna todas as formas igualmente irregulares.
 
-#### Flexão claramente esperada
+Os chamados **anômalos** apresentam alterações especialmente profundas: *ser* reúne *sou*, *era*, *fui*; *ir* reúne *vou*, *ia*, *fui*. A extensão dessa classificação varia entre gramáticas; esses dois exemplos são os mais estáveis, não necessariamente uma lista exaustiva.
 
-- sujeito próprio expresso e plural: `antes de os candidatos estudarem`;
-- necessidade de tornar inequívoco o agente: `por serem os dados incompletos`;
-- contraste entre sujeitos: `o órgão autorizou os técnicos a analisarem os autos`.
+**Defectivo** tem lacunas no paradigma adotado pela tradição normativa. *Reaver*, por exemplo, não se conjuga simplesmente como *haver* com o acréscimo de *re-* em todas as pessoas. “Nós reavemos os documentos” tem sujeito: lacuna no paradigma não é ausência de sujeito. Como as listas variam, não trate toda raridade de uso como proibição.
 
-#### Flexão frequentemente facultativa
+**Abundante** admite mais de uma forma equivalente em determinada flexão, sobretudo no particípio: *aceitado/aceito*, *entregado/entregue*, *matado/morto*. A orientação tradicional associa o regular a *ter/haver* e o irregular a *ser/estar*: “tinha **aceitado** a proposta”; “a proposta foi **aceita**”.
 
-- infinitivo preposicionado cujo referente plural já está claro;
-- construções em que singular e plural permanecem gramaticais, mas alteram foco, naturalidade ou ênfase.
+Isso não é uma fórmula sem exceções: *tinha pago*, *tinha gasto* e *havia pego* são usos aceitos, ao lado das formas regulares. Tampouco se cria um particípio curto por semelhança: na escrita formal, empregam-se **tinha chegado** e **tinha trazido**, não *tinha chego* e *tinha trago*.
 
-Exemplo: `a capacidade das pessoas de ter/terem acesso`. A avaliação depende da estrutura e do sentido pretendido.
+**<abbr title="Forma de particípio que não segue a terminação regular em -ado ou -ido">Particípio irregular</abbr> e verbo irregular não são a mesma classificação.** *Pedir* é irregular (*peço*) e tem particípio regular (*pedido*); identificar *escrito* como particípio irregular descreve essa forma, não todo o comportamento de *escrever*.
 
-#### Flexão normalmente evitada
+## 4. O verbo e os termos que o acompanham
 
-- infinitivo que integra locução verbal com o mesmo sujeito: `os técnicos devem analisar`, não `devem analisarem`;
-- unidade verbal em que somente o auxiliar recebe pessoa e número.
+Em “A comissão **entregou o relatório à chefia**”, o sujeito é *a comissão*; o que se declara dele é o **predicado**, a parte destacada. *Entregar* relaciona quem entrega, o que é entregue e a quem se entrega. Os termos que completam essa relação são **complementos verbais**.
 
-Na escrita formal, quando a preposição se liga ao infinitivo e o termo seguinte funciona como sujeito, prefere-se preservar a separação: `antes de os servidores responderem`, e não `antes dos servidores responderem`.
+Compare “analisou **o relatório**” e “precisa **de apoio**”. No primeiro, o verbo não exige preposição para introduzir o complemento: **objeto direto**. No segundo, *precisar*, com sentido de necessitar, exige *de*: **objeto indireto**. Preposição é uma palavra de ligação, como *de*, *a* e *com*.
 
-## 4. Classificações do verbo
+A **transitividade** descreve essa relação do verbo com seus objetos. A **predicação verbal** distingue também usos sem objeto e a ligação do sujeito a uma característica:
 
-As classificações podem coexistir. Um verbo pode ser irregular quanto à flexão, auxiliar em uma locução e transitivo em certa oração.
-
-| Classificação | Critério | Exemplo ou cautela |
-| --- | --- | --- |
-| Regular | segue o paradigma de sua conjugação | `amar`, `vender`, `partir` |
-| Irregular | altera radical e/ou desinência em relação ao paradigma | `fazer`, `pedir`, `dar` |
-| Anômalo | apresenta irregularidade excepcionalmente intensa | `ser`, `ir` |
-| Defectivo | possui paradigma incompleto na tradição normativa | listas variam conforme a gramática |
-| Abundante | admite duas ou mais formas equivalentes | `aceitado/aceito`, `matado/morto` |
-| Auxiliar | integra locução e normalmente recebe a flexão | `está estudando` |
-| Principal | traz o núcleo lexical da locução | `está estudando` |
-
-### 4.1 Regular, irregular e anômalo
-
-Regularidade é a aderência ao modelo da conjugação, não a simples aparência do infinitivo. `Fazer` é irregular porque suas flexões não seguem integralmente o paradigma de `vender`; `ser` e `ir` são exemplos seguros de verbos anômalos pela grande diversidade de formas no paradigma.
-
-Listas de verbos anômalos podem divergir entre gramáticas. Em prova sem bibliografia específica, é mais seguro reconhecer `ser` e `ir` do que ampliar a lista sem necessidade.
-
-### 4.2 Defectivo e abundante
-
-Verbo **defectivo** é aquele cujo paradigma é considerado incompleto pela tradição normativa. As listas não são idênticas em todas as obras; por isso, a questão deve indicar o paradigma ou a referência adotada quando cobrar caso controverso.
-
-Verbo **abundante** possui mais de uma forma aceita em determinada flexão, sobretudo no particípio:
-
-> tinha **aceitado** a proposta; foi **aceito** pela comissão.  
-> tinha **matado** a dúvida; o problema foi **morto** no debate.
-
-A orientação escolar tradicional prefere, em geral, particípio regular com `ter` e `haver`, e irregular com `ser` e `estar`. É uma preferência de uso, não fórmula absoluta para todos os verbos e contextos.
-
-### 4.1 Verbos pronominais e unipessoais
-
-#### Pronominais
-
-- **Essencialmente pronominais:** aparecem normalmente com pronome, como `arrepender-se`, `queixar-se` e `abster-se`.
-- **Acidentalmente pronominais:** admitem emprego com e sem pronome, por vezes com mudança de regência ou sentido, como `lembrar algo` e `lembrar-se de algo`.
-
-Nesses casos, o pronome pode ser parte integrante do verbo. Não é correto classificá-lo automaticamente como reflexivo: em `ele se arrependeu`, não se exprime necessariamente uma ação praticada sobre si mesmo.
-
-#### Unipessoais
-
-Na tradição gramatical, são usados principalmente na terceira pessoa porque o sujeito costuma designar animal, fenômeno ou entidade não humana:
-
-- `o cão latiu`;
-- `os cães latiram`;
-- `a multidão vociferou`.
-
-Há sujeito e concordância; portanto, **unipessoal não é sinônimo de impessoal**. Usos figurados podem ampliar o paradigma.
-
-## 5. Locução verbal
-
-Uma **locução verbal** reúne verbo auxiliar e verbo principal em forma nominal:
-
-| Estrutura | Auxiliar | Principal |
-| --- | --- | --- |
-| `tinha estudado` | `tinha` | `estudado` (particípio) |
-| `estava estudando` | `estava` | `estudando` (gerúndio) |
-| `deve estudar` | `deve` | `estudar` (infinitivo) |
-
-Em regra, o auxiliar recebe as flexões e o principal concentra o conteúdo lexical. `Ser`, `estar`, `ter` e `haver` são auxiliares frequentes, mas uma mesma forma pode ter outra classificação conforme o contexto:
-
-> A servidora **está cansada**.  
-> A servidora **está estudando**.
-
-No primeiro período, `estar` é verbo de ligação e `cansada` é predicativo; no segundo, `estar` é auxiliar da locução `está estudando`.
-
-Construções aspectuais como `começou a estudar`, `continuou a estudar` e `deixou de estudar` podem ser tratadas como perífrases com verbo **semiauxiliar** em determinadas gramáticas. Como a terminologia varia, uma questão deve fornecer contexto ou bibliografia quando depender dessa distinção; para reconhecer locução verbal sem controvérsia, prefira exemplos como `deve estudar`, `vai estudar`, `tinha estudado` e `estava estudando`.
-
-O verbo `haver` também muda de comportamento conforme o emprego:
-
-> Os candidatos **haviam estudado**.  
-> **Havia** candidatos na sala.
-
-No primeiro período, `haver` é auxiliar e concorda com o sujeito `os candidatos`; no segundo, equivale a `existir`, é impessoal e permanece no singular.
-
-### 5.1 Cadeias de auxiliares e valores frequentes
-
-| Construção | Valor frequente |
+| Uso na oração | Classificação |
 | --- | --- |
-| `ter/haver + particípio` | tempo composto |
-| `ser + particípio` | passiva analítica |
-| `estar + gerúndio` | progressividade |
-| `ir + infinitivo` | futuridade ou iminência |
-| `dever + infinitivo` | obrigação ou probabilidade |
-| `poder + infinitivo` | possibilidade, permissão ou capacidade |
-| `haver de + infinitivo` | futuridade, compromisso ou modalidade |
-| `vir + gerúndio` | desenvolvimento progressivo |
+| A comissão analisou **o relatório**. | Verbo transitivo direto — <abbr title="Verbo transitivo direto">VTD</abbr> |
+| A comissão precisa **de apoio**. | Verbo transitivo indireto — <abbr title="Verbo transitivo indireto">VTI</abbr> |
+| A comissão entregou **o relatório à chefia**. | Verbo transitivo direto e indireto — <abbr title="Verbo transitivo direto e indireto">VTDI</abbr> |
+| O bebê dormiu. | Verbo intransitivo — <abbr title="Verbo intransitivo">VI</abbr>: sem objeto nesse emprego |
+| A servidora parece **tranquila**. | Verbo de ligação — <abbr title="Verbo de ligação">VL</abbr>: relaciona o sujeito a uma característica |
 
-Compare:
+Em *parece tranquila*, **tranquila** é **predicativo do sujeito**: atributo declarado do sujeito, não objeto que recebe uma ação. 
 
-- `há candidatos`: `haver` existencial e impessoal;
-- `os candidatos haviam estudado`: `haver` auxiliar, com concordância;
-- `os candidatos hão de estudar`: `haver` auxiliar modal/futuro;
-- `ele se houve bem`: emprego lexical e pronominal de `haver-se`.
+Nem tudo que acompanha um verbo é objeto. Em “dormiu **durante a sessão**” e “escreve **bem**”, os trechos acrescentam circunstâncias de tempo e modo: são **adjuntos adverbiais**. A preposição de *durante a sessão* não transforma *dormir* em transitivo indireto.
 
-Nem toda sequência de verbos constitui locução. Em `ele deseja estudar`, `deseja` mantém conteúdo lexical e `estudar` pode introduzir oração subordinada reduzida. O contexto e a unidade semântica são decisivos.
+**Classifique o emprego concreto.** “Escreveu o parecer” tem objeto direto; “escreve bem” pode apresentar *escrever* como intransitivo. “Aspirou o ar” é diferente de “aspirou ao cargo”: muda o sentido e muda a exigência de preposição. Na construção normativa, *assistiu ao julgamento* significa presenciou; *assistiu o paciente*, prestou assistência. As demais acepções e variantes são aprofundadas em *Regência verbal e nominal*.
 
-## 6. Vozes verbais
+## 5. Quando dois ou mais verbos funcionam juntos
 
-Voz verbal mostra a relação entre o sujeito e o processo.
+Em “A comissão **estava analisando** o recurso”, *analisando* fornece o processo: é o **verbo principal**. *Estava* marca o passado e ajuda a apresentar a análise em curso: é **auxiliar**. A locução forma uma unidade, cujo principal aparece no infinitivo, gerúndio ou particípio.
 
-| Voz | Estrutura e leitura |
+O mesmo verbo pode desempenhar outro papel: em “a servidora **está tranquila**”, *está* é de ligação e *tranquila* é predicativo; em “a servidora **está estudando**”, *está* é auxiliar. **Auxiliar não é uma lista fixa de palavras, mas uma função na construção.**
+
+Os auxiliares acrescentam tempo, voz, desenvolvimento ou avaliação. “**Tinha analisado**” forma tempo composto; “**vai analisar**” projeta o futuro; “**vem analisando**” apresenta desenvolvimento ao longo do tempo. *Começou a analisar*, *continuou a analisar* e *deixou de analisar* focalizam início, continuidade e cessação. Essa perspectiva sobre o desenvolvimento chama-se **aspecto**. Algumas gramáticas chamam esses verbos de **semiauxiliares**, por manterem mais significado próprio que auxiliares típicos; a construção com várias palavras é uma **perífrase verbal**.
+
+*Deve analisar* pode indicar obrigação ou probabilidade; *pode analisar*, possibilidade, permissão ou capacidade. Esses valores são de **modalidade**, a avaliação do falante sobre o processo. *Há de analisar* pode expressar futuro, compromisso ou expectativa. O contexto escolhe o valor: o auxiliar isolado não decide.
+
+Uma cadeia pode combinar funções: “os relatórios **vinham sendo revisados**” reúne desenvolvimento progressivo e <abbr title="Construção que apresenta o processo a partir do sujeito que recebe a ação">voz passiva</abbr>. A marca de pessoa e número fica no primeiro auxiliar; o particípio passivo *revisados* concorda com *relatórios*. Irregularidade descreve a conjugação; auxiliaridade, o papel na frase: *haver* pode ser irregular e auxiliar ao mesmo tempo.
+
+Nem toda sequência é locução: em “o servidor **deseja estudar**”, *desejar* conserva o significado de querer, e *estudar* pode constituir uma oração reduzida que o completa. Há dois processos relacionados, não apenas informação auxiliar sobre um deles. Como os limites da auxiliaridade variam entre gramáticas, analise a função no contexto e a terminologia exigida, não apenas a quantidade de verbos.
+
+## 6. Vozes: manter o acontecimento, mudar sua apresentação
+
+> A comissão **aprovou o relatório**.  
+> O relatório **foi aprovado pela comissão**.
+
+Na primeira, o sujeito *a comissão* pratica a ação: **voz ativa**. Na segunda, o objeto direto da ativa, *o relatório*, torna-se **sujeito paciente**, aquele que recebe a ação: **voz passiva**. Quem a pratica pode aparecer como **agente da passiva**, em *pela comissão*. A **voz verbal** exprime essa relação entre sujeito e processo.
+
+Na **passiva analítica**, usa-se auxiliar *ser* mais particípio. A transformação preserva tempo e modo: *aprovou → foi aprovado*; *aprovará → será aprovado*. O auxiliar concorda com o novo sujeito, e o particípio, em <abbr title="Categoria gramatical que distingue masculino e feminino">gênero</abbr> e número: “as propostas **foram aprovadas**”. Trocar *foi* por *era* não é mera mudança de voz.
+
+A descrição “sujeito pratica” explica ações como *aprovar*, mas não define toda construção ativa. “A candidata recebeu a notícia” tem forma ativa, embora o sujeito seja destinatário. Não deduza a voz apenas de quem sofre consequências no mundo.
+
+### A passiva com se
+
+“**Aprovaram-se os relatórios**” equivale, nessa leitura, a “**os relatórios foram aprovados**”: é **passiva sintética ou pronominal**. O *se* é **partícula apassivadora**, marca dessa construção. *Os relatórios* já é sujeito paciente na sintética, não objeto direto; por isso, determina o plural.
+
+Ela se forma normalmente com <abbr title="Verbo transitivo direto">VTD</abbr> ou <abbr title="Verbo transitivo direto e indireto">VTDI</abbr>. Em “**concederam-se bolsas aos servidores**”, *bolsas* é sujeito; *aos servidores* continua objeto indireto: “bolsas foram concedidas aos servidores”.
+
+A passagem regular para a passiva requer um objeto direto na construção ativa que possa tornar-se sujeito. Ter objeto direto, porém, **não basta**: *haver* no sentido de existir não admite essa transformação. E “precisa de apoio” não fornece objeto direto para produzir *apoio é precisado* nesse sentido.
+
+Nas locuções, mantenha toda a estrutura: “**têm-se publicado relatórios**” corresponde a “**relatórios têm sido publicados**”; o auxiliar concorda com o sujeito plural. A ausência de agente expresso não permite recuperar sua identidade: de “publicou-se o relatório” não se deduz quem o publicou.
+
+### Acontecimento passivo não é o mesmo que estado resultante
+
+“O relatório **foi aprovado**” apresenta o evento; “o relatório **está aprovado**” focaliza o resultado. A segunda admite leitura adjetival, de estado, e não é automaticamente equivalente à primeira. “A comissão **tinha aprovado** o relatório” é tempo composto ativo; “o relatório **tinha sido aprovado**” é passiva com cadeia de auxiliares.
+
+Há ainda infinitivo com sentido passivo sem *ser*: “um texto difícil **de compreender**” equivale, nesse ponto, a “difícil **de ser compreendido**”. Mas nem todo *de + infinitivo* é passivo: “o candidato está perto **de concluir** a leitura” atribui a ação ao candidato.
+
+## 7. O se não tem uma função única
+
+Compare **“publicam-se relatórios”** e **“precisa-se de servidores”**. Na primeira, relatórios são publicados: passiva, sujeito identificado e verbo no plural. Na segunda, não se informa quem precisa; *de servidores* continua objeto indireto. O *se* é **índice de indeterminação do sujeito**, e o verbo fica na terceira pessoa do singular.
+
+A indeterminação também ocorre com <abbr title="Verbo intransitivo">VI</abbr> (“vive-se bem aqui”) e <abbr title="Verbo de ligação">VL</abbr> (“é-se feliz aqui”). **Sujeito indeterminado não significa oração sem sujeito**: existe um participante não identificado; não é o caso de *haver* existencial, examinado a seguir.
+
+Outras construções exigem outras leituras:
+
+| Construção | Relação e classificação |
 | --- | --- |
-| Ativa | o sujeito pratica a ação: `A comissão aprovou o relatório.` |
-| Passiva analítica | o sujeito recebe a ação: `O relatório foi aprovado pela comissão.` |
-| Passiva sintética | `se` apassivador + <abbr title="verbo transitivo direto">VTD</abbr> ou <abbr title="verbo transitivo direto e indireto">VTDI</abbr>, com sujeito paciente: `Aprovam-se relatórios.` |
-| Reflexiva | o sujeito pratica e recebe a ação: `Ela feriu a si mesma.` |
-| Recíproca | sujeitos agem mutuamente: `Eles se cumprimentaram.` |
+| Ela se feriu. | A ação volta ao sujeito: **pronome reflexivo**, equivalente a *a si mesma*; voz reflexiva |
+| Os colegas se cumprimentaram. | A ação é mútua: **pronome recíproco**, equivalente a *uns aos outros*; valor recíproco da reflexiva |
+| Ela se arrependeu. | O pronome integra *arrepender-se*: **parte integrante do verbo**, não ação sobre si mesma |
 
-Na passiva sintética, a conversão para passiva analítica é teste útil:
+Nos **verbos essencialmente pronominais**, como *arrepender-se*, *queixar-se* e *abster-se*, o pronome acompanha o verbo nesse emprego. Nos **acidentalmente pronominais**, há usos com e sem ele, às vezes com construção diferente: *lembrar algo* e *lembrar-se de algo*. Não force *a si mesmo* sobre todo verbo acompanhado de pronome.
 
-> Vendem-se livros.  
-> Livros são vendidos.
+Também se encontra *se* de **realce ou expletivo**, como em “ele se foi”, na análise tradicional que o considera dispensável à informação básica: “ele foi”. A retirada pode perder expressividade, e a classificação varia entre gramáticas. Já em “se chover, avise”, *se* liga orações e introduz condição: é **conjunção**, não pronome ligado ao verbo.
 
-A passiva sintética também pode ocorrer com verbo transitivo direto e indireto, desde que exista objeto direto capaz de se tornar sujeito paciente:
+**<abbr title="Verbo transitivo direto">VTD</abbr> mais se não significa automaticamente passiva**: *ela se feriu* é o contraexemplo.
 
-> Concederam-se bolsas aos servidores.  
-> Bolsas foram concedidas aos servidores.
+## 8. Quando não há sujeito: verbos impessoais
 
-Em `concederam-se bolsas aos servidores`, `bolsas` é sujeito paciente; `aos servidores` continua complemento indireto. O verbo concorda com o sujeito paciente.
+“**Há relatórios**” não tem a mesma estrutura de “**existem relatórios**”. *Existir* tem sujeito, *relatórios*, e concorda com ele. *Haver* existencial forma **oração sem sujeito**: é **impessoal** e permanece no singular. O termo plural não é sujeito; na análise tradicional, é objeto direto de *haver*.
 
-### 6.1 Passiva de evento e estado resultante
+O mesmo mecanismo explica *houve incidentes* (*haver* com sentido de ocorrer), *há dois anos estudo* (tempo decorrido), *faz dois anos* e *fez calor* (*fazer* temporal ou climático). Compare *ocorreram incidentes* e *aconteceram incidentes*: esses verbos são pessoais e concordam com o sujeito.
 
-- `O relatório foi aprovado`: apresenta, em regra, um evento passivo.
-- `O relatório está aprovado`: tende a focalizar o estado resultante.
-- `O relatório tinha sido aprovado`: cadeia auxiliar em passiva composta.
-- `A comissão tinha aprovado o relatório`: tempo composto em voz ativa.
+Verbos de fenômeno natural são impessoais no sentido próprio: “**choveu** durante a sessão”. No figurado, podem receber sujeito: “**choveram pedidos** de revisão”. Não classifique o verbo sem examinar o sentido.
 
-A combinação `estar + particípio` não é automaticamente equivalente a `ser + particípio`. O contexto pode favorecer leitura adjetival ou resultativa.
+### A impessoalidade alcança o auxiliar
 
-### 6.1 Valores do `se`
+Se o principal da locução é impessoal, seu auxiliar também permanece na terceira pessoa do singular: **deve haver alternativas**, **pode fazer meses**. Com principal pessoal, a concordância muda: **devem existir alternativas**.
 
-Nem todo `se` é apassivador. A função deve ser identificada pela construção inteira:
+Em **“há de haver alternativas”**, o primeiro *haver* é auxiliar; o segundo é existencial, principal e impessoal. **A locução inteira é impessoal**, e o primeiro fica no singular por essa razão. Compare os empregos pessoais: “os candidatos **hão de estudar**” e “os candidatos **haviam estudado**”.
 
-| Valor do `se` | Estrutura e teste | Exemplo |
-| --- | --- | --- |
-| Partícula apassivadora | VTD ou VTDI; há sujeito paciente; admite `ser + particípio`; o verbo concorda | `Vendem-se livros.` |
-| Índice de indeterminação do sujeito | <abbr title="verbo transitivo indireto">VTI</abbr>, <abbr title="verbo intransitivo">VI</abbr> ou <abbr title="verbo de ligação">VL</abbr>; não há sujeito paciente; verbo na 3ª pessoa do singular | `Precisa-se de apoio.` |
-| Pronome reflexivo | a ação recai sobre o próprio sujeito; teste de `a si mesmo` | `Ela se feriu.` |
-| Pronome recíproco | a ação é mútua entre os sujeitos | `Eles se cumprimentaram.` |
+Fora da função auxiliar, *haver* também pode ser pessoal: “os servidores **se houveram bem**” significa comportaram-se bem; “se **houverem por bem** adiar” significa se julgarem conveniente adiar. Portanto, não se identifica impessoalidade apenas pelo infinitivo *haver*.
 
-Compare:
+O uso existencial de *ter* (“tem muita gente”) é corrente no português brasileiro; na <abbr title="Conjunto de formas de referência para a escrita formal">norma-padrão</abbr>, prefira “há muita gente” ou “existem muitas pessoas”. Isso não torna *ter* impessoal em “os servidores têm documentos”.
 
-> Vendem-se **casas**.  
-> Precisa-se **de servidores**.
+### Duas distinções finais
 
-Na primeira oração, `casas` é sujeito paciente e o plural determina `vendem`. Na segunda, `de servidores` é objeto indireto; o `se` indetermina o sujeito e o verbo permanece no singular.
+**Ser impessoal não exige sempre singular.** Em indicações de horas e distâncias, *ser* apresenta concordância própria: “é uma hora”; “são duas horas”; “daqui até lá são dois quilômetros”. Não estenda a exceção a *haver* nem confunda esses usos com expressões de quantidade como “dois anos é pouco”, em que o total é tomado como uma unidade. As demais regras pertencem a *Concordância verbal e nominal*.
 
-Para formar passiva, deve haver objeto direto que possa tornar-se sujeito paciente. Por isso, não se forma passiva com `haver` no sentido de existir nem com verbo apenas transitivo indireto.
+**Unipessoal não é impessoal.** Verbos como *latir*, no sentido próprio de voz de animal, são tradicionalmente chamados unipessoais por se empregarem sobretudo na terceira pessoa, singular ou plural: “o cão latiu”; “os cães latiram”. Há sujeito e concordância; usos figurados podem ampliar as pessoas empregadas.
 
-### 7.1 Outros valores de `se`
-
-| Valor | Exemplo | Teste ou observação |
-| --- | --- | --- |
-| parte integrante de verbo pronominal | `Ele se arrependeu.` | não equivale necessariamente a `a si mesmo` |
-| reflexivo | `Ela se feriu.` | admite `a si mesma` |
-| recíproco | `Eles se cumprimentaram.` | admite `um ao outro` |
-| partícula apassivadora | `Publicaram-se os resultados.` | admite passiva analítica |
-| índice de indeterminação | `Precisa-se de servidores.` | verbo fica no singular |
-| partícula de realce/expletiva | depende da construção e da gramática | pode ser retirada sem alterar o núcleo proposicional |
-
-A terminologia de partícula expletiva varia entre gramáticas. Em prova, priorize a análise sintática da construção e os testes de passivização, concordância e reflexividade.
-
-## 7. Predicação e transitividade
-
-A predicação depende do uso do verbo na oração, não só do verbete de dicionário.
-
-| Tipo | Relação | Exemplo |
-| --- | --- | --- |
-| VTD | pede objeto direto | `A equipe revisou o texto.` |
-| VTI | pede objeto indireto | `A equipe precisa de tempo.` |
-| VTDI | pede objeto direto e indireto | `A equipe entregou o relatório à chefia.` |
-| VI | não exige complemento | `O bebê dormiu.` |
-| VL | liga sujeito a predicativo | `A equipe parece confiante.` |
-
-`Escrever` ilustra a variação contextual:
-
-> A relatora **escreveu o parecer**.  
-> A relatora **escreve bem**.
-
-No primeiro uso, há objeto direto; no segundo, o verbo pode ser analisado como intransitivo, e `bem` é adjunto adverbial. Não se deve fixar uma única transitividade para qualquer ocorrência do verbo.
-
-## 8. Verbos impessoais
-
-Verbo **impessoal** ocorre em oração sem sujeito e fica, em regra, na terceira pessoa do singular. O verbo `ser` admite ressalvas tradicionais em horas, distâncias e quantidades, como em `São duas horas`. Casos centrais:
-
-| Emprego | Exemplo |
-| --- | --- |
-| Fenômeno da natureza em sentido próprio | `Choveu durante a prova.` |
-| `haver` = existir/ocorrer | `Havia recursos.` / `Houve incidentes.` |
-| `haver` indicando tempo | `Há dois anos estudo.` |
-| `fazer` indicando tempo ou clima | `Faz dois anos.` / `Fez calor.` |
-
-O sentido é decisivo. Em `Choveram pedidos de revisão`, `chover` tem uso figurado e `pedidos` funciona como sujeito; não se trata do emprego impessoal de fenômeno natural.
-
-Em locução cujo verbo principal é impessoal, a impessoalidade alcança o auxiliar:
-
-> Deve **haver** candidatos.  
-> Podia **fazer** meses que ele não voltava.
-
-Em contraste, `existir` é pessoal: `Existem candidatos`. A aparente pluralidade de `candidatos` não transforma `haver` existencial em verbo pessoal.
-
-Não confunda `haver` impessoal com `haver` auxiliar. Em `Os candidatos haviam estudado`, o auxiliar concorda normalmente com o sujeito plural; em `Havia candidatos`, o verbo é existencial e fica no singular.
-
-### 9.1 Impessoalidade e construções próximas
-
-| Construção | Análise |
-| --- | --- |
-| `Há problemas.` | `haver` existencial impessoal |
-| `Existem problemas.` | `existir` pessoal; concorda com o sujeito |
-| `Ocorreram problemas.` | `ocorrer` pessoal |
-| `Aconteceram problemas.` | `acontecer` pessoal |
-| `Tem muita gente.` | uso existencial comum no português brasileiro; em redação formal, a banca pode preferir `há` |
-| `Há de haver alternativas.` | primeiro `haver` auxiliar e pessoal; segundo, principal impessoal |
-| `Deve haver alternativas.` | impessoalidade do principal transmitida ao auxiliar |
-| `Faz dois anos.` | `fazer` temporal impessoal |
-
-A substituição de `haver` existencial por `existir`, `ocorrer` ou `acontecer` exige reanalisar a concordância. A impessoalidade não é uma propriedade de qualquer ocorrência do verbo `haver`.
-
-## 9. Roteiro de prova
-
-1. Localize a forma verbal e identifique se há uma ou mais formas no predicado.
-2. Verifique se a forma é finita ou nominal: infinitivo, gerúndio ou particípio.
-3. Em locução, separe auxiliar e principal e confira se a classificação varia conforme o contexto.
-4. No infinitivo, não decida apenas pela aparência: `estudar` pode ser impessoal ou pessoal de singular.
-5. Não confunda irregularidade do verbo com a forma de seu particípio.
-6. Para voz passiva sintética, tente a conversão para `ser + particípio` e procure sujeito paciente.
-7. Com `se`, diferencie partícula apassivadora, índice de indeterminação, reflexividade e reciprocidade.
-8. Classifique a transitividade no período concreto.
-9. Em `haver`, confira se é auxiliar ou se tem sentido existencial, temporal ou de ocorrência.
-10. Em `fazer` e fenômenos naturais, confira o sentido antes de decidir pela impessoalidade.
-
-## 10. Limites do assunto
-
-- Emprego de tempos e modos verbais: Assunto 005.
-- Classes nominais: Assunto 006.
-- Classes invariáveis: Assunto 008.
-- Estrutura do período e orações: Assuntos 009 e 010.
-- Concordância verbal e nominal: Assunto 012.
-- Colocação de pronomes: Assunto 015.
-
-Esses tópicos aparecem apenas quando ajudam a reconhecer o verbo como classe de palavras.
+Em **publicam-se relatórios**, *relatórios* é sujeito paciente; em **precisa-se de relatórios**, há sujeito indeterminado e objeto indireto; em **há relatórios**, não há sujeito. É a estrutura inteira, não o plural mais próximo nem a presença isolada de *se*, que explica a forma verbal.
