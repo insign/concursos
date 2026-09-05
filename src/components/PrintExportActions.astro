@@ -310,14 +310,17 @@ const config = JSON.stringify({
       section: PrintSection,
       bundle: HTMLElement,
       includeGabarito: boolean,
+      totalSections: number,
     ): Promise<boolean> => {
       const base = `/concursos/${config.contestSlug}/${config.subjectSlug}/`;
       const wrapper = document.createElement('section');
       wrapper.className = 'print-bundle-section';
       wrapper.dataset.printBundleSection = section;
-      const heading = document.createElement('h2');
-      heading.textContent = SECTION_LABELS[section];
-      wrapper.append(heading);
+      if (totalSections > 1) {
+        const heading = document.createElement('h2');
+        heading.textContent = SECTION_LABELS[section];
+        wrapper.append(heading);
+      }
 
       try {
         if (section === 'questoes') {
@@ -336,6 +339,10 @@ const config = JSON.stringify({
             ? cloneLiveArticle()
             : extractFromHtml(await fetchText(path), 'article', '[data-navigation-content]');
           if (!node) return false;
+          node.querySelectorAll('.reading-title, h1.reading-title').forEach((n) => n.remove());
+          // Se o artigo começa com h1 igual ao título do assunto, remove para não duplicar com o header do bundle.
+          const firstH1 = node.querySelector('h1');
+          if (firstH1 && firstH1.textContent?.trim() === config.subjectTitle.trim()) firstH1.remove();
           wrapper.append(node);
         }
         bundle.append(wrapper);
@@ -408,7 +415,7 @@ const config = JSON.stringify({
             `<p class="print-bundle-meta">${escapeHtml(scopeLabel(sections))} · rev. ${config.questionSetRevision} · ${escapeHtml(emitted)}</p>`;
           bundle.append(header);
           for (const section of sections) {
-            await buildSection(section, bundle, includeGabarito);
+            await buildSection(section, bundle, includeGabarito, sections.length);
           }
           document.body.append(bundle);
           document.body.classList.add('printing-bundle');
