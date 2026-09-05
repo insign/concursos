@@ -8,377 +8,194 @@ storageId: coordenacao-oracoes-termos
 
 # Coordenação entre orações e termos da oração
 
-> **Corte de atualização:** fontes consultadas até 17 de julho de 2026. A classificação deve considerar estrutura, contexto e efeito discursivo, não apenas memorizar listas de conectores.
+## 1. O que exatamente está sendo ligado?
 
-## 1. Oração, período e nível sintático
+Compare os exemplos hipotéticos:
 
-**Oração** é uma unidade organizada em torno de verbo ou locução verbal. **Período** é o enunciado delimitado que contém uma ou mais orações:
+> A equipe revisou **o relatório e a planilha**.  
+> A equipe **revisou o relatório e publicou a nota**.
 
-- período simples: uma oração, tradicionalmente chamada **oração absoluta** quando constitui todo o período;
-- período composto: duas ou mais orações, relacionadas por coordenação, subordinação ou ambas.
+Na primeira frase, o que a equipe revisou? **O relatório** e **a planilha**. As duas expressões completam o mesmo verbo, sem <abbr title="palavra que liga um termo a outro, como de, em ou com">preposição</abbr> exigida por ele: são **objetos diretos coordenados**. Na segunda, *revisou* e *publicou* organizam duas **orações**. Agora, *e* liga orações, não objetos.
 
-Contar palavras ou conectores não basta para contar orações. Em “A equipe revisou o relatório e a planilha”, há uma oração e dois objetos diretos coordenados. Em “A equipe revisou o relatório e corrigiu a planilha”, há duas orações, pois aparecem dois núcleos verbais.
+**Coordenação é a ligação de unidades situadas no mesmo nível da estrutura.** Entre termos, elas desempenham função equivalente em relação ao mesmo **núcleo**, a palavra central da construção; entre orações, uma não funciona como termo da outra. **Função sintática** é esse papel: completar um verbo, caracterizar um nome ou indicar uma circunstância, por exemplo.
 
-Coordenação liga unidades no mesmo nível sintático: palavras, sintagmas, termos ou orações. A chamada independência das orações coordenadas é principalmente **sintática**. Elas continuam semanticamente e discursivamente relacionadas.
+Uma oração organiza-se em torno de um verbo ou de uma **locução verbal**, combinação que funciona como um núcleo verbal: *tinha revisado* não cria duas orações. Um **período** contém uma ou mais orações: é **simples** quando tem uma só, chamada **absoluta**, e **composto** quando tem duas ou mais. Verbos omitidos, recuperáveis pelo contexto, também entram na análise.
 
-Subordinação ocorre quando uma oração exerce função sintática em outra. Uma ideia de causa ou contraste, sozinha, não define a arquitetura; é preciso verificar a função e o conectivo.
+Os demais exemplos também são hipotéticos. Observe a função antes de classificar a ligação:
 
-<!-- REVISAO-COORDENACAO-2026 -->
-### 1.1 Teste do mesmo nível sintático
-
-Para reconhecer coordenação, não basta localizar uma conjunção. Identifique primeiro a função de cada segmento.
-
-> O plano prevê **a integração das bases**, **a revisão dos formulários** e **a auditoria dos dados**.
-
-Os três sintagmas são objetos diretos de *prevê*. Há coordenação porque ocupam a mesma posição sintática. Compare:
-
-> O plano prevê **a integração das bases**, **revisar os formulários** e **que os dados sejam auditados**.
-
-A frase continua compreensível, mas perde paralelismo ao combinar sintagma nominal, oração reduzida de infinitivo e oração desenvolvida. Em prova, verifique:
-
-1. qual termo rege a série;
-2. qual função cada membro exerce;
-3. se há preposição ou artigo compartilhado;
-4. se a forma verbal, a voz e o nível de abstração permanecem compatíveis.
-
-**Coordenação aparente** ocorre quando a conjunção liga unidades que parecem semelhantes, mas exercem funções diferentes. A correção depende da arquitetura completa, não do conector isolado.
-
-## 2. Coordenação entre termos
-
-Termos coordenados desempenham a mesma função em relação a outro elemento:
-
-| Exemplo | Unidades coordenadas | Função |
-| --- | --- | --- |
-| O auditor e a analista chegaram. | dois núcleos nominais | sujeito composto |
-| Revisou o relatório e a planilha. | dois sintagmas nominais | objetos diretos |
-| Agiu com cuidado e com rapidez. | dois sintagmas preposicionados | adjuntos adverbiais |
-| Parecer claro, conciso e fundamentado. | três adjetivos | adjuntos adnominais/predicativos conforme o contexto |
-
-Os membros podem ser palavras isoladas ou estruturas extensas. O essencial é equivalência funcional. Coordenar elementos de funções diferentes sem projeto discursivo claro produz quebra de paralelismo.
-
-### 2.1 Séries extensas, modificadores e escopo
-
-Membros coordenados podem conter estruturas internas complexas:
-
-> Participaram **os técnicos responsáveis pela extração dos dados** e **os auditores designados para validar a amostra**.
-
-Os núcleos *técnicos* e *auditores* coordenam-se como sujeito composto; cada núcleo conserva seus próprios modificadores. Pergunte sempre até onde vai cada membro da série.
-
-Em construções como “técnicos e auditores experientes”, o adjetivo pode alcançar os dois grupos ou apenas o segundo, conforme contexto e <abbr title="ritmo, acento e entonação da fala">prosódia</abbr>. A reescrita deve eliminar a ambiguidade quando ela for relevante:
-
-- **técnicos experientes e auditores experientes** — alcance sobre ambos;
-- **técnicos e auditores que sejam experientes** — alcance explicitado;
-- **técnicos e auditores experientes, respectivamente...** — distribuição indicada pelo contexto.
-
-A coordenação pode admitir leitura **coletiva** (“João e Maria carregaram a mesa”) ou **distributiva** (“João e Maria preencheram um formulário cada”). A presença de *cada*, *juntos*, *respectivamente* ou do contexto orienta a leitura.
-
-## 3. Coordenação entre orações
-
-### 3.1 Assindética
-
-Não apresenta conjunção coordenativa expressa:
-
-> A comissão reuniu os documentos, conferiu os dados, redigiu o parecer.
-
-A relação é inferida pela ordem, pelo contexto e pela pontuação. Vírgula, ponto e vírgula ou ponto podem separar as orações, com efeitos de ritmo e autonomia.
-
-#### Assíndeto e polissíndeto
-
-**Assíndeto** é a ausência deliberada de conectores entre membros coordenados:
-
-> Conferiu, corrigiu, publicou.
-
-**Polissíndeto** é a repetição expressiva do conector:
-
-> E conferiu, e corrigiu, e publicou.
-
-Os dois recursos preservam a coordenação, mas alteram ritmo, progressão e ênfase. A troca entre eles não é semanticamente neutra, embora os fatos básicos possam permanecer.
-
-### 3.2 Sindética
-
-Apresenta conectivo e recebe, na tradição escolar, cinco classificações:
-
-| Tipo | Relação predominante | Conectores frequentes |
-| --- | --- | --- |
-| aditiva | soma, continuidade ou associação | e, nem, não só... mas também |
-| adversativa | contraste, restrição, quebra de expectativa | mas, porém, contudo, todavia, entretanto |
-| alternativa | escolha, alternância, exclusão ou inclusão | ou, ora... ora, quer... quer |
-| conclusiva | inferência ou conclusão derivada | logo, portanto, por conseguinte, pois |
-| explicativa | justificativa de afirmação, ordem ou avaliação | porque, que, pois |
-
-O valor é contextual. O mesmo item lexical pode assumir funções distintas, e a substituição entre conectores pode mudar foco, força argumentativa ou pontuação.
-
-### 3.3 Coordenação dentro de estruturas subordinadas
-
-Coordenação e subordinação podem coexistir no mesmo período:
-
-> Espero **que a equipe revise o ato e que publique a retificação**.
-
-As duas orações introduzidas por *que* são coordenadas entre si; o bloco inteiro funciona como complemento de *espero*. Também é possível:
-
-> Espero **que a equipe revise o ato e publique a retificação**.
-
-A segunda oração compartilha o subordinador e o sujeito. Ao reescrever, preserve o número de núcleos verbais e a função externa do conjunto.
-
-### 3.4 Conjunção coordenativa e conector móvel
-
-Nem todos os articuladores adversativos ou conclusivos comportam-se como *mas*:
-
-| Propriedade | `mas` | `porém`, `contudo`, `entretanto`, `portanto` |
-| --- | --- | --- |
-| posição prototípica | início do segundo membro | maior mobilidade |
-| intercalação | muito restrita | frequente |
-| isolamento por vírgulas | não depois do vocábulo, salvo inciso | esperado quando intercalado |
-| combinação com `e` | pouco natural na mesma função | possível: `e, contudo`; `e, portanto` |
-
-> O pedido era regular, **mas** foi indeferido.  
-> O pedido era regular; foi, **contudo**, indeferido.  
-> O pedido era regular **e, contudo**, foi indeferido.
-
-Na última frase, *e* realiza a coordenação formal e *contudo* orienta argumentativamente o segundo segmento. A nomenclatura pode variar entre gramáticas; o comportamento sintático é o dado decisivo.
-
-## 4. Aditivas
-
-### 4.1 E
-
-Além de soma, **e** pode indicar:
-
-- sequência: “Recebeu o processo e iniciou a análise”;
-- consequência inferível: “Descumpriu o prazo e sofreu a sanção”;
-- contraste contextual: “Prometeu rapidez e demorou meses”;
-- reforço ou progressão: “Leu, releu e ainda conferiu os anexos”.
-
-A classificação formal continua aditiva em muitos exercícios, mas a relação de sentido pode ser mais específica. Trocar *e* por *mas* explicita contraste e altera o perfil argumentativo, mesmo quando a verdade básica das proposições permanece.
-
-### 4.2 Nem
-
-**Nem** adiciona elemento sob escopo negativo:
-
-> Não analisou a minuta nem consultou a área técnica.
-
-Pode equivaler aproximadamente a “e não”, mas foco, ritmo e alcance da negação devem ser conferidos. Em enumerações negativas, não se deve inserir uma negação independente que mude o escopo.
-
-### 4.3 Correlações aditivas
-
-Pares como **não só... mas também**, **não apenas... como também** e **tanto... como** articulam segmentos correspondentes. O segundo membro não é adversativo apenas por conter *mas*; o conjunto exprime adição enfática.
-
-### 4.4 Escopo da negação
-
-Compare:
-
-- **Não revisou nem publicou.** — a negação alcança os dois processos;
-- **Não revisou e publicou.** — a leitura mais imediata nega apenas *revisou*;
-- **Não só revisou, mas também publicou.** — a estrutura confirma os dois fatos e nega apenas a suficiência do primeiro;
-- **Não revisou o relatório ou a planilha.** — pode haver ambiguidade sobre o alcance de *não* e de *ou*.
-
-Trocar *nem* por *e não*, deslocar a negação ou alterar a ordem pode manter a correção e modificar foco, pressuposto ou alcance.
-
-### 4.5 Correlações ampliadas
-
-Além de *não só... mas também*, são frequentes:
-
-- **nem... nem**;
-- **ou... ou**;
-- **ora... ora**;
-- **quer... quer**;
-- **seja... seja**;
-- **tanto... quanto/como**;
-- **não apenas... como também**;
-- **não... mas sim / e sim**;
-- **bem como** e **assim como**.
-
-As correlações exigem correspondência de função, preposição, artigo, forma verbal, voz e nível semântico. Compare:
-
-> Inadequado: mostrou interesse **em revisar o ato e pela publicação do resultado**.  
-> Adequado: mostrou interesse **na revisão do ato e na publicação do resultado**.
-
-## 5. Adversativas
-
-Adversidade pode ser contraste, restrição, compensação ou quebra de expectativa, não necessariamente contradição lógica:
-
-> O relatório é curto, mas contém todas as evidências necessárias.
-
-**Mas** tende a ocupar o início do segundo segmento. **Porém, contudo, todavia** e **entretanto** admitem maior mobilidade:
-
-> O relatório, contudo, contém ressalvas.  
-> O relatório contém, contudo, ressalvas.
-
-Na nomenclatura escolar, todos figuram como conjunções adversativas. Abordagens descritivas podem tratar os itens móveis como advérbios ou conectores. Em prova, observe a terminologia do comando e, sobretudo, o comportamento sintático.
-
-### Adversidade e concessão
-
-Compare:
-
-- “Chovia, **mas** a equipe saiu.” — coordenação adversativa;
-- “**Embora** chovesse, a equipe saiu.” — subordinação concessiva.
-
-Ambas constroem quebra de expectativa, mas a arquitetura e o foco mudam. Reescrever uma pela outra exige ajustar ordem, verbo e pontuação.
-
-## 6. Alternativas
-
-**Ou** pode exprimir:
-
-- exclusão: “Ou protocola hoje, ou perde o prazo”;
-- inclusão: “Podem participar servidores ou empregados públicos”;
-- equivalência/retificação: “A impessoalidade, ou ausência de favorecimento, orienta o ato”;
-- hipótese: “Ou muito me engano, ou o dado está incorreto”.
-
-A exclusividade não está na palavra isolada; decorre do contexto. **Ora... ora** e **quer... quer** marcam alternância e exigem correspondência estrutural entre os membros.
-
-## 7. Conclusivas
-
-A oração conclusiva apresenta inferência, resultado discursivo ou conclusão construída a partir do segmento anterior:
-
-> Os requisitos foram cumpridos; portanto, o pedido pode ser deferido.
-
-*Logo*, *portanto*, *por conseguinte* e *assim* são conectores frequentes. A conclusão pode ser lógica, provável ou argumentativa; o conector não garante que a inferência seja verdadeira.
-
-### Pois conclusivo
-
-O **pois** conclusivo aparece tipicamente deslocado, depois do verbo ou no fim:
-
-> Os requisitos foram cumpridos; o pedido pode, pois, ser deferido.  
-> Os requisitos não foram cumpridos; o pedido será indeferido, pois.
-
-Quando intercalado, fica isolado por vírgulas. Sua posição ajuda a distingui-lo do *pois* explicativo.
-
-## 8. Explicativas e a fronteira com causa
-
-A explicativa justifica um ato de fala, uma ordem, uma recomendação ou uma avaliação:
-
-> Confira os anexos, porque há divergências.  
-> Não encerre o processo, pois falta uma assinatura.
-
-A causal subordinada apresenta uma circunstância causal integrada ao fato:
-
-> O processo atrasou porque faltava uma assinatura.
-
-Um teste útil, não absoluto, é perguntar: o segundo segmento causa o acontecimento descrito ou justifica por que o enunciador fez a afirmação/ordem? Imperativos favorecem a leitura explicativa. *Porque* e *pois* não carregam classificação fixa fora do contexto.
-
-### Explicação e conclusão
-
-> Não saia, **pois** está chovendo. — a chuva justifica a ordem.  
-> Está chovendo; não sairei, **pois**. — a decisão é apresentada como conclusão.
-
-Posição, pontuação e relação argumentativa atuam em conjunto.
-
-### 8.1 Explicação, causa e conclusão: quadro de decisão
-
-| Pergunta | Tendência |
+| Construção | Unidades ligadas e função |
 | --- | --- |
-| O segundo segmento provoca o fato descrito? | causa subordinada |
-| Justifica por que o enunciador afirmou, avaliou ou ordenou algo? | explicação coordenada |
-| Pode ser deslocado como circunstância do evento? | favorece leitura causal |
-| Fundamenta uma ordem, conselho ou avaliação? | favorece leitura explicativa |
-| `pois` aparece depois do verbo ou no fim? | favorece leitura conclusiva |
+| **O auditor e a analista** chegaram. | Dois núcleos formam o **sujeito composto**: declara-se de ambos que chegaram. |
+| A equipe agiu **com cuidado e com rapidez**. | Duas circunstâncias de modo: **adjuntos adverbiais**. |
+| Apresentou um relatório **claro e conciso**. | Características ligadas diretamente ao nome *relatório*: **adjuntos adnominais**. |
+| O relatório é **claro e conciso**. | Características atribuídas ao sujeito por meio de *é*: **predicativos do sujeito**. |
 
-### 8.2 Reescrita entre coordenação e subordinação
+Em séries extensas, delimite os grupos inteiros: “Participaram **os técnicos responsáveis pela coleta** e **os auditores designados para a validação**”. Não são apenas as palavras vizinhas de *e* que se coordenam.
 
-| Coordenação | Reescrita aproximada | Efeito possível |
-| --- | --- | --- |
-| Chovia, mas saí. | Embora chovesse, saí. | contraste passa a circunstância concessiva |
-| Cumpriu os requisitos; portanto, será admitido. | Como cumpriu os requisitos, será admitido. | conclusão passa a causa explícita |
-| Estude e passará. | Se estudar, passará. | consequência implícita passa a condição |
-| Não saia, pois chove. | Como chove, não saia. | justificativa passa a causal anteposta |
+## 2. Independência sintática não é isolamento de sentido
 
-A reescrita pode preservar a proposição central e alterar hierarquia, foco, pressuposto, ordem argumentativa, forma verbal e pontuação.
+> A equipe concluiu a revisão, mas ainda não publicou a nota.
 
-## 9. Pontuação das coordenadas
+A segunda oração não completa um termo da primeira: acrescenta uma afirmação contrastante. A independência é **sintática**, não ausência de relação de sentido. Para compreender o contraste, precisamos relacionar concluir a revisão e não publicar a nota.
 
-### 9.1 Assindéticas
+### Com ou sem conjunção
 
-Orações assindéticas normalmente se separam por vírgula. Ponto e vírgula é útil em segmentos extensos, internamente pontuados ou contrastivos.
+A **conjunção coordenativa** realiza essa ligação, como *e*, *mas* e *ou*. A oração é **assindética** quando não vem introduzida por conjunção coordenativa; é **sindética** quando vem introduzida por ela.
 
-### 9.2 Mas e correlativas
+> A equipe recebeu os autos, conferiu os anexos e iniciou a revisão.
 
-Em oração adversativa, usa-se vírgula antes de **mas**:
+Na análise tradicional, *A equipe recebeu os autos* e *conferiu os anexos* são coordenadas assindéticas; *e iniciou a revisão* é sindética <abbr title="que acrescenta informação à anterior">aditiva</abbr>. **Um único *e* não torna todas as orações sindéticas.**
 
-> O texto estava correto, mas precisava de concisão.
+A omissão expressiva de conectivos chama-se **assíndeto**: “Recebeu, conferiu, revisou” pode acelerar a sequência. A repetição deliberada é **polissíndeto**: “E recebeu, e conferiu, e revisou” destaca cada ação. Os fatos podem permanecer, mas ritmo e ênfase mudam.
 
-Não se põe vírgula imediatamente depois de *mas* sem elemento intercalado. Em **não só... mas também**, a construção é correlativa aditiva; a pontuação depende da extensão e da estrutura dos membros, não da regra aplicada mecanicamente ao *mas* adversativo.
+### Coordenadas entre si, subordinadas a outro termo
 
-### 9.3 E
+Na **subordinação**, uma unidade integra outra construção, completando ou modificando um de seus termos:
 
-Na coordenação simples, normalmente não se usa vírgula antes de **e**:
+> Espero **que a equipe revise o relatório e que publique a nota**.
 
-> A equipe conferiu os dados e publicou o resultado.
+Espero **o quê**? O bloco destacado ocupa o lugar de *isso*, complemento de *espero*. Suas duas orações são **subordinadas substantivas objetivas diretas**, pois exercem função de objeto direto, mas **coordenadas entre si**. Ambas dependem de *espero*, não uma da outra. Incluindo a oração de *espero*, há três no período.
 
-A vírgula pode ser justificada quando há sujeitos distintos, valor contrastivo, repetição enfática, segmentos longos ou intercalação:
+Em “A equipe decidiu **revisar o relatório e publicar a nota**”, *revisar* e *publicar* estão no **infinitivo**, forma verbal que não situa o processo, por si só, no tempo. São orações **reduzidas de infinitivo**, sem a estrutura desenvolvida com <abbr title="palavra que introduz uma oração com função de substantivo, como que ou se">conjunção integrante</abbr> e <abbr title="verbo com marca de pessoa, número, tempo ou modo">verbo flexionado</abbr>, como *que revise*. Coordenam-se dentro do complemento de *decidiu*; não formam com ele uma única locução verbal.
 
-> O prazo terminou, e a comissão ainda não recebeu os documentos.  
-> E explica, e exemplifica, e revisa cada ponto.
+O mecanismo também aparece em “os servidores **que conferem os anexos e revisam os relatórios**”: *que* retoma *servidores*, e as duas atividades compõem sua caracterização. **Dependência externa e coordenação interna podem coexistir.** As demais classificações das subordinadas pertencem ao assunto 010.
 
-Sujeitos distintos permitem a vírgula em muitos contextos, mas não a tornam obrigatória em qualquer frase. A decisão considera clareza, extensão e risco de leitura equivocada.
+## 3. As cinco relações da coordenação
 
-### 9.4 Conectores móveis
+### 3.1 Aditivas: acrescentar informação
 
-*Porém, contudo, todavia, entretanto* e conclusivos deslocados tendem a ser isolados:
+“A equipe revisou o relatório **e** publicou a nota” soma fatos. *Nem* acrescenta informação negativa: “Não revisou o relatório **nem** publicou a nota”.
 
-> A medida, contudo, não resolveu o problema.  
-> O prazo acabou; a inscrição, portanto, não será aceita.
+A soma pode adquirir sentidos específicos: “Recebeu os autos **e** iniciou a revisão” sugere sequência; “Descumpriu o prazo **e** sofreu a sanção”, consequência; “Prometeu rapidez **e** demorou meses”, contraste. **O valor contextual de *e* não se reduz à soma neutra.** Distinga o comando que pergunta pela forma aditiva daquele que pede o sentido, inclusive seu emprego com valor adversativo.
 
-### 9.5 Limites gerais
+Ligações em pares são **correlações**: *não só… mas também*, *não apenas… como também*, *tanto… quanto/como*. Em “Não só revisou o relatório, mas também publicou a nota”, **ambos os fatos são afirmados**: nega-se que tenha ocorrido *somente* o primeiro. Trocar a correlação por *e* pode manter os fatos, mas reduzir a ênfase.
 
-Não se usa vírgula, sem motivo independente, entre sujeito e predicado, verbo e complemento ou nome e complemento. A presença de termos coordenados não autoriza quebrar essas relações.
+*Bem como* e *assim como* também podem somar: “O plano prevê a revisão dos formulários, bem como a conferência dos anexos”. Não são invariavelmente comparativos: veja se o texto acrescenta elementos ou compara sua realização.
 
-## 10. Paralelismo
+### 3.2 Adversativas: contrariar uma expectativa ou corrigir uma ideia
 
-### 10.1 Sintático
+> O relatório é curto, **mas** contém todas as informações necessárias.
 
-Membros coordenados devem ter construção compatível:
+Ser curto não contradiz conter as informações. *Mas* contraria a expectativa de insuficiência. A relação adversativa pode expressar **contraste, restrição, ressalva ou quebra de expectativa**, não apenas oposição entre palavras. *Porém*, *contudo*, *todavia*, *entretanto* e *no entanto* também articulam contraste.
 
-> Inadequado: A equipe pretende **revisar o texto, a entrega do relatório e protocolar o recurso**.  
-> Adequado: A equipe pretende **revisar o texto, entregar o relatório e protocolar o recurso**.
+“Não foi atraso, **mas sim** erro de cadastro” corrige a primeira hipótese: há **retificação**, não soma. A construção *não… e sim* pode produzir a mesma correção. Já “O relatório tem méritos, **mas também** apresenta falhas” pode contrapor uma ressalva à avaliação favorável: *também* depois de *mas* não cria automaticamente uma correlação aditiva.
 
-No primeiro exemplo, coordenam-se infinitivo, sintagma nominal e infinitivo. A versão corrigida usa três orações reduzidas de infinitivo paralelas.
+### 3.3 Alternativas: apresentar possibilidades
 
-### 10.2 Semântico
+*Ou* liga termos ou orações; a possibilidade de combinar as alternativas depende do contexto:
 
-Estruturas formalmente semelhantes também precisam pertencer a uma série coerente. “O projeto exige planejamento, transparência e amanhã” quebra a compatibilidade semântica.
+| Situação | Leitura |
+| --- | --- |
+| Escolha uma única modalidade: **ou** entregue pessoalmente, **ou** envie pelo sistema. | **Exclusiva**: escolher uma exclui a outra. |
+| Envie a identidade **ou** o passaporte; qualquer um basta, e ambos são aceitos. | **Inclusiva**: um basta, sem proibir os dois. |
+| **Ora** conferia os anexos, **ora** revisava o relatório. | Alternância entre atividades. |
 
-Correlações exigem simetria:
+*Quer… quer* e *seja… seja* também apresentam possibilidades: “Quer por escrito, quer oralmente, a informação deve ser clara”; “Seja simples, seja complexo, o pedido será analisado”. No segundo exemplo, a análise vale para qualquer das hipóteses.
 
-> Não apenas **revisou o ato**, mas também **justificou a decisão**.
+Nem todo *ou* propõe escolha. Em “A elipse, **ou omissão de um termo recuperável**, evita repetição”, reformula-se o termo anterior. Em “Ou muito me engano, ou o dado está incorreto”, a alternativa hipotética funciona como ressalva à afirmação.
 
-## 11. Elipse, zeugma e anacoluto
+### 3.4 Conclusivas: tirar uma conclusão do que foi dito
 
-**Elipse** é omissão recuperável pelo contexto. **Zeugma** é a omissão de termo já expresso:
+> Todos os anexos foram conferidos; **portanto**, podemos encerrar esta etapa.
+
+A direção é **fundamento → conclusão**. Ela aparece com *portanto*, *logo*, *por conseguinte*, *por isso* e, conforme o contexto, *assim* e *então*. Não basta uma ação vir depois: deve ser apresentada como decorrência da anterior.
+
+“Organizou os dados **assim**” indica modo; “Os dados já estavam organizados; **assim**, a consulta foi rápida” apresenta uma decorrência. O conector sinaliza a conclusão pretendida, mas não garante sua validade: uma conclusão sem fundamento continua sem fundamento.
+
+### 3.5 Explicativas: justificar uma afirmação, um conselho ou uma ordem
+
+> Não encerre a revisão, **pois** falta uma assinatura.
+
+A falta da assinatura justifica a orientação. A direção é **orientação → justificativa**, não fundamento → conclusão. *Pois*, *porque*, *que* e *porquanto* podem introduzir explicação: “Confira os anexos, **que** há divergências”.
+
+Compare com “A revisão parou **porque faltava uma assinatura**”. Aqui, a falta é apresentada como causa da paralisação: uma **oração subordinada adverbial causal**. Na explicativa, justifica-se o ato de dizer algo; na causal, indica-se o motivo do fato descrito. Uma ordem no <abbr title="modo verbal usado para dar ordens, pedidos ou conselhos">imperativo</abbr> favorece a primeira leitura, sem constituir teste infalível.
+
+A explicação também sustenta afirmações: “Alguém deve ter chegado, porque a luz está acesa”. A luz é indício da chegada, não aquilo que a provocou. **Conector e vírgula, sozinhos, não decidem a fronteira**; há casos dependentes da interpretação e da perspectiva gramatical adotada.
+
+### *Pois*: posição e sentido juntos
+
+> Não encerre a revisão, **pois falta** uma assinatura.  
+> A assinatura foi obtida; a revisão **pode, pois,** ser encerrada.
+
+No primeiro, *pois* introduz a justificativa: é explicativo. No segundo, aparece depois do verbo e equivale a *portanto*: é conclusivo, isolado por vírgulas. Também pode encerrar a oração: “A assinatura foi obtida; encerraremos a revisão, **pois**”.
+
+O *pois* conclusivo não tem a mesma liberdade de *portanto* para iniciar a oração, nem pode ser substituído por *porque*. **Identifique a direção do raciocínio e use a posição para confirmar a análise.**
+
+## 4. Mesmo sentido, comportamentos diferentes
+
+**Conector** é o nome amplo de um elemento que articula partes do texto. Nem todo conector se comporta como *mas*:
+
+> O relatório é curto, **mas** está completo.  
+> O relatório é curto; está, **contudo**, completo.  
+> O relatório é curto **e, contudo,** está completo.
+
+*Mas* inicia o segundo membro; não se desloca livremente para depois de *está*. *Contudo* pode ser intercalado e combinar-se com *e*: este liga as orações; aquele explicita o contraste.
+
+A tradição escolar inclui *porém*, *contudo* e *portanto* entre as conjunções; outras análises os tratam como <abbr title="advérbios que articulam relações entre partes do texto">advérbios conectivos</abbr>, considerando sua mobilidade. **A classificação pode variar sem eliminar o contraste ou a conclusão.** Siga a perspectiva solicitada no comando.
+
+Em “O relatório é curto. **Porém**, está completo”, o ponto cria outro período. A relação de sentido permanece, mas já não se trata de duas orações dentro do mesmo período.
+
+## 5. Escopo: até onde a informação alcança?
+
+**Escopo** é o alcance de uma expressão: quais elementos ficam sob seu efeito. “Técnicos e auditores experientes participaram” pode qualificar os dois grupos ou só os auditores. Para explicitar:
+
+- ambos: “Técnicos experientes e auditores experientes participaram”;
+- apenas a qualificação dos auditores: “Participaram técnicos; também participaram auditores experientes”.
+
+Trocar *experientes* por *que sejam experientes* pode manter a ambiguidade. A reescrita precisa resolver a ligação, não apenas alongar a expressão.
+
+A distribuição da ação também importa. “João e Maria carregaram a mesa **juntos**” explicita leitura **coletiva**, de ação conjunta; “João e Maria preencheram um formulário **cada**” explicita leitura **distributiva**, aplicada separadamente a cada pessoa. *Respectivamente* relaciona séries na mesma ordem: “Ana e Bruno revisaram o relatório e a planilha, respectivamente” associa Ana ao relatório e Bruno à planilha.
+
+Na negação, “Não revisou o relatório **nem** publicou a nota” nega ambos os fatos. “Não revisou o relatório **e publicou** a nota” admite negar só o primeiro. Já “Não revisou o relatório **e não** publicou a nota” volta a negar ambos: *nem* aproxima-se de *e não*, não de *e* sozinho. A equivalência ainda exige conferir ênfase e contexto.
+
+“Não revisou o relatório **ou** a planilha” pode deixar incerto se nenhum foi revisado ou se um ficou sem revisão. Conforme a intenção, explicite “Não revisou nenhum dos dois” ou “Revisou apenas um dos dois”.
+
+## 6. Paralelismo: tornar visível a equivalência
+
+**Paralelismo sintático** é a correspondência de construção entre os membros de uma série. Compare:
+
+> O plano prevê **a integração das bases, revisar os formulários e que os dados sejam auditados**.  
+> O plano prevê **a integração das bases, a revisão dos formulários e a auditoria dos dados**.
+
+A primeira mistura uma <abbr title="grupo de palavras organizado em torno de um nome">expressão nominal</abbr>, um infinitivo e uma oração com *que*. A segunda apresenta as três medidas de forma paralela, facilitando perceber o que se liga ao quê. Nas correlações, alinhe os marcadores: “Pretende **não apenas revisar o relatório, mas também publicar a nota**” mantém dois infinitivos com seus complementos.
+
+**Diferença formal não é automaticamente erro.** “Agiu **com cuidado e rapidamente**” coordena uma expressão com <abbr title="palavra que liga um termo a outro, como de, em ou com">preposição</abbr> e um <abbr title="palavra que, neste emprego, indica o modo da ação">advérbio</abbr>, ambos indicando modo. Orações coordenadas podem ter sujeitos, tempos e <abbr title="formas de apresentar a relação entre o sujeito e a ação verbal">vozes verbais</abbr> diferentes. Quando se busca uniformidade, “O relatório foi revisado, publicado e arquivado” mantém três <abbr title="formas verbais como revisado, publicado e arquivado">particípios</abbr> na <abbr title="construção em que o sujeito recebe a ação verbal">voz passiva</abbr>.
+
+A **regência** é a exigência de complemento por um termo, com ou sem <abbr title="palavra que liga um termo a outro, como de, em ou com">preposição</abbr>. Em “Precisa **de revisar o texto e conferir os anexos**”, *de* pode ser compartilhado; repeti-lo antes de *conferir* explicita os limites, sem ser sempre obrigatório. Não apague exigências diferentes: “Revisou o relatório e discordou **dele**” preserva o complemento direto de *revisou* e o complemento com *de* de *discordou*.
+
+O **paralelismo semântico** diz respeito à coerência da série. “O projeto prevê equipamentos, treinamento e economia de recursos” mistura meios e resultado. Para distinguir essas relações: “O projeto prevê equipamentos e treinamento para economizar recursos”. Não se proíbe coordenar coisas diferentes; exige-se uma relação de sentido identificável.
+
+## 7. Pontuação e omissões: mostrar a estrutura
+
+Termos ou orações coordenados sem conjunção separam-se por vírgulas: “Recebeu, conferiu, revisou”. O **ponto e vírgula** reforça a separação, sobretudo com vírgulas internas: “A primeira equipe, após a reunião, revisou o relatório; a segunda conferiu os anexos”.
+
+Na adversativa, a vírgula vem **antes de *mas***: “O relatório estava correto, mas precisava de concisão”. Não se escreve “mas, precisava” sem motivo independente. Em “mas, segundo a analista, precisava”, o par de vírgulas isola o comentário; retirando-o, resta *mas precisava*. Conectores intercalados também ficam isolados: “O relatório, **contudo**, contém ressalvas”.
+
+### A vírgula antes de *e*, *ou* e *nem*
+
+Na enumeração simples, normalmente não se separa o último elemento ligado por *e*, *ou* ou *nem*: “Revisou relatórios, planilhas e notas”. Com duas orações curtas de mesmo sujeito, o padrão também é sem vírgula: “A equipe revisou o relatório e publicou a nota”.
+
+A vírgula antes de *e* pode ser justificada por sujeitos diferentes e necessidade de clareza — “A equipe conferiu os anexos, e o relatório ficou para depois” —, contraste destacado ou repetição enfática, como no polissíndeto. **Sujeitos diferentes não tornam a vírgula obrigatória em qualquer construção.**
+
+Nas correlações, examine o conjunto: “Ou envia hoje, ou perde o prazo” separa alternativas; em *não só… mas também*, a pontuação acompanha a estrutura e a extensão da série, não uma oposição automaticamente criada por *mas*.
+
+### Omissão recuperável não é ruptura
 
 > A analista revisou o relatório; o auditor, a planilha.
 
-A vírgula marca a omissão de “revisou”. Isso preserva concisão e paralelismo.
+Recupera-se *revisou* depois de *o auditor*. A omissão recuperável é **elipse**; quando o elemento já apareceu, é **zeugma**. A vírgula marca aqui o verbo omitido. Não invente um verbo apenas porque há *e*: em *revisou o relatório e a planilha*, ambos os objetos já se ligam ao verbo expresso.
 
-**Anacoluto** é ruptura entre um tópico inicial e a construção subsequente: “Esses processos, precisamos revisá-los hoje.” Não se confunde com sujeito separado do predicado; o termo inicial fica destacado e retomado. Seu uso exige análise contextual e não serve como justificativa automática para qualquer vírgula.
+No **anacoluto**, a construção iniciada é abandonada, deixando um termo sem função na estrutura seguinte: “Esses processos, a equipe precisa de mais tempo”. Já “Esses processos, precisamos revisá-los” admite análise de **objeto direto pleonástico**: o complemento antecipado é retomado por *-los*. Não classifique toda antecipação como anacoluto só porque há vírgula.
 
-## 12. Orações reduzidas e coordenação interna
+Sem omissão ou trecho intercalado que justifique o sinal, não separe sujeito e verbo, verbo e complemento ou nome e complemento: “Os documentos solicitados chegaram”; “Revisou os documentos”; “A necessidade de revisão era evidente”. O assunto 011 desenvolve as demais regras de pontuação.
 
-Em “O gestor decidiu **revisar o ato e publicar a retificação**”, as duas orações reduzidas de infinitivo são coordenadas entre si e, como conjunto, completam *decidiu*. Coordenação interna e dependência externa podem coexistir.
+## 8. Reescrita: manter os fatos não é manter tudo
 
-Ao reescrever, preserve:
+> Chovia, **mas** a equipe saiu.  
+> **Embora chovesse**, a equipe saiu.
 
-- número e função das unidades coordenadas;
-- relação semântica do conector;
-- paralelismo;
-- regência e concordância;
-- escopo da negação;
-- pontuação e foco argumentativo.
+Ambas preservam a saída apesar da chuva. A primeira coordena afirmações; a segunda subordina a chuva como circunstância que não impediu a saída, uma **concessão**. A troca exige reorganizar e usar *chovesse*, no <abbr title="modo verbal exigido aqui pela construção concessiva com embora">subjuntivo</abbr>. *Conquanto* também introduz concessão: não substitui mecanicamente *mas* em qualquer posição.
 
-### 12.1 Coordenação distributiva, coletiva e agrupamento
+Em “Estude **e** passará”, a orientação seguida da promessa favorece condição e resultado. “**Se estudar**, passará” explicita a condição, mas troca coordenação por subordinação e deixa de formular diretamente a ordem. Na passagem de “Cumpriu os requisitos; portanto, foi admitido” para “Como cumpriu os requisitos, foi admitido”, a conclusão passa a ser estruturada com uma causa colocada antes do fato explicado.
 
-A coordenação não determina sozinha se o predicado se aplica ao grupo como unidade ou a cada membro:
-
-- **A comissão e a empresa assinaram o acordo.** — leitura coletiva possível;
-- **A comissão e a empresa apresentaram um relatório cada.** — leitura distributiva;
-- **Técnicos e auditores experientes participaram.** — possível ambiguidade de alcance de *experientes*.
-
-Em questões de reescrita, verifique se expressões como *cada*, *juntos*, *respectivamente*, *ambos* ou a repetição do modificador preservam a leitura original.
-
-## 13. Roteiro de análise
-
-1. Localize verbos e locuções para delimitar orações.
-2. Identifique quais unidades o conector liga.
-3. Verifique se exercem a mesma função ou se uma integra a outra.
-4. Classifique a relação pelo contexto, não pelo conector isolado.
-5. Examine posição e mobilidade do conectivo.
-6. Confira paralelismo, escopo e pontuação.
-7. Em reescrita, compare sentido e arquitetura sintática.
+Avalie **quais unidades se ligam, que relação constroem e quais elementos alcançam**; depois confira as exigências da nova construção e a pontuação. Correção gramatical, fatos centrais, ênfase e direção do argumento são aspectos diferentes da equivalência.
