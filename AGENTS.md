@@ -125,6 +125,8 @@ Como heurística, não como template obrigatório:
 
 A disciplina e o assunto determinam a estratégia. Não copie mecanicamente a estrutura de outro capítulo, ainda que ele tenha sido bem revisado.
 
+Em teorias, escolas e autores, quando útil, organize por **problema → contribuição/lente → impacto → limite → contraste**. Em assunto normativo ou técnico, construa o mecanismo, a decisão ou o fluxo antes de detalhar a regra, preservando literalidade e exceções.
+
 ### Abertura
 
 O início deve reduzir desorientação. Priorize uma ideia central, pergunta, contraste, fluxo ou pequeno cenário. Evite abrir rotineiramente com uma página de:
@@ -188,10 +190,33 @@ A divisão em assuntos deve evitar duplicação, mas cada capítulo precisa ser 
 
 Remissões limitam aprofundamento; não terceirizam entendimento. Quando dois capítulos dependem um do outro, construa pontes curtas e coerentes.
 
+### Siglas, termos e microglossário com `abbr`
+
+O leitor não precisa memorizar uma sigla para conseguir continuar a leitura. Use o recurso já suportado pelo projeto: `<abbr title="significado breve">expressão</abbr>`. A ajuda deve estar disponível no ponto de uso, não apenas na primeira definição ou quando ela estiver distante.
+
+- **Siglas e abreviaturas técnicas ou institucionais:** marque cada ocorrência no texto didático renderizado, inclusive em listas e tabelas, mesmo quando a expansão já apareceu ou está próxima. O `title` contém a expansão por extenso correspondente ao contexto; respeite singular/plural e não reúna significados alternativos incompatíveis.
+- **Termos técnicos, jargões, latinismos e estrangeirismos:** quando usados antes de serem explicados ou sem desenvolvimento neste capítulo, acrescente microdescrição a cada ocorrência nessa condição. Depois de ensinados, reapresente a ajuda em retomadas distantes e trechos consultáveis isoladamente quando útil. Não marque palavras comuns indiscriminadamente.
+- **Microdescrição:** use uma expressão ou frase curta, correta, contextual e compreensível sem outro termo ainda desconhecido. Não escreva um segundo capítulo no `title`, não repita apenas o termo e não crie cadeias de siglas inexplicadas. A descrição deve ter o mesmo suporte factual da explicação no corpo.
+- **Apoio, não substituição:** conceitos centrais e pré-requisitos indispensáveis continuam explicados no corpo antes de serem exigidos. O `abbr` não autoriza introduzir jargão cedo, suprimir a ponte mínima, esconder exceções ou terceirizar a aula para interações. O núcleo do capítulo deve ser compreensível também na leitura sem a ajuda e na impressão.
+- **Consistência canônica:** mantenha a expansão e o sentido corretos para todos os consumidores da origem. Sigla ambígua exige interpretação contextual, não substituição global cega.
+- **Marcação:** escreva `title="..."` não vazio e feche `</abbr>`. Use texto simples no atributo, sem Markdown, HTML, URLs ou LaTeX; escape aspas internas e caracteres especiais quando necessário. Não aninhe `abbr`, não o coloque dentro de links/controles interativos e não adicione scripts, estilos ou atributos de interação: o projeto cuida do comportamento.
+- **Limites de edição:** não insira marcação em frontmatter, identificadores, destinos de links, código, fórmulas ou campos que exigem texto puro. Preserve a literalidade de transcrições e não acrescente pistas que revelem respostas de questões. Nos outros artefatos, aplique a regra apenas se sua edição e seu formato permitirem; a regra não amplia o escopo da campanha.
+
+Exemplos de autoria:
+
+```html
+<abbr title="Estrutura Analítica do Projeto">EAP</abbr>
+<abbr title="Remissão a um elemento anterior do texto">anáfora</abbr>
+```
+
+O uso para termos não abreviados é uma convenção editorial local de microglossário que aproveita o componente existente, não a semântica padrão do elemento HTML `abbr`, destinada a abreviações e siglas. Não altere a infraestrutura para aplicar esta orientação.
+
 ### Densidade e tempo de estudo
 
 - Não há tamanho mínimo ou máximo arbitrário.
 - Não aumente o arquivo por padrão.
+- Crescimento líquido relevante exige dívida pedagógica real e ganho proporcional de aprendizagem ou precisão; uma revisão longa não é precedente para expandir as seguintes.
+- Ao comparar tamanho, separe texto visível, marcação e microdescrições. Mais HTML não significa, por si só, mais tempo de leitura; isso não autoriza inflar os textos de ajuda.
 - Remova repetição, metadiscurso, enumeração redundante e explicações que não pagam seu custo de leitura.
 - Não repita a arquitetura do cheat sheet com parágrafos entre os itens.
 - Preserve profundidade necessária para a prova, mas destaque a trilha essencial e deixe detalhes progressivamente navegáveis.
@@ -216,6 +241,8 @@ Antes de considerar o conteúdo pronto, verifique por leitura e comparação:
 
 - A ideia central aparece cedo?
 - Um iniciante entende os termos antes de depender deles?
+- Cada ocorrência de sigla tem expansão consultável, mesmo após a primeira definição?
+- Termos ainda não explicados têm microdescrição clara, sem substituir pré-requisitos no corpo?
 - A progressão constrói entendimento ou apenas acompanha a fonte?
 - O contexto incluído é funcional?
 - As distinções surgem de um critério compreensível?
@@ -278,7 +305,7 @@ Mega revisões seguem ADR-005 e ADR-007.
 - Use headings progressivos e títulos informativos.
 - Evite heading vazio, parágrafo excessivamente longo e fragmentos telegráficos sem função.
 - Use negrito com moderação e não como substituto de hierarquia.
-- Use `<abbr title="...">` apenas quando ajudar acessibilidade; não dependa de HTML arbitrário.
+- Aplique a seção “Siglas, termos e microglossário com `abbr`”; não dependa de HTML arbitrário.
 - Mantenha cercas de código, tabelas, links e fórmulas válidos.
 - Não use TODO, placeholder, fonte inventada, texto de bastidor ou instrução ao agente no conteúdo publicado.
 
@@ -292,7 +319,7 @@ Mega revisões seguem ADR-005 e ADR-007.
 6. Pesquise e revalide pontos materiais.
 7. Reestruture o texto inteiro quando necessário; não limite a revisão a acrescentar uma introdução “didática”.
 8. Atualize apenas os arquivos permitidos pela campanha.
-9. Revise manualmente frontmatter, Markdown, links, referências, cobertura, corte, origem canônica/local e escopo da mudança.
+9. Revise manualmente frontmatter, Markdown, links, referências, cobertura, corte, origem canônica/local, siglas, microdescrições e escopo da mudança.
 10. Antes de gravar, releia a issue e a `main`; confirme propriedade, concorrência e que a unidade ainda pode ser alterada.
 11. Grave diretamente na `main` com commit coerente e sem arquivos fora do escopo.
 12. Leia o arquivo novamente na `main` e confirme o commit resultante.
