@@ -76,7 +76,7 @@ A unidade de trabalho é o **assunto resolvido**, não cada aparição em catál
 
 Um assunto consumidor não pode misturar arquivos físicos com `vinculo.json`. Não use overrides ou cópias divergentes para contornar o vínculo. Se os escopos deixarem de ser equivalentes, trate a arquitetura explicitamente em vez de esconder a diferença no texto.
 
-A resolução de conteúdo deve usar os utilitários e contratos vigentes do projeto, especialmente `src/lib/subject-source.ts`, schemas e testes. Caminho aparente não substitui resolução.
+A resolução de conteúdo deve seguir os utilitários, schemas, catálogos e testes vigentes na `main`. Confirme o resolvedor efetivo antes de agir; nomes de arquivo não constituem contrato arquitetural. Caminho aparente não substitui resolução.
 
 ### Contrato dos artefatos
 
