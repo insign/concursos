@@ -8,487 +8,335 @@ storageId: coesao-textual
 
 # Coesão textual: referenciação, conectores e sequenciação
 
-O item 4.1 do edital cobra o emprego de mecanismos que tornam visíveis as relações entre palavras, orações, períodos e parágrafos. Em prova, isso aparece sobretudo em perguntas sobre o **referente** de pronomes e expressões nominais, o antecedente de pronomes relativos, a possibilidade de substituir uma forma, o valor e o alcance de um conector ou o efeito de retirar, deslocar e repetir termos.
+Considere o exemplo hipotético que servirá de fio condutor; os demais exemplos do capítulo também são construídos para fins didáticos:
 
-O ponto de partida é simples: um texto não é uma lista de frases corretas isoladamente. Para o leitor acompanhar o percurso das ideias, o texto precisa indicar de que ou de quem se fala, como uma informação se liga à seguinte e quando um tópico se mantém, se desenvolve ou muda.
+> O tribunal divulgou um relatório sobre as compras. **O documento** apontou falhas de planejamento; **por isso**, a comissão pediu revisão. **Essa medida**, **contudo**, não suspendeu os contratos.
 
-## 1. Coesão não é coerência
+Para compreender o trecho, o leitor faz operações que quase nunca percebe conscientemente:
 
-**Coesão** é a articulação linguística entre partes do texto, por marcas expressas ou por elementos recuperáveis pelo contexto. Pronomes, elipses, substituições, repetições lexicais e conectores são recursos coesivos porque ajudam o leitor a reconhecer relações textuais.
+- reconhece que `o documento` retoma e recategoriza `um relatório`;
+- entende que `essa medida` não aponta para uma palavra isolada, mas para o pedido de revisão;
+- lê `por isso` como passagem da falha para uma consequência;
+- lê `contudo` como quebra da expectativa de que a revisão suspendesse os contratos.
 
-**Coerência** é a possibilidade de construir um sentido global compatível com o contexto, o gênero e o propósito comunicativo. Ela depende das relações semânticas e pragmáticas entre as ideias, não apenas da presença de marcas linguísticas.
+Essas pistas formam a **coesão**: a rede de ligações que permite acompanhar referentes, relações e etapas do texto. Ela funciona como um sistema de navegação. A pergunta central não é apenas “qual palavra aparece?”, mas **o que ela liga, a que remete e que percurso de sentido constrói**.
 
-Compare:
+## 1. O texto precisa manter o fio e avançar
+
+A coesão cumpre duas tarefas complementares:
+
+1. **continuidade** — mantém acessíveis pessoas, objetos, fatos e tópicos já introduzidos;
+2. **progressão** — acrescenta informação e mostra como uma parte se relaciona com a seguinte.
+
+No exemplo inicial, `um relatório` → `o documento` mantém um objeto em foco; `por isso` e `contudo` fazem a argumentação avançar em direções diferentes.
+
+Uma sistematização clássica distingue **referência, substituição, elipse, conjunção e coesão lexical**. A lista é útil, mas não deve ser decorada como cinco gavetas independentes. Em um texto real, vários mecanismos trabalham juntos. A referenciação também pode ser observada como processo dinâmico: o texto introduz, mantém, transforma e abandona objetos de discurso conforme desenvolve o tópico.
+
+### Coesão e coerência
+
+**Coerência** é a possibilidade de construir um sentido global compatível com o contexto, o gênero e o propósito comunicativo. Coesão e coerência colaboram, mas não são sinônimas.
 
 > A reunião será em Brasília. Brasília é uma capital. Minha irmã mora em Brasília.
 
-Há repetição lexical e, portanto, ligação formal entre as frases. Ainda assim, a terceira frase não responde a uma necessidade criada pelas anteriores. A coesão existe, mas a progressão argumentativa é fraca; isso compromete a coerência do conjunto.
+A repetição de `Brasília` cria ligação lexical, mas as frases não compõem uma progressão pertinente sem contexto adicional. Inversamente, o leitor pode inferir relações não marcadas expressamente e ainda construir coerência. Por isso, a presença de pronome ou conector não garante, sozinha, que o conjunto faça sentido.
 
-Em contraste:
+Em itens de reescrita, verifique separadamente: correção gramatical, referente, relação de sentido, alcance, coerência e efeito argumentativo.
 
-> A reunião será em Brasília. **Por isso**, a equipe providenciou as passagens com antecedência.
+## 2. Cadeias referenciais: como o texto mantém seus objetos
 
-O conector apresenta uma relação de consequência e torna o encadeamento mais claro. Mas nem mesmo um conector correto garante, sozinho, que o texto inteiro seja coerente.
+Quando o texto fala de uma entidade pela primeira vez e depois volta a ela, forma-se uma **cadeia referencial**:
 
-### Regra de prova
+> **Uma comissão especial** examinou o processo. **O colegiado** ouviu os responsáveis. **Ele** aprovou o relatório.
 
-Quando uma alternativa disser que uma reescrita preserva a coesão, não conclua automaticamente que ela preserva também o sentido, a correção gramatical e a coerência. Cada efeito deve ser conferido separadamente.
+Há três movimentos:
 
-## 2. Dois modos complementares de observar a coesão
+- `uma comissão especial` **introduz** o objeto de discurso;
+- `o colegiado` o **mantém e recategoriza**, destacando sua natureza coletiva;
+- `ele` o **retoma** por pronome.
 
-Uma classificação muito usada distingue cinco mecanismos:
+O **referente** é a pessoa, objeto, fato, conceito ou porção de discurso a que uma expressão remete. O **antecedente** é a expressão textual que serve de pista para identificar esse referente em determinado caso. Os termos não são equivalentes: um pronome pode ter antecedente expresso, mas uma expressão também pode depender de conhecimento contextual ou retomar uma situação inteira.
 
-1. **referência**;
-2. **substituição**;
-3. **elipse**;
-4. **conjunção**;
-5. **coesão lexical**.
+### O antecedente não é escolhido apenas pela proximidade
 
-Nessa divisão, referência, substituição, elipse e conjunção formam mecanismos gramaticais; a coesão lexical resulta da seleção e da retomada de palavras. Em materiais de concurso, alguns desses recursos podem aparecer reunidos sob o rótulo amplo de **coesão referencial**. Isso não é motivo para decorar classificações incompatíveis: a questão decisiva é identificar o que a forma faz no texto.
+> A auditora apresentou o parecer à diretora. Em seguida, **ela** solicitou nova diligência.
 
-A Linguística Textual também trata a **referenciação** como processo dinâmico. O texto introduz, mantém, recategoriza e desenvolve objetos de discurso. Uma mesma entidade pode aparecer como `a auditora`, `a relatora`, `a servidora` e `ela`, desde que o contexto sustente cada escolha.
+`Ela` é compatível, em gênero e número, com `a auditora` e `a diretora`. O nome mais próximo não vence automaticamente. É necessário combinar:
 
-## 3. Referente, antecedente e cadeia referencial
+- concordância;
+- função e papel semântico, isto é, quem pode praticar ou sofrer a ação descrita;
+- compatibilidade com o predicado;
+- continuidade do tópico;
+- conhecimento ativado pelo contexto.
 
-O **referente** é a entidade, o fato, o conceito ou o segmento discursivo a que uma expressão remete. O **antecedente** é uma expressão textual que permite identificar esse referente em certos casos.
+Sem informação adicional, o exemplo é ambíguo. Se a precisão for necessária, a repetição controlada resolve: `Em seguida, a diretora solicitou nova diligência.` Em textos técnicos, repetir o termo certo pode ser melhor que variar por elegância.
 
-> O tribunal divulgou o relatório. **O documento** será analisado amanhã. **Ele** contém recomendações.
+O mesmo cuidado vale para possessivos:
 
-Nesse trecho, `o relatório`, `o documento` e `ele` participam de uma cadeia referencial. A segunda expressão recategoriza o relatório; a terceira o retoma por pronome.
+> A gerente informou à assessora que **seu relatório** seria revisto.
 
-Não trate antecedente e referente como sinônimos absolutos:
+`Seu` pode remeter à gerente ou à assessora. Se o relatório for da assessora, `o relatório da assessora` sacrifica concisão, mas fixa o referente.
 
-- o antecedente é uma pista textual para a interpretação;
-- o referente pode ser pessoa, objeto, ideia, situação ou oração inteira;
-- nem toda referência precisa de antecedente expresso no texto.
+## 3. Para trás, para a frente ou para fora do texto
 
-### Introdução, manutenção e recategorização
-
-Uma cadeia referencial costuma cumprir três movimentos:
-
-| Movimento | Exemplo | Efeito |
-| --- | --- | --- |
-| Introdução | `Uma comissão examinou o processo.` | Apresenta um objeto de discurso. |
-| Manutenção | `A comissão solicitou documentos.` | Mantém o tópico por repetição controlada. |
-| Recategorização | `O colegiado concluiu a análise.` | Retoma o mesmo referente sob outra designação pertinente. |
-
-Recategorizar não é trocar palavras ao acaso. `Comissão` e `colegiado` podem coincidir em determinado contexto; `comissão` e `empresa`, não. A relação precisa ser sustentada pelo texto e pelo conhecimento compartilhado pelo leitor.
-
-## 4. Endófora, exófora, anáfora e catáfora
-
-Quando a referência é feita dentro do texto, ela é **endofórica**. Quando depende da situação exterior ao texto, é **exofórica**.
-
-| Tipo | Direção ou dependência | Exemplo |
-| --- | --- | --- |
-| Endófora | Busca o referente no próprio texto. | `A auditora chegou. Ela iniciou a reunião.` |
-| Anáfora | Retoma elemento anterior. | `O parecer foi entregue. Ele será lido.` |
-| Catáfora | Antecipa elemento posterior. | `Só desejo isto: transparência.` |
-| Exófora | Depende da situação externa. | `Coloque isso ali.` |
-
-Anáfora e catáfora são formas de endófora. A primeira aponta para trás; a segunda, para frente.
+Quando a pista está no próprio texto, a referência é **endofórica**. Ela pode olhar para trás ou preparar algo que ainda virá. Quando depende da situação comunicativa externa, é **exofórica**.
 
 ### Anáfora direta
 
-> A diretora assinou o ato. **Ela** o publicou no diário oficial.
+Retoma um objeto já introduzido:
 
-`Ela` retoma `a diretora`; `o` retoma `o ato`. Há correferência direta e retrospectiva.
+> O parecer foi entregue. **Ele** será lido amanhã.
+
+`Ele` e `o parecer` apontam para o mesmo referente; há correferência.
 
 ### Anáfora indireta ou associativa
 
-Nem toda retomada repete ou recategoriza exatamente o mesmo referente:
+Ativa um referente novo por meio de uma **âncora** anterior:
 
 > A comissão entrou no prédio. **A recepção** estava vazia.
 
-`A recepção` não é outro nome para `o prédio`. O primeiro enunciado funciona como **âncora** para ativar um referente associado: prédios podem ter recepção. A ligação depende de conhecimento compartilhado e de inferência contextual.
-
-A anáfora indireta:
-
-- introduz um referente novo, mas interpretável a partir de uma âncora anterior;
-- não exige correferência literal;
-- pode apoiar-se em relações de parte e todo, instituição e setor, evento e participante ou cenário e elemento típico;
-- torna-se frágil quando a associação não é suficientemente disponível no contexto.
+`A recepção` não é outro nome para `o prédio`. O prédio funciona como âncora para que o leitor introduza uma parte ou setor tipicamente associado a ele. A interpretação depende de inferência e conhecimento compartilhado, não de repetição literal.
 
 ### Catáfora
 
-> **Esta** é a medida necessária: revisar o contrato.
+Anuncia um conteúdo que será especificado depois:
 
-`Esta` antecipa o conteúdo especificado depois dos dois-pontos. Em textos extensos, a catáfora pode preparar enumeração, explicação ou tese.
+> Só uma providência é indispensável: **reexaminar os contratos**.
+
+A expressão `uma providência` recebe conteúdo no segmento posterior. Demonstrativos também podem exercer essa função: `Isto é essencial: preservar as provas.`
 
 ### Exófora
 
-> Entregue **aqueles** documentos ao servidor da recepção.
+Aponta para a situação exterior ao texto:
 
-Sem situação compartilhada, o leitor não sabe quais documentos são `aqueles`. A expressão aponta para algo fora do texto. Em conversa presencial, isso pode bastar; em documento autônomo, pode prejudicar a precisão.
+> Deixe **estes documentos** **ali**.
 
-## 5. Formas de referência
+Sem ambiente compartilhado, gesto ou informação anterior, não se sabe quais documentos nem qual lugar. A construção pode funcionar numa interação presencial, mas é insuficiente em um documento que precise ser autônomo.
 
-### Referência pessoal
+| Funcionamento | Direção | Pergunta útil |
+| --- | --- | --- |
+| anáfora direta | para elemento anterior | as expressões apontam para o mesmo referente? |
+| anáfora indireta | para âncora anterior | que associação permite introduzir o novo referente? |
+| catáfora | para conteúdo posterior | que trecho completa a expressão ainda vaga? |
+| exófora | para a situação externa | que dado fora do texto é necessário? |
 
-É feita, entre outros meios, por pronomes pessoais, possessivos e formas de tratamento.
+Não aplique mecanicamente a fórmula `este = catáfora` e `esse = anáfora`. Demonstrativos podem retomar, antecipar ou apontar para a situação; a direção precisa ser demonstrada no contexto.
 
-> A relatora apresentou **seu** voto. **Ela** também propôs diligências.
+Expressões comparativas também orientam a cadeia. `O mesmo relatório` tende a preservar identidade; `outro relatório` introduz, em regra, exemplar diferente da mesma classe. Continuidade temática não significa correferência.
 
-Os possessivos exigem cuidado: `seu relatório` pode ser ambíguo se houver mais de uma pessoa possível no contexto. A troca por `o relatório da relatora` pode ser menos elegante, mas mais precisa.
+## 4. Repetir, recategorizar e resumir
 
-### Referência demonstrativa
+A coesão lexical mantém o tópico por escolhas vocabulares relacionadas. A melhor escolha depende do grau de precisão necessário.
 
-Demonstrativos como `este`, `esse`, `aquele`, `isto`, `isso` e `aquilo` podem retomar ou antecipar elementos do texto, além de apontar para a situação comunicativa.
+### Repetição pode ser funcional
 
-> A licitação foi anulada. **Essa decisão** gerou recurso.
+> O contrato define metas. **O contrato** estabelece indicadores. **O contrato** distribui responsabilidades.
 
-`Essa decisão` encapsula e retoma a proposição anterior. Não aplique mecanicamente a fórmula `este = catáfora` e `esse = anáfora`: a direção efetiva deve ser demonstrada pelo contexto.
+A repetição preserva o tópico e evita que `ele` seja confundido com `metas` ou `indicadores`. Só se torna defeituosa quando não há avanço informacional, produz monotonia evitável ou ocupa o lugar de uma relação que deveria ser explicitada.
 
-### Referência comparativa
+### Recategorização não é troca aleatória de sinônimos
 
-Expressões como `o mesmo`, `outro`, `semelhante`, `maior`, `menor`, `mais` e `menos` estabelecem identidade, diferença ou comparação.
+> O tribunal publicou o acórdão. **A Corte** esclareceu os fundamentos da decisão.
 
-> A segunda proposta adota **os mesmos** critérios da primeira.
+`Tribunal` e `Corte` podem designar a mesma instituição nesse contexto. A segunda expressão, porém, não precisa ser sinônimo perfeito em todos os usos; basta que a identidade referencial e a perspectiva escolhida sejam sustentadas pelo texto.
 
-`Os mesmos` cria uma relação de identidade comparativa. Já `outro relatório` normalmente introduz entidade distinta; a palavra `outro` não deve ser lida como simples retomada do relatório anterior.
+O mesmo cuidado vale para relações hierárquicas:
 
-### Pronomes relativos e antecedente exato
+> Foram examinados vários **documentos**: contratos, atas e termos aditivos.
 
-Pronomes relativos ligam orações e retomam um antecedente textual. Em prova, identifique simultaneamente o antecedente e a função desempenhada na oração relativa.
+`Documentos` é termo mais geral, um **hiperônimo**; os itens enumerados são **hipônimos** naquele recorte. Trocar o específico pelo geral pode apagar informação; trocar o geral pelo específico pode acrescentar algo que o texto não autorizou.
 
-> A comissão examinou **os documentos que continham ressalvas**.
+### Encapsulamento: retomar uma porção inteira
 
-O relativo `que` retoma `os documentos` e funciona como sujeito de `continham`.
+> A unidade não publicou os dados nem justificou a omissão. **Isso** comprometeu a transparência.
 
-> Foi aprovado **o procedimento ao qual a unidade aderiu**.
+`Isso` alcança o conjunto das duas condutas. Formas como `essa decisão`, `tal situação`, `esses fatos` e `diante desse quadro` transformam uma oração, uma sequência ou até vários parágrafos em objeto de comentário. São **encapsuladores**.
 
-`Ao qual` retoma `o procedimento`; a preposição `a` decorre da regência de `aderir a`.
+O encapsulador não é neutro. Compare:
 
-> A empresa **cujo contrato foi rescindido** apresentou recurso.
-
-`Cujo` liga `empresa` a `contrato` e expressa relação de posse; concorda com o termo posterior (`contrato`) e não admite artigo depois dele.
-
-> O setor **onde** ocorreu a inspeção foi interditado.
-
-`Onde` deve retomar lugar. Para antecedentes que não exprimem lugar, prefira formas como `em que`, `no qual` ou outra construção compatível.
-
-Para localizar o antecedente correto:
-
-1. não escolha automaticamente o nome mais próximo;
-2. confira gênero e número quando a forma os explicitar;
-3. reconstrua a função sintática na oração relativa;
-4. verifique a regência exigida;
-5. teste se a leitura resultante é semanticamente plausível.
-
-## 6. Referência, substituição e elipse
-
-Esses mecanismos se aproximam na leitura, mas não são idênticos.
-
-### Referência
-
-Na referência, uma forma direciona o leitor a um referente:
-
-> O parecer foi protocolado. **Ele** será distribuído aos conselheiros.
-
-O pronome `ele` aponta para o parecer. Em muitos materiais preparatórios, esse uso aparece como substituição pronominal; em classificação mais estrita, trata-se de referência. Em prova, verifique o efeito concreto: o pronome conserva o referente sem criar ambiguidade?
-
-### Substituição
-
-Na substituição, uma unidade linguística ocupa o lugar de outra:
-
-> Preciso de uma cópia do relatório. Você tem **uma**?
-
-`Uma` substitui `uma cópia do relatório`.
-
-> A comissão revisou os autos, e a relatora também **o fez**.
-
-`O fez` substitui a ação de revisar os autos.
-
-O teste útil é perguntar se a forma substituta ocupa o lugar de expressão recuperável e se a reescrita mantém estrutura e sentido.
-
-### Elipse
-
-A **elipse** é a omissão de termo que o leitor consegue recuperar com segurança:
-
-> A primeira equipe analisou contratos; a segunda, convênios.
-
-No segundo segmento, omite-se `analisou`. A elipse evita repetição e preserva a ligação entre os membros.
-
-Ela só funciona quando a recuperação é inequívoca. Se a omissão permitir duas leituras igualmente plausíveis, a economia produz ambiguidade, não coesão eficiente.
-
-## 7. Coesão lexical: repetir, variar e resumir
-
-Coesão lexical resulta das relações entre palavras escolhidas para manter e desenvolver o tópico. Repetir não é, por si, defeito. Em textos técnicos, repetir o termo nuclear pode impedir que pronome ou sinônimo gere dúvida.
-
-### Repetição lexical
-
-> O relatório apontou falhas. O relatório recomendou correções.
-
-A repetição mantém o foco em `relatório`. Ela se torna problemática apenas se não acrescentar informação, criar monotonia desnecessária ou ocupar o lugar de ligação mais precisa.
-
-### Sinonímia contextual
-
-> O tribunal divulgou o acórdão. A **Corte** esclareceu os fundamentos da decisão.
-
-`Tribunal` e `Corte` podem designar o mesmo referente naquele contexto. A equivalência deve ser contextual; não basta que duas palavras sejam aproximadamente parecidas em um dicionário.
-
-### Hiperonímia e hiponímia
-
-Um **hiperônimo** é mais geral; um **hipônimo** é mais específico.
-
-> Foram examinados diversos **documentos**: contratos, convênios e termos aditivos.
-
-`Documentos` é hiperônimo; `contratos`, `convênios` e `termos aditivos` são hipônimos. O termo geral pode abranger os específicos, mas não autoriza concluir que todos os documentos são contratos.
-
-### Termo geral e encapsulamento
-
-> A licitação foi anulada, houve recurso e o contrato foi revisto. **Esses fatos** exigiram nova análise.
-
-`Esses fatos` resume um conjunto de acontecimentos anteriores. Esse mecanismo também é chamado de encapsulamento: expressão nominal transforma trecho anterior em objeto de comentário.
-
-O encapsulador pode abranger:
-
-- uma oração;
-- vários períodos;
-- um parágrafo inteiro;
-- uma inferência construída a partir do bloco anterior.
-
-Por isso, a pergunta correta não é apenas “qual palavra ele substitui?”, mas “qual segmento ou situação ele transforma em referente?”.
+- `essa ocorrência` — designação relativamente descritiva;
+- `essa irregularidade` — já classifica negativamente o fato;
+- `essa fraude` — atribui categoria ainda mais específica e exige apoio no contexto.
 
 ### Nominalização
 
-> A comissão decidiu revisar o ato. **A decisão** exigirá prazo adicional.
+> A comissão decidiu suspender a contratação. **A decisão** surpreendeu os fornecedores.
 
-`A decisão` retoma o processo expresso por `decidiu revisar`. A nominalização favorece a continuidade temática, mas pode apagar nuances de agente, tempo, modalidade ou aspecto. Não é automaticamente equivalente a qualquer forma verbal.
+`A decisão` converte o processo expresso pelo verbo em entidade sobre a qual se pode dizer algo. A nominalização favorece a progressão, mas pode deixar menos visíveis agente, tempo, modalidade ou aspecto. Uma reescrita nominal não é automaticamente equivalente a qualquer formulação verbal.
 
-## 8. Conectores e coesão sequencial
+## 5. Referência, substituição e elipse: operações próximas, não idênticas
 
-A coesão sequencial encadeia as partes do texto e impulsiona seu desenvolvimento. Conectores explicitam relações lógicas, argumentativas, temporais, espaciais ou metadiscursivas.
+Compare quatro mecanismos:
 
-O valor não pertence de modo absoluto à palavra isolada. A relação deve ser reconhecida entre proposições concretas e pode depender da posição, da pontuação e do modo verbal.
+> O parecer chegou. **Ele** será lido.  
+> Preciso de uma cópia do parecer. Você tem **uma**?  
+> A equipe revisou os autos, e a relatora também **o fez**.  
+> A primeira unidade analisou contratos; a segunda, convênios.
 
-| Relação predominante | Conectores frequentes | Exemplo |
-| --- | --- | --- |
-| Adição | `e`, `também`, `além disso`, `bem como` | `O relatório apontou falhas e recomendou providências.` |
-| Oposição | `mas`, `porém`, `contudo`, `entretanto` | `O prazo era curto, mas a equipe concluiu a análise.` |
-| Concessão | `embora`, `ainda que`, `mesmo que`, `apesar de` | `Embora o prazo fosse curto, a equipe concluiu a análise.` |
-| Causa | `porque`, `já que`, `visto que`, `como` | `A sessão foi adiada porque faltava quórum.` |
-| Explicação ou justificativa | `porque`, `que`, `pois`, `porquanto` | `Reveja o ato, pois ele contém vício.` |
-| Consequência | `por isso`, `de modo que`, `de forma que` | `Faltava assinatura; por isso, o documento não foi validado.` |
-| Conclusão | `portanto`, `logo`, `por conseguinte`, `assim`, `pois` posposto | `O ato contém vício; deve, portanto, ser revisto.` |
-| Condição | `se`, `caso`, `desde que` | `Caso haja recurso, o prazo será reaberto.` |
-| Finalidade | `para`, `para que`, `a fim de` | `Abriu-se prazo para que os interessados se manifestassem.` |
-| Conformidade | `conforme`, `segundo`, `consoante` | `Conforme o regulamento, a comissão publicou a ata.` |
-| Comparação | `como`, `assim como`, `tal qual` | `A unidade revisou os autos, assim como a corregedoria.` |
-| Proporção | `à medida que`, `quanto mais... mais` | `À medida que os dados eram conferidos, os riscos diminuíam.` |
-| Alternância | `ou... ou`, `ora... ora` | `Ora se discutia o prazo, ora se analisavam as provas.` |
+No primeiro caso, `ele` orienta o leitor para o referente `o parecer`: há **referência**. No segundo, `uma` ocupa o lugar da expressão recuperável `uma cópia do parecer`: há **substituição nominal**. No terceiro, `o fez` substitui o predicado `revisou os autos`: há **substituição verbal**. No quarto, o verbo não aparece no segundo segmento, mas pode ser recuperado: há **elipse**.
 
-### Oposição e concessão não são a mesma relação
+Alguns materiais empregam `substituição pronominal` em sentido amplo para certas retomadas. Quando a questão exigir terminologia estrita, observe a classificação adotada; quando perguntar pelo efeito, descreva a operação concreta.
 
-Ambas podem indicar contraste, mas têm construções distintas:
+A elipse economiza palavras apenas se a recuperação for segura. O mesmo vale para a substituição: é preciso identificar exatamente a unidade retomada. Se duas reconstruções forem plausíveis, surgiu ambiguidade, não eficiência coesiva.
 
-> O prazo era curto, **mas** a equipe concluiu a análise.
+## 6. Pronomes relativos: conectar e retomar ao mesmo tempo
 
-Há oposição entre a expectativa criada pela brevidade do prazo e o resultado.
+O pronome relativo funciona como uma dobradiça: liga uma oração a um nome anterior e desempenha função dentro da oração que introduz.
 
+> O programa atende **regiões de clima diverso que exigem soluções específicas**.
+
+O antecedente de `que` é `regiões de clima diverso`, não `clima`. Além da concordância plural do verbo `exigem`, o sentido favorece regiões como entidades que demandam soluções. Para testar, reconstrua a oração relativa: `as regiões exigem soluções específicas`.
+
+Esse procedimento reúne quatro verificações:
+
+1. delimitar a oração relativa;
+2. propor o antecedente;
+3. recolocá-lo na posição do relativo;
+4. conferir função, concordância, regência e plausibilidade semântica.
+
+Outros casos frequentes:
+
+- `o procedimento **ao qual** a unidade aderiu` — a preposição vem da regência de `aderir a`;
+- `a empresa **cujo contrato** foi rescindido` — `cujo` expressa posse, concorda com `contrato` e não admite artigo depois dele;
+- `o setor **onde** ocorreu a inspeção` — `onde` retoma lugar; para antecedente não locativo, formas como `em que` ou `no qual` costumam ser mais adequadas.
+
+A descrição completa das orações relativas pertence à subordinação; aqui, o ponto essencial é não romper a cadeia referencial ao localizar ou substituir o relativo.
+
+## 7. Conectores: a relação vem antes do rótulo
+
+Um conector não carrega valor isolado e imutável. Ele orienta a relação entre proposições concretas. Veja como um mesmo cenário pode ser organizado:
+
+> A sessão foi adiada **porque** faltava quórum.  
+> Faltava quórum; **por isso**, a sessão foi adiada.  
+> Não há quórum; **portanto**, a sessão deve ser adiada.  
+> Adie a sessão, **pois** não há quórum.
+
+As frases se aproximam tematicamente, mas não fazem exatamente o mesmo trabalho:
+
+- `porque` apresenta a falta de quórum como **causa** do adiamento;
+- `por isso` apresenta o adiamento como **consequência**;
+- `portanto` marca uma **conclusão ou inferência** do enunciador;
+- `pois` fundamenta uma ordem e funciona como **explicação ou justificativa**.
+
+A distinção depende da arquitetura do enunciado. Uma causa relaciona estados de coisas; uma justificativa sustenta uma afirmação, ordem, avaliação ou inferência. Uma consequência é apresentada como efeito; uma conclusão é formulada como resultado do raciocínio.
+
+### Contraste: oposição e concessão
+
+> O prazo era curto, **mas** a equipe concluiu a análise.  
 > **Embora** o prazo fosse curto, a equipe concluiu a análise.
 
-O obstáculo é admitido como circunstância que não impede o resultado. Trocar uma construção por outra pode exigir reorganização sintática, ainda que a ideia geral de contraste permaneça.
+As duas construções contrariam a expectativa de que o prazo curto impediria a conclusão. Contudo, `mas` coordena segmentos, enquanto `embora` introduz uma circunstância concessiva e normalmente seleciona o subjuntivo. Preservar a ideia geral de contraste não dispensa ajustar sintaxe, modo verbal e pontuação.
 
-### Causa, explicação, consequência e conclusão
+### Relações recorrentes
 
-Essas relações se aproximam, mas não são intercambiáveis.
+Depois de compreender o critério, a tabela serve como mapa de reconhecimento:
 
-- **Causa:** um estado de coisas é apresentado como origem de outro: `A sessão foi adiada porque faltava quórum.`
-- **Explicação ou justificativa:** o segundo segmento fundamenta uma afirmação, ordem ou avaliação: `Adie a sessão, pois não há quórum.`
-- **Consequência:** o segundo fato é apresentado como efeito: `Faltava quórum; por isso, a sessão foi adiada.`
-- **Conclusão:** o enunciador formula inferência com base no segmento anterior: `Não há quórum; portanto, a sessão deve ser adiada.`
+| Relação | Pergunta que ajuda a reconhecê-la | Marcas frequentes |
+| --- | --- | --- |
+| adição | acrescenta dado na mesma direção? | `e`, `também`, `além disso`, `bem como`, `não só... como também` |
+| alternância | apresenta escolha ou revezamento? | `ou... ou`, `ora... ora` |
+| oposição | contrapõe ou restringe o segmento anterior? | `mas`, `porém`, `contudo`, `entretanto` |
+| concessão | admite um obstáculo que não impede o resultado? | `embora`, `ainda que`, `mesmo que`, `mesmo assim`, `apesar de` |
+| causa ou justificativa | apresenta razão do fato ou fundamento do dizer? | `porque`, `já que`, `visto que`, `dado que`, `pois`, `como` |
+| consequência ou conclusão | apresenta efeito ou inferência? | `por isso`, `de modo que`, `portanto`, `logo`, `por conseguinte`, `assim` |
+| condição ou finalidade | estabelece requisito ou objetivo? | `se`, `caso`, `desde que`, `contanto que`; `para que`, `a fim de que` |
+| tempo ou proporção | ordena no tempo ou correlaciona variações? | `quando`, `em seguida`; `à medida que`, `quanto mais... mais` |
+| comparação ou conformidade | aproxima termos ou indica modelo seguido? | `como`, `assim como`; `conforme`, `segundo` |
 
-A mesma situação do mundo pode ser organizada de modos diferentes. A classificação depende da arquitetura argumentativa escolhida, não apenas dos fatos mencionados.
+Em `À medida que os dados eram conferidos, diminuía o número de inconsistências`, as duas variações são apresentadas como correlatas. A simultaneidade temporal pode estar presente, mas o valor central é proporcional.
 
-### `Pois` explicativo e conclusivo
+### Formas polifuncionais
 
-No valor explicativo ou justificativo, `pois` introduz a razão:
+O contexto pode especializar formas muito comuns:
 
-> Reveja o ato, **pois** ele contém vício.
+- `e` soma em `revisou e assinou`, mas sugere consequência em `o sistema falhou, e o atendimento foi interrompido`;
+- `como` pode indicar causa (`Como faltava quórum...`), comparação ou conformidade;
+- `já` pode marcar tempo ou contraste (`o primeiro reduz custos; já o segundo amplia controles`);
+- `assim` pode indicar modo ou introduzir consequência/conclusão;
+- `então` pode ordenar acontecimentos e também sugerir resultado;
+- `pois` pode explicar ou concluir.
 
-No valor conclusivo, aparece normalmente posposto a algum termo da oração:
+No valor conclusivo, `pois` costuma aparecer posposto a algum termo da oração:
 
 > O ato contém vício; deverá, **pois**, ser revisto.
 
-Quando intercalado, o `pois` conclusivo fica entre vírgulas; no final da oração, é precedido por vírgula. A posição ajuda, mas a classificação precisa ser confirmada pela relação entre as proposições.
+No valor explicativo ou justificativo, introduz a razão:
 
-### Conectores polifuncionais
+> Reveja o ato, **pois** ele contém vício.
 
-| Forma | Valores possíveis conforme o contexto | Pares mínimos |
-| --- | --- | --- |
-| `como` | causa, comparação, conformidade | `Como faltava quórum, adiou-se a sessão.` / `A comissão agiu como o regulamento prevê.` |
-| `e` | adição, sequência, consequência contextual, contraste | `Revisou e assinou.` / `Tentou concluir e não conseguiu.` |
-| `já` | tempo ou contraste | `O ato já vigora.` / `A primeira proposta reduz custos; já a segunda amplia controles.` |
-| `assim` | modo, consequência ou conclusão | `Proceda assim.` / `Houve falha; assim, o ato será revisto.` |
-| `então` | tempo, consequência ou conclusão | `Chegou e então iniciou a sessão.` / `Não há recurso; então, o prazo encerrou-se.` |
-| `pois` | explicação ou conclusão | `Reveja, pois há erro.` / `Há erro; reveja, pois, o ato.` |
+Posição e pontuação ajudam, mas a relação entre os segmentos confirma a leitura.
 
-Uma substituição válida precisa conservar não apenas uma etiqueta geral, mas a relação efetiva, o alcance, a pontuação e a estrutura exigida.
+## 8. Alcance: uma palavra pode ligar muito mais que a frase vizinha
 
-## 9. Alcance dos mecanismos coesivos
+Considere dois parágrafos hipotéticos que descrevam falhas de planejamento e de execução. O seguinte começa assim:
 
-Um pronome ou conector pode ligar unidades de diferentes extensões:
+> **Diante desse quadro**, recomenda-se revisar o processo.
 
-- palavras dentro da mesma oração;
-- orações no mesmo período;
+A expressão pode encapsular os dois parágrafos, não apenas a última palavra do período anterior. O **alcance** de um mecanismo coesivo pode abranger:
+
+- termos da mesma oração;
+- orações de um período;
 - períodos sucessivos;
-- parágrafos inteiros;
-- um novo parágrafo a toda a argumentação anterior.
+- um ou vários parágrafos;
+- uma inferência construída a partir do bloco anterior.
 
-Considere:
+Proximidade gráfica é pista, não prova. Para determinar o alcance, substitua mentalmente a forma por uma paráfrase explícita e verifique se todo o conteúdo necessário foi preservado.
 
-> A equipe conferiu os documentos, identificou divergências e solicitou esclarecimentos.
->
-> **Diante disso**, a decisão foi adiada.
+### Outros elementos de sequenciação
 
-`Diante disso` não retoma uma palavra isolada: encapsula o conjunto de ações do parágrafo anterior e o apresenta como fundamento do adiamento.
+Nem toda sequência é uma relação lógica como causa ou oposição. O texto também orienta o leitor:
 
-Em prova, pergunte:
+- **no tempo**: `inicialmente`, `em seguida`, `por fim`;
+- **no espaço do documento**: `acima`, `abaixo`, `no quadro seguinte`;
+- **na organização da exposição**: `quanto a`, `em síntese`, `por outro lado`.
 
-1. o conector relaciona apenas as duas orações mais próximas?
-2. retoma uma sequência inteira?
-3. introduz contraponto a todo o parágrafo anterior?
-4. sinaliza conclusão parcial ou conclusão global?
-5. o demonstrativo resume fato expresso ou inferência construída pelo leitor?
+Essas expressões não são ornamentos. `Em síntese` anuncia condensação; `por outro lado` introduz contraponto ou mudança de perspectiva e não equivale a `além disso`.
 
-Proximidade gráfica ajuda, mas não decide sozinha o alcance.
+### Paralelismo torna a sequência reconhecível
 
-## 10. Outros elementos de sequenciação
+Em enumerações, estruturas equivalentes ajudam o leitor a perceber que os membros pertencem à mesma série:
 
-Nem toda sequência textual é apenas lógica. O texto pode orientar o leitor no tempo, no espaço ou na própria arquitetura expositiva.
+> O parecer recomendou **reduzir despesas**, **ampliar controles** e **revisar contratos**.
 
-### Sequenciação temporal
+Os três membros seguem a mesma forma verbal. Misturar `reduzir despesas`, `a ampliação de controles` e `que se revisem contratos` pode manter uma ideia geral, mas enfraquece a simetria e pode produzir erro sintático. O estudo completo do paralelismo pertence à coordenação e à reescrita; aqui, ele importa como recurso para ordenar e interpretar sequências.
 
-> **Inicialmente**, a equipe reuniu os dados. **Em seguida**, comparou os registros. **Por fim**, elaborou o relatório.
+## 9. Progressão temática: informação conhecida encontra informação nova
 
-Os marcadores ordenam etapas.
+Um texto coeso não apenas repete seu tema. Ele conserva pistas suficientes para o leitor e acrescenta algo relevante a cada passo.
 
-### Sequenciação espacial
+Compare os extremos:
 
-> **No quadro acima**, estão os dados gerais; **abaixo**, aparecem as justificativas.
+> O plano define metas. O plano define metas. O plano define metas.
 
-Esses elementos orientam a leitura pela disposição espacial do texto ou do documento.
+Há continuidade formal, mas não há avanço.
 
-### Sequenciação textual ou metadiscursiva
+> O plano define metas. Choveu ontem. A comissão mudou de sala.
 
-> **Em síntese**, a medida reduz o risco. **Por outro lado**, exige monitoramento.
+Há novidade, mas falta um vínculo que organize o percurso.
 
-As expressões organizam a exposição e sinalizam a posição de cada trecho na argumentação. `Por outro lado` exige contraste ou mudança de perspectiva; não deve ser usado como mero sinônimo de `além disso`.
+Entre esses extremos, três padrões ajudam a observar a progressão:
 
-## 11. Progressão temática e tópica
+| Padrão | Movimento | Exemplo hipotético |
+| --- | --- | --- |
+| tema constante | o mesmo tópico recebe informações novas | `O plano define metas. O plano distribui responsabilidades. O plano estabelece indicadores.` |
+| progressão linear | informação nova vira o tema seguinte | `A auditoria encontrou uma falha. A falha exigiu diligência. A diligência produziu novas provas.` |
+| tema derivado | um tópico geral se desdobra em subtópicos | `A fiscalização envolve planejamento e execução. O planejamento define metas; a execução verifica procedimentos.` |
 
-Um texto precisa combinar continuidade e novidade. Se só repete o que já foi dito, não avança; se introduz informação nova sem vínculo, o leitor perde o fio.
+Os padrões são instrumentos de leitura, não fórmulas obrigatórias. Textos reais os combinam. O diagnóstico decisivo é verificar se cada segmento recupera algo relevante e acrescenta informação compatível com o projeto global.
 
-### Tema constante
+## 10. Como resolver itens de coesão e reescrita
 
-O mesmo tema recebe novas informações:
+Trabalhe da relação para a palavra, não da palavra para uma lista decorada:
 
-> O relatório foi entregue. O relatório será analisado. O relatório poderá ser retificado.
+1. **Leia antes e depois do trecho destacado.** O referente ou a relação pode ultrapassar o período.
+2. **Localize as unidades ligadas.** Descubra se a forma relaciona palavras, orações, períodos ou parágrafos.
+3. **Reconstrua o conteúdo recuperado.** Explicite o referente, a âncora, o termo substituído, o elemento elíptico ou o bloco encapsulado.
+4. **Nomeie a relação no contexto.** Pergunte se há soma, contraste, razão, efeito, inferência, condição, finalidade, tempo ou outra orientação.
+5. **Teste a forma final.** Confira concordância, regência, modo verbal, pontuação, posição e paralelismo na medida necessária à troca.
+6. **Compare sentido, alcance e foco.** Uma frase pode permanecer gramatical e alterar a cadeia referencial ou a direção argumentativa.
+7. **Confira a progressão global.** A nova redação mantém o fio, acrescenta informação e continua coerente?
 
-### Progressão linear
+Na produção discursiva, aplique o mesmo método ao revisar: repita o termo técnico quando o pronome for ambíguo; escolha encapsuladores que representem exatamente o bloco anterior; use conectores apenas quando houver relação real; faça cada parágrafo retomar algo pertinente e avançar.
 
-A informação nova de um enunciado passa a ser o tema do seguinte:
+## 11. Fronteiras do assunto
 
-> A auditoria encontrou uma falha. A falha exigiu diligência. A diligência atrasou a conclusão.
-
-### Tema derivado
-
-Um tópico mais amplo se divide em subtópicos:
-
-> A fiscalização envolve planejamento, execução e monitoramento. O planejamento define metas. A execução verifica procedimentos. O monitoramento acompanha resultados.
-
-Esses modelos são instrumentos de leitura, não fórmulas rígidas. O essencial é perceber como o texto administra informação compartilhada e informação nova para manter o desenvolvimento tópico.
-
-## 12. Ambiguidade, paralelismo e reescrita
-
-### Ambiguidade referencial
-
-> O diretor falou com o assessor quando **ele** chegou.
-
-`Ele` pode ser o diretor ou o assessor. Se a precisão for relevante, a repetição controlada é preferível:
-
-> O diretor falou com o assessor quando **o assessor** chegou.
-
-### Proximidade não decide o referente
-
-O nome mais próximo do pronome não é necessariamente seu referente. Examine sentido, gênero, número, função sintática e desenvolvimento do texto inteiro.
-
-### Paralelismo
-
-> O parecer recomendou reduzir despesas, ampliar controles e revisar contratos.
-
-Os três complementos seguem a mesma estrutura de infinitivo. Compare com a construção inadequada:
-
-> O parecer recomendou reduzir despesas, ampliar controles e que se revisassem contratos.
-
-Há quebra de paralelismo entre os dois infinitivos e a oração desenvolvida. O paralelismo contribui para clareza e sequenciação de enumerações.
-
-### Trocas de conectores
-
-Uma substituição de conector deve preservar simultaneamente:
-
-1. a correção gramatical da nova construção;
-2. a relação semântica entre as partes;
-3. a pontuação e o modo verbal exigidos;
-4. o alcance do vínculo;
-5. a referência dos termos envolvidos;
-6. o sentido global e o efeito argumentativo.
-
-Trocar `portanto` por `contudo` pode produzir frase gramatical, mas altera conclusão em oposição. Trocar `embora` por `mas` pode exigir reorganização de oração subordinada para coordenada. Trocar `pois` sem observar a posição pode mudar explicação em conclusão.
-
-## 13. Método de resolução
-
-1. **Localize as unidades ligadas:** descubra quais palavras, orações, períodos ou parágrafos o item compara.
-2. **Reconstrua o referente:** pergunte de quem, de que fato ou de que segmento se fala.
-3. **Classifique a direção quando necessário:** é retomada, antecipação ou dependência do contexto externo?
-4. **Diferencie retomada direta e indireta:** há correferência ou associação ativada por uma âncora?
-5. **Teste a cadeia completa:** concordância não basta; confira sentido, precisão e ausência de ambiguidade.
-6. **Identifique o antecedente do relativo:** use estrutura, função, concordância e regência.
-7. **Nomeie a relação do conector no contexto:** não classifique a palavra isolada.
-8. **Verifique alcance, pontuação e estrutura:** a alteração liga as mesmas unidades e continua gramatical?
-9. **Confira a progressão:** o texto mantém o tópico e acrescenta informação de modo organizado?
-
-## 14. Aplicação à objetiva e à discursiva
-
-Na objetiva, espere itens que combinem referenciação, conector, pontuação e reescrita no mesmo trecho. Na discursiva:
-
-- repita termo técnico quando o pronome puder gerar ambiguidade;
-- use encapsuladores que representem exatamente o segmento anterior;
-- assegure que cada parágrafo retome algo relevante e acrescente informação;
-- não use conectores como ornamento: cada um deve explicitar relação real;
-- mantenha paralelismo em enumerações;
-- revise a extensão de `isso`, `essa medida`, `tal situação`, `diante disso` e formas semelhantes;
-- confira se o relativo retoma antecedente inequívoco e respeita a regência.
-
-## 15. Armadilhas finais
-
-1. Coesão favorece a coerência, mas não a garante.
-2. O antecedente mais próximo não é sempre o referente correto.
-3. Anáfora direta retoma; anáfora indireta ativa referente associado a uma âncora.
-4. Catáfora antecipa; anáfora e catáfora são endofóricas.
-5. Exófora depende da situação externa ao texto.
-6. Pronome e substituição não são termos automaticamente equivalentes em todas as classificações.
-7. Elipse exige recuperação segura do elemento omitido.
-8. Repetição pode manter precisão e evitar ambiguidade.
-9. Sinonímia vale no contexto, não apenas no dicionário.
-10. Hiperônimo é mais geral; hipônimo, mais específico.
-11. Pronome relativo exige antecedente exato, função e regência compatíveis.
-12. `Isso`, `essa decisão` e `esses fatos` podem encapsular oração, sequência ou inferência.
-13. Conector gramaticalmente correto pode estar errado na relação ou no alcance.
-14. `Pois` pode explicar ou concluir; posição e relação textual trabalham juntas.
-15. `Como`, `e`, `já`, `assim` e `então` são polifuncionais.
-16. `Mas` e `embora` não têm o mesmo funcionamento sintático-semântico.
-17. Não há fórmula infalível para a direção de `este` e `esse` sem contexto.
-18. Paralelismo sustenta a legibilidade de listas e enumerações.
-19. Progressão exige equilíbrio entre continuidade e informação nova.
-
-## 16. Limites do assunto
-
-Este assunto trata da articulação textual. Outros recortes do edital aprofundarão aspectos que podem aparecer como apoio:
-
-- classes de palavras e descrição completa dos pronomes pertencem à morfossintaxe;
-- concordância, regência, pontuação e colocação pronominal têm tratamento próprio;
-- tempos e modos verbais são objeto do item 4.2;
-- relações sintáticas entre orações serão retomadas em tópicos específicos.
-
-Aqui, esses elementos importam quando ajudam a reconhecer referência, substituição, repetição, conectores e sequenciação.
+Coesão usa recursos gramaticais e lexicais, mas não substitui o estudo sistemático deles. Classes de palavras, tempos e modos verbais, coordenação, subordinação, pontuação, concordância, regência, colocação pronominal e reescrita têm recortes próprios. Aqui, esses conhecimentos entram como instrumentos para responder às perguntas centrais: **qual elemento está sendo acompanhado, que relação une as partes e como o texto progride sem perder o fio?**
