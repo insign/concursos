@@ -8,253 +8,182 @@ storageId: classes-invariaveis-de-palavras
 
 # Classes invariáveis de palavras
 
-## 1. Recorte do assunto
+## 1. Modificar, ligar ou reagir?
 
-O edital cobra **emprego das classes de palavras**. Neste assunto, o foco são as classes tradicionalmente invariáveis: **advérbio, preposição, conjunção e interjeição**.
+Compare estes exemplos hipotéticos:
 
-A regra decisiva para prova é contextual: **a forma gráfica, sozinha, não determina a classe**. É preciso observar o termo modificado, a estrutura ligada e a relação construída no enunciado.
+> A equipe revisou **cuidadosamente** o relatório.  
+> A equipe revisou o relatório **de** auditoria.  
+> A equipe revisou o relatório, **mas** não o publicou.  
+> **Ufa!** A equipe terminou o relatório.
 
-> **Fronteira:** a classificação detalhada das relações de coordenação e subordinação pertence aos assuntos 009 e 010. Aqui, essas relações aparecem apenas no nível necessário para reconhecer o emprego das conjunções e de outros conectores.
+*Cuidadosamente* informa como ocorreu a revisão: é **advérbio**. *De* liga *auditoria* a *relatório*, especificando-o: é **preposição**. *Mas* liga duas informações e estabelece contraste: é **conjunção**. *Ufa!* manifesta alívio, com autonomia: é **interjeição**.
 
-## 2. Advérbio
+Essas classes são tradicionalmente **invariáveis**: não concordam em masculino/feminino ou singular/plural com outras palavras. A equipe revisou *cuidadosamente*; as equipes também. Mas uma palavra pode mudar de classe conforme o emprego: *muitas equipes* não tem a organização de *trabalharam muito*. **Classifique pelo contexto, não pela forma isolada.** Os demais exemplos também são hipotéticos.
 
-O **advérbio** modifica tipicamente verbo, adjetivo, outro advérbio ou a oração inteira, acrescentando circunstância, intensidade ou posicionamento do enunciador.
+## 2. Advérbio: o que está sendo modificado?
 
-| Valor frequente | Exemplos |
-| --- | --- |
-| lugar | `aqui`, `ali`, `longe` |
-| tempo | `hoje`, `cedo`, `sempre`, `nunca` |
-| modo | `bem`, `mal`, `depressa` |
-| intensidade | `muito`, `pouco`, `bastante`, `tão`, `quase` |
-| afirmação | `sim`, `certamente` |
-| negação | `não`, `jamais` |
-| dúvida | `talvez`, `provavelmente` |
+Em *a equipe trabalhou muito*, *muito* intensifica o verbo *trabalhou*. Em *a equipe está muito preparada*, intensifica *preparada*, um **adjetivo**, palavra que caracteriza um ser ou atribui-lhe uma propriedade. Em *trabalhou muito bem*, intensifica outro advérbio, *bem*. O advérbio pode, portanto, modificar **verbo, adjetivo ou outro advérbio**.
 
-Compare:
+Pode também alcançar uma **oração inteira**, estrutura organizada em torno de verbo ou locução verbal — verbos que atuam conjuntamente, como *será divulgado*. Em *provavelmente o resultado será divulgado amanhã*, *provavelmente* apresenta a avaliação de quem fala sobre a divulgação; *amanhã* situa o acontecimento no tempo.
 
-> A equipe trabalhou **muito**.  
-> A equipe está **muito** preparada.  
-> A equipe trabalhou **muito bem**.
+### 2.1 Circunstância, intensidade e posicionamento
 
-Nos três casos, `muito` tem emprego adverbial: modifica, respectivamente, verbo, adjetivo e advérbio.
+O sentido acrescentado orienta a classificação:
 
-### 2.1 A classe depende do contexto
-
-Algumas formas alternam entre emprego nominal e adverbial:
-
-| Forma | Emprego nominal/variável | Emprego adverbial/invariável |
+| Valor | Como reconhecer | Exemplos |
 | --- | --- | --- |
-| `meio` | `meia hora` | `elas estão meio cansadas` |
-| `bastante` | `bastantes motivos` | `estavam bastante preparadas` |
-| `muito` | `muitas candidatas` | `estudaram muito` |
-| `pouco` | `poucos recursos` | `trabalharam pouco` |
+| Lugar | Onde? | aqui, ali, longe |
+| Tempo | Quando? Com que frequência? | hoje, cedo, sempre |
+| Modo | De que maneira? | bem, mal, depressa |
+| Intensidade | Em que grau ou quantidade? | muito, pouco, bastante, tão |
+| Afirmação | Apresenta a informação como certa | sim, certamente |
+| Negação | Nega o conteúdo alcançado | não, jamais |
+| Dúvida | Apresenta possibilidade ou probabilidade, sem certeza | talvez, provavelmente |
 
-Também compare:
+*Quase* é tradicionalmente incluído entre os advérbios de intensidade: *quase todos chegaram* indica aproximação, não totalidade. *Nunca* e *jamais* associam tempo e negação; observe o valor pedido, sem tratar essas classificações como sentidos exclusivos.
 
-> discurso **alto** → `alto` caracteriza substantivo: adjetivo.  
-> falar **alto** → `alto` modifica verbo: valor adverbial.
+A terminação *-mente* não garante valor de modo: *certamente* indica afirmação e *provavelmente*, dúvida. A substituição por <abbr title="conjunto de palavras com o papel de uma unidade">locução</abbr> também exige contexto: *agir naturalmente*, no sentido de agir sem afetação, equivale a *agir com naturalidade*, não necessariamente a *agir de acordo com a natureza*.
 
-A invariabilidade decorre do **emprego adverbial**, não da aparência da palavra.
+### 2.2 Por que “meio cansadas” não varia?
 
-### 2.2 Locução adverbial
+Em *meia hora*, *meia* indica metade de uma unidade: é numeral. Em *elas estão meio cansadas*, *meio* significa “um pouco” e modifica o adjetivo *cansadas*, não *elas*: é advérbio e permanece invariável.
 
-**Locução adverbial** é um grupo de palavras com valor equivalente ao de um advérbio: `à tarde`, `às pressas`, `de repente`, `com certeza`, `em breve`, `por acaso`.
+O mesmo diagnóstico explica outros contrastes:
 
-O número de palavras não define a classe: é a função do conjunto que importa.
-
-### 2.3 Advérbio interrogativo
-
-Formas como `quando`, `onde`, `como` e `por que` podem introduzir interrogações diretas ou indiretas com valor adverbial:
-
-> **Quando** será a prova?  
-> Não sei **quando** será a prova.
-
-Isso ajuda a evitar a classificação automática de toda ocorrência de `quando` ou `como` como conjunção.
-
-## 3. Preposição
-
-A **preposição** liga termos e estabelece relação de dependência entre eles. O sentido não pertence rigidamente à palavra: resulta do contexto.
-
-| Relação possível | Exemplo |
+| Palavra relacionada a um nome | Palavra modificando verbo ou adjetivo |
 | --- | --- |
-| origem | veio **de** Recife |
-| direção | foi **para** a sala |
-| finalidade | estudou **para** a prova |
-| causa | tremia **de** medo |
-| companhia | saiu **com** colegas |
-| instrumento/meio | escreveu **com** lápis |
-| assunto | falou **sobre** licitações |
-| oposição | recurso **contra** a decisão |
-| agente | elaborado **por** especialistas |
-| matéria | mesa **de** madeira |
-| tempo | reunião **após** o expediente |
+| muitas candidatas; poucos recursos | estudaram muito; trabalharam pouco |
+| bastantes motivos | estavam bastante preparadas |
+| vozes altas; respostas claras | falaram alto; responderam claro |
 
-Preposições essenciais tradicionalmente incluem `a, ante, após, até, com, contra, de, desde, em, entre, para, perante, por, sem, sob, sobre, trás`.
+À esquerda, *muitas*, *poucos* e *bastantes* indicam quantidade imprecisa de **substantivos**, palavras que nomeiam seres, coisas, ações ou ideias: são pronomes indefinidos. *Altas* e *claras* são adjetivos. À direita, o emprego é adverbial: não há concordância com os participantes.
 
-### 3.1 Preposições acidentais
+Invariabilidade não prova a classe: *menos* não varia nem em *menos candidatas* — pronome indefinido — nem em *estudaram menos* — advérbio. **Descubra primeiro o que a palavra modifica.**
 
-Palavras oriundas de outras classes podem assumir emprego prepositivo. Exemplos tradicionais incluem `conforme`, `segundo`, `mediante`, `salvo`, `exceto`, `durante` e `consoante`.
+A invariabilidade não impede expressar **grau**: *mais cedo que antes*, *menos cedo que antes* e *tão cedo quanto antes* expressam comparação de superioridade, inferioridade e igualdade; *muito cedo* e *cedíssimo* intensificam sem comparação, em superlativo absoluto, respectivamente analítico (mais de uma palavra) e sintético (uma palavra). *Bem* e *mal* admitem *melhor* e *pior*. *Pertinho* pode intensificar a proximidade ou acrescentar afetividade.
 
-Compare:
+### 2.3 Locuções, perguntas e alcance
 
-> **Segundo o edital**, o prazo termina amanhã. → `segundo` introduz um termo nominal: emprego prepositivo.  
-> O **segundo** candidato entrou. → `segundo` é numeral ordinal.
+**Locução** é um conjunto de palavras que desempenha o papel de uma unidade. Em *a equipe revisou o relatório com cuidado*, *com cuidado* tem valor de advérbio: é **locução adverbial**. Outras: *à tarde*, *às pressas*, *de repente*, *com certeza*, *em breve*, *por acaso*.
 
-> **Conforme o regulamento**, a etapa é obrigatória. → emprego prepositivo.  
-> **Conforme prevê o regulamento**, a etapa é obrigatória. → introduz oração: emprego conjuntivo conformativo.
+Já em *a reunião de hoje terminou cedo*, *de hoje* caracteriza o nome *reunião*: tem valor adjetivo, não adverbial. Começar por preposição não torna o conjunto uma <abbr title="expressão que liga termos como uma preposição">locução prepositiva</abbr>: considere **a expressão inteira e o elemento a que se liga**.
 
-Essa comparação é mais importante para prova do que decorar listas isoladas.
+Advérbios interrogativos perguntam por circunstâncias: *onde* (lugar), *quando* (tempo), *como* (modo), *por que* (causa). A pergunta pode ser direta — *Quando será a sessão?* — ou indireta — *Não sei quando será a sessão*. Nesta, continua desconhecido o momento: *quando* não vira conjunção por estar entre dois verbos.
 
-### 3.2 Locução prepositiva
+O **alcance**, ou **escopo**, é o trecho afetado: *só a equipe revisou o relatório* exclui outros revisores; *a equipe revisou só o relatório* exclui outros documentos. A tradição também distingue **palavras ou expressões denotativas**, como as de inclusão (*até a diretora participou*), exclusão (*só*), retificação (*isto é*) e realce (*é que*). Outras análises incluem certos usos de *só* e *até* entre os advérbios; observe a nomenclatura solicitada.
 
-**Locução prepositiva** é expressão com valor de preposição: `a fim de`, `diante de`, `por causa de`, `em vez de`, `acerca de`, `em relação a`, `de acordo com`.
+## 3. Preposição: ligar um termo a outro
 
-Compare:
+Em *relatório de auditoria*, a preposição faz *auditoria* depender de *relatório*, especificando-o. Em *a equipe precisa de apoio*, *precisar*, nesse sentido, exige *de* para introduzir seu complemento: essa exigência é **regência**. Já em *a equipe trabalhou de manhã*, a expressão acrescenta tempo.
 
-> Trabalhou **a fim de** concluir o relatório. → `a fim de` introduz construção de valor final.  
-> Trabalhou **a fim de que** o relatório fosse concluído. → `a fim de que` introduz oração e funciona como locução conjuntiva final.
+Daí a distinção entre **preposição gramatical**, exigida por outro termo, e **preposição de valor semântico**, que explicita uma relação de sentido. São empregos, não novas classes. Em *capaz de revisar*, *de* é exigido por *capaz*; em *mesa de madeira*, introduz a matéria. Não force um significado único para todas as ocorrências de *de*.
 
-### 3.3 Combinação e contração
+### 3.1 Reconhecer a relação no contexto
 
-As preposições podem unir-se a artigos e pronomes:
+Em *saiu com colegas*, *com* introduz companhia; em *escreveu com lápis*, instrumento. A relação nasce da construção completa:
 
-| Forma | Formação tradicional |
+| Construção | Relação |
 | --- | --- |
-| `ao` | `a + o` |
-| `do` | `de + o` |
-| `no` | `em + o` |
-| `pelo` | `por + o` |
-| `daquele` | `de + aquele` |
+| veio de Recife; foi para a sala | origem; direção |
+| estudou para a prova; para a equipe, o prazo é curto | finalidade; ponto de vista |
+| tremia de medo; negado por falta de documentos | causa |
+| falou sobre licitações; recurso contra a decisão | assunto; oposição |
+| elaborado por especialistas; trocou folga por dinheiro | agente, quem realizou a ação; troca |
+| reunião após o expediente; chegou até a portaria | tempo; limite espacial |
+| livro sob a mesa; livro sobre a mesa; cadeira entre duas mesas | posição inferior; superior; intermediária |
 
-Esse reconhecimento é útil, mas o ponto de maior rendimento é identificar **qual preposição está presente e que relação ela estabelece**.
+*Sob* e *sobre* também entram em construções não espaciais: *sob pressão*, *sob pena de exclusão*, *sobre esse assunto*. Não transfira mecanicamente “embaixo/em cima” para todo contexto.
 
-Crase, regência e seus efeitos sintáticos pertencem a assuntos próprios; aqui, basta reconhecer a presença da preposição `a` quando pertinente.
+### 3.2 Essenciais e acidentais
 
-## 4. Conjunção
+As **preposições essenciais** são as palavras de emprego tipicamente prepositivo: *a, ante, após, até, com, contra, de, desde, em, entre, para, perante, por, sem, sob, sobre, trás*.
 
-A **conjunção** conecta termos ou, principalmente, orações. A classe é morfológica; coordenação e subordinação são relações sintáticas.
+As **acidentais** são palavras de outras classes usadas como preposição: *segundo, conforme, consoante, como, durante, mediante, salvo, exceto*. Compare:
 
-Para este assunto, é suficiente reconhecer os principais valores e perceber que **uma mesma forma pode mudar de emprego conforme a construção**.
+> O **segundo** candidato entrou. → numeral ordinal, indica posição.  
+> **Segundo o edital**, a etapa é obrigatória. → preposição, equivale a *de acordo com*.  
+> Atuou **como** fiscal. → preposição acidental, equivale a *na qualidade de*.
 
-### 4.1 Valores coordenativos mais frequentes
+*Mediante cadastro* pode indicar meio ou condição; *salvo o diretor* e *exceto o diretor* excluem alguém do conjunto. O contexto, não a simples origem da palavra, determina o emprego.
 
-| Relação | Formas típicas |
-| --- | --- |
-| adição | `e`, `nem`, `não só... mas também` |
-| contraste | `mas`, `porém`, `contudo` |
-| alternância | `ou`, `ora... ora`, `quer... quer` |
-| conclusão | `logo`, `portanto`, `pois` em certos usos |
-| explicação | `porque`, `que`, `pois` em certos usos |
+### 3.3 Locuções e uniões com outras palavras
 
-### 4.2 Valores subordinativos mais frequentes
+**Locuções prepositivas** ligam termos como uma preposição: *por causa de*, *a fim de*, *diante de*, *em vez de*, *acerca de*, *em relação a*, *de acordo com*. Em *apesar da chuva, houve atendimento*, *apesar de* introduz um obstáculo que não impediu o fato: relação de **concessão**.
 
-| Relação | Formas típicas |
-| --- | --- |
-| integração de oração substantiva | `que`, `se` |
-| causa | `porque`, `como`, `já que` |
-| condição | `se`, `caso` |
-| concessão | `embora`, `ainda que` |
-| comparação | `como`, `mais... do que` |
-| conformidade | `conforme`, `segundo` |
-| consequência | `tão... que`, `tanto... que` |
-| finalidade | `para que`, `a fim de que` |
-| proporção | `à medida que`, `quanto mais... mais` |
-| tempo | `quando`, `assim que` |
+Observe a extensão analisada: *diante de* é locução prepositiva; *diante da porta*, em *esperou diante da porta*, é a expressão completa que indica o lugar da espera e tem valor adverbial.
 
-Não é necessário transformar esta página em uma revisão completa da sintaxe das orações: os quadros servem para reconhecer o emprego da classe.
+A união da preposição com outra palavra pode ser **combinação**, sem perda de sons (*a + o = ao*), ou **contração**, com alteração ou redução (*de + o = do; em + o = no; por + o = pelo; de + aquele = daquele*). Em *a + a = à*, a fusão chama-se **crase**, indicada pelo acento grave. Em *dos relatórios*, o plural está no <abbr title="palavra que acompanha o substantivo e o determina">artigo</abbr> *os*, não em *de*.
 
-### 4.3 Formas polifuncionais
+Regência e condições de uso da crase são aprofundadas nos assuntos 013 e 014. Reconheça a preposição mesmo quando não aparece separada.
 
-#### `pois`
+## 4. Conjunção: como duas estruturas se relacionam?
 
-> Apresente o comprovante, **pois** ele é obrigatório. → valor explicativo.  
-> O comprovante era obrigatório; deveria, **pois**, ser apresentado. → valor conclusivo.
+Em *revisou o relatório e a planilha*, *e* liga dois termos com o mesmo papel: indicar o que foi revisado. Em *revisou o relatório e publicou a planilha*, liga duas orações. A ligação no mesmo nível chama-se **coordenação**.
 
-A posição e a relação entre as ideias ajudam a determinar o emprego.
+Em *informou que a planilha estava pronta*, a segunda oração fornece o conteúdo informado: ela funciona dentro da estrutura maior. Essa dependência chama-se **subordinação**. Conjunções podem realizar esses dois tipos de ligação; nem toda palavra que liga orações, porém, é conjunção.
 
-#### `se`
+### 4.1 Conjunções coordenativas: relações entre unidades do mesmo nível
 
-> Não sei **se** haverá recurso. → conjunção integrante.  
-> **Se** houver recurso, o prazo será reaberto. → conjunção condicional.
+A soma em *revisou e publicou* difere do contraste em *revisou, mas não publicou*. Os grupos tradicionais distinguem essas relações:
 
-#### `que`
+| Grupo | Relação | Formas frequentes |
+| --- | --- | --- |
+| Aditivas | Somam ou associam | e, nem, não só… mas também |
+| Adversativas | Contrapõem, restringem ou quebram uma expectativa | mas, porém, contudo |
+| Alternativas | Indicam escolha ou alternância | ou, ora… ora, quer… quer |
+| Conclusivas | Apresentam o que se deduz do trecho anterior | logo, portanto, pois em certo emprego |
+| Explicativas | Justificam uma afirmação, ordem ou conselho | porque, que, pois em certo emprego |
 
-> Informou **que** compareceria. → conjunção integrante.  
-> O relatório **que** chegou será analisado. → `que` retoma antecedente e é pronome relativo, não conjunção.
+O valor típico não esgota o contexto: *prometeu rapidez e demorou meses* expressa contraste; *revisou e publicou*, sequência. *Ou* pode excluir uma opção (*será escolhido um relator: Ana ou Paulo*) ou admitir ambas (*experiência em gestão ou contabilidade*). Em *não só revisou, mas também publicou*, o par expressa adição, não oposição.
 
-#### `quando`
+Compare os empregos de *pois*: *apresente o comprovante, pois ele é obrigatório* justifica a ordem; *o comprovante era obrigatório; deveria, pois, ser apresentado* extrai uma conclusão. O *pois* conclusivo aparece deslocado, após o verbo. **Posição e sentido devem ser lidos juntos**, sem presumir que toda conjunção exija vírgula.
 
-> **Quando** a sessão começou, as portas foram fechadas. → conjunção temporal.  
-> **Quando** começará a sessão? → advérbio interrogativo.
+### 4.2 Conjunções subordinativas: conteúdo ou circunstância?
 
-#### `ora`
+Em *informou que compareceria*, a segunda oração fornece o conteúdo: *informou isso*. Em *não sei se haverá recurso*, há o mesmo funcionamento: *não sei isso*. *Que* e *se* são **conjunções integrantes**: introduzem orações com funções próprias de substantivo. Substitui-se **a oração inteira**, não só a conjunção.
 
-> **Ora** estuda, **ora** trabalha. → elemento correlativo de alternância.  
-> **Ora!** Isso não faz sentido. → interjeição.
+Já em *se houver recurso, o prazo será reaberto*, há uma condição, não um conteúdo desconhecido: *se* é **condicional**. As conjunções subordinativas adverbiais introduzem circunstâncias. Em *embora estivesse cansada, concluiu o relatório*, há um obstáculo superado, não a causa da conclusão.
 
-### 4.4 Relação semântica não é classe morfológica
+| Relação | O que a oração acrescenta | Formas frequentes |
+| --- | --- | --- |
+| Causa | Motivo do fato | porque, como, já que |
+| Condição | Hipótese de que o fato depende | se, caso |
+| Concessão | Obstáculo que não impede o fato | embora, ainda que |
+| Comparação | Segundo termo de um confronto | como, mais… do que |
+| Conformidade | Referência com a qual algo está de acordo | conforme, segundo |
+| Consequência | Resultado, frequentemente associado a intensidade | tão… que, tanto… que |
+| Finalidade | Objetivo pretendido | para que, a fim de que |
+| Proporção | Variação que acompanha outra | à medida que, quanto mais… mais |
+| Tempo | Momento ou relação temporal | quando, assim que |
 
-Expressões como `por isso`, `desse modo` e `assim` podem estabelecer conclusão ou consequência no texto. A presença desse valor lógico **não autoriza, por si só, classificá-las como conjunções**. Em questão morfológica, identifique a estrutura efetiva do conector e siga a nomenclatura adotada pelo enunciado quando houver tradição gramatical divergente.
+Causa não é mera justificativa de uma fala: *foi eliminado porque faltou* apresenta a causa da eliminação; *compareça, porque sua presença é necessária* justifica o pedido. A mesma palavra pode ser causal ou explicativa conforme a relação construída.
 
-Também não existe regra de que toda conjunção exija vírgula. Pontuação é assunto próprio e depende da estrutura sintática.
+### 4.3 Distinguir construções parecidas
 
-## 5. Interjeição
+Em *o relatório que chegou será analisado*, *que* retoma *relatório* e o representa dentro da oração: **o relatório chegou**. É **pronome relativo**, não conjunção integrante. O termo retomado chama-se **antecedente**. Na integrante *informou que compareceria*, *que* não representa um antecedente: apenas introduz o conteúdo informado.
 
-A **interjeição** exprime reação, emoção, apelo, saudação, advertência ou chamamento, muitas vezes formando enunciado autônomo:
+Em *conforme o regulamento*, *conforme* introduz um <abbr title="conjunto organizado em torno de um nome">grupo nominal</abbr>: é preposição acidental. Em *conforme prevê o regulamento*, introduz oração: conjunção conformativa. *Como* também muda: *Como foi a revisão?* pergunta pelo modo; *Como faltavam dados, a revisão parou* apresenta causa.
 
-`ah!`, `ai!`, `ufa!`, `oba!`, `olá!`, `psiu!`, `socorro!`, `epa!`.
+Não transforme isso na regra “se há verbo depois, há conjunção”:
 
-**Locuções interjetivas** têm mais de uma palavra: `ai de mim!`, `ora bolas!`, `meu Deus!`, `valha-me Deus!`.
+> Trabalhou **a fim de** concluir o relatório.  
+> Trabalhou **a fim de que** o relatório fosse concluído.
 
-O ponto de exclamação é frequente, mas não define sozinho a classe. Compare:
+Ambas contêm oração de finalidade. Na primeira, *a fim de* é locução prepositiva; *concluir* está no **infinitivo**, forma que apresenta o processo sem, por si só, situá-lo no tempo. A oração é **reduzida de infinitivo**. Na segunda, *a fim de que* é locução conjuntiva, e a oração é **desenvolvida**, com *fosse concluído*. Analise a ligação e a forma verbal juntas.
 
-> **Ora!** Não exagere. → interjeição.  
-> **Ora** lê, **ora** escreve. → elemento de alternância.
+Por fim, *quando a sessão começou, fecharam as portas* situa um fato no tempo: *quando* é conjunção temporal. Em *não sei quando a sessão começou*, continua perguntando indiretamente pelo momento: advérbio interrogativo.
 
-A função expressiva é o critério central.
+### 4.4 Conector não é sinônimo de conjunção
 
-## 6. Matriz de formas que mudam de classe
+**Conector** é uma designação ampla para elementos que articulam partes do texto. Em *o prazo terminou; por isso, o pedido foi rejeitado*, *por isso* estabelece conclusão ou consequência, mas esse sentido não o transforma em conjunção simples. *Assim* e *desse modo* também podem ligar ideias com valor conclusivo.
 
-| Forma | Contexto 1 | Classe/emprego | Contexto 2 | Classe/emprego |
-| --- | --- | --- | --- | --- |
-| `alto` | `parede alta` | adjetivo | `falar alto` | advérbio |
-| `meio` | `meia hora` | emprego nominal variável | `meio cansadas` | advérbio |
-| `bastante` | `bastantes motivos` | emprego nominal variável | `bastante claros` | advérbio |
-| `segundo` | `segundo candidato` | numeral | `segundo o edital` | preposição acidental |
-| `conforme` | `conforme o edital` | preposição acidental | `conforme prevê o edital` | conjunção |
-| `que` | `disse que viria` | conjunção integrante | `texto que chegou` | pronome relativo |
-| `quando` | `quando chegou, sentou` | conjunção temporal | `quando chegará?` | advérbio interrogativo |
-| `ora` | `ora lê, ora escreve` | conector de alternância | `ora!` | interjeição |
+Separe **classe** (tipo de palavra), **função sintática** (papel na estrutura) e **valor semântico** (sentido). Algumas gramáticas tratam *porém* e *portanto* como <abbr title="advérbios que articulam relações entre partes do texto">advérbios conectivos</abbr>; a tradição escolar os inclui entre as conjunções. Siga a perspectiva solicitada, sem confundir divergência de nome com mudança de sentido. Os assuntos 009 e 010 aprofundam essas estruturas.
 
-## 7. Roteiro de prova
+## 5. Interjeição: uma reação pode constituir um enunciado
 
-1. **Identifique o núcleo relacionado:** a palavra modifica algo ou conecta estruturas?
-2. **Observe o contexto**, não apenas a forma gráfica.
-3. Em `meio`, `muito`, `pouco` e `bastante`, veja se há emprego nominal variável ou adverbial invariável.
-4. Em `segundo` e `conforme`, veja se o termo seguinte é nominal ou se há uma oração introduzida.
-5. Em `que`, `se`, `quando`, `como`, `pois` e `ora`, verifique a função concreta antes de classificar.
-6. Diferencie **valor semântico** de **classe morfológica**.
-7. Em locuções, analise o conjunto: adverbial, prepositiva, conjuntiva ou interjetiva.
-8. Não resolva questão de classe usando automaticamente regras de pontuação, regência ou sintaxe de orações.
+*Ufa!* manifesta alívio; *ai!*, dor; *olá!*, saudação; *psiu!*, chamamento ou pedido de silêncio; *epa!*, advertência ou surpresa. São **interjeições**, expressões que podem funcionar autonomamente, sem modificar um verbo nem ligar termos. A interpretação depende da situação e da <abbr title="variações da voz que ajudam a expressar intenção">entonação</abbr>: *ah!* pode exprimir compreensão, satisfação ou decepção.
 
-## 8. Pegadinhas
+Expressões com mais de uma palavra e essa mesma função são **locuções interjetivas**: *meu Deus!*, *ai de mim!*, *ora bolas!*, *valha-me Deus!*.
 
-- Advérbio é invariável; palavra de mesma forma em emprego nominal pode variar.
-- `alto` após verbo não é necessariamente adjetivo.
-- `segundo` não é sempre numeral.
-- `conforme` não é sempre conjunção.
-- `que` não é sempre conjunção.
-- `quando` não é sempre conjunção.
-- Uma expressão pode ter valor conclusivo sem ser, morfologicamente, conjunção.
-- Exclamação não transforma qualquer palavra em interjeição.
-- Locução é classificada pela função do conjunto, não apenas pela última palavra.
-
-## 9. Limites do assunto
-
-- Classes nominais: Assunto 006.
-- Verbo como classe de palavras: Assunto 007.
-- Coordenação entre orações e termos: Assunto 009.
-- Subordinação entre orações e termos: Assunto 010.
-- Pontuação: Assunto 011.
-- Crase: Assunto 014.
-- Coesão e conectores como estratégia textual: Assunto 004.
+O sinal de exclamação não determina a classe: *ela chegou cedo!* continua contendo o advérbio *cedo*. Em *ora lê, ora escreve*, *ora… ora* articula alternância; em *ora! Não exagere*, *ora!* manifesta uma reação. **É o trabalho da palavra no enunciado que decide a análise.**
