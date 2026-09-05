@@ -8,75 +8,205 @@ storageId: emprego-tempos-modos-verbais
 
 # Emprego de tempos e modos verbais
 
-O item 4.2 do edital não se resume à memorização de paradigmas. Em prova, a banca costuma perguntar **o que a forma verbal faz no contexto**: localiza um evento, apresenta-o como concluído ou em curso, enquadra-o como fato, hipótese, ordem, desejo, avaliação ou informação atribuída e estabelece relações com outros verbos do período.
+**“A comissão analisou o recurso” e “A comissão analisava o recurso” falam do passado. Por que não dizem a mesma coisa?** A primeira apresenta a análise como uma ocorrência delimitada; a segunda nos coloca dentro de seu desenvolvimento ou de um hábito. Trocar o verbo pode manter a gramática e mudar a informação.
 
-Uma substituição só preserva o texto quando mantém, conforme o que o enunciado exigir:
+Os exemplos deste capítulo são hipotéticos. Acompanhe três perguntas: **quando a situação é localizada, como seu desenvolvimento é apresentado e como o falante a considera** — fato, possibilidade, desejo ou ordem.
 
-- a correção gramatical;
-- a referência temporal;
-- o aspecto;
-- a modalidade;
-- a força comunicativa;
-- a coerência e o sentido.
+## 1. Forma verbal, tempo e ponto de referência
 
-> **Regra de prova:** duas formas podem ser gramaticalmente possíveis e, ainda assim, não ser equivalentes.
+Em “A comissão se reúne amanhã”, **reúne** está no presente, mas a reunião é futura. O **tempo verbal** classifica a forma; a **referência temporal** resulta da forma e do contexto, incluindo palavras como *amanhã* e *já*.
 
-## 1. Quatro planos que não devem ser confundidos
+Nem todo verbo se orienta diretamente pelo momento em que alguém fala:
 
-| Plano | Pergunta útil | Exemplo |
+> Quando a comissão **chegou**, o servidor já **encerrara** a conferência.
+
+O encerramento precedeu a chegada; ambos precedem o relato. A chegada é o **ponto de referência** para *encerrara*: passado anterior a outro passado, não simplesmente “muito antigo”.
+
+Já em “O servidor disse que **voltaria**”, o retorno é posterior ao ato de dizer. Pode ter ocorrido antes de quem narra contar a história. **Futuro em relação a um passado não significa necessariamente futuro em relação a agora.**
+
+## 2. Como o passado organiza uma narrativa
+
+### Perfeito e imperfeito: ocorrência delimitada ou visão interna
+
+Compare:
+
+> Ontem, a comissão **analisou** o recurso durante duas horas.  
+> A comissão **analisava** o recurso quando o sistema falhou.
+
+*Analisou* está no **pretérito perfeito do indicativo**. “Pretérito” significa passado; o **indicativo** apresenta o conteúdo como afirmado ou assumido. O perfeito mostra a ocorrência como um todo delimitado, ainda que dure horas: não significa “instantâneo”. Tampouco *analisou* garante que todas as questões do recurso foram resolvidas.
+
+*Analisava*, **pretérito imperfeito do indicativo**, mostra a situação por dentro, sem focalizar seu término. Não informa se a análise foi concluída depois: imperfeito não significa “ação que nunca terminou”.
+
+Essa maneira de apresentar o desenvolvimento é o **aspecto verbal**: visão global e delimitada, chamada **perfectiva**, ou visão interna, chamada **imperfectiva**. Tempo localiza; aspecto mostra como se olha para a situação. O contexto acrescenta diferenças importantes:
+
+| Construção | O que o imperfeito destaca |
+| --- | --- |
+| A equipe analisava o recurso quando houve a falha. | Processo em curso naquele ponto do passado |
+| A equipe analisava recursos toda sexta-feira. | Hábito, isto é, repetição regular |
+| A sala era pequena e estava silenciosa. | Descrição do cenário |
+| Enquanto a equipe trabalhava, o servidor conferia os dados. | Simultaneidade entre situações |
+
+Na sequência “O servidor **abriu**, **leu** e **encaminhou** o processo”, os perfeitos fazem a narrativa avançar. Os imperfeitos costumam construir o cenário em que esses acontecimentos se desenrolam.
+
+### Mais-que-perfeito: recuar dentro do passado
+
+Na cena da chegada da comissão, *encerrara* é o **pretérito mais-que-perfeito simples do indicativo**. **Tinha encerrado** e **havia encerrado** são formas compostas que preservam aquela anterioridade. A forma simples é mais característica da escrita formal ou literária: equivalência temporal não elimina diferença de estilo.
+
+### Imperfeito sem passado efetivo
+
+“Eu **queria** uma informação” pode ser um pedido atual. O imperfeito suaviza a abordagem: é o **imperfeito de cortesia ou polidez**, sem necessariamente indicar um desejo que acabou.
+
+Em “Se me liberassem, eu **viajava** ainda hoje”, o imperfeito substitui *viajaria* na consequência de uma hipótese. Esse uso coloquial não deve ser confundido com hábito passado; para uma reescrita formal neutra, prefira “Se me liberassem, eu **viajaria**”.
+
+## 3. Presente e futuros: o nome não esgota o sentido
+
+### Presente do indicativo
+
+“A comissão **trabalha** agora” destaca o momento atual; “A comissão **trabalha** às sextas”, o hábito. Já “A pressa **prejudica** a análise” apresenta uma generalização, não um acontecimento isolado: é o presente **atemporal ou gnômico**.
+
+Em “Naquela manhã, o servidor **abre** o sistema e **encontra** a falha”, o **presente histórico** aproxima a cena passada do leitor. *Abriu* e *encontrou* podem conservar a cronologia, mas perdem esse efeito de atualização.
+
+O presente também apresenta o futuro como programado (*se reúne amanhã*) ou orienta ações (*primeiro você abre; depois seleciona*). Nesse último caso, a instrução não transforma a forma em <abbr title="Modo verbal usado para dirigir uma ação ao interlocutor">imperativo</abbr>.
+
+### Futuro do presente
+
+“O resultado **sairá** amanhã” situa a divulgação depois da fala. Mas o futuro também pode indicar uma avaliação:
+
+> O servidor **terá** cerca de quarenta anos.  
+> Você **entregará** o relatório até amanhã.  
+> Ele **será** competente, mas não demonstrou isso nesta análise.
+
+Na primeira frase, *terá* exprime uma estimativa: aproximadamente “deve ter”. Na segunda, conforme a situação, *entregará* pode ser previsão ou ordem. Na terceira, admite-se uma qualidade para contrapô-la a uma ressalva: é um valor **concessivo**, de “admitamos que seja”.
+
+Assim, o futuro pode exprimir posterioridade, previsão, **inferência** — conclusão a partir de indícios — ou ordem, também chamada **injunção**. Não garante certeza absoluta.
+
+### Futuro do pretérito
+
+A partir de um ponto passado, “Disse que **voltaria**” projeta o retorno para depois. Fora dessa relação temporal, o mesmo tempo serve à hipótese (“Com mais tempo, **concluiria** a análise”), à cortesia (“**Poderia** enviar o arquivo?”) ou à informação não confirmada (“Segundo a notícia, o contrato **teria sido alterado**”).
+
+A atribuição à notícia distancia o falante da confirmação do fato: é um valor **evidencial**, relacionado à fonte da informação. Nem toda forma em *-ria*, porém, exprime dúvida.
+
+Na nomenclatura escolar brasileira, o nome é **futuro do pretérito do indicativo**. *Condicional* pode designar um valor ou a denominação usada em outra tradição gramatical; não é um quarto modo nessa nomenclatura.
+
+## 4. Modos: afirmar, subordinar uma possibilidade, dirigir uma ação
+
+O **modo verbal** é uma categoria das formas do verbo: indicativo, <abbr title="Modo que enquadra o conteúdo em desejo, hipótese ou avaliação">subjuntivo</abbr> ou <abbr title="Modo verbal usado para dirigir uma ação ao interlocutor">imperativo</abbr>. A **modalidade** é a atitude diante do conteúdo, como certeza, possibilidade, desejo ou obrigação. Pode aparecer em diferentes modos, em *poder*, *dever* ou *talvez*.
+
+### Indicativo e subjuntivo no contexto
+
+Compare “Sei que a comissão **publicou** o resultado” e “Espero que a comissão **publique** o resultado”. O indicativo apresenta a publicação como fato conhecido; o **subjuntivo** a enquadra como objeto de expectativa. Esse modo também ocorre na dependência de desejo, avaliação, condição ou outras relações.
+
+**Indicativo não certifica a verdade; subjuntivo não significa necessariamente falsidade ou dúvida.** Em “Embora o servidor **esteja** presente, não participa da reunião”, sua presença pode ser um fato aceito. O subjuntivo acompanha a concessão: a presença não produz a consequência esperada.
+
+Uma **oração** organiza-se em torno de verbo ou <abbr title="Conjunto de verbos que funciona como uma unidade">locução verbal</abbr>. Em “Espero / que a comissão publique”, a segunda oração completa a primeira: é **subordinada** a ela. O modo depende da relação e do sentido, não da simples presença de *que*.
+
+| Relação já identificada | Construção típica |
+| --- | --- |
+| Conhecimento ou constatação | Sei que há falhas; o relatório mostra que existem falhas. |
+| Desejo, expectativa ou necessidade | Desejo que venha; espero que publique; é necessário que decida. |
+| Dúvida ou negação de crença | Duvido de que venha; não acredito que existam falhas. |
+| Pedido ou prevenção | Solicito que relatem; evito que o erro se repita. |
+| Finalidade: resultado que se pretende alcançar | Organize os dados para que a comissão compreenda. |
+| Concessão: ressalva que não impede a conclusão | Embora pareça simples, exige atenção; ainda que discorde, respeite. |
+| Condição | Caso haja erro, avise; aceitarei, contanto que esteja completo. |
+
+As tendências não autorizam trocar formas mecanicamente. *Desde que*, por exemplo, pode introduzir condição (“Aceito, desde que você **concorde**”) ou marcar o início de um período (“Trabalho aqui desde que **terminei** o curso”). A relação muda e o modo pode mudar com ela.
+
+### O que se procura já é conhecido ou é apenas desejado?
+
+> Procuro o servidor que **conhece** o sistema.  
+> Procuro um servidor que **conheça** o sistema.
+
+A parte iniciada por *que* caracteriza *servidor*: é uma **oração relativa**. A primeira apresenta alguém identificável com aquele conhecimento; a segunda estabelece uma propriedade desejada, sem assegurar que a pessoa esteja identificada.
+
+Não é uma regra automática de artigo definido ou indefinido. “Conheço um servidor que **domina** o sistema” usa *um* e indicativo porque afirma uma propriedade de alguém cuja existência é assumida.
+
+## 5. Antes das locuções: o papel de cada verbo
+
+Em “A equipe **estava analisando**”, o verbo principal *analisando* fornece a atividade; o auxiliar *estava* a situa no passado e a apresenta em curso. Juntos, formam uma **locução verbal**: um ou mais auxiliares acompanham o principal.
+
+O principal aparece em uma **forma nominal**: **infinitivo**, que nomeia o processo (*analisar*, *ser*); **gerúndio**, em *-ndo* (*analisando*, *sendo*); ou **particípio** (*analisado*, *sido*, *feito*). Essas formas não trazem toda a marcação temporal e modal de *analisávamos*: dependem do auxiliar e do contexto.
+
+### Tempos compostos: ter ou haver + particípio
+
+**Tinha analisado** é um tempo composto; **analisara**, uma forma simples. Mas nem todo composto equivale ao simples:
+
+> A equipe **revisou** os critérios ontem.  
+> A equipe **tem revisado** os critérios nas últimas semanas.
+
+**Tem revisado é pretérito perfeito composto do indicativo**, embora *tem* esteja no presente. No português brasileiro, normalmente exprime repetição ou duração em um intervalo que alcança o presente. Não equivale automaticamente a *revisou*, nem exige atividade ininterrupta.
+
+Nas demais construções, a relação com um ponto de referência ajuda a entender o composto:
+
+| Forma | Relação ou leitura típica |
+| --- | --- |
+| Tinha/havia analisado quando a comissão chegou. | Mais-que-perfeito do indicativo: anterioridade a um passado |
+| Até amanhã, terá analisado os dados. | Futuro do presente composto: conclusão anterior a uma referência futura |
+| Não responde; terá esquecido a senha. | O mesmo futuro composto, agora como inferência sobre o passado |
+| Com mais tempo, teria analisado os dados. | Futuro do pretérito composto: resultado hipotético |
+| Espero que tenha analisado os dados. | Pretérito perfeito composto do subjuntivo: situação anterior considerada na expectativa atual |
+| Se tivesse analisado os dados, teria notado o erro. | Mais-que-perfeito do subjuntivo: condição anterior não realizada, nessa leitura |
+| Quando tiver analisado os dados, responda. | Futuro composto do subjuntivo: conclusão eventual anterior à resposta |
+
+Nos tempos compostos, *haver* pode substituir *ter*, mas sua frequência varia; no perfeito composto do indicativo, o uso de *haver* é raro. Não estenda a equivalência automaticamente a qualquer locução com esses verbos.
+
+## 6. Tempos simples do subjuntivo e reconhecimento das formas
+
+O **presente do subjuntivo** pode referir-se a agora (*espero que esteja em casa*) ou a depois (*espero que venha amanhã*). O **pretérito imperfeito do subjuntivo** acompanha uma referência passada (*era necessário que viesse*) ou uma hipótese presente ou futura (*se viesse amanhã, conversaríamos*).
+
+O **futuro do subjuntivo** aparece em situações futuras eventuais: “Quando ele **vier**, conversaremos”; “Se **houver** dúvida, consulte”; “Quem **apresentar** recurso receberá resposta”. Há, respectivamente, localização temporal, condição e identificação de quem vier a praticar a ação.
+
+Entretanto, **nem toda referência futura exige futuro do subjuntivo**: “Espero que **venha** amanhã” e “Caso **venha** amanhã, avise” empregam o presente. São inadequadas, nessas construções, as trocas isoladas por *vier*.
+
+Também diferencie “Quando ele **vier**, avise” de “Quando ele **virá**?”. A primeira contém uma oração temporal; a segunda pergunta em que momento ele virá. Na pergunta indireta “Não sei quando ele **virá**”, o indicativo também é possível.
+
+### Futuro do subjuntivo não é infinitivo
+
+Em verbos regulares, as formas podem coincidir: *quando analisar* e *para analisar*. Nos irregulares, a diferença fica visível: **quando fizer**, mas **para fazer**; **se vir o erro**, mas **para ver o erro**.
+
+Para obter a forma de *eu/ele* do futuro do subjuntivo, retire *-am* do perfeito de *eles*: *fizeram → fizer*. Acrescente as terminações de pessoa: *fizer, fizeres, fizer, fizermos, fizerdes, fizerem*.
+
+| Infinitivo | Perfeito do indicativo: eles | Futuro do subjuntivo: se eu/ele |
 | --- | --- | --- |
-| tempo cronológico | quando o fato ocorre em relação a outro ponto? | `A comissão já encerrara os trabalhos quando ele chegou.` |
-| tempo verbal | que forma flexionada foi empregada? | `encerrara`: mais-que-perfeito do indicativo |
-| aspecto | como o desenvolvimento do evento é apresentado? | `analisou` × `analisava` × `está analisando` |
-| modo/modalidade | como o enunciador enquadra o conteúdo? | fato, hipótese, desejo, ordem, inferência |
+| ter / manter / obter | tiveram / mantiveram / obtiveram | tiver / mantiver / obtiver |
+| fazer / satisfazer | fizeram / satisfizeram | fizer / satisfizer |
+| dizer / trazer | disseram / trouxeram | disser / trouxer |
+| pôr / propor | puseram / propuseram | puser / propuser |
+| vir / intervir | vieram / intervieram | vier / intervier |
+| ver / prever | viram / previram | vir / previr |
+| reaver / caber | reouveram / couberam | reouver / couber |
+| requerer | requereram | requerer |
 
-A forma verbal e o valor contextual não são idênticos. O presente, por exemplo, pode indicar simultaneidade à fala, hábito, verdade geral, evento histórico ou futuro programado:
+**Ver → vir; vir → vier.** *Requerer* não segue *querer* nessa formação: é *se requerer*, não *se requiser*. O reconhecimento pelo contexto continua necessário mesmo quando infinitivo e futuro têm a mesma grafia.
 
-> O servidor **analisa** o processo agora.  
-> O setor **analisa** recursos toda semana.  
-> A água **ferve** a 100 °C em condições normais.  
-> Em 1988, a Constituição **institui** nova ordem jurídica.  
-> Amanhã a comissão **se reúne** às nove horas.
+## 7. Correlação verbal: combinar perspectivas, não decorar pares
 
-## 2. Modos verbais
+A **correlação verbal** é a articulação entre tempos e modos para construir uma relação coerente. Nas condicionais, separe a condição, chamada <abbr title="Oração que apresenta a condição">prótase</abbr>, da consequência, chamada <abbr title="Oração que apresenta a consequência da condição">apódose</abbr>.
 
-### 2.1 Indicativo
+“Se a equipe **revisar**, **encontrará** o erro” deixa aberta uma condição futura. “Se a equipe **revisasse**, **encontraria** o erro” apresenta a situação com maior distância hipotética; não prova, por si só, que revisar seja impossível. Já “Se a equipe **tivesse revisado**, **teria encontrado** o erro” pode reconstruir um passado não realizado. Nessa leitura, a condição é **contrafactual**: contrária ao que se assume ter acontecido.
 
-O indicativo apresenta o conteúdo como assertado, constatado, narrado ou assumido na construção do enunciado:
+| Relação | Exemplo e efeito |
+| --- | --- |
+| Regularidade | Se revisa, encontra erros: relação habitual ou geral. |
+| Condição futura aberta | Se revisar, encontrará o erro: eventual realização futura. |
+| Orientação condicionada | Se encontrar erro, avise: a consequência é uma instrução. |
+| Hipótese mais distante | Se revisasse, encontraria o erro: realização considerada hipoteticamente. |
+| Passado não realizado | Se tivesse revisado, teria encontrado o erro. |
+| Passado com consequência atual | Se tivesse revisado, estaria tranquilo hoje. |
 
-> O órgão **publicou** o edital.  
-> A equipe **examinará** os documentos.
+A correlação mista é coerente: uma condição passada pode ter consequência atual. Também vale “Se você **vier** amanhã, **conversamos**”: o presente assume valor futuro. Os pares não são exclusivos.
 
-Isso não significa `indicativo = verdade absoluta`. Uma afirmação no indicativo pode ser falsa, contestada, atribuída a terceiro ou apresentada como provável.
+### Por que “se teria” pode estar correto?
 
-### 2.2 Subjuntivo
+“Não sei **se teria** condições de participar” contém uma pergunta incorporada a outra frase: “Teria condições?”. É uma **interrogativa indireta**, não uma condição.
 
-O subjuntivo costuma ocorrer em eventos dependentes, desejados, avaliados, condicionados, concessivos, prospectivos ou não assumidos como fatos autônomos:
+Para formular a condição no padrão formal, use “Se **tivesse** condições, participaria”, não “Se **teria** condições, participaria”. O julgamento depende da função de *se*, e não da mera sequência de palavras.
 
-> Espero que a comissão **publique** o resultado.  
-> Embora o relatório **pareça** simples, exige atenção.  
-> Se o candidato **estudasse**, teria mais segurança.  
-> Quem **apresentar** recurso receberá resposta.
+## 8. Imperativo: intenção de orientar e pessoa a quem se fala
 
-Não reduza o subjuntivo a “dúvida”. Desejo, necessidade, concessão, finalidade, ordem indireta e referência futura eventual também podem selecioná-lo.
+O **imperativo** dirige uma ação ao interlocutor: ordena, pede, aconselha, convida, adverte ou proíbe. “**Leia** com atenção” orienta diretamente; “Espero que você **leia**” contém subjuntivo, embora também expresse uma expectativa sobre a conduta do leitor.
 
-### 2.3 Imperativo
-
-O imperativo realiza atos diretivos:
-
-- ordem;
-- pedido;
-- conselho;
-- instrução;
-- convite;
-- advertência;
-- proibição.
-
-> **Leia** o enunciado.  
-> **Não altere** a resposta.  
-> **Consultem** o fiscal em caso de dúvida.
-
-Na norma-padrão, o imperativo negativo usa formas do presente do subjuntivo. No afirmativo, `tu` e `vós` derivam do presente do indicativo sem `s`; as demais pessoas coincidem com o presente do subjuntivo.
+Na norma-padrão, o imperativo negativo usa as formas do presente do subjuntivo. No afirmativo, *tu* e *vós* geralmente correspondem ao presente do indicativo sem o *s*: *falas → fala*; *falais → falai*. As demais pessoas usam formas correspondentes ao presente do subjuntivo. A exceção importante é **ser: sê tu, sede vós**.
 
 | Pessoa | Afirmativo | Negativo |
 | --- | --- | --- |
@@ -86,349 +216,57 @@ Na norma-padrão, o imperativo negativo usa formas do presente do subjuntivo. No
 | vós | falai | não faleis |
 | vocês | falem | não falem |
 
-O português brasileiro apresenta variação efetiva, mas questões normativas podem exigir a correlação formal entre pessoa de tratamento e forma verbal.
+Não há imperativo para *eu*. *Você* designa o interlocutor, mas recebe <abbr title="Variação da forma de uma palavra">flexão</abbr> de terceira pessoa. A variação da fala brasileira não elimina essa distinção no padrão formal.
 
-## 3. Aspecto verbal
+**Intenção de ordem não equivale sempre a modo imperativo.** “Não falarás durante a reunião” pode ser uma proibição no futuro do indicativo. Inversamente, “Você participa?” dirige-se ao interlocutor sem constituir imperativo. Até formas idênticas exigem contexto: *eu ouvi* é passado; *ouvi, vós* pode ser uma ordem.
 
-O aspecto mostra como o evento é focalizado, independentemente de sua mera localização no tempo.
+## 9. Outras locuções: desenvolvimento, possibilidade e estado
 
-| Valor | Núcleo | Exemplo |
-| --- | --- | --- |
-| perfectivo | evento visto como um todo delimitado | `A equipe concluiu a análise.` |
-| imperfectivo | evento observado internamente, sem foco no limite | `A equipe analisava o processo.` |
-| progressivo | processo em curso em um ponto de referência | `A equipe estava analisando.` |
-| habitual | repetição regular | `A equipe analisava recursos às sextas.` |
-| iterativo | repetição de ocorrências | `A equipe tem revisto os critérios.` |
-| incoativo | início do processo | `A equipe passou a revisar os dados.` |
-| continuativo | manutenção do processo | `A equipe continua revisando os dados.` |
-| terminativo | cessação ou interrupção | `A equipe deixou de usar a planilha.` |
-| resultativo | estado decorrente de evento anterior | `O relatório está concluído.` |
+Mudar o auxiliar muda a perspectiva. “A equipe **estava analisando**” põe a análise em curso num ponto passado; “**esteve analisando** durante a manhã” delimita o intervalo desse processo. O valor **progressivo** é a apresentação em curso, não uma garantia de que a ação nunca acabará.
 
-### 3.1 Perfeito × imperfeito
+“**Passou a analisar**” destaca o início; “**continua analisando**”, a manutenção; “**deixou de analisar**”, conforme o contexto, a interrupção ou a não realização. Entendido esse percurso, os nomes técnicos resumem as diferenças:
 
-> A comissão **analisou** o recurso.
-
-O perfeito apresenta a ocorrência como delimitada e concluída.
-
-> A comissão **analisava** o recurso quando houve a interrupção.
-
-O imperfeito cria fundo narrativo, duração, simultaneidade, hábito ou cortesia. Não é simplesmente “passado não terminado no mundo”; é um modo de focalizar internamente a situação.
-
-### 3.2 Imperfeito de polidez e de hipótese
-
-> Eu **queria** solicitar uma informação.  
-> Se o sistema **funcionava** melhor, reduziríamos o prazo.
-
-No primeiro exemplo, o imperfeito atenua o pedido. No segundo, pode aparecer em registro menos formal com valor hipotético, embora a correlação normativa típica use `funcionasse`.
-
-### 3.3 Presente perfeito composto
-
-> A equipe **tem revisado** os critérios.
-
-No português brasileiro, `ter + particípio` no presente costuma marcar repetição ou duração que alcança o presente. Não equivale automaticamente ao perfeito simples:
-
-- `revisou`: ocorrência delimitada;
-- `tem revisado`: ocorrências repetidas ou processo reiterado até agora.
-
-## 4. Valores dos tempos do indicativo
-
-### 4.1 Presente
-
-Valores frequentes:
-
-- atual: `O relator fala agora.`
-- habitual: `O relator participa das sessões.`
-- atemporal: `A água congela a 0 °C.`
-- histórico: `Em 1988, promulga-se a Constituição.`
-- futuro programado: `A comissão se reúne amanhã.`
-- instrucional: `Primeiro, abre-se o sistema; depois, seleciona-se o processo.`
-
-### 4.2 Pretérito perfeito
-
-Apresenta fato passado como delimitado:
-
-> O órgão **publicou** a decisão ontem.
-
-Em narrativa, costuma fazer a progressão dos acontecimentos:
-
-> O servidor **abriu** o processo, **leu** o parecer e **encaminhou** os autos.
-
-### 4.3 Pretérito imperfeito
-
-Valores frequentes:
-
-- cenário;
-- ação em curso;
-- simultaneidade;
-- hábito;
-- repetição;
-- descrição;
-- polidez;
-- hipótese em registro coloquial.
-
-> Enquanto a equipe **trabalhava**, o sistema **apresentava** falhas.
-
-### 4.4 Pretérito mais-que-perfeito
-
-Marca anterioridade em relação a outro ponto passado:
-
-> Quando o auditor chegou, a unidade já **encerrara** a conferência.
-
-A forma simples pode corresponder, conforme o contexto, a `tinha/havia encerrado`. Registro e foco estilístico podem mudar.
-
-### 4.5 Futuro do presente
-
-Pode indicar:
-
-- posterioridade: `O resultado sairá amanhã.`
-- previsão: `A medida produzirá efeitos.`
-- inferência: `Ele terá cerca de quarenta anos.`
-- injunção: `Não matarás.`
-- concessão retórica: `Será competente, mas não apresentou os dados.`
-
-### 4.6 Futuro do pretérito
-
-Pode indicar:
-
-- posterioridade em relação a ponto passado: `Disse que voltaria.`
-- hipótese: `A medida reduziria custos.`
-- consequência condicional: `Se estudasse, passaria.`
-- cortesia: `Poderia encaminhar o arquivo?`
-- informação atribuída ou não confirmada: `O contrato teria sido alterado.`
-
-A denominação tradicional brasileira é **futuro do pretérito do indicativo**. “Condicional” pode nomear valor semântico ou tradição terminológica alternativa; não é, na gramática escolar brasileira, um quarto modo verbal autônomo.
-
-## 5. Seleção entre indicativo e subjuntivo
-
-A seleção depende do predicado principal, da negação, da avaliação, da referência e do efeito de sentido.
-
-| Estrutura | Tendência |
+| Construção | Valor contextual |
 | --- | --- |
-| `sei que`, `constato que`, `é certo que` | indicativo |
-| `espero que`, `desejo que`, `é necessário que` | subjuntivo |
-| `embora`, `ainda que`, `mesmo que` | subjuntivo na concessiva típica |
-| `caso`, `contanto que`, `desde que` condicional | subjuntivo |
-| `quando`, `assim que`, `logo que` com evento futuro | futuro do subjuntivo |
-| relativa com referente conhecido/factual | indicativo |
-| relativa com referente eventual, desejado ou indefinido | subjuntivo |
+| passou a analisar | <abbr title="Que destaca o início de um processo">Incoativo</abbr> |
+| continua analisando / seguiu analisando | <abbr title="Que destaca a manutenção de um processo">Continuativo</abbr> |
+| deixou de analisar | <abbr title="Que destaca o fim ou a interrupção de um processo">Terminativo</abbr>, ou não ocorrência: deixou de analisar aquele recurso |
+| voltou a analisar | Retomada de uma atividade |
+| vem analisando | Desenvolvimento ou repetição até o presente |
+| anda analisando vários casos | Duração ou repetição distribuída; esta última é um valor <abbr title="Que apresenta ocorrências repetidas">iterativo</abbr> |
+| acabou de analisar | Passado recente em relação ao ponto considerado |
+| vai analisar | Futuro, frequentemente planejado; não precisa ser próximo |
+| há de analisar | Futuro, expectativa ou compromisso, conforme o contexto |
 
-Compare:
+**Poder** e **dever** acrescentam avaliações. “Pela regra interna, deve comparecer” indica obrigação; “A luz está acesa; deve estar lá” indica probabilidade. “Pode acessar, pois recebeu autorização” exprime permissão; “Com treinamento, pode operar o sistema”, capacidade; “A falha pode voltar”, possibilidade. A interpretação vem da situação descrita, não de uma tradução fixa do auxiliar.
 
-> Procuro o servidor que **conhece** o sistema.  
-> Procuro um servidor que **conheça** o sistema.
+### Aprovação como acontecimento ou como estado
 
-No primeiro caso, o referente é apresentado como identificado. No segundo, é prospectivo ou indefinido.
+Compare “A comissão aprovou o relatório” com “O relatório **foi aprovado** pela comissão”. A segunda é **voz passiva**: o <abbr title="Termo ao qual se atribui o que é expresso pelo verbo">sujeito</abbr>, *o relatório*, recebe a ação. Ela apresenta o acontecimento da aprovação. “O relatório **está aprovado**” destaca o estado decorrente, um valor **resultativo**.
 
-### 5.1 Predicados e mudança de modo
+Não trate toda sequência *estar + particípio* como tempo composto ou como equivalente a uma passiva que narra um acontecimento. Já “O relatório **tem sido aprovado** sem ressalvas nas revisões mensais” combina tempo composto e voz passiva: *tem + sido*, mais o particípio *aprovado*, com repetição até o presente nesse contexto.
 
-> O relatório **mostra que existem** falhas.  
-> Não acredito que **existam** falhas.
+O aprofundamento de formas nominais, vozes e <abbr title="Variação da forma de uma palavra">flexão</abbr> pertence a **Verbo como classe de palavras**.
 
-A simples troca entre `existem` e `existam` pode alterar o grau de compromisso do enunciador e a relação com o predicado principal. Não é mera variação morfológica indiferente.
+## 10. Relatar uma fala muda o ponto de referência
 
-## 6. Tempos do subjuntivo
+No **discurso direto**, aparecem as palavras do falante: “Voltarei amanhã”. No **indireto**, relata-se o conteúdo: “Disse que voltaria no dia seguinte”. O retorno continua posterior à promessa; *amanhã* é reinterpretado a partir do dia dela.
 
-### 6.1 Presente
+*Eu*, *aqui* e *amanhã* dependem de quem fala, onde e quando: essa dependência é a **dêixis**. Ajuste pessoa, tempo e lugar quando a nova situação exigir.
 
-> Espero que ele **venha**.  
-> É necessário que a comissão **decida**.
-
-Marca evento dependente simultâneo ou posterior ao ponto presente.
-
-### 6.2 Pretérito imperfeito
-
-> Se ele **viesse**, conversaríamos.  
-> Era necessário que a comissão **decidisse**.
-
-Pode expressar hipótese remota, desejo ou dependência de referência passada.
-
-### 6.3 Futuro
-
-> Quando ele **vier**, conversaremos.  
-> Se a comissão **decidir**, publicará o resultado.  
-> Quem **obtiver** a certidão deverá anexá-la.
-
-Marca evento futuro eventual em subordinadas temporais, condicionais e relativas.
-
-### 6.4 Formas irregulares de alta incidência
-
-O futuro do subjuntivo parte, em regra prática, da terceira pessoa do plural do pretérito perfeito sem `-am`:
-
-| Infinitivo | Pretérito perfeito — eles | Futuro do subjuntivo |
-| --- | --- | --- |
-| ter | tiveram | tiver |
-| manter | mantiveram | mantiver |
-| obter | obtiveram | obtiver |
-| fazer | fizeram | fizer |
-| dizer | disseram | disser |
-| trazer | trouxeram | trouxer |
-| pôr | puseram | puser |
-| propor | propuseram | propuser |
-| vir | vieram | vier |
-| intervir | intervieram | intervier |
-| ver | viram | vir |
-| prever | previram | previr |
-| reaver | reouveram | reouver |
-| caber | couberam | couber |
-| satisfazer | satisfizeram | satisfizer |
-| requerer | requereram | requerer |
-
-Pegadinhas frequentes: `se ele vir`, `quando ele vier`, `se ele mantiver`, `quando propuser`, `se intervier`, `quando reouver`.
-
-## 7. Correlação verbal e condicionais
-
-A correlação não é tabela mecânica, mas alguns padrões são altamente produtivos.
-
-| Contexto | Padrão frequente |
+| Fala direta | Relato orientado pelo passado |
 | --- | --- |
-| hábito/regra | `Se estuda, melhora.` |
-| condição futura aberta | `Se estudar, melhorará.` |
-| ordem condicionada | `Se houver dúvida, consulte.` |
-| hipótese remota | `Se estudasse, melhoraria.` |
-| contrafactual passado | `Se tivesse estudado, teria passado.` |
-| consequência atual de passado não realizado | `Se tivesse estudado, estaria tranquilo hoje.` |
-| temporal futura | `Quando terminar, entregará.` |
-| relativa futura eventual | `Quem apresentar recurso terá resposta.` |
+| Estou analisando. | Disse que estava analisando. |
+| Concluí o trabalho. | Disse que havia concluído ou concluíra o trabalho. |
+| Voltarei amanhã. | Disse que voltaria no dia seguinte. |
+| Venha agora. | Ordenou que viesse naquele momento. |
 
-### 7.1 `Se teria` não é sempre erro
+A tabela mostra deslocamentos usuais, não uma regra de troca automática. “Disse ontem que **voltará** amanhã” é possível se a volta ainda for futura para quem relata. A permanência de uma informação como válida também pode justificar a manutenção do presente.
 
-> Não sei **se teria** condições de participar.
+## 11. Reescrever: correção não basta para preservar sentido
 
-Aqui, `se` introduz interrogativa indireta; não é conjunção condicional. A sequência pode ser correta.
+Considere “A equipe sabia que novas falhas **iam ocorrer**”. O conhecimento está no passado; as falhas são projetadas para depois daquele ponto. Trocar por **ocorreriam** preserva essa relação. Trocar por **ocorriam** pode produzir uma frase gramatical, mas passa a mostrar falhas habituais ou simultâneas àquele conhecimento.
 
-Na <abbr title="oração que expressa a condição">prótase</abbr> condicional normativa, porém, evita-se:
+O mesmo cuidado vale para as locuções: “O programa **tem sido incentivado**” e “O programa **vem sendo incentivado**” podem preservar uma ideia de continuidade até o presente. Isso não cria equivalência universal entre *ter* e *vir*, nem autoriza trocar por *foi incentivado* sem mudar a apresentação do processo.
 
-> Se teria estudado, passaria. ✗  
-> Se tivesse estudado, teria passado. ✓
-
-### 7.2 Formas mistas
-
-> Se o órgão **tivesse adotado** a medida, o serviço **seria** melhor hoje.
-
-A correlação combina passado contrafactual e consequência atual. É semanticamente coerente.
-
-## 8. Tempos compostos e locuções
-
-| Forma | Valor frequente |
-| --- | --- |
-| `tem analisado` | repetição/duração até o presente |
-| `tinha/havia analisado` | anterioridade passada |
-| `terá analisado` | conclusão anterior a referência futura ou inferência |
-| `teria analisado` | hipótese/contrafactual/informação atribuída |
-| `esteve analisando` | processo delimitado no passado |
-| `estava analisando` | processo em curso em referência passada |
-| `vai analisar` | futuridade próxima ou planejada |
-| `acabou de analisar` | passado recente |
-| `passou a analisar` | início |
-| `deixou de analisar` | interrupção ou não ocorrência |
-| `voltou a analisar` | retomada |
-| `continua analisando` | continuidade |
-| `vem analisando` | desenvolvimento progressivo até o presente |
-| `anda analisando` | repetição ou duração distribuída |
-| `há de analisar` | futuridade, compromisso ou valor modal |
-| `pode analisar` | possibilidade, permissão ou capacidade |
-| `deve analisar` | obrigação, recomendação ou probabilidade |
-
-A interpretação de auxiliares como `poder` e `dever` depende do contexto.
-
-## 9. Discurso direto e indireto
-
-Ao ancorar o relato no passado, podem ocorrer mudanças de tempo, pessoa e <abbr title="referência a pessoa, tempo ou espaço da enunciação">dêixis</abbr>.
-
-| Discurso direto | Relato ancorado no passado |
-| --- | --- |
-| “Voltarei amanhã.” | disse que voltaria no dia seguinte |
-| “Estou analisando.” | disse que estava analisando |
-| “Concluí o trabalho.” | disse que havia concluído/concluíra o trabalho |
-| “Venha agora.” | ordenou que viesse naquele momento |
-
-A transformação não é automática. Pode-se manter `voltará` se o evento continuar futuro em relação ao momento da nova enunciação ou se se preservar a perspectiva original.
-
-## 10. Voz passiva, particípio e estado resultante
-
-> O relatório **foi aprovado** pela comissão.
-
-Construção passiva eventiva, com agente expresso.
-
-> O relatório **está aprovado**.
-
-Focaliza o estado resultante; o contexto pode permitir leitura passiva, mas não se deve tratar toda sequência `estar + particípio` como equivalente a um tempo composto ou a uma passiva eventiva homogênea.
-
-> O relatório **tem sido aprovado** sem ressalvas.
-
-Locução passiva com valor reiterado ou durativo até o presente.
-
-## 11. Usos narrativos, modais e evidenciais
-
-Em narrativa:
-
-- o imperfeito constrói cenário, hábito e simultaneidade;
-- o perfeito faz avançar a sequência;
-- o mais-que-perfeito recua a um fato anterior;
-- o presente histórico cria vivacidade;
-- o futuro do pretérito pode distanciar o enunciador de informação atribuída;
-- o futuro do presente pode expressar inferência.
-
-Compare:
-
-> O técnico **abriu** o sistema e **encontrou** a falha.  
-> O sistema **apresentava** instabilidade havia dias.  
-> A equipe já **registrara** ocorrências semelhantes.  
-> Segundo a notícia, a alteração **teria ocorrido** na madrugada.  
-> O responsável **terá esquecido** a senha.
-
-## 12. Reescrita: correção, coerência e sentido
-
-Não confunda os critérios.
-
-### 12.1 Correção gramatical
-
-> Sabia que crimes **ocorriam**.  
-> Sabia que crimes **ocorreriam**.
-
-As duas formas podem ser gramaticais.
-
-### 12.2 Preservação do sentido
-
-- `ocorriam`: hábito ou simultaneidade no passado;
-- `ocorreriam`: posterioridade ou projeção a partir do passado.
-
-Só a segunda preserva a ideia futura de `iam ocorrer`, conforme o contexto.
-
-### 12.3 Equivalência contextual
-
-> O programa **tem sido incentivado**.  
-> O programa **vem sendo incentivado**.
-
-As locuções podem ser equivalentes em contexto de continuidade. Isso não autoriza afirmar equivalência universal.
-
-> A empresa **havia instalado** o sistema.  
-> A empresa **instalara** o sistema.
-
-As formas podem preservar anterioridade, mas diferem em registro e frequência de uso.
-
-## 13. Método de resolução
-
-1. Localize o ponto de referência: fala, passado narrado ou futuro.
-2. Identifique a forma verbal.
-3. Determine o aspecto: concluído, em curso, habitual, reiterado, inicial ou resultante.
-4. Verifique o modo e a modalidade.
-5. Observe o predicado principal e as conjunções.
-6. Em condicionais, separe prótase e <abbr title="oração principal que expressa a consequência">apódose</abbr>.
-7. Em relativas, identifique se o referente é factual ou eventual.
-8. Em locuções, examine o valor do auxiliar.
-9. Compare correção, coerência e preservação do sentido separadamente.
-10. Desconfie de absolutos como `sempre`, `apenas`, `obrigatoriamente` e `sem qualquer alteração`.
-
-## 14. Limites do assunto
-
-Este tópico trata do emprego semântico e sintático de tempos e modos. Flexão verbal também pode ser cobrada em:
-
-- concordância;
-- voz;
-- colocação pronominal;
-- subordinação;
-- reescrita;
-- coesão temporal.
-
-As questões podem combinar mais de um desses objetos.
+Em cada troca, pergunte: **a construção continua correta? A ordem dos acontecimentos permanece? O desenvolvimento e a atitude do falante são os mesmos?** Confira pessoa, auxiliares e palavras que ligam as orações. Preservar a gramática não basta para conservar o sentido exigido pelo enunciado.
