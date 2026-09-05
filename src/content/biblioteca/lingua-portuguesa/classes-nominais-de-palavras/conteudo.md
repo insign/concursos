@@ -8,399 +8,225 @@ storageId: classes-nominais-de-palavras
 
 # Classes nominais de palavras
 
-## 1. Recorte e regra de análise
+Como distinguir palavras que aparecem juntas, mas fazem trabalhos diferentes? Todos os exemplos abaixo são hipotéticos.
 
-O item 5.1 do edital cobra o emprego das classes de palavras. Este assunto reúne **substantivo, artigo, adjetivo, numeral e pronome**; verbo e classes invariáveis possuem recortes próprios.
+> **As duas novas servidoras** entregaram **seus relatórios**.
 
-A tradição gramatical inclui essas cinco classes entre as **variáveis**, mas isso não significa que todo integrante apresente todas as flexões. `Mil`, `isto`, `isso`, `aquilo`, `alguém`, `ninguém` e `quem`, por exemplo, são invariáveis.
+*Servidoras* e *relatórios* nomeiam pessoas e documentos: são **substantivos**. *As* apresenta as servidoras como identificáveis: é **artigo**. *Duas* conta essas pessoas: é **numeral**. *Novas* caracteriza as servidoras: é **adjetivo**. *Seus* relaciona os relatórios a quem os possui ou produziu: é **pronome**.
 
-> **Regra de ouro:** classifique a palavra dentro da oração. A mesma forma pode pertencer a classes diferentes conforme o termo que acompanha, substitui, quantifica ou modifica.
+Em *as duas novas servidoras*, a palavra central, ou **núcleo**, é *servidoras*; as outras delimitam sua referência, quantidade ou característica. O grupo organizado em torno de um nome é um **sintagma nominal**. A relação entre as palavras permite classificá-las.
 
-Compare:
+## 1. Nomear e identificar: substantivo e artigo
 
-> **Um** servidor chegou.  
-> Chegou **um**, não dois, servidores.  
-> **O** relatório foi arquivado.  
-> Eu **o** li ontem.  
-> Escolhi **o que** estava completo.
+O **substantivo** permite tratar como assunto da fala tanto pessoas, objetos e lugares quanto ações, estados, sentimentos e ideias: *servidora, relatório, cidade, entrega, repouso, saudade, justiça*. Nomear uma ação não transforma a palavra em verbo: *a entrega* nomeia um acontecimento; *entregaram* apresenta esse acontecimento situado no tempo.
 
-- no primeiro caso, `um` apenas introduz o substantivo e tende a ser artigo indefinido;
-- no segundo, a oposição com `dois` evidencia numeral cardinal;
-- em `o relatório`, `o` é artigo;
-- em `eu o li`, `o` é pronome pessoal oblíquo;
-- em `o que estava completo`, `o` é pronome demonstrativo equivalente a `aquilo` ou `aquele`, e `que` é pronome relativo.
+### Classe da palavra e papel na frase
 
-## 2. Classe, sentido e função sintática
+A **oração** organiza-se em torno de um verbo. Compare *As servidoras chegaram* e *A comissão convocou as servidoras*. *Servidoras* é substantivo nas duas. Na primeira, *as servidoras* é **sujeito**, termo sobre o qual se declara algo e com o qual o verbo normalmente concorda. Na segunda, completa *convocou*: é **objeto direto**, complemento sem <abbr title="Palavra que liga termos, como de, em ou a">preposição</abbr> exigida pelo verbo.
 
-| Plano | Pergunta | Exemplo |
+A **classe gramatical** caracteriza a palavra; a **função sintática** é seu papel na construção. Um pronome também pode ser sujeito: *Elas chegaram*. Perguntar quem pratica a ação não basta para descobrir a classe.
+
+### O artigo orienta a identificação
+
+> **Uma servidora** apresentou um relatório. **A servidora** pediu prioridade.
+
+Primeiro se introduz uma pessoa; depois se retoma essa pessoa. Os artigos **indefinidos** são *um, uma, uns, umas*; os **definidos**, *o, a, os, as*. Acompanham o substantivo e indicam **gênero** — masculino ou feminino — e **número** — singular ou plural —, mesmo separados dele: *as duas novas servidoras*.
+
+O definido também pode identificar pela situação ou generalizar uma classe: *O cidadão tem responsabilidades*. Trocar *um* por *o*, portanto, pode mudar a referência. A ausência de artigo também interfere: *Procuro servidor experiente* não identifica necessariamente a mesma pessoa que *Procuro o servidor experiente*.
+
+Em *A servidora levantou a mão*, entende-se a própria mão dela: o artigo tem valor possessivo, mas continua artigo. Em *Esperou uns vinte minutos*, indica aproximação; em *Apresentou umas desculpas!*, pode expressar depreciação. **Valor de sentido e classe não se confundem.**
+
+O artigo pode unir-se à **preposição**, palavra que liga termos: *do relatório* reúne *de + o*; *na sala*, *em + a*. A união com redução ou fusão de sons é **contração**; sem redução, como *ao servidor* (*a + o*), é **combinação**. Em *à servidora* (*a + a*), a fusão chama-se **crase**, assinalada pelo acento grave. Suas condições de emprego são aprofundadas no assunto próprio.
+
+### Quando outra palavra passa a nomear
+
+Em *o belo*, *belo* não caracteriza um nome expresso: nomeia a beleza como ideia. Em *seu não foi definitivo*, *não* nomeia uma resposta negativa. Esse emprego é a **substantivação**, um caso de <abbr title="Mudança de classe da palavra sem alteração de sua forma">derivação imprópria</abbr>.
+
+O artigo é uma pista, não um teste cego: em *o novo relatório*, ele acompanha *relatório*, não transforma *novo* em substantivo. Compare ainda *o brasileiro chegou* e *o cidadão brasileiro chegou*: no primeiro, *brasileiro* nomeia a pessoa; no segundo, caracteriza *cidadão*. *Um porquê* e *vários porquês* nomeiam motivos e admitem plural.
+
+## 2. Substantivos: critérios de classificação e variação
+
+As classificações observam, separadamente, o que o nome designa e como foi formado; por isso, podem coexistir. A terminologia tradicional segue a Nomenclatura Gramatical Brasileira, a <abbr title="Nomenclatura Gramatical Brasileira">NGB</abbr>.
+
+### O que o nome designa
+
+**Comum** é o nome aplicável a seres de uma classe: *cidade, servidora*. **Próprio** individualiza por uma denominação particular: *São Luís, Ana*. A expressão *a servidora* pode identificar uma pessoa determinada sem que *servidora* deixe de ser substantivo comum.
+
+**Concreto** não significa palpável: *mesa* e *anjo* designam seres concebidos com existência própria, real ou imaginária. **Abstratos**, como *beleza, leitura* e *saudade*, nomeiam qualidade, ação e sentimento, associados a seres que os apresentam. Também admitem plural: *leituras*, *saudades*.
+
+O **coletivo** nomeia um conjunto por uma forma singular: *elenco* reúne artistas; *alcateia*, lobos; *enxame*, abelhas. Em *O elenco chegou*, o núcleo do sujeito está no singular; em *Os elencos chegaram*, há vários conjuntos. Sentido coletivo não obriga o verbo ao plural.
+
+### Como o nome é formado
+
+Observe duas perguntas independentes. A palavra procede de outra do português? Se não, é **primitiva**, como *pedra*; se sim, é **derivada**, como *pedreira*. Quantas bases de significado a formam? Com uma só, é **simples**, como *flor*; com mais de uma, é **composta**, como *couve-flor* ou *girassol*. Essas bases são chamadas <abbr title="Partes que concentram o significado básico das palavras">radicais</abbr>; escrever tudo junto não torna o composto simples.
+
+### Gênero gramatical não é sexo
+
+A **flexão** é a mudança de forma de uma palavra. Nomes **biformes** distinguem masculino e feminino pela forma, como *servidor/servidora*; os **uniformes** conservam uma forma. Entre estes, distinguem-se três situações:
+
+| O que permite a distinção | Classificação | Aplicação |
 | --- | --- | --- |
-| **classe gramatical** | que tipo de palavra é neste emprego? | `brasileiro` pode ser adjetivo ou substantivo |
-| **sentido** | que ideia produz no contexto? | `grande homem` e `homem grande` podem divergir |
-| **função sintática** | que papel exerce na oração? | um substantivo pode ser núcleo de sujeito ou objeto |
+| A forma é a mesma, mas artigo e adjetivo distinguem o gênero | Comum de dois gêneros | *o estudante atento / a estudante atenta* |
+| O nome de pessoa tem um único gênero gramatical | Sobrecomum | *a vítima*, *a criança*, *o cônjuge*, qualquer que seja o sexo |
+| O nome de animal tem um único gênero gramatical | Epiceno | *a cobra macho / a cobra fêmea* |
 
-Uma palavra não vira substantivo apenas por funcionar como sujeito. Também não deixa de ser adjetivo por estar depois do nome. Classe, função e efeito semântico devem ser examinados separadamente.
+*A testemunha estava nervosa* pode referir-se a um homem; acrescentar *macho* não muda o gênero feminino de *cobra*. Sexo e gênero gramatical são informações diferentes.
 
-## 3. Formas iguais, classes diferentes
+### Número e plural dos compostos
 
-| Forma | Empregos relevantes | Teste contextual |
-| --- | --- | --- |
-| `um/uma` | artigo ou numeral | há mera introdução ou contraste de quantidade? |
-| `o/a/os/as` | artigo, pronome pessoal ou demonstrativo | acompanha nome, completa verbo ou equivale a `aquele/aquilo`? |
-| `meio` | numeral, substantivo ou advérbio | indica metade, nomeia recurso/intermédio ou intensifica? |
-| `brasileiro` | adjetivo ou substantivo | caracteriza nome expresso ou designa pessoa? |
-| `certo` | pronome indefinido ou adjetivo | `certo candidato` = algum; `candidato certo` = adequado |
-| `todo` | pronome/adjetivo com valor alterado pelo artigo | `todo país` = qualquer país; `todo o país` = país inteiro |
-| `mesmo/próprio` | demonstrativo, adjetivo ou reforço | `o mesmo relatório`; `eles mesmos`; `decisão própria` |
-| `muito/pouco/bastante` | pronome/adjetivo ou advérbio | varia com nome; tende a ficar invariável ao intensificar adjetivo/verbo |
+Nem sempre o plural muda a forma do substantivo: *o lápis/os lápis*. Nos compostos, observe a classe dos componentes e sua relação, não apenas o hífen.
 
-O objetivo não é decorar uma classe fixa para cada forma, mas identificar sua relação com os demais termos.
+Em *guarda-chuva*, *guarda* vem do verbo *guardar*: fica invariável, e pluraliza-se *chuva*. Em *cirurgião-dentista*, os dois nomes caracterizam a pessoa, e ambos variam. Se o segundo apenas especifica tipo ou finalidade, pode permanecer no singular. Assim se organizam os padrões principais:
 
-## 4. Substantivo
-
-O **substantivo** nomeia entidades, pessoas, lugares, ações, estados, qualidades, sentimentos e noções. A fórmula “nome de seres” é apenas ponto de partida; distribuição e determinantes também importam.
-
-### 4.1 Classificações tradicionais
-
-| Critério | Classes | Exemplos e alerta |
-| --- | --- | --- |
-| extensão | comum / próprio | `cidade` / `São Luís` |
-| natureza | concreto / abstrato | `mesa`, `anjo` / `beleza`, `leitura` |
-| formação | primitivo / derivado | `pedra` / `pedreira` |
-| estrutura | simples / composto | `flor` / `girassol` |
-| coletividade | coletivo | `alcateia`, `enxame`, `elenco` |
-
-Concreto não significa necessariamente material ou palpável. Na classificação tradicional, `anjo`, `Deus` e personagens imaginários podem ser concretos porque são concebidos como seres de existência própria; ações, qualidades, estados e sentimentos são abstratos.
-
-Um coletivo tem forma singular e designa conjunto. Em `O elenco chegou`, o núcleo do sujeito é singular; o sentido plural não transforma automaticamente a concordância.
-
-### 4.2 Gênero gramatical
-
-Gênero é propriedade gramatical e não se confunde automaticamente com sexo.
-
-| Tipo | Como reconhecer | Exemplo |
-| --- | --- | --- |
-| comum de dois gêneros | uma forma; determinante revela o gênero | `o estudante` / `a estudante` |
-| sobrecomum | uma forma e um gênero para pessoas | `a criança`, `a vítima`, `o cônjuge` |
-| epiceno | uma forma e um gênero para animais | `a cobra macho`, `a cobra fêmea` |
-
-Em `a testemunha`, o substantivo permanece feminino gramatical mesmo quando designa homem.
-
-### 4.3 Número e compostos
-
-O plural dos compostos depende da relação entre seus elementos. Regras de alta incidência:
-
-| Estrutura | Tendência | Exemplos |
-| --- | --- | --- |
-| elementos variáveis com autonomia | variam os elementos variáveis | `couves-flores`, `cirurgiões-dentistas` |
-| verbo, advérbio ou elemento invariável + nome | varia o elemento nominal | `guarda-chuvas`, `abaixo-assinados`, `vice-presidentes` |
-| palavras ligadas por preposição | varia normalmente o primeiro elemento | `pés de moleque`, `mulas sem cabeça` |
-| repetição ou onomatopeia | varia normalmente o segundo elemento | `reco-recos`, `tico-ticos` |
-| segundo termo limita o primeiro por finalidade/semelhança | pode variar apenas o primeiro | `palavras-chave`, `salários-família` |
-
-Há formas lexicalizadas e oscilações registradas por gramáticas e dicionários. Em dúvida de grafia ou plural específico, consulte o <abbr title="Vocabulário Ortográfico da Língua Portuguesa">VOLP</abbr>; em prova, identifique a regra e a forma consagrada no enunciado.
-
-### 4.4 Grau e valor expressivo
-
-A tradição escolar estuda aumentativo e diminutivo como grau do substantivo, mas essas formas não indicam apenas dimensão:
-
-> O relator apresentou um **parecerzinho** incompleto.  
-> A **casinha** preservava lembranças da infância.
-
-O diminutivo pode expressar depreciação, ironia, afetividade ou aproximação. O efeito decorre do contexto.
-
-### 4.5 Substantivação
-
-Uma palavra de outra classe pode passar a funcionar como nome, frequentemente com determinante:
-
-> O **belo** também pode ser difícil de definir.  
-> Seu **não** foi definitivo.  
-> Há vários **porquês** na decisão.  
-> O **brasileiro** participou da audiência.
-
-A substantivação é emprego contextual, não mudança permanente da forma em qualquer frase.
-
-## 5. Artigo
-
-O **artigo** acompanha o substantivo e o determina.
-
-| Tipo | Formas | Efeito básico |
-| --- | --- | --- |
-| definido | `o, a, os, as` | referente identificado, delimitado ou recuperável |
-| indefinido | `um, uma, uns, umas` | referente não identificado ou introduzido no discurso |
-
-Compare:
-
-> Um candidato apresentou recurso.  
-> O candidato apresentou recurso.
-
-A troca pode alterar a referência: `um` tende a introduzir; `o` tende a retomar ou identificar. O texto completo decide se a reescrita preserva o sentido.
-
-### 5.1 Artigo, pronome pessoal e demonstrativo
-
-| Construção | Classe de `o/a` | Razão |
-| --- | --- | --- |
-| `a ata` | artigo | acompanha substantivo expresso |
-| `a comissão a aprovou` | pronome pessoal oblíquo | substitui complemento do verbo |
-| `a de menor custo` | pronome demonstrativo | equivale a `aquela` |
-| `o que ocorreu` | pronome demonstrativo | equivale a `aquilo`; `que` introduz a relativa |
-
-Em `o que deu lugar à figura`, `o` é demonstrativo, mas a função de sujeito dentro da oração relativa é exercida por `que`. A classe do antecedente e a função do relativo não se confundem.
-
-### 5.2 Artigo e numeral
-
-`Um/uma` é artigo quando apenas introduz o nome:
-
-> Uma servidora ainda não identificada solicitou informação.
-
-É numeral quando a contagem é relevante:
-
-> Foi aprovada uma servidora, e não duas.
-
-A frase isolada pode permitir mais de uma leitura. Uma boa questão objetiva fornece contraste ou contexto suficiente.
-
-### 5.3 Contrações e substantivação
-
-| Forma | Análise |
+| Construção | Plural exemplificado |
 | --- | --- |
-| `do`, `da`, `dos`, `das` | `de + o/a/os/as` |
-| `no`, `na`, `nos`, `nas` | `em + o/a/os/as` |
-| `ao`, `aos` | `a + o/os` |
-| `à`, `às` | `a + a/as`, com crase gráfica |
+| Componentes nominais variáveis | *cirurgiões-dentistas*, *couves-flores*, *obras-primas* |
+| Verbo ou elemento invariável seguido de nome | *guarda-chuvas*, *abaixo-assinados*, *vice-presidentes* |
+| Componentes ligados por preposição | *pés de moleque*, *mulas sem cabeça*: varia o primeiro |
+| Repetição ou imitação de sons | *reco-recos*, *tico-ticos*: varia o segundo |
+| Segundo nome especificando o primeiro | *palavras-chave*, *salários-família*: pode variar só o primeiro |
 
-A contração não impede reconhecer preposição e artigo. O artigo também favorece substantivação: `o não`, `um porquê`, `o necessário`.
+Há variantes: *palavras-chaves* também é admitido. O <abbr title="Vocabulário Ortográfico da Língua Portuguesa">VOLP</abbr> é referência de grafia e classificação de palavras; gramáticas e dicionários esclarecem flexões e variantes.
 
-## 6. Adjetivo
+### Tamanho e avaliação
 
-O **adjetivo** caracteriza, qualifica ou relaciona substantivo. Pode indicar qualidade (`decisão justa`), origem (`cultura maranhense`), estado (`servidor atento`) ou relação (`controle financeiro`).
+Aumentativo e diminutivo expressam tamanho, afeto, ironia ou depreciação, conforme o contexto: *parecerzinho insuficiente* favorece desprezo; *casinha acolhedora*, afeto. A tradição estuda o **grau do substantivo**, formado por uma expressão (*casa pequena*) ou alteração da palavra (*casinha*).
 
-### 6.1 Formação e flexão
+## 3. Adjetivo: caracterizar não é apenas elogiar
 
-| Critério | Classes | Exemplos |
+Em *relatório claro*, *claro* atribui uma qualidade ao relatório. Em *controle financeiro*, *financeiro* relaciona o controle ao campo das finanças. Ambos são adjetivos: o primeiro é **qualificativo**; o segundo, **relacional**. Na leitura de relação, *muito financeiro* não funciona como *muito claro*, a menos que o contexto dê a *financeiro* um sentido avaliativo.
+
+O adjetivo também pode indicar estado ou origem. Os de origem geográfica são **pátrios ou gentílicos**, como *maranhense, ludovicense* e *brasileiro*. Quanto à formação, valem os critérios já explicados: *claro* é primitivo; *ensolarado*, derivado; *brasileiro*, simples; *luso-brasileiro*, composto.
+
+### Posição e locução adjetiva
+
+Em *um velho amigo*, normalmente se destaca a duração da amizade; em *um amigo velho*, a idade. Algo semelhante ocorre com *grande homem/homem grande* — notável/de grande porte — e *pobre homem/homem pobre* — digno de pena/sem recursos. **A inversão pode mudar o sentido, não necessariamente a classe.** Também há inversões sem essa mudança, como *resposta excelente/excelente resposta*. Analise o contexto antes de aceitar uma substituição como equivalente.
+
+Mais de uma palavra pode caracterizar o nome: *relatório de auditoria*, *problema sem solução*, *amor de mãe*. O grupo que faz esse trabalho é uma **locução adjetiva**, geralmente introduzida por preposição. *De mãe* pode corresponder a *materno*, mas nem toda locução tem um adjetivo único perfeitamente equivalente.
+
+O valor do conjunto não altera automaticamente a classe de seus componentes. Em *anel de ouro*, *de ouro* caracteriza *anel*, porém *ouro* continua substantivo. Essa separação evita contar uma locução inteira como se fosse uma única palavra da classe dos adjetivos.
+
+### Flexão: a característica acompanha o nome
+
+O adjetivo normalmente acompanha gênero e número do nome: *relatório novo/relatórios novos*, *análise nova/análises novas*. **Biforme** é o que tem formas diferentes para masculino e feminino; **uniforme**, o que conserva a forma nesses gêneros, como *servidor competente/servidora competente*. Uniformidade em gênero não impede plural: *servidoras competentes*.
+
+Nos adjetivos compostos, geralmente varia só o último elemento: *acordos luso-brasileiros*, *relações luso-brasileiras*. A exceção tradicional *surdo-mudo* flexiona ambos: *surdos-mudos*, *surdas-mudas*. Cores cujo segundo elemento é substantivo ficam invariáveis: *camisas verde-oliva*.
+
+### Grau: comparar ou intensificar
+
+Compare *Este relatório é mais claro que o anterior* e *Este relatório é muito claro*. A primeira compara a mesma qualidade em dois relatórios; a segunda a intensifica sem comparar. No **comparativo**, há igualdade (*tão claro quanto/como*), superioridade (*mais claro que/do que*) ou inferioridade (*menos claro que/do que*).
+
+O **superlativo** intensifica a qualidade ou destaca uma posição extrema dentro de um conjunto. É **absoluto** quando não há conjunto de comparação: *muito claro*, forma **analítica**, com mais de uma palavra; *claríssimo*, forma **sintética**, em uma palavra. É **relativo** quando destaca um elemento dentro de um conjunto: *o mais claro dos relatórios* ou *o menos claro dos relatórios*.
+
+| Adjetivo | Comparativo sintético | Superlativo absoluto irregular |
 | --- | --- | --- |
-| formação | primitivo / derivado | `claro` / `ensolarado` |
-| estrutura | simples / composto | `luso` / `luso-brasileiro` |
-| gênero | uniforme / biforme | `competente`; `atento/atenta` |
-| origem | pátrio ou gentílico | `maranhense`, `brasileiro`, `ludovicense` |
+| bom | melhor | ótimo |
+| mau | pior | péssimo |
+| grande | maior | máximo |
+| pequeno | menor | mínimo |
 
-Adjetivos concordam, em regra, com o substantivo. A concordância completa pertence a assunto próprio; aqui importa reconhecer a classe e suas formas.
+Não se usa *mais melhor* na <abbr title="Modelo de uso formal recomendado pelas gramáticas">norma-padrão</abbr>. Mas *mais bom que habilidoso* pode comparar duas qualidades do mesmo ser; não é o mesmo caso que comparar a bondade de duas pessoas. Compare ainda *melhor que o anterior* e *o melhor do grupo*: comparação entre elementos e destaque no conjunto, respectivamente.
 
-Nos adjetivos compostos, em regra, apenas o último elemento varia:
+## 4. Numeral: contar, ordenar, multiplicar e dividir
 
-> acordos **luso-brasileiros**; medidas **político-administrativas**.
+O numeral informa quantidade (*duas servidoras*), posição (*segunda servidora*), multiplicação (*o dobro do prazo*) ou parte do todo (*meia hora*). Dessas operações vêm quatro classes:
 
-Exceções tradicionais devem ser memorizadas pelo uso consagrado, como `surdos-mudos`, em que ambos variam, e compostos de cor com substantivo, frequentemente invariáveis: `camisas verde-oliva`.
-
-### 6.2 Adjetivo qualificativo e relacional
-
-- **qualificativo:** admite com mais facilidade intensidade ou avaliação — `decisão muito justa`;
-- **relacional:** estabelece vínculo de área, matéria ou finalidade — `controle financeiro`, `processo administrativo`.
-
-Adjetivo relacional tende a não admitir grau no mesmo sentido: `muito financeiro` não equivale a intensificar a relação com finanças.
-
-### 6.3 Posição e sentido
-
-| Anteposto | Posposto |
-| --- | --- |
-| `grande homem`: homem notável | `homem grande`: homem de grande porte |
-| `velho amigo`: amigo de longa data | `amigo velho`: amigo idoso |
-| `pobre homem`: homem digno de pena | `homem pobre`: homem sem recursos |
-| `certo candidato`: algum candidato | `candidato certo`: candidato adequado |
-
-A posição pode alterar sentido, delimitação ou valor avaliativo. Reescrita formalmente correta pode não preservar significado.
-
-### 6.4 Locução adjetiva e substantivação
-
-Locução adjetiva é geralmente grupo preposicionado que caracteriza nome:
-
-> amor **de mãe**; decisão **de governo**; problema **sem solução**.
-
-A equivalência com adjetivo simples (`materno`, `governamental`) depende do contexto.
-
-Compare:
-
-> cidadão **brasileiro** — adjetivo;  
-> o **brasileiro** — substantivo.
-
-### 6.5 Graus do adjetivo
-
-| Grau | Estrutura | Exemplo |
+| Operação | Classe | Exemplos |
 | --- | --- | --- |
-| comparativo de igualdade | `tão... quanto/como` | `tão útil quanto` |
-| comparativo de superioridade | `mais... que/do que` ou sintético | `mais claro`; `melhor` |
-| comparativo de inferioridade | `menos... que/do que` | `menos complexo` |
-| superlativo absoluto analítico | intensificador + adjetivo | `muito útil` |
-| superlativo absoluto sintético | forma sufixal | `utilíssimo` |
-| superlativo relativo | artigo + `mais/menos` | `o mais útil do grupo` |
+| Contagem | Cardinal | *um, duas, cem, mil* |
+| Posição em uma série | Ordinal | *primeiro, segunda, vigésimo* |
+| Multiplicação | Multiplicativo | *dobro, triplo, dupla* |
+| Fração do todo | Fracionário | *meio, terço, quarto* |
 
-`Melhor`, `pior`, `maior` e `menor` são comparativos sintéticos tradicionais. Evite `mais melhor` quando a forma já expressa comparação.
+O contexto pode mudar o valor: *Já expliquei mil vezes* pode ser exagero; *enésima vez* indica posição não especificada; *andar onze* usa cardinal para identificar posição.
 
-## 7. Numeral
+### Quando *um* é artigo ou numeral
 
-O **numeral** exprime quantidade, ordem, multiplicação ou fração.
+Em *Um candidato ainda não identificado chegou*, predomina a apresentação de alguém: artigo indefinido. Em *Chegou um candidato, não dois*, a oposição destaca a quantidade: numeral cardinal. A posição antes do nome, sozinha, não resolve o caso.
 
-| Tipo | Pergunta | Exemplos |
+### O que varia
+
+*Um/uma*, *dois/duas* e as centenas de *duzentos* a *novecentos* variam em gênero: *duzentas páginas*. Os ordinais variam em gênero e número: *primeiras etapas*. *Mil* permanece invariável em *dois mil candidatos*; *milhão* comporta-se como substantivo e admite *dois milhões*.
+
+Multiplicativos podem acompanhar nomes, como *jornadas duplas*, ou ter emprego substantivo, como *o dobro do valor*. Frações distinguem *um terço/dois terços*. *Ambos/ambas* equivale a *os dois/as duas* e é tradicionalmente classificado como numeral.
+
+Em *meia hora*, *meia* indica metade e concorda com *hora*. Em *meio de transporte*, nomeia um recurso: substantivo. Em *servidoras meio cansadas*, significa “um pouco”: é **advérbio**, que intensifica *cansadas* sem concordar com ele. Não se escreve *meias cansadas* com esse sentido.
+
+## 5. Pronome: apontar relações sem nomear novamente
+
+O pronome refere-se às pessoas da comunicação ou acompanha e substitui nomes, indicando posse, localização, indeterminação ou retomada. Em *Esta candidata chegou*, acompanha o nome: **pronome adjetivo**. Em *Esta chegou*, ocupa seu lugar: **pronome substantivo**. *Esta* continua <abbr title="Pronome que situa seres ou informações no espaço ou no texto">demonstrativo</abbr>; muda o emprego, não a classe.
+
+### Pronomes pessoais: pessoas, complementos e tratamento
+
+A primeira pessoa é quem fala (*eu/nós*); a segunda, com quem se fala (*tu/vós*); a terceira, de quem ou do que se fala (*ele/ela/eles/elas*). A forma escolhida também depende do papel na frase: *Eu redigi o relatório*; *A comissão me convocou*; *A comissão falou de mim*.
+
+O pronome *eu* é **reto**, usado tipicamente como sujeito; *me* e *mim* são **oblíquos**, usados tipicamente como complementos. Formas **átonas** apoiam sua pronúncia no verbo; as **tônicas** têm acento próprio, mesmo sem acento gráfico, como *mim*.
+
+| Grupo | Formas | Emprego típico |
 | --- | --- | --- |
-| cardinal | quantos? | `um`, `dois`, `cem`, `mil` |
-| ordinal | em que ordem? | `primeiro`, `vigésima` |
-| multiplicativo | quantas vezes? | `dobro`, `triplo` |
-| fracionário | que parte? | `meio`, `terço`, `quartos` |
+| Retos | *eu, tu, ele/ela, nós, vós, eles/elas* | Sujeito |
+| Oblíquos átonos | *me, te, se, o/a/os/as, lhe/lhes, nos, vos* | Complementos ligados ao verbo |
+| Oblíquos tônicos | *mim, ti, si, ele/ela, nós, vós, eles/elas* | Termos introduzidos por preposição |
 
-### 7.1 Flexão e emprego
+*Comigo, contigo, consigo, conosco* e *convosco* já incorporam *com*. Os oblíquos *o/a/os/as* substituem objeto direto: *Li o relatório → Eu o li*. *Lhe/lhes* pode substituir complemento que indica destinatário: *Entreguei o relatório à servidora → Entreguei-lhe o relatório*. Não são trocas indiferentes.
 
-Alguns cardinais variam: `um/uma`, `dois/duas`, `duzentos/duzentas`. Ordinais concordam com o nome: `a primeira etapa`, `os vigésimos lugares`.
+Em *O relatório é para eu redigir*, a preposição introduz o trecho inteiro *eu redigir*: *eu* é sujeito do <abbr title="Forma verbal que nomeia o processo, como redigir ou fazer">infinitivo</abbr>. Em *O relatório foi entregue para mim*, *mim* completa a preposição, sem ser sujeito de outro verbo. Não use “praticar ação” como critério: *O relatório foi redigido por mim* tem *mim*, embora a pessoa tenha feito o trabalho.
 
-`Mil` permanece invariável em `dois mil candidatos`; `milhão`, substantivo numerável, flexiona: `dois milhões de candidatos`.
+Há emprego **reflexivo** quando o complemento se refere ao próprio sujeito: *A servidora se observou no espelho* — observou a si mesma. Há valor **recíproco** em *As servidoras se cumprimentaram* — uma à outra. Nem todo *se* tem esses valores: em *se chover*, introduz condição; em *arrependeu-se*, integra um verbo que exige pronome nesse emprego. Outros usos de *se* são aprofundados em verbo e estrutura da oração.
 
-Compare:
+Pronomes de tratamento dirigem-se ao interlocutor, mas exigem concordância gramatical de terceira pessoa: *Vossa Excelência decidiu; você decidiu*. Usa-se *Vossa Excelência* ao falar com a pessoa e *Sua Excelência* ao falar dela. Não se confunda a concordância com o protocolo próprio de cada órgão.
 
-> **meia** hora — numeral fracionário;  
-> o **meio** de transporte — substantivo;  
-> servidora **meio** cansada — advérbio invariável.
+### Possessivos: quem possui e o que é possuído
 
-`Ambos/ambas` significa `os dois/as duas` e é tradicionalmente classificado como numeral. Descrições linguísticas podem propor outra análise, mas em prova normativa prevalece a terminologia indicada pela questão.
+Em *minhas decisões*, há duas informações. *Minh-* aponta para a primeira pessoa do singular, um possuidor; a forma feminina plural acompanha *decisões*, o que se apresenta como possuído. Assim, um homem também diz *minhas decisões*. No uso habitual, *nossas decisões* indica vários possuidores; a concordância com *decisões* permanece.
 
-`Dobro` e `triplo` podem aparecer substantivados: `o dobro do valor`.
+As séries são *meu, teu, seu, nosso, vosso*, com suas formas femininas e plurais. A posse pode ser material (*meu livro*), relação pessoal (*minha colega*), respeito (*minha senhora*) ou aproximação (*seus quarenta anos*). Nem todo possessivo indica propriedade material.
 
-## 8. Pronome
+*Seu/sua* pode apontar para diferentes pessoas. Em *João informou a Pedro que seu recurso foi aceito*, o possuidor pode ser João ou Pedro. *O recurso de Pedro* fixa uma das leituras; *o recurso dele* ainda pode ser ambíguo, pois os dois são masculinos.
 
-O **pronome** substitui ou acompanha nome e estabelece relações de pessoa, posse, localização, referência, indeterminação, pergunta ou retomada.
+### Demonstrativos: espaço, tempo e texto
 
-A <abbr title="Nomenclatura Gramatical Brasileira">NGB</abbr> distingue:
+Os demonstrativos situam o que é referido. O modelo tradicional organiza *este/esta/isto* junto de quem fala; *esse/essa/isso*, junto de quem ouve; *aquele/aquela/aquilo*, distante de ambos. No tempo, *este mês* tende a indicar o mês presente; *naquele tempo*, uma época afastada.
 
-| Emprego | Exemplo |
+No texto, o demonstrativo pode retomar ou anunciar: *A regra mudou. Isso exige atenção* retoma a mudança; *Isto é essencial: ler a regra inteira* anuncia o conteúdo. Retomar é **anáfora**; antecipar, **catáfora**. A preferência de *esse* pela retomada e de *este* pela antecipação não é exclusividade: localize o trecho referido.
+
+Para distinguir dois elementos já mencionados, a convenção tradicional usa *aquele* para o primeiro e *este* para o último: *O relatório e a ata chegaram; aquele será revisto, esta será arquivada*. *Aquele* retoma *relatório*; *esta*, *ata*. Essa convenção específica não elimina a variação em outros usos de *este/esse*.
+
+*Isto, isso* e *aquilo* são formas neutras, sem distinção de masculino e feminino, e invariáveis: não acompanham diretamente um substantivo expresso. Diz-se *este relatório*, não *isto relatório*. *Mesmo* e *próprio* podem ser demonstrativos de identidade ou reforço: *a mesma proposta*, *a própria servidora*; a classificação depende do contexto. Em *chegou mesmo*, *mesmo* equivale a realmente: é advérbio; em *decisão própria*, *própria* pode significar pessoal: adjetivo.
+
+### Indefinidos e interrogativos
+
+Os **indefinidos** apresentam pessoas, coisas ou quantidades sem determinação precisa: *alguém, ninguém, algo, nada, tudo, cada, algum, nenhum, muito, pouco, vários, qualquer*. *Poucos recursos* indica quantidade pequena, não exata; *nenhum recurso* expressa ausência. *Qualquer* faz plural em *quaisquer*.
+
+*Certo candidato* equivale a “algum candidato”: *certo* é indefinido; *candidato certo* pode significar “adequado”: adjetivo. *Todo país* tende a significar qualquer país; *todo o país*, um país inteiro. *Algum recurso* afirma a existência de recurso; *recurso algum*, em construção negativa, equivale a nenhum.
+
+Em *bastantes recursos*, no sentido de muitos, *bastantes* é indefinido e acompanha o plural do nome. Em *recursos bastantes*, no sentido de suficientes, tem valor adjetivo. Em *servidoras bastante atentas*, intensifica o adjetivo e é advérbio invariável. *Muito* e *pouco* também alternam: *muitas servidoras* quantifica pessoas; *servidoras muito atentas* intensifica uma característica.
+
+Os **interrogativos** *que, quem, qual* e *quanto* introduzem uma informação procurada: *Qual relatório chegou?* Na pergunta indireta *Não sei qual relatório chegou*, permanece a procura da informação, mesmo sem ponto de interrogação. Em *O relatório que chegou está completo*, porém, *que* retoma, não pergunta.
+
+### Relativos: retomar e ocupar um lugar na oração
+
+Parta de duas frases: *Li um relatório. O relatório revelou falhas*. É possível ligá-las: *Li um relatório que revelou falhas*. O **pronome relativo** *que* retoma *relatório*, seu **antecedente**, e funciona como sujeito de *revelou*. A oração iniciada pelo relativo caracteriza o antecedente; é uma **oração relativa**.
+
+Em *O relatório que li revelou falhas*, *que* corresponde ao relatório lido: é objeto direto de *li*, cujo sujeito é *eu*. Para descobrir a função do relativo, reconstrua a oração com o antecedente.
+
+A reconstrução também recupera preposições. *Tratei de um assunto* torna-se *o assunto de que tratei*; *referi-me à servidora*, *a servidora a quem me referi*. Essa exigência de ligação, chamada **regência**, permanece quando se usa o relativo.
+
+*Que* é invariável e pode retomar pessoas ou coisas; *o qual/a qual/os quais/as quais* variam; *quem* refere-se a pessoas ou <abbr title="Seres não humanos tratados como pessoas">seres personificados</abbr>. *Cujo* liga possuidor e possuído: *a autora cujas obras li*. As obras são da autora, mas *cujas* concorda com *obras*. **Não se acrescenta artigo depois de *cujo***: *cujas as obras* é inadequado. Uma preposição exigida pelo verbo pode precedê-lo: *a autora de cujas obras gosto*.
+
+*Onde* retoma lugar e equivale a *em que*: *a cidade onde moro*. Quando a relação exige *a*, forma-se *aonde*: *a cidade aonde fui*. Sem referência a lugar, use a preposição adequada: *a decisão de que discordo*, não *a decisão onde discordo*. *Quanto* também pode ser relativo: *tudo quanto foi apresentado*.
+
+## 6. Uma mesma forma não impõe uma única análise
+
+As formas *o/a/os/as* podem determinar um nome ou funcionar como pronomes:
+
+| Exemplo | Por que recebe essa classificação |
 | --- | --- |
-| pronome substantivo | `Esta chegou cedo.` |
-| pronome adjetivo | `Esta candidata chegou cedo.` |
+| *A ata chegou.* | *A* determina *ata*: artigo definido. |
+| *A comissão a aprovou.* | O segundo *a* substitui *a ata*, objeto de *aprovou*: pronome pessoal <abbr title="Pronome pessoal sem acento próprio, ligado ao verbo">oblíquo átono</abbr>. |
+| *Escolhi a de menor custo.* | *A* equivale a *aquela*: pronome demonstrativo na análise tradicional. |
+| *Não entendi o que ocorreu.* | *O* equivale a *aquilo*: demonstrativo; *que* retoma esse antecedente e é sujeito de *ocorreu*. |
 
-`Esta` continua demonstrativo nos dois casos; muda o modo de emprego.
+Na última frase, *que*, não seu antecedente *o*, é sujeito da oração relativa. Nem todo *o que* tem a mesma análise: *O que você deseja?* introduz pergunta.
 
-### 8.1 Pessoais e de tratamento
-
-| Grupo | Formas e uso típico |
-| --- | --- |
-| retos | `eu, tu, ele/ela, nós, vós, eles/elas`; sujeito |
-| oblíquos átonos | `me, te, se, o, a, lhe, nos, vos, os, as, lhes`; ligados ao verbo |
-| oblíquos tônicos | `mim, ti, si, ele/ela, nós, vós, eles/elas`; normalmente preposicionados |
-
-> O relatório é para **eu redigir**.  
-> O relatório foi entregue para **mim**.
-
-`Eu` é sujeito do infinitivo; `mim` é termo preposicionado. Não existe regra mecânica de “depois de preposição, sempre mim”.
-
-Pronomes de tratamento exigem terceira pessoa:
-
-> Vossa Excelência **decidiu** por **sua** proposta.
-
-`Vossa` dirige-se ao interlocutor; `Sua` costuma referir-se à pessoa de quem se fala.
-
-### 8.2 Possessivos
-
-Possessivos concordam com a coisa possuída:
-
-> minhas decisões; nosso recurso; suas alegações.
-
-`Seu/sua` pode ser ambíguo. Expressões como `de João`, `de Pedro`, `dele` ou `dela` esclarecem o possuidor quando o contexto não basta.
-
-### 8.3 Demonstrativos
-
-No modelo tradicional:
-
-| Forma | Referência típica |
-| --- | --- |
-| `este/esta/isto` | primeira pessoa; pode anunciar informação posterior |
-| `esse/essa/isso` | segunda pessoa; costuma retomar informação anterior |
-| `aquele/aquela/aquilo` | distante de ambas ou terceiro elemento |
-
-O português brasileiro apresenta variação entre `este` e `esse`. Em prova, observe o modelo solicitado e a coesão efetiva.
-
-`Isto`, `isso` e `aquilo` são neutros, invariáveis e não acompanham diretamente substantivo expresso.
-
-As formas `o, a, os, as` também podem ser demonstrativas:
-
-> Minha proposta é **a** de menor custo.  
-> Não entendi **o que** ocorreu.
-
-### 8.4 Indefinidos e formas multifuncionais
-
-Indefinidos apresentam referente vago: `alguém`, `ninguém`, `tudo`, `nada`, `cada`, `algum`, `nenhum`, `muito`, `pouco`, `vários`, `qualquer`.
-
-- plural de `qualquer`: `quaisquer`;
-- `certo candidato`: `certo` equivale a algum;
-- `candidato certo`: `certo` é adjetivo qualificativo;
-- `bastantes recursos`: `bastantes` acompanha nome e varia;
-- `servidores bastante atentos`: `bastante` intensifica adjetivo e fica invariável;
-- `todo país` tende a significar qualquer país;
-- `todo o país` tende a significar o país inteiro.
-
-### 8.5 Interrogativos
-
-Pronomes interrogativos introduzem perguntas diretas ou indiretas:
-
-> **Quem** apresentou o recurso?  
-> Não sei **quem** apresentou o recurso.  
-> **Qual** documento foi anexado?
-
-A ausência de ponto de interrogação não elimina a pergunta indireta.
-
-### 8.6 Relativos
-
-Relativos retomam antecedente e introduzem oração relativa:
-
-> O assunto **de que** tratei é relevante.  
-> A pessoa **a quem** me referi compareceu.  
-> A autora **cujas obras** foram estudadas recebeu homenagem.
-
-Pontos decisivos:
-
-- a regência determina a preposição: `tratar de` → `de que`; `referir-se a` → `a quem`;
-- `cujo` exprime posse, concorda com o substantivo seguinte e não admite artigo: `cujas obras`;
-- `onde` deve retomar lugar: `a cidade onde nasceu`; para noções não locativas, use `em que`, `a que`, `de que` ou `no qual`, conforme a regência;
-- `que` é invariável; `o qual/a qual/os quais/as quais` variam;
-- em `o que ocorreu`, `o` é antecedente demonstrativo e `que` é relativo, exercendo função dentro da oração que introduz.
-
-## 9. Método para resolver questões
-
-1. Leia a oração inteira.
-2. Localize substantivos, verbos e determinantes.
-3. Pergunte o que a forma faz: nomeia, determina, qualifica, quantifica, intensifica ou retoma?
-4. Faça teste de substituição: `o` equivale a `ele` ou a `aquilo`? `certo` equivale a `algum` ou a `correto`?
-5. Separe classe, função sintática e sentido.
-6. Verifique flexões e invariabilidade.
-7. Em compostos, identifique a classe e a relação entre os elementos.
-8. Em reescritas, confira referência, posse, quantidade e efeito de posição.
-9. Em relativos, reconstrua a oração e aplique a regência.
-
-## 10. Pegadinhas frequentes
-
-- classe tradicionalmente variável ≠ toda forma necessariamente flexionada;
-- concreto ≠ apenas palpável;
-- coletivo singular ≠ verbo obrigatoriamente plural;
-- gênero gramatical ≠ sexo;
-- `um` ≠ sempre artigo ou sempre numeral;
-- `o/a` pode ser artigo, pronome pessoal ou demonstrativo;
-- em `o que`, `o` pode ser demonstrativo, mas `que` exerce função na oração relativa;
-- artigo definido e indefinido podem alterar a referência;
-- adjetivo relacional ≠ qualidade intensificável em qualquer contexto;
-- posição do adjetivo pode mudar o sentido;
-- `meia hora` ≠ `meio cansada`;
-- `mil` é invariável; `milhão` flexiona;
-- `ambos` é numeral na classificação tradicional;
-- `para eu fazer` ≠ `para mim`;
-- pronome de tratamento exige terceira pessoa;
-- possessivo concorda com o possuído;
-- `todo país` ≠ necessariamente `todo o país`;
-- `bastantes recursos` ≠ `bastante atentos`;
-- `cujo` não admite artigo depois;
-- `onde` retoma lugar;
-- `qualquer` → `quaisquer`.
-
-## 11. Limites do assunto
-
-Este assunto cobre substantivo, artigo, adjetivo, numeral e pronome. Para preservar a divisão do edital:
-
-- verbo e suas flexões pertencem ao Assunto 007;
-- advérbio, preposição, conjunção e interjeição pertencem ao Assunto 008;
-- concordância nominal será aprofundada no Assunto 012;
-- regência, crase e colocação pronominal possuem assuntos próprios.
-
-Esses temas aparecem aqui apenas quando indispensáveis para reconhecer a classe e o emprego contextual.
+Para analisar, **localize a palavra, identifique o que nomeia ou com que termo se relaciona e então atribua classe, função e sentido**. Use a flexão como evidência, não como prova isolada: essas cinco classes são tradicionalmente variáveis, mas *mil, isto, alguém, ninguém* e *quem* não variam.
