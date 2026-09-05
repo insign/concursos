@@ -1,5 +1,6 @@
-- CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS (CEBRASPE). **Edital nº 1 — TCE/MA, de 6 de julho de 2026**. Programa de Língua Portuguesa do Cargo 1.
-- MARCUSCHI, Luiz Antônio. **Gêneros textuais: definição e funcionalidade**.
-- ROJO, Roxane. **Gêneros do discurso**. Glossário Ceale, Faculdade de Educação da UFMG.
-- INSTITUTO NACIONAL DE ESTUDOS E PESQUISAS EDUCACIONAIS ANÍSIO TEIXEIRA (INEP). **Matrizes de referência de Língua Portuguesa/Linguagens do Saeb — BNCC**. Brasília, 2022.
-- GARCEZ, Lucília Helena do Carmo; CORRÊA, Vilma Reche (org.). **Textos dissertativo-argumentativos: subsídios para qualificação de avaliadores**. Brasília: Inep/Cebraspe, 2017.
+- CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS (CEBRASPE). **Edital nº 1 — TCE/MA, de 6 de julho de 2026**. Programa de Língua Portuguesa. Página oficial do concurso: https://www.cebraspe.org.br/concursos/TCE_MA_26
+- ROJO, Roxane. **Gêneros e tipos textuais**. Glossário Ceale, Faculdade de Educação da UFMG. https://ceale.fae.ufmg.br/glossarioceale/verbetes/generos-e-tipos-textuais
+- BEZERRA, Maria Auxiliadora. **Sequências textuais**. Glossário Ceale, Faculdade de Educação da UFMG. https://ceale.fae.ufmg.br/glossarioceale/verbetes/sequencias-textuais
+- ROJO, Roxane. **Gêneros do discurso**. Glossário Ceale, Faculdade de Educação da UFMG. https://ceale.fae.ufmg.br/glossarioceale/verbetes/generos-do-discurso
+- GARCEZ, Lucília Helena do Carmo; CORRÊA, Vilma Reche (org.). **Textos dissertativo-argumentativos: subsídios para qualificação de avaliadores**. Brasília: Inep/Cebraspe, 2017. https://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-institucionais/avaliacoes-e-exames-da-educacao-basica/textos-dissertativo-argumentativos-subsidios-para-qualificacao-de-avaliadores
+- PINTO, Vera Maria Ramos. **Intertextualidade intergêneros e heterogeneidade tipológica na argumentação publicitária**. Dissertação (Mestrado em Estudos da Linguagem), Universidade Estadual de Londrina. https://repositorio.uel.br/handle/123456789/11527
