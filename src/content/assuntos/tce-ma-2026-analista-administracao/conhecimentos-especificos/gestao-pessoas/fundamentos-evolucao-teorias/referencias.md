@@ -1,4 +1,16 @@
-- [Gestão de Pessoas: apostila](https://repositorio.enap.gov.br/bitstream/1/2521/1/GPFT%20-%20ApostilaCE.pdf), Escola Nacional de Administração Pública, acesso em 17 jul. 2026.
-- [Gestão estratégica de pessoas no setor público](https://repositorio.enap.gov.br/handle/1/7645), Escola Nacional de Administração Pública, acesso em 17 jul. 2026.
-- [Organizational theories](https://www.fao.org/4/w7503e/w7503e03.htm), Organização das Nações Unidas para a Alimentação e a Agricultura, acesso em 17 jul. 2026.
-- [The Human Relations Movement and Hawthorne Experiments](https://www.library.hbs.edu/hc/hawthorne/intro.html), Harvard Business School, acesso em 17 jul. 2026.
+- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26), página oficial do concurso e de seus editais, acesso em 5 set. 2026.
+- [Catálogo de Gestão de Pessoas](https://www.gov.br/servidor/pt-br/sipec/conectagente/catalogo-de-gestao-de-pessoas), Ministério da Gestão e da Inovação em Serviços Públicos, acesso em 5 set. 2026.
+- [Gestão de Pessoas: Fundamentos e Tendências](https://repositorio.enap.gov.br/bitstream/1/2521/1/GPFT%20-%20ApostilaCE.pdf), Escola Nacional de Administração Pública, acesso em 5 set. 2026.
+- [Gestão estratégica de pessoas no setor público](https://repositorio.enap.gov.br/handle/1/7645), Escola Nacional de Administração Pública, acesso em 5 set. 2026.
+- [The Principles of Scientific Management](https://www.gutenberg.org/ebooks/6435), Frederick W. Taylor, 1911, acesso em 5 set. 2026.
+- [General and Industrial Management](https://openlibrary.org/books/OL2848560M/General_and_industrial_management), Henri Fayol, tradução de *Administration industrielle et générale*, acesso em 5 set. 2026.
+- [The Theory of Social and Economic Organization](https://openlibrary.org/works/OL18453123W/The_theory_of_social_and_economic_organization), Max Weber, acesso em 5 set. 2026.
+- [Bureaucratic Structure and Personality](https://academic.oup.com/sf/article-abstract/18/4/560/1990520), Robert K. Merton, *Social Forces*, v. 18, n. 4, 1940, acesso em 5 set. 2026.
+- [The Human Relations Movement and the Hawthorne Experiments](https://www.library.hbs.edu/hc/hawthorne/intro.html), Baker Library, Harvard Business School, acesso em 5 set. 2026.
+- [The Functions of the Executive](https://openlibrary.org/books/OL22160996M/The_functions_of_the_executive), Chester I. Barnard, acesso em 5 set. 2026.
+- [Administrative Behavior](https://openlibrary.org/works/OL1205037W/Administrative_behavior), Herbert A. Simon, acesso em 5 set. 2026.
+- [A Comparative Analysis of Complex Organizations](https://openlibrary.org/books/OL5058158M/A_comparative_analysis_of_complex_organizations), Amitai Etzioni, acesso em 5 set. 2026.
+- [The History and Status of General Systems Theory](https://journals.aom.org/doi/abs/10.5465/255139), Ludwig von Bertalanffy, *Academy of Management Journal*, acesso em 5 set. 2026.
+- [Organizational Theories](https://www.fao.org/4/w7503e/w7503e03.htm), Organização das Nações Unidas para a Alimentação e a Agricultura, acesso em 5 set. 2026.
+- [Concurso da SUDENE — provas e gabaritos](https://conhecimento.fgv.br/concursos/sudene), Fundação Getulio Vargas, acesso em 5 set. 2026.
+- [Concurso da AMAZUL — provas e gabaritos](https://conhecimento.fgv.br/concursos/amazul), Fundação Getulio Vargas, acesso em 5 set. 2026.
