@@ -8,332 +8,316 @@ storageId: leitura-tipos-generos
 
 # Leitura, compreensão e interpretação de textos
 
-O edital exige **compreensão e interpretação de textos de gêneros variados**. A competência central é construir sentidos apoiados no próprio texto, na relação entre suas partes e na situação comunicativa. Conhecimento prévio ajuda a reconhecer referências e vocabulário, mas não pode substituir evidências nem autorizar conclusões que o texto não sustenta.
+Interpretar bem não é “achar uma ideia interessante” sobre o texto. É **reconstruir o sentido que o próprio texto autoriza** e saber até onde as evidências permitem chegar.
 
-> **Delimitação do assunto:** gênero, finalidade, suporte e sequência textual aparecem aqui apenas como pistas para interpretar. A classificação detalhada de tipos e gêneros pertence ao assunto específico **Tipos e gêneros textuais**.
+Considere este cenário hipotético:
 
-## Rota Cebraspe: resolva antes de teorizar
+> Depois de três testes, um portal passou a atender também aos sábados. No mês seguinte, o tempo médio de espera caiu 18%.
 
-A banca costuma transformar uma leitura correta em item errado por meio de uma única palavra. Antes de discutir conceitos, adote este roteiro:
+O texto afirma que houve três testes, ampliação do atendimento e queda de 18% no mês seguinte. Ele também permite perceber a ordem temporal. Mas, sozinho, **não prova** que o sábado foi a única causa da queda, que o resultado ocorreu em todas as unidades nem que todos os usuários aprovaram a mudança.
 
-1. **Leia o comando e delimite a tarefa.** “De acordo com o texto” pede aderência máxima; “infere-se” exige conclusão autorizada; “o autor defende” exige separar a voz autoral das vozes citadas.
-2. **Formule uma resposta provisória.** Resuma mentalmente a informação, a tese, a função ou o efeito solicitado antes de olhar as opções.
-3. **Localize a prova textual.** Identifique o trecho, o dado visual ou a relação interna que sustenta sua resposta.
-4. **Meça a força da conclusão.** Distinga o que é explícito, necessário, fortemente autorizado, apenas possível ou contraditório.
-5. **Compare palavra por palavra.** Confira quantificadores, modalizadores, negações, intensidade, tempo, causalidade, voz e restrições.
-6. **Julgue o item inteiro.** Em certo ou errado, uma única oração, condição ou consequência sem apoio torna todo o item errado.
+Esse contraste é o núcleo deste assunto: **ler é localizar o que está dito, relacionar as partes e inferir apenas o que as pistas sustentam**. Em prova, muitos erros surgem quando uma alternativa começa fiel ao texto e acrescenta uma certeza, causa, intenção, generalização ou avaliação que não estava lá.
 
-### Vocabulário de comandos
+> **Fronteira do assunto:** gênero, finalidade, suporte e sequência textual aparecem aqui quando ajudam a construir sentido. A classificação detalhada de tipos e gêneros pertence ao assunto **Tipos e gêneros textuais**.
 
-| Comando | O que procurar | Erro frequente |
-| --- | --- | --- |
-| “Segundo/de acordo com o texto” | informação afirmada ou relação diretamente apresentada | acrescentar explicação externa |
-| “Depreende-se/infere-se” | conclusão sustentada pelo conjunto de pistas | aceitar algo apenas possível |
-| “Evidencia-se” | marca textual clara e verificável | confundir impressão pessoal com evidência |
-| “O autor defende/sustenta” | posição assumida pelo enunciador | atribuir-lhe a opinião de uma fonte citada |
-| “A finalidade do texto/trecho” | efeito comunicativo predominante | escolher uma função secundária |
-| “A função do parágrafo/expressão” | papel da parte na progressão global | classificar por uma palavra isolada |
-| “Sem prejuízo do sentido” | equivalência das relações relevantes | preservar o tema, mas alterar modalidade ou causa |
+## 1. Do que está escrito ao sentido construído
 
-### Como a banca fabrica o erro
+Um texto não é uma soma de frases independentes. É uma unidade de sentido produzida em uma situação comunicativa. O leitor articula palavras, frases, pontuação, relações entre parágrafos, finalidade, interlocutores e, quando houver, elementos visuais ou sonoros.
 
-| Transformação | Formulação sustentada | Distorção típica |
-| --- | --- | --- |
-| Quantidade | parte dos usuários | todos os usuários |
-| Modalidade | pode reduzir | reduzirá necessariamente |
-| Frequência | às vezes | sempre |
-| Intensidade | dificultou | impossibilitou |
-| Tempo | ocorreu depois | ocorreu antes |
-| Causalidade | ocorreu depois de | foi causado por |
-| Voz | segundo especialistas | o autor afirma |
-| Restrição | em certas situações | em qualquer situação |
-| Avaliação | foi chamado de inadequado | é objetivamente ilegal |
-| Escopo | um exemplo do problema | a totalidade do problema |
+O ponto de partida é sempre a evidência disponível. Conhecimento prévio pode ajudar a reconhecer referências e vocabulário, mas não substitui o texto nem autoriza conclusões incompatíveis com ele.
 
-Uma alternativa pode começar fiel ao texto e terminar com um acréscimo indevido. **Metade correta não salva o item.**
+### 1.1 Compreender, interpretar e inferir
 
-## 1. Texto, contexto e construção de sentidos
+Na prática, essas operações se sobrepõem:
 
-Texto não é simples soma de frases. É uma unidade de sentido produzida em determinada situação. Para compreendê-lo, o leitor articula:
+- **compreender** é reconhecer informações e relações apresentadas;
+- **interpretar** é construir o sentido global, a finalidade, o efeito ou a posição que decorre dessas relações;
+- **inferir** é chegar a uma conclusão que não está formulada literalmente, mas é autorizada pelas pistas;
+- **opinar** é avaliar a partir de critérios próprios; isso não serve, por si só, como prova do que o texto significa.
 
-- palavras, frases, pontuação e relações entre partes;
-- imagem, cor, diagramação, gesto, gráfico ou som, quando presentes;
-- organização global e progressão das ideias;
-- finalidade, produtor, destinatário, tempo e lugar de circulação;
-- conhecimentos necessários para preencher lacunas sem contrariar pistas textuais.
+A distinção é didática. Toda compreensão exige alguma interpretação. O critério decisivo é o **controle pelo texto**.
 
-Uma interpretação defensável deve apontar **marcas textuais, relações internas ou dados pertinentes do contexto**. Associação livre e opinião pessoal não bastam.
+### 1.2 A força de uma conclusão
 
-### Compreensão, interpretação e inferência
+Nem toda conclusão compatível com o texto tem a mesma força. Imagine:
 
-| Operação | Pergunta central | Comando frequente |
-| --- | --- | --- |
-| Compreensão | O que o texto apresenta e como as partes se relacionam? | “De acordo com o texto...” |
-| Interpretação | Que sentido, efeito, finalidade ou posição decorre das pistas? | “Depreende-se do texto...” |
-| Inferência | Que conclusão não literal é autorizada? | “Infere-se que...” |
-| Opinião pessoal | O que o leitor pensa sem precisar provar pelo texto? | Não serve, por si só, como resposta |
+> Quatro dos seis setores entregaram o relatório no prazo.
 
-A separação é didática, não absoluta. Toda compreensão mobiliza alguma interpretação. O critério decisivo é o **controle pelo texto**.
+É explícito que quatro entregaram no prazo. Também é necessário concluir que dois não pertencem a esse grupo. Já afirmar que os dois restantes **atrasaram deliberadamente** acrescenta uma intenção que o enunciado não fornece.
 
-### Informação explícita, implícita e inferência
+Depois de entender esse mecanismo, vale sistematizá-lo:
 
-Considere:
-
-> Após três testes, o portal passou a atender também aos sábados. No mês seguinte, o tempo médio de espera caiu 18%.
-
-Estão explícitos os três testes, o atendimento aos sábados e a queda de 18%. A sequência temporal também está dada. Não se pode afirmar, sem outra evidência, que abrir aos sábados foi a **única causa**, que a queda ocorreu em todas as unidades ou que todos aprovaram a medida.
-
-Antes de aceitar uma inferência, pergunte:
-
-1. Que palavra, relação ou dado a sustenta?
-2. A conclusão é necessária, fortemente provável ou apenas possível?
-3. O item transformou possibilidade em certeza?
-4. Houve ampliação de “alguns” para “todos”, de “pode” para “deve” ou de “frequente” para “sempre”?
-5. Foi acrescentada causa, intenção, avaliação ou informação ausente?
-
-### Escala de força das conclusões
-
-| Nível | Característica |
+| Força | Como reconhecer |
 | --- | --- |
-| Explícito | Está afirmado ou representado diretamente |
-| Inferência necessária | Decorre das informações sem alternativa compatível |
-| Inferência fortemente autorizada | É a leitura mais sustentada pelo conjunto de pistas |
-| Possibilidade | É compatível, mas não confirmada |
-| Extrapolação | Acrescenta certeza ou conteúdo sem base suficiente |
-| Contradição | É incompatível com o texto |
+| **Explícito** | está afirmado ou representado diretamente |
+| **Inferência necessária** | decorre das informações sem alternativa compatível |
+| **Inferência fortemente autorizada** | é a leitura mais sustentada pelo conjunto de pistas |
+| **Possibilidade** | é compatível, mas não está confirmada |
+| **Extrapolação** | acrescenta certeza ou conteúdo sem base suficiente |
+| **Contradição** | é incompatível com o texto |
 
-Em alternativa única, a resposta correta costuma ser a mais precisamente autorizada, não a mais interessante ou plausível fora do texto. Em certo ou errado, **“poder ser verdade” não basta**.
+Em item de certo ou errado, “pode ser verdade” não basta. O enunciado precisa ser sustentado pelo texto inteiro.
 
-### Paráfrase e manutenção do sentido
+### 1.3 Oito mudanças pequenas que alteram o sentido
 
-Parafrasear é reformular preservando o núcleo e as relações relevantes. Pequenas mudanças podem romper a equivalência:
+Grande parte das pegadinhas nasce de uma troca aparentemente pequena:
 
-- **quantidade:** alguns ≠ todos;
-- **modalidade:** pode ≠ deve;
-- **frequência:** às vezes ≠ sempre;
-- **intensidade:** reduziu ≠ eliminou;
-- **tempo:** começou ≠ concluiu;
-- **polaridade:** improvável ≠ impossível;
-- **causalidade:** ocorreu depois de ≠ ocorreu por causa de;
-- **escopo:** parte do problema ≠ problema inteiro.
+- **quantidade:** alguns → todos;
+- **modalidade:** pode → deve;
+- **frequência:** às vezes → sempre;
+- **intensidade:** dificultou → impossibilitou;
+- **negação:** não é comum → nunca ocorre;
+- **tempo:** ocorreu depois → ocorreu antes;
+- **causalidade:** ocorreu depois de → ocorreu por causa de;
+- **escopo ou restrição:** em certas situações → em qualquer situação.
 
-Compare o item com o texto termo a termo, sobretudo negações, restrições, quantificadores e modalizadores.
+Por isso, paráfrase fiel não significa repetir as mesmas palavras. Significa preservar o núcleo **e as relações relevantes**. “Alguns relatórios podem conter estimativas preliminares” pode ser reformulado como “há relatórios que talvez apresentem estimativas ainda não definitivas”, mas não como “todos os relatórios contêm estimativas”.
 
-### Pressuposição, acarretamento e implicatura
+## 2. Implícitos: o que o texto sugere, pressupõe ou acarreta
 
-**Pressuposição** é informação de fundo acionada por uma marca linguística e que muitas vezes persiste sob negação.
+Inferência é uma operação geral. Alguns mecanismos merecem nome porque ajudam a medir a força do que não aparece literalmente.
+
+### 2.1 Pressuposição
+
+Pressuposição é uma informação de fundo ativada por uma marca linguística e que muitas vezes permanece mesmo quando a frase é negada.
 
 > O setor voltou a publicar relatórios mensais.
 
-Pressuposto: o setor publicava relatórios mensais em período anterior. Expressões como **parar de**, **continuar**, **ainda**, **novamente**, **voltar a**, **deixar de** e alguns verbos factivos podem funcionar como gatilhos. A análise concreta e o contexto são indispensáveis.
+A construção **voltou a** apresenta como pano de fundo que o setor já publicava relatórios em momento anterior.
 
-**Acarretamento** é consequência semântica necessária.
+Compare:
 
-> A comissão analisou quatro recursos.
+> Lia parou de revisar os dados.  
+> Lia não parou de revisar os dados.
 
-Isso acarreta que a comissão analisou recursos. Não acarreta que analisou somente quatro, acolheu algum ou concluiu todo o trabalho.
+Nas duas formulações, a construção **parar de** toma como informação de fundo que Lia revisava os dados antes. Expressões como **continuar**, **ainda**, **novamente**, **voltar a** e **deixar de** também podem acionar pressuposições. O contexto concreto continua indispensável.
 
-**Implicatura** é sentido construído pela situação e pelas expectativas comunicativas. Em geral, pode ser cancelada sem contradição lógica.
+### 2.2 Acarretamento
 
-> Você consegue baixar o volume?
+Acarretamento é uma consequência semântica necessária.
 
-Em contexto comum, funciona como pedido, embora literalmente pergunte por capacidade.
+> A comissão analisou três recursos.
 
-| Fenômeno | Fonte principal | Força típica |
-| --- | --- | --- |
-| Pressuposição | gatilho linguístico e contexto | conteúdo de fundo relativamente persistente |
-| Acarretamento | relação semântica ou lógica | consequência necessária |
-| Implicatura | contexto e intenção comunicativa | conclusão negociável e cancelável |
-| Inferência | operação geral do leitor | pode produzir conclusões de forças diferentes |
+Disso decorre que a comissão analisou recursos. Não decorre que havia **somente** três, que algum foi acolhido nem que todo o trabalho terminou.
 
-## 2. Organização global do sentido
+### 2.3 Implicatura
 
-### Assunto, tema, tópico, ideia principal e tese
+Implicatura é um sentido construído a partir da situação comunicativa e das expectativas da interação.
 
-| Conceito | Definição prática |
+> Seu microfone continua ligado.
+
+Em uma videoconferência, a fala pode funcionar como alerta ou pedido para desligá-lo. Esse pedido não foi formulado literalmente e, em princípio, pode ser cancelado ou esclarecido sem contradição lógica.
+
+A diferença útil para a prova é esta: o acarretamento é necessário; a pressuposição vem como conteúdo de fundo acionado pela formulação; a implicatura depende mais fortemente do contexto. Todos podem participar da interpretação, mas não têm a mesma força.
+
+## 3. Descobrir o núcleo e a arquitetura do texto
+
+Depois de compreender frases e relações locais, é preciso enxergar o conjunto. A pergunta deixa de ser apenas “o que esta frase diz?” e passa a ser “que papel ela desempenha no texto?”.
+
+### 3.1 Assunto, tema, tópico, ideia principal e tese
+
+Considere um texto sobre teletrabalho que discute benefícios de flexibilidade e dificuldades de integração entre equipes. “Teletrabalho” é apenas o campo geral. O recorte efetivamente desenvolvido é mais específico.
+
+| Conceito | Pergunta prática |
 | --- | --- |
-| Assunto | campo geral: “teletrabalho” |
-| Tema | recorte central: “efeitos do teletrabalho no atendimento” |
-| Tópico | foco local de um trecho: “redução de deslocamentos” |
-| Ideia principal | informação nuclear de texto ou trecho |
-| Tese | proposição defendida e sustentada por razões |
+| **Assunto** | qual é o campo geral? |
+| **Tema** | qual recorte central é desenvolvido? |
+| **Tópico** | qual é o foco local deste trecho? |
+| **Ideia principal** | qual informação organiza o conjunto? |
+| **Tese** | qual posição o texto procura defender? |
 
-O tema não é necessariamente o título nem a palavra mais repetida. A tese pode aparecer no início, no fim ou ser construída ao longo do texto. Textos que apenas expõem um assunto podem ter ideia principal sem defender tese controversa.
+O tema não é necessariamente o título nem a palavra mais repetida. A tese pode aparecer no início, no fim ou ser construída ao longo do texto. E um texto expositivo pode ter ideia principal sem defender uma tese controversa.
 
-### Hierarquia e progressão das ideias
+### 3.2 Ideia principal e ideias secundárias
 
-Ideias secundárias desenvolvem a principal por definição, explicação, exemplo, comparação, causa, consequência, dado, testemunho, ressalva, concessão, objeção ou conclusão parcial.
+Uma ideia secundária pode definir, explicar, exemplificar, comparar, apresentar causa ou consequência, fornecer dado, introduzir ressalva, formular objeção ou concluir uma etapa do raciocínio.
 
-Uma alternativa erra quando transforma:
+O erro aparece quando a alternativa troca os níveis:
 
-- detalhe em síntese;
-- exemplo em tese;
-- hipótese em fato;
-- ressalva em posição central;
-- argumento de uma fonte em posição do autor;
-- dado localizado em regra universal.
+- transforma um exemplo em tese;
+- toma um detalhe por síntese;
+- converte uma hipótese em fato;
+- trata uma ressalva como posição central;
+- universaliza um dado localizado;
+- atribui ao autor uma razão apresentada apenas por uma fonte citada.
 
-Interpretar também é explicar por que uma parte aparece naquele ponto. Um parágrafo pode apresentar problema, especificar afirmação geral, exemplificar, contrastar posições, introduzir causa, consequência ou condição, formular ressalva, responder objeção ou concluir.
+Ao analisar um parágrafo, pergunte: **o que esta parte faz em relação ao que veio antes e ao que vem depois?**
 
-### Finalidade, destinatário e situação
+### 3.3 Tese, argumento, concessão e refutação
 
-Finalidade é o efeito predominante procurado: informar, explicar, instruir, regulamentar, solicitar, persuadir, avaliar, criticar, relatar ou entreter.
+Considere este exemplo hipotético:
 
-Para identificá-la, observe em conjunto produtor, destinatário, contexto, organização, registro, dados, ordens, argumentos, avaliações e humor. Um texto pode ter efeitos secundários. Uma campanha institucional informa datas de vacinação, mas procura principalmente promover o comparecimento.
+> Embora o atendimento digital reduza deslocamentos, o canal presencial deve ser mantido, pois parte da população enfrenta barreiras de acesso.
 
-### Fato, opinião, ponto de vista e modalização
+O trecho **reconhece** uma vantagem do atendimento digital, mas essa concessão não elimina a posição principal. A tese é a manutenção do canal presencial; a razão apresentada é a existência de barreiras de acesso.
 
-**Fato**, em análise textual, é informação apresentada como verificável: “a reunião ocorreu em 12 de maio”. **Opinião** é avaliação: “a reunião foi improdutiva”. A prova pode pedir como o texto formula a informação, não a certificação de sua verdade no mundo.
+Um texto argumentativo pode combinar:
 
-O texto pode relatar opinião alheia. Nesse caso, é fato textual que a avaliação foi atribuída a alguém, mas o conteúdo citado continua sendo opinião dessa fonte.
+- tese;
+- razões e evidências;
+- exemplos;
+- comparação;
+- apelo a autoridade;
+- concessão;
+- objeção;
+- refutação;
+- conclusão.
 
-Ponto de vista aparece em:
+A presença de uma opinião isolada não basta para identificar uma argumentação desenvolvida. Procure **posição + sustentação**.
+
+## 4. Finalidade, destinatário e ponto de vista
+
+Interpretar também exige perceber quem fala, para quem, em que situação e com que efeito predominante.
+
+### 4.1 Finalidade comunicativa
+
+Um texto pode procurar informar, explicar, instruir, regulamentar, solicitar, persuadir, avaliar, criticar, relatar ou entreter. Essas funções podem coexistir.
+
+Imagine um cartaz institucional que informa datas e locais de vacinação e termina com um chamado para comparecer. Ele transmite informações, mas sua finalidade predominante é **promover e orientar o comparecimento**.
+
+Para reconhecer a finalidade, observe em conjunto:
+
+- produtor e destinatário;
+- situação de circulação;
+- organização do texto;
+- ordens, dados, argumentos e avaliações;
+- registro linguístico;
+- elementos visuais.
+
+A classificação detalhada do gênero fica para o assunto próprio; aqui, o gênero interessa como pista para interpretar o que o texto pretende fazer.
+
+### 4.2 Fato, opinião e modalização
+
+Em análise textual, uma frase como “a reunião ocorreu em 12 de maio” é apresentada como informação verificável. “A reunião foi improdutiva” contém avaliação.
+
+A prova pode pedir **como o texto apresenta** uma informação, não se ela é verdadeira no mundo. Um texto também pode relatar uma opinião alheia: nesse caso, é fato textual que alguém emitiu aquela avaliação, mas o conteúdo continua atribuído àquela fonte.
+
+Marcas importantes de ponto de vista incluem:
 
 - adjetivos avaliativos: “medida precipitada”;
-- modalizadores: certamente, talvez, provavelmente, infelizmente;
-- verbos de dizer: afirmar, alegar, demonstrar, admitir;
-- seleção e ordenação dos dados;
-- concessões, contrastes e perguntas retóricas;
-- ironia e aspas de distanciamento.
+- modalizadores: “certamente”, “talvez”, “provavelmente”, “infelizmente”;
+- verbos de dizer: “afirmar”, “alegar”, “demonstrar”, “admitir”;
+- concessões e contrastes;
+- perguntas retóricas;
+- ironia e aspas de distanciamento;
+- seleção e ordenação dos dados.
 
-### Tese, argumento e contra-argumento
+“Provavelmente reduzirá” não equivale a “reduzirá certamente”. A modalidade faz parte do sentido.
 
-Um texto argumentativo busca adesão a uma posição. Pode combinar tese, razões, evidências, exemplos, comparação, autoridade, concessão, objeção, refutação e conclusão.
+## 5. Quem está falando? Vozes, polifonia e intertextualidade
 
-> Embora o atendimento digital reduza filas, o canal presencial deve ser mantido, pois parte da população enfrenta barreiras de acesso.
+Considere:
 
-A concessão reconhece uma vantagem do digital; a tese defende o canal presencial; a justificativa aponta desigualdade de acesso. A posição não é “o atendimento digital não reduz filas”.
+> Para a direção, a mudança reduzirá custos; representantes dos usuários, porém, temem perda de qualidade.
 
-### Vozes, polifonia e autoria da posição
+Há duas avaliações atribuídas a fontes diferentes. A mera apresentação delas não prova que o autor concorde com uma das posições.
 
-> Segundo a direção, a mudança reduzirá custos; representantes dos usuários, porém, temem perda de qualidade.
+Marcas de atribuição incluem discurso direto, aspas, verbos de dizer e expressões como **segundo**, **para**, **na avaliação de** e **alguns defendem**.
 
-O trecho põe em cena avaliações contrastantes. A mera citação não prova que o autor concorde com uma delas.
+Quando um texto põe em cena diferentes vozes e perspectivas, há **polifonia**. Isso não é o mesmo que intertextualidade.
 
-Marcas de atribuição incluem discurso direto, aspas, verbos de dizer, “segundo”, “para”, “na avaliação de” e fórmulas como “alguns defendem”. **Polifonia** é a presença de vozes e perspectivas distintas; não se confunde automaticamente com intertextualidade.
+**Intertextualidade** é uma relação significativa com outro texto ou discurso: citação, referência nominal, alusão, paródia, retomada de estrutura, estilo ou imagem. Uma charge que recria uma pintura conhecida para comentar fato atual estabelece esse diálogo. Coincidência de assunto ou uso de expressão genérica, isoladamente, não basta.
 
-### Intertextualidade
+A pergunta útil não é apenas “há outro texto aqui?”, mas **que efeito a retomada produz**: reforço, crítica, homenagem, paródia, atualização ou contraste.
 
-Intertextualidade é a relação significativa de um texto com outro texto ou discurso. Pode ocorrer por citação, referência nominal, alusão, paródia, retomada de estrutura, estilo ou imagem.
+## 6. Sentido contextual: literal, figurado e ambíguo
 
-Uma charge que recria pintura conhecida para comentar fato atual depende do diálogo entre textos. Coincidência de assunto ou expressão genérica, sozinha, não prova intertextualidade. Interprete o efeito da retomada: reforço, crítica, homenagem, paródia ou atualização.
+Uma palavra pode ter várias acepções possíveis; o contexto seleciona a adequada.
 
-### Denotação, conotação e sentido contextual
+- “A ponte foi interditada”: uso predominantemente **denotativo**, literal ou referencial.
+- “O diálogo criou uma ponte entre as equipes”: uso **conotativo**, figurado.
 
-**Denotação** corresponde ao uso predominantemente literal ou referencial. **Conotação** envolve valor figurado, simbólico ou avaliativo.
+Metáfora, metonímia, expressão idiomática e jogo de palavras podem alterar o efeito global do enunciado. Não escolha uma acepção apenas porque ela aparece no dicionário; verifique se combina com as relações do trecho.
 
-- “A ponte foi interditada”: uso denotativo.
-- “O acordo criou uma ponte entre os setores”: uso conotativo.
+### 6.1 Ambiguidade
 
-A palavra pode ter vários sentidos no dicionário; somente o contexto seleciona a acepção adequada. Metáfora, metonímia, expressão idiomática e jogo de palavras participam da construção global.
+> O assessor informou ao diretor que seu relatório precisava de revisão.
 
-### Ambiguidade e desambiguação
+Sem contexto, “seu” pode remeter ao assessor ou ao diretor. A ambiguidade é referencial. Ela também pode ser lexical, sintática, de escopo ou pragmática.
 
-Ambiguidade pode ser lexical, sintática, referencial, de escopo ou pragmática.
+Ambiguidade involuntária prejudica a precisão; em humor, literatura ou publicidade, pode ser deliberada. Para resolver a referência, use o contexto e procure a reformulação que elimina a leitura concorrente.
 
-> O servidor informou ao gerente que seu relatório estava incompleto.
+## 7. Textos multimodais: a imagem também argumenta e informa
 
-Sem contexto, “seu” pode remeter ao servidor ou ao gerente. Título, frase anterior ou reformulação pode eliminar a dúvida. Ambiguidade involuntária prejudica a precisão administrativa; em humor, literatura e publicidade, pode ser recurso intencional.
+Charge, tirinha, anúncio, cartaz, infográfico e página digital combinam linguagem verbal com imagem, cor, tipografia, posição, gesto, escala ou outros modos de significação.
 
-## 3. Leitura de textos multimodais
+Esses elementos podem:
 
-Textos multimodais ou multissemióticos integram dois ou mais modos. Em charge, tirinha, anúncio, cartaz, infográfico ou página digital, examine:
+- complementar o que as palavras dizem;
+- repetir uma informação;
+- restringir uma interpretação;
+- contradizer o verbal;
+- criar ironia ou humor.
 
-1. título, legenda e balões;
-2. expressão facial, gesto e enquadramento;
-3. cor, tipografia, tamanho e posição;
-4. valores, escalas e fontes de gráficos;
-5. relação entre palavras e imagem.
+Em um cartaz com a frase “o prazo está correndo” sobre um calendário desenhado com pernas, o efeito depende da integração entre o sentido figurado da expressão e a imagem literalizada.
 
-Os modos podem se complementar, repetir, restringir ou contradizer. Muitas vezes, a ironia nasce da oposição entre o enunciado verbal e a cena visual.
+### 7.1 Gráficos e infográficos
 
-### Gráficos e infográficos
+Antes de concluir, identifique o que cada elemento representa. Confira:
 
-- confira título, período, unidade e fonte;
-- distinga número absoluto de percentual;
-- diferencie percentual de ponto percentual;
-- observe escala e ponto de partida dos eixos;
-- não converta correlação em causa;
-- compare exatamente as categorias pedidas;
-- integre dados e ressalvas do texto verbal.
+1. título e período;
+2. unidade de medida;
+3. categorias comparadas;
+4. valores absolutos, percentuais e pontos percentuais;
+5. escala e ponto de partida dos eixos;
+6. fonte e eventuais notas;
+7. relação entre os dados e o texto verbal.
 
-Uma escala truncada pode ampliar visualmente diferença pequena. O leitor deve interpretar os valores, não apenas a impressão gráfica.
+Se uma taxa sobe de 42% para 47%, a diferença é de **5 pontos percentuais**; o crescimento relativo sobre 42% é aproximadamente 11,9%. São medidas diferentes.
 
-### Ironia e humor
+Um eixo vertical que começa em 40% pode ampliar visualmente uma diferença pequena. E duas mudanças que ocorrem no mesmo período não estabelecem, sozinhas, relação de causa.
 
-Ironia não é sempre “dizer exatamente o contrário”. Ela pode resultar de inadequação entre palavras e situação, exagero, eco crítico de outra voz ou contraste entre texto e imagem. Humor também pode surgir de ambiguidade, quebra de expectativa, duplo sentido ou incongruência.
+### 7.2 Ironia e humor
 
-Para reconhecer o efeito, identifique a expectativa criada e a pista que a rompe. Evite transformar toda afirmação incomum em ironia.
+Ironia não é simplesmente “dizer o contrário”. Ela pode nascer de exagero, inadequação entre fala e situação, eco crítico de outra voz ou contraste entre linguagem verbal e imagem.
 
-## 4. Estudos resolvidos
+Para reconhecê-la, localize duas coisas: **a expectativa construída** e **a pista que a rompe**. Sem essa pista, atribuir ironia é apenas uma leitura arbitrária.
 
-### Estudo 1 — tese, concessão, vozes e item parcialmente correto
+## 8. Como transformar esse modelo em decisão de prova
 
-> A digitalização ampliou o acesso a serviços públicos e reduziu deslocamentos. Especialistas em inclusão, porém, alertam que o ganho não alcança automaticamente quem tem conexão instável ou dificuldade de leitura. Em relatório recente, a administração reconheceu essas barreiras e anunciou atendimento assistido em unidades presenciais.
+Agora a estratégia de prova pode ser reduzida a um procedimento porque os critérios já foram construídos.
+
+1. **Entenda o comando.** “De acordo com o texto” pede aderência máxima; “infere-se” admite conclusão não literal, desde que sustentada; “o autor defende” exige separar a voz autoral das vozes citadas.
+2. **Responda antes de se deixar levar pela alternativa.** Formule mentalmente a informação, a tese, a função ou o efeito pedido.
+3. **Localize a evidência decisiva.** Pode ser uma frase, a relação entre parágrafos, um dado visual ou uma marca de atribuição.
+4. **Meça a força da conclusão.** Pergunte se ela é explícita, necessária, fortemente autorizada ou apenas possível.
+5. **Compare as relações, não só as palavras.** Confira quantidade, modalidade, negação, intensidade, tempo, causalidade, voz e restrições.
+6. **Julgue o item inteiro.** Uma parte correta não salva uma condição, consequência ou generalização sem apoio.
+
+### Estudo resolvido 1 — uma palavra muda tudo
+
+Considere o cenário hipotético:
+
+> A digitalização ampliou o acesso e reduziu deslocamentos. Especialistas em inclusão, porém, alertam que o ganho não alcança automaticamente quem enfrenta conexão instável ou dificuldade de leitura. A administração reconheceu essas barreiras e anunciou atendimento assistido presencial.
 >
 > A medida é adequada, mas não encerra o problema. Sem linguagem clara, acessibilidade e avaliação contínua, um canal formalmente disponível pode continuar pouco utilizável.
->
-> Por isso, modernizar não significa apenas transferir formulários para a internet; significa redesenhar o serviço a partir das condições reais de seus usuários.
 
-**Item 1:** O texto rejeita a digitalização dos serviços públicos.  
-**Errado.** O primeiro período reconhece ganhos; a crítica recai sobre a suficiência da mera digitalização.
+**Item:** O texto rejeita a digitalização dos serviços públicos.  
+**Errado.** O texto reconhece ganhos e critica a ideia de que a digitalização, sozinha, resolva todo o problema.
 
-**Item 2:** A opinião dos especialistas é incorporada como ressalva a uma avaliação inicialmente favorável.  
-**Certo.** “Porém” introduz limite ao ganho reconhecido.
+**Item:** A opinião dos especialistas funciona como ressalva à avaliação inicialmente favorável.  
+**Certo.** O “porém” limita o alcance dos benefícios reconhecidos.
 
-**Item 3:** O autor defende que todo canal digital é inutilizável sem atendimento presencial.  
-**Errado.** O texto não universaliza nem declara inutilidade; sustenta a necessidade de condições complementares.
+**Item:** O atendimento assistido resolveu as barreiras mencionadas.  
+**Errado.** A formulação transforma uma medida considerada adequada em solução completa, contrariando “não encerra o problema”.
 
-**Item 4:** A tese é que modernização efetiva exige considerar as condições reais dos usuários.  
-**Certo.** A conclusão reformula explicitamente essa posição.
+### Estudo resolvido 2 — dado, escala e causalidade
 
-**Item 5:** O relatório resolveu as barreiras ao anunciar atendimento assistido.  
-**Errado.** O texto afirma que a medida é adequada, **mas não encerra o problema**. O item começa fiel e termina com consequência contraditória.
+Considere outro cenário hipotético: um gráfico chamado “Solicitações concluídas no prazo” mostra a Unidade A passando de 42% para 47% e a Unidade B de 61% para 63%. O eixo vertical começa em 40%. Uma nota informa que também houve mudança no sistema de triagem.
 
-### Estudo 2 — gráfico, escala e causalidade
-
-Considere um gráfico intitulado “Percentual de solicitações concluídas no prazo”, relativo a duas unidades do mesmo órgão em 2025. A Unidade A passou de 42% para 47%; a Unidade B, de 61% para 63%. O eixo vertical começa em 40%, e uma nota informa que, no período, também houve mudança no sistema de triagem.
-
-**Item 1:** A Unidade A cresceu 5 pontos percentuais.  
+**Item:** A Unidade A cresceu 5 pontos percentuais.  
 **Certo.** A diferença é 47% − 42% = 5 pontos percentuais.
 
-**Item 2:** A taxa da Unidade A aumentou apenas 5%.  
-**Errado.** Cinco pontos percentuais correspondem a crescimento relativo aproximado de 11,9% sobre 42%.
+**Item:** O crescimento relativo da Unidade A foi de apenas 5%.  
+**Errado.** Cinco pontos percentuais correspondem a aproximadamente 11,9% de crescimento sobre a base de 42%.
 
-**Item 3:** O gráfico pode produzir impressão visual ampliada porque o eixo não começa em zero.  
-**Certo.** A faixa estreita aumenta a distância visual entre valores próximos.
+**Item:** A mudança no sistema de triagem foi a causa comprovada do aumento.  
+**Errado.** A simultaneidade não isola causalidade.
 
-**Item 4:** A mudança no sistema de triagem foi a causa comprovada do aumento.  
-**Errado.** A nota registra coexistência temporal; não isola causalidade.
+## 9. Fechamento: a pergunta que decide
 
-## 5. Método de conferência final
+Quando uma alternativa parecer plausível, não pergunte primeiro se ela “faz sentido no mundo”. Pergunte:
 
-Antes de marcar, percorra oito perguntas:
+> **Que marca do texto autoriza exatamente esta conclusão, com esta força, este alcance e esta voz?**
 
-1. O item preserva o **quantificador**?
-2. Preserva a **modalidade**?
-3. Preserva a **negação**?
-4. Preserva a **intensidade**?
-5. Preserva a relação de **tempo**?
-6. Preserva ou prova a **causalidade**?
-7. Mantém a **voz** corretamente atribuída?
-8. Respeita todas as **restrições e condições**?
-
-Se uma dessas dimensões foi alterada sem base textual, o item está errado.
-
-## 6. Armadilhas finais
-
-1. **Palavra repetida não garante resposta correta.** Relações podem ter sido alteradas.
-2. **Plausível não significa autorizado.**
-3. **Possível não significa inferível.**
-4. **Depois disso não significa por causa disso.**
-5. **Tema não é palavra mais frequente.**
-6. **Tese não é exemplo.** Argumento sustenta; exemplo ilustra.
-7. **Voz citada não é automaticamente posição do autor.**
-8. **Fato textual não certifica sozinho a verdade externa da alegação.**
-9. **Acepção possível não é necessariamente a acepção contextual.**
-10. **Detalhe não substitui a ideia principal.**
-11. **Imagem não é adorno.** Pode completar, restringir ou contradizer o verbal.
-12. **Ironia depende de pistas.** Não é leitura arbitrária.
-13. **Intertextualidade exige relação significativa, não mera coincidência.**
-14. **Uma metade fiel não salva alternativa com conclusão indevida.**
+Se a resposta exigir acrescentar intenção, causa, certeza, universalização ou avaliação que o texto não forneceu, houve extrapolação. Se a evidência sustentar a relação inteira, a interpretação está controlada pelo texto — que é o critério central desta unidade.
