@@ -428,7 +428,7 @@ A pergunta correta não é “qual órgão controla a internet?”, mas **qual m
 
 ---
 
-## 14. Três casos para aplicar o modelo
+## 12. Três casos para aplicar o modelo
 
 ### Caso 1 — identificação sem acesso indevido
 
@@ -455,7 +455,7 @@ Uma plataforma recebe notificação extrajudicial sobre conteúdo supostamente i
 
 ---
 
-## 15. Fechamento: sequência de decisão para prova
+## 13. Fechamento: sequência de decisão para prova
 
 Ao encontrar uma questão sobre o <abbr title="Marco Civil da Internet">MCI</abbr>, percorra esta ordem:
 
