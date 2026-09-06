@@ -102,7 +102,7 @@ A anuência é firmada por assinatura na proposta, concordando-se **em tese com 
 
 ## 5. Emendas e sugestões: quem pode mudar o texto em formação
 
-Depois da apresentação em Sessão Plenária, os Conselheiros podem emendar **propostas de atos normativos** no prazo de **até 7 dias**.
+Depois da apresentação em Sessão Plenária, os Conselheiros podem emendar **propostas de atos normativos** no prazo de **até 8 dias**.
 
 No mesmo prazo, Conselheiros-Substitutos e membros do <abbr title="Ministério Público de Contas">MPC</abbr> podem encaminhar ao Relator **sugestões** relativas a projeto de ato normativo, enunciado de Súmula e projeto de lei.
 
@@ -167,7 +167,7 @@ A votação é dispensada quando:
 
 Nessa fase, só se admite emenda para evitar incorreções gramaticais ou para dar maior clareza e objetividade ao texto.
 
-O artigo 321 permite ao Plenário reduzir ou ampliar os prazos nele referidos, mediante proposta justificada do Presidente ou do Relator. O dispositivo ainda cita os artigos 311 e 312, embora o artigo 311 esteja revogado. Para a regra hoje expressa no artigo 312, memorize o prazo-base de **até 7 dias** e a possibilidade de ajuste pelo Plenário.
+O artigo 321 permite ao Plenário reduzir ou ampliar os prazos nele referidos, mediante proposta justificada do Presidente ou do Relator. O dispositivo ainda cita os artigos 311 e 312, embora o artigo 311 esteja revogado. Para a regra hoje expressa no artigo 312, memorize o prazo-base de **até 8 dias** e a possibilidade de ajuste pelo Plenário.
 
 ## 7. Súmula da Jurisprudência: repetição de decisões vira referência estável
 
