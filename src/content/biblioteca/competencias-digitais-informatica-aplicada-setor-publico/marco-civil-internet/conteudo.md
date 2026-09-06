@@ -6,46 +6,38 @@ order: 29
 storageId: marco-civil-internet
 ---
 
-## 1. Recorte do assunto e três cortes temporais
+## 1. O mapa do problema: usuário, conexão, aplicação e conteúdo
 
-A Lei nº 12.965/2014, conhecida como **Marco Civil da Internet (MCI)**, estabelece princípios, garantias, direitos e deveres para o uso da internet no Brasil e diretrizes para a atuação da União, dos Estados, do Distrito Federal e dos Municípios.
+Imagine a seguinte situação hipotética. Ana usa a conexão de sua operadora para entrar em uma rede social, publica um conteúdo e, depois, uma autoridade precisa identificar de onde partiu determinado acesso. Quatro perguntas aparecem:
 
-O edital do TCE-MA foi publicado em **6 de julho de 2026** e prevê:
+1. **quais direitos Ana tem ao usar a internet?**
+2. **o que a operadora e a rede social podem ou devem guardar?**
+3. **em que condições registros ou comunicações podem ser entregues?**
+4. **quando um provedor pode responder por conteúdo produzido por terceiro?**
 
-- cobrança de alterações legislativas em vigor até a data de publicação do edital;
-- consideração de jurisprudência dos tribunais superiores publicada até 30 dias antes da prova;
-- cobrança de norma ainda não vigente apenas quando ela estiver explicitada nos objetos de avaliação.
+A Lei nº 12.965/2014, o **Marco Civil da Internet** (<abbr title="Marco Civil da Internet">MCI</abbr>), organiza essas relações. Ela estabelece princípios, garantias, direitos e deveres para o uso da internet no Brasil e diretrizes para a atuação da União, dos Estados, do Distrito Federal e dos Municípios.
 
-Por isso, o estudo precisa separar três planos:
+O primeiro passo é separar os papéis. A **conexão à internet** habilita um terminal a enviar e receber pacotes. Uma **aplicação de internet** oferece funcionalidades acessíveis por um terminal conectado — por exemplo, correio eletrônico, rede social ou serviço de armazenamento. O provedor de conexão e o provedor de aplicação, portanto, não desempenham a mesma atividade nem recebem o mesmo regime jurídico.
 
-| Plano | Corte relevante |
-|---|---|
-| núcleo legislativo garantido pelo edital | legislação em vigor em 6/7/2026 |
-| jurisprudência | decisões publicadas até 30 dias antes da prova |
-| legislação atualmente vigente | situação jurídica depois de 20/7/2026 |
+Também é preciso separar três tipos de informação:
 
-### 1.1 Núcleo diretamente alinhado ao edital
+| Objeto | O que representa | Exemplo no cenário |
+|---|---|---|
+| dado cadastral | informação de identificação ou qualificação da pessoa | nome, filiação, endereço |
+| registro | informação sobre a ocorrência de conexão ou acesso | horário e endereço <abbr title="Internet Protocol">IP</abbr> |
+| conteúdo de comunicação | aquilo que foi efetivamente comunicado | mensagem, áudio, arquivo ou publicação |
 
-- Lei nº 12.965/2014;
-- Decreto nº 8.771/2016 na redação vigente em 6/7/2026;
-- interpretação vinculante do <abbr title="Supremo Tribunal Federal">STF</abbr> sobre o art. 19, observada a regra temporal de jurisprudência;
-- neutralidade, direitos, registros, responsabilidade e atuação do poder público.
-
-### 1.2 Atualização posterior ao edital
-
-Os Decretos nº 12.975/2026 e nº 12.976/2026 foram publicados em 21/5/2026 e entraram em vigor **60 dias depois, em 20/7/2026**. Eles estão vigentes hoje, mas não integravam automaticamente o núcleo legislativo cobrável pela regra geral do edital em 6/7/2026.
-
-> **Regra de prova:** identifique se o enunciado pede o texto do edital, a legislação atualmente vigente ou a jurisprudência aplicável.
-
-O STF interpretou constitucionalmente o art. 19. O Decreto nº 12.975 regulamentou novos deveres e procedimentos. Nenhum deles reescreveu formalmente o texto literal da Lei nº 12.965/2014.
+Essa distinção explica boa parte do capítulo: **guardar um registro não significa poder revelar seu conteúdo; preservar não significa entregar; e dado cadastral não é registro de conexão**.
 
 ---
 
-## 2. Fundamentos, princípios e objetivos
+## 2. A lógica da lei: fundamentos, princípios, objetivos e interpretação
 
-### 2.1 Fundamentos do art. 2º
+O <abbr title="Marco Civil da Internet">MCI</abbr> não é apenas uma lista de obrigações técnicas. Ele tenta compatibilizar liberdade, privacidade, funcionamento da rede, inovação e responsabilização.
 
-A disciplina do uso da internet tem como fundamento central o **respeito à liberdade de expressão**. A lei acrescenta:
+### 2.1 Fundamentos: de onde a disciplina parte
+
+O art. 2º coloca no centro o **respeito à liberdade de expressão** e acrescenta:
 
 1. reconhecimento da escala mundial da rede;
 2. direitos humanos, desenvolvimento da personalidade e exercício da cidadania em meios digitais;
@@ -54,187 +46,194 @@ A disciplina do uso da internet tem como fundamento central o **respeito à libe
 5. livre iniciativa, livre concorrência e defesa do consumidor;
 6. finalidade social da rede.
 
-Liberdade de expressão não exclui privacidade, proteção de dados, responsabilidade ou direitos de terceiros.
+A liberdade de expressão é ponto de partida, não imunidade contra direitos de terceiros.
 
-### 2.2 Princípios do art. 3º
+### 2.2 Princípios: como o sistema deve funcionar
 
-| Princípio | Sentido essencial |
-|---|---|
-| liberdade de expressão, comunicação e manifestação | proteção nos termos da Constituição |
-| privacidade | tutela da intimidade e da vida privada |
-| proteção de dados pessoais | observância da legislação de proteção de dados |
-| neutralidade de rede | tratamento isonômico dos pacotes, com exceções estritas |
-| estabilidade, segurança e funcionalidade | técnicas compatíveis com boas práticas |
-| responsabilização conforme a atividade | regime ligado ao papel efetivamente desempenhado |
-| natureza participativa | preservação da participação plural |
-| liberdade dos modelos de negócio | admitida se compatível com os demais princípios |
+O art. 3º prevê, entre outros:
 
-O rol não é fechado: o MCI preserva outros princípios do ordenamento e de tratados internacionais aplicáveis.
+- garantia da liberdade de expressão, comunicação e manifestação de pensamento;
+- proteção da privacidade;
+- proteção dos dados pessoais;
+- preservação e garantia da neutralidade de rede;
+- estabilidade, segurança e funcionalidade da rede;
+- responsabilização dos agentes conforme suas atividades;
+- preservação da natureza participativa da rede;
+- liberdade dos modelos de negócio, desde que compatível com os demais princípios.
 
-### 2.3 Objetivos do art. 4º
+O rol não exclui outros princípios do ordenamento brasileiro ou de tratados internacionais aplicáveis.
+
+### 2.3 Objetivos: o que a disciplina procura promover
+
+O art. 4º dirige o sistema para:
 
 - direito de acesso à internet a todos;
-- acesso à informação, conhecimento, cultura e assuntos públicos;
-- inovação e difusão de tecnologias e modelos;
-- padrões tecnológicos abertos que favoreçam comunicação, acessibilidade e interoperabilidade.
+- acesso à informação, ao conhecimento, à cultura e à participação nos assuntos públicos;
+- inovação e difusão de tecnologias e modelos de uso e acesso;
+- adoção de padrões tecnológicos abertos que favoreçam comunicação, acessibilidade e interoperabilidade.
+
+**Fundamento, princípio e objetivo são categorias diferentes.** Em prova, a alternativa pode trazer uma ideia verdadeira, mas colocá-la no artigo ou na categoria errada.
+
+### 2.4 Art. 6º: como interpretar o Marco Civil
+
+Além dos fundamentos, princípios e objetivos, a interpretação da lei deve considerar:
+
+- a natureza da internet;
+- seus usos e costumes particulares;
+- sua importância para o desenvolvimento humano, econômico, social e cultural.
+
+Isso impede uma leitura puramente mecânica: a própria lei manda considerar as características do ambiente que regula.
 
 ---
 
-## 3. Conceitos legais
+## 3. Conceitos legais que organizam o restante do capítulo
 
-| Conceito | Definição essencial |
+O art. 5º fornece definições operacionais. Elas funcionam como um vocabulário mínimo:
+
+| Conceito | Núcleo da definição |
 |---|---|
-| internet | sistema mundial de protocolos lógicos, público e irrestrito, que comunica dados entre terminais por diferentes redes |
-| terminal | computador ou qualquer dispositivo conectado |
-| endereço <abbr title="Internet Protocol">IP</abbr> | código atribuído ao terminal para identificação na rede |
-| administrador de sistema autônomo | pessoa que administra blocos de IP e sistema autônomo de roteamento |
-| conexão à internet | habilitação do terminal para enviar e receber pacotes |
-| registro de conexão | início, término, duração e IP usado |
-| aplicação de internet | funcionalidade acessível por terminal conectado |
-| registro de acesso a aplicação | data e hora de uso da aplicação a partir de determinado IP |
+| internet | sistema mundial de protocolos lógicos, para uso público e irrestrito, que permite comunicação de dados entre terminais por diferentes redes |
+| terminal | computador ou qualquer dispositivo conectado à internet |
+| endereço <abbr title="Internet Protocol">IP</abbr> | código atribuído a um terminal de rede para permitir sua identificação |
+| administrador de sistema autônomo | pessoa que administra blocos de endereços <abbr title="Internet Protocol">IP</abbr> e o respectivo sistema autônomo de roteamento |
+| conexão à internet | habilitação do terminal para enviar e receber pacotes, com atribuição ou autenticação de endereço <abbr title="Internet Protocol">IP</abbr> |
+| registro de conexão | data e hora de início e término, duração e endereço <abbr title="Internet Protocol">IP</abbr> usado |
+| aplicação de internet | conjunto de funcionalidades acessíveis por terminal conectado |
+| registro de acesso a aplicação | data e hora de uso de determinada aplicação a partir de determinado endereço <abbr title="Internet Protocol">IP</abbr> |
 
-### 3.1 Distinções
+Um **registro** é, aqui, um conjunto de dados sobre a ocorrência de uma conexão ou acesso. Ele não se confunde com o conteúdo da mensagem ou publicação.
 
-- conexão habilita o terminal; aplicação oferece funcionalidade;
-- registro é metadado, não conteúdo da comunicação;
-- registro de conexão não é registro de aplicação;
-- terminal inclui celular, tablet, computador, equipamento conectado e outros dispositivos.
+### Porta lógica de origem: atualização vigente
 
-### 3.2 Porta lógica de origem — atualização vigente desde 20/7/2026
+Desde 20 de julho de 2026, o Decreto nº 8.771/2016, com a alteração do Decreto nº 12.975/2026, determina que a guarda do endereço <abbr title="Internet Protocol">IP</abbr> abranja a **porta lógica de origem** quando ela for necessária à identificação inequívoca do terminal de origem ou do próximo enlace.
 
-O art. 15-A do Decreto nº 8.771/2016, incluído pelo Decreto nº 12.975/2026, determina que a guarda de IP abranja a **porta lógica de origem** sempre que ela for necessária à identificação inequívoca do terminal de origem ou do próximo enlace.
+Isso é especialmente útil em redes com <abbr title="Carrier-Grade Network Address Translation">CGNAT</abbr>, nas quais vários usuários podem compartilhar o mesmo endereço público. Horário + endereço <abbr title="Internet Protocol">IP</abbr> podem não bastar; a porta lógica pode distinguir sessões simultâneas.
 
-- o dever independe de requisição prévia;
-- recai autonomamente sobre cada provedor;
-- o fornecimento continua submetido aos arts. 10 e 22 do MCI;
-- guardar não significa poder entregar sem ordem judicial.
-
-Exemplo em rede com <abbr title="Carrier-Grade NAT">CGNAT</abbr>:
-
-```text
-IP público: 203.0.113.20
-Usuário A: porta 41001
-Usuário B: porta 41002
-Usuário C: porta 41003
-```
-
-IP e horário podem ser insuficientes; a porta pode distinguir conexões simultâneas.
+A mudança amplia a informação que deve ser guardada quando necessária à identificação. **Não transforma a guarda em autorização para entrega administrativa de registros.**
 
 ---
 
-## 4. Direitos e garantias dos usuários
+## 4. Direitos do usuário: acesso sem renúncia à privacidade
 
-O art. 7º afirma que o acesso à internet é **essencial ao exercício da cidadania**. Isso não equivale a direito irrestrito a qualquer plano gratuito.
+O art. 7º afirma que o acesso à internet é **essencial ao exercício da cidadania**. A frase não significa que todo usuário tenha direito a qualquer plano gratuito e ilimitado. Ela introduz um conjunto de garantias para quem utiliza a rede.
 
-O usuário tem direito, entre outros, a:
+Entre os direitos estão:
 
-1. inviolabilidade da intimidade e vida privada, com indenização por violação;
+1. inviolabilidade da intimidade e da vida privada, com reparação por violação;
 2. sigilo do fluxo das comunicações, salvo ordem judicial na forma da lei;
 3. sigilo das comunicações privadas armazenadas, salvo ordem judicial;
-4. não suspensão da conexão, salvo débito da própria utilização;
+4. não suspensão da conexão, salvo por débito diretamente decorrente de sua utilização;
 5. manutenção da qualidade contratada;
-6. contratos claros sobre proteção de registros e gerenciamento da rede;
-7. não fornecimento de dados e registros, salvo consentimento qualificado ou hipótese legal;
-8. informação clara sobre coleta, uso, armazenamento, tratamento e proteção;
+6. informação clara, nos contratos, sobre proteção de registros e práticas de gerenciamento da rede;
+7. não fornecimento a terceiros de dados pessoais e registros, salvo consentimento livre, expresso e informado ou hipótese legal;
+8. informação clara sobre coleta, uso, armazenamento, tratamento e proteção de dados;
 9. consentimento expresso e destacado quando ele for exigido;
-10. exclusão dos dados fornecidos ao término da relação, ressalvadas guardas legais;
-11. políticas de uso claras;
+10. exclusão dos dados fornecidos à aplicação ao término da relação, ressalvadas as hipóteses legais de guarda;
+11. publicidade e clareza das políticas de uso;
 12. acessibilidade;
-13. aplicação do <abbr title="Código de Defesa do Consumidor">CDC</abbr> nas relações de consumo.
+13. aplicação das normas de proteção e defesa do consumidor nas relações de consumo.
 
-### 4.1 Privacidade, foro e normas complementares
+O art. 8º reforça que privacidade e liberdade de expressão nas comunicações são condições para o pleno exercício do acesso. São nulas cláusulas que violem essas garantias, inclusive, em contrato de adesão para serviço prestado no Brasil, cláusula que não ofereça a alternativa de foro brasileiro.
 
-São nulas cláusulas que violem a privacidade e a liberdade de expressão, inclusive, em contrato de adesão para serviço prestado no Brasil, cláusula que não ofereça alternativa de foro brasileiro.
+### Marco Civil, proteção de dados e consumo
 
-O MCI, a <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> e o CDC são complementares:
+O <abbr title="Marco Civil da Internet">MCI</abbr>, a <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> e o <abbr title="Código de Defesa do Consumidor">CDC</abbr> podem incidir de forma complementar:
 
-- MCI: internet, registros, comunicações e provedores;
-- LGPD: regime geral de tratamento de dados;
-- CDC: relações de consumo.
+- o <abbr title="Marco Civil da Internet">MCI</abbr> disciplina a internet, seus registros, comunicações e provedores;
+- a <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> traz o regime geral de tratamento de dados pessoais;
+- o <abbr title="Código de Defesa do Consumidor">CDC</abbr> incide quando houver relação de consumo.
 
-Consentimento não é a única hipótese que permite tratamento de dados.
-
----
-
-## 5. Neutralidade de rede
-
-### 5.1 Regra geral
-
-Quem transmite, comuta ou roteia deve tratar isonomicamente os pacotes, sem distinção por:
-
-- conteúdo;
-- origem ou destino;
-- serviço;
-- terminal;
-- aplicação.
-
-### 5.2 Exceções
-
-Discriminação ou degradação somente pode decorrer de:
-
-1. requisito técnico indispensável à prestação adequada;
-2. priorização de serviço de emergência.
-
-Ao aplicar a exceção, o responsável deve:
-
-- abster-se de causar dano;
-- agir com proporcionalidade, transparência e isonomia;
-- informar previamente as práticas;
-- oferecer condições comerciais não discriminatórias;
-- evitar conduta anticoncorrencial.
-
-### 5.3 Exemplos regulamentares
-
-Requisitos técnicos podem envolver:
-
-- restrição a spam;
-- controle de ataque de negação de serviço;
-- congestionamento excepcional;
-- rota alternativa após interrupção.
-
-Serviço de emergência pode abranger comunicação entre prestadores ou alertas à população em desastre, emergência ou calamidade. A transmissão desses dados é gratuita.
-
-São vedados:
-
-- priorização por acordo comercial;
-- favorecimento de aplicação própria ou do grupo;
-- comprometimento da internet pública e irrestrita.
+Por isso, **consentimento não é a única hipótese jurídica possível para tratamento de dados**. O capítulo sobre <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> aprofunda as bases legais; aqui basta perceber que o <abbr title="Marco Civil da Internet">MCI</abbr> não substitui esse regime geral.
 
 ---
 
-## 6. Registros, dados e comunicações privadas
+## 5. Neutralidade de rede: isonomia com exceções técnicas estreitas
+
+A neutralidade responde a uma pergunta: quem transmite, comuta ou roteia os pacotes pode favorecer um tráfego apenas porque prefere seu conteúdo, origem, serviço ou aplicação?
+
+A regra do art. 9º é o **tratamento isonômico dos pacotes de dados**, sem distinção por conteúdo, origem e destino, serviço, terminal ou aplicação.
+
+A discriminação ou degradação do tráfego só pode decorrer de:
+
+1. **requisitos técnicos indispensáveis** à prestação adequada dos serviços e aplicações; ou
+2. **priorização de serviços de emergência**.
+
+Mesmo nessas hipóteses, o responsável deve agir com proporcionalidade, transparência e isonomia, informar previamente as práticas de gerenciamento, evitar dano e abster-se de condutas anticoncorrenciais.
+
+O Decreto nº 8.771/2016 ajuda a concretizar a regra. Medidas contra congestionamento excepcional, spam ou ataque de negação de serviço podem constituir gerenciamento técnico legítimo. Já priorizar permanentemente uma aplicação parceira por acordo comercial não se transforma em requisito técnico só porque melhora a experiência daquele parceiro.
+
+**Neutralidade não significa ausência de gerenciamento; significa que a exceção precisa ter fundamento técnico ou emergencial compatível com a lei.**
+
+---
+
+## 6. Registros, guarda, preservação e acesso: quatro verbos diferentes
+
+Volte ao cenário de Ana. Depois de um fato ilícito, a autoridade quer descobrir de onde partiu um acesso. Antes de perguntar “quem pode pedir?”, organize o ciclo:
+
+```text
+ocorre a conexão/acesso
+        ↓
+o registro é guardado pelo prazo legal
+        ↓
+pode haver pedido cautelar de preservação
+        ↓
+a autoridade leva o pedido ao Judiciário
+        ↓
+com ordem, ocorre a disponibilização
+```
+
+### 6.1 Quem guarda o quê e por quanto tempo
+
+| Situação | Regra |
+|---|---|
+| administrador de sistema autônomo: registros de conexão | guarda por 1 ano |
+| provedor de conexão: registros de acesso a aplicações | guarda vedada |
+| provedor de aplicações constituído como pessoa jurídica, que exerça atividade organizada, profissionalmente e com fins econômicos: próprios registros de acesso | guarda por 6 meses |
+| outros provedores de aplicações | ordem judicial pode determinar guarda por tempo certo |
+
+A responsabilidade pela guarda dos registros de conexão não pode ser transferida a terceiros.
+
+Na provisão de aplicações, a lei também limita a retenção: não se deve guardar, fora das hipóteses admitidas, registro de acesso a outras aplicações sem consentimento nem dados excessivos em relação à finalidade.
+
+### 6.2 Preservar não é entregar
+
+A autoridade policial, autoridade administrativa ou o Ministério Público podem requerer cautelarmente a preservação de registros. O objetivo é **evitar que o dado seja descartado enquanto se busca a ordem judicial**.
+
+O pedido de preservação:
+
+- não autoriza acesso imediato ao registro;
+- é sigiloso;
+- exige que a autoridade judicialize o pedido de acesso no prazo legal;
+- perde eficácia se o pedido judicial não for apresentado no prazo ou for indeferido.
+
+Para registros de conexão, o prazo para levar o pedido ao Judiciário é de **60 dias**, contado do requerimento de preservação.
+
+### 6.3 O que exige ordem judicial e o que pode seguir via administrativa
 
 | Informação | Via de disponibilização |
 |---|---|
-| registros de conexão e de aplicação | ordem judicial, na forma do MCI |
-| conteúdo de comunicação privada | ordem judicial, conforme a legislação |
-| qualificação pessoal, filiação e endereço | autoridade administrativa com competência legal, na forma da lei |
+| registros de conexão | ordem judicial, na forma do <abbr title="Marco Civil da Internet">MCI</abbr> |
+| registros de acesso a aplicações | ordem judicial, na forma do <abbr title="Marco Civil da Internet">MCI</abbr> |
+| conteúdo de comunicações privadas | ordem judicial, conforme a legislação |
+| dados cadastrais de qualificação pessoal, filiação e endereço | autoridade administrativa com competência legal, na forma da lei |
 
-### 6.1 Pedido administrativo de dados cadastrais
+A requisição administrativa de dados cadastrais deve indicar a competência legal, ser motivada, individualizar as pessoas e especificar os dados pretendidos. Um pedido coletivo e genérico não satisfaz o regulamento.
 
-O pedido deve:
+### 6.4 Pedido judicial de registros
 
-- indicar competência legal expressa;
-- ser motivado;
-- individualizar as pessoas;
-- especificar os dados pretendidos.
+O art. 22 permite que a parte interessada requeira judicialmente registros de conexão ou de acesso a aplicações para formar prova em processo cível ou penal. O pedido deve apresentar:
 
-Pedido coletivo genérico é vedado. Qualificação pessoal compreende nome, prenome, estado civil e profissão. Se o provedor não coleta o dado, informa essa circunstância.
+1. fundados indícios da ocorrência do ilícito;
+2. justificativa da utilidade dos registros;
+3. período ao qual os registros se referem.
 
-### 6.2 Aplicação territorial
+O juiz deve preservar sigilo, intimidade, vida privada, honra e imagem e pode decretar segredo de justiça.
 
-A legislação brasileira deve ser observada quando ao menos uma operação de coleta, armazenamento, guarda ou tratamento ocorrer no Brasil.
+### 6.5 Aplicação territorial e sanções
 
-Também alcança, nas condições legais:
+A legislação brasileira incide, entre outras hipóteses previstas no art. 11, quando ao menos um ato de coleta, armazenamento, guarda ou tratamento de registros, dados pessoais ou comunicações ocorre em território nacional. A lei também alcança as situações internacionais definidas pelo próprio dispositivo, inclusive serviços oferecidos ao público brasileiro nas condições legais.
 
-- dado coletado no Brasil;
-- comunicação com ao menos um terminal no país;
-- empresa estrangeira que ofereça serviço ao público brasileiro;
-- grupo econômico com estabelecimento no Brasil.
-
-### 6.3 Sanções dos arts. 10 e 11
-
-Podem ser aplicadas, isolada ou cumulativamente:
+A violação das regras dos arts. 10 e 11 pode levar, isolada ou cumulativamente, a:
 
 - advertência;
 - multa de até 10% do faturamento do grupo econômico no Brasil, excluídos tributos;
@@ -243,426 +242,228 @@ Podem ser aplicadas, isolada ou cumulativamente:
 
 ---
 
-## 7. Guarda de registros e preservação
+## 7. Responsabilidade por conteúdo de terceiros: primeiro a lei, depois a tese judicial
 
-### 7.1 Prazos
+Esta é a parte em que mais se perde ponto por misturar regimes. Resolva em duas camadas:
 
-| Situação | Regra |
-|---|---|
-| administrador de sistema autônomo: registro de conexão | guarda por 1 ano |
-| provedor de conexão: registro de acesso a aplicação | guarda vedada |
-| provedor de aplicação organizado, profissional e econômico: próprios registros | guarda por 6 meses |
-| outro provedor de aplicação | ordem judicial pode impor guarda específica por tempo certo |
+1. **qual é o texto dos arts. 18 a 21?**
+2. **como o <abbr title="Supremo Tribunal Federal">STF</abbr> passou a interpretar a responsabilidade do provedor de aplicações?**
 
-A responsabilidade pela guarda de registros de conexão não pode ser transferida a terceiros.
+### 7.1 Art. 18: provedor de conexão
 
-### 7.2 Preservação cautelar não é acesso
+O provedor de conexão não responde civilmente por danos decorrentes de conteúdo gerado por terceiros. Transportar o tráfego não equivale a produzir ou hospedar a publicação.
 
-```text
-Pedido cautelar de preservação
-          ↓
-Provedor impede o descarte
-          ↓
-Autoridade judicializa em até 60 dias
-          ↓
-Juiz analisa indícios, utilidade e período
-          ↓
-Somente com ordem ocorre a disponibilização
-```
+### 7.2 Art. 19: literalidade da lei
 
-Autoridade policial ou administrativa ou Ministério Público pode pedir preservação. A medida:
+O texto legal prevê que o provedor de aplicações só poderá ser responsabilizado civilmente por conteúdo de terceiro se, após **ordem judicial específica**, não tornar indisponível o conteúdo apontado, nos limites técnicos do serviço e no prazo assinalado.
 
-- não entrega os dados;
-- permanece sigilosa;
-- perde eficácia sem pedido judicial no prazo ou diante de indeferimento.
+A ordem deve identificar o conteúdo de forma clara e específica, sob pena de nulidade.
 
-### 7.3 Limites e segurança
+O art. 19 disciplina a **responsabilização civil por omissão**, não cria uma regra segundo a qual toda moderação voluntária dependa de ordem judicial. Provedores podem aplicar termos de uso e remover conteúdo por iniciativa própria, sujeitos ao contrato, à legislação e aos direitos fundamentais aplicáveis.
 
-Na provisão de aplicações, é vedado guardar:
+### 7.3 Art. 20: comunicação ao responsável pelo conteúdo
 
-- acesso a outras aplicações sem consentimento, respeitada a legislação;
-- dados excessivos em relação à finalidade.
+Quando possuir dados de contato do usuário diretamente responsável pelo conteúdo, o provedor deve comunicar-lhe os motivos e as informações sobre a indisponibilização, ressalvadas as exceções legais ou decisão judicial fundamentada em sentido contrário.
 
-Medidas de segurança incluem:
+### 7.4 Art. 21: nudez ou ato sexual de caráter privado
 
-- controle estrito de acesso;
-- autenticação;
-- inventário de acessos;
-- identificação do responsável;
-- criptografia ou proteção equivalente;
-- formato estruturado e interoperável;
-- retenção da menor quantidade possível.
+A lei cria exceção relevante. Se houver divulgação não autorizada de imagens, vídeos ou outros materiais que contenham nudez ou atos sexuais de caráter privado, o provedor de aplicações que disponibilize conteúdo de terceiros responde **subsidiariamente** se, após notificação do participante ou de seu representante legal, deixar de tornar o material indisponível de forma diligente.
+
+A notificação precisa permitir a identificação específica do material e verificar a legitimidade de quem pede. Nesse regime legal, não se exige ordem judicial prévia para nascer o dever de atuação do provedor.
 
 ---
 
-## 8. Responsabilidade por conteúdo de terceiros — texto da lei
+## 8. A tese vinculante do Supremo Tribunal Federal: o art. 19 deixou de ser a resposta geral
 
-Esta matéria exige separar **texto literal**, **exceção legal**, **tese do STF** e **regulamentação atual**.
+O <abbr title="Supremo Tribunal Federal">STF</abbr> reconheceu a inconstitucionalidade parcial e progressiva do art. 19 e fixou regime aplicável até que sobrevenha nova legislação. O texto do artigo continua existindo, mas **não descreve sozinho o regime constitucional de responsabilidade das plataformas**.
 
-### 8.1 Art. 18 — provedor de conexão
+### 8.1 Regime geral para ilícitos
 
-O provedor de conexão não responde civilmente por dano decorrente de conteúdo gerado por terceiro.
+Fora das exceções preservadas pela tese, o provedor de aplicações pode ser **civilmente responsável de forma solidária**, segundo o regime indicado pelo <abbr title="Supremo Tribunal Federal">STF</abbr>, quando, após notificação clara e individualizada, não adota providência compatível com uma análise diligente do conteúdo ilícito.
 
-### 8.2 Art. 19 — literalidade
+A tese não criou responsabilidade objetiva. Se houver dúvida razoável sobre a ilicitude e o provedor demonstrar análise qualificada e diligente, a responsabilização pode ser afastada.
 
-O texto prevê responsabilidade do provedor de aplicações se, após **ordem judicial específica**, ele não tornar indisponível o conteúdo indicado, nos limites técnicos e no prazo assinalado.
+### 8.2 Situações que permanecem submetidas ao art. 19
 
-A ordem deve identificar o conteúdo clara e especificamente, sob pena de nulidade.
-
-### 8.3 Art. 20 — comunicação ao autor
-
-Se possuir contato do responsável, o provedor comunica os motivos e informações sobre a indisponibilização, salvo exceção legal ou decisão judicial fundamentada.
-
-### 8.4 Art. 21 — nudez ou ato sexual privado
-
-Na divulgação não autorizada de imagens, vídeos ou materiais com nudez ou atos sexuais privados, o provedor que hospeda conteúdo de terceiros responde subsidiariamente se, após notificação específica do participante ou representante, deixar de agir diligentemente.
-
-A notificação deve identificar o material e demonstrar legitimidade. A literalidade não exige ordem judicial prévia para esse dever.
-
----
-
-## 9. Tese vinculante do STF sobre o art. 19
-
-O STF reconheceu inconstitucionalidade parcial e progressiva do art. 19 e fixou interpretação aplicável até nova lei. A tese não apagou o texto legal nem criou responsabilidade objetiva.
-
-### 9.1 Regime geral
-
-Fora das exceções, o provedor de aplicações pode responder quando:
-
-- recebe notificação clara e individualizada;
-- realiza ou deveria realizar análise com diligência qualificada;
-- mantém conteúdo ilícito sem justificativa adequada.
-
-Dúvida razoável sobre a ilicitude, após análise diligente, pode afastar responsabilidade.
-
-### 9.2 Casos que permanecem no art. 19
+A exigência de ordem judicial específica continua central, entre outras hipóteses indicadas na tese, para:
 
 - crimes e ilícitos civis contra a honra;
-- e-mail interpessoal;
-- reunião fechada por vídeo ou voz;
+- correio eletrônico interpessoal;
+- reuniões fechadas por voz ou vídeo;
 - mensageria privada interpessoal;
-- outros provedores sem interferência no fluxo informacional.
+- provedores que não exerçam interferência editorial ou de curadoria sobre o fluxo informacional, nos termos definidos pelo <abbr title="Supremo Tribunal Federal">STF</abbr>.
 
-A plataforma pode remover voluntariamente após notificação, mas a responsabilização por honra permanece ligada à ordem judicial específica.
+Assim, receber uma notificação extrajudicial sobre difamação não basta, por si só, para transferir ao provedor o regime geral de responsabilização. A plataforma pode remover voluntariamente, mas a responsabilização por honra continua ligada ao art. 19.
 
-### 9.3 Réplicas idênticas
+### 8.3 Cópias idênticas de conteúdo já reconhecido como ofensivo
 
-Depois de decisão judicial reconhecer o fato ofensivo, cópias idênticas devem ser removidas após notificação judicial ou extrajudicial, sem nova decisão para cada réplica.
+Depois de decisão judicial reconhecer determinado conteúdo como ofensivo ou ilícito, réplicas idênticas podem ser removidas após notificação judicial ou extrajudicial, sem necessidade de nova decisão para cada cópia.
 
-### 9.4 Anúncio pago e disseminação artificial
+### 8.4 Anúncios pagos e disseminação artificial
 
-Há presunção relativa de culpa quando conteúdo ilícito envolve:
+Quando conteúdo ilícito é veiculado por anúncio ou impulsionamento pago, ou por rede artificial de distribuição, incide **presunção relativa de responsabilidade** nas condições da tese. O provedor pode afastá-la demonstrando atuação diligente e tempestiva.
 
-- anúncio ou impulsionamento pago;
-- disseminação artificial inorgânica.
+### 8.5 Falha sistêmica
 
-O provedor pode afastá-la demonstrando diligência e retirada em tempo razoável.
+A tese também diferencia o ilícito individual de uma **falha sistêmica**, isto é, insuficiência estrutural das medidas do provedor diante de circulação massiva de categorias graves de conteúdo ilícito.
 
-### 9.5 Falha sistêmica
+Entre as categorias tratadas pelo <abbr title="Supremo Tribunal Federal">STF</abbr> estão conteúdos relacionados a atos antidemocráticos, terrorismo, induzimento a suicídio ou automutilação, discriminação, crimes contra mulheres, crimes sexuais e graves contra crianças e adolescentes e tráfico de pessoas.
 
-O provedor responde quando não adota medidas adequadas diante da circulação massiva de categorias graves, como:
+Uma ocorrência isolada não demonstra, sozinha, falha sistêmica. O caso individual continua sujeito ao regime correspondente.
 
-- atos antidemocráticos;
-- terrorismo;
-- induzimento a suicídio ou automutilação;
-- discriminação;
-- crimes contra mulheres;
-- crimes sexuais e graves contra crianças e adolescentes;
-- tráfico de pessoas.
+### 8.6 Outros recortes da tese
 
-Conteúdo isolado não prova, sozinho, falha sistêmica. O caso individual continua sujeito ao regime correspondente.
+- relações em plataformas de comércio eletrônico continuam sujeitas, quando cabível, ao <abbr title="Código de Defesa do Consumidor">CDC</abbr>;
+- provedores devem manter mecanismos de autorregulação, canais de atendimento e transparência;
+- deve haver representação no Brasil nas condições definidas pela tese e pela regulamentação;
+- os efeitos temporais foram modulados, preservando-se decisões transitadas em julgado e aplicando-se o novo regime, em regra, a partir de 5 de agosto de 2025.
 
-### 9.6 Outros pontos
-
-- marketplace responde conforme o CDC;
-- provedores devem manter autorregulação, canais e transparência;
-- deve haver sede e representante no Brasil;
-- os efeitos da tese são, em regra, desde 5/8/2025;
-- decisões transitadas em julgado foram preservadas.
-
-### 9.7 Matriz
-
-| Situação | Regime central |
-|---|---|
-| conexão transportou conteúdo | art. 18 |
-| ilícito geral em aplicação | notificação + análise diligente |
-| ilícito contra a honra | art. 19 |
-| nudez/ato sexual privado | art. 21 |
-| réplica idêntica de ofensa reconhecida | notificação, sem nova ordem para cada cópia |
-| anúncio pago/artificial | presunção relativa |
-| circulação massiva do rol grave | falha sistêmica |
-| ocorrência grave isolada | regime individual |
-| comunicação privada | art. 19 |
-| marketplace | CDC |
-
----
-
-## 10. Requisição judicial de registros
-
-O pedido judicial, em processo cível ou penal, incidental ou autônomo, deve conter:
-
-1. fundados indícios da ocorrência do ilícito;
-2. justificativa da utilidade dos registros;
-3. período a que se referem.
-
-O juiz protege sigilo, intimidade, vida privada, honra e imagem e pode decretar segredo de justiça.
-
-O requerente não precisa conhecer previamente a identidade que procura descobrir, mas o pedido deve ser determinado, útil e temporalmente delimitado.
-
----
-
-## 11. Atuação do poder público
-
-### 11.1 Diretrizes
-
-- governança multiparticipativa, transparente, colaborativa e democrática;
-- racionalização da gestão com participação do <abbr title="Comitê Gestor da Internet no Brasil">CGI.br</abbr>;
-- interoperabilidade entre Poderes, entes, sistemas e terminais;
-- preferência por tecnologias, padrões e formatos abertos;
-- dados públicos abertos e estruturados;
-- capacitação, cultura e cidadania;
-- inclusão digital;
-- serviços integrados, eficientes, simples, multicanais e remotos.
-
-Preferência por padrão aberto não proíbe absolutamente toda solução proprietária.
-
-### 11.2 Aplicações públicas
-
-Devem buscar:
-
-- compatibilidade com diferentes terminais e sistemas;
-- acessibilidade;
-- leitura humana e tratamento automatizado;
-- facilidade de uso;
-- fortalecimento da participação social.
-
----
-
-## 12. Decreto nº 12.975/2026 — atualização vigente desde 20/7/2026
-
-> **Atenção:** esta seção descreve legislação atual posterior à data de publicação do edital.
-
-### 12.1 Deveres gerais
-
-Provedores de aplicações devem, conforme o âmbito de incidência:
-
-- manter sede e representante legal pessoa jurídica no Brasil;
-- manter canal permanente e acessível de denúncia;
-- impedir redes artificiais de distribuição de conteúdo ilícito;
-- adotar medidas de segurança e transparência;
-- informar regras de moderação, reclamações, riscos, perfilamento, publicidade e impulsionamento.
-
-### 12.2 Gestão de riscos e falha sistêmica
-
-Provedores que intermedeiam conteúdo de terceiros devem monitorar, identificar, avaliar e gerir riscos sistêmicos.
-
-Falha sistêmica pressupõe ausência de medidas adequadas de prevenção ou remoção diante da circulação massiva das categorias graves. Conteúdo isolado não basta.
-
-### 12.3 Notificação, decisão e contestação
-
-A notificação deve conter, sob pena de nulidade:
-
-1. elementos da possível conduta criminosa ou ilícita;
-2. identificação específica do conteúdo;
-3. identificação do notificante e, quando cabível, fundamento de legitimidade.
-
-Fluxo:
+Um modo eficiente de decidir uma questão é perguntar:
 
 ```text
-Notificação válida
-      ↓
-Confirmação de recebimento
-      ↓
-Análise diligente e contextual
-      ↓
-Remoção ou manutenção fundamentada
-      ↓
-Comunicação às partes
-      ↓
-Contestação
-      ↓
-Reconsideração fundamentada
+É provedor de conexão?
+→ art. 18
+
+É aplicação e o caso é honra/comunicação privada ou outra exceção preservada?
+→ art. 19
+
+É nudez ou ato sexual privado no regime legal do art. 21?
+→ notificação específica + atuação diligente
+
+É outro ilícito em aplicação?
+→ tese do STF: notificação + diligência, com as regras específicas da tese
 ```
 
-A análise deve considerar contexto, informação, educação, crítica, sátira, paródia e liberdade religiosa. Dúvida razoável pode justificar manutenção.
+---
 
-O provedor deve coibir abuso do sistema de notificações.
+## 9. Poder público: a internet também é problema de desenho de serviço
 
-### 12.4 Crimes contra a honra e serviços privados
+O <abbr title="Marco Civil da Internet">MCI</abbr> não disciplina apenas usuários e empresas. Os arts. 24 a 28 orientam a atuação pública.
 
-Permanecem sujeitos a ordem judicial específica:
+Entre as diretrizes estão:
 
-- crimes e ilícitos contra a honra;
-- serviços excluídos pelo art. 16-O.
+- governança multiparticipativa, transparente, colaborativa e democrática;
+- racionalização da gestão da internet com participação do <abbr title="Comitê Gestor da Internet no Brasil">CGI.br</abbr>;
+- interoperabilidade entre Poderes, entes federativos, sistemas e terminais;
+- adoção preferencial de tecnologias, padrões e formatos abertos e livres;
+- publicidade e disseminação de dados e informações públicos de forma aberta e estruturada;
+- otimização da infraestrutura de redes e estímulo a centros de armazenamento, gerenciamento e disseminação de dados no país, sem sacrificar abertura, neutralidade e participação;
+- capacitação, cultura e cidadania;
+- prestação de serviços públicos de atendimento ao cidadão de forma integrada, eficiente, simplificada e por múltiplos canais.
 
-Os deveres dos arts. 16-B a 16-J não se aplicam:
+Aplicações de internet de entes públicos devem buscar compatibilidade com diferentes terminais e sistemas, acessibilidade, facilidade de uso, leitura humana e tratamento automatizado das informações e fortalecimento da participação social.
 
-- ao e-mail interpessoal;
-- à mensageria quanto a comunicações privadas entre usuários ou grupos determinados, sem difusão pública;
-- a reuniões e chamadas em ambiente restrito.
+A atuação pública também inclui **educação para uso seguro, consciente e responsável da internet**; promoção da inclusão digital; redução das desigualdades regionais de acesso e uso das tecnologias; fomento à produção e circulação de conteúdo nacional; e formulação periódica de estudos, metas, estratégias, planos e cronogramas sobre o desenvolvimento da internet.
 
-Grupo ou canal aberto não deve ser equiparado automaticamente a comunicação privada.
-
-### 12.5 Anúncios e impulsionamentos
-
-- provedores devem impedir contratação de anúncio criminoso ou ilícito;
-- conteúdo pago ou artificialmente distribuído gera presunção relativa;
-- diligência e retirada tempestiva podem afastar responsabilidade;
-- dados de cada anúncio, impulsionamento e anunciante devem ser guardados por **1 ano** após o fim da veiculação;
-- publicidade enganosa, abusiva ou fraudulenta deve ser indisponibilizada após notificação legitimada.
-
-### 12.6 <abbr title="Agência Nacional de Proteção de Dados">ANPD</abbr>
-
-A ANPD regula, fiscaliza e apura infrações quanto aos direitos dos usuários e aos deveres sistêmicos.
-
-Sua atuação é **sistêmica**:
-
-- mecanismos;
-- processos;
-- governança;
-- gestão de riscos;
-- canais;
-- transparência;
-- tratamento de denúncias.
-
-A ANPD não atua como julgadora administrativa de cada postagem isolada.
+**Preferência por padrão aberto não equivale a proibição absoluta de qualquer solução proprietária.**
 
 ---
 
-## 13. Decreto nº 12.976/2026 — proteção das mulheres no ambiente digital
+## 10. Corte do edital e atualizações posteriores
 
-> **Atenção:** atualização posterior ao edital, vigente desde 20/7/2026.
+O concurso foi aberto em 6 de julho de 2026. O edital estabelece que:
 
-### 13.1 Conteúdo íntimo
+- alterações legislativas com entrada em vigor até a publicação podem ser avaliadas, ainda que não estejam expressamente listadas;
+- legislação ainda não vigente pode ser cobrada se estiver explicitada nos objetos de avaliação;
+- jurisprudência de tribunais superiores pode ser considerada se publicada até 30 dias antes da prova.
 
-Conteúdo íntimo inclui imagem, vídeo, áudio, texto ou combinação que exponha nudez, seminudez, ato sexual ou contexto sexualizante, inclusive material produzido ou manipulado por <abbr title="inteligência artificial">IA</abbr>.
+Para este assunto, o objeto de avaliação menciona expressamente o <abbr title="Marco Civil da Internet">MCI</abbr>, Lei nº 12.965/2014, com “princípios, direitos e deveres para o uso da Internet no Brasil”.
 
-### 13.2 Prazos
+Os Decretos nº 12.975/2026 e nº 12.976/2026 foram publicados em 21 de maio de 2026 e entraram em vigor **60 dias depois, em 20 de julho de 2026**. Portanto, suas novidades estão vigentes atualmente, mas **não integravam automaticamente o núcleo legislativo cobrável pela regra geral do edital em 6 de julho**.
 
-| Situação | Regra transitória atual |
+Esse corte não altera a vigência atual. Ele apenas obriga o candidato a distinguir:
+
+| Pergunta da questão | Fonte temporal |
 |---|---|
-| conteúdo íntimo não autorizado | indisponibilização em até 2 horas |
-| conteúdo manifestamente ilegal contra mulher | remover ou comunicar fundamento da manutenção em até 6 horas |
-| demais casos de violência digital contra mulher | remover ou comunicar fundamento da manutenção em até 24 horas |
-| contestação | decidir e comunicar em até 24 horas |
+| “segundo o edital” ou regra geral de legislação cobrável | norma em vigor até 6/7/2026, salvo objeto expresso |
+| jurisprudência aplicável à prova | decisões dentro do corte jurisprudencial do edital |
+| “segundo a legislação vigente” | considerar também alterações que já entraram em vigor depois |
 
-A notificação do conteúdo íntimo deve ser feita pela vítima ou representante legitimado e identificar o material.
-
-O conteúdo deve ser indisponibilizado em toda a aplicação e marcado digitalmente para bloquear reenvio automático, conforme regulamentação.
-
-### 13.3 Ataques coordenados e IA
-
-- ataques coordenados contra mulheres exigem redução tempestiva de alcance e visibilidade, inclusive de ofício;
-- há prioridade em violência política e contra mulheres com exposição pública;
-- é vedada a geração ou modificação de conteúdo íntimo de terceiro por IA;
-- aplicações de IA devem implementar salvaguardas proporcionais para identificar e bloquear pedidos vedados.
-
-### 13.4 Art. 21 e decreto
-
-O Decreto nº 12.976 não substitui o art. 21. Ele cria regime específico e mais detalhado no âmbito da proteção de mulheres, com prazos, canais, reenvio e IA.
+A tese do <abbr title="Supremo Tribunal Federal">STF</abbr> sobre o art. 19 é jurisprudência e deve ser tratada segundo o corte específico de jurisprudência, não como se fosse alteração do texto da Lei nº 12.965/2014.
 
 ---
 
-## 14. Competências fiscalizatórias
+## 11. Atualizações vigentes desde 20/7/2026
 
-| Órgão | Foco |
-|---|---|
-| <abbr title="Agência Nacional de Telecomunicações">Anatel</abbr> | telecomunicações e requisitos técnicos de neutralidade |
-| <abbr title="Secretaria Nacional do Consumidor">Senacon</abbr>/<abbr title="Sistema Nacional de Defesa do Consumidor">SNDC</abbr> | consumo e publicidade |
-| <abbr title="Conselho Administrativo de Defesa Econômica">Cade</abbr>/<abbr title="Sistema Brasileiro de Defesa da Concorrência">SBDC</abbr> | concorrência |
-| ANPD | direitos dos usuários e deveres sistêmicos |
-| Judiciário | acesso, indisponibilização e reparação |
-| autoridades investigativas | preservação, investigação e pedidos judiciais |
+> **Corte:** os Decretos nº 12.975/2026 e nº 12.976/2026 entraram em vigor depois da publicação do edital. Esta seção descreve o direito atualmente vigente.
 
-Não atribua todo o ecossistema a um único órgão.
+### 11.1 Decreto nº 12.975/2026: plataformas, riscos e notificações
 
----
+O Decreto nº 12.975/2026 alterou o Decreto nº 8.771/2016 para operacionalizar deveres ligados à identificação por porta lógica e à responsabilidade de provedores de aplicações.
 
-## 15. Casos aplicados
+No âmbito de incidência do decreto, os provedores alcançados devem manter mecanismos compatíveis com seus riscos, como representação legal no Brasil nas hipóteses regulamentares, canal acessível de denúncia, medidas contra redes artificiais de distribuição de conteúdo ilícito, transparência sobre moderação e publicidade e processos de gestão de riscos sistêmicos.
 
-### 15.1 Congestionamento excepcional
+A notificação de conteúdo precisa individualizar a possível ilicitude, identificar o material e o notificante e, quando necessário, demonstrar legitimidade. O provedor deve confirmar o recebimento, realizar análise diligente e contextual, fundamentar a remoção ou manutenção e oferecer via de contestação. Contextos de informação, educação, crítica, sátira, paródia e liberdade religiosa devem ser considerados.
 
-Operadora redireciona temporariamente pacotes por rota alternativa após rompimento, informa usuários e preserva isonomia. A medida pode ser requisito técnico. Priorizar permanentemente uma plataforma parceira por pagamento é diferente.
+Por isso, **notificação válida não equivale a remoção automática**. Dúvida razoável, depois de análise qualificada, pode justificar manutenção.
 
-### 15.2 IP compartilhado
+As regras gerais de conteúdo não se aplicam do mesmo modo a correio eletrônico interpessoal, mensageria privada entre usuários ou grupos determinados e reuniões restritas. Canal aberto de difusão não se torna comunicação privada só porque usa tecnologia de mensageria.
 
-Milhares de clientes usam o mesmo <abbr title="Internet Protocol version 4">IPv4</abbr> público por CGNAT. O IP e o horário podem ser insuficientes; a porta lógica de origem pode ser necessária. O acesso aos dados continua judicial.
+Em anúncios e impulsionamentos, há deveres específicos de prevenção e transparência; os dados do anúncio ou impulsionamento e do anunciante devem ser guardados por **1 ano após o término da veiculação**.
 
-### 15.3 Pedido administrativo
+A <abbr title="Agência Nacional de Proteção de Dados">ANPD</abbr> exerce fiscalização de caráter sistêmico sobre mecanismos, processos, governança, riscos, canais e transparência. Isso não a transforma em instância administrativa para julgar, postagem por postagem, a ilicitude de cada conteúdo.
 
-Autoridade com competência legal pede nome, filiação e endereço de pessoa individualizada e motiva o pedido. Pode receber os dados cadastrais, não o histórico de conexões ou conteúdo por essa via.
+### 11.2 Decreto nº 12.976/2026: proteção das mulheres no ambiente digital
 
-### 15.4 Preservação
+O Decreto nº 12.976/2026 criou regras específicas para violência digital contra mulheres. Conteúdo íntimo abrange material que exponha nudez, seminudez, ato sexual ou contexto sexualizante, inclusive quando produzido ou manipulado por <abbr title="inteligência artificial">IA</abbr>.
 
-O Ministério Público pede preservação de registros sobre fato delimitado. O provedor impede descarte, mas a entrega depende de ordem judicial.
+Na regra transitória vigente:
 
-### 15.5 Denúncia genérica
+| Situação | Prazo |
+|---|---:|
+| conteúdo íntimo não autorizado, após notificação legitimada | indisponibilizar em até 2 h |
+| conteúdo manifestamente ilegal contra mulher | remover ou fundamentar manutenção em até 6 h |
+| demais casos de violência digital contra mulher | remover ou fundamentar manutenção em até 24 h |
+| contestação | decidir e comunicar em até 24 h |
 
-“Há publicações ilegais nesta rede” não identifica conteúdo, conduta nem notificante. A notificação pode ser nula.
+O decreto também prevê medidas contra reenvio de conteúdo íntimo, ataques coordenados e uso de <abbr title="inteligência artificial">IA</abbr> para gerar ou modificar conteúdo íntimo vedado.
 
-### 15.6 Manutenção fundamentada
+Esse regime **não apaga o art. 21 do Marco Civil**. Ele acrescenta procedimentos e prazos específicos para a proteção de mulheres.
 
-A plataforma identifica dúvida razoável diante de possível sátira, fundamenta a manutenção e oferece contestação. Manter não gera automaticamente responsabilidade.
+### 11.3 Competências fiscalizatórias
 
-### 15.7 Postagem contra a honra
+O ecossistema é dividido por matéria: a <abbr title="Agência Nacional de Telecomunicações">Anatel</abbr> atua em telecomunicações e aspectos técnicos; <abbr title="Secretaria Nacional do Consumidor">Senacon</abbr>/<abbr title="Sistema Nacional de Defesa do Consumidor">SNDC</abbr>, em consumo; <abbr title="Conselho Administrativo de Defesa Econômica">Cade</abbr>/<abbr title="Sistema Brasileiro de Defesa da Concorrência">SBDC</abbr>, em concorrência; a <abbr title="Agência Nacional de Proteção de Dados">ANPD</abbr>, nos deveres sistêmicos que lhe foram atribuídos; e o Judiciário decide ordens de acesso, indisponibilização e reparação. Autoridades investigativas e Ministério Público atuam na preservação, investigação e provocação judicial nos limites legais.
 
-A rede recebe notificação de difamação. Pode remover voluntariamente, mas a responsabilização civil permanece no regime do art. 19.
-
-### 15.8 Imagem íntima
-
-Participante identifica vídeo íntimo não autorizado. O art. 21 exige atuação diligente. No âmbito atual do Decreto nº 12.976, conteúdo íntimo contra mulher possui prazo de até duas horas.
-
-### 15.9 Anúncio fraudulento
-
-Golpe de falso benefício público é impulsionado. Incidem dever preventivo, presunção relativa e guarda dos dados do anúncio e anunciante por um ano.
-
-### 15.10 Portal público inacessível
-
-Serviço público funciona em um único navegador e não pode ser usado por leitor de tela. Contraria compatibilidade, acessibilidade e facilidade de uso.
+A pergunta correta não é “qual órgão controla a internet?”, mas **qual matéria está em discussão e qual competência legal incide**.
 
 ---
 
-## 16. Pegadinhas
+## 14. Três casos para aplicar o modelo
 
-- fundamento, princípio e objetivo são listas diferentes;
-- acesso essencial à cidadania não significa todo plano gratuito;
-- neutralidade não proíbe todo gerenciamento;
-- acordo comercial não autoriza prioridade;
-- conexão não é aplicação;
-- registro não é conteúdo;
-- porta lógica é metadado e não dispensa ordem judicial de acesso;
-- dado cadastral não é registro nem conteúdo;
-- pedido de preservação não entrega dados;
-- conexão: 1 ano;
-- aplicação obrigada: 6 meses;
-- provedor de conexão não guarda acesso a aplicações;
-- art. 18 protege o provedor de conexão;
-- literalidade do art. 19 não é o regime completo após o STF;
-- STF não criou responsabilidade objetiva;
-- honra permanece no art. 19;
-- art. 21 não trata de qualquer ofensa;
-- conteúdo isolado não prova falha sistêmica;
-- anúncio pago pode gerar presunção sem notificação;
-- notificação genérica pode ser nula;
-- notificação válida não impõe remoção automática quando houver dúvida razoável;
-- ANPD fiscaliza sistemicamente, não cada postagem;
-- comunicação privada não é canal aberto;
-- padrão aberto é preferência, não exclusividade absoluta;
-- Decretos nº 12.975 e nº 12.976 estão vigentes hoje, mas entraram em vigor depois do edital;
-- prazo de 2 horas refere-se ao regime específico de conteúdo íntimo contra mulher.
+### Caso 1 — identificação sem acesso indevido
+
+Uma investigação precisa identificar a origem de acesso realizado por rede com <abbr title="Carrier-Grade Network Address Translation">CGNAT</abbr>. O provedor deve ter guardado a porta lógica quando ela era necessária à identificação inequívoca. A existência desse dado não elimina a exigência de ordem judicial para disponibilizar o registro de conexão ou de acesso a aplicação.
+
+**Chave:** guarda ≠ acesso.
+
+### Caso 2 — preservação antes da ordem
+
+O Ministério Público delimita um fato e pede cautelarmente a preservação dos registros. O provedor impede o descarte. Isso ainda não entrega os dados; o acesso depende da etapa judicial correspondente.
+
+**Chave:** preservar ≠ disponibilizar.
+
+### Caso 3 — postagem ofensiva
+
+Uma plataforma recebe notificação extrajudicial sobre conteúdo supostamente ilícito. Antes de concluir que “deve sempre retirar” ou “só responde depois de ordem judicial”, classifique o caso:
+
+- se for ilícito contra a honra, permanece o regime do art. 19 para responsabilização;
+- se for material íntimo do art. 21, há dever legal de atuação diligente após notificação específica;
+- se for outro ilícito abrangido pelo regime geral da tese do <abbr title="Supremo Tribunal Federal">STF</abbr>, entram em cena notificação, análise diligente e as regras da tese;
+- se houver circulação massiva das categorias graves, investigue se existe falha sistêmica.
+
+**Chave:** primeiro classifique o provedor e o conteúdo; depois escolha o regime.
 
 ---
 
-## 17. Método para resolver questões
+## 15. Fechamento: sequência de decisão para prova
 
-1. Identifique o corte temporal pedido.
-2. Separe fundamento, princípio, objetivo e conceito.
-3. Classifique conexão, aplicação, registro, cadastro e conteúdo.
-4. Em neutralidade, procure isonomia e exceção estrita.
-5. Diferencie guarda, preservação e disponibilização.
-6. Identifique o tipo de provedor.
-7. Separe literalidade da lei, tese do STF e decreto atual.
-8. Classifique o conteúdo: honra, íntimo, pago, grave massivo ou ilícito geral.
-9. Verifique notificação, ordem judicial, diligência e contestação.
-10. Em poder público, avalie interoperabilidade, acessibilidade e padrões abertos.
-11. Rejeite absolutos como “todo”, “nunca”, “automaticamente” e “sem ordem em qualquer caso”.
+Ao encontrar uma questão sobre o <abbr title="Marco Civil da Internet">MCI</abbr>, percorra esta ordem:
+
+1. **qual é o corte temporal?** texto legal no edital, jurisprudência ou regulamentação atualmente vigente;
+2. **quem é o ator?** usuário, provedor de conexão, provedor de aplicação, poder público ou autoridade;
+3. **qual é o objeto?** dado cadastral, registro ou conteúdo;
+4. **qual é o verbo?** guardar, preservar, acessar, remover ou responsabilizar;
+5. **se houver conteúdo de terceiro, qual regime?** art. 18, art. 19, art. 21 ou tese do <abbr title="Supremo Tribunal Federal">STF</abbr>;
+6. **há uma exceção específica?** honra, comunicação privada, conteúdo íntimo, anúncio pago, distribuição artificial ou falha sistêmica.
+
+Essa sequência evita os erros mais comuns sem exigir decorar uma lista solta de “pegadinhas”. O ponto central é manter separadas relações que a prova costuma misturar: **conexão e aplicação; registro e conteúdo; guarda e acesso; texto da lei e interpretação do <abbr title="Supremo Tribunal Federal">STF</abbr>; regra do edital e atualização posterior**.
