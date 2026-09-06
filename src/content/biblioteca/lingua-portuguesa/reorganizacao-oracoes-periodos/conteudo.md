@@ -8,476 +8,229 @@ storageId: reorganizacao-oracoes-periodos
 
 # Reorganização da estrutura de orações e períodos
 
-> **Corte de atualização:** fontes consultadas até 10 de agosto de 2026. O foco é o item 6.3 do programa de Língua Portuguesa: reorganizar a estrutura de orações e períodos preservando, quando o comando exigir, correção, relações sintáticas, referentes, relações lógicas e sentidos. Coordenação, subordinação, concordância, regência, crase e colocação pronominal aparecem apenas como instrumentos de validação da transformação, sem repetir seus assuntos próprios.
+## 1. Mudar a construção sem mudar a informação
 
-## 1. Reorganizar é reconstruir relações
+Compare estas versões de uma situação hipotética:
 
-Reorganizar uma oração ou um período não é apenas mudar palavras de lugar. A operação precisa preservar, conforme o comando:
+> A equipe **não decidiu revisar** o relatório.  
+> A equipe **decidiu não revisar** o relatório.
 
-- correção gramatical;
-- participantes e funções sintáticas;
-- relações lógicas entre as orações;
-- tempo, modo, aspecto e escopo;
-- referência, coesão e coerência;
-- informação necessária ao argumento.
+As duas construções são gramaticais. Na primeira, nega-se a decisão de revisar: a equipe pode ainda estar discutindo o assunto. Na segunda, houve uma decisão, cujo conteúdo foi não revisar. Mover uma palavra alterou a informação.
 
-Em prova, há três perguntas diferentes:
+Reorganizar um período é mudar a disposição ou a ligação de suas partes. **Correção gramatical e preservação de sentido são verificações distintas.** Quando o comando exige ambas, uma versão correta, mas infiel ao original, deve ser rejeitada.
 
-| Pergunta | O que verificar |
-|---|---|
-| a nova redação é gramatical? | concordância, regência, pontuação, colocação e estrutura |
-| a nova redação preserva os fatos e relações? | agente, paciente, causa, condição, tempo, modalidade, referente |
-| a nova redação preserva o foco exigido? | informação principal/acessória, tópico e escopo de operadores |
+“Ontem, a equipe entregou o relatório” e “A equipe entregou o relatório ontem” podem informar o mesmo acontecimento com organização diferente. **Foco informacional** é o que recebe destaque no contexto; mudar a apresentação não significa necessariamente mudar os fatos.
 
-Uma proposta pode ser gramatical e ainda estar errada por alterar as ideias. Também pode conservar a ideia geral e falhar em um requisito normativo.
+Os demais exemplos também são hipotéticos.
 
-> **Julgue a estrutura final, não a intenção aparente da transformação.**
+## 2. Reconhecer os blocos antes de movê-los
 
----
+Uma **oração** organiza-se em torno de um verbo ou de uma **locução verbal**, combinação que funciona como um só centro da oração: *tinha entregue* não cria duas orações. O **período** é a unidade formada por uma ou mais orações: será **simples** com uma e **composto** com duas ou mais.
 
-## 2. Mapear antes de transformar
+Em “A equipe entregou o relatório ontem”, *a equipe* é o **sujeito**, com o qual o verbo concorda: *a equipe entregou*, *as equipes entregaram*. O restante é o **predicado**, aquilo que se declara do sujeito. *O relatório* completa *entregou*: é **objeto direto**, ligado ao verbo sem preposição exigida. **Preposição** é uma palavra de ligação, como *a*, *de* ou *em*. *Ontem* acrescenta uma circunstância de tempo: é **adjunto adverbial**.
 
-Antes de reorganizar, identifique:
+A sequência **sujeito → verbo → complementos → circunstâncias** serve de referência para a **ordem direta**. Não é a única organização correta: “Chegaram os documentos” tem sujeito depois do verbo. O *Manual de Redação da Presidência da República* recomenda a ordem direta para favorecer clareza, não para proibir toda inversão.
 
-1. verbos e locuções;
-2. sujeito de cada verbo;
-3. complementos e predicativos;
-4. adjuntos;
-5. conectores;
-6. pronomes e antecedentes;
-7. relação entre as orações.
+**Função na frase não é papel no acontecimento.** Na primeira oração, a equipe é sujeito e agente, quem entrega. Em “O relatório foi entregue pela equipe”, o relatório passa a sujeito, mas a equipe continua sendo quem entrega. O relatório é o paciente, aquilo sobre que recai a ação. Sujeito, portanto, não significa necessariamente agente.
 
-Na frase `Se surgirem inconsistências, o órgão revisará a norma`, a oração inicial apresenta condição; `o órgão` é sujeito de `revisará`; `a norma`, objeto direto.
+Agora amplie o mapa:
 
-### 2.1 Papéis semânticos
+> **Se surgirem inconsistências**, o órgão revisará a norma **e divulgará o resultado**.
 
-As funções podem mudar de posição, mas os participantes precisam continuar exercendo os mesmos papéis:
+Há três orações. *Inconsistências* é sujeito de *surgirem*; *o órgão*, de *revisará* e de *divulgará*, embora só apareça uma vez. *A norma* e *o resultado* completam verbos diferentes. *Se* apresenta a condição; *e* liga as ações do órgão.
 
-- agente: quem pratica ou desencadeia;
-- paciente: quem sofre ou recebe o efeito;
-- experienciador: quem percebe ou sente;
-- causa, instrumento, destinatário e outros papéis contextuais.
+Na **coordenação**, as orações ficam no mesmo nível sintático, como *revisará* e *divulgará*. Na **subordinação**, uma oração integra ou modifica outra construção: *se surgirem inconsistências* estabelece a condição para as ações. Essa hierarquia limita as possibilidades de divisão e ligação.
 
-`A comissão aprovou o parecer` não equivale a `O parecer aprovou a comissão`, embora ambas as sequências possam apresentar concordância formal.
+## 3. Deslocamento, alcance e pontuação
 
----
+### Mover o bloco inteiro e conservar sua ligação
 
-## 3. Ordem direta, inversão e foco
+Em “O relatório, a equipe o entregou ontem”, o objeto foi apresentado como assunto inicial e retomado por *o*. Essa apresentação como tópico é chamada **topicalização**: o relatório não se tornou agente nem sujeito de *entregou*.
 
-Uma organização frequente é:
+Um deslocamento também pode mudar o termo caracterizado. Em “Encontrei o auditor de plantão”, a leitura natural associa *de plantão* ao auditor. Em “De plantão, encontrei o auditor”, a expressão tende a caracterizar quem fala.
 
-```text
-sujeito + verbo + complementos + adjuntos
-```
+### O alcance de *não*, *só* e outras palavras
 
-`A equipe entregou o relatório ontem.`
+**Escopo** é a parte da construção sobre a qual uma palavra atua. No contraste inicial, *não* atingia a decisão ou o conteúdo da decisão. O mesmo cuidado vale para palavras de restrição:
 
-O Manual de Redação da Presidência da República recomenda ordem direta e frases bem estruturadas como recursos de clareza. Isso é preferência de redação oficial, não proibição gramatical da ordem inversa.
+> **Só a equipe** analisou o relatório.  
+> A equipe analisou **só o relatório**.
 
-Exemplos possíveis:
+Na primeira, excluem-se outros agentes; na segunda, outros objetos de análise. **Não basta conservar a palavra: é preciso conservar seu alcance.** Preserve também quantidade, frequência e certeza: *todos* não equivale a *alguns*; *pode revisar* não equivale a *revisará*.
 
-- `Ontem, a equipe entregou o relatório.`
-- `O relatório, a equipe o entregou ontem.`
-- `Chegaram os documentos solicitados.`
+### A vírgula acompanha a estrutura
 
-A inversão pode mudar tópico, contraste ou foco. Compare:
+O adjunto curto anteposto admite, em geral, vírgula facultativa: “Ontem a equipe trabalhou” e “Ontem, a equipe trabalhou”. Adjuntos longos deslocados pedem delimitação mais nítida: “Durante toda a manhã de segunda-feira, a equipe trabalhou”. Uma oração que estabelece circunstância, como condição, é **adverbial**. Quando anteposta, separa-se por vírgula: “Se houver erro, o órgão revisará a norma”.
 
-- `A comissão rejeitou a proposta.`
-- `A proposta, a comissão a rejeitou.`
+Uma **intercalação**, trecho inserido no meio da estrutura, precisa ser fechada: “A medida, segundo a equipe, reduziu custos”. Retirado *segundo a equipe*, desaparecem as duas vírgulas: “A medida, reduziu custos” separaria indevidamente sujeito e verbo. Tampouco se escreve “A equipe entregou, o relatório”, separando verbo e complemento sem motivo sintático.
 
-O evento básico permanece, mas a segunda estrutura topicaliza `a proposta` e a retoma por `a`. Se o comando exigir preservação integral do foco, essa diferença pode ser relevante.
+As vírgulas também podem mudar **de quem se fala**:
 
-### 3.1 Ambiguidade de adjunção
+> Os servidores **que concluíram o curso** receberam certificado.  
+> Os servidores, **que concluíram o curso**, receberam certificado.
 
-`O auditor informou ao gestor ontem a decisão.`
+A oração *que concluíram o curso* caracteriza *servidores*: é uma **oração adjetiva**. Sem isolamento, é **restritiva**: seleciona os servidores pela conclusão do curso. Entre vírgulas, é **explicativa**: acrescenta essa informação ao grupo já identificado. Na segunda versão, todos os servidores desse grupo concluíram o curso — não todos os servidores existentes. Inserir vírgulas pode, assim, mudar o conjunto abrangido, não apenas o ritmo.
 
-O deslocamento de `ontem` pode suscitar dúvida: a informação ocorreu ontem ou a decisão foi tomada ontem? Ao reorganizar, aproxime o adjunto do elemento modificado quando a precisão depender disso.
+## 4. Unir e separar períodos sem inventar relações
 
----
+### A ligação escolhida faz parte do sentido
 
-## 4. Deslocamento e pontuação
+Considere “O relatório estava incompleto. A equipe o devolveu”. Unir por *e* apresenta os dois fatos em sequência; unir por *porque* apresenta a incompletude como motivo da devolução. A causa precisa ser sustentada pelo contexto, não apenas parecer plausível.
 
-### 4.1 Adjunto adverbial
+Compare construções em que o vínculo já está expresso:
 
-- ordem habitual: `O tribunal publicará o resultado amanhã.`
-- deslocado: `Amanhã, o tribunal publicará o resultado.`
-- intercalado: `O tribunal, amanhã, publicará o resultado.`
+> O relatório foi devolvido **porque estava incompleto**.  
+> O relatório estava incompleto; **por isso, foi devolvido**.
 
-Adjuntos curtos podem admitir vírgula facultativa em certos contextos; adjuntos longos ou intercalados tendem a exigir ou recomendar isolamento para clareza. O ponto decisivo é a estrutura produzida, não uma regra mecânica baseada apenas na posição.
+A ordem mudou, mas não a direção da relação: dizer que o relatório estava incompleto *porque foi devolvido* daria à devolução outro papel.
 
-### 4.2 Oração adverbial deslocada
+**Conclusão** não é sinônimo de causa material: *portanto* apresenta uma inferência, algo que se deduz do que veio antes. Uma informação nova não se torna conclusão só porque foi colocada depois de outra.
 
-- `O órgão revisará a norma se surgirem inconsistências.`
-- `Se surgirem inconsistências, o órgão revisará a norma.`
+Também não se confundem **condição** e **concessão**. “Se estiver incompleto, será devolvido” faz a devolução depender da hipótese. “Embora estivesse incompleto, foi aceito” admite a incompletude, mas apresenta um resultado contrário à expectativa. A segunda pode ser reorganizada como “Estava incompleto, mas foi aceito”: o contraste permanece, embora a relação sintática e a distribuição do destaque mudem.
 
-Anteposta, a oração adverbial deve ser separada por vírgula. Mudar a posição não autoriza trocar `se` por `quando`: condição hipotética não equivale necessariamente a tempo pressuposto.
+Os **conectores**, palavras ou expressões de ligação, ajudam a reconhecer essas relações:
 
-### 4.3 Intercalação
+| Relação | O que estabelece | Marcas frequentes |
+| --- | --- | --- |
+| Adição | Acumula informações | *e*, *nem* |
+| Adversidade | Contrapõe informações | *mas*, *porém* |
+| Conclusão | Apresenta uma dedução | *logo*, *portanto* |
+| Causa | Explica por que ocorreu | *porque*, *já que*, *como* |
+| Consequência | Apresenta o resultado | *tão… que*, *de modo que* |
+| Condição | Faz depender de uma hipótese | *se*, *caso* |
+| Concessão | Admite o que não impede o resultado | *embora*, *ainda que* |
+| Finalidade | Indica para que se faz | *para que*, *a fim de que* |
+| Tempo | Situa quando ocorre | *quando*, *enquanto*, *assim que* |
+| Conformidade | Indica acordo com uma orientação | *conforme*, *segundo* |
 
-`A medida, segundo o relatório, reduziu os custos.`
+Não substitua mecanicamente conectores da mesma linha. “Se houver erro” passa a “Caso haja erro”, não a *caso houver erro*. *Enquanto* pode indicar tempo ou contraste; *como* pode indicar causa, comparação ou conformidade.
 
-O segmento intercalado recebe pontuação em ambos os lados. Suprimir apenas uma vírgula rompe o pareamento.
+Trocar *se houver recurso* por *quando houver recurso* também pode alterar o sentido: *se* apresenta uma condição; *quando* situa o evento no tempo e pode apresentá-lo como esperado. Isso não torna todo futuro com *quando* um fato garantido.
 
-### 4.4 Separações indevidas
+### Fusão e divisão exigem reconstrução
 
-Em regra, não se separa por vírgula:
+É possível juntar “A portaria foi publicada. A portaria vigorará amanhã” em “A portaria foi publicada e vigorará amanhã”. O sujeito repetido foi eliminado, sem criar causa ou conclusão. Já “A portaria publicada vigorará amanhã” transforma a publicação em caracterização do nome, podendo selecionar uma portaria entre outras.
 
-- sujeito e predicado;
-- verbo e complemento;
-- nome e complemento necessário.
+Para dividir “Embora estivesse incompleto, o relatório foi aceito”, uma solução é “O relatório estava incompleto. **Mesmo assim**, foi aceito”. A expressão mantém a expectativa contrariada. Com “Por isso”, a incompletude passaria a justificar a aceitação; sem marcador, o contraste deixaria de estar explícito.
 
-Errado: `A publicação do relatório, favoreceu o controle.`
+A divisão precisa respeitar dependências. “É necessário que a equipe responda” não admite simplesmente “É necessário. Que a equipe responda” como equivalente: a oração *que a equipe responda* funciona como sujeito de *é necessário* — **isso é necessário**. Por ocupar uma posição própria de nome, é uma **oração substantiva**.
 
-### 4.5 Restrição e explicação
+Em texto expositivo contínuo, “O relatório voltou. Porque estava incompleto” fragmenta a construção causal. Esse recurso pode ser expressivo em diálogos ou outros gêneros, mas não é divisão neutra e sempre equivalente.
 
-- `Os servidores que concluíram o curso foram certificados.` — somente os que concluíram.
-- `Os servidores, que concluíram o curso, foram certificados.` — a oração explicativa apresenta todos como concluintes no contexto.
-
-Inserir ou retirar vírgulas pode alterar a extensão do referente e, portanto, o sentido.
-
----
-
-## 5. Relações entre orações
-
-Não é necessário reestudar aqui toda a classificação de coordenação e subordinação. Para reorganização, importa reconhecer **qual relação será preservada ou alterada**.
-
-| Relação | Marca frequente | Exemplo |
-|---|---|---|
-| adição | e, nem | analisou e decidiu |
-| adversidade | mas, porém | analisou, mas não decidiu |
-| conclusão | logo, portanto | venceu o prazo; portanto, arquivou |
-| causa | porque, como | foi devolvido porque estava incompleto |
-| consequência | tão... que | estava tão incompleto que foi devolvido |
-| condição | se, caso | será revisto se houver recurso |
-| concessão | embora, ainda que | embora houvesse recurso, não foi revisto |
-| finalidade | para que | foi enviado para que o setor analisasse |
-| tempo | quando | foi enviado quando terminou a revisão |
-| conformidade | conforme, segundo | agiu conforme determina a norma |
-
-O conector precisa recuperar relação já sustentada. `Portanto` cria conclusão; `porque`, causa; `embora`, concessão. Inserir um deles sem apoio muda a estrutura argumentativa.
-
-### 5.1 Adversidade e concessão
-
-- `Os dados eram incompletos, mas a equipe decidiu.`
-- `Embora os dados fossem incompletos, a equipe decidiu.`
-
-As formas podem preservar a expectativa contrariada, mas mudam hierarquia sintática, foco, modo verbal e pontuação.
-
-### 5.2 Causa e conclusão
-
-- `O relatório estava incompleto, por isso foi devolvido.`
-- `O relatório foi devolvido porque estava incompleto.`
-
-As duas versões podem apresentar a incompletude como razão da devolução, mas organizam a informação de modo diferente. Não confunda relação linguística de causa com prova extralinguística de causalidade.
-
----
-
-## 6. Orações desenvolvidas e reduzidas
-
-Orações reduzidas têm o verbo em forma nominal: infinitivo, gerúndio ou particípio. Desenvolvidas apresentam verbo flexionado e, em geral, conectivo explícito.
-
-Não memorize `reduzida = sem palavra introdutória`: reduzidas podem vir com `ao`, `por`, `para`, `a fim de`, `mesmo` e outras expressões.
-
-### 6.1 Infinitivo
-
-- desenvolvida: `É necessário que os servidores estudem.`
-- reduzida: `É necessário os servidores estudarem.`
-
-O infinitivo pessoal pode explicitar o sujeito. `É necessário estudar` deixa-o genérico ou recuperável pelo contexto.
-
-### 6.2 Gerúndio
-
-- desenvolvida: `Embora estivesse atrasado, compareceu.`
-- reduzida: `Mesmo estando atrasado, compareceu.`
-
-O sujeito de `estando` precisa ser corretamente recuperado. Um gerúndio sem controlador claro pode criar ambiguidade.
-
-### 6.3 Particípio
-
-- desenvolvida: `Quando o processo foi concluído, iniciou-se a auditoria.`
-- reduzida: `Concluído o processo, iniciou-se a auditoria.`
-
-O particípio concorda com o termo a que se refere: `Concluída a análise`.
-
-### 6.4 Relação implícita
-
-Ao desenvolver uma reduzida, o conector deve corresponder à leitura contextual:
-
-- `Ao terminar a análise, enviou o parecer.` → quando terminou;
-- `Por faltar documento, devolveu o processo.` → porque faltava;
-- `Para reduzir custos, digitalizou o acervo.` → a fim de reduzir.
-
-Uma forma nominal pode permitir mais de uma leitura fora de contexto. Não acrescente causa, condição ou concessão sem apoio.
-
----
-
-## 7. União de períodos
-
-Base:
-
-`O prazo terminou. O recurso não foi admitido.`
-
-Possibilidades, conforme o contexto:
-
-- causa: `O recurso não foi admitido porque o prazo terminou.`
-- conclusão: `O prazo terminou; portanto, o recurso não foi admitido.`
-- simples sequência: `O prazo terminou, e o recurso não foi admitido.`
-
-As versões não são automaticamente equivalentes; a justaposição pode deixar a relação implícita.
-
-### 7.1 Eliminar repetição sem perder referência
-
-`A portaria foi publicada. A portaria entrará em vigor amanhã.`
-
-Pode-se unir:
-
-`A portaria foi publicada e entrará em vigor amanhã.`
-
-O sujeito elíptico da segunda oração permanece recuperável.
-
-### 7.2 Riscos da fusão
-
-- conector que inventa relação;
-- pronome com dois antecedentes possíveis;
-- quebra de paralelismo;
-- mudança de escopo da negativa;
-- transformação de informação principal em acessória;
-- criação de restrição inexistente.
+## 5. Reduzir e desenvolver uma oração
 
 Compare:
 
-- `A norma foi publicada. Entrará em vigor em janeiro.`
-- `A norma publicada entrará em vigor em janeiro.`
+> A equipe digitalizou o acervo **para reduzir custos**.  
+> A equipe digitalizou o acervo **para que a própria equipe reduzisse custos**.
 
-A segunda pode delimitar um conjunto de normas, em vez de apenas informar dois fatos sobre uma norma já identificada.
+Na primeira, *reduzir* está no **infinitivo**, forma que nomeia o processo verbal. A oração é **reduzida de infinitivo**. Na segunda, *para que* introduz a oração e *reduzisse* está no <abbr title="modo verbal usado em hipóteses, desejos e certas construções subordinadas">subjuntivo</abbr>: a oração é **desenvolvida**. Conservam-se a finalidade e quem reduziria os custos.
 
----
+As reduzidas empregam uma das **formas nominais do verbo**: infinitivo (*reduzir*), gerúndio (*reduzindo*) ou particípio (*reduzido*). Não são introduzidas pela <abbr title="palavra que liga orações ou termos">conjunção</abbr> ou pelo <abbr title="pronome que retoma um termo e liga uma oração a ele">pronome relativo</abbr> próprios da forma desenvolvida correspondente; podem, porém, começar por preposição ou expressão como *por*, *ao*, *para*, *apesar de* ou *mesmo*.
 
-## 8. Divisão de períodos
+**Reduzida não significa necessariamente mais curta nem sem qualquer palavra introdutória.** E desenvolver não é apenas trocar essa introdução: *para reduzir* → *a fim de reduzir* mantém o infinitivo e a oração reduzida.
 
-`Embora estivesse incompleto, o relatório foi aceito.`
+| Forma reduzida | Desenvolvimento possível no contexto | O que permanece |
+| --- | --- | --- |
+| **Por faltar um documento**, o processo voltou. | **Porque faltava um documento**, o processo voltou. | Causa da volta |
+| **Ao terminar a análise**, a equipe enviou o parecer. | **Quando terminou a análise**, a equipe enviou o parecer. | Tempo e sujeito da ação |
+| **Mesmo estando atrasada**, a equipe compareceu. | **Embora estivesse atrasada**, a equipe compareceu. | Concessão |
+| **Concluída a análise**, iniciou-se a revisão. | **Depois que a análise foi concluída**, iniciou-se a revisão. | Anterioridade da conclusão |
 
-Divisão que preserva o elo:
+O gerúndio não significa sempre tempo, nem o particípio sempre causa. Para desenvolver, identifique a relação no contexto, escolha a ligação e ajuste o verbo. Uma reduzida ambígua não autoriza impor uma interpretação ausente do texto.
 
-`O relatório estava incompleto. Mesmo assim, foi aceito.`
+### Preservar sujeito e relação temporal
 
-Apenas escrever `O relatório estava incompleto. Foi aceito.` pode enfraquecer a concessão.
+A reduzida pode ter sujeito diferente do da outra oração. Na última linha da tabela, *a análise* é sujeito de *concluída*, e o particípio concorda com ele: *concluído a análise* está incorreto.
 
-### 8.1 Antecedentes
+O **infinitivo pessoal** pode indicar seu sujeito por flexão: “Antes de os servidores **saírem**, a reunião terminou”. *Saírem* continua sendo infinitivo; a oração permanece reduzida. O desenvolvimento “Antes que os servidores **saíssem**, a reunião terminou” mantém os participantes e a relação entre os acontecimentos. **Flexionar o infinitivo não é desenvolver a oração.**
 
-`A comissão analisou a proposta que o setor enviou e a aprovou.`
+Também se pode reduzir “É necessário que os servidores estudem” a “É necessário os servidores estudarem”. Retirar *os servidores* e escrever apenas “É necessário estudar” apaga a identificação expressa de quem deve estudar, a menos que o contexto a recupere.
 
-Ao dividir, é preciso manter claros os referentes de `que` e `a`. Uma nova frase iniciada por pronome sem antecedente acessível perde coesão.
+Tempo e <abbr title="forma de apresentar o conteúdo verbal, como declaração, hipótese ou ordem">modo verbal</abbr> dependem da construção inteira. Não se escolhe entre *reduza* e *reduzisse* pela presença isolada de *para*: é preciso verificar o tempo de referência e o sentido pretendido.
 
-### 8.2 Fragmentos
+## 6. Passar da voz ativa à passiva
 
-Subordinadas isoladas podem produzir fragmento:
+> A comissão aprovou os pareceres.  
+> Os pareceres foram aprovados pela comissão.
 
-Errado como período autônomo: `Porque o prazo terminou.`
+A primeira apresenta a comissão como sujeito da ação: **voz ativa**. A segunda apresenta os pareceres como sujeito paciente: **voz passiva**. Na **passiva analítica**, formada com *ser* e particípio, a transformação regular parte de um objeto direto: *os pareceres* torna-se sujeito, e *a comissão* passa a *pela comissão*, o **agente da passiva**.
 
-Reconstrução possível:
+A passiva permite começar pelo que recebeu a ação, sem determinar sozinha o foco informacional do contexto.
 
-`O prazo terminou. Por isso, o recurso não foi admitido.`
+### Reconstruir toda a forma verbal
 
----
+O novo sujeito exige concordância: **os pareceres foram aprovados**, com auxiliar no plural e particípio no masculino plural. A forma verbal precisa conservar tempo, <abbr title="forma de apresentar o conteúdo verbal, como declaração, hipótese ou ordem">modo</abbr> e **modalidade**, isto é, valores como possibilidade ou obrigação:
 
-## 9. Voz ativa e voz passiva
+| Ativa: a comissão… | Passiva: o parecer… |
+| --- | --- |
+| aprovou o parecer | foi aprovado pela comissão |
+| aprovará o parecer | será aprovado pela comissão |
+| pode aprovar o parecer | pode ser aprovado pela comissão |
+| havia aprovado o parecer | havia sido aprovado pela comissão |
+| está aprovando o parecer | está sendo aprovado pela comissão |
 
-- ativa: `A comissão aprovou o parecer.`
-- passiva: `O parecer foi aprovado pela comissão.`
+*Pode ser aprovado* não equivale a *deve ser aprovado*: possibilidade e obrigação são diferentes. Tampouco se deve apagar o agente sem avaliar a perda: “O parecer foi aprovado” não identifica a comissão.
 
-Na transformação regular:
+No sentido inverso, “O parecer foi aprovado ontem” pode ser reorganizado como “Aprovaram o parecer ontem”, com sujeito não identificado pelo contexto. Não se pode inventar uma comissão. A construção precisa admitir passiva: de “A equipe precisa de servidores” não se obtém *servidores são precisados pela equipe*. O complemento de *precisar de* não é objeto direto.
 
-1. o objeto direto vira sujeito paciente;
-2. o auxiliar `ser` conserva tempo e modo;
-3. o particípio concorda com o sujeito;
-4. o sujeito ativo pode tornar-se agente da passiva.
+### Dois funcionamentos diferentes de *se*
 
-### 9.1 Tempo e modalidade
+Em “Publicaram-se os resultados”, os resultados foram publicados. Trata-se de **passiva sintética**; *se* é a **partícula apassivadora**, e *os resultados* é sujeito paciente. Na <abbr title="convenções gramaticais adotadas como referência na escrita formal">norma-padrão</abbr>, o verbo concorda com ele no plural.
 
-- `aprovará` → `será aprovado`;
-- `pode aprovar` → `pode ser aprovado`;
-- `havia aprovado` → `havia sido aprovado`.
+Em “Precisa-se de servidores”, não se informa quem precisa: há **sujeito indeterminado**. *De servidores* continua sendo complemento preposicionado, não sujeito. Aqui, *se* é **índice de indeterminação do sujeito**, e o verbo fica no singular. O mesmo ocorre em “Vive-se bem aqui”. **Nem todo *se* indica passiva.**
 
-Trocar `aprovou` por `será aprovado` muda também o tempo; não é mera mudança de voz equivalente.
+## 7. Trocar a oração por uma expressão nominal
 
-### 9.2 Agente omitido
+**Nominalização** é representar por um nome o processo antes expresso pelo verbo. A operação inversa é a **verbalização**:
 
-`O parecer foi aprovado.`
+> A equipe analisou os dados ontem.  
+> A análise dos dados pela equipe ocorreu ontem.
 
-A passiva sem agente pode ser adequada quando ele é desconhecido, irrelevante ou recuperável. Não preserva integralmente uma ativa que informa `pela comissão` se esse participante for relevante.
+*Analisou* dá lugar ao nome *análise*. *Dos dados* mantém aquilo que foi analisado; *pela equipe* mantém quem analisou; *ocorreu ontem* situa o acontecimento. A preposição precisa ser reconstruída: a ligação direta *analisou os dados* passa a *análise **dos** dados*.
 
-### 9.3 Passiva sintética e indeterminação
+O nome sozinho não conserva tudo. “A análise dos dados” não informa quem a fez, quando ocorreu nem se foi concluída. Essa perda é especialmente importante no **aspecto verbal**, a maneira de apresentar o desenvolvimento da ação: *vinha analisando* mostra continuidade; *analisou* apresenta o evento sob outra perspectiva. Reduzir ambos a *análise* pode apagar o contraste. Também não se deve transformar *possibilidade de aprovação* em *aprovação efetiva*.
 
-- `Publicaram-se os resultados.` — passiva sintética; `os resultados` é sujeito, e o verbo concorda.
-- `Precisa-se de servidores.` — sujeito indeterminado; `de servidores` é complemento preposicionado, e o verbo fica no singular.
-- `Vive-se bem aqui.` — sujeito indeterminado com verbo intransitivo.
+Na volta ao verbo, “A aprovação do parecer ocorreu ontem” pode tornar-se “O parecer foi aprovado ontem”. A passiva evita inventar o agente.
 
-Nem toda estrutura com `se` pode ser convertida em passiva analítica.
+**Nome e forma nominal do verbo não são a mesma coisa:** *análise* é um <abbr title="palavra que nomeia seres, ações, estados ou ideias">substantivo</abbr>; *analisar* é infinitivo. Trocar *para analisar os dados* por *para a análise dos dados* é nominalizar, não desenvolver uma oração.
 
-### 9.4 Foco discursivo
+## 8. Omitir repetições sem perder participantes
 
-Ativa e passiva podem preservar o evento e mudar o foco: a ativa tende a destacar o agente; a passiva, o paciente. O comando define se essa mudança é tolerável.
+### Elipse e paralelismo
 
----
+A **elipse** é a omissão de um termo recuperável: em “A equipe revisou o contrato e encaminhou o processo”, o sujeito de *encaminhou* continua sendo *a equipe*, não *o contrato*. Quando se omite um termo já expresso, fala-se em **zeugma**: “A equipe analisou o contrato; o setor, o parecer”. A vírgula marca a omissão de *analisou*.
 
-## 10. Nominalização e verbalização
+Em enumerações, a clareza depende também do **paralelismo sintático**, uso de estruturas correspondentes para funções equivalentes:
 
-- verbal: `A equipe analisou os dados.`
-- nominal: `A análise dos dados pela equipe...`
+> Compete ao setor **analisar os dados, elaborar o relatório e comunicar o resultado**.
 
-O substantivo `análise` reorganiza a predicação e seus argumentos.
+Os três membros completam a mesma construção com infinitivos. Misturar *analisar os dados*, *a elaboração do relatório* e *que comunique o resultado* rompe essa organização. Uma alternativa inteiramente nominal seria “São atribuições do setor **a análise dos dados, a elaboração do relatório e a comunicação do resultado**”. A mudança exige reconstruir a frase, não somente trocar palavras.
 
-A nominalização pode apagar ou alterar:
+### Quem é retomado por cada pronome?
 
-- agente: `a análise dos dados` não informa quem analisou;
-- tempo: o nome não marca sozinho passado ou futuro;
-- modalidade: `a possível revisão` não equivale a `a revisão ocorrerá`;
-- aspecto: `vinha analisando` contém continuidade ausente em `análise`;
-- referência: complementos encadeados podem ser ambíguos.
+**Referente** é a pessoa, coisa ou ideia à qual uma expressão se refere. **Antecedente** é o termo anterior retomado por um pronome; **correferência** ocorre quando expressões apontam para o mesmo referente.
 
-### 10.1 Regência e determinação
+Em “O auditor informou ao gestor que seu relatório estava pronto”, *seu* pode remeter ao auditor ou ao gestor. Unir períodos não resolve essa ambiguidade automaticamente. Para desfazê-la, é necessário saber de quem é o relatório; sem essa informação, não se deve escolher um participante por conta própria.
 
-- `a equipe decidiu revisar`;
-- `a decisão da equipe de revisar`.
+O **pronome relativo** retoma um termo e introduz uma oração que o caracteriza: em “os relatórios que a equipe revisou”, *que* retoma *relatórios*. Deslocamentos não devem alterar o antecedente recuperado. A preposição exigida também acompanha a reconstrução: “a norma **a que** o servidor se referiu” corresponde a “o servidor se referiu **à norma**”.
 
-Preposições e determinantes precisam ser reconstruídos. Não há correspondência mecânica entre todos os complementos verbais e nominais.
+## 9. Julgar a versão inteira, não uma troca isolada
 
-### 10.2 Verbalização
+**Regência** é a relação pela qual um verbo ou nome exige seus complementos: substituir *analisou a proposta* por *referiu-se à proposta* muda a preposição. A **crase** nessa segunda construção resulta da fusão da preposição *a* com o <abbr title="palavra que acompanha e determina um nome">artigo</abbr> *a*, indicada pelo acento grave.
 
-`A aprovação do parecer pela comissão ocorreu ontem.`
+A posição dos pronomes também pode precisar mudar. *O* em “A equipe entregou-o” é <abbr title="pronome sem acento próprio, como me, se, o ou lhe">pronome átono</abbr>. Ao antepor *não* ao verbo, a <abbr title="convenções gramaticais adotadas como referência na escrita formal">norma-padrão</abbr> exige “A equipe não **o** entregou”, pois essa palavra atrai o pronome. A pontuação, a concordância e as ligações entre termos devem ser avaliadas na versão nova, não reaproveitadas mecanicamente.
 
-Pode-se escrever:
+Considere a base:
 
-`A comissão aprovou o parecer ontem.`
+> Embora os pareceres estivessem incompletos, a comissão podia aprová-los.
 
-Participantes e tempo são preservados porque estavam explicitados. Se `pela comissão` fosse omitido, a verbalização não poderia inventar esse agente.
+“Os pareceres estavam incompletos. Mesmo assim, podiam ser aprovados pela comissão” conserva o contraste, os participantes e o valor de possibilidade ou permissão expresso por *podia*, conforme o contexto. Já “Como estavam incompletos, os pareceres foram aprovados” introduz causa e afirma uma aprovação realizada, onde antes havia uma possibilidade. A frase pode ser gramatical e não ser equivalente.
 
----
+No **teste de retorno**, tente recuperar participantes, tempo, relações e certeza do original. Precisou acrescentar informação perdida? A equivalência requer contexto que a sustente. Uma situação em que uma versão seja verdadeira e a outra falsa já demonstra diferença de sentido.
 
-## 11. Elipse, paralelismo e correferência
+Essa cautela aparece em questões oficiais. No caderno básico da <abbr title="Polícia Civil do Distrito Federal">PCDF</abbr>, edital de 2024, o <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> rejeitou, nos itens 13 e 14, uma reescrita que mudava o termo retomado por *que* e a inserção de *portanto* onde havia informação nova, não conclusão. As justificativas oficiais estão nas referências.
 
-### 11.1 Elipse e zeugma
+As classificações completas são aprofundadas nos capítulos de coordenação e subordinação; a adaptação ao destinatário, em *Reescrita de textos de diferentes gêneros e níveis de formalidade*.
 
-- `A equipe revisou o contrato e encaminhou o processo.` — sujeito elíptico na segunda oração.
-- `A equipe analisou o contrato; o setor, o parecer.` — zeugma de `analisou`.
-
-A omissão é válida se o elemento puder ser recuperado sem ambiguidade.
-
-### 11.2 Paralelismo
-
-Adequado:
-
-`Compete ao setor analisar os dados, elaborar o relatório e comunicar o resultado.`
-
-Quebra:
-
-`Compete ao setor analisar os dados, a elaboração do relatório e que comunique o resultado.`
-
-Itens coordenados devem manter organização sintática compatível.
-
-### 11.3 Pronomes e antecedentes
-
-`O auditor comunicou ao gestor que seu relatório estava pronto.`
-
-`Seu` pode ter mais de um antecedente. Deslocar ou fundir orações pode criar ambiguidade antes inexistente.
-
----
-
-## 12. Escopo e informação
-
-### 12.1 Negação
-
-- `O órgão não decidiu revisar a norma.`
-- `O órgão decidiu não revisar a norma.`
-
-Na primeira, nega-se a decisão; na segunda, afirma-se a decisão de não revisar.
-
-### 12.2 Operadores
-
-- `Só a comissão analisou o relatório.`
-- `A comissão analisou só o relatório.`
-
-Deslocar `não`, `só`, `também`, `até`, `apenas` ou `quase` pode mudar o constituinte focalizado.
-
-### 12.3 Informação principal e acessória
-
-- `A comissão, que recebeu os dados, decidiu hoje.` — recebimento apresentado como informação acessória.
-- `A comissão que recebeu os dados decidiu hoje.` — restrição: identifica qual comissão decidiu.
-
-Reorganizar exige preservar a hierarquia da informação quando ela for relevante para o comando.
-
----
-
-## 13. Checagens normativas
-
-Depois de transformar, confira:
-
-1. **concordância:** novo sujeito controla verbo e particípio;
-2. **regência:** verbo ou nome novo pode exigir outra preposição;
-3. **crase:** a nova estrutura pode reunir ou separar preposição e artigo;
-4. **colocação pronominal:** conectores e negativas podem alterar o ambiente do clítico;
-5. **pontuação:** deslocamentos e intercalações precisam ser marcados;
-6. **paralelismo:** coordenados devem ter forma compatível;
-7. **correferência:** todo pronome precisa manter antecedente claro;
-8. **coerência:** a relação reconstruída precisa integrar-se às ideias do texto.
-
-No caderno oficial da PCDF 2024 com justificativas, uma reescrita foi rejeitada porque o pronome relativo passaria a retomar outro antecedente, alterando o participante da ação. Outro item rejeitou `portanto` porque o período novo não concluía o anterior. O padrão de cobrança integra sintaxe, referência e coerência.
-
----
-
-## 14. Método de resolução
-
-1. **Leia o comando:** exige apenas correção ou também preservação de sentidos e coerência?
-2. **Marque os núcleos:** verbos, sujeitos, complementos, conectores e pronomes.
-3. **Nomeie a operação:** deslocamento, fusão, divisão, redução, desenvolvimento, voz ou nominalização.
-4. **Desenhe as relações:** agente → ação → paciente; causa → consequência; condição → resultado; pronome → antecedente.
-5. **Compare papéis e escopo:** quem faz? o que sofre? o que a negativa ou `só` alcança?
-6. **Aplique as checagens normativas.**
-7. **Faça o teste de retorno:** ao reconstruir a forma original, algum agente, tempo, condição ou referente desapareceu?
-8. **Procure contraexemplo:** se uma versão puder ser verdadeira e a outra falsa em uma situação plausível, não há equivalência integral.
-
----
-
-## 15. Quadro de julgamento
-
-| Base | Reorganização | Juízo |
-|---|---|---|
-| revisará se houver erro | se houver erro, revisará | preserva condição; exige vírgula |
-| revisará se houver erro | revisará quando houver erro | pode mudar hipótese para tempo pressuposto |
-| estava incompleto; por isso voltou | voltou porque estava incompleto | pode preservar a razão básica, com foco diferente |
-| embora estivesse incompleto, foi aceito | estava incompleto; mesmo assim, foi aceito | preserva concessão |
-| porque estava incompleto | período autônomo isolado | fragmento sem principal |
-| a comissão aprovou o parecer | o parecer foi aprovado pela comissão | preserva participantes; muda foco |
-| a comissão aprovou | foi aprovado | apaga o agente expresso |
-| publicaram-se os resultados | os resultados foram publicados | transformação passiva válida |
-| precisa-se de servidores | servidores são precisados | transformação inválida |
-| não decidiu revisar | decidiu não revisar | muda o escopo da negação |
-
----
-
-## 16. Erros recorrentes
-
-1. Inverter agente e paciente.
-2. Inserir conector causal ou conclusivo sem apoio.
-3. Tratar ordem direta como única ordem correta.
-4. Separar sujeito e verbo por vírgula.
-5. Converter oração restritiva em explicativa.
-6. Desenvolver reduzida com relação lógica errada.
-7. Isolar subordinada como período sem principal.
-8. Fundir períodos e perder antecedente pronominal.
-9. Transformar todo `se` em passiva.
-10. Mudar tempo ou modalidade ao mudar a voz.
-11. Nominalizar e apagar agente relevante.
-12. Quebrar paralelismo.
-13. Deslocar negativa ou operador e alterar seu escopo.
-14. Julgar somente correção e ignorar equivalência ou coerência.
-
----
-
-## 17. Limites com assuntos vizinhos
-
-- **Assunto 009 e Assunto 010:** classificação detalhada de coordenação e subordinação não é o foco aqui; entram apenas para reconhecer relações durante a transformação.
-- **Assunto 016:** o sentido lexical entra apenas como checagem; sinonímia e substituição vocabular não são o foco.
-- **Assunto 018:** gênero, tom e nível de formalidade pertencem à reescrita global.
-- **Concordância, regência, crase e colocação:** aparecem como checagens da estrutura final; seus sistemas completos pertencem aos assuntos próprios.
+**Base e atualização:** item 6.3 de Língua Portuguesa do edital de abertura do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> de 2026. Fontes conferidas em 5 de setembro de 2026. O manual de redação é apoio linguístico, não ampliação do programa.
