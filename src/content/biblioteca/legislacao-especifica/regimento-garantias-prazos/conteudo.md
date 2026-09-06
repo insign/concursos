@@ -6,264 +6,213 @@ order: 60
 storageId: regimento-garantias-prazos
 ---
 
-## 1. Recorte e corte temporal
+## 1. O caminho que a parte percorre no processo
 
-Este assunto trata das **garantias processuais, provas e prazos** nos processos do TCE/MA. O foco é compreender:
+Imagine um processo de controle externo em que o relatório técnico aponta uma irregularidade. Antes de decidir, o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> precisa percorrer um caminho processual compreensível: **dar ciência à parte, permitir defesa e prova, completar a instrução e respeitar os prazos aplicáveis**.
 
-- devido processo legal, contraditório e ampla defesa;
-- citação, notificação e intimação;
-- processo eletrônico e ciência dos atos;
-- defesa articulada e juntada de provas;
-- revelia total e quanto à ocorrência não contestada;
-- vista, consulta e atuação por procurador;
-- diligência e saneamento;
-- início, contagem, vencimento e prorrogação dos prazos.
+Esse fluxo organiza o capítulo:
 
-Ficam fora deste assunto: decisões, sanções, execução de débitos e multas, recursos e revisão em profundidade, atos normativos gerais e ética.
+**ciência do ato → defesa e prova → eventual revelia → diligência/saneamento → contagem e prorrogação de prazo**.
 
-### 1.1. Regra vigente na publicação do edital
+É nesse encadeamento que aparecem o devido processo legal, o contraditório e a ampla defesa. Eles não são fórmulas abstratas: protegem a regularidade da passagem entre um apontamento técnico e uma decisão que possa afetar o responsável ou interessado.
 
-O edital do TCE/MA é de **6 de julho de 2026**. Para este recorte, deve ser estudado o Regimento Interno aprovado pela Resolução Administrativa nº 001/2000 **com as alterações já vigentes nessa data**.
+O recorte considera o Regimento Interno aprovado pela Resolução Administrativa nº 001/2000, com as alterações vigentes na publicação do edital, em **6 de julho de 2026**. A Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 423/2025 já integrava esse regime e é especialmente relevante para o processo eletrônico e para os arts. 157-A e 158.
 
-É especialmente importante a **Resolução TCE/MA nº 423, de 12 de março de 2025**, que reformulou regras de tramitação e processo eletrônico. A vigência dessa reforma antes do edital é confirmada por atos oficiais do próprio Tribunal em 2026, que continuam aplicando dispositivos com a redação dada pela Resolução nº 423/2025.
+Decisões, sanções, execução, recursos e revisão têm assuntos próprios. Aqui, eles aparecem apenas quando forem necessários para compreender a defesa, a prova ou o prazo.
 
-Assim, as regras dos arts. **157-A, 158 e 290 a 294** integram o núcleo estudável deste assunto. Não há, neste material, atualização pós-edital sendo misturada à regra aplicável em 6 de julho de 2026.
-
-## 2. Garantias constitucionais
+## 2. As garantias que sustentam esse fluxo
 
 ### 2.1. Devido processo legal
 
-A Constituição Federal assegura que ninguém será privado da liberdade ou de seus bens sem o devido processo legal. Nos processos de controle externo, isso exige procedimento regular, ciência adequada dos atos e oportunidade de manifestação quando cabível.
+A Constituição Federal assegura que ninguém será privado da liberdade ou de seus bens sem o devido processo legal. No processo de controle externo, isso exige **procedimento regular**, ciência adequada dos atos e oportunidade de manifestação quando cabível.
 
-Devido processo legal não é formalidade vazia: ele organiza o caminho entre apontamento técnico, manifestação da parte, instrução e decisão.
+O ponto para prova é funcional: um relatório técnico pode fundamentar a instrução, mas não substitui as etapas processuais exigidas para que a parte conheça o que lhe é atribuído e possa reagir.
 
 ### 2.2. Contraditório e ampla defesa
 
 O contraditório e a ampla defesa também se aplicam aos processos administrativos.
 
-| Garantia | Ideia central |
-| --- | --- |
-| contraditório | ciência da imputação ou ocorrência e possibilidade de reação |
-| ampla defesa | utilização dos meios admitidos para explicar, impugnar e provar |
-| meios e recursos inerentes | instrumentos previstos no regime processual aplicável |
+- **Contraditório:** ciência da imputação, ocorrência ou ato relevante e possibilidade de reação.
+- **Ampla defesa:** uso dos meios admitidos para explicar, impugnar e provar.
 
-Neste assunto, o foco recai sobre **defesa e prova**. Os recursos são estudados no Assunto 062.
+A distinção evita duas confusões comuns. Primeiro, ter sido cientificado não significa que a defesa já foi exercida. Segundo, ter direito de defesa não significa que qualquer manifestação genérica seja suficiente: a parte precisa enfrentar o que foi efetivamente apontado.
 
 ### 2.3. Prova ilícita e duração razoável
 
-A Constituição torna inadmissíveis as provas obtidas por meios ilícitos e assegura duração razoável do processo. O próprio Regimento Interno reforça a inadmissibilidade da prova ilícita no art. 300.
+A Constituição torna inadmissíveis as provas obtidas por meios ilícitos e assegura duração razoável do processo. O Regimento Interno também reforça a inadmissibilidade da prova ilícita no art. 300.
 
-Logo:
+Portanto, **celeridade não elimina garantias**, e a necessidade de instrução não autoriza o uso de prova ilícita.
 
-- celeridade não elimina contraditório ou ampla defesa;
-- instrução suficiente não autoriza prova ilícita;
-- prova deve ser lícita e pertinente ao ponto discutido.
+## 3. Como a parte toma ciência
 
-## 3. Processo eletrônico e comunicações
+### 3.1. Processo eletrônico — art. 157-A
 
-### 3.1. Regra do art. 157-A
+O art. 157-A, incluído pela Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 423/2025, determina que as etapas do rito processual previstas na Lei Orgânica ocorram **em meio eletrônico**, nos termos do Regimento Interno.
 
-O art. 157-A, incluído pela Resolução TCE/MA nº 423/2025, determina que as etapas do rito processual previstas na Lei Orgânica ocorram **em meio eletrônico**, nos termos do Regimento.
+A parte pode ser chamada ou cientificada por **citação, notificação ou intimação**. A citação deve ocorrer **preferencialmente por meio eletrônico**, observadas as regras da Lei Orgânica. Também são preferencialmente eletrônicas as demais comunicações processuais e, quando cabível, as respostas do responsável ou interessado.
 
-O chamamento da parte ao processo pode ocorrer mediante:
-
-1. **citação**;
-2. **notificação**;
-3. **intimação**.
-
-A citação deve ser feita **preferencialmente por meio eletrônico**, observadas as regras da Lei Orgânica.
-
-As citações, notificações, intimações, demais comunicações e, quando cabível, as respostas do responsável ou interessado também devem ser encaminhadas preferencialmente por meio eletrônico. Os atos processuais são digitais, de modo a permitir produção, comunicação, armazenamento e validação eletrônicos.
+"Preferencialmente" é a palavra decisiva: o Regimento não transforma o meio eletrônico em forma única e exclusiva de comunicação.
 
 ### 3.2. Citação, notificação e intimação
 
-| Comunicação | Função prática |
+As três comunicações não são sinônimas. A função concreta do ato é o melhor ponto de partida:
+
+| Comunicação | Função processual predominante |
 | --- | --- |
 | citação | chama a parte ao processo, especialmente para defesa ou participação essencial |
-| notificação | comunica ato, ocorrência ou providência, inclusive de caráter instrutório |
+| notificação | comunica ato, ocorrência ou providência, inclusive de caráter preliminar ou instrutório |
 | intimação | dá ciência de decisão, ato processual ou providência a cumprir |
 
-A função concreta deve ser lida no ato. Uma notificação preliminar para esclarecimentos não se transforma automaticamente em citação formal para defesa de mérito.
+Uma notificação preliminar para esclarecimentos, por exemplo, não deve ser automaticamente tratada como citação formal para defesa de mérito. Em prova, leia **o que o ato faz**, e não apenas o rótulo usado na alternativa.
 
-### 3.3. Ciência espontânea supre falta de citação
+### 3.3. Atuação espontânea que supre a falta de citação
 
-O art. 157-A, § 3º, estabelece regra importante: **ato processual espontâneo do responsável ou interessado que demonstre ciência inequívoca dos autos eletrônicos supre a falta de citação**.
+O art. 157-A, § 3º, prevê uma regra específica: **o ato processual espontâneo do responsável ou interessado que demonstre ciência inequívoca dos autos eletrônicos supre a falta de citação**.
 
-Pegadinha: a regra não significa que qualquer vício processual esteja automaticamente sanado. O ponto é específico — a ciência inequívoca demonstrada por atuação espontânea supre a falta de citação.
+O mecanismo é simples. Se a finalidade da citação — dar ciência para que a parte possa atuar — já ficou inequivocamente demonstrada pela própria atuação espontânea, a falta da citação é suprida.
 
-### 3.4. Citação por edital e prática oficial
+Isso não autoriza concluir que qualquer vício processual foi sanado. A regra trata especificamente da **falta de citação** diante de ciência inequívoca demonstrada pelo comportamento da parte.
 
-O art. 290 prevê, entre os marcos dos prazos, a publicação de edital quando o responsável ou interessado não for localizado. Editais oficiais do TCE/MA publicados em 2026 continuam aplicando expressamente o art. 290.
+### 3.4. Citação por edital
 
-Nesses atos aparecem, conforme a base normativa e a espécie processual, prazos concretos para defesa. O estudante não deve transformar um prazo especial de determinado procedimento em regra universal.
+O art. 290 contempla a publicação de edital entre os marcos de contagem quando o responsável ou interessado não for localizado. Editais oficiais do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> publicados antes do edital do concurso continuavam aplicando essa disciplina.
 
-## 4. Defesa
+Esses atos também mostram por que não se deve decorar todo prazo encontrado em um edital como se fosse universal: a espécie processual e a base normativa precisam ser identificadas primeiro.
 
-### 4.1. Prazo geral de defesa
+## 4. O que a defesa precisa fazer
 
-A Lei Orgânica e editais oficiais do TCE/MA confirmam **30 dias** como referência geral de defesa nas hipóteses em que essa disciplina se aplica. Os mesmos atos registram a possibilidade de prorrogação por até **30 dias**, quando requerida tempestivamente e admitida pelo regime correspondente.
+### 4.1. Prazo geral de 30 dias
 
-Para prova:
+A Lei Orgânica e atos oficiais do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> confirmam **30 dias** como referência geral de defesa nas hipóteses em que essa disciplina se aplica. A prorrogação pode alcançar até **30 dias**, quando o regime correspondente a admitir e o pedido for tempestivo.
 
-- memorize **30 dias** como referência geral confirmada para a defesa disciplinada pela Lei Orgânica;
-- a prorrogação depende da regra aplicável e de pedido tempestivo;
-- procedimento especial pode possuir prazo próprio: não generalize um edital isolado.
+A leitura correta é:
 
-### 4.2. Defesa articulada
+- **30 dias** é a referência geral da defesa disciplinada pela Lei Orgânica;
+- a prorrogação depende da regra aplicável e de pedido apresentado em tempo;
+- procedimentos especiais podem possuir prazo próprio.
 
-O art. 157-A, § 4º, reproduz o núcleo que já aparece na Lei Orgânica: cabe à parte manifestar-se precisamente sobre toda a matéria de defesa, expondo de forma articulada as razões de fato e de direito e juntando as provas em que se funda.
+Logo, "30 dias" não é um número universal para qualquer manifestação no Tribunal.
 
-A defesa deve, portanto:
+### 4.2. Defesa articulada — art. 157-A, § 4º
 
-- enfrentar as ocorrências apontadas no relatório de instrução;
-- apresentar razões de fato;
-- apresentar razões de direito;
-- juntar provas pertinentes;
-- evitar alegações genéricas desconectadas de cada ocorrência.
+A defesa deve enfrentar precisamente a matéria apontada. O art. 157-A, § 4º, exige manifestação sobre toda a matéria de defesa, com **razões de fato e de direito articuladas** e juntada das provas em que a parte se funda.
 
-### 4.3. Defesa genérica e revelia parcial
+Em termos práticos, uma boa defesa processual precisa conectar três elementos:
 
-A parte é considerada **revel quanto à ocorrência não contestada**. Isso permite falar em revelia parcial.
+**ocorrência apontada → argumento correspondente → prova pertinente**.
 
-Exemplo: se o relatório aponta quatro ocorrências e a defesa enfrenta somente duas, a revelia pode incidir sobre as duas ocorrências não impugnadas.
+Exemplo hipotético: se o relatório aponta ausência de comprovação de uma despesa, não basta afirmar genericamente que "tudo foi regular". A defesa precisa explicar por que a ocorrência é improcedente ou justificável e juntar os documentos que sustentem essa explicação.
 
-Ampla defesa significa oportunidade efetiva de reação; não significa que uma resposta vazia afaste os apontamentos técnicos.
+### 4.3. Defesa genérica e revelia quanto ao ponto não contestado
 
-## 5. Provas
+A parte é considerada **revel quanto à ocorrência não contestada**. Por isso, a revelia pode atingir apenas parte das ocorrências.
 
-### 5.1. Provas em que se funda a defesa
+Exemplo hipotético: o relatório aponta quatro ocorrências; a defesa enfrenta apenas duas. As duas impugnadas continuam sujeitas à análise do mérito da defesa, enquanto as duas não contestadas podem receber o efeito regimental da revelia quanto a esses pontos.
 
-O art. 157-A, § 4º, exige a juntada das provas em que se funda a defesa. Nos processos de contas, documentos como contratos, notas fiscais, comprovantes, relatórios, publicações, pareceres, extratos e demonstrativos podem ser relevantes, conforme a ocorrência examinada.
+A consequência pedagógica é importante: ampla defesa garante **oportunidade efetiva de reação**, mas não transforma uma resposta vazia em impugnação suficiente.
 
-Não é necessário inventar um rol exaustivo de meios de prova. O que importa neste nível é saber que a prova deve ser **lícita, pertinente e apta a dialogar com a ocorrência impugnada**.
+## 5. Como a prova se conecta à ocorrência
 
-### 5.2. Pertinência
+O art. 157-A, § 4º, exige a juntada das provas em que se funda a defesa. Não há ganho em decorar um rol artificialmente fechado de documentos; é mais útil entender a relação entre o que foi apontado e o que pode demonstrar sua correção ou improcedência.
 
-| Ocorrência | Prova pertinente em tese |
+| Ocorrência em exame | Prova pertinente em tese |
 | --- | --- |
 | ausência de publicação | cópia ou comprovante idôneo da publicação oficial |
 | despesa sem comprovação | nota fiscal, liquidação, pagamento e documentos do objeto |
 | falha contratual | contrato, edital, pareceres, publicações e documentos de execução |
 | omissão de dados | demonstrativo, extrato, relatório ou arquivo válido |
 
-Documento irrelevante, ilegível ou desconectado da ocorrência pode não ser suficiente para afastá-la.
+A prova precisa ser **lícita, pertinente e relacionada ao ponto discutido**. Documento ilegível, irrelevante ou desconectado da ocorrência pode não resolver a controvérsia.
 
-### 5.3. Não importar automaticamente regimes externos
+Também é preciso respeitar a autonomia do regime processual do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A Lei Federal nº 9.784/1999 rege o processo administrativo federal e não substitui automaticamente o regime próprio do Tribunal. Da mesma forma, regras do Código de Processo Civil não devem ser importadas sem base normativa para o processo de contas.
 
-A Lei Federal nº 9.784/1999 pode ajudar em comparação conceitual, mas rege o processo administrativo federal e não substitui o regime próprio do TCE/MA.
+## 6. O que acontece se a defesa não vier
 
-Da mesma forma, não se deve transportar automaticamente todo o Código de Processo Civil para o processo de contas. Primeiro se aplica o regime específico pertinente.
+### 6.1. Revelia total — art. 157-A, § 5º
 
-## 6. Revelia
+É revel, para todos os efeitos legais e regimentais, a parte que **não apresenta defesa no prazo legal estabelecido**. O processo prossegue normalmente.
 
-### 6.1. Ausência total de defesa
+Revelia, portanto:
 
-Pelo art. 157-A, § 5º, é revel, para todos os efeitos legais e regimentais, a parte que não apresenta defesa no prazo legal estabelecido, prosseguindo normalmente o processo.
+- não paralisa o processo;
+- não é, por si só, sanção administrativa;
+- não equivale automaticamente a decisão de mérito;
+- pode coexistir, quanto a determinadas ocorrências, com defesa apresentada sobre outros pontos.
 
-Guarde:
+### 6.2. Prazos contra o revel — art. 157-A, § 6º
 
-- a revelia não paralisa o processo;
-- a revelia não é, por si só, sanção administrativa;
-- a revelia não substitui a decisão de mérito;
-- a revelia quanto à ocorrência não contestada pode coexistir com defesa de outros pontos.
+Contra a parte revel, **os prazos correm independentemente de intimação**.
 
-### 6.2. Prazos contra o revel
+Mesmo assim, ela pode intervir no processo eletrônico em qualquer fase, recebendo-o **no estado em que se encontra**. A intervenção posterior não reabre automaticamente etapas e prazos já superados.
 
-O art. 157-A, § 6º, acrescenta uma regra de alta importância: **contra a parte revel, os prazos correm independentemente de intimação**.
+## 7. Vista, acesso e representação
 
-Mesmo assim, a parte revel pode intervir no processo eletrônico em qualquer fase, **recebendo-o no estado em que se encontra**.
+A parte pode acompanhar o processo e atuar por procurador devidamente constituído. A consulta pública do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, porém, não torna público aquilo que esteja submetido a restrição ou sigilo.
 
-Pegadinha: intervenção posterior não faz o procedimento voltar automaticamente às fases já superadas.
-
-## 7. Vista, consulta e procurador
-
-### 7.1. Consulta e acesso
-
-A consulta pública do TCE/MA permite acompanhar processos públicos, mas não converte processo restrito ou sigiloso em documento de acesso irrestrito.
-
-Assim:
-
-- existe transparência processual;
-- restrição ou sigilo pode limitar a consulta pública;
-- vista e cópia seguem o regime processual aplicável.
-
-### 7.2. Procurador da parte ≠ Procurador de Contas
+É útil separar duas figuras que têm nomes parecidos:
 
 | Figura | Papel |
 | --- | --- |
 | procurador constituído | representa o responsável ou interessado nos autos |
 | Procurador de Contas | membro do Ministério Público de Contas, com atuação institucional |
 
-A parte pode atuar por procurador devidamente constituído. Não confunda representação processual da parte com atuação do Ministério Público de Contas.
+A sustentação oral é outra forma de participação perante o colegiado, mas seus detalhes pertencem ao assunto de sessões e deliberação. Aqui basta não confundi-la com defesa escrita, prova ou recurso.
 
-### 7.3. Sustentação oral
+## 8. Quando a instrução precisa de mais elementos
 
-A sustentação oral é forma própria de participação perante o colegiado e não se confunde com defesa escrita, prova ou recurso. Seus detalhes pertencem ao recorte de sessões e deliberação.
+### 8.1. Diligência e saneamento
 
-## 8. Diligência e saneamento
+**Diligência** é a providência usada para obter informação, documento, esclarecimento ou outro elemento necessário à instrução. **Saneamento** é a correção ou complementação de falhas e lacunas dos autos para permitir análise adequada.
 
-### 8.1. Conceitos
+Eles servem à instrução; não são recursos, não equivalem a decisão final e não significam perdão automático de eventual irregularidade.
 
-**Diligência** é providência destinada a obter informação, documento, esclarecimento ou outro elemento necessário à instrução.
+### 8.2. Art. 158: prazo da atividade instrutória
 
-**Saneamento** é a correção ou complementação de falhas e lacunas dos autos para permitir análise adequada.
+Na redação dada pela Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 423/2025, o art. 158 determina que a **inspeção ou diligência determinada durante a instrução técnica deve ser finalizada em até 60 dias**. Depois disso, o processo retorna ao relator no estado em que se encontrar.
 
-Diligência e saneamento:
+Esse prazo olha para a finalização da inspeção ou diligência **dentro da instrução técnica**. Ele não é o mesmo prazo concedido ao destinatário para cumprir uma diligência.
 
-- servem à instrução;
-- não são recursos;
-- não equivalem a decisão final;
-- não significam perdão automático da irregularidade.
+### 8.3. Art. 293: prazo concedido para cumprir a diligência
 
-### 8.2. Art. 158: prazo da inspeção ou diligência na instrução técnica
+O art. 293 trata do outro lado da situação: o **prazo fixado no ato que ordena a diligência**.
 
-Na redação dada pela Resolução nº 423/2025, o art. 158 determina que a **inspeção ou diligência determinada durante a instrução técnica deve ser finalizada em até 60 dias**. Depois disso, o processo retorna ao relator no estado em que se encontrar.
+- O próprio ato deve fixar o prazo de cumprimento.
+- Se o ato for omisso, o prazo é de **30 dias**, salvo disposição especial.
+- Diligência ordenada singularmente pelo relator não pode ultrapassar **30 dias**.
+- Período superior depende de apreciação do Plenário ou da Câmara.
+- A unidade técnica pode sugerir diligência ao relator quando necessária ao saneamento dos autos.
 
-Esse prazo não deve ser confundido com o prazo que o ato de diligência concede ao diligenciado para cumprir determinada providência.
+A distinção que mais rende em prova é esta:
 
-### 8.3. Art. 293: prazo para cumprimento da diligência
-
-O art. 293 disciplina o prazo **assinado no ato que ordena a diligência**:
-
-- o próprio ato deve fixar prazo para cumprimento;
-- se o ato for omisso, o prazo é de **30 dias**, salvo disposição especial;
-- diligência ordenada singularmente pelo relator não pode ultrapassar **30 dias**;
-- período superior exige apreciação do Plenário ou da Câmara;
-- a unidade técnica pode sugerir diligência ao relator quando necessária ao saneamento dos autos.
-
-Findo o prazo, a matéria pode ser apreciada, inclusive para os efeitos legais cabíveis.
-
-### 8.4. Art. 158 × art. 293
-
-Não há soma automática de prazos.
-
-| Dispositivo | O que regula |
+| Regra | O que o prazo mede |
 | --- | --- |
-| art. 158 | finalização, em até 60 dias, da inspeção ou diligência determinada durante a instrução técnica |
-| art. 293 | prazo fixado ao cumprimento da diligência; se omisso, 30 dias; relator singular limita-se a 30 dias |
+| art. 158 — até 60 dias | finalização da inspeção/diligência na instrução técnica |
+| art. 293 — prazo fixado; se omisso, 30 dias | tempo concedido para cumprimento da diligência |
 
-Em uma questão, primeiro identifique **qual prazo está sendo perguntado**.
+Os dois prazos não se somam automaticamente e não se substituem.
 
-## 9. Contagem de prazos — arts. 290 a 292
+## 9. Como contar o prazo — arts. 290 a 292
 
-### 9.1. Marco do prazo — art. 290
+### 9.1. Primeiro descubra o marco — art. 290
 
-Os prazos regimentais contam-se dia a dia a partir do marco correspondente. O art. 290 aponta, entre outros:
+Antes de contar dias, identifique **qual evento iniciou o prazo**. O art. 290 aponta, conforme o caso:
 
-- recebimento da **citação**;
-- recebimento da **notificação**;
-- recebimento da **comunicação de diligência**;
+- recebimento da citação;
+- recebimento da notificação;
+- recebimento da comunicação de diligência;
 - recebimento da comunicação de rejeição dos fundamentos da defesa ou das razões de justificativa;
-- publicação do **edital**, quando o responsável ou interessado não for localizado;
+- publicação do edital, quando o responsável ou interessado não for localizado;
 - nos demais casos, salvo regra legal expressa em contrário, publicação da decisão.
+
+O art. 290, portanto, responde à pergunta **"qual é o marco?"**.
 
 ### 9.2. Retificação devolve o prazo — art. 291
 
 Acréscimos em publicação e retificações, inclusive relativos a citação, comunicação ou notificação, **devolvem o prazo** ao responsável ou interessado.
 
-Pegadinha: retificação relevante não deixa o prazo antigo correr como se nada tivesse ocorrido.
+Em prova, não mantenha o prazo antigo correndo como se a retificação relevante fosse neutra.
 
-### 9.3. Como contar — art. 292
+### 9.3. Depois aplique a técnica de contagem — art. 292
 
 Salvo disposição legal em contrário:
 
@@ -271,53 +220,48 @@ Salvo disposição legal em contrário:
 - **inclui-se o dia do vencimento**;
 - se o vencimento cair em dia sem expediente, o prazo é automaticamente prorrogado para o **primeiro dia útil imediato**.
 
-O art. 290 identifica o evento que serve de marco; o art. 292 estabelece a técnica de contagem. Não trate os dois dispositivos como contraditórios.
+Assim, o art. 290 fornece o marco e o art. 292 ensina como contar a partir dele.
 
-## 10. Prorrogação da diligência — art. 294
+## 10. Como prorrogar a diligência — art. 294
 
-O diligenciado pode pedir prorrogação mediante documento **devidamente fundamentado**, que deve ingressar no Tribunal **antes do vencimento** do prazo anteriormente fixado; pedido intempestivo não é conhecido.
+A prorrogação começa por uma exigência simples e decisiva: o pedido deve ser **devidamente fundamentado** e ingressar no Tribunal **antes do vencimento** do prazo anteriormente fixado. Pedido intempestivo não é conhecido.
 
-### 10.1. Quem decide e quanto pode prorrogar
+Depois, identifique quem determinou a diligência:
 
-- Se a diligência foi determinada pelo **relator**, ele pode autorizar **uma prorrogação**, por prazo não superior ao anteriormente concedido.
-- Outras prorrogações, nessa hipótese, são submetidas ao **Plenário ou à Câmara** competente.
-- Se a diligência foi determinada pelo **Plenário ou pela Câmara**, o próprio colegiado decide a dilação.
-- Se não houver manifestação do relator, Plenário ou Câmara sobre o pedido, considera-se o prazo **prorrogado por período igual ao anteriormente concedido**.
+- se foi o **relator**, ele pode conceder **uma prorrogação**, por prazo não superior ao anteriormente concedido;
+- nova prorrogação, nessa hipótese, é submetida ao **Plenário ou à Câmara** competente;
+- se a diligência foi determinada pelo **Plenário ou pela Câmara**, o próprio colegiado decide a dilação;
+- se não houver manifestação do relator, Plenário ou Câmara sobre o pedido, considera-se o prazo **prorrogado por período igual ao anteriormente concedido**.
 
-Exemplo: diligência singular do relator com prazo original de 20 dias pode receber, pelo próprio relator, uma primeira prorrogação de no máximo 20 dias. Uma nova extensão dependerá do colegiado.
+Exemplo hipotético: uma diligência singular do relator fixou 20 dias. Se houver pedido tempestivo e fundamentado, o próprio relator pode conceder a primeira prorrogação por, no máximo, mais 20 dias. Uma nova extensão já exige apreciação colegiada.
 
-## 11. Matriz de prazos para memorizar
+## 11. O mapa numérico sem misturar institutos
 
-| Regra | Prazo/efeito |
+Os números ficam mais fáceis de memorizar quando associados à função de cada prazo:
+
+| Situação | Prazo ou efeito |
 | --- | --- |
 | defesa — referência geral da Lei Orgânica | 30 dias |
-| prorrogação da defesa, quando cabível e tempestiva | até 30 dias, conforme a regra aplicável |
-| inspeção/diligência durante instrução técnica — art. 158 | finalizar em até 60 dias |
-| diligência — ato omisso quanto ao prazo — art. 293, § 2º | 30 dias, salvo disposição especial |
-| diligência singular do relator — art. 293, § 1º | até 30 dias; superior exige Plenário/Câmara |
-| 1ª prorrogação da diligência pelo relator — art. 294, § 1º | no máximo o prazo anteriormente concedido |
+| prorrogação da defesa, quando cabível | até 30 dias |
+| inspeção/diligência na instrução técnica — art. 158 | finalizar em até 60 dias |
+| ato de diligência omisso quanto ao prazo — art. 293 | 30 dias, salvo disposição especial |
+| diligência ordenada singularmente pelo relator — art. 293 | até 30 dias |
+| primeira prorrogação pelo relator — art. 294 | no máximo o prazo anteriormente concedido |
 | pedido de prorrogação — art. 294 | deve ingressar antes do vencimento |
-| ausência de decisão sobre pedido de prorrogação — art. 294, § 3º | prorrogação por prazo igual ao anteriormente concedido |
-| vencimento em dia sem expediente — art. 292 | prorroga para o primeiro dia útil imediato |
+| silêncio sobre pedido de prorrogação — art. 294 | prazo igual ao anteriormente concedido |
+| vencimento em dia sem expediente — art. 292 | primeiro dia útil imediato |
 
-### Pegadinhas essenciais
+As confusões mais perigosas são justamente as que misturam funções diferentes: **30 dias de defesa não é 30 dias de diligência**, e **60 dias do art. 158 não substituem os 30 dias do art. 293**.
 
-1. **30 dias de defesa não é prazo universal de qualquer ato.**
-2. **60 dias do art. 158 não substituem os 30 dias do art. 293.** São objetos diferentes.
-3. Se o ato de diligência for omisso, há regra supletiva de **30 dias**.
-4. Relator sozinho não fixa diligência por período superior a **30 dias**.
-5. Pedido de prorrogação apresentado depois do vencimento é **intempestivo**.
-6. Silêncio sobre pedido tempestivo de prorrogação produz a consequência específica do art. 294, § 3º: prazo igual ao anteriormente concedido.
-7. Retificação de publicação pode **devolver o prazo**.
-8. Contra o revel, os prazos correm independentemente de intimação.
-9. Citação é preferencialmente eletrônica; ato espontâneo que demonstre ciência inequívoca pode suprir sua falta.
+## 12. Fechamento: reconheça o mecanismo antes da regra isolada
 
-## 12. Fronteiras com os próximos assuntos
+Quando uma questão trouxer um fato processual, percorra mentalmente esta sequência:
 
-| Próximo assunto | O que fica para depois |
-| --- | --- |
-| 061 | decisões, sanções, multas, débitos, execução e cumprimento |
-| 062 | recursos, embargos, revisão, reconsideração e efeitos recursais |
-| 063 | atos normativos gerais, ética, Comissão de Ética e regras finais |
+1. **Como a parte tomou ciência?** Citação, notificação, intimação, edital ou atuação espontânea?
+2. **Havia oportunidade de defesa e prova?** A ocorrência foi efetivamente contestada?
+3. **Houve revelia?** Total ou apenas quanto a determinado ponto?
+4. **A instrução precisou de diligência ou saneamento?** O prazo é o do art. 158 ou o do art. 293?
+5. **Qual foi o marco inicial?** Depois aplique a contagem do art. 292.
+6. **Houve pedido de prorrogação?** Foi tempestivo, quem decide e qual é o limite?
 
-Neste assunto, o objetivo é dominar **ciência processual, defesa, prova, revelia, diligência e contagem de prazos** antes da decisão.
+Esse encadeamento reduz a memorização solta e ajuda a identificar o dispositivo correto antes de escolher a alternativa.
