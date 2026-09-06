@@ -164,7 +164,7 @@ Em problemas que relacionam categorias distintas, uma grade evita perder exclus�
 
 Quando a associação é **um a um**, confirmar
 
-> `Lia = <abbr title="Tecnologia da Informação">TI</abbr>`
+> Lia = <abbr title="Tecnologia da Informação">TI</abbr>
 
 produz duas consequências:
 
