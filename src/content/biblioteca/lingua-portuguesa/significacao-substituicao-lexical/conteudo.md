@@ -6,751 +6,286 @@ order: 16
 storageId: significacao-substituicao
 ---
 
-## 1. Substituir não é apenas trocar
+# Significação, substituição e equivalência lexical no texto
 
-Os subitens 6.1 e 6.2 exigem duas competências inseparáveis:
+É possível escrever uma frase correta e dizer outra coisa. Compare os exemplos hipotéticos:
 
-1. compreender o sentido que uma palavra ou expressão realiza no texto;
-2. verificar se outra formulação preserva simultaneamente a correção gramatical e os sentidos relevantes.
+> A medida **pode reduzir** despesas.  
+> A medida **reduzirá** despesas.
 
-Uma palavra não chega ao texto com uma única definição pronta. O dicionário registra possibilidades; o contexto seleciona uma acepção, define referentes e acrescenta valores expressivos.
+A primeira admite a redução como possibilidade; a segunda a apresenta como previsão mais assertiva. A medida pode ter chance de funcionar e, mesmo assim, falhar. Esse cenário basta para mostrar que as afirmações não são equivalentes, embora ambas sejam gramaticais.
 
-> Proximidade lexical não garante equivalência contextual.
+Uma substituição precisa vencer duas dificuldades diferentes: **caber na construção** e **preservar o que o texto diz, no grau exigido pelo comando**. Se a questão pedir também manutenção do tom ou da ênfase, esses efeitos entram no julgamento. Os exemplos deste capítulo são construídos para fins didáticos, exceto o item oficial identificado ao final.
 
-Compare:
+## 1. O contexto escolhe o sentido
 
-- `A medida pode reduzir despesas.`
-- `A medida reduzirá despesas.`
+O **léxico** é o conjunto de palavras e expressões de uma língua. Uma unidade pode ter várias **acepções**, os sentidos convencionais registrados em dicionários. O sentido contextual é a acepção efetivamente ativada pela frase e pela situação:
 
-As duas frases são gramaticais, mas não equivalentes: a primeira expressa possibilidade; a segunda, uma previsão assertiva.
+- `irregularidade grave`: séria, relevante;
+- `nota grave`: de baixa frequência sonora;
+- `acento grave`: nome do sinal gráfico.
 
-Em caderno oficial, o Cebraspe pediu que o candidato avaliasse se a troca de `por motivo não justificável` por `injustificadamente` preservaria as ideias e a correção. Outros itens do mesmo caderno reuniram, na mesma afirmação, efeitos dos dois-pontos sobre sentido, concordância, coesão e coerência. A banca pode, portanto, testar mais de um plano ao mesmo tempo.
+A substituição por `séria` funciona no primeiro caso, não nos outros. O dicionário oferece possibilidades; **não autoriza transportar uma acepção para qualquer frase**. Da mesma forma, `representa` pode aproximar-se de `significa` em `a medida representa avanço`, mas não em `a servidora representa o órgão`, que descreve atuação em nome dele.
 
----
+O contexto imediato inclui as palavras que acompanham o termo; o mais amplo inclui o assunto, os períodos anteriores e a situação de comunicação. Uma frase isolada pode não oferecer essas pistas.
 
-## 2. Significado lexical e sentido contextual
+### Sentido literal, figura e avaliação
 
-### 2.1 Significado lexical
+Em `A ponte sobre o rio foi interditada`, `ponte` designa uma construção física: predomina a **denotação**, seu valor descritivo convencional. Em `O diálogo criou uma ponte entre os setores`, a ligação física ajuda a representar uma aproximação institucional. Essa transferência por semelhança é uma **metáfora**; o uso ativa uma **conotação**, valor associado ou expressivo construído no contexto.
 
-É o conjunto de acepções convencionalmente associado a uma unidade da língua. Uma obra de consulta pode registrar, por exemplo, diferentes sentidos de `grave`: intenso, sério, baixo na escala sonora ou acentuado graficamente.
+Denotação e conotação não são dois dicionários separados. Uma palavra pode designar algo e, ao mesmo tempo, avaliá-lo. Chamar um carro de `veículo` ou de `lata enferrujada` pode apontar para o mesmo objeto, mas a segunda expressão acrescenta depreciação. Tampouco sentido figurado significa necessariamente ambiguidade: a ponte criada pelo diálogo pode ser perfeitamente compreensível.
 
-### 2.2 Sentido contextual
+### A posição também pode selecionar uma acepção
 
-É a leitura ativada pela frase, pelo parágrafo, pelo gênero e pela situação.
+O **adjetivo** caracteriza ou delimita um nome. Sua posição pode alterar o sentido, mesmo sem troca de palavras:
 
-- `Foi constatada uma irregularidade grave.` → séria, relevante.
-- `O cantor alcançou uma nota grave.` → de baixa frequência.
-- `A palavra recebe acento grave.` → classificação do sinal.
+| Construção | Contraste de leitura possível |
+| --- | --- |
+| `um grande homem` / `um homem grande` | notável / de grandes dimensões |
+| `um simples procedimento` / `um procedimento simples` | mero procedimento / procedimento pouco complexo |
+| `um pobre homem` / `um homem pobre` | digno de pena / sem recursos |
+| `certa providência` / `providência certa` | alguma providência / providência correta ou segura |
 
-Trocar `grave` por `séria` funciona no primeiro caso, mas não nos outros. A consulta isolada a uma lista de sinônimos não resolve o item.
+São leituras favorecidas pelo contexto, não a regra absoluta de que todo adjetivo anteposto é subjetivo e todo posposto é objetivo.
 
-### 2.3 Contexto local e global
+## 2. Palavras relacionadas não são necessariamente substituíveis
 
-O contexto local abrange a construção imediata; o global inclui o parágrafo, o tema, a progressão e os referentes já introduzidos.
+### <abbr title="relação de igualdade ou proximidade de sentido">Sinonímia</abbr>: proximidade que precisa funcionar na frase
 
-- localmente, `ato` pode retomar `portaria`;
-- globalmente, se duas portarias e uma resolução foram mencionadas, `ato` pode criar ambiguidade.
+**Sinonímia** é a relação entre palavras de sentidos iguais ou próximos em determinado uso. A sinonímia absoluta exigiria coincidência em todas as acepções e nos efeitos de estilo, avaliação e uso; por isso, é rara. Em geral, lidamos com sinônimos parciais ou quase-sinônimos.
 
-Leia além da linha indicada sempre que a interpretação depender de antecedente, tese ou contraste.
+`Morrer` e `falecer` podem descrever o mesmo acontecimento, mas diferem no grau de formalidade e delicadeza. `Contrariado` e `indignado` não precisam indicar a mesma intensidade de reação; a indignação costuma envolver percepção de injustiça. Um texto `curto` tem pouca extensão; um texto `conciso` evita palavras dispensáveis. O primeiro pode, ainda assim, ser repetitivo.
 
----
+Pergunte **o que a palavra acrescenta ou retira nesta frase**. `A norma prevê a medida` não equivale necessariamente a `a norma autoriza a medida`: mencionar ou antecipar uma medida não é, por si, permiti-la.
 
-## 3. Denotação, conotação, literalidade e figuração
+### <abbr title="relação de oposição de sentido">Antonímia</abbr>: oposições de tipos diferentes
 
-### 3.1 Denotação
+**Antonímia** é oposição de sentido. Identificar o tipo de oposição evita conclusões indevidas:
 
-É o emprego predominantemente literal, referencial ou descritivo:
+- **Gradual:** `quente` e `frio` admitem estados intermediários. O café que não está quente pode estar morno; negar um extremo não afirma o outro.
+- **Complementar:** `vivo` e `morto`, no uso biológico comum e numa classificação binária, excluem-se. A aplicação dessa oposição depende do domínio considerado, não de usos figurados como `cidade morta`.
+- **Conversiva:** `comprar` e `vender` apresentam a mesma transação de perspectivas opostas. `Ana comprou o livro de Luís` corresponde a `Luís vendeu o livro a Ana`; trocar apenas `comprou` por `vendeu`, sem reorganizar os participantes, descreve outra transação.
 
-- `A ponte foi interditada.`
-- `O relatório tem cinquenta páginas.`
+### Categoria geral e suas espécies
 
-### 3.2 Conotação
+`Documento` abrange cartas, relatórios e outros tipos. O termo mais geral é o **hiperônimo**; o mais específico é o **hipônimo**. `Carta` e `relatório`, espécies distintas sob a mesma categoria, são **co-hipônimos**.
 
-É o valor figurado, expressivo ou avaliativo construído no uso:
+A direção da troca importa. `Um relatório foi enviado` permite afirmar que um documento foi enviado; o caminho inverso não permite concluir que o documento era um relatório. **Generalizar pode perder informação; especificar pode inventá-la.** Pertencer à mesma categoria também não torna `carta` e `relatório` sinônimos.
 
-- `O diálogo criou uma ponte entre os setores.`
-- `O relatório lançou luz sobre o problema.`
+Em contexto administrativo, o mesmo raciocínio vale para `portaria` e `ato administrativo`. Portarias e resoluções, quando apresentadas como espécies de atos normativos, são co-hipônimos nesse recorte.
 
-Conotação não significa falta de clareza. Uma metáfora pode ser inequívoca no contexto.
+### Parte e todo não são categoria e espécie
 
-### 3.3 Efeito avaliativo
+Uma página pode ser **parte** de um relatório, mas não é um **tipo** de relatório. Nessa relação, `página` é **merônimo** de `relatório`, e `relatório` é **holônimo** de `página`: os nomes designam, respectivamente, a parte e o todo.
 
-Duas expressões podem identificar o mesmo referente e avaliá-lo de modo diferente:
+Enviar uma página não garante o envio do relatório completo. Já enviar um relatório é enviar um documento. As perguntas **“é uma parte de?”** e **“é um tipo de?”** distinguem as relações. Um uso figurado da parte pelo todo exige apoio contextual.
 
-- `o veículo` — relativamente neutro;
-- `a lata enferrujada` — depreciativo.
+### Mesma forma, formas parecidas e sentidos distintos
 
-Substituir uma pela outra mantém o objeto referido, mas não mantém a atitude do enunciador.
+Na **polissemia**, uma palavra apresenta sentidos relacionados: `cabeça` do corpo e `cabeça` da equipe compartilham uma associação de comando ou posição central. Na **homonímia**, há coincidência de forma entre palavras de sentidos tratados como distintos e não relacionados: `manga` da camisa e `manga` fruta.
 
----
+A fronteira entre polissemia e homonímia depende dos critérios teóricos e da história da palavra. Duas definições diferentes não bastam para declarar homonímia; primeiro, reconheça a acepção usada. Na terminologia tradicional, homônimos podem coincidir na escrita (**homógrafos**), na pronúncia (**homófonos**) ou em ambas; `acento` e `assento`, por exemplo, coincidem na pronúncia, não na grafia.
 
-## 4. Relações lexicais
+A **paronímia** envolve formas parecidas, mas não idênticas, com sentidos diferentes:
 
-### 4.1 Sinonímia
+| Par | Sentidos a distinguir |
+| --- | --- |
+| `ratificar` / `retificar` | confirmar / corrigir |
+| `descrição` / `discrição` | ato de descrever / reserva, prudência |
+| `eminente` / `iminente` | ilustre, elevado / prestes a acontecer |
 
-Sinônimos compartilham sentido em algum grau. A sinonímia absoluta exigiria identidade:
+Retificar um dado é corrigi-lo; ratificá-lo é confirmá-lo. A semelhança da forma não autoriza a troca.
 
-- em todas as acepções;
-- em todos os contextos;
-- nas dimensões descritiva, expressiva, regional e estilística.
+Por fim, `auditoria`, `controle`, `relatório` e `evidência` podem integrar um mesmo **campo semântico**, uma área de significados relacionados. Essa associação temática é mais ampla que a sinonímia: um relatório pode apresentar evidências, mas não é outro nome para elas.
 
-Essa identidade é rara. Em geral, há **quase-sinônimos** ou sinônimos parciais.
+## 3. O texto identifica algo, deixa dúvida ou apenas não especifica?
 
-| Par | Diferença relevante |
-|---|---|
-| `morrer` / `falecer` | registro |
-| `curto` / `conciso` | extensão não equivale necessariamente a economia expressiva |
-| `insistente` / `teimoso` | carga avaliativa |
-| `casa` / `residência` | uso, registro e acepções |
-| `contrariado` / `indignado` | intensidade |
+O **referente** é a pessoa, objeto, fato ou ideia para a qual a expressão aponta. O **antecedente** é o trecho que ajuda a identificá-lo. Em `A portaria foi publicada. Ela entra em vigor amanhã`, `a portaria` é antecedente de `ela`, e ambas apontam para o mesmo ato: há **correferência**.
 
-O teste correto é: **a troca funciona nesta construção e preserva os traços importantes aqui?**
+Trocar `ela` por `o ato` pode conservar essa referência porque o tipo do ato já foi informado. É diferente de substituir `portaria` por `ato` na primeira apresentação e nunca dizer de que espécie se trata. A equivalência depende do **texto restante**, não apenas das duas palavras.
 
-### 4.2 Antonímia
+### Ambiguidade não é qualquer falta de precisão
 
-Antônimos podem expressar diferentes oposições:
+Há **ambiguidade** quando mais de uma interpretação é possível. Ela pode surgir de acepções da palavra, da ligação entre termos ou da identificação do referente. Em `Vi o servidor com o binóculo`, alguém pode ter usado o binóculo para ver ou o servidor pode estar com o instrumento. Em `O auditor informou ao gestor a decisão de sua equipe`, a equipe pode ser do auditor ou do gestor, se o contexto não resolver a disputa.
 
-- gradual: `quente` / `frio` — admite graus intermediários;
-- complementar: `vivo` / `morto` no uso prototípico;
-- conversiva: `comprar` / `vender` — o mesmo evento sob participantes opostos.
+Substituir `sua equipe` por `a equipe do gestor` escolhe uma leitura. Pode melhorar a clareza, mas não preserva integralmente a abertura do original sem apoio contextual.
 
-Negar um termo não produz sempre seu antônimo exato: `não está quente` não implica necessariamente `está frio`.
+A **vagueza** é diferente: os limites de um conceito são imprecisos. `Recente` depende do intervalo relevante; não autoriza reescrever `publicado recentemente` como `publicado há exatamente dois dias`. Na **subespecificação**, faltam detalhes: `o órgão adotará providências` não diz quais. Omissão de detalhes, limites vagos e duas interpretações distintas não são o mesmo fenômeno.
 
-### 4.3 Hiperonímia e hiponímia
+### Retomar também pode avaliar
 
-O hiperônimo é mais geral; o hipônimo, mais específico.
-
-```text
-ato administrativo
-└─ portaria
-   └─ portaria de pessoal
-```
-
-- trocar `portaria` por `ato administrativo` pode apagar especificidade;
-- trocar `ato administrativo` por `portaria` pode acrescentar informação não dada.
-
-Em cadeia coesiva, o hiperônimo pode retomar o mesmo referente: `A portaria foi publicada. O ato entra em vigor amanhã.` Isso não transforma os termos em sinônimos absolutos.
-
-### 4.4 Polissemia
-
-Uma mesma unidade possui sentidos relacionados:
-
-- `cabeça` do corpo;
-- `cabeça` da equipe;
-- `cabeça` de lista.
-
-O contexto seleciona a leitura. Fronteiras entre polissemia e homonímia podem ser teoricamente discutidas; em prova, o essencial é reconhecer a acepção realizada e a possível ambiguidade.
-
-### 4.5 Homonímia
-
-Formas iguais podem ter sentidos distintos, tradicionalmente tratados como não relacionados:
-
-- `manga` da camisa / `manga` fruta;
-- `banco` para sentar / `banco` instituição financeira.
-
-A homonímia pode gerar ambiguidade quando o contexto não desambigua.
-
-### 4.6 Paronímia
-
-Parônimos têm forma parecida e sentido diferente:
-
-| Forma | Sentido básico |
-|---|---|
-| `ratificar` | confirmar |
-| `retificar` | corrigir |
-| `descrição` | ato de descrever |
-| `discrição` | reserva, prudência |
-| `eminente` | elevado, ilustre |
-| `iminente` | prestes a acontecer |
-
-Semelhança gráfica ou sonora não autoriza substituição.
-
-### 4.7 Campo semântico e associação
-
-`Auditoria`, `controle`, `achado`, `relatório` e `evidência` podem integrar um mesmo campo semântico. Isso significa associação temática, não sinonímia.
-
-### 4.8 Parte e todo
-
-Relações como `página` / `relatório` ou `motor` / `veículo` ligam parte e todo. Substituir um pelo outro muda a extensão do referente, salvo uso figurado claramente estabelecido.
-
----
-
-<!-- REVISAO-SIGNIFICACAO-2026 -->
-
-### 4.9 Meronímia, holonímia e co-hiponímia
-
-A relação entre parte e todo recebe nomes úteis para a prova:
-
-- **merônimo**: a parte em relação ao todo — `página` em relação a `relatório`;
-- **holônimo**: o todo em relação à parte — `relatório` em relação a `página`;
-- **co-hipônimos**: espécies diferentes de uma mesma categoria — `portaria`, `resolução` e `instrução normativa` podem ser co-hipônimos de `ato normativo`.
-
-Co-hipônimos pertencem ao mesmo campo e podem compartilhar traços, mas não são sinônimos. Trocar `portaria` por `resolução` muda o tipo do ato, ainda que ambos sejam atos normativos.
-
-### 4.10 Ambiguidade, vagueza e subespecificação
-
-| Fenômeno | Caracterização | Exemplo |
-|---|---|---|
-| ambiguidade lexical | uma forma permite acepções distintas | `banco` |
-| ambiguidade sintática | a estrutura permite mais de uma ligação | `vi o servidor com o binóculo` |
-| ambiguidade referencial | há mais de um antecedente possível | `o auditor informou ao gestor a decisão de sua equipe` |
-| vagueza | os limites do conceito são graduais ou contextuais | `alto`, `recente`, `grande` |
-| subespecificação | o texto não fornece dado suficiente para uma leitura mais precisa | `o órgão adotará providências` |
-
-Resolver uma ambiguidade por meio de uma substituição pode melhorar a clareza, mas também pode **acrescentar informação não autorizada**. Trocar `sua equipe` por `a equipe do gestor`, por exemplo, escolhe um antecedente que o original deixava aberto.
-
-### 4.11 Posição do adjetivo e mudança de acepção
-
-A posição do adjetivo pode alterar o sentido:
-
-| Anteposto | Posposto |
-|---|---|
-| `certo problema` — algum problema, não especificado | `problema certo` — correto, seguro ou inevitável |
-| `grande homem` — homem notável | `homem grande` — homem de grandes dimensões |
-| `simples servidor` — mero servidor | `servidor simples` — servidor sem sofisticação |
-| `pobre homem` — digno de pena | `homem pobre` — sem recursos |
-
-A troca de posição não é uma operação meramente estilística. A banca pode manter as mesmas palavras e alterar a acepção, o foco ou a avaliação.
-
-## 5. Três níveis de equivalência
-
-### 5.1 Equivalência estrita
-
-As formulações mantêm condições centrais de verdade e todas as nuances exigidas pelo comando.
-
-- `A sessão foi adiada em razão da chuva.`
-- `A sessão foi adiada devido à chuva.`
-
-No contexto causal neutro e com estrutura adequada, a equivalência é forte.
-
-### 5.2 Preservação suficiente no contexto
-
-A forma, o foco ou a concisão mudam, mas o conteúdo que o item exige permanece:
-
-- `A equipe analisou os dados.`
-- `Os dados foram analisados pela equipe.`
-
-O conteúdo proposicional básico permanece; a voz e o foco mudam. Se o comando exigir manutenção integral da ênfase ou da organização, a troca pode deixar de ser válida.
-
-### 5.3 Mera proximidade lexical
-
-Há associação, mas uma diferença relevante impede a troca:
-
-- `A norma prevê a medida.`
-- `A norma autoriza a medida.`
-
-Prever não equivale necessariamente a permitir.
-
----
-
-### 5.4 Relações de inferência
-
-A equivalência pode ser testada por quatro relações:
-
-| Relação | Teste | Exemplo |
-|---|---|---|
-| acarretamento | se a primeira é verdadeira, a segunda também precisa ser | `conseguiu concluir` → `concluiu` |
-| pressuposição | a informação tende a permanecer sob negação ou pergunta | `não voltou a assinar` ainda sugere assinatura anterior |
-| implicatura | inferência contextual cancelável | `alguns compareceram` costuma sugerir “não todos”, mas admite `alguns, talvez todos` |
-| contradição | as duas proposições não podem ser verdadeiras no mesmo cenário | `nenhum compareceu` × `algum compareceu` |
-
-Compare:
-
-- `tentou concluir` **não acarreta** `concluiu`;
-- `conseguiu concluir` acarreta conclusão;
-- `parou de recorrer` pressupõe recursos anteriores;
-- `alguns compareceram` não significa logicamente `alguns e não todos`;
-- `nenhum compareceu` contradiz `algum compareceu`.
-
-O teste de negação ajuda, mas não é infalível: pressuposições podem ser contestadas, suspensas ou acomodadas conforme o contexto.
-
-## 6. O gate gramatical da substituição
-
-Uma troca semanticamente plausível pode exigir recomposição sintática.
-
-### 6.1 Classe gramatical
-
-- `a análise cuidadosa`;
-- `analisar cuidadosamente`.
-
-A passagem de substantivo para verbo e de adjetivo para advérbio muda a estrutura. Não basta colar a nova palavra no mesmo lugar.
-
-### 6.2 Flexão e concordância
-
-- original: `Foram adotadas medidas urgentes.`
-- com singular: `Foi adotada providência urgente.`
-
-Trocar apenas `medidas` por `providência` sem ajustar determinante, verbo e adjetivo quebra a concordância.
-
-### 6.3 Regência e transitividade
-
-- `assistir ao evento` → `ver o evento`;
-- `visar ao cargo` → `pretender o cargo`.
-
-O sentido pode se aproximar, mas a preposição muda. Preservar uma regência antiga depois da troca produz erro.
-
-### 6.4 Seleção semântica
-
-As palavras impõem restrições aos participantes:
-
-- `A comissão aprovou a proposta.`
-- não equivalente: `A proposta aprovou a comissão.`
-
-A concordância está formalmente correta na segunda, mas os papéis semânticos foram invertidos.
-
-### 6.5 Colocação lexical
-
-Algumas combinações são preferenciais:
-
-- `tomar uma decisão`;
-- `cometer um erro`;
-- `prestar contas`.
-
-Uma troca dicionarizada pode criar combinação pouco natural, mudar registro ou selecionar outro sentido.
-
-### 6.6 Pontuação e coesão
-
-Substituir trecho pode exigir ajustar pontuação. No caderno oficial do TCDF, um item pediu que se avaliasse a troca de dois-pontos por `que` quanto ao sentido e à concordância; outro exigiu examinar se a troca de dois-pontos por vírgula preservaria coesão e coerência.
-
-Correção não se limita à ortografia da palavra substituta.
-
----
-
-## 7. Informação, foco e participantes
-
-### 7.1 Generalização e especificação
-
-- `portaria` → `ato`: generaliza;
-- `ato` → `portaria`: especifica.
-
-A primeira troca pode perder informação; a segunda pode inventá-la.
-
-### 7.2 Voz ativa e passiva
-
-- `A equipe revisou o relatório.`
-- `O relatório foi revisado pela equipe.`
-
-Mantêm agente, ação e paciente, mas mudam foco. Já `O relatório foi revisado` omite o agente.
-
-### 7.3 Nominalização e verbalização
-
-- `A comissão analisou os dados.`
-- `A análise dos dados foi realizada pela comissão.`
-
-A paráfrase pode preservar participantes, mas tende a mudar foco, concisão e estrutura. Se o agente desaparecer, há perda informativa.
-
-### 7.4 Explicitação e condensação
-
-- explicitar pode acrescentar uma relação que era apenas inferida;
-- condensar pode eliminar condição, agente, intensidade ou restrição.
-
-`Em razão da chuva` pode condensar `porque choveu`; a equivalência depende de a relação causal já estar determinada.
-
----
-
-### 7.5 Verbos de fala, evidência e compromisso
-
-Verbos próximos podem atribuir ao enunciador graus diferentes de compromisso:
-
-| Verbo | Valor frequente |
-|---|---|
-| `afirmar` | apresentar um conteúdo assertivamente |
-| `alegar` | atribuir ou apresentar conteúdo possivelmente controvertido |
-| `sustentar` | defender uma tese |
-| `admitir` | reconhecer algo que poderia ser negado |
-| `confessar` | reconhecer conteúdo geralmente desfavorável |
-| `constatar` | apresentar como resultado de verificação |
-| `indicar` | apontar um indício ou uma direção |
-| `sugerir` | compromisso mais fraco, recomendação ou inferência |
-| `demonstrar` | apresentar como sustentado por evidências |
-| `provar` | reivindicar comprovação conclusiva |
-
-Trocar `alegou` por `demonstrou` pode transformar uma fala atribuída em conclusão evidencial. Trocar `sugerem` por `provam` aumenta indevidamente o compromisso do texto.
-
-O verbo `representar` só equivale a `significar` quando a acepção contextual permitir. Em `a medida representa avanço`, a troca pode funcionar; em `o servidor representa o órgão`, `representar` envolve atuação em nome de alguém.
-
-## 8. Modalidade, tempo e aspecto
-
-### 8.1 Modalidade
-
-| Forma | Valor principal |
-|---|---|
-| `pode fazer` | possibilidade/permissão, conforme o contexto |
-| `deve fazer` | obrigação ou probabilidade, conforme o contexto |
-| `fará` | projeção assertiva |
-| `talvez faça` | possibilidade |
-
-- `A medida pode reduzir custos.` ≠ `A medida reduzirá custos.`
-- `O órgão deve publicar o ato.` ≠ `O órgão pode publicar o ato.`
-
-### 8.2 Tempo
-
-- `enviou` localiza a ação no passado;
-- `enviará` a projeta no futuro;
-- `envia` pode indicar presente, hábito ou valor atemporal.
-
-### 8.3 Aspecto
-
-- `vem adotando` sugere processo continuado;
-- `adotou` apresenta evento concluído;
-- `começou a adotar` marca início;
-- `voltou a adotar` pressupõe adoção anterior e interrupção;
-- `deixou de adotar` pode ativar expectativa, hábito ou cessação.
-
-Retirar o auxiliar pode manter o tema e alterar decisivamente a perspectiva temporal.
-
----
-
-### 8.4 Escalas, limites e aproximação
-
-| Forma | Informação básica |
-|---|---|
-| `quase todos` | número inferior, mas próximo da totalidade |
-| `praticamente todos` | aproximação pragmática |
-| `cerca de 30` | valor aproximado |
-| `mais de 30` | limite inferior exclusivo |
-| `ao menos 30` | limite inferior inclusivo |
-| `no máximo 30` | limite superior |
-| `exatamente 30` | quantidade fixa |
-| `apenas 30` | restrição, frequentemente com avaliação de insuficiência |
-| `até 30` | limite ou inclusão, conforme o contexto |
-
-Também não são idênticos:
-
-- `principalmente` — estabelece prioridade;
-- `especialmente` — destaca elemento relevante;
-- `sobretudo` — concentra a ênfase;
-- `inclusive` — inclui item que poderia parecer excluído;
-- `mesmo` — pode intensificar ou incluir com efeito argumentativo.
-
-A retirada desses elementos pode preservar o fato básico e perder a escala, a hierarquia ou a atitude do enunciador.
-
-## 9. Operadores, quantificadores e escopo
-
-Pequenas palavras podem carregar grande parte do sentido.
-
-### 9.1 `só` e `apenas`
-
-- `Só os auditores assinaram o relatório.` — ninguém além deles assinou.
-- `Os auditores só assinaram o relatório.` — não fizeram outra ação relevante.
-
-O deslocamento muda o escopo.
-
-### 9.2 `até`
-
-- `Até os conselheiros concordaram.` — inclusão com possível efeito de surpresa.
-- `O prazo vai até sexta-feira.` — limite.
-
-Retirar `até` do primeiro exemplo preserva a ação, mas perde o efeito inclusivo e argumentativo.
-
-### 9.3 `já` e `ainda`
-
-- `O relatório já foi enviado.` — anterioridade em relação a uma expectativa.
-- `O relatório ainda não foi enviado.` — manutenção da ausência até o ponto de referência.
-
-Excluir esses operadores costuma reduzir informação.
-
-### 9.4 Quantificadores
-
-- `pelo menos três` admite três ou mais;
-- `no máximo três` admite de zero a três;
-- `exatamente três` fixa a quantidade;
-- `alguns` não equivale a `todos`;
-- `nem todos` não equivale a `nenhum`.
-
-### 9.5 Negação
-
-O escopo da negativa importa:
-
-- `Nem todos os relatórios foram entregues.` — ao menos um não foi; outros podem ter sido.
-- `Nenhum relatório foi entregue.` — zero entregas.
-
-As frases não são equivalentes.
-
----
-
-## 10. Conectores e relações lógicas
-
-### 10.1 Causa e explicação
-
-- `A sessão foi adiada porque choveu.`
-- `A sessão foi adiada uma vez que choveu.`
-
-Podem equivaler em leitura causal, mas `porque` assume outros usos. Não há intercambialidade universal.
-
-### 10.2 Conclusão
-
-- `O prazo venceu; portanto, o recurso é intempestivo.`
-
-Trocar `portanto` por `porém` substitui conclusão por contraste.
-
-### 10.3 Adversidade e concessão
-
-- `Chovia, mas a sessão ocorreu.`
-- `Embora chovesse, a sessão ocorreu.`
-
-O contraste concessivo básico pode permanecer, mas a hierarquia sintática e o foco mudam. O comando define se essa diferença é aceitável.
-
-### 10.4 Condição
-
-- `Se houver recurso, o processo será reexaminado.`
-- `Como houve recurso, o processo será reexaminado.`
-
-A primeira formula hipótese; a segunda apresenta causa factual. A semelhança temática não preserva a relação lógica.
-
----
-
-## 11. Pressuposição e informação implícita
-
-Algumas expressões apresentam conteúdo como já dado:
-
-- `O servidor voltou a assinar.` pressupõe que assinava antes.
-- `O servidor deixou de assinar.` sugere prática, expectativa ou ação cessada.
-- `Até o diretor concordou.` apresenta sua concordância como menos esperada.
-- `O problema continua.` pressupõe existência anterior.
-
-Paráfrases como `assinou`, `não assinou`, `o diretor concordou` e `o problema existe` preservam parte da informação, mas perdem pressupostos ou efeitos.
-
----
-
-### 11.1 Encapsulamento e rotulação discursiva
-
-Expressões nominais podem resumir um segmento anterior e, ao mesmo tempo, classificá-lo:
-
-- `esse fato`;
-- `essa decisão`;
-- `tal argumento`;
-- `essa hipótese`;
-- `essa conclusão`;
-- `o problema`;
-- `a medida`.
-
-Compare:
+Uma expressão pode resumir um trecho inteiro, e não um nome isolado:
 
 > Pode haver relação entre os dados. **Essa hipótese** será testada.
 
-> Pode haver relação entre os dados. **Esse fato** será considerado.
+Essa retomada de um segmento recebe o nome de **encapsulamento**. O nome escolhido também classifica o conteúdo: trocar `essa hipótese` por `esse fato` apresenta como estabelecido o que era possibilidade. `Essa decisão`, `essa conclusão` e `essa alegação` tampouco são rótulos neutros e intercambiáveis. O <abbr title="grau de certeza ou caráter factual atribuído à informação">estatuto epistêmico</abbr> muda, mesmo quando a expressão continua apontando para o mesmo trecho.
 
-A troca de `hipótese` por `fato` mantém o conteúdo retomado, mas altera seu estatuto epistêmico. Da mesma forma, chamar uma providência de `solução`, `tentativa` ou `problema` acrescenta avaliação.
+As ligações entre as partes do texto formam a **coesão**; a possibilidade de construir um sentido global compatível com o contexto é a **coerência**. Uma substituição deve preservar as ligações pertinentes e permitir que o conjunto continue fazendo sentido, não apenas produzir uma frase isolada gramatical.
 
-## 12. Referência, repetição e substituição lexical
+## 4. O que uma afirmação permite concluir?
 
-### 12.1 Referente preservado
+Reformular um conteúdo com outras palavras é fazer uma **paráfrase**. Para avaliar sua fidelidade, separe três relações: informação que decorre necessariamente do enunciado, informação apresentada como já dada e conclusão apenas sugerida pelo contexto.
 
-- `A portaria foi publicada. Ela entra em vigor amanhã.`
+### Acarretamento: a verdade de uma frase exige a de outra
 
-`Ela` retoma `portaria`. Trocar por `o ato` também pode manter o referente:
+`A equipe conseguiu concluir o relatório` exige que a conclusão tenha ocorrido. Essa relação é **acarretamento**. Já `A equipe tentou concluir o relatório` admite tentativa frustrada: não acarreta a conclusão.
 
-- `A portaria foi publicada. O ato entra em vigor amanhã.`
+A relação pode funcionar em apenas uma direção. Quem conseguiu concluir, concluiu; dizer apenas que concluiu não reproduz necessariamente a apresentação do resultado como êxito. Do mesmo modo, `enviou um relatório` acarreta `enviou um documento`, mas não o inverso. **Uma inferência válida em um sentido não prova equivalência nos dois.**
 
-Há correferência textual, embora `portaria` e `ato` não sejam sinônimos absolutos.
+O **contraexemplo** é um cenário em que uma formulação é verdadeira e a outra, falsa: uma equipe que tentou e fracassou refuta a equivalência entre `tentou concluir` e `concluiu`. Se duas afirmações não puderem ser verdadeiras juntas no mesmo cenário, haverá **contradição**: `nenhum compareceu` e `algum compareceu`, considerando o mesmo grupo e ocasião.
 
-### 12.2 Ambiguidade criada
+### Pressuposição: informação tratada como já estabelecida
 
-- `O auditor informou ao gestor a decisão de sua equipe.`
+`O servidor voltou a assinar` apresenta uma nova assinatura e toma como dada uma ocorrência anterior. Essa informação de fundo é uma **pressuposição**. Ela normalmente permanece em `não voltou a assinar` e em `voltou a assinar?`: o que se nega ou pergunta é a retomada, não a assinatura anterior.
 
-`Sua` pode remeter ao auditor ou ao gestor. Uma substituição que introduza esse pronome em lugar de um nome explícito pode reduzir precisão.
+O mesmo mecanismo aparece em `o problema continua`, que apresenta persistência de uma situação anterior, e em `parou de recorrer`, que aponta para uma prática anterior interrompida. `Voltou a` marca repetição ou retomada; não determina sozinho quanto durou o intervalo.
 
-### 12.3 Repetição pode ser precisa
+Em `A diretora lamentou que o prazo tivesse terminado`, o término é normalmente tomado como fato, não apenas como hipótese. Verbos como `lamentar`, nesse uso, são chamados **factivos**, pois apresentam o conteúdo de seu complemento como verdadeiro.
 
-Em técnica normativa, repetir a mesma palavra para a mesma ideia evita falsas diferenças. O Congresso Nacional recomenda evitar sinonímia de finalidade meramente estilística e usar termos diferentes para conceitos diferentes.
+A permanência sob negação ou pergunta é um indício, não um teste infalível: o contexto pode contestar ou suspender o pressuposto. E não confunda pressuposição com acarretamento: **a conclusão em `conseguiu concluir` não permanece em `não conseguiu concluir`**. Na leitura comum, a forma negativa indica justamente que a equipe não alcançou aquele resultado.
 
-Variação lexical não é valor absoluto. Em texto técnico, precisão pode ser mais importante do que evitar repetição.
+### Implicatura: conclusão sugerida, mas cancelável
 
-### 12.4 Expressão referencial e avaliação
+Ao ouvir `alguns relatórios foram publicados`, o leitor costuma entender “não todos”. Essa leitura pode resultar de uma **implicatura**, inferência produzida pelo contexto e pelas expectativas da comunicação. Na leitura lógica inclusiva, `alguns` não exclui a totalidade: é possível dizer `alguns, talvez todos` sem contradição. Já `alguns, mas não todos` exclui expressamente a totalidade.
 
-- `o veículo` retoma um carro de modo neutro;
-- `a lata enferrujada` pode retomar o mesmo carro e acrescentar desprezo.
+**Uma sugestão contextual não deve virar informação obrigatória na paráfrase.**
 
-Identidade de referente não implica identidade de sentido expressivo.
+## 5. Certeza, tempo e fase da ação fazem parte do sentido
 
----
+### Modalidade: possível, permitido, obrigatório ou provável?
 
-### 12.5 Unidades pluriverbais e expressões fixas
+A **modalidade** é a maneira como o enunciado apresenta uma situação quanto à possibilidade, necessidade, obrigação ou certeza. Em `a medida pode reduzir despesas`, `pode` expressa possibilidade; em `o visitante pode entrar, pois recebeu autorização`, expressa permissão. Também pode indicar capacidade: `a equipe pode atender essa demanda`.
 
-Muitas equivalências precisam ser examinadas na expressão inteira:
+`Deve` também depende do contexto: `deve publicar por determinação da norma` expressa obrigação; `deve estar no gabinete, pois a luz está acesa` apresenta uma conclusão provável. Esses usos são chamados, respectivamente, <abbr title="relativo a obrigação, proibição ou permissão">deôntico</abbr> e <abbr title="relativo à possibilidade ou certeza de uma informação">epistêmico</abbr>. A troca entre `pode`, `deve`, `fará` e `talvez faça` exige identificar primeiro o valor realizado, não decorar uma tradução única para cada verbo.
 
-- `levar em conta`;
-- `dar conta de`;
-- `tomar uma decisão`;
-- `prestar contas`;
-- `à luz de`;
-- `em face de`;
-- `ao passo que`;
-- `só que`;
-- `o que significa que`;
-- `por motivo de`.
+Os verbos de relato também orientam o grau de compromisso. `A empresa alegou ter cumprido o contrato` atribui uma versão à empresa; `a empresa demonstrou ter cumprido o contrato` apresenta sustentação para o cumprimento. `Sustentar` uma tese não é necessariamente `prová-la`. `Admitir` costuma acrescentar reconhecimento; `confessar` pode envolver conteúdo desfavorável a quem fala.
 
-A substituição palavra por palavra pode destruir:
+Da mesma forma, dados que `sugerem` uma melhora não a `provam` necessariamente. `Constatar` apresenta resultado de verificação; `indicar` pode apenas apontar um indício. Não há escala rígida para todas as acepções: preserve **quem assume a afirmação e com que força**.
 
-1. o sentido idiomático;
-2. a regência;
-3. a relação lógica;
-4. a colocação lexical;
-5. o registro.
+### Tempo e aspecto: quando ocorre e como o processo é visto
 
-`Dar conta de um problema` pode significar resolvê-lo ou compreendê-lo, conforme o contexto; não equivale automaticamente a `prestar contas do problema`. `Só que` costuma introduzir contraste e pode aproximar-se de `mas`, mas a troca deve preservar pontuação e estrutura.
+**Tempo verbal** situa o acontecimento: `enviou` aponta para o passado; `enviará`, para o futuro. `Envia` pode indicar ação atual, hábito ou afirmação geral, conforme o contexto. **Aspecto** é a perspectiva sobre o desenvolvimento do acontecimento: início, continuidade, repetição, conclusão ou cessação.
 
-## 13. Registro, tecnicidade e alcance
+| Forma | O que a construção destaca |
+| --- | --- |
+| `vem adotando controles` | processo continuado ou reiterado até o ponto de referência |
+| `tem adotado controles` | continuidade ou repetição em período que alcança o presente |
+| `adotou controles` | acontecimento apresentado como realizado |
+| `começou a adotar controles` | início, sem garantir conclusão |
+| `voltou a adotar controles` | repetição ou retomada de ocorrência anterior |
+| `deixou de adotar controles` | cessação de prática ou não realização esperada, conforme o contexto |
 
-Uma troca pode alterar:
+Um evento realizado pode ter efeitos que continuam. E `deixou de enviar o relatório ontem` pode indicar omissão pontual, sem pressupor um hábito de envio. Essas diferenças sobrevivem à proximidade temática.
 
-- formalidade: `falecer` / `bater as botas`;
-- tecnicidade: `intempestivo` / `fora do prazo`;
-- regionalidade: termo nacional / regionalismo;
-- temporalidade: termo atual / arcaísmo;
-- avaliação: `persistente` / `teimoso`;
-- alcance jurídico ou administrativo: `servidor` / `agente público`.
+## 6. Quantidade e alcance: pequenas palavras, grandes diferenças
 
-Termos técnicos próximos não são intercambiáveis por conveniência estilística. `Servidor público` pode designar subconjunto de `agente público`, conforme o recorte jurídico adotado.
+**Quantificadores** indicam quantidade ou abrangência. Em `ao menos 30`, trinta é o mínimo, não necessariamente o total; `no máximo 30` o transforma em teto. A diferença entre mínimo, máximo, quantidade exata e aproximação organiza estas expressões:
 
----
+| Expressão | Valores admitidos na leitura quantitativa |
+| --- | --- |
+| `ao menos 30` / `no mínimo 30` | 30 ou mais |
+| `mais de 30` | acima de 30, sem incluir 30 |
+| `no máximo 30` / `até 30` | 30 ou menos |
+| `exatamente 30` | somente 30 |
+| `cerca de 30` | quantidade aproximada, sem margem fixa determinada pela expressão |
 
-### 13.1 Precisão terminológica em textos públicos
+`Apenas 30` pode ainda sugerir que o número é pequeno para a expectativa; essa avaliação depende do contexto.
 
-Termos administrativos ou jurídicos próximos podem ter extensões diferentes:
+`Quase todos` indica proximidade da totalidade sem alcançá-la. `Praticamente todos` permite uma aproximação contextual, não significa necessariamente “objetivamente todos”. `Principalmente`, `sobretudo` e `especialmente` destacam prioridade ou relevância; `inclusive` acrescenta inclusão.
 
-| Par ou série | Cuidado |
-|---|---|
-| `anular` / `revogar` | vício de legalidade não equivale a juízo de conveniência |
-| `publicidade` / `transparência` | divulgação formal não esgota abertura e inteligibilidade |
-| `eficiência` / `eficácia` / `efetividade` | recursos, alcance de objetivos e efeitos não são o mesmo critério |
-| `cidadão` / `usuário` / `interessado` | os conjuntos podem coincidir apenas parcialmente |
-| `documento` / `processo` / `expediente` | parte, conjunto e fluxo administrativo podem divergir |
-| `sanção` / `penalidade` | a equivalência depende do regime e do uso técnico |
-| `dever` / `competência` / `atribuição` | obrigação, poder jurídico e tarefa não são idênticos |
+### Escopo: sobre o que recai a restrição?
 
-Em questão de Língua Portuguesa, não é necessário desenvolver toda a teoria jurídica. O objetivo é perceber que um termo técnico mais amplo, mais estreito ou pertencente a outro instituto pode alterar o alcance da frase.
+O **escopo** é o alcance de uma expressão: que parte da frase ela nega, restringe ou modifica. Compare:
 
-## 14. Como usar dicionários e vocabulários
+> **Só os auditores** assinaram o relatório.  
+> Os auditores assinaram **só o relatório**.
 
-1. Consulte a acepção compatível com a frase, não apenas a primeira.
-2. Verifique classe, gênero, plural, flexão, regência e exemplos.
-3. Observe marcas como informal, regional, técnico, arcaico ou pejorativo.
-4. Compare a construção completa, não palavras isoladas.
-5. Volte ao texto e confirme referência, lógica e registro.
+Na primeira, excluem-se outras pessoas que assinaram; na segunda, excluem-se outros objetos de assinatura relevantes no contexto. Já `os auditores só assinaram o relatório` pode contrastar assinar com revisar ou o relatório com outros documentos, dependendo do contexto e da ênfase na fala. **A posição é uma pista importante, mas não resolve sempre o escopo sozinha.**
 
-O Vocabulário Ortográfico da Língua Portuguesa ajuda a confirmar existência e grafia de formas. Não substitui dicionário de acepções, gramática ou leitura contextual.
+A negação também tem alcance. Se há dez relatórios e nove foram entregues, `nem todos foram entregues` é verdadeiro, mas `nenhum foi entregue` é falso. `Nem todos` exige ao menos um não entregue; não exige, por si só, que algum tenha sido entregue. `Nenhum` fixa zero entregas.
 
----
+Artigos e flexões podem mudar a abrangência: `todo relatório` tende a significar qualquer relatório; `todo o relatório` pode indicar a totalidade de um documento específico. `Energia` e `energias` podem organizar a referência de modos distintos, como recurso em geral e diferentes fontes ou manifestações. Acertar a concordância não elimina essas diferenças.
 
-### 14.1 Matriz final de substituição
+### Inclusão e expectativa temporal
 
-| Operação | Verificações obrigatórias |
-|---|---|
-| palavra por quase-sinônimo | acepção, intensidade, avaliação, registro e colocação |
-| verbo por verbo | regência, participantes, aspecto e compromisso do enunciador |
-| expressão por advérbio | classe, pontuação, escopo e relação lógica |
-| nome específico por hiperônimo | perda de informação |
-| hiperônimo por nome específico | possível invenção de dado |
-| ativa por passiva | agente, foco, referência e concordância |
-| oração por nominalização | participantes, tempo, determinação e concisão |
-| pronome por nome | antecedente, avaliação e ambiguidade |
-| conector por conector | relação lógica, posição e hierarquia |
-| operador por ausência | escala, pressuposição, implicatura ou foco perdido |
+Em `até os conselheiros concordaram`, `até` inclui os conselheiros e pode apresentá-los como participantes menos esperados. Em `até sexta-feira`, marca limite temporal. O mesmo termo não autoriza a mesma substituição nos dois usos.
 
-Antes de aprovar a troca, responda:
+`O relatório já foi enviado` destaca que o envio ocorreu até o ponto de referência, possivelmente antes do esperado. `O relatório ainda não foi enviado` destaca a permanência da não ocorrência até esse ponto. Sem `já` ou `ainda`, o fato básico ou sua negação podem permanecer, mas a relação com a continuidade e a expectativa se enfraquece. Surpresa ou antecipação não são obrigatórias.
 
-1. As duas formulações podem ser verdadeiras nos mesmos cenários?
-2. Alguma informação passou de hipótese a fato, de possibilidade a obrigação ou de indício a prova?
-3. O referente continua inequívoco?
-4. A construção continua natural e correta?
-5. O comando exige apenas conteúdo básico ou manutenção integral do efeito?
+## 7. Conectores: preserve a relação, não apenas as frases
 
-## 15. Método para itens de substituição
+Um **conector** liga segmentos e orienta a relação entre eles. O mesmo par de acontecimentos pode sustentar relações diferentes:
 
-### Passo 1 — leia exatamente o comando
+> A sessão foi adiada **porque** choveu.  
+> Choveu; **portanto**, a sessão deve ser adiada.  
+> **Se** chover, a sessão será adiada.
 
-Ele exige correção, sentidos, coesão, coerência, registro ou todos esses critérios?
+A primeira apresenta a chuva como causa de um adiamento ocorrido; a segunda formula uma conclusão sobre o que fazer; a terceira estabelece uma condição, sem afirmar que choveu ou que houve adiamento. Trocar `se houver recurso` por `como houve recurso` também converte hipótese em causa apresentada como factual.
 
-### Passo 2 — reconstrua a proposição
+Causa e explicação podem usar palavras semelhantes, mas relacionam coisas diferentes. Em `Adie a sessão, pois chove muito`, a chuva justifica uma ordem; não se está relatando que o adiamento já ocorreu. Na leitura causal, `porque choveu`, `uma vez que choveu` e `em razão da chuva` podem aproximar-se, desde que a nova estrutura conserve a relação e os participantes.
 
-Pergunte:
+### Contraste com estruturas diferentes
 
-- quem fez o quê;
-- a quem ou a quê;
-- em que tempo;
-- com qual certeza, condição, causa ou contraste;
-- sob qual restrição quantitativa.
+`Chovia, mas a sessão ocorreu` e `Embora chovesse, a sessão ocorreu` contrariam a expectativa de que a chuva impediria a sessão. A **concessão** apresenta um obstáculo que não impede o resultado. A troca pode preservar esse sentido, mas altera o <abbr title="forma verbal que expressa a perspectiva sobre o acontecimento">modo verbal</abbr> e a organização: `embora` introduz uma oração dependente da principal; `mas` liga orações coordenadas, sem essa dependência.
 
-### Passo 3 — marque elementos sensíveis
+Mudar a estrutura não impede preservar o sentido contextual. Já `porém` → `portanto` troca contraste por conclusão; `só que` → `mas` pode manter o contraste e alterar a formalidade.
 
-Negativas, quantificadores, modais, conectores, pronomes, advérbios e termos técnicos merecem atenção.
+Também exigem leitura contextual `à medida que`, que acompanha variação proporcional, e `na medida em que`, que pode apresentar causa ou delimitação. `Desde então` localiza uma sequência no tempo; `por isso` apresenta uma consequência ou conclusão. `Como o problema surgiu` pergunta pelo modo ou processo; `por que surgiu`, pela causa.
 
-### Passo 4 — teste a acepção contextual
+Explicitar uma relação não autoriza inventá-la. Em `Ao examinar os dados, encontrou a falha`, há uma relação temporal ou circunstancial; reescrever com `porque` acrescenta causa, e com `para` acrescenta finalidade. O critério é **não impor ao original uma relação que ele não sustenta**; as transformações completas são desenvolvidas em reorganização de orações e períodos.
 
-A palavra substituta realiza aqui o mesmo sentido relevante?
+## 8. A nova palavra precisa de uma construção compatível
 
-### Passo 5 — rode o gate gramatical
+Uma substituição pode conservar o sentido aproximado e falhar na **sintaxe**, isto é, na organização e ligação das palavras. Essa verificação gramatical não deve ser confundida com o julgamento do conteúdo.
 
-Confira classe, flexão, concordância, regência, seleção, pontuação e colocação.
+### Classe, flexão e complementos
 
-### Passo 6 — aplique o teste de retorno
+Em `a análise cuidadosa`, `análise` é substantivo e `cuidadosa` é adjetivo; em `analisar cuidadosamente`, há verbo e **advérbio**, palavra que, nesse uso, indica como se realiza a ação. O sentido pode aproximar-se, mas a passagem exige reorganizar a frase. Uma definição também precisa respeitar a natureza do termo: `correção` pode ser definida como `ato de corrigir`, não simplesmente colada no lugar do verbo `corrigir`.
 
-Troque de volta. O retorno revela perda de agente, intensidade, modalidade, pressuposto ou referente?
+A concordância ajusta as formas relacionadas em número, gênero ou pessoa. `Foram adotadas medidas urgentes` pode tornar-se gramaticalmente `Foi adotada providência urgente`, com todos os ajustes. **Isso não prova equivalência de sentido:** a troca também transforma plural em singular e pode perder informação quantitativa.
 
-### Passo 7 — aplique o teste de contraexemplo
+A **regência** é a relação pela qual uma palavra exige ou admite determinado complemento, com ou sem preposição. Na construção formal `assistiu ao evento`, o verbo pede `a`; em `viu o evento`, não. Trocar só `assistiu` por `viu` produz `viu ao evento`, inadequado nesse uso. O mesmo cuidado vale para `visa ao cargo` e `pretende o cargo`: a preposição pertence ao verbo efetivamente empregado. A <abbr title="modo como o verbo se liga a seus complementos">transitividade</abbr> também pode mudar.
 
-Imagine situação em que uma frase seria verdadeira e a outra, falsa.
+### Participantes, voz e transformação em nome
 
-- `A medida pode funcionar` pode ser verdadeira mesmo que ela não funcione.
-- `A medida funcionará` assume compromisso mais forte.
+Em `A equipe analisou os dados`, a equipe realiza a ação, e os dados são o objeto analisado. Essas funções no acontecimento são os **papéis semânticos**. A versão `Os dados foram analisados pela equipe` mantém os participantes e a ação, mas usa **voz passiva**, apresentando o objeto analisado como sujeito da frase. O ponto de partida da informação muda; não muda quem analisou.
 
-Logo, não há equivalência estrita.
+Já `Os dados foram analisados` omite a identificação da equipe. A omissão só preserva a informação necessária se ela for recuperável ou dispensável para o comando. Inverter para `Os dados analisaram a equipe` troca os papéis, ainda que haja concordância formal. Essa incompatibilidade entre os significados dos participantes e da ação envolve a **seleção semântica**.
 
-### Passo 8 — verifique o escopo
+A passagem do verbo para um nome é **nominalização**: `analisou` → `análise`; o caminho inverso é a **verbalização**. `A análise dos dados pela equipe foi concluída ontem` explicita participantes e tempo que `a análise dos dados`, isoladamente, não informa. Condensar pode apagar essas informações, além de condições ou intensidade.
 
-Quem é restringido por `só`? O que a negativa alcança? Qual oração recebe `portanto`?
+### Combinações e expressões inteiras
 
-### Passo 9 — leia o período no texto
+Uma **colocação lexical** é uma combinação habitual: `tomar uma decisão`, `cometer um erro`, `prestar contas`. Trocar um verbo por outro próximo pode produzir combinação estranha ou ativar outro sentido, como `fabricar uma decisão` em leitura de decisão artificialmente produzida.
 
-Uma substituição local pode romper cadeia referencial ou progressão global.
+Há ainda **unidades pluriverbais**, expressões formadas por mais de uma palavra cujo sentido deve ser examinado em conjunto. `Levou em conta os riscos` pode ser reescrito como `considerou os riscos`; substituir `levou` por `transportou` destrói a expressão. `Deu conta da demanda` pode significar que conseguiu atendê-la, não que prestou contas dela. Expressões como `à luz de`, `em face de` e `o que significa que` também exigem leitura do conjunto; a última pode reformular ou apresentar uma consequência interpretativa, não equivalendo sempre a `ou seja`.
 
----
+A pontuação faz parte dessa compatibilidade. `A conclusão foi esta: a medida falhou` não admite a troca mecânica dos dois-pontos por `que`: é preciso reconstruir `A conclusão foi que a medida falhou`. Uma palavra adequada não corrige, sozinha, o restante do período.
 
-## 16. Quadro de julgamento
+## 9. Precisão e registro: não varie só para evitar repetição
 
-| Original | Substituição | Juízo |
-|---|---|---|
-| `por motivo não justificável` | `injustificadamente` | pode preservar sentido e correção em leitura adverbial contextual |
-| `pode reduzir` | `reduzirá` | muda modalidade |
-| `prazo máximo de 30 dias` | `prazo de 30 dias` | perde a ideia de limite superior |
-| `já enviou` | `enviou` | perde anterioridade destacada |
-| `portaria` | `ato administrativo` | pode perder especificidade |
-| `ratificou` | `retificou` | troca confirmação por correção |
-| `assistiu ao evento` | `viu o evento` | pode preservar conteúdo com mudança de regência |
-| `vem adotando` | `adotou` | muda aspecto |
-| `nem todos` | `nenhum` | muda quantidade |
-| `previu a medida` | `autorizou a medida` | acrescenta permissão não garantida |
+O **registro** é o conjunto de escolhas linguísticas ligado à situação de comunicação, incluindo o grau de formalidade. `Falecer` e `bater as botas` podem apontar para a morte, mas a segunda expressão muda o tom de uma comunicação administrativa. Marcas regionais, antigas ou pejorativas também afetam a troca. Formalidade não equivale a correção nem exige rebuscamento.
 
----
+Na terminologia técnica, a extensão do conceito precisa ser preservada. `Servidor público` pode designar uma categoria mais restrita que `agente público`, conforme o regime considerado. Em um texto que distingue eficiência pelo uso de recursos, eficácia pelo alcance de objetivos e efetividade pelos efeitos produzidos, substituir um termo pelo outro mistura os critérios. Também `publicidade` / `transparência` e `dever` / `competência` exigem respeito à definição do texto.
 
-## 17. Erros recorrentes
+Um exemplo normativo delimitado: no processo administrativo federal, o artigo 53 da Lei 9.784/1999 determina **anular** atos ilegais e permite **revogá-los** por <abbr title="avaliação administrativa do interesse em manter o ato">conveniência ou oportunidade</abbr>, respeitados os <abbr title="direitos que já passaram a pertencer ao titular">direitos adquiridos</abbr>. A proximidade com a ideia genérica de desfazer um ato não torna os verbos sinônimos. O exemplo não transfere o regime federal para textos estaduais.
 
-1. Decidir por uma lista de sinônimos sem ler o texto.
-2. Conferir sentido e esquecer concordância ou regência.
-3. Conferir gramática e ignorar modalidade ou aspecto.
-4. Retirar `já`, `ainda`, `só`, `até`, `quase` ou quantificador.
-5. Trocar causa, conclusão, condição e concessão.
-6. Generalizar ou especificar sem perceber.
-7. Omitir agente ao mudar a voz.
-8. Criar pronome ambíguo.
-9. Confundir parônimos.
-10. Tratar mesma referência como identidade integral de sentido.
-11. Substituir termo técnico por palavra coloquial.
-12. Presumir que frase mais curta é necessariamente equivalente.
+Repetir o termo pode, portanto, ser melhor que variar. O princípio da precisão apresentado pelo Congresso Nacional e pelo *Manual de Redação da Presidência da República* recomenda conservar as mesmas palavras para a mesma ideia, evitando sinonímia apenas estilística. Isso se aplica à precisão técnico-normativa, não é proibição geral de usar sinônimos.
 
----
+Para consultar uma palavra, procure a acepção compatível, a classe, a construção e as marcas de uso do dicionário. O <abbr title="Vocabulário Ortográfico da Língua Portuguesa">VOLP</abbr>, da Academia Brasileira de Letras, ajuda a confirmar a grafia e o registro de formas vocabulares, mas não substitui dicionário de acepções, gramática ou leitura contextual.
 
-## 18. Limites com outros assuntos
+## 10. Como julgar a substituição sem refazer toda a aula
 
-- **Regência (Assunto 013):** aqui se verifica se a troca exige nova preposição; o inventário de regências pertence ao assunto próprio.
-- **Reorganização de orações e períodos (Assunto 017):** aqui a estrutura entra como gate de equivalência; transformações sintáticas amplas serão aprofundadas depois.
-- **Gêneros e níveis de formalidade (Assunto 018):** aqui o registro é um traço a preservar; adequação global ao gênero será tratada no assunto seguinte.
-- **Coesão e referenciação:** aqui se confirma o antecedente necessário à substituição; o sistema completo de mecanismos coesivos pertence ao recorte específico.
+Comece pelo **comando**: ele pede correção gramatical, preservação dos sentidos, da referência, do tom, da <abbr title="ligação entre as partes do texto">coesão</abbr> ou da <abbr title="possibilidade de construir um sentido global compatível com o contexto">coerência</abbr>? A equivalência estrita preserva todas as dimensões relevantes; a preservação contextual pode admitir, por exemplo, mudança de foco que o comando não proíba. Proximidade temática, sozinha, não é equivalência. Escreva mentalmente a frase completa com a troca e compare quem faz o quê, quando, com qual certeza e sob quais restrições.
 
-- CANÇADO, Márcia. *Manual de semântica: noções básicas e exercícios*. Belo Horizonte: Editora UFMG. Relações de sentido, acarretamento, pressuposição e papéis semânticos.
-- ILARI, Rodolfo; GERALDI, João Wanderley. *Semântica*. São Paulo: Ática. Sentido contextual, relações lexicais e inferência.
-- LEVINSON, Stephen C. *Pragmática*. São Paulo: Martins Fontes. Pressuposição, implicatura e interpretação contextual.
-- NEVES, Maria Helena de Moura. *Gramática de usos do português*. São Paulo: Editora UNESP. Operadores, modalidade, aspecto e construção do sentido.
-- KOCH, Ingedore Villaça. *A coesão textual*. São Paulo: Contexto. Referenciação, substituição, encapsulamento e progressão.
+Retome o exemplo inicial, agora com uma expressão quantitativa:
+
+> A medida **pode** reduzir despesas em **até 30%**.
+
+`A medida reduzirá despesas em 30%` passa de possibilidade a previsão assertiva e elimina a marca de limite superior. Mesmo que a porcentagem efetiva venha a ser 30%, essa coincidência num caso não torna as frases equivalentes: a original admite resultados menores. O contraexemplo revela a diferença; a gramática correta da nova frase não a elimina.
+
+Faça o **teste de retorno**: a versão nova permite recuperar as informações relevantes do original, ou só adivinhá-las? Releia o parágrafo para conferir referentes e relações. O teste lógico não basta para avaliar o tom: `veículo` e `lata enferrujada` podem designar o mesmo carro e avaliá-lo diferentemente.
+
+Há trocas efetivamente adequadas. No item 5 do caderno de conhecimentos básicos da prova de Auditor do <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr>, de 2024, o <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> considerou correta a substituição de `por motivo não justificável` por `injustificadamente`, no contexto apresentado. A <abbr title="expressão formada por palavras que funcionam em conjunto">locução</abbr> e o advérbio preservavam as ideias e a correção; não se exigia identidade de quantidade de palavras ou de estrutura.
+
+A conclusão prática é dupla: **não aceite a troca apenas porque parece um sinônimo; não a rejeite apenas porque mudou a forma**. Procure a diferença relevante e confronte-a com o que o comando realmente exige.
