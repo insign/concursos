@@ -223,8 +223,8 @@ Pense no caminho **ambiente → dispositivo → comunicação → processamento 
 | **sensor** | mede ou detecta fenômeno e gera dado |
 | **atuador** | transforma comando em ação física |
 | **conectividade** | transporta telemetria e comandos |
-| <abbr title="Equipamento intermediário que agrega dispositivos ou converte protocolos">**gateway**</abbr> | pode concentrar dispositivos, converter protocolos e filtrar mensagens |
-| <abbr title="Processamento realizado próximo à fonte dos dados">**processamento local/edge**</abbr> | trata dados próximo à fonte quando baixa latência é útil |
+| <abbr title="Equipamento intermediário que agrega dispositivos ou converte protocolos">gateway</abbr> | pode concentrar dispositivos, converter protocolos e filtrar mensagens |
+| <abbr title="Processamento realizado próximo à fonte dos dados">processamento local/edge</abbr> | trata dados próximo à fonte quando baixa latência é útil |
 | **plataforma/nuvem** | integra, armazena, monitora e analisa dados e dispositivos |
 
 **Sensor observa; atuador age.** Um mesmo equipamento pode reunir ambos.
