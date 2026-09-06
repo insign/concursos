@@ -6,95 +6,87 @@ order: 55
 storageId: regimento-instituicao-tcema
 ---
 
-## 1. Recorte e corte temporal
+## 1. A pergunta central: o Tribunal aprecia, julga ou fiscaliza?
 
-O edital do TCE/MA 2026 cobra expressamente o **Regimento Interno do Tribunal de Contas do Estado do Maranhão**. Neste assunto, o foco é a **instituição do Tribunal e suas competências gerais**. Organização interna, sessões, processos, denúncias, provas, prazos, decisões, sanções e recursos são estudados nos assuntos seguintes.
+Uma mesma prestação de contas pode envolver verbos diferentes — e a prova costuma explorar exatamente essa diferença. O <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> pode **apreciar** contas para emitir parecer prévio, **julgar** contas de administradores e responsáveis, **apreciar atos para registro**, **realizar fiscalizações** e **determinar providências**. Cada verbo aponta para um objeto e para um efeito jurídico próprio.
 
-### 1.1. Corte aplicável à prova
+Antes de memorizar listas, use este mapa:
 
-O edital foi publicado em **6 de julho de 2026**. Para este material, interessa o Regimento vigente nessa data.
+- **chefe do Executivo** → o Tribunal aprecia as contas anuais e emite **parecer prévio**;
+- **administrador ou responsável por recursos públicos** → o Tribunal **julga** as contas;
+- **admissão e concessões iniciais de pessoal** → o Tribunal examina a legalidade **para fins de registro**;
+- **gestão e aplicação de recursos públicos** → o Tribunal **fiscaliza**, inclusive por auditorias, inspeções e acompanhamentos;
+- **ilegalidade ou irregularidade detectada** → o Tribunal pode exercer poderes corretivos previstos na Constituição e na lei.
 
-O texto originário do Regimento foi aprovado pela **Resolução Administrativa TCE/MA nº 1/2000** e recebeu alterações posteriores. A **Resolução TCE/MA nº 441/2026**, de 29 de abril de 2026, é exemplo de alteração regimental anterior ao edital e confirma expressamente essa cadeia normativa.
+Esse mapa nasce da Constituição e da Lei Orgânica; o Regimento organiza o funcionamento interno pelo qual essas competências são exercidas.
 
-Assim, uma cópia histórica isolada do Regimento não deve ser tratada como texto consolidado. A leitura deve ser conferida com os atos oficiais de alteração publicados pelo próprio Tribunal.
+## 2. Onde o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> se encaixa
 
-## 2. Fontes normativas do assunto
+O <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> é **órgão constitucional de controle externo**. Ele auxilia o Poder Legislativo, mas auxílio não significa subordinação hierárquica. Também não integra o Poder Judiciário, não é órgão de controle interno do Executivo e não é unidade regional do <abbr title="Tribunal de Contas da União">TCU</abbr>.
 
-A competência do TCE/MA não nasce exclusivamente do Regimento. O Regimento disciplina o funcionamento e o exercício das atribuições dentro de uma moldura superior.
+A competência do Tribunal deve ser lida em uma cadeia normativa:
 
-| Fonte | Papel no estudo |
+| Fonte | O que fornece |
 | --- | --- |
-| Constituição Federal, arts. 70, 71 e 75 | matriz constitucional do controle externo e dos tribunais de contas |
-| Constituição do Estado do Maranhão | disciplina o controle externo estadual e municipal e as competências do TCE/MA |
-| Lei Estadual nº 8.258/2005 | Lei Orgânica do TCE/MA; detalha jurisdição, competências e regime legal |
-| Regimento Interno | organiza o funcionamento e o exercício interno dessas competências |
+| Constituição Federal, arts. 70, 71 e 75 | matriz nacional do controle externo e dos tribunais de contas |
+| Constituição do Estado do Maranhão | competências estaduais e municipais do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> |
+| Lei Estadual nº 8.258/2005 | Lei Orgânica: competência, jurisdição e regime legal do Tribunal |
+| Regimento Interno | funcionamento e exercício interno dessas atribuições |
 
-**Regra de prova:** o Regimento deve ser interpretado em conformidade com a Constituição e a Lei Orgânica. Ele não transforma o Tribunal em órgão do Judiciário nem cria, por si só, competência incompatível com normas superiores.
+O Regimento, portanto, **não cria liberdade para afastar a Constituição ou a lei**. Ele disciplina como a instituição se organiza e exerce competências que já têm fundamento normativo superior.
 
-## 3. Posição institucional do TCE/MA
+## 3. Quem pode estar sujeito ao controle
 
-### 3.1. Órgão de controle externo
+O alcance do controle não depende apenas de a pessoa ser um órgão público. A Constituição estadual e a Lei Orgânica abrangem pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiro, bens ou valores públicos, ou que cause perda, extravio ou irregularidade com dano aos cofres públicos.
 
-O TCE/MA é órgão constitucional de **controle externo**. Não é:
+A ideia decisiva é simples: **o vínculo com recursos públicos pode atrair o dever de prestar contas**.
 
-- órgão do Poder Judiciário;
-- unidade regional do <abbr title="Tribunal de Contas da União">TCU</abbr>;
-- órgão de controle interno do Executivo;
-- departamento hierarquicamente subordinado à Assembleia Legislativa.
+Exemplo hipotético: uma associação privada recebe recursos estaduais por convênio. Ela continua sendo entidade privada, mas a aplicação daquele dinheiro público pode ser fiscalizada e submetida à prestação de contas.
 
-O Tribunal auxilia o Poder Legislativo no controle externo, mas possui competências próprias fixadas na Constituição e na legislação.
+A atuação do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> alcança o Estado e os Municípios maranhenses, nos limites constitucionais e legais.
 
-### 3.2. Âmbito estadual e municipal
+## 4. Competências por mecanismo
 
-A atuação do TCE/MA alcança tanto o Estado quanto os Municípios maranhenses, nos limites constitucionais e legais.
+### 4.1. Contas do chefe do Executivo: apreciar e emitir parecer prévio
 
-O dever de prestar contas pode alcançar pessoa física ou jurídica, pública ou privada, que administre, arrecade, guarde, gerencie ou utilize dinheiro, bens ou valores públicos, bem como quem dê causa a perda, extravio ou irregularidade com dano ao erário.
+Nas contas anuais do Governador e dos Prefeitos, o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> **não profere o julgamento político final**. Ele aprecia as contas e emite **parecer prévio**, isto é, uma manifestação técnica destinada a subsidiar o julgamento pelo Poder Legislativo competente.
 
-O critério decisivo é o **vínculo com recursos públicos**, e não apenas a natureza jurídica do responsável.
+- contas do Governador → julgamento pela Assembleia Legislativa;
+- contas do Prefeito → julgamento pela Câmara Municipal.
 
-## 4. Competências gerais por verbo
+No caso do Prefeito, a Constituição Federal estabelece que o parecer prévio só deixa de prevalecer por decisão de **dois terços dos membros da Câmara Municipal**.
 
-Organizar o estudo por verbos ajuda a não confundir atuações com efeitos jurídicos diferentes.
+### 4.2. Contas de administradores e responsáveis: julgar
 
-### 4.1. Apreciar contas anuais e emitir parecer prévio
+Quando o objeto são as contas de administradores e demais responsáveis por dinheiro, bens e valores públicos, o verbo muda: o Tribunal **julga**.
 
-O TCE/MA **aprecia** as contas prestadas anualmente pelo Governador e pelos Prefeitos e emite **parecer prévio**.
+A disciplina local também atribui ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> o julgamento das contas prestadas anualmente pelos **Presidentes das Câmaras Municipais**.
 
-Parecer prévio não é julgamento final das contas do chefe do Executivo:
+A comparação que deve ficar automática é esta:
 
-- as contas do Governador são julgadas pela Assembleia Legislativa;
-- as contas do Prefeito são julgadas pela Câmara Municipal;
-- no âmbito municipal, o parecer prévio somente deixa de prevalecer por decisão de dois terços dos membros da Câmara, conforme a matriz constitucional.
-
-### 4.2. Julgar contas de administradores e responsáveis
-
-O Tribunal **julga** as contas dos administradores e demais responsáveis por dinheiro, bens e valores públicos, bem como as contas de quem der causa a perda, extravio ou irregularidade de que resulte prejuízo ao erário.
-
-A página oficial de competências do TCE/MA também registra o julgamento das contas prestadas anualmente pelos **Presidentes das Câmaras Municipais**.
-
-A distinção é essencial:
-
-| Objeto | Atuação do TCE/MA |
+| Objeto | Atuação do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> |
 | --- | --- |
-| contas anuais do Governador | parecer prévio |
-| contas anuais do Prefeito | parecer prévio |
-| contas de administradores e responsáveis | julgamento |
-| contas anuais de Presidente de Câmara Municipal | julgamento, conforme a disciplina local |
+| contas anuais do Governador | aprecia e emite parecer prévio |
+| contas anuais do Prefeito | aprecia e emite parecer prévio |
+| contas de administradores e responsáveis | julga |
+| contas anuais do Presidente de Câmara Municipal | julga, conforme a disciplina estadual |
 
-### 4.3. Apreciar atos de pessoal para registro
+### 4.3. Atos de pessoal: apreciar para registro
 
 O Tribunal aprecia, para fins de registro, a legalidade:
 
-- dos atos de admissão de pessoal, ressalvadas as nomeações para cargo em comissão;
+- dos atos de admissão de pessoal, **excetuadas as nomeações para cargo em comissão**;
 - das concessões iniciais de aposentadoria;
 - das reformas;
 - das pensões.
 
-Também vale a ressalva constitucional de que melhorias posteriores que **não alterem o fundamento legal** do ato concessório não exigem novo registro.
+Há outra ressalva constitucional importante: melhorias posteriores que **não alterem o fundamento legal** do ato concessório não exigem novo registro.
 
-### 4.4. Realizar auditorias, inspeções e acompanhamentos
+Aqui, “registro” não significa simples arquivamento administrativo. Trata-se do controle de legalidade previsto constitucionalmente para esses atos.
 
-O TCE/MA pode realizar fiscalizações de natureza:
+### 4.4. Fiscalização: obter evidências e controlar a gestão
+
+O <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> pode realizar, por iniciativa própria ou mediante solicitações previstas no ordenamento, auditorias, inspeções e acompanhamentos de natureza:
 
 - contábil;
 - financeira;
@@ -102,84 +94,79 @@ O TCE/MA pode realizar fiscalizações de natureza:
 - operacional;
 - patrimonial.
 
-Essas atividades podem decorrer de iniciativa própria ou de solicitação institucional prevista na Constituição e na legislação.
+O objetivo é controlar a gestão e a aplicação de recursos públicos. O rito processual dessas fiscalizações pertence aos assuntos posteriores; aqui interessa reconhecer **a competência material**.
 
-O rito, a relatoria e a deliberação dessas fiscalizações ficam para os assuntos posteriores do Regimento.
+### 4.5. Transferências, receitas e recursos repassados
 
-### 4.5. Fiscalizar recursos, transferências e receitas
+O controle alcança recursos públicos transferidos mediante convênio, acordo, ajuste ou instrumento congênere. Também pode alcançar subvenções, auxílios, contribuições, receitas e repartições de recursos, conforme a Constituição e a legislação aplicável.
 
-O controle alcança a aplicação de recursos públicos transferidos por instrumentos como:
+Isso explica por que uma entidade privada pode ser fiscalizada quanto ao uso de dinheiro público sem se tornar, por esse motivo, parte da Administração Pública.
 
-- convênio;
-- acordo;
-- ajuste;
-- instrumentos congêneres;
-- subvenções;
-- auxílios;
-- contribuições.
+### 4.6. Responsabilidade fiscal e outras matérias atribuídas por lei
 
-Também alcança receitas e repartições de recursos, inclusive aspectos relacionados a quotas-partes municipais, conforme as competências institucionais divulgadas pelo Tribunal.
-
-Uma entidade privada que recebe e administra recursos públicos não se transforma, por isso, em órgão público; porém fica sujeita à prestação de contas quanto aos recursos recebidos.
-
-### 4.6. Fiscalizar responsabilidade fiscal e outras matérias legais
-
-A página oficial de competências do TCE/MA relaciona, entre os objetos de fiscalização, matérias como:
+A Lei Orgânica e a página institucional de competências do Tribunal incluem, entre outros objetos de controle:
 
 - cumprimento da Lei de Responsabilidade Fiscal;
 - renúncia de receitas;
 - declarações de bens e rendas;
+- processos de desestatização;
 - parcerias público-privadas;
-- desestatizações;
-- outras matérias atribuídas por lei ao controle externo.
+- outras matérias que a lei submeta ao controle externo.
 
-Neste assunto, basta reconhecer a **competência**. Infrações, cautelares, sanções e procedimentos específicos pertencem a recortes posteriores.
+Neste capítulo, o objetivo é reconhecer que essas matérias **podem estar sob fiscalização do Tribunal**. Infrações, sanções e procedimentos específicos possuem recortes próprios.
 
-### 4.7. Prestar informações e divulgar resultados
+### 4.7. Informar e dar transparência aos resultados
 
-O Tribunal presta informações ao Poder Legislativo sobre fiscalizações e sobre resultados de auditorias e inspeções, nos casos previstos.
+O <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> presta informações solicitadas pelo Poder Legislativo sobre fiscalizações e resultados de auditorias e inspeções, nos casos previstos. Também divulga informações sobre resultados de atividades de controle, observados os limites legais de publicidade e sigilo.
 
-Também divulga resultados de atividades de controle, observados os limites legais de publicidade e sigilo.
+### 4.8. Corrigir, sustar, cautelar e representar
 
-### 4.8. Determinar providências, representar e exercer poderes de controle
+Quando identifica ilegalidade ou risco relevante, o Tribunal dispõe de instrumentos próprios de controle. Entre as competências previstas na Lei Orgânica estão:
 
-O rol institucional de competências não se resume a apreciar, julgar e fiscalizar. Dentro dos limites constitucionais e legais, o TCE/MA também pode, entre outras atribuições:
+- assinar prazo para adoção de providências necessárias ao exato cumprimento da lei;
+- sustar a execução de ato impugnado quando não atendida a determinação, com a comunicação institucional cabível;
+- expedir medidas cautelares para prevenir lesão aos cofres públicos ou a direito alheio e preservar a efetividade de suas decisões;
+- representar ao poder competente sobre irregularidades ou abusos apurados.
 
-- fixar prazo para que o órgão ou entidade adote providências necessárias ao cumprimento da lei;
-- determinar medidas corretivas e acompanhar seu atendimento;
-- sustar atos nos casos previstos pelo ordenamento;
-- adotar medidas cautelares quando presentes os pressupostos legais;
-- representar ao poder competente sobre irregularidades ou abusos apurados;
-- apreciar denúncias, representações e consultas nas hipóteses regimentais;
-- apreciar a constitucionalidade de normas e atos nos limites reconhecidos ao controle externo.
+Esses poderes não devem ser confundidos com o procedimento concreto de cada processo. Quem delibera internamente, em que momento, com qual rito e por qual recurso são questões estudadas nos assuntos seguintes.
 
-**Atenção:** aqui importa reconhecer que essas competências existem. Quem decide internamente, qual o rito, os prazos e os efeitos processuais são temas dos assuntos 056 a 063.
+### 4.9. Denúncias, representações, consultas e normatização interna
 
-### 4.9. Elaborar o Regimento e organizar os próprios serviços
+A Lei Orgânica também atribui ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> competência para decidir denúncias, representações e consultas nas hipóteses legais e regimentais.
 
-O Tribunal possui autonomia para organizar seus serviços e disciplinar seu funcionamento interno, inclusive mediante elaboração e alteração de seu Regimento, observados a Constituição e a lei.
+O Tribunal pode ainda **elaborar e alterar o próprio Regimento Interno**, expressão de sua autonomia de organização e funcionamento. Essa autonomia é interna: não equivale a poder legislativo geral e continua limitada pela Constituição e pela lei.
 
-A autonomia interna não equivale a poder legislativo geral nem autoriza o Tribunal a afastar normas superiores.
+## 5. Matriz de reconhecimento rápido
 
-## 5. Matriz de prova
+Depois de compreender os mecanismos, use a tabela apenas para recuperação:
 
 | Verbo | Objeto típico | Resultado ou finalidade |
 | --- | --- | --- |
 | apreciar | contas anuais do chefe do Executivo | parecer prévio |
 | julgar | contas de administradores e responsáveis | decisão de contas |
 | apreciar para registro | admissões e concessões iniciais | controle de legalidade para registro |
-| fiscalizar | gestão, receitas, despesas, patrimônio, transferências | controle externo |
+| fiscalizar | gestão, receitas, despesas, patrimônio e transferências | controle externo |
 | realizar | auditorias, inspeções e acompanhamentos | obtenção e avaliação de evidências |
-| informar | solicitações do Legislativo e resultados de fiscalização | informação institucional |
-| determinar | correção de ilegalidade ou cumprimento da lei | providência corretiva |
+| informar | solicitações legislativas e resultados de fiscalização | informação institucional |
+| determinar | ilegalidade ou descumprimento da lei | providência corretiva |
 | representar | irregularidade ou abuso | comunicação ao poder competente |
 | normatizar internamente | funcionamento do próprio Tribunal | Regimento e atos internos |
 
-## 6. Fronteira com os assuntos seguintes
+## 6. Corte temporal da prova
+
+O Edital nº 1 do concurso foi publicado em **6 de julho de 2026** e determina que alterações legislativas com entrada em vigor até a data de publicação podem ser avaliadas mesmo que não estejam expressamente repetidas nos objetos de avaliação.
+
+O Regimento Interno foi originalmente aprovado pela **Resolução Administrativa nº 1, de 21 de janeiro de 2000**, e sofreu alterações posteriores. A **Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 441/2026**, de 29 de abril de 2026, publicada em 30 de abril, afirma expressamente que altera o Regimento aprovado pela Resolução Administrativa nº 1/2000 “inclusive com as alterações posteriores”.
+
+Para a prova, portanto, **não use uma cópia histórica isolada como se fosse o texto vigente**. O corte material deste capítulo é a legislação em vigor em 6 de julho de 2026.
+
+## 7. Fronteira com os assuntos seguintes
+
+Este capítulo responde principalmente **“o que o Tribunal pode fazer?”**. Os seguintes aprofundam **“por qual órgão, rito, prazo, decisão ou recurso?”**:
 
 | Tema | Assunto |
 | --- | --- |
-| órgãos, autoridades, Pleno, Câmaras, Presidência, Corregedoria | 056 |
+| órgãos, autoridades e organização interna | 056 |
 | sessões, distribuição e deliberação | 057 |
 | processos de controle externo | 058 |
 | denúncias, representações e consultas | 059 |
@@ -188,17 +175,16 @@ A autonomia interna não equivale a poder legislativo geral nem autoriza o Tribu
 | recursos e revisão | 062 |
 | atos normativos, ética e regras finais | 063 |
 
-Pergunta sobre **o que o Tribunal pode fazer** tende a ser de competência. Pergunta sobre **como, quando, em qual órgão interno ou por qual recurso** a atuação ocorre tende aos recortes seguintes.
+A remissão limita o aprofundamento, mas não muda o núcleo aprendido aqui: **competência é o poder jurídico de atuar sobre determinado objeto; procedimento é o caminho pelo qual essa atuação se concretiza**.
 
-## 7. Pegadinhas
+## 8. Pegadinhas que valem contraste
 
-- **Auxílio ≠ subordinação:** o TCE/MA auxilia o Legislativo, mas possui competências próprias.
-- **Tribunal de Contas ≠ Poder Judiciário:** julgar contas não é exercer jurisdição judicial.
-- **Parecer prévio ≠ julgamento final:** Governador e Prefeito recebem parecer prévio do Tribunal.
-- **Gestor ≠ chefe do Executivo:** contas de administradores e responsáveis são julgadas pelo TCE/MA.
-- **Estado ≠ único alcance:** o controle também abrange Municípios maranhenses.
-- **Pessoa privada ≠ imunidade ao controle:** quem administra recursos públicos pode ter dever de prestar contas.
-- **Cargo em comissão:** a nomeação é ressalvada do registro de admissão.
-- **Melhoria de benefício:** sem alteração do fundamento legal, não há novo registro.
-- **Competência ≠ procedimento:** conhecer o poder de agir não significa conhecer o rito processual.
-- **Texto originário ≠ texto vigente:** alterações regimentais posteriores devem ser consideradas até o corte do edital.
+- **Auxílio não é subordinação:** o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> auxilia o Legislativo, mas exerce competências próprias.
+- **Tribunal de Contas não é Poder Judiciário:** julgar contas não equivale a exercer jurisdição judicial.
+- **Parecer prévio não é julgamento final:** vale para as contas anuais do Governador e dos Prefeitos.
+- **Gestor não é chefe do Executivo:** contas de administradores e responsáveis são julgadas pelo Tribunal.
+- **Estado não é o único alcance:** o controle também abrange Municípios maranhenses.
+- **Pessoa privada não é imune ao controle:** o vínculo com recursos públicos pode gerar dever de prestar contas.
+- **Cargo em comissão é exceção ao registro de admissão:** a nomeação não entra nesse controle de legalidade para registro.
+- **Melhoria sem novo fundamento legal não exige novo registro.**
+- **Competência não é procedimento:** saber que o Tribunal pode agir não revela, sozinho, o rito interno.
