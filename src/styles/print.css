@@ -49,38 +49,41 @@
   }
 
   /* Siglas e microglossário no impresso/PDF: etiqueta compacta abaixo do
-     termo com seta apontando para cima (estilo leitor Kindle). O container
-     inline-flex mantém o termo na linha de base da frase; seta e etiqueta
-     ficam no fluxo, reservando o espaço vertical real e evitando sobrepor a
-     linha seguinte. A seta usa bordas (não fundo), imprimindo mesmo com
-     "gráficos de fundo" desligado. Cobre o artigo e o bundle (que vive fora
-     de .reading-surface), com e sem JavaScript: o runtime preserva o title
-     em data-abbreviation-title antes de removê-lo. */
+     termo com seta apontando para cima (estilo leitor Kindle). Seta e
+     etiqueta são absolutamente posicionadas e NÃO participam do fluxo: a
+     largura do termo nunca é contaminada pela largura da etiqueta (sem
+     espaços fantasmas ao redor de siglas curtas). O espaço vertical é
+     reservado via padding-bottom fixo (--abbr-reserve) para seta (5pt) +
+     etiqueta de até 2 linhas (21pt = 17.5 texto + 2 padding + 1.5 bordas).
+     Cobre o artigo e o bundle (que vive fora de .reading-surface),
+     com e sem JavaScript: o runtime preserva o title em
+     data-abbreviation-title antes de removê-lo. */
   .reading-surface article abbr[title]:not([title=""]),
   .reading-surface article abbr[data-abbreviation-title]:not([data-abbreviation-title=""]),
   .print-bundle-section abbr[title]:not([title=""]),
   .print-bundle-section abbr[data-abbreviation-title]:not([data-abbreviation-title=""]) {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    vertical-align: baseline;
+    position: relative;
+    display: inline-block;
+    --abbr-reserve: 26pt;
+    padding-bottom: var(--abbr-reserve);
     text-decoration: none;
     cursor: inherit;
     break-inside: avoid;
     page-break-inside: avoid;
   }
 
-  /* Seta apontando para cima, entre o termo e a etiqueta. */
+  /* Seta apontando para cima, no topo da área reservada. */
   .reading-surface article abbr[title]:not([title=""])::before,
   .reading-surface article abbr[data-abbreviation-title]:not([data-abbreviation-title=""])::before,
   .print-bundle-section abbr[title]:not([title=""])::before,
   .print-bundle-section abbr[data-abbreviation-title]:not([data-abbreviation-title=""])::before {
     content: "";
-    order: 1;
-    display: block;
+    position: absolute;
+    top: calc(100% - var(--abbr-reserve));
+    left: 50%;
+    transform: translateX(-50%);
     width: 0;
     height: 0;
-    margin-top: 1pt;
     border-left: 2.5pt solid transparent;
     border-right: 2.5pt solid transparent;
     border-bottom: 3pt solid #000;
@@ -104,9 +107,13 @@
   .reading-surface article abbr[data-abbreviation-title]:not([data-abbreviation-title=""])::after,
   .print-bundle-section abbr[title]:not([title=""])::after,
   .print-bundle-section abbr[data-abbreviation-title]:not([data-abbreviation-title=""])::after {
-    order: 2;
-    display: block;
-    margin-top: 1pt;
+    position: absolute;
+    top: calc(100% - var(--abbr-reserve) + 5pt);
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    max-width: 60mm;
+    margin: 0;
     padding: 1pt 3pt;
     border: 0.75pt solid #000;
     border-radius: 2pt;
@@ -116,18 +123,9 @@
     font-weight: 500;
     line-height: 1.25;
     text-align: center;
-    max-width: 32mm;
     overflow-wrap: anywhere;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
-  }
-
-  /* Em células de tabela, a etiqueta respeita a largura da coluna. */
-  .reading-surface article :is(th, td) abbr[title]:not([title=""])::after,
-  .reading-surface article :is(th, td) abbr[data-abbreviation-title]:not([data-abbreviation-title=""])::after,
-  .print-bundle-section :is(th, td) abbr[title]:not([title=""])::after,
-  .print-bundle-section :is(th, td) abbr[data-abbreviation-title]:not([data-abbreviation-title=""])::after {
-    max-width: 100%;
   }
 
   /* Referências nunca saem no impresso/PDF: bloco oculto na tela de
