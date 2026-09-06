@@ -6,461 +6,232 @@ order: 20
 storageId: windows-arquivos-pastas
 ---
 
-## 1. Como estudar Windows quando o edital não indica versão
+## 1. O documento, o programa e o sistema
 
-O edital cobra Microsoft Windows sem indicar edição ou atualização. Este assunto usa o **Windows 11** como referência de interface e preserva os comportamentos básicos compartilhados com o Windows 10. Quando uma função depende de versão, configuração, unidade, sistema de arquivos ou política administrativa, essa condição é indicada.
+Fechar o Word apaga o relatório? Excluir seu ícone desinstala o programa? Para responder, separe **o que contém os dados, o que trabalha com eles e o que coordena o computador**.
 
-Em julho de 2026, a Microsoft mantém diferentes versões do Windows 11. Para prova, não é produtivo decorar números de compilação; é importante reconhecer o alcance de cada referência:
+Um **arquivo** é um conjunto de dados armazenado e identificado por um nome. O relatório é um arquivo; o Word é um **aplicativo**, programa que cria e edita documentos. O **Windows é o sistema operacional**: administra processador, memória, armazenamento, dispositivos e acesso dos usuários, permitindo que os programas funcionem. Programas também são armazenados em arquivos, mas não se confundem com os documentos produzidos.
 
-| Referência | Como interpretar |
+Durante a edição, o aplicativo mantém dados de trabalho na memória. **Salvar** registra alterações no armazenamento; fechar uma janela não significa salvar nem excluir o arquivo. Conforme seus recursos e configurações, o programa pode perguntar o que fazer com alterações não salvas.
+
+Uma **pasta**, também chamada diretório, organiza arquivos e outras pastas. Já um **atalho** é uma referência para chegar a um destino: não contém uma cópia integral do documento ou do aplicativo apontado. Excluir o atalho não exclui esse destino.
+
+**Cenário hipotético:** Ana organiza um relatório, guarda uma versão em outra pasta e leva uma cópia em um dispositivo removível. Acompanhe o que muda em cada operação.
+
+## 2. A tela organiza janelas, não o conteúdo dos arquivos
+
+A **interface** reúne os elementos de interação com o sistema: janelas, menus, botões e ícones. A **área de trabalho** é sua superfície principal e pode exibir arquivos, pastas e atalhos. Nem todo ícone representa um atalho.
+
+O **menu Iniciar** dá acesso a aplicativos, pesquisa, conta e opções de energia. Abre pela tecla com o logotipo do Windows, indicada aqui por `Win`, ou por `Ctrl + Esc`. Sua organização varia: o modelo de blocos dinâmicos do Windows 10 não deve ser atribuído ao Windows 11.
+
+A **barra de tarefas** abre aplicativos fixados e alterna entre janelas, que podem aparecer agrupadas por aplicativo. **Fixado não significa em execução:** significa acesso mantido na barra. `Win + 1` abre ou alterna para o aplicativo na primeira posição correspondente. O botão direito pode mostrar documentos recentes e tarefas frequentes: são as **listas de atalhos**, ou <abbr title="Listas de documentos recentes e tarefas de um aplicativo">jump lists</abbr>.
+
+Na região de notificações ficam indicadores como rede, som e relógio. No Windows 11, `Win + A` abre Configurações Rápidas; `Win + N`, notificações e calendário. `Win + I` abre o aplicativo Configurações, usado para ajustar o sistema, não para organizar diretamente as pastas.
+
+### 2.1 Janela visível não é sinônimo de programa em execução
+
+Um **processo** é uma execução de um programa, mantida pelo sistema. Pode consumir recursos sem janela visível, trabalhando em segundo plano. Por isso, minimizar não encerra o programa, e fechar uma janela nem sempre encerra todos os processos associados a ele.
+
+| Ação sobre a janela | Efeito |
 |---|---|
-| **24H2** | versão ainda suportada e base de muitos ambientes existentes |
-| **25H2** | atualização ampla para computadores elegíveis e referência corrente para dispositivos existentes |
-| **26H1** | versão destinada a determinados dispositivos novos de 2026; não é oferecida como atualização local de 24H2 ou 25H2 |
-| **Windows 10** | aplicar quando o enunciado o mencionar ou quando o comportamento for transversal |
-| **versão expressa na questão** | sempre prevalece sobre a referência geral do material |
+| Minimizar | Retira a janela da área visível sem encerrar sua execução. |
+| Maximizar | Amplia a janela para a área de trabalho disponível. |
+| Restaurar | Retorna do estado maximizado ao tamanho anterior. |
+| Fechar | Fecha aquela janela; pode haver aviso sobre alterações não salvas. |
 
-Essa cautela evita três falhas comuns:
+`Alt + F4` fecha a janela ativa. Quando a área de trabalho está ativa, pode abrir a caixa de desligamento. `Win + D` mostra ou oculta a área de trabalho, sem encerrar as janelas. **Restaurar uma janela**, portanto, não é recuperar um arquivo apagado.
 
-- tratar aparência personalizável como regra absoluta;
-- transportar para o Windows 11 elemento visual específico do Windows 10;
-- presumir que toda versão mais nova é atualização geral para qualquer computador existente.
+### 2.2 Trabalhar com várias janelas
 
-O suporte gratuito regular do Windows 10 terminou em 14 de outubro de 2025, mas isso não tornou incorretos seus conceitos fundamentais de arquivo, pasta, janela, cópia, movimentação ou atalho.
+Ana pode comparar o relatório com uma planilha sem fechar nenhum dos dois. `Alt + Tab` alterna entre janelas; `Win + Tab` abre a Visão de Tarefas. O **encaixe de janelas** distribui janelas pela tela: `Win + ←/→` permite posicioná-las lateralmente, e `Win + ↑/↓` atua sobre maximização, restauração ou minimização conforme o estado atual. No Windows 11, `Win + Z` mostra os arranjos de encaixe, chamados <abbr title="Arranjos predefinidos para distribuir janelas pela tela">Snap Layouts</abbr>.
 
----
+As **áreas de trabalho virtuais** separam conjuntos de janelas dentro da mesma sessão de usuário; não criam computadores, contas ou cópias de arquivos. `Win + Ctrl + D` cria outra área, `Win + Ctrl + ←/→` alterna entre elas e `Win + Ctrl + F4` fecha a atual. Ao fechá-la, suas janelas são transferidas para outra área disponível, não apagadas.
 
-## 2. Sistema operacional: conceito e funções
+## 3. O Explorador mostra onde os arquivos estão
 
-O **sistema operacional** é o software básico que coordena o uso do computador e oferece serviços aos aplicativos e ao usuário. Ele faz a mediação entre programas, dados e recursos físicos.
+O **Explorador de Arquivos**, aberto por `Win + E`, navega por locais de armazenamento e opera sobre arquivos e pastas. Não é o sistema operacional inteiro nem o aplicativo usado para editar o relatório.
 
-Entre suas funções estão:
+O painel de navegação dá acesso aos locais disponíveis; a área principal mostra o conteúdo do local aberto. A **barra de endereços** mostra ou recebe seu caminho; a **caixa de pesquisa** procura itens no local selecionado. Digitar um caminho não é pesquisar um nome.
 
-- oferecer interface gráfica e mecanismos de interação;
-- executar e coordenar programas e processos;
-- administrar processador, memória e dispositivos;
-- organizar unidades, pastas e arquivos;
-- controlar contas, permissões e recursos de segurança;
-- fornecer serviços comuns para que cada aplicativo não precise controlar diretamente o hardware.
+A página inicial pode ser **Início** ou **Este Computador**, conforme a configuração. **Início** reúne acessos e itens recentes; sua apresentação varia com uso, conta e privacidade. Fixar uma pasta no **Acesso Rápido** mantém uma referência: não a move nem a duplica. Desafixar não a apaga.
 
-Não confunda:
+No Windows 11, o menu aberto com o botão direito apresenta comandos frequentes; **Mostrar mais opções** dá acesso ao menu clássico quando necessário. Nomes, ícones e posição dos comandos podem variar entre atualizações.
 
-| Elemento | Papel |
+### 3.1 Janela, aba e pasta são objetos diferentes
+
+Uma janela mostra uma pasta, mas não a contém no armazenamento. Nas versões do Windows 11 com abas, cada aba pode mostrar um local diferente. Fechar a visualização não exclui os itens.
+
+| Ação no Explorador | Atalho |
 |---|---|
-| **Microsoft Windows** | sistema operacional |
-| **Explorador de Arquivos** | aplicativo do Windows para navegar e gerenciar arquivos e pastas |
-| **aplicativo ou programa** | software executado para realizar uma tarefa |
-| **arquivo** | unidade de informação identificada por nome e caminho |
-| **pasta ou diretório** | contêiner hierárquico de arquivos e subpastas |
-| **atalho** | referência que aponta para outro item; não é cópia do original |
+| Abrir outra janela | `Ctrl + N` |
+| Abrir nova aba, quando disponível | `Ctrl + T` |
+| Alternar para a aba seguinte ou anterior | `Ctrl + Tab` / `Ctrl + Shift + Tab` |
+| Fechar a aba ativa; se for a única, fechar a janela | `Ctrl + W` |
+| Selecionar a barra de endereços | `Alt + D` ou `Ctrl + L` |
+| Voltar ou avançar no histórico de navegação | `Alt + ←` / `Alt + →` |
+| Subir para a pasta que contém a atual | `Alt + ↑` |
+| Atualizar a exibição | `F5` |
 
-Apagar um atalho não apaga automaticamente o arquivo ou programa de destino. Fixar um aplicativo no menu Iniciar ou na barra de tarefas apenas cria um acesso conveniente: não instala nem duplica o aplicativo.
+Voltar acompanha o histórico; subir acompanha a hierarquia. Podem levar a locais diferentes.
 
----
+## 4. Endereço, nome e formato do arquivo
 
-## 3. Interface do Windows 11
+### 4.1 Leia o caminho como uma sequência de locais
 
-### 3.1 Área de trabalho
+Um **volume** é uma unidade lógica de armazenamento: o sistema pode tratar partes de um mesmo disco como unidades separadas. Pode receber uma letra, como `C:` ou `E:`; letras diferentes não significam necessariamente discos físicos diferentes. A **raiz** é o primeiro nível dessa hierarquia. O **sistema de arquivos** organiza os dados e os recursos disponíveis no volume.
 
-A **área de trabalho** é a superfície gráfica principal. Pode exibir papel de parede, arquivos, pastas, aplicativos, atalhos e ícones do sistema. Seu conteúdo varia conforme perfil, personalização e políticas do computador.
-
-`Win + D` exibe ou oculta a área de trabalho. As janelas continuam abertas.
-
-### 3.2 Menu Iniciar
-
-O menu Iniciar fornece acesso a pesquisa, aplicativos, arquivos, configurações, conta e opções de energia. No Windows 11 atual, pode incluir:
-
-- pesquisa;
-- itens fixados;
-- lista de todos os aplicativos;
-- recomendações de itens recentes;
-- controles de conta;
-- comandos de bloquear, suspender, reiniciar ou desligar.
-
-No Windows 10, o menu Iniciar tradicional possuía lista de aplicativos e blocos, inclusive blocos dinâmicos. Essa organização não deve ser atribuída automaticamente ao Windows 11.
-
-### 3.3 Barra de tarefas e área de notificação
-
-A **barra de tarefas** permite iniciar aplicativos, alternar entre janelas e identificar programas em execução. Um aplicativo fixado não está necessariamente aberto. Indicadores visuais distinguem execução e janela ativa.
-
-Uma **Lista de Atalhos** (*Jump List*), quando disponível, pode aparecer no menu de contexto do ícone de um aplicativo e oferecer arquivos recentes ou ações frequentes.
-
-A **área de notificação** contém relógio, ícones de recursos, aplicativos em segundo plano e indicadores de privacidade. No Windows 11:
-
-- `Win + A` abre as **Configurações Rápidas**, como rede, volume, bateria e brilho;
-- `Win + N` abre notificações e calendário.
-
-### 3.4 Janelas
-
-| Controle | Efeito |
-|---|---|
-| minimizar | retira a janela da área visível e a mantém aberta |
-| maximizar | amplia a janela para a área disponível |
-| restaurar | retorna ao tamanho anterior |
-| fechar | fecha a janela ativa |
-
-Minimizar não encerra o programa. Fechar a última janela geralmente encerra o aplicativo visível, mas alguns programas podem manter processos em segundo plano; por isso, “fechar janela” e “eliminar todo processo” não são sinônimos absolutos.
-
----
-
-## 4. Multitarefa e áreas de trabalho virtuais
-
-| Recurso | Função |
-|---|---|
-| `Alt + Tab` | alterna entre janelas abertas |
-| `Win + Tab` | abre a Visão de Tarefas |
-| `Win + ←` ou `Win + →` | encaixa a janela ativa em uma lateral |
-| `Win + Z` | abre layouts de encaixe no Windows 11 |
-| `Win + Ctrl + D` | cria outra área de trabalho |
-| `Win + Ctrl + ←` ou `Win + Ctrl + →` | alterna entre áreas de trabalho |
-| `Win + Ctrl + F4` | fecha a área de trabalho atual |
-
-Áreas de trabalho virtuais organizam janelas dentro da mesma sessão. Fechar uma área virtual não equivale a sair da conta nem, por padrão, a encerrar todas as janelas: elas são transferidas para outra área disponível.
-
----
-
-## 5. Explorador de Arquivos
-
-O **Explorador de Arquivos** permite localizar, abrir, organizar e gerenciar arquivos e pastas no computador e, quando configurado, na nuvem. Pode ser aberto pelo menu Iniciar, pela barra de tarefas ou com `Win + E`.
-
-### 5.1 Elementos da janela
-
-| Elemento | Função |
-|---|---|
-| painel de navegação | apresenta pastas, unidades e locais hierárquicos |
-| barra de endereços | mostra ou recebe o caminho do local atual |
-| caixa de pesquisa | localiza itens no escopo atual |
-| painel de conteúdo | lista os itens do local selecionado |
-| barra de comandos e menu de contexto | oferecem operações sobre os itens |
-| painel de visualização | mostra prévia compatível do item |
-| painel de detalhes | exibe propriedades e metadados |
-| barra de status | informa seleção e oferece controles de apresentação |
-
-No Windows 11, o Explorador abre por padrão em **Início** (*Home*), mas pode ser configurado para abrir em **Este Computador**. Fixar uma pasta no acesso rápido cria referência de navegação; não move nem duplica a pasta.
-
-### 5.2 Menu de contexto
-
-O Windows 11 apresenta menu de contexto simplificado. Comandos como recortar, copiar, colar, renomear, compartilhar e excluir aparecem diretamente. **Mostrar mais opções** abre comandos do menu clássico e extensões compatíveis.
-
-A aparência pode mudar com atualizações e aplicativos instalados. A função do comando importa mais que sua posição visual exata.
-
-### 5.3 Abas
-
-Uma janela do Explorador pode manter várias abas, cada uma exibindo pasta, unidade ou local diferente.
-
-- mudar de aba altera o local apresentado, não move os arquivos;
-- fechar uma aba não exclui a pasta exibida;
-- `Ctrl + T` abre nova aba;
-- `Ctrl + W` fecha a aba ativa e fecha a janela quando resta apenas uma aba;
-- `Ctrl + Tab` avança entre abas;
-- `Ctrl + Shift + Tab` retorna à aba anterior.
-
-Não confunda aba, janela e pasta. A aba é apenas uma forma de visualizar um local.
-
----
-
-## 6. Unidades, caminhos, nomes e propriedades
-
-### 6.1 Estrutura hierárquica
-
-Considere:
+No exemplo hipotético, o relatório de Ana está em:
 
 ```text
 C:\Users\Ana\Documents\relatorio.docx
 ```
 
-- `C:` identifica unidade ou volume lógico;
-- `C:\` representa a raiz dessa unidade;
-- `Users`, `Ana` e `Documents` são pastas sucessivas;
-- `relatorio.docx` é o arquivo;
-- a barra invertida separa os níveis.
+`C:\` é a raiz do volume; `Users`, `Ana` e `Documents` são pastas; `relatorio.docx`, o arquivo. A barra invertida separa os níveis. Na organização usual, `C:\Users` reúne pastas de **perfis**, que guardam configurações e pastas pessoais: `Ana` identifica o perfil, não a última subpasta. Nomes traduzidos e <abbr title="Pastas cujo local de armazenamento foi alterado">pastas redirecionadas</abbr> podem diferir desse caminho.
 
-O **caminho** identifica a localização. Arquivos com o mesmo nome podem coexistir em pastas diferentes porque possuem caminhos distintos.
+Dois arquivos `relatorio.docx` podem existir em pastas diferentes: **o caminho completo distingue os locais**. Na mesma pasta, o Windows normalmente não diferencia nomes apenas por maiúsculas e minúsculas: `Relatorio.docx` e `relatorio.docx` entram em conflito. Configurações especiais podem mudar essa regra.
 
-### 6.2 Nome e extensão
+### 4.2 A extensão orienta a abertura; não transforma os dados
 
-A extensão é a parte final do nome, geralmente após o último ponto, como `.pdf`, `.docx`, `.xlsx` ou `.jpg`. Ela ajuda o Windows a reconhecer o tipo e escolher aplicativo associado.
+Em `relatorio.docx`, a parte final `.docx` é a **extensão**. Ela ajuda o sistema a associar o tipo de arquivo a um aplicativo e a um ícone. O **formato**, por sua vez, é a organização interna dos dados. Um mesmo formato pode ser aberto por mais de um programa compatível.
 
-Pontos de prova:
-
-- extensões de tipos conhecidos podem estar ocultas;
-- no Windows 11, podem ser exibidas em **Exibir > Mostrar > Extensões de nome de arquivo**;
-- alterar apenas `.txt` para `.pdf` não converte o conteúdo interno;
-- extensão e ícone não garantem legitimidade ou segurança;
-- a associação entre extensão e aplicativo padrão pode ser alterada.
-
-### 6.3 Regras de nomenclatura
-
-Na interface comum do Windows:
-
-- não use `<`, `>`, `:`, `"`, `/`, barra invertida, `?`, `*` nem barra vertical (`|`) em nomes comuns;
-- não use os nomes reservados `CON`, `PRN`, `AUX`, `NUL`, `COM1` a `COM9` e `LPT1` a `LPT9`;
-- a extensão não neutraliza nome reservado: `CON.txt` e `NUL.pdf` continuam inválidos;
-- não termine o nome por espaço ou ponto;
-- o mesmo nome pode existir em pastas diferentes;
-- hífen, sublinhado, parênteses, espaço interno e `@` podem ser aceitos.
-
-### 6.4 Propriedades, metadados e atributos
-
-As propriedades podem informar nome, tipo, caminho, tamanho, datas e outros dados. Conforme o formato, também podem existir metadados como autor, título, dimensões, duração e etiquetas.
-
-Atributos incluem marcações como oculto e somente leitura. Compactação e criptografia podem aparecer em propriedades avançadas, dependendo do sistema de arquivos, edição e política. `Alt + Enter` abre as propriedades do item selecionado.
-
-Item oculto não é necessariamente secreto ou protegido. **Exibir > Mostrar > Itens ocultos** controla sua visualização comum.
-
----
-
-## 7. Seleção, cópia e movimentação
-
-| Seleção | Comportamento usual |
+| Extensão comum | Conteúdo normalmente associado |
 |---|---|
-| clique | seleciona um item |
-| `Ctrl` + clique | alterna itens individuais e permite seleção não contígua |
-| `Shift` + clique | seleciona intervalo contíguo |
-| `Ctrl + A` | seleciona todos os itens da área ativa |
+| `.txt` | Texto simples. |
+| `.docx`, `.xlsx`, `.pptx` | Documento de texto, planilha e apresentação, respectivamente. |
+| `.pdf` | Documento em <abbr title="Portable Document Format">PDF</abbr>, voltado à preservação da apresentação. |
+| `.png`, `.jpg` | Imagens. |
+| `.csv` | Dados em texto organizados em linhas, com valores separados por vírgulas ou outro separador. |
+| `.exe` | Programa executável, não documento de texto. |
+| `.zip`, `.rar`, `.7z`, `.tar` | Arquivos que reúnem outros itens; a redução de tamanho depende do formato e do conteúdo. |
 
-### 7.1 Criar e renomear
+Se Ana apenas renomear `relatorio.txt` para `relatorio.pdf`, o conteúdo continuará sendo texto simples. Para converter, um programa precisa ler os dados e gravá-los no formato de destino. **Trocar a extensão ou o aplicativo associado não é converter.**
 
-- `Ctrl + Shift + N` cria nova pasta;
-- `F2` renomeia o item selecionado;
-- renomear altera o nome, não o conteúdo nem a localização;
-- modificar extensão visível pode mudar a associação percebida, mas não converte o formato interno.
+No Explorador do Windows 11, **Exibir > Mostrar > Extensões de nomes de arquivos** permite ver extensões antes ocultas. No Windows 10, a opção fica na guia Exibir. Ocultar a extensão não a remove. Verifique o nome completo: o ícone ou uma aparência de documento não garantem que o arquivo seja seguro.
 
-### 7.2 Copiar, recortar e colar
+### 4.3 Nem todo nome é permitido
 
-| Operação | Atalho | Resultado |
+Na interface comum, os seguintes caracteres não podem integrar nomes de arquivos ou pastas:
+
+```text
+< > : " / \ | ? *
+```
+
+Assim, `Relatórios_2026` e `Contratos@2026` são nomes possíveis; `Relatórios>2026` não é. Espaços internos, acentos e parênteses são aceitos. Não termine o nome com espaço ou ponto.
+
+Também são reservados nomes de dispositivos como `CON`, `PRN`, `AUX`, `NUL`, `COM1` a `COM9` e `LPT1` a `LPT9`, inclusive seguidos de extensão: `NUL.txt` não contorna a restrição. A reserva inclui `COM` e `LPT` seguidos de `¹`, `²` ou `³`.
+
+**Nome e caminho têm limites diferentes.** O comprimento aceito depende do sistema de arquivos, do programa e da configuração. Não há um máximo universal de 256 caracteres para qualquer caminho no Windows moderno, nem aceitação de caminhos ilimitados.
+
+## 5. Copiar, mover e criar atalho produzem resultados diferentes
+
+Antes de executar uma operação, defina **qual item está selecionado**. Um clique seleciona; `Ctrl + clique` permite acrescentar ou retirar itens separados; `Shift + clique` seleciona um intervalo; `Ctrl + A` seleciona todos os itens do contexto ativo. O mesmo atalho, com o foco em uma caixa de texto, pode selecionar o texto em vez dos arquivos.
+
+No local atual, `Ctrl + Shift + N` cria uma pasta e `F2` renomeia o item selecionado. Renomear altera a identificação, não o conteúdo. Se a extensão estiver visível, ela também pode ser modificada no nome, com o risco de prejudicar a abertura.
+
+### 5.1 A área de transferência prepara a operação
+
+A **área de transferência** mantém dados ou referências preparados por copiar e recortar. No Explorador, guarda as informações necessárias à transferência; apertar Copiar ainda não cria o arquivo no destino.
+
+**Copiar**, `Ctrl + C`, prepara outro exemplar; **Recortar**, `Ctrl + X`, prepara uma movimentação. Ana abre o destino e usa **Colar**, `Ctrl + V`, para realizá-la. Só recortar não apaga o arquivo da origem: a movimentação depende de uma colagem bem-sucedida.
+
+| Operação concluída | Situação da origem | Resultado no destino |
 |---|---|---|
-| copiar | `Ctrl + C` | mantém o original e prepara cópia |
-| recortar | `Ctrl + X` | prepara o item para transferência |
-| colar | `Ctrl + V` | conclui cópia ou movimentação |
-| desfazer | `Ctrl + Z` | tenta desfazer ação compatível |
+| Copiar | O original permanece. | Há outro arquivo, inicialmente com o mesmo conteúdo. |
+| Mover | O item deixa o local anterior. | O item passa a ocupar o novo local. |
+| Criar atalho | O alvo permanece. | Há uma referência para alcançá-lo, não uma cópia integral. |
 
-Recortar não exclui imediatamente. A transferência ocorre quando a colagem é concluída.
+A cópia comum pode ser editada independentemente do original. O atalho continua dependendo do alvo: excluir o atalho não o apaga, mas alterar ou remover o alvo pode impedir que a referência funcione.
 
-### 7.3 Arrastar e soltar
+### 5.2 Arrastar depende da origem, do destino e das teclas
 
-| Origem e destino | Resultado padrão sem modificador |
+Para arquivos e pastas comuns no Explorador, sem personalizações e com a operação permitida, arrastar com o botão esquerdo **move dentro do mesmo volume** e **copia entre volumes diferentes**. No mesmo volume, muda a localização na hierarquia; entre volumes, transfere dados para outro armazenamento lógico.
+
+Ana arrasta `C:\Trabalho\relatorio.docx` para `C:\Concluidos`: por padrão, move. Ao arrastá-lo de `C:\Concluidos` para `E:\`, copia e preserva o original. Isso não equivale a arrastar para um aplicativo, para a Lixeira ou para outro destino especial.
+
+| Modificador mantido ao soltar o item | Resultado solicitado |
 |---|---|
-| mesmo volume | mover |
-| volumes diferentes | copiar |
+| `Ctrl` | Copiar. |
+| `Shift` | Mover. |
+| `Ctrl + Shift` ou `Alt` | Criar atalho. |
 
-| Tecla durante o arrasto | Resultado |
-|---|---|
-| `Shift` | mover |
-| `Ctrl` | copiar |
-| `Ctrl + Shift` | criar atalho |
+A indicação junto ao ponteiro ajuda a conferir o resultado. Arrastar com o botão direito permite escolher uma ação no menu exibido ao soltar. Nenhum modificador dispensa permissão, espaço ou compatibilidade do destino.
 
-A regra vale para arrasto padrão entre volumes. Não deve ser generalizada sem ressalva para resultados de pesquisa, bibliotecas, nuvem, rede, mídia removível ou políticas corporativas.
+**Mover uma pasta preserva sua estrutura.** Ao mover `Trabalho`, com o relatório dentro, para `Concluidos`, o arquivo passa a `C:\Concluidos\Trabalho\relatorio.docx`, não diretamente a `Concluidos`. Já **Enviar para > unidade removível**, selecionando apenas o arquivo, normalmente o copia para a raiz da unidade, sem reproduzir as pastas anteriores do caminho.
 
-### 7.4 Aprofundamento: permissões <abbr title="New Technology File System">NTFS</abbr>
+Se houver outro item com o mesmo nome no destino, leia a decisão solicitada pelo sistema: substituir, ignorar ou manter exemplares não são o mesmo resultado. `Ctrl + Z` pode desfazer uma operação recente compatível, como uma movimentação acidental; não é garantia universal de recuperação de tudo que foi excluído.
 
-Em volumes NTFS, por padrão:
+## 6. Propriedades, acesso e exclusão
 
-- mover dentro do mesmo volume preserva as permissões do item;
-- copiar, ou mover para outro volume, cria o item no destino com permissões herdadas desse destino.
+### 6.1 Mostrar, permitir e criptografar são coisas distintas
 
-A regra depende de NTFS, permissões e configuração; não se transporta automaticamente para <abbr title="File Allocation Table">FAT</abbr>, nuvem, rede ou outros sistemas de arquivos.
+As **propriedades** descrevem nome, localização, tamanho, datas e informações específicas do formato. Dados sobre o arquivo, como autor e data de modificação, são **metadados**, distintos do texto do relatório. `Alt + Enter` abre as propriedades do item.
 
----
+O atributo **oculto** controla sua apresentação em determinadas listagens. No Windows 11, **Exibir > Mostrar > Itens ocultos** torna visíveis os itens com esse atributo; arquivos protegidos do sistema podem exigir outra opção. **Somente leitura**, quando respeitado pelo aplicativo, restringe alterações no arquivo, mas não equivale a senha nem define sozinho quem pode lê-lo ou apagá-lo.
 
-## 8. Exclusão e Lixeira
+As **permissões** estabelecem quais usuários podem ler, modificar ou excluir um item. O <abbr title="New Technology File System">NTFS</abbr> é um sistema de arquivos usual na unidade do Windows e permite atribuir permissões a arquivos e pastas. **Herança de permissões** é receber as regras da pasta que contém o item.
 
-Em operação local comum:
+Nas operações comuns do Explorador em <abbr title="New Technology File System">NTFS</abbr>, **copiar herda permissões do destino; mover no mesmo volume preserva as originais; mover para outro volume herda as do destino**. Ferramentas e configurações específicas podem mudar esse comportamento. Existir no novo local não basta para concluir quem poderá acessar o arquivo.
 
-- `Delete` ou `Ctrl + D` envia o item selecionado para a Lixeira;
-- `Shift + Delete` exclui sem enviá-lo à Lixeira;
-- **Restaurar** retorna o item, em regra, à localização original;
-- **Esvaziar Lixeira** remove dela os itens armazenados.
+**Criptografar** transforma dados para que sua leitura dependa de uma chave apropriada. O <abbr title="Encrypting File System">EFS</abbr> criptografa arquivos em volumes <abbr title="New Technology File System">NTFS</abbr>, conforme edição e configuração; não está disponível na edição Home. Ocultar ou mudar a extensão não ativa essa proteção: permissão controla acesso; criptografia protege o conteúdo; ocultação muda a visibilidade.
 
-A Lixeira não é garantia universal. Um item pode não passar por ela por causa do modo de exclusão, tamanho, configuração, tipo ou local da unidade, compartilhamento de rede ou mídia removível.
+Compartilhar pastas ou unidades pela rede disponibiliza acesso sujeito às permissões; não entrega necessariamente controle total nem cria cópias independentes para cada usuário.
 
-**Aprofundamento:** “excluir permanentemente” na interface significa não usar a Lixeira; não prova impossibilidade absoluta de recuperação forense. Para a prova básica, retenha a diferença operacional entre `Delete`, `Shift + Delete`, Restaurar e Esvaziar Lixeira.
+### 6.2 A Lixeira é uma possibilidade de retorno, não uma cópia de segurança
 
----
+No Explorador, **Excluir**, `Delete` ou `Ctrl + D`, normalmente envia um item local elegível à **Lixeira**. Ele sai da pasta original, mas pode ser restaurado enquanto permanecer nela. Restaurar costuma devolvê-lo à localização original; esvaziar a Lixeira remove essa possibilidade de recuperação por ela.
 
-## 9. Pesquisa, indexação e visualização
+`Shift + Delete` solicita exclusão **sem passagem pela Lixeira**. O mesmo cuidado vale para exclusões em unidades removíveis usuais, como <abbr title="Dispositivos removíveis de armazenamento">pen drives</abbr>, e em compartilhamentos de rede: não se deve presumir que a Lixeira local guardará os itens. Configuração para exclusão direta e arquivo maior que a capacidade reservada também alteram o resultado. A capacidade é limitada e pode ser ajustada nas propriedades da Lixeira.
 
-### 9.1 Pesquisa e escopo
+Não existe uma regra incondicional segundo a qual todo arquivo fica nela exatamente 30 dias. O **Sensor de Armazenamento** pode automatizar a limpeza de acordo com suas configurações e condições de execução. Serviços de armazenamento remoto, ou **nuvem**, podem ter mecanismos e prazos de recuperação próprios.
 
-A caixa de pesquisa trabalha no local ou escopo atual. Pesquisar em uma pasta, em **Este Computador**, em unidade externa ou em local de nuvem pode produzir resultados diferentes.
+“Exclusão permanente” significa, aqui, não poder restaurar pela Lixeira; não garante destruição irrecuperável por qualquer técnica. **Cópia de segurança**, ou <abbr title="Cópia preservada para permitir a recuperação de dados">backup</abbr>, é uma cópia destinada à recuperação. A Lixeira não a substitui: pode ser esvaziada, ignorada ou perdida com o dispositivo. As estratégias são aprofundadas no assunto de backup e armazenamento em nuvem.
 
-A indexação acelera a localização ao manter catálogo de arquivos e propriedades. Conforme o tipo de arquivo, manipulador disponível e configuração, o índice também pode incluir conteúdo interno.
+## 7. Pesquisar e mudar a apresentação não muda o lugar do arquivo
 
-| Configuração | Alcance geral |
-|---|---|
-| **Clássico** | indexa por padrão áreas comuns, como Documentos, Imagens, Músicas e Área de Trabalho |
-| **Aprimorado** | amplia a busca indexada para o computador, com exclusões configuráveis e maior uso de recursos |
-| propriedades apenas | considera nome, caminho e metadados suportados |
-| propriedades e conteúdo | também indexa texto interno de tipos compatíveis |
+Se Ana não encontra o relatório, deve perguntar **onde está procurando**. Buscar em uma pasta difere de buscar em Este Computador; subpastas e opções também importam. `Ctrl + E`, `Ctrl + F` ou `F3` iniciam a pesquisa no Explorador.
 
-Pontos de prova:
+A **indexação** prepara um catálogo para acelerar buscas. Pode incluir nomes, propriedades e conteúdo de tipos compatíveis, conforme a configuração. Procurar uma palavra dentro do relatório não é procurar seu nome.
 
-- a pesquisa não se limita necessariamente ao nome;
-- ausência no índice não significa inexistência do arquivo;
-- item pode ser encontrado por busca mais lenta ou em outro escopo;
-- conteúdo interno depende de formato, configuração e suporte;
-- pesquisa no Explorador não é sinônimo de pesquisa na Internet.
+No modo **Clássico**, a indexação normalmente abrange pastas usuais do perfil, como Documentos, Imagens e Músicas, e a área de trabalho, com possibilidade de personalização. O modo **Avançado** amplia o alcance pelo computador, respeitando exclusões. Isso não transforma qualquer arquivo em pesquisável por qualquer palavra: formato, permissões, disponibilidade e atualização do índice continuam relevantes. **Nenhum resultado não prova que o arquivo inexista.**
 
-### 9.2 Modos de exibição
+Ana pode mudar como vê os itens. Ícones grandes ou extragrandes facilitam reconhecer **miniaturas**, prévias reduzidas das imagens; **Detalhes** exibe colunas como nome, tipo, tamanho e data. Lista, blocos e conteúdo são outras apresentações. Ampliar a miniatura não altera o tamanho do arquivo nem a <abbr title="Quantidade de pontos que compõem a imagem">resolução</abbr> da imagem original. `Alt + P` alterna o painel de visualização de itens compatíveis.
 
-| Exibição | Característica principal |
-|---|---|
-| Ícones | prioriza ícone ou miniatura em diferentes tamanhos |
-| Lista | apresentação compacta em sequência |
-| Detalhes | linhas e colunas de propriedades |
-| Conteúdo | combina nome com informações textuais |
-| Blocos | mostra ícone acompanhado de propriedades selecionadas |
+**Ordenar** coloca itens em sequência; **agrupar** cria conjuntos visuais por uma propriedade; **filtrar** restringe o que aparece. Essas ações não criam pastas físicas nem alteram caminhos. Agrupar por nome não redistribui arquivos em novas pastas alfabéticas.
 
-**Classificar** ordena; **agrupar** cria grupos visuais; **filtrar** restringe o conjunto mostrado; **alterar a exibição** muda a apresentação. Nenhuma dessas operações move fisicamente os arquivos.
+## 8. Reunir arquivos não é proteger um segredo
 
-Atalhos úteis:
+Ana pode reunir relatório e anexos em um arquivo <abbr title="Formato que reúne arquivos e pastas e permite comprimir seus dados">ZIP</abbr>. A **compactação** pode reduzir o espaço ocupado; o empacotamento reúne itens para transporte. A redução depende do conteúdo: imagens `.jpg`, já comprimidas, tendem a diminuir pouco. Um arquivo compactado também pode preservar subpastas.
 
-- `Ctrl + E` ou `Ctrl + F`: caixa de pesquisa;
-- `Ctrl + L` ou `Alt + D`: barra de endereços;
-- `F3`: pesquisar arquivo ou pasta;
-- `F5`: atualizar a janela;
-- `Alt + P`: mostrar ou ocultar painel de visualização;
-- `Alt + ←`, `Alt + →` e `Alt + ↑`: voltar, avançar e subir um nível.
+Para compactar, selecione os itens e escolha a opção disponível no Explorador. **Extrair** grava itens fora do pacote: **Extrair Tudo** faz isso com o conjunto; arrastar um item de dentro do pacote para outra pasta o extrai individualmente. Apenas abrir o pacote não extrai tudo.
 
----
+**Compactar não criptografa automaticamente.** A proteção de um arquivo criptografado não deve ser presumida depois de incluí-lo em um pacote e extraí-lo; a Microsoft alerta para a possibilidade de exposição dos dados nesse fluxo.
 
-## 10. Pastas compactadas
+No Windows 11 24H2, a documentação registra suporte incorporado ao sistema para formatos como `.zip`, `.rar`, `.7z` e `.tar`, mas não a operações com arquivos compactados criptografados. Suporte a um formato não permite concluir que seja possível **criar, extrair e proteger por senha todos os formatos da mesma maneira**. Considere a operação e a versão indicadas.
 
-Uma pasta compactada ZIP pode reunir vários itens em um arquivo e reduzir espaço ocupado. Seus objetivos comuns são facilitar armazenamento e transferência.
+## 9. Instalar, executar, configurar e remover programas
 
-Para compactar, selecione o item e use o comando correspondente no menu de contexto. Para extrair, use **Extrair Tudo** ou abra o arquivo e arraste item para outro local.
+**Instalar** coloca e configura componentes para uso; **executar** inicia o aplicativo; **fixar** mantém um acesso na interface. Apagar o atalho, desafixar ou fechar uma janela não desinstala o programa.
 
-Pegadinhas:
+A **conta de usuário** identifica quem utiliza o sistema e suas autorizações. Contas padrão realizam tarefas comuns; mudanças protegidas podem exigir autorização administrativa. **Elevação** é executar com permissões administrativas, como em certas instalações. O Controle de Conta de Usuário, <abbr title="User Account Control">UAC</abbr>, solicita confirmação ou dados de identificação de administrador conforme a conta e a configuração. Nem toda instalação ou execução exige elevação.
 
-- ZIP não é sinônimo de criptografia;
-- arquivos já comprimidos, como muitas imagens JPEG, podem reduzir pouco;
-- colocar arquivos criptografados em ZIP pode remover a proteção original na extração;
-- Windows 11 24H2 oferece suporte nativo a RAR, 7z e TAR, mas isso depende da versão;
-- suporte a formato compactado não implica suporte a arquivo compactado criptografado.
+Para desinstalar, use o mecanismo próprio: no Windows 11, **Configurações > Aplicativos > Aplicativos instalados**; em programas compatíveis, **Painel de Controle > Programas > Programas e Recursos** ou a opção Desinstalar no Iniciar. Nem todo aplicativo integrado pode ser removido, e a disponibilidade do comando varia.
 
----
+### 9.1 Escolher o aplicativo não altera o formato
 
-## 11. Programas e aplicativos
+Ao abrir `relatorio.docx`, o Windows pode iniciar o aplicativo associado à extensão. **Configurações > Aplicativos > Aplicativos padrão** permite escolher associações por aplicativo, tipo de arquivo ou de endereço eletrônico (link). Assim se define, por exemplo, qual navegador abre páginas. Muda a escolha de abertura, não os dados do documento.
 
-### 11.1 Instalar e executar
+### 9.2 Diagnosticar a execução e proteger a sessão
 
-Aplicativo pode ser instalado por pacote autorizado, instalador, Microsoft Store ou mecanismo corporativo. Instalação não se confunde com criar atalho ou fixar ícone.
+O **Gerenciador de Tarefas**, aberto por `Ctrl + Shift + Esc`, mostra processos e consumo de recursos, como processador e memória. Na guia Processos do Windows 10, há os grupos Aplicativos, Processos em segundo plano e Processos do Windows. **Finalizar tarefa** força o encerramento e pode perder trabalho não salvo; não equivale a desinstalar.
 
-Depois de instalado, pode ser aberto pelo menu Iniciar, Pesquisa, barra de tarefas, atalho ou arquivo associado. Abrir arquivo pode iniciar seu aplicativo padrão, mas o arquivo não contém cópia do programa.
+**Bloquear**, com `Win + L`, protege o acesso mantendo a sessão e seus aplicativos. **Sair da conta** encerra a sessão e seus programas. Não confunda essas ações com trocar de janela ou de área de trabalho virtual.
 
-### 11.2 Alternar, fechar e encerrar tarefa
+O **Prompt de Comando** permite digitar instruções textuais para operar o sistema. Não é a caixa de pesquisa do Explorador. Seus comandos continuam sujeitos a permissões; muitas tarefas também podem ser feitas por menus.
 
-- `Alt + Tab`, barra de tarefas e Visão de Tarefas alternam o foco;
-- minimizar mantém a janela aberta;
-- `Alt + F4` fecha a janela ativa;
-- `Ctrl + Shift + Esc` abre o Gerenciador de Tarefas;
-- **Finalizar tarefa** pode causar perda de dados não salvos;
-- `Win + L` bloqueia o computador sem encerrar sessão nem aplicativos.
+## 10. Versão e condições fazem parte da resposta
 
-### 11.3 Desinstalar
+O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> de 6 de julho de 2026 pede conceitos, interface e gerenciamento de arquivos, pastas e programas do Microsoft Windows **sem fixar uma versão**. Este capítulo usa o Windows 11 como referência de interface e identifica diferenças relevantes do Windows 10; em uma questão, prevalecem a versão e as condições expressamente informadas.
 
-Caminhos usuais:
+Na documentação consultada em 5 de setembro de 2026, o Windows 11 tem versões 24H2, 25H2 e 26H1. A 26H1 atende determinados dispositivos novos e não é oferecida como atualização de recursos dos computadores existentes com 24H2 ou 25H2. O suporte geral do Windows 10 terminou em 14 de outubro de 2025; isso não significa que o sistema parou de funcionar nem invalida questões que descrevem seu comportamento.
 
-- menu Iniciar > botão direito no aplicativo > Desinstalar;
-- Configurações > Aplicativos > Aplicativos instalados;
-- Painel de Controle > Programas e Recursos, quando aplicável.
-
-Apagar atalho, desafixar ícone ou simplesmente excluir uma pasta visível não equivale ao procedimento de desinstalação.
-
-### 11.4 Aplicativos padrão
-
-Em **Configurações > Aplicativos > Aplicativos padrão**, é possível escolher aplicativo por extensão, protocolo ou tipo de link.
-
-Alterar aplicativo padrão muda a forma usual de abrir o tipo; não converte os arquivos existentes.
-
----
-
-## 12. Atalhos prioritários
-
-| Atalho | Ação padrão |
-|---|---|
-| `Win` ou `Ctrl + Esc` | abrir ou fechar menu Iniciar |
-| `Win + E` | abrir Explorador de Arquivos |
-| `Win + I` | abrir Configurações |
-| `Win + D` | exibir ou ocultar área de trabalho |
-| `Win + L` | bloquear computador |
-| `Win + A` | abrir Configurações Rápidas no Windows 11 |
-| `Win + N` | abrir notificações e calendário no Windows 11 |
-| `Win + Tab` | abrir Visão de Tarefas |
-| `Alt + Tab` | alternar entre janelas |
-| `Alt + F4` | fechar janela ativa |
-| `Ctrl + Shift + Esc` | abrir Gerenciador de Tarefas |
-| `Ctrl + C`, `Ctrl + X`, `Ctrl + V` | copiar, recortar e colar |
-| `Ctrl + Z` | desfazer ação compatível |
-| `Ctrl + A` | selecionar todos os itens |
-| `Ctrl + Shift + N` | criar nova pasta |
-| `F2` | renomear item |
-| `Alt + Enter` | abrir propriedades |
-| `Delete` ou `Ctrl + D` | enviar normalmente à Lixeira |
-| `Shift + Delete` | excluir sem passar pela Lixeira |
-
-Atalhos podem ser redefinidos por aplicativos específicos. A tabela registra o comportamento padrão do Windows ou do Explorador.
-
----
-
-## 13. Casos integrados
-
-### 13.1 Arrasto para unidade externa
-
-Ana arrasta `relatorio.docx` de `C:` para unidade <abbr title="Universal Serial Bus">USB</abbr> `E:`, sem pressionar tecla. O padrão é **copiar**, pois são volumes diferentes. Com `Shift`, força movimentação; com `Ctrl`, força cópia.
-
-### 13.2 Extensão trocada
-
-Bruno renomeia `dados.txt` para `dados.xlsx`. O Windows pode alterar ícone ou tentar abrir com outro aplicativo, mas o conteúdo não se tornou planilha válida.
-
-### 13.3 Ícone removido
-
-Carla desafixa aplicativo da barra de tarefas. O programa continua instalado. Excluir somente atalho da área de trabalho também não remove o executável de destino.
-
-### 13.4 Pesquisa indexada
-
-Fábio procura em `C:\Processos` expressão presente no conteúdo de arquivos PDF. O resultado depende do escopo, da indexação, do tipo de arquivo e do manipulador capaz de extrair texto. Não localizar na primeira busca não prova inexistência.
-
-### 13.5 Abas
-
-Gabriela abre `C:\Relatórios` em uma aba e `E:\Backup` em outra. Alternar entre elas não copia nem move itens. Fechar a aba de `E:\Backup` encerra apenas aquela visualização.
-
----
-
-## 14. Pegadinhas de prova
-
-- Explorador de Arquivos **não** é o próprio sistema operacional.
-- Atalho **não** é cópia do item original.
-- Fixar **não** instala nem duplica programa.
-- Minimizar **não** encerra janela.
-- Alternar com `Alt + Tab` **não** fecha aplicativo anterior.
-- Renomear extensão **não** converte formato.
-- Extensão ou ícone **não** prova segurança.
-- Arrastar no mesmo volume, sem modificador, **move** por padrão.
-- Arrastar entre volumes, sem modificador, **copia** por padrão.
-- `Shift` força mover; `Ctrl` força copiar; `Ctrl + Shift` cria atalho.
-- Recortar **não** é exclusão imediata.
-- Nem toda exclusão passa pela Lixeira.
-- `Shift + Delete` evita a Lixeira, mas não prova irrecuperabilidade forense.
-- Classificar, agrupar ou mudar exibição **não** move arquivos.
-- ZIP **não** é sinônimo de criptografia.
-- Desafixar ou apagar atalho **não** desinstala.
-- Bloquear com `Win + L` **não** encerra sessão.
-- `CON.txt` continua usando nome reservado.
-- Fechar aba do Explorador **não** exclui pasta.
-- Pesquisa sem resultado **não** prova que o arquivo inexiste.
-- 26H1 **não** é atualização geral para computadores 24H2 ou 25H2.
-
----
-
-## 15. Método rápido para questões situacionais
-
-1. **Identifique o objeto:** sistema, aplicativo, janela, atalho, arquivo ou pasta.
-2. **Localize a operação:** copiar, mover, renomear, excluir, compactar, instalar ou desinstalar.
-3. **Observe origem e destino:** mesmo volume ou volumes diferentes?
-4. **Procure modificadores:** `Ctrl`, `Shift`, `Ctrl + Shift` ou nenhum.
-5. **Separe aparência de efeito:** fixar, ocultar, classificar e mudar exibição não movem o original.
-6. **Confira a versão:** Windows 10, Windows 11, 24H2, 25H2 ou 26H1?
-7. **Identifique condições:** comportamento padrão, configuração, permissão, rede ou nuvem.
-8. **Rejeite absolutos indevidos:** “sempre visível”, “todo arquivo”, “nunca recuperável”.
-9. **Diferencie busca de existência:** escopo, índice e suporte ao formato condicionam o resultado.
+Em uma situação de prova, reconstrua **objeto → operação → origem e destino → condições → efeito real**, em vez de concluir apenas pelo ícone ou nome do comando.
