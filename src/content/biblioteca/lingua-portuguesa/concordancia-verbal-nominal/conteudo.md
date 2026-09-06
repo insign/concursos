@@ -8,646 +8,302 @@ storageId: concordancia-verbal-nominal
 
 # Concordância verbal e nominal
 
-> **Corte de atualização:** fontes consultadas até 17 de julho de 2026. O foco é a norma-padrão aplicada a textos formais e a questões de concurso; variantes reconhecidas pelas referências são indicadas para evitar falsas regras absolutas.
+Por que *A relação dos processos foi atualizada* fica no singular, embora haja vários processos? Porque se fala da **relação**, não diretamente dos processos. Todos os exemplos didáticos deste capítulo são hipotéticos:
 
-## 1. Concordar é relacionar formas
+> **A relação** dos processos **foi atualizada**.
+>
+> **Os processos** da relação **foram atualizados**.
 
-A **concordância verbal** ajusta o verbo ao número e à pessoa do sujeito. A **concordância nominal** ajusta artigos, pronomes, numerais, adjetivos e particípios de valor adjetivo ao gênero e ao número do nome a que se referem.
+**Concordar é ajustar a forma de uma palavra ao termo com que ela se relaciona**, não copiar a terminação da palavra mais próxima. Essa mudança de forma é a **flexão**.
 
-Compare:
+## 1. Encontre a relação antes de escolher a terminação
 
-> **A nova auditora apresentou** o relatório.
+Uma **oração** organiza uma informação em torno de um verbo. O **sujeito** é o termo sobre o qual se declara algo e com o qual o verbo normalmente concorda. Seu **núcleo** é a palavra central: em *a relação dos processos*, é *relação*. O trecho *dos processos* especifica esse nome; não cria outro núcleo do sujeito.
 
-> **As novas auditoras apresentaram** os relatórios.
+*De*, *a*, *com* e *em* são **preposições**, palavras que ligam termos. Em *dos processos*, há a união de *de + os*. Identificá-lo ajuda a perceber a estrutura, mas **não se devem apagar mecanicamente todos os termos com preposição**: certas expressões de quantidade admitem concordância com o nome seguinte.
 
-As marcas de plural em *as*, *novas*, *auditoras* e *apresentaram* mostram relações sintáticas. Para resolver uma questão, não basta procurar o substantivo mais próximo do verbo ou do adjetivo. É preciso identificar:
+A **concordância verbal** relaciona verbo e sujeito em **número** — singular ou plural — e **pessoa**: primeira, quem fala (*eu/nós*); segunda, com quem se fala (*tu/vós*); terceira, de quem ou do que se fala (*ele/eles*). Assim: *eu reviso*, *nós revisamos*, *as auditoras revisam*. *Você* e *vocês* designam interlocutores, mas usam formas verbais de terceira pessoa: *você revisa*, *vocês revisam*.
 
-1. qual é o sujeito e qual é seu núcleo;
-2. a que nome cada determinante ou modificador se refere;
-3. se há mais de uma concordância admitida;
-4. se a reescrita preserva, além da correção, o sentido e a estrutura.
+A **concordância nominal** relaciona palavras que acompanham ou caracterizam um nome ao seu **gênero**, masculino ou feminino, e ao seu número. Em *as duas novas auditoras*, *auditoras* é o **substantivo**, que nomeia as pessoas; *as* é artigo; *duas*, numeral; *novas*, adjetivo, que as caracteriza. As três palavras acompanham o feminino plural. **Pronomes** substituem ou acompanham nomes, como *elas* e *suas*. Artigos e pronomes que delimitam o nome são **determinantes**.
 
+### Sujeito não é necessariamente quem pratica uma ação
 
-<!-- REVISAO-CONCORDANCIA-2026 -->
+Em *As planilhas foram conferidas*, as planilhas recebem a ação e continuam sendo o sujeito. Em *Faltam duas planilhas*, o sujeito está depois do verbo. Em *As datas me escaparam*, o sujeito é *as datas*; *me* indica a pessoa afetada.
 
-## 1.1 Rastreie o controlador da concordância
+Procure **de que termo se afirma o acontecimento ou estado**. Posição, proximidade e condição de <abbr title="Quem pratica a ação expressa pelo verbo">agente</abbr> não definem, isoladamente, o sujeito.
 
-Em questões de concurso, a forma flexionada pode estar distante do termo que a controla. Use a cadeia:
+## 2. Um núcleo, uma oração ou um pronome como sujeito
 
-> **forma flexionada → função sintática → termo controlador → núcleo**
+### O núcleo permanece, mesmo cercado de outros termos
 
-Exemplo:
+**Sujeito simples** tem um núcleo, não necessariamente uma palavra nem um único ser: *Os processos da unidade foram conferidos* tem sujeito simples, de núcleo plural *processos*.
 
-> A adoção de ferramentas digitais **exige** planejamento.
+> A relação dos processos que **chegaram** ontem **foi** atualizada.
 
-O verbo não concorda com *ferramentas digitais*, que integra um termo preposicionado. O sujeito é *a adoção de ferramentas digitais* e seu núcleo é *adoção*.
+*Chegaram* refere-se aos processos; *foi*, à relação. Analise cada verbo em sua oração: o plural interno não se propaga ao verbo principal.
 
-Na concordância nominal, aplique o mesmo raciocínio:
+O **pronome relativo** retoma um termo anterior e introduz uma oração que o caracteriza. Esse termo retomado é o **antecedente**. No exemplo, *que* retoma *processos* e é sujeito de *chegaram*.
 
-> Foram consideradas **válidas** a ata e a certidão.
+Quando **que é sujeito**, o verbo acompanha o antecedente: *Fui eu que revisei*; *Fomos nós que revisamos*. Em *Os processos que a auditora revisou chegaram*, porém, o sujeito de *revisou* é *a auditora*: o relativo retoma aquilo que ela revisou.
 
-*Válidas* é predicativo do sujeito composto *a ata e a certidão*. A proximidade de *certidão* não restringe o alcance do predicativo.
+Com **quem**, a terceira pessoa do singular é regular, mas a concordância com antecedente expresso também é admitida: *Fui eu quem revisou* e *Fui eu quem revisei*. Sem antecedente que justifique outra concordância, não se transporta essa liberdade: *Quem revisou os processos?*
 
-### Teste rápido
+Em **uma das servidoras que participaram**, o plural apresenta a servidora como integrante de um conjunto que participou. O plural é preferencial na redação formal, mas o Aulete registra singular raro nessa construção: preferência não significa exclusividade.
 
-1. retire incisos e termos preposicionados;
-2. localize o núcleo do sujeito ou do nome;
-3. verifique se a forma é verbo, auxiliar, particípio ou adjetivo;
-4. confira se há variante legítima;
-5. em reescrita, propague todas as mudanças necessárias.
+### Uma ação inteira pode ocupar o lugar do sujeito
 
-> **Pegadinha:** o substantivo plural mais próximo pode ser complemento, adjunto ou termo interno; proximidade não cria concordância.
+Compare *É necessária a conferência* e *É necessário conferir os dados*. Na primeira, o sujeito é o nome feminino *a conferência*. Na segunda, é a oração *conferir os dados*: o que é necessário? **Isso** — conferir os dados. O sujeito é **oracional**, e o verbo principal fica na terceira pessoa do singular; a característica atribuída à oração fica no masculino singular.
 
-## 2. Concordância verbal: regra geral
+> É necessário **que os dados sejam conferidos**.
+>
+> Aos gestores cabe **revisar os controles**.
 
-### 2.1 Sujeito simples
+No primeiro exemplo, *sejam* acompanha *os dados*, mas *é necessário* se refere à oração inteira. No segundo, *aos gestores* indica a quem cabe a tarefa; o sujeito de *cabe* é *revisar os controles*. Pelo mesmo mecanismo: *Convém revisar as planilhas*; *Basta que uma falha seja encontrada*.
 
-O verbo concorda em número e pessoa com o núcleo do sujeito, ainda que esteja distante dele:
+**Conferir** e **revisar** estão no **infinitivo**, forma que não situa, por si só, o processo em um tempo. Infinitivos **coordenados**, ligados no mesmo plano por *e*, por exemplo, podem representar atividade integrada — *Ler e escrever exige concentração* — ou ações individualizadas — *Planejar e executar são etapas distintas*. A oposição de ações também favorece o plural; contar verbos, sozinho, não resolve.
 
-- “A relação dos processos pendentes **foi** atualizada.”
-- “Os processos da unidade **foram** atualizados.”
-- “Eu **reviso**; nós **revisamos**.”
+### Pronomes de seleção e de tratamento
 
-Em “A relação dos processos **foi** atualizada”, o núcleo é *relação*, não *processos*. A proximidade não transforma o termo preposicionado em núcleo.
+*Cada um dos processos foi revisado*, *Nenhum dos candidatos faltou* e *Qualquer um dos servidores pode responder* têm núcleo singular. O conjunto de vários integrantes não impõe plural.
 
-### 2.2 Sujeito composto anteposto
+O mesmo raciocínio vale para *Qual de nós será convocado?* Com pronome plural, há duas concordâncias: *Quais de nós serão convocados?* ou *Quais de nós seremos convocados?* Concorda-se com *quais* ou *nós*. Com *vós*, a alternativa é a segunda pessoa do plural.
 
-Com sujeito composto antes do verbo, a regra geral é o plural:
+**Pronomes de tratamento**, como *Vossa Excelência*, exigem verbo na terceira pessoa, mesmo dirigidos ao interlocutor. O adjetivo considera a pessoa referida: *Vossa Excelência está informada*, para uma mulher; *está informado*, para um homem, apesar do feminino de *Excelência*.
 
-> O relatório e a planilha **chegaram**.
+## 3. Mais de um núcleo: posição e sentido trabalham juntos
 
-Quanto à pessoa gramatical, a primeira pessoa prevalece sobre as demais; na tradição normativa, a segunda prevalece sobre a terceira:
+### A regra do conjunto e a concordância por proximidade
 
-- “Eu e os auditores **revisamos** o processo.”
-- “Tu e o relator **estais** de acordo.”
-- “O relator e os auditores **estão** de acordo.”
+**Sujeito composto** tem mais de um núcleo. Quando aparece antes do verbo, designando seres distintos, a regra é o plural: *O relatório e a planilha chegaram*. Depois do verbo, admitem-se o plural e a concordância com o núcleo mais próximo: *Chegaram o relatório e a planilha* ou *Chegou o relatório e a planilha*. Esta última é a **concordância atrativa**.
 
-No português brasileiro, formas de terceira pessoa são frequentes quando os interlocutores são tratados por *você/vocês*. Em prova normativa, a pessoa do pronome efetivamente empregado deve ser observada.
+Isso não valida *A relação dos processos chegaram*: *processos* não é núcleo do sujeito. O sentido também pode impedir o singular: *Encontraram-se o diretor e a relatora* exige plural na leitura de que se encontraram um com o outro.
 
-### 2.3 Sujeito composto posposto
+Com pessoas gramaticais diferentes, a primeira prevalece: *Eu e os auditores revisamos*. Na concordância tradicional, segunda mais terceira leva à segunda do plural: *Tu e o relator estais de acordo*. O Aulete registra terceira do plural na linguagem coloquial: *tu e ele estão*. Na redação formal conservadora, prefira a concordância tradicional. Já *você e ele estão* é regular, pois ambos exigem terceira pessoa.
 
-Quando o sujeito composto vem depois do verbo, admitem-se o plural e a concordância com o núcleo mais próximo:
+### Quando várias expressões apresentam uma unidade
 
-- “**Chegaram** o relatório e a planilha.”
-- “**Chegou** o relatório e a planilha.”
+*O autor e relator apresentou o voto* pode designar uma pessoa que acumula funções. *O autor e o relator apresentaram o voto* favorece a leitura de duas pessoas. O artigo ajuda; o contexto confirma a identidade dos participantes.
 
-A segunda construção é concordância **atrativa**. Se o verbo vier depois do sujeito, a forma segura é o plural: “O relatório e a planilha **chegaram**”.
+Núcleos de significado próximo ou dispostos em intensidade crescente, a **gradação**, podem ser reunidos pelo singular: *A inquietação, a ansiedade, o desespero tomou conta da equipe*. O plural também é possível, destacando as manifestações.
 
-### 2.4 Núcleos resumidos ou referentes à mesma entidade
+Se uma palavra resume a enumeração, o verbo concorda com ela: *Prazos, custos e riscos, tudo foi examinado*. Aqui, *tudo* retoma o conjunto como unidade.
 
-Se uma enumeração é resumida por pronome indefinido, o verbo concorda com o resumo:
+Há ainda concordância diretamente com a ideia, chamada **silepse**: em *Os brasileiros somos persistentes*, quem fala inclui a si mesmo entre os brasileiros, justificando a primeira pessoa. Esse recurso contextual não autoriza *A equipe decidiram* sem justificativa.
 
-> Prazos, custos, riscos, **tudo foi** examinado.
+### Soma, escolha ou companhia
 
-Se expressões diferentes designam uma só pessoa ou coisa, o singular é natural:
+**Ou** pode excluir ou incluir possibilidades. Em *O presidente ou o vice assinará o ato, mas não ambos*, apenas um dos sujeitos singulares realizará a ação. Em *O descuido ou a fraude podem causar dano*, o resultado pode ser atribuído a ambos. Se *ou* apenas reformula a mesma denominação — *A revisão, ou conferência final, ocorrerá amanhã* —, não se somam dois eventos.
 
-> O autor e relator da proposta **apresentou** o voto.
+Com pessoas diferentes, também se considera a pessoa gramatical: *Ou ela ou eu revisaremos o texto*. Não se aplica aqui a regra dos dois núcleos singulares de terceira pessoa.
 
-Sem determinante que unifique os papéis, a leitura pode mudar: “O autor e **o** relator **apresentaram** o voto” indica duas pessoas.
+**Nem** soma negações: *Nem o relatório nem as planilhas chegaram*. O plural é a orientação geral. Nas expressões fixas, *um ou outro candidato faltou* normalmente fica no singular; *um e outro* admite singular ou plural; *nem um nem outro apresentou recurso* é a escolha editorial conservadora. O plural também é registrado com *nem um nem outro* empregado sozinho como pronome, não como autorização geral para construções com nome expresso.
 
+**Com** pode pôr dois participantes no mesmo plano: *O presidente com os conselheiros aprovaram a minuta*. Mas, em *O presidente, com os conselheiros, aprovou a minuta*, o trecho entre vírgulas funciona como informação de companhia, subordinada à atuação do presidente. Algo semelhante ocorre com *assim como*, *bem como* e *como*: soma favorece plural; comparação ou informação intercalada permite concordância com o primeiro termo. Pontuação e sentido atuam juntos.
 
-### 2.5 Sujeito oracional
+## 4. Quantidade matemática não resolve sozinha a concordância
 
-Uma oração inteira pode exercer a função de sujeito. Nesse caso, o verbo principal e o predicativo tendem ao singular:
+### Conjunto e integrantes
 
-- “**É necessário que os dados sejam conferidos**.”
-- “**Basta que uma inconsistência seja encontrada**.”
-- “**Convém revisar as planilhas**.”
+Um **coletivo** nomeia um conjunto por uma forma singular: *A equipe decidiu*. Já uma **expressão partitiva** destaca uma parte de um conjunto: *a maioria dos candidatos*, *metade dos processos*. Com nome plural depois dela, pode-se concordar com a parte ou com seus integrantes:
 
-Compare:
+> A maioria dos candidatos **foi aprovada**.
+>
+> A maioria dos candidatos **foram aprovados**.
 
-- “É **necessária a conferência** dos dados.” — sujeito nominal feminino;
-- “É **necessário conferir** os dados.” — sujeito oracional reduzido.
+Verbo e característica acompanham *maioria* na primeira e *candidatos* na segunda. Coletivos especificados, como *um grupo de servidores*, também podem admitir a concordância com o conjunto ou com os integrantes. Isso não se estende a todo nome acompanhado de plural: *a relação dos processos* não significa uma quantidade deles.
 
-O plural dentro da oração não controla a concordância da oração principal.
+Com *cerca de*, *perto de*, *mais de* e *menos de*, a concordância acompanha normalmente o numeral: *Cerca de cinquenta servidores compareceram*; *Menos de dois candidatos faltaram*. **Mais de um** normalmente fica no singular: *Mais de um servidor faltou*. Há plural com repetição — *Mais de um servidor, mais de um estagiário compareceram* — ou **reciprocidade**, ação de uns sobre outros: *Mais de um gestor se acusaram mutuamente*.
 
-### 2.6 Infinitivos coordenados como sujeito
+### Frações e percentuais
 
-Com infinitivos coordenados, o singular apresenta as ações como unidade; o plural destaca processos autônomos:
+Na fração, o **numerador** indica quantas partes são consideradas: em *dois terços*, é *dois*. A orientação tradicional mais direta acompanha esse número: *Um terço dos processos foi arquivado*; *Dois terços dos processos foram arquivados*. *Um terço dos processos foram arquivados* também tem registro, por aproximação com as partitivas; a variante não é unanimemente rejeitada.
 
-- “Ler e escrever **exige** concentração.” — atividade integrada;
-- “Aprovar e executar o plano **são** etapas distintas.” — ações individualizadas.
+No percentual sem nome especificador, acompanha-se o número: *1% faltou*; *30% faltaram*. O **especificador** é o nome que informa a base da porcentagem, como *servidores* em *30% dos servidores*.
 
-A escolha depende da leitura, não apenas da existência de dois verbos.
+Com percentual antes do verbo, pode-se acompanhar o número ou o especificador: *1% dos servidores faltou/faltaram*; *30% da verba foi reservada* ou *30% da verba foram reservados*. A primeira acompanha *verba*; a segunda, o percentual. Quando número e especificador são plurais, não há esse contraste: *30% dos servidores faltaram*.
 
-## 3. Sujeito composto e relações de sentido
+O Manual de Comunicação do Senado distingue duas restrições importantes: com o percentual **depois do verbo**, adota a concordância com o número — *Foram reservados 30% da verba*; se o próprio percentual vier determinado, segue-se também o número — *Esses 30% da verba foram reservados*. Nesses casos, não há escolha indiferente entre as formas.
 
-### 3.1 Sinônimos, gradação e unidade de ideia
+### Milhão, total e zero
 
-Núcleos sinônimos, quase sinônimos ou organizados em gradação podem ser tomados como uma unidade e levar o verbo ao singular:
+*Milhão*, *bilhão* e *milhar* são substantivos masculinos: *os dois milhões de pessoas*, e não *as duas milhões*. A concordância com esse núcleo produz *Um milhão de pessoas participou*; *Dois milhões de pessoas participaram*; *1,5 milhão de reais foi destinado*. Com especificador plural, admite-se também *Um milhão de pessoas participaram*, destacando as pessoas. Sem esse apoio, mantenha o núcleo: *Chegou um milhão do total adquirido*.
 
-> A falha, o erro, a omissão reiterada **comprometia** o controle.
+Em *Um total de cem processos foi analisado*, *foi analisado* acompanha *total*. Retirado esse nome, a estrutura muda: *Cem processos foram analisados*. Há variação em construções quantitativas, mas não se deve misturar as concordâncias em *foi analisados*.
 
-O plural também é adequado quando se destacam fatos distintos: “A falha e a omissão **comprometiam** o controle”. O sentido pretendido, e não uma lista mecânica de palavras, orienta a concordância.
+Com *zero*, o uso do nome seguinte oscila entre singular e plural. Em *Zero ocorrências foram registradas*, o verbo e a forma *registradas* acompanham *ocorrências*. A quantidade zero não elimina o sujeito.
 
-### 3.2 Núcleos ligados por *ou*
+## 5. Quando não há sujeito — e por que *ser* merece atenção própria
 
-- **Exclusão real:** singular, pois apenas um núcleo realizará o fato: “O presidente ou o vice **assinará** o ato”.
-- **Inclusão:** plural, se ambos puderem participar: “O descuido ou a fraude **podem** causar dano”.
-- **Retificação ou equivalência:** concordância com o núcleo que efetivamente denomina o referente: “A Lei de Acesso à Informação, ou Lei nº 12.527/2011, **disciplina** o acesso”.
-- **Pessoas diferentes:** prevalece a pessoa gramatical: “Ou ela ou eu **revisaremos** o texto”.
+### *Haver* e *fazer*: o sentido determina a impessoalidade
 
-A expressão **um ou outro** normalmente exige singular: “Um ou outro candidato **faltou**”.
+Um verbo é **impessoal** quando a oração não tem sujeito naquele emprego. **Haver**, no sentido de existir, ocorrer ou indicar tempo decorrido, fica na terceira pessoa do singular: *Há recursos pendentes*; *Houve falhas*; *Havia dois anos que o processo tramitava*. Em *Há recursos*, *recursos* completa o verbo; não é sujeito plural.
 
-### 3.3 Núcleos ligados por *nem*
+Já **existir**, **ocorrer**, **acontecer** e **surgir** têm sujeito: *Existem recursos*; *Ocorreram falhas*; *Surgiram dúvidas*. Sentidos próximos não garantem a mesma estrutura.
 
-Com núcleos efetivamente coordenados por *nem*, prefere-se o plural:
+Uma **locução verbal** reúne auxiliar e verbo principal: em *deve haver*, *deve* acrescenta uma avaliação ao processo de *haver*. Quando o principal é impessoal, o auxiliar também fica no singular: **Deve haver recursos**, não *devem haver recursos*. Com verbo pessoal: **Devem existir recursos**.
 
-> Nem o relatório nem as planilhas **chegaram**.
+*Haver* como auxiliar é outro caso: *Os servidores haviam estudado*. *Haviam* concorda com *os servidores*. O emprego do verbo, não sua forma isolada, determina a análise.
 
-As expressões **nem um nem outro** e **um ou outro** normalmente levam o verbo ao singular: “Nem um nem outro **resolveu** o problema”. Já **um e outro** admite plural e, com menor frequência, singular; uma questão não deve condenar uma das formas sem contexto ou fonte específica.
+**Fazer**, indicando tempo decorrido ou condição meteorológica, também é impessoal: *Faz dois anos*; *Deve fazer dez graus*. No sentido de realizar, concorda normalmente: *Os servidores fizeram a revisão*. Verbos de fenômenos naturais, em sentido próprio, seguem o padrão impessoal: *Choveu ontem*. O sentido figurado pode criar sujeito: *Choveram reclamações*.
 
-### 3.4 Núcleos ligados por *com* e expressões comparativas
+### Hora, distância, identificação e quantidade com *ser*
 
-Quando *com* equivale a *e* e põe os núcleos no mesmo plano, usa-se o plural:
+Nas indicações de hora e distância, **ser** acompanha a expressão numérica: *É uma hora*; *São dez horas*; *Da sede ao arquivo são três quilômetros*. Impessoalidade, portanto, não significa singular obrigatório para todos os verbos.
 
-> O presidente com os conselheiros **aprovaram** a minuta.
+Em datas, são usuais *Hoje é dia 17* e *Hoje são 17 de julho*. O singular *Hoje é 17 de julho* considera subentendido *dia*. Com *dar*, *bater* e *soar*, identifique o sujeito: *Deram dez horas*; *O relógio deu dez horas*. O sujeito *relógio* determina o singular no segundo caso.
 
-Quando o segundo termo indica companhia e fica parentético, o verbo concorda com o primeiro:
+*Ser* também liga o sujeito à informação que se atribui a ele, o **predicativo**. Essa informação pode participar da concordância: *Isso são dificuldades previsíveis*; *Tudo eram obstáculos*. Com *isto*, *isso*, *aquilo* e *tudo*, o plural do predicativo é frequente; o singular também é registrado, mas é raro com predicativo plural.
 
-> O presidente, com os conselheiros, **aprovou** a minuta.
+Se um dos termos é pronome pessoal, ele orienta a concordância: *Os responsáveis somos nós*; *Quem decidiu fui eu*. Na avaliação de uma quantidade como bloco, usa-se o singular: *Dez anos é muito tempo*; *Cem reais é pouco*.
 
-O mesmo contraste pode ocorrer com *como*, *assim como* e *bem como*. Se o segundo termo é comparação ou inciso, o primeiro comanda a concordância; se os termos são somados, o plural é possível. A pontuação ajuda a revelar a leitura.
+### Nomes no plural e expressões fixadas pelo uso
 
+O plural gráfico de um nome não basta. Com artigo plural, a concordância usual é plural: *Os Estados Unidos anunciaram a medida*. Sem artigo, nomes geográficos plurais podem ser tomados como singular: *Minas Gerais anunciou a medida*. São exemplos construídos, não notícias.
 
-### 3.5 *Cada um*, *nenhum* e expressões de núcleo singular
+Títulos de obras podem ser tratados como unidade. A tradição registra *Os Lusíadas celebram...*; o singular de *Memórias Póstumas de Brás Cubas é uma obra...* considera o título como designação de uma obra. O Senado prefere singular para títulos em sua redação. Essa preferência editorial não elimina as variantes gramaticais.
 
-O núcleo de *cada um dos*, *nenhum dos* e *qualquer um dos* é singular:
+**Haja vista** significa, no emprego aqui estudado, *tendo em vista* ou *considere-se*: *Haja vista os resultados obtidos*. O Manual de Comunicação do Senado adota a expressão invariável, sem *hajam vista* nem *haja visto*. Essa escolha editorial não implica que todo *haver* seja impessoal.
 
-- “Cada um dos processos **foi** revisado.”
-- “Nenhum dos candidatos **apresentou** recurso.”
-- “Qualquer um dos servidores **pode** responder.”
+## 6. O *se* pode ocultar o <abbr title="Quem pratica a ação expressa pelo verbo">agente</abbr> sem eliminar o sujeito
 
-Não aplique a esses casos a liberdade de concordância de *a maioria dos*.
+Compare *Publicaram-se os editais* e *Precisa-se de analistas*. Não se identifica quem publica ou precisa, mas isso não resolve a concordância.
 
-### 3.6 *Um e outro* e *nem um nem outro*
+Para distinguir as construções, observe como o verbo se completa. Em *A unidade publicou os editais*, *os editais* é **objeto direto**, complemento sem preposição exigida pelo verbo. Em *A unidade precisa de analistas*, *de analistas* é **objeto indireto**, complemento ligado pela preposição exigida. Essa relação de complementação é a **transitividade**, que depende do sentido do verbo naquela frase.
 
-- **Um e outro** admite singular ou plural, conforme a tradição gramatical e a ênfase.
-- **Nem um nem outro** tem o singular como forma editorial segura; o plural aparece documentado em contextos que destacam atuação conjunta.
+### Na passiva, o sujeito recebe a ação
 
-Em prova, distinga a recomendação de redação objetiva da afirmação absoluta de impossibilidade.
+Na **voz ativa** do exemplo abaixo, o sujeito pratica a ação. O objeto direto pode passar a sujeito da **voz passiva**, recebendo a ação:
 
-## 4. Coletivos, partitivas e quantidades
+> A unidade publicou os editais → **Os editais foram publicados** → **Publicaram-se os editais**.
 
-### 4.1 Coletivo simples
+**Particípio** é a forma verbal como *publicado*: com *ter/haver*, integra um **tempo composto**, como *tinha publicado*; na passiva, expressa a ação recebida. A construção com *ser + particípio* é a **passiva analítica**; com *se*, a **passiva sintética**; nela, o *se* é **partícula apassivadora**, e *os editais*, **sujeito paciente**, pois recebe a ação. Esse sujeito plural exige *publicaram-se*.
 
-O verbo concorda com o núcleo coletivo no singular:
+Verbos com os dois complementos também permitem essa organização: *Concederam-se bolsas aos estudantes* corresponde a *Bolsas foram concedidas aos estudantes*. O sujeito é *bolsas*; *aos estudantes* mantém o papel de destinatário.
 
-> A equipe **decidiu**. A multidão **saiu**.
+Na locução, a concordância aparece no auxiliar: *Devem-se revisar os procedimentos* equivale a *Os procedimentos devem ser revisados*. O infinitivo *revisar* não recebe outra marca de plural.
 
-Quando o coletivo ou uma expressão partitiva vem seguido de especificador plural, são admitidas duas concordâncias:
+### Na indeterminação, não se identifica o sujeito
 
-- “A maioria dos candidatos **foi** aprovada.”
-- “A maioria dos candidatos **foram** aprovados.”
+Em *Precisa-se de analistas*, o termo *de analistas* não passa a sujeito paciente: a reescrita *Analistas são precisados* não preserva a construção de *precisar de*. O verbo fica na terceira pessoa do singular, e *se* é **índice de indeterminação do sujeito**.
 
-O singular concorda com *maioria*; o plural faz atração pelo especificador e destaca os indivíduos. O mesmo vale, em contextos adequados, para *parte de*, *metade de*, *grande número de* e expressões semelhantes.
+Esse padrão aparece com verbo de complemento indireto — *Trata-se de recursos*; com **verbo intransitivo**, sem objeto — *Vive-se bem aqui*; e com **verbo de ligação**, que atribui uma característica ao sujeito — *Era-se mais cauteloso naquele período*. Na locução: *Pode-se recorrer da decisão*.
 
-### 4.2 Quantidade aproximada e *mais de um*
+**Sujeito indeterminado não é ausência de sujeito**: alguém precisa ou vive, mas não se identifica quem. A oração impessoal com *haver* tem outra análise. E nem todo *se* é apassivador ou indeterminador: *As servidoras se prepararam* tem sujeito expresso e pode indicar ação sobre si mesmas. A interpretação vem antes da classificação.
 
-Com *cerca de*, *perto de*, *mais de* e *menos de*, o verbo acompanha normalmente o numeral:
+## 7. Infinitivo: uma forma auxiliar ou uma oração com sujeito próprio?
 
-- “Cerca de cinquenta servidores **compareceram**.”
-- “Menos de dois candidatos **faltaram**.”
-- “Mais de um servidor **faltou**.”
+O infinitivo pode indicar pessoa e número: *para eu revisar*, *para nós revisarmos*, *para eles revisarem*. Esse é o **infinitivo pessoal**; a primeira e a terceira pessoas do singular coincidem na forma com o não flexionado.
 
-**Mais de um** fica normalmente no singular, mas passa ao plural quando há reciprocidade ou repetição da expressão:
-
-- “Mais de um gestor se **acusaram** mutuamente.”
-- “Mais de um servidor, mais de um estagiário **compareceram**.”
-
-### 4.3 Frações
-
-A orientação tradicional faz o verbo acompanhar o numerador:
-
-- “Um terço dos processos **foi** arquivado.”
-- “Dois terços dos processos **foram** arquivados.”
-
-Com especificador plural, algumas referências admitem atração. Em redação objetiva, prefira a concordância transparente com o núcleo numérico e evite julgar como erro absoluto uma variante reconhecida sem indicar o padrão adotado.
-
-### 4.4 Percentuais
-
-Sem especificador, o verbo acompanha o número:
-
-- “1% **faltou**.”
-- “30% **faltaram**.”
-
-Com especificador, a concordância pode seguir o percentual ou o nome, conforme a construção:
-
-- “30% dos servidores **aderiram**.”
-- “30% da verba **foi** contingenciada.”
-- “1% dos eleitores **faltou**” ou “1% dos eleitores **faltaram**”.
-
-Para evitar ambiguidade, examine o núcleo e a leitura quantitativa efetivamente realçada. Não transforme preferência editorial em regra única.
-
-
-### 4.5 Milhão, bilhão, zero e *um total de*
-
-- “Um milhão de pessoas **participou**” — concordância com *milhão*; a atração pelo especificador plural é registrada em alguns contextos.
-- “Dois milhões de pessoas **participaram**.”
-- “1,5 milhão de reais **foi destinado**.”
-- “Zero ocorrência **foi registrada**”; “Zero ocorrências **foram registradas**”, conforme a formulação.
-- “Um total de cem processos **foi analisado**.”
-- “Cem processos **foram analisados**.”
-
-A forma gráfica da quantidade, o núcleo expresso e a leitura coletiva ou distributiva influenciam a construção.
-
-## 5. Pronomes e expressões especiais
-
-### 5.1 Pronome relativo *que*
-
-Quando *que* é sujeito, o verbo concorda com seu antecedente:
-
-- “Fui eu que **redigi** o parecer.”
-- “Fomos nós que **redigimos** o parecer.”
-- “Foram os técnicos que **redigiram** o parecer.”
-
-### 5.2 Pronome relativo *quem*
-
-Com *quem*, a terceira pessoa do singular é a construção regular, mas também se admite concordância com o antecedente:
-
-- “Fui eu quem **redigiu** o parecer.”
-- “Fui eu quem **redigi** o parecer.”
-
-Uma questão que declare uma dessas formas universalmente errada é inadequada.
-
-### 5.3 *Um dos que*
-
-A forma preferida em redação formal é o plural, porque o relativo retoma o conjunto:
-
-> Ela foi uma das servidoras que **participaram** da auditoria.
-
-O singular aparece registrado em gramáticas, mas é raro; o Manual de Revisão da FUNAG orienta o plural. Em prova, verifique se o comando pede regra preferencial ou reconhecimento de variante.
-
-### 5.4 *Qual de nós* e *quais de nós*
-
-Com pronome interrogativo ou indefinido singular, o verbo fica no singular:
-
-> Qual de nós **será** convocado?
-
-No plural, admitem-se a terceira pessoa do plural e a concordância com *nós/vós*:
-
-- “Quais de nós **serão** convocados?”
-- “Quais de nós **seremos** convocados?”
-
-### 5.5 Pronomes de tratamento
-
-Pronomes de tratamento exigem verbo na terceira pessoa e adjetivo conforme o gênero da pessoa referida:
-
-- “Vossa Excelência **está informado**”, dirigido a homem.
-- “Vossa Excelência **está informada**”, dirigido a mulher.
-
-
-### 5.6 Nomes próprios e títulos no plural
-
-A concordância depende do artigo, da tradição de uso e da interpretação como entidade ou obra:
-
-- “**Os Estados Unidos anunciaram** a medida.”
-- Nomes geográficos plurais sem artigo podem aparecer no singular conforme o uso consagrado.
-- “**Os Lusíadas celebram** a expansão portuguesa.”
-- “**Memórias Póstumas de Brás Cubas é** uma obra de Machado de Assis.”
-
-Não conclua automaticamente pelo plural gráfico. Identifique se há artigo e se o título é tomado como obra unitária.
-
-### 5.7 Pronome demonstrativo e predicativo
-
-Com *isto*, *isso*, *aquilo* ou *tudo* e predicativo plural, pode haver concordância com o predicativo:
-
-> Isso **são** dificuldades previsíveis.
-
-O singular também ocorre quando o demonstrativo é focalizado como sujeito neutro:
-
-> Isso **é** dificuldades acumuladas — construção marcada e menos recomendável em redação objetiva.
-
-Prefira formulações inequívocas quando a concordância puder gerar ambiguidade.
-
-## 6. Impessoalidade e o verbo *ser*
-
-### 6.1 *Haver*
-
-Com sentido de **existir**, **ocorrer** ou tempo decorrido, *haver* é impessoal e permanece na terceira pessoa do singular:
-
-- “**Há** recursos pendentes.”
-- “**Houve** falhas.”
-- “**Havia** dois anos que o processo tramitava.”
-
-A impessoalidade alcança a locução verbal:
-
-- “**Deve haver** recursos.”
-- inadequado na norma-padrão: “Devem haver recursos”.
-
-Não confunda com o auxiliar pessoal: “Os servidores **haviam estudado**”.
-
-### 6.2 *Fazer*
-
-Indicando tempo transcorrido ou fenômeno meteorológico, *fazer* é impessoal:
-
-- “**Faz** dois anos que o processo começou.”
-- “**Deve fazer** dez graus amanhã.”
-
-Em uso pessoal, concorda normalmente: “Os servidores **fizeram** a revisão”.
-
-### 6.3 *Existir*, *ocorrer*, *acontecer* e equivalentes
-
-Esses verbos têm sujeito e concordam com ele:
-
-- “**Existem** alternativas.”
-- “**Ocorreram** falhas.”
-- “**Surgiram** dúvidas.”
-
-Substituir *há* por *existem* exige alterar o número do verbo: “Há alternativas” → “Existem alternativas”.
-
-### 6.4 Verbo *ser*
-
-Em indicações de hora e distância, *ser* acompanha a expressão numérica:
-
-- “**É** uma hora.”
-- “**São** dez horas.”
-- “Da sede ao arquivo **são** três quilômetros.”
-
-Em datas, são usuais “Hoje **é dia 17**” e “Hoje **são 17 de julho**”. Com quantidade tomada como total, o singular é possível: “Dez anos **é** muito tempo”.
-
-Se um dos termos é pronome pessoal, ele prevalece: “Os responsáveis **somos nós**”; “Quem decidiu **fui eu**”. Com *isto*, *isso*, *aquilo*, *tudo* e predicativo plural, é comum concordar com o predicativo: “Isso **são** problemas”; o singular também aparece conforme a ênfase.
-
-
-### 6.5 *Haja vista*
-
-Na expressão causal ou exemplificativa, adote a forma invariável:
-
-> **Haja vista** os resultados obtidos.
-
-Para redação administrativa, evite *hajam vista* e *haja visto* nesse emprego.
-
-### 6.6 Cadeias com auxiliar, *ser*, particípio e predicativo
-
-Analise cada camada:
-
-- “A ata e o parecer **tinham sido aprovados**.”
-- “**Tenham sido desenvolvidos** o aparelhamento e as atividades.”
-- “As certidões **foram consideradas válidas**.”
-
-O auxiliar concorda com o sujeito; o particípio passivo e o predicativo concordam em gênero e número com o termo a que se referem. Acertar o auxiliar não garante que o particípio esteja correto.
-
-## 7. Concordância em construções com *se*
-
-Não se decide a concordância apenas pela presença de *se*. É indispensável analisar a transitividade e a função do termo associado ao verbo.
-
-### 7.1 Partícula apassivadora
-
-Com verbo transitivo direto ou direto e indireto, há sujeito paciente, e o verbo concorda com ele:
-
-- “**Publicou-se** o edital.”
-- “**Publicaram-se** os editais.”
-- “**Concederam-se** bolsas aos estudantes.”
-
-O teste é a passiva analítica: “Os editais foram publicados”; “Bolsas foram concedidas aos estudantes”.
-
-### 7.2 Índice de indeterminação do sujeito
-
-Com verbo intransitivo, transitivo indireto ou de ligação, não há sujeito paciente; o verbo fica na terceira pessoa do singular:
-
-- “**Precisa-se de** analistas.”
-- “**Trata-se de** recursos.”
-- “**Vive-se** bem aqui.”
-- “**Era-se** mais cauteloso naquele período.”
-
-Em “Precisa-se de analistas”, *de analistas* é complemento preposicionado, por isso “Precisam-se de analistas” não atende à norma-padrão.
-
-
-### 7.3 Passiva sintética com cadeia verbal
-
-Em construções com auxiliar modal ou aspectual e *se*, identifique qual verbo participa da passiva:
-
-- “**Devem-se revisar** os procedimentos.” — leitura normativa: *os procedimentos devem ser revisados*;
-- “**Pode-se recorrer** da decisão.” — verbo transitivo indireto; sujeito indeterminado e auxiliar no singular.
-
-A simples presença de um infinitivo não elimina a necessidade de analisar transitividade e sujeito paciente.
-
-## 8. Infinitivo pessoal e impessoal
-
-O emprego do infinitivo é uma das áreas mais controversas da língua; há contextos obrigatórios, proibidos e facultativos.
-
-### 8.1 Flexão necessária
-
-Quando o infinitivo tem sujeito próprio diferente do sujeito da oração principal, a flexão explicita a relação:
-
-- “É importante **os candidatos estudarem**.”
-- “Antes de **os conselheiros votarem**, houve debate.”
-
-### 8.2 Flexão proibida em locução verbal
-
-O infinitivo que integra locução com auxiliar não se flexiona:
-
-- “Os técnicos **devem revisar** o relatório.”
-- inadequado: “Os técnicos devem revisarem o relatório”.
-
-### 8.3 Flexão facultativa
-
-Com o mesmo sujeito, a escolha pode ser estilística:
-
-- “Os técnicos saíram para **revisar** o relatório.”
-- “Os técnicos saíram para **revisarem** o relatório.”
-
-Com *ver*, *ouvir*, *sentir*, *mandar* e *fazer*, as referências registram flexão facultativa mesmo com sujeitos diferentes: “Vi os candidatos **sair/saírem**”. Evite condenar uma das formas sem considerar o contexto.
-
-### 8.4 Silepse
-
-A **silepse** é concordância com a ideia, não apenas com a forma gramatical: “Os brasileiros **somos** persistentes”. É recurso marcado e dependente do contexto. Na escrita administrativa, a concordância regular tende a ser mais clara: “A multidão **aplaudiu**”, e não “A multidão aplaudiram”. Silepse não deve servir de justificativa automática para qualquer discordância formal.
-
-
-### 8.5 Infinitivo com sujeito oracional e termos preposicionados
-
-Não deixe um termo preposicionado próximo controlar o verbo principal:
-
-> Aos gestores **cabe revisar** os controles.
-
-O sujeito de *cabe* é a oração reduzida *revisar os controles*; *aos gestores* é complemento indireto.
-
-Quando o infinitivo possui sujeito expresso, a flexão pode ser necessária:
-
-> Antes de **os gestores revisarem** os controles, houve reunião.
-
-Em locução verbal, apenas o auxiliar recebe flexão:
+Compare três estruturas:
 
 > Os gestores **devem revisar** os controles.
+>
+> Antes de **os gestores revisarem** os controles, houve reunião.
+>
+> Os gestores saíram para **revisar/revisarem** os controles.
 
-## 9. Concordância nominal: estrutura básica
+Na primeira, *devem revisar* forma uma locução: apenas o auxiliar recebe a flexão de pessoa e número. **Devem revisarem** não atende ao padrão formal.
 
-### 9.1 Um substantivo
+Na segunda, o infinitivo tem sujeito próprio expresso, *os gestores*. A flexão é exigida nesse contexto. A redação formal mantém *de os gestores*: a preposição introduz a oração; o artigo pertence ao sujeito.
 
-Determinantes e modificadores concordam com o nome:
+Na terceira, sair e revisar se referem aos mesmos gestores, mas *para revisar* expressa a finalidade de sair, sem integrar a mesma locução verbal. Ambas as formas são admitidas; a flexão realça os participantes.
 
-- “**as duas novas** auditoras”;
-- “**aquele** parecer conclusivo”;
-- “planilhas **atualizadas**”;
-- “a servidora estava **atenta**”.
+Não aplique “sujeitos diferentes exigem sempre flexão” a qualquer sequência. Com verbos de percepção (*ver, ouvir, sentir*) ou que fazem alguém agir (*mandar, fazer*), há construções como *Vi os candidatos sair/saírem*, com as duas possibilidades. Quando o sujeito do infinitivo é representado por pronome como *os*, a construção normativa é *Vi-os sair*, não *vi-os saírem*.
 
-O particípio da voz passiva concorda com o sujeito: “As contas foram **pagas**”.
+## 8. Concordância nominal: caracterizar o nome ou atribuir-lhe um estado
 
-### 9.2 Adjetivo anteposto a vários substantivos
+### Duas maneiras de caracterizar o nome
 
-Como adjunto adnominal, o adjetivo anteposto concorda, em regra, com o substantivo mais próximo:
+Em *a planilha atualizada*, o adjetivo integra o grupo do nome: é **adjunto adnominal**. Em *a planilha está atualizada*, a característica é atribuída por meio do verbo: é **predicativo do sujeito**. Nas duas, acompanha *planilha*, mas essa distinção importa quando há vários nomes.
 
-- “**Nova** norma e procedimento.”
-- “**Novo** procedimento e norma.”
+Se o adjetivo é **adjunto de vários substantivos** e vem antes deles, normalmente acompanha o mais próximo: *nova norma e procedimento*; *novo procedimento e norma*. Diante de nomes próprios de pessoas ou de parentesco, a tradição recomenda plural quando caracteriza todos: *os dedicados pai e filho*.
 
-Com nomes próprios ou de parentesco, a tradição recomenda o plural: “os ilustres Rui Barbosa e Machado de Assis”.
+Depois dos nomes, pode abranger o conjunto no plural ou concordar com o mais próximo, conforme o sentido: *norma e procedimento adequados*; *norma e procedimento adequado*; *procedimento e norma adequada*. Para abranger substantivos de gêneros diferentes, o plural é masculino. A proximidade pode deixar incerto o alcance: *dois auditores e uma servidora experiente* não afirma, por si só, que os auditores são experientes.
 
-### 9.3 Adjetivo posposto a vários substantivos
+Já o **predicativo depois de sujeito composto** concorda com o conjunto: *A ata e a minuta estavam prontas*; *A ata e o relatório estavam prontos*. Com verbo e predicativo antes do sujeito, admite-se atração: *Estava pronta a ata e o relatório*. Não se transfere essa ordem para justificar *A ata e o relatório estavam pronta*.
 
-O adjetivo pode ir ao plural abrangente ou concordar com o nome mais próximo:
+A característica também pode ser atribuída ao objeto: *A comissão considerou válidas as certidões*. O termo *as certidões* completa *considerou*; *válidas* é **predicativo do objeto**, pois expressa a avaliação feita sobre elas. O adjetivo acompanha as certidões, não a comissão. Mesmo com preposição introduzindo a característica, há concordância: *A comissão qualificou de inadequadas aquelas declarações*.
 
-- “norma e procedimento **adequados**”;
-- “norma e procedimento **adequado**”;
-- “procedimento e norma **adequada**”.
+### Uma cadeia verbal contém relações diferentes
 
-No plural abrangente, gêneros diferentes levam ao masculino plural: “ata e relatório **aprovados**”. A concordância com o mais próximo só é válida se o sentido permitir que o adjetivo alcance os nomes pretendidos; quando apenas o último é qualificado, a proximidade é obrigatória: “dois auditores e uma servidora **experiente**”.
+> A ata e a certidão **tinham sido consideradas válidas**.
 
-### 9.4 Predicativo
+*Tinham* acompanha o sujeito composto. *Sido*, particípio ligado a *ter*, permanece invariável. *Consideradas* expressa a ação recebida pela ata e pela certidão e vai ao feminino plural. *Válidas* é a característica atribuída às duas e também fica no feminino plural.
 
-O predicativo posposto a sujeito composto vai ao plural; com gêneros diferentes, ao masculino plural:
+Com *relatório* no lugar de *ata*, fica **O relatório e a certidão tinham sido considerados válidos**: gêneros diferentes exigem masculino plural. *Tinham* e *sido* não mudam.
 
-- “A ata e a minuta estavam **prontas**.”
-- “A ata e o relatório estavam **prontos**.”
+Portanto, **particípio não é sempre variável nem sempre invariável**. Com *ter/haver* nos tempos compostos: *As servidoras tinham revisado as contas*. Na passiva: *As contas foram revisadas*. Corrigir apenas o auxiliar pode deixar erros no restante da cadeia.
 
-Se o predicativo vier antes de sujeito composto posposto e o verbo estiver no singular, admite-se atração: “Estava **pronta** a ata e o relatório”.
+## 9. A função da palavra explica sua flexão
 
+### Quantidade e característica variam; intensidade normalmente não
 
-### 9.5 Concordância nominal em cadeias predicativas
+Em *bastantes razões*, a palavra quantifica um nome: muitas razões. Em *razões bastante claras*, ela intensifica a característica: muito claras. Esse segundo emprego é de **advérbio**, palavra que modifica um verbo, um adjetivo ou outro advérbio e, em regra, não recebe concordância de gênero ou número.
 
-Em:
+Descubra **o que a palavra modifica**, não apenas o termo ao lado. Em *muitos problemas*, contam-se problemas; em *problemas muito maiores*, intensifica-se *maiores*. Já em *muita mais gente*, a quantidade continua ligada ao nome *gente*, mesmo com *mais* no meio.
 
-> A ata e a certidão foram consideradas **válidas**.
-
-há três relações:
-
-1. *foram* concorda com o sujeito composto;
-2. *consideradas* concorda com esse sujeito;
-3. *válidas* é predicativo e também concorda com o conjunto feminino.
-
-Com gêneros diferentes, o plural abrangente vai normalmente ao masculino:
-
-> O relatório e a certidão foram considerados **válidos**.
-
-## 10. Palavras e expressões recorrentes
-
-| Forma | Regra | Exemplo |
+| Palavra | Ligada ao nome ou a seus participantes | Com outro valor |
 | --- | --- | --- |
-| **anexo, incluso, apenso** | adjetivos variáveis | “Seguem **anexas** as planilhas”; “certidões **inclusas**”; “autos **apensos**” |
-| **em anexo** | locução invariável | “Seguem **em anexo** as planilhas” |
-| **mesmo, próprio** | variam quando equivalem a “o próprio” | “Elas **mesmas** revisaram”; “os **próprios** autores” |
-| **mesmo** | invariável com valor de inclusão ou concessão | “**Mesmo** as auditoras concordaram” |
-| **quite** | varia com o referente | “Ela está **quite**”; “eles estão **quites**” |
-| **obrigado** | concorda com quem agradece | mulher: “**obrigada**”; grupo misto: “**obrigados**” |
-| **só** = sozinho | adjetivo variável | “Os fiscais ficaram **sós**” |
-| **só** = somente | advérbio invariável | “**Só** os fiscais ficaram” |
-| **a sós** | locução invariável | “Elas ficaram **a sós**” |
-| **meio** = metade | numeral variável | “**meia** hora”; “duas **meias** porções” |
-| **meio** = um pouco | advérbio invariável | “As servidoras estavam **meio** cansadas” |
-| **bastante** = muitos/suficientes | pronome ou adjetivo variável | “Havia **bastantes** razões” |
-| **bastante** = muito | advérbio invariável | “Razões **bastante** claras” |
-| **menos** | sempre invariável | “**menos** falhas”; nunca *menas* |
-| **alerta** | invariável na expressão de estado consagrada | “Os fiscais permaneceram **alerta**” |
-| **caro, barato** | adjetivos variáveis | “Passagens **caras**”; “mercadorias **baratas**” |
-| **caro, barato** | advérbios invariáveis com verbos de preço | “As passagens custam **caro**” |
+| *meio* | Metade: *meia hora*, *duas meias porções* | Intensidade: *servidoras meio cansadas* |
+| *bastante* | Quantidade ou suficiência: *bastantes razões*, *razões bastantes* | Intensidade: *razões bastante claras* |
+| *só* | Sozinho: *os fiscais ficaram sós* | Somente: *só os fiscais ficaram* |
+| *mesmo* | O próprio: *elas mesmas revisaram* | Inclusão ou reforço: *mesmo elas concordaram*; *elas concordaram mesmo* |
+| *caro/barato* | Característica: *passagens caras*, *mercadorias baratas* | Valor junto ao verbo: *as passagens custam caro* |
 
-Em “eles **mesmo** disseram”, *mesmo* pode ter valor adverbial de reforço em usos registrados; para o sentido reflexivo inequívoco, a forma esperada é “eles **mesmos** disseram”. O contexto define a classe e a concordância.
+*A sós* é uma expressão invariável: *Elas ficaram a sós*. *Próprio*, como reforço do participante, varia: *as próprias autoras*. *Menos* não varia: *menos falhas*, nunca *menas*.
 
-## 11. *Possível* e expressões predicativas
+**Todo** merece atenção particular. Como totalidade, acompanha o nome: *todas as propostas*. Mesmo em uso de reforço próximo de *inteiramente*, admite flexão: *a parede estava toda pintada*; *uma graça toda sua*. Essa flexão está registrada no Aulete, apesar do valor intensificador.
 
-### 11.1 *Possível*
+### Palavras que mudam de classe e expressões de forma estável
 
-Como adjetivo, *possível* concorda normalmente:
+*Anexo*, *incluso* e *apenso* caracterizam o nome e variam: *Seguem anexas as planilhas*; *certidões inclusas*; *documentos apensos*. Mas **em anexo** é uma expressão invariável: *Seguem em anexo as planilhas*. Nas duas, o verbo acompanha *planilhas*.
 
-> Foram adotadas as medidas mais rápidas **possíveis**.
+*Quite* significa livre de uma obrigação: *ela está quite*; *eles estão quites*. No agradecimento, *obrigado* acompanha quem agradece: uma mulher diz *obrigada*; um homem, *obrigado*; um grupo feminino, *obrigadas*; um grupo misto, *obrigados*.
 
-Na construção intensificadora com artigo singular, permanece singular:
+*Dado* e *visto*, com valor de <abbr title="Forma verbal como dado ou visto, variável ao acompanhar um nome">particípio</abbr>, acompanham o nome: *Dadas as circunstâncias*; *Vistos os autos*. *Salvo* e *exceto*, equivalentes a *com exceção de*, são invariáveis: *Todos vieram, salvo as servidoras dispensadas*. Não confunda com o adjetivo de *as pessoas salvas*.
 
-> Foram adotadas medidas **o mais rápidas possível**.
+*Alerta* admite mais de um emprego: como advérbio, *os fiscais permaneceram alerta*; como adjetivo, *servidores alertas aos riscos*. *Conforme* também: *as declarações estão conformes* significa que estão de acordo; *conforme as pessoas saíam, a sala esvaziava* liga acontecimentos, com sentido próximo de *à medida que*, e não varia.
 
-O artigo ajuda a reconhecer a estrutura: *as mais ... possíveis* versus *o mais ... possível*.
+*Qualquer* tem plural **quaisquer**: *quaisquer documentos*; *quaisquer que sejam as razões*. Não basta pluralizar apenas o verbo.
 
-### 11.2 *É bom*, *é necessário*, *é proibido* e semelhantes
+Em compostos com **leso**, cujo sentido é lesado ou ofendido, a primeira parte acompanha o nome seguinte: *lesa-pátria*, *leso-patriotismo*. A flexão não é controlada por um nome anterior como *crime*. São expressões linguísticas, não definições de infrações.
 
-Com substantivo tomado genericamente e sem determinante, o predicativo pode ficar no masculino singular:
+## 10. Construções nominais que precisam ser lidas como conjunto
 
-- “É **proibido** entrada.”
-- “Água é **bom** para a saúde.”
-- “É **necessário** paciência.”
+### *É necessário*, *é proibido* e o grau de determinação
 
-Com artigo, pronome ou outro determinante, faz-se a concordância:
+Em *É necessário conferir os dados*, o sujeito é <abbr title="Uma oração inteira exercendo a função de sujeito">oracional</abbr>. Compare agora dois sujeitos nominais: *É proibido entrada* apresenta a entrada genericamente, sem determinante; *É proibida a entrada* traz um nome determinado e faz a concordância com ele.
 
-- “É **proibida a** entrada.”
-- “É **necessária esta** paciência.”
-- “A água é **boa** para a saúde.”
+O padrão se repete em *É necessário paciência / É necessária esta paciência* e *Água é bom / A água é boa*. Sem determinante, a construção genérica admite o masculino singular; com artigo ou pronome determinando o sujeito, o adjetivo acompanha o nome.
 
-A UFLA registra que *é preciso* anteposto ao sujeito aparece frequentemente invariável no português brasileiro mesmo com sujeito determinado. Em questão normativa, prefira construções inequívocas ou identifique o padrão adotado.
+A <abbr title="Universidade Federal de Lavras">UFLA</abbr> registra, especificamente com **é preciso** antes do sujeito, uso brasileiro frequente sem variação mesmo diante de sujeito determinado. Não estenda essa observação a todas as expressões. Formulações normativas inequívocas: *São necessárias as autorizações* ou *É preciso obter as autorizações*.
 
-## 12. Cores e locuções adjetivas
+### *Possível*: qual é a construção intensificadora?
 
-Adjetivos de cor simples variam:
+Em *Foram adotadas as medidas mais rápidas possíveis*, o adjetivo acompanha as medidas. Outra organização é *Foram adotadas medidas o mais rápidas possível*: a expressão *o mais ... possível* tem artigo singular e conserva *possível* no singular; *rápidas* continua referindo-se às medidas.
 
-- “pastas **vermelhas**”;
-- “camisas **azuis**”.
+Compare **as mais ... possíveis** e **o mais ... possível**, não apenas a proximidade de outro plural. O mesmo contraste ocorre com *o menos/os menos* e *o melhor/os melhores*, conforme a construção.
 
-Nomes de objetos ou substâncias empregados como cor tendem a permanecer invariáveis:
+### Cores e expressões que caracterizam nomes
 
-- “pastas **cinza**”;
-- “gravatas **vinho**”;
-- “blusas **laranja**”.
+Em *pastas vermelhas* e *camisas azuis*, a cor é expressa por adjetivos simples, que variam. Em *pastas cinza*, *gravatas vinho* e *blusas laranja*, nomes de substâncias ou objetos são usados para indicar cor e tradicionalmente ficam invariáveis, como se houvesse *da cor de*. Dicionários podem registrar uso adjetivo variável: não condene toda variação sem analisar a classe.
 
-Em cores compostas formadas por dois adjetivos, a tradição flexiona o último elemento: “paredes **verde-claras**”, “ternos **azul-escuros**”. Compostos que contêm substantivo podem seguir padrões lexicais específicos; consulte o vocabulário ou dicionário indicado antes de absolutizar a flexão.
+Com dois adjetivos de cor, normalmente varia o último: *paredes verde-claras*, *ternos azul-escuros*. Quando o segundo elemento é substantivo, conserva-se o composto: *camisas verde-oliva*. Compostos fixados pelo uso podem ter comportamento próprio.
 
-Locuções adjetivas preposicionadas permanecem formalmente invariáveis: “blusas **de seda**”, “relatórios **de auditoria**”, “normas **de gestão**”. O substantivo interno pode variar apenas se o sentido da própria locução exigir, não para copiar o número do termo externo.
+Uma **locução adjetiva** é um conjunto de palavras que caracteriza um nome, como *de seda* em *blusas de seda*. Ela não copia o plural do nome externo: *relatórios de auditoria*, não *de auditorias* apenas porque há vários relatórios. O plural interno, quando usado, precisa ter sentido próprio — várias auditorias —, não resultar de concordância automática.
 
-## 13. Armadilhas de prova e variantes legítimas
+## 11. Reescrever exige acompanhar todas as relações
 
-| Estrutura | Forma segura | Cuidado |
-| --- | --- | --- |
-| sujeito simples | verbo com o núcleo | termo preposicionado próximo não é núcleo |
-| composto anteposto | plural | singular exige leitura especial |
-| composto posposto | plural ou atração | ambas podem ser corretas |
-| partitiva + plural | singular ou plural | não condenar variante reconhecida |
-| *quem* | 3ª singular ou antecedente | não há uma única forma absoluta |
-| *um dos que* | plural preferencial | singular é raro, mas registrado |
-| *haver/fazer* impessoais | singular | auxiliar da locução também fica singular |
-| *existir/ocorrer* | concordam com o sujeito | não herdam a impessoalidade de *haver* |
-| *se* apassivador | concordância com paciente | teste a passiva analítica |
-| *se* indeterminador | 3ª singular | complemento costuma ser preposicionado |
-| infinitivo | depende dos sujeitos e da estrutura | há ampla zona de facultatividade |
-| adjetivo posposto | plural ou proximidade | função e sentido importam |
-| *meio/bastante/só* | depende da classe | adjetivo varia; advérbio não |
+Retome a estrutura inicial, agora com uma característica adicional:
 
+> **A relação dos processos foi considerada válida**.
+>
+> **Os processos da relação foram considerados válidos**.
 
-## 13.1 Formas especiais: *dado*, *visto*, *salvo*, *exceto*, *leso* e *alerta*
+A troca do núcleo altera artigo, verbo, particípio e <abbr title="Característica atribuída ao sujeito ou ao objeto por meio do verbo">predicativo</abbr> e muda o que foi considerado válido: antes, a relação; depois, os processos. **Correção gramatical e preservação do sentido são julgamentos separados.**
 
-| Forma | Comportamento | Exemplo |
-| --- | --- | --- |
-| **dado**, **visto** | variam em uso participial | “**Dadas** as circunstâncias”; “**Vistos** os autos” |
-| **salvo**, **exceto** | normalmente invariáveis como preposições | “Todos compareceram, **salvo** as servidoras dispensadas” |
-| **leso** | varia no composto | “crime de **lesa-administração**”; “ato **leso-patrimônio**” |
-| **alerta** | invariável em expressão cristalizada | “permaneceram **alerta**” |
-| **alerta** | pode variar como adjetivo pleno | “servidores **alertas aos riscos**” |
+Na análise de prova, estabeleça primeiro o sujeito de cada verbo e o nome referido por cada forma nominal. Só depois examine a construção especial: ausência de sujeito, passiva, quantidade, infinitivo ou variante documentada. A regra particular deve explicar a relação encontrada, não substituir sua identificação.
 
-A classe e o valor sintático determinam a flexão. Evite regras universais baseadas apenas na forma gráfica.
+<abbr title="Relação que determina a ligação de verbos e nomes a seus complementos">Regência</abbr> aprofunda a escolha das preposições; classes de palavras e verbos, as formas disponíveis. Aqui, a pergunta é: **qual termo determina esta flexão, nesta construção e neste sentido?**
 
-## 14. Método para resolver questões
-
-1. Localize o verbo ou a forma nominal questionada.
-2. Encontre o sujeito e reduza-o ao núcleo; não concorde por mera proximidade.
-3. Verifique se o verbo é pessoal, impessoal ou auxiliar de uma locução.
-4. Com *se*, classifique a transitividade e tente construir a passiva analítica.
-5. Em sujeito composto, observe posição, pessoa, conectivo, pontuação e relação de sentido.
-6. Em quantidades e relativos, procure a expressão especial e as variantes admitidas.
-7. Na concordância nominal, identifique a classe, a função e o referente de cada palavra.
-8. Distinga adjetivo variável de advérbio ou locução invariável.
-9. Em reescrita, confira simultaneamente concordância, estrutura, referência e sentido.
-10. Desconfie de comandos com *sempre*, *nunca* e *somente* em zonas reconhecidamente variáveis.
-
-## 15. Limites do assunto
-
-- A identificação das classes nominais e invariáveis pertence aos Assuntos 006 e 008.
-- Formação e flexão dos verbos pertencem aos Assuntos 005 e 007.
-- Regência verbal e nominal será tratada no Assunto 013.
-- Emprego do acento grave indicativo de crase será tratado no Assunto 014.
-
-Transitividade, pronomes e preposições aparecem aqui apenas quando determinam a concordância.
+**Recorte e atualização:** concordância verbal e nominal da <abbr title="Modelo de uso formal recomendado pelas gramáticas">norma-padrão</abbr>, para Analista Administração e Técnico-Administrativa do Tribunal de Contas do Estado do Maranhão. Fontes consultadas em 5 de setembro de 2026. Preferências institucionais não foram tratadas como proibições gramaticais universais. Fontes por tema nas referências deste assunto.
