@@ -6,56 +6,64 @@ order: 44
 storageId: problemas-geometricos
 ---
 
-## 1. Recorte
+## 1. Antes da fórmula, descubra o que está sendo medido
 
-O edital cobra **raciocínio lógico envolvendo problemas geométricos**. O objetivo deste assunto é reconhecer a estrutura geométrica de uma situação, escolher a relação adequada e validar a resposta — não transformar o item em um curso completo de geometria.
+Problemas geométricos costumam parecer uma coleção de fórmulas, mas a decisão mais importante vem antes da conta: **qual objeto o enunciado descreve e qual grandeza ele pede?**
 
-Priorize:
+Considere um cenário hipotético: um terreno retangular receberá uma cerca, parte do piso será revestida e um reservatório será instalado. As três perguntas podem usar o mesmo desenho, mas exigem grandezas diferentes:
 
-- ângulos e paralelismo quando necessários ao problema;
-- triângulos, semelhança, Teorema de Tales e Teorema de Pitágoras;
-- perímetros e áreas usuais;
-- figuras compostas;
-- circunferência, círculo, arcos e setores em aplicações diretas;
-- escalas e semelhança;
-- volumes e capacidade de prismas, cilindros, pirâmides e cones;
-- conversões de unidades lineares, quadradas e cúbicas.
+- cerca ao redor do terreno → **perímetro**, isto é, comprimento do contorno;
+- piso a revestir → **área**, isto é, medida da superfície;
+- água que cabe no reservatório → **volume ou capacidade**, isto é, medida do espaço ocupado.
 
-Operações aritméticas gerais pertencem ao Assunto 043. Problemas matriciais pertencem ao Assunto 045.
+Essa distinção impede um dos erros mais comuns em prova: escolher uma fórmula conhecida, mas para a grandeza errada.
 
-## 2. Fluxo de resolução
+Use este fluxo:
 
-1. Identifique a figura ou configuração.
-2. Separe dados declarados de propriedades apenas aparentes no desenho.
-3. Determine a grandeza pedida: comprimento, ângulo, área, volume ou capacidade.
-4. Confira as hipóteses do teorema ou fórmula.
-5. Uniformize unidades.
-6. Calcule e valide dimensão e ordem de grandeza.
+1. identifique a figura ou configuração;
+2. separe o que foi **dado** do que apenas parece verdadeiro no desenho;
+3. determine se a pergunta envolve comprimento, ângulo, perímetro, área, volume ou capacidade;
+4. verifique qual propriedade ou teorema pode ser usado e se suas hipóteses estão presentes;
+5. torne as unidades compatíveis;
+6. calcule e confira se a unidade e a ordem de grandeza da resposta fazem sentido.
 
-> Um desenho fora de escala organiza o raciocínio, mas não prova paralelismo, perpendicularidade, igualdade de lados ou medidas angulares.
+Um desenho fora de escala ajuda a organizar o raciocínio, mas não prova paralelismo, perpendicularidade, igualdade de lados ou medidas angulares.
 
-## 3. Ângulos e paralelas
+O recorte é **raciocínio lógico envolvendo problemas geométricos**. Operações aritméticas gerais são aprofundadas no Assunto 043; problemas matriciais, no Assunto 045. Aqui entram as ferramentas geométricas necessárias para modelar e resolver a situação.
 
-Relações básicas:
+## 2. Comprimentos e ângulos: use relações, não aparência
 
-| Relação | Regra |
-|---|---:|
-| complementares | somam $90^\circ$ |
-| suplementares | somam $180^\circ$ |
-| opostos pelo vértice | são iguais |
-| ao redor de um ponto | somam $360^\circ$ |
+### 2.1. Perímetro
 
-Quando **duas retas paralelas** são cortadas por uma transversal:
+Perímetro é a soma dos comprimentos que formam o contorno. Em um retângulo de lados $a$ e $b$,
 
-- correspondentes são iguais;
-- alternos internos e alternos externos são iguais;
-- colaterais internos e colaterais externos são suplementares.
+$$
+P=2a+2b=2(a+b).
+$$
 
-Sem o paralelismo, essas conclusões não são automáticas.
+Em um quadrado de lado $l$,
 
-## 4. Triângulos
+$$
+P=4l.
+$$
 
-A soma dos ângulos internos é
+Se a figura tiver recortes, conte apenas os segmentos que realmente pertencem à borda pedida. Uma linha interna não entra no perímetro externo.
+
+### 2.2. Relações angulares básicas
+
+Dois ângulos são **complementares** quando somam $90^\circ$ e **suplementares** quando somam $180^\circ$. Ângulos opostos pelo vértice têm a mesma medida, e os ângulos ao redor de um ponto somam $360^\circ$.
+
+Quando duas retas paralelas são cortadas por uma **transversal**, isto é, uma reta que intercepta ambas, surgem relações específicas:
+
+- ângulos correspondentes são iguais;
+- ângulos alternos internos e alternos externos são iguais;
+- ângulos colaterais internos e colaterais externos são suplementares.
+
+A palavra decisiva é **paralelas**. Sem essa hipótese, essas igualdades e suplementaridades não podem ser usadas automaticamente.
+
+## 3. Triângulos: a forma mais frequente de criar relações
+
+A soma dos ângulos internos de qualquer triângulo é
 
 $$
 180^\circ.
@@ -63,36 +71,59 @@ $$
 
 Um ângulo externo é igual à soma dos dois ângulos internos não adjacentes.
 
-### 4.1. Desigualdade triangular
-
-Se $c$ é o maior dos três comprimentos positivos, existe triângulo não degenerado se
+Se $c$ é o maior entre três comprimentos positivos $a$, $b$ e $c$, eles formam um triângulo não degenerado somente se
 
 $$
 c<a+b.
 $$
 
-### 4.2. Isósceles e equilátero
+A igualdade $c=a+b$ produz uma figura achatada, não um triângulo com área positiva.
 
-- isósceles: ângulos opostos aos lados congruentes são iguais;
-- equilátero: três lados iguais e três ângulos de $60^\circ$.
+### 3.1. Isósceles e equilátero
 
-### 4.3. Teorema de Pitágoras
+Em um triângulo isósceles, lados iguais ficam opostos a ângulos iguais. Em um equilátero, os três lados são iguais e os três ângulos medem $60^\circ$.
 
-Somente em triângulo retângulo:
+A área de qualquer triângulo é
 
 $$
-a^2+b^2=c^2,
+A=\frac{bh}{2},
 $$
 
-em que $c$ é a hipotenusa.
+em que $h$ é a altura **perpendicular** à base escolhida.
 
-A diagonal de um retângulo ou quadrado pode criar um triângulo retângulo e permitir a aplicação de Pitágoras.
+Para um triângulo equilátero de lado $l$, essa fórmula leva a
 
-## 5. Semelhança e Tales
+$$
+A=\frac{l^2\sqrt3}{4}.
+$$
 
-Figuras semelhantes preservam ângulos correspondentes e possuem comprimentos correspondentes proporcionais.
+Esse resultado é útil quando o enunciado fornece apenas o lado ou o perímetro do equilátero.
 
-Se a razão linear é $k$:
+Dois triângulos que usam bases sobre a mesma reta e têm a mesma altura têm áreas proporcionais às bases. Assim, se uma base é três quartos da outra, a área também é três quartos, desde que a altura seja a mesma.
+
+### 3.2. Teorema de Pitágoras
+
+Pitágoras só vale em triângulo retângulo. Se $a$ e $b$ são os catetos e $c$ é a hipotenusa,
+
+$$
+a^2+b^2=c^2.
+$$
+
+Uma diagonal de retângulo ou quadrado costuma criar o triângulo retângulo necessário. No quadrado de lado $l$,
+
+$$
+d^2=l^2+l^2
+\quad\Longrightarrow\quad
+d=l\sqrt2.
+$$
+
+Em prova, o ponto não é apenas reconhecer a fórmula: é confirmar de onde vem o ângulo reto.
+
+## 4. Semelhança, Tales e escala: o mesmo desenho em tamanhos diferentes
+
+Figuras semelhantes têm a mesma forma: ângulos correspondentes são iguais e comprimentos correspondentes guardam uma mesma razão.
+
+Se uma figura é obtida da outra multiplicando todos os comprimentos por $k$, então:
 
 $$
 \frac{L_2}{L_1}=k,
@@ -102,11 +133,13 @@ $$
 \frac{V_2}{V_1}=k^3.
 $$
 
-### 5.1. Teorema de Tales
+A mudança de expoente acompanha a dimensão da grandeza: comprimento é unidimensional, área é bidimensional e volume é tridimensional.
 
-Em configurações com retas paralelas, segmentos correspondentes nas transversais são proporcionais. A correspondência precisa ser mantida na mesma ordem.
+Isso também explica o comportamento do perímetro: se todos os comprimentos são multiplicados por $k$, o perímetro também é multiplicado por $k$.
 
-Exemplo:
+### 4.1. Teorema de Tales
+
+Quando retas paralelas cortam duas transversais, os segmentos correspondentes determinados nelas são proporcionais. Por exemplo,
 
 $$
 \frac{4}{6}=\frac{x}{9}
@@ -114,15 +147,26 @@ $$
 x=6.
 $$
 
-## 6. Polígonos e áreas
+Dois cuidados evitam a maior parte dos erros:
 
-Para um polígono simples de $n$ lados:
+1. o paralelismo precisa estar dado ou demonstrado;
+2. os segmentos comparados devem manter a mesma correspondência.
+
+### 4.2. Escalas
+
+Escala $1:n$ significa que uma unidade no desenho representa $n$ unidades reais na dimensão linear.
+
+Em escala $1:50$, um segmento de 8 cm representa
 
 $$
-S_i=(n-2)180^\circ.
+8\cdot50=400\text{ cm}=4\text{ m}.
 $$
 
-### 6.1. Fórmulas de maior rendimento
+Se o problema comparar áreas de figuras semelhantes, a razão passa ao quadrado; para volumes de sólidos semelhantes, ao cubo. Uma maquete em escala linear $1:10$, por exemplo, tem áreas correspondentes na razão $1:100$ e volumes na razão $1:1000$.
+
+## 5. Áreas planas: escolha a figura e identifique a altura correta
+
+As fórmulas mais frequentes são:
 
 | Figura | Área |
 |---|---:|
@@ -133,32 +177,48 @@ $$
 | trapézio | $\dfrac{(B+b)h}{2}$ |
 | losango | $\dfrac{Dd}{2}$ |
 
-Perímetro mede o contorno e usa unidade linear. Área mede superfície e usa unidade quadrada.
+A tabela só funciona se as letras estiverem associadas às medidas corretas. Em paralelogramo, triângulo e trapézio, a altura $h$ é a distância **perpendicular** à base; um lado inclinado não é automaticamente uma altura.
 
-A altura $h$ é **perpendicular** à base escolhida; um lado inclinado não é automaticamente a altura.
+### 5.1. Figuras compostas
 
-### 6.2. Figuras compostas
+Quando a região não coincide com uma fórmula única, reconstrua-a com figuras conhecidas:
 
-Duas estratégias dominam:
+- **decomposição:** divida a região em partes sem sobreposição e some as áreas;
+- **subtração:** calcule uma região maior e retire os recortes.
 
-- **decomposição:** dividir em figuras conhecidas e somar áreas;
-- **subtração:** calcular uma região maior e retirar vazios ou recortes.
-
-Somente some ou subtraia grandezas com unidades compatíveis.
-
-## 7. Circunferência e círculo
-
-- circunferência: contorno;
-- círculo: região interna;
-- diâmetro: $d=2r$.
-
-Comprimento:
+Se um retângulo de $10\text{ cm}\times8\text{ cm}$ perde um quadrado de lado $3\text{ cm}$, a área restante é
 
 $$
-C=2\pi r=\pi d.
+10\cdot8-3^2=80-9=71\text{ cm}^2.
 $$
 
-Área:
+### 5.2. Polígonos
+
+Para um polígono simples de $n$ lados,
+
+$$
+S_i=(n-2)180^\circ,
+$$
+
+onde $S_i$ é a soma dos ângulos internos. Um quadrilátero, por exemplo, tem soma interna de $360^\circ$.
+
+Em um polígono regular, todos os lados e todos os ângulos internos são iguais. Quando o número de vértices é par, há pares de vértices opostos que ficam alinhados com o centro; em um polígono regular convexo, esses pares realizam a maior distância entre vértices.
+
+## 6. Circunferência e círculo: primeiro decida se a pergunta é de contorno ou superfície
+
+A **circunferência** é o contorno; o **círculo** é a região interna. Se $r$ é o raio e $d$ o diâmetro,
+
+$$
+d=2r.
+$$
+
+O comprimento da circunferência é
+
+$$
+C=2\pi r=\pi d,
+$$
+
+e a área do círculo é
 
 $$
 A=\pi r^2.
@@ -166,9 +226,9 @@ $$
 
 Preserve $\pi$ quando o enunciado não fornecer aproximação.
 
-### 7.1. Arcos e setores
+### 6.1. Arcos e setores
 
-Se $\theta$ é o ângulo central em graus:
+Um ângulo central seleciona a mesma fração do contorno e da área. Se $\theta$ está em graus,
 
 $$
 L_{\text{arco}}
@@ -182,85 +242,118 @@ A_{\text{setor}}
 \frac{\theta}{360^\circ}\,\pi r^2.
 $$
 
-A ideia central é proporcional: $90^\circ$ corresponde a um quarto; $60^\circ$, a um sexto.
+Assim, $90^\circ$ corresponde a um quarto e $60^\circ$ a um sexto.
 
-### 7.2. Coroa circular
+### 6.2. Coroa circular e tangência
 
-Entre círculos concêntricos de raios $R>r$:
+Entre círculos concêntricos de raios $R>r$, a área da coroa é a diferença entre as áreas:
 
 $$
 A=\pi(R^2-r^2).
 $$
 
-Não confunda $R^2-r^2$ com $(R-r)^2$.
+Não substitua essa expressão por $\pi(R-r)^2$.
 
-## 8. Escalas
+Quando duas circunferências são tangentes externamente, elas se tocam em um único ponto e a distância entre seus centros é a soma dos raios. Essa relação permite transformar problemas de tangência em equações de comprimentos.
 
-Escala $1:n$ significa que uma unidade no desenho representa $n$ unidades reais na dimensão linear.
+## 7. Sólidos: diferencie espaço interno de material da superfície
 
-Assim:
+Em sólidos, duas perguntas parecidas usam grandezas diferentes:
 
-- comprimento: fator $n$;
-- área de figuras semelhantes: fator $n^2$;
-- volume de sólidos semelhantes: fator $n^3$.
+- **quanto cabe dentro?** → volume ou capacidade;
+- **quanto material cobre as faces?** → área de superfície.
 
-Exemplo: em escala $1:50$, 8 cm representam
+### 7.1. Prismas, paralelepípedos e cubos
 
-$$
-8\cdot50=400\text{ cm}=4\text{ m}.
-$$
-
-## 9. Volumes e capacidade
-
-A altura usada nas fórmulas é a distância **perpendicular** entre base e plano oposto.
-
-### 9.1. Prismas e paralelepípedos
+Para um prisma de área da base $A_b$ e altura perpendicular $h$,
 
 $$
 V=A_bh.
 $$
 
-Para um paralelepípedo retângulo de dimensões $a$, $b$ e $c$:
+Num prisma reto, cada face lateral é um retângulo. Se $P_b$ é o perímetro da base, a área lateral é
+
+$$
+A_L=P_bh,
+$$
+
+e a área total é
+
+$$
+A_T=A_L+2A_b.
+$$
+
+Para um paralelepípedo retângulo de dimensões $a$, $b$ e $c$,
 
 $$
 V=abc.
 $$
 
-Para um cubo:
+Para um cubo de aresta $l$,
 
 $$
 V=l^3.
 $$
 
-Em problemas de área de material, conte somente as faces realmente presentes. Uma caixa sem tampa, por exemplo, não inclui a face superior.
+Em problemas de material, conte apenas as faces existentes. Uma caixa retangular sem tampa de base $a\times b$ e altura $h$, por exemplo, usa
 
-### 9.2. Cilindro circular reto
+$$
+A=ab+2ah+2bh.
+$$
+
+A face superior não entra na soma.
+
+### 7.2. Cilindro
+
+No cilindro circular reto,
 
 $$
 V=\pi r^2h.
 $$
 
-### 9.3. Pirâmides e cones
+A área lateral é o retângulo obtido ao “abrir” a superfície lateral: sua largura é o comprimento da circunferência e sua altura é $h$. Portanto,
+
+$$
+A_L=2\pi rh.
+$$
+
+Se o cilindro é fechado, a área total inclui também as duas bases:
+
+$$
+A_T=2\pi rh+2\pi r^2.
+$$
+
+### 7.3. Pirâmides e cones
+
+Para uma pirâmide,
 
 $$
 V=\frac{A_bh}{3}.
 $$
 
-No cone circular reto:
+No cone circular reto,
 
 $$
 V=\frac{\pi r^2h}{3}.
 $$
 
-Logo, com a mesma área de base e a mesma altura:
+Com a mesma área de base e a mesma altura,
 
 $$
 V_{\text{cone}}=\frac13V_{\text{cilindro}},
 $$
 
-e analogamente uma pirâmide tem um terço do volume do prisma correspondente.
+e a pirâmide tem um terço do volume do prisma correspondente.
 
-## 10. Conversões dimensionais
+A semelhança continua valendo em sólidos. Se todas as medidas lineares de um cone são reduzidas à metade, o volume é multiplicado por
+
+$$
+\left(\frac12\right)^3=\frac18.
+$$
+
+Esse é o mecanismo por trás de problemas em que um líquido ocupa apenas parte da altura de um recipiente cônico semelhante ao recipiente inteiro.
+
+## 8. Conversões: a unidade também tem dimensão
 
 Se
 
@@ -268,19 +361,21 @@ $$
 1\text{ m}=100\text{ cm},
 $$
 
-então
+então uma área quadrada de lado 1 m tem
 
 $$
-1\text{ m}^2=10\,000\text{ cm}^2
+1\text{ m}^2=(100\text{ cm})^2=10\,000\text{ cm}^2,
 $$
 
-e
+e um cubo de aresta 1 m tem
 
 $$
-1\text{ m}^3=1\,000\,000\text{ cm}^3.
+1\text{ m}^3=(100\text{ cm})^3=1\,000\,000\text{ cm}^3.
 $$
 
-Relações úteis:
+O fator de conversão linear precisa ser elevado ao quadrado para áreas e ao cubo para volumes.
+
+Para capacidade,
 
 $$
 1\text{ L}=1\text{ dm}^3=1000\text{ cm}^3,
@@ -290,19 +385,26 @@ $$
 1\text{ m}^3=1000\text{ L}.
 $$
 
-O fator linear deve ser elevado ao quadrado para áreas e ao cubo para volumes.
+Quando o enunciado fornece uma unidade agrária ou outra equivalência específica, transforme tudo para uma unidade comum antes de comparar áreas.
 
-## 11. Pegadinhas
+## 9. Como validar a resposta em prova
 
-- Desenho não prova propriedade.
-- Paralelas são hipótese necessária para as relações da transversal e para Tales.
-- Pitágoras exige triângulo retângulo.
-- Perímetro, área e volume têm dimensões diferentes.
-- Altura é perpendicular à base.
-- Raio não é diâmetro.
-- Comprimento da circunferência não é área do círculo.
-- Escala linear não passa diretamente para área ou volume.
-- Cone e pirâmide têm fator $1/3$ no volume.
-- Em caixa sem tampa, não conte a tampa.
-- Conversão de área e volume não usa fator linear.
-- Resultado deve ser compatível com a figura e com a unidade pedida.
+Antes de marcar a alternativa, faça três verificações rápidas:
+
+1. **hipótese:** o teorema usado realmente podia ser aplicado? Paralelas para Tales; ângulo reto para Pitágoras; semelhança para usar uma razão comum;
+2. **dimensão:** a resposta saiu em unidade linear, quadrada ou cúbica compatível com o que foi pedido?;
+3. **ordem de grandeza:** o resultado cabe na figura e no contexto?
+
+Alguns contrastes concentram as principais armadilhas:
+
+- desenho aparente não substitui propriedade declarada;
+- perímetro mede contorno; área mede superfície; volume mede espaço;
+- raio é metade do diâmetro;
+- comprimento da circunferência não é área do círculo;
+- altura é perpendicular à base;
+- escala linear não passa diretamente para área ou volume;
+- cone e pirâmide usam o fator $1/3$ no volume;
+- caixa sem tampa não inclui a face superior;
+- conversão de área e volume não usa o fator linear sem elevar a potência.
+
+O objetivo final é reconhecer **qual relação geométrica está escondida no enunciado**, e não procurar uma fórmula pela aparência da figura.
