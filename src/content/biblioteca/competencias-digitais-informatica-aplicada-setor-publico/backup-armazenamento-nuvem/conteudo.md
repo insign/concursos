@@ -6,37 +6,65 @@ order: 26
 storageId: backup-armazenamento-nuvem
 ---
 
-## 1. Recorte do assunto
+## 1. Um arquivo sumiu: qual cópia realmente salva?
 
-Este assunto reúne dois pontos relacionados do edital:
+Imagine um cenário hipotético: às 12 h, uma pasta de trabalho é atingida por <abbr title="Programa malicioso que bloqueia ou criptografa dados para extorsão">ransomware</abbr>. A pasta estava sincronizada com a nuvem, então os arquivos criptografados também chegaram ao serviço remoto. Há ainda uma cópia feita às 11 h em outro local.
 
-- **procedimentos de cópia de segurança (backup)**;
-- **armazenamento em nuvem**, com conceitos e aplicações do Microsoft OneDrive e do Google Drive.
+A pergunta útil não é “há uma cópia?”, mas **“consigo voltar ao estado correto, dentro do tempo necessário?”**. É esse problema que organiza o assunto.
 
-O vínculo entre eles é a preservação e a disponibilidade de dados. Entretanto, sincronizar ou armazenar um arquivo na nuvem não cria automaticamente uma política completa de backup.
+**Backup** é uma cópia criada para permitir recuperação de dados, configurações, aplicações ou sistemas. **Restauração** é o uso dessa cópia para recuperar o que foi perdido ou danificado. Fazer o backup e conseguir restaurá-lo são etapas diferentes.
 
-Recursos, nomes de comandos, prazos e limites comerciais podem variar conforme conta, licença, sistema operacional, versão do aplicativo e política administrativa. Em prova, prefira afirmações condicionadas ao ambiente.
+O armazenamento em nuvem pode participar dessa estratégia, mas **sincronização não é automaticamente backup**: se uma exclusão, corrupção ou criptografia for sincronizada, o erro pode se propagar.
 
-> **Roteiro de resolução:** objetivo de recuperação → escopo → ponto no tempo → tipo de cópia → localização/proteção → cadeia de restauração → teste → permissão e retenção.
+Ao analisar uma questão, pense nesta sequência:
+
+> o que recuperar → até qual momento → em quanto tempo → de qual cópia → com quais dependências → como comprovar que funciona.
 
 ---
 
-## 2. Backup, restauração e objetivo de recuperação
+## 2. Mecanismos parecidos, finalidades diferentes
 
-**Backup** é uma cópia destinada à recuperação de dados, aplicações, configurações ou sistemas. Seu valor não está apenas em existir, mas em poder ser lida e restaurada no prazo necessário.
+Antes dos tipos de backup, separe mecanismos que costumam ser confundidos.
 
-**Restauração** é o processo de recuperar o conteúdo a partir da cópia. Criar o backup e conseguir restaurá-lo são etapas diferentes.
+| Mecanismo | Para que serve | Limite principal |
+|---|---|---|
+| backup | manter cópia recuperável | depende de retenção, proteção e teste |
+| <abbr title="Registro do estado de dados ou sistema em determinado instante">snapshot</abbr> | voltar a um estado pontual | pode depender do mesmo armazenamento |
+| sincronização | manter alterações coerentes entre locais | pode propagar exclusão, corrupção e criptografia |
+| replicação | manter outra instância atualizada | pode copiar também o estado incorreto |
+| versionamento | conservar estados anteriores de um item | pode ter limites de prazo ou quantidade |
+| arquivamento | preservar informação por longo prazo | não substitui recuperação operacional frequente |
+| redundância | tolerar falha de componente | não cria necessariamente histórico independente |
+| imagem de sistema | permitir reconstrução ampla | exige compatibilidade e procedimento de recuperação |
 
-Uma política útil responde a quatro perguntas:
+### 2.1 <abbr title="Registro do estado de dados ou sistema em determinado instante">Snapshot</abbr> e domínio de falha
 
-1. o que precisa ser recuperado;
-2. até que ponto no tempo;
-3. em quanto tempo;
-4. como se comprova que a recuperação funciona.
+Um <abbr title="Registro do estado de dados ou sistema em determinado instante">snapshot</abbr> pode ser rápido e útil. O problema é a **independência**. Se o <abbr title="Registro do estado de dados ou sistema em determinado instante">snapshot</abbr> e o volume original dependem do mesmo equipamento ou repositório, uma única falha pode atingir ambos.
 
-### 2.1 Escopos de recuperação
+Por isso, <abbr title="Registro do estado de dados ou sistema em determinado instante">snapshot</abbr> no mesmo <abbr title="Infraestrutura usada para armazenar dados">storage</abbr> não é, por si só, backup independente. Ele pode integrar uma estratégia de backup quando é preservado em domínio de falha separado.
 
-| Escopo | Exemplo |
+### 2.2 <abbr title="Redundant Array of Independent Disks">RAID</abbr>, espelhamento e replicação
+
+<abbr title="Redundant Array of Independent Disks">RAID</abbr> e espelhamento podem manter o serviço diante de certas falhas físicas. Isso é **disponibilidade**, não histórico de recuperação. Eles não impedem, por si sós, exclusão lógica, corrupção, alteração indevida ou <abbr title="Programa malicioso que bloqueia ou criptografa dados para extorsão">ransomware</abbr>.
+
+### 2.3 Sincronização
+
+Na sincronização, editar, renomear, mover ou excluir um arquivo em um local pode produzir a mesma mudança nos demais. Histórico de versões e lixeira podem ajudar, mas têm regras próprias de retenção. Portanto, “está na nuvem” e “está protegido por backup” não são afirmações equivalentes.
+
+---
+
+## 3. O objetivo de recuperação vem antes da tecnologia
+
+Uma política de backup precisa responder pelo menos a quatro perguntas:
+
+1. **o que** precisa ser recuperado;
+2. **até que ponto no tempo** a perda é aceitável;
+3. **em quanto tempo** o serviço precisa voltar;
+4. **como** será comprovado que a recuperação funciona.
+
+O escopo pode ser pequeno, como um arquivo, ou amplo, como um ambiente inteiro:
+
+| Escopo | Exemplo de recuperação |
 |---|---|
 | arquivo | restaurar um documento excluído |
 | pasta | recuperar um diretório completo |
@@ -45,120 +73,43 @@ Uma política útil responde a quatro perguntas:
 | imagem de sistema | recuperar sistema operacional, aplicações e configurações |
 | ambiente | reconstruir serviços, identidades, rede e dependências coordenadas |
 
-Copiar somente os arquivos de dados pode ser insuficiente para recuperar uma aplicação. Banco consistente, certificados, configurações, metadados, versões de software e procedimento de reinstalação também podem ser necessários.
+Copiar apenas arquivos de dados pode não bastar para recuperar uma aplicação. Banco consistente, certificados, configurações, metadados, versões de software e procedimento de reinstalação também podem ser necessários.
+
+### 3.1 Frequência, retenção e rotação
+
+- **frequência**: intervalo entre execuções;
+- **retenção**: tempo durante o qual cópias ou versões são preservadas;
+- **rotação**: substituição planejada entre mídias ou gerações.
+
+Não existe frequência universal. Quanto maior a criticidade e a taxa de alteração dos dados, menor tende a ser o intervalo aceitável entre pontos de recuperação.
+
+Um modelo clássico de rotação é **avô–pai–filho**: cópias diárias, semanais e mensais ocupam gerações diferentes. Essa rotação não define, sozinha, tipo de backup, mídia, prazo legal nem objetivo de recuperação.
+
+### 3.2 <abbr title="Recovery Point Objective">RPO</abbr>: quanto dado posso perder?
+
+O <abbr title="Recovery Point Objective">RPO</abbr> é o objetivo de ponto de recuperação: indica a **perda máxima tolerável de dados medida no tempo**.
+
+Exemplo hipotético: a falha ocorre às 12 h e o último ponto recuperável é das 11 h. A perda potencial é de uma hora. Se o <abbr title="Recovery Point Objective">RPO</abbr> era de duas horas, esse objetivo pode ter sido atendido.
+
+### 3.3 <abbr title="Recovery Time Objective">RTO</abbr>: quanto tempo posso ficar parado?
+
+O <abbr title="Recovery Time Objective">RTO</abbr> é o objetivo de tempo de recuperação: indica o tempo máximo previsto para restabelecer o serviço.
+
+Se a falha das 12 h só é recuperada às 17 h, a recuperação levou cinco horas. Um <abbr title="Recovery Time Objective">RTO</abbr> de duas horas foi descumprido, ainda que o <abbr title="Recovery Point Objective">RPO</abbr> tenha sido atendido.
+
+**Pegadinha central:** <abbr title="Recovery Point Objective">RPO</abbr> mede o ponto de dados aceitável; <abbr title="Recovery Time Objective">RTO</abbr> mede o tempo para voltar a operar.
 
 ---
 
-## 3. Conceitos que não são sinônimos
+## 4. Tipos de backup e cadeia de restauração
 
-| Mecanismo | Finalidade | Limitação |
-|---|---|---|
-| backup | preservar cópia recuperável | exige retenção, proteção e teste |
-| snapshot | registrar estado de volume ou sistema em um instante | pode depender do mesmo armazenamento |
-| sincronização | manter alterações coerentes entre locais | pode propagar exclusão e corrupção |
-| replicação | manter outra instância atualizada | pode replicar o estado incorreto |
-| versionamento | manter estados anteriores de um item | quantidade e prazo podem ser limitados |
-| arquivamento | preservar informação por longo prazo | não substitui recuperação operacional frequente |
-| redundância | tolerar falha de componente | não cria necessariamente histórico independente |
-| imagem de sistema | permitir reconstrução ampla | requer compatibilidade e procedimento de recuperação |
+### 4.1 Completo
 
-### 3.1 Snapshot
+O **backup completo** copia todo o conjunto selecionado para aquela execução. Em regra, simplifica a restauração, mas exige mais tempo e espaço de cópia.
 
-Snapshot pode ser rápido e útil para retorno a um estado anterior. Porém, se ficar no mesmo equipamento ou armazenamento do volume original, pode compartilhar o mesmo domínio de falha.
+### 4.2 Incremental
 
-> Snapshot no mesmo storage não é automaticamente backup independente.
-
-Ele pode integrar uma estratégia de backup quando é exportado, replicado ou preservado em domínio de falha separado.
-
-### 3.2 RAID, espelhamento e replicação
-
-RAID e espelhamento aumentam disponibilidade diante de determinadas falhas físicas. Não protegem, por si sós, contra:
-
-- exclusão;
-- corrupção;
-- alteração indevida;
-- ransomware;
-- falha lógica da aplicação;
-- perda do equipamento inteiro.
-
-### 3.3 Sincronização
-
-A sincronização pode refletir em todos os locais:
-
-- edição;
-- renomeação;
-- movimentação;
-- exclusão;
-- criptografia maliciosa.
-
-Lixeira e versões ajudam, mas possuem condições e retenção próprias.
-
----
-
-## 4. Planejamento: frequência, retenção, RPO e RTO
-
-### 4.1 Política de backup
-
-A política deve definir:
-
-- dados, aplicações e configurações abrangidos;
-- responsáveis pela execução, guarda e restauração;
-- frequência e horários;
-- tipos de backup;
-- destinos, mídias e localização;
-- retenção e rotação;
-- credenciais e controles de acesso;
-- proteção contra alteração;
-- monitoramento e tratamento de falhas;
-- testes de restauração;
-- descarte ou arquivamento final.
-
-### 4.2 Frequência, retenção e rotação
-
-| Termo | Significado |
-|---|---|
-| frequência | intervalo entre execuções |
-| retenção | tempo de conservação de cópias ou versões |
-| rotação | substituição planejada entre mídias ou gerações |
-
-Não existe frequência universal. Dados críticos e muito alterados tendem a exigir pontos mais frequentes.
-
-Um exemplo clássico de rotação é **avô–pai–filho**:
-
-| Geração | Exemplo |
-|---|---|
-| filho | diário |
-| pai | semanal |
-| avô | mensal |
-
-O modelo não define sozinho tipo de backup, RPO, RTO, mídia ou prazo legal.
-
-### 4.3 RPO e RTO
-
-| Objetivo | Pergunta | Mede |
-|---|---|---|
-| RPO | até que ponto no tempo recuperar? | perda máxima tolerável de dados |
-| RTO | em quanto tempo retomar? | duração máxima da recuperação |
-
-Exemplo:
-
-- falha às 12 h;
-- último ponto recuperável às 11 h;
-- serviço restabelecido às 17 h.
-
-A perda potencial é de uma hora; a recuperação levou cinco horas. Um RPO de duas horas pode ter sido atendido, enquanto um RTO de duas horas foi descumprido.
-
----
-
-## 5. Tipos de backup
-
-### 5.1 Completo
-
-O **completo** copia todo o conjunto selecionado. Em regra, é simples de restaurar, mas exige mais espaço e tempo de execução.
-
-### 5.2 Incremental
-
-O **incremental** copia mudanças desde o backup anterior, completo ou incremental.
+O **incremental** copia as mudanças desde o backup anterior, seja ele completo ou incremental.
 
 ```text
 Domingo: F0
@@ -167,17 +118,17 @@ Terça:   I2
 Quarta:  I3
 ```
 
-Para restaurar quarta-feira:
+Para reconstruir o estado de quarta-feira, a cadeia é:
 
 ```text
 F0 + I1 + I2 + I3
 ```
 
-A perda de `I2` pode impedir a reconstrução do estado de `I3`.
+Se `I2` for perdido, `I3` não contém necessariamente as mudanças que estavam apenas em `I2`. A cadeia pode ficar incompleta.
 
-### 5.3 Diferencial
+### 4.3 Diferencial
 
-O **diferencial** copia mudanças desde o último completo.
+O **diferencial** copia as mudanças desde o último backup completo.
 
 ```text
 Domingo: F0
@@ -186,423 +137,262 @@ Terça:   D2
 Quarta:  D3
 ```
 
-Para restaurar quarta-feira:
+Para reconstruir quarta-feira:
 
 ```text
 F0 + D3
 ```
 
-O diferencial tende a crescer até o próximo completo.
+`D1` e `D2` não são necessários para esse estado, porque `D3` acumula as mudanças desde `F0`.
 
-### 5.4 Comparação
+### 4.4 Comparação que vale memorizar depois de entender
 
 | Critério | Completo | Incremental | Diferencial |
 |---|---|---|---|
 | copia | todo o escopo | desde o backup anterior | desde o último completo |
-| execução | tende a ser maior | tende a ser menor | cresce ao longo do ciclo |
-| restauração | completo escolhido | completo + todos os incrementais | completo + último diferencial |
+| execução | tende a ser maior | tende a ser menor | tende a crescer no ciclo |
+| restauração | completo escolhido | completo + todos os incrementais necessários | completo + último diferencial |
 | dependência de cadeia | menor | maior | intermediária |
 
-“Mais rápido” e “menor” são tendências, não garantias absolutas.
+“Mais rápido” e “menor” são tendências, não garantias absolutas: o resultado depende do volume de dados, tecnologia e implementação.
 
 ---
 
-## 6. Classificação clássica do Windows e atributo de arquivo
+## 5. Classificação clássica do Windows e atributo de arquivo
 
-Em classificações clássicas ou legadas, o atributo de arquivo indica que o item mudou desde determinado backup.
+Algumas questões adotam uma classificação clássica em que o **atributo de arquivo** indica que o item mudou desde determinado backup.
 
-| Tipo | Seleção | Atributo após copiar |
+| Tipo | O que seleciona | Limpa o atributo após copiar? |
 |---|---|---|
-| Normal/Completo | todos | limpa |
-| Cópia | todos | não limpa |
-| Diário | alterados no dia | não limpa |
-| Incremental | atributo marcado | limpa |
-| Diferencial | atributo marcado | não limpa |
+| Normal/Completo | todos | sim |
+| Cópia | todos | não |
+| Diário | alterados no dia | não |
+| Incremental | itens marcados | sim |
+| Diferencial | itens marcados | não |
 
-Consequências:
+Daí surgem três consequências frequentes em prova:
 
-- o backup de **cópia** pode ser feito extraordinariamente sem interromper a sequência incremental/diferencial;
-- logo depois de um completo, incremental e diferencial podem selecionar itens semelhantes;
-- depois do incremental, o atributo costuma ser limpo;
-- depois do diferencial, permanece marcado.
+- o backup de **cópia** pode ser feito extraordinariamente sem alterar a sequência incremental/diferencial;
+- depois de um incremental, o atributo tende a ser limpo;
+- depois de um diferencial, ele permanece marcado.
 
-Nem toda solução moderna usa esse mecanismo. Em prova, observe se a questão adota a taxonomia clássica.
+Nem toda solução moderna usa esse mecanismo. Só aplique essa lógica quando a questão adotar a taxonomia clássica.
 
 ---
 
-## 7. Destinos, separação e regra 3-2-1
+## 6. Onde guardar: independência, regra 3-2-1 e <abbr title="Programa malicioso que bloqueia ou criptografa dados para extorsão">ransomware</abbr>
 
-Backups podem ser mantidos em:
+Uma cópia em outra pasta do **mesmo disco** pode ajudar contra exclusão pontual, mas continua exposta à falha desse disco. A localização precisa reduzir o risco de uma única falha atingir original e cópia.
 
-- mídia removível;
-- servidor de arquivos;
-- equipamento de armazenamento em rede;
-- fita;
-- segundo equipamento;
-- local físico separado;
-- serviço de backup ou armazenamento em nuvem.
-
-### 7.1 Mesma unidade não basta
-
-Outra pasta no mesmo disco pode ajudar contra exclusão pontual, mas continua exposta à falha da unidade.
-
-### 7.2 Offline e off-site
+Quatro propriedades aparecem muito:
 
 | Propriedade | Significado |
 |---|---|
-| offline | desconectado ou inacessível ao ambiente operacional normal |
-| off-site | fora do local físico principal |
-| imutável | não alterável durante o período definido |
-| criptografado | protegido contra leitura sem a chave |
+| <abbr title="Desconectado ou inacessível ao ambiente operacional normal">offline</abbr> | não permanece acessível ao ambiente operacional normal |
+| <abbr title="Mantido fora do local físico principal">off-site</abbr> | fica fora do local físico principal |
+| imutável | não pode ser alterado durante o período definido |
+| criptografado | não pode ser lido sem a chave adequada |
 
-Offline e off-site não são sinônimos. Uma cópia pode ser off-site e continuar online.
+<abbr title="Desconectado ou inacessível ao ambiente operacional normal">Offline</abbr> e <abbr title="Mantido fora do local físico principal">off-site</abbr> não são sinônimos. Uma cópia remota pode estar <abbr title="Mantido fora do local físico principal">off-site</abbr> e continuar conectada à rede.
 
-### 7.3 Regra 3-2-1
+### 6.1 Regra 3-2-1
 
-A referência recomenda:
+Como heurística de separação, a regra 3-2-1 recomenda:
 
-1. **3 cópias**: uma primária e dois backups;
+1. **3 cópias** dos dados — uma primária e dois backups;
 2. **2 tipos de mídia**;
 3. **1 cópia fora do local**.
 
-Ela não define sozinha frequência, retenção, RPO, RTO, credenciais, imutabilidade ou testes.
+Ela não define sozinha frequência, retenção, <abbr title="Recovery Point Objective">RPO</abbr>, <abbr title="Recovery Time Objective">RTO</abbr>, credenciais, imutabilidade nem teste de restauração.
+
+### 6.2 Resiliência a <abbr title="Programa malicioso que bloqueia ou criptografa dados para extorsão">ransomware</abbr>
+
+Uma estratégia resiliente pode combinar cópia <abbr title="Desconectado ou inacessível ao ambiente operacional normal">offline</abbr>, cópia <abbr title="Mantido fora do local físico principal">off-site</abbr>, armazenamento imutável, credenciais separadas, menor privilégio e testes regulares.
+
+A cópia mais recente nem sempre é a correta: se o comprometimento começou antes do último backup, esse backup pode conter dados já afetados. A recuperação deve escolher um ponto confiável anterior ao incidente e evitar reintroduzir o problema no ambiente restaurado.
 
 ---
 
-## 8. Proteção contra ransomware
+## 7. Um backup só vale o que consegue restaurar
 
-Uma estratégia resiliente pode combinar:
+A execução sem erro é evidência útil, mas insuficiente. O ciclo operacional inclui preparação, acompanhamento e validação.
 
-- cópia offline;
-- cópia off-site;
-- armazenamento imutável;
-- credenciais separadas do ambiente produtivo;
-- menor privilégio;
-- inventário e catálogo protegidos;
-- monitoramento de exclusões;
-- imagens confiáveis de sistemas críticos;
-- testes regulares;
-- restauração em ambiente controlado;
-- escolha de ponto anterior ao comprometimento.
+Antes da cópia, defina escopo, dependências, destino, retenção, credenciais e consistência da aplicação. Depois, verifique falhas, itens ignorados, proteção contra alteração e integridade do conjunto.
 
-Pegadinhas:
+### 7.1 <abbr title="Valor calculado para detectar alteração no conteúdo de dados">Checksum</abbr>
 
-- backup conectado permanentemente pode ser atingido;
-- criptografia protege confidencialidade, mas não comprova integridade;
-- imutabilidade não comprova que a cópia é restaurável;
-- a cópia mais recente pode conter malware;
-- restaurar sem validar o ambiente pode reintroduzir o problema.
+Um <abbr title="Valor calculado para detectar alteração no conteúdo de dados">checksum</abbr> pode indicar que os bytes mudaram. Ele não prova, sozinho, que:
 
----
+- todos os arquivos necessários estão presentes;
+- permissões e metadados foram preservados;
+- a aplicação inicia corretamente;
+- a cadeia incremental está completa;
+- a versão é compatível;
+- o <abbr title="Recovery Time Objective">RTO</abbr> será atendido.
 
-## 9. Ciclo operacional
+### 7.2 Teste de restauração
 
-### 9.1 Antes
+Um teste útil verifica legibilidade, completude, cadeia de dependências, permissões, consistência, funcionamento e tempo. Restaurar um único arquivo pequeno não valida necessariamente a recuperação de uma aplicação ou ambiente complexo.
 
-- selecione escopo e dependências;
-- confirme espaço e mídia;
-- confira credenciais;
-- defina tipo e destino;
-- registre origem, data, retenção e responsável;
-- garanta consistência da aplicação quando necessário.
+O ponto de restauração também depende do incidente:
 
-### 9.2 Durante e depois
-
-- monitore a tarefa;
-- investigue arquivos ignorados e falhas;
-- verifique integridade;
-- proteja contra alteração e acesso indevido;
-- mantenha inventário;
-- confirme retenção.
-
-### 9.3 Checksum
-
-Checksum pode detectar alteração de bytes. Não prova, sozinho:
-
-- funcionamento da aplicação;
-- completude;
-- permissões corretas;
-- compatibilidade;
-- presença de todos os elos;
-- atendimento ao RTO.
-
-### 9.4 Teste de restauração
-
-O teste deve confirmar:
-
-- leitura do conjunto;
-- itens esperados;
-- cadeia completa;
-- permissões e metadados;
-- consistência;
-- funcionamento;
-- tempo;
-- procedimento documentado.
-
-Teste apenas de um arquivo pequeno não valida necessariamente um sistema complexo.
-
-### 9.5 Escolha do ponto
-
-| Incidente | Ponto adequado |
+| Incidente | Ponto mais adequado |
 |---|---|
-| exclusão recente | versão ou backup anterior |
-| corrupção antiga | ponto anterior ao início |
-| ransomware | cópia confiável anterior ao comprometimento |
+| exclusão recente | versão ou backup anterior à exclusão |
+| corrupção antiga | ponto anterior ao início da corrupção |
+| <abbr title="Programa malicioso que bloqueia ou criptografa dados para extorsão">ransomware</abbr> | cópia confiável anterior ao comprometimento |
 | configuração incorreta | configuração e dados compatíveis |
-| perda do equipamento | imagem/reconstrução + dados |
+| perda do equipamento | reconstrução do sistema + dados recuperáveis |
 
 ---
 
-## 10. Armazenamento em nuvem
+## 8. Armazenamento em nuvem: disponibilidade não é publicidade
 
-Cloud storage mantém dados em infraestrutura operada por provedor e permite acesso por aplicações Web, móveis e de sincronização.
+**Armazenamento em nuvem** mantém dados em infraestrutura operada por um provedor, acessível por aplicações web, móveis ou clientes de sincronização. Pode oferecer acesso multidispositivo, compartilhamento, colaboração, versões e lixeira.
 
-Benefícios possíveis:
+Isso não torna o conteúdo público. Acesso depende de identidade, permissões, política da organização e tipo de link.
 
-- acesso multidispositivo;
-- compartilhamento;
-- colaboração;
-- versões;
-- lixeira;
-- disponibilidade sob demanda.
+Também existem dependências: conexão, cota, conta, licença, política administrativa, retenção do serviço e continuidade do provedor.
 
-Dependências e riscos:
+### 8.1 Permissões
 
-- conexão;
-- cota;
-- conta;
-- licença;
-- política;
-- retenção;
-- continuidade do provedor;
-- permissões;
-- propagação de alterações.
-
-Nuvem não significa conteúdo público. Link não substitui permissão.
-
----
-
-## 11. Permissões e uso institucional
-
-| Escopo de acesso | Regra |
+| Escopo/papel | Efeito geral |
 |---|---|
-| pessoa específica | associado a identidade ou grupo |
-| organização | limitado ao ambiente institucional |
-| qualquer pessoa com o link | acesso amplo, quando permitido |
-| leitura | consulta |
-| comentário | interação sem edição plena |
-| edição | alteração e ações permitidas |
+| pessoa específica | acesso associado a uma identidade ou grupo |
+| organização | acesso limitado ao ambiente institucional |
+| qualquer pessoa com o link | acesso amplo, quando a política permite |
+| leitura | consultar |
+| comentário | comentar sem edição plena |
+| edição | alterar conforme permissões do serviço |
 
-Princípios:
+A regra de segurança é conceder apenas o acesso necessário e revogá-lo quando a finalidade terminar. Em ambientes institucionais, prefira conta e serviço autorizados, com classificação da informação, retenção e responsabilidade pela recuperação definidas.
 
-- menor privilégio;
-- revisão periódica;
-- revogação ao fim da finalidade;
-- serviço autorizado;
-- conta institucional;
-- classificação da informação;
-- retenção e descarte;
-- responsabilidade pela recuperação.
-
-Permissões de pasta podem alcançar os itens contidos. Uma permissão mais ampla na pasta pode prevalecer sobre tentativa de restrição isolada do arquivo, conforme o modelo do serviço.
+Permissões de pasta podem alcançar itens contidos. Portanto, tentar restringir um arquivo isolado pode não superar uma permissão mais ampla herdada, conforme o modelo do serviço.
 
 ---
 
-## 12. OneDrive
+## 9. OneDrive: estado local, sincronização e recuperação
 
-### 12.1 Arquivos Sob Demanda
+### 9.1 Arquivos Sob Demanda
 
-| Estado | Regra |
+No OneDrive, **Arquivos Sob Demanda** permite enxergar arquivos no Explorador de Arquivos sem manter todos integralmente no disco.
+
+| Estado | Consequência |
 |---|---|
-| somente online | aparece no Explorador, economiza disco e exige rede para abrir |
-| disponível localmente | foi baixado e pode abrir offline |
-| sempre manter neste dispositivo | permanece baixado e ocupa espaço |
+| somente online | aparece no Explorador; economiza espaço local; precisa de rede para abrir |
+| disponível localmente | já foi baixado e pode abrir sem conexão |
+| sempre manter neste dispositivo | permanece baixado e ocupa espaço local |
 
-**Liberar espaço** remove a cópia integral local e mantém o item na nuvem. **Excluir** é outra ação e pode ser sincronizada para os demais locais.
+**Liberar espaço** remove a cópia integral local, mantendo o item no OneDrive. **Excluir** é outra ação: a exclusão pode ser sincronizada para os demais locais.
 
-### 12.2 Compartilhamento
+### 9.2 Histórico, lixeira e restauração integral
 
-Arquivos são privados até o compartilhamento. Papéis, tipos de link e compartilhamento externo dependem da conta e da política.
+Há três mecanismos diferentes:
 
-### 12.3 Versões, lixeira e restauração integral
+- **histórico de versões**: volta um arquivo a versão anterior;
+- **lixeira**: recupera itens excluídos enquanto ainda retidos;
+- **Restaurar seu OneDrive**: desfaz em massa ações ocorridas nos arquivos e pastas.
 
-| Recurso | Escopo |
-|---|---|
-| histórico de versões | um arquivo |
-| lixeira | itens excluídos |
-| Restaurar seu OneDrive | desfazer ações em massa até ponto anterior, quando disponível |
-
-Na restauração integral, arquivos criados depois do ponto escolhido podem ir para a lixeira. O recurso possui janela e condições próprias e não substitui política independente de backup.
-
-### 12.4 Prazos condicionados
-
-A documentação comercial costuma distinguir retenção de lixeira por tipo de conta. Trate prazos como dados condicionados à conta, política e versão, nunca como retenção universal ou eterna.
+Na documentação da Microsoft consultada em 2026, **Restaurar seu OneDrive** está disponível para assinantes Microsoft 365 e permite desfazer ações dos últimos **30 dias**. Arquivos criados depois do ponto escolhido são enviados à lixeira durante a restauração. Esses recursos ajudam na recuperação, mas não substituem automaticamente uma política independente de backup.
 
 ---
 
-## 13. Google Drive
+## 10. Google Drive: <abbr title="Acesso a arquivos mantidos principalmente na nuvem, baixados conforme necessário">streaming</abbr>, espelhamento e continuidade institucional
 
-### 13.1 Streaming e espelhamento
+### 10.1 <abbr title="Acesso a arquivos mantidos principalmente na nuvem, baixados conforme necessário">Streaming</abbr> e espelhamento
 
-| Pergunta | Streaming | Espelhamento |
+O Google Drive para computador oferece dois modelos principais para **Meu Drive**:
+
+| Pergunta | <abbr title="Acesso a arquivos mantidos principalmente na nuvem, baixados conforme necessário">Streaming</abbr> | Espelhamento |
 |---|---|---|
-| conteúdo principal | nuvem | nuvem e disco local |
-| espaço local | reduzido | cópia completa |
-| offline | preparar itens | disponível |
+| onde ficam principalmente | nuvem | nuvem e disco local |
+| uso de espaço local | reduzido | cópia local completa |
+| acesso sem conexão | itens preparados para uso <abbr title="Sem conexão de rede">offline</abbr> | arquivos locais disponíveis |
 | mudanças sincronizadas | sim | sim |
 | backup independente | não automaticamente | não automaticamente |
 
-Espelhamento não protege contra exclusão sincronizada.
+O espelhamento melhora disponibilidade local, mas continua sincronizando mudanças. Se um arquivo for excluído e a exclusão for sincronizada, a cópia local não funciona como histórico independente.
 
-### 13.2 Meu Drive
+A documentação atual também distingue o suporte por origem: **Meu Drive** pode usar <abbr title="Acesso a arquivos mantidos principalmente na nuvem, baixados conforme necessário">streaming</abbr> ou espelhamento; drives compartilhados usam <abbr title="Acesso a arquivos mantidos principalmente na nuvem, baixados conforme necessário">streaming</abbr>.
 
-Papéis comuns:
+### 10.2 Meu Drive e drives compartilhados
+
+Em **Meu Drive**, papéis comuns incluem Leitor, Comentador, Editor e Proprietário. O conteúdo está ligado à conta proprietária e às regras do serviço.
+
+Em **drives compartilhados**, os arquivos pertencem ao espaço da equipe, não a uma pessoa específica. Isso favorece continuidade institucional quando alguém deixa a organização.
+
+Papéis usuais incluem:
 
 - Leitor;
 - Comentador;
-- Editor;
-- Proprietário.
+- Colaborador;
+- Administrador de conteúdo;
+- Administrador.
 
-Meu Drive está vinculado à conta proprietária e às regras do serviço.
-
-### 13.3 Drives compartilhados
-
-Em contas organizacionais compatíveis, o conteúdo pertence ao contexto do Drive compartilhado, favorecendo continuidade institucional.
-
-Papéis usuais:
-
-| Papel | Capacidade geral |
-|---|---|
-| Leitor | visualizar |
-| Comentador | visualizar e comentar |
-| Colaborador | adicionar e editar conteúdo |
-| Administrador de conteúdo | administrar conteúdo de forma ampliada |
-| Administrador | gerenciar conteúdo, membros e acesso |
-
-Os nomes e poderes podem variar por edição e política.
-
-### 13.4 Versões e lixeira
-
-Arquivos nativos Google possuem histórico próprio. Arquivos não nativos podem ter versões sujeitas a limites de prazo ou quantidade. Itens na lixeira possuem retenção limitada.
+Os poderes concretos dependem da edição e da política administrativa.
 
 ---
 
-## 14. Nuvem como destino de backup
+## 11. A nuvem pode ser destino de backup — mas não por mágica
 
-| Situação | Avaliação |
+Não há contradição entre dizer “sincronização não é backup” e “a nuvem pode receber backups”. A classificação depende do **mecanismo**.
+
+| Situação | Como interpretar |
 |---|---|
-| arquivo enviado deliberadamente como cópia | pode ser backup |
+| arquivo enviado deliberadamente como cópia recuperável | pode ser backup |
 | pasta de trabalho sincronizada | sincronização |
-| serviço especializado de backup | pode oferecer agenda, retenção e restauração próprias |
-| espelhamento local/nuvem | disponibilidade, não independência automática |
+| serviço especializado com agenda, retenção e restauração próprias | pode implementar backup |
+| espelhamento local/nuvem | disponibilidade e sincronização, sem independência automática |
 
-É falso que OneDrive e Google Drive nunca possam receber backups. Também é falso que qualquer pasta sincronizada seja política completa de backup.
-
-Avalie:
-
-- independência;
-- retenção;
-- versões;
-- imutabilidade;
-- credenciais;
-- restauração;
-- propagação de exclusões;
-- teste.
+Para decidir se há proteção de backup, verifique independência, retenção, versionamento, imutabilidade, credenciais, propagação de exclusões e teste de restauração.
 
 ---
 
-## 15. Casos resolvidos
+## 12. Casos que organizam as pegadinhas
 
-### 15.1 Snapshot no mesmo storage
+### Caso 1 — <abbr title="Registro do estado de dados ou sistema em determinado instante">snapshot</abbr> perdido junto com o servidor
 
-Uma máquina virtual possui snapshots no mesmo equipamento que falhou.
+Uma máquina virtual tinha <abbr title="Registros do estado de dados ou sistema em determinados instantes">snapshots</abbr> no mesmo equipamento que falhou.
 
-**Conclusão:** os snapshots compartilhavam o domínio de falha e não eram cópia independente.
+**Leitura:** havia pontos de retorno, mas não independência de falha. O problema não é o nome do recurso; é onde ele estava preservado.
 
-### 15.2 Ransomware em pasta sincronizada
+### Caso 2 — <abbr title="Programa malicioso que bloqueia ou criptografa dados para extorsão">ransomware</abbr> em pasta sincronizada
 
-Arquivos locais são criptografados e a alteração chega à nuvem.
+Arquivos locais foram criptografados e a alteração chegou à nuvem.
 
-**Conclusão:** a sincronização funcionou como projetado. A recuperação depende de versões, restauração integral ou backup separado confiável.
+**Leitura:** a sincronização funcionou como projetado. A recuperação depende de versão anterior, restauração integral ou backup separado confiável.
 
-### 15.3 Cadeia incremental
+### Caso 3 — cadeia incremental incompleta
 
 ```text
 F0 + I1 + I2 + I3
 ```
 
-Sem `I2`, `I3` não recompõe necessariamente as mudanças ausentes.
+Sem `I2`, `I3` não recompõe necessariamente as mudanças ausentes. Em uma cadeia diferencial, `F0 + D3` basta para o estado representado por `D3`.
 
-### 15.4 Diferencial
+### Caso 4 — <abbr title="Recovery Point Objective">RPO</abbr> atendido, <abbr title="Recovery Time Objective">RTO</abbr> descumprido
 
-```text
-F0 + D3
-```
+Foram perdidos apenas 30 minutos de dados, mas o serviço levou oito horas para voltar.
 
-`D1` e `D2` não são necessários para o estado de `D3`.
+**Leitura:** a perda de dados pode estar dentro do <abbr title="Recovery Point Objective">RPO</abbr>, enquanto o tempo de indisponibilidade ultrapassa o <abbr title="Recovery Time Objective">RTO</abbr>.
 
-### 15.5 RPO atendido e RTO descumprido
+### Caso 5 — continuidade no Google Drive
 
-Perdeu-se apenas 30 minutos de dados, mas a recuperação levou oito horas.
+Documentos críticos estavam no Meu Drive de uma pessoa que deixou o órgão.
 
-**Resultado:** RPO pode ter sido atendido; RTO pode ter sido descumprido.
-
-### 15.6 Restauração integral do OneDrive
-
-Centenas de arquivos foram excluídos e alterados.
-
-**Decisão:** avaliar a restauração integral a ponto anterior, considerando o impacto sobre arquivos criados depois.
-
-### 15.7 Continuidade institucional no Google Drive
-
-Documentos críticos estavam no Meu Drive pessoal de um servidor que deixou o órgão.
-
-**Melhoria:** usar ambiente institucional e Drive compartilhado com papéis administrados pela unidade.
+**Leitura:** o problema é de governança e continuidade. Um drive compartilhado, quando disponível e administrado institucionalmente, reduz a dependência de uma conta individual.
 
 ---
 
-## 16. Pegadinhas de prova
+## 13. Como resolver questões deste assunto
 
-- backup não é restauração;
-- snapshot não é backup independente;
-- RAID não é backup;
-- sincronização não é backup;
-- imagem de sistema não é simples cópia de arquivos;
-- incremental: desde o backup anterior;
-- diferencial: desde o último completo;
-- completo + último diferencial;
-- completo + todos os incrementais;
-- backup de cópia não limpa o atributo clássico;
-- incremental limpa o atributo clássico;
-- diferencial não limpa o atributo clássico;
-- RPO não é RTO;
-- frequência não é retenção;
-- rotação não é tipo de backup;
-- offline não é off-site;
-- criptografado não significa íntegro;
-- imutável não significa testado;
-- checksum não comprova restauração funcional;
-- cópia mais recente nem sempre é a correta;
-- lixeira não é retenção eterna;
-- somente online não significa excluído;
-- Liberar espaço não é Excluir;
-- streaming não é cópia completa local;
-- espelhamento não é proteção independente;
-- link não é permissão;
-- Meu Drive não é Drive compartilhado;
-- conta pessoal não é ambiente institucional.
+1. Descubra **o que** precisa ser recuperado.
+2. Identifique o ponto de dados exigido e o tempo de retorno: <abbr title="Recovery Point Objective">RPO</abbr> versus <abbr title="Recovery Time Objective">RTO</abbr>.
+3. Diferencie completo, incremental e diferencial e monte a cadeia de restauração.
+4. Se aparecer a taxonomia clássica do Windows, observe o atributo de arquivo.
+5. Pergunte se a cópia compartilha o mesmo domínio de falha do original.
+6. Separe backup, <abbr title="Registro do estado de dados ou sistema em determinado instante">snapshot</abbr>, sincronização, replicação e <abbr title="Redundant Array of Independent Disks">RAID</abbr>.
+7. Em nuvem, confira estado local, permissão, retenção, versionamento e propagação de alterações.
+8. Desconfie de absolutos como “sempre”, “ilimitado”, “qualquer link” e “sincronização já é backup”.
 
----
-
-## 17. Método para resolver questões
-
-1. Identifique o objetivo de recuperação.
-2. Defina o escopo: arquivo, aplicação, volume ou sistema.
-3. Determine RPO e RTO.
-4. Diferencie completo, incremental e diferencial.
-5. Monte a cadeia de restauração.
-6. Observe atributo de arquivo se a taxonomia clássica for usada.
-7. Verifique localização: mesmo disco, offline, off-site ou imutável.
-8. Separe backup, snapshot, sincronização, replicação e RAID.
-9. Em nuvem, confira estado local, permissão, retenção e propagação.
-10. Rejeite absolutos como “sempre”, “ilimitado”, “qualquer link” e “sincronização já é backup”.
+O mapa mental é simples: **recuperação exige uma cópia adequada, no ponto correto, independente o suficiente e comprovadamente restaurável**.
