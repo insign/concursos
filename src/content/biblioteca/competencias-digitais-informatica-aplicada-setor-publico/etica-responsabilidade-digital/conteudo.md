@@ -8,9 +8,13 @@ storageId: etica-responsabilidade-digital
 
 # Ética, responsabilidade digital, desinformação, inclusão e acessibilidade
 
-> **Recorte do edital:** uso ético de tecnologias; combate a fake news e desinformação; inclusão digital e acessibilidade em serviços públicos. **Corte normativo ordinário:** 6 de julho de 2026, data de publicação do edital. **Atualização editorial:** 10 de agosto de 2026. Atualizações posteriores ao edital só devem ser tratadas como pós-edital quando materialmente relevantes.
+**Situação hipotética:** um órgão lança um serviço digital que reduz filas, mas exige celular recente, bloqueia quem usa leitor de tela e, quando surge um comunicado falso sobre o serviço, demora a corrigir a informação porque “o sistema é do fornecedor”. Há quatro perguntas diferentes aí: **a tecnologia serve à finalidade pública? o órgão continua responsável? a informação é confiável? todas as pessoas conseguem concluir a jornada?**
 
-O foco é compreender **como a Administração deve usar tecnologia de forma responsável, informar com integridade e garantir que diferentes pessoas consigam acessar e concluir serviços públicos digitais**. Não é necessário repetir em profundidade <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>, inteligência artificial, acessibilidade física ou engenharia de interfaces, que possuem assuntos próprios.
+Essas quatro perguntas organizam o assunto. Ética digital examina finalidade, direitos e impactos; responsabilidade digital exige responsáveis, registros e correção; integridade da informação orienta verificação e resposta à desinformação; inclusão e acessibilidade impedem que a digitalização transforme barreiras antigas em barreiras digitais.
+
+> **Recorte do edital:** uso ético de tecnologias; combate a <abbr title="Expressão ampla para conteúdos falsos ou enganosos">fake news</abbr> e desinformação; inclusão digital e acessibilidade em serviços públicos. **Corte normativo ordinário:** 6 de julho de 2026, data de publicação do edital. **Atualização editorial:** 10 de agosto de 2026. Atualizações posteriores ao edital só devem ser tratadas como pós-edital quando materialmente relevantes.
+
+Não é necessário repetir em profundidade <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>, inteligência artificial, acessibilidade física ou engenharia de interfaces, que possuem assuntos próprios. Aqui, a ponte necessária é suficiente para compreender e resolver situações do recorte.
 
 ## 1. Ética e responsabilidade digital
 
@@ -69,7 +73,7 @@ Guardar tudo indefinidamente não é sinônimo de rastreabilidade. Os registros 
 
 ## 2. Integridade da informação e desinformação
 
-### 2.1 “Fake news” é expressão ampla
+### 2.1 <abbr title="Expressão ampla para conteúdos falsos ou enganosos">“Fake news”</abbr> é expressão ampla
 
 Para prova, é mais útil distinguir categorias:
 
@@ -203,17 +207,17 @@ As referências mais importantes do recorte são:
 
 | Referência | Natureza |
 |---|---|
-| **LBI, art. 63** | obrigação jurídica de acessibilidade nos sítios abrangidos |
+| **<abbr title="Lei Brasileira de Inclusão">LBI</abbr>, art. 63** | obrigação jurídica de acessibilidade nos sítios abrangidos |
 | **<abbr title="Modelo de Acessibilidade em Governo Eletrônico">eMAG</abbr> 3.1** | modelo de recomendações para acessibilidade de sítios e portais governamentais brasileiros |
 | **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.2** | recomendação técnica internacional do <abbr title="World Wide Web Consortium">W3C</abbr> |
-| **<abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr> NBR 17225:2025** | norma brasileira sobre acessibilidade em conteúdo e aplicações web |
+| **<abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr> <abbr title="Norma Brasileira">NBR</abbr> 17225:2025** | norma brasileira sobre acessibilidade em conteúdo e aplicações web |
 | **Lei nº 15.263/2025** | política de linguagem simples, inclusive com linguagem acessível à pessoa com deficiência |
 
 Não confunda natureza técnica com natureza legal. Um padrão pode ser obrigatório quando incorporado por lei, regulamento, edital, política ou contrato, mas sua existência isolada não o transforma em lei nacional.
 
-### 4.2 Princípios POUR
+### 4.2 Princípios <abbr title="Perceivable, Operable, Understandable, Robust">POUR</abbr>
 
-As WCAG 2.2 organizam acessibilidade em quatro princípios:
+As <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.2 organizam acessibilidade em quatro princípios:
 
 - **Perceptível:** informação deve poder ser percebida;
 - **Operável:** interface e navegação devem poder ser usadas;
@@ -234,7 +238,7 @@ Para este edital, não é necessário decorar detalhes de implementação. Recon
 | erro indicado apenas por cor/código | explicar o problema e como corrigir |
 | vídeo sem alternativa apropriada | oferecer recurso equivalente conforme o conteúdo |
 | documento digitalizado como imagem | disponibilizar conteúdo pesquisável e acessível |
-| CAPTCHA ou autenticação inacessível | oferecer mecanismo acessível equivalente |
+| <abbr title="Teste automatizado para distinguir humanos de robôs">CAPTCHA</abbr> ou autenticação inacessível | oferecer mecanismo acessível equivalente |
 
 Ferramenta automática ajuda a encontrar parte dos problemas, mas **não prova acessibilidade da jornada completa**.
 
@@ -254,15 +258,15 @@ Um portal acessível que encaminha o usuário para uma etapa obrigatória inaces
 |---|---|
 | finalidade, impactos e direitos no uso de tecnologia | ética digital |
 | papéis, registros, correção e prestação de contas | responsabilidade digital |
-| falso compartilhado sem intenção de enganar | misinformation |
-| falso/manipulado com intenção de enganar | disinformation |
-| verdadeiro usado abusivamente para causar dano | malinformation |
+| falso compartilhado sem intenção de enganar | <abbr title="Informação falsa ou inexata compartilhada sem intenção de enganar">misinformation</abbr> |
+| falso/manipulado com intenção de enganar | <abbr title="Conteúdo enganoso difundido deliberadamente para enganar">disinformation</abbr> |
+| verdadeiro usado abusivamente para causar dano | <abbr title="Informação baseada na realidade usada de modo abusivo para causar dano">malinformation</abbr> |
 | conteúdo verdadeiro em data ou local errado | falso contexto |
 | imitação de canal ou órgão legítimo | conteúdo impostor |
 | acesso à internet sem capacidade de concluir serviço | falta de inclusão efetiva |
 | texto difícil e burocrático | linguagem simples |
 | barreira para pessoa com deficiência no serviço digital | acessibilidade digital |
-| perceber, operar, compreender, robustez | POUR |
+| perceber, operar, compreender, robustez | <abbr title="Perceivable, Operable, Understandable, Robust">POUR</abbr> |
 | digitalização tratada como canal único | cuidado: digital ≠ exclusivo |
 
 ---
@@ -296,8 +300,8 @@ Empresa contratada fornece sistema que classifica pedidos. O órgão não pode r
 2. **Legalidade não esgota a análise ética.**
 3. **Automação ou terceirização não eliminam responsabilidade institucional.**
 4. **Rastreabilidade não significa guardar tudo para sempre.**
-5. **Misinformation não exige intenção de enganar.**
-6. **Malinformation pode envolver conteúdo verdadeiro.**
+5. **<abbr title="Informação falsa ou inexata compartilhada sem intenção de enganar">Misinformation</abbr> não exige intenção de enganar.**
+6. **<abbr title="Informação baseada na realidade usada de modo abusivo para causar dano">Malinformation</abbr> pode envolver conteúdo verdadeiro.**
 7. **Viralidade não prova veracidade.**
 8. **Conteúdo sintético não é automaticamente falso.**
 9. **Combate à desinformação não autoriza censura genérica.**
@@ -305,6 +309,6 @@ Empresa contratada fornece sistema que classifica pedidos. O órgão não pode r
 11. **Digitalização não torna automaticamente dispensável o atendimento presencial.**
 12. **Linguagem simples não significa perda de precisão.**
 13. **Acessibilidade não é apenas contraste ou tamanho de fonte.**
-14. **eMAG, WCAG e NBR 17225 não são a própria lei.**
+14. **<abbr title="Modelo de Acessibilidade em Governo Eletrônico">eMAG</abbr>, <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> e <abbr title="Norma Brasileira">NBR</abbr> 17225 não são a própria lei.**
 15. **Ferramenta automática não garante acessibilidade da jornada.**
 16. **Página inicial acessível não compensa etapa obrigatória inacessível.**
