@@ -1,4 +1,9 @@
 - CEBRASPE. [Edital nº 1 do concurso TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Item 2.4; publicado em 6 jul. 2026; acesso em 27 jul. 2026.
+- RFC EDITOR. [RFC 5321 — Simple Mail Transfer Protocol](https://www.rfc-editor.org/info/rfc5321/). Função do SMTP; acesso em 6 set. 2026.
+- RFC EDITOR. [RFC 9051 — Internet Message Access Protocol (IMAP) — Version 4rev2](https://www.rfc-editor.org/info/rfc9051/). Acesso, manipulação e ressincronização de caixa postal no servidor; acesso em 6 set. 2026.
+- RFC EDITOR. [RFC 1939 — Post Office Protocol — Version 3](https://www.rfc-editor.org/info/rfc1939/). Recuperação de mensagens por POP3; acesso em 6 set. 2026.
+- RFC EDITOR. [RFC 2045 — Multipurpose Internet Mail Extensions (MIME) Part One](https://www.rfc-editor.org/info/rfc2045/). Tipos de conteúdo e mensagens multipartes; acesso em 6 set. 2026.
+- IANA. [Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml). Portas convencionais de SMTP, submission, IMAP/IMAPS e POP3/POP3S; acesso em 6 set. 2026.
 - MICROSOFT. [Visão geral de equipes e canais](https://support.microsoft.com/pt-br/office/vis%C3%A3o-geral-de-equipes-e-canais-c3d63c10-77d5-4204-a566-53ddcf723b46). Estrutura do Teams; acesso em 27 jul. 2026.
 - MICROSOFT. [Papéis em uma reunião do Microsoft Teams](https://support.microsoft.com/pt-br/office/pap%C3%A9is-em-uma-reuni%C3%A3o-do-microsoft-teams-c16fa7d0-1666-4dde-8686-0a0bfe16e019). Organizador, coorganizador, apresentador e participante; acesso em 27 jul. 2026.
 - MICROSOFT. [Levantar a mão em reuniões do Teams](https://support.microsoft.com/pt-br/office/levantar-a-m%C3%A3o-em-reuni%C3%B5es-do-microsoft-teams-bb2dd8e1-e6bd-43a6-85cf-30822667b372). Mão levantada e reações; acesso em 27 jul. 2026.
