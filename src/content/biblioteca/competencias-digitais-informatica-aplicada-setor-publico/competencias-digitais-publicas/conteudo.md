@@ -6,466 +6,205 @@ order: 19
 storageId: competencias-digitais-publicas
 ---
 
-## 1. Competência digital vai além de operar ferramentas
+## 1. Saber usar não é o mesmo que saber decidir
 
-Saber abrir um programa, preencher um formulário ou participar de uma reunião virtual é útil, mas não esgota a competência digital. Atuar de modo competente envolve mobilizar **conhecimentos, habilidades e atitudes** para compreender, escolher, usar, avaliar e criar soluções digitais de forma crítica, segura, inclusiva e ética.
+**Situação hipotética:** um órgão recebe requerimentos pela internet, organiza a fila e publica um painel de resultados. O servidor sabe preencher a planilha e gerar gráficos. Isso basta? Não: ele ainda precisa conferir os dados, aplicar critérios legítimos, proteger as pessoas identificáveis e perceber quem não consegue usar o serviço.
 
-No serviço público, uma ação digitalmente competente precisa combinar pelo menos cinco perguntas:
+**Competência digital** é mobilizar conhecimentos, habilidades, atitudes e valores para agir com tecnologias de modo eficaz, crítico, seguro e responsável. A habilidade operacional faz parte dela, mas não substitui a avaliação da qualidade dos dados e das consequências de publicá-los.
 
-1. **Funciona?** A solução resolve o problema e é tecnicamente viável?
-2. **Serve ao interesse público?** A finalidade está ligada à competência do órgão e às necessidades dos usuários?
-3. **Inclui?** Pessoas com deficiência, baixa conectividade ou pouca familiaridade digital conseguem acessar o serviço?
-4. **Protege?** Os dados, os direitos e a segurança das pessoas foram considerados?
-5. **Pode ser compreendida e controlada?** Critérios, resultados, limitações e responsáveis são explicáveis e auditáveis?
+### Cultura e cidadania digital
 
-Uma plataforma rápida, mas inacessível, opaca ou baseada em coleta excessiva de dados não representa boa transformação digital. Digitalizar também não significa apenas reproduzir um formulário de papel na tela: o processo deve ser revisto à luz de sua finalidade, de seus riscos e da experiência do cidadão.
+**Cultura digital** é o conjunto de práticas, valores e formas de produzir, comunicar, aprender e participar mediadas pelas tecnologias digitais. No atendimento hipotético, o cidadão acompanha o pedido, compartilha sua experiência e cobra resultados; o órgão passa a decidir também a partir de registros digitais. Não se trata apenas de trocar papel por tela: mudam relações, expectativas e modos de trabalho.
 
----
+A transformação de atividades em registros analisáveis é chamada **datificação**. Esses registros não mostram automaticamente toda a realidade: uma base formada só por pedidos eletrônicos pode não mostrar a necessidade de quem ficou sem acesso. Além disso, regras das plataformas selecionam o que aparece primeiro e influenciam a circulação das mensagens. Tecnologia não é socialmente neutra apenas por executar cálculos.
 
-## 2. Conceitos fundamentais
+**Cidadania digital** é exercer direitos, cumprir deveres e participar da vida coletiva nesse ambiente. Inclui acessar serviços e informações, proteger a privacidade, respeitar outras pessoas e a autoria de conteúdos, participar de debates e acompanhar a atuação estatal. Ter uma conta ou obedecer às regras de uma plataforma não resume essa cidadania. Direitos e responsabilidades continuam existindo fora e dentro da rede.
 
-Os termos do edital se relacionam, mas não são sinônimos.
+### Três letramentos que se complementam
 
-| Conceito | Centro da ideia | Exemplo no setor público |
+O servidor que prepara o painel precisa realizar tarefas diferentes:
+
+- **Letramento digital:** usar e compreender tecnologias nas práticas sociais; escolher a ferramenta, produzir o painel e compartilhá-lo com segurança, não apenas localizar botões.
+- **Letramento informacional:** perceber de que informação precisa, localizá-la, avaliar sua qualidade, interpretá-la e utilizá-la com responsabilidade. Antes de calcular o tempo de atendimento, definir quais datas representam início e conclusão.
+- **Letramento midiático:** analisar e produzir mensagens considerando linguagem, autoria, interesses, público e circulação. Perguntar quem produziu uma notícia sobre a fila, com qual finalidade e como o título e o gráfico orientam a interpretação.
+
+Essas perspectivas se cruzam; não são compartimentos exclusivos. Na análise midiática, **produção** focaliza autores, financiamento e propósitos; **representação**, as escolhas pelas quais a realidade é apresentada; **audiência**, quem recebe e interpreta a mensagem. Assim, educação midiática inclui distinguir verdadeiro e falso, mas também autoria, participação e criação responsável.
+
+A expressão **alfabetização digital** pode designar a aprendizagem inicial de operações, enquanto **letramento** enfatiza o uso social e crítico. Entretanto, traduções e referenciais empregam esses termos com amplitudes diferentes. Leia a definição adotada: não conclua que toda “alfabetização” se limita a apertar teclas. A abordagem da <abbr title="Organização das Nações Unidas para a Educação, a Ciência e a Cultura">Unesco</abbr> integra busca, avaliação, produção, direitos e participação, inclusive fora da internet.
+
+## 2. Inclusão: conseguir concluir, não apenas conseguir entrar
+
+No mesmo caso hipotético, disponibilizar o formulário não garante acesso efetivo. Conexão instável, custo dos dados móveis, aparelho compartilhado, instruções incompreensíveis ou ausência de apoio podem impedir a conclusão do pedido. **Inclusão digital** combina acesso material, competências e condições reais de participação com autonomia e segurança.
+
+**Acessibilidade digital** é a possibilidade de pessoas com diferentes condições, especialmente pessoas com deficiência, perceberem, compreenderem e operarem conteúdos e serviços digitais. Um campo sem identificação pode ser incompreensível para quem usa um **leitor de tela**, programa que apresenta o conteúdo por voz ou por recurso tátil. Uma instrução disponível só em vídeo sem alternativa adequada pode excluir outro usuário.
+
+**Tecnologia assistiva** reúne produtos, recursos, metodologias, estratégias, práticas e serviços destinados a ampliar funcionalidade e participação. No campo educacional da Lei 14.533/2023, o foco é promover funcionalidade e aprendizagem, incluindo pessoas com deficiência ou mobilidade reduzida. Não se restringe a equipamentos sofisticados.
+
+Avalie a jornada inteira: localizar o serviço, entender requisitos, preencher, enviar e acompanhar. Formação, linguagem compreensível, suporte e alternativas adequadas enfrentam barreiras distintas; acesso inicial não compensa uma etapa final inacessível.
+
+## 3. Pensamento computacional: transformar o problema em solução examinável
+
+Antes de automatizar a fila, é preciso definir o problema: reduzir o tempo de espera sem ignorar prioridades aplicáveis nem excluir pedidos incompletos indevidamente. **Pensamento computacional** é formular e resolver problemas de maneira metódica, utilizando fundamentos da computação para representar informações, construir soluções, compará-las e aperfeiçoá-las.
+
+Um **algoritmo** descreve uma sequência finita de instruções suficientemente claras para realizar uma tarefa. Pode incluir decisões e repetições, não apenas uma linha reta de ações. **Programar** é expressar instruções em uma linguagem executável pelo computador; pensar computacionalmente é mais amplo e pode ocorrer no papel, por descrição verbal, tabela de decisão ou **fluxograma**, desenho do fluxo de etapas e escolhas.
+
+### Quatro operações, aplicadas ao mesmo problema
+
+**Decomposição:** dividir o problema em partes manejáveis. Na fila: receber, verificar dados, identificar prioridade, encaminhar, responder e registrar. Isso permite localizar em qual parte surge a demora.
+
+**Reconhecimento de padrões:** identificar semelhanças ou regularidades e reutilizar soluções quando pertinentes. Se vários tipos de requerimento passam pela mesma conferência de documentos, essa rotina pode ser aproveitada. Repetição histórica, porém, não prova que uma prática seja correta.
+
+**Abstração:** selecionar o que importa para o objetivo e representar a situação sem detalhes irrelevantes. Para ordenar a fila, data de recebimento e prioridade aplicável podem importar; a cor do aparelho do requerente, não. Abstrair não é apagar uma exceção necessária nem presumir que todos os cidadãos têm as mesmas condições.
+
+**Construção de algoritmos:** organizar regras e passos executáveis. Neste exemplo exclusivamente didático, uma triagem poderia seguir:
+
+1. Registrar o recebimento e verificar as informações necessárias.
+2. Se faltar informação indispensável, encaminhar para complementação; caso contrário, verificar a prioridade aplicável.
+3. Encaminhar à fila correspondente e registrar o critério utilizado.
+4. Informar ao requerente a situação e o próximo passo.
+
+Isso **não é uma regra jurídica universal de tramitação**: os critérios e as consequências dependem do procedimento real. O exemplo mostra por que “informação ausente” e “requisito não atendido” não podem ser tratados automaticamente como a mesma coisa.
+
+As quatro operações se articulam, sem constituírem uma sequência obrigatória e irreversível. Um caso excepcional pode revelar que a decomposição ou a abstração precisa mudar. **Depuração**, também chamada <abbr title="Localização e correção de erros em uma solução">debugging</abbr>, é localizar e corrigir erros; depois da correção, a solução deve ser novamente experimentada. Verificar casos comuns, dados ausentes, limites e exceções é parte do raciocínio, não uma atividade dispensável após escrever as instruções.
+
+### Automatizar não valida o critério
+
+Uma regra pode ser executada perfeitamente e continuar inadequada. Ordenar tudo apenas pela velocidade de preenchimento favoreceria quem tem melhor conexão, não necessariamente quem deve ter prioridade. Primeiro se justificam objetivo, dados e regras; depois se avalia a automação.
+
+Quando se usa um **modelo**, isto é, uma representação que relaciona dados de entrada a classificações ou previsões, convém distinguir o resultado sugerido da decisão administrativa. Sistemas de <abbr title="Inteligência artificial">IA</abbr> podem aprender relações a partir de exemplos; esses exemplos e o objetivo escolhido influenciam o resultado. Uma previsão não cria, sozinha, um requisito jurídico nem transfere a responsabilidade do órgão para o sistema.
+
+## 4. Análise crítica: da alegação à evidência
+
+Suponha que uma mensagem afirme: “As reclamações dobraram; o novo atendimento fracassou”. Há duas proposições diferentes: uma variação numérica verificável e uma conclusão sobre a causa. O primeiro trabalho é separá-las.
+
+Uma **alegação factual** pode ser confrontada com evidências; uma opinião expressa avaliação; uma previsão depende de hipóteses. Sátira e publicidade também têm propósitos próprios. Isso não torna toda opinião imune à análise: ela pode se apoiar em premissas factuais erradas. Tampouco a falta de confirmação imediata prova que uma alegação seja falsa.
+
+### Verificar sem ficar preso à mensagem
+
+Identifique a alegação exata e procure sua origem, data e contexto. Para uma regra de atendimento, consulte o ato competente; para um indicador, a base e sua metodologia. **Fonte primária** é a que fornece diretamente o registro, documento ou resultado relevante. Ela reduz intermediários, mas não é necessariamente infalível, imparcial ou suficiente para todas as perguntas.
+
+Compare a informação com fontes independentes. Cinco páginas que copiaram a mesma notícia não são cinco confirmações. A **leitura lateral**, estudada por Wineburg e McGrew, consiste em sair da página examinada e consultar outras fontes para avaliar sua autoria, credibilidade e alegações. Um logotipo ou uma aparência profissional não substitui essa investigação.
+
+A **checagem de fatos**, também chamada <abbr title="Verificação de alegações factuais mediante evidências">fact-checking</abbr>, confronta afirmações com evidências e explicita o caminho seguido. Não substitui todas as funções do jornalismo nem elimina a necessidade de interpretar contexto. Na comunicação pública, registre fonte, data, limitações e correções relevantes para que a conclusão possa ser conferida.
+
+### Ler o número antes de aceitar a conclusão
+
+**Exemplo numérico hipotético:** as reclamações passaram de 10 para 20, mas os atendimentos passaram de 100 para 400. O número de reclamações dobrou; sua proporção caiu de 10% para 5%. São medidas diferentes, ambas verdadeiras. Não se pode concluir melhora ou piora do serviço apenas escolhendo a que favorece o argumento.
+
+Observe o período, a unidade medida e o grupo considerado. Uma **amostra** é a parcela observada de uma população; entrevistar somente usuários que concluíram o formulário não representa, por si, quem abandonou o processo. Em gráficos, confira a escala: um eixo vertical que começa perto dos valores apresentados pode ampliar visualmente pequenas diferenças.
+
+**Correlação** é associação entre variações; **causalidade** é relação de causa e efeito. Reclamações e atendimentos crescerem juntos não prova que o novo sistema causou insatisfação: o volume, o perfil dos usuários ou a facilidade de reclamar podem ter mudado. A análise deve confrontar explicações alternativas e declarar a incerteza restante.
+
+## 5. Desinformação: separar falsidade, intenção e uso danoso
+
+O relatório *<abbr title="Desordem informacional: falsidade e uso danoso de informações">Information Disorder</abbr>*, do Conselho da Europa, distingue situações pela falsidade e pela intenção de causar dano. A terminologia varia entre fontes; nesta distinção:
+
+| Categoria | O que a distingue | Exemplo hipotético |
 |---|---|---|
-| **cultura digital** | práticas, valores, linguagens e relações sociais transformadas pelas tecnologias | compreender como plataformas e algoritmos mudam a comunicação institucional |
-| **cidadania digital** | exercício de direitos, deveres, participação e convivência responsável no ambiente digital | participar de consulta pública e proteger dados de terceiros |
-| **letramento digital** | acessar, compreender, usar, comunicar e criar com tecnologias de modo seguro e apropriado | escolher a ferramenta adequada e produzir documento digital acessível |
-| **letramento informacional** | reconhecer uma necessidade de informação, localizar, avaliar, usar e comunicar evidências | conferir a fonte e a metodologia de um indicador antes de decidir |
-| **letramento midiático** | analisar criticamente mídias, mensagens, formatos, agentes, interesses e efeitos | distinguir notícia, opinião, publicidade e conteúdo institucional |
-| **pensamento computacional** | formular e resolver problemas de forma metódica, inclusive por algoritmos | decompor um processo, definir regras e testar exceções antes de automatizá-lo |
+| Informação incorreta — <abbr title="Informação falsa compartilhada sem intenção de causar dano">misinformation</abbr> | Falsidade sem a intenção danosa considerada nessa classificação | Alguém repassa um prazo errado acreditando ajudar |
+| Desinformação — <abbr title="Informação falsa difundida conscientemente para enganar ou causar dano">disinformation</abbr> | Falsidade ou conteúdo enganoso difundido deliberadamente | Alguém fabrica um aviso do órgão para desviar requerentes |
+| Má-informação — <abbr title="Informação genuína divulgada com intenção de causar dano">mal-information</abbr> | Informação genuína empregada para causar dano | Alguém expõe dados privados verdadeiros de um requerente para intimidá-lo |
 
-### 2.1 Cultura digital
+**Falso contexto não é automaticamente má-informação.** Uma foto autêntica de uma fila antiga, apresentada como retrato da situação atual, compõe uma mensagem enganosa. Sua classificação exige examinar a mensagem completa e a intenção, não apenas a autenticidade da foto. A expressão <abbr title="Expressão ampla e imprecisa para notícias falsas e conteúdos enganosos">fake news</abbr> não descreve com precisão todas essas situações.
 
-A cultura digital abrange mais que equipamentos. Ela inclui:
+A mesma falsidade pode ser criada deliberadamente e depois repassada de boa-fé por outra pessoa. Por isso, não deduza a intenção de todo compartilhador a partir da intenção do criador. Emoção, urgência, repetição e aparente apoio coletivo favorecem circulação, mas não demonstram veracidade. O **viés de confirmação** é a tendência a favorecer o que confirma crenças anteriores; combatê-lo exige considerar também evidências contrárias.
 
-- novas formas de produzir, circular e consumir informação;
-- colaboração em rede e produção participativa;
-- dataficação de atividades e decisões;
-- mediação por plataformas, buscadores, sistemas de recomendação e algoritmos;
-- mudanças no trabalho, na participação social e na prestação de serviços;
-- riscos de exclusão, vigilância, manipulação, desinformação e discriminação.
+### Conteúdo sintético e resposta pública
 
-Ter atitude crítica diante da cultura digital não significa rejeitar tecnologia. Significa compreender seus efeitos, seus limites e as escolhas humanas presentes em cada sistema.
+**Conteúdo sintético** é produzido ou alterado artificialmente. Um <abbr title="Mídia sintética que imita de forma realista uma pessoa ou situação">deepfake</abbr> pode simular voz, imagem ou vídeo. Ser sintético não significa necessariamente ser enganoso: uma simulação identificada como tal é diferente de uma falsificação apresentada como registro real.
 
-### 2.2 Cidadania digital
+Para avaliar uma mídia, procure o original, o contexto e confirmações independentes. **Metadados** são informações associadas ao arquivo, como data e origem registrada; ajudam, mas podem estar ausentes ou alterados. Detectores automáticos também erram. O relatório de 2024 do <abbr title="National Institute of Standards and Technology">NIST</abbr> ressalta que técnicas de detecção e registro de procedência têm limitações e dependem do contexto. Fluência de um texto gerado por <abbr title="Inteligência artificial">IA</abbr> tampouco comprova seus fatos ou referências.
 
-Cidadania digital é o exercício da cidadania em uma sociedade conectada. Ela reúne:
+A resposta institucional deve corrigir a alegação com evidência, contexto e linguagem acessível, alcançar o público afetado e atualizar o que estiver em apuração, sem divulgar dados desnecessários. Deve ser proporcional: reproduzir integralmente uma falsidade pouco conhecida pode ampliar seu alcance. Combater desinformação não autoriza censura genérica a críticas, opiniões ou sátiras; restrições exigem fundamento jurídico e respeito aos direitos envolvidos.
 
-- acesso e participação, inclusive em serviços e consultas públicas;
-- liberdade de expressão e acesso à informação, nos limites legais;
-- privacidade e proteção de dados pessoais;
-- segurança, respeito, responsabilidade e prevenção de violências digitais;
-- capacidade de avaliar informações e de produzir conteúdo responsável;
-- compreensão de que direitos e deveres continuam a existir no ambiente digital.
+## 6. Ética de dados: os efeitos sobre pessoas fazem parte da qualidade
 
-Portanto, cidadania digital não é mera etiqueta em redes sociais. Ela inclui condições materiais de acesso, acessibilidade, autonomia crítica, direitos digitais e participação democrática.
+Na análise de dados, registros ganham significado quando interpretados em contexto. No painel hipotético, uma data incorreta pode alterar o tempo de espera divulgado ou a posição de alguém. **Ética de dados** examina finalidades, escolhas, benefícios, riscos e responsabilidades em todo o percurso: coleta, organização, análise, decisão, compartilhamento e conservação ou eliminação.
 
-### 2.3 Letramentos digital, informacional e midiático
+### O mínimo jurídico necessário para avaliar o uso
 
-O **letramento digital** permite usar tecnologias para alcançar finalidades concretas, não apenas repetir comandos. Inclui acessar, gerenciar, compreender, integrar, comunicar, avaliar e criar informações com segurança.
+A Lei Geral de Proteção de Dados Pessoais (<abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>, Lei 13.709/2018) alcança tratamentos físicos e digitais. **Dado pessoal** é informação relacionada a pessoa natural identificada ou identificável; **titular** é essa pessoa. Não é preciso haver nome: a combinação de cargo, local e evento pode identificá-la. **Dado sensível** é uma categoria legal específica, que abrange, entre outros, saúde, origem racial ou étnica, religião e <abbr title="Características físicas ou comportamentais usadas para identificar pessoas">biometria</abbr> vinculada a pessoa natural; não é sinônimo de qualquer informação confidencial.
 
-O **letramento informacional** começa pela necessidade de informação: o que se precisa saber, com qual precisão e para qual decisão? Depois vêm busca, seleção, avaliação, organização, uso ético e comunicação da informação.
+**Tratamento** compreende operações como coletar, consultar, guardar, compartilhar e apagar. **Base legal** é uma hipótese que autoriza o tratamento nas condições da lei. Consentimento é uma delas, não a única: deve ser livre, informado, inequívoco e vinculado a finalidade determinada. Uma autorização genérica não legitima todo uso futuro.
 
-O **letramento midiático** pergunta como uma mensagem foi construída e circula:
+No poder público, é preciso identificar a base pertinente dos artigos 7º ou 11 e observar o artigo 23: finalidade pública, interesse público e execução de competências ou atribuições legais. O guia da <abbr title="Agência Nacional de Proteção de Dados">ANPD</abbr> alerta que o consentimento frequentemente não é adequado quando o cidadão não tem escolha efetiva diante de uma obrigação estatal. **Dispensa de consentimento não dispensa finalidade, necessidade, transparência e proteção.** A denominação atual da agência decorre da Lei 15.352/2026; guias antigos podem trazer “Autoridade Nacional”.
 
-- quem produziu e publicou;
-- qual é a finalidade;
-- quais evidências são apresentadas;
-- que linguagem, enquadramento e formato foram escolhidos;
-- quais interesses ou modelos de negócio podem influenciar a circulação;
-- que grupos são representados, omitidos ou afetados;
-- como algoritmos e redes ampliam ou restringem seu alcance.
+Os papéis também não se confundem: **controlador** decide sobre o tratamento; **operador** trata em seu nome; **encarregado** atua como canal entre controlador, titulares e <abbr title="Agência Nacional de Proteção de Dados">ANPD</abbr>, além de orientar a organização. Controlador e operador são os agentes de tratamento. Um servidor subordinado que consulta o cadastro não se torna automaticamente operador autônomo.
 
-Na prática, os três letramentos se sobrepõem. A distinção é funcional: operar e criar com tecnologia, lidar metodicamente com informação e interpretar criticamente mensagens e meios.
+### Do princípio à escolha concreta
 
-### 2.4 Alfabetização, letramento e competência
+O artigo 6º da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> exige boa-fé e dez princípios. Eles podem ser compreendidos acompanhando o cadastro:
 
-As fontes empregam terminologia variada. Em prova, é mais seguro observar o alcance atribuído pelo enunciado:
+- **Finalidade, adequação e necessidade:** definir para que os dados servem, manter o uso compatível e limitar a coleta ao mínimo pertinente. Pedir religião para um simples protocolo sem justificativa não se torna adequado porque existe um campo no sistema.
+- **Livre acesso, qualidade e transparência:** garantir ao titular consulta facilitada e gratuita sobre forma, duração do tratamento e integralidade dos dados, manter dados exatos e atualizados e explicar o tratamento com clareza.
+- **Segurança e prevenção:** proteger contra acessos e eventos indevidos e adotar medidas para evitar danos, não apenas reagir a vazamentos.
+- **Não discriminação, responsabilização e prestação de contas:** impedir usos discriminatórios ilícitos ou abusivos e demonstrar medidas eficazes de cumprimento das normas.
 
-- **alfabetização digital**, em sentido restrito, pode indicar domínio inicial de códigos e operações;
-- **letramento** enfatiza o uso social, crítico e contextualizado;
-- **competência** destaca a mobilização integrada de saber, saber fazer e atitude para produzir um resultado responsável.
+Isso exige definir acessos por função, documentar critérios e compartilhamentos e estabelecer o tempo de conservação conforme finalidade e obrigações aplicáveis. Não equivale a guardar tudo indefinidamente nem a eliminar registros que devam ser conservados. A publicidade administrativa não transforma todo cadastro em divulgação irrestrita: a <abbr title="Lei de Acesso à Informação">LAI</abbr> e a <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> devem ser aplicadas de forma compatível com transparência e proteção de informações pessoais.
 
-Não se deve transformar essa distinção em fronteira absoluta: políticas e organismos podem usar os termos de modo parcialmente sobreposto.
+### Tirar o nome não basta
 
----
+**Pseudonimização** separa a identidade dos demais registros, permitindo a reassociação com informação adicional mantida separadamente. Substituir nomes por códigos e guardar a chave de correspondência é um exemplo; os dados continuam pessoais.
 
-## 3. Inclusão e desenho de serviços públicos digitais
+**Anonimização** emprega meios técnicos razoáveis e disponíveis para impedir associação direta ou indireta a uma pessoa. Conforme o artigo 12 da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>, dados anonimizados não são considerados pessoais, salvo se o processo for revertido exclusivamente com meios próprios ou puder ser revertido com esforços razoáveis. Custo, tempo e tecnologia disponível entram nessa avaliação; o dispositivo também contempla dados usados para formar perfil comportamental de pessoa natural identificada.
 
-A oferta digital pode ampliar acesso, reduzir deslocamentos e agilizar serviços. Também pode criar barreiras quando pressupõe equipamento moderno, conexão contínua, visão perfeita, conhecimento técnico ou capacidade de compreender linguagem burocrática.
+**Agregação** reúne registros em totais ou grupos. Um painel agregado pode reduzir exposição, mas um grupo com uma única pessoa ainda pode identificá-la. Para publicar, avalie combinações de campos e possibilidade de reassociação, e não apenas a presença de nomes. Dados já acessíveis publicamente tampouco autorizam qualquer finalidade de reutilização.
 
-Uma inclusão digital efetiva combina:
+### Acerto global não é garantia de justiça
 
-- **conectividade e equipamentos**;
-- **acessibilidade**, com compatibilidade com tecnologias assistivas;
-- **competências** para uso autônomo e seguro;
-- **linguagem clara** e orientação contextual;
-- **canais de apoio ou alternativas adequadas** para quem enfrenta barreiras;
-- **segurança e proteção de dados**;
-- **avaliação com usuários**, e não apenas pela equipe que criou o serviço.
+**Exemplo hipotético:** uma triagem acerta 95 de 100 classificações, mas os cinco erros atingem todos os cinco integrantes de um grupo. O acerto global de 95% convive com erro de 100% nesse grupo. A média não mostra como os benefícios e prejuízos se distribuem.
 
-Tecnologia assistiva, na PNED, envolve produtos, recursos, metodologias, estratégias, práticas e serviços destinados a promover funcionalidade e aprendizagem, com foco na inclusão de pessoas com deficiência ou mobilidade reduzida.
+Um **falso positivo** indica uma condição inexistente; um **falso negativo** deixa de indicar uma condição existente. Na detecção de irregularidade, o primeiro pode suspeitar de pedido regular; o segundo deixa passar uma irregularidade. Os custos são diferentes e precisam entrar na avaliação.
 
-### Exemplo
+Um **viés**, aqui, é uma tendência sistemática que pode distorcer resultados. Pode surgir da seleção de dados, das classificações históricas ou do objetivo escolhido para o modelo. Maximizar uma medida de acerto é racional em relação a essa medida, mas não prova que o objetivo seja justo. Verifique se os dados representam os públicos afetados, avalie erros por grupos pertinentes e mantenha meios de correção e contestação.
 
-Um órgão transfere integralmente um benefício para um aplicativo. O aplicativo é tecnicamente estável, mas não funciona com leitor de tela, exige conexão de alta velocidade e não oferece apoio alternativo. Há digitalização, mas não inclusão. A correção exige remover barreiras, testar acessibilidade e oferecer suporte compatível com o público.
+**Explicabilidade e interpretabilidade** tratam da compreensão do funcionamento do sistema e do significado de seus resultados no contexto de uso. A delimitação de cada termo varia entre referenciais; o objetivo prático é permitir avaliar critérios, limitações e efeitos. Não basta responder “o sistema decidiu”. O artigo 20 da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> assegura solicitar revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem interesses do titular. Prevê também informações claras sobre critérios e procedimentos, observados segredos comercial e industrial; não enuncia uma obrigação universal de revisão por pessoa natural.
 
----
+As bases, direitos e procedimentos completos pertencem ao assunto específico da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>. Aqui, a ponte essencial é distinguir **poder tratar**, **tratar apenas o necessário** e **responder pelos efeitos do tratamento**.
 
-## 4. Política Nacional de Educação Digital
+## 7. Como esses conceitos aparecem na educação digital
 
-A **Lei nº 14.533/2023** instituiu a Política Nacional de Educação Digital (PNED). A política articula programas, projetos e ações de diferentes entes federados, áreas e setores governamentais para ampliar o acesso da população a recursos, ferramentas e práticas digitais, com prioridade para populações vulneráveis.
+### A política nacional: quatro eixos, não apenas escola
 
-### 4.1 Quatro eixos estruturantes
+A Política Nacional de Educação Digital (<abbr title="Política Nacional de Educação Digital">PNED</abbr>), instituída pela Lei 14.533/2023, articula programas, projetos e ações de entes federados e setores governamentais para ampliar acesso a recursos, ferramentas e práticas digitais, **com prioridade às populações mais vulneráveis**. É instância de articulação: não substitui as demais políticas nacionais, estaduais, distritais ou municipais mencionadas na lei.
 
-| Eixo | Foco principal |
+O artigo 1º estabelece quatro eixos estruturantes:
+
+1. **Inclusão Digital:** desenvolver acesso e competências. O artigo 2º prevê sensibilização, treinamento, ferramentas de autodiagnóstico, certificação, plataformas e repositórios de recursos digitais, além de infraestrutura de conectividade educacional. Autodiagnóstico é avaliar as próprias competências; não constitui um quinto eixo. A execução observa limites orçamentários e a competência de cada órgão.
+2. **Educação Digital Escolar:** inserir educação digital nos ambientes escolares, em todos os níveis e modalidades, estimulando letramentos, computação, programação, <abbr title="Área dedicada à construção e ao controle de robôs">robótica</abbr> e outras competências. Inclui formação de professores e gestores, práticas críticas e éticas, acessibilidade e alinhamento curricular.
+3. **Capacitação e Especialização Digital:** desenvolver competências da população em idade ativa para inserção no trabalho. Abrange identificação de competências para empregabilidade, cursos, formação continuada, requalificação e **qualificação digital de servidores e funcionários públicos**, enfrentando o déficit de competências na Administração. Não se limita à formação docente.
+4. **Pesquisa e Desenvolvimento — <abbr title="Pesquisa e Desenvolvimento">P&amp;D</abbr> — em Tecnologias da Informação e Comunicação — <abbr title="Tecnologias da Informação e Comunicação">TICs</abbr>:** desenvolver e promover tecnologias acessíveis e inclusivas. As estratégias incluem soluções de baixo custo, parcerias, **ciência aberta**, isto é, conhecimento científico compartilhado de forma livre, colaborativa e transparente, e reutilização de conteúdos científicos digitais em português.
+
+No terceiro eixo, a lei estimula <abbr title="Programas intensivos de curta duração para aprendizagem prática de computação">bootcamps</abbr>. Sua definição no artigo 4º, § 2º, reúne **imersão de curta duração**, técnicas e linguagens computacionais, **tamanho de turma limitado** e aprendizagem prática por experimentação e aplicação de soluções tecnológicas, nos termos de regulamentação específica. Não basta associar o termo a qualquer curso de programação.
+
+### Dentro do eixo escolar: cinco campos
+
+O artigo 3º da <abbr title="Política Nacional de Educação Digital">PNED</abbr> engloba cinco campos. Os conceitos já estudados ajudam a distinguir seus objetos:
+
+| Campo | Conteúdo legal essencial |
 |---|---|
-| **I. Inclusão Digital** | acesso e desenvolvimento de competências digitais, midiáticas e informacionais |
-| **II. Educação Digital Escolar** | inserção da educação digital nos ambientes escolares |
-| **III. Capacitação e Especialização Digital** | competências para inserção e desenvolvimento no mundo do trabalho |
-| **IV. Pesquisa e Desenvolvimento em <abbr title="Tecnologias da Informação e Comunicação">TICs</abbr>** | promoção de tecnologias acessíveis e inclusivas |
+| Pensamento computacional | Compreender, analisar, definir, modelar, resolver, comparar e automatizar problemas e soluções metodicamente, criando e adaptando algoritmos |
+| Mundo digital | Aprender sobre <abbr title="Componentes físicos de um sistema computacional">hardware</abbr>, como computadores e celulares, e sobre o ambiente digital baseado na internet, sua <abbr title="Organização dos componentes e das conexões de um sistema">arquitetura</abbr> e aplicações |
+| Cultura digital | Participação consciente e democrática; compreensão dos impactos tecnológicos e atitude crítica, ética e responsável diante de tecnologias e ofertas midiáticas |
+| Direitos digitais | Conscientização sobre uso e tratamento de dados pessoais nos termos da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>, conectividade segura e proteção de vulneráveis, especialmente crianças e adolescentes |
+| Tecnologia assistiva | Produtos, recursos, metodologias, estratégias, práticas e serviços voltados à funcionalidade e aprendizagem, com inclusão de pessoas com deficiência ou mobilidade reduzida |
 
-> A PNED possui quatro eixos estruturantes. Ela é instância de articulação e **não substitui** políticas nacionais, estaduais, distritais ou municipais relacionadas ao tema.
+Mundo digital focaliza também como os recursos físicos e o ambiente conectado funcionam; cultura digital enfatiza participação e impactos sociais. São dimensões relacionadas, mas não sinônimas. As estratégias escolares incluem projetos sobre lógica, algoritmos, programação, ética, letramento midiático e cidadania; formação inicial de professores independentemente da área; formação continuada; diagnóstico de acesso e atenção à acessibilidade.
 
-### 4.2 Inclusão Digital
+### A base curricular e seu complemento de Computação
 
-Entre as estratégias do eixo estão:
+A Base Nacional Comum Curricular (<abbr title="Base Nacional Comum Curricular">BNCC</abbr>) é o documento normativo de aprendizagens essenciais da educação básica que orienta os currículos. A <abbr title="Política Nacional de Educação Digital">PNED</abbr> determina que seu eixo escolar esteja em consonância com essa base e com outras diretrizes curriculares específicas.
 
-- sensibilização e treinamento em competências digitais, midiáticas e informacionais;
-- ferramentas de autodiagnóstico e processos de certificação;
-- acesso a plataformas e repositórios digitais;
-- infraestrutura de conectividade para fins educacionais.
+O Parecer <abbr title="Conselho Nacional de Educação / Câmara de Educação Básica">CNE/CEB</abbr> 2/2022 fundamenta as normas de Computação na Educação Básica, instituídas pela Resolução <abbr title="Conselho Nacional de Educação / Câmara de Educação Básica">CNE/CEB</abbr> 1/2022 como complemento à <abbr title="Base Nacional Comum Curricular">BNCC</abbr>. Seus três eixos são **pensamento computacional, mundo digital e cultura digital**. O complemento contempla atividades com e sem dispositivos: resolver um problema ou representar um algoritmo não depende sempre de uma tela.
 
-Infraestrutura e competência aparecem juntas: fornecer conexão sem desenvolver autonomia crítica é insuficiente.
+**As contagens respondem a perguntas diferentes:** quatro eixos estruturantes da política nacional; cinco campos do seu eixo escolar; três eixos do complemento de Computação. Direitos digitais e tecnologia assistiva não desaparecem por não serem nomes de eixos nesse último conjunto.
 
-### 4.3 Educação Digital Escolar: cinco campos abrangidos
+A parte promulgada em dezembro de 2023 da Lei 14.533 acrescentou o § 11 ao artigo 26 da Lei de Diretrizes e Bases da Educação Nacional (<abbr title="Lei de Diretrizes e Bases da Educação Nacional">LDB</abbr>): educação digital, com foco nos letramentos e competências indicados, é componente curricular do ensino fundamental e médio. Isso não equivale a impor <abbr title="Área dedicada à construção e ao controle de robôs">robótica</abbr> como disciplina isolada em toda escola.
 
-O art. 3º da PNED engloba:
+A Resolução <abbr title="Conselho Nacional de Educação / Câmara de Educação Básica">CNE/CEB</abbr> 2/2025 trata do uso de dispositivos nos espaços escolares e da integração curricular da educação digital e midiática. Prevê elaboração curricular e plano de formação em 2025, com implementação obrigatória a partir de 2026; a organização pode envolver disciplinas específicas ou abordagem transversal, distribuída entre componentes curriculares, observados os requisitos normativos. **Educar para o digital não significa liberar uso irrestrito de celulares:** uso pedagógico deve ter finalidade, adequação à etapa e mediação. São diretrizes educacionais, não regras gerais para toda rotina de trabalho do servidor.
 
-1. **pensamento computacional**;
-2. **mundo digital**;
-3. **cultura digital**;
-4. **direitos digitais**;
-5. **tecnologia assistiva**.
+## 8. Reunindo as decisões
 
-O eixo deve estar em consonância com a Base Nacional Comum Curricular e com outras diretrizes curriculares específicas. A lei também promove ética no ambiente digital, letramento midiático, cidadania digital, acessibilidade e formação de profissionais da educação.
+No atendimento hipotético, a solução responsável liga **finalidade, informação, processo, pessoas, dados, decisão, comunicação e controle**. O órgão compreende o problema antes de automatizar, confere evidências antes de concluir e avalia efeitos antes de divulgar. Essas decisões exigem as competências estudadas: não basta ter conexão, executar instruções, obter muitos acertos ou publicar dados. É preciso demonstrar que o serviço atende sua finalidade sem ignorar direitos, barreiras e possibilidades de correção.
 
-### 4.4 Capacitação e o serviço público
-
-O eixo de Capacitação e Especialização Digital busca desenvolver competências ao longo da vida profissional. Uma de suas estratégias expressas é a **qualificação digital de servidores e funcionários públicos**, com política de gestão de recursos humanos voltada a combater o déficit de competências digitais na administração pública.
-
-Capacitar não é somente ensinar a clicar. A formação deve relacionar ferramenta, problema público, segurança, dados, acessibilidade, decisão crítica e responsabilidade.
-
-### 4.5 Pesquisa e Desenvolvimento em TICs
-
-Esse eixo objetiva desenvolver e promover TICs acessíveis e inclusivas. Abrange pesquisa, parcerias, ciência aberta, compartilhamento de recursos digitais e disseminação de conteúdos científicos digitais em língua portuguesa.
-
----
-
-## 5. BNCC e BNCC Computação
-
-A BNCC é a referência normativa de aprendizagens essenciais da educação básica. Seu complemento de Computação organiza competências e habilidades em três eixos:
-
-| Eixo da BNCC Computação | Pergunta orientadora |
-|---|---|
-| **pensamento computacional** | como formular e resolver problemas de modo sistemático? |
-| **mundo digital** | como funcionam artefatos, representação, processamento, armazenamento e transmissão de dados? |
-| **cultura digital** | como participar e criar de modo crítico, ético e responsável em uma sociedade digital? |
-
-Não confunda:
-
-- **PNED:** quatro eixos estruturantes;
-- **art. 3º da PNED:** cinco campos abrangidos pela Educação Digital Escolar;
-- **BNCC Computação:** três eixos.
-
-A referência à BNCC no edital ajuda a compreender a formação para cidadania digital, mas a aplicação ao serviço público exige traduzir essas capacidades para processos, informações, decisões, serviços e deveres administrativos.
-
-### 5.1 Cadeia normativa: não confunda os documentos
-
-| Marco | Função principal |
-|---|---|
-| **Parecer CNE/CEB nº 2/2022** | fundamenta as normas de Computação na Educação Básica como complemento à BNCC |
-| **Resolução CNE/CEB nº 1/2022** | institui as normas de Computação na Educação Básica — Complemento à BNCC |
-| **Lei nº 14.533/2023** | institui a PNED e seus quatro eixos estruturantes |
-| **Resolução CNE/CEB nº 2/2025** | estabelece diretrizes sobre dispositivos digitais e integração curricular da educação digital e midiática |
-
-A sequência é cumulativa. A BNCC Computação não é um quinto eixo da PNED, e a Resolução nº 2/2025 não substitui a Lei nº 14.533/2023. Em prova, identifique primeiro qual documento e qual nível de organização o enunciado menciona.
-
-
----
-
-## 6. Pensamento computacional aplicado ao serviço público
-
-A PNED define pensamento computacional como a capacidade de compreender, analisar, definir, modelar, resolver, comparar e automatizar problemas e soluções de modo metódico e sistemático, por meio da criação e adaptação de algoritmos.
-
-Ele **não é sinônimo de programação**. Um problema pode ser decomposto, modelado e descrito por um algoritmo em linguagem comum, fluxograma ou tabela de decisão, mesmo sem código.
-
-### 6.1 Quatro operações recorrentes
-
-| Operação | Função | Exemplo administrativo |
-|---|---|---|
-| **decomposição** | dividir um problema complexo em partes tratáveis | separar protocolo, triagem, análise, decisão e comunicação |
-| **reconhecimento de padrões** | identificar regularidades, repetições e exceções | localizar tipos frequentes de erro em prestações de contas |
-| **abstração** | reter características relevantes e afastar detalhes irrelevantes | modelar requisitos comuns sem copiar particularidades de cada processo |
-| **algoritmo** | ordenar passos e regras inequívocas para chegar a um resultado | definir sequência de validação de um pedido |
-
-Essas operações não precisam ocorrer em ordem rígida. O processo é iterativo: a descoberta de uma exceção pode exigir nova decomposição ou revisão da abstração.
-
-### 6.2 Método de aplicação
-
-1. **Definir o problema e a finalidade pública.** Evite começar pela ferramenta.
-2. **Mapear pessoas, dados, etapas e decisões.** Registre entradas, saídas, responsáveis e exceções.
-3. **Decompor e reconhecer padrões.** Separe causas de sintomas e frequência de casos atípicos.
-4. **Abstrair sem apagar diferenças relevantes.** Simplifique o modelo, mas preserve regras legais e grupos afetados.
-5. **Criar regras ou algoritmo.** Expresse passos, condições, saídas e tratamento de erro.
-6. **Testar casos normais, limites e adversos.** Inclua dados incompletos e situações excepcionais.
-7. **Avaliar efeitos.** Confira precisão, equidade, acessibilidade, proteção de dados e possibilidade de revisão.
-8. **Monitorar e corrigir.** Resultados reais podem revelar erros de desenho ou mudança de contexto.
-
-### 6.3 Automação não elimina responsabilidade
-
-Uma regra automatizada reproduz escolhas sobre dados, categorias, pesos e exceções. Por isso, o órgão deve avaliar:
-
-- qualidade, atualidade e representatividade dos dados;
-- fundamento e finalidade de cada critério;
-- falsos positivos e falsos negativos;
-- possíveis impactos discriminatórios;
-- explicabilidade e registro das decisões;
-- revisão humana quando cabível;
-- canais de contestação e correção;
-- segurança e minimização de dados.
-
-Eficiência não justifica automatizar procedimento ilegal, opaco ou mal definido. Antes de automatizar, é preciso compreender e, quando necessário, redesenhar o processo.
-
----
-
-## 7. Análise crítica de informações digitais
-
-Informação abundante não equivale a informação confiável. A análise crítica deve examinar origem, evidência, contexto, método e circulação.
-
-### 7.1 Roteiro de verificação
-
-1. **Delimite a alegação.** O que exatamente está sendo afirmado?
-2. **Identifique autoria e publicação.** Quem produziu, quem apenas compartilhou e em qual data?
-3. **Procure a fonte primária.** Lei, ato, base de dados, relatório, decisão ou fala completa.
-4. **Examine a evidência.** Há método, amostra, período, unidade e possibilidade de reprodução?
-5. **Confira o contexto.** Título, recorte, imagem ou número preservam a situação original?
-6. **Compare fontes independentes e qualificadas.** Quantidade não substitui qualidade.
-7. **Classifique o conteúdo.** Fato, opinião, previsão, sátira, publicidade ou interpretação exigem leituras diferentes.
-8. **Reconheça incerteza.** Ausência de prova não autoriza inventar certeza.
-9. **Decida como comunicar.** Compartilhar, corrigir, contextualizar ou não amplificar.
-
-### 7.2 Leitura lateral
-
-Em vez de permanecer apenas na página suspeita, abra novas fontes e investigue o ecossistema da alegação:
-
-1. interrompa a avaliação baseada só na aparência da página;
-2. pesquise quem publica, financia ou mantém o domínio;
-3. procure cobertura independente e qualificada;
-4. localize o ato, estudo, base, imagem ou declaração original;
-5. confira data, versão, contexto e alterações posteriores;
-6. retorne à alegação e classifique o grau de sustentação.
-
-Fonte primária não é sinônimo de fonte imparcial ou infalível. Ela é a referência adequada para saber o que determinado ato, órgão, estudo ou agente efetivamente registrou; a interpretação de seus resultados ainda exige método, contexto e comparação.
-
-
-### 7.3 Sinais não são prova isolada
-
-Erro ortográfico, título emocional, domínio desconhecido ou grande número de compartilhamentos podem motivar cautela, mas nenhum desses elementos decide sozinho a veracidade. Uma página visualmente profissional também pode enganar. A verificação depende de evidência e contexto.
-
-### 7.4 Números e visualizações
-
-Ao avaliar gráfico ou indicador, confira:
-
-- fonte e data;
-- definição do indicador;
-- população, amostra e período;
-- valores absolutos e relativos;
-- escala e eixo truncado;
-- ausência de categorias ou comparações relevantes;
-- distinção entre correlação e causalidade.
-
-Um dado verdadeiro pode produzir conclusão enganosa quando retirado do período ou apresentado em escala que exagera diferenças.
-
----
-
-
-## 8. Desordem informacional e comunicação pública
-
-A terminologia varia entre autores e instituições. Na taxonomia mais frequente entre organismos das Nações Unidas, a intenção distingue informação incorreta de desinformação:
-
-| Categoria | Distinção operacional |
-|---|---|
-| **informação incorreta** (`misinformation`) | conteúdo falso ou inexato compartilhado sem intenção de enganar |
-| **desinformação** (`disinformation`) | conteúdo falso ou enganoso difundido deliberadamente para enganar ou manipular |
-| **má-informação** (`mal-information`) | conteúdo verdadeiro usado fora de contexto ou de modo destinado a causar dano |
-| **fake news** | expressão imprecisa; prefira identificar a categoria e a técnica empregada |
-
-Em prova, siga a definição da fonte indicada pelo enunciado. Na ausência de fonte, reconheça a distinção mais difundida sem tratá-la como fronteira terminológica universal. Para o agente público, a conduta prática continua sendo verificar antes de usar ou divulgar, comunicar incerteza e corrigir com transparência.
-
-### 8.1 Fatores de circulação
-
-- apelo emocional e urgência artificial;
-- confirmação de crenças prévias;
-- repetição e falsa aparência de consenso;
-- recortes de imagem, áudio, estatística ou declaração;
-- perfis que imitam fontes legítimas;
-- redes coordenadas e automação;
-- recomendação algorítmica orientada por engajamento;
-- conteúdo sintético ou manipulado por inteligência artificial.
-
-Viralidade mede circulação, não verdade. Resultado destacado por buscador ou plataforma também não recebe selo automático de confiabilidade.
-
-### 8.2 Resposta institucional responsável
-
-Ao enfrentar alegação enganosa sobre serviço ou política pública, a resposta deve:
-
-- consultar ato, dado ou documento primário;
-- indicar fonte, data, recorte e método relevantes;
-- explicar o que é verdadeiro, falso, impreciso ou ainda incerto;
-- usar linguagem clara e formato acessível;
-- publicar correção visível quando o próprio órgão errou;
-- evitar repetir o boato de forma sensacionalista ou sem contexto;
-- preservar dados pessoais e informações legalmente protegidas;
-- acompanhar dúvidas recorrentes para melhorar a comunicação.
-
-Combater desinformação não autoriza censura genérica nem dispensa direitos fundamentais. A atuação pública deve ser legal, proporcional, transparente e voltada à integridade da informação e ao interesse público.
-
-### 8.3 Conteúdo sintético ou manipulado
-
-Diante de áudio, imagem ou vídeo possivelmente gerado ou alterado por inteligência artificial:
-
-- procure a publicação original e versões anteriores;
-- confira se o material aparece em outro contexto, data ou local;
-- examine cortes, continuidade, sincronização e metadados disponíveis;
-- compare com registros independentes e com a fonte atribuída;
-- não trate detector automático de IA como prova conclusiva;
-- documente o caminho de verificação e o grau de incerteza.
-
-Aparência convincente e coerência interna não substituem procedência e confirmação externa.
-
-
----
-
-## 9. Ética no uso de dados
-
-Ética de dados examina não só o que é tecnicamente possível ou juridicamente permitido, mas também finalidades, proporcionalidade, impactos, distribuição de benefícios e riscos e capacidade de prestação de contas.
-
-Perguntas essenciais:
-
-- por que o dado é necessário?
-- quem pode ser beneficiado ou prejudicado?
-- a coleta é proporcional à finalidade?
-- os dados são corretos e atuais?
-- o modelo reproduz desigualdades presentes na base?
-- o titular entende o tratamento e consegue exercer direitos?
-- quem responde pelo resultado e como ele pode ser contestado?
-
-Anonimizar, agregar ou pseudonimizar dados pode reduzir riscos, mas cada técnica possui limites. Dados anonimizados deixam de ser pessoais para a <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> quando o processo não puder ser revertido por meios próprios ou esforços razoáveis, considerados fatores objetivos. **Pseudonimização não equivale automaticamente a anonimização**: ainda pode haver associação ao titular mediante informação adicional mantida separadamente.
-
-### 9.1 Ciclo ético dos dados
-
-| Etapa | Risco principal | Controle esperado |
-|---|---|---|
-| coleta | excesso ou finalidade vaga | delimitar problema, finalidade e necessidade |
-| preparação | erro, ausência ou distorção | qualidade, documentação e rastreabilidade |
-| modelagem | viés e correlação espúria | testes por grupos, casos-limite e revisão |
-| decisão | opacidade e automatismo | explicação, supervisão e contestação |
-| compartilhamento | reutilização incompatível | finalidade, minimização e controle de acesso |
-| publicação | reidentificação ou conclusão enganosa | agregação, contexto e metodologia |
-| retenção | conservação indefinida | prazo, revisão e descarte seguro |
-
-Uma taxa global de acerto pode ocultar injustiça. Sistema com 95% de precisão total pode produzir falsos positivos muito superiores para determinado grupo; por isso, desempenho médio deve ser examinado junto com a distribuição dos erros e seus impactos.
-
-
----
-
-
-## 10. Ponte com a LGPD
-
-Ética de dados e conformidade jurídica são relacionadas, mas não idênticas. Nesta página, o foco está em finalidade, proporcionalidade, qualidade, vieses, explicabilidade, impactos e prestação de contas. O estudo sistemático de conceitos, bases legais, direitos dos titulares e regras do Poder Público pertence ao tópico **3.2 — LGPD** do edital.
-
-Para integrar os assuntos sem duplicá-los, retenha o mapa mínimo:
-
-| Ponto | Regra de conexão |
-|---|---|
-| agentes | controlador decide; operador trata em nome do controlador; encarregado atua como canal nos termos legais |
-| princípios | finalidade, adequação, necessidade, qualidade, transparência, segurança, prevenção, não discriminação e prestação de contas limitam o tratamento |
-| base legal | consentimento não é a única hipótese e pode ser inadequado quando não há escolha efetivamente livre |
-| Poder Público | o tratamento deve servir à finalidade pública, ao interesse público e às competências ou atribuições legais |
-| dados públicos | disponibilidade pública não autoriza reutilização irrestrita |
-| transparência | publicidade administrativa e proteção de dados devem ser compatibilizadas |
-
-As questões jurídicas já existentes permanecem úteis como revisão interdisciplinar, mas novas questões desta página priorizam os itens 1.1 e 1.2: competências digitais, pensamento computacional, análise crítica, ética de dados e desinformação.
----
-
-## 11. Casos integrados
-
-### 11.1 Painel de desempenho
-
-Um órgão pretende publicar painel de tempo de atendimento. A solução responsável:
-
-1. define a finalidade de transparência e melhoria do serviço;
-2. verifica se indicadores agregados bastam;
-3. remove identificadores sem utilidade pública;
-4. documenta critérios e período;
-5. testa distorções e acessibilidade;
-6. informa metodologia e limitações.
-
-Publicar nome e <abbr title="Cadastro de Pessoas Físicas">CPF</abbr> de cada usuário porque “transparência é absoluta” violaria necessidade e finalidade.
-
-### 11.2 Triagem automatizada
-
-Uma equipe cria regra para priorizar pedidos urgentes. Antes da implantação, deve mapear o fundamento legal da prioridade, testar casos excepcionais, avaliar a qualidade dos dados, registrar os critérios, monitorar desigualdades e prever revisão de classificações equivocadas.
-
-O pensamento computacional ajuda a formular a regra; a ética de dados e os deveres públicos limitam seu desenho e uso.
-
-### 11.3 Boato sobre benefício público
-
-Circula mensagem de que todo benefício será cancelado no dia seguinte. O servidor não deve encaminhá-la “por precaução”. Deve localizar ato oficial, confirmar alcance e vigência, consultar a unidade competente e publicar esclarecimento com fonte e orientação prática. Se ainda não houver confirmação, deve comunicar a incerteza, não inventar resposta.
-
-### 11.4 Reconhecimento facial
-
-Um sistema pode apresentar taxas de erro diferentes entre grupos em razão de dados de treinamento, desenho e condições de uso. Mesmo uma precisão global de 95% pode esconder falsos positivos muito superiores para determinado grupo. A avaliação deve considerar necessidade, proporcionalidade, dados sensíveis biométricos, segurança, não discriminação, transparência, distribuição dos erros, impactos e mecanismos de contestação. Alta sofisticação técnica não elimina esses riscos.
-
----
-
-## 12. Pegadinhas de prova
-
-- Competência digital **não** é apenas habilidade operacional.
-- Cultura digital **não** é sinônimo de possuir equipamento.
-- Cidadania digital **não** se limita a etiqueta em redes.
-- Letramento midiático **não** é somente identificar notícia falsa.
-- Pensamento computacional **não** exige necessariamente programação.
-- Algoritmo **não** precisa ser código de computador.
-- Automação **não** elimina responsabilidade humana e institucional.
-- Viralidade e posição em buscador **não** comprovam veracidade.
-- Fonte primária **não** é automaticamente imparcial ou suficiente.
-- Detector de conteúdo gerado por IA **não** é prova conclusiva.
-- A PNED possui **quatro eixos estruturantes**.
-- A Educação Digital Escolar da PNED engloba **cinco campos**.
-- A BNCC Computação organiza-se em **três eixos**.
-- A PNED articula e **não substitui** outras políticas.
-- Informação incorreta e desinformação podem ser distinguidas pela **ausência ou presença de intenção**, conforme a taxonomia usada.
-- Precisão global **não** prova equidade entre grupos.
-- LGPD é tópico próprio do edital; aqui ela aparece como ponte para a ética de dados.
-
----
-
-## 13. Método rápido para questões situacionais
-
-Diante de um caso de tecnologia no serviço público, use a sequência:
-
-1. **Finalidade:** qual problema público deve ser resolvido?
-2. **Informação:** a fonte, o dado e o método são confiáveis?
-3. **Processo:** etapas, regras e exceções foram compreendidas?
-4. **Pessoas:** quem acessa, quem fica excluído e quem pode ser prejudicado?
-5. **Dados:** há base legal, necessidade, qualidade, transparência e segurança?
-6. **Decisão:** critérios são explicáveis, testáveis e contestáveis?
-7. **Comunicação:** o resultado é claro, contextualizado e responsável?
-8. **Controle:** há registro, monitoramento, revisão e prestação de contas?
-
-Alternativas absolutas como “sempre exige consentimento”, “todo dado público é livre”, “algoritmo é neutro” ou “digital dispensa canal alternativo” tendem a ignorar os limites estudados.
-
----
+**Corte normativo:** legislação aplicável segundo o item 13.32 do Edital 1, de 6 de julho de 2026, que considera a vigência até a publicação do edital. Consulta editorial em 5 de setembro de 2026 não desloca esse corte; os marcos legais e educacionais apresentados são anteriores a ele.
