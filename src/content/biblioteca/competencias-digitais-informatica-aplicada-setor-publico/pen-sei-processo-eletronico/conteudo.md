@@ -242,7 +242,7 @@ Por isso, o Tramita GOV.BR **não exige que todos usem o <abbr title="Sistema El
 
 “Barramento de Serviços do <abbr title="Processo Eletrônico Nacional">PEN</abbr>” é denominação histórica da solução.
 
-No âmbito federal disciplinado pela Portaria SEGES/MGI nº 1.363/2025, o Tramita GOV.BR é o instrumento de comunicação externa entre sistemas de processo eletrônico da administração pública federal direta, autárquica e fundacional, sem impedir adesões de outras instituições conforme as regras aplicáveis.
+No âmbito federal disciplinado pela Portaria <abbr title="Secretaria de Gestão e Inovação">SEGES</abbr>/<abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 1.363/2025, o Tramita GOV.BR é o instrumento de comunicação externa entre sistemas de processo eletrônico da administração pública federal direta, autárquica e fundacional, sem impedir adesões de outras instituições conforme as regras aplicáveis.
 
 ## 11. Protocolo GOV.BR, Protocolo Integrado e <abbr title="Número Único de Protocolo">NUP</abbr>
 
@@ -279,7 +279,7 @@ O <abbr title="Sistema Eletrônico de Informações">SEI</abbr> apoia a gestão 
 
 Esse limite evita uma conclusão errada frequente: informatizar o processo não significa que todos os problemas de arquivo, conservação e destinação desapareceram.
 
-Requisitos detalhados de <abbr title="Sistema Informatizado de Gestão Arquivística de Documentos">SIGAD</abbr>, e-ARQ Brasil e repositórios arquivísticos pertencem a aprofundamento específico; aqui basta compreender a necessidade de gestão documental contínua.
+Requisitos detalhados de <abbr title="Sistema Informatizado de Gestão Arquivística de Documentos">SIGAD</abbr>, <abbr title="Modelo de Requisitos para Sistemas Informatizados de Gestão Arquivística de Documentos">e-ARQ Brasil</abbr> e repositórios arquivísticos pertencem a aprofundamento específico; aqui basta compreender a necessidade de gestão documental contínua.
 
 ## 13. Como resolver questões sem decorar telas
 
