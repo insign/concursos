@@ -6,737 +6,213 @@ order: 23
 storageId: powerpoint-apresentacoes
 ---
 
-## 1. Recorte do assunto e ambiente de referência
+## 1. Alterar a mensagem, a aparência ou a exibição?
 
-O edital inclui editores de texto, planilhas e apresentações no Microsoft Office. Este assunto cobre o **Microsoft PowerPoint e a criação de apresentações**. Fórmulas de planilha pertencem ao assunto de Excel; formatação detalhada de documentos pertence ao assunto de Word.
+**Exemplo hipotético:** uma equipe prepara uma apresentação de resultados mensais. Precisa padronizar o logotipo, mostrar uma tabela do Excel e revelar uma conclusão depois do gráfico. Essas tarefas atuam em níveis diferentes: padrão visual, conteúdo e sequência de exibição. Saber qual nível muda é mais útil do que decorar a posição de um botão.
 
-A referência principal é o **PowerPoint desktop atual para Windows**, especialmente PowerPoint para Microsoft 365 e PowerPoint 2024. Conceitos estáveis também se aplicam às versões 2021 e 2019. Quando uma operação depende de PowerPoint para a Web, macOS, versão, licença, idioma da interface ou formato do arquivo, essa condição deve ser considerada.
+O **PowerPoint** é o programa; a **apresentação** é o documento que ele cria e salva. Cada **slide** é uma tela desse documento. Textos, imagens, formas e gráficos são **objetos** colocados nos slides. **Seções** agrupam slides para facilitar a organização; não criam arquivos independentes.
 
-Em prova, evite quatro generalizações:
+### Ambiente de referência
 
-- PowerPoint desktop e PowerPoint para a Web não oferecem necessariamente os mesmos recursos;
-- um arquivo que abre com êxito pode perder efeitos, fontes, mídia ou comportamento;
-- tema, layout, plano de fundo, Slide Mestre e modelo são recursos relacionados, mas não equivalentes;
-- apresentação automática, arquivo PPSX e modo quiosque não são sinônimos.
+O item 2.2 do edital inclui Microsoft Office sem fixar edição. A referência é o **PowerPoint instalado no Windows, especialmente Microsoft 365 e PowerPoint 2024**; conceitos estáveis também aparecem em versões anteriores. A versão para a Web funciona no navegador, e a edição para <abbr title="Sistema operacional dos computadores Mac">macOS</abbr> tem particularidades. Nomes, atalhos e recursos podem variar por versão, idioma, licença e plataforma. **Prevalece o ambiente informado na questão.**
 
----
+## 2. Construir e organizar a sequência de slides
 
-## 2. Mapa mental: apresentação, slide, seção e objeto
+Em **Arquivo → Novo**, começa-se com uma apresentação em branco ou uma base pronta. **Página Inicial → Novo Slide** acrescenta uma tela; `Ctrl + M` é o atalho no PowerPoint para Windows. Já **Duplicar Slide** copia conteúdo e configurações do slide selecionado. Copiar e colar entre apresentações também produz cópias: editar o destino não altera automaticamente a origem.
 
-| Elemento | Significado |
+No **modo Normal**, as miniaturas à esquerda permitem selecionar e arrastar slides; a área central edita o slide, e o painel inferior recebe anotações do apresentador. Para reorganizar uma apresentação longa, **Classificação de Slides** mostra muitas miniaturas de uma vez. Criar seções com nomes como “Resultados” e “Encaminhamentos” facilita mover blocos, mas não substitui a ordem dos slides.
+
+**Excluir** retira o slide da apresentação. **Ocultar Slide** o mantém no arquivo e o pula na sequência normal de exibição. Ele ainda pode ser acessado deliberadamente durante a apresentação, inclusive por um <abbr title="Referência que conduz a outro slide, arquivo ou página">link</abbr>. Portanto, ocultar um anexo não protege suas informações contra quem recebe o arquivo.
+
+### Reaproveitar um slide de outra apresentação
+
+Ao trazer um slide de outro arquivo, escolha a aparência: **Usar Tema de Destino** adota o padrão visual da apresentação atual; **Manter Formatação Original**, também denominada **Manter Formatação de Origem**, conserva o padrão trazido. Nas versões que oferecem **Reutilizar Slides**, o caminho tradicional é **Página Inicial → Novo Slide → Reutilizar Slides**, com importação de arquivo local. Não presuma disponibilidade uniforme: a documentação informa a descontinuação da reutilização a partir de arquivos na <abbr title="Armazenamento e serviços acessados pela internet">nuvem</abbr>. Copiar e colar continua sendo uma forma de reaproveitamento.
+
+### Encontrar a ferramenta adequada
+
+A **Faixa de Opções** organiza comandos em guias. **Página Inicial** concentra edição, texto e slides; **Inserir**, novos objetos; **Design**, aparência geral e tamanho dos slides. **Transições** controlam a passagem entre slides; **Animações**, os efeitos nos objetos de um slide. **Apresentação de Slides** configura a execução; **Revisão** reúne recursos como ortografia e comentários; **Exibir** muda modos e acessa <abbr title="Configurações compartilhadas por slides ou páginas de saída">mestres</abbr>. Guias **contextuais**, como Formato da Imagem, aparecem conforme o objeto selecionado.
+
+**Arquivo** abre o **Backstage**, área de operações sobre o arquivo: abrir, salvar, imprimir, exportar e consultar informações. Não é uma guia de formatação do texto selecionado.
+
+Em **Estrutura de Tópicos**, o foco são títulos e textos estruturados, não todas as imagens e caixas avulsas. **Página de Anotações** combina slide e notas. **Modo de Leitura** reproduz a apresentação em uma janela; **Apresentação de Slides** é o modo de execução, normalmente em tela inteira. Mudar a visualização não apaga conteúdo.
+
+## 3. Padronizar sem refazer cada slide
+
+### Definir cores, posições e conteúdo inicial
+
+**Tema** coordena cores, fontes — desenhos dos caracteres — e efeitos visuais. Suas **variantes** oferecem combinações alternativas. No exemplo, o tema mantém os resultados mensais com a mesma identidade visual; não decide sozinho onde ficará cada gráfico.
+
+**Layout** define a organização dos espaços destinados ao conteúdo: título, texto, imagem ou gráfico. Essas áreas são **espaços reservados**, também chamados de <abbr title="Áreas estruturadas para receber conteúdo">placeholders</abbr>. Ao preenchê-las, o conteúdo utiliza a estrutura e a formatação previstas. Uma **caixa de texto** inserida livremente é outro objeto: não passa a ser espaço reservado de título apenas por ficar no alto do slide.
+
+**Modelo** é uma base reutilizável que pode reunir tema, layouts e conteúdo pronto. Assim, o tema define a linguagem visual; o layout distribui os lugares; o modelo fornece um ponto de partida mais completo.
+
+**Página Inicial → Layout** troca a organização do slide selecionado. **Redefinir** restaura posição, tamanho e formatação dos espaços reservados conforme o layout, sem apagar o conteúdo inserido. Não é um comando para excluir todos os objetos ou desfazer qualquer alteração da apresentação.
+
+### Slide Mestre: de onde vem o padrão
+
+O **Slide Mestre**, em **Exibir → Slide Mestre**, guarda padrões compartilhados por seus layouts e pelos slides que os utilizam. Uma apresentação pode ter mais de um mestre, cada qual com seus layouts. Alterar o mestre correto evita repetir manualmente a mesma mudança em dezenas de slides.
+
+No exemplo hipotético, um logotipo comum pode ficar no mestre. Se apenas certos tipos de slide devem exibi-lo, pode ficar nos layouts correspondentes. Um logotipo colado manualmente em cada slide é um conjunto de objetos locais: mudar o mestre não elimina essas cópias. Formatações locais também podem se sobrepor ao padrão; reaplicar o layout ou usar Redefinir pode ser necessário.
+
+**Mestre de Folhetos** e **Anotações Mestras** controlam outras saídas: páginas com miniaturas de slides e páginas de notas. Não substituem o Slide Mestre nem mudam automaticamente o conteúdo mostrado ao público.
+
+### Plano de fundo e alcance da alteração
+
+Em **Formatar Plano de Fundo**, há preenchimentos sólidos, graduais, com imagem, textura ou padrão, conforme o ambiente. Um **gradiente** faz a transição entre cores; transparência permite ver o que está atrás. Alterar o fundo dos slides selecionados não exige modificar o tema inteiro. **Aplicar a Todos** amplia o alcance para toda a apresentação.
+
+**Ocultar Elementos Gráficos de Plano de Fundo** trata gráficos herdados; não apaga uma fotografia inserida diretamente no slide. Redefinir o fundo recupera o padrão correspondente, não remove o conteúdo local. Antes de agir, distinga fundo, elemento herdado e objeto independente.
+
+## 4. Escolher o objeto que comunica a informação
+
+### Texto e imagens
+
+Textos podem ocupar espaços reservados, caixas de texto, formas ou tabelas. **WordArt** aplica efeitos decorativos ao texto, não cria um diagrama de relações. Fonte, tamanho, cor, alinhamento, marcadores, <abbr title="Deslocamentos do texto em relação aos limites de sua área">recuos</abbr> e espaçamento devem tornar a mensagem legível. Uma lista com níveis expressa hierarquia; reduzir toda a fonte para encaixar um relatório inteiro não resolve o excesso de conteúdo.
+
+Em **Inserir → Imagens**, podem existir opções para arquivos locais ou acessíveis ao usuário, imagens de estoque da biblioteca Microsoft e imagens da internet. A disponibilidade depende do ambiente e da licença; procurar uma imagem na internet não dispensa verificar seu direito de uso.
+
+**Redimensionar** muda largura e altura; preservar a proporção evita deformação. **Cortar** muda a área visível, podendo conservar partes ocultas no arquivo. **Remover Plano de Fundo** separa partes da imagem, não altera o fundo do slide. Correções de brilho, contraste, cor e efeitos modificam sua apresentação visual. **Compactar Imagens** reduz o tamanho do arquivo, eventualmente com perda de qualidade; pode permitir excluir áreas cortadas. Não confunda essa exclusão com apenas escondê-las pelo corte.
+
+### Formas, diagramas e dados
+
+**Formas** são elementos como retângulos, setas e círculos, que admitem preenchimento, contorno e texto. Um **conector** liga formas e pode acompanhar seu deslocamento. **SmartArt** monta diagramas estruturados, como <abbr title="Diagramas de órgãos ou cargos e suas relações de autoridade">organogramas</abbr>, processos, ciclos e hierarquias: serve para comunicar relações. Um **gráfico de dados**, por sua vez, representa valores numéricos; não é sinônimo de SmartArt.
+
+Uma **tabela do PowerPoint** organiza informações em linhas e colunas para apresentação. Uma **planilha do Excel** tem células que podem armazenar valores e fórmulas para cálculo. Inserir uma tabela não transforma o slide em uma planilha. Estilos, bordas e sombreamento alteram sua aparência; mesclar reúne células, enquanto dividir cria subdivisões. Dados podem chegar como cópia editável, imagem ou <abbr title="Ligação com um arquivo externo para atualização de dados">vínculo</abbr>; a seção 6 explica essas escolhas.
+
+Para escolher um gráfico, primeiro identifique a relação a comunicar. Categorias pedem comparação; uma sequência de meses pede evolução; partes de um total pedem composição. A tabela sintetiza essas escolhas:
+
+| Relação desejada | Tipo e cuidado principal |
 |---|---|
-| **apresentação** | arquivo que reúne slides, temas, mestres, mídia, notas e configurações |
-| **slide** | página visual individual da apresentação |
-| **seção** | agrupamento organizacional de slides |
-| **objeto** | texto, imagem, forma, tabela, gráfico, áudio, vídeo ou outro elemento inserido |
-| **espaço reservado** | área de layout destinada a título, texto, imagem, gráfico ou conteúdo |
-| **layout** | arranjo de espaços reservados e elementos herdados do mestre |
-| **Slide Mestre** | fonte de padrões compartilhados por layouts e slides |
-| **tema** | sistema coordenado de cores, fontes, efeitos e planos de fundo |
-| **modelo** | arquivo-base reutilizável que pode reunir tema, layouts, mestres e conteúdo |
-| **transição** | efeito de passagem para um slide |
-| **animação** | efeito aplicado a um objeto dentro do slide |
+| comparar categorias | colunas ou barras; mantenha escala coerente |
+| acompanhar evolução no tempo | linhas, como os resultados mensais do exemplo |
+| mostrar partes de um total | pizza ou rosca, com poucas parcelas legíveis |
+| relacionar duas medidas numéricas | dispersão, com coordenadas nos eixos horizontal e vertical |
+| mostrar quantos valores caem em cada intervalo | histograma, não simples lista de categorias |
+| combinar <abbr title="Conjuntos de valores representados no gráfico">séries</abbr> com comportamentos ou escalas diferentes | gráfico combinado; um <abbr title="Segunda escala de valores do gráfico">eixo secundário</abbr> exige identificação clara |
 
-Antes de escolher um comando, identifique **o objeto e o alcance**: objeto selecionado, slide atual, vários slides, layout, mestre ou apresentação inteira.
+**Série** é um conjunto de valores representado no gráfico. **Eixo secundário** fornece outra escala; alturas iguais não significam valores iguais. Associação visual entre medidas não prova que uma cause a outra.
 
----
+## 5. Organizar os objetos no espaço
 
-## 3. Interface e modos de trabalho
+**Alinhar** coloca bordas ou centros em uma referência comum; escolha alinhar ao slide ou aos objetos selecionados. **Distribuir** regulariza os intervalos horizontais ou verticais entre objetos — normalmente, selecione ao menos três. Não uniformiza automaticamente seus tamanhos. Grades e guias ajudam a posicionar sem integrar a apresentação projetada.
 
-A **Faixa de Opções** organiza comandos em guias. A guia **Arquivo** abre o Backstage, voltado ao arquivo e ao aplicativo: criar, abrir, salvar, imprimir, exportar, compartilhar e acessar opções.
+**Agrupar** permite mover, redimensionar ou animar objetos compatíveis como um conjunto, preservando seus componentes para posterior desagrupamento. Nem toda seleção permite agrupamento, especialmente quando inclui certos espaços reservados ou objetos especiais.
 
-| Guia/contexto | Tarefas recorrentes |
+**Mesclar Formas** altera a geometria: **União** reúne áreas; **Interseção** conserva a área comum; **Subtração** retira de uma forma a área ocupada por outra, conforme a ordem da seleção; **Fragmentação** separa regiões; **Combinação** exclui áreas sobrepostas. Mesclar não é simplesmente agrupar.
+
+Objetos sobrepostos formam **camadas**. **Avançar/Recuar** muda uma posição; **Trazer para Frente/Enviar para Trás** leva ao extremo da pilha. O **Painel de Seleção** ajuda a selecionar, nomear, ocultar e reorganizar objetos, inclusive os encobertos. Essa ordem visual não deve ser confundida com a ordem de <abbr title="Efeito aplicado a um objeto do slide">animação</abbr> nem com a <abbr title="Sequência em que os objetos são anunciados por um leitor de tela">ordem de leitura</abbr>.
+
+## 6. Trazer dados do Excel: aparência, edição e atualização
+
+A equipe do exemplo precisa decidir o que acontecerá quando a planilha mudar. **Vincular** mantém uma ligação com o arquivo de origem, permitindo atualizar a apresentação a partir dele. **Incorporar** guarda uma cópia dos dados dentro da apresentação, editável com os recursos apropriados, mas independente das alterações posteriores no arquivo original.
+
+Uma terceira opção é **colar como imagem**: preserva a aparência capturada, mas não as células editáveis nem as fórmulas. A imagem ainda pode ser cortada ou redimensionada; “não editar como planilha” não significa “não poder modificar nada”.
+
+| Opção | O que permanece no destino |
 |---|---|
-| **Página Inicial** | novo slide, layout, redefinir, seções, fonte, parágrafo, desenho e organização |
-| **Inserir** | tabelas, imagens, formas, SmartArt, gráficos, links, ações, Zoom, texto, áudio e vídeo |
-| **Design** | temas, variantes, tamanho do slide e plano de fundo |
-| **Transições** | efeito entre slides, duração, som e avanço |
-| **Animações** | efeitos em objetos, Painel de Animação, temporização e gatilhos |
-| **Apresentação de Slides** | iniciar, configurar, ensaiar, gravar e usar apresentação personalizada |
-| **Revisão** | comentários, idioma, acessibilidade e comparação |
-| **Exibir** | modos, mestres, guias, grade, régua, zoom e janelas |
-| **guias contextuais** | comandos específicos do objeto selecionado |
+| objeto incorporado | cópia de dados editáveis; pode aumentar bastante o arquivo |
+| objeto vinculado | ligação com a origem, da qual depende a atualização |
+| imagem | representação visual sem edição de células |
+| Usar Estilos de Destino / Manter Formatação Original | tabela editável no PowerPoint, com aparência do destino ou da origem |
+| Manter Somente Texto | texto, sem preservar a estrutura de planilha |
 
-### 3.1 Modos de exibição
+Em **Inserir → Objeto → Criar do arquivo**, a opção **Vincular** estabelece a ligação; **Colar Especial → Colar vínculo** também pode fazê-lo, conforme a origem. Apenas manter a formatação original não cria um vínculo.
 
-| Modo | Uso |
-|---|---|
-| **Normal** | edição principal, miniaturas, slide e anotações |
-| **Estrutura de Tópicos** | foco na hierarquia textual dos espaços reservados |
-| **Classificação de Slides** | visão global, ordem, seções, transições e slides ocultos |
-| **Anotações** | edição e formatação das páginas de anotações |
-| **Modo de Leitura** | execução em janela com controles |
-| **Apresentação de Slides** | exibição ao público |
-| **Modo do Apresentador** | slide atual, próximo slide, anotações, tempo e ferramentas no monitor do apresentador |
+Se o arquivo de origem for movido, renomeado ou ficar sem permissão de acesso, a atualização pode falhar, embora uma representação anterior continue visível. Verifique caminho, disponibilidade e autorização antes de concluir que os dados desapareceram. Ao incorporar, examine também os dados carregados: o arquivo pode conter mais informação do que a pequena área visível no slide.
 
-O modo muda a forma de trabalhar ou exibir; ele não converte automaticamente o conteúdo.
+## 7. Controlar o que aparece e quando aparece
 
----
+### Transição troca slides; animação atua em objetos
 
-## 4. Criar, duplicar, reutilizar e organizar slides
+A **transição** é o efeito usado na passagem para um slide. Seleciona-se o slide que recebe o efeito na guia **Transições**; cada slide usa uma transição por vez. **Aplicar a Todos** repete a configuração na apresentação. As opções de direção, som e outros ajustes dependem do efeito.
 
-### 4.1 Novo slide, layout e redefinição
+**Transformar**, também chamado de **Morph**, é uma transição que cria continuidade entre objetos correspondentes em slides consecutivos. Não é uma trajetória de animação aplicada dentro de um único slide.
 
-Um novo slide pode ser criado com um layout escolhido. **Layout** define espaços reservados; não é sinônimo de tema.
+A **animação** atua em texto ou outros objetos do slide. **Entrada** faz aparecer; **ênfase** destaca; **saída** faz desaparecer; **trajetória de movimento** desloca por um caminho. Um objeto que só recebeu saída começa visível, até o efeito removê-lo da exibição. Um objeto com entrada ao clique espera esse evento para aparecer.
 
-Operações comuns:
+### Acumular efeitos e estabelecer dependências
 
-- criar slide;
-- duplicar slide;
-- copiar e colar;
-- mover por arraste ou comandos;
-- alterar layout;
-- **Redefinir**, reaplicando posição e formatação padrão dos espaços reservados do layout;
-- ocultar;
-- excluir;
-- organizar em seções.
+Para fazer a conclusão entrar, receber destaque e sair, selecione o objeto e use **Animações → Adicionar Animação** para acrescentar os efeitos. Escolher outro efeito diretamente na galeria pode substituir o já aplicado. O **Painel de Animação** permite conferir sequência, início e duração; os números junto aos objetos indicam a sequência de execução, não o número do slide.
 
-**Ocultar Slide** mantém o slide no arquivo, mas o ignora na sequência normal da apresentação. Links, ações ou apresentações personalizadas ainda podem levá-lo ao slide oculto.
+**Ao Clicar** exige o clique que aciona a próxima etapa. **Com o Anterior** inicia junto com o efeito anterior; **Após o Anterior**, depois que ele termina. **Duração** é quanto o efeito leva; **Atraso** é a espera adicional para começar. Repetição e outras propriedades dependem do efeito. Dizer que dois efeitos são “automáticos” não informa se são simultâneos ou sucessivos.
 
-### 4.2 Reutilizar Slides
+No exemplo hipotético, a entrada do gráfico começa ao clique e dura dois segundos. A conclusão está **Após o Anterior**, com atraso de um segundo: começa três segundos depois daquele clique. Se estivesse **Com o Anterior**, sem atraso, começaria junto com o gráfico. O exemplo supõe apenas esses efeitos, sem repetições ou outros acionamentos.
 
-No desktop compatível:
+**Pincel de Animação** copia efeitos e suas características entre objetos; **Pincel de Formatação** copia aparência. Nenhum deles serve para copiar o texto da conclusão. Um **gatilho** liga a execução a um evento específico, como clicar em determinada forma. Em ambientes compatíveis, um marcador de áudio ou vídeo — ponto assinalado na reprodução — também pode disparar um efeito.
 
-```text
-Página Inicial → Novo Slide → Reutilizar Slides
-```
+### Duração da transição não é permanência no slide
 
-O recurso importa slides de outra apresentação.
+Uma transição de um segundo não manda avançar após um segundo. Em **Transições → Avançar Slide**, **Ao Clicar com o Mouse** e **Após** controlam o avanço. As duas opções podem coexistir: o avanço automático fica habilitado e o clique pode antecipá-lo. Na temporização documentada pela Microsoft, a contagem de **Após** começa quando termina a última animação ou outro efeito do slide.
 
-| Escolha | Efeito |
-|---|---|
-| **Usar Tema de Destino** | o slide importado se adapta ao tema da apresentação atual |
-| **Manter Formatação de Origem** | preserva o tema e a aparência do arquivo de origem |
+Para entender a execução, separe a passagem para o slide, o estado inicial de seus objetos, as animações e o avanço seguinte. Um clique pode executar uma animação pendente em vez de mudar de slide. **Configurar animações automáticas não garante, por si só, uma apresentação inteira sem intervenção.**
 
-O slide reutilizado torna-se uma **cópia independente**. Alterar depois o arquivo original não atualiza automaticamente a cópia importada.
+## 8. Apresentar, navegar e automatizar
 
-### 4.3 Seções
+### O que o público vê e o que o apresentador vê
 
-Seções organizam grupos de slides, facilitam recolher, expandir, mover e administrar partes da apresentação. Não criam arquivos separados e não substituem apresentações personalizadas.
+No PowerPoint instalado no Windows, `F5` inicia do começo, `Shift + F5` inicia do slide atual e `Esc` encerra. Durante a execução, número do slide seguido de `Enter` permite ir diretamente a ele. A documentação de teclado dos Estados Unidos indica `B` ou ponto para tela preta e `W` ou vírgula para tela branca; não generalize letras entre idiomas e plataformas. `F1` exibe ajuda de atalhos durante a apresentação.
 
----
+O **Modo de Exibição do Apresentador** pode mostrar notas, próximo slide, tempo, caneta e apontador laser em uma tela, enquanto a outra mostra apenas os slides. Isso depende da configuração dos monitores: duplicar a tela errada pode expor as notas. **Anotações** orientam a fala; **comentários** registram discussões de revisão. Nenhum é, por natureza, texto do slide projetado.
 
-## 5. Tema, variante, layout, plano de fundo e Slide Mestre
+### Mudar o percurso sem duplicar o arquivo
 
-### 5.1 Tema, variante e modelo
+Um **hiperlink** leva a um destino, como outro slide, arquivo ou página. **Ações** associam respostas a clique ou passagem do mouse, conforme o ambiente: navegar, tocar som ou executar ações permitidas. **Botões de Ação** são formas com comportamento configurável. Abrir arquivos e programas envolve permissões e segurança.
 
-- **tema:** coordena cores, fontes, efeitos e planos de fundo;
-- **variante:** combinação alternativa dentro do tema;
-- **layout:** disposição de espaços reservados;
-- **modelo:** base reutilizável que pode incluir tema, mestre, layouts e conteúdo.
+**Apresentação Personalizada** seleciona slides do arquivo e define uma ordem para determinado público. Não exige criar cópias físicas. **Inserir → Zoom**, nas versões compatíveis, cria navegação visual: **Zoom de Resumo** reúne acessos, **Zoom de Slide** aponta para slides e **Zoom de Seção** para uma seção. É diferente do zoom que apenas amplia a tela de edição; o retorno ao ponto de partida depende da configuração.
 
-Aplicar tema pode alterar aparência, mas não deve apagar intencionalmente o conteúdo dos slides.
+### Exibição autônoma, ensaio e gravação
 
-### 5.2 Formatar Plano de Fundo
+Em **Configurar Apresentação**, há exibição por apresentador em tela inteira, por pessoa em janela e em **quiosque**, modalidade de tela inteira com repetição até `Esc` e navegação restrita. Para funcionamento autônomo, prepare os intervalos e elimine dependências de cliques manuais; para interação, configure os caminhos necessários. Selecionar quiosque não inventa tempos de permanência.
 
-```text
-Design → Formatar Plano de Fundo
-```
+**Testar Intervalos** ensaia e registra tempos. **Usar intervalos, se houver**, ou comando equivalente da versão, permite executá-los. **Gravar Apresentação** pode capturar narração, tempos, marcações e câmera, conforme o ambiente. Os registros ficam associados aos slides; **Exportar para Vídeo** produz outro arquivo. Capturar a apresentação e gerar o vídeo são etapas distintas, mesmo quando a interface aproxima esses comandos.
 
-Opções podem incluir:
+## 9. Inserir mídia sem criar dependências invisíveis
 
-- preenchimento sólido;
-- gradiente;
-- imagem ou textura;
-- padrão;
-- transparência;
-- ocultar elementos gráficos do plano de fundo;
-- redefinir plano de fundo.
+Áudio e vídeo podem estar incorporados, vinculados a arquivos externos ou, no caso de conteúdo online, depender de conexão e disponibilidade do serviço. Incorporar reduz a dependência de um caminho externo, mas aumenta o arquivo. Um **<abbr title="Codificador e decodificador de mídia">codec</abbr>** é o componente que codifica ou decodifica a mídia; a compatibilidade depende também da codificação, não só da extensão.
 
-Por padrão, a alteração pode atingir somente o slide selecionado. **Aplicar a Todos** replica o plano de fundo para os slides da apresentação.
+As ferramentas de reprodução podem definir início automático ou por clique, volume, corte de início e fim — **Aparar** — e repetição. Para vídeo, um **quadro de pôster** escolhe a imagem mostrada antes da reprodução. Para áudio, **Reproduzir em Segundo Plano** combina início automático e reprodução entre slides; não transfira essa configuração indistintamente para qualquer objeto de vídeo.
 
-Uma imagem definida como plano de fundo não se comporta necessariamente como objeto comum selecionável no modo Normal.
+Ocultar um ícone não garante que o som tenha sido configurado para iniciar. Legendas tornam falas acessíveis. Compactar mídia pode reduzir qualidade e afetar recursos; reavalie a versão final, inclusive legendas. Antes de apresentar em outro computador, confira arquivos externos, conexão, formatos e reprodução efetiva.
 
-### 5.3 Slide Mestre e layouts
+## 10. Colaborar e permitir que todos compreendam
 
-O **Slide Mestre** concentra padrões que podem ser herdados pelos layouts e slides:
+**Coautoria** é a edição compartilhada da mesma apresentação. Normalmente exige arquivo em OneDrive ou SharePoint, formato e versão compatíveis e permissão de edição. Esses serviços armazenam arquivos acessíveis pela rede. Um <abbr title="Referência que conduz a um arquivo ou outro destino">link</abbr> pode apontar para o arquivo comum; um anexo enviado a cada pessoa gera cópias independentes. Compartilhar não significa conceder automaticamente permissão para editar.
 
-- tema;
-- fontes;
-- cores;
-- marcadores;
-- posições de espaços reservados;
-- logotipo;
-- rodapé;
-- elementos gráficos;
-- plano de fundo.
+Comentários permitem discutir mudanças; o **histórico de versões** guarda estados anteriores que podem ser recuperados, conforme o armazenamento. **Comparar e Mesclar** é um recurso de versões anteriores: a Microsoft o retirou do Microsoft 365 para Windows a partir da versão **2502**. Não o trate como disponível em toda instalação atual; a documentação preserva instruções para os ambientes que ainda o oferecem.
 
-Um mestre pode possuir vários layouts. Alterar um layout afeta os slides que o utilizam; alterar o mestre pode alcançar vários layouts.
+### Acessibilidade exige estrutura, não apenas aparência
 
-Se um objeto foi inserido diretamente em um slide, editar o mestre não o remove automaticamente. Se um slide foi muito formatado manualmente, a herança pode não produzir o resultado esperado; **Redefinir** pode restaurar padrões dos espaços reservados.
+Uma pessoa que usa **leitor de tela**, programa que apresenta o conteúdo de forma falada ou acessível, precisa reconhecer títulos e percorrer objetos em ordem lógica. Use títulos descritivos, contraste, tamanho legível e informação que não dependa somente de cor. Um gráfico que distingue séries por cor deve oferecer também rótulos ou outra identificação.
 
-### 5.4 Mestre de Folhetos e Mestre de Anotações
+**Texto alternativo** descreve o significado de um objeto visual. No gráfico hipotético, explicar a tendência e o período é mais útil do que escrever apenas “imagem de gráfico”. Elementos puramente decorativos podem ser marcados como tais. Tabelas precisam de cabeçalhos claros; vídeos com fala precisam de legendas adequadas.
 
-- **Mestre de Folhetos:** controla impressão de vários slides por página, cabeçalho, rodapé e elementos dos folhetos;
-- **Mestre de Anotações:** controla página de anotações, miniatura do slide e texto de apoio.
+**Revisão → Verificar Acessibilidade** identifica problemas, mas não certifica compreensão perfeita. No **Painel de Ordem de Leitura**, os objetos são lidos de cima para baixo; o **Painel de Seleção** representa empilhamento, e não deve ser interpretado com a mesma regra. Reordenar pode afetar sobreposições: confira tanto a leitura quanto a aparência.
 
-Eles não substituem o Slide Mestre.
+## 11. Salvar, distribuir e imprimir conforme a finalidade
 
----
+### Arquivo editável, apresentação imediata ou modelo?
 
-## 6. Texto, espaços reservados e estrutura
+A extensão indica o formato, não uma garantia de segurança. **Macros** são instruções programadas que automatizam ações e podem executar código. No Office, podem usar <abbr title="Visual Basic for Applications, linguagem de programação do Office">VBA</abbr>. Não habilite macros de origem desconhecida; assinatura ou aparência institucional não dispensam avaliar confiança.
 
-Texto pode ser inserido em:
+| Finalidade | Sem macros desse tipo | Habilitado para macros |
+|---|---|---|
+| apresentação para trabalho e edição | `.pptx` | `.pptm` |
+| abrir diretamente na exibição de slides | `.ppsx` | `.ppsm` |
+| modelo para novas apresentações | `.potx` | `.potm` |
 
-- espaços reservados;
-- caixas de texto;
-- formas;
-- SmartArt;
-- tabelas;
-- WordArt.
+**`.ppsx` não é bloqueio de edição nem configuração automática de quiosque.** O arquivo pode ser aberto para edição pelo PowerPoint. `.ppt` e `.pps` são formatos antigos; `.odp` é um formato de apresentação usado também por outros programas, como LibreOffice Impress. Trocar formatos pode alterar recursos e aparência. No Impress para Windows, `Ctrl + M` também insere um slide; compartilhar um atalho não implica equivalência integral de recursos.
 
-Espaços reservados participam do layout e da estrutura. Uma caixa de texto comum não se torna espaço reservado apenas por estar na mesma posição.
+### Exportar muda o que o destinatário recebe
 
-Boas práticas:
+<abbr title="Portable Document Format, formato de documento portátil">PDF</abbr> preserva páginas e aparência para leitura e impressão, mas não reproduz a apresentação interativa com suas animações e temporizações. Um vídeo, como `.mp4`, registra uma sequência reproduzível, não objetos editáveis do slide. Imagens, como `.png` ou `.jpg`, representam slides visualmente. Nenhuma dessas exportações mantém, por si só, atualização automática a partir da apresentação original.
 
-- uma ideia principal por slide;
-- hierarquia clara de título e conteúdo;
-- contraste adequado;
-- tamanho legível;
-- listas curtas;
-- alinhamento consistente;
-- evitar texto corrido excessivo;
-- não depender somente de cor;
-- não simular título apenas com fonte grande.
+Fontes ausentes no computador de destino podem ser substituídas e mudar a distribuição do texto. Incorporá-las ao arquivo, quando permitido pela licença da fonte e pela versão, reduz esse risco; nem toda fonte permite incorporação. A exportação também pode perder legendas e recursos interativos: examine o arquivo de saída, não apenas o original.
 
-O **Painel de Seleção** ajuda a renomear, localizar, ordenar, mostrar e ocultar objetos.
+Antes de distribuir, trabalhe sobre uma cópia e use **Arquivo → Informações → Verificar se Há Problemas → Inspecionar Documento**, conforme a versão. O **Inspetor de Documentos** procura comentários, propriedades pessoais, notas e certos conteúdos ocultos. Não remove tudo: por exemplo, não elimina imagens nas anotações. Confira ainda slides ocultos, dados incorporados, vínculos, acessibilidade e permissões. Inspeção de dados, verificação de acessibilidade e avaliação visual são tarefas diferentes.
 
----
+### Escolher a saída impressa
 
-## 7. Imagens, formas, SmartArt, tabelas e gráficos
+Em **Arquivo → Imprimir**, escolha slides, intervalo ou seleção, cor, escala de cinza ou preto e branco e o formato da saída. **Slides em página inteira** mostram um por página; **Páginas de Anotações**, slide e notas; **Estrutura de Tópicos**, texto estruturado; **Folhetos**, miniaturas para o público.
 
-### 7.1 Imagens
+Nos folhetos tradicionais do PowerPoint para Windows, há **1, 2, 3, 4, 6 ou 9 slides por página**; a opção de três inclui linhas para notas. Nove é o máximo desse conjunto de opções, não um limite universal de qualquer programa que imprima o arquivo exportado. O Mestre de Folhetos ajusta elementos como orientação, cabeçalho e rodapé dessas páginas.
 
-Operações comuns:
-
-- redimensionar;
-- recortar;
-- remover plano de fundo;
-- comprimir;
-- corrigir cor e brilho;
-- aplicar estilo;
-- substituir imagem;
-- adicionar texto alternativo.
-
-**Recortar** altera a área visível; **redimensionar** altera largura e altura. Preservar a proporção evita deformação.
-
-### 7.2 Formas e SmartArt
-
-Formas podem conter texto, hiperlinks, ações, preenchimento, contorno e efeitos. **Mesclar Formas** cria resultados geométricos por união, combinação, fragmentação, interseção ou subtração, conforme a versão.
-
-SmartArt representa processos, hierarquias, ciclos, relações e listas visuais. Converter texto em SmartArt altera a representação, não o significado lógico do conteúdo.
-
-### 7.3 Tabelas
-
-Tabelas organizam linhas, colunas e células. Podem receber estilos, bordas, sombreamento, alinhamento, mesclagem e divisão de células.
-
-Tabela do PowerPoint não é planilha do Excel. Para cálculos e atualização de dados, use o Excel e escolha conscientemente entre vínculo, incorporação ou imagem.
-
-### 7.4 Gráficos
-
-O gráfico precisa corresponder ao objetivo:
-
-| Objetivo | Tipo adequado |
-|---|---|
-| comparar categorias | colunas ou barras |
-| mostrar tendência temporal | linhas |
-| mostrar composição simples | pizza ou rosca, com poucas categorias |
-| relacionar duas variáveis numéricas | dispersão XY |
-| mostrar distribuição | histograma |
-| combinar séries e escalas | gráfico combinado e, com cautela, eixo secundário |
-
-Gráfico não corrige base ruim e correlação visual não prova causalidade.
-
----
-
-## 8. Alinhamento, distribuição, agrupamento e camadas
-
-### 8.1 Alinhar e distribuir
-
-- **Alinhar à Esquerda/Direita/Superior/Inferior/Centro/Meio:** posiciona objetos em relação à seleção ou ao slide;
-- **Distribuir Horizontalmente/Verticalmente:** iguala os espaços entre três ou mais objetos;
-- **Guias**, **Grade** e **Guias Inteligentes** ajudam na consistência.
-
-Distribuir não torna automaticamente os objetos do mesmo tamanho.
-
-### 8.2 Agrupar
-
-Agrupar permite mover, redimensionar e formatar vários objetos como unidade. Desagrupar restaura o tratamento individual. Alguns objetos ou espaços reservados podem ter limitações de agrupamento.
-
-### 8.3 Ordem de camadas
-
-- Trazer para Frente;
-- Avançar;
-- Enviar para Trás;
-- Recuar.
-
-Esses comandos alteram a sobreposição, não a posição geométrica no slide.
-
----
-
-## 9. Transições
-
-Transição é o efeito aplicado à passagem **para um slide**.
-
-Configurações:
-
-- tipo e opções de efeito;
-- duração;
-- som, com cautela;
-- avanço Ao Clicar;
-- avanço Após um intervalo;
-- **Aplicar a Todos**.
-
-Cada slide recebe no máximo uma transição principal. Alterar a transição não anima individualmente seus objetos.
-
-### 9.1 Transformação/Morph
-
-A transição **Transformação** (Morph), quando disponível, cria movimento contínuo entre objetos correspondentes em slides consecutivos. Ela depende da versão e da correspondência entre objetos; não é animação de trajetória aplicada dentro de um único slide.
-
----
-
-## 10. Animações
-
-Animação atua em objetos dentro do slide.
-
-| Categoria | Efeito |
-|---|---|
-| **Entrada** | faz o objeto aparecer |
-| **Ênfase** | destaca objeto já visível |
-| **Saída** | faz o objeto desaparecer |
-| **Trajetória de Animação** | move o objeto por um caminho |
-
-### 10.1 Início e temporização
-
-| Início | Comportamento |
-|---|---|
-| **Ao Clicar** | aguarda comando do apresentador |
-| **Com o Anterior** | inicia junto com o efeito anterior |
-| **Após o Anterior** | inicia depois que o anterior termina |
-
-Também podem ser configurados duração, atraso, repetição e opções próprias do efeito.
-
-### 10.2 Adicionar Animação
-
-Para acumular mais de um efeito no mesmo objeto, use **Adicionar Animação**. Escolher simplesmente outro efeito na galeria pode substituir o efeito existente.
-
-Exemplo:
-
-1. Entrada: Esmaecer;
-2. Ênfase: Aumentar/Diminuir;
-3. Saída: Desaparecer.
-
-### 10.3 Painel de Animação
-
-O painel permite:
-
-- ordenar efeitos;
-- visualizar o objeto associado;
-- alterar início, atraso e duração;
-- administrar múltiplos efeitos;
-- remover efeitos;
-- configurar gatilhos.
-
-O número exibido ao lado do objeto representa a ordem de animação, não o número do slide.
-
-### 10.4 Pincel de Animação
-
-O **Pincel de Animação** copia efeitos e configurações de animação de um objeto para outro. Ele não copia necessariamente conteúdo, tamanho, posição, preenchimento ou fonte. Esses pertencem a outros comandos.
-
-### 10.5 Gatilhos
-
-Um gatilho pode iniciar um efeito ao clicar em um objeto específico ou ao atingir um marcador de mídia. Ele cria uma condição de disparo, não uma nova transição.
-
----
-
-## 11. Ordem real dos eventos
-
-Ao avançar do slide 1 para o slide 2:
-
-1. ocorre a transição para o slide 2;
-2. o slide 2 aparece com os objetos que não dependem de animação de entrada;
-3. as animações são executadas na ordem e no modo de início configurados.
-
-Consequências:
-
-- objeto sem animação de entrada já aparece inicialmente;
-- objeto que possui apenas animação de saída começa visível;
-- objeto com entrada Ao Clicar aguarda comando;
-- efeitos Com o Anterior podem iniciar juntos;
-- efeitos Após o Anterior aguardam o término do anterior.
-
-Transição e animação não são executadas na ordem em que foram criadas, mas conforme sua função e temporização.
-
----
-
-## 12. Apresentação de Slides, notas e Modo do Apresentador
-
-### 12.1 Iniciar a apresentação
-
-Atalhos comuns no desktop Windows:
-
-- `F5`: iniciar do começo;
-- `Shift + F5`: iniciar do slide atual;
-- `Esc`: encerrar;
-- `B`: tela preta;
-- `W`: tela branca;
-- número do slide + `Enter`: ir ao slide indicado, conforme o contexto.
-
-Atalhos podem variar por plataforma e configuração.
-
-### 12.2 Modo do Apresentador
-
-Pode mostrar:
-
-- slide atual;
-- próximo slide;
-- anotações;
-- tempo decorrido;
-- relógio;
-- miniaturas;
-- ferramentas de caneta e laser;
-- monitor escolhido.
-
-O público vê somente a saída configurada; o apresentador pode ter uma visão diferente.
-
-### 12.3 Anotações e folhetos
-
-- anotações ajudam o apresentador;
-- páginas de anotações podem ser impressas;
-- folhetos imprimem vários slides por página;
-- anotações não aparecem automaticamente ao público na apresentação comum.
-
----
-
-## 13. Configurar Apresentação de Slides e quiosque
-
-```text
-Apresentação de Slides → Configurar Apresentação de Slides
-```
-
-Tipos:
-
-| Tipo | Comportamento |
-|---|---|
-| **Apresentada por um orador** | tela inteira e controle convencional |
-| **Apresentada por uma pessoa** | execução em janela |
-| **Examinada em um quiosque** | tela inteira, navegação restrita e repetição até `Esc` |
-
-Outras escolhas:
-
-- todos os slides, intervalo ou apresentação personalizada;
-- repetir continuamente até `Esc`;
-- usar ou ignorar narrações;
-- usar ou ignorar intervalos;
-- avanço manual ou por temporização;
-- monitor e Modo do Apresentador.
-
-**PPSX** abre diretamente em modo de apresentação, mas não configura sozinho todas as regras de quiosque.
-
----
-
-## 14. Ensaiar, gravar e temporizar
-
-### 14.1 Ensaiar Intervalos
-
-Registra o tempo gasto em cada slide. Os intervalos podem ser usados na execução automática ou ignorados na configuração da apresentação.
-
-### 14.2 Gravar Apresentação
-
-Pode registrar, conforme a versão:
-
-- narração;
-- intervalos;
-- tinta e apontador;
-- câmera;
-- slide atual ou apresentação inteira.
-
-Gravar não transforma automaticamente o arquivo em vídeo. A exportação para vídeo é uma etapa separada.
-
-### 14.3 Reproduzir narrações e mídia
-
-A execução depende de:
-
-- configuração do áudio/vídeo;
-- dispositivo;
-- codec;
-- permissões;
-- arquivos externos;
-- versão;
-- saída de som.
-
-Teste no equipamento real.
-
----
-
-## 15. Links, ações, apresentação personalizada e Zoom
-
-### 15.1 Hiperlink e ação
-
-- hiperlink aponta para página, arquivo, e-mail ou local da apresentação;
-- ação pode navegar, executar programa ou reproduzir som, conforme a configuração e segurança;
-- botão de ação é uma forma com ação predefinida ou configurável.
-
-Links externos dependem de caminho, rede, aplicativo e permissões.
-
-### 15.2 Apresentação personalizada
-
-Permite definir um subconjunto e uma ordem específica de slides sem duplicar a apresentação. Pode ser usada para públicos diferentes.
-
-### 15.3 Zoom
-
-Em versões compatíveis:
-
-```text
-Inserir → Zoom
-```
-
-| Tipo | Uso |
-|---|---|
-| **Zoom de Resumo** | cria uma página de entrada com partes da apresentação |
-| **Zoom de Slide** | navega para slides específicos |
-| **Zoom de Seção** | navega para seções existentes |
-
-O recurso favorece navegação não linear. Pode haver opção de retornar ao slide de origem após visitar o destino.
-
-Zoom não é Classificação de Slides e não é o mesmo que ampliar a tela.
-
----
-
-## 16. Dados do Excel: vincular, incorporar ou tornar estático
-
-| Método | Atualização | Portabilidade | Editabilidade |
-|---|---|---|---|
-| tabela do PowerPoint | independente | alta | como tabela do PowerPoint |
-| objeto incorporado do Excel | cópia dentro do PPTX | boa, arquivo maior | editável com recursos do Excel |
-| objeto vinculado ao Excel | pode atualizar a partir do XLSX | depende do arquivo e do caminho | ligado à fonte |
-| colar como imagem | estático | alta | não editável como células |
-| usar estilo do destino | adapta a aparência | alta | tabela editável |
-| manter formatação de origem | preserva aparência do Excel | alta | tabela editável |
-
-**Incorporado não é vinculado.**  
-**Vinculado não é autossuficiente:** mover, renomear ou negar acesso ao XLSX pode quebrar a atualização.
-
-Antes de distribuir a apresentação, verifique vínculos externos e decida se a atualização dinâmica ainda é desejada.
-
----
-
-## 17. Áudio, vídeo e legendas
-
-Mídia pode ser inserida, vinculada ou incorporada, conforme recurso e formato.
-
-Configurações possíveis:
-
-- iniciar automaticamente ou Ao Clicar;
-- reproduzir em vários slides;
-- repetir;
-- ocultar durante a apresentação;
-- aparar;
-- ajustar volume;
-- usar pôster;
-- adicionar legendas;
-- compactar mídia.
-
-A reprodução depende de codec, versão, sistema, permissões e equipamento. Um arquivo que funciona no computador de criação pode falhar em outro. Teste antes da apresentação.
-
----
-
-## 18. Colaboração, comentários e versões
-
-Coautoria depende de:
-
-- formato compatível;
-- armazenamento em OneDrive ou SharePoint;
-- permissões;
-- versões adequadas;
-- conexão.
-
-Comentários registram discussões e podem ser respondidos ou resolvidos. Eles não são animações nem anotações do apresentador.
-
-Histórico de versões depende do serviço de armazenamento; não deve ser presumido para qualquer arquivo local.
-
-Enviar anexo normalmente cria cópias independentes. Compartilhar link mantém um arquivo comum, conforme a permissão.
-
----
-
-## 19. Acessibilidade
-
-Boas práticas:
-
-- título exclusivo e estrutural em cada slide;
-- ordem de leitura lógica;
-- texto alternativo em imagens informativas;
-- objetos decorativos marcados como decorativos;
-- contraste suficiente;
-- tamanho legível;
-- não depender somente de cor;
-- links descritivos;
-- tabelas simples;
-- legendas em áudio e vídeo, quando necessárias;
-- evitar animações rápidas ou excessivas;
-- testar com o Verificador de Acessibilidade.
-
-O Verificador ajuda, mas não substitui revisão humana.
-
-O **Painel de Seleção** e a **Ordem de Leitura** permitem conferir a sequência dos objetos para tecnologias assistivas.
-
----
-
-## 20. Formatos, exportação e portabilidade
-
-| Formato | Característica |
-|---|---|
-| `.pptx` | apresentação moderna sem macros VBA |
-| `.pptm` | apresentação habilitada para macros |
-| `.ppsx` | abre diretamente em modo de apresentação |
-| `.ppsm` | apresentação de slides habilitada para macros |
-| `.potx` | modelo sem macros |
-| `.potm` | modelo habilitado para macros |
-| `.ppt` | formato legado |
-| `.pps` | formato legado de apresentação de slides |
-| `.odp` | OpenDocument Presentation, com possíveis diferenças |
-| `.pdf` | saída fixa para distribuição |
-| `.mp4` | vídeo exportado |
-| imagens | saída estática por slide |
-
-### 20.1 Fontes
-
-Se uma fonte não existir no computador de destino, pode ocorrer substituição e alteração de layout. Conforme licença e suporte, fontes podem ser incorporadas ao arquivo.
-
-### 20.2 Exportação
-
-- PDF preserva o layout, mas não a interatividade completa;
-- vídeo reproduz intervalos, narrações e animações compatíveis, conforme a exportação;
-- imagem transforma o slide em saída estática;
-- exportar não mantém vínculo automático com o PPTX original.
-
-### 20.3 Inspecionar Apresentação
-
-Antes de distribuir, verifique:
-
-- comentários;
-- anotações;
-- propriedades;
-- conteúdo invisível;
-- mídia;
-- vínculos externos;
-- fontes;
-- macros;
-- acessibilidade.
-
----
-
-## 21. Impressão
-
-É possível imprimir:
-
-- slides em página inteira;
-- páginas de anotações;
-- estrutura de tópicos;
-- folhetos com vários slides por página.
-
-Configurações incluem:
-
-- intervalo;
-- slides ocultos;
-- cor, escala de cinza ou preto e branco;
-- moldura;
-- ajuste ao papel;
-- cabeçalho e rodapé em folhetos/anotações;
-- orientação.
-
-A impressão de slides ocultos é opção separada da apresentação em tela.
-
----
-
-## 22. Casos resolvidos
-
-### 22.1 Importar slides sem misturar identidades visuais
-
-O órgão deseja importar slides técnicos e adaptar tudo ao tema institucional.
-
-**Solução:** Reutilizar Slides sem marcar Manter Formatação de Origem. Se a aparência original for indispensável, marque essa opção.
-
-### 22.2 Logo em todos os slides, exceto capa
-
-**Solução:** coloque o logotipo no Slide Mestre ou nos layouts apropriados. Use um layout de capa sem o logo. Inserir manualmente em cada slide aumenta inconsistência.
-
-### 22.3 Fundo somente em um slide
-
-**Solução:** Design → Formatar Plano de Fundo e feche o painel sem usar Aplicar a Todos. Para toda a apresentação, use Aplicar a Todos ou ajuste o mestre/tema conforme o objetivo.
-
-### 22.4 Objeto precisa entrar, destacar e sair
-
-**Solução:** aplique a entrada; depois use **Adicionar Animação** para a ênfase e novamente para a saída. Organize no Painel de Animação.
-
-### 22.5 Copiar exatamente a animação de um ícone
-
-**Solução:** use Pincel de Animação. Pincel de Formatação copiaria aparência, não a sequência de efeitos.
-
-### 22.6 Ordem ao abrir o slide
-
-O slide 2 possui transição; A tem entrada Ao Clicar; B tem apenas saída; C não tem animação.
-
-**Resultado:** ocorre a transição; B e C aparecem; A aguarda clique; a saída de B ocorre quando sua posição na sequência for disparada.
-
-### 22.7 Apresentação em terminal de autoatendimento
-
-**Solução:** configure modo quiosque, navegação por botões/links, intervalos quando necessários e repetição até `Esc`. Salvar como PPSX pode facilitar a abertura, mas não substitui a configuração.
-
-### 22.8 Gráfico do Excel não atualiza
-
-O gráfico é vinculado, mas o XLSX foi movido.
-
-**Diagnóstico:** vínculo externo quebrado. Corrija a origem ou incorpore/cole de forma estática antes da distribuição, conforme a necessidade.
-
----
-
-## 23. Pegadinhas de prova
-
-- apresentação não é slide;
-- slide não é seção;
-- layout não é tema;
-- tema não é modelo;
-- plano de fundo não é Slide Mestre;
-- caixa de texto não é espaço reservado;
-- Reutilizar Slides cria cópia, não vínculo;
-- Usar Tema de Destino não preserva necessariamente a aparência original;
-- Manter Formatação de Origem não conecta os arquivos;
-- Redefinir não apaga o conteúdo do espaço reservado;
-- ocultar slide não exclui;
-- distribuir não iguala tamanho;
-- agrupar não mescla objetos;
-- ordem de camadas não é ordem de animação;
-- transição atua no slide;
-- animação atua no objeto;
-- escolher outro efeito pode substituir o anterior;
-- Adicionar Animação acumula efeitos;
-- Pincel de Animação não é Pincel de Formatação;
-- transição ocorre antes das animações do slide de destino;
-- objeto apenas com saída começa visível;
-- PPSX não é modo quiosque;
-- Ensaiar Intervalos não é Gravar Apresentação;
-- gravar não é exportar vídeo;
-- Zoom não é Classificação de Slides;
-- incorporado não é vinculado;
-- vinculado depende da fonte externa;
-- comentário não é anotação;
-- anexo não é coautoria;
-- PDF não preserva toda interatividade;
-- fonte incorporada depende de licença e suporte;
-- PowerPoint para a Web não tem paridade total com o desktop.
-
----
-
-## 24. Método para resolver questões
-
-1. **Identifique o ambiente:** desktop, Web, Windows, Mac e versão.
-2. **Identifique o objeto:** slide, seção, objeto, layout, mestre ou arquivo.
-3. **Localize a guia:** Inserir, Design, Transições, Animações, Apresentação de Slides, Revisão ou Exibir.
-4. **Determine o alcance:** objeto, slide, slides selecionados, layout, mestre ou apresentação inteira.
-5. **Diferencie aparência de estrutura:** tema, plano de fundo, layout e mestre.
-6. **Separe passagem de objeto:** transição versus animação.
-7. **Ordene os eventos:** transição, estado inicial e efeitos.
-8. **Confira dependências:** fonte, mídia, link, arquivo Excel, codec, permissão e monitor.
-9. **Observe o formato:** PPTX, PPSX, PPTM, PDF, vídeo ou imagem.
-10. **Rejeite absolutos:** “sempre preserva”, “qualquer versão”, “cria vínculo” e “funciona igual na Web”.
+**Imprimir Slides Ocultos** é uma decisão separada da ocultação na sequência de exibição. Confira a prévia: imprimir notas pode revelar informações que não seriam projetadas ao público.
