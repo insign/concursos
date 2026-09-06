@@ -6,36 +6,36 @@ order: 48
 storageId: controle-tribunais-contas
 ---
 
-## 1. Recorte e posição institucional
+## 1. A lógica do sistema: auxiliar sem se subordinar
 
-Este assunto estuda o **controle exercido pelos tribunais de contas**: fundamento constitucional, competências, processos, efeitos e jurisprudência indispensável. A composição e a organização comparada de TCU, TCEs, TCDF e TCE/MA ficam para o Assunto 054.
+Imagine uma despesa pública com indícios de irregularidade. Quem fiscaliza? Quem julga contas? Quem pode aplicar multa? E quem susta um ato ou um contrato?
 
-No modelo federal, o art. 71 da Constituição estabelece que o controle externo, a cargo do Congresso Nacional, é exercido com o auxílio do Tribunal de Contas da União (TCU). Isso significa que:
+A Constituição distribui essas respostas entre o **Poder Legislativo** e os **tribunais de contas**. No plano federal, o controle externo está a cargo do Congresso Nacional e é exercido com o auxílio do <abbr title="Tribunal de Contas da União">TCU</abbr>. A palavra **auxílio** não cria hierarquia: o Congresso é titular do controle externo federal, mas o <abbr title="Tribunal de Contas da União">TCU</abbr> possui competências constitucionais próprias.
 
-1. o Congresso Nacional é titular do controle externo federal;
-2. o TCU possui competências constitucionais próprias;
-3. auxílio não significa subordinação hierárquica;
-4. Parlamento e Tribunal não podem substituir um ao outro nas competências reservadas pela Constituição.
+Essa ideia resolve duas confusões frequentes:
 
-A **EC nº 139/2026**, vigente antes da publicação do edital, passou a definir os tribunais de contas, no art. 75, como **instituições permanentes e essenciais ao exercício do controle externo** e vedou sua extinção, criação ou instalação.
+- o <abbr title="Tribunal de Contas da União">TCU</abbr> não substitui o Congresso nas competências reservadas ao Legislativo;
+- o Congresso não pode rever ou assumir livremente competências técnicas atribuídas pela Constituição ao tribunal de contas.
+
+A <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026 passou a definir os tribunais de contas, no <abbr title="artigo">art.</abbr> 75, como **instituições permanentes e essenciais ao exercício do controle externo**, vedando sua extinção, criação ou instalação.
 
 ### 1.1. Natureza das decisões
 
-Tribunais de contas:
+Tribunais de contas **não integram o Poder Judiciário** e não exercem jurisdição judicial. Ainda assim, não são órgãos meramente consultivos: podem julgar contas, imputar débito, aplicar sanções e adotar medidas de controle dentro de suas competências.
 
-- não integram o Poder Judiciário;
-- não exercem jurisdição judicial;
-- não proferem sentença judicial;
-- praticam atos e decisões administrativas constitucionalmente qualificadas;
-- podem julgar contas, imputar débito, aplicar sanções e adotar medidas de controle nos limites de suas competências.
+A Lei nº 8.443/1992 usa a palavra **jurisdição** para delimitar pessoas e matérias submetidas ao <abbr title="Tribunal de Contas da União">TCU</abbr>. É um uso funcional próprio do sistema de contas, que não afasta a garantia de acesso ao Judiciário do <abbr title="artigo">art.</abbr> 5º, XXXV, da Constituição.
 
-A Lei nº 8.443/1992 usa a palavra **jurisdição** para delimitar pessoas e matérias submetidas ao TCU. Esse uso funcional não afasta o art. 5º, XXXV, da Constituição nem impede controle judicial de ilegalidade ou lesão a direito.
+> **Pegadinha:** “julgar contas” não transforma o tribunal de contas em órgão judicial.
 
-> **Pegadinha:** tribunal de contas não é órgão judicial, mas também não é órgão meramente consultivo.
+### 1.2. Recorte e corte temporal
 
-## 2. Objeto e parâmetros da fiscalização
+Este assunto corresponde ao item **Controle pelos tribunais de contas** do programa de Controle Externo do Edital nº 1 — <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, publicado em **6 de julho de 2026**. A composição e a organização comparada do <abbr title="Tribunal de Contas da União">TCU</abbr>, dos <abbr title="Tribunais de Contas dos Estados">TCEs</abbr>, do <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr> e do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> são aprofundadas no Assunto 054.
 
-O art. 70 submete a Administração direta e indireta à fiscalização:
+Para o corte do edital, consideram-se a Constituição e a jurisprudência então vigentes. A verificação posterior, até 6 de setembro de 2026, não identificou alteração que modifique as regras centrais expostas neste capítulo; decisões posteriores ao corte não são usadas para criar cobrança retroativa.
+
+## 2. O que é fiscalizado e por quais critérios
+
+Antes de memorizar competências, entenda o objeto do controle. O <abbr title="artigo">art.</abbr> 70 da Constituição submete a Administração direta e indireta à fiscalização:
 
 - contábil;
 - financeira;
@@ -43,166 +43,161 @@ O art. 70 submete a Administração direta e indireta à fiscalização:
 - operacional;
 - patrimonial.
 
-A fiscalização considera **legalidade, legitimidade e economicidade**, além da aplicação de subvenções e da renúncia de receitas.
+A fiscalização observa **legalidade, legitimidade e economicidade**, além da aplicação de subvenções e da renúncia de receitas.
 
-| Parâmetro | Ideia central |
+| Parâmetro | Pergunta útil |
 | --- | --- |
-| legalidade | conformidade com Constituição, lei e normas aplicáveis |
-| legitimidade | aderência à finalidade pública e aos princípios jurídicos |
-| economicidade | relação racional entre custos, meios, riscos e resultados |
+| legalidade | o ato está conforme a Constituição, a lei e as normas aplicáveis? |
+| legitimidade | a atuação respeita finalidade pública e princípios jurídicos? |
+| economicidade | os custos, meios, riscos e resultados guardam relação racional? |
 
-Controle de economicidade não significa escolher automaticamente a alternativa de menor preço nem autoriza o controlador a administrar no lugar do gestor.
+Economicidade não significa escolher automaticamente o menor preço nem autoriza o controlador a administrar no lugar do gestor.
 
-## 3. Quem deve prestar contas
+### 2.1. Quem deve prestar contas
 
-O art. 70, parágrafo único, adota critério material. Deve prestar contas qualquer pessoa física ou jurídica, pública ou privada, que:
+O <abbr title="artigo">art.</abbr> 70, parágrafo único, adota critério material. Deve prestar contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiro, bens e valores públicos, responda por valores pelos quais a União responda ou assuma obrigação pecuniária em nome dela.
 
-- utilize, arrecade, guarde, gerencie ou administre dinheiro, bens e valores públicos;
-- responda por valores pelos quais a União responda;
-- assuma, em nome da União, obrigação de natureza pecuniária.
+Por isso, uma entidade privada que administre recursos públicos pode ter de prestar contas desses valores sem se transformar em órgão público.
 
-Assim, uma entidade privada que administre recurso público pode sujeitar-se ao dever de prestar contas quanto a esses valores, sem se transformar por isso em órgão público.
+## 3. O mapa do art. 71: verbo + objeto
 
-## 4. Mapa do art. 71
+A forma mais segura de distinguir competências é associar **o verbo constitucional ao objeto controlado**.
 
-Os verbos constitucionais são decisivos:
-
-| Inciso | Competência central do TCU |
+| Inciso | Competência central do <abbr title="Tribunal de Contas da União">TCU</abbr> |
 | --- | --- |
-| I | **apreciar** contas anuais do Presidente e emitir parecer prévio em 60 dias |
-| II | **julgar** contas de administradores, responsáveis e causadores de dano ao erário |
+| I | **apreciar** as contas anuais do Presidente e emitir parecer prévio em 60 dias |
+| II | **julgar** contas de administradores, responsáveis e causadores de dano ao patrimônio público |
 | III | **apreciar para registro** admissões e concessões iniciais de aposentadoria, reforma e pensão |
 | IV | realizar **inspeções e auditorias** por iniciativa própria ou provocação parlamentar |
 | V | fiscalizar contas nacionais de empresas supranacionais com participação da União |
-| VI | fiscalizar recursos federais transferidos por convênio, acordo, ajuste ou congênere |
-| VII | prestar informações ao Congresso, suas Casas ou comissões |
+| VI | fiscalizar recursos federais transferidos por convênio, acordo, ajuste ou instrumento congênere |
+| VII | prestar informações ao Congresso, às suas Casas ou comissões |
 | VIII | aplicar sanções previstas em lei, inclusive multa proporcional ao dano |
 | IX | fixar prazo para providências necessárias ao exato cumprimento da lei |
 | X | sustar ato impugnado não corrigido e comunicar a decisão ao Legislativo |
 | XI | representar ao Poder competente sobre irregularidades ou abusos |
 
-Nem toda fiscalização termina em julgamento ou sanção. A prova costuma trocar os verbos **apreciar**, **julgar**, **registrar**, **sustar** e **representar**.
+Nem toda fiscalização termina em julgamento ou sanção. Em prova, trocar **apreciar**, **julgar**, **registrar**, **sustar** e **representar** costuma mudar a competência.
 
-## 5. Parecer prévio, julgamento e contas de prefeito
+### 3.1. Funções em classificação doutrinária cobrada em prova
 
-### 5.1. Regra geral
+Uma classificação doutrinária já cobrada pela <abbr title="Fundação Getulio Vargas">FGV</abbr> organiza certas atuações pelas funções que desempenham. Ela é útil para reconhecer questões, mas não substitui o mapa constitucional do <abbr title="artigo">art.</abbr> 71.
 
-Nas contas anuais do Presidente da República, o TCU **aprecia** e emite **parecer prévio** em sessenta dias; o Congresso Nacional **julga**.
+| Função | Exemplo típico |
+| --- | --- |
+| opinativa | parecer prévio sobre contas do chefe do Executivo |
+| consultiva | manifestação em consulta ou parecer solicitado nos casos juridicamente previstos |
+| corretiva | determinação de correção e sustação de ato irregular |
+| sancionadora | aplicação de sanções e outras medidas punitivas previstas no regime jurídico |
+
+O nome da função descreve **o papel da atuação**; a competência concreta continua dependendo da Constituição e da lei.
+
+## 4. Parecer prévio, julgamento e contas de prefeito
+
+Aqui, a pergunta decisiva é: **que tipo de conta está sendo examinada?** A mesma pessoa — o prefeito — pode aparecer em regimes diferentes.
+
+### 4.1. Contas anuais do chefe do Executivo
+
+Nas contas anuais do Presidente da República, o <abbr title="Tribunal de Contas da União">TCU</abbr> **aprecia** e emite **parecer prévio** em sessenta dias; o Congresso Nacional **julga**.
 
 No Município, o parecer prévio sobre as contas anuais do prefeito somente deixa de prevalecer por decisão de **dois terços dos membros da Câmara Municipal**.
 
-Parecer prévio não é sentença judicial nem julgamento definitivo do tribunal de contas.
+No **Tema 157**, o <abbr title="Supremo Tribunal Federal">STF</abbr> assentou que a Câmara Municipal julga as contas anuais do prefeito, que o parecer do tribunal de contas é opinativo nesse regime e que a inércia da Câmara não produz julgamento ficto.
 
-### 5.2. Temas 157 e 835
+No **Tema 835**, para os efeitos do <abbr title="artigo">art.</abbr> 1º, I, “g”, da <abbr title="Lei Complementar">LC</abbr> nº 64/1990, a decisão relevante sobre as contas do prefeito cabe à Câmara Municipal, com auxílio do tribunal de contas.
 
-No **Tema 157**, o STF assentou que:
+### 4.2. Prefeito que atua como ordenador de despesas — ADPF 982
 
-- a Câmara Municipal julga as contas anuais do prefeito;
-- o parecer do tribunal de contas é opinativo nesse regime;
-- não há julgamento ficto pelo simples decurso do prazo.
+A <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982 exige separar **contas anuais de governo** e **contas de gestão como ordenador de despesas**.
 
-No **Tema 835**, para fins do art. 1º, I, “g”, da LC nº 64/1990, compete à Câmara Municipal apreciar as contas do prefeito, de governo ou de gestão, com auxílio do tribunal de contas.
+O <abbr title="Supremo Tribunal Federal">STF</abbr> fixou que:
 
-### 5.3. ADPF 982: prefeito como ordenador de despesas
+1. o prefeito que atua como ordenador de despesas deve prestar contas nessa qualidade;
+2. o tribunal de contas pode julgar essas contas com fundamento no <abbr title="artigo">art.</abbr> 71, II;
+3. se houver irregularidade, pode imputar débito e aplicar sanções **fora da esfera eleitoral**, sem ratificação da Câmara Municipal;
+4. permanece preservada a competência da Câmara para o efeito eleitoral previsto na <abbr title="Lei Complementar">LC</abbr> nº 64/1990.
 
-A **ADPF 982**, julgada em 2025, exige uma distinção adicional. O STF fixou que:
-
-1. prefeito que atua como **ordenador de despesas** deve prestar contas nessa qualidade;
-2. compete ao tribunal de contas, com fundamento no art. 71, II, julgar essas **contas de gestão**;
-3. se houver irregularidade, o tribunal pode imputar débito e aplicar sanções **fora da esfera eleitoral**, sem ratificação da Câmara Municipal;
-4. permanece reservada à Câmara Municipal a decisão relevante para a inelegibilidade do art. 1º, I, “g”, da LC nº 64/1990.
-
-A conciliação é esta:
-
-| Situação | Tribunal de contas | Legislativo municipal |
+| Situação | Tribunal de contas | Câmara Municipal |
 | --- | --- | --- |
-| contas anuais do prefeito | parecer prévio | julgamento pela Câmara |
-| contas de gestão do prefeito ordenador de despesas | julgamento pelo tribunal, com débito/sanções não eleitorais | competência preservada para efeitos eleitorais da LC nº 64/1990 |
-| inércia da Câmara nas contas anuais | não gera julgamento ficto | continua necessária deliberação |
+| contas anuais do prefeito | emite parecer prévio | julga |
+| contas de gestão do prefeito ordenador de despesas | julga para débito e sanções não eleitorais | preserva a competência para os efeitos eleitorais da <abbr title="Lei Complementar">LC</abbr> nº 64/1990 |
+| inércia nas contas anuais | não transforma o parecer em julgamento | continua necessária deliberação |
 
-> **Pegadinha:** depois da ADPF 982, é errado afirmar que toda e qualquer conta do prefeito somente pode ser julgada pela Câmara.
+> **Pegadinha:** depois da <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982, é errado dizer que toda e qualquer conta de prefeito somente pode ser julgada pela Câmara.
 
-## 6. Contas de administradores e responsáveis
+## 5. Contas de administradores e responsáveis
 
-O art. 71, II, atribui ao tribunal de contas o julgamento das contas:
+O <abbr title="artigo">art.</abbr> 71, II, atribui ao tribunal de contas o julgamento das contas de administradores, dos demais responsáveis por dinheiro, bens e valores públicos e de quem cause perda, extravio ou irregularidade com prejuízo ao patrimônio público.
 
-- dos administradores;
-- dos demais responsáveis por dinheiro, bens e valores públicos;
-- daqueles que causem perda, extravio ou irregularidade com prejuízo ao erário.
+Na Lei nº 8.443/1992:
 
-Na Lei nº 8.443/1992, as contas podem ser julgadas:
+- **regulares**: demonstrativos exatos e atos legais, legítimos e econômicos, com quitação plena;
+- **regulares com ressalva**: impropriedade ou falta formal sem dano, com quitação e determinação de correção;
+- **irregulares**: hipóteses legais como omissão, ato ilegal, ilegítimo ou antieconômico, dano, desfalque ou desvio.
 
-- **regulares** — exatidão e legalidade, com quitação plena;
-- **regulares com ressalva** — impropriedade ou falta formal sem dano, com quitação e correção;
-- **irregulares** — hipóteses legais como omissão, ato ilegal, ilegítimo ou antieconômico, dano, desfalque ou desvio.
+Contas **iliquidáveis** não formam uma quarta categoria de julgamento de mérito. Quando caso fortuito ou força maior, alheios à vontade do responsável, tornam materialmente impossível julgar, há decisão terminativa e trancamento.
 
-Contas **iliquidáveis** não são uma quarta espécie de julgamento de mérito: há impossibilidade material de julgamento por caso fortuito ou força maior alheios à vontade do responsável, com decisão terminativa e trancamento.
+## 6. Tomada de contas especial: quando o dano exige um processo próprio
 
-## 7. Tomada de contas especial
-
-A **tomada de contas especial (TCE)** é processo administrativo formalizado para:
+A <abbr title="Tomada de Contas Especial">TCE</abbr> é processo administrativo voltado a:
 
 1. apurar os fatos;
-2. identificar os responsáveis;
+2. identificar responsáveis;
 3. quantificar o dano;
-4. obter ressarcimento e permitir o julgamento.
+4. buscar ressarcimento e permitir o julgamento.
 
-Pode decorrer, entre outras hipóteses, de:
+Pode decorrer, por exemplo, de omissão no dever de prestar contas, falta de comprovação da aplicação de recursos transferidos, desfalque, desvio ou ato ilegal, ilegítimo ou antieconômico que cause dano.
 
-- omissão no dever de prestar contas;
-- falta de comprovação da aplicação de recursos transferidos;
-- desfalque ou desvio;
-- ato ilegal, ilegítimo ou antieconômico que cause dano ao erário.
+### 6.1. Medida de exceção e fluxo
 
-### 7.1. Medida de exceção e fluxo
+No regime federal vigente, a <abbr title="Tomada de Contas Especial">TCE</abbr> é **medida de exceção**. Primeiro, a Administração adota providências para sanar a irregularidade ou obter ressarcimento. Persistindo o dano e presentes os pressupostos normativos, formaliza-se a <abbr title="Tomada de Contas Especial">TCE</abbr>, que poderá ser encaminhada ao <abbr title="Tribunal de Contas da União">TCU</abbr> para julgamento.
 
-No regime federal vigente, a TCE é **medida de exceção**. A Administração deve adotar medidas administrativas para sanar a irregularidade ou obter o ressarcimento antes da formalização da TCE. Persistindo o dano e presentes os pressupostos normativos, formaliza-se o processo, que poderá ser encaminhado ao TCU para julgamento.
+**indício ou dano → medidas administrativas → persistência do dano → formalização da <abbr title="Tomada de Contas Especial">TCE</abbr> → instrução → julgamento**
 
-Fluxo mental:
+Isso é compatível com o <abbr title="artigo">art.</abbr> 8º da Lei nº 8.443/1992, que impõe à autoridade competente providências imediatas de apuração e responsabilização. O <abbr title="Tribunal de Contas da União">TCU</abbr> também pode determinar a instauração quando cabível.
 
-**indício/dano → medidas administrativas de saneamento ou ressarcimento → persistência do dano → formalização da TCE → instrução e julgamento**.
+### 6.2. Tema 1287
 
-Isso é compatível com o art. 8º da Lei nº 8.443/1992, que impõe à autoridade competente providências imediatas voltadas à apuração e responsabilização. O TCU também pode determinar a instauração quando cabível.
+No **Tema 1287**, o <abbr title="Supremo Tribunal Federal">STF</abbr> decidiu que, em <abbr title="Tomada de Contas Especial">TCE</abbr>, tribunais de contas podem responsabilizar administrativamente chefes dos Executivos municipal, estadual e distrital por irregularidade em convênio interfederativo de repasse de verbas quando houver responsabilidade pessoal, **sem posterior julgamento ou aprovação pelo Legislativo**.
 
-### 7.2. Tema 1287
-
-No **Tema 1287**, o STF decidiu que, em tomada de contas especial, tribunais de contas podem condenar administrativamente chefes dos Executivos municipal, estadual e distrital quando houver responsabilidade pessoal por irregularidade em convênio interfederativo de repasse de verbas, **sem necessidade de posterior julgamento ou aprovação pelo Legislativo**.
-
-Não confunda:
+Compare:
 
 | Objeto | Regime |
 | --- | --- |
 | conta anual do prefeito | parecer do tribunal + julgamento da Câmara |
-| conta de gestão do prefeito ordenador de despesas | julgamento do tribunal para débito e sanções não eleitorais — ADPF 982 |
-| responsabilidade pessoal em TCE de convênio interfederativo | julgamento administrativo do tribunal — Tema 1287 |
+| conta de gestão do prefeito ordenador | julgamento do tribunal para débito e sanções não eleitorais — <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982 |
+| responsabilidade pessoal em <abbr title="Tomada de Contas Especial">TCE</abbr> de convênio interfederativo | julgamento administrativo pelo tribunal — Tema 1287 |
 
-## 8. Atos de pessoal sujeitos a registro
+## 7. Atos de pessoal: registro não é simples parecer
 
-O art. 71, III, submete a controle de legalidade, para fins de registro:
+O <abbr title="artigo">art.</abbr> 71, III, submete a controle de legalidade, para fins de registro:
 
-- atos de admissão de pessoal na Administração direta e indireta;
-- concessões iniciais de aposentadoria, reforma e pensão.
+- atos de admissão de pessoal na Administração direta e indireta, excetuadas as nomeações para cargo em comissão;
+- concessões iniciais de aposentadoria, reforma e pensão, ressalvadas melhorias posteriores que não alterem o fundamento legal do ato concessório.
 
-Ressalvas:
+A exclusão da **nomeação** para cargo em comissão do registro de admissões não significa ausência de controle de legalidade por outras vias.
 
-- nomeação para cargo em comissão não passa por esse registro;
-- melhoria posterior que não altere o fundamento legal do ato concessório não exige novo registro.
+Há ainda uma distinção previdenciária importante: quem ocupa **exclusivamente cargo em comissão** está sujeito ao <abbr title="Regime Geral de Previdência Social">RGPS</abbr>, nos termos do <abbr title="artigo">art.</abbr> 40, § 13, da Constituição. Por isso, sua aposentadoria pelo <abbr title="Regime Geral de Previdência Social">RGPS</abbr> não é uma concessão estatutária submetida ao registro do <abbr title="artigo">art.</abbr> 71, III.
 
-### 8.1. Súmula Vinculante 3
+### 7.1. Tema 47: autonomia técnica do registro de admissão
 
-Nos processos perante o TCU, asseguram-se contraditório e ampla defesa quando a decisão puder anular ou revogar ato administrativo que beneficie o interessado. A súmula ressalva a apreciação da legalidade da **concessão inicial de aposentadoria, reforma e pensão**.
+No **Tema 47**, o <abbr title="Supremo Tribunal Federal">STF</abbr> fixou que a competência técnica do Tribunal de Contas do Estado, ao **negar registro de admissão de pessoal**, não se subordina à revisão pelo Poder Legislativo respectivo.
 
-A ressalva não elimina contraditório em todo processo de pessoal.
+Essa tese concretiza a ideia da abertura do capítulo: auxílio ao Legislativo não significa que toda decisão técnica do tribunal seja mero parecer sujeito a confirmação parlamentar.
 
-### 8.2. Tema 445
+### 7.2. Súmula Vinculante 3 e Tema 445
 
-No **Tema 445**, o STF fixou prazo de **cinco anos**, contado da **chegada do processo ao respectivo tribunal de contas**, para o julgamento da legalidade do ato de concessão inicial de aposentadoria, reforma ou pensão.
+A <abbr title="Súmula Vinculante">SV</abbr> 3 assegura contraditório e ampla defesa nos processos perante o <abbr title="Tribunal de Contas da União">TCU</abbr> quando a decisão puder anular ou revogar ato administrativo favorável ao interessado, ressalvada a apreciação da legalidade da **concessão inicial de aposentadoria, reforma e pensão**.
 
-> Termo inicial: chegada do processo ao tribunal, e não a data da aposentadoria.
+Essa ressalva não elimina contraditório em todo processo de pessoal.
 
-## 9. Inspeções, auditorias e transferências
+No **Tema 445**, o <abbr title="Supremo Tribunal Federal">STF</abbr> fixou prazo de **cinco anos**, contado da **chegada do processo ao respectivo tribunal de contas**, para o julgamento da legalidade do ato de concessão inicial de aposentadoria, reforma ou pensão.
 
-O art. 71, IV, autoriza inspeções e auditorias contábeis, financeiras, orçamentárias, operacionais e patrimoniais:
+> **Termo inicial:** chegada do processo ao tribunal, não a data da aposentadoria.
+
+## 8. Inspeções, auditorias e transferências
+
+O <abbr title="artigo">art.</abbr> 71, IV, autoriza inspeções e auditorias contábeis, financeiras, orçamentárias, operacionais e patrimoniais:
 
 - por iniciativa própria do tribunal;
 - por iniciativa da Câmara dos Deputados;
@@ -211,17 +206,19 @@ O art. 71, IV, autoriza inspeções e auditorias contábeis, financeiras, orçam
 
 Auditoria não se limita a procurar fraude. Pode examinar conformidade, controles, processos, desempenho e resultados, sem substituir escolha discricionária legítima por preferência do controlador.
 
-O art. 71, VI, também atribui ao TCU fiscalização sobre a aplicação de recursos federais transferidos a Estados, Distrito Federal ou Municípios por convênio, acordo, ajuste ou instrumento congênere. Esse controle pode coexistir com controles internos ou locais fundados em competências próprias.
+A Lei nº 8.443/1992 estabelece que **nenhum processo, documento ou informação sujeito à fiscalização pode ser sonegado ao <abbr title="Tribunal de Contas da União">TCU</abbr> em inspeções ou auditorias**. A existência de informação protegida por sigilo exige o tratamento jurídico adequado do sigilo; não autoriza recusa genérica ao órgão de controle competente.
 
-## 10. Determinação e sustação: ato x contrato
+O <abbr title="artigo">art.</abbr> 71, VI, também atribui ao <abbr title="Tribunal de Contas da União">TCU</abbr> fiscalização sobre a aplicação de recursos federais transferidos a Estados, Distrito Federal ou Municípios por convênio, acordo, ajuste ou instrumento congênere. Esse controle pode coexistir com controles internos ou locais fundados em competências próprias.
+
+## 9. Determinação e sustação: ato não é contrato
 
 Verificada ilegalidade, o tribunal pode fixar prazo para que o órgão ou entidade adote providências necessárias ao **exato cumprimento da lei**.
 
-### 10.1. Ato administrativo
+### 9.1. Ato administrativo
 
 Se a determinação não for atendida, o tribunal pode sustar a execução do ato impugnado e comunicar a decisão à Câmara dos Deputados e ao Senado Federal.
 
-### 10.2. Contrato
+### 9.2. Contrato
 
 Contrato segue rito diferente:
 
@@ -231,105 +228,88 @@ Contrato segue rito diferente:
 
 | Objeto | Regra central |
 | --- | --- |
-| ato administrativo | Tribunal pode sustar se a correção exigida não for atendida |
-| contrato | Congresso susta; após inércia de 90 dias, Tribunal decide a respeito |
+| ato administrativo | o Tribunal pode sustar se a correção exigida não for atendida |
+| contrato | o Congresso susta; após inércia de 90 dias, o Tribunal decide a respeito |
 
-O prazo de 90 dias não é prazo geral de auditoria ou fiscalização.
+> **Pegadinha:** os 90 dias pertencem ao rito do contrato; não são prazo geral de auditoria.
 
-## 11. Débito, sanções e título executivo
+## 10. Débito, multa e título executivo
 
-O art. 71, VIII, permite aplicar aos responsáveis sanções **previstas em lei**, inclusive multa proporcional ao dano.
+O <abbr title="artigo">art.</abbr> 71, VIII, permite aplicar aos responsáveis sanções **previstas em lei**, inclusive multa proporcional ao dano.
 
-Distinção essencial:
+- **débito**: busca recompor prejuízo quantificado;
+- **multa**: é sanção pecuniária.
 
-- **débito** — recomposição de prejuízo quantificado;
-- **multa** — sanção pecuniária.
+Débito e multa podem coexistir quando a lei autoriza.
 
-Podem coexistir quando a lei autoriza.
+A decisão que resulte em imputação de débito ou cominação de multa tem eficácia de **título executivo**. Isso dispensa novo reconhecimento judicial da obrigação, mas não transforma o tribunal de contas em órgão do Judiciário nem lhe atribui a própria execução judicial da dívida.
 
-A decisão que resulte em imputação de débito ou cominação de multa tem eficácia de **título executivo**. Isso dispensa novo reconhecimento judicial da obrigação, mas não transforma o tribunal de contas em órgão do Judiciário nem lhe atribui a execução judicial da dívida.
+A responsabilização exige fundamento legal, individualização da conduta, nexo e observância das garantias de defesa aplicáveis.
 
-Responsabilização exige fundamento legal, individualização da conduta, nexo e garantia de defesa aplicável.
+## 11. Cautelares e garantias processuais
 
-## 12. Cautelares e garantias processuais
+O poder de controle seria inútil se o dano pudesse se consumar enquanto o processo ainda está em curso. Por isso, medidas cautelares podem preservar a utilidade do resultado quando houver competência, fundamento e risco concreto.
 
-Medidas cautelares podem ser utilizadas para preservar a utilidade do controle quando houver fundamento legal e risco concreto. Elas exigem:
+No regime da Lei nº 8.443/1992, entre as medidas previstas estão:
 
-- competência;
-- motivação;
-- necessidade e adequação;
-- proporcionalidade;
-- contraditório no momento compatível com a urgência;
-- duração vinculada ao risco protegido.
+- afastamento temporário do responsável quando sua permanência puder retardar ou dificultar auditoria ou inspeção, causar novos danos ou inviabilizar o ressarcimento;
+- indisponibilidade de bens do responsável, em hipóteses legais, por prazo não superior a **um ano**.
 
-No processo de contas regido pela Lei nº 8.443/1992, a **citação** é utilizada quando há débito e a **audiência** quando há irregularidade sem débito.
+O <abbr title="Supremo Tribunal Federal">STF</abbr> também reconheceu, em contexto cautelar do <abbr title="Tribunal de Contas da União">TCU</abbr>, a possibilidade de alcançar administradores de pessoa jurídica mediante desconsideração da personalidade jurídica quando presentes os pressupostos do caso. Medida urgente pode ser adotada <abbr title="Sem ouvir previamente a parte afetada">inaudita altera pars</abbr>, com contraditório posterior, quando a audiência prévia comprometer sua efetividade.
 
-## 13. Denúncia e representação
+Cautela não é punição antecipada. Exige motivação, necessidade, adequação, proporcionalidade e duração ligada ao risco protegido.
 
-**Denúncia**, no art. 74, § 2º, pode ser apresentada por:
+No processo de contas da Lei nº 8.443/1992:
+
+- **citação**: utilizada quando há débito;
+- **audiência**: utilizada quando há irregularidade sem débito.
+
+## 12. Denúncia e representação
+
+No <abbr title="artigo">art.</abbr> 74, § 2º, podem denunciar irregularidades perante o <abbr title="Tribunal de Contas da União">TCU</abbr>:
 
 - cidadão;
 - partido político;
 - associação;
 - sindicato.
 
-**Representação**, no art. 71, XI, é a comunicação do tribunal ao Poder competente sobre irregularidade ou abuso apurado. A legislação também emprega “representação” para outros instrumentos processuais; em prova, observe o dispositivo indicado.
+Já a **representação** do <abbr title="artigo">art.</abbr> 71, XI, é a comunicação do tribunal ao Poder competente sobre irregularidade ou abuso apurado.
 
-## 14. Súmula 347: constitucionalidade no caso concreto
+A legislação também usa “representação” para outros instrumentos processuais. Em questão de prova, observe o dispositivo e o contexto.
 
-A Súmula 347 afirma que o tribunal de contas, no exercício de suas atribuições, pode apreciar a constitucionalidade das leis e dos atos do poder público.
+## 13. Súmula 347: constitucionalidade apenas no caso concreto
 
-À luz do entendimento atual do STF, isso significa atuação **incidental e excepcional**, necessária ao exercício do controle externo. O tribunal pode afastar a aplicação de norma no caso concreto diante de inconstitucionalidade patente ou incompatibilidade com jurisprudência do STF.
+A Súmula 347 do <abbr title="Supremo Tribunal Federal">STF</abbr> afirma que o tribunal de contas, no exercício de suas atribuições, pode apreciar a constitucionalidade das leis e dos atos do poder público.
+
+No entendimento atual do <abbr title="Supremo Tribunal Federal">STF</abbr>, essa atuação é **incidental e excepcional**, quando necessária ao exercício do controle externo. O tribunal pode afastar a aplicação de norma no caso concreto diante de inconstitucionalidade patente ou incompatibilidade com jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr>.
 
 Não pode:
 
 - exercer controle abstrato;
 - declarar inconstitucionalidade com eficácia geral e vinculante;
-- afastar norma para toda a Administração como se fosse corte constitucional.
+- retirar a norma do ordenamento como se fosse corte constitucional.
 
-## 15. Controle judicial das decisões
+## 14. Controle judicial das decisões
 
-Como as decisões dos tribunais de contas não são judiciais, permanece a garantia do art. 5º, XXXV. O Judiciário pode controlar competência, devido processo, contraditório, motivação, legalidade e direitos.
+Como as decisões dos tribunais de contas não são judiciais, permanece a garantia do <abbr title="artigo">art.</abbr> 5º, XXXV. O Judiciário pode controlar competência, devido processo, contraditório, motivação, legalidade e direitos.
 
-Isso não significa refazer automaticamente toda avaliação técnica ou substituir legitimamente o mérito administrativo do controle.
+Isso não significa refazer automaticamente toda avaliação técnica nem substituir o mérito legítimo do controle por preferência judicial.
 
-## 16. Método para resolver questões
+## 15. Como resolver questões sem decorar casos isolados
 
-### Passo 1: identifique o verbo
+Use três perguntas, nessa ordem:
 
-- chefe do Executivo: **apreciar** e emitir parecer;
-- administradores e responsáveis: **julgar**;
-- atos de pessoal: **apreciar para registro**;
-- fiscalização: **inspecionar/auditar**;
-- ilegalidade: **fixar prazo/sustar**;
-- responsabilidade: **imputar débito/aplicar sanção**;
-- irregularidade para outro Poder: **representar**.
+1. **Qual é o objeto?** Conta anual, conta de gestão, <abbr title="Tomada de Contas Especial">TCE</abbr>, ato de pessoal, ato administrativo ou contrato?
+2. **Qual é o verbo constitucional?** Apreciar, julgar, registrar, fiscalizar, determinar, sustar, sancionar ou representar?
+3. **Há uma exceção jurisprudencial ou procedimental?** Prefeito ordenador, efeito eleitoral, prazo do Tema 445, autonomia do Tema 47, rito contratual de 90 dias ou cautelar?
 
-### Passo 2: identifique o objeto
-
-Conta anual? Conta de gestão? Prefeito ordenador de despesas? TCE? Ato de pessoal? Ato administrativo? Contrato?
-
-### Passo 3: preserve as distinções
+Esse método evita as trocas mais comuns:
 
 - parecer prévio ≠ julgamento;
-- conta anual do prefeito ≠ conta de gestão como ordenador;
-- Tema 1287 ≠ julgamento de contas anuais;
+- conta anual do prefeito ≠ conta de gestão;
+- <abbr title="Tomada de Contas Especial">TCE</abbr> de convênio ≠ conta anual;
+- registro técnico ≠ parecer sujeito à revisão parlamentar;
 - ato ≠ contrato na sustação;
 - débito ≠ multa;
 - título executivo ≠ execução judicial pelo tribunal;
 - Súmula 347 ≠ controle abstrato.
-
-## 17. Síntese final
-
-1. Tribunais de contas são instituições permanentes e essenciais ao controle externo.
-2. Não integram o Judiciário, mas exercem competências decisórias próprias.
-3. O art. 71 deve ser memorizado por **verbo + objeto**.
-4. O dever de prestar contas alcança também particulares que manejem recursos públicos.
-5. Contas anuais do chefe do Executivo recebem parecer prévio e julgamento legislativo.
-6. A ADPF 982 permite ao tribunal julgar contas de gestão do prefeito ordenador de despesas para débito e sanções não eleitorais.
-7. O Tema 1287 admite responsabilização pessoal de chefe do Executivo em TCE de convênio interfederativo.
-8. TCE é medida excepcional, precedida de medidas administrativas de saneamento ou ressarcimento no regime federal vigente.
-9. Tema 445: cinco anos desde a chegada do processo ao tribunal.
-10. Tribunal pode sustar ato; contrato segue rito próprio do Congresso com prazo de 90 dias.
-11. Débito e multa podem constituir título executivo sem transformar o tribunal em órgão judicial.
-12. Súmula 347 autoriza apreciação incidental e limitada, não controle abstrato.
