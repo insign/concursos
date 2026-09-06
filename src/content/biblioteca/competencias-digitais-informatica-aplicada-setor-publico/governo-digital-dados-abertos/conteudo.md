@@ -179,7 +179,7 @@ O Balcão pode orientar criação ou recuperação da conta, consultar o nível 
 Para contas Prata e Ouro, a verificação em duas etapas acrescenta uma prova além da senha.
 
 ```text
-<abbr title="Cadastro de Pessoas Físicas">CPF</abbr> + senha
+CPF + senha
       ↓
 código gerado no aplicativo GOV.BR
       ↓
@@ -265,7 +265,7 @@ Uma imagem escaneada pode ser visualmente compreensível, mas não oferece estru
 
 A <abbr title="Infraestrutura Nacional de Dados Abertos">INDA</abbr> coordena padrões, governança e política de dados abertos no Poder Executivo federal.
 
-O Portal Brasileiro de Dados Abertos funciona principalmente como **catálogo**. Ele ajuda a descobrir conjuntos e pode apontar para arquivos ou <abbr title="Application Programming Interface">API</abbr>s mantidos pelos órgãos de origem. Por isso, aparecer no portal não garante que todo recurso externo esteja permanentemente disponível.
+O Portal Brasileiro de Dados Abertos funciona principalmente como **catálogo**. Ele ajuda a descobrir conjuntos e pode apontar para arquivos ou <abbr title="Application Programming Interfaces">APIs</abbr> mantidas pelos órgãos de origem. Por isso, aparecer no portal não garante que todo recurso externo esteja permanentemente disponível.
 
 O <abbr title="Plano de Dados Abertos">PDA</abbr> organiza a política de abertura no órgão: inventário de bases, critérios de priorização, cronograma, responsáveis, participação social, atualização e monitoramento.
 
