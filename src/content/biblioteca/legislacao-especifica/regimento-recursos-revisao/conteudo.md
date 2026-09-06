@@ -6,202 +6,184 @@ order: 62
 storageId: regimento-recursos-revisao
 ---
 
-## 1. Recorte e corte temporal
+## 1. Depois da decisão, qual é o problema que precisa ser resolvido?
 
-Este assunto trata dos meios de impugnação e integração das decisões do TCE/MA: **recurso de reconsideração**, **embargos de declaração** e **recurso de revisão**, além dos efeitos desses instrumentos sobre cumprimento, definitividade administrativa e cobrança.
+Imagine, **hipoteticamente**, que o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> publique um acórdão desfavorável a um responsável. Saber apenas que “cabe recurso” é insuficiente. A primeira pergunta é: **o que se pretende fazer com a decisão?**
 
-O corte é o da publicação do edital, em **6 de julho de 2026**. Assim, valem a Lei nº 8.258/2005 e o Regimento Interno com as alterações já vigentes nessa data.
+- Se a parte quer **impugnar ordinariamente o resultado** nas hipóteses previstas em lei, o instrumento é o **recurso de reconsideração**.
+- Se a decisão tem **obscuridade, omissão ou contradição**, o instrumento é o **embargo de declaração**: ele serve para integrar ou esclarecer a própria decisão.
+- Se já existe uma decisão definitiva em prestação ou tomada de contas e surge uma das causas excepcionais previstas em lei, pode haver **recurso de revisão**.
 
-Ficam fora deste assunto:
+Os três instrumentos pertencem ao mesmo sistema, mas cumprem funções diferentes. A melhor forma de separá-los é pensar em três verbos:
 
-- decisões, sanções, débito, multa e execução em profundidade, estudados no Assunto 061;
-- atos normativos gerais, ética e regras finais, estudados no Assunto 063.
+**reconsiderar → integrar → rever excepcionalmente**.
 
-### 1.1. Hierarquia normativa: Lei Orgânica × Regimento
+Também é preciso distinguir três efeitos que aparecem ao longo do capítulo:
 
-A Lei Orgânica está acima do Regimento Interno. Se houver incompatibilidade entre os dois textos, a regra legal prevalece.
+- **efeito suspensivo**: impede, no alcance previsto pela norma, que a decisão produza seus efeitos enquanto o recurso é apreciado;
+- **interrupção de prazo**: o prazo atingido deixa de correr e, depois do evento interruptivo, recomeça integralmente;
+- **ausência de efeito suspensivo**: a simples interposição do recurso não paralisa automaticamente cumprimento, cobrança ou execução.
 
-Isso é especialmente importante na **revisão**: compilações do Regimento ainda reproduzem, no art. 289, prazo e hipóteses que não coincidem integralmente com o art. 139 da Lei nº 8.258/2005. Para o direito vigente e para a prova, deve-se seguir a **Lei Orgânica**, que fixa prazo de **2 anos** e fundamentos vinculados. Atos oficiais recentes do próprio TCE/MA aplicam o art. 139.
+Com esse mapa, os números deixam de ser uma lista solta:
 
-## 2. Mapa dos instrumentos
-
-| Instrumento | Função | Prazo | Efeito principal |
+| Instrumento | Função central | Prazo | Efeito relevante |
 | --- | --- | --- | --- |
-| reconsideração | impugnar decisão definitiva nas hipóteses legais | **15 dias** | **suspensivo** |
-| embargos de declaração | integrar/esclarecer decisão | **5 dias** | **interrompem** prazos de cumprimento, reconsideração e revisão |
-| revisão | desconstituir excepcionalmente decisão definitiva em contas | **2 anos** | **sem efeito suspensivo** |
+| reconsideração | impugnação ordinária das decisões abrangidas pela lei | **15 dias** | **suspensivo** |
+| embargos de declaração | integrar ou esclarecer a decisão | **5 dias** | **interrompem** os prazos indicados no Regimento |
+| revisão | desconstituição excepcional de decisão definitiva em contas | **2 anos** | **sem efeito suspensivo** |
 
-Os três instrumentos não são intercambiáveis.
+## 2. Qual texto normativo prevalece?
 
-## 3. Base constitucional
+O corte deste assunto é a publicação do edital, em **6 de julho de 2026**. Consideram-se, portanto, a Lei nº 8.258/2005 e o Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> com as alterações vigentes nessa data.
 
-### 3.1. Contraditório e ampla defesa
+Há um cuidado indispensável: a **Lei Orgânica é hierarquicamente superior ao Regimento Interno**. Se os dois textos forem incompatíveis, prevalece a lei.
 
-A Constituição Federal assegura contraditório e ampla defesa nos processos administrativos, com os meios e recursos inerentes.
+Isso é decisivo na revisão. A compilação oficial do Regimento ainda reproduz, no art. 289, redação antiga que menciona **5 anos** e hipóteses mais amplas. O art. 139 da Lei nº 8.258/2005, porém, estabelece o regime vigente de **2 anos** e fundamentos vinculados. Atos oficiais recentes do próprio <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> aplicam o art. 139.
 
-A garantia constitucional fornece a base do sistema, mas os nomes, cabimento, prazos e efeitos dos recursos decorrem da Lei Orgânica e do Regimento.
+Este capítulo fica concentrado nos meios de impugnação e integração. Débito, multa, cumprimento e cobrança são aprofundados no Assunto 061; atos normativos, ética e disposições finais pertencem ao Assunto 063. Aqui aparece apenas a ponte necessária para entender como os recursos interferem na definitividade e no cumprimento.
 
-### 3.2. Direito de petição e controle judicial
+## 3. Recurso de reconsideração: a via ordinária
 
-O direito de petição permite provocar a Administração contra ilegalidade ou em defesa de direito. A definitividade administrativa não elimina o acesso ao Poder Judiciário.
+### 3.1. Quando ele entra em cena
 
-### 3.3. Duração razoável
+O art. 136 da Lei nº 8.258/2005 disciplina o recurso de reconsideração contra as decisões nele abrangidas, incluindo decisões definitivas em prestação ou tomada de contas, ainda que especial, além de outras hipóteses legais relativas à atuação de controle do Tribunal.
 
-Os recursos concretizam a defesa, mas não tornam o processo indefinido. Prazos, preclusão e trânsito administrativo asseguram definitividade.
+A ideia central é simples: há uma decisão que a parte pretende **reexaminar no próprio sistema decisório do Tribunal**, sem esperar o regime excepcional da revisão.
 
-## 4. Recurso de reconsideração
+O recurso:
 
-### 4.1. Função e cabimento
+- é apresentado **por escrito**;
+- pode ser interposto **uma única vez**;
+- é apreciado pelo **mesmo colegiado que proferiu a decisão recorrida**;
+- tem prazo **improrrogável de 15 dias**;
+- possui **efeito suspensivo**.
 
-A reconsideração é o recurso ordinário contra decisões definitivas nas hipóteses previstas na Lei Orgânica.
+### 3.2. O efeito suspensivo acompanha o que foi impugnado
 
-Não é recurso universal contra qualquer despacho ou ato de mero expediente.
+Suponha, **hipoteticamente**, que um acórdão tenha dois capítulos autônomos e o recurso ataque apenas um deles. A suspensão não deve ser tratada como uma paralisação automática de tudo.
 
-### 4.2. Mesmo colegiado e uma única vez
+A Lei Orgânica vincula o efeito suspensivo ao objeto impugnado: os itens autônomos não recorridos podem seguir para execução em processo separado.
 
-O art. 136 da Lei Orgânica determina que o recurso seja apreciado pelo **mesmo colegiado que proferiu a decisão** e admite sua interposição **uma única vez**.
+A lógica para a prova é:
 
-### 4.3. Prazo de 15 dias e efeito suspensivo
+**impugnação parcial → suspensão do capítulo recorrido, não imunidade automática de todo o acórdão**.
 
-O art. 136 fixa prazo **improrrogável de 15 dias**, com **efeito suspensivo**.
+### 3.3. E se o recurso for apresentado depois dos 15 dias?
 
-Atos oficiais de junho de 2026 continuam aplicando expressamente essa regra.
+Em regra, recurso intempestivo — isto é, apresentado depois do prazo — **não é conhecido**.
 
-Em impugnação parcial, o efeito suspensivo acompanha o objeto atacado; não se deve presumir que capítulos autônomos não impugnados fiquem automaticamente suspensos.
-
-### 4.4. Recurso intempestivo: exceção do art. 137
-
-A intempestividade, em regra, impede o conhecimento. O art. 137, porém, admite excepcionalmente conhecimento quando surgirem **fatos novos** dentro do período legalmente previsto após o prazo ordinário.
+O art. 137 cria uma exceção estreita: a reconsideração intempestiva pode ser conhecida quando surgirem **fatos novos supervenientes**, desde que isso ocorra **dentro de 1 ano contado do término do prazo ordinário**.
 
 Nessa hipótese excepcional, o recurso **não tem efeito suspensivo**.
 
-Pegadinha: a exceção não transforma o prazo de 15 dias em prazo de um ano nem autoriza recurso tardio por simples repetição de argumentos.
+Essa janela de um ano não transforma o prazo ordinário em “um ano e quinze dias”. O prazo normal continua sendo de **15 dias**. O período adicional só serve para a situação excepcional prevista no art. 137 e exige fato novo; mera repetição, reformulação ou reforço de argumentos antigos não satisfaz essa lógica.
 
-## 5. Embargos de declaração
+## 4. Embargos de declaração: corrigir a decisão antes de seguir
 
-### 5.1. Função típica
+### 4.1. O problema que os embargos resolvem
 
-Os embargos de declaração servem para integrar ou aclarar decisão que contenha:
+Embargos de declaração não são uma segunda reconsideração. Sua função típica é integrar ou esclarecer decisão que contenha:
 
-- obscuridade;
-- omissão;
-- contradição.
+- **obscuridade** — a redação impede compreender com segurança o que foi decidido;
+- **omissão** — ponto que deveria ter sido enfrentado não foi examinado;
+- **contradição** — há incompatibilidade interna entre partes da própria decisão.
 
-Não constituem nova reconsideração ampla do mérito. Eventual alteração do resultado pode ocorrer como consequência da correção do vício.
+A prática oficial recente do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> também admite a correção de **erro material** em embargos quando ele estiver efetivamente caracterizado. Isso não autoriza rediscussão ampla do mérito sob o rótulo de erro material.
 
-### 5.2. Prazo de 5 dias
+Os embargos são opostos **por escrito**, **uma única vez**, no prazo de **5 dias**, e são apreciados no âmbito do colegiado competente.
 
-O prazo é de **5 dias**.
+### 4.2. A principal mudança que a prova pode explorar: interrupção
 
-### 5.3. Efeito atual: interrupção
-
-Este é um ponto de alta incidência.
-
-A **Resolução TCE/MA nº 252/2016** alterou o art. 288, § 3º, do Regimento Interno. Desde então, os embargos de declaração **interrompem**:
+A Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 252/2016 alterou o art. 288, § 3º, do Regimento. A redação vigente determina que os embargos **interrompem**:
 
 1. o prazo para cumprimento da decisão;
 2. o prazo para recurso de reconsideração;
 3. o prazo para recurso de revisão.
 
-Portanto, não se usa mais a antiga formulação de mera suspensão para esse dispositivo.
+A palavra decisiva é **interrompem**, não “suspendem”.
 
-**Interrupção** significa que, encerrados os embargos, o prazo alcançado recomeça integralmente, conforme o regime aplicável.
+Veja a diferença com um exemplo puramente didático. Se um prazo de 15 dias estivesse sujeito a simples suspensão depois de 4 dias transcorridos, restariam 11 dias quando a causa suspensiva terminasse. Na **interrupção**, o prazo alcançado recomeça integralmente conforme o regime aplicável.
 
-### 5.4. Erro material
+É por isso que os embargos interferem na cronologia dos demais instrumentos mesmo quando não pretendem substituir o julgamento de mérito.
 
-A literalidade tradicional dos embargos concentra-se em obscuridade, omissão e contradição. Entretanto, decisões oficiais recentes do TCE/MA também examinam e corrigem **erro material** em sede de embargos.
+## 5. Recurso de revisão: excepcional e de cabimento fechado
 
-Para prova:
+### 5.1. Por que ele não é uma nova reconsideração
 
-- não transforme erro material em autorização para rediscutir livremente o mérito;
-- reconheça que a prática institucional atual admite sua correção em embargos quando efetivamente caracterizado.
+O art. 139 da Lei nº 8.258/2005 trata a revisão como instrumento excepcional, de lógica semelhante à ação rescisória: uma decisão de contas já se tornou definitiva, mas a lei admite desconstituí-la em situações específicas.
 
-## 6. Recurso de revisão
+A revisão:
 
-### 6.1. Natureza excepcional
+- alcança decisão definitiva em **prestação ou tomada de contas, ainda que especial**, nos limites da lei;
+- é dirigida ao **Plenário**;
+- pode ser interposta **uma única vez**;
+- é apresentada **por escrito**;
+- tem prazo **improrrogável de 2 anos**;
+- **não possui efeito suspensivo**.
 
-O recurso de revisão tem natureza excepcional, semelhante à lógica rescisória. Não é uma segunda reconsideração e não serve para repetir genericamente argumentos já rejeitados.
+A consequência prática da última regra é importante: apresentar revisão, por si só, não paralisa automaticamente o cumprimento ou a cobrança da decisão.
 
-É dirigido ao **Plenário** e pode ser interposto **uma única vez**.
+### 5.2. Os fundamentos são vinculados
 
-### 6.2. Prazo de 2 anos
+A revisão não funciona como convite para reabrir toda a defesa. O art. 139 admite o instrumento quando houver uma das causas legais:
 
-O art. 139 da Lei Orgânica fixa prazo **improrrogável de 2 anos**.
+1. **erro de cálculo**;
+2. **falsidade ou insuficiência de documentos** em que se fundamentou a decisão;
+3. **superveniência de documentos novos** com eficácia sobre a prova produzida.
 
-Esse prazo é o parâmetro vigente, ainda que compilações regimentais antigas reproduzam prazo distinto no art. 289.
+Compare dois cenários hipotéticos:
 
-### 6.3. Sem efeito suspensivo
+- “Discordo novamente da interpretação jurídica adotada.” → isso, sozinho, não cria uma causa de revisão.
+- “Surgiu documento novo, posteriormente, capaz de alterar a prova na forma exigida pela lei.” → há uma hipótese que precisa ser examinada à luz do art. 139.
 
-A revisão **não tem efeito suspensivo**.
+O ponto de prova é reconhecer que a revisão tem **porta de entrada estreita**: prazo longo não significa cabimento amplo.
 
-Logo, sua simples interposição não paralisa automaticamente cumprimento, cobrança ou execução.
+### 5.3. Prestação de contas anual de Prefeito: exclusão expressa
 
-### 6.4. Fundamentos vinculados
+O art. 139, § 7º, estabelece que **não cabe recurso de revisão contra decisão proferida em prestação de contas anual apresentada por Prefeito Municipal**.
 
-O art. 139 admite revisão nas hipóteses legais, entre elas:
+A exclusão precisa ser guardada junto com o próprio conceito de revisão, porque impede aplicar mecanicamente o prazo de dois anos a qualquer processo de contas. Decisão oficial do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> em 2026 aplicou expressamente essa vedação.
 
-- **erro de cálculo**;
-- **falsidade ou insuficiência de documentos** em que se tenha fundamentado a decisão;
-- **superveniência de documentos novos** com eficácia sobre a prova produzida.
+## 6. Trânsito administrativo: quando a decisão se torna definitiva dentro do Tribunal
 
-A lista mostra por que revisão não é recurso ordinário de livre rediscussão.
+<abbr title="Definitividade da decisão dentro da esfera administrativa do Tribunal">Trânsito em julgado administrativo</abbr> significa que a decisão se tornou definitiva no âmbito do próprio <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Isso **não** cria coisa julgada judicial nem elimina o acesso ao Poder Judiciário.
 
-### 6.5. Conflito com o art. 289 do Regimento
+Para o regime do art. 139, os §§ 8º e 9º relacionam a definitividade à inexistência de recurso de reconsideração cabível.
 
-O art. 289 do Regimento, em compilações ainda disponíveis, conserva redação antiga com prazo de **5 anos** e formulações mais amplas.
+Os embargos entram nessa cronologia porque interrompem o prazo da reconsideração. O fluxo pode ser visualizado assim:
 
-Não memorize esse prazo como vigente. A Lei Orgânica posterior e hierarquicamente superior estabelece **2 anos**, e decisões oficiais recentes do TCE/MA aplicam o art. 139.
+**publicação da decisão → eventual embargo → reinício dos prazos interrompidos → reconsideração cabível ou esgotamento de seu prazo → definitividade administrativa pertinente → eventual revisão, se houver cabimento legal**.
 
-## 7. Trânsito em julgado administrativo
+A revisão aparece depois da definitividade justamente porque tem função excepcional. Mas, como ela não possui efeito suspensivo, a existência dessa possibilidade extraordinária não significa que toda obrigação deva ficar parada por dois anos.
 
-### 7.1. Conceito
+## 7. Recursos, cumprimento e execução não são a mesma coisa
 
-Trânsito em julgado administrativo é a definitividade da decisão no âmbito do próprio Tribunal, sem impedir controle judicial posterior.
+Retome o cenário inicial. Uma decisão pode impor obrigação, ser impugnada e, ao mesmo tempo, estar sujeita a regras próprias de cumprimento. O efeito de cada instrumento é que determina a relação entre essas etapas.
 
-O TCE/MA possui serviço de certidão de trânsito em julgado para documentar a situação processual.
-
-### 7.2. Regra do art. 139 para fins de revisão
-
-Os §§ 8º e 9º do art. 139 tratam a decisão transitada em julgado como decisão definitiva e, para esse regime, vinculam o trânsito à inexistência de recurso de reconsideração cabível.
-
-Os embargos precisam ser considerados nessa cronologia porque **interrompem o prazo da reconsideração**.
-
-Assim, a sequência pode ser:
-
-1. publicação da decisão;
-2. eventual embargo interrompe os prazos atingidos;
-3. após julgamento dos embargos, os prazos interrompidos recomeçam;
-4. esgotada a reconsideração cabível, consolida-se o marco de definitividade administrativa pertinente.
-
-## 8. Recursos × cumprimento e execução
-
-Não existe uma sequência única em que toda obrigação fique inerte até o trânsito.
-
-A relação depende do instrumento:
-
-| Situação | Consequência |
+| Situação | Consequência relevante |
 | --- | --- |
-| embargos de declaração | interrompem prazo de cumprimento e os prazos de reconsideração/revisão |
-| reconsideração | suspende os efeitos no âmbito do objeto impugnado |
-| revisão | não suspende automaticamente os efeitos |
+| embargos de declaração | interrompem os prazos de cumprimento, reconsideração e revisão indicados no art. 288, § 3º |
+| reconsideração tempestiva | possui efeito suspensivo no alcance do objeto impugnado |
+| reconsideração intempestiva conhecida pelo art. 137 | não possui efeito suspensivo |
+| revisão | não possui efeito suspensivo |
 
 Portanto:
 
-- **recurso** impugna ou integra a decisão;
-- **cumprimento** atende à obrigação imposta;
+- **recurso** impugna ou integra uma decisão;
+- **cumprimento** atende voluntariamente à obrigação imposta;
 - **execução/cobrança** busca efetivar obrigação não cumprida.
 
-## 9. Pegadinhas recorrentes
+Não existe uma regra segundo a qual “qualquer recurso paralisa tudo”. É preciso identificar **qual instrumento foi usado e qual efeito a lei lhe atribui**.
 
-| Pegadinha | Correção |
-| --- | --- |
-| reconsideração = revisão | reconsideração é ordinária; revisão é excepcional |
-| reconsideração tem 2 anos | tem 15 dias |
-| reconsideração nunca suspende | tem efeito suspensivo |
-| embargos suspendem prazos | redação vigente: **interrompem** os prazos indicados no art. 288, § 3º |
-| embargos reabrem todo o mérito | função típica é integrar/aclarar vício |
-| revisão tem 5 anos porque o Regimento diz isso | prevalece o art. 139 da Lei Orgânica: **2 anos** |
-| revisão suspende cobrança | não tem efeito suspensivo |
-| revisão serve para repetir defesa | exige fundamento legal específico |
-| trânsito administrativo impede Judiciário | não impede controle judicial |
-| recurso e execução são a mesma fase | recurso impugna; execução cumpre/cobra |
+## 8. Feche o mapa para a prova
+
+Ao receber uma questão, siga esta sequência:
+
+1. **Qual é a função pretendida?** Impugnar ordinariamente, integrar a decisão ou desconstituir excepcionalmente decisão definitiva?
+2. **Qual é o instrumento?** Reconsideração, embargos ou revisão?
+3. **Qual é o prazo?** 15 dias, 5 dias ou 2 anos?
+4. **Qual é o efeito?** Suspensivo, interruptivo de prazos ou sem efeito suspensivo?
+5. **Há uma exceção de cabimento?** Fato novo do art. 137? Fundamento vinculado da revisão? Prestação de contas anual de Prefeito?
+6. **O enunciado está usando redação antiga do Regimento?** Para a revisão, o art. 139 da Lei Orgânica prevalece: **2 anos** e hipóteses legais vigentes.
+
+Se essas seis perguntas estiverem claras, as pegadinhas mais comuns deixam de depender de memorização isolada: elas passam a ser consequência do mecanismo.
