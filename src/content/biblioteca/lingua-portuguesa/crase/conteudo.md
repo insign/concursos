@@ -8,624 +8,232 @@ storageId: crase
 
 # Crase
 
-> **Corte de atualização:** fontes consultadas até 17 de julho de 2026. O foco é o emprego do acento grave na norma-padrão brasileira e em questões de concurso. Divergências editoriais sobre distância, instrumento e formas de tratamento são registradas para evitar regras absolutas falsas.
+## 1. Por que analisar a proposta, mas referir-se à proposta?
 
-## 1. Crase e acento grave não são sinônimos
+Uma comissão **analisou a proposta** e depois **se referiu à proposta**. A palavra *proposta* continua feminina; o que mudou foi a ligação com o verbo. Os exemplos deste capítulo são hipotéticos.
 
-**Crase** é a fusão de duas vogais idênticas. No tópico ortográfico cobrado em concursos, ocorre principalmente quando a preposição **a** se encontra com:
+Em “analisou **a proposta**”, *a* acompanha o nome daquilo que foi analisado. É **<abbr title="Palavra como a ou as que apresenta um nome como identificável">artigo definido</abbr>**: apresenta o nome como identificável no contexto. Esse nome de coisa, pessoa, lugar ou ideia é um **<abbr title="Palavra que nomeia seres, coisas, lugares ou ideias">substantivo</abbr>**. Não existe outra ligação entre *analisou* e seu <abbr title="Termo que completa o sentido de uma palavra">complemento</abbr>.
 
-- o artigo definido feminino **a/as**: “referiu-se **à norma**”;
-- o início dos demonstrativos **aquele(s), aquela(s), aquilo**: “referiu-se **àquele parecer**”;
-- o artigo que integra os relativos **a qual/as quais**: “a norma **à qual** se referiu”.
+Já quem se refere, refere-se **a** alguma coisa. Esse primeiro *a* é **<abbr title="Palavra que estabelece uma relação entre outros termos">preposição</abbr>**, palavra que estabelece uma relação entre termos. Como a proposta também recebe artigo, encontram-se dois elementos:
 
-O **acento grave** (`à`) é o sinal gráfico usado para indicar essa fusão. Portanto, não se deve dizer que “o acento é a crase”: o primeiro é marca gráfica; a segunda, o fenômeno ou a contração representada.
+> referiu-se **a** + **a** proposta → referiu-se **à proposta**.
 
-Alguns manuais também prescrevem o acento grave em locuções por tradição ou clareza, mesmo quando discutem se existe artigo recuperável em análise estrita. Esse é o caso de certas expressões de modo, instrumento ou distância. A grafia normativa da locução continua relevante ainda que a explicação teórica varie.
+A fusão recebe o nome de **crase**; o sinal escrito em *à* é o **acento grave**. No plural, *a + as* resulta em **às**: “referiu-se **às propostas**”. Portanto, **palavra feminina não basta: é preciso examinar a construção inteira**.
 
-## 2. Duas condições cumulativas
+### A ligação exigida pelo verbo ou pelo nome
 
-Na construção mais comum, só há `à/às` quando se encontram:
+Essa relação de dependência chama-se **<abbr title="Relação pela qual uma palavra determina a ligação com outra">regência</abbr>**. A palavra que determina a ligação é o **<abbr title="Palavra que determina a ligação com seu complemento">termo regente</abbr>**. Ele pode ser um verbo, como *referir-se a*, ou um nome, como *favorável a* e *acesso a*. Assim, “favorável **à proposta**” e “acesso **à informação**” têm a mesma combinação de preposição e artigo.
 
-1. **preposição `a` exigida ou introduzida pelo termo anterior**;
-2. **artigo feminino `a/as` admitido pelo termo seguinte**.
+O teste não é perguntar apenas “tem complemento?”. *Analisar* também tem complemento, mas o recebe diretamente: “analisou **a proposta**”. *Gostar* pede outra preposição: “gostou **da proposta**”, com *de + a*, não com *a + a*. Para decidir a crase, importa **qual ligação ocorre naquele sentido**.
 
-> O relatório se refere **à resolução**.
+Uma mesma frase pode mostrar os dois papéis: “A comissão **prefere a análise cuidadosa à decisão precipitada**”. Na construção *preferir uma coisa a outra*, a primeira opção entra diretamente; a segunda é introduzida por *a*. O primeiro *a* é artigo; o segundo encontro produz *à*.
 
-O verbo pronominal *referir-se* seleciona a preposição *a*. O substantivo *resolução*, determinado no contexto, admite o artigo *a*. A soma `a + a` produz `à`.
+### O teste do masculino revela, mas não inventa, a estrutura
 
-Compare:
+Mantenha o verbo e troque apenas o nome por um masculino equivalente:
 
-- “A comissão **visitou a escola**.” — *visitar* é direto; há apenas artigo;
-- “A comissão **dirigiu-se à escola**.” — *dirigir-se* exige preposição *a* e *escola* recebe artigo;
-- “A comissão dirigiu-se **a uma escola**.” — existe preposição, mas *uma* é artigo indefinido;
-- “A comissão dirigiu-se **a este prédio**.” — existe preposição, mas não artigo feminino *a*.
+| Construção feminina | Correspondente masculino | O que aparece |
+| --- | --- | --- |
+| Analisou **a proposta**. | Analisou **o projeto**. | Somente artigo. |
+| Referiu-se **à proposta**. | Referiu-se **ao projeto**. | Preposição + artigo. |
+| Referiu-se **a uma proposta**. | Referiu-se **a um projeto**. | Preposição, sem artigo definido. |
 
-Ser palavra feminina não basta. É preciso analisar os dois lados da relação.
+Se surge **ao/aos**, há o encontro correspondente a **à/às**. Não troque também o verbo ou a <abbr title="Modo de apresentar o nome como identificado ou não no contexto">determinação</abbr> do nome para forçar o resultado. O teste auxilia a análise; não substitui o conhecimento da construção. Nas expressões fixas de modo e instrumento, estudadas adiante, ele tem limites. Quando a troca é compatível com o sentido, **para a/para as** também ajuda a revelar o artigo: *foi para a Bahia*. Isso não prova, sozinho, que a construção original exige a preposição *a*.
 
-### 2.1 Regência é o primeiro filtro
+## 2. Quando falta um dos elementos
 
-Pergunte se o verbo ou o nome anterior exige *a*:
+### Sem artigo definido, não há a fusão básica
 
-- obedecer **a** + a norma → obedecer **à norma**;
-- favorável **a** + a medida → favorável **à medida**;
-- gostar **de** + a medida → gostar **da medida**, não *à medida*;
-- analisar + a medida → analisar **a medida**, sem preposição.
+Compare “referiu-se **a propostas**” com “referiu-se **às propostas**”. No primeiro caso, há apenas preposição antes do plural; no segundo, há também o artigo *as*. A segunda construção pode apresentar um conjunto identificado no contexto. **Não são variantes automaticamente equivalentes.**
 
-A identificação da regência foi estudada no Assunto 013. Aqui ela funciona como condição para decidir a grafia.
+Em **a uma proposta**, *uma* é **artigo indefinido**: apresenta uma proposta sem identificá-la como já conhecida. Não fornece o segundo *a* necessário à fusão.
 
-### 2.2 O artigo é o segundo filtro
+Isso vale mesmo com outras palavras antes do nome: **a futuras servidoras**, **a outras formas**, **a duas propostas** não contêm artigo; **às futuras servidoras**, **às outras formas**, **às duas propostas** contêm. Um número ou uma palavra feminina não exige o acento por si só. Tampouco todo <abbr title="Termo que acrescenta uma característica ou especificação ao nome">modificador</abbr> torna o artigo obrigatório: “apoio **a futuras servidoras do órgão**” continua possível sem artigo.
 
-Mesmo com preposição *a*, o acento depende do termo posterior:
+Na construção básica, não escreva *à propostas*: o artigo singular *a* não acompanha esse plural. Também não confunda **retirar apenas o acento** de *às propostas*, produzindo *as propostas*, com **retirar o artigo**, produzindo *a propostas*. Em “referiu-se **as propostas**”, perdeu-se a preposição exigida pelo verbo.
 
-- “referiu-se **à candidata**” — artigo definido;
-- “referiu-se **a uma candidata**” — artigo indefinido;
-- “referiu-se **a candidatas**” — plural sem artigo;
-- “referiu-se **às candidatas aprovadas**” — artigo plural;
-- “referiu-se **a ela**” — pronome pessoal sem artigo.
+### <abbr title="Palavras que representam alguém ou algo, ou acompanham um nome">Pronomes</abbr>: observe quais formas admitem artigo
 
-Determinação, número e classe do termo regido podem alterar a resposta.
+Pronomes representam alguém ou algo, ou acompanham um nome. Formas que representam participantes da fala ou retomam pessoas, como *mim, você, ela, nós*, não recebem artigo nas construções abaixo. O mesmo bloqueio ocorre com *esta, essa, qualquer, cada, nenhuma*:
 
-## 3. Testes práticos
+> Entregou **a ela**; deu a palavra **a mim**; dirigiu-se **a você**; aludiu **a esta norma**; ofereceu apoio **a qualquer pessoa**, **a cada unidade**.
 
-Os testes confirmam uma análise; não substituem a identificação de regência, artigo e sentido.
+Há preposição, mas não há segundo *a*. Isso não significa que “antes de pronome nunca há crase”: **à mesma norma**, **à própria interessada**, **à outra pessoa** e **às outras unidades** admitem artigo. Os <abbr title="Pronomes que apontam ou retomam algo no contexto">demonstrativos</abbr> *aquele, aquela, aquilo* têm ainda uma forma própria de contração, explicada na seção 4.
 
-### 3.1 Substituição por masculino
+Também é sem acento **a Vossa Excelência**, pois essa forma de tratamento não admite artigo. Já *senhora* e *senhorita* podem admiti-lo: “entregou o convite **à senhora responsável**”, correspondente a “**ao senhor responsável**”.
 
-Troque o núcleo feminino por masculino equivalente. Se aparecer **ao/aos**, há base para **à/às**:
+Com **Dona** e **Madame**, o artigo varia conforme a construção e a orientação adotada. A série didática da Escola de Magistrados do Tribunal Regional Federal da 3ª Região distingue o uso comum sem artigo de casos particularizados com ele. Não deduza uma proibição ou uma obrigação apenas do título: **a Dona Lúcia** contém só preposição; **à Dona Lúcia** pressupõe também o artigo adotado naquele contexto.
 
-- “dirigiu-se **à diretora**” → “dirigiu-se **ao diretor**”;
-- “favorável **às propostas**” → “favorável **aos projetos**”.
+### Verbo, masculino e palavras repetidas
 
-Se aparecer apenas *a*, não há fusão:
+Em “começou **a analisar a proposta**”, o primeiro *a* liga-se ao verbo *analisar*; o segundo é artigo de *proposta*. Eles não estão no mesmo ponto da construção e não se fundem. *Analisar, adquirir, produzir* são formas de **<abbr title="Forma verbal que apresenta a ação, como analisar ou produzir">infinitivo</abbr>**, que apresentam a ação sem situá-la, por si só, num tempo definido. Não recebem artigo feminino: **a analisar**, **a adquirir**, **a produzir**.
 
-- “começou **a analisar**” → “começou **a estudar**”.
+Antes de palavra masculina, não há artigo feminino: **a prazo**, **a lápis**, **a cavalo**, **a respeito de**. Em **a partir de**, *partir* é infinitivo. A ressalva é haver uma palavra feminina subentendida, como em *à moda de*, não simplesmente aparecer um nome masculino.
 
-O termo substituto deve conservar função e determinação. Trocar uma expressão por outra sintaticamente diferente pode falsear o teste.
+Nas expressões repetidas **cara a cara**, **frente a frente**, **gota a gota** e **passo a passo**, o *a* liga os termos sem artigo. O feminino de *cara* ou *gota* não muda essa estrutura.
 
-### 3.2 Troca do regente
+Há ainda um *a* que substitui um nome: “A comissão recebeu a proposta e **a examinou**”. Esse *a* é **pronome**, não preposição nem artigo; não recebe acento grave. O estudo completo de suas posições pertence a **Colocação pronominal**.
 
-Uma construção com *para* pode revelar se o nome aceita artigo:
+## 3. O que realmente varia nos casos facultativos
 
-- “em visita **à Bahia**” → “foi **para a Bahia**”;
-- “em visita **a Rondônia**” → “foi **para Rondônia**”.
+Dizer que o acento é **facultativo** não significa poder apagar qualquer *à*. Significa que há duas construções admitidas: uma com os dois elementos e outra sem um deles.
 
-O teste separa o artigo do topônimo da preposição *a* presente na frase original.
+### <abbr title="Palavras que indicam posse ou relação, como minha e sua">Possessivos</abbr>
 
-### 3.3 “Volto da” ou “volto de”
+*Minha, sua, nossa* indicam posse ou relação com alguém; são **possessivos**. Antes deles, acompanhando um substantivo feminino, pode-se empregar ou omitir o artigo:
 
-Para lugares:
+> Referiu-se **a sua proposta**: preposição + possessivo + nome.
+>
+> Referiu-se **à sua proposta**: preposição + artigo + possessivo + nome.
 
-- “Vou **à Bahia**; volto **da Bahia**.”;
-- “Vou **a Brasília**; volto **de Brasília**.”
+No plural, as opções são **a suas propostas** e **às suas propostas**, não *as suas propostas* após *referiu-se*. O artigo é facultativo nessa construção; **a preposição não é**.
 
-A fórmula é mnemônica, não propriedade imutável da cidade. Um modificador pode introduzir artigo: “referiu-se **à Brasília dos monumentos**”.
+A análise muda quando o possessivo ocupa o lugar do nome omitido: “Sua proposta é semelhante **à minha**”. Recupera-se *à minha proposta*; na construção apresentada, o artigo é necessário. Compare o masculino: “seu projeto é semelhante **ao meu**”. Nesse emprego, não se aplica a facultatividade do artigo que acompanha o possessivo junto de um nome expresso.
 
-### 3.4 Determinação e paralelismo
+### Nomes de pessoas
 
-Compare:
+O nome próprio feminino pode ser usado com ou sem artigo, conforme o contexto e o uso regional: “entregou o relatório **a Ana**” / “entregou o relatório **à Ana**”. A preposição de *entregar algo a alguém* permanece nas duas formas.
 
-- “referiu-se **a pessoas**”;
-- “referiu-se **às pessoas presentes**”.
+Se o nome vier individualizado por uma especificação que pede artigo, a análise muda: “referiu-se **à Ana que coordenou o projeto**”. Não use a fórmula “antes de nome de mulher é sempre facultativo” sem examinar a expressão inteira.
 
-Em séries coordenadas, analise cada termo:
+### Depois de até
 
-> O plano se refere **à educação, à infraestrutura e à saúde**.
+Para indicar limite, são admitidas **até a sala** e **até à sala**: a preposição *até* pode ser usada sozinha ou acompanhada de *a*. Na primeira forma, *a* é artigo; na segunda, juntam-se a preposição adicional e o artigo. Também se admitem **até as três horas** e **até às três horas**.
 
-> O plano se refere **à pesquisa científica, à formação de professores e a projetos experimentais**.
+Alguns manuais preferem uma das formas: o Manual de Comunicação do Senado orienta o uso sem acento nas horas após *até*. Essa preferência de estilo não elimina a outra construção da norma geral. E a facultatividade **não se estende** a *desde, após, entre, para* ou *perante*.
 
-No segundo exemplo, *projetos* está no plural sem artigo. O paralelismo sintático não obriga todos os itens a exibir a mesma marca gráfica.
+## 4. <abbr title="Pronomes que apontam ou retomam algo no contexto">Demonstrativos</abbr>, <abbr title="Pronomes que retomam um nome e ligam a ele uma informação">relativos</abbr> e nomes subentendidos
 
-<!-- REVISAO-CRASE-2026 -->
-### 3.5 Mapa de decisão em cinco passos
+### Àquele, àquela e àquilo
 
-Em prova, a decisão pode ser organizada assim:
+Os **demonstrativos** apontam ou retomam algo no contexto. Em *aquele, aquela, aquilo*, o próprio início da palavra se une à preposição:
 
-1. **Localize o regente**: verbo, nome ou locução que introduz o termo seguinte.
-2. **Identifique a preposição**: confirme se a relação exige ou admite `a`.
-3. **Examine o termo regido**: verifique se há artigo `a/as`, demonstrativo iniciado por `a` ou relativo `a qual/as quais`.
-4. **Reconstrua a frase-base**: retire incisos e substitua o núcleo por masculino equivalente sem mudar função ou determinação.
-5. **Classifique o caso**: obrigatório, proibido, facultativo ou dependente de convenção editorial.
+> referiu-se **a** + **aquele** projeto → referiu-se **àquele projeto**.
 
-| Estrutura | Resultado |
-|---|---|
-| preposição `a` + artigo `a/as` | `à/às` |
-| preposição `a` + `aquele/aquela/aquilo` | `àquele/àquela/àquilo` |
-| preposição `a` + relativo `a qual/as quais` | `à qual/às quais` |
-| preposição `a` + artigo indefinido, pronome pessoal ou infinitivo | sem acento |
-| outra preposição já presente | não se acrescenta `à/às` |
+Aqui não existe artigo feminino: *projeto* é masculino. Por isso, **àquele**, **àqueles**, **àquela**, **àquelas** e **àquilo** não se explicam pela regra “antes de palavra feminina”. Já em “**aquele projeto** foi aprovado”, não há preposição; o demonstrativo permanece sem acento.
 
-A pergunta decisiva não é “a palavra seguinte é feminina?”, mas “quais unidades sintáticas estão efetivamente presentes?”.
+### A que, à qual, a quem e a cujo
 
-## 4. Antes de nomes femininos
+Um **<abbr title="Pronome que retoma um nome e liga a ele uma informação">pronome relativo</abbr>** retoma um nome e introduz uma informação sobre ele. Para decidir a preposição, reconstrua a relação dentro dessa informação:
 
-Emprega-se o acento quando o regente exige *a* e o nome feminino recebe artigo:
+> A comissão se referiu **à proposta**.
+>
+> Esta é a proposta **a que** a comissão se referiu.
+>
+> Esta é a proposta **à qual** a comissão se referiu.
 
-- “Entregou o relatório **à diretora**.”;
-- “Fez referência **à decisão**.”;
-- “Obedeceu **às normas internas**.”;
-- “Mostrou-se contrário **às mudanças propostas**.”
+A ligação *referir-se a* permanece. O relativo simples *que* não contém artigo; **a qual** contém o artigo que se funde com a preposição. No plural: “as propostas **às quais** se referiu”. É a função do relativo na parte da frase em que aparece, não apenas o gênero de *proposta*, que exige a preposição.
 
-Não se emprega se faltar uma das condições:
+Sem essa exigência, não acrescente acento: “a proposta, **a qual foi aprovada**, será executada”. O relativo é **<abbr title="Termo sobre o qual se declara algo">sujeito</abbr>**, isto é, o termo sobre o qual se declara que foi aprovado, e não complemento introduzido por *a*.
 
-- “Visitou **a diretora**.” — verbo direto;
-- “Referiu-se **a uma diretora**.” — artigo indefinido;
-- “Referiu-se **a diretoras experientes**.” — sem artigo definido;
-- “Começou **a revisão**.” — o primeiro *a* é apenas artigo de objeto direto.
+Com *quem* e *cujo*, a preposição também pode aparecer, mas sem artigo: **a servidora a quem entreguei o ofício**; **a autora a cujo texto fiz referência**. *Cujo* estabelece a relação “o texto da autora”; não admite artigo imediatamente antes nem depois. Portanto, nem *à cujo texto* nem *a cujo o texto*.
 
-### 4.1 Plural, artigo e determinação
+Não confunda o relativo *a qual* com uma pergunta: “**A qual unidade** o relatório se refere?”. Nesse caso, *qual* é **<abbr title="Palavra usada para formular uma pergunta">interrogativo</abbr>**, usado para perguntar; não é o relativo composto com artigo. Há somente a preposição antes dele.
 
-Compare construções em que o substantivo feminino permanece o mesmo, mas a determinação muda:
+### Por que à que também pode estar certo?
 
-- “referiu-se **a futuras servidoras**” — plural sem artigo;
-- “referiu-se **às futuras servidoras do quadro**” — grupo definido;
-- “teve acesso **a outras formas de atendimento**” — indefinição;
-- “teve acesso **às outras formas previstas no regulamento**” — conjunto identificável;
-- “dirigiu-se **a duas servidoras**” — numeral sem artigo definido;
-- “dirigiu-se **às duas servidoras responsáveis**” — artigo plural antes do numeral.
+Compare duas operações diferentes:
 
-O acento pode alterar a interpretação referencial. Em reescritas, não basta preservar o gênero; é preciso preservar o grau de determinação.
+| Construção | Reconstrução | Explicação |
+| --- | --- | --- |
+| A proposta **a que** me referi. | Referi-me **à proposta**. | Preposição + relativo *que*, sem artigo junto do relativo. |
+| A proposta é semelhante **à que** foi aprovada. | É semelhante **àquela que** foi aprovada. | Preposição + demonstrativo *a*, equivalente a *aquela*, seguido de *que*. |
 
-## 5. Demonstrativos e relativos
+Na segunda frase, **à que** representa outra proposta. No masculino, teríamos “o projeto é semelhante **ao que** foi aprovado”. O acento não foi colocado “antes de *que* por ser feminino”; decorre do elemento demonstrativo existente ali.
 
-### 5.1 *Aquele*, *aquela* e *aquilo*
+Outras formas se esclarecem pela recuperação de um nome omitido: **decisão semelhante à da comissão** → *à decisão da comissão*; **normas superiores às anteriores** → *às normas anteriores*; **regra idêntica à prevista** → *à regra prevista*. Omitir um termo recuperável é fazer uma **elipse**. Conforme a construção e a análise adotada, aparecem a descrição por artigo com nome subentendido ou a equivalência demonstrativa; para a crase, importa reconhecer os dois elementos, sem inventar um artigo diretamente antes de *que*.
 
-Se a estrutura exige preposição *a*, ela se funde com o início do demonstrativo:
+## 5. Lugares, casa e terra: o artigo depende do emprego
 
-- “Referiu-se **àquele processo**.”;
-- “Obedeceu **àquelas regras**.”;
-- “Não deu importância **àquilo**.”
+Nomes de lugares, chamados **<abbr title="Nomes próprios de lugares">topônimos</abbr>**, não recebem todos o mesmo tratamento. “Foi **à Bahia**” combina a preposição de *ir a* com o artigo; “foi **a Brasília**” não contém artigo nesse uso. A troca por **voltar da/de** ajuda a identificar isso: *voltou da Bahia*, mas *voltou de Brasília*.
 
-O teste pode usar *a este*: “referiu-se **a este processo**”. O acento em *àquele* não depende de o substantivo posterior ser feminino.
+Esse teste verifica o artigo, não autoriza mudar a regência de qualquer verbo. Também precisa conservar os <abbr title="Termos que acrescentam características ou especificações ao nome">modificadores</abbr>: **a Roma** pode contrastar com **à Roma das Sete Colinas**; **a Brasília**, com **à Brasília de sua juventude**. O artigo de nomes geográficos varia conforme o nome, a expressão e o uso; não se decide só pela terminação feminina.
 
-Sem preposição, não há acento: “Aquele processo foi arquivado”.
+Duas palavras comuns seguem contrastes parecidos:
 
-### 5.2 *A qual* e *as quais*
+| Emprego sem artigo | Emprego com artigo e preposição a |
+| --- | --- |
+| Voltou **a casa**: o próprio lar, sem especificação. | Voltou **à casa dos pais**; dirigiu-se **à casa legislativa**. |
+| Os marinheiros chegaram **a terra**: terra firme, em oposição a bordo. | Voltaram **à terra natal**; fizeram referência **à Terra**, o planeta. |
 
-Os relativos **a qual/as quais** já contêm artigo. Se a função interna exige preposição *a*, ocorre a contração:
+*Casa* e *terra* não são palavras “proibidas para crase”. O sentido e a presença do artigo é que mudam. Ainda é preciso haver preposição: “visitou **a casa dos pais**” continua sem acento, pois *visitar* recebe esse complemento diretamente.
 
-- “A norma **à qual** me referi.” — referi-me **à norma**;
-- “As regras **às quais** obedeci.” — obedeci **às regras**.
+## 6. Expressões fixas: entenda o conjunto
 
-Sem preposição, permanece apenas o artigo do relativo:
+Em “a comissão trabalhou **à tarde**”, o segmento responde **quando?**. Em “a comissão começou **a tarde** com uma reunião”, *a tarde* nomeia aquilo que se começou e contém apenas artigo. A função do conjunto separa as duas construções.
 
-> A norma **a qual** foi publicada...
+Um grupo de palavras que funciona como uma unidade é uma **locução**. Quando expressa circunstância, como tempo, modo ou lugar, é **adverbial**; quando liga um termo ao seu complemento, **prepositiva**; quando conecta partes da frase organizadas em torno de verbos, **conjuntiva**. Muitas locuções de base feminina têm acento grave consagrado:
 
-Essa forma é gramatical em contextos nos quais *a qual* exerce função sem preposição, embora *que* costume ser mais natural: “a norma que foi publicada”.
+| Função | Expressões |
+| --- | --- |
+| Tempo, modo ou lugar | **à tarde, à noite, à época, às vezes, às pressas, às escondidas, à vontade, à direita, à esquerda**. |
+| Ligação com complemento | **à espera de, à procura de, à custa de, à frente de, à margem de, à mercê de, à disposição de**. |
+| Relação entre acontecimentos | **à medida que, à proporção que**. |
 
-### 5.3 *Que*, *quem* e *cujo*
+Reconhecer a função evita a falsa regra “qualquer sequência feminina com *a* leva acento”. Por exemplo, “o recibo **faz as vezes de** comprovante” significa que ele exerce esse papel: *as vezes* integra o complemento de *fazer*, sem preposição. Não é a locução de frequência **às vezes**.
 
-Esses relativos não recebem artigo antes de si:
+### Proporção não é causa
 
-- “A proposta **a que** me referi.”;
-- “A servidora **a quem** entreguei o relatório.”;
-- “A norma **a cujo texto** fiz alusão.”
+“A precisão aumenta **à medida que** os dados são revisados” relaciona dois desenvolvimentos: um acompanha o outro. Já “a revisão é necessária **na medida em que** surgiram falhas” apresenta causa ou justificativa; conforme o contexto, também pode delimitar em que medida uma afirmação vale. As expressões não são variantes livres. No padrão formal aqui estudado, evite os cruzamentos *à medida em que* e *na medida que*.
 
-Há preposição *a*, mas não outro *a* com o qual fundi-la. *Cujo* concorda com o nome possuído e não admite artigo depois dele.
+### Moda, maneira e instrumento
 
-### 5.4 Quando aparece *à que*
+Em **texto à Machado de Assis**, recupera-se *à maneira de Machado de Assis*; em **bife à milanesa**, *à moda milanesa*. A <abbr title="Omissão de um termo recuperável pelo contexto">elipse</abbr> explica por que pode haver acento antes de um nome masculino, como em **gol à Pelé**. É necessário haver efetivamente sentido de estilo ou maneira; não basta encontrar um nome próprio depois de *a*.
 
-Em construções como “situação semelhante **à que** enfrentamos”, o acento não está diretamente diante do relativo simples por regência dele. O `a` acentuado é pronome demonstrativo equivalente a **aquela**:
+Para instrumento, meio ou modo, registram-se **à mão**, **à máquina**, **à bala**, **à vista**. O acento também se sustenta na tradição gráfica e na clareza da locução; não é preciso forçar a hipótese de artigo em todos os casos. Compare **lavar a mão**, em que se lava uma parte do corpo, e **lavar à mão**, em que se indica o modo de lavar algo.
 
-> situação semelhante **àquela que** enfrentamos.
+É por isso que o teste masculino tem limites: **à mão** contrasta com **a lápis**, e **à vista**, com **a prazo**, sem produzir *ao*. Existem divergências de análise e de grafia em certas expressões de instrumento. Aprenda as locuções registradas; não conclua que todo instrumento feminino recebe acento ou que todo esse grupo tem acento facultativo.
 
-O teste masculino confirma: “caso semelhante **ao que** enfrentamos”. Não confunda esse padrão com “a proposta **a que** me referi”.
+### A distância ou à distância?
 
-### 5.5 Demonstrativo feminino elíptico
+Há uma orientação tradicional que distingue **a distância**, sem especificação, de **à distância de dois metros**, com medida determinada. O Manual de Comunicação do Senado reconhece as duas grafias no primeiro caso e recomenda **à distância** como padrão da sua comunicação.
 
-O acento pode surgir diante de uma expressão que recupera um nome feminino omitido:
+Assim, **ensino a distância** não se torna erro apenas porque outra instituição prefere **ensino à distância**. Preserve a orientação declarada no enunciado e o sentido da frase. Se *a distância* for aquilo que se mede, haverá apenas artigo: “mediu **a distância** entre as mesas”. Isso não é uma variante da locução que indica afastamento.
 
-- “decisão semelhante **à da comissão**” = semelhante **àquela decisão da comissão**;
-- “normas superiores **às anteriores**” = superiores **àquelas normas anteriores**;
-- “regra idêntica **à prevista no edital**” = idêntica **àquela regra prevista**;
-- “dificuldades semelhantes **às que ocorreram**” = semelhantes **àquelas que ocorreram**.
+## 7. Horário, tempo decorrido e intervalo
 
-O teste masculino ajuda: “parecer semelhante **ao da comissão**”. Nesses casos, `à/às` não está acentuado por causa de `que`, `da` ou do particípio; representa preposição mais demonstrativo.
+“Chegou **à uma hora**” situa a chegada no relógio; “chegou **há uma hora**” conta quanto tempo passou. “Chegará daqui **a uma hora**” mede a espera. A pronúncia próxima não torna as formas equivalentes:
 
-### 5.6 Roteiro para trocar relativos
+| Forma | Função no exemplo | Exemplo |
+| --- | --- | --- |
+| **há** | Tempo decorrido; forma do verbo *haver*. | A sessão terminou **há duas horas**. |
+| **a** | Intervalo futuro, sem artigo. | A sessão começará daqui **a duas horas**. |
+| **à/às** | Hora determinada introduzida por *a*. | A sessão começará **às duas horas**. |
 
-Ao substituir um relativo, reconstrua a função desempenhada dentro da oração:
+*Haver* também pode indicar existência: “**há** duas propostas”. Não confunda essa forma verbal com preposição ou artigo.
 
-| Forma | Exemplo |
-|---|---|
-| `a que` | a proposta **a que** me referi |
-| `à qual` | a proposta **à qual** me referi |
-| `a quem` | a pessoa **a quem** entreguei o ofício |
-| `a cujo` | a autora **a cujo texto** aludi |
-| `à que` | a decisão semelhante **à que** foi anulada, com sentido de `àquela que` |
+Nas indicações de relógio, escreva **à uma hora**, **à zero hora**, **à meia-noite**, **às oito horas**; compare a combinação masculina **ao meio-dia**. Em **a uma hora qualquer**, *uma* é artigo indefinido, não a hora marcada pelo numeral *uma*. Na locução menos usual **à uma**, com sentido de “simultaneamente”, o acento também é consagrado.
 
-Não use `à cujo`, porque `cujo` não admite artigo. A troca de `que` por `a qual` exige ajustar artigo, gênero e número, além de manter a preposição selecionada pelo regente.
+Em **a três quilômetros** e **a uma hora de viagem**, mede-se distância física ou temporal, não um horário introduzido por artigo. Em **chegou a trezentos reais**, expressa-se um limite numérico. **O numeral sozinho não provoca nem proíbe crase.**
 
-## 6. Locuções femininas
+### Outra preposição e os dois extremos do intervalo
 
-Emprega-se tradicionalmente o acento em muitas locuções com núcleo feminino.
+Em **desde as oito horas**, **após as oito horas**, **para as oito horas** e **entre as oito e as dez horas**, a preposição já está expressa. O *as* é artigo; não se acrescenta outra preposição *a*. O mesmo raciocínio explica **perante a autoridade**, não *perante à autoridade*. A variação específica de *até* foi explicada na seção 3.
 
-### 6.1 Adverbiais
+Para apresentar limites equivalentes, mantenha o mesmo tratamento do artigo:
 
-- **à tarde**, **à noite**, **às vezes**;
-- **às pressas**, **às escondidas**, **à vontade**;
-- **à direita**, **à esquerda**;
-- **à vista**, **à mão**, **à máquina**.
+> Atendimento **das oito às dez horas**: artigo nos dois extremos.
+>
+> Atendimento **de oito a dez horas**: sem artigo nos dois extremos.
 
-### 6.2 Prepositivas
+Essa correspondência de estruturas é **paralelismo**. A forma sem artigo também pode indicar duração: “a atividade dura **de oito a dez horas**”. Para deixar claro que se trata de horários, **das oito às dez horas** é a redação mais segura e corresponde à preferência do Manual de Comunicação do Senado. Evite misturar *de oito às dez* ou *das oito a dez* na indicação paralela de horários. Em enumerações, porém, paralelismo não exige artigo em todo termo: “apoio **à pesquisa, à formação e a projetos experimentais**” mantém a ligação por *a*, mas apresenta o último nome sem artigo.
 
-- **à espera de**;
-- **à procura de**;
-- **à custa de**;
-- **à frente de**;
-- **à margem de**;
-- **à mercê de**.
+## 8. Reescrever é reconstruir a ligação
 
-### 6.3 Conjuntivas
+Parta de uma situação: “A comissão **se referiu à proposta** e **se limitou à análise**”. Há preposição e artigo nos dois complementos, mas mudanças diferentes retiram elementos diferentes.
 
-- **à medida que**;
-- **à proporção que**.
+**Ao trocar o verbo:** “A comissão **mencionou a proposta**”. *Mencionar* recebe diretamente o complemento; desaparece a preposição, permanece o artigo. A mudança de *visitou a escola* para *dirigiu-se à escola* faz o caminho inverso: introduz uma preposição, embora também altere a ação descrita.
 
-Nem toda sequência feminina com *a* é locução consagrada. É preciso reconhecer a expressão e seu sentido. “Começou a tarde” pode significar que a tarde começou, com artigo e sem crase; “trabalhou **à tarde**” é locução adverbial de tempo.
+**Ao trocar o nome por verbo:** “A comissão **se limitou a analisar**”. A preposição continua; o artigo desaparece porque agora há <abbr title="Forma verbal que nomeia a ação, como analisar">infinitivo</abbr>. Não seria correto conservar *à analisar*.
 
-### 6.4 `À medida que` e `na medida em que`
+**Ao trocar o <abbr title="Palavra que acompanha um nome e delimita sua referência">determinante</abbr>:** “referiu-se **a uma proposta**”, “referiu-se **a esta proposta**” e “referiu-se **àquela proposta**” exigem novas análises. **Determinante** é a palavra que acompanha o nome e delimita sua referência; artigo e demonstrativo são exemplos. A troca pode alterar tanto a escrita quanto a referência a algo definido, indefinido ou apontado no contexto.
 
-As duas locuções não são equivalentes:
+**Ao trocar o relativo:** “a proposta **a que** se referiu” pode passar a “a proposta **à qual** se referiu”. Mantém-se a relação verbal, mas o relativo escolhido contém artigo. Não se conserva ou se apaga o acento pela aparência da frase original.
 
-- **à medida que** indica proporção ou desenvolvimento paralelo: “A precisão aumenta **à medida que** os dados são revisados.”;
-- **na medida em que** introduz causa, justificativa ou delimitação: “A revisão é necessária **na medida em que** surgiram inconsistências.”
+Antes de aceitar uma reescrita, faça duas perguntas separadas: **a nova ligação está correta? O sentido original foi preservado?** *Às outras propostas* e *a outras propostas* podem ser gramaticais, mas a determinação não é necessariamente a mesma. *Há uma hora* e *à uma hora* também podem ser corretos, sem informar o mesmo tempo.
 
-No padrão formal adotado, evitam-se os cruzamentos `à medida em que` e `na medida que`.
+A decisão deve voltar ao mecanismo: identifique a ligação, examine o artigo ou a forma pronominal e reconheça eventual locução ou termo subentendido. **Regência verbal e nominal** desenvolve as construções dos regentes; aqui, a ponte necessária é saber quais elementos se encontram no ponto em que o acento seria escrito.
 
-## 7. Horas, intervalos e duração
+### Recorte e fontes
 
-### 7.1 Horário determinado
-
-Usa-se acento grave quando a própria estrutura introduz a hora determinada por *a*:
-
-- “A sessão começa **às 8 horas**.”;
-- “Chegou **à uma hora**.”;
-- “O sistema fecha **à zero hora**.”;
-- “O prazo termina **à meia-noite**.”
-
-O teste com *ao meio-dia* ajuda: “chegou **ao meio-dia**” → “chegou **à meia-noite**”.
-
-### 7.2 Duração ou tempo futuro
-
-Não há artigo nem fusão em:
-
-- “Daqui **a duas horas**.”;
-- “O local fica **a três quilômetros**.”;
-- “A uma hora qualquer do dia.”
-
-Aqui a expressão não indica necessariamente um ponto do relógio introduzido por artigo definido.
-
-### 7.3 Outra preposição antes da hora
-
-Não se troca a preposição presente por *a*:
-
-- “desde **as 8 horas**”;
-- “após **as 14 horas**”;
-- “entre **as 9 e as 10 horas**”;
-- “perante **a autoridade**”.
-
-Os segmentos *a/as* são artigos regidos por *desde*, *após*, *entre* ou *perante*. Formas como “desde às 8h” e “entre às 9h” acumulam preposições indevidamente.
-
-### 7.4 De... a e das... às
-
-Preserve o paralelismo dos determinantes:
-
-- “A reunião ocorrerá **das 8h às 10h**.”;
-- “A reunião ocorrerá **de 8h a 10h**.”
-
-Evite misturar “de 8h às 10h” ou “das 8h a 10h” quando a intenção é construir limites paralelos.
-
-### 7.5 `Há`, `a` e `à`
-
-| Forma | Valor | Exemplo |
-|---|---|---|
-| `há` | tempo decorrido ou existência | “O prazo terminou **há duas horas**.” |
-| `a` | intervalo futuro ou distância | “O prazo terminará daqui **a duas horas**.” |
-| `à/às` | horário determinado | “A sessão começará **às duas horas**.” |
-
-Outros contrastes:
-
-- “chegou **há uma hora**” — uma hora atrás;
-- “chegou **à uma hora**” — à 1h;
-- “fica **a uma hora de viagem**” — distância temporal;
-- “daqui **a pouco**” × “ocorreu **há pouco**”.
-
-A presença de numeral não resolve a questão; é o valor sintático e semântico que distingue as formas.
-
-## 8. Elipse de *moda* ou *maneira*
-
-Usa-se o acento quando se pode recuperar **à moda de** ou **à maneira de**:
-
-- “bife **à milanesa**”;
-- “gol **à Pelé**”;
-- “texto **à Machado de Assis**”;
-- “sapatos **à Luís XV**”.
-
-A palavra visível pode ser masculina ou nome próprio. O núcleo feminino elíptico explica o acento. Não aplique a regra a qualquer expressão com nome de pessoa: é necessário haver sentido real de estilo, moda ou maneira.
-
-## 9. Casos em que não se usa o acento
-
-### 9.1 Antes de palavra masculina
-
-- **a prazo**;
-- **a lápis**;
-- **a cavalo**;
-- **a partir de**;
-- **a respeito de**.
-
-A ressalva é a elipse feminina efetiva: “gol **à Pelé**” equivale a “à maneira de Pelé”.
-
-### 9.2 Antes de verbo
-
-- “começou **a analisar**”;
-- “passou **a redigir**”;
-- “estava **a estudar**”.
-
-O infinitivo não admite artigo feminino. Há somente preposição ou elemento de locução verbal.
-
-### 9.3 Antes de artigo indefinido
-
-- “dirigiu-se **a uma servidora**”;
-- “fez referência **a uma norma**”.
-
-Não se fundem preposição *a* e artigo *uma*.
-
-### 9.4 Antes de plural sem artigo
-
-- “referiu-se **a pessoas**”;
-- “compareceu **a reuniões**”.
-
-Com artigo definido plural, usa-se *às*: “referiu-se **às pessoas presentes**”.
-
-### 9.5 Em expressões repetidas
-
-- cara **a** cara;
-- frente **a** frente;
-- gota **a** gota;
-- passo **a** passo;
-- dia **a** dia.
-
-A estrutura distributiva ou recíproca não recebe artigo definido entre os termos.
-
-### 9.6 Antes de infinitivo e em sequências com dois `a`
-
-O infinitivo não admite artigo feminino:
-
-- começou **a analisar**;
-- chegou **a adquirir** experiência;
-- voltou **a produzir** relatórios;
-- passou **a integrar** a equipe;
-- estava **a considerar** a proposta.
-
-Uma mesma frase pode conter preposição antes do infinitivo e artigo antes de um substantivo:
-
-> Começou **a analisar a proposta**.
-
-O primeiro `a` liga-se ao infinitivo; o segundo determina `proposta`. Nenhum deles resulta de `a + a`.
-
-## 10. Antes de pronomes e formas de tratamento
-
-### 10.1 Regra geral sem artigo
-
-Não se usa acento antes de pronomes que não admitem artigo:
-
-- pessoais: “entregou **a ela**”;
-- indefinidos: “referiu-se **a qualquer pessoa**”;
-- demonstrativos *este/esse*: “aludiu **a esta norma**”;
-- tratamentos: “dirigiu-se **a Vossa Excelência**”.
-
-Os demonstrativos *aquele/aquela/aquilo* são exceção formal porque a preposição se incorpora à vogal inicial: *àquele*, *àquela*, *àquilo*.
-
-### 10.2 *Senhora*, *Senhorita*, *Dona* e *Madame*
-
-Essas formas podem admitir artigo conforme região, grau de familiaridade, pragmática e tradição editorial:
-
-- com artigo e regência *a*: “dirigiu-se **à senhora**”, “entregou o convite **à Dona Lúcia**”;
-- sem artigo: “dirigiu-se **a Dona Lúcia**”.
-
-Fontes institucionais e consultórios linguísticos não apresentam tratamento uniforme para todos os casos. A decisão depende do artigo efetivamente usado; não há proibição ou obrigatoriedade universal apenas por aparecer *Dona* ou *Senhora*.
-
-### 10.3 Matriz de pronomes e determinantes
-
-| Sem artigo antes do termo | Com possibilidade de contração |
-|---|---|
-| `a ela`, `a elas`, `a mim`, `a nós` | `àquela servidora`, `àquelas pessoas` |
-| `a esta norma`, `a esse órgão` | `à mesma norma`, `à própria interessada` |
-| `a qualquer pessoa`, `a cada unidade` | `às outras unidades`, `à outra parte` |
-| `a nenhuma autoridade` | `à senhora responsável`, se houver artigo |
-| `a Vossa Excelência` | `à senhora`, conforme o uso efetivo do artigo |
-
-A regência pode exigir a preposição `a`, mas isso não autoriza `à mim`, `à ela`, `à cada` ou `à Vossa Excelência`.
-
-## 11. Casos facultativos
-
-A facultatividade surge quando a língua admite o nome com ou sem artigo, mantendo a construção.
-
-### 11.1 Possessivo feminino
-
-- “Referiu-se **a sua proposta**.”;
-- “Referiu-se **à sua proposta**.”
-
-O artigo antes do possessivo pode ser omitido ou empregado. A escolha deve ser coerente com o contexto; locuções fixas e estruturas específicas podem seguir regra própria.
-
-### 11.2 Nome próprio feminino
-
-- “Entregou o relatório **a Ana**.”;
-- “Entregou o relatório **à Ana**.”
-
-O artigo pode sugerir familiaridade ou refletir uso regional. Se o nome estiver determinado por expressão que exija artigo, a análise muda: “referiu-se **à Ana que coordenou o projeto**”.
-
-### 11.3 Depois de *até*
-
-- “Foi **até a sala**.”;
-- “Foi **até à sala**.”;
-- “Trabalhou **até as três horas**.”;
-- “Trabalhou **até às três horas**.”
-
-As duas formas decorrem de *até* poder aparecer sozinho ou acompanhado da preposição *a*. Não estenda essa facultatividade a *desde*, *após*, *entre* ou *perante*.
-
-## 12. *Casa*, *terra* e determinação
-
-### 12.1 *Casa*
-
-No sentido de lar e sem determinante, a tradição omite o artigo:
-
-- “voltou **a casa**”.
-
-Com especificação ou outro sentido determinado, o artigo reaparece:
-
-- “voltou **à casa dos pais**”;
-- “dirigiu-se **à casa legislativa**”.
-
-### 12.2 *Terra*
-
-No sentido de terra firme, em oposição a bordo, usa-se tradicionalmente sem artigo:
-
-- “os marinheiros chegaram **a terra**”.
-
-Com determinação ou outra acepção:
-
-- “voltaram **à terra natal**”;
-- “fizeram referência **à Terra**” — planeta tratado como nome próprio com artigo.
-
-Não memorize *casa* ou *terra* como palavras que “nunca têm crase”; a determinação muda a estrutura.
-
-## 13. Topônimos
-
-O nome de lugar recebe acento se, no contexto, admite artigo e o regente exige *a*:
-
-- “foi **à Bahia**” / “voltou **da Bahia**”;
-- “foi **a Brasília**” / “voltou **de Brasília**”;
-- “viajou **a Roma**” / “voltou **de Roma**”.
-
-Modificadores podem introduzir determinação:
-
-- “referiu-se **à Roma das Sete Colinas**”;
-- “voltou **à Brasília de sua juventude**”.
-
-O uso do artigo com topônimos varia historicamente e regionalmente. O teste deve reproduzir o contexto real, não uma lista baseada apenas no gênero aparente do nome.
-
-## 14. Distância: ponto de divergência
-
-Há duas orientações editoriais relevantes:
-
-- uma tradição usa **a distância** quando não há especificação e **à distância de** quando a medida está determinada;
-- o Manual de Comunicação do Senado inclui **à distância** entre locuções acentuadas por clareza ou tradição.
-
-Assim, encontram-se:
-
-- “ensino **a distância**” em estilos que aplicam a distinção por determinação;
-- “ensino **à distância**” em estilos que tratam a expressão como locução consagrada;
-- “manteve-se **à distância de dois metros**” como forma amplamente ensinada com especificação.
-
-Em concurso, observe a fonte normativa declarada e evite julgar como universal uma regra editorial controvertida. Questões bem formuladas devem oferecer contexto ou padrão de referência.
-
-## 15. Instrumento, meio e expressões contrastivas
-
-Manuais registram por tradição ou clareza locuções femininas como:
-
-- escrever **à mão**;
-- datilografar **à máquina**;
-- pagar **à vista**;
-- ferir **à bala**.
-
-Compare:
-
-- pagar **à vista** × pagar **a prazo**;
-- escrever **à mão** × escrever **a lápis**.
-
-Não formule a regra “todo instrumento feminino recebe crase”. É preciso reconhecer a locução consagrada e o padrão editorial. O contraste pode também eliminar ambiguidade: “bateu **a máquina**” toma *máquina* como objeto; “escreveu **à máquina**” apresenta meio.
-
-## 16. Numerais e quantificação
-
-Numeral não provoca nem proíbe crase sozinho:
-
-- “daqui **a duas semanas**” — tempo futuro;
-- “chegou **às duas horas**” — horário determinado;
-- “referiu-se **às duas servidoras**” — preposição + artigo plural;
-- “referiu-se **a duas servidoras**” — sem artigo definido;
-- “o valor chegou **a trezentos reais**” — limite numérico sem artigo feminino.
-
-A função e o artigo decidem, não a simples presença do número.
-
-### 16.1 Número, artigo e escopo referencial
-
-O contraste entre `a` e `às` pode distinguir referência genérica de conjunto definido:
-
-> O programa se destina **a mulheres em situação de risco**.
-
-> O programa se destina **às mulheres cadastradas nesta etapa**.
-
-A mesma oposição ocorre com `outras`, `duas`, `certas`, `determinadas` e adjetivos antepostos. O acento não é facultativo quando sua presença introduz um artigo que muda a determinação.
-
-## 17. Reescritas e mudança de correção
-
-### 17.1 Troca do verbo
-
-- “A comissão **visitou a escola**.”;
-- “A comissão **se dirigiu à escola**.”
-
-Trocar o regente altera a exigência de preposição.
-
-### 17.2 Troca do determinante
-
-- “referiu-se **a uma servidora**”;
-- “referiu-se **à servidora**”;
-- “referiu-se **a servidoras**”;
-- “referiu-se **às servidoras aprovadas**”.
-
-O substantivo continua feminino, mas artigo e determinação mudam.
-
-### 17.3 Troca do relativo
-
-- “a proposta **a que** se referiu”;
-- “a proposta **à qual** se referiu”.
-
-As duas são corretas: *que* não recebe artigo; *a qual* contém artigo que se funde com a preposição.
-
-### 17.4 Troca da preposição
-
-- “a sessão começa **às 8h**”;
-- “a sessão ocorre **entre as 8h e as 10h**”;
-- “o atendimento funciona **desde as 8h**”.
-
-Não se conserva mecanicamente o acento quando a reescrita introduz outra preposição.
-
-### 17.5 Reescrita integrada
-
-Antes de julgar uma substituição, verifique quatro dimensões:
-
-1. **regência** do novo verbo ou nome;
-2. **determinante** do termo regido;
-3. **função e forma do relativo**;
-4. **sentido** produzido pela nova determinação.
-
-Compare:
-
-- “limitou-se **à implementação**” → “apenas **implementou**”: a nova forma é direta;
-- “referiu-se **à proposta**” → “mencionou **a proposta**”: o acento desaparece com a troca do regente;
-- “a norma **a que** aludiu” → “a norma **à qual** aludiu”: muda o relativo, não a relação sintática;
-- “acesso **às outras formas**” → “acesso **a outras formas**”: ambas podem ser gramaticais, mas a determinação e o sentido não são idênticos.
-
-## 18. Método de prova
-
-1. Não olhe apenas para a palavra feminina; localize o termo anterior.
-2. Verifique se esse termo exige ou introduz a preposição *a*.
-3. Teste se o termo posterior admite artigo *a/as*.
-4. Substitua por masculino equivalente e procure *ao/aos*.
-5. Em topônimos, use *volto da/de* e observe modificadores.
-6. Em relativos, reconstrua a função: *a que*, *à qual* ou demonstrativo *à que*.
-7. Reconheça locuções e a possível elipse de *moda/maneira*.
-8. Diferencie hora marcada de duração e confira a preposição anterior.
-9. Em séries, analise o artigo de cada termo e preserve o paralelismo estrutural.
-10. Antes de possessivo, nome próprio ou depois de *até*, verifique facultatividade.
-11. Em *casa*, *terra*, topônimos e tratamentos, procure determinação e artigo real.
-12. Trate distância e instrumento conforme a fonte editorial, sem absolutismo.
-13. Em reescrita, refaça toda a análise; não transporte o acento por aparência.
-
-## 19. Limites do assunto
-
-- Classes e valores da preposição e do artigo pertencem aos Assuntos 006 e 008.
-- Regência verbal e nominal pertence ao Assunto 013.
-- Colocação dos pronomes átonos pertence ao Assunto 015.
-
-Esses temas aparecem apenas quando determinam a existência dos dois elementos cuja fusão ou tradição gráfica produz o acento grave.
+O recorte é o emprego do sinal indicativo de crase e sua relação com a reescrita, previstos no programa comum de Língua Portuguesa do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> de 2026. Fontes conferidas em **5 de setembro de 2026**. Essa data é de consulta, não uma mudança da regra gramatical nem um novo corte do edital. Preferências de manuais institucionais foram diferenciadas de regras gerais; as fontes e seus pontos de apoio estão em **Referências**.
