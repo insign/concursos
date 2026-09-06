@@ -6,24 +6,23 @@ order: 56
 storageId: regimento-orgaos-tcema
 ---
 
-## 1. Recorte e corte temporal
+## 1. A pergunta que organiza o assunto: o que é “órgão” no Regimento?
 
-O edital do TCE/MA 2026 cobra expressamente o **Regimento Interno do Tribunal de Contas do Estado do Maranhão**. Neste assunto, o foco é identificar **os órgãos do Tribunal, as autoridades que exercem funções de direção e controle interno institucional e as relações estruturais essenciais entre eles**.
+Imagine uma questão que misture **Plenário, Presidência, Ministério Público de Contas, Secretaria e Escola Superior de Controle Externo** e pergunte quais são órgãos do Tribunal segundo o art. 9º. A armadilha é tratar toda estrutura que trabalha no <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> como se pertencesse ao mesmo rol.
 
-O edital foi publicado em **6 de julho de 2026**. Para a prova, deve ser considerado o Regimento aprovado pela **Resolução Administrativa nº 1/2000**, com as alterações vigentes até essa data.
+Para resolver isso, separe três planos:
 
-Duas alterações são especialmente úteis para fixar o corte:
+1. **órgãos enumerados no art. 9º do Regimento** — é um rol regimental específico;
+2. **membros e agentes que atuam na instituição** — como Conselheiros, Conselheiros-Substitutos e Procuradores de Contas;
+3. **estruturas de apoio ou organização administrativa** — como Secretaria, gabinetes e <abbr title="Escola Superior de Controle Externo">ESCEX</abbr>.
 
-- a **Resolução TCE/MA nº 391/2023** atualizou o rol de órgãos do art. 9º, a presidência das Câmaras e a disciplina das comissões regimentais;
-- a **Resolução TCE/MA nº 441/2026**, publicada antes do edital, alterou regras de diárias nos arts. 108, 119, 127-A e 127-B, sem modificar o rol do art. 9º.
+Esses planos se relacionam, mas não são sinônimos. Um Procurador de Contas, por exemplo, integra o <abbr title="Ministério Público de Contas">MPC</abbr>, que atua junto ao Tribunal, sem que o <abbr title="Ministério Público de Contas">MPC</abbr> passe a integrar o rol do art. 9º.
 
-Neste recorte, ficam para os assuntos seguintes as regras de sessões, distribuição, quórum, deliberação, processos de controle externo, denúncias, representações, consultas, provas, prazos, decisões, sanções, execução, recursos e revisão.
+Essa distinção é o modelo mental do capítulo. Depois dela, as listas deixam de parecer arbitrárias.
 
-Também não se deve antecipar aqui a organização administrativa detalhada da **Lei nº 9.936/2013**, reservada aos Assuntos 069 e 070.
+## 2. O núcleo literal: os órgãos do art. 9º
 
-## 2. O mapa central: art. 9º do Regimento
-
-Após a Resolução TCE/MA nº 391/2023, o art. 9º enumera como **órgãos do Tribunal**:
+Com a redação dada pela Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 391/2023, o art. 9º enumera:
 
 1. **Plenário**;
 2. **Primeira Câmara**;
@@ -36,231 +35,209 @@ Após a Resolução TCE/MA nº 391/2023, o art. 9º enumera como **órgãos do T
 9. **Comissão de Transformação Digital e Inovação Tecnológica e Jurídica**;
 10. **comissões de caráter temporário**.
 
-A expressão final do art. 9º é importante: as comissões **colaboram no desempenho das atribuições do Tribunal**. Elas integram a organização regimental, mas não se transformam em Plenário ou Câmara.
+O próprio dispositivo informa que as comissões colaboram no desempenho das atribuições do Tribunal. Portanto, o art. 9º combina órgãos colegiados, órgãos de direção e órgãos de colaboração; ele **não é um organograma completo** de tudo o que existe no <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-### 2.1. Órgão regimental não é sinônimo de toda estrutura do TCE/MA
+Uma classificação funcional ajuda a fixar o conjunto:
 
-O art. 9º não é um organograma completo.
+| Função no mapa | Estruturas do art. 9º |
+| --- | --- |
+| deliberação colegiada | Plenário, Primeira Câmara e Segunda Câmara |
+| direção institucional | Presidência e Vice-Presidência |
+| orientação, integridade e relacionamento | Corregedoria e Ouvidoria |
+| colaboração temática | duas comissões permanentes e comissões temporárias |
 
-Há outras estruturas juridicamente relevantes, como o **Ministério Público de Contas**, a **Secretaria do Tribunal**, os gabinetes e a **Escola Superior de Controle Externo (ESCEX)**. Elas aparecem na Lei Orgânica, na Lei nº 9.936/2013 e em atos de organização administrativa, mas **não integram, por isso só, o rol de órgãos do art. 9º**.
+Já **Secretaria do Tribunal, gabinetes, <abbr title="Escola Superior de Controle Externo">ESCEX</abbr> e <abbr title="Ministério Público de Contas">MPC</abbr> não entram nesse rol**. Isso não os torna irrelevantes; apenas responde a uma pergunta jurídica mais estreita: “é órgão enumerado no art. 9º?”.
 
-Essa distinção resolve uma pegadinha frequente:
-
-- **órgãos regimentais do art. 9º** → rol específico do Regimento;
-- **membros, MPC, gabinetes e unidades administrativas** → integram ou servem à estrutura institucional, mas não devem ser automaticamente chamados de órgãos do art. 9º.
-
-## 3. Membros e agentes que atuam na estrutura
+## 3. Quem atua nessa estrutura: três grupos que a prova pode misturar
 
 ### 3.1. Conselheiros
 
-A estrutura legal do TCE/MA prevê **sete Conselheiros**. Eles são membros titulares da Corte e exercem atribuições de relatoria, deliberação e direção conforme a Constituição, a Lei Orgânica e o Regimento.
+A estrutura legal do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> prevê **sete Conselheiros**. Eles são os membros titulares da Corte e podem exercer funções de relatoria, deliberação e direção conforme a Constituição, a Lei Orgânica e o Regimento.
 
-Neste assunto, basta distingui-los de:
-
-- Conselheiros-Substitutos;
-- Procuradores de Contas;
-- servidores e gestores da Secretaria.
-
-As regras constitucionais de escolha de Conselheiros e o detalhamento de garantias, impedimentos e vacâncias não são o núcleo deste recorte.
+Aqui, o ponto decisivo é não confundir **membro titular** com órgão. “Conselheiro” é a pessoa investida no cargo; “Plenário”, “Câmara”, “Presidência” e “Corregedoria” são estruturas regimentais.
 
 ### 3.2. Conselheiros-Substitutos
 
-A estrutura legal prevê **três Conselheiros-Substitutos**.
+A estrutura legal prevê **três Conselheiros-Substitutos**. O ingresso ocorre por **concurso público de provas e títulos**, observada a ordem de classificação nas nomeações.
 
-O ingresso ocorre por **concurso público de provas e títulos**, com nomeação observada a ordem de classificação. Quando em substituição de Conselheiro, submetem-se ao regime de garantias e impedimentos próprio da substituição previsto na legislação aplicável.
+Quando substituem Conselheiro, submetem-se ao regime de garantias e impedimentos aplicável à substituição. Não são servidores administrativos comuns e não integram o <abbr title="Ministério Público de Contas">MPC</abbr>.
 
-Não confunda:
+Guarde o contraste:
 
-- **Conselheiro** → titular;
+- **Conselheiro** → membro titular;
 - **Conselheiro-Substituto** → carreira própria, com atribuições próprias e possibilidade de substituição;
 - **servidor da Secretaria** → apoio técnico-administrativo.
 
-## 4. Plenário e Câmaras
+### 3.3. Procuradores de Contas e o <abbr title="Ministério Público de Contas">MPC</abbr>
 
-### 4.1. Plenário
+O <abbr title="Ministério Público de Contas">MPC</abbr> do Estado do Maranhão é essencial à função de controle externo exercida pelo Tribunal e, pela redação dada à Lei nº 8.258/2005 pela Lei nº 11.614/2021, compõe-se de **quatro Procuradores de Contas**.
 
-O Plenário é o colegiado central do Tribunal.
+A investidura no cargo exige:
 
-Para o Assunto 056, o essencial é reconhecer sua posição estrutural. Regras de sessão, pauta, quórum, votação e deliberação pertencem ao Assunto 057.
+- concurso público de provas e títulos;
+- participação da <abbr title="Ordem dos Advogados do Brasil">OAB</abbr> na realização do concurso;
+- bacharelado em Direito;
+- no mínimo **três anos de atividade jurídica**;
+- observância da ordem de classificação nas nomeações.
 
-### 4.2. Primeira e Segunda Câmaras
+A chefia cabe ao **Procurador-Geral de Contas**. Os Procuradores formam **lista tríplice entre seus integrantes**; o Governador do Estado nomeia o Procurador-Geral **no prazo de quinze dias**, para mandato de **dois anos**, permitida **uma recondução**.
 
-A Primeira e a Segunda Câmaras são **órgãos colegiados fracionários internos do TCE/MA**.
+Perceba a separação: as regras acima descrevem a composição e a chefia do <abbr title="Ministério Público de Contas">MPC</abbr>. Elas não o inserem no rol do art. 9º.
 
-Não se confundem com **Câmaras Municipais**, que são órgãos do Poder Legislativo municipal.
+## 4. Plenário e Câmaras: colegiados, mas não a mesma estrutura
 
-| Expressão | Natureza |
-| --- | --- |
-| Primeira/Segunda Câmara do TCE/MA | colegiado interno do Tribunal |
-| Câmara Municipal | Legislativo municipal |
+O **Plenário** é o colegiado central do Tribunal. A **Primeira Câmara** e a **Segunda Câmara** são colegiados internos fracionários: reúnem parte dos membros para o exercício das atribuições que o ordenamento lhes reserva.
 
-### 4.3. Presidência das Câmaras — art. 16
+Isso evita uma confusão vocabular importante: **Câmara do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> não é Câmara Municipal**. A primeira integra a organização interna do Tribunal; a segunda integra o Poder Legislativo municipal.
 
-A Resolução TCE/MA nº 391/2023 deu ao art. 16 uma regra literal que merece memorização:
+As regras de sessão, pauta, quórum, votação e distribuição pertencem ao assunto seguinte. Neste capítulo, a literalidade relevante é **quem preside cada Câmara**.
+
+### 4.1. Presidência das Câmaras — art. 16
+
+A Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 391/2023 estabeleceu:
 
 - **Primeira Câmara:** é presidida pelo Conselheiro que deixou a função de Presidente do Tribunal no mandato imediatamente anterior;
-- **Segunda Câmara:** é presidida pelo Conselheiro mais antigo no cargo dentre os integrantes da Câmara, **desde que não tenha sido eleito, no mandato em curso, Vice-Presidente, Corregedor ou Ouvidor**.
+- **Segunda Câmara:** é presidida pelo Conselheiro mais antigo no cargo dentre os integrantes da Câmara, desde que não tenha sido eleito, no mandato em curso, **Vice-Presidente, Corregedor ou Ouvidor**.
 
-O art. 16 trata de **quem preside** os colegiados. O funcionamento das sessões continua no recorte seguinte.
+A lógica de prova é diferente nas duas:
 
-## 5. Presidência e Vice-Presidência
+- Primeira Câmara → olhe para **quem acabou de deixar a Presidência do Tribunal**;
+- Segunda Câmara → olhe para **antiguidade no cargo** e depois aplique as três incompatibilidades.
 
-Presidência e Vice-Presidência aparecem expressamente no art. 9º como órgãos do Tribunal.
+## 5. Presidência, Vice-Presidência, Corregedoria e Ouvidoria
 
-A **Presidência** exerce direção institucional e administrativa superior. A **Vice-Presidência** integra a direção e atua nas hipóteses de substituição previstas no regime interno.
+Essas quatro estruturas aparecem expressamente no art. 9º, mas cumprem papéis diferentes.
 
-Uma função de direção **não cria competência material nova** para o Tribunal. As atribuições existem dentro dos limites definidos pela Constituição, pela Lei Orgânica e pelo Regimento.
+**Presidência e Vice-Presidência** integram a direção institucional. A função de direção organiza o exercício das atribuições do Tribunal; ela não cria, por si só, competência material fora da Constituição, da Lei Orgânica e do Regimento.
 
-## 6. Corregedoria e Ouvidoria
+A **Corregedoria** atua no plano interno, ligado à orientação e à fiscalização funcional, à disciplina e ao aprimoramento institucional. Não confunda isso com o **controle externo sobre jurisdicionados**, isto é, sobre pessoas e entidades sujeitas à fiscalização do Tribunal.
 
-### 6.1. Corregedoria
+A **Ouvidoria** é voltada ao relacionamento institucional e à escuta da sociedade, recebendo e tratando manifestações e favorecendo participação e controle social. Ela **não é colegiado julgador** e não substitui Plenário ou Câmara.
 
-A Corregedoria é órgão regimental ligado à orientação, fiscalização funcional, disciplina e aprimoramento institucional no âmbito interno do TCE/MA.
+O contraste mais útil é:
 
-Não se confunde com o **controle externo exercido sobre os jurisdicionados**.
+| Estrutura | Pergunta que ajuda a reconhecer |
+| --- | --- |
+| Presidência/Vice-Presidência | quem dirige institucionalmente? |
+| Corregedoria | quem atua sobre orientação e controle funcional interno? |
+| Ouvidoria | quem recebe e trata manifestações e promove escuta social? |
+| Plenário/Câmaras | onde ocorre deliberação colegiada? |
 
-Em 2025, a Corregedoria recebeu regulamentação própria pela Resolução TCE/MA nº 420/2025. Neste recorte, porém, basta compreender sua **posição institucional**. Procedimentos correicionais e disciplinares detalhados não devem ocupar o centro do Assunto 056.
+## 6. Comissões: permanentes com composição própria e temporárias para finalidade delimitada
 
-### 6.2. Ouvidoria
+A Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 391/2023 reorganizou as comissões regimentais. Aqui vale aprender a estrutura antes de decorar números.
 
-A Ouvidoria é órgão regimental de relacionamento institucional e escuta da sociedade.
+### 6.1. Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno — art. 22
 
-Seu papel envolve recepção e tratamento institucional de manifestações, participação e controle social, sem se transformar em órgão colegiado julgador.
+A composição é:
 
-Não confunda:
-
-- **Ouvidoria** → escuta e relacionamento;
-- **Corregedoria** → orientação e controle funcional interno;
-- **Plenário/Câmaras** → colegiados deliberativos;
-- **<abbr title="Ministério Público de Contas">MPC</abbr>** → órgão ministerial que atua junto ao Tribunal.
-
-## 7. Comissões regimentais
-
-A Resolução TCE/MA nº 391/2023 tornou as comissões um ponto central da organização interna.
-
-### 7.1. Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno
-
-O art. 22 estabelece a seguinte composição:
-
-- o **Conselheiro Corregedor**;
+- **Conselheiro Corregedor**;
 - **dois outros Conselheiros**;
-- **um Conselheiro-Substituto**, com função de **secretário-executivo**;
+- **um Conselheiro-Substituto**, que exerce a função de **secretário-executivo**;
 - **um Procurador de Contas**.
 
-Os integrantes são designados pelo **Pleno**.
+Todos são designados pelo **Pleno**.
 
-A presidência cabe ao **Conselheiro Corregedor**. Em suas ausências, ele é substituído pelos demais Conselheiros integrantes da comissão, sucessivamente, segundo a **antiguidade no cargo**.
+A comissão é presidida pelo **Conselheiro eleito Corregedor**. Em suas ausências, a presidência passa aos demais Conselheiros integrantes, sucessivamente, conforme a **antiguidade no cargo**.
 
-### 7.2. Comissão de Transformação Digital e Inovação Tecnológica e Jurídica
+A estrutura pode ser lida assim: o Corregedor preside; há dois outros Conselheiros; o Conselheiro-Substituto exerce a secretaria-executiva; e há participação de um Procurador de Contas.
 
-O art. 22-A prevê:
+### 6.2. Comissão de Transformação Digital e Inovação Tecnológica e Jurídica — art. 22-A
+
+A composição é:
 
 - **três Conselheiros**;
 - **dois Conselheiros-Substitutos**, sendo um deles designado **secretário-executivo**;
 - **um Procurador de Contas**.
 
-Também são designados pelo **Pleno**.
+Também há designação pelo **Pleno**.
 
-A comissão é presidida por um Conselheiro integrante que **não esteja simultaneamente** exercendo as funções de:
+A presidência cabe a um Conselheiro integrante que **não esteja simultaneamente** no exercício de nenhuma destas funções:
 
 - Vice-Presidente;
 - Corregedor;
 - Ouvidor;
 - Presidente de uma das Câmaras.
 
-Na ausência do Presidente da comissão, a substituição ocorre pelos demais Conselheiros integrantes, sucessivamente, por **antiguidade no cargo**.
+Na ausência do Presidente da comissão, a substituição recai sobre os demais Conselheiros integrantes, sucessivamente, pela **antiguidade no cargo**.
 
-### 7.3. Comissões temporárias
+Observe o contraste com a comissão anterior: na Comissão de Ética, a presidência é vinculada ao **Corregedor**; na Comissão de Transformação Digital, a regra faz justamente uma filtragem de funções incompatíveis.
 
-O art. 22-B disciplina as comissões temporárias:
+### 6.3. Comissões temporárias — art. 22-B
 
-- composição de **dois ou mais membros**;
-- membros escolhidos entre **Conselheiros e Conselheiros-Substitutos**;
-- indicação no ato de criação pelo **Pleno ou pelo Presidente do Tribunal**;
-- extinção ao término do prazo fixado para funcionamento **ou quando alcançado o objetivo**.
+As comissões temporárias obedecem a uma lógica diferente:
 
-A diferença é importante:
+- têm **dois ou mais membros**;
+- seus membros são escolhidos apenas entre **Conselheiros e Conselheiros-Substitutos**;
+- são indicados no ato de criação pelo **Pleno ou pelo Presidente do Tribunal**;
+- extinguem-se no fim do prazo fixado **ou quando alcançado o objetivo**.
 
-| Comissão | Composição básica | Criação/designação |
-| --- | --- | --- |
-| Ética, Gestão de Pessoas e Processo Produtivo Interno | Corregedor + 2 Conselheiros + 1 Substituto + 1 Procurador | designação pelo Pleno |
-| Transformação Digital e Inovação Tecnológica e Jurídica | 3 Conselheiros + 2 Substitutos + 1 Procurador | designação pelo Pleno |
-| temporária | 2 ou mais Conselheiros/Substitutos | ato de criação do Pleno ou do Presidente |
+Portanto, não transporte para a comissão temporária a composição das duas permanentes. O Procurador de Contas participa das duas comissões permanentes previstas nos arts. 22 e 22-A, mas o art. 22-B limita a comissão temporária a Conselheiros e Conselheiros-Substitutos.
 
-### 7.4. Competências das comissões
+### 6.4. Quem define as competências das comissões? — art. 25
 
 O art. 25 determina que **ato normativo** definirá as competências das duas comissões permanentes e as atribuições de seus Presidentes e secretários-executivos.
 
-Logo, não é correto inventar competências materiais específicas a partir apenas do nome das comissões.
+A consequência é simples: **o nome de uma comissão não autoriza inventar sua competência**. Em questão literal, composição, presidência e forma de substituição vêm do Regimento; as competências são remetidas a ato normativo.
 
-## 8. Ministério Público de Contas
+| Comissão | Composição | Presidência | Criação/designação |
+| --- | --- | --- | --- |
+| Ética, Gestão de Pessoas e Processo Produtivo Interno | Corregedor + 2 Conselheiros + 1 Conselheiro-Substituto + 1 Procurador | Corregedor | integrantes designados pelo Pleno |
+| Transformação Digital e Inovação Tecnológica e Jurídica | 3 Conselheiros + 2 Conselheiros-Substitutos + 1 Procurador | Conselheiro sem as funções incompatíveis do art. 22-A | integrantes designados pelo Pleno |
+| temporária | 2 ou mais Conselheiros/Conselheiros-Substitutos | conforme o ato de criação | Pleno ou Presidente |
 
-O **Ministério Público de Contas do Estado do Maranhão** atua junto ao TCE/MA e é essencial à função de controle externo.
+## 7. Estruturas de apoio: importantes, mas fora do art. 9º
 
-A Lei nº 8.258/2005, com a redação dada pela **Lei nº 11.614/2021**, estabelece que o MPC é composto por **quatro Procuradores de Contas**.
+A **Secretaria do Tribunal**, os **gabinetes** e a <abbr title="Escola Superior de Controle Externo">ESCEX</abbr> fazem parte da estrutura institucional e administrativa, mas não devem ser convertidos, por associação, em órgãos do art. 9º.
 
-A investidura no cargo depende de:
+| Estrutura | Enquadramento para este assunto |
+| --- | --- |
+| Secretaria do Tribunal | apoio estratégico, técnico e administrativo; fora do art. 9º |
+| gabinetes | apoio a autoridades e membros; fora do art. 9º |
+| <abbr title="Escola Superior de Controle Externo">ESCEX</abbr> | formação e desenvolvimento institucional; fora do art. 9º |
+| <abbr title="Ministério Público de Contas">MPC</abbr> | atuação ministerial junto ao Tribunal; fora do rol do art. 9º |
+| Plenário e Câmaras | órgãos colegiados do art. 9º |
+| Presidência, Vice-Presidência, Corregedoria e Ouvidoria | órgãos do art. 9º |
+| comissões regimentais | órgãos do art. 9º |
 
-- concurso público de provas e títulos;
-- participação da <abbr title="Ordem dos Advogados do Brasil">OAB</abbr> na realização;
-- bacharelado em Direito;
-- no mínimo **três anos de atividade jurídica**;
-- observância da ordem de classificação nas nomeações.
+Essa tabela sintetiza uma relação já construída: **“estar na estrutura do Tribunal” é uma categoria mais ampla do que “ser órgão enumerado no art. 9º”.**
 
-O chefe do MPC é o **Procurador-Geral de Contas**. Os Procuradores formam **lista tríplice dentre seus integrantes**; o Procurador-Geral é nomeado pelo **Governador do Estado**, no prazo legal, para mandato de **dois anos**, permitida **uma recondução**.
+## 8. Corte normativo e fronteiras do capítulo
 
-### 8.1. Procurador de Contas x Procurador-Geral
+O edital foi publicado em **6 de julho de 2026**. Para este material, considera-se o Regimento aprovado pela **Resolução Administrativa nº 1/2000**, com as alterações vigentes até essa data.
 
-A página institucional do TCE/MA informa que os Procuradores de Contas são nomeados pelo Procurador-Geral, observada a ordem de classificação no concurso. Já a Lei nº 11.614/2021 disciplina expressamente a **escolha do Procurador-Geral**: lista tríplice formada pelos Procuradores e nomeação pelo Governador.
+Para este assunto, a alteração decisiva é a Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº **391/2023**, que modificou o art. 9º, o art. 16 e a disciplina das comissões. A Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº **441/2026**, anterior ao edital, alcançou regras de diárias, não o rol do art. 9º.
 
-São regras sobre objetos diferentes. Em prova, identifique se a questão trata do **ingresso na carreira de Procurador de Contas** ou da **chefia do MPC**.
+As regras de **sessões, distribuição, quórum e deliberação** são aprofundadas no assunto seguinte. A organização administrativa detalhada da **Lei nº 9.936/2013** pertence aos Assuntos 069 e 070. Essas remissões limitam o aprofundamento; as distinções necessárias para compreender este capítulo já foram construídas aqui.
 
-## 9. Secretaria, gabinetes e <abbr title="Escola Superior de Controle Externo">ESCEX</abbr>: apoio, não art. 9º
+## 9. Como a banca pode trocar as peças
 
-A estrutura administrativa detalhada pertence principalmente à Lei nº 9.936/2013.
+Ao resolver uma questão, faça quatro perguntas em ordem:
 
-Para este assunto, memorize apenas a separação:
+1. **A alternativa está falando do rol do art. 9º ou da estrutura institucional em sentido amplo?**
+2. **Se for Câmara, a questão quer composição/funcionamento ou apenas quem a preside?**
+3. **Se for comissão, ela é uma das duas permanentes ou é temporária?**
+4. **Se aparecer <abbr title="Ministério Público de Contas">MPC</abbr>, a pergunta trata de sua composição/chefia ou tenta inseri-lo no art. 9º?**
 
-| Estrutura | Papel essencial | É órgão do art. 9º? |
-| --- | --- | --- |
-| Secretaria do Tribunal | apoio estratégico, técnico e administrativo | **não** |
-| gabinetes | apoio às autoridades e membros | **não** |
-| ESCEX | formação e desenvolvimento institucional | **não** |
-| MPC | atuação ministerial junto ao Tribunal | **não está no rol do art. 9º** |
-| Plenário e Câmaras | colegiados | **sim** |
-| Presidência, Vice, Corregedoria e Ouvidoria | órgãos regimentais | **sim** |
-| comissões regimentais | colaboração institucional | **sim** |
+Daí saem as principais discriminações:
 
-Não se deve transformar uma unidade técnica ou administrativa em órgão julgador.
+- Secretaria, gabinetes, <abbr title="Escola Superior de Controle Externo">ESCEX</abbr> e <abbr title="Ministério Público de Contas">MPC</abbr> **não estão no rol do art. 9º**;
+- Câmara do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> **não é Câmara Municipal**;
+- Corregedoria **não é o controle externo sobre jurisdicionados**;
+- Ouvidoria **não julga contas**;
+- as duas comissões permanentes incluem **um Procurador de Contas**;
+- comissão temporária tem **dois ou mais membros**, apenas entre Conselheiros e Conselheiros-Substitutos;
+- Primeira Câmara → **ex-Presidente do Tribunal no mandato imediatamente anterior**;
+- Segunda Câmara → **Conselheiro mais antigo no cargo entre os integrantes**, aplicadas as incompatibilidades;
+- competências das duas comissões permanentes → **ato normativo**.
 
-## 10. Pegadinhas de prova
+## 10. Recuperação ativa
 
-1. **Art. 9º não é o organograma completo.**
-2. **Secretaria e ESCEX não estão no rol de órgãos do art. 9º.**
-3. **MPC atua junto ao Tribunal, mas não é Secretaria nem colegiado julgador.**
-4. **Câmara do TCE/MA não é Câmara Municipal.**
-5. **Corregedoria não é controle externo sobre jurisdicionados.**
-6. **Ouvidoria não julga contas nem substitui Plenário ou Câmara.**
-7. **As duas comissões permanentes incluem Procurador de Contas.**
-8. **Na Comissão de Ética, o Conselheiro-Substituto exerce a secretaria-executiva.**
-9. **Na Comissão de Transformação Digital, um dos dois Conselheiros-Substitutos exerce a secretaria-executiva.**
-10. **Comissão temporária tem dois ou mais membros, apenas entre Conselheiros e Conselheiros-Substitutos.**
-11. **Comissão temporária pode ser criada pelo Pleno ou pelo Presidente.**
-12. **Competências das duas comissões permanentes são definidas por ato normativo.**
-13. **Primeira Câmara:** ex-Presidente do TCE do mandato imediatamente anterior.
-14. **Segunda Câmara:** Conselheiro mais antigo dentre seus integrantes, desde que não seja Vice-Presidente, Corregedor ou Ouvidor no mandato em curso.
+Sem consultar o texto, tente responder:
 
-## 11. Síntese final
-
-O núcleo do Assunto 056 é o **art. 9º**:
-
-**Plenário + 2 Câmaras + Presidência + Vice-Presidência + Corregedoria + Ouvidoria + 2 comissões permanentes + comissões temporárias.**
-
-Depois, associe:
-
-- **art. 16** → presidência das Câmaras;
-- **arts. 22 e 22-A** → composição das duas comissões permanentes;
-- **art. 22-B** → comissões temporárias;
-- **art. 25** → competências das comissões definidas por ato normativo;
-- **Lei nº 11.614/2021** → quatro Procuradores de Contas e forma de escolha do Procurador-Geral;
-- **Lei nº 9.936/2013** → organização administrativa detalhada, estudada nos Assuntos 069 e 070.
+1. Quais estruturas aparecem no art. 9º, e quais estruturas importantes do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> ficam fora desse rol?
+2. Qual é a diferença entre Conselheiro, Conselheiro-Substituto e Procurador de Contas?
+3. Quem preside a Primeira Câmara? E qual filtro se aplica à Segunda?
+4. Como você distingue, pela composição e pela presidência, as duas comissões permanentes?
+5. Quem pode integrar uma comissão temporária e quando ela se extingue?
+6. Como se forma e se escolhe a chefia do <abbr title="Ministério Público de Contas">MPC</abbr>?
