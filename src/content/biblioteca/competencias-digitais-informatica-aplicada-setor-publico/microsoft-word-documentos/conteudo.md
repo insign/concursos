@@ -49,6 +49,8 @@ O **zoom** amplia a visualização: passar de 100% para 200% não duplica fonte 
 
 Os atalhos deste capítulo se referem ao Word para Windows, no contexto indicado. Letras de abrir, salvar, selecionar tudo e negrito podem variar por idioma, versão e personalização; na Web, o navegador pode interceptar teclas. Não generalize uma tabela inglesa para a interface em português. A atribuição pode ser consultada em **Arquivo → Opções → Personalizar Faixa de Opções → Atalhos de teclado**.
 
+Na prova de Assistente Legislativo sem especialidade da Assembleia Legislativa de Rondônia, aplicada pela Fundação Getulio Vargas em 2026, o ambiente indicado era Word 365 e Windows 10 em português brasileiro. Nesse contexto, foram cobrados `Ctrl + B` para salvar, `Ctrl + T` para selecionar tudo, `Ctrl + Z` para desfazer e `Ctrl + L` para pesquisar. O exemplo mostra por que aplicativo e idioma precisam acompanhar a memorização: esse mapa não é universal.
+
 ## 3. Editar sem perder o controle do texto
 
 ### Movimentação, exclusão e colagem
@@ -93,7 +95,7 @@ A **margem** delimita a área de texto da seção; o **recuo** desloca o parágr
 
 ### Manter juntos os trechos que precisam ser lidos juntos
 
-O Word distribui o texto entre páginas, mas permite impor condições ao parágrafo. **Manter com o próximo** evita separar um título do parágrafo seguinte. **Manter linhas juntas** evita dividir o próprio parágrafo entre páginas. **Controle de linhas órfãs e viúvas** evita deixar apenas a primeira linha no fim de uma página ou apenas a última no início da seguinte. **Quebra de página antes** faz aquele parágrafo começar em outra página. São regras de paginação, não inserções de linhas vazias.
+O Word distribui o texto entre páginas, mas permite impor condições ao parágrafo. **Manter com o próximo** evita separar um título do parágrafo seguinte. **Manter linhas juntas** evita dividir o próprio parágrafo entre páginas. **Controle de linhas órfãs e viúvas** evita a primeira linha isolada no fim da página (órfã) ou a última no início da seguinte (viúva). **Quebra de página antes** faz aquele parágrafo começar em outra página. São regras de paginação, não inserções de linhas vazias.
 
 ### Tabulações e listas
 
@@ -107,7 +109,7 @@ Uma lista com **marcadores** identifica itens sem impor sequência numérica. Um
 
 Os títulos do relatório precisam da mesma fonte, negrito e espaço posterior. Em vez de repetir operações manuais, aplique um **estilo**: conjunto nomeado e reutilizável de propriedades de caractere e/ou parágrafo. Modificar o estilo atualiza os trechos associados a ele, observadas eventuais formatações diretas sobrepostas.
 
-Os estilos **Título 1**, **Título 2** e seguintes também expressam hierarquia: título principal, subdivisão e níveis inferiores. Isso permite navegar pela estrutura, produzir sumário automático e orientar programas que leem o conteúdo em voz alta. **Fonte grande e negrito, sozinhos, não transformam um parágrafo em título estrutural.**
+Os estilos **Título 1**, **Título 2** e seguintes também expressam hierarquia: título principal, subdivisão e níveis inferiores. Isso permite navegar pela estrutura, produzir um **sumário automático**, lista de títulos e páginas gerada a partir dessa estrutura, e orientar programas que leem o conteúdo em voz alta. **Fonte grande e negrito, sozinhos, não transformam um parágrafo em título estrutural.**
 
 Para atualizar um estilo a partir de um exemplo já formatado, selecione um trecho que o utiliza, aplique os novos atributos e, em **Página Inicial → Estilos**, escolha **Atualizar para Corresponder à Seleção** no estilo adequado. O grupo não fica em Arquivo. O Pincel de Formatação é útil para copiar aparência; o estilo mantém uma regra reutilizável de padronização.
 
@@ -159,9 +161,9 @@ Uma **tabela** relaciona dados em linhas e colunas; sua interseção é a **cél
 
 Imagens e formas podem ser acrescentadas pela guia **Inserir**. A disposição **Em linha com o texto** faz o objeto acompanhar o parágrafo como um caractere. O objeto **flutuante** usa disposições como **Quadrado**, **Próximo**, **Superior e Inferior**, **Atrás** ou **Na Frente do Texto**. Sua **âncora** o liga a um parágrafo, cujas alterações podem afetar a posição conforme as opções de movimentação. Flutuar não significa ausência de vínculo.
 
-**Redimensionar** altera largura e altura. **Recortar** modifica a área visível da imagem, ocultando partes. **Comprimir** pode reduzir resolução e tamanho do arquivo. Nenhuma dessas operações deve ser confundida com o zoom, que só amplia a visualização do documento.
+**Redimensionar** altera largura e altura. **Recortar** modifica a área visível da imagem, ocultando partes. **Comprimir** pode reduzir a <abbr title="Quantidade de detalhes representados na imagem">resolução</abbr> e o tamanho do arquivo. Nenhuma dessas operações deve ser confundida com o zoom, que só amplia a visualização do documento.
 
-Um documento acessível precisa transmitir sentido além da aparência. **Texto alternativo** é uma descrição que comunica a informação ou finalidade de uma imagem a quem não a vê, inclusive por meio de um leitor de tela, programa que anuncia o conteúdo. Imagens informativas precisam dessa descrição; as puramente decorativas devem ser identificadas como decorativas quando o recurso estiver disponível. Uma legenda visível não substitui automaticamente uma descrição adequada.
+Um documento acessível precisa transmitir sentido além da aparência. **Texto alternativo** é uma descrição que comunica a informação ou finalidade de uma imagem a quem não a vê, inclusive por meio de um leitor de tela, programa que anuncia o conteúdo. Imagens informativas precisam dessa descrição; as puramente decorativas devem ser identificadas como decorativas quando o recurso estiver disponível. Uma <abbr title="Texto que identifica uma figura ou tabela">legenda</abbr> visível não substitui automaticamente uma descrição adequada.
 
 Use títulos em ordem lógica, idioma correto, tabelas simples com cabeçalhos identificáveis e textos de ligação descritivos. Não dependa só da cor para distinguir informações. O **Verificador de Acessibilidade**, acessível pela guia Revisão, ajuda a localizar problemas, mas não garante sozinho que uma descrição explique bem a imagem ou que a ordem de leitura faça sentido.
 
@@ -193,9 +195,9 @@ Na guia **Correspondências**, escolha o tipo de saída — cartas, envelopes, e
 
 ### Um documento com áreas próprias para preenchimento
 
-O formulário recebe informações em espaços próprios. Na guia **Desenvolvedor**, os **controles de conteúdo** oferecem caixa de texto, lista suspensa, caixa de seleção e seletor de data. A guia pode ser habilitada na personalização da Faixa de Opções.
+O formulário recebe informações em espaços próprios. Na guia **Desenvolvedor**, os **controles de conteúdo** oferecem caixa de texto, <abbr title="Lista em que se escolhe uma opção">lista suspensa</abbr>, <abbr title="Controle para marcar ou desmarcar uma opção">caixa de seleção</abbr> e seletor de data. A guia pode ser habilitada na personalização da Faixa de Opções.
 
-Para restringir o documento ao preenchimento, configure **Restringir Edição → Preenchimento de formulários**, aplique a proteção e, quando necessário, defina senha para impedir sua retirada pelo procedimento normal. Proteções e propriedades dos controles precisam corresponder ao formulário utilizado. **Essa restrição não equivale a criptografar o arquivo para impedir sua leitura.** A criação de formulários preenchíveis não tem o mesmo suporte no Word para a Web; considere a plataforma indicada.
+Para restringir o documento ao preenchimento, configure **Restringir Edição → Preenchimento de formulários**, aplique a proteção e, quando necessário, defina senha para impedir sua retirada pelo procedimento normal. Proteções e propriedades dos controles precisam corresponder ao formulário utilizado. **Essa restrição não equivale a <abbr title="Transformar dados para impedir sua leitura sem a chave adequada">criptografar</abbr> o arquivo para impedir sua leitura.** A criação de formulários preenchíveis não tem o mesmo suporte no Word para a Web; considere a plataforma indicada.
 
 ## 10. Revisar, colaborar e proteger são decisões diferentes
 
@@ -232,7 +234,7 @@ O formato determina quais estruturas o arquivo consegue conservar. **Abrir um ar
 | Formato | O que considerar |
 |---|---|
 | `.docx` | formato moderno padrão de documento editável do Word; conserva texto, estilos, campos e objetos |
-| `.doc` | formato binário antigo; pode exigir Modo de Compatibilidade |
+| `.doc` | formato <abbr title="Que não armazena o documento como texto simples">binário</abbr> antigo; pode exigir Modo de Compatibilidade |
 | `.odt` — <abbr title="OpenDocument Text">ODT</abbr> | formato de texto OpenDocument; troca documentos entre aplicativos, mas pode perder ou converter recursos do Word |
 | `.rtf` — <abbr title="Rich Text Format">RTF</abbr> | formato de texto enriquecido; conserva formatação e parte dos objetos, sem todos os recursos específicos do Word |
 | `.txt` | texto simples; não conserva como tais estilos, imagens, tabelas ou campos atualizáveis |
