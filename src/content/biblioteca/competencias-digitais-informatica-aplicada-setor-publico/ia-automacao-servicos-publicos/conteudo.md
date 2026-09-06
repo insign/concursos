@@ -6,880 +6,317 @@ order: 33
 storageId: ia-automacao-servicos-publicos
 ---
 
-## 1. Recorte do assunto e corte temporal
+## 1. O problema antes da tecnologia
 
-O edital exige **noções de inteligência artificial aplicada a serviços públicos**, com destaque para:
+Imagine um órgão que recebe milhares de pedidos. Há tarefas de natureza muito diferente: conferir se um campo foi preenchido, encaminhar um processo à unidade competente, estimar risco, redigir uma minuta e responder perguntas do cidadão. **Automatizar** significa usar tecnologia para executar alguma dessas tarefas; usar <abbr title="Inteligência Artificial">IA</abbr> significa acrescentar um sistema capaz de inferir saídas a partir de entradas.
 
-- IA generativa;
-- chatbots;
-- atendimento automatizado.
+Essa distinção organiza todo o assunto: **nem toda automação usa <abbr title="Inteligência Artificial">IA</abbr> e nem todo uso de <abbr title="Inteligência Artificial">IA</abbr> deve produzir uma decisão administrativa**.
 
-Big data, análise de dados e Internet das Coisas pertencem ao assunto seguinte.
-
-O edital foi publicado em **6 de julho de 2026**. Para estudar corretamente, diferencie:
-
-| Plano | Corte |
-|---|---|
-| normas garantidas pela regra geral do edital | vigentes em 6/7/2026 |
-| políticas institucionais já vigentes | observar o âmbito do ato |
-| situação legislativa atual | verificada em 28/7/2026 |
-| norma publicada, mas ainda não vigente | não tratar como regra vigente |
-
-### 1.1 Situação normativa
-
-- Constituição, <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>, Lei nº 13.460/2017 e Lei nº 14.129/2021 já fornecem regras relevantes.
-- A Portaria <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 3.485/2026 instituiu política de governança de IA no âmbito do MGI e das iniciativas do ColaboraGov por ela abrangidas; entrou em vigor em **23/6/2026**.
-- O PL nº 2.338/2023 continua sendo **projeto de lei**, em análise na Câmara dos Deputados.
-- A Portaria <abbr title="Secretaria de Governo Digital">SGD</abbr>/MGI nº 5.921/2026 foi publicada depois do edital e só entra em vigor em **1º/9/2026**; não é regra vigente em 28/7/2026.
-
-> **Roteiro:** problema público → processo → dados → modelo → sistema → efeito → risco → controle → supervisão → monitoramento.
-
----
-
-## 2. Automação, algoritmo, IA e aprendizado de máquina
-
-| Conceito | Núcleo |
-|---|---|
-| automação | execução tecnológica de tarefa |
-| automação determinística | mesma condição produz a ação prevista |
-| algoritmo | sequência de instruções para resolver tarefa |
-| IA | sistema que infere saídas a partir de entradas |
-| aprendizado de máquina | modelo aprende padrões a partir de dados |
-| RPA | software imita ações em interfaces |
-| workflow | organiza etapas, regras, responsáveis e exceções |
-
-Nem toda automação usa IA. Um fluxo “se o assunto for tributo, encaminhar à unidade fiscal” pode ser inteiramente determinístico.
-
-### 2.1 RPA
-
-A automação robótica de processos pode:
-
-- clicar em botões;
-- copiar dados;
-- preencher campos;
-- consultar sistemas;
-- gerar arquivos;
-- movimentar itens entre filas.
-
-RPA não é robô físico e não exige aprendizado de máquina. Continua necessitando:
-
-- tratamento de exceções;
-- validação;
-- credenciais restritas;
-- monitoramento;
-- manutenção quando a interface muda.
-
-### 2.2 Antes de automatizar
-
-Automatizar processo ruim amplia o problema. Antes de escolher ferramenta:
-
-1. mapear a jornada;
-2. eliminar exigências desnecessárias;
-3. identificar base legal e competência;
-4. definir exceções;
-5. prever atendimento acessível;
-6. estabelecer responsabilidade e recurso;
-7. medir o resultado público esperado.
-
----
-
-## 3. Tipos de IA e seus efeitos
-
-| Tipo | Saída típica |
-|---|---|
-| preditiva | probabilidade, demanda ou risco |
-| classificadora | categoria ou fila |
-| recomendadora | ação sugerida |
-| generativa | texto, imagem, áudio, vídeo ou código |
-| visão computacional | informação extraída de imagem ou vídeo |
-| processamento de linguagem | análise ou produção de linguagem |
-
-### 3.1 Apoio, triagem, recomendação e decisão
-
-| Papel | Efeito |
-|---|---|
-| apoio | humano usa a saída como insumo |
-| triagem | ordena ou encaminha casos |
-| recomendação | sugere ação |
-| decisão | produz ou determina efeito jurídico/administrativo |
-
-Chamar a saída de “sugestão” não reduz seu risco se, na prática, ela for seguida automaticamente.
-
-Quanto maior o impacto sobre benefício, sanção, prioridade, fiscalização ou serviço essencial, maiores devem ser:
-
-- qualidade dos dados;
-- testes;
-- explicação;
-- supervisão;
-- contestação;
-- segurança;
-- documentação.
-
----
-
-## 4. Modelo de IA e sistema de IA
-
-| Elemento | Conteúdo |
-|---|---|
-| modelo | componente treinado que produz previsão, classificação ou geração |
-| sistema de IA | modelo + dados + interface + prompts + regras + integrações + usuários + controles |
-| serviço público | sistema inserido em competência, processo, prazo, recurso e atendimento |
-| ato administrativo | resultado assumido pelo agente ou órgão competente |
-
-### Exemplo
-
-Um <abbr title="grande modelo de linguagem">LLM</abbr> é apenas um componente. O chatbot institucional pode incluir:
-
-- fonte normativa;
-- mecanismo de busca;
-- prompt institucional;
-- filtro de segurança;
-- autenticação;
-- integração a protocolo;
-- canal humano;
-- registros;
-- revisão;
-- mecanismo de contestação.
-
-> Avalie o risco do sistema e da jornada real, não apenas do modelo isolado.
-
-Um modelo tecnicamente preciso pode gerar serviço inadequado se consulta norma revogada, usa permissões excessivas ou executa ações sem confirmação.
-
----
-
-## 5. IA generativa e modelos de linguagem
-
-IA generativa produz conteúdo novo a partir de padrões aprendidos.
-
-### 5.1 LLM
-
-Um grande modelo de linguagem:
-
-- processa sequências de tokens;
-- aprende relações estatísticas;
-- gera saídas durante a inferência;
-- não é repositório oficial por natureza;
-- não possui competência administrativa;
-- não garante verdade, atualidade ou completude.
-
-### 5.2 Conceitos operacionais
-
-| Termo | Regra |
-|---|---|
-| token | unidade processada, não necessariamente palavra inteira |
-| treinamento | ajuste de parâmetros com dados e objetivo |
-| ajuste fino | treinamento adicional para tarefa ou domínio |
-| inferência | uso do modelo já treinado para produzir saída |
-| janela de contexto | quantidade limitada de informação considerada |
-| temperatura | parâmetro que influencia variabilidade |
-
-Temperatura menor pode reduzir variabilidade, mas não transforma plausibilidade em verdade.
-
-### 5.3 Contexto não é necessariamente treinamento
-
-Colar texto em uma conversa não significa, por si só, retreinar os parâmetros. Porém, retenção e eventual reúso dependem:
-
-- do contrato;
-- da configuração;
-- da política do fornecedor;
-- do ambiente institucional.
-
-Nunca suponha que ferramenta gratuita ou pública garante confidencialidade.
-
----
-
-## 6. Prompt, saída e verificação
-
-Prompt é a instrução e o contexto fornecidos ao sistema.
-
-Um prompt útil define:
-
-- tarefa;
-- público;
-- fonte permitida;
-- dados necessários;
-- limites;
-- formato;
-- tratamento da incerteza.
-
-### Exemplo
+Um bom raciocínio para prova e para gestão pública é:
 
 ```text
-Resuma o procedimento em linguagem simples.
-Use somente a norma e a Carta de Serviços fornecidas.
-Não invente requisito.
-Se faltar fundamento, responda: “não encontrei base suficiente”.
-Indique a fonte de cada orientação.
+problema público → processo → dados → tecnologia → efeito → risco → controle
 ```
 
-Prompt melhor reduz ambiguidade, mas não garante correção.
+A tecnologia vem depois do problema e do processo. Automatizar uma exigência inútil apenas torna o desperdício mais rápido.
 
-### 6.1 Alucinação
+### Exemplo-guia
 
-Alucinação é saída plausível, porém:
+Considere, como exemplo hipotético, um serviço digital que recebe requerimentos de cidadãos.
 
-- falsa;
-- sem suporte;
-- incoerente com a fonte;
-- acompanhada de citação inventada;
-- baseada em lacuna preenchida indevidamente.
+- uma regra fixa separa pedidos por assunto;
+- um modelo estima a fila mais provável;
+- um chatbot responde dúvidas;
+- um modelo generativo prepara uma minuta;
+- um servidor confere a fonte, corrige a minuta e pratica o ato quando competente.
 
-Fluência, detalhe e tom confiante não comprovam verdade.
-
-### 6.2 Verificação independente
-
-Pedir ao mesmo modelo “confirme se está certo” pode melhorar redação, mas não é auditoria independente.
-
-Verifique em:
-
-- norma original;
-- processo;
-- sistema oficial;
-- base institucional;
-- revisão humana competente.
+Ao longo do capítulo, use esse fluxo para distinguir **regra**, **modelo**, **sistema**, **serviço** e **decisão**.
 
 ---
 
-## 7. Geração aumentada por recuperação — RAG
+## 2. Automação, algoritmo e aprendizado de máquina
 
-RAG combina:
+Uma **automação determinística** executa uma ação previamente definida quando determinada condição ocorre. Se “assunto = tributo” leva sempre à fila fiscal, não é necessário aprendizado de máquina.
 
-1. recuperação de trechos em acervo;
-2. inclusão dos trechos no contexto;
-3. geração da resposta.
+Um **algoritmo** é uma sequência de instruções para realizar uma tarefa. Algoritmo, portanto, não é sinônimo de <abbr title="Inteligência Artificial">IA</abbr>.
 
-RAG não exige alterar os parâmetros do modelo a cada pergunta.
+O <abbr title="Aprendizado de Máquina">ML</abbr>, ou aprendizado de máquina, é uma abordagem em que um modelo ajusta padrões a partir de dados para executar uma tarefa. Em vez de escrever uma regra específica para cada caso, treina-se um modelo para produzir uma classificação, previsão ou outra saída.
 
-### 7.1 Benefícios
-
-- acesso a conteúdo institucional;
-- atualização mais simples;
-- possibilidade de citar fonte;
-- redução de parte das alucinações;
-- delimitação do domínio.
-
-### 7.2 Limites
-
-RAG não garante:
-
-- recuperação do documento correto;
-- vigência da fonte;
-- correspondência entre citação e frase;
-- ausência de instrução maliciosa;
-- interpretação jurídica correta;
-- resposta quando não há base.
-
-### 7.3 Governança da fonte
-
-Antes de usar a resposta, confira:
-
-1. órgão responsável;
-2. versão;
-3. vigência;
-4. revogação;
-5. pertinência do trecho;
-6. correspondência da citação;
-7. prioridade entre lei, regulamento, manual e FAQ;
-8. atualização do índice;
-9. existência de conteúdo malicioso;
-10. capacidade de responder “não encontrei fundamento”.
-
-Fonte verdadeira e revogada ainda produz orientação errada.
-
----
-
-## 8. Chatbots e atendimento automatizado
-
-Chatbot descreve a interface de conversa, não uma tecnologia única.
-
-| Tipo | Funcionamento |
-|---|---|
-| regras | menus e condições fixas |
-| recuperação | retorna resposta cadastrada |
-| linguagem | interpreta intenção e extrai informação |
-| generativo | produz resposta nova |
-| híbrido | combina regras, busca, geração e encaminhamento |
-
-### 8.1 Classificação pelo efeito
-
-| Função | Exemplo | Controle principal |
+| Mecanismo | Como funciona | Exemplo no serviço hipotético |
 |---|---|---|
-| informação geral | documento exigido | fonte oficial vigente |
-| orientação personalizada | indicar serviço | finalidade e equidade |
-| informação pessoal | andamento | autenticação e autorização |
-| protocolo | registrar manifestação | confirmação e integridade |
-| transação | alterar cadastro | autorização e evidência |
-| recomendação | sugerir prioridade | critérios e revisão |
-| decisão | produzir efeito | competência e salvaguardas reforçadas |
+| regra fixa | condição explícita → ação prevista | assunto “tributo” → fila fiscal |
+| <abbr title="Automação Robótica de Processos">RPA</abbr> | software reproduz ações em interfaces | copiar dados entre sistemas |
+| <abbr title="Aprendizado de Máquina">ML</abbr> | modelo aprende padrões em dados | estimar a fila mais provável |
+| <abbr title="Inteligência Artificial">IA</abbr> generativa | modelo produz novo conteúdo | redigir uma minuta |
 
-A interface pode ser semelhante, mas o risco muda conforme o efeito.
+A <abbr title="Automação Robótica de Processos">RPA</abbr> não é robô físico e não exige <abbr title="Inteligência Artificial">IA</abbr>. Ela pode clicar, copiar, preencher, consultar e mover itens entre sistemas por passos predefinidos. Ainda precisa de credenciais restritas, tratamento de exceções, monitoramento e manutenção.
 
-### 8.2 Transparência ao usuário
+A <abbr title="Gestão de Processos de Negócio">BPM</abbr>, ou gestão de processos de negócio, olha o processo de forma mais ampla: modela, analisa e melhora o fluxo ponta a ponta. Por isso, <abbr title="Automação Robótica de Processos">RPA</abbr> e <abbr title="Gestão de Processos de Negócio">BPM</abbr> não são estratégias excludentes; uma automação de tarefa pode integrar uma estratégia maior de melhoria do processo.
 
-O cidadão deve saber:
+### Antes de automatizar
 
-- que interage com automação;
-- finalidade e limites;
-- se a mensagem foi protocolada;
-- se a resposta é orientação ou decisão;
-- quem é responsável;
-- como falar com pessoa;
-- como corrigir ou contestar.
+Pergunte, nesta ordem:
 
----
-
-## 9. Acessibilidade, linguagem simples e canal humano
-
-Atendimento automatizado deve considerar:
-
-- leitor de tela;
-- teclado;
-- contraste;
-- voz e texto;
-- dispositivo móvel;
-- conexão limitada;
-- linguagem simples;
-- pessoas com deficiência;
-- pessoas com baixo letramento digital;
-- exceções e atendimento humano.
-
-### 9.1 Linguagem simples
-
-Prefira:
-
-- frases curtas;
-- ordem direta;
-- termos conhecidos;
-- explicação de siglas;
-- instruções em etapas;
-- informação principal no início.
-
-Simplificar a comunicação não autoriza alterar o conteúdo jurídico.
-
-### 9.2 Fallback
-
-Quando o sistema não compreende, não encontra fonte ou identifica risco, deve:
-
-- informar a limitação;
-- não inventar;
-- encaminhar ao canal adequado;
-- preservar contexto necessário com segurança;
-- permitir continuidade do atendimento.
+1. qual problema público será resolvido;
+2. quais etapas são realmente necessárias;
+3. qual órgão ou agente tem competência;
+4. quais exceções existem;
+5. quais dados são indispensáveis;
+6. qual canal alternativo atende quem não consegue usar o fluxo digital;
+7. como será possível corrigir, contestar ou interromper o processo;
+8. qual resultado será medido.
 
 ---
 
-## 10. Finalidade pública, legalidade e responsabilidade
+## 3. Do modelo ao serviço público
 
-A solução precisa estar vinculada a:
+Um erro frequente é tratar “o modelo” como se fosse todo o sistema.
 
-- problema real;
-- finalidade pública;
-- competência;
-- base normativa;
-- processo definido;
-- responsável identificável;
-- resultado mensurável.
+- **modelo:** componente treinado que produz uma saída, como classificação, previsão ou texto;
+- **sistema de <abbr title="Inteligência Artificial">IA</abbr>:** modelo mais dados, interface, instruções, integrações, usuários, regras e controles;
+- **serviço público digital:** sistema inserido em competência, procedimento, prazos, atendimento e mecanismos de revisão;
+- **ato administrativo:** manifestação assumida pelo agente ou órgão competente, com os requisitos jurídicos aplicáveis.
 
-A ferramenta não adquire competência. O agente e o órgão continuam responsáveis por:
+Um <abbr title="Grande Modelo de Linguagem">LLM</abbr> pode redigir texto, mas não recebe competência administrativa por isso. No exemplo-guia, a minuta gerada é apenas um insumo até que seja validada e assumida por quem pode decidir.
 
-- fatos;
-- normas;
-- motivação;
-- versão final;
-- efeitos;
-- correções.
+### O efeito importa mais do que o rótulo
 
-Contrato não transfere dever estatal ao fornecedor.
+A saída tecnológica pode cumprir papéis diferentes:
 
----
-
-## 11. Transparência, explicabilidade e rastreabilidade
-
-### 11.1 Transparência
-
-Informar, de forma útil:
-
-- finalidade;
-- papel da IA;
-- dados usados;
-- limites;
-- responsável;
-- canal de atendimento;
-- possibilidade de revisão.
-
-### 11.2 Explicabilidade
-
-Explicação adequada pode incluir:
-
-- fatores relevantes;
-- fonte;
-- etapa automatizada;
-- limiar;
-- responsável;
-- forma de correção.
-
-Explicabilidade não exige sempre divulgar código-fonte, segredo comercial ou detalhe que crie risco.
-
-### 11.3 Rastreabilidade
-
-Registros proporcionais podem conter:
-
-- versão do modelo;
-- prompt ou regra;
-- fontes;
-- entrada relevante;
-- saída;
-- intervenção humana;
-- data;
-- resultado;
-- decisão final.
-
-Retenção deve observar necessidade, segurança e prazos.
-
----
-
-## 12. Supervisão humana
-
-| Modelo | Participação |
+| Papel | O que acontece |
 |---|---|
-| human-in-the-loop | pessoa intervém antes do efeito |
-| human-on-the-loop | sistema atua, mas pessoa monitora e pode intervir |
-| human-out-of-the-loop | não há intervenção operacional no caso |
-| aprovação formal | pessoa confirma sem análise efetiva |
+| apoio | a pessoa usa a saída como insumo |
+| triagem | o sistema ordena ou encaminha casos |
+| recomendação | o sistema sugere uma ação |
+| decisão | a saída produz ou determina efeito administrativo |
 
-Supervisão efetiva exige:
-
-- capacitação;
-- informação;
-- tempo;
-- acesso à fonte;
-- poder de discordar;
-- autoridade para interromper;
-- possibilidade de corrigir;
-- registro da intervenção.
-
-Aprovar 800 recomendações em poucos minutos pode ser supervisão apenas aparente.
-
-### 12.1 Viés de automação
-
-É a confiança excessiva na saída da tecnologia. Combata com:
-
-- treinamento;
-- apresentação de incerteza;
-- fonte acessível;
-- amostragem de revisão;
-- métricas sobre divergência;
-- autoridade para rejeitar.
+Chamar uma saída de “recomendação” não reduz o risco se, na prática, ela for seguida automaticamente. Quanto maior o efeito sobre benefício, sanção, prioridade, fiscalização ou serviço essencial, maior deve ser a robustez de dados, testes, explicação, supervisão, segurança e contestação.
 
 ---
 
-## 13. Equidade e não discriminação
+## 4. <abbr title="Inteligência Artificial">IA</abbr> generativa e modelos de linguagem
 
-Riscos podem surgir de:
+A <abbr title="Inteligência Artificial">IA</abbr> generativa produz conteúdo novo — texto, imagem, áudio, vídeo ou código — a partir de padrões aprendidos.
 
-- dados históricos discriminatórios;
-- grupos sub-representados;
-- rótulos incorretos;
-- variável proxy;
-- limiar único inadequado;
-- exclusão digital;
-- feedback que reforça o padrão.
+Um <abbr title="Grande Modelo de Linguagem">LLM</abbr> processa unidades chamadas **tokens**, aprende relações estatísticas durante o treinamento e, na **inferência**, gera uma saída para uma nova entrada. Ele não é, por natureza, uma base oficial de normas nem garante verdade, atualidade ou completude.
 
-Acurácia média alta pode esconder erro elevado para determinado grupo.
+### Conceitos que a prova pode separar
 
-Avalie, quando legítimo e necessário:
-
-- falso positivo;
-- falso negativo;
-- taxa de encaminhamento;
-- tempo de resposta;
-- abandono;
-- impacto desagregado;
-- possibilidade de correção.
-
-Uso de atributos sensíveis para auditoria deve possuir base, necessidade e proteção.
-
----
-
-## 14. LGPD e decisões automatizadas
-
-Princípios relevantes:
-
-- finalidade;
-- adequação;
-- necessidade;
-- transparência;
-- segurança;
-- prevenção;
-- não discriminação;
-- prestação de contas.
-
-No poder público, o tratamento deve estar ligado a finalidade pública, interesse público e competência ou atribuição legal.
-
-### 14.1 Art. 20
-
-O titular pode solicitar revisão de decisão:
-
-- tomada unicamente com base em tratamento automatizado de dados pessoais;
-- que afete seus interesses.
-
-Também pode solicitar informações sobre critérios e procedimentos, preservados segredos protegidos.
-
-A literalidade vigente não exige expressamente que a revisão seja realizada por pessoa natural, embora riscos elevados possam justificar revisão humana efetiva como salvaguarda.
-
----
-
-## 15. Classificação da informação e ferramentas externas
-
-| Informação | Conduta |
+| Conceito | Significado operacional |
 |---|---|
-| pública e aprovada | uso conforme política institucional |
-| interna não pública | somente em ambiente institucional autorizado |
-| pessoal | base, finalidade, minimização, contrato e segurança |
-| sensível | controles reforçados e avaliação de risco |
-| sigilosa | não inserir em ferramenta externa não autorizada |
-| senha, chave ou segredo | nunca usar como contexto comum |
+| token | unidade de processamento; pode ser palavra, parte de palavra ou símbolo |
+| treinamento | ajuste de parâmetros do modelo com dados e objetivo |
+| ajuste fino | treinamento adicional para adaptar o modelo a tarefa ou domínio |
+| inferência | uso do modelo treinado para produzir nova saída |
+| janela de contexto | quantidade limitada de informação considerada em uma interação |
+| temperatura | parâmetro que influencia a variabilidade da geração |
 
-No âmbito da Portaria MGI nº 3.485/2026, informações estritamente públicas podem ser usadas em ferramentas externas. Dados pessoais, sensíveis ou sigilosos não devem ser enviados, em regra, sem avaliação prévia e garantias técnicas e contratuais.
+Diminuir a temperatura pode tornar as respostas menos variadas, mas **não transforma plausibilidade em verdade**.
 
-Essa política possui âmbito institucional delimitado; não deve ser apresentada como lei geral nacional.
+### Contexto não é necessariamente treinamento
 
----
-
-## 16. Segurança e prompt injection
-
-### 16.1 Ameaças
-
-- vazamento de dados;
-- acesso indevido;
-- credencial exposta;
-- resposta maliciosa;
-- manipulação do prompt;
-- documento contaminado;
-- execução de comando inseguro;
-- dependência do fornecedor.
-
-### 16.2 Prompt injection
-
-Ataque tenta induzir o sistema a ignorar instruções ou revelar informação.
-
-- **direta:** texto do usuário contém a instrução maliciosa;
-- **indireta:** documento, site ou mensagem recuperada contém instrução oculta.
-
-Controles:
-
-- separar instrução e conteúdo;
-- tratar fonte externa como dado, não comando;
-- menor privilégio;
-- ferramenta permitida em lista fechada;
-- validação de parâmetros;
-- confirmação antes de ação;
-- limite de quantidade e valor;
-- sandbox quando cabível;
-- registro e interrupção.
-
-Nunca execute automaticamente código, consulta ou link apenas porque foi gerado por IA.
+Fornecer um documento durante uma interação não significa, por si só, retreinar os parâmetros do modelo. Entretanto, retenção, armazenamento e eventual reúso das entradas dependem do contrato, da configuração, da política do fornecedor e do ambiente institucional. Por isso, ferramenta pública ou gratuita não deve ser presumida confidencial.
 
 ---
 
-## 17. Agentes de IA e ferramentas
+## 5. Prompt, alucinação e verificação
 
-| Arquitetura | Capacidade |
+**Prompt** é a instrução e o contexto fornecidos ao sistema. Um prompt melhor reduz ambiguidade; não substitui fonte nem revisão.
+
+No exemplo-guia, uma instrução adequada poderia limitar a tarefa à norma e à Carta de Serviços fornecidas, exigir indicação da fonte e ordenar que o sistema declare insuficiência de base em vez de inventar requisito.
+
+Uma **alucinação** ocorre quando a saída parece plausível, mas é falsa, não tem suporte, contradiz a fonte ou inventa uma citação. Fluência e tom confiante não comprovam correção.
+
+Pedir ao mesmo modelo que “confirme” a própria resposta pode ajudar a detectar inconsistências, mas não equivale a verificação independente. Para um uso administrativo relevante, confronte a saída com norma vigente, processo, sistema oficial, base institucional ou revisão humana competente.
+
+### Padrões de prompt que podem aparecer em prova
+
+Esses nomes descrevem **como o exemplo é fornecido no prompt**, não uma nova fase de treinamento do modelo:
+
+| Padrão | Ideia central |
 |---|---|
-| chatbot informativo | gera texto |
-| assistente com RAG | busca e responde |
-| assistente com ferramentas | consulta sistemas autorizados |
-| agente | planeja etapas e aciona ferramentas |
-| multiagente | distribui tarefas entre componentes |
+| <abbr title="Prompt sem exemplos demonstrativos da tarefa">zero-shot</abbr> | a instrução pede a tarefa sem apresentar exemplo |
+| <abbr title="Prompt com poucos exemplos demonstrativos da tarefa">few-shot</abbr> | alguns exemplos orientam o formato ou padrão esperado |
+| <abbr title="Prompt que solicita decomposição do problema em etapas intermediárias">chain-of-thought</abbr> | a instrução induz resolução em etapas |
+| <abbr title="Decomposição em etapas sem exemplos demonstrativos prévios">zero-shot chain-of-thought</abbr> | combina ausência de exemplos com pedido de decomposição |
 
-Quanto maior a autonomia, maior o controle.
-
-### Exemplo
-
-Um assistente pode consultar andamento dentro da autorização do usuário. Alterar cadastro, emitir pagamento ou indeferir pedido exige controles adicionais:
-
-- autenticação;
-- autorização por operação;
-- confirmação;
-- validação;
-- limite;
-- registro;
-- reversão;
-- supervisão.
+Essas técnicas podem orientar a geração, mas **não tornam a resposta verdadeira nem dispensam fonte e validação**.
 
 ---
 
-## 18. Governança do ciclo de vida
+## 6. <abbr title="Geração Aumentada por Recuperação">RAG</abbr>: responder com acervo institucional
+
+A <abbr title="Geração Aumentada por Recuperação">RAG</abbr> combina três etapas:
 
 ```text
-Problema → finalidade → inventário → impacto →
-aquisição/desenvolvimento → testes → implantação →
-monitoramento → incidente → mudança/desativação
+buscar trechos → colocar trechos no contexto → gerar a resposta
 ```
 
-### 18.1 Inventário
+Ela pode aproximar o modelo de um acervo institucional sem alterar seus parâmetros a cada pergunta. Isso facilita atualização e citação de fontes, mas não elimina erros.
 
-Registre:
+No serviço hipotético, um chatbot pode buscar a Carta de Serviços e uma norma antes de responder. Ainda assim, é preciso conferir:
 
-- finalidade;
-- área responsável;
-- fornecedor;
-- modelo e versão;
-- dados;
-- integrações;
-- usuários;
-- efeitos;
-- nível de risco;
-- controles;
-- revisão;
-- data de reavaliação.
+- se o documento recuperado é o correto;
+- se está vigente;
+- se o trecho realmente sustenta a afirmação;
+- se o índice foi atualizado;
+- se a fonte contém instrução maliciosa;
+- se o sistema sabe responder que não encontrou fundamento.
 
-### 18.2 Avaliação de impacto algorítmico
+**Fonte autêntica e revogada continua sendo fonte inadequada para orientar o cidadão.**
 
-Pode analisar:
-
-- direitos afetados;
-- grupos expostos;
-- dados e base legal;
-- erros previsíveis;
-- explicabilidade;
-- contestação;
-- segurança;
-- dependências;
-- risco residual.
-
-Não substitui <abbr title="Relatório de Impacto à Proteção de Dados Pessoais">RIPD</abbr>, segurança, auditoria ou decisão competente.
-
-### 18.3 Contratação
-
-O contrato deve prever, conforme o caso:
-
-- objeto e limites;
-- dados e finalidade;
-- retenção;
-- localização;
-- subcontratados;
-- segurança;
-- logs;
-- testes;
-- métricas;
-- incidentes;
-- auditoria;
-- portabilidade;
-- reversibilidade;
-- exclusão ao término;
-- mudança de modelo.
-
-“IA” não pode ser caixa-preta contratual sem responsabilidades.
+A <abbr title="Geração Aumentada por Recuperação">RAG</abbr> não é ajuste fino: recuperar documentos para o contexto é diferente de alterar os parâmetros do modelo.
 
 ---
 
-## 19. Testes, métricas e operação
+## 7. Chatbots e atendimento automatizado
 
-### 19.1 Antes da produção
+**Chatbot** descreve uma interface de conversa, não uma tecnologia única. Ele pode funcionar por menus e regras, recuperar respostas cadastradas, interpretar linguagem, gerar conteúdo ou combinar essas técnicas.
 
-Teste:
+O controle necessário depende principalmente do que o chatbot pode fazer:
 
-- casos normais;
-- casos raros;
-- grupos diferentes;
-- dados ausentes;
-- entradas hostis;
-- acessibilidade;
-- fontes revogadas;
-- fallback;
-- permissões;
-- carga;
-- recuperação;
-- intervenção humana.
+| Função | Risco dominante | Controle central |
+|---|---|---|
+| informar requisito geral | fonte desatualizada | fonte oficial vigente |
+| orientar caso concreto | orientação inadequada | finalidade, limites e revisão |
+| mostrar informação pessoal | exposição indevida | autenticação e autorização |
+| protocolar manifestação | perda ou duplicidade | confirmação e integridade |
+| alterar cadastro | ação indevida | autorização, confirmação e registro |
+| recomendar prioridade | desigualdade ou erro | critérios, teste e revisão |
+| produzir decisão | efeito jurídico indevido | competência e salvaguardas reforçadas |
 
-### 19.2 Métricas
+O usuário precisa saber, de modo compreensível, que interage com automação, qual é a finalidade, quais são os limites, se houve protocolo ou transação, quem responde pelo serviço e como obter atendimento humano, correção ou contestação.
 
-| Contexto | Exemplos |
+### Acessibilidade e continuidade
+
+Atendimento automatizado deve funcionar para diferentes pessoas e condições de uso: leitor de tela, teclado, dispositivo móvel, conexão limitada, linguagem simples, pessoas com deficiência e pessoas com baixo letramento digital.
+
+Quando o sistema não compreende a solicitação, não encontra fonte ou identifica risco, o comportamento seguro é um **fallback**, isto é, uma rota alternativa: informar a limitação, não inventar e encaminhar o caso ao canal adequado preservando apenas o contexto necessário.
+
+---
+
+## 8. Responsabilidade, transparência e supervisão humana
+
+A ferramenta não adquire competência administrativa. O órgão e os agentes continuam responsáveis pela finalidade pública, pela base normativa, pelos fatos, pela motivação, pela versão final e pelos efeitos produzidos. Contratar um fornecedor não transfere esses deveres estatais.
+
+### Três perguntas diferentes
+
+- **transparência:** o cidadão entende que há automação, para que ela serve, quais dados e limites importam e quem responde pelo serviço?
+- **explicabilidade:** é possível apresentar os fatores, fontes, critérios ou etapas relevantes para compreender a saída?
+- **rastreabilidade:** existem registros proporcionais que permitam reconstruir versão, entrada relevante, fonte, saída, intervenção e decisão final?
+
+Explicabilidade não significa necessariamente divulgar código-fonte, segredo comercial ou detalhe que crie novo risco.
+
+### Supervisão humana efetiva
+
+| Arranjo | Participação humana |
 |---|---|
-| classificação | precisão, revocação, falsos positivos e negativos |
-| chatbot | resolução, encaminhamento, abandono e correção |
-| generativa | fundamentação, citação, factualidade e revisão |
-| serviço | prazo, retrabalho, satisfação e equidade |
+| <abbr title="Pessoa intervém antes de o sistema produzir efeito operacional">human-in-the-loop</abbr> | revisão antes do efeito |
+| <abbr title="Pessoa monitora o sistema e pode intervir durante a operação">human-on-the-loop</abbr> | monitoramento com poder de intervenção |
+| <abbr title="Não há intervenção humana operacional no caso individual">human-out-of-the-loop</abbr> | operação sem intervenção no caso |
 
-Métrica offline não basta. Monitore o serviço real.
-
-### 19.3 Deriva
-
-Deriva ocorre quando dados, comportamento ou ambiente mudam e o desempenho se degrada.
-
-Sinais:
-
-- aumento de erro;
-- mudança da população;
-- norma nova;
-- vocabulário diferente;
-- base desatualizada;
-- nova forma de fraude.
-
-Resposta:
-
-- investigar;
-- reavaliar;
-- atualizar;
-- ajustar;
-- restringir;
-- suspender;
-- comunicar quando necessário.
+A presença formal de uma pessoa não basta. Supervisão efetiva exige informação, tempo, capacitação, acesso à fonte e poder real de discordar, corrigir ou interromper. Se alguém recebe centenas de recomendações e apenas confirma todas em segundos, existe **viés de automação** e a revisão pode ser apenas aparente.
 
 ---
 
-## 20. Incidentes e desativação
+## 9. Equidade, dados pessoais e <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>
 
-Incidentes podem envolver:
+Modelos aprendem com dados e podem reproduzir desigualdades presentes no conjunto de treinamento ou no desenho do serviço. Riscos surgem, por exemplo, de grupos sub-representados, rótulos incorretos, variáveis que funcionam como aproximação indireta de atributo sensível, exclusão digital ou ciclos de retroalimentação.
 
-- decisão indevida;
-- vazamento;
-- acesso não autorizado;
-- discriminação;
-- execução errada;
-- citação falsa;
-- indisponibilidade;
-- comprometimento de fornecedor.
+Acurácia média alta não demonstra tratamento equitativo. Quando legítimo e necessário, a avaliação pode comparar falsos positivos, falsos negativos, encaminhamentos, abandono e outros efeitos entre grupos.
 
-Plano:
+Na <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>, princípios como finalidade, adequação, necessidade, transparência, segurança, prevenção, não discriminação e prestação de contas continuam relevantes para sistemas automatizados.
 
-1. detectar;
-2. conter;
-3. preservar evidência;
-4. avaliar impacto;
-5. corrigir;
-6. comunicar conforme o regime aplicável;
-7. recuperar;
-8. revisar controles;
-9. acompanhar pessoas afetadas.
+### Art. 20 da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>
 
-A solução deve poder ser interrompida ou desativada com continuidade do serviço.
+O titular pode solicitar revisão de decisões tomadas **unicamente com base em tratamento automatizado de dados pessoais** que afetem seus interesses. Também pode pedir informações claras e adequadas sobre critérios e procedimentos utilizados, observados os segredos comercial e industrial protegidos.
+
+A redação vigente do art. 20 não exige expressamente que a revisão seja feita por pessoa natural. Isso não impede que uma revisão humana efetiva seja adotada como salvaguarda quando o risco do caso justificar.
 
 ---
 
-## 21. Casos resolvidos
+## 10. Segurança: dados, instruções maliciosas e agentes
 
-### 21.1 FAQ institucional
+Informação pública, dado pessoal, informação interna, dado sensível, documento sigiloso e credencial não recebem o mesmo tratamento. O ponto de partida é a política institucional e o regime jurídico aplicável, com minimização, controle de acesso e ambiente autorizado.
 
-Chatbot responde apenas com Carta de Serviços vigente e indica a fonte.
+Nunca presuma que uma ferramenta externa é adequada apenas porque é gratuita ou popular. Senhas, chaves e segredos não devem ser usados como contexto comum; dados pessoais, sensíveis ou sigilosos exigem avaliação e controles compatíveis.
 
-**Controle:** RAG governado, resposta de insuficiência e canal humano.
+### <abbr title="Ataque que tenta fazer o sistema obedecer a instruções maliciosas em vez das regras legítimas">prompt injection</abbr>
 
-### 21.2 Triagem
+O ataque pode ser:
 
-Modelo classifica requerimentos em filas.
+- **direto:** o usuário envia a instrução maliciosa;
+- **indireto:** a instrução está escondida em documento, página ou mensagem recuperada pelo sistema.
 
-**Controle:** limiar, fila de incerteza, correção de encaminhamento e auditoria.
+Um documento recuperado deve ser tratado como **dado**, não como nova autoridade para dar comandos ao sistema. Controles úteis incluem menor privilégio, lista fechada de ferramentas, validação de parâmetros, confirmação antes de ações sensíveis, limites de quantidade ou valor, registros e capacidade de interrupção.
 
-### 21.3 Minuta oficial
+### Agentes e ferramentas
 
-IA redige minuta.
+Há uma diferença crescente de capacidade:
 
-**Controle:** processo original, norma vigente, revisão e responsabilidade do signatário.
+```text
+chatbot → assistente com busca → assistente com ferramentas → agente
+```
 
-### 21.4 Ferramenta externa
-
-Servidor cola CPF, laudo e informação sigilosa em serviço gratuito.
-
-**Conclusão:** gratuidade não comprova autorização nem confidencialidade.
-
-### 21.5 Agente com ferramenta
-
-Assistente consulta e altera cadastro.
-
-**Controle:** consulta pode ser autorizada; alteração sensível exige confirmação, limite e registro.
-
-### 21.6 Fonte revogada
-
-RAG cita norma autêntica, porém revogada.
-
-**Conclusão:** citação verdadeira não garante vigência.
-
-### 21.7 Supervisão aparente
-
-Pessoa recebe centenas de recomendações e não possui tempo para revisar.
-
-**Conclusão:** presença humana formal sem controle substantivo.
+Um agente pode planejar etapas e acionar ferramentas. Quanto maior a autonomia, maior deve ser o controle sobre autenticação, autorização por operação, confirmação, limites, registro, reversão e supervisão. Gerar uma instrução não é autorização para executá-la.
 
 ---
 
-## 22. Situação institucional e legislativa
+## 11. Governança do ciclo de vida
 
-### 22.1 Portaria <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 3.485/2026
+Governança de <abbr title="Inteligência Artificial">IA</abbr> não termina na implantação. O ciclo é contínuo:
 
-Vigente antes do edital, institui política de governança de IA no âmbito delimitado do MGI e de iniciativas abrangidas do ColaboraGov.
+```text
+problema → finalidade → inventário → avaliação de impacto →
+desenvolvimento/contratação → testes → produção → monitoramento →
+incidente ou mudança → correção, restrição ou desativação
+```
 
-Pontos:
+Um inventário útil registra finalidade, área responsável, fornecedor, modelo e versão, dados, integrações, usuários, efeitos, risco, controles e data de reavaliação.
 
-- governança;
-- segurança;
-- gestão de riscos;
-- transparência;
-- privacidade;
-- capacitação;
-- supervisão humana;
-- responsabilidade pelo conteúdo final.
+Uma avaliação de impacto algorítmico pode examinar direitos afetados, grupos expostos, dados, erros previsíveis, explicabilidade, contestação, segurança e risco residual. Ela não substitui o <abbr title="Relatório de Impacto à Proteção de Dados Pessoais">RIPD</abbr>, a análise de segurança, a auditoria ou a decisão administrativa competente.
 
-Não é lei geral nacional para todos os órgãos e Poderes.
+Na contratação, “<abbr title="Inteligência Artificial">IA</abbr>” não pode virar caixa-preta contratual. Conforme o caso, o instrumento deve delimitar finalidade, dados, retenção, subcontratação, segurança, registros, testes, métricas, incidentes, auditoria, portabilidade, reversibilidade e mudança de modelo.
 
-### 22.2 <abbr title="Projeto de Lei">PL</abbr> nº 2.338/2023
+### Teste e operação
 
-Em 28/7/2026:
+Antes da produção, teste casos normais e raros, dados ausentes, grupos diferentes, entradas hostis, acessibilidade, permissões, fontes desatualizadas, fallback e intervenção humana.
 
-- permanece projeto de lei;
-- aguarda parecer na comissão especial da Câmara;
-- não deve ser citado como lei vigente.
+Depois da implantação, monitore o **serviço real**, não só uma métrica de laboratório. Observe erro, abandono, retrabalho, correção, satisfação, equidade e incidentes.
 
-### 22.3 Portaria <abbr title="Secretaria de Governo Digital">SGD</abbr>/<abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 5.921/2026
-
-- publicada depois do edital;
-- entra em vigor em 1º/9/2026;
-- trata de governança de IA em modelo específico de contratação de operação de infraestrutura do <abbr title="Sistema de Administração dos Recursos de Tecnologia da Informação">SISP</abbr>;
-- não integra o núcleo vigente em 28/7/2026.
+**Deriva** é a degradação de desempenho quando dados, comportamento, vocabulário, normas ou ambiente mudam. A resposta pode exigir investigação, atualização, restrição, suspensão ou desativação.
 
 ---
 
-## 23. Pegadinhas
+## 12. Corte normativo para o concurso
 
-- automação não é necessariamente IA;
-- RPA não exige IA;
-- algoritmo não é sinônimo de aprendizado;
-- generativa não garante verdade;
-- chatbot não é sinônimo de LLM;
-- modelo não é sistema;
-- prompt não é prova;
-- contexto não é necessariamente treinamento;
-- temperatura baixa não elimina alucinação;
-- RAG não é ajuste fino;
-- fonte verdadeira pode estar revogada;
-- triagem pode causar dano mesmo sem decidir mérito;
-- “sugestão” seguida automaticamente funciona como decisão;
-- presença humana não garante supervisão efetiva;
-- acurácia média pode esconder desigualdade;
-- fornecedor não recebe competência administrativa;
-- contrato não transfere responsabilidade pública;
-- decisão unicamente automatizada tem regime específico na LGPD;
-- ferramenta gratuita não é ambiente autorizado;
-- dado público não significa todo dado do processo;
-- instrução em documento recuperado pode ser prompt injection;
-- agente com ferramenta exige autorização por ação;
-- métrica de laboratório não substitui operação real;
-- Portaria MGI nº 3.485 não é lei nacional geral;
-- PL nº 2.338 não é lei;
-- Portaria SGD/MGI nº 5.921 ainda não está vigente em 28/7/2026.
+O edital foi publicado em **6 de julho de 2026**. Para este assunto, separe o que integra o corte garantido do edital de acontecimentos posteriores.
+
+- Constituição, <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>, Lei nº 13.460/2017 e Lei nº 14.129/2021 já estavam vigentes e fornecem bases gerais relevantes.
+- A Portaria <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 3.485/2026 já estava vigente e instituiu uma política de governança de <abbr title="Inteligência Artificial">IA</abbr> **no âmbito institucional que ela própria delimita**. Não é lei geral nacional aplicável indistintamente a todos os órgãos e Poderes.
+- O <abbr title="Projeto de Lei">PL</abbr> nº 2.338/2023 continua sendo **projeto de lei**, em tramitação na Câmara dos Deputados. Não o trate como lei vigente.
+- A Portaria <abbr title="Secretaria de Governo Digital">SGD</abbr>/<abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 5.921/2026 foi publicada após o edital e entrou em vigor em **1º de setembro de 2026**. Ela altera um modelo específico de contratação para órgãos e entidades do <abbr title="Sistema de Administração dos Recursos de Tecnologia da Informação">SISP</abbr>; por ser posterior ao edital, não deve ser confundida com norma abrangida automaticamente pelo corte de 6/7/2026.
+
+A situação acima foi revalidada em **6 de setembro de 2026**. Em prova, primeiro identifique o corte exigido; depois, se a questão trouxer norma posterior expressamente, aplique o enunciado.
 
 ---
 
-## 24. Método de resolução
+## 13. Como resolver questões
 
-1. Identifique se é automação determinística, <abbr title="aprendizado de máquina">ML</abbr> ou IA generativa.
-2. Separe modelo, sistema e serviço público.
-3. Classifique a saída: apoio, triagem, recomendação ou decisão.
-4. Verifique finalidade, competência, dados e efeito.
-5. Em generativa, procure fonte, alucinação e revisão.
-6. Em RAG, verifique recuperação, vigência e correspondência da citação.
-7. Em chatbot, identifique autenticação, protocolo, transação e fallback.
-8. Em supervisão, verifique tempo, informação e poder de intervenção.
-9. Em segurança, limite ferramentas, permissões e ações.
-10. Em norma, confirme âmbito, vigência e corte do edital.
+Quando aparecer um caso de automação no setor público, siga a sequência:
+
+1. **mecanismo:** é regra fixa, <abbr title="Automação Robótica de Processos">RPA</abbr>, <abbr title="Aprendizado de Máquina">ML</abbr> ou <abbr title="Inteligência Artificial">IA</abbr> generativa?
+2. **camada:** a questão fala do modelo, do sistema ou do serviço completo?
+3. **efeito:** apoio, triagem, recomendação ou decisão?
+4. **dados:** há necessidade, finalidade, autorização e segurança compatíveis?
+5. **fonte:** a resposta generativa tem suporte oficial e vigente?
+6. **controle:** existe revisão, canal humano, contestação e rastreabilidade proporcionais?
+7. **segurança:** ferramentas e ações obedecem a menor privilégio e confirmação?
+8. **norma:** qual é o âmbito e qual é a data de vigência em relação ao edital?
+
+### Quatro contrastes que resolvem muitas pegadinhas
+
+- **automação ≠ <abbr title="Inteligência Artificial">IA</abbr>**: regra fixa pode automatizar sem aprender;
+- **modelo ≠ sistema**: o risco depende também de dados, interface, integração e processo;
+- **fonte autêntica ≠ fonte vigente**: <abbr title="Geração Aumentada por Recuperação">RAG</abbr> pode recuperar norma revogada;
+- **humano presente ≠ supervisão efetiva**: revisão exige tempo, informação e poder real de intervenção.
