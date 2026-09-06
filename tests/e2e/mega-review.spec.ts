@@ -46,6 +46,13 @@ test('links and renders an optional mega review with rich Markdown', async ({ pa
 
   await page.emulateMedia({ media: 'print' });
   await expect(page.locator('.mega-review-actions')).toBeHidden();
+  // Conteúdo real hidratado: a expansão sai como etiqueta abaixo do termo.
+  const megaAbbreviation = page.locator('abbr[data-abbreviation-popover-trigger]').filter({ hasText: /^ID$/ });
+  await expect(megaAbbreviation).toHaveAttribute('data-abbreviation-title', 'Indicador de desempenho');
+  const megaPrintLabel = await megaAbbreviation.evaluate((element) =>
+    window.getComputedStyle(element, '::after').content,
+  );
+  expect(megaPrintLabel).toContain('Indicador de desempenho');
   await page.emulateMedia({ media: 'screen' });
 });
 

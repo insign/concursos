@@ -118,6 +118,9 @@ if (triggers.length > 0) {
     trigger.setAttribute('aria-describedby', Array.from(describedBy).join(' '));
     if (!trigger.hasAttribute('tabindex')) trigger.tabIndex = 0;
     trigger.dataset.abbreviationPopoverTrigger = '';
+    // Preserva a expansão para o impresso/PDF: o CSS de print lê
+    // attr(data-abbreviation-title), pois o title é removido abaixo.
+    trigger.dataset.abbreviationTitle = title;
     trigger.removeAttribute('title');
 
     const popover = { trigger, tooltip };

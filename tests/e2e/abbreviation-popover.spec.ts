@@ -32,6 +32,14 @@ async function installFixture(
   await expect(page.locator('abbr')).toHaveCount(includeSecond ? 2 : 1);
   await expect(page.locator('abbr').first()).toHaveAttribute('data-abbreviation-popover-trigger', '');
   await expect(page.locator('abbr').last()).toHaveAttribute('data-abbreviation-popover-trigger', '');
+  // A expansão é preservada para o impresso/PDF antes da remoção do title.
+  await expect(page.locator('abbr').last()).toHaveAttribute('data-abbreviation-title', title);
+  if (includeSecond) {
+    await expect(page.locator('abbr').first()).toHaveAttribute(
+      'data-abbreviation-title',
+      'Lei de Responsabilidade Fiscal',
+    );
+  }
 }
 
 test('keeps the runtime conditional and exposes the meaning by hover, focus, and touch', async ({ page, request }) => {
@@ -187,4 +195,15 @@ test('works in focus mode and stays out of print', async ({ page }) => {
   await page.emulateMedia({ media: 'print' });
   await expect(tooltip).toBeHidden();
   await expect(abbreviation).toHaveCSS('text-decoration-line', 'none');
+  // Etiqueta Kindle-like: unidade empilhada com a expansão abaixo do termo.
+  await expect(abbreviation).toHaveCSS('display', 'inline-flex');
+  await expect(abbreviation).toHaveAttribute(
+    'data-abbreviation-title',
+    'Tribunal de Contas do Estado com uma denominação institucional extensa para testar viewports baixos',
+  );
+  const printLabel = await abbreviation.evaluate((element) =>
+    window.getComputedStyle(element, '::after').content,
+  );
+  expect(printLabel).toContain('denominação institucional extensa');
+  expect(printLabel).not.toContain('(');
 });
