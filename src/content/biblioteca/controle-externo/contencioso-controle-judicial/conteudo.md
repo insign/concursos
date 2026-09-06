@@ -6,298 +6,265 @@ order: 52
 storageId: contencioso-controle-judicial
 ---
 
-## 1. Recorte do assunto
+## 1. A pergunta central: quem dá a palavra final?
 
-O edital cobra, em Controle Externo, **sistemas de controle jurisdicional da Administração Pública**, **contencioso administrativo e sistema da jurisdição una** e **controle jurisdicional da Administração Pública**.
+Imagine que uma autoridade administrativa negue um direito, aplique uma sanção ou pratique um ato que o interessado considera ilegal. A Administração pode ter seus próprios processos, recursos e órgãos julgadores. A questão deste assunto é outra: **essa decisão fica definitivamente fora do alcance do Poder Judiciário?**
 
-Para o Cargo 1, o foco é compreender:
-
-1. dualidade de jurisdição × jurisdição una;
-2. definitividade administrativa × coisa julgada judicial;
-3. acesso ao Judiciário e seus condicionamentos específicos;
-4. juridicidade × mérito administrativo;
-5. anulação judicial × revogação administrativa;
-6. intensidade do controle sobre discricionariedade, políticas públicas e procedimentos administrativos;
-7. instrumentos judiciais apenas no necessário para identificar a via de controle.
-
-Direito Administrativo e Direito Constitucional não integram, como disciplinas autônomas, o programa do Cargo 1. Por isso, remédios constitucionais, <abbr title="Lei de Introdução às Normas do Direito Brasileiro">LINDB</abbr> e processo administrativo aparecem somente como **apoio ao tema central**.
-
-## 2. Sistemas de controle dos litígios administrativos
-
-### 2.1. Dualidade de jurisdição
-
-No modelo francês clássico existem duas ordens jurisdicionais distintas:
-
-- jurisdição comum;
-- jurisdição administrativa, competente para determinados litígios envolvendo a Administração.
-
-Nesse sentido técnico, **contencioso administrativo** não é simples recurso interno. É uma ordem jurisdicional administrativa separada da jurisdição comum.
-
-### 2.2. Jurisdição una
-
-No sistema de jurisdição una, os conflitos envolvendo a Administração podem ser submetidos ao Poder Judiciário. Podem existir órgãos administrativos julgadores e processos administrativos; o que não existe é uma ordem administrativa cujas decisões sejam, por sua natureza, definitivamente imunes à apreciação judicial.
-
-### 2.3. Brasil
-
-O Brasil adota a **jurisdição una**, fundada no art. 5º, XXXV, da Constituição:
+No Brasil, a resposta geral é **não**. O art. 5º, XXXV, da Constituição estabelece que:
 
 > a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito.
 
-A inafastabilidade da jurisdição não significa que:
+Esse é o ponto de partida da **jurisdição una**: a Administração decide e seus atos produzem efeitos, mas não existe uma ordem administrativa jurisdicional autônoma cujas decisões sejam, por natureza, imunes ao controle judicial.
 
-- exista um único juízo para todas as matérias;
-- não possam existir ramos judiciais especializados;
-- a Administração não possa julgar requerimentos, recursos e processos;
-- toda decisão administrativa dependa de confirmação judicial para produzir efeitos.
+A partir daí, o assunto se organiza em quatro perguntas:
+
+1. qual é a diferença entre jurisdição una e dualidade de jurisdição?
+2. quando é possível chegar ao Judiciário sem percorrer toda a via administrativa?
+3. o que o juiz pode controlar em uma decisão administrativa?
+4. em que momento o controle de legalidade se transformaria em substituição indevida da Administração?
+
+## 2. Jurisdição una × dualidade de jurisdição
+
+### 2.1. O modelo da dualidade
+
+No modelo francês clássico há duas ordens jurisdicionais distintas:
+
+- a jurisdição comum;
+- a jurisdição administrativa, competente para determinados litígios envolvendo a Administração.
+
+Nesse sentido técnico, <abbr title="Ordem jurisdicional administrativa separada da jurisdição comum">contencioso administrativo</abbr> não é mero recurso apresentado dentro de um órgão público. É uma ordem jurisdicional administrativa própria.
+
+### 2.2. O modelo brasileiro
+
+No Brasil, a existência de processos e órgãos administrativos julgadores não cria uma segunda ordem jurisdicional. Conselhos, agências, comissões e juntas podem decidir controvérsias administrativamente; ainda assim, lesão ou ameaça a direito pode ser levada ao Judiciário.
 
 | Dualidade clássica | Jurisdição una brasileira |
 | --- | --- |
-| ordem administrativa jurisdicional própria | não há ordem administrativa jurisdicional autônoma |
-| repartição entre duas ordens jurisdicionais | lesão ou ameaça pode chegar ao Judiciário |
-| decisão da jurisdição administrativa pertence a ordem jurisdicional própria | decisão administrativa brasileira não produz coisa julgada judicial |
+| existem duas ordens jurisdicionais | não há ordem administrativa jurisdicional autônoma |
+| certos litígios pertencem à jurisdição administrativa | a decisão administrativa pode ser submetida ao Judiciário |
+| a decisão pertence a uma jurisdição própria | a decisão administrativa não produz coisa julgada judicial |
 
-## 3. Decisão administrativa e coisa julgada
+**Jurisdição una não significa um único juiz.** O país pode ter Justiça Federal, Justiça Estadual e ramos especializados. A unidade está na possibilidade de apreciação judicial, não na concentração de todos os processos em um só órgão.
 
-Órgãos administrativos podem exercer função decisória. Comissões disciplinares, conselhos, agências e juntas de recursos decidem controvérsias na esfera administrativa.
+## 3. Decidir administrativamente não é exercer jurisdição judicial
 
-Os **tribunais de contas** também exercem competências decisórias relevantes, mas são órgãos constitucionais de controle externo e **não integram o Poder Judiciário**. Sua natureza não deve ser reduzida à de simples órgão administrativo hierarquizado.
+A Administração precisa decidir para funcionar. Ela pode conceder ou negar pedidos, aplicar sanções, julgar recursos e solucionar controvérsias internas.
 
-### 3.1. Coisa julgada administrativa
+Os tribunais de contas também exercem competências constitucionais de controle e decisão, mas **não integram o Poder Judiciário**. Sua posição constitucional própria não os transforma em órgãos judiciais nem em repartições hierarquicamente subordinadas ao Executivo.
 
-A expressão **coisa julgada administrativa** é usada doutrinariamente para indicar estabilidade ou definitividade **dentro da esfera administrativa**.
+### 3.1. O que significa “coisa julgada administrativa”
 
-Ela:
+A expressão <abbr title="Estabilidade da decisão dentro da própria esfera administrativa">coisa julgada administrativa</abbr> é usada na doutrina para indicar que a decisão se tornou estável ou definitiva **dentro da Administração**.
 
-- encerra, em regra, as vias administrativas ordinárias cabíveis;
-- não equivale à coisa julgada material judicial;
-- não impede controle judicial de lesão ou ameaça a direito;
-- convive com hipóteses legais de revisão administrativa e com limites como decadência, prescrição, boa-fé, contraditório e segurança jurídica.
+Essa estabilidade:
 
-## 4. Autotutela × controle jurisdicional
+- pode encerrar os recursos administrativos ordinários;
+- não se confunde com coisa julgada material judicial;
+- não impede, por si só, o controle judicial de lesão ou ameaça a direito;
+- continua submetida às regras próprias de revisão administrativa, decadência, prescrição, boa-fé, contraditório e segurança jurídica.
 
-As Súmulas 346 e 473 do <abbr title="Supremo Tribunal Federal">STF</abbr> sintetizam a autotutela: a Administração pode anular seus atos ilegais e revogar atos válidos por conveniência ou oportunidade, respeitados os limites jurídicos.
+A distinção é decisiva em prova: **definitividade administrativa não equivale a imunidade judicial**.
 
-O Judiciário, por sua vez:
+## 4. Autotutela e controle judicial fazem trabalhos diferentes
 
-- **anula** ato inválido quando provocado e competente;
-- não possui poder geral para **revogar** ato válido por mera discordância de conveniência;
-- pode controlar competência, processo, fatos, finalidade, motivação, razoabilidade, proporcionalidade e direitos fundamentais;
-- não atua como superior hierárquico da autoridade administrativa.
+A <abbr title="Poder da Administração de rever seus próprios atos">autotutela</abbr> permite que a própria Administração corrija ou desfaça seus atos. As Súmulas 346 e 473 do <abbr title="Supremo Tribunal Federal">STF</abbr> sintetizam a lógica básica:
 
-| Providência | Fundamento | Regra de competência |
+- ato ilegal pode ser **anulado**;
+- ato válido que se tornou inconveniente ou inoportuno pode ser **revogado**, respeitados os limites jurídicos.
+
+O Judiciário não ocupa a posição de superior hierárquico da Administração. Quando provocado e competente, ele controla juridicidade e pode invalidar o ato viciado; não possui poder geral para revogar ato válido apenas porque preferiria outra escolha.
+
+| Providência | Por quê? | Quem pode praticá-la, em regra? |
 | --- | --- | --- |
-| anulação | ilegalidade/invalidade | Administração ou Judiciário, conforme o caso |
-| revogação | conveniência e oportunidade de ato válido | Administração competente |
+| anulação | há ilegalidade ou invalidade | Administração e Judiciário, conforme o caso |
+| revogação | o ato é válido, mas deixou de ser conveniente ou oportuno | Administração competente |
 
-**Pegadinha:** controlar juridicidade de decisão discricionária não é o mesmo que substituir uma escolha válida por preferência judicial.
+Esse contraste fornece uma regra de prova muito útil: **juiz controla vício; não troca preferência administrativa válida por preferência judicial**.
 
-## 5. Acesso ao Judiciário: requerimento não é exaurimento
+## 5. Acesso ao Judiciário: requerimento prévio não é exaurimento
 
-A inafastabilidade não elimina requisitos processuais legítimos, como interesse, legitimidade, adequação da via e competência.
+A garantia de acesso ao Judiciário convive com requisitos processuais legítimos, como interesse, legitimidade, competência e adequação da via escolhida.
 
-### 5.1. Distinção
+Duas ideias precisam ser separadas:
 
-- **requerimento administrativo prévio:** provocação inicial para que a Administração conheça a pretensão;
-- **exaurimento da via administrativa:** utilização de todas as instâncias e recursos administrativos disponíveis.
+- **requerimento administrativo prévio:** a pessoa provoca inicialmente a Administração para que ela conheça a pretensão;
+- **exaurimento da via administrativa:** a pessoa percorre todas as instâncias e recursos administrativos disponíveis.
 
-No Brasil, **não existe regra geral de exaurimento administrativo** antes do acesso ao Judiciário.
+No Brasil, **não existe regra geral que obrigue o interessado a exaurir toda a via administrativa antes de ir ao Judiciário**.
 
-Pode haver, entretanto, situações em que a própria existência de lesão ou interesse processual dependa de provocação inicial, além de condicionamentos constitucionais ou legais específicos.
+Isso não impede situações em que uma provocação inicial seja necessária para que exista lesão, resistência ou interesse processual. Também existem condicionamentos constitucionais e legais específicos.
 
-### 5.2. Tema 350 do STF
+### 5.1. Tema 350 do <abbr title="Supremo Tribunal Federal">STF</abbr>: o exemplo que separa as duas ideias
 
-No <abbr title="Recurso Extraordinário">RE</abbr> 631.240, Tema 350, o STF tratou da **concessão de benefício previdenciário**.
+No <abbr title="Recurso Extraordinário">RE</abbr> 631.240, Tema 350, o <abbr title="Supremo Tribunal Federal">STF</abbr> examinou pedidos de benefícios previdenciários.
 
-Regra essencial:
+Para **concessão inicial** do benefício:
 
-- para concessão inicial, exige-se em regra requerimento ao <abbr title="Instituto Nacional do Seguro Social">INSS</abbr>;
-- não é necessário esgotar recursos administrativos;
-- o requerimento pode ser dispensado quando houver posição administrativa notória e reiteradamente contrária à pretensão;
-- em revisão, restabelecimento ou manutenção, a lesão em geral já está configurada, ressalvado fato novo ainda não submetido à Administração.
+- em regra, é necessário requerimento prévio ao <abbr title="Instituto Nacional do Seguro Social">INSS</abbr>;
+- não é necessário esgotar os recursos administrativos;
+- o requerimento é dispensável quando a posição administrativa for notória e reiteradamente contrária à pretensão.
 
-O Tema 350 **não criou requisito universal de requerimento prévio para toda ação contra o Estado**.
+Em pedidos de **revisão, restabelecimento ou manutenção** de benefício já concedido, a lesão em geral já está configurada, salvo quando a pretensão depende de matéria de fato ainda não levada à Administração.
 
-### 5.3. Justiça Desportiva
+O ponto pedagógico é maior que o caso previdenciário: **exigir uma provocação inicial em situação específica não equivale a criar exaurimento administrativo geral**.
 
-A Constituição traz condicionamento expresso no art. 217, §§ 1º e 2º:
+### 5.2. Justiça Desportiva: condicionamento constitucional expresso
 
-- ações relativas à **disciplina e às competições desportivas** dependem do esgotamento das instâncias da Justiça Desportiva;
+O art. 217, §§ 1º e 2º, da Constituição prevê situação específica:
+
+- ações relativas à disciplina e às competições desportivas dependem do esgotamento das instâncias da Justiça Desportiva;
 - a Justiça Desportiva deve proferir decisão final em até **60 dias** da instauração do processo.
 
-A Justiça Desportiva não integra o Poder Judiciário, e sua decisão permanece sujeita a controle judicial depois de satisfeito o condicionamento constitucional.
+A Justiça Desportiva não integra o Poder Judiciário. Depois de satisfeito o condicionamento constitucional, sua decisão continua sujeita a controle judicial.
 
-### 5.4. Dois exemplos legais específicos
+### 5.3. Dois condicionamentos legais úteis
 
-**Habeas data:** a Lei nº 9.507/1997 exige resistência administrativa, mediante recusa ou decurso dos prazos legais. A Súmula 2 do <abbr title="Superior Tribunal de Justiça">STJ</abbr> afasta o habeas data sem recusa da autoridade.
+**Habeas data.** A Lei nº 9.507/1997 exige demonstração de resistência administrativa: recusa ou decurso do prazo legal sem decisão. Para acesso às informações, a lei considera o decurso de mais de **10 dias**; para retificação ou anotação, mais de **15 dias**. A Súmula 2 do <abbr title="Superior Tribunal de Justiça">STJ</abbr> também afasta o habeas data sem recusa da autoridade.
 
-**Mandado de segurança:** o art. 5º, I, da Lei nº 12.016/2009 impede MS contra ato do qual caiba recurso administrativo com efeito suspensivo, independentemente de caução.
+**Mandado de segurança.** O art. 5º, I, da Lei nº 12.016/2009 impede a concessão de mandado de segurança contra ato do qual caiba recurso administrativo com efeito suspensivo, independentemente de caução.
 
-Essas regras são específicas e não equivalem a exaurimento administrativo geral.
+São regras próprias de determinadas vias; não autorizam concluir que toda demanda contra o Estado exige esgotamento administrativo.
 
-## 6. O que o Judiciário controla
+## 6. O que o Judiciário realmente controla
 
-O parâmetro é a **juridicidade**: conformidade da atuação administrativa com Constituição, leis, regulamentos válidos, princípios, direitos fundamentais e garantias processuais.
+O parâmetro é a <abbr title="Conformidade do ato com todo o ordenamento jurídico aplicável">juridicidade</abbr>: não apenas a lei em sentido estrito, mas também a Constituição, regulamentos válidos, princípios, direitos fundamentais e garantias processuais.
 
-### 6.1. Matriz dos principais vícios
+Considere um ato discricionário que exclua um candidato, aplique uma sanção ou escolha determinado meio de atuação. Mesmo quando exista margem de escolha, continuam controláveis os limites jurídicos dessa escolha.
 
-| Parâmetro | Exemplo de problema controlável |
+| Parâmetro | Exemplo de vício controlável |
 | --- | --- |
-| competência | autoridade incompetente ou delegação inválida |
-| forma/processo | ausência de formalidade essencial, contraditório ou motivação |
+| competência | decisão tomada por autoridade incompetente |
+| forma e processo | ausência de formalidade essencial, contraditório ou motivação |
 | objeto | resultado juridicamente proibido ou impossível |
-| motivo | fato ou fundamento jurídico inexistente/falso |
-| finalidade | desvio do fim legal |
-| impessoalidade/igualdade | favorecimento, perseguição ou discriminação arbitrária |
+| motivo | fato ou fundamento jurídico inexistente ou falso |
+| finalidade | uso da competência para fim diferente do previsto em lei |
+| igualdade e impessoalidade | favorecimento, perseguição ou discriminação arbitrária |
 | proporcionalidade | medida inadequada, desnecessária ou excessiva |
 | direitos fundamentais | restrição ou omissão incompatível com a Constituição |
 
-### 6.2. Motivo, motivação e motivos determinantes
+### 6.1. Motivo, motivação e motivos determinantes
 
-- **motivo:** pressuposto de fato e de direito do ato;
+Esses três conceitos costumam ser confundidos:
+
+- **motivo:** pressuposto de fato e de direito que sustenta o ato;
 - **motivação:** exposição das razões da decisão;
-- **teoria dos motivos determinantes:** os motivos declarados vinculam a validade do ato quanto à sua existência e veracidade.
+- **teoria dos motivos determinantes:** quando a Administração declara os motivos do ato, a validade fica vinculada à existência e à veracidade dessas razões.
 
-Controlar fato inexistente ou motivo falso é controle de juridicidade, não revogação por conveniência.
+Por isso, verificar se o fato declarado realmente ocorreu não é “entrar no mérito” por preferência. É controlar a juridicidade do ato.
 
-## 7. Discricionariedade e mérito administrativo
+## 7. Discricionariedade não é liberdade sem Direito
 
-**Discricionariedade** é margem juridicamente conferida para escolher entre alternativas válidas.
+<abbr title="Margem legal para escolher entre alternativas juridicamente válidas">Discricionariedade</abbr> existe quando o ordenamento deixa à Administração uma margem legítima de escolha.
 
-**Mérito administrativo** é o núcleo legítimo de conveniência e oportunidade dentro dessa margem.
+<abbr title="Núcleo de conveniência e oportunidade dentro da escolha juridicamente válida">Mérito administrativo</abbr> é a parcela dessa escolha relacionada à conveniência e à oportunidade **depois de respeitados os limites jurídicos**.
 
-O Judiciário pode examinar:
+O Judiciário pode examinar, entre outros pontos:
 
-- pressupostos fáticos;
+- fatos e pressupostos jurídicos;
 - competência e procedimento;
 - finalidade;
 - motivação;
 - razoabilidade e proporcionalidade;
 - igualdade e direitos fundamentais.
 
-Não pode, como regra:
+Como regra, não pode:
 
-- trocar uma escolha válida por sua preferência;
+- substituir uma alternativa válida por outra que considere melhor;
 - revogar ato válido;
-- refazer avaliação técnica apenas porque escolheria solução diferente;
-- administrar no lugar da autoridade sem identificar dever jurídico ou vício.
+- refazer avaliação técnica apenas porque adotaria solução diferente;
+- administrar no lugar da autoridade sem identificar vício ou dever jurídico violado.
 
-**Discricionariedade não é arbitrariedade. Mérito não é zona livre do Direito.**
+A fórmula correta é: **mérito não blinda ilegalidade, mas controle judicial também não converte o juiz em administrador**.
 
-### 7.1. Solução jurídica única
+### 7.1. Quando resta apenas uma solução juridicamente válida
 
-Quando lei e fatos deixam apenas uma consequência válida, o Judiciário pode reconhecer diretamente o direito. Isso não é substituição de mérito, porque não há escolha legítima remanescente.
+Às vezes a lei e os fatos eliminam a margem de escolha. Se houver apenas uma consequência juridicamente possível, o Judiciário pode reconhecer diretamente o direito. Nesse caso, ele não está substituindo uma escolha administrativa válida, porque **nenhuma escolha legítima remanesceu**.
 
-Quando ainda existem várias opções juridicamente válidas, a técnica normal é afastar o vício e preservar à Administração a escolha dentro da margem restante.
+Se ainda existem várias alternativas juridicamente admissíveis, a técnica normal é afastar o vício e preservar à Administração a escolha dentro da margem restante.
 
 ### 7.2. Questões técnicas
 
-Complexidade técnica não cria imunidade. O controle exige prova e cautela: o juiz pode reagir a erro demonstrado, ausência de base técnica, incoerência, discriminação ou violação normativa, mas não deve trocar opção técnica defensável por preferência pessoal.
+Complexidade técnica também não produz imunidade. O Judiciário pode reagir a erro demonstrado, ausência de base técnica, incoerência, discriminação ou violação normativa. O que ele não deve fazer é substituir opção técnica defensável e juridicamente válida por mera preferência pessoal.
 
-## 8. Tema 1420 do STF: heteroidentificação
+## 8. Três precedentes que mostram a intensidade do controle
 
-No <abbr title="Recurso Extraordinário com Agravo">ARE</abbr> 1.553.243, Tema 1420 da repercussão geral, o STF reafirmou que:
+Os precedentes a seguir não são temas isolados. Eles mostram **como** o controle jurisdicional se torna mais ou menos intenso conforme o tipo de vício e a margem administrativa existente.
 
-1. o Poder Judiciário **pode controlar** o ato administrativo de heteroidentificação de candidatos às vagas reservadas a pessoas pretas e pardas, para garantia de contraditório e ampla defesa;
-2. a controvérsia sobre a adequação dos critérios e fundamentos da exclusão é fática e pressupõe análise das cláusulas do edital.
+### 8.1. Tema 1420 do <abbr title="Supremo Tribunal Federal">STF</abbr>: heteroidentificação
 
-O precedente é um bom exemplo do equilíbrio do tema:
+No <abbr title="Recurso Extraordinário com Agravo">ARE</abbr> 1.553.243, Tema 1420, o <abbr title="Supremo Tribunal Federal">STF</abbr> fixou que:
 
-- não existe imunidade do ato administrativo ao controle judicial;
-- o contraditório e a ampla defesa são controláveis;
-- a revisão judicial não significa licença genérica para substituir a comissão em toda avaliação fática.
+1. o Poder Judiciário pode controlar o ato administrativo de <abbr title="Procedimento de verificação da condição declarada para reserva racial de vagas">heteroidentificação</abbr> de candidatos às vagas reservadas a pessoas pretas e pardas para garantir contraditório e ampla defesa;
+2. a controvérsia sobre adequação dos critérios e fundamentos da exclusão é fática e pressupõe análise das cláusulas do edital.
 
-## 9. Políticas públicas — Tema 698 do STF
+A lição é equilibrada: o procedimento não é imune ao Judiciário, especialmente quanto às garantias processuais, mas isso não cria autorização genérica para o juiz substituir a comissão em toda avaliação fática.
 
-No RE 684.612, Tema 698, o STF fixou parâmetros para intervenção judicial em políticas públicas destinadas à realização de direitos fundamentais.
+### 8.2. Tema 698 do <abbr title="Supremo Tribunal Federal">STF</abbr>: políticas públicas
 
-### 9.1. Tese operacional
+No <abbr title="Recurso Extraordinário">RE</abbr> 684.612, Tema 698, o <abbr title="Supremo Tribunal Federal">STF</abbr> admitiu intervenção judicial em políticas públicas voltadas a direitos fundamentais quando houver ausência ou deficiência grave do serviço.
 
-1. ausência ou deficiência grave do serviço pode justificar intervenção judicial sem violar a separação dos Poderes;
-2. **como regra**, a decisão deve indicar finalidades ou resultados a alcançar e determinar que a Administração apresente plano e/ou meios adequados;
-3. em saúde, o déficit de profissionais pode ser suprido por concurso ou por alternativas legítimas indicadas na tese.
+A técnica preferencial evita dois extremos. Como regra, a decisão judicial:
 
-O precedente rejeita dois extremos:
+1. indica a finalidade ou o resultado constitucionalmente devido;
+2. determina que a Administração apresente plano e/ou meios adequados para alcançá-lo.
 
-- omissão grave não é imune à jurisdição;
-- intervenção não autoriza microgestão judicial automática.
+Assim, **omissão grave não é imune ao controle**, mas a existência de um dever constitucional também não autoriza microgestão judicial automática. Urgência, dever legal preciso, solução única ou descumprimento persistente podem justificar determinação mais específica.
 
-Urgência, dever legal preciso, solução única ou descumprimento persistente podem justificar ordem mais específica.
+### 8.3. <abbr title="Processo Administrativo Disciplinar">PAD</abbr>: garantias e mérito
 
-## 10. <abbr title="Processo Administrativo Disciplinar">PAD</abbr> e sanções administrativas
+O art. 5º, LIV e LV, da Constituição assegura devido processo, contraditório e ampla defesa também na esfera administrativa.
 
-O art. 5º, LIV e LV, assegura devido processo, contraditório e ampla defesa também nos processos administrativos.
+A Súmula Vinculante 5 do <abbr title="Supremo Tribunal Federal">STF</abbr> afirma que a falta de defesa técnica por advogado no <abbr title="Processo Administrativo Disciplinar">PAD</abbr> **não ofende, por si só, a Constituição**. Isso não elimina ciência da acusação, possibilidade de manifestação e prova, decisão por autoridade competente, contraditório, defesa efetiva e motivação.
 
-### 10.1. Súmula Vinculante 5
-
-A falta de defesa técnica por advogado no PAD **não ofende, por si só, a Constituição**.
-
-Isso não elimina:
-
-- ciência da acusação;
-- oportunidade de manifestação e produção de prova;
-- decisão por autoridade competente;
-- contraditório, defesa efetiva e motivação.
-
-### 10.2. Súmula 665 do STJ
-
-A Súmula 665 orienta que o controle jurisdicional do PAD se concentra na regularidade do procedimento e na legalidade do ato, sem incursão ordinária no mérito, ressalvadas:
+A Súmula 665 do <abbr title="Superior Tribunal de Justiça">STJ</abbr> acrescenta que o controle jurisdicional do <abbr title="Processo Administrativo Disciplinar">PAD</abbr> se concentra na regularidade do procedimento e na legalidade do ato, sem incursão ordinária no mérito administrativo, ressalvadas as hipóteses de:
 
 - flagrante ilegalidade;
-- teratologia;
+- <abbr title="Vício extremamente grave e evidente">teratologia</abbr>;
 - manifesta desproporcionalidade da sanção.
 
-Logo, não cabe ao juiz simplesmente refazer toda valoração da comissão, mas vícios graves continuam controláveis.
+Portanto, o juiz não refaz livremente toda a valoração da comissão, mas também não precisa tolerar vício grave sob o rótulo de “mérito”.
 
-## 11. LINDB: apoio ao controle responsável
+## 9. <abbr title="Lei de Introdução às Normas do Direito Brasileiro">LINDB</abbr>: controlar também exige decidir com responsabilidade
 
-Os arts. 20 a 24 da LINDB qualificam decisões administrativas, controladoras e judiciais.
+Os arts. 20 a 24 da <abbr title="Lei de Introdução às Normas do Direito Brasileiro">LINDB</abbr> qualificam decisões administrativas, controladoras e judiciais. Para este assunto, basta compreender o mecanismo:
 
-| Artigo | Regra útil para este assunto |
+| Artigo | Ideia operacional |
 | --- | --- |
-| 20 | decisão por valor abstrato considera consequências e justifica necessidade/adequação |
-| 21 | invalidação indica consequências e, quando cabível, regularização proporcional |
+| 20 | decisão baseada em valor abstrato deve considerar consequências e justificar necessidade e adequação |
+| 21 | invalidação deve indicar consequências e, quando cabível, condições proporcionais de regularização |
 | 22 | interpretação considera dificuldades reais da gestão sem apagar direitos |
-| 23 | nova orientação que imponha novo dever pode exigir transição |
-| 24 | revisão de situação constituída considera orientações gerais da época |
+| 23 | nova orientação que imponha dever novo pode exigir transição |
+| 24 | revisão de situação constituída considera as orientações gerais da época |
 
-A LINDB busca segurança jurídica e decisão responsável; não transforma ilegalidade, fraude ou violação de direito em matéria imune ao controle.
+A <abbr title="Lei de Introdução às Normas do Direito Brasileiro">LINDB</abbr> busca segurança jurídica e decisões responsáveis. Ela não transforma fraude, ilegalidade ou violação de direito em matéria imune ao controle.
 
-## 12. Instrumentos: apenas o mapa necessário
+## 10. Instrumentos judiciais: reconheça a via, sem transformar o tema em processo civil
 
-| Instrumento | Núcleo para a prova |
+Para prova de controle jurisdicional, o essencial é identificar a função de cada instrumento:
+
+| Instrumento | Núcleo útil |
 | --- | --- |
-| mandado de segurança | direito líquido e certo; prova pré-constituída; prazo de 120 dias |
-| ação popular | cidadão; ato lesivo aos bens protegidos constitucionalmente |
-| ação civil pública | tutela coletiva pelos legitimados legais |
-| habeas data | dados pessoais; resistência administrativa |
-| mandado de injunção | omissão normativa que inviabiliza direito/prerrogativa constitucional |
+| mandado de segurança | direito líquido e certo, normalmente demonstrável por <abbr title="Prova documental já disponível no ajuizamento, sem dilação probatória ampla">prova pré-constituída</abbr>; prazo decadencial de 120 dias |
+| ação popular | cidadão busca invalidar ato lesivo aos bens e valores protegidos constitucionalmente |
+| ação civil pública | tutela coletiva pelos legitimados previstos em lei |
+| habeas data | acesso, retificação ou complementação de dados pessoais, com resistência administrativa |
+| mandado de injunção | omissão normativa que inviabiliza direito ou prerrogativa constitucional |
 | habeas corpus | ameaça ou coação ilegal à liberdade de locomoção |
-| procedimento comum | via ampla para declaração, anulação, obrigação e reparação quando necessária instrução |
+| procedimento comum | via ampla quando são necessárias declaração, anulação, obrigação, reparação ou instrução probatória incompatível com remédio de rito restrito |
 
-A escolha da via depende do objeto, legitimidade, prova e requisitos próprios. O edital deste Cargo 1 não exige transformar esses instrumentos em disciplina processual autônoma.
+A escolha concreta depende do objeto, da legitimidade, da prova e dos requisitos de cada instrumento.
 
-## 13. Fluxo para questões
+## 11. Como resolver uma questão sem confundir controle com administração
 
-1. A decisão é administrativa ou judicial?
-2. A questão fala em **requerimento inicial** ou em **exaurimento**?
-3. Existe condicionamento constitucional/legal específico?
-4. O problema é de **juridicidade** ou mera discordância de conveniência?
-5. O Judiciário está **anulando** um vício ou tentando **revogar** ato válido?
-6. Existe solução jurídica única ou restam escolhas administrativas válidas?
-7. A intervenção fixa resultado devido ou microgerencia os meios sem necessidade?
-8. O instrumento indicado é compatível com objeto e prova?
+Use este fluxo:
 
-## 14. Pegadinhas finais
+1. **A decisão é administrativa ou judicial?** Decisão administrativa, ainda que definitiva internamente, não produz coisa julgada judicial.
+2. **A questão fala em requerimento inicial ou em exaurimento?** Não trate os dois conceitos como sinônimos.
+3. **Há condicionamento específico?** Justiça Desportiva, habeas data e certas situações de interesse processual exigem atenção própria.
+4. **Qual é o vício apontado?** Competência, processo, fato, motivo, finalidade, proporcionalidade ou direito fundamental indicam controle de juridicidade.
+5. **O Judiciário está anulando ou revogando?** Anular vício é diferente de retirar ato válido por conveniência.
+6. **Ainda resta escolha administrativa válida?** Se sim, preserve a margem; se não, pode haver reconhecimento direto do direito.
+7. **Há questão técnica ou política pública?** Complexidade não cria imunidade, mas recomenda controle calibrado e não substituição automática.
+8. **A via judicial combina com o objeto e a prova?** O instrumento correto depende de seus requisitos próprios.
 
-- Brasil = **jurisdição una**.
-- Decisão administrativa definitiva não equivale a coisa julgada judicial.
-- Tribunal de contas não integra o Judiciário.
-- Não há exaurimento administrativo geral.
-- Requerimento prévio pode existir sem exigir recursos até a última instância.
-- Justiça Desportiva é condicionamento constitucional específico.
-- Judiciário **anula** ilegalidade; não **revoga** ato válido por preferência.
-- Mérito administrativo não blinda motivo, finalidade ou proporcionalidade.
-- Tema 1420 admite controle judicial da heteroidentificação para garantir contraditório e ampla defesa.
-- Tema 698 admite intervenção contra omissão grave, privilegiando resultado + plano, e não microgestão automática.
-- SV 5 não elimina defesa efetiva no PAD.
-- Súmula 665/STJ não cria imunidade para ilegalidade flagrante ou sanção manifestamente desproporcional.
+Se uma alternativa disser simultaneamente que “mérito é intocável” e que existe fato falso, desvio de finalidade, violação do contraditório ou sanção manifestamente desproporcional, desconfie: **o rótulo de mérito não elimina o controle de juridicidade**.
