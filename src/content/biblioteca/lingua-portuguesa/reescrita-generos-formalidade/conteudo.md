@@ -6,480 +6,221 @@ order: 18
 storageId: reescrita-generos-formalidade
 ---
 
-## 1. Reescrever é adequar uma ação comunicativa
+# Reescrita de textos de diferentes <abbr title="formas de comunicação reconhecidas por finalidade e composição">gêneros</abbr> e níveis de formalidade
 
-Reescrever um texto de outro gênero ou nível de formalidade não consiste apenas em trocar palavras. A nova versão precisa funcionar em uma situação comunicativa definida.
+Uma frase pode ficar mais elegante e passar a dizer algo que ninguém informou. Considere esta situação hipotética:
 
-Antes de escrever, identifique:
+> Durante a atualização do sistema, não será possível iniciar uma nova <abbr title="período de interação mantido após o ingresso no sistema">sessão</abbr>. As <abbr title="períodos de interação mantidos após o ingresso no sistema">sessões</abbr> já abertas continuarão funcionando.
 
-- **quem enuncia:** cidadão, órgão, equipe técnica, jornalista, empresa;
-- **para quem:** público geral, autoridade, colegas, usuários de um serviço;
-- **para quê:** informar, solicitar, orientar, registrar, persuadir, convocar;
-- **em qual gênero:** aviso, notícia, e-mail, relatório, ata, postagem;
-- **em qual suporte:** processo, site, aplicativo, mural, mensagem instantânea;
-- **com qual registro:** informal, semiformal ou formal.
+Um aviso ao público pode começar por **“Atenção: durante a atualização, não será possível iniciar uma nova <abbr title="período de interação mantido após o ingresso no sistema">sessão</abbr> no sistema”**, mantendo em seguida a informação sobre as <abbr title="períodos de interação mantidos após o ingresso no sistema">sessões</abbr> abertas. Mas **“O sistema ficará totalmente fora do ar das 18 às 19 horas”** não é uma versão apenas mais simples: amplia a interrupção e inventa um horário.
 
-Uma versão pode ser gramatical e fiel aos fatos, mas inadequada ao gênero. Um relatório técnico não deve assumir o tom promocional de anúncio; uma mensagem ao público não deve conservar jargão que impeça a compreensão.
+A reescrita exige decidir **o que pode mudar para atender ao novo leitor e o que precisa permanecer**. Os exemplos a seguir também são hipotéticos.
 
-> A pergunta decisiva é: esta formulação cumpre a finalidade, diante deste leitor, neste gênero e neste contexto?
+## 1. Primeiro, descubra qual transformação foi pedida
 
----
+O comando pode exigir preservação integral do sentido, mudança de formalidade, resumo ou adaptação para outro <abbr title="forma de comunicação reconhecida por sua finalidade e composição">gênero</abbr>. Cada tarefa permite operações diferentes.
 
-## 2. Gênero textual, tipo textual e suporte
+Formalizar não autoriza transformar sugestão em ordem. Resumir pode permitir cortes; preservar integralmente o sentido e a ênfase pode proibir até a retirada de um <abbr title="palavra que atribui uma avaliação a um nome">adjetivo avaliativo</abbr>. Não atribua à tarefa uma liberdade que o comando não concedeu.
 
-### 2.1 Gênero textual
+A proposta deve ser julgada em três planos independentes:
 
-Gênero é uma forma social relativamente estável de comunicação. Cada gênero cria expectativas sobre finalidade, organização, participantes, estilo e circulação.
+| Plano | Pergunta que decide |
+| --- | --- |
+| **Fidelidade ao texto e ao comando** | Conserva as informações, relações e efeitos que deveriam permanecer? |
+| **Correção linguística** | Atende às regras gramaticais exigidas na questão? |
+| **Adequação comunicativa** | Funciona para aquele destinatário, finalidade, <abbr title="forma de comunicação reconhecida por sua finalidade e composição">gênero</abbr> e grau de formalidade? |
 
-| Gênero | Finalidade predominante | Traços frequentes |
-|---|---|---|
-| aviso | comunicar orientação pontual | título, informação direta, ação esperada |
-| e-mail profissional | informar, solicitar ou responder | assunto, saudação, corpo, fechamento |
-| notícia | informar fato de interesse público | título, apresentação do fato, desenvolvimento |
-| relatório | registrar e analisar resultados | objeto, método, dados, análise, conclusão |
-| ata | registrar ocorrências e deliberações | data, participantes, pauta, decisões |
-| requerimento | formular pedido formal | identificação, pedido, fundamento, fecho |
-| postagem institucional | informar em canal digital | concisão, contexto suficiente, orientação clara |
+“Informo a interrupção temporária” pode ser gramatical e verdadeiro, mas insuficiente para um aviso que deveria identificar os usuários afetados.
 
-Esses traços são prototípicos, não fórmulas universais. A instituição, o suporte e a situação podem impor modelo próprio.
+A **situação comunicativa** é o conjunto de condições em que o texto funciona. Reconstrua quem fala ou escreve, a quem se dirige, com que finalidade, por qual meio e com quais conhecimentos compartilhados. O mesmo servidor pode conversar informalmente com um colega e representar formalmente o órgão: o cargo não determina sozinho o <abbr title="escolhas linguísticas ajustadas à situação de uso">registro</abbr>.
 
-### 2.2 Tipo textual
+## 2. <abbr title="forma de comunicação reconhecida por sua finalidade e composição">Gênero</abbr>, <abbr title="modo de organizar linguisticamente o conteúdo">tipo</abbr> e <abbr title="meio físico ou digital de apresentação e circulação">suporte</abbr>: três mudanças diferentes
 
-Tipo textual é uma organização linguística predominante:
+Um aviso comunica uma ocorrência ao público; uma ata registra uma reunião; um requerimento apresenta um pedido. Essas ações recorrentes ajudam a reconhecer os **gêneros textuais**, formas socialmente reconhecíveis de comunicação, relativamente estáveis quanto à finalidade, à composição e ao estilo.
 
-- narração: encadeia acontecimentos;
-- descrição: caracteriza seres, espaços ou estados;
-- exposição: apresenta e explica informações;
-- argumentação: sustenta uma posição;
-- injunção: orienta ações.
+No **aviso** sobre o sistema, o leitor precisa localizar o efeito da atualização sobre o serviço. No **relatório posterior**, interessa registrar o que efetivamente ocorreu. Não se pode converter previsão em acontecimento concluído só para preencher esse gênero. As formas de composição variam, mas o título “Relatório”, sozinho, não transforma um texto em relatório.
 
-Um gênero pode combinar tipos. Um relatório é gênero; nele podem aparecer exposição de dados, descrição de procedimentos e argumentação na recomendação.
+O **tipo textual** diz respeito à organização linguística do conteúdo: narrar encadeia acontecimentos; descrever apresenta características; expor explica ou informa; argumentar sustenta uma posição; a **injunção** orienta a ação do destinatário. Um relatório pode combinar exposição, narração e argumentação. Portanto, mudar de gênero não obriga a trocar todas as formas de organização de suas partes.
 
-### 2.3 Suporte e canal
+O **suporte** é o meio físico ou digital de apresentação e circulação. Uma notícia pode continuar sendo notícia ao passar do papel para um portal. A tela pode exigir parágrafos menores, não a perda de condições essenciais. “E-mail” pode designar a mensagem, com suas convenções, ou o correio eletrônico pelo qual se envia outro documento.
 
-O suporte interfere na forma, mas não define sozinho o gênero. Um aviso pode circular em papel, site ou aplicativo. No celular, a leitura favorece blocos curtos; no processo administrativo, identificação, integridade e rastreabilidade ganham peso.
+Depois de identificar a ação pretendida, reorganize o texto de acordo com ela:
 
----
+| Gênero ou situação de chegada | Organização útil para a adaptação |
+| --- | --- |
+| Aviso ao público | Destaque o fato, os afetados, o período informado e a orientação cabível. |
+| Mensagem profissional por correio eletrônico | Dê um assunto específico; apresente contexto, pedido ou informação, prazo conhecido e fechamento compatível. |
+| Notícia ou reportagem informativa | Priorize o fato e o contexto; identifique as fontes e distinga declarações de fatos apurados. |
+| Relatório | Separe ocorrência observada, análise, evidências disponíveis e eventual recomendação. |
+| Ata | Registre acontecimentos e deliberações da reunião, sem inventar consenso ou decisão. |
+| Requerimento | Identifique quem pede, o que pede e a fundamentação fornecida. |
+| Postagem institucional | Torne a informação localizável na leitura rápida, sem depender de informalidade ou omitir requisito essencial. |
 
-## 3. Registro e níveis de formalidade
+São orientações de composição, não campos universalmente obrigatórios. Trocar “quero” por “requeiro” não basta para produzir um requerimento.
 
-### 3.1 Registro é escolha contextual
+Produzir outro texto a partir de uma base, mudando sua finalidade ou seu gênero, é uma **retextualização**. A bibliografia pode distingui-la da revisão e da reescrita do mesmo texto. Em prova, siga a operação solicitada, mesmo que “reescrita” apareça em sentido amplo.
 
-Registro é o conjunto de escolhas linguísticas adequado à situação. Formalidade não se confunde com correção: há fala informal correta e texto formal incorreto.
+## 3. Formalidade não é dificuldade, clareza nem ausência de erros
 
-| Registro | Situação típica | Escolhas prováveis |
-|---|---|---|
-| informal | interação pessoal próxima | espontaneidade, contrações, marcas conversacionais |
-| semiformal | comunicação profissional cotidiana | cordialidade, objetividade, baixa cerimônia |
-| formal | atos institucionais e situações solenes | norma-padrão, precisão, impessoalidade e protocolo |
+O **registro** reúne escolhas linguísticas ajustadas à situação. A relação entre participantes, a finalidade, a exposição pública e as convenções do gênero influenciam a formalidade. Há gradações: conversa familiar, mensagem profissional cotidiana e comunicação oficial podem exigir tons diferentes.
 
-O contínuo depende também de distância social, assimetria entre participantes, publicidade, responsabilidade institucional e permanência do registro.
+No registro **informal ou coloquial**, são comuns marcas de proximidade, reduções e vocabulário cotidiano. No **formal**, há maior controle das convenções da situação. A **norma-padrão** é o modelo de regras de referência para a correção em usos formais; não abrange, sozinha, toda a formalidade.
 
-### 3.2 Formalidade não é rebuscamento
+Uma frase informal pode respeitar a <abbr title="ajuste de gênero, número ou pessoa entre palavras relacionadas">concordância</abbr>. Uma frase cheia de palavras solenes pode ter erro de <abbr title="relação entre um termo e os complementos que ele pede">regência</abbr>. E uma frase clara pode ser formal ou informal. **Clareza facilita a compreensão; formalidade ajusta o modo de expressão à situação. Uma não mede automaticamente a outra.**
 
-Texto formal não exige palavras raras, períodos longos nem fórmulas vazias. Compare:
+Compare:
 
-- rebuscado: `Vimos, por intermédio deste, solicitar os bons préstimos de Vossa Senhoria no sentido de proceder ao envio...`
-- claro: `Solicitamos o envio do relatório até 20 de julho.`
+> A gente vai analisar o pedido.  
+> Nós vamos analisar o pedido.
 
-A segunda versão pode ser mais formal porque é precisa, econômica e adequada à comunicação institucional.
+A segunda formulação reduz uma marca coloquial e ajusta a <abbr title="ajuste de gênero, número ou pessoa entre palavras relacionadas">concordância</abbr>: “a gente” pede verbo no singular; “nós”, no plural. Conservar “vai” na segunda versão criaria erro. Usar “proceder à análise” no lugar de “analisar”, por sua vez, não é necessário para obter formalidade.
 
-### 3.3 Informalidade não é descuido
+Outras escolhas precisam ser avaliadas em contexto:
 
-Uma mensagem informal ainda precisa ser compreensível e respeitosa. Gírias, abreviações e emojis dependem da relação, do canal e da finalidade. Em canal institucional, podem comprometer clareza, acessibilidade ou imagem pública.
+| Marca encontrada | Operação possível, quando o comando pede formalização |
+| --- | --- |
+| “Choveu pra burro” | “Choveu intensamente”: substitui a expressão coloquial, preservando a intensidade. |
+| “Me envie o documento” | “Envie-me o documento”: atende à colocação tradicional do <abbr title="palavra que retoma ou aponta pessoas, seres ou ideias">pronome</abbr> em início de <abbr title="estrutura organizada em torno de um verbo">oração</abbr> afirmativa, sem palavra que exija sua posição antes do verbo. |
+| “Manda isso aí” | Identifique o objeto e ajuste o tratamento; não substitua “isso” por um documento que a base não permite identificar. |
+| Palavra técnica desconhecida pelo público | Explique seu significado ou empregue expressão equivalente, sem perder a distinção técnica necessária. |
 
-### 3.4 Marcas de oralidade
+Não transforme o segundo caso em “<abbr title="palavra que retoma ou aponta pessoas, seres ou ideias">pronome</abbr> sempre depois do verbo”: em **“Não me envie o documento”**, a negação pede o <abbr title="palavra que retoma ou aponta pessoas, seres ou ideias">pronome</abbr> antes. A **colocação pronominal** é justamente a posição de <abbr title="palavras que retomam ou apontam pessoas, seres ou ideias">pronomes</abbr> como “me”, “se” e “lhe” em relação ao verbo.
 
-Hesitações, repetições, autocorreções, marcadores como `né` e `tipo`, frases interrompidas e dependência da entonação são comuns na fala espontânea. Ao passar entrevista oral para notícia ou relatório:
+Os rótulos **corrente**, **familiar** e **erudito** costumam indicar, respectivamente, uso cotidiano, proximidade e linguagem mais especializada ou literária. As classificações variam. O registro familiar não consiste obrigatoriamente em erros, nem todo texto formal precisa ser erudito.
 
-- preserve a informação e, quando houver citação, não falseie a voz do entrevistado;
-- retire ruídos que não tenham função;
-- explicite referentes dependentes da situação;
-- reorganize turnos e fragmentos;
-- não transforme hipótese em certeza.
+**Gíria** é vocabulário associado a grupos ou práticas; **jargão** é linguagem de uma área de atividade, por vezes opaca a quem está fora dela. A escolha técnica pode ser necessária entre especialistas e exigir explicação para o público. Linguagem figurada também não significa informalidade: uma comparação pode caber em texto formal.
 
----
+## 4. Preserve o que o texto afirma, permite e exige
 
-## 4. Dimensões que a reescrita deve controlar
+Identifique quem fez o quê, quando, por qual razão e sob qual condição. Observe também **como o texto apresenta a informação**.
 
-### 4.1 Conteúdo essencial
+### Certeza, obrigação e recomendação
 
-Liste fatos, participantes, datas, condições, ressalvas e ações. A adaptação pode condensar detalhes, mas não deve apagar informação necessária à finalidade.
+“A atualização pode interromper o acesso” não afirma o mesmo que “A atualização interromperá o acesso”. A primeira admite uma possibilidade; a segunda faz uma previsão categórica. Expressões que marcam certeza, possibilidade, necessidade, obrigação ou avaliação participam da **modalização** do texto. Reconhecer esses valores importa mais que decorar uma lista de palavras.
 
-### 4.2 Finalidade
+“Deve” exige contexto: em “Pelo andamento do trabalho, a equipe deve terminar hoje”, indica probabilidade; em “Conforme a regra, a equipe deve apresentar o relatório”, indica obrigação. “Pode” também pode expressar possibilidade de ocorrência ou permissão para agir.
 
-O mesmo fato pode gerar textos diferentes:
+“Recomenda-se atualizar o cadastro” não equivale a “É obrigatório atualizar o cadastro”. Solicitar, recomendar, autorizar e ordenar são ações diferentes realizadas pela linguagem: muda a **força do ato comunicativo**, não apenas a polidez.
 
-- relatório: documenta a interrupção e suas causas;
-- aviso: informa quando o serviço ficará indisponível;
-- notícia: contextualiza o fato para o público;
-- instrução: diz o que o usuário deve fazer.
+> Você consegue enviar o relatório até as 17 horas, se for possível?  
+> Solicito, se possível, o envio do relatório até as 17 horas.
 
-Mudar a finalidade muda a seleção e a hierarquia das informações, sem autorizar invenção.
+No contexto de um pedido, a segunda versão mantém a ressalva. “Determino o envio impreterivelmente até as 17 horas” elimina essa flexibilidade. Acrescentar “por favor” não desfaz o aumento da exigência.
 
-### 4.3 Interlocutor
+### Quantidade, negação, relações e responsáveis
 
-Termos técnicos podem ser adequados entre especialistas e opacos para o público geral. Para leitores não especializados, defina o termo, use equivalente claro ou dê exemplo. Não elimine precisão indispensável.
+A **polaridade** distingue afirmação e negação; o **escopo** é o alcance de uma palavra ou expressão sobre outra parte do enunciado. Em “A atualização **não** afetará as <abbr title="períodos de interação mantidos após o ingresso no sistema">sessões</abbr> abertas”, negar é essencial. Em “**Somente** as <abbr title="períodos de interação mantidos após o ingresso no sistema">sessões</abbr> abertas continuarão funcionando”, a restrição também faz parte do conteúdo.
 
-### 4.4 Imagem dos participantes
+“Nem sempre ocorre falha” não equivale a “Quase nunca ocorre falha”: a primeira nega a constância, sem quantificar a raridade; a segunda apresenta as falhas como raras. “Alguns usuários” não pode virar “todos os usuários”. “Até 30 de agosto” não pode ser reduzido a “em agosto” quando o dia-limite precisa permanecer.
 
-Tratamento, imperativos, modalizadores e justificativas constroem relações de autoridade, proximidade, cortesia e responsabilidade. `Envie hoje` é mais direto; `Solicitamos que envie hoje` atenua a ordem; `Poderia enviar hoje?` pode soar cortês, mas menos categórico.
+Conserve ainda a direção das relações. “A atualização provocou a interrupção” não equivale a “A interrupção provocou a atualização”. Se a base apenas informa que dois fatos ocorreram, inserir “portanto” pode criar uma conclusão inexistente. “Apesar da manutenção, houve falha” apresenta um resultado contrário à expectativa; “Por causa da manutenção, houve falha” apresenta uma causa.
 
-### 4.5 Suporte e extensão
+Por fim, preserve quem fez ou afirmou algo. “A equipe identificou a falha” não autoriza “O diretor identificou a falha”. Na passagem de **voz ativa** para **voz passiva**, a ação é apresentada do ponto de vista de quem a recebe: “A equipe analisou o pedido” → “O pedido foi analisado pela equipe”. Retirar “pela equipe” apaga o responsável expresso; isso só é aceitável se essa informação puder ser dispensada na tarefa.
 
-Um título de notificação precisa ser autossuficiente; uma postagem pode oferecer link para detalhes; um relatório pode desenvolver método e evidências. Condensar não significa suprimir prazo, condição ou canal de atendimento.
+## 5. Da fala para a escrita: retire o dispensável, não a incerteza
 
----
+A conversa pode apoiar-se no ambiente e na memória dos participantes. Para outro leitor ou outro momento, é preciso reconstruir referências. Não há inferioridade da fala, mas condições diferentes de compreensão.
 
-## 5. Preservar e adaptar
+Suponha que uma servidora diga em **20 de julho de 2026**:
 
-### 5.1 Núcleo factual
+> Olha, acho que amanhã o sistema vai ficar sem acesso de duas até umas quatro da tarde. Depois a gente avisa.
+
+Uma formalização compatível é:
+
+> Há previsão de indisponibilidade de acesso ao sistema em 21 de julho de 2026, aproximadamente das 14 às 16 horas. Posteriormente, a equipe enviará nova informação.
+
+Supondo também que “a gente” designe a equipe, a versão retira “olha”, mas conserva previsão e aproximação. Não garante retorno às 16 horas nem inventa um canal para a próxima mensagem.
+
+“Eu”, “aqui”, “hoje” e “amanhã” dependem do ponto de referência da comunicação. Essa relação com quem fala, onde e quando se fala é a **dêixis**. A data absoluta do exemplo só pode ser calculada porque o dia da fala foi fornecido. Sem ele, não se deve inventar uma data para parecer preciso.
+
+### Ao relatar a fala de outra pessoa
+
+No **discurso direto**, reproduz-se a fala como fala da pessoa: “A diretora disse: ‘Enviarei hoje’”. No **discurso indireto**, quem relata incorpora o conteúdo à própria construção: “A diretora disse que enviaria naquele dia”.
+
+No relato **em outro dia**, “hoje” passa a “naquele dia”; “enviaria” apresenta o envio como futuro em relação à fala original. Muda também a pessoa verbal: a diretora deixa de falar em nome próprio e passa a ser mencionada pelo narrador. No mesmo dia, “hoje” pode continuar adequado. A conversão depende do momento e da perspectiva do relato.
+
+No trabalho real, pode-se confirmar a informação com a fonte. Na prova, **não se pode tratar como confirmado o que é apenas plausível**.
+
+## 6. Do técnico ao público: traduza a dificuldade, mantenha a condição
+
+Retome a atualização do sistema. Agora a base técnica informa:
+
+> A <abbr title="verificação da identidade do usuário">autenticação</abbr> para iniciar novas <abbr title="períodos de interação mantidos após o ingresso no sistema">sessões</abbr> ficará temporariamente indisponível durante a atualização do <abbr title="parte do sistema que administra a identificação dos usuários">módulo de gestão de identidades</abbr>. As <abbr title="períodos de interação mantidos após o ingresso no sistema">sessões</abbr> já iniciadas não serão afetadas.
+
+**Autenticação** é a verificação da identidade do usuário; uma **sessão** é o período de interação que se mantém após seu ingresso no sistema. Com isso explicado, uma versão ao público pode dizer:
+
+> Durante a atualização da parte do sistema que gerencia as identidades dos usuários, não será possível iniciar uma nova sessão. Quem já estiver com uma sessão aberta poderá continuar a utilizá-la.
+
+A versão explica o efeito e mantém causa e exceção, sem inventar horário. “O sistema ficará fora do ar” seria amplo demais: a base distingue novos acessos de sessões em andamento.
+
+Não substitua um <abbr title="linguagem própria de uma área de atividade">jargão</abbr> por outro. Conserve e explique o termo necessário à precisão. Em resumo autorizado, detalhes internos podem ser dispensados; a distinção entre quem consegue e quem não consegue usar o serviço permanece essencial.
+
+## 7. Mudar de gênero exige reconstruir a finalidade
+
+### De informação para orientação
 
 Considere a base:
 
-`A unidade ficará fechada na sexta-feira, das 14h às 16h, para manutenção elétrica. Os atendimentos agendados serão remarcados.`
+> O recadastramento deve ser feito até 30 de agosto, com apresentação de documento de identidade.
 
-Aviso ao público:
+Uma instrução ao destinatário pode ser:
 
-`Atenção: na sexta-feira, a unidade ficará fechada das 14h às 16h para manutenção elétrica. Os atendimentos desse período serão remarcados.`
+> Faça o recadastramento até 30 de agosto e apresente documento de identidade.
 
-Mensagem interna:
+O texto passa a orientar diretamente quem executa o procedimento, mantendo ação, prazo e requisito. O **imperativo**, forma verbal usada para orientar, pedir ou ordenar, não é necessariamente rude: pode ser a maneira mais clara de instruir.
 
-`Equipe, a unidade ficará fechada na sexta, das 14h às 16h, para manutenção elétrica. Por favor, confiram o reagendamento dos atendimentos.`
+“Recadastre-se em agosto” não preserva integralmente a base: deixa de informar o dia-limite e o documento exigido. Um link para informações complementares não corrige automaticamente essa perda quando a própria instrução deve conter os requisitos.
 
-As versões preservam fechamento, data, horário, motivo e consequência, mas ajustam destinatário e ação esperada.
+### De opinião para notícia ou relatório
 
-### 5.2 O que não pode mudar sem autorização
+Compare:
 
-- certeza, possibilidade ou obrigação;
-- agente e responsável;
-- data, quantidade e alcance;
-- causa, condição, finalidade e ressalva;
-- polaridade afirmativa ou negativa;
-- atribuição de fala ou fonte;
-- fato, opinião e hipótese.
+> A associação declarou: “Essa medida excelente resolverá o problema”.
 
-`A medida pode reduzir custos` não equivale a `A medida reduzirá custos`. `A equipe avalia a proposta` não equivale a `A equipe aprovou a proposta`.
+Se a tarefa é produzir uma notícia sem assumir a avaliação da fonte, uma versão possível é:
 
-### 5.3 Matriz de invariantes
+> A associação afirmou que a medida resolverá o problema e a avaliou positivamente.
 
-Antes de aceitar uma reescrita, compare estas dimensões:
+O novo texto informa **o que a associação disse**, sem garantir a eficácia da medida. “A medida resolverá o problema” apaga essa atribuição e faz o narrador assumir a previsão. Se a avaliação não for relevante para um resumo autorizado, ela poderá ser omitida; se a tarefa exigir preservação integral dos sentidos, não poderá simplesmente desaparecer. Também não se pode acrescentar “segundo especialistas” quando não há especialistas identificados na base.
 
-| Dimensão | Pergunta de controle | Alteração indevida típica |
-|---|---|---|
-| fonte | quem afirmou continua sendo o mesmo? | criar `segundo o órgão` sem fonte na base |
-| modalidade | certeza, possibilidade, obrigação e recomendação foram preservadas? | `pode ocorrer` → `ocorrerá` |
-| agente | quem pratica ou sofre a ação continua igual? | trocar a comissão pelo servidor |
-| tempo e quantidade | datas, prazos, frequência e alcance permaneceram? | `até 30 de agosto` → `em agosto` |
-| relação lógica | causa, condição, concessão e conclusão continuam sustentadas? | inserir `portanto` sem conclusão |
-| polaridade | afirmação, negação e restrição foram mantidas? | `nem sempre` → `quase nunca` |
-| atribuição avaliativa | opinião e previsão continuam atribuídas? | transformar avaliação alheia em fato do redator |
-| dêixis | o novo leitor localiza tempo, espaço e participantes? | manter `amanhã` em documento permanente sem data |
+No relatório, separe o que foi observado, a **inferência** — conclusão extraída de indícios — e a recomendação. “Houve falha de acesso”, “A falha pode estar relacionada à atualização” e “Recomenda-se investigar a causa” têm funções diferentes. A segunda frase não demonstra a causa, e a terceira não registra uma investigação já realizada.
 
-A preservação não exige repetir as mesmas palavras. Exige conservar o conteúdo e as relações que tornam a informação verdadeira no novo contexto.
+Reorganize também título, abertura, desenvolvimento e fecho: trocar palavras não corrige uma composição inadequada ao novo gênero.
 
+## 8. Pessoas, tratamento e responsabilidade institucional
 
-### 5.4 O que pode mudar de forma controlada
+“Solicito a revisão” identifica quem pede; “Encaminhamos o relatório” pode representar uma equipe; “O prazo termina em agosto” destaca o procedimento. A finalidade orienta a escolha da pessoa, sem proibição geral de “eu” ou “nós”.
 
-- ordem de apresentação;
-- grau de explicitação;
-- extensão;
-- vocabulário técnico ou geral;
-- pessoa discursiva;
-- marcas de proximidade;
-- títulos, seções e elementos do gênero;
-- discurso direto ou indireto, com ajuste correto de pessoa, tempo e dêixis.
+A **impessoalidade**, na comunicação oficial, significa tratar o assunto em nome do serviço público, sem introduzir preferências ou avaliações pessoais indevidas. Não exige apagar o <abbr title="quem pratica a ação verbal">agente</abbr> nem usar sempre voz passiva. “A equipe técnica verificou a ocorrência” pode ser mais útil que “Foi verificada a ocorrência” quando importa saber quem a verificou.
 
----
+Mantenha o tratamento coerente. “A senhora” se dirige à pessoa com quem se fala, mas pede verbo na terceira pessoa, como nas construções com “ela”: **“A senhora encaminhará o documento”**, não “encaminhareis”. Já “Senhora Diretora,” é um **vocativo**, chamamento direto ao destinatário, não <abbr title="termo ao qual se atribui o que o verbo declara">sujeito</abbr> da <abbr title="estrutura organizada em torno de um verbo">oração</abbr>.
 
-## 6. Da conversa ao texto institucional
+A regra gramatical não decide, sozinha, qual tratamento institucional é obrigatório. O Manual de Redação da Presidência da República, de 2018, é referência de redação oficial; o Decreto <abbr title="número">nº</abbr> 9.758/2019 disciplina tratamento e <abbr title="indicação do destinatário de uma comunicação">endereçamento</abbr> no âmbito federal por ele delimitado, com exceções expressas. Não transporte automaticamente suas regras para todo órgão estadual ou para qualquer conversa entre servidores.
 
-Base oral:
+## 9. Clareza, concisão e ligação entre as partes
 
-`Oi, gente. Então, amanhã vai ficar sem sistema um tempinho, tá? Acho que de duas até umas quatro. Depois a gente avisa.`
+No Manual de Redação da Presidência da República, os atributos da redação oficial se complementam, mas não são sinônimos. Além de clareza, impessoalidade, formalidade e uso da norma-padrão, é preciso compreender os controles seguintes.
 
-Uma reescrita segura não deve converter a estimativa em horário oficial sem confirmação. Se os dados forem confirmados e a mensagem circular no mesmo contexto temporal:
+**Precisão** é selecionar a expressão que delimita corretamente a ideia. **Objetividade** é dirigir o texto ao assunto e à finalidade, sem desvios. **Concisão** é retirar o dispensável, não toda frase que ocupa espaço. A **padronização** organiza convenções de apresentação e composição; não se obtém apenas adotando um tom solene.
 
-`O sistema ficará indisponível amanhã, das 14h às 16h. A normalização será comunicada neste canal.`
+“Com a finalidade de analisar” pode virar “para analisar”; “proceder à análise”, “analisar”. Requisito e ressalva indispensáveis não são excesso. Ao dividir uma frase longa, preserve a ligação entre condição e resultado.
 
-Em aviso persistente, processo ou página que poderá ser lida depois, ancore a dêixis:
+A **coesão** conecta as partes por <abbr title="palavras que retomam ou apontam pessoas, seres ou ideias">pronomes</abbr>, repetição, conectores — palavras ou expressões que ligam ideias — e outros recursos. A **coerência** permite construir um sentido compatível entre as informações e a situação. Muitos conectores não garantem coerência: eles podem expressar relações que os fatos não sustentam.
 
-`O sistema ficará indisponível em 21 de julho de 2026, das 14h às 16h. A normalização será comunicada neste canal.`
+> O servidor enviou o pedido à diretora. Ele será analisado amanhã.
 
-Mudanças realizadas:
+“Ele” pretende retomar o pedido, mas o período anterior também menciona um servidor. Repetir “o pedido será analisado amanhã” torna a retomada inequívoca. Da mesma forma, “O gerente orientou o servidor a atualizar seu cadastro” pode deixar dúvida sobre o dono do cadastro. Esclareça-o com base no contexto; não escolha o dono por adivinhação.
 
-- eliminação de marcadores conversacionais;
-- explicitação do sujeito;
-- substituição de expressão vaga por intervalo;
-- ajuste de pessoa e tom;
-- indicação do canal de atualização;
-- troca de `amanhã` por data absoluta quando o suporte não preserva o contexto.
+Repetir pode ser melhor que variar: “pedido”, “parecer” e “processo” não designam necessariamente o mesmo objeto. Confira as retomadas e se o título anuncia apenas o que o desenvolvimento sustenta.
 
-Se o horário continuar estimado, preserve a modalidade: `A previsão é de indisponibilidade entre 14h e 16h.`
+O **paralelismo** emprega construções semelhantes para elementos com a mesma função: “preencher o formulário, anexar o documento e confirmar o envio”. Evita misturar ações e nomes soltos e facilita acompanhar as etapas.
 
----
+## 10. Como decidir uma questão de reescrita
 
-## 7. Do texto técnico à divulgação para o público
+Leia o comando, identifique a situação de chegada e compare as informações essenciais, seus responsáveis e as ressalvas. Só então julgue as mudanças de gênero, organização e registro.
 
-Base técnica:
+Releia a construção final: <abbr title="ajuste de gênero, número ou pessoa entre palavras relacionadas">concordância</abbr>, <abbr title="relação entre um termo e os complementos que ele pede">regência</abbr>, pontuação, colocação pronominal e ligações entre as partes precisam continuar adequadas. A intenção de formalizar não corrige a frase produzida.
 
-`A indisponibilidade decorre de intervenção preventiva no subsistema de alimentação ininterrupta.`
+Simule o destinatário: ele entende o que ocorreu ou o que deve fazer, sob quais condições e segundo quem? Há algum dado novo sem apoio?
 
-Versão para público geral:
-
-`O serviço ficará indisponível para manutenção preventiva do sistema que mantém a alimentação elétrica durante interrupções (nobreak).`
-
-A adaptação:
-
-- mantém a causa;
-- troca jargão por expressão compreensível;
-- conserva a noção de prevenção;
-- não promete resultado não informado.
-
-Se o termo técnico for juridicamente ou operacionalmente decisivo, mantenha-o e explique-o. Simplificar não é reduzir precisão.
-
----
-
-## 8. Do texto informativo ao injuntivo
-
-Informativo:
-
-`O recadastramento termina em 30 de agosto e exige documento de identificação.`
-
-Injuntivo:
-
-`Faça o recadastramento até 30 de agosto. Apresente um documento de identificação.`
-
-O injuntivo transforma informação em ação explícita. Devem permanecer prazo e requisito. Uma versão como `Recadastre-se em agosto` perde o dia-limite.
-
-Imperativo não é automaticamente descortês. Em instruções, ele pode ser a forma mais clara: `Clique em Enviar`. A cortesia decorre do conjunto, não de evitar todo comando direto.
-
-### 8.1 Exemplo integrado: mensagem informal para registro
-
-Base:
-
-`Pessoal, parece que a bomba parou de novo depois do almoço. O João viu e chamou a manutenção.`
-
-Registro seguro, após confirmar os dados:
-
-`Após as 13h, João identificou nova paralisação da bomba e acionou a equipe de manutenção.`
-
-A versão elimina a saudação, explicita o agente, substitui `depois do almoço` por referência temporal controlada e mantém a ideia de recorrência em `nova paralisação`. Se a paralisação ainda não estiver confirmada, preserve `há indício de` ou `foi relatada possível paralisação`.
-
-### 8.2 Exemplo integrado: nota técnica para aviso ao usuário
-
-Base técnica:
-
-`A autenticação ficará temporariamente indisponível em razão da atualização do módulo de gestão de identidades, sem impacto sobre sessões já iniciadas.`
-
-Aviso:
-
-`Das 18h às 19h, não será possível iniciar nova sessão no sistema devido a uma atualização. Sessões já abertas continuarão funcionando.`
-
-A mudança reorganiza a informação pela necessidade do usuário, explica o efeito operacional e conserva a ressalva sobre sessões em andamento.
-
-
----
-
-## 9. Da opinião para a notícia ou o relatório
-
-Base opinativa atribuída:
-
-`Segundo o órgão, a excelente medida finalmente resolverá o grave problema.`
-
-Versão informativa:
-
-`O órgão afirmou que a medida resolverá o problema.`
-
-Foram removidos os adjetivos avaliativos, mas a fonte e o grau de certeza da declaração permaneceram. A reescrita não apresenta a previsão como fato independente: registra o que o órgão afirmou.
-
-Se a base não trouxer fonte externa, não a invente. Para `A excelente medida finalmente resolverá o grave problema`, uma versão segura é `O autor avalia que a medida resolverá o problema` — desde que o contexto permita identificar esse enunciador.
-
-Em relatório, separe:
-
-- dado observado;
-- interpretação;
-- recomendação;
-- fonte e limite da evidência.
----
-
-## 10. Comunicação institucional como aplicação
-
-Avisos, e-mails, registros e relatórios institucionais permitem aplicar este assunto, mas o foco aqui é a adequação global do texto, não a memorização de formatos de correspondência oficial.
-
-Clareza, precisão, objetividade, concisão, coesão, coerência, impessoalidade, formalidade, padronização e norma-padrão são controles úteis. Concisão não é mutilação, e impessoalidade não exige voz passiva nem apagamento do agente: `A comissão aprovou o relatório` pode ser mais claro que `O relatório foi aprovado`.
-
-Regras específicas de tratamento, endereçamento ou formato só devem ser aplicadas quando o comando, o órgão ou a norma pertinente as tornar relevantes. Uma regra federal de tratamento não pode ser universalizada para outros Poderes, tribunais de contas, entes federativos ou relações privadas.
-
-Em prova de reescrita, a pergunta principal continua sendo: a versão preserva fatos, atribuições e força do ato comunicativo e, ao mesmo tempo, funciona no gênero e no nível de formalidade solicitados?
----
-
-## 11. Coesão, coerência e progressão
-
-Ao converter gêneros, preserve as cadeias de referência e as relações lógicas.
-
-Base:
-
-`A unidade recebeu o pedido. Ele será analisado amanhã.`
-
-`Ele` retoma `o pedido`. Se houvesse outro nome masculino singular, poderia surgir ambiguidade. A reescrita pode repetir o nome: `O pedido será analisado amanhã.`
-
-Confira:
-
-1. todo pronome tem antecedente claro;
-2. conectores expressam relação sustentada;
-3. títulos correspondem ao conteúdo;
-4. informações aparecem em ordem útil;
-5. termos-chave são mantidos de modo consistente;
-6. pressupostos necessários são explicitados para o novo público.
-
----
-
-## 12. Modalização, cortesia e força do ato
-
-Modalizadores alteram o compromisso do enunciador:
-
-| Formulação | Efeito principal |
-|---|---|
-| ocorrerá | previsão/afirmação mais categórica |
-| pode ocorrer | possibilidade |
-| deve ocorrer | probabilidade ou obrigação, conforme o contexto |
-| é necessário | necessidade |
-| recomenda-se | recomendação |
-| solicita-se | pedido institucional |
-
-Ao formalizar, não transforme pedido em ordem, recomendação em obrigação nem probabilidade em certeza.
-
-Estratégias de cortesia incluem saudação adequada, justificativa pertinente, prazo possível e fechamento respeitoso. Excesso de fórmulas pode ocultar a ação esperada.
-
----
-
-## 13. Pessoa discursiva e tratamento
-
-- primeira pessoa singular pode marcar relato pessoal;
-- primeira pessoa plural pode representar equipe ou instituição, mas deve ter referente claro;
-- terceira pessoa e construções impessoais podem destacar procedimento;
-- segunda pessoa é útil em instruções ao usuário.
-
-`Nós verificamos um erro` pode tornar-se `A equipe identificou um erro` para explicitar o agente. `Você precisa anexar` pode tornar-se `Anexe o documento` em instrução direta. Nenhuma forma é formal por natureza; a adequação depende do gênero.
-
-Pronomes de tratamento levam o verbo à terceira pessoa: `Senhora Diretora, solicito que encaminhe o relatório.`
-
----
-
-## 14. Clareza, precisão e linguagem simples
-
-### 14.1 Preferências úteis
-
-- ordem direta quando não houver motivo para inversão;
-- uma ideia principal por período muito complexo;
-- verbo concreto em lugar de cadeia nominal desnecessária;
-- termo consistente para o mesmo referente;
-- prazo em formato inequívoco;
-- voz ativa quando o agente importar;
-- listas para requisitos paralelos.
-
-### 14.2 Cortes seguros
-
-| Expressão inflada | Alternativa |
-|---|---|
-| neste momento atual | agora |
-| em razão do fato de que | porque |
-| proceder à análise de | analisar |
-| com a finalidade de | para |
-| entrar em contato com | contatar |
-
-O corte só é válido se preservar tom, precisão e convenção do gênero.
-
-### 14.3 Ambiguidade
-
-`O gerente informou ao servidor que seu cadastro estava bloqueado.`
-
-Para o público, reescreva conforme o referente comprovado:
-
-- `O gerente informou ao servidor que o cadastro do servidor estava bloqueado.`
-- `O gerente informou ao servidor que o cadastro do gerente estava bloqueado.`
-
-Não escolha o referente por plausibilidade se a base não o determinar.
-
----
-
-## 15. Método de reescrita global
-
-### Passo 1 — leia o comando
-
-Identifique quais dimensões devem ser preservadas: ideias, informações, correção, gênero, formalidade, coerência ou finalidade.
-
-### Passo 2 — construa a ficha da situação
-
-```text
-enunciador | destinatário | finalidade | gênero | suporte | registro
-```
-
-### Passo 3 — inventarie o conteúdo
-
-Marque fatos, fontes, datas, condições, responsáveis, modalidade e ação esperada.
-
-### Passo 4 — planeje o gênero de chegada
-
-Defina título, abertura, ordem das informações, seções, fecho e extensão.
-
-### Passo 5 — ajuste o registro
-
-Revise tratamento, pessoa, vocabulário, oralidade, jargão, cortesia e grau de explicitação.
-
-### Passo 6 — rode os gates linguísticos
-
-Concordância, regência, crase, pontuação, colocação, referência, conectores e paralelismo.
-
-### Passo 7 — compare com a base
-
-Procure omissões, acréscimos, certeza indevida, agente trocado, prazo enfraquecido e opinião apresentada como fato.
-
-### Passo 8 — simule o leitor
-
-O destinatário sabe o que ocorreu, o que precisa fazer, até quando, onde obter ajuda e qual é a fonte?
-
----
-
-## 16. Quadro de julgamento
-
-| Base | Reescrita | Juízo |
-|---|---|---|
-| o sistema pode falhar | o sistema falhará | altera possibilidade para certeza |
-| prazo até 30 de agosto | recadastre-se em agosto | perde o dia-limite |
-| intervenção no subsistema de alimentação ininterrupta | manutenção do sistema que mantém a alimentação elétrica durante interrupções (nobreak) | simplifica e preserva o referente técnico |
-| a equipe recomenda revisar | a revisão é obrigatória | muda recomendação para obrigação |
-| o diretor disse: “enviarei hoje” | o diretor disse que enviaria naquele dia | ajusta pessoa, tempo e dêixis |
-| segundo o órgão, a excelente medida resolverá | o órgão afirmou que a medida resolverá | remove avaliação e preserva fonte e certeza atribuída |
-| mensagem a colega | relatório técnico | exige reconstrução de gênero, não mera troca lexical |
-| texto formal com períodos longos | texto claro e direto | formalidade pode aumentar com concisão |
-
----
-
-## 17. Erros recorrentes
-
-1. Confundir gênero com tipo textual.
-2. Considerar formal todo texto rebuscado.
-3. Tratar informalidade como erro gramatical.
-4. Trocar palavras sem adaptar estrutura e finalidade.
-5. Apagar prazo, condição ou responsável ao resumir.
-6. Converter possibilidade em certeza.
-7. Manter jargão para público não especializado sem explicação.
-8. Inserir intimidade, gíria ou emoji em canal incompatível.
-9. Transformar opinião em fato ou inventar fonte para legitimá-la.
-10. Usar passiva apenas para parecer formal.
-11. Universalizar regra de tratamento com âmbito específico.
-12. Tornar o texto tão conciso que a ação esperada desapareça.
-13. Alterar referente, conector ou escopo durante a adaptação.
-14. Ignorar modelo institucional obrigatório.
-15. Manter `amanhã`, `aqui` ou `isso` quando o novo suporte não conserva o contexto.
-
----
-
-## 18. Limites com assuntos vizinhos
-
-- **Assunto 016:** equivalência lexical é um gate; o foco aqui é a adequação do texto inteiro à situação.
-- **Assunto 017:** reorganização sintática é um recurso; o foco aqui é a mudança de gênero e registro.
-- **Gêneros e tipos:** classificações são mobilizadas para planejar a reescrita, não para esgotar teoria textual.
-- **Redação oficial:** interessa como aplicação de formalidade e adequação institucional, sem substituir o estudo específico de documentos oficiais.
+**A boa versão não é necessariamente a mais curta, a mais solene nem a mais parecida palavra por palavra com o original. É a que realiza a transformação pedida, preserva o que deve permanecer e funciona como texto completo.**
