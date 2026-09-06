@@ -6,138 +6,124 @@ order: 37
 storageId: logica-argumentacao-inferencias
 ---
 
-## 1. Recorte do assunto
+## 1. Quando uma conclusão realmente decorre das razões?
 
-No edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> 2026, **lógica de argumentação** aparece acompanhada de **analogias, inferências, deduções e conclusões**. Os tópicos seguintes tratam separadamente de proposições, tabelas-verdade, equivalências, leis de De Morgan, diagramas lógicos, lógica de primeira ordem, contagem, probabilidade e conjuntos.
+Considere dois raciocínios:
 
-O foco deste assunto é, portanto, **entender e avaliar a passagem de razões para conclusões**, sobretudo em linguagem natural.
+> Se um processo é urgente, recebe prioridade. O processo P é urgente. Logo, P recebe prioridade.
 
-Aqui entram:
+> Se um processo é urgente, recebe prioridade. O processo P recebeu prioridade. Logo, P é urgente.
 
-- identificação de premissas e conclusão;
-- reconstrução de pressupostos e conclusões intermediárias;
-- distinção entre verdade, validade e solidez;
-- dedução e teste por contraexemplo;
-- indução e grau de apoio;
-- analogias e diferenças relevantes;
-- conclusões necessárias, prováveis e apenas possíveis;
-- padrões condicionais básicos usados para avaliar argumentos.
+Os dois parecem semelhantes, mas só o primeiro obriga a conclusão. No segundo, P poderia ter recebido prioridade por outro motivo.
 
-Não é necessário transformar este assunto em um curso autônomo de lógica proposicional, metodologia científica ou catálogo de falácias. Esses aprofundamentos só são úteis quando esclarecem diretamente a qualidade de uma inferência.
+Esse contraste resume o problema central deste assunto: **avaliar a passagem das razões para a conclusão**. Em prova, isso exige reconhecer a estrutura do argumento, descobrir o tipo de apoio pretendido e perguntar se esse apoio é suficiente para a força da conclusão.
 
-## 2. Argumento, premissa, conclusão e inferência
+No edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> 2026, o recorte inclui lógica de argumentação, analogias, inferências, deduções e conclusões. Proposições, tabelas-verdade, equivalências e outros instrumentos formais aparecem em assuntos seguintes; aqui, eles entram apenas na medida necessária para compreender argumentos em linguagem natural.
 
-Um **argumento** é uma estrutura em que uma ou mais afirmações são apresentadas como razões para aceitar outra afirmação.
+## 2. A estrutura mínima de um argumento
 
-- **premissa:** afirmação usada como razão;
-- **conclusão:** afirmação que recebe apoio;
+Um **argumento** apresenta uma ou mais afirmações como razões para aceitar outra afirmação.
+
+- **premissa:** afirmação oferecida como razão;
+- **conclusão:** afirmação que recebe o apoio;
 - **inferência:** passagem das premissas para a conclusão.
 
-Exemplo:
+Exemplo hipotético:
 
-> O número de atendimentos aumentou e a fila dobrou. Portanto, o horário de atendimento deve ser ampliado.
+> A fila dobrou e o número de atendimentos aumentou. Portanto, o horário de atendimento deve ser ampliado.
 
-Premissas:
+As duas primeiras informações funcionam como premissas; a ampliação do horário é a conclusão. A conclusão poderia aparecer no início ou no meio: **posição no texto não determina função lógica**.
 
-1. o número de atendimentos aumentou;
-2. a fila dobrou.
+Uma pergunta simples costuma revelar a estrutura:
 
-Conclusão:
+> **O que o autor quer que eu aceite e quais razões oferece para isso?**
 
-> o horário de atendimento deve ser ampliado.
+Palavras como “logo”, “portanto”, “assim” e “por isso” frequentemente anunciam conclusões; “porque”, “pois”, “já que” e “visto que” frequentemente introduzem razões. São pistas, não comandos automáticos. “Então” pode ter sentido apenas temporal, “pois” pode aparecer depois da conclusão e um argumento pode não usar marcador algum.
 
-A conclusão pode aparecer no início, no meio ou no final. A posição não define sua função.
+## 3. Nem toda sequência de afirmações é um argumento
 
-## 3. Nem todo texto é argumento
+Compare três trechos.
 
 ### 3.1. Relato
 
-Um relato apenas informa fatos, sem apresentar uma afirmação como razão para outra:
-
 > A sessão começou às nove. O relatório foi lido às dez. A votação terminou ao meio-dia.
+
+O texto organiza fatos, mas nenhuma afirmação é oferecida como razão para aceitar outra.
 
 ### 3.2. Explicação
 
-Uma explicação normalmente toma um fato como aceito e procura mostrar **por que** ele ocorreu:
-
 > O portal ficou lento porque houve aumento excepcional de acessos.
 
-Se a lentidão já é aceita, o aumento de acessos explica o fato. Se a própria ocorrência da lentidão estiver em discussão e o aumento de acessos for usado como evidência, a função argumentativa poderá ser diferente.
+Se a lentidão já é aceita e a pergunta é “por que isso aconteceu?”, temos uma explicação. Se a própria lentidão estivesse em dúvida e o aumento de acessos fosse apresentado como evidência de que ela ocorreu, a função poderia ser argumentativa.
 
 ### 3.3. Opinião sem apoio
 
 > A proposta é inadequada.
 
-Há uma posição, mas não há ainda uma razão apresentada para aceitá-la.
+Há uma tese, mas ainda não há argumento: faltam razões apresentadas em apoio.
 
-### 3.4. Indicadores linguísticos
+A diferença decisiva é funcional: **argumentar é oferecer razões para sustentar uma conclusão**.
 
-| Função provável | Indicadores frequentes |
-|---|---|
-| conclusão | portanto, logo, assim, por isso, consequentemente, daí se conclui |
-| premissa | porque, pois, já que, visto que, dado que, uma vez que |
+## 4. Como as premissas trabalham juntas
 
-Essas palavras são **pistas**, não regras automáticas. “Então” pode ser apenas temporal; “pois” pode aparecer depois da conclusão; e argumentos podem não ter marcador algum.
-
-## 4. Organização das premissas
+Nem toda razão atua do mesmo modo.
 
 ### 4.1. Premissas ligadas
 
-Precisam atuar em conjunto:
+Precisam ser combinadas:
 
 1. Todo processo urgente recebe prioridade.
 2. O processo P é urgente.
 3. Logo, P recebe prioridade.
 
-Nenhuma das duas premissas, isoladamente, produz a conclusão.
+A primeira premissa fornece a regra; a segunda enquadra P nessa regra. Isoladamente, nenhuma produz a conclusão.
 
 ### 4.2. Premissas independentes
 
-Cada uma oferece algum apoio próprio à conclusão. Uma pode permanecer relevante mesmo se a outra for retirada.
+Cada uma oferece algum apoio próprio. Se uma for retirada, a outra ainda pode continuar relevante para a conclusão.
 
 ### 4.3. Conclusão intermediária
 
-Uma conclusão pode se tornar premissa de um passo seguinte:
+Uma conclusão pode virar premissa do passo seguinte:
 
 1. O prazo expirou.
 2. Logo, o recurso é intempestivo.
 3. Recursos intempestivos não são conhecidos.
 4. Portanto, o recurso não será conhecido.
 
-“O recurso é intempestivo” é conclusão do primeiro passo e premissa do segundo.
+“O recurso é intempestivo” é conclusão do primeiro passo e premissa do segundo. Em argumentos longos, reconhecer essas etapas evita tratar tudo como uma única inferência.
 
-## 5. Pressupostos
+## 5. Pressupostos: a ponte que ficou implícita
 
-Argumentos em linguagem natural frequentemente omitem uma ponte que o autor espera que o leitor aceite.
+A linguagem natural frequentemente omite uma premissa que o autor espera que o leitor complete.
 
 > Rui domina a ferramenta; portanto, deve ministrar o treinamento.
 
-Para que a passagem funcione, é preciso algum pressuposto como:
+A passagem depende de alguma ponte, por exemplo:
 
-> nas circunstâncias consideradas, dominar a ferramenta é condição suficiente para estar apto a ministrar o treinamento.
+> Nas circunstâncias consideradas, dominar a ferramenta é suficiente para estar apto a ministrar o treinamento.
 
-Ao reconstruir um pressuposto:
+Para localizar um pressuposto, faça três movimentos:
 
-1. identifique a conclusão;
-2. identifique as razões expressas;
-3. pergunte o que falta para ligar essas razões à conclusão;
-4. não invente uma premissa apenas para “salvar” o argumento.
+1. identifique premissas e conclusão expressas;
+2. pergunte o que precisa ser aceito para ligar umas à outra;
+3. teste se a ponte é realmente compatível com o texto.
 
-Um bom candidato a pressuposto deve ser compatível com o texto e relevante para a inferência.
+Não vale inventar qualquer frase apenas para tornar o argumento melhor. O pressuposto reconstruído deve corresponder à passagem efetivamente sugerida.
 
 ## 6. Verdade, validade e solidez
 
-Essas três ideias não são sinônimas.
+Esses conceitos respondem a perguntas diferentes.
 
-| Conceito | Aplica-se a | Critério |
-|---|---|---|
-| verdade/falsidade | afirmações | conteúdo da afirmação |
-| validade/invalidade | argumento dedutivo | relação entre premissas e conclusão |
-| solidez | argumento dedutivo | validade + premissas verdadeiras |
+| Conceito | Pergunta |
+|---|---|
+| verdade ou falsidade | a afirmação corresponde ou não ao que se considera verdadeiro? |
+| validade | seria possível ter todas as premissas verdadeiras e a conclusão falsa? |
+| solidez | o argumento é válido e, além disso, todas as premissas são verdadeiras? |
 
-### 6.1. Validade
+### 6.1. Validade olha para a relação
 
-Um argumento dedutivo é **válido** quando não há situação possível em que todas as premissas sejam verdadeiras e a conclusão seja falsa.
+Um argumento dedutivo é **válido** quando não existe situação possível em que todas as premissas sejam verdadeiras e a conclusão seja falsa.
 
 Exemplo:
 
@@ -145,11 +131,9 @@ Exemplo:
 2. O parecer P foi publicado.
 3. Logo, P é acessível ao público.
 
-Tomadas as premissas como verdadeiras, a conclusão não pode ser falsa.
+Se as premissas forem verdadeiras, a conclusão não pode falhar.
 
-### 6.2. Premissa falsa não implica invalidade
-
-Considere:
+### 6.2. Premissa falsa não torna a forma inválida
 
 1. Todo planeta é feito de vidro.
 2. Marte é um planeta.
@@ -159,18 +143,13 @@ A primeira premissa é falsa no mundo real, mas a forma é válida: **se** as pr
 
 ### 6.3. Conclusão verdadeira não prova validade
 
-Uma conclusão pode ser verdadeira por acaso em um argumento inválido. Para avaliar validade, examine a relação inferencial, não apenas o valor de verdade da conclusão.
+Uma conclusão pode ser verdadeira por coincidência dentro de um argumento mal construído. Validade depende da ligação entre premissas e conclusão, não do fato isolado de a conclusão ser verdadeira.
 
-### 6.4. Solidez
+### 6.4. Solidez acrescenta a verdade das premissas
 
-Um argumento dedutivo é **sólido** quando:
+Um argumento dedutivo é **sólido** quando é válido e todas as premissas são verdadeiras. Por isso, todo argumento sólido tem conclusão verdadeira; o inverso não é garantido.
 
-1. é válido; e
-2. todas as suas premissas são verdadeiras.
-
-Todo argumento sólido tem conclusão verdadeira. O inverso não é garantido.
-
-## 7. Contraexemplo
+## 7. O teste decisivo da dedução: procure um contraexemplo
 
 Para mostrar que um argumento dedutivo é inválido, basta construir um cenário coerente em que:
 
@@ -183,245 +162,157 @@ Exemplo:
 2. O documento D tem número.
 3. Logo, D foi protocolado.
 
-Contraexemplo: D recebeu um número interno antes do protocolo e ainda não foi protocolado.
+Imagine que D recebeu um número interno antes do protocolo e ainda não foi protocolado. Nesse cenário, as premissas podem ser verdadeiras e a conclusão falsa. A inferência, portanto, é inválida.
 
-Nesse cenário, as duas premissas podem ser verdadeiras e a conclusão falsa. Logo, a inferência não é válida.
+O contraexemplo não precisa ter ocorrido de fato; precisa apenas ser compatível com as premissas. Esse é o teste mais econômico para muitos argumentos dedutivos em linguagem natural.
 
-> Contraexemplo à validade não precisa ter ocorrido de fato; precisa apenas ser logicamente compatível com as premissas.
+## 8. Nem toda inferência pretende garantir a conclusão
 
-## 8. Força das conclusões
+A força do apoio pode ser diferente.
 
-### 8.1. Necessária
+### 8.1. Dedução
 
-Uma conclusão é necessária relativamente às premissas quando não pode ser falsa se elas forem verdadeiras.
+Na **dedução**, as premissas pretendem garantir a conclusão. Se a forma é válida e as premissas são verdadeiras, a conclusão é necessária.
 
-### 8.2. Provável
+### 8.2. Indução
 
-Uma conclusão provável recebe apoio relevante, mas ainda pode ser falsa.
+Na **indução**, casos observados apoiam uma generalização ou previsão sem eliminarem a possibilidade de erro.
 
-### 8.3. Possível
+Exemplo hipotético:
 
-Uma conclusão possível é apenas compatível com o que se sabe. Isso não basta para dizer que seja provável.
+> Em uma amostra ampla e representativa, a maioria dos usuários preferiu o canal digital. É provável que essa preferência também apareça no conjunto dos usuários.
 
-| Grau | Ideia central |
+A força aumenta quando a base é suficiente, representativa e adequada ao universo. Enfraquece quando poucos casos são universalizados, grupos relevantes ficam de fora ou a conclusão diz mais do que os dados permitem.
+
+Premissas verdadeiras podem formar uma boa indução sem tornar a conclusão necessária.
+
+### 8.3. Analogia
+
+Na **analogia**, semelhanças entre um caso conhecido e outro caso sustentam uma conclusão sobre este último.
+
+Exemplo hipotético:
+
+> Duas unidades usam o mesmo sistema, têm equipes semelhantes e executam o mesmo fluxo. Uma mudança reduziu retrabalho na unidade A. Isso dá razão para esperar benefício semelhante em B.
+
+A analogia fica mais forte quando as semelhanças têm relação direta com o resultado que se pretende transferir. Ela enfraquece se houver diferença relevante justamente nesse ponto.
+
+Imagine que a unidade B possua uma restrição que impede a mudança responsável pelo resultado obtido em A. Uma única diferença desse tipo pode pesar mais que várias semelhanças superficiais.
+
+## 9. Necessário, provável e possível
+
+A conclusão deve ser tão forte quanto o apoio recebido.
+
+| Grau | Significado |
 |---|---|
-| necessário | não pode falhar dadas as premissas |
-| provável | tem apoio, mas pode falhar |
-| possível | não foi excluído |
+| necessária | não pode ser falsa se as premissas forem verdadeiras |
+| provável | recebe apoio relevante, mas ainda pode ser falsa |
+| possível | não foi excluída pelo que se sabe |
 
-**Possível ≠ provável ≠ necessário.**
+**Possível não significa provável; provável não significa necessário.**
 
-A força da linguagem deve acompanhar a força do apoio. Evidência limitada não justifica automaticamente “sempre”, “todos”, “necessariamente” ou “sem exceção”.
+Essa distinção aparece em pegadinhas com palavras como “sempre”, “todos”, “necessariamente” e “sem exceção”. Uma base limitada raramente sustenta uma conclusão universal.
 
-## 9. Dedução
+## 10. Condicionais: respeite a direção da regra
 
-Na **dedução**, as premissas pretendem garantir a conclusão.
-
-Características:
-
-- a conclusão é apresentada como inevitável relativamente às premissas;
-- validade independe de a premissa ser verdadeira no mundo real;
-- um único contraexemplo adequado destrói a validade;
-- conclusão verdadeira, por si só, não confirma a forma.
-
-Exemplo:
-
-1. Nenhum relatório sem assinatura é protocolado.
-2. R não possui assinatura.
-3. Logo, R não é protocolado.
-
-Se as premissas forem verdadeiras, a conclusão é necessária.
-
-## 10. Indução
-
-Na **indução**, casos observados sustentam generalizações ou previsões sem garantia absoluta.
-
-Exemplo:
-
-> Em amostra ampla e representativa, a maioria dos usuários preferiu o canal digital. É provável que essa preferência também apareça no conjunto dos usuários.
-
-A força da indução aumenta quando:
-
-- a amostra é adequada ao universo;
-- há diversidade e representatividade;
-- o número de casos é suficiente para a conclusão pretendida;
-- não há seleção enviesada;
-- a conclusão é proporcional aos dados.
-
-Ela enfraquece quando:
-
-- poucos casos são transformados em regra geral;
-- a amostra exclui grupos relevantes;
-- a conclusão universal excede a base disponível;
-- existem exceções relevantes ignoradas.
-
-Premissas verdadeiras podem sustentar uma indução forte sem tornar a conclusão necessária.
-
-## 11. Analogia
-
-Um argumento por analogia usa semelhanças entre um caso conhecido e outro caso para sustentar uma conclusão sobre este último.
-
-Exemplo:
-
-> Duas unidades usam o mesmo sistema, têm equipes e volume de atendimento semelhantes e executam o mesmo fluxo. Uma mudança reduziu retrabalho na unidade A. Isso fornece razão para esperar benefício semelhante em B, embora não garanta resultado idêntico.
-
-### 11.1. Como avaliar
-
-Pergunte:
-
-1. as semelhanças têm relação com a característica que se quer transferir?
-2. existe diferença relevante entre os casos?
-3. a característica está realmente presente no caso conhecido?
-4. a conclusão é proporcional ao grau de semelhança?
-
-Uma única diferença decisiva pode enfraquecer mais a analogia do que várias semelhanças superficiais a fortalecem.
-
-Exemplo de diferença decisiva:
-
-> A unidade B possui restrição que impede justamente a mudança responsável pelo resultado obtido em A.
-
-Nesse caso, a analogia perde força.
-
-## 12. Padrões condicionais em linguagem natural
-
-Considere a regra:
+Considere:
 
 > Se A ocorre, então B ocorre.
 
-Aqui, o objetivo é avaliar a inferência verbal. O cálculo formal de proposições e equivalências pertence aos assuntos seguintes.
+O objetivo aqui é reconhecer inferências verbais; a formalização completa pertence ao assunto de proposições e tabelas-verdade.
 
-### 12.1. Afirmação da condição — válida
+### 10.1. Aconteceu A: conclua B
 
 1. Se A, então B.
 2. A.
 3. Logo, B.
 
-Esse padrão é tradicionalmente chamado **modus ponens**.
+Esse padrão válido é chamado <abbr title="Regra que afirma a condição e conclui sua consequência">modus ponens</abbr>.
 
-### 12.2. Negação da consequência — válida
+### 10.2. B não ocorreu: conclua que A não ocorreu
 
 1. Se A, então B.
 2. Não B.
 3. Logo, não A.
 
-Esse padrão é tradicionalmente chamado **modus tollens**.
+Esse padrão válido é chamado <abbr title="Regra que nega a consequência e conclui a negação da condição">modus tollens</abbr>.
 
-### 12.3. Afirmação da consequência — inválida
+### 10.3. Aconteceu B: isso não prova A
 
 1. Se A, então B.
 2. B.
 3. Logo, A.
 
-A conclusão não é garantida porque B pode ocorrer por outra razão.
-
-Exemplo:
+A inferência é inválida porque B pode ter outra causa.
 
 > Se choveu, a rua está molhada. A rua está molhada. Logo, choveu.
 
 A rua poderia ter sido lavada.
 
-### 12.4. Negação da condição — inválida
+### 10.4. A não ocorreu: isso não prova que B não ocorreu
 
 1. Se A, então B.
 2. Não A.
 3. Logo, não B.
 
-B pode ocorrer por outro caminho.
-
-Exemplo:
+B pode acontecer por outro caminho.
 
 > Se o relatório foi enviado por e-mail, chegou hoje. Não foi enviado por e-mail. Logo, não chegou hoje.
 
 Ele poderia ter chegado por outro canal.
 
-## 13. Relevância e suficiência do apoio
+## 11. Relevância, suficiência e proporcionalidade
 
-Além da validade dedutiva, muitas questões pedem reconhecer se as razões efetivamente sustentam a conclusão.
+Mesmo fora de uma dedução estrita, três perguntas ajudam a avaliar o apoio.
 
-### 13.1. Relevância
-
-A razão precisa dizer respeito à propriedade afirmada.
+### 11.1. A razão é relevante?
 
 > A proposta é popular; logo, é juridicamente válida.
 
-Popularidade, sozinha, não demonstra legalidade.
+Popularidade, sozinha, não demonstra legalidade. A razão não atinge a propriedade afirmada na conclusão.
 
-### 13.2. Suficiência
-
-Uma razão pode ser relevante e ainda ser insuficiente.
+### 11.2. A razão é suficiente?
 
 > Dois usuários reclamaram; logo, todos os usuários rejeitam o serviço.
 
-As reclamações têm relação com satisfação, mas a base é pequena demais para a conclusão universal.
+As reclamações são relevantes para satisfação, mas a base é insuficiente para uma conclusão universal.
 
-### 13.3. Conclusão proporcional
+### 11.3. A força da linguagem é proporcional?
 
-Quanto mais forte e ampla a conclusão, maior deve ser o apoio.
+“Pode ocorrer” exige menos apoio que “provavelmente ocorrerá”; “provavelmente” exige menos que “necessariamente”. Ao resolver a questão, compare a força da conclusão com a força efetiva das premissas.
 
-- “pode ocorrer” exige menos que “provavelmente ocorrerá”;
-- “provavelmente” exige menos que “necessariamente”;
-- um caso não sustenta automaticamente uma regra universal.
+## 12. Um método único para resolver a questão
 
-## 14. Método de resolução
+Em vez de decorar listas separadas para cada tipo de argumento, percorra esta sequência:
 
-### Passo 1 — encontre a conclusão
+1. **Ache a conclusão.** Qual afirmação o autor quer que você aceite?
+2. **Separe as premissas.** Quais razões foram apresentadas?
+3. **Reconstrua a passagem.** Há pressuposto ou conclusão intermediária?
+4. **Identifique a pretensão.** A conclusão é necessária, provável, possível ou sustentada por analogia?
+5. **Escolha o teste.** Dedução pede contraexemplo; indução pede exame da base; analogia pede diferenças relevantes; condicional pede atenção à direção da regra.
+6. **Compare apoio e conclusão.** A razão é relevante? É suficiente? A linguagem exagera o que as premissas permitem?
 
-Pergunte: **qual afirmação o autor quer que eu aceite?**
+## 13. Armadilhas que valem reconhecer de imediato
 
-### Passo 2 — identifique as premissas
+- conclusão verdadeira não torna o argumento válido;
+- premissa falsa não torna a forma inválida;
+- argumento válido não é necessariamente sólido;
+- um exemplo favorável não prova necessidade;
+- um caso não sustenta automaticamente uma regra universal;
+- possível, provável e necessário são graus diferentes;
+- sucessão temporal, por si só, não prova relação causal;
+- muitas semelhanças superficiais não compensam uma diferença decisiva numa analogia;
+- de “se A, então B” e “B”, não se conclui A;
+- de “se A, então B” e “não A”, não se conclui “não B”;
+- marcadores como “logo” ajudam a localizar a estrutura, mas não tornam a inferência correta;
+- um pressuposto deve reconstruir a passagem do texto, não ser inventado apenas para salvá-la.
 
-Quais afirmações são oferecidas como razões?
+## 14. Síntese para retenção
 
-### Passo 3 — reconstrua a ligação
+A lógica de argumentação não pergunta apenas **se a conclusão parece razoável**. Ela pergunta **que tipo de apoio as premissas oferecem e até onde esse apoio permite ir**.
 
-Há pressuposto omitido ou conclusão intermediária?
+Ao final, retenha quatro contrastes:
 
-### Passo 4 — determine a força pretendida
-
-A conclusão é apresentada como:
-
-- necessária;
-- provável;
-- possível;
-- sustentada por analogia?
-
-### Passo 5 — aplique o teste adequado
-
-- **dedução:** procure contraexemplo;
-- **indução:** examine quantidade, representatividade e alcance;
-- **analogia:** procure semelhanças relevantes e diferenças decisivas;
-- **condicional:** confira a direção da regra.
-
-### Passo 6 — compare a conclusão com o apoio
-
-A razão é relevante? É suficiente? A conclusão exagera o que as premissas permitem?
-
-## 15. Armadilhas frequentes
-
-1. **Conclusão verdadeira = argumento válido.** Não.
-2. **Premissa falsa = argumento inválido.** Não.
-3. **Válido = sólido.** Não: solidez também exige premissas verdadeiras.
-4. **Um exemplo favorável prova necessidade.** Não.
-5. **Possível = provável.** Não.
-6. **Provável = necessário.** Não.
-7. **“Antes ocorreu X, depois Y” prova que X causou Y.** Não necessariamente.
-8. **Muitas semelhanças superficiais garantem boa analogia.** Não.
-9. **Um caso permite concluir sobre todos.** Não.
-10. **Se A leva a B e B ocorreu, então A ocorreu.** Não.
-11. **Se A leva a B e A não ocorreu, então B não ocorreu.** Não.
-12. **Indicador como “logo” resolve sozinho a estrutura.** Não: o contexto continua necessário.
-13. **Pressuposto pode ser qualquer frase que torne o argumento válido.** Não: deve ser compatível com a passagem real.
-
-## 16. Síntese operacional
-
-Para resolver questões de lógica de argumentação:
-
-1. separe premissas e conclusão;
-2. identifique pressupostos e etapas intermediárias quando houver;
-3. não confunda verdade com validade nem validade com solidez;
-4. teste deduções por contraexemplo;
-5. trate induções como apoio graduado, não como garantia;
-6. avalie analogias por semelhanças relevantes e diferenças decisivas;
-7. diferencie conclusão necessária, provável e possível;
-8. em condicionais, respeite a direção da regra;
-9. verifique se o apoio é relevante e suficiente para a força da conclusão.
+1. **premissa × conclusão:** razão oferecida × tese sustentada;
+2. **verdade × validade:** conteúdo da afirmação × qualidade da ligação dedutiva;
+3. **dedução × indução/analogia:** garantia × apoio graduado;
+4. **possível × provável × necessário:** compatibilidade × apoio relevante × impossibilidade de falha dadas as premissas.
