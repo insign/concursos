@@ -6,16 +6,18 @@ order: 40
 storageId: logica-primeira-ordem
 ---
 
-## 1. Recorte do assunto
+## 1. Da proposição ao predicado
 
-A **lógica de primeira ordem (LPO)**, ou lógica de predicados, amplia a lógica proposicional ao explicitar a estrutura interna de enunciados como:
+A lógica proposicional consegue tratar “todo servidor é agente público” como uma proposição inteira, mas assim perde justamente a estrutura que interessa à questão: **quem** é servidor, **qual propriedade** esse objeto possui e **quantos objetos** precisam satisfazê-la.
+
+A **lógica de primeira ordem**, também chamada lógica de predicados, abre essa estrutura. Em vez de trabalhar apenas com blocos proposicionais, ela permite representar objetos, propriedades, relações e expressões como:
 
 - todo servidor é agente público;
 - algum processo contém informação sigilosa;
 - cada auditor analisa algum processo;
 - existe um processo analisado por todos os auditores.
 
-Na LPO, os quantificadores percorrem **objetos de um domínio**. Quantificar propriedades, relações ou conjuntos pertence a lógicas de ordem superior e não integra este recorte.
+Na <abbr title="Lógica de primeira ordem">LPO</abbr>, os quantificadores percorrem **objetos de um domínio**. Quantificar propriedades, relações ou conjuntos pertence a lógicas de ordem superior e não integra este recorte.
 
 O foco de prova é reconhecer a linguagem, traduzir enunciados, negar quantificadores, distinguir ordens de quantificação e avaliar inferências simples.
 
@@ -23,7 +25,7 @@ O foco de prova é reconhecer a linguagem, traduzir enunciados, negar quantifica
 
 ### 2.1. Domínio
 
-O **domínio** ou **universo do discurso** é o conjunto de objetos sobre os quais se fala. Na semântica clássica usual, ele é não vazio:
+O **domínio** ou **universo do discurso** é o conjunto de objetos sobre os quais se fala. Na <abbr title="Semântica clássica em que as fórmulas recebem valor verdadeiro ou falso">semântica clássica usual</abbr>, ele é não vazio:
 
 $$
 U\neq\varnothing.
@@ -104,6 +106,44 @@ Uma ocorrência é **ligada** quando está no escopo de um quantificador para a 
 | $P(x)\land\exists xQ(x)$ | $x$ livre em $P$ e ligada em $Q$ |
 
 Uma **sentença** ou fórmula fechada não possui variável livre. Fórmulas abertas dependem também de uma atribuição às variáveis livres.
+
+### 4.1. Renomear variável ligada e evitar captura
+
+O nome de uma variável ligada é apenas um marcador local. Por isso,
+
+$$
+\forall xP(x)\equiv\forall zP(z),
+$$
+
+desde que a troca seja feita de forma consistente e não altere ocorrências que estavam livres.
+
+O cuidado aparece na **substituição**. Considere
+
+$$
+\exists y\,R(x,y),
+$$
+
+em que $x$ está livre. Substituir simplesmente $x$ por $y$ produziria
+
+$$
+\exists y\,R(y,y),
+$$
+
+mas isso muda o sentido: a ocorrência antes livre passa a ficar ligada por $\exists y$. Esse efeito é chamado **captura de variável**.
+
+Para evitar a captura, primeiro renomeie a variável ligada por uma nova, por exemplo:
+
+$$
+\exists z\,R(x,z).
+$$
+
+Agora a substituição de $x$ por $y$ pode ser feita sem mudar quem está ligado a qual quantificador:
+
+$$
+\exists z\,R(y,z).
+$$
+
+Em prova, portanto, renomear variável ligada é seguro quando preserva o vínculo; substituir é seguro apenas quando não transforma uma ocorrência livre em ligada.
 
 ## 5. Traduções que mais caem
 
@@ -392,7 +432,7 @@ $$
 \exists xC(x).
 $$
 
-## 13. Padrão oficial do CEBRASPE
+## 13. Padrão oficial do <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">CEBRASPE</abbr>
 
 Em item oficial da prova de Escrivão da <abbr title="Polícia Civil do Distrito Federal">PCDF</abbr>, o <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">CEBRASPE</abbr> julgou errada a afirmação de que a negação de “Todos são iguais perante a lei” seria “Todos são diferentes perante a lei”. A justificativa oficial aponta a forma existencial: **nem todos** possuem a propriedade, isto é, **existe ao menos um contraexemplo**.
 
@@ -409,6 +449,7 @@ $$
 - termo não é fórmula;
 - função não é predicado;
 - preserve aridade e ordem dos argumentos;
+- variável ligada pode ser renomeada consistentemente, mas substituição não pode causar captura;
 - universal restrita usa implicação;
 - existencial restrita usa conjunção;
 - “somente $A$ são $B$” significa $B\to A$;
@@ -426,7 +467,7 @@ $$
 2. Defina predicados e relações com suas aridades.
 3. Localize “todo”, “algum”, “nenhum”, “somente” e negações.
 4. Use implicação na universal restrita e conjunção na existencial restrita.
-5. Marque o escopo dos quantificadores.
+5. Marque o escopo dos quantificadores e confira se alguma substituição captura variável livre.
 6. Confira a ordem de $\forall$ e $\exists$.
 7. Para negar, troque o quantificador e negue o escopo.
 8. Para testar invalidade, tente um domínio pequeno que torne premissas verdadeiras e conclusão falsa.
