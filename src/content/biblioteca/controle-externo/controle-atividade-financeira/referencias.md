@@ -1,2 +1,3 @@
-- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — especialmente arts. 70, 71 e 74; texto compilado.
+- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — especialmente arts. 70, 71, 74 e 75; texto compilado.
+- [Emenda Constitucional nº 139, de 5 de maio de 2026](https://planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc139.htm) — alterações dos arts. 31, § 1º, e 75 da Constituição; publicação anterior ao corte do edital.
 - [Lei nº 4.320, de 17 de março de 1964](https://www.planalto.gov.br/ccivil_03/leis/l4320compilado.htm) — especialmente arts. 75 a 82; texto compilado.

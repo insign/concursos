@@ -6,215 +6,226 @@ order: 53
 storageId: controle-atividade-financeira
 ---
 
-## 1. Recorte do assunto
+## 1. O que significa controlar a atividade financeira do Estado?
 
-A atividade financeira do Estado envolve a obtenção, gestão, aplicação e controle de recursos públicos. Para este item do edital, o ponto central não é estudar todo o ciclo orçamentário ou toda a responsabilidade fiscal, mas compreender **como a atividade financeira é fiscalizada, quais são as espécies de controle e como se organizam os sistemas interno e externo**.
+Imagine, como **exemplo hipotético**, que um órgão público compre equipamentos para prestar um serviço. Fiscalizar essa operação não é apenas perguntar se o pagamento foi autorizado. Também interessa saber se havia autorização no orçamento, se os registros contábeis refletem o que ocorreu, se o bem entrou no patrimônio, se o gasto foi feito de modo econômico e se a aquisição produziu o resultado esperado.
 
-O assunto se apoia principalmente em duas matrizes:
+Esse exemplo revela a lógica do tema: uma mesma operação pública pode ser observada por **vários ângulos**, avaliada por **critérios diferentes**, acompanhada em **momentos diferentes** e fiscalizada dentro de **sistemas institucionais diferentes**.
 
-- **Constituição Federal, arts. 70 e 74**: objetos, parâmetros e sistemas constitucionais de fiscalização;
-- **Lei nº 4.320/1964, arts. 75 a 82**: controle da execução orçamentária e seus momentos.
+Para resolver questões, separe quatro perguntas:
 
-O Assunto 054 aprofundará a organização e as competências constitucionais dos tribunais de contas. Aqui, basta compreender sua posição no sistema de controle externo.
+1. **o que** está sendo fiscalizado? → dimensão;
+2. **por qual critério** se avalia? → parâmetro;
+3. **quando** o controle ocorre? → momento;
+4. **dentro de qual arranjo institucional** ele ocorre? → controle interno ou externo.
 
-## 2. Art. 70 da Constituição: matriz da fiscalização financeira
+A Constituição fornece a matriz mais ampla; a Lei nº 4.320/1964 detalha, no recorte cobrado aqui, o controle da execução orçamentária.
 
-O art. 70 determina a fiscalização **contábil, financeira, orçamentária, operacional e patrimonial** da União e das entidades da administração direta e indireta.
+## 2. Matriz constitucional: objeto, parâmetro e responsável
 
-Mnemônico útil: **CFOOP**.
+O <abbr title="artigo">art.</abbr> 70 da Constituição organiza a fiscalização federal em uma frase densa. Ela alcança a atividade **contábil, financeira, orçamentária, operacional e patrimonial**, examina **legalidade, legitimidade e economicidade**, inclui expressamente a **aplicação das <abbr title="Transferências destinadas a apoiar atividade ou entidade conforme o regime aplicável">subvenções</abbr> e a <abbr title="Medida que reduz receita pública conforme o regime aplicável">renúncia de receitas</abbr>** e distribui a fiscalização entre **controle externo** e **sistema de controle interno de cada Poder**.
 
-| Dimensão | Foco predominante |
+Antes de decorar nomes, veja como as peças se encaixam no exemplo da compra pública:
+
+- o registro da operação é uma questão **contábil**;
+- a saída de dinheiro é **financeira**;
+- a existência e a execução da <abbr title="Autorização orçamentária para realizar determinada despesa">dotação</abbr> são **orçamentárias**;
+- a utilidade e o desempenho da aquisição são **operacionais**;
+- a incorporação e a guarda dos equipamentos são **patrimoniais**.
+
+Essas cinco dimensões formam o mnemônico <abbr title="Contábil, financeira, orçamentária, operacional e patrimonial">CFOOP</abbr>. Elas **não são compartimentos excludentes**: a mesma operação pode exigir todas.
+
+### 2.1. Dimensão não é parâmetro
+
+As dimensões respondem **o que é observado**. Os parâmetros respondem **como a atuação é julgada**.
+
+- **legalidade**: conformidade com as normas aplicáveis;
+- **legitimidade**: aderência da atuação à finalidade pública e aos princípios que justificam o exercício da competência;
+- **economicidade**: relação racional entre custos, meios empregados, qualidade e benefícios obtidos.
+
+Por isso, **menor preço nominal não demonstra, sozinho, economicidade**. Um item barato, mas inadequado ao resultado exigido, pode representar uso pouco econômico dos recursos; inversamente, pagar mais não torna automaticamente a decisão antieconômica. É preciso examinar a relação entre custo e utilidade dentro das regras e da competência aplicáveis.
+
+A distinção mais importante é esta:
+
+| Pergunta | Categoria |
 | --- | --- |
-| contábil | registros, demonstrações e evidenciação |
-| financeira | entradas, saídas, disponibilidades, crédito e dívida |
-| orçamentária | planejamento, autorização e execução do orçamento |
-| operacional | processos, desempenho, produtos e resultados |
-| patrimonial | bens, direitos, obrigações, guarda e variações patrimoniais |
-
-As dimensões **não são compartimentos estanques**. Uma mesma operação pode ser examinada simultaneamente sob mais de uma delas.
-
-### 2.1. Parâmetros constitucionais
-
-O mesmo art. 70 determina que a fiscalização seja exercida quanto à:
-
-- **legalidade**;
-- **legitimidade**;
-- **economicidade**.
-
-Não confunda:
-
-- `contábil, financeira, orçamentária, operacional e patrimonial` = **dimensões/objetos**;
-- `legalidade, legitimidade e economicidade` = **parâmetros de avaliação**.
-
-**Legalidade** verifica conformidade com o ordenamento aplicável.
-
-**Legitimidade** examina a aderência da atuação à finalidade pública e aos princípios que justificam a competência exercida.
-
-**Economicidade** considera a relação racional entre custos, meios, qualidade e benefícios. Menor preço nominal, isoladamente, não prova economicidade.
+| O que é fiscalizado? | contábil, financeira, orçamentária, operacional e patrimonial |
+| Com qual critério? | legalidade, legitimidade e economicidade |
 
 ### 2.2. Subvenções e renúncia de receitas
 
-O art. 70 menciona expressamente a **aplicação das subvenções** e a **renúncia de receitas** como matérias sujeitas à fiscalização.
+O <abbr title="artigo">art.</abbr> 70 ainda destaca duas matérias submetidas à fiscalização.
 
-Para este assunto, a regra de prova é simples:
+**Subvenção**, neste contexto, é transferência de recursos destinada a apoiar determinada atividade ou entidade segundo o regime jurídico aplicável. O fato de o dinheiro sair da estrutura estatal não interrompe o dever de acompanhar sua aplicação.
 
-- transferir recursos sob a forma de subvenção não afasta o dever de controle sobre sua aplicação;
-- reduzir receita por benefício fiscal não retira a matéria do alcance fiscalizatório;
-- subvenção e renúncia de receita **não são sistemas nem dimensões** de fiscalização: são matérias expressamente controladas.
+**Renúncia de receita** é situação em que o poder público abre mão, nos termos legais, de receita que poderia ingressar em seus cofres, como ocorre em benefícios fiscais abrangidos pelo regime pertinente. Também aqui existe impacto financeiro sujeito a controle.
 
-O regime detalhado dessas figuras pertence às normas financeiras específicas e não precisa ser transformado aqui em revisão integral da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> ou da Lei nº 4.320/1964.
+Não transforme essas expressões em novas dimensões ou sistemas. Elas são **matérias expressamente mencionadas** pela Constituição.
 
 ### 2.3. Quem deve prestar contas
 
-O parágrafo único do art. 70 estabelece dever amplo de prestação de contas. Deve prestar contas qualquer pessoa física ou jurídica, **pública ou privada**, que, nos termos constitucionais:
+O parágrafo único do <abbr title="artigo">art.</abbr> 70 usa um critério material. Deve prestar contas qualquer pessoa física ou jurídica, pública ou privada, que:
 
 - utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos;
 - responda por valores pelos quais a União responda;
-- assuma obrigações de natureza pecuniária em nome da União.
+- assuma, em nome da União, obrigações de natureza <abbr title="Relacionada a dinheiro">pecuniária</abbr>.
 
-O critério é material: a natureza privada da pessoa não elimina o dever quando existe vínculo com recursos, bens, valores ou obrigações públicas.
+Assim, uma entidade privada que administre recursos públicos não fica fora do controle apenas por ser privada. O dever nasce do **vínculo material com recursos, bens, valores ou obrigações públicas**.
 
-## 3. Espécies de controle quanto ao momento
+## 3. Da União aos demais entes: a ponte constitucional
 
-Uma classificação clássica distingue o controle financeiro conforme o momento em que incide.
+Os <abbr title="artigos">arts.</abbr> 70 a 74 descrevem diretamente a fiscalização federal. O <abbr title="artigo">art.</abbr> 75 estende, **no que couber**, as normas dessa seção à organização, composição e fiscalização dos tribunais de contas dos Estados e do Distrito Federal e dos tribunais e conselhos de contas dos Municípios.
 
-| Espécie | Momento | Ideia central |
-| --- | --- | --- |
-| prévio ou preventivo | antes do ato ou de seus efeitos | evitar ou reduzir risco antes da consumação |
-| concomitante ou sucessivo | durante a execução | acompanhar e permitir correção em curso |
-| posterior ou subsequente | depois do ato ou resultado | examinar contas, regularidade e resultados já produzidos |
+No corte do edital, **6 de julho de 2026**, já vigora a Emenda Constitucional nº 139/2026, publicada em 6 de maio de 2026. Ela passou a declarar os tribunais de contas **instituições permanentes e essenciais ao exercício do controle externo** e vedou, no âmbito do <abbr title="artigo">art.</abbr> 75, sua extinção, criação ou instalação.
 
-Essas espécies não se confundem com os sistemas interno e externo. Um controle interno ou externo pode atuar em momentos distintos conforme sua competência.
+Essa é a ponte necessária aqui. Organização, composição e competências específicas do <abbr title="Tribunal de Contas da União">TCU</abbr>, dos <abbr title="Tribunais de Contas dos Estados">TCEs</abbr>, do <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr> e do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> ficam para o Assunto 054.
 
-### 3.1. Art. 77 da Lei nº 4.320/1964
+## 4. Quando o controle ocorre?
 
-O art. 77 traz formulação literal de grande rendimento em prova:
+Outra classificação olha para o **momento de incidência**, e não para o órgão que controla.
+
+- **prévio ou preventivo**: antes do ato ou de seus efeitos, buscando evitar a consumação de uma irregularidade ou reduzir um risco;
+- **concomitante ou sucessivo**: durante a execução, permitindo acompanhar o que está acontecendo e corrigir desvios em curso;
+- **posterior ou subsequente**: depois do ato, da execução ou do resultado, quando se examinam fatos já produzidos.
+
+Volte ao exemplo hipotético da compra. Verificar a existência de condições antes de contratar é controle prévio; acompanhar a entrega durante a execução é concomitante; examinar contas e resultados depois da aquisição é posterior.
+
+Atenção: **momento e sistema são eixos diferentes**. Controle externo não significa necessariamente controle posterior, e controle interno não significa necessariamente controle prévio.
+
+### 4.1. A literalidade de alto rendimento do <abbr title="artigo">art.</abbr> 77
+
+A Lei nº 4.320/1964 formula a classificação temporal de modo específico para a execução orçamentária:
 
 > a verificação da legalidade dos atos de execução orçamentária será prévia, concomitante e subsequente.
 
-Atenção ao recorte: o dispositivo fala especificamente da **verificação da legalidade dos atos de execução orçamentária**. Ele não transforma `prévio`, `concomitante` e `subsequente` em sistemas constitucionais de controle.
+Preserve o recorte da norma: o <abbr title="artigo">art.</abbr> 77 fala da **verificação da legalidade dos atos de execução orçamentária**. Ele não cria três sistemas constitucionais de controle.
 
-## 4. Sistemas constitucionais: externo e interno
+### 4.2. Como o controle começa: de ofício ou provocado
 
-O art. 70 organiza a fiscalização por dois sistemas institucionais centrais:
+Há ainda um eixo diferente: a **iniciativa**. Controle **de ofício** começa por iniciativa do próprio órgão competente; controle **provocado** começa a partir de uma provocação admitida pelo ordenamento.
 
-1. **controle externo**;
-2. **sistema de controle interno de cada Poder**.
+A Constituição mostra os dois caminhos. O <abbr title="artigo">art.</abbr> 71, IV, permite ao <abbr title="Tribunal de Contas da União">TCU</abbr> realizar inspeções e auditorias por iniciativa própria ou por iniciativa de órgãos do Legislativo; o <abbr title="artigo">art.</abbr> 74, § 2º, permite denúncia ao <abbr title="Tribunal de Contas da União">TCU</abbr> pelos legitimados ali indicados.
 
-Eles são complementares e possuem responsabilidades próprias.
+Logo, **iniciativa também não se confunde com momento ou sistema**: um controle externo pode começar de ofício ou por provocação e pode atuar em diferentes momentos conforme a competência aplicável.
 
-### 4.1. Controle externo
+## 5. Dois sistemas institucionais: externo e interno
 
-No plano federal, o controle externo está a cargo do **Congresso Nacional** e é exercido com o auxílio do **Tribunal de Contas da União**.
+No plano federal, o <abbr title="artigo">art.</abbr> 70 combina duas estruturas: o **controle externo**, exercido pelo Congresso Nacional, e o **sistema de controle interno de cada Poder**.
 
-A fórmula de prova é:
+Eles não competem para ocupar o mesmo lugar. Cada um tem responsabilidades próprias, e o controle interno também deve apoiar o externo.
 
-`Congresso Nacional = titular do controle externo`  
-`TCU = órgão que auxilia e exerce competências constitucionais próprias`
+### 5.1. Controle externo
 
-Auxílio não significa subordinação hierárquica do TCU ao Congresso Nacional. Também não transforma o Tribunal em órgão do Poder Judiciário.
+O <abbr title="artigo">art.</abbr> 71 esclarece a relação institucional: o controle externo está a cargo do **Congresso Nacional** e é exercido com o auxílio do <abbr title="Tribunal de Contas da União">TCU</abbr>.
 
-A composição, a organização e o catálogo de competências do TCU, dos <abbr title="Tribunais de Contas dos Estados">TCEs</abbr>, do <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr> e do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> pertencem ao Assunto 054.
+A imagem correta é:
 
-### 4.2. Sistema de controle interno — art. 74
+**Congresso Nacional = titular do controle externo federal**  
+**<abbr title="Tribunal de Contas da União">TCU</abbr> = órgão de auxílio com competências constitucionais próprias**
 
-Os Poderes Legislativo, Executivo e Judiciário devem manter, **de forma integrada**, sistema de controle interno com quatro finalidades constitucionais:
+“Auxílio” não significa subordinação hierárquica do <abbr title="Tribunal de Contas da União">TCU</abbr> ao Congresso. Tampouco transforma o Tribunal em órgão do Poder Judiciário.
 
-1. avaliar o cumprimento das metas previstas no <abbr title="Plano Plurianual">PPA</abbr>, a execução dos programas de governo e dos orçamentos;
-2. comprovar a legalidade e avaliar os resultados, quanto à eficácia e eficiência, da gestão orçamentária, financeira e patrimonial, inclusive da aplicação de recursos públicos por entidades de direito privado;
-3. exercer o controle das operações de crédito, avais e garantias, bem como dos direitos e haveres;
+### 5.2. Sistema de controle interno — <abbr title="artigo">art.</abbr> 74
+
+Legislativo, Executivo e Judiciário devem manter, **de forma integrada**, sistema de controle interno. A Constituição lhe atribui quatro finalidades:
+
+1. avaliar o cumprimento das metas previstas no <abbr title="Plano Plurianual">PPA</abbr>, a execução dos programas de governo e dos orçamentos da União;
+2. comprovar a legalidade e avaliar os resultados, quanto à eficácia e à eficiência, da gestão orçamentária, financeira e patrimonial nos órgãos e entidades da administração federal, bem como da aplicação de recursos públicos por entidades de direito privado;
+3. exercer o controle das operações de crédito, <abbr title="Garantias prestadas por meio de aval">avais</abbr> e garantias, bem como dos direitos e haveres da União — isto é, valores e direitos de conteúdo econômico pertencentes à União;
 4. apoiar o controle externo no exercício de sua missão institucional.
 
-O sistema de controle interno é mais amplo que uma única unidade de auditoria: abrange mecanismos e responsabilidades de controle existentes na própria estrutura estatal.
+Perceba a progressão: o sistema acompanha **planejamento e orçamento**, examina **gestão e resultados**, controla **crédito, garantias e direitos econômicos** e fornece suporte ao **controle externo**.
 
-### 4.3. Irregularidade conhecida pelo controle interno
+Ele é mais amplo que uma única unidade de auditoria. A Constituição fala em sistema integrado, não em um órgão isolado com exclusividade sobre toda atividade de controle.
 
-Nos termos do art. 74, § 1º, os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, devem dar ciência ao **Tribunal de Contas da União**, sob pena de responsabilidade solidária.
+### 5.3. O que acontece quando o controle interno encontra irregularidade?
 
-A regra relaciona a responsabilidade à ciência da irregularidade e à omissão em comunicá-la. A comunicação ao controle externo não elimina as providências internas cabíveis para interromper, corrigir ou apurar a falha.
+Pelo <abbr title="artigo">art.</abbr> 74, § 1º, os responsáveis pelo controle interno que tomarem conhecimento de irregularidade ou ilegalidade devem dar ciência ao <abbr title="Tribunal de Contas da União">TCU</abbr>, sob pena de <abbr title="Responsabilidade compartilhada nos termos jurídicos aplicáveis">responsabilidade solidária</abbr>.
 
-## 5. Participação e controle social
+A sequência lógica é:
 
-A participação social complementa os controles institucionais, mas não deve ser apresentada como um **terceiro sistema constitucional equivalente** aos sistemas interno e externo dos arts. 70 e 74.
+**conhecimento da irregularidade → dever de ciência ao <abbr title="Tribunal de Contas da União">TCU</abbr> → omissão pode gerar <abbr title="Responsabilidade compartilhada nos termos jurídicos aplicáveis">responsabilidade solidária</abbr>.**
 
-Cidadãos e organizações podem fiscalizar, acompanhar informações, participar de mecanismos de transparência e provocar autoridades competentes.
+Comunicar ao controle externo não elimina providências internas cabíveis para interromper, corrigir ou apurar a falha.
 
-O art. 74, § 2º, prevê que, na forma da lei, podem denunciar irregularidades ou ilegalidades perante o TCU:
+## 6. Onde entra o controle social?
+
+Participação social não forma, nos <abbr title="artigos">arts.</abbr> 70 e 74, um terceiro sistema constitucional equivalente ao interno e ao externo. Ela **complementa** os controles institucionais ao permitir acompanhamento, acesso a informações, participação e provocação dos órgãos competentes.
+
+O <abbr title="artigo">art.</abbr> 74, § 2º, dá uma consequência concreta: podem denunciar irregularidades ou ilegalidades perante o <abbr title="Tribunal de Contas da União">TCU</abbr>, na forma da lei:
 
 - qualquer cidadão;
 - partido político;
 - associação;
 - sindicato.
 
-A denúncia não transfere ao denunciante competência para julgar, anular atos ou aplicar sanções.
+Denunciar é **provocar o órgão competente**, não receber competência para julgar contas, anular atos ou aplicar sanções.
 
-## 6. Lei nº 4.320/1964: controle da execução orçamentária
+## 7. Lei nº 4.320/1964: como o controle entra na execução orçamentária
 
-Os arts. 75 a 82 complementam o quadro constitucional com regras clássicas de controle da execução orçamentária.
+Os <abbr title="artigos">arts.</abbr> 75 a 82 da Lei nº 4.320/1964 levam a matriz geral para a execução do orçamento. Separe: **<abbr title="artigo">art.</abbr> 75 = o que controlar**; **<abbr title="artigos">arts.</abbr> 76 a 82 = como esse controle se organiza**.
 
-### 6.1. Art. 75: três focos do controle
+### 7.1. <abbr title="Artigo">Art.</abbr> 75: três focos
 
 O controle da execução orçamentária compreende:
 
 1. **legalidade dos atos** de que resultem arrecadação da receita, realização da despesa ou nascimento/extinção de direitos e obrigações;
-2. **fidelidade funcional** dos agentes responsáveis por bens e valores públicos;
-3. **cumprimento do programa de trabalho**, expresso em termos monetários e em termos de realização de obras e prestação de serviços.
+2. **fidelidade funcional** dos agentes responsáveis por bens e valores públicos, isto é, a correção do agente no cumprimento do dever de guarda e gestão que lhe foi confiado;
+3. **cumprimento do programa de trabalho**, expresso em termos monetários e também em realização de obras e prestação de serviços.
 
-Esses três itens são **focos do controle**, e não momentos temporais.
+O terceiro foco mostra que o controle não é puramente documental: também importa o que o programa de trabalho realizou.
 
-### 6.2. Arts. 76 a 80: controle interno da execução
+**Não confunda:** <abbr title="artigo">art.</abbr> 75 = focos; <abbr title="artigo">art.</abbr> 77 = momentos.
 
-- **Art. 76:** o Poder Executivo exerce os três controles do art. 75, sem prejuízo das atribuições do tribunal de contas ou órgão equivalente.
-- **Art. 77:** a legalidade dos atos de execução orçamentária é verificada prévia, concomitante e subsequentemente.
-- **Art. 78:** além da prestação ou tomada anual ou por fim de gestão, pode haver levantamento, prestação ou tomada de contas a qualquer tempo.
-- **Art. 79:** o órgão de elaboração da proposta orçamentária, ou outro indicado, controla o cumprimento do programa de trabalho.
-- **Art. 80:** os serviços de contabilidade ou órgãos equivalentes verificam a observância dos limites das cotas atribuídas às unidades orçamentárias.
+### 7.2. <abbr title="Artigos">Arts.</abbr> 76 a 80: controle interno da execução
 
-### 6.3. Arts. 81 e 82: controle externo da execução
+O encadeamento legal é simples:
 
-O art. 81 atribui ao controle da execução orçamentária pelo Poder Legislativo a finalidade de verificar:
+- **<abbr title="artigo">art.</abbr> 76:** o Poder Executivo exerce os três controles do <abbr title="artigo">art.</abbr> 75, sem prejuízo das atribuições do tribunal de contas ou órgão equivalente;
+- **<abbr title="artigo">art.</abbr> 77:** a legalidade dos atos de execução orçamentária é verificada prévia, concomitante e subsequentemente;
+- **<abbr title="artigo">art.</abbr> 78:** além da prestação ou <abbr title="Apuração formal das contas de um responsável">tomada de contas</abbr> anual, quando instituída em lei, ou por fim de gestão, pode haver levantamento, prestação ou <abbr title="Apuração formal das contas de um responsável">tomada de contas</abbr> a qualquer tempo;
+- **<abbr title="artigo">art.</abbr> 79:** o órgão responsável pela elaboração da proposta orçamentária, ou outro indicado pela legislação, controla o cumprimento do programa de trabalho;
+- **<abbr title="artigo">art.</abbr> 80:** os serviços de contabilidade ou órgãos equivalentes verificam a observância dos limites das **<abbr title="Limites trimestrais fixados para a execução da despesa">cotas trimestrais</abbr>** atribuídas às <abbr title="Unidades às quais são atribuídas dotações orçamentárias">unidades orçamentárias</abbr>.
 
-- probidade da Administração;
-- guarda e legal emprego dos dinheiros públicos;
-- cumprimento da Lei de Orçamento.
+### 7.3. <abbr title="Artigos">Arts.</abbr> 81 e 82: controle externo da execução
 
-O art. 82 prevê a prestação anual de contas do Poder Executivo ao Poder Legislativo, nos termos legais, acompanhada do parecer prévio do tribunal de contas ou órgão equivalente.
+Pelo <abbr title="artigo">art.</abbr> 81, o controle da execução orçamentária pelo Poder Legislativo busca verificar:
 
-O aprofundamento sobre parecer prévio, julgamento de contas e competências dos tribunais fica para o Assunto 054.
+- a probidade da Administração;
+- a guarda e o legal emprego dos dinheiros públicos;
+- o cumprimento da Lei de Orçamento.
 
-## 7. Matriz de não confusão
+O <abbr title="artigo">art.</abbr> 82 prevê que o Poder Executivo prestará contas anualmente ao Poder Legislativo, no prazo estabelecido nas Constituições ou nas Leis Orgânicas dos Municípios. As contas são submetidas ao Legislativo com parecer prévio do tribunal de contas ou órgão equivalente.
 
-| Pergunta | Categoria correta |
+O regime do parecer prévio e as competências específicas dos tribunais de contas são aprofundados no Assunto 054.
+
+## 8. Um mapa único para não misturar classificações
+
+Agora as categorias podem ser reunidas sem virar uma lista para decorar:
+
+| Se a questão pergunta... | Procure... |
 | --- | --- |
-| O que é fiscalizado? | contábil, financeira, orçamentária, operacional, patrimonial |
-| Com qual padrão? | legalidade, legitimidade, economicidade |
-| Quando ocorre? | prévio, concomitante, posterior/subsequente |
-| Em qual sistema constitucional? | interno ou externo |
-| Quem pode provocar socialmente? | cidadão e demais legitimados do art. 74, § 2º |
+| **o que** é fiscalizado | dimensão contábil, financeira, orçamentária, operacional ou patrimonial |
+| **com qual critério** | legalidade, legitimidade ou economicidade |
+| **quando** | prévio, concomitante ou posterior/subsequente |
+| **em qual sistema** | interno ou externo |
+| **como começa** | de ofício ou por provocação |
+| **quem pode denunciar ao <abbr title="Tribunal de Contas da União">TCU</abbr>** | pessoas e entidades indicadas no <abbr title="artigo">art.</abbr> 74, § 2º |
 
-Uma fiscalização pode acumular classificações de eixos diferentes. Exemplo: uma unidade interna verifica, durante a execução, a economicidade de determinada despesa. O controle é **interno**, **concomitante** e orientado pelo parâmetro da **economicidade**.
+Uma mesma fiscalização pode receber rótulos de eixos diferentes. Se uma unidade interna, durante a execução, verifica se determinada despesa entrega benefício compatível com seu custo, o controle é **interno** quanto ao sistema, **concomitante** quanto ao momento e orientado pela **economicidade** quanto ao parâmetro.
 
-## 8. Pegadinhas de prova
+## 9. Como a banca costuma cruzar as regras
 
-1. **CFOOP são dimensões**, não parâmetros.
-2. **Legalidade, legitimidade e economicidade são parâmetros**, não momentos.
-3. **Subvenções e renúncia de receitas são matérias expressamente fiscalizadas**, não sistemas de controle.
-4. **Controle interno e controle externo são os sistemas constitucionais centrais** dos arts. 70 e 74.
-5. **Controle social é complementar**, não terceiro sistema equivalente aos dois anteriores.
-6. **Controle externo não se define pelo momento**; `externo` e `posterior` pertencem a classificações diferentes.
-7. **Pessoa privada pode dever contas** quando administra ou utiliza recursos públicos.
-8. **Congresso Nacional é titular do controle externo federal; o TCU o auxilia** e exerce competências próprias.
-9. **Apoiar o controle externo é uma das finalidades do controle interno**, sem relação de subordinação hierárquica geral.
-10. **Art. 75 da Lei nº 4.320 traz três focos; art. 77 traz três momentos.**
-11. **Art. 75 da Constituição e art. 75 da Lei nº 4.320/1964 tratam de assuntos diferentes.**
-12. Resultado operacional positivo não transforma ato ilegal em regular, e mera irregularidade formal não autoriza inventar sanção sem base legal e competência.
+A pegadinha típica troca um eixo por outro. Use estas perguntas:
 
-## 9. Roteiro de resolução
+- <abbr title="Contábil, financeira, orçamentária, operacional e patrimonial">CFOOP</abbr> → **o que** é fiscalizado;
+- legalidade, legitimidade e economicidade → **por qual parâmetro**;
+- prévio, concomitante e posterior/subsequente → **quando**;
+- interno e externo → **em qual sistema**;
+- de ofício e provocado → **como começou**.
 
-1. identifique se a questão pergunta por **dimensão, parâmetro, momento ou sistema**;
-2. se aparecer o art. 70, procure `CFOOP + legalidade/legitimidade/economicidade + subvenções/renúncia`;
-3. se aparecer o art. 74, lembre as **quatro finalidades do controle interno**;
-4. se houver irregularidade conhecida pelo controle interno, confira o dever de ciência do § 1º;
-5. se a banca falar em cidadão, partido, associação ou sindicato, pense no § 2º e em **provocação**, não em poder sancionador;
-6. na Lei nº 4.320, separe `art. 75 = três focos` de `art. 77 = três momentos`;
-7. não antecipe para este assunto a organização detalhada dos tribunais de contas, reservada ao Assunto 054.
+Subvenções e renúncia de receitas são **matérias fiscalizadas**, não novos eixos. Pessoa privada pode prestar contas se houver vínculo material com recursos, bens, valores ou obrigações públicas. No plano federal, Congresso Nacional é titular do controle externo; o <abbr title="Tribunal de Contas da União">TCU</abbr> auxilia e exerce competências próprias.
+
+Há ainda uma troca de número perigosa: o <abbr title="artigo">art.</abbr> 75 da Constituição trata da aplicação do modelo constitucional aos tribunais de contas; o <abbr title="artigo">art.</abbr> 75 da Lei nº 4.320/1964 traz **três focos**. Nessa lei, o <abbr title="artigo">art.</abbr> 77 traz os **três momentos** da verificação da legalidade.
+
+Bom resultado não regulariza automaticamente uma ilegalidade; resultado ruim, sozinho, também não prova desvio de recursos.
