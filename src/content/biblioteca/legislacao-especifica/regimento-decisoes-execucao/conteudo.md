@@ -6,276 +6,264 @@ order: 61
 storageId: regimento-decisoes-execucao
 ---
 
-## 1. Recorte e corte temporal
+## 1. Da decisão ao cumprimento: enxergue o mecanismo primeiro
 
-Este assunto trata do que ocorre **a partir da decisão** nos processos do TCE/MA: espécies de resultado decisório, débito, multa e outras sanções, cumprimento do acórdão e execução.
+Imagine, **hipoteticamente**, que um acórdão do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> conclua que um responsável deve devolver recursos públicos e ainda pagar uma multa. A questão de prova pode perguntar pela natureza de cada consequência, pelo prazo para pagamento, pelo parcelamento ou por quem poderá promover a execução judicial.
 
-O foco é compreender:
+Para não decorar regras soltas, organize o assunto como uma cadeia:
 
-- parecer prévio e julgamento de contas;
-- determinações, cautelares e encaminhamentos;
-- diferença entre débito e multa;
-- eficácia de título executivo;
-- multas e outras sanções regimentais;
-- intimação para pagamento, parcelamento, quitação e inadimplemento;
-- cobrança administrativa e execução judicial;
-- legitimidade executiva conforme a jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr>.
+**decisão → obrigação → publicação do acórdão → cumprimento voluntário → quitação ou inadimplemento → cobrança**.
 
-Ficam fora deste assunto os recursos, revisão, embargos, respectivos prazos e efeitos, tratados no Assunto 062, e os atos normativos gerais, ética e regras finais, tratados no Assunto 063.
+Um **acórdão** é o instrumento em que se formaliza a decisão colegiada. Quando a decisão imputa **débito** ou **multa**, surge uma obrigação pecuniária com eficácia de **título executivo**: ela pode fundamentar cobrança sem que seja necessário obter antes uma nova decisão judicial reconhecendo a existência da dívida.
 
-### 1.1. Regra vigente na publicação do edital
+Isso não significa que o próprio Tribunal de Contas se transforme em juízo de execução. A etapa judicial depende de quem é o titular do crédito e de quem possui legitimidade para cobrá-lo.
 
-O edital do TCE/MA foi publicado em **6 de julho de 2026**. Para este assunto, deve ser estudado o Regimento Interno aprovado pela Resolução Administrativa nº 001/2000 **com as alterações já vigentes nessa data**.
+Este capítulo acompanha exatamente esse caminho. Recursos, embargos de declaração, revisão, seus prazos e efeitos pertencem ao Assunto 062; aqui aparece apenas a ponte necessária para entender quando eles interferem no cumprimento.
 
-As regras de execução e sanções foram alteradas ao longo do tempo, inclusive pelas Resoluções nº 97/2006 e nº 268/2017. Atos oficiais do próprio TCE/MA continuam aplicando em 2026 dispositivos desse bloco, como o art. 274, o que confirma sua relevância no corte do edital.
+### 1.1. Corte normativo
 
-## 2. Mapa das decisões
+O edital foi publicado em **6 de julho de 2026**. O parâmetro deste assunto é o Regimento Interno aprovado pela Resolução Administrativa nº 001/2000, com as alterações vigentes nessa data, em conjunto com a Constituição, a Lei nº 8.258/2005 e a jurisprudência aplicável do <abbr title="Supremo Tribunal Federal">STF</abbr>.
 
-### 2.1. Função decisória do Tribunal de Contas
+As regras deste bloco sofreram alterações anteriores, inclusive pelas Resoluções nº 97/2006 e nº 268/2017. Decisões oficiais do próprio <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> em 2026 continuam aplicando os dispositivos de sanções e cobrança estudados a seguir.
 
-A Constituição Federal atribui aos tribunais de contas competências como apreciar contas, julgar contas de responsáveis, fiscalizar atos, aplicar sanções previstas em lei e assinar prazo para correção de ilegalidades. Aos Estados aplica-se, no que couber, o modelo constitucional do <abbr title="Tribunal de Contas da União">TCU</abbr>.
+## 2. Antes de cobrar, identifique o que o Tribunal decidiu
 
-No Maranhão, a Constituição estadual e a legislação do TCE/MA reproduzem essa lógica. Entre as competências oficiais do Tribunal estão:
+Nem todo pronunciamento do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> produz a mesma consequência. A primeira pergunta deve ser: **qual é a função daquele resultado?**
 
-- emitir parecer prévio sobre contas anuais nas hipóteses próprias;
-- julgar contas de responsáveis por recursos públicos;
-- decidir denúncias, representações e consultas;
-- determinar providências para o exato cumprimento da lei;
-- sustar ato impugnado, quando cabível;
-- expedir medidas cautelares;
-- aplicar sanções;
-- representar ao Poder competente sobre irregularidades ou abusos.
+### 2.1. Parecer prévio e julgamento de contas
 
-### 2.2. Parecer prévio × julgamento
+O parecer prévio e o julgamento de contas não são sinônimos.
 
-| Resultado | Função |
+| Resultado | O que faz |
 | --- | --- |
-| parecer prévio | aprecia contas anuais do Governador e dos Prefeitos nas hipóteses constitucionais próprias |
+| parecer prévio | aprecia contas anuais de Governador e de Prefeitos nas hipóteses constitucionais próprias |
 | julgamento de contas | decide contas de responsáveis submetidos à jurisdição do Tribunal |
 
-A pegadinha é concluir que **qualquer processo envolvendo Prefeito** termina necessariamente em parecer prévio.
+A distinção evita um erro frequente: imaginar que a simples presença de um Prefeito no processo obrigue o Tribunal a emitir apenas parecer prévio.
 
-O STF reconhece que, em **tomada de contas especial relativa a convênio interfederativo**, os tribunais de contas podem responsabilizar pessoalmente chefe do Poder Executivo estadual, distrital ou municipal por irregularidades na aplicação de recursos, inclusive com imputação de débito, multa ou outras sanções, sem necessidade de posterior aprovação do Poder Legislativo. Portanto, contas de governo e responsabilidade pessoal em tomada de contas especial não se confundem.
+O Tema 1287 do <abbr title="Supremo Tribunal Federal">STF</abbr> mostra por quê. Em **tomada de contas especial relativa a convênio interfederativo**, o Tribunal de Contas pode responsabilizar pessoalmente chefe do Poder Executivo estadual, distrital ou municipal por irregularidades na aplicação dos recursos, inclusive com imputação de débito, multa ou outras sanções, sem posterior aprovação do Poder Legislativo. Nesse cenário, não se está julgando a conta anual de governo; está-se apurando responsabilidade pessoal por recursos específicos.
 
-### 2.3. Determinação
+### 2.2. Determinação, cautelar e encaminhamento
 
-Determinação é comando para adoção de providência, correção de irregularidade, cumprimento da lei ou fornecimento de informação.
+Uma **determinação** ordena providência, correção de irregularidade, cumprimento da lei ou fornecimento de informação. Ela pode exigir uma conduta, mas não é, por isso só, débito ou multa.
 
-Ela não se confunde com:
+Uma **medida cautelar** é preventiva ou instrumental: busca evitar lesão ou preservar a utilidade do processo enquanto a questão principal ainda é decidida. Cautelar não equivale a julgamento definitivo do mérito.
 
-- débito;
-- multa;
-- recurso;
-- execução judicial.
+O Tribunal também pode **representar ou encaminhar peças** ao órgão competente quando a irregularidade exige providência fora de sua esfera direta. Esse encaminhamento provoca a atuação da instituição competente; não transfere ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> as funções do Judiciário ou de outro órgão destinatário.
 
-### 2.4. Medida cautelar
+## 3. Débito e multa: duas respostas diferentes à irregularidade
 
-Medida cautelar é providência preventiva ou instrumental destinada a evitar lesão ou assegurar a efetividade do controle.
+Suponha que a irregularidade tenha causado perda de dinheiro público. Há duas perguntas distintas:
 
-Cautelar **não é julgamento definitivo**. Ela preserva a utilidade do processo enquanto o mérito é apurado ou enquanto a decisão final ainda não foi produzida.
+1. **quanto precisa voltar ao patrimônio público?** — isso aponta para o débito;
+2. **há uma infração que deve ser sancionada?** — isso pode gerar multa.
 
-### 2.5. Representação e encaminhamento
+O **débito** tem função predominantemente ressarcitória: busca recompor o erário, isto é, o patrimônio financeiro público lesado. A **multa** é sanção: pune ou desestimula a infração.
 
-O Tribunal pode representar ou encaminhar peças ao órgão competente quando identifica irregularidade que demande providência fora de sua esfera direta.
+Por isso, débito e multa podem coexistir no mesmo acórdão. Um não substitui automaticamente o outro.
 
-Esse encaminhamento não significa que o TCE substitua o Judiciário, o Ministério Público ou outro órgão destinatário. Cada instituição atua dentro da própria competência.
+### 3.1. Quando há título executivo
 
-## 3. Débito, multa e título executivo
+A Constituição Federal determina que as decisões dos tribunais de contas das quais resulte **imputação de débito ou multa** têm eficácia de título executivo. O artigo 198 do Regimento acrescenta que a decisão torna a dívida líquida e certa.
 
-### 3.1. Débito não é multa
+A expressão **líquida e certa** indica, nesse contexto, que a obrigação está definida quanto à existência e ao valor determinável para fins de cobrança.
 
-A própria página de transparência do TCE/MA diferencia as consequências pela finalidade:
+A consequência deve ser delimitada:
 
-| Consequência | Finalidade predominante |
-| --- | --- |
-| débito | recompor o patrimônio público lesado |
-| multa | sancionar ou inibir infração |
+- parecer prévio sem obrigação pecuniária não vira automaticamente título executivo;
+- determinação não vira automaticamente título executivo pecuniário;
+- cautelar não vira automaticamente título executivo pecuniário;
+- débito ou multa podem fundamentar execução, mas o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> não se converte em órgão judicial.
 
-Assim:
+## 4. Artigos 197 a 202: como a decisão passa a ser cumprida
 
-- **débito é ressarcitório**;
-- **multa é sancionatória**;
-- podem coexistir na mesma decisão porque cumprem funções distintas.
+Aqui está o núcleo operacional do capítulo. Os artigos 197 a 202 transformam a decisão em consequências concretas.
 
-Julgamentos oficiais de 2026 do TCE/MA mostram exatamente essa cumulação em tomadas de contas especiais, com imputação de débito e aplicação de multa no mesmo acórdão.
+### 4.1. Artigo 197: o tipo de julgamento define o efeito imediato
 
-### 3.2. Eficácia de título executivo
+As decisões definitivas são formalizadas por acórdão. O artigo 197 diferencia os efeitos básicos do julgamento das contas:
 
-A Constituição Federal estabelece que as decisões dos tribunais de contas das quais resulte **imputação de débito ou multa** têm eficácia de título executivo.
+- **contas regulares:** expede-se quitação plena;
+- **contas regulares com ressalva:** expede-se quitação, acompanhada das determinações cabíveis;
+- **contas irregulares:** podem surgir obrigação de pagar débito ou multa, eficácia executiva e outras sanções ou medidas previstas na Lei Orgânica.
 
-O Regimento Interno reforça essa consequência. O art. 198 trata a decisão que resulta em débito ou multa como formadora de dívida líquida e certa, apta à execução.
+Essa estrutura ajuda a entender por que uma decisão não deve ser lida apenas como “favorável” ou “desfavorável”. O efeito jurídico depende do resultado concreto e das obrigações impostas.
 
-Não generalize:
+### 4.2. Artigos 198 e 199: dívida definida e prazo de 15 dias
 
-- nem todo parecer é título executivo;
-- nem toda determinação é título executivo pecuniário;
-- nem toda cautelar é título executivo;
-- a eficácia executiva não transforma o TCE em juízo judicial de execução.
+Se a decisão resulta em débito ou multa, o artigo 198 reconhece a dívida líquida e certa e sua condição de título executivo.
 
-## 4. Sanções regimentais
+O artigo 199 estabelece a etapa seguinte: a **publicação do acórdão no Diário Oficial Eletrônico do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>** funciona como intimação para que o responsável, em **15 dias**, efetue e comprove o pagamento da dívida decorrente de débito e/ou multa.
 
-### 4.1. Art. 273 — multa ligada ao dano
+Esse prazo deve ser lido com precisão:
 
-Quando o responsável for julgado em débito, o art. 273 permite ao Tribunal aplicar multa de até **100% do valor atualizado do dano**.
+- é prazo de **cumprimento pecuniário** dessa regra;
+- não é prazo universal de todo ato processual;
+- não deve ser confundido com prazo recursal.
 
-Essa multa não substitui o débito. É justamente por isso que pode haver:
+Decisões oficiais de 2026 continuam aplicando o prazo de 15 dias para pagamento de multas e débitos.
 
-> débito para recompor o erário + multa para sancionar a conduta.
+### 4.3. Artigo 200: parcelamento não é simples divisão por 24
 
-### 4.2. Art. 274 — multas por infrações
+O Tribunal pode autorizar, em qualquer fase do processo, o recolhimento parcelado da importância devida em até **24 parcelas mensais e sucessivas**.
 
-O art. 274 contém hipóteses e faixas percentuais próprias. Para prova, vale memorizar a estrutura:
+A literalidade traz condições que não podem desaparecer na simplificação:
 
-| Hipótese | Faixa sobre o limite previsto no caput |
-| --- | --- |
-| contas regulares com ressalvas | 2% a 30% |
-| contas irregulares sem débito | 2% a 100% |
-| grave infração a norma legal ou regulamentar de natureza contábil, financeira, orçamentária, operacional ou patrimonial | 2% a 100% |
-| ato de gestão ilegítimo ou antieconômico com dano injustificado | 5% a 100% |
-| não cumprimento injustificado de diligência | 5% a 50% |
-| obstrução a auditoria ou inspeção | 5% a 80% |
-| sonegação de processo, documento ou informação em auditoria ou inspeção | 5% a 80% |
-| descumprimento de decisão do Tribunal sem justificativa | 5% a 50% |
-| reincidência no descumprimento | 5% a 100% |
+- a parcela deve ser, em regra, de pelo menos **R$ 350,00**;
+- o próprio artigo ressalva as regras especiais dos §§ 3º, 4º e 5º do artigo 274 e manda observar o artigo 32, inciso I, da Lei nº 8.258/2005;
+- cada parcela é corrigida pelo índice utilizado para atualização dos créditos tributários estaduais, com os acréscimos legais correspondentes;
+- o não pagamento de uma parcela provoca **vencimento antecipado do saldo devedor**.
 
-O caput contém limite nominal para essas multas, mas o próprio § 1º prevê sua **atualização periódica por portaria da Presidência**. Em concurso, a armadilha é congelar para sempre o valor nominal histórico e ignorar a regra de atualização.
+Portanto, “até 24 parcelas” não significa direito automático a dividir qualquer valor em 24 partes iguais sem outras condições.
 
-O Regimento também contém hipóteses específicas adicionais de multa. Para este assunto, o essencial é dominar a lógica, as faixas principais e a distinção em relação ao art. 273.
-
-### 4.3. Art. 275 — mora
-
-A multa recolhida fora do prazo está sujeita à atualização prevista no regime aplicável. O ponto de prova é simples: **mora não gera perdão automático**.
-
-### 4.4. Art. 277 — inabilitação
-
-Quando a gravidade da infração justificar, o Tribunal pode, por **maioria absoluta**, aplicar, cumulativamente ou não com outras sanções, **inabilitação para exercício de cargo em comissão ou função de confiança por até cinco anos**.
-
-O dispositivo também admite proposta de demissão quando se tratar de servidor, observada a competência da autoridade responsável pelo vínculo.
-
-Pegadinha: inabilitação não é multa e não decorre automaticamente de qualquer irregularidade. Há juízo sobre a gravidade e exigência de maioria absoluta.
-
-### 4.5. Art. 278 — arresto de bens
-
-O Regimento prevê que o Tribunal, por intermédio do Ministério Público junto ao TCE, requeira à autoridade competente as medidas necessárias ao **arresto de bens** de responsáveis julgados em débito.
-
-Arresto é medida patrimonial destinada a resguardar a efetividade do ressarcimento; não se confunde com a própria imputação do débito.
-
-## 5. Cumprimento da decisão — arts. 197 a 202
-
-### 5.1. Art. 197 — efeitos da decisão definitiva
-
-As decisões definitivas são formalizadas por acórdão. Quando o julgamento envolver contas irregulares e imposição de obrigação, a publicação do acórdão desencadeia os efeitos regimentais de cumprimento, sem prejuízo dos meios de impugnação cabíveis.
-
-É importante separar duas ideias:
-
-- **cumprimento voluntário** pode ser exigido a partir da publicação, nos termos regimentais;
-- **definitividade interna** continua relevante para as providências executivas e para a expedição de certidões, conforme o caso.
-
-### 5.2. Art. 198 — dívida líquida e certa
-
-A decisão de que resulte débito ou multa torna a dívida líquida e certa e constitui título executivo.
-
-### 5.3. Art. 199 — intimação e prazo de 15 dias
-
-A redação vigente do art. 199 determina que o responsável seja intimado pela **publicação do acórdão no Diário Oficial Eletrônico do TCE/MA** para, no prazo de **15 dias**, efetuar e comprovar o pagamento da dívida decorrente de débito e/ou multa.
-
-Portanto:
-
-- os **15 dias** não são mera coincidência encontrada em notícias;
-- são regra regimental para o cumprimento pecuniário disciplinado pelo art. 199;
-- não são prazo universal de todo ato processual do Tribunal;
-- não devem ser confundidos com prazo recursal, que pertence ao Assunto 062.
-
-Acórdãos e notícias oficiais de 2026 continuam aplicando esse prazo de 15 dias para pagamento de débito e multa.
-
-### 5.4. Art. 200 — parcelamento
-
-O Regimento permite o parcelamento da dívida em até **24 parcelas mensais e sucessivas**.
-
-A lógica para prova é:
-
-1. o parcelamento não transforma a dívida em obrigação sem atualização;
-2. as parcelas estão sujeitas aos acréscimos previstos;
-3. a falta de pagamento de uma parcela provoca **vencimento antecipado do saldo devedor**.
-
-### 5.5. Art. 201 — quitação
+### 4.4. Artigo 201: pagamento produz quitação, não reescreve o julgamento
 
 Comprovado o pagamento integral, o responsável recebe quitação.
 
-Há uma distinção importante: se o pagamento integral ocorrer após decisão definitiva que julgou as contas irregulares, o pagamento **não altera sozinho o julgamento de irregularidade**. Para modificar o julgamento, é necessário êxito no meio de impugnação cabível.
+Mas há uma diferença entre **pagar a obrigação** e **alterar o julgamento das contas**. Se o pagamento integral ocorre depois de decisão definitiva que julgou as contas irregulares, ele não modifica, por si só, esse julgamento. A alteração depende do meio de impugnação cabível e de seu provimento.
 
-### 5.6. Art. 202 — inadimplemento
+### 4.5. Artigo 202: o que acontece se não houver pagamento
 
-Decorrido o prazo do art. 199 sem manifestação satisfatória, o Regimento prevê providências para cobrança, entre elas, conforme a hipótese:
+Se o prazo do artigo 199 passa sem manifestação satisfatória, o Regimento prevê providências de cobrança, conforme a hipótese, entre elas:
 
-- desconto da dívida, integral ou parceladamente, em remuneração, subsídio, salário ou proventos, observados os limites legais;
-- providências para cobrança judicial;
+- desconto da dívida, integral ou parceladamente, em remuneração, subsídio, salário ou proventos, dentro dos limites legais;
+- adoção das providências para cobrança judicial;
 - inclusão do nome do responsável em cadastro de créditos não quitados do setor público;
 - remessa de documentos ao Estado ou ao Município quando o ressarcimento for devido a esses entes.
 
-O fluxo não deve ser memorizado como se o próprio TCE ajuizasse qualquer execução em nome próprio. A legitimidade judicial precisa ser combinada com a jurisprudência do STF.
+Até aqui, o Regimento descreve **o que deve acontecer com a dívida**. Ainda falta responder **quem pode ir a juízo cobrá-la**. Essa pergunta exige combinar o texto regimental com a jurisprudência constitucional, examinada na seção 6.
 
-## 6. Art. 202 × jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr>
+## 5. Sanções: primeiro identifique o fato sancionado
 
-### 6.1. A literalidade regimental não encerra a legitimidade judicial
+O Regimento não traz uma única “multa do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>”. Há regras diferentes conforme a infração e a consequência pretendida.
 
-O art. 202 contém redação histórica sobre cobrança judicial por intermédio do Ministério Público junto ao Tribunal. Contudo, a jurisprudência do STF afasta a ideia de que o Ministério Público seja legitimado universal para executar títulos formados por decisões de tribunais de contas.
+O artigo 271 vincula as sanções à Lei nº 8.258/2005 e alcança também, em responsabilidade solidária, o responsável pelo controle interno que comprovadamente conhece irregularidade ou ilegalidade e deixa de comunicá-la imediatamente ao Tribunal. O artigo 272 deixa claro que as sanções regimentais podem coexistir com outras previstas em leis específicas.
 
-Para prova atual, prevalece a distinção construída pelo Supremo segundo a natureza do crédito.
+### 5.1. Artigo 273: multa associada ao dano
 
-### 6.2. Tema 642 — tese atual
+Quando o responsável é julgado em débito, o Tribunal pode aplicar multa de até **100% do valor atualizado do dano**.
 
-O Tema 642 do STF hoje consolida dois cenários:
+Retome a lógica:
 
-| Situação | Legitimado para execução |
+- o **débito** procura recompor o dano;
+- a **multa do artigo 273** sanciona o responsável;
+- por terem funções distintas, podem ser cumulados.
+
+### 5.2. Artigo 274: gradação das multas por contas e atos
+
+O artigo 274 prevê um limite nominal no caput e faixas percentuais para diferentes condutas. O próprio § 1º determina atualização periódica desse limite por portaria da Presidência, com base no índice usado para atualizar créditos tributários estaduais. Por isso, a cifra histórica do caput não deve ser tratada como teto eternamente congelado.
+
+A estrutura das faixas é esta:
+
+| Hipótese | Faixa sobre o limite do caput |
 | --- | --- |
-| multa aplicada por TCE estadual a agente municipal em razão de dano ao erário municipal | **Município prejudicado** |
-| multa simples decorrente de violação de normas de Direito Financeiro ou descumprimento de deveres de colaboração perante TCE estadual | **Estado-membro** |
+| contas regulares com ressalva, quando cabível | 2% a 30% |
+| contas irregulares sem débito nas hipóteses legais | 2% a 100% |
+| grave infração a norma contábil, financeira, orçamentária, operacional ou patrimonial | 2% a 100% |
+| ato de gestão ilegítimo ou antieconômico com dano injustificado | 5% a 100% |
+| descumprimento injustificado de diligência no prazo fixado | 5% a 50% |
+| obstrução a auditoria ou inspeção | 5% a 80% |
+| sonegação de processo, documento ou informação em auditoria ou inspeção | 5% a 80% |
+| descumprimento de decisão sem motivo justificado | 5% a 50% |
+| reincidência no descumprimento de decisão | 5% a 100% |
 
-A segunda parte da tese foi harmonizada com o julgamento da <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 1.011.
+O § 2º ainda permite que o Plenário reveja de ofício multa aplicada com fundamento nas hipóteses de diligência, obstrução, sonegação ou descumprimento de decisão quando demonstrada sua inadequação, reduzindo-a ou tornando-a sem efeito.
 
-Pegadinha: não responda que **toda** multa aplicada a agente municipal é executada pelo Município, nem que **toda** multa do TCE estadual é executada pelo Estado.
+#### Regras especiais de atraso no próprio artigo 274
 
-## 7. Cobrança administrativa e estruturas de apoio
+O § 3º estabelece valores específicos por atraso na entrega de determinadas obrigações:
 
-O TCE/MA mantém serviços e rotinas administrativas ligados à execução de seus acórdãos, como certidão de trânsito em julgado e validação de certidão de débito — título executivo.
+- **R$ 4.000,00** por atraso na prestação de contas anual dos responsáveis ali enumerados;
+- **R$ 2.000,00** por atraso na prestação de contas de Câmara Municipal;
+- **R$ 600,00** por atraso de cada prestação de contas de recursos vinculados e também de atos sujeitos a registro, licitação e respectivos contratos, relatório resumido da execução orçamentária e relatório de gestão fiscal.
 
-A <abbr title="Supervisão de Execução de Acórdãos">SUPEX</abbr> aparece na prática institucional relacionada ao acompanhamento da execução dos acórdãos e às providências administrativas de cobrança. Notícias oficiais também registram mecanismos como declaração de inadimplência, <abbr title="Cadastro Estadual de Inadimplentes">CEI</abbr>, <abbr title="Declaração de Dívida Não Tributária">DDNT</abbr> e inscrição em dívida ativa conforme o regime aplicável.
+O § 4º reduz essas multas em **50%** quando a obrigação é cumprida dentro dos **30 dias posteriores** ao prazo estabelecido. O § 5º condiciona o recebimento das prestações de contas e relatórios indicados ao pagamento integral da multa correspondente.
 
-Esses instrumentos não alteram três regras:
+Há ainda duas regras que revelam a lógica do sistema:
 
-- SUPEX não é juízo judicial de execução;
-- a cobrança administrativa não substitui a definição do legitimado judicial;
-- o conteúdo do acórdão e a natureza do crédito permanecem essenciais.
+- relatório resumido da execução orçamentária e relatório de gestão fiscal continuam devendo ser enviados eletronicamente mesmo quando atrasados; envio por outro meio não produz efeito para esse adimplemento, salvo impossibilidade comprovada;
+- ao fixar a multa, o Tribunal considera, além da faixa, a **materialidade e a relevância** do fato e seu reflexo sobre políticas públicas e gestão administrativa e financeira.
 
-## 8. Fluxo para situações-problema
+Essas regras especiais explicam por que o parcelamento do artigo 200 contém ressalva expressa aos §§ 3º, 4º e 5º do artigo 274.
 
-Em uma questão prática, percorra esta sequência:
+### 5.3. Artigos 275 e 276: mora e infrações às leis de finanças públicas
 
-1. **qual foi o resultado?** parecer, julgamento, determinação, cautelar, débito ou multa;
-2. **há obrigação pecuniária?** se débito/multa, existe título executivo;
-3. **houve publicação do acórdão?** no art. 199, inicia-se o prazo de 15 dias para pagar e comprovar;
-4. **houve parcelamento?** até 24 parcelas; inadimplemento antecipa o saldo;
-5. **houve pagamento integral?** gera quitação;
-6. **não houve cumprimento?** aplicam-se as providências de cobrança do Regimento;
-7. **quem pode ajuizar?** identificar natureza do crédito e aplicar a jurisprudência do STF;
-8. **há recurso ou revisão?** detalhes pertencem ao Assunto 062.
+Pelo artigo 275, multa paga depois do vencimento é atualizada, na data do pagamento, pelo índice indicado no § 1º do artigo 274.
 
-## 9. Pegadinhas recorrentes
+O artigo 276 disciplina especificamente a multa por infração administrativa contra as leis de finanças públicas prevista na Lei nº 10.028/2000: ela é aplicada por exercício financeiro e proporcionalmente ao número de eventos no período, com regras próprias ligadas, entre outros pontos, ao relatório de gestão fiscal.
 
-| Pegadinha | Correção |
+O importante é não fundir regimes diferentes: artigo 273, artigo 274 e artigo 276 respondem a pressupostos distintos.
+
+### 5.4. Artigo 277: inabilitação
+
+Se a infração for considerada grave, o Tribunal, por **maioria absoluta de seus membros**, pode aplicar, cumulativamente ou não com outras sanções, **inabilitação para exercício de cargo em comissão ou função de confiança por até cinco anos**. No caso de servidor, também pode propor a pena de demissão, na forma da lei.
+
+Há duas etapas conceituais: primeiro o Tribunal delibera sobre a gravidade; considerada grave a infração, decide, também por maioria absoluta, o período da inabilitação.
+
+Inabilitação não é uma espécie de multa e não decorre automaticamente de toda irregularidade.
+
+### 5.5. Artigo 278: arresto de bens
+
+O Regimento determina que o Tribunal solicite, por intermédio do Ministério Público junto ao Tribunal, à autoridade competente as medidas necessárias ao **arresto dos bens** de responsáveis julgados em débito.
+
+Arresto é medida de constrição patrimonial voltada a preservar bens para futura satisfação da obrigação. Não se confunde nem com a própria imputação do débito nem com o pagamento.
+
+## 6. Quem executa judicialmente? Regimento e Tema 642 do <abbr title="Supremo Tribunal Federal">STF</abbr>
+
+A literalidade histórica do artigo 202 menciona cobrança judicial por intermédio do Ministério Público junto ao Tribunal. Essa redação, sozinha, não resolve a legitimidade processual à luz da Constituição e da jurisprudência atual.
+
+O ponto decisivo é identificar **a natureza e o titular do crédito**.
+
+O Tema 642 do <abbr title="Supremo Tribunal Federal">STF</abbr>, com tese harmonizada após a <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 1.011, distingue dois cenários relevantes:
+
+| Crédito formado por decisão de Tribunal de Contas estadual | Legitimado para executar |
 | --- | --- |
-| todo processo de Prefeito termina em parecer prévio | responsabilidade pessoal em tomada de contas especial pode ser julgada pelo Tribunal |
-| débito e multa são sinônimos | débito ressarce; multa sanciona |
-| débito exclui multa | podem ser cumulados |
-| toda decisão é título executivo | a regra pecuniária exige débito ou multa |
-| multa do art. 273 é sempre percentual pequeno | pode chegar a 100% do dano atualizado |
-| limite nominal do art. 274 nunca muda | o próprio Regimento prevê atualização periódica |
-| 15 dias é só exemplo de notícia | art. 199 fixa 15 dias para débito/multa |
-| 15 dias é prazo universal | é específico do cumprimento pecuniário do art. 199 |
-| parcelamento impede vencimento antecipado | parcela inadimplida antecipa o saldo |
-| pagamento integral apaga automaticamente contas irregulares | gera quitação, mas não muda sozinho o julgamento definitivo |
-| inabilitação é multa | é sanção distinta, por até 5 anos, com maioria absoluta |
-| TCE executa judicialmente todos os créditos | legitimidade depende da natureza do crédito e da jurisprudência |
-| <abbr title="Ministério Público de Contas">MPC</abbr> é sempre legitimado judicial | STF não admite essa generalização |
-| recurso e execução são a mesma coisa | recurso impugna; execução cumpre ou cobra |
+| multa aplicada a agente municipal em razão de dano ao erário municipal | **Município prejudicado** |
+| multa simples decorrente de violação de normas de Direito Financeiro ou de descumprimento de deveres de colaboração perante o Tribunal de Contas | **Estado-membro** |
+
+Daí surgem três conclusões de prova:
+
+1. nem toda multa aplicada a agente municipal é executada pelo Município;
+2. nem toda multa de Tribunal de Contas estadual é executada pelo Estado;
+3. o Ministério Público que atua perante o Tribunal não é, só por isso, legitimado universal para executar qualquer título formado pelo Tribunal de Contas.
+
+Essa jurisprudência não retira a eficácia executiva do acórdão. Ela define **quem pode usar o título em juízo** em cada situação.
+
+## 7. Cobrança administrativa não é execução judicial
+
+O <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> mantém rotinas administrativas de acompanhamento de seus acórdãos. A <abbr title="Supervisão de Execução de Acórdãos">SUPEX</abbr> aparece em decisões oficiais de 2026 ligada às providências de cobrança e acompanhamento da execução.
+
+Essa atuação administrativa pode envolver certidão de trânsito em julgado, certidão de débito, notificações e encaminhamentos. Ela não transforma a <abbr title="Supervisão de Execução de Acórdãos">SUPEX</abbr> em juízo de execução e não elimina a necessidade de identificar o legitimado judicial correto.
+
+Uma forma segura de separar as etapas é:
+
+- **Tribunal decide e acompanha o cumprimento**;
+- **responsável pode pagar ou parcelar nas condições cabíveis**;
+- **inadimplemento aciona medidas administrativas e de cobrança**;
+- **execução judicial é proposta pelo legitimado competente**.
+
+## 8. Aplicação em uma situação-problema
+
+Volte ao cenário inicial. Um acórdão imputa débito e multa a um responsável.
+
+Primeiro, não some as duas parcelas como se tivessem a mesma natureza: o débito busca recompor o patrimônio público; a multa sanciona a infração.
+
+Depois, reconheça que a decisão com débito ou multa tem eficácia de título executivo. Publicado o acórdão, o artigo 199 chama o responsável a pagar e comprovar o pagamento em 15 dias.
+
+Se houver pedido e autorização de parcelamento, verifique as condições do artigo 200 — até 24 parcelas, valor mínimo geral, atualização e vencimento antecipado do saldo em caso de falta de uma parcela. Se houver pagamento integral, há quitação, mas isso não apaga automaticamente eventual julgamento definitivo de contas irregulares.
+
+Se não houver cumprimento, entram as providências do artigo 202. Para chegar à execução judicial, porém, ainda falta uma pergunta: **de quem é o crédito?** Se a hipótese for alcançada pelo Tema 642 do <abbr title="Supremo Tribunal Federal">STF</abbr>, a resposta sobre legitimidade dependerá da natureza da multa e do erário atingido.
+
+Perceba a vantagem do mecanismo: o prazo de 15 dias, o parcelamento, o título executivo e a legitimidade não são quatro fatos isolados. São etapas diferentes de um mesmo problema.
+
+## 9. Verifique se o modelo mental ficou de pé
+
+Sem consultar a tabela, tente responder:
+
+1. Por que débito e multa podem aparecer juntos no mesmo acórdão?
+2. O que muda quando a decisão imputa débito ou multa?
+3. Qual evento inicia o prazo de 15 dias do artigo 199 e o que o responsável deve fazer nesse prazo?
+4. Por que “até 24 parcelas” não significa parcelamento automático e sem condições?
+5. Se uma multa aplicada por Tribunal de Contas estadual precisar ser executada judicialmente, qual informação você precisa identificar antes de dizer se o legitimado é Estado ou Município?
+
+Se as respostas vierem do encadeamento **decisão → obrigação → cumprimento → inadimplemento → cobrança**, você aprendeu o assunto; o cheat sheet passa a servir apenas para recuperar números, faixas e contrastes.
