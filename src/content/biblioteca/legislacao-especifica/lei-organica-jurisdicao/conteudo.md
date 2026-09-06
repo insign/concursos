@@ -6,262 +6,201 @@ order: 64
 storageId: lei-organica-jurisdicao
 ---
 
-## 1. Recorte e corte temporal
+## 1. Duas perguntas organizam todo o assunto
 
-Este assunto inicia o estudo da **Lei Estadual nº 8.258/2005**, Lei Orgânica do Tribunal de Contas do Estado do Maranhão. O corte normativo adotado é **6 de julho de 2026**, data de publicação do edital.
+Quando uma situação chega ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, duas perguntas vêm antes dos detalhes:
 
-O núcleo aqui é formado pelos **arts. 1º a 7º**:
+1. **essa pessoa ou matéria está submetida ao Tribunal?** Essa é a pergunta de **jurisdição**;
+2. **se estiver, o que o Tribunal pode fazer?** Essa é a pergunta de **competência**.
 
-- competências institucionais do TCE/MA;
-- poderes instrumentais para exercê-las;
-- jurisdição própria e privativa em todo o território estadual;
-- sujeitos expressamente abrangidos pela jurisdição.
+Considere um exemplo hipotético: uma associação privada recebe recursos estaduais por convênio. O fato de ser privada não encerra a análise. A Lei nº 8.258/2005 inclui entre os sujeitos da jurisdição os responsáveis pela aplicação de recursos repassados por convênio, acordo, ajuste ou instrumento congênere. Estabelecido esse vínculo, passa-se à competência: a mesma lei autoriza o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> a fiscalizar a aplicação desses recursos.
 
-Também se faz uma ponte indispensável com os arts. 9º e 10 e com a **<abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982**, porque a distinção entre contas de governo e contas de gestão de Prefeito altera diretamente a compreensão da competência do Tribunal.
+Esse raciocínio evita duas confusões comuns. O **controle externo** é a fiscalização institucional da gestão pública exercida a partir de uma posição externa ao órgão controlado. **Jurisdição não é sinônimo de Poder Judiciário**: aqui, a palavra indica a esfera própria de atuação desse controle. E **estar sob jurisdição não significa que toda atuação será julgamento de contas**: conforme o caso, o Tribunal poderá apreciar, julgar, fiscalizar, registrar, decidir consulta, expedir cautelar ou exercer outra competência prevista em lei.
 
-Ficam para os assuntos seguintes a organização da Corte, contas e instrumentos de controle em profundidade, processos, decisões, sanções, execução e recursos.
+O núcleo deste assunto são os **artigos 1º a 7º da Lei Estadual nº 8.258/2005**, com corte normativo em **6 de julho de 2026**, data do edital. Os artigos 9º e 10 e a <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982 entram apenas na medida necessária para compreender a diferença entre contas de governo e contas de gestão de Prefeito. Organização do Tribunal, contas em profundidade, instrumentos de fiscalização, processo, decisões, sanções, execução e recursos ficam para os assuntos seguintes.
 
-## 2. Lei Orgânica, Constituição e Regimento
+## 2. Onde a Lei Orgânica se encaixa
 
-A Constituição Federal fornece a matriz dos tribunais de contas e a Constituição do Estado do Maranhão disciplina o controle externo estadual e municipal. A Lei nº 8.258/2005 detalha a estrutura orgânica e processual do TCE/MA. O Regimento Interno organiza funcionamento e procedimentos dentro desses limites.
+A Constituição Federal fornece a matriz dos tribunais de contas; a Constituição do Estado do Maranhão define o controle externo estadual e municipal; a Lei nº 8.258/2005 desenvolve a organização, as competências e o processo do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>; e o Regimento Interno disciplina o funcionamento e os procedimentos dentro desses limites.
 
-Em prova, use a hierarquia:
+A relação pode ser lida assim:
 
 **Constituição → Lei Orgânica → Regimento Interno e atos normativos internos.**
 
-O Regimento não pode ampliar competência contra a Constituição nem contrariar a Lei Orgânica.
+O poder regulamentar do Tribunal, estudado adiante no artigo 3º, permite detalhar o modo de exercício de competências já existentes. Ele não autoriza criar, por ato interno, uma competência que a Constituição ou a lei não tenham atribuído.
 
-## 3. Competências do art. 1º
+## 3. Competência: o que o Tribunal pode fazer
 
-O art. 1º apresenta um rol amplo. O mais eficiente é organizar os incisos pelo **verbo de atuação**.
+O artigo 1º reúne muitas atribuições. Em vez de decorar trinta e um incisos como frases isoladas, é mais útil perceber **qual função cada verbo desempenha**.
 
-### 3.1. Contas e responsabilidade
+### 3.1. Contas e atos de pessoal: apreciar, julgar e registrar
 
-| Competência | Regra essencial |
-| --- | --- |
-| contas do Governador e dos Prefeitos | **apreciar** as contas anuais; o resultado é parecer prévio nas contas de governo |
-| administradores e demais responsáveis | **julgar** contas de pessoa física ou jurídica, pública ou privada, ligada a dinheiros, bens e valores públicos ou a dano ao erário |
-| Presidentes das Câmaras Municipais | **julgar** as contas prestadas anualmente |
+A primeira separação é entre **parecer prévio**, **julgamento de contas** e **registro de atos de pessoal**.
 
-A primeira pegadinha é verbal: **apreciar** contas do chefe do Executivo não é o mesmo que **julgar** contas de administrador ou responsável.
+**Apreciar contas anuais do Governador e dos Prefeitos.** Nas contas de governo, o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> produz um **parecer prévio**: uma manifestação técnica que antecede o julgamento político pelo Poder Legislativo competente. O Tribunal não transforma esse parecer em sentença judicial.
 
-### 3.2. Auditoria, inspeção, acompanhamento e informação
+**Julgar contas de administradores e responsáveis.** O Tribunal julga as contas de qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos, ou pelos quais o Estado ou os Municípios respondam, bem como de quem cause perda, extravio ou irregularidade da qual resulte dano ao <abbr title="patrimônio financeiro do poder público">erário</abbr>. Também julga as contas prestadas anualmente pelo Presidente de Câmara Municipal.
 
-O TCE/MA pode realizar, por iniciativa própria ou por solicitação dos órgãos legislativos e comissões previstos na lei:
+Observe a diferença de verbo: **apreciar contas de governo** não é o mesmo que **julgar contas de gestão**. Essa distinção será aplicada ao Prefeito na seção 6.
 
-- auditorias;
-- inspeções;
-- acompanhamentos.
+**Apreciar a legalidade de atos de pessoal para registro.** A competência alcança atos de admissão de pessoal na administração direta e indireta estadual e municipal, inclusive fundações públicas, e concessões de aposentadoria, reforma e pensão. Duas ressalvas são literais e importantes:
 
-Esses procedimentos podem ser de natureza:
+- nomeação para **cargo de provimento em comissão** não se submete ao registro de admissão;
+- melhoria posterior de aposentadoria, reforma ou pensão que **não altere o fundamento legal do ato concessório** não exige novo registro.
 
-- contábil;
-- financeira;
-- orçamentária;
-- operacional;
-- patrimonial.
+Registro, nesse contexto, é uma forma específica de controle de legalidade do ato; não se confunde com julgamento de contas.
 
-O Tribunal também presta informações solicitadas pela Assembleia Legislativa ou pelas Câmaras Municipais, por suas comissões, e pode emitir pronunciamento conclusivo sobre matéria submetida por comissão permanente.
+### 3.2. Fiscalizar, acompanhar e produzir informação
 
-**Auxílio ao Legislativo não significa subordinação hierárquica.** O Tribunal exerce competências próprias definidas pela Constituição e pela lei.
+Outra parte do artigo 1º descreve como o Tribunal observa a gestão pública e obtém informação para o controle.
 
-### 3.3. Receita, pessoal e repartição de receitas
+O <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> pode realizar, por iniciativa própria ou por solicitação dos órgãos legislativos e comissões previstos na lei, **auditorias, inspeções e acompanhamentos** de natureza contábil, financeira, orçamentária, operacional ou patrimonial. Pode ainda prestar informações à Assembleia Legislativa e às Câmaras Municipais, por suas comissões, e emitir pronunciamento conclusivo sobre matéria submetida por comissão permanente.
 
-O art. 1º inclui:
+Essa colaboração com o Legislativo integra a função de auxílio ao controle externo, mas **não cria subordinação hierárquica** do Tribunal às Casas Legislativas.
 
-- acompanhar a arrecadação de receitas estaduais e municipais e das entidades sujeitas à jurisdição;
-- apreciar, para registro, a legalidade de atos de admissão de pessoal;
-- apreciar, para registro, concessões de aposentadoria, reforma e pensão;
-- apreciar a legalidade do cálculo das quotas-partes municipais e fiscalizar a entrega dos recursos correspondentes.
+No acompanhamento de receitas e recursos, a lei também atribui ao Tribunal competência para:
 
-No registro de pessoal:
-
-- **cargo em comissão** é exceção ao registro de admissão;
-- melhoria posterior de aposentadoria, reforma ou pensão que **não altere o fundamento legal** do ato concessório não exige novo registro.
-
-### 3.4. LRF, desestatização, transferências e recursos repassados
-
-Também compete ao TCE/MA:
-
-- fiscalizar o cumprimento da Lei de Responsabilidade Fiscal;
-- processar e julgar infrações administrativas contra as finanças públicas e a responsabilidade fiscal, conforme a legislação vigente;
-- acompanhar, fiscalizar e avaliar processos de desestatização, inclusive privatizações, concessões, permissões e autorizações de serviço público;
+- acompanhar a arrecadação de receitas estaduais e municipais e das entidades e instituições sujeitas à sua jurisdição;
+- apreciar a legalidade do cálculo das quotas-parte municipais previstas na lei e fiscalizar a entrega dos recursos correspondentes;
+- fiscalizar o cumprimento da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> pelos órgãos e entidades estaduais e municipais;
+- processar e julgar infrações administrativas contra as finanças públicas e a responsabilidade fiscal tipificadas na legislação vigente;
+- acompanhar, fiscalizar e avaliar processos de <abbr title="transferência de atividade ou patrimônio estatal para exploração privada ou outro arranjo previsto em lei">desestatização</abbr>, inclusive privatizações, concessões, permissões e autorizações de serviço público;
 - fiscalizar recursos repassados pelo Estado ou Município mediante convênio, acordo, ajuste ou instrumento congênere;
-- acompanhar e fiscalizar cálculo, entrega e aplicação de recursos legalmente repassados pelo Estado aos Municípios.
+- acompanhar e fiscalizar, conforme a legislação específica, o cálculo, a entrega e a aplicação de recursos repassados pelo Estado aos Municípios por determinação legal;
+- fiscalizar as **declarações de bens e rendas** apresentadas por autoridades e servidores públicos, de acordo com a legislação vigente;
+- realizar outras fiscalizações ou exercer outras atribuições previstas em lei.
 
-A natureza privada do destinatário **não elimina** o controle sobre o recurso público.
+O último item é importante para delimitar o alcance do artigo: a Lei Orgânica admite outras atribuições **quando previstas em lei**; não se trata de uma autorização aberta para o Tribunal inventar competências.
 
-### 3.5. Correção de ilegalidade, sanções e cautelares
+### 3.3. Denúncia, representação e consulta: receber uma provocação e decidir
 
-O art. 1º também autoriza o Tribunal a:
+O artigo 1º também disciplina portas de entrada para questões submetidas ao Tribunal.
 
-- representar ao Poder competente sobre irregularidades ou abusos apurados;
-- aplicar sanções e adotar medidas cautelares previstas na Lei Orgânica;
-- assinar prazo para que órgão ou entidade adote providências necessárias ao exato cumprimento da lei;
-- se não atendido, sustar a execução do ato impugnado e comunicar ao Legislativo competente;
-- expedir medidas cautelares para prevenir lesão ao erário ou a direito alheio e assegurar a efetividade de suas decisões.
+A **denúncia** pode ser encaminhada por cidadão, partido político, associação ou sindicato. A lei também atribui ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> a decisão sobre representações em geral e, especificamente, sobre representações relativas a licitações e contratos administrativos e ao descumprimento da obrigação legal de notificar a liberação de recursos aos Municípios nas hipóteses indicadas pela legislação.
 
-**Cautelar não é julgamento definitivo.** É instrumento de proteção e efetividade.
+A **consulta** tem objeto diferente. Ela é formulada por autoridade competente diante de dúvida sobre a aplicação de dispositivo legal ou regulamentar em matéria de competência do Tribunal. A resposta tem **caráter normativo** e constitui **prejulgamento da tese, mas não do fato ou do caso concreto**. Em outras palavras, o Tribunal fixa a orientação jurídica para a questão abstrata submetida; não usa a consulta para decidir antecipadamente um caso concreto.
 
-### 3.6. Denúncia, consulta e representações
+### 3.4. Corrigir ilegalidades, responsabilizar e proteger a decisão
 
-Compete ao Tribunal:
+A fiscalização só é útil se o Tribunal puder reagir ao que encontra. O artigo 1º encadeia instrumentos diferentes, que não devem ser confundidos.
 
-- decidir denúncia encaminhada por cidadão, partido político, associação ou sindicato;
-- decidir representações em geral;
-- decidir consulta formulada por autoridade competente sobre dúvida relativa à aplicação de dispositivos legais ou regulamentares em matéria de sua competência;
-- decidir representações relativas a licitações e contratos administrativos e às hipóteses legais de notificação de liberação de recursos aos Municípios.
+O <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> pode **representar ao Poder competente** sobre irregularidades ou abusos apurados, indicando o ato questionado e definindo responsabilidades, inclusive as de Secretário de Estado, Secretário Municipal ou autoridade de nível hierárquico equivalente.
 
-O § 2º do art. 1º é especialmente cobrável: a resposta à consulta tem **caráter normativo** e constitui **prejulgamento da tese, não do fato ou caso concreto**.
+Pode também **aplicar sanções e adotar medidas cautelares** previstas na Lei Orgânica. A <abbr title="medida provisória destinada a evitar dano ou preservar a utilidade da decisão final">medida cautelar</abbr> não resolve definitivamente o mérito: sua função é prevenir lesão ao erário ou a direito alheio e assegurar a efetividade da futura decisão.
 
-### 3.7. Autogoverno e poder normativo
+Quando verifica ilegalidade, o Tribunal pode **assinar prazo** para que o órgão ou entidade adote as providências necessárias ao exato cumprimento da lei. Se a determinação não for atendida, pode **sustar a execução do ato impugnado** e comunicar a decisão à Assembleia Legislativa ou à Câmara Municipal, conforme o caso.
 
-O art. 1º ainda inclui competências de autogoverno:
+A sequência lógica é, portanto, diferente de uma punição automática: identificar a ilegalidade, exigir a correção quando essa for a providência cabível e, persistindo o problema, usar o instrumento legal adequado. Sanção, sustação e cautelar têm pressupostos e finalidades próprios.
+
+### 3.5. Autogoverno, iniciativa normativa e constitucionalidade
+
+Nem todas as competências do artigo 1º recaem sobre pessoas e entidades fiscalizadas. Algumas permitem que o próprio Tribunal se organize e exerça sua autonomia institucional. Entre elas estão:
 
 - elaborar e alterar o Regimento Interno;
-- eleger Presidente e demais dirigentes e dar-lhes posse;
+- eleger o Presidente e os demais dirigentes e dar-lhes posse;
 - conceder licenças, férias e outros afastamentos aos membros indicados pela lei;
-- organizar sua Secretaria e prover cargos;
-- propor à Assembleia Legislativa criação, transformação e extinção de cargos e funções e a fixação da remuneração correspondente;
+- organizar a Secretaria e prover seus cargos, observada a legislação;
+- propor à Assembleia Legislativa a criação, transformação e extinção de cargos e funções da Secretaria e a fixação da remuneração correspondente;
 - propor projeto de lei sobre matéria de sua competência.
 
-### 3.8. Constitucionalidade e outras atribuições legais
+A iniciativa de projeto de lei **não equivale a legislar sozinho**: a proposição segue o processo legislativo na Assembleia Legislativa.
 
-O TCE/MA pode apreciar a constitucionalidade de leis e atos dos Poderes Públicos estadual e municipais **no exercício de suas atribuições**. Isso corresponde ao controle incidental necessário à atividade de controle externo; não transforma o Tribunal em órgão do Poder Judiciário nem em corte de controle concentrado.
+O Tribunal também pode **apreciar a constitucionalidade de leis e atos dos Poderes Públicos estadual e municipais no exercício de suas atribuições**. A fórmula legal é funcional: a questão constitucional surge dentro da atividade de controle. Isso não transforma o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> em órgão do Poder Judiciário nem lhe confere uma ação geral de <abbr title="controle abstrato de validade constitucional de normas">controle concentrado de constitucionalidade</abbr>.
 
-O art. 1º também admite outras fiscalizações ou atribuições previstas em lei.
+### 3.6. O que o Tribunal examina e como delibera
 
-### 3.9. Parágrafos do art. 1º
+O § 1º do artigo 1º explicita que, no julgamento de contas e nas fiscalizações de sua competência, o Tribunal decide sobre:
 
-No julgamento de contas e nas fiscalizações que lhe competem, o Tribunal examina:
+- **legalidade** — conformidade com a ordem jurídica;
+- **legitimidade** — adequação do ato às finalidades e aos princípios que justificam o uso do recurso público;
+- **economicidade** — relação racional entre custos, meios empregados e resultado buscado;
+- aplicação de <abbr title="transferências públicas destinadas a apoiar atividade ou entidade">subvenções</abbr>;
+- <abbr title="medidas que reduzem receita que poderia ser arrecadada">renúncia de receitas</abbr>.
 
-- **legalidade**;
-- **legitimidade**;
-- **economicidade**;
-- aplicação de subvenções;
-- renúncia de receitas.
+Assim, o controle não se reduz a perguntar se existe uma autorização formal: a própria lei também manda examinar legitimidade e economicidade.
 
-As deliberações do Tribunal ou de suas Câmaras têm como partes essenciais, segundo o § 3º:
+O § 3º, por sua vez, estabelece três partes essenciais das deliberações do Tribunal ou de suas Câmaras:
 
-1. relatório do Relator, com conclusão da instrução técnica e parecer do Ministério Público de Contas;
-2. fundamentação sobre as questões de fato e de direito;
-3. dispositivo com a decisão sobre o mérito.
+1. **relatório do relator**, com a conclusão da instrução técnica e o parecer do Ministério Público junto ao Tribunal;
+2. **fundamentação**, na qual são analisadas as questões de fato e de direito;
+3. **dispositivo**, que contém a decisão sobre o mérito.
 
-## 4. Poderes instrumentais — arts. 2º a 5º
+## 4. Artigos 2º a 5º: instrumentos para exercer a competência
 
-### 4.1. Informações sobre responsáveis — art. 2º
+Depois de dizer **o que** o Tribunal pode fazer, a lei fornece meios para tornar essas competências operacionais.
 
-Para desempenhar suas competências, o Tribunal recebe em cada exercício o rol dos ordenadores de despesas e demais responsáveis, com endereços e alterações, além de outros documentos ou informações que considerar necessários, na forma definida por ato normativo.
+### 4.1. Identificar quem responde — artigo 2º
 
-### 4.2. Poder regulamentar — art. 3º
+Em cada exercício, o Tribunal recebe o rol dos <abbr title="agentes responsáveis por atos de execução da despesa pública">ordenadores de despesa</abbr> e dos demais responsáveis, com seus endereços e alterações, além de outros documentos e informações que considere necessários, na forma regulamentar.
 
-No âmbito de sua competência e jurisdição, o TCE/MA possui **poder regulamentar**. Pode expedir atos e instruções normativas sobre:
+A lógica é simples: para controlar contas, atos e recursos, o Tribunal precisa identificar quem ocupa as posições de responsabilidade em cada exercício.
 
-- matérias de suas atribuições;
-- prazo, forma e conteúdo dos processos que devam ser submetidos ao Tribunal.
+### 4.2. Disciplinar o modo de envio e tramitação — artigo 3º
 
-Esses atos obrigam seus destinatários nos limites da lei.
+No âmbito de sua competência e jurisdição, o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> possui **poder regulamentar**. Pode expedir atos e instruções normativas sobre matérias de suas atribuições e sobre prazo, forma e conteúdo dos processos que devam ser submetidos ao Tribunal.
 
-### 4.3. Acesso a informações — art. 4º
+Essas normas obrigam seus destinatários nos limites da lei. O poder regulamentar **organiza o exercício de uma competência; não cria competência nova**.
 
-No exercício de suas competências, o Tribunal tem **irrestrito acesso às fontes de informações disponíveis** em órgãos e entidades da Administração Pública estadual ou municipal, inclusive sistemas eletrônicos de processamento de dados.
+### 4.3. Obter a informação necessária — artigo 4º
 
-A regra serve à fiscalização; não é autorização para atuação fora das atribuições legais do TCE/MA.
+No exercício de sua competência, o Tribunal tem **irrestrito acesso às fontes de informações disponíveis** em órgãos e entidades da Administração Pública estadual ou municipal, inclusive sistemas eletrônicos de processamento de dados.
 
-### 4.4. Recesso — art. 5º
+“Irrestrito”, aqui, descreve a amplitude do acesso necessário ao controle. A própria norma vincula esse poder ao **exercício da competência** do Tribunal; não é autorização para investigação sem relação com suas atribuições legais.
+
+### 4.4. Recesso — artigo 5º
 
 O recesso do Tribunal vai de **21 de dezembro a 4 de janeiro**, sem prejuízo dos serviços de sua Secretaria.
 
-## 5. Jurisdição — arts. 6º e 7º
+## 5. Jurisdição: quem e quais matérias entram na esfera do Tribunal
 
-### 5.1. Regra territorial e funcional — art. 6º
+O artigo 6º dá a fórmula central: o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> tem **jurisdição própria e privativa, em todo o território estadual, sobre as pessoas e matérias sujeitas à sua competência**.
 
-O TCE/MA tem **jurisdição própria e privativa, em todo o território estadual**, sobre as pessoas e matérias sujeitas à sua competência.
+“Própria e privativa” significa que a lei delimita uma esfera institucional de controle atribuída ao Tribunal. Isso **não torna sua jurisdição judicial** e não elimina o controle jurisdicional exercido pelo Poder Judiciário sobre atos do próprio Tribunal quando cabível.
 
-Aqui, “jurisdição” é a esfera própria de atuação do órgão de controle. **Não é jurisdição judicial.**
+O artigo 7º concretiza essa fórmula em nove grupos. Depois de entender o mecanismo, vale sintetizá-los por inciso:
 
-### 5.2. Quem está sujeito — art. 7º
-
-O art. 7º traz nove grupos expressos:
-
-| Inciso | Sujeitos abrangidos |
+| Inciso | Quem está abrangido |
 | --- | --- |
-| I | todos os que devam prestar contas ao TCE/MA ou cujos atos estejam sujeitos à fiscalização por expressa disposição de lei |
-| II | qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens ou valores públicos, ou pelos quais Estado ou Municípios respondam, ou que assuma obrigação pecuniária em nome deles |
-| III | quem der causa a perda, extravio ou outra irregularidade de que resulte dano ao erário |
+| I | quem deva prestar contas ao Tribunal ou tenha atos sujeitos à sua fiscalização por expressa disposição de lei |
+| II | qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens ou valores públicos, ou pelos quais Estado ou Municípios respondam, ou que assuma <abbr title="obrigação expressa em dinheiro">obrigação pecuniária</abbr> em nome deles |
+| III | quem dê causa a perda, extravio ou outra irregularidade da qual resulte dano ao erário |
 | IV | dirigentes de empresas públicas e sociedades de economia mista constituídas com recursos do Estado ou de Município |
-| V | dirigentes ou liquidantes de empresas encampadas, sob intervenção ou que passem a integrar, provisória ou permanentemente, patrimônio público estadual ou municipal |
-| VI | responsáveis por entidades privadas que recebam contribuições parafiscais e prestem serviço de interesse público ou social |
+| V | dirigentes ou <abbr title="responsáveis pela liquidação e encerramento da empresa">liquidantes</abbr> de empresa <abbr title="assumida pelo Poder Público nas condições previstas em lei">encampada</abbr>, sob intervenção ou que passe a integrar, provisória ou permanentemente, patrimônio público estadual ou municipal |
+| VI | responsáveis por entidades privadas que recebam <abbr title="receitas compulsórias destinadas ao custeio de atividade de interesse público ou social">contribuições parafiscais</abbr> e prestem serviço de interesse público ou social |
 | VII | responsáveis pela aplicação de recursos repassados pelo Estado ou Município mediante convênio, acordo, ajuste ou instrumento congênere |
-| VIII | representantes do Estado, Municípios ou Poder Público em assembleia geral de empresas estatais e sociedades anônimas com participação pública, solidariamente com membros dos conselhos fiscal e de administração, por atos de gestão ruinosa ou liberalidade à custa da sociedade |
-| IX | sucessores dos administradores e responsáveis do artigo, **até o limite do valor do patrimônio transferido**, nos termos do art. 5º, XLV, da Constituição Federal |
+| VIII | representantes do Estado, dos Municípios ou do Poder Público em assembleia geral de empresas estatais e sociedades anônimas com participação pública e, <abbr title="com responsabilidade conjunta na hipótese prevista em lei">solidariamente</abbr>, membros dos conselhos fiscal e de administração, pelos atos de <abbr title="gestão que causa grave deterioração patrimonial">gestão ruinosa</abbr> ou <abbr title="disposição patrimonial sem justificativa adequada em favor da sociedade">liberalidade</abbr> à custa da sociedade |
+| IX | sucessores dos administradores e responsáveis mencionados no artigo, **até o limite do valor do patrimônio transferido**, nos termos do artigo 5º, XLV, da Constituição Federal |
 
-### 5.3. Quatro pegadinhas do art. 7º
+O ponto comum não é o rótulo “público” ou “privado”, mas o **vínculo jurídico com recursos, patrimônio, obrigações ou responsabilidades submetidos ao controle**. Por isso, uma entidade privada pode estar sob jurisdição; alguém que cause dano ao erário pode ser alcançado mesmo sem ocupar cargo público; e o sucessor não responde ilimitadamente, pois a própria lei fixa o limite patrimonial.
 
-**1. Pessoa privada pode estar sob jurisdição.** O inciso II olha para a relação com recursos e obrigações públicas, e o inciso VI alcança certas entidades privadas de interesse público/social.
+O exemplo hipotético da abertura agora pode ser resolvido por completo: o responsável pela associação que aplica o recurso conveniado entra na jurisdição pelo inciso VII do artigo 7º; a competência para fiscalizar a aplicação decorre do artigo 1º. Se a fiscalização revelar dano ou necessidade de julgamento de contas, os capítulos seguintes da Lei Orgânica fornecem os ritos e consequências específicos, estudados nos assuntos posteriores.
 
-**2. Convênio tem regra própria.** O inciso VII alcança diretamente os responsáveis pela aplicação dos recursos repassados.
+## 6. Prefeito: por que “apreciar” e “julgar” não podem ser confundidos
 
-**3. Sucessão não é responsabilidade ilimitada.** O inciso IX limita a responsabilidade do sucessor ao patrimônio transferido.
+A distinção dos verbos do artigo 1º ganha consequência concreta quando o Prefeito acumula papéis diferentes.
 
-**4. Jurisdição não depende apenas de receber dinheiro.** A lei também alcança quem deve prestar contas por disposição legal, quem causa dano ao erário e determinadas posições societárias e de direção.
+Os artigos 9º e 10 da Lei Orgânica separam as **contas de governo**, que retratam a condução global do governo municipal, das **contas de gestão**, ligadas aos atos de administração de receitas e despesas. A jurisprudência constitucional precisou esclarecer como essa separação funciona quando o próprio Prefeito atua como <abbr title="agente responsável por atos de execução da despesa pública">ordenador de despesas</abbr>.
 
-## 6. Prefeito: contas de governo x contas de gestão
+Na <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982, julgada em 2025, o <abbr title="Supremo Tribunal Federal">STF</abbr> firmou que Prefeitos que ordenam despesas têm dever de prestar contas nessa qualidade e que os Tribunais de Contas podem julgar essas contas de gestão. Se forem irregulares, o Tribunal de Contas pode imputar débito e aplicar sanções **fora da esfera eleitoral**, independentemente de ratificação da Câmara Municipal. Para os efeitos do artigo 1º, I, “g”, da <abbr title="Lei Complementar">LC</abbr> nº 64/1990, permanece preservada a competência da Câmara Municipal.
 
-### 6.1. O que a própria Lei Orgânica separa
+A distinção fica assim:
 
-Os arts. 9º e 10 distinguem duas situações:
-
-| Situação | Atuação do TCE/MA |
-| --- | --- |
-| **contas de governo do Prefeito** | emissão de **parecer prévio**, encaminhado à Câmara Municipal após o trânsito em julgado |
-| contas dos **gestores responsáveis por atos de que resultem receita e despesa** | **julgamento pelo TCE/MA**, mediante acórdão |
-
-A Câmara Municipal realiza o julgamento político das contas de governo do Prefeito.
-
-### 6.2. <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982 — regra vigente no corte do edital
-
-O <abbr title="Supremo Tribunal Federal">STF</abbr> julgou a ADPF 982 em fevereiro de 2025 e publicou o acórdão em março de 2025, portanto antes do edital.
-
-A tese estabelece que:
-
-1. Prefeitos que atuem como **ordenadores de despesas** têm dever de prestar contas nessa qualidade;
-2. compete aos Tribunais de Contas julgar essas **contas de gestão**;
-3. se houver irregularidade, o Tribunal de Contas pode **imputar débito e aplicar sanções fora da esfera eleitoral**, independentemente de ratificação da Câmara Municipal;
-4. para os efeitos eleitorais do art. 1º, I, “g”, da <abbr title="Lei Complementar">LC</abbr> nº 64/1990, preserva-se a competência da **Câmara Municipal**.
-
-### 6.3. Matriz de prova
-
-| Prefeito atua como... | Tipo de conta | Quem decide? | Efeito central |
+| Papel do Prefeito | Tipo de conta | Atuação do Tribunal | Papel da Câmara Municipal |
 | --- | --- | --- | --- |
-| chefe de governo | contas de governo | TCE emite parecer prévio; Câmara julga | julgamento político |
-| ordenador de despesas | contas de gestão | TCE julga | débito e sanções não eleitorais podem decorrer do julgamento do TCE |
-| responsável para fins eleitorais da LC nº 64/1990 | reflexo eleitoral | Câmara Municipal | competência preservada para a inelegibilidade da alínea “g” |
+| chefe de governo | contas de governo | emite parecer prévio | realiza o julgamento político |
+| ordenador de despesas | contas de gestão | julga; pode imputar débito e aplicar sanções não eleitorais | não precisa ratificar esses efeitos |
+| situação analisada para os efeitos eleitorais do artigo 1º, I, “g”, da <abbr title="Lei Complementar">LC</abbr> nº 64/1990 | repercussão eleitoral | a decisão do Tribunal não substitui a competência indicada pela tese | competência preservada pela <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982 |
 
-**Pegadinha:** não use a frase genérica “toda conta de Prefeito é julgada pela Câmara”. Ela é correta apenas para o plano político-eleitoral definido constitucionalmente; a ADPF 982 reconheceu o julgamento das contas de gestão do Prefeito ordenador pelo Tribunal de Contas para efeitos não eleitorais.
+Portanto, a frase “toda conta de Prefeito é julgada pela Câmara” é ampla demais. O primeiro passo é identificar **em qual qualidade o Prefeito atuou** e **qual tipo de conta está em exame**.
 
-## 7. Distinções essenciais
+## 7. Como as peças se conectam
 
-| Instituto | Pergunta | Exemplo |
-| --- | --- | --- |
-| jurisdição | **quem / o que** está sujeito ao TCE? | responsável por convênio |
-| competência | **o que o Tribunal pode fazer?** | julgar, fiscalizar, registrar |
-| parecer prévio | qual é a opinião técnica sobre contas de governo? | Prefeito e Governador |
-| julgamento de contas | o TCE decide a regularidade das contas? | gestor e ordenador de despesas |
-| registro | o ato de pessoal é legal para registro? | admissão, aposentadoria, reforma e pensão |
-| fiscalização | o ato, programa ou gestão está conforme os critérios de controle? | auditoria, inspeção, acompanhamento |
-| cautelar | é preciso proteger a utilidade da decisão? | prevenção de lesão ao erário |
+A Lei Orgânica foi construída em camadas. Para interpretar uma situação sem misturar institutos, percorra o mecanismo na ordem em que ele funciona:
 
-## 8. Pegadinhas recorrentes
+1. **jurisdição:** identifique a pessoa e a matéria — artigos 6º e 7º;
+2. **competência:** localize o verbo de atuação adequado — artigo 1º;
+3. **instrumentos:** verifique como o Tribunal identifica responsáveis, regulamenta processos e obtém informação — artigos 2º a 4º;
+4. **tipo de decisão ou controle:** se houver contas, separe parecer prévio, julgamento e registro; se houver risco ou ilegalidade, não confunda cautelar, sustação e sanção;
+5. **aprofundamento posterior:** ritos de contas, fiscalização, processo, decisões, sanções, execução e recursos dependem dos capítulos seguintes da Lei nº 8.258/2005.
 
-- **Jurisdição própria e privativa ≠ Poder Judiciário:** trata-se da esfera de controle externo do TCE/MA.
-- **Pessoa privada ≠ fora do controle:** recursos públicos, contribuição parafiscal ou dano ao erário podem atrair a jurisdição.
-- **Sucessor ≠ dívida ilimitada:** limite é o valor do patrimônio transferido.
-- **Parecer prévio ≠ julgamento das contas de gestão.**
-- **Prefeito ordenador:** contas de gestão são julgadas pelo Tribunal de Contas para débito e sanções não eleitorais.
-- **Efeito eleitoral:** permanece a competência da Câmara Municipal para a LC nº 64/1990, art. 1º, I, “g”.
-- **Cargo em comissão:** não se submete ao registro de admissão.
-- **Melhoria de benefício:** sem mudança do fundamento legal, não exige novo registro.
-- **Consulta:** caráter normativo e prejulgamento da tese, nunca do fato ou caso concreto.
-- **Poder regulamentar:** existe dentro da competência e jurisdição legais; não cria competência nova.
-- **Acesso irrestrito a informações:** é instrumental ao exercício da competência, não autorização geral sem finalidade de controle.
+Esse encadeamento preserva a ideia central do assunto: **jurisdição delimita a esfera submetida ao Tribunal; competência define a atuação que a ordem jurídica permite dentro dessa esfera**.
