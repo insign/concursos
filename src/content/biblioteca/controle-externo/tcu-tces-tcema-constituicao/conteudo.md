@@ -6,51 +6,62 @@ order: 54
 storageId: tcu-tces-tcema-constituicao
 ---
 
-## 1. Recorte e corte temporal
+## 1. Quem controla quem — e por que “auxiliar” não significa obedecer
 
-Este assunto corresponde ao recorte institucional dos itens **10 e 11 de Controle Externo** do Cargo 1: Tribunal de Contas da União (TCU), tribunais de contas estaduais, Tribunal de Contas do Distrito Federal (TCDF), órgãos de contas municipais e Tribunal de Contas do Estado do Maranhão (TCE/MA).
+Imagine uma irregularidade em contas públicas. A primeira pergunta não deve ser “qual tribunal julga tudo?”, porque a Constituição **divide o controle externo entre o Poder Legislativo e o tribunal de contas competente**.
 
-O **corte normativo é 6 de julho de 2026**, data de publicação do edital. Por isso, a **<abbr title="Emenda Constitucional">EC</abbr> nº 139/2026**, publicada em 6 de maio de 2026, integra plenamente a regra aplicável à prova. Ela alterou os arts. 31, § 1º, e 75 da Constituição Federal para afirmar a permanência e a essencialidade dos tribunais de contas e vedar a extinção, criação ou instalação dos órgãos de contas abrangidos por esses dispositivos.
+No plano federal, o **Congresso Nacional** é o titular do controle externo e o exerce com auxílio do <abbr title="Tribunal de Contas da União">TCU</abbr>. Nos estados, a Assembleia Legislativa exerce o controle externo com auxílio do tribunal de contas estadual. No Distrito Federal, a Câmara Legislativa é auxiliada pelo <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr>. Nos Municípios, a Câmara Municipal exerce o controle externo com auxílio do tribunal competente.
 
-Os assuntos anteriores já trataram das competências de fiscalização e julgamento. Aqui, o foco é **posição constitucional, composição, escolha, garantias, substitutos, Ministério Público de Contas e simetria federativa**.
+Esse desenho contém uma distinção essencial: **auxílio não é subordinação**. O tribunal de contas não é um departamento do Legislativo. Ele recebe diretamente da Constituição competências próprias, ainda que participe de um sistema cujo controle externo tem titularidade parlamentar.
 
-## 2. Matriz constitucional do controle externo
+Também não confunda a palavra **julgar**, usada para certas contas, com jurisdição judicial. Tribunal de contas **não integra o Poder Judiciário**. Suas decisões pertencem à função constitucional de controle externo, não à jurisdição exercida pelos órgãos judiciais.
 
-Na União, o controle externo é exercido pelo **Congresso Nacional**, com auxílio do **TCU**. Nos estados, a Assembleia Legislativa exerce o controle externo com auxílio do tribunal de contas estadual. No Distrito Federal, o papel legislativo cabe à Câmara Legislativa, auxiliada pelo TCDF. Nos Municípios, a Câmara Municipal exerce o controle externo com auxílio do tribunal competente.
+Um bom mapa inicial é este:
 
-A palavra **auxílio** não cria subordinação hierárquica. O tribunal de contas possui competências constitucionais próprias e não é departamento do Poder Legislativo. Também **não integra o Poder Judiciário**, embora julgue contas e produza decisões com efeitos jurídicos próprios.
+| Ente | Titular do controle externo | Órgão de auxílio |
+| --- | --- | --- |
+| União | Congresso Nacional | <abbr title="Tribunal de Contas da União">TCU</abbr> |
+| Estado | Assembleia Legislativa | tribunal de contas estadual |
+| Distrito Federal | Câmara Legislativa | <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr> |
+| Município | Câmara Municipal | tribunal de contas competente |
 
-### 2.1. EC nº 139/2026
+O capítulo sobre competências dos tribunais de contas aprofunda **o que** essas instituições fazem. Aqui, a pergunta principal é outra: **como elas se encaixam constitucionalmente, quem as compõe e como seus membros são escolhidos?**
 
-Após a EC nº 139/2026, o art. 75 passou a estabelecer expressamente que os tribunais de contas são **instituições permanentes e essenciais ao exercício do controle externo**. O dispositivo também determina que as normas da seção constitucional do TCU se aplicam, **no que couber**, à organização, composição e fiscalização dos TCEs, do TCDF e dos tribunais e conselhos de contas dos Municípios.
+## 2. O modelo federal e a ponte para os demais tribunais
 
-A mesma emenda alterou o art. 31, § 1º, e passou a vedar, nos âmbitos alcançados pelos arts. 31 e 75, a **extinção, criação ou instalação** dos órgãos de contas mencionados.
+A Constituição organiza primeiro o <abbr title="Tribunal de Contas da União">TCU</abbr> e depois usa esse modelo como referência para os tribunais de contas subnacionais. O artigo 75 manda aplicar, **no que couber**, as normas da seção federal à organização, à composição e à fiscalização dos tribunais de contas dos Estados e do Distrito Federal e dos tribunais e conselhos de contas dos Municípios.
 
-> **Pegadinha:** precedentes anteriores que admitiam a extinção de determinados órgãos de contas devem ser lidos à luz do texto constitucional vigente no edital, já alterado pela EC nº 139/2026.
+A expressão **“no que couber”** é a chave da <abbr title="Adaptação do modelo federal aos demais entes, preservado o núcleo constitucional">simetria federativa</abbr>: não se copia mecanicamente cada detalhe do <abbr title="Tribunal de Contas da União">TCU</abbr>, mas também não se pode desmontar o núcleo constitucional do modelo. Por isso, adaptações locais convivem com exigências como composição definida constitucionalmente, garantias funcionais e preservação das vagas técnicas.
 
-## 3. TCU
+### 2.1. A mudança que já valia no edital: <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026
 
-### 3.1. Composição e escolha
+Para esta prova, o corte normativo é **6 de julho de 2026**, data de publicação do edital. A <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026, publicada em 6 de maio de 2026, portanto já integrava o texto constitucional aplicável.
 
-O TCU é composto por **nove ministros**.
+A emenda passou a declarar, no artigo 75, que os tribunais de contas são **instituições permanentes e essenciais ao exercício do controle externo**. Também inseriu, nos âmbitos constitucionais alcançados pelos artigos 31 e 75, vedação à **extinção, criação ou instalação** dos órgãos de contas ali mencionados.
 
-| Origem | Quantidade | Regra |
+Isso muda a leitura de precedentes antigos sobre a possibilidade de extinguir certos órgãos de contas: em uma questão referida ao texto vigente no edital, prevalece a Constituição **já alterada pela <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026**.
+
+## 3. <abbr title="Tribunal de Contas da União">TCU</abbr>: nove ministros e duas rotas de escolha
+
+O <abbr title="Tribunal de Contas da União">TCU</abbr> é composto por **nove ministros**. O número fica mais fácil de reter quando associado à origem das vagas:
+
+| Quem escolhe | Vagas | Como ler a regra |
 | --- | ---: | --- |
-| Congresso Nacional | 6 | escolha parlamentar |
-| Presidente da República | 3 | aprovação pelo Senado Federal |
+| Congresso Nacional | **6** | escolha parlamentar |
+| Presidente da República | **3** | escolha sujeita à aprovação do Senado Federal |
 
-Nas três vagas de escolha presidencial:
+A parte que mais gera erro está nas três escolhas presidenciais. Elas **não são três vagas livres**.
 
-- **1** é de livre escolha;
-- **1** deve ser preenchida entre auditores/ministros-substitutos;
-- **1** deve ser preenchida entre membros do Ministério Público junto ao TCU;
-- nas duas vagas técnicas, a escolha ocorre alternadamente a partir de lista tríplice organizada pelo Tribunal, segundo antiguidade e merecimento.
+- **uma** é de livre escolha;
+- **uma** deve recair sobre auditor, também chamado institucionalmente de ministro-substituto;
+- **uma** deve recair sobre membro do Ministério Público junto ao <abbr title="Tribunal de Contas da União">TCU</abbr>;
+- nas duas vagas técnicas, a escolha se faz alternadamente a partir de **lista tríplice** organizada pelo próprio Tribunal segundo antiguidade e merecimento.
 
-Logo, é errado dizer que as três vagas do Presidente são livres.
+Chamar essas duas últimas de **vagas técnicas** ajuda a entender o mecanismo: a Constituição reserva participação, na composição do Tribunal, a carreiras que já atuam no sistema de contas. A lista tríplice é uma relação de três nomes formada pelo Tribunal para a escolha dentro da categoria constitucionalmente reservada.
 
-### 3.2. Requisitos dos ministros
+### 3.1. Quem pode ser ministro
 
-O art. 73, § 1º, exige:
+O artigo 73, § 1º, exige cumulativamente:
 
 - nacionalidade brasileira;
 - **mais de 35 e menos de 70 anos**;
@@ -58,141 +69,142 @@ O art. 73, § 1º, exige:
 - notórios conhecimentos jurídicos, contábeis, econômicos e financeiros ou de administração pública;
 - mais de dez anos de exercício de função ou atividade profissional que exija esses conhecimentos.
 
-O limite máximo de menos de 70 anos decorre da atualização constitucional promovida pela EC nº 122/2022.
+O limite máximo de **menos de 70 anos** resulta da <abbr title="Emenda Constitucional">EC</abbr> nº 122/2022. Não use, portanto, materiais antigos que ainda indiquem limite inferior.
 
-### 3.3. Garantias
+### 3.2. Garantias não transformam o Tribunal em Judiciário
 
-Os ministros do TCU têm as mesmas garantias, prerrogativas, impedimentos, vencimentos e vantagens dos ministros do **Superior Tribunal de Justiça**. A equiparação funcional não transforma o TCU em órgão judicial.
+Os ministros do <abbr title="Tribunal de Contas da União">TCU</abbr> têm as mesmas garantias, prerrogativas, impedimentos, vencimentos e vantagens dos ministros do Superior Tribunal de Justiça. Essa equiparação protege a independência funcional do cargo; **não converte o <abbr title="Tribunal de Contas da União">TCU</abbr> em órgão judicial**.
 
-### 3.4. Auditores ou ministros-substitutos
+O mesmo cuidado vale para os auditores/ministros-substitutos. A Constituição os seleciona por concurso público de provas e títulos. Quando substituem ministro, têm as garantias e impedimentos do titular; nas demais atribuições da <abbr title="Atividade de decidir processos no âmbito dos tribunais de contas">judicatura de contas</abbr>, recebem as garantias e impedimentos previstas constitucionalmente para a função correspondente.
 
-A Constituição usa a denominação **auditores**; institucionalmente, também se usa **ministros-substitutos**.
+Não confunda esse **auditor constitucional que exerce função de ministro-substituto** com servidores de carreiras de auditoria ou controle externo. O nome parecido não cria identidade entre cargos.
 
-Eles ingressam mediante concurso público de provas e títulos e exercem atribuições judicantes. Quando substituem ministro, possuem as mesmas garantias e impedimentos do titular; nas demais atribuições da judicatura de contas, possuem as garantias e impedimentos de juiz de Tribunal Regional Federal.
+### 3.3. Ministério Público junto ao Tribunal
 
-Não confunda **ministro-substituto** com servidor da carreira de auditoria/controle externo: são categorias distintas.
+O Ministério Público junto ao <abbr title="Tribunal de Contas da União">TCU</abbr> atua perante a Corte de Contas e **não se confunde com o Ministério Público comum**. O artigo 130 da Constituição manda aplicar aos seus membros, no que couber, as disposições constitucionais pertinentes a direitos, vedações e forma de investidura dos membros do Ministério Público.
 
-### 3.5. Ministério Público junto ao TCU
+Essa distinção também explica uma das vagas presidenciais: um membro desse Ministério Público especial ocupa uma das duas vagas técnicas do <abbr title="Tribunal de Contas da União">TCU</abbr>.
 
-O Ministério Público junto ao TCU tem fundamento, entre outros, nos arts. 73, § 2º, I, e 130 da Constituição. Ele funciona junto à Corte de Contas e não se confunde com o Ministério Público comum.
+## 4. Tribunais estaduais e <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr>: o modelo de sete membros
 
-O art. 130 determina a aplicação, no que couber, das regras constitucionais pertinentes aos membros do Ministério Público quanto a direitos, vedações e forma de investidura. Um de seus membros ocupa uma das duas vagas técnicas de escolha presidencial no TCU.
+Nos tribunais de contas estaduais, a adaptação do modelo federal começa por um número diferente: são **sete conselheiros**, e não nove ministros.
 
-## 4. TCEs, TCDF e simetria constitucional
+A Súmula 653 do <abbr title="Supremo Tribunal Federal">STF</abbr> consolida a distribuição das vagas do tribunal estadual:
 
-O art. 75 não exige cópia mecânica de cada detalhe do TCU. A expressão **“no que couber”** admite adaptações federativas, mas preserva o núcleo constitucional do modelo: órgão de contas autônomo, composição constitucionalmente definida, garantias funcionais e vagas técnicas.
-
-### 4.1. Tribunais de contas estaduais
-
-As Constituições estaduais dispõem sobre seus tribunais de contas, que são integrados por **sete conselheiros**.
-
-A **Súmula 653 do <abbr title="Supremo Tribunal Federal">STF</abbr>** consolida a repartição:
-
-| Origem | Quantidade |
+| Origem | Vagas |
 | --- | ---: |
-| Assembleia Legislativa | 4 |
-| Governador | 3 |
+| Assembleia Legislativa | **4** |
+| Governador | **3** |
 
-Entre as três vagas do Governador:
+As três vagas do Governador reproduzem a lógica **uma livre + duas técnicas**:
 
-- uma é destinada a auditor/conselheiro-substituto;
-- uma é destinada a membro do Ministério Público junto ao Tribunal de Contas;
-- uma é de livre escolha.
+- uma de livre escolha;
+- uma reservada a auditor/conselheiro-substituto;
+- uma reservada a membro do Ministério Público junto ao Tribunal de Contas.
 
-Essa distribuição **não é a regra do quinto constitucional**. A expressão “quinto constitucional” pertence a outro instituto e foi usada como pegadinha em questão oficial do CESPE/Cebraspe sobre TCEs.
+Esse arranjo **não é o quinto constitucional**. O quinto constitucional é outro instituto, ligado à composição de determinados tribunais do Poder Judiciário. Aqui, a regra é própria dos tribunais de contas.
 
-### 4.2. TCDF
+O <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr> também possui **sete conselheiros** e se submete à matriz constitucional aplicável aos tribunais de contas subnacionais. Ele é tribunal próprio do Distrito Federal: **não é unidade do <abbr title="Tribunal de Contas da União">TCU</abbr> e não integra o Poder Judiciário**.
 
-O TCDF é o tribunal de contas próprio do Distrito Federal. Não é unidade do TCU nem integra o Poder Judiciário. Sua organização segue a matriz constitucional aplicável aos tribunais de contas subnacionais, com **sete conselheiros** e preservação das vagas técnicas.
+A competência eventual do <abbr title="Tribunal de Contas da União">TCU</abbr> sobre recursos federais não altera essa natureza. A pergunta “de onde veio o dinheiro?” pode definir qual órgão fiscaliza determinada verba; não muda a identidade institucional do <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr>.
 
-A existência de competência do TCU sobre determinada verba ou matéria federal não transforma o TCDF em órgão federal.
+## 5. Município: quem julga o prefeito e por que três nomes parecidos importam
 
-## 5. Controle externo municipal e órgãos de contas
+No Município, o controle externo é da **Câmara Municipal**, com auxílio do tribunal competente. Sobre as contas anuais do prefeito, esse tribunal emite **parecer prévio**: uma manifestação técnica que antecede o julgamento político realizado pela Câmara.
 
-O art. 31 da Constituição estabelece que a fiscalização do Município é exercida pelo Poder Legislativo municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo municipal.
+A Constituição reforça o peso desse parecer ao determinar que ele só deixa de prevalecer por decisão de **dois terços dos membros da Câmara Municipal**. Portanto:
 
-O controle externo da Câmara Municipal é exercido com auxílio do tribunal competente. O parecer prévio sobre as contas anuais do prefeito somente deixa de prevalecer por decisão de **dois terços dos membros da Câmara Municipal**.
+**tribunal emite parecer prévio → Câmara Municipal julga → afastamento do parecer exige 2/3**.
 
-É importante separar as denominações:
+Essa regra se refere às **contas anuais do prefeito**. Outras espécies de contas e responsabilidades possuem regime próprio, estudado no capítulo sobre competências dos tribunais de contas.
 
-| Expressão | Natureza |
+### 5.1. “Do Município” e “dos Municípios” não são a mesma coisa
+
+Os nomes podem parecer equivalentes, mas indicam estruturas diferentes:
+
+| Expressão | O que significa |
 | --- | --- |
-| **Tribunal de Contas do Estado (TCE)** | órgão estadual; em regra fiscaliza o Estado e também Municípios |
-| **Tribunal de Contas do Município** | órgão do próprio Município, existente apenas onde historicamente admitido |
-| **Tribunal de Contas dos Municípios** | órgão estadual especializado na fiscalização municipal |
+| Tribunal de Contas do Estado | órgão estadual; em regra também atua no controle de Municípios |
+| Tribunal de Contas **do Município** | órgão pertencente ao próprio Município, onde historicamente existente |
+| Tribunal de Contas **dos Municípios** | órgão **estadual** especializado no controle dos Municípios |
 
-O art. 31, § 4º, já vedava a criação de tribunais, conselhos ou órgãos de contas **pelos Municípios**. Com a EC nº 139/2026, os arts. 31 e 75 passaram também a conter a vedação de **extinção, criação ou instalação** dos órgãos neles abrangidos.
+O artigo 31, § 4º, já vedava a criação de tribunais, conselhos ou órgãos de contas **pelos Municípios**. No texto vigente no edital, a <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026 acrescenta a proteção institucional já vista contra extinção, criação ou instalação dos órgãos abrangidos pelos dispositivos constitucionais alterados.
 
-### 5.1. Jurisprudência dentro do corte: <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 4.124
+### 5.2. <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 4.124: uma aplicação da autonomia institucional
 
-No julgamento da **ADI 4.124**, concluído em 16 de dezembro de 2025 e publicado em 26 de janeiro de 2026, o STF declarou incompatível com a Constituição regra baiana que atribuía à Assembleia Legislativa o julgamento das contas do Tribunal de Contas dos Municípios. O precedente reforça que esse Tribunal de Contas dos Municípios, embora voltado ao controle municipal, é **órgão estadual de contas dotado de autonomia**, não simples órgão interno do Legislativo.
+Na <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 4.124, o <abbr title="Supremo Tribunal Federal">STF</abbr> afastou normas baianas que submetiam à Assembleia Legislativa o julgamento das contas do Tribunal de Contas dos Municípios da Bahia. O julgamento de mérito foi concluído em dezembro de 2025 e o acórdão publicado em janeiro de 2026, portanto dentro do corte do edital.
 
-## 6. TCE/MA na Constituição do Maranhão
+O precedente ajuda a fixar a diferença anterior: um **Tribunal de Contas dos Municípios** pode fiscalizar Municípios e, ainda assim, ser **órgão estadual autônomo**, não simples setor interno da Assembleia Legislativa.
 
-### 6.1. Posição institucional
+## 6. Aplicando o modelo ao Maranhão
 
-No Maranhão, o controle externo estadual é exercido pela **Assembleia Legislativa**, com auxílio do **TCE/MA**. No plano municipal, o Tribunal auxilia as **Câmaras Municipais**.
+No Maranhão, a Assembleia Legislativa exerce o controle externo estadual com auxílio do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. No plano municipal, o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> auxilia as Câmaras Municipais.
 
-O TCE/MA não é subordinado à Assembleia Legislativa, não integra o Tribunal de Justiça e não é unidade do TCU.
+A mesma lógica institucional continua valendo: o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> **não é subordinado à Assembleia Legislativa, não integra o Tribunal de Justiça e não é unidade do <abbr title="Tribunal de Contas da União">TCU</abbr>**.
 
-### 6.2. Composição
+### 6.1. Sete conselheiros: quatro + três
 
-O TCE/MA é integrado por **sete conselheiros**:
+A Constituição do Maranhão prevê **sete conselheiros**:
 
-- **4** escolhidos pela Assembleia Legislativa;
-- **3** escolhidos pelo Governador, observada a aprovação legislativa;
-- nas vagas do Governador, preservam-se uma vaga de conselheiro-substituto/auditor, uma de membro do Ministério Público de Contas e uma de livre escolha.
+- **quatro** escolhidos pela Assembleia Legislativa;
+- **três** escolhidos pelo Governador, com aprovação da Assembleia Legislativa.
 
-A estrutura reproduz a matriz constitucional e a Súmula 653 do STF.
+Nas três escolhas do Governador, a estrutura estadual preserva a matriz constitucional:
 
-### 6.3. Requisitos e processo de escolha
+- a primeira é de livre escolha;
+- as outras duas são preenchidas, alternadamente, entre auditores e membros do Ministério Público junto ao Tribunal;
+- para essas vagas reservadas, o Tribunal indica lista tríplice segundo antiguidade e merecimento.
 
-A Constituição maranhense exige, em síntese:
+Assim, o padrão federal **6 + 3 em nove ministros** transforma-se, no tribunal estadual, em **4 + 3 em sete conselheiros**, sem eliminar as duas vagas técnicas do Executivo.
+
+### 6.2. Requisitos e procedimento estadual
+
+Para conselheiro do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, a Constituição maranhense exige:
 
 - mais de 35 e menos de 70 anos;
 - idoneidade moral e reputação ilibada;
 - notórios conhecimentos jurídicos, contábeis, econômicos e financeiros ou de administração pública;
-- mais de dez anos de exercício de função ou atividade profissional que exija esses conhecimentos.
+- mais de dez anos de exercício de função ou de efetiva atividade profissional que exija esses conhecimentos.
 
-A **EC estadual nº 96/2024** alterou a Constituição do Maranhão quanto ao procedimento de escolha: a aprovação pela Assembleia é precedida de **arguição pública** e ocorre por **voto secreto**.
+A <abbr title="Emenda Constitucional">EC</abbr> estadual nº 96/2024 atualizou o limite etário para menos de 70 anos e também alterou o procedimento de escolha. A Constituição estadual passou a exigir **arguição pública** e **aprovação prévia, por voto secreto**, da escolha dos membros do Tribunal.
 
-### 6.4. Garantias, substitutos e Ministério Público de Contas
+Perceba a diferença entre **requisito para ocupar o cargo** e **procedimento de escolha**: idade, reputação, conhecimento e experiência dizem quem pode ser conselheiro; arguição e votação dizem como a escolha passa pelo Legislativo.
 
-Os conselheiros do TCE/MA possuem garantias, prerrogativas e impedimentos equivalentes aos dos desembargadores do Tribunal de Justiça do Maranhão, sem que isso altere a natureza não judicial da Corte de Contas.
+### 6.3. Garantias, auditor e Ministério Público de Contas
 
-Os conselheiros-substitutos ingressam por concurso público de provas e títulos e exercem funções judicantes. O Ministério Público junto ao TCE/MA funciona perante a Corte de Contas e não se confunde com o Ministério Público Estadual, embora seu regime constitucional utilize, no que couber, garantias e vedações próprias do Ministério Público.
+Os conselheiros do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> têm garantias, prerrogativas, impedimentos, vencimentos e vantagens equivalentes aos dos desembargadores do Tribunal de Justiça do Maranhão. Novamente, **equiparação de garantias não significa integração ao Poder Judiciário**.
 
-### 6.5. Competências: apenas o necessário para localizar o órgão
+Quando o auditor substitui conselheiro, a Constituição estadual lhe atribui as mesmas garantias e impedimentos do titular; nas demais atribuições da judicatura de contas, aplica o regime constitucional próprio indicado para essa função.
 
-Sem repetir o assunto específico sobre competências dos tribunais de contas, lembre a divisão essencial:
+O Ministério Público junto ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, também chamado no uso institucional de <abbr title="Ministério Público de Contas">MPC</abbr>, atua perante a Corte de Contas e não se confunde com a carreira comum do Ministério Público Estadual. Um de seus membros integra a categoria reservada para uma das vagas técnicas de escolha do Governador.
 
-- contas anuais do **Governador**: TCE/MA aprecia e emite parecer prévio; a Assembleia julga;
-- contas anuais do **Prefeito**: TCE/MA emite parecer prévio; a Câmara Municipal julga;
-- contas de **administradores e responsáveis**: o Tribunal exerce competência própria de julgamento, conforme o regime constitucional;
-- o Tribunal também possui competências próprias de fiscalização, auditoria, registro e controle previstas na Constituição.
+### 6.4. A ponte mínima com as competências
 
-## 7. Matriz comparativa
+Para não misturar organização com o capítulo que aprofunda competências, retenha apenas três relações:
 
-| Ponto | TCU | TCE/TCE-MA | TCDF |
+- contas anuais do **Governador**: o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> aprecia e emite parecer prévio; a Assembleia Legislativa julga;
+- contas anuais do **Prefeito**: o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> emite parecer prévio; a Câmara Municipal julga;
+- contas de **administradores e responsáveis**: o Tribunal possui competência própria de julgamento nos casos previstos pelo regime constitucional.
+
+A utilidade dessa ponte é mostrar que **auxiliar** o Legislativo e **exercer competências próprias** não são ideias incompatíveis.
+
+## 7. Como reconstruir a resposta em prova
+
+Em vez de decorar uma lista solta, siga quatro perguntas:
+
+1. **Qual é o ente?** União, Estado, Distrito Federal ou Município.
+2. **Qual é o tribunal?** <abbr title="Tribunal de Contas da União">TCU</abbr> tem 9 ministros; tribunal estadual e <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr> têm 7 conselheiros.
+3. **Quem escolhe?** No <abbr title="Tribunal de Contas da União">TCU</abbr>, 6 + 3; no tribunal estadual, 4 + 3. Nas três vagas do Executivo, apenas uma é livre.
+4. **A questão está falando de organização ou de competência?** Composição e escolha seguem o modelo deste capítulo; parecer, julgamento, fiscalização e sanções exigem identificar o tipo de conta e a competência constitucional específica.
+
+Uma síntese final das relações próprias deste assunto:
+
+| Ponto | <abbr title="Tribunal de Contas da União">TCU</abbr> | Tribunal estadual / <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> | <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr> |
 | --- | --- | --- | --- |
 | titulares | 9 ministros | 7 conselheiros | 7 conselheiros |
-| escolha legislativa | 6 pelo Congresso | 4 pela Assembleia | matriz local conforme art. 75 |
-| escolha do Executivo | 3 pelo Presidente | 3 pelo Governador | matriz local conforme art. 75 |
-| vagas técnicas do Executivo | auditor + <abbr title="Ministério Público junto ao Tribunal de Contas da União">MPTCU</abbr> | auditor/conselheiro-substituto + MPC | preservadas pelo modelo constitucional |
-| vaga livre do Executivo | 1 | 1 | 1 no modelo simétrico |
-| integra Judiciário? | não | não | não |
-| subordinado ao Legislativo? | não | não | não |
+| origem das vagas | 6 Congresso + 3 Presidente | 4 Assembleia + 3 Governador | modelo constitucional adaptado ao Distrito Federal |
+| vagas do Executivo | 1 livre + 2 técnicas | 1 livre + 2 técnicas | preservação do núcleo constitucional |
+| integra o Judiciário? | não | não | não |
+| “auxílio” significa subordinação? | não | não | não |
 
-## 8. Pegadinhas de prova
-
-- **TCU = 9**; **TCEs/TCDF = 7**.
-- TCU: **6 + 3**; TCE: **4 + 3**.
-- Das três vagas do Executivo, **apenas uma é livre**.
-- A divisão 4/3 dos TCEs **não é “quinto constitucional”**.
-- Auxílio ao Legislativo **não significa subordinação**.
-- Tribunal de contas **não integra o Poder Judiciário**.
-- Ministério Público de Contas **não é automaticamente o Ministério Público comum**.
-- Ministro/conselheiro-substituto **não é servidor auditor de controle externo**.
-- Art. 75: aplicação **no que couber**, não reprodução literal cega.
-- Parecer prévio sobre contas do prefeito só deixa de prevalecer por **2/3 da Câmara**.
-- Após a EC nº 139/2026, permanência, essencialidade e vedação de extinção/criação/instalação fazem parte do texto constitucional vigente no edital.
+Se uma alternativa disser que o tribunal de contas é subordinado ao Legislativo, integra o Judiciário, possui três vagas executivas totalmente livres ou que a regra 4/3 é “quinto constitucional”, ela está misturando institutos que a Constituição mantém separados.
