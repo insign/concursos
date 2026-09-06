@@ -6,62 +6,66 @@ order: 38
 storageId: proposicoes-tabelas-verdade
 ---
 
-## 1. Recorte do assunto
+## 1. O que uma tabela-verdade resolve?
 
-Este assunto cobre o núcleo da **lógica proposicional** exigido nos itens 3.1 e 3.2 do edital: reconhecer proposições, distinguir simples e compostas, traduzir conectivos e construir ou interpretar tabelas-verdade.
+Considere duas afirmações:
 
-Aqui entram:
+- p: “A auditoria começou.”
+- q: “O relatório está pronto.”
 
-- proposições e valores V/F;
-- proposições simples e compostas;
-- negação, conjunção, disjunção inclusiva, disjunção exclusiva, condicional e bicondicional;
-- condições suficiente e necessária;
-- alcance dos conectivos e uso de parênteses;
-- quantidade de linhas e montagem de tabelas-verdade;
-- avaliação de fórmulas em atribuições dadas;
-- reconhecimento, pela coluna final, de tautologia, contradição e contingência.
+Saber se cada frase é verdadeira no mundo real pode exigir fatos externos. A **lógica proposicional** faz outra pergunta: **dado o valor de p e de q, qual é o valor da afirmação formada ao combiná-las?**
 
-Ficam para o assunto seguinte as **equivalências**, as **leis de De Morgan** e os **diagramas lógicos**. Aqui uma fórmula pode ser avaliada por tabela, mas não é transformada em outra por leis de equivalência.
+Se alguém diz “A auditoria começou **e** o relatório está pronto”, a frase inteira só será verdadeira quando p e q forem verdadeiras. Se diz “**Se** a auditoria começou, **então** o relatório está pronto”, a regra de avaliação muda.
 
-## 2. Proposição e valor lógico
+A tabela-verdade é justamente o instrumento que organiza todas as combinações possíveis dos valores das proposições simples e mostra o resultado da fórmula composta. Para usá-la bem, o caminho é:
 
-Uma **proposição** é uma afirmação declarativa à qual se pode atribuir, em contexto determinado, exatamente um dos valores:
+1. reconhecer quais trechos são proposições;
+2. separar as proposições simples;
+3. identificar o conectivo e seu alcance;
+4. aplicar a regra de verdade desse conectivo;
+5. quando necessário, repetir o processo por subfórmulas até chegar ao resultado final.
 
-- **V** — verdadeiro;
-- **F** — falso.
+Esse mecanismo é o centro do assunto. Equivalências, leis de De Morgan e diagramas lógicos ficam para o assunto seguinte; aqui, o objetivo é **avaliar a fórmula que foi dada**, sem transformá-la em outra.
+
+## 2. Primeiro filtro: o enunciado recebe verdadeiro ou falso?
+
+Uma **proposição** é uma afirmação declarativa à qual, em um contexto determinado, se pode atribuir exatamente um valor lógico:
+
+- **V**, verdadeiro; ou
+- **F**, falso.
 
 Exemplos:
 
 - “São Luís é a capital do Maranhão.” — proposição verdadeira;
 - “O número 10 é ímpar.” — proposição falsa.
 
-Não é necessário conhecer previamente o valor de uma afirmação para reconhecê-la como proposição. O ponto é saber se, no contexto considerado, ela afirma algo que pode ser verdadeiro ou falso.
+O candidato não precisa conhecer o valor para reconhecer a proposição. “O processo tem 80 páginas” continua sendo proposição mesmo que você não tenha acesso ao processo: há uma afirmação que, no contexto, será verdadeira ou falsa.
 
-Na lógica clássica bivalente adotada neste assunto, uma proposição recebe **um e somente um** dos valores V ou F em cada interpretação.
+A lógica clássica usada neste assunto é **bivalente**: em cada interpretação, a proposição recebe um e somente um desses dois valores.
 
-## 3. O que não é proposição
+### 2.1. O que fica fora
 
-Não recebem V/F, em regra:
+Em regra, não são proposições:
 
 - **perguntas:** “O relatório foi entregue?”;
 - **ordens ou pedidos:** “Entregue o relatório.”;
 - **exclamações sem afirmação avaliável:** “Que surpresa!”;
-- **sentenças abertas:** “x + 2 = 7”, sem valor fixado para x.
+- **sentenças abertas:** “x + 2 = 7”, enquanto x não estiver determinado.
 
-Uma sentença aberta pode tornar-se proposição quando a variável é substituída por valor determinado ou quando o enunciado é fechado por recurso próprio da lógica de primeira ordem.
+Uma **sentença aberta** contém elemento variável do qual depende o valor lógico. Se x for substituído por um valor definido, “x + 2 = 7” passa a produzir uma afirmação verdadeira ou falsa. O fechamento por quantificadores pertence à lógica de primeira ordem, estudada em assunto próprio.
 
-> Pergunta ou ordem não é “proposição falsa”: simplesmente não recebe valor lógico.
+> Pergunta ou ordem não é “proposição falsa”. Ela simplesmente não recebe V ou F.
 
-## 4. Proposições simples e compostas
+## 3. Da frase simples à fórmula composta
 
-Uma **proposição simples** ou **atômica** é tratada como unidade, sem combinação proposicional por conectivos.
+Uma **proposição simples**, também chamada **atômica**, é tratada como uma unidade: não resulta da combinação de outras proposições por conectivos.
 
-Exemplos:
+Retomando o cenário:
 
 - p: “A auditoria começou.”
 - q: “O relatório está pronto.”
 
-Uma **proposição composta** resulta da aplicação de um ou mais conectivos a proposições:
+Ao ligar essas unidades, surgem proposições compostas:
 
 - ¬p — “A auditoria não começou.”
 - p ∧ q — “A auditoria começou e o relatório está pronto.”
@@ -69,41 +73,43 @@ Uma **proposição composta** resulta da aplicação de um ou mais conectivos a 
 - p → q — “Se a auditoria começou, então o relatório está pronto.”
 - p ↔ q — “A auditoria começou se e somente se o relatório está pronto.”
 
-Na prova, use a decomposição indicada pelo enunciado e identifique os conectivos efetivamente presentes. Não conte proposições apenas pelo número de palavras ou verbos.
+O símbolo que realiza a ligação é um **conectivo lógico**. O número de verbos ou de palavras não decide quantas proposições simples existem; o que interessa é a decomposição lógica indicada pelo enunciado.
 
-## 5. Conectivos fundamentais
+## 4. Antes de decorar tabelas: pergunte quando a frase falha
 
-| Operação | Forma | Regra de verdade |
+As regras dos conectivos ficam mais fáceis de reter quando você identifica o caso decisivo.
+
+| Operação | Forma | Ideia de avaliação |
 |---|---:|---|
-| negação | ¬p | inverte o valor de p |
-| conjunção | p ∧ q | V somente em V/V |
-| disjunção inclusiva | p ∨ q | F somente em F/F |
-| disjunção exclusiva | p ⊻ q | V quando exatamente uma é V |
-| condicional | p → q | F somente em V/F |
-| bicondicional | p ↔ q | V quando os valores são iguais |
+| negação | ¬p | troca V por F e F por V |
+| conjunção | p ∧ q | exige as duas verdadeiras |
+| disjunção inclusiva | p ∨ q | exige ao menos uma verdadeira |
+| disjunção exclusiva | p ⊻ q | exige exatamente uma verdadeira |
+| condicional | p → q | falha apenas quando p é V e q é F |
+| bicondicional | p ↔ q | exige valores iguais |
 
-A disjunção exclusiva também pode aparecer com outros símbolos, como ⊕. O essencial é a regra: **exatamente uma** componente verdadeira.
+A seguir, cada regra é construída separadamente.
 
-## 6. Negação
+## 5. Negação: inverter o valor e respeitar o alcance
 
-A negação inverte o valor lógico:
+A negação troca o valor lógico:
 
 | p | ¬p |
 |:---:|:---:|
 | V | F |
 | F | V |
 
-O alcance é decisivo:
+O ponto de prova não é apenas “inverter”. É saber **o que está sendo negado**:
 
 - ¬p nega apenas p;
-- ¬(p ∧ q) nega a conjunção inteira;
-- (¬p) ∧ q nega p e depois combina o resultado com q.
+- ¬(p ∧ q) nega a proposição composta inteira;
+- (¬p) ∧ q nega p e, depois, conjuga o resultado com q.
 
-Neste assunto, avalie cada fórmula pela tabela ou pelos valores fornecidos. A transformação de ¬(p ∧ q) em fórmula equivalente pertence ao estudo de De Morgan.
+Os parênteses delimitam o alcance. Neste assunto, ¬(p ∧ q) deve ser avaliada como está. Transformá-la por uma lei de equivalência é matéria do assunto seguinte.
 
-## 7. Conjunção
+## 6. Conjunção: todos precisam passar
 
-A conjunção p ∧ q é verdadeira somente quando **ambas** são verdadeiras.
+A conjunção p ∧ q afirma p **e** q ao mesmo tempo. Por isso, basta uma componente falsa para derrubar o conjunto.
 
 | p | q | p ∧ q |
 |:---:|:---:|:---:|
@@ -112,15 +118,15 @@ A conjunção p ∧ q é verdadeira somente quando **ambas** são verdadeiras.
 | F | V | F |
 | F | F | F |
 
-Na formalização básica, palavras como “e”, “mas”, “embora” e “tanto... quanto” normalmente combinam as afirmações pela regra da conjunção.
+Na formalização básica, “e”, “mas”, “embora” e “tanto... quanto” frequentemente unem proposições pela regra da conjunção. O vocabulário pode variar; a estrutura lógica é que decide.
 
-**Atalho:** uma componente F já torna toda a conjunção F.
+**Atalho seguro:** encontrou uma componente F numa conjunção, o resultado já é F.
 
-## 8. Disjunções
+## 7. Disjunção: “ao menos uma” não é “exatamente uma”
 
-### 8.1. Disjunção inclusiva
+### 7.1. Disjunção inclusiva
 
-O “ou” lógico simples é inclusivo, salvo indicação de exclusividade.
+Na disjunção inclusiva p ∨ q, basta que uma das componentes seja verdadeira; as duas também podem ser verdadeiras.
 
 | p | q | p ∨ q |
 |:---:|:---:|:---:|
@@ -129,11 +135,13 @@ O “ou” lógico simples é inclusivo, salvo indicação de exclusividade.
 | F | V | V |
 | F | F | F |
 
-**Atalho:** uma componente V já torna a disjunção inclusiva V.
+Portanto, o “ou” lógico simples é tratado como inclusivo quando o enunciado não impõe exclusividade.
 
-### 8.2. Disjunção exclusiva
+**Atalho seguro:** encontrou uma componente V numa disjunção inclusiva, o resultado já é V.
 
-A disjunção exclusiva é verdadeira quando exatamente uma componente é verdadeira.
+### 7.2. Disjunção exclusiva
+
+Na disjunção exclusiva, p ⊻ q, exatamente uma componente deve ser verdadeira.
 
 | p | q | p ⊻ q |
 |:---:|:---:|:---:|
@@ -142,20 +150,22 @@ A disjunção exclusiva é verdadeira quando exatamente uma componente é verdad
 | F | V | V |
 | F | F | F |
 
-Indícios:
+Ela costuma aparecer em expressões como:
 
 - “ou p ou q, mas não ambos”;
-- “exatamente uma”; 
+- “exatamente uma”;
 - “um ou outro, exclusivamente”.
 
-Não presuma exclusividade quando o enunciado disser apenas “ou”.
+O símbolo pode variar, inclusive aparecer como ⊕. Não transforme um “ou” simples em exclusivo sem indicação do enunciado.
 
-## 9. Condicional
+## 8. Condicional: qual situação viola a promessa?
 
-A condicional p → q é lida “se p, então q”.
+Leia p → q como “se p, então q”.
 
-- p = **antecedente**;
-- q = **consequente**.
+- p é o **antecedente**;
+- q é o **consequente**.
+
+Pense na condicional como uma regra: **sempre que p ocorrer, q deve ocorrer**. A única violação é afirmar p e deixar q falhar.
 
 | p | q | p → q |
 |:---:|:---:|:---:|
@@ -164,17 +174,16 @@ A condicional p → q é lida “se p, então q”.
 | F | V | V |
 | F | F | V |
 
-A única linha falsa é **V → F**.
-
-Consequências práticas:
+Isso explica dois atalhos que costumam parecer estranhos quando apenas decorados:
 
 - antecedente F torna a condicional V;
-- consequente V torna a condicional V;
-- a tabela da condicional material não exige causalidade, ordem temporal nem assunto comum entre p e q.
+- consequente V torna a condicional V.
 
-## 10. Condição suficiente e condição necessária
+A **condicional material** é definida por essa tabela. Ela não afirma, por si só, que p causa q, que p ocorreu antes de q ou que as duas proposições tratam do mesmo assunto.
 
-Em p → q:
+### 8.1. Suficiente e necessário: siga a direção da seta
+
+Em p → q, se p basta para garantir q, então:
 
 - p é condição **suficiente** para q;
 - q é condição **necessária** para p.
@@ -188,16 +197,16 @@ Em p → q:
 | p somente se q | p → q |
 | p se q | q → p |
 
-### Se × somente se
+Compare duas frases:
 
-- “Rui será nomeado **se** for aprovado” → aprovação é suficiente: a → n.
-- “Rui será nomeado **somente se** for aprovado” → aprovação é necessária: n → a.
+- “Rui será nomeado **se** for aprovado.” A aprovação basta para a nomeação: a → n.
+- “Rui será nomeado **somente se** for aprovado.” A aprovação é exigida para a nomeação: n → a.
 
-> “Somente se” introduz a condição necessária, isto é, o lado direito da seta.
+A palavra **se** apresenta a condição suficiente. A expressão **somente se** apresenta a condição necessária — o lado para o qual a seta aponta.
 
-## 11. Bicondicional
+## 9. Bicondicional: os dois lados precisam concordar
 
-A bicondicional p ↔ q é verdadeira quando p e q têm o **mesmo valor**.
+A bicondicional p ↔ q é verdadeira quando p e q têm o mesmo valor lógico.
 
 | p | q | p ↔ q |
 |:---:|:---:|:---:|
@@ -212,37 +221,37 @@ Leituras usuais:
 - “p exatamente quando q”;
 - “p é condição necessária e suficiente para q”.
 
-Compare:
+Ela faz o contraste perfeito com a disjunção exclusiva:
 
 | Valores de p e q | p ↔ q | p ⊻ q |
 |---|:---:|:---:|
 | iguais | V | F |
 | diferentes | F | V |
 
-## 12. Fórmula, subfórmula e parênteses
+## 10. Fórmula, subfórmula e conectivo principal
 
-Em
+Uma fórmula composta pode exigir várias decisões sucessivas. Em
 
 (p ∨ q) ∧ ¬r,
 
-há três etapas relevantes:
+há três etapas:
 
-1. p ∨ q;
-2. ¬r;
-3. a conjunção entre os dois resultados.
+1. avaliar p ∨ q;
+2. avaliar ¬r;
+3. conjugar os dois resultados.
 
-O conectivo executado por último é o **conectivo principal** da fórmula.
+Cada parte que forma uma expressão lógica dentro da fórmula é uma **subfórmula**. O conectivo aplicado por último, que une as grandes partes da expressão, é o **conectivo principal**.
 
-Os parênteses fixam o agrupamento. Compare:
+Compare:
 
 - p ∨ (q ∧ r);
 - (p ∨ q) ∧ r.
 
-As estruturas podem produzir valores diferentes. Ao formalizar, use parênteses sempre que houver risco de ambiguidade e respeite a convenção indicada pela banca.
+Os mesmos símbolos aparecem, mas o agrupamento é diferente e pode gerar resultados diferentes. Em prova, não confie numa suposta prioridade universal entre conectivos quando a expressão puder ser ambígua: respeite a convenção fornecida e use os parênteses como guia.
 
-## 13. Quantidade de linhas
+## 11. Por que uma tabela com n letras tem 2ⁿ linhas?
 
-Se uma fórmula contém n proposições simples **distintas**, a tabela completa possui:
+Cada proposição simples distinta tem duas possibilidades: V ou F. Para duas letras, são 2 × 2 = 4 combinações; para três, 2 × 2 × 2 = 8. Assim, com n proposições simples distintas, a tabela completa tem:
 
 **2ⁿ linhas.**
 
@@ -254,15 +263,11 @@ Se uma fórmula contém n proposições simples **distintas**, a tabela completa
 | 4 | 16 |
 | 5 | 32 |
 
-Conta-se cada letra distinta uma única vez. Repetições não aumentam o número de linhas.
+Conte **letras distintas**, não ocorrências. A fórmula (p ∧ q) ∨ (p ∧ ¬q) repete p e q, mas contém apenas duas proposições simples distintas: 2² = 4 linhas.
 
-Exemplo: (p ∧ q) ∨ (p ∧ ¬q) contém apenas p e q; portanto, a tabela tem 2² = 4 linhas.
+## 12. Como montar a tabela sem se perder
 
-## 14. Como montar a tabela-verdade
-
-### 14.1. Enumere as atribuições
-
-Para p, q e r:
+Para três letras, uma enumeração possível é:
 
 | p | q | r |
 |:---:|:---:|:---:|
@@ -275,32 +280,32 @@ Para p, q e r:
 | F | F | V |
 | F | F | F |
 
-Outra ordem é válida desde que todas as combinações apareçam uma única vez.
+A ordem pode variar. O requisito é que todas as combinações apareçam uma vez.
 
-### 14.2. Resolva por subfórmulas
+Agora avalie (p ∨ q) ∧ ¬p. Em vez de tentar enxergar tudo de uma vez, dê uma coluna a cada passo relevante:
 
-Para (p ∨ q) ∧ ¬p:
-
-| p | q | p ∨ q | ¬p | resultado |
+| p | q | p ∨ q | ¬p | (p ∨ q) ∧ ¬p |
 |:---:|:---:|:---:|:---:|:---:|
 | V | V | V | F | F |
 | V | F | V | F | F |
 | F | V | V | V | V |
 | F | F | F | V | F |
 
-Método:
+Use este fluxo:
 
-1. liste as letras distintas;
+1. liste as proposições simples distintas;
 2. calcule 2ⁿ;
-3. enumere V/F;
+3. enumere todas as combinações de V e F;
 4. identifique o conectivo principal;
-5. crie colunas para as subfórmulas;
+5. separe as subfórmulas necessárias;
 6. resolva das partes internas para a fórmula completa;
 7. leia a coluna final.
 
-## 15. Avaliação sem tabela completa
+Esse procedimento reduz erros de alcance e permite conferir onde um resultado mudou.
 
-Se os valores das letras já forem fornecidos, substitua-os e resolva as subfórmulas.
+## 13. Quando não é preciso montar a tabela inteira
+
+Se o enunciado já fornece os valores das letras, avalie somente aquela atribuição.
 
 Exemplo:
 
@@ -312,76 +317,78 @@ Exemplo:
 
 Logo, a fórmula vale V nessa atribuição.
 
-Também é possível usar atalhos diretos das tabelas fundamentais:
+Atalhos seguros vêm das próprias regras já entendidas:
 
-- conjunção com F → F;
-- disjunção inclusiva com V → V;
+- conjunção com uma componente F → F;
+- disjunção inclusiva com uma componente V → V;
 - condicional com antecedente F → V;
 - condicional com consequente V → V;
-- bicondicional: compare igualdade;
-- exclusiva: compare diferença.
+- bicondicional → compare igualdade;
+- exclusiva → compare diferença.
 
-## 16. Tautologia, contradição e contingência
+## 14. O que a coluna final diz sobre a fórmula inteira
 
-A classificação considera a **coluna final completa**:
+Depois de avaliar **todas** as atribuições, a coluna final permite classificar a fórmula:
 
 | Coluna final | Classificação |
 |---|---|
-| somente V | tautologia |
-| somente F | contradição |
-| pelo menos um V e um F | contingência |
+| somente V | **tautologia** |
+| somente F | **contradição** |
+| pelo menos um V e um F | **contingência** |
 
-Exemplos:
+Portanto:
 
-- p ∨ ¬p — tautologia;
-- p ∧ ¬p — contradição;
-- p → q — contingência.
+- p ∨ ¬p é tautologia;
+- p ∧ ¬p é contradição;
+- p → q é contingência.
 
-Uma única linha F já mostra que a fórmula **não é tautologia**, mas as demais linhas ainda precisam ser examinadas para distinguir contradição de contingência.
+Uma única linha F basta para provar que a fórmula **não é tautologia**, mas não basta para chamá-la de contradição: ainda pode haver alguma linha V, caso em que será contingente.
 
-## 17. Tradução da linguagem natural
+Essas classificações são importantes aqui porque podem ser reconhecidas pela tabela. As transformações algébricas entre fórmulas equivalentes serão estudadas no assunto seguinte.
 
-Defina primeiro as proposições básicas e depois traduza os conectivos.
+## 15. Tradução da linguagem natural: primeiro dê nomes, depois use símbolos
 
-Se:
+Considere:
 
 - p: “O cadastro está completo.”
 - q: “O comprovante será emitido.”
 
-então:
+Agora preserve exatamente a relação expressa:
 
 - “O comprovante será emitido **se** o cadastro estiver completo” → p → q;
 - “O comprovante será emitido **somente se** o cadastro estiver completo” → q → p;
 - “Não é verdade que o cadastro está completo e o comprovante foi emitido” → ¬(p ∧ q);
 - “O cadastro não está completo e o comprovante foi emitido” → (¬p) ∧ q.
 
-Preserve sempre o alcance da negação e não acrescente exclusividade que o enunciado não informou.
+O método é sempre o mesmo: identifique as afirmações básicas, descubra o conectivo que as relaciona e confira o alcance da negação. Não acrescente exclusividade, causalidade ou agrupamento que o texto não forneceu.
 
-## 18. Pegadinhas de prova
+## 16. Armadilhas de prova e por que estão erradas
 
-1. **Valor desconhecido = não proposição.** Errado: o valor pode ser desconhecido pelo candidato e ainda assim existir no modelo.
-2. **Pergunta ou ordem = proposição falsa.** Errado: não recebem V/F.
-3. **Número de linhas = número de ocorrências de letras.** Errado: use letras distintas.
-4. **“Ou” simples é exclusivo.** Errado: em regra é inclusivo.
-5. **Condicional é falsa com antecedente F.** Errado: F → V e F → F são verdadeiras.
-6. **Bicondicional exige V/V.** Errado: F/F também produz V.
-7. **“p somente se q” = q → p.** Errado: significa p → q.
-8. **Parênteses são decorativos.** Errado: mudam o agrupamento.
-9. **Uma linha F torna a fórmula contradição.** Errado: apenas elimina a possibilidade de tautologia.
-10. **Negar p ∧ q é o mesmo que negar apenas p.** Errado: o alcance é diferente.
+1. **“Se eu não sei o valor, não é proposição.”** Errado: desconhecimento do candidato não elimina o valor lógico da afirmação no contexto.
+2. **“Pergunta ou ordem é proposição falsa.”** Errado: elas não recebem V ou F.
+3. **“A tabela tem uma linha para cada ocorrência de letra.”** Errado: são 2ⁿ linhas para n letras distintas.
+4. **“Ou” simples sempre exclui a possibilidade de ambos.** Errado: a disjunção padrão é inclusiva; exclusividade precisa ser indicada.
+5. **“Antecedente falso torna a condicional falsa.”** Errado: a única linha falsa de p → q é V/F.
+6. **“Bicondicional verdadeira exige V/V.”** Errado: F/F também produz V porque os valores são iguais.
+7. **“p somente se q” significa q → p.** Errado: q é necessária para p, logo p → q.
+8. **“Parênteses são decorativos.”** Errado: eles determinam o agrupamento e o alcance.
+9. **“Uma linha F prova contradição.”** Errado: ela apenas elimina a possibilidade de tautologia.
+10. **“Negar p ∧ q é negar apenas p.”** Errado: ¬(p ∧ q) incide sobre a composta inteira.
 
-## 19. Síntese
+## 17. Mapa de retenção
 
-- proposição recebe V ou F; pergunta, ordem e sentença aberta não;
-- simples é tratada como unidade; composta usa conectivos;
+Se precisar reconstruir o assunto sob pressão, pense nesta sequência:
+
+**proposição → letras simples → conectivo → alcance → regra de verdade → subfórmulas → coluna final.**
+
+As regras essenciais são:
+
 - ¬ inverte;
-- ∧ exige todas V;
-- ∨ inclusiva exige ao menos uma V;
-- ⊻ exige exatamente uma V;
-- → só é F em V/F;
-- ↔ é V com valores iguais;
+- ∧ exige todas verdadeiras;
+- ∨ inclusiva exige ao menos uma verdadeira;
+- ⊻ exige exatamente uma verdadeira;
+- → só é falsa em V/F;
+- ↔ é verdadeira quando os valores são iguais;
 - em p → q, p é suficiente e q é necessária;
-- p somente se q = p → q;
 - n letras distintas geram 2ⁿ linhas;
-- tabelas são resolvidas por subfórmulas;
-- coluna final só V = tautologia; só F = contradição; mistura = contingência.
+- somente V na coluna final = tautologia; somente F = contradição; mistura = contingência.
