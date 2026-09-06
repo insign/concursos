@@ -6,232 +6,224 @@ order: 41
 storageId: contagem-probabilidade
 ---
 
-## 1. Recorte do assunto
+## 1. A pergunta que vem antes da fórmula
 
-O edital cobra **princípios de contagem e probabilidade**. O foco desta revisão é resolver problemas de prova com segurança, sem transformar o tópico em um curso de combinatória ou estatística.
+Quase todo erro deste assunto nasce antes da conta. A questão descreve uma situação — filas, comissões, senhas, urnas, dados — e o primeiro trabalho é decidir **o que conta como um resultado diferente**.
 
-O núcleo estudável é:
+Compare:
 
-- princípios aditivo e multiplicativo;
-- fatorial;
-- permutações, arranjos e combinações;
-- repetição, posições, blocos, lacunas e contagem por complemento;
-- inclusão-exclusão e princípio da casa dos pombos;
-- espaço amostral, eventos e probabilidade em casos equiprováveis;
-- complemento, união e interseção de eventos;
-- probabilidade condicional, regra do produto, independência e reposição;
-- probabilidade total e Bayes em nível operacional.
+- escolher 3 pessoas para uma comissão sem cargos;
+- escolher presidente, vice-presidente e secretário entre as mesmas pessoas.
 
-Operações gerais com conjuntos pertencem ao assunto 042. Problemas aritméticos, geométricos e matriciais têm assuntos próprios.
+Nos dois casos há 3 escolhidos, mas trocar duas pessoas de posição só cria novo resultado no segundo. É essa diferença que separa combinação de arranjo.
 
-## 2. Antes da fórmula: modele o resultado
-
-Pergunte:
+Use este roteiro antes de procurar uma fórmula:
 
 1. há **alternativas** ou **etapas sucessivas**?
 2. a **ordem** altera o resultado?
-3. todos os objetos serão usados ou apenas parte?
-4. há repetição permitida ou objetos indistinguíveis?
+3. usam-se todos os objetos ou apenas parte deles?
+4. repetição é permitida? Há objetos indistinguíveis?
 5. existe restrição de posição, adjacência ou composição?
-6. em problemas circulares, rotações contam como a mesma disposição?
+6. em um círculo, rotações representam a mesma disposição?
 
-| Situação | Modelo inicial |
-|---|---|
-| escolher ônibus **ou** trem entre alternativas disjuntas | princípio aditivo |
-| escolher camisa **e depois** calça | princípio multiplicativo |
-| ordenar todos os objetos distintos | permutação |
-| escolher parte dos objetos com ordem | arranjo |
-| escolher parte sem ordem | combinação |
-| letras repetidas | permutação com repetição |
-| mesa redonda sem lugar marcado | permutação circular |
+A ideia central é simples: **modele primeiro; conte depois**. Probabilidade virá em seguida como uma medida aplicada aos resultados possíveis.
 
-> A fórmula correta depende do que conta como resultado diferente.
+## 2. Somar ou multiplicar: a base da contagem
 
-## 3. Princípios aditivo e multiplicativo
+### 2.1. Alternativas: princípio aditivo
 
-### 3.1. Princípio aditivo
+Se uma escolha pode ocorrer por caminhos que não se sobrepõem, somam-se as possibilidades.
 
-Se uma escolha ocorre por alternativas **mutuamente excludentes**, somam-se as possibilidades.
-
-Com 5 rotas rodoviárias e 3 ferroviárias, sem sobreposição:
+Exemplo hipotético: há 5 rotas rodoviárias e 3 ferroviárias, e nenhuma rota pertence às duas categorias. Escolher uma rota significa usar uma alternativa **ou** a outra:
 
 $$
 5+3=8.
 $$
 
-Se as categorias se sobrepõem, a soma direta conta a interseção duas vezes:
+Se houver sobreposição, a soma direta conta duas vezes o que está nas duas categorias. Para dois conjuntos:
 
 $$
 |A\cup B|=|A|+|B|-|A\cap B|.
 $$
 
-### 3.2. Princípio multiplicativo
+### 2.2. Etapas: princípio multiplicativo
 
-Se um processo ocorre em etapas sucessivas, multiplicam-se as quantidades de opções disponíveis em cada etapa.
+Se o resultado é construído em etapas sucessivas, multiplique o número de opções disponíveis em cada etapa.
 
-Com 4 camisas e 3 calças:
+Exemplo hipotético: com 4 camisas e 3 calças, cada escolha de camisa pode ser combinada com cada escolha de calça:
 
 $$
 4\cdot3=12.
 $$
 
-Para uma sequência de 3 letras distintas entre 26:
+Se as opções diminuem porque não há repetição, a multiplicação acompanha essa mudança. Uma sequência de 3 letras distintas escolhidas entre 26 pode ser formada de
 
 $$
-26\cdot25\cdot24.
+26\cdot25\cdot24
 $$
 
-As quantidades podem mudar de etapa para etapa.
+maneiras.
 
-## 4. Fatorial e modelos básicos
+Esses dois princípios sustentam as fórmulas seguintes. Quando uma fórmula parecer obscura, volte a contar posição por posição.
 
-Para $n\ge1$:
+## 3. Ordem, escolha e fatorial
+
+Para $n\ge1$,
 
 $$
 n!=n(n-1)\cdots2\cdot1,
 \qquad 0!=1.
 $$
 
-### 4.1. Permutação simples
+O fatorial aparece quando o número de opções cai sucessivamente de $n$ até 1.
 
-Usa todos os $n$ objetos distintos e a ordem importa:
+### 3.1. Permutação: usar todos e ordenar
+
+Com $n$ objetos distintos, usando todos e considerando a ordem:
 
 $$
 P_n=n!.
 $$
 
-Exemplo: 6 pessoas em fila:
+Se 6 pessoas distintas formam uma fila, há
 
 $$
-6!=720.
+6!=720
 $$
 
-### 4.2. Arranjo simples
+filas.
 
-Escolhe $p$ entre $n$ objetos distintos e a ordem importa:
+### 3.2. Arranjo: escolher parte e ordenar
+
+Escolhendo $p$ objetos entre $n$, com posições distintas:
 
 $$
 A_{n,p}=\frac{n!}{(n-p)!}.
 $$
 
-Exemplo: primeiro e segundo lugares entre 10 concorrentes:
+Primeiro e segundo lugares entre 10 concorrentes:
 
 $$
 A_{10,2}=10\cdot9=90.
 $$
 
-### 4.3. Combinação simples
+### 3.3. Combinação: escolher parte sem ordenar
 
-Escolhe $p$ entre $n$ objetos e a ordem não importa:
+Se a ordem dos $p$ escolhidos não muda o resultado:
 
 $$
 \binom np=C_{n,p}=\frac{n!}{p!(n-p)!}.
 $$
 
-Exemplo: comissão de 3 pessoas entre 10:
+Uma comissão sem cargos de 3 pessoas entre 10 pode ser formada de
 
 $$
-\binom{10}{3}=120.
+\binom{10}{3}=120
 $$
 
-Relação útil:
+maneiras.
+
+A divisão por $p!$ elimina as $p!$ ordens que representam a mesma comissão. Por isso,
 
 $$
 A_{n,p}=\binom np\,p!.
 $$
 
-## 5. Repetição e circularidade
+**Teste de prova:** se trocar duas pessoas escolhidas produz um resultado novo, a ordem importa; se nada muda, não importa.
 
-### 5.1. Permutação com repetição
+## 4. Quando os objetos ou as posições não são todos distintos
 
-Se $n$ posições contêm grupos indistinguíveis com multiplicidades $a_1,\ldots,a_r$:
+### 4.1. Permutação com repetição
+
+Se há $n$ posições e grupos de objetos indistinguíveis com quantidades $a_1,\ldots,a_r$, as trocas entre cópias iguais não criam novas disposições:
 
 $$
 \frac{n!}{a_1!\cdots a_r!}.
 $$
 
-Na palavra ARARA:
+Na palavra ARARA, há 5 letras, sendo 3 A e 2 R:
 
 $$
 \frac{5!}{3!2!}=10.
 $$
 
-### 5.2. Combinação com repetição
+### 4.2. Combinação com repetição
 
-Quando se escolhem $p$ unidades entre $n$ tipos, com repetição permitida e sem considerar ordem:
+Agora a repetição é permitida, mas a ordem não interessa. Escolher $p$ unidades entre $n$ tipos produz
 
 $$
-CR_{n,p}=\binom{n+p-1}{p}.
+\binom{n+p-1}{p}.
 $$
 
-Exemplo: 4 bolas de sorvete entre 6 sabores:
+Exemplo hipotético: escolher 4 bolas de sorvete entre 6 sabores, podendo repetir sabor:
 
 $$
 \binom94=126.
 $$
 
-### 5.3. Permutação circular
+### 4.3. Permutação circular
 
-Em mesa redonda sem lugar marcado, rotações são equivalentes:
+Em uma mesa redonda sem lugar marcado, girar todos os participantes ao mesmo tempo não cria uma disposição nova. Fixe uma pessoa como referência e ordene as demais:
 
 $$
 P_n^{\text{circular}}=(n-1)!.
 $$
 
-Reflexões continuam distintas, salvo indicação diferente do enunciado.
+Reflexões continuam distintas, salvo se o enunciado disser que também devem ser identificadas.
 
-## 6. Restrições de contagem
+## 5. Restrições: conte a estrutura antes dos detalhes
 
-### 6.1. Posições fixas
+### 5.1. Posições fixas
 
-Se objetos e posições já estão determinados, retire-os do problema e permute o restante.
+Se um objeto já tem posição determinada, fixe-o e conte apenas o restante. Dez objetos distintos com dois deles presos a posições específicas deixam 8 objetos livres, portanto $8!$ disposições.
 
-### 6.2. Objetos juntos: bloco
+### 5.2. Objetos juntos: forme um bloco
 
-Para 5 pessoas, com Ana e Bruno juntos:
+Exemplo hipotético: 5 pessoas distintas, com Ana e Bruno obrigatoriamente juntos.
 
-- trate o par como uma unidade;
-- ordene 4 unidades: $4!$;
-- ordene o par internamente: $2!$.
-
-Logo:
+O par funciona primeiro como uma unidade. Assim há 4 unidades a ordenar e, dentro do bloco, 2 ordens possíveis:
 
 $$
 4!\cdot2!=48.
 $$
 
-### 6.3. Objetos separados: lacunas ou complemento
+### 5.3. Objetos separados: lacunas ou complemento
 
-Com 6 pessoas, para Ana e Bruno não ficarem adjacentes:
+Com 6 pessoas, para Ana e Bruno não ficarem adjacentes, duas estratégias dão o mesmo resultado.
+
+Pelo complemento:
 
 $$
 6!-2\cdot5!=480.
 $$
 
-Também é possível ordenar as outras 4 pessoas e colocar Ana e Bruno em duas das 5 lacunas distintas:
+Pelas lacunas, ordene primeiro as outras 4 pessoas. Surgem 5 lacunas; escolha uma para Ana e outra, diferente, para Bruno:
 
 $$
 4!\cdot5\cdot4=480.
 $$
 
-### 6.4. Primeiro algarismo
+### 5.4. Primeiro algarismo
 
-Número não pode começar com zero. Para números de quatro algarismos distintos:
+Zero pode ser usado em um número, mas não como primeiro algarismo. Para números de quatro algarismos distintos:
 
 $$
 9\cdot9\cdot8\cdot7=4\,536.
 $$
 
-## 7. Contagem por complemento
+O primeiro fator é 9 porque há 9 escolhas não nulas; depois restam 9 algarismos, incluindo o zero se ainda não foi usado.
 
-Quando a condição desejada é ampla, pode ser mais simples contar o total e retirar o indesejado:
+## 6. Complemento, inclusão-exclusão e casa dos pombos
+
+### 6.1. Contar o que não queremos
+
+Quando a condição desejada é ampla, o complemento costuma ser menor e mais fácil:
 
 $$
-N(\text{desejado})
-=N(\text{total})-N(\text{indesejado}).
+N(\text{desejado})=N(\text{total})-N(\text{indesejado}).
 $$
 
-Exemplo: sequências de 4 lançamentos de dado com pelo menos um 6:
+Em 4 lançamentos de dado, o número de sequências com pelo menos um 6 é
 
 $$
 6^4-5^4=671.
@@ -239,7 +231,7 @@ $$
 
 O complemento de “pelo menos um” é **nenhum**, não “exatamente um”.
 
-## 8. Inclusão-exclusão
+### 6.2. Inclusão-exclusão
 
 Para dois conjuntos:
 
@@ -256,9 +248,11 @@ $$
 +|A\cap B\cap C|.
 $$
 
-A interseção de dois conjuntos pode incluir elementos que também pertencem ao terceiro. Em questões com regiões “somente dois”, retire a interseção tripla quando necessário.
+A lógica é corrigir contagens repetidas: somam-se os grupos, subtraem-se as sobreposições de pares e devolve-se a região tripla, que foi retirada em excesso.
 
-## 9. Princípio da casa dos pombos
+Operações com conjuntos são desenvolvidas no assunto 042; aqui, a fórmula entra como ferramenta de contagem e de probabilidade.
+
+### 6.3. Princípio da casa dos pombos
 
 Ao distribuir $N$ objetos em $r$ caixas, alguma caixa recebe pelo menos
 
@@ -268,142 +262,146 @@ $$
 
 objetos.
 
-Exemplos:
+Com 13 pessoas distribuídas pelos 12 meses de aniversário, algum mês contém ao menos 2 aniversariantes. Com 31 processos entre 6 equipes, alguma equipe recebe ao menos 6.
 
-- 13 pessoas e 12 meses: algum mês contém ao menos 2 aniversariantes;
-- 31 processos em 6 equipes: alguma equipe recebe ao menos 6 processos.
+A conclusão é de **existência mínima garantida**: o princípio não identifica a caixa nem afirma que o limite é exato.
 
-O princípio garante existência, não identifica qual caixa atinge o limite.
+## 7. Da contagem à probabilidade
 
-## 10. Experimento, espaço amostral e evento
+Contagem pergunta “quantos resultados existem?”. Probabilidade pergunta “qual é o peso do evento entre os resultados possíveis?”.
 
-Um **experimento aleatório** possui resultados possíveis conhecidos, mas não se sabe antecipadamente qual ocorrerá.
+Um **experimento aleatório** tem resultados possíveis conhecidos, mas o resultado de uma realização não é determinado antecipadamente. O **espaço amostral** $\Omega$ reúne os resultados elementares possíveis; um **evento** é um subconjunto de $\Omega$.
 
-O **espaço amostral** $\Omega$ reúne os resultados elementares possíveis. Um **evento** é um subconjunto de $\Omega$.
-
-Dois lançamentos de moeda:
+Em dois lançamentos de moeda, distinguindo a ordem:
 
 $$
 \Omega=\{CC,CK,KC,KK\}.
 $$
 
-O evento “exatamente uma cara” é:
+O evento “exatamente uma cara” é
 
 $$
 \{CK,KC\}.
 $$
 
-Escolher corretamente os resultados elementares é essencial. Em dois dados honestos distinguíveis, as 36 duplas ordenadas são equiprováveis; as somas 2,3,\ldots,12 não são.
-
-## 11. Probabilidade em espaço finito equiprovável
-
-Se os resultados elementares são equiprováveis:
+Se os resultados elementares têm a mesma probabilidade — são <abbr title="com a mesma probabilidade de ocorrer">equiprováveis</abbr> — então
 
 $$
 P(A)=\frac{|A|}{|\Omega|}.
 $$
 
-A razão entre cardinalidades **não** deve ser aplicada automaticamente quando os resultados elementares têm probabilidades diferentes.
+Essa razão não vale automaticamente para categorias finais que não sejam <abbr title="com a mesma probabilidade de ocorrer">equiprováveis</abbr>. Em dois dados honestos distinguíveis, as 36 duplas ordenadas são <abbr title="com a mesma probabilidade de ocorrer">equiprováveis</abbr>; as somas 2,3,\ldots,12 não são.
 
 Propriedades básicas:
 
 $$
 0\le P(A)\le1,
-\qquad
-P(\Omega)=1,
-\qquad
-P(\varnothing)=0.
+\qquad P(\Omega)=1,
+\qquad P(\varnothing)=0.
 $$
 
-## 12. Complemento, união e exclusão mútua
+## 8. “Não”, “ou” e eventos incompatíveis
 
-Complemento:
+O complemento reúne tudo o que está fora de $A$:
 
 $$
 P(A^c)=1-P(A).
 $$
 
-União de dois eventos:
+Para a união de dois eventos:
 
 $$
-P(A\cup B)
-=P(A)+P(B)-P(A\cap B).
+P(A\cup B)=P(A)+P(B)-P(A\cap B).
 $$
 
-Se $A$ e $B$ são mutuamente exclusivos:
+Eventos são **mutuamente exclusivos** quando não podem ocorrer juntos:
 
 $$
-P(A\cap B)=0,
+A\cap B=\varnothing.
 $$
 
-portanto:
+Nesse caso,
 
 $$
 P(A\cup B)=P(A)+P(B).
 $$
 
-Em probabilidade, “$A$ ou $B$” normalmente é inclusivo.
+Em linguagem de prova, “$A$ ou $B$” normalmente é inclusivo: admite $A$, $B$ ou ambos. Só se elimina a interseção quando o contexto indicar exclusividade.
 
-## 13. Probabilidade condicional e regra do produto
+## 9. Condicionar é mudar o universo de referência
 
-Se $P(B)>0$:
+A informação “sabendo que $B$ ocorreu” elimina resultados fora de $B$. Se $P(B)>0$,
 
 $$
 P(A\mid B)=\frac{P(A\cap B)}{P(B)}.
 $$
 
-O condicionamento restringe o universo de referência a $B$.
+O denominador deixa de ser o espaço original e passa a ser o evento condicionante $B$.
 
-Da definição:
+Da definição vem a regra do produto:
 
 $$
 P(A\cap B)=P(A\mid B)P(B).
 $$
 
-Também, quando $P(A)>0$:
+Também, se $P(A)>0$,
 
 $$
 P(A\cap B)=P(B\mid A)P(A).
 $$
 
-Não confunda:
+A interseção é a mesma nas duas expressões, mas os universos condicionantes são diferentes. Portanto, em geral,
 
 $$
-P(A\mid B)
-\quad\text{e}\quad
-P(B\mid A).
+P(A\mid B)\ne P(B\mid A).
 $$
 
-## 14. Independência e reposição
+## 10. Independência, exclusão mútua e reposição
 
-Eventos $A$ e $B$ são independentes quando:
+Eventos $A$ e $B$ são **independentes** quando saber que um ocorreu não altera a probabilidade do outro. Algebricamente,
 
 $$
 P(A\cap B)=P(A)P(B).
 $$
 
-Quando a condicional está definida, isso equivale a:
+Quando a condicional está definida, isso equivale a
 
 $$
 P(A\mid B)=P(A).
 $$
 
-### 14.1. Exclusão mútua não é independência
+### 10.1. Exclusão mútua não é independência
 
-Se $A$ e $B$ são mutuamente exclusivos e têm probabilidades positivas:
+Se $A$ e $B$ são mutuamente exclusivos e ambos têm probabilidade positiva,
 
 $$
 P(A\cap B)=0
 \neq P(A)P(B).
 $$
 
-Logo, são dependentes.
+Logo, são dependentes. Exclusão mútua significa “não ocorrem juntos”; independência significa “a ocorrência de um não muda a chance do outro”.
 
-### 14.2. Com e sem reposição
+### 10.2. Complementos de eventos independentes
 
-Urna com 3 bolas vermelhas e 2 azuis.
+Se $A$ e $B$ são independentes, complementar um ou ambos preserva a independência. Por exemplo,
 
-Sem reposição:
+$$
+P(A\cap B^c)=P(A)P(B^c).
+$$
+
+Isso segue de
+
+$$
+P(A\cap B^c)=P(A)-P(A\cap B)
+=P(A)-P(A)P(B)
+=P(A)(1-P(B)).
+$$
+
+### 10.3. Com e sem reposição
+
+Considere uma urna com 3 bolas vermelhas e 2 azuis.
+
+Sem reposição, retirar uma vermelha altera a composição:
 
 $$
 P(\text{duas vermelhas})
@@ -411,7 +409,7 @@ P(\text{duas vermelhas})
 =\frac3{10}.
 $$
 
-Com reposição:
+Com reposição, a composição é restaurada entre as retiradas:
 
 $$
 P(\text{duas vermelhas})
@@ -419,31 +417,42 @@ P(\text{duas vermelhas})
 =\frac9{25}.
 $$
 
-Sem reposição, a composição normalmente muda; com reposição, o experimento pode manter as mesmas probabilidades entre etapas.
+Não conclua apenas pela palavra “reposição” que quaisquer eventos são independentes; verifique o experimento. Em urnas simples como esta, a reposição mantém as mesmas probabilidades entre etapas.
 
-## 15. Pelo menos um sucesso
+## 11. “Pelo menos um” em tentativas repetidas
 
-Em $n$ tentativas independentes, cada uma com probabilidade $p$ de sucesso:
+Em $n$ tentativas independentes, cada uma com probabilidade $p$ de sucesso, “ao menos um sucesso” é o complemento de “nenhum sucesso”:
 
 $$
 P(\text{ao menos um sucesso})
 =1-(1-p)^n.
 $$
 
-A fórmula exige independência e a mesma probabilidade de fracasso em cada tentativa.
+A fórmula exige independência e a mesma probabilidade de fracasso $1-p$ em cada tentativa. Sem essas condições, calcule o complemento etapa por etapa.
 
-## 16. Probabilidade total e Bayes
-
-Essas ferramentas são úteis quando o espaço é dividido em origens ou hipóteses.
-
-Se $B_1,\ldots,B_k$ formam uma <abbr title="eventos disjuntos cuja união é o espaço amostral">partição</abbr> de $\Omega$ e $P(B_i)>0$:
+Exemplo: em 3 lançamentos independentes de moeda honesta,
 
 $$
-P(A)
-=\sum_{i=1}^k P(A\mid B_i)P(B_i).
+P(\text{ao menos uma cara})
+=1-\left(\frac12\right)^3
+=\frac78.
 $$
 
-Bayes permite inverter o condicionamento:
+Para **exatamente** duas caras, o raciocínio é outro: escolha quais 2 das 3 posições terão cara. Há $\binom32=3$ sequências favoráveis entre $2^3=8$ sequências <abbr title="com a mesma probabilidade de ocorrer">equiprováveis</abbr>, logo $3/8$.
+
+## 12. Probabilidade total e Bayes: dividir por origens
+
+Suponha que um resultado possa vir de origens $B_1,\ldots,B_k$ que não se sobrepõem e cobrem todo o espaço amostral. Esses eventos formam uma <abbr title="eventos disjuntos cuja união é o espaço amostral">partição</abbr> de $\Omega$.
+
+Se $P(B_i)>0$, a probabilidade de $A$ pode ser reconstruída somando os caminhos que levam a $A$:
+
+$$
+P(A)=\sum_{i=1}^k P(A\mid B_i)P(B_i).
+$$
+
+Esse é o teorema da probabilidade total.
+
+Bayes responde à pergunta inversa: depois de observar $A$, qual origem $B_j$ se torna mais provável?
 
 $$
 P(B_j\mid A)
@@ -454,97 +463,62 @@ $$
 
 desde que $P(A)>0$.
 
-A taxa-base $P(B_j)$ participa do cálculo. Em geral:
+A probabilidade inicial $P(B_j)$ — a **taxa-base**, isto é, a frequência ou chance da origem antes da nova evidência — participa do cálculo. Por isso não se pode trocar automaticamente $P(A\mid B)$ por $P(B\mid A)$.
+
+## 13. Modelos que reaparecem em prova
+
+### 13.1. Moedas
+
+Em $n$ lançamentos independentes de moeda honesta, há $2^n$ sequências <abbr title="com a mesma probabilidade de ocorrer">equiprováveis</abbr>. Para exatamente $k$ caras, escolha as $k$ posições:
 
 $$
-P(A\mid B)\ne P(B\mid A).
+\binom nk.
 $$
 
-## 17. Modelos clássicos de prova
+### 13.2. Dados
 
-### 17.1. Moedas
-
-Em $n$ lançamentos independentes de moeda honesta, há $2^n$ sequências equiprováveis.
-
-Em 3 lançamentos:
-
-- exatamente duas caras: $\binom32=3$ sequências;
-- probabilidade: $3/8$;
-- ao menos uma cara: $1-(1/2)^3=7/8$.
-
-### 17.2. Dados
-
-Dois dados honestos distinguíveis geram 36 duplas ordenadas equiprováveis.
-
-A soma 7 ocorre em 6 delas:
+Dois dados honestos distinguíveis geram 36 duplas ordenadas <abbr title="com a mesma probabilidade de ocorrer">equiprováveis</abbr>. A soma 7 aparece em 6 delas:
 
 $$
 P(\text{soma }7)=\frac6{36}=\frac16.
 $$
 
-### 17.3. Senhas
+Quando o evento é mais fácil pelo contrário, use complemento. O produto de dois dados é par, por exemplo, salvo quando ambos são ímpares:
 
-Conte posição por posição e verifique:
+$$
+P(\text{produto par})
+=1-\left(\frac36\right)^2
+=\frac34.
+$$
 
-- caracteres permitidos;
-- repetição;
-- restrição no primeiro caractere;
-- exigência de ao menos um símbolo de certo tipo.
+### 13.3. Senhas e códigos
 
-### 17.4. Urnas e cartas
+Conte posição por posição. Verifique quais caracteres são permitidos, se podem repetir e se a primeira posição tem alguma restrição.
 
-Identifique:
+### 13.4. Urnas e cartas
 
-- se a ordem das retiradas importa;
-- se há reposição;
-- se o denominador muda;
-- se o enunciado fornece informação condicionante.
+Antes de calcular, identifique se a ordem das retiradas importa, se há reposição, se o denominador muda e se o enunciado trouxe uma informação condicionante.
 
-## 18. Cobrança oficial do CEBRASPE
-
-No <abbr title="Banco do Nordeste do Brasil">BNB</abbr> 2018, o <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">CEBRASPE</abbr> cobrou no mesmo bloco:
-
-- probabilidade por razão entre casos favoráveis e total;
-- complemento;
-- união de eventos excludentes;
-- permutações com posições fixas;
-- bloco de elementos adjacentes;
-- inclusão-exclusão com três conjuntos.
-
-O padrão reforça que a dificuldade está principalmente em **modelar corretamente o resultado e as restrições**.
-
-## 19. Pegadinhas
-
-- Comissão não é pódio: cargos tornam a ordem relevante.
-- Repetição permitida não deve ser presumida.
-- “Pelo menos um” tem complemento “nenhum”.
-- Resultados finais como as somas de dois dados podem não ser equiprováveis.
-- Em números, zero não ocupa a primeira posição.
-- Letras repetidas não devem ser tratadas como objetos distintos.
-- Em círculo sem referência, rotações coincidem; reflexões não necessariamente.
-- Para $A\cup B$, subtraia a interseção quando houver sobreposição.
-- Multiplicar probabilidades marginais exige independência.
-- Sem reposição, as probabilidades normalmente mudam.
-- $P(A\mid B)$ não é $P(B\mid A)$.
-- Eventos positivos mutuamente exclusivos são dependentes.
-
-## 20. Roteiro de resolução
+## 14. Como decidir sob pressão de prova
 
 ### Contagem
 
 1. Defina o que é um resultado diferente.
-2. Separe alternativas de etapas.
+2. Separe alternativas de etapas sucessivas.
 3. Pergunte se a ordem importa.
-4. Verifique repetição, indistinguibilidade e circularidade.
-5. Incorpore restrições antes de calcular.
-6. Teste bloco, lacunas, complemento ou inclusão-exclusão.
+4. Verifique repetição, objetos indistinguíveis e circularidade.
+5. Incorpore posições fixas e restrições de adjacência.
+6. Teste bloco, lacunas, complemento ou inclusão-exclusão antes de desenvolver contas longas.
 
 ### Probabilidade
 
-1. Defina $\Omega$ e o evento.
-2. Verifique se os resultados elementares são equiprováveis.
+1. Defina o espaço amostral e o evento.
+2. Verifique se os resultados elementares são <abbr title="com a mesma probabilidade de ocorrer">equiprováveis</abbr>.
 3. Traduza “não”, “ou”, “e” e “sabendo que”.
-4. Identifique reposição e dependência.
-5. Use complemento para “pelo menos um”.
-6. Use condicional quando a informação altera o universo.
-7. Confirme que o resultado está entre 0 e 1.
+4. Identifique dependência e reposição.
+5. Para “pelo menos um”, tente primeiro o complemento.
+6. Se houver informação nova, pergunte se o universo foi condicionado.
+7. Ao inverter uma condicional, considere Bayes e a taxa-base.
+8. No fim, uma probabilidade deve ficar entre 0 e 1.
+
+As fórmulas são atalhos para esses mecanismos. Se duas fórmulas parecem possíveis, retorne à pergunta inicial: **quais resultados são diferentes e como eles são gerados?**
