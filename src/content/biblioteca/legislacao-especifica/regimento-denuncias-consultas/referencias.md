@@ -1,3 +1,4 @@
+- [Regimento Interno completo do TCE/MA](https://www.tcema.tc.br/index.php/component/content/article/39-uncategorised/1430-regimento-interno-completo-2), Tribunal de Contas do Estado do Maranhão.
 - [Constituição do Estado do Maranhão](https://legislacao.al.ma.leg.br/resources/arq/constituicaoma.pdf), Assembleia Legislativa do Maranhão.
 - [Lei nº 8.258/2005 — publicação oficial](https://www.al.ma.leg.br/sitealema/wp-content/uploads/diarios/DIARIO17-05-2005.pdf), Assembleia Legislativa do Maranhão.
 - [Resolução TCE/MA nº 437/2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9468), Tribunal de Contas do Estado do Maranhão, publicada em 30 mar. 2026.

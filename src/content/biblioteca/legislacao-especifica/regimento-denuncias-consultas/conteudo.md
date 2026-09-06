@@ -6,317 +6,287 @@ order: 59
 storageId: regimento-denuncias-consultas
 ---
 
-## 1. Recorte e corte temporal
+Uma notícia de irregularidade chega ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Antes de perguntar se o fato é verdadeiro, o Tribunal precisa responder a outras perguntas: **quem está provocando o controle, por qual instrumento, a manifestação pode ser formalmente registrada como processo (autuada) e vale a pena priorizar sua apuração?** Já uma consulta começa de outro ponto: não há, em princípio, um fato a apurar, mas uma **dúvida normativa em tese**.
 
-Este assunto trata de **denúncia**, **representação** e **consulta** perante o TCE/MA, com foco em:
+Esse contraste organiza o assunto inteiro:
 
-- legitimidade;
-- objeto e requisitos;
-- proteção da identidade do denunciante;
-- triagem e autuação;
-- seletividade de denúncias e representações;
-- exceções à triagem e à seletividade;
-- e-Consulta e prejulgados.
+- **denúncia** e **representação** comunicam possível irregularidade ou ilegalidade;
+- **consulta** pede a interpretação de dispositivo legal ou regulamentar em matéria da competência do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>;
+- denúncia tem **legitimidade ampla**; representação depende de **legitimidade específica**; consulta só pode ser formulada pelas **autoridades previstas no Regimento**.
 
-A regra de processamento mais importante para denúncia e representação é a **Resolução TCE/MA nº 437/2026**, de 25 de março de 2026, publicada em 30 de março de 2026. Portanto, ela já estava vigente na publicação do edital de 6 de julho de 2026 e integra o corte temporal aplicável.
+A partir daí, o problema de prova deixa de ser decorar três listas soltas e passa a ser acompanhar três fluxos diferentes.
 
-Também são usadas a Constituição do Estado do Maranhão, a Lei nº 8.258/2005 (Lei Orgânica do TCE/MA) e páginas oficiais do Tribunal.
+## 1. O mapa dos três instrumentos
 
-Ficam para assuntos posteriores: contraditório e ampla defesa em geral, produção de provas, prazos processuais gerais, decisões, débitos, sanções, execução, recursos e revisão.
-
-## 2. Mapa dos três instrumentos
-
-| Instrumento | Finalidade central | Legitimidade | Resultado esperado |
+| Instrumento | Pergunta que o origina | Quem pode provocar? | Resultado buscado |
 | --- | --- | --- | --- |
-| denúncia | comunicar irregularidade ou ilegalidade | ampla, definida constitucional e legalmente | possível apuração pelo TCE/MA |
-| representação | comunicar irregularidade ou ilegalidade | específica, conforme lei | possível apuração pelo TCE/MA |
-| consulta | resolver dúvida normativa sobre matéria da competência do TCE/MA | autoridades expressamente legitimadas | tese normativa/prejulgado |
+| denúncia | “há possível irregularidade ou ilegalidade?” | cidadão, partido político, associação ou sindicato | apuração pelo <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> |
+| representação | “há possível irregularidade ou ilegalidade comunicada por legitimado específico?” | sujeitos e órgãos indicados no Regimento ou em lei específica | apuração pelo <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> |
+| consulta | “como se aplica esta norma, em tese?” | autoridades expressamente legitimadas | resposta normativa, com prejulgamento da tese |
 
-A distinção mais importante é:
+A semelhança entre denúncia e representação está no **objeto possível**; a diferença decisiva está em **quem pode apresentá-las**. A consulta muda de natureza: não serve para acusar gestor, substituir recurso ou obter julgamento antecipado de caso concreto.
 
-- **denúncia e representação** partem de possível irregularidade ou ilegalidade;
-- **consulta** parte de uma dúvida jurídica ou regulamentar em tese.
+> **Cenário hipotético:** um cidadão encontra indícios de gasto irregular. Ele pode denunciar. Uma unidade técnica do Tribunal identifica irregularidade no exercício da fiscalização: pode representar. Um prefeito tem dúvida abstrata sobre a aplicação de uma regra inserida na competência do Tribunal: pode formular consulta, desde que cumpra os requisitos próprios desse instrumento.
 
-Consulta não é substituto de denúncia, representação ou recurso.
+## 2. Denúncia: porta ampla, requisitos formais reais
 
-## 3. Denúncia
+### 2.1. Quem pode denunciar
 
-### 3.1. Legitimidade
-
-A Constituição do Estado e a Lei Orgânica do TCE/MA reconhecem legitimidade para denunciar irregularidades ou ilegalidades a:
+O art. 265 do Regimento Interno e a legislação de regência reconhecem legitimidade a:
 
 - qualquer cidadão;
 - partido político;
 - associação;
 - sindicato.
 
-É uma legitimidade ampla, mas isso **não elimina os requisitos de admissibilidade**.
+“Qualquer cidadão” não significa “qualquer mensagem será autuada”. A legitimidade responde **quem pode provocar**; a admissibilidade responde **se a manifestação reúne os requisitos para seguir como denúncia**.
 
-### 3.2. Objeto e requisitos
+### 2.2. O que a denúncia precisa conter
 
-A denúncia deve tratar de matéria da competência do TCE/MA e apontar irregularidade ou ilegalidade relacionada a administrador ou responsável sujeito à jurisdição do Tribunal.
+Segundo o art. 266 do Regimento Interno, a denúncia deve:
 
-A Lei nº 8.258/2005 exige, em síntese, que a denúncia:
+- tratar de matéria da competência do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>;
+- referir-se a administrador ou responsável sujeito à jurisdição do Tribunal;
+- ser redigida em linguagem clara e objetiva;
+- conter nome legível, qualificação e endereço do denunciante;
+- estar acompanhada de indício da irregularidade ou ilegalidade.
 
-- verse sobre matéria da competência do Tribunal;
-- refira-se a administrador ou responsável sujeito à jurisdição do TCE/MA;
-- seja redigida com clareza e objetividade;
-- contenha nome legível, qualificação e endereço do denunciante;
-- venha acompanhada de prova ou indício da irregularidade ou ilegalidade.
+A Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 437/2026 tornou a triagem mais operacional e exige, para a manifestação que seguirá como denúncia ou representação, qualificação com nome completo e número de inscrição no <abbr title="Cadastro de Pessoas Físicas">CPF</abbr> ou no <abbr title="Cadastro Nacional da Pessoa Jurídica">CNPJ</abbr>, endereço residencial completo, endereço eletrônico e **lastro probatório mínimo** — isto é, indícios mínimos que deem suporte à alegação.
 
-A Resolução nº 437/2026, ao disciplinar a triagem, exige ainda elementos formais objetivos, estudados adiante.
+O lastro mínimo **não prova definitivamente o fato**. Ele evita que o processo seja autuado com base apenas em narrativa vaga; mérito e responsabilidade dependem da instrução posterior.
 
-### 3.3. Identificação, sigilo e manifestação anônima
+### 2.3. Sigilo não é anonimato
 
-Três ideias não devem ser confundidas:
+Há três situações distintas:
 
-| Situação | Regra |
+| Situação | Consequência |
 | --- | --- |
-| identificação formal | denúncia formal exige dados suficientes para identificar e qualificar o autor |
-| sigilo da autoria | os dados pessoais do autor recebem proteção e tratamento sigiloso |
-| manifestação anônima | pode chegar à Ouvidoria, mas não satisfaz, por si só, os requisitos de autuação como denúncia formal |
+| autor formalmente identificado | a manifestação pode satisfazer o requisito de qualificação |
+| identidade protegida | os dados do autor recebem tratamento sigiloso |
+| manifestação anônima ou sem qualificação suficiente | pode servir como comunicação de irregularidade, mas não satisfaz por si só os requisitos de autuação formal |
 
-A Lei Orgânica assegura tratamento sigiloso à autoria da denúncia e afasta responsabilização administrativa, civil ou penal do denunciante em decorrência da denúncia, salvo comprovada má-fé.
+O Regimento determina tratamento sigiloso às denúncias até decisão definitiva sobre a matéria e permite ao Tribunal decidir se mantém ou não o sigilo quanto ao objeto e à autoria. Também prevê que o denunciante não se sujeita a sanção administrativa, civil ou penal em decorrência da denúncia, **salvo comprovada má-fé**.
 
-A Resolução nº 437/2026 reforça que os dados pessoais do autor são protegidos. Se faltarem requisitos formais essenciais, a manifestação pode ser reclassificada como **comunicação de irregularidade**, sem autuação como denúncia ou representação.
+A Resolução nº 437/2026 reforça a proteção dos dados pessoais do autor. Portanto, a fórmula correta é: **o Tribunal pode conhecer a identidade e, ao mesmo tempo, protegê-la perante terceiros**.
 
-Portanto: **sigilo não significa anonimato**. A identidade pode ser conhecida pelo Tribunal e protegida perante terceiros.
+### 2.4. Prazo de apreciação e certidão
 
-## 4. Representação
+O Regimento fixa prazo máximo de **90 dias**, contado do recebimento no Tribunal, para apreciação da denúncia, prorrogável por igual período a juízo do **Plenário**, o órgão colegiado máximo do Tribunal.
 
-### 4.1. Natureza
+O denunciante pode requerer ao Presidente certidão dos despachos e fatos apurados:
 
-Representação também comunica irregularidade ou ilegalidade, mas é apresentada por sujeito ou órgão com **legitimidade específica**.
+- em regra, a certidão deve ser fornecida em até **15 dias** da entrada do pedido, desde que o processo de apuração esteja concluído ou arquivado;
+- decorridos **90 dias** da entrada da denúncia, a certidão deve ser fornecida mesmo que as investigações ainda não estejam concluídas, com a advertência pertinente sobre eventual sigilo.
 
-Não é correto tratar representação como simples sinônimo de denúncia. Os dois instrumentos podem ter objeto semelhante, mas diferem, sobretudo, pela legitimidade.
+Esses prazos pertencem ao regime próprio da denúncia e não se confundem com o prazo de **cinco dias úteis** da análise de seletividade estudada adiante.
 
-### 4.2. Legitimados da Lei Orgânica
+## 3. Representação: mesma família de problema, legitimidade específica
 
-O art. 43 da Lei nº 8.258/2005 prevê legitimidade para representar ao TCE/MA, entre outros casos legalmente previstos, a:
+Representação também comunica irregularidade ou ilegalidade, mas não possui a mesma porta de entrada da denúncia. O art. 268-A do Regimento Interno enumera legitimados específicos:
 
-1. Ministério Público;
-2. órgãos de controle interno, em cumprimento ao dever constitucional de comunicar irregularidades;
-3. Senadores da República, Deputados Federais e Estaduais, Vereadores, magistrados, servidores públicos e outras autoridades que comuniquem irregularidades de que tenham conhecimento em razão do cargo;
-4. Tribunais de Contas dos Estados, do Distrito Federal e dos Municípios, bem como Câmaras Municipais;
-5. equipes de inspeção ou auditoria;
-6. Ministério Público de Contas e unidades técnicas do TCE/MA;
-7. outras pessoas ou entidades às quais lei específica confira prerrogativa para representar.
-
-Em licitações e contratos existem hipóteses específicas de representação previstas na legislação própria. Elas não transformam toda representação em instrumento de legitimidade universal.
-
-## 5. Resolução TCE/MA nº 437/2026: fluxo de denúncia e representação
-
-### 5.1. Regra geral de triagem
-
-Em regra, denúncias e representações recebidas pelo TCE/MA são encaminhadas à **Ouvidoria** para triagem.
-
-A triagem verifica:
-
-1. competência do TCE/MA sobre a matéria;
-2. redação clara e objetiva;
-3. qualificação do autor, com nome e CPF ou CNPJ;
-4. endereço residencial completo e endereço eletrônico;
-5. lastro probatório mínimo.
-
-Triagem não é julgamento de mérito. Ela verifica a natureza da manifestação e os requisitos necessários para seu processamento.
-
-### 5.2. Falta de requisitos: comunicação de irregularidade
-
-Se faltarem os requisitos de clareza, qualificação, endereço ou lastro probatório mínimo, a manifestação é reclassificada como **comunicação de irregularidade** e encaminhada ao banco de dados da Secretaria de Fiscalização.
-
-Isso significa:
-
-- não há autuação daquela manifestação como denúncia ou representação;
-- a informação não é necessariamente descartada;
-- ela pode subsidiar futuras ações de controle externo.
-
-Se os requisitos forem satisfeitos, a manifestação é autuada no **Sistema de Processo Eletrônico (SPE)** como denúncia ou representação, conforme o caso.
-
-### 5.3. Cautelar: exceção ao caminho ordinário de seletividade
-
-Se houver pedido de **medida cautelar**, os autos podem seguir diretamente ao Relator para decisão, sem percorrer o fluxo ordinário de análise de seletividade.
-
-Não é necessário aprofundar aqui os requisitos da cautelar; basta memorizar a exceção de fluxo.
-
-## 6. Seletividade: RROM e GUT
-
-### 6.1. Prazo e responsável
-
-Superada a triagem e autuado o processo, quando a seletividade for aplicável, a **unidade técnica competente** realiza a análise em até **cinco dias úteis**, contados do recebimento.
-
-### 6.2. Dois estágios
-
-A seletividade não é uma lista única aplicada de uma só vez. A Resolução nº 437/2026 organiza o exame em dois estágios:
-
-**1º estágio — RROM**
-
-- **R**isco;
-- **R**elevância;
-- **O**portunidade;
-- **M**aterialidade.
-
-O resultado é calculado por ferramenta própria de seletividade. Atingida a pontuação mínima, passa-se ao segundo estágio.
-
-**2º estágio — Matriz GUT**
-
-- **G**ravidade;
-- **U**rgência;
-- **T**endência.
-
-A lógica mental é: **primeiro RROM; depois, se alcançado o mínimo, GUT**.
-
-### 6.3. Significado dos critérios
-
-| Critério | Ideia principal |
-| --- | --- |
-| risco | probabilidade de evento danoso ou comprometimento da legalidade/direitos |
-| relevância | importância do objeto para o controle da gestão pública |
-| oportunidade | conveniência e utilidade da intervenção no momento presente |
-| materialidade | expressão econômica ou relevância material do objeto |
-| gravidade | intensidade e extensão dos efeitos ou do dano |
-| urgência | necessidade de atuação célere |
-| tendência | provável evolução ou agravamento sem intervenção |
-
-**Oportunidade** merece atenção: considera, entre outros fatores, a fase do ato, contrato ou procedimento; a possibilidade de correção tempestiva; a proximidade de prescrição ou decadência; e se o objeto ainda está vigente ou já se exauriu.
-
-**Materialidade** não deve ser reduzida mecanicamente ao valor financeiro. A própria resolução admite situações relevantes mesmo quando a dimensão econômica não é o único fator determinante.
-
-### 6.4. Seletividade não é mérito
-
-A seletividade serve para racionalizar e priorizar a atuação do controle externo.
-
-Ela não:
-
-- declara procedente a denúncia ou representação;
-- condena responsável;
-- aplica sanção;
-- substitui instrução, contraditório ou julgamento.
-
-Se os critérios de seletividade forem atendidos, o processo segue para instrução, observada a prioridade indicada pela Matriz GUT. Se não forem atendidos, há proposta de arquivamento submetida ao fluxo decisório previsto na resolução.
-
-### 6.5. Reapresentação
-
-O arquivamento não impede nova apresentação se:
-
-- forem corrigidos vícios formais;
-- surgirem novos elementos probatórios;
-- ocorrerem fatos supervenientes relevantes.
-
-## 7. Exceções do art. 20: quando não há triagem nem seletividade
-
-Este é o ponto que mais facilmente gera pegadinha.
-
-A Resolução nº 437/2026 determina que **não se submetem à triagem nem à análise de seletividade** as representações apresentadas por:
-
-1. Ministério Público Federal ou Estadual;
-2. órgãos de controle interno, na hipótese do art. 74, § 1º, da Constituição Federal;
+1. Ministério Público Federal e Estadual;
+2. órgãos de controle interno, em cumprimento ao art. 74, § 1º, da Constituição Federal;
 3. Senadores, Deputados Federais e Estaduais, Vereadores, magistrados, servidores públicos e outras autoridades que comuniquem irregularidades conhecidas em razão do cargo;
 4. Tribunais de Contas dos Estados, do Distrito Federal e dos Municípios e Câmaras Municipais;
 5. equipes de inspeção ou auditoria;
-6. Ministério Público de Contas e unidades técnicas do TCE/MA.
+6. unidades técnicas do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>;
+7. outros órgãos, entidades ou pessoas que detenham a prerrogativa por força de lei específica.
 
-Logo, a frase “toda denúncia e toda representação passa por triagem e seletividade” é **falsa**.
+A Resolução nº 437/2026 também menciona expressamente o <abbr title="Ministério Público de Contas">MPC</abbr> entre os legitimados cujas representações recebem tratamento excepcional no fluxo de triagem e seletividade.
 
-### 7.1. Matriz de fluxo
+A cláusula “por força de lei específica” não cria legitimidade universal. Ela apenas reconhece que outra lei pode atribuir a determinado sujeito a prerrogativa de representar.
 
-| Situação | Caminho |
+Aplicam-se às representações, no que couber, regras regimentais da denúncia sobre apresentação, admissibilidade, certidão e sigilo. Em prova, porém, não transforme essa aproximação em identidade: **denúncia e representação continuam instrumentos distintos**.
+
+## 4. O que a Resolução nº 437/2026 mudou no modo de processar
+
+A Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 437, de 25 de março de 2026, foi publicada em 30 de março de 2026. Ela já estava vigente quando o edital desta campanha foi publicado em 6 de julho de 2026 e, por isso, integra o corte normativo relevante.
+
+A resolução cria uma sequência que ajuda a entender o processamento:
+
+**manifestação → triagem → autuação → seletividade → instrução**, ressalvadas as exceções.
+
+Cada etapa responde a uma pergunta diferente:
+
+- **triagem:** a manifestação tem natureza e requisitos mínimos para ser autuada?
+- **autuação:** em qual classe processual ela entra?
+- **seletividade:** entre as manifestações autuadas, quais devem receber aprofundamento e prioridade?
+- **instrução:** quais fatos, responsabilidades e consequências podem ser demonstrados?
+
+Triagem e seletividade não julgam o mérito.
+
+## 5. Triagem: primeiro filtro
+
+### 5.1. Regra geral
+
+Independentemente do canal de ingresso, denúncias e representações sujeitas ao regime comum são encaminhadas à Ouvidoria do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> para triagem, observado o regime de exceções do art. 20 da Resolução nº 437/2026.
+
+A Ouvidoria verifica:
+
+1. **competência:** a matéria pertence ao campo de atuação do Tribunal?
+2. **redação:** a narrativa é clara e objetiva?
+3. **qualificação:** há nome completo e <abbr title="Cadastro de Pessoas Físicas">CPF</abbr> ou <abbr title="Cadastro Nacional da Pessoa Jurídica">CNPJ</abbr>?
+4. **endereço:** há endereço residencial completo e endereço eletrônico?
+5. **lastro probatório mínimo:** existem indícios mínimos que corroborem a alegação?
+
+Se a matéria não for da competência do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, a Ouvidoria informa ao autor qual é o órgão competente.
+
+### 5.2. Quando faltam requisitos
+
+Se faltar qualquer dos requisitos de redação, qualificação, endereço ou lastro probatório mínimo, a manifestação é reclassificada como **comunicação de irregularidade** e encaminhada à Secretaria de Fiscalização, sem autuação como processo de denúncia ou representação.
+
+A informação, portanto, não é simplesmente apagada: pode alimentar inteligência e planejamento de fiscalizações futuras.
+
+Cumpridos os requisitos, a manifestação é autuada no <abbr title="Sistema de Processo Eletrônico">SPE</abbr> como denúncia ou representação, conforme o caso.
+
+### 5.3. Pedido cautelar
+
+Se houver pedido de medida cautelar, os autos são encaminhados diretamente ao **Relator**, o conselheiro responsável pela condução e relato do processo, para decisão, sem percorrer o caminho ordinário de seletividade naquele momento.
+
+Aqui basta compreender a exceção de fluxo; os requisitos materiais da cautelar pertencem a outro recorte.
+
+## 6. Seletividade: priorizar não é julgar
+
+Depois da classificação e autuação, quando a seletividade é aplicável, a unidade técnica competente realiza a análise em até **cinco dias úteis**, contados do recebimento dos autos.
+
+A lógica tem dois estágios.
+
+### 6.1. Primeiro estágio: <abbr title="Risco, Relevância, Oportunidade e Materialidade">RROM</abbr>
+
+O Índice de <abbr title="Risco, Relevância, Oportunidade e Materialidade">RROM</abbr> reúne:
+
+- **risco:** probabilidade de concretização de evento danoso, como dano ao erário, comprometimento da legalidade ou legitimidade ou lesão a direitos;
+- **relevância:** importância do objeto para o controle da gestão pública;
+- **oportunidade:** utilidade de a intervenção ocorrer naquele momento;
+- **materialidade:** expressão econômico-financeira ou dimensão material da suposta irregularidade.
+
+O índice é calculado percentualmente, a partir de pontuação máxima de 100 pontos. A **pontuação mínima de seleção não está fixada no próprio texto da Resolução nº 437/2026**: ela é definida em ato normativo do Tribunal. Por isso, não invente um número para prova.
+
+Oportunidade merece atenção. A resolução manda considerar, entre outros pontos, a fase do ato, contrato ou procedimento, a possibilidade de correção tempestiva, a proximidade de prescrição ou decadência e a vigência ou exaurimento do objeto.
+
+### 6.2. Segundo estágio: Matriz <abbr title="Gravidade, Urgência e Tendência">GUT</abbr>
+
+Atingida a pontuação mínima no <abbr title="Risco, Relevância, Oportunidade e Materialidade">RROM</abbr>, a manifestação selecionada é submetida à Matriz <abbr title="Gravidade, Urgência e Tendência">GUT</abbr>:
+
+- **gravidade:** magnitude ou intensidade dos efeitos da situação;
+- **urgência:** necessidade de atuação célere;
+- **tendência:** provável evolução do problema se não houver intervenção.
+
+A ordem é uma pegadinha frequente: **<abbr title="Risco, Relevância, Oportunidade e Materialidade">RROM</abbr> primeiro; <abbr title="Gravidade, Urgência e Tendência">GUT</abbr> depois, se alcançado o mínimo.**
+
+### 6.3. O que acontece depois
+
+Se os critérios forem atendidos, o processo segue para instrução e priorização conforme a análise realizada.
+
+Se não forem atendidos, a unidade técnica pode propor o arquivamento ao Relator. Isso ainda não equivale a “denúncia improcedente”: a seletividade mede prioridade e racionalidade de atuação, não decide a verdade final da acusação.
+
+A reapresentação é possível quando forem corrigidos vícios formais, surgirem novos elementos probatórios ou ocorrerem fatos supervenientes relevantes.
+
+## 7. Exceção decisiva: art. 20 da Resolução nº 437/2026
+
+Nem toda representação percorre triagem e seletividade. O art. 20 exclui ambas as etapas para representações apresentadas por:
+
+1. Ministério Público Federal ou Estadual;
+2. órgãos de controle interno, na hipótese do art. 74, § 1º, da Constituição Federal;
+3. Senadores, Deputados Federais e Estaduais, Vereadores, magistrados, servidores públicos e outras autoridades que comuniquem irregularidades de que tenham conhecimento em razão do cargo;
+4. Tribunais de Contas dos Estados, do Distrito Federal e dos Municípios e Câmaras Municipais;
+5. equipes de inspeção ou auditoria;
+6. <abbr title="Ministério Público de Contas">MPC</abbr> e unidades técnicas do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
+
+Isso produz quatro caminhos:
+
+| Situação | Fluxo essencial |
 | --- | --- |
-| denúncia/representação comum | Ouvidoria → triagem → autuação → seletividade, se cabível |
-| faltam requisitos formais essenciais | comunicação de irregularidade → banco de dados da fiscalização |
-| há pedido cautelar | pode seguir diretamente ao Relator |
-| representação de legitimado do art. 20 | não se submete à triagem nem à seletividade |
+| denúncia ou representação comum regular | Ouvidoria → triagem → autuação → seletividade, se cabível |
+| falta requisito formal do art. 3º, II a V | comunicação de irregularidade → banco da fiscalização |
+| pedido cautelar | encaminhamento direto ao Relator para decisão |
+| representação de legitimado do art. 20 | sem triagem e sem seletividade |
 
-A regra de encaminhamento à Ouvidoria deve sempre ser lida **com a ressalva das exceções do art. 20**.
+O detalhe decisivo é que a exceção do art. 20 é formulada para **representações desses legitimados**. Não transforme a regra em dispensa geral de triagem para qualquer denúncia apresentada por pessoa que também ocupe um desses cargos.
 
-## 8. Consulta
+## 8. Consulta: resolver dúvida normativa, não caso concreto
 
-### 8.1. Finalidade
+### 8.1. Quem pode consultar
 
-Consulta é instrumento destinado a esclarecer dúvida sobre a aplicação de dispositivos legais ou regulamentares em matéria da competência do TCE/MA.
+O art. 269 do Regimento Interno atribui ao Plenário a decisão de consultas sobre dúvida na aplicação de dispositivos legais e regulamentares relativos a matéria de competência do Tribunal, formuladas por:
 
-A consulta deve trabalhar com **tese normativa**, não com julgamento de fato concreto individualizado.
+1. Governador do Estado;
+2. Presidente da Assembleia Legislativa;
+3. Presidente do Tribunal de Justiça;
+4. Prefeito Municipal;
+5. Presidente de Câmara Municipal;
+6. Chefe do Ministério Público Estadual;
+7. Procurador-Geral do Estado;
+8. Presidente de comissão da Assembleia Legislativa ou de Câmara Municipal;
+9. Secretário de Estado ou autoridade do Poder Executivo estadual de nível hierárquico equivalente.
 
-Não serve para:
+A legitimidade da consulta é, portanto, **taxativamente funcional**: não basta ser cidadão ou interessado no tema.
 
-- denunciar gestor;
-- representar irregularidade;
-- substituir recurso;
-- obter decisão antecipada sobre caso concreto;
-- pedir suporte técnico sobre sistemas ou rotinas operacionais.
+### 8.2. Como formular
 
-### 8.2. Autoridades legitimadas
+A consulta deve:
 
-A Lei Orgânica e a página oficial do e-Consulta reconhecem como legitimados, conforme as hipóteses previstas, autoridades como:
+- indicar precisamente seu objeto;
+- ser formulada articuladamente;
+- vir, **sempre que possível**, acompanhada de parecer do órgão de assistência técnica ou jurídica da autoridade consulente;
+- observar a pertinência temática quando formulada por Prefeito ou Presidente de Câmara Municipal.
 
-- Governador do Estado;
-- Presidente da Assembleia Legislativa;
-- Presidente do Tribunal de Justiça;
-- Prefeito Municipal;
-- Presidente de Câmara Municipal;
-- Chefe do Ministério Público Estadual/Procurador-Geral de Justiça;
-- Procurador-Geral do Estado;
-- Presidente de comissão parlamentar da Assembleia Legislativa ou de Câmara Municipal;
-- Secretários de Estado e autoridades do Poder Executivo estadual de nível hierárquico equivalente.
+<abbr title="Relação entre a dúvida formulada e a esfera de atribuições da autoridade">Pertinência temática</abbr> significa que a dúvida deve guardar relação com a esfera de atribuições do consulente quando o Regimento assim exige.
 
-Não é qualquer cidadão que pode formular consulta normativa ao Tribunal.
+O ponto de literalidade é importante: o Regimento usa **“sempre que possível”** para o parecer. A orientação operacional do <abbr title="Sistema eletrônico do Tribunal de Contas do Estado do Maranhão para formulação de consultas">e-Consulta</abbr> pode recomendar a juntada do parecer, mas a recomendação operacional não altera a redação regimental.
 
-### 8.3. Requisitos e orientação operacional
+### 8.3. Caso concreto e tese
 
-A Lei nº 8.258/2005 exige que a consulta:
+O Relator ou o Tribunal não conhece consulta que deixe de atender aos requisitos ou que verse sobre **caso concreto**. A consulta deve permitir resposta em tese.
 
-- indique precisamente o objeto;
-- seja formulada de modo articulado;
-- observe, quando cabível, a pertinência temática da autoridade consulente;
-- venha, **sempre que possível**, acompanhada de parecer do órgão de assistência técnica ou jurídica da autoridade.
+Por isso, se uma questão descreve gestor, contrato e fatos específicos e pede que o Tribunal declare desde logo se houve irregularidade, o instrumento não funciona como consulta normativa.
 
-Na orientação operacional atual do **e-Consulta**, o TCE/MA recomenda consulta prévia à base de prejulgados, formulação clara e objetiva e juntada do parecer técnico ou jurídico.
+## 9. Prejulgado: a tese vem antes do caso
 
-Para prova, diferencie:
+A decisão proferida em consulta tem **caráter normativo** e constitui prejulgamento da tese, mas **não do fato ou caso concreto**.
 
-- **Lei Orgânica:** parecer “sempre que possível”;
-- **orientação do e-Consulta:** instrução operacional para juntar o parecer.
+Esse efeito explica o funcionamento da base de prejulgados: uma tese já fixada pode orientar consultas posteriores sem transformar a resposta abstrata em julgamento antecipado de responsabilidade individual.
 
-### 8.4. Caso concreto
+Se a consulta tratar de matéria já respondida, o Tribunal pode encaminhar ao consulente cópia da decisão correspondente e arquivar o processo. Se a unidade técnica entender necessária reforma ou revogação da tese, o processo é instruído para apreciação pelo Plenário.
 
-Consulta voltada exclusivamente a resolver caso concreto não deve ser conhecida como consulta normativa.
+A relação pode ser visualizada assim:
 
-A resposta do Tribunal não antecipa julgamento de fatos ou de responsabilidade individual.
+**consulta em tese → decisão normativa → prejulgado da tese → aplicação futura conforme o caso concreto**.
 
-## 9. Prejulgados
+## 10. Como reconhecer o instrumento na questão
 
-As respostas às consultas são catalogadas e disponibilizadas como **prejulgados**.
+Quando a banca apresentar um enunciado, faça três perguntas na ordem:
 
-O prejulgado:
+1. **Há um possível fato irregular a apurar ou uma dúvida normativa abstrata?**
+   - fato irregular → denúncia ou representação;
+   - dúvida normativa → consulta.
+2. **Quem provoca o Tribunal?**
+   - cidadão, partido, associação ou sindicato → denúncia;
+   - legitimado específico → representação;
+   - autoridade do art. 269 → consulta.
+3. **Qual etapa está sendo descrita?**
+   - requisitos formais → triagem;
+   - registro na classe processual → autuação;
+   - priorização por <abbr title="Risco, Relevância, Oportunidade e Materialidade">RROM</abbr> e <abbr title="Gravidade, Urgência e Tendência">GUT</abbr> → seletividade;
+   - produção e análise de elementos para decidir → instrução.
 
-- possui caráter normativo;
-- fixa ou consolida tese;
-- constitui prejulgamento da **tese**;
-- não constitui prejulgamento do **fato ou caso concreto**.
+Essa ordem evita confundir **admissibilidade**, **prioridade** e **mérito**.
 
-Se a dúvida já estiver abrangida por tese vigente, pode ser encaminhada ao consulente cópia do ato decisório correspondente e os autos podem ser arquivados. Se a unidade técnica entender necessária reforma ou revogação da tese, inicia-se a instrução para apreciação pelo Pleno.
+## 11. Síntese de contrastes que exigem precisão
 
-## 10. Comparações para prova
+| Confusão possível | Distinção correta |
+| --- | --- |
+| denúncia × representação | objeto pode ser semelhante; legitimidade é diferente |
+| sigilo × anonimato | sigilo protege identidade conhecida; anonimato não satisfaz, por si só, a qualificação formal |
+| comunicação de irregularidade × processo autuado | a primeira pode alimentar fiscalização sem existir processo de denúncia/representação |
+| triagem × seletividade | triagem verifica requisitos; seletividade prioriza |
+| seletividade × mérito | priorizar não é julgar procedência nem responsabilidade |
+| <abbr title="Risco, Relevância, Oportunidade e Materialidade">RROM</abbr> × <abbr title="Gravidade, Urgência e Tendência">GUT</abbr> | <abbr title="Risco, Relevância, Oportunidade e Materialidade">RROM</abbr> vem primeiro; <abbr title="Gravidade, Urgência e Tendência">GUT</abbr> só é aplicado após o mínimo |
+| consulta × caso concreto | consulta responde tese normativa; não antecipa julgamento factual |
+| prejulgado × julgamento do fato | prejulgado vincula a tese nos termos regimentais; não prejulga o fato ou caso concreto |
 
-| Afirmação | Correta? | Motivo |
-| --- | --- | --- |
-| qualquer cidadão pode denunciar | sim | legitimidade constitucional e legal |
-| qualquer cidadão pode representar em qualquer hipótese | não | representação exige legitimidade específica |
-| toda representação passa por triagem e seletividade | não | art. 20 traz exceções |
-| manifestação anônima equivale a denúncia formal | não | autuação formal exige requisitos de identificação |
-| triagem decide o mérito | não | triagem verifica requisitos |
-| seletividade condena responsável | não | seletividade prioriza atuação |
-| RROM vem antes da GUT | sim | fluxo da Resolução nº 437/2026 |
-| consulta resolve caso concreto | não | consulta trabalha com tese normativa |
-| prejulgado julga previamente o fato | não | prejulga tese, não fato |
-| parecer é sempre requisito literal absoluto da Lei Orgânica | não | a lei usa “sempre que possível” |
+## 12. Corte normativo e fronteiras
 
-## 11. Pegadinhas recorrentes
+O recorte considera o Regimento Interno vigente na publicação do edital, em **6 de julho de 2026**, e a Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 437/2026, publicada em **30 de março de 2026**.
 
-1. **Denúncia ≠ representação.** Podem tratar de irregularidade semelhante, mas a legitimidade é diferente.
-2. **Sigilo ≠ anonimato.** A autoria identificada pode ser protegida.
-3. **Comunicação de irregularidade ≠ denúncia autuada.** Pode subsidiar fiscalização sem gerar autuação formal.
-4. **Triagem ≠ seletividade.** A primeira examina requisitos; a segunda prioriza a atuação.
-5. **RROM ≠ GUT.** RROM vem primeiro; GUT só entra após a pontuação mínima.
-6. **Art. 20 é exceção decisiva.** Certas representações não passam nem por triagem nem por seletividade.
-7. **Consulta ≠ recurso nem orientação de sistema.**
-8. **Prejulgado = tese, não fato.**
+Garantias processuais gerais, produção de provas e contagem de prazos pertencem ao Assunto 060. Decisões, débitos, sanções e execução ficam no 061; recursos e revisão, no 062; atos normativos, ética e regras finais, no 063. Aqui foram mantidas apenas as pontes indispensáveis para entender o fluxo de denúncia, representação e consulta.
