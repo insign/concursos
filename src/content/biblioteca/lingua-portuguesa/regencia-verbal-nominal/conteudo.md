@@ -8,470 +8,248 @@ storageId: regencia-verbal-nominal
 
 # Regência verbal e nominal
 
-> **Corte de atualização:** fontes consultadas até 10 de agosto de 2026. O foco é a norma-padrão aplicada a textos formais e a questões de concurso. Quando fontes de referência registram mais de uma construção, o material distingue a forma normativa mais segura para prova da variante documentada.
+## 1. Por que analisar o processo, mas precisar do processo?
 
-## 1. Regência é relação de dependência
+Imagine uma equipe preparando uma decisão. Ela **analisa o processo**, **precisa do processo** e é **favorável ao recurso**. O assunto continua sendo o trabalho da equipe, mas a ligação entre as palavras muda: *analisar* recebe o complemento diretamente; *precisar* pede **de**; *favorável* pede **a**. Os exemplos deste capítulo são hipotéticos.
 
-**Regência** é a relação pela qual um termo, chamado **regente**, seleciona ou condiciona seu complemento, o **regido**. Se o regente é verbo, há regência verbal; se é substantivo, adjetivo ou advérbio, há regência nominal.
+Essa relação de dependência é a **regência**. A palavra que determina a construção é o **termo regente**; o termo que dela depende é o **regido**. Há regência **verbal** quando o regente é um verbo e **nominal** quando é um <abbr title="Palavra que dá nome a seres, coisas, ações ou ideias">substantivo</abbr>, <abbr title="Palavra que atribui uma característica a um nome">adjetivo</abbr> ou <abbr title="Palavra que modifica uma ação, qualidade ou circunstância">advérbio</abbr>.
 
-| Estrutura | Regente | Regido | Relação |
+As **preposições**, como *a, de, em, com* e *por*, ligam termos. Podem juntar-se a outras palavras: **do** contém *de + o*; **ao**, *a + o*; **na**, *em + a*. Já em “analisou **o** processo”, *o* é apenas **artigo**, palavra que acompanha o <abbr title="Palavra que dá nome a seres, coisas, ações ou ideias">substantivo</abbr>. Portanto, haver uma palavra antes do complemento não significa haver preposição.
+
+A regência não é concordância: “a equipe **precisa**” e “as equipes **precisam**” mudam a forma do verbo, mas conservam **precisar de**.
+
+### Complemento ou circunstância?
+
+Em “a equipe precisa **de apoio**”, o segmento informa aquilo de que se necessita: completa o sentido de *precisar*. Em “a equipe trabalhou **no sábado**, **com cuidado**”, os segmentos acrescentam tempo e modo; são **adjuntos adverbiais**, termos que apresentam circunstâncias.
+
+Por isso, **nem toda preposição é exigência de um verbo**. Quando serve à ligação selecionada pelo regente, é chamada de **regencial** ou **relacional**; quando introduz um sentido como tempo, instrumento ou companhia, pode ser chamada de **nocional**. Em “trabalhou **com uma ferramenta**”, *com* indica instrumento; em “concordou **com a proposta**”, integra a construção *concordar com*. Considere sempre o trecho completo, não a preposição isolada.
+
+Retirar um termo pode ajudar, mas não decide sozinho sua função. “A equipe já analisou” pode deixar o objeto subentendido pelo contexto. Um complemento omitido não se transforma, por isso, em circunstância.
+
+### Objeto direto, indireto e transitividade
+
+Uma **oração** organiza-se em torno de um verbo. Em “a equipe analisou o processo”, *a equipe* é o **sujeito**, termo sobre o qual se declara algo; *o processo* é complemento de *analisou*.
+
+- **Objeto direto** (<abbr title="Objeto direto">OD</abbr>): liga-se normalmente ao verbo sem preposição exigida, como *o processo* em “analisou o processo”. O verbo, nesse uso, é **transitivo direto**.
+- **Objeto indireto** (<abbr title="Objeto indireto">OI</abbr>): completa o verbo por uma relação preposicionada, como *ao regulamento* em “obedeceu ao regulamento”. O verbo, nesse uso, é **transitivo indireto**.
+- Um verbo pode receber os dois objetos: “entregou **o processo ao servidor**”. É **transitivo direto e indireto**. Em “a criança dormiu”, *dormir* não exige objeto: tem emprego **intransitivo**.
+
+**Transitividade** é essa maneira de o verbo se construir com seus complementos no emprego concreto. Não é uma etiqueta imutável: *aspirar o ar* e *aspirar ao cargo* têm sentidos e construções diferentes.
+
+Há ainda **objeto direto preposicionado**: a preposição aparece por uma condição da construção, não porque o verbo tenha passado a exigir objeto indireto. Em “conhece **a si mesmo**”, *conhecer* continua direto, como em “conhece o colega”. Não classifique o objeto apenas pela presença visível de *a*.
+
+## 2. A função do complemento explica o pronome
+
+Para evitar a repetição de um nome, podemos substituí-lo por um pronome. Na retomada de <abbr title="Pessoa gramatical correspondente a ele, ela, eles e elas">terceira pessoa</abbr>, **o, a, os, as** são formas típicas de objeto direto; **lhe, lhes** substituem certos objetos indiretos, especialmente com *a*. São **pronomes oblíquos átonos**: não têm acento próprio na fala e se apoiam no verbo.
+
+“Analisou **o processo**” torna-se “analisou-**o**”; “obedeceu **ao servidor**”, “obedeceu-**lhe**”. A preposição não aparece separadamente em *lhe*, mas a relação indireta permanece. Já *ele/ela* podem aparecer como **pronomes tônicos**, com autonomia de pronúncia e precedidos de preposição: *a ele*, *dela*, *com ela*.
+
+**Pessoa não é sinônimo de objeto indireto.** Em “informou o servidor”, a pessoa é objeto direto: “informou-**o**”. Também não se pode substituir qualquer termo preposicionado por *lhe*: “gosta **do processo**” passa a “gosta **dele**”, não a “gosta-lhe”.
+
+### Informar e avisar: duas construções, sem mistura
+
+A mesma comunicação pode organizar seus participantes de duas maneiras:
+
+| Construção | Complemento direto | Complemento preposicionado | Retomada da pessoa |
 | --- | --- | --- | --- |
-| analisar **o processo** | verbo *analisar* | o processo | complemento sem preposição |
-| precisar **de apoio** | verbo *precisar* | de apoio | complemento com *de* |
-| obediência **à norma** | substantivo *obediência* | à norma | complemento com *a* |
-| favorável **ao recurso** | adjetivo *favorável* | ao recurso | complemento com *a* |
-| independentemente **do resultado** | advérbio *independentemente* | do resultado | complemento com *de* |
+| Informei **o resultado ao servidor**. | o resultado | ao servidor | Informei-**lhe o resultado**. |
+| Informei **o servidor do resultado**. | o servidor | do resultado | Informei-**o do resultado**. |
 
-A preposição não é mero ornamento. Ela pode ser exigida pelo regente e integrar a estrutura e o sentido: “gostar **de** música”, “obedecer **a** normas”, “compatível **com** o cargo”. Sua retirada, troca ou inserção pode tornar a frase inadequada ou produzir outra leitura.
+Na primeira, informa-se **algo a alguém**; na segunda, **alguém de algo**. “Informei-**lhe do resultado**” mistura os dois esquemas: mantém a pessoa como indireta e introduz também o conteúdo por *de*. Para a construção tradicional estudada, escolha uma linha inteira da tabela, não metade de cada uma.
 
-### 1.1 Regência não se confunde com presença de preposição
+*Avisar* admite os mesmos esquemas: “avisei o resultado ao servidor” / “avisei o servidor do resultado”. Com **cientificar**, use **alguém de algo**: “cientifiquei **o servidor do resultado**” → “cientifiquei-**o do resultado**”.
 
-Nem todo segmento preposicionado é complemento exigido. Compare:
+### Pagar, perdoar e agradecer
 
-- “A equipe precisa **de apoio**.” — *de apoio* completa o sentido de *precisa*;
-- “A equipe trabalhou **com cuidado**.” — *com cuidado* expressa modo e modifica uma construção já completa;
-- “A equipe trabalhou **no sábado**.” — *no sábado* indica tempo.
+O padrão tradicional distingue **a coisa diretamente** e **a pessoa com a**: “paguei **a dívida ao credor**”, “perdoei **a ofensa ao colega**”, “agradeci **o auxílio ao servidor**”. Daí “paguei-**lhe a dívida**” e “perdoei-**lhe a ofensa**”: *lhe* retoma a pessoa, não a coisa.
 
-O diagnóstico combina sentido, possibilidade de retirada, função sintática e consulta ao padrão lexical. A simples existência de *de*, *a*, *com* ou *em* não basta.
+Um dos complementos pode não ser expresso: “paguei a dívida”; “agradeci ao servidor”. *Agradecer* também admite **por** para o motivo: “agradeci ao servidor **pelo auxílio**”. Reconhecer o esquema pedido pelo enunciado não autoriza afirmar que nenhuma outra construção tenha registro.
 
-### 1.2 A transitividade depende do emprego concreto
+A escolha entre *o* e *lhe* depende da regência. A posição antes, depois ou no interior de uma forma verbal é desenvolvida em **Colocação pronominal**.
 
-Um verbo não possui necessariamente uma única transitividade em todos os contextos:
+## 3. Quando mudar o sentido muda a regência
 
-- “O servidor **aspirou o ar**.” — sorveu; complemento direto;
-- “O servidor **aspirou ao cargo**.” — desejou; complemento com *a*;
-- “O médico **assistiu o paciente**.” — prestou assistência;
-- “O médico **assistiu ao julgamento**.” — presenciou.
+### Assistir, aspirar e visar
 
-Em prova, identifique primeiro a acepção. Só então classifique o complemento e confira a preposição.
+**Assistir** permite distinguir quatro situações. Quem presencia uma sessão **assiste à sessão**, na regência tradicional. Quem presta assistência pode **assistir o paciente** ou **assistir ao paciente**. Quando significa caber como direito, constrói-se com *a*: “esse direito **assiste ao interessado**”. No sentido pouco usual de residir, aparece com *em*: “assistia **em São Luís**”.
 
-## 2. Roteiro para analisar a regência
+Não basta encontrar “assistir a alguém” para decidir o sentido: o contexto pode indicar assistência ou um direito que cabe à pessoa. Também muda a retomada: para o espetáculo presenciado, a tradição emprega **assistir a ele**, não *assistir-lhe*; em “esse direito **lhe assiste**”, *lhe* é regular.
 
-1. Localize o verbo ou nome regente.
-2. Determine seu sentido no período, sem depender apenas do infinitivo isolado.
-3. Pergunte se o termo seguinte é exigido ou apenas acrescenta circunstância.
-4. Confira se a acepção pede complemento direto, preposição ou duas complementações.
-5. Se houver pronome, verifique se ele substitui objeto direto, indireto ou termo de outra função.
-6. Em oração relativa, reconstrua a frase sem o relativo para descobrir a preposição.
-7. Em reescrita, preserve simultaneamente sentido, preposição, função e paralelismo.
-8. Se houver mais de uma construção documentada, identifique qual forma a tradição normativa privilegia e qual é apenas variante de uso.
+**Aspirar** contrasta dois sentidos: “aspirou **a fumaça**” é inalar, com objeto direto e retomada “aspirou-**a**”; “aspira **ao cargo**” é desejar, com *a* e retomada **aspira a ele**, não *aspira-lhe*, na construção tradicional.
 
-### 2.1 Hierarquia prática para questões de concurso
+**Visar** é direto ao significar mirar ou pôr visto: *visar o alvo*, *visar o documento*. Para ter por objetivo, a construção tradicional é **visar ao resultado**. O uso direto nessa acepção também é documentado; diante de <abbr title="Forma verbal que nomeia a ação, como reduzir ou melhorar">infinitivo</abbr>, “visa **reduzir custos**” é inclusive a orientação do Manual de Comunicação do Senado. Não acrescente mecanicamente *a* a todo emprego de *visar*.
 
-Quando o comando pedir **correção segundo a norma-padrão**, adote primeiro a construção de menor controvérsia na tradição gramatical e editorial. Variantes documentadas são relevantes para evitar enunciados absolutos falsos, mas não devem apagar a forma preferencial cobrada em prova.
+**Norma-padrão é o modelo formal de referência; não é a descrição de todos os usos.** “Assistir o filme” é corrente no Brasil; “assistir **ao** filme” corresponde à regência tradicional. Siga o padrão fixado pelo comando, sem converter preferências editoriais em proibições universais quando há alternativas documentadas.
 
-Exemplo: no sentido de *presenciar*, **assistir ao julgamento** é a resposta segura; o uso direto **assistir o julgamento** é documentado no português brasileiro, mas só deve prevalecer se o comando ou a fonte adotada admitirem essa descrição.
+### Agradar e querer
 
-## 3. Verbos cuja regência muda com o sentido
+Em “a mãe **agradou a criança**”, *agradar* pode significar acariciar, com objeto direto. Em “a decisão **agradou à criança**”, significa satisfazer, com complemento introduzido por *a*. Neste segundo exemplo, **a decisão é o sujeito**; *à criança* indica quem ficou satisfeito. O referente humano não determina a função.
 
-### 3.1 *Assistir*
+Com **querer**, desejar algo se constrói diretamente: “quero **uma resposta**”. Estimar alguém admite **querer a alguém**: “quero **aos meus amigos**”, “quero-**lhes** bem”. Trocar a construção pode alterar o sentido, mesmo sem produzir uma frase gramaticalmente incorreta.
 
-| Sentido | Construção | Exemplo |
-| --- | --- | --- |
-| ver, presenciar | **assistir a** | “Assistimos **à sessão**.” |
-| prestar assistência | assistir alguém; também assistir a alguém em registros documentados | “O médico assistiu **o paciente**.” |
-| caber, competir | **assistir a** | “Esse direito assiste **ao servidor**.” |
-| morar, residir, uso antigo ou formal | **assistir em** | “Ele assiste **em São Luís**.” |
+### Implicar, proceder e responder
 
-No sentido de ver, a tradição normativa prefere o complemento com *a*. Por isso, a forma segura em prova é “assistir **ao** filme”. Na substituição por pronome tônico, usa-se “assistir **a ele**”; a tradição não recomenda *assistir-lhe* para retomar o espetáculo.
+**Implicar custos** significa acarretá-los: na construção tradicional, o efeito é objeto direto. “Implicar **em** custos” tem uso documentado, mas não corresponde a essa forma conservadora. Já “implicar **com o colega**” significa antipatizar ou provocar; “implicar **o colega no caso**”, envolvê-lo. O *em* de *no caso* é próprio de outro esquema, não justifica inserir *em* em qualquer frase com esse verbo.
 
-O uso direto “assistir o filme” é frequente no português brasileiro e aparece registrado em repertórios contemporâneos. Em questão normativa, mantenha *assistir a* salvo indicação expressa de outro padrão.
+Com **proceder**, compare: “a alegação **procede**” = tem fundamento, sem objeto; “o documento **procede de outra unidade**” = tem essa origem; “a comissão **procedeu à análise**” = realizou a análise. Na última, a preposição é **a**, não *de*.
 
-### 3.2 *Aspirar*
+**Responder** pode indicar o destinatário ou a pergunta, o conteúdo da resposta ou a responsabilidade: “respondeu **ao examinador**”, “respondeu **à pergunta**”, “respondeu **que concordava**”, “respondeu **pelos próprios atos**”. A oração *que concordava* apresenta aquilo que foi respondido; *pelos próprios atos* não significa “ao examinador”.
 
-- **sorver, inalar:** complemento direto — “Aspirou **a fumaça**”; “aspirou-**a**”;
-- **desejar, pretender:** complemento com *a* — “Aspira **ao cargo**”; “aspira **a ele**”.
+## 4. Outras construções que não cabem numa fórmula única
 
-No segundo sentido, a construção tradicional não substitui o complemento por *lhe*: prefira “aspira a ele”, e não “lhe aspira”.
+### Obedecer, preferir, consistir e acarretar
 
-### 3.3 *Visar*
+**Obedecer e desobedecer** selecionam **a** na regência tradicional: “obedeceu **às normas**”, “desobedeceu **ao superior**”. Ambos admitem *lhe/lhes*: “obedeceu-**lhes**”. O emprego direto ocorre no português brasileiro, mas não é o modelo tradicional.
 
-- **mirar:** “O agente visou **o alvo**.”;
-- **pôr visto:** “A autoridade visou **o documento**.”;
-- **ter por objetivo:** a tradição normativa ensina “A medida visa **ao resultado**”.
+**Preferir** já exprime dar prioridade a uma opção. Quando as duas são explicitadas, constrói-se **preferir uma coisa a outra**: “prefiro **a análise cuidadosa à decisão precipitada**”. A primeira é a escolhida; a segunda fica em segundo plano. Evite nessa construção *prefiro mais*, *prefiro antes*, *do que* e *antes que*. Pode-se expressar só a preferência: “prefiro a análise cuidadosa”. A ordem não muda a relação: “**à decisão precipitada**, prefiro **a análise cuidadosa**”.
 
-No último sentido, o uso direto — “visa o resultado” — é documentado no português brasileiro. Em questão normativa conservadora, **visar a** é a resposta segura.
+**Consistir em** apresenta aquilo em que algo se baseia ou de que se constitui: “o trabalho consiste **em revisar dados**”. **Acarretar**, no sentido de causar, recebe diretamente o efeito: “a omissão acarretou **prejuízos**”, sem *em* na construção tradicional.
 
-### 3.4 *Agradar*
+### Lembrar e esquecer: o pronome faz parte do esquema
 
-- **acariciar, fazer agrados:** complemento direto — “A mãe agradou **a criança**.”;
-- **satisfazer, contentar:** complemento com *a* — “A decisão agradou **aos servidores**.”
+Compare “esqueci **o prazo**” e “esqueci-**me do prazo**”. O fato comunicado é o mesmo, mas o segundo esquema inclui um pronome que acompanha a pessoa do verbo: *eu me*, *ele se*, *nós nos*. É a **construção pronominal**.
 
-Na segunda frase, *a decisão* é sujeito e *aos servidores* é complemento. A ordem dos termos não deve induzir a troca dessas funções.
-
-### 3.5 *Querer*
-
-- **desejar:** complemento direto — “Quero **uma resposta**.”;
-- **estimar, ter afeição:** complemento com *a* — “Quero **aos meus amigos**.”
-
-O segundo uso é menos frequente na fala cotidiana, mas permanece relevante em questões de regência e em textos literários.
-
-### 3.6 *Implicar*
-
-- **acarretar, produzir como consequência:** complemento direto — “A falha implicou **custos**.”;
-- **embirrar, antipatizar:** *implicar com* — “O chefe implicava **com o servidor**.”;
-- **envolver alguém em algo:** “Implicaram **o agente no caso**.”
-
-Na acepção de acarretar, a forma conservadora de prova é “implicar consequências”, sem *em*. O uso “implicar em consequências” é corrente, mas não é a primeira escolha em redação normativa.
-
-### 3.7 *Proceder*
-
-- **ter fundamento:** sem complemento exigido — “A alegação não procede.”;
-- **originar-se:** *proceder de* — “O recurso procede **de outra unidade**.”;
-- **realizar, iniciar:** *proceder a* — “A comissão procedeu **à análise**.”
-
-O acento grave do último exemplo resulta da combinação entre a preposição *a* exigida pelo verbo e o artigo feminino de *análise*. O estudo sistemático da crase pertence ao Assunto 014.
-
-## 4. Regências verbais de alta incidência
-
-### 4.1 *Obedecer* e *desobedecer*
-
-Na descrição tradicional, pedem complemento com *a*:
-
-- “Obedeceu **ao regulamento**.”;
-- “Desobedeceu **às ordens**.”;
-- “Obedeceu-**lhe**.”
-
-O emprego direto ocorre no uso brasileiro, mas a forma preposicionada é a mais segura em prova normativa. A passiva “o regulamento foi obedecido” tem tradição de uso e registro gramatical, embora o verbo seja classificado normalmente como transitivo indireto. Não se deve usar essa exceção para concluir que qualquer objeto indireto forma passiva.
-
-### 4.2 *Preferir*
-
-A estrutura comparativa tradicional é **preferir X a Y**:
-
-> Prefiro a análise técnica **à** decisão precipitada.
-
-O verbo já contém ideia comparativa. Na redação normativa, evite:
-
-- “preferir **mais** X”;
-- “preferir X **do que** Y”;
-- “preferir X **antes que** Y”.
-
-Também é possível preferir apenas um elemento: “Prefiro a análise técnica”.
-
-### 4.3 *Informar*, *avisar* e *cientificar*
-
-*Informar* e *avisar* admitem dois esquemas centrais:
-
-| Esquema | Exemplo | Substituição |
-| --- | --- | --- |
-| informar/avisar **algo a alguém** | “Informei **o resultado ao candidato**.” | “Informei-**lhe o resultado**.” |
-| informar/avisar **alguém de algo** | “Informei **o candidato do resultado**.” | “Informei-**o do resultado**.” |
-
-Não misture as duas estruturas em “informei-lhe do resultado” quando a análise exigida é a tradicional. *Cientificar* aparece normalmente em “cientificar alguém **de** algo”: “Cientifiquei-**o de que** o prazo terminara”.
-
-### 4.4 *Pagar* e *perdoar*
-
-Na organização tradicional:
-
-- a **coisa** é complemento direto: “pagar **a dívida**”; “perdoar **a ofensa**”;
-- a **pessoa** recebe complemento com *a*: “pagar **ao credor**”; “perdoar **ao réu**”.
-
-Com os dois termos:
-
-- “Paguei **a dívida ao fornecedor**.”;
-- “Paguei-**lhe a dívida**.”;
-- “Perdoei-**lhe a ofensa**.”
-
-A coisa, como objeto direto, passa regularmente à voz passiva: “A dívida foi paga”.
-
-### 4.5 *Responder*
-
-As construções variam com a informação expressa:
-
-- “Respondeu **à pergunta**.”;
-- “Respondeu **ao examinador**.”;
-- “Respondeu **que concordava**.” — a oração apresenta o conteúdo da resposta;
-- “Respondeu **pelos atos**.” — assumiu responsabilidade.
-
-Não se transfere automaticamente a mesma preposição a todas as acepções.
-
-### 4.6 *Consistir*, *acarretar* e *usufruir*
-
-- **consistir em:** “O trabalho consiste **em revisar dados**.”;
-- **acarretar** algo, sem *em* na construção tradicional: “A omissão acarretou **prejuízos**.”;
-- **usufruir de** algo e **usufruir** algo aparecem documentados: “usufruir **dos benefícios**” / “usufruir **os benefícios**”.
-
-Em prova, não condene uma das formas de *usufruir* por princípio se o comando não indicar uma referência normativa que exclua a variante.
-
-### 4.7 *Atender*, *presidir* e *deparar(-se)*
-
-Há variação reconhecida:
-
-- **atender alguém/a alguém:** “atender o usuário” e “atender ao usuário”;
-- **atender um pedido:** pode significar acolhê-lo ou deferi-lo;
-- **presidir a sessão / presidir à sessão:** as duas construções têm registro;
-- **deparar com / deparar-se com:** ambas aparecem no português brasileiro.
-
-Esses verbos exigem atenção a acepção, fonte e construção integral. Em item normativo, prefira a forma explicitamente adotada pelo comando quando houver.
-
-### 4.8 *Prevenir*
-
-- **evitar, impedir antecipadamente:** “prevenir **riscos**”, “prevenir **a doença**”;
-- **avisar, alertar alguém:** “prevenir **o servidor do risco**”, “preveni-**lo contra a fraude**”.
-
-O sentido determina se o complemento nomeia o evento evitado ou a pessoa alertada.
-
-## 5. Movimento, destino e localização
-
-Na tradição formal:
-
-- **ir a/para:** “ir **ao tribunal**”, “ir **para São Luís**”;
-- **chegar a:** “chegar **à sede**”;
-- **voltar de:** “voltar **da sessão**”;
-- **voltar a/para:** “voltar **ao trabalho**”, “voltar **para casa**”.
-
-*A* costuma marcar destino mais pontual; *para* pode sugerir direção, permanência ou mudança. Essa oposição não é absoluta em todos os contextos.
-
-“Chegar em” e “ir em” são comuns no português brasileiro. Em redação formal conservadora e em provas tradicionais, prefira “chegar **a**” e “ir **a/para**”. Para localização estática, emprega-se normalmente *em*: “estar **na sede**”, “morar **em São Luís**”.
-
-## 6. Construções pronominais e predicativas
-
-### 6.1 *Lembrar* e *esquecer*
-
-Sem pronome, a forma tradicional usa complemento direto:
-
-- “Lembrei **o compromisso**.”;
-- “Esqueci **o prazo**.”;
-- “Lembrei-**o**”; “esqueci-**o**”.
-
-Na construção pronominal, usa-se *de*:
-
-- “Lembrei-me **do compromisso**.”;
-- “Esqueci-me **do prazo**.”
-
-“Esqueci do prazo”, sem o pronome mas com *de*, é frequente no português brasileiro. Em prova normativa conservadora, escolha “esqueci o prazo” ou “esqueci-me do prazo”.
-
-### 6.2 *Chamar*
-
-- **convocar:** “Chamou **o servidor**.”;
-- **invocar, pedir pela presença:** “Chamou **pelo médico**.”;
-- **atribuir nome ou qualidade:** há mais de um esquema documentado — “Chamou **o servidor de imprudente**”, “chamou-**o imprudente**” e construções com complemento preposicionado em repertórios tradicionais.
-
-Nas questões sobre *chamar* no sentido de denominar, observe se a banca cobra o objeto, o predicativo ou a presença facultativa de *de*. Não reduza todas as construções a uma fórmula única.
-
-### 6.3 *Custar*
-
-- **ter preço:** “O material custou **cem reais**.”;
-- **ser difícil:** “Custou-**me aceitar** a decisão.”
-
-Na segunda construção, o que custa é “aceitar a decisão”; *me* designa a pessoa que experimenta a dificuldade. A forma tradicional evita “eu custei a aceitar” quando o sentido pretendido é “foi difícil para mim”.
-
-## 7. Pronomes oblíquos e regência
-
-A escolha do pronome depende da função sintática, não apenas de o referente ser pessoa ou coisa.
-
-| Função | Pronomes átonos típicos | Exemplo |
-| --- | --- | --- |
-| objeto direto | *o, a, os, as* | “Aspirou a fumaça” → “aspirou-**a**” |
-| objeto indireto com *a*, quando substituível | *lhe, lhes* | “Obedeceu ao superior” → “obedeceu-**lhe**” |
-| construção pronominal | *me, te, se, nos, vos* + preposição exigida | “Lembrou-se **do prazo**” |
-
-Casos importantes:
-
-- “Assistiu **ao filme**” → “assistiu **a ele**”, na tradição;
-- “Aspirou **ao cargo**” → “aspirou **a ele**”;
-- “Informou **o servidor do fato**” → “informou-**o do fato**”;
-- “Informou **o fato ao servidor**” → “informou-**lhe o fato**”;
-- “Pagou **a dívida ao credor**” → “pagou-**lhe a dívida**”.
-
-Decidir entre *o* e *lhe* é problema de regência. Decidir onde colocar o pronome — antes, no meio ou depois do verbo — pertence principalmente ao Assunto 015.
-
-## 8. Regência e voz passiva
-
-Em regra, o objeto direto pode tornar-se sujeito paciente:
-
-- “A autoridade visou o documento.” → “O documento foi visado.”;
-- “A empresa pagou a dívida.” → “A dívida foi paga.”;
-- “A falha acarretou custos.” → “Custos foram acarretados pela falha.”
-
-Um complemento preposicionado não se converte mecanicamente em sujeito:
-
-- “Assistiu ao filme” não produz, na análise tradicional dessa acepção, “o filme foi assistido”;
-- “Aspirou ao cargo” não produz “o cargo foi aspirado” com o mesmo sentido.
-
-Com *se*, a transitividade também decide a estrutura:
-
-- “Vendem-se imóveis.” — passiva sintética; *imóveis* é sujeito paciente;
-- “Assiste-se a palestras.” — sujeito indeterminado; o verbo fica no singular;
-- “Obedece-se às normas.” — sujeito indeterminado na análise tradicional.
-
-A passiva registrada com *obedecer* é uma exceção histórica e lexical; não invalida o teste geral.
-
-## 9. Orações completivas e preposição
-
-Uma oração inteira pode funcionar como complemento. Se o regente exige preposição, a forma conservadora a mantém antes da conjunção integrante:
-
-- “Tenho certeza **de que** o prazo termina hoje.”;
-- “Necessitamos **de que** os dados sejam revistos.”;
-- “A medida é favorável **a que** se conclua o processo.”;
-- “Lembro-me **de que** a reunião foi adiada.”
-
-A retirada indevida é chamada frequentemente de **queísmo**: “tenho certeza que”. A inserção sem apoio regencial recebe o nome de **dequeísmo**: “afirmou de que”.
-
-| Regente | Estrutura segura |
+| Sem pronome, complemento direto | Com pronome e preposição de |
 | --- | --- |
-| ter certeza **de** | “Tenho certeza **de que** virá.” |
-| necessitar **de** | “Necessita **de que** o prazo mude.” |
-| afirmar algo | “Afirmou **que** viria.” |
-| informar alguém **de** algo | “Informou-o **de que** o prazo mudou.” |
+| Lembrei **o compromisso**. | Lembrei-**me do compromisso**. |
+| Esqueci **o prazo**. | Esqueci-**me do prazo**. |
 
-Há supressões documentadas em determinados autores e construções, inclusive “lembro-me que”. Em redação objetiva de concurso, “lembro-me **de que**” elimina a dúvida.
+Em “esqueci-**o**”, *o* substitui o prazo; em “esqueci-**me** do prazo”, *me* integra a construção do verbo e **não** substitui o prazo. “Esqueci do prazo”, sem *me*, é frequente no uso brasileiro; as duas colunas mostram os esquemas tradicionais. A mudança de uma coluna para a outra exige ajustar **pronome e preposição juntos**.
 
-## 10. Regência e pronomes relativos
+### Chamar e custar: quem recebe a qualidade ou sente a dificuldade?
 
-O pronome relativo retoma um antecedente e exerce função dentro da oração subordinada. Para descobrir a preposição, reconstrua a oração sem o relativo:
+**Chamar o servidor** pode ser convocá-lo; **chamar pelo médico**, pedir por sua presença. Ao atribuir uma qualidade, “chamou o servidor **de imprudente**”, o termo *imprudente* não identifica outra pessoa: caracteriza o próprio servidor. É **predicativo do objeto**, a qualidade atribuída ao objeto pelo verbo.
 
-| Forma reconstruída | Com relativo |
+Nessa acepção, há quatro construções tradicionais: **chamou-o imprudente**, **chamou-o de imprudente**, **chamou-lhe imprudente**, **chamou-lhe de imprudente**. A escolha do objeto e a presença de *de* diante da qualidade variam. Não aplique a flexibilidade dessa acepção ao sentido simples de convocar.
+
+**Custar** pode indicar preço: “o material custou **cem reais**”. Para dificuldade, observe “**custou-me aceitar a decisão**”: o fato difícil é **aceitar a decisão**, que funciona como sujeito; *me* indica **a quem** isso custou. *Aceitar* está no **infinitivo**, forma que nomeia a ação sem, nesse uso, marcar seu tempo.
+
+Na construção tradicional de dificuldade, use “custou-me aceitar”, sem transformar a pessoa em sujeito. *Custar* também significa demorar, e os dicionários registram “custei a chegar”. Não proíba toda sequência “eu custei a” sem considerar o sentido e o padrão pedido.
+
+### Prevenir e as variantes admitidas
+
+**Prevenir riscos** é evitá-los; **prevenir o servidor do risco** é alertá-lo. A pessoa alertada pode ser retomada por *o*: “preveni-**o do risco**”. Também se registra “preveni-**o contra a fraude**”. O evento evitado e a pessoa alertada ocupam posições diferentes na construção.
+
+Há verbos em que duas regências são documentadas **sem que a preposição imponha uma mudança de sentido**:
+
+| Verbo e sentido | Construções documentadas |
 | --- | --- |
-| assisti **ao filme** | o filme **a que** assisti |
+| atender, receber ou dar atendimento | atender **o usuário / ao usuário** |
+| atender, acolher ou satisfazer | atender **o pedido / ao pedido** |
+| usufruir, desfrutar | usufruir **os benefícios / dos benefícios** |
+| presidir, dirigir | presidir **a sessão / à sessão** |
+| deparar, encontrar inesperadamente | deparar **com um problema / deparar-se com um problema** |
+
+O quadro não torna todas as preposições intercambiáveis, nem se estende automaticamente a todos os sentidos desses verbos. Ele impede a conclusão de que apenas uma das formas indicadas poderia existir.
+
+## 5. Nomes também selecionam preposições
+
+Não é necessário haver um verbo antes do complemento. “A equipe é **favorável ao recurso**” contém o verbo *ser*, mas quem determina **a** é *favorável*: favorável **a quê?** Isso é regência nominal.
+
+O regente pode dar nome a algo (**substantivo**, como *necessidade*), atribuir uma característica (**adjetivo**, como *favorável*) ou modificar uma ação ou qualidade (**advérbio**, como *independentemente*). Compare **necessidade de apoio**, **favorável ao recurso**, **agiu independentemente de autorização**.
+
+Aprenda a palavra junto de sua relação. Uma família pode ajudar: **obedecer a → obediência a → obediente a**. São palavras **cognatas**, isto é, de origem comum. A conservação da preposição é útil para memorizar, mas não é uma regra sem exceções.
+
+### Substantivos
+
+| Regente | Preposição e aplicação |
+| --- | --- |
+| acesso, adesão, alusão, referência | **a**: acesso aos autos; adesão ao programa; alusão ao parecer; referência ao processo |
+| amor, aversão | **a, por**: amor à profissão ou pela profissão; aversão ao risco ou por fraudes |
+| capacidade | **de, para**: capacidade de análise; capacidade para analisar |
+| compatibilidade, conformidade | **com**: compatibilidade com o cargo; conformidade com a norma |
+| necessidade | **de**: necessidade de revisão |
+| respeito | **a, por, para com**: respeito às regras; respeito pelos colegas; respeito para com os colegas |
+
+### Adjetivos
+
+| Regente | Regência frequente |
+| --- | --- |
+| acessível, avesso, equivalente | **a**: acessível aos usuários; avesso a mudanças; equivalente ao original |
+| favorável, fiel, idêntico | **a**: favorável ao recurso; fiel aos fatos; idêntico ao modelo |
+| inerente, preferível, sensível | **a**: inerente à função; preferível à alternativa; sensível às mudanças |
+| adequado, apto | **a, para**: adequado ao cargo ou para o cargo; apto a exercer ou para exercer |
+| alheio | **a, de**: alheio ao problema; alheio de disputas |
+| propenso | **a, para**: propenso a erros; propenso para a conciliação |
+| compatível | **com**: compatível com a função |
+| digno, passível, oriundo | **de**: digno de confiança; passível de revisão; oriundo de outra unidade |
+| hábil | **em**: hábil em negociação |
+| responsável | **por**: responsável pelo setor |
+| grato | **a alguém por algo**: grato ao servidor pelo auxílio |
+
+As preposições de **grato** não são simples alternativas: uma introduz o destinatário da gratidão; a outra, o motivo. Isso também mostra por que decorar apenas “grato a/por” pode esconder a relação que a frase exige.
+
+### Advérbios e expressões
+
+Use **longe de**, **perto de**, **independentemente de**; **relativamente a**, **paralelamente a**, **contrariamente a**, **anteriormente a** e **posteriormente a**. *Junto* admite **a/de**, conforme o sentido: *junto à porta*, *junto da porta*.
+
+A relação persiste em enunciados maiores: “agiu independentemente **da autorização**”; “decidiu contrariamente **ao parecer**”. A presença de *agiu* ou *decidiu* não transfere a esses verbos a regência de *independentemente* ou *contrariamente*.
+
+## 6. A preposição diante de uma oração ou de um relativo
+
+### Quando o complemento é um fato inteiro
+
+“Tenho certeza **da aprovação**” pode tornar-se “tenho certeza **de que o pedido será aprovado**”. O complemento passou a ser uma oração, mas continua ligado ao substantivo **certeza por de**. Nesse emprego, *que* é **conjunção integrante**: introduz uma oração que ocupa a posição de um termo, sem retomar um nome anterior.
+
+Para enxergar a relação, substitua o fato por **isso**: *certeza disso* → *certeza de que*; *afirmou isso* → *afirmou que*. O teste precisa manter o regente e o sentido; não se trata de acrescentar *de* a todo *que*.
+
+| Relação básica | Com oração como complemento |
+| --- | --- |
+| necessitamos **disso** | Necessitamos **de que os dados sejam revistos**. |
+| favorável **a isso** | Sou favorável **a que se conclua o processo**. |
+| lembro-me **disso** | Lembro-me **de que a reunião foi adiada**. |
+| informou o servidor **disso** | Informou o servidor **de que o prazo mudou**. |
+| afirmou **isso** | Afirmou **que o prazo mudou**. |
+
+A supressão indevida da preposição é chamada **queísmo**, como em *tenho certeza que* no padrão conservador. A inserção indevida de *de* é **dequeísmo**, como em *afirmou de que*. Há omissões registradas em construções específicas, inclusive “lembro-me que”; isso não torna facultativa toda preposição diante de oração. “Lembro-me **de que**” conserva explicitamente a regência.
+
+### Quando que retoma um nome
+
+Compare agora “analisei **o processo**” e “este é o processo **que analisei**”. Nesse segundo enunciado, *que* retoma *processo* e ocupa, na oração *que analisei*, a posição do objeto. É **pronome relativo**; o nome retomado é seu **antecedente**.
+
+Para reunir “este é o processo” e “preciso **do processo**”, o relativo deve conservar **de**: “este é o processo **de que preciso**”. A preposição vem antes do relativo, embora o verbo que a seleciona apareça depois dele.
+
+| Reconstrução | Relativo com a relação preservada |
+| --- | --- |
+| assisti **à sessão** | a sessão **a que** assisti |
 | aspiro **ao cargo** | o cargo **a que** aspiro |
 | gosto **do livro** | o livro **de que** gosto |
-| trabalhei **com a ferramenta** | a ferramenta **com que** trabalhei |
 | confio **na norma** | a norma **em que** confio |
 | obedeci **à servidora** | a servidora **a quem** obedeci |
 | falei **do servidor** | o servidor **de quem** falei |
 
-O relativo não elimina a preposição exigida. Na norma-padrão, “o livro que gosto” deve ser “o livro **de que** gosto”.
+O mesmo procedimento conserva relações circunstanciais: “trabalhei **com a ferramenta**” → “a ferramenta **com que trabalhei**”. O relativo exige preservar o instrumento expresso por *com*, mas isso **não transforma o instrumento em objeto indireto exigido por trabalhar**.
 
-### 10.1 *Onde* e *aonde*
+### Lugar: onde, aonde e outras preposições
 
-- **onde** associa-se a localização ou permanência: “a cidade **onde** moro”;
-- **aonde** contém a preposição *a* e se associa a destino selecionado pelo verbo: “a cidade **aonde** vou”;
-- com antecedente abstrato, a forma precisa costuma ser **em que/no qual/na qual**: “a situação **em que** ocorreu a falha”.
+**Onde** equivale, nos usos de lugar aqui estudados, a **em que**: “a cidade **onde moro**”. **Aonde** contém **a + onde**: “a cidade **aonde vou**”, pois vou **a** essa cidade. **O movimento sozinho não decide**: “o caminho **por onde passei**” indica percurso; “a cidade **de onde voltei**”, origem. Se a construção é *ir para*, pode-se dizer **para onde vou**.
 
-Há tradição histórica de *onde* com antecedentes abstratos. Em texto formal de prova, **em que/no qual/na qual** é a escolha de menor controvérsia para antecedente abstrato.
+Na regência tradicional, use **ir a/para**, **chegar a**, **voltar a/para** para destino e **voltar de** para origem. *A* pode sugerir destino pontual; *para*, permanência ou mudança, mas a oposição não é absoluta. “Chegar na sede” e “ir no tribunal” são correntes no Brasil; o padrão conservador é “chegar **à sede**” e “ir **ao tribunal**”. Para localização: “estar **na sede**”, “morar **em São Luís**”.
 
-### 10.2 Relativos e paralelismo
+Com antecedentes abstratos, prefira a relação precisa: “a situação **em que** ocorreu a falha”, não *a situação aonde*. Bechara documenta *onde* além do lugar físico; a preferência editorial por *em que/no qual/na qual* não torna todo *onde* abstrato universalmente impossível.
 
-Se verbos coordenados exigem preposições diferentes, um único complemento pode não servir aos dois:
+## 7. Regência, voz passiva e crase
 
-- inadequado no padrão pretendido: “O filme **a que** assisti e gostei”;
-- claro: “O filme **a que** assisti e **de que** gostei”.
+### O que pode tornar-se sujeito?
 
-O mesmo cuidado vale para nomes coordenados: “favorável **ao projeto** e contrário **à emenda**”.
+“A empresa **pagou a dívida**” apresenta a empresa como sujeito e a dívida como objeto direto. “**A dívida foi paga** pela empresa” apresenta como sujeito aquilo que recebeu a ação. Essa segunda organização é a **voz passiva**, e *a dívida* é **sujeito paciente**.
 
-## 11. Regência nominal
+Na transformação regular, **é o objeto direto que pode tornar-se sujeito paciente**, não qualquer complemento. Já “aspira **ao cargo**” não produz “o cargo foi aspirado” com o mesmo sentido de desejar. “Assiste **à sessão**” também não fornece objeto direto na análise tradicional de presenciar. A passiva *a sessão foi assistida* corresponde ao emprego direto, não a uma transformação automática da construção indireta.
 
-Nomes também selecionam complementos. A preposição depende do nome e, às vezes, da acepção. Não existe uma preposição única para toda classe.
+Com **se**, a diferença explica a concordância. “**Vendem-se imóveis**” equivale a “imóveis são vendidos”: é **passiva sintética**, formada com *se*, e o verbo concorda com o sujeito plural. Em “**assiste-se a palestras**”, o complemento continua indireto; *se* não identifica quem assiste. Há **sujeito indeterminado**, e o verbo fica na <abbr title="Pessoa gramatical correspondente a ele ou ela">terceira pessoa do singular</abbr>. O mesmo ocorre, na construção tradicional, em “**obedece-se às normas**”.
 
-### 11.1 Substantivos frequentes
+*Obedecer* e *desobedecer* admitem excepcionalmente a passiva com *ser*: “as normas foram obedecidas”. Essa particularidade registrada não permite transformar todo <abbr title="Objeto indireto">OI</abbr> em sujeito nem autoriza o plural em “obedece-se às normas”. O desenvolvimento das demais concordâncias pertence a **Concordância verbal e nominal**.
 
-| Substantivo | Regência frequente | Exemplo |
-| --- | --- | --- |
-| acesso | a | acesso **aos autos** |
-| adesão | a | adesão **ao programa** |
-| alusão | a | alusão **ao parecer** |
-| amor | a, por | amor **à profissão** / amor **pela profissão** |
-| aversão | a, por | aversão **ao risco** / aversão **por fraudes** |
-| capacidade | de, para | capacidade **de análise** / **para analisar** |
-| compatibilidade | com | compatibilidade **com o cargo** |
-| conformidade | com | conformidade **com a norma** |
-| necessidade | de | necessidade **de revisão** |
-| referência | a | referência **ao processo** |
-| respeito | a, por, para com | respeito **às regras** / **pelas regras** |
+### De onde vem o acento grave?
 
-### 11.2 Adjetivos frequentes
+Em “assistir **à sessão**”, a regência fornece **a**; *sessão* vem acompanhada do artigo feminino **a**. O encontro **a + a** produz **à**. A fusão é a **crase**; o acento grave é sua marca gráfica nesse caso. O mesmo mecanismo ocorre em **proceder à análise** e **favorável à medida**.
 
-| Adjetivo | Regência frequente | Exemplo |
-| --- | --- | --- |
-| acessível | a | acessível **aos usuários** |
-| adequado | a, para | adequado **ao cargo** / **para o cargo** |
-| alheio | a, de | alheio **ao problema** / alheio **de disputas** |
-| apto | a, para | apto **a exercer** / **para exercer** |
-| avesso | a | avesso **a mudanças** |
-| compatível | com | compatível **com a função** |
-| digno | de | digno **de confiança** |
-| equivalente | a | equivalente **ao original** |
-| favorável | a | favorável **ao recurso** |
-| fiel | a | fiel **aos fatos** |
-| grato | a, por | grato **ao servidor pelo auxílio** |
-| hábil | em | hábil **em negociação** |
-| idêntico | a | idêntico **ao modelo** |
-| inerente | a | inerente **à função** |
-| passível | de | passível **de revisão** |
-| preferível | a | preferível **à alternativa** |
-| propenso | a, para | propenso **a erros** / propenso **para a conciliação** |
-| responsável | por | responsável **pelo setor** |
-| sensível | a | sensível **às mudanças** |
+Já “analisou **a sessão**” tem somente artigo: *analisar* não exige *a*. E “aspira **a este cargo**” tem preposição, mas não artigo feminino com que fundi-la. **Nem palavra feminina nem preposição a bastam isoladamente.** Os demais encontros, as proibições e as opções de grafia são desenvolvidos em **Crase**.
 
-### 11.3 Advérbios e locuções frequentes
+## 8. Reescrever sem perder a relação
 
-- longe **de**; perto **de**;
-- junto **a/de**, conforme o sentido e o uso;
-- independentemente **de**;
-- relativamente **a**;
-- paralelamente **a**;
-- contrariamente **a**;
-- anteriormente **a**; posteriormente **a**.
+“Assistiu e gostou **da sessão**” tenta fazer *da sessão* completar dois verbos de regências diferentes. Refaça cada relação: assistiu **à sessão**; gostou **da sessão**. A reescrita fica “assistiu **à sessão e gostou dela**” ou “a sessão **a que assistiu e de que gostou**”. Esse ajuste é **paralelismo de regência**: manter uma construção compatível com cada <abbr title="Palavra ligada a outra sem relação de dependência entre elas">regente coordenado</abbr>.
 
-Nomes cognatos frequentemente conservam a relação do verbo: *obedecer **a*** → *obediência **a*** → *obediente **a***. Isso ajuda a memorizar, mas não substitui a consulta, pois derivações e sentidos podem desenvolver construções próprias.
+Também separe os complementos em “ama **o chefe** e **lhe obedece**”. Com nomes, “favorável **ao projeto** e contrário **à emenda**” deixa explícitas as duas relações. Essa união dos termos não apaga as exigências de cada palavra.
 
-## 12. Crase como consequência parcial da regência
-
-Primeiro se identifica a preposição exigida; depois se verifica se o termo seguinte admite artigo feminino ou outro elemento iniciado por *a*:
-
-- assistir **a** + **a** sessão → assistir **à sessão**;
-- proceder **a** + **a** análise → proceder **à análise**;
-- favorável **a** + **a** medida → favorável **à medida**;
-- aspirar **a** + este cargo → aspirar **a este cargo**, sem crase.
-
-Regência não garante crase: a fusão depende também do termo regido. As regras completas, os casos proibidos e facultativos pertencem ao Assunto 014.
-
-## 13. Armadilhas de reescrita
-
-### 13.1 Mistura de regências
-
-- “Informei-**lhe o fato**” ou “informei-**o do fato**”; não misture os esquemas sem justificativa.
-- “Lembrei **o prazo**” ou “lembrei-me **do prazo**”.
-- “Prefiro **X a Y**”, na forma tradicional.
-
-### 13.2 Complemento único para regentes diferentes
-
-- problemático: “assistiu e gostou **do filme**”;
-- paralelo: “assistiu **ao filme** e gostou **dele**”;
-- problemático: “ama e obedece **ao chefe**”;
-- paralelo: “ama **o chefe** e **lhe** obedece”.
-
-### 13.3 Troca de sentido
-
-| Construção | Sentido |
-| --- | --- |
-| aspirar o ar | inalar |
-| aspirar ao cargo | desejar |
-| assistir o paciente | prestar assistência |
-| assistir à sessão | presenciar |
-| implicar custos | acarretar |
-| implicar com alguém | antipatizar |
-| querer algo | desejar |
-| querer a alguém | estimar |
-
-Uma reescrita pode continuar gramatical e, ainda assim, não ser equivalente. A manutenção do sentido faz parte do julgamento.
-
-### 13.4 Regra preferencial × variante documentada
-
-Em prova normativa, **assistir a**, **visar a**, **implicar algo**, **chegar a** e as demais construções tradicionais de menor controvérsia devem orientar a primeira resposta. A existência de variantes documentadas serve sobretudo para impedir afirmações universais indevidas quando o próprio comando não fixa uma tradição normativa específica.
-
-## 14. Método de prova
-
-1. Sublinhe o regente e determine sua acepção.
-2. Reconstrua a relação básica: quem assiste, assiste **a** algo; quem gosta, gosta **de** algo.
-3. Classifique o complemento e separe-o de adjuntos circunstanciais.
-4. Confira se a preposição altera o sentido do verbo.
-5. Teste o pronome: *o/a* para objeto direto; *lhe* apenas quando a construção indireta o admite.
-6. Para voz passiva, procure objeto direto capaz de tornar-se sujeito paciente.
-7. Antes de *que*, verifique a regência do verbo ou nome anterior.
-8. Com relativo, refaça a oração sem ele e transporte a preposição necessária.
-9. Em coordenação, confira cada regente separadamente.
-10. Em reescrita, valide gramática, paralelismo e equivalência semântica.
-11. Trate a crase somente depois de descobrir se existe preposição *a*.
-12. Se houver variação documentada, identifique primeiro a forma normativa preferencial pedida pela questão.
-
-## 15. Limites do assunto
-
-- A classificação geral dos verbos e da transitividade pertence ao Assunto 007.
-- A subordinação e a função dos pronomes relativos pertencem ao Assunto 010.
-- A concordância pertence ao Assunto 012.
-- O emprego completo do sinal indicativo de crase pertence ao Assunto 014.
-- A posição dos pronomes átonos pertence ao Assunto 015.
-
-Esses tópicos aparecem aqui apenas quando determinam ou revelam a relação entre regente e regido.
+Para julgar uma reescrita, reconstrua primeiro a frase simples, com os nomes no lugar dos pronomes. Depois confira **sentido, complemento e preposição**. Só então examine a consequência pedida — pronome, relativo, passiva ou crase. “Assistiu o paciente” e “assistiu ao julgamento” podem ser frases corretas, mas não comunicam a mesma ação. **Correção gramatical e equivalência de sentido são condições diferentes; a questão pode exigir ambas.**
