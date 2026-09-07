@@ -1,5 +1,5 @@
-- BRASIL. [Lei nº 9.985, de 18 de julho de 2000](https://www.planalto.gov.br/ccivil_03/leis/l9985.htm). Institui o SNUC. Regra vigente no corte do edital.
-- BRASIL. [Decreto nº 4.340, de 22 de agosto de 2002](https://www.planalto.gov.br/ccivil_03/decreto/2002/d4340.htm). Regulamenta o SNUC.
+- BRASIL. [Lei nº 9.985, de 18 de julho de 2000](https://www.planalto.gov.br/ccivil_03/leis/l9985.htm). Institui o Sistema Nacional de Unidades de Conservação da Natureza. Regra vigente no corte do edital.
+- MARANHÃO. [Lei Estadual nº 9.413, de 13 de julho de 2011](https://www.sema.ma.gov.br/uploads/sema/docs/Lei_Estadual_9413_de_julho_de_2011_-_SEUC.pdf). Institui o Sistema Estadual de Unidades de Conservação; o art. 85, § 1º, enquadra a antiga categoria Reserva de Recursos Naturais como Área de Proteção Ambiental.
 - IMESC. [Unidades de Conservação Estaduais](https://imesc.ma.gov.br/wp-content/uploads/2025/02/Unidades-de-Conservacao-Estaduais.pdf). Inventário estadual publicado em 2025.
 - SEMA-MA. [Unidades de Conservação](https://www.sema.ma.gov.br/unidades-de-conservacao). Gestão e documentos das unidades estaduais.
 - ICMBio. [APA Delta do Parnaíba](https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/apa-delta-do-parnaiba).
