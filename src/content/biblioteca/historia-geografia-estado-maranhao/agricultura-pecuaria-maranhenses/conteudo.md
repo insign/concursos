@@ -8,111 +8,121 @@ storageId: "agricultura-pecuaria-maranhenses"
 
 # Agricultura e pecuária maranhenses
 
-## 1. Recorte e corte estatístico
+## 1. A pergunta que organiza o assunto
 
-O edital pede a **caracterização da agricultura maranhense e de seus principais produtos agrícolas**, além da **caracterização da pecuária**. O foco, portanto, é reconhecer estrutura produtiva, distribuição espacial, produtos de destaque e diferenças entre indicadores — não memorizar listas extensas de rankings municipais.
+Duas afirmações podem parecer contraditórias e, ainda assim, estar corretas: **a soja pode liderar a agricultura estadual em área e valor**, enquanto **a agricultura familiar pode representar a grande maioria dos estabelecimentos agropecuários**. A aparente contradição desaparece quando se percebe que cada dado responde a uma pergunta diferente.
 
-O corte documental é **4 de agosto de 2026**. As bases consolidadas centrais são:
+Para entender a agropecuária maranhense, separe três planos:
 
-- **Censo Agropecuário 2017:** estrutura dos estabelecimentos, área, trabalho e tipologia da agricultura familiar;
-- **Produção Agrícola Municipal (PAM) 2024:** lavouras temporárias e permanentes no ano civil de 2024;
-- **Pesquisa da Pecuária Municipal (PPM) 2024:** efetivos dos rebanhos em 31 de dezembro e produtos obtidos durante 2024.
+1. **estrutura:** quem são e quanto espaço ocupam os estabelecimentos agropecuários;
+2. **produção agrícola:** o que foi plantado, colhido e valorizado em determinado ano;
+3. **pecuária:** quantos animais existem em uma data e quanto foi produzido ao longo do ano.
 
-O **<abbr title="Levantamento Sistemático da Produção Agrícola">LSPA</abbr>** acompanha safras de forma conjuntural e revisável, enquanto levantamentos da **<abbr title="Companhia Nacional de Abastecimento">Conab</abbr>** podem usar ano-safra. Esses recortes não substituem automaticamente os resultados anuais consolidados da PAM e da PPM.
+As fontes acompanham essa separação. O **Censo Agropecuário 2017** descreve a estrutura; a <abbr title="Produção Agrícola Municipal">PAM</abbr> 2024 mede lavouras no ano civil; e a <abbr title="Pesquisa da Pecuária Municipal">PPM</abbr> 2024 registra efetivos em 31 de dezembro e produtos obtidos durante o ano.
 
-O desenvolvimento histórico da economia até 2000 pertence ao Assunto 081. Extrativismo vegetal, animal e mineral pertence ao Assunto 090; processamento industrial, comércio e infraestrutura são tratados nos assuntos seguintes.
+O erro central é comparar números com **universo, período ou variável diferentes**.
 
-## 2. Estrutura agrária e estabelecimentos
+## 2. Estrutura agrária: muitos estabelecimentos familiares, mas menor parcela da área
 
-O Censo Agropecuário 2017 registrou no Maranhão:
+Um **estabelecimento agropecuário** é uma unidade de produção submetida a uma administração própria. Ele não corresponde necessariamente a uma matrícula imobiliária, a uma única propriedade rural ou a uma única pessoa.
 
-| Indicador | Resultado |
-|---|---:|
-| estabelecimentos agropecuários | **219.765** |
-| área dos estabelecimentos | **12.238.489 ha** |
-| pessoal ocupado | cerca de **693 mil pessoas** |
+No Maranhão, o Censo Agropecuário 2017 registrou **219.765 estabelecimentos**, com área total de **12.238.489 hectares** e cerca de **693 mil pessoas ocupadas**.
 
-**Estabelecimento agropecuário** é uma unidade de produção sob administração própria. Não se confunde necessariamente com matrícula imobiliária, propriedade rural ou produtor individual.
+A primeira relação importante aparece quando os estabelecimentos são separados pela tipologia familiar e não familiar:
 
-### 2.1 Agricultura familiar
-
-Na tipologia aplicada ao Censo 2017:
-
-| Tipologia | Estabelecimentos | Participação | Área | Participação |
+| Tipologia | Estabelecimentos | Participação no número | Área | Participação na área |
 |---|---:|---:|---:|---:|
-| familiar | 187.118 | **85,14%** | 3.780.319 ha | **30,88%** |
-| não familiar | 32.647 | 14,85% | 8.458.170 ha | 69,11% |
+| familiar | 187.118 | **85,14%** | 3.780.319 hectares | **30,88%** |
+| não familiar | 32.647 | 14,85% | 8.458.170 hectares | 69,11% |
 
-A leitura correta é que havia forte **assimetria entre participação no número de estabelecimentos e participação na área**. Esses dois percentuais, sozinhos, não substituem uma medida completa da distribuição fundiária por classes de tamanho ou índice específico.
+Portanto, **85,14% é participação no número de estabelecimentos, não na área**. A maioria numérica dos estabelecimentos familiares coexistia com uma participação minoritária na área total.
 
-Também não se deve equiparar agricultura familiar a subsistência, atraso técnico ou ausência de mercado. A categoria é heterogênea e pode combinar autoconsumo, comercialização, assistência técnica, crédito e diferentes níveis de produtividade.
+Isso mostra forte assimetria entre **quantidade de unidades produtivas** e **área ocupada**, sem substituir uma análise completa da distribuição fundiária por classes de tamanho ou índice específico.
 
-## 3. Sistemas produtivos e organização espacial
+### 2.1 Agricultura familiar não é sinônimo de subsistência
 
-Dois conjuntos coexistem no espaço maranhense:
+**Agricultura familiar** não significa, por si só, subsistência, atraso técnico ou ausência de mercado. A categoria reúne situações heterogêneas.
 
-| Característica | Agricultura empresarial | Agricultura familiar |
-|---|---|---|
-| escala típica | maior escala e especialização | unidades menores e diversificação frequente |
-| trabalho | maior uso de capital, máquinas e trabalho contratado | predominância do trabalho familiar |
-| produtos recorrentes | soja, milho e algodão | arroz, milho, mandioca, feijão e criações |
-| inserção | cadeias de armazenagem, crédito e mercados amplos | autoconsumo e mercados locais/regionais em proporções variadas |
+No Maranhão, é útil reconhecer dois padrões que coexistem:
 
-A distinção é analítica, não moral: há integração entre cadeias, mercados e territórios, e nenhum dos grupos é internamente homogêneo.
+- em parte das áreas de <abbr title="Bioma de savanas tropicais predominante no Brasil central">Cerrado</abbr> do sul e do leste, há forte presença de agricultura empresarial mecanizada, com maior escala e especialização em grãos e fibras;
+- a agricultura familiar é numericamente difundida pelo estado e aparece com frequência em sistemas mais diversificados, combinando culturas alimentares, criações, autoconsumo e venda em mercados locais ou regionais.
 
-A agricultura mecanizada de grãos e fibras tem forte expressão nas áreas de **Cerrado do sul e do leste maranhense**, com Balsas e outros municípios do entorno como polos importantes. A agricultura familiar é numericamente muito difundida e tem papel relevante na produção alimentar e nas criações.
+Soja, milho e algodão são recorrentes na agricultura empresarial; arroz, milho, mandioca, feijão e criações têm importância em sistemas familiares. É uma **caracterização geral**, não uma fronteira rígida: o mesmo produto pode existir em sistemas diferentes.
 
-## 4. MATOPIBA e fronteira agrícola
+## 3. O papel do <abbr title="Maranhão, Tocantins, Piauí e Bahia">MATOPIBA</abbr>
 
-**MATOPIBA** é um recorte territorial formado pelo estado do Tocantins e por partes do Maranhão, Piauí e Bahia. Não é bioma e não corresponde a todo o território maranhense.
+A expansão da agricultura mecanizada no Maranhão se conecta a uma fronteira agrícola mais ampla. O <abbr title="Maranhão, Tocantins, Piauí e Bahia">MATOPIBA</abbr> é um recorte territorial formado pelo estado do Tocantins e por **partes** do Maranhão, do Piauí e da Bahia.
 
-A região se caracteriza por forte expansão agropecuária desde as últimas décadas do século XX, sobretudo em áreas de Cerrado, com destaque para **grãos e fibras**, como soja, milho e algodão. No Maranhão, o recorte ajuda a explicar a modernização produtiva e a expansão da agricultura mecanizada.
+Desde as últimas décadas do século XX, essa região passou por forte expansão agropecuária, especialmente de grãos, em áreas de Cerrado. No Maranhão, o recorte ajuda a compreender a força recente de soja, milho e algodão e a centralidade de polos como Balsas e seu entorno.
 
-Pegadinha: **MATOPIBA ≠ todo o Maranhão ≠ Cerrado inteiro ≠ um novo bioma**.
+Não confunda o recorte com a base física: o <abbr title="Maranhão, Tocantins, Piauí e Bahia">MATOPIBA</abbr> **não é bioma**, **não abrange todo o Maranhão** e **não corresponde a todo o Cerrado brasileiro**. É uma **região de expansão agropecuária multiestadual**.
 
-## 5. Como ler os indicadores agrícolas
+## 4. Antes de decorar produtos, entenda o que cada indicador mede
 
-Na PAM:
+A <abbr title="Produção Agrícola Municipal">PAM</abbr> não produz um único ranking. Ela mede dimensões diferentes da atividade agrícola:
 
-- **área plantada**: área semeada ou plantada para culturas temporárias;
-- **área destinada à colheita**: variável usada para culturas permanentes;
-- **área colhida**: parcela efetivamente colhida;
-- **quantidade produzida**: volume físico obtido;
-- **rendimento médio**: em regra, quantidade produzida dividida pela área colhida;
-- **valor da produção**: estimativa monetária dos produtos investigados, que não equivale a <abbr title="Produto Interno Bruto">PIB</abbr>, exportação ou renda líquida do produtor.
+- **área plantada:** área semeada ou plantada, usada para culturas temporárias;
+- **área destinada à colheita:** variável empregada para culturas permanentes;
+- **área colhida:** parcela que foi efetivamente colhida;
+- **quantidade produzida:** volume físico obtido;
+- **rendimento médio:** relação entre quantidade produzida e área colhida;
+- **valor da produção:** estimativa monetária dos produtos investigados.
 
-A classificação entre temporárias e permanentes segue a metodologia estatística do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>. Em regra, lavouras temporárias exigem novo plantio após a colheita, mas há **temporárias de longa duração**, como cana-de-açúcar e mandioca. O abacaxi também é classificado como temporário. Entre as permanentes aparecem banana, coco e cultivos de açaí e castanha de caju.
+Exemplo hipotético: uma cultura pode ocupar a maior **área**, outra obter o maior **rendimento** e uma terceira liderar o **valor**. Por isso, “principal produto” só faz sentido depois de indicar **principal em quê**.
 
-Cultivo e extrativismo não são sinônimos: **açaí ou castanha de caju cultivados** entram na PAM; a coleta em vegetação espontânea pertence à <abbr title="Produção da Extração Vegetal e da Silvicultura">PEVS</abbr> e ao Assunto 090.
+O valor da <abbr title="Produção Agrícola Municipal">PAM</abbr> também não é sinônimo de <abbr title="Produto Interno Bruto">PIB</abbr>, exportação ou renda líquida do produtor.
 
-## 6. Principais produtos agrícolas
+### 4.1 Lavoura temporária e lavoura permanente
 
-A PAM 2024 mostra forte predominância das lavouras temporárias no valor agrícola estadual. Entre os principais produtos:
+Na classificação do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, a distinção não depende de o produto ser “fruta”, “grão” ou “raiz”.
 
-| Produto | Caracterização no Maranhão | Referência 2024 |
+Em regra:
+
+- **lavouras temporárias** exigem novo plantio após a colheita;
+- **lavouras permanentes** permitem colheitas por vários anos sem novo plantio após cada safra.
+
+A intuição engana: **cana-de-açúcar e mandioca são temporárias de longa duração**, e o **abacaxi também é temporário**. Banana, coco, açaí cultivado e castanha de caju cultivada aparecem entre as permanentes investigadas no Maranhão.
+
+Também é preciso separar **cultivo** de **extrativismo**. Açaí ou castanha de caju cultivados entram na <abbr title="Produção Agrícola Municipal">PAM</abbr>; a coleta em vegetação espontânea pertence à <abbr title="Produção da Extração Vegetal e da Silvicultura">PEVS</abbr> e é aprofundada no Assunto 090.
+
+## 5. Principais produtos agrícolas do Maranhão
+
+Com os indicadores já separados, os números de 2024 ganham sentido. A <abbr title="Produção Agrícola Municipal">PAM</abbr> 2024 mostra forte predominância das lavouras temporárias no valor agrícola estadual.
+
+| Produto | O que importa reconhecer | Quantidade produzida em 2024 |
 |---|---|---:|
-| soja em grão | principal lavoura em área e valor; forte presença no Cerrado/MATOPIBA | **4.073.259 t** |
-| milho em grão | segundo grande grão em área e valor; várias safras consolidadas no ano civil | **2.384.065 t** |
-| cana-de-açúcar | elevada tonelagem por hectare; tonelagem não significa liderança em valor | **2.705.753 t** |
-| mandioca | cultura alimentar importante e presente na agricultura familiar | **377.827 t** |
-| arroz em casca | cultura alimentar tradicional, com presença familiar | **177.340 t** |
-| algodão herbáceo | associado à agricultura empresarial; a PAM registra algodão **em caroço** | **133.815 t** |
-| feijão em grão | cultura alimentar, com diferentes safras consolidadas pela PAM | **26.970 t** |
-| banana em cacho | principal lavoura permanente em valor na edição de 2024 | **79.238 t** |
+| soja em grão | principal lavoura em área e valor; forte presença nas áreas de Cerrado ligadas ao <abbr title="Maranhão, Tocantins, Piauí e Bahia">MATOPIBA</abbr> | **4.073.259 toneladas** |
+| milho em grão | segundo grande grão em área e valor; diferentes safras são consolidadas no ano civil | **2.384.065 toneladas** |
+| cana-de-açúcar | grande tonelagem por hectare; quantidade física não significa liderança em valor | **2.705.753 toneladas** |
+| mandioca | cultura alimentar importante, muito associada a sistemas familiares | **377.827 toneladas** |
+| arroz em casca | cultura alimentar tradicional, também presente na agricultura familiar | **177.340 toneladas** |
+| algodão herbáceo | associado à agricultura empresarial; a <abbr title="Produção Agrícola Municipal">PAM</abbr> registra algodão **em caroço** | **133.815 toneladas** |
+| feijão em grão | cultura alimentar cujas diferentes safras são consolidadas pela pesquisa | **26.970 toneladas** |
+| banana em cacho | principal lavoura permanente em valor na edição de 2024 | **79.238 toneladas** |
 
-A soja gerou cerca de **R$ 8,34 bilhões** e o milho cerca de **R$ 2,77 bilhões** em 2024. Esses valores ajudam a identificar sua centralidade econômica, mas devem sempre ser vinculados ao ano e à variável.
+Em valor da produção, a soja gerou cerca de **R$ 8,34 bilhões** e o milho, cerca de **R$ 2,77 bilhões** em 2024. Isso explica parte da centralidade econômica dos grãos, mas arroz, mandioca e feijão podem ter grande importância alimentar e territorial sem liderar o valor. **Importância social, área, quantidade, rendimento e valor são dimensões diferentes.**
 
-Importância social, área, quantidade, rendimento e valor não são equivalentes. Arroz, mandioca e feijão podem ter grande importância alimentar e territorial sem liderar o valor da produção.
+Outro cuidado é temporal. A <abbr title="Produção Agrícola Municipal">PAM</abbr> consolida resultados no **ano civil**. O <abbr title="Levantamento Sistemático da Produção Agrícola">LSPA</abbr> acompanha safras de forma conjuntural e revisável, enquanto levantamentos da <abbr title="Companhia Nacional de Abastecimento">Conab</abbr> podem usar **ano-safra**, como 2025/26. Esses recortes não são intercambiáveis.
 
-## 7. Caracterização da pecuária
+## 6. Pecuária: primeiro separe estoque de fluxo
 
-A pecuária maranhense é diversificada e territorialmente ampla. A bovinocultura tem forte expressão, apoiada em extensas áreas de pastagens e em sistemas de **corte, leite e dupla finalidade**. Também há criação de aves, suínos, caprinos, ovinos, equinos e bubalinos.
+A pecuária maranhense é diversificada. A bovinocultura — criação de bovinos — tem forte expressão territorial e reúne sistemas voltados a **corte, leite e dupla finalidade**. Também existem criações relevantes de aves, suínos, caprinos, ovinos, equinos e bubalinos.
 
-No Censo Agropecuário 2017, as **pastagens plantadas** representavam cerca de 38% da área dos estabelecimentos entre as categorias exibidas, indicador da expressão territorial da atividade pecuária.
+O Censo Agropecuário 2017 ajuda a perceber essa presença no território: as **pastagens plantadas** representavam cerca de **38% da área dos estabelecimentos** entre as categorias de uso da terra exibidas pelo levantamento.
 
-Na PPM 2024, os principais efetivos estaduais incluíam:
+Área de pastagem, número de animais, produção de carne e valor econômico não são a mesma coisa. Na <abbr title="Pesquisa da Pecuária Municipal">PPM</abbr>, a distinção decisiva é:
 
-| Rebanho | Efetivo |
+- **efetivo:** estoque de animais existente em 31 de dezembro;
+- **produto de origem animal:** fluxo produzido ao longo do ano.
+
+Logo, **10 milhões de bovinos em 31 de dezembro não significam 10 milhões de bovinos abatidos no ano**. O abate é outro fluxo e outra operação estatística.
+
+### 6.1 Efetivos em 2024
+
+Na <abbr title="Pesquisa da Pecuária Municipal">PPM</abbr> 2024, os principais efetivos estaduais incluíam:
+
+| Rebanho | Efetivo em 31 de dezembro |
 |---|---:|
 | galináceos | **13.522.298** |
 | bovinos | **10.314.237** |
@@ -122,58 +132,39 @@ Na PPM 2024, os principais efetivos estaduais incluíam:
 | equinos | 269.761 |
 | bubalinos | 95.152 |
 
-O número de cabeças não mede, por si só, valor econômico, produtividade, produção de carne ou quantidade abatida. **Efetivo bovino ≠ abate bovino**.
+Contar cabeças de espécies distintas informa o **tamanho do efetivo**, não qual atividade gera mais valor ou carne.
 
-## 8. Estoque de rebanho × produtos de origem animal
+Também há relações de subconjunto. **Galinhas** já estão incluídas no total de **galináceos**; **matrizes suínas** integram o efetivo de **suínos**; **vacas ordenhadas** integram o efetivo de **bovinos**. Somar novamente o subconjunto ao total produz dupla contagem.
 
-A PPM combina medidas diferentes:
-
-- **efetivos**: estoques em 31 de dezembro;
-- **leite, ovos e mel**: fluxos produzidos ao longo do ano.
+### 6.2 Produtos obtidos durante o ano
 
 Em 2024, o Maranhão registrou aproximadamente:
 
-| Produto | Quantidade |
+| Produto | Produção no ano |
 |---|---:|
 | leite | **414,996 milhões de litros** |
 | ovos de galinha | **40,200 milhões de dúzias** |
-| mel de abelha | **3,362 milhões de kg** |
+| mel de abelha | **3,362 milhões de quilogramas** |
 
-Vacas ordenhadas são subconjunto do rebanho bovino; galinhas são subconjunto dos galináceos; matrizes suínas integram o efetivo suíno. Não se devem somar novamente subconjuntos ao total.
+Leite, ovos e mel são **fluxos anuais**; os efetivos são **estoques em uma data**. Litros de leite e cabeças de bovinos, portanto, não medem a mesma coisa.
 
-## 9. Relações que a prova pode explorar
+A <abbr title="Pesquisa da Pecuária Municipal">PPM</abbr> também investiga aquicultura, isto é, a criação controlada de organismos aquáticos. Ela não se confunde com pesca extrativa, que retira organismos do ambiente natural e pertence ao recorte do Assunto 090.
 
-1. **Estrutura ≠ produção anual:** Censo 2017 descreve estabelecimentos; PAM/PPM 2024 descrevem produção e efetivos em outro recorte temporal.
-2. **Número de estabelecimentos ≠ área:** 85,14% familiares no número não significa 85,14% da área.
-3. **Área ≠ rendimento ≠ quantidade ≠ valor:** cada variável responde a uma pergunta diferente.
-4. **Tonelagem ≠ importância econômica:** culturas com grande massa física não necessariamente lideram em valor.
-5. **Cultivado ≠ extraído:** a origem do produto define a operação estatística.
-6. **Efetivo ≠ abate:** estoque de animais vivos não é fluxo de animais abatidos.
-7. **Ano civil ≠ ano-safra:** PAM 2024 não é sinônimo de safra 2024/25.
-8. **Ranking exige qualificação:** produto, variável, território e ano podem alterar a liderança.
+## 7. Como juntar as peças
 
-## 10. Pegadinhas
+Quando dois dados parecerem incompatíveis, procure o **denominador escondido**:
 
-| Afirmação | Avaliação |
-|---|---|
-| MATOPIBA é um bioma | falsa |
-| MATOPIBA abrange todo o Maranhão | falsa |
-| agricultura familiar é sinônimo de subsistência | falsa |
-| 85,14% dos estabelecimentos familiares significa 85,14% da área | falsa |
-| soja e milho são centrais na agricultura empresarial maranhense | verdadeira |
-| cana, mandioca e abacaxi são permanentes | falsa |
-| banana é lavoura permanente | verdadeira |
-| açaí cultivado e açaí extrativo pertencem à mesma pesquisa | falsa |
-| efetivo bovino mede abate | falsa |
-| ovos produzidos no ano são fluxo, não estoque de aves | verdadeira |
+- soja líder em valor e 85,14% de estabelecimentos familiares podem coexistir porque produto agrícola e unidade produtiva são dimensões diferentes;
+- cana com grande tonelagem não implica liderança econômica, porque quantidade e valor são variáveis distintas;
+- mais galináceos que bovinos prova apenas um efetivo maior em cabeças, não maior valor ou produção de carne;
+- açaí cultivado e açaí extrativo têm o mesmo nome, mas origens diferentes: cultivo entra na <abbr title="Produção Agrícola Municipal">PAM</abbr>; coleta espontânea, na <abbr title="Produção da Extração Vegetal e da Silvicultura">PEVS</abbr>.
 
-## 11. Método rápido
+Antes de aceitar um ranking ou comparação, identifique **fonte, período, variável, unidade, território e origem do produto**. É isso que define o que o dado realmente mede.
 
-Antes de aceitar um dado ou ranking, identifique:
+## 8. Corte estatístico e fronteiras do capítulo
 
-1. **fonte:** Censo Agropecuário, PAM, PPM, LSPA ou Conab;
-2. **tempo:** ano censitário, ano civil, data de estoque ou ano-safra;
-3. **variável:** área, quantidade, rendimento, valor, efetivo ou produto animal;
-4. **unidade:** hectares, toneladas, cabeças, litros, dúzias, quilogramas ou reais;
-5. **território:** Maranhão, município ou recorte MATOPIBA;
-6. **origem:** cultivo, criação ou extrativismo.
+O corte documental deste conteúdo é **4 de agosto de 2026**. As bases consolidadas usadas como referência central são o Censo Agropecuário 2017, a <abbr title="Produção Agrícola Municipal">PAM</abbr> 2024 e a <abbr title="Pesquisa da Pecuária Municipal">PPM</abbr> 2024.
+
+Dados conjunturais do <abbr title="Levantamento Sistemático da Produção Agrícola">LSPA</abbr> e levantamentos em ano-safra da <abbr title="Companhia Nacional de Abastecimento">Conab</abbr> podem ser mais recentes, mas não substituem essas bases quando a pergunta pede resultado anual consolidado.
+
+O desenvolvimento histórico da economia até 2000 é aprofundado no Assunto 081. Extrativismo vegetal, animal e mineral pertence ao Assunto 090. Processamento industrial, comércio e infraestrutura são tratados nos assuntos seguintes; aqui eles aparecem apenas quando necessários para compreender a produção agropecuária.
