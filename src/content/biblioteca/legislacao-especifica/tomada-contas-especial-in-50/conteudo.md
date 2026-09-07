@@ -6,405 +6,340 @@ order: 71
 storageId: tce-in-50-2017
 ---
 
-# Tomada de Contas Especial: IN TCE/MA nº 50/2017 e alterações
+# Tomada de Contas Especial: <abbr title="Instrução Normativa">IN</abbr> <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 50/2017 e alterações
 
-## 1. Recorte e corte temporal
+## 1. Primeiro entenda o mecanismo
 
-O edital do TCE/MA 2026 cobra expressamente a **IN nº 50/2017 e suas alterações**. O foco, portanto, é dominar o procedimento de tomada de contas especial (TCE) instituído pela norma, as alterações que modificaram seu texto ou sua aplicação e os atos indispensáveis para entender o fluxo vigente.
+Imagine uma situação hipotética: um órgão repassou recursos por convênio e, ao conferir a execução, não consegue comprovar a aplicação de parte do dinheiro. A primeira pergunta não é “qual formulário enviar ao Tribunal?”, mas **se o problema ainda pode ser esclarecido ou reparado pela própria Administração**.
 
-A TCE não é a primeira providência diante de dano ao erário. O encadeamento básico é:
+É por isso que a <abbr title="Instrução Normativa">IN</abbr> nº 50 organiza o caminho em duas fases:
 
-1. ocorrência de hipótese do art. 2º;
-2. medidas administrativas imediatas para **elidir o dano**;
-3. instauração da TCE se o dano persistir ou o prazo das medidas se esgotar;
-4. comunicação ao TCE/MA;
-5. constituição regular dos autos, com prova do dano, responsáveis e nexo;
-6. quantificação do débito;
-7. conclusão;
-8. dispensa de encaminhamento ou remessa conforme o valor histórico;
-9. saneamento, julgamento e providências posteriores, quando cabíveis.
+1. **antes do processo especial**, a autoridade tenta eliminar o dano ou esclarecer a situação por medidas administrativas efetivas; e
+2. **se o dano permanece**, instaura-se a <abbr title="Tomada de Contas Especial">TCE</abbr>, um processo administrativo formal com rito próprio para apurar os fatos, identificar quem causou ou concorreu para o dano e quantificar quanto deve ser ressarcido.
 
-> **Vocabulário:** elidir o dano significa afastá-lo ou repará-lo por providências materialmente eficazes.
+O fluxo mental é:
 
-### 1.1. Atos que precisam ser separados
+**possível dano → medidas administrativas → instauração da <abbr title="Tomada de Contas Especial">TCE</abbr> → comunicação ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> → formação da prova e quantificação → conclusão → dispensa de encaminhamento ou remessa segundo o valor histórico.**
+
+Três atos parecem semelhantes, mas têm funções diferentes:
+
+- **instaurar** é abrir formalmente a <abbr title="Tomada de Contas Especial">TCE</abbr>;
+- **comunicar** é informar ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> que ela foi instaurada;
+- **encaminhar** é enviar o processo concluído ao Tribunal para julgamento, quando a norma exigir.
+
+Essa separação explica por que existem prazos próprios para cada etapa.
+
+## 2. Recorte normativo e corte do edital
+
+O Edital nº 1 — <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, publicado em **6 de julho de 2026**, cobra a <abbr title="Instrução Normativa">IN</abbr> nº 50/2017 **e alterações**. Para o corte do edital, o núcleo do assunto é formado por:
 
 | Ato | Papel no estudo |
 |---|---|
-| IN TCE/MA nº 50/2017 | disciplina o procedimento |
-| DN TCE/MA nº 28/2017 | altera o art. 23 e cria regra autônoma de dispensa de instauração |
-| IN TCE/MA nº 56/2018 | altera o item 5 do Anexo II e revoga dispositivos |
-| Portaria TCE/MA nº 1.166/2018 | institui o e-TCEspecial e regulamenta a comunicação eletrônica |
-| DN TCE/MA nº 38/2020 | fixa em R$ 100.000,00 a quantia anual do art. 10, I, desde 1º jan. 2021 |
+| <abbr title="Instrução Normativa">IN</abbr> nº 50/2017 | estrutura o procedimento e disciplina a decadência no próprio texto |
+| <abbr title="Decisão Normativa">DN</abbr> nº 28/2017 | altera a <abbr title="Instrução Normativa">IN</abbr> nº 50 e cria regra autônoma de dispensa de instauração |
+| <abbr title="Instrução Normativa">IN</abbr> nº 56/2018 | altera o Anexo II e revoga dispositivos pontuais |
+| Portaria <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 1.166/2018 | institui o <abbr title="Sistema eletrônico de tomada de contas especial">e-TCEspecial</abbr> |
+| <abbr title="Decisão Normativa">DN</abbr> nº 38/2020 | fixa em R$ 100.000,00 o valor histórico de referência para encaminhamento |
 
-A DN nº 33/2020 criou prorrogações emergenciais ligadas à pandemia. Seus marcos temporais estão exauridos e **não ampliam os prazos ordinários atuais**.
+A <abbr title="Decisão Normativa">DN</abbr> nº 33/2020 criou regras excepcionais durante a calamidade pública, inclusive acréscimo temporário ao prazo de instauração. Ela é relevante para reconhecer uma questão histórica, mas **não acrescenta 60 dias aos prazos ordinários de 2026**.
 
-> **Direito vigente complementar:** o regime geral de prescrição no controle externo passou a ser disciplinado pela Resolução TCE/MA nº 383/2023, posteriormente alterada pela Resolução nº 406, de **14 de agosto de 2024**, que introduziu prescrição intercorrente. Esse regime é complementar e não substitui, em questão de literalidade da IN nº 50, os marcos específicos dos arts. 11 e 22 e da DN nº 28/2017.
+As Resoluções <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 383/2023 e nº 406/2024 integram o direito vigente no corte para o regime geral de prescrição do controle externo. Elas não apagam a necessidade de conhecer a literalidade específica da <abbr title="Instrução Normativa">IN</abbr> nº 50 e da <abbr title="Decisão Normativa">DN</abbr> nº 28 quando o enunciado cobrar esses atos.
 
-### 1.2. Erro material na remissão do portal compilado
+## 3. Quando surge o dever de agir
 
-A compilação eletrônica do art. 5º, § 3º, remete à “Portaria TCE/MA nº 1666, de 2018”. A publicação oficial do ato demonstra que o número correto é **Portaria TCE/MA nº 1.166/2018**.
+A autoridade administrativa competente deve agir imediatamente, antes de instaurar a <abbr title="Tomada de Contas Especial">TCE</abbr>, quando ocorrer uma das hipóteses do <abbr title="artigo">art.</abbr> 2º:
 
-Em questão normativa, prevalece o ato publicado, e não o erro material da remissão eletrônica.
+1. omissão no dever de prestar contas;
+2. não comprovação da boa e regular aplicação de recursos transferidos por auxílios, subvenções, convênios, acordos, ajustes ou instrumentos congêneres;
+3. desfalque, <abbr title="situação em que há valor público a repor ou justificar">alcance</abbr>, desvio ou desaparecimento de dinheiro, bens ou valores públicos; ou
+4. ato ilegal, ilegítimo ou antieconômico que cause dano ao erário, inclusive por concessão irregular de benefícios fiscais ou renúncia de receitas.
 
-## 2. Hipóteses que exigem medidas administrativas
+O ponto comum é a existência de **dano ou de falta de comprovação capaz de sustentar sua apuração**. Se houver grave irregularidade ou ilegalidade **sem dano ao erário**, o <abbr title="artigo">art.</abbr> 13 manda a autoridade administrativa e o controle interno **representarem o fato ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>**; não se inventa um dano para abrir <abbr title="Tomada de Contas Especial">TCE</abbr>.
 
-O art. 2º determina atuação imediata e preliminar da autoridade administrativa competente quando houver:
+## 4. Antes da <abbr title="Tomada de Contas Especial">TCE</abbr>: medidas para elidir o dano
 
-1. **omissão no dever de prestar contas**;
-2. **não comprovação da boa e regular aplicação** de recursos transferidos por auxílio, subvenção, convênio, acordo, ajuste ou instrumento congênere;
-3. **desfalque, alcance, desvio ou desaparecimento** de dinheiro, bens ou valores públicos; ou
-4. **ato ilegal, ilegítimo ou antieconômico que cause dano ao erário**, inclusive concessão irregular de benefício fiscal ou renúncia de receita.
+**Elidir o dano** significa afastá-lo de modo efetivo: esclarecer a ocorrência, obter a comprovação que faltava, recuperar o valor ou adotar providência materialmente apta a evitar que o prejuízo permaneça.
 
-O ponto comum é a existência de dano ou de situação que impeça comprovar a aplicação regular dos recursos.
+Essas medidas devem ser:
 
-### 2.1. Irregularidade sem dano
+- **imediatas** e preliminares à <abbr title="Tomada de Contas Especial">TCE</abbr>;
+- revestidas de **eficácia material**, e não simples despachos formais sem utilidade concreta; e
+- adotadas em até **60 dias**, contados da data do evento ou, se ela for desconhecida, da ciência do fato pela autoridade administrativa competente.
 
-Se houver grave irregularidade ou ilegalidade **sem dano ao erário**, a via prevista no art. 13 é a **representação ao TCE/MA**, e não a instauração automática de TCE para quantificar débito inexistente.
+Em prestação de contas de transferência voluntária, deve-se observar o **menor prazo** entre:
 
-## 3. Medidas administrativas para elisão do dano
+1. o prazo da <abbr title="Instrução Normativa">IN</abbr> nº 50;
+2. o prazo do instrumento de repasse; e
+3. o prazo previsto na legislação aplicável.
 
-As medidas devem ser adotadas imediatamente e possuir **eficácia material**. Não basta produzir despachos ou notificações sem aptidão concreta para esclarecer ou reparar a situação.
+No exemplo inicial, uma notificação que pede documentos pertinentes e permite verificar a aplicação do recurso pode ser uma medida útil. Repetir ofícios genéricos sem analisar a resposta não satisfaz, por si só, a exigência de eficácia material.
 
-O prazo ordinário é de até **60 dias**, contados:
+## 5. Persistiu o dano: instaurar e comunicar são etapas diferentes
 
-- da data do evento; ou
-- se a data for desconhecida, da ciência do fato pela autoridade administrativa competente.
+Esgotadas as medidas administrativas — ou vencido o prazo para adotá-las — sem que o dano tenha sido elidido, a autoridade dispõe de **até 15 dias** para instaurar a <abbr title="Tomada de Contas Especial">TCE</abbr>.
 
-Nas prestações de contas de transferências voluntárias, observa-se o **menor prazo** entre:
+Depois da instauração, deve comunicar o fato ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> em **até 5 dias**.
 
-- o prazo da IN nº 50;
-- o prazo do instrumento de repasse; e
-- o prazo da legislação específica.
+Portanto:
 
-Conforme o caso, as medidas podem envolver cobrança, notificação, exigência de prestação ou complementação de contas, restituição, reposição de bem, verificação de execução física e reunião de elementos probatórios.
+- medidas administrativas: **até 60 dias**;
+- instauração após o insucesso: **até 15 dias**;
+- comunicação da instauração: **até 5 dias**.
 
-## 4. Conceito e finalidade da TCE
+### 5.1. O que ocorre se a autoridade não instaurar
 
-O art. 4º define a tomada de contas especial como **processo administrativo devidamente formalizado, com rito próprio**, destinado a:
+Verificado o vencimento do prazo de instauração, o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>:
 
-- apurar fatos;
-- identificar responsáveis; e
-- quantificar dano causado ao erário.
+1. aplica multa de **R$ 1.100,00** à autoridade administrativa competente; e
+2. determina que a <abbr title="Tomada de Contas Especial">TCE</abbr> seja instaurada em até **15 dias**.
 
-Esses três núcleos são cumulativos. Auditoria, sindicância ou cobrança isolada não substituem automaticamente a TCE quando os pressupostos de instauração estiverem presentes.
+Se essa determinação também for descumprida, o Tribunal:
 
-## 5. Instauração e comunicação
-
-Esgotadas as medidas administrativas, ou vencido o prazo sem elisão do dano, a autoridade deve observar dois prazos distintos:
-
-| Providência | Prazo |
-|---|---:|
-| instaurar a TCE | até **15 dias** |
-| comunicar a instauração ao TCE/MA | até **5 dias** |
-
-**Instaurar** é formar o processo administrativo. **Comunicar** é informar ao Tribunal que a TCE foi instaurada.
-
-### 5.1. Omissão na instauração
-
-Verificado o vencimento do prazo, o TCE/MA:
-
-1. aplica multa de **R$ 1.100,00** à autoridade competente; e
-2. determina a instauração da TCE em até **15 dias**.
-
-Se a determinação não for cumprida, o Tribunal:
-
-- instaura a TCE de ofício;
+- instaura a <abbr title="Tomada de Contas Especial">TCE</abbr> de ofício;
 - aplica multa de **R$ 11.000,00**;
 - determina a instrução pela unidade técnica competente; e
-- identifica a autoridade omissa como responsável solidária pelo dano, sem prejuízo da posterior responsabilização do controle interno.
+- identifica a autoridade administrativa omissa como responsável solidária pelo dano, sem prejuízo de posterior responsabilização de quem couber.
 
-A solidariedade prevista nessa sequência está ligada ao **descumprimento da determinação do Tribunal**, e não a qualquer atraso isoladamente considerado.
+Responsabilidade **solidária**, aqui, significa que a omissão pode fazer a autoridade responder conjuntamente pelo dano na forma prevista pela norma; não significa que o simples cargo ocupado prove, por si só, a autoria material do prejuízo.
 
-### 5.2. Omissão na comunicação
+### 5.2. O que ocorre se a instauração não for comunicada
 
-A falta da comunicação de instauração enseja multa de **R$ 600,00 por ocorrência omitida**.
+A ausência da comunicação prevista no <abbr title="artigo">art.</abbr> 5º enseja multa de **R$ 600,00 por ocorrência omitida**.
 
-### 5.3. e-TCEspecial
+A Portaria <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 1.166/2018 instituiu o <abbr title="Sistema eletrônico de tomada de contas especial">e-TCEspecial</abbr>. Desde **1º de janeiro de 2019**, a comunicação da instauração é feita exclusivamente por esse sistema.
 
-A Portaria TCE/MA nº 1.166/2018 instituiu o **e-TCEspecial** para receber comunicações de instauração e processos de TCE encaminhados ao Tribunal.
+A publicação oficial da Portaria traz o número **1.166/2018**. Referências a “1666” em materiais compilados não mudam o número do ato publicado.
 
-A comunicação tornou-se exclusivamente eletrônica a partir de **1º de janeiro de 2019**.
+## 6. O que a <abbr title="Tomada de Contas Especial">TCE</abbr> precisa demonstrar
 
-## 6. Pressupostos de constituição
-
-A TCE deve conter elementos fáticos e jurídicos suficientes para:
+Abrir o processo não basta. A <abbr title="Tomada de Contas Especial">TCE</abbr> só pode sustentar responsabilização se contiver elementos fáticos e jurídicos suficientes para:
 
 1. comprovar a ocorrência do dano; e
 2. identificar as pessoas naturais ou jurídicas que o causaram ou para ele concorreram.
 
-O tomador deve:
+O **tomador de contas** é o agente designado para conduzir a apuração e formar os autos. Seu relatório deve reconstruir o fato com documentos e outros elementos probatórios, examinar as informações e pareceres relevantes e explicar por que determinada conduta se liga ao prejuízo.
 
-- descrever detalhadamente a situação geradora do dano;
-- apoiar a descrição em documentos e outros elementos probatórios;
-- examinar a suficiência das informações constantes de pareceres;
-- demonstrar o nexo entre fato, conduta e resultado danoso.
+Essa ligação é o **nexo causal**: a relação entre a situação que gerou o dano, a conduta atribuída à pessoa e o resultado que se pretende ressarcir.
 
-O simples exercício de determinado cargo **não basta** para imputar responsabilidade.
+**Exemplo hipotético:** se o responsável autorizou pagamento por objeto comprovadamente não entregue, a apuração precisa demonstrar o pagamento, a ausência da entrega e a participação daquele responsável na decisão. Dizer apenas “ocupava o cargo de secretário” não demonstra o nexo.
 
-## 7. Quantificação do débito
+## 7. Quantificar o débito: exatidão quando possível, estimativa sem excesso
 
-A IN nº 50 prevê dois métodos:
+A <abbr title="Instrução Normativa">IN</abbr> nº 50 admite dois métodos:
 
-| Método | Regra |
-|---|---|
-| **verificação** | apuração exata do valor devido |
-| **estimativa** | uso de meios confiáveis para chegar a quantia que seguramente não exceda o valor devido |
+| Método | Quando usar | Limite lógico |
+|---|---|---|
+| **verificação** | quando é possível apurar com exatidão o valor devido | reproduzir o valor efetivamente apurado |
+| **estimativa** | quando a exatidão não é possível, mas há meios confiáveis | chegar a quantia que seguramente **não exceda** o valor devido |
 
-A estimativa não autoriza maximizar a cobrança.
+A estimativa não autoriza maximizar a cobrança em favor do erário.
 
-### 7.1. Omissão ou aplicação não comprovada
+### 7.1. Omissão de contas ou aplicação não comprovada
 
-Na omissão de prestar contas ou na falta de comprovação da boa e regular aplicação, presume-se devido o montante dos **recursos transferidos e não comprovados**.
+Quando houver omissão de prestar contas ou falta de comprovação da boa e regular aplicação, presume-se devido o total dos **recursos transferidos e não comprovados**.
 
-Se parte da aplicação estiver comprovada, a presunção não alcança automaticamente essa parcela.
+Se parte da aplicação foi regularmente comprovada, essa parcela não entra automaticamente no débito apenas porque outra parte ficou sem comprovação.
 
 ### 7.2. Desfalque ou desaparecimento de bem
 
-A quantificação considera:
+Para bem desaparecido ou desfalcado, consideram-se:
 
-- preços praticados no mercado; e
-- estado de conservação do bem.
+- os preços praticados no mercado; e
+- o estado de conservação do bem.
 
-### 7.3. Atualização e juros
+### 7.3. Valor histórico e valor atualizado não têm a mesma função
 
-Atualização monetária e juros moratórios incidem desde a data conhecida ou estimada da ocorrência do dano, segundo a legislação aplicável.
+Atualização monetária e juros moratórios incidem desde a data conhecida ou estimada da ocorrência do dano, conforme a legislação aplicável.
 
-Para o estudo, diferencie:
+Para decidir o encaminhamento, porém, o <abbr title="artigo">art.</abbr> 10 usa o **valor histórico** do dano. O valor atualizado inclui os acréscimos cabíveis e serve à expressão atual do débito, mas não muda a faixa de encaminhamento.
 
-- **valor histórico:** valor do dano em seu marco de origem;
-- **valor atualizado:** valor histórico acrescido de atualização e juros cabíveis.
+**Exemplo hipotético:** dano histórico de R$ 98.000,00 que, com atualização e juros, chega a R$ 105.000,00 continua na faixa inferior do <abbr title="artigo">art.</abbr> 10, porque o critério é o valor histórico.
 
-Essa distinção é essencial porque o art. 10 utiliza o **valor histórico** para definir o encaminhamento.
+## 8. Concluir e decidir o destino do processo
 
-## 8. Conclusão da TCE
+A <abbr title="Tomada de Contas Especial">TCE</abbr> deve ser concluída em até **60 dias**. A prorrogação por mais **60 dias** é possível, mas exige justificativa da autoridade administrativa competente ou do tomador de contas quanto à necessidade do prazo adicional.
 
-A TCE deve ser concluída em até **60 dias**.
+O segundo período não é automático.
 
-O prazo pode ser prorrogado por igual período, desde que haja **justificativa** da autoridade competente ou do tomador de contas quanto à necessidade do prazo adicional.
+Depois de concluída, há três perguntas em ordem:
 
-Assim:
+1. **existe hipótese de dispensa de encaminhamento?**
+2. se não, **qual é o valor histórico do dano?**
+3. com base nisso, **a <abbr title="Tomada de Contas Especial">TCE</abbr> vai diretamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> ou segue anexada às contas anuais?**
 
-**60 dias + até 60 dias, mediante justificativa.**
+### 8.1. Dispensa de encaminhamento: <abbr title="artigo">art.</abbr> 11
 
-A prorrogação não é automática.
-
-## 9. Encaminhamento conforme o valor histórico
-
-A DN TCE/MA nº 38/2020 fixou em **R$ 100.000,00** a quantia anual do art. 10, I, com vigência a partir de **1º de janeiro de 2021**.
-
-Pela literalidade da IN nº 50:
-
-| Valor histórico do dano | Destino |
-|---|---|
-| **igual ou superior a R$ 100.000,00** | encaminhamento ao TCE/MA em até **15 dias** após a conclusão |
-| **inferior a R$ 100.000,00** | anexação à tomada ou prestação de contas anual em até **60 dias** após a abertura da sessão legislativa |
-
-### 9.1. O valor exato de R$ 100.000,00
-
-A página operacional atual do TCE/MA descreve envio direto para valor “superior” a R$ 100.000,00 e prestação anual para valor “igual ou inferior”. A redação é diferente do art. 10 compilado e da lógica da DN nº 38, que fixa o valor a partir do qual incide o envio.
-
-> **Regra para questão normativa:** R$ 100.000,00 exatos entram na faixa **igual ou superior**, portanto no encaminhamento direto em até 15 dias. A página operacional deve ser lida como orientação de sistema, não como alteração tácita da norma.
-
-### 9.2. Valor histórico, não atualizado
-
-Se o dano histórico for R$ 98.000,00 e o valor atualizado alcançar R$ 105.000,00, o enquadramento do art. 10 continua sendo feito pelo **valor histórico**.
-
-## 10. Dispensa de encaminhamento
-
-O art. 11 dispensa a autoridade de encaminhar a TCE quando:
+A autoridade fica dispensada de encaminhar a <abbr title="Tomada de Contas Especial">TCE</abbr> ao Tribunal quando:
 
 1. não ficar comprovada a ocorrência do dano imputado;
 2. houver recolhimento **integral** do débito atualizado ou, tratando-se de bem, reposição ou restituição de importância equivalente; ou
-3. decorrerem mais de cinco anos entre o evento — ou a ciência da autoridade, se o evento for desconhecido — e a instauração da TCE.
+3. decorrerem mais de cinco anos entre o evento — ou a ciência da autoridade, se a data do evento for desconhecida — e a instauração da <abbr title="Tomada de Contas Especial">TCE</abbr>.
 
-Recolhimento parcial não satisfaz o inciso II.
+Recolhimento parcial reduz o saldo, mas **não** satisfaz a hipótese do inciso II, que exige integralidade.
 
-### 10.1. Revogações promovidas pela IN nº 56/2018
+A <abbr title="Instrução Normativa">IN</abbr> nº 56/2018 revogou o parágrafo único do <abbr title="artigo">art.</abbr> 11. Portanto, não se deve aplicar como vigente a providência que aparecia nesse parágrafo na redação original.
 
-A IN nº 56/2018 revogou:
+### 8.2. O limite de R$ 100.000,00
 
-- o parágrafo único do art. 11;
-- o art. 15, IV; e
-- os §§ 1º e 2º do art. 22.
+A <abbr title="Decisão Normativa">DN</abbr> nº 38/2020 fixou em **R$ 100.000,00** a quantia de referência do <abbr title="artigo">art.</abbr> 10, I, com efeitos para esse fim a partir de **1º de janeiro de 2021**.
 
-Não foram revogados o art. 11, III, nem o caput do art. 22.
+| Valor histórico do dano | Destino |
+|---|---|
+| **igual ou superior a R$ 100.000,00** | encaminhar ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> em até **15 dias** após a conclusão |
+| **inferior a R$ 100.000,00** | anexar à tomada ou prestação de contas anual em até **60 dias** após a abertura da sessão legislativa |
 
-## 11. Consolidação de débitos abaixo do limite
+A literalidade “**igual ou superior**” resolve o caso de fronteira: **R$ 100.000,00 exatos entram no encaminhamento direto**.
 
-O art. 15, II, evita fracionamento artificial.
+Se uma orientação operacional apresentar os sinais `>` e `<=`, ela não altera tacitamente o texto normativo. Em questão que cobre a <abbr title="Instrução Normativa">IN</abbr> nº 50 e a <abbr title="Decisão Normativa">DN</abbr> nº 38, use a literalidade `>= / <`.
 
-Durante o exercício corrente, a autoridade deve consolidar os diversos débitos **do mesmo responsável** que individualmente estejam abaixo do limite.
+### 8.3. Vários débitos pequenos não podem ser fracionados artificialmente
 
-Se o somatório atingir R$ 100.000,00, deve ser constituída nova TCE para encaminhamento ao Tribunal.
+Durante o exercício corrente, a autoridade deve consolidar os diversos débitos **do mesmo responsável** que, isoladamente, sejam inferiores ao limite.
 
-Não se somam indiscriminadamente débitos de pessoas diferentes.
+Se o somatório atingir R$ 100.000,00, deve constituir nova <abbr title="Tomada de Contas Especial">TCE</abbr> e encaminhá-la ao Tribunal.
 
-## 12. Autoridade administrativa competente
+Assim, três danos históricos de R$ 35.000,00, R$ 40.000,00 e R$ 30.000,00 atribuídos ao mesmo responsável no mesmo exercício somam R$ 105.000,00 e acionam a regra de consolidação. Não se somam indiscriminadamente débitos de pessoas diferentes.
 
-Entre outras providências, cabe à autoridade:
+## 9. Quem faz o quê
 
-- organizar informações e documentos das medidas preliminares;
-- instaurar, comunicar, concluir e encaminhar a TCE;
-- consolidar débitos conforme o art. 15, II;
-- após o julgamento, registrar débito e responsáveis nos cadastros cabíveis;
-- promover os registros em dívida ativa e sistemas contábeis;
-- encaminhar títulos executivos ao órgão de representação judicial para cobrança;
-- ajustar os registros quando o Tribunal apurar valor diferente.
+### 9.1. Autoridade administrativa competente
 
-### 12.1. Prefeito Municipal
+Cabe à autoridade, entre outras providências:
 
-O Prefeito Municipal é a autoridade competente para instaurar TCE dos administradores e demais responsáveis da administração direta do Poder Executivo municipal inadimplentes no dever de prestar contas perante o TCE/MA.
+- organizar as informações e os documentos das medidas preliminares;
+- instaurar, comunicar, concluir e encaminhar a <abbr title="Tomada de Contas Especial">TCE</abbr> quando cabível;
+- consolidar débitos na forma do <abbr title="artigo">art.</abbr> 15, II;
+- após o julgamento, registrar débito e responsáveis nos cadastros cabíveis, na dívida ativa e nos sistemas contábeis;
+- encaminhar títulos executivos ao órgão de representação judicial para cobrança; e
+- ajustar registros se o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> apurar débito diferente do originalmente calculado.
 
-## 13. Controle interno
+No Poder Executivo municipal, o **Prefeito Municipal** é a autoridade competente para instaurar <abbr title="Tomada de Contas Especial">TCE</abbr> dos administradores e demais responsáveis da administração direta inadimplentes no dever de prestar contas perante o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-Ao conhecer irregularidade ou ilegalidade, inclusive vencimento dos prazos dos arts. 3º e 5º, o controle interno deve dar ciência ao TCE/MA, sob pena de responsabilidade solidária.
+### 9.2. Controle interno
 
-O parecer conclusivo do controle interno deve examinar:
+Ao tomar conhecimento de irregularidade ou ilegalidade, inclusive do vencimento dos prazos dos <abbr title="artigos">arts.</abbr> 3º e 5º, o controle interno deve dar ciência ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> quando o fato envolver recursos estaduais ou municipais, sob pena de responsabilidade solidária.
 
-1. adequação das medidas administrativas adotadas para elidir o dano; e
-2. cumprimento das normas de instauração, constituição, quantificação e desenvolvimento válido e regular da TCE.
+Seu parecer conclusivo não substitui a apuração do tomador nem o julgamento do Tribunal. Ele deve examinar:
 
-O exame inclui devido processo, ampla defesa e contraditório.
+1. a adequação das medidas administrativas adotadas para elidir o dano; e
+2. o cumprimento das normas de instauração, constituição, quantificação e desenvolvimento válido e regular da <abbr title="Tomada de Contas Especial">TCE</abbr>.
 
-Controle interno não substitui tomador, autoridade administrativa ou Tribunal.
+Esse exame inclui devido processo legal, ampla defesa e contraditório.
 
-## 14. Saneamento e sanções
+### 9.3. Saneamento e sanção por descumprimento de prazo
 
-Se faltarem, total ou parcialmente, documentos exigidos no Anexo I, o TCE/MA determinará:
+Se faltarem, total ou parcialmente, documentos exigidos no Anexo I, o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> determina o **saneamento**, isto é, a correção da formação documental dos autos, e a renovação do encaminhamento.
 
-1. saneamento dos autos; e
-2. renovação do encaminhamento.
+Saneamento não é julgamento de mérito.
 
-Saneamento corrige a formação documental; não equivale a julgamento de mérito.
+O descumprimento dos prazos da <abbr title="Instrução Normativa">IN</abbr> nº 50 caracteriza grave infração à norma legal ou regulamentar e sujeita os responsáveis às sanções cabíveis da Lei Estadual nº 8.258/2005.
 
-O descumprimento dos prazos da IN nº 50 constitui grave infração à norma legal ou regulamentar e sujeita os responsáveis às sanções cabíveis da Lei Estadual nº 8.258/2005.
+## 10. Como montar os autos
 
-## 15. Anexo I: peças essenciais
-
-O Anexo I estabelece cinco peças eletrônicas:
+O Anexo I exige cinco peças eletrônicas:
 
 | Peça | Formato indicado |
 |---|---|
-| ofício de encaminhamento | PDF |
-| formulário de tomada de contas especial | ODS ou preenchimento no sistema |
-| relatório do tomador das contas | PDF |
-| parecer conclusivo do controle interno | PDF |
-| pronunciamento da autoridade competente | PDF |
+| ofício de encaminhamento | <abbr title="Portable Document Format">PDF</abbr> |
+| formulário de tomada de contas especial | <abbr title="OpenDocument Spreadsheet">ODS</abbr> ou preenchimento no sistema |
+| relatório do tomador das contas | <abbr title="Portable Document Format">PDF</abbr> |
+| parecer conclusivo do controle interno | <abbr title="Portable Document Format">PDF</abbr> |
+| pronunciamento da autoridade competente | <abbr title="Portable Document Format">PDF</abbr> |
 
-## 16. Anexo II: conteúdo das peças
+O Anexo II explica o conteúdo dessas peças.
 
-### 16.1. Formulário
+### 10.1. Formulário
 
-Reúne, em síntese:
+Reúne a identificação do processo e do órgão de origem, as medidas administrativas, os responsáveis e o demonstrativo individualizado do débito.
 
-- identificação do processo e do órgão de origem;
-- medidas administrativas;
-- identificação dos responsáveis;
-- demonstrativo individualizado do débito.
+Esse demonstrativo registra, entre outros elementos, a hipótese normativa, datas relevantes, método de quantificação, valor histórico, atualização, juros, valor atualizado e eventual recolhimento ou reposição.
 
-O demonstrativo registra hipótese normativa, datas relevantes, método de quantificação, valor histórico, atualização, juros, valor atualizado e eventual recolhimento ou reposição.
+### 10.2. Relatório do tomador
 
-### 16.2. Relatório do tomador
+É a peça que sustenta a narrativa de responsabilização. Deve apresentar, conforme o caso:
 
-Deve demonstrar os elementos fáticos e jurídicos da responsabilização, incluindo:
-
-- descrição do dano;
-- documentos probatórios;
+- descrição do dano e documentos probatórios;
 - nexo causal;
 - notificações e prova de ciência;
-- análise de justificativas;
+- análise das justificativas;
 - exame de pareceres;
 - ato de designação do tomador; e
-- outros documentos úteis.
+- outros documentos úteis à apuração.
 
-### 16.3. Parecer do controle interno
+### 10.3. Parecer do controle interno e pronunciamento da autoridade
 
-Examina a adequação das medidas de elisão e a regularidade do desenvolvimento da TCE.
+O parecer do controle interno examina as medidas de elisão e a regularidade do procedimento.
 
-### 16.4. Pronunciamento da autoridade
+Após a <abbr title="Instrução Normativa">IN</abbr> nº 56/2018, o pronunciamento da autoridade deve:
 
-Após a IN nº 56/2018, o pronunciamento deve:
-
-- atestar conhecimento do relatório e do parecer do controle interno; e
+- atestar conhecimento do relatório do tomador e do parecer conclusivo do controle interno; e
 - **determinar os encaminhamentos necessários**.
 
-Não use a redação anterior à alteração de 2018.
+Essa é a redação vigente do item 5 do Anexo II; não use a formulação anterior à alteração de 2018.
 
-## 17. Requisitos dos arquivos eletrônicos
+## 11. Requisitos dos arquivos eletrônicos
 
-Os documentos devem observar, entre outros requisitos:
+Os documentos do Anexo I devem observar, entre outros requisitos:
 
-- PDF exportado do original ou, se isso não for possível, digitalização em PDF pesquisável por OCR;
-- ODS quando exigido para o formulário;
-- máximo de **25 MB por arquivo**;
-- legibilidade e ausência de malware;
-- assinatura com certificado digital **A1, A3 ou A4** da ICP-Brasil.
+- <abbr title="Portable Document Format">PDF</abbr> exportado do arquivo original ou, se a exportação for impossível, digitalização em <abbr title="Portable Document Format">PDF</abbr> pesquisável por <abbr title="Reconhecimento Óptico de Caracteres">OCR</abbr>;
+- <abbr title="OpenDocument Spreadsheet">ODS</abbr> quando esse formato for exigido para o formulário;
+- máximo de **25 <abbr title="megabytes">MB</abbr> por arquivo**;
+- legibilidade e ausência de malware; e
+- assinatura por certificado digital **A1, A3 ou A4**, emitido no âmbito da <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr>.
 
-Arquivo maior que 25 MB deve ser dividido em partes de até esse limite, com identificação adicional **(N-T)**, em que `N` indica a parte e `T` o total de partes.
+Arquivo que ultrapasse 25 <abbr title="megabytes">MB</abbr> deve ser dividido em partes iguais ou inferiores ao limite e identificado adicionalmente pelo atributo `(N-T)`, em que `N` indica a parte e `T` o total de partes.
 
-## 18. Três regras quinquenais que não podem ser confundidas
+## 12. As regras de cinco anos não são intercambiáveis
 
-Há três regras próximas, mas com marcos e efeitos diferentes:
+O assunto reúne regras próximas, mas com marcos e efeitos distintos. Confundi-las costuma produzir erro mesmo quando o candidato memorizou “cinco anos”.
 
-| Fonte | Marcos | Consequência literal |
+| Fonte | Intervalo relevante | Efeito literal |
 |---|---|---|
-| DN nº 28/2017, art. 2º | data provável do dano → primeira notificação | dispensa de **instauração**, salvo determinação contrária do TCE |
-| IN nº 50, art. 11, III | evento/ciência → instauração | dispensa de **encaminhamento** |
-| IN nº 50, art. 22, caput | evento/ciência → instauração | decadência da atuação administrativa do TCE/MA |
+| <abbr title="Decisão Normativa">DN</abbr> nº 28/2017, <abbr title="artigo">art.</abbr> 2º | data provável do dano → **primeira notificação** dos responsáveis | dispensa de **instauração**, salvo determinação contrária do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> |
+| <abbr title="Instrução Normativa">IN</abbr> nº 50, <abbr title="artigo">art.</abbr> 11, III | evento ou ciência da autoridade → **instauração** da <abbr title="Tomada de Contas Especial">TCE</abbr> | dispensa de **encaminhamento** |
+| <abbr title="Instrução Normativa">IN</abbr> nº 50, <abbr title="artigo">art.</abbr> 22, caput | evento ou ciência da autoridade → **instauração** da <abbr title="Tomada de Contas Especial">TCE</abbr> | decadência da atuação administrativa do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> |
 
-A **primeira notificação** da DN nº 28 não deve ser trocada pela **instauração** utilizada pela IN nº 50.
+**Primeira notificação não é instauração.** A <abbr title="Decisão Normativa">DN</abbr> nº 28 usa o primeiro marco; os <abbr title="artigos">arts.</abbr> 11, III, e 22 da <abbr title="Instrução Normativa">IN</abbr> nº 50 usam o segundo.
 
-A IN nº 56/2018 revogou os antigos §§ 1º e 2º do art. 22. Por isso, não atribua à redação vigente do art. 22 efeitos que dependiam desses parágrafos.
+Decadência, no vocabulário do <abbr title="artigo">art.</abbr> 22, é a perda da possibilidade de atuação administrativa do Tribunal pelo decurso do prazo ali definido. A <abbr title="Instrução Normativa">IN</abbr> nº 56/2018 revogou os §§ 1º e 2º do <abbr title="artigo">art.</abbr> 22, mas **não** revogou seu caput nem o <abbr title="artigo">art.</abbr> 11, III.
 
-### 18.1. Nota de direito vigente complementar
+### 12.1. Prescrição geral vigente no corte
 
-A Resolução TCE/MA nº 383/2023 passou a disciplinar, em caráter geral, prescrição das pretensões punitiva e ressarcitória no controle externo. A Resolução nº 406, de 14 de agosto de 2024, acrescentou disciplina de prescrição intercorrente.
+A Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 383/2023 disciplina, em caráter geral, a prescrição das pretensões punitiva e ressarcitória no controle externo. A Resolução nº 406/2024 acrescentou a **prescrição intercorrente**, que incide quando o processo fica paralisado por mais de três anos, pendente de julgamento ou despacho, observadas as causas de interrupção e as demais regras do ato.
 
-Para esta matéria:
+Para resolver a questão, identifique o que o enunciado pede:
 
-- questão que cobre **literalmente a IN nº 50/DN nº 28**: aplique os marcos específicos acima;
-- questão que cobra **regime geral atual de prescrição do TCE/MA**: observe as resoluções posteriores indicadas pelo enunciado.
+- se cobra **literalmente a <abbr title="Instrução Normativa">IN</abbr> nº 50 ou a <abbr title="Decisão Normativa">DN</abbr> nº 28**, aplique os marcos específicos desses atos;
+- se cobra o **regime geral de prescrição do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>**, use as resoluções posteriores indicadas no enunciado.
 
 Não trate decadência, prescrição principal e prescrição intercorrente como sinônimos.
 
-## 19. Aplicação no tempo
+## 13. Aplicação no tempo e alterações que não podem ser esquecidas
 
-Após a DN nº 28/2017, o art. 23 determina que a IN nº 50:
+Após a <abbr title="Decisão Normativa">DN</abbr> nº 28/2017, a disciplina de aplicação temporal da <abbr title="Instrução Normativa">IN</abbr> nº 50 alcança, no que couber, as <abbr title="Tomadas de Contas Especiais">TCEs</abbr> instauradas pela autoridade administrativa, pelo controle interno ou pelo controle externo ainda em trâmite no <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, e aplica-se integralmente às instauradas após sua entrada em vigor.
 
-- aplica-se, no que couber, às TCEs instauradas pela autoridade administrativa, pelo controle interno ou pelo controle externo ainda em trâmite no TCE/MA; e
-- aplica-se integralmente às TCEs instauradas depois de sua entrada em vigor.
+A alteração de 2018 também precisa ser lida de forma pontual. A <abbr title="Instrução Normativa">IN</abbr> nº 56/2018:
 
-## 20. Fluxo integrado
+- substituiu o item 5 do Anexo II pelo pronunciamento que conhece relatório e parecer e determina os encaminhamentos necessários;
+- revogou o parágrafo único do <abbr title="artigo">art.</abbr> 11;
+- revogou o <abbr title="artigo">art.</abbr> 15, IV; e
+- revogou os §§ 1º e 2º do <abbr title="artigo">art.</abbr> 22.
 
-| Etapa | Pergunta de controle | Regra |
-|---|---|---|
-| hipótese | há situação do art. 2º? | identificar dano ou falta de comprovação |
-| medidas | houve tentativa eficaz de elisão? | até 60 dias |
-| instauração | o dano persistiu? | até 15 dias |
-| comunicação | o Tribunal foi informado? | até 5 dias |
-| constituição | há dano, responsáveis e nexo? | art. 6º |
-| quantificação | há valor exato ou estimativa confiável? | arts. 7º e 8º |
-| conclusão | os autos estão completos? | 60 + 60 justificados |
-| dispensa | incide art. 11? | motivar |
-| encaminhamento | qual o valor histórico? | `>= R$ 100 mil`: direto; `< R$ 100 mil`: conta anual |
-| documentos | as cinco peças estão presentes? | Anexos I e II |
-| arquivos | formato, tamanho e assinatura estão corretos? | art. 12 |
+O efeito pedagógico é simples: quando consultar a publicação original de 2017, não memorize como vigentes os trechos que a alteração de 2018 retirou.
 
-## 21. Pegadinhas de prova
+## 14. Um roteiro para aplicar a norma em caso concreto
 
-- Medidas preliminares **antecedem** a TCE.
-- Medidas: **60 dias**; instauração: **15**; comunicação: **5**; conclusão: **60 + 60 justificados**.
-- Irregularidade grave sem dano leva a representação, não a TCE automática.
-- TCE = apurar fatos + identificar responsáveis + quantificar dano.
-- Estimativa deve seguramente **não exceder** o valor devido.
-- Omissão de contas alcança os recursos **não comprovados**.
-- O limite do art. 10 usa **valor histórico**.
-- Pela norma, **R$ 100.000,00 exatos = envio direto**.
-- Débitos abaixo do limite são consolidados por **mesmo responsável** no exercício.
-- Recolhimento parcial não dispensa encaminhamento pelo art. 11, II.
-- IN nº 56/2018 revogou art. 11, parágrafo único; art. 15, IV; e art. 22, §§ 1º e 2º.
-- DN nº 28 usa **primeira notificação**; IN nº 50 usa **instauração**.
-- Falta de peça do Anexo I gera saneamento e novo encaminhamento.
-- O pronunciamento vigente determina os **encaminhamentos necessários**.
-- A Portaria correta é **nº 1.166/2018**.
-- A DN nº 33/2020 não amplia prazos ordinários em 2026.
+Ao receber uma situação-problema, percorra estas perguntas sem misturar as etapas:
+
+1. **há uma hipótese do <abbr title="artigo">art.</abbr> 2º e possível dano?** Se não houver dano, verifique a representação do <abbr title="artigo">art.</abbr> 13.
+2. **as medidas administrativas efetivas foram tentadas dentro do prazo?** O prazo ordinário é de até 60 dias.
+3. **o dano permaneceu?** Então a <abbr title="Tomada de Contas Especial">TCE</abbr> deve ser instaurada em até 15 dias e comunicada em até 5 dias.
+4. **os autos demonstram dano, responsáveis e nexo causal?** Cargo ou função, isoladamente, não bastam.
+5. **o débito foi quantificado pelo método adequado?** Estimativa confiável não pode seguramente exceder o devido.
+6. **a <abbr title="Tomada de Contas Especial">TCE</abbr> foi concluída no prazo?** São 60 dias, com possibilidade de mais 60 mediante justificativa.
+7. **há dispensa do <abbr title="artigo">art.</abbr> 11?** Pagamento parcial não preenche a hipótese de recolhimento integral.
+8. **qual é o valor histórico?** R$ 100.000,00 exatos já entram na faixa de encaminhamento direto.
+9. **as cinco peças e os requisitos eletrônicos estão presentes?** Falta documental leva a saneamento e novo encaminhamento.
+10. **há alguma regra temporal de cinco anos no enunciado?** Identifique o ato, o marco inicial, o marco final e o efeito antes de responder.
+
+Esse roteiro não substitui a literalidade dos dispositivos; ele organiza a ordem em que as regras devem ser aplicadas.
