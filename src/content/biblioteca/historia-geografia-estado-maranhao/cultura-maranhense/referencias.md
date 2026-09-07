@@ -1,13 +1,19 @@
 - Cebraspe/TCE-MA. [Edital nº 1, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Geografia do Maranhão, item 15.
 - Iphan. [Maranhão](https://www.gov.br/iphan/pt-br/superintendencias/maranhao). Patrimônio material e imaterial no estado.
 - Iphan. [Patrimônio Imaterial no Maranhão](https://www.gov.br/iphan/pt-br/superintendencias/maranhao/patrimonio-imaterial). Salvaguarda e bens registrados.
-- Iphan/BCR. [Complexo Cultural do Bumba Meu Boi do Maranhão](https://bcr.iphan.gov.br/bens-culturais/complexo-cultural-do-bumba-meu-boi-do-maranhao/). Registro nacional.
-- Iphan. [Termo de Averbação de Revalidação do Bumba Meu Boi](https://bcr.iphan.gov.br/wp-content/uploads/tainacan-items/65968/156180/termo_averbacao_complexo_bumba_meu_Boi_Maranhao.pdf). Revalidação aprovada em 25 e 26 mar. 2025.
+- Iphan/BCR. [Complexo Cultural do Bumba Meu Boi do Maranhão](https://bcr.iphan.gov.br/bens-culturais/complexo-cultural-do-bumba-meu-boi-do-maranhao/). Registro, ciclo, personagens e diversidade dos sotaques.
+- Iphan/BCR. [Nota Técnica — Complexo Cultural do Bumba Meu Boi do Maranhão](https://bcr.iphan.gov.br/wp-content/uploads/tainacan-items/65968/124973/bumba_meu_boi_nota_tecnica.pdf). Batismo, apresentações e rituais de morte entre julho e dezembro.
+- Iphan. [Termo de Averbação de Revalidação do Bumba Meu Boi](https://bcr.iphan.gov.br/wp-content/uploads/tainacan-items/65968/156180/termo_averbacao_complexo_bumba_meu_Boi_Maranhao.pdf). Revalidação aprovada em 25 e 26 mar. 2025 e formalizada em set. 2025.
 - UNESCO. [Cultural Complex of Bumba-meu-boi from Maranhão](https://ich.unesco.org/en/RL/cultural-complex-of-bumba-meu-boi-from-maranhao-01510). Inscrição de 2019.
-- Iphan/BCR. [Tambor de Crioula do Maranhão](https://bcr.iphan.gov.br/bens-culturais/tambor-de-crioula-do-maranhao/). Registro de 2007.
+- Iphan/BCR. [Tambor de Crioula do Maranhão](https://bcr.iphan.gov.br/bens-culturais/tambor-de-crioula-do-maranhao/). Registro de 2007 e características da manifestação.
 - Iphan. [Tambor de Crioula revalidado](https://www.gov.br/iphan/pt-br/assuntos/noticias/tambor-de-crioula-frevo-e-oficio-das-paneleiras-de-goiabeiras-sao-revalidados-como-patrimonio-cultural-do-brasil). Revalidação em 31 ago. 2021.
-- UNESCO. [Historic Centre of São Luís](https://whc.unesco.org/en/list/821). Inscrição de 1997.
+- Universidade Federal do Maranhão. [Danças maranhenses](https://www.ufma.br/arquivos/1073). Dança do Lelê ou Péla-Porco, territórios, pares e acompanhamento instrumental.
+- Iphan. [Educação Patrimonial: inventários participativos](https://portal.iphan.gov.br/uploads/publicacao/inventariodopatrimonio_15x21web.pdf). Conceitos de celebração e referência ao Baile de São Gonçalo como pagamento de promessa.
+- UNESCO. [Historic Centre of São Luís](https://whc.unesco.org/en/list/821). Inscrição de 1997 e critérios (iii), (iv) e (v).
 - Iphan. [Patrimônio Material no Maranhão](https://www.gov.br/iphan/pt-br/superintendencias/maranhao/patrimonio-material). São Luís e Alcântara.
 - Presidência da República. [Lei nº 14.668/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14668.htm). São Luís como Capital Nacional do Reggae.
 - UNESCO. [Reggae music of Jamaica](https://ich.unesco.org/en/RL/reggae-music-of-jamaica-01398). Inscrição de 2018.
-- Biblioteca Digital da Literatura Maranhense (UFSC/UEMA). [Acervo](https://literaturamaranhense.ufsc.br/). Referências literárias.
+- Biblioteca Digital da Literatura Maranhense (UFSC/UEMA). [Acervo](https://literaturamaranhense.ufsc.br/). Obras e autores maranhenses.
+- Fundação Biblioteca Nacional. [De Musas e Sereias: a presença dos seres que cantam a poesia](https://antigo.bn.gov.br/sites/default/files/documentos/miscelanea/2021/cadbn18_digital_final-7972.pdf). Experimentação de Sousândrade e sua leitura posterior por poetas concretos.
+- Secretaria de Estado da Cultura do Maranhão. [“Os Tambores de São Luís em quadrinhos” será lançado na Casa de Cultura Josué Montello](https://cultura.ma.gov.br/noticias/os-tambores-de-sao-luis-em-quadrinhos-sera-lancado-na-casa-de-cultura-josue-montello). Escravidão, protagonismo negro e memória maranhense no romance.
+- Cebraspe/Prefeitura de São Luís. [Prova de Professor Nível Superior — Arte (2017)](https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/287_PREFSAOLUIS_002_01.pdf) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_002_01.pdf). Questão sobre Dileusa Dinis Rodrigues (Dila) e temas de sua obra.
