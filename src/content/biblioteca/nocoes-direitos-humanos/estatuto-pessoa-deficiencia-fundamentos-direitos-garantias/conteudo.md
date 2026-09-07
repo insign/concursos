@@ -8,701 +8,318 @@ storageId: "lbi-fund-direitos-garantias"
 
 # Estatuto da Pessoa com Deficiência: fundamentos, direitos e garantias
 
-## 1. Recorte, objetivo e corte temporal
+## 1. A ideia que organiza a lei
 
-Este assunto estuda a **Lei nº 13.146/2015**, denominada Lei Brasileira de Inclusão da Pessoa com Deficiência (LBI) ou Estatuto da Pessoa com Deficiência, no recorte de:
+Imagine uma situação hipotética: uma candidata tem impedimento motor de longo prazo e chega a um prédio no qual a única rota até a sala é uma escada. O impedimento integra sua condição pessoal; a escada sem alternativa acessível é uma barreira do ambiente. A pergunta jurídica decisiva não é apenas **“qual é o diagnóstico?”**, mas **“como o impedimento interage com as barreiras e afeta a participação em igualdade?”**.
 
-- fundamento convencional e modelo de deficiência;
-- conceito legal e avaliação biopsicossocial;
-- definições indispensáveis;
-- igualdade, autonomia, capacidade e proteção;
-- atendimento prioritário;
-- direitos fundamentais;
-- participação política e acesso à justiça;
-- curatela e tomada de decisão apoiada.
+Esse raciocínio organiza a **Lei nº 13.146/2015**, a <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>. Seu objetivo é assegurar e promover, em condições de igualdade, o exercício de direitos e liberdades fundamentais pela pessoa com deficiência, visando à inclusão social e à cidadania.
 
-O corte normativo é **4 de agosto de 2026**. O edital foi publicado em 6 de julho de 2026 e exige a Lei nº 13.146/2015 **e suas alterações**. Não foi identificada alteração direta da LBI entre a publicação do edital e o corte.
+A lei tem como base a **Convenção sobre os Direitos das Pessoas com Deficiência** e seu Protocolo Facultativo. Os dois instrumentos foram aprovados pelo Congresso Nacional pelo procedimento qualificado do artigo 5º, § 3º, da Constituição e promulgados pelo Decreto nº 6.949/2009. Por isso, ingressaram no direito brasileiro com **equivalência às emendas constitucionais**.
 
-O Assunto 099 estudará, sem repetição, mecanismos operacionais de inclusão, acessibilidade, tecnologia assistiva, fiscalização, crimes e responsabilização. O Assunto 100 tratará sistematicamente das Leis nº 10.048/2000 e nº 10.098/2000.
+A consequência prática é uma mudança de foco: a deficiência não é tratada como sinônimo de incapacidade ou como problema explicado apenas pelo corpo. O direito olha para a interação entre a condição da pessoa e as barreiras que restringem sua participação. Esse é o **modelo social da deficiência**, incorporado pela <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> em uma abordagem biopsicossocial.
 
-## 2. Finalidade e base constitucional
+> **Mapa mental:** impedimento de longo prazo + interação com barreira → possível restrição de participação. A resposta jurídica procura remover barreiras, oferecer suportes e preservar autonomia, não presumir incapacidade.
 
-O artigo 1º define duas ações:
+## 2. Quem é pessoa com deficiência para a lei
 
-1. **assegurar**; e
-2. **promover**, em condições de igualdade,
+O artigo 2º considera pessoa com deficiência aquela que possui **impedimento de longo prazo**, de natureza **física, mental, intelectual ou sensorial**, que, em interação com uma ou mais barreiras, **pode obstruir** sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas.
 
-o exercício de direitos e liberdades fundamentais, visando à **inclusão social e cidadania**.
+Cada expressão importa:
 
-A LBI tem como base a **Convenção sobre os Direitos das Pessoas com Deficiência** e seu Protocolo Facultativo. Os instrumentos foram:
+- **longo prazo** não significa necessariamente permanente;
+- o impedimento pode ter quatro naturezas: física, mental, intelectual ou sensorial;
+- a barreira entra no próprio conceito jurídico;
+- a lei diz **“pode obstruir”**, e não exige impedimento total da participação;
+- deficiência não se confunde com incapacidade civil.
 
-- aprovados pelo Congresso pelo Decreto Legislativo nº 186/2008;
-- submetidos ao rito do artigo 5º, § 3º, da Constituição;
-- promulgados pelo Decreto nº 6.949/2009.
+No exemplo inicial, o diagnóstico isolado não resolve a questão. É preciso compreender a funcionalidade da pessoa e a interação com o ambiente.
 
-Por isso, a Convenção possui **equivalência de emenda constitucional**.
+### 2.1 Avaliação da deficiência: quando for necessária
 
-### 2.1 Modelo social
+Quando a avaliação da deficiência for necessária, ela será **biopsicossocial**, realizada por equipe **multiprofissional e interdisciplinar**. A lei determina a consideração conjunta de quatro grupos de fatores:
 
-A deficiência não se reduz à lesão, doença ou diagnóstico. A Convenção reconhece que ela resulta da interação entre:
-
-- impedimentos da pessoa; e
-- barreiras de atitude e de ambiente.
-
-A LBI combina esse modelo social com avaliação biopsicossocial. O foco deixa de ser “corrigir a pessoa” e passa a incluir a remoção das barreiras que obstruem sua participação.
-
-## 3. Conceito de pessoa com deficiência
-
-O artigo 2º exige a reunião de elementos:
-
-| Elemento | Conteúdo |
-|---|---|
-| impedimento | de longo prazo |
-| natureza | física, mental, intelectual ou sensorial |
-| contexto | interação com uma ou mais barreiras |
-| efeito potencial | pode obstruir participação plena e efetiva |
-| parâmetro | igualdade de condições com as demais pessoas |
-
-### 3.1 Pegadinhas do conceito
-
-- longo prazo não significa necessariamente permanente;
-- diagnóstico médico isolado não basta;
-- o texto não exige impedimento absoluto;
-- a lei usa “pode obstruir”;
-- barreiras são parte da definição jurídica;
-- deficiência e incapacidade civil não são sinônimos.
-
-## 4. Avaliação biopsicossocial
-
-Quando necessária, a avaliação deve ser realizada por equipe:
-
-- **multiprofissional**; e
-- **interdisciplinar**.
-
-Ela considera quatro fatores:
-
-1. impedimentos nas funções e estruturas do corpo;
+1. impedimentos nas funções e nas estruturas do corpo;
 2. fatores socioambientais, psicológicos e pessoais;
 3. limitação no desempenho de atividades;
 4. restrição de participação.
 
-O Poder Executivo deve criar instrumentos para a avaliação.
+“Multiprofissional” indica a participação de profissionais de diferentes áreas; “interdisciplinar” destaca que esses saberes precisam ser articulados na avaliação. Os dois qualificadores aparecem no texto legal e não são alternativas.
 
-### 4.1 Telemedicina e análise documental
+A Lei nº 14.724/2023 acrescentou uma regra específica: o **exame médico-pericial que compõe** essa avaliação pode ser realizado por telemedicina ou por análise documental, conforme situações e requisitos definidos em regulamento. Isso **não transforma toda a avaliação biopsicossocial em perícia médica remota** e não elimina os demais fatores nem a atuação da equipe.
 
-A Lei nº 14.724/2023 acrescentou o § 3º ao artigo 2º. Conforme regulamento, telemedicina ou análise documental podem ser usadas no **exame médico-pericial componente** da avaliação.
+### 2.2 Quatro instrumentos que não devem ser confundidos
 
-Isso não converte toda a avaliação biopsicossocial em ato exclusivamente médico ou remoto. A equipe e os quatro fatores continuam necessários quando a avaliação legal for exigida.
+Depois de reconhecer a interação entre impedimento e barreiras, a <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> usa instrumentos diferentes para tornar a participação possível:
 
-## 5. Definições fundamentais
+| Instrumento | Ideia central | Como reconhecer |
+|---|---|---|
+| **acessibilidade** | possibilidade e condição de alcance e uso, com segurança e autonomia | é a condição de acesso a espaços, transportes, informação, comunicação, serviços e instalações, na zona urbana ou rural |
+| **desenho universal** | conceber desde o início para uso por todas as pessoas, sem adaptação ou projeto específico | solução geral, pensada antes da necessidade individual |
+| **adaptação razoável** | modificação ou ajuste necessário e adequado ao caso concreto, sem ônus desproporcional e indevido | resposta individualizada quando a solução geral não basta |
+| **tecnologia assistiva** | produtos, equipamentos, dispositivos, recursos, metodologias, estratégias, práticas e serviços voltados à funcionalidade, atividade e participação | suporte que amplia autonomia, independência, qualidade de vida e inclusão |
 
-As definições orientam toda a LBI. Aqui interessa o conceito; a execução técnica será estudada no Assunto 099.
+No exemplo hipotético, uma rota acessível prevista desde o projeto exprime desenho universal. Se uma necessidade individual exigir ajuste específico, pode haver adaptação razoável. Um recurso usado pela própria pessoa para ampliar funcionalidade pode ser tecnologia assistiva. Os conceitos se complementam; não são sinônimos.
 
-### 5.1 Acessibilidade
+A recusa de adaptação razoável ou de fornecimento de tecnologia assistiva pode integrar a própria definição de discriminação em razão da deficiência.
 
-Possibilidade e condição de alcance e uso com **segurança e autonomia** de espaços, equipamentos, edificações, transportes, informação, comunicação, sistemas, tecnologias, serviços e instalações, nas zonas urbana e rural.
+### 2.3 Barreiras: o obstáculo pode ser físico, comunicacional, social ou tecnológico
 
-### 5.2 Desenho universal
+Barreira é qualquer entrave, obstáculo, atitude ou comportamento que limite ou impeça participação social ou o exercício de direitos. A <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> classifica seis espécies:
 
-Concepção de produtos, ambientes, programas e serviços utilizáveis por todas as pessoas, sem necessidade de adaptação ou projeto específico, incluindo recursos de tecnologia assistiva.
+- **urbanísticas** — nas vias e nos espaços públicos ou privados abertos ao público ou de uso coletivo;
+- **arquitetônicas** — nos edifícios públicos e privados;
+- **nos transportes** — nos sistemas e meios de transporte;
+- **nas comunicações e na informação** — dificultam ou impedem expressão ou recebimento de mensagens e informações;
+- **atitudinais** — atitudes ou comportamentos que prejudicam a participação em igualdade;
+- **tecnológicas** — dificultam ou impedem o acesso às tecnologias.
 
-### 5.3 Tecnologia assistiva ou ajuda técnica
+Uma pessoa que se dirige apenas ao acompanhante e ignora a pessoa com deficiência que está tomando a decisão pode criar **barreira atitudinal**. A ausência de degrau não basta para afirmar que um ambiente é inclusivo: barreiras também podem nascer de comportamento, informação e tecnologia.
 
-Produtos, equipamentos, dispositivos, recursos, metodologias, estratégias, práticas e serviços que promovem funcionalidade relacionada à atividade e à participação, visando a:
+### 2.4 Definições de apoio e de participação
 
-- autonomia;
-- independência;
-- qualidade de vida;
-- inclusão social.
+Algumas figuras próximas aparecem em questões justamente porque têm funções diferentes:
 
-### 5.4 Barreiras
+- **pessoa com mobilidade reduzida**: tem dificuldade de movimentação, permanente ou temporária, com redução efetiva da mobilidade, flexibilidade, coordenação motora ou percepção; o conceito inclui pessoa idosa, gestante, lactante, pessoa com criança de colo e pessoa obesa. Mobilidade reduzida não equivale, por si só, a deficiência;
+- **atendente pessoal**: com ou sem remuneração e sendo ou não familiar, auxilia em cuidados básicos e essenciais da vida diária; não executa técnicas ou procedimentos próprios de profissão legalmente estabelecida;
+- **profissional de apoio escolar**: atua em alimentação, higiene, locomoção e nas atividades escolares em que for necessário, também sem executar técnicas próprias de profissão regulamentada;
+- **acompanhante**: acompanha a pessoa com deficiência e pode ou não exercer funções de atendente pessoal;
+- **residência inclusiva**: unidade do Serviço de Acolhimento do <abbr title="Sistema Único de Assistência Social">Suas</abbr>, em área residencial da comunidade, voltada a jovens e adultos com deficiência em situação de dependência, sem condições de autossustentabilidade e com vínculos familiares fragilizados ou rompidos;
+- **moradia para a vida independente**: moradia com estruturas e serviços de apoio que respeitem e ampliem a autonomia de jovens e adultos com deficiência.
 
-Entraves, obstáculos, atitudes ou comportamentos que limitam ou impedem participação e exercício de direitos. A LBI classifica barreiras:
+A comunicação, para a lei, é ampla: inclui línguas, <abbr title="Língua Brasileira de Sinais">Libras</abbr>, <abbr title="Sistema de leitura e escrita tátil">Braille</abbr>, comunicação tátil, caracteres ampliados, multimídia, linguagem simples, sistemas auditivos, voz digitalizada e formatos aumentativos e alternativos.
 
-- urbanísticas;
-- arquitetônicas;
-- nos transportes;
-- nas comunicações e na informação;
-- atitudinais;
-- tecnológicas.
+Desde a Lei nº 15.249/2025, a <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> também define **pessoa com necessidades complexas de comunicação**: aquela que apresenta dificuldade significativa para compreender ou expressar mensagens pelas formas convencionais e necessita de recursos e estratégias alternativas ou aumentativas para viabilizar interação social, acesso à informação e participação cotidiana.
 
-### 5.5 Comunicação
+Elementos de urbanização e mobiliário urbano também são definidos pela lei. Para este assunto, basta perceber a diferença: **elemento de urbanização** integra obras e infraestrutura urbana; **mobiliário urbano** é objeto agregado às vias e espaços, como semáforo, poste, banco, lixeira ou quiosque, cuja modificação ou remoção não altera substancialmente a estrutura de base. O detalhamento operacional da acessibilidade aparece no Assunto 099 e nas Leis nº 10.048/2000 e nº 10.098/2000, estudadas no Assunto 100.
 
-Forma de interação que inclui, entre outras opções:
+## 3. Igualdade não significa ignorar necessidades diferentes
 
-- línguas, inclusive <abbr title="Língua Brasileira de Sinais">Libras</abbr>;
-- visualização de textos e Braille;
-- comunicação tátil e caracteres ampliados;
-- dispositivos multimídia;
-- linguagem simples, escrita e oral;
-- sistemas auditivos e voz digitalizada;
-- modos, meios e formatos aumentativos e alternativos;
-- tecnologias da informação e das comunicações.
+O artigo 4º garante igualdade de oportunidades e proíbe discriminação. Discriminação em razão da deficiência é distinção, restrição ou exclusão, **por ação ou omissão**, que tenha **propósito ou efeito** de prejudicar, impedir ou anular o reconhecimento ou o exercício de direitos e liberdades fundamentais.
 
-### 5.6 Elemento de urbanização e mobiliário urbano
+Duas consequências são frequentes em prova:
 
-- **elemento de urbanização:** componente de obra de urbanização, como pavimentação, saneamento, iluminação, comunicação, abastecimento de água e paisagismo;
-- **mobiliário urbano:** objeto existente em via ou espaço público cuja modificação ou traslado não provoca alteração substancial no elemento de urbanização ou edificação, como semáforo, poste, banco e quiosque.
+1. não é necessário demonstrar intenção confessada de discriminar; o **efeito** lesivo também importa;
+2. recusar adaptação razoável ou tecnologia assistiva pode ser discriminação.
 
-Os conceitos ficam neste assunto; requisitos técnicos de projeto, instalação e fiscalização ficam no Assunto 099.
+Ações afirmativas não contradizem a igualdade: são instrumentos para enfrentar desigualdades. Mas a pessoa com deficiência **não é obrigada a usufruir** benefício decorrente de ação afirmativa. Reserva de vagas, por exemplo, é proteção disponível, não imposição de uma identidade jurídica sobre a pessoa.
 
-### 5.7 Adaptação razoável
+### 3.1 Proteção contra violência e dever de comunicar
 
-Adaptação, modificação ou ajuste:
+A pessoa com deficiência deve ser protegida contra negligência, discriminação, exploração, violência, tortura, crueldade, opressão e tratamento desumano ou degradante. Para essa proteção, a lei considera especialmente vulneráveis a **criança, o adolescente, a mulher e a pessoa idosa com deficiência**.
 
-- necessário e adequado;
-- requerido no caso concreto;
-- sem ônus desproporcional e indevido;
-- destinado ao exercício igual de direitos e liberdades.
+Há dois deveres de comunicação que precisam ser separados:
 
-Adaptação razoável não é favor. Sua recusa integra o conceito legal de discriminação.
+- **regra geral do artigo 7º**: é dever de todos comunicar à autoridade competente ameaça ou violação de direitos; juízes e tribunais que conheçam fatos caracterizadores devem remeter peças ao Ministério Público;
+- **regra de saúde do artigo 26**: serviços de saúde **públicos e privados** devem notificar compulsoriamente suspeita ou confirmação de violência à autoridade policial, ao Ministério Público e aos Conselhos dos Direitos da Pessoa com Deficiência.
 
-### 5.8 Pessoa com mobilidade reduzida
+Para o artigo 26, violência é ação ou omissão, em local público ou privado, que cause morte, dano ou sofrimento físico ou psicológico. A maioridade da vítima não elimina a notificação.
 
-Pessoa com dificuldade de movimentação permanente ou temporária, com redução efetiva de mobilidade, flexibilidade, coordenação motora ou percepção. A enumeração inclui:
+### 3.2 O dever é compartilhado
 
-- idoso;
-- gestante;
-- lactante;
-- pessoa com criança de colo;
-- obeso.
+O artigo 8º atribui ao **Estado, à sociedade e à família** o dever de assegurar, com prioridade, a efetivação de amplo conjunto de direitos: vida, saúde, sexualidade, paternidade e maternidade, alimentação, habitação, educação, profissionalização, trabalho, previdência, habilitação e reabilitação, transporte, acessibilidade, cultura, esporte, turismo, lazer, informação, comunicação, avanços científicos e tecnológicos, dignidade, respeito, liberdade e convivência familiar e comunitária, entre outros.
 
-Pessoa com mobilidade reduzida não é necessariamente pessoa com deficiência.
+O rol não é fechado. A lógica é sistêmica: participação plena depende de vários ambientes e políticas funcionando em conjunto.
 
-### 5.9 Atendente, apoio escolar e acompanhante
+## 4. Autonomia é a regra
 
-| Figura | Função |
-|---|---|
-| atendente pessoal | membro ou não da família, remunerado ou não, presta cuidados básicos e essenciais nas atividades diárias; exclui técnicas de profissão regulamentada |
-| profissional de apoio escolar | atua em alimentação, higiene, locomoção e atividades escolares necessárias, em todos os níveis e modalidades, em instituições públicas e privadas; exclui técnicas de profissão regulamentada |
-| acompanhante | acompanha a pessoa e pode ou não exercer função de atendente pessoal |
+Uma das mudanças mais importantes trazidas pelo Estatuto é impedir que “deficiência” seja usada como atalho para “incapacidade”. O artigo 6º afirma que a deficiência **não afeta a plena capacidade civil da pessoa**, inclusive para:
 
-### 5.10 Moradias
-
-- **residência inclusiva:** unidade do <abbr title="Sistema Único de Assistência Social">Suas</abbr> em área residencial da comunidade para jovens e adultos com deficiência em situação de dependência, sem autossustentação e com vínculos fragilizados ou rompidos;
-- **moradia para vida independente:** estrutura com apoios coletivos ou individuais que respeitam e ampliam autonomia.
-
-### 5.11 Necessidades complexas de comunicação
-
-A Lei nº 15.249/2025 acrescentou o artigo 3º, XV. A definição alcança quem possui dificuldade significativa para compreender ou expressar mensagens por formas convencionais e necessita de estratégias alternativas ou aumentativas.
-
-Não se trata de nova categoria autônoma de deficiência. É uma definição funcional de necessidade comunicacional.
-
-## 6. Igualdade, discriminação e proteção
-
-### 6.1 Discriminação
-
-O artigo 4º protege igualdade de oportunidades. Discriminação pode ocorrer:
-
-- por ação ou omissão;
-- com propósito ou efeito de prejudicar, impedir ou anular direitos;
-- por recusa de adaptação razoável;
-- por recusa de tecnologia assistiva.
-
-Não é necessário que o agente confesse intenção discriminatória: o efeito também basta.
-
-A pessoa com deficiência **não é obrigada** a usufruir benefício de ação afirmativa.
-
-### 6.2 Proteção contra violência
-
-A proteção alcança negligência, discriminação, exploração, violência, tortura, crueldade, opressão e tratamento desumano ou degradante.
-
-São especialmente vulneráveis, quando possuem deficiência:
-
-- criança;
-- adolescente;
-- mulher;
-- idoso.
-
-### 6.3 Dever de comunicar
-
-É dever de **todos** comunicar à autoridade competente ameaça ou violação de direitos. Juízes e tribunais que conheçam fatos caracterizadores devem remeter peças ao Ministério Público.
-
-O artigo 26 estabelece notificação compulsória pelos serviços públicos e privados de saúde em caso de suspeita ou confirmação de violência. A comunicação vai para:
-
-- autoridade policial;
-- Ministério Público;
-- Conselhos dos Direitos da Pessoa com Deficiência.
-
-Violência inclui ação ou omissão que cause morte, dano ou sofrimento físico ou psicológico, em local público ou privado.
-
-### 6.4 Dever compartilhado de efetivação
-
-É dever do **Estado, da sociedade e da família** assegurar, **com prioridade**, a efetivação dos direitos da pessoa com deficiência. O artigo 8º enumera, entre outros:
-
-- vida, saúde, sexualidade, paternidade, maternidade e alimentação;
-- habitação, educação, profissionalização, trabalho e previdência;
-- habilitação, reabilitação, transporte e acessibilidade;
-- cultura, desporto, turismo, lazer, informação e comunicação;
-- avanços científicos e tecnológicos, dignidade, respeito, liberdade e convivência familiar e comunitária.
-
-A enumeração não é fechada: alcança outros direitos previstos na Constituição, na Convenção e nas leis.
-
-## 7. Capacidade civil e relações familiares
-
-A deficiência **não afeta a plena capacidade civil**, inclusive para:
-
-- casar e constituir união estável;
+- casar-se e constituir união estável;
 - exercer direitos sexuais e reprodutivos;
-- decidir o número de filhos;
-- obter informação sobre reprodução e planejamento familiar;
-- conservar a fertilidade;
-- exercer convivência familiar e comunitária;
-- exercer guarda, tutela, curatela e adoção, como adotante ou adotando.
+- decidir sobre número de filhos e acessar informação sobre reprodução e planejamento familiar;
+- conservar a fertilidade, sendo vedada a esterilização compulsória;
+- exercer o direito à família e à convivência familiar e comunitária;
+- exercer guarda, tutela, curatela e adoção, como adotante ou adotando, em igualdade de oportunidades.
 
-A esterilização compulsória é vedada.
+Esse ponto deve acompanhar todo o restante do capítulo: **apoio não é substituição automática de vontade**.
 
-### 7.1 Capacidade não elimina apoio
+### 4.1 Vida, tratamento e consentimento
 
-Reconhecer capacidade não significa abandonar quem necessita de suporte. A LBI substitui restrições automáticas por medidas individualizadas, proporcionais e orientadas à vontade e às preferências da pessoa.
+A dignidade deve ser garantida ao longo de toda a vida. A pessoa com deficiência não pode ser obrigada a se submeter a intervenção clínica ou cirúrgica, tratamento ou institucionalização forçada.
 
-## 8. Atendimento prioritário
+Como regra, tratamento, procedimento, hospitalização e pesquisa científica exigem **consentimento prévio, livre e esclarecido**. Se a pessoa estiver em situação de curatela, sua participação deve ser assegurada **no maior grau possível**; eventual suprimento do consentimento somente ocorre na forma da lei.
 
-O artigo 9º assegura prioridade sobretudo para:
+Pesquisa científica com pessoa em tutela ou curatela é excepcional: exige indícios de benefício direto para sua saúde ou para a saúde de outras pessoas com deficiência e inexistência de alternativa de eficácia comparável com participantes não tutelados ou curatelados.
 
-- proteção e socorro;
-- instituições e serviços de atendimento ao público;
-- recursos humanos e tecnológicos;
-- pontos de parada, estações e terminais acessíveis de transporte coletivo, com segurança no embarque e no desembarque;
-- informação e comunicação;
-- restituição de imposto de renda;
-- tramitação de processos e procedimentos judiciais e administrativos.
+Atendimento sem consentimento prévio somente é admitido em **risco de morte ou emergência em saúde**, com preservação do superior interesse e adoção das salvaguardas legais cabíveis.
 
-### 8.1 Extensão ao acompanhante
+### 4.2 Atendimento prioritário: prioridade não apaga a autonomia
 
-A prioridade estende-se ao acompanhante ou atendente pessoal, **exceto**:
+A pessoa com deficiência tem direito a atendimento prioritário, sobretudo para proteção e socorro, atendimento ao público, recursos humanos e tecnológicos, transporte acessível e seguro, informação e comunicação acessíveis, restituição do imposto de renda e tramitação processual ou administrativa.
 
-1. restituição de imposto de renda;
-2. tramitação processual e procedimentos.
+A maioria dessas prioridades se estende ao acompanhante ou atendente pessoal. Há duas exceções expressas: **restituição do imposto de renda** e **tramitação de processos e procedimentos** não se estendem ao acompanhante ou atendente.
 
-Nos serviços de emergência, a prioridade é condicionada aos protocolos de atendimento médico.
+Em serviços de emergência públicos e privados, a prioridade é condicionada aos **protocolos de atendimento médico**. Prioridade jurídica não autoriza ignorar a gravidade clínica.
 
-## 9. Vida, autonomia e consentimento
+O regime geral da Lei nº 10.048/2000, com seu rol atual de beneficiários e regras de fila, pertence ao Assunto 100.
 
-O poder público deve garantir dignidade ao longo de toda a vida e proteção especial em risco, emergência ou calamidade.
+## 5. Direitos fundamentais: a mesma lógica em ambientes diferentes
 
-A pessoa não pode ser obrigada a:
+Os capítulos de direitos da <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> aplicam a mesma ideia em áreas distintas: remover barreiras, oferecer apoios e permitir participação em igualdade. Em vez de decorar capítulos isolados, pergunte em cada área **qual participação está protegida, qual barreira deve ser removida e que suporte a lei exige**.
 
-- intervenção clínica ou cirúrgica;
-- tratamento;
-- institucionalização forçada.
+### 5.1 Habilitação e reabilitação: ampliar possibilidades de participação
 
-O consentimento prévio, livre e esclarecido é indispensável para tratamento, procedimento, hospitalização e pesquisa científica.
+Habilitação e reabilitação são direitos. O objetivo não é “normalizar” a pessoa, mas desenvolver potencialidades, talentos, habilidades e aptidões físicas, cognitivas, sensoriais, psicossociais, atitudinais, profissionais e artísticas que contribuam para autonomia e participação social.
 
-### 9.1 Curatela e consentimento
-
-O consentimento de pessoa sob curatela pode ser suprido na forma da lei, mas sua participação deve ser assegurada no **maior grau possível**.
-
-Pesquisa com pessoa tutelada ou curatelada é excepcional e exige:
-
-- indício de benefício direto para sua saúde ou a de outras pessoas com deficiência; e
-- inexistência de opção de eficácia comparável com participantes não tutelados ou curatelados.
-
-Atendimento sem consentimento só é admitido em risco de morte ou emergência em saúde, preservado o superior interesse e as salvaguardas legais.
-
-## 10. Habilitação e reabilitação
-
-O processo é direito da pessoa e busca desenvolver potencialidades, talentos, habilidades e aptidões:
-
-- físicas;
-- cognitivas;
-- sensoriais;
-- psicossociais;
-- atitudinais;
-- profissionais;
-- artísticas.
-
-O objetivo é autonomia e participação social em igualdade.
-
-O processo baseia-se em avaliação **multidisciplinar** das necessidades, habilidades e potencialidades de cada pessoa. Não confunda essa avaliação individual dos programas de habilitação com a avaliação biopsicossocial do artigo 2º.
-
-Diretrizes:
+O processo parte de **avaliação multidisciplinar das necessidades, habilidades e potencialidades** e deve observar, entre outras diretrizes:
 
 - diagnóstico e intervenção precoces;
-- medidas compensatórias de perda ou limitação funcional;
-- políticas permanentes, integradas e articuladas;
-- rede articulada e intersetorial, em diferentes níveis de complexidade;
-- serviços próximos ao domicílio, inclusive rural;
-- organização, métodos, técnicas, tecnologia assistiva e recursos individualizados e acessíveis;
+- medidas para compensar perda ou limitação funcional e desenvolver aptidões;
+- atuação permanente, integrada e articulada de políticas públicas;
+- rede de serviços articulados e intersetoriais;
+- serviços próximos ao domicílio, inclusive em zona rural;
+- acessibilidade, tecnologia assistiva, materiais, equipamentos e apoio técnico adequados;
 - capacitação continuada dos profissionais.
 
-<abbr title="Sistema Único de Saúde">SUS</abbr> e Suas devem articular informação, orientação e acesso às políticas públicas.
+Não confunda essa avaliação multidisciplinar, voltada ao processo de habilitação e reabilitação, com a avaliação **biopsicossocial, multiprofissional e interdisciplinar** do artigo 2º para caracterização da deficiência.
 
-## 11. Direito à saúde
+Os serviços do <abbr title="Sistema Único de Saúde">SUS</abbr> e do <abbr title="Sistema Único de Assistência Social">Suas</abbr> devem atuar de forma articulada para orientar a pessoa e sua família sobre acesso às políticas públicas.
 
-A LBI garante atenção integral em todos os níveis de complexidade pelo SUS, com acesso universal e igualitário.
+### 5.2 Saúde: integralidade, acesso e participação
 
-Inclui:
+A pessoa com deficiência tem direito à atenção integral à saúde em todos os níveis de complexidade, por meio do <abbr title="Sistema Único de Saúde">SUS</abbr>, com acesso universal e igualitário. A própria pessoa participa da elaboração das políticas de saúde a ela destinadas.
 
-- participação na formulação de políticas;
-- atendimento ético, técnico, digno e autônomo;
-- diagnóstico e intervenção precoces;
-- habilitação e reabilitação;
-- atendimento domiciliar, ambulatorial e hospitalar;
-- vacinação;
-- atendimento psicológico;
-- respeito à especificidade, à identidade de gênero e à orientação sexual;
-- saúde sexual e reprodutiva, inclusive fertilização assistida;
-- informação adequada e acessível;
-- prevenção de deficiências evitáveis;
-- capacitação permanente das equipes do SUS em todos os níveis e orientação aos atendentes pessoais;
-- órteses, próteses, medicamentos, insumos e fórmulas nutricionais conforme normas.
+Entre os deveres da saúde pública estão diagnóstico e intervenção precoces, habilitação e reabilitação, atendimento domiciliar multidisciplinar, tratamento ambulatorial e internação, vacinação, atenção sexual e reprodutiva, informação acessível, prevenção de deficiências e agravos, capacitação das equipes e oferta de órteses, próteses, meios auxiliares de locomoção, medicamentos e insumos segundo as normas vigentes.
 
-A Lei nº 15.280/2025 reforçou o atendimento psicológico, inclusive para familiares e atendentes pessoais, especialmente em vitimização por crime contra a dignidade sexual.
+Duas alterações anteriores ao corte do edital merecem atenção:
 
-### 11.1 Prevenção de causas evitáveis
+- a Lei nº 14.510/2022 incluiu, entre as ações de prevenção de deficiências por causas evitáveis, o aprimoramento do atendimento neonatal para prevenir danos cerebrais e sequelas neurológicas, **inclusive por telessaúde**;
+- a Lei nº 15.280/2025 passou a destacar atendimento psicológico à pessoa com deficiência, seus familiares e atendentes pessoais, especialmente em caso de vitimização por crime contra a dignidade sexual.
 
-O SUS deve desenvolver ações de prevenção, incluindo:
+A Lei nº 15.249/2025 também determinou que serviços públicos de saúde implementem sistemas de **<abbr title="recursos que complementam ou substituem formas convencionais de comunicação">comunicação aumentativa e alternativa de baixa tecnologia</abbr>** e promovam capacitação permanente das equipes para o atendimento de pessoas com necessidades complexas de comunicação.
 
-- acompanhamento da gravidez, parto e puerpério, com parto humanizado e seguro;
-- promoção de práticas alimentares adequadas e saudáveis, vigilância alimentar e nutricional e prevenção e cuidado integral dos agravos relacionados à alimentação e nutrição da mulher e da criança;
-- imunização e triagem neonatal;
-- identificação e controle da gestante de alto risco;
-- aprimoramento do atendimento neonatal, com prevenção de danos cerebrais e sequelas neurológicas em recém-nascidos, inclusive por telessaúde.
+Planos e seguros privados de saúde devem oferecer, no mínimo, os mesmos produtos e serviços disponibilizados aos demais clientes e não podem cobrar valores diferenciados em razão da deficiência.
 
-O último item foi acrescentado pela Lei nº 14.510/2022.
+Se os meios de atenção se esgotarem no local de residência, deve ser assegurado atendimento fora do domicílio, inclusive com transporte e acomodação da pessoa e do acompanhante. Na internação ou observação, a regra é a permanência em tempo integral do acompanhante ou atendente pessoal; a impossibilidade exige **justificativa escrita do profissional responsável** e providências da instituição para suprir a ausência.
 
-### 11.2 Planos e seguros
+Os espaços de serviços de saúde, públicos e privados, também devem assegurar acesso mediante remoção de barreiras. A obrigação de acessibilidade não é facultativa para o setor privado.
 
-Devem oferecer, no mínimo, todos os serviços e produtos ofertados aos demais clientes. É vedada cobrança diferenciada em razão da deficiência.
+### 5.3 Educação: inclusão, permanência e aprendizagem
 
-### 11.3 Atendimento fora do domicílio
+A educação é assegurada em **sistema educacional inclusivo em todos os níveis e modalidades**, com aprendizado ao longo da vida. O objetivo não é apenas matrícula: é máximo desenvolvimento de talentos e habilidades conforme características, interesses e necessidades de aprendizagem.
 
-Esgotados os meios no local de residência, deve ser prestado atendimento fora do domicílio para diagnóstico e tratamento, com transporte e acomodação da pessoa e de seu acompanhante.
+A implementação combina medidas coletivas e individualizadas. Entre as obrigações do poder público estão:
 
-### 11.4 Internação e observação
+- acesso, permanência, participação e aprendizagem com eliminação de barreiras;
+- projeto pedagógico que institucionalize atendimento educacional especializado, serviços de acessibilidade e adaptações razoáveis;
+- educação bilíngue em <abbr title="Língua Brasileira de Sinais">Libras</abbr> como primeira língua e português escrito como segunda língua, nos termos legais;
+- estudo de caso, plano de atendimento educacional especializado e organização dos recursos de acessibilidade;
+- participação dos estudantes e de suas famílias na comunidade escolar;
+- formação de professores e disponibilização de profissionais de apoio, tradutores, intérpretes e guias-intérpretes;
+- ensino de <abbr title="Língua Brasileira de Sinais">Libras</abbr>, <abbr title="Sistema de leitura e escrita tátil">Sistema Braille</abbr> e uso de tecnologia assistiva;
+- acesso à educação superior e profissional em igualdade;
+- acessibilidade nas edificações, ambientes e atividades escolares;
+- articulação intersetorial das políticas públicas.
 
-Há direito a acompanhante ou atendente pessoal em tempo integral. Se sua permanência for impossível:
+A Lei nº 15.249/2025 acrescentou ao artigo 28 o inciso XIX, relativo a <abbr title="recursos que complementam ou substituem formas convencionais de comunicação">sistemas de comunicação aumentativa e alternativa de baixa tecnologia</abbr> no atendimento educacional especializado de estudantes com necessidades complexas de comunicação.
 
-1. o profissional responsável justifica por escrito;
-2. a instituição adota providências para suprir a ausência.
+**Atenção à literalidade:** o § 1º do artigo 28 enumera quais incisos se aplicam obrigatoriamente às instituições privadas e **não foi atualizado para incluir expressamente o inciso XIX**. Não transforme automaticamente uma obrigação dirigida ao poder público em item do rol literal do § 1º.
 
-### 11.5 Serviços, informações e comunicação em saúde
+As instituições privadas estão submetidas aos deveres inclusivos expressamente indicados no § 1º e não podem cobrar valores adicionais em mensalidades, anuidades ou matrículas para cumpri-los. O <abbr title="Supremo Tribunal Federal">STF</abbr>, na Ação Direta de Inconstitucionalidade 5.357, reconheceu a constitucionalidade dessas obrigações de educação inclusiva e da vedação ao repasse de custos adicionais.
 
-A pessoa deve acessar serviços públicos e privados e informações prestadas ou recebidas mediante tecnologia assistiva e as formas legais de comunicação.
+Nos processos seletivos para ensino superior e educação profissional e tecnológica, a lei prevê formulário para indicação de recursos necessários, provas em formatos acessíveis, recursos de acessibilidade e tecnologia assistiva previamente solicitados e escolhidos pelo candidato e **dilação de tempo conforme demanda previamente apresentada e necessidade comprovada**. Tempo adicional não é automático nem substitui os demais recursos.
 
-Desde a Lei nº 15.249/2025, serviços públicos de saúde devem implementar sistemas de comunicação aumentativa e alternativa de baixa tecnologia e capacitar permanentemente as equipes para pessoas com necessidades complexas de comunicação.
+### 5.4 Moradia, trabalho, assistência e previdência: participação social com escolha
 
-## 12. Direito à educação
+**Moradia.** A pessoa pode viver com família natural ou substituta, cônjuge ou companheiro, desacompanhada, em moradia para a vida independente ou em residência inclusiva. Em programas habitacionais públicos ou subsidiados com recursos públicos, há prioridade e reserva de **no mínimo 3%** das unidades para pessoa com deficiência. A prioridade é reconhecida à pessoa beneficiária apenas uma vez; se não houver interessado nas unidades reservadas, elas são disponibilizadas às demais pessoas. Nos programas públicos, o financiamento deve ser compatível com a renda da pessoa ou da família.
 
-A educação é assegurada em sistema inclusivo:
+**Trabalho.** A pessoa tem direito ao trabalho de livre escolha e aceitação, em ambiente acessível e inclusivo e em igualdade de oportunidades. Pessoas jurídicas de direito público, privado ou de qualquer natureza devem garantir ambiente acessível e inclusivo. A lei assegura condições justas e favoráveis, **igual remuneração por trabalho de igual valor**, acesso a formação e capacitação e veda discriminação em recrutamento, seleção, contratação, exames, permanência, ascensão e reabilitação profissional, inclusive a exigência de **aptidão plena**. A operacionalização da inclusão no trabalho e do trabalho com apoio é aprofundada no Assunto 099.
 
-- em todos os níveis e modalidades;
-- ao longo de toda a vida;
-- para máximo desenvolvimento possível;
-- segundo características, interesses e necessidades de aprendizagem.
+**Assistência social.** A pessoa que não disponha de meios para prover a própria subsistência nem de tê-la provida pela família tem assegurado benefício mensal de um salário mínimo, nos termos da Lei nº 8.742/1993, a <abbr title="Lei Orgânica da Assistência Social">LOAS</abbr>. Trata-se do <abbr title="Benefício de Prestação Continuada">BPC</abbr>, que depende dos requisitos legais; não é benefício automático decorrente de qualquer deficiência.
 
-Estado, família, comunidade escolar e sociedade devem assegurar educação de qualidade e proteção contra violência, negligência e discriminação.
+**Previdência.** A pessoa com deficiência segurada do <abbr title="Regime Geral de Previdência Social">RGPS</abbr> tem direito à aposentadoria nos termos da Lei Complementar nº 142/2013. Benefício previdenciário contributivo e <abbr title="Benefício de Prestação Continuada">BPC</abbr> assistencial têm pressupostos diferentes.
 
-Deveres centrais incluem:
+### 5.5 Cultura, transporte e mobilidade: participar dos mesmos espaços
 
-- acesso, permanência, participação e aprendizagem;
-- atendimento educacional especializado;
-- projeto pedagógico que institucionalize o atendimento especializado e as adaptações razoáveis;
-- estudo de caso, plano de atendimento educacional especializado, organização de recursos e usabilidade pedagógica da tecnologia assistiva;
-- oferta de educação bilíngue, com Libras como primeira língua e português escrito como segunda;
-- medidas individuais e coletivas;
-- participação do estudante e da família;
-- medidas de apoio ao desenvolvimento linguístico, cultural, vocacional e profissional, conforme talentos, criatividade, habilidades e interesses;
-- pesquisa e desenvolvimento de métodos, materiais, equipamentos e tecnologia assistiva;
-- práticas pedagógicas inclusivas na formação inicial e continuada de professores e formação continuada para o atendimento educacional especializado;
-- ensino de Libras, Braille e recursos de tecnologia assistiva;
-- formação e disponibilização de professores, tradutores, guias-intérpretes e profissionais de apoio escolar;
-- acessibilidade às edificações, aos ambientes e às atividades em todas as modalidades, etapas e níveis de ensino;
-- acesso ao ensino superior e profissional em igualdade;
-- participação em jogos e atividades recreativas, esportivas e de lazer;
-- inclusão de temas relativos à pessoa com deficiência em currículos superiores e técnicos;
-- articulação intersetorial;
-- sistemas de comunicação aumentativa e alternativa de baixa tecnologia no atendimento especializado de estudantes com necessidades complexas.
+Cultura, esporte, turismo e lazer devem ser acessíveis em igualdade de oportunidades. A lei garante acesso a bens e atividades em formato acessível e proíbe recusar obra intelectual em formato acessível sob alegação de proteção da propriedade intelectual.
 
-Na educação básica, tradutores e intérpretes de Libras devem possuir, no mínimo, ensino médio completo e certificado de proficiência. Na graduação e pós-graduação, devem possuir nível superior, com habilitação prioritariamente em Tradução e Interpretação em Libras.
+O direito geral ao transporte e à mobilidade é realizado em igualdade de oportunidades mediante identificação e eliminação de obstáculos e barreiras. Percentuais de vagas, regras de veículos, terminais, táxis, locadoras, hospedagem, eventos e outras exigências operacionais pertencem ao Assunto 099.
 
-O artigo 29 foi **vetado**; não lhe atribua obrigação educacional inexistente no texto vigente.
+### 5.6 Vida pública, política e acesso à justiça
 
-### 12.1 Instituições privadas
+A pessoa com deficiência tem todos os direitos políticos e deve poder exercê-los em igualdade. A lei assegura o direito de **votar e ser votada**, proíbe seções eleitorais exclusivas e determina acessibilidade dos procedimentos, instalações, materiais e equipamentos de votação. Quando necessário e **a seu pedido**, a pessoa pode ser auxiliada na votação por pessoa de sua escolha.
 
-Devem cumprir as obrigações legais sem cobrança adicional de qualquer natureza em mensalidade, anuidade ou matrícula.
+No acesso à justiça, devem ser garantidas adaptações e recursos de tecnologia assistiva sempre que requeridos. A proteção alcança a pessoa com deficiência como parte, testemunha, participante da lide, advogado, defensor público, magistrado ou membro do Ministério Público. O conteúdo de atos processuais de seu interesse também deve ser acessível.
 
-O <abbr title="Supremo Tribunal Federal">STF</abbr>, na ADI 5.357/DF, confirmou a constitucionalidade do dever de inclusão pelas escolas privadas e da proibição de cobrança adicional.
+O poder público deve capacitar membros e servidores do Judiciário, Ministério Público, Defensoria Pública, segurança pública e sistema penitenciário. Pessoa submetida a medida restritiva de liberdade conserva os direitos e garantias dos demais apenados, com acessibilidade.
 
-A Lei nº 15.249/2025 acrescentou o inciso XIX ao artigo 28, com sistemas de comunicação aumentativa e alternativa de baixa tecnologia no atendimento educacional especializado. Na literalidade vigente, porém, o § 1º continua enumerando expressamente os incisos aplicáveis às instituições privadas e **não inclui o inciso XIX**. Em questão de letra da lei, não acrescente esse inciso ao rol do § 1º; isso não afasta os demais deveres legais de inclusão das instituições privadas.
+Serviços notariais e de registro não podem negar serviço, criar obstáculo ou impor condição diferenciada em razão da deficiência; devem reconhecer a **capacidade legal plena** e garantir acessibilidade.
 
-### 12.2 Processos seletivos
+## 6. Capacidade legal: curatela não é regra geral
 
-Devem assegurar:
+A autonomia estudada desde o início reaparece de forma explícita no artigo 84: a pessoa com deficiência tem assegurado o exercício de sua capacidade legal em igualdade de condições com as demais pessoas.
 
-- formulário para informar recursos necessários;
-- provas em formatos acessíveis;
-- recursos previamente solicitados e escolhidos;
-- tempo adicional, quando comprovadamente necessário;
-- critérios que considerem singularidade linguística;
-- tradução integral do edital e retificações em Libras.
+A <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> alterou profundamente o regime de incapacidades do Código Civil. A incapacidade absoluta ficou restrita aos **menores de 16 anos**. A deficiência, por si só, deixou de ser fundamento automático de incapacidade. Entre as hipóteses de incapacidade relativa está a de quem, por causa transitória ou permanente, **não puder exprimir sua vontade**: o fundamento é essa impossibilidade de expressão, não o rótulo de deficiência.
 
-## 13. Moradia
+O <abbr title="Superior Tribunal de Justiça">STJ</abbr>, no Recurso Especial 1.927.423, reafirmou que um adulto não pode ser declarado absolutamente incapaz com base em enfermidade ou deficiência: após a reforma legislativa, a incapacidade absoluta é etária, restrita aos menores de 16 anos.
 
-A pessoa pode morar:
+### 6.1 Curatela: extraordinária, proporcional e limitada
 
-- com família natural ou substituta;
-- com cônjuge ou companheiro;
-- desacompanhada;
-- em moradia para vida independente;
-- em residência inclusiva.
+Quando necessária, a curatela é **medida protetiva extraordinária**, proporcional às necessidades e circunstâncias do caso e com duração pelo menor tempo possível. A sentença deve indicar razões e limites individualizados, e o curador presta contas anualmente.
 
-Em programas públicos ou subsidiados:
+Seu alcance é decisivo: a curatela afeta **somente atos de natureza patrimonial e negocial**. Não alcança direito ao próprio corpo, sexualidade, matrimônio, privacidade, educação, saúde, trabalho e voto.
 
-- há prioridade para a pessoa ou responsável;
-- reserva-se no mínimo **3%** das unidades;
-- a prioridade é reconhecida apenas uma vez;
-- unidades não demandadas são destinadas às demais pessoas;
-- financiamento deve ser compatível com a renda.
+Também não se exige curatela para emissão de documentos oficiais. Em situação de relevância e urgência, o juiz pode nomear curador provisório, ouvido o Ministério Público, observadas as regras legais.
 
-Requisitos técnicos de projeto e acessibilidade habitacional ficam no Assunto 099.
+No procedimento atual, o Código de Processo Civil determina que a sentença considere as características pessoais da pessoa, observando **potencialidades, habilidades, vontades e preferências**. Em paralelo, o artigo 12 da Convenção exige que as medidas relativas ao exercício da capacidade legal respeitem direitos, vontade e preferências, sejam isentas de conflito de interesses e influência indevida, proporcionais e apropriadas às circunstâncias e aplicadas pelo período mais curto possível. São comandos convergentes, mas não uma única lista literal do mesmo dispositivo. A lei também admite curatela compartilhada.
 
-## 14. Trabalho e habilitação profissional
+A mensagem de prova é simples: **curatela protege sem apagar a pessoa**. Mesmo quando há limitação patrimonial ou negocial, direitos existenciais permanecem fora do alcance da medida.
 
-A pessoa tem direito a trabalho de livre escolha e aceitação em ambiente acessível e inclusivo, com igualdade de oportunidades.
+## 7. Tomada de decisão apoiada: suporte para decidir, não decisão por substituição
 
-Garantias:
+A tomada de decisão apoiada concretiza outra possibilidade: em vez de substituir a vontade, cria-se uma estrutura formal para que a própria pessoa decida com apoio.
 
-- condições justas e favoráveis;
-- remuneração igual por trabalho de igual valor;
-- vedação de discriminação em recrutamento, contratação, exames, permanência, promoção e reabilitação;
-- proibição de exigência de aptidão plena;
-- acesso a treinamento, carreira, promoção e incentivos;
-- participação em empreendedorismo, trabalho autônomo, cooperativismo e associativismo.
+O Código Civil, após a <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>, estabelece o seguinte fluxo:
 
-A habilitação e a reabilitação profissional devem respeitar livre escolha, vocação e interesse.
+1. **iniciativa da própria pessoa** a ser apoiada;
+2. escolha de **pelo menos duas pessoas idôneas**, com vínculo e confiança;
+3. apresentação de termo com limites do apoio, compromissos dos apoiadores, prazo de vigência e respeito à vontade, aos direitos e aos interesses da pessoa;
+4. antes de decidir, o juiz, assistido por equipe multidisciplinar e após ouvir o Ministério Público, ouve pessoalmente o requerente e os apoiadores;
+5. a decisão da pessoa apoiada, dentro dos limites acordados, produz validade e efeitos perante terceiros **sem restrições**.
 
-Colocação competitiva, trabalho com apoio e deveres operacionais de processos seletivos serão estudados no Assunto 099.
+Terceiro que mantenha relação negocial com a pessoa apoiada pode solicitar que os apoiadores contra-assinem o contrato ou acordo, especificando por escrito sua função. Se negócio jurídico puder trazer risco ou prejuízo relevante e houver divergência entre pessoa apoiada e apoiador, o juiz decide, ouvido o Ministério Público.
 
-## 15. Assistência social e previdência
+Se apoiador agir com negligência, exercer pressão indevida ou descumprir obrigações, a pessoa apoiada **ou qualquer pessoa** pode apresentar denúncia ao Ministério Público ou ao juiz. Sendo procedente, o apoiador é destituído; outro somente será nomeado ouvida a pessoa apoiada e se isso for de seu interesse.
 
-### 15.1 Assistência
+A pessoa apoiada pode pedir o término do acordo a qualquer tempo. O apoiador, por sua vez, pode pedir sua saída, mas o desligamento depende de manifestação judicial.
 
-A política de assistência busca:
+O <abbr title="Superior Tribunal de Justiça">STJ</abbr>, no Recurso Especial 1.795.395, assentou que a tomada de decisão apoiada não é medida a ser imposta de ofício: a legitimidade para requerê-la pertence à própria pessoa a ser apoiada. Isso combina com a estrutura do instituto — escolha, confiança e autodeterminação são seus pressupostos.
 
-- segurança de renda e acolhida;
-- habilitação e reabilitação;
-- autonomia;
-- convivência familiar e comunitária;
-- acesso a direitos e participação.
+### 7.1 Curatela e apoio lado a lado
 
-Articula Proteção Social Básica e Especial no Suas. Serviços destinados à pessoa em dependência devem contar com cuidadores sociais.
+| Curatela | Tomada de decisão apoiada |
+|---|---|
+| medida extraordinária e protetiva | mecanismo facultativo de suporte |
+| pode limitar atos patrimoniais e negociais | preserva o exercício da capacidade pela própria pessoa |
+| limites são definidos judicialmente conforme o caso | limites do apoio constam do termo apresentado pela pessoa e apoiadores |
+| curador atua dentro dos poderes fixados | apoiadores fornecem elementos e informações para a pessoa decidir |
 
-### 15.2 Benefício assistencial
+A comparação evita o erro mais comum: imaginar que toda necessidade de ajuda produz incapacidade ou curatela.
 
-A pessoa sem meios de prover a subsistência nem de tê-la provida pela família tem direito a benefício mensal de um salário mínimo **nos termos da <abbr title="Lei Orgânica da Assistência Social">LOAS</abbr>**.
+## 8. Vigência, corte do edital e integração normativa
 
-O benefício não é automático para toda pessoa com deficiência.
+O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> cobra o “Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015 e suas alterações)”. O item 13.32 do edital fixa a regra de corte: **alterações legislativas com entrada em vigor até a data de publicação do edital, 6 de julho de 2026, podem ser avaliadas**, ainda que não apareçam expressamente no objeto de avaliação.
 
-### 15.3 Previdência
+Portanto, uma conferência editorial posterior serve para detectar mudanças e conflitos, mas **não amplia o corte da prova**. Para este assunto, entram, entre outras já incorporadas ao texto legal até o corte:
 
-A pessoa com deficiência segurada do <abbr title="Regime Geral de Previdência Social">RGPS</abbr> tem direito à aposentadoria conforme a Lei Complementar nº 142/2013. Não confunda aposentadoria contributiva com benefício assistencial.
-
-## 16. Cultura, esporte, turismo e lazer
-
-São garantidos em igualdade de oportunidades, incluindo acesso a:
-
-- bens culturais em formato acessível;
-- televisão, cinema, teatro e atividades culturais e desportivas;
-- monumentos e locais de importância cultural;
-- espaços de serviços ou eventos.
-
-É vedada a recusa de obra intelectual em formato acessível sob qualquer argumento, inclusive propriedade intelectual.
-
-O poder público deve promover protagonismo em atividades artísticas, intelectuais, culturais, esportivas e recreativas.
-
-Regras técnicas de eventos, cinemas e hospedagem ficam no Assunto 099.
-
-## 17. Transporte e mobilidade como direito
-
-O direito geral exige igualdade de oportunidades mediante identificação e eliminação de obstáculos e barreiras.
-
-Certificação, vagas, credenciais, veículos, frotas, táxis e demais requisitos técnicos pertencem ao Assunto 099.
-
-## 18. Participação política
-
-A LBI garante direitos políticos em igualdade, inclusive:
-
-- votar e ser votado;
-- procedimentos, instalações, materiais e equipamentos acessíveis;
-- proibição de seções eleitorais exclusivas;
-- candidatura e exercício de funções públicas;
-- propaganda e debates com recursos de acessibilidade;
-- auxílio no voto, quando necessário, **a pedido** da pessoa e por pessoa **de sua escolha**;
-- participação em organizações políticas e representativas.
-
-## 19. Acesso à justiça
-
-A garantia vale em igualdade de oportunidades, com adaptações e tecnologia assistiva sempre que requeridas.
-
-Abrange atuação como:
-
-- parte;
-- testemunha;
-- partícipe da lide;
-- advogado;
-- defensor público;
-- magistrado;
-- membro do Ministério Público.
-
-Devem ser oferecidos todos os recursos de tecnologia assistiva disponíveis quando necessários à atuação. A pessoa tem capacidade legal para testemunhar em igualdade.
-
-O poder público deve capacitar membros e servidores que atuam no Judiciário, Ministério Público, Defensoria Pública, segurança pública e sistema penitenciário. Defensoria Pública e Ministério Público devem adotar as medidas necessárias para garantir esses direitos.
-
-Pessoa submetida a medida restritiva de liberdade conserva os direitos e garantias dos apenados sem deficiência, com acessibilidade. Os direitos da pessoa também devem ser garantidos na aplicação de sanções penais.
-
-O artigo 82 foi **vetado**; não se deve atribuir a ele conteúdo material inexistente no texto vigente.
-
-### 19.1 Serviços notariais e de registro
-
-Não podem negar serviço, criar obstáculos ou impor condições diferenciadas por deficiência. Devem reconhecer a capacidade legal plena e garantir acessibilidade. O descumprimento constitui discriminação.
-
-## 20. Capacidade legal e curatela
-
-A pessoa exerce capacidade legal em igualdade. Quando necessário, pode ter acesso a medidas individualizadas de proteção e apoio.
-
-### 20.1 Características da curatela
-
-A curatela é:
-
-- extraordinária;
-- proporcional às necessidades e circunstâncias;
-- fixada pelo menor tempo possível;
-- individualizada na sentença.
-
-Curadores prestam contas anualmente ao juiz.
-
-### 20.2 Alcance
-
-A curatela afeta **somente** atos de natureza patrimonial e negocial. Não alcança:
-
-- corpo;
-- sexualidade;
-- matrimônio;
-- privacidade;
-- educação;
-- saúde;
-- trabalho;
-- voto.
-
-A situação de curatela não pode ser exigida para emissão de documento oficial.
-
-Em relevância e urgência, ouvido o Ministério Público, o juiz pode nomear curador provisório de ofício ou a requerimento.
-
-### 20.3 Código Civil
-
-Após a LBI:
-
-- absolutamente incapazes são somente os menores de 16 anos;
-- deficiência mental ou intelectual não gera incapacidade automática;
-- é relativamente incapaz, entre outras hipóteses, quem, por causa transitória ou permanente, não puder exprimir vontade;
-- a curatela deve considerar potencialidades, vontade, preferências, conflito de interesses e influência indevida;
-- pode haver curatela compartilhada;
-- deve-se preservar convivência familiar e comunitária.
-
-Outras alterações civis relevantes:
-
-- a pessoa com deficiência pode testemunhar em igualdade de condições, com todos os recursos de tecnologia assistiva;
-- a deficiência não invalida o casamento;
-- a pessoa com deficiência mental ou intelectual em idade núbil pode expressar sua vontade de casar diretamente ou por meio de responsável ou curador;
-- deficiência deixou de integrar hipóteses automáticas de erro essencial sobre a pessoa no casamento.
-
-O <abbr title="Superior Tribunal de Justiça">STJ</abbr>, no REsp 1.927.423/SP, reafirmou que enfermidade ou deficiência mental não torna adulto absolutamente incapaz.
-
-## 21. Tomada de decisão apoiada
-
-É processo pelo qual a própria pessoa elege pelo menos **duas pessoas idôneas**, com vínculos e confiança, para fornecer elementos e informações em atos da vida civil.
-
-### 21.1 Constituição do apoio
-
-O pedido é formulado pela própria pessoa apoiada e contém:
-
-- indicação expressa dos apoiadores;
-- limites do apoio;
-- compromissos;
-- prazo de vigência;
-- respeito à vontade, aos direitos e aos interesses.
-
-O juiz:
-
-1. é assistido por equipe multidisciplinar;
-2. ouve o Ministério Público;
-3. ouve pessoalmente requerente e apoiadores.
-
-### 21.2 Efeitos e conflitos
-
-A decisão tomada dentro dos limites do apoio é válida perante terceiros **sem restrições**. O terceiro pode pedir contra-assinatura dos apoiadores.
-
-Em negócio com risco ou prejuízo relevante, divergência entre pessoa e apoiador pode ser submetida ao juiz, ouvido o Ministério Público.
-
-### 21.3 Encerramento e responsabilidade
-
-- a pessoa apoiada pode encerrar o apoio a qualquer tempo;
-- o apoiador pode pedir desligamento, sujeito a manifestação judicial;
-- negligência, pressão indevida ou descumprimento podem ser denunciados por qualquer pessoa;
-- apoiador pode ser destituído;
-- aplicam-se, no que couber, regras de prestação de contas da curatela.
-
-A tomada de decisão apoiada não pode ser imposta de ofício. O STJ, no REsp 1.795.395/MT, exige requerimento da própria pessoa e apoiadores por ela escolhidos.
-
-## 22. Alterações relevantes e integração normativa
-
-| Norma | Impacto neste recorte |
+| Alteração | Efeito relevante neste capítulo |
 |---|---|
 | Lei nº 14.510/2022 | prevenção neonatal, inclusive por telessaúde |
-| Lei nº 14.724/2023 | telemedicina ou análise documental no componente médico-pericial |
-| Lei nº 15.249/2025 | necessidades complexas de comunicação e sistemas de comunicação em saúde e educação |
-| Lei nº 15.280/2025 | atendimento psicológico, especialmente após crime contra dignidade sexual |
+| Lei nº 14.724/2023 | telemedicina ou análise documental no componente médico-pericial da avaliação biopsicossocial |
+| Lei nº 15.249/2025 | necessidades complexas de comunicação e novos deveres de comunicação aumentativa e alternativa |
+| Lei nº 15.280/2025 | reforço do atendimento psicológico, especialmente após crime contra a dignidade sexual |
 
-As quatro alterações estavam vigentes na publicação do edital.
+O artigo 121 impede outra simplificação perigosa: os direitos, prazos e obrigações da <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> não excluem proteções previstas em outras leis ou instrumentos internacionais aplicáveis. Havendo normas protetivas concorrentes, **prevalece a norma mais benéfica à pessoa com deficiência**.
 
-### 22.1 Norma mais benéfica
+## 9. Como raciocinar em questão
 
-O artigo 121 estabelece que os direitos, prazos e obrigações da LBI **não excluem** os já previstos em outras legislações ou em instrumentos internacionais aprovados e promulgados pelo Congresso Nacional. A aplicação deve ser compatível com as demais normas internas e acordos internacionais vinculantes sobre a matéria.
+Em uma situação concreta, percorra esta sequência:
 
-Havendo normas protetivas concorrentes, o parágrafo único fixa a regra: **prevalece a norma mais benéfica à pessoa com deficiência**.
+1. **há impedimento de longo prazo e interação com barreira?** Não confunda diagnóstico isolado com o conceito jurídico completo;
+2. **qual barreira ou desigualdade impede participação?** Pode ser física, comunicacional, atitudinal ou tecnológica;
+3. **qual instrumento responde ao problema?** Acessibilidade, desenho universal, adaptação razoável e tecnologia assistiva têm papéis distintos;
+4. **a alternativa presume incapacidade por causa da deficiência?** Desconfie: autonomia e capacidade são a regra;
+5. **há uma exceção literal?** Prioridade do acompanhante, emergência sem consentimento, alcance da curatela e requisitos do apoio são campos clássicos de troca de palavras;
+6. **o detalhe pertence a este assunto ou aos próximos?** Aqui estão fundamentos, direitos e garantias. O Assunto 099 aprofunda mecanismos operacionais de inclusão, acessibilidade e responsabilização; o Assunto 100 sistematiza as Leis nº 10.048/2000 e nº 10.098/2000.
 
-## 23. Fronteira com os próximos assuntos
-
-Ficam exclusivamente no Assunto 099:
-
-- cordão de girassóis como mecanismo de identificação;
-- projetos e execução de acessibilidade física, digital e comunicacional;
-- colocação competitiva e trabalho com apoio;
-- requisitos técnicos de eventos, hospedagem e transporte;
-- regras de desenho universal e tecnologia assistiva como política;
-- fiscalização, Cadastro-Inclusão e auxílio-inclusão;
-- crimes, infrações, sanções e responsabilização.
-
-Ficam no Assunto 100 as normas gerais das Leis nº 10.048/2000 e nº 10.098/2000.
-
-## 24. Pegadinhas centrais
-
-| Afirmação | Correção |
-|---|---|
-| diagnóstico basta para caracterizar deficiência | errado: conceito relacional e, quando necessária, avaliação biopsicossocial |
-| telemedicina substitui toda a avaliação | errado: alcança o componente médico-pericial |
-| adaptação razoável é mera liberalidade | errado: sua recusa pode ser discriminação |
-| benefício de ação afirmativa é obrigatório | errado: a pessoa não é obrigada a usufruí-lo |
-| deficiência limita capacidade civil | errado: não afeta plena capacidade por si só |
-| curatela alcança voto e casamento | errado: limita-se a atos patrimoniais e negociais |
-| acompanhante recebe todas as prioridades | errado: há exceções de IR e tramitação |
-| emergência ignora protocolo médico | errado: prioridade segue protocolo |
-| escola privada pode cobrar adicional | errado |
-| <abbr title="Benefício de Prestação Continuada">BPC</abbr> é automático | errado: depende dos requisitos da LOAS |
-| a LBI exclui outras normas protetivas | errado: o art. 121 preserva outras normas e manda prevalecer a mais benéfica |
-| tomada apoiada pode ser imposta | errado: pedido parte da pessoa apoiada |
-
-## 25. Método de resolução
-
-1. Reconstrua o conceito: impedimento duradouro + barreira + participação.
-2. Procure os qualificadores: “quando necessária”, “multiprofissional e interdisciplinar”, “pode obstruir”.
-3. Separe deficiência de incapacidade.
-4. Em prioridade, teste as duas exceções do acompanhante.
-5. Em saúde, procure consentimento, justificativa escrita e vedação de cobrança diferenciada.
-6. Em educação, lembre sistema inclusivo, vida inteira e proibição de adicional.
-7. Em curatela, aplique: extraordinária + proporcional + menor tempo + patrimônio/negócio.
-8. Em tomada apoiada, procure pedido próprio, dois apoiadores, termo, juiz, equipe e Ministério Público.
-9. Em conflito entre normas protetivas, aplique a regra da norma mais benéfica à pessoa com deficiência.
-10. Não use regra operacional do Assunto 099 para negar um direito do Assunto 098.
+O mapa que deve permanecer é este: **a lei protege participação em igualdade removendo barreiras e oferecendo suportes, sem transformar deficiência em incapacidade**. A partir desse eixo, os direitos de saúde, educação, trabalho, moradia, política e justiça deixam de ser uma lista desconexa e passam a ser aplicações do mesmo mecanismo.
