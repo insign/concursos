@@ -8,188 +8,139 @@ storageId: "rios-bacias-maranhenses"
 
 # Rios limítrofes, suas bacias e bacias genuinamente maranhenses
 
-## 1. Recorte e corte documental
+## 1. Comece pelo caminho da água
 
-O edital cobra três núcleos: **características dos rios maranhenses**, **bacias dos rios limítrofes — Parnaíba, Gurupi e Tocantins-Araguaia —** e **bacias dos rios genuinamente maranhenses**.
+Quando chove sobre o relevo, a água que escoa pela superfície tende a convergir para canais cada vez maiores. Imagine duas gotas caindo em lados opostos de uma crista: cada uma seguirá para uma rede de drenagem diferente. Essa crista funciona como **divisor de águas**.
 
-O corte documental adotado é **4 de agosto de 2026**. A referência regional principal é o **<abbr title="Núcleo Geoambiental">NuGeo</abbr>/<abbr title="Universidade Estadual do Maranhão">UEMA</abbr>**, complementada pela Divisão Hidrográfica Nacional da **<abbr title="Agência Nacional de Águas e Saneamento Básico">ANA</abbr>**. Relevo e clima entram apenas para localizar cabeceiras, divisores e regime; usos econômicos e problemas ambientais ficam em segundo plano.
+A **bacia hidrográfica** é o território que envia água para um rio principal e seus tributários até um ponto de saída comum. Esse ponto é o <abbr title="ponto de saída das águas de uma bacia">exutório</abbr>. Dentro da bacia:
 
-## 2. Conceitos mínimos
+- **nascente ou cabeceira** é o setor de formação inicial de um curso;
+- **afluente ou tributário** é o curso que entrega suas águas a outro rio;
+- **foz** é a desembocadura do rio em outro corpo d'água;
+- **sub-bacia** é uma parte da drenagem delimitada para um tributário ou para um exutório intermediário.
 
-- **bacia hidrográfica:** área drenada por um rio principal e seus afluentes até um exutório;
-- **divisor de águas:** linha de relevo que separa escoamentos para bacias vizinhas;
-- **nascente ou cabeceira:** setor de formação inicial do curso;
-- **afluente:** curso que deságua em outro rio;
-- **foz:** desembocadura do rio;
-- **sub-bacia:** subdivisão da drenagem associada a tributário ou exutório intermediário.
+A distinção decisiva é esta: **rio é um curso de água; bacia é a área drenada por uma rede de cursos**. Por isso, dizer que dois mapas dão nomes diferentes às unidades não basta para concluir que um deles está errado. Um mapa pode individualizar uma sub-bacia; outro pode agregá-la à bacia maior.
 
-A escala do mapa importa. Na regionalização estadual agregada do NuGeo/UEMA, por exemplo, **Pindaré e Grajaú integram o sistema do Mearim**; em estudos mais detalhados, podem aparecer como unidades individualizadas.
+Esse efeito de escala aparece no Maranhão. O Pindaré e o Grajaú podem ser estudados como drenagens individualizadas, mas, na regionalização agregada do <abbr title="Núcleo Geoambiental">NuGeo</abbr>/<abbr title="Universidade Estadual do Maranhão">UEMA</abbr>, aparecem como grandes tributários da bacia do Mearim.
 
-## 3. Características gerais dos rios maranhenses
+## 2. O padrão geral da drenagem maranhense
 
-A rede de drenagem do Maranhão é majoritariamente **exorreica**, isto é, conduz as águas para o oceano. Segundo o NuGeo/UEMA, grande parte do escoamento segue do interior em direção geral **sul-norte**, por rios que alcançam o Atlântico. No sudoeste, parte da drenagem segue para oeste, rumo ao Tocantins.
+A maior parte da drenagem do Maranhão segue do interior para o Atlântico, com direção geral frequente **sul–norte**. No sudoeste, parte do escoamento se orienta para oeste e entra no sistema do Tocantins.
 
-Os rios têm alimentação predominantemente **pluvial**: as vazões respondem à alternância entre estação chuvosa e estação seca. Nos baixos cursos próximos ao litoral, especialmente no Golfão Maranhense e nas reentrâncias, as **marés** interferem nos níveis e correntes e favorecem ambientes estuarinos. No baixo Mearim, grandes marés podem produzir **pororoca**.
+Dizer que a drenagem é predominantemente <abbr title="drenagem cujas águas alcançam o oceano">exorreica</abbr> significa justamente que suas águas saem do continente em direção ao mar. Os grandes rios maranhenses são alimentados sobretudo pelas chuvas — regime <abbr title="alimentação do rio predominantemente pela chuva">pluvial</abbr> — e, por isso, a vazão varia entre a estação chuvosa e a seca.
 
-Para prova, associe cada rio a quatro elementos: **posição no estado, nascente/cabeceiras, principais afluentes e foz/destino**.
+A síntese estadual contemporânea do Plano Maranhão 2050 caracteriza a rede hidrográfica pela presença de **rios perenes**, isto é, rios que mantêm água ao longo do ano. Isso não significa que todo riacho ou curso menor seja perene: a própria gestão estadual reconhece também rios intermitentes e efêmeros. Para prova, a generalização segura é rejeitar a ideia de que a hidrografia maranhense seja **predominantemente intermitente**.
 
-## 4. Quadro regional do NuGeo/UEMA
+Próximo ao litoral, a maré pode penetrar pelos baixos cursos. Quando o rio encontra o mar em uma desembocadura larga, com mistura de água fluvial e marinha, forma-se um <abbr title="foz larga sob influência do mar e das marés">estuário</abbr>. No baixo Mearim, condições favoráveis de grande maré podem gerar a **pororoca**, uma onda de maré que avança rio acima.
 
-O NuGeo/UEMA apresenta o Maranhão em **12 unidades**, usando a expressão “12 bacias hidrográficas”. A própria lista distingue:
+## 3. Limítrofe e genuinamente maranhense: primeiro identifique o critério
 
-| Grupo | Unidades |
+O edital separa duas ideias:
+
+1. **bacias dos rios limítrofes**, nomeando Parnaíba, Gurupi e Tocantins-Araguaia;
+2. **bacias dos rios genuinamente maranhenses**.
+
+Um rio **limítrofe** participa de fronteira interestadual ou de uma drenagem que ultrapassa o território maranhense. Já a expressão **genuinamente maranhense**, no uso didático da geografia estadual, aponta para cursos e drenagens formados no próprio Maranhão, sem constituir uma categoria da Divisão Hidrográfica Nacional da <abbr title="Agência Nacional de Águas e Saneamento Básico">ANA</abbr>.
+
+Aqui está a cautela mais importante do assunto: **a contagem depende da escala e da finalidade da regionalização**. A página do <abbr title="Núcleo Geoambiental">NuGeo</abbr>/<abbr title="Universidade Estadual do Maranhão">UEMA</abbr> reúne doze unidades sob o rótulo geral de “bacias hidrográficas”, mas a própria relação contém três bacias de domínio federal, sete bacias estaduais e dois sistemas hidrográficos estaduais:
+
+| Grupo na regionalização do <abbr title="Núcleo Geoambiental">NuGeo</abbr>/<abbr title="Universidade Estadual do Maranhão">UEMA</abbr> | Unidades |
 |---|---|
-| 3 bacias federais | Parnaíba, Tocantins, Gurupi |
+| 3 bacias de domínio federal | Parnaíba, Tocantins, Gurupi |
 | 7 bacias estaduais | Mearim, Itapecuru, Munim, Turiaçu, Maracaçumé, Preguiças, Periá |
 | 2 sistemas hidrográficos estaduais | Litoral Ocidental, Ilhas Maranhenses |
 
-A fórmula **3 + 7 + 2** é um mnemônico útil da regionalização institucional. Não significa que só existam doze rios no estado nem que todo rio genuinamente maranhense forme uma unidade regional própria.
+A fórmula **3 + 7 + 2** é, portanto, uma chave para ler **essa regionalização**. Não significa que o Maranhão tenha apenas doze rios, nem que toda divisão administrativa ou de gestão de recursos hídricos use exatamente as mesmas unidades. A organização de comitês estaduais, por exemplo, pode individualizar áreas como Pindaré ou Balsas para fins de gestão.
 
-## 5. Rios limítrofes: visão comparativa
+## 4. Os três eixos limítrofes
 
-| Rio/bacia | Limite principal para o Maranhão | Cabeceira ou referência | Destino e associação-chave |
+Antes de decorar afluentes, fixe o mapa: **Parnaíba a leste, Tocantins no sudoeste, Gurupi a noroeste**.
+
+| Eixo | Relação com o Maranhão | Cabeceira ou referência | Destino e associação-chave |
 |---|---|---|---|
-| **Parnaíba** | Maranhão–Piauí | Chapada das Mangabeiras | delta atlântico; recebe o rio das Balsas |
-| **Tocantins-Araguaia** | Maranhão–Tocantins | limite acompanha sobretudo Manuel Alves Grande e trecho do Tocantins | sudoeste maranhense; Imperatriz e Estreito |
-| **Gurupi** | Maranhão–Pará | Serra do Gurupi | Atlântico; Serra do Tiracambu como divisor regional |
+| **Parnaíba** | grande parte da fronteira Maranhão–Piauí | Chapada das Mangabeiras | <abbr title="foz dividida em vários braços antes de chegar ao mar">delta</abbr> atlântico; recebe o rio das Balsas |
+| **Tocantins** | sudoeste e parte da fronteira Maranhão–Tocantins | limite acompanha sobretudo Manuel Alves Grande e trecho do Tocantins | integra a Região Hidrográfica Tocantins-Araguaia |
+| **Gurupi** | fronteira Maranhão–Pará | Serra do Gurupi, em terras maranhenses | segue para o norte e alcança o Atlântico |
 
-### Pegadinha central
+### Parnaíba: o eixo oriental
 
-**Tocantins-Araguaia** é o nome da região hidrográfica nacional. No recorte estadual do NuGeo/UEMA, a unidade é a **bacia do Tocantins**. O limite MA–TO não é formado pelo Araguaia em toda a extensão: acompanha em grande parte o **Manuel Alves Grande** e, em outro trecho, o próprio **Tocantins** até a confluência com o Araguaia.
+O Parnaíba nasce na **Chapada das Mangabeiras**; na descrição do <abbr title="Núcleo Geoambiental">NuGeo</abbr>/<abbr title="Universidade Estadual do Maranhão">UEMA</abbr>, o trecho inicial recebe a denominação de rio Água Quente. Depois de seguir para o norte, chega ao Atlântico formando um delta.
 
-## 6. Parnaíba
+Na parcela maranhense, a bacia do Parnaíba é a **maior entre as três bacias federais** dessa regionalização. O **rio das Balsas** é um tributário maranhense de destaque: nasce também na região da Chapada das Mangabeiras e deságua no Parnaíba. Logo, rio das Balsas e Parnaíba não são nomes do mesmo curso.
 
-O **Parnaíba** forma grande parte da fronteira oriental Maranhão–Piauí. Segundo o NuGeo/UEMA:
+### Tocantins-Araguaia: nome nacional e recorte estadual
 
-- nasce na **Chapada das Mangabeiras**, onde o trecho inicial recebe a denominação de rio Água Quente;
-- segue para o norte;
-- deságua no Atlântico em um **delta de múltiplos braços**, compartilhado pelo litoral do Piauí e do Maranhão;
-- o **rio das Balsas** é o principal tributário maranhense destacado pela fonte.
+A <abbr title="Agência Nacional de Águas e Saneamento Básico">ANA</abbr> denomina **Tocantins-Araguaia** uma das regiões hidrográficas nacionais. No recorte estadual adotado acima, a parcela maranhense aparece como **bacia do Tocantins**.
 
-O rio das Balsas nasce também na região da Chapada das Mangabeiras e deságua no Parnaíba pela margem maranhense. Não confunda **rio das Balsas** com o rio principal da bacia.
+O limite entre Maranhão e Tocantins acompanha, em grande parte, o **rio Manuel Alves Grande**, afluente do Tocantins, e, em outro trecho, o próprio **Tocantins**, até sua confluência com o Araguaia. Portanto, é falsa a simplificação de que o Araguaia forma sozinho toda a fronteira entre os dois estados.
 
-## 7. Tocantins-Araguaia
+O Tocantins nasce no Planalto de Goiás, formado pelos rios das Almas e Maranhão, e recebe o **Araguaia**, seu principal tributário. **Imperatriz** e **Estreito** são referências territoriais importantes no vale tocantino maranhense.
 
-A Região Hidrográfica **Tocantins-Araguaia** alcança o sudoeste do Maranhão. O Tocantins nasce no Planalto de Goiás, formado pelos rios das Almas e Maranhão, e recebe o **Araguaia**, seu principal tributário.
+### Gurupi: o eixo noroeste
 
-No limite MA–TO:
+O Gurupi forma a fronteira entre Maranhão e Pará. Nasce em terras maranhenses, na **Serra do Gurupi**, entre áreas de Açailândia e São Francisco do Brejão, e segue predominantemente para o norte até o Atlântico.
 
-- predomina o **rio Manuel Alves Grande**, afluente do Tocantins;
-- outro trecho acompanha o próprio **Tocantins**;
-- o Araguaia aparece na confluência com o Tocantins, não como único rio limítrofe maranhense.
+Entre os tributários maranhenses destacados nessa caracterização estão Surubim, Tucumandiua, Cajuapara, Panemã, Apará e Jararaca. A **Serra do Tiracambu** funciona como importante divisor entre a drenagem do Gurupi e drenagens voltadas ao Mearim e ao Turiaçu.
 
-**Imperatriz** e **Estreito** são referências territoriais importantes no vale do Tocantins no Maranhão.
+## 5. Mearim e Itapecuru: os dois grandes eixos internos
 
-## 8. Gurupi
+### Mearim: pense primeiro na área da bacia
 
-O **Gurupi** forma a fronteira noroeste Maranhão–Pará.
+Na regionalização adotada acima, o **Mearim é a maior bacia hidrográfica do estado em área**. Não confunda “maior bacia” com “rio mais longo”: área drenada e extensão do canal são medidas diferentes.
 
-- nasce em terras maranhenses, na **Serra do Gurupi**, entre áreas de Açailândia e São Francisco do Brejão;
-- corre predominantemente para o norte;
-- deságua no **Oceano Atlântico**;
-- entre os afluentes maranhenses citados pelo NuGeo/UEMA estão Surubim, Tucumandiua, Cajuapara, Panemã, Apará e Jararaca.
+O Mearim nasce na **Serra da Menina**, no sul do estado. Segue inicialmente em direção sudoeste–nordeste e, depois de receber contribuições importantes, passa a orientar-se para o norte até a **baía de São Marcos**.
 
-A **Serra do Tiracambu** é um divisor importante entre a drenagem do Gurupi e sistemas voltados ao Mearim e ao Turiaçu.
+Na escala agregada:
 
-## 9. O que significa “genuinamente maranhense”?
+- **Pindaré e Grajaú** são os grandes tributários destacados pela margem esquerda;
+- **Corda e Flores** aparecem entre os tributários importantes pela margem direita;
+- o baixo curso sofre forte influência das marés e pode apresentar pororoca.
 
-Em sentido didático, é o rio cujo curso **nasce, percorre e deságua no Maranhão**. Essa ideia não coincide perfeitamente com a lista das sete bacias estaduais do NuGeo/UEMA.
+O Pindaré não perde sua identidade por ser tributário do Mearim. A relação é hierárquica: em um mapa mais detalhado, sua drenagem pode ser individualizada; no mapa agregado, ela desemboca no sistema maior do Mearim.
 
-Exemplos de atenção:
+### Itapecuru: uma bacia distinta, não um braço do Mearim
 
-- **Mearim, Itapecuru, Munim, Turiaçu, Maracaçumé, Preguiças e Periá** são as sete bacias estaduais da regionalização agregada;
-- **Pindaré e Grajaú** são rios genuinamente maranhenses e grandes tributários do Mearim nessa escala;
-- **Pericumã** é genuinamente maranhense, mas integra o **Sistema Hidrográfico do Litoral Ocidental** na regionalização agregada;
-- rios da Ilha do Maranhão, como **Anil, Bacanga, Paciência e Tibiri**, são drenagens locais e não novas unidades do mesmo nível das sete bacias estaduais.
+O Itapecuru nasce no centro-sul do Maranhão, no sistema das **serras da Croeira, Itapecuru e Alpercatas**, e percorre o estado até a **baía do Arraial**, a sudeste da Ilha do Maranhão. Próximo à desembocadura, divide-se nos braços **Tucha e Mojó**.
 
-Portanto, “sete bacias estaduais” não significa “apenas sete rios genuinamente maranhenses”.
+Entre os cursos associados à sua rede aparecem **Alpercatas, Peritoró, Codozinho, Correntes, Pirapemas** e o **riacho Gameleira**. Já o **Munim não é afluente do Itapecuru**: possui bacia própria e desemboca na baía de São José.
 
-## 10. Sete bacias estaduais: matriz principal
+O vale do Itapecuru passa por um importante eixo de cidades, entre elas Colinas, Caxias, Codó, Coroatá, Itapecuru-Mirim e Rosário. Essa associação territorial ajuda a reconhecer o rio sem transformar o capítulo em estudo de urbanização, tema tratado em unidade própria.
 
-| Bacia | Cabeceira/localização | Foz/destino | Associação de prova |
+## 6. As outras cinco bacias estaduais na escala agregada
+
+Depois de ancorar Mearim e Itapecuru, percorra o litoral e o leste. A tabela abaixo sintetiza as outras cinco bacias estaduais da mesma regionalização:
+
+| Bacia | De onde parte | Para onde vai | Associação útil |
 |---|---|---|---|
-| **Mearim** | Serra da Menina e áreas adjacentes, no sul | baía de São Marcos | maior bacia estadual agregada; Pindaré e Grajaú; pororoca |
-| **Itapecuru** | serras da Croeira, Itapecuru e Alpercatas | baía do Arraial | atravessa importante eixo urbano; braços Tucha e Mojó |
-| **Munim** | tabuleiros a nordeste de Caxias | baía de São José, entre Axixá e Icatu | extremo leste do estado |
-| **Turiaçu** | Serra do Tiracambu | baía de Turiaçu | litoral ocidental; influência de marés |
+| **Munim** | tabuleiros a nordeste de Caxias | baía de São José, entre Axixá e Icatu | bacia própria no extremo leste |
+| **Turiaçu** | vertentes da Serra do Tiracambu | baía de Turiaçu | Paraná e Caxias entre os tributários destacados |
 | **Maracaçumé** | Serra do Tiracambu | Atlântico, entre Godofredo Viana e Cândido Mendes | pequena bacia costeira do noroeste |
-| **Preguiças** | Santana do Maranhão | Atlântico em Barreirinhas | rio principal também chamado rio Grande |
-| **Periá** | litoral oriental | litoral atlântico | Periá, Mapari e Anajatuba; forte influência de marés |
+| **Preguiças** | Santana do Maranhão | Atlântico em Barreirinhas | rio principal também chamado rio Grande; inclui Negro e Cangatã |
+| **Periá** | litoral oriental | Atlântico | menor área entre as unidades dessa regionalização; Periá, Mapari e Anajatuba sob forte influência de marés |
 
-## 11. Mearim e Itapecuru
+A página do <abbr title="Núcleo Geoambiental">NuGeo</abbr>/<abbr title="Universidade Estadual do Maranhão">UEMA</abbr> registra a grafia “Munin” em alguns trechos; aqui se adota **Munim**, forma usada na gestão estadual e no nome corrente do rio.
 
-### Mearim
+Observe a repetição da **Serra do Tiracambu**: ela ajuda a organizar o noroeste porque participa dos divisores ligados a Gurupi, Turiaçu e Maracaçumé.
 
-O **Mearim** é a maior bacia estadual na regionalização do NuGeo/UEMA. O rio nasce no sul do estado, na área da Serra da Menina, e segue inicialmente em direção sudoeste–nordeste; depois orienta-se para o norte até a **baía de São Marcos**.
+## 7. Sistemas costeiros: por que nem tudo cabe na lista das sete bacias
 
-Principais associações:
+As sete bacias estaduais não esgotam as drenagens internas do Maranhão. Na regionalização agregada adotada acima, duas áreas são tratadas como **sistemas hidrográficos**, isto é, conjuntos de drenagens próximas que não dependem de um único rio principal integrador.
 
-- **Pindaré e Grajaú**: grandes afluentes pela margem esquerda na escala agregada;
-- **Corda e Flores**: afluentes de destaque pela margem direita;
-- baixo curso sob influência de marés;
-- ocorrência de **pororoca** em condições favoráveis de maré.
+### Litoral Ocidental
 
-### Itapecuru
+O **Sistema Hidrográfico do Litoral Ocidental** reúne drenagens que chegam às reentrâncias do litoral ocidental por fozes próprias. O **Pericumã** é uma referência importante desse conjunto. Por isso, um rio pode ser genuinamente maranhense e, ainda assim, não aparecer como uma das sete bacias estaduais da tabela agregada.
 
-O **Itapecuru** nasce no centro-sul maranhense, no sistema das serras da Croeira, Itapecuru e Alpercatas, e deságua na **baía do Arraial**, a sudeste da Ilha do Maranhão, pelos braços **Tucha e Mojó**.
+### Ilhas Maranhenses
 
-Entre os tributários frequentemente associados ao rio aparecem **Alpercatas, Peritoró, Codozinho, Correntes e Pirapemas**. O vale do Itapecuru atravessa cidades como Caxias, Codó, Coroatá, Itapecuru-Mirim e Rosário.
+O **Sistema Hidrográfico das Ilhas Maranhenses** reúne drenagens insulares. Na Ilha do Maranhão, **Anil, Bacanga, Paciência e Tibiri** são exemplos de bacias locais. Elas são reais e relevantes, mas não devem ser somadas às sete bacias estaduais como se todas fossem unidades da mesma escala cartográfica.
 
-## 12. Munim, Turiaçu, Maracaçumé, Preguiças e Periá
+## 8. Como evitar contradições aparentes entre mapas e questões
 
-### Munim
+Quatro perguntas resolvem a maior parte das divergências:
 
-O **Munim** localiza-se no extremo leste. Suas cabeceiras ficam em tabuleiros a nordeste de Caxias e a foz ocorre na **baía de São José**, entre Axixá e Icatu. O NuGeo registra a grafia “Munin” em algumas páginas; o material adota **Munim**.
+1. **O enunciado fala de rio ou de bacia?** Um canal não é a área que o drena.
+2. **Qual é a escala?** Uma sub-bacia individualizada pode estar agregada a uma bacia maior em outro mapa.
+3. **Qual é a finalidade da divisão?** Regionalização física, região hidrográfica nacional e unidade de gestão não precisam ter a mesma lista.
+4. **Qual é a medida comparada?** “Maior bacia” por área não é sinônimo de “rio mais longo”.
 
-### Turiaçu
-
-O **Turiaçu** nasce nas vertentes da **Serra do Tiracambu** e segue para a **baía de Turiaçu**. Paraná e Caxias estão entre os tributários destacados. O baixo curso sofre influência das marés.
-
-### Maracaçumé
-
-O **Maracaçumé** nasce na **Serra do Tiracambu** e alcança o Atlântico entre **Godofredo Viana e Cândido Mendes**.
-
-### Preguiças
-
-O **Preguiças**, também chamado **rio Grande**, nasce em **Santana do Maranhão** e deságua no Atlântico em **Barreirinhas**. A unidade hidrográfica inclui também os rios Negro e Cangatã.
-
-### Periá
-
-A bacia do **Periá** é a menor das sete bacias estaduais na regionalização do NuGeo/UEMA. Seus principais cursos incluem **Periá, Mapari e Anajatuba**. Os baixos cursos possuem forte influência de marés e manguezais.
-
-## 13. Sistemas costeiros e rios genuinamente maranhenses
-
-### Sistema Hidrográfico do Litoral Ocidental
-
-Agrupa várias drenagens com fozes próprias nas reentrâncias do litoral ocidental. Entre elas está o **Pericumã**, além de cursos menores como Aurá e Uru. O sistema não possui um único rio principal integrador.
-
-### Sistema Hidrográfico das Ilhas Maranhenses
-
-Reúne drenagens das ilhas costeiras. Na Ilha do Maranhão, destacam-se bacias locais como **Anil, Bacanga, Paciência e Tibiri**.
-
-Esses sistemas ajudam a entender por que o inventário de rios genuinamente maranhenses é maior que a lista das sete bacias estaduais.
-
-## 14. Pegadinhas
-
-| Afirmação | Avaliação |
-|---|---|
-| Parnaíba forma grande parte do limite MA–PI | verdadeira |
-| Gurupi forma o limite MA–PA | verdadeira |
-| Araguaia sozinho forma todo o limite MA–TO | falsa |
-| Manuel Alves Grande participa do limite MA–TO | verdadeira |
-| Pindaré e Grajaú integram o Mearim na escala agregada | verdadeira |
-| sete bacias estaduais = somente sete rios genuinamente maranhenses | falsa |
-| Pericumã deixa de ser genuinamente maranhense por integrar um sistema | falsa |
-| Mearim deságua na baía de São Marcos | verdadeira |
-| Itapecuru deságua na baía do Arraial | verdadeira |
-| Preguiças deságua em Barreirinhas | verdadeira |
-
-## 15. Método de resolução
-
-1. Localize o rio: leste, sudoeste, noroeste ou interior.
-2. Pergunte se é **limítrofe** ou **genuinamente maranhense**.
-3. Para os limítrofes, fixe: **Parnaíba–PI; Gurupi–PA; Manuel Alves Grande/Tocantins–TO**.
-4. Para as bacias estaduais, associe **nascente/cabeceira → afluentes-chave → foz**.
-5. Use **3 + 7 + 2** apenas como mnemônico da regionalização do NuGeo/UEMA.
-6. Não transforme sub-bacias e drenagens locais em unidades regionais do mesmo nível.
-7. Desconfie de absolutos como “todo”, “único”, “apenas” e “sempre”.
+Com esse filtro, a memorização passa a ter função: primeiro identifique o tipo de unidade e a escala; depois associe **cabeceira → tributários → direção → foz** e, nos rios limítrofes, a **fronteira interestadual** correspondente.
