@@ -22,6 +22,8 @@ Cada etapa responde a uma pergunta diferente:
 
 O **Relator** é o membro a quem o processo foi atribuído para condução e apresentação nos termos regimentais. A **pauta** é a programação prévia da sessão; estar nela não significa que o processo já foi julgado. A **deliberação** é a formação do resultado pelo órgão competente. A **ata** registra formalmente o que ocorreu.
 
+**Colegiado** é o órgão que forma sua decisão pela participação de vários membros; neste recorte, Plenário e Câmaras. O <abbr title="Ministério Público de Contas">MPC</abbr> atua junto ao Tribunal e participa das sessões nos termos do Regimento, mas **não integra o colegiado julgador nem vota como Conselheiro**.
+
 Essa separação evita uma confusão recorrente: **distribuir não é julgar; pautar não é decidir; lavrar a ata não cria uma nova decisão**.
 
 O recorte deste capítulo é o funcionamento das sessões do Plenário e das Câmaras do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, com suas pautas, atas, votações e regras de distribuição. Os ritos completos das espécies processuais, garantias processuais, sanções, execução, recursos e revisão pertencem aos assuntos próprios.
@@ -55,7 +57,7 @@ A diferença de quórum é estrutural:
 | Plenário | **4**, incluído o Presidente |
 | Câmara | **3** |
 
-Nas Câmaras, o Presidente **sempre tem direito a voto** e relata os processos que lhe forem distribuídos. Se houver empate, ele não dá voto de qualidade: o **processo é submetido ao Plenário**.
+Nas Câmaras, o Presidente **sempre tem direito a voto** e relata os processos que lhe forem distribuídos. Se houver empate, ele não dá <abbr title="Voto adicional para desempatar, quando a norma o prevê">voto de qualidade</abbr>: o **processo é submetido ao Plenário**.
 
 No Plenário, ao contrário, o Presidente do Tribunal — ou quem estiver na Presidência — profere **voto de desempate**.
 
@@ -97,7 +99,7 @@ A sequência regimental não é uma lista arbitrária: primeiro o colegiado orga
 Nas sessões ordinárias, a ordem preferencial é:
 
 1. homologação da ata da sessão anterior;
-2. expediente;
+2. <abbr title="Bloco de comunicações, indicações, moções e requerimentos">expediente</abbr>;
 3. sorteio de relatores;
 4. comunicação de decisões preliminares;
 5. prosseguimento de votação suspensa;
@@ -112,7 +114,7 @@ A ordem preferencial é semelhante, mas contém uma etapa própria:
 1. homologação da ata anterior;
 2. expediente;
 3. comunicação de decisões preliminares;
-4. julgamento ou apreciação dos processos constantes de **Relação**;
+4. julgamento ou apreciação dos processos constantes de <abbr title="Forma regimental própria de levar certos processos à Câmara">Relação</abbr>;
 5. prosseguimento de votação suspensa;
 6. julgamento ou apreciação dos processos incluídos em pauta.
 
@@ -135,11 +137,11 @@ Os prazos são:
 | pedido para sessão extraordinária reservada | antecedência mínima de **2 dias** |
 | divulgação da pauta de sessão ordinária | até **48 horas antes** |
 
-A pauta da sessão ordinária do Plenário e a da sessão ordinária de Câmara são divulgadas, em forma sinóptica, no Diário Oficial Eletrônico do Tribunal.
+A pauta da sessão ordinária do Plenário e a da sessão ordinária de Câmara são divulgadas, em forma <abbr title="Apresentação resumida dos elementos essenciais">sinóptica</abbr>, no Diário Oficial Eletrônico do Tribunal.
 
 ### 6.1. Preferências dentro da pauta
 
-No Plenário, **recursos** aparecem em primeiro lugar entre as categorias regimentais de processos em pauta. Na apreciação e no julgamento, observa-se a **ordem decrescente de antiguidade dos Relatores**, ressalvadas as preferências admitidas pelo Regimento, inclusive a que pode ser concedida para processo com sustentação oral.
+No Plenário, **recursos** aparecem em primeiro lugar entre as categorias regimentais de processos em pauta. Na apreciação e no julgamento, observa-se a **ordem decrescente de antiguidade dos Relatores**, ressalvadas as preferências admitidas pelo Regimento, inclusive a que pode ser concedida para processo com <abbr title="Manifestação oral da parte ou de seu representante na sessão">sustentação oral</abbr>.
 
 Nas Câmaras, a ordem preferencial das categorias começa por **recursos** e segue por tomadas e prestações de contas, fiscalizações e atos de pessoal, dentro da competência do colegiado.
 
@@ -151,11 +153,11 @@ O Regimento admite exclusão da pauta mediante requerimento do Relator ao Presid
 
 ## 7. Da discussão à deliberação
 
-Quando o processo chega à fase de apreciação, o Relator apresenta a matéria conforme o rito aplicável. O ponto central é separar **questões anteriores ao mérito**, **formação dos votos** e **proclamação do resultado**.
+Quando o processo chega à fase de apreciação, o Relator apresenta a matéria conforme o rito aplicável. Nos ritos em que há **relatório**, ele expõe os elementos necessários para a discussão; não substitui o voto nem a deliberação final. O ponto central é separar **questões anteriores ao mérito**, **formação dos votos** e **proclamação do resultado**.
 
 ### 7.1. Preliminar e prejudicial vêm antes do mérito
 
-Questões preliminares ou prejudiciais são decididas antes do julgamento ou da apreciação do mérito. Se uma preliminar apontar falta ou impropriedade sanável, o Tribunal pode converter o julgamento ou a apreciação em diligência.
+<abbr title="Questão processual que deve ser resolvida antes do mérito">Questões preliminares</abbr> ou <abbr title="Questões anteriores cuja solução condiciona o exame do mérito">prejudiciais</abbr> são decididas antes do julgamento ou da apreciação do mérito. Se uma preliminar apontar falta ou impropriedade sanável, o Tribunal pode converter o julgamento ou a apreciação em <abbr title="Providência destinada a obter informação ou completar a instrução">diligência</abbr>.
 
 Essa regra organiza o raciocínio: primeiro se resolve o que pode impedir, adiar ou condicionar o exame principal; depois se enfrenta o mérito.
 
@@ -163,7 +165,7 @@ Essa regra organiza o raciocínio: primeiro se resolve o que pode impedir, adiar
 
 Concluída a fase de encaminhamento, o Presidente toma os votos dos demais Conselheiros em **ordem decrescente de antiguidade**.
 
-Conselheiro presente, em regra, não pode simplesmente deixar de votar. O Regimento ressalva as hipóteses próprias, como impedimento e suspeição, além da situação do Conselheiro ausente durante a apresentação e discussão do relatório que não se dê por esclarecido.
+Conselheiro presente, em regra, não pode simplesmente deixar de votar. O Regimento ressalva as hipóteses próprias, como <abbr title="Situação objetiva que afasta o membro da atuação no processo">impedimento</abbr> e <abbr title="Situação que põe em dúvida a imparcialidade do membro">suspeição</abbr>, além da situação do Conselheiro ausente durante a apresentação e discussão do relatório que não se dê por esclarecido.
 
 ### 7.3. Empate: Plenário e Câmara não usam a mesma solução
 
@@ -202,7 +204,7 @@ No Plenário, é lavrada pela estrutura responsável pela secretaria dos trabalh
 - membros e representantes presentes;
 - ausências e motivos;
 - expediente, sorteios e comunicações;
-- decisões e acórdãos, com os registros regimentais;
+- decisões e <abbr title="Decisões colegiadas formalizadas nos casos previstos">acórdãos</abbr>, com os registros regimentais;
 - demais ocorrências relevantes.
 
 Nas Câmaras, a ata é lavrada pelo Secretário da respectiva Câmara.
@@ -227,7 +229,7 @@ Ressalvadas as regras específicas aplicáveis ao Presidente, a distribuição o
 
 **Prevenção** é outra lógica: matérias conexas ficam concentradas em um único Relator e, quando cabível, podem ser julgadas conjuntamente. A prevenção, portanto, preserva uma relatoria em razão do vínculo entre matérias; não é sinônimo de novo sorteio.
 
-Na restauração de autos, o processo retorna ao Relator anterior se ele ainda estiver no exercício do cargo.
+Na <abbr title="Reconstituição do processo quando os autos precisam ser recuperados">restauração de autos</abbr>, o processo retorna ao Relator anterior se ele ainda estiver no exercício do cargo.
 
 Há também regra própria para mudança na Presidência: os processos já distribuídos ao Conselheiro que assume a Presidência passam automaticamente ao Conselheiro que deixa essa função, nos termos do Regimento.
 
@@ -241,8 +243,8 @@ O mecanismo é importante: em vez de tratar cada processo anual como escolha iso
 
 A Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 424/2025, publicada em 26 de junho de 2025, alterou o Regimento em dois pontos diretamente ligados a este assunto:
 
-1. **tomada de contas especial:** processos que ingressarem pela unidade de protocolo são distribuídos de forma aleatória por **sistema de sorteio eletrônico**; a redação normativa usa o termo “randomicamente”;
-2. **regra residual:** processos de naturezas não previstas nos arts. 141-A a 141-H, depois de autuados, são distribuídos por sorteio pela Coordenadoria de Sessões e pelas Secretarias das Câmaras; para o sorteio, são agrupados por **classe, conforme sua natureza**, observado o § 4º do art. 140.
+1. **<abbr title="Natureza processual específica de contas prevista no Regimento">tomada de contas especial</abbr>:** processos que ingressarem pela unidade de protocolo são distribuídos de forma aleatória por **sistema de sorteio eletrônico**; a redação normativa usa o termo “randomicamente”;
+2. **regra residual:** processos de naturezas não previstas nos arts. 141-A a 141-H, depois de <abbr title="Formalizados e registrados como processo">autuados</abbr>, são distribuídos por sorteio pela Coordenadoria de Sessões e pelas Secretarias das Câmaras; para o sorteio, são agrupados por **<abbr title="Categoria usada pelo Regimento para agrupar processos">classe</abbr>, conforme sua <abbr title="Tipo jurídico-processual da matéria">natureza</abbr>**, observado o § 4º do art. 140.
 
 A diferença é útil: o art. 141-H trata especificamente da **tomada de contas especial**; o art. 141-I funciona como regra residual para naturezas sem disciplina nos arts. 141-A a 141-H.
 
@@ -254,14 +256,11 @@ Ficam fora deste capítulo, para tratamento próprio: espécies e ritos completo
 
 ## 11. Como reconhecer as trocas de prova
 
-Em vez de decorar listas soltas, teste a função de cada regra:
+Em vez de decorar listas soltas, teste **qual etapa, qual colegiado e qual prazo** a alternativa está descrevendo:
 
-- **4 x 3:** número mínimo para Plenário x Câmara;
-- **24h x 48h:** convocação de extraordinária x divulgação de pauta ordinária;
-- **8 dias x 2 dias:** pedido de pauta ordinária x pedido para extraordinária reservada;
-- **desempate x remessa:** empate no Plenário x empate em Câmara;
-- **pauta x ata:** programação anterior x registro posterior;
-- **sorteio x prevenção:** atribuição objetiva x preservação de relatoria por conexão;
-- **voto médio x voto de desempate:** votações sucessivas entre propostas x voto presidencial para romper empate.
+- **etapa:** pauta organiza antes; deliberação forma o resultado; ata registra depois;
+- **colegiado:** empate no Plenário leva a voto de desempate; empate em Câmara leva o processo ao Plenário;
+- **prazo:** 24h é convocação de extraordinária e 48h é divulgação da pauta ordinária; 8 dias é pedido de pauta ordinária e 2 dias é pedido para extraordinária reservada;
+- **relatoria:** sorteio atribui; prevenção preserva a relatoria em razão da conexão.
 
 Se a alternativa mistura funções — por exemplo, diz que a pauta decide o mérito, que a ata distribui Relator ou que o Presidente da Câmara desempata — o erro está na troca entre etapas ou entre colegiados.
