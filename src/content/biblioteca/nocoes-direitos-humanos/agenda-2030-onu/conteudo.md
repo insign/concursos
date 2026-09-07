@@ -6,253 +6,213 @@ order: 97
 storageId: "agenda-2030-onu"
 ---
 
-# Agenda 2030 da ONU
+# Agenda 2030 da <abbr title="Organização das Nações Unidas">ONU</abbr>
 
-## 1. Recorte do edital
+## 1. O mecanismo da Agenda: direção, metas, medida e revisão
 
-No **Edital nº 1 – TCE/MA, de 6 de julho de 2026**, o item 4 de **Noções de Direitos Humanos** cobra a **Agenda 2030 da <abbr title="Organização das Nações Unidas">ONU</abbr>**. O foco deste assunto é reconhecer a identidade do documento, seus princípios, sua arquitetura e as associações essenciais entre os Objetivos de Desenvolvimento Sustentável (ODS).
+Imagine uma política pública voltada a um bairro sem saneamento adequado. Instalar rede de água e esgoto não afeta apenas um problema ambiental: pode melhorar saúde, reduzir desigualdades, tornar a cidade mais segura e liberar tempo e renda das famílias. A Agenda 2030 parte dessa lógica de interdependência. Desenvolvimento sustentável não é uma coleção de dezessete tarefas isoladas.
 
-Para a prova, priorize:
+O documento organiza uma cadeia simples:
 
-- origem, natureza e cronologia da Agenda;
-- relação com os Objetivos de Desenvolvimento do Milênio (ODM) e a Rio+20;
-- cinco Ps e três dimensões do desenvolvimento sustentável;
-- universalidade, integração, indivisibilidade e o compromisso de não deixar ninguém para trás;
-- **17 ODS e 169 metas**;
-- distinção entre objetivo, meta e indicador;
-- meios de implementação, parceria global e acompanhamento.
+**problemas globais → 17 <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> → 169 metas → indicadores → implementação nacional → acompanhamento e revisão.**
 
-A Agenda é estudada como documento da ONU. Não é necessário memorizar contagens temporárias de indicadores nem aprofundar a governança estatística além do que ajuda a distinguir **ODS, metas e indicadores**.
+Os <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> dão direções amplas; as metas especificam resultados ou condições para torná-los possíveis; os indicadores observam o progresso; e cada país traduz a ambição global para políticas próprias. A Agenda chama essas condições de **meios de implementação**. O acompanhamento fecha o ciclo ao revelar avanços e lacunas.
 
-## 2. Identidade documental e cronologia
+Daí vêm quatro características centrais: a Agenda é **universal**, porque se aplica a todos os países; **integrada**, porque um objetivo afeta outros; **indivisível**, porque não foi concebida como um cardápio de objetivos independentes; e **adaptável ao contexto nacional**, porque capacidades, prioridades e realidades variam.
 
-| Elemento | Dado essencial |
+## 2. Identidade do documento e linha do tempo
+
+A Agenda 2030 tem o título **Transformando Nosso Mundo: A Agenda 2030 para o Desenvolvimento Sustentável**. Foi adotada pela Assembleia Geral das Nações Unidas em **25 de setembro de 2015**, por meio da Resolução **A/RES/70/1**, com adesão dos 193 Estados-membros.
+
+A Agenda é um **plano de ação universal** incorporado a uma resolução da Assembleia Geral. Não é tratado, pacto ou convenção aberto a assinatura e ratificação. Por isso, é correto dizer que os Estados-membros **adotaram** a Agenda; é incorreto dizer que “193 países a ratificaram”.
+
+Os 17 <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> e as 169 metas entraram em vigor em **1º de janeiro de 2016** e orientam o período até 2030. O horizonte geral, porém, não torna idêntico o prazo de cada meta: algumas foram formuladas com datas anteriores, como 2020 ou 2025.
+
+### 2.1 Por que a Agenda ampliou a agenda anterior
+
+Entre 2000 e 2015, os oito <abbr title="Objetivos de Desenvolvimento do Milênio">ODM</abbr> concentraram a ação internacional em temas como pobreza, fome, educação, saúde e desenvolvimento. A Agenda 2030 declara que pretende **concluir o que os <abbr title="Objetivos de Desenvolvimento do Milênio">ODM</abbr> não alcançaram**, mas vai além deles: amplia temas, torna os objetivos aplicáveis a todos os países e trata conjuntamente dimensões sociais, econômicas, ambientais e institucionais.
+
+Um marco importante nessa passagem foi a <abbr title="Conferência das Nações Unidas sobre Desenvolvimento Sustentável de 2012">Rio+20</abbr>, realizada em 2012. Seu documento final, **O Futuro que Queremos**, impulsionou o processo de elaboração dos <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> e também está na origem institucional do fórum que mais tarde se tornaria a principal plataforma global de acompanhamento da Agenda.
+
+A sequência que importa é:
+
+| Marco | Papel |
 |---|---|
-| título | **Transformando Nosso Mundo: A Agenda 2030 para o Desenvolvimento Sustentável** |
-| órgão | Assembleia Geral das Nações Unidas |
-| ato | Resolução **A/RES/70/1** |
-| adoção | **25 de setembro de 2015** |
-| Estados-membros | 193 |
-| início dos ODS e metas | **1º de janeiro de 2016** |
-| horizonte geral | 2016–2030 |
-| estrutura central | **17 ODS e 169 metas** |
+| **2000–2015** | oito <abbr title="Objetivos de Desenvolvimento do Milênio">ODM</abbr> |
+| **2012** | <abbr title="Conferência das Nações Unidas sobre Desenvolvimento Sustentável de 2012">Rio+20</abbr> impulsiona a formulação dos novos objetivos |
+| **julho de 2015** | Agenda de Ação de Adis Abeba estrutura compromissos de financiamento e outros meios de implementação |
+| **25/09/2015** | adoção da Agenda 2030 |
+| **01/01/2016** | início dos <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> e metas |
+| **2017** | Assembleia Geral adota o marco global de indicadores |
+| **2030** | horizonte geral da Agenda |
 
-A Agenda foi adotada em 2015, mas os ODS e suas metas passaram a orientar a ação a partir de 1º de janeiro de 2016.
+## 3. Como ler a Agenda: cinco Ps, três dimensões e direitos humanos
 
-### 2.1 Natureza
+O preâmbulo oferece uma lente por **cinco Ps**. Eles não são objetivos adicionais; ajudam a enxergar o sentido conjunto dos 17 <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr>.
 
-A Agenda 2030 é um **plano de ação universal** incorporado a uma resolução da Assembleia Geral da ONU. Seus objetivos e metas são globais e aspiracionais, e sua implementação depende da atuação dos Estados e de uma parceria global ampla.
-
-A Agenda **não é tratado, pacto ou convenção** e não foi aberta a assinatura ou ratificação. Portanto, dizer que “193 países ratificaram a Agenda 2030” está errado: os Estados-membros a **adotaram politicamente** na Assembleia Geral.
-
-As metas globais orientam a ambição comum, mas cada governo considera suas circunstâncias, capacidades, prioridades e nível de desenvolvimento ao traduzi-las para o contexto nacional.
-
-> **Pegadinha:** adoção em **2015** ≠ início dos ODS em **2016**; adoção pelos 193 Estados-membros ≠ ratificação de tratado.
-
-## 3. Antecedentes
-
-### 3.1 Objetivos de Desenvolvimento do Milênio
-
-Os **oito Objetivos de Desenvolvimento do Milênio (ODM)** orientaram o período **2000–2015**. A Agenda 2030 procura concluir o que não foi alcançado pelos ODM e amplia o escopo para integrar de forma mais abrangente temas sociais, econômicos, ambientais e institucionais.
-
-| ODM | ODS |
+| Eixo | Pergunta que ajuda a lembrar |
 |---|---|
-| 8 objetivos | 17 objetivos |
-| 2000–2015 | 2016–2030 |
-| foco mais concentrado em pobreza e desenvolvimento social | integração econômica, social e ambiental, com paz, instituições e parceria |
-| maior ênfase em países em desenvolvimento | aplicação universal a todos os países |
+| **Pessoas** | todos podem viver com dignidade, sem pobreza e fome? |
+| **Planeta** | recursos naturais e clima estão sendo protegidos para as gerações presentes e futuras? |
+| **Prosperidade** | progresso econômico, social e tecnológico melhora a vida em harmonia com a natureza? |
+| **Paz** | há sociedades pacíficas, justas e inclusivas? |
+| **Parceria** | existem recursos, capacidades e cooperação para transformar metas em ação? |
 
-### 3.2 Rio+20
+A Agenda afirma que erradicar a pobreza em todas as suas formas e dimensões, inclusive a extrema, é o maior desafio global e requisito indispensável ao desenvolvimento sustentável. No eixo Paz, estabelece uma relação de mão dupla: desenvolvimento sustentável depende de paz, e paz depende de desenvolvimento sustentável.
 
-A **Conferência das Nações Unidas sobre Desenvolvimento Sustentável de 2012 (Rio+20)** foi antecedente decisivo da Agenda 2030. Seu documento final, **O Futuro que Queremos**, impulsionou o processo de formulação dos ODS.
+### 3.1 As três dimensões
 
-O Fórum Político de Alto Nível sobre Desenvolvimento Sustentável (HLPF) também se relaciona ao processo institucional derivado da Rio+20; não nasceu da A/RES/70/1.
-
-## 4. Os cinco Ps
-
-O preâmbulo organiza a Agenda em cinco eixos de leitura:
-
-| P | Ideia central |
-|---|---|
-| **Pessoas** | acabar com pobreza e fome e assegurar dignidade e igualdade |
-| **Planeta** | proteger recursos naturais e clima e combater a degradação |
-| **Prosperidade** | assegurar vida próspera e progresso em harmonia com a natureza |
-| **Paz** | promover sociedades pacíficas, justas e inclusivas |
-| **Parceria** | mobilizar meios de implementação por cooperação global |
-
-Os cinco Ps **não são cinco ODS adicionais**.
-
-A Agenda identifica a erradicação da pobreza, inclusive extrema, como o maior desafio global e requisito indispensável ao desenvolvimento sustentável.
-
-## 5. Princípios estruturantes
-
-### 5.1 Universalidade com contexto nacional
-
-A Agenda é universal: aplica-se a todos os países, desenvolvidos e em desenvolvimento. Isso não significa execução idêntica em todos os lugares. O próprio documento reconhece diferentes realidades, capacidades, prioridades e políticas nacionais.
-
-### 5.2 Integração e indivisibilidade
-
-Os ODS e metas são **integrados e indivisíveis**. Uma política relacionada a energia, por exemplo, pode afetar pobreza, saúde, trabalho, clima e desigualdade. Os objetivos não funcionam como compartimentos independentes.
-
-### 5.3 Três dimensões
-
-A Agenda busca equilibrar as dimensões:
+Os <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> e suas metas buscam equilibrar três dimensões do desenvolvimento sustentável:
 
 1. **econômica**;
 2. **social**;
 3. **ambiental**.
 
-Paz e parceria são eixos relevantes, mas não constituem quarta e quinta dimensões formais.
+Paz e parceria são eixos centrais, mas não constituem quarta e quinta dimensões formais.
 
-### 5.4 Direitos humanos e não discriminação
+A integração aparece no exemplo do saneamento: uma medida ligada ao <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 6 pode repercutir no <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 3, por reduzir doenças; no <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 10, por diminuir desigualdades; e no <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 11, por melhorar as condições urbanas. “Integrados e indivisíveis” significa justamente que essas conexões fazem parte do desenho da Agenda.
 
-A Agenda é guiada pela Carta das Nações Unidas e fundamenta-se, entre outros instrumentos, na Declaração Universal dos Direitos Humanos e em tratados internacionais de direitos humanos. Reforça:
+### 3.2 Direitos humanos, igualdade e quem fica para trás
 
-- dignidade e igualdade;
-- não discriminação;
-- igualdade de gênero e empoderamento de mulheres e meninas;
-- atenção a pessoas e grupos em situação de vulnerabilidade;
-- Estado de Direito, acesso à justiça e instituições inclusivas.
+A Agenda é guiada pela Carta das Nações Unidas e reafirma a importância da Declaração Universal dos Direitos Humanos e de outros instrumentos internacionais de direitos humanos. Dignidade, igualdade, não discriminação, igualdade de gênero, acesso à justiça e instituições inclusivas não aparecem como temas laterais: ajudam a orientar a implementação.
 
-A A/RES/70/1, porém, não cria por si só um novo tratado nem um mecanismo contencioso próprio para cada ODS.
+O compromisso de **não deixar ninguém para trás** acrescenta uma exigência de distribuição dos resultados. Não basta que a média nacional melhore se determinados grupos continuam excluídos. A Agenda declara a intenção de alcançar todas as nações, povos e segmentos da sociedade e de procurar alcançar primeiro quem está mais para trás.
 
-### 5.5 Não deixar ninguém para trás
+Por isso, **dados desagregados** são importantes: em vez de mostrar apenas uma média geral, eles separam resultados por características relevantes e podem revelar desigualdades que o número agregado esconderia.
 
-O compromisso de **não deixar ninguém para trás** significa buscar resultados para todas as nações, povos e segmentos da sociedade e procurar alcançar primeiro quem está mais para trás.
+## 4. Objetivo, meta e indicador: três níveis diferentes
 
-Por isso, dados desagregados são relevantes: médias nacionais podem esconder desigualdades e exclusões.
+Considere o <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 16. O objetivo dá a direção ampla: paz, justiça e instituições eficazes, responsáveis e inclusivas. Dentro dele, a meta **16.5** especifica um resultado: reduzir substancialmente a corrupção e o suborno em todas as suas formas. Um indicador, por sua vez, mede algum aspecto observável ligado a essa meta.
 
-## 6. Objetivo, meta e indicador
+A relação é:
 
-| Elemento | Função | Exemplo |
+| Nível | Função | Exemplo |
 |---|---|---|
-| **objetivo** | direção ampla | ODS 16: paz, justiça e instituições eficazes |
-| **meta** | resultado ou meio específico | meta 16.3: Estado de Direito e acesso à justiça |
-| **indicador** | medida de acompanhamento | medida estatística vinculada a uma ou mais metas |
+| **objetivo** | define a direção ampla | <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 16: paz, justiça e instituições |
+| **meta** | especifica resultado ou meio | 16.5: reduzir corrupção e suborno |
+| **indicador** | mede o progresso | medida estatística associada à meta |
 
-Não confunda:
+O número **169** refere-se às metas, não aos indicadores.
 
-- **17 objetivos**;
-- **169 metas**;
-- indicadores usados para acompanhar o progresso.
+### 4.1 Metas numéricas e metas por letras
 
-O marco global de indicadores foi desenvolvido em processo posterior à A/RES/70/1 e adotado pela Assembleia Geral em 2017 na **A/RES/71/313**. Ele é complementado por indicadores nacionais e regionais e pode ser refinado ao longo do tempo. Para este edital, o ponto importante é a **distinção conceitual**, não a memorização de uma contagem circunstancial de indicadores.
+A numeração revela uma regularidade útil:
 
-### 6.1 Numeração das metas
+- metas como `9.5`, `12.6` e `16.5` descrevem, em geral, resultados ou ações substantivas;
+- metas como `9.b`, `12.a` e `16.a` tratam, em geral, de **meios de implementação**, isto é, capacidades, recursos, cooperação ou condições que ajudam a realizar o objetivo;
+- as metas identificadas por letras também integram as **169 metas** e não têm importância inferior às demais.
 
-- metas como `1.1`, `5.2` e `16.3` expressam resultados substantivos;
-- metas como `1.a`, `4.c` e `16.a` tratam, em regra, de meios de implementação;
-- metas identificadas por letras também integram as **169 metas**;
-- o horizonte geral é 2030, mas algumas metas possuem prazos anteriores, como 2020 ou 2025.
+A letra não transforma a meta em recomendação externa à Agenda.
 
-## 7. Os 17 Objetivos de Desenvolvimento Sustentável
+### 4.2 O marco de indicadores veio depois
 
-| ODS | Tema central |
+A Resolução A/RES/70/1 definiu os 17 <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> e as 169 metas, mas não fixou de forma definitiva todo o marco estatístico usado para acompanhá-los. O marco global de indicadores foi desenvolvido depois e adotado pela Assembleia Geral em **2017**, na Resolução **A/RES/71/313**.
+
+Esse marco é complementado por indicadores nacionais e regionais e pode ser refinado. A lista oficial já incorporou a revisão abrangente de 2025 e refinamentos anuais de 2026. Portanto, uma contagem atual de indicadores é informação de acompanhamento que pode mudar; ela não deve ser memorizada como se fosse parte imutável da estrutura **17 objetivos / 169 metas**.
+
+## 5. Os 17 objetivos como mapa do desenvolvimento sustentável
+
+Os nomes dos <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> funcionam como um mapa. Os títulos dão a primeira camada; as metas mostram como cada tema se desdobra em resultados e meios mais precisos.
+
+| <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> | Núcleo |
 |---:|---|
 | **1** | pobreza |
 | **2** | fome, segurança alimentar, nutrição e agricultura sustentável |
 | **3** | saúde e bem-estar |
-| **4** | educação inclusiva, equitativa e de qualidade |
+| **4** | educação inclusiva, equitativa e de qualidade e aprendizagem ao longo da vida |
 | **5** | igualdade de gênero e empoderamento de mulheres e meninas |
 | **6** | água e saneamento |
 | **7** | energia acessível, confiável, sustentável e moderna |
 | **8** | crescimento econômico, emprego e trabalho decente |
-| **9** | infraestrutura, industrialização e inovação |
+| **9** | infraestrutura, industrialização inclusiva e sustentável e inovação |
 | **10** | redução das desigualdades dentro dos países e entre eles |
-| **11** | cidades e assentamentos humanos sustentáveis |
+| **11** | cidades e assentamentos humanos inclusivos, seguros, resilientes e sustentáveis |
 | **12** | padrões sustentáveis de produção e consumo |
 | **13** | mudança climática |
 | **14** | oceanos, mares e recursos marinhos |
 | **15** | ecossistemas terrestres, florestas, terras e biodiversidade |
-| **16** | paz, justiça, Estado de Direito e instituições eficazes, responsáveis e inclusivas |
+| **16** | paz, justiça e instituições eficazes, responsáveis e inclusivas |
 | **17** | meios de implementação e parceria global |
 
-### 7.1 Associações de prova
+Uma forma de recuperar o mapa sem inventar uma classificação oficial é perceber a progressão temática: os primeiros objetivos concentram necessidades humanas básicas e igualdade; o bloco intermediário trata de infraestrutura, economia, cidades e padrões de produção; os objetivos 13 a 15 concentram clima e ecossistemas; o <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 16 focaliza paz, justiça e instituições; e o <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 17 reúne meios e parceria. Essa divisão é apenas um recurso de estudo, não uma estrutura formal da Resolução A/RES/70/1.
 
-- igualdade de gênero e empoderamento → **ODS 5**;
-- desigualdade dentro dos países e entre eles → **ODS 10**;
-- cidades e assentamentos → **ODS 11**;
-- consumo e produção → **ODS 12**;
-- mudança climática → **ODS 13**;
-- oceanos e mares → **ODS 14**;
-- ecossistemas terrestres e biodiversidade → **ODS 15**;
-- paz, Estado de Direito, acesso à justiça e instituições → **ODS 16**;
-- meios de implementação e parceria global → **ODS 17**.
+### 5.1 Metas que mostram como a banca pode aprofundar o mapa
 
-> **Pegadinha:** acesso à justiça e Estado de Direito pertencem ao **ODS 16**, não ao ODS 10.
+Algumas metas deixam claro por que decorar apenas o título do objetivo pode ser insuficiente:
 
-### 7.2 “ODS 18” no Brasil
+- no <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 9, a meta **9.5** trata de pesquisa científica, capacidade tecnológica dos setores industriais e inovação; a meta **9.b** apoia tecnologia, pesquisa e inovação domésticas em países em desenvolvimento e menciona ambiente de políticas favorável à diversificação industrial e à agregação de valor a produtos primários comercializados em larga escala (commodities);
+- no <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 12, a meta **12.1** trata do **Plano Decenal de Programas sobre Produção e Consumo Sustentáveis**, enquanto a meta **12.6** incentiva empresas, especialmente as grandes e transnacionais, a adotar práticas sustentáveis e integrar informações de sustentabilidade aos seus relatórios;
+- no <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 16, a meta **16.2** trata do fim do abuso, da exploração, do tráfico e de formas de violência e tortura contra crianças; a **16.3** associa Estado de Direito — poder público submetido ao direito e a instituições que asseguram direitos — e acesso à justiça; a **16.5** trata de corrupção e suborno; e a **16.b** trata de leis e políticas não discriminatórias.
 
-A existência de iniciativa brasileira apresentada como “ODS 18” **não altera a A/RES/70/1**: a Agenda 2030 da ONU possui **17 ODS**. Em questão que pergunte pela estrutura da Agenda da ONU, a resposta continua sendo 17.
+Esses exemplos também mostram a integração. Inovação aparece no <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 9, mas ciência, tecnologia e inovação também aparecem entre os meios de implementação do <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 17. A Agenda não reserva cada ideia a um único compartimento.
 
-## 8. Meios de implementação e parceria global
+### 5.2 O “<abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 18” brasileiro
 
-Os meios de implementação aparecem:
+O Brasil adotou voluntariamente um <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 18 voltado à igualdade étnico-racial. Essa iniciativa nacional **não altera a estrutura da Agenda 2030 da <abbr title="Organização das Nações Unidas">ONU</abbr>**, que continua composta por **17 <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr>** e 169 metas. Quando a pergunta se refere à Agenda da <abbr title="Organização das Nações Unidas">ONU</abbr>, não se soma o objetivo brasileiro ao total oficial.
 
-- em metas específicas de vários ODS, frequentemente identificadas por letras; e
-- de forma sistematizada no **ODS 17**.
+## 6. Como a implementação acontece
 
-Incluem financiamento, tecnologia, capacitação, comércio, coerência de políticas, parcerias e dados.
+Uma agenda global não produz resultados apenas por declarar objetivos. Ela também precisa responder: **com que recursos, capacidades e cooperação as metas serão executadas?**
 
-A **Agenda de Ação de Adis Abeba**, resultante da Terceira Conferência Internacional sobre Financiamento para o Desenvolvimento de 2015, é reconhecida pela A/RES/70/1 como parte integrante da Agenda 2030 e relevante para seus meios de implementação.
+A Agenda chama essas condições de **meios de implementação**. Eles incluem, entre outros elementos:
 
-A parceria global envolve governos, parlamentos, sistema ONU, autoridades locais, setor privado, sociedade civil, comunidade científica e outras partes interessadas. Essa cooperação não elimina a responsabilidade primária de cada país por seu desenvolvimento econômico e social.
+- financiamento;
+- ciência, tecnologia e inovação;
+- capacitação;
+- comércio;
+- coerência de políticas;
+- parcerias;
+- dados e capacidade estatística.
 
-## 9. Responsabilidade nacional
+Esses meios aparecem em metas de vários <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> e são sistematizados no <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 17. Portanto, é errado tratar o <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 17 como o único lugar em que existem meios de implementação.
 
-A Agenda combina cooperação internacional e apropriação nacional:
+A **Agenda de Ação de Adis Abeba**, aprovada em 2015 no processo de financiamento para o desenvolvimento, é reconhecida pela própria Agenda 2030 como parte integrante e como apoio aos meios de implementação.
 
-- cada país é o principal responsável por seu desenvolvimento;
-- governos lideram o acompanhamento e a revisão nacionais;
-- metas nacionais consideram prioridades e circunstâncias próprias;
-- a implementação ocorre em parceria e deve respeitar compromissos internacionais.
+### 6.1 Universal não significa uniforme
 
-São errados dois extremos:
+As metas globais expressam uma ambição comum. A Agenda as caracteriza como globais e aspiracionais, e cada governo define como incorporá-las ao planejamento nacional considerando suas circunstâncias, capacidades, nível de desenvolvimento, políticas e prioridades.
 
-- “a ONU impõe execução uniforme a todos os países”;
-- “cada país atua isoladamente, sem parceria ou acompanhamento global”.
+Isso produz um equilíbrio:
 
-## 10. Acompanhamento e revisão
+- a Agenda **não** autoriza cada país a ignorar livremente os objetivos comuns;
+- a <abbr title="Organização das Nações Unidas">ONU</abbr> **não** impõe uma execução idêntica a todos os países;
+- cada país continua tendo responsabilidade primária por seu desenvolvimento econômico e social;
+- a implementação ocorre dentro de uma parceria global ampla, com governos, parlamentos, sistema das Nações Unidas, autoridades locais, sociedade civil, setor privado, comunidade científica e outros atores.
 
-A Agenda prevê acompanhamento em níveis **nacional, regional e global**. Os processos devem ser voluntários, liderados pelos países, participativos, transparentes e baseados em evidências.
+## 7. Acompanhamento: do país ao plano global
 
-### 10.1 HLPF
+A lógica de acompanhamento pode ser lida como um fluxo:
 
-O **High-level Political Forum on Sustainable Development (HLPF)** é a plataforma central da ONU para acompanhamento e revisão da Agenda e dos ODS. Reúne-se:
+**dados e políticas nacionais → revisão nacional → diálogo regional → revisão global → aprendizado e ajuste de implementação.**
 
-- anualmente sob os auspícios do **<abbr title="Conselho Econômico e Social das Nações Unidas">ECOSOC</abbr>**;
-- a cada quatro anos, em nível de chefes de Estado e de governo, sob os auspícios da **Assembleia Geral**.
+A Agenda prevê acompanhamento nos níveis **nacional, regional e global**. Os processos devem ser **voluntários e liderados pelos países**, participativos, transparentes, baseados em evidências e sensíveis aos diferentes contextos nacionais.
 
-### 10.2 Revisões Nacionais Voluntárias
+### 7.1 <abbr title="Fórum Político de Alto Nível sobre Desenvolvimento Sustentável">HLPF</abbr>
 
-As **Voluntary National Reviews (VNRs)** ou Revisões Nacionais Voluntárias são processos liderados pelos países e apresentados no HLPF. Servem para compartilhar avanços, desafios, políticas e necessidades.
+O <abbr title="Fórum Político de Alto Nível sobre Desenvolvimento Sustentável">HLPF</abbr> é a plataforma central das Nações Unidas para acompanhamento e revisão da Agenda 2030 e dos <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr>. Sua origem institucional é anterior à Agenda de 2015 e remonta ao processo da <abbr title="Conferência das Nações Unidas sobre Desenvolvimento Sustentável de 2012">Rio+20</abbr>.
 
-VNR **não é** sentença, auditoria coercitiva nem sanção internacional.
+O fórum se reúne:
 
-## 11. Pegadinhas centrais
+- anualmente sob os auspícios do <abbr title="Conselho Econômico e Social das Nações Unidas">ECOSOC</abbr>;
+- a cada quatro anos, no nível de chefes de Estado e de governo, sob os auspícios da Assembleia Geral.
 
-| Afirmação | Julgamento |
-|---|---|
-| 193 Estados ratificaram a Agenda | **errado**: houve adoção, não ratificação |
-| a Agenda foi adotada em 2016 | **errado**: adoção em 2015; início dos ODS em 2016 |
-| aplica-se só a países em desenvolvimento | **errado**: é universal |
-| universalidade exige execução idêntica | **errado**: considera contextos nacionais |
-| ODS e metas são independentes | **errado**: são integrados e indivisíveis |
-| os cinco Ps são ODS adicionais | **errado**: são eixos do preâmbulo |
-| metas por letras não integram as 169 | **errado**: integram as 169 metas |
-| toda meta termina em 2030 | **errado**: há prazos anteriores |
-| somente o ODS 17 possui meios de implementação | **errado**: outros ODS também possuem metas de meios |
-| HLPF foi criado pela Agenda 2030 | **errado**: sua origem institucional é anterior, ligada à Rio+20 |
-| VNR é auditoria obrigatória | **errado**: é voluntária e liderada pelo país |
-| indicadores foram todos definidos na A/RES/70/1 | **errado**: o marco global veio depois |
-| a ONU possui 18 ODS | **errado**: a Agenda da ONU possui 17 |
+### 7.2 Revisões Nacionais Voluntárias
 
-## 12. Método de resolução
+As Revisões Nacionais Voluntárias (<abbr title="Voluntary National Reviews">VNRs</abbr>) são processos conduzidos pelos próprios países e apresentados no <abbr title="Fórum Político de Alto Nível sobre Desenvolvimento Sustentável">HLPF</abbr>. Servem para compartilhar avanços, desafios, políticas, lições e necessidades, com participação de diferentes atores.
 
-1. Separe **adoção em 2015** de **início em 2016**.
-2. Separe resolução e plano político de **tratado ratificável**.
-3. Memorize o núcleo: **5 Ps / 3 dimensões / 17 ODS / 169 metas**.
-4. Teste os qualificadores: universal, mas contextualizada; integrada e indivisível; voluntária e liderada pelos países.
-5. Associe o tema ao ODS correto, sobretudo **ODS 5, 10, 16 e 17**.
-6. Distinga objetivo, meta e indicador.
-7. Rejeite absolutos como “somente”, “todos com prazo em 2030”, “aplicação idêntica” e “auditoria obrigatória”.
+O nome já aponta o limite jurídico: uma <abbr title="Voluntary National Review">VNR</abbr> não é sentença, auditoria coercitiva nem mecanismo de sanção internacional. A revisão integra um sistema político de acompanhamento e aprendizagem, não um tribunal dos <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr>.
+
+## 8. Contrastes conceituais que não podem ser confundidos
+
+Algumas distinções preservam a estrutura do documento:
+
+- **adoção em 2015** × início dos <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> em **2016**;
+- resolução adotada × **tratado ratificado**;
+- universalidade × **execução uniforme**;
+- **17 <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> / 169 metas** × número mutável de indicadores;
+- horizonte geral em 2030 × prazo idêntico para todas as metas;
+- <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 17 como eixo dos meios × existência de meios somente no <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 17;
+- <abbr title="Fórum Político de Alto Nível sobre Desenvolvimento Sustentável">HLPF</abbr> como plataforma central × fórum criado pela Resolução A/RES/70/1;
+- <abbr title="Voluntary National Review">VNR</abbr> voluntária × auditoria internacional obrigatória.
+
+Em síntese, fórmulas absolutas como “somente”, “idêntico”, “todos” e “obrigatório” podem apagar as qualificações que estruturam a Agenda: **ambição global + contexto nacional; integração + responsabilidades específicas; acompanhamento + liderança dos países**.

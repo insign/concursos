@@ -1,6 +1,7 @@
 - **Transforming our world: the 2030 Agenda for Sustainable Development** — United Nations Department of Economic and Social Affairs, Resolução A/RES/70/1: <https://sdgs.un.org/2030agenda>.
 - **Transformando Nosso Mundo: A Agenda 2030 para o Desenvolvimento Sustentável** — ONU Brasil, tradução institucional da A/RES/70/1: <https://brasil.un.org/sites/default/files/2020-09/agenda2030-pt-br.pdf>.
 - **The 17 Goals** — United Nations Department of Economic and Social Affairs: <https://sdgs.un.org/goals>.
+- **ODS 18 — Igualdade Étnico-Racial** — Comissão Nacional para os Objetivos de Desenvolvimento Sustentável, Resolução nº 02/CNODS, de 20 de dezembro de 2023: <https://www.gov.br/igualdaderacial/pt-br/assuntos/programas-e-projetos/ods18/normativas>.
 - **SDG Indicators** — United Nations Statistics Division, marco global de indicadores e A/RES/71/313: <https://unstats.un.org/sdgs/indicators/indicators-list/>.
 - **Mandate and Functions of the HLPF** — High-level Political Forum on Sustainable Development: <https://hlpf.un.org/mandate-and-functions>.
 - **Voluntary National Reviews** — High-level Political Forum on Sustainable Development: <https://hlpf.un.org/vnrs>.
