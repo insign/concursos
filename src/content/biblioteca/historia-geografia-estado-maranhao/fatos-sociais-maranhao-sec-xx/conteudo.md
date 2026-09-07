@@ -8,217 +8,196 @@ storageId: fatos-sociais-maranhao-sec-xx
 
 # Fatos sociais do Maranhão na segunda metade do século XX
 
-## 1. Recorte do edital
+## O que mudou na vida social maranhense?
 
-O assunto cobre os **principais fatos sociais do Maranhão entre 1951 e 2000**. A Greve de 1951 aparece somente como transição do assunto anterior. Política e economia entram apenas quando ajudam a explicar consequências sociais.
+Entre **1951 e 2000**, o Maranhão ficou mais urbano, integrou novas áreas por rodovias e grandes projetos, diversificou o trabalho e ampliou direitos. Ao mesmo tempo, o campo continuou decisivo, a disputa pela terra se intensificou em várias regiões e o acesso a moradia, saneamento, transporte e outros serviços permaneceu desigual.
 
-O foco aqui não é construir uma demografia completa do estado. Crescimento populacional, migração e urbanização são usados como **processos histórico-sociais**; o estudo sistemático de população, povoamento, densidade, urbanização e movimentos populacionais pertence ao **Assunto 088**.
-
-A chave geral é:
+A melhor forma de organizar o período é enxergar uma cadeia de relações, e não uma lista de fatos isolados:
 
 $$
-\text{mudanças produtivas e fundiárias} + \text{crescimento e deslocamentos populacionais}
-\rightarrow \text{urbanização, conflitos, desigualdades e organização coletiva}
+\text{mudanças produtivas e fundiárias}
++\text{crescimento e deslocamentos populacionais}
+\rightarrow
+\text{urbanização, conflitos e desigualdades}
+\rightarrow
+\text{novas formas de organização coletiva}
 $$
 
-## 2. Transformação rural-urbana
+A Greve de 1951 funciona apenas como ponte com o assunto anterior. Política e economia entram aqui quando ajudam a explicar efeitos sociais. Já a demografia sistemática — população, densidade, povoamento, taxas e fluxos migratórios detalhados — pertence ao **Assunto 088**.
 
-Na segunda metade do século XX, o Maranhão passou por forte crescimento populacional e por urbanização acelerada. Ao final do período, a população classificada como urbana já superava a rural.
+## Crescer, migrar e urbanizar não são a mesma coisa
 
-Essa mudança não significou desaparecimento do campo nem universalização de infraestrutura. A urbanização conviveu com:
+O Maranhão ganhou população ao longo da segunda metade do século XX, embora o ritmo desse crescimento tenha mudado. A série histórica do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> mostra desaceleração depois de 1980, sem queda absoluta da população estadual. Um mecanismo geral ajuda a entender esse tipo de mudança: a <abbr title="Passagem de altas para baixas taxas de mortalidade e fecundidade">transição demográfica</abbr>. Em sua sequência típica, a mortalidade cai antes da fecundidade; por algum tempo, o crescimento se acelera. Quando a fecundidade também cai, a população pode **continuar aumentando, mas em ritmo menor**.
 
-- permanência de agricultura familiar e extrativismo;
-- expansão de pecuária e grandes projetos;
-- migrações internas e interestaduais;
-- crescimento de cidades como São Luís e Imperatriz;
-- expansão periférica e demanda por moradia, transporte e saneamento;
-- desigualdade de acesso a serviços públicos.
+Esse mecanismo não deve ser usado como explicação única. Migrações também alteraram a distribuição da população. Para não confundir os movimentos:
 
-> **Urbanização não é sinônimo de melhoria automática das condições de vida.**
+- **migração interestadual** cruza a fronteira entre estados;
+- **migração intraestadual** ocorre dentro do próprio Maranhão;
+- **migração de retorno** acontece quando alguém volta a um território onde já residia.
 
-Os números censitários, taxas de crescimento, fecundidade e composição detalhada dos fluxos migratórios não são o núcleo deste assunto.
+Assim, o Maranhão pôde ser ao mesmo tempo lugar de saída, de chegada, de deslocamentos internos e de retorno. O efeito social importa mais aqui do que a contagem de cada fluxo: famílias, mercados de trabalho e cidades foram reorganizados.
 
-## 3. São Luís, Imperatriz e periferização
+Também separe dois conceitos:
 
-A expansão urbana teve ritmos e causas diferentes no território estadual.
+- **urbanização**: aumento da participação da população urbana no total;
+- **crescimento urbano**: aumento absoluto do número de moradores das cidades.
 
-Em **Imperatriz**, a integração rodoviária fortaleceu circulação, comércio e serviços e atraiu população. A rodovia Belém-Brasília foi decisiva para a nova centralidade regional, mas não explica sozinha todo o crescimento urbano.
+No Censo Demográfico de 2000, o <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> registrou população urbana maior que a rural no Maranhão. Isso é um marco da transformação do período, mas não significa desaparecimento do campo nem universalização de infraestrutura.
 
-Em **São Luís**, migração, crescimento natural, concentração de serviços e investimentos públicos ampliaram a cidade desde antes dos grandes projetos industriais dos anos 1980. <abbr title="Programa Grande Carajás">PGC</abbr>, Alumar e o Distrito Industrial reforçaram um processo já em curso.
+## São Luís e Imperatriz: dois caminhos de expansão urbana
 
-A expansão urbana ocorreu de forma socialmente desigual:
+A urbanização não ocorreu pelo mesmo mecanismo em todo o estado.
 
-- valorização imobiliária em determinadas áreas;
-- ocupações populares e autoconstrução em outras;
-- palafitas e moradias em áreas ambientalmente frágeis;
-- conjuntos habitacionais financiados pelo <abbr title="Banco Nacional da Habitação">BNH</abbr>;
-- acesso desigual a transporte, saneamento e equipamentos públicos.
+Em **Imperatriz**, a integração rodoviária ampliou acessibilidade e circulação, fortaleceu comércio e serviços e atraiu população. A rodovia Belém-Brasília foi decisiva para a nova centralidade regional, mas **não foi causa única** do crescimento: migração, atividades econômicas e serviços se reforçaram mutuamente.
 
-**Periferização** não significa apenas distância do centro. É a produção desigual do espaço urbano e do acesso à terra, à moradia e aos serviços.
+Em **São Luís**, a expansão já se intensificava antes dos grandes projetos industriais dos anos 1980. Migração, crescimento natural, concentração de serviços, investimentos públicos e políticas urbanas ampliaram a cidade; depois, <abbr title="Programa Grande Carajás">PGC</abbr>, Alumar e o Distrito Industrial acrescentaram novas pressões e expectativas.
 
-## 4. Trabalho rural e urbano
+Dois conceitos ajudam a interpretar esse processo. **Periferização** é a produção de áreas urbanas com acesso desigual à terra, à moradia, ao transporte e aos serviços; não é simplesmente “morar longe do centro”. **Segregação socioespacial** é a distribuição desigual de grupos sociais e infraestrutura pelo espaço urbano.
 
-No campo coexistiam posseiros, pequenos proprietários, parceiros, arrendatários, agricultores familiares, assalariados temporários e trabalhadores do extrativismo do babaçu. A expansão de pecuária, madeira e projetos empresariais alterou relações de trabalho e acesso à terra.
+Em São Luís, isso apareceu na coexistência de valorização imobiliária, ocupações populares, autoconstrução, palafitas e conjuntos habitacionais. A política financiada pelo <abbr title="Banco Nacional da Habitação">BNH</abbr>, executada localmente também pela <abbr title="Companhia de Habitação Popular do Maranhão">COHAB-MA</abbr>, produziu milhares de moradias, mas não atendeu automaticamente toda a demanda nem todas as faixas de renda. **Urbanizar-se mais não equivale a tornar-se socialmente homogênea.**
 
-Nas cidades cresceram atividades de comércio, construção civil, funcionalismo, serviços, trabalho doméstico, indústria e informalidade.
+## Trabalho: diversificação sem absorção de todos
 
-Os grandes projetos criaram postos de trabalho e novas expectativas, mas **não absorveram automaticamente toda a população atraída ou deslocada**. Crescimento econômico e geração de empregos formais não são equivalentes.
+No campo coexistiam posseiros, pequenos proprietários, parceiros, arrendatários, agricultores familiares, trabalhadores temporários e pessoas ligadas ao extrativismo do babaçu. A expansão da pecuária, da madeira e de projetos empresariais alterou tanto as relações de trabalho quanto o acesso à terra.
 
-## 5. Questão agrária e política de terras
+Nas cidades cresceram comércio, construção civil, funcionalismo, serviços, trabalho doméstico, indústria e ocupações informais. Os grandes projetos criaram empregos e expectativas, mas a contratação era seletiva e não absorveu toda a população atraída ou deslocada.
 
-A questão agrária foi um dos principais eixos sociais do período. Rodovias, valorização fundiária, incentivos, pecuarização e políticas estaduais modificaram o uso e o controle da terra.
+Essa distinção é importante para prova:
 
-Entre os marcos institucionais estão:
+$$
+\text{crescimento econômico} \neq \text{emprego formal para todos}
+$$
 
-- **Lei estadual nº 2.979/1969**, ligada à política de terras devolutas;
-- **<abbr title="Companhia Maranhense de Colonização">COMARCO</abbr>**, criada em 1971 para políticas de colonização;
-- programas de colonização dirigida e expansão de projetos empresariais.
+## A terra vira um eixo central de conflito
 
-Esses instrumentos não atuaram isoladamente. A disputa pela terra envolveu populações locais e migrantes, agricultores familiares, posseiros, empresas e agentes públicos.
+A questão agrária conecta quase todo o período. Estradas tornaram áreas antes pouco integradas mais acessíveis; incentivos e projetos elevaram o interesse econômico pela terra; pecuária e exploração madeireira avançaram; e o Estado reorganizou a gestão de terras públicas. O resultado foi a sobreposição de interesses de posseiros, agricultores familiares, migrantes, empresas e agentes públicos.
 
-### Conceitos essenciais
+A sequência institucional mais útil é:
 
-| Conceito | Sentido |
+1. **1968** — o Decreto estadual nº 3.831 criou a Reserva Estadual de Terras e as Delegacias de Terras;
+2. **1969** — a Lei estadual nº 2.979 tornou-se marco da política de destinação das terras devolutas;
+3. **1971** — a Lei estadual nº 3.230 criou a <abbr title="Companhia Maranhense de Colonização">COMARCO</abbr>.
+
+No vocabulário da época, **terras devolutas** eram terras públicas sujeitas a destinação e titulação segundo a legislação. A criação da <abbr title="Companhia Maranhense de Colonização">COMARCO</abbr> integrou uma política de colonização e ordenamento territorial. **Colonização dirigida** significa que o poder público procurava conduzir a ocupação por projetos e áreas previamente definidos, em vez de apenas acompanhar deslocamentos espontâneos.
+
+A ideia de ocupar “espaços vazios” precisa ser lida criticamente: baixa densidade ou ausência de título formal não significavam ausência de moradores, trabalho, uso da terra ou reivindicações. Por isso, políticas de regularização e atração de empreendimentos podiam também produzir expropriação e conflito.
+
+### Conceitos para enxergar o conflito
+
+| Conceito | O que significa neste assunto |
 |---|---|
-| posse | exercício fático sobre a terra, com ou sem título |
-| propriedade | direito formalmente reconhecido |
-| grilagem | fraude destinada a produzir ou legitimar domínio fundiário |
-| expropriação | perda dos meios de produção e reprodução da vida |
-| terra de trabalho | terra vinculada à reprodução familiar pelo trabalho |
-| terra de negócio | terra tratada como ativo, renda ou valorização |
+| posse | exercício concreto do controle ou uso da terra, com ou sem título de propriedade |
+| propriedade | direito formalmente reconhecido sobre a terra |
+| grilagem | fraude empregada para criar ou legitimar domínio fundiário |
+| expropriação | perda dos meios com que uma família produz e reproduz sua vida |
+| terra de trabalho | terra usada prioritariamente para a reprodução familiar pelo trabalho |
+| terra de negócio | terra tratada como fonte de renda, valorização ou especulação |
 
-Conflito agrário não é sinônimo de massacre. Esse termo exige episódio de violência coletiva especificamente documentado.
+Esses conceitos não são intercambiáveis. Um posseiro pode não ser proprietário; nem todo conflito envolve grilagem; e **conflito agrário não é sinônimo de massacre**, termo que pressupõe um episódio específico de violência coletiva documentada.
 
-## 6. Organização dos trabalhadores rurais
+## Organização rural: antes de 1964 já havia mobilização
 
-A organização rural antecede os grandes movimentos das décadas de 1980 e 1990.
+A organização dos trabalhadores rurais não nasceu nos anos 1980. Na década de 1950 já existiam associações ligadas às lutas por terra e reforma agrária. Em **1956**, foi criada a <abbr title="Associação dos Trabalhadores Agrícolas do Maranhão">ATAM</abbr>, que articulou organizações de lavradores em diferentes municípios.
 
-Na década de 1950 surgiram articulações por reforma agrária e associações de trabalhadores, entre elas a **Associação dos Trabalhadores Agrícolas do Maranhão (ATAM)**, criada em 1956.
+No início dos anos 1960, educação popular e organização sindical se aproximaram. O <abbr title="Movimento de Educação de Base">MEB</abbr>, criado em 1961, atuava com alfabetização e formação social. No Vale do Pindaré, atividades do <abbr title="Movimento de Educação de Base">MEB</abbr> em **1962** aproximaram educação popular, debates sobre sindicalismo e cooperativismo e conflitos concretos pela terra; desse ambiente surgiram escolas comunitárias e novas lideranças.
 
-No início dos anos 1960, o **Movimento de Educação de Base (MEB)** atuou na educação popular e na formação de trabalhadores. Em **1963**, consolidou-se a organização sindical rural no vale do Pindaré, com participação do MEB.
-
-Depois do golpe de 1964, lideranças e organizações rurais sofreram repressão, e sindicatos sobreviventes passaram a atuar sob maior controle institucional.
-
-O núcleo de prova é o processo:
+Em **1963**, a organização sindical rural ganhou forma no Pindaré. O importante é o encadeamento:
 
 $$
-\text{conflitos concretos por terra e trabalho}
-\rightarrow \text{associações e educação popular}
-\rightarrow \text{sindicalização}
-\rightarrow \text{repressão e reorganização}
+\text{conflito por terra e trabalho}
+\rightarrow
+\text{associação e educação popular}
+\rightarrow
+\text{sindicalização}
 $$
 
-## 7. Igreja, educação popular e mediação social
+Depois do golpe de **1964**, lideranças e organizações sofreram repressão, e sindicatos sobreviventes passaram a atuar sob maior controle institucional. Portanto, é errado imaginar que o regime militar “criou” a mobilização rural: ele encontrou uma organização que já existia e a reprimiu.
 
-A Igreja Católica não atuou de maneira uniforme. Para este assunto, três experiências são especialmente úteis:
+## Igreja e mediação social: organizações diferentes, funções diferentes
 
-| Organização | Papel social |
+A Igreja Católica não agiu como um bloco uniforme. Para este assunto, três experiências ajudam a distinguir formas de atuação:
+
+| Organização | Papel predominante |
 |---|---|
-| MEB | educação popular e formação de lideranças |
+| <abbr title="Movimento de Educação de Base">MEB</abbr> | educação popular e formação de lideranças |
 | <abbr title="Comunidades Eclesiais de Base">CEBs</abbr> | organização comunitária territorial e participação de leigos |
 | <abbr title="Comissão Pastoral da Terra">CPT</abbr> | apoio a trabalhadores rurais e atuação na questão agrária |
 
-Sacerdotes e leigos também atuaram como educadores, assessores, mediadores e apoiadores de reivindicações comunitárias.
+Sacerdotes e leigos também podiam atuar em educação, assessoria, formação, apoio jurídico e articulação de demandas. A função concreta importa mais do que tratar “a Igreja” como sujeito único.
 
-Não confunda **CEB** com sindicato, partido ou movimento juvenil.
+Não confunda <abbr title="Comunidade Eclesial de Base">CEB</abbr> com sindicato ou partido, nem <abbr title="Comissão Pastoral da Terra">CPT</abbr> com entidade estatal.
 
-## 8. Grandes projetos e impactos sociais
+## Grandes projetos: emprego e infraestrutura, mas também novas pressões
 
-PGC, <abbr title="Estrada de Ferro Carajás">EFC</abbr>, Alumar e Distrito Industrial interessam aqui por seus **efeitos sociais**, e não por sua cronologia econômica detalhada.
+Nos anos 1980, <abbr title="Programa Grande Carajás">PGC</abbr>, <abbr title="Estrada de Ferro Carajás">EFC</abbr>, Alumar e Distrito Industrial interessam aqui pelos **efeitos sociais**, não pela cronologia econômica detalhada estudada no assunto anterior.
 
-Entre esses efeitos estavam:
+Eles contribuíram para:
 
-- atração de trabalhadores;
-- valorização de terras urbanas e rurais;
-- pressão sobre moradia e serviços;
-- remanejamentos e disputas territoriais;
-- transformação do mercado de trabalho;
-- expansão desigual de cidades do corredor logístico;
-- novas mobilizações comunitárias.
+- atrair trabalhadores e alimentar expectativas de emprego;
+- valorizar terras urbanas e rurais;
+- pressionar moradia, transporte e serviços;
+- provocar remanejamentos e disputas territoriais;
+- transformar mercados de trabalho;
+- estimular novas mobilizações comunitárias.
 
-Não se deve atribuir toda periferização ou todo conflito territorial à industrialização. Estrutura fundiária, migração anterior, política habitacional, renda e preços da terra também atuaram.
+A relação causal é múltipla. A industrialização reforçou mudanças já em curso, mas não explica sozinha a periferização de São Luís, assim como um grande projeto não explica todo conflito fundiário do estado.
 
-## 9. Quebradeiras de coco e organização coletiva
+## Quebradeiras de coco: trabalho, território e protagonismo feminino
 
-O trabalho das quebradeiras de coco babaçu articulava renda familiar, uso dos babaçuais, conhecimento tradicional e forte protagonismo feminino.
+O trabalho das quebradeiras de coco babaçu articulava renda familiar, conhecimento sobre os babaçuais e acesso a áreas de coleta. Cercamentos, derrubada de palmeiras e restrições de acesso ameaçavam ao mesmo tempo trabalho e reprodução familiar. Por isso, a defesa do babaçu tornou-se também uma luta por território e autonomia.
 
-Cercamentos, derrubada de palmeiras, cobrança pelo acesso e formas de partilha como a “quebra de meia” podiam restringir o trabalho extrativista.
+Nas décadas de 1980 e 1990, clubes de mães, associações, sindicatos e grupos locais ajudaram a ampliar a organização coletiva. Quatro marcos ordenam o processo:
 
-Nas décadas de 1980 e 1990, clubes de mães, associações, sindicatos e grupos locais ampliaram a organização coletiva.
+- **1989** — fundação da <abbr title="Associação em Áreas de Assentamento no Estado do Maranhão">ASSEMA</abbr>, no contexto das lutas agrárias do Médio Mearim;
+- **1991** — primeiro Encontro Interestadual das Quebradeiras de Coco Babaçu e criação de uma articulação interestadual;
+- **1995** — no segundo encontro, consolidação do nome <abbr title="Movimento Interestadual das Quebradeiras de Coco Babaçu">MIQCB</abbr>;
+- **1997** — Lago do Junco aprovou a Lei Municipal nº 05/1997, reconhecida pelo <abbr title="Movimento Interestadual das Quebradeiras de Coco Babaçu">MIQCB</abbr> como marco pioneiro do Babaçu Livre.
 
-Marcos seguros:
+A <abbr title="Associação em Áreas de Assentamento no Estado do Maranhão">ASSEMA</abbr> é uma associação de articulação, formação e apoio a comunidades rurais; o <abbr title="Movimento Interestadual das Quebradeiras de Coco Babaçu">MIQCB</abbr> é um movimento interestadual de quebradeiras. Nenhum dos dois é sinônimo de sindicato ou cooperativa.
 
-- **1989**: fundação da **<abbr title="Associação em Áreas de Assentamento no Estado do Maranhão">ASSEMA</abbr>**, no Médio Mearim;
-- **1991**: primeiro encontro interestadual das quebradeiras e formação de articulação entre os grupos;
-- **1995**: consolidação da denominação **Movimento Interestadual das Quebradeiras de Coco Babaçu (MIQCB)**;
-- **1997**: Lago do Junco aprova a Lei Municipal nº 05/1997, pioneira Lei do Babaçu Livre.
+A lei de **1997** reconheceu a reivindicação de acesso ao babaçu, mas as medidas protetivas mais detalhadas hoje associadas à legislação de Lago do Junco foram incorporadas pela Lei nº 01/2002. Como **2002 está fora do recorte**, essas regras posteriores não devem ser atribuídas à lei pioneira.
 
-Não confunda:
+## 1988 amplia direitos, mas não garante execução automática
 
-- **ASSEMA**: associação de articulação e assessoria;
-- **MIQCB**: movimento interestadual de quebradeiras;
-- sindicato: representação trabalhista;
-- cooperativa: organização voltada à produção e comercialização.
+A Constituição de 1988 reorganizou o marco jurídico dos direitos sociais e territoriais. No contexto maranhense, quatro efeitos são especialmente relevantes:
 
-A legislação municipal posterior, de 2002, está fora do recorte e não pode ser retroprojetada para 1997.
+- saúde, educação e assistência ganharam bases constitucionais mais amplas;
+- o <abbr title="Sistema Único de Saúde">SUS</abbr> foi estruturado na nova ordem constitucional;
+- o art. 231 reconheceu os direitos originários dos povos indígenas sobre as terras tradicionalmente ocupadas;
+- o art. 68 do <abbr title="Ato das Disposições Constitucionais Transitórias">ADCT</abbr> reconheceu, nas condições previstas, a propriedade definitiva aos remanescentes das comunidades dos quilombos que ocupassem suas terras.
 
-## 10. Constituição de 1988 e direitos
+A Constituição muda o **fundamento jurídico da reivindicação**, não apaga o problema social. Demarcação, titulação, oferta de serviços e redução de desigualdades dependem de políticas, procedimentos e capacidade institucional.
 
-A Constituição Federal de 1988 ampliou o marco jurídico dos direitos sociais e territoriais.
+Essa diferença entre direito formal e efetivação é uma das permanências do período: até 2000, a ampliação de direitos e serviços convivia com fortes desigualdades entre campo e cidade, capital e interior, centro e periferia.
 
-Entre os pontos relevantes ao contexto maranhense:
+## O período combina ruptura e permanência
 
-- ampliação das bases constitucionais de saúde, educação, assistência e participação;
-- formação do <abbr title="Sistema Único de Saúde">SUS</abbr> na nova ordem constitucional;
-- reconhecimento dos direitos originários dos povos indígenas sobre terras tradicionalmente ocupadas;
-- reconhecimento, pelo art. 68 do <abbr title="Ato das Disposições Constitucionais Transitórias">ADCT</abbr>, da propriedade definitiva aos remanescentes das comunidades dos quilombos que ocupassem suas terras.
-
-**Reconhecimento jurídico não significa efetivação automática.** Demarcação, titulação, oferta de serviços e redução das desigualdades dependem de políticas, procedimentos e capacidade institucional.
-
-Até 2000, expansão de direitos e de serviços coexistia com fortes diferenças entre campo e cidade, capital e interior, centro e periferia.
-
-## 11. Rupturas e permanências
-
-| Rupturas | Permanências |
+| O que mudou | O que continuou relevante |
 |---|---|
-| urbanização acelerada | importância social do campo |
-| diversificação do trabalho urbano | informalidade e desigualdade |
-| novos grandes projetos | conflitos territoriais |
-| novas organizações comunitárias | concentração do acesso à terra |
-| Constituição de 1988 | distância entre direito formal e efetivação |
-| organização das quebradeiras | trabalho extrativista familiar |
+| população tornou-se majoritariamente urbana | o campo permaneceu socialmente decisivo |
+| trabalho urbano se diversificou | informalidade e desigualdade continuaram |
+| infraestrutura e grandes projetos ganharam escala | conflitos territoriais persistiram |
+| novas organizações comunitárias se fortaleceram | concentração do acesso à terra permaneceu |
+| Constituição de 1988 ampliou direitos | efetivação continuou desigual |
+| quebradeiras ampliaram sua organização | extrativismo familiar seguiu importante |
 
-A leitura correta evita dois extremos: imaginar uma modernização que eliminou desigualdades ou uma continuidade absoluta em que nada mudou.
+Esse quadro evita dois erros opostos: imaginar uma modernização que resolveu automaticamente as desigualdades ou, ao contrário, tratar a segunda metade do século XX como se nada estrutural tivesse mudado.
 
-## 12. Linha do tempo essencial
+## Linha do tempo para reconstruir o raciocínio
 
-| Ano/período | Marco social |
-|---|---|
-| 1951 | mobilização urbana; apenas transição neste assunto |
-| anos 1950 | associações e organização rural; ATAM em 1956 |
-| 1963 | expansão da sindicalização rural no Pindaré |
-| 1964 | repressão às organizações rurais |
-| 1969-1971 | política de terras e COMARCO |
-| anos 1970 | urbanização, migração e conflitos fundiários se intensificam |
-| anos 1980 | grandes projetos e novas mobilizações comunitárias |
-| 1988 | novo marco de direitos sociais, indígenas e quilombolas |
-| 1989 | fundação da ASSEMA |
-| 1991 | encontro/articulação interestadual das quebradeiras |
-| 1995 | consolidação do nome MIQCB |
-| 1997 | Lei Municipal nº 05/1997 de Lago do Junco |
-| 2000 | maioria urbana ao fim do recorte |
+| Ano/período | Marco social | O que ele ajuda a explicar |
+|---|---|---|
+| 1951 | crise e mobilização urbana | ponte com o assunto anterior |
+| 1956 | criação da <abbr title="Associação dos Trabalhadores Agrícolas do Maranhão">ATAM</abbr> | organização rural anterior ao regime militar |
+| 1962-1963 | atuação do <abbr title="Movimento de Educação de Base">MEB</abbr> e sindicalização no Pindaré | educação popular → organização coletiva |
+| 1964 | repressão após o golpe | ruptura na organização rural |
+| 1968-1971 | Reserva/Delegacias → Lei de Terras → <abbr title="Companhia Maranhense de Colonização">COMARCO</abbr> | institucionalização da política fundiária |
+| anos 1970 | urbanização, migrações e conflitos se intensificam | transformação rural-urbana |
+| anos 1980 | grandes projetos e novas mobilizações | pressão sobre trabalho, moradia e território |
+| 1988 | nova ordem constitucional | ampliação de direitos sociais e territoriais |
+| 1989 | fundação da <abbr title="Associação em Áreas de Assentamento no Estado do Maranhão">ASSEMA</abbr> | articulação rural no Médio Mearim |
+| 1991-1995 | articulação interestadual → <abbr title="Movimento Interestadual das Quebradeiras de Coco Babaçu">MIQCB</abbr> | protagonismo das quebradeiras |
+| 1997 | Lei nº 05/1997 de Lago do Junco | marco pioneiro do Babaçu Livre |
+| 2000 | população urbana já supera a rural | fechamento do recorte |
 
-## 13. Pegadinhas de prova
-
-1. **1951-2000**, com 1951 apenas como transição.
-2. População e migração detalhadas pertencem ao Assunto 088.
-3. Urbanização ≠ saneamento ou infraestrutura universal.
-4. Rodovia importante ≠ causa única do crescimento de Imperatriz.
-5. Grandes projetos ≠ causa única da periferização de São Luís.
-6. Posse ≠ propriedade; grilagem ≠ todo conflito agrário.
-7. Organização rural precede 1964 e sofre repressão depois do golpe.
-8. MEB, CEBs e CPT têm naturezas distintas.
-9. ASSEMA ≠ MIQCB ≠ sindicato ≠ cooperativa.
-10. Quebradeiras: articulação interestadual em 1991; nome MIQCB consolidado em 1995.
-11. Lei do Babaçu Livre pioneira: Lago do Junco, **1997**; regras posteriores de 2002 ficam fora.
-12. Constituição de 1988 reconhece direitos, mas reconhecimento ≠ efetivação automática.
+Para resolver questões, privilegie sempre o **mecanismo**: causa única costuma ser uma armadilha; mudança jurídica não é execução automática; urbanização não elimina o campo; e organizações que atuam juntas não se tornam a mesma entidade.
