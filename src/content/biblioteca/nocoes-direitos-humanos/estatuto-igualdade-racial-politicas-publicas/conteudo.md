@@ -8,345 +8,170 @@ storageId: "eir-politicas-mecanismos"
 
 # Estatuto da Igualdade Racial: políticas públicas e mecanismos de promoção da igualdade racial
 
-## 1. Recorte e corte temporal
+## 1. Como a igualdade vira política pública
 
-Este assunto fecha o item do edital dedicado à **Lei nº 12.288/2010 (Estatuto da Igualdade Racial)**. O Assunto 101 já tratou de finalidades, conceitos, igualdade material e conteúdo substantivo dos direitos. Aqui o foco é **como a própria lei organiza a promoção da igualdade racial**: sistema, planejamento, órgãos, participação, orçamento, financiamento e monitoramento.
+Reconhecer um direito não basta para fazê-lo chegar à vida concreta. É preciso definir **quem planeja, quem articula, quem participa, de onde vêm os recursos e como se mede o resultado**. O Estatuto da Igualdade Racial organiza esse caminho: sistema nacional (artigos 47 e 48), planejamento e coordenação (artigo 49), participação e proteção institucional (artigos 50 a 55), mecanismos setoriais, orçamento e financiamento (artigos 56 e 57) e avaliação contínua (artigos 58 e 59).
 
-Para fins de prova, podem ser avaliadas alterações legislativas que entraram em vigor até a publicação do edital, em **6 de julho de 2026**. Este material foi conferido em **15 de agosto de 2026**; a conferência posterior não amplia o corte do edital.
+**Ação afirmativa**, neste contexto, é programa ou medida especial adotado pelo Estado ou pela iniciativa privada para corrigir desigualdades raciais e promover igualdade de oportunidades. Essa definição ajuda a entender por que a lei combina políticas gerais com instrumentos dirigidos a desigualdades específicas.
 
-A última alteração relevante do Estatuto antes do edital foi a **Lei nº 14.553/2023**, que acrescentou, entre outros pontos, a pesquisa quinquenal do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> no artigo 49, § 4º.
+### 1.1 Corte da prova
 
-O edital nomeia a **Lei nº 12.288/2010**, não seus regulamentos. Decretos e atos administrativos aparecem apenas quando ajudam a localizar institutos da lei ou evitar confusão. Detalhes operacionais que não integram o texto legal não são tratados como núcleo de memorização.
+O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, publicado em **6 de julho de 2026**, inclui expressamente a **Lei nº 12.288/2010 (Estatuto da Igualdade Racial)**. O corte deste material é a legislação em vigor nessa data.
 
-## 2. Mapa dos mecanismos legais
+A Lei nº 14.553/2023 já integrava o corte. Ela alterou os artigos 39 e 49: no artigo 39, acrescentou regras de coleta de informações étnico-raciais no mercado de trabalho; no artigo 49, incluiu a pesquisa a cada cinco anos do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, estudada adiante.
 
-| Tema | Dispositivo central | Essência |
-|---|---|---|
-| <abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr> | arts. 47 e 48 | organização, articulação, adesão e objetivos |
-| plano, coordenação e participação | art. 49 | plano nacional, órgão responsável, fórum, colegiado e pesquisa do IBGE |
-| conselhos | art. 50 | conselhos subnacionais permanentes, consultivos e paritários |
-| Ouvidorias | arts. 51 e 52 | canal permanente de denúncias e acesso institucional |
-| educação | art. 16 | acompanhamento e avaliação federal dos programas da seção |
-| moradia | art. 36 | peculiaridades da população negra no <abbr title="Sistema Nacional de Habitação de Interesse Social">SNHIS</abbr> e participação nos conselhos do <abbr title="Fundo Nacional de Habitação de Interesse Social">FNHIS</abbr> |
-| trabalho | art. 40 | formulação de políticas e orientação de recursos pelo <abbr title="Conselho Deliberativo do Fundo de Amparo ao Trabalhador">Codefat</abbr> |
-| contratação/publicidade federal | art. 46 | cláusulas e fiscalização voltadas à igualdade de oportunidades |
-| <abbr title="Plano Plurianual">PPA</abbr> e orçamento | art. 56 | prioridades, transparência, regra transitória e acompanhamento |
-| fontes financeiras | art. 57 | recursos ordinários e fontes adicionais |
-| outras medidas favoráveis | art. 58 | rol não excludente |
-| avaliação | art. 59 | eficácia social, monitoramento e relatórios |
+O edital nomeia a lei, não seus regulamentos. **Regulamento**, aqui, é o ato que detalha a execução da lei; os decretos serão usados apenas para separar **texto legal** de **detalhe regulamentar**.
 
-## 3. Sinapir: natureza, participação e objetivos
+## 2. O sistema nacional: articulação, não novo órgão
 
-### 3.1 Natureza
+O artigo 47 institui o Sistema Nacional de Promoção da Igualdade Racial (<abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr>) como forma de **organização e articulação** para implementar políticas e serviços destinados a superar desigualdades étnicas existentes no País, prestados pelo poder público federal.
 
-O artigo 47 define o **Sistema Nacional de Promoção da Igualdade Racial (Sinapir)** como forma de **organização e articulação** destinada à implementação de políticas e serviços voltados à superação das desigualdades étnicas existentes no País.
+Por isso, o <abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr> não é, por definição legal, fundo, conselho, órgão único nem novo ente federativo.
 
-O Sinapir não é fundo, conselho, órgão único nem novo ente federativo.
+Estados, Distrito Federal e Municípios **poderão participar** do <abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr> mediante adesão. A participação não é automática nem compulsória. O poder público federal também incentivará a sociedade e a iniciativa privada a participar do sistema.
 
-### 3.2 Participação dos entes e da sociedade
+### 2.1 Cinco objetivos do artigo 48
 
-Estados, Distrito Federal e Municípios **poderão participar** do Sinapir mediante adesão.
+São objetivos do <abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr>:
 
-Portanto:
-
-- a participação subnacional não é automática;
-- a adesão não é compulsória;
-- a lei preserva a autonomia dos entes.
-
-O poder público federal incentivará a sociedade e a iniciativa privada a participar do Sinapir.
-
-### 3.3 Cinco objetivos do artigo 48
-
-O Sinapir tem por objetivos:
-
-1. **promover** a igualdade étnica e combater desigualdades sociais resultantes do racismo, inclusive por ações afirmativas;
-2. **formular** políticas destinadas a combater fatores de marginalização e promover integração social da população negra;
+1. **promover** igualdade étnica e combater desigualdades sociais resultantes do racismo, inclusive por ações afirmativas;
+2. **formular** políticas contra fatores de marginalização e pela integração social da população negra;
 3. **descentralizar** a implementação de ações afirmativas pelos governos estaduais, distrital e municipais;
-4. **articular** planos, ações e mecanismos voltados à promoção da igualdade étnica;
-5. **garantir eficácia** dos meios e instrumentos criados para implementação das ações afirmativas e cumprimento das metas.
+4. **articular** planos, ações e mecanismos de promoção da igualdade étnica;
+5. **garantir a eficácia** dos meios e instrumentos criados para implementar ações afirmativas e cumprir as metas estabelecidas.
 
-Pegadinha: o Estatuto usa o verbo **descentralizar** como objetivo do sistema, mas não detalha, nesse artigo, requisitos administrativos de adesão ou modalidades de gestão.
+O verbo **descentralizar** impede uma leitura centralizadora: a própria lei prevê implementação por Estados, Distrito Federal e Municípios.
 
-## 4. Artigo 49: planejamento, coordenação, articulação e informação
+## 3. Artigo 49: plano, coordenação, participação e informação
 
-O artigo 49 é um mapa de governança em cinco peças.
+O artigo 49 distribui responsabilidades em cinco peças.
 
-### 4.1 Plano nacional
+### 3.1 Plano e órgão responsável
 
-O Poder Executivo federal elaborará plano nacional de promoção da igualdade racial contendo:
+O Poder Executivo federal **elaborará plano nacional de promoção da igualdade racial** com metas, princípios e diretrizes para implementar a Política Nacional de Promoção da Igualdade Racial (<abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr>).
 
-- metas;
-- princípios;
-- diretrizes;
+A elaboração, implementação, coordenação, avaliação e acompanhamento da <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr>, bem como a organização, articulação e coordenação do <abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr>, cabem ao **órgão responsável pela política de promoção da igualdade étnica em âmbito nacional**. Em questão literal sobre o Estatuto, essa fórmula funcional é mais segura que o nome administrativo de uma época específica.
 
-para implementação da Política Nacional de Promoção da Igualdade Racial.
+### 3.2 Fórum e colegiado
 
-### 4.2 Órgão responsável
+O Poder Executivo federal é **autorizado a instituir** <abbr title="espaço de articulação entre diferentes governos">fórum intergovernamental</abbr>, coordenado pelo órgão responsável pela política, para incorporar a política nacional às ações governamentais de Estados e Municípios. “É autorizado” não equivale a “é obrigado”.
 
-O órgão responsável pela política de promoção da igualdade étnica em âmbito nacional realizará a:
+As diretrizes das políticas nacional e regional de promoção da igualdade étnica serão elaboradas por <abbr title="órgão formado por vários integrantes">órgão colegiado</abbr> que assegure a **participação da sociedade civil**.
 
-- elaboração;
-- implementação;
-- coordenação;
-- avaliação;
-- acompanhamento da política nacional.
+### 3.3 Pesquisa a cada cinco anos
 
-Também organizará, articulará e coordenará o Sinapir.
+A Fundação <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> deve realizar, **a cada cinco anos**, pesquisa para identificar o percentual de ocupação por segmentos étnicos e raciais no **setor público** e produzir subsídios à implementação da <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr>.
 
-Em questão literal, prefira essa **formulação funcional** da lei a nomes históricos de órgãos administrativos.
+Não confunda essa pesquisa de cinco em cinco anos com o acompanhamento contínuo exigido pelo artigo 59.
 
-### 4.3 Fórum intergovernamental
+## 4. Conselhos: participação local e prioridade de repasses
 
-O Poder Executivo federal é **autorizado** a instituir fórum intergovernamental de promoção da igualdade étnica, coordenado pelo órgão responsável pela política nacional, para incorporar a política às ações governamentais de Estados e Municípios.
+O artigo 50 dispõe que os Poderes Executivos estaduais, distrital e municipais **poderão instituir** conselhos de promoção da igualdade étnica. O dispositivo, portanto, não torna a criação obrigatória para todos esses governos.
 
-Autorização para instituir não significa que o Estatuto, sozinho, descreva composição, votos, periodicidade ou estrutura interna do fórum.
+Esses conselhos são **permanentes** e **consultivos**. Devem ter igual número de representantes de órgãos e entidades públicas e de organizações da sociedade civil representativas da população negra. É correto chamar isso de <abbr title="com igual número de representantes dos dois segmentos">composição paritária</abbr>, mas o artigo 50 não usa literalmente o adjetivo “paritário”: ele descreve a igualdade numérica.
 
-### 4.4 Órgão colegiado
+Se o conselho for criado, o Poder Executivo **priorizará** o repasse de recursos referentes aos programas e atividades do Estatuto ao respectivo Estado, Distrito Federal ou Município. Prioridade não é exclusividade nem transferência automática.
 
-As diretrizes das políticas nacional e regional de promoção da igualdade étnica serão elaboradas por órgão colegiado que assegure a **participação da sociedade civil**.
+### 4.1 Estatuto × regulamento
 
-### 4.5 Pesquisa quinquenal do IBGE
+Na **Lei nº 12.288/2010**, a participação no <abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr> ocorre mediante adesão e o artigo 50 diz que os Executivos estaduais, distrital e municipais **poderão** instituir conselhos. O Decreto nº 8.136/2013, que regulamenta o sistema, acrescenta requisitos operacionais de adesão, entre eles conselho e órgão de promoção da igualdade racial em funcionamento.
 
-O § 4º, incluído pela Lei nº 14.553/2023, determina que o IBGE realize, a cada **cinco anos**, pesquisa destinada a:
+Logo, uma questão que peça apenas o texto do **Estatuto** não deve receber silenciosamente requisitos do decreto. Se a questão pedir o **regulamento**, o detalhe passa a ser pertinente.
 
-- identificar o percentual de ocupação por segmentos étnicos e raciais;
-- no âmbito do **setor público**;
-- produzir subsídios para implementação da política nacional.
+## 5. Ouvidorias e acesso institucional
 
-Não confunda com pesquisa anual, censo geral, levantamento apenas do Executivo federal ou monitoramento do artigo 59.
+O artigo 51 determina que o poder público federal **instituirá**, na forma da lei, Ouvidorias Permanentes em Defesa da Igualdade Racial nos Poderes **Legislativo e Executivo**. Elas devem:
 
-## 5. Conselhos de promoção da igualdade étnica
-
-### 5.1 Instituição
-
-Os Poderes Executivos estaduais, distrital e municipais **poderão instituir** conselhos de promoção da igualdade étnica.
-
-A lei os qualifica como:
-
-- permanentes;
-- consultivos;
-- paritários.
-
-A composição deve ter igual número de representantes de órgãos e entidades públicas e de organizações da sociedade civil representativas da população negra.
-
-Não transforme `poderão instituir` em obrigação universal nem `consultivos` em necessariamente deliberativos.
-
-### 5.2 Prioridade de recursos
-
-O Poder Executivo priorizará o repasse de recursos referentes aos programas e atividades previstos no Estatuto aos Estados, Distrito Federal e Municípios que tenham criado conselhos de promoção da igualdade étnica.
-
-Prioridade não significa:
-
-- exclusividade;
-- transferência automática;
-- direito subjetivo a receber determinado valor.
-
-## 6. Ouvidorias e acesso institucional
-
-### 6.1 Instituição obrigatória no âmbito federal
-
-O poder público federal **instituirá**, na forma da lei, Ouvidorias Permanentes em Defesa da Igualdade Racial no âmbito dos Poderes:
-
-- Legislativo;
-- Executivo.
-
-O artigo 51 não inclui o Judiciário nessa ordem de instituição.
-
-### 6.2 Funções legais
-
-As Ouvidorias destinam-se a:
-
-- receber denúncias de preconceito e discriminação com base em etnia ou cor;
+- receber denúncias de preconceito e discriminação por etnia ou cor;
 - encaminhar essas denúncias;
-- acompanhar a implementação de medidas para promoção da igualdade.
+- acompanhar medidas de promoção da igualdade.
 
-Não são órgãos julgadores e não aplicam sanções penais.
+A Ouvidoria é canal de recebimento, encaminhamento e acompanhamento; o artigo não lhe atribui função de julgar conflitos nem poder para aplicar penas criminais.
 
-### 6.3 Canais cumulativos
+O artigo 52 assegura às vítimas de discriminação étnica acesso às Ouvidorias, à Defensoria Pública, ao Ministério Público e ao Poder Judiciário, em todas as instâncias. Também garante às mulheres negras em situação de violência assistência **física, psíquica, social e jurídica**.
 
-O artigo 52 assegura às vítimas de discriminação étnica acesso às Ouvidorias, à Defensoria Pública, ao Ministério Público e ao Poder Judiciário, em todas as instâncias, para garantia de seus direitos.
+Os artigos 53 e 54 exigem medidas contra violência policial incidente sobre a população negra, proteção e <abbr title="medidas voltadas à reintegração social">ressocialização</abbr> da juventude negra em conflito com a lei e combate à discriminação praticada por servidores públicos. O artigo 55 prevê, entre os instrumentos para levar ao Judiciário lesões ou ameaças decorrentes de desigualdade étnica, a <abbr title="ação judicial destinada à tutela coletiva de interesses">ação civil pública</abbr>.
 
-Esse ponto foi estudado substancialmente no Assunto 101. Aqui importa perceber que a Ouvidoria é **canal complementar**, não substitutivo.
+## 6. Como a implementação entra em outras políticas
 
-## 7. Mecanismos setoriais da própria lei
+Alguns dispositivos mostram como a promoção da igualdade entra em políticas já existentes.
 
-### 7.1 Educação: acompanhamento e avaliação
+### 6.1 Educação e moradia
 
-O artigo 16 determina que os programas previstos na seção de educação sejam acompanhados e avaliados pelo Poder Executivo federal por meio dos órgãos responsáveis pelas políticas de:
+No artigo 16, os programas da seção de educação são **acompanhados e avaliados** pelo Poder Executivo federal por meio dos órgãos responsáveis pelas políticas de promoção da igualdade e de educação.
 
-- promoção da igualdade étnica;
-- educação.
+No artigo 36, programas, projetos e ações do Sistema Nacional de Habitação de Interesse Social (<abbr title="Sistema Nacional de Habitação de Interesse Social">SNHIS</abbr>) devem considerar peculiaridades sociais, econômicas e culturais da população negra. Estados, Distrito Federal e Municípios devem estimular e facilitar a participação de organizações e movimentos representativos da população negra nos conselhos destinados à aplicação do Fundo Nacional de Habitação de Interesse Social (<abbr title="Fundo Nacional de Habitação de Interesse Social">FNHIS</abbr>).
 
-O conteúdo dos direitos educacionais ficou no Assunto 101; aqui interessa o mecanismo de acompanhamento conjunto.
+O conselho do <abbr title="Fundo Nacional de Habitação de Interesse Social">FNHIS</abbr> não é o conselho de promoção da igualdade étnica do artigo 50.
 
-### 7.2 Moradia: SNHIS e participação
+### 6.2 Trabalho e postos de confiança
 
-O artigo 36 determina que programas, projetos e outras ações governamentais no âmbito do **Sistema Nacional de Habitação de Interesse Social (SNHIS)** considerem as peculiaridades sociais, econômicas e culturais da população negra.
+O artigo 40 determina que o Conselho Deliberativo do Fundo de Amparo ao Trabalhador (<abbr title="Conselho Deliberativo do Fundo de Amparo ao Trabalhador">Codefat</abbr>) **formulará** políticas, programas e projetos para inclusão da população negra no mercado de trabalho e **orientará** a destinação de recursos para financiá-los.
 
-Estados, Distrito Federal e Municípios estimularão e facilitarão a participação de organizações e movimentos representativos da população negra nos conselhos constituídos para aplicação do **FNHIS**.
+Já o artigo 42 estabelece uma possibilidade, não uma obrigação: o Poder Executivo federal **poderá** implementar critérios para <abbr title="postos de direção, chefia ou assessoramento de livre nomeação nos casos legais">cargos em comissão</abbr> e <abbr title="atribuições de direção, chefia ou assessoramento exercidas por servidores efetivos">funções de confiança</abbr> destinados a ampliar a participação de pessoas negras, buscando reproduzir a distribuição étnica nacional ou, quando couber, estadual, conforme dados demográficos oficiais.
 
-O conselho habitacional desse dispositivo não é o conselho de promoção da igualdade étnica do artigo 50.
+### 6.3 Publicidade federal
 
-### 7.3 Trabalho: Codefat
+O artigo 46 alcança órgãos da <abbr title="órgãos que integram diretamente a União">administração direta federal</abbr>, <abbr title="entidades públicas com personalidade jurídica própria">autarquias</abbr> e <abbr title="entidades fundacionais mantidas pelo poder público federal">fundações federais</abbr>, <abbr title="estatais com capital integralmente público">empresas públicas</abbr> e <abbr title="estatais com capital público e privado">sociedades de economia mista</abbr> federais. Eles **deverão incluir cláusulas de participação de artistas negros** em contratos de realização de filmes, programas ou outras peças publicitárias.
 
-O artigo 40 atribui ao **Codefat** a formulação de políticas, programas e projetos destinados à inclusão da população negra no mercado de trabalho e a orientação da destinação de recursos para seu financiamento.
+Nas especificações de serviços de consultoria, conceituação, produção e realização dessas peças, deve constar a prática de iguais oportunidades de emprego. A própria lei a define como medidas sistemáticas voltadas à diversidade **étnica, de sexo e de idade** da equipe vinculada ao projeto ou serviço.
 
-O Codefat não é apresentado como executor exclusivo de toda a política de trabalho e renda.
+A autoridade contratante **poderá**, se considerar necessário, requerer auditoria de órgão federal. A exigência de participação de artistas negros não se aplica a produções publicitárias sobre especificidades de grupos étnicos determinados.
 
-### 7.4 Contratação pública federal
+## 7. Artigo 56: prioridade entra no orçamento
 
-O artigo 46 converte igualdade de oportunidades em mecanismo de contratação pública federal ao exigir, nos contratos pertinentes, cláusulas voltadas à participação de artistas negros e à diversidade, com fiscalização na forma da lei.
+Na implementação dos programas e ações constantes do <abbr title="Plano Plurianual">PPA</abbr>, instrumento de planejamento governamental de médio prazo, e dos orçamentos anuais da União, devem ser observadas políticas de ação afirmativa e outras políticas voltadas à igualdade de oportunidades e à inclusão social da população negra.
 
-Os detalhes substantivos de comunicação e publicidade foram estudados no Assunto 101.
+O artigo 56 destaca sete frentes:
 
-## 8. Artigo 56: PPA, orçamento e transparência
+1. igualdade de oportunidades em **educação, emprego e moradia**;
+2. pesquisas em **educação, saúde e emprego**;
+3. programas e veículos de **comunicação** de interesse da população negra;
+4. **microempresas** administradas por pessoas autodeclaradas negras;
+5. **acesso e permanência na educação** fundamental, média, técnica e superior;
+6. programas e projetos de Estados, Distrito Federal, Municípios e sociedade civil;
+7. **cultura, memória e tradições africanas e brasileiras**.
 
-### 8.1 Regra geral
+### 7.1 Transparência e regra transitória
 
-Os programas e ações constantes dos planos plurianuais e dos orçamentos anuais da União devem observar:
+O § 1º **autoriza** o Poder Executivo federal a adotar, em cada exercício, medidas de transparência sobre alocação e execução dos recursos, explicitando sua proporção por programas e áreas. Entre as áreas destacadas estão educação, saúde, emprego e renda, desenvolvimento agrário, habitação popular, desenvolvimento regional, cultura, esporte e lazer.
 
-- políticas de ação afirmativa;
-- outras políticas públicas voltadas à igualdade de oportunidades;
-- inclusão social da população negra.
+O § 2º criou uma obrigação apenas para os **cinco primeiros anos contados do exercício subsequente à publicação do Estatuto**: órgãos federais abrangidos deveriam discriminar em seus orçamentos sua participação nos programas de ação afirmativa. A janela correspondeu a **2011–2015** e já terminou.
 
-### 8.2 Sete grupos destacados
+O § 3º autoriza medidas de implementação e patamares de participação crescente dos programas de ação afirmativa. O § 4º atribui ao órgão colegiado federal responsável pela promoção da igualdade racial o acompanhamento e a avaliação da programação dessas ações nas propostas orçamentárias da União.
 
-O artigo 56 destaca, entre outros, recursos e ações voltados a:
+## 8. Artigo 57: fontes de financiamento
 
-1. educação, emprego e moradia;
-2. pesquisas em educação, saúde e emprego;
-3. comunicação de interesse da população negra;
-4. microempresas administradas por pessoas autodeclaradas negras;
-5. acesso e permanência da população negra na educação;
-6. programas e projetos de entes subnacionais e organizações da sociedade civil;
-7. proteção e promoção da cultura, memória e tradições africanas e brasileiras.
+Sem prejuízo dos recursos ordinários, podem ser consignados no <abbr title="orçamento da União para órgãos, fundos e entidades estatais">orçamento fiscal</abbr> e no <abbr title="orçamento da União para saúde, previdência e assistência social">orçamento da seguridade social</abbr>, para financiar as ações do artigo 56:
 
-### 8.3 Transparência anual
+- <abbr title="repasses não obrigatórios entre entes federativos">transferências voluntárias</abbr> dos Estados, Distrito Federal e Municípios;
+- doações voluntárias de particulares;
+- doações de empresas privadas e organizações não governamentais, nacionais ou internacionais;
+- doações voluntárias de fundos nacionais ou internacionais;
+- doações de Estados estrangeiros por convênios, tratados e acordos internacionais.
 
-O Poder Executivo federal é **autorizado** a adotar medidas anuais de transparência quanto à alocação e à execução dos recursos, explicitando sua proporção por programas e áreas.
+O artigo 57 enumera fontes possíveis; **não cria fundo exclusivo** de promoção da igualdade racial.
 
-### 8.4 Regra transitória já encerrada
+## 9. Artigos 58 e 59: abertura e avaliação
 
-Durante os cinco primeiros anos contados do exercício subsequente à publicação do Estatuto, órgãos do Poder Executivo federal que desenvolvessem políticas e programas de ação afirmativa deveriam discriminar, em seus orçamentos, sua participação nesses programas.
+O artigo 58 afirma que as medidas do Estatuto **não excluem outras** em prol da população negra adotadas pela União, pelos Estados, pelo Distrito Federal ou pelos Municípios. A lei, portanto, não fecha o conjunto de políticas possíveis.
 
-Essa janela temporal já terminou. Em 2026, a regra deve ser estudada como disposição transitória histórica, não como obrigação ainda em curso.
+O artigo 59 exige que o Poder Executivo federal crie instrumentos para aferir a <abbr title="capacidade de a medida produzir os efeitos sociais pretendidos">eficácia social</abbr> das medidas e faça **monitoramento constante**, isto é, acompanhamento contínuo, com emissão e divulgação de **relatórios periódicos**, inclusive pela rede mundial de computadores.
 
-### 8.5 Patamares crescentes e acompanhamento
+Depois de compreender cada regra, compare os objetos:
 
-O Poder Executivo federal é autorizado a:
-
-- adotar medidas de implementação;
-- estabelecer patamares crescentes de participação dos programas de ação afirmativa nos orçamentos anuais.
-
-O órgão colegiado do Poder Executivo federal responsável pela promoção da igualdade racial acompanhará e avaliará a programação dessas ações nas propostas orçamentárias da União.
-
-## 9. Artigo 57: fontes de financiamento
-
-Sem prejuízo dos recursos ordinários, poderão ser consignados recursos provenientes de:
-
-- transferências voluntárias de Estados, Distrito Federal e Municípios;
-- doações de particulares;
-- doações de empresas e organizações não governamentais nacionais ou internacionais;
-- doações de fundos nacionais ou internacionais;
-- doações de Estados estrangeiros, por convênios, tratados e acordos internacionais.
-
-O artigo 57 **não cria fundo exclusivo** para promoção da igualdade racial.
-
-## 10. Artigo 58: medidas não excludentes
-
-As medidas instituídas pelo Estatuto não excluem outras medidas em prol da população negra que tenham sido ou venham a ser adotadas no âmbito:
-
-- da União;
-- dos Estados;
-- do Distrito Federal;
-- dos Municípios.
-
-Pegadinha: o Estatuto estabelece um piso de proteção e promoção, não uma lista fechada de políticas admissíveis.
-
-## 11. Artigo 59: eficácia social, monitoramento e relatórios
-
-O Poder Executivo federal deverá criar instrumentos para aferir a **eficácia social** das medidas previstas no Estatuto e efetuar seu monitoramento constante.
-
-Também deverá emitir relatórios periódicos, com divulgação dos resultados, inclusive pela **Internet**.
-
-Não confunda:
-
-| Mecanismo | Objeto |
+| Dispositivo | Objeto |
 |---|---|
-| art. 49, § 4º | pesquisa do IBGE a cada cinco anos sobre ocupação étnico-racial no setor público |
-| art. 56, § 4º | acompanhamento e avaliação da programação orçamentária pelo colegiado federal |
-| art. 59 | eficácia social, monitoramento constante e relatórios periódicos |
+| artigo 49, § 4º | pesquisa do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> a cada cinco anos sobre ocupação étnico-racial no setor público, para subsidiar a <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr> |
+| artigo 56, § 4º | programação das ações nas propostas orçamentárias da União |
+| artigo 59 | eficácia social, monitoramento constante e relatórios periódicos |
 
-## 12. Contexto regulamentar: use para localizar, não para ampliar o edital
+Só a primeira regra tem intervalo fixo de cinco anos.
 
-Três nomes próximos podem aparecer em material de apoio:
+## 10. Política, plano e sistema: não misture os nomes
 
-| Instituto | Base | Função contextual |
-|---|---|---|
-| <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr> | Decreto nº 4.886/2003 | política nacional |
-| <abbr title="Plano Nacional de Promoção da Igualdade Racial">Planapir</abbr> | Decreto nº 6.872/2009 | plano com objetivos setoriais |
-| Sinapir | Lei nº 12.288/2010 | sistema de organização e articulação |
+A <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr> é a **política nacional**, instituída pelo Decreto nº 4.886/2003 e mencionada no artigo 49. O Plano Nacional de Promoção da Igualdade Racial (<abbr title="Plano Nacional de Promoção da Igualdade Racial">Planapir</abbr>) é o **plano** aprovado pelo Decreto nº 6.872/2009. O <abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr> é o **sistema de organização e articulação** instituído pela Lei nº 12.288/2010 e regulamentado pelo Decreto nº 8.136/2013.
 
-O Decreto nº 8.136/2013 regulamenta o Sinapir e detalha adesão, instâncias e procedimentos. Esses detalhes não substituem a literalidade dos artigos 47 a 59 e não devem ser confundidos com comandos expressos do Estatuto.
+A <abbr title="integração da igualdade racial ao conjunto das políticas governamentais">transversalidade</abbr>, por exemplo, aparece como princípio da <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr> no Decreto nº 4.886/2003; não é, com essa formulação, princípio geral literalmente enunciado pelo Estatuto.
 
-Exemplo clássico de prova: **transversalidade** é princípio da PNPIR em seu decreto; não transforme essa formulação em texto literal do Estatuto.
-
-### Atualização pós-edital
-
-A Portaria GAB/MIR nº 342/2026 foi publicada em **8 de julho de 2026** e republicada em **13 de julho de 2026**, depois do edital de 6 de julho. Ela disciplina aspectos atuais de adesão e gestão do Sinapir, mas é **pós-edital** e não integra o núcleo de prova definido neste material.
-
-Para direito vigente hoje, consulte a versão republicada. Para a prova, priorize a Lei nº 12.288/2010 no corte do edital.
-
-## 13. Fronteira com o Assunto 101
-
-Não são repetidos aqui:
-
-- seis definições legais;
-- igualdade formal e material;
-- teoria das ações afirmativas;
-- diretrizes e objetivos dos arts. 7º e 8º da política de saúde;
-- conteúdo substantivo de educação, cultura, religião, terra, moradia, trabalho e comunicação;
-- proteção trabalhista e coletiva;
-- jurisprudência sobre cotas.
-
-O foco do 102 é desenho legal de implementação, participação, financiamento e controle.
-
-## 14. Pegadinhas centrais
-
-| Afirmação | Correção |
-|---|---|
-| Sinapir é fundo ou conselho | errado: é forma de organização e articulação |
-| adesão de Estados, DF e Municípios é obrigatória | errado: poderão participar mediante adesão |
-| artigo 48 centraliza ações afirmativas na União | errado: prevê descentralização |
-| órgão nacional deve ser respondido sempre por um nome histórico | errado: a lei usa fórmula funcional |
-| fórum intergovernamental é imposto diretamente aos Estados | errado: Executivo federal é autorizado a instituí-lo |
-| diretrizes do art. 49 são feitas sem sociedade civil | errado |
-| pesquisa do IBGE é anual | errado: cinco anos |
-| pesquisa alcança somente o Executivo federal | errado: setor público |
-| conselho do art. 50 é obrigatório para todo ente | errado: poderão instituir |
-| conselho do art. 50 é temporário ou necessariamente deliberativo | errado: permanente e consultivo |
-| prioridade de repasse significa transferência automática | errado |
-| Ouvidorias do art. 51 são facultativas | errado: o poder público federal instituirá |
-| art. 51 inclui o Judiciário | errado: Legislativo e Executivo |
-| Ouvidoria julga ou condena | errado |
-| conselho do FNHIS e conselho do art. 50 são o mesmo órgão | errado |
-| Codefat executa sozinho toda política de trabalho | errado |
-| transparência anual do art. 56 é obrigação redigida como `deverá` | errado: o Executivo é autorizado |
-| obrigação orçamentária dos cinco primeiros anos segue vigente | errado |
-| art. 57 cria fundo próprio | errado |
-| art. 59 é a pesquisa quinquenal do IBGE | errado |
-| transversalidade é formulação literal geral do Estatuto | errado: vem da PNPIR/regulamentação |
-| Portaria nº 342/2026 já integrava o direito no dia do edital | errado: publicação posterior |
-
-## 15. Método de resolução
-
-1. Se a questão disser Sinapir, comece pelos arts. 47 e 48: natureza, adesão e cinco objetivos.
-2. No art. 49, separe plano, órgão responsável, fórum, colegiado e IBGE.
-3. Observe os verbos: **poderão participar**, **poderão instituir**, **instituirá**, **é autorizado**.
-4. Em conselhos, memorize: subnacional + permanente + consultivo + paritário.
-5. Em Ouvidorias, memorize: federal + Legislativo/Executivo + receber/encaminhar/acompanhar.
-6. Em mecanismos setoriais, associe: art. 16 educação; art. 36 SNHIS/FNHIS; art. 40 Codefat; art. 46 contratação federal.
-7. Em orçamento, diferencie caput, transparência autorizada, regra transitória encerrada, patamares e acompanhamento colegiado.
-8. Em financiamento, não invente fundo.
-9. Em avaliação, diferencie pesquisa quinquenal, programação orçamentária e monitoramento constante.
-10. Se a alternativa trouxer detalhe de decreto ou portaria, confira se a questão realmente pediu regulamentação; no item do edital, a prioridade é a Lei nº 12.288/2010.
+Em questão que indique apenas a **Lei nº 12.288/2010**, identifique o sujeito, o verbo e o objeto do comando legal antes de importar detalhes de decretos.
