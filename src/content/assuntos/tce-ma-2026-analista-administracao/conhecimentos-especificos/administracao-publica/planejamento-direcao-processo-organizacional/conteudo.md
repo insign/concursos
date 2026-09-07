@@ -8,291 +8,214 @@ storageId: planejamento-direcao
 
 # Planejamento e direção no processo organizacional
 
-O **processo administrativo** reúne funções interdependentes pelas quais a organização define resultados, estrutura meios, mobiliza pessoas e acompanha a execução. Na síntese mais comum em provas, ele é representado por **PODC**:
+Imagine, em situação hipotética, um órgão que precisa reduzir o tempo de atendimento sem simplesmente aumentar a equipe. Antes de agir, alguém precisa entender o problema, escolher o resultado pretendido, comparar caminhos e decidir como usar os recursos. Depois, o plano só sai do papel se pessoas compreenderem prioridades, coordenarem tarefas, resolverem impedimentos e assumirem decisões dentro de limites claros.
 
-1. **planejamento**: define objetivos e cursos de ação;
-2. **organização**: distribui trabalho, recursos e autoridade;
-3. **direção**: orienta, influencia e mobiliza pessoas para executar;
-4. **controle**: compara o realizado com referências, identifica desvios e promove ajustes.
+Essas duas perguntas organizam o assunto:
 
-Este assunto aprofunda **planejamento e direção**. Organização, comunicação, controle e avaliação aparecem apenas nas interfaces necessárias.
+- **planejamento:** o que se pretende alcançar e qual curso de ação será adotado?
+- **direção:** como mobilizar pessoas para transformar essa escolha em execução?
 
-## 1. Processo integrado, contínuo e realimentado
+Elas fazem parte do processo administrativo. Na síntese **Planejamento, Organização, Direção e Controle** — <abbr title="Planejamento, Organização, Direção e Controle">PODC</abbr> —, planejar fornece objetivos e referências; organizar distribui trabalho, recursos e autoridade; dirigir mobiliza a execução; controlar compara o realizado com o esperado e devolve informação ao ciclo.
 
-As funções administrativas são conceitualmente distintas, mas não funcionam como compartimentos isolados. O planejamento fornece objetivos e referências; a organização dispõe recursos e responsabilidades; a direção transforma escolhas em ação coordenada; o controle produz informação para correção e novo planejamento.
+## 1. O processo administrativo é um ciclo, não uma fila rígida
 
-Existe **precedência lógica** do planejamento: é preciso estabelecer objetivos antes de organizar meios, mobilizar pessoas ou comparar resultados. Isso não cria sequência cronológica rígida. Durante a execução, novas informações podem exigir revisão do plano.
+Há uma **precedência lógica** do planejamento: para distribuir meios, orientar pessoas e avaliar desvios, é preciso saber antes qual resultado se busca. Isso não significa que toda atividade de planejamento termina para sempre antes das demais. A execução revela fatos novos, o controle produz informação e o plano pode precisar ser revisto.
 
-> **Pegadinha:** o controle não encerra definitivamente o processo; ele realimenta decisões futuras.
+No caso hipotético da abertura, uma previsão de demanda pode se mostrar errada depois de algumas semanas. Rever capacidade, prazo ou alternativa diante dessa evidência é parte do processo; manter o plano apenas porque ele foi aprovado seria confundir planejamento com rigidez.
 
-### 1.1 Fayol e PODC
+Henri Fayol formulou as funções de **prever, organizar, comandar, coordenar e controlar**. A síntese <abbr title="Planejamento, Organização, Direção e Controle">PODC</abbr> reorganiza essas fronteiras: previsão é absorvida pelo planejamento; comando e boa parte da coordenação aparecem na direção. A classificação depende da fonte. No Decreto-Lei nº 200/1967, por exemplo, **planejamento** e **coordenação** são princípios fundamentais distintos da Administração Federal.
 
-Henri Fayol apresentou as funções de **prever, organizar, comandar, coordenar e controlar**. Na síntese PODC:
+## 2. Planejar é decidir antes de comprometer a execução
 
-- a previsão é absorvida pelo planejamento;
-- o comando e parte da coordenação aparecem na direção;
-- a coordenação pode ser tratada autonomamente, conforme a fonte.
+**Planejamento** é o processo decisório pelo qual a organização interpreta uma situação, define objetivos, considera condições e restrições, formula alternativas, escolhe um curso de ação e prepara sua execução e revisão.
 
-No Decreto-Lei nº 200/1967, planejamento e coordenação são princípios fundamentais distintos. Em prova, respeite a classificação adotada no enunciado.
+Ele reduz incerteza porque obriga a tornar hipóteses, escolhas e consequências mais explícitas. Não elimina risco e não transforma o futuro em certeza.
 
-## 2. Planejamento: decidir antes de agir
+### 2.1 Do problema ao curso de ação
 
-**Planejamento** é a função administrativa que define antecipadamente objetivos e cursos de ação, considerando informações, alternativas, restrições, recursos e riscos.
+Um roteiro racional ajuda a enxergar o mecanismo:
 
-Planejar responde, entre outras, às perguntas:
+1. **diagnosticar a situação:** qual problema existe e que evidências o demonstram?
+2. **definir objetivo e meta:** que estado se pretende alcançar e como reconhecer o resultado?
+3. **explicitar premissas, restrições e recursos:** que condições estão sendo assumidas e quais limites existem?
+4. **formular alternativas:** que caminhos diferentes podem produzir o resultado?
+5. **comparar alternativas:** que custos, benefícios, riscos e consequências cada caminho traz?
+6. **escolher o curso de ação:** qual alternativa será adotada e por quê?
+7. **detalhar a execução:** quem fará o quê, com quais recursos, prioridades e prazos?
+8. **acompanhar e revisar:** as premissas continuam válidas e o curso escolhido continua adequado?
 
-- onde a organização está;
-- aonde pretende chegar;
-- quais condições são esperadas;
-- que alternativas existem;
-- o que será feito, por quem, quando e com quais recursos;
-- como acompanhar e revisar a escolha.
+No exemplo hipotético, “o atendimento está lento” ainda é apenas uma percepção. O diagnóstico pode mostrar onde se formam filas; o objetivo expressa o resultado desejado; a meta o torna verificável; as alternativas permitem decidir antes de comprometer recursos.
 
-Planejar é decidir no presente sobre ações futuras. Não é adivinhar o futuro nem eliminar a incerteza.
+### 2.2 Objetivo, meta, premissa e plano
 
-### 2.1 Planejamento, plano e conceitos próximos
+**Objetivo** é o resultado pretendido. **Meta** é sua especificação verificável, normalmente com quantidade, prazo ou outro critério de aferição. **Premissa** é uma condição aceita como base para formular o plano.
 
-| Conceito | Núcleo |
+Exemplo hipotético:
+
+- objetivo: reduzir o tempo de atendimento;
+- meta: reduzir o prazo médio de 12 para 8 dias até determinada data;
+- premissa: a demanda permanecerá próxima do volume considerado no diagnóstico.
+
+Se a demanda crescer muito, a premissa mudou. Isso não altera automaticamente o objetivo, mas exige avaliar se recursos, prazo ou curso de ação ainda são viáveis.
+
+O **planejamento** é o processo; o **plano** é um produto ou registro das decisões. Um documento formal pode existir sem que tenha havido bom diagnóstico, comparação de alternativas, alinhamento ou revisão. Por isso, plano escrito não é prova de planejamento eficaz.
+
+### 2.3 Previsão, projeção e predição não substituem decisão
+
+Esses conceitos podem fornecer informação ao planejamento, mas não são sinônimos dele:
+
+| Conceito | O que faz |
 | --- | --- |
-| **Planejamento** | processo decisório de análise, escolha, detalhamento e revisão |
-| **Plano** | produto ou registro das decisões do planejamento |
-| **Previsão** | estimativa de eventos futuros com base em informações e probabilidades |
-| **Projeção** | prolongamento de tendências ou estruturas observadas |
-| **Predição** | indicação de um futuro esperado, sem pressupor capacidade de modificá-lo |
-| **Premissa** | condição assumida como base para formular o plano |
+| **previsão** | estima eventos futuros a partir de informações, hipóteses e julgamento |
+| **projeção** | prolonga uma tendência ou estrutura observada sob determinadas hipóteses |
+| **predição** | indica uma situação futura esperada, sem que isso implique capacidade de modificá-la |
+| **planejamento** | decide o que fazer diante do futuro possível e do resultado desejado |
 
-Esses conceitos se relacionam, mas não são sinônimos. Uma previsão pode alimentar o planejamento; uma projeção pode ser uma técnica; uma predição pode indicar cenário fora do controle; o plano documenta escolhas.
+Uma projeção de aumento da demanda pode virar premissa do plano; ainda assim, a organização precisa decidir capacidade, prioridade, recursos e resposta.
 
-Uma organização pode possuir um documento chamado plano e, ainda assim, planejar mal se não houver diagnóstico, alternativas, coerência, participação adequada e atualização.
+## 3. Um bom planejamento precisa preservar coerência
 
-### 2.2 Características centrais
+A bibliografia de Administração costuma agrupar princípios gerais e específicos. O valor da classificação está em mostrar **que problema cada princípio evita**.
 
-O planejamento é:
+### 3.1 Princípios gerais
 
-- **orientado a objetivos**;
-- **prospectivo**;
-- **decisório**;
-- **sistêmico**;
-- **contínuo**;
-- **flexível**;
-- **abrangente**;
-- **redutor de incerteza**, não eliminador de incerteza.
-
-Planos podem fracassar por diagnóstico inadequado, premissas falsas, objetivos incompatíveis, recursos insuficientes, baixa adesão ou execução deficiente.
-
-## 3. Princípios gerais do planejamento
-
-### 3.1 Contribuição aos objetivos
-
-Todo plano deve contribuir para os objetivos organizacionais. Melhorar um indicador local não basta se a medida prejudica uma prioridade institucional.
-
-### 3.2 Precedência
-
-O planejamento antecede logicamente organização, direção e controle porque fornece objetivos e referências. A precedência não impede simultaneidade nem revisão.
-
-### 3.3 Maior penetração e abrangência
-
-O planejamento pode alterar pessoas, processos, tecnologia, estrutura, responsabilidades e uso de recursos. Decisões de uma unidade podem gerar efeitos em outras.
-
-### 3.4 Maior eficiência, eficácia e efetividade
-
-| Critério | Pergunta central |
+| Princípio | O que exige |
 | --- | --- |
-| **Eficiência** | Houve boa relação entre recursos empregados e produtos gerados? |
-| **Eficácia** | Os objetivos e metas foram alcançados? |
-| **Efetividade** | A ação produziu efeitos relevantes na realidade e no público? |
+| **contribuição aos objetivos** | planos locais devem favorecer objetivos organizacionais, não apenas indicadores isolados |
+| **precedência** | objetivos e referências precisam existir logicamente antes das demais funções |
+| **maior penetração e abrangência** | escolhas podem repercutir em pessoas, tecnologia, processos, estrutura e recursos |
+| **maior eficiência, eficácia e efetividade** | a organização deve considerar uso de recursos, alcance de metas e efeitos produzidos |
 
-Uma ação pode ser eficiente e ineficaz; pode cumprir a meta e produzir pouca transformação social.
+A última linha exige três distinções. **Eficiência** pergunta se houve boa relação entre recursos e produtos; **eficácia**, se objetivos e metas foram alcançados; **efetividade**, se os resultados produziram efeitos relevantes na realidade ou para os destinatários. Assim, uma equipe pode usar recursos sem desperdício e não atingir a meta: eficiente, mas não eficaz. Pode também cumprir uma meta de entrega sem produzir o efeito público pretendido.
 
-> Esses princípios administrativos não se confundem com o rol constitucional do art. 37 nem com o princípio do planejamento da Administração Científica.
+### 3.2 Princípios específicos
 
-## 4. Princípios específicos do planejamento
-
-Uma classificação recorrente, associada à tradição de Ackoff e difundida na bibliografia brasileira, apresenta quatro princípios específicos.
-
-| Princípio | Ideia central | Pegadinha |
+| Princípio | Problema que evita | Núcleo |
 | --- | --- | --- |
-| **Participativo** | o processo de elaboração, a aprendizagem e o comprometimento importam tanto quanto o documento final | não significa que o setor de planejamento elabora sozinho |
-| **Coordenado** | aspectos e áreas interdependentes devem ser planejados de forma articulada | enfatiza interdependência horizontal |
-| **Integrado** | planejamentos dos diferentes níveis organizacionais devem ser compatíveis | enfatiza alinhamento entre escalões |
-| **Permanente** | o planejamento deve ser continuamente revisto diante das mudanças | não significa plano imutável ou atividade sem prazo |
+| **participativo** | plano tecnicamente correto, mas desconectado do conhecimento e do compromisso de quem participa da execução | valoriza elaboração, aprendizagem e comprometimento, não só o documento final |
+| **coordenado** | áreas interdependentes adotarem decisões incompatíveis | articula aspectos e unidades que dependem uns dos outros |
+| **integrado** | cada nível organizacional perseguir direções diferentes | compatibiliza planejamento institucional, tático e operacional |
+| **permanente** | tratar o plano como decisão imutável | mantém revisão contínua diante de mudanças relevantes |
 
-### 4.1 Participativo não é consulta simbólica
+A diferença mais cobrada é **coordenado × integrado**. Coordenação enfatiza interdependências entre áreas ou aspectos; integração enfatiza compatibilidade entre níveis. Em uma organização real, as duas necessidades aparecem juntas.
 
-Participação exige contribuição real dos envolvidos no diagnóstico, nas alternativas e nos compromissos. Uma consulta meramente formal, sem influência sobre as escolhas, não realiza plenamente o princípio.
+Participação também não significa consulta simbólica nem transferência indiscriminada da decisão. Os envolvidos contribuem com informação, alternativas e compromissos; a decisão continua nas instâncias responsáveis.
 
-### 4.2 Coordenado e integrado
+## 4. O mesmo planejamento muda de alcance conforme o nível
 
-- **coordenado**: evita que uma área planeje isoladamente algo incompatível com outra;
-- **integrado**: alinha objetivos institucionais, planos táticos e detalhamentos operacionais.
+Os níveis não são planos isolados: são traduções sucessivas da mesma direção.
 
-## 5. Filosofias do planejamento
-
-As filosofias indicam a postura predominante adotada diante dos objetivos, dos recursos e das mudanças.
-
-| Filosofia | Núcleo | Risco de confusão |
-| --- | --- | --- |
-| **Satisfação** | procura resultado considerado suficientemente aceitável, com menor exposição a risco e conflito | não busca necessariamente o máximo possível |
-| **Otimização** | busca o melhor resultado segundo critérios, frequentemente com modelos quantitativos e comparação custo-benefício | depende da qualidade dos critérios e dados |
-| **Adaptação** | valoriza aprendizagem, inovação, flexibilidade e capacidade de responder a mudanças | não equivale a improvisação sem direção |
-
-A organização pode combinar posturas. A classificação identifica a orientação dominante, não uma regra absoluta para todos os problemas.
-
-## 6. Níveis de planejamento
-
-| Nível | Alcance | Responsável típico | Características |
+| Nível | Alcance predominante | Pergunta típica | Grau de detalhe |
 | --- | --- | --- | --- |
-| **Institucional ou estratégico** | organização como um todo | alta administração | amplo, global, menos detalhado, tendencialmente mais longo |
-| **Intermediário ou tático** | área, unidade ou função | gerências | desdobra diretrizes globais em objetivos e recursos setoriais |
-| **Operacional** | atividades, equipes e rotinas | supervisão | específico, detalhado, próximo da execução |
+| **estratégico ou institucional** | organização como um todo | que resultados e prioridades orientarão a instituição? | amplo e menos detalhado |
+| **tático ou intermediário** | área, unidade ou função | como esta parte contribuirá para a direção institucional? | intermediário |
+| **operacional** | processos, equipes e rotinas | o que será feito, por quem, quando e com que padrão? | específico e próximo da execução |
 
-Os prazos são tendências, não números universais. O <abbr title="Plano Plurianual">PPA</abbr> possuir quatro anos não transforma quatro anos em duração obrigatória de qualquer plano estratégico.
+Desdobrar não é copiar. Um objetivo institucional pode gerar metas e iniciativas diferentes para tecnologia, atendimento, orçamento e gestão de pessoas, desde que permaneçam coerentes entre si.
 
-### 6.1 Alinhamento entre níveis
+Os horizontes de tempo são **tendências**, não números universais. O fato de o <abbr title="Plano Plurianual">PPA</abbr> federal ter ciclo de quatro anos não transforma quatro anos em duração obrigatória de todo plano estratégico. Missão, visão, diagnóstico ambiental e formulação aprofundada da estratégia pertencem ao Assunto 110; aqui importa compreender a lógica dos níveis e seu alinhamento.
 
-O desdobramento não é cópia literal. Cada nível traduz diretrizes para seu alcance, preservando:
+## 5. Filosofias: que postura domina a escolha?
 
-- coerência vertical entre escalões;
-- coerência horizontal entre áreas interdependentes;
-- compatibilidade entre objetivos, recursos e prazos.
+As chamadas filosofias do planejamento descrevem a orientação predominante diante de alternativas e mudança. Elas não são etapas obrigatórias nem tipos mutuamente exclusivos.
 
-O planejamento estratégico aprofundado — missão, visão, análise ambiental e formulação de estratégias — pertence ao Assunto 110.
+### Satisfação
 
-## 7. Elementos e instrumentos dos planos
+Busca uma solução **suficientemente aceitável**, em vez de necessariamente maximizar o resultado. Pode reduzir exposição a risco, custo de análise ou conflito, mas corre o risco de acomodar desempenho inferior ao possível.
 
-### 7.1 Objetivos e metas
+No caso hipotético, escolher a primeira alternativa que atenda a um nível mínimo aceitável de prazo ilustra essa orientação.
 
-- **objetivo**: resultado pretendido;
-- **meta**: especificação do resultado, frequentemente por quantidade, prazo ou critério de verificação.
+### Otimização
 
-Exemplo:
+Busca o **melhor resultado segundo critérios definidos**, podendo usar comparação quantitativa, modelos e análise de custos e benefícios. O resultado depende da qualidade dos dados, hipóteses e critérios: um modelo não corrige uma pergunta mal formulada.
 
-- objetivo: ampliar o acesso ao serviço digital;
-- meta: elevar de 60% para 80% a proporção de solicitações digitais até dezembro.
+No mesmo caso, pontuar alternativas segundo custo, capacidade e redução esperada do prazo aproxima-se dessa orientação.
 
-### 7.2 Políticas, procedimentos e regras
+### Adaptação
 
-| Instrumento | Função |
+Valoriza **aprendizagem, inovação, flexibilidade e ajuste** diante de mudanças. O plano funciona como hipótese que pode ser aperfeiçoada pela execução e por novas informações. Adaptação não é improvisação sem objetivo.
+
+Testar uma alternativa em escala controlada, observar resultados e ajustar o desenho antes de ampliar a solução é um exemplo dessa postura.
+
+## 6. Planos usam instrumentos diferentes para decisões diferentes
+
+Depois de escolher a direção, é preciso registrar decisões no nível adequado.
+
+| Instrumento | Para que serve |
 | --- | --- |
-| **Política** | diretriz geral para decisões recorrentes, com margem de julgamento |
-| **Procedimento** | sequência padronizada de etapas |
-| **Regra** | determinação específica do que deve ou não deve ser feito |
+| **objetivo** | expressar o resultado pretendido |
+| **meta** | tornar o resultado verificável por quantidade, prazo ou critério |
+| **política** | orientar decisões recorrentes, preservando margem de julgamento |
+| **procedimento** | padronizar uma sequência de etapas |
+| **regra** | determinar especificamente o que deve ou não deve ser feito |
+| **programa** | articular ações ou projetos relacionados |
+| **projeto** | realizar esforço delimitado com entrega própria |
+| **orçamento** | distribuir recursos e limites financeiros ou quantitativos |
+| **cronograma** | organizar atividades, prazos e marcos no tempo |
 
-### 7.3 Planos permanentes e temporários
+Políticas, procedimentos e regras costumam compor **planos permanentes ou de uso repetido**. Programas, projetos, orçamentos e cronogramas ligados a uma iniciativa delimitada aparecem como **planos temporários ou de uso único** em classificações recorrentes.
 
-A classificação pode variar conforme a fonte, mas é recorrente distinguir:
+Esses rótulos não tornam os instrumentos intercambiáveis. Política orienta escolhas; procedimento descreve etapas; regra determina conduta. Orçamento trata de recursos; cronograma, de tempo. O estudo aprofundado de projetos pertence ao Assunto 109.
 
-- **planos permanentes ou de uso repetido**: políticas, procedimentos e regras;
-- **planos temporários ou de uso único**: programas, projetos, orçamentos e cronogramas vinculados a iniciativa delimitada.
+## 7. Direção começa onde o plano encontra as pessoas
 
-| Instrumento | Núcleo |
-| --- | --- |
-| **Programa** | articula ações ou projetos relacionados |
-| **Projeto** | esforço delimitado, com entrega própria |
-| **Orçamento** | recursos e limites financeiros ou quantitativos |
-| **Cronograma** | atividades, prazos e marcos no tempo |
+Mesmo um bom plano não executa a si próprio. **Direção** é a função administrativa que orienta, influencia e mobiliza pessoas para realizar objetivos e planos.
 
-Política não é procedimento; orçamento não é cronograma; programa não é rotina permanente.
+No caso hipotético, depois de escolhida a alternativa, a chefia precisa explicar prioridades, converter decisões em responsabilidades, coordenar trabalhos interdependentes, remover impedimentos, liderar e delegar decisões dentro de limites.
 
-## 8. Roteiro racional de planejamento
+Direção não é sinônimo de emitir ordens. Desempenho também depende de compreensão, capacidade, recursos, cooperação e retorno sobre problemas de execução.
 
-1. diagnosticar situação e problema;
-2. definir objetivos e critérios de resultado;
-3. identificar premissas, restrições e recursos;
-4. formular alternativas;
-5. comparar alternativas, riscos, custos e benefícios;
-6. escolher o curso de ação;
-7. detalhar responsáveis, recursos, prazos e instrumentos;
-8. executar, acompanhar e revisar.
+### 7.1 Direção também muda conforme o nível
 
-Diagnóstico descreve a situação; objetivo indica o estado pretendido. Planejar não é confirmar a primeira ideia disponível.
+No nível **institucional**, direção estabelece orientação geral, prioridades e decisões de alcance amplo. No nível **intermediário**, gerências traduzem diretrizes e coordenam unidades. No nível **operacional**, supervisão orienta equipes, tarefas e problemas imediatos.
 
-### 8.1 Benefícios e limitações
+Os nomes direção, gerência e supervisão enfatizam alcances diferentes, mas todos tratam de mobilizar a execução.
 
-| Benefícios | Limitações e riscos |
-| --- | --- |
-| fornece foco e prioridades | consome tempo e recursos |
-| coordena unidades | pode gerar falsa sensação de certeza |
-| orienta alocação de recursos | premissas ruins contaminam escolhas |
-| cria referências para controle | excesso de rigidez reduz adaptação |
-| prepara alternativas | documento não assegura execução |
-| favorece aprendizagem | baixa participação reduz adesão |
+### 7.2 Autoridade, liderança e motivação não são a mesma coisa
 
-## 9. Direção: mobilizar pessoas para executar
+**Autoridade** decorre da posição formal e da competência atribuída: permite decidir e orientar dentro de determinado âmbito. **Liderança** é a capacidade de influenciar pessoas em direção a objetivos. O cargo pode conceder autoridade sem produzir confiança ou adesão; influência informal, por sua vez, não cria competência jurídica.
 
-**Direção** é a função que orienta, influencia e mobiliza pessoas para realizar objetivos e planos. Seu foco predominante é humano e relacional.
+**Motivação** envolve forças que ativam, orientam e sustentam o comportamento. Propósito, reconhecimento, autonomia, condições de trabalho e percepção de justiça podem influenciá-la, mas nenhum incentivo gera resposta idêntica em todas as pessoas e situações.
 
-Entre suas atividades estão:
+A comunicação faz prioridades, expectativas e retornos circularem. Sem compreensão compartilhada, a direção perde capacidade de coordenar; canais, ruídos, redes e fluxos são aprofundados no Assunto 105.
 
-- orientar prioridades e tarefas;
-- atribuir responsabilidades de execução;
-- implementar decisões;
-- exercer liderança;
-- estimular motivação e comprometimento;
-- coordenar esforços interdependentes;
-- delegar dentro de limites;
-- remover impedimentos da execução.
+## 8. Coordenação e delegação transformam direção em execução distribuída
 
-Direção não se reduz à emissão de ordens. Resultados dependem de compreensão, capacidade, recursos, coordenação e adesão.
+### 8.1 Coordenar é recompor o que foi dividido
 
-### 9.1 Direção nos níveis organizacionais
+**Coordenação** integra esforços e ajusta interdependências para que atividades diferentes produzam um resultado comum. Ela pode ocorrer verticalmente, pelas relações de autoridade, e horizontalmente, pela articulação entre áreas.
 
-| Nível | Ênfase |
-| --- | --- |
-| **Institucional** | orientação geral, prioridades e decisões globais |
-| **Intermediário** | tradução de diretrizes e coordenação setorial |
-| **Operacional** | orientação imediata de equipes, tarefas e problemas |
+Na síntese <abbr title="Planejamento, Organização, Direção e Controle">PODC</abbr>, coordenação costuma aparecer dentro da direção. No Decreto-Lei nº 200/1967, porém, é princípio autônomo e deve estar presente permanentemente na execução de planos e programas. A descrição do enunciado e a classificação de referência importam mais que o rótulo isolado.
 
-Em terminologia didática, fala-se em direção, gerência e supervisão. Muda o alcance, não a natureza da função.
+### 8.2 Delegação gerencial: autonomia com contorno
 
-## 10. Autoridade, liderança e motivação
+Na gestão cotidiana, delegar é atribuir a outra pessoa o exercício de tarefa, decisão ou autoridade para alcançar um resultado dentro de limites definidos. Uma delegação útil explicita:
 
-### 10.1 Autoridade e liderança
+1. finalidade e resultado esperado;
+2. autoridade necessária;
+3. limites de decisão;
+4. recursos e suporte disponíveis;
+5. forma de acompanhamento.
 
-- **autoridade** decorre da posição e da competência formal;
-- **liderança** é capacidade de influenciar pessoas em direção a objetivos.
+Sem autonomia real, a chefia apenas redistribui tarefas e continua decidindo tudo. Sem limites e acompanhamento, não há delegação responsável, mas abandono.
 
-Autoridade formal não garante liderança eficaz. Influência informal não cria competência jurídica e não autoriza descumprir limites legais.
+### 8.3 Delegação de competência: sentido jurídico
 
-### 10.2 Motivação
+Na Administração Pública, **delegação de competência** possui disciplina jurídica própria. O Decreto-Lei nº 200/1967 a trata como instrumento de descentralização administrativa destinado a aproximar decisões dos fatos, das pessoas e dos problemas.
 
-Motivação envolve forças que ativam, orientam e sustentam o comportamento. Clareza de propósito, reconhecimento, autonomia adequada, condições de trabalho, justiça percebida e desenvolvimento podem influenciar o engajamento.
+Na Administração Federal regida pela Lei nº 9.784/1999, a competência é irrenunciável, mas parte dela pode ser delegada quando não houver impedimento legal. Não podem ser delegadas a edição de atos normativos, a decisão de recursos administrativos nem matérias de competência exclusiva. O ato de delegação deve ser publicado e especificar matérias e poderes transferidos, limites, duração, objetivos e recurso cabível; ele é revogável a qualquer tempo pela autoridade delegante.
 
-Não existe incentivo universal que produza a mesma resposta em todas as pessoas e situações.
+A delegação jurídica transfere o **exercício** nos limites autorizados; não deve ser confundida com renúncia definitiva à competência.
 
-## 11. Coordenação, delegação e descentralização
+### 8.4 Descentralização é mais ampla que delegação
 
-### 11.1 Coordenação
+Em sentido gerencial, descentralizar aproxima decisões e execução dos níveis que conhecem o problema. No Decreto-Lei nº 200/1967, a descentralização recebe tratamento mais amplo: envolve a distribuição da execução e a separação entre direção e casos de execução.
 
-Coordenar é integrar esforços e ajustar interdependências para um resultado comum. Pode ocorrer:
+Por isso, **delegação e descentralização não são sinônimos**. A delegação de competência pode funcionar como instrumento da descentralização, mas a descentralização pode envolver arranjos mais amplos. O desenho organizacional e as diferenças entre centralização, descentralização e desconcentração são tratados com mais profundidade no Assunto 103.
 
-- verticalmente, pelas relações de autoridade;
-- horizontalmente, pela articulação entre unidades e profissionais.
+## 9. O setor público acrescenta regras ao mesmo mecanismo administrativo
 
-Nos modelos PODC, costuma integrar a direção. No Decreto-Lei nº 200/1967, é princípio fundamental autônomo e permanente na execução de planos e programas.
-
-### 11.2 Delegação gerencial
-
-Na gestão cotidiana, delegar significa atribuir a outra pessoa o exercício de tarefa, decisão ou autoridade dentro de finalidade, limites e acompanhamento definidos.
-
-Delegação gerencial:
-
-- desenvolve capacidade decisória;
-- aproxima decisões da execução;
-- libera a chefia para questões de maior alcance;
-- não equivale a abandono nem microgerenciamento.
-
-### 11.3 Delegação de competência administrativa
-
-No Direito Administrativo, delegação de competência é transferência autorizada do **exercício** de atribuições jurídicas. O ato deve definir delegante, delegado, matérias e limites.
-
-### 11.4 Descentralização
-
-Descentralização é conceito mais amplo: distribui execução ou competências entre níveis, órgãos ou entidades. Delegação de competência pode funcionar como instrumento de descentralização, mas os termos não são sinônimos.
-
-## 12. Planejamento e direção na Administração Pública
-
-O Decreto-Lei nº 200/1967 estabelece como princípios fundamentais da Administração Federal:
+O Decreto-Lei nº 200/1967 estabelece cinco princípios fundamentais para as atividades da Administração Federal:
 
 1. planejamento;
 2. coordenação;
@@ -300,60 +223,23 @@ O Decreto-Lei nº 200/1967 estabelece como princípios fundamentais da Administr
 4. delegação de competência;
 5. controle.
 
-A norma também orienta que órgãos centrais se concentrem em planejamento, supervisão, coordenação e controle, deixando a execução dos casos individuais tão próxima quanto possível dos fatos e das pessoas.
+Isso não é uma versão jurídica da sigla <abbr title="Planejamento, Organização, Direção e Controle">PODC</abbr>; são classificações diferentes. O Decreto-Lei também separa **direção** de **execução**: estruturas centrais devem concentrar-se em planejamento, supervisão, coordenação e controle, enquanto decisões de casos individuais devem, em princípio, ficar próximas da execução.
 
-O **Plano Plurianual (PPA)** estabelece, de forma regionalizada, diretrizes, objetivos e metas da Administração Pública federal para despesas de capital, outras delas decorrentes e programas de duração continuada. Seu período de quatro anos é uma característica jurídico-orçamentária, não regra universal do planejamento estratégico.
+### 9.1 O Plano Plurianual é um exemplo jurídico de planejamento, não uma medida universal de prazo
 
-Na direção pública, liderança e motivação permanecem importantes, mas autoridade está vinculada à legalidade, à finalidade pública e à prestação de contas.
+A Constituição determina que a lei que instituir o <abbr title="Plano Plurianual">PPA</abbr> estabeleça, de forma regionalizada, **diretrizes, objetivos e metas** da Administração Pública federal para despesas de capital e outras delas decorrentes e para programas de duração continuada.
 
-## 13. Exemplo integrado e roteiro discursivo
+No regime federal, o <abbr title="Plano Plurianual">PPA</abbr> possui ciclo de quatro anos. Esse horizonte pertence ao instrumento jurídico-orçamentário; não define quanto deve durar um planejamento estratégico de qualquer organização.
 
-Considere um órgão que pretende ampliar o atendimento digital:
+## 10. Refaça o caso da abertura como um ciclo completo
 
-1. diagnostica demanda, filas, capacidades e restrições;
-2. define objetivo e meta;
-3. explicita premissas e riscos;
-4. compara alternativas tecnológicas e operacionais;
-5. distribui responsabilidades e recursos;
-6. comunica prioridades e mobiliza equipes;
-7. coordena tecnologia, atendimento, orçamento e pessoas;
-8. delega decisões operacionais dentro de limites;
-9. acompanha resultados e revisa o plano.
+Retome o órgão hipotético que pretende reduzir o tempo de atendimento:
 
-Em situação-problema discursiva, uma resposta consistente deve mostrar:
+1. **planejamento:** diagnostica a fila, define objetivo e meta, explicita premissas, compara alternativas e escolhe um curso de ação;
+2. **organização:** distribui responsabilidades, recursos e autoridade necessários à execução;
+3. **direção:** comunica prioridades, orienta equipes, coordena áreas, lidera e delega dentro de limites;
+4. **controle:** compara resultados com referências, identifica desvios e produz informação para correção e novo planejamento.
 
-- problema e evidências;
-- objetivo e meta;
-- alternativas e critérios de escolha;
-- responsáveis, recursos e prazos;
-- ações de direção e coordenação;
-- mecanismo de acompanhamento e revisão.
+Se a demanda invalidar uma premissa, revisar o plano é coerente; ignorar a evidência é que seria o erro. Se uma área cumprir sua meta prejudicando outra, faltam contribuição ao objetivo comum e coordenação. Se a chefia delegar uma decisão e depois refizer cada escolha, esvazia a autonomia concedida.
 
-## 14. Quadro de distinções
-
-| Conceito | Núcleo | Não confundir com |
-| --- | --- | --- |
-| Planejamento | processo decisório futuro | plano como documento |
-| Previsão | estimativa probabilística | decisão de agir |
-| Projeção | prolongamento de tendência | objetivo desejado |
-| Predição | futuro esperado fora do controle | planejamento |
-| Participativo | envolvimento no processo | consulta simbólica |
-| Coordenado | interdependência entre aspectos | integração entre níveis |
-| Integrado | alinhamento entre escalões | simples soma de planos |
-| Permanente | revisão contínua | imutabilidade |
-| Satisfação | resultado aceitável | máximo possível |
-| Otimização | melhor resultado segundo critérios | garantia de perfeição |
-| Adaptação | aprendizagem e ajuste | improvisação |
-| Direção | mobilização da execução | controle de resultados |
-| Delegação | exercício atribuído com limites | abandono |
-| Descentralização | distribuição mais ampla da execução | mera atribuição de tarefa |
-
-## 15. Limites do assunto
-
-- estruturas e departamentalização: Assunto 103;
-- comunicação organizacional: Assunto 105;
-- controle e avaliação: Assunto 106;
-- gestão de processos: Assunto 107;
-- gestão de projetos: Assunto 109;
-- planejamento estratégico aprofundado: Assunto 110;
-- teorias de liderança: Assunto 111.
+Esse encadeamento permite reconhecer as funções sem depender de palavras decoradas: **planejar escolhe a direção; organizar prepara os meios; dirigir mobiliza pessoas; controlar aprende com o resultado.**
