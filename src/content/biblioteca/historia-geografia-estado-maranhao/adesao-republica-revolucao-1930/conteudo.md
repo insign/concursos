@@ -8,254 +8,135 @@ storageId: adesao-republica-revolucao-1930
 
 # Adesão do Maranhão à República e Revolução de 1930
 
-## 1. Objeto e chave de leitura
+## Duas rupturas, mas não o mesmo processo
 
-O assunto reúne duas mudanças de regime separadas por quatro décadas:
+Em **1889**, o desafio local era instalar um regime nacional recém-proclamado. Em **1930**, o Maranhão já era republicano: a ruptura derrubou um governo estadual ligado a redes oligárquicas — grupos restritos de chefias que controlavam cargos, eleições e alianças — e reorganizou a relação com o poder federal.
 
-1. em **1889**, o Maranhão deixou de ser província do Império e passou a estado da República federativa;
-2. em **1930**, uma articulação civil-militar derrubou o governo estadual ligado à situação oligárquica e instalou uma Junta Revolucionária, depois substituída por interventores federais.
+Nos dois momentos surgiu uma **Junta**, um governo provisório exercido por várias pessoas. Em 1889, ela substituiu a presidência provincial do Império. Em 1930, a Junta Revolucionária derrubou o governador em exercício e depois cedeu lugar a **interventores**, governantes estaduais nomeados no contexto do novo Governo Provisório federal.
 
-Uma fórmula útil é:
+A pergunta que organiza o assunto é: **quem tinha o poder antes da ruptura, como ele caiu e quem o exerceu depois?** Ela evita três confusões: 15 de novembro de 1889 não é a data da instalação local da República; Magalhães de Almeida não era o governador deposto em outubro de 1930; e adesão à República em 1889 não se confunde com adesão à Independência em 1823.
 
-$$
-1889 = \text{mudança de regime} + \text{Junta} + \text{conflito racial no pós-Abolição}
-$$
+## 1889: notícia, conflito e reorganização
 
-$$
-1930 = \text{crise oligárquica} + \text{Aliança Liberal} + \text{levante militar} + \text{interventoria}
-$$
+### Do ato nacional à instalação no Maranhão
 
-Não confunda **adesão à República, em 1889**, com **adesão à Independência, em 1823**. Também não trate as duas rupturas como democratizações sociais completas.
+A República foi proclamada no Rio de Janeiro em **15 de novembro de 1889**, em movimento de forte participação militar liderado por Deodoro da Fonseca e apoiado por republicanos civis. O Decreto nº 1 instituiu provisoriamente a República federativa, na qual as antigas províncias passariam a ser estados vinculados ao governo federal.
 
-## 2. Da Monarquia à República
+No Maranhão, **aderir à República não significava criar uma república independente**. Significava reconhecer o novo poder federal, substituir autoridades imperiais e formar um governo provisório.
 
-A República foi proclamada no Rio de Janeiro em **15 de novembro de 1889**, por movimento militar liderado por Deodoro da Fonseca e articulado com republicanos civis. O Decreto nº 1 instituiu provisoriamente a República federativa e transformou as antigas províncias em estados.
-
-Entre os fatores nacionais estavam:
-
-- tensões entre governo imperial e Exército;
-- expansão do republicanismo;
-- questão religiosa;
-- reação de proprietários à Abolição sem indenização;
-- crise sucessória da Monarquia;
-- articulação militar e civil contra o gabinete imperial.
-
-No Maranhão, adesão significou reconhecer o novo governo federal, substituir autoridades imperiais e organizar um governo estadual provisório. Não significou fundar uma república maranhense independente.
-
-## 3. As datas de novembro de 1889
-
-As datas registram etapas distintas:
-
-| Data | Evento |
+| Data | O que aconteceu |
 |---|---|
-| 15 nov. | proclamação no Rio e início das comunicações |
-| 16 nov. | jornal republicano *O Globo* publica telegrama sobre a mudança |
-| 17 nov. | manifestação popular negra e repressão em São Luís |
-| 18 nov. | proclamação formal no Maranhão e constituição da Junta Provisória |
+| **15 de novembro** | proclamação da República no Rio de Janeiro |
+| **16 de novembro** | *O Globo* divulgou telegrama com a notícia |
+| **17 de novembro** | manifestação popular negra em São Luís terminou sob repressão armada |
+| **18 de novembro** | a República foi formalmente proclamada no Maranhão e formou-se a Junta Provisória |
 
-Por isso, dizer apenas “o Maranhão aderiu em 15 de novembro” apaga a diferença entre o ato nacional e a instalação local. Telegramas, rumores, imprensa, protesto e cerimônia oficial não ocorreram no mesmo instante.
+Comunicação, reação popular e instalação administrativa, portanto, ocorreram em etapas.
 
-## 4. São Luís em 17 de novembro
+### Por que parte da população negra resistiu
 
-### 4.1. Pós-Abolição e medo da reescravização
+A escravidão fora abolida em **13 de maio de 1888**, apenas dezoito meses antes. Muitos libertos — pessoas juridicamente libertadas da escravidão — associavam a Monarquia e a princesa Isabel à liberdade recém-conquistada. Ao mesmo tempo, entre os republicanos locais havia integrantes de setores proprietários.
 
-A escravidão fora abolida em **13 de maio de 1888**, apenas dezoito meses antes. Muitos libertos associavam a princesa Isabel e a Monarquia à liberdade conquistada. A República era defendida localmente por integrantes de setores proprietários, e circulou o temor de que o novo regime revogasse a Lei Áurea ou restaurasse formas de cativeiro.
+Circulou, então, o temor de que a República revogasse a Lei Áurea ou permitisse nova escravização. Esse medo não significava desejo de restaurar a escravidão: a liberdade jurídica de 1888 ainda convivia com coerção no trabalho, dependência e hierarquias raciais.
 
-Esse medo não era simples ignorância. No pós-Abolição, antigos proprietários ainda tentavam controlar trabalho, filhos classificados como ingênuos e pessoas recém-libertas. A liberdade jurídica não eliminou coerção, dependência nem hierarquias raciais.
+Em **17 de novembro**, uma multidão descrita nas fontes como libertos, homens de cor, antigos escravizados e “cidadãos do 13 de Maio” percorreu São Luís, aclamou a Monarquia e se dirigiu à redação do jornal republicano *O Globo*, ligado a **Francisco de Paula Belfort Duarte**. “Cidadãos do 13 de Maio” ligava esses sujeitos à experiência política da Abolição e à defesa da liberdade obtida em 1888.
 
-### 4.2. Manifestação e repressão
+Um pelotão abriu fogo. Os registros oficiais apontam **quatro mortos e vários feridos**; números maiores de participantes ou vítimas aparecem em outras memórias e devem ser tratados como estimativas.
 
-Em 17 de novembro, uma multidão descrita nas fontes como libertos, homens de cor, cidadãos do 13 de Maio e antigos escravizados percorreu São Luís, aclamou a Monarquia e se dirigiu à redação do jornal republicano *O Globo*, ligado a **Francisco de Paula Belfort Duarte**.
+O **Massacre dos Libertos** mostra que a instalação da República não foi apenas administrativa. A população negra agiu politicamente, interpretou o novo regime à luz do pós-Abolição e encontrou repressão armada.
 
-Um pelotão protegeu o jornal e abriu fogo. Registros oficiais indicam **quatro mortos** e vários feridos. Estimativas de dois ou três mil manifestantes e números maiores de vítimas devem ser apresentados como estimativas.
+### Ordem oficial e conflito social podem coexistir
 
-O episódio é conhecido como **Massacre dos Libertos**. Ele demonstra:
+Ofícios da Junta de **18 de novembro**, preservados pelo <abbr title="Arquivo Público do Estado do Maranhão">APEM</abbr>, apresentaram a mudança como realizada **“sem abalo da ordem pública”**. Essa era a linguagem administrativa de legitimação do novo governo.
 
-- agência política da população negra;
-- vínculo entre memória da Abolição e defesa da liberdade;
-- racialização da cidadania republicana;
-- violência na instalação do novo regime;
-- limites da narrativa de adesão inteiramente pacífica.
+Ela não apaga o dia anterior: **17 de novembro** registra manifestação, repressão e mortes; **18 de novembro**, a comunicação oficial da instalação do regime. A cerimônia institucional e a experiência social são perspectivas diferentes do mesmo processo.
 
-## 5. A versão oficial e o problema da memória
+### A Junta e a materialização do novo regime
 
-Os ofícios da Junta, datados de 18 de novembro, afirmaram que a mudança ocorrera **“sem abalo da ordem pública”**. A frase descreve a versão administrativa da cerimônia e a necessidade de legitimar o novo governo. Ela não apaga o conflito do dia anterior.
+O último presidente da Província do Maranhão foi **Tito Augusto Pereira de Matos**. Em 18 de novembro, o governo passou a uma Junta Provisória.
 
-A historiografia tradicional frequentemente classificou a manifestação como desordem de libertos manipulados ou minimizou a repressão. Estudos do pós-Abolição recuperam as razões políticas dos manifestantes e mostram como o episódio foi silenciado na memória oficial.
+O ofício daquele dia lista seis integrantes:
 
-Em prova, duas afirmações podem ser simultaneamente verdadeiras quando devidamente delimitadas:
+- tenente-coronel **João Luís Tavares**;
+- **José Francisco de Viveiros**;
+- **Francisco Xavier de Carvalho**;
+- **José de Lourenço da Silva Milanez**;
+- **Cândido Floriano da Costa Barreto**;
+- **Augusto Frutuoso Monteiro da Silva**.
 
-- a Junta comunicou oficialmente uma transição sem abalo em 18 de novembro;
-- a cidade viveu manifestação e mortes em 17 de novembro.
+Outras obras registram sete membros e incluem **Belfort Duarte**. A diferença deve ser atribuída à fonte: uma lista documental específica não resolve sozinha todas as formas pelas quais a composição política da Junta foi registrada.
 
-## 6. Governo Provisório de 1889
+Em **22 de novembro**, a Junta determinou a retirada de coroas, bandeiras, retratos e insígnias monárquicas das repartições e de símbolos imperiais em uniformes. A troca de regime tornava-se visível no cotidiano administrativo.
 
-### 6.1. Último presidente provincial
+A adesão do interior foi gradual. Há registros de congratulações e aclamações em Alcântara, Viana, Turiaçu e Carolina entre o fim de novembro de 1889 e janeiro de 1890. Em **17 de dezembro de 1889**, **Pedro Augusto Tavares Júnior**, nomeado pelo Governo Provisório federal, assumiu o governo e substituiu a Junta.
 
-O último presidente da Província do Maranhão foi **Tito Augusto Pereira de Matos**. José Bento de Araújo governara anteriormente e não deve ser apresentado como titular em novembro de 1889.
+### Federalismo não significou cidadania universal
 
-### 6.2. Junta documentada pelo APEM
+A Constituição federal de **24 de fevereiro de 1891** consolidou a República presidencialista e o **federalismo**, sistema em que os estados possuem autonomia política dentro da União. A primeira Constituição republicana do Maranhão foi promulgada em **4 de julho de 1891**.
 
-Ofício de 18 de novembro exposto pelo Arquivo Público do Estado do Maranhão relaciona seis integrantes:
+A autonomia estadual cresceu, mas a participação política continuou restrita. A Constituição de 1891 impedia que se registrassem como eleitores mendigos, analfabetos, <abbr title="Militares das fileiras sem patente de oficial">praças de pré</abbr> — ressalvada a exceção constitucional para alunos de escolas militares de ensino superior — e certos religiosos sujeitos a regras de obediência. As mulheres não apareciam nominalmente nessa lista, mas não foram reconhecidas como eleitoras pela ordem política da época.
 
-- tenente-coronel João Luís Tavares;
-- José Francisco de Viveiros;
-- Francisco Xavier de Carvalho;
-- José de Lourenço da Silva Milanês;
-- Cândido Floriano da Costa Barreto;
-- Augusto Frutuoso Monteiro da Silva.
+Logo, **transformar a província em estado e adotar o federalismo não eliminou exclusões eleitorais, sociais e raciais**. Mudança institucional não é sinônimo de democratização social completa.
 
-Parte da historiografia menciona sete membros e inclui Belfort Duarte. A diferença pode decorrer de composição política, presença ou assinatura em documentos distintos. Não transforme uma lista documental específica em certeza sobre todas as configurações da Junta.
+## 1930: crise dentro da República
 
-### 6.3. Atos e difusão para o interior
+### Quem disputava o poder
 
-A Junta comunicou a mudança a autoridades federais e locais, recebeu adesões do interior e promoveu nomeações e juramentos. Em **22 de novembro**, ordenou a retirada de coroas, bandeiras, retratos e insígnias monárquicas das repartições e determinou que militares e agentes públicos removessem a coroa imperial de botões e uniformes.
+Na **Primeira República (1889–1930)**, a política maranhense era marcada por redes de chefias e alianças. Três nomes ajudam a identificar as correntes mencionadas nas fontes:
 
-A adesão estadual foi gradual. Documentos registram manifestações em Alcântara, Viana, Turiaçu e Carolina entre o fim de novembro de 1889 e janeiro de 1890. Em **17 de dezembro de 1889**, **Pedro Augusto Tavares Júnior** assumiu o governo por nomeação federal.
-
-## 7. Federalismo e limites da mudança
-
-A Constituição federal de **24 de fevereiro de 1891** consolidou República, presidencialismo, federalismo, separação de Poderes e autonomia estadual. A primeira Constituição republicana do Maranhão foi promulgada em **4 de julho de 1891**.
-
-A transformação de província em estado ampliou a autonomia formal, mas não criou cidadania universal:
-
-- analfabetos, maioria da população, não votavam;
-- mulheres não tinham direitos eleitorais;
-- praças de pré, mendigos e certas categorias religiosas eram excluídos;
-- libertos não receberam política ampla de terra, educação ou reparação;
-- poder local continuou controlado por redes oligárquicas.
-
-Mudança institucional e democratização social não são sinônimos.
-
-## 8. Da Primeira República à crise de 1930
-
-Para compreender 1930, basta reconhecer a política estadual como disputa entre redes oligárquicas, eleições controladas e alianças com o governo federal.
-
-Três designações aparecem nas fontes:
-
-| Grupo | Referência |
+| Grupo | Referência política |
 |---|---|
-| magalhãesistas | situação ligada a José Maria Magalhães de Almeida |
-| marcelinistas | oposição ligada a Marcelino Machado |
-| tarquinistas | oposição ligada a Tarquínio Lopes Filho |
+| **magalhãesistas** | grupo governista ligado a José Maria Magalhães de Almeida |
+| **marcelinistas** | oposição ligada a Marcelino Machado |
+| **tarquinistas** | corrente ligada a Tarquínio Lopes Filho |
 
-Esses grupos não eram partidos modernos homogêneos. O detalhamento do Vitorinismo e da Greve de 1951 pertence ao assunto seguinte.
+Não eram partidos modernos homogêneos; eram redes políticas que podiam recompor alianças.
 
-## 9. Eleições e governo estadual em 1930
+**Magalhães de Almeida** governou de 1926 até **1º de março de 1930**. Continuou como liderança do grupo governista, mas já não era governador em outubro.
 
-**Magalhães de Almeida** governou o Maranhão de 1926 até **1º de março de 1930**. Era a principal liderança situacionista, mas não era o governador em exercício quando a Revolução venceu em outubro.
+Na eleição presidencial de 1º de março, **Júlio Prestes e Vital Soares** formaram a chapa apoiada pelo governo; a **Aliança Liberal**, articulação oposicionista, lançou **Getúlio Vargas e João Pessoa**. O resultado oficial no Maranhão favoreceu Júlio Prestes, mas deve ser lido no contexto de coerção, denúncias de fraude e forte controle das máquinas políticas da Primeira República.
 
-Na eleição presidencial de 1º de março:
+No governo estadual estava **José Pires Sexto**, que exerceu o cargo de **1º de março a 8 de outubro de 1930**. Foi ele, e não Magalhães de Almeida, o governador deposto.
 
-- situação: Júlio Prestes e Vital Soares;
-- Aliança Liberal: Getúlio Vargas e João Pessoa;
-- no Maranhão, o resultado oficial favoreceu amplamente Júlio Prestes;
-- marcelinistas e tarquinistas apoiaram a oposição.
+### Do movimento oposicionista ao levante armado
 
-Fraude, coerção e controle eleitoral da Primeira República exigem cautela: resultado oficial não mede de forma transparente toda a preferência popular.
+**José Maria dos Reis Perdigão** participara da Revolta de 1924 e da Coluna Prestes. Essa trajetória o aproximava do **tenentismo**, movimento político-militar de jovens oficiais que contestou a ordem da Primeira República na década de 1920. No Maranhão, tornou-se um dos principais articuladores da conspiração e assumiu a chefia civil do levante.
 
-Na eleição estadual, venceu **José Pires Sexto**, que governou de **1º de março a 8 de outubro de 1930**, conforme registro do <abbr title="Tribunal Regional Eleitoral do Maranhão">TRE-MA</abbr>. Foi ele, e não Magalhães de Almeida, o governador deposto.
+**Tarquínio Lopes Filho** era liderança da oposição tarquinista. Ele e Perdigão convergiram no apoio ao movimento de 1930, mas tinham papéis diferentes: Tarquínio era uma chefia política; Perdigão atuou diretamente na articulação revolucionária.
 
-## 10. Reis Perdigão, Tarquínio e o 24º BC
+O núcleo militar decisivo foi o **24º Batalhão de Caçadores (<abbr title="24º Batalhão de Caçadores">24º BC</abbr>)**, em São Luís. A cronologia resolve a aparente divergência entre duas datas:
 
-**José Maria dos Reis Perdigão** participara da Revolta de 1924 e da Coluna Prestes. De volta ao Maranhão, articulou redes revolucionárias e assumiu a chefia civil do movimento em São Luís.
+- **7 de outubro:** deflagração do movimento e atuação de Perdigão na chefia civil;
+- **8 de outubro:** queda de Pires Sexto e início da Junta Revolucionária.
 
-**Tarquínio Lopes Filho** era liderança dos tarquinistas e da oposição estadual. O <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> considerou correta a associação de Reis Perdigão e Tarquínio ao grupo que apoiou o tenentismo e a Revolução de 1930.
+Assim, 7 e 8 de outubro podem indicar **etapas sucessivas**, não versões incompatíveis.
 
-O ponto militar decisivo era o **24º Batalhão de Caçadores**, em São Luís. A tentativa de identificar conspiradores precipitou a sublevação.
+### Junta, interventores e centralização
 
-As fontes variam:
+A Junta de 1930 reuniu:
 
-- **7 de outubro:** início ou deflagração da conspiração em algumas narrativas;
-- **8 de outubro:** levante decisivo do batalhão, queda de Pires Sexto e início formal da Junta.
+- **José Maria dos Reis Perdigão**, civil;
+- tenente **Celso Reis de Freitas**;
+- tenente **José Ribamar Campos**.
 
-A formulação segura é: **o movimento foi deflagrado entre 7 e 8 de outubro e consolidou a tomada do poder estadual em 8 de outubro**.
+Ela governou de **8 de outubro a 14 de novembro de 1930**. Depois, o poder passou ao major **José Luso Torres**, interventor federal. Com sua saída em **27 de novembro**, **Reis Perdigão** respondeu interinamente pelo governo até **9 de janeiro de 1931**, quando assumiu o padre **Astolfo de Barros Serra**.
 
-## 11. Junta Revolucionária e interventorias
+A sequência revela a mudança institucional: a sucessão eleitoral da Primeira República foi substituída por governantes vinculados à reorganização conduzida pelo poder federal.
 
-A Junta de 1930 foi composta por:
+A Junta também reorganizou a administração e substituiu estruturas e autoridades do governo derrubado. **Magalhães de Almeida**, embora já não fosse governador, tentou reagir e embarcou no vapor *Pará* para retomar São Luís. A tentativa fracassou; ele seguiu para Belém, foi preso e retornou ao Maranhão no início de novembro.
 
-- José Maria dos Reis Perdigão, civil;
-- tenente Celso Reis de Freitas;
-- tenente José Ribamar Campos.
+O encadeamento foi, portanto:
 
-Segundo o Atlas Histórico da <abbr title="Fundação Getulio Vargas">FGV</abbr>, governou de **8 de outubro a 14 de novembro de 1930**. Depois, a sequência foi:
+**queda de Pires Sexto → Junta Revolucionária → interventorias → reorganização administrativa e política.**
 
-1. major José Luso Torres, interventor federal;
-2. Reis Perdigão, interventor interino a partir de 27 de novembro;
-3. padre Astolfo de Barros Serra, interventor a partir de 9 de janeiro de 1931.
+O magalhãesismo perdeu a posição dominante e o governo estadual tornou-se mais dependente do Governo Provisório de Vargas. Isso não eliminou as antigas elites nem produziu igualdade social imediata: houve ruptura do arranjo político, centralização federal e recomposição de alianças locais.
 
-Luso Torres não integrou a Junta de três membros; assumiu depois dela.
+O **Vitorinismo e a Greve de 1951** pertencem ao assunto seguinte. Aqui basta perceber a ponte: 1930 abriu um período de interventorias e rearranjos do qual surgiriam novas redes políticas.
 
-## 12. Reação situacionista e efeitos imediatos
+## O contraste que fecha o assunto
 
-Magalhães de Almeida tentou articular reação legalista e embarcou no vapor *Pará*, mas não retomou São Luís. Foi preso e enviado de volta ao Maranhão no início de novembro.
+Em **1889**, uma mudança nacional de regime transformou a província em estado e instalou uma Junta, enquanto o Massacre dos Libertos expôs o conflito racial e político do pós-Abolição.
 
-O Governo Provisório estadual editou atos em 9 de outubro para reorganizar a administração, substituir autoridades e romper estruturas representativas da ordem anterior.
+Em **1930**, não houve nova proclamação de República: um levante derrubou **José Pires Sexto**, instalou outra Junta e depois entregou o governo a interventores federais.
 
-Os efeitos imediatos foram:
-
-- queda de José Pires Sexto;
-- enfraquecimento do arranjo magalhãesista;
-- substituição do governo eleito por Junta e interventores;
-- maior centralização da relação entre Maranhão e governo Vargas;
-- reorganização administrativa e política.
-
-“Revolução de 1930” é o nome historiográfico consagrado, mas não implica transformação social completa. Houve recomposição de elites e redução temporária da autonomia estadual sob interventorias.
-
-## 13. Comparação 1889 x 1930
-
-| Tema | 1889 | 1930 |
-|---|---|---|
-| ruptura nacional | queda da Monarquia | queda da ordem oligárquica federal |
-| data local central | 18 nov. | 8 out. |
-| governo derrubado | presidência provincial imperial | governo de José Pires Sexto |
-| forma inicial | Junta Provisória | Junta Revolucionária |
-| conflito decisivo | manifestação negra e repressão | sublevação civil-militar do 24º BC |
-| relação federal | província torna-se estado | estado passa a interventorias |
-| limite | cidadania racial e eleitoral restrita | centralização e recomposição oligárquica |
-
-## 14. Linha do tempo
-
-| Data | Evento |
-|---|---|
-| 13 maio 1888 | Abolição |
-| 15 nov. 1889 | República proclamada no Rio |
-| 17 nov. 1889 | manifestação e Massacre dos Libertos |
-| 18 nov. 1889 | Junta Provisória no Maranhão |
-| 22 nov. 1889 | retirada de símbolos monárquicos |
-| 17 dez. 1889 | Pedro Tavares Júnior assume |
-| 24 fev. 1891 | Constituição federal |
-| 4 jul. 1891 | Constituição estadual |
-| 1 mar. 1930 | eleições; Pires Sexto assume |
-| 3 out. 1930 | início nacional da Revolução |
-| 7-8 out. 1930 | deflagração no Maranhão |
-| 8 out. 1930 | queda de Pires Sexto e Junta |
-| 14 nov. 1930 | fim da Junta e transição a Luso Torres |
-| 27 nov. 1930 | Reis Perdigão, interventor interino |
-| 9 jan. 1931 | Astolfo Serra assume |
-
-## 15. Método de resolução
-
-1. Separe o fato nacional do ato maranhense.
-2. Identifique se a fonte apresenta versão oficial ou experiência social.
-3. Distinga presidente provincial, governador, membro de Junta e interventor.
-4. Em 1930, confira quem estava no cargo em outubro.
-5. Trate 7/8 de outubro como etapas próximas, não necessariamente erro.
-6. Desconfie de “pacífica”, “imediata”, “universal” e “sem conflito”.
-
-## 16. Pegadinhas
-
-- 15 nov.: República nacional; 18 nov.: Junta maranhense.
-- 17 nov.: conflito popular e quatro mortes oficiais.
-- A população negra temia perda da liberdade, não desejava restaurar a escravidão.
-- Tito Augusto Pereira de Matos foi o último presidente provincial.
-- O ofício do APEM lista seis membros; outras obras mencionam sete.
-- Pedro Tavares Júnior assumiu em 17 dez. 1889.
-- Federalismo não significou sufrágio universal.
-- Magalhães de Almeida deixou o governo em 1º mar. 1930.
-- José Pires Sexto foi deposto em 8 out.
-- Reis Perdigão e Tarquínio apoiaram tenentismo e Revolução.
-- Junta de 1930: Perdigão, Celso Freitas e José Ribamar Campos.
-- Luso Torres veio depois da Junta.
-- Não antecipar Vitorinismo ou Greve de 1951.
+A semelhança está no uso de governos provisórios em momentos de ruptura. A diferença institucional é essencial: **1889 ampliou a autonomia formal do Maranhão dentro da federação; 1930 reduziu temporariamente essa autonomia ao substituir a sucessão eleitoral por interventorias.**
