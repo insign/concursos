@@ -136,7 +136,7 @@ Os nomes dos <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> 
 
 Uma forma de recuperar o mapa sem inventar uma classificação oficial é perceber a progressão temática: os primeiros objetivos concentram necessidades humanas básicas e igualdade; o bloco intermediário trata de infraestrutura, economia, cidades e padrões de produção; os objetivos 13 a 15 concentram clima e ecossistemas; o <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 16 focaliza paz, justiça e instituições; e o <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 17 reúne meios e parceria. Essa divisão é apenas um recurso de estudo, não uma estrutura formal da Resolução A/RES/70/1.
 
-### 5.1 Metas que mostram como a banca pode aprofundar o mapa
+### 5.1 Metas que aprofundam o mapa
 
 Algumas metas deixam claro por que decorar apenas o título do objetivo pode ser insuficiente:
 
@@ -148,7 +148,7 @@ Esses exemplos também mostram a integração. Inovação aparece no <abbr title
 
 ### 5.2 O “<abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 18” brasileiro
 
-O Brasil adotou voluntariamente um <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 18 voltado à igualdade étnico-racial. Essa iniciativa nacional **não altera a estrutura da Agenda 2030 da <abbr title="Organização das Nações Unidas">ONU</abbr>**, que continua composta por **17 <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr>** e 169 metas. Quando a pergunta se refere à Agenda da <abbr title="Organização das Nações Unidas">ONU</abbr>, não se soma o objetivo brasileiro ao total oficial.
+O Brasil adotou voluntariamente um <abbr title="Objetivo de Desenvolvimento Sustentável">ODS</abbr> 18 voltado à igualdade étnico-racial. Essa iniciativa nacional **não altera a estrutura da Agenda 2030 da <abbr title="Organização das Nações Unidas">ONU</abbr>**, que continua composta por **17 <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr>** e 169 metas. O objetivo brasileiro existe no plano nacional; ele não se soma ao total oficial da Agenda das Nações Unidas.
 
 ## 6. Como a implementação acontece
 
