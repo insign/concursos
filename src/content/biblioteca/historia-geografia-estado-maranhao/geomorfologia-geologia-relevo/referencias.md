@@ -2,5 +2,9 @@
 - SGB/CPRM. [Geodiversidade do Estado do Maranhão](https://rigeo.sgb.gov.br/items/21f9f82a-7f9a-406f-b1b3-ac81da8779e9). Bandeira (org.), 2013. Acesso em: 14 ago. 2026.
 - IBGE. [Mapa de geomorfologia do Maranhão](https://www.ibge.gov.br/geociencias/cartas-e-mapas/mapas-estaduais/16028-geomorfologia-do-estado-de-ro-rr-to-ac-am-ma-mt-e-pa.html). Acesso em: 14 ago. 2026.
 - IBGE. [Manual Técnico de Geomorfologia](https://biblioteca.ibge.gov.br/visualizacao/livros/liv24913.pdf). 2. ed., 2009. Acesso em: 14 ago. 2026.
+- IBGE. [2º Workshop sobre o Sistema Brasileiro de Classificação de Relevo](https://www.ibge.gov.br/biblioteca/visualizacao/livros/liv102090.pdf). Rio de Janeiro: IBGE, 2024. Acesso em: 7 set. 2026.
+- IBGE. [Sistema Brasileiro de Classificação de Relevo](https://www.ibge.gov.br/geociencias/informacoes-ambientais/geomorfologia/28098-sistema-brasileiro-de-classificacao-de-relevo.html). Relatório do 4º Workshop, publicado em 29 jun. 2026. Acesso em: 7 set. 2026.
 - ANM. [Produção Mineral](https://www.gov.br/anm/pt-br/assuntos/economia-mineral/producao-mineral). Acesso em: 14 ago. 2026.
+- ANM. [ANM publica Resolução com novo Sistema de Recursos e Reservas](https://www.gov.br/anm/pt-br/assuntos/noticias/anm-publica-resolucao-com-novo-sistema-de-recursos-e-reservas/). Resolução ANM nº 94/2022. Acesso em: 7 set. 2026.
+- ANP. [Rodadas de Licitações: Áreas de E&P sob Contrato](https://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/dados-tecnicos/mapas-e-p/rodadas-de-licitacoes-areas-de-e-p-sob-contrato). Atualizado em 25 jun. 2026. Acesso em: 7 set. 2026.
 - CEBRASPE. [Prova PM-MA 2017, conhecimentos gerais de nível superior](https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG1_01.pdf) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/Gab_Definitivo_359_PMMA_CG1_01.pdf). Itens 43 e 44, aplicação em 17 dez. 2017. Acesso em: 14 ago. 2026.
