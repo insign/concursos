@@ -8,233 +8,199 @@ storageId: "malha-viaria-portos-aeroportos"
 
 # Malha viária, portos e aeroportos
 
-## 1. Recorte do edital
+## 1. Uma rede só funciona quando os trechos se encontram
 
-Os itens **13 — Malha viária** e **14 — Portos e aeroportos** da Geografia do Estado do Maranhão cobram a infraestrutura física de circulação no território maranhense.
+Imagine, **hipoteticamente**, uma carga que sai do interior do Maranhão para um comprador no exterior. Ela pode percorrer um trecho rodoviário, entrar em uma ferrovia, alcançar uma instalação portuária e seguir por navio. O que importa aqui não é decorar uma rota obrigatória — ela não existe para toda carga —, mas perceber o mecanismo:
 
-O foco deste assunto é reconhecer:
+**origem → eixo de acesso → conexão entre redes → terminal → destino**
 
-- os principais eixos rodoviários e ferroviários;
-- as ligações entre interior, capital e zona portuária;
-- as diferenças entre Porto do Itaqui, Ponta da Madeira e Terminal da Alumar;
-- os principais aeroportos e seus identificadores;
-- a leitura correta de extensões, movimentações e operadores.
+O assunto anterior estuda o **transporte como serviço econômico**: modos, fluxos e integração. Neste capítulo, o foco muda para a **infraestrutura física** que torna esses fluxos possíveis. Para reconhecer uma instalação em prova, quatro dimensões precisam ficar separadas:
 
-O Assunto 092 já trata dos transportes como atividade econômica, dos fluxos e da intermodalidade. Aqui esses conceitos aparecem apenas quando ajudam a localizar e relacionar infraestruturas.
+- **onde está e o que conecta**;
+- **a que rede pertence e quem a administra ou explora**;
+- **qual é sua situação ou natureza jurídica**;
+- **o que o número apresentado realmente mede**.
 
-Os dados conjunturais são sempre acompanhados de **fonte e período**. Extensão de concessão, movimentação anual e operador vigente podem mudar sem alterar a geografia básica do tema.
+Misturar essas dimensões produz quase todas as armadilhas do tema. Uma rodovia federal não deixa de ser federal porque foi concedida; uma ferrovia conectada a outra não se transforma nela; um terminal privado vizinho a um porto público não passa a integrar juridicamente esse porto; tonelagem movimentada não é capacidade instalada.
 
-## 2. Como ler a malha viária
+## 2. Rodovias: pertencimento, administração e situação física
 
-A malha viária reúne rodovias federais, estaduais e municipais. No plano federal, o **Sistema Nacional de Viação (SNV)** é a referência cadastral utilizada pelo <abbr title="Departamento Nacional de Infraestrutura de Transportes">DNIT</abbr>.
+A malha rodoviária maranhense reúne vias federais, estaduais e municipais. No plano federal, o <abbr title="Sistema Nacional de Viação">SNV</abbr> é a referência cadastral usada pelo <abbr title="Departamento Nacional de Infraestrutura de Transportes">DNIT</abbr>. O prefixo <abbr title="Rodovia federal">BR</abbr> identifica rodovias federais; o prefixo <abbr title="Rodovia estadual do Maranhão">MA</abbr>, rodovias estaduais do Maranhão.
 
-Três distinções evitam erros frequentes:
+Antes de olhar o estado do pavimento, separe três relações.
 
-| Conceito | Leitura correta |
-|---|---|
-| jurisdição | ente ao qual a via pertence juridicamente |
-| administração | órgão ou entidade responsável pelo trecho |
-| concessão | exploração e obrigações transferidas por contrato |
+**Jurisdição** responde a quem a via pertence juridicamente. **Administração** indica quem responde pelo trecho no recorte considerado. **Concessão** é a transferência contratual da exploração e de obrigações a uma concessionária. Por isso, uma rodovia pode manter jurisdição federal sem ser explorada diretamente pelo <abbr title="Departamento Nacional de Infraestrutura de Transportes">DNIT</abbr>.
 
-Uma rodovia pode continuar **federal** mesmo quando sua administração ou exploração não é exercida diretamente pelo DNIT.
+Também é preciso distinguir **estudo de concessão** de concessão em operação. Estudos, projetos e procedimentos licitatórios podem preparar uma futura transferência, mas não provam, sozinhos, que exista contrato vigente ou que uma concessionária já tenha assumido o trecho.
 
-### 2.1 Situação física do trecho
+### 2.1 Do planejamento à duplicação
+
+No cadastro rodoviário, as situações físicas não são sinônimas nem formam atalhos lógicos:
 
 | Situação | O que permite concluir |
 |---|---|
-| planejada | integra o planejamento/cadastro, sem garantir via fisicamente aberta |
-| implantada | trecho aberto, sem garantir pavimentação |
-| pavimentada | possui pavimento cadastrado, sem garantir duplicação ou bom estado |
-| duplicada | possui pistas separadas conforme a classificação adotada |
+| planejada | o trecho integra o planejamento/cadastro; isso não garante via fisicamente aberta |
+| implantada | o trecho foi fisicamente aberto; isso não garante pavimentação |
+| pavimentada | há pavimento cadastrado; isso não garante duplicação nem bom estado de conservação |
+| duplicada | há pistas separadas conforme a classificação adotada |
 
-Também não se deve confundir **extensão do eixo** com quilômetros-pista. Um mesmo segmento físico identificado como trecho coincidente não deve ser contado duas vezes em uma soma territorial.
+Outra distinção é de medida. **Extensão do eixo** é comprimento linear da via; não equivale automaticamente a quilômetros-pista. Se dois números de rodovia compartilham o mesmo segmento físico, há um **trecho coincidente**: somá-lo duas vezes produziria dupla contagem da infraestrutura.
 
-## 3. Rodovias federais estruturantes no Maranhão
+### 2.2 Sete eixos federais que estruturam o território
 
-Em 2026, o DNIT registrou ações e estruturas ao longo de **sete rodovias federais que cortam o Maranhão**: BR-010, BR-135, BR-222, BR-226, BR-230, BR-316 e BR-402.
+Em janeiro de 2026, o <abbr title="Departamento Nacional de Infraestrutura de Transportes">DNIT</abbr> relacionou sete rodovias federais que cortam o Maranhão. Em vez de decorar uma lista solta, associe cada eixo a lugares que ele articula:
 
-| Rodovia | Leitura geográfica essencial |
+| Rodovia | Associação territorial útil |
 |---|---|
-| **BR-010** | eixo do sudoeste, passando por Açailândia, Imperatriz e Estreito; articula MA com PA e TO |
-| **BR-135** | principal ligação rodoviária da ilha de São Luís com o continente e o interior |
-| **BR-222** | corredor transversal por áreas como Chapadinha, Santa Inês e Açailândia, em direção ao Pará |
-| **BR-226** | integração PI–MA–TO, envolvendo Timon, Presidente Dutra e Grajaú e ligação ao eixo da BR-010 |
-| **BR-230** | Transamazônica no sul maranhense, articulando áreas como Carolina e Balsas e a ligação TO–PI |
-| **BR-316** | corredor PA–MA–PI por áreas como Santa Inês, Bacabal e Caxias, com continuidade para Teresina |
-| **BR-402** | corredor do nordeste/litoral oriental; no entroncamento com a BR-135 em Bacabeira, funciona como acesso rodoviário importante à região de Barreirinhas e dos Lençóis Maranhenses |
+| **<abbr title="Rodovia federal">BR-010</abbr>** | Açailândia → Imperatriz → Estreito; eixo do sudoeste e ligação com Pará e Tocantins |
+| **<abbr title="Rodovia federal">BR-135</abbr>** | ilha de São Luís → continente → interior; acesso rodoviário fundamental da capital |
+| **<abbr title="Rodovia federal">BR-222</abbr>** | Chapadinha → Santa Inês → Açailândia; corredor transversal em direção ao Pará |
+| **<abbr title="Rodovia federal">BR-226</abbr>** | Timon → Presidente Dutra → Grajaú → Porto Franco; integração entre Piauí, Maranhão e Tocantins |
+| **<abbr title="Rodovia federal">BR-230</abbr>** | Transamazônica no sul maranhense; passa por áreas como Carolina e Balsas e articula Tocantins e Piauí |
+| **<abbr title="Rodovia federal">BR-316</abbr>** | Santa Inês → Bacabal → Caxias → Teresina; corredor Pará–Maranhão–Piauí |
+| **<abbr title="Rodovia federal">BR-402</abbr>** | conexão com a <abbr title="Rodovia federal">BR-135</abbr> em Bacabeira e acesso importante à região de Barreirinhas e dos Lençóis Maranhenses |
 
-Essa tabela destaca os **eixos federais**. Ela não representa a totalidade da rede rodoviária do estado, que também inclui as rodovias **MA** e vias municipais.
+A tabela não é a “malha do Maranhão”: ela resume os **eixos federais** cobrados com mais facilidade. A rede estadual e municipal continua existindo fora dessa enumeração.
 
-### 3.1 Um número que exige cuidado
+### 2.3 O número 3.512,2 precisa de rótulo
 
-O mapa de manutenção do DNIT de **fevereiro de 2026**, baseado no SNV de novembro de 2025, indicou **3.512,2 km sob administração do DNIT no Maranhão**.
+O mapa de manutenção do <abbr title="Departamento Nacional de Infraestrutura de Transportes">DNIT</abbr> de **fevereiro de 2026**, elaborado sobre a versão de novembro de 2025 do <abbr title="Sistema Nacional de Viação">SNV</abbr>, registra **3.512,2 quilômetros como total da malha do <abbr title="Departamento Nacional de Infraestrutura de Transportes">DNIT</abbr> no Maranhão**.
 
-Esse valor não é:
+Esse dado não representa toda a malha rodoviária do estado, não soma automaticamente rodovias estaduais e municipais e não mede quilômetros-pista nem qualidade média das vias. O valor só é interpretável junto com **órgão, território, período e conceito de extensão**.
 
-- a extensão de toda a malha rodoviária maranhense;
-- o total de rodovias estaduais e municipais;
-- quilômetros-pista;
-- medida de qualidade ou conservação de todos os trechos.
+## 3. Ferrovias: três sistemas, três identidades
 
-## 4. Ferrovias e conexões territoriais
+No Maranhão, três sistemas ferroviários aparecem com frequência porque conectam áreas produtoras, cidades e a zona portuária de São Luís.
 
-Três sistemas são especialmente relevantes para compreender a infraestrutura ferroviária maranhense.
+| Sistema | Identificação regulatória | Responsável contratual | Ligação essencial |
+|---|---|---|---|
+| <abbr title="Estrada de Ferro Carajás">EFC</abbr> | <abbr title="Estrada de Ferro">EF</abbr>-315 | Vale | Carajás → Maranhão → Terminal Marítimo de Ponta da Madeira |
+| <abbr title="Ferrovia Norte-Sul — Tramo Norte">FNS</abbr> | <abbr title="Estrada de Ferro">EF</abbr>-151 | <abbr title="VLI Multimodal">VLI</abbr>, subconcessionária | conecta-se à <abbr title="Estrada de Ferro Carajás">EFC</abbr> em **Açailândia** |
+| <abbr title="Ferrovia Transnordestina Logística">FTL</abbr> / Malha Nordeste | <abbr title="Estrada de Ferro">EF</abbr>-116 | Ferrovia Transnordestina Logística | inclui a ligação **São Luís–Teresina** |
 
-| Sistema | Operador/concessionário | Ligação essencial para o Maranhão |
-|---|---|---|
-| **Estrada de Ferro Carajás (EFC)** | Vale | Carajás → Maranhão → Terminal Marítimo de Ponta da Madeira |
-| **Ferrovia Norte-Sul — Tramo Norte (FNS)** | VLI | conecta-se à EFC em **Açailândia**, permitindo acesso ferroviário ao sistema portuário de São Luís |
-| **Malha Nordeste / FTL** | Ferrovia Transnordestina Logística | inclui a ligação ferroviária **São Luís–Teresina** |
-
-A conexão física mais importante para provas pode ser representada assim:
+A conexão que organiza o mapa mental é:
 
 $$\text{FNS} \xrightarrow{\text{Açailândia}} \text{EFC} \rightarrow \text{Ponta da Madeira}$$
 
-A integração não transforma as linhas em uma única ferrovia. A FNS alcança a zona portuária por conexão com a EFC; isso não significa que sua linha própria chegue a cada terminal.
+A fórmula mostra uma **conexão entre infraestruturas**, não uma fusão. A <abbr title="Ferrovia Norte-Sul — Tramo Norte">FNS</abbr> acessa o sistema portuário pela integração com a <abbr title="Estrada de Ferro Carajás">EFC</abbr>; isso não significa que a linha própria da <abbr title="Ferrovia Norte-Sul — Tramo Norte">FNS</abbr> chegue a cada terminal.
 
-### 4.1 Extensões de concessão: cuidado com o território abrangido
+### 3.1 Extensão de concessão não é extensão maranhense
 
-As fichas regulatórias informam, no recorte consultado:
+As fichas da <abbr title="Agência Nacional de Transportes Terrestres">ANTT</abbr> informam, no recorte consultado:
 
-| Sistema | Extensão regulatória informada | Abrangência |
+| Sistema | Extensão regulatória | Território abrangido |
 |---|---:|---|
-| EFC | **996,7 km** | PA + MA |
-| FNS Tramo Norte | **744,5 km** | MA + TO |
-| FTL / Malha Nordeste | **4.295,1 km** | sete estados do Nordeste |
+| <abbr title="Estrada de Ferro Carajás">EFC</abbr> | **996,7 quilômetros** | Pará + Maranhão |
+| <abbr title="Ferrovia Norte-Sul — Tramo Norte">FNS</abbr> | **744,5 quilômetros** | Maranhão + Tocantins |
+| <abbr title="Ferrovia Transnordestina Logística">FTL</abbr> | **4.295,1 quilômetros** | sete estados do Nordeste |
 
-Esses números são **extensões de concessões/subconcessões multiestaduais**, não a extensão exclusivamente localizada dentro do Maranhão.
+Logo, nenhum desses totais multiestaduais pode ser atribuído integralmente ao Maranhão.
 
-Também não se deve confundir **FTL** com **TLSA/Nova Transnordestina**, empreendimentos distintos.
+A <abbr title="Ferrovia Transnordestina Logística">FTL</abbr> também não se confunde com a <abbr title="Transnordestina Logística S.A.">TLSA</abbr>, ligada ao empreendimento Nova Transnordestina. Nomes parecidos não tornam as concessões uma só.
 
-## 5. Porto organizado, TUP e complexo portuário
+### 3.2 A Estrada de Ferro Carajás também transporta passageiros
 
-Para o edital, basta dominar as diferenças que ajudam a identificar as instalações maranhenses.
+A <abbr title="Estrada de Ferro Carajás">EFC</abbr> não serve apenas a cargas. A Vale mantém trem de passageiros entre Maranhão e Pará, com pontos de embarque que incluem **São Luís** e **Parauapebas**, além de outras cidades ao longo do corredor.
 
-| Categoria | Ideia central |
-|---|---|
-| porto organizado | bem público sob jurisdição de autoridade portuária |
-| arrendamento | exploração de área pública dentro do porto organizado |
-| Terminal de Uso Privado (TUP) | instalação privada fora da área do porto organizado, explorada por autorização |
-| complexo portuário | agregado geográfico/logístico de instalações; não é uma instalação adicional |
+Esse fato não muda a função logística central da ferrovia para o escoamento mineral. Ele apenas impede a conclusão errada de que “ferrovia de carga” significa “ferrovia sem serviço de passageiros”.
 
-## 6. Complexo Portuário de São Luís
+## 4. São Luís: três instalações portuárias próximas, mas juridicamente distintas
 
-O conjunto logístico de São Luís reúne três instalações que não devem ser confundidas:
+No mapa, Porto do Itaqui, Terminal Marítimo de Ponta da Madeira e Terminal Portuário da Alumar pertencem ao mesmo grande conjunto logístico de São Luís. Em prova, porém, proximidade geográfica não autoriza tratar as três instalações como uma só.
 
-| Instalação | Natureza e administração | Função/característica marcante |
+Primeiro, entenda as categorias:
+
+- **porto organizado** é bem público delimitado e administrado sob autoridade portuária, isto é, pela entidade responsável pela gestão do porto;
+- **arrendamento** permite a exploração de área pública dentro do porto organizado;
+- <abbr title="Terminal de Uso Privado">TUP</abbr> é instalação portuária explorada por autorização e situada fora da área do porto organizado;
+- **complexo portuário** é um agregado geográfico e logístico; não é uma quarta instalação a ser somada às demais.
+
+Agora a diferença entre os três componentes fica mais simples:
+
+| Instalação | Natureza/gestão | Associação decisiva |
 |---|---|---|
-| **Porto do Itaqui** | porto organizado público; administrado pela **EMAP** por delegação federal | multipropósito; movimenta granéis agrícolas, combustíveis, fertilizantes, celulose e outras cargas |
-| **Terminal Marítimo de Ponta da Madeira** | **TUP da Vale** | integrado à EFC e ao sistema mineral de Carajás |
-| **Terminal Portuário da Alumar** | **TUP** ligado ao Consórcio Alumar | integrado à cadeia de bauxita, alumina e alumínio |
+| **Porto do Itaqui** | porto organizado público; administrado pela <abbr title="Empresa Maranhense de Administração Portuária">EMAP</abbr> por delegação federal | multipropósito e conectado a cadeias que ultrapassam os limites do Maranhão |
+| **Terminal Marítimo de Ponta da Madeira** | <abbr title="Terminal de Uso Privado">TUP</abbr> da Vale | integrado à <abbr title="Estrada de Ferro Carajás">EFC</abbr> e ao sistema mineral de Carajás |
+| **Terminal Portuário da Alumar** | <abbr title="Terminal de Uso Privado">TUP</abbr> associado ao Consórcio Alumar | integrado à cadeia de bauxita, alumina e alumínio |
 
-### 6.1 Porto do Itaqui
+### 4.1 Porto do Itaqui
 
-O Porto do Itaqui situa-se na **Baía de São Marcos**, em São Luís, e é administrado pela Empresa Maranhense de Administração Portuária (EMAP).
+O Porto do Itaqui fica na **Baía de São Marcos**, em São Luís. A <abbr title="Empresa Maranhense de Administração Portuária">EMAP</abbr> exerce a autoridade portuária por **delegação federal**: a União atribuiu ao Estado, por meio dessa empresa, a administração do porto. Isso não a transforma em operadora exclusiva dos terminais privados vizinhos.
 
-Em **29 de janeiro de 2026**, foi formalizada a renovação antecipada da gestão delegada, com horizonte até **2051**. Esse prazo é um dado administrativo datado; a característica geográfica central continua sendo Itaqui como porto organizado público e multipropósito.
+Em **29 de janeiro de 2026**, a gestão delegada foi renovada antecipadamente, com horizonte até **2051**. Esse prazo é um dado administrativo datado. A característica que organiza o tema é outra: **Itaqui é porto organizado público e multipropósito**.
 
-A EMAP atua como autoridade portuária. Isso não significa que seja operadora exclusiva de todas as instalações privadas ou áreas exploradas por terceiros no complexo.
+Sua área de influência econômica não termina na fronteira estadual. A infraestrutura de São Luís recebe e escoa fluxos vinculados a cadeias produtivas de outras áreas do país. Por isso, **local de embarque não determina origem produtiva da carga**.
 
-### 6.2 Ponta da Madeira
+### 4.2 Ponta da Madeira
 
-Ponta da Madeira é instalação privada da Vale e o principal ponto portuário associado à EFC e ao corredor mineral de Carajás.
+Ponta da Madeira é um <abbr title="Terminal de Uso Privado">TUP</abbr> da Vale ligado à <abbr title="Estrada de Ferro Carajás">EFC</abbr> e ao corredor mineral de Carajás.
 
-A <abbr title="Agência Nacional de Transportes Aquaviários">ANTAQ</abbr> registrou **172,4 milhões de toneladas movimentadas em 2025** pelo terminal. O número é movimentação anual da instalação, e não:
+A <abbr title="Agência Nacional de Transportes Aquaviários">ANTAQ</abbr> registrou **172,4 milhões de toneladas movimentadas em 2025** pelo terminal. “Movimentação” é o fluxo efetivamente registrado no período. Não significa capacidade instalada, produção mineral do Maranhão nem valor de exportação.
 
-- capacidade instalada;
-- produção mineral do Maranhão;
-- valor de exportação;
-- movimentação adicional a ser somada novamente quando já estiver contida em um agregado do complexo.
+### 4.3 Terminal da Alumar
 
-### 6.3 Terminal da Alumar
+O Terminal da Alumar é um <abbr title="Terminal de Uso Privado">TUP</abbr> associado ao complexo industrial de alumina e alumínio em São Luís. Entre seus fluxos está o recebimento de bauxita para a cadeia industrial.
 
-O Terminal da Alumar é instalação privada associada ao complexo industrial de alumina/alumínio em São Luís. Entre seus fluxos está o recebimento de bauxita para a cadeia industrial.
+Ele não é arrendamento do Porto do Itaqui. Também não se deve trocar três medidas diferentes: **capacidade industrial da planta**, **capacidade portuária** e **movimentação observada**.
 
-Não é arrendamento do Porto do Itaqui. Também não se deve confundir capacidade industrial da planta, capacidade portuária e movimentação efetivamente observada.
+## 5. Aeroportos: instalação, código, operador e estatística
 
-## 7. Aeroportos e aeródromos
+A <abbr title="Agência Nacional de Aviação Civil">ANAC</abbr> chama de **aeródromo** a área destinada a pouso, decolagem e movimentação de aeronaves. **Aeroporto** é um aeródromo público dotado de instalações e facilidades de apoio às operações, ao embarque e desembarque de pessoas ou ao processamento de cargas.
 
-Segundo a <abbr title="Agência Nacional de Aviação Civil">ANAC</abbr>:
+Estar cadastrado como aeródromo não prova existência de voo comercial regular. Da mesma forma, rota anunciada, voo colocado à venda e voo efetivamente realizado são fatos diferentes.
 
-- **aeródromo** é a área destinada a pouso, decolagem e movimentação de aeronaves;
-- **aeroporto** é aeródromo público dotado de instalações e facilidades de apoio às operações, passageiros ou carga.
+### 5.1 São Luís e Imperatriz: três famílias de identificadores
 
-Cadastro ativo de aeródromo não prova, por si só, existência de voo comercial regular. Rota anunciada, voo vendido e voo efetivamente realizado também são situações distintas.
-
-### 7.1 São Luís e Imperatriz
+Os dois principais aeroportos do estado podem aparecer com códigos de sistemas diferentes:
 
 | Campo | São Luís | Imperatriz |
 |---|---|---|
 | aeroporto | Marechal Hugo da Cunha Machado | Prefeito Renato Moreira |
 | <abbr title="International Air Transport Association">IATA</abbr> | **SLZ** | **IMP** |
 | <abbr title="International Civil Aviation Organization">ICAO</abbr> | **SBSL** | **SBIZ** |
-| cadastro ANAC | **MA0001** | **MA0002** |
-| operador jurídico no recorte | Concessionária do Bloco Central S.A. | Concessionária do Bloco Central S.A. |
-| marca operacional em 2026 | Motiva Aeroportos | Motiva Aeroportos |
+| <abbr title="Código de Identificação do Aeródromo">CIAD</abbr> da <abbr title="Agência Nacional de Aviação Civil">ANAC</abbr> | **MA0001** | **MA0002** |
 
-A referência à Infraero descreve a operação histórica, não a operadora vigente desses dois aeroportos no recorte consultado.
+Não misture as famílias. **SLZ/IMP** são códigos <abbr title="International Air Transport Association">IATA</abbr>; **SBSL/SBIZ**, códigos <abbr title="International Civil Aviation Organization">ICAO</abbr>; **MA0001/MA0002**, identificadores cadastrais da <abbr title="Agência Nacional de Aviação Civil">ANAC</abbr>.
 
-Outras infraestruturas regionais, como Barreirinhas, Carolina e Balsas, podem ter relevância turística ou econômica, mas operador, pista e oferta de voos devem ser conferidos no cadastro e nas estatísticas da edição correspondente.
+### 5.2 Mudança de controle em 2026: data da questão importa
 
-## 8. Como interpretar números de infraestrutura
+Os certificados operacionais consultados da <abbr title="Agência Nacional de Aviação Civil">ANAC</abbr> identificam a **Concessionária do Bloco Central <abbr title="Sociedade Anônima">S.A.</abbr>** como operadora certificada dos aeroportos de São Luís e Imperatriz.
 
-Antes de usar qualquer indicador, identifique:
+Há, porém, uma alteração empresarial posterior ao edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Em **1º de setembro de 2026**, a Motiva concluiu a venda de sua plataforma aeroportuária à <abbr title="Grupo Aeroportuario del Sureste">ASUR</abbr>. A própria Motiva informou que, a partir dessa data, os ativos da plataforma passaram a ser operados e geridos pela <abbr title="Grupo Aeroportuario del Sureste">ASUR</abbr>, com transição de sites e identidade visual.
 
-1. **qual infraestrutura** está sendo medida;
-2. **qual território** o número abrange;
-3. **qual período** está sendo considerado;
-4. **qual unidade** está sendo utilizada;
-5. se o dado representa **extensão, capacidade, movimentação, passageiro ou movimento de aeronave**.
+Assim, uma questão precisa fixar **qual camada e qual data** está cobrando: concessionária certificada, controladora da plataforma, marca visual ou operador histórico. A <abbr title="Empresa Brasileira de Infraestrutura Aeroportuária">Infraero</abbr> descreve uma fase anterior da operação; “Motiva Aeroportos” descreve a marca do período anterior à conclusão da venda, não a situação empresarial completa após 1º de setembro de 2026.
 
-Exemplos:
+### 5.3 Movimento de aeronave não é passageiro
 
-- tonelagem portuária movimentada ≠ capacidade portuária;
-- carga embarcada no Maranhão ≠ carga necessariamente produzida no Maranhão;
-- extensão de concessão em vários estados ≠ extensão situada apenas no Maranhão;
-- movimento de aeronave ≠ número de passageiros.
+Nos dados de movimentação aeroportuária da <abbr title="Agência Nacional de Aviação Civil">ANAC</abbr>, derivados do <abbr title="Relatório de Informações de Movimentação Aeroportuária">RIMA</abbr>, um registro de movimento distingue **pouso** e **decolagem**. Passageiros, carga e correio aparecem em campos próprios.
 
-## 9. Questão oficial correlata
+Isso evita três trocas comuns:
 
-Na prova de **Soldado Combatente da PM-MA**, aplicada pela **FGV em 2 de dezembro de 2012**, caderno **Tipo 1**, a questão 47 apresentou três afirmações sobre a expansão da soja no Maranhão:
+- **movimento de aeronave** não é número de passageiros;
+- **carga aérea** é registrada por massa de bens transportados, com critérios próprios da base;
+- total de passageiros depende do recorte da série, que pode separar origem/destino e conexões.
 
-1. empresas exportadoras utilizavam, entre outros meios, a logística associada à EFC para escoamento;
-2. a área plantada e a produção haviam crescido fortemente entre 1990 e 2005;
-3. os principais municípios produtores se concentravam no sul do estado e na divisa com o Piauí.
+Antes de comparar aeroportos ou anos, confira período, unidade e composição do indicador.
 
-O gabarito definitivo foi **E — todas as afirmativas corretas**.
+## 6. Síntese por contrastes
 
-O valor didático da questão está na relação entre **produção agrícola e infraestrutura de escoamento**. Ela não autoriza concluir que toda soja seja maranhense ou que utilize exclusivamente a EFC.
+Depois de compreender a rede, vale condensar as diferenças que mais geram troca de conceitos:
 
-## 10. Pegadinhas frequentes
+| Se a questão mencionar... | Não confunda com... |
+|---|---|
+| rodovia federal | administração direta obrigatória pelo <abbr title="Departamento Nacional de Infraestrutura de Transportes">DNIT</abbr> |
+| trecho planejado | trecho já implantado ou pavimentado |
+| extensão de concessão ferroviária | extensão localizada apenas no Maranhão |
+| <abbr title="Ferrovia Norte-Sul — Tramo Norte">FNS</abbr> conectada à <abbr title="Estrada de Ferro Carajás">EFC</abbr> | uma única ferrovia |
+| Itaqui | Ponta da Madeira ou Alumar |
+| complexo portuário | uma instalação adicional |
+| tonelagem movimentada | capacidade instalada ou origem da carga |
+| código <abbr title="International Air Transport Association">IATA</abbr> | código <abbr title="International Civil Aviation Organization">ICAO</abbr> ou <abbr title="Código de Identificação do Aeródromo">CIAD</abbr> |
+| aeródromo cadastrado | voo comercial regular |
+| movimento de aeronave | passageiro |
 
-1. Rodovia federal não significa necessariamente administração direta do DNIT.
-2. Planejada não significa implantada.
-3. Implantada não significa pavimentada.
-4. Pavimentada não significa duplicada ou bem conservada.
-5. **3.512,2 km** é a extensão sob administração do DNIT no mapa citado, não toda a malha do Maranhão.
-6. BR-402 também integra os eixos federais maranhenses e é importante no acesso à região de Barreirinhas/Lençóis.
-7. EFC, FNS e FTL são sistemas distintos.
-8. FNS conecta-se à EFC em Açailândia.
-9. Extensões regulatórias multiestaduais não podem ser atribuídas integralmente ao Maranhão.
-10. FTL não é TLSA/Nova Transnordestina.
-11. Itaqui não é Ponta da Madeira.
-12. Ponta da Madeira e Alumar são TUPs; Itaqui é porto organizado.
-13. Complexo Portuário de São Luís não é uma quarta instalação.
-14. Movimentação portuária não é capacidade instalada.
-15. Embarque de carga no estado não determina sua origem produtiva.
-16. Aeródromo não é sinônimo de aeroporto.
-17. SLZ/IMP são códigos IATA; SBSL/SBIZ são códigos ICAO.
-18. Infraero não é a operadora vigente de SLZ e IMP no recorte consultado.
-19. Rota anunciada não prova voo efetivamente realizado ou permanente.
-20. Movimento de aeronave não é passageiro.
+## 7. Corte documental
 
-## 11. Método rápido de resolução
+O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> foi publicado em **6 de julho de 2026**. Os dados estruturais e conjunturais deste capítulo foram conferidos em fontes primárias até **7 de setembro de 2026**.
 
-Ao ler uma questão, pergunte:
-
-1. Qual é a infraestrutura: rodovia, ferrovia, porto/TUP ou aeroporto?
-2. Qual corredor ou cidade ela conecta?
-3. O número é estadual ou abrange vários estados?
-4. O dado mede extensão, movimentação, capacidade ou passageiros?
-5. O operador citado é atual ou histórico?
-6. A carga foi produzida no Maranhão ou apenas circulou/foi embarcada no estado?
+Quando um fato posterior ao edital altera operador, controle empresarial, movimentação ou outro dado conjuntural, o texto informa a data da mudança. Em prova, respeite sempre o **recorte temporal do enunciado**: uma informação correta em julho pode deixar de descrever a situação de setembro sem que a geografia física da infraestrutura tenha mudado.
