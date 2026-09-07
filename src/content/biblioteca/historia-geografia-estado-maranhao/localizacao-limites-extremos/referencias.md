@@ -1,5 +1,8 @@
 - IBGE. [Maranhão: Cidades e Estados](https://www.ibge.gov.br/cidades-e-estados/ma.html). Área territorial 2025. Acesso em: 14 ago. 2026.
 - IBGE. [Áreas Territoriais](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/15761-areas-dos-municipios). Malha Municipal Digital 2025. Acesso em: 14 ago. 2026.
 - IBGE. [Pontos extremos das Grandes Regiões e Unidades da Federação](https://anuario.ibge.gov.br/images/aeb/2024/s1/2_pdf/s1t1101.pdf). Anuário Estatístico do Brasil, tabela 2025 baseada na Malha Municipal 2024. Acesso em: 14 ago. 2026.
+- IBGE. [Posição e extensão](https://anuario.ibge.gov.br/2024/territorio/posicao-e-extensao.html). Anuário Estatístico do Brasil 2025: posição, limites e extensão territorial. Acesso em: 7 set. 2026.
 - IBGE. [Malha Municipal](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html). Acesso em: 14 ago. 2026.
-- IBGE. [Amazônia Legal](https://www.ibge.gov.br/geociencias/cartas-e-mapas/mapas-regionais/15819-amazonia-legal.html). Acesso em: 14 ago. 2026.
+- IBGE. [Amazônia Legal — Quadro Geográfico de Referência 2024](https://www.ibge.gov.br/apps/quadrogeografico/pdf/qg_2024_040_amazleg.pdf). Delimitação jurídico-administrativa, inclusive a porção maranhense a oeste do meridiano de 44°. Acesso em: 7 set. 2026.
+- NUGEO/UEMA. [Bacias Federais](https://www.nugeo.uema.br/?page_id=259). Rios Parnaíba, Gurupi, Manuel Alves Grande e Tocantins como referências de limites interestaduais. Acesso em: 7 set. 2026.
+- BRASIL. [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), art. 20, § 2º. Faixa de fronteira. Acesso em: 7 set. 2026.

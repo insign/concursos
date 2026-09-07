@@ -8,64 +8,53 @@ storageId: "localizacao-limites-extremos"
 
 # Localização, superfície, limites, fronteiras e pontos extremos
 
-## 1. Recorte do edital
+## Leia o território antes de decorar nomes
 
-O núcleo deste assunto é objetivo: **localizar o Maranhão, conhecer sua superfície territorial, identificar seus limites e interpretar seus pontos extremos**.
+Quatro perguntas organizam este assunto: **onde o Maranhão está, quanto mede, com quem limita e onde ficam seus pontos mais afastados em cada direção**.
 
-Outros elementos aparecem apenas quando ajudam a delimitar o território:
+O estado integra a **Região Nordeste**, em sua porção ocidental e noroeste. Todo o território está **ao sul da Linha do Equador** e **a oeste do meridiano de Greenwich**; por isso, fica nos hemisférios **Sul** e **Ocidental**. Também está integralmente na zona tropical e possui litoral no **Oceano Atlântico**.
 
-- relevo e geologia → Assunto 084;
-- rios e bacias → Assunto 087;
-- população e povoamento → Assunto 088.
+As coordenadas permitem ler essa posição. **Latitude** mede o afastamento ao norte ou ao sul do Equador; **longitude**, a posição a leste ou a oeste de Greenwich. Como o Maranhão usa latitudes sul e longitudes oeste:
 
-Para números cartográficos, associe sempre o dado à edição da fonte. Neste material:
+- menor latitude sul em valor absoluto → mais ao **norte**;
+- maior latitude sul em valor absoluto → mais ao **sul**;
+- menor longitude oeste → mais a **leste**;
+- maior longitude oeste → mais a **oeste**.
 
-- **área territorial:** <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, Malha Municipal Digital 2025;
-- **pontos extremos:** Anuário Estatístico do Brasil, tabela 2025 baseada na Malha Municipal 2024.
+Assim, 48° de longitude oeste está mais a oeste que 41° de longitude oeste.
 
-## 2. Posição geográfica
+### Amazônia Legal não é Região Norte
 
-O Maranhão:
+Parte do Maranhão integra a **Amazônia Legal**, um recorte jurídico-administrativo. No estado, ele alcança a porção situada **a oeste do meridiano de 44° de longitude oeste**. Um **meridiano** é uma linha de referência de longitude: esse meridiano não é divisa estadual nem fronteira internacional. A classificação regional continua sendo **Nordeste**.
 
-- integra a **Região Nordeste**;
-- ocupa a porção **ocidental/noroeste do Nordeste**;
-- está nos hemisférios **Sul** e **Ocidental**;
-- situa-se integralmente ao sul da Linha do Equador e na zona tropical;
-- é banhado pelo **Oceano Atlântico**;
-- **não possui fronteira internacional**.
+## Superfície: quanto mede o território
 
-Parte do estado integra a **Amazônia Legal**, recorte jurídico-administrativo que não altera sua classificação regional: Maranhão continua sendo estado do Nordeste.
+Neste item, **superfície** é a área do território representado pela malha oficial. A <abbr title="Representação digital dos limites territoriais">malha cartográfica</abbr> permite calcular a área e localizar extremos.
 
-> Pegadinha clássica: **Amazônia Legal ≠ Região Norte**.
-
-## 3. Superfície territorial
-
-A área territorial oficial do Maranhão publicada pelo IBGE para 2025 é:
+Segundo o <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, a área territorial do Maranhão em 2025 é:
 
 > **329.651,463 km²**
 
-Essa ordem de grandeza coloca o Maranhão aproximadamente como:
+Com esse valor, o Maranhão é o **8º maior estado do Brasil** em área e o **2º maior do Nordeste**, atrás da Bahia.
 
-- **8º maior estado do Brasil** em área;
-- **2º maior do Nordeste**, atrás da Bahia.
+Materiais anteriores podem trazer valores próximos de **331.937 km²**. Isso não prova perda territorial. O <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> pode refinar a geometria com novos insumos, melhor representação da costa e atualizações jurídicas dos limites, alterando o valor calculado sem cessão de território.
 
-Valores antigos próximos de **331.937 km²** ainda aparecem em materiais anteriores, mas não representam a área oficial atual.
+Não confunda grandezas: **superfície é área**, expressa em quilômetros quadrados; comprimento de litoral é medida linear e varia com escala e detalhamento cartográfico.
 
-### Por que a área pode variar entre edições?
+## Limite, divisa, fronteira e costa
 
-O IBGE atualiza a representação territorial com novos insumos, refinamento de limites e da linha costeira e eventuais atualizações jurídicas. Assim, uma pequena mudança no valor calculado **não prova, por si só, perda ou cessão de território**.
-
-## 4. Limite, divisa e fronteira
-
-| Termo | Uso |
+| Termo | Significado |
 |---|---|
-| **limite** | separação territorial em sentido geral |
-| **divisa interestadual** | separação entre unidades da Federação |
-| **fronteira internacional** | separação entre Estados soberanos |
+| **limite** | linha que separa áreas territoriais, em sentido geral |
+| **divisa interestadual** | limite entre estados da mesma Federação |
+| **fronteira internacional** | limite terrestre entre o Brasil e outro Estado soberano |
+| **linha de costa** | interface cartográfica entre terra e mar |
 
-O Maranhão possui **divisas interestaduais** e linha costeira atlântica, mas não possui fronteira internacional.
+O Maranhão possui divisas interestaduais e costa atlântica, mas **não possui fronteira internacional**. O Oceano Atlântico ao norte não é um país.
 
-## 5. Limites do Maranhão
+A Constituição Federal chama de **faixa de fronteira** a faixa de até **150 km** de largura ao longo das fronteiras terrestres do Brasil. Como o Maranhão não confronta outro país, suas divisas com estados vizinhos e sua costa não o colocam nessa faixa.
+
+### Quem toca o contorno estadual
 
 | Direção | Limite |
 |---|---|
@@ -74,72 +63,23 @@ O Maranhão possui **divisas interestaduais** e linha costeira atlântica, mas n
 | **sul e sudoeste** | Tocantins |
 | **oeste e noroeste** | Pará |
 
-Regra mental:
+Ceará, Bahia, Goiás e Amazonas **não** fazem divisa com o Maranhão.
 
-> **N–Atlântico · L–Piauí · S–Tocantins · O–Pará**
+Rios ajudam a reconhecer alguns trechos, mas não substituem o traçado jurídico completo: o **Parnaíba** é referência na divisa Maranhão–Piauí; o **Gurupi**, na Maranhão–Pará; e **Manuel Alves Grande** e **Tocantins** participam da divisa Maranhão–Tocantins. A hidrografia é aprofundada no Assunto 087; aqui importa apenas sua função no contorno.
 
-O Maranhão **não** faz divisa com Ceará, Bahia, Goiás ou Amazonas.
+## Pontos extremos: onde o território chega mais longe
 
-## 6. Elementos naturais nas divisas
+Um **ponto extremo** é a posição da geometria estadual que chega mais ao norte, sul, leste ou oeste. Ele não é necessariamente a sede do município associado: pode estar em área rural ou insular.
 
-Alguns rios funcionam como referências em trechos das divisas:
+O Anuário Estatístico do Brasil, em tabela 2025 baseada na Malha Municipal 2024, apresenta:
 
-- **Parnaíba** → Maranhão–Piauí;
-- **Gurupi** → Maranhão–Pará;
-- **Tocantins** → Maranhão–Tocantins.
-
-Isso não significa que toda a divisa com cada estado siga integralmente um único rio. O traçado completo depende das descrições jurídicas e da malha territorial oficial.
-
-## 7. Pontos extremos
-
-A tabela 2025 do Anuário Estatístico do Brasil, baseada na Malha Municipal 2024, apresenta os seguintes extremos:
-
-| Extremo | Coordenada | Setor associado |
+| Extremo | Coordenada oficial | Setor associado |
 |---|---|---|
-| **norte** | 1°02′58″ S, 45°58′42″ O | Carutapera, setor costeiro/insular |
-| **sul** | 10°15′42″ S, 46°00′11″ O | Alto Parnaíba, faixa da Chapada das Mangabeiras |
-| **leste** | 2°57′27″ S, 41°47′46″ O | Araioses, Delta do Parnaíba |
-| **oeste** | 5°20′57″ S, 48°45′19″ O | São Pedro da Água Branca |
+| **norte** | 1°02′58″ <abbr title="Sul">S</abbr>, 45°58′42″ <abbr title="Oeste">O</abbr> | Carutapera, setor costeiro/insular |
+| **sul** | 10°15′42″ <abbr title="Sul">S</abbr>, 46°00′11″ <abbr title="Oeste">O</abbr> | Alto Parnaíba, faixa da Chapada das Mangabeiras |
+| **leste** | 2°57′27″ <abbr title="Sul">S</abbr>, 41°47′46″ <abbr title="Oeste">O</abbr> | Araioses, Delta do Parnaíba |
+| **oeste** | 5°20′57″ <abbr title="Sul">S</abbr>, 48°45′19″ <abbr title="Oeste">O</abbr> | São Pedro da Água Branca |
 
-As coordenadas são a referência cartográfica oficial. Os topônimos indicam o setor territorial associado e não devem ser confundidos com coordenadas de sedes municipais.
+Os topônimos identificam o **setor territorial**, não a coordenada da sede municipal. Ilhas pertencentes ao estado também entram na geometria e podem influenciar um extremo.
 
-### Como ler os extremos
-
-Como o Maranhão está nos hemisférios Sul e Ocidental:
-
-- menor valor absoluto de latitude sul → mais ao **norte**;
-- maior valor absoluto de latitude sul → mais ao **sul**;
-- menor longitude oeste → mais a **leste**;
-- maior longitude oeste → mais a **oeste**.
-
-Exemplo: **48° O** está mais a oeste que **41° O**.
-
-## 8. Cautelas cartográficas úteis
-
-- **Ponto extremo ≠ sede municipal.** O extremo deriva da geometria do território.
-- Ilhas pertencentes ao estado podem influenciar a posição de um extremo.
-- A área territorial e os pontos extremos podem usar edições diferentes da malha; isso deve ser indicado pela fonte.
-- Comprimentos de litoral variam conforme escala e detalhamento cartográfico; não há ganho em decorar medidas conflitantes neste item.
-- Integração parcial à Amazônia Legal não transforma o Maranhão em estado da Região Norte.
-
-## 9. Matriz de pegadinhas
-
-| Afirmação | Avaliação |
-|---|---|
-| Maranhão pertence à Região Norte | **falsa** — pertence ao Nordeste |
-| Maranhão possui fronteira internacional | **falsa** |
-| Piauí fica a leste/sudeste | **verdadeira** |
-| Tocantins fica ao sul/sudoeste | **verdadeira** |
-| Pará fica a oeste/noroeste | **verdadeira** |
-| toda a divisa MA–PI coincide obrigatoriamente com o Parnaíba | **falsa** |
-| 331.937 km² é a área oficial atual | **falsa** |
-| ponto extremo é coordenada da sede municipal | **falsa** |
-| parte do Maranhão integra a Amazônia Legal | **verdadeira** |
-
-## 10. Método de resolução
-
-1. Identifique se a questão cobra **posição, área, limite ou extremo**.
-2. Para limites, use: **Atlântico–N, Piauí–L, Tocantins–S, Pará–O**.
-3. Diferencie **divisa interestadual** de **fronteira internacional**.
-4. Em coordenadas S/O, compare corretamente os valores absolutos.
-5. Em números territoriais, confira o **ano da malha** antes de tratar uma diferença como erro.
+Por fim, associe cada número à edição correta: a **área territorial de 2025** usa a Malha Municipal Digital 2025, enquanto a tabela de **pontos extremos de 2025** informa base na Malha Municipal 2024. Produtos oficiais podem usar edições diferentes sem que isso seja contradição.
