@@ -8,157 +8,96 @@ storageId: franca-equinocial-guaxenduba
 
 # França Equinocial, fundação de São Luís e Batalha de Guaxenduba
 
-## 1. Recorte do edital
+## 1. Por que uma colônia francesa conseguiu se instalar no Maranhão?
 
-O edital cobra três núcleos articulados: **França Equinocial**, **fundação de São Luís** e **Batalha de Guaxenduba**. Para prova, a sequência essencial é:
+Em 1612, os franceses não chegaram a um território vazio nem começaram uma relação do zero. O norte da América portuguesa ainda não tinha ocupação portuguesa consolidada, enquanto navegadores franceses já frequentavam o litoral e mantinham comércio e alianças com povos indígenas. Essa diferença entre **soberania reivindicada** e **ocupação efetiva** ajuda a explicar a disputa pelo Maranhão.
 
-$$
-1612\ (\text{Saint-Louis}) \rightarrow 1614\ (\text{Guaxenduba}) \rightarrow 1615\ (\text{fim do domínio francês}) \rightarrow 1616\ (\text{consolidação portuguesa})
-$$
+Havia também uma disputa sobre quem podia ocupar o espaço atlântico. O **Tratado de Tordesilhas (1494)** repartira áreas de expansão entre Portugal e Espanha, mas a França não fazia parte do acordo e não aceitava que ele a excluísse da América. Por isso, o **não reconhecimento francês da partilha de Tordesilhas** aparece em prova como um dos fatores do empreendimento, ao lado dos interesses comerciais e estratégicos.
 
-O assunto deve ser estudado como disputa colonial pelo norte da América portuguesa, com participação decisiva de povos indígenas. Detalhes de navios, microdatas de viagem ou biografias de personagens secundários não são necessários para compreender o item.
+A tentativa ocorreu durante a **União Ibérica (1580-1640)**, período em que as coroas portuguesa e espanhola estavam sob o mesmo rei. “Equinocial”, por sua vez, remete à faixa próxima à linha do Equador. O processo pode ser entendido assim: os franceses transformaram uma presença antiga em **ocupação colonial**; uma campanha conduzida por portugueses criou uma base no continente; a defesa dessa base em Guaxenduba abriu caminho para o fim do domínio francês no ano seguinte.
 
-## 2. França Equinocial
+## 2. Como a França Equinocial se tornou um projeto colonial
 
-### 2.1. Contexto
+A França Equinocial não foi a primeira experiência francesa no território que viria a formar o Brasil. A **França Antártica**, na baía de Guanabara, começara em 1555. No Maranhão, o projeto de 1612 apoiou-se também em relações franco-indígenas anteriores, especialmente com comunidades tupinambá da ilha e de áreas próximas.
 
-No início do século XVII, o Maranhão estava na fronteira setentrional da América portuguesa e ainda não possuía ocupação portuguesa consolidada. Franceses já frequentavam a região e mantinham relações comerciais e políticas com povos indígenas.
+A expedição recebeu apoio político durante a regência de **Maria de Médici**, no reinado de Luís XIII. Entre seus dirigentes estavam **Daniel de La Touche, senhor de La Ravardière**, e **François de Razilly**. Frades capuchinhos, religiosos franciscanos, cuidavam da dimensão missionária católica.
 
-A experiência maranhense ocorreu durante a **União Ibérica (1580-1640)**, quando Portugal e Espanha estavam sob a mesma monarquia. O estabelecimento francês interessava à defesa do território ibérico e à expansão posterior em direção ao Grão-Pará.
+Em **8 de setembro de 1612**, os franceses formalizaram sua instalação na ilha de **Upaon-Açu**, onde hoje está São Luís, e estabeleceram o núcleo fortificado de **Saint-Louis**. Não era apenas um posto de troca: havia intenção de ocupar, fortificar e povoar o território, organizar defesa e governo, comerciar, desenvolver missão religiosa e sustentar alianças locais. É isso que permite falar em **projeto colonial**, embora ele tenha durado pouco.
 
-> **Não confunda:** a França Equinocial não foi a primeira tentativa de colonização francesa no território que viria a ser o Brasil. A **França Antártica**, na baía de Guanabara, começou em 1555.
+## 3. Por que os povos indígenas eram decisivos
 
-### 2.2. O projeto de 1612
+É impossível entender a França Equinocial e Guaxenduba imaginando apenas franceses contra portugueses. Os franceses dependiam de alianças com **Tupinambá**, povos de língua tupi presentes na ilha e em áreas vizinhas. Esses aliados forneciam combatentes, canoas, alimentos, informação, interpretação e conhecimento de rotas e do território.
 
-A empresa francesa recebeu apoio político da regência de **Maria de Médici**, mãe de Luís XIII. Seus principais dirigentes eram **Daniel de La Touche, senhor de La Ravardière**, e **François de Razilly**. Missionários capuchinhos também participaram do projeto.
+A campanha conduzida por portugueses também mobilizou aliados indígenas como guerreiros, remeiros, guias e intérpretes. Isso não formava dois blocos indígenas fixos: comunidades e lideranças negociavam alianças segundo interesses e conflitos próprios.
 
-Em 1612, a expedição chegou ao Maranhão e estabeleceu, na ilha de **Upaon-Açu**, o núcleo fortificado de **Saint-Louis**. O marco tradicional de fundação é **8 de setembro de 1612**.
+Armas de fogo e fortificações europeias, portanto, conviviam com flechas, canoas, técnicas de deslocamento e conhecimentos indígenas. Alírio Cardoso usa a ideia de <abbr title="Combinação de formas de combate e conhecimentos de matrizes distintas">guerra híbrida</abbr> para analisar esse mecanismo. O ponto de prova é simples: **os indígenas foram agentes do conflito, não auxiliares passivos nem um grupo político homogêneo**.
 
-A França Equinocial não era simples feitoria. O projeto combinava:
+## 4. O que significa dizer que São Luís foi fundada pelos franceses?
 
-- ocupação territorial;
-- fortificação e povoamento;
-- comércio;
-- missão católica;
-- organização política e militar;
-- alianças com povos indígenas.
+A controvérsia fica mais clara quando se separa **início do núcleo** de **continuidade político-administrativa**.
 
-## 3. Alianças indígenas e disputa colonial
+Em 1612, os franceses estabeleceram o forte, a povoação e o nome **Saint-Louis** em Upaon-Açu. O nome pertence ao universo monárquico e católico francês: as interpretações podem enfatizar São Luís, o rei Luís IX canonizado, e o contexto dinástico de Luís XIII. O ponto seguro para prova é que o **núcleo e o nome são franceses**.
 
-Os franceses tinham como principal base local alianças com **Tupinambá** da ilha e de áreas próximas. Essas alianças forneciam combatentes, canoas, alimentos, conhecimento do território, interpretação e redes políticas.
+Depois da conquista de 1615, os portugueses assumiram a cidade e reorganizaram defesa, governo e urbanização. Assim, “fundação francesa” não quer dizer cidade pronta em 1612; “organização portuguesa posterior” também não apaga o núcleo francês.
 
-As forças ligadas à campanha portuguesa também mobilizaram indígenas como guerreiros, remeiros, guias, intérpretes e responsáveis por apoio logístico.
+A autoria da fundação é tema de controvérsia historiográfica. Em 2017, o <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> anulou um item de nível superior da Polícia Militar do Maranhão que apresentava como categórica a tese de que Jerônimo de Albuquerque teria fundado São Luís depois da expulsão dos franceses. Em questão objetiva, observe o sentido de **fundação**: forte, povoação inicial e nome remetem a 1612; administração e continuidade após a conquista remetem à etapa portuguesa.
 
-Portanto, duas simplificações devem ser evitadas:
+## 5. Como a campanha chegou a Guaxenduba
 
-1. imaginar a disputa como combate exclusivamente entre europeus;
-2. tratar os indígenas como auxiliares passivos e sem interesses próprios.
-
-As alianças eram negociadas e podiam variar entre lideranças e comunidades. A conquista do Maranhão combinou armas e fortificações europeias com conhecimentos, técnicas de navegação, logística e formas de combate indígenas.
-
-## 4. Fundação de São Luís
-
-### 4.1. O núcleo de Saint-Louis
-
-Em **8 de setembro de 1612**, os franceses formalizaram a ocupação do núcleo de Saint-Louis, na ilha de Upaon-Açu. A fortificação tornou-se o centro da presença francesa.
-
-O nome vinculava a povoação à monarquia e à tradição católica francesas. As fontes e interpretações podem enfatizar tanto **São Luís (Luís IX)** quanto o contexto dinástico do reinado de **Luís XIII**; para prova, não é seguro transformar essas referências em explicações mutuamente excludentes.
-
-### 4.2. Fundação francesa e continuidade portuguesa
-
-A formulação mais segura distingue duas etapas:
-
-| Etapa | Marco |
-|---|---|
-| núcleo, fortificação e topônimo | franceses, em 1612 |
-| conquista, administração e continuidade colonial | portugueses, entre 1615 e 1616 |
-
-Assim, pode-se afirmar que **o núcleo e o nome de São Luís foram estabelecidos pelos franceses em 1612, e a cidade passou ao domínio e à organização portuguesa após a conquista de 1615**.
-
-Essa cautela é relevante porque a própria banca Cebraspe já reconheceu divergência na literatura ao anular item de prova de nível superior sobre a autoria da fundação de São Luís. Em questão objetiva, observe o sentido de “fundação” adotado no enunciado.
-
-## 5. Reação luso-ibérica
-
-A presença francesa levou à organização de uma campanha de conquista. Entre os nomes centrais estão:
+Quatro personagens organizam a reação de 1614-1615:
 
 | Personagem | Papel |
 |---|---|
-| **Jerônimo de Albuquerque** | capitão-mor da campanha de 1614 |
-| **Diogo de Campos Moreno** | sargento-mor e cronista da *Jornada do Maranhão* |
-| **Daniel de La Touche (La Ravardière)** | principal comandante francês no Maranhão |
-| **Alexandre de Moura** | comandou os reforços portugueses que levaram ao desfecho de 1615 |
+| **Jerônimo de Albuquerque** | comandou a campanha que se instalou em Guaxenduba |
+| **Diogo de Campos Moreno** | participou do comando e registrou a campanha na *Jornada do Maranhão* |
+| **Daniel de La Touche, La Ravardière** | dirigiu a resistência francesa |
+| **Alexandre de Moura** | chegou com reforços e conduziu a pressão final de 1615 |
 
-Em 1614, a força luso-indígena estabeleceu uma posição fortificada no continente, diante da ilha do Maranhão, conhecida como **Santa Maria de Guaxenduba**.
+A força de Jerônimo de Albuquerque estabeleceu **Santa Maria de Guaxenduba** no continente, diante da ilha do Maranhão, na baía de São José, em área associada ao atual município de Icatu. Guarde a relação espacial porque ela explica a campanha: **Saint-Louis ficava na ilha de Upaon-Açu; Guaxenduba, no continente**.
 
-> **Localização de prova:** Saint-Louis ficava na ilha; Guaxenduba, na margem continental da baía de São José, associada à área de Icatu.
+A posição de Guaxenduba funcionava como uma base fortificada a partir da qual a campanha podia sobreviver e pressionar a presença francesa. Para La Ravardière, deixá-la consolidar-se aumentava o risco para Saint-Louis; destruí-la tornou-se um objetivo imediato.
 
-## 6. Batalha de Guaxenduba
+## 6. Guaxenduba: vitória militar não é expulsão
 
-### 6.1. Data e lados do conflito
+A **Batalha de Guaxenduba ocorreu em 19 de novembro de 1614**. Franceses e aliados tupinambá atacaram a posição defendida por portugueses e aliados indígenas. As fontes divergem sobre números de combatentes e baixas; a leitura segura é que o ataque aparece como numericamente superior nas narrativas tradicionais, sem tratar cifras antigas como recenseamento exato.
 
-A **Batalha de Guaxenduba ocorreu em 19 de novembro de 1614**. La Ravardière tentou destruir a posição portuguesa antes que ela se consolidasse.
+### 6.1. Por que a defesa venceu
 
-O confronto envolveu, de forma simplificada:
+A vitória não se explica por uma causa única. A fortificação protegia e organizava os defensores; o desembarque e as canoas dependiam do litoral e das marés; o terreno condicionava a aproximação; e o combate combinava armas de fogo, flechas, deslocamento e coordenação entre aliados.
 
-- força **franco-Tupinambá** no ataque;
-- força **luso-indígena** na defesa da posição de Guaxenduba.
+Esses fatores reduziram a vantagem do atacante e permitiram manter Guaxenduba. O efeito estratégico foi importante: **a base portuguesa sobreviveu e a iniciativa ofensiva francesa se enfraqueceu**.
 
-As fontes divergem sobre o número exato de combatentes e baixas. Para prova, é mais importante compreender que as estimativas tradicionais indicam superioridade numérica do lado atacante, sem transformar cifras antigas em recenseamento preciso.
+### 6.2. O que a batalha não resolveu
 
-### 6.2. Por que a defesa venceu
+Guaxenduba **não entregou Saint-Louis no mesmo dia**. La Ravardière continuou controlando a posição francesa, e houve suspensão temporária das hostilidades enquanto se buscava solução e se aguardavam decisões e reforços.
 
-O resultado não deve ser explicado por uma causa única. Entre os fatores relevantes aparecem:
+Por isso, são perguntas diferentes:
 
-1. proteção oferecida pela fortificação;
-2. dificuldades do desembarque francês;
-3. efeito das marés sobre a chegada de reforços;
-4. conhecimento do terreno;
-5. armas de fogo e flechas;
-6. coordenação e logística das forças aliadas.
+- **1614:** quem venceu a batalha de Guaxenduba?
+- **1615:** quando terminou o domínio colonial francês organizado no Maranhão?
 
-A vitória foi **estratégica** para os portugueses porque preservou sua base e enfraqueceu a ofensiva francesa.
+A confusão entre essas duas etapas é a principal fonte de erro cronológico do assunto.
 
-### 6.3. Guaxenduba não encerrou a França Equinocial no mesmo dia
+## 7. 1615 encerra a França Equinocial; 1616 prolonga a conquista
 
-A vitória portuguesa de 1614 **não significou expulsão imediata dos franceses**. Saint-Louis continuou sob controle de La Ravardière e houve negociação após a batalha.
+Em 1615, a campanha recebeu novos reforços. **Alexandre de Moura** teve papel decisivo na pressão final, e La Ravardière aceitou a <abbr title="Acordo de rendição de uma força ou posição">capitulação</abbr>. Em novembro, o forte passou ao controle português e a França Equinocial deixou de existir como domínio político-militar organizado.
 
-O fim do domínio colonial francês ocorreu apenas em **1615**, quando reforços comandados por Alexandre de Moura tornaram a posição francesa insustentável e levaram à capitulação.
+Jerônimo de Albuquerque permaneceu ligado à organização portuguesa da Conquista do Maranhão. Depois da vitória, era preciso transformar conquista em governo, defesa, povoamento e controle territorial.
 
-## 7. Nossa Senhora da Vitória: tradição e fato histórico
+O ano de **1616** é consequência desse movimento, não uma segunda “fundação” de São Luís. A partir do Maranhão conquistado, a expansão portuguesa avançou para o Grão-Pará; o Forte do Presépio, núcleo de Belém, marcou essa ocupação do extremo norte.
 
-A memória religiosa de Guaxenduba atribui a vitória à intervenção de **Nossa Senhora da Vitória**, que teria auxiliado Jerônimo de Albuquerque e seus combatentes.
+A sequência causal é, portanto: **Saint-Louis francês em 1612 → sobrevivência da base portuguesa em Guaxenduba em 1614 → fim do domínio francês em 1615 → avanço para o Grão-Pará em 1616**.
 
-Para estudo histórico, separe os planos:
+## 8. Nossa Senhora da Vitória: tradição e explicação histórica
 
-| Plano | Tratamento adequado |
-|---|---|
-| fato documentado | batalha de 19 nov. 1614 e vitória da força luso-indígena |
-| tradição religiosa | auxílio sobrenatural atribuído a Nossa Senhora da Vitória |
+A tradição religiosa maranhense atribui a vitória de Guaxenduba ao auxílio de **Nossa Senhora da Vitória** a Jerônimo de Albuquerque e seus combatentes. Ela integra a memória cultural do episódio e já apareceu em prova.
 
-A tradição é relevante para a memória cultural e religiosa do Maranhão, mas não substitui as explicações militares e políticas do combate.
+Historicamente, separe os planos: **a batalha de 19 de novembro de 1614 e a vitória da força que defendia Guaxenduba são fatos documentados; o auxílio sobrenatural pertence à tradição religiosa**. Para explicar militarmente o resultado, volte à fortificação, ao desembarque, às condições do terreno e das marés, às armas, à logística, à coordenação e às alianças.
 
-## 8. Desfecho de 1615 e consolidação portuguesa
+## 9. Os dois contrastes que fecham o modelo mental
 
-Em 1615, **Alexandre de Moura** chegou com reforços e aumentou a pressão sobre Saint-Louis. A capitulação francesa encerrou a França Equinocial como domínio colonial organizado.
+**Fundação × continuidade:** o núcleo e o nome de São Luís foram estabelecidos pelos franceses em 1612; a continuidade político-administrativa passou a ser portuguesa depois da conquista.
 
-A partir de 1616, a administração portuguesa consolidou defesa, governo, povoamento e controle territorial. São Luís passou a funcionar também como base para a expansão em direção ao Grão-Pará.
+**Vitória militar × fim do domínio:** Guaxenduba foi vencida pela força que defendia a base portuguesa em 1614; o domínio colonial francês organizado terminou em 1615.
 
-Para prova, retenha a distinção:
-
-- **1612:** estabelecimento francês de Saint-Louis;
-- **1614:** vitória portuguesa em Guaxenduba;
-- **1615:** fim do domínio francês;
-- **1616:** consolidação administrativa portuguesa.
-
-## 9. Pegadinhas de prova
-
-- França Equinocial **não** foi a primeira experiência colonial francesa no Brasil.
-- Daniel de La Touche = **La Ravardière**.
-- Franceses e portugueses contaram com **alianças indígenas**.
-- Saint-Louis = **ilha de Upaon-Açu**; Guaxenduba = **continente**.
-- Fundação francesa em 1612 e organização portuguesa posterior são **etapas diferentes**.
-- Guaxenduba ocorreu em **19 de novembro de 1614**.
-- Vitória em Guaxenduba **não** equivale a expulsão imediata.
-- Números de combatentes variam entre as fontes.
-- Nossa Senhora da Vitória pertence à **tradição religiosa**, não à demonstração causal militar.
-- França Equinocial terminou como domínio organizado em **1615**, não em 1614.
+Esses dois contrastes conectam França Equinocial, fundação de São Luís e Guaxenduba sem reduzir o tema a uma lista de datas.
