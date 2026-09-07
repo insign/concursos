@@ -8,86 +8,113 @@ storageId: "populacao-urbanizacao-movimentos"
 
 # População, povoamento, densidade, urbanização e movimentos populacionais
 
-## 1. Recorte e corte estatístico
+## 1. Três perguntas organizam o assunto
 
-Este assunto cobre o item do edital sobre **população absoluta, povoamento, urbanização, densidade demográfica e movimentos populacionais do Maranhão**.
+O Maranhão pode ultrapassar sete milhões de habitantes em uma **estimativa** sem que o Censo 2022 tenha contado sete milhões. São Luís pode concentrar muita população e ter densidade muito superior à média estadual. E uma pessoa pode morar em Timon, trabalhar em Teresina e atravessar diariamente a divisa sem ter migrado.
 
-O corte documental é **4 de agosto de 2026**. As referências temporais principais são:
+Esses contrastes revelam as três perguntas que organizam o capítulo:
 
-- **Censo Demográfico 2022:** população, densidade e situação urbana/rural;
-- **Estimativa <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> 2025:** população estimada em 1º de julho de 2025;
-- **amostra do Censo 2022:** migração e deslocamentos, divulgados como resultados preliminares;
-- **Arranjos Populacionais 2016** e **<abbr title="Regiões de Influência das Cidades">REGIC</abbr> 2018:** apenas como apoio para compreender integração funcional e rede urbana, sem transformar esses estudos em núcleo autônomo do assunto.
+1. **Quanto há?** População absoluta é o total de habitantes de um território em uma data; densidade demográfica relaciona esse total com a área.
+2. **Onde e como a ocupação se formou?** Distribuição espacial mostra onde as pessoas estão; povoamento descreve o processo histórico e o padrão espacial dessa ocupação; urbanização mede a crescente participação e organização urbana.
+3. **Como a população muda e se move?** Nascimentos e óbitos alteram o total; migração exige mudança de residência habitual; deslocamentos recorrentes para trabalho ou estudo podem ocorrer sem mudança de residência.
 
-O Assunto 082 tratou dos principais fatos sociais maranhenses da segunda metade do século XX. Agricultura, extrativismo, indústria, comércio e transportes pertencem aos assuntos seguintes e aparecem aqui somente quando indispensáveis para explicar a distribuição da população.
+Por isso, **populoso**, **denso** e **povoado** não são sinônimos. Um território pode ter muita população absoluta e baixa densidade se sua área for muito grande; e uma média estadual de densidade não informa como os habitantes se distribuem internamente.
 
-## 2. Conceitos e distinções essenciais
+## 2. Antes de decorar números, identifique o tipo de dado
 
-| Conceito | Definição | Atenção |
-|---|---|---|
-| população absoluta | total de habitantes de um território em uma data | “populoso” se refere ao total |
-| densidade demográfica | população dividida pela área territorial | é uma média espacial, não distribuição uniforme |
-| distribuição da população | forma como os habitantes se repartem pelo território | não se resume à densidade estadual |
-| povoamento | processo histórico e padrão espacial de ocupação de um território | não é sinônimo de densidade |
-| crescimento natural | nascimentos menos óbitos | não inclui diretamente migração |
-| saldo migratório | imigrantes menos emigrantes no território e período definidos | pode ser negativo mesmo com imigração |
-| crescimento total | crescimento natural + saldo migratório + ajustes estatísticos | diferença entre censos não é apenas crescimento vegetativo |
+O <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> produz números populacionais com métodos e datas diferentes. A questão só fica segura quando se identifica qual produto está sendo usado.
 
-Três ideias não devem ser confundidas:
+- **Censo Demográfico:** enumera a população residente em uma data de referência. O Brasil adota a **população de direito**, isto é, a pessoa é contada em seu local de residência habitual segundo as regras censitárias, e não simplesmente onde estava fisicamente no instante da coleta.
+- **Estimativa populacional:** atualiza o total para uma data específica entre censos; não é uma nova enumeração domiciliar.
+- **Projeção populacional:** modela a evolução demográfica a partir de nascimentos, óbitos e migração. A revisão de 2024 do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> produz projeções para Brasil e unidades da Federação e serve, entre outros usos, de base às estimativas municipais.
 
-- **populoso**: possui grande população absoluta;
-- **denso**: possui muitos habitantes por unidade de área;
-- **povoamento**: descreve a formação e o padrão espacial da ocupação humana.
+O **corte documental desta revisão é 7 de setembro de 2026**. Isso importa porque, depois do corte anterior da unidade, foi publicada a estimativa com referência em **1º de julho de 2026**. Para o restante do capítulo:
 
-Um município pode ter alta densidade sem ser o mais populoso; e a densidade média estadual pode ocultar fortes contrastes internos.
+- população, densidade e situação urbana/rural usam o Censo 2022;
+- estimativas anuais são identificadas pelo respectivo ano;
+- migração e deslocamentos usam resultados **preliminares da amostra** do Censo 2022: são estimativas produzidas a partir do questionário aplicado a uma amostra de domicílios e ainda mantêm a qualificação “preliminar” na divulgação do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>;
+- estudos de integração e rede urbana são sempre identificados pela **edição**, porque seus recortes e bases temporais não devem ser misturados.
 
-## 3. População, densidade e crescimento
+## 3. Quanto há: população, densidade e crescimento
 
-### 3.1 Densidade demográfica
+### 3.1 População absoluta não é densidade
+
+A densidade demográfica responde à pergunta “quantos habitantes, em média, correspondem a cada unidade de área?”:
 
 $$
 D = \frac{P}{A}
 $$
 
-Em que:
+em que $D$ é a densidade, $P$ a população e $A$ a área territorial.
 
-- $D$ = densidade demográfica;
-- $P$ = população residente;
-- $A$ = área territorial.
+Para o Maranhão, mantenha a data ao lado de cada número:
 
-Números de referência do Maranhão:
-
-| Indicador | Valor | Referência |
+| Indicador | Valor | Leitura correta |
 |---|---:|---|
-| população Censo 2010 | 6.574.789 | enumeração censitária |
-| população Censo 2022 | **6.776.699** | valor corrente do Censo 2022 |
-| população estimada | **7.018.211** | estimativa para 1º/7/2025 |
-| área territorial | 329.651,463 km² | Área Territorial Brasileira 2022 |
-| densidade no Censo 2022 | **20,56 <abbr title="habitantes por quilômetro quadrado">hab./km²</abbr>** | população/área |
+| população no Censo 2010 | 6.574.789 | enumeração censitária |
+| população no Censo 2022 | **6.776.699** | valor corrente do Censo 2022 |
+| estimativa em 1º/7/2025 | **7.018.211** | estimativa anual, não censo |
+| estimativa em 1º/7/2026 | **7.024.557** | estimativa anual mais recente no corte |
+| área territorial | 329.651,463 <abbr title="quilômetros quadrados">km²</abbr> | área usada para contextualizar a densidade estadual |
+| densidade no Censo 2022 | **20,56 <abbr title="habitantes por quilômetro quadrado">hab./km²</abbr>** | população censitária dividida pela área |
 
-A estimativa de 2025 **não substitui** o Censo 2022. Assim, é incorreto afirmar que o Censo 2022 contou mais de sete milhões de habitantes.
+**O Censo 2022 não contou mais de sete milhões de habitantes**: os valores acima de sete milhões são estimativas posteriores.
 
-Documentos dos primeiros resultados do Censo 2022 registraram **6.775.152 habitantes**; o panorama corrente do IBGE registra **6.776.699**. Quando uma fonte histórica trouxer o primeiro número, a edição deve ser identificada.
+Também existe uma diferença de edição dentro do próprio Censo 2022. Os primeiros resultados registraram **6.775.152 habitantes**; o panorama corrente do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> registra **6.776.699**. Se uma questão trouxer o primeiro número, verifique se ela está citando a divulgação inicial.
 
-### 3.2 Crescimento intercensitário
+### 3.2 O que mudou entre 2010 e 2022
 
-Entre 2010 e 2022, a população passou de 6.574.789 para 6.776.699 habitantes:
+A população passou de 6.574.789 para 6.776.699 habitantes:
 
-- variação absoluta: **+201.910 pessoas**;
-- variação relativa: aproximadamente **+3,07%**;
-- taxa geométrica equivalente: aproximadamente **0,25% ao ano**.
+- aumento absoluto de **201.910 pessoas**;
+- aumento relativo de aproximadamente **3,07%**;
+- taxa geométrica equivalente de aproximadamente **0,25% ao ano**.
 
-A taxa geométrica é calculada por:
+A taxa geométrica transforma a variação de todo o período em um ritmo anual composto:
 
 $$
 r = \left(\frac{P_t}{P_0}\right)^{1/n} - 1
 $$
 
-Ela não corresponde à simples divisão da variação percentual pelo número de anos. Além disso, a diferença intercensitária representa **crescimento total**, e não apenas crescimento natural.
+Ela não é obtida simplesmente dividindo 3,07% por doze.
 
-## 4. Urbanização do Maranhão
+Para interpretar o crescimento, separe os componentes. **Crescimento natural** é nascimentos menos óbitos. **Saldo migratório** é imigrantes menos emigrantes, para território e período definidos. Em termos conceituais, o crescimento total resulta da combinação desses componentes, além de ajustes estatísticos necessários à mensuração. Logo, a diferença entre dois censos **não pode ser chamada automaticamente de crescimento vegetativo**.
 
-### 4.1 Evolução entre 2010 e 2022
+## 4. Onde a população está: distribuição e povoamento
+
+A densidade média estadual de 20,56 <abbr title="habitantes por quilômetro quadrado">hab./km²</abbr> esconde contrastes muito grandes. No Censo 2022:
+
+| Município | População | Densidade |
+|---|---:|---:|
+| São Luís | **1.037.775** | **1.779,87 <abbr title="habitantes por quilômetro quadrado">hab./km²</abbr>** |
+| Imperatriz | **273.110** | **199,49 <abbr title="habitantes por quilômetro quadrado">hab./km²</abbr>** |
+| Alto Parnaíba | **11.109** | **1,00 <abbr title="habitante por quilômetro quadrado">hab./km²</abbr>** |
+
+São Luís era o município mais populoso do estado e reunia cerca de **15,31%** da população maranhense. Imperatriz era o segundo mais populoso. Alto Parnaíba mostra por que baixa densidade não significa, por si só, “pouca importância” nem decorre de área pequena: a razão depende simultaneamente de população e área.
+
+O padrão espacial maranhense combina:
+
+- forte concentração no litoral setentrional e na área de São Luís;
+- centralidade de Imperatriz no sudoeste/oeste;
+- Timon, no leste, fortemente articulada a Teresina, enquanto Caxias constitui outro centro importante no leste maranhense;
+- Balsas como centro relevante no sul;
+- extensas áreas de baixa densidade relativa no interior.
+
+### 4.1 Povoamento é processo, não fórmula
+
+A distribuição atual não surgiu de uma vez. Em síntese, o povoamento maranhense envolve:
+
+1. consolidação inicial no litoral setentrional e em São Luís;
+2. interiorização apoiada em vales fluviais, como Itapecuru, Mearim e Pindaré;
+3. ocupação do sul e do oeste em contato com Piauí, Bahia, Tocantins e Pará;
+4. expansão de rodovias, municípios e frentes de ocupação ao longo do século XX;
+5. fortalecimento de centros interiores, como Imperatriz e Balsas.
+
+**Povoamento explica a formação e o padrão da ocupação; densidade mede uma razão matemática em uma data.**
+
+## 5. Urbanização: mudança demográfica e mudança de classificação
+
+### 5.1 O Maranhão se tornou mais urbano entre 2010 e 2022
 
 | Situação do domicílio | 2010 | 2022 | Variação absoluta |
 |---|---:|---:|---:|
@@ -95,177 +122,133 @@ Ela não corresponde à simples divisão da variação percentual pelo número d
 | rural | 2.427.640 | 1.969.709 | -457.931 |
 | total | 6.574.789 | 6.776.699 | +201.910 |
 
-O grau de urbanização passou de **63,08%** para **70,93%**, aumento de **7,85 pontos percentuais**.
+A participação urbana passou de **63,08%** para **70,93%**, aumento de **7,85 pontos percentuais**.
 
-O crescimento da população classificada como urbana ocorreu ao mesmo tempo que a redução da população classificada como rural. Isso **não autoriza** concluir que toda a mudança decorreu de êxodo rural: migrações entre cidades, diferenças no crescimento natural e mudanças de classificação territorial também podem interferir.
+Isso mostra aumento da urbanização, mas não autoriza uma explicação única. A redução da população classificada como rural pode refletir migrações campo-cidade, migrações entre cidades, diferenças de crescimento natural e também mudanças na classificação territorial. Portanto, **redução rural não é sinônimo automático de êxodo rural**.
 
-### 4.2 Como o Censo 2022 classifica urbano e rural
+Também não confunda:
 
-No Censo 2022, o IBGE reformulou a delimitação das áreas urbanas e rurais. **Critérios morfológicos e funcionais passaram a prevalecer**, enquanto os zoneamentos definidos pela legislação municipal foram utilizados como insumos complementares.
+- **urbanização:** aumento da participação urbana e transformação da organização espacial;
+- **crescimento urbano:** aumento absoluto da população urbana, que pode ocorrer mesmo sem aumento de sua participação no total.
 
-Em termos práticos:
+### 5.2 Em 2022, urbano e rural não dependem apenas da lei municipal
 
-- a área classificada como urbana pelo IBGE não precisa coincidir integralmente com o perímetro urbano definido em lei municipal;
-- cidades, vilas, núcleos urbanos e áreas de ocupação urbana podem integrar a situação urbana;
-- ocupação dispersa e aglomerados rurais permanecem na situação rural conforme os critérios da pesquisa;
-- comparações municipais entre 2010 e 2022 exigem cautela porque a metodologia territorial mudou.
+No Censo 2022, o <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> passou a dar prevalência a **critérios morfológicos**, ligados à dispersão ou aglomeração das edificações, e **funcionais**, ligados à centralidade e aos usos do território. Os perímetros e zoneamentos urbanos definidos por lei municipal são insumos complementares, não o único critério.
 
-**Pegadinha:** a classificação de 2022 não é mera reprodução do zoneamento legal municipal.
+Assim:
 
-## 5. Distribuição espacial e povoamento
+- a área urbana para fins censitários não precisa coincidir integralmente com o perímetro urbano legal;
+- cidades, vilas, núcleos urbanos e outras áreas efetivamente urbanizadas podem ser classificadas conforme os critérios estatísticos;
+- áreas de ocupação dispersa e aglomerados rurais permanecem rurais conforme a metodologia;
+- comparações urbano/rural entre 2010 e 2022 exigem cautela porque houve mudança metodológica.
 
-A densidade média de 20,56 hab./km² esconde uma ocupação territorial desigual. O padrão maranhense combina:
+## 6. Rede urbana: tamanho, integração e lei são coisas diferentes
 
-- forte concentração no litoral setentrional e na aglomeração de São Luís;
-- centralidade de Imperatriz no sudoeste/oeste;
-- articulação de Timon e Caxias, no leste, também com Teresina;
-- importância de Balsas no sul;
-- extensas áreas de baixa densidade no sul, sudoeste e centro do estado.
+Uma cidade pode ser grande sem estar fisicamente unida a outra; duas manchas urbanas podem se tocar; municípios podem ter intensa integração cotidiana; e uma lei pode criar uma região metropolitana. São fenômenos diferentes:
 
-Alguns contrastes municipais do Censo 2022 ilustram essa desigualdade:
+- **metropolização:** intensificação da integração funcional e espacial em torno de um grande centro;
+- **conurbação:** continuidade física entre manchas urbanizadas de municípios distintos;
+- **região metropolitana legal:** recorte instituído por norma jurídica;
+- **arranjo populacional:** recorte estatístico usado pelo <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> para representar integração entre municípios segundo critérios próprios da edição.
 
-| Município | População 2022 | Densidade 2022 |
-|---|---:|---:|
-| São Luís | **1.037.775** | **1.779,87 hab./km²** |
-| Imperatriz | **273.110** | **199,49 hab./km²** |
-| Alto Parnaíba | **11.109** | **1,00 hab./km²** |
+A criação legal de uma região metropolitana, sozinha, **não prova** conurbação nem integração funcional intensa entre todos os seus municípios.
 
-São Luís era o município mais populoso do estado e reunia aproximadamente **15,31%** da população maranhense. Imperatriz era o segundo município mais populoso. Alto Parnaíba exemplifica baixa densidade em um município de grande extensão territorial.
+Outra pegadinha de escala: **município de São Luís**, **Ilha de Upaon-Açu**, **arranjo populacional de São Luís** e **região metropolitana** são recortes diferentes — administrativo, físico-geográfico, estatístico-funcional e jurídico, respectivamente.
 
-### 5.1 Síntese do povoamento
+### 6.1 Leia sempre a edição do estudo
 
-O padrão atual de ocupação resulta de processos históricos distintos:
+A segunda edição de **Arranjos Populacionais**, publicada em 2016 e baseada principalmente em dados do Censo 2010, é uma referência histórica recorrente nas questões. Naquela metodologia, integração podia ser reconhecida por **intensidade dos deslocamentos pendulares** e/ou **continuidade da mancha urbanizada**. Na composição levada à <abbr title="Regiões de Influência das Cidades">REGIC</abbr> 2018, o arranjo de São Luís reunia **São Luís, Paço do Lumiar, Raposa e São José de Ribamar**; Timon integrava o arranjo de Teresina.
 
-1. consolidação inicial no litoral setentrional e em São Luís;
-2. interiorização por vales fluviais, como Itapecuru, Mearim e Pindaré;
-3. ocupação do sul e do oeste em contato com Piauí, Bahia, Tocantins e Pará;
-4. expansão de rodovias, municípios e frentes de ocupação no século XX;
-5. fortalecimento de centros interiores, entre eles Imperatriz e Balsas.
+Essa <abbr title="Regiões de Influência das Cidades">REGIC</abbr> 2018 responde a outra pergunta: estuda hierarquia urbana, funções de gestão, oferta de bens e serviços e regiões de influência. Não é um ranking simples de população.
 
-O essencial é perceber que **povoamento é processo e padrão espacial de ocupação**, enquanto **densidade é uma razão matemática entre população e área**.
+O Quadro Geográfico de Referência do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> hoje também disponibiliza versões posteriores de arranjos populacionais, inclusive de 2025. Isso reforça a regra: **não transporte automaticamente a composição ou o ano-base de uma edição para outra**.
 
-## 6. Urbanização, metropolização e rede urbana
+## 7. Movimentos populacionais: a residência é a chave
 
-**Urbanização** não é sinônimo de:
+### 7.1 Migração exige mudança de residência habitual
 
-- **crescimento urbano absoluto**: aumento do número de habitantes urbanos;
-- **metropolização**: intensificação da integração funcional e espacial em torno de centros metropolitanos;
-- **conurbação**: continuidade física entre manchas urbanizadas de municípios distintos;
-- **região metropolitana legal**: recorte instituído por norma jurídica.
+Para um território e período definidos:
 
-A instituição legal de uma região metropolitana, por si só, **não demonstra** que todos os seus municípios apresentem o mesmo grau de integração funcional.
+- **imigrante** é quem entra e passa a residir no território;
+- **emigrante** é quem sai e passa a residir fora;
+- **saldo migratório** = imigrantes − emigrantes.
 
-Estudos do IBGE ajudam a visualizar essa integração, mas devem ser lidos em sua própria edição:
+O mesmo deslocamento é emigração quando visto pela origem e imigração quando visto pelo destino. Saldo zero não significa ausência de movimento: entradas e saídas podem ser numerosas e equivalentes.
 
-- os **Arranjos Populacionais**, publicados em 2016 com dados principalmente do Censo 2010, identificam integração por deslocamentos e continuidade urbana;
-- a **REGIC 2018** estuda hierarquia, funções de gestão, oferta de bens e serviços e regiões de influência das cidades.
+Quanto à escala:
 
-Exemplos úteis, sem pretensão de lista exaustiva:
+- **migração interestadual** muda a residência entre unidades da Federação;
+- **migração intraestadual** muda a residência dentro do mesmo estado, por exemplo entre municípios ou entre áreas rurais e urbanas.
 
-- São Luís forma importante aglomeração com municípios vizinhos;
-- Timon apresenta integração funcional intensa com Teresina, apesar de pertencer administrativamente ao Maranhão;
-- Imperatriz exerce forte centralidade no sudoeste/oeste maranhense;
-- Balsas é centro relevante no sul do estado.
+Movimentos intraestaduais podem reforçar polos como São Luís e Imperatriz mesmo quando o saldo interestadual do Maranhão é negativo.
 
-Esses recortes não devem ser confundidos com município, ilha, região metropolitana legal ou simples ranking populacional.
+### 7.2 Estoque, última etapa e data fixa respondem a perguntas diferentes
 
-## 7. Movimentos populacionais
+Imagine a trajetória de uma pessoa: nascer no Piauí, morar depois no Pará e, por fim, estabelecer residência no Maranhão. Três medidas podem contar aspectos diferentes dessa história.
 
-### 7.1 Migração, imigração e emigração
-
-**Migração** implica mudança de residência habitual. Para um território e período definidos:
-
-- **imigrante**: entra no território;
-- **emigrante**: sai do território;
-- **saldo migratório**: imigrantes − emigrantes.
-
-O mesmo movimento pode ser emigração quando observado pela origem e imigração quando observado pelo destino.
-
-Saldo migratório igual a zero não significa ausência de fluxos: entradas e saídas podem ser numerosas e equivalentes.
-
-### 7.2 Migração interestadual e intraestadual
-
-- **interestadual**: mudança de residência entre unidades da Federação;
-- **intraestadual**: mudança de residência dentro do mesmo estado, inclusive entre municípios ou entre áreas rurais e urbanas.
-
-Movimentos intraestaduais podem reforçar a concentração em São Luís, Imperatriz e outros polos mesmo quando o Maranhão apresenta saldo interestadual negativo.
-
-## 8. Estoque migratório, fluxo recente e data fixa
-
-Diferentes medidas respondem a perguntas diferentes:
-
-| Medida | O que informa |
+| Medida | Pergunta respondida |
 |---|---|
-| naturalidade | estoque acumulado segundo lugar de nascimento/naturalidade |
-| última etapa | residência imediatamente anterior ao local atual |
-| data fixa | compara o local de residência em duas datas determinadas |
+| **naturalidade** | onde a pessoa nasceu; permite construir um estoque acumulado, sem dizer quando migrou |
+| **última etapa** | qual era a residência imediatamente anterior e há quanto tempo a pessoa reside sem interrupção no local atual |
+| **data fixa** | onde a pessoa residia em duas datas determinadas; mede um fluxo em uma janela temporal definida |
 
 No Censo 2022, os estoques por naturalidade indicaram:
 
-- **514.870** residentes no Maranhão nascidos no Brasil e não naturais do estado;
-- **1.826.563** naturais do Maranhão residindo em outra <abbr title="Unidade da Federação">UF</abbr>.
+- **514.870** residentes no Maranhão nascidos no Brasil e não naturais do estado; entre os principais estados de nascimento estavam Piauí, Pará e Ceará;
+- **1.826.563** naturais do Maranhão residindo em outra unidade da Federação; entre os principais destinos acumulados estavam Pará, Goiás e São Paulo.
 
-Esses valores **não são** os números de imigrantes e emigrantes do quinquênio 2017-2022; acumulam movimentos ocorridos em diferentes momentos da vida.
+Esses números **não são** os imigrantes e emigrantes de 2017-2022. Eles acumulam movimentos ocorridos em diferentes momentos da vida.
 
-### 8.1 Migração interestadual de data fixa, 2017-2022
+**Migração de retorno** também exige critério explícito: é necessário definir a origem à qual a pessoa “retorna” — por exemplo, município ou unidade da Federação de naturalidade — e demonstrar que ela residiu fora desse território antes de voltar. Nascer em um lugar, sozinho, não prova retorno migratório.
 
-A data fixa compara a residência em **31 de julho de 2017** com a residência na data de referência do Censo 2022, para a população abrangida pelo quesito.
+### 7.3 Data fixa de 2017 a 2022
 
-Resultados preliminares da amostra para o Maranhão:
+No Censo 2022, a medida de data fixa compara a residência em **31 de julho de 2017** com a residência na data de referência censitária de 2022, para a população abrangida pelo quesito.
+
+Nos resultados preliminares da amostra para os fluxos interestaduais do Maranhão:
 
 | Indicador | Valor |
 |---|---:|
 | imigrantes | 130.658 |
 | emigrantes | 259.886 |
 | saldo migratório | **-129.228** |
-| taxa líquida migratória | **-1,91%** |
+| <abbr title="saldo migratório expresso em relação à população de referência">taxa líquida migratória</abbr> | **-1,91%** |
 
-O saldo negativo significa que, nesse recorte interestadual de data fixa, **saíram mais pessoas do que entraram**. Não significa ausência de imigração nem implica, isoladamente, redução da população total.
+O saldo negativo significa apenas que, **nesse território, período e recorte**, as saídas superaram as entradas. Não significa imigração igual a zero e não implica, isoladamente, queda da população total, porque o crescimento natural também interfere no total.
 
-Entre os principais fluxos divulgados para o quinquênio:
+Entre os principais fluxos recentes divulgados:
 
 - origens de imigrantes para o Maranhão: Pará, Piauí e São Paulo;
 - destinos de emigrantes do Maranhão: Goiás, Pará e Mato Grosso.
 
-O importante para prova é distinguir **estoque acumulado por naturalidade** de **fluxo recente medido por data fixa**.
+Compare com o estoque por naturalidade: os conjuntos não precisam coincidir, porque **estoque acumulado** e **fluxo recente** medem coisas diferentes.
 
-## 9. Pendularidade não é migração
+## 8. Pendularidade: mover-se não é necessariamente migrar
 
-**Deslocamento pendular** é movimento recorrente entre o local de residência e o local de trabalho ou estudo, sem mudança necessária da residência habitual.
+**Deslocamento pendular** é o movimento recorrente entre a residência e o local de trabalho ou estudo, sem mudança necessária da residência habitual.
 
-Exemplo: uma pessoa que mora em Timon e trabalha em Teresina pode atravessar diariamente a fronteira estadual sem deixar de ser residente no Maranhão.
+O exemplo mais útil no Maranhão é Timon–Teresina: uma pessoa pode morar em Timon e trabalhar em Teresina, atravessando a fronteira estadual com frequência, e continuar sendo residente do Maranhão.
 
-Resultados preliminares da amostra do Censo 2022 mostram, no Maranhão:
+Nos resultados preliminares da amostra do Censo 2022:
 
 | Situação | Mesmo município | Outro município |
 |---|---:|---:|
 | trabalho principal | 89,8% | 9,5% |
-| escola/creche | 93,7% | 6,2% |
+| escola ou creche | 93,7% | 6,2% |
 
-Trabalhar ou estudar em outro município **não transforma automaticamente** a pessoa em migrante.
+No quesito de trabalho de 2022, o <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> considerou retorno frequente para casa como retorno em **três dias ou mais por semana**. Esse desenho não é idêntico ao de 2010, o que limita comparações diretas.
 
-## 10. Pegadinhas e método de resolução
+A regra conceitual permanece: **trabalhar ou estudar em outro município não transforma automaticamente a pessoa em migrante**. A pergunta decisiva é se houve mudança da residência habitual.
 
-| Afirmação | Avaliação |
-|---|---|
-| população absoluta e densidade são o mesmo indicador | falsa |
-| povoamento é sinônimo de densidade | falsa |
-| densidade estadual representa distribuição uniforme | falsa |
-| o Censo 2022 contou 7.018.211 habitantes no Maranhão | falsa |
-| urbanização aumentou entre 2010 e 2022 | verdadeira |
-| toda redução rural decorre de êxodo rural | falsa |
-| região metropolitana legal prova integração funcional intensa | falsa |
-| estoque por naturalidade mede o fluxo migratório recente | falsa |
-| saldo migratório negativo significa ausência de imigrantes | falsa |
-| pendularidade exige mudança de residência | falsa |
+## 9. Um método para resolver as questões sem misturar recortes
 
-Ao resolver uma questão:
+Antes de aceitar uma afirmação, passe por esta sequência:
 
-1. identifique **data e território**;
-2. determine se o dado é **censo, estimativa ou amostra**;
-3. diferencie **estoque, fluxo e taxa**;
-4. em densidade, use $D=P/A$;
-5. separe **povoamento, densidade e população absoluta**;
-6. diferencie **urbanização, metropolização e conurbação**;
-7. em migração, fixe origem, destino, período e conceito;
-8. não trate deslocamento pendular como mudança de residência.
+1. **Data e edição:** é Censo 2010, Censo 2022, estimativa 2025, estimativa 2026 ou estudo de outra edição?
+2. **Natureza do dado:** é enumeração censitária, estimativa, projeção ou resultado preliminar da amostra?
+3. **Território e escala:** estado, município, ilha, arranjo populacional ou região metropolitana?
+4. **Indicador:** população absoluta, densidade, grau de urbanização, crescimento ou saldo migratório?
+5. **Migração:** a medida é estoque por naturalidade, última etapa ou fluxo de data fixa?
+6. **Residência:** houve mudança de residência habitual? Se não houve, um deslocamento recorrente para trabalho ou estudo é mobilidade pendular, não migração.
+
+Se uma alternativa mistura dois desses planos — por exemplo, chama a estimativa de 2026 de “Censo 2022”, transforma estoque por naturalidade em fluxo recente ou trata região metropolitana legal como prova de conurbação — a troca de conceito é o erro central.
