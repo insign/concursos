@@ -68,7 +68,7 @@ A acessibilidade acompanha o serviço inteiro. Entrada física acessível não r
 
 ### 3.1 Eventos culturais e esportivos
 
-Em teatros, cinemas, auditórios, estádios, ginásios, locais de espetáculos, conferências e similares, espaços livres e assentos reservados devem:
+Em teatros, cinemas, auditórios, estádios, ginásios, locais de espetáculos, conferências e similares, devem ser reservados espaços livres e assentos **conforme a capacidade de lotação da edificação e o regulamento**. Eles devem:
 
 - ser distribuídos em locais diversos, em **todos os setores**, com boa visibilidade e próximos aos corredores;
 - ser sinalizados e evitar segregação e obstrução das saídas;
