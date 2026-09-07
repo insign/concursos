@@ -6,366 +6,306 @@ order: 65
 storageId: lei-organica-organizacao-mpc
 ---
 
-## 1. Recorte e corte temporal
+## 1. Entenda o desenho institucional antes de memorizar cargos
 
-Este assunto trata da dimensão **institucional** da Lei Estadual nº 8.258/2005: organização do TCE/MA, membros, direção, Corregedoria, Ouvidoria, Ministério Público de Contas (MPC), autonomia e regras gerais/finais.
+Quando o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> exerce o controle externo, nem todas as pessoas que aparecem no processo fazem a mesma coisa. O primeiro passo é separar **quem delibera**, **quem substitui**, **quem fiscaliza a legalidade** e **quem administra o próprio Tribunal**.
 
-O corte normativo é **6 de julho de 2026**, data de publicação do edital. Por isso, entram no estudo:
+O <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> tem sede na capital do Estado e **sete Conselheiros titulares**. Esses sete formam o núcleo deliberativo do Tribunal. Ao lado deles existem três Conselheiros-Substitutos, que podem substituir titulares e também exercem atribuições próprias da judicatura de contas — funções de instrução e julgamento atribuídas ao cargo —; eles **não criam três cadeiras titulares adicionais**.
 
-- as alterações da Lei Orgânica vigentes até essa data;
-- a Emenda Constitucional estadual nº 96/2024, que atualizou o requisito etário dos Conselheiros;
-- as Leis estaduais nº 12.437/2024 e nº 12.501/2025, que alteraram a Presidência e a Corregedoria;
-- a Emenda Constitucional federal nº 139/2026, publicada em 6 de maio de 2026.
+A estrutura básica pode ser lida assim:
 
-Ficam fora deste recorte os detalhes de contas, instrumentos de controle, processo, sanções, execução e recursos, tratados nos Assuntos 066 a 068, e a organização administrativa minuciosa da Secretaria, tratada na Lei nº 9.936/2013.
-
-## 2. Natureza institucional e estrutura básica
-
-### 2.1. Tribunal permanente e essencial
-
-Desde a **EC nº 139/2026**, o art. 75 da Constituição Federal afirma que os Tribunais de Contas são **instituições permanentes e essenciais ao exercício do controle externo**. A mesma emenda veda a extinção, criação ou instalação de Tribunais e Conselhos de Contas nos moldes indicados nos arts. 31 e 75.
-
-Essa regra constitucional já estava vigente no corte do edital.
-
-### 2.2. Sede, composição e estruturas
-
-A Lei Orgânica estabelece que o TCE/MA:
-
-- tem sede na **capital do Estado**;
-- é integrado por **sete Conselheiros**;
-- dispõe de Secretaria para apoio técnico e administrativo;
-- tem, funcionando junto a si, o **Ministério Público de Contas**.
-
-Os **três Conselheiros-Substitutos** não se somam aos sete para formar “dez Conselheiros titulares”.
-
-| Estrutura | Núcleo funcional |
+| Estrutura | Papel institucional |
 | --- | --- |
-| Plenário e Câmaras | deliberação colegiada |
-| Conselheiros | membros titulares do Tribunal |
-| Conselheiros-Substitutos | substituição e judicatura de contas nas atribuições próprias |
-| MPC | guarda da lei e fiscalização de sua execução |
-| Secretaria | apoio técnico e administração interna |
+| Plenário e Câmaras | deliberam matérias de competência do Tribunal |
+| 7 Conselheiros | ocupam as cadeiras titulares e participam das deliberações |
+| 3 Conselheiros-Substitutos | substituem titulares quando convocados e exercem atribuições próprias |
+| <abbr title="Ministério Público de Contas">MPC</abbr> | guarda a lei, fiscaliza sua execução, manifesta-se e recorre nas hipóteses legais |
+| Presidência | dirige e representa administrativamente o Tribunal |
+| Corregedoria | cuida de inspeção, correição e disciplina internas |
+| Ouvidoria | recebe e canaliza manifestações para aperfeiçoar a gestão |
+| Secretaria | presta apoio técnico e administrativo |
 
-### 2.3. Plenário e Câmaras
+**Exemplo hipotético:** se um Conselheiro se afasta e um Conselheiro-Substituto é convocado, a composição legal continua sendo de sete cadeiras titulares. A convocação apenas permite que a cadeira seja exercida durante a ausência.
 
-O Tribunal pode dividir-se em Câmaras por deliberação da **maioria absoluta dos Conselheiros titulares**.
+A Constituição Federal passou, com a <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026, a qualificar os Tribunais de Contas como **instituições permanentes e essenciais ao exercício do controle externo**. A mesma emenda também veda sua extinção e a criação ou instalação de novos Tribunais e Conselhos de Contas nas hipóteses constitucionais indicadas.
 
-A matéria de competência privativa do Plenário **não pode** ser deliberada pelas Câmaras. O Regimento Interno disciplina número, composição, presidência, competência e funcionamento dos colegiados.
+> **Corte normativo do edital: 6 de julho de 2026.** Por isso, esta aula considera, entre outras alterações já vigentes nessa data, a <abbr title="Emenda Constitucional">EC</abbr> estadual nº 96/2024, as Leis estaduais nº 12.437/2024 e nº 12.501/2025 e a <abbr title="Emenda Constitucional">EC</abbr> federal nº 139/2026. Alteração posterior ao corte não substitui a regra cobrada no edital.
 
-**Pegadinha:** Câmara do TCE/MA é órgão interno do Tribunal; não se confunde com Câmara Municipal.
+### 1.1. Plenário e Câmaras
 
-## 3. Conselheiros
+O Tribunal pode dividir-se em Câmaras por deliberação da **maioria absoluta dos Conselheiros titulares**. Maioria absoluta significa mais da metade do número total de titulares, e não apenas mais da metade dos presentes.
 
-### 3.1. Sete vagas: quatro da Assembleia e três do Governador
+As Câmaras são órgãos internos do próprio Tribunal. Matéria reservada pela lei ao Plenário não pode ser deslocada para uma Câmara. O Regimento Interno detalha número, composição, presidência, competência e funcionamento desses colegiados.
 
-A composição constitucional é:
+Essa distinção evita uma confusão frequente: **Câmara do Tribunal de Contas não é Câmara Municipal**.
 
-| Origem da escolha | Vagas | Regra |
-| --- | ---: | --- |
-| Assembleia Legislativa | 4 | escolha legislativa |
-| Governador | 3 | aprovação prévia da Assembleia; 1 livre escolha e 2 alternadas entre Conselheiros-Substitutos e membros do MPC, por lista tríplice |
+## 2. Conselheiros: como se preenchem as sete cadeiras
 
-Nas vagas reservadas a Conselheiro-Substituto ou membro do MPC, a lista tríplice observa **antiguidade e merecimento**.
+A pergunta central é: de onde vêm os sete titulares? A Constituição estadual distribui as vagas entre dois centros de escolha:
 
-A Assembleia Legislativa também exerce a aprovação prévia das escolhas que dependem de sua anuência, após **arguição pública**, nos termos constitucionais vigentes.
+- **quatro** são escolhidas pela Assembleia Legislativa;
+- **três** são de escolha do Governador, com aprovação prévia da Assembleia Legislativa.
 
-A vacância não autoriza redefinir a origem da vaga: o novo provimento deve preservar a composição constitucional.
+Nas três vagas do Governador, uma é de livre escolha dentro dos requisitos constitucionais. As outras duas observam alternância entre **Conselheiros-Substitutos** e membros do <abbr title="Ministério Público de Contas">MPC</abbr>, a partir de **lista tríplice**, isto é, uma relação com três nomes. Nessas listas, a formação considera antiguidade e merecimento.
 
-### 3.2. Requisitos atuais
+A vaga conserva sua origem constitucional. Se fica vaga uma cadeira que pertencia à cota da Assembleia, ela não se transforma em vaga do Governador, e vice-versa.
 
-Para Conselheiro, a Constituição do Estado exige:
+Nas escolhas submetidas à aprovação legislativa, a Constituição estadual vigente no corte prevê **voto secreto, após arguição pública**. Arguição pública é a sabatina em que o indicado responde publicamente aos questionamentos dos parlamentares.
+
+### 2.1. Requisitos atuais
+
+Para ser Conselheiro, exige-se:
 
 - ser brasileiro;
 - ter **mais de 35 e menos de 70 anos**;
-- idoneidade moral e reputação ilibada;
-- notórios conhecimentos jurídicos, contábeis, econômicos e financeiros ou de administração pública;
-- mais de dez anos de exercício de função ou de efetiva atividade profissional que exija esses conhecimentos.
+- possuir idoneidade moral e reputação ilibada;
+- ter notórios conhecimentos jurídicos, contábeis, econômicos e financeiros ou de administração pública;
+- ter mais de dez anos de exercício de função ou de atividade profissional que exija esses conhecimentos.
 
-O texto antigo da Lei nº 8.258/2005 ainda pode aparecer em compilações com limite de 65 anos. Nesse ponto, prevalece a Constituição estadual, alterada pela **EC nº 96/2024**.
+O ponto etário exige atenção à hierarquia normativa. A redação antiga da Lei nº 8.258/2005 ainda pode aparecer com limite inferior a 65 anos, mas a Constituição do Estado foi alterada pela <abbr title="Emenda Constitucional">EC</abbr> nº 96/2024 e passou a exigir **menos de 70 anos**. No corte do edital, prevalece a Constituição estadual.
 
-### 3.3. Garantias, impedimentos e vedações
+### 2.2. Garantias e limites do cargo
 
-Os Conselheiros têm as garantias, prerrogativas, impedimentos, vencimentos e vantagens atribuídos constitucionalmente aos Desembargadores do Tribunal de Justiça. Essa equiparação funcional **não** transforma o TCE/MA em órgão do Poder Judiciário.
+Os Conselheiros recebem garantias, prerrogativas, impedimentos, vencimentos e vantagens correspondentes aos dos Desembargadores do Tribunal de Justiça. Trata-se de uma **equiparação funcional** para proteger o exercício do cargo; ela não transforma o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> em órgão do Poder Judiciário.
 
-Entre as vedações legais relevantes estão:
+Entre as vedações legais relevantes, o Conselheiro não pode:
 
-- exercer outro cargo ou função, salvo **magistério**;
+- exercer outro cargo ou função, salvo magistério;
 - exercer profissão liberal, emprego particular ou comércio nas hipóteses vedadas;
-- exercer direção ou atividade incompatível em entidades privadas, ressalvadas as exceções legais;
+- exercer direção ou atividade incompatível em entidade privada, ressalvadas as exceções legais;
 - dedicar-se à atividade político-partidária;
-- atuar em processo em que haja interesse próprio ou vínculos pessoais previstos em lei;
+- atuar em processo no qual tenha interesse próprio ou vínculo pessoal enquadrado nas hipóteses legais;
 - opinar publicamente sobre processo pendente fora das hipóteses técnicas admitidas.
 
-Parentes consanguíneos ou afins, em linha reta ou colateral, até o **terceiro grau**, não podem ocupar simultaneamente cargos de Conselheiro, observadas as regras legais para solução da incompatibilidade.
+Também existe incompatibilidade familiar: parentes consanguíneos ou afins, em linha reta ou colateral, até o **terceiro grau**, não podem ocupar simultaneamente cargos de Conselheiro, observada a solução prevista em lei para a incompatibilidade.
 
-### 3.4. Antiguidade e posse
+### 2.3. Antiguidade, posse e exercício
 
-A antiguidade é determinada sucessivamente por:
+Quando a lei precisa ordenar Conselheiros por antiguidade, usa sucessivamente três critérios:
 
-1. posse;
-2. nomeação;
+1. data da posse;
+2. data da nomeação;
 3. idade.
 
-O prazo para posse e exercício é de **30 dias** a partir da publicação da nomeação, prorrogável por até **60 dias**, mediante solicitação escrita.
+Depois da nomeação, o prazo para posse e exercício é de **30 dias**. Mediante solicitação escrita, ele pode ser prorrogado por até **60 dias**.
 
-## 4. Conselheiros-Substitutos
+Perceba que esses critérios têm finalidades diferentes: a origem da vaga define **quem escolhe**; os requisitos definem **quem pode ser escolhido**; a antiguidade resolve situações internas de precedência.
 
-### 4.1. Quantidade, denominação e ingresso
+## 3. Conselheiros-Substitutos: substituir não é virar titular permanente
 
-A Lei Orgânica prevê **três Auditores**, denominados **Conselheiros-Substitutos**.
+A Lei Orgânica prevê **três Auditores**, denominados Conselheiros-Substitutos. O ingresso segue uma sequência própria:
 
-O ingresso ocorre por:
+**concurso público de provas e títulos → homologação pelo Tribunal → ordem de classificação → nomeação pelo Governador.**
 
-1. concurso público de provas e títulos, realizado e homologado pelo Tribunal;
-2. observância da ordem de classificação;
-3. nomeação pelo Governador.
+O artigo 102 da Lei Orgânica manda aplicar aos Conselheiros-Substitutos os requisitos exigidos para Conselheiro. Por isso, a faixa etária constitucional atual — mais de 35 e menos de 70 anos — alcança também o Conselheiro-Substituto por **remissão legal expressa** — a própria lei manda aplicar esses requisitos —, e não por simples analogia.
 
-### 4.2. Requisito etário: regra atual
+### 3.1. Quando são convocados
 
-O art. 102 determina que os Auditores sejam escolhidos entre cidadãos que satisfaçam os **requisitos exigidos para o cargo de Conselheiro**.
-
-Como a Constituição estadual, desde a EC nº 96/2024, exige para Conselheiro mais de 35 e menos de 70 anos, essa faixa também orienta o requisito do Conselheiro-Substituto por **remissão legal expressa**, e não por mera analogia.
-
-Portanto, uma página institucional ou compilação que ainda reproduza o limite antigo de 65 anos deve ser lida como desatualizada nesse ponto.
-
-### 4.3. Convocação e vacância
-
-Nas ausências e impedimentos dos titulares, a convocação observa:
+Na ausência ou impedimento de titular, a convocação observa:
 
 1. antiguidade no cargo;
-2. maior idade, em caso de igualdade de antiguidade.
+2. maior idade, se houver igualdade de antiguidade.
 
-O Conselheiro-Substituto também pode ser convocado para completar quórum. Havendo vaga de Conselheiro, um Substituto exerce as funções do cargo até o novo provimento, segundo os critérios legais.
+O Conselheiro-Substituto também pode ser convocado para completar o **quórum**, isto é, o número mínimo de integrantes necessário para que o colegiado possa funcionar validamente. Se houver vaga de Conselheiro, um Substituto pode exercer as funções da cadeira até o novo provimento, conforme os critérios legais.
 
-### 4.4. Regime funcional
+### 3.2. Qual é o regime em cada situação
 
-Quando substitui Conselheiro, possui os mesmos direitos e impedimentos do titular. Nas demais atribuições da judicatura, possui as garantias e impedimentos correspondentes aos de Juiz de Direito de última entrância, conforme a Constituição estadual.
+Há duas posições funcionais diferentes.
 
-Quando não está convocado para substituição, preside a instrução dos processos que lhe são distribuídos e os relata com **proposta de decisão**, submetida ao colegiado competente.
+Quando substitui Conselheiro, o Conselheiro-Substituto tem os mesmos direitos e impedimentos do titular substituído. Fora da substituição, nas atribuições próprias da judicatura de contas, possui as garantias e impedimentos correspondentes aos de Juiz de Direito de última entrância, conforme a Constituição estadual.
 
-Depois de empossado, só perde o cargo por sentença judicial transitada em julgado.
+Sem convocação para substituir titular, preside a instrução dos processos que lhe são distribuídos e os relata com **proposta de decisão**. Essa proposta apresenta ao colegiado a solução construída pelo Conselheiro-Substituto; não deve ser confundida com uma deliberação colegiada já formada.
 
-## 5. Direção do Tribunal
+Depois de empossado, o Conselheiro-Substituto só perde o cargo por sentença judicial transitada em julgado, isto é, decisão judicial definitiva contra a qual não caiba mais recurso.
 
-### 5.1. Presidente, Vice-Presidente e Corregedor
+## 4. Direção, Corregedoria e Ouvidoria: três funções internas diferentes
 
-São eleitos pelos pares para mandato de **dois anos civis**, permitida **uma reeleição**.
+O Tribunal precisa decidir processos de controle e, ao mesmo tempo, administrar a própria instituição. Para não misturar essas funções, separe três eixos:
+
+- **Presidência:** direção administrativa e representação institucional;
+- **Corregedoria:** inspeção, correição e disciplina. Correição é a atividade de examinar o funcionamento interno para identificar e corrigir irregularidades;
+- **Ouvidoria:** canal institucional de escuta e melhoria da gestão.
+
+### 4.1. Eleição da direção
+
+Presidente, Vice-Presidente e Corregedor são eleitos pelos pares para mandato de **dois anos civis**, permitida **uma reeleição**.
 
 A eleição ordinária ocorre:
 
-- por **escrutínio secreto**;
+- por **escrutínio secreto**, ou seja, votação secreta;
 - na última sessão ordinária de dezembro;
 - com presença de pelo menos **quatro Conselheiros**, incluído quem preside o ato.
 
-Somente Conselheiros titulares participam da eleição, inclusive os que estejam em licença, férias ou outro afastamento legal.
+Participam da eleição apenas Conselheiros titulares, inclusive aqueles que estejam em licença, férias ou outro afastamento legal.
 
-Se ninguém obtiver maioria, realiza-se novo escrutínio entre os dois mais votados. Persistindo a falta de maioria, prevalece a **antiguidade no cargo de Conselheiro**.
+Se nenhum candidato obtiver maioria, há novo escrutínio entre os dois mais votados. Se ainda assim não houver maioria, prevalece a antiguidade no cargo de Conselheiro.
 
-### 5.2. Vacância e substituições
+### 4.2. Vacância e substituição na direção
 
-Se a vaga ocorrer nos **60 dias** anteriores ao término do mandato, não há nova eleição.
+Se a vaga surgir nos **60 dias** anteriores ao término do mandato, não se realiza nova eleição.
 
-- vacância da Presidência → o Vice-Presidente sucede;
-- ausência ou impedimento do Presidente → Vice-Presidente;
-- falta do Vice-Presidente → Conselheiro mais antigo em exercício;
-- ausência ou impedimento do Corregedor → Conselheiro mais antigo em exercício.
+Fora dessa hipótese:
 
-Quem for eleito para vaga surgida antes do fim do mandato apenas completa o período restante.
+- vagando a Presidência, o Vice-Presidente sucede o Presidente;
+- na ausência ou impedimento do Presidente, o Vice-Presidente o substitui;
+- na falta do Vice-Presidente, atua o Conselheiro mais antigo em exercício;
+- na ausência ou impedimento do Corregedor, atua o Conselheiro mais antigo em exercício.
 
-### 5.3. Competências administrativas do Presidente
+Se houver eleição para preencher vaga surgida antes do fim do mandato, o eleito completa apenas o período restante.
 
-Entre as funções presidenciais estão dirigir os trabalhos, representar o Tribunal, zelar por suas prerrogativas, cumprir e fazer cumprir a Lei Orgânica e o Regimento, dar posse, expedir atos funcionais, administrar dotações e patrimônio, publicar o Relatório de Gestão Fiscal e firmar instrumentos de cooperação.
+### 4.3. O que o Presidente administra — e o que não pode fazer sozinho
 
-As alterações de 2024 passaram a ressalvar as competências próprias da Corregedoria em matéria de ordem, disciplina e pessoal.
+Ao Presidente cabe dirigir os trabalhos, representar o Tribunal, zelar por suas prerrogativas, cumprir e fazer cumprir a Lei Orgânica e o Regimento Interno, dar posse, expedir atos funcionais, administrar dotações e patrimônio, publicar o Relatório de Gestão Fiscal e firmar instrumentos de cooperação.
 
-**Limite importante:** o Presidente não cria cargos nem fixa remuneração unilateralmente. O Tribunal exerce iniciativa legislativa para propor à Assembleia as medidas reservadas à lei.
+As alterações legislativas de 2024 preservaram competências próprias da Corregedoria em matéria de ordem, disciplina e pessoal. Isso impede que “Presidente” seja tratado como sinônimo de autoridade exclusiva sobre toda a gestão interna.
 
-## 6. Corregedoria e Ouvidoria
+Outra fronteira importante é a **iniciativa legislativa**, que é o poder de propor à Assembleia um projeto de lei sobre matéria reservada ao Tribunal. O Presidente administra os cargos existentes, mas não cria cargos nem fixa remuneração unilateralmente quando a matéria depende de lei.
 
-### 6.1. Corregedoria
+### 4.4. Corregedoria
 
-O art. 86, com alterações das Leis nº **12.437/2024** e nº **12.501/2025**, reforçou a atuação da Corregedoria na disciplina e no desempenho institucional.
+O artigo 86, especialmente após as Leis nº 12.437/2024 e nº 12.501/2025, concentra no Corregedor funções de acompanhamento disciplinar e de desempenho institucional.
 
-Compete ao Corregedor, entre outras funções:
+Entre suas atribuições estão:
 
 - exercer inspeção e correição;
 - auxiliar o Presidente na fiscalização e supervisão da ordem e da disciplina;
-- instaurar, concorrentemente com o Presidente, sindicância e processo administrativo disciplinar relativos a servidores da Secretaria;
-- propor ao Pleno, em sessão extraordinária reservada, sindicância ou processo disciplinar contra membro, com deliberação por **maioria absoluta**;
-- relatar procedimentos disciplinares de servidores e propor penalidades ou medidas corretivas ao Presidente;
+- instaurar, concorrentemente com o Presidente, sindicância — apuração preliminar de possível irregularidade — e processo administrativo disciplinar — procedimento formal para apurar infração funcional — relativos a servidores da Secretaria;
+- propor ao Pleno, em sessão extraordinária reservada, sindicância ou processo disciplinar contra membro, cuja instauração depende de **maioria absoluta**;
+- relatar procedimentos disciplinares de servidores e propor ao Presidente penalidades ou medidas corretivas;
 - relatar ao Pleno sindicância relativa a Conselheiros e Conselheiros-Substitutos;
 - designar integrantes de comissões processantes disciplinares e correicionais;
-- relatar recursos administrativos contra atos do Presidente;
+- relatar recursos administrativos interpostos contra atos do Presidente;
 - apresentar ao Pleno, até a **segunda sessão do ano subsequente**, relatório das atividades da Corregedoria.
 
-A Corregedoria exerce **governança, correição e disciplina internas**. Isso não se confunde com o controle externo exercido sobre jurisdicionados.
+A ideia que organiza essas competências é simples: a Corregedoria cuida da **integridade e disciplina dentro do Tribunal**. Ela não substitui a atividade de controle externo sobre órgãos, entidades e pessoas sujeitos à fiscalização do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-### 6.2. Ouvidoria
+### 4.5. Ouvidoria
 
-A Ouvidoria busca contribuir para a melhoria da gestão e para a observância dos princípios da Administração Pública.
+A Ouvidoria funciona como canal de comunicação institucional voltado à melhoria da gestão e à observância dos princípios da Administração Pública.
 
-O Ouvidor é Conselheiro eleito pelo Plenário na mesma sessão da eleição presidencial, para mandato de **dois anos civis**, permitida uma reeleição.
+O Ouvidor é um Conselheiro eleito pelo Plenário na mesma sessão da eleição presidencial, para mandato de **dois anos civis**, permitida uma reeleição.
 
-A Ouvidoria não julga processos e não substitui a Corregedoria nem o MPC.
+A Ouvidoria não julga processos, não exerce a disciplina própria da Corregedoria e não desempenha as funções ministeriais do <abbr title="Ministério Público de Contas">MPC</abbr>.
 
-## 7. Ministério Público de Contas
+## 5. Ministério Público de Contas: fiscalizar a legalidade sem administrar o Tribunal
 
-### 7.1. Natureza e princípios
-
-O MPC é **essencial à função de controle externo** exercida pelo TCE/MA.
-
-Seus princípios institucionais são:
+O <abbr title="Ministério Público de Contas">MPC</abbr> é essencial à função de controle externo exercida pelo <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Seus princípios institucionais são:
 
 - unidade;
 - indivisibilidade;
 - independência funcional.
 
-O MPC atua junto ao Tribunal, mas não integra a Secretaria e não se confunde com o Ministério Público Estadual.
+**Independência funcional** significa que os membros exercem suas atribuições jurídicas sem subordinação quanto ao conteúdo de suas manifestações. Por isso, o apoio material que a Secretaria presta ao <abbr title="Ministério Público de Contas">MPC</abbr> não o transforma em setor administrativo do Tribunal.
 
-### 7.2. Composição e ingresso
+Também não se deve confundir o <abbr title="Ministério Público de Contas">MPC</abbr> com o Ministério Público Estadual. São instituições distintas, embora a Lei Orgânica preveja aplicação subsidiária, no que couber, de disposições da Lei Orgânica do Ministério Público Estadual aos membros do <abbr title="Ministério Público de Contas">MPC</abbr>.
 
-Desde a Lei nº **11.614/2021**, a composição legal é de **quatro Procuradores de Contas**.
+### 5.1. Composição e ingresso
 
-O ingresso depende de:
+Desde a Lei nº 11.614/2021, a composição legal é de **quatro Procuradores de Contas**. Esse número corresponde aos cargos previstos em lei; eventual quantidade menor de ocupantes em determinado momento não altera a composição legal.
+
+O ingresso exige:
 
 - concurso público de provas e títulos;
-- participação da Ordem dos Advogados do Brasil;
+- participação da <abbr title="Ordem dos Advogados do Brasil">OAB</abbr>;
 - bacharelado em Direito;
 - pelo menos três anos de atividade jurídica;
 - observância da ordem de classificação.
 
-A composição legal é o dado de prova; a quantidade circunstancial de cargos ocupados em determinado momento não altera a lei.
+### 5.2. Procurador-Geral: lista, nomeação e substituição
 
-### 7.3. Procurador-Geral
+Os Procuradores de Contas formam uma **lista tríplice entre integrantes da carreira**. O Governador escolhe e nomeia o Procurador-Geral no prazo de **15 dias**.
 
-Os Procuradores formam **lista tríplice** entre integrantes da carreira. O Governador nomeia o Procurador-Geral no prazo de **15 dias**, para mandato de **dois anos**, permitida **uma recondução**.
+O mandato é de **dois anos**, permitida **uma recondução**, isto é, uma nova investidura consecutiva na mesma função.
 
-O MPC, por ato do Procurador-Geral, define as atribuições de:
+Por ato do Procurador-Geral, o <abbr title="Ministério Público de Contas">MPC</abbr> define as atribuições de:
 
 - Procurador-Geral substituto;
-- Corregedoria do MPC;
-- coordenação da execução de acórdãos.
+- Corregedoria do <abbr title="Ministério Público de Contas">MPC</abbr>;
+- coordenação da execução de acórdãos, as decisões colegiadas formalizadas pelo Tribunal.
 
-Na vacância, ausência ou impedimento do Procurador-Geral, substitui-o primeiro o Procurador-Geral substituto. Na falta deste, a ordem entre os demais Procuradores é:
+Na vacância, ausência ou impedimento do Procurador-Geral, assume primeiro o Procurador-Geral substituto. Se ele também faltar, a ordem entre os demais Procuradores é:
 
 1. antiguidade da posse;
 2. antiguidade da nomeação;
 3. classificação no concurso de ingresso.
 
-### 7.4. Funções
+### 5.3. O que o Ministério Público de Contas faz no processo
 
-Na guarda da lei e fiscalização de sua execução, o MPC pode:
+Na guarda da lei e na fiscalização de sua execução, o <abbr title="Ministério Público de Contas">MPC</abbr> pode:
 
-- defender a ordem jurídica e requerer medidas em defesa da Administração e do erário;
+- defender a ordem jurídica e requerer medidas em defesa da Administração e dos recursos públicos;
 - comparecer às sessões;
 - manifestar-se oralmente ou por escrito;
-- interpor recursos admitidos em lei;
-- promover medidas de cobrança e execução perante órgãos competentes;
-- acionar o Ministério Público competente para providências cabíveis.
+- interpor os recursos admitidos em lei;
+- promover medidas de cobrança e execução perante os órgãos competentes;
+- acionar o Ministério Público competente quando for necessária providência de sua atribuição.
 
-A audiência do MPC é obrigatória nas hipóteses legais, entre elas tomada ou prestação de contas, atos de admissão, aposentadoria, reforma e pensão, uniformização de jurisprudência e recursos, **exceto embargos de declaração**.
+A lei torna obrigatória a audiência do <abbr title="Ministério Público de Contas">MPC</abbr> em determinadas matérias. Entre elas estão tomadas e prestações de contas, atos de admissão, aposentadoria, reforma e pensão, uniformização de jurisprudência — procedimento para resolver divergência interna de entendimento — e recursos, **exceto embargos de declaração**, recurso voltado a esclarecer omissão, obscuridade, contradição ou erro material na decisão.
 
-Se suscitar questão preliminar, o parecer deve enfrentar também o mérito para a hipótese de rejeição da preliminar.
+Se o parecer suscitar uma questão preliminar, isto é, uma questão que deve ser resolvida antes do mérito, o <abbr title="Ministério Público de Contas">MPC</abbr> deve também enfrentar o mérito para a hipótese de a preliminar ser rejeitada.
 
-As atribuições de cobrança/execução e de acionamento de outro Ministério Público cabem ao Procurador-Geral e podem ser delegadas aos Procuradores.
+As atribuições de promover cobrança ou execução e de acionar outro Ministério Público cabem ao Procurador-Geral, que pode delegá-las aos Procuradores de Contas.
 
-### 7.5. Apoio e independência
+### 5.4. Quem baixa o edital do concurso do Ministério Público de Contas?
 
-A Secretaria do Tribunal presta apoio administrativo e de pessoal ao MPC. Esse suporte material não elimina a **independência funcional** da instituição.
+Aqui existem duas regras que só parecem incompatíveis se forem lidas isoladamente.
 
-Aplicam-se diretamente aos membros do MPC as remissões específicas da Lei Orgânica e, subsidiariamente, no que couber, disposições da Lei Orgânica do Ministério Público Estadual.
+A Lei nº 11.614/2021 introduziu no artigo 106, § 5º, a **regra geral**: com Procurador-Geral em exercício, cabe a ele baixar o edital do concurso de Procurador de Contas e homologar o resultado.
 
-### 7.6. Concurso do MPC: art. 106, § 5º, e art. 150
+O artigo 150, dispositivo mais antigo que permaneceu no texto, cuida de uma situação específica: **na vacância do Procurador-Geral**, essas tarefas cabem ao Presidente do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-A Lei nº 11.614/2021 estabeleceu, no art. 106, § 5º, a **regra geral**: cabe ao Procurador-Geral baixar o edital do concurso de Procurador de Contas e homologar seu resultado.
+Portanto:
 
-O art. 150, dispositivo antigo ainda mantido no texto, prevê que, **na hipótese de vacância do Procurador-Geral**, essas tarefas cabem ao Presidente do TCE/MA.
+- Procurador-Geral em exercício → ele baixa o edital e homologa o resultado;
+- Procurador-Geral vago → o Presidente do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> exerce essas tarefas.
 
-Assim, as competências podem ser lidas harmonicamente:
+O artigo 150 ainda contém uma remissão interna desatualizada ao § 3º do artigo 106. Após a reforma de 2021, o concurso passou a ser disciplinado no § 1º e a competência geral do Procurador-Geral está no § 5º. A falha de numeração não autoriza ignorar a regra especial de vacância.
 
-- Procurador-Geral em exercício → edital e homologação;
-- vacância do Procurador-Geral → Presidente do TCE/MA exerce essas tarefas.
+## 6. Autonomia: poder de auto-organização, não poder ilimitado
 
-A inconsistência remanescente está na **remissão interna do art. 150 ao § 3º do art. 106**, pois, após a reforma de 2021, o concurso passou a ser tratado no § 1º e a competência geral no § 5º.
-
-## 8. Autonomia, governança e regras finais
-
-### 8.1. Autonomia e iniciativa
-
-O Tribunal possui autonomia para:
+A autonomia do Tribunal permite que ele organize o próprio funcionamento sem depender de autorização administrativa de outro Poder para cada ato. Ela inclui, entre outras competências:
 
 - elaborar e alterar o Regimento Interno;
 - eleger seus dirigentes;
-- organizar a Secretaria e prover cargos existentes;
+- organizar a Secretaria e prover os cargos existentes;
 - administrar dotações, créditos e patrimônio;
 - propor à Assembleia criação, transformação ou extinção de cargos e funções e a respectiva remuneração;
 - propor projetos de lei sobre matéria de sua competência;
 - firmar acordos de cooperação.
 
-A aprovação ou alteração do Regimento exige **maioria absoluta dos Conselheiros**.
+A aprovação ou alteração do Regimento Interno exige **maioria absoluta dos Conselheiros**.
 
-O poder regulamentar permanece limitado à competência e à jurisdição do Tribunal: não equivale a poder legislativo geral.
+O poder regulamentar do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> existe dentro de sua competência e de sua jurisdição, isto é, do alcance jurídico de sua atuação. Ele não equivale a um poder legislativo geral.
 
-### 8.2. Cooperação
+### 6.1. Cooperação sem transferência de competência
 
-O TCE/MA pode firmar acordos de cooperação com outros Tribunais de Contas, órgãos e entidades públicas e entidades civis para intercâmbio de informações, capacitação e ações conjuntas de fiscalização.
+O <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> pode firmar acordos de cooperação com outros Tribunais de Contas, órgãos e entidades públicas e entidades civis para troca de informações, capacitação e ações conjuntas de fiscalização.
 
-A cooperação não transfere nem amplia a jurisdição constitucional de cada participante.
+Cooperar não significa transferir ou ampliar a jurisdição constitucional dos participantes: cada instituição continua limitada às competências que a ordem jurídica lhe atribui.
 
-### 8.3. Recesso e prazos
+### 6.2. Recesso e prazos
 
-O recesso legal ocorre de **21 de dezembro a 4 de janeiro**, sem prejuízo dos serviços da Secretaria.
+O recesso previsto na Lei Orgânica vai de **21 de dezembro a 4 de janeiro**, sem interrupção dos serviços da Secretaria.
 
-A Lei Orgânica também determina que os prazos das partes **não se suspendem nem se interrompem** em razão do recesso.
+A existência do recesso também **não suspende nem interrompe** os prazos para recursos, defesa, cumprimento de determinação e demais prazos fixados para a parte. O candidato deve separar, portanto, duas ideias: há recesso institucional, mas os serviços indicados e os prazos das partes continuam seguindo as regras legais.
 
-### 8.4. Relatórios e publicação oficial
+### 6.3. Relatórios e publicação oficial
 
 O Tribunal encaminha à Assembleia Legislativa:
 
-- relatório **trimestral**, em até 60 dias do fim do período;
-- relatório **anual**, em até 90 dias do fim do período.
+- relatório **trimestral**, em até **60 dias** do fim do período;
+- relatório **anual**, em até **90 dias** do fim do período.
 
-O Diário Oficial Eletrônico do TCE/MA é o meio oficial de divulgação dos atos do Tribunal. Se sua edição ou publicação estiver temporariamente impossibilitada, admite-se publicação no Diário Oficial do Estado, com posterior republicação eletrônica, sem retirar os efeitos da publicação estadual.
+O Diário Oficial Eletrônico do Tribunal de Contas do Estado é o veículo oficial de divulgação de seus atos. Se houver impossibilidade temporária de edição ou publicação eletrônica, os atos podem ser publicados no Diário Oficial do Estado. Eles serão republicados na primeira edição eletrônica posterior, mas a publicação estadual já produz os efeitos legais previstos.
 
-### 8.5. Sessões reservadas
+### 6.4. Publicidade das sessões
 
-As sessões ordinárias são públicas. Sessões extraordinárias podem ser reservadas nas hipóteses legais, mas não podem ocorrer sem representante do MPC.
+As sessões ordinárias são públicas. A lei admite sessões extraordinárias reservadas nas hipóteses previstas, mas elas não podem ocorrer sem representante do <abbr title="Ministério Público de Contas">MPC</abbr>.
 
 A reserva da sessão não elimina os direitos processuais assegurados às partes e a seus advogados.
 
-### 8.6. Aplicação subsidiária
+### 6.5. Como funciona a aplicação subsidiária
 
-Na falta de regra própria compatível, aplicam-se subsidiariamente as fontes indicadas pela Lei Orgânica, entre elas normas processuais e, no que couber, a Lei Orgânica e o Regimento do <abbr title="Tribunal de Contas da União">TCU</abbr>, a organização judiciária estadual e o Estatuto dos servidores estaduais.
+A Lei Orgânica admite, na falta de regra própria compatível, o uso subsidiário de outras fontes, entre elas normas processuais e, no que couber, a Lei Orgânica e o Regimento do <abbr title="Tribunal de Contas da União">TCU</abbr>, a organização judiciária estadual e o Estatuto dos servidores estaduais.
 
-**Subsidiariedade integra lacunas; não revoga regra específica da Lei nº 8.258/2005.**
-
-## 9. Matriz final de prova
-
-| Tema | Regra |
-| --- | --- |
-| natureza constitucional | instituição permanente e essencial ao controle externo |
-| composição | 7 Conselheiros titulares |
-| Conselheiros-Substitutos | 3 |
-| escolha dos titulares | 4 Assembleia + 3 Governador |
-| requisito etário | mais de 35 e menos de 70 anos |
-| Câmaras | criação por maioria absoluta dos titulares |
-| direção | Presidente, Vice e Corregedor: 2 anos, uma reeleição |
-| Ouvidor | Conselheiro eleito por 2 anos, uma reeleição |
-| MPC | 4 Procuradores; unidade, indivisibilidade e independência funcional |
-| Procurador-Geral | lista tríplice → Governador em 15 dias → 2 anos → uma recondução |
-| edital do concurso do MPC | regra geral: Procurador-Geral; vacância: Presidente do TCE |
-| Regimento | aprovação/alteração por maioria absoluta |
-| recesso | 21/12 a 4/1; Secretaria continua; prazos das partes não param |
-| relatórios | trimestral: 60 dias; anual: 90 dias |
-
-## 10. Pegadinhas
-
-- **7 titulares + 3 substitutos ≠ 10 titulares.**
-- **65 anos está superado:** o requisito atual é menos de 70, inclusive para o Substituto pela remissão do art. 102.
-- **MPC ≠ Secretaria ≠ Ministério Público Estadual.**
-- **Corregedoria ≠ controle externo:** seu núcleo é interno.
-- **Presidente administra, mas não cria cargo nem fixa remuneração por ato próprio.**
-- **Regra geral do concurso do MPC:** Procurador-Geral; **vacância:** Presidente.
-- **Apoio administrativo da Secretaria não elimina independência funcional do MPC.**
-- **Recesso não paralisa a Secretaria nem os prazos das partes.**
-- **Norma subsidiária não prevalece sobre regra específica da Lei Orgânica.**
+**Aplicação subsidiária** significa preencher uma lacuna sem contrariar a norma específica. Se a Lei nº 8.258/2005 já disciplina diretamente a situação, a regra subsidiária não pode ser usada para substituí-la.
