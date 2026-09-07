@@ -18,7 +18,7 @@ Para responder sem decorar tecnologias isoladas, separe três perguntas:
 
 Esse é o mapa do capítulo. Um mecanismo tecnicamente confiável não se torna, só por isso, assinatura qualificada; e uma assinatura válida em certa situação pode ser insuficiente quando a norma exige nível superior.
 
-> **Corte de atualização:** 6 de setembro de 2026. O edital cobra **noções** de assinatura digital em processos administrativos e de assinatura eletrônica e certificação digital em documentos oficiais. O foco é compreender o mecanismo, distinguir os níveis jurídicos e aplicar as regras ao setor público, sem aprofundamento criptográfico desnecessário.
+> **Corte de atualização:** 7 de setembro de 2026. O edital cobra **noções** de assinatura digital em processos administrativos e de assinatura eletrônica e certificação digital em documentos oficiais. O foco é compreender o mecanismo, distinguir os níveis jurídicos e aplicar as regras ao setor público, sem aprofundamento criptográfico desnecessário.
 
 ## 1. Primeiro contraste: assinatura, certificado, autenticação e digitalização
 
@@ -51,7 +51,7 @@ A distinção de prova é curta: **digitalizada ≠ digital**.
 
 ### 1.4 Certificado digital
 
-O **certificado digital** é um documento eletrônico que vincula uma identidade a dados de validação, especialmente a chave pública, dentro de uma cadeia de confiança.
+O **certificado digital** é um documento eletrônico que vincula uma identidade a dados de validação, especialmente a chave pública, dentro de uma <abbr title="Sequência de certificados que liga o signatário a uma raiz confiável">cadeia de confiança</abbr>.
 
 Ele **não é a assinatura de cada documento**. A assinatura é produzida sobre dados específicos; o certificado ajuda o verificador a relacionar a chave usada à identidade indicada.
 
@@ -70,7 +70,14 @@ Digitalizar não equivale a assinar. Assinar um arquivo também não altera sua 
 
 ## 2. O mecanismo técnico mínimo
 
-Imagine que Ana assine um documento e Bruno precise conferir a assinatura. O mecanismo simplificado ajuda a entender quatro peças.
+Imagine que Ana assine um documento e Bruno precise conferir a assinatura. Em vez de decorar “privada assina; pública verifica”, acompanhe o fluxo:
+
+1. o sistema calcula um <abbr title="Resumo criptográfico do conteúdo, usado para detectar alterações">hash</abbr> do documento, isto é, um resumo criptográfico do conteúdo;
+2. a chave privada de Ana participa da criação da assinatura digital vinculada àquele conteúdo;
+3. o certificado ajuda Bruno a relacionar a identidade de Ana à chave pública correspondente;
+4. na verificação, o sistema usa a chave pública e recalcula o hash do documento recebido. Se o conteúdo tiver mudado, o hash recalculado deixa de coincidir com o valor protegido pela assinatura.
+
+Esse fluxo separa funções que a prova costuma misturar: **o hash representa o conteúdo; a chave privada participa da assinatura; a chave pública participa da verificação; o certificado liga a chave à identidade.**
 
 ### 2.1 Chave privada e chave pública
 
@@ -79,9 +86,9 @@ Imagine que Ana assine um documento e Bruno precise conferir a assinatura. O mec
 
 A segurança depende de não ser viável obter, na prática, a chave privada a partir da pública.
 
-### 2.2 <abbr title="Resumo criptográfico do conteúdo, usado para detectar alterações">Hash</abbr> e integridade
+### 2.2 Hash e integridade
 
-Uma função **hash** produz um resumo criptográfico do conteúdo. Se o conteúdo muda, o resumo tende a mudar também. Por isso, ele ajuda a detectar alteração posterior.
+Se o conteúdo muda, seu hash tende a mudar também. Por isso, o hash ajuda a detectar alteração posterior.
 
 O hash:
 
@@ -105,7 +112,7 @@ A assinatura pode fornecer elementos técnicos e jurídicos que dificultam a neg
 
 ## 3. A infraestrutura de confiança: <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr>
 
-A <abbr title="Medida Provisória">MP</abbr> nº 2.200-2/2001 instituiu a <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr> para sustentar autenticidade, integridade e validade jurídica de documentos eletrônicos e transações eletrônicas seguras.
+Em sentido geral, uma <abbr title="Infraestrutura de Chaves Públicas">ICP</abbr> combina tecnologia, pessoas, políticas e procedimentos para administrar certificados digitais e sua confiança ao longo do ciclo de vida. No Brasil, a <abbr title="Medida Provisória">MP</abbr> nº 2.200-2/2001 instituiu a <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr> para sustentar autenticidade, integridade e validade jurídica de documentos eletrônicos e transações eletrônicas seguras.
 
 ### 3.1 Quem faz o quê
 
@@ -130,7 +137,7 @@ O mesmo raciocínio vale para certificados no padrão <abbr title="Padrão técn
 
 Um certificado tem período de validade. **Expiração** é o término desse período. **Revogação** é o encerramento antecipado da confiança, por exemplo quando há comprometimento ou risco de comprometimento do meio de assinatura.
 
-Na <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr>, a <abbr title="Autoridade Certificadora">AC</abbr> disponibiliza informações sobre certificados revogados. Uma forma tradicional é a <abbr title="Lista de Certificados Revogados">LCR</abbr>, lista assinada pela autoridade e publicada periodicamente.
+Na <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr>, a <abbr title="Autoridade Certificadora">AC</abbr> disponibiliza informações sobre certificados revogados. Uma forma tradicional é a <abbr title="Lista de Certificados Revogados">LCR</abbr>, lista assinada pela autoridade e publicada periodicamente. Em materiais técnicos em inglês, a mesma lista aparece como <abbr title="Certificate Revocation List">CRL</abbr>.
 
 Duas consequências evitam erros de prova:
 
@@ -237,18 +244,18 @@ A estrutura do <abbr title="Processo Eletrônico Nacional">PEN</abbr>, o funcion
 
 ## 9. Modernização dos certificados da <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr>
 
-A Resolução <abbr title="Comitê Gestor">CG</abbr> <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr> nº 211/2024 modernizou os tipos de certificados e já estava em vigor na publicação do edital de 2026.
+A Resolução <abbr title="Comitê Gestor">CG</abbr> <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr> nº 211/2024 modernizou os tipos de certificados e continua em vigor em 2026.
 
 Para a prova de noções, o quadro relevante é:
 
 - em 2026 há **coexistência** entre certificados legados e novos perfis durante a transição;
 - desde 1º de novembro de 2024 foram introduzidos novos tipos, inclusive certificados de assinatura para pessoa física e o **Selo Eletrônico — <abbr title="Selo Eletrônico">SE</abbr>** para pessoa jurídica;
-- a transição dos certificados legados se estende até **2 de março de 2029**;
+- os tipos existentes podem continuar em uso durante a transição até **2 de março de 2029**, observadas as regras aplicáveis a cada perfil;
 - o <abbr title="Selo Eletrônico">SE</abbr> identifica a pessoa jurídica como origem ou responsável por documentos e processos automatizados e **não serve para manifestação de vontade**, como firmar contrato ou acordo.
 
-Por isso, não trate a associação antiga “A1 = software / A3 = token” como descrição completa e permanente da <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr>. Esses tipos ainda são relevantes durante a transição, mas o modelo normativo está sendo modernizado.
+Por isso, não trate a associação antiga “<abbr title="Tipo legado de certificado digital">A1</abbr> = software / <abbr title="Tipo legado de certificado digital">A3</abbr> = token” como descrição completa e permanente da <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr>. Esses tipos ainda são relevantes durante a transição, mas o modelo normativo está sendo modernizado.
 
-> **Regra futura já publicada:** a etapa final dessa transição está prevista para 2029. Para a prova de 2026, importa reconhecer a coexistência de perfis.
+Para a prova de 2026, importa reconhecer a coexistência dos perfis; a mudança final prevista para 2029 é regra futura já publicada.
 
 ## 10. Como validar sem confiar na aparência
 
@@ -266,24 +273,7 @@ Ao conferir um documento, pense nesta sequência:
 
 A validação técnica não resolve sozinha questões jurídicas como capacidade, poderes de representação ou vício de vontade.
 
-## 11. Pegadinhas que valem a memorização
-
-1. **Assinatura eletrônica é gênero; qualificada usa <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr>.**
-2. **Digitalizada ≠ digital.**
-3. **Certificado ≠ assinatura.**
-4. **Autenticação ≠ assinatura automática de cada ato.**
-5. **Privada assina; pública verifica.**
-6. **Hash ajuda na integridade; não cria sigilo.**
-7. **<abbr title="Autoridade de Registro">AR</abbr> identifica; <abbr title="Autoridade Certificadora">AC</abbr> emite.**
-8. **<abbr title="Instituto Nacional de Tecnologia da Informação">ITI</abbr> exerce a função de <abbr title="Autoridade Certificadora Raiz">AC Raiz</abbr>.**
-9. **Certificado revogado e certificado expirado não são a mesma situação.**
-10. **Carimbo do tempo fornece evidência temporal; não substitui assinatura.**
-11. **gov.br prata/ouro = avançada, não qualificada.**
-12. **Nem todo ato administrativo exige assinatura qualificada.**
-13. **Decreto nº 10.543/2020 tem âmbito federal específico.**
-14. **<abbr title="Selo Eletrônico">SE</abbr> de pessoa jurídica identifica origem/responsabilidade; não expressa vontade.**
-
-## 12. Roteiro de resolução
+## 11. Roteiro de resolução
 
 Quando aparecer uma questão, percorra a sequência:
 
