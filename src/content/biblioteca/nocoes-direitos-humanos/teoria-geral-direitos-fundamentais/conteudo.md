@@ -8,301 +8,239 @@ storageId: "teoria-direitos-fundamentais"
 
 # Teoria geral dos direitos fundamentais
 
-## 1. Recorte do edital e corte temporal
+A liberdade de expressão pode ser protegida por uma Constituição e também por um tratado internacional. O bem é o mesmo; mudam o **plano jurídico**, a fonte de reconhecimento e os efeitos que dela decorrem.
 
-O edital cobra, em **Noções de Direitos Humanos**, dois núcleos diretamente relacionados:
+O mapa do assunto é: **direito → plano de reconhecimento → titular → vinculado → limite**.
 
-1. **teoria geral dos direitos fundamentais**;
-2. **direitos humanos e direitos fundamentais**.
+O recorte normativo acompanha o Edital nº 1, de **6 de julho de 2026**; a jurisprudência do material vai até **4 de agosto de 2026**. A Declaração Universal dos Direitos Humanos fica para o assunto seguinte.
 
-O foco deste assunto é conceitual e aplicado: terminologia, características, dimensões, titulares, funções, aplicabilidade, eficácia, abertura do catálogo, incidência nas relações privadas e posição dos tratados de direitos humanos no direito brasileiro.
+## 1. Direitos humanos, direitos fundamentais e garantias
 
-A **Declaração Universal dos Direitos Humanos** é assunto próprio do item seguinte e aqui aparece somente quando necessária para compreender a internacionalização da proteção.
+**Direitos humanos** são, predominantemente, direitos reconhecidos no plano internacional, em declarações, tratados e sistemas internacionais de proteção. **Direitos fundamentais** são direitos reconhecidos e protegidos pela ordem constitucional de determinado Estado.
 
-Quanto ao corte do concurso:
+A diferença principal é, portanto, de **plano de positivação**. Positivação é o reconhecimento do direito por uma fonte jurídica. Não há oposição material necessária: liberdade, igualdade ou proteção da vida podem ser, ao mesmo tempo, direitos humanos no plano internacional e direitos fundamentais no plano constitucional interno.
 
-- para normas, considera-se a regra do edital sobre alterações legislativas vigentes até a publicação do Edital nº 1, em **6 de julho de 2026**;
-- para jurisprudência, observa-se o corte geral adotado no material do concurso, em **4 de agosto de 2026**.
+Na linguagem doutrinária de concurso, **direitos do homem** costuma designar a concepção jusnaturalista, isto é, direitos entendidos como inerentes à pessoa mesmo antes de serem positivados.
 
-## 2. Direitos do homem, direitos humanos e direitos fundamentais
+**Garantia fundamental**, por sua vez, é um instrumento de proteção, defesa ou restauração de um direito.
 
-| Expressão | Sentido predominante |
+| Expressão | Chave de compreensão |
 |---|---|
-| **direitos do homem** | formulação jusnaturalista: direitos concebidos como inerentes à pessoa, ainda que não positivados |
-| **direitos humanos** | direitos reconhecidos no plano internacional, em declarações, tratados e sistemas de proteção |
-| **direitos fundamentais** | direitos reconhecidos e protegidos pela ordem constitucional de determinado Estado |
-| **garantias fundamentais** | instrumentos, instituições ou posições destinados a assegurar, defender ou restaurar direitos |
+| **direitos do homem** | direitos concebidos como inerentes à pessoa, ainda que não positivados |
+| **direitos humanos** | reconhecimento predominante no plano internacional |
+| **direitos fundamentais** | reconhecimento e proteção no plano constitucional interno |
+| **garantias fundamentais** | instrumentos de proteção ou realização dos direitos |
 
-A distinção entre **direitos humanos** e **direitos fundamentais** é, sobretudo, uma distinção de **plano de positivação**, não de conteúdo material obrigatório:
+### 1.1 Direito e garantia na prática
 
-- no plano internacional, fala-se predominantemente em direitos humanos;
-- no plano constitucional interno, fala-se predominantemente em direitos fundamentais.
+Se alguém sofre ameaça ilegal à liberdade de locomoção, a **liberdade de locomoção** é o direito. O <abbr title="garantia judicial da liberdade de locomoção">habeas corpus</abbr> é a garantia destinada a reagir à violência ou coação ilegal sobre esse direito.
 
-O mesmo bem pode existir nos dois planos. Liberdade de expressão, igualdade e proteção da vida, por exemplo, podem ser simultaneamente direitos humanos e direitos fundamentais.
+O <abbr title="garantia judicial relativa a certos dados pessoais">habeas data</abbr>, em suas hipóteses constitucionais, protege o conhecimento ou a retificação de determinadas informações pessoais.
 
-### 2.1 Direito × garantia
+A distinção é funcional, não absoluta. Devido processo, contraditório e ampla defesa têm conteúdo próprio e também exercem função garantidora.
 
-Uma fórmula útil para prova:
+## 2. Características: o que elas explicam
 
-- **direito:** bem, posição ou faculdade protegida;
-- **garantia:** instrumento de proteção ou realização do direito.
+Os direitos foram reconhecidos e ampliados em processos históricos de limitação do poder, constitucionalização e internacionalização.
 
-Exemplos:
-
-- liberdade de locomoção → direito;
-- **habeas corpus** → garantia contra violência ou coação ilegal à locomoção;
-- acesso a informações pessoais → direito;
-- **habeas data** → garantia específica nas hipóteses constitucionais.
-
-A distinção é funcional, não absoluta: devido processo, contraditório e ampla defesa têm conteúdo próprio e também exercem função garantidora.
-
-## 3. Formação histórica e características
-
-A proteção contemporânea resultou de um processo cumulativo de limitação do poder, positivação constitucional e internacionalização. Marcos históricos ajudam a localizar esse desenvolvimento, mas **uma etapa não substitui a anterior**.
-
-### 3.1 Características mais cobradas
-
-| Característica | Ideia central | Pegadinha |
+| Característica | Sentido | Limite da fórmula |
 |---|---|---|
-| **historicidade** | direitos são reconhecidos e reconstruídos historicamente | não significa disponibilidade ilimitada pela maioria |
-| **universalidade** | a proteção básica decorre da condição humana | não exige titularidade idêntica de todo direito em qualquer situação |
-| **indivisibilidade** | direitos civis, políticos, sociais, econômicos e culturais formam proteção integrada | não há separação rígida entre categorias “mais” e “menos” importantes |
+| **historicidade** | reconhecimento e compreensão constroem-se historicamente | não autoriza a maioria a abolir livremente a proteção constitucional |
+| **universalidade** | a proteção básica decorre da condição humana | não dá a todos todo direito nas mesmas condições |
+| **indivisibilidade** | diferentes categorias integram uma proteção comum | não cria categorias “superiores” e “inferiores” |
 | **interdependência** | a efetividade de um direito pode depender de outros | direitos não funcionam isoladamente |
-| **inalienabilidade** | o núcleo do direito não é mercadoria transferível | efeitos patrimoniais podem receber disciplina própria |
-| **imprescritibilidade** | a titularidade nuclear não se perde apenas pelo tempo | pretensões patrimoniais decorrentes de violação podem prescrever |
-| **irrenunciabilidade** | não se admite renúncia geral e definitiva incompatível com a dignidade | não exercício temporário e consentimento pontual não são automaticamente renúncia ilícita |
-| **relatividade** | direitos não são, em regra, absolutos | relatividade não autoriza restrição arbitrária |
+| **inalienabilidade** | o núcleo do direito não é mercadoria transferível | efeitos patrimoniais podem ter disciplina própria |
+| **imprescritibilidade** | o direito não se perde apenas pelo tempo | pretensões patrimoniais decorrentes de violação podem prescrever |
+| **irrenunciabilidade** | não cabe renúncia geral e definitiva incompatível com a proteção da pessoa | não exercício temporário ou consentimento pontual não são automaticamente inválidos |
+| **relatividade** | direitos convivem com outros direitos e bens constitucionais | não autoriza restrição arbitrária |
 
 A Declaração e Programa de Ação de Viena de 1993 sintetiza os direitos humanos como **universais, indivisíveis, interdependentes e inter-relacionados**.
 
-## 4. Dimensões ou gerações dos direitos
+## 3. Dimensões: acumulação, não substituição
 
-O termo **dimensões** é preferível quando se quer destacar que novos grupos de direitos **se acumulam** aos anteriores.
+A classificação em gerações ou dimensões mostra demandas destacadas em diferentes momentos. **Dimensão** ressalta que um grupo novo se acumula aos anteriores.
+
+- a limitação do poder e a proteção da liberdade destacam direitos civis e políticos;
+- a busca de igualdade material destaca direitos sociais, econômicos e culturais;
+- problemas que ultrapassam uma pessoa isolada destacam direitos de solidariedade e interesses transindividuais, isto é, que excedem a esfera individual.
 
 | Dimensão tradicional | Valor associado | Conteúdo predominante |
 |---|---|---|
-| **1ª** | liberdade | direitos civis e políticos; defesa e participação |
+| **1ª** | liberdade | direitos civis e políticos |
 | **2ª** | igualdade material | direitos sociais, econômicos e culturais |
 | **3ª** | solidariedade ou fraternidade | direitos transindividuais, como ambiente e desenvolvimento |
 
-### 4.1 O que não concluir
+Liberdade de expressão é exemplo clássico da **1ª dimensão**; educação, da **2ª**; meio ambiente equilibrado, da **3ª**.
 
-- 1ª dimensão não significa **somente omissão estatal**: liberdades também exigem instituições, processo e proteção;
-- 2ª dimensão não significa **somente gasto público**: direitos sociais também possuem facetas defensivas;
-- 3ª dimensão não significa titularidade exclusivamente individual;
-- uma dimensão **não revoga** a anterior.
+A dimensão histórica não fixa uma única função: liberdades podem exigir atuação estatal e direitos sociais podem ter face defensiva. **1ª dimensão não é só omissão, 2ª não é só gasto, e dimensão posterior não revoga a anterior**.
 
-### 4.2 Quarta e quinta dimensões
+Classificações de **4ª e 5ª dimensões** variam entre autores. Se a questão indicar autor ou corrente, siga a classificação expressamente adotada; não trate um conteúdo como consenso doutrinário.
 
-Não existe classificação doutrinária consensual. Paulo Bonavides, por exemplo, associa:
+## 4. Titulares e funções
 
-- 4ª dimensão: democracia, informação e pluralismo;
-- 5ª dimensão: paz.
+O artigo 5º da Constituição menciona brasileiros e estrangeiros residentes no País. Isso não permite concluir que estrangeiros não residentes estejam automaticamente fora de toda proteção constitucional. A titularidade depende da natureza do direito e da situação jurídica.
 
-Outros autores usam classificações diferentes. Em prova, a indicação do autor ou da corrente importa.
+Podem ser titulares, conforme a compatibilidade:
 
-## 5. Titulares e funções
-
-### 5.1 Titularidade
-
-O art. 5º da Constituição menciona brasileiros e estrangeiros residentes no País, mas isso não autoriza concluir que estrangeiros não residentes submetidos à jurisdição brasileira estejam automaticamente fora de toda proteção fundamental.
-
-Podem ser titulares, conforme a compatibilidade do direito:
-
-- pessoas naturais;
-- estrangeiros e apátridas;
+- pessoas naturais, brasileiras ou estrangeiras;
+- apátridas, isto é, pessoas sem nacionalidade reconhecida por qualquer Estado;
 - pessoas jurídicas;
 - grupos e coletividades;
 - titulares de interesses transindividuais.
 
-**Universalidade não significa que todo direito pertença a todos nas mesmas condições.** Direitos políticos, por exemplo, possuem requisitos constitucionais próprios; pessoas jurídicas só titularizam direitos compatíveis com sua natureza.
+Pessoa jurídica pode invocar direitos processuais, patrimoniais e outros compatíveis com sua natureza. Universalidade, portanto, **não equivale a titularidade idêntica de todo direito**.
 
-### 5.2 Funções dos direitos fundamentais
+### 4.1 O que um direito pode exigir
 
-| Função | Conteúdo |
+Observe o tipo de resposta necessária:
+
+| Função | Exigência possível |
 |---|---|
-| **defensiva** | impedir ou fazer cessar ingerências indevidas |
-| **prestacional** | exigir prestações materiais, normativas ou organizacionais |
-| **protetiva** | exigir proteção estatal contra violações por terceiros |
-| **procedimental** | exigir processos, informação, participação, contraditório e motivação adequados |
+| **defensiva** | impedir ou cessar ingerência indevida |
+| **prestacional** | prestação material, normativa ou organizacional |
+| **protetiva** | prevenção e resposta estatal a violações de terceiros |
+| **procedimental** | processo, informação, participação, contraditório e motivação adequados |
 
-Essas funções não pertencem rigidamente a uma única dimensão histórica.
+As funções não pertencem exclusivamente a uma dimensão histórica.
 
-### 5.3 Dimensão subjetiva e objetiva
+### 4.2 Dimensão subjetiva, objetiva e deveres do Estado
 
-- **subjetiva:** atribui ao titular posição jurídica exigível;
-- **objetiva:** faz dos direitos fundamentais valores e princípios estruturantes da ordem jurídica, irradiando efeitos sobre atuação estatal e relações privadas.
+A **dimensão subjetiva** olha para o titular e sua posição exigível. A **dimensão objetiva** olha para o sistema: direitos fundamentais também funcionam como valores e princípios que vinculam os Poderes, orientam a interpretação e irradiam efeitos sobre relações privadas.
 
-A dimensão objetiva não elimina o titular individual.
+Uma matriz complementar organiza os deveres do Estado:
 
-### 5.4 Respeitar, proteger e promover
+1. **respeitar:** não violar diretamente;
+2. **proteger:** prevenir e remediar violações praticadas por terceiros;
+3. **promover ou realizar:** criar condições jurídicas, administrativas e materiais de efetividade.
 
-Uma matriz simples:
+Se a tutela estatal fica claramente aquém do constitucionalmente devido, surge o problema da **proteção insuficiente**: a Constituição pode exigir atuação, não apenas abstenção.
 
-1. **respeitar:** o Estado não deve violar diretamente;
-2. **proteger:** deve prevenir e remediar violações por terceiros;
-3. **promover/realizar:** deve criar condições jurídicas, administrativas e materiais de efetividade.
+## 5. Catálogo aberto e aplicação imediata
 
-A insuficiência grave da proteção estatal pode ser analisada como **proteção insuficiente**.
+Os direitos fundamentais não se limitam ao artigo 5º. Podem estar em outros dispositivos constitucionais ou decorrer do regime, dos princípios e dos tratados internacionais de que o Brasil seja parte.
 
-## 6. Catálogo aberto e aplicação imediata
+O artigo 5º, § 2º, consagra essa **abertura material**. Catálogo aberto não significa criação livre de direitos; a fundamentalidade apenas não depende da posição topográfica no artigo 5º.
 
-Os direitos fundamentais **não se limitam ao art. 5º**. Podem aparecer:
-
-- no próprio art. 5º;
-- em outros dispositivos da Constituição;
-- como direitos implícitos ou decorrentes do regime e dos princípios;
-- em tratados internacionais, conforme o regime constitucional aplicável.
-
-O art. 5º, § 2º, consagra essa abertura material. Ela não significa criação livre de direitos sem fundamento jurídico identificável.
-
-### 6.1 Art. 5º, §§ 1º a 4º
-
-| Dispositivo | Regra-chave |
+| Dispositivo | Regra central |
 |---|---|
-| **§ 1º** | aplicação imediata das normas definidoras de direitos e garantias fundamentais |
-| **§ 2º** | catálogo aberto: regime, princípios e tratados |
+| **§ 1º** | normas definidoras de direitos e garantias fundamentais têm aplicação imediata |
+| **§ 2º** | o catálogo não exclui direitos decorrentes do regime, dos princípios e dos tratados |
 | **§ 3º** | tratado de direitos humanos aprovado pelo rito qualificado equivale a emenda constitucional |
-| **§ 4º** | submissão do Brasil à jurisdição do Tribunal Penal Internacional a cuja criação tenha aderido |
+| **§ 4º** | o Brasil se submete à jurisdição do Tribunal Penal Internacional a cuja criação tenha manifestado adesão |
 
-### 6.2 Aplicação imediata ≠ eficácia plena
+### 5.1 Aplicação imediata não é eficácia plena de toda norma
 
-A aplicação imediata do § 1º exige que os direitos produzam a **máxima eficácia possível desde logo**. Isso não torna todas as normas estruturalmente idênticas.
+Aplicação imediata exige extrair dos direitos fundamentais a maior eficácia juridicamente possível desde logo. Isso não torna todas as normas estruturalmente iguais.
 
-| Tipo de norma | Eficácia inicial |
+**Eficácia** é a aptidão da norma para produzir efeitos jurídicos. Na classificação didática tradicional:
+
+| Tipo | Efeito inicial |
 |---|---|
-| **plena** | direta, imediata e integral |
-| **contida** | direta e imediata, mas passível de restrição constitucionalmente autorizada |
-| **limitada** | depende de integração normativa ou institucional para produzir todos os efeitos |
+| **plena** | aplicação direta, imediata e integral |
+| **contida** | aplicação direta e imediata, mas sujeita a restrição constitucionalmente autorizada |
+| **limitada** | depende de integração normativa ou institucional para produzir todos os efeitos pretendidos |
 
-Mesmo uma norma de eficácia limitada possui efeitos jurídicos: vincula os Poderes, impede atuação incompatível e orienta interpretação e controle de omissões.
+Norma de eficácia limitada não é juridicamente vazia antes da integração. Ela já vincula os Poderes, impede atuação incompatível, orienta interpretação e pode fundamentar controle de omissões.
 
-## 7. Eficácia vertical e horizontal
+## 6. Eficácia vertical e horizontal
 
-### 7.1 Vertical
+A incidência clássica dos direitos fundamentais na relação **pessoa × Estado** é chamada de **eficácia vertical**.
 
-É a incidência clássica dos direitos fundamentais na relação **pessoa × Estado**.
+Quando os direitos incidem em relações **entre particulares**, fala-se em **eficácia horizontal**. A ideia existe porque poder e capacidade de afetar direitos também podem aparecer em associações, empresas, escolas e outras relações privadas.
 
-### 7.2 Horizontal
+Duas teorias ajudam a explicar essa incidência:
 
-Direitos fundamentais também podem incidir nas relações **entre particulares**. A autonomia privada não é um espaço imune à Constituição.
+- **direta ou imediata:** o próprio direito fundamental pode servir de parâmetro para a relação privada;
+- **indireta ou mediata:** os direitos fundamentais influenciam a relação por meio da legislação, das cláusulas gerais e da interpretação do direito privado.
 
-No **RE 201.819/RJ**, julgado pela Segunda Turma do STF em 11 de outubro de 2005, discutiu-se a exclusão de associado da União Brasileira de Compositores. Consideradas a relevância da entidade e a repercussão da sanção sobre a esfera profissional do associado, a maioria exigiu contraditório, ampla defesa e devido processo.
+Em ambos os casos, **autonomia privada não significa imunidade constitucional**.
 
-A lição para prova é simples:
+### 6.1 O caso da União Brasileira de Compositores
 
-- direitos fundamentais podem produzir efeitos em relações privadas;
-- autonomia privada não é absoluta;
-- a intensidade da incidência depende do direito, da relação e do poder exercido no caso.
+No Recurso Extraordinário 201.819, originário do Rio de Janeiro e julgado pela Segunda Turma do Supremo Tribunal Federal em 11 de outubro de 2005, discutiu-se a exclusão de associado da União Brasileira de Compositores.
 
-Alguns autores usam a expressão **eficácia diagonal** para relações privadas assimétricas, como trabalho e consumo. É terminologia doutrinária, não categoria constitucional autônoma necessária para resolver o tema.
+A entidade era privada, mas ocupava posição relevante para o exercício profissional do associado. A maioria exigiu, no caso concreto, devido processo, contraditório e ampla defesa. O acórdão tornou-se exemplo clássico de **aplicação direta de direitos fundamentais em relação privada**.
 
-## 8. Tratados de direitos humanos no Brasil
+A intensidade da incidência depende do direito, da relação e do poder efetivamente exercido.
 
-### 8.1 Rito qualificado do art. 5º, § 3º
+## 7. Tratados de direitos humanos no direito brasileiro
 
-Para equivaler a emenda constitucional, o tratado ou convenção internacional sobre direitos humanos deve ser aprovado:
+Quando um tratado de direitos humanos ingressa no direito interno, a primeira pergunta é: **qual foi o rito de aprovação?**
+
+### 7.1 Rito qualificado
+
+Pelo artigo 5º, § 3º, o tratado ou convenção sobre direitos humanos será equivalente a emenda constitucional se aprovado:
 
 - em **cada Casa** do Congresso Nacional;
 - em **dois turnos**;
 - por **três quintos** dos votos dos respectivos membros.
 
-Exemplos aprovados pelo rito qualificado incluem a Convenção sobre os Direitos das Pessoas com Deficiência e seu Protocolo Facultativo, o Tratado de Marraqueche e a Convenção Interamericana contra o Racismo.
+Exemplos aprovados por esse procedimento: Convenção sobre os Direitos das Pessoas com Deficiência e seu Protocolo Facultativo, Tratado de Marraqueche e Convenção Interamericana contra o Racismo.
 
-### 8.2 Tratados de direitos humanos sem o rito do § 3º
+Ser tratado de direitos humanos, sozinho, **não basta** para equivaler a emenda constitucional.
 
-Na posição majoritária firmada pelo STF no **RE 466.343/SP**, tratados de direitos humanos incorporados sem o rito qualificado possuem status **supralegal**:
+### 7.2 Sem o rito qualificado: supralegalidade
+
+No Recurso Extraordinário 466.343, originário de São Paulo, o Supremo Tribunal Federal firmou a posição de que tratados de direitos humanos incorporados sem o rito do § 3º possuem **status supralegal**.
+
+Supralegal significa estar **abaixo da Constituição e acima da legislação ordinária**:
 
 **Constituição > tratado de direitos humanos supralegal > legislação ordinária.**
 
-Logo:
+Tratados internacionais comuns permanecem, em regra, em nível infraconstitucional equivalente ao da legislação ordinária, ressalvados regimes constitucionais específicos.
 
-- não equivalem automaticamente a emenda constitucional;
-- ficam acima da legislação ordinária;
-- não se tornam supraconstitucionais.
+### 7.3 Depositário infiel: o efeito prático da hierarquia
 
-Tratados internacionais comuns possuem, em regra, nível infraconstitucional equivalente ao da legislação ordinária, ressalvados regimes constitucionais específicos.
+A Convenção Americana sobre Direitos Humanos foi central na discussão sobre prisão civil do depositário infiel. A Súmula Vinculante 25 do Supremo Tribunal Federal estabelece que é ilícita essa prisão, qualquer que seja a modalidade do depósito.
 
-### 8.3 Depositário infiel: exemplo clássico
+A Convenção **não revogou o texto do artigo 5º, LXVII**. Como tratado de direitos humanos supralegal, tornou inaplicável a legislação infraconstitucional incompatível que permitia concretizar a prisão.
 
-A **Súmula Vinculante 25** estabelece ser ilícita a prisão civil de depositário infiel, qualquer que seja a modalidade do depósito.
+Essa é a lógica a guardar: tratado supralegal controla a lei incompatível, mas não supera a Constituição.
 
-A consequência teórica importante é esta: a Convenção Americana sobre Direitos Humanos **não revogou o texto do art. 5º, LXVII**. O status supralegal do tratado tornou inaplicável a legislação infraconstitucional incompatível que viabilizava a prisão.
+## 8. Restrições, colisões e proporcionalidade
 
-## 9. Restrições, colisões e proporcionalidade
+Direitos fundamentais não são, em regra, absolutos. Podem encontrar limites diretamente na Constituição, em lei constitucionalmente autorizada ou na convivência com outros direitos e bens constitucionais.
 
-Direitos fundamentais não são, em regra, absolutos. Podem encontrar limites:
+Isso não é licença para restringir. A medida precisa de fundamento jurídico, autoridade competente, finalidade legítima e justificação controlável. A invocação genérica de “interesse público” não basta.
 
-- diretamente na Constituição;
-- em lei constitucionalmente autorizada;
-- na convivência com outros direitos e bens constitucionais.
-
-Isso não significa liberdade para restringir. A medida deve possuir fundamento constitucional, competência, finalidade legítima e justificativa proporcional. A invocação genérica de “interesse público” não basta.
-
-### 9.1 Proporcionalidade em três perguntas
+### 8.1 Três testes de proporcionalidade
 
 1. **adequação:** a medida contribui para o fim legítimo?
-2. **necessidade:** existe alternativa igualmente eficaz e menos restritiva?
+2. **necessidade:** há alternativa igualmente eficaz e menos restritiva?
 3. **proporcionalidade em sentido estrito:** o benefício constitucional justifica o sacrifício imposto?
 
-Em colisões, não há hierarquia abstrata automática entre direitos fundamentais. A **concordância prática** busca preservar o máximo possível dos bens em conflito mediante fundamentação concreta.
+Exemplo hipotético: proibir integralmente uma manifestação pacífica apenas porque a autoridade invoca “interesse público” é insuficiente. É preciso demonstrar o risco, a utilidade da medida, a inexistência de alternativa menos restritiva e a justificabilidade do sacrifício.
 
-### 9.2 Cláusula pétrea — somente a regra essencial
+Em colisões, não existe hierarquia abstrata automática entre direitos fundamentais. A **concordância prática** procura preservar, tanto quanto possível, os bens em conflito mediante fundamentação concreta.
 
-O art. 60, § 4º, IV, impede proposta de emenda **tendente a abolir direitos e garantias individuais**.
+### 8.2 Cláusula pétrea
 
-Para este assunto, basta evitar dois extremos:
+O artigo 60, § 4º, IV, impede proposta de emenda tendente a abolir **direitos e garantias individuais**.
 
-- cláusula pétrea não significa que nenhuma disciplina de direito fundamental possa ser alterada;
-- também não permite esvaziar ou abolir a proteção constitucional por simples mudança formal.
+A regra protege contra abolição ou esvaziamento, mas não congela toda disciplina jurídica: nem toda alteração é proibida, nem uma reforma formal pode eliminar a proteção preservada.
 
-## 10. Relação entre proteção constitucional e internacional
+## 9. Proteção constitucional e internacional: duas camadas que se conectam
 
-A Constituição de 1988 combina:
+A Constituição de 1988 aproxima os dois planos:
 
-- **dignidade da pessoa humana** como fundamento da República;
-- **prevalência dos direitos humanos** nas relações internacionais;
-- abertura do catálogo pelo art. 5º, § 2º;
-- regime constitucional próprio para tratados de direitos humanos.
+- **dignidade da pessoa humana** é fundamento da República;
+- **prevalência dos direitos humanos** rege as relações internacionais;
+- o artigo 5º, § 2º, mantém o catálogo materialmente aberto;
+- o artigo 5º, § 3º, prevê regime especial para tratados de direitos humanos.
 
-A proteção internacional é **complementar ou subsidiária** à proteção interna; não funciona como recurso ordinário para reexaminar qualquer decisão nacional.
+A proteção internacional é complementar ou subsidiária à interna; seus mecanismos não são recurso ordinário para reexaminar qualquer decisão nacional.
 
-Para o recorte deste assunto, a pergunta central não é decorar o fluxo completo dos sistemas internacionais, mas compreender que direitos humanos e direitos fundamentais podem proteger o mesmo conteúdo em planos jurídicos distintos e interligados.
+O mesmo conteúdo pode, portanto, receber **proteção internacional e constitucional simultaneamente**, com fontes, hierarquias e mecanismos distintos.
 
-## 11. Questão oficial e estilo de cobrança
+## 10. Encadeamento para questões
 
-No concurso do **TRF da 6ª Região**, Cebraspe, prova aplicada em **19/01/2025**, caderno **034_TRF6_CG6_01**, conhecimentos gerais dos cargos 27 e 28 de Técnico Judiciário, o **item 32** afirmou que a liberdade de expressão é direito de primeira geração ou dimensão.
+Reconstrua seis perguntas:
 
-O gabarito oficial definitivo marcou o item como **Certo**.
+1. a proteção está no plano internacional ou constitucional interno?
+2. o titular é compatível com o direito invocado?
+3. o direito exige defesa, prestação, proteção ou procedimento?
+4. a relação é com o Estado ou entre particulares?
+5. se houver tratado, ele seguiu o rito do artigo 5º, § 3º?
+6. se houver restrição, ela tem fundamento e supera adequação, necessidade e proporcionalidade em sentido estrito?
 
-Esse exemplo revela uma cobrança típica: associação entre **direito concreto + dimensão histórica**, sem exigir reconstrução doutrinária excessiva.
-
-## 12. Pegadinhas de prova
-
-1. **Direitos humanos ≠ direitos fundamentais materialmente opostos.** A diferença central é o plano de positivação.
-2. **Geração/dimensão posterior não substitui a anterior.**
-3. **Universalidade ≠ todo direito para todo titular nas mesmas condições.**
-4. **Irrenunciabilidade ≠ proibição de qualquer não exercício ou consentimento pontual.**
-5. **Imprescritibilidade do direito ≠ imprescritibilidade automática de toda pretensão indenizatória.**
-6. **Direito fundamental não é absoluto.** Restrição exige justificativa constitucional.
-7. **Aplicação imediata ≠ eficácia plena de toda norma.**
-8. **Art. 5º não contém catálogo fechado.**
-9. **Pessoa jurídica pode titularizar direitos compatíveis com sua natureza.**
-10. **Eficácia horizontal = incidência entre particulares.**
-11. **Todo tratado de direitos humanos não é automaticamente equivalente a emenda.**
-12. **Rito do § 3º = cada Casa + dois turnos + três quintos.**
-13. **Supralegal ≠ supraconstitucional.**
-14. **CADH não apagou o art. 5º, LXVII.**
-15. **§ 4º do art. 5º = TPI, não Corte Interamericana de Direitos Humanos.**
-16. **Interesse público abstrato não decide sozinho colisão de direitos.**
-
-## 13. Método rápido de resolução
-
-1. Identifique se a questão está no plano **internacional** ou **constitucional interno**.
-2. Separe **direito** de **garantia**, sem absolutizar a distinção.
-3. Nas características, procure a ressalva: universalidade, irrenunciabilidade e imprescritibilidade não eliminam todas as especificidades jurídicas.
-4. Nas dimensões, pense em **cumulatividade**.
-5. Em aplicabilidade, não confunda **imediata** com **plena**.
-6. Em relações privadas, lembre a eficácia **horizontal**.
-7. Em tratados, descubra primeiro **qual foi o rito de aprovação**.
-8. Em restrições, pergunte por fundamento, adequação, necessidade e proporcionalidade.
+Alternativas que transformam regra relativa em absoluta são suspeitas: “todo tratado de direitos humanos é emenda”, “todo direito fundamental é ilimitado”, “aplicação imediata significa eficácia plena” ou “particulares nunca se vinculam a direitos fundamentais”.
