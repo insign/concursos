@@ -1,190 +1,103 @@
 ---
 schemaVersion: 1
 title: "Invasão e expulsão dos holandeses do Maranhão"
-description: "Contexto atlântico, conquista neerlandesa de São Luís, administração da WIC, resistência local e expulsão entre 1641 e 1644."
+description: "Contexto atlântico, conquista de São Luís, lógica da ocupação neerlandesa, resistência local e expulsão entre 1641 e 1644."
 order: 74
 storageId: invasao-expulsao-holandeses
 ---
 
 # Invasão e expulsão dos holandeses do Maranhão
 
-## 1. Recorte do edital
+## 1. Como São Luís caiu em 1641, mas o domínio neerlandês terminou em 1644?
 
-O item cobra a **invasão e a expulsão dos holandeses no Maranhão**. Para prova, a linha central é:
+A conquista de uma capital e o controle de uma região são problemas diferentes. Em **1641**, uma expedição neerlandesa tomou São Luís com rapidez. Para transformar essa vitória em domínio duradouro, porém, os ocupantes precisavam manter navios e suprimentos, defender posições, circular pelos rios e caminhos, acessar áreas produtivas e sustentar alianças locais. Foi justamente nesse segundo problema que a ocupação se mostrou vulnerável.
 
-$$
-1641\ (\text{conquista}) \rightarrow 1642\ (\text{sublevação}) \rightarrow 1643\ (\text{recuperação progressiva}) \rightarrow 1644\ (\text{expulsão})
-$$
+A sequência do conflito fica mais fácil de entender como uma mudança de iniciativa. **1641** marca a conquista de São Luís; em **1642**, uma resistência organizada se abriu no vale do Itapecuru; em **1643**, a guerra continuou apesar da perda de uma de suas principais lideranças e o controle neerlandês se estreitou; em **1644**, a ocupação terminou.
 
-O objetivo é compreender **por que a ocupação ocorreu, como São Luís foi tomada, por que o domínio neerlandês se tornou frágil, onde surgiu a resistência e como se chegou à expulsão**. Detalhes de inventários econômicos, cifras militares e microdatas documentais só importam quando ajudam a resolver essas relações.
+O edital usa a expressão **holandeses**. Neste capítulo, **neerlandês** designa de forma mais ampla os agentes das Províncias Unidas dos Países Baixos, a república que combatia a Monarquia Hispânica no século XVII.
 
-> **Chave de leitura:** a vitória neerlandesa de 1641 não produziu domínio estável; a resistência iniciada em 1642 desgastou a ocupação, recuperou a iniciativa em 1643 e encerrou o domínio neerlandês em 1644.
+## 2. Por que uma guerra europeia chegou ao Maranhão?
 
-## 2. Contexto: União Ibérica, WIC e Restauração portuguesa
+Entre **1580 e 1640**, Portugal esteve unido dinasticamente à Monarquia Hispânica na chamada **União Ibérica**. Como as Províncias Unidas estavam em guerra contra a monarquia governada pelos Habsburgo espanhóis, rotas e possessões portuguesas passaram a integrar o espaço do conflito.
 
-Durante a **União Ibérica (1580-1640)**, Portugal e seus domínios ficaram sob os reis da Monarquia Hispânica. A guerra das Províncias Unidas contra a Espanha passou, assim, a alcançar também rotas e possessões portuguesas.
+Nesse cenário surgiu, em **1621**, a **Companhia Neerlandesa das Índias Ocidentais (<abbr title="Companhia Neerlandesa das Índias Ocidentais">WIC</abbr>)**. Ela não era apenas uma empresa de comércio: recebeu privilégios para negociar, guerrear, conquistar e administrar posições no Atlântico. A ocupação de Pernambuco a partir de 1630 deu à companhia uma base militar e naval no Nordeste para novas operações.
 
-A **Companhia Neerlandesa das Índias Ocidentais (WIC)**, criada em **1621**, recebeu privilégios comerciais e poderes de guerra e administração no Atlântico. No Brasil, os neerlandeses ocuparam Pernambuco a partir de 1630 e projetaram sua presença pelo litoral setentrional.
+Em dezembro de **1640**, Portugal rompeu a União Ibérica e reconheceu D. João IV como rei. Essa mudança, contudo, não apagou de imediato forças, ordens, interesses e operações já montados no ultramar. Por isso não há contradição cronológica em afirmar que a Restauração portuguesa ocorreu em 1640 e que a invasão do Maranhão veio **depois**, em 1641.
 
-Portugal recuperou uma dinastia própria em **dezembro de 1640**, com D. João IV. Isso, porém, **não encerrou instantaneamente a guerra ultramarina**: comunicações eram lentas, operações e interesses da WIC continuavam em curso e a diplomacia europeia não se aplicava de modo automático aos diferentes espaços coloniais.
+O elo causal é este: **União Ibérica ampliou os alvos da guerra neerlandesa; a <abbr title="Companhia Neerlandesa das Índias Ocidentais">WIC</abbr> transformou essa guerra em expansão atlântica; a Restauração portuguesa não interrompeu instantaneamente a dinâmica militar colonial.**
 
-### Pegadinha
+## 3. O que o Maranhão oferecia — e por que não era “outro Pernambuco”
 
-**Restauração portuguesa de 1640 ≠ paz imediata com a WIC no ultramar.** A invasão do Maranhão ocorreu em 1641, já depois da ruptura da União Ibérica.
+Reduzir o interesse neerlandês ao açúcar perde a lógica regional. Relatórios ligados à <abbr title="Companhia Neerlandesa das Índias Ocidentais">WIC</abbr> tratavam o Maranhão como uma fronteira estratégica do Atlântico norte: importavam o porto de São Luís, as fortificações, os rios, as possibilidades de circulação para o extremo norte e a Amazônia, as alianças indígenas e produtos como madeira, tabaco, algodão e açúcar.
 
-## 3. Por que o Maranhão interessava aos neerlandeses
+A geografia também impunha um modo próprio de ocupação. O Maranhão se articulava por rios, canais, ilhas, caminhos e redes locais que não podiam ser controlados apenas a partir do porto da capital. Pernambuco serviu de base para a expedição, mas o espaço maranhense tinha dinâmica territorial própria.
 
-A ocupação não pode ser explicada apenas pelo açúcar. O Maranhão tinha valor **militar, portuário, econômico e geográfico**. A WIC buscava:
+Isso produz um contraste decisivo:
 
-- controlar **São Luís, seu porto e suas fortificações**;
-- ampliar a projeção do Brasil neerlandês pelo litoral norte;
-- acessar produtos regionais, como açúcar, tabaco, algodão e madeiras;
-- conhecer e utilizar rios, caminhos e redes de abastecimento;
-- aproximar-se das rotas do extremo norte e da Amazônia;
-- construir alianças locais, inclusive indígenas.
-
-O interesse econômico era real, mas **projeto de exploração não equivale a realização plena**. A ocupação foi curta e contestada, o que limitou a capacidade da WIC de transformar seus planos em controle duradouro.
-
-## 4. A conquista de São Luís em 1641
-
-A expedição partiu do espaço controlado pelos neerlandeses no Nordeste. Os dois nomes operacionais mais importantes são:
-
-| Personagem | Papel |
+| Conquistar São Luís | Sustentar o Maranhão |
 |---|---|
-| **Jan Cornelisz Lichthart** | comandante naval associado à conquista |
-| **Koin Anderson** | oficial associado ao comando militar da operação |
+| vencer a defesa inicial e ocupar o núcleo político | garantir abastecimento, rios, caminhos, áreas produtivas e posições dispersas |
+| concentrar força em um ataque | manter força no tempo e no território |
+| obter vitória militar | construir controle político e logístico |
 
-**João Maurício de Nassau** governava o Brasil neerlandês no período, mas **não comandou pessoalmente o ataque a São Luís**. Essa distinção é recorrente em questões.
+A ocupação foi curta e contestada. Portanto, projetos econômicos registrados pelos neerlandeses mostram **o que pretendiam explorar**, não provam que todos esses planos tenham sido realizados.
 
-O governador português **Bento Maciel Parente** foi capturado com outras autoridades, e a defesa inicial não conseguiu impedir a tomada de São Luís.
+## 4. 1641: a tomada de São Luís
 
-### 4.1. Data da conquista
+A operação saiu do espaço controlado pelos neerlandeses no Nordeste. Documentação da própria companhia associa **Jan Cornelisz Lichthart** ao comando naval e **Koin Anderson** ao comando militar da expedição. **João Maurício de Nassau** governava o Brasil neerlandês, mas não comandou pessoalmente o ataque a São Luís.
 
-O essencial é **1641**. Fontes podem registrar atos distintos no fim de outubro ou em novembro: ataque, bombardeio, chegada, rendição e consolidação não são necessariamente o mesmo instante. O Rijksmuseum, por exemplo, conserva gravura que associa o bombardeio e a conquista de *Maragnon* a **30 de outubro de 1641**.
+A defesa portuguesa não conseguiu impedir a tomada da cidade. O governador **Bento Maciel Parente** foi capturado com outras autoridades, e os ocupantes passaram a controlar o principal núcleo político e portuário da capitania.
 
-Para prova de conteúdo geral, prefira:
+As fontes não usam sempre a mesma microdata porque podem registrar atos distintos da operação. O Rijksmuseum, por exemplo, conserva uma gravura que relaciona o bombardeio e a conquista de *Maragnon* a **30 de outubro de 1641**, enquanto outras narrativas situam etapas da ocupação em novembro. Para organizar a cronologia sem misturar acontecimentos diferentes, retenha primeiro o dado seguro: **São Luís foi conquistada em 1641**.
 
-> **São Luís foi conquistada pelos neerlandeses em 1641.**
+## 5. Por que a vitória inicial não produziu domínio estável
 
-Só adote um dia específico quando o enunciado indicar a fonte ou o ato a que se refere.
+Depois da conquista, o problema mudou. A <abbr title="Companhia Neerlandesa das Índias Ocidentais">WIC</abbr> precisava alimentar guarnições, manter comunicação marítima, proteger posições fora de São Luís e controlar circuitos fluviais e produtivos. Também dependia de informação, transporte e alianças que só existiam por meio de redes locais.
 
-## 5. Ocupação neerlandesa: força inicial e fragilidade territorial
+Isso ajuda a entender o papel dos **povos indígenas**. Neerlandeses e portugueses buscaram aliados indígenas para combate, navegação em canoas, reconhecimento de rios e caminhos, abastecimento, tradução e circulação de informações. Não existia, porém, um bloco político chamado “os indígenas”: comunidades e lideranças podiam ter interesses diferentes e rever alianças conforme o conflito avançava.
 
-Tomar a capital não bastava. Para sustentar a ocupação, a WIC precisava assegurar:
+O mesmo vale para os moradores de origem portuguesa. A ocupação não criou uma reação única e instantânea. A resistência organizada ganhou forma ao longo de 1642, quando setores locais passaram da convivência tensa e da contestação para uma guerra aberta contra o governo ocupante.
 
-- abastecimento;
-- comunicações marítimas;
-- defesa de posições dispersas;
-- acesso às áreas produtivas e aos rios;
-- cooperação de moradores e aliados;
-- informação sobre caminhos e território.
+## 6. 1642: o Itapecuru transforma resistência em guerra regional
 
-A dependência de Pernambuco, de suprimentos e de redes locais tornou a ocupação vulnerável. Assim, a conquista relativamente rápida de São Luís **não significa aceitação geral nem domínio uniforme da capitania**.
+O núcleo inicial da **sublevação**, isto é, da resistência aberta ao poder ocupante, ganhou força no **vale do Itapecuru** na segunda metade de setembro de **1642**. A região importava porque reunia propriedades, produção, rios e caminhos fora do espaço mais protegido da capital.
 
-A economia maranhense também não deve ser tratada como simples reprodução de Pernambuco. A região combinava lavouras, extração, navegação fluvial, trabalho compulsório e redes locais. O açúcar integrava os interesses da WIC, mas não resume a ocupação.
+**Antônio Muniz Barreiros Filho** foi uma liderança central dessa primeira fase. Sua importância não deve ser convertida em explicação individual do movimento: proprietários, moradores, soldados e aliados indígenas participaram de maneiras distintas.
 
-## 6. Povos indígenas e alianças
+O efeito estratégico da sublevação foi maior que a simples abertura de uma nova frente. Para os neerlandeses, já não bastava conservar São Luís; era preciso defender abastecimento, circulação e posições no interior. Para os resistentes, atacar essas redes diminuía a vantagem de quem controlava a capital.
 
-A guerra não foi exclusivamente europeia. Neerlandeses e portugueses procuraram **alianças indígenas**, e diferentes comunidades e lideranças agiram segundo seus próprios interesses e conflitos.
+As fontes divergem em alguns dias ao datar o início da mobilização. Essa diferença é menos importante que o mecanismo histórico: **a ocupação de 1641 encontrou, em 1642, uma resistência capaz de transformar o controle da cidade em uma guerra pelo território.**
 
-Entre as funções exercidas por indígenas estavam:
+## 7. 1643-1644: a resistência sobrevive à troca de liderança e chega à expulsão
 
-- combate e defesa;
-- navegação em canoas;
-- reconhecimento de rios e caminhos;
-- abastecimento;
-- tradução e negociação;
-- circulação de informações.
+Antônio Muniz morreu no início de **1643**, mas a resistência não se desfez. **Antônio Teixeira de Melo** tornou-se uma liderança central da fase seguinte, em que os resistentes continuaram a pressionar posições, comunicações e capacidade de abastecimento neerlandesas.
 
-Duas conclusões são importantes:
+Por isso, **1643** deve ser entendido como um período de continuidade e recuperação progressiva, e não como uma “expulsão antecipada”. O ponto pedagógico é perceber que a guerra sobreviveu à morte de uma liderança e que o domínio neerlandês foi sendo reduzido antes do desfecho.
 
-1. **“os indígenas” não formavam um bloco político único**;
-2. alianças podiam ser negociadas, modificadas ou rompidas.
+Em **1644**, a ocupação terminou. Consultas do Conselho Ultramarino de julho daquele ano já tratavam a expulsão dos neerlandeses e a recuperação do Maranhão como fatos consumados e vinculavam Antônio Teixeira de Melo aos serviços da reconquista. A data de **28 de fevereiro de 1644** aparece tradicionalmente como marco da retirada final; quando a questão não exigir uma microdata, o essencial é a relação **1644 = fim do domínio político-militar neerlandês organizado no Maranhão**.
 
-Isso ajuda a explicar por que a capacidade de controlar redes locais era decisiva para ambos os lados.
+O processo inteiro, portanto, não foi “invasão seguida de retirada”: foi **conquista da capital → dificuldade de controlar redes territoriais → sublevação no Itapecuru → continuidade da guerra e perda de posições → expulsão**.
 
-## 7. A sublevação de 1642
+## 8. O que mudou com a expulsão — e o que não mudou
 
-A resistência organizada ganhou força no **vale do Itapecuru**, espaço de propriedades, rios, caminhos e áreas produtivas fora do núcleo mais protegido de São Luís.
+A expulsão restabeleceu o domínio português em São Luís e no Maranhão, exigiu reorganização do governo e da defesa e interrompeu a tentativa da <abbr title="Companhia Neerlandesa das Índias Ocidentais">WIC</abbr> de consolidar essa frente territorial no extremo norte.
 
-A formulação cronológica mais segura é: **a sublevação começou em 1642**, na segunda metade de setembro. O projeto Impressões Rebeldes, da UFF, trabalha com **19 de setembro de 1642** para o início da Restauração do Maranhão; outras narrativas registram dias próximos para episódios da mobilização.
-
-O ponto de prova é menos a disputa pelo dia exato e mais a sequência:
-
-$$
-\text{ocupação de São Luís} \rightarrow \text{resistência no Itapecuru} \rightarrow \text{guerra regional}
-$$
-
-### 7.1. Antônio Muniz Barreiros Filho
-
-**Antônio Muniz Barreiros Filho** foi uma liderança central da fase inicial da resistência. Sua atuação, porém, não transforma a sublevação em obra individual: moradores, proprietários, soldados e indígenas participaram de formas diferentes.
-
-A morte de Antônio Muniz no início de **1643** não encerrou a guerra. A resistência foi reorganizada e continuou a pressionar posições, abastecimento e comunicações neerlandesas.
-
-## 8. 1643: recuperação progressiva
-
-Em **1643**, a resistência passou a recuperar áreas e a reduzir a capacidade de controle da WIC. Esse avanço deve ser entendido como **restauração progressiva do território e da iniciativa militar**, não como expulsão já concluída.
-
-**Antônio Teixeira de Melo** tornou-se personagem central da fase decisiva. Documentos do Conselho Ultramarino de 1644 atribuem a ele papel importante na recuperação do Maranhão e discutem sua nomeação e recompensa pelos serviços prestados.
-
-### Não confunda
-
-| 1643 | 1644 |
-|---|---|
-| recuperação progressiva de áreas e da iniciativa | fim do domínio político-militar neerlandês |
-| resistência ganha vantagem | expulsão consolidada |
-
-## 9. Expulsão em 1644
-
-O domínio neerlandês terminou em **1644**. A data tradicional para a retirada final é **28 de fevereiro de 1644**, mas, para o recorte do edital, o ano e o sentido histórico são mais importantes que decorar termos de capitulação que não aparecem de modo uniforme nas fontes.
-
-Documentos administrativos portugueses de julho de 1644 já tratavam a expulsão e a recuperação da capitania como fatos consumados e associavam Antônio Teixeira de Melo ao desfecho.
-
-Portanto:
-
-> **1641 = conquista neerlandesa; 1642 = sublevação; 1643 = recuperação progressiva; 1644 = expulsão.**
-
-## 10. Consequências
-
-A expulsão:
-
-- restabeleceu o domínio português em São Luís e no Maranhão;
-- exigiu reorganização do governo e da defesa;
-- limitou a expansão setentrional da WIC;
-- preservou a conexão portuguesa do Maranhão com o Grão-Pará.
-
-Ela **não encerrou toda a guerra luso-neerlandesa no Brasil**. Em Pernambuco, o domínio neerlandês continuou e a **Insurreição Pernambucana começou em 1645**.
-
-### Maranhão × Pernambuco
+Ela não encerrou a guerra luso-neerlandesa no Brasil. A cronologia de Pernambuco é outra:
 
 | Maranhão | Pernambuco |
 |---|---|
-| invasão em 1641 | domínio neerlandês desde 1630 |
-| sublevação em 1642 | Insurreição Pernambucana em 1645 |
-| expulsão em 1644 | domínio neerlandês termina em 1654 |
+| conquista neerlandesa: **1641** | ocupação neerlandesa desde **1630** |
+| sublevação: **1642** | Insurreição Pernambucana: **1645** |
+| expulsão: **1644** | fim do domínio neerlandês: **1654** |
 
-Assim, a resistência maranhense **precedeu** a Insurreição Pernambucana e não deve ser apresentada como simples episódio dela.
+Assim, a resistência maranhense **precedeu** a Insurreição Pernambucana. Tratar os dois processos como se fossem a mesma revolta apaga a diferença de tempo, espaço e dinâmica militar.
 
-## 11. Termos que podem aparecer na prova
+## 9. Três contrastes que resolvem a maior parte das questões
 
-- **Holandês:** expressão consagrada no edital e na historiografia brasileira.
-- **Neerlandês:** termo mais abrangente para os agentes das Províncias Unidas.
-- **WIC:** companhia privilegiada; não é sinônimo de toda a população neerlandesa.
-- **Sublevação:** resistência aberta contra o governo ocupante.
-- **Restauração:** recuperação do domínio português.
-- **Expulsão:** fim do domínio político-militar neerlandês organizado no Maranhão.
+**Conquista da capital ≠ domínio estável.** A tomada de São Luís em 1641 deu aos neerlandeses o centro político e portuário, mas controlar o Maranhão exigia dominar redes de abastecimento, rios, caminhos, áreas produtivas e alianças.
 
-## 12. Pegadinhas
+**1642 ≠ 1644.** A sublevação abriu a guerra regional em 1642; a expulsão encerrou o domínio neerlandês em 1644. Entre as duas datas houve desgaste, continuidade da resistência e mudança de liderança.
 
-- Nassau **não** comandou pessoalmente a frota que tomou São Luís.
-- A invasão ocorreu em **1641**, depois da Restauração portuguesa de 1640.
-- A WIC tinha interesses mais amplos que o açúcar.
-- A tomada rápida de São Luís não significou domínio estável da capitania.
-- A resistência organizada teve núcleo importante no **Itapecuru**.
-- Antônio Muniz foi liderança inicial, mas a resistência foi coletiva.
-- A morte de Antônio Muniz não encerrou a guerra.
-- **1643 ≠ 1644**: recuperação progressiva não é a retirada final.
-- Antônio Teixeira de Melo é personagem-chave da fase decisiva.
-- A resistência maranhense começou antes da Insurreição Pernambucana.
-- Povos indígenas foram agentes do conflito e não um bloco homogêneo.
-- Cifras e microdatas devem ser usadas com cautela quando as fontes descrevem atos distintos.
+**Maranhão ≠ Pernambuco.** A <abbr title="Companhia Neerlandesa das Índias Ocidentais">WIC</abbr> atuou nos dois espaços, mas as cronologias não coincidem. No Maranhão, a ocupação durou de 1641 a 1644; em Pernambuco, o domínio neerlandês começou antes e terminou apenas em 1654.
+
+Se esses três contrastes estiverem claros, nomes e datas deixam de ser uma lista isolada: **Lichthart e Koin** pertencem à conquista; **Antônio Muniz** à fase inicial da resistência; **Antônio Teixeira de Melo** à fase decisiva da recuperação.
