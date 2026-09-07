@@ -8,305 +8,121 @@ storageId: balaiada-caracterizacao-causas
 
 # Balaiada: caracterização e causas
 
-## 1. Objeto e chave de leitura
+## Como um conflito local virou uma guerra popular
 
-A **Balaiada** foi um movimento social, político e armado ocorrido principalmente no Maranhão e no Piauí, com repercussões no Ceará, entre o fim de **1838 e 1841**. Ela reuniu grupos heterogêneos: sertanejos livres pobres, vaqueiros, lavradores, artesãos, pequenos fazendeiros, indígenas, libertos, escravizados fugidos e quilombolas, além de setores liberais de oposição ao governo provincial.
+No fim de **1838**, uma prisão ligada ao recrutamento militar em uma vila do interior do Maranhão desencadeou uma reação armada. O episódio, porém, só se transformou na **Balaiada** porque encontrou tensões acumuladas: desigualdade no acesso à terra e ao poder, escravidão, dificuldades econômicas, disputa entre grupos políticos rivais da província e formas de controle impostas pela força à população pobre.
 
-O edital cobra sua **caracterização e suas causas**. Portanto, a pergunta central não é decorar uma sequência de batalhas, mas compreender como diferentes conflitos convergiram:
+Entre **1838 e 1841**, o movimento alcançou grande parte do interior maranhense e do Piauí, com repercussões no Ceará. Reuniu vaqueiros, lavradores, artesãos, pequenos proprietários, indígenas, negros livres, libertos — pessoas juridicamente libertadas da escravidão —, escravizados fugidos e quilombolas — integrantes de comunidades que resistiam ao controle escravista —, além de setores liberais de oposição. Esses grupos podiam enfrentar os mesmos adversários sem defender o mesmo projeto.
 
-$$
-\text{estrutura agrária e escravista}
-+ \text{dificuldades econômicas}
-+ \text{disputa política provincial}
-+ \text{coerção estatal}
-\rightarrow \text{Balaiada}
-$$
+Essa é a chave do assunto: **a Balaiada foi popular e heterogênea, teve causas múltiplas e não permaneceu sob o controle das elites que participaram de sua mobilização inicial**.
 
-Três distinções orientam todo o assunto:
+## O terreno do conflito: Regência, interior e desigualdade
 
-1. **causas estruturais** criaram tensões duradouras, como concentração fundiária, escravidão e exclusão política;
-2. **causas conjunturais** agravaram essas tensões, como dificuldades da economia algodoeira e disputa entre facções provinciais;
-3. o **estopim** foi um episódio concreto de prisão e recrutamento na comitiva de Raimundo Gomes, seguido da invasão da cadeia da Vila da Manga.
+A Balaiada ocorreu no fim do **Período Regencial**, fase do Império iniciada após a abdicação de Dom Pedro I, em 1831, na qual o país foi governado por regentes até a maioridade de Pedro II, em 1840. Nesse período, o Império ainda buscava consolidar sua autoridade sobre províncias e localidades distantes. Reformas haviam ampliado espaços de decisão provincial, mas isso não eliminou a disputa por presidências, cargos, eleições, polícia e forças armadas. Para a população livre pobre, a presença do Estado podia aparecer concretamente como recrutamento, prisão e perseguição.
 
-Uma causa não exclui as demais. A Balaiada não foi simples reação à crise do algodão, mero plano dos liberais nem levante espontâneo sem conteúdo político.
+No Maranhão Oriental conviviam grandes propriedades escravistas voltadas à exportação, sobretudo de algodão e arroz, e uma economia de pequenos produtores, criadores e trabalhadores voltados também ao abastecimento interno. Havia ocupantes de terra sem título formal, migrantes vindos do Piauí e do Ceará e áreas em que o controle estatal era limitado.
 
-## 2. Recorte temporal e espacial
+As dificuldades da economia algodoeira agravaram esse quadro, mas não explicam a revolta sozinhas. Algodão e arroz não desapareceram, a economia não se tornou exclusivamente açucareira e proprietários, trabalhadores e pequenos produtores não sofreram os mesmos efeitos daquele momento econômico.
 
-### 2.1. Datação principal
+O Piauí também não foi simples extensão passiva de uma revolta maranhense. Ali, conflitos envolvendo grande propriedade pecuarista, ocupação da terra, dependência diante de fazendeiros, recrutamento e a longa autoridade de **Manuel de Sousa Martins, o Barão da Parnaíba**, deram base própria à mobilização.
 
-A datação mais segura para o conflito principal é **1838-1841**:
+## Quem disputava o poder: bem-te-vis, cabanos e Lei dos Prefeitos
 
-- em dezembro de 1838, ocorreu o episódio da Vila da Manga;
-- em 1839, o movimento se expandiu e alcançou grande capacidade militar;
-- em 1840, a repressão imperial combinou operações militares, anistia e divisão dos rebeldes;
-- em 1841, autoridades declararam a chamada pacificação;
-- em 1842, Negro Cosme foi executado, já depois do encerramento convencional da guerra.
+No Maranhão, dois rótulos ajudam a entender a disputa política provincial:
 
-Algumas obras usam 1839-1840 porque privilegiam o núcleo da campanha oficial. Isso não invalida 1838-1841 como recorte amplo.
-
-### 2.2. Um conflito interprovincial
-
-O levante começou na **Vila da Manga do Iguará**, atual Nina Rodrigues, no Maranhão, mas não ficou restrito a essa província. O principal espaço de circulação ligava:
-
-- o Maranhão Oriental;
-- Caxias e o vale do Itapecuru;
-- o vale do Parnaíba;
-- o norte e o interior do Piauí;
-- áreas de repercussão no Ceará.
-
-O rio Parnaíba separava administrativamente Maranhão e Piauí, mas também conectava pessoas, mercadorias, tropas e informações. Grupos rebeldes cruzavam a fronteira, enquanto a repressão tentava bloquear essa circulação.
-
-É impreciso dizer que o Piauí recebeu apenas uma cópia passiva da revolta maranhense. A província possuía causas próprias, ligadas à grande propriedade pecuarista, à expropriação de posseiros, à cobrança de dízimos, à dependência diante de fazendeiros, ao recrutamento e ao governo autoritário e clientelista de **Manuel de Sousa Martins, o Barão da Parnaíba**.
-
-## 3. Contexto regencial
-
-A Balaiada ocorreu no fim do **Período Regencial**. Depois da abdicação de D. Pedro I, em 1831, o Império procurava consolidar instituições, controlar as províncias e construir mecanismos de autoridade sobre localidades distantes.
-
-Esse processo combinava movimentos em sentidos diferentes:
-
-- reformas descentralizadoras haviam ampliado espaços políticos locais;
-- medidas posteriores reforçavam a autoridade central e provincial;
-- facções disputavam presidências, cargos, forças policiais e eleições;
-- populações livres pobres sofriam recrutamento e outras formas de coerção;
-- a sociedade permanecia escravista, hierarquizada e com cidadania restrita.
-
-Cabanagem, Sabinada, Farroupilha e Balaiada ocorreram nesse quadro, mas cada movimento teve composição e objetivos próprios. A semelhança temporal não autoriza confundi-los.
-
-## 4. Maranhão Oriental e estrutura social
-
-### 4.1. Plantation e economia camponesa
-
-O Maranhão era importante produtor de algodão e arroz em uma economia escravista voltada ao mercado externo. Contudo, a província não se resumia a uma monocultura homogênea.
-
-No Maranhão Oriental existiam também:
-
-- produção camponesa relativamente autônoma;
-- pecuária e abastecimento do mercado interno;
-- proprietários médios e pequenos fazendeiros;
-- posse e uso da terra nem sempre plenamente privatizados;
-- migrantes vindos do Piauí e do Ceará;
-- extensas áreas de controle estatal limitado.
-
-Conforme a síntese de Marcelo Cheche Galves sobre a obra de Matthias Röhrig Assunção, o antagonismo entre a **plantation escravista** e a **economia camponesa** foi uma pré-condição da Balaiada. A formulação não significa que todos os rebeldes defendessem uma reforma agrária moderna. Ela mostra que diferentes formas de produzir, ocupar a terra e exercer autoridade entravam em conflito.
-
-### 4.2. Três matrizes do campesinato
-
-Uma interpretação cobrada pelo <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> descreve três matrizes da formação camponesa maranhense:
-
-1. indígenas aldeados ou destribalizados;
-2. descendentes de africanos libertos, forros ou aquilombados;
-3. migrantes dos sertões vizinhos, especialmente cearenses e piauienses.
-
-Essas matrizes ajudam a compreender a diversidade social, mas não transformam todos os participantes em um grupo uniforme.
-
-### 4.3. Exclusão e cidadania restrita
-
-Grande parte da população livre pobre não controlava cargos, eleições ou forças armadas. Indígenas, pessoas negras, libertos e escravizados enfrentavam formas específicas de violência. A exclusão política não produziu passividade: recrutamentos, fugas, deserções, ataques, libertação de presos e ocupação de localidades eram ações com efeitos políticos, mesmo quando não deixavam um programa escrito centralizado.
-
-## 5. Causas econômicas: crise sem monocausalidade
-
-A explicação escolar mais conhecida relaciona a Balaiada à crise do algodão maranhense. Ela contém um elemento válido, mas precisa ser qualificada.
-
-### 5.1. O que pode ser afirmado
-
-- dificuldades no setor exportador afetaram renda, crédito e emprego;
-- a concorrência internacional pressionou o algodão maranhense;
-- grandes proprietários procuraram transferir custos para trabalhadores e dependentes;
-- pobreza e instabilidade aumentaram a vulnerabilidade do sertão;
-- produtores voltados ao mercado interno tinham interesses diferentes dos negociantes exportadores.
-
-### 5.2. O que deve ser evitado
-
-- dizer que algodão e arroz fracassaram por completo;
-- afirmar que a economia se tornou exclusivamente açucareira;
-- apresentar a concorrência norte-americana como causa única e automática;
-- ignorar pecuária, abastecimento interno e economia camponesa;
-- supor que todos os proprietários foram atingidos da mesma forma.
-
-Na <abbr title="Polícia Militar do Maranhão">PM/MA</abbr> de 2017, o Cebraspe considerou errado afirmar que a economia maranhense estava assentada na agroindústria açucareira porque algodão e arroz teriam fracassado completamente.
-
-## 6. Causas políticas: bem-te-vis, cabanos e poder local
-
-### 6.1. As facções
-
-Em termos gerais, a política provincial opunha:
-
-| Grupo | Caracterização básica |
+| Campo | O que representava, em linhas gerais |
 |---|---|
 | **bem-te-vis** | liberais de oposição, associados ao jornal *Bem-te-vi* e a redes contrárias ao governo provincial |
-| **cabanos** | conservadores ligados ao governo e à manutenção da ordem provincial |
+| **cabanos** | conservadores ou governistas ligados ao controle da administração provincial |
 
-Esses nomes indicavam facções oitocentistas, não partidos modernos com disciplina e programa uniformes. Alianças variavam conforme a localidade, o cargo e o interesse familiar.
+Não eram partidos modernos, uniformes e disciplinados. Também não se deve confundir os **cabanos maranhenses** com os participantes da **Cabanagem**, revolta ocorrida no Pará.
 
-Os bem-te-vis criticavam autoridades cabanas, articulavam oposição e tentaram aproveitar a mobilização popular. Mas **bem-te-vis não eram sinônimo de balaios**. Sertanejos, quilombolas e outras colunas desenvolveram interesses próprios, inclusive incompatíveis com os de proprietários liberais.
+A chamada **Lei dos Prefeitos** reforçou o poder do presidente da província — a autoridade que chefiava o governo provincial — ao permitir a nomeação de prefeitos e subprefeitos com atribuições administrativas e policiais. Isso ampliou a interferência do governo nas localidades, reduziu o espaço de autoridades locais, favoreceu redes governistas e ofereceu instrumentos para perseguir adversários.
 
-Os cabanos maranhenses também não devem ser confundidos com os participantes da **Cabanagem**, no Pará.
+Para os bem-te-vis, combater essa estrutura também significava disputar o governo provincial. Para muitos sertanejos pobres, porém, o problema era experimentado de forma mais imediata: prisões, violência de autoridades e recrutamento compulsório.
 
-### 6.2. Lei dos Prefeitos
+## Recrutamento: causa social, arma política e estopim
 
-A chamada **Lei dos Prefeitos** fortaleceu o presidente provincial ao permitir a nomeação de prefeitos e subprefeitos. Na prática, ela:
+O recrutamento militar atingia principalmente homens livres pobres. Retirá-los de suas famílias e do trabalho podia comprometer a subsistência doméstica; além disso, autoridades locais podiam empregá-lo seletivamente contra adversários.
 
-- ampliou a interferência do governo nas localidades;
-- deslocou atribuições antes exercidas por autoridades locais, como juízes de paz;
-- favoreceu redes cabanas;
-- forneceu instrumentos para perseguir adversários;
-- acirrou a oposição liberal e popular.
+Na Balaiada, ele aparece em três planos ao mesmo tempo:
 
-Em prova, associe a lei a **nomeação, centralização provincial e conflito local**. Ela não criou eleições diretas de prefeitos.
+1. **causa social**, porque tornava visível a desigualdade diante do Estado;
+2. **instrumento político**, porque podia ser usado em perseguições locais;
+3. **estopim**, porque prisões e recrutamentos na comitiva de Raimundo Gomes provocaram a reação na Vila da Manga.
 
-## 7. Recrutamento e violência cotidiana
+Em **13 de dezembro de 1838**, na Vila da Manga do Iguará, no Maranhão, integrantes da comitiva do vaqueiro **Raimundo Gomes**, conhecido como Cara Preta, foram presos ou recrutados; entre os detidos estava seu irmão. Raimundo reuniu apoiadores, tomou a cadeia, libertou presos e obteve armas. O dia **14 de dezembro** aparece em fontes ligado a manifesto ou afirmação pública de reivindicações: são atos sucessivos, não necessariamente datas concorrentes para o mesmo evento.
 
-O recrutamento militar compulsório atingia sobretudo homens livres pobres. Ele retirava trabalhadores das famílias e fazendas, submetia recrutas a deslocamentos e disciplina severa e podia ser usado contra adversários.
+A tomada da cadeia explica **quando** o conflito aberto começou. Não explica, sozinha, **por que** tantas pessoas aderiram. Essa diferença entre causa e estopim é uma das distinções mais importantes para a prova.
 
-Na Balaiada, o recrutamento funcionou em três níveis:
+## Por que o episódio da Manga se transformou em Balaiada
 
-1. **causa social**, porque expressava a desigualdade diante do Estado;
-2. **instrumento político**, porque autoridades locais podiam selecionar perseguidos;
-3. **estopim**, porque prisões na comitiva de Raimundo Gomes levaram à ação na Vila da Manga.
+A adesão se ampliou porque diferentes grupos reconheceram no conflito problemas que já viviam.
 
-Deserção, fuga e libertação de recrutados não eram apenas atos individuais. Quando articulados coletivamente, contestavam a capacidade do governo de mobilizar os corpos e o trabalho da população pobre.
+Vaqueiros, lavradores, artesãos e outros homens livres pobres podiam resistir ao recrutamento, às prisões e à dependência diante de grandes proprietários. Pequenos fazendeiros e oposicionistas tinham interesse em limitar autoridades governistas. Escravizados fugidos buscavam liberdade, e quilombolas lutavam contra captura e reescravização.
 
-## 8. O estopim na Vila da Manga
+Essa diversidade impede atribuir um programa único à Balaiada. Não é correto dizer que todos os balaios eram republicanos, separatistas, abolicionistas em sentido organizado ou seguidores permanentes dos bem-te-vis. Alguns invocavam a Constituição, a religião e até a figura do imperador contra abusos locais; grupos negros e quilombolas, por sua vez, deram à luta uma dimensão antiescravista muito mais radical.
 
-Em dezembro de 1838, o vaqueiro **Raimundo Gomes Vieira Jataí**, conhecido como Cara Preta, conduzia uma comitiva vinculada a um proprietário ligado aos bem-te-vis. Autoridades cabanas prenderam ou recrutaram integrantes do grupo e também o irmão de Raimundo Gomes.
+A formação da população camponesa — o **campesinato** — também ajuda a entender a heterogeneidade. Uma interpretação cobrada pelo <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> destaca três matrizes: indígenas aldeados ou destribalizados; descendentes de africanos libertos, forros ou aquilombados; e migrantes dos sertões vizinhos, especialmente cearenses e piauienses.
 
-Raimundo Gomes reagiu:
+Portanto, influência liberal e autonomia popular coexistiram. Os bem-te-vis ajudaram a abrir e articular o conflito, mas não controlaram todos os grupos que passaram a lutar.
 
-1. reuniu apoiadores;
-2. invadiu a cadeia da Vila da Manga;
-3. libertou os presos;
-4. obteve armas;
-5. atraiu novas adesões.
+## As lideranças mostram interesses diferentes
 
-As fontes costumam associar **13 de dezembro de 1838** à invasão e libertação. O dia **14 de dezembro** aparece ligado a manifesto ou afirmação pública das reivindicações. As datas podem identificar atos sucessivos, não versões necessariamente incompatíveis.
+As principais figuras não representam uma cadeia de comando única. Elas ajudam a enxergar os distintos componentes da revolta.
 
-Esse episódio foi o estopim, não a explicação completa. Sem tensões agrárias, políticas, econômicas e coercitivas, a libertação de presos dificilmente teria se convertido em guerra regional.
-
-## 9. Composição social e projetos divergentes
-
-A Balaiada foi heterogênea. Participaram, em combinações variáveis:
-
-- vaqueiros, lavradores e roceiros;
-- artesãos e pequenos comerciantes;
-- posseiros e pequenos fazendeiros;
-- caboclos, indígenas e migrantes sertanejos;
-- negros livres e libertos;
-- escravizados fugidos e quilombolas;
-- liberais bem-te-vis e proprietários oposicionistas.
-
-Essa diversidade produz duas consequências importantes.
-
-Primeiro, não existe um único interesse balaio. Um pequeno fazendeiro contrário ao governo provincial, um vaqueiro perseguido pelo recrutamento e um escravizado em busca de liberdade podiam combater o mesmo adversário por razões diferentes.
-
-Segundo, a aliança era instável. A incorporação de milhares de quilombolas sob Negro Cosme ampliou a força do movimento, mas assustou proprietários, inclusive oposicionistas. A tentativa de unir livres pobres e escravizados enfrentou limites raciais e sociais.
-
-## 10. Lideranças e papéis
-
-| Pessoa | Origem e papel | Cuidado de prova |
+| Pessoa | Papel no conflito | Cuidado de prova |
 |---|---|---|
-| **Raimundo Gomes** | vaqueiro; iniciou a libertação na Vila da Manga e liderou coluna móvel | importante, mas não líder único |
-| **Manuel Francisco dos Anjos Ferreira, Balaio** | artesão da palha; liderança popular cujo apelido nomeou o movimento | não iniciou o episódio da cadeia |
-| **Cosme Bento das Chagas, Negro Cosme** | líder negro quilombola ligado à fuga da escravidão; organizou milhares de seguidores | números e condição jurídica variam nas fontes |
-| **Lívio Lopes Castelo Branco** | fazendeiro, militar e liberal piauiense; articulador político controverso | não equiparar automaticamente às lideranças populares |
-| **Luís Alves de Lima e Silva** | coronel nomeado e enviado em dez. 1839; chegou e tomou posse em fev. 1840 | era o futuro Duque de Caxias; o título de duque é posterior |
-| **Barão da Parnaíba** | presidente e comandante das armas no Piauí; dirigiu a repressão provincial | sua longa autoridade ajuda a explicar causas piauienses próprias |
+| **Raimundo Gomes** | vaqueiro ligado ao estopim da Manga e à expansão inicial | não foi líder único |
+| **Manuel Francisco dos Anjos Ferreira, o Balaio** | artesão da palha e chefe popular; seu apelido deu nome ao movimento | não iniciou o episódio da cadeia |
+| **Cosme Bento das Chagas, Negro Cosme** | liderança negra quilombola associada à fuga da escravidão | sua luta antiescravista não torna todo o movimento uniformemente abolicionista |
+| **Lívio Lopes Castelo Branco** | fazendeiro, militar e liberal piauiense; articulador político | sua posição social não se confunde com a das lideranças populares |
+| **Luís Alves de Lima e Silva** | comandante da repressão imperial e presidente provincial a partir de 1840 | era o futuro Duque de Caxias; o título é posterior |
 
-### 10.1. Balaio
+Manuel ou Manoel Francisco dos Anjos Ferreira fabricava balaios, origem de seu apelido. Relatos posteriores apresentam versões diferentes sobre uma violência sofrida por suas filhas e sobre a motivação pessoal de sua adesão. O dado seguro para a prova é seu papel como liderança popular; a tradição sobre o motivo familiar não deve ser tratada como fato documental único.
 
-Manuel ou Manoel Francisco dos Anjos Ferreira fabricava balaios, origem de seu apelido. Narrativas sobre uma ofensa cometida contra suas filhas aparecem em memórias e materiais didáticos, mas não devem ser apresentadas como fato documental incontroverso sem atribuição.
+No caso de Negro Cosme, as fontes também divergem ao descrevê-lo como escravizado fugido, liberto ou ex-escravizado. A formulação mais segura é **líder negro quilombola associado à fuga da escravidão**. Ele reuniu grande contingente e defendeu liberdade e proteção contra a reescravização, objetivos que entravam em choque com interesses de proprietários, inclusive oposicionistas.
 
-### 10.2. Negro Cosme
+## De revolta local a guerra regional
 
-As fontes divergem ao classificá-lo como escravizado fugido, liberto ou ex-escravizado. A formulação prudente é **líder negro quilombola associado à fuga da escravidão**. Sua força defendia liberdade e proteção contra a reescravização, objetivos que não coincidiam integralmente com os dos liberais proprietários.
+Em **1839**, a Balaiada já não era um incidente da Vila da Manga. Colunas rebeldes circularam entre Maranhão e Piauí, atacaram destacamentos e localidades, libertaram presos e escravizados e capturaram armas e suprimentos.
 
-Chamar toda a Balaiada de movimento abolicionista é excessivo. Existia uma dimensão antiescravista decisiva, mas não um programa único compartilhado por todas as colunas.
+O conhecimento de matas, sertões e caminhos favorecia uma **guerrilha**, isto é, combate móvel baseado em emboscadas, surpresa e dispersão diante de forças superiores. A mobilidade dificultava uma vitória governamental rápida e permitia que diferentes colunas atuassem sem comando central estável.
 
-## 11. Expansão e escala do movimento
+A tomada de **Caxias**, uma das cidades mais importantes do Maranhão, mostra a escala alcançada. Ali surgiram conselho, junta e delegação para negociar, com reivindicações como anistia, revogação da Lei dos Prefeitos e garantias para presos. A existência dessas iniciativas impede reduzir os rebeldes a bandos rurais sem ação política.
 
-Em 1839, o levante deixou de ser episódio local. Colunas móveis atacaram estradas, fazendas e localidades, libertaram presos e escravizados e circularam entre Maranhão e Piauí. O emprego de matas, emboscadas, surpresa e mobilidade levou Claudete Dias a caracterizá-lo como **guerrilha sertaneja**.
+Ao mesmo tempo, a ampliação popular mudou a aliança. Proprietários liberais que haviam combatido o governo provincial podiam recuar quando escravizados fugidos e quilombolas passaram a ameaçar diretamente a ordem social que também os beneficiava.
 
-A tomada de **Caxias**, no Maranhão, demonstrou a escala alcançada pelos rebeldes. Conselhos, proclamações e reivindicações mostram capacidade política, embora não houvesse comando central estável.
+## Repressão e anistia: como a aliança rebelde foi desmontada
 
-Os números de combatentes, mortos e seguidores de Negro Cosme são estimativas, muitas produzidas pelo próprio aparato repressivo. Quando a quantidade exata não for o objeto da análise, prefira expressões como **milhares de participantes**.
+**Luís Alves de Lima e Silva** foi nomeado em dezembro de **1839** para a presidência do Maranhão e o comando das armas e assumiu as duas funções em **7 de fevereiro de 1840**. Sua campanha não se resumiu a uma batalha decisiva. Ela combinou reorganização militar, pressão sobre rotas e abastecimento, perseguição às colunas e exploração das divisões entre os rebeldes.
 
-## 12. Repressão, anistia e desfecho
+Outro instrumento foi a **anistia**, isto é, o perdão político oferecido a parte dos que se rendessem. A medida estimulou deserções e acordos, mas não tratou todos os participantes de maneira igual: escravizados fugidos e quilombolas continuavam sujeitos a captura e reescravização.
 
-Promovido a coronel e nomeado em **12 de dezembro de 1839**, **Luís Alves de Lima e Silva** partiu do Rio de Janeiro ainda naquele mês. A expedição entrou no porto de São Luís em **4 de fevereiro de 1840**; ele desembarcou no dia 5 e tomou posse da presidência provincial e do comando das armas em **7 de fevereiro**. A repressão combinou:
+Raimundo Gomes acabou se rendendo. Negro Cosme foi capturado em **1841**, julgado e executado em **1842**. Por isso, **1838-1841** é a datação mais útil para o conflito principal; 1842 pertence ao desfecho repressivo posterior.
 
-- reorganização e aumento das tropas;
-- operações contra acampamentos e rotas;
-- bloqueio de abastecimento;
-- cooperação de proprietários;
-- exploração das divisões internas;
-- oferta de anistia a parte dos rebeldes.
+O resultado reforça a chave inicial do assunto. O governo imperial não derrotou um bloco homogêneo: separou grupos com interesses distintos, negociou com alguns e reprimiu duramente outros, preservando a ordem agrária e escravista.
 
-A anistia de 1840 ajudou a separar grupos, mas não alcançou escravizados em igualdade de condições. A chamada pacificação significou rendição para alguns e, para outros, captura, morte ou reescravização.
+## Como ler as fontes e reconhecer as armadilhas
 
-Raimundo Gomes se rendeu no contexto da ofensiva e da anistia. Negro Cosme foi capturado, julgado e executado em 1842. A repressão preservou a ordem agrária e escravista que estava entre as raízes do conflito.
+Grande parte da documentação contemporânea foi produzida por autoridades e participantes da repressão. Quando esses textos chamam os balaios de “bandidos”, “facínoras” ou “desocupados”, registram também a perspectiva do governo e de quem combatia a revolta. A historiografia social procura confrontar essa linguagem com as ações e interesses de grupos que deixaram menos registros escritos próprios.
 
-Para este assunto, o desfecho importa como confirmação da **heterogeneidade**: o Estado negociou de modo diferente com livres, proprietários, quilombolas e escravizados.
+Esse cuidado ajuda a resolver quatro armadilhas recorrentes:
 
-## 13. Debates historiográficos
+- **economia:** dificuldades do algodão agravaram tensões, mas não extinguiram algodão e arroz nem explicam sozinhas a Balaiada;
+- **política:** bem-te-vis influíram no movimento, mas não são sinônimo de balaios;
+- **escravidão:** a liderança de Negro Cosme revela forte dimensão antiescravista, sem autorizar chamar todas as colunas de abolicionistas;
+- **ideologia:** o item 30 da <abbr title="Polícia Militar do Maranhão">PM/MA</abbr> de 2017 foi anulado porque sua redação permitia mais de uma leitura sobre a Constituição defendida pelos rebeldes; não se deve transformar uma marca ideológica discutível em característica uniforme de todo o movimento.
 
-### 13.1. Bandidos ou sujeitos políticos
+Na mesma prova, o <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> considerou incorreta a ideia de que Luís Alves se recusou a combater os balaios e também a afirmação de que algodão e arroz haviam fracassado completamente; considerou correta a formulação sobre as três matrizes do campesinato e a caracterização da Balaiada como uma das grandes revoltas rurais brasileiras.
 
-Relatórios oficiais chamavam rebeldes de bandidos, facínoras, desocupados e assaltantes. Esses termos revelam a linguagem de quem comandou a repressão; não são descrições neutras.
+## Reconstrua as causas em vez de decorar uma lista
 
-A historiografia social procura reconstruir interesses e ações de grupos que deixaram poucos textos próprios. Libertar presos, rejeitar prefeitos, resistir ao recrutamento, ocupar localidades e buscar liberdade eram atos políticos, ainda que não formassem um programa nacional unificado.
+Se uma questão pedir a causa da Balaiada, procure **o nível da explicação**:
 
-### 13.2. Manipulação liberal ou agência popular
+- na estrutura social, estavam escravidão, desigualdade, conflitos pela terra e cidadania restrita;
+- nas condições econômicas e políticas do momento, dificuldades do setor exportador e disputa entre grupos rivais aumentaram a tensão;
+- na esfera institucional e coercitiva, Lei dos Prefeitos, perseguições e recrutamento tornaram o conflito concreto;
+- na Vila da Manga, a prisão e o recrutamento na comitiva de Raimundo Gomes funcionaram como estopim.
 
-As duas dimensões coexistiram:
-
-- setores bem-te-vis articularam oposição e tentaram dirigir a revolta;
-- grupos populares utilizaram essas redes, mas formularam práticas e objetivos próprios;
-- a aliança se desfez quando interesses de proprietários e quilombolas se tornaram incompatíveis.
-
-A resposta madura evita dois extremos: negar a ação das elites ou reduzir a população pobre a massa manipulada.
-
-### 13.3. Uma ideologia única
-
-O item 30 da PM/MA de 2017 foi anulado porque sua redação permitia confundir defesa da Constituição vigente com defesa de uma Constituição mais igualitária. A anulação ensina que não se deve atribuir uma única marca ideológica a todos os balaios sem qualificação.
-
-## 14. Matriz das causas
-
-| Plano | Causa | Relação com o movimento |
-|---|---|---|
-| estrutural | concentração da terra e conflito plantation/campesinato | criou antagonismos duradouros |
-| estrutural | escravidão e hierarquias raciais | limitou cidadania e alimentou fugas e quilombos |
-| estrutural | exclusão política dos pobres livres | afastou grande parte da população do poder formal |
-| econômico | dificuldades da economia algodoeira | agravaram pobreza, crédito e emprego, sem causar tudo sozinhas |
-| regional | pecuária, posse precária e expropriação no Piauí | deu base própria à mobilização piauiense |
-| político | disputa bem-te-vis x cabanos | criou redes de oposição e perseguição |
-| institucional | Lei dos Prefeitos | reforçou nomeações e controle provincial |
-| coercitivo | recrutamento compulsório | atingiu livres pobres e foi usado politicamente |
-| imediato | prisão/recrutamento na comitiva de Raimundo Gomes | provocou a invasão da cadeia da Vila da Manga |
-| mobilizador | adesão de Balaio, Cosme e outras colunas | transformou o incidente em conflito regional |
-
-## 15. Método de resolução de questões
-
-Ao enfrentar uma alternativa sobre a Balaiada, siga quatro passos:
-
-1. **localize o nível causal:** estrutura, conjuntura ou estopim;
-2. **teste a monocausalidade:** expressões como “exclusivamente” e “apenas” costumam apagar a heterogeneidade;
-3. **identifique o grupo:** bem-te-vis, cabanos, sertanejos e quilombolas não são categorias equivalentes;
-4. **confira o tempo:** Luís Alves ainda não era duque; 1842 é execução de Cosme, não início da guerra.
-
-Exemplo: “A crise do algodão causou sozinha a Balaiada.” A crise integra a conjuntura econômica, mas a palavra **sozinha** torna a afirmação incorreta.
-
-## 16. Pegadinhas finais
-
-- Balaiada: **1838-1841**; execução de Negro Cosme: **1842**.
-- Começou no Maranhão, mas teve forte dimensão piauiense.
-- O Ceará aparece como área de repercussão, não com o mesmo peso documental.
-- **Raimundo Gomes** era vaqueiro; **Balaio**, artesão; **Cosme**, líder quilombola.
-- O apelido de Balaio deu nome ao movimento, mas Raimundo Gomes iniciou o episódio da Manga.
-- Crise do algodão não foi causa única nem significou fracasso completo de algodão e arroz.
-- Bem-te-vis não eram todos os balaios.
-- Cabanos maranhenses não são a Cabanagem paraense.
-- Lei dos Prefeitos: nomeação e controle provincial, não eleição direta.
-- Recrutamento foi causa social, arma política e estopim.
-- Participação de escravizados não torna todo o movimento abolicionista e unitário.
-- “Pacificação” é vocabulário estatal e não apaga a violência repressiva.
-- Luís Alves era o **futuro** Duque de Caxias.
-- O item que atribuiu ideologia constitucional única aos balaios foi anulado pelo Cebraspe.
+A sequência mental é simples: **tensões acumuladas → abuso local que desencadeia a reação → adesão de grupos com interesses próprios → guerra regional → repressão que explora as divisões internas**. Ela explica a Balaiada com mais segurança do que qualquer causa isolada.
