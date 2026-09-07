@@ -58,7 +58,7 @@ Depois de identificar a ação pretendida, reorganize o texto de acordo com ela:
 
 São orientações de composição, não campos universalmente obrigatórios. Trocar “quero” por “requeiro” não basta para produzir um requerimento.
 
-Produzir outro texto a partir de uma base, mudando sua finalidade ou seu gênero, é uma **retextualização**. A bibliografia pode distingui-la da revisão e da reescrita do mesmo texto. Em prova, siga a operação solicitada, mesmo que “reescrita” apareça em sentido amplo.
+Produzir outro texto a partir de uma base, com novo propósito comunicativo ou outro gênero, é uma **retextualização**. Nessa distinção, revisar e reescrever aperfeiçoam o mesmo texto sem mudar seu propósito; retextualizar reconstrói a situação de comunicação. Em prova, porém, o enunciado pode usar “reescrita” em sentido amplo: siga a transformação efetivamente pedida.
 
 ## 3. Formalidade não é dificuldade, clareza nem ausência de erros
 
@@ -87,6 +87,8 @@ Outras escolhas precisam ser avaliadas em contexto:
 Não transforme o segundo caso em “<abbr title="palavra que retoma ou aponta pessoas, seres ou ideias">pronome</abbr> sempre depois do verbo”: em **“Não me envie o documento”**, a negação pede o <abbr title="palavra que retoma ou aponta pessoas, seres ou ideias">pronome</abbr> antes. A **colocação pronominal** é justamente a posição de <abbr title="palavras que retomam ou apontam pessoas, seres ou ideias">pronomes</abbr> como “me”, “se” e “lhe” em relação ao verbo.
 
 Os rótulos **corrente**, **familiar** e **erudito** costumam indicar, respectivamente, uso cotidiano, proximidade e linguagem mais especializada ou literária. As classificações variam. O registro familiar não consiste obrigatoriamente em erros, nem todo texto formal precisa ser erudito.
+
+Quando a própria questão definir esses rótulos, use a definição fornecida para julgar o exemplo. Uma classificação que associe “familiar” a espontaneidade ou a desvios no exemplo não transforma essa associação em definição geral do registro familiar. Primeiro reconheça a convenção adotada; depois compare as marcas linguísticas da frase.
 
 **Gíria** é vocabulário associado a grupos ou práticas; **jargão** é linguagem de uma área de atividade, por vezes opaca a quem está fora dela. A escolha técnica pode ser necessária entre especialistas e exigir explicação para o público. Linguagem figurada também não significa informalidade: uma comparação pode caber em texto formal.
 
