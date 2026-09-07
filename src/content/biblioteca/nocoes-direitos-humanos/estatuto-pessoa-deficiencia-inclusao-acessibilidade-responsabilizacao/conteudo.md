@@ -8,589 +8,332 @@ storageId: "lbi-inclusao-acessibilidade-resp"
 
 # Estatuto da Pessoa com Deficiência: inclusão, acessibilidade e responsabilização
 
-## 1. Recorte, objetivo e corte temporal
+## 1. Da barreira à participação: o mecanismo que organiza este assunto
 
-Este assunto estuda os mecanismos operacionais da **Lei nº 13.146/2015**, a Lei Brasileira de Inclusão da Pessoa com Deficiência (LBI), no recorte de:
+Imagine a mesma pessoa em um único dia: participa de processo seletivo, trabalha, usa transporte coletivo, vai ao cinema e acessa um site. Em cada etapa, um obstáculo físico, comunicacional, tecnológico ou atitudinal pode impedir participação em igualdade.
 
-- identificação de deficiência oculta;
-- inclusão no trabalho;
-- eventos, hospedagem, transporte e mobilidade;
-- acessibilidade física, urbanística, informacional e comunicacional;
-- tecnologia assistiva, ciência e inovação;
-- Cadastro-Inclusão, auditoria, auxílio-inclusão e atendimento sem deslocamento desproporcional;
-- crimes e responsabilização.
+É essa passagem da **barreira** para a **participação** que organiza a parte operacional da **Lei nº 13.146/2015**, a <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>. A lei procura antecipar barreiras, removê-las e oferecer suportes quando necessários. Quatro conceitos dão o mecanismo:
 
-Para fins de prova, podem ser avaliadas alterações legislativas que entraram em vigor até a data de publicação do edital, **6 de julho de 2026**. Este material foi conferido em **15 de agosto de 2026**; a conferência posterior serve ao controle editorial e não amplia o corte do edital.
+- **acessibilidade**: condição de alcançar e usar, com segurança e autonomia, espaços, transportes, informação, comunicação, tecnologias, serviços e instalações abertos ao público, de uso público ou privados de uso coletivo;
+- **desenho universal**: concepção, desde a origem, para uso por todas as pessoas, sem adaptação ou projeto específico;
+- **adaptação razoável**: ajuste necessário e adequado ao caso concreto, sem ônus desproporcional e indevido;
+- **tecnologia assistiva**: produtos, recursos, metodologias, estratégias, práticas e serviços que ampliam funcionalidade, atividade e participação, promovendo autonomia e inclusão.
 
-O Assunto 098 já estudou fundamentos, conceitos, capacidade, prioridade e direitos materiais. O Assunto 100 estudará sistematicamente as Leis nº 10.048/2000 e nº 10.098/2000. Aqui, essas leis aparecem apenas quando a própria LBI faz remissão indispensável.
+Uma rota acessível prevista desde o projeto expressa desenho universal; um ajuste individual pode ser adaptação razoável; um leitor de tela pode ser tecnologia assistiva. Os instrumentos se complementam. **Barreira atitudinal** é a criada por atitude ou comportamento que impeça ou prejudique participação social em igualdade.
 
-## 2. Cordão de girassóis e deficiência oculta
+> **Mapa mental:** barreira → solução geral desde o projeto → ajuste ou suporte quando necessário → participação em igualdade → controle e responsabilização.
 
-A Lei nº 14.624/2023 acrescentou o artigo 2º-A à LBI. O cordão de fita com desenhos de girassóis é símbolo nacional de identificação de pessoas com **deficiências ocultas**.
+**Corte de prova:** o Edital nº 1 do Tribunal de Contas do Estado do Maranhão, publicado em **6 de julho de 2026**, permite cobrar alterações legislativas que tenham entrado em vigor até essa data, ainda que não estejam expressamente nos objetos de avaliação. As mudanças de 2023 a 2025 ensinadas abaixo já estavam vigentes no corte; conferência editorial posterior não amplia esse marco.
 
-Duas regras evitam erros:
+O Assunto 098 desenvolve fundamentos, capacidade e direitos materiais; o Assunto 100 estuda sistematicamente as Leis nº 10.048/2000 e nº 10.098/2000. Aqui interessa como a própria <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> transforma inclusão e acessibilidade em deveres operacionais.
 
-1. o uso do cordão é **opcional**;
-2. seu uso **não dispensa** documento comprobatório, se solicitado pelo atendente ou pela autoridade competente.
+## 2. Identificação e inclusão no trabalho
 
-A ausência do cordão não prejudica o exercício de direito ou garantia. O símbolo auxilia a identificação; não cria a deficiência, não é prova absoluta e não pode ser convertido em requisito obrigatório.
+### 2.1 Cordão de girassóis: identificar não é condicionar o direito
 
-## 3. Inclusão no trabalho
+A Lei nº 14.624/2023 acrescentou o artigo 2º-A. O cordão de fita com desenhos de girassóis é símbolo nacional de identificação de pessoas com **deficiências ocultas**.
 
-As garantias gerais de livre escolha, igualdade e não discriminação foram estudadas no Assunto 098. Agora interessa sua execução.
+A regra combina liberdade de uso com possibilidade de comprovação:
 
-### 3.1 Colocação competitiva
+- o cordão é **opcional** e sua ausência não prejudica direitos ou garantias;
+- seu uso **não dispensa documento comprobatório**, se solicitado pelo atendente ou pela autoridade competente.
 
-O artigo 37 define a colocação competitiva como **modo de inclusão** no trabalho, em igualdade de oportunidades e segundo a legislação trabalhista e previdenciária.
+Logo, o cordão não pode ser imposto como requisito geral nem tratado como prova absoluta.
 
-Ela exige:
+### 2.2 Colocação competitiva: igualdade com suporte
 
-- acessibilidade;
-- fornecimento de tecnologia assistiva;
-- adaptação razoável no ambiente de trabalho.
+O artigo 37 define a **colocação competitiva** como modo de inclusão no trabalho, em igualdade de oportunidades e segundo a legislação trabalhista e previdenciária. Ela deve assegurar acessibilidade, recursos de tecnologia assistiva e adaptação razoável no ambiente de trabalho.
 
-Não confunda colocação competitiva com segregação. A igualdade é construída com remoção de barreiras e suportes adequados, não com a exigência de que a pessoa atue sem apoio.
+A presença de suporte não transforma a colocação em segregação: o suporte serve para remover a desvantagem criada pela barreira.
 
-### 3.2 Trabalho com apoio
+A colocação competitiva **pode** ocorrer por trabalho com apoio. A <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> fixa sete diretrizes:
 
-A colocação competitiva **pode** ocorrer por trabalho com apoio. A LBI fixa sete diretrizes:
-
-1. prioridade para a pessoa com maior dificuldade de inserção;
+1. prioridade à pessoa com maior dificuldade de inserção;
 2. suportes individualizados, inclusive tecnologia assistiva, agente facilitador e apoio no ambiente;
-3. respeito ao perfil vocacional e ao interesse da pessoa apoiada;
+3. respeito ao perfil vocacional e ao interesse da pessoa;
 4. aconselhamento e apoio aos empregadores para inclusão e superação de barreiras, inclusive atitudinais;
 5. avaliações periódicas;
 6. articulação intersetorial das políticas públicas;
 7. possibilidade de participação de organizações da sociedade civil.
 
-O trabalho com apoio não substitui a vontade da pessoa e não autoriza remuneração inferior. Ele é instrumento de inclusão competitiva.
+O trabalho com apoio preserva a vontade da pessoa e a inserção em ambiente competitivo; não é uma forma de afastá-la do mercado comum.
 
-### 3.3 Entidade de seleção
+### 2.3 A entidade de seleção também deve ser acessível
 
-A entidade contratada para realizar processo seletivo **público ou privado** para cargo, função ou emprego deve observar:
+A entidade contratada para realizar processo seletivo **público ou privado** para cargo, função ou emprego deve observar a <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> e as demais normas de acessibilidade vigentes. A obrigação não se limita ao órgão contratante nem a concursos públicos.
 
-- a LBI; e
-- as demais normas de acessibilidade vigentes.
+## 3. Participar de cultura, hospedagem e transporte
 
-A obrigação não se limita ao órgão contratante nem a concursos públicos.
+A acessibilidade acompanha o serviço inteiro. Entrada física acessível não resolve, por exemplo, um assento segregado ou um itinerário sem informação acessível.
 
-## 4. Eventos culturais e esportivos
+### 3.1 Eventos culturais e esportivos
 
-Em teatros, cinemas, auditórios, estádios, ginásios, locais de espetáculos, conferências e similares, devem existir espaços livres e assentos reservados conforme a capacidade do local e o regulamento.
+Em teatros, cinemas, auditórios, estádios, ginásios, locais de espetáculos, conferências e similares, espaços livres e assentos reservados devem:
 
-Esses espaços e assentos devem:
+- ser distribuídos em locais diversos, em **todos os setores**, com boa visibilidade e próximos aos corredores;
+- ser sinalizados e evitar segregação e obstrução das saídas;
+- permitir acomodação de, no mínimo, **um acompanhante**, preservada a proximidade com o grupo familiar e comunitário.
 
-- estar distribuídos em locais diversos;
-- oferecer boa visibilidade;
-- existir em todos os setores;
-- ficar próximos aos corredores;
-- ser sinalizados;
-- evitar segregação e obstrução de saídas;
-- permitir acomodação de, no mínimo, um acompanhante;
-- preservar proximidade com grupo familiar e comunitário.
+Sem procura comprovada, esses assentos podem ser excepcionalmente ocupados por pessoas sem deficiência ou sem mobilidade reduzida, observado o regulamento.
 
-Sem procura comprovada, os assentos podem ser ocupados excepcionalmente por pessoas sem deficiência ou sem mobilidade reduzida, observado o regulamento.
+Rotas de fuga e saídas de emergência devem ser acessíveis, e todos os espaços dessas edificações devem observar as normas de acessibilidade. Nas salas de cinema, recursos de acessibilidade são exigidos em **todas as sessões**, e o ingresso da pessoa com deficiência não pode custar mais que o das demais pessoas.
 
-Há ainda três comandos importantes:
+### 3.2 Hospedagem: regra e exceção
 
-- rotas de fuga e saídas de emergência devem ser acessíveis;
-- salas de cinema devem oferecer recursos de acessibilidade em **todas as sessões**;
-- o ingresso da pessoa com deficiência não pode custar mais que o das demais pessoas.
+Hotéis, pousadas e similares devem ser construídos conforme o desenho universal e adotar os meios de acessibilidade previstos na legislação.
 
-### 4.1 Comunicação aumentativa em espaços culturais
+Nos estabelecimentos **já existentes**, pelo menos **10% dos dormitórios** devem ser acessíveis, garantida no mínimo **uma unidade**, sempre em rota acessível.
 
-A Lei nº 15.249/2025 acrescentou o § 3º ao artigo 42. O poder público **incentivará** que museus, exposições, monumentos, exibições e galerias empreguem técnicas de comunicação aumentativa e alternativa para a acessibilidade de pessoas com necessidades complexas de comunicação.
+A Lei nº 14.978/2024 criou exceção apenas para meio de hospedagem já existente que não possa cumprir o percentual por **impossibilidade técnica decorrente de riscos estruturais da edificação**. A dispensa exige laudo técnico estrutural renovado a cada **cinco anos**. Não alcança novas edificações nem elimina os demais deveres de acessibilidade.
 
-Não confunda esse comando com o artigo 62-A: no artigo 42, § 3º, o verbo é **incentivar** determinados espaços culturais a empregar essas técnicas; no artigo 62-A, o poder público **instalará** placas de comunicação aumentativa e alternativa em praças, parques e demais espaços públicos de uso coletivo.
+### 3.3 Transporte coletivo: o serviço é maior que o veículo
 
-## 5. Hospedagem
+Para a <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>, transporte coletivo terrestre, aquaviário ou aéreo inclui **veículos, terminais, estações, pontos de parada, sistema viário e prestação do serviço**. Por isso, uma estação inacessível também cria barreira, mesmo que o veículo seja adaptado.
 
-Hotéis, pousadas e similares devem ser construídos conforme o desenho universal e adotar todos os meios de acessibilidade.
+Os atos pelos quais o poder público permite ou mantém linhas e serviços — outorga, concessão, permissão, autorização, renovação e habilitação — devem cumprir a lei sempre que houver interação com acessibilidade.
 
-Nos estabelecimentos já existentes:
+O símbolo internacional de acesso em veículo coletivo exige **certificação de acessibilidade do gestor público responsável pelo serviço**; autodeclaração da empresa não basta.
 
-- pelo menos **10%** dos dormitórios devem ser acessíveis;
-- deve haver, no mínimo, **uma unidade** acessível;
-- os dormitórios acessíveis devem estar em rotas acessíveis.
+Veículos, instalações, estações, portos e terminais em operação devem ser acessíveis. O sistema de comunicação deve informar de modo acessível **todos os pontos do itinerário**, e a pessoa com deficiência tem prioridade e segurança no **embarque e desembarque**. Empresas de fretamento e turismo devem cumprir as regras dos artigos 46 e 48 quando renovarem suas frotas.
 
-### 5.1 Exceção estrutural de 2024
+### 3.4 Estacionamento, táxis e locadoras
 
-A Lei nº 14.978/2024 acrescentou hipótese restrita de dispensa do percentual para meios de hospedagem **já existentes**.
+Em estacionamentos abertos ao público, de uso público ou privados de uso coletivo, e em vias públicas, devem existir vagas próximas aos acessos de pedestres, sinalizadas, para veículos que transportem pessoa com deficiência com comprometimento de mobilidade.
 
-Exige cumulativamente:
+A reserva é de **2% do total**, garantida no mínimo **uma vaga**. O veículo deve exibir credencial visível, fornecida pelos órgãos de trânsito, vinculada **à pessoa** com comprometimento de mobilidade e válida em todo o território nacional. O uso indevido sujeita às sanções do Código de Trânsito Brasileiro; não é crime autônomo da <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>.
 
-1. impossibilidade técnica;
-2. decorrente de riscos estruturais da edificação;
-3. comprovação por laudo técnico estrutural;
-4. renovação do laudo a cada **cinco anos**.
+O poder público deve incentivar veículos acessíveis como táxis e vans. Nas empresas de táxi, **10% da frota** deve ser acessível, sem tarifa diferenciada ou adicional; podem existir incentivos fiscais.
 
-A dispensa não é automática, não alcança novas edificações e não elimina todas as demais obrigações de acessibilidade.
+Nas locadoras, a regra é **um veículo adaptado a cada vinte**. Ele deve ter, no mínimo, câmbio automático, direção hidráulica, vidros elétricos e comandos manuais de freio **e de embreagem**. A literalidade fala em embreagem, não em acelerador.
 
-## 6. Transporte e mobilidade
+| Situação | Regra quantitativa |
+|---|---:|
+| estacionamento | **2%**, mínimo 1 vaga |
+| táxi acessível | **10%** da frota |
+| locadora | **1/20** |
+| hospedagem já existente | **10%** dos dormitórios, mínimo 1 |
 
-### 6.1 Abrangência
+## 4. Acessibilidade começa no projeto e continua no funcionamento
 
-Nos serviços de transporte coletivo terrestre, aquaviário e aéreo, a acessibilidade alcança:
+O artigo 53 liga acessibilidade a **vida independente, cidadania e participação social**. A consequência é preventiva: o dever aparece antes de a obra ou o serviço estarem prontos.
 
-- veículos;
-- terminais;
-- estações;
-- pontos de parada;
-- sistema viário;
-- prestação do serviço.
+### 4.1 Projeto, autorização e financiamento
 
-Outorga, concessão, permissão, autorização, renovação e habilitação de linhas e serviços devem cumprir a LBI sempre que houver interação com acessibilidade.
+Sempre que houver interação com a matéria, a acessibilidade condiciona:
 
-Para colocar o símbolo internacional de acesso em veículo coletivo, a empresa depende de **certificação de acessibilidade emitida pelo gestor público responsável pelo serviço**. Não basta autodeclaração.
+1. aprovação de projeto arquitetônico, urbanístico, de comunicação ou informação; fabricação de veículo coletivo; prestação do serviço e execução de obra com destinação pública ou coletiva;
+2. outorga ou renovação de concessão, permissão, autorização ou habilitação;
+3. financiamento de projeto com recursos públicos, inclusive por renúncia ou incentivo fiscal, contrato, convênio ou instrumento semelhante;
+4. **aval da União**, isto é, garantia prestada pela União, para empréstimo ou financiamento internacional de ente público ou privado.
 
-### 6.2 Vagas reservadas
+### 4.2 A sequência: desenho universal antes da adaptação
 
-Em áreas de estacionamento abertas ao público, de uso público ou privado de uso coletivo, e em vias públicas, devem existir vagas:
+Projetos do meio físico, transporte, informação, comunicação, sistemas, tecnologias, serviços, equipamentos e instalações abertos ao público, de uso público ou privados de uso coletivo devem seguir desenho universal nas zonas urbana e rural.
 
-- próximas aos acessos de circulação de pedestres;
-- para veículos que transportem pessoa com deficiência com comprometimento de mobilidade;
-- devidamente sinalizadas;
-- equivalentes a **2%** do total;
-- garantida, no mínimo, **uma vaga**.
+A ordem legal é:
 
-O veículo deve exibir credencial em local de ampla visibilidade. A credencial:
+- **desenho universal = regra geral**;
+- se comprovadamente ele não puder ser empreendido, adota-se **adaptação razoável**.
 
-- é confeccionada e fornecida pelos órgãos de trânsito;
-- vincula-se à pessoa com deficiência com comprometimento de mobilidade;
-- é válida em todo o território nacional.
+O poder público também deve inserir desenho universal nas diretrizes da educação profissional, tecnológica e superior e na formação das carreiras de Estado; programas, projetos e pesquisas apoiados por organismos públicos devem contemplar o tema; políticas públicas devem considerá-lo **desde a concepção**.
 
-O uso indevido sujeita o infrator às sanções do Código de Trânsito Brasileiro. Não se trata de um crime autônomo da LBI.
-
-### 6.3 Transporte coletivo
-
-Veículos, instalações, estações, portos e terminais em operação devem ser acessíveis para uso por todas as pessoas.
-
-Devem existir:
-
-- sistema de comunicação acessível com informação sobre todos os pontos do itinerário;
-- prioridade e segurança no embarque e no desembarque.
-
-Empresas de fretamento e turismo devem cumprir essas regras na renovação de suas frotas.
-
-### 6.4 Táxis e vans
-
-O poder público incentivará fabricação e uso de veículos acessíveis como táxis e vans.
-
-As frotas das empresas de táxi devem reservar **10%** de veículos acessíveis. É proibido cobrar tarifa diferenciada ou valor adicional pelo serviço acessível. O poder público pode instituir incentivos fiscais.
-
-### 6.5 Locadoras
-
-Locadoras devem oferecer **um veículo adaptado a cada conjunto de vinte veículos** da frota.
-
-O veículo deve ter, no mínimo:
-
-- câmbio automático;
-- direção hidráulica;
-- vidros elétricos;
-- comandos manuais de freio e de embreagem.
-
-Em prova literal, não substitua “embreagem” por “acelerador”.
-
-## 7. Regime geral de acessibilidade
-
-O artigo 53 trata acessibilidade como direito que permite:
-
-- vida independente;
-- cidadania;
-- participação social.
-
-### 7.1 Atos condicionados à acessibilidade
-
-Quando houver interação com a matéria, a acessibilidade condiciona:
-
-1. aprovação de projeto arquitetônico, urbanístico, de comunicação ou informação;
-2. fabricação e serviço de transporte coletivo;
-3. execução de obra com destinação pública ou coletiva;
-4. outorga ou renovação de concessão, permissão, autorização ou habilitação;
-5. financiamento de projeto com recursos públicos, renúncia ou incentivo fiscal;
-6. aval da União para empréstimo ou financiamento internacional.
-
-A acessibilidade não surge apenas ao final da obra.
-
-### 7.2 Desenho universal e adaptação razoável
-
-Projetos do meio físico, transporte, informação, comunicação, serviços, equipamentos e instalações devem seguir desenho universal, tanto em zona urbana como rural.
-
-Regra de prova:
-
-- desenho universal = regra geral;
-- adaptação razoável = solução quando **comprovadamente** o desenho universal não puder ser empreendido.
-
-O poder público deve:
-
-- incluir desenho universal nas diretrizes curriculares da educação profissional, tecnológica, superior e nas carreiras de Estado;
-- incluir o tema em programas, projetos e pesquisas apoiados por agências públicas;
-- considerar o desenho universal desde a concepção das políticas públicas.
-
-### 7.3 Edificações e responsabilidade técnica
+### 4.3 Edificações e responsabilidade técnica
 
 Construção, reforma, ampliação ou mudança de uso de edificação aberta ao público, de uso público ou privada de uso coletivo devem ser acessíveis.
 
-Entidades de fiscalização profissional de Engenharia, Arquitetura e áreas correlatas devem exigir declaração de responsabilidade profissional pelo atendimento às regras de acessibilidade.
+A responsabilidade é verificada em etapas:
 
-A aprovação, o licenciamento e os certificados de projeto, obra ou serviço dependem de atestado de acessibilidade. Depois da certificação, o poder público determina a colocação do símbolo internacional de acesso em local visível.
+- entidades de fiscalização profissional de Engenharia, Arquitetura e áreas correlatas exigem declaração de responsabilidade profissional pelo atendimento às regras;
+- aprovação, licenciamento ou certificado de projeto arquitetônico, urbanístico e de **instalações e equipamentos temporários ou permanentes** dependem de atestado de acessibilidade;
+- também dependem de atestado o licenciamento ou certificado de conclusão de obra ou serviço;
+- após certificar a acessibilidade da edificação ou do serviço, o poder público determina o símbolo internacional de acesso em local visível.
 
-Edificações públicas e privadas de uso coletivo **já existentes** também devem garantir acessibilidade em todas as dependências e serviços.
+Edificações públicas e privadas de uso coletivo **já existentes** devem garantir acessibilidade em todas as dependências e serviços.
 
-### 7.4 Edificação privada multifamiliar
+Nas edificações privadas multifamiliares, construtoras e incorporadoras devem assegurar percentual mínimo de unidades internamente acessíveis **conforme regulamento**, sem cobrança adicional. A <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> não fixa, nesse artigo, um percentual numérico.
 
-Projeto e construção devem observar acessibilidade conforme regulamento. Construtoras e incorporadoras devem assegurar percentual mínimo de unidades internamente acessíveis, sem cobrança adicional para sua aquisição.
+### 4.4 Vias, planos e licenças
 
-O percentual e os detalhes técnicos são regulamentares; a LBI não fixa, nesse artigo, um número que possa ser inventado.
+Em intervenção em vias e espaços públicos, poder público e concessionárias devem garantir trânsito seguro, livre circulação e acessibilidade **durante e após** a obra.
 
-### 7.5 Vias, planos e licenças
+Orientam-se pelas regras de acessibilidade, no que couber, planos diretores e de mobilidade, planos de preservação de sítios históricos, códigos de obras e postura, leis de uso do solo e sistema viário, estudos de impacto de vizinhança, fiscalização e sanções e regras de prevenção contra incêndio e pânico.
 
-Em intervenção em vias e espaços públicos, poder público e concessionárias devem garantir, durante e após a obra:
+Alvará de funcionamento e sua renovação dependem da observação e certificação da acessibilidade. A <abbr title="Documento que atesta que a edificação está apta ao uso">carta de habite-se</abbr> ou equivalente e, quando cabível, sua renovação também.
 
-- fluidez segura do trânsito;
-- livre circulação;
-- acessibilidade.
+As ações de acessibilidade devem combinar **prioridades, cronograma e reserva de recursos** com **planejamento contínuo e articulado**.
 
-Devem orientar-se pelas regras de acessibilidade:
+### 4.5 Obrigações mediante solicitação
 
-- planos diretores e de mobilidade;
-- planos de preservação histórica;
-- códigos de obras e postura;
-- leis de uso do solo e sistema viário;
-- estudos de impacto de vizinhança;
-- fiscalização e sanções;
-- prevenção contra incêndio e pânico.
+O artigo 62 assegura, **mediante solicitação**, contas, boletos, recibos, extratos e cobranças de tributos em formato acessível. A expressão integra a regra: não a transforme em obrigação automática sem pedido.
 
-Alvará de funcionamento, sua renovação, carta de habite-se ou equivalente dependem de observação e certificação das regras de acessibilidade.
+## 5. Comunicação acessível: entender e ser entendido também é participação
 
-As ações devem combinar:
+A pessoa pode alcançar fisicamente um serviço e ainda ficar excluída se não consegue compreender ou expressar mensagens pelos meios disponíveis.
 
-- prioridades, cronograma e reserva de recursos;
-- planejamento contínuo e articulado.
+Desde a Lei nº 15.249/2025, a <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> define **pessoa com necessidades complexas de comunicação** como quem tem dificuldades significativas para compreender ou expressar mensagens por formas convencionais e necessita de recursos ou estratégias alternativas ou aumentativas para interação social, acesso à informação e participação cotidiana.
 
-### 7.6 Documentos de cobrança acessíveis
+### 5.1 Comunicação aumentativa: incentivar não é instalar
 
-Mediante solicitação, a pessoa com deficiência tem direito a receber em formato acessível:
+A mesma Lei nº 15.249/2025 criou dois comandos diferentes:
 
-- contas;
-- boletos;
-- recibos;
-- extratos;
-- cobranças de tributos.
+- artigo 42, § 3º: o poder público **incentivará** museus, exposições, monumentos, exibições e galerias a empregar técnicas de comunicação aumentativa e alternativa;
+- artigo 62-A: o poder público **instalará** em praças, parques e demais espaços públicos de uso coletivo placas com esses sistemas.
 
-## 8. Comunicação aumentativa em espaços públicos
+As placas devem usar pranchas de **baixa tecnologia** com <abbr title="Símbolos gráficos que representam mensagens, objetos ou ações">pictogramas</abbr>, adaptar-se ao contexto comunicativo e resistir ao clima e ao uso externo.
 
-A Lei nº 15.249/2025 acrescentou o artigo 62-A.
+A ressalva financeira não está no artigo 62-A: o **artigo 4º da Lei nº 15.249/2025** determina que a implantação das medidas previstas na lei observe a disponibilidade financeira e orçamentária do ente federado.
 
-Para atender pessoas com necessidades complexas de comunicação, o poder público instalará, em praças, parques e demais espaços públicos de uso coletivo, placas:
+### 5.2 Sites e pontos públicos de acesso
 
-- com sistemas de comunicação aumentativa e alternativa;
-- compostas de pranchas de **baixa tecnologia**;
-- com pictogramas;
-- adaptadas ao contexto comunicativo de cada local;
-- confeccionadas em material resistente ao clima e ao uso externo.
+Sites de empresas com sede ou representação comercial no Brasil e de órgãos de governo devem ser acessíveis, conforme melhores práticas e diretrizes internacionais, e trazer símbolo de acessibilidade em destaque.
 
-A disponibilidade financeira e orçamentária do ente federado decorre do **artigo 4º da Lei nº 15.249/2025**, que alcança a implantação das medidas previstas nessa lei; essa ressalva não integra o texto do artigo 62-A da LBI. Baixa tecnologia não significa improvisação nem ausência de adequação ao contexto.
+Telecentros comunitários financiados com recursos públicos federais e <abbr title="Estabelecimentos que oferecem computadores e acesso à internet ao público">lan houses</abbr> devem ter instalações e equipamentos acessíveis. Pelo menos **10% dos computadores** devem possuir recursos para pessoa com deficiência visual, garantido no mínimo **um equipamento**.
 
-## 9. Informação, comunicação e internet
+A acessibilidade do site também condiciona o financiamento público referido no artigo 54, III.
 
-### 9.1 Sites
+### 5.3 Telecomunicações, televisão e livros
 
-É obrigatória a acessibilidade em sites mantidos por:
+Prestadoras de telecomunicações devem garantir pleno acesso conforme regulamentação. O poder público deve incentivar aparelhos de telefonia fixa e móvel acessíveis, inclusive com indicação e ampliação sonoras.
 
-- empresas com sede ou representação comercial no Brasil;
-- órgãos de governo.
+Nos serviços de <abbr title="Transmissão de sons e imagens ao público, como televisão">radiodifusão</abbr> de sons e imagens, a lei prevê, entre outros:
 
-O acesso deve observar melhores práticas e diretrizes internacionais. O site deve conter símbolo de acessibilidade em destaque.
-
-Telecentros comunitários financiados com recursos públicos federais e lan houses devem possuir instalações e equipamentos acessíveis. Devem garantir:
-
-- pelo menos **10%** dos computadores com recursos para pessoa com deficiência visual;
-- no mínimo **um equipamento**, se o percentual resultar em menos de um.
-
-A acessibilidade dos sites também condiciona o financiamento público referido no artigo 54, III.
-
-Este assunto cobra o dever jurídico. Padrões técnicos como WCAG e eMAG pertencem ao estudo específico de acessibilidade digital.
-
-### 9.2 Telecomunicações e telefonia
-
-Prestadoras de telecomunicações devem garantir pleno acesso conforme regulamentação específica.
-
-O poder público deve incentivar aparelhos de telefonia fixa e móvel acessíveis, inclusive com indicação e ampliação sonora das operações e funções.
-
-### 9.3 Radiodifusão
-
-Serviços de radiodifusão de sons e imagens devem permitir, entre outros:
-
-1. legenda oculta;
+1. <abbr title="Legenda que pode ser ativada para apresentar em texto o conteúdo sonoro">legenda oculta</abbr>;
 2. janela com intérprete de <abbr title="Língua Brasileira de Sinais">Libras</abbr>;
-3. audiodescrição.
+3. <abbr title="Narração verbal de informações visuais relevantes">audiodescrição</abbr>.
 
-### 9.4 Livros em formatos acessíveis
+O poder público deve incentivar livros acessíveis. Editais públicos de compra devem impedir editora que não ofereça sua produção também em formato acessível. Arquivo digital acessível pode permitir leitura por leitor de tela, voz sintetizada, ampliação, contraste e impressão em <abbr title="Sistema de leitura e escrita tátil">Braille</abbr>. Também devem ser estimulados artigos científicos acessíveis, inclusive em <abbr title="Língua Brasileira de Sinais">Libras</abbr>.
 
-O poder público deve incentivar produção, edição, difusão, distribuição e comercialização de livros acessíveis, inclusive publicações administrativas ou financiadas com recursos públicos.
+### 5.4 Consumo, eventos e campanhas
 
-Editais públicos de compra de livros devem impedir a participação de editora que não ofereça sua produção também em formato acessível.
+Informações sobre produtos e serviços devem ser corretas, claras e acessíveis. Canais de comércio virtual e anúncios devem oferecer recursos compatíveis de acessibilidade **às expensas do fornecedor**. Bulas, prospectos e outros materiais de divulgação devem ser fornecidos em formato acessível **mediante solicitação**.
 
-Formato acessível inclui arquivo digital reconhecível por leitor de tela ou outra tecnologia assistiva, permitindo:
+Em congressos, seminários, oficinas e eventos científico-culturais:
 
-- voz sintetizada;
-- ampliação de caracteres;
-- diferentes contrastes;
-- impressão em Braille.
+- a instituição promotora oferece, no mínimo, os recursos previstos para radiodifusão;
+- se o evento for promovido ou financiado pelo poder público, devem ser garantidas acessibilidade e tecnologia assistiva.
 
-O poder público também deve estimular artigos científicos acessíveis, inclusive em Libras.
+Programas, linhas de pesquisa e projetos apoiados por agências de financiamento ou órgãos públicos de auxílio à pesquisa devem contemplar tecnologia assistiva.
 
-### 9.5 Consumidor e publicidade
-
-Informações sobre produtos e serviços devem ser corretas, claras e acessíveis, inclusive no ambiente virtual.
-
-Canais de comércio virtual e anúncios devem oferecer, conforme a compatibilidade do meio, recursos de acessibilidade, **às expensas do fornecedor**.
-
-Mediante solicitação, fornecedores devem disponibilizar bulas, prospectos e materiais de divulgação em formato acessível.
-
-### 9.6 Eventos científico-culturais
-
-Instituições promotoras de congressos, seminários, oficinas e eventos científico-culturais devem oferecer, no mínimo, os recursos previstos para radiodifusão.
-
-Quando o evento é promovido ou financiado pelo poder público, devem ser garantidas as condições de acessibilidade e os recursos de tecnologia assistiva.
-
-Programas, linhas de pesquisa e projetos apoiados por agências de financiamento ou por órgãos e entidades públicos de auxílio à pesquisa devem contemplar temas voltados à tecnologia assistiva.
-
-O poder público deve promover capacitação de:
-
-- tradutores e intérpretes de Libras;
-- guias-intérpretes;
-- profissionais de Braille, audiodescrição, estenotipia e legendagem.
+O poder público deve capacitar tradutores e intérpretes de <abbr title="Língua Brasileira de Sinais">Libras</abbr>, <abbr title="Profissionais que mediam comunicação de pessoas com surdocegueira">guias-intérpretes</abbr> e profissionais de <abbr title="Sistema de leitura e escrita tátil">Braille</abbr>, <abbr title="Narração verbal de informações visuais relevantes">audiodescrição</abbr>, <abbr title="Técnica de registro rápido da fala por máquina de estenotipia">estenotipia</abbr> e legendagem.
 
 Desde a Lei nº 14.863/2024, campanhas **sociais, preventivas e educativas** devem ser acessíveis.
 
-## 10. Tecnologia assistiva, ciência e inovação
+## 6. Tecnologia assistiva, ciência e inovação
 
-### 10.1 Acesso à tecnologia assistiva
+O artigo 74 garante acesso a produtos, recursos, estratégias, práticas, processos, métodos e serviços de tecnologia assistiva que maximizem **autonomia, mobilidade pessoal e qualidade de vida**. Portanto, tecnologia assistiva não se reduz a equipamento eletrônico.
 
-A pessoa com deficiência tem direito de acesso a produtos, recursos, estratégias, práticas, processos, métodos e serviços de tecnologia assistiva que maximizem:
+### 6.1 Plano: quatro anos não são dois
 
-- autonomia;
-- mobilidade pessoal;
-- qualidade de vida.
-
-Tecnologia assistiva não se reduz a equipamento eletrônico.
-
-### 10.2 Plano específico
-
-O poder público deve desenvolver plano de medidas renovado a cada **quatro anos** para:
+O poder público deve desenvolver plano específico, renovado a cada **quatro anos**, para:
 
 1. facilitar crédito especializado, inclusive subsidiado;
-2. agilizar, simplificar e priorizar importação;
+2. agilizar, simplificar e priorizar importação, especialmente procedimentos alfandegários e sanitários;
 3. fomentar pesquisa e produção nacional;
-4. eliminar ou reduzir tributação da cadeia produtiva e importação;
-5. facilitar a inclusão de novos recursos entre os produtos distribuídos pelo <abbr title="Sistema Único de Saúde">SUS</abbr> e outros órgãos.
+4. eliminar ou reduzir tributação da cadeia produtiva e de importação;
+5. facilitar a inclusão de novos recursos entre os produtos distribuídos pelo <abbr title="Sistema Único de Saúde">SUS</abbr> e por outros órgãos.
 
-Os procedimentos do plano devem ser avaliados, no mínimo, a cada **dois anos**. Renovação quadrienal e avaliação bienal não são sinônimos.
+Os procedimentos do plano devem ser avaliados, pelo menos, a cada **dois anos**. Renovação quadrienal e avaliação bienal são comandos distintos. O Decreto nº 10.645/2021 regulamenta o Plano Nacional de Tecnologia Assistiva.
 
-O Decreto nº 10.645/2021 regulamenta o Plano Nacional de Tecnologia Assistiva.
+### 6.2 Ciência e inovação
 
-### 10.3 Ciência, tecnologia e inovação
+O poder público deve fomentar ciência, pesquisa, inovação e capacitação tecnológica voltadas à qualidade de vida, ao trabalho e à inclusão. A lei prioriza prevenção e tratamento de deficiências, tecnologias assistiva e social, pós-graduação, formação de recursos humanos e capacitação de instituições públicas e privadas, com reavaliação periódica.
 
-O poder público deve fomentar pesquisa, inovação e capacitação tecnológica voltadas à qualidade de vida, ao trabalho e à inclusão.
+Também devem ser estimuladas tecnologias da informação, comunicação e tecnologias sociais que superem limitações funcionais e barreiras, inclusive no acesso à computação, aos sites e aos serviços de governo eletrônico.
 
-Devem ser priorizados:
+## 7. Dados, controle e medidas operacionais de inclusão
 
-- prevenção e tratamento de deficiências;
-- tecnologias assistiva e social;
-- cursos de pós-graduação e formação de recursos humanos;
-- capacitação de instituições públicas e privadas;
-- reavaliação periódica das medidas.
+### 7.1 Cadastro-Inclusão
 
-Também devem ser estimuladas tecnologias da informação, comunicação e tecnologias sociais que superem barreiras, inclusive nos serviços de governo eletrônico.
+O Cadastro Nacional de Inclusão da Pessoa com Deficiência é registro público eletrônico destinado a reunir informações <abbr title="Associadas a uma localização geográfica">georreferenciadas</abbr> sobre identificação e caracterização socioeconômica e sobre barreiras que impedem direitos.
 
-## 11. Cadastro, controle e medidas operacionais finais
+Administrado pelo Poder Executivo federal, integra dados de políticas públicas, censos e pesquisas, com salvaguardas de confidencialidade, privacidade, liberdades fundamentais e princípios éticos.
 
-### 11.1 Cadastro-Inclusão
-
-O Cadastro Nacional de Inclusão da Pessoa com Deficiência é registro público eletrônico destinado a coletar, processar, sistematizar e disseminar informações georreferenciadas sobre:
-
-- identificação e caracterização socioeconômica;
-- barreiras que impedem direitos.
-
-É administrado pelo Poder Executivo federal e integra bases das políticas públicas, censos e pesquisas.
-
-Devem ser preservadas confidencialidade, privacidade, liberdades fundamentais e princípios éticos.
-
-Seus dados só podem ser usados para:
+Os dados só podem ser usados para:
 
 1. formulação, gestão, monitoramento e avaliação de políticas e identificação de barreiras;
 2. estudos e pesquisas.
 
-As informações devem ser disseminadas em formatos acessíveis. Cadastro-Inclusão não é sinônimo de CadÚnico, credencial de estacionamento ou <abbr title="Benefício de Prestação Continuada">BPC</abbr>.
+As informações devem ser disseminadas em formatos acessíveis. Cadastro-Inclusão não se confunde com <abbr title="Cadastro Único para Programas Sociais">CadÚnico</abbr>, credencial de estacionamento ou <abbr title="Benefício de Prestação Continuada">BPC</abbr>.
 
-### 11.2 Inspeções e auditorias
+### 7.2 Inspeções e auditorias
 
-Órgãos de controle interno e externo devem observar, em suas inspeções e auditorias, o cumprimento:
+Órgãos de controle interno e externo devem verificar, em inspeções e auditorias, o cumprimento da legislação relativa à pessoa com deficiência e das normas de acessibilidade vigentes.
 
-- da legislação relativa à pessoa com deficiência;
-- das normas de acessibilidade vigentes.
+Não confunda o artigo 93 com o artigo 56: o primeiro trata do controle interno e externo; o segundo, da responsabilidade profissional em projetos e obras.
 
-Não confunda esse artigo 93 com a responsabilidade técnica fiscalizada pelas entidades profissionais no artigo 56, § 1º.
+### 7.3 Auxílio-inclusão
 
-### 11.3 Auxílio-inclusão
+Nos termos da lei, a <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> reconhece auxílio-inclusão à pessoa com deficiência **moderada ou grave** que:
 
-Nos termos da lei, a LBI reconhece auxílio-inclusão à pessoa com deficiência **moderada ou grave** que:
+- receba <abbr title="Benefício de Prestação Continuada">BPC</abbr> e passe a exercer atividade remunerada como <abbr title="Pessoa que a lei enquadra obrigatoriamente no regime previdenciário">segurada obrigatória</abbr> do <abbr title="Regime Geral de Previdência Social">RGPS</abbr>; ou
+- tenha recebido <abbr title="Benefício de Prestação Continuada">BPC</abbr> nos últimos **cinco anos** e exerça atividade remunerada com esse enquadramento.
 
-- receba BPC e passe a exercer atividade remunerada que a enquadre como segurada obrigatória do <abbr title="Regime Geral de Previdência Social">RGPS</abbr>; ou
-- tenha recebido BPC nos últimos **cinco anos** e exerça atividade remunerada com esse enquadramento.
+Auxílio-inclusão não é o próprio <abbr title="Benefício de Prestação Continuada">BPC</abbr> nem benefício previdenciário; o artigo 94 remete aos demais requisitos legais.
 
-Os demais detalhes pertencem à legislação assistencial. Não confunda auxílio-inclusão com BPC ou benefício previdenciário.
+### 7.4 Comparecimento sem deslocamento desproporcional
 
-### 11.4 Comparecimento e atendimento domiciliar
+É vedado exigir comparecimento perante órgão público quando o deslocamento, em razão da limitação funcional e das condições de acessibilidade, imponha **ônus desproporcional e indevido**.
 
-É vedado exigir comparecimento perante órgão público quando o deslocamento, por limitação funcional e condições de acessibilidade, imponha ônus desproporcional e indevido.
+- interesse do poder público → o agente promove o contato na residência;
+- interesse da pessoa → ela pode pedir atendimento domiciliar ou constituir procurador.
 
-Se o contato interessar ao poder público, o agente vai à residência. Se interessar à pessoa, ela pode:
+Na mesma situação, é assegurado atendimento domiciliar pela perícia médica e social do <abbr title="Instituto Nacional do Seguro Social">INSS</abbr>, por serviço público de saúde, por serviço privado contratado ou conveniado que integre o <abbr title="Sistema Único de Saúde">SUS</abbr> e por entidades da rede socioassistencial do <abbr title="Sistema Único de Assistência Social">Suas</abbr>.
 
-- solicitar atendimento domiciliar; ou
-- constituir procurador.
+## 8. Crimes: primeiro identifique o verbo, depois a pena
 
-Nessa mesma situação, é assegurado atendimento domiciliar por perícia médica e social do <abbr title="Instituto Nacional do Seguro Social">INSS</abbr>, serviço público de saúde, serviço privado conveniado ou contratado que integre o SUS e entidades da rede socioassistencial do <abbr title="Sistema Único de Assistência Social">Suas</abbr>.
+Nos artigos 88 a 91, comece pelo **verbo da conduta**. A banca costuma trocar o verbo e a pena entre crimes próximos.
 
-## 12. Crimes da LBI
+| Artigo | Conduta central | Pena básica |
+|---|---|---|
+| 88 | discriminar, induzir ou incitar discriminação | reclusão de **1 a 3 anos** + multa |
+| 89 | apropriar-se de ou desviar bens ou rendimentos | reclusão de **1 a 4 anos** + multa |
+| 90 | abandonar ou não prover necessidades básicas quando houver obrigação legal ou por mandado | reclusão de **2 a 5 anos** + multa |
+| 91 | reter ou usar cartão, meio eletrônico ou documento para obter vantagem indevida | detenção de **6 meses a 2 anos** + multa |
 
-### 12.1 Discriminação
+Reclusão e detenção são espécies de pena privativa de liberdade; preserve a espécie e a faixa atribuídas pela <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>.
 
-Praticar, induzir ou incitar discriminação em razão da deficiência:
+### 8.1 Discriminação — artigo 88
 
-- reclusão de **um a três anos**;
-- multa.
+Praticar, induzir ou incitar discriminação em razão da deficiência recebe **reclusão de um a três anos e multa**. A pena aumenta em **um terço** se a vítima estiver sob cuidado e responsabilidade do agente.
 
-A pena aumenta em **um terço** se a vítima estiver sob cuidado e responsabilidade do agente.
+Se o crime ocorrer por meio de comunicação social ou publicação, a pena passa a **reclusão de dois a cinco anos e multa**. Nessa hipótese, o juiz pode, ouvido o Ministério Público ou a pedido dele, ainda antes do <abbr title="Procedimento de investigação policial anterior ao processo penal">inquérito</abbr>:
 
-Se o crime ocorrer por meio de comunicação social ou publicação:
+- determinar recolhimento ou busca e apreensão do material;
+- interditar mensagens ou páginas na internet.
 
-- reclusão de **dois a cinco anos**;
-- multa.
+O descumprimento ocorre sob pena de desobediência. A destruição do material apreendido é efeito da condenação **após o trânsito em julgado**, quando já não cabe recurso.
 
-Nessa hipótese, o juiz pode determinar, ouvido o Ministério Público ou a pedido dele, mesmo antes do inquérito:
+### 8.2 Apropriação ou desvio — artigo 89
 
-- recolhimento ou busca e apreensão do material;
-- interdição de mensagens ou páginas na internet.
+Apropriar-se de ou desviar bens, proventos, pensão, benefícios, remuneração ou qualquer rendimento tem pena de **reclusão de um a quatro anos e multa**.
 
-O descumprimento dessas determinações ocorre sob pena de desobediência.
+Aumenta-se a pena em **um terço** se o agente for tutor, curador, síndico, liquidatário, inventariante, testamenteiro ou depositário judicial, ou se tiver se apropriado em razão de ofício ou profissão.
 
-Após o trânsito em julgado, a destruição do material apreendido é efeito da condenação.
+### 8.3 Abandono — artigo 90
 
-A definição civil de discriminação ajuda a interpretar a proteção, mas o crime exige análise de tipicidade e dolo.
-
-### 12.2 Apropriação ou desvio
-
-Apropriar-se de ou desviar bens, proventos, pensão, benefícios, remuneração ou rendimento da pessoa com deficiência:
-
-- reclusão de **um a quatro anos**;
-- multa.
-
-A pena aumenta em um terço se o crime for praticado:
-
-- por tutor, curador, síndico, liquidatário, inventariante, testamenteiro ou depositário judicial; ou
-- por quem se apropriou em razão de ofício ou profissão.
-
-### 12.3 Abandono e necessidades básicas
-
-A Lei nº 15.163/2025 atualizou o artigo 90.
-
-Abandonar pessoa com deficiência em hospital, casa de saúde, entidade de abrigamento ou congênere:
+A Lei nº 15.163/2025 alterou o artigo 90. No corte do edital:
 
 | Resultado | Pena |
 |---|---|
-| tipo básico | reclusão de 2 a 5 anos + multa |
-| lesão corporal grave | reclusão de 3 a 7 anos + multa |
-| morte | reclusão de 8 a 14 anos + multa |
+| tipo básico | reclusão de **2 a 5 anos** + multa |
+| lesão corporal grave | reclusão de **3 a 7 anos** + multa |
+| morte | reclusão de **8 a 14 anos** + multa |
 
-Nas mesmas penas incorre quem não provê necessidades básicas quando obrigado por lei ou mandado.
+Nas mesmas penas incorre quem não provê necessidades básicas da pessoa com deficiência quando obrigado por lei ou mandado. A antiga pena básica de **seis meses a três anos** está desatualizada para este concurso.
 
-Materiais que indiquem pena básica de seis meses a três anos estão desatualizados.
+### 8.4 Retenção de cartão ou documento — artigo 91
 
-### 12.4 Retenção de cartão ou documento
+Reter ou utilizar cartão magnético, meio eletrônico ou documento destinado ao recebimento de benefícios, proventos, pensões ou remuneração ou a operações financeiras, **com o fim de obter vantagem indevida para si ou para outrem**, recebe **detenção de seis meses a dois anos e multa**.
 
-Reter ou utilizar cartão magnético, meio eletrônico ou documento destinado ao recebimento de benefícios, proventos, pensões ou remuneração ou à realização de operações financeiras, para obter vantagem indevida para si ou para outrem:
+A pena aumenta em **um terço** se o agente for tutor ou curador. Não confunda com o artigo 89: aqui o núcleo é reter ou usar o instrumento com finalidade de vantagem; lá, apropriar-se ou desviar bens e rendimentos.
 
-- detenção de **seis meses a dois anos**;
-- multa.
+## 9. Como discriminar as regras na prova
 
-A pena aumenta em um terço se o agente for tutor ou curador.
+Use estes eixos depois de identificar o contexto:
 
-### 12.5 Quadro comparativo
+1. **geral ou individual?** Desenho universal vem primeiro; adaptação razoável entra quando ele comprovadamente não puder ser empreendido;
+2. **automático ou mediante solicitação?** Site acessível e cinema em todas as sessões independem de pedido; contas e materiais do fornecedor dependem;
+3. **qual número?** estacionamento **2%**; táxi **10%**; locadora **1/20**; hospedagem **10%**; computadores de telecentros e <abbr title="Estabelecimentos que oferecem computadores e acesso à internet ao público">lan houses</abbr> **10%**;
+4. **qual verbo?** cultura **incentivar** × espaço público **instalar**; plano de tecnologia assistiva **4 anos** × avaliação **2 anos**; nos crimes, identifique a conduta antes da pena.
 
-| Artigo | Núcleo |
-|---|---|
-| 88 | discriminar, induzir ou incitar |
-| 89 | apropriar-se ou desviar patrimônio/rendimento |
-| 90 | abandonar ou não prover necessidade básica |
-| 91 | reter ou usar cartão, meio eletrônico ou documento para vantagem |
-
-## 13. Alterações relevantes no corte
-
-| Norma | Impacto operacional |
-|---|---|
-| Lei nº 14.624/2023 | cordão de girassóis e deficiência oculta |
-| Lei nº 14.863/2024 | campanhas sociais, preventivas e educativas acessíveis |
-| Lei nº 14.978/2024 | dispensa estrutural condicionada em hospedagem existente |
-| Lei nº 15.163/2025 | novas penas do abandono e resultados grave/morte |
-| Lei nº 15.249/2025 | CAA em espaços culturais; placas com pranchas de baixa tecnologia e pictogramas em espaços públicos |
-
-As cinco alterações estavam vigentes na publicação do edital.
-
-## 14. Fronteiras do assunto
-
-Ficam no Assunto 098:
-
-- conceito e avaliação da deficiência;
-- igualdade, proteção, capacidade e prioridade;
-- direitos materiais e consentimento;
-- curatela e tomada de decisão apoiada;
-- acesso à justiça como direito.
-
-Ficam no Assunto 100:
-
-- estudo sistemático da Lei nº 10.098/2000;
-- estudo sistemático da Lei nº 10.048/2000.
-
-Este assunto não repete padrões técnicos de WCAG/eMAG nem governança administrativa de acessibilidade; estuda os comandos jurídicos da LBI.
-
-## 15. Pegadinhas centrais
-
-| Afirmação | Correção |
-|---|---|
-| cordão de girassóis é obrigatório | errado: uso opcional |
-| cordão substitui documento | errado |
-| colocação competitiva é segregação | errado: é modo de inclusão |
-| trabalho com apoio elimina igualdade competitiva | errado |
-| só seleção pública observa acessibilidade | errado: pública ou privada |
-| assento reservado nunca pode ser usado por outra pessoa | errado: excepcionalmente, sem procura comprovada |
-| cinema escolhe sessões acessíveis | errado: todas as sessões |
-| CAA cultural e placas do art. 62-A usam o mesmo comando | errado: art. 42, § 3º = incentivar; art. 62-A = instalar |
-| hospedagem antiga está sempre dispensada | errado: regra de 10%; exceção estrutural condicionada |
-| vaga reservada é 10% | errado: estacionamento 2%; táxi 10% |
-| locadora reserva um em dez | errado: um em vinte |
-| símbolo no veículo é autodeclarado | errado: exige certificação do gestor |
-| adaptação razoável substitui sempre o desenho universal | errado: desenho universal é regra |
-| prédio antigo está dispensado | errado |
-| somente site público deve ser acessível | errado |
-| campanha acessível é facultativa | errado |
-| plano de tecnologia assistiva é bienal | errado: renovação em 4 anos; avaliação em 2 |
-| Cadastro-Inclusão é CadÚnico | errado |
-| artigo 93 fiscaliza profissão | errado: trata de auditorias e inspeções |
-| comparecimento sempre pode ser exigido | errado se houver ônus desproporcional e indevido |
-| abandono ainda tem pena de 6 meses a 3 anos | errado após Lei nº 15.163/2025 |
-| reter cartão e desviar benefício são o mesmo tipo | errado |
-
-## 16. Método de resolução
-
-1. Identifique o sujeito: pessoa, empresa, poder público, fornecedor, órgão de controle ou agente criminal.
-2. Nos percentuais, separe: estacionamento **2%**, táxi **10%**, locadora **1/20**, hospedagem **10%**.
-3. Em projeto, aplique: desenho universal primeiro; adaptação razoável quando comprovadamente necessário.
-4. Em informação, pergunte se a obrigação depende de solicitação.
-5. Em tecnologia assistiva, diferencie plano quadrienal de avaliação bienal.
-6. Em Cadastro-Inclusão, limite o uso dos dados às duas finalidades legais.
-7. Em crimes, identifique o verbo e só depois a pena e o aumento.
-8. Confira se a questão usa redação anterior a 2023, 2024 ou 2025.
-9. Não use regra das Leis nº 10.048/2000 ou nº 10.098/2000 para alterar a literalidade da LBI.
+A lógica permanece a mesma: a <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> converte participação em igualdade em deveres verificáveis desde o planejamento até o uso, com suporte, controle e responsabilização.
