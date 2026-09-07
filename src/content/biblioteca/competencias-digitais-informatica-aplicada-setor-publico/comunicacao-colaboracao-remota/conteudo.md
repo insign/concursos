@@ -46,14 +46,14 @@ Esse contraste também ajuda no trabalho remoto: use sincronia quando a interaç
 
 ## 3. Correio eletrônico: separe identidade, caixa e interface
 
-Ao usar e-mail, quatro coisas diferentes podem parecer uma só:
+Ao usar e-mail, cinco coisas diferentes podem parecer uma só:
 
 | Termo | Significado |
 |---|---|
 | conta | identidade e credenciais de acesso ao serviço |
 | endereço | identificador, como `nome@orgao.gov.br` |
 | caixa postal | mensagens, pastas/rótulos e estados mantidos pelo serviço |
-| webmail | interface Web acessada no navegador |
+| <abbr title="Interface de correio eletrônico acessada no navegador">webmail</abbr> | interface Web acessada no navegador |
 | cliente de e-mail | aplicativo instalado ou integrado ao sistema para acessar a caixa |
 
 **Webmail não é protocolo.** Um cliente instalado também não implica armazenamento exclusivamente local. A mesma caixa postal pode ser acessada por interfaces diferentes, conforme suporte e configuração.
@@ -76,24 +76,24 @@ Rascunho e Caixa de saída também não são sinônimos: o **rascunho** ainda es
 |---|---|
 | `De` / From | remetente apresentado |
 | `Para` / To | destinatários diretamente envolvidos |
-| <abbr title="Cópia visível">Cc</abbr> | destinatários que recebem ciência de forma visível |
-| <abbr title="Cópia oculta">Cco</abbr> / <abbr title="Blind carbon copy">Bcc</abbr> | destinatários ocultos aos demais destinatários |
+| <abbr title="Cópia carbono">Cc</abbr> | destinatários que recebem ciência de forma visível |
+| <abbr title="Cópia carbono oculta">Cco</abbr> / <abbr title="Blind carbon copy">Bcc</abbr> | destinatários ocultos aos demais destinatários |
 | `Assunto` | síntese do tema |
-| `Reply-To` | endereço preferencial para receber respostas, quando usado |
+| <abbr title="Endereço preferencial para receber respostas">Reply-To</abbr> | endereço preferencial para receber respostas, quando usado |
 
-Use **Para** para quem deve agir ou responder; <abbr title="Cópia visível">Cc</abbr> para ciência legítima; e <abbr title="Cópia oculta">Cco</abbr> quando os demais destinatários não devem ver aquele endereço — por exemplo, em um envio coletivo a cidadãos.
+Use **Para** para quem deve agir ou responder; <abbr title="Cópia carbono">Cc</abbr> para ciência legítima; e <abbr title="Cópia carbono oculta">Cco</abbr> quando os demais destinatários não devem ver aquele endereço — por exemplo, em um envio coletivo a cidadãos.
 
-<abbr title="Cópia oculta">Cco</abbr> protege a lista de destinatários dentro daquela mensagem, mas não impede encaminhamento, captura de tela ou divulgação posterior do conteúdo.
+<abbr title="Cópia carbono oculta">Cco</abbr> protege a lista de destinatários dentro daquela mensagem, mas não impede encaminhamento, captura de tela ou divulgação posterior do conteúdo.
 
 ### 4.2 Responder, responder a todos e encaminhar
 
 | Ação | Resultado |
 |---|---|
 | Responder | dirige a resposta ao remetente ou ao `Reply-To` |
-| Responder a todos | inclui remetente e destinatários visíveis de Para/<abbr title="Cópia visível">Cc</abbr>, conforme o cliente |
+| Responder a todos | inclui remetente e destinatários visíveis de Para/<abbr title="Cópia carbono">Cc</abbr>, conforme o cliente |
 | Encaminhar | cria novo envio para destinatários escolhidos |
 
-Destinatários originalmente em <abbr title="Cópia oculta">Cco</abbr> não devem aparecer automaticamente na lista visível de uma resposta em grupo. Porém, quem recebeu por <abbr title="Cópia oculta">Cco</abbr> pode se revelar ao responder; por isso, sempre revise os destinatários antes de enviar.
+Destinatários originalmente em <abbr title="Cópia carbono oculta">Cco</abbr> não devem aparecer automaticamente na lista visível de uma resposta em grupo. Porém, quem recebeu por <abbr title="Cópia carbono oculta">Cco</abbr> pode se revelar ao responder; por isso, sempre revise os destinatários antes de enviar.
 
 ### 4.3 Anexos, links e permissões
 
@@ -214,11 +214,21 @@ Canal compartilhado não significa acesso anônimo. Canal privado também não s
 
 Responder dentro do tópico preserva o contexto da postagem; abrir nova postagem para uma resposta fragmenta o histórico.
 
-### 9.2 Papéis da equipe
+### 9.2 Colaboração externa: conversar não é entrar na equipe
+
+No Teams, uma pessoa de fora da organização pode aparecer por mecanismos diferentes. O ponto é perguntar **a quais recursos ela ganhou acesso**, e não apenas se consegue conversar.
+
+- <abbr title="Comunicação com pessoas de fora sem adicioná-las à equipe">acesso externo</abbr> permite localizar, conversar, ligar ou reunir-se com pessoas de outras organizações compatíveis, conforme configuração, sem torná-las membros da sua equipe nem liberar os recursos dela;
+- <abbr title="Colaboração de pessoa adicionada à equipe como convidada">acesso de convidado</abbr> adiciona a pessoa como convidada para colaborar em uma equipe e nos recursos permitidos;
+- **canal compartilhado** dá acesso a um canal selecionado sem abrir automaticamente o restante da equipe; colaboração entre organizações depende da configuração administrativa.
+
+Assim, “consegue conversar com alguém de outro domínio” não significa “é membro da equipe” nem “pode abrir os arquivos da equipe”.
+
+### 9.3 Papéis da equipe
 
 Os papéis usuais da equipe são **proprietário, membro e convidado**. Eles não são os papéis de uma reunião. Ser proprietário de uma equipe, por exemplo, não torna alguém automaticamente organizador de todas as reuniões.
 
-### 9.3 Menções, presença e notificações
+### 9.4 Menções, presença e notificações
 
 - `@menção` chama atenção de pessoa ou grupo permitido, conforme configurações;
 - presença é indicação operacional e pode refletir agenda, atividade ou ajuste manual;
@@ -229,11 +239,13 @@ Os papéis usuais da equipe são **proprietário, membro e convidado**. Eles nã
 
 ## 10. Arquivos no Teams: link e armazenamento não são a mesma coisa
 
+O Teams integra serviços de armazenamento diferentes. Em regra, <abbr title="Serviço Microsoft de arquivos associado à conta do usuário">OneDrive</abbr> sustenta arquivos ligados a chats e pessoas; <abbr title="Plataforma Microsoft de sites e bibliotecas de documentos para equipes">SharePoint</abbr> sustenta arquivos ligados a equipes e canais.
+
 | Situação | Local típico |
 |---|---|
 | arquivo enviado em chat | OneDrive do remetente, compartilhado com participantes |
 | arquivo publicado em canal | biblioteca do SharePoint associada à equipe |
-| gravação de reunião comum | OneDrive do responsável, conforme política |
+| gravação de reunião comum | OneDrive do organizador, conforme política |
 | gravação de reunião de canal | SharePoint do canal |
 
 Daí seguem quatro conclusões importantes:
@@ -258,7 +270,13 @@ O chat pode exibir o link de uma gravação sem ser o local em que o vídeo est�
 
 Política e tipo de reunião podem reduzir capacidades.
 
-### 11.1 Controles básicos
+### 11.1 <abbr title="Sala virtual de espera antes do ingresso na reunião">Lobby</abbr>: link pode levar a uma espera
+
+O **lobby** é a sala virtual de espera da reunião. As opções do encontro definem quem entra diretamente e quem precisa ser admitido; também definem, dentro dos papéis autorizados, quem pode admitir ou negar o ingresso. Políticas administrativas podem impor ou limitar essas escolhas.
+
+Por isso, possuir um link válido não garante entrada imediata: a pessoa pode ficar no lobby até ser admitida.
+
+### 11.2 Controles básicos
 
 | Controle | Efeito |
 |---|---|
@@ -275,7 +293,7 @@ Política e tipo de reunião podem reduzir capacidades.
 
 Levantar a mão **não** ativa o microfone. Reação **não** é voto formal. Conceder controle **não** transforma a pessoa em coorganizador. Sair **não** é o mesmo que encerrar a reunião para todos.
 
-### 11.2 Compartilhamento de tela
+### 11.3 Compartilhamento de tela
 
 | Opção | Cuidado principal |
 |---|---|
@@ -286,11 +304,11 @@ Levantar a mão **não** ativa o microfone. Reação **não** é voto formal. Co
 
 Antes de compartilhar, feche conteúdo sensível e desative notificações quando apropriado.
 
-### 11.3 Chat da reunião
+### 11.4 Chat da reunião
 
 O acesso ao chat pode variar conforme convite direto ou link encaminhado, identidade interna/externa/anônima, tipo de reunião, política administrativa e momento de ingresso e saída. Portanto, **ter o link não garante acesso permanente ao histórico**.
 
-### 11.4 Gravação, transcrição, legenda e ata
+### 11.5 Gravação, transcrição, legenda e ata
 
 | Recurso | Resultado |
 |---|---|
@@ -385,7 +403,7 @@ O <abbr title="Programa de Gestão e Desempenho">PGD</abbr> federal enfatiza ent
 
 **Situação hipotética:** o órgão precisa enviar um comunicado a cidadãos que não devem ver os endereços uns dos outros.
 
-**Decisão:** usar <abbr title="Cópia oculta">Cco</abbr>, revisar o conteúdo e evitar expor a lista em Para/<abbr title="Cópia visível">Cc</abbr>.
+**Decisão:** usar <abbr title="Cópia carbono oculta">Cco</abbr>, revisar o conteúdo e evitar expor a lista em Para/<abbr title="Cópia carbono">Cc</abbr>.
 
 ### Caso 2 — link sem permissão
 
