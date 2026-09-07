@@ -6,63 +6,58 @@ order: 69
 storageId: organizacao-controle-externo
 ---
 
-## 1. Recorte do assunto e corte temporal
+## 1. Primeiro enxergue os três níveis da organização
 
-O edital cobra a **Lei Estadual nº 9.936/2013 (Organização Administrativa do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>)**. Neste assunto, o núcleo é a estrutura institucional e finalística: composição do Tribunal, órgãos e unidades, Secretaria do Tribunal, direção das secretarias e organização técnica da Secretaria de Fiscalização (SEFIS).
+Considere um caso **hipotético**: uma equipe técnica encontra falhas de transparência em um Município. O relatório produzido pela equipe não vira decisão por si só. Para entender o caminho, separe três níveis:
 
-O corte é o da publicação do edital, em **6 de julho de 2026**. Por isso, integram a leitura:
+1. **o Tribunal**, com seus órgãos e membros, exerce as competências institucionais e delibera nos casos que lhe cabem;
+2. **a Secretaria do Tribunal** reúne unidades estratégicas, técnicas e administrativas que dão suporte ao exercício dessas competências;
+3. dentro da Secretaria, a **<abbr title="Secretaria de Fiscalização">SEFIS</abbr>** é a unidade especializada nas atividades de controle externo — o conjunto de fiscalizações, análises e demais formas de controle da gestão pública atribuídas ao Tribunal.
 
-- a Lei nº 9.936/2013 e suas alterações vigentes no corte;
-- a Lei nº 11.170/2019, que reorganizou a Secretaria do Tribunal;
-- a Lei nº 12.822/2026, republicada no Diário Oficial do Estado em **9 de abril de 2026**, que acrescentou o Gabinete do Procurador-Geral de Contas à estrutura legal e alterou matéria de pessoal;
-- a Resolução TCE/MA nº 408/2024, como regulamento geral da estrutura administrativa; e
-- a Resolução TCE/MA nº 417/2025, **republicada em 8 de abril de 2025**, como norma específica da organização e do funcionamento da SEFIS.
+Na organização interna da <abbr title="Secretaria de Fiscalização">SEFIS</abbr>, o trabalho técnico ainda passa por uma cadeia própria: **Secretário de Fiscalização → Gerente de Fiscalização → Líder de Fiscalização → Auditores Estaduais de Controle Externo**.
 
-A regulamentação interna é usada aqui para esclarecer como a estrutura legal funciona. Cargos, códigos, requisitos, gratificações, anexos e reestruturações de pessoal pertencem ao **Assunto 070**.
+Esse mapa resolve a distinção central do assunto: **organizar, dirigir, fiscalizar e instruir não é o mesmo que julgar**. A Secretaria e suas equipes produzem o suporte técnico necessário; elas não substituem Pleno, Câmaras, relatores ou outras autoridades nas competências decisórias que a ordem jurídica lhes atribui.
 
-## 2. Como combinar lei e regulamento
+O corte do edital é **6 de julho de 2026**. O núcleo estudado é a Lei Estadual nº 9.936/2013, já com as alterações vigentes nessa data, e os atos internos necessários para compreender como a estrutura legal funciona. Cargos, códigos, requisitos, gratificações, valores e anexos ficam no Assunto 070.
 
-A Lei nº 9.936/2013 fornece a moldura organizacional. O art. 11 determina que ato normativo do próprio TCE/MA regulamente a organização, as atribuições e as normas de funcionamento de unidades do Tribunal.
+## 2. Lei e regulamento mostram camadas diferentes da mesma organização
 
-Isso produz duas camadas que não devem ser fundidas:
+A Lei nº 9.936/2013 fornece a **moldura legal** da organização. Seu artigo 11 determina que ato normativo do próprio <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> regulamente a organização, as atribuições e as normas de funcionamento das unidades indicadas pela lei.
 
-| Camada | Função |
+Por isso, duas perguntas diferentes podem produzir respostas diferentes sem haver contradição:
+
+- **o que a lei enumera?**
+- **como o Tribunal regulamentou o funcionamento dessa estrutura?**
+
+As fontes mais importantes no corte do edital são:
+
+| Fonte | Função neste assunto |
 | --- | --- |
-| Lei nº 9.936/2013 | define a estrutura legal do Tribunal e da Secretaria |
-| Resoluções internas | distribuem organização, atribuições e funcionamento dentro da autorização legal |
+| Lei nº 9.936/2013 | estrutura legal do Tribunal e da Secretaria |
+| Lei nº 11.170/2019 | reorganização da Secretaria do Tribunal |
+| Lei nº 12.822/2026 | alteração da estrutura legal antes do edital |
+| Resolução nº 408/2024 | organização administrativa geral |
+| Resolução nº 417/2025, republicada em 8 de abril de 2025 | organização e funcionamento específicos da <abbr title="Secretaria de Fiscalização">SEFIS</abbr> |
 
-A consequência mais importante para prova é esta:
+A página institucional de estrutura organizacional pode ajudar a visualizar o órgão, mas é um retrato auxiliar. Se uma página administrativa e um ato normativo vigente não coincidirem, a questão jurídica deve ser resolvida pela fonte normativa aplicável.
 
-- a **lei** ainda usa a nomenclatura **<abbr title="Núcleos de Fiscalização">NUFIS</abbr>** para a estrutura finalística da SEFIS; e
-- a **Resolução nº 417/2025**, específica e posterior, organiza o funcionamento da SEFIS com **<abbr title="Gabinete do Secretário de Fiscalização">GAFIS</abbr>, <abbr title="Gerentes de Fiscalização">GEFIS</abbr> e Líderes de Fiscalização**, além do <abbr title="Núcleo de Informações Estratégicas">NIE</abbr> e dos segmentos temáticos.
+## 3. Primeiro nível: o Tribunal e sua estrutura legal
 
-Uma resolução não revoga a lei. Em questão literal, identifique a fonte indicada no enunciado.
+A Lei nº 9.936/2013 qualifica o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> como órgão de **controle externo**, organizado nos termos da Constituição Estadual e da Lei Orgânica.
 
-## 3. Posição institucional e composição do Tribunal
+### 3.1. Composição básica
 
-### 3.1. Órgão de controle externo
-
-O art. 1º da Lei nº 9.936/2013 qualifica o TCE/MA como órgão de **controle externo**, organizado nos termos da Constituição Estadual e da Lei Orgânica.
-
-A lei trata da organização administrativa do Tribunal; não substitui a Constituição, a Lei Orgânica nem o Regimento Interno.
-
-### 3.2. Composição básica
-
-Segundo o art. 2º, o Tribunal é constituído por:
+Segundo o artigo 2º, o Tribunal é constituído por:
 
 - **7 Conselheiros**;
 - **3 Conselheiros-Substitutos**; e
-- **Ministério Público junto ao Tribunal de Contas**.
+- o Ministério Público junto ao Tribunal, isto é, o <abbr title="Ministério Público de Contas">MPC</abbr>.
 
-O Ministério Público de Contas é composto por **4 Procuradores de Contas**. As atribuições de Conselheiros, Conselheiros-Substitutos e Procuradores são definidas na Lei Orgânica e no Regimento Interno.
+O <abbr title="Ministério Público de Contas">MPC</abbr> compõe-se de **4 Procuradores de Contas**. As atribuições de Conselheiros, Conselheiros-Substitutos e Procuradores de Contas não são criadas por esta lei de organização administrativa: ela remete esse ponto à Lei Orgânica e ao Regimento Interno.
 
-> **Distinção de prova:** composição do Tribunal não é sinônimo de estrutura da Secretaria. A primeira envolve membros e órgãos institucionais; a segunda reúne unidades estratégicas, técnicas e administrativas de suporte às competências do TCE/MA.
+### 3.2. O artigo 3º após a alteração de 2026
 
-## 4. Estrutura organizacional legal
-
-### 4.1. Art. 3º no corte do edital
-
-Com a alteração da Lei nº 12.822/2026, vigente antes do edital, o art. 3º contém:
+No corte do edital, a estrutura organizacional legal contém doze componentes:
 
 | Inciso | Componente |
 | --- | --- |
@@ -76,234 +71,125 @@ Com a alteração da Lei nº 12.822/2026, vigente antes do edital, o art. 3º co
 | VIII | Corregedoria |
 | IX | Ouvidoria |
 | X | Secretaria do Tribunal |
-| XI | Escola Superior de Controle Externo (ESCEX) |
+| XI | <abbr title="Escola Superior de Controle Externo">ESCEX</abbr> |
 | XII | Gabinete do Procurador-Geral de Contas |
 
-O inciso XII foi acrescentado em 2026. Logo, alternativa que apresente a estrutura legal vigente no corte com apenas onze incisos está desatualizada.
+O inciso XII foi acrescentado pela Lei nº 12.822/2026, vigente antes da publicação do edital. A criação desse gabinete **não criou um quinto Procurador de Contas**: a composição do <abbr title="Ministério Público de Contas">MPC</abbr> continua sendo de quatro Procuradores.
 
-### 4.2. Unidades de apoio
+Os gabinetes e demais unidades de apoio permitem que as autoridades exerçam suas funções, mas o apoio técnico-administrativo não transfere ao pessoal dessas unidades a competência deliberativa dos órgãos próprios do Tribunal.
 
-Os arts. 4º a 8º tratam de estruturas de apoio aos membros e às autoridades, do Gabinete da Presidência, do Comitê de Gestão Orçamentária, Financeira e de Política Salarial (COFIP), da Vice-Presidência, da Corregedoria e da Ouvidoria.
+## 4. Segundo nível: a Secretaria do Tribunal
 
-Neste assunto, basta situá-las no modelo organizacional. O detalhamento de cargos, funções e apoio administrativo fica para o Assunto 070.
+O artigo 9º define a Secretaria do Tribunal como o conjunto de unidades destinadas ao desempenho de atividades **estratégicas, técnicas e administrativas** necessárias ao exercício das competências do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-## 5. Secretaria do Tribunal
+Depois da reorganização de 2019, a Secretaria se estrutura em quatro eixos:
 
-### 5.1. Conceito
-
-O art. 9º define a Secretaria do Tribunal como o conjunto de unidades destinadas ao desempenho de atividades:
-
-- estratégicas;
-- técnicas; e
-- administrativas.
-
-Essas unidades servem ao exercício das competências do TCE/MA. Elas instruem, fiscalizam e prestam suporte, mas não substituem Pleno, Câmaras ou relatores nas deliberações que lhes são próprias.
-
-### 5.2. Quatro secretarias
-
-Após a reestruturação de 2019, a Secretaria do Tribunal organiza-se em quatro eixos:
-
-| Secretaria | Direção essencial |
+| Unidade | Direção essencial |
 | --- | --- |
-| Secretaria Geral (SEGER) | direção geral do apoio técnico e dos serviços administrativos |
-| Secretaria de Gestão (SEGES) | gestão financeira, patrimonial e de pessoas |
-| Secretaria de Tecnologia e Inovação (SETIN) | políticas, estratégias, infraestrutura e soluções de tecnologia e inovação |
-| Secretaria de Fiscalização (SEFIS) | atividades relacionadas à competência de controle externo |
+| <abbr title="Secretaria Geral">SEGER</abbr> | direção geral do apoio técnico e dos serviços administrativos |
+| <abbr title="Secretaria de Gestão">SEGES</abbr> | gestão financeira, patrimonial e de pessoas |
+| <abbr title="Secretaria de Tecnologia e Inovação">SETIN</abbr> | políticas, estratégias, infraestrutura e soluções de tecnologia e inovação |
+| <abbr title="Secretaria de Fiscalização">SEFIS</abbr> | atividades relacionadas à competência de controle externo |
 
-**SEGES, SETIN e SEFIS vinculam-se à Secretaria Geral.** A vinculação não elimina a especialização de cada secretaria.
+A <abbr title="Secretaria de Gestão">SEGES</abbr>, a <abbr title="Secretaria de Tecnologia e Inovação">SETIN</abbr> e a <abbr title="Secretaria de Fiscalização">SEFIS</abbr> vinculam-se à <abbr title="Secretaria Geral">SEGER</abbr>. Essa vinculação organiza a administração interna; não elimina a especialização de cada Secretaria.
 
-### 5.3. Redação legal da SEFIS
+A Resolução nº 408/2024 chama essas quatro Secretarias de **unidades básicas**. A <abbr title="Escola Superior de Controle Externo">ESCEX</abbr> aparece como unidade de apoio estratégico. A finalidade e as atribuições da <abbr title="Escola Superior de Controle Externo">ESCEX</abbr>, porém, são remetidas pela Lei nº 9.936/2013 à Lei Orgânica.
 
-Na literalidade do art. 9º, § 1º, IV, da Lei nº 9.936/2013, a Secretaria de Fiscalização compreende:
+O artigo 11 manda regulamentar, por ato normativo do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, a organização, as atribuições e o funcionamento do Gabinete da Presidência; da Vice-Presidência, Corregedoria e Ouvidoria; das unidades da Secretaria; da <abbr title="Escola Superior de Controle Externo">ESCEX</abbr>; e do <abbr title="Comitê de Gestão Orçamentária, Financeira e de Política Salarial">COFIP</abbr>.
+
+O detalhamento das unidades administrativas de apoio, cargos e funções pertence ao Assunto 070. Aqui interessa perceber **onde a atividade de controle externo se encaixa na estrutura**.
+
+## 5. A distinção documental mais importante: <abbr title="Núcleos de Fiscalização">NUFIS</abbr> na lei e <abbr title="Gerentes de Fiscalização">GEFIS</abbr> no regulamento
+
+Na literalidade do artigo 9º, § 1º, IV, da Lei nº 9.936/2013, a <abbr title="Secretaria de Fiscalização">SEFIS</abbr> compreende:
 
 - Gabinete do Secretário de Fiscalização;
-- **3 Núcleos de Fiscalização (NUFIS)**; e
+- **3 <abbr title="Núcleos de Fiscalização">NUFIS</abbr>**; e
 - **12 Líderes de Fiscalização**.
 
-Esse é o retrato da **lei**. A organização regulamentar específica posterior usa GEFIS, como visto adiante.
+Esse é o retrato que permanece escrito na **lei**.
 
-### 5.4. ESCEX
+A Resolução nº 417/2025, específica para a organização e o funcionamento da <abbr title="Secretaria de Fiscalização">SEFIS</abbr>, usa outro desenho operacional. Seu artigo 2º enumera:
 
-O art. 10 inclui a Escola Superior de Controle Externo na estrutura e remete sua finalidade e suas atribuições à Lei Orgânica do TCE/MA.
+- <abbr title="Gabinete do Secretário de Fiscalização">GAFIS</abbr>;
+- <abbr title="Gerentes de Fiscalização">GEFIS</abbr>; e
+- Líderes de Fiscalização.
 
-### 5.5. Regulamentação interna
+A diferença não autoriza misturar as duas listas para criar uma terceira estrutura inexistente. Também não significa que a resolução tenha apagado a redação da lei. Em questão de literalidade, **identifique qual fonte o enunciado cobra**.
 
-O art. 11 determina regulamentação, por ato normativo do TCE/MA, da organização, das atribuições e das normas de funcionamento de:
+A Resolução nº 417/2025 ainda estabelece uma relação precisa com a Resolução nº 408/2024: ela prevalece sobre as atribuições previstas nos **artigos 63 a 72** da resolução anterior. A Resolução nº 408/2024 continua relevante para a estrutura administrativa geral e para seus demais dispositivos.
 
-1. Gabinete da Presidência;
-2. Vice-Presidência, Corregedoria e Ouvidoria;
-3. unidades da Secretaria do Tribunal;
-4. ESCEX; e
-5. COFIP.
+## 6. Terceiro nível: como funciona a <abbr title="Secretaria de Fiscalização">SEFIS</abbr>
 
-A lei define **o que integra a estrutura**; o regulamento detalha **como as unidades funcionam**.
+### 6.1. A republicação de 2025 fixou três Gerentes
 
-## 6. Resolução nº 408/2024 e Resolução nº 417/2025
-
-### 6.1. Moldura geral da Resolução nº 408/2024
-
-A Resolução nº 408/2024 classifica a organização administrativa, entre outros pontos, em:
-
-| Categoria | Conteúdo essencial |
-| --- | --- |
-| unidades de apoio e assessoramento às autoridades | gabinetes e estruturas de apoio |
-| unidades básicas | SEGER, SEGES, SETIN e SEFIS |
-| unidade de apoio estratégico | ESCEX |
-
-A Resolução nº 417/2025 não apagou essa estrutura geral. Ela passou a disciplinar especificamente a SEFIS.
-
-### 6.2. Prevalência específica
-
-O art. 7º da Resolução nº 417/2025 estabelece que ela prevalece sobre as atribuições definidas nos **arts. 63 a 72 da Resolução nº 408/2024**.
-
-Assim:
-
-- o antigo desenho regulamentar dos NUFIS em controles preventivo, concomitante e posterior não deve ser apresentado como a organização específica vigente da SEFIS;
-- a Resolução nº 408/2024 continua relevante fora do recorte expressamente superado; e
-- a Resolução nº 417/2025 não revoga a Lei nº 9.936/2013.
-
-## 7. Organização vigente da SEFIS
-
-### 7.1. Estrutura sintética
-
-O art. 2º da Resolução nº 417/2025 estabelece como componentes da SEFIS:
-
-- Gabinete do Secretário de Fiscalização (**GAFIS**);
-- Gerentes de Fiscalização (**GEFIS**); e
-- Líderes de Fiscalização (**LIDER**).
-
-### 7.2. Quantitativos da republicação
-
-A **republicação oficial de 8 de abril de 2025** corrigiu o inciso II do primeiro dispositivo numerado como art. 3º. O texto republicado indica:
+A republicação oficial da Resolução nº 417/2025 corrigiu o inciso II do primeiro dispositivo numerado como artigo 3º. O rol publicado em 8 de abril de 2025 é:
 
 | Função | Quantidade |
 | --- | ---: |
 | Secretário de Fiscalização | 1 |
 | Gerente de Fiscalização | **3** |
 | Líder de Fiscalização | 12 |
-| Assistente da Secretaria de Fiscalização | 4 |
+| Assistente da <abbr title="Secretaria de Fiscalização">SEFIS</abbr> | 4 |
 
-A própria publicação informa: **“Republicada para correção do inciso II do art. 3º.”** Portanto, não há divergência vigente entre “2 Gerentes” e as três gerências dos arts. 4º e 5º.
+A nota oficial registra que a republicação ocorreu para correção do inciso II do artigo 3º. Por isso, **dois Gerentes** não é o quantitativo vigente no corte do edital.
 
-A publicação republicada, contudo, mantém uma peculiaridade formal: há dois dispositivos consecutivos numerados como **art. 3º** — um enumera as funções e o outro descreve atribuições. Em prova literal, preserve o texto publicado.
+Há uma peculiaridade formal que merece ser preservada, e não “corrigida” por inferência: a publicação republicada contém **dois dispositivos consecutivos numerados como artigo 3º**. O primeiro enumera as funções; o segundo descreve atribuições.
 
-Os quatro Assistentes são apoio administrativo do GAFIS e terão tratamento detalhado no Assunto 070.
+Os quatro Assistentes integram o rol de funções, mas seus cargos e detalhes administrativos são matéria do Assunto 070.
 
-### 7.3. Cadeia de direção
+### 6.2. A cadeia de direção
 
-Na Resolução nº 417/2025:
+A lógica de funcionamento é hierárquica, mas cada nível tem uma tarefa diferente:
 
-- o **Secretário de Fiscalização** dirige as atividades de controle externo, coordenando, acompanhando e avaliando resultados dos Gerentes;
-- o **Gerente de Fiscalização** planeja, coordena e supervisiona as equipes de seu segmento temático; e
-- o **Líder de Fiscalização** chefia a equipe e supervisiona ações, instruções e relatórios.
-
-As fiscalizações e instruções processuais são realizadas pelos **Auditores Estaduais de Controle Externo**, sob supervisão dos Líderes.
-
-## 8. Organização temática das gerências
-
-### 8.1. NIE
-
-O Núcleo de Informações Estratégicas (**NIE**):
-
-- é conduzido por um Líder de Fiscalização e sua equipe;
-- vincula-se diretamente ao GAFIS; e
-- segue a Resolução TCE/MA nº 266/2017.
-
-Ele não aparece no rol sintético do art. 2º da Resolução nº 417/2025, mas integra a organização detalhada do art. 4º, § 2º.
-
-### 8.2. Gerência I
-
-A Gerência I gere ações de fiscalização nas modalidades previstas no art. 44 da Lei Orgânica do TCE/MA. Atua por meio de **4 Líderes** e suas equipes.
-
-### 8.3. Gerência II
-
-A Gerência II gere:
-
-- produção de atos normativos;
-- instrução técnica de consultas; e
-- instrução técnica de atos de pessoal.
-
-Atua por meio de **3 Líderes** e suas equipes.
-
-### 8.4. Gerência III
-
-A Gerência III gere processos de contas, incluindo:
-
-- contas de governo;
-- contas de gestores;
-- tomadas de contas especiais;
-- denúncias; e
-- representações,
-
-nas esferas municipal e estadual. Atua por meio de **4 Líderes** e suas equipes.
-
-### 8.5. Distribuição dos 12 Líderes
-
-| Local de atuação | Líderes |
-| --- | ---: |
-| NIE | 1 |
-| Gerência I | 4 |
-| Gerência II | 3 |
-| Gerência III | 4 |
-| **Total** | **12** |
-
-A soma regulamentar coincide com o quantitativo de 12 Líderes previsto na lei.
-
-## 9. Matriz de distinções
-
-| Não confunda | Regra correta |
+| Nível | Papel principal |
 | --- | --- |
-| Tribunal × Secretaria | órgãos competentes deliberam; a Secretaria presta suporte técnico e administrativo |
-| SEGER × SEFIS | direção geral do apoio e serviços × direção especializada do controle externo |
-| NUFIS × GEFIS | NUFIS permanecem na lei; GEFIS estruturam o regulamento específico vigente |
-| Gerente × Líder | Gerente coordena segmento temático; Líder chefia e supervisiona equipe |
-| GAFIS × NIE | NIE é núcleo especializado diretamente vinculado ao GAFIS |
-| Gerência I × II | fiscalização × normas, consultas e atos de pessoal |
-| Gerência II × III | normas/consultas/pessoal × contas, <abbr title="Tomada de contas especial">TCE</abbr>, denúncias e representações |
-| Resolução nº 408 × nº 417 | moldura geral × disciplina específica da SEFIS |
-| instrução × julgamento | relatório e instrução subsidiam a decisão; não a substituem |
+| Secretário de Fiscalização | dirige as atividades de controle externo; coordena, acompanha e avalia os resultados dos Gerentes |
+| Gerente de Fiscalização | planeja, coordena e supervisiona as equipes do seu segmento temático |
+| Líder de Fiscalização | chefia a equipe e supervisiona ações, instruções e relatórios |
+| Auditores Estaduais de Controle Externo | executam fiscalizações e instruções processuais e produzem os respectivos trabalhos técnicos |
 
-## 10. Exemplos de aplicação
+**Instrução processual** é a análise técnica que prepara elementos do processo para a decisão da autoridade competente. Por isso, relatório de Auditor, supervisão de Líder e coordenação de Gerente continuam sendo atividade técnica: não se transformam, por si sós, em julgamento.
 
-### Exemplo 1 — fiscalização
+A governança da <abbr title="Secretaria de Fiscalização">SEFIS</abbr> inclui ainda o Comitê Gestor da Secretaria, formado pelo **Secretário de Fiscalização e pelos três Gerentes**.
 
-Uma fiscalização de transparência municipal pertence ao segmento da **Gerência I**. O Gerente coordena o segmento; o Líder chefia a equipe e supervisiona as fases da fiscalização; os Auditores executam o trabalho técnico e produzem o relatório.
+## 7. A divisão operacional é temática
 
-### Exemplo 2 — consulta
+A Resolução nº 417/2025 abandonou, como desenho regulamentar específico vigente, a antiga distribuição dos <abbr title="Núcleos de Fiscalização">NUFIS</abbr> por controle preventivo, concomitante e posterior. A atuação passou a ser organizada predominantemente por **matérias**.
 
-A instrução técnica de uma consulta dirigida ao TCE/MA integra o segmento da **Gerência II**.
+### 7.1. <abbr title="Núcleo de Informações Estratégicas">NIE</abbr>
 
-### Exemplo 3 — contas e denúncia
+O <abbr title="Núcleo de Informações Estratégicas">NIE</abbr> é conduzido por um Líder de Fiscalização e sua equipe, vincula-se diretamente ao <abbr title="Gabinete do Secretário de Fiscalização">GAFIS</abbr> e segue a Resolução nº 266/2017.
 
-Contas de governo, contas de gestores, tomadas de contas especiais, denúncias e representações integram o segmento da **Gerência III**.
+Ele não aparece no rol sintético do artigo 2º da Resolução nº 417/2025, mas integra a organização detalhada do artigo 4º, § 2º.
 
-Em todos os casos, a atividade técnica subsidia a atuação institucional do Tribunal, sem converter Secretaria, Gerente, Líder ou equipe em órgão julgador.
+### 7.2. As três Gerências
 
-## 11. Pegadinhas de prova
+| Segmento | Matérias principais | Líderes |
+| --- | --- | ---: |
+| Gerência I | ações de fiscalização nas modalidades previstas no artigo 44 da Lei Orgânica | 4 |
+| Gerência II | produção de atos normativos; instrução técnica de consultas e de atos de pessoal | 3 |
+| Gerência III | contas de governo e de gestores, tomadas de contas especiais, denúncias e representações, nas esferas municipal e estadual | 4 |
+| <abbr title="Núcleo de Informações Estratégicas">NIE</abbr> | informações estratégicas, com vínculo direto ao <abbr title="Gabinete do Secretário de Fiscalização">GAFIS</abbr> | 1 |
+| **Total** |  | **12** |
 
-- O TCE/MA é órgão de **controle externo**.
-- São **7 Conselheiros**, **3 Conselheiros-Substitutos** e **4 Procuradores de Contas**.
-- O Gabinete do Procurador-Geral de Contas integra o art. 3º desde a Lei nº 12.822/2026, vigente antes do edital.
-- A Secretaria do Tribunal exerce atividades estratégicas, técnicas e administrativas.
-- SEGES, SETIN e SEFIS vinculam-se à SEGER.
-- A lei prevê **3 NUFIS e 12 Líderes**.
-- A Resolução nº 417/2025 organiza a SEFIS com GAFIS, GEFIS e Líderes.
-- A republicação da Resolução nº 417/2025 fixa **3 Gerentes de Fiscalização**, não 2.
-- A publicação republicada mantém dois dispositivos numerados como art. 3º.
-- O NIE é conduzido por um Líder e vinculado diretamente ao GAFIS.
-- A distribuição dos Líderes é **1 + 4 + 3 + 4 = 12**.
-- Gerência I: fiscalização; Gerência II: normas, consultas e pessoal; Gerência III: contas, TCE, denúncias e representações.
-- A Resolução nº 417 prevalece apenas no recorte indicado dos arts. 63 a 72 da Resolução nº 408.
-- Secretaria, Gerência, Líder e equipe não substituem os órgãos competentes para deliberar.
-- Cargos, códigos, requisitos, valores e anexos ficam no Assunto 070.
+A soma **4 + 3 + 4 + 1 = 12** coincide com o quantitativo de Líderes previsto tanto na lei quanto no rol de funções da Resolução nº 417/2025.
 
-## 12. Roteiro de resolução
+Os Líderes supervisionam, conforme o caso, planejamento, execução e produção de relatório das fiscalizações, além das instruções processuais realizadas pelos Auditores Estaduais de Controle Externo.
 
-1. Identifique se a alternativa cobra a **lei** ou a **regulamentação interna**.
-2. Se cobrar o art. 3º da Lei nº 9.936/2013, aplique a alteração de 2026.
-3. Se cobrar a literalidade legal da SEFIS, lembre **3 NUFIS + 12 Líderes**.
-4. Se cobrar o funcionamento regulamentar, use **GAFIS + 3 GEFIS + Líderes + NIE**.
-5. Classifique a atividade entre Gerência I, II ou III.
-6. Diferencie Secretário, Gerente, Líder e Auditor.
-7. Não transforme instrução ou fiscalização em julgamento.
-8. Se aparecer “2 Gerentes”, lembre que a **republicação oficial corrigiu o inciso II para 3**.
+Atos oficiais de 2026 confirmam a adoção operacional dessa nomenclatura. A Ordem de Serviço de 23 de janeiro de 2026, por exemplo, foi identificada como **<abbr title="Secretaria de Fiscalização">SEFIS</abbr>/<abbr title="Gerência de Fiscalização I">GEFIS I</abbr> nº 01/2026**. Esse ato é evidência de uso da estrutura regulamentar; não substitui a regra normativa que a instituiu.
+
+## 8. Reutilize o mesmo caso para localizar cada atividade
+
+Volte ao exemplo hipotético da transparência municipal. A fiscalização pertence à **Gerência I**. O Gerente coordena o segmento; o Líder chefia e supervisiona a equipe; os Auditores executam a fiscalização e produzem o relatório. O resultado técnico subsidia a atuação do Tribunal, mas não se converte automaticamente em decisão.
+
+Se, em vez disso, chegasse à <abbr title="Secretaria de Fiscalização">SEFIS</abbr> uma **consulta** ou um **ato de pessoal** para instrução técnica, o segmento seria a **Gerência II**.
+
+Se o objeto fosse **conta de governo, conta de gestor, tomada de contas especial, denúncia ou representação**, a instrução estaria na **Gerência III**.
+
+Assim, a matéria pode ser resolvida por duas perguntas sucessivas:
+
+**qual nível da organização está sendo cobrado?**  
+**dentro da <abbr title="Secretaria de Fiscalização">SEFIS</abbr>, qual segmento temático recebe a atividade?**
+
+A primeira pergunta separa Tribunal, Secretaria e unidade técnica. A segunda separa a direção e as gerências internas. Com esse modelo, as siglas deixam de ser uma lista para decorar e passam a indicar posições e funções dentro de uma mesma arquitetura.
