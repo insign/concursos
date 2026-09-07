@@ -6,92 +6,57 @@ order: 68
 storageId: lei-organica-decisoes-recursos
 ---
 
-## 1. Recorte e corte temporal
+## 1. Da decisão aos seus efeitos: o mapa do assunto
 
-O edital do TCE/MA publicado em **6 de julho de 2026** cobra a **Lei Estadual nº 8.258/2005 (Lei Orgânica do TCE/MA)**. Neste assunto, o núcleo corresponde aos **arts. 14 a 33, 65 a 75 e 129 a 139**, na redação vigente na publicação do edital.
+Imagine uma prestação de contas com dois problemas **hipotéticos**: uma falha formal sem prejuízo e um dano comprovado ao patrimônio público. Eles não geram a mesma resposta.
 
-O recorte acompanha o processo **do julgamento às consequências da decisão**:
+O fluxo é:
 
-- espécies e resultados das decisões em contas;
-- débito, multa, quitação e execução;
-- inabilitação e inidoneidade;
-- medidas cautelares;
-- regras comuns dos recursos;
-- reconsideração, embargos de declaração e revisão;
-- jurisprudência constitucional indispensável para compreender tomada de contas especial, título executivo e legitimidade de cobrança.
+**julgamento → resultado das contas → débito e/ou sanção → recurso, quando cabível → quitação ou cobrança**
 
-Para evitar sobreposição, competência e jurisdição ficam no Assunto 064; contas e instrumentos de controle, no 066; sujeitos, instrução, defesa e prazos gerais, no 067.
+Aqui, **débito** recompõe prejuízo ao erário, isto é, ao patrimônio financeiro público; **multa** sanciona e pode coexistir com o débito; **cautelar** protege a utilidade do processo diante de risco; e **recurso** impugna a decisão nas hipóteses legais.
 
-A **Resolução TCE/MA nº 383/2023**, alterada no tema da prescrição intercorrente pela **Resolução nº 406/2024**, não é objeto autônomo indicado no item editalício da Lei nº 8.258/2005. Ela aparece aqui apenas como contexto necessário para não atribuir à Lei Orgânica uma disciplina prescricional que vem de ato normativo próprio do Tribunal.
+A chave é separar **o julgamento das contas** de **suas consequências**.
 
-## 2. Como ler as fontes
+### 1.1. Recorte e corte normativo
 
-| Fonte | Papel neste assunto |
-| --- | --- |
-| Lei nº 8.258/2005 | decisões, débito, multas, sanções, cautelares, execução e recursos |
-| Regimento e atos normativos do TCE/MA | detalhes operacionais remetidos pela própria Lei |
-| Constituição e <abbr title="Supremo Tribunal Federal">STF</abbr> | eficácia do título, competência em tomada de contas especial, prescritibilidade e legitimidade executiva |
-| Resolução nº 383/2023 e alterações | contexto complementar de prescrição interna, sem substituir o recorte da Lei Orgânica |
+O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, publicado em **6 de julho de 2026**, cobra a Lei Estadual nº 8.258/2005. Neste assunto, o núcleo corresponde aos **artigos 14 a 33, 65 a 75 e 129 a 139**, na redação vigente nessa data.
 
-A regra de prova é simples: **não transforme complemento regimental, resolução ou jurisprudência em literalidade da Lei Orgânica**.
+Competência e jurisdição ficam no Assunto 064; contas e instrumentos de fiscalização, no 066; sujeitos, instrução, defesa e prazos gerais, no 067. Aqui entram as espécies e os efeitos das decisões, os débitos, as sanções, as cautelares, a execução e os recursos.
 
-### 2.1. Valor-base da multa do art. 67
+Não misture níveis normativos: a Lei nº 8.258/2005 traz o núcleo; Regimento Interno e atos do Tribunal completam pontos remetidos à regulamentação; Constituição e jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr> delimitam eficácia e cobrança. A Resolução nº 383/2023, alterada pela Resolução nº 406/2024 no tema da <abbr title="Prescrição associada à paralisação processual nas condições do ato normativo aplicável">prescrição intercorrente</abbr>, é disciplina própria do Tribunal. **Não a transforme em literalidade da Lei Orgânica.**
 
-O caput do art. 67 registra multa de até **R$ 100.000,00**. O § 1º determina que esse valor seja atualizado periodicamente por portaria da Presidência segundo o índice adotado para os créditos tributários estaduais, e o § 3º remete ao Regimento a gradação conforme a gravidade.
+## 2. Primeiro passo: qual foi a decisão nas contas?
 
-Portanto, em questão que cobre a Lei Orgânica, a formulação segura é:
+### 2.1. Preliminar, definitiva e terminativa
 
-> **Art. 67: até R$ 100.000,00 no texto legal, sujeito à atualização periódica por portaria e à gradação regimental.**
+Em prestação ou tomada de contas, inclusive especial, a Lei distingue três espécies de decisão.
 
-Não confunda essa atualização do valor-base com a atualização monetária da multa paga depois do vencimento, prevista no art. 68.
+A decisão **preliminar** vem antes do mérito: sobresta o julgamento, ordena <abbr title="Comunicação formal que abre oportunidade de defesa">citação</abbr> ou determina saneamento, isto é, providência para preparar o processo para decisão. Pode ser do relator ou do Tribunal; se for do relator, a publicação no Diário Oficial Eletrônico ocorre a critério dele.
 
-## 3. Decisões em processos de contas
+A decisão **definitiva** julga as contas regulares, regulares com ressalva ou irregulares. A **terminativa** encerra sem julgamento de mérito nas hipóteses legais, inclusive pelo trancamento de contas iliquidáveis.
 
-### 3.1. Preliminar, definitiva e terminativa
+**Definitiva resolve o mérito; terminativa encerra sem resolvê-lo.**
 
-Em prestação ou tomada de contas, inclusive especial, a decisão pode ser:
+O Tribunal deve julgar as prestações e tomadas de contas até o término do exercício seguinte ao de sua apresentação. Esse prazo fica suspenso até a conclusão de inspeções ou auditorias.
 
-| Espécie | Regra-chave |
-| --- | --- |
-| preliminar | antes do mérito, sobresta o julgamento, ordena citação ou determina saneamento |
-| definitiva | julga as contas regulares, regulares com ressalva ou irregulares |
-| terminativa | tranca contas iliquidáveis ou arquiva sem julgamento de mérito nas hipóteses legais |
+### 2.2. Responsabilidade e vedação à duplicidade
 
-A decisão preliminar pode ser do relator ou do Tribunal. Sua publicação no Diário Oficial Eletrônico ocorre a critério do relator.
+Verificada irregularidade, o relator ou o Tribunal pode definir responsabilidade **individual ou solidária**. Responsabilidade solidária significa que mais de uma pessoa pode responder conjuntamente pela obrigação nas hipóteses legais. Se houver débito, a decisão deve mencionar expressamente atualização monetária e juros de mora.
 
-O Tribunal deve julgar prestações e tomadas de contas até o término do exercício seguinte ao da apresentação. Esse prazo fica suspenso até a conclusão de inspeções ou auditorias.
+Uma decisão definitiva também impede nova multa ou novo débito, em outro processo do mesmo exercício, quando coincidirem **os mesmos gestores responsáveis e o mesmo fato ou ato usado como fundamento**. Coincidência de exercício, sozinha, não basta.
 
-### 3.2. Responsabilidade e vedação à duplicidade
+### 2.3. Contas regulares: gestão correta e quitação plena
 
-Verificada irregularidade, o relator ou o Tribunal pode definir responsabilidade **individual ou solidária**. Havendo débito, a decisão deve mencionar expressamente atualização monetária e juros de mora.
+As contas são regulares quando expressam, de forma clara e objetiva, **exatidão dos demonstrativos contábeis, legalidade, legitimidade e economicidade dos atos de gestão**. O efeito é **quitação plena** ao responsável.
 
-A decisão definitiva impede nova multa ou novo débito, em outro processo do mesmo exercício, quando coincidirem:
+### 2.4. Regulares com ressalva: falha sem dano
 
-- os gestores responsáveis; e
-- o mesmo fato ou ato usado como fundamento.
-
-Não basta coincidência de exercício ou semelhança temática.
-
-A Lei ainda determina tomada de contas especial específica quando houver dano relacionado a recursos transferidos mediante convênio ou instrumento congênere, nos termos de sua disciplina própria.
-
-### 3.3. Contas regulares
-
-São regulares quando expressam de forma clara e objetiva:
-
-- exatidão dos demonstrativos contábeis;
-- legalidade;
-- legitimidade;
-- economicidade dos atos de gestão.
-
-Efeito: **quitação plena** ao responsável.
-
-### 3.4. Contas regulares com ressalva
-
-A ressalva decorre de impropriedade ou falta formal **sem dano ao erário**, embora possa haver multa. Comprovado o recolhimento da multa eventualmente aplicada, o Tribunal dá quitação e, quando cabível, determina medidas corretivas para prevenir reincidência.
+A ressalva aparece quando há **impropriedade ou falta formal sem dano ao erário**. Pode haver multa. Comprovado o recolhimento de multa eventualmente aplicada, o Tribunal dá quitação e, quando cabível, determina medidas corretivas.
 
 **Ressalva não pressupõe dano e não equivale a irregularidade.**
 
-### 3.5. Contas irregulares
+### 2.5. Contas irregulares: quando o mérito é desfavorável
 
 As contas podem ser julgadas irregulares por:
 
@@ -102,70 +67,67 @@ As contas podem ser julgadas irregulares por:
 
 A reincidência no descumprimento de determinação conhecida pelo responsável também pode levar ao julgamento irregular, nos termos da Lei.
 
-A responsabilidade solidária pode alcançar terceiro que tenha concorrido para o dano. **Simples inadimplemento contratual ou mero não pagamento de título de crédito, isoladamente, não bastam para produzir essa solidariedade.**
+Terceiro que tenha concorrido para o dano pode responder solidariamente. Entretanto, **simples inadimplemento contratual ou mero não pagamento de título de crédito, isoladamente, não bastam para gerar essa solidariedade**.
 
-Quando houver débito, a condenação abrange dívida atualizada e juros de mora, sem excluir a multa proporcional ao dano do art. 66. O débito pode ser apurado:
+Quando houver débito, a condenação abrange dívida atualizada e juros de mora, sem excluir a possível multa proporcional ao dano. O valor pode ser apurado:
 
 - por **verificação**, quando o valor real é exatamente quantificável; ou
-- por **estimativa confiável**, desde que não exceda o valor real devido.
+- por **estimativa confiável**, quando não é possível a quantificação exata, desde que a estimativa não exceda o valor real devido.
 
-#### Tensão literal do art. 23, § 2º
+#### A tensão literal do artigo 23, § 2º
 
-O texto consolidado contém remissões que não devem ser “corrigidas” pelo candidato por inferência: o art. 23, § 2º, menciona ocorrências dos incisos I, II e III do art. 22 e remete também ao § 3º desse artigo, que alcança II, III e IV. Além disso, há remissão literal ao art. 67, I, embora o art. 67, II, descreva contas irregulares sem débito.
+O texto consolidado contém remissões que o candidato não deve “corrigir” por inferência. O artigo 23, § 2º, menciona ocorrências dos incisos I, II e III do artigo 22 e remete também ao § 3º desse artigo, que alcança II, III e IV. Além disso, há remissão literal ao artigo 67, I, embora o artigo 67, II, descreva contas irregulares sem débito.
 
-Em prova de literalidade, preserve a redação consolidada; em questão interpretativa, identifique a tensão sem inventar uma substituição normativa.
+Em questão de literalidade, preserve a redação consolidada. Em questão interpretativa, reconheça a tensão sem inventar substituição normativa.
 
 Nas hipóteses de dano, desfalque ou desvio, a documentação pertinente é remetida à Procuradoria-Geral de Justiça para as ações cabíveis. Nas demais hipóteses, a remessa é facultativa.
 
-### 3.6. Contas iliquidáveis e arquivamento
+### 2.6. Contas iliquidáveis: não há base material para julgar
 
-São iliquidáveis quando caso fortuito ou força maior, comprovadamente alheio à vontade do responsável, torna materialmente impossível o julgamento de mérito. O Tribunal determina trancamento e arquivamento.
+As contas são **iliquidáveis** quando caso fortuito ou força maior, comprovadamente alheio à vontade do responsável, torna materialmente impossível o julgamento de mérito. O Tribunal determina o trancamento e o arquivamento.
 
-Novos elementos suficientes podem justificar desarquivamento em até **dois anos** da publicação da decisão terminativa. Esse prazo decorre da redação vigente dada ao art. 24, § 2º.
+Se surgirem novos elementos suficientes, o processo pode ser desarquivado em até **dois anos da publicação da decisão terminativa**.
 
-Há ainda arquivamentos com efeitos diferentes:
+Outros arquivamentos têm efeito próprio: falta de pressupostos de constituição e desenvolvimento válido gera arquivamento sem mérito; racionalização e economia processual podem gerar arquivamento **sem cancelar o débito**. Neste último caso, o devedor continua obrigado a pagar para obter quitação.
 
-| Hipótese | Efeito |
+### 2.7. Chefe do Executivo em tomada de contas especial — Tema 1287
+
+Contas anuais de governo e responsabilidade pessoal em tomada de contas especial são regimes diferentes.
+
+No Tema 1287, o <abbr title="Supremo Tribunal Federal">STF</abbr> assentou que, em tomada de contas especial, Tribunais de Contas podem condenar administrativamente chefes dos Poderes Executivos municipal, estadual e distrital quando for identificada responsabilidade pessoal por irregularidades no cumprimento de convênios interfederativos de repasse de verbas, **sem necessidade de posterior julgamento ou aprovação pelo Poder Legislativo**.
+
+A tese não transforma o <abbr title="Manifestação técnica sobre contas de governo destinada ao julgamento legislativo">parecer prévio</abbr> sobre contas anuais em julgamento definitivo; trata de responsabilização pessoal no processo especial.
+
+## 3. Segundo passo: a decisão gerou débito, multa ou ambos?
+
+### 3.1. Débito recompõe; multa sanciona
+
+A distinção funcional é simples:
+
+| Instituto | Pergunta central |
 | --- | --- |
-| ausência de pressupostos de constituição e desenvolvimento válido e regular | arquivamento sem mérito |
-| racionalização e economia processual | arquivamento sem cancelamento do débito |
+| débito | quanto deve ser devolvido para recompor o prejuízo? |
+| multa | qual sanção pecuniária cabe pela infração? |
 
-No arquivamento por racionalização, o devedor continua obrigado a pagar para obter quitação.
+Podem coexistir. O artigo 66 permite, quando há débito, multa de até **100% do dano atualizado**, além do ressarcimento; o máximo não é automático.
 
-### 3.7. Chefe do Executivo e tomada de contas especial — Tema 1287/<abbr title="Supremo Tribunal Federal">STF</abbr>
+### 3.2. Quando nasce um título executivo
 
-Não confunda **contas anuais de governo** com **responsabilidade pessoal apurada em tomada de contas especial**.
+A decisão que imputa débito ou aplica multa torna a dívida **líquida e certa** e possui eficácia de <abbr title="Decisão que permite iniciar a cobrança judicial sem novo julgamento do mérito">título executivo</abbr>.
 
-No **Tema 1287**, o STF assentou que, no âmbito da tomada de contas especial, os Tribunais de Contas podem condenar administrativamente chefes dos Poderes Executivos municipal, estadual e distrital quando identificada responsabilidade pessoal por irregularidades no cumprimento de convênios interfederativos de repasse de verbas, **sem necessidade de posterior julgamento ou aprovação pelo Poder Legislativo**.
+Isso não significa que toda decisão do Tribunal de Contas seja executável. A Constituição, em seu artigo 71, § 3º, atribui eficácia executiva às decisões das quais resulte **imputação de débito ou aplicação de multa**.
 
-Essa tese não transforma parecer prévio sobre contas anuais em julgamento definitivo do Tribunal de Contas. Ela delimita uma competência sancionatória própria em tomada de contas especial.
+**Título executivo não define, sozinho, quem pode cobrar**; a legitimidade depende da natureza e da titularidade do crédito.
 
-## 4. Débito, multa, quitação e execução
+### 3.3. Intimação, parcelamento e quitação
 
-### 4.1. Débito não é multa
+A publicação do <abbr title="Decisão colegiada formalizada pelo Tribunal">acórdão</abbr> no Diário Oficial Eletrônico constitui a intimação prevista pela Lei para pagar e comprovar o recolhimento.
 
-| Instituto | Finalidade predominante |
-| --- | --- |
-| débito | recompor o prejuízo causado ao erário |
-| multa | sancionar e desestimular a infração |
+O Tribunal pode autorizar parcelamento em qualquer fase, na forma regimental. As parcelas recebem os acréscimos aplicáveis e o não pagamento de uma delas antecipa o vencimento do saldo devedor.
 
-Débito e multa podem coexistir. Quando o responsável é julgado em débito, o art. 66 admite multa de até **100% do valor atualizado do dano**, além do ressarcimento.
+Pagamento integral gera quitação do débito ou da multa, mas **não transforma, sozinho, contas irregulares em regulares**. Isso exige modificação da decisão por recurso provido.
 
-### 4.2. Eficácia da decisão
-
-A decisão que imputa débito ou comina multa torna a dívida **líquida e certa** e possui eficácia de **título executivo**.
-
-A pegadinha é dizer que toda decisão do TCE é título executivo. Não: a eficácia executiva do art. 71, § 3º, da Constituição está ligada à decisão da qual resulte imputação de débito ou aplicação de multa.
-
-### 4.3. Intimação, parcelamento e quitação
-
-A publicação do acórdão no Diário Oficial Eletrônico constitui a intimação prevista pela Lei para pagamento e comprovação do recolhimento.
-
-O Tribunal pode autorizar parcelamento em qualquer fase, na forma regimental. Cada parcela recebe os acréscimos aplicáveis; o não pagamento de uma parcela antecipa o vencimento do saldo.
-
-Comprovado o pagamento integral, expede-se quitação do débito ou da multa. Se o pagamento ocorre depois de decisão definitiva pela irregularidade, **a quitação não altera sozinha o julgamento**, salvo se recurso provido modificar a decisão.
-
-### 4.4. Falta de pagamento
+### 3.4. Se não houver pagamento
 
 Expirado o prazo sem manifestação do responsável, a Lei prevê, conforme o caso:
 
@@ -173,36 +135,40 @@ Expirado o prazo sem manifestação do responsável, a Lei prevê, conforme o ca
 2. cobrança judicial;
 3. inclusão do nome em cadastro informativo de créditos não quitados.
 
-### 4.5. Quem executa judicialmente
+### 3.5. Quem ajuíza a execução — Tema 642
 
-Título executivo e legitimidade para propor a execução são questões diferentes.
+O Tema 642 do <abbr title="Supremo Tribunal Federal">STF</abbr>, com redação ajustada após a <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 1.011, exige distinguir o tipo de crédito:
 
-A tese atual do **Tema 642**, com a redação ajustada após a <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 1.011, distingue:
-
-| Crédito | Legitimidade executiva |
+| Crédito | Legitimado para executar |
 | --- | --- |
 | multa aplicada a agente municipal em razão de dano ao erário municipal | Município prejudicado |
-| multa simples por inobservância de normas de Direito Financeiro ou dever de colaboração perante TCE estadual | Estado-membro |
+| multa simples por violação de normas de Direito Financeiro ou de deveres de colaboração perante Tribunal de Contas estadual | Estado-membro |
 
-Para débitos voltados à recomposição do erário, deve-se identificar o ente titular do crédito.
+Nos débitos destinados a recompor prejuízo, identifique o ente titular do crédito.
 
-No **Tema 899**, o <abbr title="Supremo Tribunal Federal">STF</abbr> decidiu que é **prescritível** a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas. Isso não elimina a eficácia de título executivo; apenas afasta a ideia de cobrança judicial eterna.
+### 3.6. Título executivo não significa cobrança eterna — Tema 899
 
-Não confunda o Tema 899 com o Tema 897, que trata da imprescritibilidade de ações judiciais de ressarcimento fundadas em ato doloso tipificado na Lei de Improbidade Administrativa.
+No Tema 899, o <abbr title="Supremo Tribunal Federal">STF</abbr> decidiu que é **prescritível** a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas.
 
-## 5. Multas e outras sanções
+Não confunda com o Tema 897, que trata da imprescritibilidade de ações judiciais de ressarcimento fundadas em ato doloso tipificado na Lei de Improbidade Administrativa.
 
-### 5.1. Responsável pelo controle interno
+## 4. Terceiro passo: quais sanções e cautelares podem aparecer?
 
-O responsável pelo controle interno sujeita-se às mesmas sanções e cautelares, por responsabilidade solidária, quando comprovadamente conhece irregularidade ou ilegalidade e deixa de dar ciência imediata ao TCE.
+### 4.1. Controle interno e responsabilidade solidária
 
-### 5.2. Multa proporcional ao dano — art. 66
+O responsável pelo controle interno fica sujeito às mesmas sanções e medidas cautelares, por responsabilidade solidária, quando **comprovadamente conhece irregularidade ou ilegalidade e deixa de dar ciência imediata ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>**.
 
-Quando houver débito, a multa pode chegar a **100% do dano atualizado**. É sanção possível e cumulável com o dever de ressarcir; não é consequência automática em valor máximo.
+### 4.2. Multa proporcional ao dano — artigo 66
 
-### 5.3. Multa do art. 67
+Havendo débito, o Tribunal pode aplicar multa de até **100% do dano atualizado**. Ela sanciona a conduta e não substitui o dever de ressarcir.
 
-O art. 67 contempla, entre outras, as seguintes hipóteses:
+### 4.3. Multa do artigo 67
+
+O artigo 67 estabelece multa de até **R$ 100.000,00** no texto legal. O § 1º determina atualização periódica desse valor por portaria da Presidência, segundo o índice adotado para os créditos tributários estaduais, e o § 3º remete ao Regimento a gradação conforme a gravidade.
+
+Não confunda duas atualizações: o **valor-base legal** é periodicamente atualizado por portaria; a **multa vencida**, se paga depois, sofre atualização monetária na data do efetivo pagamento, conforme o artigo 68.
+
+O artigo 67 alcança, entre outras previstas no próprio dispositivo:
 
 1. contas regulares com ressalva, quando cabível;
 2. contas irregulares sem débito nas hipóteses legais;
@@ -213,64 +179,50 @@ O art. 67 contempla, entre outras, as seguintes hipóteses:
 7. sonegação de processo, documento ou informação;
 8. descumprimento injustificado de decisão;
 9. reincidência no descumprimento de decisão;
-10. ato processual manifestamente protelatório.
+10. ato processual manifestamente <abbr title="Praticado para retardar o andamento do processo">protelatório</abbr>.
 
-A revisão de ofício por inadequação, com redução ou afastamento da multa, é prevista especificamente para multas fundadas nos incisos **V a VIII**. Não é uma autorização geral para revisão automática de qualquer multa.
+A revisão de ofício por inadequação, com redução ou afastamento da multa, é prevista especificamente para multas fundadas nos incisos **V a VIII**. Não é autorização geral para rever automaticamente qualquer multa.
 
-A multa vencida e paga posteriormente sofre atualização monetária na data do efetivo pagamento, conforme o art. 68.
+### 4.4. Inabilitação: sanção administrativa, não inelegibilidade
 
-### 5.4. Inabilitação
+Se a **maioria absoluta** dos membros considerar grave a infração, o responsável ficará inabilitado por **cinco a oito anos** para exercer cargo em comissão ou função de confiança na Administração estadual ou municipal.
 
-Se a **maioria absoluta** dos membros considerar grave a infração, o responsável ficará inabilitado por **cinco a oito anos** para cargo em comissão ou função de confiança na Administração estadual ou municipal.
+Primeiro a maioria absoluta reconhece a gravidade; depois fixa o período dentro da faixa. É sanção administrativa e **não equivale, por si, a inelegibilidade eleitoral**.
 
-A lógica é:
+### 4.5. Inidoneidade por fraude à licitação
 
-1. reconhecer a gravidade por maioria absoluta;
-2. fixar o período dentro da faixa legal.
+Comprovada fraude à licitação, o Tribunal declara o licitante fraudador inidôneo para participar, por até **cinco anos**, de licitações estaduais ou municipais.
 
-**Inabilitação administrativa não é inelegibilidade eleitoral.**
+Se houver abuso da personalidade jurídica caracterizado por desvio de finalidade ou confusão patrimonial, os efeitos podem alcançar administradores ou sócios.
 
-### 5.5. Inidoneidade
+### 4.6. Cautelares: proteger antes que o processo perca utilidade
 
-Comprovada fraude à licitação, o Tribunal declarará o licitante fraudador inidôneo para participar, por até **cinco anos**, de licitação estadual ou municipal.
+A cautelar não decide o mérito: protege a fiscalização, o ressarcimento ou a utilidade da decisão final.
 
-Em caso de abuso da personalidade jurídica caracterizado por desvio de finalidade ou confusão patrimonial, os efeitos podem alcançar administradores ou sócios.
-
-## 6. Medidas cautelares
-
-### 6.1. Afastamento temporário
-
-No início ou durante a apuração, o Tribunal determinará afastamento temporário diante de indícios suficientes de que a permanência do responsável possa:
+**Afastamento temporário.** No início ou durante a apuração, diante de indícios suficientes, o Tribunal determina afastamento quando a permanência do responsável puder:
 
 - retardar ou dificultar auditoria ou inspeção;
 - causar novos danos;
 - inviabilizar o ressarcimento.
 
-A autoridade superior que deixa de cumprir a determinação no prazo fixado responde solidariamente.
+A autoridade superior que não cumpre a determinação no prazo fixado responde solidariamente.
 
-### 6.2. Indisponibilidade e arresto
+**Indisponibilidade de bens.** Pode durar até **um ano** e deve limitar-se aos bens suficientes para garantir o ressarcimento em apuração.
 
-A indisponibilidade de bens:
+**Arresto.** O Tribunal não toma diretamente os bens. Pode solicitar, por intermédio do <abbr title="Ministério Público de Contas">MPC</abbr>, que a procuradoria ou o dirigente competente adote as medidas necessárias em relação aos bens de responsáveis julgados em débito.
 
-- pode durar até **um ano**;
-- limita-se aos bens suficientes para garantir o ressarcimento em apuração.
+**Cautelar geral do artigo 75.** O Pleno ou, em situação urgente, o relator pode agir de ofício ou mediante provocação diante de urgência, fundado receio de grave lesão ao erário ou a direito alheio, ou risco de ineficácia da decisão de mérito.
 
-O arresto segue técnica diferente: o Tribunal pode solicitar, por intermédio do <abbr title="Ministério Público de Contas">MPC</abbr>, que a procuradoria ou o dirigente competente adote as medidas necessárias em relação aos bens de responsáveis julgados em débito.
-
-### 6.3. Cautelar geral do art. 75
-
-O Pleno ou, em urgência, o relator pode adotar medida cautelar de ofício ou mediante provocação diante de urgência, fundado receio de grave lesão ao erário ou a direito alheio, ou risco de ineficácia da decisão de mérito.
-
-A cautelar urgente do relator é submetida ao Pleno na primeira sessão subsequente.
+Se a cautelar urgente for adotada pelo relator, deve ser submetida ao Pleno na **primeira sessão subsequente**.
 
 | Situação | Prazo legal |
-| --- | --- |
-| oitiva antes da cautelar | até **5 dias úteis** |
-| cautelar sem oitiva prévia | manifestação da parte em até **15 dias** |
+| --- | ---: |
+| <abbr title="Manifestação da parte antes da decisão cautelar">oitiva</abbr> antes da cautelar | até **5 dias úteis** |
+| cautelar sem <abbr title="Manifestação da parte antes da decisão cautelar">oitiva</abbr> prévia | manifestação da parte em até **15 dias** |
 
 A cautelar pode ser revista de ofício por quem a adotou e pode ser acompanhada de multa diária por descumprimento.
 
-## 7. Regras comuns dos recursos
+## 5. Quarto passo: há recurso contra a decisão?
 
 A Lei enumera três recursos:
 
@@ -278,131 +230,105 @@ A Lei enumera três recursos:
 2. embargos de declaração;
 3. revisão.
 
-A interposição, ainda que o recurso não seja conhecido, gera **preclusão consumativa**.
+A função de cada um organiza os prazos:
+
+| Recurso | Para que serve | Prazo | Efeito principal |
+| --- | --- | ---: | --- |
+| reconsideração | rediscutir decisão nas hipóteses legais | **15 dias** | suspende a eficácia do que foi recorrido |
+| embargos de declaração | corrigir obscuridade, omissão ou contradição | **5 dias** | interrompe prazos de cumprimento e de outros recursos |
+| revisão | reabrir excepcionalmente decisão definitiva em contas, por fundamento taxativo | **2 anos** | não tem efeito suspensivo |
+
+**Efeito suspensivo** paralisa a eficácia do objeto recorrido enquanto o recurso é apreciado. **Interrupção** faz o prazo recomeçar depois do julgamento; não preserva apenas o saldo restante.
+
+### 5.1. Regras comuns
+
+A interposição de recurso, mesmo que ele não seja conhecido, gera <abbr title="Perda da possibilidade de repetir o mesmo ato processual já praticado">preclusão consumativa</abbr>: a oportunidade de repetir aquele ato foi consumida.
 
 Não cabe recurso da decisão que:
 
 - converte processo em tomada de contas especial;
-- determina a instauração da tomada especial;
-- determina citação, inspeção ou auditoria.
+- determina a instauração de tomada de contas especial;
+- determina <abbr title="Comunicação formal que abre oportunidade de defesa">citação</abbr>, inspeção ou auditoria.
 
-Se houver recurso indevido, a documentação pode ser aproveitada como defesa, sempre que possível, sem afastar a necessidade de citação quando legalmente obrigatória.
+Documentação de recurso indevido pode ser aproveitada como defesa, quando possível, sem eliminar <abbr title="Comunicação formal que abre oportunidade de defesa">citação</abbr> legalmente exigida.
 
-Outras regras:
+Nos recursos, a audiência do <abbr title="Ministério Público de Contas">MPC</abbr> é obrigatória, inclusive quando ele próprio recorre, **exceto nos embargos de declaração**.
 
-- salvo nos embargos, a audiência do MPC é obrigatória nos recursos, inclusive quando ele próprio recorre;
-- fundamento objetivo favorável de um corresponsável aproveita aos demais, inclusive ao revel;
-- fundamento exclusivamente pessoal não se estende;
-- interessado deve demonstrar preliminarmente razão legítima para intervir;
-- recurso do MPC destinado a agravar a situação exige contraditório e contrarrazões;
-- havendo partes opostas, a outra parte apresenta contrarrazões no mesmo prazo do recurso.
+Se um corresponsável apresenta fundamento objetivo favorável, o benefício pode alcançar os demais, inclusive o <abbr title="Parte que não apresentou defesa no prazo">revel</abbr>. Fundamento exclusivamente pessoal não se estende.
 
-## 8. Recurso de reconsideração
+O interessado precisa demonstrar razão legítima para intervir. Quando recurso do <abbr title="Ministério Público de Contas">MPC</abbr> puder agravar a situação da parte, deve ser assegurado <abbr title="Direito de conhecer e responder ao que possa afetar a parte">contraditório</abbr>. Havendo partes opostas, a outra parte apresenta <abbr title="Resposta apresentada ao recurso da parte adversa">contrarrazões</abbr> no mesmo prazo do recurso.
 
-Cabe contra:
+### 5.2. Reconsideração: o recurso ordinário deste bloco
+
+A reconsideração cabe contra:
 
 - decisão definitiva em prestação ou tomada de contas, inclusive especial;
 - decisão de mérito em processo de ato sujeito a registro;
 - decisão de mérito em fiscalização de atos e contratos;
-- parecer prévio.
+- <abbr title="Manifestação técnica sobre contas de governo destinada ao julgamento legislativo">parecer prévio</abbr>.
 
-| Elemento | Regra |
-| --- | --- |
-| órgão julgador | colegiado que proferiu a decisão |
-| legitimados | parte ou MPC |
-| forma | escrita, uma única vez |
-| prazo | **15 dias**, improrrogáveis |
-| efeito | suspensivo, nos limites do objeto recorrido |
+É julgada pelo **mesmo colegiado que proferiu a decisão**. Parte ou <abbr title="Ministério Público de Contas">MPC</abbr> podem interpor por escrito, uma única vez, em **15 dias improrrogáveis**.
 
-Se o recurso atacar apenas item específico do acórdão, os itens não recorridos podem prosseguir para execução em processo apartado.
+O efeito suspensivo limita-se ao **objeto recorrido**; itens não impugnados podem seguir para execução em processo apartado.
 
-A reconsideração intempestiva não é conhecida. Excepcionalmente, fatos novos supervenientes podem fundamentá-la dentro de **um ano** do término do prazo original, mas sem efeito suspensivo.
+Reconsideração apresentada fora do prazo não é conhecida. Há uma exceção estreita: fatos novos supervenientes podem fundamentá-la dentro de **um ano do fim do prazo original**, mas sem efeito suspensivo.
 
-## 9. Embargos de declaração
+### 5.3. Embargos de declaração: integrar a decisão
 
-Cabem contra acórdão ou parecer prévio com:
+Cabem contra <abbr title="Decisão colegiada formalizada pelo Tribunal">acórdão</abbr> ou <abbr title="Manifestação técnica sobre contas de governo destinada ao julgamento legislativo">parecer prévio</abbr> que contenha:
 
 - obscuridade;
 - omissão;
 - contradição.
 
-Parte ou MPC podem opô-los por escrito em **cinco dias**, prazo improrrogável.
+Parte ou <abbr title="Ministério Público de Contas">MPC</abbr> podem opô-los por escrito em **cinco dias improrrogáveis**.
 
-Os embargos **interrompem** os prazos para cumprimento da decisão e para os demais recursos. Interrupção significa reinício do prazo aplicável após o julgamento, observada a autonomia dos itens não impugnados.
+Os embargos **interrompem** os prazos para cumprimento da decisão e para os demais recursos. Depois do julgamento, o prazo pertinente recomeça, respeitada a autonomia dos itens não impugnados.
 
-Embargos manifestamente protelatórios geram multa; na reiteração, a multa é dobrada e outro recurso fica condicionado ao pagamento.
+Embargos manifestamente <abbr title="Usados para retardar o andamento do processo">protelatórios</abbr> geram multa. Na reiteração, a multa é dobrada e outro recurso fica condicionado ao pagamento.
 
-## 10. Recurso de revisão
+### 5.4. Revisão: via excepcional depois da decisão definitiva
 
-A revisão é excepcional e se aproxima funcionalmente de uma ação rescisória administrativa. Cabe contra decisão definitiva transitada em julgado administrativamente em prestação ou tomada de contas, inclusive especial.
+A revisão não é segunda reconsideração. Cabe contra decisão definitiva em prestação ou tomada de contas, inclusive especial, quando já tenha <abbr title="Situação em que não cabe mais reconsideração no processo administrativo">transitado administrativamente</abbr> e exista fundamento taxativo, isto é, previsto em lista fechada pela Lei.
 
-| Elemento | Regra |
-| --- | --- |
-| órgão | Plenário |
-| legitimados | parte, sucessores ou MPC |
-| forma | escrita, uma única vez |
-| prazo | **2 anos**, improrrogáveis |
-| efeito | **sem efeito suspensivo** |
+É julgada pelo **Plenário**, pode ser interposta por parte, sucessores ou <abbr title="Ministério Público de Contas">MPC</abbr>, por escrito e uma única vez, em **dois anos improrrogáveis**. **Não possui efeito suspensivo.**
 
-Fundamentos taxativos:
+Os fundamentos são:
 
 1. erro de cálculo nas contas;
-2. falsidade ou insuficiência dos documentos em que se baseou o acórdão;
+2. falsidade ou insuficiência dos documentos em que se baseou o <abbr title="Decisão colegiada formalizada pelo Tribunal">acórdão</abbr>;
 3. documentos novos supervenientes com eficácia sobre a prova.
 
-O provimento corrige o erro ou engano apurado. O MPC pode pedir reabertura diante de elementos não examinados; se puder haver agravamento da situação ou inclusão de novos responsáveis, deve haver instrução e contraditório.
+O <abbr title="Ministério Público de Contas">MPC</abbr> pode pedir reabertura diante de elementos não examinados; possível agravamento ou inclusão de novos responsáveis exige instrução e <abbr title="Direito de conhecer e responder ao que possa afetar a parte">contraditório</abbr>.
 
-Não cabe revisão contra decisão sobre contas anuais de Prefeito ou Governador tratadas nos arts. 8º e 9º. Para esse recurso, considera-se transitada a decisão quando não cabe mais reconsideração. A parte ou sucessor deve juntar a documentação necessária na interposição, sob pena de não conhecimento.
+Não cabe revisão contra decisão sobre contas anuais de Prefeito ou Governador tratadas nos artigos 8º e 9º. Para esse recurso, considera-se transitada a decisão quando não cabe mais reconsideração. A parte ou o sucessor deve juntar a documentação necessária já na interposição, sob pena de não conhecimento.
 
-## 11. Prescrição: contexto complementar, não núcleo autônomo do edital
+## 6. Prescrição: dois problemas diferentes
 
-A Lei nº 8.258/2005 não deve ser estudada como se contivesse, por si, toda a disciplina atual de prescrição dos processos do TCE/MA.
+**Prescrição** limita no tempo a possibilidade de exigir ou prosseguir determinada pretensão segundo o regime aplicável. Aqui, separe dois planos.
 
-No corte do edital, a **Resolução nº 383/2023**, com alterações posteriores — inclusive critérios sobre prescrição intercorrente introduzidos pela **Resolução nº 406/2024** — integra o contexto institucional. Para este assunto, basta guardar duas separações:
+A Lei nº 8.258/2005 não deve ser estudada como se contivesse, sozinha, toda a disciplina atual de prescrição dos processos do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-1. **prescrição interna do processo no TCE/MA** decorre de disciplina normativa própria do Tribunal;
-2. **execução judicial de título do Tribunal de Contas** é prescritível, conforme o Tema 899/<abbr title="Supremo Tribunal Federal">STF</abbr> e o regime jurídico do crédito.
+Separe:
 
-Detalhes de termos iniciais, causas interruptivas, suspensivas e prescrição intercorrente pertencem à resolução específica e não devem ser tratados como literalidade da Lei nº 8.258/2005.
+1. **prescrição interna do processo no Tribunal** — disciplinada por ato normativo próprio, especialmente a Resolução nº 383/2023 e suas alterações, inclusive a Resolução nº 406/2024 no tema da <abbr title="Prescrição associada à paralisação processual nas condições do ato normativo aplicável">prescrição intercorrente</abbr>;
+2. **prescrição da cobrança judicial do título** — o Tema 899 do <abbr title="Supremo Tribunal Federal">STF</abbr> afirma que a pretensão de ressarcimento fundada em decisão de Tribunal de Contas é prescritível.
 
-## 12. Lista eleitoral e efeitos do julgamento
+Termos iniciais, interrupções, suspensões e regras de <abbr title="Prescrição associada à paralisação processual nas condições do ato normativo aplicável">prescrição intercorrente</abbr> previstos em resolução não devem ser apresentados como texto da Lei Orgânica.
 
-O art. 33 disciplina o envio de relação ao Ministério Público Eleitoral no horizonte temporal previsto pela Lei e ressalva processos com recurso de efeito suspensivo cuja admissibilidade tenha sido reconhecida.
+## 7. Lista eleitoral: rejeição de contas não produz inelegibilidade automaticamente
 
-A lista **não declara inelegibilidade**. Os efeitos eleitorais dependem também da Constituição, da Lei Complementar nº 64/1990, da natureza das contas, da decisão do órgão competente e da apreciação pela Justiça Eleitoral.
+O artigo 33 disciplina a disponibilização à Justiça Eleitoral da relação de responsáveis que se enquadrem nas condições legais relativas à rejeição de contas. A aplicação eleitoral do resultado também depende da Constituição, da Lei Complementar nº 64/1990, da legislação eleitoral e da apreciação pela Justiça Eleitoral.
 
-Não confunda:
+Por isso, não confunda quatro planos:
 
-- parecer prévio sobre contas anuais;
-- julgamento de contas de gestão ou tomada de contas especial;
-- inabilitação administrativa do art. 69;
-- inelegibilidade eleitoral.
+- **<abbr title="Manifestação técnica sobre contas de governo destinada ao julgamento legislativo">parecer prévio</abbr>** sobre contas anuais de governo;
+- **julgamento** de contas de gestão ou de tomada de contas especial;
+- **inabilitação administrativa** do artigo 69;
+- **inelegibilidade eleitoral**, que não é declarada automaticamente pelo <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> apenas porque houve rejeição de contas.
 
-## 13. Matriz de comparação
+## 8. Fechando o fluxo
 
-| Não confunda | Distinção correta |
-| --- | --- |
-| preliminar × definitiva | prepara/saneia × julga mérito |
-| terminativa × irregular | encerra sem mérito × decide mérito pela irregularidade |
-| débito × multa | ressarcimento × sanção; podem coexistir |
-| quitação × regularidade | pagar não altera sozinho julgamento irregular |
-| indisponibilidade × arresto | cautelar patrimonial do Tribunal × providência externa solicitada pela via legal |
-| reconsideração × revisão | ordinária, 15 dias, suspensiva × excepcional, 2 anos, sem suspensão |
-| embargos × demais recursos | embargos interrompem os demais prazos |
-| título executivo × legitimidade | título autoriza cobrança; natureza/titularidade do crédito indicam quem executa |
-| contas anuais × <abbr title="Tomada de contas especial">TCE</abbr> especial de convênio | parecer prévio × responsabilidade pessoal sancionável pelo Tribunal, Tema 1287 |
-| prescrição interna × execução judicial | resolução do TCE × Tema 899 e regime do crédito |
-| inabilitação × inelegibilidade | sanção administrativa × efeito eleitoral definido pelo regime eleitoral |
+A falha formal sem dano pode levar a **ressalva**, eventualmente com multa; o dano pode levar a **irregularidade**, débito e possível multa. Cautelar protege o processo diante de risco; recurso atua sobre a decisão; débito ou multa exigíveis e não pagos seguem para cobrança.
 
-## 14. Roteiro para questões
-
-1. Classifique a decisão: preliminar, definitiva ou terminativa.
-2. Em contas, identifique regular, ressalva, irregular ou iliquidável.
-3. Separe débito de multa e verifique possibilidade de cumulação.
-4. Na execução, primeiro procure débito/multa; depois identifique titular e natureza do crédito.
-5. Em chefe do Executivo, diferencie contas anuais de tomada de contas especial por convênio.
-6. Em cautelar, separe afastamento, indisponibilidade, arresto e cautelar geral.
-7. Em recurso, confirme cabimento, prazo, efeito, legitimado e órgão julgador.
-8. Na revisão, exija decisão transitada e fundamento taxativo.
-9. Não trate resolução de prescrição como texto da Lei Orgânica.
-10. Desconfie de alternativas que transformem quitação, lista eleitoral ou inabilitação em mudança automática da natureza do julgamento.
+**qual decisão? → houve dano? → há débito ou sanção? → cabe cautelar ou recurso? → quem pode cobrar?**
