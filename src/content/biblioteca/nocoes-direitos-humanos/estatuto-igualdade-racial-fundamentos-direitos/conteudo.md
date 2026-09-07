@@ -8,38 +8,41 @@ storageId: "eir-fund-direitos-igualdade"
 
 # Estatuto da Igualdade Racial: fundamentos, direitos e igualdade material
 
-## 1. Recorte, objetivo e corte temporal
+## 1. Quando tratar todos do mesmo modo não basta
 
-Este assunto estuda a **Lei nº 12.288/2010**, o Estatuto da Igualdade Racial, sob três perguntas:
+Imagine uma política que ofereça exatamente o mesmo acesso formal a todas as pessoas, mas encontre grupos que, por discriminações históricas e barreiras ainda presentes, chegam a esse ponto em condições muito diferentes. A pergunta jurídica deixa de ser apenas “a regra é igual para todos?” e passa a incluir outra: **a regra consegue produzir igualdade real de oportunidades sem criar diferenciações arbitrárias?**
 
-1. quais fundamentos e conceitos organizam a igualdade racial;
-2. por que ações afirmativas são compatíveis com a igualdade material;
-3. quais direitos substantivos o Estatuto assegura.
+O Estatuto da Igualdade Racial, Lei nº 12.288/2010, organiza a resposta em três movimentos:
 
-Para fins de prova, podem ser avaliadas alterações legislativas que entraram em vigor até a data de publicação do edital, **6 de julho de 2026**. Este material foi conferido em **15 de agosto de 2026**; a conferência posterior serve ao controle editorial e não amplia o corte do edital.
+1. **identifica** discriminações e desigualdades étnico-raciais;
+2. **autoriza e orienta correções**, inclusive por ações afirmativas;
+3. **assegura direitos** em campos como saúde, educação, cultura, religião, terra, moradia, trabalho, comunicação, Justiça e segurança.
 
-A última alteração consolidada relevante foi a **Lei nº 14.553/2023**, que acrescentou regras de coleta de informações étnico-raciais no mercado de trabalho e também alterou o artigo 49, cujo mecanismo será estudado no Assunto 102. Essa alteração já estava vigente na data do edital.
+Esse encadeamento explica a igualdade material: tratar de modo diferente situações desiguais pode ser necessário para remover uma desigualdade, desde que a diferenciação tenha fundamento legítimo e seja adequada ao objetivo buscado.
 
-O Item 8 foi dividido funcionalmente:
+**Exemplo hipotético:** um programa público identifica que uma barreira histórica reduziu o acesso da população negra a determinada formação profissional e cria uma ação temporária voltada à correção desse obstáculo. Há tratamento diferenciado, mas sua finalidade é aproximar oportunidades; ele não se torna discriminação ilícita apenas por distinguir beneficiários.
 
-- este Assunto 101 trata dos fundamentos, da igualdade material e do conteúdo jurídico dos direitos;
-- o Assunto 102 tratará da implementação por políticas públicas, <abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr>, órgãos, conselhos, ouvidorias, planejamento, financiamento, monitoramento e articulação federativa.
+### 1.1 Recorte e corte da prova
 
-A divisão é feita por **proposição normativa**, não por faixa artificial de artigos. Quando um dispositivo combina direito e mecanismo, este assunto explica o direito; o próximo desenvolve a operação institucional.
+Este assunto ensina os **fundamentos, a igualdade material e o conteúdo dos direitos** previstos no Estatuto. A organização institucional desses direitos — sistema nacional, órgãos, conselhos, planejamento, financiamento e monitoramento — é aprofundada no Assunto 102. A remissão limita o aprofundamento; os direitos necessários para compreender este capítulo são explicados aqui.
 
-## 2. Finalidades do Estatuto
+Para a prova, podem ser cobradas alterações legislativas que entraram em vigor até a publicação do edital, em **6 de julho de 2026**. A conferência editorial posterior não amplia esse corte. A última alteração consolidada relevante até então foi a **Lei nº 14.553/2023**, que acrescentou regras de coleta de informações étnico-raciais no mercado de trabalho e alterou o artigo 49; o mecanismo do artigo 49 pertence ao Assunto 102.
 
-O Estatuto possui três finalidades cumulativas:
+## 2. Finalidades: o que a lei pretende produzir
+
+O artigo 1º reúne três finalidades cumulativas:
 
 1. garantir à população negra a efetivação da **igualdade de oportunidades**;
 2. defender direitos étnicos **individuais, coletivos e difusos**;
 3. combater a discriminação e as demais formas de **intolerância étnica**.
 
-Não reduza a lei a cotas, a direitos individuais ou à punição penal do racismo. O Estatuto combina prevenção, reparação, promoção de oportunidades, proteção de direitos e transformação institucional.
+Direito **individual** protege uma pessoa determinada. Direitos **coletivos e difusos** ultrapassam um único indivíduo; nos difusos, inclusive, o conjunto de titulares pode ser indeterminado. Essa amplitude ajuda a entender por que o Estatuto combina proteção pessoal, proteção coletiva, políticas públicas e transformação institucional.
 
-## 3. Seis definições legais
+Por isso, não reduza a lei a cotas ou a punições por racismo. Cota é apenas uma possível ação afirmativa, e o Estatuto atua também por prevenção, reparação, acesso a direitos e mudança de estruturas que mantêm desigualdades.
 
-O parágrafo único do artigo 1º traz seis conceitos. A banca costuma trocar sujeitos, critérios ou esferas.
+## 3. As seis definições que organizam o Estatuto
+
+As definições do parágrafo único do artigo 1º formam um pequeno sistema. Primeiro se reconhece a discriminação ou a desigualdade; depois se identifica a população protegida e os instrumentos de correção.
 
 ### 3.1 Discriminação racial ou étnico-racial
 
@@ -55,19 +58,13 @@ que tenha por objeto anular ou restringir, em igualdade de condições, o reconh
 
 O conceito alcança os campos político, econômico, social, cultural e qualquer outro campo da vida **pública ou privada**.
 
-Pegadinhas:
-
-- não se limita a exclusão explícita;
-- inclui preferência e restrição;
-- inclui descendência e origem nacional;
-- alcança relações privadas;
-- o artigo 1º não cria classificação autônoma entre discriminação direta e indireta.
+Observe o alcance da definição: ela não exige somente exclusão explícita, inclui preferência e restrição, não se limita a raça e cor e pode incidir em relações privadas. O artigo 1º também não cria, por si, uma classificação autônoma entre discriminação direta e indireta.
 
 ### 3.2 Desigualdade racial
 
 É a situação **injustificada** de diferenciação de acesso e fruição de bens, serviços e oportunidades, nas esferas pública e privada, em virtude de raça, cor, descendência ou origem nacional ou étnica.
 
-A palavra **injustificada** é decisiva. Uma diferenciação corretiva e proporcional, como ação afirmativa, não se torna ilícita apenas por tratar grupos de forma distinta.
+A palavra **injustificada** é decisiva. Nem toda diferenciação é desigualdade racial: uma medida corretiva pode distinguir situações justamente para reduzir uma desigualdade.
 
 ### 3.3 Desigualdade de gênero e raça
 
@@ -76,7 +73,7 @@ A palavra **injustificada** é decisiva. Uma diferenciação corretiva e proporc
 - **mulheres negras**; e
 - os demais segmentos sociais.
 
-Não é a definição genérica de desigualdade entre homens e mulheres nem apenas a comparação entre mulheres negras e homens negros.
+A definição não corresponde genericamente a toda desigualdade entre homens e mulheres nem se limita à comparação entre mulheres negras e homens negros.
 
 ### 3.4 População negra
 
@@ -85,7 +82,7 @@ Não é a definição genérica de desigualdade entre homens e mulheres nem apen
 - se autodeclaram **pretas e pardas**, conforme o quesito cor ou raça usado pelo <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>; ou
 - adotam autodefinição análoga.
 
-A definição não se restringe às pessoas pretas. Também não exige uma declaração de terceiro.
+A definição não se restringe às pessoas pretas e parte da autodeclaração ou autodefinição da própria pessoa.
 
 ### 3.5 Políticas públicas
 
@@ -100,41 +97,39 @@ São programas e medidas especiais adotados:
 
 para corrigir desigualdades raciais e promover igualdade de oportunidades.
 
-Ação afirmativa não é sinônimo de cota. Cotas são uma modalidade possível dentro de um conjunto mais amplo de medidas especiais.
+Ação afirmativa é gênero mais amplo do que cota. Reserva de vagas pode ser uma modalidade, mas a definição legal não se esgota nela.
 
-## 4. Igualdade formal e igualdade material
+## 4. Igualdade formal, igualdade material e ação afirmativa
 
-### 4.1 Igualdade formal
+### 4.1 O contraste central
 
-A igualdade formal impede privilégios e discriminações arbitrárias. Ela exige submissão de todos à ordem jurídica sem distinções injustificadas.
+A **igualdade formal** impede privilégios e discriminações arbitrárias: situações equivalentes não podem receber tratamento desigual sem justificativa.
 
-### 4.2 Igualdade material
+A **igualdade material** pergunta também se diferenças reais de partida impedem o exercício equivalente de direitos. Por isso, ela admite diferenciações justificadas para remover obstáculos históricos, socioculturais e institucionais.
 
-A igualdade material considera desigualdades concretas de partida. Ela admite diferenciações justificadas e proporcionais para remover obstáculos históricos, socioculturais e institucionais e produzir igualdade real de oportunidades.
+A chave é distinguir **diferença arbitrária** de **diferença corretiva**. Uma medida corretiva precisa estar ligada a uma finalidade legítima e manter relação adequada e equilibrada com o problema que pretende enfrentar.
 
-Em fórmula de prova:
+No exemplo hipotético da formação profissional, a ação dirigida ao grupo afetado não substitui a regra geral de acesso. Ela atua sobre a barreira identificada para aproximar as condições de oportunidade.
 
-> tratar igualmente situações equivalentes e diferentemente situações desiguais, na medida da desigualdade e com finalidade constitucional legítima.
+### 4.2 Função reparadora
 
-### 4.3 Função reparadora das ações afirmativas
-
-Os programas de ação afirmativa constituem políticas destinadas a reparar:
+O parágrafo único do artigo 4º afirma que programas de ação afirmativa constituem políticas públicas destinadas a reparar:
 
 - distorções;
 - desigualdades sociais;
 - práticas discriminatórias;
 
-formadas historicamente nas esferas pública e privada.
+formadas nas esferas pública e privada durante o processo de formação social do País.
 
-Portanto, ações afirmativas não são exceção ilícita à igualdade. Quando adequadas, necessárias e proporcionais, são instrumentos de sua dimensão material.
+Assim, a ação afirmativa não é uma exceção automática à igualdade. Quando legitimamente desenhada, concretiza a dimensão material da própria igualdade.
 
-## 5. Deveres e diretriz político-jurídica
+## 5. Do princípio ao dever jurídico
 
 ### 5.1 Estado e sociedade
 
 É dever do **Estado e da sociedade** garantir igualdade de oportunidades.
 
-O Estatuto reconhece a todo cidadão brasileiro, independentemente de etnia ou cor da pele, participação na comunidade, especialmente nas atividades:
+O artigo 2º reconhece a todo cidadão brasileiro, independentemente de etnia ou cor da pele, participação na comunidade, especialmente nas atividades:
 
 - políticas;
 - econômicas;
@@ -143,11 +138,11 @@ O Estatuto reconhece a todo cidadão brasileiro, independentemente de etnia ou c
 - culturais;
 - esportivas.
 
-Também protege dignidade e valores religiosos e culturais.
+Também protege a dignidade e os valores religiosos e culturais.
 
-### 5.2 Diretriz
+### 5.2 Diretriz político-jurídica
 
-O Estatuto adota como diretriz político-jurídica:
+O Estatuto adota como diretriz:
 
 1. inclusão das vítimas de desigualdade étnico-racial;
 2. valorização da igualdade étnica;
@@ -165,15 +160,17 @@ A participação da população negra em igualdade de oportunidades será promov
 - apoio a iniciativas da sociedade civil;
 - ações afirmativas em educação, cultura, esporte, lazer, saúde, segurança, trabalho, moradia, comunicação, financiamento, terra e Justiça.
 
-**Prioritariamente** não significa exclusivamente. O artigo 58 confirma que as medidas do Estatuto não excluem outras favoráveis à população negra.
+**Prioritariamente** não significa exclusivamente. O artigo 58 preserva outras medidas favoráveis à população negra.
 
-## 6. Direito à saúde
+## 6. Direito à saúde: universalidade com atenção às desigualdades
 
 ### 6.1 Garantia geral
 
 O poder público garante a saúde da população negra por políticas **universais, sociais e econômicas** destinadas à redução do risco de doenças e outros agravos.
 
-### 6.2 SUS
+Isso mostra como igualdade material e universalidade convivem: o serviço continua universal, mas políticas específicas podem enfrentar vulnerabilidades que atingem de modo desigual determinada população.
+
+### 6.2 Sistema Único de Saúde
 
 O acesso ao <abbr title="Sistema Único de Saúde">SUS</abbr> deve ser:
 
@@ -181,13 +178,11 @@ O acesso ao <abbr title="Sistema Único de Saúde">SUS</abbr> deve ser:
 - igualitário;
 - voltado à promoção, proteção e recuperação da saúde.
 
-A responsabilidade alcança órgãos e instituições públicas federais, estaduais, distritais e municipais, da administração direta e indireta.
+A responsabilidade alcança órgãos e instituições públicas federais, estaduais, distritais e municipais, da <abbr title="órgãos que integram diretamente o ente federativo">administração direta</abbr> e da <abbr title="entidades administrativas vinculadas ao ente federativo">administração indireta</abbr>.
 
 ### 6.3 Seguros privados
 
-O poder público deve garantir tratamento **sem discriminação** à população negra vinculada a seguros privados de saúde.
-
-O direito à saúde no Estatuto, portanto, não se encerra no SUS.
+O poder público deve garantir tratamento **sem discriminação** à população negra vinculada a seguros privados de saúde. Portanto, a proteção do Estatuto não se encerra no <abbr title="Sistema Único de Saúde">SUS</abbr>.
 
 ### 6.4 Comunidades quilombolas
 
@@ -200,27 +195,27 @@ Moradores de comunidades remanescentes de quilombos são beneficiários de incen
 
 ### 6.5 Política Nacional de Saúde Integral da População Negra
 
-O conjunto de ações de saúde voltadas à população negra constitui a **Política Nacional de Saúde Integral da População Negra**. Para este assunto, importa memorizar o conteúdo jurídico dos artigos 7º e 8º; a execução institucional e os instrumentos operacionais permanecem no Assunto 102.
+O conjunto de ações de saúde voltadas à população negra constitui a **Política Nacional de Saúde Integral da População Negra**.
 
-O **artigo 7º** organiza a política por três diretrizes:
+O **artigo 7º** apresenta três diretrizes:
 
-1. ampliação e fortalecimento da participação de lideranças dos movimentos sociais em defesa da saúde da população negra nas instâncias de participação e controle social do SUS;
-2. produção de conhecimento científico e tecnológico em saúde da população negra;
-3. desenvolvimento de processos de informação, comunicação e educação para contribuir com a redução das vulnerabilidades da população negra.
+1. ampliar e fortalecer a participação de lideranças dos movimentos sociais em defesa da saúde da população negra nas instâncias de participação e controle social do <abbr title="Sistema Único de Saúde">SUS</abbr>;
+2. produzir conhecimento científico e tecnológico em saúde da população negra;
+3. desenvolver processos de informação, comunicação e educação para reduzir vulnerabilidades da população negra.
 
 O **artigo 8º** estabelece cinco objetivos:
 
-1. promover a saúde integral da população negra, priorizando a redução das desigualdades étnicas e o combate à discriminação nas instituições e nos serviços do SUS;
-2. melhorar a qualidade dos sistemas de informação do SUS quanto à coleta, ao processamento e à análise de dados desagregados por **cor, etnia e gênero**;
+1. promover a saúde integral da população negra, priorizando a redução das desigualdades étnicas e o combate à discriminação nas instituições e nos serviços do <abbr title="Sistema Único de Saúde">SUS</abbr>;
+2. melhorar a qualidade dos sistemas de informação do <abbr title="Sistema Único de Saúde">SUS</abbr> quanto à coleta, ao processamento e à análise de dados desagregados por **cor, etnia e gênero**;
 3. fomentar estudos e pesquisas sobre racismo e saúde da população negra;
-4. incluir o conteúdo da saúde da população negra nos processos de formação e educação permanente dos trabalhadores da saúde;
-5. incluir a temática da saúde da população negra na formação política das lideranças de movimentos sociais para o exercício da participação e do controle social no SUS.
+4. incluir o conteúdo da saúde da população negra na formação e na educação permanente dos trabalhadores da saúde;
+5. incluir a temática da saúde da população negra na formação política das lideranças de movimentos sociais para participação e controle social no <abbr title="Sistema Único de Saúde">SUS</abbr>.
 
-Pegadinha: **diretrizes do artigo 7º não são os objetivos do artigo 8º**.
+Em prova, não troque as **três diretrizes do artigo 7º** pelos **cinco objetivos do artigo 8º**.
 
-## 7. Educação
+## 7. Educação: acesso, currículo e ação afirmativa
 
-Como regra geral, a população negra tem direito a participar de atividades educacionais, culturais, esportivas e de lazer adequadas a seus interesses e condições, contribuindo para o patrimônio cultural da comunidade e da sociedade brasileira.
+O artigo 9º assegura à população negra participação em atividades educacionais, culturais, esportivas e de lazer adequadas a seus interesses e condições, de modo a contribuir para o patrimônio cultural da comunidade e da sociedade brasileira.
 
 ### 7.1 Providências gerais e apoio social
 
@@ -240,24 +235,24 @@ O poder público também estimulará e apoiará ações socioeducacionais de ent
 - história geral da África;
 - história da população negra no Brasil.
 
-A obrigação alcança ensino **fundamental e médio**, em estabelecimentos **públicos e privados**.
+A obrigação alcança o ensino **fundamental e médio**, em estabelecimentos **públicos e privados**.
 
 Os conteúdos devem atravessar todo o currículo escolar e resgatar a contribuição da população negra para o desenvolvimento social, econômico, político e cultural do País.
 
-O estudo acadêmico das dimensões religiosas das culturas africanas não se confunde com adoção estatal de culto. A laicidade não proíbe a abordagem histórica e cultural necessária ao cumprimento do currículo.
+O estudo acadêmico das dimensões religiosas das culturas africanas não se confunde com adoção estatal de culto: a laicidade impede que o Estado professe uma religião, mas não proíbe o estudo histórico e cultural necessário ao currículo.
 
-### 7.3 Formação, material e datas cívicas
+### 7.3 Formação docente, material e datas cívicas
 
 O órgão competente do Poder Executivo fomentará:
 
 - formação inicial e continuada de professores;
 - elaboração de material didático específico.
 
-Nas datas cívicas, órgãos educacionais incentivarão participação de intelectuais e representantes do movimento negro para debater suas vivências com estudantes.
+Nas datas cívicas, órgãos educacionais incentivarão a participação de intelectuais e representantes do movimento negro para debater suas vivências com estudantes.
 
 ### 7.4 Pesquisa e ensino superior
 
-Órgãos federais, distritais e estaduais de fomento à pesquisa e pós-graduação **poderão** criar incentivos para estudos sobre relações étnicas, quilombos e população negra.
+Órgãos federais, distritais e estaduais de fomento à pesquisa e à pós-graduação **poderão** criar incentivos para estudos sobre relações étnicas, quilombos e população negra.
 
 O Poder Executivo federal incentivará instituições públicas e privadas de ensino superior a:
 
@@ -268,7 +263,7 @@ O Poder Executivo federal incentivará instituições públicas e privadas de en
 - observar proporcionalidade de gênero entre beneficiários;
 - cooperar na formação docente baseada em equidade, tolerância e respeito às diferenças.
 
-O poder público **adotará** programas de ação afirmativa. Não troque esse verbo por mera faculdade.
+O poder público **adotará** programas de ação afirmativa. Aqui o verbo indica dever, não mera faculdade.
 
 ## 8. Cultura, esporte, lazer e capoeira
 
@@ -283,7 +278,7 @@ Remanescentes das comunidades dos quilombos têm direito à preservação de:
 - tradições;
 - **manifestos religiosos**, expressão literal do artigo 18.
 
-Documentos e sítios com reminiscências dos antigos quilombos, quando tombados, recebem atenção especial.
+Documentos e sítios com reminiscências dos antigos quilombos, quando <abbr title="formalmente protegidos como patrimônio cultural">tombados</abbr>, recebem atenção especial.
 
 ### 8.2 Samba e matriz africana
 
@@ -332,11 +327,11 @@ O direito relativo às religiões de matriz africana compreende:
 6. produção e divulgação de publicações;
 7. coleta de contribuições privadas;
 8. acesso a órgãos e meios de comunicação;
-9. comunicação ao Ministério Público diante de intolerância religiosa.
+9. **comunicação ao Ministério Público para abertura de ação penal** diante de atitudes e práticas de intolerância religiosa nos meios de comunicação e em quaisquer outros locais.
 
 A produção e o uso de materiais religiosos permanecem sujeitos às condutas proibidas em legislação específica.
 
-A comunicação ao Ministério Público é garantia de acesso institucional. Ela não transforma toda notícia em ação penal automática nem substitui as regras processuais aplicáveis.
+A expressão “para abertura de ação penal” é a literalidade do artigo 24, VIII. Ela identifica a finalidade da comunicação prevista no Estatuto; não significa condenação automática nem dispensa as regras de investigação e de eventual acusação penal.
 
 ### 9.3 Assistência religiosa
 
@@ -373,7 +368,7 @@ Aos remanescentes das comunidades dos quilombos **que estejam ocupando suas terr
 
 Cabe ao Estado emitir os títulos respectivos.
 
-Não troque propriedade definitiva por concessão de uso. Também não elimine o requisito literal da ocupação.
+A regra não cria mera concessão temporária de uso. O requisito literal da ocupação também não deve ser apagado.
 
 ### 10.3 Desenvolvimento e proteção
 
@@ -385,7 +380,7 @@ O Estatuto prevê:
 - linhas especiais de financiamento público;
 - acesso às demais iniciativas de promoção da igualdade étnica.
 
-## 11. Moradia adequada
+## 11. Moradia adequada: mais do que uma unidade habitacional
 
 ### 11.1 Beneficiários e finalidade
 
@@ -400,20 +395,23 @@ A finalidade é reintegrar essas áreas à dinâmica urbana e melhorar ambiente 
 
 ### 11.2 Conteúdo do direito
 
-Moradia adequada não é apenas entrega de unidade habitacional. Inclui:
+Moradia adequada inclui:
 
+- provimento habitacional;
 - infraestrutura urbana;
 - equipamentos comunitários;
 - assistência técnica e jurídica;
 - construção;
 - reforma;
-- regularização fundiária urbana.
+- <abbr title="ajuste jurídico da situação do imóvel e de sua ocupação">regularização fundiária urbana</abbr>.
+
+Portanto, entregar apenas a unidade física não esgota o conceito legal.
 
 ### 11.3 Financiamento
 
 Agentes financeiros **públicos ou privados** devem promover acesso da população negra aos financiamentos habitacionais.
 
-O funcionamento do sistema habitacional e a participação em seus conselhos integram os mecanismos operacionais estudados no Assunto 102.
+Os mecanismos do sistema habitacional e a participação em seus conselhos são aprofundados no Assunto 102.
 
 ## 12. Trabalho, renda e registros étnico-raciais
 
@@ -443,13 +441,13 @@ O Estatuto também prevê:
 - elevação de escolaridade e qualificação em setores com trabalhadores negros de baixa escolarização;
 - estímulo a empresários negros e ao turismo étnico.
 
-### 12.3 Cargos em comissão e funções de confiança
+### 12.3 Participação negra em postos de direção e confiança
 
-O Poder Executivo federal **poderá** implementar critérios para ampliar participação de pessoas negras em cargos em comissão e funções de confiança.
+O Poder Executivo federal **poderá** implementar critérios para ampliar a participação de pessoas negras em <abbr title="postos de direção, chefia ou assessoramento de livre nomeação nos casos legais">cargos em comissão</abbr> e <abbr title="atribuições de direção, chefia ou assessoramento exercidas por servidores efetivos">funções de confiança</abbr>.
 
 O objetivo é buscar reprodução da distribuição étnica nacional ou, quando couber, estadual, conforme dados oficiais.
 
-Essa faculdade não é uma reserva geral de vagas em concursos públicos.
+Essa faculdade não equivale a reserva geral de vagas em concursos públicos.
 
 ### 12.4 Alteração de 2023: autoclassificação
 
@@ -462,17 +460,17 @@ A regra aplica-se expressamente a:
 3. registros do <abbr title="Sistema Nacional de Emprego">Sine</abbr> ou estrutura sucessora;
 4. <abbr title="Relação Anual de Informações Sociais">Rais</abbr> ou documento equivalente;
 5. inscrição de segurados e dependentes no <abbr title="Regime Geral de Previdência Social">RGPS</abbr>, inclusive eletrônica;
-6. questionários de pesquisas do IBGE ou entidade sucessora.
+6. questionários de pesquisas do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> ou entidade sucessora.
 
 Regulamento pode identificar outros documentos ou registros de mesma natureza para extensão obrigatória.
 
-Não confunda autoclassificação desses registros com os mecanismos subsidiários de heteroidentificação admitidos pelo <abbr title="Supremo Tribunal Federal">STF</abbr> para controlar fraudes em política específica de cotas.
+Não confunda essa **autoclassificação**, feita pela própria pessoa em grupos previamente delimitados, com <abbr title="verificação por terceiros da autodeclaração racial">heteroidentificação</abbr>, mecanismo subsidiário admitido pelo <abbr title="Supremo Tribunal Federal">STF</abbr> para controlar fraudes em políticas específicas de cotas.
 
 ## 13. Meios de comunicação
 
 ### 13.1 Valorização e oportunidades
 
-Produções dos órgãos de comunicação devem valorizar herança cultural e participação da população negra na história do País.
+Produções dos órgãos de comunicação devem valorizar a herança cultural e a participação da população negra na história do País.
 
 Filmes e programas de televisão e cinema devem conferir oportunidades de emprego a:
 
@@ -486,7 +484,7 @@ A exigência não se aplica a obras que abordem especificidades de grupos étnic
 
 ### 13.2 Publicidade federal
 
-Órgãos e entidades da administração pública federal direta, autárquica ou fundacional, empresas públicas e sociedades de economia mista federais devem incluir cláusulas de participação de artistas negros em contratos de filmes, programas e peças publicitárias.
+Órgãos da União, <abbr title="entidades públicas com personalidade jurídica própria">autarquias</abbr> e fundações federais, empresas públicas e <abbr title="empresas estatais com capital público e privado">sociedades de economia mista</abbr> federais devem incluir cláusulas de participação de artistas negros em contratos de filmes, programas e peças publicitárias.
 
 As contratações devem promover diversidade:
 
@@ -498,7 +496,7 @@ A autoridade contratante **poderá**, se considerar necessário, requerer audito
 
 Produções publicitárias sobre especificidades de grupos étnicos determinados também constituem exceção.
 
-## 14. Acesso à Justiça, segurança e proteção
+## 14. Acesso à Justiça, segurança e proteção coletiva
 
 ### 14.1 Canais de garantia
 
@@ -526,15 +524,15 @@ O Estado deve:
 
 ### 14.3 Ação civil pública
 
-Lesões ou ameaças a interesses da população negra decorrentes de desigualdade étnica podem ser levadas à apreciação judicial, entre outros instrumentos, por **ação civil pública**.
+A <abbr title="ação judicial voltada à defesa coletiva de interesses que ultrapassam uma pessoa">ação civil pública</abbr> é um dos instrumentos que podem levar ao Judiciário lesões ou ameaças a interesses da população negra decorrentes de desigualdade étnica.
 
-Se acordo ou condenação por dano de discriminação étnica gerar prestação em dinheiro, o valor reverte ao fundo legal e deve ser utilizado em ações de promoção da igualdade étnica, conforme a extensão nacional, regional ou local do dano.
+Se acordo ou condenação por dano de discriminação étnica gerar prestação em dinheiro, o valor reverte ao fundo previsto em lei e deve ser utilizado em ações de promoção da igualdade étnica, conforme a extensão nacional, regional ou local do dano.
 
-A arquitetura de Ouvidorias e demais mecanismos institucionais será aprofundada no Assunto 102.
+A organização das Ouvidorias e dos demais mecanismos institucionais é aprofundada no Assunto 102.
 
-## 15. Alterações protetivas em leis correlatas
+## 15. Alterações protetivas em outras leis
 
-O Estatuto também alterou outras leis. O foco aqui é o efeito protetivo, não um curso completo sobre cada diploma.
+O Estatuto também modificou leis correlatas. Aqui importa o efeito protetivo dessas mudanças, não o estudo completo de cada diploma.
 
 O Estatuto entrou em vigor **90 dias após a data de sua publicação**, conforme o artigo 65.
 
@@ -551,7 +549,7 @@ Exigir em anúncio ou recrutamento aparência própria de raça ou etnia, sem ju
 
 ### 15.2 Ruptura discriminatória
 
-A Lei nº 9.029/1995 foi ajustada para preservar cominações e a opção do empregado diante de rompimento discriminatório, além da reparação moral.
+A Lei nº 9.029/1995 foi ajustada para preservar as consequências legais e a opção do empregado diante de rompimento discriminatório, além da reparação moral.
 
 ### 15.3 Violência contra a mulher
 
@@ -561,104 +559,64 @@ A definição legal de violência contra a mulher passou a incluir ação ou con
 
 Entre os efeitos possíveis sobre mensagens ou páginas discriminatórias está a interdição na rede mundial de computadores, conforme a legislação penal alterada.
 
-## 16. Jurisprudência constitucional essencial
+## 16. Jurisprudência constitucional essencial sobre ações afirmativas
 
-### 16.1 ADPF 186: cotas universitárias
+Os precedentes abaixo não substituem o texto do Estatuto. Eles mostram como o <abbr title="Supremo Tribunal Federal">STF</abbr> relaciona ações afirmativas e igualdade material e, por isso, ajudam a interpretar questões que apresentam cotas como privilégio necessariamente incompatível com a Constituição.
 
-Na ADPF 186/DF, julgada por unanimidade em 26 de abril de 2012, o STF considerou constitucional a política racial de ingresso da Universidade de Brasília.
+### 16.1 <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 186/<abbr title="Distrito Federal">DF</abbr>: cotas universitárias
 
-Fundamentos úteis:
+Na <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 186/<abbr title="Distrito Federal">DF</abbr>, julgada por unanimidade em 26 de abril de 2012, o <abbr title="Supremo Tribunal Federal">STF</abbr> considerou constitucional a política racial de ingresso da Universidade de Brasília.
+
+Entre os fundamentos úteis para prova estão:
 
 - igualdade material;
-- justiça distributiva;
+- <abbr title="distribuição de oportunidades e benefícios para reduzir desigualdades injustas">justiça distributiva</abbr>;
 - superação de desigualdades históricas;
 - pluralismo e diversidade;
 - adequação, proporcionalidade e caráter temporário da medida.
 
-O STF não fixou percentual universal nem declarou constitucional qualquer diferenciação racial sem exame do desenho concreto.
+O <abbr title="Supremo Tribunal Federal">STF</abbr> não fixou percentual universal nem declarou constitucional qualquer diferenciação racial independentemente do desenho concreto.
 
-### 16.2 ADC 41: cotas no serviço público federal
+### 16.2 <abbr title="Ação Declaratória de Constitucionalidade">ADC</abbr> 41/<abbr title="Distrito Federal">DF</abbr>: cotas no serviço público federal
 
-Na ADC 41/DF, concluída em 8 de junho de 2017, o STF declarou constitucional a Lei nº 12.990/2014, que reservava 20% das vagas em concursos públicos federais.
+Na <abbr title="Ação Declaratória de Constitucionalidade">ADC</abbr> 41/<abbr title="Distrito Federal">DF</abbr>, concluída em 8 de junho de 2017, o <abbr title="Supremo Tribunal Federal">STF</abbr> declarou constitucional a Lei nº 12.990/2014, então aplicável à reserva de 20% das vagas em concursos públicos federais abrangidos por ela.
 
-O Tribunal também admitiu critérios subsidiários de heteroidentificação, desde que respeitados:
+O Tribunal também admitiu critérios subsidiários de <abbr title="verificação por terceiros da autodeclaração racial">heteroidentificação</abbr>, desde que respeitados:
 
 - dignidade da pessoa humana;
-- contraditório;
-- ampla defesa.
+- <abbr title="direito de conhecer e contestar os elementos usados contra a pessoa">contraditório</abbr>;
+- <abbr title="direito de usar os meios adequados de defesa">ampla defesa</abbr>.
 
 O percentual e os procedimentos pertencem à lei específica julgada, não ao Estatuto da Igualdade Racial.
 
-### 16.3 ADIs 7.927 a 7.930/SC: proibição catarinense de cotas
+### 16.3 <abbr title="Ações Diretas de Inconstitucionalidade">ADIs</abbr> 7.927 a 7.930/<abbr title="Santa Catarina">SC</abbr>: proibição catarinense de cotas
 
-Em julgamento virtual finalizado em 17 de abril de 2026, o STF declarou inconstitucionais a Lei catarinense nº 19.722/2026 e, por arrastamento, o Decreto nº 1.372/2026, que proibiam cotas étnico-raciais em instituições de ensino que recebessem recursos estaduais.
+Em julgamento virtual finalizado em 17 de abril de 2026, o <abbr title="Supremo Tribunal Federal">STF</abbr> julgou procedentes as <abbr title="Ações Diretas de Inconstitucionalidade">ADIs</abbr> 7.927, 7.928, 7.929 e 7.930 e declarou inconstitucionais a Lei catarinense nº 19.722/2026 e o Decreto nº 1.372/2026. As <abbr title="Ações Diretas de Inconstitucionalidade">ADIs</abbr> 7.925 e 7.926 foram rejeitadas sem análise do mérito por razões processuais.
 
-O Tribunal destacou:
+O julgamento reafirmou, entre outros pontos:
 
 - igualdade material;
 - autonomia universitária;
-- compromissos internacionais contra o racismo;
-- ausência de avaliação técnica antes da interrupção abrupta das políticas.
+- compromissos internacionais de combate ao racismo;
+- necessidade de avaliar a eficácia e as consequências antes de interromper abruptamente políticas afirmativas.
 
 A decisão não impôs modelo ou percentual único e não tornou políticas afirmativas imunes a avaliação e aperfeiçoamento.
 
-## 17. Fronteira com o Assunto 102
+## 17. Como separar direito de mecanismo institucional
 
-Este assunto respondeu **quem é protegido, por quê e quais direitos possui**.
+Até aqui, a pergunta foi: **quem é protegido, por quê e que direitos o Estatuto assegura?**
 
-O Assunto 102 responderá **como o Estado organiza e executa a promoção da igualdade racial**, incluindo:
+O Assunto 102 muda a pergunta para: **como o poder público organiza e executa essa promoção?** Lá entram, em profundidade, o <abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr>, a <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr>, órgãos e conselhos, planejamento e orçamento, financiamento, transparência e monitoramento, além de mecanismos operacionais das políticas setoriais.
 
-- Sinapir, adesão e objetivos;
-- <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr> e plano nacional;
-- órgãos, fórum intergovernamental e colegiados;
-- conselhos e prioridade de repasses;
-- Ouvidorias como estrutura permanente;
-- planejamento plurianual e orçamento;
-- fontes de financiamento;
-- transparência, avaliação e monitoramento;
-- pesquisa quinquenal do IBGE como instrumento da PNPIR;
-- operação detalhada das políticas setoriais.
+A fronteira é útil em prova: uma questão sobre **conteúdo do direito** pertence ao núcleo deste capítulo; uma questão sobre **sistema, coordenação, fonte de recursos ou monitoramento** exige olhar para a engrenagem institucional.
 
-Não duplique no próximo assunto as definições e o conteúdo dos direitos aqui ensinados.
+## 18. Fechamento: quatro decisões que organizam o assunto
 
-## 18. Pegadinhas centrais
+Em vez de memorizar uma lista de pegadinhas isoladas, use quatro perguntas:
 
-| Afirmação | Correção |
-|---|---|
-| população negra significa apenas pessoas pretas | errado: pretas e pardas ou autodefinição análoga |
-| discriminação só existe na vida pública | errado: pública ou privada |
-| toda diferenciação é desigualdade racial | errado: a definição exige situação injustificada |
-| política pública e ação afirmativa têm o mesmo sujeito | errado: política pública é estatal; ação afirmativa também pode ser privada |
-| ação afirmativa significa apenas cota | errado |
-| dever de igualdade cabe somente ao Estado | errado: Estado e sociedade |
-| SUS especial substitui universalidade | errado: acesso continua universal e igualitário |
-| seguro privado não aparece no Estatuto | errado |
-| história da África é obrigatória só na escola pública | errado: fundamental e médio, público e privado |
-| incentivo à pesquisa é sempre obrigatório | errado: órgãos poderão criar incentivos |
-| ensino de capoeira é obrigatório | errado: facultado |
-| assistência religiosa exclui pessoas presas | errado |
-| quilombola recebe apenas concessão de uso | errado: propriedade definitiva se ocupa a terra |
-| moradia adequada é somente unidade habitacional | errado |
-| financiamento habitacional é só por agente público | errado: público ou privado |
-| critério para cargo em comissão é obrigatório | errado: poderá implementar |
-| registro étnico-racial usa heteroidentificação | errado: autoclassificação |
-| publicidade federal sempre exige auditoria | errado: autoridade poderá requerer |
-| recrutamento racial injustificado gera detenção nessa regra | errado: multa e prestação de serviços |
-| Estatuto fixa percentual geral de cotas | errado |
-| medidas do Estatuto excluem outras medidas favoráveis | errado: artigo 58 preserva outras |
+1. **A questão descreve discriminação ou desigualdade?** Discriminação é a conduta diferenciadora que restringe direitos; desigualdade racial é a situação injustificada de acesso ou fruição desigual.
+2. **O tratamento diferente é arbitrário ou corretivo?** A igualdade material admite diferenciações justificadas voltadas à remoção de desigualdades; ação afirmativa não é sinônimo de privilégio nem de cota.
+3. **Qual verbo a lei usa?** Há deveres e faculdades diferentes: o poder público **adotará** programas afirmativos na educação, órgãos de pesquisa **poderão** criar incentivos, o ensino da capoeira é **facultado** e o Executivo federal **poderá** adotar critérios para <abbr title="postos de direção, chefia ou assessoramento de livre nomeação nos casos legais">cargos em comissão</abbr> e <abbr title="atribuições de direção, chefia ou assessoramento exercidas por servidores efetivos">funções de confiança</abbr>.
+4. **A questão cobra um direito ou sua implementação?** Saúde, educação, religião, terra, moradia, trabalho, comunicação e acesso à Justiça são o mapa substantivo deste capítulo; a engrenagem institucional é aprofundada no Assunto 102.
 
-## 19. Método de resolução
-
-1. Identifique se a questão cobra definição, direito ou mecanismo institucional.
-2. Nas definições, procure palavras literais: **injustificada**, **pública ou privada**, **pretas e pardas**, **Estado e iniciativa privada**.
-3. Em igualdade, diferencie tratamento arbitrário de medida corretiva proporcional.
-4. Observe o verbo: deverá, adotará, poderá, incentivará ou é facultado.
-5. Em educação, memorize nível e natureza: fundamental e médio; público e privado.
-6. Em capoeira, separe patrimônio, desporto, modalidades e ensino facultativo.
-7. Em religião, diferencie direito, assistência e combate institucional à intolerância.
-8. Em quilombos, procure ocupação, propriedade definitiva e titulação estatal.
-9. Em moradia, some unidade, infraestrutura, equipamentos e assistência.
-10. Em trabalho, diferencie setor público, incentivo privado, gênero e autoclassificação.
-11. Em comunicação, verifique exceções para especificidade étnica e faculdade de auditoria.
-12. Em jurisprudência, não transforme percentual de lei específica em regra geral do Estatuto.
-13. Se a questão perguntar por sistema, órgão, orçamento ou monitoramento, antecipe que o núcleo pertence ao Assunto 102.
+Se essas quatro decisões estiverem claras, a literalidade dos artigos deixa de ser uma coleção solta de frases e passa a caber no mesmo modelo mental: **identificar a desigualdade, justificar a correção, reconhecer o direito e distinguir o mecanismo que o executa**.
