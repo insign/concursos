@@ -8,25 +8,41 @@ storageId: "l100-acessibilidade-prioridade"
 
 # Normas gerais de acessibilidade e prioridade de atendimento
 
-## 1. Recorte, objetivo e corte temporal
+## 1. Duas perguntas diferentes diante da mesma barreira
 
-Este assunto estuda sistematicamente:
+Imagine duas situações no mesmo serviço público. Uma pessoa chega ao balcão e precisa saber **quando será atendida** em relação às demais. Outra consegue chegar ao prédio, mas encontra degrau, circulação inadequada ou informação que não consegue compreender.
 
-- a **Lei nº 10.048/2000**, sobre prioridade de atendimento;
-- a **Lei nº 10.098/2000**, sobre normas gerais e critérios básicos de acessibilidade.
+As duas leis respondem a perguntas diferentes:
 
-Para fins de prova, podem ser avaliadas alterações legislativas que entraram em vigor até a data de publicação do edital, **6 de julho de 2026**. Este material foi conferido em **15 de agosto de 2026**; a conferência posterior serve ao controle editorial e não amplia o corte do edital.
+- **Lei nº 10.048/2000:** quem deve ser atendido antes e como a prioridade funciona;
+- **Lei nº 10.098/2000:** quais barreiras devem ser removidas para permitir acesso e uso com segurança e autonomia.
 
-Os Assuntos 098 e 099 já estudaram a Lei Brasileira de Inclusão (LBI). Regras que a LBI incorporou diretamente às Leis nº 10.048/2000 e nº 10.098/2000 integram este assunto porque hoje fazem parte dos textos consolidados dessas duas normas.
+> **Mapa mental:** prioridade organiza a ordem do atendimento; acessibilidade organiza as condições de participação e uso.
 
-## 2. Lei nº 10.048/2000: prioridade de atendimento
+### 1.1 Corte do edital e atualização posterior
 
-### 2.1 Rol atual de beneficiários
+O Edital nº 1, de **6 de julho de 2026**, permite avaliar alterações legislativas que tenham entrado em vigor até sua publicação, mesmo fora da lista expressa de objetos. Para jurisprudência dos tribunais superiores, admite decisões publicadas até **30 dias antes da prova**. São cortes distintos.
 
-Após a Lei nº 14.626/2023, têm atendimento prioritário:
+Assim, entram as alterações legislativas vigentes em **6 de julho de 2026**, inclusive a Lei nº 15.249/2025. Conferência editorial: **7 de setembro de 2026**.
+
+**Depois do corte**, a Lei nº 15.492, de 2 de setembro de 2026, passou a considerar a pessoa com síndrome de Tourette pessoa com deficiência quando os sintomas comprometerem significativamente funcionalidade e participação social conforme <abbr title="avaliação que considera impedimentos e sua interação com fatores pessoais, ambientais e sociais">avaliação biopsicossocial</abbr>. A lei também permite o cordão de girassóis para identificar a prioridade nessa situação nos estabelecimentos referidos na Lei nº 10.048/2000. É direito vigente, mas **não integra o corte legislativo deste edital** nem alterou o rol textual do artigo 1º.
+
+Os Assuntos 098 e 099 desenvolvem a Lei nº 13.146/2015, a <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>. Aqui ela aparece apenas nas interfaces necessárias com as duas leis estudadas.
+
+## 2. Prioridade: primeiro descubra quem entra, depois como a fila funciona
+
+A Lei nº 10.048/2000 pode ser resolvida em três passos:
+
+1. verificar se a pessoa está no **rol geral de prioridade**;
+2. verificar se existe uma regra especial para aquele beneficiário ou situação;
+3. aplicar a forma de atendimento prevista para o serviço.
+
+### 2.1 O rol geral vigente no corte
+
+Têm atendimento prioritário:
 
 1. pessoas com deficiência;
-2. pessoas com transtorno do espectro autista (TEA);
+2. pessoas com <abbr title="transtorno do espectro autista">TEA</abbr>;
 3. pessoas idosas com idade igual ou superior a **60 anos**;
 4. gestantes;
 5. lactantes;
@@ -35,140 +51,126 @@ Após a Lei nº 14.626/2023, têm atendimento prioritário:
 8. pessoas com mobilidade reduzida;
 9. doadores de sangue.
 
-Não use o rol histórico de 2000. A idade já foi de 65 anos, e obesos, pessoas com TEA, com mobilidade reduzida e doadores foram incluídos em momentos posteriores.
+A idade já foi de 65 anos; a Lei nº 10.741/2003 a reduziu para 60. Pessoas obesas ingressaram pela <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>, e a Lei nº 14.626/2023 acrescentou, entre outros, pessoas com <abbr title="transtorno do espectro autista">TEA</abbr>, mobilidade reduzida e doadores de sangue. O rol geral não se repete idêntico em toda a lei.
 
-### 2.2 Acompanhante ou atendente pessoal
+### 2.2 Acompanhante: prioridade ligada ao titular
 
-A Lei nº 14.364/2022 garantiu atendimento ao acompanhante ou atendente pessoal. A redação atual determina que ele seja atendido:
+O acompanhante ou atendente pessoal das pessoas do rol é atendido **junto e acessoriamente** ao titular.
 
-- **junto** ao titular da prioridade; e
-- **acessoriamente** a esse titular.
+**Acessoriamente** é a palavra-chave: o acompanhante não ganha prioridade autônoma para assunto exclusivamente próprio.
 
-Não há prioridade autônoma para acompanhante sozinho, em assunto exclusivamente próprio. O atendimento acompanha a necessidade do titular.
+### 2.3 Doador de sangue: está no rol, mas é o último entre os prioritários
 
-### 2.3 Doador de sangue
+O doador de sangue apresenta comprovante válido por **120 dias** e é atendido **depois de todos os demais beneficiários prioritários**, mas antes de quem não tem prioridade. Estar no rol, portanto, não significa ocupar a mesma posição dos demais integrantes.
 
-O doador integra o rol, mas possui posição especial:
+### 2.4 Como a fila opera
 
-- é atendido **depois de todos os demais beneficiários prioritários**;
-- permanece antes das pessoas sem prioridade;
-- deve apresentar comprovante de doação;
-- o comprovante vale por **120 dias**.
+A prioridade pode ser organizada por postos, caixas, guichês, linhas ou atendentes específicos. Sem estrutura própria:
 
-### 2.4 Organização da fila
+> atendimento já iniciado → pessoa prioritária → demais pessoas.
 
-O atendimento pode usar postos, caixas, guichês, linhas ou atendentes específicos.
+A prioridade **não interrompe** o atendimento em andamento. Entre um doador de sangue e outro beneficiário prioritário, o doador fica depois.
 
-Se não houver estrutura específica, a pessoa prioritária deve ser atendida:
+O Decreto nº 5.296/2004 acrescenta uma distinção importante para serviços de saúde: em **serviços de emergência**, a prioridade fica condicionada à avaliação médica da gravidade. Não transforme essa regra regulamentar sobre emergência em alteração do rol legal.
 
-1. imediatamente após a conclusão do atendimento em andamento;
-2. antes de quaisquer outras pessoas.
+## 3. Onde a prioridade é exigida — e onde o rol muda
 
-A prioridade não interrompe atendimento já iniciado. Entre os prioritários, o doador conserva a posição posterior aos demais grupos.
+### 3.1 Repartições, concessionárias e instituições financeiras
 
-### 2.5 Quem deve prestar atendimento prioritário
+Repartições públicas e concessionárias de serviços públicos devem assegurar tratamento diferenciado e atendimento imediato. Todas as instituições financeiras também devem garantir a prioridade do artigo 1º.
 
-Repartições públicas e empresas concessionárias de serviços públicos devem oferecer serviços individualizados que assegurem:
+Para a prova, retenha a estrutura: **repartição pública + concessionária + instituição financeira**.
 
-- tratamento diferenciado;
-- atendimento imediato.
+### 3.2 Assentos reservados no transporte coletivo
 
-Todas as instituições financeiras devem assegurar a prioridade às pessoas do artigo 1º.
-
-O Decreto nº 5.296/2004 regulamenta as duas leis. Ele detalha o tratamento diferenciado e condiciona a prioridade em emergência de saúde à avaliação médica da gravidade. Não confunda essa regra regulamentar com a literalidade do artigo 1º.
-
-### 2.6 Assentos no transporte coletivo
-
-Empresas públicas de transporte e concessionárias de transporte coletivo devem reservar assentos identificados para:
+Para assentos identificados, a Lei nº 10.048/2000 traz um rol próprio. Empresas públicas de transporte e concessionárias de transporte coletivo reservam assentos para:
 
 - pessoas com deficiência;
-- pessoas com TEA;
+- pessoas com <abbr title="transtorno do espectro autista">TEA</abbr>;
 - pessoas idosas;
 - gestantes;
 - lactantes;
 - pessoas com criança de colo;
 - pessoas com mobilidade reduzida.
 
-O rol específico de assentos **não inclui** obesos nem doadores de sangue, embora ambos estejam no rol geral de atendimento prioritário.
+Compare os dois conjuntos:
 
-### 2.7 Logradouros, sanitários e edifícios públicos
+| Beneficiário | Prioridade geral | Assento reservado pelo artigo 3º |
+|---|:---:|:---:|
+| pessoa obesa | sim | **não** |
+| doador de sangue | sim | **não** |
+| demais grupos acima | sim | sim |
 
-A autoridade competente deve editar normas de construção, para fins de licenciamento, destinadas a facilitar acesso e uso por pessoas com deficiência em:
+Essa diferença é uma das melhores formas de a banca trocar uma regra verdadeira por outra falsa.
 
-- logradouros públicos;
-- sanitários públicos;
-- edifícios de uso público.
+### 3.3 Licenciamento e veículos de transporte coletivo
 
-Este artigo é mais restrito que o regime urbanístico completo da Lei nº 10.098/2000.
+A Lei nº 10.048/2000 também contém comandos de acessibilidade anteriores ao regime mais amplo da Lei nº 10.098/2000.
 
-### 2.8 Veículos de transporte coletivo
+Para licenciamento, a autoridade competente deve editar normas de construção que facilitem acesso e uso de **logradouros públicos, sanitários públicos e edifícios de uso público** por pessoas com deficiência.
 
-Veículos produzidos após doze meses da publicação da lei deveriam ser planejados para facilitar o acesso de pessoas com deficiência.
+Nos veículos de transporte coletivo, a lei estabeleceu regras históricas de transição:
 
-O § 1º do artigo 5º foi **vetado**.
+- veículos produzidos após **12 meses** da publicação da lei deveriam ser planejados para facilitar o acesso de pessoas com deficiência;
+- o § 1º do artigo 5º foi **vetado**;
+- proprietários de veículos que já estavam em utilização receberam **180 dias contados da regulamentação** para as adaptações necessárias.
 
-Para os veículos que já estavam em uso, os proprietários receberam prazo de **180 dias a contar da regulamentação** para realizar as adaptações necessárias.
+Esses prazos não devem ser confundidos com a regra atual do artigo 16 da Lei nº 10.098/2000, que remete os veículos de transporte coletivo às normas técnicas específicas de acessibilidade.
 
-### 2.9 Sanções
+## 4. Sanções da Lei nº 10.048/2000: identifique primeiro o responsável
 
-A infração sujeita:
+A lei não aplica a mesma consequência a todos.
 
-| Responsável | Sanção ou remissão textual |
+| Responsável | Consequência prevista no texto |
 |---|---|
-| servidor ou chefia de repartição | penalidades da legislação específica |
-| concessionária de serviço público | multa de R$ 500,00 a R$ 2.500,00 por veículo sem as condições dos arts. 3º e 5º |
-| instituição financeira | o art. 6º, III, ainda remete aos incisos I a III do art. 44 da Lei nº 4.595/1964 |
+| servidor ou chefia responsável pela repartição | penalidades da legislação específica |
+| concessionária de serviço público | multa de **R$ 500,00 a R$ 2.500,00 por veículo** sem as condições dos artigos 3º e 5º |
+| instituição financeira | o artigo 6º, III, remete aos incisos I a III do artigo 44 da Lei nº 4.595/1964 |
 
-Em reincidência, as penalidades de que trata o artigo 6º são elevadas ao **dobro**.
+Em caso de reincidência, as penalidades do artigo 6º são elevadas ao **dobro**.
 
-A multa de concessionária não é multa genérica por qualquer falha: o texto a liga ao veículo sem as condições dos artigos 3º e 5º.
+A terceira linha exige cuidado. A Lei nº 10.048/2000 ainda contém a remissão — isto é, ainda aponta textualmente — para o artigo 44 da Lei nº 4.595/1964. Porém, a Lei nº 13.506/2017 revogou integralmente esse artigo 44. Logo:
 
-**Atenção à remissão das instituições financeiras:** a redação da Lei nº 10.048/2000 continua apontando para os incisos I a III do artigo 44 da Lei nº 4.595/1964. Contudo, o **artigo 71, IV, da Lei nº 13.506/2017 revogou integralmente o artigo 44 da Lei nº 4.595/1964**. Em questão de literalidade, reconheça a remissão ainda existente; em questão sobre direito vigente, não trate os incisos revogados como sanções atualmente vigentes nem invente, sem outra base normativa, um regime substituto.
+- em questão sobre **literalidade da Lei nº 10.048/2000**, reconheça a remissão que continua escrita;
+- em questão sobre **direito vigente**, não trate os incisos revogados como sanções atualmente vigentes;
+- não invente um regime substitutivo sem base normativa indicada.
 
-### 2.10 Regulamentação e vigência
+A Lei nº 10.048/2000 entrou em vigor na data de sua publicação e deu ao Poder Executivo **60 dias** para regulamentá-la.
 
-O Poder Executivo recebeu prazo de **60 dias** para regulamentar a lei. A Lei nº 10.048/2000 entrou em vigor na data de sua publicação.
+## 5. Acessibilidade: da barreira à possibilidade de usar
 
-## 3. Lei nº 10.098/2000: objeto e definições
+A Lei nº 10.098/2000 pergunta o que impede uma pessoa de **chegar, circular, perceber, compreender, comunicar-se e usar** um espaço ou serviço. Seu objeto é promover acessibilidade pela supressão de barreiras em vias e espaços públicos, mobiliário urbano, edifícios, transporte e comunicação.
 
-### 3.1 Objeto
+Uma rampa, sozinha, não resolve uma barreira de circulação, informação ou comunicação.
 
-A lei promove acessibilidade mediante supressão de barreiras e obstáculos:
+### 5.1 Quatro ideias para organizar as definições
 
-- nas vias e espaços públicos;
-- no mobiliário urbano;
-- na construção e reforma de edifícios;
-- nos meios de transporte;
-- nos meios de comunicação.
+**Acessibilidade** é a possibilidade e condição de alcance e uso, com segurança e autonomia, de espaços, mobiliários, equipamentos, edificações, transportes, informação, comunicação, sistemas, tecnologias, serviços e instalações abertos ao público, de uso público ou privados de uso coletivo, nas zonas urbana e rural, por pessoa com deficiência ou com mobilidade reduzida.
 
-### 3.2 Definições vigentes
+**Barreira** é qualquer entrave, obstáculo, atitude ou comportamento que limite ou impeça participação social ou o exercício de direitos. Portanto, barreira não é necessariamente física.
 
-O artigo 2º contém onze definições.
+A lei enumera quatro classes:
 
-#### Acessibilidade
-
-Possibilidade e condição de alcance e uso, com segurança e autonomia, de espaços, mobiliário, equipamentos, edificações, transportes, informação, comunicação, sistemas, tecnologias, serviços e instalações **abertos ao público, de uso público ou privados de uso coletivo**, tanto na zona urbana como rural, por pessoa com deficiência ou mobilidade reduzida.
-
-#### Barreiras
-
-Entrave, obstáculo, atitude ou comportamento que limite participação social ou exercício de direitos. A lei classifica:
-
-| Classe | Onde ou como se manifesta |
+| Classe | Onde ou como aparece |
 |---|---|
 | urbanística | vias e espaços públicos ou privados abertos ao público ou de uso coletivo |
 | arquitetônica | edifícios públicos e privados |
 | nos transportes | sistemas e meios de transporte |
-| nas comunicações e na informação | dificulta ou impede expressão ou recebimento de mensagens e informações por sistemas de comunicação e tecnologia da informação |
+| nas comunicações e na informação | impede ou dificulta expressão ou recebimento de mensagens e informações por sistemas de comunicação ou tecnologia da informação |
 
-O conceito não se limita a barreira física, embora esta lei enumere quatro classes e não reproduza como classes autônomas as barreiras atitudinais e tecnológicas da LBI.
+A Lei nº 10.098/2000 não reproduz, como classes autônomas dessa enumeração, as categorias “atitudinal” e “tecnológica” usadas pela <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>. Isso não torna o conceito de barreira exclusivamente físico: a própria definição legal inclui atitude e comportamento.
 
-#### Pessoa com deficiência
+**Desenho universal** é a concepção de produtos, ambientes, programas e serviços para uso por todas as pessoas, sem necessidade de adaptação ou projeto específico, incluindo recursos de tecnologia assistiva.
 
-Pessoa com impedimento de longo prazo físico, mental, intelectual ou sensorial que, em interação com barreiras, pode obstruir participação plena e efetiva em igualdade.
+**Tecnologia assistiva ou ajuda técnica** reúne produtos, equipamentos, dispositivos, recursos, metodologias, estratégias, práticas e serviços voltados à funcionalidade, atividade e participação, com autonomia, independência, qualidade de vida e inclusão.
 
-#### Pessoa com mobilidade reduzida
+Em síntese: desenho universal evita a barreira desde a concepção; tecnologia assistiva oferece suporte à funcionalidade e à participação.
 
-Pessoa com dificuldade de movimentação permanente ou temporária, com redução efetiva da mobilidade, flexibilidade, coordenação motora ou percepção. Inclui:
+### 5.2 Quem aparece nas definições
+
+A lei define **pessoa com deficiência** como aquela que possui impedimento de longo prazo de natureza física, mental, intelectual ou sensorial que, em interação com uma ou mais barreiras, pode obstruir sua participação plena e efetiva em igualdade de condições.
+
+Define **pessoa com mobilidade reduzida** de modo mais amplo do que deficiência: é quem, por qualquer motivo, tem dificuldade permanente ou temporária de movimentação, com redução efetiva da mobilidade, flexibilidade, coordenação motora ou percepção. A definição inclui expressamente:
 
 - pessoa idosa;
 - gestante;
@@ -176,319 +178,157 @@ Pessoa com dificuldade de movimentação permanente ou temporária, com reduçã
 - pessoa com criança de colo;
 - pessoa obesa.
 
-#### Acompanhante
+**Acompanhante** é quem acompanha a pessoa com deficiência e pode ou não exercer funções de atendente pessoal.
 
-Quem acompanha a pessoa com deficiência, podendo ou não exercer funções de atendente pessoal.
+A Lei nº 15.249/2025 acrescentou **pessoa com necessidades complexas de comunicação**: quem tem dificuldade significativa para compreender ou expressar mensagens pelas formas convencionais e necessita de recursos alternativos ou aumentativos para interagir, acessar informação e participar da vida cotidiana.
 
-#### Elemento de urbanização
+### 5.3 O que é estrutura e o que é objeto adicionado
 
-Componentes de obras como pavimentação, saneamento, esgoto, energia, gás, iluminação, comunicação, abastecimento de água e paisagismo.
+**Elemento de urbanização** é componente da obra urbana — pavimentação, saneamento, esgoto, energia, gás, iluminação, comunicação, água, paisagismo e outros elementos do planejamento. **Mobiliário urbano** é objeto adicionado sem alteração substancial da estrutura, como semáforo, poste, terminal de telecomunicações, fonte, lixeira, toldo, banco ou quiosque.
 
-#### Mobiliário urbano
+Pense assim: infraestrutura da calçada = urbanização; banco ou semáforo instalado sobre o espaço = mobiliário.
 
-Objetos adicionados às vias, aos espaços públicos, à urbanização ou à edificação sem alterar substancialmente esses elementos, como semáforos, postes, terminais de telecomunicações, fontes, lixeiras, toldos, bancos e quiosques.
+A definição legal de **comunicação** também é ampla e inclui, entre outras formas, <abbr title="Língua Brasileira de Sinais">Libras</abbr>, texto, Braille, comunicação tátil, caracteres ampliados, multimídia, linguagem simples, sistemas auditivos, voz digitalizada e formatos aumentativos e alternativos.
 
-#### Tecnologia assistiva ou ajuda técnica
+## 6. A cidade acessível: percurso, mobiliário, sanitário e vaga
 
-Produtos, equipamentos, dispositivos, recursos, metodologias, estratégias, práticas e serviços voltados à funcionalidade, atividade, participação, autonomia, independência, qualidade de vida e inclusão.
+### 6.1 Planejar o novo e adaptar o existente
 
-#### Comunicação
+Vias, parques e demais espaços públicos devem ser planejados e executados de forma acessível para **todas as pessoas**. O passeio público:
 
-Abrange, entre outras formas, <abbr title="Língua Brasileira de Sinais">Libras</abbr>, texto, Braille, comunicação tátil, caracteres ampliados, multimídia, linguagem simples, sistemas auditivos, voz digitalizada e formatos aumentativos e alternativos.
-
-#### Desenho universal
-
-Concepção de produtos, ambientes, programas e serviços utilizáveis por todas as pessoas, sem adaptação ou projeto específico, incluindo tecnologia assistiva.
-
-#### Pessoa com necessidades complexas de comunicação
-
-Pessoa com dificuldade significativa para compreender ou expressar mensagens pelas formas convencionais e que necessita de recursos e estratégias alternativas ou aumentativas.
-
-A última definição foi incluída pela Lei nº 15.249/2025.
-
-## 4. Elementos da urbanização
-
-### 4.1 Planejamento e passeio público
-
-Vias, parques e demais espaços públicos devem ser planejados e executados de forma acessível para **todas as pessoas**, inclusive aquelas com deficiência ou mobilidade reduzida.
-
-O passeio público:
-
-- é elemento obrigatório da urbanização;
-- integra a via pública;
+- é elemento obrigatório da urbanização e parte da via pública;
 - normalmente é segregado e fica em nível diferente;
-- destina-se somente à circulação de pedestres;
-- pode receber mobiliário e vegetação quando possível.
+- destina-se **somente à circulação de pedestres**;
+- pode receber mobiliário urbano e vegetação, quando possível.
 
-### 4.2 Espaços existentes e brinquedos
+Espaços já existentes devem ser adaptados segundo prioridade que maximize a **eficiência das modificações** e a acessibilidade.
 
-Vias, parques, espaços públicos, instalações e mobiliário existentes devem ser adaptados segundo ordem de prioridade voltada à maior eficiência e à acessibilidade mais ampla.
+Nos locais alcançados pelo artigo 4º, no mínimo **5% de cada brinquedo e equipamento de lazer** devem ser adaptados e identificados, tanto quanto tecnicamente possível, para pessoas com deficiência, inclusive visual, ou com mobilidade reduzida. A literalidade não diz “5% do total de brinquedos”.
 
-No mínimo **5% de cada brinquedo e equipamento de lazer** devem ser adaptados e identificados, tanto quanto tecnicamente possível, para pessoas:
+Projetos e traçados de elementos de urbanização públicos ou privados de uso comunitário — como itinerários e passagens de pedestres, entradas e saídas de veículos, escadas e rampas — devem observar as normas técnicas de acessibilidade da <abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr>.
 
-- com deficiência, inclusive visual;
-- com mobilidade reduzida.
+### 6.2 Sanitários e banheiros químicos
 
-Não é 5% do conjunto total do parque; a redação fala em 5% **de cada brinquedo e equipamento**.
+Banheiros de uso público em parques, praças, jardins e espaços livres públicos devem ter pelo menos **um sanitário e um lavatório acessíveis**.
 
-### 4.3 Normas técnicas
+Em evento público ou privado com banheiros químicos, as unidades acessíveis correspondem a **10% do total**, garantida pelo menos **uma** quando o percentual resultar em fração inferior a um.
 
-Projetos e traçados dos elementos de urbanização públicos ou privados de uso comunitário devem observar normas técnicas da <abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr>.
+### 6.3 Estacionamento em vias e espaços públicos
 
-O comando alcança:
+Em vias e espaços públicos, devem ser reservadas vagas próximas aos acessos de pedestres, sinalizadas, para veículos que transportem pessoa com deficiência com dificuldade de locomoção: **2% do total, mínimo uma vaga**. Não confunda com os banheiros químicos: **10%**.
 
-- itinerários e passagens de pedestres;
-- entradas e saídas de veículos;
-- escadas;
-- rampas.
+### 6.4 Mobiliário e semáforos
 
-### 4.4 Sanitários e banheiros químicos
+Sinais de tráfego, semáforos, postes e outros elementos verticais instalados em itinerário ou espaço de acesso para pedestres não podem dificultar ou impedir a circulação e devem permitir uso com a máxima comodidade.
 
-Banheiros públicos em parques, praças, jardins e espaços livres devem possuir, pelo menos:
+Para semáforos de pedestres, separe duas regras:
 
-- um sanitário acessível;
-- um lavatório acessível.
+1. **regra condicionada:** se a intensidade do fluxo de veículos e a periculosidade da via assim determinarem, deve haver sinal sonoro suave, intermitente e sem estridência **ou mecanismo alternativo**, destinado a guiar ou orientar a travessia da pessoa com deficiência visual;
+2. **regra obrigatória:** em vias públicas de grande circulação ou que deem acesso a serviços de reabilitação, deve haver mecanismo que emita sinal sonoro suave para orientação do pedestre.
 
-Eventos públicos ou privados com banheiros químicos devem oferecer unidades acessíveis:
+A lei não condiciona essas regras a pedido do interessado.
 
-- no mínimo **10%** do total;
-- garantida pelo menos **uma unidade** se o cálculo resultar em fração inferior a um.
+Mobiliário urbano deve ser projetado e instalado de modo utilizável por pessoa com deficiência ou mobilidade reduzida. Se sua instalação em área de circulação comum oferecer risco de acidente à pessoa com deficiência, deve haver **sinalização tátil de alerta no piso**.
 
-### 4.5 Estacionamento
+## 7. Edificações: não basta conseguir entrar
 
-Em vias e espaços públicos, as vagas reservadas devem:
+Em edifício de uso coletivo, a cadeia é: chegar → entrar → circular → usar instalações essenciais.
 
-- ficar próximas aos acessos de circulação de pedestres;
-- ser sinalizadas;
-- destinar-se a veículos que transportem pessoa com deficiência com dificuldade de locomoção;
-- equivaler a **2%** do total;
-- garantir, no mínimo, **uma vaga**.
+### 7.1 Edifícios públicos ou privados de uso coletivo
 
-## 5. Mobiliário urbano e semáforos
+Construção, ampliação ou reforma deve observar, pelo menos, quatro requisitos:
 
-### 5.1 Elementos verticais
+1. vagas sinalizadas próximas aos acessos para veículos que transportem pessoa com deficiência com dificuldade permanente de locomoção;
+2. pelo menos **um acesso ao interior** livre de barreiras;
+3. pelo menos **um itinerário horizontal e vertical acessível** ligando dependências, serviços e exterior;
+4. pelo menos **um banheiro acessível**.
 
-Sinais de tráfego, semáforos, postes e outros elementos verticais em itinerário de pedestre devem ser instalados sem dificultar ou impedir circulação e com máxima comodidade de uso.
+Só “entrada acessível” não satisfaz a cadeia.
 
-### 5.2 Semáforo sonoro
+Locais de espetáculos, conferências, aulas e semelhantes devem oferecer espaços para pessoas que utilizam cadeira de rodas, lugares específicos para pessoas com deficiência auditiva e visual, inclusive acompanhante, e condições de acesso, circulação e comunicação de acordo com a <abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr>.
 
-Regra geral: o semáforo de pedestre deve possuir sinal sonoro suave, intermitente e sem estridência, ou mecanismo alternativo, **se** a intensidade do fluxo e a periculosidade da via assim determinarem.
+Centros comerciais e estabelecimentos congêneres devem fornecer carros e cadeiras de rodas, motorizados ou não, para atendimento de pessoas com deficiência ou mobilidade reduzida.
 
-Regra obrigatória: em vias de grande circulação ou que deem acesso a serviços de reabilitação, o mecanismo sonoro suave é obrigatório.
+### 7.2 Edifícios privados
 
-A finalidade legal do sinal ou mecanismo alternativo é servir de guia ou orientação para a travessia da pessoa com deficiência visual.
+Quando a instalação de elevador é obrigatória, o edifício privado deve possuir:
 
-A lei não condiciona o mecanismo a solicitação do interessado.
+- percurso acessível entre unidades habitacionais, exterior e dependências de uso comum;
+- percurso acessível entre a edificação, a via pública, serviços anexos de uso comum e edifícios vizinhos;
+- cabine do elevador e respectiva porta acessíveis.
 
-### 5.3 Uso e sinalização tátil
+Quando o edifício **a ser construído** tiver mais de um pavimento além do pavimento de acesso e não for obrigado a instalar elevador, o projeto deve facilitar a futura instalação de elevador adaptado. A exceção são as **habitações unifamiliares**; os demais elementos de uso comum continuam sujeitos aos requisitos de acessibilidade.
 
-Mobiliário deve ser projetado e instalado de modo utilizável por pessoa com deficiência ou mobilidade reduzida.
+Na política habitacional, cabe ao órgão federal coordenador regulamentar percentual mínimo de habitações destinado à demanda de pessoas com deficiência ou mobilidade reduzida conforme as características da população local. A Lei nº 10.098/2000 não fixa, nesse artigo, um percentual numérico.
 
-Se o mobiliário em área comum de circulação oferecer risco de acidente, deve haver sinalização tátil de alerta no piso.
+## 8. Transporte, comunicação e ajudas técnicas: acessibilidade acompanha o serviço
 
-## 6. Edifícios públicos ou de uso coletivo
+### 8.1 Transporte coletivo
 
-Construção, ampliação ou reforma de edifício público ou privado de uso coletivo deve assegurar acessibilidade.
+Os veículos de transporte coletivo devem cumprir os requisitos de acessibilidade estabelecidos em normas técnicas específicas.
 
-Requisitos mínimos:
+No <abbr title="Recurso Especial">REsp</abbr> 1.292.875/<abbr title="Paraná">PR</abbr>, o <abbr title="Superior Tribunal de Justiça">STJ</abbr> entendeu que essa remissão já disciplinava suficientemente a adaptação; o dever não ficou dependente, exclusivamente, da regulamentação posterior da Lei nº 10.048/2000.
 
-1. vagas sinalizadas próximas aos acessos, para veículos que transportem pessoa com deficiência com dificuldade permanente de locomoção;
-2. pelo menos um acesso ao interior livre de barreiras;
-3. pelo menos um itinerário horizontal e vertical acessível entre dependências, serviços e exterior;
-4. pelo menos um banheiro acessível.
+### 8.2 Comunicação: remover barreiras de compreensão e expressão
 
-### 6.1 Espetáculos, conferências e aulas
+O poder público deve eliminar barreiras de comunicação para pessoas com deficiência sensorial e com necessidades complexas de comunicação, garantindo acesso à informação, comunicação, trabalho, educação, transporte, cultura, esporte e lazer.
 
-Devem existir:
+A Lei nº 15.249/2025 determinou que essas ações incluam, em espaços públicos e abertos ao público, sistemas de **comunicação aumentativa e alternativa** (<abbr title="comunicação aumentativa e alternativa">CAA</abbr>) compostos de pranchas de baixa tecnologia com pictogramas, adequadas às necessidades comunicativas específicas de cada contexto.
 
-- espaços para pessoas em cadeira de rodas;
-- lugares específicos para pessoas com deficiência auditiva e visual;
-- acomodação de acompanhante;
-- acesso, circulação e comunicação conforme ABNT.
+A ressalva orçamentária exige precisão: o artigo 4º da própria Lei nº 15.249/2025 determina que a implantação das medidas nela previstas observe a disponibilidade financeira e orçamentária do ente federado. Essa ressalva **não integra o texto do artigo 17 da Lei nº 10.098/2000**.
 
-### 6.2 Centros comerciais
+O poder público deve formar intérpretes de escrita em Braille, língua de sinais e guias-intérpretes. Serviços de radiodifusão devem adotar medidas técnicas para língua de sinais ou outra subtitulação, conforme regulamento.
 
-Centros comerciais e estabelecimentos congêneres devem fornecer carros e cadeiras de rodas, motorizados ou não, para pessoas com deficiência ou mobilidade reduzida.
+### 8.3 Ajudas técnicas e produção de conhecimento
 
-## 7. Edifícios privados
+O poder público deve promover a supressão de barreiras urbanísticas, arquitetônicas, de transporte e de comunicação mediante ajudas técnicas.
 
-### 7.1 Elevador obrigatório
+Organismos de apoio à pesquisa e agências de financiamento devem fomentar programas voltados a:
 
-Edifícios privados com elevador obrigatório devem possuir:
-
-- percurso acessível entre unidades habitacionais, exterior e dependências comuns;
-- percurso acessível até a via pública, serviços anexos e edifícios vizinhos;
-- cabine e porta do elevador acessíveis.
-
-### 7.2 Futura instalação
-
-Edifícios **a serem construídos** com mais de um pavimento além do acesso, que não sejam obrigados a instalar elevador, devem possuir especificações técnicas e de projeto que facilitem a futura instalação de elevador adaptado.
-
-A exceção são as habitações unifamiliares. Os demais elementos de uso comum continuam sujeitos à acessibilidade.
-
-### 7.3 Política habitacional
-
-O órgão federal coordenador da política habitacional deve regulamentar percentual mínimo de habitações para atender a demanda local de pessoas com deficiência ou mobilidade reduzida.
-
-## 8. Transporte coletivo
-
-Veículos de transporte coletivo devem cumprir os requisitos das normas técnicas específicas de acessibilidade.
-
-O Decreto nº 5.296/2004 trata o serviço como conjunto de veículos, terminais, estações, pontos, acessos, vias e operação. O decreto auxilia a aplicação, mas não pode restringir as definições legais posteriores.
-
-## 9. Comunicação e sinalização
-
-### 9.1 Comunicação aumentativa e alternativa
-
-O poder público deve eliminar barreiras e estabelecer mecanismos acessíveis para pessoas:
-
-- com deficiência sensorial;
-- com necessidades complexas de comunicação.
-
-Os direitos protegidos incluem informação, comunicação, trabalho, educação, transporte, cultura, esporte e lazer.
-
-Após a Lei nº 15.249/2025, as ações devem incluir, em espaços públicos e abertos ao público:
-
-- comunicação aumentativa e alternativa;
-- pranchas de baixa tecnologia;
-- pictogramas;
-- conteúdo adequado às necessidades comunicativas do contexto.
-
-A disponibilidade financeira e orçamentária do ente federado decorre do **artigo 4º da Lei nº 15.249/2025**, que alcança a implantação das medidas previstas nessa lei; essa ressalva não integra o texto do artigo 17 da Lei nº 10.098/2000.
-
-### 9.2 Profissionais de comunicação
-
-O poder público deve implementar formação de profissionais intérpretes de escrita em Braille, língua de sinais e guias-intérpretes para facilitar a comunicação direta.
-
-### 9.3 Radiodifusão
-
-Serviços de radiodifusão sonora e de sons e imagens devem adotar plano de medidas técnicas para uso de língua de sinais ou outra subtitulação, conforme regulamento.
-
-## 10. Ajudas técnicas
-
-O poder público promoverá supressão de barreiras urbanísticas, arquitetônicas, de transporte e comunicação mediante ajudas técnicas.
-
-Organismos de apoio à pesquisa e agências de financiamento devem fomentar programas de:
-
-1. pesquisa sobre tratamento e prevenção de deficiências;
+1. pesquisa científica sobre tratamento e prevenção de deficiências;
 2. desenvolvimento tecnológico de ajudas técnicas;
 3. especialização de recursos humanos em acessibilidade.
 
-### 10.1 Kit acessível para cartão
+### 8.4 Kit acessível para cartão
 
-Pessoa com deficiência visual pode solicitar, sem custo adicional, kit contendo no mínimo:
+Pessoa com deficiência visual pode **solicitar**, sem custo adicional, kit que contenha no mínimo:
 
-- etiqueta transparente em Braille, com tipo e seis dígitos finais do cartão;
+- etiqueta transparente em Braille com o tipo e os **seis dígitos finais** do cartão;
 - identificação do tipo de cartão pelo primeiro dígito da esquerda para a direita;
-- fita adesiva;
-- porta-cartão com número completo, tipo, bandeira, emissor, validade, código de segurança e nome do titular em Braille.
+- fita adesiva para fixar a etiqueta;
+- porta-cartão com, em Braille, número completo, tipo, bandeira, emissor, validade, código de segurança e nome do titular.
 
-O porta-cartão deve comportar as informações e ser conveniente ao transporte.
+O porta-cartão deve comportar essas informações e ser conveniente ao transporte. Duas palavras resolvem boa parte das questões: **solicitado** e **gratuito**.
 
-## 11. Fomento, orçamento e disposições finais
+## 9. Fomento, patrimônio cultural e acompanhamento social
 
-### 11.1 Programa Nacional de Acessibilidade
+A Lei nº 10.098/2000 também cria instrumentos permanentes:
 
-A lei instituiu o Programa Nacional de Acessibilidade, com dotação orçamentária específica e execução regulamentar.
+- **Programa Nacional de Acessibilidade**, com recursos orçamentários específicos e execução regulamentada;
+- dotação **anual** da Administração Pública federal direta e indireta para eliminar barreiras arquitetônicas em edifícios **de uso público** próprios ou sob sua administração ou uso;
+- campanhas informativas e educativas;
+- aplicação aos bens de interesse cultural ou histórico-artístico, respeitadas as normas específicas de proteção;
+- legitimidade das organizações representativas de pessoas com deficiência para **acompanhar o cumprimento** dos requisitos.
 
-### 11.2 Dotação federal anual
+A proteção cultural não gera dispensa automática. E “acompanhar o cumprimento” não significa, por si só, substituição processual irrestrita.
 
-A Administração Pública federal direta e indireta deve destinar anualmente dotação para adaptar e eliminar barreiras arquitetônicas em edifícios **de uso público** de sua propriedade ou sob sua administração ou uso.
+A Lei nº 10.098/2000 entrou em vigor na data de sua publicação e **não contém uma tabela geral própria de multas**. Sanções administrativas, civis ou penais podem decorrer de outras normas aplicáveis.
 
-### 11.3 Campanhas
+No <abbr title="Recurso Especial">REsp</abbr> 2.041.463/<abbr title="Rio de Janeiro">RJ</abbr>, o <abbr title="Superior Tribunal de Justiça">STJ</abbr> reafirmou que estabelecimento de uso coletivo já existente não fica automaticamente dispensado do dever de acessibilidade pelo simples fato de não ter realizado reforma após a Lei nº 10.098/2000. A mensagem conjunta dos precedentes é útil: demora regulamentar ou antiguidade da edificação, isoladamente, não apagam o dever jurídico de acessibilidade.
 
-O poder público deve promover campanhas informativas e educativas para conscientização e sensibilização sobre acessibilidade e integração social.
+## 10. Como as duas leis se encaixam sem se confundirem
 
-### 11.4 Bens culturais
+O mesmo ambiente pode exigir as duas leis. **Exemplo hipotético:** em uma instituição financeira, a pessoa idosa tem prioridade na fila; se não consegue alcançar ou compreender o serviço por causa de uma barreira, surge também o dever de acessibilidade. Uma lei não substitui a outra.
 
-A lei aplica-se a edifícios e imóveis de interesse cultural ou valor histórico-artístico, desde que as modificações respeitem as normas específicas desses bens.
+Os Assuntos 098 e 099 tratam da <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> como diploma próprio. Não importe automaticamente para estas duas leis regra que exista apenas na <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>.
 
-O tombamento não cria dispensa automática.
+Padrões técnicos digitais como <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> e <abbr title="Modelo de Acessibilidade em Governo Eletrônico">eMAG</abbr> ficam no Assunto 035. Governança, diagnóstico, indicadores e contratação de acessibilidade na gestão pública ficam no Assunto 114.
 
-### 11.5 Acompanhamento social
+## 11. Roteiro de prova: seis decisões que eliminam a maioria das pegadinhas
 
-Organizações representativas de pessoas com deficiência têm legitimidade para acompanhar o cumprimento dos requisitos de acessibilidade.
-
-Esse acompanhamento não deve ser convertido, sem outra base legal, em substituição processual irrestrita.
-
-### 11.6 Sanções
-
-A Lei nº 10.098/2000 não contém tabela geral própria de multas. Sanções administrativas, civis ou penais podem decorrer de outras normas aplicáveis.
-
-### 11.7 Vigência
-
-A Lei nº 10.098/2000 entrou em vigor na data de sua publicação.
-
-## 12. Alterações relevantes no corte
-
-| Norma | Impacto |
-|---|---|
-| Lei nº 10.741/2003 (Estatuto da Pessoa Idosa) | reduziu de 65 para 60 anos a idade da pessoa idosa no rol prioritário |
-| Lei nº 11.982/2009 | adaptação de brinquedos e equipamentos de lazer |
-| Lei nº 13.146/2015 | incluiu pessoas obesas na prioridade e atualizou definições e dispositivos de acessibilidade |
-| Lei nº 13.443/2017 | redação atual dos 5% de cada brinquedo, inclusive deficiência visual |
-| Lei nº 13.506/2017 | revogou o art. 44 da Lei nº 4.595/1964, ainda referido pelo art. 6º, III, da Lei nº 10.048/2000 |
-| Lei nº 13.825/2019 | banheiros químicos acessíveis em eventos |
-| Lei nº 13.835/2019 | kit acessível para cartão |
-| Lei nº 14.364/2022 | atendimento conjunto e acessório do acompanhante/atendente |
-| Lei nº 14.626/2023 | TEA, mobilidade reduzida, doador, ordem e assentos |
-| Lei nº 15.249/2025 | necessidades complexas de comunicação e CAA de baixa tecnologia |
-
-Todas as alterações e a revogação indicada estavam vigentes na publicação do edital.
-
-## 13. Jurisprudência essencial
-
-No REsp 1.292.875/PR, o <abbr title="Superior Tribunal de Justiça">STJ</abbr> reconheceu que a exigibilidade da adaptação do transporte coletivo não dependia exclusivamente do regulamento da Lei nº 10.048/2000: a Lei nº 10.098/2000 e normas técnicas já sustentavam o dever.
-
-No REsp 2.041.463/RJ, o STJ reafirmou o dever de acessibilidade em estabelecimento de uso coletivo, sem aceitar como dispensa automática o fato de não ter ocorrido reforma posterior à Lei nº 10.098/2000.
-
-Regra de prova: demora regulamentar ou antiguidade do edifício não eliminam, por si sós, a obrigação legal de acessibilidade.
-
-## 14. Fronteiras
-
-Ficam nos Assuntos 098 e 099:
-
-- capacidade, direitos e prioridade da própria LBI;
-- acessibilidade operacional, crimes e Cadastro-Inclusão da LBI.
-
-Este assunto estuda as regras que pertencem aos textos das Leis nº 10.048/2000 e nº 10.098/2000, ainda que tenham sido inseridas pela LBI.
-
-Padrões técnicos digitais como WCAG/eMAG ficam no Assunto 035. Governança, diagnóstico, indicadores e contratação de acessibilidade ficam no Assunto 114.
-
-## 15. Pegadinhas centrais
-
-| Afirmação | Correção |
-|---|---|
-| prioridade do idoso começa aos 65 | errado: 60 anos |
-| doador passa à frente dos demais prioritários | errado: vem depois deles |
-| comprovante do doador não tem prazo | errado: 120 dias |
-| acompanhante tem prioridade sozinho | errado: junto e acessoriamente |
-| atendimento em curso deve ser interrompido | errado |
-| obeso e doador têm assento reservado pelo art. 3º | errado |
-| instituição financeira não está abrangida | errado |
-| art. 6º, III, permite aplicar hoje os incisos I a III do art. 44 da Lei nº 4.595/1964 | errado: a remissão permanece no texto, mas o art. 44 foi revogado em 2017 |
-| multa da concessionária é geral | errado: ligada a veículos dos arts. 3º e 5º |
-| passeio público admite circulação geral | errado: pedestres |
-| adaptação é 5% do total de brinquedos | errado: 5% de cada brinquedo/equipamento |
-| banheiro químico acessível é 2% | errado: 10%, mínimo 1 |
-| todo semáforo sonoro depende de solicitação | errado |
-| barreira é necessariamente física | errado |
-| prédio coletivo precisa apenas de acesso | errado: acesso + itinerário + banheiro + vagas |
-| toda edificação sem elevador está dispensada | errado |
-| CAA da Lei nº 10.098 é só para espaço público fechado | errado: público e aberto ao público |
-| kit de cartão é automático e pago | errado: solicitado e sem custo adicional |
-| bem tombado está dispensado | errado |
-| Lei nº 10.098 tem multa geral própria | errado |
-
-## 16. Método de resolução
-
-1. Identifique qual lei está sendo cobrada.
-2. Na Lei nº 10.048, separe rol geral, ordem do doador e rol de assentos.
-3. Verifique se existe posto específico; nunca interrompa atendimento em curso.
-4. Em sanção, identifique o responsável; para instituição financeira, diferencie a remissão literal do art. 6º, III, da revogação do art. 44 referido.
-5. Na Lei nº 10.098, diferencie definição, urbanização, edifício, transporte, comunicação e fomento.
-6. Memorize os números: 120 dias, 5% de cada brinquedo, banheiro químico 10%, vaga 2%.
-7. Em semáforo, separe regra condicional e vias de obrigatoriedade.
-8. Em edifício coletivo, procure o conjunto mínimo de quatro requisitos.
-9. Não transporte automaticamente regra exclusiva da LBI para estas leis.
-10. Confira se a questão usa redação anterior a 2015, 2017, 2019, 2022, 2023 ou 2025.
+1. **Qual é a lei?** Se a questão fala em ordem de atendimento, comece pela Lei nº 10.048/2000; se fala em remoção de barreira, espaço, edifício, transporte ou comunicação, teste a Lei nº 10.098/2000.
+2. **Qual é o conjunto de pessoas?** Na prioridade, diferencie rol geral, regra do doador e rol de assentos.
+3. **Há uma condição escondida?** Atendimento em curso não é interrompido; emergência de saúde depende da gravidade; semáforo tem regra condicionada e regra obrigatória.
+4. **O número pertence a qual regra?** Doador **120 dias**; brinquedo **5% de cada**; banheiro químico **10%, mínimo 1**; estacionamento **2%, mínimo 1**; veículo em uso **180 dias da regulamentação**; regulamentação da Lei nº 10.048 **60 dias**.
+5. **A questão mistura literalidade com vigência?** A remissão às sanções do artigo 44 da Lei nº 4.595/1964 continua escrita na Lei nº 10.048/2000, mas o artigo remetido foi revogado em 2017.
+6. **A regra é do corte do edital ou veio depois?** Alterações legislativas vigentes até **6 de julho de 2026** entram no corte; a Lei nº 15.492/2026, de setembro, é atualização posterior e deve permanecer separada.
