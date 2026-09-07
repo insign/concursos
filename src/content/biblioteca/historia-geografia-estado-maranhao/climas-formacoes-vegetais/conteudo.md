@@ -8,196 +8,149 @@ storageId: "climas-formacoes-vegetais"
 
 # Climas e formações vegetais do Maranhão
 
-## 1. Recorte e corte documental
+## 1. O mapa que organiza o assunto
 
-O edital cobra, na Geografia do Maranhão, dois núcleos diretamente relacionados:
+Imagine um deslocamento **hipotético** pelo Maranhão. No oeste e noroeste, junto ao Pará, a paisagem tende a ser mais úmida e florestal. Pelo centro-norte, ganham força as áreas de transição e os cocais. No centro-sul e em grande parte do leste, a estação seca se alonga e o Cerrado se torna mais importante.
 
-- **climas do Maranhão: pluviosidade e temperatura**;
-- **principais formações vegetais: floresta, Cerrado e cocais**.
+Esse percurso não atravessa faixas rígidas. Ele apenas fixa o mecanismo central: **o Maranhão é quente praticamente o ano inteiro, mas a quantidade e, sobretudo, a distribuição das chuvas mudam no espaço; essa disponibilidade desigual de água ajuda a organizar o mosaico de florestas, Cerrado e formações de transição.** Solos, drenagem, relevo, fogo, <abbr title="mudança gradual da comunidade vegetal ao longo do tempo">sucessão ecológica</abbr> e histórico de uso também alteram a paisagem, portanto clima não determina sozinho a vegetação.
 
-O objetivo é reconhecer **padrões regionais, sazonalidade e relações entre clima e vegetação**, sem transformar o assunto em curso de climatologia ou fitogeografia. Rios, bacias, agropecuária, extrativismo e unidades de conservação pertencem aos assuntos próprios.
+## 2. Por que faz calor em todo o estado, mas não chove igual?
 
-O corte documental adotado é **4 de agosto de 2026**. Para números meteorológicos, a referência principal são as **Normais Climatológicas <abbr title="Instituto Nacional de Meteorologia">INMET</abbr> 1991-2020**. Mapas e estudos com outros períodos são identificados separadamente.
+A baixa latitude mantém elevada a entrada de energia solar ao longo do ano. Daí vêm as **temperaturas altas e a pequena variação sazonal do calor** quando comparadas às regiões subtropicais do Brasil.
 
-## 2. Padrão climático do Maranhão
+A chuva responde mais à circulação atmosférica e a controles regionais:
 
-### Conceitos mínimos para ler tabelas e enunciados
+- próximo ao litoral, o oceano fornece umidade e modera extremos de temperatura; esse efeito é a <abbr title="moderação térmica exercida pelo oceano">maritimidade</abbr>;
+- no interior e durante a estação seca, menor nebulosidade favorece forte aquecimento diurno; a maior influência da superfície continental é a <abbr title="maior influência do continente sobre a temperatura">continentalidade</abbr>;
+- relevo, altitude e características da superfície modulam temperatura e disponibilidade de água em escalas menores.
 
-- **tempo atmosférico:** condição da atmosfera em curto prazo;
-- **clima:** comportamento estatístico de longo prazo, incluindo médias, sazonalidade, variabilidade e extremos;
-- **normal climatológica:** valor de referência calculado para período longo e padronizado;
-- **anomalia:** diferença entre o valor observado e a referência climatológica;
-- **extremo:** ocorrência rara ou muito intensa avaliada em relação à série.
+A <abbr title="Zona de Convergência Intertropical">ZCIT</abbr> é uma banda de nuvens próxima à faixa equatorial, formada pela convergência dos <abbr title="ventos persistentes que sopram dos trópicos para a faixa equatorial">ventos alísios</abbr> dos Hemisférios Norte e Sul. Ao se deslocar mais para o sul no fim do verão e no início do outono, ela aumenta sua influência sobre o norte do Maranhão. A atuação costuma ser mais forte em **março e abril**, podendo ocorrer também em **fevereiro e maio**. No segundo semestre, a <abbr title="Zona de Convergência Intertropical">ZCIT</abbr> migra para latitudes mais ao norte e perde influência direta sobre o estado.
 
-As Normais INMET 1991-2020 usam observações de **1º de janeiro de 1991 a 31 de dezembro de 2020**. Para uma variável, se faltar normal mensal válida, o INMET não calcula a normal anual correspondente; a lacuna não deve ser preenchida informalmente. Um evento isolado de chuva ou calor é **tempo** e, sozinho, não redefine o clima do lugar.
+Ela não explica toda chuva maranhense. Linhas de instabilidade, brisas costeiras, perturbações nos <abbr title="ventos persistentes que sopram dos trópicos para a faixa equatorial">ventos alísios</abbr> e <abbr title="subida de ar quente e úmido que favorece nuvens de chuva">convecção</abbr> local também atuam. <abbr title="aquecimento anômalo do Pacífico equatorial">El Niño</abbr> e <abbr title="resfriamento anômalo do Pacífico equatorial">La Niña</abbr> podem modular esses sistemas, mas não determinam isoladamente cada episódio de chuva.
 
-### Controles e mecanismos
+## 3. Como ler os dados climáticos
 
-O Maranhão está em baixas latitudes tropicais e apresenta **temperaturas elevadas ao longo do ano**. A chuva varia sazonal e regionalmente mais do que a temperatura: há setores muito úmidos no norte/noroeste e setores com estação seca mais prolongada no interior, especialmente no leste e no sul.
+Uma tarde de temporal é **tempo meteorológico**: estado da atmosfera em curto prazo. **Clima** é o comportamento de longo prazo — médias, sazonalidade, variabilidade e extremos.
 
-Os controles mais úteis para prova são:
+Uma <abbr title="média climática calculada para um período padronizado de décadas">normal climatológica</abbr> é uma referência de longo período para uma estação meteorológica. As Normais 1991–2020 do <abbr title="Instituto Nacional de Meteorologia">INMET</abbr> cobrem de **1º de janeiro de 1991 a 31 de dezembro de 2020**. Elas não preveem 2026; mostram o padrão médio de referência daquele local e daquela variável.
 
-- **latitude:** sustenta o caráter quente do estado;
-- **maritimidade:** o Atlântico fornece umidade e modera as temperaturas no litoral;
-- **continentalidade:** no interior, favorece maior amplitude térmica e máximas elevadas na estação seca;
-- **circulação atmosférica:** organiza a entrada de umidade e a sazonalidade das chuvas;
-- **relevo e altitude:** modulam temperatura e precipitação localmente;
-- **anomalias do Atlântico e do Pacífico:** podem favorecer anos mais secos ou chuvosos, mas não explicam isoladamente cada evento.
+**Anomalia** é desvio em relação a uma referência climática; **evento extremo** é ocorrência rara ou muito intensa em relação ao esperado. Um evento isolado não redefine sozinho o clima.
 
-### Zona de Convergência Intertropical
+O método do <abbr title="Instituto Nacional de Meteorologia">INMET</abbr> também explica lacunas nas tabelas: a normal anual exige os **12 valores mensais**. Se falta a normal de um mês, o valor anual daquela variável não é computado. E o dado de uma estação **não deve ser generalizado automaticamente** para todo o município, região ou estado.
 
-A **Zona de Convergência Intertropical (ZCIT)** resulta da convergência dos ventos alísios dos hemisférios Norte e Sul e é um dos principais sistemas responsáveis pelas chuvas no norte do Nordeste.
+## 4. Pluviosidade: concentração no primeiro semestre
 
-No norte maranhense, sua influência costuma ser mais forte no fim do verão e início do outono, especialmente em **março e abril**, podendo ocorrer também em fevereiro e maio. No segundo semestre, quando a ZCIT migra para norte, sua contribuição diminui.
+O padrão decisivo é a <abbr title="variação regular entre épocas do ano">sazonalidade</abbr>. Em estudo publicado em 2023 com estações maranhenses, os calendários aproximados foram:
 
-Também podem atuar linhas de instabilidade, brisas costeiras, perturbações dos alísios e convecção local. Portanto, **ZCIT é central, mas não é causa única da chuva maranhense**.
+- **norte:** chuva de **janeiro a julho**; seca de **agosto a dezembro**;
+- **leste:** chuva de **janeiro a maio**; seca de **junho a dezembro**;
+- **centro e sul:** chuva de **janeiro a abril**; seca de **maio a dezembro**.
 
-## 3. Pluviosidade e sazonalidade
+São sínteses climatológicas, não calendários rígidos. **Estação seca não significa chuva zero**: significa redução acentuada dos totais médios. No conjunto analisado, **fevereiro–março–abril** concentrou a maior parcela das chuvas, e **julho–agosto–setembro**, a menor.
 
-Estudo com estações no período de 1990 a 2021 sintetizou os seguintes calendários aproximados:
+As Normais 1991–2020 do <abbr title="Instituto Nacional de Meteorologia">INMET</abbr> fornecem boas âncoras:
 
-| Setor | Estação chuvosa aproximada | Estação seca aproximada |
-|---|---|---|
-| norte | janeiro a julho | agosto a dezembro |
-| leste | janeiro a maio | junho a dezembro |
-| centro e sul | janeiro a abril | maio a dezembro |
+| Estação | Precipitação anual normal | Âncora mensal |
+|---|---:|---|
+| São Luís | **2.117,1 mm** | março: **452,8 mm**; setembro: **2,9 mm** |
+| Imperatriz | **1.491,9 mm** | total interior inferior ao da capital |
+| Carolina | **1.772,1 mm** | supera Imperatriz nessa normal |
+| Balsas | **1.194,7 mm** | julho: **1,0 mm**; agosto: **1,3 mm** |
 
-As datas não são fronteiras rígidas. O começo, o fim e a intensidade das estações variam entre locais e anos. **Estação seca significa forte redução climatológica da chuva, não ausência absoluta de precipitação.**
+São Luís reúne total anual maior; Balsas, total menor e meses quase sem precipitação no meio do ano. Isso materializa o gradiente de umidade e a maior duração da estiagem no interior meridional.
 
-No conjunto das estações analisadas pelo estudo de 2023, **fevereiro, março e abril** concentraram a maior parcela das chuvas; **julho, agosto e setembro**, a menor. No extremo norte, São Luís e Turiaçu deslocam parte do máximo para março, abril e maio.
+## 5. Temperatura: calor persistente, amplitudes diferentes
 
-### Exemplos das Normais INMET 1991-2020
+No estudo de 2023, as temperaturas médias anuais das estações analisadas ficaram aproximadamente entre **26,3 °C e 28,4 °C**. No interior, as maiores médias tendem a ocorrer entre **agosto e dezembro**, quando a estação seca reduz a nebulosidade e favorece aquecimento intenso.
 
-| Estação | Jan. | Mar. | Jul. | Set. | Total anual |
-|---|---:|---:|---:|---:|---:|
-| São Luís | 235,4 mm | 452,8 mm | 110,8 mm | 2,9 mm | **2.117,1 mm** |
-| Imperatriz | 257,1 mm | 283,4 mm | 5,9 mm | 24,2 mm | **1.491,9 mm** |
-| Carolina | 303,0 mm | 293,0 mm | 7,4 mm | 37,5 mm | **1.772,1 mm** |
-| Balsas | 226,7 mm | 186,1 mm | 1,0 mm | 18,2 mm | **1.194,7 mm** |
+No litoral, o oceano modera as variações; por isso São Luís tende a apresentar **menor amplitude térmica** que estações mais continentais. Menor amplitude não significa pouco calor, mas diferença menor entre valores altos e baixos.
 
-Esses dados permitem três leituras importantes:
-
-1. **São Luís** é muito mais chuvosa que Balsas e possui seca mais tardia.
-2. **Balsas** apresenta forte concentração sazonal e meses praticamente secos no meio do ano.
-3. Um valor de estação não deve ser tratado como média automática do município, da região ou de todo o Maranhão.
-
-## 4. Temperaturas
-
-O estado permanece quente durante todo o ano. No estudo de 2023, as médias anuais das estações analisadas ficaram aproximadamente entre **26,3 °C e 28,4 °C**. Em grande parte do interior, as maiores médias ocorrem entre agosto e dezembro, período de menor nebulosidade e forte aquecimento.
-
-Exemplos das Normais 1991-2020:
-
-| Estação | Média compensada anual | Máxima normal anual | Mínima normal anual | Destaque |
+| Estação | Média compensada anual | Máxima normal anual | Mínima normal anual | Observação |
 |---|---:|---:|---:|---|
-| São Luís | não publicada na planilha consultada | 31,5 °C | 24,1 °C | menor amplitude pela influência marítima |
-| Carolina | 27,2 °C | 33,3 °C | 22,5 °C | máxima mensal de 36,4 °C em agosto |
-| Balsas | não calculada | não calculada | não calculada | falta julho nas séries térmicas consultadas |
+| São Luís | não publicada na planilha consultada | **31,5 °C** | **24,1 °C** | maior moderação marítima |
+| Carolina | **27,2 °C** | **33,3 °C** | **22,5 °C** | máxima normal mensal: **36,4 °C em agosto** |
+| Balsas | não computada | não computada | não computada | falta a normal de julho nas séries térmicas consultadas |
 
-**Máxima normal, mínima normal e temperatura média são variáveis diferentes.** A máxima normal anual de 31,5 °C em São Luís, por exemplo, não é sua temperatura média anual.
+**Temperatura máxima normal não é temperatura média nem recorde absoluto.** A máxima normal anual de 31,5 °C em São Luís é a média climatológica da variável “temperatura máxima”, não a temperatura de todos os dias.
 
-## 5. Classificações climáticas: use como apoio
+## 6. Classificações climáticas: duas lentes
 
-O **Mapa de Clima do Brasil do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>**, atualizado em 2002, mostra o Maranhão predominantemente na categoria térmica **quente**, com transição entre:
+Depois do mecanismo, a classificação vira organização de dados, não lista para decorar.
 
-- **Tropical da Zona Equatorial**;
-- **Tropical do Brasil Central**.
+O Mapa de Clima do Brasil do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, edição 2002 e escala 1:5.000.000, combina **zona climática, temperatura e umidade/duração da seca**. No Maranhão, predomina a condição quente e aparece a transição entre **Tropical da Zona Equatorial** e **Tropical do Brasil Central**, com diferentes durações da estação seca. Assim, “**semiúmido com quatro a cinco meses secos**” expressa uma condição de umidade e duração da seca; não é, sozinha, o nome completo do clima zonal.
 
-A umidade varia conforme a duração da estação seca, com áreas mais úmidas no norte e condições mais sazonais no interior. No mapa, expressões como **“semiúmido com quatro a cinco meses secos”** são subdivisões de umidade e devem ser lidas junto do clima zonal e da categoria térmica.
+No estudo maranhense de 2023, a classificação de Köppen identificou:
 
-Em estudo de 2023 baseado em Köppen, apareceram os tipos **Am, Aw e Aw'** nas estações avaliadas:
+- <abbr title="clima tropical de monção na classificação de Köppen">Am</abbr>: tropical de monção; **Turiaçu**;
+- <abbr title="clima tropical de savana na classificação de Köppen">Aw</abbr>: tropical de savana; **Imperatriz, Carolina e Balsas**;
+- <abbr title="variante usada pelo estudo para chuvas de verão e outono">Aw'</abbr>: convenção usada no trabalho para distinguir chuvas de verão e outono; **São Luís**.
 
-- **Am:** tropical de monção; exemplo: Turiaçu;
-- **Aw:** tropical de savana, com chuvas concentradas no verão; exemplos: Imperatriz, Carolina e Balsas;
-- **Aw':** convenção usada no estudo para regime com chuvas de verão e outono; exemplo: São Luís.
+Não trate <abbr title="variante usada pelo estudo para chuvas de verão e outono">Aw'</abbr> como “terceira letra universal” de Köppen. E não force equivalência perfeita entre Köppen e o mapa do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>: critérios, escalas, estações e períodos podem ser diferentes.
 
-A notação **Aw'** deve ser atribuída ao estudo que a emprega; não é uma terceira letra universal de todas as versões de Köppen. IBGE e Köppen usam critérios distintos e não devem ser tratados como classificações intercambiáveis. Resultados de estudos distintos podem divergir porque rede de estações, período, tratamento de falhas e critérios sazonais também podem ser diferentes.
+## 7. Bioma, formação vegetal e paisagem atual
 
-## 6. Formação vegetal não é sinônimo de bioma
+A prova pode misturar três níveis:
 
-O edital pede **formações vegetais**. Para evitar confusão:
+1. **bioma:** grande conjunto regional de vegetação, fauna, condições geoclimáticas e história ecológica;
+2. **formação vegetal** ou <abbr title="aspecto estrutural visível de uma comunidade vegetal">fitofisionomia</abbr>: estrutura e composição da vegetação;
+3. **cobertura da terra:** o que recobre a superfície na data observada; **uso da terra:** a finalidade ou o manejo humano.
 
-- **bioma** é um grande conjunto regional de vida e condições ambientais;
-- **formação vegetal** descreve a fisionomia e a composição da vegetação;
-- **cobertura da terra** descreve o que recobre a superfície em determinada data;
-- **uso da terra** indica a finalidade ou o manejo humano, como agricultura, pecuária ou conservação.
+No recorte do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, o Maranhão contém áreas de **Amazônia, Cerrado e Caatinga**, além de ambientes incluídos no Sistema Costeiro-Marinho. **Mata dos Cocais não é um bioma continental oficial**: é denominação fitogeográfica e didática de formações com palmeiras e áreas de transição.
 
-No recorte oficial do IBGE, o Maranhão contém áreas dos biomas **Amazônia, Cerrado e Caatinga**, além de ambientes costeiros. Já a expressão **Mata dos Cocais** é usada didaticamente para uma formação ou complexo de formações com palmeiras em área de transição; **não constitui bioma continental oficial do IBGE**.
+Um <abbr title="zona em que características de formações vizinhas se misturam">ecótono</abbr> apresenta mistura entre formações vizinhas. Um <abbr title="formação distinta inserida dentro de outra matriz vegetal">encrave</abbr> mantém identidade própria dentro de uma matriz diferente.
 
-Duas palavras ajudam na leitura de transições:
+## 8. Florestas: umidade e perda sazonal de folhas
 
-- **ecótono:** zona em que espécies e características de formações vizinhas se misturam;
-- **encrave:** formação que conserva identidade própria dentro de uma matriz dominada por outra.
+No setor amazônico ocidental e nas áreas mais úmidas aparecem formações florestais. O mapa de vegetação do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> distingue, entre outras:
 
-## 7. Formações florestais
+- **Floresta Ombrófila Densa:** sobretudo no oeste/noroeste mais úmido, com estrutura alta e estratificada;
+- **Floresta Ombrófila Aberta:** importante no norte e centro-norte, com fisionomias de palmeiras e/ou cipós; sua alteração favoreceu áreas de vegetação secundária ricas em babaçu;
+- **Floresta Estacional Semidecidual:** aproximadamente **20% a 50%** dos elementos arbóreos emergentes perdem folhas no período desfavorável;
+- **Floresta Estacional Decidual:** a perda de folhas supera **50%** na estação seca.
 
-### Floresta Ombrófila Densa
+O termo <abbr title="vegetação associada a alta disponibilidade de umidade">ombrófila</abbr> remete à umidade. “Estacional” chama atenção para a resposta da vegetação a uma estação desfavorável.
 
-Concentra-se sobretudo no **oeste maranhense, junto ao Pará**, em condições mais úmidas. Apresenta estrutura florestal estratificada, árvores de grande porte, lianas e epífitas.
+## 9. Cerrado: um mosaico de fisionomias
 
-### Floresta Ombrófila Aberta
+No centro, sul e leste, o Cerrado ganha grande expressão. O <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> o classifica fitogeograficamente como **Savana**, com um gradiente de maior para menor densidade lenhosa:
 
-Ocorre em setores do **norte e do vale do Mearim**, com fisionomias que originalmente incluíam palmeiras e, em alguns trechos, cipós. A alteração histórica de extensas áreas favoreceu vegetação secundária rica em **babaçu**, ajudando a formar a paisagem dos cocais.
-
-### Florestas estacionais
-
-Em áreas de sazonalidade hídrica mais marcada aparecem formações semideciduais e deciduais:
-
-- **Semidecidual:** aproximadamente **20% a 50%** dos elementos arbóreos emergentes perdem folhas no período desfavorável.
-- **Decidual:** **mais de 50%** perdem folhas na estação seca.
-
-A queda de folhas é uma adaptação à sazonalidade e não significa morte anual da floresta.
-
-## 8. Cerrado maranhense
-
-O **Cerrado**, denominado **Savana** na legenda fitogeográfica do IBGE, predomina especialmente no **centro, sul e leste** do estado. É heterogêneo: não se resume a árvores baixas e tortuosas.
-
-| Formação IBGE | Nome didático frequente | Estrutura geral |
+| Formação do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> | Estrutura | Nome didático frequente |
 |---|---|---|
-| Savana Florestada | Cerradão | maior cobertura arbórea |
-| Savana Arborizada | Cerrado propriamente dito | árvores e arbustos sobre estrato herbáceo |
-| Savana Parque | campo sujo | árvores e arbustos esparsos |
-| Savana Gramíneo-Lenhosa | campo limpo | predomínio herbáceo |
+| Savana Florestada | mais arbórea | Cerradão |
+| Savana Arborizada | árvores/arbustos + estrato herbáceo | Cerrado típico/campo cerrado |
+| Savana Parque | elementos lenhosos mais esparsos | campo sujo de Cerrado, em aproximação didática |
+| Savana Gramíneo-Lenhosa | predomínio herbáceo | campo limpo de Cerrado, em aproximação didática |
 
-A distribuição dessas fisionomias depende da interação entre clima, solos, drenagem, relevo, fogo e história de uso.
+Os nomes populares não são equivalentes perfeitos às categorias técnicas em qualquer fonte. O essencial é o **gradiente estrutural**, do Cerradão mais arbóreo às formações predominantemente herbáceas.
 
-## 9. Cocais: babaçu e carnaúba
+## 10. Cocais: transição e transformação da paisagem
 
-A **Mata dos Cocais** é uma paisagem de transição marcada por palmeiras, especialmente **babaçu** e **carnaúba**.
+A Mata dos Cocais reúne paisagens com forte presença de palmeiras em áreas de contato entre floresta amazônica, Cerrado e setores mais secos do leste.
 
-- **babaçu (*Attalea speciosa*):** muito expressivo no centro-norte e em áreas de transição e regeneração; pode tornar-se abundante em vegetação secundária após alteração florestal;
-- **carnaúba (*Copernicia prunifera*):** associa-se a setores mais sazonais e a ambientes com condições hídricas específicas, sobretudo em direção ao leste.
+- **babaçu (*Attalea speciosa*):** associado sobretudo ao centro-norte e às transições. É nativo, mas pode tornar-se abundante em **vegetação secundária** após alteração de Floresta Ombrófila Aberta; babaçual, portanto, não prova floresta primária intacta;
+- **carnaúba (*Copernicia prunifera*):** ganha destaque em setores mais orientais e sazonais, conforme condições locais de solo e água.
 
-Babaçu e carnaúba não ocupam uma faixa homogênea nem possuem exigências ecológicas idênticas. Seus usos econômicos e sociais pertencem ao assunto de **extrativismo**.
+“Centro-norte = babaçu” e “leste = carnaúba” são âncoras espaciais, não fronteiras absolutas. Os usos econômicos dessas palmeiras pertencem ao tema de extrativismo; aqui importa reconhecê-las na paisagem vegetal.
 
-## 10. Relação entre clima e vegetação
+## 11. Integração e pegadinhas
 
-A distribuição vegetal acompanha o gradiente climático, mas não é determinada apenas pela chuva:
+Para explicar a paisagem, comece por:
 
-- maior disponibilidade de umidade favorece formações ombrófilas no oeste e no norte;
-- maior sazonalidade favorece florestas estacionais e formações de Cerrado;
-- os cocais ocupam áreas de transição e também refletem a história de alteração e regeneração da vegetação.
+**posição geográfica + circulação atmosférica → regime de chuva → duração do período seco → disponibilidade de água → resposta da vegetação.**
 
-Clima, solos, drenagem, relevo, fogo e ação humana atuam em conjunto. Por isso, uma classe climática não corresponde automaticamente a uma única formação vegetal.
+Depois acrescente solo, drenagem, relevo, fogo, regeneração/sucessão e uso histórico. O resultado é um mosaico: **oeste/noroeste mais florestal e úmido; centro-norte de forte transição e cocais; centro-sul e grande parte do leste mais sazonais e com ampla presença do Cerrado; extremo leste com contatos também com a Caatinga.**
 
-## 11. Pegadinhas e método de resolução
+Em prova, desconfie das seguintes trocas:
 
-| Afirmação | Avaliação |
-|---|---|
-| todo o Maranhão possui um único clima | falsa |
-| a chuva varia sazonalmente mais que a temperatura | verdadeira |
-| estação seca significa chuva igual a zero | falsa |
-| São Luís tende a menor amplitude térmica pela influência marítima | verdadeira |
-| IBGE e Köppen usam os mesmos critérios | falsa |
-| Mata dos Cocais é bioma oficial do IBGE | falsa |
-| Cerrado possui várias fitofisionomias | verdadeira |
-| babaçuais podem ser abundantes em vegetação secundária | verdadeira |
-| clima sozinho determina a vegetação | falsa |
+- **clima ≠ tempo** e **estação seca ≠ ausência total de chuva**;
+- **normal de uma estação ≠ média estadual**;
+- **máxima normal ≠ temperatura média**;
+- **<abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> ≠ Köppen**;
+- **bioma ≠ formação ≠ cobertura atual**;
+- **<abbr title="zona em que características de formações vizinhas se misturam">ecótono</abbr> ≠ <abbr title="formação distinta inserida dentro de outra matriz vegetal">encrave</abbr>**;
+- **Cerrado ≠ campo sem árvores**;
+- **Mata dos Cocais ≠ bioma continental oficial**.
 
-Para resolver questões:
+### Datas que não devem ser misturadas
 
-1. identifique **qual setor do estado** está sendo descrito;
-2. diferencie **padrão climático** de evento isolado;
-3. procure a **sazonalidade da chuva** e a influência marítima ou continental;
-4. se a questão usar classificação, identifique se é **IBGE ou Köppen**;
-5. na vegetação, diferencie **floresta, Cerrado e cocais** e rejeite a ideia de homogeneidade estadual;
-6. desconfie de absolutos como “todo”, “sempre”, “apenas” e “ausência total”.
+O edital cobra **pluviosidade, temperatura e as principais formações vegetais — floresta, Cerrado e cocais**. As Normais do <abbr title="Instituto Nacional de Meteorologia">INMET</abbr> usam **1991–2020**; o Mapa de Clima do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> é de **2002**; o mapa de vegetação do Maranhão usado como referência foi publicado pelo <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> em **2011**; e a atualização climática regional citada é de **2023**.
