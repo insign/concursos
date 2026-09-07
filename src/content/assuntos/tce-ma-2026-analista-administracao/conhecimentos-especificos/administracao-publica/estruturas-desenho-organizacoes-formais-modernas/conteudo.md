@@ -34,7 +34,7 @@ O **organograma** mostra unidades, níveis e relações formais de subordinaçã
 
 Todo desenho precisa equilibrar duas forças.
 
-A primeira é a **diferenciação**: dividir tarefas permite especialização, domínio técnico e economias de repetição. A segunda é a **integração**: quanto mais o trabalho é dividido, maior a necessidade de reunir decisões, informações e recursos para produzir uma entrega coerente.
+A primeira é a **diferenciação**: dividir tarefas permite especialização, domínio técnico e ganhos de eficiência pela repetição. A segunda é a **integração**: quanto mais o trabalho é dividido, maior a necessidade de reunir decisões, informações e recursos para produzir uma entrega coerente.
 
 Quando áreas especializadas passam a otimizar apenas o próprio resultado e perdem a visão do todo, surgem <abbr title="isolamentos entre áreas que prejudicam a visão do resultado">silos</abbr>. O remédio não é abolir especialidades, mas criar coordenação suficiente: relações de autoridade, papéis de ligação, reuniões interáreas, comitês, equipes multifuncionais, sistemas compartilhados ou responsáveis por produto, processo e projeto.
 
@@ -76,7 +76,7 @@ A **unidade de comando** exprime a ideia de que cada subordinado recebe ordens d
 
 ### 2.4 Formalização não é burocracia inútil por definição
 
-Em atividades sujeitas a legalidade estrita, segurança, igualdade de tratamento ou auditoria, regras e registros podem ser indispensáveis. O problema aparece quando a formalização vira ritual sem proteção proporcional do resultado, multiplicando etapas que não reduzem risco nem melhoram a entrega.
+Em atividades sujeitas a legalidade estrita, segurança, igualdade de tratamento ou possibilidade de auditoria, regras e registros podem ser indispensáveis. O problema aparece quando a formalização vira ritual sem proteção proporcional do resultado, multiplicando etapas que não reduzem risco nem melhoram a entrega.
 
 ## 3. Linha, assessoria e <abbr title="arranjo que combina comando hierárquico e assessoria especializada">linha-staff</abbr>
 
@@ -98,17 +98,17 @@ O ganho é clareza e rapidez quando poucas pessoas precisam decidir. O custo é 
 
 ### 4.2 Funcional: profundidade técnica
 
-Na **estrutura funcional**, pessoas e atividades são agrupadas por especialidade: finanças, gestão de pessoas, tecnologia, jurídico e operações, por exemplo. Isso favorece economias de escala, padronização e desenvolvimento técnico.
+Na **estrutura funcional**, pessoas e atividades são agrupadas por especialidade: finanças, gestão de pessoas, tecnologia, jurídico e operações, por exemplo. Isso favorece <abbr title="ganhos de eficiência ao concentrar atividades semelhantes">economias de escala</abbr>, padronização e desenvolvimento técnico.
 
 O custo surge nas interfaces. Cada função pode perseguir sua própria prioridade, e a coordenação horizontal torna-se mais difícil. A estrutura funcional tende a ser adequada quando as atividades são relativamente homogêneas e o conjunto de produtos ou serviços é pouco diversificado.
 
-Há uma variação terminológica importante: em parte da literatura clássica, “organização funcional” designa o modelo taylorista de **supervisão funcional**, no qual o trabalhador pode receber orientação de diferentes supervisores especializados. No uso contemporâneo, “funcional” costuma indicar agrupamento por especialidade. A descrição do enunciado vale mais que o rótulo.
+Há uma variação terminológica importante: em parte da literatura clássica, “organização funcional” designa o modelo de Frederick Taylor baseado em **supervisão funcional**, no qual o trabalhador pode receber orientação de diferentes supervisores especializados. No uso contemporâneo, “funcional” costuma indicar agrupamento por especialidade. A descrição do enunciado vale mais que o rótulo.
 
 ### 4.3 Divisional: foco na entrega, no mercado ou no território
 
 Na **estrutura divisional**, cada divisão reúne recursos necessários para responder por um resultado. As divisões podem ser organizadas por produto, serviço, território, mercado ou público atendido.
 
-O ganho é proximidade da entrega e responsabilização mais clara pelo resultado da divisão. O custo é a possível duplicação de funções de apoio, perda de economias de escala e dificuldade de manter padrões comuns.
+O ganho é proximidade da entrega e responsabilização mais clara pelo resultado da divisão. O custo é a possível duplicação de funções de apoio, perda desses ganhos de escala e dificuldade de manter padrões comuns.
 
 Uma divisão pode conter finanças, pessoas e operações próprias. Portanto, encontrar funções dentro de cada divisão não transforma o conjunto em estrutura funcional pura.
 
@@ -122,7 +122,7 @@ Ter um escritório ou departamento de projetos **não** torna toda a organizaç�
 
 ### 4.5 Matricial: dois eixos regulares de autoridade
 
-A **estrutura matricial** sobrepõe dois eixos, frequentemente função e produto, programa ou projeto. O mesmo profissional pode permanecer vinculado à área funcional e, simultaneamente, receber prioridades de um gerente transversal.
+A **estrutura matricial** sobrepõe dois eixos, frequentemente função e produto, programa ou projeto. O mesmo profissional pode permanecer vinculado à área funcional e, simultaneamente, receber prioridades do gerente do segundo eixo.
 
 A matriz tenta obter dois benefícios ao mesmo tempo: profundidade técnica das funções e foco nas entregas. Em troca, aceita dupla autoridade, conflitos de prioridade, necessidade de negociação e maior custo de coordenação.
 
@@ -148,7 +148,7 @@ Na **estrutura em rede**, um núcleo coordena unidades, equipes ou parceiros int
 
 A **estrutura virtual** usa intensamente tecnologia para coordenar capacidades distribuídas entre locais e, muitas vezes, entre organizações. **Teletrabalho não basta para caracterizá-la**: se departamentos, autoridade e fronteiras permanecem iguais, mudou o local de execução, não necessariamente o desenho.
 
-Expressões como virtual, modular, em rede e sem fronteiras se sobrepõem em parte da literatura. Em prova, procure a característica concreta: núcleo coordenador, parceiros, terceirização, tecnologia ou permeabilidade das fronteiras.
+Expressões como virtual, <abbr title="estrutura formada por módulos relativamente autônomos e recombináveis">modular</abbr>, em rede e <abbr title="estrutura que reduz barreiras internas ou externas rígidas">sem fronteiras</abbr> se sobrepõem em parte da literatura. Em prova, procure a característica concreta: núcleo coordenador, parceiros, terceirização, tecnologia ou grau de abertura das fronteiras.
 
 **Estrutura híbrida** é a combinação consciente de formas diferentes. Uma instituição pode ter áreas funcionais centrais, unidades territoriais, equipes horizontais e uma matriz temporária para determinado programa. Matriz é uma forma híbrida; nem toda híbrida é matricial.
 
@@ -170,7 +170,7 @@ Retome o órgão hipotético da abertura. Se ele separa finanças, pessoas e tec
 
 Uma organização pode combinar critérios em níveis diferentes. Por exemplo: primeiro separar regiões e, dentro de cada região, criar áreas funcionais. Isso continua sem ser matriz se não houver dois eixos regulares de autoridade sobre as mesmas pessoas.
 
-Algumas taxonomias tratam geografia, produto e cliente como modalidades divisionais; outras os apresentam como critérios autônomos. Conhecimento ou disciplina pode aparecer como categoria própria ou modalidade funcional. Resolva pela **base real de agrupamento**, não pelo nome escolhido pelo autor.
+Algumas classificações tratam geografia, produto e cliente como modalidades divisionais; outras os apresentam como critérios autônomos. Conhecimento ou disciplina pode aparecer como categoria própria ou modalidade funcional. Resolva pela **base real de agrupamento**, não pelo nome escolhido pelo autor.
 
 ## 6. Mintzberg: outra lente para enxergar a estrutura
 
@@ -198,9 +198,9 @@ Os mecanismos são **predominantes, não exclusivos**. Uma burocracia profission
 
 Essas configurações não são sinônimos perfeitos dos tipos anteriores. A forma divisionalizada se aproxima do desenho divisional; a adhocracia pode usar equipes, projetos ou matriz; a estrutura simples pode lembrar a linear. Em Mintzberg, “burocracia” não significa necessariamente órgão público ou ineficiência.
 
-## 7. Mecanicista, orgânica e contingência: a estrutura precisa caber no contexto
+## 7. A estrutura precisa caber no contexto
 
-Outra comparação útil opõe tendências **mecanicistas** e **orgânicas**. Elas formam um contínuo, não categorias absolutas.
+Desenhos com papéis rígidos, hierarquia marcada e muitas regras tendem ao polo **mecanicista**; desenhos com papéis ajustáveis, comunicação lateral e decisões distribuídas tendem ao polo **orgânico**. Eles formam um contínuo, não categorias absolutas.
 
 | Tendência mecanicista | Tendência orgânica |
 | --- | --- |
@@ -216,7 +216,7 @@ Daí surge a **abordagem contingencial**: não existe uma estrutura universalmen
 
 - estratégia e resultados pretendidos;
 - estabilidade, complexidade e incerteza do ambiente;
-- tecnologia, rotina e interdependência das tarefas;
+- tecnologia, rotina e dependência entre tarefas;
 - tamanho e idade da organização;
 - diversidade de produtos, serviços, públicos e territórios;
 - competências e cultura;
