@@ -8,227 +8,138 @@ storageId: fatos-politicos-maranhao-sec-xx
 
 # Fatos políticos do Maranhão na segunda metade do século XX
 
-## 1. Recorte do edital
+## O que muda quando as regras mudam, mas as redes continuam?
 
-O assunto cobre os **principais fatos políticos do Maranhão entre 1951 e 2000**. A Greve de 1951 funciona apenas como transição do assunto anterior; seus episódios e suas duas fases não devem ser repetidos aqui. O eixo é político: grupos de poder, partidos, regras eleitorais, sucessões estaduais e mudanças institucionais.
+A política maranhense da segunda metade do século XX não cabe numa sequência simples de “um grupo termina e outro começa”. Entre **1951 e 2000**, mudaram partidos, formas de escolher governadores e prefeitos, regras eleitorais e a própria ordem constitucional. Ao mesmo tempo, continuaram importantes as alianças com chefias municipais, a capacidade de montar coalizões e a conexão com o governo federal.
 
-Fatos econômicos e sociais entram somente quando ajudam a explicar uma disputa política. O detalhamento desses temas pertence aos assuntos seguintes.
+Essa combinação explica uma ideia central do período: **hegemonia política não é unanimidade nem vitória em toda eleição**. É a capacidade prolongada de um grupo de coordenar alianças, influenciar sucessões e adaptar sua rede a regras novas. Por isso, a derrota eleitoral do vitorinismo em 1965 foi uma ruptura mesmo sem apagar imediatamente Vitorino Freire; e a força posterior do grupo Sarney conviveu com dissidências, derrotas e adversários competitivos.
 
-A chave de leitura é:
+A **Greve de 1951** entra apenas como ponte: ela expôs uma crise de legitimidade, mas não encerrou o vitorinismo. Seus episódios pertencem ao assunto anterior. Questões econômicas e sociais só aparecem quando explicam uma disputa política; seu desenvolvimento cabe aos assuntos seguintes. O limite aqui é **2000**: a eleição estadual de 2002 fica fora.
 
-$$
-\text{regras nacionais} + \text{alianças e facções locais} + \text{redes municipais}
-\rightarrow \text{sucessões estaduais}
-$$
+## Da crise de 1951 à ruptura eleitoral de 1965
 
-## 2. Periodização essencial
+O **vitorinismo** era uma rede articulada em torno de Vitorino Freire, com aliados estaduais, chefias municipais, partidos, mandatos e conexões federais. O desgaste produzido pela crise de 1951 enfraqueceu sua legitimidade, mas governos ligados ou próximos ao campo vitorinista ainda se sucederam nos anos seguintes.
 
-| Período | Núcleo político |
-|---|---|
-| 1951-1965 | desgaste do vitorinismo e crescimento oposicionista |
-| 1965/1966-1970 | vitória de José Sarney e “Maranhão Novo” |
-| 1970-1979 | eleições indiretas e disputas dentro da <abbr title="Aliança Renovadora Nacional">ARENA</abbr> |
-| 1979-1986 | pluripartidarismo, abertura e retorno do voto direto |
-| 1986-1989 | governo Cafeteira e Constituição estadual |
-| 1990-2000 | Lobão, Roseana e reorganização do grupo Sarney |
+A oposição também não era um bloco único. As **Oposições Coligadas** reuniam partidos e lideranças diferentes cuja principal convergência era combater o domínio vitorinista. Portanto, “Oposições Coligadas” não é nome de um partido nem prova de unidade ideológica completa.
 
-Duas datas precisam ser separadas:
+A trajetória inicial de José Sarney ajuda a entender como redes políticas podem se recompor. Ele começou sua vida eleitoral no <abbr title="Partido Social Democrático">PSD</abbr>, em ambiente associado ao campo vitorinista, e depois rompeu com esse grupo. Na eleição de 1958, já atuava no campo das Oposições Coligadas e conquistou mandato de deputado federal; sua vinculação posterior à <abbr title="União Democrática Nacional">UDN</abbr> tornou-se central na oposição maranhense.
 
-- **1965**: vitória eleitoral de Sarney e ruptura da hegemonia vitorinista;
-- **1966**: posse de Sarney e início do novo governo.
+Há uma cautela documental importante: fontes institucionais não registram de modo uniforme a legenda formal do mandato iniciado em 1959. Isso não altera a sequência politicamente segura para prova: **origem no <abbr title="Partido Social Democrático">PSD</abbr> ligado ao campo vitorinista → ruptura → Oposições Coligadas → liderança posterior na <abbr title="União Democrática Nacional">UDN</abbr>**.
 
-A influência pessoal de Vitorino não desapareceu instantaneamente em 1965, mas o antigo sistema perdeu sua posição hegemônica.
+### Por que 1965 foi a dobradiça
 
-## 3. Da crise do vitorinismo à eleição de 1965
+Em **3 de outubro de 1965**, José Sarney venceu a eleição direta para governador pela coligação <abbr title="União Democrática Nacional">UDN</abbr>-<abbr title="Partido Social Progressista">PSP</abbr>. A derrota do campo vitorinista não tem uma causa única. Ela resulta da combinação de:
 
-A Greve de 1951 desgastou o grupo de Vitorino Freire, mas não encerrou sua influência. Governos ligados ou próximos ao campo vitorinista continuaram no poder durante os anos seguintes, enquanto as **Oposições Coligadas** ganharam espaço.
-
-As Oposições Coligadas eram uma frente heterogênea contra o vitorinismo. Não constituíam um partido único nem um bloco ideologicamente uniforme.
-
-José Sarney iniciou sua trajetória eleitoral no <abbr title="Partido Social Democrático">PSD</abbr>, rompeu com o campo vitorinista e passou ao campo oposicionista, com forte vinculação posterior à <abbr title="União Democrática Nacional">UDN</abbr>. Foi eleito deputado federal em 1958 no contexto das Oposições Coligadas e reeleito em 1962.
-
-> **Cuidado com a legenda de 1958:** fontes institucionais consultadas não são uniformes na forma de registrar a filiação daquele mandato. Para prova, o ponto seguro é a eleição de Sarney no campo das Oposições Coligadas e sua posterior liderança udenista no Maranhão.
-
-### 3.1. Eleição de 1965
-
-Em **3 de outubro de 1965**, houve eleição direta para governador. José Sarney concorreu pela coligação **UDN-<abbr title="Partido Social Progressista">PSP</abbr>** e venceu.
-
-A vitória deve ser explicada por causas combinadas:
-
-- crescimento oposicionista desde a década anterior;
-- desgaste e divisão do campo vitorinista;
+- crescimento da oposição ao longo da década anterior;
+- desgaste e divisões no campo vitorinista;
 - capacidade eleitoral de Sarney;
 - apoio do governo Castelo Branco;
-- revisão e fiscalização do cadastro eleitoral.
+- revisão e maior fiscalização do cadastro eleitoral.
 
-Não é seguro reduzir o resultado nem à vontade popular isolada nem à intervenção federal isolada. O ponto central é a combinação entre condições locais e novo contexto nacional.
+A revisão do eleitorado faz parte do contexto, mas não autoriza concluir que toda eleição anterior fosse fraudulenta nem que esse fator, sozinho, explique a vitória.
 
-## 4. “Maranhão Novo” e formação do sarneísmo
+Separe dois marcos:
 
-Sarney tomou posse em 1966 e apresentou o **“Maranhão Novo”** como ruptura com o “velho” associado ao vitorinismo.
+- **1965**: vitória eleitoral de Sarney e quebra da posição hegemônica do vitorinismo;
+- **1966**: posse e início do novo governo.
 
-A expressão pode ser lida em três planos:
+A influência pessoal de Vitorino continuou depois de 1965; o que se rompeu foi a posição hegemônica do antigo sistema.
 
-| Plano | Sentido |
-|---|---|
-| eleitoral | discurso de renovação contra o grupo anterior |
-| administrativo | valorização do planejamento e de quadros técnicos |
-| político | legitimação de nova liderança conectada ao governo federal |
+## “Maranhão Novo”: modernizar o governo e construir outra hegemonia
 
-A historiografia usada no material ressalta que modernização administrativa não equivale a desaparecimento automático de personalismo, clientelismo ou patronagem.
+Ao assumir em 1966, Sarney apresentou o **“Maranhão Novo”** como ruptura com o “velho” identificado ao vitorinismo. O discurso combinava renovação política, planejamento administrativo e valorização de quadros técnicos.
 
-O **sarneísmo** designa uma rede política organizada em torno de José Sarney, seus aliados, partidos, chefias municipais e conexões estaduais e federais. Não se limita a um mandato pessoal nem à família do líder.
+A literatura historiográfica permite ler esse contraste pela ideia de <abbr title="Modernização que preserva estruturas de poder">modernização conservadora</abbr>: mudanças no aparelho estatal, na infraestrutura e nas políticas de desenvolvimento podiam coexistir com concentração de poder e relações de troca de benefícios por apoio. A expressão é uma **categoria de análise**, não o nome oficial do governo.
 
-Expressões como **“oligarquia Sarney”**, **patrimonialismo** e **clientelismo** são categorias analíticas da historiografia. Em prova, devem ser relacionadas a mecanismos concretos e atribuídas às interpretações dos autores, não tratadas como denominações jurídicas oficiais.
+O **sarneísmo** deve ser entendido como rede, e não como sinônimo de José Sarney ou de sua família: envolve liderança, aliados, partidos, chefias municipais e conexões federais. Expressões como **“oligarquia Sarney”**, <abbr title="Troca de benefícios por lealdade e apoio">clientelismo</abbr>, <abbr title="Uso do Estado em benefício de interesses privados">patrimonialismo</abbr> e <abbr title="Distribuição de cargos e benefícios para sustentar apoio">patronagem</abbr> também são categorias analíticas da historiografia; ligue-as a mecanismos concretos, não a denominações jurídicas oficiais.
 
-## 5. Bipartidarismo e facções
+## Bipartidarismo: duas siglas não significavam dois blocos homogêneos
 
-Depois da extinção dos partidos anteriores pelo regime militar, o sistema passou a ter:
+Depois da extinção dos partidos anteriores pelo regime militar, o sistema foi reorganizado em duas legendas:
 
-- **ARENA**: partido de sustentação do regime;
-- **<abbr title="Movimento Democrático Brasileiro">MDB</abbr>**: oposição consentida.
+- <abbr title="Aliança Renovadora Nacional">ARENA</abbr>: partido de sustentação do regime;
+- <abbr title="Movimento Democrático Brasileiro">MDB</abbr>: espaço institucional da oposição consentida.
 
-Sarney e Vitorino ingressaram formalmente na ARENA. Isso é essencial porque mostra que a disputa maranhense não pode ser reduzida a ARENA contra MDB.
+A chave maranhense está numa aparente contradição: **Sarney e Vitorino ingressaram na mesma <abbr title="Aliança Renovadora Nacional">ARENA</abbr>**, embora continuassem rivais. Assim, parte relevante da disputa estadual passou a ocorrer dentro do partido governista, entre sarneístas, vitorinistas e outras correntes.
 
-Parte importante do conflito ocorreu **dentro da própria ARENA**, entre sarneístas, vitorinistas e outras correntes.
+O <abbr title="Movimento Democrático Brasileiro">MDB</abbr> tinha pouca expressão no conjunto estadual no início do bipartidarismo, embora a capital oferecesse ambiente mais competitivo para a oposição. Por isso, reduzir a política maranhense a “<abbr title="Aliança Renovadora Nacional">ARENA</abbr> contra <abbr title="Movimento Democrático Brasileiro">MDB</abbr>” faz perder o mecanismo decisivo: **facções rivais podiam compartilhar a mesma legenda**.
 
-> **Bipartidarismo formal ≠ unidade política real.**
+Os municípios eram a base dessa disputa. Prefeitos e chefias locais davam alcance territorial, articulavam votos e sustentavam alianças estaduais. Uma mudança de partido, portanto, não dissolvia automaticamente a rede política construída nos municípios.
 
-As redes municipais continuaram estratégicas: prefeitos e chefias locais forneciam capilaridade eleitoral e sustentavam alianças estaduais.
+## Eleições indiretas e dissidências nos anos 1970
 
-## 6. Governos indiretos durante a ditadura
+O Ato Institucional nº 3, de 1966, tornou indireta a escolha dos governadores. Em vez do voto direto do eleitorado estadual, a decisão passou a um corpo institucional de eleitores definido pelas regras do regime, o <abbr title="Corpo institucional que realizava a escolha indireta">colégio eleitoral</abbr>.
 
-Sarney deixou o governo em 1970 para disputar o Senado. O vice **Antônio Dino** assumiu a chefia do Executivo e posteriormente rompeu com o antecessor, antecipando um padrão de dissidências entre antigos aliados.
+Sarney deixou o governo em 1970 para disputar o Senado. Seu vice, **Antônio Dino**, assumiu o Executivo e mais tarde rompeu politicamente com o antecessor. A dissidência antecipou um padrão que reapareceria entre antigos aliados.
 
-Os três governadores seguintes foram escolhidos por via indireta:
+Na sequência, três escolhas indiretas organizam a década:
 
-| Escolha | Governador | Dinâmica política |
+| Escolha | Governador | O que a sucessão revela |
 |---|---|---|
-| 1970 | **Pedro Neiva de Santana** | ligado inicialmente a Sarney; depois buscou maior autonomia |
-| 1974 | **Nunes Freire** | escolha com forte influência de Vitorino; conflito com sarneístas |
-| 1978 | **João Castelo** | ligado inicialmente ao grupo Sarney; depois também buscou autonomia |
+| 1970 | **Pedro Neiva de Santana** | inicialmente ligado a Sarney, depois buscou maior autonomia |
+| 1974 | **Nunes Freire** | escolhido com forte influência de Vitorino e em conflito com sarneístas |
+| 1978 | **João Castelo** | inicialmente ligado ao grupo Sarney, depois também seguiu caminho próprio |
 
-A formulação precisa é **escolhidos/eleitos indiretamente por colégio eleitoral**. “Governador biônico” é expressão corrente, mas não deve apagar o mecanismo institucional.
+A formulação precisa é **eleição/escolha indireta por colégio eleitoral**. “Governador biônico” é expressão corrente, mas, sozinha, esconde o mecanismo.
 
-O retorno de Vitorino à articulação durante a década de 1970 não significou restauração intacta do antigo vitorinismo: partidos, regras e bases de poder já eram diferentes.
+A volta de Vitorino à articulação nos anos 1970 não restaurou o vitorinismo anterior: regras, partidos e equilíbrio de forças já eram outros.
 
-## 7. Fim do bipartidarismo e abertura política
+## A abertura muda as legendas e recompõe as alianças
 
-Em **1979**, o bipartidarismo foi encerrado. Na reorganização partidária:
+O fim do bipartidarismo abriu espaço para uma reorganização partidária. A cronologia merece uma distinção: **29 de novembro de 1979** é o marco político usado para o encerramento do sistema <abbr title="Aliança Renovadora Nacional">ARENA</abbr>-<abbr title="Movimento Democrático Brasileiro">MDB</abbr>; em **20 de dezembro de 1979**, a Lei nº 6.767 formalizou a extinção dos partidos criados sob a legislação do bipartidarismo e disciplinou a reorganização partidária.
 
-- ARENA → principalmente **<abbr title="Partido Democrático Social">PDS</abbr>**;
-- MDB → **<abbr title="Partido do Movimento Democrático Brasileiro">PMDB</abbr>**;
-- surgiram ou se reorganizaram outras siglas, como <abbr title="Partido Democrático Trabalhista">PDT</abbr> e <abbr title="Partido dos Trabalhadores">PT</abbr>;
-- dissidências posteriores do PDS participaram da formação da Frente Liberal e do **<abbr title="Partido da Frente Liberal">PFL</abbr>**.
+As continuidades mais importantes foram:
 
-A trajetória nacional de Sarney em 1984-1985 interessa ao assunto apenas porque reforçou a conexão entre a política maranhense e o poder federal: ele rompeu com a candidatura de Paulo Maluf, participou da Frente Liberal, integrou a chapa de Tancredo Neves e assumiu a Presidência em 1985.
+- <abbr title="Aliança Renovadora Nacional">ARENA</abbr> → principalmente <abbr title="Partido Democrático Social">PDS</abbr>;
+- <abbr title="Movimento Democrático Brasileiro">MDB</abbr> → <abbr title="Partido do Movimento Democrático Brasileiro">PMDB</abbr>;
+- dissidências posteriores do <abbr title="Partido Democrático Social">PDS</abbr> participaram da formação da Frente Liberal e, depois, do <abbr title="Partido da Frente Liberal">PFL</abbr>.
 
-## 8. Retorno do voto direto
+A trajetória nacional de Sarney em 1984-1985 reforçou a ligação entre política estadual e poder federal: ele rompeu com a candidatura de Paulo Maluf, participou da Frente Liberal, integrou a chapa de Tancredo Neves e assumiu a Presidência em 1985. Isso ampliou a projeção federal de sua rede sem eliminar a competição no Maranhão.
 
-A sequência mais importante é:
+## 1982: volta o voto direto, mas não voltam ainda as regras de hoje
 
-| Ano | Forma de escolha | Resultado principal |
+A Emenda Constitucional federal nº 15/1980 restabeleceu a eleição direta para governador. Em **15 de novembro de 1982**, **Luís Rocha**, do <abbr title="Partido Democrático Social">PDS</abbr>, venceu a primeira eleição direta para governador do Maranhão desde 1965.
+
+Comparar esse pleito com eleições atuais exige cuidado. A Lei nº 6.978/1982 exigia que o eleitor escolhesse candidatos do mesmo partido para os cargos disputados, sob pena de nulidade dos votos: era o <abbr title="Obrigação de votar em candidatos do mesmo partido">voto vinculado</abbr>. A regra fortalecia a lógica de chapa partidária. Portanto, “eleição direta” não significa “mesmo sistema eleitoral de hoje”.
+
+Em **1985**, a Emenda Constitucional federal nº 25 devolveu eleições diretas às prefeituras das capitais e de outros municípios alcançados pela mudança constitucional. Em São Luís venceu **Gardênia Gonçalves**, ligada a João Castelo. O resultado mostra que a capital podia ter equilíbrio político diferente daquele predominante nas redes do interior.
+
+## Redemocratização: competição aberta sem apagar as redes anteriores
+
+Em **1986**, **Epitácio Cafeteira**, do <abbr title="Partido do Movimento Democrático Brasileiro">PMDB</abbr>, venceu o governo estadual. Sua vitória combina três níveis de explicação: redemocratização nacional, fortalecimento do <abbr title="Partido do Movimento Democrático Brasileiro">PMDB</abbr> e popularidade temporária do <abbr title="Plano econômico federal de estabilização lançado em 1986">Plano Cruzado</abbr>, além da recomposição das alianças locais.
+
+A relação de Cafeteira com o grupo Sarney variou ao longo do tempo. Esse ponto é didaticamente importante: **liderança política não deve ser congelada como aliada ou adversária para sempre**.
+
+Em **5 de outubro de 1989**, a Assembleia Estadual Constituinte promulgou — isto é, aprovou e formalizou — a **Constituição do Estado do Maranhão**. Ela não foi <abbr title="Imposta sem aprovação por uma assembleia constituinte">outorgada</abbr> pelo governador e inseriu as instituições estaduais na nova ordem constitucional inaugurada em 1988.
+
+Nos anos 1990, o grupo Sarney mostrou capacidade de adaptação à competição multipartidária:
+
+| Eleição | Resultado | Chave para entender |
 |---|---|---|
-| 1965 | direta | José Sarney |
-| 1970 | indireta | Pedro Neiva de Santana |
-| 1974 | indireta | Nunes Freire |
-| 1978 | indireta | João Castelo |
-| 1982 | direta | Luís Rocha |
+| 1990 | **Edison Lobão**, do <abbr title="Partido da Frente Liberal">PFL</abbr>, vence João Castelo no 2º turno | reorganização do grupo em regras democráticas |
+| 1994 | **Roseana Sarney**, do <abbr title="Partido da Frente Liberal">PFL</abbr>, vence Epitácio Cafeteira no 2º turno | renovação geracional e primeira mulher eleita para governar o Maranhão |
+| 1998 | **Roseana Sarney** é reeleita no 1º turno | uso da nova regra federal de reeleição |
 
-A **Emenda Constitucional federal nº 15/1980** restabeleceu a eleição direta dos governadores. Em **15 de novembro de 1982**, **Luís Rocha**, do PDS, venceu a primeira eleição direta para governador do Maranhão desde 1965.
+O programa de Roseana utilizou a expressão **“Novo Tempo”**. Na interpretação de Zulene Barbosa, ela atualiza, em outro contexto, o recurso político ao “novo” já presente no “Maranhão Novo”. A comparação não torna os dois governos idênticos: um surgiu sob o regime militar; o outro, na competição democrática dos anos 1990.
 
-Em **1985**, as capitais voltaram a eleger diretamente seus prefeitos. Em São Luís, venceu **Gardênia Gonçalves**, ligada a João Castelo. O episódio mostra que a política da capital podia divergir do equilíbrio predominante no interior.
+A Emenda Constitucional federal nº 16/1997 permitiu uma única reeleição consecutiva para chefes do Executivo. Por isso, não confunda:
 
-## 9. Cafeteira e Constituição de 1989
+- **1994**: Roseana vence no **segundo turno**;
+- **1998**: Roseana é reeleita no **primeiro turno**.
 
-Em **1986**, **Epitácio Cafeteira**, do PMDB, venceu a eleição para governador.
+## O que permanece quando quase tudo institucionalmente mudou?
 
-Sua vitória ocorreu no contexto da redemocratização, do fortalecimento nacional do PMDB, da popularidade temporária do Plano Cruzado e da recomposição das alianças locais. A relação de Cafeteira com o grupo Sarney variou ao longo do tempo; não deve ser descrita como aliança ou oposição permanente.
+Ao chegar a 2000, regras, partidos e instituições haviam mudado profundamente, mas redes municipais, alianças flexíveis, circulação entre legendas e conexões federais continuavam relevantes. Evite dois extremos: **continuidade absoluta**, como se nada institucional tivesse mudado, e **ruptura total**, como se novas regras apagassem redes anteriores.
 
-Em **5 de outubro de 1989**, a Assembleia Estadual Constituinte promulgou a **Constituição do Estado do Maranhão**.
+As eleições municipais de **2000** encerram o recorte e ainda mostram a importância das bases locais para grupos estaduais. Elas não alteraram a chefia do Executivo estadual.
 
-Pontos de prova:
+### Como raciocinar em prova
 
-- foi **promulgada**, não outorgada;
-- decorreu do poder constituinte estadual exercido pela Assembleia;
-- reorganizou as instituições estaduais sob a ordem democrática;
-- não foi uma “Constituição de Cafeteira”.
+Em vez de decorar uma lista solta de governos, aplique quatro perguntas:
 
-## 10. Anos 1990: Lobão e Roseana
+1. **Qual era a regra de escolha?** Direta em 1965; indireta em 1970, 1974 e 1978; direta novamente a partir de 1982.
+2. **Legenda e grupo político são a mesma coisa?** Não. Sarney e Vitorino estiveram juntos formalmente na <abbr title="Aliança Renovadora Nacional">ARENA</abbr>, e antigos aliados também romperam entre si.
+3. **Uma derrota encerra toda influência?** Não. 1965 rompe a hegemonia vitorinista, mas Vitorino ainda articula politicamente depois.
+4. **Redemocratização elimina continuidades?** Não. Cafeteira, Lobão e Roseana competiram sob novas regras, enquanto redes municipais e alianças continuaram relevantes.
 
-Em **1990**, **Edison Lobão**, ligado ao PFL e ao grupo Sarney, venceu **João Castelo** no segundo turno da eleição para governador.
-
-Em **1994**, **Roseana Sarney**, do PFL, venceu **Epitácio Cafeteira** no segundo turno. Tornou-se a primeira mulher eleita para governar o Maranhão.
-
-Seu programa utilizou a expressão **“Novo Tempo”**, interpretada por Zulene Barbosa como atualização do discurso de renovação que já aparecera no “Maranhão Novo”, agora em outra conjuntura política.
-
-| “Maranhão Novo” | “Novo Tempo” |
-|---|---|
-| José Sarney, a partir de 1966 | Roseana Sarney, a partir de 1995 |
-| ruptura discursiva com o vitorinismo | renovação geracional do grupo Sarney |
-| contexto autoritário | contexto democrático dos anos 1990 |
-
-A **Emenda Constitucional federal nº 16/1997** permitiu uma recondução consecutiva para chefes do Executivo. Em **1998**, Roseana foi reeleita no **primeiro turno**.
-
-Não confunda:
-
-- 1994: vitória de Roseana no **segundo turno**;
-- 1998: reeleição no **primeiro turno**.
-
-## 11. O ano 2000 como limite
-
-O ano **2000** encerra o recorte da segunda metade do século XX. As eleições municipais daquele ano mostram a continuidade da competição entre grupos estaduais nos municípios, mas não alteraram a chefia do Executivo estadual.
-
-O assunto não avança para a eleição estadual de 2002.
-
-## 12. Hegemonia, ruptura e permanência
-
-Em História política, **hegemonia** não significa unanimidade, ausência de eleições ou controle absoluto de todos os governos. Significa capacidade prolongada de coordenar alianças, influenciar sucessões, mobilizar redes municipais e adaptar-se a novas regras.
-
-| Rupturas | Permanências |
-|---|---|
-| derrota do vitorinismo em 1965 | peso das redes municipais |
-| ARENA/MDB | personalismo e patronagem |
-| eleições indiretas na ditadura | conexão entre estado e União |
-| pluripartidarismo | alianças flexíveis e facções |
-| retorno do voto direto em 1982 | circulação de lideranças entre partidos |
-| Constituição estadual de 1989 | uso político do discurso de renovação |
-| possibilidade de reeleição após 1997 | adaptação dos grupos às novas regras |
-
-A interpretação correta evita dois extremos: continuidade absoluta, como se nada tivesse mudado, e ruptura total, como se novas instituições tivessem eliminado práticas e redes anteriores.
-
-## 13. Linha do tempo essencial
-
-| Ano | Fato político |
-|---|---|
-| 1951 | crise de legitimidade; vitorinismo sobrevive |
-| 1958 | Sarney é eleito deputado no campo das Oposições Coligadas |
-| 1965 | eleição direta; vitória de Sarney |
-| 1966 | posse; “Maranhão Novo”; ARENA/MDB |
-| 1970 | início do ciclo de escolhas indiretas |
-| 1974 | Nunes Freire escolhido indiretamente |
-| 1978 | João Castelo escolhido indiretamente |
-| 1979 | fim do bipartidarismo |
-| 1982 | retorno da eleição direta; vitória de Luís Rocha |
-| 1985 | capitais voltam a eleger prefeitos diretamente |
-| 1986 | Cafeteira vence o governo |
-| 1989 | Constituição estadual é promulgada |
-| 1990 | Edison Lobão vence no segundo turno |
-| 1994 | Roseana vence Cafeteira no segundo turno |
-| 1998 | Roseana é reeleita no primeiro turno |
-| 2000 | eleições municipais encerram o recorte |
-
-## 14. Pegadinhas de prova
-
-1. **1965 = eleição; 1966 = posse.**
-2. A Greve de 1951 não encerrou imediatamente o vitorinismo.
-3. Oposições Coligadas = frente heterogênea, não partido único.
-4. Sarney iniciou a carreira eleitoral no PSD antes de se tornar liderança oposicionista ligada à UDN.
-5. Sarney e Vitorino conviveram formalmente na ARENA.
-6. ARENA forte não significa ARENA internamente unida.
-7. Pedro Neiva, Nunes Freire e João Castelo foram escolhidos indiretamente.
-8. Luís Rocha venceu a primeira eleição direta para governador desde 1965.
-9. Cafeteira venceu em 1986; Lobão, em 1990; Roseana, em 1994.
-10. Constituição maranhense: promulgada em **5 out. 1989** pela Assembleia Constituinte estadual.
-11. Roseana: **2º turno em 1994; 1º turno em 1998**.
-12. 2000 encerra o recorte; 2002 não entra.
+Se uma alternativa confundir **1965 com 1966**, eleição **indireta com nomeação simples**, <abbr title="Aliança Renovadora Nacional">ARENA</abbr> com bloco homogêneo, ou **1994 com 1998**, ela mistura justamente os níveis que o período exige separar.
