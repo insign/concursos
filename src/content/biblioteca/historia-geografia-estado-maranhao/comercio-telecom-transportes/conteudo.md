@@ -8,324 +8,214 @@ storageId: "comercio-telecom-transportes"
 
 # Setor terciário: comércio, telecomunicações e transportes
 
-## 1. Recorte do edital
+## 1. Três redes em uma única compra
 
-O item 12 de Geografia do Maranhão cobra **“Setor terciário: comércio, telecomunicações, transportes”**. O foco é geográfico e econômico: funções, redes, centralidades, circulação e desigualdades territoriais.
+Imagine, hipoteticamente, que uma pessoa em Bacabal compre pela internet um produto armazenado em São Luís. O produto não é fabricado de novo durante a venda, mas várias atividades econômicas acontecem entre o estoque e o consumidor:
 
-O item seguinte do edital trata de **malha viária**, e o posterior de **portos e aeroportos**. Assim:
+1. o pedido, a confirmação e o pagamento circulam por redes de **telecomunicações**;
+2. uma empresa organiza a oferta, a venda e a distribuição — é a função do **comércio**;
+3. o bem precisa ser deslocado até o destino — é a função do **transporte**.
 
-- este assunto explica **o papel econômico dos transportes, seus modos e seus fluxos**;
-- o Assunto 093 detalha **malhas, eixos, rodovias, ferrovias, portos e aeroportos**.
+Essas três atividades pertencem ao **setor terciário** porque prestam serviços que conectam produção, mercados e consumidores. A melhor forma de entender o tema é pensar em três redes complementares:
 
-A separação evita repetir infraestrutura física onde o edital pede, aqui, o funcionamento do setor terciário.
+| Rede | O que circula | Função econômica |
+|---|---|---|
+| comércio | mercadorias e transações | aproximar oferta e demanda, organizar compra, venda e distribuição |
+| telecomunicações | dados, voz e informação | permitir comunicação, coordenação, pagamento e prestação de serviços a distância |
+| transportes | pessoas e cargas | vencer distâncias físicas e ligar origens, destinos e pontos de transferência |
 
-## 2. O setor terciário
+O setor terciário é mais amplo que esses três eixos: também inclui, por exemplo, atividades financeiras, profissionais, pessoais e parte dos serviços públicos. Aqui, porém, o interesse está na **circulação** e na forma como ela organiza o território maranhense.
 
-O setor terciário reúne atividades ligadas à **circulação de bens, pessoas, informações e serviços**. Entre elas estão:
+Uma consequência é decisiva: **circular um bem não muda sua origem produtiva**. Mercadoria produzida em outro estado pode gerar venda, armazenagem e transporte no Maranhão sem se tornar, por isso, produção industrial ou agropecuária maranhense.
 
-- comércio atacadista e varejista;
-- transportes e logística;
-- telecomunicações;
-- serviços financeiros e empresariais;
-- serviços pessoais;
-- administração pública e outros serviços.
+## 2. Comércio: fazer o produto chegar ao mercado
 
-É um setor heterogêneo. Algumas atividades são intensivas em tecnologia e capital; outras dependem mais do trabalho e da proximidade com o consumidor. Há também diferenças de formalização, produtividade e alcance territorial.
+Comércio é a atividade de **revender mercadorias**, conectando produtores, distribuidores e compradores. Ele pode incluir formação de estoques, escolha de fornecedores, exposição de produtos, negociação, pagamento, entrega e serviços associados, mas sua operação central é a revenda: o comerciante não precisa fabricar o bem que vende.
 
-### 2.1 Produção, comércio e serviço não são a mesma coisa
+### 2.1 Atacado e varejo: o critério é o comprador
 
-Uma mercadoria pode ser:
+A distinção mais segura não é “loja grande versus loja pequena”, mas **para quem a venda se destina**.
 
-1. produzida no setor primário ou secundário;
-2. comercializada no setor terciário;
-3. transportada por diferentes modos;
-4. vendida em outro município ou estado.
+| Forma | Destino predominante da venda | Exemplo hipotético |
+|---|---|---|
+| atacado | revenda, transformação ou uso profissional/institucional | distribuidora vende caixas de bebidas a mercados |
+| varejo | consumidor final | mercado vende uma unidade ao consumidor |
 
-O comércio e o transporte **agregam serviços de circulação**, mas não mudam automaticamente a origem econômica do bem.
+Volume e tamanho do estabelecimento podem ajudar a reconhecer casos típicos, mas não definem sozinhos a categoria. Uma operação de grande valor ainda pode ser varejista se o comprador for o usuário final; uma empresa relativamente pequena pode realizar vendas atacadistas para outros negócios.
 
-> **Pegadinha:** uma carga produzida fora do Maranhão não se torna “produção maranhense” apenas porque atravessa o estado ou é nele embarcada.
+### 2.2 O comércio que aparece nas estatísticas empresariais
 
-## 3. Comércio
+A <abbr title="Classificação Nacional de Atividades Econômicas">CNAE</abbr> 2.0 organiza as atividades econômicas. Sua Seção G reúne **comércio e reparação de veículos automotores e motocicletas**, comércio por atacado e comércio varejista.
 
-O comércio aproxima produção e consumo. Suas funções incluem:
+A <abbr title="Pesquisa Anual de Comércio">PAC</abbr>, do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, investiga a empresa comercial formalmente constituída cuja principal fonte de receita é a atividade comercial. Sua população de referência é construída a partir do <abbr title="Cadastro Central de Empresas">CEMPRE</abbr>, cadastro empresarial mantido pelo <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>. Por isso, seus resultados descrevem o **segmento empresarial formal pesquisado**, não todo comércio existente no território.
 
-- aquisição e formação de estoques;
-- distribuição e fracionamento de lotes;
-- exposição e venda;
-- informação de mercado;
-- financiamento e meios de pagamento;
-- entrega e pós-venda.
+Dois conceitos evitam uma confusão frequente:
 
-Na <abbr title="Classificação Nacional de Atividades Econômicas">CNAE</abbr> 2.0, comércio e reparação de veículos automotores e motocicletas integram a **Seção G**.
+- **empresa** é a unidade jurídica que pode atuar em um ou vários endereços;
+- **unidade local** é um endereço de atuação da empresa em que se desenvolvem uma ou mais atividades econômicas.
 
-### 3.1 Atacado x varejo
+Assim, uma rede pode ser uma só empresa e possuir várias unidades locais. Número de empresas, número de estabelecimentos e número de trabalhadores não são medidas intercambiáveis.
 
-| Atacado | Varejo |
-|---|---|
-| vende predominantemente a revendedores, produtores, empresas e instituições | vende predominantemente ao consumidor final |
-| costuma operar lotes maiores | costuma fracionar a oferta para consumo final |
-| articula produção e distribuição | articula distribuição e consumo |
+A informalidade exige outra lente. Trabalhadores por conta própria, vendedores sem vínculo formal e outras formas de ocupação podem escapar do universo de uma pesquisa empresarial. Para estudar **pessoas e formas de ocupação**, uma pesquisa domiciliar é conceitualmente mais adequada. Um exemplo é a <abbr title="Pesquisa Nacional por Amostra de Domicílios Contínua">PNAD Contínua</abbr>, que produz indicadores sobre trabalho e formas de ocupação. Portanto, não se deve assumir que a <abbr title="Pesquisa Anual de Comércio">PAC</abbr> representa todo o comércio informal.
 
-O critério é a **função predominante da venda**, não o tamanho físico do estabelecimento. Uma grande rede pode ser varejista.
+### 2.3 Receita, margem e valor gerado são coisas diferentes
 
-### 3.2 Comércio formal e informalidade
+Três números podem crescer ao mesmo tempo sem medir a mesma coisa:
 
-Pesquisas empresariais, como a Pesquisa Anual de Comércio (PAC), medem o universo definido em sua metodologia e **não representam integralmente o comércio informal**.
+- **receita**: valor obtido com vendas ou prestação de serviços, conforme o conceito da fonte;
+- **margem de comercialização**: diferença entre a receita líquida de revenda e o custo das mercadorias revendidas;
+- **valor adicionado bruto**: valor que a atividade acrescenta ao processo produtivo.
 
-Por isso, é preciso distinguir:
+Nas contas econômicas, o **valor adicionado bruto** corresponde, em termos simplificados, ao valor da produção menos o consumo intermediário:
 
-- empresa formal;
-- unidade local;
-- trabalhador por conta própria;
-- vendedor ambulante;
-- ocupação informal.
+$$\text{valor adicionado bruto}=\text{valor da produção}-\text{consumo intermediário}$$
 
-Ausência em uma pesquisa empresarial não significa atividade econômica igual a zero.
+Por isso, **receita não é sinônimo de valor adicionado**. Também é preciso separar valores correntes de crescimento real: um aumento em reais correntes pode refletir mudança de preços e, sozinho, não prova aumento do volume produzido ou vendido.
 
-### 3.3 Receita não é VAB
+## 3. Centralidade: por que algumas cidades atraem mais fluxos
 
-Dois conceitos não devem ser confundidos:
+Uma cidade exerce **centralidade** quando concentra funções capazes de atrair pessoas, empresas e decisões de uma área mais ampla. Comércio diversificado, serviços especializados, gestão pública e empresarial, conexões de transporte e comunicação podem aumentar esse alcance.
 
-- **receita:** valor obtido pela empresa em suas vendas ou serviços, segundo o conceito da pesquisa;
-- **valor adicionado bruto (VAB):** valor gerado pela atividade econômica, obtido pela diferença entre valor da produção e consumo intermediário.
+Isso cria uma rede urbana: centros menores atendem necessidades mais frequentes e próximas; centros de maior alcance oferecem funções mais raras ou especializadas e atraem deslocamentos de uma área maior.
 
-Em forma simplificada:
+Na <abbr title="Regiões de Influência das Cidades">REGIC</abbr>, a unidade urbana chamada **Cidade** pode corresponder a um município isolado ou a um <abbr title="conjunto urbano de municípios fortemente integrados">Arranjo Populacional</abbr>. A edição de 2018, do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, organiza os centros urbanos brasileiros em cinco níveis principais: **Metrópoles, Capitais Regionais, Centros Sub-Regionais, Centros de Zona e Centros Locais**. A hierarquia expressa posição na rede de gestão e atração de bens e serviços; não é um ranking anual de população, faturamento ou <abbr title="Produto Interno Bruto">PIB</abbr>.
 
-$$VAB = VP - CI$$
+### 3.1 Região de influência não é divisão administrativa
 
-Logo, aumento de receita a preços correntes não prova, sozinho, crescimento real da atividade.
+A região de influência de uma cidade é formada pelos **vínculos que convergem para ela**. Esses vínculos podem atravessar limites estaduais, apresentar sobreposições e não precisam formar uma área contínua.
 
-## 4. Comércio e rede urbana
+Por isso, região de influência não se confunde com região metropolitana criada por lei. Uma é uma leitura funcional da rede urbana; a outra é um recorte jurídico-administrativo.
 
-O comércio e os serviços tendem a se concentrar onde há:
+### 3.2 São Luís e Imperatriz no Maranhão
 
-- maior população e renda;
-- centralidade urbana;
-- acessibilidade;
-- oferta de serviços especializados;
-- conexões com outros municípios;
-- infraestrutura de comunicação e transporte.
+Na <abbr title="Regiões de Influência das Cidades">REGIC</abbr> 2018, o Arranjo Populacional de São Luís é classificado como **Capital Regional A** e integra a rede de Fortaleza. Isso ajuda a entender São Luís como a principal referência estadual para funções de maior alcance, com comércio diversificado, serviços especializados e atividades de gestão.
 
-A **<abbr title="Regiões de Influência das Cidades">REGIC</abbr> 2018**, do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, identifica a hierarquia dos centros urbanos e suas regiões de influência a partir de relações de gestão e atração por bens e serviços.
+Imperatriz exerce outra centralidade importante: articula comércio, serviços e circulação no oeste e sudoeste maranhense e mantém conexões com áreas de estados vizinhos. O ponto de prova não é transformar as duas cidades em concorrentes de um ranking único, mas perceber **escalas de influência diferentes dentro de uma mesma rede territorial**.
 
-A hierarquia principal possui cinco níveis:
+## 4. Telecomunicações: fazer a informação circular
 
-1. Metrópoles;
-2. Capitais Regionais;
-3. Centros Sub-Regionais;
-4. Centros de Zona;
-5. Centros Locais.
+Telecomunicações reduzem o tempo necessário para transmitir informações entre lugares. Elas sustentam chamadas, mensagens, internet, pagamentos, comércio eletrônico, coordenação logística e inúmeros serviços prestados a distância.
 
-### 4.1 Região de influência
+A infraestrutura, porém, não garante uso igual por toda a população. Para interpretar dados do setor, separe quatro ideias:
 
-Região de influência é uma **rede de relações entre cidades**. Não precisa ser uma área perfeitamente contínua e pode atravessar limites estaduais.
+| Conceito | O que significa | O que não permite concluir sozinho |
+|---|---|---|
+| acesso | linha, contrato ou conexão ativa, conforme o serviço | número exato de pessoas |
+| estação | elemento de infraestrutura de rede | número de clientes atendidos |
+| cobertura | área ou população estimada sob presença de sinal segundo o método adotado | uso efetivo ou qualidade uniforme |
+| uso | utilização real por pessoas ou domicílios | existência de infraestrutura própria em cada local |
 
-Também não se confunde com região metropolitana, que é um recorte instituído juridicamente.
+Na banda larga fixa, o <abbr title="Serviço de Comunicação Multimídia">SCM</abbr> contabiliza acessos em serviço. Um acesso pode atender várias pessoas de um domicílio ou empresa. Na telefonia e banda larga móveis, uma pessoa pode manter mais de uma linha, enquanto empresas e máquinas também podem possuir acessos. É por isso que uma densidade de acessos móveis pode superar 100 por 100 habitantes sem haver contradição matemática.
 
-### 4.2 São Luís e Imperatriz
+### 4.1 Cobertura estimada não é experiência garantida
 
-Na REGIC 2018, o **Arranjo Populacional de São Luís/MA é Capital Regional A**. O IBGE o situa na rede de Fortaleza e registra relações de influência que alcançam ampla parte do Maranhão.
+Em ferramentas de intensidade de sinal da <abbr title="Agência Nacional de Telecomunicações">Anatel</abbr>, a cobertura esperada é calculada a partir de dados técnicos das estações e representa uma **estimativa**, não uma medição perfeita de cada ponto e de cada momento.
 
-São Luís concentra:
+A experiência real pode variar com relevo, edificações, ambiente interno ou externo, posição do aparelho e outros fatores físicos e operacionais. Da mesma forma, a presença de <abbr title="quinta geração de redes móveis">5G</abbr> em um município não significa cobertura integral, contratação por todos os moradores ou qualidade uniforme em todo o território.
 
-- funções administrativas;
-- comércio diversificado;
-- serviços especializados;
-- gestão pública e empresarial;
-- conexões de alcance estadual e interestadual.
+Essa distinção vale para qualquer leitura de conectividade:
 
-**Imperatriz** constitui outra centralidade importante, articulando comércio, serviços e circulação no oeste e sudoeste maranhense e em áreas interestaduais próximas.
+**infraestrutura disponível → cobertura possível → acesso contratado → uso efetivo**
 
-A leitura correta é de **rede urbana com centralidades de alcances diferentes**, e não de um ranking simples de riqueza.
+Uma etapa não garante automaticamente a seguinte.
 
-## 5. Telecomunicações
+### 4.2 Desigualdade digital é mais que ausência de sinal
 
-Telecomunicações são, ao mesmo tempo:
+Duas áreas podem ter infraestrutura disponível e, ainda assim, apresentar níveis de uso muito diferentes. A conectividade efetiva também depende de renda, preço do serviço, disponibilidade de dispositivos, qualidade da conexão e capacidade de utilizar os recursos digitais.
 
-- serviço do setor terciário;
-- infraestrutura de circulação de informação;
-- suporte a empresas, governo, educação e comércio;
-- fator de integração territorial.
+Portanto, expansão de rede pode ampliar oportunidades sem eliminar, por si só, desigualdades sociais e territoriais.
 
-Elas reduzem o custo e o tempo de circulação de informações, mas **não eliminam as desigualdades territoriais**.
+### 4.3 Comércio eletrônico junta informação e logística
 
-### 5.1 Acesso, cobertura e uso
+No comércio eletrônico, a compra pode ser concluída sem encontro físico entre comprador e vendedor, mas o fluxo material continua necessário quando há entrega de um bem.
 
-Esses conceitos devem permanecer separados:
+O mecanismo é:
 
-| Conceito | Significado básico |
-|---|---|
-| acesso | linha, contrato ou conexão ativa conforme o serviço |
-| cobertura | área estimada de disponibilidade de sinal/serviço |
-| usuário | pessoa que efetivamente utiliza o serviço |
-| domicílio conectado | domicílio com acesso segundo a pesquisa correspondente |
+**plataforma e comunicação → pedido e pagamento → separação de estoque → transporte → entrega**
 
-Um acesso não equivale necessariamente a uma pessoa. Uma conexão fixa pode atender várias pessoas; uma pessoa pode possuir mais de uma linha móvel.
+A digitalização desloca parte da transação para redes de informação; não torna desnecessários estoques, centros de distribuição ou transporte físico.
 
-Também é incorreto concluir que a existência de determinada tecnologia em um município significa cobertura total ou uso por toda a população.
+## 5. Transportes: fazer pessoas e cargas vencerem distâncias
 
-### 5.2 Desigualdade digital
+Transporte pertence ao setor terciário porque presta o **serviço de deslocamento**. Rodovias, ferrovias, hidrovias, portos, aeroportos e terminais são infraestruturas que tornam esse serviço possível, mas infraestrutura e serviço não são sinônimos.
 
-A conectividade depende de mais do que presença de rede. Entre os fatores estão:
+Essa separação é importante: aqui interessa compreender **modos, fluxos e integração econômica**. A descrição física detalhada da malha e das instalações é objeto próprio do assunto seguinte.
 
-- localização urbana ou rural;
-- renda;
-- preço do serviço;
-- disponibilidade de dispositivos;
-- qualidade e velocidade;
-- letramento digital;
-- infraestrutura disponível.
+### 5.1 Passageiros, cargas e unidades de medida
 
-Por isso, **cobertura não é sinônimo de inclusão digital**.
+Antes de comparar números de transporte, identifique o que está sendo contado:
 
-### 5.3 Telecomunicações e comércio eletrônico
+- **passageiro** pode representar pessoa transportada, embarque ou etapa de viagem, conforme a fonte;
+- **tonelada** mede massa de carga;
+- **tonelada-quilômetro** combina massa transportada e distância percorrida, medindo trabalho de transporte;
+- **movimentação** registra fluxo por uma instalação ou trecho e não revela, sozinha, a origem produtiva da mercadoria.
 
-O comércio eletrônico integra:
+Uma mesma pessoa pode aparecer em mais de um embarque ou etapa. Da mesma forma, carga que atravessa o Maranhão ou é transferida entre veículos no estado não se torna automaticamente produção maranhense.
 
-**informação + plataforma + pagamento + estoque + entrega**
+### 5.2 Cada modo resolve um problema diferente
 
-A telecomunicação viabiliza pedido e pagamento, mas o produto físico ainda depende de logística e transporte. O e-commerce pode ampliar o alcance de mercados sem eliminar as diferenças de renda, conectividade e acessibilidade.
+Não existe um modo de transporte universalmente superior. A escolha depende de distância, custo, tempo, volume, valor da carga, frequência e possibilidade de acesso à origem e ao destino.
 
-## 6. Transportes como atividade terciária
+| Modo | Vantagem funcional típica | Limitação que precisa ser considerada |
+|---|---|---|
+| rodoviário | alcança origens e destinos dispersos e atende bem coleta e entrega | custo cresce em percursos longos e grandes volumes |
+| ferroviário | adequado a grandes volumes em longas distâncias terrestres | depende de eixos e terminais, com menor alcance porta a porta |
+| aquaviário | eficiente para grandes volumes e percursos por mar, rios e canais navegáveis | depende de vias navegáveis, instalações e operações de transferência |
+| aéreo | rapidez em longas distâncias, passageiros e cargas urgentes ou de alto valor relativo | custo elevado e menor adequação a cargas pesadas de baixo valor relativo |
 
-O transporte presta o serviço de **deslocar pessoas e mercadorias**. Ele:
+As características são **tendências funcionais**, não regras absolutas. Uma questão correta precisa respeitar as condições da operação concreta.
 
-- conecta produção, distribuição e consumo;
-- amplia ou restringe mercados;
-- influencia custos e tempos;
-- integra cidades e regiões;
-- sustenta cadeias produtivas e comércio exterior.
+### 5.3 Quando os modos se combinam
 
-Neste assunto, interessa sobretudo a **função econômica e territorial** dos modos.
+Uma cadeia pode usar caminhão na coleta, ferrovia no trecho longo e outro caminhão na entrega. A coordenação de dois ou mais modos ao longo do deslocamento forma uma cadeia **intermodal**.
 
-### 6.1 Passageiros e cargas
+A transferência física da carga entre veículos ou modos é o **transbordo**. Ele pode aumentar tempo e custo, mas também permite combinar as vantagens de cada modo. Por isso, intermodalidade não significa ausência de terminais ou de transferências; significa **coordenação entre etapas**.
 
-Indicadores de passageiros podem medir embarques, desembarques, viagens, assentos, origem e destino.
+## 6. Maranhão como território de produção e circulação
 
-Indicadores de cargas podem medir:
+O Maranhão pode aparecer em uma cadeia econômica em papéis diferentes:
 
-- toneladas;
-- tonelada-quilômetro;
-- valor da mercadoria;
-- origem e destino;
-- embarque, desembarque ou trânsito.
+1. **origem** — o bem é produzido no estado;
+2. **destino** — o bem é consumido ou utilizado no estado;
+3. **passagem** — o fluxo atravessa o território;
+4. **armazenagem ou distribuição** — a carga é concentrada e redistribuída;
+5. **transferência** — a carga muda de veículo ou modo;
+6. **embarque para outro mercado** — a mercadoria deixa o território por um corredor logístico.
 
-**Tonelada** mede massa.  
-**Tonelada-quilômetro** combina massa e distância.
+Esses papéis podem gerar serviços, emprego e renda no Maranhão sem alterar a origem econômica do bem transportado. Essa distinção conecta os capítulos vizinhos: agricultura, extrativismo e indústria explicam **onde o bem é produzido ou transformado**; comércio, telecomunicações e transportes explicam **como transações, informações e cargas circulam**.
 
-> **Pegadinha:** movimentação de carga não é sinônimo de produção local.
 
-## 7. Funções dos modos de transporte
+## 7. Como ler dados sem misturar universos
 
-| Modo | Funções típicas |
-|---|---|
-| rodoviário | capilaridade, coleta, entrega e ligação entre cidades |
-| ferroviário | grandes volumes e longas distâncias terrestres |
-| aquaviário | grandes volumes, navegação interior, cabotagem e longo curso |
-| aéreo | rapidez, passageiros a longas distâncias e cargas urgentes ou de alto valor relativo |
+Grande parte dos erros de prova nasce de comparar números que parecem semelhantes, mas medem objetos diferentes. Antes de aceitar uma conclusão, faça cinco perguntas:
 
-Nenhum modo é “melhor” em qualquer situação. A escolha depende de:
+1. **Fonte:** quem produziu o dado e com qual finalidade?
+2. **Universo:** empresas, unidades locais, pessoas, domicílios, acessos, passageiros ou cargas?
+3. **Unidade:** reais, percentual, linhas, contratos, toneladas, tonelada-quilômetro ou outra medida?
+4. **Tempo:** estoque em uma data, fluxo mensal ou resultado anual?
+5. **Geografia:** município, estado, região de influência, origem, destino ou local de passagem?
 
-- distância;
-- custo;
-- tempo;
-- volume;
-- valor da carga;
-- frequência;
-- acessibilidade.
+Esse método evita inferências como:
 
-## 8. Intermodalidade
+- tratar ausência de divulgação municipal como valor zero;
+- chamar número de acessos de número de usuários;
+- dividir contratos de banda larga por domicílios de outra pesquisa e apresentar o resultado como percentual de famílias conectadas sem compatibilizar conceitos;
+- chamar receita a preços correntes de crescimento real;
+- atribuir ao Maranhão toda carga que apenas circulou ou foi embarcada no estado.
 
-Intermodalidade é a articulação de dois ou mais modos em uma mesma cadeia:
+Também evita misturar pesquisas. A <abbr title="Pesquisa Anual de Comércio">PAC</abbr> estuda empresas comerciais; a <abbr title="Pesquisa Anual de Serviços">PAS</abbr> investiga empresas formalmente constituídas de serviços não financeiros dentro de seu âmbito, excluindo Saúde e Educação, e organiza as atividades pesquisadas em **sete grandes segmentos**. Entre eles estão **informação e comunicação** e **transportes, serviços auxiliares aos transportes e correio**. Nenhuma das duas pesquisas, isoladamente, equivale a “todo o setor terciário”.
 
-$$origem \rightarrow modo\ 1 \rightarrow transbordo \rightarrow modo\ 2 \rightarrow destino$$
+## 8. Fechamento do modelo mental
 
-Ela exige coordenação entre operadores, terminais, horários e documentos.
+O setor terciário maranhense pode ser lido como um sistema de circulação:
 
-> **Pegadinha:** intermodalidade não elimina transbordos; ela organiza a integração entre modos.
+**telecomunicações transmitem informação → comércio organiza a transação → transportes deslocam pessoas e bens → centralidades urbanas coordenam e atraem fluxos**
 
-## 9. O Maranhão como nó de circulação
+Para resolver questões, preserve quatro separações:
 
-O território maranhense pode participar de uma cadeia como:
+- **produção ≠ circulação**;
+- **empresa ≠ unidade local**;
+- **acesso ≠ usuário ≠ cobertura**;
+- **movimentação de carga ≠ origem da produção**.
 
-- origem;
-- destino;
-- passagem;
-- armazenagem;
-- transbordo;
-- ponto de exportação.
-
-Essas funções são diferentes. A presença de fluxos intensos pode gerar atividade de transporte, comércio e logística no estado, sem transformar em produção maranhense tudo o que circula por seu território.
-
-Essa distinção é especialmente importante em questões que associam o Maranhão a corredores de circulação de alcance interestadual ou internacional.
-
-## 10. Integração entre comércio, telecomunicações e transportes
-
-Os três eixos do edital formam uma cadeia interdependente:
-
-1. **telecomunicações** transmitem pedidos, pagamentos e informações;
-2. **comércio** organiza estoques, preços e vendas;
-3. **transportes** deslocam pessoas e mercadorias;
-4. **centralidades urbanas** concentram serviços e redistribuem fluxos.
-
-Uma falha de conectividade pode limitar vendas digitais; um alto custo de transporte pode ampliar preços; uma centralidade urbana pode atrair consumidores de vários municípios.
-
-## 11. Limite com o Assunto 093
-
-### Estude aqui
-
-- funções econômicas do comércio;
-- atacado x varejo;
-- centralidades e rede urbana;
-- telecomunicações como serviço e rede;
-- acesso x cobertura x uso;
-- desigualdade digital;
-- funções dos modos;
-- passageiros x cargas;
-- intermodalidade;
-- fluxo x produção local.
-
-### Deixe para o Assunto 093
-
-- traçado e extensão de rodovias e ferrovias;
-- inventário da malha viária;
-- identificação e características detalhadas de portos;
-- aeroportos, pistas, terminais e capacidades físicas.
-
-## 12. Questão oficial correlata
-
-Em item 35 da prova de **Soldado da Polícia Militar do Maranhão (PM-MA), CESPE/Cebraspe, 2017**, aplicada em 17 de dezembro de 2017, a banca relacionou aglomerações industriais modernas ao desenvolvimento de redes de transporte e logística capazes de agilizar a circulação de insumos, pessoas e mercadorias. O gabarito definitivo foi **Certo**.
-
-A ideia aproveitável para este assunto é funcional: redes de transporte integram atividades e territórios. Isso não permite concluir que a infraestrutura produza as mercadorias que movimenta nem que todo fluxo corresponda à produção local.
-
-## 13. Pegadinhas frequentes
-
-1. Terciário não é apenas comércio.
-2. Atacado não é “loja grande”.
-3. Varejo é definido pelo destino predominante ao consumidor final.
-4. Pesquisa empresarial não mede toda informalidade.
-5. Receita não é VAB.
-6. REGIC não é ranking anual de <abbr title="Produto Interno Bruto">PIB</abbr> ou faturamento.
-7. Região de influência não é região metropolitana.
-8. Acesso não é usuário.
-9. Cobertura não é uso.
-10. Cobertura municipal não significa cobertura territorial total.
-11. Conectividade não elimina desigualdade digital.
-12. E-commerce não elimina logística física.
-13. Tonelada não é tonelada-quilômetro.
-14. Carga em trânsito não é produção local.
-15. Embarque não determina origem econômica.
-16. Intermodalidade não elimina transbordo.
-17. Função econômica do transporte não é inventário de infraestrutura.
-
-## 14. Método rápido de resolução
-
-Ao ler uma questão, pergunte:
-
-1. O enunciado trata de **comércio, telecomunicações ou transporte**?
-2. Está confundindo **produção com circulação**?
-3. Está confundindo **receita com VAB**?
-4. Está confundindo **acesso, cobertura e uso**?
-5. Está confundindo **região de influência com região metropolitana**?
-6. Está atribuindo ao Maranhão a origem de uma carga apenas porque ela circula pelo estado?
-7. O enunciado trata da função do transporte ou já invadiu o inventário físico do Assunto 093?
+Se essas fronteiras estiverem claras, nomes de pesquisas, modos de transporte e classificações deixam de ser listas soltas: cada um passa a responder a uma pergunta específica sobre **quem circula, o que circula, por onde circula e como isso é medido**.

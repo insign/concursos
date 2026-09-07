@@ -1,11 +1,14 @@
-- Cebraspe/TCE-MA. Edital nº 1, de 6 de julho de 2026. Item 12 de Geografia do Maranhão.
-- IBGE. Regiões de Influência das Cidades 2018 (REGIC 2018). Resultados definitivos e rede urbana.
-- IBGE/CONCLA. CNAE 2.0 — Seção G: Comércio; reparação de veículos automotores e motocicletas.
-- IBGE. Pesquisa Anual de Comércio (PAC). Metodologia e âmbito.
-- IBGE. Pesquisa Anual de Serviços (PAS). Metodologia e âmbito.
-- IBGE. Sistema de Contas Regionais. Conceitos de VAB, PIB, valores correntes e volume.
-- Anatel. Coletas de dados de acessos e informações sobre cobertura dos serviços de telecomunicações.
-- ANTT. Informações e painéis de transporte terrestre.
-- ANTAQ. Estatístico Aquaviário e conceitos de movimentação.
-- Infra S.A./Observatório Nacional de Transporte e Logística. Diagnóstico Logístico.
-- Cebraspe. PM-MA 2017, caderno 359_PMMA_CG2_01, item 35, e gabarito definitivo.
+- Cebraspe. Tribunal de Contas do Estado do Maranhão. **Concurso TCE/MA 2026** — Edital nº 1, de 6 de julho de 2026; conhecimentos gerais de História e Geografia do Maranhão, item 12. https://www.cebraspe.org.br/concursos/tce_ma_26
+- IBGE. **Regiões de Influência das Cidades 2018**. Rio de Janeiro: IBGE, 2020. https://www.ibge.gov.br/geociencias/organizacao-do-territorio/redes-e-fluxos-geograficos/15798-regioes-de-influencia-das-cidades.html
+- IBGE/CONCLA. **CNAE 2.0 — Classificação Nacional de Atividades Econômicas**, inclusive Seção G — Comércio; reparação de veículos automotores e motocicletas. https://concla.ibge.gov.br/busca-online-cnae.html
+- IBGE. **Pesquisa Anual de Comércio — PAC**: definição, âmbito, conceitos e métodos. https://www.ibge.gov.br/estatisticas/economicas/comercio/9075-pesquisa-anual-de-comercio.html
+- IBGE. **Pesquisa Anual de Serviços — PAS**: definição, âmbito, segmentos, conceitos e métodos. https://www.ibge.gov.br/estatisticas/economicas/servicos/9028-pesquisa-anual-de-servicos.html
+- IBGE. **PNAD Contínua — Pesquisa Nacional por Amostra de Domicílios Contínua**: trabalho, posição na ocupação e outras características do mercado de trabalho. https://www.ibge.gov.br/estatisticas/sociais/trabalho/2511-np-pnad-continua.html
+- IBGE. **Anuário Estatístico do Brasil 2024 — Glossário**, verbetes “unidade local” e “margem de comercialização”. https://anuario.ibge.gov.br/2024/glossario-2024.html
+- IBGE. **Sistema de Contas Regionais — SCR**: conceitos de valor da produção, consumo intermediário, valor adicionado bruto e PIB. https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9054-contas-regionais-do-brasil.html
+- Agência Nacional de Telecomunicações. **Coletas de Dados de Acessos**, atualizado em 3 de agosto de 2026. https://www.gov.br/anatel/pt-br/regulado/universalizacao/coletas-de-dados-de-acessos
+- Agência Nacional de Telecomunicações. **Cobertura e Zona de Sombra**, atualizado em 31 de agosto de 2025. https://www.gov.br/anatel/pt-br/consumidor/conheca-seus-direitos-2/telefonia-movel/cobertura-e-zona-de-sombra
+- Agência Nacional de Telecomunicações. **Anatel lança ferramenta para consulta de intensidade do sinal celular** — explicação do caráter estimado da cobertura e de fatores que afetam a experiência real. https://www.gov.br/anatel/pt-br/assuntos/noticias/anatel-lanca-ferramenta-para-consulta-de-intensidade-sinal-celular
+- IBGE. **Logística dos Transportes 2024**, divulgada em 13 de julho de 2026 — fonte posterior ao edital usada apenas para corroborar conceitos de redes, modais e fluxos, sem ampliar o recorte programático. https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/47556-ibge-reune-bases-de-dados-de-diferentes-modais-para-mapear-a-logistica-de-transportes-no-brasil
+- Cebraspe. **PM-MA 2017 — Soldado**, caderno 359_PMMA_CG2_01, item 35, e gabarito definitivo. https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG2_01.pdf — https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/Gab_Definitivo_359_PMMA_CG2_01.pdf
+- Fundação Getulio Vargas. **PM-MA 2012 — Soldado Combatente**, prova Tipo 4 — Azul, questões 48 e 50, e gabarito definitivo. https://conhecimento.fgv.br/sites/default/files/concursos/policia_militar_soldado_combatente_caderno_04.pdf — https://conhecimento.fgv.br/sites/default/files/concursos/segep12_policia_militar_-_soldado_combatente_-_gabaritos_13_01_02.pdf
