@@ -8,186 +8,100 @@ storageId: revolta-bequimao-companhias
 
 # Revolta de Bequimão e Companhias de Comércio
 
-## 1. Recorte do edital
+## Por que moradores tomaram São Luís e ainda recorreram ao rei?
 
-Para este assunto, o núcleo é a **Revolta de Bequimão (ou de Beckman)**, suas **causas**, a **companhia de comércio ligada ao estanco de 1682** e os **objetivos dos revoltosos**.
+Em **1684**, moradores de São Luís derrubaram autoridades locais, fecharam as casas da companhia monopolista e expulsaram jesuítas. Ao mesmo tempo, enviaram **Tomás Beckman a Lisboa** para apresentar suas queixas ao rei. Essa aparente contradição organiza o assunto: a Revolta de Bequimão — também chamada **Revolta de Beckman** ou **Revolta do Estanco** — foi uma rebelião contra formas concretas de governo, comércio e controle do trabalho **dentro da monarquia portuguesa**, sem programa separatista comprovado.
 
-A sequência mais útil é:
+Três perguntas organizam o processo: **quem podia comerciar, quem controlava os trabalhadores e quem mandava localmente**.
 
-$$
-1680\ (\text{legislação indígena})
-\rightarrow 1682\ (\text{companhia/estanco})
-\rightarrow 1684\ (\text{revolta})
-\rightarrow 1685\ (\text{repressão})
-$$
+## Antes da revolta: comércio e trabalho formavam um único problema
 
-A **Companhia Geral do Grão-Pará e Maranhão, de 1755**, pertence a outro contexto. Neste tópico, ela interessa principalmente para evitar anacronismo.
+O Estado do Maranhão tinha administração separada do Estado do Brasil. Correntes e rotas atlânticas favoreciam a ligação marítima com Lisboa e dificultavam certas conexões costeiras com o restante da América portuguesa. Por isso, abastecimento e transporte eram problemas políticos e econômicos centrais.
 
-## 2. Contexto: comércio e trabalho no Maranhão
+A produção regional dependia fortemente do trabalho indígena. Parte dos indígenas vivia em <abbr title="Povoados indígenas sob administração missionária ou colonial">aldeamentos</abbr>, nos quais missionários exerciam autoridade e organizavam relações de trabalho. Para muitos moradores, portanto, a disputa com a Companhia de Jesus não era apenas religiosa: envolvia acesso a trabalhadores.
 
-No Estado do Maranhão e Grão-Pará, moradores dependiam de navegação, abastecimento metropolitano, crédito e trabalhadores para manter as atividades econômicas. Ao mesmo tempo, havia forte disputa pelo acesso ao **trabalho indígena**, aos aldeamentos missionários e à entrada de **africanos escravizados**.
+Em **1680**, a Coroa publicou legislação que afirmava a liberdade dos indígenas do Estado e restringia sua escravização. Isso não eliminou tutela, missões, recrutamento e outras coerções coloniais, mas reduziu formas de acesso ao trabalho que os moradores consideravam essenciais.
 
-Duas medidas ajudam a entender a tensão:
+A resposta régia procurou combinar duas coisas: limitar a escravização indígena e criar uma oferta mais regular de africanos escravizados e de mercadorias. É aí que entra a companhia de 1682.
 
-- a **legislação de 1680** reforçou restrições ao cativeiro indígena e a tutela missionária, sem eliminar o uso colonial e coercitivo do trabalho indígena;
-- em **1682**, uma companhia comercial recebeu privilégios monopolistas para atuar na região, com a expectativa de melhorar abastecimento, comércio e fornecimento de africanos escravizados.
+## 1682: a solução comercial que virou parte do conflito
 
-Essas soluções alteravam quem controlava comércio e trabalho — exatamente os dois campos centrais do conflito.
+Em **1682**, a Coroa confirmou um contrato com comerciantes para atuar no Maranhão e no Pará. A empresa deveria abastecer a região com mercadorias e introduzir regularmente africanos escravizados. Em troca, recebeu privilégios comerciais.
 
-## 3. A companhia de 1682 e o estanco
+O regime ficou conhecido como <abbr title="Monopólio comercial concedido ou contratado pela Coroa">estanco</abbr>. Em vez de cada morador negociar livremente com diferentes agentes, operações importantes de compra, venda e circulação ficavam concentradas nos contratadores autorizados. **Estanco, portanto, é monopólio; não é sinônimo de imposto.**
 
-A empresa diretamente ligada às causas da revolta é normalmente chamada **Companhia de Comércio do Maranhão**, também aparecendo na historiografia com denominações próximas que incluem Maranhão e Grão-Pará ou a palavra **estanco**.
+As reclamações atribuídas à companhia incluíam abastecimento insuficiente, condições comerciais desfavoráveis e fornecimento de africanos escravizados abaixo do esperado. O arranjo que deveria aliviar a falta de trabalhadores passou a combinar, aos olhos dos descontentes, **restrição comercial com falta de abastecimento**.
 
-### 3.1. O que é estanco
+Quando a legislação limitava a escravização indígena e a companhia não entregava o esperado de trabalhadores africanos, crescia a pressão colonial pelo trabalho indígena. **Comércio e trabalho eram partes do mesmo conflito.**
 
-**Estanco** é um regime de **monopólio autorizado pela Coroa**. Na prática, a companhia concentrava parcelas relevantes da compra, venda e circulação de mercadorias, limitando a liberdade de negociação dos moradores.
+## Por que os jesuítas e as autoridades também se tornaram alvos
 
-> **Pegadinha:** estanco não é sinônimo de simples imposto.
+A Companhia de Jesus tinha papel importante nos <abbr title="Povoados indígenas sob administração missionária ou colonial">aldeamentos</abbr> e no controle de indígenas livres. Os moradores criticavam esse <abbr title="Autoridade sobre assuntos administrativos e materiais, além dos religiosos">poder temporal</abbr> dos missionários porque ele limitava sua capacidade de obter e dirigir trabalhadores indígenas.
 
-### 3.2. Por que a companhia gerou insatisfação
+Também havia conflito com autoridades coloniais: o governador Francisco de Sá e Meneses permanecia em Belém, enquanto os revoltosos de São Luís denunciavam práticas de governo que consideravam abusivas.
 
-As reclamações dos moradores envolviam:
+O quadro causal pode ser reconstruído sem uma lista para decorar:
 
-- mercadorias insuficientes ou em condições consideradas desfavoráveis;
-- restrição à liberdade de comércio;
-- preços e valores de compra julgados prejudiciais;
-- fornecimento de africanos escravizados abaixo do esperado;
-- concentração de privilégios em uma empresa monopolista.
+**restrições ao cativeiro indígena → expectativa de maior oferta de africanos escravizados → desempenho insatisfatório atribuído à companhia + monopólio comercial → conflito com jesuítas e autoridades → rebelião em São Luís.**
 
-O ponto de prova não é decorar cada cláusula do contrato, mas compreender a relação:
+Essa cadeia explica por que é errado reduzir o movimento a “ódio aos jesuítas” ou apenas ao monopólio.
 
-**monopólio + abastecimento insatisfatório + crise de trabalhadores = aumento da oposição local.**
+## 1684: da reclamação à tomada do governo
 
-## 4. Trabalho indígena, africano e jesuítas
+Na noite de **24 para 25 de fevereiro de 1684**, os insurgentes tomaram São Luís. Controlaram as casas do <abbr title="Monopólio comercial concedido ou contratado pela Coroa">estanco</abbr>, prenderam o <abbr title="Autoridade colonial responsável pelo governo e defesa local">capitão-mor</abbr>, afastaram autoridades e organizaram um novo governo local.
 
-A disputa pela mão de obra é inseparável do conflito comercial.
+Esse governo ficou conhecido como **Junta dos Três Estados**, formada por procuradores da **nobreza, do clero e do “povo”**. A expressão não descreve uma democracia social moderna. A direção do movimento esteve fortemente ligada a proprietários e homens com presença na vida política local, embora a mobilização alcançasse outros moradores.
 
-Os jesuítas exerciam forte influência sobre missões, aldeamentos e a organização do trabalho indígena. Colonos contestavam esse poder e buscavam ampliar o acesso aos trabalhadores indígenas. Ao mesmo tempo, a entrada insuficiente de africanos escravizados por meio da companhia aumentava a pressão por outras formas de trabalho compulsório.
+A junta suprimiu o monopólio no espaço sob seu controle, expulsou os jesuítas de São Luís e negou obediência ao governador. A ruptura com agentes locais foi real; não aparece, porém, um projeto de Estado independente.
 
-Assim:
+A diferença aparece em duas ações simultâneas: os revoltosos depuseram autoridades, mas **Tomás Beckman foi enviado a Lisboa para levar reivindicações ao soberano**. Em março de 1684, ao justificar a expulsão dos jesuítas, os rebeldes ainda invocavam a autoridade do príncipe. A fórmula segura é: **rebelião contra políticas e autoridades coloniais, com apelo à instância régia**.
 
-- a legislação de liberdade indígena **não significou autonomia plena nem fim da coerção**;
-- a oposição aos jesuítas também tinha dimensão econômica e política;
-- a falta de africanos escravizados e a disputa pelo trabalho indígena eram problemas conectados.
+É por isso que o rótulo escolar <abbr title="Classificação de revoltas coloniais centradas em interesses locais, sem implicar independência">nativista</abbr> exige cautela: ele não autoriza projetar sobre 1684 o nacionalismo ou o separatismo do século XIX.
 
-> A Revolta de Bequimão **não foi abolicionista** e **não foi uma defesa da liberdade indígena**. Parte dos revoltosos pretendia ampliar seu próprio acesso a trabalhadores submetidos a coerção.
+## Quem fez o quê
 
-## 5. Causas da Revolta de Bequimão
+Depois de compreender o conflito, os nomes deixam de ser uma lista solta:
 
-| Dimensão | Núcleo da insatisfação |
+| Personagem | Papel no processo |
 |---|---|
-| comercial | monopólio da companhia e limitação da liberdade de comércio |
-| abastecimento | insuficiência e irregularidade de mercadorias |
-| preços e crédito | condições consideradas desfavoráveis aos moradores |
-| trabalho africano | fornecimento insuficiente de africanos escravizados |
-| trabalho indígena | disputa pelo acesso a aldeados e restrições ao cativeiro |
-| religiosa | oposição ao poder temporal dos jesuítas |
-| administrativa | contestação a autoridades coloniais |
-| política local | defesa de prerrogativas da Câmara e de direitos dos vassalos |
+| **Manuel Beckman (Bequimão)** | principal articulador e liderança da revolta |
+| **Tomás Beckman** | enviado a Lisboa para apresentar as reivindicações |
+| **Jorge de Sampaio de Carvalho** | liderança rebelde; depois executado com Manuel Beckman |
+| **Gomes Freire de Andrade** | novo governador enviado para restaurar a autoridade régia em 1685 |
 
-Questões podem destacar uma dessas causas, mas uma explicação completa reconhece que elas se reforçavam mutuamente.
+A revolta não foi abolicionista. Seus dirigentes combatiam o monopólio e abusos administrativos, mas também queriam ampliar a disponibilidade de africanos escravizados e o acesso colonial ao trabalho indígena. Resistir a uma política da Coroa não significava rejeitar a ordem escravista.
 
-## 6. A revolta de 1684
+## 1685: restauração régia, punição e mudança do arranjo comercial
 
-A revolta eclodiu em **São Luís**, na noite de **24 para 25 de fevereiro de 1684**. Para memorização, o essencial é:
+Em **maio de 1685**, Gomes Freire de Andrade chegou ao Maranhão e restaurou o governo régio. Seguiram-se prisões, processos e penas diferentes para os participantes.
 
-**São Luís + 1684 + oposição ao estanco + disputa pelo trabalho + conflito com jesuítas e autoridades.**
+**Manuel Beckman e Jorge de Sampaio de Carvalho foram executados em novembro de 1685.** Fontes e tradições posteriores divergem quanto ao dia exato; para este recorte, mês e ano são a referência segura. Tomás Beckman não teve o mesmo destino: foi processado em Lisboa.
 
-Os revoltosos tomaram o governo local, prenderam autoridades, atacaram os interesses da companhia, organizaram uma junta e promoveram a expulsão local dos jesuítas.
+A derrota da junta não preservou intactas todas as políticas contestadas. Os jesuítas foram restituídos, mas o monopólio de 1682 foi encerrado pouco depois. Distinga:
 
-Tomar o governo da cidade, contudo, **não equivale a proclamar independência**.
+- **resultado político imediato:** vitória da Coroa e punição das lideranças;
+- **efeito sobre o problema que gerou a revolta:** as tensões de comércio e trabalho continuaram exigindo novos arranjos.
 
-## 7. Lideranças e base social
+## A companhia de 1682 não é a Companhia Geral de 1755
 
-| Personagem | Associação essencial |
+A semelhança dos nomes produz um dos anacronismos mais comuns do tema.
+
+| Companhia ligada ao <abbr title="Monopólio comercial concedido ou contratado pela Coroa">estanco</abbr> de 1682 | Companhia Geral do Grão-Pará e Maranhão, de 1755 |
 |---|---|
-| **Manuel Beckman (Bequimão)** | principal articulador e liderança do movimento |
-| **Tomás Beckman** | enviado a Lisboa para apresentar as reivindicações ao rei |
-| **Jorge de Sampaio de Carvalho** | liderança da revolta; executado com Manuel |
-| **Gomes Freire de Andrade** | restaurou a autoridade régia em 1685 |
+| participa diretamente das causas da Revolta de Bequimão | surge cerca de sete décadas depois |
+| pertence ao reinado de D. Pedro II | pertence ao reinado de D. José I e ao contexto pombalino |
+| prometia abastecimento e entrada de africanos escravizados sob regime monopolista | integra outra política comercial e colonial |
+| deve ser explicada como parte do mecanismo de 1684 | serve aqui apenas para impedir confusão cronológica |
 
-O movimento teve direção principalmente de proprietários e homens ligados à Câmara, embora a mobilização não se limitasse a uma única pessoa ou grupo.
+A verificação mais rápida é causal: **uma companhia criada em 1755 não pode explicar uma revolta ocorrida em 1684**.
 
-> **Direção elitista ≠ ação individual.**  
-> **Participação social ≠ movimento popular igualitário.**
+## Reconstrua o processo em vez de decorar fatos isolados
 
-## 8. Objetivos dos revoltosos
+Se uma questão trocar personagens, datas ou causas, refaça mentalmente o mecanismo:
 
-Os objetivos imediatos incluíam:
+**1680:** nova legislação sobre a liberdade indígena aumenta a disputa pelo trabalho.  
+**1682:** a companhia recebe privilégios monopolistas e promete abastecimento e africanos escravizados.  
+**1684:** a insatisfação converge em tomada de São Luís, governo rebelde, fim local do monopólio e expulsão dos jesuítas.  
+**1685:** Gomes Freire restaura a autoridade régia e reprime o movimento.
 
-- romper ou limitar o estanco;
-- recuperar maior liberdade de comércio;
-- melhorar o abastecimento;
-- aumentar a entrada de africanos escravizados;
-- ampliar o acesso colonial ao trabalho indígena;
-- reduzir o poder temporal dos jesuítas;
-- afastar autoridades consideradas abusivas;
-- reorganizar o governo local;
-- levar as reclamações ao rei.
-
-### 8.1. Não foi um movimento separatista
-
-A documentação dos revoltosos invocava a autoridade do príncipe, e **Tomás Beckman foi enviado a Lisboa** para apresentar as queixas.
-
-A fórmula segura é:
-
-> **contestação de agentes, monopólios e autoridades locais dentro da monarquia portuguesa, sem programa separatista comprovado.**
-
-Por isso, a classificação escolar de “revolta nativista” não deve ser convertida em nacionalismo ou projeto de independência.
-
-## 9. Jesuítas: 1684 não é 1759
-
-Os revoltosos expulsaram jesuítas do espaço que controlavam no Maranhão em **1684**. Essa medida relacionava-se à disputa pela autoridade sobre aldeamentos e trabalho indígena.
-
-Não confunda:
-
-| 1684 | 1759 |
-|---|---|
-| expulsão local promovida pelos revoltosos | expulsão geral dos jesuítas dos domínios portugueses |
-| contexto da Revolta de Bequimão | contexto pombalino |
-
-## 10. Repressão e desfecho em 1685
-
-Em **1685**, **Gomes Freire de Andrade** restaurou o controle régio. A repressão envolveu prisões, processos e diferentes penas.
-
-**Manuel Beckman** e **Jorge de Sampaio de Carvalho** foram executados em São Luís em **novembro de 1685**. Não é necessário fixar um dia específico quando a fonte ou a questão não o exigir.
-
-O movimento foi derrotado política e militarmente: a Coroa retomou o governo local e puniu lideranças. Isso não significa que as tensões comerciais e de trabalho tenham desaparecido.
-
-## 11. O que lembrar sobre o resultado
-
-A revolta não produziu independência nem aboliu a ordem colonial. Seu significado está em revelar conflitos concretos sobre:
-
-- monopólio e abastecimento;
-- acesso ao trabalho indígena e africano escravizado;
-- autoridade jesuítica;
-- poder da Câmara e dos agentes régios;
-- limites da negociação entre moradores e Coroa.
-
-A experiência monopolista combatida pelos revoltosos não chegou a funcionar pelo horizonte nominal inicialmente previsto, mas não é necessário decorar a microcronologia de sua liquidação para este item do edital.
-
-## 12. Companhia de 1682 × Companhia Geral de 1755
-
-| Companhia ligada a 1682 | Companhia Geral de 1755 |
-|---|---|
-| diretamente relacionada às causas da revolta | criada cerca de 70 anos depois |
-| contexto de D. Pedro II | contexto de D. José I e reformas pombalinas |
-| estanco combatido pelos moradores | outra empresa privilegiada do norte colonial |
-| deve ser estudada no núcleo do assunto | serve aqui sobretudo como contraste anti-anacronismo |
-
-> **Regra de ouro:** a Companhia Geral do Grão-Pará e Maranhão de **1755 não causou uma revolta ocorrida em 1684**.
-
-## 13. Pegadinhas de prova
-
-- Revolta de Beckman, de Bequimão e do Estanco são denominações do mesmo movimento.
-- **1682** é a companhia monopolista diretamente ligada à revolta; **1755** é outra companhia.
-- Estanco = monopólio, não simples imposto.
-- A legislação de 1680 restringiu o cativeiro indígena, mas não eliminou coerção colonial.
-- Os revoltosos não defendiam uma agenda abolicionista.
-- O conflito com os jesuítas também envolvia acesso ao trabalho indígena.
-- Manuel Beckman foi líder central, mas não agiu sozinho.
-- Tomás Beckman foi a Lisboa apresentar queixas ao rei.
-- Tomar o governo de São Luís não significou proclamar independência.
-- Expulsão local de jesuítas em 1684 ≠ expulsão geral de 1759.
-- Gomes Freire de Andrade está ligado à repressão e restauração régia de 1685.
-- Manuel Beckman e Jorge de Sampaio foram executados em novembro de 1685.
+Daí saem os principais critérios de prova: **monopólio não é imposto; liberdade indígena não significou fim da coerção; tomada do governo não prova separatismo; expulsão local dos jesuítas em 1684 não é a expulsão geral de 1759; companhia de 1682 não é companhia pombalina de 1755.**
