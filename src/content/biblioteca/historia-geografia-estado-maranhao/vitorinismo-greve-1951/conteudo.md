@@ -8,254 +8,119 @@ storageId: vitorinismo-greve-1951
 
 # Vitorinismo e Greve de 1951
 
-## 1. Recorte do edital
+## Um poder que não dependia de ocupar o governo
 
-O edital cobra **“O Vitorinismo e a Greve de 1951”**. O foco, portanto, é compreender:
+Como Vitorino Freire pôde dominar a política maranhense por anos sem exercer pessoalmente e de forma contínua o cargo de governador? Essa é a chave para entender também a Greve de 1951.
 
-1. como se formou a hegemonia política articulada por **Vitorino de Brito Freire**;
-2. por que essa hegemonia não se confunde com um governo pessoal e contínuo de Vitorino;
-3. como a eleição estadual de 1950 produziu uma crise político-eleitoral;
-4. por que a mobilização de 1951 teve **duas fases**;
-5. quais foram seus principais atores, mecanismos e resultados.
+O **vitorinismo** foi uma hegemonia política organizada em rede. Vitorino articulava chefias municipais, partidos, candidaturas, governadores aliados, mandatos parlamentares, nomeações e recursos públicos, além de conexões com o governo federal. Ele foi deputado federal e, depois, senador pelo Maranhão; sua força vinha sobretudo de fazer essas escalas funcionarem em conjunto.
 
-A política maranhense posterior a 1965 pertence ao assunto seguinte. Aqui, **1965 funciona como limite do ciclo hegemônico**, não como afirmação de que toda influência de Vitorino desapareceu instantaneamente.
+Por isso, **influência política duradoura não significa governo pessoal contínuo**. O nome “vitorinismo” designa uma configuração de poder construída em torno de Vitorino, não um mandato seu no Executivo estadual.
 
-## 2. O que foi o vitorinismo
+Esse mecanismo explica a crise de 1951. Quando uma eleição muito contestada terminou com a posse do candidato apoiado pelo grupo vitorinista, a disputa deixou de ser apenas entre candidatos e passou a atingir a legitimidade da própria rede de poder.
 
-O **vitorinismo** foi uma forma de hegemonia política organizada em rede sob a liderança de Vitorino Freire. Sua força vinha da articulação entre:
+## Como a rede vitorinista se formou
 
-- chefias municipais;
-- partidos e candidaturas;
-- governadores aliados;
-- mandatos parlamentares;
-- nomeações, cargos e recursos públicos;
-- conexões com o governo federal.
+A reorganização política iniciada depois de 1930 abriu espaço para novas alianças no Maranhão. Vitorino, pernambucano nascido em **Pedra**, entrou diretamente na administração estadual em 1934 como secretário do <abbr title="Governante estadual nomeado pelo poder federal">interventor</abbr> Antônio Martins de Almeida.
 
-Por isso, duas ideias devem ser separadas:
+Com a redemocratização de 1945, participou da organização do novo <abbr title="Partido Social Democrático">PSD</abbr> no Maranhão, apoiou a candidatura presidencial de **Eurico Gaspar Dutra** e foi eleito deputado constituinte. Após a posse de Dutra, **Saturnino Belo** foi nomeado interventor no Maranhão por indicação de Vitorino.
 
-> **influência política duradoura ≠ exercício pessoal e contínuo do governo estadual**.
+Em 1947, divergências internas no <abbr title="Partido Social Democrático">PSD</abbr> levaram Vitorino, Saturnino e **Sebastião Archer** a romper com a candidatura oficial do partido. Vitorino organizou no estado o Partido Proletário do Brasil, <abbr title="Partido Proletário do Brasil">PPB</abbr>. A articulação elegeu Archer governador e Vitorino senador. Depois, o <abbr title="Partido Proletário do Brasil">PPB</abbr> foi reorganizado como Partido Social Trabalhista, <abbr title="Partido Social Trabalhista">PST</abbr>.
 
-Vitorino foi deputado federal e, depois, senador pelo Maranhão. Sua centralidade decorreu sobretudo da capacidade de articular pessoas, partidos e governos em diferentes escalas.
+A eleição de aliados não era um detalhe: era justamente o modo de funcionamento da rede. Vitorino não precisava ocupar o Palácio dos Leões para influenciar o governo estadual.
 
-### 2.1. Conceitos úteis
+Quatro conceitos ajudam a enxergar os mecanismos envolvidos, sem tratá-los como sinônimos:
 
-| Conceito | Núcleo |
-|---|---|
-| mandonismo | poder pessoal de chefes locais sobre dependentes e instituições |
-| coronelismo | compromisso político-eleitoral entre chefias locais e governos |
-| clientelismo | troca desigual de benefícios, cargos e favores por lealdade e apoio |
-| patrimonialismo | uso da máquina pública em benefício de interesses pessoais ou de grupo |
-| vitorinismo | configuração histórica maranhense que combinou esses mecanismos sob liderança de Vitorino |
+- <abbr title="Poder pessoal exercido por chefes locais">mandonismo</abbr>: destaca o poder de chefes locais sobre pessoas e instituições;
+- <abbr title="Articulação eleitoral entre chefias locais e governos">coronelismo</abbr>: enfatiza compromissos político-eleitorais entre chefias locais e governos;
+- <abbr title="Troca de benefícios por lealdade e apoio">clientelismo</abbr>: descreve trocas desiguais de cargos, favores ou benefícios por lealdade e apoio;
+- <abbr title="Uso do Estado em favor de interesses privados">patrimonialismo</abbr>: indica o uso da máquina pública em benefício de interesses pessoais ou de grupo.
 
-Os conceitos se relacionam, mas não são sinônimos perfeitos.
+O vitorinismo combinou historicamente esses mecanismos, mas não se reduz a nenhum deles isoladamente.
 
-## 3. Formação da hegemonia
+A periodização varia um pouco conforme a fonte. O <abbr title="Centro de Pesquisa e Documentação de História Contemporânea do Brasil">CPDOC</abbr>, ao registrar interpretação de José Ribamar Caldeiras, situa o vitorinismo em termos gerais entre **1947 e 1964**; outras abordagens usam **1965** como marco final porque naquele ano o grupo sofreu uma derrota eleitoral decisiva. Para organizar o assunto: **formação desde 1945, consolidação em 1947 e quebra da hegemonia em 1965**. A influência pessoal de Vitorino não desapareceu instantaneamente com essa derrota.
 
-Vitorino nasceu em **Pedra, Pernambuco, em 1908**. Em 1934, passou a atuar diretamente na administração maranhense como secretário do interventor **Antônio Martins de Almeida**.
+## Saturnino Belo: a mudança de aliança que prepara 1950
 
-Com a redemocratização de 1945, tornou-se um dos organizadores do novo <abbr title="Partido Social Democrático">PSD</abbr> no Maranhão, apoiou a candidatura presidencial de **Eurico Gaspar Dutra** e foi eleito deputado constituinte. Após a posse de Dutra, **Saturnino Belo** foi nomeado interventor no Maranhão por indicação de Vitorino.
+Saturnino Belo é a melhor ponte entre a formação da rede e a crise eleitoral. Primeiro, esteve ao lado de Vitorino: foi indicado interventor por sua influência e participou da articulação de 1947. Depois rompeu com o grupo e, em 1950, tornou-se o principal candidato oposicionista ao governo.
 
-Nas eleições de 1947, divergências internas no PSD levaram Vitorino, Saturnino e Sebastião Archer a romper com a candidatura oficial do partido. Vitorino organizou no Maranhão o **Partido Proletário do Brasil (PPB)**, que elegeu **Sebastião Archer governador** e **Vitorino senador**. Depois, o PPB reorganizou-se como **Partido Social Trabalhista (PST)**.
+Essa mudança impede dois erros comuns: Saturnino **não foi opositor de Vitorino durante toda a carreira**, e **Eugênio Barros não o substituiu como candidato depois de sua morte**. Eugênio e Saturnino já eram adversários no próprio pleito de 1950.
 
-A partir daí consolidou-se a rede de poder conhecida como vitorinismo.
+## A eleição de 1950 vira uma crise política
 
-### 3.1. Periodização segura
+A eleição estadual ocorreu em **3 de outubro de 1950**. **Eugênio Barros** concorreu com apoio do grupo vitorinista; **Saturnino Belo** encabeçou as **Oposições Coligadas**, uma frente heterogênea de partidos e lideranças reunida contra o domínio vitorinista. A frente não era um partido único nem possuía completa unidade ideológica.
 
-As fontes usam periodizações próximas, mas não idênticas. O <abbr title="Centro de Pesquisa e Documentação de História Contemporânea do Brasil">CPDOC</abbr>, citando José Ribamar Caldeiras, registra o vitorinismo, em termos gerais, entre **1947 e 1964**; outras abordagens tomam 1965 como marco final pela derrota do grupo na eleição para governador.
+A apuração foi intensamente contestada. Houve anulação de grande quantidade de votos em São Luís e sucessivos recursos. A cifra aproximada de **16 mil votos anulados** aparece na literatura e em denúncias oposicionistas; por isso, deve ser tratada como número atribuído a essas fontes, não como dado que, sozinho, resolva a controvérsia.
 
-Para prova, a fórmula mais segura é:
+A distinção essencial é esta: houve **resultado contestado e anulações denunciadas como fraudulentas**. Isso não autoriza converter automaticamente a denúncia política em **fraude judicialmente comprovada**. As oposições buscavam rever o resultado, validar votos anulados e realizar eleição suplementar.
 
-> **formação desde 1945 → consolidação em 1947 → hegemonia até 1964/1965 → derrota eleitoral decisiva em 1965**.
+Saturnino morreu em janeiro de 1951 antes da solução definitiva do litígio. As fontes secundárias consultadas divergem entre **15 e 16 de janeiro**; a divergência é mais importante do que fabricar uma precisão inexistente. Seu cortejo fúnebre tornou-se uma demonstração imediata da capacidade de mobilização oposicionista, mas ainda **não foi uma fase formal da greve**.
 
-Em 1965, a vitória oposicionista no governo estadual foi descrita pelo CPDOC como a **primeira derrota política de Vitorino no estado**. Isso marca a quebra da hegemonia do grupo, mas não autoriza dizer que Vitorino perdeu imediatamente toda capacidade de influência política posterior.
+Depois da morte de Saturnino, o processo eleitoral continuou. O <abbr title="Tribunal Regional Eleitoral do Maranhão">TRE</abbr> <abbr title="Reconheceu formalmente o resultado eleitoral">diplomou</abbr> Eugênio Barros, que tomou posse em **28 de fevereiro de 1951**, enquanto recursos ainda eram discutidos. A posse transformou o impasse eleitoral em mobilização aberta.
 
-## 4. Saturnino Belo: aliado e depois opositor
+## Por que uma disputa eleitoral virou “greve”
 
-Saturnino Belo é uma boa pegadinha porque sua posição mudou ao longo do tempo:
+A palavra **greve** não é apenas metáfora: houve paralisação efetiva de trabalho, comércio, transportes e serviços. Mas a reivindicação imediata era **político-eleitoral**, e não simplesmente salarial ou trabalhista.
 
-1. foi indicado interventor por influência de Vitorino;
-2. participou da articulação política que levou à eleição de Sebastião Archer em 1947;
-3. posteriormente rompeu com o grupo;
-4. em 1950, tornou-se o principal candidato oposicionista ao governo estadual.
+O movimento reuniu trabalhadores assalariados, portuários e trabalhadores dos transportes, estudantes, professores, comerciantes e empresários oposicionistas, profissionais liberais, jornalistas, lideranças políticas, mulheres e operárias têxteis. Por isso, pode ser entendido como uma mobilização urbana e <abbr title="Com participação de grupos de diferentes classes sociais">multiclassista</abbr>, com epicentro em **São Luís**, especialmente no Largo do Carmo/Praça João Lisboa.
 
-Logo, é errado tratá-lo como aliado permanente ou como opositor permanente.
+A articulação das Oposições Coligadas foi importante, mas não transforma todos os participantes em uma massa comandada pelos partidos. Grupos sociais aderiram por razões próprias e deram dinâmica ao movimento. Ao mesmo tempo, a sociedade de São Luís não era unanimemente oposicionista: comerciantes, empresários e outros setores estavam divididos.
 
-## 5. Eleição estadual de 1950
+A crise eleitoral encontrou ainda problemas de abastecimento, carestia, transporte, energia e água. Essas dificuldades **ampliaram a base social da mobilização**, mas não substituem seu gatilho político-eleitoral.
 
-A eleição ocorreu em **3 de outubro de 1950**. Os principais candidatos ao governo eram:
+As formas de sustentação do protesto ajudam a enxergar essa participação. Mulheres organizaram os **Panelaços do Carmo**, preparando refeições para os manifestantes, e participaram de <abbr title="Grupos que percorriam a cidade arrecadando alimentos e donativos">bandos precatórios</abbr> para obter recursos e alimentos. Depois do trabalho de apoio, muitas também se juntavam às concentrações. A médica e militante **Maria Aragão** aparece entre as pessoas presas durante o movimento.
 
-| Candidato | Posição política |
-|---|---|
-| **Eugênio Barros** | candidato apoiado pelo grupo vitorinista |
-| **Saturnino Belo** | candidato das Oposições Coligadas |
+## As duas fases: posse, licença, decisão e reassunção
 
-As **Oposições Coligadas** constituíam uma frente heterogênea de partidos e lideranças unida contra o domínio vitorinista. Não eram um partido único nem um movimento social homogêneo.
+A greve não foi uma paralisação contínua de fevereiro a outubro. Ela teve **duas fases**, separadas por meses, e cada uma começou quando Eugênio Barros passou a exercer pessoalmente o governo.
 
-Eugênio e Saturnino já eram adversários no pleito. Portanto:
+A sequência institucional organiza todo o episódio:
 
-> **Eugênio não substituiu Saturnino como candidato depois da morte deste.**
+| Data | O que aconteceu | Efeito sobre a mobilização |
+|---|---|---|
+| **28 fev. 1951** | Eugênio toma posse | começa a primeira fase |
+| **14 mar. 1951** | Eugênio se licencia; César Alexandre Aboud assume interinamente | a primeira fase perde seu gatilho imediato e as atividades começam a se normalizar |
+| **3 set. 1951** | o <abbr title="Tribunal Superior Eleitoral">TSE</abbr> mantém o diploma de Eugênio, conforme registros contemporâneos convergentes | abre caminho para o fim da solução interina |
+| **18 set. 1951** | Eugênio reassume o exercício | começa a segunda fase |
+| **8 out. 1951** | encerra-se a segunda fase na cronologia acadêmica adotada | termina o ciclo mais intenso da mobilização |
 
-## 6. Apuração, anulações e contestação
+Na **primeira fase**, iniciada em 28 de fevereiro, houve fechamento do comércio, interrupção de transportes e serviços, concentrações, comícios e pressão pela revisão eleitoral e por intervenção federal. Em 14 de março, Eugênio **licenciou-se**. Ele não foi cassado, não renunciou e não abriu uma vacância definitiva.
 
-A apuração tornou-se altamente controvertida. Houve anulação de grande quantidade de votos em São Luís e sucessivos recursos. A cifra aproximada de **16 mil votos anulados** aparece na literatura e em denúncias oposicionistas, mas deve ser apresentada com atribuição e cautela.
+Quem assumiu temporariamente foi **César Alexandre Aboud**, então presidente da Assembleia Legislativa. Aboud **não era vice-governador**; o vice eleito era **Renato Archer**. A solução preservou Eugênio como titular e reduziu temporariamente a tensão.
 
-A formulação adequada é:
+Nos meses seguintes, os recursos eleitorais prosseguiram. Em 3 de setembro, registros parlamentares e estudos convergentes situam a decisão do <abbr title="Tribunal Superior Eleitoral">TSE</abbr> que manteve o diploma de Eugênio. O efeito jurídico-político importante para este capítulo é simples: **não houve nova eleição nem uma primeira posse em setembro**. Eugênio já era governador desde fevereiro.
 
-> **resultado contestado + anulações denunciadas como fraudulentas**.
+Quando ele **reassumiu em 18 de setembro**, a mobilização voltou a crescer. A segunda fase teve nova paralisação, comícios, confrontos, repressão policial, prisões, tiroteios e incêndios registrados pelas fontes. Os registros confirmam violência, mas não sustentam transformar números de mortos, feridos ou presos em totais consensuais sem documentação adicional.
 
-Não se deve transformar automaticamente a denúncia política de fraude em **fraude judicialmente comprovada**, salvo prova documental específica.
+A expressão memorial **“34 dias”** resume aproximadamente os períodos de mobilização intensa. Ela não significa greve ininterrupta durante os meses que separaram março de setembro.
 
-As oposições defenderam revisão do resultado, validade de votos anulados e realização de eleição suplementar. Discursos parlamentares e jornais do período registram essas acusações e a escalada do conflito.
+## O que mudou — e o que permaneceu
 
-## 7. Morte de Saturnino e posse de Eugênio
+A Greve de 1951 produziu uma ruptura social e política importante: mostrou capacidade de mobilização urbana ampla, desgastou a legitimidade do grupo dominante e alimentou a memória de São Luís como **“Ilha Rebelde”**. Essa expressão, porém, é uma construção memorial; não prova que todos os habitantes da cidade tenham aderido ao movimento.
 
-Saturnino Belo morreu em janeiro de 1951, antes da solução definitiva do litígio eleitoral. As fontes secundárias consultadas divergem entre **15 e 16 de janeiro**; em prova, a divergência deve ser reconhecida em vez de convertida em falsa precisão.
+Também aparece a expressão **“Balaiada Urbana”**. Ela funciona como metáfora de rebeldia e mobilização popular, não como afirmação de que a Greve de 1951 foi continuação histórica da Balaiada do século XIX.
 
-Após sua morte, o processo eleitoral continuou. O <abbr title="Tribunal Regional Eleitoral do Maranhão">TRE</abbr> diplomou **Eugênio Barros**, que tomou posse em **28 de fevereiro de 1951**, enquanto ainda havia recursos em discussão.
-
-Essa posse foi o gatilho imediato da primeira fase da Greve de 1951.
-
-## 8. Por que o movimento é chamado de “greve”
-
-A Greve de 1951 envolveu paralisação efetiva de trabalho, comércio, transportes e serviços, mas sua pauta imediata era **político-eleitoral**, não simplesmente salarial ou trabalhista.
-
-Participaram, em diferentes graus:
-
-- operários e trabalhadores assalariados;
-- portuários e trabalhadores de transportes;
-- estudantes e professores;
-- comerciantes e empresários oposicionistas;
-- profissionais liberais;
-- mulheres e operárias têxteis;
-- jornalistas e lideranças políticas;
-- moradores sem vínculo sindical formal.
-
-Por isso, o movimento é melhor caracterizado como **mobilização urbana, política e multiclassista**, com epicentro em **São Luís**, especialmente no Largo do Carmo/Praça João Lisboa.
-
-A articulação partidária oposicionista foi importante, mas não elimina a agência dos grupos sociais que aderiram e deram dinâmica própria à mobilização.
-
-## 9. Primeira fase: fevereiro-março de 1951
-
-A primeira fase começou em **28 de fevereiro de 1951**, com a posse de Eugênio Barros.
-
-Entre seus elementos centrais estavam:
-
-- fechamento do comércio;
-- interrupção de transportes e serviços;
-- concentrações e comícios no centro de São Luís;
-- piquetes e pressão política;
-- reivindicações de revisão eleitoral e intervenção federal.
-
-Em **14 de março**, Eugênio **licenciou-se** do exercício do governo. O deputado **César Alexandre Aboud**, então presidente da Assembleia Legislativa, assumiu interinamente.
-
-Atenção:
-
-- Eugênio **não foi cassado**;
-- não renunciou;
-- não houve vacância definitiva;
-- César Aboud **não era vice-governador**;
-- o vice eleito era **Renato Archer**.
-
-A licença preservou a titularidade de Eugênio. Com a interinidade de Aboud, as atividades começaram a se normalizar e a primeira fase terminou na prática por volta de meados de março.
-
-## 10. Intervalo e decisão do TSE
-
-Durante os meses seguintes, César Aboud permaneceu no exercício interino enquanto os recursos eleitorais continuavam.
-
-Em **3 de setembro de 1951**, registros parlamentares e estudos convergentes situam a decisão do <abbr title="Tribunal Superior Eleitoral">TSE</abbr> que manteve o diploma de Eugênio Barros. O inteiro teor do acórdão não integra o corpus utilizado aqui; por isso, o ponto essencial para prova é o efeito político-institucional:
-
-> **o diploma foi mantido; não houve nova eleição nem primeira posse em setembro**.
-
-Eugênio já era governador titular desde fevereiro. Em setembro, ele apenas cessaria a licença e retomaria o exercício.
-
-## 11. Segunda fase: setembro-outubro de 1951
-
-Eugênio **reassumiu o exercício em 18 de setembro**, encerrando a solução conciliatória baseada na interinidade de César Aboud.
-
-A reassunção desencadeou nova fase de mobilização, marcada por:
-
-- nova paralisação de atividades;
-- comícios e concentrações;
-- confrontos e repressão policial;
-- prisões, tiroteios e incêndios registrados nas fontes.
-
-A cronologia acadêmica adotada situa o fim dessa fase em **8 de outubro de 1951**.
-
-### 11.1. Não confundir as duas fases
-
-| Fase | Marco inicial | Encerramento aproximado | Gatilho |
-|---|---|---|---|
-| primeira | 28 fev. | 14-16 mar. | posse de Eugênio |
-| segunda | 18 set. | 8 out. | reassunção de Eugênio após manutenção do diploma |
-
-As fases foram separadas por meses. Portanto, a expressão memorial **“34 dias”** não significa greve contínua de fevereiro a outubro; resume aproximadamente os períodos de mobilização mais intensa.
-
-## 12. Participação social e contexto urbano
-
-A crise eleitoral encontrou São Luís em meio a problemas cotidianos de abastecimento, transporte, energia, água e carestia. Esses fatores **não substituem a causa político-eleitoral**, mas ajudam a explicar a amplitude da adesão.
-
-A participação feminina aparece em ações de arrecadação, vigilância, preparação de alimentos e presença nas manifestações. Os **Panelaços do Carmo** são lembrados como forma de sustentação coletiva dos manifestantes. A médica e militante **Maria Aragão** também aparece entre as pessoas presas durante o movimento.
-
-Empresários e comerciantes não formavam bloco único: havia apoiadores tanto da oposição quanto do grupo governista. Da mesma forma, a expressão **Ilha Rebelde** sintetiza uma memória de resistência ludovicense, mas não prova unanimidade da população.
-
-## 13. Resultado e significado
-
-A Greve de 1951 teve grande impacto político e social, mas seus efeitos institucionais foram limitados:
+No plano institucional, houve mais continuidade do que ruptura:
 
 - a eleição não foi anulada;
-- Eugênio não perdeu definitivamente o mandato;
-- houve licença e governo interino, seguidos de reassunção;
-- o vitorinismo não foi encerrado em 1951;
-- a mobilização ampliou o desgaste do grupo e consolidou uma memória urbana de resistência.
+- Eugênio Barros preservou o mandato;
+- a licença e o governo interino foram temporários;
+- Eugênio reassumiu o exercício em setembro;
+- o vitorinismo não terminou em 1951.
 
-A síntese mais útil é:
+O movimento desgastou a hegemonia, mas sua quebra eleitoral decisiva ocorreria apenas em **1965**. O assunto seguinte acompanha a política maranhense posterior; aqui basta compreender que **1951 expôs a crise do sistema, enquanto 1965 rompeu sua posição hegemônica**.
 
-$$
-\text{crise eleitoral} + \text{mobilização multiclassista}
-\rightarrow \text{ruptura social e política}
-\quad\text{com}\quad
-\text{continuidade institucional em 1951}
-$$
+## Como reconhecer o tema em prova
 
-A hegemonia vitorinista sofreria sua ruptura eleitoral decisiva apenas em **1965**.
+Uma questão bem construída costuma explorar relações, não apenas datas. Verifique sempre estes contrastes:
 
-## 14. Linha do tempo essencial
+1. **vitorinismo ≠ governo pessoal contínuo de Vitorino**;
+2. **Saturnino: aliado anterior → opositor em 1950**;
+3. **denúncia de fraude ≠ fraude judicialmente comprovada**;
+4. **licença de Eugênio ≠ cassação ou renúncia**;
+5. **César Aboud = presidente da Assembleia e governador interino, não vice-governador**;
+6. **decisão do <abbr title="Tribunal Superior Eleitoral">TSE</abbr> ≠ nova posse**;
+7. **duas fases separadas ≠ greve contínua de fevereiro a outubro**;
+8. **mobilização multiclassista ≠ movimento apenas salarial, sindical ou partidário**;
+9. **desgaste em 1951 ≠ fim imediato do vitorinismo; ruptura hegemônica em 1965**.
 
-| Data | Evento |
-|---|---|
-| 1945 | reorganização partidária; Vitorino participa da organização do PSD e é eleito constituinte |
-| 1946 | Saturnino Belo é nomeado interventor por indicação de Vitorino |
-| 19 jan. 1947 | Sebastião Archer é eleito governador; Vitorino, senador |
-| 3 out. 1950 | eleição Eugênio Barros × Saturnino Belo |
-| 15/16 jan. 1951 | morte de Saturnino, conforme divergência das fontes |
-| 28 fev. 1951 | posse de Eugênio e início da primeira fase |
-| 14 mar. 1951 | licença de Eugênio; César Aboud assume interinamente |
-| meados de mar. 1951 | encerramento prático da primeira fase |
-| 3 set. 1951 | TSE mantém o diploma de Eugênio, segundo registros convergentes |
-| 18 set. 1951 | Eugênio reassume; começa a segunda fase |
-| 8 out. 1951 | encerramento da segunda fase na cronologia adotada |
-| 1965 | derrota eleitoral decisiva e quebra da hegemonia vitorinista |
-
-## 15. Pegadinhas de prova
-
-1. **Vitorinismo não é mandato pessoal de Vitorino como governador.**
-2. **Saturnino foi aliado de Vitorino antes de se tornar opositor.**
-3. **Eugênio e Saturnino já eram adversários na eleição de 1950.**
-4. **Fraude denunciada não equivale automaticamente a fraude judicialmente comprovada.**
-5. **A greve teve duas fases, separadas por meses.**
-6. **Eugênio licenciou-se; não foi cassado nem renunciou.**
-7. **César Aboud era presidente da Assembleia e governador interino, não vice-governador.**
-8. **A decisão do TSE não foi uma segunda posse; Eugênio reassumiu o exercício.**
-9. **A mobilização foi política e multiclassista, não apenas salarial ou sindical.**
-10. **1965 marca derrota e quebra da hegemonia, não desaparecimento instantâneo de toda influência de Vitorino.**
-11. **No item 29 da <abbr title="Polícia Militar do Maranhão">PM/MA</abbr> 2017, a justificativa oficial do <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> literalmente registra “Victoriano Freire” em vez de “Victorino Freire”.** O item foi anulado. Para a grafia biográfica, as referências históricas adotadas registram **Vitorino de Brito Freire**.
-
-## 16. Questão oficial e limite de uso
-
-O item 29 do caderno de conhecimentos básicos para nível superior da **PM/MA 2017**, organizado pelo Cebraspe, tratava do domínio político associado a Vitorino Freire. O item teve gabarito preliminar **C**, mas foi **anulado** no gabarito definitivo.
-
-A justificativa oficial foi exclusivamente formal: o Cebraspe declarou que a grafia **“Victoriano Freire” em vez de “Victorino Freire”** prejudicou o julgamento objetivo.
-
-Consequência editorial:
-
-> o item é útil para demonstrar que o tema já foi cobrado oficialmente, mas **não deve ser cadastrado como `previous_exam` com alternativa/gabarito definitivo**, pois foi anulado.
+Há um antecedente oficial útil apenas como evidência de cobrança do tema. No item 29 da <abbr title="Polícia Militar do Maranhão">PM/MA</abbr> de 2017, o <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> escreveu “Victoriano Freire”. O gabarito preliminar era **C**, mas o item foi **anulado** porque a própria banca declarou que a grafia, em vez de **Vitorino Freire**, prejudicava o julgamento objetivo. Portanto, esse item não fornece gabarito definitivo sobre o conteúdo histórico; serve apenas para mostrar que o tema já apareceu em prova oficial.
