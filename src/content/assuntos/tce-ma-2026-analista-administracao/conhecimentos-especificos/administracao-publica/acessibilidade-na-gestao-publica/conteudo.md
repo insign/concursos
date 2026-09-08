@@ -8,59 +8,33 @@ storageId: acessibilidade-gestao-publica
 
 # Acessibilidade na gestão pública
 
-## 1. Recorte e objetivo de estudo
+**Um cidadão consegue entrar no portal, mas o leitor de tela — programa que apresenta em voz ou braille o conteúdo digital — não anuncia os campos de autenticação. O serviço está disponível?** Não para quem não consegue concluir a tarefa. Na gestão pública, acessibilidade não é a presença isolada de uma rampa, símbolo ou botão: é a possibilidade real de percorrer toda a jornada, com segurança e autonomia.
 
-O edital inclui **acessibilidade** no item 12 de Administração Pública. Neste assunto, o foco não é repetir integralmente a legislação de direitos humanos, mas aprender a transformar o dever de inclusão em **decisões de gestão**: diagnosticar barreiras, desenhar serviços, planejar recursos, contratar soluções, testar entregas, monitorar resultados e corrigir falhas.
+Neste exemplo hipotético, oferecer imediatamente um canal acessível evita a interrupção do direito. Corrigir rótulos, os textos que identificam os campos, além de autenticação, contrato, testes e fiscalização, trata a causa. Essas duas respostas — atendimento presente e correção estrutural — orientarão o capítulo.
 
-A Convenção sobre os Direitos das Pessoas com Deficiência, a Lei Brasileira de Inclusão — LBI, a Lei nº 10.098/2000, a Lei nº 10.048/2000 e o Decreto nº 5.296/2004 aparecem como base necessária. O estudo jurídico sistemático dessas normas pertence aos Assuntos 098, 099 e 100.
+## 1. Acessibilidade é condição de uso
 
-> **Ideia central:** acessibilidade não é favor, campanha ou componente isolado. É requisito de igualdade, qualidade e efetividade do serviço público, verificado na jornada completa do usuário.
+Acessibilidade é a possibilidade e a condição de alcance e uso, com segurança e autonomia, de espaços, mobiliários, transportes, informação, comunicação, tecnologias, sistemas, serviços e instalações. Uma entrega pode estar formalmente concluída e ainda fracassar: publicar o portal, instalar uma rampa ou disponibilizar um vídeo não prova que a pessoa conclui a tarefa.
 
-## 2. Corte temporal do edital
+O fundamento não é assistencialismo. A Constituição determina a adaptação de logradouros, edifícios de uso público e transporte coletivo nos <abbr title="artigos">arts.</abbr> 227, § 2º, e 244. A Convenção sobre os Direitos das Pessoas com Deficiência foi aprovada pelo rito do <abbr title="artigo">art.</abbr> 5º, § 3º, e possui equivalência a emenda constitucional. A <abbr title="Lei Brasileira de Inclusão">LBI</abbr> transforma essas bases em deveres de igualdade, não discriminação e acessibilidade.
 
-O Edital nº 1 — TCE/MA foi publicado em **6 de julho de 2026**. Para este assunto, deve-se separar:
+Na gestão pública, o dever alcança planejamento, orçamento, riscos, contratações, atendimento, transparência e controle. A pergunta de resultado é sempre a mesma: **a pessoa consegue concluir a tarefa pública com autonomia e segurança?**
 
-| Situação | Tratamento no estudo |
-| --- | --- |
-| normas vigentes em 6 de julho de 2026 | integram o núcleo ordinariamente cobrável |
-| norma futura expressamente citada no edital | pode ser cobrada nos limites da indicação |
-| alteração posterior não indicada | deve ser marcada como **pós-edital** ou **direito vigente hoje** |
+## 2. Deficiência, barreiras e soluções
 
-Entre as normas vigentes no corte estão a Constituição, a Convenção, a LBI, as Leis nº 10.048/2000, nº 10.098/2000, nº 14.624/2023, nº 14.626/2023 e nº 15.249/2025, além do Decreto nº 5.296/2004.
-
-A **Lei nº 15.459/2026**, relativa ao Símbolo Internacional de Acessibilidade, foi publicada no DOU de **8 de julho de 2026** e entrou em vigor nessa data. Como é posterior ao edital e não foi expressamente indicada, não integra o núcleo legislativo vigente na publicação. Ela aparece ao final apenas como atualização pós-edital.
-
-## 3. Acessibilidade como requisito de gestão
-
-Acessibilidade é a possibilidade e a condição de alcance e uso, com segurança e autonomia, de espaços, mobiliários, transportes, informação, comunicação, tecnologias, sistemas, serviços e instalações.
-
-Na gestão pública, ela se conecta a:
-
-- igualdade e não discriminação;
-- participação e autonomia;
-- qualidade e continuidade do serviço;
-- eficiência e efetividade;
-- transparência e acesso à informação;
-- gestão de riscos;
-- planejamento e orçamento;
-- governança de contratações;
-- controle interno, externo e social.
-
-Uma entrega pode estar formalmente concluída e ainda fracassar. Um portal publicado, uma rampa instalada ou um vídeo disponibilizado não provam, isoladamente, que a pessoa consegue concluir a tarefa pública pretendida.
-
-## 4. Base conceitual mínima
-
-### 4.1 Modelo social da deficiência
+### Modelo social da deficiência
 
 O modelo social reconhece que a exclusão decorre da interação entre impedimentos e barreiras produzidas ou mantidas pela sociedade. Ele não nega cuidados de saúde ou reabilitação; muda a pergunta administrativa:
 
 > Em vez de examinar apenas o que a pessoa não consegue fazer, identifique que barreira impede a participação e como removê-la.
 
-A LBI define pessoa com deficiência a partir de impedimento de longo prazo que, em interação com barreiras, pode obstruir participação plena e efetiva em igualdade de condições. Diagnóstico isolado não equivale automaticamente à avaliação biopsicossocial prevista em lei.
+A <abbr title="Lei Brasileira de Inclusão">LBI</abbr> define pessoa com deficiência a partir de impedimento de longo prazo que, em interação com barreiras, pode obstruir participação plena e efetiva em igualdade de condições. Diagnóstico isolado não equivale à **avaliação biopsicossocial** prevista em lei. Quando necessária, ela é realizada por equipe multiprofissional e interdisciplinar e considera impedimentos, fatores socioambientais, psicológicos e pessoais, limitações de atividade e restrições de participação.
 
-**Pessoa com mobilidade reduzida** não é sinônimo de pessoa com deficiência. A dificuldade pode ser permanente ou temporária e alcança situações diversas previstas na legislação.
+**Pessoa com mobilidade reduzida** não é sinônimo de pessoa com deficiência. A dificuldade pode ser permanente ou temporária; a definição legal inclui, entre outros, pessoa idosa, gestante, lactante, pessoa com criança de colo e pessoa obesa.
 
-### 4.2 Conceitos que não se confundem
+Nem toda deficiência é aparente. O cordão de fita com desenhos de girassóis é símbolo nacional de identificação de deficiências ocultas, mas seu uso é opcional e sua ausência não reduz direitos. O símbolo também não dispensa documento comprobatório quando o atendente ou a autoridade competente o solicitar nos termos da lei.
+
+### Soluções que não se confundem
 
 | Conceito | Núcleo | Exemplo de gestão |
 | --- | --- | --- |
@@ -71,24 +45,27 @@ A LBI define pessoa com deficiência a partir de impedimento de longo prazo que,
 
 O desenho universal é a regra de concepção geral. A adaptação razoável complementa essa regra quando a solução geral não atende uma necessidade concreta. Tecnologia assistiva pode integrar ambas.
 
+Para ampliar o acesso a esses recursos, o <abbr title="artigo">art.</abbr> 75 da <abbr title="Lei Brasileira de Inclusão">LBI</abbr> prevê plano específico de medidas, renovado a cada quatro anos. Entre suas finalidades estão facilitar crédito especializado, agilizar importação, fomentar pesquisa e produção nacional, reduzir tributação e agilizar a inclusão de novos recursos nos produtos distribuídos pelo <abbr title="Sistema Único de Saúde">SUS</abbr> e por outros órgãos governamentais.
+
 A recusa de adaptação razoável ou de tecnologia assistiva, quando cabíveis, pode constituir discriminação. “Razoável” não significa facultativa: eventual ônus desproporcional precisa ser demonstrado no caso concreto.
 
-## 5. Barreiras e jornada do usuário
 
-A LBI classifica seis categorias de barreira:
+## 3. Barreiras aparecem ao longo da jornada
+
+A <abbr title="Lei Brasileira de Inclusão">LBI</abbr> classifica seis categorias de barreira:
 
 | Barreira | Onde aparece | Exemplo no serviço público |
 | --- | --- | --- |
 | **urbanística** | vias e espaços abertos ao público | calçada sem rota segura até o órgão |
 | **arquitetônica** | edifícios | entrada apenas por escada ou balcão inalcançável |
 | **nos transportes** | sistemas e meios de transporte | terminal, veículo ou operação inacessível |
-| **na comunicação e informação** | mensagens, documentos e TIC | vídeo sem recurso acessível ou instrução incompreensível |
+| **na comunicação e informação** | mensagens, documentos e <abbr title="Tecnologias da Informação e Comunicação">TIC</abbr> | vídeo sem recurso acessível ou instrução incompreensível |
 | **atitudinal** | condutas e pressupostos | falar apenas com o acompanhante ou presumir incapacidade |
 | **tecnológica** | acesso e uso de tecnologias | aplicativo incompatível com leitor de tela |
 
-Uma mesma jornada pode reunir várias barreiras. O usuário pode chegar ao prédio, mas não usar o totem; entrar no portal, mas não autenticar; receber o documento, mas não compreendê-lo; conseguir protocolar, mas não recorrer.
+Uma mesma jornada pode reunir várias barreiras. O usuário pode chegar ao prédio, mas não usar o totem; entrar no portal, mas não autenticar; usar o <abbr title="Terminal eletrônico de autoatendimento">totem</abbr>, mas não alcançar seus controles; receber o documento, mas não compreendê-lo; conseguir protocolar, mas não recorrer.
 
-### 5.1 Mapa da jornada acessível
+### Mapa da jornada acessível
 
 Um serviço deve ser examinado de ponta a ponta:
 
@@ -103,7 +80,10 @@ Um serviço deve ser examinado de ponta a ponta:
 
 Vários canais igualmente inacessíveis não formam serviço acessível. A Administração não deve transferir ao usuário o custo de contornar a barreira pública.
 
-## 6. Ciclo gerencial da acessibilidade
+
+## 4. Do incidente ao ciclo de gestão
+
+O caso do portal não termina no reparo. A gestão precisa saber quem decide, onde a barreira surgiu, como validar a correção e como impedir seu retorno. O fluxo é:
 
 | Etapa | Pergunta principal | Produto esperado |
 | --- | --- | --- |
@@ -114,12 +94,15 @@ Vários canais igualmente inacessíveis não formam serviço acessível. A Admin
 | **planejamento** | qual meta, prazo, orçamento e dependência? | plano executável |
 | **implementação** | desenho universal ou adaptação concreta? | solução implantada |
 | **validação** | a pessoa consegue concluir a tarefa? | teste e aceite documentados |
-| **monitoramento** | o resultado permanece acessível? | indicadores, reclamações e regressão |
+| **monitoramento** | o resultado permanece acessível? | indicadores, reclamações e verificação de falhas que reapareçam após mudanças |
 | **correção** | como cessar a barreira e evitar recorrência? | ação imediata e melhoria estrutural |
+
+O <abbr title="artigo">art.</abbr> 9º do Decreto nº 5.296/2004 vincula as ações de acessibilidade a prioridades, prazos, recursos e planejamento contínuo e articulado. Na Administração Pública federal direta e indireta, o <abbr title="artigo">art.</abbr> 23 da Lei nº 10.098/2000 prevê dotação orçamentária anual para adaptações e eliminação de barreiras arquitetônicas nos edifícios públicos abrangidos.
 
 Uma lista sem responsável, prazo, recurso e evidência não constitui plano executável. Restrição orçamentária pode influenciar priorização e cronograma, mas não autoriza inércia sem diagnóstico, decisão motivada e tratamento dos riscos mais graves.
 
-## 7. Atendimento inclusivo e prioridade
+
+## 5. Atendimento inclusivo, autonomia e prioridade
 
 A conduta adequada dirige-se à pessoa, pergunta como ajudar e respeita a resposta. Não se deve:
 
@@ -131,13 +114,16 @@ A conduta adequada dirige-se à pessoa, pergunta como ajudar e respeita a respos
 
 Autonomia não significa ausência de apoio; significa preservar escolhas e controle sobre a própria vida.
 
-Atendimento prioritário e acessibilidade são relacionados, mas diferentes. Ser chamado primeiro não resolve balcão inalcançável, ausência de comunicação adequada ou sistema incompatível com tecnologia assistiva. As regras detalhadas de beneficiários, ordem e comprovação pertencem ao Assunto 100; aqui importa integrar a prioridade ao desenho do atendimento.
+Atendimento prioritário e acessibilidade são relacionados, mas diferentes. Ser chamado primeiro não resolve balcão inalcançável, ausência de comunicação adequada ou sistema incompatível com tecnologia assistiva. A Lei nº 10.048/2000 inclui pessoas com deficiência ou transtorno do espectro autista, pessoas idosas, gestantes, lactantes, pessoas com criança de colo, pessoas obesas, pessoas com mobilidade reduzida e doadores de sangue. O acompanhante ou atendente pessoal é atendido conjunta e acessoriamente ao titular. Sem guichê específico, concluído o atendimento em curso, os beneficiários precedem o público não prioritário; doadores de sangue ficam após os demais grupos prioritários e apresentam comprovante válido. A prioridade precisa continuar integrada ao desenho acessível do atendimento.
 
 Em emergência de saúde, prevalece a avaliação clínica da gravidade.
 
-## 8. Ambientes, rotas e segurança
+
+## 6. Ambientes, rotas e segurança
 
 Uma **rota acessível** conecta chegada, entrada, circulação horizontal e vertical, ambientes, serviços, sanitários e saída. Uma rampa isolada, entrada acessível trancada ou trajeto interrompido não asseguram uso autônomo.
+
+Duas definições ajudam a ler projetos e questões. **Elemento de urbanização** é componente de obra urbana, como pavimentação, saneamento, iluminação ou paisagismo. **Mobiliário urbano** é objeto acrescentado às vias ou espaços públicos sem alteração substancial desses elementos, como banco, lixeira, semáforo ou poste de sinalização.
 
 O planejamento físico deve considerar:
 
@@ -150,66 +136,70 @@ O planejamento físico deve considerar:
 - conservação e indisponibilidades temporárias;
 - compatibilização com patrimônio cultural, sem dispensa automática.
 
-Percentuais, dimensões e parâmetros técnicos dependem da norma jurídica e técnica aplicável. Não se deve inventar medida da ABNT sem consultar a versão correta. Para este assunto administrativo, a cobrança central é saber planejar, verificar continuidade da rota e exigir evidência de conformidade.
+Percentuais, dimensões e parâmetros técnicos dependem da norma jurídica e técnica aplicável. A medida aplicável deve ser consultada na versão correta da norma técnica. Para este assunto administrativo, a cobrança central é saber planejar, verificar continuidade da rota e exigir evidência de conformidade.
 
-## 9. Comunicação acessível
 
-Comunicação acessível pode envolver Libras, legendas, audiodescrição, braille, caracteres ampliados, linguagem simples, transcrição, recursos táteis e comunicação aumentativa e alternativa — CAA.
+## 7. Comunicação acessível
+
+Comunicação acessível pode envolver <abbr title="Língua Brasileira de Sinais">Libras</abbr>, legendas, audiodescrição, braille, caracteres ampliados, linguagem simples, transcrição, recursos táteis e comunicação aumentativa e alternativa — <abbr title="Comunicação Aumentativa e Alternativa">CAA</abbr>.
 
 | Recurso | Função predominante |
 | --- | --- |
-| **Libras** | língua visual-espacial |
+| **<abbr title="Língua Brasileira de Sinais">Libras</abbr>** | língua visual-espacial |
 | **legenda** | apresenta fala e sons relevantes visualmente |
 | **audiodescrição** | descreve informação visual relevante |
 | **braille** | leitura e escrita táteis |
 | **transcrição** | oferece versão textual de conteúdo sonoro |
 | **linguagem simples** | reduz barreiras de compreensão sem eliminar precisão |
-| **CAA** | amplia ou substitui formas convencionais de comunicação |
+| **<abbr title="Comunicação Aumentativa e Alternativa">CAA</abbr>** | amplia ou substitui formas convencionais de comunicação |
 
 Os recursos não são intercambiáveis. A escolha depende da pessoa, do conteúdo e do contexto.
 
-### 9.1 Comunicação aumentativa e alternativa no corte do edital
+### Comunicação aumentativa e alternativa no corte do edital
 
-A Lei nº 15.249/2025, vigente antes do edital, incluiu medidas de CAA de baixa tecnologia, como pranchas contextuais com pictogramas em espaços abrangidos, placas em espaços públicos coletivos e sistemas de CAA em serviços públicos de saúde, além de capacitação relacionada.
+A Lei nº 15.249/2025, vigente antes do edital, incluiu medidas de <abbr title="Comunicação Aumentativa e Alternativa">CAA</abbr> de baixa tecnologia, como pranchas contextuais com **pictogramas**, imagens simbólicas que apoiam a comunicação, em espaços abrangidos, placas em espaços públicos coletivos e sistemas de <abbr title="Comunicação Aumentativa e Alternativa">CAA</abbr> em serviços públicos de saúde, além de capacitação relacionada.
 
-CAA não se limita a aplicativos sofisticados nem a um único grupo etário. A solução deve corresponder à necessidade comunicativa e ao contexto do serviço.
+<abbr title="Comunicação Aumentativa e Alternativa">CAA</abbr> não se limita a aplicativos sofisticados nem a um único grupo etário. A solução deve corresponder à necessidade comunicativa e ao contexto do serviço. A implementação das disposições introduzidas pela Lei nº 15.249/2025 observa a disponibilidade financeira e orçamentária do ente: isso afeta o planejamento, mas não autoriza inventar obrigação fora do âmbito legal nem abandonar diagnóstico e priorização.
 
-## 10. Acessibilidade digital
 
-O art. 63 da LBI exige acessibilidade nos sítios abrangidos, conforme melhores práticas e diretrizes internacionais. Acessibilidade digital é eliminar barreiras para que as pessoas percebam, compreendam, naveguem e interajam efetivamente.
+## 8. Acessibilidade digital
+
+O <abbr title="artigo">art.</abbr> 63 da <abbr title="Lei Brasileira de Inclusão">LBI</abbr> exige acessibilidade nos sítios abrangidos, conforme melhores práticas e diretrizes internacionais. Acessibilidade digital é eliminar barreiras para que as pessoas percebam, compreendam, naveguem e interajam efetivamente.
 
 Uma interface deve, entre outros aspectos:
 
-- funcionar por teclado, com foco visível e ordem lógica;
-- possuir estrutura semântica, títulos, rótulos e instruções;
+- funcionar por teclado, com **foco visível**, isto é, indicação clara de qual controle receberá a próxima ação, e ordem lógica;
+- possuir **estrutura semântica**, na qual cada elemento informa sua função à tecnologia assistiva, além de títulos, rótulos e instruções;
 - fornecer alternativa textual para imagens informativas;
 - oferecer contraste, redimensionamento e reorganização adequados;
 - não depender apenas de cor, posição, som ou gesto complexo;
 - identificar erros e permitir correção;
 - ser compatível com tecnologias assistivas;
-- oferecer alternativa acessível a CAPTCHA e autenticação.
+- oferecer alternativa acessível a <abbr title="Teste automatizado para distinguir pessoas de programas">CAPTCHA</abbr> e autenticação.
 
-### 10.1 LBI, eMAG, WCAG e ABNT NBR 17225
+### Referências jurídicas e técnicas
 
 | Referência | Papel seguro |
 | --- | --- |
-| **LBI** | estabelece a obrigação jurídica geral de acessibilidade dos sítios abrangidos |
-| **eMAG 3.1** | modelo institucional federal de acessibilidade em governo eletrônico |
-| **WCAG 2.2** | recomendação técnica internacional do W3C |
-| **ABNT NBR 17225:2025** | norma brasileira de requisitos para conteúdo e aplicações web, baseada na WCAG 2.2 |
+| **<abbr title="Lei Brasileira de Inclusão">LBI</abbr>** | estabelece a obrigação jurídica geral de acessibilidade dos sítios abrangidos |
+| **<abbr title="Modelo de Acessibilidade em Governo Eletrônico">eMAG</abbr> 3.1** | modelo institucional para sítios e portais federais no âmbito do <abbr title="Sistema de Administração dos Recursos de Tecnologia da Informação">SISP</abbr> |
+| **<abbr title="Diretrizes de Acessibilidade para Conteúdo Web">WCAG</abbr> 2.2** | recomendação técnica internacional do <abbr title="Consórcio World Wide Web">W3C</abbr> |
+| **<abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr> <abbr title="Norma Brasileira">NBR</abbr> 17225:2025** | norma brasileira de requisitos para conteúdo e aplicações web, baseada na <abbr title="Diretrizes de Acessibilidade para Conteúdo Web">WCAG</abbr> 2.2 |
 
-A WCAG organiza a acessibilidade em quatro princípios — **POUR**:
+A <abbr title="Diretrizes de Acessibilidade para Conteúdo Web">WCAG</abbr> organiza a acessibilidade em quatro princípios. A sigla inglesa <abbr title="Perceptível, Operável, Compreensível e Robusto">POUR</abbr> reúne *perceivable*, *operable*, *understandable* e *robust*:
 
 1. **Perceptível**;
 2. **Operável**;
 3. **Compreensível**;
 4. **Robusto**.
 
-Seus níveis são A, AA e AAA. Conformidade AA pressupõe os critérios A e AA aplicáveis. Critério AAA isolado não compensa falha em requisito A.
+Seus níveis são A, <abbr title="Nível AA de conformidade">AA</abbr> e <abbr title="Nível AAA de conformidade">AAA</abbr>. Conformidade <abbr title="Nível AA de conformidade">AA</abbr> pressupõe os critérios A e <abbr title="Nível AA de conformidade">AA</abbr> aplicáveis. Critério <abbr title="Nível AAA de conformidade">AAA</abbr> isolado não compensa falha em requisito A.
 
-O eMAG não foi automaticamente substituído pela WCAG 2.2. Tampouco uma referência técnica se torna lei universal apenas por existir. Sua obrigatoriedade concreta pode decorrer de lei, regulamento, política, edital, contrato ou incorporação normativa aplicável.
+O <abbr title="Modelo de Acessibilidade em Governo Eletrônico">eMAG</abbr> não foi automaticamente substituído pela <abbr title="Diretrizes de Acessibilidade para Conteúdo Web">WCAG</abbr> 2.2. Tampouco uma referência técnica se torna lei universal apenas por existir. Sua obrigatoriedade concreta pode decorrer de lei, regulamento, política, edital, contrato ou incorporação normativa aplicável.
 
-### 10.2 Testes
+### Imagens e testes
+
+A função da imagem determina seu tratamento. Imagem informativa precisa de alternativa equivalente; imagem funcional precisa comunicar a ação; imagem meramente decorativa deve ser ignorável por tecnologia assistiva. Imagem complexa, como gráfico ou diagrama, recebe texto alternativo que a identifica e descrição detalhada próxima ou em página indicada.
 
 Validador automático encontra parte dos problemas, mas não comprova acessibilidade. A avaliação combina:
 
@@ -218,19 +208,21 @@ Validador automático encontra parte dos problemas, mas não comprova acessibili
 - inspeção semântica, de contraste e de conteúdo;
 - uso de leitores de tela e outras tecnologias assistivas;
 - avaliação por pessoas com deficiência;
-- correção e testes de regressão após mudanças.
+- correção e repetição dos testes após mudanças, para detectar o retorno de falhas.
 
 Selo, plugin ou barra de acessibilidade não corrige sozinho código, conteúdo, processo e atendimento.
 
-## 11. Documentos, formulários e canais
 
-Documento acessível possui título, idioma, cabeçalhos hierárquicos, ordem de leitura, listas e tabelas estruturadas, links descritivos e alternativas para imagens. PDF composto apenas por imagens digitalizadas não se torna acessível por estar na internet.
+## 9. Documentos, formulários e canais
+
+Documento acessível possui título, idioma, cabeçalhos hierárquicos, ordem de leitura, listas e tabelas estruturadas, links descritivos e alternativas para imagens. <abbr title="Formato Portátil de Documento">PDF</abbr> composto apenas por imagens digitalizadas não se torna acessível por estar na internet.
 
 Formulários devem associar rótulos aos campos, informar o formato esperado, identificar erros, preservar dados quando possível e permitir navegação sem mouse. Tabelas servem a dados tabulares, não à diagramação visual.
 
-A produção acessível deve integrar o fluxo normal, não depender de remediação tardia. Mediante solicitação, os documentos abrangidos pela LBI devem ser disponibilizados em formato acessível.
+A produção acessível deve integrar o fluxo normal, não depender de remediação tardia. Mediante solicitação, os documentos abrangidos pela <abbr title="Lei Brasileira de Inclusão">LBI</abbr> devem ser disponibilizados em formato acessível.
 
-## 12. Governança e participação
+
+## 10. Governança e participação
 
 Acessibilidade sustentável depende de governança, não de correções isoladas. A alta administração deve definir direção, prioridades, responsabilidades e mecanismos de acompanhamento; as unidades operacionais incorporam requisitos ao trabalho cotidiano.
 
@@ -238,9 +230,10 @@ Pessoas com deficiência e organizações representativas devem participar do di
 
 O canal de reclamação também precisa ser acessível. Exigir que o usuário utilize exatamente o meio que contém a barreira impede o controle e distorce indicadores.
 
-## 13. Contratações públicas
 
-Acessibilidade deve entrar **antes** da assinatura do contrato. O planejamento pode prever:
+## 11. Contratações públicas
+
+Acessibilidade deve entrar **antes** da assinatura do contrato. O estudo técnico preliminar identifica necessidade e alternativas; o termo de referência converte a solução escolhida em requisitos, critérios de aceite e condições de execução. O planejamento pode prever:
 
 1. necessidade e jornada afetada;
 2. requisito funcional e técnico proporcional ao objeto;
@@ -257,9 +250,10 @@ Aceitar promessa genérica de “plena acessibilidade” sem critério verificá
 
 A fiscalização deve verificar o uso real da entrega. Uma declaração do fornecedor ou teste automatizado isolado não substitui o aceite conforme os critérios definidos.
 
-## 14. Indicadores e evidências
 
-Indicadores devem revelar cobertura e experiência, não apenas atividade.
+## 12. Indicadores e evidências
+
+Um **indicador** traduz uma característica do serviço em medida acompanhável. Deve revelar cobertura e experiência, não apenas atividade.
 
 | Dimensão | Indicador mais útil |
 | --- | --- |
@@ -275,25 +269,29 @@ Todo indicador precisa de definição, fórmula, fonte, periodicidade, responsá
 
 Quantidade de rampas não mede continuidade da rota; número de cursos não demonstra mudança de conduta; número de páginas publicadas não prova que o serviço pode ser concluído.
 
-## 15. Matriz de auditoria da acessibilidade
+
+## 13. Auditoria: do critério à correção
 
 | Critério | Evidência possível | Risco ou achado |
 | --- | --- | --- |
 | responsabilidade definida | ato, matriz de papéis, plano | ações dispersas e sem prestação de contas |
 | diagnóstico de jornadas | inventário, mapa de barreiras, testes | prioridades sem base e usuários excluídos |
 | participação | atas, oficinas, registros de teste | solução desenhada sem quem a utiliza |
-| requisito contratual | ETP, TR, edital, critérios de aceite | entrega inacessível ou obrigação genérica |
+| requisito contratual | <abbr title="Estudo Técnico Preliminar">ETP</abbr>, <abbr title="Termo de Referência">TR</abbr>, edital, critérios de aceite | entrega inacessível ou obrigação genérica |
 | teste efetivo | roteiros, resultados, tecnologias e usuários | aceite baseado apenas em declaração |
 | tratamento de reclamações | canal acessível, prazos, causas e correções | barreira recorrente e indicador subestimado |
-| monitoramento | indicadores, metas, regressão | conformidade inicial perdida após mudanças |
+| monitoramento | indicadores, metas, retorno de falhas após mudanças | conformidade inicial perdida após mudanças |
+
+O **critério** diz o que deveria ocorrer; a **condição** registra o encontrado; a **causa** explica a diferença; o **efeito ou risco** mostra sua consequência; a **evidência** sustenta a análise; e a **recomendação** enfrenta a causa sem substituir indevidamente o gestor.
 
 Em auditoria ou situação-problema, o raciocínio não deve parar na existência de uma norma. É preciso conectar **critério, condição encontrada, causa, efeito, risco, evidência e recomendação**.
 
-## 16. Aplicação a um tribunal de contas
+
+## 14. Aplicação a um tribunal de contas
 
 Tribunal de contas não integra o Poder Judiciário; exerce função constitucional de controle externo. Seu dever de acessibilidade decorre das normas constitucionais e gerais aplicáveis ao órgão público, não de suposta submissão automática a todo ato dirigido ao Judiciário.
 
-Um TCE deve incorporar acessibilidade em:
+Um <abbr title="Tribunal de Contas do Estado">TCE</abbr> deve incorporar acessibilidade em:
 
 - sede, sessões, eventos e emergências;
 - concursos, atendimento e ouvidoria;
@@ -304,7 +302,8 @@ Um TCE deve incorporar acessibilidade em:
 
 O controle não deve limitar-se à existência de rampa ou selo digital. Deve avaliar planejamento, orçamento, contratação, execução, experiência do usuário, indicadores e resultados.
 
-## 17. Exemplo integrado
+
+## 15. Retomar o caso do portal
 
 Um tribunal identifica que cidadãos cegos não concluem pedido eletrônico:
 
@@ -314,66 +313,24 @@ Um tribunal identifica que cidadãos cegos não concluem pedido eletrônico:
 4. verifica requisitos do contrato e critérios de aceite;
 5. envolve usuários e especialistas na solução;
 6. corrige código, conteúdo e processo, não apenas a interface visível;
-7. testa teclado, leitor de tela e regressão;
+7. testa teclado e leitor de tela e repete os testes após a correção;
 8. apura causa, responsabilidade e falha de fiscalização;
 9. mede taxa de sucesso e recorrência;
 10. incorpora o aprendizado a futuras contratações.
 
 A resposta completa combina atendimento presente e correção estrutural.
 
-## 18. Atualização pós-edital — Lei nº 15.459/2026
 
-> **Direito vigente hoje, posterior ao edital:** a Lei nº 15.459/2026 foi publicada no DOU e entrou em vigor em **8 de julho de 2026**. Ela alterou regras sobre o Símbolo Internacional de Acessibilidade. Por ser posterior a 6 de julho e não estar indicada no programa, não integra o núcleo legislativo do corte do edital.
+## 16. Corte temporal e vigência
 
-Como aprendizado gerencial atual, permanece válida a ideia de que símbolo e sinalização devem comunicar uma condição efetivamente existente: o sinal não cria acessibilidade nem substitui teste, adequação e manutenção.
+O Edital nº 1 — <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> foi publicado em **6 de julho de 2026**. Para este assunto, separe três situações:
 
-## 19. Pegadinhas frequentes
+| Situação | Tratamento no estudo |
+| --- | --- |
+| norma vigente em 6 de julho de 2026 | integra o núcleo ordinariamente cobrável |
+| norma futura expressamente citada no edital | pode ser cobrada nos limites da indicação |
+| alteração posterior não indicada | deve ser marcada como **pós-edital** ou **direito vigente hoje** |
 
-- acessibilidade ≠ favor;
-- prioridade ≠ acessibilidade;
-- deficiência ≠ incapacidade civil;
-- diagnóstico ≠ avaliação biopsicossocial completa;
-- mobilidade reduzida ≠ necessariamente deficiência permanente;
-- desenho universal ≠ adaptação razoável;
-- desenho universal não exclui tecnologia assistiva;
-- “razoável” ≠ facultativa;
-- uma barreira pode ser atitudinal mesmo sem obstáculo físico;
-- rampa isolada ≠ rota acessível;
-- Libras ≠ legenda;
-- legenda ≠ audiodescrição;
-- PDF digitalizado como imagem ≠ documento acessível;
-- vários canais inacessíveis ≠ serviço multicanal acessível;
-- validador automático ≠ prova de acessibilidade;
-- selo ou barra ≠ correção estrutural;
-- referência técnica ≠ lei universal automática;
-- declaração do fornecedor ≠ aceite comprovado;
-- quantidade de ações ≠ resultado para o usuário;
-- limitação orçamentária ≠ autorização para inércia;
-- Lei nº 15.249/2025 = dentro do corte;
-- Lei nº 15.459/2026 = atualização pós-edital.
+No núcleo vigente do corte estão a Constituição, a Convenção, a <abbr title="Lei Brasileira de Inclusão">LBI</abbr>, as Leis nº 10.048/2000, nº 10.098/2000, nº 14.624/2023, nº 14.626/2023 e nº 15.249/2025, além do Decreto nº 5.296/2004.
 
-## 20. Roteiro para questões e situações-problema
-
-Diante de um caso:
-
-1. identifique a pessoa, a tarefa e a jornada sem presumir incapacidade;
-2. classifique a barreira;
-3. indique o fundamento e a referência técnica aplicável;
-4. diferencie desenho universal de adaptação razoável;
-5. proponha solução imediata para não interromper o direito;
-6. atribua responsável, prazo, recurso e critério de aceite;
-7. envolva usuários no desenho e no teste;
-8. defina indicador de resultado;
-9. trate a causa e previna recorrência;
-10. se houver norma posterior, marque corretamente o corte temporal.
-
-Em discursiva, uma resposta madura apresenta **diagnóstico, risco, decisão, responsáveis, evidências, indicadores e monitoramento**.
-
-## 21. Limites deste assunto
-
-Para preservar os recortes do edital:
-
-- fundamentos, direitos e garantias da LBI pertencem ao Assunto 098;
-- inclusão, acessibilidade e responsabilização na LBI pertencem ao Assunto 099;
-- regras sistemáticas das Leis nº 10.098/2000 e nº 10.048/2000 pertencem ao Assunto 100;
-- este assunto concentra desenho de serviços, atendimento, ambientes, comunicação, tecnologia, governança, contratações, indicadores e controle sob a perspectiva administrativa.
+**Atualização posterior ao edital:** a Lei nº 15.459/2026, relativa ao Símbolo Internacional de Acessibilidade, foi publicada no <abbr title="Diário Oficial da União">DOU</abbr> e entrou em vigor em **8 de julho de 2026**. Como é posterior ao edital e não foi expressamente indicada, não integra o núcleo legislativo do corte. No direito hoje vigente, símbolo e sinalização devem comunicar condição efetivamente existente: o sinal não produz acessibilidade nem substitui adequação, teste e manutenção.
