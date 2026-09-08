@@ -8,332 +8,304 @@ storageId: materiais-recebimento-inventario
 
 # Arquivamento, recebimento, proteção, conservação, distribuição e inventário
 
-A administração de materiais não termina com a compra. O objeto precisa ser entregue, conferido, aceito ou rejeitado, registrado, protegido, conservado, distribuído e confrontado periodicamente com os controles. Em todas essas etapas, o fluxo físico, o fluxo informacional e o fluxo documental devem representar o mesmo fato.
+Um fornecedor chega com 29 caixas de um item pedido em 30 caixas de 12 unidades. Uma caixa parece avariada, a nota fiscal informa o total contratado e o sistema ainda não registra nada. Antes de “dar entrada”, a Administração precisa descobrir **o que realmente chegou, em que condição, o que pode ser aceito e qual documento provará cada decisão**.
 
-> **Ideia central:** material sem documento perde rastreabilidade; documento sem confronto físico pode apenas reproduzir um erro.
+Esse é o fio deste assunto. Receber, proteger, distribuir e inventariar não são tarefas isoladas: cada mudança física deve produzir um registro coerente e uma evidência documental. Quando os três planos divergem, surge uma ocorrência a investigar — não uma autorização para ajustar números até que coincidam.
 
-## Recorte e corte temporal
+> **Modelo mental:** receber → conferir → decidir → registrar → proteger → distribuir → confrontar → conciliar → documentar.
 
-O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> foi publicado em **6 de julho de 2026**. Esse é o corte-base deste assunto. Alteração posterior, quando necessária para contextualização, deve ser identificada como **pós-edital** ou **direito vigente hoje**, sem ser projetada retroativamente sobre o conteúdo cobrável na data do edital.
+O Edital nº 1/2026 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>, publicado em **6 de julho de 2026**, inclui arquivamento, recebimento, proteção, conservação, distribuição e inventário. Esse é o corte-base da prova. A <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 é referência operacional do <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal; fornece conceitos clássicos de administração de materiais, mas sua aplicação automática ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> não deve ser presumida. A Lei nº 14.133/2021 traz normas gerais sobre recebimento do objeto contratado.
 
-A <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 disciplina a gestão de materiais no âmbito do <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal. Ela fornece conceitos operacionais úteis para prova, mas sua aplicação automática ao TCE/MA não deve ser presumida. A Lei nº 14.133/2021 fornece as normas gerais de contratação, inclusive a disciplina do recebimento do objeto. Regras internas do órgão, competências e procedimentos próprios devem ser observados quando existirem.
+Compras, classificação e codificação ficam no Assunto 121; técnicas de armazenagem e segurança, no 120; sistema e movimentação patrimonial, no 118; alienação, no 123. Aqui interessa a **continuidade do controle** entre a entrega, a saída e o confronto físico.
 
-O foco aqui é o ciclo operacional de materiais. Compras, classificação e codificação pertencem ao Assunto 121; armazenagem e segurança, ao 120; sistema e movimentação patrimonial, ao 118; alienação, ao 123; e a disciplina contratual completa de recebimento e pagamento será aprofundada no Assunto 129.
+## 1. Cada movimento precisa existir no físico, no sistema e nos documentos
 
-## 1. Visão integrada do ciclo
+Imagine três representações do mesmo material:
 
-Um fluxo controlado pode ser resumido assim:
+| Plano | Pergunta de controle | Exemplo de evidência |
+| --- | --- | --- |
+| físico | o que existe, onde está e em que condição? | contagem, identificação, localização e inspeção |
+| informacional | o sistema representa o fato corretamente? | entrada, saída, situação, lote e saldo |
+| documental | por que o fato ocorreu e quem o autorizou ou confirmou? | pedido, nota, termo, requisição, relatório e autorização |
 
-1. preparar a entrega e os critérios de conferência;
-2. receber fisicamente a remessa;
-3. conferir identidade e quantidade;
-4. realizar exame qualitativo quando necessário;
-5. aceitar, rejeitar ou manter o objeto pendente;
-6. registrar a entrada e a situação do material;
-7. proteger e conservar;
-8. atender demanda autorizada;
-9. registrar a saída e comprovar a entrega;
-10. inventariar, conciliar e tratar diferenças.
+O controle funciona quando esses planos se sustentam mutuamente. Uma nota fiscal não prova, sozinha, a conformidade do objeto; um saldo no sistema não prova existência física; a existência física sem origem documentada também é uma divergência.
 
-A segregação de funções reduz o risco de uma mesma pessoa solicitar, receber, aceitar, registrar, custodiar e ajustar sozinha o mesmo material. Em estruturas pequenas, revisão independente, relatórios de exceção e autorização formal de ajustes funcionam como controles compensatórios.
-
-## 2. Arquivamento e trilha documental
-
-### 2.1 Documentos do ciclo de materiais
-
-A Lei nº 8.159/1991 considera arquivo o conjunto de documentos produzidos ou recebidos no exercício das atividades, qualquer que seja o suporte. No ciclo de materiais, podem integrar o dossiê:
-
-- pedido, contrato, empenho e especificação;
-- nota fiscal, fatura, guia de remessa, termo de cessão ou doação e guia de produção;
-- registro de recebimento, conferência, exame técnico, aceite ou rejeição;
-- entrada de estoque, requisição, transferência e comprovante de entrega;
-- termo de responsabilidade e histórico de localização;
-- folhas de contagem, relatório de inventário, conciliação e autorização de ajuste;
-- comunicações de dano, falta ou extravio, apuração e providência adotada.
-
-**Gestão documental** compreende produção, tramitação, uso, avaliação e arquivamento, com destinação regular. Não significa guardar tudo para sempre.
-
-| Fase | Função prática |
-| --- | --- |
-| corrente | documento de uso frequente ou ligado a processo em andamento |
-| intermediária | uso menos frequente, mas guarda ainda necessária |
-| permanente | preservação definitiva por valor histórico, probatório ou informativo |
-
-### 2.2 Dossiê e vínculo entre evidências
-
-Uma nota fiscal isolada não demonstra, por si, quem conferiu, se houve aceite ou como uma divergência foi regularizada. Os documentos devem ser vinculados por identificadores estáveis, como processo, contrato, pedido, nota, item, lote, patrimônio, requisição e inventário.
-
-A trilha deve permitir reconstruir:
+Por isso a <abbr title="sequência de evidências que permite reconstruir uma operação">trilha de auditoria</abbr> deve permitir reconstruir o percurso do item sem apagar etapas intermediárias:
 
 $$
-\text{origem} \rightarrow \text{entrega} \rightarrow \text{conferência} \rightarrow
-\text{aceite} \rightarrow \text{entrada} \rightarrow \text{guarda} \rightarrow
-\text{saída} \rightarrow \text{inventário} \rightarrow \text{regularização}
+\text{entrega}\rightarrow\text{conferência}\rightarrow\text{decisão}\rightarrow
+\text{registro}\rightarrow\text{guarda}\rightarrow\text{saída}\rightarrow
+\text{inventário}\rightarrow\text{regularização}
 $$
 
-Controles essenciais:
+Também convém separar funções incompatíveis. Quem solicita, recebe, aceita, registra, guarda e autoriza ajuste do mesmo material concentra poder suficiente para esconder um erro ou fraude. Quando a estrutura é pequena, revisão independente, autorização formal e relatórios de exceção funcionam como controles compensatórios.
 
-- classificação segundo a função e a atividade;
-- metadados suficientes para localização e contexto;
-- identificação de autor, data, versão e manifestação de vontade;
-- integridade e histórico de alterações;
-- vínculo entre documento, transação e material;
-- controle de acesso conforme a regra aplicável;
-- cópias de segurança e recuperação.
+## 2. Receber não é aceitar
 
-### 2.3 Temporalidade, destinação e digitalização
+### 2.1 Dois vocabulários que a prova pode misturar
 
-Não existe prazo nacional único para todo “documento de almoxarifado”. A guarda e a destinação dependem da classificação e da tabela de temporalidade aplicável, além de exigências fiscais, contratuais, de controle e de processos ainda pendentes.
+A <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 e a Lei nº 14.133/2021 descrevem etapas próximas com terminologia diferente.
 
-Distinções de prova:
-
-- **classificação arquivística** relaciona o documento à função e auxilia a temporalidade; **classificação de sigilo** regula acesso;
-- **digitalização** não autoriza, por si só, a eliminação do original;
-- **backup** favorece recuperação, mas não substitui autenticidade, contexto, metadados e preservação de longo prazo.
-
-A Lei nº 12.682/2012 e o Decreto nº 10.278/2020 estabelecem requisitos para digitalização. A eliminação de documento público continua condicionada à avaliação, à tabela de temporalidade e ao procedimento competente.
-
-## 3. Recebimento, conferência e aceitação
-
-### 3.1 Dois referenciais que não devem ser confundidos
-
-A IN SEDAP nº 205/1988 e a Lei nº 14.133/2021 usam terminologias relacionadas, mas não idênticas.
-
-| Referência | Ato | Núcleo |
+| Referência | Ato | Efeito central |
 | --- | --- | --- |
-| IN SEDAP nº 205/1988 | recebimento | entrega no local designado e assunção inicial da guarda, sem implicar aceitação |
-| IN SEDAP nº 205/1988 | aceitação | declaração de que o material satisfaz as especificações |
-| Lei nº 14.133/2021, art. 140 | recebimento provisório da compra | ato sumário, com posterior verificação da conformidade |
-| Lei nº 14.133/2021, art. 140 | recebimento definitivo da compra | termo detalhado que comprova o atendimento contratual |
+| <abbr title="Instrução Normativa">IN</abbr> nº 205/1988 | recebimento | entrega no local designado e assunção inicial da guarda, **sem implicar aceitação** |
+| <abbr title="Instrução Normativa">IN</abbr> nº 205/1988 | aceitação | declaração de que o material satisfaz as especificações |
+| Lei nº 14.133/2021, <abbr title="artigo">art.</abbr> 140, II, “a” | recebimento provisório de compra | ato sumário pelo responsável pelo acompanhamento e fiscalização, com verificação posterior |
+| Lei nº 14.133/2021, <abbr title="artigo">art.</abbr> 140, II, “b” | recebimento definitivo de compra | termo detalhado por servidor ou comissão designada, após comprovar as exigências contratuais |
 
-Em ambos os referenciais, a simples chegada do objeto não transforma desconformidade em aceite. O objeto em desacordo pode ser rejeitado total ou parcialmente.
+A Lei nº 14.133/2021 ainda determina, no <abbr title="artigo">art.</abbr> 140, § 1º, que o objeto pode ser rejeitado, no todo ou em parte, quando estiver em desacordo com o contrato.
 
-### 3.2 Matriz operacional
+A consequência prática é simples: **chegada não significa conformidade**. Assinar que vinte volumes chegaram sem avaria externa pode demonstrar a entrega desses volumes, mas não prova automaticamente quantidade interna, especificação, validade ou funcionamento.
 
-| Etapa | Pergunta central | Resultado esperado |
-| --- | --- | --- |
-| entrega | a remessa chegou ao destino? | prova da chegada e dos volumes aparentes |
-| recebimento inicial | a remessa pode ser identificada e posta sob guarda? | custódia inicial e abertura do controle |
-| conferência quantitativa | quantidade e unidade coincidem com pedido e documento? | quantidade efetivamente recebida |
-| conferência qualitativa | especificações, integridade e desempenho foram atendidos? | base técnica para decidir |
-| aceitação/definitivo | o objeto está conforme? | liberação para registro e uso |
-| rejeição | há desconformidade impeditiva? | segregação e regularização |
+### 2.2 O mecanismo operacional
 
-Assinar um comprovante de transportadora pode provar a entrega de volumes, mas não necessariamente o conteúdo, a quantidade interna, a qualidade ou o funcionamento.
+Uma forma clássica de decompor o recebimento em prova é:
 
-### 3.3 Local e documentos hábeis
+1. **entrada de materiais:** chegada, identificação inicial da remessa e documentos;
+2. **conferência quantitativa:** verificar item, unidade e quantidade;
+3. **conferência qualitativa:** verificar especificação e condição;
+4. **regularização:** tratar falta, excesso, avaria, troca, rejeição ou outra divergência.
 
-Na referência federal da IN nº 205/1988, o recebimento ocorre normalmente no almoxarifado. Quando a natureza do objeto exigir entrega em local técnico ou unidade usuária, o controle e o registro de entrada não desaparecem.
+Esse modelo não elimina a distinção jurídica entre recebimento provisório e definitivo. Ele descreve o trabalho operacional necessário para que a Administração possa decidir com evidência.
 
-A instrução relaciona, conforme a origem:
+Na referência federal da <abbr title="Instrução Normativa">IN</abbr> nº 205/1988, o recebimento ocorre normalmente no almoxarifado. Se a natureza do material exigir entrega direta em unidade técnica ou outro local designado, o controle permanece: a chegada precisa ser comunicada, a conferência realizada e a entrada registrada segundo o fluxo aplicável.
 
-- nota fiscal, fatura ou nota fiscal/fatura, na compra;
-- termo de cessão ou doação e documentação de permuta;
-- guia de remessa ou nota de transferência;
-- guia de produção, na produção interna.
+Conforme a origem do material, a <abbr title="Instrução Normativa">IN</abbr> relaciona documentos como nota fiscal, fatura ou nota fiscal/fatura; termo de cessão ou doação; documentação de permuta; guia de remessa ou transferência; e guia de produção para produção interna. Documento hábil identifica a origem, mas ainda precisa ser confrontado com pedido, especificação e material físico.
 
-O documento comprova a origem, mas precisa ser confrontado com pedido, especificação e material físico.
+### 2.3 Quantidade e qualidade respondem a perguntas diferentes
 
-### 3.4 Conferência quantitativa e qualitativa
+**Conferência quantitativa** pergunta: “chegou o que foi pedido, na unidade correta e na quantidade correta?”. A unidade de fornecimento importa.
 
-A conferência quantitativa exige atenção à unidade de fornecimento. Se o pedido prevê 40 caixas com 10 unidades e chegam 38 caixas completas, foram recebidas 380 unidades, com falta de 20.
+**Exemplo hipotético.** O pedido prevê 30 caixas com 12 unidades. Chegam 29 caixas completas:
 
-A conferência qualitativa pode abranger:
+$$
+29\times12=348\text{ unidades recebidas}
+$$
 
-- descrição, código, modelo e composição;
-- dimensões, acabamento e desempenho;
+Como eram esperadas 360 unidades, há falta de 12. Registrar “29 caixas” sem relacionar caixa e unidade pode esconder a diferença.
+
+**Conferência qualitativa** pergunta: “o objeto recebido atende às características exigidas?”. Conforme o material, podem ser verificados:
+
+- descrição, código, modelo, composição e dimensões;
 - integridade da embalagem, lacre e produto;
 - lote, série, fabricação, validade e garantia;
 - certificados, manuais e acessórios;
-- teste, ensaio ou avaliação técnica;
-- ausência de defeito, dano ou contaminação.
+- desempenho, teste, ensaio ou avaliação técnica;
+- defeito, dano, contaminação ou outra condição impeditiva.
 
-A profundidade deve ser proporcional ao risco. Material simples pode admitir conferência direta; equipamento especializado pode exigir técnico ou comissão. Amostragem depende de critério tecnicamente justificável.
+A profundidade da conferência deve acompanhar o risco. Material simples pode admitir verificação direta; equipamento especializado pode exigir técnico ou comissão. Quando houver amostragem, o critério precisa ser tecnicamente justificável.
 
-### 3.5 Divergência e regularização
+### 2.4 Divergência: primeiro impedir mistura com o saldo liberado
 
-São ocorrências distintas: falta, excesso, item trocado, unidade divergente, avaria, validade inadequada, especificação não atendida, documento ausente e entrega parcial irregular.
+Falta, excesso, item trocado, unidade divergente, avaria, validade inadequada, especificação não atendida, documento ausente e entrega parcial irregular são ocorrências diferentes. O tratamento básico segue uma lógica comum:
 
-Fluxo de tratamento:
-
-1. identificar e segregar o material;
-2. registrar item, lote/série, quantidade e condição;
-3. delimitar o que foi recebido, aceito, rejeitado ou ficou pendente;
+1. identificar e, quando necessário, segregar o material;
+2. registrar item, lote ou série, quantidade e condição;
+3. separar o que foi aceito, rejeitado ou permaneceu pendente;
 4. comunicar fornecedor e responsáveis;
-5. definir devolução, substituição, complementação ou correção;
+5. definir devolução, substituição, complementação, correção ou outra providência competente;
 6. reexaminar a solução;
-7. atualizar os registros sem apagar o histórico.
+7. atualizar os registros sem apagar o histórico da ocorrência.
 
-Aceitação parcial exige admissibilidade e individualização clara da parcela aceita. Material pendente não integra o saldo livre para distribuição.
+A aceitação parcial só faz sentido quando a parcela aceita é admissível e individualizável. Material ainda sujeito a inspeção, rejeitado ou pendente **não integra o saldo livre para distribuição**.
 
-### 3.6 Entrada, carga, liquidação e pagamento
+### 2.5 Entrada, carga, liquidação e pagamento não são sinônimos
 
-Os eventos se relacionam, mas não são sinônimos:
+Esses eventos podem ocorrer em sequência, mas respondem a perguntas diferentes:
 
-- **entrada física:** chegada e custódia;
-- **entrada no estoque ou patrimônio:** registro do material aceito;
-- **carga:** atribuição de guarda e uso, conforme o regime aplicável;
-- **liquidação:** verificação do direito do credor com base no título e nos documentos;
-- **pagamento:** etapa posterior da despesa.
+| Evento | Pergunta principal |
+| --- | --- |
+| entrada física | o material chegou e está sob custódia? |
+| registro de entrada | o material aceito foi incorporado ao controle de estoque ou patrimônio? |
+| carga | quem recebeu a guarda e o uso do bem, conforme o regime aplicável? |
+| liquidação | o credor comprovou o direito ao valor devido? |
+| pagamento | a despesa liquidada foi paga? |
 
-A Lei nº 4.320/1964 exige registros analíticos dos bens permanentes e relaciona a liquidação à comprovação da entrega. Um carimbo genérico de “recebido” não substitui a prova necessária a cada evento.
+A Lei nº 4.320/1964, <abbr title="artigo">art.</abbr> 63, define liquidação como verificação do direito adquirido pelo credor com base nos títulos e documentos comprobatórios e, no fornecimento, considera comprovantes da entrega do material. Portanto, um carimbo genérico de “recebido” não deve ser tratado como se comprovasse todos os eventos do ciclo.
 
-## 4. Proteção e conservação
+## 3. Proteger e conservar: manter o material apto até a saída
 
-**Proteção** reúne barreiras contra perda, acesso indevido, furto, dano, clima, pragas, contaminação e outros riscos. **Conservação** mantém as características e a aptidão de uso ao longo do tempo.
+**Proteção** cria barreiras contra perda, acesso indevido, furto, impacto, umidade, calor, pragas, contaminação e outros riscos. **Conservação** procura manter características e aptidão de uso ao longo do tempo. As técnicas de armazenagem, uso do espaço e segurança são aprofundadas no Assunto 120; aqui importa perceber como a condição do material altera sua disponibilidade e sua trilha.
 
-Controles usuais:
+### 3.1 Condição e disponibilidade são dimensões diferentes
 
-- inspecionar embalagem e condição na entrada;
-- segregar material liberado, em inspeção, bloqueado, rejeitado, vencido ou destinado à devolução;
-- preservar o vínculo entre item, lote, etiqueta e registro;
-- proteger contra piso, umidade, calor, luz, poeira, pragas e impactos;
-- controlar acesso e incompatibilidades;
-- manter circulação e equipamentos de emergência desobstruídos;
-- posicionar itens pesados em níveis inferiores;
-- registrar inspeções, validade, manutenção e anomalias;
-- aplicar PEPS ou FEFO/PVPS conforme a natureza do material.
-
-### 4.1 Situação de disponibilidade não é condição física
-
-“Bloqueado” e “avariado” não devem ser tratados automaticamente como parcelas independentes do saldo. Um mesmo lote pode estar **bloqueado por estar avariado**. Para evitar dupla contagem, convém separar duas dimensões:
+Um lote pode estar **bloqueado porque está avariado**. Se “bloqueado” e “avariado” forem somados como parcelas independentes, as mesmas unidades serão contadas duas vezes.
 
 | Dimensão | Exemplos |
 | --- | --- |
 | situação de disponibilidade | disponível, reservado, em inspeção, bloqueado |
-| condição do material | íntegro, avariado, vencido, contaminado, suspeito |
+| condição física | íntegro, avariado, vencido, contaminado, suspeito |
 
-Somente categorias mutuamente exclusivas podem ser somadas diretamente. O sistema deve impedir que material vencido, rejeitado ou ainda sob inspeção apareça como disponível.
+Somente categorias mutuamente exclusivas podem ser somadas diretamente. O sistema deve impedir que material rejeitado, vencido ou ainda sob inspeção apareça como saldo liberado.
 
-PEPS prioriza o lote que entrou primeiro. FEFO/PVPS prioriza o lote que vence primeiro. Nenhum método autoriza distribuir material impróprio.
+### 3.2 Rotação escolhe entre lotes aptos
 
-## 5. Distribuição
+O <abbr title="Primeiro que Entra, Primeiro que Sai">PEPS</abbr> prioriza, entre materiais aptos, o lote que entrou primeiro. O <abbr title="First Expired, First Out">FEFO</abbr>, também expresso como <abbr title="Primeiro que Vence, Primeiro que Sai">PVPS</abbr>, prioriza o lote liberado com vencimento mais próximo.
 
-A IN nº 205/1988 distingue:
+A regra de rotação nunca supera a condição do item: vencido, rejeitado, contaminado ou bloqueado não se torna distribuível apenas porque chegou antes ou vence antes.
 
-| Processo | Característica |
+## 4. Distribuir é fazer o material chegar ao usuário sem quebrar a trilha
+
+Na <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988, há dois processos clássicos de fornecimento:
+
+| Processo | Como funciona |
 | --- | --- |
 | pressão | entrega em épocas fixadas segundo tabela de provisão, sem nova solicitação a cada fornecimento |
 | requisição | entrega mediante pedido interno; é o processo mais comum |
 
-Pressão não significa fornecimento sem planejamento. Requisição não significa atendimento automático.
+**Pressão** não significa fornecimento sem planejamento. **Requisição** não significa atendimento automático. Em qualquer caso, o atendimento precisa compatibilizar autorização, item, quantidade, disponibilidade, destino e registro.
 
-Fluxo controlado:
+Um fluxo controlado de requisição pode ser lido assim:
 
-1. validar requisição e autorização;
+1. validar pedido e autorização;
 2. conferir código, unidade, quantidade, destino e finalidade;
 3. verificar disponibilidade e limites;
 4. reservar e separar o item correto;
-5. reconferir;
-6. embalar e proteger;
-7. registrar a saída;
-8. entregar e obter confirmação;
-9. tratar recusa, devolução ou diferença;
-10. arquivar a evidência.
+5. reconferir e acondicionar para a entrega;
+6. registrar a saída;
+7. entregar e obter confirmação;
+8. tratar recusa, devolução ou diferença;
+9. arquivar a evidência.
 
-A referência de consumo dos doze meses anteriores prevista na IN nº 205/1988 orienta a análise, mas não deve ser aplicada mecanicamente. Mudança de demanda, sazonalidade e evento extraordinário precisam ser considerados.
+A <abbr title="Instrução Normativa">IN</abbr> nº 205/1988 usa o consumo dos doze meses anteriores como referência para analisar pedidos. Esse histórico orienta, mas não substitui o julgamento: mudança de demanda, sazonalidade ou evento extraordinário pode justificar comportamento diferente, desde que analisado e documentado.
 
-Em remessas, devem ser observados fragilidade, perecibilidade, transporte, valor, destinatário, volumes e acondicionamento. A confirmação do destinatário fecha uma etapa da cadeia, mas não elimina ressalvas de falta ou avaria.
+Em remessas para outra localidade, fragilidade, perecibilidade, transporte, valor, destinatário, quantidade de volumes e acondicionamento afetam o risco. A confirmação pelo destinatário fecha uma etapa da cadeia, mas faltas, avarias e ressalvas registradas continuam exigindo tratamento.
 
-## 6. Inventário físico e conciliação
+## 5. Inventário: confrontar realidade e registro
 
-Inventário físico não é impressão do sistema. É a verificação da existência, identidade, quantidade, localização, condição e responsabilidade, comparada com os registros.
+Inventário físico não é impressão do sistema. É o procedimento de **observar a realidade e compará-la aos controles**, verificando existência, identidade, quantidade, localização, condição e responsabilidade.
 
-### 6.1 Ocasiões normativas na IN nº 205/1988
+A Lei nº 4.320/1964 exige registros analíticos dos bens permanentes e, no <abbr title="artigo">art.</abbr> 96, determina o levantamento geral dos bens móveis e imóveis com base no inventário analítico de cada unidade administrativa e nos elementos da <abbr title="registro contábil resumido por grupos ou contas">escrituração sintética</abbr> da contabilidade.
 
-| Inventário | Gatilho |
+### 5.1 Ocasião, método e etapa são classificações diferentes
+
+A <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 apresenta cinco **ocasiões ou tipos normativos** de inventário:
+
+| Tipo | Gatilho |
 | --- | --- |
-| anual | comprovação da quantidade e do valor existentes em 31 de dezembro |
+| anual | comprovar quantidade e valor existentes em 31 de dezembro |
 | inicial | criação de unidade gestora |
 | transferência de responsabilidade | mudança do dirigente da unidade gestora |
 | extinção ou transformação | mudança estrutural correspondente |
 | eventual | qualquer época, por iniciativa do dirigente ou do órgão fiscalizador |
 
-### 6.2 Métodos operacionais de contagem
+Não misture essa lista com **métodos de contagem**. Inventário rotativo ou cíclico distribui contagens programadas ao longo do período. Inventário por amostragem observa uma parcela representativa do grupo ou classe e, quando tecnicamente admissível, usa-a para inferir sobre o conjunto. Esses métodos gerenciais não se tornam duas novas ocasiões normativas nem substituem automaticamente levantamento integral exigido por norma ou finalidade específica.
 
-| Método | Uso |
+### 5.2 Planeje a data-base antes de contar
+
+O plano de inventário precisa definir objetivo, abrangência, data-base, equipe, locais, itens, unidade de medida, listagem de referência, regra para movimentações, recontagem, relatório, aprovação e acompanhamento.
+
+Quando entradas e saídas não podem ser paralisadas, aplica-se **corte controlado**: cada movimento próximo à data-base precisa ser atribuído ao momento e ao local corretos. Sem corte, a mesma unidade pode ser contada duas vezes ou não ser contada em lugar algum.
+
+A **contagem cega** omite, quando viável, o saldo esperado da equipe de contagem para reduzir viés de confirmação. O item continua identificado; o que se evita é transformar o saldo do sistema em “meta” visual. Diferenças devem ser registradas antes da recontagem.
+
+### 5.3 Diferença não é autorização automática para ajustar
+
+Primeiro determine qual seria o saldo esperado:
+
+$$
+\text{saldo esperado}=\text{saldo inicial}+\text{entradas}-\text{saídas}\pm\text{ajustes autorizados}
+$$
+
+Depois compare com a realidade física. Um indicador simples de acurácia por itens é:
+
+$$
+\text{acurácia por itens (\%)}=
+\frac{\text{itens sem divergência}}{\text{itens contados}}\times100
+$$
+
+Se 194 de 200 itens coincidem com o registro, a acurácia por itens é 97%. Esse percentual não mostra sozinho o impacto: seis divergências de alto valor ou de material crítico podem ser mais importantes que várias diferenças pequenas. Quantidade, valor, criticidade e reincidência completam a leitura.
+
+**Exemplo hipotético.** O sistema mostra 500 unidades e a contagem encontra 490. Durante o corte, porém, existe saída documentada de 10 unidades ainda não processada. A diferença pode ser explicada pelo movimento pendente. O procedimento correto é validar documento, data e destino e então processar o fato com rastreabilidade — não presumir extravio nem alterar a contagem para 500.
+
+### 5.4 A classificação doutrinária cobrada em provas
+
+Além das categorias da <abbr title="Instrução Normativa">IN</abbr> nº 205/1988, provas podem usar uma classificação doutrinária do trabalho de inventário em três fases:
+
+1. **levantamento:** coleta e identificação dos elementos a inventariar;
+2. **arrolamento:** registro das características e quantidades obtidas no levantamento, de forma sintética (agrupada) ou analítica (item a item);
+3. **avaliação:** atribuição de expressão monetária aos elementos, segundo o critério aplicável.
+
+Essa sequência não deve ser confundida com as cinco ocasiões normativas da <abbr title="Instrução Normativa">IN</abbr> nº 205/1988. “Anual” responde **quando/por que inventariar**; “levantamento” responde **em que fase do trabalho se está**.
+
+Outra lista doutrinária recorrente apresenta seis princípios: **instantaneidade, oportunidade, especificação, homogeneidade, integridade e uniformidade**. O contraste de maior valor para prova é:
+
+| Princípio | Ideia operacional |
 | --- | --- |
-| rotativo ou cíclico | contagens contínuas e programadas de grupos ao longo do período |
-| por amostragem | verificação de amostras de grupo ou classe em acervo de grande porte |
+| instantaneidade | fixar o momento do levantamento |
+| oportunidade | executar em tempo suficientemente curto para preservar a exatidão |
+| especificação | classificar, individualizar e agrupar elementos da mesma espécie |
+| homogeneidade | usar denominador comum para expressar valor, em geral moeda |
+| integridade | abranger **todos os elementos compreendidos nos limites fixados** |
+| uniformidade | manter normas, estrutura e critérios comparáveis entre inventários |
 
-Esses métodos gerenciais não substituem automaticamente o levantamento integral exigido por norma, prestação de contas ou finalidade específica.
+Logo, uma questão que diga “fixados os limites, todos os elementos dentro deles devem ser levantados” está descrevendo **integridade**, não uniformidade.
 
-### 6.3 Planejamento, corte e contagem
+### 5.5 Conciliação procura a causa antes de apagar a diferença
 
-O plano deve definir objetivo, abrangência, data-base, equipe, locais, itens, unidade de medida, listagem de referência, regra de movimentação, recontagem, relatório, aprovação e acompanhamento.
-
-Se não for possível paralisar entradas e saídas, usa-se **corte controlado**: cada movimento é atribuído ao momento correto. Sem corte, o mesmo material pode ser contado em dois locais ou em nenhum.
-
-A **contagem cega** omite, quando viável, o saldo esperado para reduzir o viés de confirmação. Diferenças devem ser recontadas e a evidência original preservada.
-
-### 6.4 Saldo esperado e acurácia
-
-$$
-\text{saldo esperado} =
-\text{saldo inicial} + \text{entradas} - \text{saídas} \pm \text{ajustes autorizados}
-$$
-
-$$
-\text{acurácia por itens (\%)} =
-\frac{\text{itens sem divergência}}{\text{itens contados}} \times 100
-$$
-
-Se 194 de 200 itens coincidem com o registro, a acurácia por itens é 97%. O indicador deve ser complementado por quantidade, valor, criticidade e reincidência.
-
-O inventário analítico deve caracterizar o material por descrição padronizada, número de registro, valor, estado e outros elementos necessários. O levantamento físico fornece evidência para conciliação operacional, patrimonial e contábil, mas não substitui os critérios próprios da contabilidade.
-
-### 6.5 Conciliação e tratamento de divergências
+Conciliação compara evidências que podem discordar:
 
 | Comparação | Exemplo de problema |
 | --- | --- |
-| físico × ficha/endereço | quantidade ou lote divergente |
-| físico × sistema de estoque | item não registrado ou não localizado |
+| físico × sistema | item não registrado ou não localizado |
+| físico × endereço | quantidade correta no local errado |
 | estoque × documentos | entrada ou saída sem suporte |
-| remessa × confirmação | material em trânsito ou entregue com ressalva |
+| remessa × confirmação | material em trânsito ou recebido com ressalva |
 | patrimônio × responsabilidade | bem atribuído a pessoa ou local incorreto |
 | controle patrimonial × contabilidade | valor, conta ou evento divergente |
 
-Sequência adequada:
+Uma sequência segura é: **registrar a diferença → recontar → verificar identidade e unidade → consultar documentos e movimentos → identificar causa e impacto → decidir com competência → regularizar → monitorar recorrência**.
 
-1. registrar a diferença original;
-2. recontar e validar identidade e unidade;
-3. consultar documentos, movimentos pendentes e localizações;
-4. identificar causa e impacto;
-5. obter decisão competente;
-6. regularizar físico, documentos e sistemas;
-7. apurar responsabilidade quando houver indício;
-8. monitorar providências e recorrência.
+Sobra também é divergência. Pode resultar de entrada não registrada, devolução informal, erro de código ou dupla contagem. Assim como a falta, não autoriza ajuste imediato nem prova automaticamente responsabilidade de alguém.
 
-Sobra também é divergência. Pode indicar entrada não registrada, devolução informal, erro de código ou dupla contagem.
+## 6. Arquivamento: a documentação precisa reconstruir o que ocorreu
 
-## 7. Situações-problema
+Recebimento, distribuição e inventário geram documentos porque cada mudança de estado precisa ser demonstrável. A Lei nº 8.159/1991 considera arquivos os conjuntos de documentos produzidos e recebidos no exercício de atividades, **qualquer que seja o suporte**. Gestão de documentos abrange produção, tramitação, uso, avaliação e arquivamento em fases corrente e intermediária, visando eliminação ou recolhimento para guarda permanente.
 
-### Entrega direta de equipamento
+| Fase documental | Função prática |
+| --- | --- |
+| corrente | uso frequente ou processo ainda em andamento |
+| intermediária | consulta menos frequente, mas guarda ainda necessária |
+| permanente | preservação definitiva por valor histórico, probatório ou informativo |
 
-Equipamento volumoso é entregue na unidade técnica. A unidade registra chegada e condição, realiza o exame previsto e comunica o almoxarifado para o registro. Se aceito e permanente, segue para identificação e carga. Entrega direta não elimina controle.
+**Temporalidade** é o tempo de permanência dos documentos em cada fase segundo a classe documental e a tabela aplicável. **Destinação** é a decisão de eliminar ou recolher para guarda permanente após a avaliação correspondente. Não existe prazo nacional único para todo “documento de almoxarifado”.
 
-### Caixas intactas, conteúdo incompleto
+Também não confunda **classificação arquivística**, que relaciona o documento à função e à atividade e orienta temporalidade, com **classificação de sigilo**, que regula acesso.
 
-O comprovante registra vinte caixas sem avaria externa. Na conferência interna, uma contém oito das dez unidades previstas. A assinatura dos volumes não equivaleu à aceitação quantitativa do conteúdo. A falta deve ser documentada e regularizada.
+### 6.1 A trilha documental precisa responder seis perguntas
 
-### Divergência durante inventário
+Um dossiê útil permite responder:
 
-O sistema mostra 120 unidades, e a contagem encontra 116. A equipe não ajusta imediatamente. Reconta, verifica unidade, embalagens, entradas, requisições e movimentos do corte. Confirmada a falta, registra a causa conhecida ou pendente e submete o ajuste à autorização.
+1. **origem:** de qual pedido, contrato, transferência, cessão, doação ou produção veio o material?
+2. **objeto:** qual item, código, lote, série, quantidade e unidade estavam envolvidos?
+3. **decisão:** o que foi recebido, aceito, rejeitado, distribuído, devolvido ou ajustado?
+4. **tempo:** quando ocorreu cada evento?
+5. **responsabilidade:** quem praticou, conferiu, autorizou ou recebeu o ato?
+6. **regularização:** como uma diferença foi encerrada e qual evidência sustentou a solução?
 
-## 8. Pegadinhas de prova
+Para isso, o registro precisa preservar identificadores e <abbr title="dados que descrevem contexto, autoria, data e estrutura de um documento">metadados</abbr> suficientes, integridade, histórico de alterações, controle de acesso quando cabível e mecanismos de recuperação.
 
-1. **Recebimento não é aceitação.**
-2. **Recebimento provisório não é definitivo.**
-3. **Volume entregue não é conteúdo automaticamente aceito.**
-4. **Material pendente não é saldo disponível.**
-5. **Situação de disponibilidade não é condição física.**
-6. **Pressão não é requisição.**
-7. **Saída física e registro precisam permanecer sincronizados.**
-8. **Inventário não é listagem do sistema.**
-9. **Rotativo e amostragem são métodos; não integram as cinco ocasiões normativas.**
-10. **Amostragem não substitui automaticamente inventário integral.**
-11. **Diferença não autoriza ajuste imediato.**
-12. **Sobra também exige investigação.**
-13. **Digitalização não autoriza eliminação automática.**
-14. **Backup não é preservação arquivística completa.**
-15. **A IN SEDAP nº 205/1988 é referência federal, não regra automaticamente imputada ao TCE/MA.**
+Uma <abbr title="cópia destinada a permitir recuperação após perda ou falha">cópia de segurança</abbr> ajuda a recuperar informação, mas não substitui contexto, autenticidade, temporalidade, destinação e preservação arquivística.
+
+### 6.2 Digitalizar não significa eliminar automaticamente
+
+A Lei nº 12.682/2012 e o Decreto nº 10.278/2020 disciplinam digitalização e requisitos para que documentos digitalizados produzam os efeitos previstos. Isso não cria uma autorização genérica para destruir qualquer original logo após escaneá-lo.
+
+Para documentos públicos, a Lei nº 8.159/1991 condiciona a eliminação à autorização da instituição arquivística pública competente, observados avaliação, temporalidade e procedimento aplicável. Portanto:
+
+- digitalização resolve uma questão de representação e acesso;
+- eliminação resolve uma questão de destinação arquivística;
+- <abbr title="cópia destinada a permitir recuperação após perda ou falha">cópia de segurança</abbr> resolve uma questão de recuperação.
+
+São controles relacionados, mas não intercambiáveis.
+
+## 7. O teste final: qual efeito cada etapa produz?
+
+Quando duas expressões parecerem sinônimas, pergunte qual fato cada uma prova:
+
+- **recebimento** prova chegada e custódia inicial; **aceitação** depende de conformidade;
+- **provisório** admite verificação posterior; **definitivo** formaliza o atendimento às exigências contratuais;
+- **entrada física** não é, por si, **liquidação** nem pagamento;
+- **pressão** usa provisão programada; **requisição** parte de pedido interno;
+- **inventário** confronta realidade e registro; **ajuste** só vem depois da investigação e decisão competente;
+- **digitalização** não equivale a eliminação; **cópia de segurança** não equivale a preservação arquivística.
