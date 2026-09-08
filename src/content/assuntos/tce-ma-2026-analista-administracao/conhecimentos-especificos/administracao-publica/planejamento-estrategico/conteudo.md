@@ -8,420 +8,220 @@ storageId: planejamento-estrategico
 
 # Planejamento estratégico
 
-Planejar estrategicamente é decidir, de forma estruturada, **qual situação futura se pretende alcançar, que valor deve ser gerado, quais escolhas orientarão a organização e como os resultados serão acompanhados**. O processo parte da identidade e do mandato institucional, interpreta o ambiente, seleciona prioridades, mobiliza capacidades e transforma direção em objetivos, indicadores, metas, iniciativas e decisões.
+**Se os recursos não permitem fazer tudo, o que a organização precisa priorizar para cumprir sua <abbr title="razão de ser e contribuição institucional">missão</abbr>?** Em um exemplo hipotético, um tribunal de contas quer apreciar processos prioritários com mais rapidez, sem sacrificar a qualidade. Comprar um sistema, capacitar equipes e mudar o fluxo são caminhos possíveis; escolher exige entender a demora, comparar alternativas e explicar como a mudança produzirá resultado.
 
-No setor público, estratégia não se resume a competir ou obter lucro. Ela deve responder ao interesse público, ao marco legal, às necessidades dos destinatários, aos riscos, às capacidades estatais e aos recursos disponíveis. Também não termina na publicação de um plano: sem implementação, monitoramento, avaliação, aprendizagem e revisão, há apenas intenção documentada.
+A **estratégia** reúne escolhas coerentes sobre direção, prioridades e atuação. O **planejamento estratégico** é o processo de formulá-las, considerando a organização inteira e seu ambiente. O **plano estratégico** documenta essas escolhas; no âmbito institucional, é chamado de Plano Estratégico Institucional — <abbr title="Plano Estratégico Institucional">PEI</abbr>. A **gestão estratégica** conecta formulação, implementação, acompanhamento, avaliação e revisão: publicar o documento não executa a estratégia.
 
-> **Ideia central:** estratégia exige escolhas coerentes. Tentar priorizar tudo, sem explicitar resultados, responsáveis, recursos e critérios de acompanhamento, não produz direção estratégica efetiva.
+Planejar é relacionar situação presente e futuro desejado, integrando pessoas, <abbr title="atividades relacionadas que transformam entradas em entregas">processos</abbr>, <abbr title="esforços temporários para produzir entregas únicas">projetos</abbr>, orçamento e <abbr title="efeitos da incerteza sobre objetivos">riscos</abbr>. Dados e participação melhoram a decisão, mas projeções também exigem julgamento: **o planejamento reduz, não elimina, a incerteza**. Por isso, deve ser <abbr title="considera as relações entre as partes e o ambiente">sistêmico</abbr>, seletivo e adaptável.
 
-## 1. Estratégia, planejamento, plano e gestão estratégica
+## 1. Definir direção antes de escolher ferramentas
 
-| Conceito | Núcleo |
-| --- | --- |
-| **estratégia** | conjunto coerente de escolhas, diretrizes, objetivos, prioridades e ações |
-| **planejamento estratégico** | processo sistêmico de estabelecimento da estratégia |
-| **plano estratégico** | produto documental que explicita a estratégia |
-| **PEI** | Plano Estratégico Institucional, produto mínimo exigido pela <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Gestão do Ministério da Economia">SEGES/ME</abbr> nº 24/2020 no âmbito indicado pela norma |
-| **gestão estratégica** | implementação, condução, monitoramento, avaliação, aprendizagem e revisão contínuas |
+A identidade institucional impede que uma prioridade momentânea seja confundida com a razão de existir:
 
-A IN SEGES/ME nº 24/2020 define planejamento estratégico como processo sistêmico que parte da condição presente, da identidade e do contexto para alcançar situação futura desejada, buscando efetividade dos resultados e eficiência dos recursos. O PEI documenta, no mínimo, cadeia de valor, missão, visão, valores, objetivos, indicadores, metas e projetos estratégicos.
+- **Missão:** contribuição presente e razão de ser, delimitadas pelo mandato institucional, isto é, pelas atribuições que a organização deve cumprir.
+- **Visão:** situação futura desejada; indica aonde se pretende chegar.
+- **Valores:** princípios que orientam decisões e comportamentos.
+- **Propósito:** razão maior ou impacto que mobiliza a organização.
 
-O plano registra escolhas e referências. A gestão estratégica mantém essas escolhas vivas diante da execução e das mudanças. Revisar com base em evidências não significa fracasso: significa testar e aperfeiçoar hipóteses estratégicas.
+No caso hipotético, exercer controle em benefício da sociedade expressa missão; tornar-se referência em controle tempestivo pode expressar visão; integridade orienta a conduta. Já reduzir determinado prazo é uma <abbr title="resultado esperado especificado para determinado prazo">meta</abbr>, não uma nova missão.
 
-## 2. Formação da estratégia
+**Valor público** é o benefício efetivo produzido, entregue ou preservado para necessidades de interesse público; não equivale a lucro, economia isolada ou mera quantidade de tarefas. Reduzir prazo mediante supressão de garantias não satisfaz esse critério.
 
-### 2.1 Estratégia pretendida, deliberada, emergente e realizada
+A **cadeia de valor** mostra a articulação entre recursos, competências e processos que gera entregas e resultados. Processos são atividades relacionadas que transformam entradas em entregas. A cadeia atravessa unidades; não é uma reprodução do organograma.
 
-| Conceito | Sentido |
-| --- | --- |
-| **pretendida** | direção originalmente formulada |
-| **deliberada** | parte da intenção efetivamente executada |
-| **não realizada** | parte da intenção abandonada, inviabilizada ou substituída |
-| **emergente** | padrão que surge durante a ação sem ter sido integralmente planejado |
-| **realizada** | combinação do que foi deliberado com o que emergiu |
+Também identifique quem afeta ou é afetado pela atuação: são as **partes interessadas**, ou *stakeholders*. Interesses, influência, necessidades legítimas e conflitos ajudam a definir participação e comunicação. Ouvir servidores e destinatários traz conhecimento e legitimidade, mas não transfere a competência de decidir.
 
-Estratégia emergente não equivale a improvisação descontrolada. Ela pode refletir aprendizagem, adaptação e descoberta de padrões úteis. Da mesma forma, estratégia deliberada não significa rigidez absoluta.
+### Direção institucional precisa chegar ao trabalho concreto
 
-### 2.2 Os cinco Ps de Mintzberg
+O nível **estratégico** trata da organização e do ambiente; o **tático** traduz a direção para áreas, <abbr title="ações coordenadas para alcançar benefícios relacionados">programas</abbr> ou funções; o **operacional** detalha processos, equipes, tarefas e padrões. No tribunal hipotético: reduzir a demora institucional orienta o plano de capacitação de uma área, que se desdobra em turmas, responsáveis e datas.
 
-| P | Ideia |
-| --- | --- |
-| **plano** | curso de ação intencional para o futuro |
-| **pretexto, manobra ou estratagema** | movimento específico para influenciar outro ator |
-| **padrão** | consistência observada no comportamento ao longo do tempo |
-| **posição** | lugar ocupado em relação ao ambiente, aos públicos ou ao mercado |
-| **perspectiva** | modo compartilhado de perceber e agir |
+Essa conexão entre níveis é **alinhamento vertical**. A coordenação entre áreas interdependentes é **alinhamento horizontal**: integrar dados depende tanto de tecnologia quanto das unidades que os produzem. Desdobrar não é copiar o mesmo objetivo para todos, mas especificar contribuições compatíveis.
 
-As traduções de *ploy* variam. Em prova, observe a definição, não apenas o rótulo.
+O estratégico costuma ser mais abrangente e menos detalhado. Não há duração universal para cada nível, e todos podem ter objetivos, <abbr title="medidas usadas para representar aspectos do desempenho">indicadores</abbr>, <abbr title="resultados esperados especificados para determinados prazos">metas</abbr> e <abbr title="efeitos da incerteza sobre objetivos">riscos</abbr>.
 
-## 3. Características do planejamento estratégico
+## 2. Diagnosticar: o que favorece ou impede a direção escolhida?
 
-O planejamento estratégico tende a ser:
+Antes de decidir pela compra de um sistema, o tribunal hipotético precisa descobrir se a demora vem de dados ruins, capacidade insuficiente, regras de encaminhamento ou crescimento da demanda.
 
-- **sistêmico:** considera relações entre unidades, processos, recursos, públicos e ambiente;
-- **orientado ao futuro:** constrói direção sem pretender prever tudo com certeza;
-- **seletivo:** define prioridades e renúncias;
-- **integrado:** conecta objetivos, orçamento, riscos, projetos, processos e pessoas;
-- **participativo na medida adequada:** incorpora conhecimento e legitimidade sem eliminar alçadas decisórias;
-- **baseado em evidências:** usa dados, diagnóstico, avaliação e monitoramento;
-- **dinâmico:** admite correções e revisões fundamentadas;
-- **orientado a resultados e valor público:** não se limita a atividades, documentos ou consumo de recursos.
+**Ambiente interno** abrange recursos, competências, estrutura, cultura, processos e desempenho sob maior influência da organização. **Ambiente externo** reúne condições e atores do contexto. Maior influência não é controle absoluto; a fronteira depende da organização analisada.
 
-Planejamento reduz, mas não elimina, incerteza. Métodos organizam a análise; não substituem liderança, julgamento e decisão.
+### Separar fatores e depois relacioná-los
 
-## 4. Níveis estratégico, tático e operacional
+A análise <abbr title="Strengths, Weaknesses, Opportunities and Threats">SWOT</abbr>, em português <abbr title="Forças, Oportunidades, Fraquezas e Ameaças">FOFA</abbr>, cruza dois critérios: origem interna ou externa e efeito favorável ou desfavorável sobre os objetivos.
 
-| Nível | Abrangência | Pergunta predominante | Exemplos |
-| --- | --- | --- | --- |
-| **estratégico** | organização e ambiente | onde chegar e que escolhas orientarão a instituição? | missão, visão, objetivos institucionais |
-| **tático** | unidade, área, programa ou função | como uma parte contribuirá? | plano setorial, capacidades, recursos |
-| **operacional** | processos, equipes e atividades | o que será feito, por quem, quando e com que padrão? | tarefas, cronogramas, entregas |
-
-Não há prazos universais. O estratégico costuma ser mais amplo e menos detalhado; o operacional, mais específico. Todos os níveis podem possuir objetivos, indicadores, metas e riscos.
-
-### 4.1 Alinhamento vertical e horizontal
-
-O alinhamento vertical conecta missão, visão, objetivos, planos setoriais, processos, projetos, atividades e indicadores. O alinhamento horizontal coordena áreas interdependentes.
-
-Desdobrar não é copiar o mesmo objetivo para todas as unidades. Cada área deve explicitar contribuição, responsabilidade e medida compatíveis com seu papel.
-
-## 5. Identidade estratégica e valor público
-
-### 5.1 Missão, visão, valores e propósito
-
-- **missão:** razão de ser, mandato e contribuição institucional presente;
-- **visão:** situação futura desejada;
-- **valores:** princípios que orientam escolhas e comportamentos;
-- **propósito:** formulação sintética do impacto ou razão maior que mobiliza a organização.
-
-Missão não é meta temporária. Visão não descreve apenas o presente. Valores não são indicadores.
-
-### 5.2 Cadeia de valor
-
-A cadeia de valor representa como competências, recursos e processos produzem entregas e resultados. Ela ajuda a organizar o plano pela contribuição gerada de ponta a ponta, e não apenas pelo organograma.
-
-### 5.3 Valor público
-
-O Decreto nº 9.203/2017 associa valor público a produtos e resultados efetivos e úteis a necessidades de interesse público, capazes de modificar aspectos da sociedade ou de destinatários legítimos.
-
-Valor público:
-
-- não é sinônimo de lucro;
-- não se reduz a economia de recursos;
-- exige legalidade, legitimidade, utilidade e resultados;
-- pode incluir preservação de capacidades e bens relevantes.
-
-### 5.4 Partes interessadas
-
-Stakeholders são pessoas, grupos ou instituições que afetam ou são afetados pela estratégia. Uma análise útil identifica interesse, influência, impacto, necessidades legítimas, riscos de conflito e forma de participação.
-
-Ouvir não significa atender toda demanda nem transferir a competência decisória.
-
-## 6. Ciclo da gestão estratégica
-
-Um ciclo coerente costuma conter:
-
-1. compreender mandato, missão, destinatários e valor esperado;
-2. analisar situação presente, ambiente, stakeholders, riscos e cenários;
-3. formular visão, prioridades, objetivos e escolhas;
-4. definir indicadores, linhas de base, metas, iniciativas, responsáveis, prazos e recursos;
-5. comunicar e desdobrar;
-6. implementar projetos, processos e mudanças;
-7. monitorar desempenho, riscos e contexto;
-8. avaliar resultados e hipóteses;
-9. aprender, corrigir e revisar.
-
-Formulação e implementação são interdependentes. A execução revela restrições, aprendizagem e oportunidades que podem exigir ajuste da formulação.
-
-## 7. Diagnóstico estratégico
-
-### 7.1 Ambiente interno e externo
-
-O ambiente interno inclui recursos, competências, estrutura, cultura, processos, dados, tecnologia, governança e desempenho sob maior influência da organização. O externo inclui condições políticas, econômicas, sociais, tecnológicas, ambientais e legais, além de demandas e outros atores.
-
-A fronteira depende do ponto de vista da organização analisada.
-
-### 7.2 SWOT ou FOFA
-
-| Dimensão | Natureza | Sentido |
+| Origem | Favorável | Desfavorável |
 | --- | --- | --- |
-| **forças** | interna | capacidades favoráveis |
-| **fraquezas** | interna | limitações ou vulnerabilidades |
-| **oportunidades** | externa | condições favoráveis |
-| **ameaças** | externa | condições prejudiciais |
+| Interna | **Força:** capacidade da própria organização | **Fraqueza:** limitação interna |
+| Externa | **Oportunidade:** condição aproveitável | **Ameaça:** condição prejudicial |
 
-SWOT organiza fatores; não define sozinha prioridade, ação, prazo ou responsável.
+No caso hipotético, equipe experiente é força; dados internos inconsistentes, fraqueza; disponibilidade externa de tecnologia adequada, oportunidade; aumento de demanda acima da capacidade, ameaça. A lista não escolhe sozinha uma ação.
 
-### 7.3 TOWS
+A matriz <abbr title="Threats, Opportunities, Weaknesses and Strengths">TOWS</abbr> cruza fatores para formular alternativas. No exemplo hipotético, corrigir dados ruins permite aproveitar a tecnologia disponível: a resposta combina fraqueza e oportunidade.
 
-| Combinação | Orientação |
+| Cruzamento | Orientação |
 | --- | --- |
-| **SO** | usar forças para aproveitar oportunidades |
-| **WO** | reduzir fraquezas para aproveitar oportunidades |
-| **ST** | usar forças para enfrentar ameaças |
-| **WT** | reduzir vulnerabilidade diante de ameaças |
+| <abbr title="Strengths and Opportunities">SO</abbr> | Usar forças para aproveitar oportunidades |
+| <abbr title="Weaknesses and Opportunities">WO</abbr> | Reduzir fraquezas para aproveitar oportunidades |
+| <abbr title="Strengths and Threats">ST</abbr> | Usar forças para enfrentar ameaças |
+| <abbr title="Weaknesses and Threats">WT</abbr> | Reduzir vulnerabilidades diante de ameaças |
 
-As alternativas ainda precisam ser avaliadas por legalidade, valor, viabilidade, custo, risco e capacidade.
+Uma alternativa ainda precisa ser comparada com outras por legalidade, valor, custo, <abbr title="efeito da incerteza sobre objetivos">risco</abbr>, viabilidade e capacidade.
 
-### 7.4 PESTEL
+### Ampliar o diagnóstico sem fingir certeza
 
-PESTEL examina fatores macroambientais políticos, econômicos, sociais, tecnológicos, ecológicos/ambientais e legais. É ferramenta externa; não substitui a análise interna.
+A análise <abbr title="Political, Economic, Social, Technological, Environmental and Legal">PESTEL</abbr> examina fatores **políticos, econômicos, sociais, tecnológicos, ambientais e legais** do contexto amplo. Ajuda a encontrar oportunidades e ameaças, mas não substitui a análise interna.
 
-### 7.5 Cenários
+**Cenários** são futuros plausíveis e coerentes, não previsões exatas nem <abbr title="resultados esperados especificados para determinados prazos">metas</abbr>. No exemplo hipotético, comparar demanda estável com demanda crescente permite perguntar se a alternativa escolhida funcionaria em ambos. Explicitar <abbr title="condições assumidas como base do planejamento">premissas</abbr>, sinais de mudança e respostas ajuda a avaliar a robustez da estratégia, isto é, sua capacidade de continuar útil em condições diferentes.
 
-Cenários são descrições coerentes de futuros plausíveis. Não são previsões exatas nem metas. Servem para testar robustez, reconhecer sinais, preparar respostas e explicitar premissas.
+Um **fator crítico de sucesso** — <abbr title="Fator Crítico de Sucesso">FCS</abbr> — é uma condição ou capacidade essencial ao êxito. Dados confiáveis podem ser indispensáveis à redução do prazo: são condição de sucesso, não o objetivo, a medida ou a ação de integrar sistemas. Fator crítico não é necessariamente um problema.
 
-### 7.6 Fatores críticos de sucesso
+Quando é necessário priorizar problemas, a matriz <abbr title="Gravidade, Urgência e Tendência">GUT</abbr> considera o dano (**gravidade**), a necessidade de agir logo (**urgência**) e a evolução provável sem intervenção (**tendência**). Ela auxilia a escolha; não substitui o julgamento nem cria um plano de execução.
 
-Fator crítico de sucesso — FCS — é condição, área ou capacidade cujo desempenho satisfatório é essencial ao êxito da estratégia.
+## 3. Traduzir a escolha em resultado verificável
 
-| Elemento | Exemplo |
+“Melhorar o controle” orienta pouco a execução se ninguém sabe reconhecer a melhora. **Objetivo** expressa a mudança desejada; **indicador**, como observá-la; **linha de base**, a situação inicial; **meta**, o desempenho esperado com prazo; **iniciativa**, o que será feito para contribuir.
+
+| Elemento | Aplicação ao tribunal hipotético |
 | --- | --- |
-| objetivo | ampliar tempestividade do controle |
-| FCS | dados confiáveis disponíveis no prazo |
-| indicador | percentual de bases integradas |
-| meta | alcançar 90% até dezembro de 2027 |
-| iniciativa | implantar integração automatizada |
+| Objetivo | Aumentar a tempestividade, preservando a qualidade |
+| Indicador | Tempo médio de apreciação dos processos prioritários |
+| Linha de base | 180 dias no período inicial de medição |
+| Meta | Reduzir a média em 30%, para 126 dias, até dezembro de 2028 |
+| Iniciativas | Redesenhar o fluxo, integrar dados e capacitar equipes |
 
-FCS não é necessariamente problema, indicador, tarefa ou tecnologia.
+A ficha do indicador precisa fixar universo medido, fórmula, fonte, periodicidade e responsáveis pela produção e validação. Sem critérios comparáveis, uma mudança de cálculo pode parecer melhora real.
 
-## 8. Formulação: objetivos, indicadores, metas e iniciativas
+Uma iniciativa pode ser <abbr title="esforço temporário para produzir entrega única">projeto</abbr>, <abbr title="ações coordenadas para alcançar benefícios relacionados">programa</abbr>, mudança de processo ou ação estruturada. Entregá-la não garante atingir a meta: implantar o sistema é diferente de reduzir o tempo de apreciação.
 
-### 8.1 Objetivo estratégico
+### Qualidade da meta e qualidade do resultado
 
-Expressa resultado ou mudança relevante. Deve orientar escolhas e permitir desdobramento.
+Uma versão difundida de <abbr title="Specific, Measurable, Achievable, Relevant and Time-bound">SMART</abbr> pede definição **específica, mensurável, alcançável, relevante e com prazo**. A meta de 126 dias delimita medida e tempo, mas sua viabilidade precisa de evidências; o número sozinho não demonstra que ela seja alcançável.
 
-### 8.2 SMART
+As versões não são meras traduções. No artigo de Doran, de 1981, <abbr title="Specific, Measurable, Assignable, Realistic and Time-related">SMART</abbr> usa *assignable*, que exige indicar quem fará, e *realistic*, que considera resultados possíveis com os recursos disponíveis. Observe a variante da fonte ou da questão; o recurso não dispensa análise de legalidade, relevância e <abbr title="efeito da incerteza sobre objetivos">risco</abbr>.
 
-Um objetivo ou meta pode ser avaliado como:
+A cadeia de resultados distingue **insumos** (pessoas e orçamento), **atividades** (analisar), **produtos** (relatórios), **resultados** (decisões mais tempestivas) e **impactos** (efeitos mais amplos sobre o uso dos recursos públicos). Um produto entregue não prova impacto; fatores externos também influenciam os efeitos.
 
-- **específico**;
-- **mensurável**;
-- **alcançável/atingível**;
-- **relevante/realista**, conforme a tradução;
-- **temporal**, com prazo definido.
+Daí três perguntas diferentes: a **eficiência** compara recursos e produtos; a **eficácia** verifica o alcance das metas; a **efetividade** examina mudanças relevantes na realidade. Aumentar relatórios por servidor pode elevar eficiência sem, por si só, demonstrar efetividade.
 
-SMART é critério de qualidade, não fórmula que dispensa análise de valor, riscos ou legalidade.
+## 4. Mostrar como as escolhas se conectam: <abbr title="Balanced Scorecard">BSC</abbr> e <abbr title="Objectives and Key Results">OKR</abbr>
 
-### 8.3 Indicador, linha de base e meta
+No exemplo hipotético, capacitar equipes deve melhorar a análise; melhorar a análise deve reduzir o prazo sem perda de qualidade. Essa ligação entre capacidades, processos e resultados é mais informativa que uma lista de indicadores desconexos.
 
-- **indicador:** medida que representa aspecto do desempenho;
-- **linha de base:** valor inicial;
-- **meta:** valor esperado para determinado prazo;
-- **fonte e fórmula:** regras que garantem comparabilidade;
-- **responsável:** quem produz, valida ou acompanha a informação.
+O **Balanced Scorecard**, de Kaplan e Norton — <abbr title="Balanced Scorecard">BSC</abbr> — traduz a estratégia em objetivos conectados, indicadores, metas e iniciativas. Suas quatro perspectivas clássicas equilibram **finanças, clientes, processos internos e aprendizado e crescimento**. Nesta última estão capacidades de pessoas, informação e organização que sustentam as demais.
 
-### 8.4 Iniciativa estratégica
+O **mapa estratégico** representa visualmente a lógica de criação de valor. Não é organograma, cronograma ou lista de <abbr title="esforços temporários para produzir entregas únicas">projetos</abbr>. Suas relações causais são **hipóteses a testar**, não leis naturais.
 
-Iniciativa é projeto, programa, processo de mudança ou ação estruturada que contribui para objetivos e metas. Meta não é iniciativa; descreve o nível de desempenho esperado.
+No setor público, missão e resultados para a sociedade podem ocupar o topo; finanças sustentam a atuação e o uso responsável dos recursos, em vez de constituírem necessariamente o objetivo final.
 
-### 8.5 Cadeia de resultados
+Um indicador **antecedente ou de tendência** (*driver/leading*) acompanha capacidades ou ações que podem influenciar o futuro; um **consequente ou de resultado** (*lagging*) observa efeitos alcançados. No caso hipotético, capacitação sinaliza preparo, mas só a medição posterior do prazo permite verificar a mudança esperada.
 
-| Nível | Exemplo |
-| --- | --- |
-| insumo | pessoas e orçamento |
-| atividade | analisar processos |
-| produto | relatório emitido |
-| resultado | decisão mais tempestiva |
-| impacto | melhor uso de recursos públicos |
+O método **Objectives and Key Results**, objetivos e resultados-chave — <abbr title="Objectives and Key Results">OKR</abbr> — combina direção qualitativa mobilizadora com evidências mensuráveis de progresso. “Implantar sistema” descreve uma entrega; não demonstra automaticamente o resultado pretendido. Ciclos trimestrais são frequentes, não universais.
 
-Não confunda volume de atividade com resultado ou impacto.
+Os métodos podem coexistir: o <abbr title="Balanced Scorecard">BSC</abbr> organiza relações estratégicas; o <abbr title="Objectives and Key Results">OKR</abbr> ajuda a concentrar esforços em objetivos e resultados de um ciclo. Nenhum substitui orçamento, capacidade ou gestão de <abbr title="efeitos da incerteza sobre objetivos">riscos</abbr>.
 
-### 8.6 Eficiência, eficácia e efetividade
+## 5. Implementar, acompanhar e aprender
 
-- **eficiência:** relação entre recursos e produtos;
-- **eficácia:** alcance de metas e resultados previstos;
-- **efetividade:** efeitos relevantes e sustentáveis na realidade.
+Para a escolha sair do papel, a direção precisa apoiá-la, destinar recursos e definir responsáveis, prazos e limites de decisão. Estrutura, processos, competências e comunicação devem acompanhar a estratégia: um plano bem formulado pode fracassar se a organização mantiver barreiras que impedem executá-lo.
 
-## 9. Escolas do pensamento estratégico
+O **portfólio de iniciativas**, conjunto selecionado para a direção estratégica, exige prioridades compatíveis com obrigações legais, urgência, <abbr title="efeitos da incerteza sobre objetivos">riscos</abbr>, custo, dependências e capacidade. Ter muitos <abbr title="esforços temporários para produzir entregas únicas">projetos</abbr> simultâneos não significa executar melhor.
 
-### 9.1 Escolas prescritivas
+Um plano de ação pode usar <abbr title="What, Why, Where, When, Who, How and How much">5W2H</abbr>: esclarecer **o que** fazer, **por que**, **onde**, **quando**, **quem** responde, **como** executar e **quanto** custará. O nome vem dessas sete perguntas em inglês. A ferramenta detalha a ação escolhida; não realiza o diagnóstico nem decide a estratégia.
 
-| Escola | Formulação como |
-| --- | --- |
-| **design/concepção** | ajuste deliberado entre capacidades e ambiente |
-| **planejamento** | processo formal, programado e decomposto em etapas |
-| **posicionamento** | processo analítico de escolha de posições genéricas |
+### Quem decide e como lida com a incerteza?
 
-### 9.2 Escolas descritivas
+**Governança avalia, direciona e monitora a gestão; gestão planeja, executa e controla.** A alta administração deve sustentar a direção, acompanhar desempenho e decidir ajustes dentro de suas competências.
 
-| Escola | Formulação como |
-| --- | --- |
-| **empreendedora** | processo visionário, concentrado na liderança |
-| **cognitiva** | processo mental de percepção e interpretação |
-| **aprendizagem** | processo emergente ao longo da experiência |
-| **poder** | negociação, influência e conflito |
-| **cultural** | processo coletivo baseado em crenças compartilhadas |
-| **ambiental** | reação ou adaptação às pressões externas |
+**Risco** é o efeito da incerteza sobre objetivos, negativo ou positivo. **Apetite a risco** expressa quanto e que tipo de risco a organização aceita assumir para alcançar seus objetivos; não autoriza descumprir a lei.
 
-### 9.3 Escola da configuração
+Diante de ameaça, pode-se evitar a atividade geradora, reduzir probabilidade ou impacto, compartilhar/transferir consequências ou **aceitar conscientemente** a exposição. Aceitar não é reduzir o risco nem desconhecê-lo: é mantê-lo por decisão informada, com acompanhamento. Diante de oportunidade, pode-se explorá-la. A resposta depende do contexto e deve ter responsáveis.
 
-Integra estados organizacionais relativamente estáveis e períodos de transformação. Não significa mistura aleatória de todas as escolas.
+### Medir não encerra a decisão
 
-## 10. Modelos clássicos de estratégia
+**Monitoramento** acompanha frequentemente execução, indicadores, metas e riscos. **Avaliação** examina mais profundamente relevância, coerência, eficiência, eficácia, efetividade e explicações dos resultados. **Revisão** altera fundamentadamente a estratégia.
 
-### 10.1 Cinco forças de Porter
+No tribunal hipotético, um painel mensal pode mostrar que houve capacitação, mas o prazo não caiu. A avaliação investiga se faltou aplicar o aprendido, se os dados são ruins ou se outra causa explica a demora. Um desvio pode indicar falha de execução, meta inadequada, indicador defeituoso, premissa alterada ou relação causal equivocada. A resposta não é sempre punir, diminuir a meta ou manter o plano intacto.
 
-1. rivalidade entre concorrentes;
-2. ameaça de novos entrantes;
-3. ameaça de substitutos;
-4. poder dos compradores;
-5. poder dos fornecedores.
+## 6. Estratégia também se forma durante a ação
 
-O modelo analisa atratividade e estrutura de uma indústria ou campo competitivo.
+Suponha, ainda no caso hipotético, que a integração de dados prevista seja executada, mas outra iniciativa seja abandonada. Durante o trabalho, equipes descobrem e repetem um modo de triagem que depois é incorporado pela direção.
 
-### 10.2 Estratégias genéricas de Porter
+Na distinção de Mintzberg, a estratégia **pretendida** é a intenção inicial; a **deliberada**, a parte dessa intenção efetivamente realizada; a **não realizada**, a parcela abandonada ou inviabilizada. A **emergente** é o padrão que se forma na ação sem ter sido integralmente planejado. A estratégia **realizada** combina componentes deliberados e emergentes. Aprender não equivale a improvisar sem controle.
 
-- liderança em custos;
-- diferenciação;
-- enfoque em segmento, por custos ou diferenciação.
+Os **cinco sentidos de estratégia**, conhecidos como <abbr title="Plan, Ploy, Pattern, Position and Perspective">cinco Ps</abbr>, mudam a pergunta: o que se pretende fazer (**plano**), que movimento busca influenciar outro ator (**pretexto, manobra ou estratagema**, traduções de *ploy*), que comportamento se repete (**padrão**), que lugar se ocupa no ambiente (**posição**) e que modo compartilhado de perceber orienta a ação (**perspectiva**). Plano olha a intenção; padrão permite reconhecer a atuação efetiva.
 
-Concentrar-se em um segmento não é, por si só, diferenciação: caracteriza enfoque.
+## 7. Escolas: lentes diferentes sobre a formação da estratégia
 
-### 10.3 Matriz de Ansoff
+Mintzberg, Ahlstrand e Lampel agrupam dez escolas. A distinção central é entre **prescrever como formular** e **descrever como a estratégia se forma**, com uma lente integradora.
 
-| Produtos | Mercados | Estratégia |
+Nas três **prescritivas**, a escola de **concepção ou design** busca ajuste deliberado entre capacidades e ambiente; a de **planejamento** formaliza etapas; a de **posicionamento** analisa e escolhe posições competitivas. Ajuste, formalização e análise não são a mesma ênfase.
+
+As seis **descritivas** focalizam mecanismos diferentes:
+
+- **Empreendedora:** a visão do líder dá direção.
+- **Cognitiva:** percepções e interpretações moldam as escolhas.
+- **Aprendizagem:** a estratégia emerge da experiência.
+- **Poder:** negociação, influência e conflito produzem escolhas.
+- **Cultural:** crenças compartilhadas sustentam padrões coletivos.
+- **Ambiental:** pressões externas induzem adaptação ou reação.
+
+A escola da **configuração** integra períodos relativamente estáveis e transformações entre estados organizacionais. Não propõe misturar ferramentas ao acaso.
+
+Cada lente ilumina parte do fenômeno e deixa limites: formalizar pode ajudar a coordenar sem explicar toda descoberta; destacar a liderança não explica sozinho cultura ou pressões externas. Identifique o mecanismo predominante.
+
+## 8. Modelos empresariais respondem a perguntas distintas
+
+### Porter: de onde vem a pressão competitiva e como competir?
+
+As **cinco forças** analisam a estrutura e a atratividade de um setor, explicando pressões sobre sua <abbr title="capacidade de gerar lucro em relação ao capital investido">rentabilidade</abbr>. A rivalidade entre concorrentes pode reduzir preços; compradores poderosos pressionam por condições melhores; fornecedores poderosos encarecem insumos. Novos entrantes ameaçam disputar o mercado; substitutos atendem à mesma necessidade de outra maneira. **Substituto não é simplesmente mais um concorrente com produto semelhante.**
+
+As estratégias genéricas tratam da posição escolhida: **liderança em custos**, com custos inferiores em mercado amplo; **diferenciação**, com atributos valorizados que distinguem a oferta; **enfoque**, concentrado em segmento delimitado, por custos ou diferenciação. Atuar em um nicho caracteriza enfoque, não diferenciação automática.
+
+### Ansoff: crescer mudando o produto, o mercado ou ambos?
+
+Crescer pode significar vender mais do que já existe ou buscar novos produtos e mercados. Separe os dois eixos:
+
+| Produtos | Mercados | Caminho de crescimento |
 | --- | --- | --- |
-| atuais | atuais | penetração de mercado |
-| atuais | novos | desenvolvimento de mercado |
-| novos | atuais | desenvolvimento de produto |
-| novos | novos | diversificação |
+| Atuais | Atuais | Penetração de mercado |
+| Atuais | Novos | Desenvolvimento de mercado |
+| Novos | Atuais | Desenvolvimento de produto |
+| Novos | Novos | Diversificação |
 
-### 10.4 Matriz <abbr title="Boston Consulting Group">BCG</abbr>
+### <abbr title="Boston Consulting Group">BCG</abbr>: onde o <abbr title="conjunto de produtos ou negócios analisados para alocar recursos">portfólio</abbr> exige e gera recursos?
 
-| Crescimento | Participação relativa | Quadrante |
+A matriz do Boston Consulting Group — <abbr title="Boston Consulting Group">BCG</abbr> — relaciona **crescimento do mercado** e **participação relativa**, comparada à do maior concorrente. Na lógica clássica, crescimento exige investimento; participação elevada favorece geração de caixa, isto é, recursos financeiros disponíveis. Isso explica os quadrantes, sem convertê-los em certezas:
+
+| Crescimento | Participação relativa | Quadrante e implicação típica |
 | --- | --- | --- |
-| alto | alta | estrela |
-| alto | baixa | ponto de interrogação |
-| baixo | alta | vaca leiteira |
-| baixo | baixa | abacaxi/cão |
+| Alto | Alta | **Estrela:** posição forte, mas demanda recursos para sustentar o crescimento |
+| Alto | Baixa | **Interrogação:** exige decidir se vale investir para ganhar posição |
+| Baixo | Alta | **Vaca leiteira:** tende a gerar excedentes que financiam outras atividades |
+| Baixo | Baixa | **Abacaxi/cão:** perspectivas limitadas; exige reavaliar a permanência |
 
-Porter, Ansoff e BCG nasceram no contexto empresarial. Podem ser cobrados em Administração, mas não devem ser transplantados mecanicamente ao setor público.
+O modelo simplifica relações entre crescimento, participação e caixa; não decide sozinho investir ou abandonar uma atividade. Porter, Ansoff e <abbr title="Boston Consulting Group">BCG</abbr> nasceram no contexto empresarial. No setor público, obrigações legais e valor social impedem transposição mecânica: baixa atratividade econômica não autoriza eliminar um serviço essencial.
 
-## 11. Implementação da estratégia
+## 9. Plano institucional, normas federais e orçamento
 
-Implementação exige:
+A integração financeira tem uma razão prática: uma iniciativa depende de recursos autorizados e disponíveis. O <abbr title="Plano Estratégico Institucional">PEI</abbr> expressa a estratégia da instituição; os instrumentos constitucionais de planejamento e orçamento cumprem outras funções.
 
-- patrocínio e governança;
-- portfólio coerente de iniciativas;
-- recursos e capacidades;
-- responsáveis e alçadas;
-- comunicação e gestão da mudança;
-- integração com processos e orçamento;
-- gestão de riscos;
-- monitoramento e decisão.
-
-Uma iniciativa sem recursos, responsável ou capacidade é apenas intenção. Priorização deve considerar contribuição estratégica, urgência, risco, custo, capacidade, dependências e obrigações legais.
-
-## 12. Balanced Scorecard — BSC
-
-O BSC traduz a estratégia em objetivos, relações de causa e efeito, indicadores, metas e iniciativas.
-
-### 12.1 Perspectivas clássicas
-
-- financeira;
-- clientes;
-- processos internos;
-- aprendizado e crescimento.
-
-No setor público, resultados para a sociedade ou destinatários podem ocupar o topo do mapa. A perspectiva financeira pode representar sustentabilidade, eficiência orçamentária e uso responsável de recursos.
-
-### 12.2 Mapa estratégico
-
-Mapa estratégico é representação visual da lógica de criação de valor. Não é organograma, cronograma, lista de projetos ou relatório contábil.
-
-### 12.3 Indicadores de tendência e resultado
-
-- **tendência/antecedente/driver:** sinaliza capacidades ou ações que influenciam o futuro;
-- **resultado/consequente/lagging:** evidencia efeito já alcançado.
-
-A validação da estratégia exige observar se os direcionadores produziram os resultados esperados.
-
-### 12.4 Cuidados
-
-- indicador sem objetivo vira medição sem direção;
-- meta sem linha de base pode ser arbitrária;
-- iniciativa sem relação com objetivo dispersa recursos;
-- causa e efeito no mapa são hipóteses a testar, não leis naturais.
-
-## 13. <abbr title="Objectives and Key Results">OKR</abbr>
-
-- **objetivo:** direção qualitativa, clara e mobilizadora;
-- **resultados-chave:** evidências mensuráveis de progresso.
-
-OKR não exige universalmente ciclos trimestrais nem substitui PEI, orçamento, projetos ou gestão de riscos. Resultados-chave devem medir progresso, não apenas listar tarefas.
-
-BSC e OKR podem coexistir: BSC organiza a arquitetura estratégica; OKR pode apoiar foco e ciclos de execução.
-
-## 14. Governança, riscos e estratégia
-
-A governança avalia, direciona e monitora. A gestão planeja, executa e controla. A alta administração deve aprovar direção, definir apetite a risco, acompanhar desempenho e decidir revisões.
-
-Risco é efeito da incerteza sobre objetivos. Pode representar ameaça ou oportunidade. O tratamento inclui evitar, reduzir, compartilhar/transferir, aceitar ou explorar, conforme contexto e norma.
-
-Riscos precisam estar vinculados a objetivos, responsáveis, controles, indicadores e decisões.
-
-## 15. Monitoramento, avaliação e revisão
-
-- **monitoramento:** acompanhamento frequente de execução, indicadores, metas e riscos;
-- **avaliação:** análise mais profunda de relevância, coerência, eficiência, eficácia, efetividade e hipóteses;
-- **revisão:** alteração fundamentada de elementos estratégicos.
-
-Um desvio pode decorrer de execução deficiente, meta inadequada, indicador ruim, premissa alterada ou teoria causal equivocada. A resposta não é sempre punir ou manter o plano intacto.
-
-## 16. PEI e instrumentos governamentais
-
-A IN SEGES/ME nº 24/2020 exige alinhamento do PEI aos instrumentos de planejamento governamental.
-
-| Instrumento | Núcleo |
+| Instrumento | Papel na integração |
 | --- | --- |
-| **PEI** | estratégia institucional e seus elementos |
-| **<abbr title="Plano Plurianual">PPA</abbr>** | diretrizes, objetivos e metas de médio prazo governamental |
-| **<abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>** | prioridades, metas e orientação da elaboração orçamentária |
-| **<abbr title="Lei Orçamentária Anual">LOA</abbr>** | estima receitas e fixa despesas anuais |
+| <abbr title="Plano Plurianual">PPA</abbr> | Diretrizes, objetivos e metas para <abbr title="despesas como investimentos e pagamento do principal da dívida">despesas de capital</abbr>, despesas delas decorrentes e programas de duração continuada |
+| <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> | Metas e prioridades, orientação da elaboração do orçamento e diretrizes de <abbr title="decisões sobre receitas, despesas e dívida do governo">política fiscal</abbr> com suas metas |
+| <abbr title="Lei Orçamentária Anual">LOA</abbr> | Estimativa de receitas e fixação de despesas anuais |
 
-PEI não substitui PPA, LDO ou LOA. O alinhamento evita plano sem suporte orçamentário e orçamento sem direção estratégica.
+O <abbr title="Plano Estratégico Institucional">PEI</abbr> não substitui nenhuma dessas leis nem autoriza despesa por si. Alinhar planos não significa confundir suas funções.
 
-## 17. Exemplo integrado
+### O que exige a Instrução Normativa nº 24/2020?
 
-Um tribunal pretende reduzir em 30% o tempo médio de apreciação de processos prioritários até 2028.
+A Instrução Normativa da Secretaria de Gestão do Ministério da Economia — <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Gestão do Ministério da Economia">SEGES/ME</abbr> nº 24/2020 — disciplina a administração pública federal <abbr title="realizada pelos próprios órgãos do ente público">direta</abbr>, <abbr title="formada por entidades administrativas autônomas criadas por lei">autárquica</abbr> e <abbr title="formada por fundações instituídas pelo poder público">fundacional</abbr>, no âmbito do Sistema de Organização e Inovação Institucional do Governo Federal — <abbr title="Sistema de Organização e Inovação Institucional do Governo Federal">SIORG</abbr>. **Não se aplica automaticamente ao Tribunal de Contas do Estado do Maranhão.**
 
-- missão: exercer controle em benefício da sociedade;
-- objetivo: ampliar tempestividade e qualidade;
-- FCS: dados íntegros e equipes capacitadas;
-- indicador: tempo médio de apreciação;
-- linha de base: 180 dias;
-- meta: 126 dias até dezembro de 2028;
-- iniciativas: revisão de fluxo, integração de dados e capacitação;
-- riscos: dependência tecnológica e resistência;
-- indicador de tendência: percentual de unidades capacitadas;
-- indicador de resultado: tempo médio efetivo;
-- monitoramento: painel mensal;
-- avaliação: análise semestral das causas e efeitos.
+Seu artigo 3º exige cadeia de valor; identidade estratégica, incluindo missão, visão, valores e mapa; objetivos e metas; indicadores com fórmula, periodicidade, <abbr title="valor inicial usado para comparar a evolução do indicador">linha de base</abbr> e metas; e <abbr title="esforços temporários para produzir entregas únicas">projetos</abbr> com entregas principais, prazos e unidade responsável. Esses elementos podem constar do próprio plano ou de outro que o desdobre.
 
-## 18. Método de resolução em prova
+Nesse âmbito federal, há revisão **ao menos anual**, desde 2021, e atualização se necessária. Os comitês internos de governança aprovam e monitoram os planos; o acompanhamento deve ocorrer **no mínimo a cada trimestre**. O plano e suas atualizações devem ser divulgados no sítio institucional. Revisar não obriga alterar sem necessidade.
 
-1. identifique processo, plano ou gestão;
-2. determine o nível;
-3. separe missão, visão, valores e meta;
-4. classifique fatores internos e externos;
-5. reconheça a escola ou o modelo;
-6. diferencie objetivo, FCS, indicador, meta e iniciativa;
-7. no BSC, localize perspectiva e relação causal;
-8. teste se a ferramenta é empresarial ou aplicável com adaptação;
-9. relacione implementação, recursos, riscos e governança;
-10. rejeite absolutos como “elimina”, “sempre”, “somente” e “imutável”.
+O artigo 4º menciona expressamente o <abbr title="Plano Plurianual">PPA</abbr> **2020–2023**, contexto original da norma, e determina alinhamento contínuo entre instrumentos. Isso não torna aquele período o ciclo vigente em 2026: a Lei nº 14.802/2024 instituiu o <abbr title="Plano Plurianual">PPA</abbr> federal **2024–2027**.
 
-## 19. Limites do assunto
+O Decreto nº 9.203/2017 fundamenta os conceitos federais de governança e valor público e a integração entre riscos e estratégia; também possui âmbito federal <abbr title="relativo aos próprios órgãos do ente público">direto</abbr>, <abbr title="relativo a entidades administrativas autônomas criadas por lei">autárquico</abbr> e <abbr title="relativo às fundações instituídas pelo poder público">fundacional</abbr>. Conceitos úteis à Administração não tornam toda regra <abbr title="situada abaixo da lei na hierarquia normativa">infralegal</abbr> federal obrigatória para outros entes.
 
-Este tema não substitui o estudo aprofundado de:
-
-- planejamento e direção no processo organizacional;
-- gestão de projetos;
-- gestão de processos;
-- gestão de riscos;
-- orçamento público;
-- controle e avaliação;
-- governança pública.
-
-Esses tópicos aparecem apenas quando necessários à compreensão da estratégia.
+Para o concurso, o Edital nº 1, de 6 de julho de 2026, considera alterações legislativas vigentes até sua publicação e admite legislação não vigente quando explicitada nos objetos de avaliação. Datas de consulta e exemplos hipotéticos futuros não modificam esse corte.
