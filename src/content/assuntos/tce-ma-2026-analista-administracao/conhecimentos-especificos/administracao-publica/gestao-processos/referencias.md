@@ -1,6 +1,22 @@
-- ABPMP. **BPM CBOK — Guia para o Gerenciamento de Processos de Negócio**. Referência para ciclo, papéis, modelagem e governança.
-- BRASIL. **Lei nº 14.129, de 29 de março de 2021**. Princípios, regras e instrumentos para o Governo Digital. Disponível no [texto atualizado no Planalto](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm). Acesso em: 18 jul. 2026.
-- BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. **Guia de Gestão de Processos do Governo Federal**. Referência para ciclo, governança e aplicação pública.
-- BPMN. **Business Process Model and Notation**. Object Management Group. Disponível na [página oficial da especificação](https://www.omg.org/bpmn/). Acesso em: 18 jul. 2026.
-- ANTAQ. **Gestão por Processos de Negócio — BPM**. Disponível na [página institucional da ANTAQ](https://www.gov.br/antaq/pt-br/assuntos/gestao-estrategica/gestao-por-processos-de-negocio-bpm). Acesso em: 18 jul. 2026.
-- CEBRASPE. Itens anteriores de ANS, TCE/PR, TRE/PE, SEDF, TCDF, CNPq e STJ, identificados nas explicações das questões adaptadas.
+## Fundamentos, modelagem e responsabilidades
+
+- Association of Business Process Management Professionals. **Guide to the Business Process Management Common Body of Knowledge**, versão 3.0, 2013, edição em inglês. [Texto disponibilizado pela associação](https://cdn.ymaws.com/www.abpmp.org/resource/resmgr/Docs/ABPMP_CBOK_Guide_English.pdf). Base para arquitetura, análise, modelagem e papéis; os ciclos e seus agrupamentos devem ser lidos conforme o referencial e a edição.
+- Tribunal de Contas do Estado de Minas Gerais. **Metodologia de gerenciamento de processos de negócio**, Escritório de Gestão por Processos. [Documento institucional](https://www.tce.mg.gov.br/img/METODOLOGIA_DE_GERENCIAMENTO_DE_PROCESSOS_DE_NEGOCIO.pdf), seções 2 a 5: responsabilidades, matriz <abbr title="Responsible, Accountable, Consulted, Informed">RACI</abbr>, conceitos e ciclo institucional. Referência metodológica, não norma aplicável automaticamente ao Maranhão.
+- Tribunal de Justiça de Goiás. **Metodologia da Gestão de Processos**, 25 mar. 2026. [Página institucional](https://www.tjgo.jus.br/index.php/sge/sistema-de-gestao-da-qualidade-sgq/politica-e-objetivos/metodologia-da-gestao-de-processos). Exemplo primário do ciclo em seis fases e da distinção entre estado atual e futuro.
+- Object Management Group. **Business Process Model and Notation**, versão 2.0.2, jan. 2014. [Especificação normativa](https://www.omg.org/spec/BPMN/2.0.2/PDF). Elementos, participantes e conectores; seções 10.3.3 e 10.3.4 para tarefas de serviço, de usuário e manuais.
+
+## Melhoria e aplicação pública
+
+- Brasil. Ministério do Planejamento e Orçamento. **Guia Metodológico de Gestão de Processos — Caderno 1: Fundamentos e a Metodologia de Gestão de Processos**, versão 1, nov. 2024. [Documento oficial](https://www.gov.br/planejamento/pt-br/acesso-a-informacao/governanca/gestao-estrategica/documentos/caderno-1-processos.pdf/@@display-file/file). Apoio conceitual à gestão orientada a resultados e ao cidadão; aplicação institucional do ministério.
+- Van der Aalst, Wil M. P., e demais autores da força-tarefa de mineração de processos. **Process Mining Manifesto**, 2011. [Texto primário](https://www.tf-pm.org/upload/1580737614108.pdf). Descoberta, conformidade, aprimoramento e limitações dos registros de eventos.
+- Microsoft. **Visão geral da mineração de tarefas**, 2023. [Documentação oficial](https://learn.microsoft.com/pt-br/power-automate/task-mining-overview). Suporte à distinção conceitual entre mineração de tarefas e de processos, sem vincular o capítulo a um produto.
+- Brasil. **Lei nº 14.129, de 29 de março de 2021**. [Texto no Planalto](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm), especialmente artigos 2º e 3º. Governo Digital, simplificação e âmbito federativo de aplicação.
+
+## Recorte e questões oficiais
+
+- Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. **Tribunal de Contas do Estado do Maranhão — Edital nº 1, de 6 de julho de 2026**. [Edital de abertura](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf), itens 13.32 a 13.33.1 e 14.2.4, cargo 1, Administração Pública. Corte legislativo: publicação do edital; data de acesso não substitui esse corte.
+- Fundação Getulio Vargas. **Secretaria Municipal de Fazenda de Cuiabá, 2024 — Tecnologia da Informação, prova II, tarde, tipo 1**, questão 28. [Caderno oficial](https://conhecimento.fgv.br/sites/default/files/concursos/smf-cuiaba-area-tecnologia-da-informacao-prova-ii-tarde-tipo-1.pdf).
+- Fundação Getulio Vargas. **Tribunal de Justiça do Estado do Rio de Janeiro, 2026 — Analista de Negócios, tipo 1**, questões 36, 43, 46 e 51. [Caderno oficial](https://conhecimento.fgv.br/sites/default/files/concursos/analista-judiciario-tecnologia-da-informacao-analista-de-negocios-ns-a11-ananegocios-tipo-1.pdf).
+- Fundação Getulio Vargas. **Tribunal de Contas do Estado de Pernambuco, 2025 — Analista de Controle Externo, Tecnologia da Informação, tipo 2**, questão 49. [Caderno oficial](https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-controle-externo-tecnologia-da-informacaocns103-tipo-2.pdf).
+
+As atribuições dos itens adaptados permanecem individualizadas nas explicações de `questoes.json`; links secundários não equivalem a cadernos ou gabaritos oficiais. Consulta às fontes desta revisão: 8 set. 2026.
