@@ -8,96 +8,85 @@ storageId: modalidades-selecao-direta
 
 # Modalidades, julgamento, seleção do fornecedor e contratação direta
 
-## 1. Visão geral e recorte
+Imagine, como **exemplo hipotético**, que o planejamento de uma contratação tenha terminado com uma necessidade bem definida: uma unidade pública precisa adquirir cadeiras de escritório com padrões usuais de mercado. Ainda não existe vencedor. A partir daqui, a Administração precisa transformar o objeto planejado em uma escolha legítima de fornecedor.
 
-Este assunto acompanha os **arts. 28 a 88 da Lei nº 14.133/2021**. O percurso começa pela escolha da modalidade e do critério de julgamento, passa pelas regras de apresentação e avaliação de propostas, habilitação e encerramento, chega à contratação direta e termina com alienações e procedimentos auxiliares.
+O raciocínio básico é:
 
-Uma forma segura de organizar a matéria é separar perguntas que as provas frequentemente misturam:
+**objeto definido → competição é o caminho? → modalidade → critério de julgamento → modo de disputa → propostas → julgamento e negociação → habilitação → recursos e encerramento**.
 
-| Pergunta | Instituto | Exemplos |
-|---|---|---|
-| Qual é o rito adequado? | modalidade | pregão, concorrência, concurso, leilão, diálogo competitivo |
-| Como a melhor proposta será identificada? | critério de julgamento | menor preço, melhor técnica, maior retorno econômico |
-| Como as ofertas serão apresentadas? | modo de disputa | aberto, fechado ou combinação permitida |
-| A competição é viável? | forma de seleção | licitação, inexigibilidade ou dispensa |
-| Há mecanismo preparatório ou permanente de apoio? | procedimento auxiliar | credenciamento, pré-qualificação, PMI, SRP, registro cadastral |
+Se a competição for inviável ou a lei autorizar afastá-la, o fluxo muda para:
 
-> **Regra de leitura:** modalidade, critério de julgamento e modo de disputa são categorias diferentes. A concorrência, por exemplo, admite vários critérios; o maior desconto é critério, não modalidade.
+**fundamento da contratação direta → instrução do processo → escolha do contratado → justificativa do preço → autorização e publicidade**.
 
-O corte normativo adotado é **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Os valores monetários indicados nesta lição são os vigentes desde **1º de janeiro de 2026**, atualizados pelo Decreto nº 12.807/2025. Alterações legislativas posteriores ao edital são identificadas expressamente como **pós-edital** e não substituem silenciosamente a regra aplicável no corte.
+Esses dois caminhos explicam por que conceitos próximos não são intercambiáveis. **Modalidade** define o rito; **critério de julgamento** define o que torna uma proposta melhor; **modo de disputa** define como as ofertas se formam; **contratação direta** afasta a licitação em hipótese legal; **procedimento auxiliar** organiza ou apoia contratações, mas não é modalidade.
 
-## 2. Modalidades de licitação
+> **Corte normativo:** este capítulo considera a legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Os valores monetários são os vigentes desde **1º de janeiro de 2026**, conforme o Decreto nº 12.807/2025. Alterações posteriores ao edital aparecem expressamente como **pós-edital** e não substituem a regra aplicável ao corte.
 
-### 2.1 Rol legal e vedação à combinação
+O núcleo são os **artigos 28 a 88 da Lei nº 14.133/2021**. O planejamento que chega a este ponto foi estudado no assunto anterior; formalização e execução do contrato vêm depois. Aqui o foco é **como a Administração chega legitimamente ao fornecedor ou adquirente**.
 
-O art. 28 prevê cinco modalidades:
+## 1. Separe as decisões antes de memorizar nomes
 
-1. pregão;
-2. concorrência;
-3. concurso;
-4. leilão;
-5. diálogo competitivo.
+Uma questão pode reunir “pregão”, “menor preço” e “lances abertos”. Cada expressão responde a uma pergunta diferente:
 
-A Administração também pode utilizar os procedimentos auxiliares do art. 78, mas eles **não são modalidades**. É vedada a criação de outras modalidades ou a combinação das cinco modalidades legais. O pregão e a concorrência seguem o rito procedimental comum do art. 17; as demais possuem características próprias.
+| Pergunta | Categoria | Exemplo |
+| --- | --- | --- |
+| qual rito organiza a licitação? | modalidade | pregão |
+| o que torna a proposta melhor? | critério de julgamento | menor preço |
+| como as ofertas se formam? | modo de disputa | aberto |
+| a licitação pode ou deve ser afastada? | contratação direta | dispensa ou inexigibilidade |
+| qual mecanismo apoia contratações? | procedimento auxiliar | <abbr title="chamamento aberto a interessados que atendam às condições">credenciamento</abbr> |
 
-### 2.2 Pregão e concorrência
+Nas cadeiras do exemplo, padrões usuais de mercado caracterizam bem comum e apontam para **pregão**. Ainda será preciso definir menor preço ou maior desconto e o modo da disputa. Logo, modalidade não resolve sozinha a seleção.
 
-O critério decisivo não é o valor estimado da contratação, mas a natureza do objeto.
+**Valor estimado também não distingue pregão de concorrência.** Na Lei nº 14.133/2021, a natureza do objeto é decisiva.
+
+## 2. A modalidade nasce principalmente da natureza do objeto
+
+O artigo 28 prevê cinco modalidades: **pregão, concorrência, concurso, leilão e diálogo competitivo**. É proibido criar outra ou combinar as modalidades legais. Procedimentos auxiliares do artigo 78 não são modalidades.
+
+### 2.1 Pregão e concorrência: classifique o objeto
+
+**Bem ou serviço comum** tem padrões de desempenho e qualidade objetivamente definíveis por especificações usuais de mercado. O pregão é obrigatório nessa situação e julga por menor preço ou maior desconto.
+
+**Bem ou serviço especial** tem heterogeneidade ou complexidade que impede esse enquadramento. A concorrência abrange bens e serviços especiais e obras e serviços comuns ou especiais de engenharia.
 
 | Modalidade | Campo principal | Critérios admitidos |
-|---|---|---|
-| pregão | bens e serviços comuns, cujos padrões de desempenho e qualidade possam ser objetivamente definidos por especificações usuais de mercado | menor preço ou maior desconto |
+| --- | --- | --- |
+| pregão | bens e serviços comuns, inclusive serviço comum de engenharia | menor preço ou maior desconto |
 | concorrência | bens e serviços especiais e obras e serviços comuns ou especiais de engenharia | menor preço, melhor técnica ou conteúdo artístico, técnica e preço, maior retorno econômico ou maior desconto |
 
-O pregão é obrigatório quando o objeto possuir padrões objetivamente definíveis por especificações usuais de mercado. Ele não se aplica a serviços técnicos especializados de natureza predominantemente intelectual nem, como regra, a obras e serviços de engenharia, ressalvados os **serviços comuns de engenharia**.
+O pregão não se aplica a serviços técnicos especializados de natureza predominantemente intelectual. Obra também não vai a pregão; **serviço comum de engenharia** pode.
 
-> **Pegadinha:** uma obra de engenharia não se torna objeto de pregão apenas porque é simples ou barata. Já um serviço comum de engenharia pode ser licitado por pregão.
+### 2.2 Concurso e leilão têm finalidades próprias
 
-### 2.3 Concurso
+**Concurso** seleciona trabalho técnico, científico ou artístico por melhor técnica ou conteúdo artístico e concede prêmio ou remuneração. O edital define qualificação, diretrizes, apresentação e prêmio. Se o concurso elaborar projeto, o vencedor cede à Administração os direitos patrimoniais e autoriza sua execução.
 
-O concurso escolhe trabalho **técnico, científico ou artístico** pelo critério de melhor técnica ou conteúdo artístico e concede prêmio ou remuneração ao vencedor. O edital deve indicar a qualificação exigida, as diretrizes e formas de apresentação do trabalho e as condições do prêmio ou remuneração.
+**Leilão** aliena imóveis ou móveis inservíveis ou legalmente apreendidos e usa sempre **maior lance**. Pode ser conduzido por servidor designado ou leiloeiro oficial; neste último caso, o leiloeiro é selecionado por <abbr title="chamamento aberto a interessados que atendam às condições">credenciamento</abbr> ou pregão com maior desconto sobre as comissões.
 
-Nos concursos destinados à elaboração de projeto, o vencedor deve ceder à Administração os direitos patrimoniais relativos ao projeto e autorizar sua execução conforme juízo de conveniência e oportunidade das autoridades competentes.
+O leilão não exige <abbr title="cadastro público de fornecedores e seu desempenho">registro cadastral</abbr> prévio nem fase de habilitação. O edital traz, entre outros elementos, descrição e avaliação do bem, preço mínimo, condições de pagamento, eventual comissão, local e período do leilão. Após lances e recurso, seguem pagamento e <abbr title="ato que confirma a regularidade e o resultado da licitação">homologação</abbr>.
 
-### 2.4 Leilão
+### 2.3 Diálogo competitivo: quando ainda é preciso descobrir a solução
 
-O leilão serve à alienação de bens imóveis ou de bens móveis inservíveis ou legalmente apreendidos. Seu critério é sempre o de **maior lance**.
+A modalidade é restrita a contratações em que a Administração:
 
-O leilão pode ser conduzido por leiloeiro oficial ou por servidor designado. Se a Administração optar por leiloeiro oficial, deverá selecioná-lo mediante:
+- enfrente inovação tecnológica ou técnica, necessidade de adaptar soluções de mercado ou impossibilidade de definir com precisão suficiente as especificações; **e**
+- precise identificar solução técnica, requisitos ou estrutura jurídica ou financeira capazes de satisfazer a necessidade.
 
-- credenciamento; ou
-- pregão com critério de maior desconto sobre as comissões a serem cobradas, tomando como parâmetro os percentuais legais e os valores dos bens a leiloar.
+Há duas etapas.
 
-O edital deve indicar, entre outros elementos, descrição e valor de avaliação do bem, preço mínimo, condições de pagamento, eventual comissão, local dos bens e sítio eletrônico/período do leilão. A modalidade não exige registro cadastral prévio, não tem fase de habilitação e deve ser homologada após os lances, a fase recursal e o pagamento pelo vencedor.
+**Diálogo:** o edital divulga necessidades, exigências e critérios objetivos de pré-seleção e fixa pelo menos **25 dias úteis** para manifestação de interesse. Todos os que preencham os requisitos objetivos são admitidos. A Administração discute alternativas até identificar solução apta.
 
-### 2.5 Diálogo competitivo
+Não pode fornecer informação discriminatoriamente. Solução ou informação confidencial de um participante só pode ser revelada com consentimento. Reuniões são registradas em ata e gravadas em áudio e vídeo.
 
-O diálogo competitivo é restrito a contratações em que a Administração:
+**Competição:** encerrado o diálogo, todos os pré-selecionados apresentam proposta final com base na solução especificada, em prazo de pelo menos **60 dias úteis**.
 
-- busca objeto que envolva inovação tecnológica ou técnica, impossibilidade de atender à necessidade sem adaptar soluções de mercado ou impossibilidade de definir com precisão suficiente as especificações técnicas; e
-- precisa definir e identificar meios e alternativas capazes de satisfazer sua necessidade, inclusive quanto à solução técnica, aos requisitos técnicos, à estrutura jurídica ou à estrutura financeira do contrato.
+Comissão de contratação com no mínimo três servidores efetivos ou empregados públicos dos quadros permanentes conduz o procedimento, admitida assessoria técnica. O edital pode prever fases sucessivas de diálogo para reduzir soluções.
 
-O procedimento tem duas etapas materiais:
+## 3. Critério de julgamento: o que significa “melhor proposta”?
 
-1. **diálogo:** participantes previamente selecionados discutem alternativas até que a Administração identifique uma ou mais soluções adequadas;
-2. **fase competitiva:** encerrado o diálogo, todos os licitantes pré-selecionados apresentam proposta final com base na solução especificada.
+Escolher a modalidade responde **como organizar o procedimento**. O critério responde **o que a Administração otimiza**.
 
-Regras importantes:
-
-- o edital de abertura deve divulgar necessidades, exigências e critérios de pré-seleção e fixar prazo mínimo de **25 dias úteis** para manifestação de interesse;
-- todos os interessados que preencherem os requisitos objetivos serão admitidos;
-- é vedado revelar discriminatoriamente informações que favoreçam algum licitante;
-- solução proposta ou informação confidencial de um licitante só pode ser revelada aos demais com seu consentimento;
-- as reuniões devem ser registradas em ata e gravadas em áudio e vídeo;
-- na fase competitiva, o prazo para propostas é de pelo menos **60 dias úteis**;
-- comissão de contratação com ao menos três servidores efetivos ou empregados públicos dos quadros permanentes conduz o procedimento, admitida assessoria técnica;
-- os diálogos podem ocorrer em fases sucessivas previstas no edital, reduzindo gradualmente as soluções discutidas.
-
-## 3. Critérios de julgamento
-
-### 3.1 Os seis critérios
-
-O art. 33 estabelece:
+O artigo 33 prevê seis critérios:
 
 1. menor preço;
 2. maior desconto;
@@ -106,410 +95,373 @@ O art. 33 estabelece:
 5. maior lance, no leilão;
 6. maior retorno econômico.
 
-O menor dispêndio para a Administração orienta o menor preço, o maior desconto e, quando couber, a técnica e preço. Podem ser considerados custos indiretos mensuráveis, como manutenção, utilização, reposição, depreciação e impacto ambiental do ciclo de vida.
+### 3.1 Menor preço e maior desconto procuram o menor dispêndio
 
-No **maior desconto**, a referência é o preço global fixado no edital, e o desconto se estende aos eventuais termos aditivos. No **menor preço**, vence a proposta de menor dispêndio que respeite os parâmetros mínimos de qualidade definidos no edital.
+No menor preço, vence a proposta que produz o menor dispêndio para a Administração, respeitados os parâmetros mínimos de qualidade definidos no edital.
 
-### 3.2 Melhor técnica e técnica e preço
+No maior desconto, o edital fixa um preço global de referência e os licitantes disputam o percentual de redução. O desconto vencedor estende-se aos eventuais **termos aditivos**, instrumentos que formalizam alterações do contrato.
 
-Na melhor técnica ou conteúdo artístico, o preço já está definido no edital; avalia-se exclusivamente a qualidade técnica ou artística. O critério pode ser utilizado para projetos e trabalhos de natureza técnica, científica ou artística.
+A ideia de **menor dispêndio** é mais ampla do que olhar apenas o valor inicial. Quando objetivamente mensuráveis, podem ser considerados custos indiretos ligados a manutenção, utilização, reposição, depreciação e impacto ambiental do ciclo de vida.
 
-Na técnica e preço, calcula-se a maior pontuação a partir da ponderação objetiva das notas técnica e de preço. A valoração técnica não pode superar **70%**. Esse critério é escolhido quando o estudo técnico preliminar demonstrar que a avaliação e a ponderação da qualidade técnica relevante das propostas que superarem os requisitos mínimos são importantes para os fins pretendidos.
+### 3.2 Melhor técnica e técnica e preço não são a mesma coisa
 
-O critério pode ser utilizado nas hipóteses abaixo e é **preferencial** na primeira delas:
+Na **melhor técnica ou conteúdo artístico**, consideram-se exclusivamente as propostas técnicas ou artísticas. O edital define previamente o prêmio ou a remuneração. O critério pode ser empregado em projetos e trabalhos de natureza técnica, científica ou artística.
 
-- serviços técnicos especializados de natureza predominantemente intelectual;
+Na **técnica e preço**, a nota final resulta da ponderação objetiva da qualidade técnica e do preço. A valoração da proposta técnica pode chegar a **70%**.
+
+Esse critério cabe quando o estudo técnico preliminar demonstrar que a qualidade técnica relevante das propostas que superarem os requisitos mínimos precisa ser ponderada para atingir o resultado pretendido. A lei o admite, entre outras hipóteses, para:
+
+- serviços técnicos especializados de natureza predominantemente intelectual, caso em que o critério é preferencial;
 - serviços majoritariamente dependentes de tecnologia sofisticada e de domínio restrito;
 - bens e serviços especiais de tecnologia da informação e de comunicação;
 - obras e serviços especiais de engenharia;
-- objetos que admitam soluções específicas e alternativas com repercussões significativas e concretamente mensuráveis sobre qualidade, produtividade, rendimento e durabilidade.
+- objetos que admitam soluções específicas e alternativas com efeitos significativos e mensuráveis sobre qualidade, produtividade, rendimento ou durabilidade.
 
-O desempenho pretérito deve ser considerado na pontuação técnica, conforme critérios objetivos do edital e o registro cadastral. A banca atribui notas por conhecimento, metodologia/programa de trabalho e qualificação das equipes; a avaliação por títulos deve limitar-se a **10%** da pontuação técnica total.
+A pontuação técnica pode considerar desempenho pretérito, conhecimento do objeto, metodologia e programa de trabalho e qualificação das equipes, conforme critérios objetivos do edital e o <abbr title="cadastro público de fornecedores e seu desempenho">registro cadastral</abbr>.
 
-Quando serviços técnicos especializados de natureza predominantemente intelectual dos tipos estudos/projetos, fiscalização/supervisão/gerenciamento e controles de qualidade/tecnológico tiverem valor estimado superior a **R$ 392.952,63**, o julgamento será por melhor técnica ou técnica e preço, com ponderação de **70%** para a proposta técnica neste último caso (art. 37, § 2º).
+Há uma regra especial de alto rendimento em prova. Ressalvada a inexigibilidade, serviços técnicos especializados predominantemente intelectuais de **estudos e projetos**, **fiscalização, supervisão e gerenciamento de obras e serviços** e **controles de qualidade e tecnológico** cujo valor estimado supere **R$ 392.952,63 em 2026** serão julgados por melhor técnica ou técnica e preço. Se for técnica e preço, a proposta técnica terá ponderação de **70%**.
 
-### 3.3 Maior retorno econômico
+### 3.3 Maior retorno econômico mede economia, não preço isolado
 
-O maior retorno econômico é utilizado exclusivamente em **contrato de eficiência**. O licitante apresenta:
+O maior retorno econômico é exclusivo de **contrato de eficiência**.
 
-- proposta de trabalho, com obras, serviços ou bens, economia estimada e prazo de realização; e
-- proposta de preço, correspondente a percentual da economia estimada durante determinado período.
+O licitante apresenta:
 
-A remuneração é percentual proporcional à economia efetivamente obtida. O retorno econômico corresponde à economia estimada menos a proposta de preço. Se a economia real ficar abaixo da estimada, a diferença será descontada da remuneração; se a diferença superar o limite máximo contratual, além do desconto haverá sanção.
+- uma proposta de trabalho, com obras, serviços ou bens, economia estimada e prazo de realização; e
+- uma proposta de preço, correspondente a percentual da economia estimada durante determinado período.
 
-## 4. Modos de disputa, propostas e desempate
+Para o julgamento:
 
-### 4.1 Modos aberto e fechado
+**retorno econômico = economia estimada − proposta de preço**.
 
-Os modos de disputa podem ser adotados isolada ou conjuntamente:
+A remuneração do contratado será percentual proporcional à economia efetivamente obtida. Se a economia real ficar abaixo da estimada, a diferença será descontada da remuneração. Se a diferença ultrapassar o limite máximo estabelecido no contrato, além do desconto incidirão as sanções cabíveis.
 
-- **aberto:** lances públicos e sucessivos, crescentes ou decrescentes;
-- **fechado:** propostas permanecem sigilosas até a data e hora designadas.
+## 4. Modo de disputa e julgamento: como as propostas chegam ao resultado
 
-Há duas proibições expressas:
+### 4.1 Aberto e fechado descrevem a formação das ofertas
 
-- modo fechado isolado no julgamento por menor preço ou maior desconto;
-- modo aberto no julgamento por técnica e preço.
+No modo **aberto**, os licitantes apresentam lances públicos e sucessivos, crescentes ou decrescentes. No modo **fechado**, as propostas permanecem sigilosas até a data e hora designadas.
 
-O edital pode estabelecer intervalo mínimo entre lances. No modo aberto, se a diferença entre a primeira e a segunda propostas for de pelo menos 5%, a Administração pode admitir o reinício da disputa para ordenar as demais colocações.
+Eles podem ser usados isolada ou conjuntamente, mas a lei fixa dois bloqueios:
 
-### 4.2 Garantia de proposta
+- o modo fechado **isolado** é vedado quando o julgamento for por menor preço ou maior desconto;
+- o modo aberto é vedado quando o julgamento for por técnica e preço.
 
-O edital pode exigir, na apresentação da proposta, garantia de proposta como requisito de pré-habilitação. O valor não pode superar **1%** do valor estimado da contratação. A garantia é devolvida em até dez dias úteis após a assinatura do contrato ou após a declaração de fracasso da licitação. A recusa em assinar o contrato ou a não apresentação dos documentos para contratação implica execução integral da garantia, sem prejuízo das sanções legais.
+O edital pode estabelecer intervalo mínimo entre lances. No modo aberto, se a diferença entre a melhor proposta e a segunda colocada for de pelo menos **5%**, a Administração pode admitir o reinício da disputa, nos termos do edital, para definir as demais colocações.
 
-### 4.3 Desclassificação e exequibilidade
+### 4.2 Garantia de proposta protege a seriedade da oferta
 
-Serão desclassificadas propostas que:
+O edital **pode**, e não deve obrigatoriamente, exigir garantia de proposta como requisito de pré-habilitação. O valor não pode superar **1%** do valor estimado da contratação.
+
+A garantia é devolvida em até **dez dias úteis** após a assinatura do contrato ou após a declaração de fracasso da licitação. Se o vencedor se recusar a assinar o contrato ou deixar de apresentar os documentos necessários à contratação, a garantia é executada integralmente, sem prejuízo das demais sanções.
+
+### 4.3 Desclassificar exige identificar o defeito da proposta
+
+O artigo 59 manda desclassificar propostas que:
 
 - contenham vícios insanáveis;
 - desobedeçam às especificações técnicas detalhadas no edital;
-- apresentem preços inexequíveis ou permaneçam acima do orçamento estimado;
+- apresentem preços <abbr title="insuficientes para executar o objeto de modo viável">inexequíveis</abbr> ou permaneçam acima do orçamento estimado;
 - não demonstrem exequibilidade quando exigido;
 - apresentem desconformidade insanável com outras exigências do edital.
 
-A Administração pode realizar diligências para aferir exequibilidade ou exigir sua demonstração. Para obras e serviços de engenharia, o art. 59, § 4º, diz literalmente que são inexequíveis as propostas inferiores a **75%** do valor orçado. Dentro do corte do edital, porém, o **Acórdão 803/2024-TCU-Plenário** interpreta esse percentual como presunção relativa, compatibilizando-o com o § 2º e admitindo a demonstração da exequibilidade mediante diligência antes da desclassificação.
+A **exequibilidade** é a capacidade real de executar o objeto pelo preço ofertado. Se houver dúvida, a Administração pode realizar diligências ou exigir sua demonstração.
 
-Se a proposta vencedora for inferior a **85%** do valor orçado, há garantia adicional. Para o cálculo, a orientação do TCU considera a diferença entre **85% do valor orçado** e o valor da proposta. Exemplo: orçamento de R$ 1.000.000 e proposta de R$ 800.000 → 85% do orçamento = R$ 850.000 → garantia adicional = **R$ 50.000**, sem prejuízo das demais garantias exigíveis.
+Para **obras e serviços de engenharia**, a literalidade do artigo 59, § 4º, considera inexequíveis as propostas inferiores a **75%** do valor orçado pela Administração. No corte deste concurso, porém, o Acórdão 803/2024 do <abbr title="Tribunal de Contas da União">TCU</abbr> (Plenário) interpreta esse patamar como **presunção relativa**, em conjunto com o § 2º: antes da desclassificação, deve ser oportunizada a demonstração da exequibilidade.
 
-> **Atenção:** os percentuais de 75% e 85% são regras específicas para obras e serviços de engenharia. Não devem ser transpostos automaticamente para compras e serviços em geral. Na prova, se a questão cobrar apenas a literalidade do § 4º, reconheça o marco de 75%; se trouxer a jurisprudência do TCU, trate a inexequibilidade como presunção relativa.
+Há outro percentual, com função diferente. Se a proposta vencedora de obra ou serviço de engenharia for inferior a **85%** do valor orçado, exige-se garantia adicional. Na leitura operacional adotada pelo <abbr title="Tribunal de Contas da União">TCU</abbr>, ela corresponde à diferença entre **85% do orçamento** e o valor da proposta.
 
-### 4.4 Ordem de desempate e preferências
+**Exemplo hipotético:** orçamento de R$ 1.000.000 e proposta vencedora de R$ 800.000. A proposta equivale a 80% do orçamento: não está abaixo do patamar de 75%, mas está abaixo de 85%. Como 85% de R$ 1.000.000 são R$ 850.000, a garantia adicional é de **R$ 50.000**, sem prejuízo das demais garantias exigíveis.
 
-O art. 60 manda aplicar, nesta ordem, quatro critérios de desempate:
+> **Não misture os percentuais:** 75% trata da inexequibilidade em engenharia; 85% aciona garantia adicional para a proposta vencedora. Nenhum dos dois deve ser transportado automaticamente para compras e serviços em geral.
+
+### 4.4 Empate, preferências e negociação vêm depois do julgamento
+
+Se houver empate, o artigo 60 determina esta ordem:
 
 1. disputa final entre os empatados, com nova proposta imediatamente após a classificação;
-2. avaliação do desempenho contratual prévio, preferencialmente com base nos registros cadastrais;
-3. ações de equidade entre homens e mulheres no ambiente de trabalho;
-4. programa de integridade, conforme orientações dos órgãos de controle.
+2. avaliação do desempenho contratual prévio, preferencialmente com base em <abbr title="cadastros públicos de fornecedores e seu desempenho">registros cadastrais</abbr>;
+3. desenvolvimento de ações de equidade entre homens e mulheres no ambiente de trabalho;
+4. desenvolvimento de programa de integridade, conforme orientações dos órgãos de controle.
 
-Persistindo igualdade, há preferência sucessiva para bens e serviços produzidos ou prestados por:
+Persistindo a igualdade, há preferência sucessiva para bens e serviços produzidos ou prestados por:
 
-1. empresas estabelecidas no território do Estado ou Distrito Federal do órgão estadual/distrital licitante ou, em licitação municipal, no Estado onde se localiza o Município;
+1. empresas estabelecidas no território do Estado ou do Distrito Federal do órgão estadual ou distrital licitante ou, em licitação municipal, no Estado em que se localiza o Município;
 2. empresas brasileiras;
 3. empresas que invistam em pesquisa e desenvolvimento de tecnologia no País;
 4. empresas que comprovem prática de mitigação nos termos da Lei nº 12.187/2009.
 
-Essas regras não prejudicam a aplicação do regime favorecido das microempresas e empresas de pequeno porte.
+Esse mecanismo não afasta o tratamento favorecido aplicável a microempresas e empresas de pequeno porte.
 
-### 4.5 Negociação
+Definido o resultado do julgamento, a Administração **pode** negociar condições mais vantajosas com o primeiro colocado. Se o preço continuar acima do máximo definido, pode negociar com os demais licitantes, respeitada a ordem de classificação. O resultado da negociação deve ser divulgado a todos e juntado aos autos.
 
-Definido o julgamento, a Administração **pode** negociar condições mais vantajosas com o primeiro colocado. Se a proposta continuar acima do preço máximo definido, a negociação pode alcançar os demais licitantes, na ordem de classificação. O resultado deve ser divulgado a todos e anexado aos autos.
+## 5. O objeto altera regras específicas da seleção
 
-## 5. Regras setoriais da seleção
+### 5.1 Compras: especificar sem fechar o mercado
 
-### 5.1 Compras
+O planejamento considera consumo anual, condições de aquisição e pagamento semelhantes às privadas, <abbr title="registro de preços e condições para contratações futuras">sistema de registro de preços</abbr> quando pertinente, quantidades baseadas no consumo provável e armazenamento que evite deterioração.
 
-O planejamento de compras considera o consumo anual e deve observar condições de aquisição e pagamento semelhantes às do setor privado, processamento por sistema de registro de preços quando pertinente, unidades e quantidades baseadas no consumo provável e condições de guarda que evitem deterioração.
+O parcelamento é adotado quando técnica e economicamente viável, considerando lotes, mercado local, competição e risco de concentração. Não se parcela quando economia de escala ou redução de custos recomendarem fornecedor único, quando o objeto formar sistema integrado com risco ao conjunto ou quando houver padronização ou fornecedor exclusivo.
 
-O parcelamento será adotado quando técnica e economicamente viável, considerando a divisão em lotes, as peculiaridades do mercado local, a ampliação da competição e a prevenção da concentração. Não se parcela quando economia de escala ou redução de custos recomendarem compra do mesmo fornecedor, quando o objeto configurar sistema único e integrado com risco ao conjunto ou quando houver padronização/fornecedor exclusivo.
+Marca ou modelo só podem ser indicados excepcionalmente e com justificativa formal, como por padronização, compatibilidade, única aptidão demonstrada ou referência descritiva. Nos limites legais, podem ser exigidos amostra, prova de conceito, certificação, carta de solidariedade e processo de padronização.
 
-A indicação de marca ou modelo exige justificativa formal e é excepcional, por necessidade de padronização, compatibilidade, marca como única apta ou referência descritiva. A Administração pode exigir amostra, prova de conceito, certificação, carta de solidariedade do fabricante e processo de padronização, nos limites legais. Produtos manufaturados nacionais devem observar normas técnicas brasileiras.
+#### Equipamentos de saúde
 
-Desde **16 de março de 2026**, o art. 44-A determina que a licitação para compra de equipamento destinado a procedimento diagnóstico ou terapêutico no SUS, quando o valor superar o limite do art. 75, II, considere o **adequado aproveitamento do equipamento ao longo de sua vida útil**. O § 1º exige que o edital contenha a demonstração da capacidade instalada para operação do equipamento **ou** plano de atendimento aos requisitos necessários à operação. Os §§ 2º a 5º foram vetados; não se deve atribuir à lei listas de pessoal, manutenção, insumos, infraestrutura ou descarte que estavam nos dispositivos vetados.
+Desde **16 de março de 2026**, o artigo 44-A exige que a compra de equipamento destinado a procedimento diagnóstico ou terapêutico no <abbr title="Sistema Único de Saúde">SUS</abbr>, acima do limite do artigo 75, II, considere seu **adequado aproveitamento ao longo da vida útil**.
+
+O edital deve demonstrar capacidade instalada para operação **ou** trazer plano de atendimento aos requisitos necessários. Os §§ 2º a 5º foram vetados; não atribua à lei listas de pessoal, manutenção, insumos, infraestrutura ou descarte contidas nesses dispositivos.
 
 ### 5.2 Obras e serviços de engenharia
 
-As licitações devem respeitar normas ambientais, patrimônio cultural, acessibilidade, segurança, desapropriação, destinação de resíduos e mitigação/compensação ambiental. A execução indireta admite:
+As licitações devem observar, entre outros pontos, resíduos, mitigação e compensação ambiental, uso eficiente de recursos, impacto de vizinhança, patrimônio cultural e acessibilidade.
 
-- empreitada por preço unitário;
-- empreitada por preço global;
-- empreitada integral;
-- contratação por tarefa;
-- contratação integrada;
-- contratação semi-integrada;
-- fornecimento e prestação de serviço associado.
+A execução indireta admite empreitada por preço unitário, empreitada por preço global, empreitada integral, contratação por tarefa, contratação integrada, contratação semi-integrada e fornecimento com prestação de serviço associado.
 
-É vedada obra ou serviço de engenharia sem projeto executivo, ressalvada a hipótese simplificada do art. 18, § 3º. Na contratação integrada, a Administração fornece anteprojeto e o contratado elabora projetos básico e executivo; na semi-integrada, a Administração fornece projeto básico e o contratado elabora o executivo, podendo propor alteração do projeto básico se demonstrar superioridade das inovações e assumir os riscos correspondentes.
+Como regra, não se executa obra ou serviço de engenharia sem projeto executivo, ressalvada a hipótese do artigo 18, § 3º. Na **integrada**, a Administração fornece anteprojeto e o contratado elabora projetos básico e executivo. Na **semi-integrada**, recebe projeto básico e elabora o executivo, podendo propor inovação superior e assumir os riscos correspondentes.
 
-### 5.3 Serviços e terceirização
+### 5.3 Serviços terceirizados
 
-Licitações de serviços devem buscar padronização e parcelamento quando técnica e economicamente viável. Atividades materiais acessórias, instrumentais ou complementares podem ser executadas por terceiros, mas a Administração não pode:
+Atividades materiais acessórias, instrumentais ou complementares podem ser terceirizadas, mas a Administração não pode indicar empregados, criar subordinação ou pessoalidade, fixar salário abaixo do piso legal ou normativo, pagar exclusivamente por reembolso salarial, exigir tarefa alheia ao objeto nem intervir indevidamente na gestão da contratada.
 
-- indicar pessoas para trabalhar na contratada;
-- fixar salário inferior ao legal ou normativo;
-- criar subordinação ou pessoalidade com empregado da contratada;
-- definir forma de pagamento exclusivamente por reembolso de salários;
-- exigir tarefas alheias ao objeto;
-- prever exigência que constitua intervenção indevida na gestão da contratada.
+Mais de uma empresa pode executar o mesmo serviço, com justificativa, quando não houver perda de economia de escala, o objeto admitir execução concorrente e a multiplicidade for conveniente. Em dedicação exclusiva de mão de obra, a contratada comprova, quando solicitada, obrigações trabalhistas e <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr>.
 
-É possível contratar mais de uma empresa para o mesmo serviço, mediante justificativa, sem perda de economia de escala, quando o objeto puder ser executado concorrentemente e a múltipla execução for conveniente. Em dedicação exclusiva de mão de obra, a contratada deve comprovar, quando solicitada, cumprimento das obrigações trabalhistas e do FGTS dos empregados envolvidos.
+### 5.4 Imóveis e licitação internacional
 
-### 5.4 Locação de imóveis e licitação internacional
+Locação de imóvel exige, em regra, licitação e avaliação prévia do bem, conservação, adaptações e amortização. Há inexigibilidade quando instalações e localização tornarem necessária a escolha específica, nos termos do artigo 74, V.
 
-A locação de imóveis exige, como regra, licitação e avaliação prévia do bem, conservação, adaptações e amortização. A exceção é a inexigibilidade do art. 74, V, quando características de instalações e localização tornarem necessária a escolha.
+Na licitação internacional, se estrangeiro puder cotar em moeda estrangeira, brasileiro também poderá; o pagamento ao brasileiro será em moeda nacional. Garantias de pagamento devem ser equivalentes e encargos incidentes precisam ser considerados para equalizar propostas.
 
-Na licitação internacional, o edital deve ajustar-se à política monetária e ao comércio exterior. Quando permitido licitante estrangeiro cotar em moeda estrangeira, o brasileiro também poderá fazê-lo; o pagamento ao brasileiro será em moeda nacional. Garantias de pagamento ao licitante brasileiro devem equivaler às oferecidas ao estrangeiro, e encargos incidentes devem ser incluídos para equalização das propostas.
+## 6. O edital abre a competição externa
 
-## 6. Edital, prazos e publicidade
+Até aqui, muitas decisões ocorreram dentro da fase preparatória. A publicação do edital torna essas escolhas visíveis aos interessados e inicia a disputa externa.
 
-### 6.1 Controle jurídico e divulgação
+### 6.1 Controle jurídico e publicidade
 
-Ao final da fase preparatória, o assessoramento jurídico realiza controle prévio de legalidade. A autoridade jurídica máxima pode dispensar a análise em hipóteses previamente definidas por baixo valor, baixa complexidade, entrega imediata ou uso de minutas padronizadas, considerados valor, complexidade e risco. O parecer deve ser claro, objetivo e compreensível.
+Ao final da fase preparatória, o processo segue ao órgão de assessoramento jurídico para controle prévio de legalidade. A autoridade jurídica máxima competente pode definir previamente hipóteses de dispensa dessa análise, considerando baixo valor, baixa complexidade, entrega imediata ou uso de minutas padronizadas. A manifestação jurídica deve ser clara, objetiva e compreensível.
 
-O inteiro teor do edital e anexos deve ser divulgado e mantido no PNCP. Também se publica extrato no diário oficial competente e em jornal diário de grande circulação. A divulgação adicional em sítio eletrônico oficial é facultativa. Após a homologação, documentos da fase preparatória que não tenham integrado o edital devem ser disponibilizados no PNCP.
+O inteiro teor do edital e seus anexos deve ser divulgado e mantido no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>. Além disso, é obrigatória a publicação de extrato no diário oficial competente e em jornal diário de grande circulação. Divulgação adicional em sítio eletrônico oficial pode ser feita. Após a <abbr title="ato que confirma a regularidade e o resultado da licitação">homologação</abbr>, documentos da fase preparatória que não tenham integrado o edital também devem ser disponibilizados no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>.
 
-### 6.2 Prazos mínimos para propostas e lances
+### 6.2 Prazos mínimos para receber propostas e lances
 
 Os prazos contam da divulgação do edital:
 
 | Objeto ou critério | Prazo mínimo |
-|---|---:|
+| --- | ---: |
 | bens: menor preço ou maior desconto | 8 dias úteis |
 | bens: demais hipóteses | 15 dias úteis |
-| serviços e obras: menor preço/maior desconto em serviços comuns e obras/serviços comuns de engenharia | 10 dias úteis |
-| serviços e obras: menor preço/maior desconto em serviços especiais e obras/serviços especiais de engenharia | 25 dias úteis |
-| serviços e obras: contratação integrada | 60 dias úteis |
-| serviços e obras: contratação semi-integrada ou demais hipóteses não cobertas acima | 35 dias úteis |
+| serviços comuns e obras ou serviços comuns de engenharia, por menor preço ou maior desconto | 10 dias úteis |
+| serviços especiais e obras ou serviços especiais de engenharia, por menor preço ou maior desconto | 25 dias úteis |
+| contratação integrada | 60 dias úteis |
+| contratação semi-integrada ou demais hipóteses de serviços e obras não abrangidas acima | 35 dias úteis |
 | maior lance | 15 dias úteis |
-| técnica e preço ou melhor técnica/conteúdo artístico | 35 dias úteis |
+| técnica e preço ou melhor técnica ou conteúdo artístico | 35 dias úteis |
 | diálogo competitivo: manifestação de interesse | 25 dias úteis |
-| diálogo competitivo: propostas na fase competitiva | 60 dias úteis |
+| diálogo competitivo: propostas da fase competitiva | 60 dias úteis |
 
-Alteração que comprometa a formulação das propostas exige nova divulgação e os mesmos prazos. A Lei autoriza redução fundamentada até a metade apenas nas licitações realizadas pelo Ministério da Saúde no âmbito do SUS.
+Alteração do edital que comprometa a formulação das propostas exige nova divulgação pela mesma forma e observância dos mesmos prazos, salvo se a mudança não afetar essa formulação.
 
-## 7. Habilitação e encerramento da licitação
+A Lei autoriza redução fundamentada de até metade desses prazos apenas para licitações realizadas pelo Ministério da Saúde no âmbito do <abbr title="Sistema Único de Saúde">SUS</abbr>. Não existe autorização geral para qualquer órgão reduzir prazo pela mera alegação de urgência.
 
-### 7.1 Quatro dimensões
+## 7. Habilitação: a melhor proposta vem antes da prova de capacidade
 
-A habilitação verifica a capacidade do licitante e divide-se em:
+Habilitação verifica se o licitante pode executar e divide-se em:
 
 1. jurídica;
 2. técnica;
 3. fiscal, social e trabalhista;
 4. econômico-financeira.
 
-Como regra, os documentos de habilitação são exigidos apenas do vencedor, exceto quando a habilitação anteceder o julgamento. A regularidade fiscal só será exigida depois do julgamento e apenas do mais bem classificado. Pode-se exigir dos licitantes declaração de atendimento aos requisitos, e exige-se do licitante declaração de cumprimento das reservas de cargos para pessoa com deficiência e reabilitado da Previdência Social.
+### 7.1 Sequência e diligência
 
-O edital pode exigir declaração de que a proposta contempla todos os custos trabalhistas. Se a habilitação anteceder o julgamento, os licitantes apresentam simultaneamente documentos e propostas, mas estes só são abertos após o resultado da habilitação.
+Como regra, documentos de habilitação são exigidos apenas do vencedor, salvo quando a fase anteceder o julgamento. A regularidade fiscal só é exigida depois do julgamento e apenas do mais bem classificado.
 
-### 7.2 Diligência e saneamento
+Pode-se exigir declaração de atendimento aos requisitos e de que a proposta contempla custos trabalhistas; exige-se declaração de cumprimento das reservas legais de cargos para pessoa com deficiência e reabilitado da Previdência Social. Se houver inversão, documentos e propostas são apresentados simultaneamente, mas as propostas só se abrem após a habilitação.
 
-Depois da entrega dos documentos, não se admite substituição ou apresentação de novos documentos, salvo diligência para:
+Depois da entrega, não cabe livre substituição de documentos. Diligência pode complementar informação de documento já apresentado para apurar **fato existente** na data de abertura ou atualizar documento cuja validade expirou depois do recebimento das propostas. Falha que não altere substância nem validade jurídica pode ser saneada por decisão fundamentada e acessível.
 
-- complementar informações sobre documento já apresentado, necessárias para apurar fatos existentes na data de abertura; ou
-- atualizar documento cuja validade expirou depois da data de recebimento das propostas.
+### 7.2 O conteúdo das quatro dimensões
 
-Erros ou falhas que não alterem a substância ou a validade jurídica podem ser saneados por decisão fundamentada, registrada e acessível a todos.
+**Jurídica:** existência jurídica e, quando cabível, autorização para exercer a atividade.
 
-### 7.3 Conteúdo de cada habilitação
+**Técnica:** pode envolver profissional registrado, atestados de capacidade, pessoal e instalações, registro em conselho, conhecimento das condições locais e requisitos de lei especial. Atestados concentram-se nas parcelas de maior relevância ou valor significativo, de valor individual igual ou superior a **4%** do estimado; quantitativos mínimos podem chegar a **50%** dessas parcelas. O artigo 67, § 2º, veda limitações de tempo e locais específicos, mas, em **serviços contínuos**, o § 5º admite experiência em serviços similares por período mínimo de até **três anos**, sucessivos ou não. Visita técnica imprescindível deve admitir substituição por declaração formal e oferecer datas e horários diversos.
 
-**Jurídica:** limita-se à existência jurídica e, quando cabível, à autorização para exercer a atividade.
+**Fiscal, social e trabalhista:** inscrição no <abbr title="Cadastro de Pessoas Físicas">CPF</abbr> ou <abbr title="Cadastro Nacional da Pessoa Jurídica">CNPJ</abbr>, inscrição estadual ou municipal pertinente, regularidade perante Fazendas, Seguridade Social e <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr>, Justiça do Trabalho e proibição constitucional de trabalho infantil irregular.
 
-**Técnica:** pode envolver profissional registrado, atestados/certidões de capacidade operacional, pessoal e instalações, registro em conselho, declaração de conhecimento das condições locais e outros requisitos de lei especial. Atestados concentram-se nas parcelas de maior relevância ou valor significativo, assim consideradas as de valor individual igual ou superior a 4% do valor estimado. Quantitativos mínimos podem chegar a 50% dessas parcelas; o art. 67, § 2º, veda limitações de tempo e de locais específicos relativas aos atestados. **Ressalva:** em serviços contínuos, o § 5º permite exigir atestado de execução de serviços similares por período mínimo de até **três anos**, sucessivos ou não. A visita técnica, quando imprescindível, deve admitir substituição por declaração formal e oferecer datas e horários diversos.
+**Econômico-financeira:** balanço, demonstrações contábeis e certidão negativa de feitos sobre falência, conforme o caso. São vedados índices de rentabilidade ou lucratividade e faturamento anterior mínimo. Capital ou patrimônio líquido mínimo pode chegar a **10%** do estimado; pode ser exigida relação de compromissos assumidos. Em regra, alcançam-se os dois últimos exercícios; pessoa jurídica constituída há menos de dois anos limita-se ao último.
 
-**Fiscal, social e trabalhista:** abrange CPF/CNPJ, inscrição estadual/municipal pertinente, regularidade com Fazendas, Seguridade Social e FGTS, Justiça do Trabalho e cumprimento da proibição constitucional de trabalho infantil irregular.
+Documentos podem ser substituídos por <abbr title="cadastro público de fornecedores e seu desempenho">registro cadastral</abbr> e, nas hipóteses legais, dispensados total ou parcialmente: entrega imediata, contratação abaixo de um quarto do limite da dispensa para compras em geral e produto para pesquisa e desenvolvimento até **R$ 392.952,63 em 2026**.
 
-**Econômico-financeira:** é objetiva e justificada, com balanço, demonstrações contábeis e certidão negativa de feitos sobre falência expedida pelo distribuidor da sede. Não se admitem índices de rentabilidade ou lucratividade nem faturamento anterior mínimo. Podem ser exigidos capital ou patrimônio líquido mínimos de até 10% do valor estimado e relação de compromissos assumidos. Como regra, os documentos alcançam os dois últimos exercícios; pessoa jurídica constituída há menos de dois anos limita-se ao último exercício.
+### 7.3 Encerramento
 
-A documentação pode ser original, cópia ou meio admitido, ser substituída por registro cadastral e, em contratação de entrega imediata, valor inferior a um quarto do limite do art. 75, II, ou produto para pesquisa e desenvolvimento até **R$ 392.952,63**, ser total ou parcialmente dispensada.
+Concluídos julgamento, habilitação e recursos, a autoridade superior pode determinar saneamento; revogar por conveniência e oportunidade decorrentes de fato superveniente comprovado; anular por ilegalidade insanável; ou **adjudicar** — atribuir formalmente o objeto ao vencedor — e **homologar**, confirmando a regularidade e o resultado. Anulação e revogação asseguram manifestação prévia dos interessados; a anulação exige análise prévia do interesse público e atinge atos dependentes.
 
-### 7.4 Autoridade superior
+## 8. Contratação direta é outro caminho, não ausência de processo
 
-Encerrados julgamento, habilitação e recursos, a autoridade superior pode:
+Há duas razões jurídicas distintas para não licitar:
 
-- determinar retorno dos autos para saneamento;
-- revogar por conveniência e oportunidade decorrente de fato superveniente comprovado;
-- anular por ilegalidade insanável, de ofício ou mediante provocação;
-- adjudicar o objeto e homologar a licitação.
+- **inexigibilidade:** a competição é inviável;
+- **dispensa:** a competição pode existir, mas a lei autoriza afastá-la.
 
-A anulação exige análise prévia do interesse público e opera também sobre os atos dependentes. Anulação e revogação asseguram manifestação prévia dos interessados.
+O rol do artigo 74 é **exemplificativo** (“em especial”); as hipóteses do artigo 75 são **taxativas**. Em ambos os casos existe processo administrativo.
 
-## 8. Contratação direta
+### 8.1 O artigo 72 exige um dossiê
 
-### 8.1 Dispensa e inexigibilidade não são sinônimos
+Conforme o caso, a contratação direta reúne: documento de formalização da demanda e artefatos de planejamento cabíveis; estimativa da despesa; parecer jurídico e pareceres técnicos cabíveis; compatibilidade orçamentária; habilitação e qualificação mínimas; razão da escolha do contratado; justificativa de preço; e autorização competente.
 
-- **Inexigibilidade:** a competição é inviável. O rol do art. 74 é exemplificativo, pois a norma usa a expressão “em especial”.
-- **Dispensa:** a competição pode existir, mas a lei autoriza contratar diretamente em hipóteses taxativas do art. 75.
+O ato que autoriza a contratação direta ou o extrato do contrato deve ser divulgado e mantido em sítio eletrônico oficial. Se contratação direta indevida ocorrer com **dolo, fraude ou erro grosseiro**, contratado e agente público responsável respondem solidariamente pelo dano ao erário, sem prejuízo de outras sanções.
 
-Em ambos os casos há **processo administrativo**. Contratação direta não significa contratação sem motivação, orçamento, habilitação ou controle.
+### 8.2 Inexigibilidade: demonstre por que a disputa é inviável
 
-### 8.2 Instrução comum do processo
+O artigo 74 destaca:
 
-O art. 72 exige, conforme o caso:
-
-1. documento de formalização de demanda e, se cabíveis, estudo técnico preliminar, análise de riscos, termo de referência, projeto básico ou executivo;
-2. estimativa de despesa;
-3. parecer jurídico e pareceres técnicos cabíveis;
-4. demonstração de compatibilidade orçamentária;
-5. comprovação de habilitação e qualificação mínima do contratado;
-6. razão da escolha do contratado;
-7. justificativa de preço;
-8. autorização da autoridade competente.
-
-O ato autorizativo ou extrato do contrato deve ser divulgado e mantido em sítio eletrônico oficial. Na contratação direta indevida com **dolo, fraude ou erro grosseiro**, contratado e agente público responsável respondem solidariamente pelo dano ao erário, sem prejuízo de outras sanções.
-
-### 8.3 Inexigibilidade: hipóteses e provas
-
-O art. 74 destaca cinco hipóteses:
-
-| Hipótese | Requisito central |
-|---|---|
-| fornecedor exclusivo | prova de exclusividade; vedada preferência por marca específica |
-| profissional do setor artístico | consagração pela crítica ou opinião pública e contratação direta ou por empresário exclusivo |
-| serviço técnico especializado predominantemente intelectual | profissional ou empresa de notória especialização; vedada publicidade e divulgação |
-| credenciamento | todos os que preencham condições podem ser contratados na sistemática legal |
+| Hipótese | Prova central |
+| --- | --- |
+| fornecedor exclusivo | exclusividade idônea; vedada preferência por marca |
+| artista | consagração e contratação direta ou por empresário exclusivo |
+| serviço técnico intelectual | notória especialização |
+| <abbr title="chamamento aberto a interessados que atendam às condições">credenciamento</abbr> | objeto compatível com o mecanismo |
 | imóvel específico | instalações e localização tornam necessária a escolha |
 
-A exclusividade pode ser demonstrada por atestado, contrato, declaração do fabricante ou outro documento idôneo. O empresário exclusivo do artista deve ter representação **permanente e contínua**, no País ou Estado específico, e não atuação restrita a evento ou local determinado.
+A exclusividade pode ser provada por atestado, contrato, declaração do fabricante ou documento idôneo.
 
-Os serviços técnicos especializados incluem estudos/projetos, pareceres/perícias, assessorias/consultorias/auditorias, fiscalização/supervisão/gerenciamento, patrocínio de causas, treinamento, restauração e controles tecnológicos. Notória especialização é a reputação decorrente de desempenho anterior, estudos, experiência, publicações, organização, equipe e outros requisitos que permitam inferir essencialidade e reconhecida adequação. É vedada a subcontratação ou substituição dos profissionais que justificaram a inexigibilidade.
+Empresário exclusivo de artista deve representá-lo **permanente e continuamente**, no País ou em Estado específico, e não apenas para evento ou local determinado.
 
-Para imóvel específico, exige-se avaliação prévia, certificação de inexistência de imóvel público disponível e justificativas da singularidade e da vantagem.
+Nos serviços técnicos especializados predominantemente intelectuais, entram, entre outros, estudos e projetos; pareceres e perícias; assessorias, consultorias e auditorias; fiscalização e gerenciamento; patrocínio de causas; treinamento; restauração; e controles tecnológicos. Notória especialização decorre de desempenho anterior, estudos, experiência, publicações, organização, equipe e outros elementos que indiquem adequação reconhecida. É vedada inexigibilidade para publicidade e divulgação, e os profissionais que justificaram a escolha não podem ser substituídos ou subcontratados.
 
-### 8.4 Dispensa por valor em 2026
+Para imóvel específico, exigem-se avaliação prévia, certificação de inexistência de imóvel público vago e disponível e justificativas da singularidade e vantagem.
 
-| Objeto | Limite atualizado pelo Decreto nº 12.807/2025 |
-|---|---:|
-| obras e serviços de engenharia; manutenção de veículos automotores | inferior a R$ 130.984,20 |
-| outras compras e serviços | inferior a R$ 65.492,11 |
+### 8.3 Dispensa por valor: não fragmente para caber no limite
 
-Para aferir esses limites, o art. 75, § 1º, manda observar **simultaneamente**: (i) o somatório do que a respectiva unidade gestora despendeu no exercício financeiro; e (ii) o somatório da despesa com objetos de mesma natureza, entendidos como os relativos a contratações no mesmo ramo de atividade. A verificação não pode ser feita contrato a contrato de forma isolada para contornar os limites. Os valores dobram para consórcios públicos e autarquias/fundações qualificadas como agências executivas.
+| Objeto | Valor inferior a, em 2026 |
+| --- | ---: |
+| obras e serviços de engenharia; manutenção de veículos | R$ 130.984,20 |
+| outros serviços e compras | R$ 65.492,11 |
 
-As dispensas por valor serão **preferencialmente** precedidas de aviso em sítio eletrônico oficial por pelo menos três dias úteis para propostas adicionais e preferencialmente pagas por cartão, com extrato no PNCP. O somatório não se aplica a manutenção de veículos, com peças, até **R$ 10.478,74** em 2026.
+A aferição considera **simultaneamente** o somatório despendido no exercício pela unidade gestora e o somatório com objetos de mesma natureza, isto é, do mesmo ramo de atividade. Não se pode examinar cada contrato isoladamente para contornar o limite.
 
-### 8.5 Demais hipóteses de dispensa
+Os valores dobram para consórcios públicos e autarquias ou fundações qualificadas como agências executivas. Essas dispensas são **preferencialmente** precedidas de aviso em sítio oficial por pelo menos **três dias úteis** para propostas adicionais e **preferencialmente** pagas por cartão, com extrato no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>.
 
-O art. 75 contém um catálogo extenso. Estude-o por grupos:
+O somatório não se aplica a manutenção de veículos, incluídas peças, até **R$ 10.478,74 em 2026**.
 
-**Licitação anterior frustrada, há menos de um ano:** mantidas todas as condições do edital, quando não houve interessado/proposta válida ou os preços foram manifestamente superiores ao mercado ou incompatíveis com os oficiais.
+### 8.4 As demais dispensas podem ser agrupadas pelo motivo
 
-**Objetos específicos (inciso IV):**
+**Licitação anterior, há menos de um ano:** mantidas todas as condições do edital, quando não houve interessado ou proposta válida ou quando os preços foram manifestamente superiores aos de mercado ou incompatíveis com os oficiais.
 
-- peças e componentes do fornecedor original durante a garantia, se a exclusividade for indispensável;
-- acordo internacional aprovado pelo Congresso, com vantagem manifesta;
-- produtos para pesquisa e desenvolvimento, observado o limite atualizado de **R$ 392.952,63** para obras e serviços de engenharia;
-- transferência/licenciamento de tecnologia por ICT pública ou agência de fomento, com vantagem;
-- hortifrutigranjeiros, pães e perecíveis pelo preço do dia durante o tempo necessário à licitação;
-- bens/serviços nacionais de alta complexidade tecnológica cumulada com defesa nacional;
-- materiais padronizados das Forças Armadas, exceto uso pessoal/administrativo;
-- atendimento de contingentes militares brasileiros em operações de paz;
-- suprimento de militares em estada eventual curta fora da sede;
-- resíduos recicláveis/reutilizáveis por associações ou cooperativas de catadores de baixa renda;
-- obras de arte e objetos históricos autênticos compatíveis com as finalidades do órgão;
-- rastreamento e obtenção sigilosa de provas na forma da Lei nº 12.850/2013;
-- medicamentos exclusivamente destinados a doenças raras definidas pelo Ministério da Saúde.
+**Objetos específicos:** peças do fornecedor original durante garantia, quando a exclusividade for indispensável; acordo internacional aprovado pelo Congresso com vantagem manifesta; produtos para pesquisa e desenvolvimento — com limite de **R$ 392.952,63** para obras e serviços de engenharia —; transferência ou licenciamento de tecnologia por instituição científica, tecnológica e de inovação pública ou agência de fomento, quando houver vantagem; perecíveis pelo preço do dia durante o tempo necessário à licitação; bens e serviços nacionais que acumulem alta complexidade tecnológica e defesa nacional; materiais padronizados das Forças Armadas; atendimento de contingentes militares brasileiros em operações de paz; abastecimento de militares em estada **eventual de curta duração**; resíduos por associações ou cooperativas de catadores de baixa renda; obras de arte e objetos históricos autênticos compatíveis com a finalidade; obtenção sigilosa de provas; e medicamentos exclusivos para doenças raras definidas pelo Ministério da Saúde.
 
-**Ciência, defesa e crise:** cumprimento de dispositivos da Lei de Inovação; comprometimento da segurança nacional; guerra, estado de defesa, estado de sítio, intervenção federal ou grave perturbação da ordem; e emergência ou calamidade.
+**Ciência, defesa e crise:** hipóteses da Lei de Inovação, segurança nacional, guerra, estado de defesa, estado de sítio, intervenção federal, grave perturbação da ordem e emergência ou calamidade.
 
-**Relações públicas, saúde e finalidade social:** contratação intradministrativa de órgão/entidade criado para o fim específico a preço de mercado; intervenção da União no domínio econômico; contrato de programa para serviço público associado; transferência de tecnologia de produto estratégico ao SUS; profissional técnico notório para comissão de avaliação; associação de pessoas com deficiência sem fins lucrativos; instituição brasileira sem fins lucrativos de ensino, pesquisa, desenvolvimento/inovação ou recuperação social da pessoa presa; **no corte de 6/7/2026**, aquisição de insumos estratégicos para a saúde produzidos por fundação nas condições do art. 75, XVI; entidades sem fins lucrativos para cisternas; e entidades sem fins lucrativos para o Programa Cozinha Solidária.
+**Relações públicas, saúde e finalidade social:** contratação de órgão ou entidade da própria Administração criado para o fim específico, a preço de mercado; intervenção da União no domínio econômico; contrato de programa; transferência de tecnologia de produto estratégico ao <abbr title="Sistema Único de Saúde">SUS</abbr>; profissional técnico para comissão de avaliação; associação de pessoas com deficiência sem fins lucrativos; instituição brasileira sem fins lucrativos nas finalidades legais de ensino, pesquisa, desenvolvimento, inovação ou recuperação social da pessoa presa; cisternas; e Programa Cozinha Solidária.
 
-> **Pós-edital:** a Lei nº 15.471, de 20 de julho de 2026, alterou posteriormente o art. 75, XVI, passando a tratar de produtos estratégicos para a saúde fornecidos por produtores públicos por intermédio de fundação nas condições legais. Essa redação é direito vigente posterior ao corte e não substitui a redação aplicável na publicação do edital.
+No **corte de 6 de julho de 2026**, o artigo 75, XVI, tratava da aquisição de **insumos estratégicos para a saúde produzidos por fundação** que atendesse às condições legais, inclusive nas parcerias de transferência de tecnologia para o <abbr title="Sistema Único de Saúde">SUS</abbr>.
 
-### 8.6 Emergência e calamidade
+> **Pós-edital:** a Lei nº 15.471, de **20 de julho de 2026**, alterou o inciso XVI para **produtos estratégicos para a saúde fornecidos por produtores públicos por intermédio de fundação**, nas condições legais. Essa redação não substitui a aplicável no corte.
 
-A dispensa emergencial cobre somente bens necessários e parcelas de obras e serviços que possam ser concluídas em até **um ano da ocorrência** da emergência ou calamidade. O contrato não pode ser prorrogado com base nessa hipótese. Devem ser usados preços de mercado e adotadas providências para concluir a licitação substitutiva, sem excluir a apuração de quem deu causa à emergência.
+### 8.5 Emergência: necessidade urgente e marco total de um ano
 
-Na ADI 6.890/DF, o STF conferiu interpretação conforme à vedação de “recontratação”: ela impede nova contratação fundada na **mesma emergência ou calamidade** que extrapole o prazo total de um ano. Não impede contratar a mesma empresa por outro fundamento legal nem sua participação na licitação substitutiva.
+A dispensa emergencial cobre bens necessários e parcelas de obras e serviços concluíveis em até **um ano da ocorrência**. Devem ser usados preços de mercado e adotadas providências para concluir a licitação substitutiva, sem afastar a apuração de quem deu causa à emergência.
 
-> **Exemplo:** uma enchente ocorreu em 1º de abril. As parcelas emergenciais precisam ser concluíveis até 1º de abril do ano seguinte. A Administração não pode renovar sucessivamente dispensas apoiadas na mesma enchente para contornar esse marco.
+A literalidade do artigo 75, VIII, veda prorrogação e recontratação da empresa com base no mesmo inciso. O <abbr title="Supremo Tribunal Federal">STF</abbr>, porém, na <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 6.890/<abbr title="Distrito Federal">DF</abbr>, fixou que, para a **mesma emergência ou calamidade**, um contrato inicialmente inferior a um ano pode ser prorrogado ou sucedido por recontratação da mesma empresa, desde que o total não ultrapasse **um ano** e os demais requisitos sejam atendidos.
 
-## 9. Alienação de bens
+A empresa também pode participar da licitação substitutiva ou ser contratada diretamente por outro fundamento legal, inclusive nova emergência sem relação com a primeira.
 
-A alienação exige interesse público justificado e avaliação prévia.
+**Exemplo hipotético:** contrato emergencial de oito meses fundado em uma enchente pode, se a situação persistir, alcançar no máximo mais quatro meses pelo mesmo fundamento. A emergência original não sustenta contratação direta além do marco anual.
 
-- **Imóveis:** em regra, autorização legislativa e leilão. Entre as dispensas estão dação em pagamento, doação a outro órgão/entidade, permuta legalmente condicionada, investidura, venda a outro órgão/entidade e hipóteses de regularização fundiária. Imóvel adquirido em processo judicial ou dação dispensa autorização legislativa, mas exige avaliação e leilão.
-- **Móveis:** em regra, leilão. Há dispensa para doação de interesse social, permuta entre órgãos/entidades, venda de ações ou títulos, venda de bens produzidos/comercializados pela entidade e venda de material sem uso previsível a outro órgão/entidade.
+## 9. Alienação: quando a Administração ocupa o lado de quem vende
 
-A doação com encargo, em regra, será licitada e conterá encargos, prazo e reversão, sob pena de nulidade; a licitação pode ser dispensada por interesse público justificado. Na venda de imóvel, tem preferência o licitante ocupante que cumpra todas as regras do edital.
+Alienar bem público exige **interesse público devidamente justificado** e **avaliação prévia**.
 
-## 10. Procedimentos auxiliares
+### 9.1 Imóveis
 
-O art. 78 enumera cinco procedimentos, regidos por critérios claros e objetivos em regulamento:
+Em regra, a alienação de imóvel exige autorização legislativa e leilão. A lei prevê dispensas de licitação em hipóteses como dação em pagamento, doação para outro órgão ou entidade, permuta nas condições legais, investidura, venda a outro órgão ou entidade e determinadas situações de regularização fundiária.
 
-1. credenciamento;
-2. pré-qualificação;
-3. procedimento de manifestação de interesse (PMI);
-4. sistema de registro de preços (SRP);
-5. registro cadastral.
+Imóvel adquirido em processo judicial ou por dação em pagamento dispensa autorização legislativa para ser alienado, mas continua sujeito a avaliação e leilão.
 
-### 10.1 Credenciamento
+### 9.2 Móveis
 
-O credenciamento pode atender a:
+Bens móveis são, em regra, alienados por leilão. A licitação pode ser dispensada, entre outros casos, para doação por interesse social, permuta entre órgãos ou entidades, venda de ações ou títulos, venda de bens produzidos ou comercializados pela própria entidade e venda de materiais e equipamentos sem utilização previsível para outro órgão ou entidade.
 
-- contratação paralela e não excludente;
-- seleção a critério de terceiros;
-- mercados fluidos;
-- comércio eletrônico de bens e serviços comuns padronizados ofertados no Sistema de Compras Expressas (Sicx), incluído pela Lei nº 15.266/2025.
+Doação com encargo será, em regra, precedida de licitação e o instrumento deve estabelecer encargos, prazo para cumprimento e cláusula de reversão, sob pena de nulidade. A licitação pode ser dispensada quando houver interesse público devidamente justificado.
 
-O chamamento deve permanecer disponível para cadastramento permanente. Se não for possível contratar simultaneamente todos os credenciados no caso paralelo, distribui-se a demanda por critérios objetivos. As condições são padronizadas; nas duas primeiras hipóteses, o edital define o valor. Em mercados fluidos, registram-se as cotações vigentes no momento da contratação. Não se transfere o objeto a terceiros sem autorização, e qualquer parte pode denunciar o ajuste conforme o edital.
+Na venda de imóvel, o licitante ocupante que atenda a todas as exigências do edital tem direito de preferência.
 
-> **Pegadinha:** a abertura permanente do credenciamento não significa contratação automática de todo inscrito em qualquer quantidade. Valem as condições do chamamento e, quando necessário, os critérios objetivos de distribuição.
+## 10. Procedimentos auxiliares organizam a seleção, mas não são modalidades
 
-### 10.2 Pré-qualificação
+O artigo 78 enumera **credenciamento, pré-qualificação, procedimento de manifestação de interesse, sistema de registro de preços e registro cadastral**. Cada um resolve um problema operacional diferente.
 
-A pré-qualificação seleciona previamente licitantes habilitados ou bens que atendam às exigências técnicas/qualitativas. O procedimento fica permanentemente aberto, pode ser parcial ou total e pode organizar-se por grupos ou segmentos. A Administração examina documentos em até **dez dias úteis** e pode permitir correção ou reapresentação para ampliar a competição.
+### 10.1 Credenciamento: manter uma rede aberta
 
-Sua validade é de no máximo **um ano** e nunca pode superar a validade dos documentos. A futura licitação pode ser restrita aos licitantes ou bens pré-qualificados. Não confunda a abertura permanente para inscrições com validade indefinida da pré-qualificação.
+Pode atender a contratação paralela e não excludente, escolha por terceiros, <abbr title="mercados em que preços e condições variam frequentemente">mercados fluidos</abbr> e comércio eletrônico de bens e serviços comuns padronizados no <abbr title="Sistema de Compras Expressas">Sicx</abbr>, incluído pela Lei nº 15.266/2025.
 
-### 10.3 Procedimento de manifestação de interesse
+O chamamento permanece disponível para cadastramento. Se, na contratação paralela, não for possível contratar todos simultaneamente, a demanda é distribuída por critérios objetivos. As condições são padronizadas; nas duas primeiras hipóteses o edital define o valor, e em mercados fluidos registram-se as cotações do momento. O objeto não é transferido a terceiro sem autorização, e qualquer parte pode denunciá-lo, isto é, encerrá-lo nas condições do edital.
 
-O PMI solicita à iniciativa privada, por chamamento público, estudos, levantamentos, investigações e projetos de soluções inovadoras. A participação:
+### 10.2 Pré-qualificação: verificar previamente licitantes ou bens
 
-- não gera preferência na futura licitação;
-- não obriga o poder público a licitar;
-- não gera, por si só, direito a ressarcimento;
-- será remunerada apenas pelo vencedor da futura licitação, sem cobrança ao poder público.
+Pode selecionar licitantes habilitados ou bens que atendam às exigências técnicas ou qualitativas. Fica permanentemente aberta, pode ser parcial ou total e organizada por grupos ou segmentos. A Administração examina documentos em até **dez dias úteis** e pode permitir correção ou reapresentação.
 
-A aceitação depende de parecer fundamentado sobre adequação, premissas, metodologia, economia e vantagem. O PMI pode ser restrito a startups, com validação objetiva da inovação.
+Cada pré-qualificação vale no máximo **um ano** e nunca além da validade dos documentos. A futura licitação pode ser restrita aos pré-qualificados. Abertura permanente para inscrições não significa validade permanente.
 
-### 10.4 Sistema de registro de preços
+### 10.3 Procedimento de manifestação de interesse: obter estudos sem criar preferência
 
-O SRP registra condições para contratações futuras. A existência de preço registrado vincula o fornecedor às condições da ata, mas **não obriga a Administração a contratar**; licitação específica continua possível se motivada.
+O <abbr title="Procedimento de Manifestação de Interesse">PMI</abbr> solicita, por chamamento público, estudos, levantamentos, investigações e projetos de soluções inovadoras. Participar não gera preferência, não obriga a Administração a licitar e não cria direito automático a ressarcimento. Se os estudos aceitos forem usados, a remuneração cabe ao vencedor da futura licitação, não ao poder público.
 
-O edital define quantitativos, mínimos de cotação, preços por condições distintas, critério de menor preço ou maior desconto, alteração e cancelamento. Julgamento por grupo de itens exige demonstração da inviabilidade da adjudicação por item e vantagem técnica/econômica. Registro sem total a adquirir só é permitido na primeira licitação sem histórico, para alimento perecível ou serviço integrado ao fornecimento de bens, com valor máximo da despesa e vedação a participantes externos na ata.
+A aceitação depende de parecer fundamentado sobre adequação, premissas, metodologia, economia e vantagem. O procedimento pode ser restrito a <abbr title="empresas inovadoras em estágio inicial">startups</abbr> nas condições legais.
 
-A ata vigora por **um ano** e pode ser prorrogada por igual período se o preço continuar vantajoso. O prazo do contrato dela decorrente segue o próprio contrato. Obras e serviços de engenharia podem usar SRP se houver projeto padronizado sem complexidade técnica/operacional e necessidade permanente ou frequente.
+### 10.4 Sistema de registro de preços: registrar condições para contratar depois
 
-O órgão gerenciador realiza intenção de registro de preços por pelo menos **oito dias úteis**, dispensável se for o único contratante. A adesão por não participante exige justificativa de vantagem, compatibilidade de preços e aceitação prévia do gerenciador e fornecedor.
+O <abbr title="Sistema de Registro de Preços">SRP</abbr> registra preços e condições para contratações futuras. O fornecedor fica vinculado à **ata de registro de preços**, que consolida preços e condições, mas **a Administração não é obrigada a contratar** e pode realizar licitação específica se motivar.
+
+O edital disciplina quantitativos, mínimos de cotação, preços por condições distintas, menor preço ou maior desconto e alteração ou cancelamento. Julgamento por grupo exige demonstrar inviabilidade da adjudicação por item e vantagem técnica e econômica. Registro sem total a adquirir só cabe, em síntese, na primeira licitação sem histórico, para alimento perecível ou serviço integrado ao fornecimento de bens, com valor máximo da despesa e vedação a participantes externos na ata.
+
+A ata vale **um ano**, prorrogável por igual período se o preço continuar vantajoso; o contrato decorrente tem prazo próprio. Engenharia pode usar <abbr title="Sistema de Registro de Preços">SRP</abbr> quando houver projeto padronizado sem complexidade técnica e operacional e necessidade permanente ou frequente.
+
+O gerenciador realiza <abbr title="Intenção de Registro de Preços">IRP</abbr> por pelo menos **oito dias úteis**, dispensável se for o único contratante. Não participante que queira aderir precisa justificar vantagem, demonstrar compatibilidade de preços e obter aceitação prévia de gerenciador e fornecedor.
 
 Limites gerais de adesão:
 
-- cada aderente: até 50% do quantitativo registrado para gerenciador e participantes;
-- total de adesões: até o dobro de cada item registrado.
+- cada aderente: até **50%** do quantitativo registrado para gerenciador e participantes;
+- conjunto das adesões: até o **dobro** de cada item registrado.
 
-Órgão federal não adere a ata estadual, distrital ou municipal. Órgão municipal pode aderir a ata municipal de outro gerenciador, desde que o SRP tenha sido formalizado mediante licitação. Há exceções legais aos limites em transferências voluntárias federais e em aquisição emergencial de medicamentos/material médico-hospitalar por ata do Ministério da Saúde.
+Órgão federal não adere a ata estadual, distrital ou municipal. Município pode aderir a ata municipal de outro gerenciador se o <abbr title="Sistema de Registro de Preços">SRP</abbr> tiver sido formalizado por licitação. Há exceções legais específicas aos limites, inclusive em certas transferências voluntárias e em aquisição emergencial de medicamentos e material médico-hospitalar por ata do Ministério da Saúde.
 
-### 10.5 Registro cadastral
+### 10.5 Registro cadastral: base pública de licitantes e contratados
 
-Os órgãos e entidades devem usar o cadastro unificado do PNCP para licitantes e contratados. Ele é público, permanentemente aberto e deve ter chamamento pela internet ao menos anual. É proibido exigir cadastro complementar para acessar edital e anexos.
+Os órgãos e entidades usam o cadastro unificado do <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>. Ele é público, permanentemente aberto e deve ter chamamento pela internet ao menos anual. É proibido exigir cadastro complementar para acessar edital e anexos.
 
-Licitação pode ser restrita a cadastrados nas condições regulamentares, mas deve admitir fornecedor que conclua o cadastro no prazo de propostas. O certificado é renovável; o desempenho contratual e penalidades podem integrar o registro sob critérios objetivos. Quem requereu cadastro pode participar enquanto aguarda decisão, mas a contratação depende da emissão do certificado.
+Licitação pode ser restrita a cadastrados nas condições regulamentares, mas deve admitir quem conclua o cadastro no prazo de propostas. Certificado é renovável; desempenho e penalidades podem integrar o registro. Quem aguarda decisão sobre o cadastro pode participar, mas só contrata após a emissão do certificado.
 
-## 11. Aplicação federativa e normas regulamentares
+## 11. Regulamento federal não vira automaticamente regra interna do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>
 
-A Lei nº 14.133/2021 contém normas gerais aplicáveis aos entes abrangidos por seu art. 1º. Já decretos e instruções normativas do Poder Executivo federal disciplinam diretamente a Administração Pública federal e só alcançam o TCE-MA quando houver adoção válida, norma local ou incidência federal específica.
+A Lei nº 14.133/2021 traz normas gerais aplicáveis aos entes abrangidos pelo artigo 1º. Já decretos e instruções normativas do Poder Executivo federal têm âmbito próprio.
 
-Por isso:
+Para este capítulo:
 
-- a IN SEGES/ME nº 73/2022 ajuda a compreender a operação eletrônica de menor preço/maior desconto no âmbito federal, mas não substitui a regulamentação estadual;
-- a IN SEGES/ME nº 67/2021 disciplina dispensa eletrônica federal e alcança Estados e Municípios quando executarem recursos da União por transferências voluntárias;
-- os Decretos nº 11.462/2023 e nº 11.878/2024 regulamentam, no âmbito federal, SRP e credenciamento;
-- o Decreto nº 12.807/2025 atualiza valores legais e é a referência monetária para 2026.
+- a Instrução Normativa nº 73/2022 da Secretaria de Gestão do então Ministério da Economia disciplina licitações eletrônicas por menor preço ou maior desconto no âmbito federal definido pelo próprio ato;
+- a Instrução Normativa nº 67/2021 da mesma Secretaria disciplina a dispensa eletrônica federal e prevê incidência sobre Estados e Municípios quando executem recursos da União decorrentes de transferências voluntárias, nas condições do ato;
+- o Decreto nº 11.462/2023 regulamenta o <abbr title="Sistema de Registro de Preços">SRP</abbr> no âmbito federal;
+- o Decreto nº 11.878/2024 regulamenta o credenciamento no âmbito federal;
+- o Decreto nº 12.807/2025 atualiza os valores da Lei nº 14.133/2021 para 2026.
 
-## 12. Estratégia de prova
+Esses atos podem servir para compreender institutos e podem incidir quando houver fundamento específico, mas **não devem ser tratados como regulamento automático do Estado do Maranhão ou do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>**.
 
-Antes de responder, identifique qual pergunta jurídica está sendo feita:
+## 12. Reconstrua a seleção como uma cadeia de perguntas
 
-1. **Natureza do objeto:** comum, especial, intelectual, artístico, alienável ou complexo/inovador?
-2. **Competição:** viável, inviável ou legalmente dispensável?
-3. **Modalidade:** qual rito a lei associa ao objeto?
-4. **Critério:** preço, desconto, técnica, lance ou retorno?
-5. **Modo:** aberto, fechado ou combinação permitida?
-6. **Fase:** proposta, julgamento, habilitação, recurso, encerramento ou procedimento auxiliar?
+Retome as cadeiras do **exemplo hipotético**:
 
-Erros recorrentes:
+1. o planejamento já demonstrou a necessidade e definiu cadeiras com padrões usuais de mercado;
+2. há vários fornecedores capazes de disputar, portanto a competição é viável;
+3. por serem bens comuns, a modalidade é pregão;
+4. o edital define menor preço ou maior desconto como critério;
+5. o modo de disputa precisa respeitar as combinações permitidas pela lei;
+6. propostas são recebidas, julgadas e eventualmente negociadas;
+7. a Administração verifica se a proposta é aceitável e exequível;
+8. depois, habilita o vencedor;
+9. recursos são processados e a autoridade superior pode sanear, revogar, anular ou adjudicar e homologar.
 
-- escolher modalidade pelo valor;
-- chamar credenciamento ou SRP de modalidade;
-- tratar contratação direta como ausência de processo;
-- confundir inexigibilidade exemplificativa com dispensa taxativa;
-- esquecer que o pregão não julga por técnica e preço;
-- tratar automaticamente como inexequível, sem diligência, toda proposta de engenharia abaixo de 75%, ignorando a jurisprudência do TCU;
-- calcular a garantia adicional como orçamento integral menos proposta, em vez de 85% do orçamento menos proposta;
-- atribuir ao art. 44-A requisitos previstos em parágrafos vetados;
-- esquecer a ressalva de até três anos de experiência em serviços contínuos;
-- dizer que ata de registro obriga a Administração a comprar;
-- confundir abertura permanente da pré-qualificação com validade permanente;
-- aplicar regulamento federal automaticamente ao TCE-MA;
-- aferir dispensa por valor contrato a contrato, sem os somatórios do art. 75, § 1º;
-- esquecer o marco de um ano contado da ocorrência da emergência.
+Agora troque apenas uma premissa. Se a Administração precisar de imóvel cuja localização e instalações sejam indispensáveis e não exista alternativa competitiva equivalente, a pergunta sobre modalidade deixa de ser central: o caminho pode ser **inexigibilidade**, desde que a singularidade, a inexistência de imóvel público disponível, a avaliação e a vantagem sejam demonstradas.
+
+É esse deslocamento que as questões tentam provocar. Antes de memorizar um nome, descubra **qual pergunta jurídica está aberta**:
+
+**objeto → competição → modalidade ou contratação direta → critério → disputa → aceitabilidade → habilitação → encerramento**.
+
+Quando essa sequência está clara, “pregão”, “maior desconto”, “modo aberto”, “credenciamento” e “dispensa” deixam de parecer peças soltas e passam a ocupar lugares diferentes no mesmo mecanismo de contratação.
