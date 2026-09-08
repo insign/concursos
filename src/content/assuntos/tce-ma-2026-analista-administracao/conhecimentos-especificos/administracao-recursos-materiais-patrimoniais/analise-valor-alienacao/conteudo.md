@@ -1,934 +1,329 @@
 ---
 schemaVersion: 1
 title: Análise do valor e alienação
-description: Metodologia de valor, funções, custo do ciclo, avaliação, alienação, leilão, circularidade, resíduos, dados, baixa e auditoria.
+description: Metodologia de valor, funções, custo do ciclo de vida, avaliação, alienação, desfazimento, leilão, circularidade, resíduos, dados e baixa patrimonial.
 order: 123
 storageId: analise-valor-alienacao
 ---
 
 # Análise do valor e alienação
 
-Administrar materiais e patrimônio não significa apenas comprar, guardar e inventariar. É preciso perguntar se cada solução entrega as funções necessárias com uso racional de recursos e, quando um bem deixa de servir à organização, escolher uma destinação que preserve o interesse público, a legalidade, o valor aproveitável, a segurança e o meio ambiente.
+Imagine dois problemas diferentes no mesmo patrimônio. No primeiro, um equipamento ainda é necessário, mas custa caro para operar e vive indisponível: a pergunta é **como cumprir a função necessária com melhor relação entre desempenho, risco e recursos?** No segundo, um conjunto de bens deixou de ser útil para a unidade: a pergunta passa a ser **qual destino preserva o interesse público e, se houver transferência de propriedade, qual rito torna a alienação válida?**
 
-> **Ideia central:** análise do valor procura a melhor relação entre funções e recursos; alienação transfere propriedade e exige fundamento jurídico, avaliação, competência e procedimento. Nenhuma das duas se reduz a escolher o menor preço.
+Essas perguntas organizam o assunto. A **análise do valor** procura melhorar a solução enquanto a necessidade existe; a **alienação** é uma das formas possíveis de dar destino ao bem quando a Administração decide transferir sua propriedade. Entre uma coisa e outra existem reaproveitamento, cessão, transferência, avaliação, leilão, doação, destinação ambiental e baixa patrimonial — atos com efeitos diferentes.
 
-Este material considera as normas vigentes até **19 de julho de 2026**. A Lei nº 14.133/2021 e o Código Civil fornecem o regime geral de alienação de bens públicos. O Decreto nº 12.785/2025 e a <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 têm âmbito administrativo federal próprio: oferecem conceitos úteis, mas sua aplicação automática ao Estado do Maranhão ou ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> não deve ser presumida. Competências e ritos internos do ente continuam necessários.
+> **Modelo mental:** necessidade → função → alternativas → custo e desempenho no ciclo → decisão sobre uso ou destino → requisitos jurídicos → entrega comprovada → baixa e conciliação.
 
-O foco é a análise funcional e o ciclo de destinação. Mensuração contábil de estoques pertence ao Assunto 119; compras, classificação e codificação, ao 121; recebimento e inventário, ao 122; responsabilidade e movimentação patrimonial, aos Assuntos 117 e 118; e patrimônio imobiliário, ao 116.
+O corte-base do edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> é **6 de julho de 2026**. As fontes centrais deste capítulo foram revalidadas em **8 de setembro de 2026** para detectar mudanças posteriores. Essa verificação de vigência não amplia automaticamente o programa: atos posteriores ao corte só interessam para distinguir a regra exigível no corte de eventual alteração superveniente. Nas fontes centrais revalidadas, não foi identificada mudança posterior que altere o mecanismo aqui ensinado.
 
+## 1. Análise do valor começa pela função, não pelo preço
 
-<!-- REVISAO-ANALISE-VALOR-2026 -->
+Uma compra de R$ 80 mil pode ser pior que uma de R$ 100 mil se a primeira exigir mais manutenção, consumir mais energia e deixar o serviço parado com frequência. O erro seria perguntar apenas “qual solução custa menos para adquirir?”. A metodologia de valor troca a pergunta por outra: **qual alternativa entrega as funções requeridas, no desempenho necessário, com o uso justificável de recursos ao longo do ciclo?**
 
-## 0. Como ler a terminologia da metodologia de valor
-
-As expressões da área não formam compartimentos jurídicos rígidos. A fonte e o momento do ciclo ajudam a interpretar o termo:
-
-| Expressão | Uso predominante |
-| --- | --- |
-| **Value Methodology** | abordagem geral orientada a funções, desempenho e recursos |
-| **Value Analysis** | aplicação frequente a produto, processo ou solução já existente |
-| **Value Engineering** | aplicação frequente durante concepção, projeto ou desenvolvimento |
-| **Value Management** | uso mais amplo na governança de programas, portfólios e decisões |
-
-Autores e organizações podem agrupar essas expressões de modo diferente. Em prova, deve-se identificar a definição adotada no enunciado e preservar o núcleo comum: **função requerida, desempenho verificável, alternativas e recursos ao longo do ciclo**.
-
-### Valor, economia e legalidade são perguntas diferentes
-
-Uma alternativa pode:
-
-- aumentar valor funcional sem gerar redução orçamentária imediata;
-- reduzir despesa, mas piorar segurança ou nível de serviço;
-- ser economicamente vantajosa, mas juridicamente inviável;
-- ser juridicamente possível, mas inadequada ao interesse público;
-- gerar benefício operacional que não pode ser tratado como receita.
-
-A metodologia de valor não substitui competência, motivação, contratação, avaliação patrimonial ou rito de alienação.
-
-## 1. Dois sentidos de valor
-
-### 1.1 Valor como relação funcional
-
-Na **Value Methodology**, divulgada pela SAVE International, valor resulta do equilíbrio entre o desempenho das funções requeridas e os recursos necessários para obtê-las. Uma representação didática é:
+A <abbr title="Society of American Value Engineers">SAVE</abbr> International descreve a metodologia de valor como processo estruturado e multidisciplinar que usa análise de funções para melhorar valor. Em linguagem didática, pode-se representar a ideia por:
 
 $$
-\text{Valor} = \frac{\text{desempenho das funções}}{\text{recursos}}
+\text{Valor} \propto \frac{\text{desempenho das funções requeridas}}{\text{recursos empregados}}
 $$
 
-Os recursos podem incluir dinheiro e tempo. O numerador não é quantidade de acessórios: representa a capacidade confiável de atender às necessidades do usuário com qualidade, segurança e desempenho adequados.
+A relação não é uma fórmula contábil universal. Ela mostra o raciocínio: valor pode aumentar porque o recurso necessário diminui **sem perda funcional**, porque o desempenho útil melhora com recursos proporcionais, ou por uma combinação das duas coisas.
 
-O valor pode melhorar quando:
+### 1.1 Preço, custo, <abbr title="recurso que se justifica para cumprir a função">worth</abbr>, valor e avaliação não são sinônimos
 
-- a mesma função é entregue com menos recursos;
-- o desempenho funcional aumenta sem crescimento desproporcional dos recursos;
-- riscos, falhas ou tempo são reduzidos de modo relevante;
-- custos futuros são evitados sem sacrificar requisitos essenciais.
+Considere um veículo oficial hipotético:
 
-Reduzir custo e destruir uma função necessária **piora** o valor. A fórmula é um modelo gerencial, não uma equação contábil nem um critério jurídico autossuficiente.
+- **preço** é o montante pago ou oferecido em uma transação;
+- **custo** reúne os recursos consumidos para adquirir, operar, manter e encerrar o uso;
+- **<abbr title="recurso que se justifica para cumprir a função">worth</abbr>** é uma referência funcional: quanto recurso se justifica para obter determinada função no desempenho exigido;
+- **valor**, na metodologia, relaciona função e desempenho aos recursos empregados;
+- **avaliação patrimonial** estima um valor monetário para uma finalidade específica, como sustentar uma alienação.
 
-### 1.2 Preço, custo, importância e valor
+Por isso, uma função com custo muito superior ao seu <abbr title="recurso que se justifica para cumprir a função">worth</abbr> merece investigação, mas **não deve ser eliminada automaticamente**. Talvez a função seja obrigatória e o problema esteja na solução escolhida para cumpri-la.
 
-| Conceito | Pergunta | Exemplo |
-| --- | --- | --- |
-| preço | quanto se paga ou se oferece na transação? | proposta de R$ 4.000 por equipamento |
-| custo | quais recursos a solução consome? | compra, instalação, energia, manutenção e descarte |
-| importância funcional (*worth*) | quanto recurso se justifica para realizar a função? | dispêndio aceitável para manter requisito crítico |
-| valor | as funções requeridas são entregues com relação adequada entre desempenho e recursos? | alternativa mais durável, segura e econômica no ciclo |
+Também não se deve confundir **<abbr title="aplicação da metodologia de valor a solução existente">Value Analysis</abbr>**, **<abbr title="aplicação da metodologia de valor durante concepção ou desenvolvimento">Value Engineering</abbr>** e **<abbr title="uso amplo da metodologia de valor na governança de decisões">Value Management</abbr>** com avaliação monetária de patrimônio. A terminologia varia entre fontes, mas é comum usar *Value Analysis* para estudar solução já existente, *Value Engineering* para aplicação durante concepção ou desenvolvimento e *Value Management* para uso mais amplo da metodologia na governança de decisões, programas ou portfólios. Em prova, preserve a fonte do enunciado e o núcleo comum: **função, alternativas, desempenho e recursos**.
 
-Preço inicial baixo não garante custo global baixo. Um item barato pode exigir mais reposições, treinamento, peças, energia e indisponibilidade. Da mesma forma, item caro não é necessariamente desperdício: sua função pode ser crítica ou seu custo de ciclo de vida pode ser menor.
+### 1.2 Função básica e funções secundárias
 
-### 1.3 Análise do valor não é avaliação patrimonial
+A análise funcional tenta descrever **o que precisa acontecer**, em vez de congelar a solução atual. Uma formulação útil costuma empregar verbo de ação + substantivo que permita medir o resultado.
 
-Os termos se aproximam, mas respondem a perguntas diferentes:
+**Exemplo hipotético.** Diante de uma fechadura, “instalar modelo X” já escolheu a solução. “Restringir acesso” expressa melhor a função. Em seguida, a equipe define o desempenho necessário: quem deve ser impedido de entrar, em quais condições, com qual nível de segurança e com que disponibilidade.
 
-- **análise do valor:** examina funções, alternativas, desempenho e recursos para melhorar uma solução;
-- **avaliação patrimonial:** estima valor monetário de um bem para decisão, registro ou alienação;
-- **avaliação de estoques:** aplica método de mensuração ao saldo de materiais;
-- **análise de custos:** identifica composição e comportamento dos custos;
-- **ABC:** atribui recursos a atividades e destas aos objetos de custo.
+A **função básica** explica a razão essencial de existência do objeto ou sistema. As **funções secundárias** apoiam, protegem, informam ou facilitam a básica. “Secundária” não significa dispensável: uma função ligada a segurança, integridade, ergonomia ou conformidade pode ser indispensável mesmo sem ser a razão principal do objeto.
 
-Dados de custos e uma avaliação monetária podem alimentar a análise do valor, mas não substituem a análise funcional, a criatividade e a comparação de alternativas.
+Uma função útil precisa de critério de desempenho. “Manter serviço”, por exemplo, pode ser ligada a disponibilidade e tempo de recuperação; “transportar carga”, a capacidade, tempo, integridade e segurança.
 
+### 1.3 <abbr title="Function Analysis System Technique">FAST</abbr>: perguntar “como?” e “por quê?”
 
-### 1.4 Custo, *worth* e oportunidade de estudo
+A <abbr title="Function Analysis System Technique">FAST</abbr> organiza relações lógicas entre funções. A pergunta **“como esta função é realizada?”** conduz para funções que a tornam possível; **“por que esta função é necessária?”** conduz na direção da necessidade que a justifica. Isso ajuda a separar necessidade de solução e a revelar funções de suporte.
 
-A relação entre **custo da função** e **importância funcional (*worth*)** ajuda a localizar oportunidades. Relação elevada sugere investigação, não eliminação automática. Pode indicar:
+A <abbr title="Function Analysis System Technique">FAST</abbr> não é organograma, inventário, orçamento nem simples fluxograma cronológico. Tampouco é exigência geral da legislação brasileira: é ferramenta metodológica.
 
-- solução superdimensionada;
-- tolerância sem benefício comprovado;
-- processo redundante;
-- tecnologia obsoleta;
-- função necessária executada por meio caro;
-- dado incompleto ou custo atribuído de forma incorreta.
+Ferramentas de custo podem apoiar o estudo sem substituir a análise funcional. O <abbr title="custeio baseado em atividades">ABC</abbr>, por exemplo, ajuda a localizar custos por atividades e objetos; <abbr title="priorização dos poucos elementos que concentram grande parcela do efeito">Pareto</abbr> ajuda a enxergar concentrações. Nenhuma delas prova, por si só, que um componente ou função deve ser eliminado.
 
-A equipe deve confirmar requisitos, riscos e desempenho antes de recomendar alteração.
+## 2. O <abbr title="plano estruturado de trabalho da metodologia de valor">Job Plan</abbr> transforma a análise em decisão
 
-### 1.5 Critérios de desempenho funcional
+A metodologia não termina quando alguém encontra uma ideia “mais barata”. O plano de trabalho ensinado pela <abbr title="Society of American Value Engineers">SAVE</abbr> International separa o raciocínio em fases para impedir dois atalhos ruins: gerar pouca alternativa e declarar benefício antes de implementá-lo.
 
-Função útil precisa ser mensurável. Exemplos:
+1. **Preparação:** delimitar problema, escopo, equipe, agenda, patrocínio e critérios.
+2. **Informação:** reunir requisitos, usuários, custos, riscos, restrições e dados; premissas sem evidência devem permanecer identificadas como premissas.
+3. **Análise de funções:** formular funções, medir desempenho e localizar oportunidades — inclusive relações custo/<abbr title="recurso que se justifica para cumprir a função">worth</abbr> que merecem estudo.
+4. **Criatividade:** gerar maneiras diferentes de cumprir as funções **antes** do julgamento detalhado. Criticar cada ideia no instante em que surge reduz artificialmente o espaço de solução.
+5. **Avaliação:** comparar alternativas por critérios técnicos, funcionais, econômicos, ambientais e de risco. Uma <abbr title="comparação de alternativas por critérios, pesos e notas">matriz ponderada</abbr> pode ajudar, mas pesos e notas precisam de justificativa.
+6. **Desenvolvimento:** transformar a ideia selecionada em proposta executável, com especificação, testes, custos, riscos, responsáveis e transição.
+7. **Apresentação:** mostrar alternativas examinadas, premissas, ganhos, custos, riscos e plano de implantação. A equipe recomenda; a autoridade competente decide.
+8. **Implementação:** executar e verificar o resultado contra a <abbr title="referência usada para comparar a situação antes e depois da mudança">linha de base</abbr>.
 
-| Função | Critério possível |
-| --- | --- |
-| restringir acesso | percentual de tentativas não autorizadas impedidas |
-| conservar documento | período e condições de preservação |
-| transportar carga | capacidade, tempo, integridade e segurança |
-| manter serviço | disponibilidade e tempo de recuperação |
-| reduzir consumo | energia ou insumo por unidade de resultado |
+Uma equipe multidisciplinar é útil porque o usuário conhece o uso, a manutenção conhece falhas, a logística conhece suprimento e destinação, a área técnica conhece desempenho e a gestão conhece restrições e riscos. Isso melhora a decisão; não transfere para a equipe a competência jurídica da autoridade.
 
-Uma alternativa de menor custo só melhora valor quando entrega o desempenho necessário e respeita as restrições aplicáveis.
+### 2.1 Economia estimada não é benefício realizado
 
-## 2. Funções antes de componentes
-
-### 2.1 Função básica e funções secundárias
-
-A análise começa pelo que a solução **deve fazer**, não pelo modelo já comprado. A função básica é a razão essencial para existir; funções secundárias apoiam, protegem, informam, facilitam ou complementam a básica.
-
-Exemplo de um armário de arquivo:
-
-| Elemento | Formulação funcional possível |
-| --- | --- |
-| função básica | guardar documentos |
-| fechadura | restringir acesso |
-| identificação externa | localizar conteúdo |
-| tratamento da chapa | resistir corrosão |
-| rodízios | permitir deslocamento |
-
-Nem toda função secundária é dispensável. Restringir acesso pode ser requisito essencial em determinado uso. O método apenas torna visível por que cada custo existe e abre espaço para outras formas de realizar a mesma função.
-
-### 2.2 Verbo e substantivo
-
-A <abbr title="Federal Highway Administration">FHWA</abbr> recomenda formular função com **verbo de ação + substantivo mensurável**, de modo geral e sem antecipar a solução. “Restringir acesso” deixa mais alternativas abertas do que “instalar fechadura da marca X”.
-
-Formulações excessivamente específicas congelam componentes, materiais ou fornecedores antes da análise. Formulações vagas, como “melhorar sistema”, também dificultam medir o resultado.
-
-### 2.3 FAST
-
-A **Function Analysis System Technique (FAST)** representa relações lógicas entre funções e explora perguntas como “como?” e “por quê?”. Ela ajuda a distinguir função básica, funções de suporte e sequência lógica de atendimento.
-
-FAST não é:
-
-- organograma;
-- lista de materiais;
-- fluxograma cronológico comum;
-- orçamento;
-- substituto de decisão técnica.
-
-É uma ferramenta possível da análise funcional. Não deve ser apresentada como obrigação geral da legislação brasileira.
-
-## 3. Job Plan da metodologia de valor
-
-A SAVE International apresenta oito fases. Outras referências agrupam preparação e encerramento de maneira diferente; o importante é preservar a sequência lógica e identificar a fonte adotada.
-
-| Fase | Pergunta e produto principal |
-| --- | --- |
-| preparação | o que será estudado, por quê, quando e por quem? |
-| informação | quais necessidades, requisitos, custos, restrições, riscos e dados existem? |
-| análise de função | o que a solução deve fazer e onde estão relações custo/importância desfavoráveis? |
-| criatividade | que outras maneiras podem realizar as funções? |
-| avaliação | quais ideias são viáveis diante de critérios técnicos, econômicos e de risco? |
-| desenvolvimento | como detalhar, testar, custear e implementar as melhores alternativas? |
-| apresentação | que recomendação fundamentada será submetida aos decisores? |
-| implementação | o que foi aprovado, executado e medido? |
-
-### 3.1 Preparação e informação
-
-O estudo precisa de escopo, patrocínio, equipe, critérios e dados comparáveis. São levantados:
-
-- necessidade do usuário e resultado esperado;
-- requisitos legais, técnicos, ambientais e de segurança;
-- demanda, capacidade e nível de serviço;
-- especificações, componentes e processos;
-- histórico de falhas, manutenção e indisponibilidade;
-- custos atuais e futuros;
-- restrições de prazo, integração e mercado;
-- riscos e partes interessadas.
-
-Ausência de dados não deve ser escondida. Premissas precisam ser identificadas e testadas no desenvolvimento.
-
-### 3.2 Análise de função e custo/importância
-
-Depois de formular as funções, a equipe relaciona custos às funções e procura oportunidades. Uma função cara pode ser indispensável; uma função barata pode ser inútil. A relação custo/importância serve para priorizar investigação, não para ordenar cortes automáticos.
-
-O princípio de Pareto pode ajudar a localizar elementos que concentram custos, mas não prova que eles devam ser eliminados.
-
-### 3.3 Criatividade sem julgamento prematuro
-
-Na fase criativa, ideias são geradas antes de serem criticadas. Misturar geração e julgamento reduz a variedade e faz a solução atual parecer inevitável.
-
-Alternativas podem envolver:
-
-- simplificar requisito sem utilidade comprovada;
-- padronizar componentes;
-- substituir material ou processo;
-- eliminar etapa que não agrega função;
-- combinar componentes;
-- reparar, reutilizar ou compartilhar;
-- alterar embalagem, logística ou manutenção;
-- produzir internamente, comprar ou contratar;
-- redesenhar para eficiência energética, durabilidade ou reparabilidade.
-
-### 3.4 Avaliação e desenvolvimento
-
-As ideias passam por critérios definidos: atendimento funcional, qualidade, segurança, confiabilidade, compatibilidade, impacto ambiental, prazo, capacidade do mercado, risco e custo de ciclo de vida.
-
-Uma matriz ponderada pode apoiar a comparação, desde que pesos e notas sejam justificados. A alternativa escolhida deve ser desenvolvida com especificação, cálculos, testes, custos, riscos, responsáveis e plano de implementação.
-
-### 3.5 Apresentação, decisão e implementação
-
-A equipe recomenda; a autoridade competente decide. O relatório registra dados, alternativas rejeitadas, premissas, benefícios, custos e riscos. Economias não devem ser duplicadas nem apresentadas como realizadas antes da implementação.
-
-Depois da decisão, o órgão deve acompanhar:
-
-- implementação efetiva;
-- atendimento das funções e requisitos;
-- custo real e economia realizada;
-- efeitos inesperados;
-- lições aplicáveis a especificações e aquisições futuras.
-
-
-### 3.6 Benefício previsto, aprovado e realizado
-
-| Estágio | Significado |
-| --- | --- |
-| oportunidade | possibilidade ainda não desenvolvida |
-| benefício estimado | cálculo preliminar sujeito a premissas |
-| recomendação aprovada | decisão formal da autoridade |
-| solução implementada | mudança efetivamente executada |
-| benefício realizado | resultado medido contra linha de base |
-| benefício líquido | resultado menos implantação, transição e efeitos adversos |
-
-Devem ser separados:
-
-- redução efetiva de despesa;
-- custo evitado;
-- postergação;
-- transferência de custo para outra unidade;
-- ganho de tempo, qualidade ou disponibilidade;
-- benefício ambiental não monetizado.
-
-A mesma economia não pode ser contabilizada em mais de uma iniciativa. A linha de base, o período de medição e os custos de implantação precisam ser documentados.
-
-### 3.7 Governança das recomendações
-
-A equipe técnica recomenda; a autoridade competente decide. A governança deve registrar:
-
-1. escopo e patrocinador;
-2. funções e requisitos não negociáveis;
-3. premissas e fontes;
-4. alternativas rejeitadas e motivo;
-5. riscos residuais;
-6. responsável por implementar;
-7. data de verificação;
-8. resultado efetivo e lições aprendidas.
-
-## 4. Custo do ciclo de vida
-
-Uma comparação de valor considera os custos relevantes durante o período de uso:
+Considere a sequência:
 
 $$
-\text{custo do ciclo} =
-\text{aquisição} + \text{implantação} + \text{operação} + \text{manutenção}
-+ \text{indisponibilidade} + \text{destinação} - \text{valor residual}
+\text{oportunidade}\rightarrow\text{estimativa}\rightarrow\text{aprovação}\rightarrow
+\text{implementação}\rightarrow\text{medição}
 $$
 
-A fórmula deve ser ajustada ao caso e, quando os períodos forem longos, pode exigir valor do dinheiro no tempo. Também podem importar treinamento, consumíveis, licenças, inspeções, estoque de peças, transporte, riscos e externalidades mensuráveis.
+Uma recomendação que promete economizar R$ 100 mil ainda não gerou R$ 100 mil de resultado. Depois da implantação, é preciso medir desempenho, custo real e efeitos inesperados contra uma <abbr title="referência usada para comparar a situação antes e depois da mudança">linha de base</abbr> definida.
 
-Exemplo: equipamento A custa R$ 10.000 e consome R$ 4.000 por ano durante cinco anos; equipamento B custa R$ 15.000 e consome R$ 2.000 por ano. Desconsiderando outros custos e valor do dinheiro no tempo:
+Também convém separar tipos de benefício:
 
-$$
-C_A = 10.000 + 5 \times 4.000 = 30.000
-$$
+- **redução efetiva de despesa:** recurso que deixa de ser consumido na linha de base comparável;
+- **custo evitado:** gasto futuro que não ocorrerá; não é automaticamente corte orçamentário já realizado;
+- **postergação:** desembolso deslocado no tempo, não necessariamente eliminado;
+- **transferência de custo:** despesa apenas muda de unidade ou agente; não é economia institucional se o total não diminuir;
+- **ganho operacional ou ambiental:** pode melhorar valor mesmo sem conversão imediata em dinheiro, desde que seja mensurável e relevante.
 
-$$
-C_B = 15.000 + 5 \times 2.000 = 25.000
-$$
+Se duas iniciativas reivindicam a mesma economia, o benefício precisa ser atribuído sem dupla contagem.
 
-B tem maior preço inicial, mas menor custo no período. A decisão ainda precisa verificar se ambos atendem às mesmas funções, capacidade, qualidade e riscos.
+## 3. O custo do ciclo pode inverter a escolha
 
-**Análise do custo do ciclo de vida é ferramenta; não é sinônimo de metodologia de valor.** Um estudo de valor também formula funções, gera alternativas e desenvolve a implementação.
-
-
-### 4.1 Valor presente e cenários
-
-Quando custos e benefícios ocorrem em períodos diferentes, pode-se usar valor presente:
+Para alternativas funcionalmente equivalentes, uma leitura simplificada do custo do ciclo é:
 
 $$
-VP=C_0+\sum_{t=1}^{n}\frac{C_t}{(1+i)^t}
--\frac{VR_n}{(1+i)^n}
+C_{ciclo}=C_{aquisição}+C_{implantação}+C_{operação}+C_{manutenção}
++C_{indisponibilidade}+C_{destinação}-VR
 $$
 
-Em que:
-
-- \(C_0\) é o custo inicial;
-- \(C_t\) são custos futuros;
-- \(i\) é a taxa de desconto adotada;
-- \(VR_n\) é o valor residual;
-- \(n\) é o horizonte.
-
-A taxa, a data-base e o tratamento da inflação precisam ser coerentes. Também convém testar:
-
-- vida útil;
-- preço de energia e insumos;
-- frequência de falhas;
-- custo da indisponibilidade;
-- valor residual;
-- prazo de implantação;
-- obsolescência;
-- cenários otimista, provável e pessimista.
-
-Uma diferença pequena e sensível às premissas não deve ser apresentada como certeza.
-
-### 4.2 Custos de transição
-
-Mudança de solução pode gerar treinamento, migração, integração, paralisação, rescisão, adaptação física, estoque remanescente e curva de aprendizagem. O custo de transição pertence à comparação quando for consequência da alternativa.
-
-## 5. Aplicações em materiais e patrimônio
-
-### 5.1 Especificação e padronização
-
-A equipe pergunta se tolerâncias, acabamentos, dimensões, acessórios e níveis de desempenho contribuem para funções requeridas. Requisito excessivo pode restringir competição e elevar compra, estoque e manutenção. Requisito insuficiente pode provocar falhas e reposições.
-
-Padronização pode reduzir variedade, peças, treinamento e tempo de manutenção. Não é boa quando elimina compatibilidade ou função necessária a uma unidade específica.
-
-### 5.2 Substituição e decisão de fazer ou comprar
-
-Material ou método alternativo exige validação técnica. Equivalência não se prova apenas por descrição comercial ou preço unitário.
-
-Na decisão entre produzir, comprar ou contratar, consideram-se capacidade, escala, qualidade, propriedade intelectual, prazo, inspeção, logística, continuidade de fornecimento, estoque, manutenção e custo global. Não existe resposta universal.
-
-### 5.3 Reparo, modernização e substituição
-
-Para bem em uso, compare:
-
-- desempenho após o reparo;
-- vida útil adicional;
-- probabilidade de nova falha;
-- disponibilidade de peças e suporte;
-- consumo de energia e insumos;
-- custo e tempo de indisponibilidade;
-- valor e risco da substituição;
-- destinação do bem retirado.
-
-Percentual fixo de custo pode existir em norma específica, mas não substitui a análise aplicável. No Decreto federal nº 12.785/2025, por exemplo, o limite de 50% do valor de mercado participa da classificação entre recuperável e irrecuperável, juntamente com a análise de custo e benefício. Essa regra pertence ao âmbito do decreto.
-
-## 6. Do uso à destinação
-
-### 6.1 Conceitos que não são sinônimos
-
-| Ato | Efeito principal |
-| --- | --- |
-| reaproveitamento/redistribuição | mantém o bem no acervo útil, mudando seu emprego ou localização |
-| cessão | transfere posse/uso ou responsabilidade nos limites do regime aplicável; não significa necessariamente propriedade |
-| transferência | muda unidade, órgão ou titularidade conforme a norma aplicável |
-| alienação | transfere o direito de propriedade por venda, doação, permuta ou outra hipótese legal |
-| descarte | encaminha bem equiparado a resíduo ou rejeito para destinação/disposição adequada |
-| baixa patrimonial | registra a desincorporação do acervo após fato e autorização que a sustentem |
-| descarga na IN nº 205/1988 | transfere responsabilidade pela guarda; não é sinônimo necessário de baixa |
-
-Alienação pode provocar baixa, mas **baixa não é modalidade de alienação**. A exclusão no sistema não transfere propriedade, não regulariza entrega e não comprova destinação ambiental.
-
-### 6.2 Inservível para uma unidade não significa inútil
-
-Um bem pode estar sem uso em uma unidade e ainda atender outra. Antes de vender ou descartar, o processo deve examinar reaproveitamento, recuperação, cessão, transferência e outras soluções juridicamente disponíveis.
-
-Também não se deve confundir:
-
-- **obsoleto tecnicamente** com fisicamente destruído;
-- **depreciado contabilmente** com sem utilidade;
-- **sem uso previsto** com sem valor de mercado;
-- **irrecuperável** com autorização automática para abandono.
-
-
-### 6.3 Desfazimento é processo, não modalidade única
-
-```text
-desfazimento
-├─ reaproveitamento ou redistribuição
-├─ cessão
-├─ transferência
-├─ permuta
-├─ doação
-├─ venda ou leilão
-├─ reciclagem ou recuperação de materiais
-├─ destruição regular
-└─ disposição final de rejeitos
-```
-
-A expressão reúne alternativas possíveis. Ela não transfere propriedade por si só.
-
-### 6.4 Fatos diferentes que podem levar à baixa
-
-A baixa pode decorrer de alienação, destruição regular, perecimento, perda apurada, furto, extravio, incorporação a outro ativo ou outra desincorporação válida. Por isso:
-
-- **alienação** é ato jurídico de transferência de propriedade;
-- **entrega a reciclador** é evento físico e ambiental;
-- **baixa patrimonial** é registro administrativo;
-- **desreconhecimento contábil** é efeito contábil;
-- **apuração de responsabilidade** é processo próprio.
-
-Esses eventos devem ser relacionados, mas não confundidos.
-
-### 6.5 Regimes especiais
-
-Antes de aplicar o fluxo geral, verifique disciplina própria para:
-
-- veículos;
-- armas e munições;
-- bens culturais, históricos ou artísticos;
-- medicamentos e produtos sujeitos a vigilância sanitária;
-- materiais perigosos;
-- bens de terceiros ou locados;
-- licenças de software;
-- ativos com ônus;
-- bens vinculados a convênio;
-- equipamentos com dados ou credenciais;
-- bens submetidos a controle ambiental ou setorial.
-
-## 7. Natureza e alienabilidade do bem público
-
-O Código Civil classifica os bens públicos em:
-
-| Categoria | Exemplo | Regra de alienabilidade |
-| --- | --- | --- |
-| uso comum do povo | ruas e praças | inalienável enquanto conservar a qualificação |
-| uso especial | edifício destinado a serviço público | inalienável enquanto conservar a qualificação |
-| dominical | patrimônio disponível da pessoa jurídica pública | pode ser alienado conforme as exigências legais |
-
-Bem dominical continua sendo público. Bem de uso comum ou especial não se torna alienável apenas porque está ocioso, deteriorado ou lançado em inventário. A retirada de sua destinação pública, quando juridicamente cabível, depende do regime e do ato competente; não pode ser presumida pelo setor patrimonial.
-
-O Código Civil considera públicos os bens pertencentes às pessoas jurídicas de direito público interno, veda a usucapião de bens públicos e admite que o uso comum seja gratuito ou retribuído conforme a disciplina legal do ente. Essas regras não substituem os requisitos específicos de alienação.
-
-
-## 7.1 Matriz de fontes e âmbitos
-
-| Fonte | Função | Alcance |
-| --- | --- | --- |
-| Código Civil | natureza e alienabilidade dos bens públicos | regime civil geral |
-| Lei nº 14.133/2021 | requisitos gerais, leilão e hipóteses de dispensa | normas gerais de licitações e contratos |
-| Decreto nº 11.461/2023 | procedimento eletrônico de leilão | Executivo federal direto, autárquico e fundacional |
-| Decreto nº 12.785/2025 | circularidade e destinação de móveis | Administração federal direta, autárquica e fundacional |
-| IN SEDAP nº 205/1988 | conceitos e controles do <abbr title="Sistema de Serviços Gerais">SISG</abbr> | SISG federal, conforme compatibilidade |
-| norma interna competente | comissão, alçadas, formulários e sistemas | ente, poder ou órgão que a editou |
-
-Uma norma federal operacional pode servir de referência, mas não se transforma automaticamente em regulamento interno do TCE-MA.
-
-## 8. Regime geral da Lei nº 14.133/2021
-
-### 8.1 Requisitos comuns
-
-O art. 76 subordina a alienação de bens da Administração Pública a:
-
-1. existência de interesse público devidamente justificado;
-2. avaliação prévia;
-3. competência e formalização;
-4. leilão, como regra, ou enquadramento estrito em hipótese legal de dispensa;
-5. requisitos adicionais conforme a natureza móvel ou imóvel.
-
-Dispensa de licitação não é dispensa de processo, avaliação ou motivação.
-
-### 8.2 Bens móveis
-
-Para bens móveis, a regra é licitação na modalidade **leilão**. O art. 76, II, dispensa a licitação nas seguintes hipóteses:
-
-- doação exclusivamente para fins e uso de interesse social, após avaliar oportunidade e conveniência socioeconômica em comparação com outra alienação;
-- permuta exclusivamente entre órgãos ou entidades da Administração Pública;
-- venda de ações, que poderão ser negociadas em bolsa, observada a legislação específica;
-- venda de títulos, observada a legislação pertinente;
-- venda de bens produzidos ou comercializados por entidades públicas em razão de suas finalidades;
-- venda de materiais e equipamentos sem utilização previsível por quem os possui para outros órgãos ou entidades da Administração Pública.
-
-A lista não autoriza criar uma dispensa por analogia. A doação não se justifica apenas por ser gratuita ou conveniente ao recebedor: o interesse social, a comparação socioeconômica e a finalidade de uso precisam aparecer no processo.
-
-### 8.3 Bens imóveis
-
-Para imóvel, a regra reúne interesse público, avaliação, **autorização legislativa** e leilão. O art. 76, I, contém hipóteses específicas de dispensa, como dação em pagamento, determinadas doações, permuta, investidura, venda a outro órgão ou entidade e situações de regularização fundiária.
-
-Imóvel adquirido em procedimento judicial ou por dação em pagamento dispensa autorização legislativa, mas exige avaliação prévia e leilão, conforme o § 1º.
-
-As hipóteses imobiliárias possuem condições próprias e não devem ser transportadas para bens móveis. Aprofundamento da gestão imobiliária pertence ao Assunto 116.
-
-### 8.4 Doação com encargo
-
-Pelo art. 76, § 6º, a doação com encargo será licitada e seu instrumento conterá encargos, prazo de cumprimento e cláusula de reversão, sob pena de nulidade. A licitação pode ser dispensada em caso de interesse público devidamente justificado.
-
-O encargo precisa ser verificável. Sem monitoramento, a Administração não sabe se a finalidade que sustentou a doação foi cumprida nem se deve aplicar a reversão.
-
-
-### 8.5 Hipóteses de dispensa não se ampliam por analogia
-
-A alienação de bem móvel sem leilão exige enquadramento literal na hipótese legal e motivação. Conveniência administrativa, urgência interna ou baixo valor não criam, por si, nova hipótese de dispensa.
-
-### 8.6 Doação: interesse social e monitoramento
-
-A instrução deve demonstrar:
-
-- fins e uso de interesse social;
-- comparação socioeconômica com outras alternativas;
-- capacidade e regularidade do recebedor;
-- descrição e avaliação dos bens;
-- competência e autorização;
-- termo de entrega;
-- encargos, prazo e reversão, quando houver;
-- acompanhamento da finalidade.
-
-A gratuidade não elimina custo logístico, risco, dever de guarda nem necessidade de prestação de contas.
-
-## 9. Leilão
-
-Leilão é a modalidade para alienar bens imóveis ou bens móveis inservíveis ou legalmente apreendidos a quem oferecer o **maior lance**. Não se usa menor preço.
-
-Segundo os arts. 31 e 76 da Lei nº 14.133/2021:
-
-- o leilão pode ser conduzido por leiloeiro oficial ou servidor designado;
-- o edital descreve o bem, avaliação, preço mínimo, pagamento e eventual comissão;
-- para móveis, indica onde estão os bens;
-- informa sítio e período do leilão, ou local, dia e hora na excepcional forma presencial;
-- revela ônus, gravames e pendências;
-- deve ser divulgado em sítio eletrônico oficial e afixado na sede, com outros meios quando necessários;
-- não exige cadastro prévio nem possui fase de habilitação;
-- a homologação ocorre após lances, fase recursal e pagamento do vencedor.
-
-Preço mínimo protege o patrimônio público. Lance abaixo dele não se torna vencedor apenas por ser o maior apresentado. Regulamentos operacionais do Poder Executivo federal não são automaticamente regras internas de outros poderes ou entes.
-
-
-### 9.1 Escolha do condutor
-
-A Lei nº 14.133/2021 permite servidor designado ou leiloeiro oficial. A decisão deve considerar capacidade interna, complexidade, conhecimento específico, custo procedimental, publicidade e competitividade.
-
-Quando a Administração escolher leiloeiro oficial, sua seleção observará o art. 31, § 1º, da Lei nº 14.133/2021, por credenciamento ou pregão. O Decreto nº 11.461/2023 disciplina o procedimento do Executivo federal e não vincula automaticamente o TCE-MA.
-
-Servidor designado não recebe comissão de leiloeiro. O edital deve deixar claro quem paga eventual comissão e como ela foi fixada segundo a norma aplicável.
-
-### 9.2 Leilão sem êxito e negociação
-
-Se não houver proposta válida ou o maior lance ficar abaixo do mínimo, a Administração não deve reduzir o preço automaticamente. Deve reexaminar:
-
-1. avaliação e data-base;
-2. estado e descrição;
-3. composição dos lotes;
-4. publicidade;
-5. custos e restrições de retirada;
-6. localização;
-7. demanda de reaproveitamento;
-8. alternativa jurídica seguinte.
-
-No modelo federal eletrônico, a negociação não autoriza concluir a alienação abaixo do valor mínimo final admitido.
-
-## 10. Referência federal de circularidade
-
-O Decreto nº 12.785/2025 aplica-se à Administração Pública **federal direta, autárquica e fundacional**, com exclusões expressas. Sua classificação ajuda a compreender o ciclo:
-
-| Classe | Conceito federal resumido |
-| --- | --- |
-| uso regular | utilizável, vantajoso e em uso ou com uso previsto |
-| ocioso | utilizável e vantajoso, mas não aproveitado pelo detentor |
-| recuperável | fora de uso, com recuperação até 50% do valor de mercado ou custo-benefício justificável |
-| antieconômico | utilizável, mas oneroso ou de baixo rendimento por custos, desgaste, ineficiência ou obsolescência |
-| irrecuperável | sem aptidão para o fim, recuperação acima de 50% do mercado ou custo-benefício injustificável |
-
-O decreto considera inservíveis os bens ociosos, recuperáveis, antieconômicos e irrecuperáveis. Portanto, “inservível” não significa necessariamente quebrado.
-
-### 10.1 Ordem e alternativas no modelo federal
-
-No regime do decreto:
-
-- ocioso ou recuperável pode ser cedido temporariamente;
-- ocioso ou recuperável pode ser transferido permanentemente;
-- ausência de interessado em cessão ou transferência permite encaminhamento ao leilão;
-- doação exige fins e uso de interesse social e comparação socioeconômica;
-- permuta alcança, em regra, ocioso ou recuperável e pode excepcionalmente alcançar uso regular se houver vantagem;
-- antieconômico ou irrecuperável pode ser equiparado a resíduo ou rejeito quando alienação for impossível ou inviável.
-
-A classificação e a avaliação cabem a comissão instituída pela autoridade competente, com no mínimo três membros nos termos do art. 19. Bens disponíveis para cessão, transferência, doação e permuta devem ser divulgados no sistema federal indicado pelo decreto.
-
-Esses detalhes são referência federal e só vinculam o TCE-MA se houver base normativa competente para sua recepção ou aplicação.
-
-### 10.2 IN SEDAP nº 205/1988
-
-No SISG federal, a IN nº 205/1988 define:
-
-- cessão como movimentação gratuita de posse e responsabilidade entre órgãos da Administração Federal direta;
-- alienação como transferência da propriedade por venda, permuta ou doação;
-- saneamento como simplificação, reutilização, recuperação, movimentação e alienação dos antieconômicos ou irrecuperáveis;
-- descarga como transferência da responsabilidade pela guarda, em processo regular e documentado.
-
-O Decreto nº 12.785/2025 revogou os Decretos nº 9.373/2018 e nº 10.340/2020, não a IN nº 205/1988 de modo expresso. Trechos incompatíveis de referência anterior não prevalecem sobre norma posterior e superior.
-
-
-### 10.3 Elementos adicionais do Decreto nº 12.785/2025
-
-No âmbito federal, devem ser observados, conforme o caso:
-
-- exclusões do decreto e bens sujeitos a disciplina especial;
-- preferência da transferência interna sobre a externa;
-- excepcionalidade da cessão ou transferência de bem de uso regular;
-- destinatários legalmente admitidos para doação;
-- divulgação no sistema indicado;
-- apoio técnico à comissão sob sua supervisão;
-- custos logísticos e responsabilidade do recebedor segundo a decisão aplicável;
-- prioridade dos eletroeletrônicos para a política federal de inclusão digital;
-- encaminhamento de resíduos conforme <abbr title="Plano de Gerenciamento de Resíduos Sólidos">PGRS</abbr> ou instrumento exigido;
-- operadores de resíduos perigosos habilitados e cadastrados.
-
-Esses elementos são referência federal e exigem verificação do âmbito antes de serem aplicados a outro ente ou poder.
-
-## 11. Avaliação para decidir e alienar
-
-A avaliação prévia deve ser compatível com o bem, o mercado e a finalidade. O valor contábil líquido é dado relevante, mas não é automaticamente valor de mercado nem preço mínimo.
-
-O laudo ou documento equivalente deve permitir compreender:
-
-- identificação, tombamento, quantidade e localização;
-- estado, idade, uso, manutenção e componentes;
-- titularidade, ônus e restrições;
-- metodologia, fontes, data-base e responsável;
-- mercado comparável e ajustes de conservação;
-- custos de remoção, transporte, reparo ou descaracterização;
-- valor residual, sucata ou partes aproveitáveis;
-- conclusão e limitações.
-
-Lotes podem reduzir custo do procedimento, mas não devem misturar bens de modo a ocultar item valioso, afastar interessados ou inviabilizar rastreabilidade.
-
-Avaliação não decide sozinha a destinação. O processo compara benefício público, custo, risco, demanda de outros órgãos, impacto socioambiental e possibilidade jurídica.
-
-
-### 11.1 Abordagens de avaliação
-
-| Abordagem | Aplicação possível |
-| --- | --- |
-| comparação de mercado | bens com transações comparáveis |
-| custo de reposição depreciado | bem sem mercado ativo, ajustado por desgaste e obsolescência |
-| renda ou benefício econômico | situação específica com fluxos mensuráveis |
-| valor de liquidação | venda nas condições e no prazo próprios de liquidação |
-| sucata ou partes | bem sem utilidade integral, mas com materiais ou componentes aproveitáveis |
-
-O avaliador deve documentar condição, data-base, fontes, ajustes, custos de remoção, restrições, incerteza e validade temporal da conclusão.
-
-### 11.2 Formação de lotes
-
-| Problema | Risco |
-| --- | --- |
-| lote excessivamente heterogêneo | afasta interessados especializados |
-| lote grande demais | reduz competição |
-| item valioso misturado a sucata | oculta valor |
-| fragmentação artificial | aumenta custo e pode favorecer destinatário |
-| identificação insuficiente | rompe rastreabilidade |
-
-A formação deve considerar homogeneidade, valor, localização, retirada, mercado, custo administrativo e possibilidade de inspeção.
-
-### 11.3 Avaliação desatualizada
-
-Mudanças relevantes de mercado, condição, composição do lote ou custos de retirada podem exigir nova avaliação ou atualização fundamentada. Reduzir o mínimo sem nova evidência fragiliza a proteção patrimonial.
-
-## 12. Fluxo controlado de desfazimento
-
-Um fluxo geral, ajustável à norma do ente, é:
-
-1. **identificar:** bem, titularidade, localização, responsável, condição e dados associados;
-2. **recolher e segregar:** impedir uso ou retirada informal e preservar componentes;
-3. **sanear divergências:** conciliar inventário, sistema, contabilidade e documentos;
-4. **classificar:** verificar utilidade, recuperação, obsolescência, risco e restrições;
-5. **avaliar:** estimar valores e custos com metodologia documentada;
-6. **comparar alternativas:** reaproveitar, reparar, ceder, transferir, permutar, doar, leiloar ou descartar;
-7. **motivar e autorizar:** demonstrar interesse público e obter decisões competentes;
-8. **dar publicidade e selecionar:** quando a modalidade exigir;
-9. **preparar o bem:** remover dados, marcas, materiais perigosos e acessórios conforme o caso;
-10. **formalizar a entrega:** termo, recibo, pagamento, identificação do destinatário e transferência de responsabilidade;
-11. **comprovar a destinação:** inclusive certificado ou evidência ambiental quando aplicável;
-12. **baixar e contabilizar:** somente com suporte no evento efetivo;
-13. **arquivar e monitorar:** preservar trilha, encargos, reversões, resultados e indicadores.
-
-Enquanto o destinatário não recebe e assume a responsabilidade conforme o ato, o órgão mantém deveres de guarda. Retirar a etiqueta patrimonial antes do momento adequado não elimina essa responsabilidade.
-
-### 12.1 Segregação de funções
-
-É arriscado uma pessoa identificar o bem, avaliá-lo, autorizar a alienação, conduzir o leilão, confirmar pagamento e efetuar a baixa sem revisão. Comissões e aprovações não garantem controle por si sós, mas permitem combinar competências e reduzir conflito de interesses.
-
-Em equipe pequena, controles compensatórios incluem revisão da avaliação, autorização em nível distinto, conciliação posterior e divulgação ampla.
-
-
-### 12.2 Cadeia de custódia da entrega
-
-O termo deve permitir reconstruir:
-
-- quais bens e componentes saíram;
-- em que condição;
-- quem autorizou;
-- quem entregou e recebeu;
-- quando ocorreu;
-- qual pagamento ou encargo existia;
-- qual veículo ou transportador foi usado;
-- qual documento ambiental ou de sanitização se relaciona ao item;
-- quando a baixa foi realizada.
-
-Fotografia genérica ou planilha sem vínculo com o patrimônio não substitui a cadeia de evidências.
-
-## 13. Resíduos, eletroeletrônicos e dados
-
-### 13.1 Destinação não é disposição
-
-A Lei nº 12.305/2010 distingue:
-
-- **destinação final ambientalmente adequada:** inclui reutilização, reciclagem, compostagem, recuperação, aproveitamento energético e outras soluções admitidas;
-- **disposição final ambientalmente adequada:** distribuição ordenada de **rejeitos** em aterros com controles próprios.
-
-A ordem de prioridade do art. 9º é:
+em que $VR$ é o valor residual ao final do horizonte. Quando os fluxos ocorrem em momentos diferentes e o efeito financeiro é relevante, compare-os em uma mesma <abbr title="momento de referência usado para comparar valores">data-base</abbr>:
 
 $$
-\text{não geração} \rightarrow \text{redução} \rightarrow \text{reutilização}
-\rightarrow \text{reciclagem} \rightarrow \text{tratamento}
-\rightarrow \text{disposição dos rejeitos}
+VP=C_0+\sum_{t=1}^{n}\frac{C_t}{(1+i)^t}-\frac{VR_n}{(1+i)^n}
 $$
 
-Contratar transportador ou destinador não elimina a responsabilidade legal por dano decorrente de gerenciamento inadequado nos casos abrangidos pela <abbr title="Política Nacional de Resíduos Sólidos">PNRS</abbr>. Devem ser verificados habilitação, licenças, cadeia de custódia e comprovantes.
+Aqui, $VP$ é o valor presente do custo; $C_0$, o custo inicial; $C_t$, os custos no período $t$; $i$, a taxa de desconto; $n$, o horizonte; e $VR_n$, o valor residual no final. Taxa, horizonte, vida útil e data-base precisam ser coerentes.
 
-### 13.2 Eletroeletrônicos governamentais
+**Exemplo hipotético.** Sem desconto e sem outros custos, A custa R$ 10 mil e consome R$ 4 mil por ano durante cinco anos: R$ 30 mil. B custa R$ 15 mil e consome R$ 2 mil por ano: R$ 25 mil. B é mais caro na compra, mas mais barato no período. A conclusão ainda depende de as duas alternativas atenderem às mesmas funções e riscos.
 
-Produtos eletroeletrônicos e componentes aparecem na logística reversa da PNRS. Entretanto, o Decreto nº 10.240/2020 estrutura o sistema obrigatório para **uso doméstico** e exclui do seu objeto o uso não doméstico, como governamental e corporativo. Para essas hipóteses, o art. 6º admite disciplina contratual e exige que a destinação conste do plano de gerenciamento aplicável.
+A análise deve testar premissas que possam mudar a decisão: vida útil, falhas, energia, manutenção, indisponibilidade, valor residual e taxa de desconto. Cenários otimista, provável e pessimista e análise de sensibilidade mostram se uma vantagem é robusta ou desaparece com pequena mudança de premissa.
 
-Logo, não se deve enviar automaticamente equipamento público a ponto doméstico de coleta nem afirmar que todo o decreto se aplica ao órgão.
+Na troca de tecnologia, considere também custos de transição: treinamento, migração, integração, adaptação, paralisação e estoque remanescente que se tornará incompatível. Ignorar esses efeitos cria “economia” apenas no papel.
 
-No modelo federal do Decreto nº 12.785/2025, eletroeletrônicos inservíveis observam o Programa Computadores para Inclusão antes de outras formas, conforme o art. 12.
+## 4. Quando o problema deixa de ser melhorar e passa a ser destinar
 
-### 13.3 Proteção da informação
+Um computador sem uso na sala atual pode ainda ser útil em outra unidade. Um veículo caro de manter pode justificar substituição. Um equipamento irrecuperável pode virar fonte de peças ou resíduo. Antes de falar em alienação, é preciso distinguir os atos possíveis.
 
-Computadores, celulares, impressoras, copiadoras, discos e outros dispositivos podem conter:
+- **reaproveitamento:** preserva a utilidade do bem no acervo;
+- **cessão:** pode transferir posse, uso ou responsabilidade sem transferir necessariamente a propriedade, conforme o regime aplicável;
+- **transferência:** muda a vinculação do bem de modo definido pela norma aplicável e pode envolver propriedade;
+- **alienação:** transfere o direito de propriedade;
+- **desfazimento:** expressão mais ampla para o processo de retirada do acervo ou de encaminhamento a outro destino; não é sinônimo de uma única modalidade jurídica;
+- **baixa patrimonial:** registra uma <abbr title="retirada do bem do patrimônio registrado">desincorporação</abbr> fundada em fato válido; não transfere, sozinha, a propriedade;
+- **descarga**, na <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988, é a transferência da responsabilidade pela guarda do material.
 
-- dados pessoais e funcionais;
-- credenciais e certificados;
-- documentos, registros de impressão e configurações;
-- informações sigilosas ou estratégicas;
-- software licenciado.
+Essa distinção explica uma pegadinha recorrente: **um bem totalmente depreciado pode continuar útil, e um bem com valor contábil pode tornar-se antieconômico ou irrecuperável**. Contabilidade, condição física, utilidade e valor de mercado respondem a perguntas diferentes.
 
-Antes de reutilizar, transferir, doar, vender, reciclar ou descartar, o órgão deve identificar mídias e aplicar método de sanitização ou destruição compatível com a sensibilidade, a tecnologia e a política de segurança. Excluir arquivos ou restaurar configurações não prova, por si só, irrecuperabilidade.
+### 4.1 A natureza do bem público limita a alienação
 
-O registro deve ligar ativo, mídia, método, executor, data, verificação e destino. Proteção de dados e destinação física são partes do mesmo processo, embora tenham responsáveis técnicos distintos.
+Pelo Código Civil, bens públicos são de uso comum do povo, de uso especial ou dominicais. Os de uso comum e os de uso especial são inalienáveis enquanto conservarem essa qualificação. Os dominicais podem ser alienados observadas as exigências legais.
 
+Logo, ociosidade **não <abbr title="retira a destinação pública específica do bem">desafeta</abbr> automaticamente** um bem de uso especial, e bem dominical continua público até a alienação regular.
 
-### 13.4 Rastreabilidade ambiental
+## 5. Lei nº 14.133/2021: primeiro vêm interesse público e avaliação
 
-Conforme o tipo de resíduo e a regulamentação aplicável, a instrução pode exigir:
+O <abbr title="artigo">art.</abbr> 76 estabelece a porta de entrada: a alienação de bens da Administração Pública deve estar subordinada a **interesse público devidamente justificado** e ser **precedida de avaliação**. Depois, o rito varia conforme o bem e a hipótese legal.
 
-- PGRS ou instrumento equivalente;
-- classificação e quantidade;
-- transportador autorizado;
-- Manifesto de Transporte de Resíduos;
-- destinador habilitado;
-- certificado de destinação;
-- cadastro de operadores de resíduos perigosos;
-- conciliação entre quantidade retirada e comprovada.
+### 5.1 Bens móveis: leilão é a regra; dispensa é literal
 
-A simples contratação de empresa não transfere integralmente o dever de diligência do gerador.
+Para bens móveis, a licitação ocorre, em regra, por **leilão**. O próprio <abbr title="artigo">art.</abbr> 76, II, enumera seis hipóteses de dispensa:
 
-### 13.5 Níveis de sanitização
+1. **doação**, exclusivamente para fins e uso de interesse social, após avaliação de oportunidade e conveniência socioeconômica em relação a outra forma de alienação;
+2. **permuta**, exclusivamente entre órgãos ou entidades da Administração Pública;
+3. venda de **ações**, observada a legislação específica;
+4. venda de **títulos**, observada a legislação pertinente;
+5. venda de bens **produzidos ou comercializados** por entidades da Administração em virtude de suas finalidades;
+6. venda de **materiais e equipamentos sem utilização previsível** por quem deles dispõe para outros órgãos ou entidades da Administração Pública.
 
-| Nível | Aplicação |
-| --- | --- |
-| limpeza lógica | mídia continuará reutilizável e o risco admite técnica de sobrescrita ou equivalente |
-| purga | proteção mais forte contra recuperação, preservando eventualmente a mídia |
-| destruição | reutilização é inviável ou o risco exige inutilização física |
+Dispensa da licitação não significa dispensa de processo, interesse público ou avaliação. E a lista não deve ser ampliada por analogia.
 
-A escolha depende do tipo de mídia, sensibilidade, destinatário, capacidade de verificação e necessidade de preservar evidência. O registro liga ativo, mídia, método, executor, verificador, data e destino.
+### 5.2 Imóveis: o suficiente para não errar a fronteira
 
-## 14. Baixa e prestação de contas
+Na regra geral do <abbr title="artigo">art.</abbr> 76, I, a alienação de imóvel exige autorização legislativa, avaliação prévia e leilão, salvo as hipóteses legais de dispensa. **Dação em pagamento** é uma dessas hipóteses de dispensa de licitação para alienar imóvel. Não confunda isso com o § 1º: se o imóvel que a Administração agora pretende alienar **foi adquirido** em procedimento judicial ou por dação em pagamento, dispensa-se a autorização legislativa, mas permanecem avaliação prévia e leilão.
 
-A baixa deve refletir um fato autorizado e comprovado, como alienação concluída, destruição regular, perda apurada ou outra desincorporação válida. Ela não deve anteceder a entrega apenas para “limpar” o cadastro.
+Uma hipótese que aparece literalmente em prova é a **investidura**. Para a Lei nº 14.133/2021, ela compreende:
 
-Trilha mínima:
+- alienação ao proprietário de imóvel lindeiro de área remanescente ou resultante de obra pública que se tornou inaproveitável isoladamente, por preço não inferior ao da avaliação nem superior a 50% do valor máximo permitido para dispensa de licitação de bens e serviços;
+- alienação ao legítimo possuidor direto ou, na falta dele, ao poder público, de imóvel residencial construído em núcleo urbano anexo a usina hidrelétrica, desde que dispensável na operação e não reversível ao final da concessão.
+
+Na **doação com encargo**, o § 6º exige que o instrumento contenha encargos, prazo de cumprimento e cláusula de reversão, sob pena de nulidade. A licitação pode ser dispensada quando houver interesse público devidamente justificado.
+
+## 6. Leilão: avaliação protege o piso; competição busca o maior lance
+
+O leilão é modalidade para alienar bens nas hipóteses legais e adota o critério de **maior lance**. “Maior” não significa “qualquer”: o edital informa o preço mínimo, e lance abaixo dele não se torna vencedor apenas por superar os demais.
+
+Nos termos do <abbr title="artigo">art.</abbr> 31 da Lei nº 14.133/2021:
+
+- o leilão pode ser conduzido por **leiloeiro oficial** ou por servidor designado pela autoridade competente;
+- se houver leiloeiro oficial, sua seleção ocorre por credenciamento ou pregão, com **maior desconto** sobre as comissões, observado o parâmetro máximo legal da profissão;
+- o edital informa descrição do bem, valor de avaliação, preço mínimo, pagamento, eventual comissão, localização e ônus ou pendências; também informa o sítio e o período do leilão, ou local, dia e hora se a forma presencial for excepcionalmente justificada;
+- não há registro cadastral prévio nem fase de habilitação;
+- a homologação vem depois da fase de lances, da fase recursal e do pagamento pelo vencedor.
+
+O Decreto nº 11.461/2023 regulamenta o leilão eletrônico **no âmbito federal nele definido**. Nesse regime, o leiloeiro oficial é selecionado por credenciamento; a comissão paga pelos arrematantes tem o teto regulamentar de 5%, e servidor designado não recebe comissão. O fluxo eletrônico passa por divulgação, proposta inicial, lances, julgamento, recurso, pagamento e homologação. Se a melhor proposta ficar abaixo do preço mínimo, o regulamento admite negociação pelo sistema e, persistindo a insuficiência, prossegue com os demais classificados na ordem; procedimento fracassado pode ser republicado ou ter prazo para adequação, e o deserto pode ser republicado. Esse decreto ajuda a visualizar o rito, mas não deve ser tratado como regulamento operacional automático do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
+
+Se um leilão não recebe proposta válida, a solução não é reduzir o preço mínimo automaticamente. O processo deve reexaminar avaliação e data-base, descrição e condição, formação de lotes, publicidade, visitação, localização e custo de retirada. Nova decisão exige nova evidência.
+
+## 7. Decreto nº 12.785/2025: referência federal de circularidade
+
+O Decreto nº 12.785/2025 disciplina a circularidade de bens móveis no âmbito da Administração Pública federal direta, autárquica e fundacional. **Seu regime operacional não se aplica automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.** Ainda assim, é referência atual importante para compreender classificações e caminhos de reaproveitamento e desfazimento.
+
+No modelo federal, o bem é:
+
+- **de uso regular:** utilizável, vantajoso e efetivamente utilizado ou com utilização prevista;
+- **ocioso:** utilizável e vantajoso, mas sem aproveitamento pelo órgão ou entidade que o detém;
+- **recuperável:** fora de uso, com recuperação possível por custo de até 50% do valor de mercado **ou** justificada por análise de custo-benefício;
+- **antieconômico:** ainda utilizável, mas com custos de manutenção ou desempenho que tornam sua continuidade desvantajosa;
+- **irrecuperável:** sem possibilidade econômica ou técnica justificável de recuperação, inclusive quando o custo de recuperação supera 50% do valor de mercado sem justificativa de custo-benefício.
+
+Para esse decreto, **inservíveis** são os bens ociosos, recuperáveis, antieconômicos e irrecuperáveis. Portanto, “inservível” não significa apenas “quebrado”. A inspeção técnica identifica condição física, funcionalidade e estado operacional; a avaliação econômica responde a outra pergunta, sobre valores e conveniência.
+
+O decreto prevê comissão instituída pela autoridade competente para classificação e avaliação, com no mínimo três membros e possibilidade de apoio técnico sob supervisão. Bens de valor histórico, artístico ou especial exigem tratamento compatível com sua natureza; não se tornam sucata por uma classificação administrativa simplificada. Os bens disponíveis para cessão, transferência, doação e permuta devem ser divulgados no sistema federal previsto pelo decreto. Em regra, os custos logísticos da movimentação ou alienação recaem sobre o interessado que recebe o bem, embora a autoridade competente possa excepcionar isso de forma fundamentada.
+
+### 7.1 Cessão, transferência e sequência de aproveitamento
+
+No modelo federal:
+
+- a **cessão** de ocioso ou recuperável é precária e por prazo determinado, sem transferência de propriedade;
+- a **transferência** desses bens é permanente, transmitindo posse, propriedade e responsabilidades previstas no decreto;
+- a transferência interna tem preferência sobre a externa;
+- cessão e transferência de bem de uso regular são excepcionais e dependem de justificativa da autoridade competente;
+- sem manifestação de interesse para cessão ou transferência de inservível, o bem pode seguir para leilão;
+- a doação depende dos requisitos legais de interesse social e conveniência socioeconômica.
+
+Para eletroeletrônicos inservíveis, o decreto remete à Lei nº 14.479/2022 e ao Programa Computadores para Inclusão. No regime federal, os equipamentos indicados devem ser oferecidos ao órgão gestor do programa; sem manifestação em trinta dias, podem seguir para outras formas de doação, alienação ou desfazimento previstas.
+
+A <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 continua disponível como referência clássica do <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal. Seus conceitos devem ser lidos em harmonia com normas posteriores e superiores. O Decreto nº 12.785/2025 revogou expressamente os Decretos nº 9.373/2018 e nº 10.340/2020; ele não declarou a revogação integral da <abbr title="Instrução Normativa">IN</abbr> nº 205/1988.
+
+## 8. Avaliar é construir evidência para uma finalidade
+
+Antes de alienar, não basta olhar o valor contábil líquido. Ele mostra uma mensuração contábil; não prova, sozinho, valor de mercado, preço mínimo nem conveniência do destino.
+
+A escolha do método depende do bem e da finalidade. Entre abordagens usuais:
+
+- **comparação de mercado:** usa transações ou ofertas comparáveis, com ajustes justificáveis;
+- **custo de reposição depreciado:** parte do custo de repor capacidade equivalente e ajusta desgaste e obsolescência, útil quando o mercado é fraco;
+- **renda:** usa fluxos econômicos quando eles são mensuráveis e adequados ao objeto;
+- **sucata ou partes:** considera materiais e componentes aproveitáveis quando o bem deixou de funcionar como unidade econômica.
+
+Uma avaliação defensável identifica bem, condição, componentes relevantes, titularidade e ônus, finalidade, método, fontes, data-base, ajustes e limitações. Avaliação antiga pode exigir atualização se mercado, condição ou premissas mudaram.
+
+### 8.1 Lotes também afetam valor e competição
+
+Agrupar itens reduz custo administrativo, mas pode reduzir competição ou esconder valor. Um notebook recente misturado a sucata pode ser subavaliado; um lote enorme pode afastar interessados capazes de comprar apenas parte; fragmentação artificial também pode distorcer o procedimento.
+
+A formação de lotes deve considerar homogeneidade, valor, condição, mercado interessado, localização, inspeção e custo de retirada. Cada item ou conjunto precisa manter identificação suficiente para ligar avaliação, lance, pagamento, entrega e baixa.
+
+## 9. O fluxo controlado termina na prova do fato, não na intenção
+
+Um fluxo geral de destinação pode ser pensado assim:
+
+1. **identificar e inspecionar:** confirmar bem, titularidade, localização, responsável, condição e componentes;
+2. **conciliar:** resolver divergências entre físico, sistema e documentos;
+3. **classificar:** distinguir utilidade, recuperabilidade, obsolescência, risco e restrições;
+4. **consultar reaproveitamento:** ociosidade local não prova inutilidade institucional;
+5. **avaliar:** produzir valor e premissas adequados à finalidade;
+6. **comparar destinos:** reaproveitar, ceder, transferir, permutar, doar, leiloar ou encaminhar a destinação ambiental conforme a base aplicável;
+7. **motivar e autorizar:** demonstrar interesse público e competência;
+8. **dar publicidade ou selecionar destinatário:** conforme o rito aplicável;
+9. **preparar o bem:** tratar dados, licenças, componentes, resíduos e documentos;
+10. **receber pagamento quando devido e entregar:** registrar quem entregou, quem recebeu, o que saiu, quando e em que condição;
+11. **comprovar a destinação:** guardar termos e evidências financeiras, patrimoniais, informacionais ou ambientais exigíveis;
+12. **baixar e contabilizar:** depois do evento que sustenta a desincorporação;
+13. **arquivar e monitorar:** inclusive encargos de doação ou reversão quando existirem.
+
+A baixa não deve ser usada para “limpar” o sistema antes de investigar. Bem não localizado exige apuração; dano aparente exige inspeção ou laudo adequado; furto, roubo, destruição regular ou perda podem levar à baixa por fundamento próprio, sem se transformar em venda ou doação. E eventual responsabilidade por dano ou extravio não desaparece porque o registro patrimonial foi encerrado.
+
+Enquanto a entrega válida e a assunção de responsabilidade não ocorrerem conforme o ato, a organização mantém deveres de guarda. Retirar plaqueta ou apagar registro não transfere propriedade.
+
+## 10. Resíduo e dado podem continuar sendo risco depois do uso
+
+Quando o bem ou componente se torna resíduo, a decisão patrimonial passa a conviver com obrigações ambientais. A Lei nº 12.305/2010, que institui a <abbr title="Política Nacional de Resíduos Sólidos">PNRS</abbr>, estabelece a prioridade:
 
 $$
-\text{inventário} \rightarrow \text{classificação} \rightarrow \text{avaliação}
-\rightarrow \text{decisão} \rightarrow \text{destinação}
-\rightarrow \text{entrega/comprovação} \rightarrow \text{baixa}
+\text{não geração}\rightarrow\text{redução}\rightarrow\text{reutilização}\rightarrow
+\text{reciclagem}\rightarrow\text{tratamento}\rightarrow\text{disposição de rejeitos}
 $$
 
-Registros físicos, patrimoniais, contábeis e documentais precisam representar o mesmo evento. Diferença entre eles deve ser conciliada, não apagada. Furto, roubo, extravio ou dano com indício de responsabilidade exige apuração própria; a baixa não extingue eventual dever de ressarcimento.
+**Destinação final ambientalmente adequada** é mais ampla e pode incluir reutilização, reciclagem, recuperação e outras soluções admitidas. **Disposição final ambientalmente adequada** se refere à colocação ordenada de **rejeitos** em aterros com controles próprios. Logo, enviar todo material diretamente a aterro contraria a lógica de prioridade quando existe alternativa anterior juridicamente e tecnicamente adequada.
 
-## 15. Controles e indicadores
+Conforme o tipo de resíduo e a regulamentação aplicável, a cadeia documental pode envolver <abbr title="Plano de Gerenciamento de Resíduos Sólidos">PGRS</abbr>, <abbr title="Manifesto de Transporte de Resíduos">MTR</abbr>, <abbr title="Certificado de Destinação Final">CDF</abbr>, licenças e o <abbr title="Cadastro Nacional de Operadores de Resíduos Perigosos">CNORP</abbr>. Esses instrumentos têm funções diferentes; um <abbr title="Plano de Gerenciamento de Resíduos Sólidos">PGRS</abbr> não substitui o comprovante de transporte ou destinação quando estes forem exigíveis. Quantidades retiradas e certificadas precisam ser conciliadas.
 
-| Risco | Controle |
-| --- | --- |
-| venda de bem ainda útil | consulta de reaproveitamento e justificativa de inservibilidade |
-| avaliação manipulada ou desatualizada | método, data-base, fontes e revisão independente |
-| dispensa indevida | enquadramento literal e pareceres/aprovações aplicáveis |
-| retirada antes do pagamento | bloqueio de entrega e conciliação financeira |
-| doação desviada | finalidade, encargo, recebedor, termo e monitoramento |
-| bem sem rastreio | relação por patrimônio, lote, série e destinatário |
-| vazamento de dados | inventário de mídias, sanitização, verificação e evidência |
-| descarte ambiental irregular | destinador habilitado e comprovante de cadeia |
-| baixa prematura | gatilho documental após destinação efetiva |
-| concentração de funções | comissão, aprovações distintas e conciliação |
+Contratar transportador ou destinador não elimina automaticamente a responsabilidade atribuída pela <abbr title="Política Nacional de Resíduos Sólidos">PNRS</abbr> nos casos de gerenciamento inadequado. A diligência sobre habilitação e cadeia continua relevante.
 
-Indicadores possíveis:
+### 10.1 Eletroeletrônicos: uso governamental não é o mesmo que uso doméstico
 
-- percentual reaproveitado, transferido, alienado e reciclado;
-- tempo entre recolhimento e destinação;
-- custo de armazenagem de bens ociosos;
-- diferença entre avaliação e valor obtido no leilão;
-- lotes sem interessados e suas causas;
-- percentual de mídias com sanitização comprovada;
-- destinações com documentação completa;
-- encargos de doação cumpridos;
-- valor recuperado e custo do procedimento;
-- redução efetiva de custo após recomendações de valor implementadas.
+O Decreto nº 10.240/2020 organiza sistema de logística reversa para produtos eletroeletrônicos de **uso doméstico** e exclui do seu objeto o uso não doméstico, como o governamental e corporativo. Por isso, equipamento público não deve ser encaminhado automaticamente como se estivesse submetido ao mesmo fluxo do consumidor doméstico. Para o patrimônio federal, a Lei nº 14.479/2022 e o Decreto nº 12.785/2025 trazem disciplina específica de desfazimento e recondicionamento.
 
-Indicador isolado pode induzir erro. Valor alto de venda não compensa alienação indevida; rapidez não compensa ausência de avaliação; alto percentual de descarte pode revelar falha de manutenção, especificação ou planejamento.
+### 10.2 Antes de o equipamento sair, trate a informação
 
+Computadores, celulares, impressoras e unidades de armazenamento podem levar dados pessoais, credenciais, documentos, registros e software licenciado. Excluir arquivos ou restaurar configurações **não prova** que a informação se tornou irrecuperável.
 
-### 15.1 Indicadores com fórmula
+A Special Publication 800-88 Revision 2 do <abbr title="National Institute of Standards and Technology">NIST</abbr> organiza a <abbr title="processo de tornar o acesso aos dados inviável no nível de esforço definido">sanitização</abbr> de mídia em métodos como **limpeza lógica**, **purga** e **destruição**. A referência técnica não substitui a política e a análise de risco da organização, mas ajuda a entender a diferença:
 
-| Indicador | Fórmula básica |
-| --- | --- |
-| reaproveitamento | bens reaproveitados ÷ bens classificados |
-| recuperação financeira | receita líquida ÷ valor avaliado |
-| lotes sem êxito | lotes sem proposta válida ÷ lotes ofertados |
-| tempo de destinação | mediana entre recolhimento e entrega final |
-| benefício realizado | benefício líquido medido ÷ benefício aprovado |
-| sanitização comprovada | mídias com evidência ÷ mídias destinadas |
-| documentação ambiental | destinações completas ÷ destinações ambientais |
-| cumprimento de encargos | doações com encargo cumprido ÷ doações vencidas |
-| custo do procedimento | despesas de alienação ÷ receita ou benefício |
+- **limpeza lógica:** reduz a possibilidade de recuperação por técnicas usuais e preserva a mídia para reutilização quando o risco admite;
+- **purga:** aplica técnica mais forte para tornar a recuperação inviável em nível compatível com o risco, preservando a mídia quando possível;
+- **destruição:** inutiliza fisicamente a mídia quando reutilização não é adequada ou o risco exige.
 
-### 15.2 Sinais de alerta para auditoria
+O registro deve vincular ativo, mídia, método, executor, verificação, data e destino. Se a mídia precisar ser preservada como evidência de incidente ou por obrigação legal, a preservação prevalece sobre a sanitização imediata. Licenças de software e credenciais também precisam de tratamento compatível com seus termos e políticas.
 
-- bens úteis classificados como inservíveis;
-- redução de valor sem nova vistoria;
-- comprador recorrente e baixa competição;
-- formação atípica de lotes;
-- retirada antes do pagamento;
-- doação para parte relacionada;
-- sucessivos leilões desertos com publicidade fraca;
-- baixa anterior à entrega;
-- sanitização sem evidência;
-- destinador ambiental sem habilitação;
-- diferença entre quantidade retirada e certificada;
-- benefício anunciado, mas não implementado.
+## 11. Controles e indicadores servem para testar o processo, não para convalidá-lo
 
-O sinal de alerta não prova irregularidade; orienta testes adicionais.
+Os riscos mais importantes seguem a lógica do fluxo: bem útil classificado como inservível, avaliação manipulada ou vencida, pouca competição, lote que oculta item valioso, retirada antes do pagamento, doação com conflito de interesse, baixa prematura, mídia sem sanitização comprovada e destinação ambiental sem rastreio.
 
-## 16. Casos integrados
+Indicadores podem apontar tendência, mas precisam de denominador e contexto. Exemplos:
 
-### Caso 1: especificação excessiva
+$$
+\text{reaproveitamento}=\frac{\text{bens reaproveitados}}{\text{bens classificados}}
+$$
 
-Uma unidade exige acabamento especial em armários instalados em ambiente interno, sem justificar função adicional. A equipe formula “guardar documentos”, “restringir acesso” e “resistir corrosão”, compara ambientes e alternativas e valida desempenho. Se acabamento mais simples cumprir requisitos com menor custo global, há melhoria de valor. Remover a fechadura necessária apenas para economizar não seria melhoria.
+$$
+\text{recuperação financeira}=\frac{\text{receita líquida}}{\text{valor avaliado}}
+$$
 
-### Caso 2: computador ocioso
+$$
+\text{lotes sem êxito}=\frac{\text{lotes sem proposta válida}}{\text{lotes ofertados}}
+$$
 
-Computador em bom estado não tem uso previsto na unidade. Depreciação alta não o transforma em lixo. O órgão verifica demanda interna, normas de transferência/doação, dados armazenados, avaliação e custo logístico. A baixa ocorre depois da destinação comprovada.
+$$
+\text{sanitização comprovada}=\frac{\text{mídias com evidência}}{\text{mídias destinadas}}
+$$
 
-### Caso 3: veículo antieconômico
+Se 80 de 100 bens classificados foram reaproveitados, o indicador é 80%. Se 6 de 30 lotes não tiveram proposta válida, a taxa é 20%. Para tempo de destinação, a mediana pode ser mais representativa que a média quando poucos casos extremamente longos distorcem o conjunto.
 
-Veículo ainda funciona, mas manutenção, consumo e indisponibilidade são excessivos. A classificação precisa de evidências. Avaliação contábil, de mercado e de custo-benefício cumprem funções diferentes. Definida a alienação, o leilão usa maior lance, preço mínimo e publicidade; documentação e baixa sucedem pagamento e entrega.
+Nenhum indicador substitui legalidade. Receita alta não convalida alienação irregular; velocidade não compensa falta de avaliação; baixa competição recorrente pede investigação, mas não prova fraude sozinha.
 
-### Caso 4: doação social
+Em auditoria, organize o achado sem confundir os papéis: **critério** é a regra ou parâmetro esperado; **condição** é o que foi encontrado; causa explica por que ocorreu; efeito mostra consequência ou risco; encaminhamento aponta a providência cabível. “A lei exige avaliação prévia” é critério; “o lote foi vendido sem avaliação válida” é condição.
 
-Entidade solicita móveis. A Administração não pode doar apenas porque o pedido parece meritório. Deve demonstrar fins e uso de interesse social, comparar conveniência socioeconômica com outras destinações, verificar recebedor e competência, avaliar os bens, formalizar a entrega e acompanhar encargos quando existirem.
+## 12. Três situações que integram o assunto
 
-### Caso 5: mídias e reciclagem
+### Situação 1 — especificação cara sem função demonstrada
 
-Discos irrecuperáveis serão reciclados. Antes da saída, são identificados e sanitizados ou destruídos segundo o risco, com verificação. O reciclador recebe relação dos itens e fornece comprovante de destinação. A nota de baixa referencia ambas as evidências; uma fotografia genérica do caminhão não basta.
+**Hipótese.** Um armário administrativo usa acabamento especial oneroso em ambiente interno. A equipe não começa cortando o acabamento. Primeiro formula funções — guardar documentos, restringir acesso, suportar o uso — e seus critérios. Depois gera alternativas e testa desempenho. Se material mais simples cumprir requisitos com menor custo global, há melhoria de valor. Se a troca comprometer resistência ou segurança, houve apenas corte de custo.
 
+### Situação 2 — computador ocioso com dados
 
-### Caso 6: leilão sem proposta válida
+**Hipótese.** Um computador funcional não tem uso previsto na unidade. Depreciação integral não o torna lixo. O órgão verifica reaproveitamento, regras de cessão ou transferência aplicáveis, avaliação, dados armazenados e destino. Se houver saída do acervo, <abbr title="processo de tornar o acesso aos dados inviável no nível de esforço definido">sanitização</abbr> e entrega precisam ser comprovadas antes da baixa correspondente.
 
-O maior lance ficou abaixo do mínimo. A Administração verifica atualização da avaliação, publicidade, composição dos lotes, visitação, custo de retirada e possibilidade de reaproveitamento. A redução do mínimo depende de nova evidência; não decorre automaticamente do insucesso.
+### Situação 3 — leilão de lote sem proposta válida
 
-### Caso 7: economia apenas deslocada
-
-Uma recomendação reduz a despesa de manutenção da unidade A, mas transfere equipe e estoque para a unidade B. O benefício institucional deve consolidar ambas as unidades e descontar o custo de transição. A economia local não pode ser divulgada como economia líquida do órgão.
-
-### Caso 8: lote heterogêneo
-
-Computador recente foi agrupado com sucata e periféricos sem identificação. A comissão deve separar ou justificar o lote, atualizar a avaliação e preservar série, patrimônio e condição. A simplificação administrativa não autoriza ocultar valor.
-
-### Caso 9: doação com encargo
-
-O instrumento exige uso educacional por dois anos e prevê reversão. O órgão precisa acompanhar o cumprimento. A entrega e a baixa não encerram a obrigação de monitorar o encargo.
-
-### Caso 10: resíduo perigoso
-
-Baterias serão encaminhadas a destinador. O processo verifica classificação, transportador, manifesto, habilitação do destinador, certificado e quantidades. Nota fiscal isolada não comprova destinação ambiental adequada.
-
-## 17. Pegadinhas de prova
-
-1. **Valor não é menor preço.** Função, desempenho, qualidade, segurança e recursos precisam ser equilibrados.
-2. **Análise do valor não é corte linear.** Função necessária não se elimina por ser cara.
-3. **Preço não é custo do ciclo de vida.** Operação, manutenção, indisponibilidade e destinação podem inverter a escolha.
-4. **ABC não é Job Plan.** Pode fornecer custos, mas não substitui análise funcional e criatividade.
-5. **FAST não é fluxograma comum.** Relaciona funções por lógica de como e por quê.
-6. **Equipe recomenda; autoridade decide.** Economia estimada não é resultado implementado.
-7. **Depreciação total não significa inutilidade.** Situação contábil não determina sozinha destino físico.
-8. **Inservível não significa quebrado.** No decreto federal, inclui até bem ocioso e recuperável.
-9. **Cessão não é necessariamente alienação.** Transferência de posse não implica sempre propriedade.
-10. **Baixa não aliena.** É registro de desincorporação sustentado por evento válido.
-11. **Bem dominical continua público.** Apenas pode ser alienado conforme a lei.
-12. **Uso comum e especial são inalienáveis enquanto mantiverem a qualificação.** Ociosidade não produz desafetação automática.
-13. **Avaliação e interesse público precedem a alienação.** Dispensa de licitação não elimina esses requisitos.
-14. **Leilão julga pelo maior lance.** O lance ainda deve respeitar o preço mínimo.
-15. **Doação de móvel tem requisitos.** Exige fins e uso de interesse social e comparação socioeconômica.
-16. **Permuta dispensada de móvel é entre órgãos ou entidades públicas.** Não se amplia por analogia.
-17. **Regra federal operacional não se aplica automaticamente ao TCE-MA.** Verifique âmbito e norma interna.
-18. **Destinação é mais ampla que disposição.** Aterro recebe rejeito, não é primeira escolha para todo resíduo.
-19. **Logística reversa doméstica não abrange automaticamente equipamento governamental.** O Decreto nº 10.240/2020 faz essa distinção.
-20. **Excluir arquivo não comprova sanitização.** Mídia, método, verificação e destino devem ser controlados.
-
-
-21. **Value Analysis, Value Engineering e Value Management não formam divisão universal.** Identifique a fonte.
-22. **Custo/*worth* alto é sinal de estudo.** Não determina corte automático.
-23. **Economia estimada não é economia realizada.** Exige decisão, implementação e medição.
-24. **Custo evitado não é necessariamente redução orçamentária.**
-25. **Valor presente depende de taxa, horizonte e data-base coerentes.**
-26. **Desfazimento não é modalidade única de alienação.**
-27. **Baixa pode decorrer de fato diferente de venda ou doação.**
-28. **Leiloeiro oficial não é escolhido informalmente.**
-29. **Leilão sem êxito não autoriza reduzir o mínimo automaticamente.**
-30. **Avaliação contábil, de mercado e de liquidação têm finalidades diferentes.**
-31. **Lote heterogêneo pode reduzir competição e ocultar valor.**
-32. **Decreto federal operacional não é regulamento automático do TCE-MA.**
-33. **PGRS não substitui manifesto ou certificado quando exigidos.**
-34. **Contratar destinador não elimina diligência sobre a cadeia.**
-35. **Limpeza lógica, purga e destruição não são sinônimos.**
-36. **Baixa e desreconhecimento não comprovam entrega física.**
-37. **Receita alta não convalida alienação irregular.**
-38. **Rapidez não substitui avaliação, motivação ou publicidade.**
-39. **Sinal de alerta orienta auditoria; não prova sozinho a irregularidade.**
-40. **Benefício deve ser medido para o órgão, não apenas para uma unidade.**
+**Hipótese.** O maior lance ficou abaixo do mínimo. A Administração não aceita o lance apenas por ser o maior e não reduz o piso automaticamente. Reexamina avaliação, data-base, composição do lote, publicidade e custos de retirada. Só uma nova decisão fundamentada pode alterar as condições para tentativa posterior.
