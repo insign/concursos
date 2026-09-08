@@ -8,645 +8,386 @@ storageId: controle-movimentacao-sistema
 
 # Controle, movimentação e sistema patrimonial
 
-Controlar patrimônio não é apenas manter uma lista de bens. É construir uma cadeia de evidências que permita responder, a qualquer momento: **o que existe, de onde veio, onde está, em que condição se encontra, quem o utiliza ou guarda, quais eventos ocorreram e como o registro administrativo se concilia com a contabilidade**.
+Um notebook saiu da sala 201 e foi levado para a 305. O bem continua no prédio e pertence ao mesmo órgão, mas isso não basta para dizer que o controle está correto. É preciso saber **quem autorizou, quando ocorreu, quem recebeu, qual é a localização atual e se o cadastro, o termo de responsabilidade e a contabilidade contam a mesma história**.
 
-A movimentação é um ponto crítico dessa cadeia. Um equipamento pode mudar de sala sem mudar de responsável, mudar de responsável sem sair da unidade, ser cedido temporariamente ou transferido em caráter permanente. Cada situação produz efeitos próprios e exige documentação coerente.
+Esse é o núcleo do controle patrimonial: ligar cada bem à sua identidade, origem, localização, condição, valor, responsabilidade e histórico. A movimentação altera um ou mais desses elementos. O sistema registra a cadeia, mas não substitui o documento nem a verificação física.
 
-O sistema patrimonial organiza dados e fluxos, mas não substitui a realidade física. Um cadastro sem inventário pode descrever perfeitamente um bem que já não está no local indicado. Da mesma forma, encontrar fisicamente um objeto não comprova sozinho sua propriedade, seu valor contábil ou a regularidade de sua movimentação.
+> **Modelo mental:** fato real → documento que o prova → autorização competente → atualização do cadastro → aceite do destino → reflexo contábil, quando houver → conciliação.
 
-> **Ideia central:** controle efetivo liga bem, documento, localização, responsável, estado, valor e histórico; movimentação sem registro quebra essa ligação, e registro sem verificação física não a restabelece.
+O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> adota **6 de julho de 2026** como data de corte. A Constituição e a Lei nº 4.320/1964 oferecem fundamentos gerais. A Instrução Normativa <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988, o Decreto nº 12.785/2025 e o Sistema Integrado de Gestão Patrimonial são referências **federais**: ajudam a compreender mecanismos de controle, mas não se aplicam automaticamente ao Estado do Maranhão nem ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
-Este material considera as normas vigentes até **15 de julho de 2026**. A Constituição e a Lei nº 4.320/1964 oferecem fundamentos gerais. A Instrução Normativa SEDAP nº 205/1988, o Decreto nº 12.785/2025 e o SIADS são referências operacionais **federais** e não se aplicam automaticamente ao Estado do Maranhão ou ao TCE-MA.
+## 1. O que precisa permanecer ligado
 
-## 1. Fundamentos do controle patrimonial
+A fiscalização patrimonial do art. 70 da Constituição examina legalidade, legitimidade e economicidade, entre outros critérios. O parágrafo único alcança quem utilize, arrecade, guarde, gerencie ou administre bens e valores públicos. Isso exige evidência suficiente para demonstrar tanto a existência do bem quanto a regularidade de sua gestão.
 
-### 1.1 Fiscalização e prestação de contas
+A Lei nº 4.320/1964 transforma essa exigência em registros e verificações:
 
-O art. 70 da Constituição submete a gestão patrimonial à fiscalização quanto a:
+- o art. 75, II, inclui a fidelidade funcional dos agentes responsáveis por bens e valores;
+- o art. 78 permite levantamento, prestação ou tomada de contas a qualquer tempo;
+- o art. 94 exige registros analíticos dos bens permanentes, com perfeita caracterização e indicação dos responsáveis por guarda e administração;
+- o art. 95 exige registros sintéticos dos bens móveis e imóveis;
+- o art. 96 determina que o levantamento geral se baseie no inventário analítico de cada unidade administrativa e nos elementos da escrituração sintética.
 
-- legalidade;
-- legitimidade;
-- economicidade;
-- aplicação de subvenções;
-- renúncia de receitas.
+O registro **analítico** identifica cada bem ou conjunto controlável; o registro **sintético** agrega valores por contas ou grupos. O inventário confronta esses níveis com a realidade. Portanto, controle patrimonial não é uma planilha isolada, mas uma cadeia de informações coerentes.
 
-O parágrafo único alcança qualquer pessoa que utilize, arrecade, guarde, gerencie ou administre bens e valores públicos ou pelos quais a União responda. A norma constitucional não cria um formulário específico, mas exige que a gestão possa ser demonstrada e controlada.
+### 1.1 As sete perguntas do controle
 
-A Lei nº 4.320/1964 concretiza essa exigência em diferentes níveis:
+Para cada bem, o sistema de controle deve responder:
 
-- **art. 75, II:** o controle da execução orçamentária compreende a fidelidade funcional dos agentes responsáveis por bens e valores públicos;
-- **art. 78:** levantamento, prestação ou tomada de contas podem ocorrer a qualquer tempo;
-- **art. 94:** deve haver registro analítico de todos os bens de caráter permanente, com elementos para perfeita caracterização e indicação dos agentes responsáveis por sua guarda e administração;
-- **art. 95:** devem existir registros sintéticos dos bens móveis e imóveis;
-- **art. 96:** o levantamento geral deve basear-se no inventário analítico de cada unidade administrativa e nos elementos da escrituração sintética da contabilidade.
+1. **Qual é?** descrição, marca, modelo, série e número patrimonial;
+2. **De onde veio?** compra, doação, cessão, produção ou outro ingresso documentado;
+3. **Onde está?** unidade e localização física atuais;
+4. **Com quem está?** agente ou unidade que assumiu a guarda;
+5. **Em que condição está?** em uso, ocioso, danificado, em manutenção ou outra classificação aplicável;
+6. **Quanto representa?** custo, depreciação e demais valores reconhecidos segundo a contabilidade;
+7. **O que já ocorreu?** entradas, movimentações, ajustes, manutenções e saída, com autoria e data.
 
-Esses dispositivos formam uma sequência lógica:
+Uma resposta ausente rompe a rastreabilidade. Saber “onde” sem saber “com quem” não define a custódia; saber “quanto” sem encontrar o bem não prova sua existência; encontrar o bem sem documento não regulariza sua origem.
 
-1. cada bem permanente precisa ser caracterizado individualmente;
-2. sua guarda e administração precisam ser atribuídas;
-3. os registros individuais precisam alimentar totalizações;
-4. o inventário físico precisa ser confrontado com os registros patrimoniais e contábeis;
-5. diferenças precisam ser explicadas e tratadas.
+### 1.2 Papéis e segregação
 
-### 1.2 O que o controle procura assegurar
+Os papéis variam conforme a organização, mas o mecanismo é estável:
 
-| Objetivo | Pergunta de controle |
-| --- | --- |
-| legalidade | o evento foi autorizado e documentado segundo a norma competente? |
-| economicidade | o acervo evita compra desnecessária, perda, ociosidade e custo desproporcional? |
-| eficiência | o bem adequado está disponível onde o serviço necessita? |
-| salvaguarda | há proteção contra extravio, dano, furto e uso indevido? |
-| fidedignidade | cadastro, existência física e contabilidade representam a mesma realidade? |
-| rastreabilidade | é possível reconstruir origem, aprovações, movimentações e responsáveis? |
-| prestação de contas | a entidade consegue demonstrar quem administrou, guardou e decidiu? |
+| Papel | Função predominante | Evidência esperada |
+|---|---|---|
+| unidade solicitante | informa a necessidade e o destino | solicitação identificada |
+| chefia ou autoridade | decide ou autoriza dentro da competência | autorização registrada |
+| patrimônio | identifica, movimenta e mantém o cadastro | registro patrimonial e histórico |
+| responsável de origem | entrega o bem e deixa a carga | confirmação de entrega |
+| responsável de destino | confere e assume a guarda | aceite ou termo atualizado |
+| contabilidade | reconhece os efeitos contábeis cabíveis | lançamento e conciliação |
+| tecnologia | mantém disponibilidade, perfis e segurança | registros de acesso e operação |
+| auditoria | avalia desenho e funcionamento dos controles | testes, achados e recomendações |
 
-Controle não significa burocracia idêntica para todos os objetos. A IN SEDAP nº 205/1988 reconhece, no âmbito federal, que o grau de controle deve considerar importância, valor relativo e dificuldade de ressuprimento. Um item crítico, portátil ou de alto valor demanda acompanhamento mais rigoroso que um conjunto de baixo valor e risco, sem que isso autorize abandonar o registro necessário.
+<abbr title="Segregação de funções: separação de tarefas incompatíveis entre pessoas ou controles independentes">Segregar funções</abbr> reduz o risco de alguém solicitar, autorizar, executar e confirmar sozinho a mesma operação. Em equipes pequenas, a separação perfeita pode ser inviável; nesse caso, um controle compensatório — revisão posterior por chefia independente, relatório de exceções ou conferência amostral — precisa reduzir o risco restante.
 
-<!-- REVISAO-CONTROLE-MOVIMENTACAO-2026 -->
+## 2. A identidade e a custódia do bem
 
-## 1.3 Governança, papéis e qualidade da informação
+O cadastro patrimonial funciona como a identidade administrativa do bem. Seus campos devem usar padrões para evitar que o mesmo objeto apareça como “notebook”, “micro portátil” e “computador móvel” sem relação entre os registros.
 
-O controle patrimonial não pertence exclusivamente ao setor de patrimônio. Ele depende de papéis coordenados e de dados com qualidade suficiente para sustentar decisão, custódia, contabilidade e prestação de contas.
+Dados essenciais incluem:
 
-### Matriz de responsabilidades
+- identificador patrimonial único;
+- descrição padronizada e características individualizadoras;
+- documento e data de ingresso;
+- valor e classificação contábil;
+- unidade, endereço e localização interna;
+- responsável pela guarda;
+- estado de conservação e situação de uso;
+- datas relevantes e histórico de eventos.
 
-| Papel | Responsabilidade central |
-| --- | --- |
-| área requisitante | justificar necessidade, uso, mudança ou devolução |
-| responsável pela carga | guardar, apresentar o bem e comunicar ocorrências |
-| usuário | utilizar corretamente e informar mudança, dano ou indisponibilidade |
-| patrimônio | cadastrar, identificar, validar, formalizar, movimentar e conciliar |
-| logística/transporte | preservar identidade, integridade e cadeia de custódia |
-| contabilidade | reconhecer, mensurar e conciliar contas e valores |
-| tecnologia da informação | acessos, disponibilidade, integrações, logs e recuperação |
-| comissão de inventário | verificar com independência existência, estado e custódia |
-| controle interno/auditoria | avaliar desenho, funcionamento e evidência dos controles |
-| autoridade competente | autorizar eventos sensíveis e regularizações |
+**Tombamento** é o procedimento administrativo de incorporar e identificar o bem permanente no controle patrimonial; não se confunde, nesse contexto, com proteção de patrimônio histórico. A identificação pode ser física, por plaqueta, etiqueta, gravação ou tecnologia compatível, mas deve manter vínculo inequívoco com o cadastro. A Instrução Normativa <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 determina, no âmbito federal que disciplina, número sequencial de registro patrimonial e sua aposição ao material.
 
-A matriz precisa ser adaptada à estrutura local. Em unidade pequena, a impossibilidade de separar plenamente funções incompatíveis exige controles compensatórios, como dupla conferência, aprovação superior, revisão independente e inventário mais frequente.
+A etiqueta ajuda a localizar o registro, mas não cria propriedade nem responsabilidade sozinha. Se ela se soltar, a identificação pode ser restabelecida por número de série, documentos, especificações e outras evidências; reutilizar o número em outro bem destruiria o histórico.
 
-### Critérios de qualidade dos dados
+### 2.1 Carga, descarga e responsabilidade
 
-| Critério | Pergunta de verificação |
-| --- | --- |
-| completude | os campos, documentos e vínculos obrigatórios existem? |
-| exatidão | o cadastro corresponde ao objeto, à fonte e ao evento real? |
-| consistência | localização, carga, documento, série e contabilidade concordam? |
-| tempestividade | o fato foi registrado sem atraso material? |
-| unicidade | existe apenas um cadastro válido para cada identidade patrimonial? |
-| validade | os valores obedecem ao formato, domínio e regra aplicáveis? |
-| rastreabilidade | é possível reconstruir autor, data, motivo, aprovação e valores anteriores? |
+Na Instrução Normativa <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988:
 
-Relatórios de exceção devem destacar, entre outros casos, bem ativo sem responsável, responsável desligado, local inexistente, série duplicada, movimentação vencida, item simultaneamente disponível e em manutenção, baixa sem reflexo contábil e lançamento contábil sem suporte patrimonial.
+- **carga** é a efetiva responsabilidade pela guarda e pelo uso do material pelo consignatário;
+- **descarga** é a transferência dessa responsabilidade.
 
-## 2. Arquitetura de controles
+A carga não significa aquisição da propriedade pelo servidor. O termo de responsabilidade documenta a custódia e facilita prestação de contas, mas não autoriza concluir automaticamente que toda perda decorre de culpa do signatário. Irregularidades exigem comunicação, verificação dos fatos e, quando cabível, apuração regular.
 
-### 2.1 Cadastro, identificação e custódia
+A norma federal também exige:
 
-O controle começa por dados confiáveis. Conforme a natureza do objeto, o cadastro deve conter:
+- documento justificante para registros de entrada e saída de carga;
+- termo de responsabilidade na distribuição de equipamento ou material permanente;
+- atualização do termo na redistribuição, com nova localização, estado de conservação e assinatura do novo consignatário;
+- ciência prévia da unidade administrativa competente mesmo quando o responsável não muda;
+- conferência física e novo termo na passagem de responsabilidade quando o servidor se desliga.
 
-- número patrimonial estável e número de série;
-- descrição padronizada, classe, marca, modelo e características relevantes;
-- origem, fornecedor ou cedente, documento e data de incorporação;
-- titularidade ou fundamento da posse, inclusive para bens de terceiros;
-- valor, conta contábil, vida útil e depreciação, quando aplicáveis;
-- unidade, localização detalhada, responsável e usuário;
-- estado de conservação, garantia e manutenção;
-- histórico de movimentações, inventários, divergências e regularizações;
-- situação atual, sem apagar os eventos anteriores.
+Essas regras revelam uma distinção frequente em prova: **mover fisicamente**, **mudar a localização cadastrada** e **transferir a responsabilidade** podem ocorrer juntos, mas são fatos diferentes.
 
-O número patrimonial individualiza o registro. Plaqueta, etiqueta, gravação, código de barras ou RFID são meios de associar esse número ao objeto. Se a marcação direta for inviável ou antieconômica, a entidade deve adotar controle alternativo coerente com risco e norma local, como relação-carga, número de série, fotografia ou agrupamento controlado.
+## 3. O que uma movimentação pode alterar
 
-Custódia não se confunde com propriedade. O responsável pela carga guarda ou controla o uso; o usuário pode ser outra pessoa; a unidade administrativa coordena o acervo; a pessoa jurídica permanece titular, salvo evento jurídico válido. Essas posições devem aparecer de forma clara no sistema.
+Uma movimentação patrimonial deve ser analisada em cinco dimensões:
 
-### 2.2 Segregação de funções
+| Dimensão | Pergunta |
+|---|---|
+| física | o bem mudou de lugar? |
+| administrativa | mudou a unidade que o utiliza ou controla? |
+| responsabilidade | mudou quem responde pela guarda? |
+| contábil | houve alteração que exige lançamento, reclassificação ou conciliação? |
+| jurídica | mudou apenas a posse ou também a propriedade? |
 
-Concentrar todas as etapas em uma só pessoa facilita erro e fraude. Conforme porte e risco, convém separar:
+### 3.1 Interna, externa, temporária e definitiva
 
-- solicitação e autorização;
-- recebimento e aceitação técnica;
-- incorporação e atribuição de carga;
-- solicitação, aprovação e execução da movimentação;
-- registro patrimonial e lançamento contábil;
-- custódia e inventário;
-- correção de divergência e aprovação da regularização;
-- administração do sistema e auditoria de logs.
+A movimentação é **interna** quando ocorre dentro da mesma organização, como a redistribuição entre setores. É **externa** quando envolve outra organização. Pode ser **temporária**, com retorno previsto, ou **definitiva**, sem retorno à unidade de origem.
 
-A Lei nº 14.133/2021 explicita a segregação de funções no processo de contratação. No restante do controle patrimonial, a separação também constitui técnica de controle interno, mas não se deve atribuir à lei de licitações uma disciplina completa da movimentação cotidiana.
+Esses eixos não são sinônimos. Uma transferência interna pode ser definitiva; uma saída externa para manutenção pode ser temporária; uma cessão pode transmitir a posse por prazo determinado sem transmitir a propriedade.
 
-Em estruturas pequenas, nem toda separação ideal é possível. A resposta não é eliminar o controle, e sim adotar compensações: dupla conferência, aprovação superior, relatórios de exceção, revisão independente e inventários mais frequentes.
+O Decreto nº 12.785/2025, aplicável à administração pública federal direta, autárquica e fundacional com as exclusões do art. 2º, oferece contraste útil:
 
-### 2.3 Controles preventivos, detectivos e corretivos
+- **cessão:** movimentação precária de bem ocioso ou recuperável, por prazo determinado, com transmissão da posse e da responsabilidade por guarda e conservação;
+- **transferência:** movimentação permanente de bem ocioso ou recuperável, com transmissão da posse, da propriedade e das responsabilidades associadas;
+- **alienação:** transferência do direito de propriedade, como na venda, permuta ou doação.
 
-| Tipo | Atua quando | Exemplos |
-| --- | --- | --- |
-| preventivo | antes ou durante o evento | identificação única, campo obrigatório, autorização prévia, perfil de acesso, termo de responsabilidade |
-| detectivo | depois do evento ou em conferência | inventário, conciliação, relatório de pendências, alerta, auditoria de logs |
-| corretivo | após a divergência confirmada | ajuste rastreável, atualização de carga, manutenção, apuração e encaminhamento regular |
+Logo, deslocamento físico não é automaticamente alienação, e baixa contábil não é sinônimo de movimentação. A baixa retira o bem do ativo após o evento jurídico e administrativo adequado; ela não serve para “fazer desaparecer” divergência de inventário.
 
-Os três tipos se complementam. Bloquear movimentação sem destino reduz erros, mas não detecta bem retirado sem autorização. Inventário encontra a divergência, mas não evita sua ocorrência. A correção regulariza o dado, mas deve preservar a causa e a evidência para impedir repetição.
+### 3.2 Classificação antes da destinação
 
-## 2.4 Risco, materialidade e controles proporcionais
+No mesmo decreto federal, os bens móveis são classificados como:
 
-O grau de controle deve combinar pelo menos:
+- **em uso regular:** em condições de uso, vantajoso e aproveitado ou com uso previsto;
+- **ocioso:** em condições de uso e vantajoso, mas não aproveitado;
+- **recuperável:** sem condição atual de uso, com recuperação de até 50% do valor de mercado ou justificada por análise de custo e benefício;
+- **antieconômico:** ainda utilizável, mas oneroso ou de baixo rendimento por custo, desgaste, ineficiência ou obsolescência;
+- **irrecuperável:** imprestável para sua finalidade, com recuperação superior a 50% do valor de mercado ou injustificável na análise de custo e benefício.
 
-- valor monetário;
-- portabilidade e facilidade de subtração;
-- criticidade para a continuidade do serviço;
-- sensibilidade da informação armazenada;
-- dificuldade e tempo de reposição;
-- dispersão geográfica;
-- histórico de perdas e divergências;
-- custo do próprio controle.
+Ocioso, recuperável, antieconômico e irrecuperável formam, para o decreto, o conjunto dos bens inservíveis. Uma comissão de avaliação classifica e avalia os bens. A regra dos 50% não dispensa a análise de custo e benefício e pode ser excepcionada para bens de valor histórico, artístico, cultural ou especial.
 
-Materialidade não se limita ao valor. Um token criptográfico de baixo custo pode ser crítico; um conjunto volumoso e pouco móvel pode exigir controle menos granular. Simplificar o controle não significa dispensar identificação, responsabilidade ou evidência quando necessárias.
+Se um bem antieconômico ou irrecuperável não puder ou não convier ser alienado, o decreto permite equipará-lo a resíduo sólido ou rejeito; sua destinação ou disposição final deve ser ambientalmente adequada e constar do plano ou documento equivalente. Essa é uma etapa de desfazimento, não mera movimentação de sala.
 
-## 3. O que é movimentação patrimonial
+## 4. O fluxo seguro de movimentação
 
-Movimentação patrimonial é gênero operacional. Para analisar um caso, separe quatro dimensões:
+Uma movimentação confiável precisa preservar a ligação entre o fato e o registro.
 
-| Dimensão | O que muda | Exemplo |
-| --- | --- | --- |
-| física | posição material do objeto | notebook passa da sala A para a sala B |
-| administrativa | autorização, documento, localização ou situação cadastral | guia aprovada registra a nova sala |
-| responsabilidade | agente ou unidade que responde pela guarda | novo consignatário assina o termo |
-| contábil | conta, unidade contábil, valor ou reconhecimento | transferência entre entidades exige análise do reflexo contábil |
+### 4.1 Antes de mover
 
-Essa matriz é analítica, não uma taxonomia legal universal. As dimensões podem ocorrer juntas ou separadas:
+1. identificar o bem sem ambiguidade;
+2. definir origem, destino, motivo e natureza temporária ou definitiva;
+3. conferir a competência para autorizar;
+4. verificar restrições: bem em inventário, manutenção, cessão, processo de apuração ou condição especial;
+5. emitir o documento adequado e registrar a autorização;
+6. reservar ou iniciar a transação no sistema, sem antecipar como concluído o que ainda não ocorreu.
 
-- a troca de sala com o mesmo responsável gera movimento físico e atualização de localização, mas não necessariamente troca de carga ou lançamento contábil;
-- a mudança do responsável por bens que permanecem na mesma sala altera a carga sem deslocamento físico;
-- o envio temporário para manutenção externa altera posse imediata e localização, mas não transfere automaticamente propriedade;
-- a transferência definitiva para outra entidade pode produzir efeitos jurídicos, administrativos e contábeis além da retirada física.
+A Instrução Normativa <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 exige que a movimentação entre almoxarifado, depósito e unidade requisitante seja precedida de registro à vista de guia de transferência, requisição ou outro documento de descarga.
 
-### 3.1 Movimento interno e externo; temporário e definitivo
+### 4.2 Durante o deslocamento
 
-Antes de nomear o evento, responda:
+O bem pode assumir o estado **em trânsito**. Esse estado evita dois erros: mantê-lo ficticiamente na origem ou considerá-lo recebido antes da conferência. O controle deve registrar quem entregou, quem transporta, quando saiu, destino esperado e eventuais ocorrências.
 
-1. origem e destino pertencem à mesma unidade, ao mesmo órgão ou a pessoas jurídicas diferentes?
-2. há deslocamento físico?
-3. muda o responsável pela guarda?
-4. a posse é temporária ou definitiva?
-5. a propriedade muda?
-6. há prazo e obrigação de devolução?
-7. existe efeito contábil?
+Saídas para manutenção exigem ainda identificação do prestador, ordem de serviço, prazo, condição do bem e itens acessórios. O patrimônio continua pertencendo ao órgão; por isso, a saída temporária não autoriza baixa.
 
-Termos como remanejamento, empréstimo, transferência e cessão podem receber definições próprias em regulamentos locais. Por isso, não devem ser tratados como sinônimos universais.
+### 4.3 No destino
 
-No âmbito da administração pública federal direta, autárquica e fundacional, o Decreto nº 12.785/2025 disciplina mecanismos de circularidade de bens móveis:
+O recebedor deve confrontar:
 
-- **cessão:** movimentação precária e por prazo determinado de bem inservível ocioso ou recuperável, com transmissão da posse e da responsabilidade pela guarda, conservação e manutenção;
-- **transferência:** movimentação permanente de bem inservível ocioso ou recuperável, com transmissão da posse, da propriedade e das responsabilidades pela guarda, conservação, manutenção e destinação ao final da vida útil;
-- **transferência interna:** ocorre entre unidades organizacionais do mesmo órgão ou entidade;
-- **transferência externa:** ocorre entre órgãos da União;
-- a transferência interna tem preferência sobre a externa;
-- a cessão ou transferência de bem em uso regular é excepcional e exige justificativa da autoridade competente.
+- identificador e características do bem;
+- quantidade e acessórios;
+- integridade e estado de conservação;
+- documento e autorização;
+- destino e responsável previstos.
 
-O decreto entrou em vigor em 22 de dezembro de 2025 e revogou os Decretos nº 9.373/2018 e nº 10.340/2020. Suas definições atualizam o regime federal de circularidade, mas não criam automaticamente as categorias operacionais do TCE-MA.
+Se tudo coincide, registra-se o aceite, atualizam-se localização e responsabilidade e encerra-se o trânsito. Se há divergência, o recebedor deve registrar a ressalva e encaminhar a correção; não deve confirmar silenciosamente dados falsos.
 
-### 3.2 Movimentação não é alienação nem baixa
+### 4.4 Depois do aceite
 
-Não se deve presumir que toda saída física retire o bem do patrimônio:
+A conclusão administrativa aciona os reflexos necessários:
 
-- manutenção externa muda localização e custódia imediata, mas normalmente conserva a titularidade;
-- cessão federal é temporária e não transfere propriedade;
-- transferência, conforme o regime aplicável, pode ser definitiva;
-- alienação transfere propriedade por negócio jurídico;
-- baixa encerra o registro patrimonial segundo causa e procedimento válidos;
-- descarte é destinação física e ambiental, não simples exclusão cadastral.
+- atualização do cadastro;
+- novo termo de responsabilidade ou relação-carga;
+- lançamento contábil ou integração, quando o evento produzir efeito;
+- arquivamento das evidências;
+- conciliação e tratamento de exceções.
 
-Avaliação, alienação, baixa e desfazimento serão aprofundados no Assunto 123. Aqui, a regra de controle é: **não remover o registro como atalho para resolver uma divergência física**.
+A **data efetiva** é quando o fato ocorreu; a **data de lançamento** é quando foi registrado. Elas podem diferir legitimamente, mas o sistema deve guardar ambas. Um lançamento feito em 11 de julho para uma movimentação ocorrida em 10 de julho não transforma a data do fato em 11 de julho.
 
-### 3.3 Quinta dimensão: efeito jurídico
+### 4.5 Exemplo integrado
 
-Além das dimensões física, administrativa, de responsabilidade e contábil, questões complexas exigem identificar a dimensão jurídica:
+Hipótese: um notebook vai temporariamente da unidade A para assistência técnica externa.
 
-| Pergunta jurídica | Exemplos |
-| --- | --- |
-| quem é o proprietário? | órgão, outra entidade ou terceiro |
-| quem possui ou detém o bem? | servidor, contratado, oficina ou cessionário |
-| existe direito de uso? | licença, comodato, arrendamento ou cessão |
-| há dever de devolver? | cautela, manutenção, empréstimo ou cessão temporária |
-| a propriedade mudou? | transferência definitiva ou alienação regular |
+- a unidade informa defeito e identifica o equipamento;
+- a autoridade competente autoriza a saída;
+- o setor patrimonial registra o estado “em manutenção” e o responsável pelo transporte;
+- a assistência recebe e confirma número de série e acessórios;
+- no retorno, o órgão verifica o serviço e a condição do bem;
+- o cadastro volta ao estado de uso, preservando todo o histórico.
 
-Uma saída para manutenção pode alterar localização e detenção sem modificar propriedade, reconhecimento contábil ou carga definitiva. Já uma transferência entre pessoas jurídicas pode exigir instrumento, aceite, baixa na origem, incorporação no destino e conciliação contábil.
+Não houve alienação nem perda de propriedade. Se o equipamento não voltar no prazo, o sistema deve produzir alerta e a administração deve apurar a ocorrência; uma anotação genérica não resolve o risco.
 
-### 3.4 Estados da movimentação
+## 5. Como o sistema sustenta o controle
 
-Um fluxo eletrônico pode usar estados como:
+Um sistema patrimonial deve impedir ou revelar incoerências. Ele não é apenas um repositório: organiza o ciclo de vida, aplica validações e preserva evidências.
 
-```text
-rascunho → solicitado → autorizado → preparado → em trânsito
-→ recebido com ou sem ressalva → aceito ou rejeitado → encerrado
-```
+### 5.1 Cadastro mestre e histórico
 
-Estados alternativos incluem `cancelado`, `expirado`, `devolvido`, `contestado` e `bloqueado para apuração`.
+O <abbr title="Cadastro mestre: registro central e controlado dos dados permanentes de cada bem">cadastro mestre</abbr> mantém a versão corrente dos dados; o histórico conserva os eventos anteriores. Alterar a localização não deve apagar de onde o bem veio. Corrigir um erro não deve ocultar quem corrigiu, quando e por quê.
 
-Cada transição deve registrar:
+A <abbr title="Trilha de auditoria: registro cronológico de ações, autores, datas e valores anteriores e posteriores">trilha de auditoria</abbr> precisa permitir reconstruir operações relevantes. Logs são evidência auxiliar: sua existência não prova que a operação foi autorizada, mas sua ausência dificulta descobrir ações indevidas.
 
-- agente competente;
-- data e hora;
-- documento e justificativa;
-- condição do bem;
-- origem e destino;
-- responsável anterior e futuro;
-- prazo de devolução, se houver;
-- reflexo administrativo e contábil;
-- pendências e ressalvas.
+### 5.2 Perfis, validações e exceções
 
-O sistema não deve mostrar o evento como encerrado na origem e inexistente no destino. Durante o transporte, o estado `em trânsito` preserva a cadeia de custódia.
+O controle de acesso deve observar a necessidade do trabalho:
 
-### 3.5 Data efetiva e data de lançamento
+- perfil de consulta não movimenta;
+- operador registra sem necessariamente aprovar;
+- aprovador decide dentro de sua competência;
+- administrador técnico não deve alterar livremente fatos patrimoniais;
+- auditor acessa dados e relatórios necessários sem executar operações incompatíveis.
 
-A data do fato não é necessariamente a data do registro.
+Validações úteis incluem impedir identificador duplicado, exigir origem e destino diferentes quando cabível, bloquear aceite pelo mesmo usuário em operações críticas e exigir justificativa para lançamento retroativo. Nenhuma validação substitui a revisão de exceções: contas genéricas, movimentos pendentes, bens sem responsável e integrações rejeitadas devem gerar relatórios acionáveis.
 
-> Um notebook saiu em 10 de julho, foi recebido em 11 de julho e lançado no sistema em 15 de julho.
+### 5.3 Integrações e conciliação
 
-Nesse caso, há pelo menos três marcos: saída, recebimento e lançamento. Corrigir o cadastro retroativamente não deve apagar o atraso. A trilha precisa preservar a data real do evento e a data em que a informação foi incluída ou corrigida, permitindo medir tempestividade e exposição.
+Uma integração liga sistemas, mas não elimina a responsabilidade de conferir os dados. O fluxo tem três pontos:
 
-## 4. Fluxo seguro de movimentação
+1. **origem:** produz o evento e valida os campos;
+2. **interface:** transforma, transmite e registra protocolo;
+3. **destino:** aceita ou rejeita e devolve resposta.
 
-### 4.1 Antes do deslocamento
+O protocolo técnico de envio não equivale a lançamento aceito. Uma operação só está conciliada quando origem e destino reconhecem o mesmo evento com valores e classificações compatíveis. Rejeições precisam de fila, responsável, prazo e reprocessamento controlado; reenviar sem corrigir a causa apenas repete o erro.
 
-Uma solicitação deve identificar, conforme o caso:
+### 5.4 Controles de tecnologia
 
-- bem e número patrimonial;
-- origem e destino;
-- localização atual e futura;
-- responsável anterior e futuro;
-- motivo, tipo e duração do evento;
-- estado de conservação;
-- prazo e devolução, se temporário;
-- transporte, embalagem e seguro, se necessários;
-- autorização competente;
-- processo, guia ou termo de suporte.
+Os <abbr title="Controles gerais de tecnologia da informação: medidas que sustentam segurança e confiabilidade dos sistemas">controles gerais de tecnologia da informação</abbr> dão base ao sistema:
 
-O sistema deve validar existência, situação, carga e competência. Bem já baixado, bloqueado, desaparecido, em inventário restritivo ou vinculado a outro evento pendente não deve circular como se estivesse regular.
+- gestão de usuários e privilégios;
+- desenvolvimento e alteração controlados;
+- cópias de segurança e recuperação;
+- continuidade e monitoramento;
+- segurança de infraestrutura.
 
-### 4.2 Durante a movimentação
+Os controles da aplicação atuam no processo patrimonial: campos obrigatórios, cálculos, sequência de aprovações, restrições de estado, totalizações e relatórios de exceção. Se o acesso privilegiado é fraco, até uma boa validação da aplicação pode ser burlada; se a regra da aplicação é ruim, infraestrutura segura apenas executa o erro com estabilidade.
 
-O executor deve conferir identidade e condição do objeto. Para remessas, a IN SEDAP nº 205/1988 exige, no contexto federal, guia de remessa ou nota de transferência com descrição padronizada, quantidade, unidade, preços, volumes, peso, acondicionamento e grau de fragilidade ou perecibilidade, além de comunicação pelo remetente e acusação de recebimento pelo destinatário.
+## 6. Sistema Integrado de Gestão Patrimonial e integração federal
 
-Para material permanente, os itens 7.13.3 a 7.13.5 da instrução orientam que:
+O <abbr title="Sistema Integrado de Gestão Patrimonial">Siads</abbr> é a solução federal para gerenciamento e controle de bens móveis permanentes e de consumo, intangíveis e frota. A Portaria nº 232/2020 alcança a administração pública federal direta, autárquica e fundacional e as empresas públicas dependentes do Poder Executivo federal.
 
-- a redistribuição atualize o termo de responsabilidade com nova localização, estado de conservação e assinatura do novo consignatário;
-- mesmo sob o mesmo consignatário, o bem não seja movimentado sem ciência prévia da unidade administrativa competente;
-- a passagem entre unidades organizacionais ocorra por intermédio dessa unidade competente.
+A portaria estabelece como objetivos, entre outros:
 
-O objetivo não é fazer o papel seguir o bem dias depois. O registro deve acompanhar o evento com o menor intervalo possível, evitando períodos em que cadastro e realidade física indiquem locais diferentes.
-
-### 4.3 Recebimento no destino e encerramento
-
-O destinatário deve:
-
-1. conferir número patrimonial, quantidade e descrição;
-2. examinar o estado de conservação e registrar ressalvas;
-3. confirmar data e localização de entrada;
-4. aceitar a custódia quando competente;
-5. assinar ou aprovar eletronicamente o termo;
-6. devolver ou contestar o evento se houver divergência;
-7. acionar eventual lançamento contábil ou integração;
-8. encerrar a pendência sem apagar o histórico.
-
-Receber fisicamente não significa aceitar silenciosamente dano ou divergência. O aceite deve registrar a condição real. Em movimentação temporária, o sistema também precisa controlar vencimento, prorrogação e devolução.
-
-### 4.4 Carga e descarga na IN SEDAP nº 205/1988
-
-Na terminologia da instrução federal:
-
-- **carga** é a efetiva responsabilidade pela guarda e uso do material pelo consignatário;
-- **descarga** é a transferência dessa responsabilidade;
-- toda entrada ou saída de carga depende de registro e documento justificativo;
-- equipamento ou material permanente não deve ser distribuído sem carga formalizada em Termo de Responsabilidade;
-- a passagem de responsabilidade deve ser apoiada em verificação física e novo termo.
-
-Portanto, descarga não significa necessariamente baixa. Ela pode ocorrer porque a responsabilidade passou a outro consignatário. Confundir os conceitos pode eliminar indevidamente um bem que continua pertencendo à entidade.
-
-### 4.5 Casos de movimentação que exigem desenho próprio
-
-- **teletrabalho:** registrar cautela, endereço ou local autorizado, acessórios, condição, prazo e devolução;
-- **manutenção externa:** relacionar ordem de serviço, prestador, acessórios, condição de saída e retorno;
-- **bem de terceiro:** controlar posse e custódia sem tratá-lo como propriedade da entidade;
-- **bem sob contratado:** definir obrigação de guarda, inventário, comunicação e devolução;
-- **evento temporário:** estabelecer responsável, prazo e retorno;
-- **transferência em lote:** preservar identidade individual e totais de controle;
-- **item em trânsito no inventário:** classificar a situação e confirmar origem, destino e documentação;
-- **devolução com dano:** registrar ressalva, evidência, aceite condicionado e apuração cabível;
-- **movimento cadastrado sem deslocamento:** cancelar ou regularizar com trilha, sem simular o fato.
-
-## 5. Sistema patrimonial
-
-Sistema patrimonial é o conjunto de dados, regras, perfis, fluxos e relatórios que sustenta o controle do acervo. O software é apenas sua implementação tecnológica. Um programa sem processo definido, responsáveis capacitados e dados confiáveis não forma um bom sistema de controle.
-
-### 5.1 Cadastro mestre e ciclo de vida
-
-Deve existir uma fonte mestre para a identidade e a situação do bem. Planilhas auxiliares podem apoiar trabalhos temporários, como coleta de inventário, mas não devem competir como cadastros oficiais.
-
-O histórico do ciclo de vida pode incluir:
-
-1. recebimento e aceitação;
-2. classificação e incorporação;
-3. identificação e tombamento;
-4. distribuição e carga;
-5. uso e manutenção;
-6. movimentações internas e externas;
-7. inventários e conciliações;
-8. ocorrências e regularizações;
-9. destinação e baixa, quando autorizadas.
-
-Cada evento deve registrar autor, data e hora, documento, aprovação, estado anterior e novo estado. Corrigir dado não significa apagar o valor anterior: a trilha de auditoria precisa permitir reconstruir o ocorrido.
-
-### 5.2 Perfis, fluxos e validações
-
-Um sistema confiável deve:
-
-- aplicar menor privilégio e perfis por função;
-- separar solicitação, aprovação, execução e conciliação;
-- impedir eventos incompatíveis ou simultâneos;
-- exigir campos e anexos conforme o tipo de operação;
-- registrar aceite do destino e pendências;
-- conservar logs de criação, alteração, aprovação e cancelamento;
-- alertar para prazos, ausência de responsável, localização inválida e movimento não concluído;
-- exigir justificativa e aprovação para correções sensíveis;
-- gerar relatórios reproduzíveis para inventário e prestação de contas.
-
-O item 7.2.1 da IN SEDAP nº 205/1988 já exigia registro de fácil acesso e dispositivos de alerta para situações indesejadas. O item 7.3 também destaca atualização no menor tempo possível entre fato e registro. Tecnologia moderna amplia essas possibilidades, mas não muda o fundamento.
-
-### 5.3 Integrações
-
-O sistema patrimonial pode trocar dados com:
-
-| Área ou sistema | Informação relacionada |
-| --- | --- |
-| compras e contratos | pedido, fornecedor, nota, garantia e instrumento |
-| almoxarifado | recebimento, aceitação, distribuição e saldo de materiais |
-| orçamento e finanças | empenho, liquidação, pagamento e fonte |
-| contabilidade | reconhecimento, conta, valor, depreciação, perda e baixa |
-| manutenção | ordem de serviço, custo, indisponibilidade e condição |
-| gestão organizacional | unidades, locais, responsáveis e lotação |
-| auditoria | logs, documentos, exceções e evidências |
-
-Integração não é cópia indiscriminada. Deve haver chave estável, origem definida para cada dado, validação da interface, tratamento de falhas e conciliação. Se compras chama o item de uma forma, patrimônio de outra e contabilidade totaliza uma terceira classificação, relatórios podem parecer consistentes internamente e ainda assim não se relacionar.
-
-### 5.4 SIADS e SIAFI como exemplos federais
-
-A Portaria nº 232/2020 instituiu o **Sistema Integrado de Gestão Patrimonial (SIADS)** na administração pública federal direta, autárquica e fundacional e nas empresas públicas dependentes do Poder Executivo federal. O sistema gerencia bens móveis permanentes e de consumo, intangíveis e frota.
-
-Entre seus objetivos estão:
-
-- sistematizar registros conforme o Plano de Contas Aplicado ao Setor Público;
+- sistematizar registros conforme o <abbr title="Plano de Contas Aplicado ao Setor Público">PCASP</abbr>;
 - reconhecer periodicamente depreciação e amortização;
-- automatizar o registro contábil de atos e fatos no **SIAFI**, de forma on-line;
-- sistematizar procedimentos do SISG;
-- apoiar custos, alocação de recursos e qualidade do gasto.
+- automatizar registros no <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">Siafi</abbr>;
+- sistematizar procedimentos do <abbr title="Sistema de Serviços Gerais">Sisg</abbr>;
+- apoiar informações de custos e decisões sobre alocação de recursos.
 
-O exemplo mostra papéis complementares: o SIADS trata gestão patrimonial operacional; o SIAFI recebe registros financeiro-contábeis federais. A integração reduz redigitação, mas exige conciliação e não substitui inventário. Não há base oficial suficiente, nas fontes consultadas, para afirmar que SIADS ou outro produto específico seja o sistema usado pelo TCE-MA.
+O <abbr title="Sistema Integrado de Gestão Patrimonial">Siads</abbr> e o <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">Siafi</abbr> têm funções diferentes: o primeiro organiza a gestão patrimonial; o segundo recebe os registros contábeis federais cabíveis. “Integração on-line” de algumas operações não significa identidade entre os sistemas nem elimina a conciliação.
 
-### 5.5 Segurança, continuidade e qualidade de dados
+A adoção obrigatória decorre do âmbito da portaria, não de o sistema ser tecnicamente acessível. O prazo excepcional máximo introduzido em 2022 para os órgãos e entidades ainda não implantados foi **1º de julho de 2023**. Órgãos federais fora da obrigatoriedade podem seguir procedimento de adesão disponibilizado pelo gestor; isso não torna o sistema automaticamente obrigatório para um tribunal de contas estadual.
 
-Como o sistema sustenta prestação de contas, deve-se proteger:
+A documentação operacional distingue o ambiente de grande porte e o <abbr title="Versão web do Sistema Integrado de Gestão Patrimonial">SiadsWeb</abbr>, que reúnem módulos e funcionalidades do mesmo ecossistema em evolução. Áreas patrimoniais, contábeis, administrativas e de auditoria usam os dados conforme seus perfis. Na migração, o <abbr title="Batimento: comparação formal entre saldos ou registros dos sistemas de origem e destino">batimento</abbr> identifica diferenças entre os sistemas; divergência precisa ser formalmente autorizada e tratada, não ignorada nem apagada.
 
-- **confidencialidade compatível:** acesso apenas a quem necessita, sem ocultar informação pública legítima;
-- **integridade:** prevenção e detecção de alteração indevida;
-- **disponibilidade:** continuidade, cópias de segurança e recuperação;
-- **autenticidade:** identificação de quem executou cada ato;
-- **rastreabilidade:** histórico verificável e exportável.
+> **Aplicabilidade:** esses detalhes explicam o modelo federal. Para o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>, só valem diretamente se houver norma ou decisão competente que os incorpore.
 
-Cadastros duplicados, usuários genéricos, exclusão de logs, perfis excessivos e correções diretas no banco reduzem a força da evidência. Migrações também exigem contagem, totalização, amostragem e conciliação antes e depois da carga de dados.
+## 7. Inventário: testar a realidade, não confirmar a lista
 
-### 5.6 Controles gerais de tecnologia e controles da aplicação
+Inventário físico é a contagem e verificação dos bens existentes. Se a equipe apenas percorre uma lista previamente preenchida e marca todos como encontrados, o procedimento pode reproduzir os erros do cadastro.
 
-#### Controles gerais de tecnologia
+A Instrução Normativa <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 apresenta cinco tipos:
 
-- acesso individual e revisão periódica de perfis;
-- segregação entre desenvolvimento, homologação e produção;
-- gestão de mudanças;
-- backup e recuperação testada;
-- continuidade e tratamento de incidentes;
-- monitoramento de disponibilidade;
-- proteção e retenção de logs.
+| Tipo | Finalidade |
+|---|---|
+| anual | comprovar quantidade e valor em 31 de dezembro |
+| inicial | identificar bens na criação de unidade gestora |
+| transferência de responsabilidade | conferir na mudança de dirigente |
+| extinção ou transformação | verificar o acervo na alteração institucional |
+| eventual | atender iniciativa do dirigente ou órgão fiscalizador |
 
-#### Controles da aplicação patrimonial
+O inventário **rotativo** verifica grupos continuamente ao longo do exercício até cobrir todo o acervo. O inventário **por amostragem** examina amostras de grupo ou classe e infere resultados; por isso, depende de desenho técnico e não equivale à confirmação individual de todos os bens.
 
-- identificador estável e não reutilizável;
-- validação da situação do bem;
-- campos e documentos obrigatórios;
-- alçadas de aprovação;
-- bloqueio de eventos incompatíveis;
-- aceite do destino;
-- totalizações e cálculos validados;
-- tratamento de rejeições de interface;
-- histórico do estado anterior e do novo estado.
+### 7.1 Procedimento confiável
 
-O número patrimonial não deve ser reutilizado depois da baixa. A reutilização mistura aquisições, cargas, manutenção, depreciação, ocorrências e responsabilização de objetos diferentes.
+Um inventário robusto segue estas etapas:
 
-Código de barras, RFID, plaqueta e número de série vinculam o objeto ao cadastro, mas não comprovam isoladamente propriedade, localização atual, condição ou regularidade da carga.
+1. definir escopo, data-base, critérios e responsáveis;
+2. controlar movimentações durante a contagem ou tratá-las em lista de trânsito;
+3. contar e identificar fisicamente, preferencialmente com independência de quem mantém a guarda;
+4. registrar estado de conservação, localização e responsável;
+5. confrontar resultado físico com cadastro e contabilidade;
+6. investigar divergências e reunir evidências;
+7. aprovar ajustes e acompanhar providências.
 
-### 5.7 Integração: origem, interface e destino
+A coleta por aplicativo, código de barras ou identificação por radiofrequência pode ganhar velocidade, mas não resolve etiqueta trocada, leitura duplicada ou bem apresentado fora do local correto. A tecnologia precisa de regras de corte, revisão e exceção.
 
-Toda integração deve definir:
+### 7.2 As quatro camadas da conciliação
 
-1. sistema de origem de cada dado;
-2. chave estável de relacionamento;
-3. regra de transformação;
-4. total de controle;
-5. tratamento de rejeição e duplicidade;
-6. responsável pela correção;
-7. reconciliação periódica.
+A conciliação deve avançar em quatro camadas:
 
-Quando a interface falha, a correção deve ocorrer preferencialmente no sistema que originou o erro. Ajustar apenas o destino pode fazer os sistemas voltarem a divergir na próxima transmissão.
+1. **existência:** o cadastro corresponde a um bem físico;
+2. **localização e custódia:** lugar e responsável coincidem;
+3. **situação administrativa:** uso, trânsito, manutenção e disponibilidade estão corretos;
+4. **valor contábil:** custo, depreciação, redução e saldo concordam com a escrituração.
 
-## 6. Inventário e conciliação
+Divergências típicas:
 
-### 6.1 Inventário físico
+- **sobra física:** bem encontrado sem registro;
+- **falta física:** registro sem bem localizado;
+- **localização incorreta:** bem existe em outra unidade;
+- **responsabilidade desatualizada:** custodiante real difere do termo;
+- **divergência contábil:** quantidade ou valor não coincide entre os controles.
 
-A IN SEDAP nº 205/1988 define inventário físico como instrumento para verificar saldos de estoque, equipamentos e materiais permanentes. Ele permite ajustar dados escriturais ao saldo físico, avaliar materiais, identificar manutenção e constatar bens desnecessários à unidade.
+O ajuste não deve preceder a investigação. Excluir um cadastro para “fechar” a contagem pode ocultar movimentação não registrada, erro de integração ou irregularidade.
 
-No âmbito da instrução federal, os tipos são:
+## 8. Riscos, controles e indicadores
 
-- **anual:** comprova quantidade e valor existentes em 31 de dezembro;
-- **inicial:** identifica e registra bens na criação de unidade gestora;
-- **de transferência de responsabilidade:** acompanha mudança do dirigente da unidade gestora;
-- **de extinção ou transformação:** ocorre quando a unidade é extinta ou transformada;
-- **eventual:** pode ser realizado em qualquer época por iniciativa do dirigente ou órgão fiscalizador.
+O risco é a possibilidade de um evento impedir o objetivo; controle é a resposta desenhada para prevenir, detectar ou corrigir esse evento.
 
-A instrução também admite, como instrumentos gerenciais, inventário rotativo e inventário por amostragem. A modalidade deve respeitar a finalidade e as normas do ente; amostragem gerencial não substitui automaticamente inventário integral exigido para prestação de contas.
+| Risco | Controle preventivo | Controle detectivo ou corretivo |
+|---|---|---|
+| bem sair sem autorização | bloqueio e documento prévio | relatório de saídas sem aceite |
+| responsável permanecer após desligamento | fluxo obrigatório de passagem | lista de cargas de usuários inativos |
+| identificador duplicado | unicidade no cadastro | pesquisa de duplicidades |
+| movimento ficar em trânsito | prazo e alerta | cobrança e apuração |
+| integração falhar | validação antes do envio | fila de rejeições e reconciliação |
+| inventário confirmar erro | contagem independente | recontagem e investigação |
+| acesso indevido | perfil mínimo e autenticação | revisão de logs e privilégios |
 
-O inventário analítico deve identificar ao menos descrição padronizada, número de registro, valor e estado, além dos elementos necessários à perfeita caracterização.
+Controle **preventivo** age antes do erro; **detectivo** revela que ele ocorreu; **corretivo** trata consequência e causa. Uma autorização prévia é preventiva. Um relatório de movimentos sem aceite é detectivo. A correção do cadastro e a revisão do fluxo são corretivas.
 
-### 6.2 Inventariar não é confirmar a listagem
+Materialidade não é apenas valor monetário. Um item barato pode ser sensível por conter dados, ser essencial ao serviço ou existir em grande quantidade. A intensidade do controle deve considerar valor, criticidade, mobilidade, atratividade, possibilidade de reposição e custo do próprio controle.
 
-Uma contagem independente não deve apenas pedir ao responsável que confirme o relatório do sistema. O trabalho precisa verificar identidade, existência, localização, estado e custódia, registrar bens encontrados sem cadastro e procurar bens cadastrados não encontrados.
+### 8.1 Indicadores que levam a ação
 
-Um fluxo possível é:
+Um indicador útil tem definição estável, fonte, responsável, periodicidade e consequência gerencial.
 
-1. planejar escopo, data-base, equipe e critérios;
-2. congelar ou controlar movimentos durante a contagem;
-3. extrair listagem e registrar sua versão;
-4. identificar fisicamente os bens;
-5. realizar reconferência independente de exceções;
-6. classificar diferenças;
-7. obter documentos e justificativas;
-8. autorizar ajustes rastreáveis;
-9. conciliar totais patrimoniais e contábeis;
-10. emitir relatório com causas, providências e pendências.
+[
+	ext{Acurácia física} =
+rac{	ext{bens sem divergência}}{	ext{bens verificados}}
+	imes 100
+]
 
-### 6.3 Conciliação físico-patrimonial-contábil
+[
+	ext{Movimentações no prazo} =
+rac{	ext{movimentações encerradas no prazo}}{	ext{movimentações encerradas}}
+	imes 100
+]
 
-| Comparação | Divergência possível |
-| --- | --- |
-| físico × cadastro | bem não localizado, bem sem registro, etiqueta divergente |
-| cadastro × carga | responsável ou localização desatualizados |
-| cadastro × documento | origem, valor ou situação sem suporte |
-| patrimônio × contabilidade | quantidade, conta ou valor total divergente |
-| sistema × integração | evento rejeitado, duplicado ou processado parcialmente |
-
-Encontrar diferença não autoriza ajustar de imediato para “fechar” o relatório. Primeiro se preservam evidências e se investiga a causa: atraso de registro, movimento pendente, erro de identificação, duplicidade, bem em manutenção, bem de terceiro, falha de integração, dano ou desaparecimento.
-
-Depois da análise, a solução pode ser concluir movimentação, atualizar localização ou termo, corrigir cadastro com aprovação, registrar evento contábil, abrir manutenção ou iniciar apuração. Baixa e responsabilização dependem de pressupostos próprios.
+[
+	ext{Pendências antigas} =
+	ext{movimentações abertas além do limite definido}
+]
 
-### 6.4 Técnicas para inventário confiável
+Acurácia alta não prova sozinha bom controle: o inventário pode ter sido mal desenhado. O indicador precisa ser lido com cobertura, independência da contagem e tratamento das exceções.
 
-- **cutoff:** controlar movimentos próximos à data-base;
-- **contagem cega:** evitar que o saldo esperado induza a equipe;
-- **cadastro → físico:** localizar todos os itens registrados;
-- **físico → cadastro:** identificar objetos sem registro;
-- **recontagem independente:** confirmar exceções;
-- **estratificação por risco:** aumentar rigor para itens portáteis, críticos ou valiosos;
-- **cadeia de custódia das listas:** preservar versão, autoria e alterações;
-- **independência:** evitar que o único custodiante seja o único conferente;
-- **causa-raiz:** distinguir atraso, falha de interface, erro de identidade, movimento clandestino, dano e desaparecimento.
+## 9. Como resolver casos de prova
 
-O aplicativo de inventário eletrônico pode acelerar a coleta por código de barras, mas não substitui o procedimento, a análise de exceções, a conciliação nem a plataforma patrimonial.
+Em vez de decorar uma resposta para cada cenário, percorra a cadeia:
 
-### 6.5 Conciliação em quatro camadas
+1. qual fato ocorreu?
+2. qual dimensão mudou: física, administrativa, responsabilidade, contábil ou jurídica?
+3. qual documento e autorização sustentam o fato?
+4. quem entrega, transporta, recebe e aprova?
+5. quais registros devem mudar?
+6. qual conciliação confirma o encerramento?
+7. que exceção exige apuração?
 
-| Camada | Comparação |
-| --- | --- |
-| física | objeto encontrado × item esperado |
-| administrativa | físico × cadastro, carga, localização e documento |
-| contábil | cadastro patrimonial × razão, conta e valor |
-| tecnológica | sistema de origem × interface × sistema de destino |
+### Caso 1 — mudou de sala, mas não de responsável
 
-A solução depende da causa. Divergência causada por movimento pendente não recebe o mesmo tratamento de duplicidade, dano, desaparecimento ou erro de conta.
+Há movimento físico e mudança de localização; pode não haver transferência de responsabilidade. Mesmo assim, a Instrução Normativa <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 exige ciência prévia da unidade administrativa competente e atualização da localização. “Mesmo responsável” não torna o deslocamento invisível.
 
-## 7. Riscos, controles e indicadores
+### Caso 2 — mudou o responsável, mas o bem ficou no lugar
 
-### 7.1 Riscos frequentes
+Não houve deslocamento físico, mas houve descarga do anterior e carga do novo consignatário. A solução exige conferência, atualização do termo e aceite do novo responsável.
 
-- bem sem identificação, localização ou responsável;
-- deslocamento físico antes da autorização ou sem aceite do destino;
-- termo assinado que não corresponde ao acervo real;
-- bem em manutenção externa registrado como desaparecido ou ainda disponível;
-- movimentação pendente indefinidamente;
-- inventário feito apenas por confirmação do sistema;
-- planilhas paralelas com versões conflitantes;
-- mesma pessoa solicitando, aprovando, registrando e conciliando;
-- integração que duplica ou perde eventos;
-- ajuste que apaga o histórico;
-- baixa usada para ocultar divergência;
-- cadastro correto em quantidade, mas errado em valor ou conta.
+### Caso 3 — inventário encontrou um bem em trânsito
 
-### 7.2 Indicadores úteis
+A data de corte define se o bem pertence ao saldo da origem, do destino ou a uma conta/estado de trânsito conforme o procedimento adotado. A equipe verifica documento, data efetiva, entrega e aceite; não conta o bem duas vezes nem o elimina dos dois lados.
 
-| Indicador | Leitura |
-| --- | --- |
-| bens sem responsável ou localização válida | falha de cadastro e custódia |
-| movimentos pendentes por idade | risco de realidade física superar o registro |
-| tempo entre movimento e atualização | tempestividade do controle |
-| termos atualizados | aderência entre carga e situação real |
-| inventário concluído no prazo | execução do plano de verificação |
-| divergências em quantidade e valor | diferença físico-patrimonial-contábil |
-| tempo de regularização | capacidade de tratar exceções |
-| eventos sem documento ou aceite | fragilidade da trilha de auditoria |
-| bens ociosos ou sem uso previsto | oportunidade de realocação |
-| perdas, danos e reincidência | exposição e eficácia dos controles |
+### Caso 4 — o sistema patrimonial e a contabilidade discordam
 
-Não há meta universal para esses indicadores. A entidade deve definir critérios segundo porte, dispersão, criticidade, materialidade, capacidade operacional e apetite a risco. “Zero divergência” pode significar excelente controle, mas também inventário superficial; o indicador precisa ser acompanhado da qualidade do procedimento.
+Primeiro se identifica a origem do evento e a resposta da integração. Depois se corrige o dado ou lançamento com autorização e trilha. A simples igualdade forçada entre saldos pode ocultar a causa.
 
-### 7.3 Indicadores com fórmula
+## 10. Distinções decisivas
 
-| Indicador | Fórmula básica |
-| --- | --- |
-| acurácia por quantidade | itens corretos ÷ itens verificados |
-| acurácia por valor | valor conciliado ÷ valor verificado |
-| bens sem carga válida | bens sem responsável válido ÷ bens ativos |
-| pendências vencidas | movimentos vencidos ÷ movimentos abertos |
-| regularização | divergências resolvidas ÷ divergências confirmadas |
-| cobertura do inventário rotativo | itens inventariados no ciclo ÷ universo previsto |
-| reincidência | ocorrências com causa repetida ÷ ocorrências totais |
-| tempestividade | mediana entre data efetiva e data do lançamento |
-
-A taxa precisa definir numerador, denominador, período e universo. Acurácia por quantidade e por valor podem produzir leituras diferentes: poucos itens caros podem concentrar a maior exposição.
-
-### 7.4 Perspectiva de auditoria
-
-| Elemento | Aplicação |
-| --- | --- |
-| critério | norma exige autorização e termo atualizado |
-| condição | parte dos notebooks mudou de local sem registro |
-| causa | usuários deslocam bens diretamente |
-| efeito | cadastro inexato e risco de perda ou responsabilização equivocada |
-| evidência | inspeção, logs, termos, lotação e entrevistas |
-| encaminhamento | fluxo eletrônico, validação, comunicação e monitoramento |
-
-A recomendação deve atacar a causa. Apenas atualizar o cadastro corrige a condição encontrada, mas não impede novas movimentações irregulares.
-
-## 8. Casos integrados
-
-### Caso 1: mudança de sala com o mesmo usuário
-
-Um notebook passa da sala 201 para a 305 e permanece com o mesmo servidor. Não há troca necessária de propriedade nem de responsável, mas existe mudança física e cadastral. A ciência ou autorização competente, a nova localização e a data devem ser registradas. A IN SEDAP nº 205/1988, como referência federal, exige ciência prévia mesmo sob o mesmo consignatário.
-
-### Caso 2: troca de responsável sem deslocamento
-
-O dirigente deixa a unidade, e o mobiliário permanece no local. Deve-se verificar fisicamente o acervo, resolver pendências e formalizar a nova responsabilidade. Copiar a carga antiga para o sucessor sem conferência transfere erro, não controle.
-
-### Caso 3: equipamento enviado para manutenção
-
-O bem sai temporariamente para empresa contratada. O sistema deve registrar ordem, prestador, data, estado, acessórios, previsão de retorno e responsável pelo acompanhamento. A propriedade não muda. Na devolução, condição e funcionamento precisam ser conferidos antes do encerramento.
-
-### Caso 4: cadastro e contabilidade discordam
-
-O sistema patrimonial totaliza 100 equipamentos, e a contabilidade registra valor correspondente a 102. A diferença pode decorrer de integração pendente, duplicidade, baixa não contabilizada ou critério de reconhecimento. Não se escolhe arbitrariamente um total: patrimônio e contabilidade investigam documentos e eventos até explicar e regularizar a diferença.
-
-### Caso 5: bem não encontrado no inventário
-
-A comissão preserva a listagem, reconfere localizações, consulta movimentos e manutenção, ouve responsáveis e registra a exceção. Somente depois se decide por correção cadastral, localização, apuração ou outro procedimento. Excluir o registro antes da investigação destrói evidência e pode mascarar dano.
-
-### Caso 6: usuário desligado
-
-O sistema mantém a carga em nome de servidor que deixou a unidade. A existência física dos bens não elimina a divergência. É necessário inventariar, verificar a passagem de responsabilidade, formalizar o novo responsável e preservar o período em que a carga ficou desatualizada.
-
-### Caso 7: item em trânsito durante o inventário
-
-O bem não está na origem nem chegou ao destino. A comissão verifica guia, autorização, transportador, prazo, estado do fluxo e confirmação posterior. Classificá-lo imediatamente como desaparecido ou simplesmente ignorá-lo seriam respostas inadequadas.
-
-### Caso 8: integração rejeitada
-
-A baixa foi aprovada no patrimônio, mas a interface contábil rejeitou a conta. O evento deve permanecer pendente, ser corrigido na origem ou na regra de integração e depois conciliado. Alterar manualmente apenas a contabilidade enfraquece a trilha e pode gerar nova divergência.
-
-### Caso 9: identificador reutilizado
-
-Após a baixa de uma impressora, o número patrimonial foi atribuído a um notebook. O histórico tornou-se ambíguo. O identificador antigo deveria permanecer encerrado e o novo bem receber número próprio.
-
-### Caso 10: inventário sem independência
-
-O responsável pela carga apenas assina a listagem que ele próprio mantém. O procedimento não produz evidência independente suficiente. É preciso verificar fisicamente, testar nos dois sentidos e reconferir exceções.
-
-## 9. Pegadinhas de prova
-
-1. **Registro analítico não é registro sintético.** O primeiro caracteriza individualmente; o segundo totaliza classes patrimoniais.
-2. **Inventário não é mera impressão do sistema.** Ele confronta informação com existência e condição físicas.
-3. **Carga não é propriedade.** Indica responsabilidade por guarda e uso.
-4. **Descarga não é necessariamente baixa.** Na IN SEDAP nº 205/1988, é transferência da responsabilidade.
-5. **Movimento físico não implica sempre movimento contábil.** Cada dimensão deve ser analisada.
-6. **Troca de responsável pode ocorrer sem deslocamento.** Exige conferência e formalização.
-7. **Sistema não corrige processo ruim sozinho.** Dados, papéis, validações e inventário continuam necessários.
-8. **SIADS e SIAFI não são sinônimos.** Um gerencia patrimônio federal; o outro concentra registros financeiro-contábeis federais.
-9. **SIADS não é automaticamente o sistema do TCE-MA.** A Portaria nº 232/2020 possui escopo federal específico.
-10. **O Decreto nº 9.373/2018 foi revogado.** No recorte federal atual, vale o Decreto nº 12.785/2025.
-11. **Cessão federal atual é precária e temporária; transferência é permanente.** A segunda transmite também propriedade.
-12. **Alienação e baixa não são simples movimentações internas.** Exigem causas, competências e procedimentos próprios.
-13. **Correção sem histórico enfraquece a evidência.** Ajuste deve ser autorizado e rastreável.
-14. **Indicador não tem meta universal.** O contexto da entidade define tolerância e prioridade.
+- cadastro não prova existência física;
+- plaqueta identifica, mas não transfere propriedade;
+- termo de responsabilidade documenta custódia, não culpa automática;
+- movimento físico não implica mudança de responsável;
+- cessão transfere posse nos termos aplicáveis; alienação transfere propriedade;
+- baixa é resultado de processo regular, não remédio para divergência;
+- envio técnico não significa integração aceita;
+- inventário encontra diferenças; conciliação explica e trata as diferenças;
+- sistema automatiza controles, mas não substitui autorização, conferência nem apuração;
+- norma federal não se aplica automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
