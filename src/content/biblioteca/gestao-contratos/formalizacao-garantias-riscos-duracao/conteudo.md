@@ -8,442 +8,365 @@ storageId: formalizacao-riscos-duracao
 
 # Formalização, garantias, alocação de riscos e duração contratual
 
-## 1. Visão geral e recorte
+Imagine, como **exemplo hipotético**, que a Administração tenha concluído a seleção de uma empresa para fornecer cadeiras de escritório. Há proposta vencedora e o objeto já foi atribuído ao vencedor, mas isso ainda não responde às perguntas decisivas da fase contratual: **quem está obrigado a assinar, em qual documento, com quais cláusulas, a partir de quando o ajuste produz efeitos, quem suporta um risco e até quando o vínculo pode durar?**
 
-Este assunto acompanha os **arts. 89 a 114 da Lei nº 14.133/2021**. O percurso começa pela convocação do vencedor e pela formação do ajuste, passa pelas cláusulas, publicidade e garantias, examina a distribuição contratual de riscos e termina com os diferentes regimes de duração.
+A sequência mental deste assunto é:
 
-O recorte deve ser mantido claro:
+**vencedor → convocação → formalização → conteúdo do contrato → divulgação e eficácia → garantia → alocação de riscos → prerrogativas públicas → duração**.
 
-| Pergunta | Núcleo deste assunto |
-|---|---|
-| Como nasce e se documenta o contrato? | formalização, convocação, cláusulas e instrumento |
-| Quando o ajuste se torna eficaz? | divulgação no PNCP |
-| Como se protege o cumprimento? | garantias e seguro-garantia |
-| Quem suporta cada evento superveniente? | matriz de alocação de riscos |
-| Quais poderes especiais possui a Administração? | prerrogativas do art. 104 |
-| Por quanto tempo o contrato pode vigorar? | regras dos arts. 105 a 114 |
+Três distinções guiam todo o capítulo: **seleção não é formalização; assinatura não é eficácia; prazo de execução não é prazo de vigência**.
 
-Execução, fiscalização, alterações e recomposição detalhada pertencem ao Assunto 128. Extinção, recebimento e pagamento ficam no 129; infrações e sanções, no 130. Aqui, remissões a esses temas servem apenas para compreender o contrato formado.
+> **Corte de prova:** este capítulo considera a legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Os valores monetários são os vigentes desde **1º de janeiro de 2026**, conforme o Decreto nº 12.807/2025. Mudanças posteriores ao edital aparecem expressamente como **pós-edital** e não substituem a regra correspondente ao corte.
 
-O corte jurídico adotado é **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Alterações legislativas posteriores são identificadas expressamente como **pós-edital** e não substituem a regra aplicável ao corte. Os valores monetários são os vigentes desde **1º de janeiro de 2026**, conforme o Decreto nº 12.807/2025.
+O núcleo legal são os **arts. 89 a 114 da Lei nº 14.133/2021**. A execução, a fiscalização cotidiana, as alterações e o restabelecimento detalhado do equilíbrio econômico-financeiro são aprofundados no assunto seguinte. Extinção, recebimento e pagamento vêm depois. Aqui entram apenas as pontes mínimas necessárias para entender o contrato que foi formado.
 
-## 2. Regime jurídico e conteúdo básico
+## 1. Do vencedor ao contrato: o vínculo não nasce por inércia
 
-### 2.1 Direito público e aplicação supletiva
+Ao fim da seleção, o objeto é atribuído ao vencedor. A partir dessa atribuição, ele ocupa a posição de **adjudicatário** e pode ser convocado para transformar o resultado do procedimento em vínculo contratual.
 
-Os contratos regidos pela Lei nº 14.133/2021 submetem-se:
-
-1. às próprias cláusulas;
-2. aos preceitos de direito público; e
-3. supletivamente, aos princípios da teoria geral dos contratos e às disposições de direito privado.
-
-O direito privado não substitui o regime administrativo: ele preenche lacunas de modo compatível com as normas públicas.
-
-Todo contrato deve mencionar:
-
-- nomes das partes e de seus representantes;
-- finalidade;
-- ato que autorizou sua lavratura;
-- número do processo da licitação ou da contratação direta;
-- sujeição dos contratantes à Lei e às cláusulas contratuais.
-
-As condições de execução devem ser claras e precisas, com direitos, obrigações e responsabilidades coerentes com o edital e a proposta vencedora. Na contratação direta, a vinculação ocorre com o ato autorizador e a respectiva proposta.
-
-> **Pegadinha:** a aplicação supletiva do direito privado não elimina as prerrogativas públicas nem autoriza afastar o edital, a proposta ou o ato da contratação direta.
-
-## 3. Convocação para contratar
-
-### 3.1 Vencedor e prazo
-
-A Administração convoca regularmente o licitante vencedor para:
+A Administração deve convocá-lo regularmente para, dentro do prazo e das condições definidos no edital:
 
 - assinar o termo de contrato; ou
-- aceitar ou retirar o instrumento equivalente,
+- aceitar ou retirar outro instrumento escrito admitido pela lei, chamado **instrumento equivalente**.
 
-dentro do prazo e das condições do edital. Se não o fizer, o vencedor perde o direito à contratação, sem prejuízo das sanções cabíveis.
+Se o convocado não cumprir a obrigação, perde o direito à contratação, sem prejuízo das sanções cabíveis. O prazo pode ser prorrogado **uma única vez e por igual período**, desde que o pedido seja feito durante o prazo original, venha justificado e seja aceito pela Administração.
 
-O prazo de convocação pode ser prorrogado **uma única vez e por igual período**, desde que:
+Se, ao contrário, o prazo de validade da proposta terminar sem convocação, os licitantes ficam liberados dos compromissos assumidos. Assim, o vencedor convocado não pode abandonar a contratação sem consequência, nem a Administração manter a proposta vinculante indefinidamente.
 
-1. a parte solicite a prorrogação durante o prazo original;
-2. apresente justificativa; e
-3. a Administração aceite o motivo.
+### 1.1 Se o vencedor recusar, a Administração não pula direto para nova licitação
 
-Se o prazo de validade da proposta expirar sem convocação, os licitantes ficam liberados dos compromissos assumidos.
+A lei preserva primeiro o resultado da seleção já realizada.
 
-### 3.2 Recusa e licitantes remanescentes
+O caminho é:
 
-Se o convocado não assinar, aceitar ou retirar o instrumento no prazo, a Administração pode chamar os remanescentes, na ordem de classificação, para contratar **nas condições propostas pelo vencedor**.
+1. convocar os licitantes remanescentes, na ordem de classificação, para contratar **nas condições propostas pelo vencedor**;
+2. se ninguém aceitar, convocá-los, ainda na ordem, para negociar preço melhor, mesmo que acima do preço do adjudicatário, observado o valor estimado e sua atualização prevista no edital;
+3. frustrada a negociação, adjudicar e contratar nas condições ofertadas pelos remanescentes, respeitada a classificação.
 
-Se ninguém aceitar essas condições, a Administração, observado o valor estimado e sua atualização prevista no edital, pode seguir duas etapas:
+Primeiro tenta-se preservar o negócio vencedor; depois, aproveitar a competição já realizada sem ultrapassar o limite econômico do procedimento.
 
-1. convocar os remanescentes, na ordem, para negociar preço melhor, mesmo que acima do preço do adjudicatário;
-2. frustrada a negociação, adjudicar e contratar nas condições ofertadas pelos remanescentes, respeitada a classificação.
+A recusa **injustificada** do adjudicatário caracteriza descumprimento total da obrigação assumida, sujeita-o às penalidades e causa a perda imediata da garantia de proposta em favor do órgão ou entidade licitante. Essa consequência não se estende ao remanescente chamado apenas para a etapa de negociação.
 
-A recusa injustificada do adjudicatário constitui descumprimento total, sujeita-o às penalidades e causa a perda imediata da garantia de proposta em favor do órgão ou entidade licitante. Essa regra não alcança o remanescente convocado apenas para a negociação da primeira etapa.
+### 1.2 E se um contrato já iniciado for rescindido?
 
-> **Distinção:** o primeiro chamamento tenta preservar as condições do vencedor. Só depois da recusa de todos é que se negocia com remanescentes, ainda sob o limite do valor estimado atualizado.
+A Administração pode convocar classificados da licitação original para concluir remanescente de obra, serviço ou fornecimento, observando os mesmos critérios de ordem, preservação das condições e negociação.
 
-### 3.3 Remanescente de contrato extinto
+A Lei nº 14.770/2023 acrescentou um efeito orçamentário útil: eventual saldo a liquidar de despesa empenhada ou saldo inscrito em **restos a pagar não processados** — despesas empenhadas que ainda não passaram pela liquidação — pode ser aproveitado em favor da nova contratada. Se as convocações fracassarem, o saldo pode ser considerado disponibilidade efetiva para nova licitação, desde que haja vantagem para a Administração e seja mantido o objeto programado.
 
-Em consequência de rescisão contratual, a Administração pode convocar classificados para concluir remanescente de obra, serviço ou fornecimento, seguindo os mesmos critérios de chamamento e negociação.
+## 2. O que transforma a seleção em um contrato juridicamente identificável?
 
-A Lei nº 14.770/2023 acrescentou duas regras:
+Os contratos regidos pela Lei nº 14.133/2021 submetem-se às próprias cláusulas e aos preceitos de direito público. Princípios da teoria geral dos contratos e regras de direito privado entram **supletivamente**, isto é, para preencher o que for compatível e não estiver resolvido pelo regime público.
 
-- eventual saldo a liquidar inscrito em despesas empenhadas ou em restos a pagar não processados pode ser aproveitado em favor da nova contratada;
-- frustradas as providências de convocação e negociação, esse saldo pode ser computado como disponibilidade efetiva para nova licitação, se houver vantagem para a Administração e for mantido o objeto programado.
+Essa ordem preserva a vinculação ao procedimento, os poderes especiais da Administração, os controles, a publicidade e a relação econômica originalmente pactuada.
 
-## 4. Forma, transparência e controles prévios
+Todo contrato deve identificar, entre outros elementos:
 
-### 4.1 Regra escrita e exceção de sigilo
+- as partes e seus representantes;
+- a finalidade;
+- o ato que autorizou sua lavratura;
+- o número do processo da licitação ou da contratação direta;
+- a sujeição das partes à Lei nº 14.133/2021 e às cláusulas contratuais.
 
-Contratos e aditamentos devem:
+As condições de execução devem ser claras e precisas. Em licitação, o instrumento precisa ser coerente com **edital + proposta vencedora**. Na contratação direta, a referência é **ato autorizador + proposta**. O contrato não é uma oportunidade para redesenhar, depois da seleção, aquilo que serviu de base para a escolha do fornecedor.
 
-- ter forma escrita;
-- integrar o processo que originou a contratação;
-- ser divulgados; e
-- permanecer disponíveis ao público em sítio eletrônico oficial.
+### 2.1 Forma escrita, publicidade e controles antes de assinar ou prorrogar
 
-O sigilo só é admitido quando imprescindível à segurança da sociedade e do Estado, conforme a legislação de acesso à informação. A forma eletrônica é permitida se forem atendidas as exigências regulamentares.
+Contratos e **aditamentos** — instrumentos que formalizam modificações do ajuste — devem ter forma escrita, integrar o processo que originou a contratação, ser divulgados e permanecer disponíveis ao público em sítio eletrônico oficial. A forma eletrônica é admitida se respeitar as exigências regulamentares.
 
-Contratos relativos a direitos reais sobre imóveis exigem **escritura pública lavrada em notas de tabelião**. Seu teor também deve ser divulgado e mantido em sítio eletrônico oficial.
+O sigilo é exceção e somente cabe quando imprescindível à segurança da sociedade e do Estado, nos termos da legislação de acesso à informação.
 
-### 4.2 Verificações antes da formalização ou prorrogação
+Há uma formalidade especial para contratos relativos a direitos reais sobre imóveis: eles devem ser formalizados por **escritura pública lavrada em notas de tabelião**, sem afastar a divulgação e a disponibilidade pública de seu teor.
 
 Antes de formalizar ou prorrogar a vigência, a Administração deve:
 
 1. verificar a regularidade fiscal do contratado;
-2. consultar o Cadastro Nacional de Empresas Inidôneas e Suspensas (Ceis);
-3. consultar o Cadastro Nacional de Empresas Punidas (Cnep);
+2. consultar o <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">Ceis</abbr>;
+3. consultar o <abbr title="Cadastro Nacional de Empresas Punidas">Cnep</abbr>;
 4. emitir certidões negativas de inidoneidade, impedimento e débitos trabalhistas;
-5. juntar esses documentos ao processo.
+5. juntar os documentos ao processo.
 
-Não basta verificar apenas no certame. A lei renova o controle nos momentos de formação e prorrogação.
+O controle não termina na etapa que verifica se o fornecedor reúne condições para contratar: ele é renovado na formação e na prorrogação.
 
-## 5. Cláusulas necessárias
+## 3. Cláusulas necessárias: o contrato precisa responder às perguntas da execução
 
-O art. 92 reúne as cláusulas exigidas em todo contrato. Para estudo, elas podem ser agrupadas:
+O art. 92 lista cláusulas necessárias em todo contrato. Em vez de decorar dezenove incisos isolados, organize-os pelas perguntas que o instrumento precisa responder.
 
-| Bloco | Cláusulas necessárias |
-|---|---|
-| objeto e fonte | objeto e características; vinculação ao edital/proposta ou ao ato de contratação direta/proposta; legislação aplicável |
-| execução | regime de execução ou forma de fornecimento; prazos de início, etapas, conclusão, entrega, observação e recebimento; modelo de gestão; casos de extinção |
-| preço | preço, pagamento, reajuste, data-base, periodicidade e atualização monetária; medição; liquidação e pagamento; prazos de resposta à repactuação e ao reequilíbrio |
-| orçamento e riscos | crédito orçamentário; matriz de riscos, quando cabível; garantias exigidas, inclusive por antecipação de pagamento |
-| objeto após entrega | garantia mínima, manutenção e assistência técnica; condições de importação, data e câmbio, se aplicáveis |
-| deveres e consequências | direitos e responsabilidades; penalidades e multas; manutenção da habilitação ou qualificação; reservas legais de cargos |
+| Pergunta | O que deve aparecer no contrato |
+| --- | --- |
+| **o que foi contratado e de onde vem a obrigação?** | objeto e características; vinculação ao edital e à proposta ou ao ato de contratação direta e à proposta; legislação aplicável |
+| **como e quando será executado?** | regime de execução ou forma de fornecimento; prazos de início, etapas, conclusão, entrega, observação e recebimento; modelo de gestão; casos de extinção |
+| **quanto e como será pago?** | preço; condições de pagamento; reajustamento, data-base e periodicidade; atualização monetária; critérios e periodicidade de medição; prazos de <abbr title="verificação do direito do credor antes do pagamento">liquidação</abbr> e pagamento |
+| **como o contrato reage a variações e riscos?** | <abbr title="cláusula que distribui riscos e seus efeitos entre as partes">matriz de riscos</abbr>, quando cabível; prazo de resposta à <abbr title="revisão analítica da variação de custos em serviço contínuo">repactuação</abbr>; prazo de resposta ao pedido de restabelecimento do <abbr title="relação econômica inicialmente pactuada entre encargos e contraprestação">equilíbrio econômico-financeiro</abbr>; garantias exigidas |
+| **qual proteção permanece depois da entrega?** | garantia mínima do objeto; manutenção e assistência técnica; condições de importação, data e taxa de câmbio, quando cabíveis |
+| **quais deveres e consequências acompanham as partes?** | direitos e responsabilidades; penalidades e multas; manutenção das condições de habilitação ou qualificação; reservas legais de cargos; crédito orçamentário que suportará a despesa |
 
-A reserva legal abrange cargos para pessoa com deficiência, reabilitado da Previdência Social e aprendiz.
+A reserva legal abrange pessoa com deficiência, reabilitado da Previdência Social e aprendiz, além de outras hipóteses previstas em normas específicas.
 
-### 5.1 Foro e preparação da execução
+### 3.1 Foro e preparação para a ordem de serviço
 
-A regra é cláusula que declare competente o foro da sede da Administração, inclusive em contrato com pessoa domiciliada no exterior. A lei ressalva:
+A regra é cláusula que declare competente o foro da sede da Administração, inclusive quando a outra parte esteja domiciliada no exterior. A lei ressalva três situações internacionais:
 
 - licitação internacional financiada por organismo financeiro internacional do qual o Brasil participe ou por agência estrangeira de cooperação;
-- contratação de empresa estrangeira para equipamento fabricado e entregue no exterior, com autorização do Chefe do Poder Executivo;
+- contratação de empresa estrangeira para equipamento fabricado e entregue no exterior, precedida de autorização do Chefe do Poder Executivo;
 - aquisição feita por unidade administrativa sediada no exterior.
 
-Conforme o objeto e o regime de execução, o contrato deve prever período anterior à ordem de serviço para verificar pendências, liberar áreas ou adotar outras providências necessárias ao início regular.
+Conforme o objeto e o regime de execução, o contrato também deve prever um período anterior à ordem de serviço para verificar pendências, liberar áreas ou adotar providências necessárias ao início regular. É a ponte entre “contrato assinado” e “execução pronta para começar”.
 
-### 5.2 Reajustamento, repactuação e medição
+## 4. Três mecanismos econômicos que não podem ser confundidos
 
-Todo contrato deve estabelecer índice de reajustamento, independentemente da duração, com data-base vinculada à data do orçamento estimado. Podem existir vários índices específicos ou setoriais, se refletirem os diferentes insumos.
+Antes de chegar às garantias e aos riscos, é preciso distinguir três formas de lidar com mudanças econômicas.
 
-Nos serviços contínuos, respeitado o interregno mínimo de **um ano**:
+**Reajustamento em sentido estrito** corrige a variação ordinária de preços por aplicação de índice. Todo contrato deve trazer índice de reajustamento, independentemente de sua duração, com data-base vinculada à data do orçamento estimado. Podem existir índices específicos ou setoriais diferentes para insumos diferentes.
 
-| Estrutura de custos | Critério |
-|---|---|
-| sem dedicação exclusiva ou predominância de mão de obra | reajustamento em sentido estrito, por índice específico ou setorial |
-| com dedicação exclusiva ou predominância de mão de obra | repactuação, mediante demonstração analítica da variação dos custos |
+**Repactuação** recompõe, por demonstração analítica, a variação dos custos de serviços contínuos com dedicação exclusiva ou predominância de mão de obra. Nos serviços contínuos sem essa característica, a regra é o reajustamento por índice. Em ambos os casos, deve-se respeitar o intervalo mínimo de **um ano**.
 
-Em obras e serviços de engenharia, a medição será mensal sempre que compatível com o regime de execução. Nos serviços contínuos com dedicação exclusiva ou predominância de mão de obra, o prazo de resposta ao pedido de repactuação será preferencialmente de **um mês**, contado do fornecimento da documentação legal.
+**Restabelecimento do equilíbrio econômico-financeiro** trata situações em que uma causa juridicamente relevante afeta a relação inicial entre encargos e contraprestação. O assunto seguinte aprofunda suas hipóteses; aqui importa saber que o contrato prevê prazo de resposta e que a matriz de riscos — cláusula que distribui previamente eventos e seus efeitos entre as partes — pode atribuir certos eventos a uma delas.
 
-Desde a Lei nº 14.770/2023, adimplemento da obrigação contratual compreende a prestação do serviço, realização da obra, entrega do bem ou de parcela, e qualquer outro evento contratual ao qual esteja vinculada a emissão do documento de cobrança.
+Outras regras do art. 92 ajudam a conectar o documento à execução:
 
-## 6. Direitos patrimoniais sobre projetos e tecnologia
+- em obras e serviços de engenharia, a medição será mensal sempre que compatível com o regime de execução;
+- nos serviços contínuos com dedicação exclusiva ou predominância de mão de obra, o prazo de resposta ao pedido de repactuação será preferencialmente de **um mês**, contado do fornecimento da documentação exigida;
+- **adimplemento**, para essa disciplina, é a realização do evento contratual que autoriza a emissão do documento de cobrança: prestação do serviço, execução da obra, entrega do bem ou parcela, ou outro evento previsto no ajuste.
 
-Na contratação de projetos ou serviços técnicos especializados, inclusive software e documentação técnica associada, o autor deve ceder à Administração todos os direitos patrimoniais. A Administração poderá utilizar e alterar o produto em outras ocasiões sem nova autorização.
+### 4.1 Projetos, software e outros resultados intelectuais
 
-Se o projeto for obra imaterial tecnológica insuscetível de privilégio, a cessão inclui dados, documentos e elementos sobre concepção, desenvolvimento, fixação e aplicação da tecnologia.
+Quando a Administração contrata projetos ou serviços técnicos especializados, inclusive desenvolvimento de programas de computador (software) e documentação técnica associada, a regra é a cessão dos **direitos patrimoniais** relativos ao produto. Isso permite que a Administração utilize e altere o resultado em outras ocasiões sem nova autorização do autor.
 
-A Administração pode dispensar a cessão quando a contratação envolver pesquisa e desenvolvimento científico, tecnológico ou de inovação, considerados os princípios e mecanismos da Lei nº 10.973/2004. Se a Administração alterar posteriormente o projeto, deve comunicar o autor e promover os registros nos órgãos competentes.
+Se a obra imaterial tecnológica não puder ser protegida por privilégio, a cessão alcança dados, documentos e elementos sobre concepção, desenvolvimento, fixação e aplicação da tecnologia.
 
-## 7. Divulgação e eficácia
+A Administração pode dispensar a cessão quando a contratação envolver pesquisa e desenvolvimento científico, tecnológico ou de inovação, considerados os mecanismos da Lei nº 10.973/2004. Se posteriormente alterar o projeto, deve comunicar o autor e promover os registros cabíveis.
 
-A divulgação no **Portal Nacional de Contratações Públicas (PNCP)** é condição indispensável para a eficácia do contrato e de seus aditamentos.
+A regra é patrimonial; não autoriza concluir que a autoria intelectual desaparece.
 
-| Origem do contrato | Prazo contado da assinatura |
-|---|---:|
-| licitação | 20 dias úteis |
-| contratação direta | 10 dias úteis |
+## 5. Qual documento formaliza o ajuste — e quando ele se torna eficaz?
 
-Contrato urgente produz efeitos desde a assinatura, mas deve ser publicado nos mesmos prazos, sob pena de nulidade.
+A regra é usar **termo de contrato**. A lei permite substituí-lo por outro instrumento escrito hábil — por exemplo, carta-contrato, nota de empenho, autorização de compra ou ordem de execução — apenas em duas hipóteses:
 
-Na contratação de profissional artístico por inexigibilidade, a divulgação discrimina cachê de artista, músicos ou banda, transporte, hospedagem, infraestrutura, logística e demais despesas específicas.
-
-No caso de obras, a Administração também publica em sítio oficial:
-
-- em até **25 dias úteis após a assinatura**, quantitativos e preços unitários e totais contratados;
-- em até **45 dias úteis após a conclusão**, quantitativos executados e preços praticados.
-
-> **Pegadinha:** a assinatura forma o vínculo, mas a divulgação no PNCP condiciona sua eficácia. A urgência antecipa os efeitos, não elimina a obrigação de publicar.
-
-## 8. Termo de contrato, instrumentos equivalentes e verbalidade
-
-### 8.1 Quando o termo pode ser substituído
-
-O instrumento de contrato é obrigatório. A Administração pode substituí-lo por carta-contrato, nota de empenho, autorização de compra, ordem de execução ou outro instrumento hábil apenas em:
-
-1. dispensa de licitação em razão do valor; ou
+1. dispensa de licitação em razão do valor;
 2. compra com entrega imediata e integral, sem obrigações futuras, inclusive assistência técnica, independentemente do valor.
 
-Entrega imediata é a realizada em até **30 dias** da ordem de fornecimento. Se houver manutenção, garantia operacional, suporte, assistência técnica ou outra obrigação futura, a segunda hipótese não se aplica.
+Para a Lei nº 14.133/2021, entrega imediata é a realizada em até **30 dias** da ordem de fornecimento. O prazo curto, sozinho, não basta: se houver manutenção, suporte, assistência técnica ou qualquer obrigação futura, a segunda hipótese de substituição não se aplica.
 
-Mesmo quando o termo for substituído, as cláusulas do art. 92 aplicam-se no que couber.
+Mesmo quando o termo é substituído, as cláusulas do art. 92 incidem no que couber.
 
-### 8.2 Contrato verbal
+### 5.1 Instrumento equivalente não é contrato verbal
 
-Contrato verbal com a Administração é nulo e não produz efeito. A única exceção abrange pequenas compras ou serviços de pronto pagamento de valor não superior a **R$ 13.098,41 em 2026**.
+Contrato verbal com a Administração é nulo e não produz efeito, salvo a exceção legal para pequenas compras ou serviços de pronto pagamento. Em 2026, o teto atualizado dessa exceção é **R$ 13.098,41**.
 
-Não se deve confundir:
+Logo, instrumento equivalente continua sendo **ajuste escrito**. Não se confunde com a excepcional contratação verbal nem regulariza prestação executada sem cobertura contratual.
 
-- **instrumento equivalente:** ajuste escrito permitido pela lei;
-- **contrato verbal excepcional:** somente pequena compra ou serviço de pronto pagamento dentro do teto atualizado;
-- **execução sem cobertura contratual:** irregularidade que não se torna válida por ter havido prestação útil.
+### 5.2 Assinatura e eficácia não são sinônimos
 
-## 9. Garantias contratuais
+A divulgação no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> é condição indispensável para a **eficácia** do contrato e de seus aditamentos.
 
-### 9.1 Exigência e escolha da modalidade
+| Origem do contrato | Prazo contado da assinatura |
+| --- | ---: |
+| licitação | **20 dias úteis** |
+| contratação direta | **10 dias úteis** |
 
-A garantia não é automática. A autoridade competente pode exigi-la em cada contratação de obra, serviço ou fornecimento, desde que haja previsão no edital. A necessidade e o percentual devem ser motivados porque o custo da garantia pode refletir no preço.
+O contraste central é este:
 
-Em regra, o contratado escolhe uma das modalidades:
+**assinatura formaliza o ajuste → divulgação no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> cumpre a condição legal de eficácia.**
 
-1. caução em dinheiro;
-2. caução em títulos da dívida pública escriturais, registrados em sistema autorizado pelo Banco Central e avaliados pelo valor econômico;
-3. seguro-garantia;
-4. fiança bancária emitida por banco ou instituição financeira autorizada pelo Banco Central;
-5. título de capitalização custeado por pagamento único e resgatável pelo valor total.
+Na contratação urgente, o contrato produz efeitos desde a assinatura, mas continua sujeito à publicação nos mesmos prazos. A falta de publicação dentro do prazo leva à nulidade prevista no art. 94.
 
-A lista tem quatro incisos legais porque dinheiro e títulos integram o mesmo inciso. O título de capitalização foi incluído pela Lei nº 14.770/2023.
+Há deveres adicionais de transparência:
 
-Em obra ou serviço de engenharia, o edital pode exigir especificamente seguro-garantia com cláusula de retomada. Fora dessa hipótese legal, permanece a escolha do contratado.
+- na inexigibilidade para profissional do setor artístico, a divulgação discrimina cachê, músicos ou banda, transporte, hospedagem, infraestrutura, logística e demais despesas específicas;
+- em obras, a Administração divulga em sítio eletrônico oficial, em até **25 dias úteis após a assinatura**, quantitativos e preços unitários e totais contratados e, em até **45 dias úteis após a conclusão**, quantitativos executados e preços praticados.
 
-Se a opção for seguro-garantia, o edital deve conceder prazo mínimo de **um mês**, contado da homologação e anterior à assinatura, para prestação da garantia.
+## 6. Garantia contratual: quem decide exigir não é quem escolhe a modalidade
 
-Quando o contrato estiver suspenso por ordem ou inadimplemento da Administração, o contratado não precisa renovar a garantia nem endossar a apólice até a ordem de reinício ou o adimplemento administrativo.
+A garantia serve para proteger a Administração contra consequências do inadimplemento, mas ela **não é automática**. A autoridade competente decide, em cada contratação de obra, serviço ou fornecimento, se a exigirá; para isso, a exigência deve estar prevista no edital.
 
-### 9.2 Seguro-garantia
+Uma vez exigida, a escolha da modalidade cabe, **em regra, ao contratado**:
 
-O seguro-garantia cobre o fiel cumprimento das obrigações, inclusive multas, prejuízos e indenizações decorrentes do inadimplemento.
+**Administração decide se haverá garantia → contratado escolhe a modalidade legal.**
 
-Regras essenciais:
+As modalidades são:
 
-- a apólice vigora por prazo igual ou superior ao contrato principal;
-- mudanças na vigência contratual devem ser acompanhadas por endosso;
-- a apólice continua vigente ainda que o contratado não pague o prêmio;
-- em execução ou fornecimento contínuo, a apólice pode ser substituída na renovação ou aniversário, preservadas condições e coberturas e sem período descoberto.
+1. **caução em dinheiro ou títulos da dívida pública**: bens financeiros ficam vinculados à garantia;
+2. **seguro-garantia**: uma seguradora cobre o fiel cumprimento das obrigações;
+3. **fiança bancária**: banco ou instituição financeira autorizada pelo Banco Central do Brasil assume a garantia;
+4. **título de capitalização**: título custeado por pagamento único, com resgate pelo valor total.
 
-### 9.3 Percentuais e bases de cálculo
+Dinheiro e títulos compartilham o mesmo inciso legal.
 
-| Situação | Limite e base |
-|---|---|
-| garantia ordinária | até 5% do valor inicial do contrato |
-| complexidade técnica e riscos, com justificativa | até 10% do valor inicial |
-| serviço ou fornecimento contínuo com vigência superior a um ano e prorrogações | percentuais sobre o valor anual |
-| obra ou serviço de engenharia de grande vulto, com seguro-garantia e retomada | até 30% do valor inicial |
+Em obras e serviços de engenharia, o edital pode exigir especificamente seguro-garantia com cláusula de retomada, como veremos adiante. Fora dessa hipótese, vale a escolha do contratado entre as modalidades admitidas.
 
-Em 2026, obra ou serviço de engenharia de grande vulto é o de valor estimado superior a **R$ 261.968.421,04**.
+Se o contratado optar por seguro-garantia, o edital deve conceder prazo mínimo de **um mês**, contado da homologação e anterior à assinatura, para prestação da garantia.
 
-> **Não confunda:** a garantia de proposta do art. 58 é anterior ao contrato e limitada a 1% do valor estimado. A garantia contratual ordinária usa 5% ou, com justificativa, 10%. O teto de 30% exige engenharia de grande vulto, seguro-garantia e cláusula de retomada.
+Se o contrato for suspenso por ordem ou inadimplemento da própria Administração, o contratado fica desobrigado de renovar a garantia ou de ajustar a cobertura do seguro até a ordem de reinício ou o adimplemento administrativo.
 
-### 9.4 Liberação e bens em depósito
+### 6.1 Como funciona o seguro-garantia
 
-A garantia é liberada ou restituída depois da fiel execução ou da extinção por culpa exclusiva da Administração. Se prestada em dinheiro, será atualizada monetariamente.
+O documento emitido pela seguradora que registra a cobertura é a **apólice**. O valor pago pelo segurado para manter o seguro é o **prêmio**. O documento que altera ou atualiza condições da apólice é o **endosso**.
 
-Quando a Administração entrega bens dos quais o contratado ficará depositário, o valor desses bens é acrescido ao valor da garantia.
+- a apólice deve vigorar por prazo igual ou superior ao contrato principal;
+- se a vigência contratual mudar, a cobertura deve acompanhá-la mediante endosso;
+- a cobertura continua em vigor mesmo que o contratado deixe de pagar o prêmio nas datas convencionadas;
+- em execução ou fornecimento contínuo, a apólice pode ser substituída na renovação ou no aniversário, desde que sejam preservadas as condições e coberturas e não exista período descoberto.
 
-### 9.5 Cláusula de retomada
+O seguro cobre o fiel cumprimento das obrigações e também multas, prejuízos e indenizações decorrentes do inadimplemento.
 
-Na contratação de obras e serviços de engenharia, o edital pode prever que a seguradora assuma e conclua o objeto se o contratado inadimplir. Nesse modelo, a seguradora:
+### 6.2 Percentual: primeiro identifique a base, depois o teto
 
-- firma contrato e aditivos como interveniente anuente;
-- pode acessar instalações, acompanhar a execução, consultar auditorias e pedir esclarecimentos técnicos;
-- pode indicar quem receberá o empenho, mediante comprovação de regularidade fiscal;
-- pode subcontratar total ou parcialmente a conclusão.
+| Situação | Limite e base de cálculo |
+| --- | --- |
+| garantia ordinária | até **5% do valor inicial do contrato** |
+| complexidade técnica e riscos, com justificativa | até **10% do valor inicial** |
+| serviço ou fornecimento contínuo com vigência superior a um ano e suas prorrogações | percentuais aplicados sobre o **valor anual** |
+| obra ou serviço de engenharia de grande vulto com seguro-garantia e retomada | até **30% do valor inicial** |
 
-Se a seguradora assumir e concluir o objeto, não paga a importância segurada. Se não assumir, paga integralmente a importância indicada na apólice.
+Em 2026, **grande vulto** significa valor estimado superior a **R$ 261.968.421,04**.
 
-## 10. Matriz de alocação de riscos
+Não misture fases: a garantia de proposta pode chegar a **1% do valor estimado**; a garantia contratual ordinária usa 5% ou, justificadamente, 10% do valor inicial; 30% exige engenharia de grande vulto, seguro-garantia e retomada.
 
-### 10.1 Função e conteúdo
+A garantia é liberada ou restituída depois da fiel execução do contrato ou de sua extinção por culpa exclusiva da Administração. Se tiver sido prestada em dinheiro, será atualizada monetariamente.
 
-A matriz é cláusula contratual que identifica eventos supervenientes previstos e presumíveis e reparte seus efeitos entre:
+Se a Administração entregar bens dos quais o contratado ficará depositário, o valor desses bens é acrescentado ao valor da garantia.
 
-- setor público;
-- setor privado; ou
-- ambos, de forma compartilhada.
+### 6.3 Cláusula de retomada: a seguradora pode terminar a obra
 
-Ela caracteriza o equilíbrio econômico-financeiro inicial em relação a esses eventos. Não é sinônimo do mapa de riscos do planejamento: o mapa acompanha o gerenciamento do processo; a matriz distribui contratualmente ônus e responsabilidades.
+Em obra ou serviço de engenharia, o edital pode prever que, diante do inadimplemento do contratado, a seguradora assuma a execução e conclua o objeto.
 
-A alocação considera natureza do risco, beneficiário da prestação, obrigações assumidas e capacidade de cada parte para gerenciá-lo. Riscos com cobertura oferecida por seguradoras são preferencialmente transferidos ao contratado. Seus custos devem ser quantificados para projeção no valor estimado.
+Nesse modelo, a seguradora participa do contrato e dos aditivos como **interveniente anuente**, isto é, concorda formalmente com o ajuste e assume as obrigações que a lei lhe atribui. Ela pode acessar as instalações, acompanhar a execução, consultar auditorias técnicas e contábeis, pedir esclarecimentos ao responsável técnico e subcontratar total ou parcialmente a conclusão.
 
-O contrato deve refletir essa alocação, especialmente ao definir:
+A consequência financeira depende da escolha feita diante do inadimplemento:
 
-1. as hipóteses de recomposição do equilíbrio quando a matriz tratar o sinistro como causa de desequilíbrio não suportada pela parte que pede o restabelecimento;
-2. a possibilidade de resolução se o sinistro majorar excessivamente ou impedir a continuidade da execução; e
-3. os seguros obrigatórios previamente definidos, com o respectivo custo integrado ao preço ofertado.
+- se a seguradora assume e conclui o objeto, fica dispensada de pagar a importância segurada indicada na apólice;
+- se não assume a execução, paga integralmente a importância segurada.
 
-### 10.2 Quando é obrigatória
+## 7. Matriz de riscos: transformar incerteza em responsabilidade contratual
 
-O art. 22 torna a matriz obrigatória:
+O contrato pode antecipar eventos previsíveis ou presumíveis e dizer quem suportará seus efeitos.
 
-- em obras e serviços de grande vulto; e
-- na contratação integrada ou semi-integrada.
+Essa cláusula é a **matriz de alocação de riscos**. Ela pode atribuir um evento:
 
-Nos regimes integrado e semi-integrado, os riscos supervenientes ligados à escolha da solução de projeto básico pelo contratado devem ser alocados a ele. Nas demais contratações, a adoção depende da avaliação do caso, sendo recomendável quando existirem incertezas relevantes.
+- ao setor público;
+- ao setor privado;
+- a ambos, de forma compartilhada.
 
-### 10.3 Efeito sobre o equilíbrio
+A escolha deve considerar a natureza do risco, quem se beneficia da prestação relacionada e qual parte tem melhor capacidade para gerenciá-lo. Riscos com cobertura oferecida por seguradoras são preferencialmente transferidos ao contratado. A alocação também deve ser quantificada, porque o risco assumido influencia o custo estimado da contratação.
 
-A matriz deve orientar a solução dos pleitos. Se as condições do contrato e da matriz forem atendidas, considera-se mantido o equilíbrio, e as partes renunciam ao restabelecimento relacionado aos riscos que assumiram.
+### 7.1 Matriz contratual não é o mapa de riscos do processo
 
-O art. 103 preserva duas exceções expressas:
+O **mapa de riscos** acompanha o gerenciamento dos riscos da contratação ao longo do processo. A **matriz de alocação de riscos** é cláusula do ajuste que distribui efeitos econômicos e responsabilidades entre as partes.
 
-1. alteração unilateral determinada pela Administração nas hipóteses legais;
-2. aumento ou redução, por legislação superveniente, dos tributos diretamente pagos pelo contratado em decorrência do contrato.
+A matriz deve refletir-se no contrato, especialmente nas hipóteses de restabelecimento do equilíbrio, na possibilidade de resolução por evento excessivamente oneroso ou impeditivo e nos seguros obrigatórios, cujo custo integra o preço.
 
-Logo, a matriz não elimina todo reequilíbrio. Ela define antecipadamente quem suporta os eventos distribuídos, ressalvadas as exceções legais.
+A matriz é **obrigatória** em obras e serviços de grande vulto e nos regimes de <abbr title="regime em que o contratado elabora os projetos básico e executivo e executa a obra">contratação integrada</abbr> e <abbr title="regime em que o contratado elabora o projeto executivo e executa a obra">contratação semi-integrada</abbr>. Nesses regimes, riscos supervenientes ligados à escolha da solução de projeto básico pelo contratado devem ser atribuídos a ele.
 
-## 11. Prerrogativas da Administração
+### 7.2 Assumir um risco tem consequência econômica
 
-O regime administrativo confere à Administração poder para:
+A matriz caracteriza o equilíbrio econômico-financeiro inicial em relação aos eventos alocados. Se o contrato e a matriz forem respeitados, as partes renunciam a pedir restabelecimento do equilíbrio pelos riscos que assumiram.
+
+Isso não significa renúncia absoluta a qualquer reequilíbrio. O art. 103 preserva expressamente:
+
+- alterações unilaterais determinadas pela Administração nas hipóteses legais;
+- aumento ou redução, por legislação superveniente, dos tributos diretamente pagos pelo contratado em decorrência do contrato.
+
+A matriz, portanto, **reduz incerteza; não apaga as proteções legais do equilíbrio**.
+
+## 8. Prerrogativas públicas: poder contratual com limites econômicos
+
+O regime de direito público confere à Administração poderes que um contratante privado comum não possui na mesma extensão. Ela pode:
 
 1. modificar unilateralmente o contrato para adequá-lo ao interesse público, respeitados os direitos do contratado;
-2. extingui-lo unilateralmente nos casos legais;
+2. extingui-lo unilateralmente nos casos previstos em lei;
 3. fiscalizar a execução;
-4. aplicar sanções motivadas por inexecução total ou parcial;
-5. ocupar provisoriamente bens móveis e imóveis e utilizar pessoal e serviços vinculados ao objeto.
+4. aplicar sanções motivadas pela inexecução total ou parcial;
+5. ocupar provisoriamente bens móveis e imóveis e utilizar pessoal e serviços vinculados ao objeto quando houver risco à prestação de serviço essencial ou necessidade de resguardar a apuração administrativa de faltas contratuais.
 
-A ocupação provisória cabe quando houver risco à prestação de serviço essencial ou necessidade de acautelar a apuração administrativa de faltas contratuais, inclusive após a extinção.
+As cláusulas econômico-financeiras e monetárias, porém, não podem ser modificadas sem prévia concordância do contratado. Alteração unilateral lícita do objeto exige revisão das cláusulas econômicas para manter o equilíbrio.
 
-As cláusulas econômico-financeiras e monetárias não podem ser alteradas sem prévia concordância do contratado. Se a Administração modificar unilateralmente o objeto de modo lícito, deve rever as cláusulas econômico-financeiras para manter o equilíbrio.
+A execução concreta desses poderes — fiscalização, alteração e eventual recomposição — é aprofundada no assunto seguinte.
 
-> **Síntese:** a Administração possui poderes especiais sobre o ajuste, mas não pode transferir unilateralmente ao contratado o custo econômico da mudança que ela determinou.
+## 9. Duração: primeiro classifique o contrato, depois procure o prazo
 
-## 12. Duração dos contratos
+A Lei nº 14.133/2021 rompe com a ideia de que todo contrato precisa terminar no fim do exercício financeiro. A duração é a prevista no edital, mas a Administração deve verificar:
 
-### 12.1 Regra geral e conceitos
+- disponibilidade de créditos orçamentários no momento da contratação e a cada exercício financeiro;
+- previsão no Plano Plurianual quando a vigência ultrapassar um exercício financeiro.
 
-A duração é a prevista no edital. A Lei nº 14.133/2021 não prende todo contrato ao encerramento do exercício financeiro, mas exige:
+Restos a pagar vinculados a contratos plurianuais não são cancelados automaticamente antes do encerramento da vigência. A proteção também alcança os saldos relacionados aos contratos rescindidos nas hipóteses dos §§ 8º e 9º do art. 90.
 
-- disponibilidade de créditos na contratação e em cada exercício;
-- previsão no plano plurianual quando o ajuste ultrapassar um exercício financeiro.
+Antes de memorizar números, separe dois modelos:
 
-Restos a pagar vinculados a contratos plurianuais não são cancelados automaticamente antes do fim da vigência. A proteção também alcança os saldos dos contratos rescindidos nas hipóteses dos §§ 8º e 9º do art. 90.
+**Serviço ou fornecimento contínuo** atende necessidade permanente ou prolongada da Administração. O interesse é manter a prestação ao longo do tempo.
 
-Para resolver questões, diferencie:
+**Contrato por escopo** exige a conclusão de uma prestação específica. O interesse é terminar um resultado definido, ainda que o cronograma precise ser ajustado.
 
-| Conceito | Característica |
-|---|---|
-| serviço ou fornecimento contínuo | atende necessidade permanente ou prolongada de manutenção da atividade administrativa |
-| contrato por escopo | impõe a entrega de prestação específica em período predeterminado |
-| prazo de execução | tempo para cumprir a prestação |
-| prazo de vigência | período em que o vínculo contratual produz efeitos |
+Também não confunda:
 
-### 12.2 Serviços e fornecimentos contínuos
+- **prazo de execução** = tempo previsto para cumprir a prestação;
+- **prazo de vigência** = período em que o vínculo contratual permanece em vigor.
 
-A vigência inicial pode alcançar **cinco anos**, se a autoridade atestar a maior vantagem econômica da contratação plurianual. No início da contratação e de cada exercício, a Administração deve atestar créditos vinculados e vantagem na manutenção.
+### 9.1 Serviços e fornecimentos contínuos: cinco anos iniciais, dez com prorrogações
 
-Se faltar crédito ou o contrato deixar de ser vantajoso, a Administração pode optar pela extinção. Nos termos do art. 106, III e § 1º, a extinção sem ônus nessa hipótese somente ocorrerá na próxima data de aniversário do contrato e deverá observar a regra temporal de **dois meses** estabelecida pelo § 1º. Essa é a regra legal a memorizar no corte do edital.
+A vigência inicial pode chegar a **cinco anos**. Para isso, a autoridade deve atestar a vantagem econômica da contratação plurianual. No início da contratação e de cada exercício, a Administração volta a verificar a existência de créditos vinculados e a vantagem de manter o contrato.
 
-Na esfera federal, a **Orientação Normativa AGU nº 98/2025** interpreta o dispositivo no sentido de garantir prazo mínimo de dois meses para ciência do contratado, com observância da contagem do art. 183, e admite extinção antes do aniversário com ônus para a Administração na forma do art. 138, § 2º. Essa orientação auxilia a interpretação, mas não deve ser tratada como regulamentação automaticamente vinculante ao TCE-MA.
+Se faltarem créditos ou o ajuste deixar de ser vantajoso, a Administração pode optar pela extinção sem ônus prevista no art. 106, III. O § 1º determina que essa extinção ocorra apenas na próxima data de aniversário do contrato e estabelece uma proteção temporal de **dois meses**.
 
-As regras também alcançam aluguel de equipamentos e utilização de programas de informática.
+A redação legal é pouco intuitiva. Na esfera federal, a Orientação Normativa da Advocacia-Geral da União nº 98/2025 interpreta a regra assim: para a extinção **sem ônus**, deve-se garantir ao contratado prazo mínimo de dois meses para ciência, com observância da contagem do art. 183; a Administração federal pode extinguir antes do aniversário se assumir os ônus cabíveis na forma do art. 138, § 2º. Essa orientação é uma interpretação federal e **não deve ser tratada como regulamento interno automático do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>**.
+
+As regras do art. 106 também alcançam aluguel de equipamentos e utilização de programas de informática.
 
 Os contratos contínuos podem ser prorrogados sucessivamente até a vigência máxima de **dez anos**, desde que:
 
-1. haja previsão no edital;
+1. exista previsão no edital;
 2. a autoridade ateste que condições e preços permanecem vantajosos;
-3. o aditamento seja formalizado antes do término da vigência.
+3. a prorrogação seja formalizada antes do término da vigência.
 
-Admite-se negociar com o contratado ou extinguir sem ônus para qualquer parte. A prorrogação não é automática nem constitui direito do contratado.
+A lei permite negociação com o contratado ou extinção sem ônus para qualquer das partes. A prorrogação não é automática.
 
-### 12.3 Prazos especiais
+### 9.2 Prazos especiais: o número só faz sentido depois da hipótese
 
 | Hipótese | Duração máxima |
-|---|---:|
-| serviços e fornecimentos contínuos, vigência inicial | 5 anos |
-| serviços e fornecimentos contínuos, com prorrogações | 10 anos |
-| dispensas específicas do art. 108 | 10 anos |
-| serviço público em regime de monopólio | prazo indeterminado, com crédito anual |
-| contrato que gera receita ou eficiência, sem investimento | 10 anos |
-| contrato que gera receita ou eficiência, com investimento reversível | 35 anos |
-| operação continuada de sistema estruturante de TI | 15 anos |
+| --- | ---: |
+| serviços e fornecimentos contínuos, vigência inicial | **5 anos** |
+| serviços e fornecimentos contínuos, com prorrogações | **10 anos** |
+| hipóteses específicas de dispensa do art. 108 | **10 anos** |
+| serviço público oferecido em regime de monopólio | **prazo indeterminado**, com crédito comprovado a cada exercício |
+| contratação que gera receita ou contrato de eficiência, sem investimento | **10 anos** |
+| contratação que gera receita ou contrato de eficiência, com investimento reversível | **35 anos** |
+| operação continuada de sistemas estruturantes de tecnologia da informação | **15 anos** |
 
-No corte de **6 de julho de 2026**, o art. 108 admite contratos de até dez anos nas hipóteses das alíneas **f** e **g** do art. 75, IV, e dos incisos **V, VI, XII e XVI** do mesmo artigo. Entre elas estão alta complexidade tecnológica e defesa nacional, padronização logística das Forças Armadas, inovação, segurança nacional, transferência de tecnologia de produto estratégico para o SUS e a hipótese então vigente do inciso XVI, relativa a insumos estratégicos para a saúde produzidos por fundação nas condições legais.
+O art. 108 não cria prazo decenal para toda contratação direta. Ele se restringe às hipóteses expressamente indicadas nas alíneas **f** e **g** do art. 75, IV, e nos incisos **V, VI, XII e XVI** do mesmo artigo.
 
-> **Pós-edital — direito vigente hoje:** a Lei nº 15.471, de 20 de julho de 2026, publicada em 21 de julho de 2026 e vigente desde a publicação, alterou o art. 75, XVI, para tratar de produtos estratégicos para a saúde fornecidos por produtores públicos por intermédio de fundação. Como a mudança é posterior ao edital, ela não substitui a redação-base aplicável ao corte de 6 de julho de 2026.
+No corte de **6 de julho de 2026**, o inciso XVI ainda tratava da aquisição de **insumos estratégicos para a saúde produzidos por fundação**, nas condições legais.
 
-O prazo indeterminado do art. 109 é excepcional: a Administração deve ser usuária de serviço público oferecido em regime de monopólio e comprovar crédito a cada exercício. Não se estende a todo serviço contínuo.
+> **Pós-edital:** a Lei nº 15.471, de 20 de julho de 2026, publicada em 21 de julho e vigente desde a publicação, alterou o art. 75, XVI, para tratar de produtos estratégicos para a saúde fornecidos por produtores públicos por intermédio de fundação. Essa redação posterior deve ser reconhecida como atualização legislativa, mas não substitui silenciosamente a regra-base do edital.
 
-Para chegar a 35 anos no art. 110, o investimento deve consistir em benfeitorias permanentes feitas exclusivamente às expensas do contratado e revertidas ao patrimônio público no fim do contrato.
+O prazo indeterminado do art. 109 é excepcional: exige que a Administração seja usuária de **serviço público oferecido em regime de monopólio** e que comprove, a cada exercício, os créditos vinculados. Não é uma autorização genérica para qualquer serviço contínuo.
 
-### 12.4 Contrato por escopo
+O prazo de até **35 anos** do art. 110 também depende de requisito material: o investimento deve envolver benfeitorias permanentes realizadas exclusivamente às expensas do contratado e revertidas ao patrimônio da Administração ao final.
 
-Se o contrato prevê conclusão de escopo predefinido e o objeto não termina no período estipulado, a vigência é **automaticamente prorrogada**.
+### 9.3 Contrato por escopo: o prazo acompanha a conclusão, mas a culpa continua importando
 
-Se o atraso decorrer de culpa do contratado:
+Se um contrato prevê a conclusão de escopo predefinido e o objeto não termina no período estipulado, a vigência é **automaticamente prorrogada**.
 
-- ele será constituído em mora e poderá sofrer sanções;
-- a Administração poderá extinguir o contrato e adotar medidas legais para continuar a execução.
+Se a não conclusão decorrer de culpa do contratado, ele será constituído em **mora**, isto é, atraso juridicamente imputável, e poderá sofrer sanções. A Administração também pode extinguir o contrato e adotar as medidas legais para continuar a execução. A prorrogação automática, portanto, não perdoa o atraso culposo.
 
-A prorrogação automática preserva o vínculo necessário à conclusão; não perdoa a mora, não cria duração indeterminada e não se confunde com a prorrogação discricionária do contrato contínuo.
+### 9.4 Lei especial, fornecimento associado e sistemas estruturantes
 
-### 12.5 Lei especial, serviço associado e sistemas estruturantes
+Os prazos da Lei nº 14.133/2021 não excluem prazos próprios estabelecidos em lei especial.
 
-Os prazos da Lei nº 14.133/2021 não excluem nem revogam prazos estabelecidos em lei especial.
+Há contratos que reúnem a entrega inicial de um bem ou obra e uma etapa posterior de operação e manutenção. A lei chama esse modelo de **fornecimento e prestação de serviço associado**. Sua vigência máxima soma:
 
-No fornecimento e prestação de serviço associado, a vigência máxima soma:
+1. o prazo do fornecimento inicial ou da entrega da obra; e
+2. o prazo de operação e manutenção, inicialmente limitado a **cinco anos** a partir do recebimento do objeto e prorrogável conforme o art. 107.
 
-1. o prazo de fornecimento inicial ou entrega da obra; e
-2. o prazo de operação e manutenção, limitado inicialmente a cinco anos desde o recebimento do objeto e prorrogável na forma do art. 107.
+O art. 114 cria ainda uma regra própria para a operação continuada de **sistemas estruturantes de tecnologia da informação**, categoria legal cuja vigência contratual pode chegar a **15 anos**.
 
-Já a operação continuada de sistemas estruturantes de tecnologia da informação pode vigorar por até **15 anos**.
+## 10. Feche o assunto com cinco decisões, não com uma lista de números
 
-## 13. Aplicação federativa e referências federais
+Quando uma questão trouxer um contrato já selecionado, percorra esta ordem:
 
-A Lei nº 14.133/2021 contém normas gerais nacionais e alcança o TCE-MA em sua função administrativa. Regulamentos e orientações do Poder Executivo federal disciplinam diretamente a Administração federal; só vinculam o Tribunal quando houver fundamento jurídico para sua aplicação.
+1. **Formação:** quem foi convocado e em qual condição?
+2. **Documento:** termo de contrato é obrigatório ou cabe instrumento equivalente?
+3. **Eficácia:** a divulgação no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> ocorreu no prazo?
+4. **Proteção econômica:** há garantia? quem escolhe a modalidade? o evento pertence a qual parte na matriz?
+5. **Tempo:** o contrato é contínuo, por escopo ou hipótese especial?
 
-Para este assunto:
-
-- a ON AGU nº 98/2025 é referência interpretativa federal para o art. 106, não regra interna presumida do TCE-MA;
-- o Decreto nº 13.031/2026 disciplina forma eletrônica, Contratos.gov.br e gestão no âmbito federal e serve apenas como referência quando não houver adoção local;
-- o Decreto nº 12.807/2025 fornece os valores atualizados da Lei nº 14.133/2021 vigentes em 2026.
-
-## 14. Estratégia de prova
-
-Use esta sequência:
-
-1. **Formação:** houve convocação válida e aceite no prazo?
-2. **Forma:** termo obrigatório, instrumento equivalente ou verbalidade excepcional?
-3. **Cláusulas:** o contrato contém o núcleo do art. 92?
-4. **Eficácia:** houve divulgação no PNCP no prazo correto?
-5. **Proteção:** garantia era prevista e foi calculada na base correta?
-6. **Risco:** o evento foi atribuído a qual parte?
-7. **Duração:** o ajuste é contínuo, por escopo ou hipótese especial?
-
-Erros recorrentes:
-
-- tratar o direito privado como regime principal;
-- supor que a recusa do vencedor obriga nova licitação imediata;
-- confundir formação com eficácia e esquecer o PNCP;
-- achar que compra de entrega imediata admite obrigação futura;
-- generalizar a validade de contrato verbal de baixo valor;
-- dizer que garantia contratual é sempre obrigatória;
-- trocar a escolha administrativa de exigir garantia pela escolha do contratado quanto à modalidade;
-- aplicar 30% a qualquer contrato de engenharia;
-- confundir matriz contratual com mapa de riscos;
-- supor que todo risco superveniente gera reequilíbrio;
-- limitar todo contrato ao exercício financeiro;
-- confundir vigência inicial de cinco anos com teto decenal;
-- tratar prazo indeterminado como regra para serviço contínuo;
-- esquecer que a prorrogação automática do escopo não afasta a mora.
+Os números então ganham endereço: **20/10 dias úteis** pertencem à eficácia; **5%/10%/30%**, às garantias; **5/10/15/35 anos**, a regimes de duração diferentes.
