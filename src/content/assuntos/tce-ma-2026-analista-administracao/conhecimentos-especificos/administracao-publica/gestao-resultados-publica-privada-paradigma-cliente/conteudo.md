@@ -8,549 +8,312 @@ storageId: gestao-resultados-cliente
 
 # Gestão de resultados, gestão pública e privada e paradigma do cliente
 
-Produzir um serviço público não é apenas executar tarefas. A Administração mobiliza recursos, organiza processos e entrega produtos para modificar uma necessidade coletiva, garantir direitos e gerar **valor público**. A gestão de resultados conecta esses elos; a comparação entre organizações públicas e privadas mostra quais ferramentas podem ser compartilhadas e quais limites precisam ser preservados; o paradigma do cliente recoloca a experiência do usuário no desenho da prestação sem reduzir cidadania a consumo.
+**Um órgão passou a decidir mais pedidos em menos tempo. O serviço melhorou?** Considere este caso hipotético: uma unidade de concessão de benefícios acelerou as decisões, mas aumentou os erros e deixou para trás pessoas sem acesso à internet. O número de processos encerrados melhorou; o acesso à proteção devida pode ter piorado.
 
-> **Ideia central:** resultado público combina entrega, mudança relevante e legitimidade. Menor custo, maior volume ou satisfação elevada são evidências úteis, mas nenhuma delas, isoladamente, prova valor público.
+A **gestão orientada a resultados** conecta problemas, recursos, atividades, entregas e mudanças. Usa informações para decidir, prestar contas e corrigir o serviço, respeitando a lei, a qualidade e a distribuição dos benefícios. Essa finalidade orienta a adaptação de técnicas privadas e o foco no usuário.
 
-## 1. Gestão orientada a resultados
+## 1. Da necessidade à mudança: o que a organização realmente produz?
 
-### 1.1 Conceitos próximos, mas não idênticos
+No caso hipotético, o problema é que pessoas que preenchem os requisitos não recebem a proteção no momento devido. Orçamento, equipe e sistemas são os **insumos**, os recursos utilizados. Receber, analisar, decidir e comunicar pedidos são **atividades**; sua articulação forma o **processo** de concessão.
 
-Não existe uma definição legal única para todas as expressões usadas na literatura. Para este assunto, adota-se a seguinte convenção:
+Decisões e benefícios concedidos são **produtos**, ou *outputs*: entregas diretamente geradas. O acesso oportuno à proteção é um **resultado**, ou *outcome*: mudança para os destinatários. A redução duradoura da vulnerabilidade é um **impacto**, entendido aqui como efeito mais amplo. A **cadeia de resultados** reúne esses elos:
 
-| Expressão | Sentido |
-| --- | --- |
-| **Gestão para ou por resultados** | modelo que alinha objetivos públicos, recursos, processos, entregas, resultados, responsabilidades, monitoramento e aprendizagem |
-| **Gestão de resultados** | conjunto mais amplo de práticas para produzir, acompanhar, avaliar e melhorar resultados |
-| **Mensuração de desempenho** | construção, cálculo, análise e comunicação de indicadores |
-| **Monitoramento** | acompanhamento contínuo da execução e das tendências para corrigir rumos |
-| **Avaliação** | exame sistemático do desenho, mérito, relevância, eficiência, eficácia, efetividade ou efeitos de uma intervenção |
-
-Medir é instrumento, não finalidade. Um painel atualizado que não orienta nenhuma decisão gera informação, mas não realiza gestão para resultados.
-
-### 1.2 Do controle de meios ao valor público
-
-A orientação a resultados amplia o foco tradicional em insumos e conformidade. Ela pergunta também:
-
-1. o serviço foi entregue?
-2. alcançou o público devido?
-3. resolveu ou reduziu o problema?
-4. preservou qualidade, direitos, equidade e legalidade?
-5. o resultado justifica os recursos empregados?
-
-Isso não elimina controles de meios. Licitude da despesa, competência, processo, integridade, segurança e transparência continuam necessários. A mudança é **acrescentar** entrega e efeito à análise, não trocar legalidade por desempenho.
-
-## 2. Cadeia de produção de serviços públicos
-
-Uma cadeia lógica explicita como o esforço pretende gerar mudança:
-
-`problema → insumos → atividades/processos → produtos → resultados → impactos`
-
-| Elo | Pergunta | Exemplo: concessão de benefício |
+| Elo | Pergunta | No caso hipotético |
 | --- | --- | --- |
-| **Problema ou necessidade** | o que deve mudar? | pessoas elegíveis não acessam proteção no momento devido |
-| **Insumos** | com que recursos? | orçamento, servidores, dados, sistemas e instalações |
-| **Atividades/processos** | o que a organização faz? | recebe, verifica, decide e comunica requerimentos |
-| **Produtos ou outputs** | o que foi entregue? | requerimentos decididos e benefícios concedidos |
-| **Resultados ou outcomes** | que mudança direta ocorreu? | maior acesso tempestivo e redução de desproteção |
-| **Impactos** | que efeito amplo e duradouro se associa à ação? | redução de vulnerabilidade e melhoria de bem-estar |
+| Problema | O que precisa mudar? | Pessoas elegíveis ficam sem proteção oportuna |
+| Insumo | Com quais recursos? | Equipe, orçamento, dados e sistemas |
+| Atividade ou processo | O que se faz? | Receber, verificar, decidir e comunicar |
+| Produto | O que se entrega diretamente? | Decisões válidas e benefícios concedidos |
+| Resultado | O que muda para o destinatário? | Acesso oportuno à proteção devida |
+| Impacto | Qual efeito mais amplo se busca? | Redução de vulnerabilidade e melhora do bem-estar |
 
-As fontes nem sempre usam *outcome* e impacto da mesma forma. Algumas reservam impacto ao efeito final e outras o tratam como resultado de longo prazo. Em prova, é preciso observar a convenção do enunciado. O ponto estável é: **produto entregue não equivale automaticamente a mudança social**.
+**Produto entregue não garante mudança social:** uma decisão correta pode chegar tarde. As fontes variam no uso de resultado, *outcome* e impacto; em prova, observe a convenção do enunciado e distinga a entrega do efeito produzido.
 
-### 2.1 Atribuição e contribuição
+### Por que se espera que uma etapa leve à outra?
 
-Quanto mais distante o elo está da atividade administrativa, mais fatores externos podem influenciá-lo. Um órgão controla diretamente seus processos e produtos, mas apenas contribui, em muitos casos, para resultados sociais complexos.
+A cadeia mostra os elos; a **teoria da mudança** explica as relações entre eles. É construída fundamentalmente na elaboração da intervenção: explicita por que determinadas atividades devem gerar os resultados, sob quais condições e com quais riscos.
 
-Exemplo: realizar fiscalizações é produto. Reduzir acidentes é resultado desejado, porém também depende de comportamento, infraestrutura, clima e atuação de outros órgãos. Avaliação séria evita tanto atribuir todo efeito ao programa quanto ignorar sua contribuição.
+Integrar bases só reduzirá exigências repetidas se os dados forem confiáveis e puderem ser compartilhados legalmente. Melhorar o acesso exige ainda canais utilizáveis e capacidade de decidir. A teoria registra essas condições, o público, os parceiros e possíveis efeitos não desejados; ajuda a investigar se a falha está no desenho ou na execução.
 
-<!-- REVISAO-RESULTADOS-2026 -->
-### 2.2 Teoria de mudança e tipos de avaliação
+O órgão controla mais diretamente atividades e produtos; os efeitos sociais dependem também do contexto. **Contribuição** é sua participação na mudança; **atribuição causal** identifica o efeito produzido pela intervenção. A influência externa impede atribuições automáticas, mas não torna inútil a avaliação.
 
-A cadeia de resultados torna-se uma **teoria de mudança** quando explicita por que as atividades devem produzir resultados. Para isso, registra hipóteses causais, pressupostos, riscos externos, público alcançado, cobertura, condições necessárias, efeitos não intencionais e contribuição de outros atores.
+### Valor público: benefício, autorização e capacidade
 
-Exemplo: integrar bases pode reduzir exigências repetidas, mas o resultado depende de acesso aos canais, qualidade dos dados, capacidade de decisão e adesão das unidades. Se a decisão continuar errada, menor prazo não resolve o problema.
+**Valor público** é o benefício socialmente relevante produzido pela ação pública, considerado à luz de direitos, necessidades coletivas e <abbr title="Autorização jurídica e reconhecimento político e social da atuação">legitimidade</abbr>. Não se resume a popularidade, volume ou economia financeira.
 
-| Avaliação | Pergunta central |
+O **triângulo estratégico de Mark Moore** ajuda a examinar se uma proposta reúne três condições:
+
+- **Valor:** qual benefício justifica a ação?
+- **Legitimidade e apoio:** há autorização jurídica e sustentação política e social? Esse conjunto de instâncias e apoios forma o **ambiente autorizador**.
+- **Capacidade operacional:** há pessoas, recursos, processos, tecnologia e parceiros capazes de executar?
+
+Um canal útil pode ser inviável sem equipe; uma operação de baixo custo pode não gerar benefício coletivo. Apoio político não substitui autorização jurídica. O triângulo orienta a estratégia, sem garantir seu sucesso.
+
+## 2. Gerir resultados: transformar compromissos em decisões
+
+Gestão **de**, **por** e **para** resultados têm usos próximos na literatura, sem distinção universal rígida. O núcleo é alinhar objetivos, capacidade, entregas, efeitos e responsabilização.
+
+O trabalho começa pelo diagnóstico do problema, dos públicos e das barreiras. A organização define a mudança desejada e a cadeia que pretende produzi-la; escolhe indicadores, medidas para acompanhar o desempenho, e registra a situação inicial. Em seguida, estabelece metas, prazos, recursos e responsáveis.
+
+Durante a execução, acompanha desvios; avalia explicações e efeitos; comunica resultados e limitações; decide se deve corrigir, ampliar, redesenhar ou encerrar a intervenção. **A avaliação realimenta o planejamento.** Um painel sem influência sobre decisões não completa a gestão.
+
+### Autonomia com responsabilidade
+
+A autonomia gerencial permite adaptar meios para alcançar resultados, dentro da **competência**, a atribuição conferida pelo Direito. Exige **<abbr title="Prestação de contas e responsabilização pelas decisões">accountability</abbr>**: explicar e justificar decisões, prestar contas e responder por elas perante as instâncias competentes.
+
+Um **pacto ou acordo de resultados** torna explícita essa relação. É um instrumento possível, não o modelo inteiro. Seu desenho reúne:
+
+| Bloco | O que precisa ficar definido |
 | --- | --- |
-| **ex ante** | o desenho é pertinente, viável e coerente? |
-| **de implementação** | a intervenção ocorreu como prevista e alcançou o público? |
-| **formativa** | o que precisa ser corrigido durante a execução? |
-| **somativa** | qual o mérito ao final do ciclo e o que decidir sobre continuidade? |
-| **de resultados** | que mudanças diretas foram observadas? |
-| **de impacto** | que parcela da mudança pode ser atribuída causalmente à intervenção? |
+| Compromisso | Finalidade, objetivo, <abbr title="Medida usada para acompanhar um aspecto do desempenho">indicador</abbr>, situação inicial, meta e prazo |
+| Capacidade | Competências legais, autonomia, equipe, orçamento, tecnologia, riscos e dependências |
+| Prestação de contas e responsabilização | Fonte e verificação dos dados, acompanhamento, revisão, consequências e responsáveis |
 
-Comparar a situação final com a linha de base mostra mudança, mas não prova causalidade. Avaliação de impacto exige um **contrafactual plausível**: estimativa do que teria ocorrido sem a intervenção.
+Cobrar rapidez sem equipe ou dados confiáveis favorece cumprimento aparente; autonomia sem limites favorece arbitrariedade. Mudança de contexto pode justificar revisão motivada das metas, mas não manipulação retroativa para aparentar sucesso.
 
-## 3. Dimensões do desempenho
+A orientação a resultados **não elimina controles sobre os meios**. Despesas, competências, integridade e direitos continuam sujeitos às regras aplicáveis. Os controles podem ser preventivos, durante a execução ou posteriores, conforme o risco. Separar funções incompatíveis — por exemplo, autorizar uma operação e verificar sua regularidade — continua sendo uma proteção possível, mesmo com metas de desempenho.
 
-### 3.1 Economicidade
+## 3. Desempenho: seis perguntas que não têm a mesma resposta
 
-**Economicidade** examina a obtenção e o uso de recursos em condições adequadas de custo, prazo e qualidade. Comprar pelo menor preço nominal não é econômico quando o item falha, chega tarde ou eleva o custo total.
+Comprar recursos adequados, executar ações, entregar o previsto e mudar a realidade são dimensões diferentes. Um número favorável em uma delas não comprova as demais.
 
-### 3.2 Eficiência
+### Economicidade, execução e excelência: o esforço realizado
 
-**Eficiência** relaciona produtos ou serviços aos recursos consumidos. Pode ser expressa por produtividade ou custo unitário:
+**Economicidade** examina a obtenção e o uso prudente dos recursos, considerando custo, prazo, quantidade e qualidade necessários. Um equipamento barato que falha repetidamente pode elevar o custo total e comprometer o serviço. Menor preço nominal, sozinho, não comprova boa utilização do dinheiro.
 
-$$
-\text{Produtividade} = \frac{\text{produtos entregues}}{\text{recursos empregados}}
-$$
+**Execução** verifica ações, processos, projetos e planos realizados conforme a programação, nos aspectos físicos e financeiros. Instalar os postos previstos demonstra execução; ainda falta examinar como funcionam.
 
-$$
-\text{Custo unitário} = \frac{\text{custo total}}{\text{produtos válidos entregues}}
-$$
+**Excelência** observa a conformidade da execução com padrões de qualidade. Cumprir etapas com erros recorrentes distingue realizar a atividade de realizá-la adequadamente.
 
-No primeiro indicador, em regra, maior é melhor; no segundo, menor pode ser melhor. A interpretação exige qualidade constante. Atender mais pessoas por hora com decisões erradas não representa ganho líquido de eficiência.
+### Eficiência: quanto se entrega com os recursos disponíveis?
 
-### 3.3 Eficácia
-
-**Eficácia** verifica o alcance de objetivos, metas ou entregas programadas:
+**Eficiência** relaciona produtos ou serviços aos recursos consumidos. Duas formas usuais de observar essa relação são:
 
 $$
-\text{Cumprimento da meta (\%)} = \frac{\text{realizado}}{\text{meta}} \times 100
+\text{Produtividade}=\frac{\text{produtos entregues}}{\text{recursos empregados}}
 $$
 
-Uma unidade que entrega 900 documentos diante da meta de 1.000 alcança 90% da meta. Isso não informa, sozinho, custo, qualidade ou mudança social.
+$$
+\text{Custo unitário}=\frac{\text{custo total}}{\text{produtos válidos entregues}}
+$$
 
-### 3.4 Efetividade
+Se o recurso for tempo de trabalho, a produtividade pode ser expressa em decisões por hora; o custo unitário, em reais por decisão válida. Numerador e denominador precisam pertencer ao mesmo recorte e período, e o denominador deve ser positivo.
 
-**Efetividade** examina mudança relevante no problema público ou na realidade dos destinatários. Redução de reincidência, aumento de acesso efetivo e diminuição de dano são exemplos. Não há fórmula universal: o método depende do resultado e da capacidade de separar a contribuição da intervenção de outros fatores.
+No exemplo hipotético, 800 decisões válidas com custo de 240 mil reais correspondem a **300 reais por decisão válida**. Para julgar melhora, compare períodos ou unidades com qualidade e complexidade equivalentes. Maior produtividade ou menor custo podem indicar eficiência; contar decisões erradas como boas entregas distorce a medida.
 
-### 3.5 Qualidade, produtividade e equidade
+### Eficácia: o que foi previsto foi alcançado?
 
-- **qualidade:** conformidade, confiabilidade, segurança, resolução, acessibilidade e adequação da experiência;
-- **produtividade:** produção por unidade de recurso, dimensão operacional próxima da eficiência;
-- **equidade:** distribuição de acesso, qualidade e resultados entre grupos e territórios, considerando diferenças relevantes.
+**Eficácia** verifica o alcance de objetivos, metas e entregas programadas. Para uma meta positiva de quantidade, na qual mais entregas significam maior cumprimento, pode-se calcular:
 
-Uma média melhor pode esconder piora para grupos vulneráveis. Por isso, indicadores devem ser desagregados quando território, renda, raça, idade, deficiência, gênero ou acesso digital puderem revelar barreiras.
+$$
+\text{Cumprimento da meta (\%)}=\frac{\text{realizado}}{\text{meta}}\times100
+$$
 
-### 3.6 Modelo dos 6Es do desempenho
+Se a meta hipotética era concluir 1.000 decisões válidas no mês e foram concluídas 800, o cumprimento foi de **80%**. Isso não informa o custo nem o efeito sobre os destinatários.
 
-O modelo dos 6Es organiza dimensões de esforço e de resultado.
+A fórmula não deve ser aplicada mecanicamente a qualquer indicador. Se a meta é **reduzir** o prazo para 30 dias, realizar 45 dias não representa sucesso de 150%. O indicador precisa definir seu **sentido desejável**, ou polaridade: aumentar, diminuir ou permanecer numa faixa. Metas de redução exigem regra de apuração compatível.
 
-| Dimensões de esforço | Pergunta |
-| --- | --- |
-| **economicidade** | os recursos foram obtidos nas condições adequadas de custo, prazo e qualidade? |
-| **execução** | processos, projetos e atividades foram realizados conforme a programação? |
-| **excelência** | a execução atendeu aos padrões de qualidade e conformidade? |
+### Efetividade, qualidade e equidade
 
-| Dimensões de resultado | Pergunta |
-| --- | --- |
-| **eficiência** | qual a relação entre produtos válidos e recursos empregados? |
-| **eficácia** | as metas e entregas foram alcançadas? |
-| **efetividade** | houve transformação relevante no problema público? |
+**Efetividade** examina a mudança relevante no problema público ou na situação dos destinatários. No caso, interessa saber se a proteção passou a chegar oportunamente e se reduziu a vulnerabilidade. Não há fórmula universal; o método depende do efeito e da possibilidade de separar a contribuição da intervenção de outros fatores.
 
-Pegadinha: economicidade, execução e excelência são dimensões de **esforço**; eficiência, eficácia e efetividade são dimensões de **resultado**.
+**Qualidade** envolve correção, confiabilidade, segurança, resolução da demanda, acessibilidade e adequação da experiência. **Equidade** considera como acesso, qualidade e resultados se distribuem entre grupos e territórios, levando em conta diferenças relevantes. Atender todos pelo mesmo canal pode ser insuficiente se parte do público não consegue utilizá-lo.
 
-## 4. Indicadores e sistema de medição
+O modelo dos **<abbr title="Economicidade, execução, excelência, eficiência, eficácia e efetividade">6Es</abbr> do desempenho**, apresentado nos referenciais de medição da gestão pública, organiza as seis dimensões estudadas:
 
-### 4.1 Indicador não é objetivo
-
-Objetivo descreve o estado desejado; indicador fornece evidência sobre sua evolução; meta define um valor esperado em prazo determinado.
-
-Exemplo:
-
-- objetivo: reduzir demora sem perder qualidade;
-- indicador: mediana de dias entre protocolo e decisão válida;
-- linha de base: 45 dias em 2025;
-- meta: 30 dias até dezembro de 2026;
-- indicador complementar: percentual de decisões reformadas por erro.
-
-### 4.2 Classificações úteis
-
-| Tipo | O que observa | Exemplo |
+| Grupo no modelo | Dimensões | Relação que se observa |
 | --- | --- | --- |
-| **insumo** | recurso empregado | horas de trabalho disponíveis |
-| **processo** | execução ou fluxo | prazo mediano de análise |
-| **produto** | entrega realizada | requerimentos decididos |
-| **resultado** | mudança direta | usuários atendidos dentro do prazo |
-| **impacto** | efeito social amplo | redução de desproteção |
-| **esforço ou direcionador** | fator que pode anteceder resultado | cobertura de capacitação |
-| **resultado ou consequência** | efeito já produzido | redução observada do retrabalho |
+| Esforço | Economicidade, execução e excelência | Recursos adequados, ações realizadas e padrões da execução |
+| Resultado | Eficiência, eficácia e efetividade | Relação entre entregas e recursos, cumprimento do previsto e transformação produzida |
 
-Um indicador pode mudar de classificação conforme o objetivo. Capacitação é produto de uma escola de governo e esforço para um órgão que pretende melhorar atendimento.
+No modelo dos <abbr title="Economicidade, execução, excelência, eficiência, eficácia e efetividade">6Es</abbr>, qualidade e equidade não são outros “Es”, mas continuam necessárias à análise. Eficiência não garante eficácia; eficácia não garante efetividade.
 
-Indicadores **antecedentes** (*leading*) sinalizam fatores associados ao desempenho futuro. Indicadores **consequentes** (*lagging*) registram efeitos já ocorridos. Uma cesta balanceada combina ambos.
+## 4. Indicadores: definir a pergunta antes de escolher o número
 
-### 4.3 Linha de base, meta e benchmark
+**Objetivo** descreve o estado desejado. **Indicador** é a medida usada para acompanhar um aspecto desse objetivo. **Índice** é o valor observado; **meta** fixa o valor esperado com prazo. **Linha de base** é a situação inicial usada na comparação.
 
-- **linha de base:** situação inicial usada para comparação;
-- **meta:** valor futuro desejado, acompanhado de prazo;
-- **benchmark:** referência comparativa interna ou externa;
-- **índice:** valor observado do indicador em determinado momento.
+No caso hipotético, o objetivo é reduzir a demora sem perder qualidade. O indicador pode ser o prazo mediano entre protocolo e decisão válida. A **mediana** é o valor central dos prazos ordenados; com quantidade par de observações, calcula-se a média dos dois valores centrais. Uma linha de base de 45 dias em 2025 e uma meta de 30 dias até dezembro de 2026 dão referência e direção à medida. O índice é o prazo efetivamente apurado em cada período.
 
-Benchmark não é meta automática. Organizações podem ter públicos, riscos e recursos diferentes. A comparação precisa ser ajustada ao contexto.
+Um **<abbr title="Referência interna ou externa usada para comparação">benchmark</abbr>** é uma referência comparativa, interna ou externa. O prazo de outra unidade pode ajudar a discutir a meta, mas não deve ser copiado sem considerar público, recursos, complexidade e riscos.
 
-### 4.4 Ficha técnica
+### A posição na cadeia e a antecipação do desempenho
 
-Um indicador auditável deve registrar, pelo menos:
+Uma classificação acompanha a cadeia: indicadores de **insumo** observam recursos; de **processo**, o fluxo; de **produto**, entregas; de **resultado** e **impacto**, mudanças e efeitos. Horas disponíveis, prazo de análise, decisões válidas e acesso à proteção respondem a perguntas diferentes.
 
-1. nome e objetivo associado;
-2. definição e interpretação;
-3. fórmula, unidade e sentido desejável;
-4. fonte, método de coleta e regras de contagem;
-5. periodicidade e responsável;
-6. linha de base, meta e referências;
-7. recortes e limitações;
-8. forma de validação e divulgação.
+Outra classificação considera a relação temporal com o efeito procurado. Indicadores **antecedentes**, ou *<abbr title="Que sinalizam fatores associados ao desempenho futuro">leading</abbr>*, observam fatores que podem sinalizar desempenho futuro; os **consequentes**, ou *<abbr title="Que registram efeitos já produzidos">lagging</abbr>*, registram efeitos já produzidos. Capacitar a equipe antes de implantar um sistema pode ser antecedente da melhoria; a queda posterior do retrabalho é consequente.
 
-Dados sem definição comum produzem comparações enganosas. “Atendimento concluído” pode significar protocolo recebido, resposta enviada ou problema resolvido; a ficha elimina essa ambiguidade.
+A classificação depende do objetivo: capacitação é produto de uma escola de governo e esforço para melhorar o atendimento em outro órgão. Um antecedente sinaliza; não garante o resultado.
 
-### 4.5 Atributos de um bom indicador
+### Tornar o indicador reproduzível
 
-O Guia Referencial da <abbr title="Escola Nacional de Administração Pública">Enap</abbr> destaca utilidade, representatividade, confiabilidade metodológica e da fonte, disponibilidade, economicidade, simplicidade de comunicação, estabilidade, tempestividade e sensibilidade. Também importam comparabilidade e possibilidade de investigação.
+“Pedido concluído” pode significar encerramento no sistema ou decisão válida comunicada. A **ficha técnica** elimina essa ambiguidade e permite reproduzir o cálculo:
 
-O conjunto deve ser seletivo e balanceado. Indicadores demais dispersam atenção; poucos demais ocultam qualidade, risco ou equidade.
+| Parte da ficha | Informações necessárias |
+| --- | --- |
+| Significado | Nome, objetivo, definição, interpretação, unidade e sentido desejável |
+| Cálculo | Fórmula, numerador, denominador, período e população considerada |
+| Dados | Fonte, coleta, periodicidade, responsável, data de extração e versão da base |
+| Regras de contagem | Tratamento de duplicados, reabertos, cancelados, transferidos e dados ausentes |
+| Comparação | Linha de base, meta, prazo e <abbr title="Referência interna ou externa usada para comparação">benchmark</abbr> contextualizado |
+| Uso e integridade | Limitações, recortes por público, validação, divulgação e registro de revisões |
 
-### 4.6 Integridade, governança e comparabilidade dos dados
+Distinguir população elegível de atendida evita declarar cobertura total só porque todos os que entraram no sistema foram atendidos. Uma **<abbr title="Grupo de casos com uma condição inicial comum">coorte</abbr>** reúne casos com condição inicial comum, como pedidos protocolados no mesmo mês.
 
-Além da fórmula, um indicador deve explicitar:
+Mudanças na regra devem ser registradas. Uma alteração que impede comparar diretamente valores novos e antigos causa **quebra de série**. **Rastreabilidade** é a possibilidade de voltar do indicador aos registros de origem.
 
-- numerador, denominador e unidade;
-- população elegível e população efetivamente atendida;
-- regra para casos reabertos, cancelados, transferidos ou duplicados;
-- período de referência e eventual uso de coortes;
-- tratamento de dados ausentes;
-- data de extração e versão da base;
-- revisão retroativa e quebra de série quando a metodologia mudar;
-- rastreabilidade desde a fonte original.
+### Seleção, confiabilidade e distribuição
 
-Média e mediana respondem a perguntas diferentes. Em distribuições assimétricas, a média pode ser dominada por poucos casos extremos; percentis e faixas ajudam a revelar a cauda. Excluir processos antigos, transferir casos difíceis ou mudar a regra sem transparência compromete a interpretação.
+Um indicador deve ser útil à decisão e representar adequadamente o fenômeno. Método e fonte precisam ser confiáveis; os dados, disponíveis com custo de obtenção razoável. A comunicação deve ser simples, e a definição suficientemente estável para permitir comparação.
 
-## 5. Ciclo de gestão de resultados
+**Tempestividade** significa disponibilidade em tempo de agir. **Sensibilidade** é a capacidade de captar mudanças relevantes. Comparabilidade e possibilidade de investigar as causas completam o uso gerencial: um número sem explicação raramente indica, sozinho, qual ação tomar.
 
-Uma gestão madura percorre ciclos, não uma sequência encerrada:
+A **média** divide a soma dos valores pela quantidade de observações e pode ser muito afetada por casos extremos. A mediana ajuda a localizar o centro, mas também pode ocultar a demora enfrentada por uma parcela dos usuários. **Percentis** indicam posições na distribuição: o percentil 90 é um limite abaixo do qual se encontram aproximadamente 90% das observações. Examinar faixas de prazo preserva a visibilidade dos casos muito antigos.
 
-1. diagnosticar problema, públicos e contexto;
-2. definir resultados e hipóteses causais;
-3. mapear cadeia de valor e riscos;
-4. selecionar indicadores e estabelecer linha de base;
-5. pactuar metas, responsabilidades e recursos;
-6. executar e coletar dados confiáveis;
-7. monitorar tendências, desvios e efeitos distributivos;
-8. avaliar explicações e resultados;
-9. prestar contas e comunicar limitações;
-10. corrigir, aprender, escalar, redesenhar ou encerrar.
+Separar dados por território, canal e público revela desigualdades escondidas na média, respeitada a proteção de dados pessoais. Combine prazo, custo, erro, acesso e efeitos: indicadores demais dispersam atenção; poucos demais ocultam problemas.
 
-### 5.1 Autonomia e <abbr title="prestação de contas e responsabilização">accountability</abbr>
+## 5. Monitorar informa o que acontece; avaliar ajuda a julgar e explicar
 
-Orientação a resultados pode ampliar autonomia gerencial, mas autonomia deve vir acompanhada de:
+**Monitoramento** é o acompanhamento contínuo da execução, dos indicadores e dos alertas. **Mensuração de desempenho** é o trabalho de definir, calcular, analisar e comunicar medidas; fornece informação ao monitoramento e à avaliação.
 
-- competência e limites claros;
-- objetivos e critérios públicos;
-- transparência e rastreabilidade;
-- controles proporcionais ao risco;
-- responsabilização por decisões e resultados;
-- possibilidade de correção.
+**Avaliação** forma um julgamento sistemático sobre desenho, mérito, relevância, execução ou efeitos. Investiga a necessidade do serviço, a adequação da solução, a implementação e a sustentação dos efeitos. Vai além de registrar números.
 
-Gestão por resultados não autoriza “controle somente posterior”. Determinados riscos exigem autorização, prevenção ou segregação prévia; outros admitem controle durante ou depois da execução.
+No exemplo, o monitoramento identifica mais decisões revistas por erro; a avaliação investiga causas, como treinamento insuficiente ou dados ruins. Investigue antes de premiar, punir ou redesenhar: meta descumprida não prova culpa automática; meta cumprida não comprova sucesso integral.
 
-### 5.2 Pactos e acordos de resultados
+### Tipos de avaliação: critérios que podem se combinar
 
-Contratos, acordos ou pactos de resultados são instrumentos possíveis, não sinônimos do modelo inteiro. Um desenho consistente informa objetivo, competência, indicador, linha de base, meta, prazo, fonte de dados, responsabilidades, autonomia, recursos, riscos, prestação de contas e consequências.
+**Quanto ao momento**, a avaliação **<abbr title="Anterior à implementação">ex ante</abbr>** antecede a implementação e examina problema, alternativas, viabilidade e desenho. A avaliação **<abbr title="Posterior à implementação ou a uma etapa executada">ex post</abbr>** examina uma intervenção já implementada ou uma etapa executada; não exige que a política inteira tenha terminado.
 
-Meta imposta sem recursos, competência ou dados confiáveis favorece ritualismo. Autonomia sem accountability favorece arbitrariedade. O equilíbrio é parte do desenho.
+**Quanto à finalidade**, a avaliação **formativa** produz aprendizado para aperfeiçoar a intervenção, frequentemente durante sua execução. A **somativa** reúne evidências para julgar mérito e apoiar decisões como continuidade, expansão ou encerramento, em geral ao final de uma etapa ou ciclo.
 
-### 5.3 Desenho de contratos, acordos e pactos de resultados
+**Quanto ao foco**, distinguem-se:
 
-Um pacto robusto integra três blocos:
+| Foco | Pergunta principal |
+| --- | --- |
+| Implementação | O previsto foi executado, por quais meios, com quais obstáculos e alcance? |
+| Resultados | Que entregas e mudanças foram observadas? |
+| Impacto, em sentido causal | Que parcela da mudança foi produzida pela intervenção? |
 
-**Compromisso**
+Os critérios se combinam: uma avaliação pode ser posterior à implementação, examinar processos e ter finalidade formativa. Em prova, identifique **qual critério está sendo usado**.
 
-- finalidade, objetivo, indicador, linha de base, meta e prazo;
+### Mudança observada não é prova de causalidade
 
-**Capacidade**
+Comparar o resultado com a **<abbr title="Situação inicial usada como referência de comparação">linha de base</abbr>** mostra evolução. Para saber o efeito causado pelo programa, é necessário estimar o que teria ocorrido **sem** ele: o **<abbr title="Situação estimada na ausência da intervenção">contrafactual</abbr>**.
 
-- competência, autonomia, equipe, orçamento, tecnologia, riscos e dependências;
+Se o acesso a benefícios melhorou após a abertura de um canal, a mudança pode refletir também menor demanda ou atuação de outros órgãos. Uma avaliação causal busca uma comparação plausível capaz de separar esses fatores. O contrafactual não é simplesmente o valor antigo nem a meta desejada.
 
-**Accountability**
+Quando a evidência permite sustentar apenas contribuição, comunique esse limite.
 
-- fonte dos dados, monitoramento, verificação, prestação de contas, revisão e consequências.
+## 6. Quando cumprir o número prejudica o serviço
 
-Eficiência ou cumprimento da meta não autorizam violação de regras legais. Mudança relevante de contexto pode justificar revisão motivada; não deve gerar manipulação retroativa para aparentar sucesso.
+Se a recompensa considera apenas o prazo de encerramento, uma equipe pode priorizar casos fáceis e deixar os complexos parados. O indicador melhora enquanto a finalidade piora. A **lei de Goodhart** alerta para a perda de qualidade de uma medida quando ela passa a orientar os comportamentos que deveria observar. É uma regularidade discutida na gestão, não uma norma jurídica.
 
-## 6. Monitoramento, avaliação e aprendizagem
+**<abbr title="Manipulação para melhorar a medida sem melhoria correspondente">Gaming</abbr>** é a manipulação de comportamentos ou registros para favorecer o indicador sem melhoria correspondente. Pode envolver encerrar sem resolver, transferir estoque, reclassificar reclamações, mudar regras de contagem sem transparência, reduzir qualidade ou concentrar entregas no público mais fácil de atender.
 
-**Monitoramento** acompanha continuamente execução, indicadores e alertas. Permite agir antes do encerramento do ciclo.
+Para reduzir esse risco, combine indicadores de volume, prazo, qualidade, resultado e equidade; verifique dados e regras; examine séries, distribuição e casos extremos. Ouça equipes e usuários, investigue incentivos e publique limitações e mudanças metodológicas. A combinação ajuda a distinguir melhora real de cumprimento aparente.
 
-**Avaliação** formula juízo mais estruturado. Pode examinar:
+## 7. Gestão pública e privada: técnicas próximas, condições diferentes
 
-- necessidade e relevância do serviço;
-- coerência do desenho e da cadeia causal;
-- implementação e fidelidade ao processo;
-- eficiência, eficácia e qualidade;
-- resultados, impactos e equidade;
-- sustentabilidade dos efeitos.
+Organizações públicas e privadas precisam coordenar pessoas e recursos. Compartilham técnicas de planejamento, organização, direção e controle, além de gestão de pessoas, processos, projetos, qualidade, custos, riscos e inovação. A técnica deve ser adaptada à finalidade, ao regime jurídico e às pessoas afetadas.
 
-Uma meta não alcançada não prova, por si só, incompetência: a meta pode ser irreal, o dado pode estar errado ou o contexto pode ter mudado. Uma meta alcançada também não prova sucesso: pode ter sido fácil, manipulada ou incompatível com qualidade. O gestor deve investigar causa antes de premiar, punir ou redesenhar.
+Uma empresa lucrativa pode reorganizar sua oferta para buscar retorno e competitividade. Um órgão público deve cumprir sua missão e as obrigações do serviço, inclusive quando atender um público custa mais. No caso hipotético, abandonar regiões remotas para melhorar a média não atende à finalidade de garantir acesso.
 
-## 7. Riscos da mensuração
-
-Quando uma métrica se transforma no alvo único, agentes podem otimizar o número em prejuízo da finalidade. Esse risco é associado à chamada **lei de Goodhart**.
-
-### 7.1 Formas de gaming
-
-- selecionar casos fáceis e recusar os complexos;
-- encerrar registros sem resolver a demanda;
-- transferir estoque para outra unidade;
-- acelerar etapas reduzindo segurança ou qualidade;
-- reclassificar reclamações;
-- concentrar entrega no público mais acessível;
-- alterar regra de contagem sem transparência.
-
-### 7.2 Mitigações
-
-1. combinar volume, prazo, qualidade, resultado e equidade;
-2. auditar dados e regras de cálculo;
-3. analisar séries, distribuição e casos extremos;
-4. ouvir usuários e equipes sem substituir evidência objetiva;
-5. revisar incentivos e consequências não intencionais;
-6. publicar método, limitações e mudanças de série;
-7. evitar remuneração ou punição baseada em um único número.
-
-### 7.3 Triângulo estratégico do valor público
-
-Uma estratégia pública consistente combina:
-
-1. **valor público substantivo:** benefício, direito, proteção ou redução de dano;
-2. **legitimidade e apoio:** autorização jurídica, política e social;
-3. **capacidade operacional:** recursos, competências, processos, tecnologia e articulação.
-
-Valor sem capacidade produz promessa inviável; capacidade sem legitimidade produz atuação contestável; legitimidade e capacidade sem valor podem executar com eficiência algo socialmente irrelevante.
-
-## 8. Gestão pública e gestão privada: convergências
-
-Organizações públicas e privadas precisam coordenar pessoas e recursos. Ambas podem usar:
-
-- planejamento e gestão estratégica;
-- processos, projetos e qualidade;
-- gestão de pessoas e competências;
-- orçamento, custos e produtividade;
-- riscos, integridade e controles;
-- dados, tecnologia e indicadores;
-- inovação e melhoria contínua;
-- comunicação e atendimento.
-
-Ferramentas não possuem resultado automático. A técnica deve ser adaptada à finalidade, ao regime jurídico, ao risco e às partes interessadas.
-
-## 9. Diferenças estruturais
+Na formulação clássica, o particular exerce autonomia para fazer o que a lei não proíbe, dentro de regras, contratos e **regulação**, a disciplina estatal de uma atividade. A Administração atua com fundamento jurídico, dentro de suas competências e com **impessoalidade**, sem favorecimentos pessoais. Eficiência não cria competência nem autoriza afastar direitos.
 
 | Dimensão | Gestão pública | Gestão privada |
 | --- | --- | --- |
-| **finalidade predominante** | interesse público, direitos, valor público, justiça e bem-estar coletivo | objetivos dos proprietários e sustentabilidade; lucro e competitividade nas empresas lucrativas |
-| **legitimidade** | Constituição, leis, representação política, políticas públicas e controles institucionais | propriedade, contratos, mercado, governança corporativa e regulação |
-| **decisão** | competência, legalidade, impessoalidade, orçamento, devido processo e publicidade | maior liberdade gerencial, limitada por lei, regulação, contratos e governança |
-| **recursos** | receitas públicas, inclusive tributos compulsórios, além de taxas, tarifas e outras receitas | capital, vendas, contratos e outras receitas predominantemente voluntárias |
-| **partes interessadas** | usuários, cidadãos não usuários, grupos vulneráveis, sociedade futura, Poderes e controles | proprietários, clientes, trabalhadores, fornecedores, credores, reguladores e comunidades |
-| **accountability** | jurídica, política, administrativa, fiscal e social, perante múltiplos fóruns | societária, contratual, financeira, regulatória e reputacional |
-| **cobertura** | continuidade, generalidade, acessibilidade e equidade podem exigir prestação pouco rentável | segmentação e encerramento de linha podem ser decisões empresariais legítimas |
-| **sucesso** | legalidade, acesso, qualidade, eficiência, efetividade, equidade e confiança | sustentabilidade financeira, mercado, qualidade, reputação e objetivos organizacionais |
+| Finalidade | Interesse público, direitos, valor público e bem-estar coletivo | Missão e objetivos organizacionais; lucro nas empresas lucrativas |
+| Legitimidade e decisão | Constituição, leis, representação política, competência, impessoalidade, orçamento e procedimentos de garantia | Propriedade, contratos, autonomia gerencial e regras de <abbr title="Direção e supervisão da organização">governança</abbr> e regulação |
+| Financiamento | Receitas públicas, inclusive tributos compulsórios; taxas, tarifas e outras receitas conforme o serviço | Capital, vendas, contratos, doações e outras fontes conforme a organização |
+| Públicos e obrigações | Usuários e não usuários, grupos vulneráveis, coletividade e gerações futuras; deveres de cobertura conforme o regime | Clientes, proprietários, trabalhadores, fornecedores, credores, reguladores e comunidades |
+| Prestação de contas | Instâncias jurídicas, políticas, administrativas, fiscais e sociais | Instâncias societárias, contratuais, financeiras, regulatórias e reputacionais |
+| Critérios de sucesso | Legalidade, acesso, qualidade, eficiência, efetividade, equidade e confiança | Sustentabilidade financeira, qualidade, reputação, mercado e missão |
 
-### 9.1 Condicionantes adicionais
+Objetivos públicos podem conflitar, sofrem influência do ciclo político e passam por várias instâncias de controle. Prevenção de danos nem sempre pode ser traduzida em dinheiro. Decisões precisam de motivação — explicitação de seus fundamentos — e consideração dos interesses de não usuários.
 
-A gestão pública também se distingue por:
+Essas diferenças não autorizam absolutos: há serviços públicos remunerados por taxas ou tarifas, organizações privadas sem fins lucrativos e empresas estatais que competem no mercado. Empresas privadas também obedecem a leis e controles. Delegar a prestação a um particular não elimina finalidade pública, regulação e fiscalização. Nenhum dos setores é eficiente por definição.
 
-- objetivos múltiplos e potencialmente conflitantes;
-- ambiente autorizador formado por vários Poderes, órgãos de controle e grupos sociais;
-- receitas inclusive coercitivas, como tributos;
-- deveres de universalidade, continuidade, acessibilidade e equidade;
-- dificuldade de monetizar prevenção de danos e benefícios coletivos;
-- menor liberdade para selecionar apenas usuários rentáveis;
-- influência do ciclo político e obrigação de motivar decisões;
-- maior escrutínio público e diferentes tolerâncias ao risco.
+### Por que o desempenho ganhou espaço nas reformas?
 
-### 9.1 Evitar falsos absolutos
+O **patrimonialismo** confunde interesses e recursos públicos com os do governante. A **burocracia**, em sua formulação típica, procura enfrentar essa confusão por mérito, impessoalidade, especialização, regras e previsibilidade. Sua contribuição é proteger a atuação institucional; a disfunção surge quando cumprir a rotina vira finalidade e o atendimento perde importância.
 
-- público não significa gratuito: há serviços custeados por taxas ou tarifas;
-- privado não significa sempre lucrativo: existem organizações sem fins lucrativos;
-- estatal não significa fora do mercado: empresas estatais podem competir;
-- privado não significa sem controle: empresas obedecem leis, contratos e regulação;
-- público não significa ineficiente, nem privado garante eficiência;
-- delegação a particular não elimina finalidade, regulação e fiscalização públicas.
+A **Nova Gestão Pública**, conhecida pela sigla inglesa <abbr title="New Public Management">NPM</abbr>, reforçou metas, desempenho, autonomia, descentralização, pactuação de resultados, competição e foco no usuário ou cliente. A contribuição é cobrar entregas e efeitos; os riscos incluem metas estreitas, fragmentação entre unidades e transposição inadequada de incentivos de mercado.
 
-A diferença central não é a presença ou ausência de técnica gerencial. Está na combinação de finalidade, legitimidade, regime decisório, financiamento, obrigações de cobertura e accountability.
+Abordagens de **governança** — direção e coordenação da ação entre instâncias e atores — e de valor público reforçam participação, integração, confiança e resultados coletivos. Serviços centrados nas pessoas acrescentam a experiência completa de acesso e uso. Os modelos se sobrepõem; não são fases puras que eliminam todas as práticas anteriores.
 
-## 10. Evolução dos paradigmas administrativos
+O **<abbr title="Programa Nacional de Gestão Pública e Desburocratização">GesPública</abbr>** é referência histórica e metodológica: o Decreto nº 5.378/2005, que o instituiu, foi revogado pelo Decreto nº 9.094/2017. Seus guias não devem ser apresentados como regime geral vigente. O assunto Empreendedorismo e novas lideranças aprofunda as respostas de inovação.
 
-Os modelos se sobrepõem; não formam fases puras que desaparecem por completo.
+## 8. Paradigma do cliente: reorganizar o serviço a partir de quem precisa dele
 
-1. **Patrimonialismo:** confunde interesses e recursos públicos com os do governante.
-2. **Burocracia:** busca mérito, impessoalidade, especialização, regras e previsibilidade.
-3. **Nova Gestão Pública — NPM:** reforça desempenho, metas, descentralização, contratualização, competição e foco no usuário ou cliente.
-4. **Governança e valor público:** ampliam coordenação, redes, participação, confiança, equidade e resultados coletivos.
-5. **Serviços centrados nas pessoas:** integram jornada, acessibilidade, linguagem, feedback, dados e direitos.
+O paradigma do cliente desloca a atenção da conveniência interna para necessidades legítimas, prazo, clareza, cortesia, acesso e resolução. Sua contribuição é perguntar como a prestação é vivida por quem a recebe, além de perguntar se cada setor cumpriu sua tarefa.
 
-A NPM criticou foco excessivo em procedimento, mas pode produzir fragmentação e metas estreitas. Abordagens posteriores preservam eficiência e qualidade, acrescentando integração, legitimidade e valor público.
+A **jornada do usuário** é o percurso completo para obter o serviço: descobrir a existência, compreender requisitos, reunir documentos, solicitar, acompanhar e receber uma resposta. Os **pontos de contato** são as interações desse percurso, como formulário, balcão e aviso de decisão.
 
-O Decreto nº 9.094/2017 revogou o Decreto nº 5.378/2005, que havia instituído o <abbr title="Programa Nacional de Gestão Pública e Desburocratização">GesPública</abbr>. Modelos e guias do programa podem ser estudados historicamente ou como referência metodológica; não devem ser apresentados como regime geral vigente.
+No caso hipotético, melhorar apenas a etapa de análise não resolve a barreira de quem não consegue preencher o formulário. Observar abandono, deslocamentos, repetição documental e resolução no primeiro contato ajuda a localizar problemas. Oferecer canais acessíveis e linguagem simples deve reduzir essas barreiras.
 
-## 11. Paradigma do cliente na gestão pública
+### Cidadão, usuário, cliente e consumidor
 
-O paradigma do cliente desloca atenção da conveniência interna para necessidades, acesso, prazo, clareza, cortesia, resolução e experiência de quem recebe o serviço. O ganho é real, mas a metáfora possui limites.
+O **cidadão** é sujeito de direitos e deveres e participante da vida coletiva, inclusive quando não utiliza diretamente determinado serviço. Pode financiar, fiscalizar e participar de decisões. O **usuário**, na Lei nº 13.460/2017, é pessoa física ou jurídica — um indivíduo ou uma organização reconhecida pelo Direito — que se beneficia ou utiliza, efetiva ou potencialmente, serviço público.
 
-### 11.1 Cidadão, usuário, cliente e consumidor
+**Cliente** é uma metáfora gerencial para enfatizar necessidades e qualidade da prestação; não substitui cidadania. **Consumidor** é uma categoria jurídica, aplicável quando houver relação de consumo. A Lei nº 13.460/2017 não afasta o Código de Defesa do Consumidor nessa hipótese, mas não transforma todo usuário em consumidor.
 
-| Categoria | Sentido |
-| --- | --- |
-| **cidadão** | sujeito político, titular de direitos e deveres e participante da vida coletiva, mesmo quando não usa diretamente o serviço |
-| **usuário** | pessoa física ou jurídica que utiliza ou pode utilizar serviço público, conforme a Lei nº 13.460/2017 |
-| **cliente** | metáfora gerencial para enfatizar necessidades e qualidade da entrega; não substitui cidadania |
-| **consumidor** | categoria jurídica aplicável quando estiver caracterizada relação de consumo |
+Foco no usuário não subordina decisões a qualquer preferência: quem mais reclama não representa toda a sociedade; a maioria não legitima discriminação; consulta não transfere competência. Baixa rentabilidade não afasta obrigações de cobertura. Proteger grupos vulneráveis é compatível com orientar-se ao cidadão.
 
-A Lei nº 13.460/2017 não afasta o Código de Defesa do Consumidor quando houver relação de consumo. Isso significa que alguns usuários também são consumidores, não que todo serviço público seja relação consumerista.
+**Satisfação mede percepção, não toda a qualidade.** Cortesia pode acompanhar decisão errada; decisão legal pode desagradar. Combine pesquisas de experiência com acesso, prazo, correção e resolução.
 
-### 11.2 Benefícios da orientação ao usuário
+### Ouvir precisa produzir uma resposta e uma melhoria
 
-- organizar o serviço pela jornada, não apenas pelo organograma;
-- reduzir deslocamentos, filas, repetição documental e linguagem obscura;
-- informar requisitos, etapas, prazos e canais;
-- tratar manifestações como fonte de aprendizagem;
-- identificar barreiras de acesso e abandono;
-- medir resolução e experiência, não apenas volume interno;
-- coproduzir melhorias com usuários e equipes.
+A **coprodução** envolve usuários e equipes na construção ou melhoria do serviço. Observar pessoas realizando tarefas permite testar a **usabilidade**, a facilidade de entender e utilizar o canal. Incluir públicos com barreiras de acesso evita desenhar a solução apenas para quem já consegue utilizá-la.
 
-### 11.3 Limites da metáfora
+O retorno dos usuários, ou *feedback*, deve fechar o ciclo: manifestação → análise → resposta → melhoria → comunicação do que mudou. Coletar opiniões sem agir não basta.
 
-- satisfação não revoga legalidade, impessoalidade ou direitos de terceiros;
-- o usuário mais vocal não representa necessariamente a coletividade;
-- preferência majoritária não legitima discriminação;
-- serviços essenciais não podem excluir pessoas apenas por baixa rentabilidade;
-- digitalização não pode tornar invisíveis barreiras de acesso;
-- consulta não transfere automaticamente competência decisória;
-- cidadão também financia, fiscaliza e participa, funções mais amplas que comprar.
+## 9. Direitos do usuário: tornar padrões e correções exigíveis
 
-O referencial mais seguro é **serviço centrado em pessoas e direitos**, e não simples reprodução de marketing privado.
+A Lei nº 13.460/2017 dá suporte jurídico à participação, à proteção e à defesa dos usuários. Alcança a administração direta e indireta da União, dos estados, do Distrito Federal e dos municípios, em qualquer dos Poderes, e aplica-se <abbr title="Como complemento das regras próprias do serviço">subsidiariamente</abbr> aos serviços públicos prestados por particulares. Não afasta normas específicas de <abbr title="Disciplina estatal de uma atividade">regulação</abbr> nem a proteção do consumidor quando cabível.
 
-### 11.4 Serviços centrados em pessoas e direitos
+Para a prova, observe o corte do item 13.32 do **Edital nº 1, de 6 de julho de 2026**: alterações legislativas com vigência até a publicação do edital. O item 13.33 admite legislação sem vigência quando explicitamente incluída nos objetos de avaliação. A data de consulta de uma fonte não muda esse corte, e uma orientação federal não se torna automaticamente obrigatória para o tribunal estadual.
 
-A evolução do paradigma do cliente incorpora jornada, pontos de contato, desistência, resolução no primeiro contato, acessibilidade multicanal, coprodução e testes de usabilidade.
+### Atendimento adequado e participação
 
-O ciclo de feedback precisa ser fechado:
+O artigo 4º exige **regularidade, continuidade, efetividade, segurança, atualidade, generalidade, transparência e cortesia**. No contexto do serviço, regularidade é observância das condições da prestação; atualidade envolve sua adequação e atualização; generalidade exige atendimento sem exclusões indevidas. Continuidade deve ser lida com as hipóteses legais de interrupção, e não como proibição absoluta de qualquer suspensão.
 
-`manifestação → análise → resposta → melhoria → comunicação da mudança`
+As diretrizes do artigo 5º incluem respeito e acessibilidade, presunção de <abbr title="Conduta honesta, leal e sem intenção de enganar">boa-fé</abbr>, igualdade sem discriminação, adequação entre meios e fins, cumprimento de prazos, simplificação tecnológica e linguagem simples. Também vedam nova prova de fato já comprovado em documentação válida e orientam a eliminação de exigências cujo custo econômico ou social supere o risco.
 
-Grupos vulneráveis devem participar dos testes e da avaliação. Um canal digital eficiente para a maioria pode excluir quem não possui conectividade, alfabetização digital ou tecnologia assistiva.
+O usuário tem direitos de participação, informação, proteção de informações pessoais e escolha entre os meios oferecidos, sem discriminação. Tem também deveres: agir com <abbr title="Tratamento respeitoso e cortês">urbanidade</abbr> e <abbr title="Conduta honesta, leal e sem intenção de enganar">boa-fé</abbr>, utilizar adequadamente o serviço, prestar informações pertinentes, colaborar e preservar bens públicos.
 
-## 12. Lei nº 13.460/2017 e orientação a resultados
+### Carta de Serviços: explicitar a promessa
 
-A Lei nº 13.460/2017 estabelece normas básicas de participação, proteção e defesa dos usuários. Aplica-se à administração direta e indireta da União, dos estados, do Distrito Federal e dos municípios, nos Poderes abrangidos, e subsidiariamente aos serviços públicos prestados por particular.
+A **Carta de Serviços ao Usuário** informa o que é oferecido, como acessar e quais padrões de qualidade são assumidos. Deve indicar serviços, requisitos e documentos, etapas, prazo máximo, forma de prestação e locais e formas de manifestação. Os compromissos incluem prioridades, previsão de espera, comunicação, tratamento de manifestações e consulta ao andamento.
 
-O atendimento adequado observa **regularidade, continuidade, efetividade, segurança, atualidade, generalidade, transparência e cortesia**.
+A atualização deve ser **periódica** e a divulgação na internet, **permanente**. A Carta torna o padrão verificável e fornece referência para indicadores, cobrança e revisão, em canais digitais e não digitais. Não cria competência contrária à lei. As orientações da Controladoria-Geral da União reforçam seu uso como instrumento de gestão e informação, além da publicidade.
 
-Entre as diretrizes do art. 5º estão:
+### Ouvidoria: da manifestação à correção
 
-- urbanidade, respeito, acessibilidade e cortesia;
-- presunção de boa-fé;
-- igualdade e não discriminação;
-- adequação entre meios e fins;
-- cumprimento de prazos;
-- eliminação de exigências cujo custo econômico ou social supere o risco;
-- simplificação tecnológica;
-- linguagem simples;
-- vedação de nova prova sobre fato já comprovado em documento válido.
+A **ouvidoria** recebe e acompanha manifestações, promove participação, propõe aperfeiçoamentos e acompanha a efetividade do serviço. Pode promover mediação e conciliação, mecanismos de solução de conflitos com participação das partes. Não é mero <abbr title="Serviço de Atendimento ao Consumidor">SAC</abbr> nem substitui toda autoridade decisória. Reclamações, denúncias, sugestões e elogios podem fornecer evidência para melhorar a prestação.
 
-Usuários possuem direitos de participação, informação, escolha entre meios oferecidos sem discriminação e proteção de informações pessoais. Também têm deveres: uso adequado, urbanidade e boa-fé, prestação de informações pertinentes, colaboração e preservação dos bens públicos utilizados.
+A ouvidoria deve encaminhar a decisão administrativa final ao usuário em **30 dias**, prorrogáveis justificadamente **uma única vez por igual período**. Solicitações de informações e esclarecimentos a agentes do órgão têm prazo de **20 dias**, com uma prorrogação justificada por igual período, observado o prazo da resposta final. Não se somam automaticamente os dois prazos.
 
-## 13. Carta, ouvidoria, conselhos e avaliação
+O relatório anual deve informar o número de manifestações recebidas no ano anterior, seus motivos, a análise dos pontos recorrentes e as providências adotadas nas soluções apresentadas, além de apontar falhas e sugerir melhorias. Deve ser encaminhado à autoridade máxima e disponibilizado integralmente na internet.
 
-### 13.1 Carta de Serviços ao Usuário
+### Conselhos e avaliação continuada
 
-A Carta torna o padrão prometido verificável. Deve informar serviços, requisitos, documentos, etapas, prazo máximo, forma de prestação, canais de manifestação e compromissos de qualidade. A atualização é periódica e a divulgação na internet, permanente.
+Os **conselhos de usuários** são consultivos: acompanham e avaliam serviços, propõem melhorias, contribuem para diretrizes de atendimento e acompanham e avaliam a atuação do ouvidor. A composição deve observar representatividade e pluralidade. Participar não significa exercer decisão vinculante ou substituir o gestor.
 
-A Carta não é peça publicitária nem cria, por si só, competência ou direito contra a lei. Ela reduz assimetria de informação e oferece referência para monitoramento e cobrança.
+O artigo 23 exige avaliar cinco aspectos: **satisfação, qualidade do atendimento, cumprimento de compromissos e prazos, quantidade de manifestações e medidas de melhoria adotadas**. Prevê pesquisa de satisfação feita, no mínimo, a cada ano, ou outro meio que garanta **<abbr title="Evidência de que o resultado dificilmente decorre só do acaso">significância estatística</abbr>**.
 
-A Carta também é instrumento de gestão: padrões prometidos devem orientar indicadores, avaliação, transparência e revisão do serviço, em canais digitais e não digitais. Orientações recentes do <abbr title="Sistema de Ouvidoria do Poder Executivo federal">SisOuv</abbr> reforçam linguagem simples, padronização, experiência, efetividade e atualização contínua.
+Os resultados devem ser publicados integralmente, incluindo a classificação das entidades com maior incidência de reclamações, e orientar ajustes, especialmente nos compromissos e padrões da Carta. Algumas opiniões espontâneas não representam automaticamente todo o público; pesquisar apenas quem concluiu pode ocultar quem desistiu.
 
-### 13.2 Ouvidoria
+### Simplificar preservando as garantias
 
-A ouvidoria não é mero <abbr title="Serviço de Atendimento ao Consumidor">SAC</abbr>. Ela promove participação, acompanha a efetividade, propõe aperfeiçoamentos, previne e corrige falhas, encaminha manifestações e pode promover mediação e conciliação.
+A **Lei nº 13.726/2018** racionaliza procedimentos nas relações dos órgãos e entidades dos Poderes de todos os entes com o cidadão. Dispensa reconhecimento de firma e autenticação por cartório, com conferência pelo agente, e veda repetição de prova já feita por documento válido.
 
-A decisão administrativa final deve chegar ao usuário em até **30 dias**, prorrogáveis uma vez, de forma justificada, por igual período. O relatório anual consolida manifestações, recorrências, providências e sugestões de melhoria e deve ser disponibilizado integralmente na internet.
+Também veda exigir documento expedido por outro órgão do mesmo Poder, ressalvadas certidões de antecedentes criminais, informações sobre pessoa jurídica e outras hipóteses expressamente previstas em lei. Se não for possível obter documento de regularidade por motivo não imputável ao solicitante, admite declaração escrita e assinada, com responsabilidade administrativa, civil e penal por falsidade.
 
-### 13.3 Conselhos de usuários
+O **Decreto nº 9.094/2017** disciplina diretamente o **Poder Executivo federal**. Prevê simplificação, presunção de <abbr title="Conduta honesta, leal e sem intenção de enganar">boa-fé</abbr>, compartilhamento de informações conforme a lei, integração, racionalização de controles, linguagem clara, Carta de Serviços e Solicitação de Simplificação. Esse âmbito não se confunde com o alcance federativo da Lei nº 13.460/2017.
 
-São órgãos **consultivos**. Sua composição deve observar critérios de representatividade e pluralidade. Acompanham e avaliam serviços, propõem melhorias, contribuem para diretrizes de atendimento e acompanham e avaliam a atuação do ouvidor. Participação não significa cogestão irrestrita nem decisão vinculante.
+Simplificar é reduzir exigências e custos desnecessários para obter o serviço, preservando as garantias proporcionais ao risco. No caso hipotético, menos documentos e decisões mais rápidas representam avanço quando continuam permitindo decisões corretas, acesso do público devido e proteção de direitos.
 
-### 13.4 Avaliação continuada
+## 10. Voltar ao caso: qual resultado melhorou?
 
-O art. 23 exige avaliação de:
+No caso hipotético, o prazo menor indica melhora parcial. Examine erros, acesso e distribuição; verifique se a medida excluiu casos difíceis e se a proteção chegou a quem tinha direito. Cumprir a meta não prova efetividade.
 
-1. satisfação do usuário;
-2. qualidade do atendimento;
-3. cumprimento de compromissos e prazos;
-4. quantidade de manifestações;
-5. medidas de melhoria adotadas.
-
-A avaliação ocorre por pesquisa de satisfação, no mínimo anual, ou por outro meio que garanta significância estatística. Os resultados devem ser publicados e usados para reorientar o serviço.
-
-Satisfação é uma dimensão legalmente relevante, mas distinta de qualidade, prazo e efetividade. Uma pessoa pode ficar satisfeita com atendimento cortês e receber decisão tecnicamente errada; também pode ficar insatisfeita com sanção legal corretamente aplicada.
-
-## 14. Simplificação e produção de valor
-
-A Lei nº 13.726/2018 racionaliza procedimentos nos Poderes de todos os entes. Nas hipóteses legais, dispensa reconhecimento de firma, autenticação, repetição de prova e documentos que o próprio Poder possa obter, preservando responsabilização por declaração falsa.
-
-O Decreto nº 9.094/2017 aplica-se diretamente aos órgãos e entidades do **Poder Executivo federal**. Reforça presunção de boa-fé, compartilhamento de informações conforme a lei, integração, racionalização de controles, linguagem clara, Carta de Serviços e Solicitação de Simplificação.
-
-Essas medidas devem reduzir custo de conformidade sem remover salvaguardas necessárias. Simplificar é tornar exigências proporcionais ao risco, não abolir controle.
-
-## 15. Caso integrado
-
-Um órgão reduz de 40 para 20 dias o tempo médio de concessão de licença. O volume cresce 30%, mas aumentam decisões reformadas, pessoas sem acesso digital abandonam requerimentos e regiões remotas continuam acima de 60 dias.
-
-Análise correta:
-
-- há sinal de produtividade e rapidez;
-- a eficácia depende da meta estabelecida;
-- a eficiência exige relacionar entregas válidas aos recursos;
-- o aumento de reformas indica risco de qualidade;
-- a desigualdade territorial e digital compromete equidade e generalidade;
-- a efetividade depende da mudança produzida no problema regulatório;
-- satisfação deve ser combinada com prazo, resolução, erro e acesso;
-- o redesenho deve preservar canal acessível, revisar causas de erro e desagregar indicadores.
-
-Conclusão: um único número melhor não basta para declarar sucesso.
-
-## 16. Pegadinhas de prova
-
-- produto ≠ resultado social;
-- volume ≠ efetividade;
-- indicador ≠ objetivo nem meta;
-- meta = valor + prazo;
-- linha de base ≠ benchmark;
-- benchmark ≠ meta automática;
-- eficiência ≠ eficácia;
-- eficácia ≠ efetividade;
-- economicidade ≠ menor preço isolado;
-- produtividade maior ≠ qualidade preservada;
-- satisfação ≠ qualidade objetiva;
-- monitoramento ≠ avaliação;
-- gestão por resultados ≠ eliminação de controles;
-- autonomia ≠ ausência de accountability;
-- meta cumprida ≠ sucesso comprovado;
-- meta não cumprida ≠ culpa automática do executor;
-- indicador único favorece visão estreita e gaming;
-- técnica privada pode ser adaptada; finalidade pública não pode ser substituída;
-- público ≠ sempre gratuito;
-- privado ≠ sempre lucrativo;
-- cidadão ≠ cliente;
-- usuário ≠ necessariamente consumidor;
-- foco no usuário ≠ submissão a qualquer preferência;
-- ouvidoria ≠ mero SAC;
-- conselho de usuários = consultivo;
-- Carta de Serviços ≠ publicidade institucional;
-- Lei nº 13.460/2017 tem alcance federativo amplo;
-- Decreto nº 9.094/2017 aplica-se diretamente ao Executivo federal;
-- GesPública = referência histórica, não regime geral vigente.
-
-## 17. Limites deste assunto
-
-Para evitar repetição:
-
-- controle e avaliação como funções organizacionais foram aprofundados no Assunto 106;
-- gestão de processos foi tratada no Assunto 107;
-- qualidade, excelência e requisitos detalhados da Carta de Serviços foram estudados no Assunto 108;
-- gestão de projetos pertence ao Assunto 109;
-- planejamento, BSC e OKR pertencem ao Assunto 110;
-- NPM, empreendedorismo, inovação e novas lideranças foram aprofundados no Assunto 111;
-- sustentabilidade e acessibilidade serão aprofundadas nos Assuntos 113 e 114.
-
-Aqui, indicadores, qualidade e direitos do usuário aparecem apenas no que integra a produção orientada a resultados, a comparação público-privado e o paradigma do cliente.
+O diagnóstico deve orientar a ação: corrigir causas de erro, recuperar pendências, oferecer canais utilizáveis e acompanhar os efeitos. Assim, a informação deixa de apenas descrever o serviço e passa a melhorá-lo.
