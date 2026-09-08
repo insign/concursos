@@ -6,251 +6,227 @@ order: 131
 storageId: "planejamento-in-5-2017"
 ---
 
-# Planejamento da contratação segundo a IN nº 5/2017
+# Planejamento da contratação segundo a <abbr title="Instrução Normativa">IN</abbr> nº 5/2017
 
-## Delimitação do assunto
+Imagine que um órgão precise manter recepção e apoio administrativo em um prédio. Começar por “contratar 20 recepcionistas, 44 horas por semana” parece objetivo, mas já escolhe **pessoas, quantidade e forma de execução** antes de demonstrar qual resultado o serviço precisa produzir. O planejamento existe para inverter essa lógica: primeiro se entende a necessidade e o que pode ser terceirizado; depois se escolhe e detalha uma solução mensurável.
 
-A Instrução Normativa <abbr title="Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão">SEGES/MPDG</abbr> nº 5/2017 organiza a contratação de serviços sob regime de execução indireta na Administração Pública federal direta, autárquica e fundacional. Este assunto estuda a fase de **Planejamento da Contratação**: enquadramento do serviço, formalização da demanda, equipe, Estudos Técnicos Preliminares (ETP), gerenciamento de riscos e Termo de Referência ou Projeto Básico (TR/PB).
+Na sistemática da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017, o encadeamento é:
 
-Os Assuntos 132 a 135 tratarão da seleção do fornecedor, da gestão e fiscalização, da medição e pagamento, das obrigações trabalhistas, da manutenção do equilíbrio e do encerramento. Aqui, elementos dessas fases aparecem somente quando precisam ser projetados antes da licitação.
+**necessidade → <abbr title="Documento de Formalização da Demanda">DFD</abbr> → equipe → <abbr title="Estudo Técnico Preliminar">ETP</abbr> → riscos → <abbr title="Termo de Referência ou Projeto Básico">TR/PB</abbr> → seleção do fornecedor**.
 
-A IN nº 5/2017 tem âmbito federal. Ela integra o edital do concurso, mas não se converte automaticamente em regulamento organizacional do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Para contratações federais submetidas à Lei nº 14.133/2021, a IN <abbr title="Secretaria de Gestão do Ministério da Economia">SEGES/ME</abbr> nº 98/2022 autorizou sua aplicação **no que couber**. Essa cláusula exige compatibilidade com a nova Lei e com normas federais posteriores.
+O ponto mais importante é que o documento seguinte deve nascer das decisões justificadas no anterior. O <abbr title="Documento de Formalização da Demanda">DFD</abbr> identifica a demanda; o <abbr title="Estudo Técnico Preliminar">ETP</abbr> compara soluções; o gerenciamento de riscos prepara respostas às incertezas; o <abbr title="Termo de Referência ou Projeto Básico">TR/PB</abbr> transforma a solução escolhida em objeto executável, mensurável e fiscalizável.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Datas posteriores de consulta das fontes servem apenas à conferência editorial e não alteram o corte jurídico.
+> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Consultas posteriores servem à conferência editorial e não ampliam esse corte.
 
-## 1. Como ler a IN nº 5/2017 em 2026
+## 1. Primeiro contraste: o que é literal da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 e o que foi atualizado
 
-### 1.1 Vigência não significa aplicação literal de toda redação histórica
+A <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 disciplina diretamente a contratação de serviços sob <abbr title="prestação realizada por terceiro contratado, sem provimento de cargo público">execução indireta</abbr> na Administração Pública federal direta, autárquica e fundacional. Sua presença no edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> torna a norma matéria de prova; não a converte automaticamente em regulamento interno do Tribunal.
 
-A IN nº 5/2017 não foi integralmente revogada pela Lei nº 14.133/2021. Também não se deve aplicar mecanicamente cada remissão antiga às Leis nº 8.666/1993 e nº 10.520/2002. A leitura correta combina:
+Para contratações federais regidas pela Lei nº 14.133/2021, a <abbr title="Instrução Normativa">IN</abbr> nº 98/2022 determinou a aplicação da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 **no que couber**. Isso preserva procedimentos compatíveis, mas impede reproduzir mecanicamente remissões ao regime revogado ou ignorar atos federais supervenientes.
 
-1. o texto atualizado da IN nº 5/2017;
-2. a autorização **no que couber** da IN nº 98/2022;
-3. a Lei nº 14.133/2021;
-4. os atos federais específicos supervenientes.
+Quatro atualizações organizam a leitura deste capítulo:
 
-Exemplo decisivo: a IN nº 49/2020 alterou o art. 24 da IN nº 5/2017 e revogou seus §§ 1º a 6º e o Anexo III. Nas contratações federais regidas pela Lei nº 14.133/2021, o conteúdo atual dos ETP está na IN SEGES nº 58/2022. Estudar o antigo Anexo III como vigente produz respostas erradas.
+| Documento do planejamento | Regra relevante no regime federal atual |
+| --- | --- |
+| <abbr title="Documento de Formalização da Demanda">DFD</abbr> que fundamenta o planejamento anual | Decreto nº 10.947/2022 |
+| <abbr title="Estudo Técnico Preliminar">ETP</abbr> | <abbr title="Instrução Normativa">IN</abbr> nº 58/2022 |
+| <abbr title="Termo de Referência">TR</abbr> para bens e serviços | <abbr title="Instrução Normativa">IN</abbr> nº 81/2022 |
+| estimativa de preços | <abbr title="Instrução Normativa">IN</abbr> nº 65/2021 |
 
-A mesma cautela vale para outros documentos da fase preparatória. O **<abbr title="Documento de Formalização da Demanda">DFD</abbr>** que fundamenta o Plano de Contratações Anual federal segue o Decreto nº 10.947/2022, enquanto o **Termo de Referência** para bens e serviços no regime federal da Lei nº 14.133/2021 é disciplinado pela IN SEGES/ME nº 81/2022. A literalidade da IN nº 5/2017 continua relevante quando a questão a cobra expressamente, mas não substitui a regulamentação federal superveniente.
+Há ainda uma alteração histórica decisiva: a <abbr title="Instrução Normativa">IN</abbr> nº 49/2020 modificou o <abbr title="artigo">art.</abbr> 24 da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 e revogou os antigos §§ 1º a 6º e o Anexo III. Portanto, o antigo Anexo III **não é a disciplina vigente dos estudos preliminares**.
 
-### 1.2 Âmbito direto e referências qualificadas
+A Lei nº 14.133/2021 fornece as normas gerais atuais. Decretos e instruções federais citados aqui conservam o âmbito definido em cada ato. Orientações do <abbr title="Tribunal de Contas da União">TCU</abbr>, modelos da <abbr title="Advocacia-Geral da União">AGU</abbr> e Cadernos de Logística são referências qualificadas, não atos internos automáticos do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
-| Fonte | Destinatário direto no recorte | Função no estudo |
-| --- | --- | --- |
-| IN nº 5/2017 | Administração federal direta, autárquica e fundacional | procedimento de serviços sob execução indireta |
-| IN nº 98/2022 | mesma Administração federal | autoriza usar a IN nº 5/2017 sob a Lei nº 14.133/2021, no que couber |
-| Decreto nº 10.947/2022 | Administração federal direta, autárquica e fundacional | PCA, <abbr title="Sistema de Planejamento e Gerenciamento de Contratações">PGC</abbr> e DFD que fundamenta o planejamento anual |
-| IN nº 58/2022 | Administração federal e entes que executem transferências voluntárias da União nas condições do art. 2º | disciplina atual dos ETP federais |
-| IN nº 81/2022 | Administração federal e entes nas condições de seu art. 2º | disciplina atual do TR para bens e serviços |
-| Decreto nº 9.507/2018 | Administração federal e estatais controladas pela União, conforme regras próprias | execução indireta e vedações federais |
-| Lei nº 14.133/2021 | entes abrangidos pelo art. 1º | normas gerais e fase preparatória atual |
+## 2. Antes dos formulários: o objeto é serviço, não fornecimento de pessoas
 
-Orientações do <abbr title="Tribunal de Contas da União">TCU</abbr>, modelos da <abbr title="Advocacia-Geral da União">AGU</abbr> e Cadernos de Logística são referências federais qualificadas. Não devem ser apresentados como atos internos automaticamente vinculantes ao TCE-MA.
+O <abbr title="artigo">art.</abbr> 3º da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 exige que o objeto seja definido como **prestação de serviços** e veda sua caracterização exclusiva como fornecimento de mão de obra. Essa regra muda a pergunta do planejamento:
 
-## 2. O objeto é serviço, não fornecimento de pessoas
+- errado: “quantas pessoas quero controlar?”;
+- correto: “qual serviço preciso receber, em que volume, com que qualidade e como vou medir o resultado?”.
 
-O art. 3º da IN nº 5/2017 determina que o objeto seja definido como **prestação de serviços** e veda sua caracterização exclusiva como fornecimento de mão de obra. O Decreto nº 9.507/2018 reforça que a contratação deve ser precedida de planejamento e que o objeto seja definido com precisão como serviço.
-
-Essa diferença orienta todo o planejamento:
-
-- a necessidade é traduzida em resultados, tarefas, volumes e qualidade;
-- a contratada organiza seus recursos e responde pela execução;
-- a Administração mede o serviço, não administra empregados alheios;
-- postos ou horas são unidades excepcionais, justificadas quando resultados não puderem ser medidos de modo mais adequado.
+A empresa contratada organiza seus recursos e responde pela execução. A Administração fiscaliza o serviço; não assume a direção cotidiana dos empregados da empresa.
 
 ### 2.1 Pessoalidade, subordinação e ingerência
 
-A terceirização não gera vínculo empregatício entre empregados da contratada e Administração. São vedadas pessoalidade e subordinação direta. O art. 5º exemplifica ingerências proibidas:
+A execução indireta regular não cria vínculo empregatício entre os empregados da contratada e a Administração. O <abbr title="artigo">art.</abbr> 5º proíbe, entre outras ingerências:
 
-- subordinar, vincular hierarquicamente, sancionar ou supervisionar diretamente empregado da contratada;
-- exercer mando em vez de se reportar ao preposto;
-- direcionar a contratação de pessoas;
+- subordinar ou vincular hierarquicamente empregados da contratada;
+- exercer mando direto em lugar de comunicar-se com o <abbr title="representante da contratada perante a Administração durante a execução">preposto</abbr>;
+- escolher pessoas para serem contratadas;
 - promover ou aceitar desvio de função;
-- tratar terceirizados como colaboradores eventuais do órgão;
-- definir remuneração fora das exceções normativas;
-- conceder direitos típicos de servidores públicos.
+- conceder aos terceirizados direitos próprios dos servidores;
+- definir remuneração fora das hipóteses admitidas pela disciplina aplicável.
 
-Há exceções estreitas, que não autorizam comando hierárquico cotidiano:
+A comunicação direta com empregado é exceção estreita: pode ocorrer para tarefa previamente descrita para função específica, sem criar uma relação hierárquica cotidiana. A disciplina federal atual também contém exceções expressas à regra de não fixação remuneratória, inclusive para custos mínimos regulamentados e, quando justificado, para profissional com expertise superior. O Decreto nº 12.174/2024 e a <abbr title="Instrução Normativa">IN</abbr> nº 176/2024 integram essa atualização no âmbito federal.
 
-- tarefas previamente descritas para função específica, como recepção ou apoio, podem admitir notificação direta;
-- a gestão das garantias trabalhistas do Decreto nº 12.174/2024 não constitui ingerência;
-- a disciplina federal atual admite custos mínimos e remuneração definida nas hipóteses do Decreto nº 12.174/2024 e da IN nº 176/2024, além de profissionais de expertise superior, se justificado.
+O <abbr title="artigo">art.</abbr> 6º também impede que certas cláusulas coletivas vinculem automaticamente a Administração, como disposições sobre participação nos lucros, matéria não trabalhista, direitos sem previsão legal, índices obrigatórios de encargos e preços de insumos ou obrigações criadas apenas para contratos públicos. Isso não autoriza desconsiderar direitos trabalhistas válidos da categoria.
 
-### 2.2 Convenções coletivas não vinculam a Administração sem limites
+### 2.2 O serviço é materialmente terceirizável?
 
-O art. 6º afasta vinculação a cláusulas coletivas sobre participação nos lucros, matéria não trabalhista, direitos não previstos em lei, índices obrigatórios de encargos e preços de insumos. Também veda vinculação a obrigações criadas apenas para contratos com a Administração. Isso não autoriza ignorar direitos trabalhistas válidos da categoria.
+O Decreto nº 9.507/2018 impede a execução indireta, no âmbito federal que disciplina, de atividades que envolvam:
 
-## 3. O que pode ser executado indiretamente
+1. tomada de decisão ou posicionamento institucional em planejamento, coordenação, supervisão e controle;
+2. atividade estratégica cuja terceirização coloque em risco processos, conhecimento ou tecnologia;
+3. poder de polícia, regulação, outorga de serviço público ou aplicação de sanção;
+4. atribuição inerente a categoria do plano de cargos, salvo disposição legal em contrário ou extinção total ou parcial da categoria.
 
-O planejamento deve verificar primeiro se o serviço é terceirizável. No regime federal, não serão objeto de execução indireta:
+Atividades auxiliares, instrumentais ou acessórias podem ser terceirizadas, mas o particular não recebe a responsabilidade por ato administrativo ou tomada de decisão.
 
-1. decisões ou posicionamentos institucionais em planejamento, coordenação, supervisão e controle;
-2. atividades estratégicas cuja terceirização arrisque processos, conhecimento ou tecnologia;
-3. poder de polícia, regulação, outorga de serviço público e aplicação de sanção;
-4. atividades inerentes às categorias do plano de cargos, salvo previsão legal ou cargo extinto, total ou parcialmente.
+A Portaria nº 443/2018 lista serviços preferencialmente terceirizáveis no Poder Executivo federal. Ela ajuda a compreender a política federal, porém não é autorização irrestrita nem regra automaticamente reproduzível por qualquer ente.
 
-Atividades **auxiliares, instrumentais ou acessórias** podem ser terceirizadas, mas o particular não pode receber a responsabilidade por ato administrativo ou tomada de decisão. A Portaria nº 443/2018 enumera serviços preferencialmente terceirizáveis no Executivo federal; sua lista não é autorização irrestrita nem regra automaticamente aplicável a outro ente.
+Duas situações especiais exigem compatibilidade real com o modelo:
 
-Cooperativas somente são compatíveis com serviços executáveis com autonomia pelos cooperados, gestão compartilhada ou em rodízio e ausência de intermediação ou subcontratação. Instituições sem fins lucrativos devem executar o objeto por profissionais de seus próprios quadros, e seu estatuto precisa ser compatível com o serviço.
+- **cooperativa:** o serviço deve admitir autonomia dos cooperados, gestão compartilhada ou rodízio, sem intermediação ou subcontratação que descaracterize a cooperativa;
+- **instituição sem fins lucrativos:** o estatuto deve ser compatível com o objeto e a execução deve ocorrer por profissionais de seus próprios quadros.
 
-## 4. Classificações que mudam o planejamento
+## 3. Classificar o serviço muda o modo de planejar
 
-### 4.1 Comum ou especial
+As classificações não são etiquetas decorativas. Elas alteram duração, medição, riscos, composição de custos e controles.
 
-Serviço comum tem padrões de desempenho e qualidade objetivamente definíveis por especificações usuais de mercado. A complexidade, isoladamente, não impede o enquadramento como comum; o critério é a possibilidade de descrição objetiva.
+### 3.1 Serviço comum
 
-### 4.2 Contínuo ou por escopo
+Serviço comum é aquele cujos padrões de desempenho e qualidade podem ser objetivamente definidos por especificações usuais de mercado. **Complexidade técnica, por si só, não impede a classificação como comum.** O teste é a possibilidade de especificação objetiva.
 
-| Classificação | Elemento central | Exemplo |
+### 3.2 Contínuo ou por escopo
+
+| Tipo | Pergunta útil | Exemplo hipotético |
 | --- | --- | --- |
-| contínuo | necessidade permanente e prolongada; interrupção compromete serviço público, missão ou patrimônio | limpeza predial recorrente |
-| não contínuo ou por escopo | serviço específico em período predeterminado | diagnóstico técnico com entrega final |
+| contínuo | a necessidade é permanente ou prolongada e sua interrupção compromete serviço, missão ou patrimônio? | limpeza predial recorrente |
+| não contínuo ou por escopo | existe serviço específico a concluir em período predeterminado? | diagnóstico técnico com entrega final |
 
-Continuidade descreve a necessidade, não a presença diária de trabalhadores. Um serviço contínuo pode ser executado com ou sem dedicação exclusiva.
+Continuidade descreve a **necessidade**. Não significa presença diária de pessoa determinada, prazo fixo de doze meses nem dedicação exclusiva.
 
-### 4.3 Com ou sem dedicação exclusiva de mão de obra
+### 3.3 Com ou sem dedicação exclusiva de mão de obra
 
-O art. 17 identifica dedicação exclusiva quando o modelo exige, entre outros requisitos:
+Na <abbr title="Instrução Normativa">IN</abbr> nº 5/2017, a dedicação exclusiva está associada ao modelo em que os empregados ficam à disposição da contratante, os recursos humanos e materiais daquela contratação não são compartilhados com outros contratos e a Administração consegue fiscalizar sua distribuição, controle e supervisão.
 
-1. empregados à disposição nas dependências da contratante;
-2. não compartilhamento dos recursos humanos e materiais daquela contratação com outros contratos;
-3. possibilidade de fiscalização da distribuição, controle e supervisão dos recursos alocados.
+Duas conclusões evitam erros frequentes:
 
-O parágrafo único do art. 17 da IN nº 5/2017 admite literalmente a prestação fora das dependências do órgão, desde que não ocorra nas dependências da contratada e estejam presentes o não compartilhamento e a fiscalização. Há, porém, tensão com o art. 6º, XVI, da Lei nº 14.133/2021, que inclui a disponibilidade dos empregados nas dependências do contratante entre os requisitos do regime. Como a IN nº 98/2022 autoriza a norma de serviços apenas **no que couber**, a regra infralegal não deve ser usada para afastar genericamente a definição legal. Em questão de prova, diferencie a literalidade do art. 17 da IN da definição legal vigente. Dedicação exclusiva é característica do **modelo de execução**, não qualidade inevitável do objeto.
+1. serviço contínuo pode ser executado **com ou sem** dedicação exclusiva;
+2. dedicação exclusiva é característica do **modelo de execução**, não essência do objeto.
 
-Para esse regime, o gerenciamento deve contemplar obrigatoriamente o risco de inadimplemento trabalhista, previdenciário e de <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr>. Conta-Depósito Vinculada ou Pagamento pelo Fato Gerador são controles possíveis, e a escolha exige avaliação de custo-benefício.
+O parágrafo único do <abbr title="artigo">art.</abbr> 17 da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 admite literalmente certas prestações fora das dependências do órgão, desde que não ocorram nas dependências da contratada e se mantenham os demais requisitos. Já o <abbr title="artigo">art.</abbr> 6º, XVI, da Lei nº 14.133/2021 inclui a disponibilidade dos empregados nas dependências do contratante na definição legal. Como a <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 vale sob a nova Lei apenas **no que couber**, sua regra infralegal não deve ser usada para afastar genericamente o requisito legal. Em prova, diferencie a literalidade dos dois textos.
 
-## 5. Três fases e três etapas do planejamento
+Nos serviços com dedicação exclusiva, o gerenciamento de riscos deve contemplar obrigatoriamente inadimplemento trabalhista, previdenciário e de <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr>. <abbr title="conta bloqueada destinada a provisionar parcelas trabalhistas do contrato">Conta-Depósito Vinculada</abbr> e <abbr title="pagamento de determinadas verbas trabalhistas somente quando ocorre o fato que gera a obrigação">Pagamento pelo Fato Gerador</abbr> são mecanismos possíveis; a escolha exige avaliação de custo-benefício. O Decreto nº 12.174/2024 atualiza as garantias trabalhistas federais e não transforma a Administração em empregadora dos trabalhadores terceirizados.
 
-O art. 19 divide o procedimento em três **fases**:
+## 4. Três fases do procedimento e três etapas do planejamento
+
+O <abbr title="artigo">art.</abbr> 19 da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 divide o procedimento de contratação de serviços em três **fases**:
 
 1. Planejamento da Contratação;
 2. Seleção do Fornecedor;
 3. Gestão do Contrato.
 
-Dentro da primeira fase, o art. 20 estabelece três **etapas**:
+Dentro da primeira fase, o <abbr title="artigo">art.</abbr> 20 prevê três **etapas**:
 
 1. Estudos Preliminares;
 2. Gerenciamento de Riscos;
-3. Termo de Referência ou Projeto Básico.
+3. <abbr title="Termo de Referência ou Projeto Básico">TR/PB</abbr>.
 
-O Documento de Formalização da Demanda (DFD) e a designação da equipe são **procedimentos iniciais**. Eles antecedem as etapas, mas não formam uma quarta etapa do art. 20.
+O <abbr title="Documento de Formalização da Demanda">DFD</abbr> e a designação da equipe são **procedimentos iniciais**. Eles organizam o planejamento, mas não formam uma quarta e uma quinta etapa do <abbr title="artigo">art.</abbr> 20.
 
-| Sequência | Produto ou decisão | Responsável indicado pela IN nº 5/2017 |
-| --- | --- | --- |
-| formalizar | DFD | setor requisitante |
-| organizar | equipe formalmente designada | autoridade competente do setor de licitações |
-| estudar | ETP | equipe de planejamento, conforme disciplina atual |
-| controlar incerteza | gerenciamento e Mapa de Riscos | equipe de planejamento |
-| consolidar | envio de DFD, ETP e riscos; definição de prazo | setor requisitante e autoridade de licitações |
-| especificar | TR/PB | setor requisitante, a partir dos estudos e riscos |
+Essa arquitetura também explica duas regras:
 
-Essa tabela reproduz a sequência da IN nº 5/2017. No regime federal atual da Lei nº 14.133/2021, a documentação também deve ser lida com os atos supervenientes: DFD/PCA pelo Decreto nº 10.947/2022, ETP pela IN nº 58/2022 e TR pela IN nº 81/2022.
+- contratação direta não elimina automaticamente o planejamento: as etapas são cumpridas no que couber, observadas as exceções atuais;
+- as antigas remissões da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 às hipóteses da Lei nº 8.666/1993 não criam, por simples transposição, dispensas no regime da Lei nº 14.133/2021.
 
-O detalhamento deve ser proporcional ao risco do objeto. Contratação direta não elimina automaticamente o planejamento: as etapas são cumpridas no que couber.
+## 5. <abbr title="Documento de Formalização da Demanda">DFD</abbr> e equipe: dar forma à necessidade sem fechar a solução
 
-## 6. DFD e equipe de planejamento
+### 5.1 <abbr title="Documento de Formalização da Demanda">DFD</abbr> na literalidade da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017
 
-### 6.1 Conteúdo do DFD na IN nº 5/2017
+Pelo <abbr title="artigo">art.</abbr> 21 e pelo Anexo II, o setor requisitante registra:
 
-Pelo art. 21 e pelo Anexo II, o setor requisitante registra:
-
-- justificativa da necessidade, inclusive a opção pela terceirização e o alinhamento estratégico, quando houver;
+- justificativa da necessidade, inclusive a opção pela terceirização;
+- alinhamento a instrumentos de planejamento, quando houver;
 - quantidade do serviço;
 - data prevista para início;
-- servidores indicados para ETP e riscos e, se necessário, para futura fiscalização.
+- servidores indicados para estudos e riscos e, se necessário, para futura fiscalização.
 
-O DFD identifica a necessidade; não deve antecipar uma solução escolhida sem comparação. Depois, ele segue ao setor de licitações.
+O documento deve nascer da **necessidade**. Se já fixa marca, tecnologia ou método sem comparação, a Administração corre o risco de transformar o estudo posterior em mera confirmação de uma escolha antecipada.
 
-### 6.2 DFD no regime federal atual do PCA
+### 5.2 <abbr title="Documento de Formalização da Demanda">DFD</abbr> no planejamento anual federal atual
 
-No planejamento anual federal sob a Lei nº 14.133/2021, o Decreto nº 10.947/2022 define o DFD como documento que fundamenta o PCA e detalha a necessidade. Seu art. 8º prevê, no PGC:
+No Decreto nº 10.947/2022, o <abbr title="Documento de Formalização da Demanda">DFD</abbr> que fundamenta o <abbr title="Plano de Contratações Anual">PCA</abbr> contém, no sistema federal:
 
 1. justificativa da necessidade;
 2. descrição sucinta do objeto;
-3. quantidade, quando couber, considerada a expectativa de consumo anual;
+3. quantidade, quando couber, considerada a expectativa anual;
 4. estimativa preliminar do valor;
 5. data pretendida para conclusão da contratação;
 6. grau de prioridade;
-7. vinculação ou dependência com outro DFD, quando houver;
+7. vinculação ou dependência com outro <abbr title="Documento de Formalização da Demanda">DFD</abbr>, quando houver;
 8. área requisitante ou técnica e identificação do responsável.
 
-Não confunda as duas molduras: uma questão pode cobrar o art. 21/Anexo II da IN nº 5/2017 ou a disciplina atual do DFD que fundamenta o PCA federal.
+As duas molduras não devem ser misturadas como se fossem a mesma lista. Em questão sobre a literalidade da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017, vale o <abbr title="artigo">art.</abbr> 21 e o Anexo II; no planejamento anual federal atual, vale a disciplina do Decreto nº 10.947/2022.
 
-### 6.3 Formação da equipe
+### 5.3 Formação da equipe
 
-A autoridade competente do setor de licitações designa formalmente a equipe e pode incluir servidores desse setor. A equipe reúne conhecimentos técnicos e de uso do objeto, licitações e contratos, entre outros. Seus integrantes devem ter ciência expressa das atribuições **antes** da designação formal.
+Recebido o <abbr title="Documento de Formalização da Demanda">DFD</abbr>, a autoridade competente do setor de licitações designa formalmente a equipe de Planejamento da Contratação e pode incluir servidores desse setor. A equipe deve reunir conhecimentos técnicos e de uso do objeto, licitações e contratos.
 
-Se houver área técnica específica, a organização da equipe pode ser diversa, observadas as regras no que couber. A equipe multidisciplinar não exige necessariamente criar nova unidade administrativa.
+A ciência expressa dos integrantes sobre suas atribuições deve ocorrer **antes** da designação formal. Existindo área técnica específica, a organização pode ser diversa, observadas as regras no que couber; não é obrigatório criar uma nova unidade administrativa permanente.
 
-## 7. Estudos Técnicos Preliminares atuais
+## 6. <abbr title="Estudo Técnico Preliminar">ETP</abbr>: investigar antes de especificar
 
-O ETP é a primeira etapa do planejamento: caracteriza o problema de interesse público, compara soluções e sustenta o TR/PB se a contratação for viável. Pela redação atual do art. 24 da IN nº 5/2017, sua elaboração segue ato específico. Para o regime federal da Lei nº 14.133/2021, aplica-se a IN nº 58/2022.
+O <abbr title="Estudo Técnico Preliminar">ETP</abbr> caracteriza o problema de interesse público, compara alternativas e demonstra por que a solução escolhida é adequada e viável. Pela redação atual do <abbr title="artigo">art.</abbr> 24 da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017, sua elaboração segue ato específico; nas contratações federais sob a Lei nº 14.133/2021, a referência é a <abbr title="Instrução Normativa">IN</abbr> nº 58/2022.
 
-### 7.1 Conteúdo do ETP pela IN nº 58/2022
+O raciocínio pode ser lido em cinco movimentos:
 
-| Bloco | Pergunta respondida |
-| --- | --- |
-| necessidade | qual problema público precisa ser resolvido? |
-| requisitos | quais condições necessárias e suficientes a solução deve cumprir? |
-| mercado | quais alternativas existem e por que a escolhida é técnica e economicamente adequada? |
-| solução completa | quais componentes, manutenção e assistência integram a resposta? |
-| quantidades | quanto é necessário e qual memória de cálculo sustenta o número? |
-| valor | qual estimativa, com preços unitários e memória de cálculo? |
-| parcelamento | dividir é técnica e economicamente viável e preserva escala? |
-| relações | há contratações correlatas ou interdependentes? |
-| alinhamento | a demanda consta do PCA e dos demais instrumentos? |
-| resultados | quais ganhos de economicidade e de uso de recursos são esperados? |
-| providências | o que deve ocorrer antes do contrato, inclusive licenças e capacitação? |
-| ambiente | quais impactos, mitigações, consumo de recursos e logística reversa cabem? |
-| conclusão | a contratação é adequada e viável? |
+1. **problema e requisitos:** o que precisa ser resolvido e quais condições são realmente necessárias?
+2. **alternativas:** que soluções o mercado oferece e quais diferenças técnicas, econômicas e logísticas importam?
+3. **dimensionamento:** quanto é necessário, quanto tende a custar e quais dados sustentam as estimativas?
+4. **desenho da solução:** parcelamento, contratações correlatas, providências prévias, resultados esperados e impactos ambientais;
+5. **conclusão:** a solução escolhida atende à necessidade e a contratação é viável?
 
-São obrigatórios, no mínimo: **necessidade, quantidades, valor, parcelamento e conclusão**. A ausência dos demais elementos exige justificativa.
+O <abbr title="análise das alternativas disponíveis antes da escolha da solução">levantamento de mercado</abbr> não é sinônimo de pesquisa de preços. O primeiro compara soluções, métodos, tecnologias e arranjos; a segunda estima o valor da solução que será contratada.
 
-O levantamento de mercado não é mera coleta de preços. Ele compara alternativas, métodos, tecnologias, inovação e arranjos logísticos. Se os requisitos restringirem fornecedores, a equipe deve verificar se são indispensáveis e flexibilizá-los quando possível.
+### 6.1 Os cinco elementos mínimos atuais
 
-### 7.2 Simplificação, faculdade e dispensa
+A <abbr title="Instrução Normativa">IN</abbr> nº 58/2022 exige, no mínimo:
 
-Modelos padronizados e Cadernos de Logística podem permitir simplificação do que já esteja definido, sem dispensar fundamentação do restante. Serviços de mesma natureza, semelhança ou afinidade podem compartilhar ETP e gerenciamento de riscos.
+- descrição da necessidade;
+- estimativas de quantidades;
+- estimativa do valor da contratação;
+- justificativa para o <abbr title="divisão ou não do objeto em partes contratáveis">parcelamento</abbr> ou não da solução;
+- posicionamento conclusivo sobre a adequação da contratação.
 
-No regime atual da IN nº 58/2022:
+Os demais elementos previstos na norma devem ser tratados quando cabíveis; sua ausência precisa ser justificada. Se um requisito restringir fortemente o universo de fornecedores, a equipe deve verificar se ele é indispensável e flexibilizá-lo quando puder preservar a necessidade pública.
 
-- o ETP é **facultativo** nas hipóteses dos incisos I, II, VII e VIII do art. 75 e do art. 90, § 7º, da Lei nº 14.133/2021;
-- é **dispensado** na hipótese do art. 75, III, e nas prorrogações de serviços e fornecimentos contínuos.
+A <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 também admite simplificação de aspectos já definidos em modelos ou Cadernos de Logística e permite estudos e gerenciamento de riscos comuns para serviços de mesma natureza, semelhantes ou afins. Reaproveitar estudo, porém, exige verificar se ele continua adequado à nova demanda; copiar documento antigo não é planejar.
 
-As dispensas históricas do art. 20, §§ 2º e 3º, da IN nº 5/2017 remetem ao regime anterior e não devem ser transpostas mecanicamente para a Lei nº 14.133/2021.
+### 6.2 Faculdade e dispensa no regime atual
 
-## 8. Gerenciamento e Mapa de Riscos
+Pela <abbr title="Instrução Normativa">IN</abbr> nº 58/2022, o <abbr title="Estudo Técnico Preliminar">ETP</abbr> é **facultativo** nas contratações fundadas nos incisos I, II, VII e VIII do <abbr title="artigo">art.</abbr> 75 e na hipótese do <abbr title="artigo">art.</abbr> 90, § 7º, da Lei nº 14.133/2021. É **dispensado** na hipótese do <abbr title="artigo">art.</abbr> 75, III, e nas prorrogações de serviços e fornecimentos contínuos.
 
-O gerenciamento é processo contínuo. Pelo art. 25, compreende:
+Faculdade e dispensa não são sinônimos: na primeira, a Administração pode decidir motivadamente pela elaboração; na segunda, a norma afasta a exigência.
 
-1. identificar riscos que comprometam planejamento, seleção, gestão ou resultados;
+## 7. Gerenciamento de riscos: planejar também o que pode dar errado
+
+Pelo <abbr title="artigo">art.</abbr> 25 da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017, o gerenciamento de riscos envolve:
+
+1. identificar eventos capazes de comprometer planejamento, seleção, gestão ou resultados;
 2. avaliar probabilidade e impacto;
 3. definir tratamento para riscos inaceitáveis;
 4. prever contingência se o risco residual continuar inaceitável;
-5. atribuir responsáveis ao tratamento e à contingência.
+5. atribuir responsáveis pelo tratamento e pela contingência.
 
-O **Mapa de Riscos** materializa esse processo. Deve ser atualizado e juntado aos autos, pelo menos:
+O Mapa de Riscos documenta esse processo. Ele deve ser atualizado e juntado aos autos, pelo menos:
 
-- ao fim do ETP;
-- ao fim do TR/PB;
+- ao final do <abbr title="Estudo Técnico Preliminar">ETP</abbr>;
+- ao final do <abbr title="Termo de Referência ou Projeto Básico">TR/PB</abbr>;
 - depois da seleção do fornecedor;
-- após eventos relevantes durante a gestão.
+- após eventos relevantes durante a gestão contratual.
 
-### 8.1 Mapa não é matriz de riscos
+O Mapa de Riscos **não é a matriz de riscos contratual**. O primeiro registra e acompanha eventos, controles, responsáveis e contingências ao longo do procedimento; a segunda distribui contratualmente certos riscos supervenientes entre as partes.
 
-| Instrumento | Função |
-| --- | --- |
-| Mapa de Riscos | identificar, avaliar e tratar eventos ao longo do procedimento |
-| matriz de riscos | cláusula contratual que distribui riscos supervenientes entre contratante e contratado |
+Orientações do <abbr title="Tribunal de Contas da União">TCU</abbr> podem ajudar a qualificar a análise, mas não substituem os requisitos normativos nem a avaliação concreta do objeto.
 
-O Mapa pode registrar risco, dano, probabilidade, impacto, ação preventiva, contingência e responsável. O Anexo IV oferece modelo, mas gerenciamento não se reduz a preencher tabela.
+## 8. <abbr title="Termo de Referência ou Projeto Básico">TR/PB</abbr>: transformar a solução em obrigação verificável
 
-## 9. Termo de Referência ou Projeto Básico
+O <abbr title="Estudo Técnico Preliminar">ETP</abbr> responde **qual solução faz sentido**. O <abbr title="Termo de Referência ou Projeto Básico">TR/PB</abbr> responde **como essa solução será contratada, executada, medida e controlada**.
 
-O TR/PB encerra o planejamento e transforma a solução estudada em obrigações executáveis. Pela sequência literal da IN nº 5/2017, parte do ETP e do gerenciamento de riscos, e o setor requisitante avalia se a passagem do tempo exige atualizar esses documentos.
+Na sequência literal da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017, o setor requisitante elabora o <abbr title="Termo de Referência ou Projeto Básico">TR/PB</abbr> a partir dos estudos e do gerenciamento de riscos e deve avaliar se o tempo transcorrido ou mudanças de contexto exigem atualizar esses documentos.
 
-O art. 30 da IN nº 5/2017 exige, no mínimo:
+O <abbr title="artigo">art.</abbr> 30 reúne onze conteúdos mínimos:
 
 1. declaração do objeto;
 2. fundamentação da contratação;
@@ -264,117 +240,57 @@ O art. 30 da IN nº 5/2017 exige, no mínimo:
 10. estimativas detalhadas de preços;
 11. adequação orçamentária.
 
-Para **bens e serviços no regime federal atual da Lei nº 14.133/2021**, a IN SEGES/ME nº 81/2022 disciplina especificamente o TR. O art. 8º determina elaboração conjunta por servidores da área técnica e requisitante ou, quando houver, pela equipe de planejamento da contratação. O art. 9º organiza dez blocos:
+No regime federal atual da Lei nº 14.133/2021, a <abbr title="Instrução Normativa">IN</abbr> nº 81/2022 disciplina especificamente o <abbr title="Termo de Referência">TR</abbr> para bens e serviços. Ela determina elaboração conjunta por servidores da área técnica e requisitante ou, quando houver, pela equipe de planejamento, e organiza o documento em dez blocos. Também exige coerência com o <abbr title="Plano de Contratações Anual">PCA</abbr>, com o Plano Diretor de Logística Sustentável e com os demais instrumentos de planejamento aplicáveis.
 
-1. definição do objeto;
-2. fundamentação da contratação;
-3. descrição da solução como um todo;
-4. requisitos da contratação;
-5. modelo de execução do objeto;
-6. modelo de gestão do contrato;
-7. critérios de medição e pagamento;
-8. forma e critérios de seleção do fornecedor;
-9. estimativas do valor da contratação;
-10. adequação orçamentária, salvo sistema de registro de preços.
+Modelos da <abbr title="Advocacia-Geral da União">AGU</abbr>, Cadernos de Logística e modelos digitais padronizados reduzem retrabalho, mas não autorizam cópia cega. A não utilização de modelo aplicável ou alterações relevantes devem ser justificadas nos autos.
 
-A IN nº 81/2022 também exige alinhamento do TR ao PCA, ao Plano Diretor de Logística Sustentável e aos demais instrumentos de planejamento. Se houver modelo aplicável do Sistema TR Digital, sua não utilização deve ser justificada por escrito e juntada ao processo.
+## 9. O que o planejamento precisa antecipar em uma contratação de serviços
 
-### 9.1 Objeto, requisitos e solução
+### 9.1 Objeto e requisitos
 
-O núcleo do objeto informa natureza, quantitativos e prazo, inclusive possibilidade de prorrogação. Especificações não podem:
+O objeto deve informar natureza, quantitativos e prazo e evitar exigências excessivas, irrelevantes, direcionadas ou tecnologicamente defasadas. Quando houver categorias profissionais alocadas, a <abbr title="Classificação Brasileira de Ocupações">CBO</abbr> ajuda a enquadrar funções e custos sem autorizar escolha nominal de trabalhadores.
 
-- restringir ou direcionar injustificadamente;
-- superar a necessidade real sem agregar valor;
-- estar defasadas tecnológica ou metodologicamente;
-- impor preço superior ao de solução com melhor desempenho.
-
-Os requisitos devem enquadrar categorias pela <abbr title="Classificação Brasileira de Ocupações">CBO</abbr> quando houver mão de obra e definir obrigações compatíveis com o objeto. Quando a avaliação prévia do local for imprescindível, o edital pode exigir atestado de conhecimento e assegurar a vistoria, mas deve sempre permitir que a visita física seja substituída por declaração formal do responsável técnico do licitante. Fotografias, plantas e documentos completos podem reduzir ou eliminar a própria necessidade de avaliação presencial.
+Se o conhecimento prévio do local for imprescindível, o edital pode exigir atestado de conhecimento e assegurar vistoria, mas deve permitir que a visita física seja substituída por declaração formal do responsável técnico do licitante. O planejamento deve demonstrar por que esse conhecimento é necessário.
 
 ### 9.2 Modelo de execução
 
-O planejamento define início, local, horários, rotinas, frequência, métodos, tecnologia, cronograma, volumes e materiais. Ordem de Serviço é adequada para tarefas específicas ou etapas que dependam de autorização expressa e deve permitir solicitação, acompanhamento, avaliação e ateste.
+O documento deve definir, conforme o objeto, início, local, horários, rotinas, frequência, métodos, tecnologia, cronograma, volumes, materiais e formas de acionamento. Ordem de Serviço é útil quando tarefas específicas ou etapas dependem de autorização e precisam de solicitação, acompanhamento, avaliação e ateste.
 
-Serviços intelectuais podem exigir transição contratual com transferência de conhecimento, tecnologia e técnicas. Subcontratação e consórcio devem ser avaliados e motivados, não presumidos.
+Em serviços intelectuais, o planejamento pode precisar prever transição e transferência de conhecimento, tecnologia e técnicas. <abbr title="contratação de terceiro pelo contratado para executar parte autorizada do objeto">Subcontratação</abbr> e <abbr title="associação temporária de empresas para disputar e executar a contratação">participação em consórcio</abbr> devem ser avaliadas e motivadas, e não presumidas.
 
-### 9.3 Modelo de gestão, medição e resultado
+### 9.3 Medição e resultado
 
-O TR/PB antecipa atores, comunicação, controles e forma de medir. A unidade de medida deve permitir mensurar resultados e evitar remuneração baseada apenas em horas ou postos. Essas unidades são excepcionais e exigem método de cálculo e justificativa.
+O modelo de gestão antecipa atores, comunicação, controles e forma de medir a prestação. O <abbr title="Instrumento de Medição de Resultado">IMR</abbr> deve ligar qualidade esperada a indicadores observáveis, metas, evidências e repercussão no pagamento.
 
-O Instrumento de Medição de Resultado (IMR) define níveis de qualidade em bases compreensíveis, tangíveis, observáveis e comprováveis, com adequações de pagamento. Bons indicadores:
+Ajustar o pagamento ao resultado efetivamente entregue não é, por si só, aplicar sanção. Sanção responde a infração e depende do procedimento correspondente.
 
-- medem atividades relevantes ou críticas;
-- refletem fatores sob controle do prestador;
-- são objetivos, compreensíveis e coletáveis;
-- possuem metas realistas;
-- evitam sobreposição;
-- distinguem adequação de pagamento de sanção.
-
-**Adequação de pagamento** remunera o resultado efetivamente entregue; **sanção** responde a infração e exige o procedimento correspondente. Uma não substitui automaticamente a outra.
+Remuneração por horas ou postos é excepcional e exige método de cálculo e justificativa. Quando o critério por postos for excepcionalmente adotado, a sistemática do Anexo V veda horas extras ou adicionais que não tenham sido previstos e estimados originariamente no edital.
 
 ### 9.4 Quantidades, produtividade e preços
 
-Quantidades precisam de método, memória de cálculo e suporte documental. Podem considerar áreas, frequência, demanda histórica, volume, horário, nível de serviço, tecnologia e condições locais. Produtividade relaciona volume de tarefas, rotina, recursos, qualidade e ambiente; parâmetros federais de limpeza são referências para condições específicas, não números universais para qualquer ente.
+Quantidades precisam de método, memória de cálculo e dados de suporte. Produtividade depende de volume, rotina, recursos, qualidade e condições locais; parâmetro usado por outro órgão não se torna número universal.
 
-No regime da Lei nº 14.133/2021, a pesquisa federal de preços segue a IN nº 65/2021. A referência antiga à IN nº 5/2014 no art. 30 da norma de serviços não deve ser aplicada como se ainda fosse a disciplina atual.
+No regime federal atual, a estimativa de preços segue a <abbr title="Instrução Normativa">IN</abbr> nº 65/2021. Em serviços com dedicação exclusiva, o planejamento também precisa enquadrar adequadamente a categoria pela <abbr title="Classificação Brasileira de Ocupações">CBO</abbr> e considerar o <abbr title="convenção ou acordo coletivo tomado como referência para a categoria e a localidade">instrumento coletivo paradigma</abbr> e os custos mínimos da disciplina federal vigente, inclusive a <abbr title="Instrução Normativa">IN</abbr> nº 176/2024.
 
-Para serviço contínuo com dedicação exclusiva, o planejamento federal atual identifica categoria profissional pela CBO e instrumento coletivo paradigma da localidade, conforme a IN nº 176/2024 atualizada. A planilha estima remuneração, benefícios e custos mínimos relevantes sem transformar o objeto em simples fornecimento de trabalhadores.
+### 9.5 Sustentabilidade, <abbr title="divisão ou não do objeto em partes contratáveis">parcelamento</abbr> e preparação da Administração
 
-## 10. Sustentabilidade, parcelamento e preparação
+Critérios de sustentabilidade precisam ter relação com o objeto e ser proporcionais. O estudo pode considerar consumo de recursos, impactos, mitigação e logística reversa quando cabível.
 
-Critérios sustentáveis devem ter relação com o objeto, justificativa e proporcionalidade. O ETP avalia consumo de energia e recursos, impactos, mitigação e logística reversa quando cabível. Exigência ambiental genérica ou excessiva pode restringir a competição sem melhorar o resultado.
+O parcelamento busca ampliar a competição quando o objeto é divisível e a divisão é técnica e economicamente viável, sem perda relevante de escala nem prejuízo à integridade da solução. Parcelar sempre e nunca parcelar são erros simétricos: ambos dispensam a análise concreta.
 
-O parcelamento busca ampliar competição quando o objeto é divisível, técnica e economicamente viável e não causa perda de escala nem prejuízo ao conjunto. Dividir sem examinar interdependências pode destruir a solução; não dividir sem justificar pode restringir o mercado.
+O planejamento deve ainda antecipar adequação do ambiente, licenças, capacitação de gestores e fiscais, contratações correlatas, transição e continuidade.
 
-O planejamento também antecipa:
+Por fim, o <abbr title="artigo">art.</abbr> 31 preserva a <abbr title="separação de funções incompatíveis para reduzir conflito de interesses">segregação</abbr>: o mesmo prestador não pode executar o serviço e, simultaneamente, prestar subsídio ou assistência à fiscalização ou supervisão do mesmo objeto.
 
-- adequação do ambiente;
-- licenças, outorgas e autorizações;
-- capacitação de gestores e fiscais;
-- contratações correlatas e interdependentes;
-- transição e continuidade;
-- dotação orçamentária.
+## 10. Exemplo integrado: recepção predial com dedicação exclusiva
 
-O art. 31 preserva segregação: o mesmo prestador não pode executar o serviço e prestar subsídio ou assistência à fiscalização ou supervisão do mesmo objeto.
+Considere, hipoteticamente, que um órgão federal tenha demonstrado a necessidade de manter atendimento presencial contínuo em sua sede e, após comparar alternativas, conclua pela contratação de serviço de recepção com dedicação exclusiva.
 
-## 11. Exemplo integrado
+1. **<abbr title="Documento de Formalização da Demanda">DFD</abbr>:** registra a necessidade, o dimensionamento inicial e os dados exigidos pelo regime aplicável, sem escolher previamente empresa ou trabalhadores.
+2. **Equipe:** reúne conhecimento do serviço, licitações e contratos; seus integrantes conhecem as atribuições antes da designação formal.
+3. **<abbr title="Estudo Técnico Preliminar">ETP</abbr>:** compara soluções, dimensiona postos e horários a partir da demanda, examina tecnologia de apoio, custos, parcelamento, sustentabilidade e viabilidade.
+4. **Riscos:** trata, entre outros, subdimensionamento, interrupção do atendimento e inadimplemento trabalhista, previdenciário e de <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr>, com medidas, contingências e responsáveis.
+5. **<abbr title="Termo de Referência">TR</abbr>:** define o serviço e os resultados esperados, rotinas, modelo de execução, comunicação pelo <abbr title="representante da contratada perante a Administração durante a execução">preposto</abbr>, medição, custos, obrigações, controles e critérios de seleção.
+6. **Fronteira:** julgamento das propostas, fiscalização concreta, pagamento e encerramento pertencem às fases seguintes, embora seus critérios precisem nascer do planejamento.
 
-Considere limpeza contínua de prédio federal com dedicação exclusiva:
-
-1. **DFD:** demonstra a necessidade e registra os dados exigidos pelo regime aplicável; no PCA federal atual, observa o Decreto nº 10.947/2022.
-2. **ETP:** compara modelos, estima áreas e frequências, avalia produtividade, equipamentos, água, resíduos, parcelamento e viabilidade segundo a disciplina atual da IN nº 58/2022.
-3. **Riscos:** registra subdimensionamento, interrupção, inadequação do ambiente e inadimplemento trabalhista, com responsáveis e contingências.
-4. **TR:** contrata limpeza por resultados; define rotinas, níveis de qualidade, IMR, CBO, custos trabalhistas, modelo de gestão e medição, observada a IN nº 81/2022 no regime federal atual.
-5. **Fronteira:** julgamento das propostas, fiscalização concreta, glosas, pagamento e repactuação pertencem às fases seguintes, embora seus critérios sejam planejados agora.
-
-## 12. Pegadinhas de prova
-
-- DFD é procedimento inicial, não quarta etapa do art. 20.
-- DFD da IN nº 5/2017 e DFD do PCA federal atual têm bases normativas distintas.
-- Fases do procedimento não se confundem com etapas do planejamento.
-- Contratação direta não dispensa planejamento de forma automática.
-- Anexo III da IN nº 5/2017 está revogado.
-- No ETP atual, cinco elementos mínimos são obrigatórios; os demais, se omitidos, exigem justificativa.
-- Levantamento de mercado compara soluções; pesquisa de preços estima o valor.
-- Serviço contínuo pode não ter dedicação exclusiva.
-- Dedicação exclusiva é definida pelo modelo de execução; a literalidade do art. 17 da IN não afasta genericamente o art. 6º, XVI, da Lei nº 14.133/2021.
-- Mapa de Riscos não é matriz contratual de riscos.
-- TR literal da IN nº 5/2017 não se confunde com a disciplina federal atual da IN nº 81/2022.
-- IMR mede resultado e ajusta pagamento; não é sanção automática.
-- Horas e postos são unidades excepcionais, não padrão.
-- A IN nº 5/2017 é federal e se aplica sob a Lei nº 14.133/2021 apenas no que couber.
-
-## 13. Checklist de fechamento do planejamento
-
-- necessidade e terceirização justificadas;
-- objeto descrito como serviço e resultado;
-- terceirização materialmente permitida;
-- classificação do serviço motivada;
-- DFD completo segundo o regime aplicável e equipe ciente das atribuições;
-- ETP atual, com alternativas, memórias e conclusão;
-- riscos tratados, contingências e responsáveis definidos;
-- TR/PB coerente com ETP, riscos e disciplina federal aplicável;
-- quantitativos, produtividade, custos e orçamento demonstrados;
-- medição, indicadores e resultado objetivamente verificáveis;
-- sustentabilidade, parcelamento e transição avaliados;
-- modelos federais usados ou alterações justificadas;
-- segregação de funções preservada.
+O fio condutor é simples: **necessidade bem formulada → solução comparada → risco tratado → obrigação mensurável**. Se o planejamento pula uma dessas pontes, o erro reaparece mais tarde como restrição indevida, <abbr title="proposta sem viabilidade para cumprir a obrigação pelo preço ofertado">proposta inexequível</abbr>, fiscalização subjetiva ou serviço que não resolve o problema público.
