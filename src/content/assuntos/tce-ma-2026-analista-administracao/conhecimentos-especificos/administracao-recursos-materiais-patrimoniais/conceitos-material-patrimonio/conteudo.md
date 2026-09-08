@@ -24,7 +24,7 @@ Antes de julgar a assertiva, identifique a fonte.
 
 | Plano | Uso predominante |
 | --- | --- |
-| <abbr title="Instrução Normativa da Secretaria de Administração Pública da Presidência da República">IN SEDAP</abbr> nº 205/1988 | gênero amplo: equipamentos, componentes, veículos, matérias-primas e permanentes |
+| <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 | gênero amplo: equipamentos, componentes, veículos, matérias-primas e permanentes |
 | literatura administrativa | pode separar recursos materiais (consumo) e patrimoniais (permanentes) |
 | Lei nº 4.320/1964 | classifica a despesa em consumo ou permanente |
 | controle patrimonial | incorporação, identificação, carga, movimentação, inventário e baixa |
@@ -35,9 +35,9 @@ O mesmo computador pode ser bem móvel, material permanente, recurso patrimonial
 
 ## 3. Vocabulário
 
-**Material**, na <abbr title="Instrução Normativa da Secretaria de Administração Pública da Presidência da República">IN SEDAP</abbr> nº 205/1988, no <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal, cobre itens empregados ou empregáveis na atividade pública, inclusive permanentes e resíduos aproveitáveis. Não se limita ao <abbr title="depósito de materiais de consumo e de giro">almoxarifado</abbr> nem ao consumo.
+**Material**, na <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988, no <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal, cobre itens empregados ou empregáveis na atividade pública, inclusive permanentes e resíduos aproveitáveis. Não se limita ao <abbr title="Unidade que recebe, guarda, controla e distribui materiais">almoxarifado</abbr> nem ao consumo.
 
-**Bem** é objeto material ou imaterial com utilidade e valor. **Propriedade** é o direito real sobre o bem: não são sinônimos. **Custódia** é guarda, sem presumir propriedade.
+**Bem** é objeto material ou imaterial com utilidade e valor. Em uma leitura administrativa, **patrimônio** também pode designar o conjunto de objetos administrados para viabilizar os fins da entidade. Conhecimento, patentes e marcas registradas são recursos incorpóreos; isso não significa que todos satisfaçam automaticamente os critérios de reconhecimento de ativo intangível. **Propriedade** é o direito real sobre o bem: não são sinônimos. **Custódia** é guarda, sem presumir propriedade.
 
 No Código Civil: **imóvel** é o solo e o que se lhe incorpora; **móvel** remove-se sem alterar a substância ou a destinação; **fungível** substitui-se por igual espécie, qualidade e quantidade; **consumível** tem a substância destruída pelo uso, inclusive o destinado à alienação; **divisível** fraciona-se sem prejuízo relevante; **singular** considera-se individualmente; **universalidade de fato** reúne bens singulares com destinação unitária; **universalidade de direito** é o complexo de relações jurídicas com valor econômico. Fungível não é, só por isso, material de consumo.
 
@@ -51,7 +51,9 @@ $$\text{Patrimônio líquido} = \text{Ativos} - \text{Passivos}$$
 
 Patrimônio, em sentido amplo, é o complexo econômico-jurídico. Patrimônio líquido é só o residual. Pode ser positivo, nulo ou negativo.
 
-No setor público, o quadro vem das <abbr title="Normas Brasileiras de Contabilidade Aplicadas ao Setor Público">NBC TSP</abbr> do <abbr title="Conselho Federal de Contabilidade">CFC</abbr> e do <abbr title="Manual de Contabilidade Aplicada ao Setor Público">MCASP</abbr>. A <abbr title="Normas Brasileiras de Contabilidade Aplicadas ao Setor Público">NBC TSP</abbr> 04 (R1) (estoques) e a <abbr title="Normas Brasileiras de Contabilidade Aplicadas ao Setor Público">NBC TSP</abbr> 08 (R1) (intangível) saíram no <abbr title="Diário Oficial da União">DOU</abbr> em 17 mar. 2026, com aplicação prevista a exercícios iniciados em 1º jan. 2027. A <abbr title="Normas Brasileiras de Contabilidade Aplicadas ao Setor Público">NBC TSP</abbr> 37 trata do imobilizado e também se aplica a partir de 1º jan. 2027. Publicação não é data de aplicação: em 2026 prevalece o quadro ainda vigente, lido com o <abbr title="Manual de Contabilidade Aplicada ao Setor Público">MCASP</abbr> (11ª edição).
+**Ativo imobilizado** é item corpóreo mantido para uso e com expectativa de utilização por mais de um período de reporte, se satisfeitos os critérios de reconhecimento. **Ativo intangível** é recurso identificável não monetário sem forma física, também sujeito a critérios próprios.
+
+No setor público, o quadro vem das <abbr title="Normas Brasileiras de Contabilidade Aplicadas ao Setor Público">NBC TSP</abbr> do <abbr title="Conselho Federal de Contabilidade">CFC</abbr> e do <abbr title="Manual de Contabilidade Aplicada ao Setor Público">MCASP</abbr>. A <abbr title="Normas Brasileiras de Contabilidade Aplicadas ao Setor Público">NBC TSP</abbr> 04 (<abbr title="Revisão 1">R1</abbr>) (estoques) e a <abbr title="Normas Brasileiras de Contabilidade Aplicadas ao Setor Público">NBC TSP</abbr> 08 (<abbr title="Revisão 1">R1</abbr>) (intangível) saíram no <abbr title="Diário Oficial da União">DOU</abbr> em 17 mar. 2026, com aplicação prevista a exercícios iniciados em 1º jan. 2027. A <abbr title="Normas Brasileiras de Contabilidade Aplicadas ao Setor Público">NBC TSP</abbr> 37 trata do imobilizado e também se aplica a partir de 1º jan. 2027. Publicação não é data de aplicação: em 2026 prevalece o quadro ainda vigente, lido com o <abbr title="Manual de Contabilidade Aplicada ao Setor Público">MCASP</abbr> (11ª edição).
 
 ## 4. Cinco decisões independentes
 
@@ -67,7 +69,7 @@ Uma resposta não decide as outras. Controle deve ser proporcional a valor, risc
 
 ## 5. Consumo, permanente e tombamento
 
-Para classificar a despesa, a Lei nº 4.320/1964, art. 15, § 2º, considera **material permanente** o de duração superior a dois anos. Isso não esgota o tratamento administrativo ou contábil.
+Para classificar a despesa, a Lei nº 4.320/1964, <abbr title="artigo">art.</abbr> 15, § 2º, considera **material permanente** o de duração superior a dois anos. Isso não esgota o tratamento administrativo ou contábil.
 
 Critérios operacionais federais frequentes: **durabilidade** (perde função em até dois anos?), **fragilidade**, **perecibilidade**, **incorporabilidade** (integra outro bem sem retirada viável?) e **transformabilidade** (adquirido para virar outro item?). A Portaria <abbr title="Secretaria do Tesouro Nacional">STN</abbr> nº 448/2002 foi **revogada** pela Portaria <abbr title="Secretaria do Tesouro Nacional">STN</abbr> nº 841/2021; não a trate como vigente em 2026.
 
@@ -81,16 +83,16 @@ Software, licença, base de dados ou direito de uso podem ser intangível. Assin
 
 Na empresa, patrimônio reúne bens, direitos e obrigações. Ativos e passivos formam o líquido. Muitos bens físicos não provam boa situação se as dívidas forem maiores.
 
-Nem todo bem de empresa estatal é automaticamente **bem público** dos arts. 98 a 103 do Código Civil. Veja natureza da entidade, titularidade, <abbr title="destinação jurídica a uso comum ou especial">afetação</abbr>, regime, contabilidade e regras de alienação.
+Nem todo bem de empresa estatal é automaticamente **bem público** dos <abbr title="artigos">arts.</abbr> 98 a 103 do Código Civil. Veja natureza da entidade, titularidade, <abbr title="destinação jurídica a uso comum ou especial">afetação</abbr>, regime, contabilidade e regras de alienação.
 
 No setor público, muitos ativos existem pelo potencial de serviços, não pelo lucro. A Lei nº 4.320/1964 exige:
 
-- art. 83: evidenciar quem arrecada, despende, administra ou guarda bens;
-- art. 85: conhecer a composição patrimonial;
-- art. 89: fatos orçamentários, financeiros, patrimoniais e industriais;
-- art. 94: registro analítico dos permanentes, com responsáveis;
-- art. 95: registros sintéticos de móveis e imóveis;
-- art. 96: levantamento geral com inventário analítico e escrituração sintética.
+- <abbr title="artigo">art.</abbr> 83: evidenciar quem arrecada, despende, administra ou guarda bens;
+- <abbr title="artigo">art.</abbr> 85: conhecer a composição patrimonial;
+- <abbr title="artigo">art.</abbr> 89: fatos orçamentários, financeiros, patrimoniais e industriais;
+- <abbr title="artigo">art.</abbr> 94: registro analítico dos permanentes, com responsáveis;
+- <abbr title="artigo">art.</abbr> 95: registros sintéticos de móveis e imóveis;
+- <abbr title="artigo">art.</abbr> 96: levantamento geral com inventário analítico e escrituração sintética.
 
 Físico e contábil precisam convergir.
 
@@ -112,11 +114,11 @@ Materiais planejam suprimento, adquirem, recebem, estocam e distribuem. Patrimô
 
 Funções típicas: necessidade; especificação e padronização; aquisição (compra, cessão, doação, permuta, transferência ou produção interna); recebimento e aceitação; registro; armazenagem; requisição e distribuição; incorporação, tombamento e carga; uso e manutenção; inventário; destinação e baixa. Não há lista única de nomes; importa a função.
 
-O ciclo começa na necessidade, não na compra. No <abbr title="Sistema de Serviços Gerais">SISG</abbr>, a <abbr title="Instrução Normativa">IN nº</abbr> 205/1988 recomenda verificar se já existe material ou sucedâneo. Centralização de itens comuns, na mesma norma, é regra federal, não obrigação automática de <abbr title="Tribunal de Contas do Estado">TCE</abbr> estadual.
+O ciclo começa na necessidade, não na compra. No <abbr title="Sistema de Serviços Gerais">SISG</abbr>, a <abbr title="Instrução Normativa">IN</abbr> nº 205/1988 recomenda verificar se já existe material ou <abbr title="Item capaz de substituir adequadamente o solicitado">sucedâneo</abbr>. Centralização de itens comuns, na mesma norma, é regra federal, não obrigação automática de <abbr title="Tribunal de Contas do Estado">TCE</abbr> estadual.
 
-Na produção interna, o custo pode incluir materiais, mão de obra direta e outros gastos para colocar o item na condição pretendida; não se incluem automaticamente desperdícios anormais.
+Na produção interna, a guia de produção documenta o ingresso. O custo pode incluir materiais, mão de obra direta e outros gastos para colocar o item na condição pretendida; não se incluem automaticamente desperdícios anormais.
 
-**Recebimento** transfere a guarda; **não é aceitação**. **Aceitação** declara conformidade. Falta, item diverso ou defeito impedem atestar a obrigação.
+**Recebimento** transfere a guarda; **não é aceitação**. Mesmo quando a entrega física ocorre em outro local, a <abbr title="Instrução Normativa">IN</abbr> nº 205/1988 determina o registro de entrada no almoxarifado. **Aceitação** declara conformidade. Falta, item diverso ou defeito impedem atestar a obrigação.
 
 Na armazenagem, itens com validade ou lote seguem <abbr title="Primeiro a Entrar, Primeiro a Sair">PEPS</abbr>: sai primeiro o que entrou primeiro. Itens de grande giro ficam em posição acessível. <abbr title="Primeiro a Entrar, Primeiro a Sair">PEPS</abbr> físico não é, só por isso, o critério contábil de mensuração.
 
@@ -125,9 +127,9 @@ Fornecimento **por pressão** usa tabela e periodicidade predefinidas, sem pedid
 - **incorporação:** inclusão formal no sistema;
 - **tombamento:** número individual;
 - **carga:** responsabilidade do <abbr title="agente ou unidade que recebe a guarda formal do bem">consignatário</abbr> ou da unidade;
-- **descarga**, na <abbr title="Instrução Normativa">IN nº</abbr> 205/1988: transferência dessa responsabilidade, não sinônimo de baixa.
+- **descarga**, na <abbr title="Instrução Normativa">IN</abbr> nº 205/1988: transferência dessa responsabilidade, não sinônimo de baixa.
 
-Inventários típicos: anual, inicial, de transferência de responsável, de extinção ou transformação, eventual, rotativo e por amostragem. Relatório de sistema sem contagem **não** é inventário físico. Baixa exige fato formalizado; desaparecimento físico não basta.
+Inventários típicos: anual, inicial, de transferência de responsável, de extinção ou transformação, eventual, rotativo e por amostragem. Relatório de sistema sem contagem **não** é inventário físico. Divergências exigem registro, investigação das movimentações e conciliação entre bem, cadastro, responsável e contabilidade. Identificador duplicado, ausência de plaqueta ou alteração sem documento são problemas de qualidade cadastral; a trilha de auditoria deve indicar autor, data, mudança e documento de suporte. Baixa exige fato formalizado; desaparecimento físico não basta.
 
 Indicadores (ruptura, acurácia, tempo de atendimento, bens localizados, ociosidade) sinalizam; não provam causa sozinhos.
 
@@ -143,10 +145,5 @@ Indicadores (ruptura, acurácia, tempo de atendimento, bens localizados, ociosid
 
 Casos: computador entra por recebimento, só depois se aceita, incorpora, identifica e carrega. Papel no almoxarifado é consumo e estoque controlado; não se tomba cada resma. Terreno público sem destinação pode ser dominical; se afetado a escola, tende a uso especial. Notebook de empresa cedido ao órgão é custódia, não propriedade pública.
 
-## 10. Pegadinhas
 
-Patrimônio não é só bens. Patrimônio líquido não é patrimônio. Ativo não exige forma física nem propriedade formal. Material não é só consumo. Consumo estocado ainda é ativo. Consumível civil não equivale a consumo administrativo. Dois anos marcam o permanente orçamentário; plaqueta não define natureza. Receber não é aceitar. Tombamento não é incorporação nem baixa. Carga é responsabilidade. Dominical continua público. Bem público não se usucape. A <abbr title="Instrução Normativa">IN nº</abbr> 205/1988 é do <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal. A Portaria <abbr title="Secretaria do Tesouro Nacional">STN</abbr> nº 448/2002 foi revogada.
-
-## 11. Limites
-
-Este capítulo ensina conceitos e o ciclo. O aprofundamento está nos assuntos vizinhos: 116 (<abbr title="Sistema de Patrimônio Imobiliário da União">SPIU</abbr> e imóveis), 117 (mobiliário e responsabilidade), 118 (controle e sistema), 119 (estoque), 120 (almoxarifado), 121 (compras e codificação), 122 (recebimento, conservação, distribuição e inventário) e 123 (análise do valor e alienação).
+A decisão segura acompanha o recurso da necessidade à destinação, identifica o plano de cada classificação e exige que realidade física, responsabilidade administrativa e registros contábeis permaneçam conciliados.
