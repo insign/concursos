@@ -6,324 +6,253 @@ order: 133
 storageId: "gestao-fiscalizacao-in5"
 ---
 
-# Gestão e fiscalização contratual na IN nº 5/2017
+# Gestão e fiscalização contratual na <abbr title="Instrução Normativa">IN</abbr> nº 5/2017
 
-## 1. Delimitação, corte e leitura atualizada
+Um contrato assinado ainda é uma promessa. Para a Administração obter o resultado contratado, alguém precisa **acompanhar o que acontece, produzir evidência, cobrar correção e levar cada problema a quem pode decidir**.
 
-A gestão contratual transforma o contrato formalizado em resultados efetivamente entregues. Na Instrução Normativa <abbr title="Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão">SEGES/MP</abbr> nº 5/2017, os arts. 39 a 48 organizam as funções de gestão e fiscalização, a escolha dos agentes, a representação da contratada, o início da execução, os registros e os instrumentos de controle. O Anexo VIII detalha a fiscalização técnica e administrativa.
+Considere um **exemplo hipotético**: um serviço contínuo funciona em três unidades. Em uma delas, piora o tempo de atendimento; em outra, falta material previsto; e surgem dúvidas sobre documentos trabalhistas. A fiscalização não trata tudo do mesmo modo: é preciso separar a dimensão **técnica**, a **administrativa**, o problema **local** e a decisão de **gestão**.
 
-O modelo deve ser lido em três camadas:
+O ciclo que organiza o assunto é:
 
-1. **Lei nº 14.133/2021:** normas gerais vigentes, especialmente arts. 115 a 123 e 140;
-2. **regulamentação federal atual:** Decreto nº 11.246/2022, alterado pelo Decreto nº 13.031/2026;
-3. **IN nº 5/2017:** disciplina operacional federal dos serviços, aplicável sob a Lei nº 14.133/2021 somente **no que couber**, conforme a IN <abbr title="Secretaria de Gestão do Ministério da Economia">SEGES/ME</abbr> nº 98/2022.
+**contrato e modelo de gestão → agentes designados → início e comunicação → acompanhamento → registro → correção → escalonamento → recebimento**
 
-Referências históricas à Lei nº 8.666/1993 não devem ser transpostas mecanicamente. O dever de registrar ocorrências, determinar correções e escalar decisões, por exemplo, hoje encontra fundamento direto no art. 117 da Lei nº 14.133/2021.
+> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. O Decreto nº 13.031/2026, publicado em 18 de junho de 2026, já estava em vigor.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. O Decreto nº 13.031/2026, publicado em 18 de junho de 2026 e vigente desde a publicação, integra o corte. Datas posteriores de consulta das fontes servem apenas à conferência editorial.
+## 1. Finalidade, fontes e âmbito
 
-> **Âmbito:** as instruções da SEGES e os Decretos nº 11.246/2022 e nº 13.031/2026 disciplinam diretamente a Administração Pública federal indicada em cada ato. Não se tornam automaticamente regulamento interno do TCE-MA.
+O <abbr title="artigo">art.</abbr> 39 da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 define gestão e fiscalização como ações voltadas a **aferir resultados**, verificar obrigações previdenciárias, fiscais e trabalhistas quando cabível, apoiar a instrução de providências contratuais, assegurar o cumprimento das cláusulas e solucionar problemas relativos ao objeto. Por isso, as atividades devem ser **preventivas, rotineiras e sistemáticas**.
 
-Este assunto não aprofunda medição, glosa, pagamento, obrigações trabalhistas, repactuação e equilíbrio econômico-financeiro, reservados ao Assunto 134.
+A distinção inicial é simples:
 
-## 2. Finalidade da gestão e da fiscalização
+- **fiscalizar** é acompanhar uma dimensão da execução, registrar fatos e atuar dentro da competência atribuída;
+- **gerir** é coordenar as fiscalizações, o histórico do contrato e os encaminhamentos para providências que exigem outras competências.
 
-O art. 39 da IN nº 5/2017 trata gestão e fiscalização como **conjunto coordenado de ações**, e não como simples conferência de notas fiscais. O objetivo é:
+Antes de aplicar uma regra, identifique sua fonte:
 
-- aferir os resultados previstos;
-- acompanhar obrigações contratuais;
-- verificar regularidade administrativa pertinente;
-- instruir prorrogação, alteração, reequilíbrio, pagamento, responsabilização e extinção;
-- produzir evidências e histórico;
-- prevenir e solucionar problemas do objeto.
+| Fonte | Papel e âmbito |
+| --- | --- |
+| Lei nº 14.133/2021 | base geral atual sobre fiscais, registros, preposto, apoio, decisões e recebimento |
+| <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão">SEGES/MP</abbr> nº 5/2017 | modelo operacional de serviços para a Administração Pública federal direta, autárquica e fundacional |
+| <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Gestão do Ministério da Economia">SEGES/ME</abbr> nº 98/2022 | autoriza aplicar a <abbr title="Instrução Normativa">IN</abbr> nº 5/2017, **no que couber**, às contratações federais de serviços sob a Lei nº 14.133/2021 |
+| Decretos nº 11.246/2022 e nº 13.031/2026 | regulamentação federal atual de agentes, gestão, fiscalização e Contratos.gov.br |
 
-As atividades devem ser **preventivas, rotineiras e sistemáticas**. Fiscalização apenas reativa perde a função preventiva; acompanhamento sem registro compromete a prova; avaliação sem indicadores vira impressão subjetiva.
+Duas consequências importam. Primeiro, referências da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 à Lei nº 8.666/1993 não devem ser transplantadas mecanicamente para contratos regidos pela Lei nº 14.133/2021. Segundo, a <abbr title="Instrução Normativa">IN</abbr> e os decretos federais têm âmbito próprio: sua cobrança no edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> **não os transforma automaticamente em regulamento interno do Tribunal**.
 
-## 3. Arquitetura de papéis
+## 2. A arquitetura dos papéis
 
-O art. 40 da IN separa funções para que cada aspecto produza evidência especializada e o gestor coordene o conjunto.
+A <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 reparte o acompanhamento entre funções complementares; o Decreto nº 11.246/2022 mantém essa lógica e recebeu, em 2026, a gestão setorial.
 
-| Papel | Núcleo | Não se confunde com |
-| --- | --- | --- |
-| gestor do contrato | coordena fiscalizações e prepara a instrução processual | fiscalização técnica cotidiana |
-| fiscal técnico | quantidade, qualidade, tempo, modo e resultado do objeto | direção dos empregados da contratada |
-| fiscal administrativo | aspectos administrativos e controles do contrato | aferição material da qualidade |
-| fiscal setorial | acompanha aspectos técnicos ou administrativos em setor/unidade distinta | superior hierárquico dos demais fiscais |
-| público usuário | percepção qualitativa complementar | substituto da fiscalização técnica |
-| gestor setorial | coordena gestão no âmbito participante, no modelo federal de 2026 | fiscal setorial |
+| Função | Núcleo da atuação |
+| --- | --- |
+| **Gestor** | coordena as fiscalizações, o histórico e os atos preparatórios para prorrogação, alteração, <abbr title="recomposição da relação original entre encargos e remuneração">reequilíbrio</abbr>, pagamento, sanções e extinção |
+| **Fiscal técnico** | verifica se quantidade, qualidade, tempo, modo e resultados correspondem ao contratado; registra e cobra correções |
+| **Fiscal administrativo** | acompanha obrigações administrativas, previdenciárias, fiscais e trabalhistas e controles contratuais próprios |
+| **Fiscal setorial** | acompanha aspectos técnicos ou administrativos em setor ou unidade onde o objeto é executado |
+| **Público usuário** | fornece avaliação qualitativa por pesquisa de satisfação ou mecanismo equivalente |
+| **Gestor setorial** | no modelo federal de 2026, coordena atividades de gestão no setor, unidade ou órgão participante |
 
-### 3.1 Gestor
+O gestor não é um “fiscal superior” encarregado de refazer todas as conferências. Ele **coordena**. O fiscal técnico observa a execução do objeto; o administrativo cuida da regularidade administrativa; o setorial aproxima a fiscalização do local; e o público usuário acrescenta evidência sobre a qualidade percebida.
 
-O gestor coordena os fiscais, acompanha ocorrências, organiza o histórico e prepara a instrução das providências contratuais. No Decreto nº 11.246/2022, também coordena a atualização de riscos, informa à autoridade o que exceder sua competência, elabora o relatório final e participa do recebimento definitivo nos termos da disciplina atual.
+Na <abbr title="Instrução Normativa">IN</abbr> nº 5/2017, a fiscalização administrativa aparece especialmente nos serviços com dedicação exclusiva de mão de obra, isto é, contratos em que os trabalhadores são alocados nas condições de exclusividade definidas para a execução. No Decreto nº 11.246/2022, a definição federal atual abrange também revisões, reajustes, <abbr title="reajustes baseados na variação efetiva dos custos">repactuações</abbr> e providências diante de <abbr title="descumprimento de obrigação contratual">inadimplemento</abbr>.
 
-Coordenação não significa refazer automaticamente a conferência especializada. O gestor deve examinar evidências, cobrar tratamento das ocorrências e impedir que pendências fiquem sem encaminhamento.
+**Fiscal setorial e gestor setorial não são sinônimos.** O primeiro acompanha a execução local; o segundo coordena a gestão em seu âmbito. A gestão setorial foi incluída pelo Decreto nº 13.031/2026 e pode ser utilizada, no regime federal, nos arranjos previstos pelo decreto.
 
-### 3.2 Fiscal técnico
+### 2.1 Uma pessoa pode acumular atividades?
 
-O fiscal técnico verifica a execução material conforme o contrato: quantidade, qualidade, tempo, modo, materiais, recursos e resultados. Pode notificar a contratada para corrigir falhas, fixar prazo, registrar o atendimento e informar tempestivamente o gestor.
+A <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 admite servidores, equipe ou **um único servidor**, desde que a distinção entre as atividades permaneça preservada e o volume de trabalho não comprometa a gestão. O Decreto nº 11.246/2022 também admite agente público único, preservada a distinção e o desempenho.
 
-Não pode alterar informalmente o objeto, conceder vantagem não prevista, assumir a direção dos empregados da contratada, aplicar providência fora de sua competência ou atestar genericamente sem evidência.
+Isso se conecta à **segregação de funções**: separar atividades sensíveis ou incompatíveis para reduzir concentração indevida de poder, erro e conflito de interesses. Segregar não significa criar uma pessoa para cada rótulo em qualquer contrato.
 
-### 3.3 Fiscal administrativo
+## 3. Indicação, ciência e designação
 
-No Decreto nº 11.246/2022 consolidado, a fiscalização administrativa acompanha aspectos administrativos, inclusive obrigações previdenciárias, fiscais e trabalhistas, e controles relativos a revisões, reajustes, repactuações e providências diante de inadimplemento.
+Antes de fiscalizar, é preciso saber quem assumirá cada função.
 
-Aqui importa a arquitetura: conferir documentos e prazos, registrar riscos, atuar na própria competência e reportar ao gestor. Os controles trabalhistas e efeitos financeiros serão aprofundados no Assunto 134.
+Na <abbr title="Instrução Normativa">IN</abbr> nº 5/2017, o fluxo é:
 
-### 3.4 Fiscal setorial e público usuário
+**indicação → ciência expressa → designação formal**
 
-A fiscalização setorial é adequada quando a prestação ocorre simultaneamente em setores distintos ou unidades desconcentradas. O fiscal setorial acompanha, em seu âmbito, os aspectos técnicos ou administrativos pertinentes. É solução de capilaridade, não instância hierárquica superior.
+1. a indicação cabe aos setores requisitantes ou segue normativo próprio;
+2. gestor e fiscais devem ser cientificados expressamente da indicação e das atribuições **antes** da designação;
+3. depois, a autoridade competente do setor de licitações formaliza a designação.
 
-A fiscalização pelo público usuário produz evidência qualitativa por pesquisa de satisfação ou instrumento equivalente. Ela é complementar: satisfação alta não sana descumprimento objetivo e satisfação baixa deve ser confrontada com indicadores e fatos.
+No Decreto nº 11.246/2022, gestores, fiscais e substitutos são designados pela autoridade máxima do órgão ou entidade, ou por quem as normas de organização administrativa indicarem.
 
-## 4. Concentração e segregação de funções
+**Indicação não é designação.** A indicação insere o agente no fluxo de escolha; a designação é o ato formal que o investe na função.
 
-As atividades podem ser distribuídas entre servidores, equipe de fiscalização ou, se estrutura, volume e risco permitirem, concentradas em um único agente. A concentração não elimina a distinção das atividades nem pode comprometer seu desempenho.
+### 3.1 Capacidade, carga e substituição
 
-Não existem duas regras absolutas:
-
-- agente único não é sempre proibido;
-- falta de pessoal não torna a concentração automaticamente aceitável.
-
-A decisão deve considerar segregação, linhas de defesa, valor, complexidade, carga, capacidade e risco de ocultação de erros ou fraudes.
-
-## 5. Indicação, ciência e designação
-
-Na IN nº 5/2017, o setor requisitante indica gestor, fiscais e substitutos, salvo disciplina interna diversa. **Indicação, ciência e designação são atos distintos.** Gestores e fiscais devem ser formalmente cientificados da indicação e das atribuições antes do ato de designação.
-
-No Decreto nº 11.246/2022, a designação é realizada pela autoridade máxima ou por quem a norma de organização administrativa determinar.
-
-### 5.1 Critérios de escolha
-
-Devem ser considerados:
+Na escolha devem ser considerados, entre outros fatores:
 
 - compatibilidade com as atribuições do cargo;
 - complexidade da fiscalização;
-- quantidade de contratos atribuídos;
-- formação, qualificação, experiência e capacidade;
-- independência e ausência de conflito de interesses.
+- quantidade de contratos por agente;
+- capacidade para desempenhar as atividades.
 
-Necessidades de desenvolvimento de competências devem ser identificadas no <abbr title="Estudo Técnico Preliminar">ETP</abbr> e tratadas, quando cabível, antes da celebração.
+No regime federal do Decreto nº 11.246/2022, eventual necessidade de desenvolver competências para gestão ou fiscalização deve aparecer no <abbr title="Estudo Técnico Preliminar">ETP</abbr> e ser sanada, conforme o caso, antes da celebração do contrato.
 
-### 5.2 Substitutos e continuidade
+O substituto atua nas ausências e nos impedimentos do titular. Em desligamento ou afastamento definitivo, a <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 ainda exige relatório das ocorrências do período de atuação, para preservar a memória do contrato.
 
-O substituto atua nas ausências e impedimentos do titular.
+Há uma diferença literal importante quando falta temporariamente quem exerça a função:
 
-Após a alteração feita pelo Decreto nº 13.031/2026, o art. 8º, § 6º, do Decreto nº 11.246/2022 estabelece que, **nos casos de atraso ou falta de designação, desligamento ou afastamento extemporâneo e definitivo**, até que a designação seja providenciada, as atribuições caberão ao **responsável pela designação**, ressalvada previsão interna em contrário.
+| Fonte | Até nova providência | Quem assume temporariamente |
+| --- | --- | --- |
+| <abbr title="Instrução Normativa">IN</abbr> nº 5/2017, <abbr title="artigo">art.</abbr> 41, § 3º | nova **indicação** | responsável pela **indicação**, salvo regra própria |
+| Decreto nº 11.246/2022, <abbr title="artigo">art.</abbr> 8º, § 6º, redação de 2026 | nova **designação** | responsável pela **designação**, salvo norma interna em contrário |
 
-> **Pegadinha:** a redação vigente fala em **designação**, não em indicação. A indicação continua sendo etapa distinta prevista na estrutura de escolha dos agentes.
+A diferença é de **fonte**. Em literalidade da <abbr title="Instrução Normativa">IN</abbr>, leia “indicação”; no Decreto federal consolidado no corte, “designação”.
 
-Na troca definitiva, o agente que sai deve registrar as ocorrências de seu período e preservar o histórico das providências pendentes.
+### 3.2 Documentos e condições para fiscalizar
 
-### 5.3 Documentos essenciais
+A <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 manda fornecer aos fiscais cópias dos documentos essenciais. Entre eles estão os Estudos Preliminares, que registram a análise prévia da contratação, o ato convocatório — edital ou instrumento que rege a disputa — e seus anexos, contrato, proposta, garantia e demais peças indispensáveis. Conforme o caso, isso inclui o <abbr title="Termo de Referência">TR</abbr>, indicadores, riscos e ordens de serviço.
 
-Os fiscais precisam ter acesso aos documentos que definem objeto, obrigações e controles, como ETP, <abbr title="Termo de Referência">TR</abbr>/projeto básico, edital, contrato, alterações, garantia, proposta, planilhas, modelo de gestão, riscos, indicadores, <abbr title="Instrumento de Medição de Resultado">IMR</abbr>, ordens, atas, comunicações e histórico pertinente.
+Sem o padrão contratado, o fiscal não consegue comparar fato e obrigação.
 
-Designar sem fornecer informação, tempo ou acesso não produz controle efetivo.
+O encargo de gestor ou fiscal também não pode ser recusado por simples preferência. Se houver limitação técnica ou deficiência de qualificação capaz de impedir atuação diligente, o servidor deve expô-la ao superior. A Administração deve então providenciar qualificação compatível ou designar outro servidor adequado.
 
-## 6. Encargo e limitações do agente
+## 4. Preposto, comunicação e início da execução
 
-O encargo de gestor ou fiscal não é livremente recusável. Isso não autoriza designação imprudente. Deficiência técnica, excesso de carga, conflito de interesses ou limitação material relevante devem ser comunicados formalmente.
+**Preposto** é o representante da contratada perante a Administração durante a execução.
 
-A Administração deve avaliar o problema e, conforme o caso, capacitar, apoiar, redistribuir a carga ou designar agente adequado. A designação formal não elimina incapacidade real nem dispensa tratamento do risco comunicado.
+A Lei nº 14.133/2021 exige preposto aceito pela Administração no local da obra ou do serviço. A <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 acrescenta que ele deve ser formalmente designado pela contratada **antes do início da prestação**, com poderes e deveres expressos.
 
-## 7. Preposto e comunicação
+A Administração pode recusar a indicação ou manutenção do preposto, mas deve motivar; a empresa designa outro. Pela <abbr title="Instrução Normativa">IN</abbr>:
 
-O preposto representa a contratada durante a execução. Pela IN nº 5/2017, deve ser formalmente designado antes do início dos serviços, com poderes e deveres expressos. A Lei nº 14.133/2021 exige preposto aceito pela Administração.
-
-Regras principais:
-
-- a Administração pode recusar indicação ou manutenção, com motivação, e a empresa indicará outro;
-- comunicações que exijam formalidade são escritas, admitido meio eletrônico conforme a disciplina aplicável;
+- atos que exigem formalidade devem ser comunicados por escrito;
+- mensagem eletrônica é admitida excepcionalmente para esse fim;
 - o preposto pode ser convocado para providência imediata;
-- sua presença no local pode ser exigida quando a natureza do serviço justificar;
-- ordens aos empregados terceirizados passam, em regra, pelo preposto, evitando ingerência.
+- presença permanente ou escala no local só se exige quando a natureza do serviço justificar.
 
-O preposto não é fiscal público, e o fiscal não se torna chefe dos empregados da empresa.
+A lógica é decisiva: **a Administração controla a execução contratual; a contratada dirige seus empregados**. Por isso, correções e orientações devem seguir o canal institucional adequado, normalmente pelo preposto, evitando direção cotidiana da força de trabalho pelo fiscal.
 
-## 8. Reunião inicial e início da execução
+### 4.1 Reunião inicial e mudança da data de início
 
-Quando a natureza da prestação exigir, a reunião inicial apresenta o plano de fiscalização e alinha obrigações, estratégia de execução, controles, indicadores, comunicação, riscos, documentos, responsáveis e consequências previstas. Os assuntos devem ser registrados em ata.
+Quando a natureza do serviço exigir, o <abbr title="artigo">art.</abbr> 45 da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 prevê reunião inicial depois da assinatura. O plano de fiscalização apresenta obrigações, mecanismos de controle, estratégia de execução, método de aferição e sanções; o encontro é registrado em ata. A norma também prevê reuniões periódicas com o preposto.
 
-Participam, preferencialmente, gestor, fiscais/equipe, preposto e, quando pertinente, integrantes do planejamento. Reuniões periódicas previnem desvios, mas não substituem os registros próprios de ocorrência.
+Excepcionalmente, a data de início ou de uma etapa pode mudar se a contratada pedir **antes** da data prevista, justificar e obtiver autorização da autoridade competente. O acolhimento não pode violar ato convocatório, isonomia, interesse público ou qualidade da execução, e o pagamento continua vinculado à prestação efetiva.
 
-Mudança excepcional do prazo inicial ou de etapa deve ser requerida antes da data prevista, justificada e autorizada por autoridade competente. A análise preserva edital, isonomia, interesse público e qualidade; o pagamento continua vinculado ao que foi efetivamente prestado.
+## 5. O ciclo diário: observar, registrar, corrigir e escalar
 
-## 9. Registro, correção e escalonamento
+O <abbr title="artigo">art.</abbr> 117 da Lei nº 14.133/2021 resume o mecanismo:
 
-O art. 117 da Lei nº 14.133/2021 exige registro próprio das ocorrências, determinação do necessário à regularização e comunicação tempestiva à autoridade quando a decisão ultrapassar a competência do fiscal.
+1. o fiscal acompanha a execução;
+2. anota as ocorrências em registro próprio;
+3. determina o necessário para regularizar faltas ou defeitos;
+4. informa aos superiores, em tempo hábil, o que exigir providência além de sua competência.
 
-Um registro útil relaciona:
+A <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 segue a mesma lógica: ocorrências são registradas durante toda a vigência, e o que ultrapassa a competência do fiscal é encaminhado ao gestor.
 
-1. data, local e responsável;
-2. obrigação ou indicador;
-3. fato e evidência;
-4. impacto ou risco;
-5. providência e prazo;
-6. manifestação da contratada;
-7. verificação posterior;
-8. escalonamento, se necessário.
+Um registro útil identifica **fato, data e local, obrigação afetada, evidência, correção solicitada, responsável comunicado, prazo, resposta e resultado**. “Atendimento ruim” é vago; “o indicador X ficou abaixo da meta no período Y, conforme registros Z, e o preposto foi notificado para correção até a data W” permite controle.
 
-O fiscal resolve dentro de sua competência. Alteração, sanção, prorrogação, reequilíbrio ou outra decisão reservada a instância superior deve ser registrada e encaminhada em tempo hábil.
+O fiscal, portanto, distingue:
 
-## 10. Instrumentos de controle
+- **constatar** o fato;
+- **exigir correção** dentro de sua atribuição;
+- **escalar** o que exige outra competência.
 
-O art. 47 da IN nº 5/2017 admite controles para mensurar, quando pertinentes:
+Registrar um problema não dá ao fiscal poder para decidir qualquer consequência contratual.
 
-- resultados e prazos;
-- qualidade;
-- recursos humanos e formação;
-- materiais, inclusive quantidade, qualidade e uso;
-- rotina de execução;
-- outras obrigações;
-- satisfação do usuário.
+### 5.1 O que deve ser medido
 
-Checklist, teste, amostra, fotografia, sistema, pesquisa e IMR podem coexistir. A evidência deve ser proporcional ao objeto e ligada a obrigação verificável.
+O <abbr title="artigo">art.</abbr> 47 da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 prevê, quando cabível, instrumentos de controle sobre:
 
-## 11. IMR e fiscalização técnica
+1. resultados, prazos e qualidade;
+2. recursos humanos exigidos;
+3. qualidade e quantidade de recursos materiais;
+4. adequação à rotina;
+5. demais obrigações contratuais;
+6. satisfação do público usuário.
 
-O Instrumento de Medição de Resultado (IMR), ou mecanismo substituto adequado, converte padrões contratuais em evidência. Deve definir indicador, método de coleta, periodicidade, nível esperado, tolerância, comprovação e consequência contratual.
+Checklist, inspeção, amostra, fotografia, relatório de sistema ou pesquisa podem coexistir. O método precisa produzir evidência pertinente e rastreável. Quando houver materiais relevantes, a própria <abbr title="Instrução Normativa">IN</abbr> exige mecanismo de controle desde o início da prestação e comparação entre o que a contratada apresenta e as quantidades, especificações, qualidade e uso exigidos.
 
-Regras importantes do Anexo VIII-A:
+## 6. Fiscalização técnica, <abbr title="Instrumento de Medição de Resultado">IMR</abbr> e fiscalização administrativa
 
-- IMR não é sanção;
-- outros mecanismos de avaliação podem coexistir;
-- o fiscal monitora o nível de qualidade para prevenir deterioração e exigir correção;
+O Anexo VIII-A da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 permite usar o <abbr title="Instrumento de Medição de Resultado">IMR</abbr> ou instrumento substituto para aferir qualidade. Aqui basta a lógica necessária à fiscalização:
+
+- o <abbr title="Instrumento de Medição de Resultado">IMR</abbr> não exclui outros mecanismos;
+- o fiscal técnico monitora continuamente a qualidade e exige correção de falhas;
 - a avaliação é apresentada ao preposto para ciência;
-- a contratada não avalia o próprio desempenho;
-- justificativa de menor conformidade exige situação excepcional, imprevisível e alheia ao controle do prestador;
-- fator redutor não impede eventual sanção quando presentes seus pressupostos;
-- a periodicidade deve ser suficiente ao objeto e não é necessariamente mensal.
+- a contratada pode justificar menor conformidade, mas a justificativa só pode ser aceita nesse modelo quando comprovada ocorrência excepcional resultante exclusivamente de fatores imprevisíveis e alheios ao controle do prestador;
+- a contratada não pode fazer a avaliação que compete à fiscalização;
+- a avaliação pode ser diária, semanal ou mensal, desde que o período seja suficiente;
+- para o recebimento provisório, ao fim de cada período mensal, o fiscal técnico consolida o resultado e o encaminha ao gestor;
+- desconformidade pode produzir redimensionamento do valor devido e, quando cabível, sanção.
 
-Para efeito de recebimento provisório, a IN prevê a apuração ao final de cada período mensal, registro em relatório e encaminhamento ao gestor.
+O **redimensionamento** adequa o valor devido ao resultado efetivamente reconhecido. Ele ou a <abbr title="redução do valor reconhecido por parcela não aceita">glosa</abbr> **não são automaticamente sanção**. O Assunto 134 aprofunda <abbr title="Instrumento de Medição de Resultado">IMR</abbr>, recebimento, <abbr title="redução do valor reconhecido por parcela não aceita">glosa</abbr>, <abbr title="verificação do direito do credor antes do pagamento">liquidação</abbr> e pagamento. O Assunto 136 aprofunda indicadores e evidências.
 
-## 12. Fiscalização administrativa
+No Anexo VIII-B, a fiscalização administrativa de serviços com dedicação exclusiva de mão de obra pode usar critérios estatísticos. A lógica combina controles diferentes:
 
-O Anexo VIII-B organiza a fiscalização administrativa dos contratos com dedicação exclusiva de mão de obra, com controles inicial, mensal, diário, procedimental e por amostragem.
+- **inicial:** relação dos empregados, vínculos, funções, jornadas e exames admissionais, além da planilha-resumo do contrato;
+- **periódico/mensal:** regularidade fiscal, trabalhista e previdenciária exigível e documentos necessários ao recebimento;
+- **diário:** conferência por amostragem de quem está trabalhando, em que função e se a jornada contratada está sendo cumprida;
+- **procedimental e por amostragem:** férias, licenças, estabilidade, recolhimentos e outros indícios que justifiquem verificação.
 
-Neste assunto, retenha a lógica:
+O Assunto 134 aprofunda documentos, obrigações trabalhistas e efeitos financeiros. Aqui, retenha o limite funcional: solicitações, reclamações ou cobranças sobre empregados terceirizados devem ser dirigidas ao preposto; o fiscal não negocia diretamente folgas, compensações de jornada ou outras decisões próprias do empregador.
 
-- identificar obrigação e documento exigível;
-- definir responsável, periodicidade e amostra;
-- conferir manutenção das condições;
-- registrar indício e solicitar regularização;
-- reportar ao gestor o que ultrapassar a competência;
-- produzir relatório para o fluxo contratual.
+## 7. Terceiros e órgãos de apoio
 
-Solicitações e cobranças à força de trabalho passam ordinariamente pelo preposto; não se deve dirigir diretamente os empregados da contratada.
+A Lei nº 14.133/2021 permite contratar terceiros para **assistir e subsidiar** o fiscal com informações.
 
-## 13. Assistência de terceiros e apoio institucional
+O terceiro:
 
-A Lei nº 14.133/2021 permite contratar terceiros para assistir e subsidiar a fiscalização. No modelo federal:
-
-- o terceiro assume responsabilidade civil objetiva pela veracidade e precisão das informações;
+- assume responsabilidade civil objetiva pela veracidade e precisão das informações, isto é, responde no regime legal independentemente da demonstração de culpa;
 - firma compromisso de confidencialidade;
-- não exerce atribuição própria e exclusiva de fiscal;
-- sua contratação não exonera o fiscal nos limites das informações recebidas.
+- não pode exercer atribuição própria e exclusiva do fiscal;
+- não elimina a responsabilidade do fiscal nos limites das informações recebidas.
 
-Assistência especializada aumenta capacidade técnica, mas não terceiriza competência decisória estatal. Assessoramento jurídico e controle interno também auxiliam gestores e fiscais sem transferir automaticamente a autoria da decisão.
+O Decreto nº 11.246/2022 repete essa estrutura. Assessoramento jurídico e controle interno também podem esclarecer dúvidas e fornecer informações para prevenir riscos; apoio não transfere automaticamente a competência decisória.
 
-## 14. Atualização federal de 2026: Contratos.gov.br e gestão setorial
+## 8. Decreto nº 13.031/2026: Contratos.gov.br, modelo interno e recebimento
 
-O Decreto nº 13.031/2026 instituiu o **Sistema Contratos.gov.br** na Administração Pública federal direta, autárquica e fundacional e alterou o Decreto nº 11.246/2022.
+O Decreto nº 13.031/2026 entrou em vigor antes do corte e trouxe mudanças relevantes ao modelo federal.
 
-### 14.1 Obrigatoriedade, exceção e transição
+### 8.1 Sistema Contratos.gov.br
 
-No âmbito do Decreto, é obrigatória a utilização do Contratos.gov.br para registro e gestão de contratos administrativos e atas de registro de preços, com uso das funcionalidades disponíveis.
+No âmbito federal alcançado pelo decreto, é obrigatório usar o Sistema Contratos.gov.br para registrar e gerir contratos administrativos e atas de registro de preços, com as funcionalidades disponíveis.
 
-Há duas qualificações importantes:
+O cumprimento do decreto é dispensável aos Comandos da Marinha, do Exército e da Aeronáutica. A Secretaria de Gestão e Inovação pode permitir o uso do sistema por outros Poderes e entes federativos, mas essa possibilidade **não cria obrigação automática para o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>**.
 
-- o cumprimento do Decreto é **dispensável ao Comando da Marinha, ao Comando do Exército e ao Comando da Aeronáutica**;
-- até a completa adequação do sistema, funcionalidades de gestão que dependam de evolução tecnológica são autuadas no processo administrativo eletrônico oficial, com inserção posterior dos documentos no Contratos.gov.br quando a funcionalidade estiver disponível.
+Enquanto uma funcionalidade depender de evolução do sistema, a atividade correspondente deve ser autuada no sistema oficial de processo administrativo eletrônico; depois, os documentos comprobatórios são inseridos no Contratos.gov.br quando a funcionalidade estiver disponível.
 
-A Secretaria de Gestão e Inovação pode permitir o uso do sistema por outros Poderes e entes. Permissão de uso não equivale a obrigatoriedade automática para o TCE-MA.
+### 8.2 Modelo interno de gestão
 
-### 14.2 Modelo interno de gestão
+Os órgãos e entidades federais abrangidos devem estabelecer modelo interno de acompanhamento contendo, no mínimo:
 
-Os órgãos e entidades abrangidos estabelecem modelo interno com, no mínimo:
+1. agentes de gestão e fiscalização, substitutos e atividades;
+2. forma de comunicação entre Administração e contratada, por seus representantes e o preposto;
+3. método de avaliação da conformidade para recebimentos;
+4. prazos de resposta a pedidos de <abbr title="reajuste baseado na variação efetiva dos custos">repactuação</abbr> e de restabelecimento do equilíbrio econômico-financeiro;
+5. procedimentos para sanções, <abbr title="reduções do valor reconhecido por parcelas não aceitas">glosas</abbr> e extinção.
 
-- agentes, substitutos e atividades;
-- comunicação entre Administração e preposto;
-- método de avaliação para recebimentos provisório e definitivo;
-- prazos para pedidos de repactuação e restabelecimento do equilíbrio;
-- procedimentos de sanções, glosas e extinção.
+O sistema é a ferramenta; o modelo de gestão define **responsabilidades, comunicação, critérios e procedimentos**.
 
-### 14.3 Gestão setorial
+### 8.3 Recebimento no regime federal atual
 
-A atualização incluiu **gestão setorial**, que coordena atividades de gestão quando a prestação ocorre em setores distintos, unidades desconcentradas ou diferentes órgãos e entidades nas hipóteses regulamentadas.
+Para obras e serviços:
 
-Não confunda:
+- **recebimento provisório:** fiscal técnico, administrativo ou setorial, por termo detalhado, registrando a verificação feita no acompanhamento;
+- **recebimento definitivo:** gestor, gestor setorial ou comissão designada, por termo detalhado, consolidando a conformidade contratual para essa etapa.
 
-- **fiscal setorial:** acompanha aspectos técnicos ou administrativos no local/setor;
-- **gestor setorial:** coordena a gestão no âmbito participante.
+A Lei nº 14.133/2021 fornece a regra geral do <abbr title="artigo">art.</abbr> 140; a distribuição acima é a regulamentação federal vigente no corte. Recebimento não se confunde, por si só, com <abbr title="verificação do direito do credor antes do pagamento">liquidação</abbr> ou pagamento.
 
-### 14.4 Recebimentos
+## 9. Solicitações e reclamações: quem decide e quando
 
-No modelo federal vigente no corte:
+O <abbr title="artigo">art.</abbr> 123 da Lei nº 14.133/2021 obriga a Administração a decidir explicitamente solicitações e reclamações ligadas à execução, salvo requerimentos manifestamente impertinentes, meramente protelatórios ou sem interesse para a boa execução.
 
-- recebimento provisório de obras e serviços: fiscal técnico, administrativo ou setorial, mediante termo detalhado;
-- recebimento definitivo: gestor, gestores setoriais ou comissão designada, também mediante termo detalhado.
+Salvo prazo específico:
 
-Recebimento provisório, recebimento definitivo, liquidação e pagamento são momentos distintos.
+- **Lei nº 14.133/2021:** um mês **depois da conclusão da instrução**, prorrogável motivadamente por igual período;
+- **Decreto nº 11.246/2022, no âmbito federal:** um mês **da data do protocolo**, prorrogável uma vez por igual período.
 
-## 15. Decisões sobre a execução
+No Decreto, a decisão cabe ao fiscal, ao gestor ou à autoridade superior **nos limites de suas competências**.
 
-O art. 123 da Lei nº 14.133/2021 exige decisão explícita sobre solicitações e reclamações relacionadas à execução, ressalvados requerimentos manifestamente impertinentes, meramente protelatórios ou sem interesse para a boa execução. Salvo prazo específico, a Lei conta um mês **depois da conclusão da instrução**, admitida uma prorrogação motivada por igual período.
+A diferença do termo inicial é objetiva: **conclusão da instrução na Lei; protocolo no Decreto federal**.
 
-No âmbito federal, o art. 28 do Decreto nº 11.246/2022 conta um mês **do protocolo do requerimento**, ressalvado prazo específico, e também admite uma prorrogação igual e motivada.
+## 10. O mapa final
 
-Em prova literal, identifique a fonte: **conclusão da instrução na Lei; protocolo no Decreto federal**. O prazo não altera os limites de competência do fiscal, gestor ou autoridade.
+No exemplo das três unidades, o fiscal setorial aproxima o acompanhamento do local; o técnico compara a execução com o padrão contratado; o administrativo acompanha a regularidade de sua dimensão; o preposto recebe as comunicações da Administração; o gestor coordena registros e providências; e situações fora da competência do fiscal são escaladas com evidência.
 
-## 16. Exemplo integrado
+O modelo mental é:
 
-Considere contrato federal de atendimento em três unidades:
+**papel definido → padrão conhecido → fato observado → registro → correção → escalonamento → decisão/recebimento**
 
-1. o modelo de gestão distribui funções e substitutos;
-2. fiscais setoriais registram fatos em cada unidade;
-3. o fiscal técnico consolida indicadores de tempo e qualidade;
-4. usuários fornecem percepção qualitativa;
-5. o fiscal administrativo acompanha controles de sua área;
-6. o gestor coordena registros, riscos e providências;
-7. o preposto recebe comunicações dirigidas à empresa;
-8. irregularidade corrigível gera notificação e prazo;
-9. matéria fora da competência do fiscal é escalada;
-10. evidências subsidiam recebimentos e procedimentos posteriores.
-
-Se houver arranjo federal compatível com gestão setorial, o gestor setorial coordena a gestão no âmbito participante sem eliminar fiscais setoriais.
-
-## 17. Pegadinhas de prova
-
-- gestor ≠ fiscal técnico;
-- fiscalização pelo usuário é complementar;
-- agente único não é sempre proibido;
-- falta de pessoal não autoriza concentração automática;
-- indicação ≠ designação;
-- na cobertura temporária do art. 8º, § 6º, vigente em 2026: **responsável pela designação**;
-- encargo não pode ser recusado livremente, mas limitações devem ser comunicadas;
-- terceiro especializado assiste e subsidia; não assume função exclusiva do fiscal;
-- preposto representa a contratada;
-- fiscal não dirige empregados terceirizados como chefe;
-- IMR ≠ sanção;
-- recebimento provisório ≠ pagamento;
-- gestor setorial ≠ fiscal setorial;
-- Contratos.gov.br não é automaticamente obrigatório para o TCE-MA;
-- no âmbito federal do Decreto nº 13.031/2026, há dispensa expressa para os Comandos militares indicados no art. 1º, parágrafo único.
-
-## 18. Checklist de revisão
-
-- [ ] corte de 6/7/2026 identificado;
-- [ ] aplicação da IN limitada ao que for compatível;
-- [ ] gestor separado dos fiscais especializados;
-- [ ] indicação, ciência e designação diferenciadas;
-- [ ] titular e substituto formalmente tratados;
-- [ ] capacidade, complexidade e carga avaliadas;
-- [ ] documentos essenciais entregues;
-- [ ] preposto e canal de comunicação definidos;
-- [ ] reunião inicial registrada quando necessária;
-- [ ] indicadores e evidências definidos;
-- [ ] ocorrências, prazo e resposta documentados;
-- [ ] decisões fora da competência escaladas;
-- [ ] assistência de terceiros sem transferência da função estatal;
-- [ ] gestão setorial diferenciada da fiscalização setorial;
-- [ ] Contratos.gov.br aplicado conforme âmbito, exceção e transição;
-- [ ] procedimentos financeiros preservados para o assunto próprio.
+As distinções que mais mudam a resposta são: **gestão × fiscalização; indicação × designação; fiscal setorial × gestor setorial; fiscal × preposto; apoio × substituição; <abbr title="Instrumento de Medição de Resultado">IMR</abbr> × sanção; recebimento provisório × definitivo; norma geral × regulamento federal.**
