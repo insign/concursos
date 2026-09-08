@@ -6,488 +6,181 @@ order: 108
 storageId: gestao-qualidade-excelencia
 ---
 
-# Gestão da qualidade e excelência nos serviços públicos
+Um serviço pode ser rápido, cumprir seu procedimento e ainda assim falhar com o cidadão. Imagine, hipoteticamente, um atendimento que reduziu a espera ao aceitar pedidos apenas pela internet, mas passou a excluir quem necessita de assistência e a devolver mais documentos errados. **Melhorar um número não basta: qualidade exige uma entrega útil, correta e consistente, com direitos preservados.**
 
-**Qualidade** é a capacidade de produtos, serviços, processos e sistemas de gestão atenderem requisitos e necessidades relevantes de modo consistente. No setor público, isso envolve não apenas satisfação, mas também legalidade, equidade, acessibilidade, continuidade, transparência, eficiência e geração de valor público.
+## 1. O que deve melhorar — e para quem
 
-> **Ideia central:** qualidade pública não é “agradar a qualquer custo”. É entregar valor legítimo, com confiabilidade, direitos preservados e uso responsável dos recursos.
+Qualidade é o atendimento a requisitos e necessidades relevantes. **Conformidade** pergunta se o requisito foi cumprido; **adequação ao uso**, se a entrega serve à finalidade; **consistência**, se o desempenho se mantém sem variações indesejadas. A experiência inclui clareza, facilidade e respeito. A perspectiva de valor compara benefícios com custos, riscos e impactos.
 
-## 1. Qualidade, excelência e valor público
+No setor público, satisfação não autoriza descumprir a lei ou privilegiar um grupo. **Valor público** envolve resultados legítimos para a sociedade, direitos, equidade, confiança e uso responsável dos recursos. Uma decisão desfavorável pode ter qualidade se for correta, fundamentada, compreensível e tempestiva.
 
-### Qualidade
+**Excelência** é a busca sistemática de desempenho superior e sustentável, integrando liderança, estratégia, pessoas, processos, informação e resultados. Não significa perfeição absoluta nem se prova apenas com uma premiação.
 
-Pode ser analisada por diferentes perspectivas:
+## 2. Da inspeção à responsabilidade de toda a organização
 
-- **conformidade:** atendimento a requisitos e padrões;
-- **adequação ao uso:** utilidade para o usuário;
-- **consistência:** baixa variabilidade indesejada;
-- **valor:** relação entre benefícios, custos, riscos e impactos;
-- **experiência do usuário:** facilidade, clareza e respeito;
-- **resultado público:** contribuição efetiva ao interesse coletivo.
+Detectar um documento errado ao final evita sua entrega, mas não impede que o próximo saia errado. Essa é a limitação da **inspeção**. O **controle da qualidade** acompanha execução e variação; a **garantia da qualidade** organiza padrões, responsabilidades e avaliações para prevenir falhas e dar confiança de que os requisitos serão atendidos.
 
-### Excelência
+A **gestão da qualidade total** amplia o compromisso a toda a organização, com foco no usuário e melhoria contínua. Excelência em gestão conecta esse esforço à direção estratégica e aos resultados sustentáveis. As abordagens se acumulam: prevenção não torna toda inspeção inútil; uma auditoria não dispensa liderança e aprendizado.
 
-Excelência não significa ausência absoluta de falhas. É a busca sistemática de desempenho superior e sustentável, apoiada por liderança, estratégia, pessoas, processos, informação, inovação, governança e resultados.
+### As contribuições clássicas como respostas a problemas
 
-### Valor público
+**Shewhart** enfrentou a dificuldade de distinguir flutuação normal de alteração relevante. Desenvolveu o controle estatístico e as cartas de controle, que acompanham dados no tempo. Seu trabalho também está na origem do ciclo de aprendizagem posteriormente desenvolvido por Deming.
 
-Uma melhoria gera valor público quando contribui para resultados legítimos, amplia direitos ou confiança, reduz custos e riscos indevidos e considera diferentes públicos. Uma solução muito conveniente para um grupo pode ser inadequada se violar lei, equidade ou acessibilidade.
+**Deming** deslocou a pergunta “quem errou?” para “o que no sistema produz esse resultado?”. Seus 14 pontos enfatizam constância de propósito, melhoria do sistema, liderança, treinamento, cooperação entre áreas e eliminação do medo. Criticam dependência de inspeção em massa, slogans e cobrança por números sem transformação do trabalho. Isso não proíbe medir: exige que a medição ajude a aprender. Constância de propósito também não é perseguir apenas uma meta de curto prazo.
 
-## 2. Evolução das abordagens de qualidade
+**Juran** associa qualidade à adequação ao uso e organiza sua gestão em uma trilogia: **planejar** necessidades e meios de atendê-las; **controlar** o desempenho em relação ao padrão; **melhorar** para alcançar um patamar superior. Assim, manter o padrão e elevar o padrão são trabalhos diferentes. Os custos da má qualidade tornam visíveis perdas que a rotina tende a naturalizar.
 
-| Abordagem | Foco predominante | Limite típico |
-| --- | --- | --- |
-| inspeção | detectar defeitos no produto ou serviço concluído | atua tarde e não elimina causas |
-| controle da qualidade | monitorar processo e variabilidade | pode ficar restrito à operação |
-| garantia da qualidade | prevenir falhas por sistema, padrão e auditoria | pode tornar-se burocrática |
-| gestão da qualidade total | envolver toda a organização e melhorar continuamente | exige cultura, liderança e integração |
-| excelência em gestão | alinhar governança, estratégia, partes interessadas e resultados | não pode virar mera premiação |
+**Crosby** enfatiza conformidade aos requisitos, prevenção e **zero defeitos** como padrão de desempenho; mede a qualidade pelo preço da não conformidade. O propósito é fazer corretamente desde o início, não declarar inexistentes riscos e falhas. A prevenção de Crosby não se confunde com pressão por slogans, criticada por Deming.
 
-As abordagens se acumulam. Inspeção e controle continuam úteis, mas não substituem prevenção, aprendizagem e gestão sistêmica.
+**Ishikawa** favorece participação e educação para a qualidade: círculos da qualidade são grupos que estudam problemas do trabalho e propõem melhorias. Seu diagrama organiza hipóteses de causa, mas não as comprova. **Feigenbaum**, com o controle da qualidade total, destaca a integração das áreas: qualidade não é responsabilidade exclusiva da inspeção final.
 
-## 3. Autores e contribuições
+**Taguchi** incorpora qualidade ao projeto. Um produto ou processo **robusto** é pouco sensível a fatores de ruído, variações difíceis de controlar. Sua função perda mostra que afastar-se do alvo pode causar prejuízo mesmo dentro da <abbr title="Faixa de variação admitida pela especificação">tolerância</abbr>: “aceitável pela especificação” não significa “sem perda”.
 
-### Walter A. Shewhart
+**Garvin** ajuda a perceber que qualidade de produto tem várias dimensões, não uma nota única. Desempenho é a função principal; características são complementos; confiabilidade é funcionar sem falhar; conformidade é atender especificações; durabilidade é vida útil; atendimento envolve assistência e reparo; estética é a experiência sensorial; qualidade percebida decorre de sinais como reputação. Essas oito dimensões não devem ser transportadas mecanicamente para qualquer serviço público.
 
-- desenvolveu fundamentos do controle estatístico do processo;
-- associou variação a causas comuns e especiais;
-- criou cartas de controle;
-- formulou ciclo precursor do PDCA.
+## 3. Investigar a variação antes de escolher a solução
 
-### W. Edwards Deming
+No atendimento hipotético, alguns documentos levam mais tempo que outros. **Causas comuns** pertencem ao sistema em funcionamento, como o método usual e a variação das demandas. **Causas especiais** alteram o padrão, como uma ocorrência específica identificável. A resposta depende do diagnóstico: mudar o sistema para causas comuns; investigar e tratar eventos especiais quando existirem.
 
-- enfatizou visão sistêmica, liderança e melhoria contínua;
-- difundiu o ciclo PDSA/PDCA;
-- criticou a dependência de inspeção em massa;
-- defendeu treinamento, cooperação e eliminação do medo.
+A **carta de controle** ordena medições no tempo e utiliza limites calculados a partir do comportamento do processo. Pontos fora dos limites, tendências ou sequências não aleatórias podem sinalizar mudança. Todos os pontos estarem dentro dos limites, isoladamente, não prova estabilidade.
 
-Pegadinhas sobre os 14 pontos:
+**Limites de controle não são limites de especificação:** os primeiros descrevem comportamento estatístico; os segundos expressam requisitos. Um processo **estável** tem variação previsível, sem sinais de causas especiais; um processo **capaz** atende consistentemente à especificação. Hipoteticamente, entregar previsivelmente em dez dias não atende a um requisito de cinco dias. Estabilidade não garante capacidade.
 
-- constância de propósito não é meta de curto prazo;
-- liderança não é mera supervisão punitiva;
-- slogans e quotas isoladas não produzem qualidade;
-- barreiras entre áreas prejudicam o sistema;
-- inspeção em massa não substitui processo capaz.
+### Ferramentas que respondem a perguntas diferentes
 
-### Joseph M. Juran
+Comece registrando ocorrências de modo uniforme; separe grupos para não esconder diferenças na média. Em seguida, escolha se precisa compreender distribuição, prioridade, possível relação ou comportamento temporal. Essa lógica dá sentido às sete ferramentas básicas:
 
-A **Trilogia de Juran** reúne:
-
-1. planejamento da qualidade;
-2. controle da qualidade;
-3. melhoria da qualidade.
-
-Juran também destacou adequação ao uso e os custos da má qualidade.
-
-### Philip Crosby
-
-- qualidade como conformidade aos requisitos;
-- prevenção em vez de inspeção tardia;
-- “zero defeitos” como padrão de desempenho;
-- custo da qualidade medido pelo preço da não conformidade.
-
-“Zero defeitos” não significa negar risco nem supor perfeição automática. É orientação para fazer corretamente e prevenir falhas.
-
-### Kaoru Ishikawa
-
-- diagrama de causa e efeito;
-- círculos de controle da qualidade;
-- participação ampla;
-- educação e uso de ferramentas simples.
-
-O diagrama de Ishikawa organiza hipóteses de causa; não comprova causalidade sozinho.
-
-### Armand Feigenbaum
-
-- controle da qualidade total;
-- qualidade como responsabilidade organizacional ampla;
-- integração entre áreas ao longo do ciclo de produção ou serviço.
-
-### Genichi Taguchi
-
-- robustez diante de fatores de ruído;
-- função perda: desvio do alvo pode gerar perda mesmo dentro da especificação;
-- qualidade incorporada ao projeto.
-
-### David Garvin
-
-Oito dimensões clássicas de qualidade de produtos:
-
-1. desempenho;
-2. características;
-3. confiabilidade;
-4. conformidade;
-5. durabilidade;
-6. atendimento;
-7. estética;
-8. qualidade percebida.
-
-Em serviços públicos, a aplicação deve ser adaptada ao contexto e aos direitos do usuário.
-
-## 4. Gestão da qualidade e normas <abbr title="International Organization for Standardization">ISO</abbr>
-
-### Situação normativa em 18 de julho de 2026
-
-| Documento | Situação | Função |
-| --- | --- | --- |
-| ISO 9000:2026 | publicada em maio de 2026 | fundamentos e vocabulário |
-| ISO 9001:2015 + Amd 1:2024 | referência publicada vigente para requisitos | requisitos certificáveis do sistema de gestão |
-| ISO 9001:2026 | em publicação, prevista para setembro de 2026 | substituirá a edição de 2015 |
-
-A ISO 9000 não é a norma de requisitos para certificação. A ISO 9001 estabelece requisitos, mas certificação não garante ausência de falhas nem superioridade absoluta de todos os resultados.
-
-### Sete princípios de gestão da qualidade
-
-1. foco no cliente ou usuário;
-2. liderança;
-3. engajamento das pessoas;
-4. abordagem de processo;
-5. melhoria;
-6. tomada de decisão baseada em evidência;
-7. gestão de relacionamentos.
-
-Os princípios são interdependentes e não possuem uma ordem universal rígida de prioridade.
-
-### Abordagem de processo
-
-A organização deve compreender entradas, saídas, sequência, interação, responsabilidades, recursos, riscos, critérios e indicadores. Melhorar um setor isoladamente pode prejudicar o fluxo ponta a ponta.
-
-### Pensamento baseado em riscos
-
-Riscos e oportunidades devem influenciar planejamento, operação, avaliação e melhoria. Não basta preencher um formulário separado sem efeito nas decisões.
-
-## 5. Correção, ação corretiva e prevenção
-
-| Conceito | Finalidade |
+| Pergunta | Ferramenta e função |
 | --- | --- |
-| correção | tratar a não conformidade detectada |
-| ação corretiva | eliminar a causa para evitar recorrência |
-| prevenção baseada em riscos | atuar sobre situações potenciais antes da ocorrência |
+| Como registrar erros por dia e tipo? | Folha de verificação: coleta estruturada |
+| Os canais têm problemas distintos? | Estratificação: separação por categorias |
+| Em quais faixas se concentram os tempos? | Histograma: distribuição de frequências |
+| Quais categorias concentram ocorrências ou perdas? | Pareto: barras ordenadas e, usualmente, percentual acumulado |
+| Quais causas podem produzir o atraso? | Ishikawa: organização de hipóteses |
+| Carga de trabalho e prazo variam juntos? | Dispersão: associação entre variáveis |
+| O comportamento mudou ao longo do tempo? | Carta de controle: acompanhamento da estabilidade |
 
-Exemplo:
+Algumas listas substituem estratificação por fluxograma ou gráfico de evolução; observe o referencial.
 
-- reenviar documento correto: correção;
-- alterar validação que permitiu o erro: ação corretiva;
-- avaliar risco de erro antes de implantar novo formulário: prevenção.
+No Ishikawa, as categorias **<abbr title="Método, mão de obra, máquina, material, medição e meio ambiente">6M</abbr>** agrupam método, mão de obra, máquina, material, medição e meio ambiente; podem ser adaptadas aos serviços. No Pareto, **80/20 é uma heurística**, orientação aproximada, não lei universal. Na dispersão, associação não prova causa, e ausência de relação linear não exclui toda relação possível. Nenhuma dessas ferramentas dispensa investigação.
 
-A ação corretiva exige análise proporcional da causa e verificação de eficácia. Aplicar treinamento genérico sem confirmar a causa pode ser apenas uma resposta superficial.
+## 4. Melhorar com aprendizado: ciclos e métodos
 
-## 6. PDCA e PDSA
+Uma solução plausível precisa ser confrontada com resultados. No exemplo, esclarecer um campo do formulário pode reduzir erros; é necessário executar a mudança, medir seus efeitos e decidir se deve ser mantida.
 
-| Etapa | Pergunta |
+O **<abbr title="Plan, Do, Check, Act">PDCA</abbr>** organiza esse aprendizado:
+
+1. **Planejar — Plan:** delimitar problema, investigar causas, definir meta, ação e medição.
+2. **Executar — Do:** aplicar ou testar o plano e registrar o que ocorreu.
+3. **Verificar — Check:** comparar resultados com o esperado.
+4. **Agir — Act:** incorporar o que funcionou ao padrão ou ajustar a intervenção e reiniciar.
+
+O ciclo não termina na verificação. Deming enfatizou o **<abbr title="Plan, Do, Study, Act">PDSA</abbr>**, com **Study**, estudar: interpretar resultados em relação à previsão e rever a explicação do problema, não apenas aprovar ou reprovar a mudança.
+
+O **<abbr title="Método de Análise e Solução de Problemas">MASP</abbr>** detalha a solução de problemas. Uma sequência frequente reúne **identificação, observação, análise, plano de ação, ação, verificação, padronização e conclusão**. A observação descreve e separa os fatos; a análise investiga causas. Depois da ação, a verificação avalia o ganho; a padronização ajuda a mantê-lo; a conclusão registra aprendizado e questões remanescentes. A relação com o <abbr title="Plan, Do, Check, Act">PDCA</abbr> não torna idênticos os nomes e o detalhamento de todos os referenciais.
+
+**Seis Sigma**, também denominado **Six Sigma**, usa dados para reduzir variação e defeitos. Para melhorar processos existentes, o **<abbr title="Define, Measure, Analyze, Improve, Control">DMAIC</abbr>** encadeia: definir problema e escopo; medir desempenho atual; analisar causas; melhorar com soluções; controlar para sustentar ganhos. **Medir descreve o desempenho; analisar procura explicar suas causas.** A última fase exige acompanhamento e plano de reação, não mero encerramento.
+
+**Lean** enfatiza fluxo e redução de desperdícios. **Kaizen** é melhoria contínua, frequentemente incremental, com participação das pessoas e redução de desperdício, sobrecarga e irregularidade. Podem apoiar Seis Sigma, mas não são sinônimos dele nem de automação. Informatizar um fluxo mal concebido pode ampliar suas falhas.
+
+## 5. Sustentar boas condições de trabalho
+
+Um método melhor dificilmente se mantém se documentos continuam desorganizados e ninguém participa de sua aplicação. O programa **<abbr title="Seiri, Seiton, Seiso, Seiketsu e Shitsuke">5S</abbr>** desenvolve cinco sensos:
+
+- **Seiri — utilização:** separar o necessário do desnecessário.
+- **Seiton — ordenação:** definir lugar e acesso para o necessário.
+- **Seiso — limpeza:** limpar e enfrentar fontes de sujeira e desordem.
+- **Seiketsu — padronização, saúde ou higiene:** manter as condições estabelecidas.
+- **Shitsuke — disciplina:** sustentar hábitos e autocontrole.
+
+As traduções variam; o conceito descrito decide a associação. **<abbr title="Seiri, Seiton, Seiso, Seiketsu e Shitsuke">5S</abbr> não é apenas limpeza.** Participação, formação e reconhecimento das contribuições ajudam a manter resultados; uma campanha inicial ou punições isoladas não substituem uma prática contínua.
+
+## 6. Corrigir o erro, tratar sua causa e compreender o custo
+
+Retome o documento incorreto do exemplo. Reenviar a versão certa é **correção**: resolve a não conformidade detectada, isto é, o descumprimento de um requisito. Investigar e eliminar a causa para impedir recorrência é **ação corretiva**. Antecipar falhas possíveis no desenho de um novo formulário é **prevenção baseada em riscos**.
+
+A ação corretiva exige verificar eficácia. Treinamento genérico não elimina uma regra confusa no sistema; antes de escolher a providência, descubra a causa.
+
+Os custos ajudam a avaliar a intervenção:
+
+| Categoria | O que financia ou representa |
 | --- | --- |
-| Plan | qual é o problema, meta, causa, plano e indicador? |
-| Do | como testar ou executar o plano? |
-| Check/Study | o que os dados mostram e o que foi aprendido? |
-| Act | como padronizar o sucesso ou corrigir e reiniciar? |
+| Prevenção | Planejamento, treinamento preventivo e desenho adequado |
+| Avaliação | Inspeções, verificações e auditorias de conformidade |
+| Falha interna | Erro encontrado antes de entregar ao usuário |
+| Falha externa | Erro encontrado depois da entrega, com possível retrabalho, indenização ou perda de confiança |
 
-O ciclo não termina em `Check`. `Act` incorpora o aprendizado, padroniza ou redefine o plano.
+Prevenção e avaliação são custos de conformidade; falhas internas e externas, de não conformidade. Investir em prevenção pode reduzir o total, mas a decisão considera risco, criticidade e benefício. “Qualidade custa” e “má qualidade custa” são afirmações compatíveis.
 
-Deming preferia **PDSA**, com `Study`, para enfatizar aprendizagem. Em prova, observe a nomenclatura adotada.
+## 7. Sistema de gestão: princípios, requisitos e edições
 
-## 7. MASP
+Um **sistema de gestão da qualidade** articula política, objetivos, responsabilidades, processos, recursos e avaliação. Sua função não é acumular formulários, mas tornar o atendimento aos requisitos consistente.
 
-Uma sequência frequente do Método de Análise e Solução de Problemas:
+A **<abbr title="International Organization for Standardization">ISO</abbr>** apresenta sete princípios interdependentes: foco no cliente ou usuário; liderança; engajamento das pessoas; abordagem de processo; melhoria; decisão baseada em evidência; gestão de relacionamentos. Não existe ordem universal rígida de prioridade. O princípio de processo exige cuidar das entradas, saídas e interações; o pensamento baseado em riscos deve influenciar decisões, não ficar em uma planilha isolada.
 
-1. identificação do problema;
-2. observação;
-3. análise;
-4. plano de ação;
-5. ação;
-6. verificação;
-7. padronização;
-8. conclusão.
+**Fundamentos não são requisitos de certificação.** Essa distinção organiza a família de normas:
 
-- **observação** reúne fatos, estratifica e delimita;
-- **análise** procura causas;
-- **verificação** compara resultado com meta;
-- **padronização** evita retorno do problema.
-
-O MASP pode ser relacionado ao PDCA, mas as etapas não devem ser misturadas mecanicamente quando a referência adotar outro detalhamento.
-
-## 8. Sete ferramentas básicas da qualidade
-
-| Ferramenta | Finalidade |
+| Documento | Papel e situação no recorte de 6 de julho de 2026 |
 | --- | --- |
-| folha de verificação | coleta estruturada de dados |
-| estratificação | separa dados por categoria, período, local ou grupo |
-| histograma | mostra distribuição de frequências |
-| gráfico de Pareto | prioriza categorias pela frequência ou impacto |
-| diagrama de causa e efeito | organiza hipóteses de causa |
-| diagrama de dispersão | examina associação entre variáveis |
-| carta de controle | acompanha estabilidade ao longo do tempo |
+| <abbr title="International Organization for Standardization">ISO</abbr> 9000:2026 | Fundamentos e vocabulário; publicada em maio de 2026 |
+| <abbr title="International Organization for Standardization">ISO</abbr> 9001:2015, com Emenda 1:2024 | Requisitos publicados do sistema de gestão da qualidade |
 
-### Pareto
+A emenda de 2024 trata da consideração da mudança climática no contexto da organização e nas necessidades pertinentes das <abbr title="Pessoas ou organizações que afetam ou são afetadas pela atuação da organização">partes interessadas</abbr>. Isso não transforma a norma de qualidade em certificação ambiental.
 
-A regra 80/20 é heurística, não lei universal. O gráfico ajuda a priorizar categorias relevantes, mas não demonstra causa raiz.
+**Atualização posterior ao corte:** a revisão da <abbr title="International Organization for Standardization">ISO</abbr> 9001 entrou na etapa “em publicação” em 10 de julho de 2026. Na consulta de 8 de setembro de 2026, a página oficial ainda a classifica em desenvolvimento, com publicação prevista para setembro. Previsão e aprovação não equivalem a publicação efetiva.
 
-### Dispersão
+A certificação do sistema segundo a <abbr title="International Organization for Standardization">ISO</abbr> 9001 não garante ausência de falhas nem superioridade absoluta de todos os produtos e serviços. Também não substitui exigências legais.
 
-Correlação não comprova causalidade. A ausência de correlação linear não elimina toda relação possível.
+## 8. Qualidade percebida e falhas na prestação de serviços
 
-### Ishikawa
+Em muitos serviços, é difícil inspecionar a entrega antecipadamente: ela acontece durante a interação. **Intangibilidade** é não se reduzir a um objeto físico; **inseparabilidade**, proximidade entre produção e consumo; **heterogeneidade**, variação entre prestações; **perecibilidade**, impossibilidade de estocar capacidade não utilizada. Não são propriedades absolutas de todo serviço, especialmente com digitalização.
 
-Categorias 6M frequentemente usadas:
+O modelo **<abbr title="Service Quality">SERVQUAL</abbr>** compara expectativas e percepções do usuário. Suas cinco dimensões têm sentidos distintos:
 
-- método;
-- mão de obra;
-- máquina;
-- material;
-- medição;
-- meio ambiente.
+- **Tangibilidade:** instalações, equipamentos e outros sinais perceptíveis.
+- **Confiabilidade:** realizar corretamente o serviço prometido.
+- **Responsividade:** disposição para ajudar e responder prontamente.
+- **Segurança ou garantia:** competência e cortesia que inspiram confiança.
+- **Empatia:** atenção às necessidades particulares do usuário.
 
-O agrupamento pode ser adaptado a serviços.
+Cumprir o prazo prometido evidencia confiabilidade; atender rapidamente a uma dúvida evidencia responsividade. A aplicação do <abbr title="Service Quality">SERVQUAL</abbr> exige adaptação e não substitui avaliação técnica ou jurídica.
 
-## 9. Controle estatístico: estabilidade e capacidade
+### Onde se forma a diferença entre esperado e percebido
 
-### Causas comuns e especiais
+A gestão pode desconhecer a expectativa, compreendê-la mas especificar mal o serviço, especificar corretamente mas executar mal, ou prometer externamente o que não entrega. O modelo de lacunas distingue:
 
-- **comuns:** inerentes ao sistema atual;
-- **especiais:** eventos identificáveis que alteram o padrão.
-
-A resposta deve considerar o tipo de causa. Cobrar individualmente por causa comum pode ser injusto e ineficaz; causas sistêmicas exigem mudança do processo.
-
-### Carta de controle
-
-Limites de controle são calculados a partir do comportamento do processo. Não são metas, tolerâncias jurídicas nem limites de especificação.
-
-Sinais de causa especial podem incluir:
-
-- ponto fora dos limites;
-- sequência prolongada de um lado da média;
-- tendência;
-- padrão cíclico ou não aleatório.
-
-### Estabilidade × capacidade
-
-- **estável:** variação previsível, sem sinais de causa especial;
-- **capaz:** atende consistentemente à especificação.
-
-Um processo pode ser estável e incapaz. Estabilidade é condição importante para avaliar capacidade, mas não a garante.
-
-## 10. Programa 5S
-
-| Senso | Tradução frequente | Aplicação |
-| --- | --- | --- |
-| Seiri | utilização | separar necessário do desnecessário |
-| Seiton | ordenação ou organização | definir lugar e acesso |
-| Seiso | limpeza | eliminar sujeira e fontes de desordem |
-| Seiketsu | padronização, saúde ou higiene | manter condições e padrões |
-| Shitsuke | disciplina | sustentar hábitos e autocontrole |
-
-As traduções variam. Em prova, use o conceito descrito, não apenas a palavra portuguesa.
-
-5S não é simples campanha de limpeza. Busca criar condições para segurança, organização, disciplina e melhoria.
-
-## 11. Six Sigma e DMAIC
-
-**Six Sigma** busca reduzir variabilidade e defeitos por análise de dados e melhoria estruturada.
-
-| Etapa | Núcleo |
+| Lacuna | Diferença examinada |
 | --- | --- |
-| Define | problema, cliente, escopo e objetivo |
-| Measure | processo, dados e desempenho atual |
-| Analyze | causas e relações |
-| Improve | soluções e teste |
-| Control | sustentação, monitoramento e resposta |
+| 1 | Expectativa do usuário × percepção gerencial dessa expectativa |
+| 2 | Percepção gerencial × especificação do serviço |
+| 3 | Especificação × execução |
+| 4 | Execução × comunicação externa |
+| 5 | Serviço esperado × serviço percebido |
 
-- DMAIC é usado para melhorar processos existentes;
-- aumentar variabilidade contraria o objetivo;
-- Six Sigma não se resume a um número mágico nem substitui julgamento;
-- Lean e Six Sigma podem ser combinados, mas não são sinônimos.
+Já o **service blueprint**, mapa da prestação do serviço, conecta ações do usuário, atividades visíveis do atendimento, trabalho interno não visível, apoio e evidências físicas ou digitais. Linhas de interação, visibilidade e interação interna distinguem esses planos. Assim, é possível investigar se uma falha percebida no balcão nasceu numa transferência interna, ou **<abbr title="Transferência de trabalho entre pessoas, etapas ou áreas">handoff</abbr>**, sem atribuí-la automaticamente ao atendente.
 
-## 12. Custos da qualidade
+## 9. Excelência pública: integrar gestão, não colecionar selos
 
-### Custos de conformidade
+Liderança orienta; estratégia prioriza; pessoas executam processos; informação permite aprender; resultados mostram o que foi entregue. Modelos de excelência examinam essas relações e a **maturidade**, grau de consistência e integração das práticas de gestão. Não garantem melhoria apenas por serem adotados.
 
-- **prevenção:** treinamento, planejamento, desenho robusto;
-- **avaliação:** inspeção, teste, auditoria.
+O **<abbr title="Programa Nacional de Gestão Pública e Desburocratização">GesPública</abbr>** é histórico: o Decreto nº 5.378/2005, que o instituiu, foi revogado pelo Decreto nº 9.094/2017. Seu **<abbr title="Modelo de Excelência em Gestão Pública">MEGP</abbr>** continua relevante para reconhecer referenciais de prova.
 
-### Custos de não conformidade
+A formulação clássica do ciclo 2008/2009 reúne oito critérios: liderança; estratégias e planos; cidadãos; sociedade; informação e conhecimento; pessoas; processos; resultados. São partes de um sistema, não oito departamentos. Pensamento sistêmico, aprendizado, inovação, foco no cidadão e geração de valor dão sentido à avaliação.
 
-- **falha interna:** detectada antes da entrega;
-- **falha externa:** detectada pelo usuário ou após a entrega.
+As edições têm diferenças: o documento de 2014 utiliza, entre outras denominações, governança, público-alvo e interesse público e cidadania. **Não apresente os rótulos de uma edição como universais**, nem conclua que uma questão histórica tornou vigente o programa revogado.
 
-Investir em prevenção pode reduzir custos totais, mas toda decisão deve considerar risco, criticidade e benefício.
+O **Gestaopublicagov.br** é outro modelo, voltado ao aprimoramento da governança e gestão dos órgãos e entidades que operam transferências e parcerias da União no Transferegov.br. Utiliza **<abbr title="Instrumentos de Maturidade de Governança e Gestão">IMGGs</abbr>**, avaliação e planos de melhoria. Governança avalia, direciona e monitora a gestão; a gestão organiza e executa as ações. Reconhecimento incentiva o aperfeiçoamento, mas não comprova excelência permanente nem aplicação obrigatória indistinta a todo órgão público.
 
-## 13. Qualidade em serviços
+## 10. Tornar compromissos verificáveis pelo usuário
 
-Serviços apresentam características frequentes:
+A **Lei nº 13.460/2017** alcança a administração direta e indireta de todas as esferas e aplica-se subsidiariamente aos serviços públicos prestados por particulares.
 
-- intangibilidade;
-- inseparabilidade entre produção e consumo;
-- heterogeneidade;
-- perecibilidade.
+A **Carta de Serviços ao Usuário** explicita serviços, acesso, requisitos, etapas, prazo máximo, forma de prestação e canais de manifestação; detalha prioridades, espera, comunicação e acompanhamento. Deve ser atualizada periodicamente e divulgada permanentemente na internet.
 
-Essas características não são absolutas e variam conforme o serviço e a digitalização.
+A **ouvidoria** recebe e acompanha manifestações — não apenas reclamações — e propõe melhorias. A decisão final ao usuário tem prazo de **30 dias**, prorrogável justificadamente uma vez por igual período. Informações solicitadas aos agentes têm prazo de **20 dias**, também prorrogável justificadamente uma vez por igual período.
 
-### <abbr title="modelo de avaliação da qualidade em serviços">SERVQUAL</abbr>
+A avaliação continuada examina satisfação, qualidade do atendimento, compromissos e prazos, manifestações e medidas de melhoria. A lei prevê pesquisa de satisfação ao menos anual ou outro meio que assegure <abbr title="Evidência estatística suficiente para sustentar a interpretação dos resultados">significância estatística</abbr>; os resultados devem ser publicados integralmente e orientar ajustes.
 
-Cinco dimensões clássicas:
+Gerencialmente, combine prazo, erro, retrabalho, custo, produtividade, acesso, continuidade, equidade, satisfação, resolutividade — solução efetiva da demanda — e impacto. Cada indicador precisa de fórmula, fonte, periodicidade, responsável, referência e interpretação. Separar resultados por canal, região e público pode revelar exclusões escondidas na média.
 
-1. tangibilidade;
-2. confiabilidade;
-3. responsividade;
-4. segurança ou garantia;
-5. empatia.
-
-**Confiabilidade** é entregar corretamente e no prazo prometido. **Responsividade** é disposição para ajudar com rapidez.
-
-### Modelo de lacunas
-
-| Lacuna | Diferença |
-| --- | --- |
-| 1 | expectativa do usuário × percepção gerencial |
-| 2 | percepção gerencial × especificação |
-| 3 | especificação × execução |
-| 4 | execução × comunicação externa |
-| 5 | serviço esperado × serviço percebido |
-
-O instrumento SERVQUAL foi desenvolvido para avaliar a lacuna entre expectativas e percepções; sua aplicação exige adaptação e interpretação crítica.
-
-### Service blueprinting
-
-Um blueprint pode representar:
-
-- ações do usuário;
-- atividades visíveis do atendimento;
-- atividades internas não visíveis;
-- processos de apoio;
-- evidências físicas ou digitais;
-- linhas de interação, visibilidade e apoio.
-
-Ele ajuda a localizar falhas e <abbr title="transferências entre etapas, pessoas ou áreas">handoffs</abbr> em serviços. Não é apenas desenho estético do atendimento.
-
-## 14. Indicadores da qualidade
-
-Indicadores devem combinar dimensões:
-
-- prazo e tempo de espera;
-- retrabalho e defeitos;
-- custo;
-- produtividade;
-- acessibilidade;
-- continuidade;
-- equidade;
-- satisfação;
-- resolutividade;
-- impacto público.
-
-Um único indicador pode induzir comportamento disfuncional. Reduzir tempo médio enquanto aumenta erro ou exclusão não representa melhoria sustentável.
-
-### Estrutura mínima
-
-Um indicador deve ter:
-
-- fórmula;
-- fonte;
-- periodicidade;
-- responsável;
-- meta ou referência;
-- regra de interpretação;
-- possibilidade de segmentação.
-
-Média pode ocultar desigualdades. Estratifique por canal, região, público e tipo de demanda quando pertinente.
-
-## 15. Qualidade e gestão de processos
-
-Qualidade depende do desenho e da execução dos processos. A análise deve considerar:
-
-- valor para o usuário;
-- controles necessários;
-- gargalos;
-- variabilidade;
-- retrabalho;
-- riscos;
-- interfaces;
-- causas;
-- indicadores.
-
-Automação de processo ruim pode apenas acelerar erro e desperdício. Padronizar antes de compreender o fluxo também pode institucionalizar falhas.
-
-## 16. Excelência na gestão pública
-
-### GesPública e MEGP histórico
-
-O Programa Nacional de Gestão Pública e Desburocratização — GesPública — foi revogado. Seu Modelo de Excelência em Gestão Pública permanece relevante como referência histórica de prova.
-
-Critérios historicamente associados ao MEGP:
-
-1. liderança;
-2. estratégias e planos;
-3. cidadãos;
-4. sociedade;
-5. informação e conhecimento;
-6. pessoas;
-7. processos;
-8. resultados.
-
-Fundamentos recorrentes incluíam pensamento sistêmico, aprendizado organizacional, cultura da inovação, foco no cidadão e geração de valor.
-
-> Questões sobre o modelo histórico não tornam vigente o programa revogado.
-
-### Gestaopublicagov.br
-
-É o modelo atual de apoio à maturidade de governança e gestão pública no âmbito da Rede de Parcerias. Utiliza Instrumentos de Maturidade de Governança e Gestão — IMGGs e prevê aplicação, diagnóstico, melhoria e reconhecimento.
-
-Em 2026, o modelo continuou ativo, com Jornada da Governança Municipal e 4º Reconhecimento Nacional da Excelência na Governança e na Gestão Pública.
-
-Não confunda:
-
-- GesPública: programa histórico revogado;
-- MEGP: modelo histórico;
-- Gestaopublicagov.br: modelo atual;
-- reconhecimento: mecanismo de incentivo, não prova automática de excelência permanente.
-
-## 17. Direitos dos usuários e qualidade pública
-
-A Lei nº 13.460/2017 estabelece normas de participação, proteção e defesa dos usuários dos serviços públicos.
-
-Pontos importantes:
-
-- aplicação aos serviços públicos prestados direta ou indiretamente;
-- direitos e deveres do usuário;
-- Carta de Serviços ao Usuário;
-- manifestações e ouvidorias;
-- avaliação continuada;
-- divulgação dos resultados.
-
-### Carta de Serviços
-
-Deve informar serviços, requisitos, etapas, prazo, forma de prestação e mecanismos de comunicação. Publicar uma Carta desatualizada não atende ao objetivo de transparência.
-
-### Ouvidoria
-
-Recebe e trata manifestações, promove participação e produz informação gerencial. Não se limita a reclamações: pode receber denúncia, elogio, sugestão, solicitação e simplificação, conforme a classificação aplicável.
-
-### Avaliação de serviços
-
-Deve produzir aprendizagem e melhoria. Satisfação é relevante, mas precisa ser combinada com legalidade, qualidade técnica, equidade e resultados.
-
-## 18. Roteiro de situação-problema
-
-1. definir o problema e o usuário afetado;
-2. levantar dados e estratificar;
-3. identificar requisito, risco e impacto;
-4. escolher método: PDCA, MASP ou DMAIC;
-5. analisar causa;
-6. priorizar com Pareto ou esforço × impacto;
-7. testar solução;
-8. medir prazo, erro, custo, acesso e satisfação;
-9. padronizar ou corrigir;
-10. monitorar e aprender.
-
-Exemplo: prazo caiu, mas retrabalho subiu. Não conclua que a qualidade melhorou. Investigue pressão por velocidade, etapa removida, sistema, treinamento, critérios e perfil das demandas.
-
-## 19. Método de resolução em prova
-
-1. identifique o conceito central;
-2. diferencie autor e contribuição;
-3. localize a etapa de PDCA, MASP ou DMAIC;
-4. escolha a ferramenta pela finalidade;
-5. separe causa comum de especial;
-6. não confunda estabilidade com capacidade;
-7. diferencie correção de ação corretiva;
-8. em serviços, separe confiabilidade de responsividade;
-9. em ISO, confira fundamentos × requisitos e edição vigente;
-10. no setor público, concilie satisfação, direitos, equidade e resultado.
+No exemplo inicial, reduzir espera só representa melhoria sustentável se o serviço continuar correto e acessível. O ciclo se completa quando os dados mudam a prática, e não quando apenas preenchem um relatório.
