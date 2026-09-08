@@ -6,19 +6,21 @@ order: 116
 storageId: patrimonio-imobiliario-spiu
 ---
 
-# Patrimônio imobiliário, SPIU, gestão e conservação
+# Patrimônio imobiliário, <abbr title="Sistema de Patrimônio Imobiliário da União">SPIU</abbr>, gestão e conservação
 
-Administrar um imóvel público não significa apenas saber que ele existe. A organização precisa conhecer a situação física, jurídica, cadastral, contábil e funcional do bem, destiná-lo ao interesse público, mantê-lo seguro e apto ao uso e conservar evidências que sustentem cada decisão.
+Um prédio público está vazio, a cobertura apresenta infiltração e o cadastro ainda o mostra como ocupado. Qual dado deve prevalecer? Nenhum, isoladamente. A decisão exige confrontar a realidade física, a matrícula cartorial — que individualiza juridicamente o imóvel —, o cadastro administrativo e o registro contábil.
 
-> **Ideia central:** matrícula, cadastro administrativo, sistema patrimonial e contabilidade são camadas complementares. Nenhuma delas substitui as demais.
+Essas quatro camadas respondem a perguntas diferentes: **o que existe**, **de quem é ou sob qual título é usado**, **quem o utiliza e para quê** e **como o recurso é reconhecido e mensurado**. Conciliá-las significa comparar as bases, explicar divergências e corrigir cada uma com a evidência competente. O potencial de serviços é a capacidade do imóvel de sustentar a entrega pública, mesmo sem gerar receita.
 
-Este assunto usa normas e sistemas federais para explicar o conteúdo do edital. As regras da Secretaria do Patrimônio da União (SPU), o RIP, o antigo SPIUnet e o atual SPUnet alcançam diretamente o patrimônio imobiliário federal; não se presume sua adoção pelo Estado do Maranhão, por municípios ou pelo TCE-MA.
+> **Ideia central:** matrícula, cadastro, sistema patrimonial e contabilidade são complementares. Uma camada não prova automaticamente o que pertence à outra.
+
+Os sistemas e atos da Secretaria do Patrimônio da União, o Registro Imobiliário Patrimonial, o sistema federal legado e a plataforma atual explicam o vocabulário do edital, mas alcançam diretamente o patrimônio imobiliário federal. Não se presume sua adoção pelo Estado do Maranhão, pelos municípios ou pelo Tribunal de Contas do Estado do Maranhão.
 
 ## 1. O que integra o patrimônio imobiliário
 
 O Código Civil considera imóvel o solo e tudo quanto se lhe incorporar natural ou artificialmente. Também conserva como imóveis, para efeitos legais, certos direitos reais sobre imóveis e o direito à sucessão aberta.
 
-Na gestão patrimonial, a carteira imobiliária pode abranger:
+Na gestão patrimonial, **benfeitoria** é a intervenção realizada para conservar, melhorar ou tornar o bem mais útil; **acessão** é o que se incorpora ao imóvel; e **ônus** é a restrição ou direito de terceiro que pode limitar sua utilização. A carteira pode abranger:
 
 - terrenos urbanos ou rurais;
 - edifícios administrativos, escolas, hospitais, depósitos e outras edificações;
@@ -42,7 +44,6 @@ O bem dominical continua público e não pode ser adquirido por usucapião. Um i
 
 **Afetação** vincula o bem a uso comum ou especial. **Desafetação** retira essa destinação pública específica quando o ordenamento e a autoridade competente o permitem. A mudança de uso fático, o abandono ou a desocupação não substituem o ato jurídico necessário.
 
-<!-- REVISAO-PATRIMONIO-IMOBILIARIO-2026 -->
 
 ### 1.3 Governança do imóvel e matriz de responsabilidades
 
@@ -50,7 +51,7 @@ A gestão imobiliária exige governança explícita. Titularidade, posse, utiliz
 
 | Papel | Responsabilidade predominante |
 | --- | --- |
-| alta administração | definir política, apetite a risco, prioridades e recursos |
+| alta administração | definir política, <abbr title="Nível de risco que a organização aceita">apetite a risco</abbr>, prioridades e recursos |
 | unidade patrimonial | manter cadastro, destinação, ocupação e histórico |
 | unidade técnica | inspecionar, caracterizar, projetar e acompanhar intervenções |
 | unidade jurídica | examinar títulos, ônus, instrumentos, regularização e competência |
@@ -68,7 +69,7 @@ Um mesmo imóvel deve ser observado por dimensões diferentes:
 | Dimensão | Pergunta central | Evidências típicas |
 | --- | --- | --- |
 | física/técnica | o que existe, onde e em que condição? | planta, memorial, área, coordenadas, fotos, laudo, vistoria |
-| jurídica/dominial | de quem é e quais direitos ou ônus existem? | matrícula, transcrição, escritura, termo, registro, averbação, certidão |
+| jurídica/<abbr title="Relativo à propriedade e aos direitos sobre o imóvel">dominial</abbr> | de quem é e quais direitos ou ônus existem? | matrícula, transcrição, escritura, termo, registro, averbação, certidão |
 | administrativa/cadastral | quem usa, para quê e sob qual responsabilidade? | identificador, destinação, ocupante, unidade gestora, histórico |
 | contábil | o recurso deve ser reconhecido e por qual valor? | conta, custo, valor contábil, depreciação, reavaliação, perda e baixa |
 | funcional | o imóvel atende à finalidade pública? | ocupação, capacidade, acessibilidade, desempenho, custo e nível de serviço |
@@ -98,7 +99,7 @@ Uma sequência útil para estudo é:
 1. identificar a necessidade e verificar alternativas na carteira existente;
 2. adquirir, construir, receber ou incorporar o imóvel por título válido;
 3. caracterizar área, limites, edificações, benfeitorias e condição;
-4. regularizar a situação dominial e promover registros ou averbações cabíveis;
+4. regularizar a situação <abbr title="Relativo à propriedade e aos direitos sobre o imóvel">dominial</abbr> e promover registros ou averbações cabíveis;
 5. cadastrar o imóvel e suas utilizações;
 6. reconhecer e mensurar contabilmente, quando atendidos os critérios;
 7. afetar, destinar, ocupar e atribuir responsabilidades;
@@ -107,7 +108,7 @@ Uma sequência útil para estudo é:
 10. reavaliar decisões de uso, custo, compartilhamento, desocupação e destinação;
 11. formalizar transferência, baixa ou alienação quando juridicamente cabível.
 
-O ciclo é retroalimentado. Uma inspeção pode exigir manutenção; uma obra pode alterar área, valor e cadastro; uma mudança de ocupante exige atualização; uma divergência registral pode iniciar regularização dominial.
+O ciclo é retroalimentado. Uma inspeção pode exigir manutenção; uma obra pode alterar área, valor e cadastro; uma mudança de ocupante exige atualização; uma divergência registral pode iniciar regularização <abbr title="Relativo à propriedade e aos direitos sobre o imóvel">dominial</abbr>.
 
 ## 4. Cadastro e registro não são sinônimos
 
@@ -151,21 +152,21 @@ Conciliar significa comparar as bases e explicar diferenças. Para cada imóvel,
 - valor e conta contábil;
 - responsabilidades, contratos e documentos.
 
-### 4.5 Cadastro Nacional de Bens Imóveis da União e estrutura do RIP
+### 4.5 Cadastro Nacional de Bens Imóveis da União e estrutura do <abbr title="Registro Imobiliário Patrimonial">RIP</abbr>
 
-No contexto federal, o Decreto nº 99.672/1990 estruturou o Cadastro Nacional de Bens Imóveis da União. O **RIP** é identificador cadastral numérico: não é matrícula, título aquisitivo nem prova autônoma de domínio.
+No contexto federal, o Decreto nº 99.672/1990 estruturou o Cadastro Nacional de Bens Imóveis da União. O **<abbr title="Registro Imobiliário Patrimonial">RIP</abbr>** é identificador cadastral numérico: não é matrícula, título aquisitivo nem prova autônoma de domínio.
 
-Na operação histórica do SPIUnet, é útil distinguir:
+Na operação histórica do <abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial">SPIUnet</abbr>, é útil distinguir:
 
 | Elemento | Função |
 | --- | --- |
-| cadastro ou RIP do imóvel | identifica o imóvel na base patrimonial |
-| RIP utilização | identifica uma utilização, ocupação ou parcela vinculada ao cadastro |
+| cadastro ou <abbr title="Registro Imobiliário Patrimonial">RIP</abbr> do imóvel | identifica o imóvel na base patrimonial |
+| <abbr title="Registro Imobiliário Patrimonial">RIP</abbr> utilização | identifica uma utilização, ocupação ou parcela vinculada ao cadastro |
 | unidade gestora | mantém os dados da utilização sob sua responsabilidade |
 | imóvel compartilhado | pode exigir utilizações individualizadas por unidade |
 | imóvel locado de terceiro | pode ser cadastrado para gerir uso e contrato, sem se tornar bem próprio |
 
-O RIP utilização não existe sem o cadastro do imóvel. Alterar apenas a utilização também não sana divergência de matrícula, área, titularidade ou valor do imóvel-base.
+O <abbr title="Registro Imobiliário Patrimonial">RIP</abbr> utilização não existe sem o cadastro do imóvel. Alterar apenas a utilização também não sana divergência de matrícula, área, titularidade ou valor do imóvel-base.
 
 ## 5. Lei nº 4.320/1964 e inventário de imóveis
 
@@ -186,7 +187,7 @@ O inventário gera achados. Cada divergência precisa de responsável, prazo, ev
 
 ## 6. Referencial dos imóveis da União
 
-A Constituição enumera bens da União no art. 20. O Decreto-Lei nº 9.760/1946 disciplina categorias e aspectos do patrimônio imobiliário federal. A Lei nº 9.636/1998 autoriza ações de identificação, demarcação, cadastramento, registro, fiscalização e regularização dos imóveis da União.
+A Constituição enumera bens da União no <abbr title="artigo">art.</abbr> 20. O Decreto-Lei nº 9.760/1946 disciplina categorias e aspectos do patrimônio imobiliário federal. A Lei nº 9.636/1998 autoriza ações de identificação, demarcação, cadastramento, registro, fiscalização e regularização dos imóveis da União.
 
 Para esse patrimônio, a Lei nº 9.636/1998 determina sistema unificado de informações que contenha, entre outros dados:
 
@@ -200,80 +201,47 @@ A presença da matrícula dentro do sistema demonstra a complementaridade: o sis
 
 As normas e procedimentos desta seção são diretamente federais. Podem fornecer modelo de estudo e controle para outros entes, mas sua aplicação operacional não é automática fora da União.
 
-## 7. SPIU, SPU, SPIUnet, SPUnet, RIP e SIAFI
+## 7. O ecossistema federal: <abbr title="Sistema de Patrimônio Imobiliário da União">SPIU</abbr>, <abbr title="Secretaria do Patrimônio da União">SPU</abbr>, <abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial">SPIUnet</abbr>, <abbr title="Plataforma Integrada de Gestão do Patrimônio da União">SPUnet</abbr>, <abbr title="Registro Imobiliário Patrimonial">RIP</abbr> e <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr>
 
-As siglas são fonte frequente de erro.
+As siglas designam órgão, identificadores e sistemas diferentes.
 
-| Sigla ou nome | Sentido seguro no contexto federal |
+| Sigla ou nome | Função no contexto federal |
 | --- | --- |
-| **SPU** | Secretaria do Patrimônio da União, órgão gestor do patrimônio imobiliário federal |
-| **SPIU** | expressão histórica associada a Sistema de Patrimônio Imobiliário da União no vocabulário de editais e glossários |
-| **SPIUnet** | sistema federal legado de dados dos imóveis de uso especial e de suas utilizações |
-| **SPUnet** | plataforma federal que recebeu os fluxos operacionais migrados do SPIUnet em 2026 |
-| **RIP** | Registro Imobiliário Patrimonial, identificador cadastral da SPU |
-| **SIAFI** | Sistema Integrado de Administração Financeira do Governo Federal |
+| **<abbr title="Secretaria do Patrimônio da União">SPU</abbr>** | órgão gestor do patrimônio imobiliário federal |
+| **<abbr title="Sistema de Patrimônio Imobiliário da União">SPIU</abbr>** | expressão histórica do edital e de glossários |
+| **<abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial">SPIUnet</abbr>** | sistema legado de dados dos imóveis de uso especial e de suas utilizações |
+| **<abbr title="Plataforma Integrada de Gestão do Patrimônio da União">SPUnet</abbr>** | plataforma que recebeu os fluxos operacionais migrados do sistema legado em 2026 |
+| **<abbr title="Registro Imobiliário Patrimonial">RIP</abbr>** | identificador cadastral da <abbr title="Secretaria do Patrimônio da União">SPU</abbr> |
+| **<abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr>** | sistema federal de execução e registros contábeis |
 
-### 7.1 Ambiguidade histórica do nome
+Fontes oficiais descrevem historicamente o <abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial">SPIUnet</abbr> tanto como “Sistema de Patrimônio Imobiliário da União” quanto como “Sistema de Gerenciamento dos Imóveis de Uso Especial”. Em prova, use a data e o objeto da pergunta: a ambiguidade do nome não transforma a <abbr title="Secretaria do Patrimônio da União">SPU</abbr> em sistema nem o <abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial">SPIUnet</abbr> na plataforma atual.
 
-Fontes oficiais empregam duas descrições históricas:
+### 7.1 <abbr title="Registro Imobiliário Patrimonial">RIP</abbr>, matrícula e utilização
 
-- o glossário da SPU associa SPIUnet a **Sistema de Patrimônio Imobiliário da União**;
-- a página operacional chama SPIUnet de **Sistema de Gerenciamento dos Imóveis de Uso Especial**.
+O <abbr title="Registro Imobiliário Patrimonial">RIP</abbr> identifica administrativamente o imóvel nos cadastros da <abbr title="Secretaria do Patrimônio da União">SPU</abbr>. Não é matrícula cartorial nem comprova domínio sozinho. Na operação histórica, o cadastro do imóvel podia ter utilizações vinculadas; cada utilização permitia acompanhar ocupação, parcela destinada e unidade responsável.
 
-Em prova, o mais importante é reconhecer o objeto e o contexto federal, sem confundir a sigla do edital com a Secretaria ou com a plataforma atual.
+Cadastrar um imóvel locado ajuda a gerir ocupação e contrato, mas não o converte em propriedade pública nem em ativo próprio automaticamente. Titularidade, utilização e reconhecimento contábil continuam sendo perguntas distintas.
 
-### 7.2 RIP não é matrícula
+### 7.2 Cadastro e contabilidade
 
-O RIP identifica administrativamente o imóvel nos cadastros da SPU. Não é número de matrícula cartorial e não comprova domínio sozinho. Na operação histórica, havia distinção entre cadastro do imóvel e utilização; o RIP de utilização dependia do cadastro do imóvel e permitia acompanhar ocupações ou parcelas destinadas.
+<abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial">SPIUnet</abbr> e <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> cumpriam funções diferentes: o primeiro apoiava o cadastro imobiliário; o segundo registra execução e fatos contábeis federais. Integração de dados não torna os sistemas equivalentes e não dispensa conciliação.
 
-### 7.3 Imóvel próprio e imóvel de terceiro
+O edital pode conservar a sigla <abbr title="Sistema de Patrimônio Imobiliário da União">SPIU</abbr> e cobrar funcionalidades históricas do <abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial">SPIUnet</abbr>. Por isso, distinga o tempo verbal: “registrava”, “permanece operacional” e “passou a receber os fluxos” descrevem momentos diferentes.
 
-Um órgão pode precisar cadastrar um imóvel locado para gerir a ocupação e o contrato. Isso não converte o bem de terceiro em propriedade pública nem em ativo próprio automaticamente. Propriedade, utilização e reconhecimento contábil são perguntas diferentes.
+## 8. Sistemas no corte de 6 de julho de 2026
 
-### 7.4 Relação com o SIAFI
+A <abbr title="Secretaria do Patrimônio da União">SPU</abbr> informou que, em **9 de março de 2026**, o <abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial">SPIUnet</abbr> e o <abbr title="Sistema de Requerimento Eletrônico de Imóveis">SISREI</abbr> foram desativados para operação e mantidos apenas para consulta. Em **2 de abril de 2026**, os processos e fluxos antes executados no <abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial">SPIUnet</abbr> passaram a ocorrer exclusivamente no <abbr title="Plataforma Integrada de Gestão do Patrimônio da União">SPUnet</abbr>.
 
-SPIUnet e SIAFI tinham funções distintas. O primeiro apoiava o cadastro imobiliário federal; o segundo registra a execução e os fatos contábeis federais. Integração de dados não elimina a necessidade de conciliação nem torna os sistemas equivalentes.
+Portanto, no corte do edital:
 
-### 7.5 Como responder sobre sistema legado e sistema atual
+- o <abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial">SPIUnet</abbr> é sistema legado e fonte histórica, não o sistema operacional vigente;
+- o <abbr title="Plataforma Integrada de Gestão do Patrimônio da União">SPUnet</abbr> recebe os fluxos migrados, mas sua implantação continua progressiva;
+- funcionalidades e bases do <abbr title="Sistema Integrado de Administração Patrimonial">SIAPA</abbr> ainda estavam em incorporação;
+- cadastro, avaliação, destinação, contratos, fiscalização e contabilidade permanecem macroprocessos distintos;
+- números de módulos dependem da data da fonte e não devem ser memorizados sem referência temporal;
+- integração não elimina controle de acesso, validação, rastreabilidade nem conciliação com o <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr>.
 
-O edital pode usar a sigla histórica **SPIU** e a banca pode cobrar funcionalidades documentadas do SPIUnet mesmo depois da migração.
-
-| Comando | Critério de resposta |
-| --- | --- |
-| funcionalidade histórica do SPIUnet | examinar o funcionamento legado descrito na fonte |
-| sistema operacional vigente em julho de 2026 | SPUnet |
-| novos fluxos no SPIUnet após 2 abr. 2026 | afirmação incorreta |
-| SPIUnet disponível apenas para consulta | afirmação correta no corte temporal |
-| SPUnet já incorporou definitivamente todos os sistemas e módulos | afirmação excessiva |
-| SPUnet como sistema próprio do TCE-MA | incorreto sem ato específico de adoção |
-
-A data e o verbo do enunciado importam: “permitia”, “registrava” e “permanece operacional” não formulam a mesma pergunta.
-
-## 8. Situação dos sistemas no corte de 15 de julho de 2026
-
-A SPU informou oficialmente que:
-
-- em **9 de março de 2026**, SPIUnet e SISREI foram desativados definitivamente para operação e mantidos apenas para consulta;
-- em **2 de abril de 2026**, os processos e fluxos antes executados no SPIUnet passaram a ocorrer exclusivamente no **SPUnet**.
-
-Logo, é incorreto dizer, no corte deste material, que o SPIUnet permanece o sistema operacional vigente. Ele continua relevante como sistema legado, fonte histórica e expressão presente em editais.
-
-Também é incorreto concluir que o SPUnet seja o sistema do TCE-MA. SPIUnet e SPUnet pertencem ao contexto federal da SPU. A pesquisa não encontrou ato oficial que demonstre sua adoção para o patrimônio próprio do Tribunal ou do Estado do Maranhão.
-
-### 8.1 SPUnet em implantação progressiva
-
-O SPUnet é plataforma integrada estruturada em módulos e implantada progressivamente. Fontes oficiais de 2026 apresentam fotografias temporais diferentes do estágio dos módulos, porque a implantação continuava em evolução.
-
-Pontos estáveis para prova:
-
-- o SPIUnet e o SISREI ficaram somente para consulta em 9 de março de 2026;
-- os fluxos do SPIUnet passaram ao SPUnet em 2 de abril de 2026;
-- o SPUnet ainda incorporava funcionalidades e bases do SIAPA;
-- cadastro, avaliação, destinação, contratos, fiscalização e contabilidade pertencem a macroprocessos distintos;
-- o número de módulos implantados deve ser lido conforme a data da fonte;
-- integração não elimina controles de acesso, validação, rastreabilidade ou conciliação com o SIAFI.
-
-Não memorize um número de módulos sem observar a data de referência da questão.
+<abbr title="Plataforma Integrada de Gestão do Patrimônio da União">SPUnet</abbr>, <abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial">SPIUnet</abbr> e <abbr title="Sistema de Requerimento Eletrônico de Imóveis">SISREI</abbr> pertencem ao contexto federal da <abbr title="Secretaria do Patrimônio da União">SPU</abbr>. Sem ato específico, não se pode afirmar que sejam sistemas próprios do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> ou do Estado do Maranhão.
 
 ## 9. Contabilidade patrimonial do imóvel
 
@@ -315,19 +283,21 @@ Classificação orçamentária e reconhecimento patrimonial dialogam, mas não s
 
 ### 9.5 Mensuração posterior
 
-Conforme a política aplicável, a entidade acompanha depreciação, reavaliação e perdas por redução ao valor recuperável. Reavaliação não é aumento livre nem simples atualização monetária: depende de base técnica, consistência por classe e frequência suficiente para evitar valor materialmente inadequado.
+Conforme a política aplicável, a entidade acompanha depreciação, reavaliação e perdas por redução ao <abbr title="Valor recuperável pelo uso ou pela alienação">valor recuperável</abbr>. Reavaliação não é aumento livre nem simples atualização monetária: depende de base técnica, consistência por classe e frequência suficiente para evitar valor materialmente inadequado.
 
 Sinistro, dano, obsolescência, desocupação prolongada ou perda de utilidade podem indicar redução do potencial de serviços e exigir avaliação contábil.
 
 ### 9.6 Regra federal específica
 
-A Portaria Conjunta STN/SPU nº 10/2023 disciplina mensuração, atualização, reavaliação e depreciação de imóveis da União, autarquias e fundações públicas federais em sistemas da SPU. Entre outras regras, exige atualização cadastral, separa valores e atribui competências aos órgãos gestores.
+A Portaria Conjunta <abbr title="Secretaria do Tesouro Nacional">STN</abbr>/<abbr title="Secretaria do Patrimônio da União">SPU</abbr> nº 10/2023 disciplina mensuração, atualização, reavaliação e depreciação de imóveis da União, autarquias e fundações públicas federais em sistemas da <abbr title="Secretaria do Patrimônio da União">SPU</abbr>. Entre outras regras, exige atualização cadastral, separa valores e atribui competências aos órgãos gestores.
 
-Seus percentuais, prazos e método de depreciação são regras federais específicas. Não devem ser convertidos em regra geral para qualquer ente. Para a teoria contábil ampla, prevalecem MCASP e normas contábeis aplicáveis.
+Seus percentuais, prazos e método de depreciação são regras federais específicas. Não devem ser convertidos em regra geral para qualquer ente. Para a teoria contábil ampla, prevalecem <abbr title="Manual de Contabilidade Aplicada ao Setor Público">MCASP</abbr> e normas contábeis aplicáveis.
 
-### 9.7 Normas contábeis vigentes e classificação pela finalidade
+### 9.7 Publicação não é aplicação: o corte de 2026
 
-Em 2026, a referência principal para ativo imobilizado no setor público passou a ser a **NBC TSP 37 — Ativo Imobilizado**, complementada pela **NBC TSP 38 — Mensuração**. A **NBC TSP 35 — Arrendamentos** disciplina os efeitos contábeis de arrendamentos, e a **NBC TSP 06 (R1)** trata de propriedade para investimento.
+No corte de **6 de julho de 2026**, já haviam sido publicadas a **<abbr title="Norma Brasileira de Contabilidade Técnica do Setor Público">NBC TSP</abbr> 37 — Ativo Imobilizado**, a **<abbr title="Norma Brasileira de Contabilidade Técnica do Setor Público">NBC TSP</abbr> 38 — Mensuração**, a **<abbr title="Norma Brasileira de Contabilidade Técnica do Setor Público">NBC TSP</abbr> 35 — Arrendamentos** e a revisão da **<abbr title="Norma Brasileira de Contabilidade Técnica do Setor Público">NBC TSP</abbr> 06 — Propriedade para Investimento**. As novas normas e revisões, porém, indicam aplicação às entidades do setor público a partir de **1º de janeiro de 2027**, salvo norma nacional que estabeleça prazo específico. Publicação no Diário Oficial da União, entrada formal em vigor e aplicação a determinado exercício não são sinônimos.
+
+Para um fato de 2026, consulte o Manual de Contabilidade Aplicada ao Setor Público, 11ª edição, e as normas aplicáveis àquele exercício; use as normas publicadas em 2026 para compreender a transição, sem retroagir seus efeitos. Arrendamento é o contrato que transfere o direito de controlar o uso de um ativo por certo período em troca de contraprestação.
 
 A classificação não decorre apenas da aparência física:
 
@@ -335,7 +305,7 @@ A classificação não decorre apenas da aparência física:
 | --- | --- |
 | imóvel usado na prestação de serviços | ativo imobilizado, se atendidos os critérios |
 | imóvel mantido para aluguel ou valorização | examinar propriedade para investimento |
-| imóvel controlado mediante arrendamento | examinar ativo de direito de uso e a NBC TSP 35 |
+| imóvel controlado mediante arrendamento | examinar ativo de direito de uso e a <abbr title="Norma Brasileira de Contabilidade Técnica do Setor Público">NBC TSP</abbr> 35 |
 | imóvel de terceiro apenas cadastrado para gestão | cadastro não produz reconhecimento automático de propriedade |
 | imóvel destinado à venda | examinar a norma e os critérios aplicáveis à destinação |
 | benfeitoria em imóvel de terceiro | analisar controle, potencial de serviços, prazo e substância |
@@ -395,7 +365,7 @@ As fronteiras dependem do caso. Uma mesma obra pode ter parcelas de reparo e de 
 
 Preventiva não significa intervir em todos os componentes com a mesma frequência. A periodicidade deve considerar fabricante, norma, ambiente, idade, condição, criticidade e histórico.
 
-### 11.2 Diligência dominial e técnica antes da intervenção
+### 11.2 Diligência <abbr title="Relativo à propriedade e aos direitos sobre o imóvel">dominial</abbr> e técnica antes da intervenção
 
 Divergências devem ser tratadas conforme sua natureza:
 
@@ -457,7 +427,7 @@ O plano deve controlar, conforme o imóvel e a legislação aplicável:
 - prevenção e combate a incêndio;
 - instalações elétricas e hidrossanitárias;
 - elevadores e equipamentos de transporte;
-- climatização e PMOC quando exigível;
+- climatização e <abbr title="Plano de Manutenção, Operação e Controle">PMOC</abbr> quando exigível;
 - acessibilidade e rotas de circulação;
 - segurança do trabalho;
 - licenças, certificados e responsabilidades técnicas;
@@ -483,7 +453,7 @@ Riscos frequentes incluem:
 - cadastro desatualizado e sistema sem integração;
 - imóvel ocioso enquanto há gasto elevado com locação.
 
-O TCU classificou a gestão do patrimônio imobiliário da União como área de alto risco e destacou vacância, abandono, depredação, custo, baixa confiabilidade cadastral, sistemas inadequados e fragilidade de governança. Esses achados federais ilustram riscos gerais, sem provar que se repitam em todo ente.
+O <abbr title="Tribunal de Contas da União">TCU</abbr> classificou a gestão do patrimônio imobiliário da União como área de alto risco e destacou vacância, abandono, depredação, custo, baixa confiabilidade cadastral, sistemas inadequados e fragilidade de governança. Esses achados federais ilustram riscos gerais, sem provar que se repitam em todo ente.
 
 ## 14. Contratação e fiscalização da manutenção
 
@@ -521,7 +491,7 @@ Hospitais, centros de dados, atendimento ao público e outras instalações crí
 
 ### 15.5 Ferramentas digitais e seus limites
 
-BIM, GIS, sensores, mapas e gêmeos digitais podem apoiar inventário, localização, inspeção, manutenção baseada em condição, ocupação e consumo.
+<abbr title="Modelagem da Informação da Construção">BIM</abbr>, <abbr title="Sistema de Informações Geográficas">GIS</abbr>, sensores, mapas e <abbr title="Representações digitais atualizadas de ativos físicos">gêmeos digitais</abbr> podem apoiar inventário, localização, inspeção, manutenção baseada em condição, ocupação e consumo.
 
 Eles não substituem:
 
@@ -542,7 +512,7 @@ Uma representação tridimensional atualizada pode ser excelente evidência téc
 | imóveis vistoriados no prazo | cobertura do programa de inspeção |
 | manutenção preventiva no prazo | aderência ao plano |
 | proporção corretiva/emergencial | grau de reação a falhas, se elevada |
-| backlog por criticidade | demanda pendente e risco acumulado |
+| <abbr title="Serviços pendentes acumulados">backlog</abbr> por criticidade | demanda pendente e risco acumulado |
 | tempo de atendimento e solução | responsividade do processo |
 | reincidência de falhas | qualidade do diagnóstico e reparo |
 | custo de manutenção por área | comparação que exige contexto de uso e idade |
@@ -568,57 +538,15 @@ Um achado de auditoria pode ser estruturado assim:
 
 Exemplo: o plano exige inspeção semestral, mas sistemas críticos não foram inspecionados porque o inventário técnico está incompleto; o efeito é risco à segurança e à continuidade. A recomendação deve atacar a causa e permitir monitoramento.
 
-## 17. Casos integradores
+## 17. Dois casos para fechar o raciocínio
 
 ### 17.1 Área física maior que a matrícula
 
-A equipe não deve apenas alterar o cadastro. Precisa verificar levantamento técnico, origem da diferença, plantas, documentos e procedimento de regularização; depois, atualizar as bases administrativa e contábil afetadas com evidência.
+A equipe não deve escolher o número mais conveniente nem apenas alterar o cadastro. Primeiro verifica levantamento técnico, plantas e cadeia documental; depois promove a regularização cabível e atualiza, com evidência, as bases administrativa e contábil afetadas. Uma diferença física pode exigir providência registral, mas cada camada tem rito próprio.
 
-### 17.2 Prédio vazio com infiltração
+### 17.2 Cobertura substituída em prédio desocupado
 
-Desocupação não elimina responsabilidade. O gestor deve proteger o imóvel, inspecionar o risco, executar medida emergencial se necessária, registrar a condição, planejar correção e decidir destinação. Esperar nova ocupação pode transformar dano simples em perda relevante.
+A desocupação não elimina o dever de proteger o imóvel. A equipe inspeciona a infiltração, controla o risco imediato e decide a destinação. Na contratação, separa reparo, eventual melhoria e componente substituído. Depois examina baixa do componente antigo, reconhecimento do novo, vida útil, garantias, inventário técnico e valor contábil.
 
-### 17.3 Troca de cobertura
+Os dois casos usam o mesmo mapa mental: **realidade física → título e restrições → cadastro e responsável → efeito contábil → finalidade pública → evidência e acompanhamento**. É esse encadeamento, e não uma lista isolada de siglas, que permite resolver questões novas.
 
-A contratação precisa separar reparo, eventual melhoria e componentes substituídos. O efeito no valor, vida útil, cadastro técnico, garantias e contabilidade deve ser analisado, sem presumir que toda reforma é despesa ou que toda obra é capitalizável.
-
-### 17.4 Imóvel locado cadastrado
-
-O cadastro ajuda a gerir ocupação, custo e contrato, mas não torna o imóvel propriedade do órgão. O título de uso e o tratamento contábil precisam permanecer explícitos.
-
-### 17.5 Imóvel próprio ocioso e locação simultânea
-
-A coincidência é sinal de alerta, não prova automática de desperdício. A análise deve comparar localização, capacidade, acessibilidade, custo de adaptação, prazo, continuidade do serviço e possibilidade real de ocupação.
-
-### 17.6 Componente substituído sem baixa
-
-Quando um componente relevante é substituído, a equipe deve examinar baixa do componente antigo, reconhecimento do novo, atualização do inventário técnico, garantias, histórico e valor contábil. Registrar apenas a despesa ou apenas a ordem de serviço pode manter ativo inexistente na base.
-
-## 18. Pegadinhas de prova
-
-1. **Imóvel vazio não é automaticamente dominical ou alienável.**
-2. **Cadastro patrimonial não substitui matrícula cartorial.**
-3. **Registro contábil não comprova domínio.**
-4. **RIP não é matrícula.**
-5. **SPU é órgão; SPIUnet e SPUnet são sistemas/plataformas.**
-6. **SPIUnet é legado:** desde 9 mar. 2026 ficou apenas para consulta; os fluxos migraram ao SPUnet em 2 abr. 2026.
-7. **SPUnet não é sistema automaticamente aplicável ao TCE-MA.**
-8. **Imóvel locado pode ser cadastrado sem se tornar ativo próprio.**
-9. **Terreno e edifício têm tratamento contábil separável.**
-10. **Terreno, em regra, não é depreciado; edificação depreciável não segue essa regra.**
-11. **Manutenção não é sinônimo de melhoria nem de capitalização.**
-12. **Classificação orçamentária não resolve sozinha o reconhecimento patrimonial.**
-13. **Preventiva não elimina corretiva:** reduz probabilidade e consequência de falhas.
-14. **Laudo sem encaminhamento e acompanhamento não controla o risco.**
-15. **Relatório do sistema sem verificação não constitui inventário físico completo.**
-16. **Indicador não prova causa sem contexto.**
-
-## 19. Limites deste assunto
-
-O foco é patrimônio **imobiliário**, cadastro e registro, sistemas federais do edital e gestão predial. Permanecem em assuntos próprios:
-
-- Assunto 117: patrimônio mobiliário e responsabilidade civil e administrativa;
-- Assunto 118: controle, movimentação e sistema patrimonial em aprofundamento;
-- Assunto 123: análise do valor e alienação em aprofundamento.
-
-Aquisição, responsabilidade, movimentação e alienação aparecem somente quando necessárias para explicar o ciclo do imóvel.
