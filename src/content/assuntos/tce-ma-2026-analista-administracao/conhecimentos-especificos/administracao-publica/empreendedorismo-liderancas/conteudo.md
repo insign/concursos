@@ -8,686 +8,273 @@ storageId: empreendedorismo-liderancas
 
 # Empreendedorismo governamental e novas lideranças no setor público
 
-Empreender no governo significa **mobilizar pessoas, capacidades e recursos para reconhecer problemas, explorar oportunidades e implementar soluções que gerem valor público**. A iniciativa pode alterar serviços, políticas, processos, regulações ou arranjos organizacionais, mas permanece submetida à legalidade, à integridade, à equidade, à transparência, à gestão de riscos e à prestação de contas.
+**Como melhorar um serviço quando a solução não está pronta e o gestor não pode simplesmente agir como dono?** Imagine uma situação hipotética: um órgão estadual recebe muitos requerimentos incompletos. Uma servidora propõe trocar o formulário, mas descobre que parte dos usuários não entende as exigências e parte não consegue usar o canal digital. O problema não é apenas comprar tecnologia: é descobrir o que impede o atendimento, mobilizar pessoas e experimentar uma resposta dentro das <abbr title="Atribuições conferidas juridicamente ao órgão">competências</abbr> do órgão.
 
-Novas lideranças tornam essa transformação possível ao combinar propósito, aprendizagem, colaboração e execução. Elas não substituem gestão, autoridade ou controles: criam condições para que pessoas enfrentem problemas complexos, experimentem de forma responsável e convertam aprendizados em resultados sustentáveis.
+Esse caso reúne os dois eixos do assunto. **Empreender no governo é transformar oportunidades de melhoria em ação que gere <abbr title="Benefício relevante para a sociedade produzido pela ação pública">valor público</abbr>; liderar é mobilizar pessoas para realizar essa transformação.** Nem a boa intenção autoriza qualquer meio, nem o cumprimento de uma rotina demonstra, sozinho, que a necessidade foi atendida.
 
-> **Ideia central:** inovação pública não é novidade a qualquer custo. É mudança implementada para produzir valor público, com legitimidade, evidências, capacidade de execução e responsabilidade pelos riscos e efeitos.
+## 1. Iniciativa pública: quem age, com quais recursos e para quê
 
-## 1. Conceitos fundamentais
+Empreendedorismo público combina iniciativa, identificação de oportunidades, mobilização de recursos e implementação de mudanças diante de incerteza. A contribuição está em sair da percepção do problema para uma ação orientada ao interesse coletivo. A revisão de [Vivona e colaboradores](https://link.springer.com/article/10.1007/s11187-024-00965-5) destaca <abbr title="Novidade implementada na prática de uma organização">inovação</abbr>, <abbr title="Iniciativa para agir antes de ser obrigado pelas circunstâncias">proatividade</abbr> e disposição para lidar com riscos, condicionadas pelo contexto público.
 
-### 1.1 Empreendedorismo governamental ou público
+No exemplo, a servidora pode articular uma proposta sem ser chefe. Isso é **intraempreendedorismo**: atuação empreendedora dentro de uma organização existente. Sua iniciativa não cria competência para contratar, gastar ou dispensar exigências. **Alçada** é o limite de decisão atribuído ao agente; agir além dela não se torna legítimo por receber o nome de <abbr title="Novidade implementada na prática de uma organização">inovação</abbr>.
 
-As expressões **empreendedorismo governamental** e **empreendedorismo público** são usadas de modo próximo na literatura, sem constituírem tipos jurídicos definidos de forma uniforme. Seu núcleo inclui:
+A atuação pode começar no indivíduo, passar à equipe ou organização, alterar políticas e instituições e alcançar um conjunto de órgãos e setores. São escalas de articulação: redesenhar o atendimento interno é diferente de mudar uma regra que vincula vários órgãos. Um **ecossistema de <abbr title="Novidade implementada na prática de uma organização">inovação</abbr>** é essa rede de atores, recursos e condições que permite produzir e difundir soluções; não é uma organização única comandada por um empreendedor.
 
-- perceber necessidades, problemas e oportunidades de interesse público;
-- agir com iniciativa e proatividade, em vez de apenas reagir;
-- combinar recursos e competências dispersos;
-- questionar práticas que perderam utilidade;
-- desenvolver e implementar soluções;
-- assumir riscos de maneira consciente e governada;
-- aprender com evidências e resultados;
-- gerar valor público, não retorno privado ao agente.
+### 1.1 O que distingue o empreendimento público
 
-O agente empreendedor não se torna proprietário da organização nem dos recursos públicos. Sua autonomia é delimitada pelas competências legais, pela governança e pela responsabilidade institucional.
+Uma empresa pode buscar lucro, crescimento e continuidade, inclusive combinados com objetivos sociais. O órgão público deve justificar sua ação pelo benefício coletivo, pelos direitos e pela missão institucional. Recursos, competências e patrimônio públicos não pertencem ao agente. O risco envolve usuários, orçamento, confiança e responsabilidades institucionais, não apenas o patrimônio de quem propõe.
 
-### 1.2 Intraempreendedorismo público
+Isso exige **prestação de contas e responsabilização**, frequentemente chamadas de <abbr title="Prestação de contas e responsabilização">accountability</abbr>: explicar decisões, submeter-se a controle e responder conforme as regras aplicáveis. Eficiência importa, mas não basta: atender mais pedidos por menor custo pode ser inadequado se o órgão passa a excluir quem mais precisa do serviço.
 
-**Intraempreendedorismo** é a ação empreendedora dentro de uma organização existente. Um servidor, uma equipe ou um dirigente identifica um problema, articula atores, testa alternativas e promove melhoria usando a estrutura institucional.
+Empreendedorismo governamental também não é sinônimo de **privatização**, entendida em sentido estrito como transferência de propriedade ou controle estatal para particulares. Pode haver <abbr title="Novidade implementada na prática de uma organização">inovação</abbr> mantendo a execução pública. Colaborar com empresas ou entidades sociais tampouco significa, por si só, privatizar: é preciso identificar o instrumento e o que efetivamente foi transferido.
 
-Ele não exige:
+### 1.2 Valor, autorização e capacidade precisam se encontrar
 
-- abrir uma empresa;
-- criar uma startup;
-- privatizar o serviço;
-- buscar lucro pessoal;
-- ocupar cargo de direção.
+**Valor público** é o benefício socialmente relevante produzido pela ação pública, considerado à luz de direitos, necessidades coletivas e legitimidade. Não se reduz à satisfação imediata do usuário, à economia financeira ou à popularidade do governante.
 
-Liderança informal, conhecimento técnico e capacidade de articulação podem iniciar a mudança. A decisão e a execução, porém, devem respeitar alçadas, recursos, controles e responsabilidades formais.
+No caso hipotético, reduzir o tempo de atendimento é valioso, mas o resultado perde qualidade se aumenta a exclusão digital. É preciso perguntar quem ganha, quem perde e quais obrigações continuam a ser cumpridas.
 
-### 1.3 Invenção, inovação e melhoria
+O **triângulo estratégico**, associado a [Mark Moore](https://dialnet.unirioja.es/descarga/articulo/7758803.pdf), articula três condições:
 
-| Conceito | Núcleo |
+- **valor público:** qual benefício justifica a ação?
+- **legitimidade e apoio:** existem mandato, autorização e sustentação política e social? Esse conjunto forma o **ambiente autorizador**;
+- **capacidade operacional:** há pessoas, recursos, processos, tecnologia e parceiros capazes de entregar?
+
+Apoio político não substitui autorização jurídica. Uma proposta útil e autorizada, mas sem equipe para executá-la, permanece promessa; uma operação eficiente sem finalidade pública relevante apenas executa bem a atividade errada. O triângulo ajuda a formular e revisar a estratégia, não garante automaticamente seu sucesso.
+
+## 2. Por que surgiram propostas de um governo empreendedor
+
+Uma organização pode cumprir procedimentos e ainda entregar serviços lentos ou inadequados. A **Nova Gestão Pública**, conhecida pela sigla inglesa <abbr title="New Public Management">NPM</abbr>, ganhou força em reformas que procuravam enfrentar esse problema mediante maior orientação ao desempenho.
+
+Na sistematização de [Christopher Hood (1991)](https://newdoc.nccu.edu.tw/teasyllabus/110041265941/hood%20npm%201991.pdf), aparecem gestão profissional com responsabilidade identificável, padrões e medidas explícitos, controle de resultados, <abbr title="Divisão de uma estrutura ampla em unidades menores">desagregação</abbr> de grandes estruturas, competição, práticas gerenciais privadas e disciplina no uso de recursos. A autonomia gerencial deveria vir acompanhada de cobrança por entregas, não de ausência de controle.
+
+O limite dessa lente é tratar a eficiência de cada unidade como se ela assegurasse o resultado coletivo. Se cada setor melhora sua própria meta, mas obriga o cidadão a repetir informações, o serviço integrado continua ruim. Também não se podem importar técnicas privadas sem considerar direitos, legalidade e responsabilidades democráticas.
+
+### 2.1 Os dez princípios de Osborne e Gaebler
+
+Em [*Reinventing Government* (1992)](https://archive.org/details/reinventinggover0000osbo), David Osborne e Ted Gaebler propõem mudar a forma de governar: dirigir esforços e mobilizar diferentes prestadores, dar espaço à participação, prevenir problemas e cobrar resultados. Os dez princípios organizam essa proposta; não são uma lei brasileira nem uma exigência de privatização geral.
+
+| Princípio | Mudança pretendida |
 | --- | --- |
-| **invenção ou ideia** | concepção ainda não necessariamente aplicada |
-| **inovação pública** | abordagem nova ou significativamente modificada efetivamente implementada para melhorar ação pública |
-| **melhoria incremental** | aperfeiçoamento progressivo de solução existente |
-| **inovação transformadora** | mudança mais profunda em modelo, relação, processo ou capacidade |
+| Governo catalisador | Articular e orientar a ação, sem presumir que o governo deva executar tudo diretamente. |
+| Pertencente à comunidade | Dar poder à comunidade e ampliar sua participação nas decisões que a afetam. |
+| Competitivo | Introduzir competição entre prestadores para estimular melhoria. |
+| Orientado por missão | Organizar a atuação pela finalidade, não pela reprodução de rotinas. |
+| Orientado a resultados | Relacionar recursos e avaliação ao que se entrega e alcança, não apenas aos insumos utilizados. |
+| Orientado ao cliente | Responder às necessidades de quem utiliza o serviço. |
+| Empreendedor | Buscar novas formas de financiar a ação e gerar receitas, considerando o retorno do gasto. |
+| Preventivo | Atuar sobre causas antes que os problemas se agravem. |
+| Descentralizado | Aproximar decisões de equipes e usuários, com participação e trabalho conjunto. |
+| Orientado ao mercado | Usar incentivos para influenciar comportamentos e enfrentar problemas públicos. |
 
-Uma ideia sem implementação ainda não entregou inovação. Digitalizar um procedimento ruim sem redesenhá-lo pode apenas automatizar desperdício. Por outro lado, inovação não precisa ser inédita no mundo: uma solução já conhecida pode ser nova no contexto em que é adotada e produzir valor relevante.
+No caso hipotético, ouvir usuários, prevenir erros e permitir que a equipe proponha mudanças expressam princípios diferentes que podem operar juntos. “Empreendedor”, dentro dessa lista, enfatiza receitas e retorno dos recursos; o conceito amplo de empreendedorismo público não se limita a arrecadar.
 
+Missão não dispensa legalidade; descentralização não dissolve responsabilidade. A orientação ao cliente melhora a atenção ao usuário, mas **cidadão não é apenas consumidor**: possui direitos mesmo sem poder de compra. Competição e mecanismos de mercado são propostas condicionadas à adequação do serviço, não soluções universais. “Governo centralizado” contrasta com o princípio descentralizador da obra.
 
-<!-- REVISAO-EMPREENDEDORISMO-2026 -->
-### 1.4 Níveis de atuação do empreendedorismo público
+### 2.2 Reintegrar órgãos não é o mesmo que governar em rede
 
-O empreendedorismo público pode ser observado em diferentes níveis. Eles são **escalas analíticas**, não categorias jurídicas rígidas:
+Reformas denominadas **pós-<abbr title="New Public Management">NPM</abbr>** procuram, entre outras respostas, corrigir fragmentação e recuperar coordenação. A ideia de **governo como um todo**, discutida por [Christensen e Lægreid (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6210.2007.00797.x), é fazer estruturas especializadas cooperarem em torno de problemas comuns.
 
-| Nível | Manifestação típica | Risco de erro |
-| --- | --- | --- |
-| **individual** | servidor identifica barreira, articula atores e propõe melhoria | confundir iniciativa com competência formal para decidir |
-| **equipe ou organização** | unidade redesenha processo, serviço ou capacidade | otimizar um silo e piorar o sistema |
-| **política ou institucional** | atores modificam regras, incentivos e arranjos | inovar sem ambiente autorizador ou sustentação |
-| **sistêmico ou ecossistêmico** | múltiplos órgãos e setores enfrentam problema complexo | diluir responsabilidades em nome da colaboração |
+A **Nova Governança Pública**, associada a [Stephen P. Osborne](https://www.tandfonline.com/doi/abs/10.1080/14719030600853022), enfatiza a interdependência entre Estado, organizações e sociedade na produção de políticas e serviços. Além de coordenar órgãos, importa construir relações, confiança e participação. **Coprodução** ocorre quando usuários ou comunidades participam da produção do serviço; uma consulta para ouvir opiniões é participação, mas não é automaticamente coprodução.
 
-A atuação pode começar em um nível e exigir os demais para produzir resultado sustentável. Uma ideia individual, por exemplo, pode depender de patrocínio organizacional, mudança normativa e cooperação interinstitucional.
+As abordagens se aproximam em alguns pontos, sem serem sinônimas ou etapas obrigatórias que eliminam as anteriores. Uma administração pode combinar burocracia profissional — legalidade, imparcialidade e continuidade —, metas de desempenho, coordenação governamental e redes de cooperação. O problema é escolher combinações adequadas, não declarar que todo controle ou toda hierarquia ficou ultrapassado.
 
-> **Atenção:** liderança informal e iniciativa ampliam a capacidade de mobilização, mas não criam competência jurídica, orçamento ou autorização que a pessoa não possua.
+## 3. O que inovar: separar novidade, objeto e finalidade
 
-## 2. Valor público e diferenças em relação ao setor privado
+Ter uma ideia é diferente de implementá-la. **Invenção** cria uma solução ou concepção nova; **inovação** incorpora novidade à prática. A novidade pode ser relativa ao contexto: adaptar uma solução já utilizada em outro órgão pode inovar o serviço local. Nem toda melhoria rotineira exige inovação, e nem toda inovação produz melhoria.
 
-No empreendedorismo privado, oportunidade, sustentabilidade econômica, vantagem competitiva e retorno aos proprietários costumam ocupar posição central. No setor público, o critério final é o **valor público**, condicionado por mandato, direitos, interesse coletivo e legitimidade democrática.
+No exemplo, colocar o formulário defeituoso na internet muda o suporte, mas não demonstra que o problema foi resolvido. Redesenhar perguntas e atendimento a partir das dificuldades dos usuários pode produzir inovação mesmo sem tecnologia inédita. Mudanças incrementais avançam sobre a prática existente; mudanças radicais alteram mais profundamente a forma de atuar. Nenhuma das duas é superior em toda situação.
 
-O Decreto nº 9.203/2017 define valor público como produtos e resultados gerados, preservados ou entregues que constituam respostas efetivas e úteis a necessidades ou demandas de interesse público e modifiquem a sociedade ou grupos reconhecidos como destinatários legítimos.
+### 3.1 Duas perguntas organizam as classificações
 
-| Dimensão | Empreendedorismo privado | Empreendedorismo governamental |
-| --- | --- | --- |
-| finalidade predominante | valor econômico e sustentabilidade do negócio | valor público e atendimento ao interesse público |
-| recursos | privados ou captados no mercado | públicos, vinculados a competência e orçamento |
-| destinatário | cliente e demais partes interessadas | cidadão, usuário, sociedade e grupos destinatários legítimos |
-| risco | suportado segundo propriedade e contratos | suportado institucionalmente, com legalidade, controle e <abbr title="prestação de contas e responsabilização">accountability</abbr> |
-| sucesso | receita, crescimento, lucro, impacto e continuidade | efetividade, legitimidade, equidade, confiança, eficiência e capacidade pública |
+**“O que muda?”** identifica o objeto: serviço oferecido, processo de trabalho, organização de equipes, arranjo de governança, política pública, regulação ou comunicação. Governança trata de quem direciona, decide e acompanha; regulação estabelece regras para orientar atividades. Uma solução pode atingir vários desses objetos ao mesmo tempo.
 
-As diferenças não impedem aprendizagem entre setores. Métodos de experimentação, desenho de serviços, análise de dados e gestão ágil podem ser úteis, desde que adaptados ao contexto público.
+**“Para que e diante de qual incerteza?”** identifica a orientação da inovação. O referencial de [portfólios da Organização para a Cooperação e Desenvolvimento Econômico](https://oecd-opsi.org/work-areas/innovation-portfolios/) reúne quatro orientações. Um **portfólio** é um conjunto de iniciativas considerado em conjunto para distribuir recursos, riscos e aprendizagem; não pressupõe apostar tudo numa única solução.
 
-### 2.1 Empreendedorismo não é privatização
-
-**Privatização** transfere propriedade, controle, ativos ou execução ao setor privado, conforme o arranjo adotado. **Empreendedorismo governamental** descreve postura e capacidade de inovar para gerar valor público. Um órgão pode inovar mantendo a prestação estatal; e uma privatização, por si só, não prova inovação nem valor público.
-
-
-### 2.2 Triângulo estratégico do valor público
-
-Uma iniciativa pública é estrategicamente consistente quando articula três condições:
-
-| Dimensão | Pergunta central |
+| Orientação | Lógica da iniciativa |
 | --- | --- |
-| **proposta de valor público** | a solução produz benefício público relevante, equitativo e compatível com direitos? |
-| **ambiente autorizador** | existe mandato, legitimidade, apoio, autorização, orçamento e sustentação institucional? |
-| **capacidade operacional** | há pessoas, processos, tecnologia, dados, parceiros e governança para executar? |
+| Aperfeiçoamento | Melhorar o funcionamento do sistema existente. |
+| Adaptativa | Responder a mudanças e necessidades que emergem no ambiente. |
+| Antecipatória | Explorar futuros possíveis e desenvolver capacidade antes que as demandas se consolidem. |
+| Orientada por missão | Mobilizar esforços diversos para um objetivo público definido. |
 
-As três dimensões são interdependentes:
+A orientação antecipatória não prevê o futuro com certeza. A missão define a direção, mas pode deixar em aberto os meios para alcançá-la. No caso hipotético, inovar o processo para reduzir erros pode ter orientação de aperfeiçoamento; o objeto continua sendo processo, não uma quinta orientação.
 
-- boa ideia sem legitimidade tende a não se sustentar;
-- apoio político ou institucional sem valor público não justifica a iniciativa;
-- valor e autorização sem capacidade produzem promessa sem entrega;
-- capacidade sem direção pública pode apenas acelerar atividade de pouco valor.
+## 4. Aprender antes de ampliar: diagnóstico, teste e evidência
 
-**Exemplo:** um atendimento integralmente digital pode reduzir custos, mas não gera pleno valor se exclui pessoas sem conectividade. Também não se sustenta sem base legal, suporte, integração de dados, equipe capacitada e governança.
+A primeira decisão não é qual ferramenta comprar, mas **qual problema explicar**. Uma sequência útil liga diagnóstico, alternativas, hipótese, teste, avaliação e decisão. Depois, acompanha-se a solução em uso: a aprendizagem não termina com a implantação.
 
-## 3. Nova Gestão Pública e abordagens posteriores
+No serviço hipotético, contar requerimentos devolvidos dimensiona o problema; observar o preenchimento e conversar com usuários ajuda a descobrir suas causas. Dados quantitativos mostram frequência e distribuição; evidências qualitativas ajudam a compreender experiências e mecanismos. A combinação é mais informativa que supor que todo erro decorre de desatenção.
 
-### 3.1 Nova Gestão Pública — NPM
+Uma **hipótese** é uma explicação ou previsão que pode ser confrontada com evidências: “se simplificarmos a linguagem e oferecermos orientação, menos requerimentos serão devolvidos”. A hipótese liga a mudança a um resultado esperado. É preciso distinguir o efeito da solução de outras influências, como uma redução temporária da demanda.
 
-A **Nova Gestão Pública**, ou *New Public Management* — NPM — reúne reformas difundidas a partir das últimas décadas do século XX. Entre seus elementos frequentes estão:
+### 4.1 Cada instrumento reduz uma incerteza diferente
 
-- orientação para resultados e desempenho;
-- mensuração e metas;
-- descentralização gerencial;
-- responsabilização de gestores;
-- competição e mecanismos de mercado;
-- contratos e separação entre formulação e execução;
-- foco em eficiência e atendimento ao usuário;
-- adoção seletiva de práticas do setor privado.
+Antes de colocar um novo atendimento em operação, a equipe pode representar o formulário em papel e observar seu uso. Esse **protótipo** permite testar aspectos da solução rapidamente; não precisa ser um produto pronto.
 
-NPM não é sinônimo de privatização, embora privatizações e terceirizações tenham integrado algumas reformas. Também não representa uma doutrina única aplicada de modo idêntico em todos os países.
+Uma **prova de conceito** verifica se algo é tecnicamente viável, como a possibilidade de integrar dois sistemas. Um **experimento** confronta uma hipótese por meio de um teste planejado. Um **piloto** opera a solução em contexto real, mas com alcance limitado. Esses instrumentos podem se combinar: um piloto pode incorporar um experimento, mas funcionar numa unidade não demonstra, sozinho, o impacto ou a viabilidade da expansão.
 
-### 3.2 Pós-NPM e Nova Governança Pública
+O <abbr title="Ambiente regulatório experimental com autorização temporária e limites definidos">sandbox</abbr> regulatório, tratado adiante, é outro instrumento: depende de autorização e regras especiais do regulador. Não é nome genérico para qualquer teste interno.
 
-Abordagens chamadas **pós-NPM** ou **Nova Governança Pública** responderam, entre outros problemas, à fragmentação produzida por excesso de unidades, contratos, metas isoladas e competição. Elas enfatizam:
+### 4.2 Risco governado e tratamento das falhas
 
-- coordenação de governo como um todo;
-- redes e colaboração interorganizacional;
-- coprodução com cidadãos e sociedade;
-- integração de serviços;
-- capacidade estatal e aprendizagem;
-- confiança, legitimidade e valores públicos;
-- resultados sistêmicos, não apenas desempenho de cada unidade.
+**Risco governado** significa reconhecer incertezas, estabelecer quem pode decidir e limitar a exposição a danos. Um teste responsável precisa de objetivo, hipótese, autorização adequada, participantes definidos, prazo, orçamento, proteção de direitos e critérios de avaliação. Antes de começar, a equipe deve saber em que condições ajustará, interromperá ou ampliará a experiência e como preservará o atendimento.
 
-Essas abordagens não aboliram eficiência, mensuração ou responsabilidade por resultados. A mudança está em combiná-las com coordenação, equidade, participação e análise dos efeitos sobre o sistema.
+Documentar decisões e resultados permite aprender e prestar contas. **Rastreabilidade** é a possibilidade de reconstruir o que foi feito e por quê. Não basta anunciar que “falhar faz parte”: os riscos e os limites do teste devem ser deliberados, não descobertos apenas depois do dano.
 
+Falhas diferentes exigem respostas diferentes:
 
-### 3.3 Referenciais que podem coexistir
+- **hipótese não confirmada:** o teste pode ter sido bem executado e produzir informação útil;
+- **falha de implementação:** faltaram execução, recursos ou capacidade para aplicar o desenho;
+- **falha de desenho:** a explicação do problema ou a solução proposta estava inadequada;
+- **falha de governança:** decisões, responsabilidades ou controles foram mal definidos;
+- **<abbr title="Descumprimento do dever de cuidado">negligência</abbr> ou fraude:** exigem apuração segundo o regime aplicável, não uma celebração da experimentação.
 
-Burocracia profissional, Nova Gestão Pública, pós-NPM, Nova Governança Pública e valor público não formam uma sequência universal em que um modelo elimina integralmente o anterior.
+Repetir erro conhecido sem incorporar aprendizagem também compromete a gestão. Um **conflito de interesses**, em que interesses particulares podem comprometer o exercício da função pública, requer prevenção e tratamento; pode configurar ilícito nas hipóteses legais, mas não deve ser confundido automaticamente com fraude. Boa-fé, por sua vez, não dispensa a análise da conduta e das responsabilidades.
 
-| Referencial | Ênfase predominante |
-| --- | --- |
-| **burocracia profissional** | legalidade, imparcialidade, continuidade, especialização e capacidade |
-| **NPM** | desempenho, autonomia gerencial, contratos, competição seletiva e eficiência |
-| **pós-NPM** | reintegração, coordenação de governo como um todo e redução da fragmentação |
-| **Nova Governança Pública** | redes, coprodução, confiança, pluralidade e resultados sistêmicos |
-| **valor público** | benefício público, legitimidade e capacidade operacional |
+### 4.3 Uma média melhor pode esconder exclusão
 
-Uma mesma organização pode usar procedimentos burocráticos para garantir direitos, metas para acompanhar desempenho, redes para enfrentar problemas interdependentes e critérios de valor público para decidir prioridades.
+Se o tempo médio cai porque usuários com dificuldade deixam de solicitar o serviço, o indicador melhora enquanto o acesso piora. Por isso, devem ser observados conclusão do atendimento, erros, custos e efeitos sobre grupos diferentes, quando pertinentes. **Equidade** exige atenção às barreiras e necessidades desiguais, não apenas oferecer formalmente o mesmo canal a todos.
 
-> **Pegadinha:** pós-NPM e Nova Governança Pública não tornam desnecessários eficiência, mensuração, autoridade ou accountability.
+A seleção de participantes pode produzir **viés**, uma distorção sistemática: testar apenas com pessoas experientes em tecnologia tende a ocultar dificuldades dos demais. Participação ajuda a corrigir esse problema, testar linguagem e identificar consequências não previstas. Não transfere automaticamente a competência decisória ao participante.
 
-## 4. Osborne e Gaebler: governo empreendedor
+Evidência informa a escolha, mas não decide sozinha quais direitos podem ser afetados ou quais prioridades são legítimas. Integridade, proteção de dados, acessibilidade e tratamento não discriminatório devem orientar o desenho desde o início. Economizar recursos não compensa, por si só, violar direitos.
 
-David Osborne e Ted Gaebler publicaram *Reinventing Government* em 1992, no contexto norte-americano de pressão fiscal, crítica à burocracia industrial e busca de desempenho. A obra difundiu dez princípios de governo empreendedor:
+## 5. Do piloto à prática duradoura
 
-| Princípio | Sentido |
-| --- | --- |
-| **catalisador** | dirigir e articular, em vez de necessariamente executar tudo diretamente |
-| **pertencente à comunidade** | fortalecer capacidade das comunidades, em vez de tratá-las como receptoras passivas |
-| **competitivo** | introduzir competição quando adequada à prestação de serviços |
-| **orientado por missão** | usar missão e propósito para orientar escolhas, sem foco exclusivo em regras |
-| **orientado a resultados** | financiar e avaliar resultados, não apenas insumos |
-| **orientado ao cliente** | compreender necessidades dos usuários, em vez de servir à conveniência burocrática |
-| **empreendedor** | buscar oportunidades e receitas, em vez de apenas realizar despesas |
-| **preventivo** | prevenir problemas, em vez de atuar somente depois do dano |
-| **descentralizado** | substituir hierarquia excessivamente rígida por participação, equipes e decisões mais próximas do problema |
-| **orientado ao mercado** | usar ou moldar mecanismos de mercado para induzir mudanças |
+Uma unidade pequena pode ter equipe especialmente preparada e apoio excepcional. Ao ampliar o atendimento, crescem custos, diversidade de usuários e dependências. **Escalar é ampliar alcance ou profundidade com condições para sustentar resultados**, não copiar uma experiência esperando efeitos idênticos.
 
-### 4.1 Leitura crítica
+Na literatura sobre inovação social, [Moore, Riddell e Vocisano (2015)](https://ccwestt-ccfsimt.org/wp-content/uploads/2023/07/Scaling-Out-Scaling-Up-Scaling-Deep-Strategies-of-Non-profits-in-Advancing-Systemic-Social-Innovation-1.pdf) distinguem três direções: **para fora**, alcançando mais pessoas e localidades; **para cima**, modificando regras e políticas; **em profundidade**, transformando valores, relações e práticas culturais. Não se trata de uma sequência obrigatória.
 
-Os princípios são referências históricas, não comandos universais. Aplicações automáticas podem produzir efeitos indesejados:
+No exemplo, levar o atendimento a outras unidades amplia o alcance; alterar a regra que exige documento desnecessário muda a base institucional; consolidar a prática de ouvir usuários transforma a cultura. Adaptar a solução ao contexto é uma estratégia de expansão, não uma quarta direção desse modelo. Reduzir ou encerrar uma iniciativa — **desescala** — também pode ser necessário diante de evidência desfavorável.
 
-- competição pode dificultar cooperação;
-- metas estreitas podem deslocar esforços para o que é facilmente medido;
-- descentralização sem capacidade ou accountability pode fragmentar decisões;
-- tratar o cidadão somente como cliente ignora direitos, deveres, participação e interesse coletivo;
-- mecanismos de mercado não são adequados a todo bem público, direito ou função estatal;
-- orientar-se por missão não autoriza descumprir regras legais.
+Antes da expansão, importam evidências, custos totais, manutenção, capacidade de atendimento, acesso equitativo, legitimidade e riscos. **Interoperabilidade** é a capacidade de sistemas e organizações trocarem e utilizarem informações de modo compatível; sem ela, ampliar um canal pode multiplicar retrabalho. Dependência excessiva de um fornecedor pode dificultar manutenção e evolução.
 
-Governo catalisador tampouco significa Estado ausente. Mesmo quando não executa diretamente, o Estado preserva funções de direção, regulação, financiamento, coordenação, garantia de direitos e controle.
+**Institucionalizar** é incorporar a prática útil a responsabilidades, processos, recursos, formação e acompanhamento, para que ela não dependa da permanência de uma pessoa. O estudo sobre [capacidade inovadora dos governos](https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/04/innovative-capacity-of-governments_e3de34c4/52389006-en.pdf) mostra por que iniciativa individual precisa de condições organizacionais e sistêmicas.
 
-## 5. Inovação no setor público
+As barreiras ajudam a localizar essas condições: setores isolados, chamados de **silos**, pedem coordenação e troca de informações; falta de dados pede infraestrutura e capacidade de análise; medo de qualquer falha pede limites claros e aprendizagem responsável. Patrocínio da direção, reconhecimento, tempo e recursos ajudam a transformar boas ideias em práticas. Exaltar um servidor “herói” sem corrigir o ambiente mantém a inovação frágil.
 
-### 5.1 Orientações de inovação
+## 6. Liderar a transformação: comportamentos que se complementam
 
-A <abbr title="Organização para a Cooperação e Desenvolvimento Econômico">OCDE</abbr> distingue orientações que podem coexistir:
+**Gestão** organiza recursos, processos e acompanhamento. **Liderança** influencia e mobiliza pessoas em torno de propósito e ação. **Autoridade formal** confere poderes e deveres previstos em competências ou delegações. Uma pessoa pode reunir as três funções, mas elas não se confundem: o cargo não garante influência, e influência informal não autoriza despesa ou decisão reservada.
 
-| Orientação | Pergunta predominante |
-| --- | --- |
-| **aperfeiçoamento** | como tornar o que existe mais eficiente ou efetivo? |
-| **adaptativa** | como responder a mudança inesperada ou a novo contexto? |
-| **antecipatória** | como explorar futuros possíveis e preparar respostas? |
-| **orientada por missão** | como mobilizar atores e capacidades para desafio público ambicioso? |
+Os modelos de liderança destacam mecanismos diferentes. A questão não é encontrar um estilo sempre superior, mas reconhecer o comportamento exigido pelo problema e seus limites. A revisão de [Orazi, Turrini e Valotti (2013)](https://journals.sagepub.com/doi/10.1177/0020852313489945) discute a combinação de orientação transformacional, elementos transacionais e atenção às particularidades do setor público.
 
-Uma organização precisa de portfólio equilibrado. Somente melhorar rotinas pode ser insuficiente para problemas emergentes; somente perseguir transformações radicais pode negligenciar serviços essenciais.
+### 6.1 Inspirar a mudança e tornar os acordos executáveis
 
+A liderança **transformacional** mobiliza visão e propósito, estimula novas maneiras de pensar e desenvolve pessoas. Não se resume a carisma: transformar exige aprendizagem, recursos e execução. No serviço hipotético, explicar por que o atendimento precisa incluir pessoas hoje excluídas dá sentido à mudança.
 
-### 5.1.1 Tipos ou objetos de inovação
+A liderança **transacional** esclarece metas e papéis, estabelece trocas e recompensas vinculadas ao desempenho e acompanha desvios. Recompensa contingente depende de uma condição acordada; gestão por exceção concentra intervenção nos desvios. Esses mecanismos podem dar previsibilidade à operação e coexistir com inspiração e desenvolvimento. No setor público, recompensas e correções devem respeitar os instrumentos legalmente disponíveis.
 
-A **orientação** da inovação indica a lógica predominante do portfólio. O **tipo ou objeto** indica o que está sendo modificado.
+### 6.2 Problema técnico ou desafio adaptativo?
 
-| Objeto da inovação | Exemplo |
-| --- | --- |
-| **serviço** | atendimento assistido para municípios de baixa capacidade digital |
-| **processo** | conferência automatizada com revisão humana por risco |
-| **organizacional** | equipe multidisciplinar permanente |
-| **governança** | rede interinstitucional com regras compartilhadas |
-| **política pública** | novo desenho de benefício ou instrumento |
-| **regulatória** | sandbox ou regulação proporcional ao risco |
-| **comunicação** | linguagem simples e comunicação segmentada |
-
-Uma inovação de processo pode ser orientada ao aperfeiçoamento; uma inovação regulatória pode ser adaptativa; uma política pode ser orientada por missão. As classificações não são excludentes.
-
-### 5.1.2 Barreiras e habilitadores
+Corrigir uma falha conhecida no sistema pode exigir conhecimento especializado: é um problema **técnico**. Mudar a relação de uma equipe que desconfia dos usuários exige rever hábitos, valores e formas de trabalho: é um desafio **adaptativo**. “Técnico” não significa fácil; “adaptativo” não significa improvisado.
 
-| Barreira frequente | Habilitador correspondente |
-| --- | --- |
-| aversão indiscriminada ao risco | risco governado, salvaguardas e alçadas claras |
-| silos organizacionais | redes, interoperabilidade e objetivos comuns |
-| incentivos voltados apenas à rotina | reconhecimento de melhoria, aprendizagem e colaboração |
-| medo de responsabilização por qualquer falha | distinção entre experimento legítimo, negligência e ilícito |
-| baixa capacidade de dados | infraestrutura, qualidade de dados e competência analítica |
-| ausência de patrocínio | liderança e ambiente autorizador |
-| descontinuidade | institucionalização, orçamento e governança |
-| dependência de fornecedor | arquitetura, padrões abertos e gestão de riscos |
-| pouca escuta dos usuários | pesquisa de serviço, participação e coprodução |
-| solução escolhida cedo demais | investigação do problema e geração de alternativas |
+Na abordagem de [Heifetz e Laurie](https://www.lifelongfaith.com/uploads/5/1/6/4/5164069/the_work_of_leadership.pdf), o líder observa o conjunto sem perder contato com a ação, identifica o desafio, regula a tensão, mantém atenção disciplinada, devolve o trabalho aos envolvidos e protege vozes que costumam ser silenciadas. Atenção disciplinada é enfrentar a questão difícil sem fugir dela para tarefas mais confortáveis.
 
-A existência de uma barreira não autoriza ignorar controle. O objetivo é desenhar controles proporcionais, capazes de proteger o interesse público sem impedir aprendizagem legítima.
+O líder não pode fazer sozinho a aprendizagem que cabe à equipe. Deve manter o desconforto em nível suportável para trabalhar, sem eliminá-lo nem produzir sobrecarga destrutiva. Fornecer respostas prontas ou apenas restaurar a ordem pode funcionar para questões técnicas, mas não resolve necessariamente um conflito de valores.
 
-### 5.2 Ciclo de inovação
+### 6.3 Cooperar sem comandar todos os participantes
 
-Não há sequência única obrigatória, mas um ciclo coerente inclui:
+A liderança **colaborativa** constrói propósito, confiança, regras de decisão e ação conjunta entre atores interdependentes. A **distribuída** reconhece que diferentes pessoas podem exercer influência conforme conhecimento e situação. Compartilhar liderança não elimina coordenação nem altera automaticamente competências legais.
 
-1. **definir o problema:** compreender causas, públicos, contexto e resultados desejados;
-2. **reunir evidências e perspectivas:** dados, experiência dos usuários, conhecimento técnico e participação;
-3. **gerar alternativas:** evitar comprometer-se prematuramente com uma solução;
-4. **selecionar hipóteses:** explicitar valor esperado, riscos e critérios de sucesso;
-5. **prototipar e experimentar:** testar em escala controlada quando possível;
-6. **avaliar:** comparar resultados, custos, riscos e efeitos distributivos;
-7. **decidir:** interromper, corrigir, repetir, implementar ou escalar;
-8. **institucionalizar e difundir:** ajustar processos, recursos, competências, normas e governança;
-9. **monitorar e aprender:** acompanhar efeitos após a adoção e revisar hipóteses.
+Quando um problema atravessa órgãos, entes ou setores, aparece a **liderança de fronteiras**: conectar atores sobre os quais não existe comando hierárquico único. Exige convocar participantes, traduzir linguagens profissionais, negociar recursos e papéis, compartilhar informação e administrar conflitos.
 
-O piloto não é o objetivo final. Uma solução promissora que não consegue integrar-se a orçamento, pessoas, tecnologia, regulação e operação permanece limitada. Escalar exige preservar o mecanismo que gerou resultado, adaptar-se a contextos diferentes e monitorar efeitos não previstos.
+Uma rede também precisa definir quem decide, executa e responde, como novos participantes entram e como impasses são resolvidos. Confiança não substitui transparência. Deve-se evitar **captura**, a submissão da decisão coletiva ao interesse de um participante dominante. Colaboração não significa ausência de conflito, mas capacidade de tratá-lo.
 
+### 6.4 Servir, preservar e alternar exploração com execução
 
-### 5.2.1 Protótipo, prova de conceito, experimento, piloto, sandbox e escala
+Na liderança **servidora**, associada a [Robert Greenleaf](https://greenleaf.org/what-is-servant-leadership/), servir e desenvolver pessoas e comunidade orienta o exercício da liderança. Isso não é permissividade ou submissão a toda demanda. Já a ideia de **<abbr title="Custódia responsável de recursos e interesses confiados à gestão">stewardship</abbr>** destaca a custódia: o líder deve preservar recursos, capacidades e confiança que administra em favor de outros, inclusive pensando na continuidade institucional.
 
-| Instrumento | Objetivo predominante | O que não prova sozinho |
-| --- | --- | --- |
-| **protótipo** | representar e testar rapidamente aspectos da solução | impacto, viabilidade operacional ampla ou conformidade integral |
-| **prova de conceito** | verificar viabilidade técnica de princípio ou tecnologia | adoção pelos usuários ou resultado público |
-| **experimento** | testar hipótese com método e critérios definidos | escalabilidade automática |
-| **piloto** | operar em escala limitada e contexto real | replicação em qualquer contexto |
-| **sandbox** | autorizar teste temporário sob condições regulatórias controladas | dispensa geral de normas |
-| **escala** | ampliar alcance com capacidade, qualidade e governança | simples repetição da forma original |
+A liderança **ambidestra** combina dois movimentos, descritos na literatura como abertura e fechamento. **Abertura** permite questionar, explorar alternativas e experimentar. **Fechamento** seleciona caminhos, estabelece prioridades, acompanha prazos e consolida a execução. Essa combinação também é estudada no [setor público por Kousina e Voudouris](https://onlinelibrary.wiley.com/doi/abs/10.1111/puar.13650).
 
-A escolha depende da incerteza que se deseja reduzir. Um protótipo pode revelar problema de usabilidade; uma prova de conceito, limitação técnica; um piloto, barreira operacional; um experimento, fragilidade da hipótese de valor.
+No exemplo, ouvir diferentes explicações para os requerimentos incompletos pede abertura; escolher a versão do formulário e organizar sua implantação pede fechamento. Fechar cedo demais elimina alternativas úteis; explorar indefinidamente impede a entrega. A alternância acompanha a necessidade, sem significar comportamento arbitrário.
 
-### 5.3 Experimentação responsável
+## 7. Mudar rotinas exige condições para aprender
 
-Experimentar reduz incerteza ao produzir evidências antes de uma adoção ampla. Um experimento público responsável define:
+Instalar uma ferramenta ou publicar uma regra não demonstra que as pessoas adotaram a mudança. Elas precisam compreender o propósito, desenvolver capacidades, dispor de recursos e perceber coerência entre o que se anuncia e o que se cobra.
 
-- problema e hipótese;
-- público afetado e salvaguardas;
-- escopo, prazo e recursos;
-- indicadores e linha de base quando aplicável;
-- critérios para continuar, corrigir ou interromper;
-- riscos de integridade, privacidade, segurança e exclusão;
-- transparência e responsabilidades;
-- forma de registrar e compartilhar aprendizados.
+Por isso, a condução da mudança liga diagnóstico e prontidão da organização a comunicação, apoio da direção, participação dos afetados e formação. **Coalizão de apoio** é a articulação de pessoas e grupos que sustentam a mudança. Processos, incentivos e controles precisam acompanhá-la; depois, é necessário observar adoção e resultados e incorporar o que funcionou.
 
-Aprender com falhas controladas não significa tolerar fraude, imprudência ou repetição negligente de erros. O aprendizado exige documentação, análise de causa e mudança de conduta.
+Resistência pode revelar sobrecarga, receio de perda, baixa confiança, falta de capacidade ou discordância fundamentada. Escutar permite distinguir barreiras reais e interesses particulares. Não obriga aceitar toda objeção, mas evita interpretar qualquer divergência como má-fé.
 
+### 7.1 Segurança psicológica não dispensa exigência
 
-### 5.4 Escala e institucionalização
+Uma equipe que esconde erros impede a correção do serviço. **Segurança psicológica**, estudada por [Amy Edmondson](https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Group_Performance/Edmondson%20Psychological%20safety.pdf), é a percepção compartilhada de que se pode perguntar, discordar, admitir falhas e apresentar ideias sem humilhação ou punição interpessoal por se expor.
 
-Escalar não significa apenas “fazer mais”. A expansão pode assumir diferentes direções:
+Isso não elimina metas, avaliação ou consequências de condutas indevidas. O objeto protegido é a possibilidade de falar e aprender, não a impunidade. A exigência de desempenho e de responsabilidade deve continuar alta.
 
-- **para cima:** incorporar a solução a normas, políticas, orçamento e estruturas permanentes;
-- **para fora:** replicar em outras unidades, territórios ou organizações;
-- **em profundidade:** alterar valores, comportamentos e cultura;
-- **adaptar:** preservar o mecanismo de valor, ajustando a forma ao contexto;
-- **desescalar:** reduzir ou interromper solução ineficaz, injusta ou insustentável.
+O [cruzamento das duas dimensões](https://www.leanblog.org/2020/01/amy-edmondson-psychological-safety-speaking-up/) ajuda a reconhecer ambientes: baixa segurança e baixa exigência favorecem **apatia**; baixa segurança e alta exigência, **ansiedade e ocultação**; alta segurança e baixa exigência, **conforto sem desafio**; ambas altas favorecem **aprendizagem e desempenho responsável**. São tendências explicativas, não resultados garantidos.
 
-Antes de escalar, verifique:
+Diversidade oferece perspectivas diferentes; **inclusão** cria condições para que elas participem e influenciem o trabalho. Se apenas os servidores mais experientes são ouvidos, o novo procedimento pode ignorar dificuldades que outros identificariam. Liderar de forma inclusiva exige combater barreiras de participação, não apenas reunir pessoas diferentes.
 
-1. efeito demonstrado e qualidade da evidência;
-2. custo total e sustentabilidade financeira;
-3. capacidade operacional e suporte;
-4. equidade e acessibilidade;
-5. riscos e salvaguardas;
-6. interoperabilidade e dependências;
-7. ambiente autorizador e legitimidade;
-8. manutenção, propriedade e governança;
-9. indicadores e possibilidade de monitoramento;
-10. condições que fizeram o piloto funcionar.
+## 8. Autonomia com governança e instrumentos jurídicos adequados
 
-### 5.5 Taxonomia de falhas
+A inovação administrativa precisa de direção, capacidade e limites. **Governança** avalia necessidades e desempenho, direciona prioridades e monitora a gestão; a gestão planeja e executa as ações. Controle proporcional procura proteger objetivos e direitos sem exigir o mesmo tratamento para riscos muito diferentes.
 
-| Situação | Resposta adequada |
-| --- | --- |
-| hipótese falsificada em teste responsável | registrar aprendizagem e decidir se corrige, repete ou encerra |
-| problema de implementação | ajustar capacidade, processo, treinamento ou execução |
-| falha de desenho | rever compreensão do problema e teoria de mudança |
-| falha de governança | rever alçadas, transparência, controles e riscos |
-| negligência | apurar responsabilidade conforme o caso |
-| fraude ou conflito de interesses | tratar como ilícito, não como “falha inovadora” |
-| repetição de erro conhecido | corrigir ausência de aprendizagem e de controle |
+**Recorte normativo:** o edital de abertura deste concurso, publicado em 6 de julho de 2026, admite alterações legislativas com vigência até sua publicação. A consulta posterior às fontes não muda esse corte. Os referenciais administrativos abaixo também têm âmbitos próprios: uma norma infralegal federal não se torna automaticamente obrigatória para o tribunal estadual.
 
-Um experimento pode não confirmar a hipótese e ainda assim produzir conhecimento útil. O que legitima a aprendizagem é o desenho responsável, não o simples rótulo de inovação.
+### 8.1 O Decreto nº 9.203/2017
 
-## 6. Evidências, participação, equidade e integridade
+O [Decreto nº 9.203/2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) disciplina a política de governança da Administração Pública **federal direta, <abbr title="Relativa a entidades criadas por lei para executar atividades públicas com autonomia">autárquica</abbr> e <abbr title="Relativa a patrimônios públicos destinados a finalidades de interesse social">fundacional</abbr>**. Nesse âmbito, estabelece três mecanismos complementares:
 
-### 6.1 Decisão baseada em evidências
+- **liderança:** práticas humanas e comportamentais nos principais cargos, com integridade, competência, responsabilidade e motivação;
+- **estratégia:** objetivos, prioridades, alinhamento e acompanhamento de resultados;
+- **controle:** avaliação e tratamento de riscos, transparência e prestação de contas, buscando segurança razoável no alcance dos objetivos.
 
-Evidências podem incluir dados administrativos, avaliações, pesquisas, ciência, experiência profissional, escuta de usuários e conhecimento territorial. Elas informam a decisão, mas não a automatizam. O decisor deve considerar qualidade, incerteza, vieses, contexto, legalidade, valores e consequências distributivas.
+O decreto define valor público em termos de produtos e resultados gerados, preservados ou entregues pela organização que respondam efetiva e utilmente a necessidades de interesse público, modificando a sociedade ou grupos reconhecidos como destinatários legítimos.
 
-Dados disponíveis podem representar melhor grupos que já acessam o serviço e ocultar os excluídos. Por isso, médias agregadas devem ser complementadas, quando pertinente, por recortes de território, gênero, raça, deficiência, renda ou outros fatores relacionados ao problema.
+Os seis princípios são **capacidade de resposta; integridade; confiabilidade; melhoria regulatória; prestação de contas e responsabilidade; transparência**. As diretrizes incluem soluções tempestivas e inovadoras, decisão orientada por evidências e conformidade legal, desburocratização e participação social.
 
-### 6.2 Participação e coprodução
+O artigo 17 integra gestão de riscos ao planejamento, às atividades, aos processos e aos projetos. Controles internos devem ser proporcionais aos riscos e considerar custo-benefício. Portanto, inovar não exige escolher entre autonomia irrestrita e proibição de todo risco: exige definir quem decide, quais riscos são aceitáveis e como serão acompanhados.
 
-Participação pode contribuir para:
+### 8.2 Autorizar um teste não é contratar uma solução
 
-- compreender problemas e barreiras reais;
-- formular alternativas mais úteis;
-- testar linguagem e acessibilidade;
-- identificar efeitos imprevistos;
-- construir legitimidade e confiança;
-- acompanhar implementação e resultados.
+A [Lei Complementar nº 182/2021](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm), nos artigos 2º e 11, trata do **ambiente regulatório experimental**, ou **<abbr title="Ambiente regulatório experimental com autorização temporária e limites definidos">sandbox</abbr> regulatório**. Pessoas jurídicas recebem autorização temporária para testar modelos de negócios, técnicas e tecnologias experimentais sob condições especiais simplificadas.
 
-Participar não significa que toda preferência será atendida nem que a autoridade transfere sua competência. O processo deve deixar claros escopo, participantes, critérios, limites e devolutiva.
+O órgão ou entidade reguladora define critérios de seleção, duração, alcance e normas afastadas. Pode afastar a incidência de normas **sob sua competência**, nos limites legais, não suspender qualquer lei por conveniência. A autorização regulatória não é, por si só, compra pública nem licença geral para experimentar sem proteção aos afetados.
 
-### 6.3 Integridade e gestão de riscos
+### 8.3 Contratar o teste: <abbr title="Contrato Público para Solução Inovadora">CPSI</abbr>
 
-Inovação altera incentivos, relações e controles. Riscos relevantes incluem favorecimento, conflito de interesses, captura por fornecedor, uso indevido de dados, exclusão digital, dependência tecnológica, desperdício e descontinuidade.
+Outra necessidade é contratar uma solução tecnológica inovadora para uma demanda pública. Os artigos 12 a 15 da Lei Complementar nº 182/2021 estabelecem regime aplicável à Administração direta, <abbr title="Relativa a entidades criadas por lei para executar atividades públicas com autonomia">autárquica</abbr> e <abbr title="Relativa a patrimônios públicos destinados a finalidades de interesse social">fundacional</abbr> de todos os Poderes da União, dos estados, do Distrito Federal e dos municípios. Empresas públicas, sociedades de economia mista e suas <abbr title="Empresas controladas por outra empresa">subsidiárias</abbr> podem adotá-lo, no que couber, por seus regulamentos internos de contratação. Seus conselhos de administração podem fixar limites de valores diferenciados.
 
-Gestão de riscos não busca eliminar toda incerteza. Ela identifica eventos, estima probabilidade e impacto, escolhe respostas, define responsáveis e monitora sinais. Controles devem ser proporcionais ao risco e preservar espaço legítimo para aprendizagem.
+A sequência é **licitação especial → contrato de teste → eventual contrato de fornecimento**. O escopo pode indicar o problema e os resultados esperados sem fixar previamente a solução técnica. Podem ser contratadas pessoas físicas ou jurídicas, isoladas ou em <abbr title="Associação de participantes para atuação conjunta na contratação">consórcio</abbr>; a solução pode estar desenvolvida ou a desenvolver, **com ou sem <abbr title="Incerteza de êxito decorrente da solução tecnológica">risco tecnológico</abbr>**. Não é contratação exclusiva de <abbr title="Empresas nascentes ou de operação recente caracterizadas por inovação">startups</abbr>.
 
-Equidade também é critério de inovação. Uma solução pode aumentar a eficiência média e, simultaneamente, dificultar acesso de grupo vulnerável. Avaliar apenas volume ou custo pode esconder perda de valor público.
+Após a <abbr title="Confirmação da regularidade do procedimento pela autoridade competente">homologação</abbr>, celebra-se o **Contrato Público para Solução Inovadora**, <abbr title="Contrato Público para Solução Inovadora">CPSI</abbr>. A licitação pode selecionar mais de uma proposta para teste, respeitado o limite previsto no edital. Os principais contornos são:
 
-## 7. Governança pública e liderança no Decreto nº 9.203/2017
+- **prazo:** até 12 meses, prorrogável uma vez por até mais 12;
+- **conteúdo obrigatório:** metas e método de aferição, relatórios, <abbr title="Distribuição contratual de responsabilidades por eventos incertos">matriz de riscos</abbr>, <abbr title="Direitos sobre criações intelectuais">propriedade intelectual</abbr> e participação na exploração dos resultados;
+- **risco tecnológico:** incerteza de êxito decorrente da solução tecnológica. O pagamento deve ser proporcional ao trabalho executado, conforme cronograma e critério contratual; mesmo sem alcançar o resultado por esse risco, o pagamento é devido, ressalvada a remuneração variável vinculada ao cumprimento de metas. Inviabilidade técnica ou econômica comprovada permite rescisão, isto é, encerramento antecipado;
+- **valor:** o artigo 14, parágrafo 2º, prevê originalmente 1,6 milhão de reais por <abbr title="Contrato Público para Solução Inovadora">CPSI</abbr>. A lei permite atualização anual pelo Poder Executivo federal, segundo o <abbr title="Índice Nacional de Preços ao Consumidor Amplo">IPCA</abbr> ou índice substituto; autorização para atualizar não equivale a atualização automática.
 
-O Decreto nº 9.203/2017 dispõe sobre a política de governança da Administração Pública Federal **direta, autárquica e fundacional**. Seus conceitos ajudam a situar inovação e liderança:
+A **matriz de riscos** distribui contratualmente responsabilidades por eventos incertos; **propriedade intelectual** diz respeito aos direitos sobre as criações. Essas condições precisam ser definidas antes de se descobrir quem ficará com os resultados ou suportará um insucesso.
 
-- governança pública é o conjunto de mecanismos de **liderança, estratégia e controle** usados para avaliar, direcionar e monitorar a gestão;
-- capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade, e transparência são princípios de governança;
-- uma diretriz é buscar resultados para a sociedade mediante soluções tempestivas e inovadoras diante de recursos limitados e prioridades mutáveis;
-- o processo decisório deve ser orientado por evidências, conformidade legal, qualidade regulatória, desburocratização e apoio à participação social;
-- liderança, como mecanismo de governança, abrange práticas humanas e comportamentais exercidas nos principais cargos;
-- as condições mínimas associadas à liderança são **integridade, competência, responsabilidade e motivação**;
-- gestão de riscos é permanente e deve integrar planejamento, atividades, processos e projetos;
-- controles internos devem ser proporcionais aos riscos e considerar custo-benefício.
+Encerrado o teste, a Administração **pode**, sem nova licitação, contratar o fornecimento ou a integração da solução com a mesma contratada. Não há direito automático ao contrato posterior. Se mais de uma solução satisfizer as metas, deve haver escolha motivada da melhor relação entre custo e benefício.
 
-Inovar, portanto, não exige escolher entre autonomia e controle. Exige governança capaz de diferenciar risco legítimo de inovação, erro de boa-fé, negligência e ilícito, aplicando respostas proporcionais.
+O contrato posterior dura até 24 meses, prorrogável uma vez por até mais 24. Seu valor, incluídas prorrogações, limita-se a cinco vezes o valor máximo admitido por <abbr title="Contrato Público para Solução Inovadora">CPSI</abbr>, e não a cinco vezes o preço efetivo do teste, com as ressalvas legais para reajustes e acréscimos. O artigo 15, parágrafo 3º, mantém remissão expressa aos acréscimos do artigo 65, parágrafo 1º, da Lei nº 8.666/1993. Essa remissão específica não significa que a antiga lei continue sendo o regime geral de novas licitações.
 
+### 8.4 Definir a solução por diálogo antes da competição final
 
-### 7.1 Os três mecanismos de governança
+O **diálogo competitivo** é uma modalidade de licitação da [Lei nº 14.133/2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm), não um contrato de teste. A Administração seleciona licitantes por critérios objetivos, dialoga para desenvolver alternativas adequadas à necessidade e, encerrado o diálogo, recebe propostas finais.
 
-| Mecanismo | Núcleo | Exemplos de práticas |
-| --- | --- | --- |
-| **liderança** | pessoas e comportamentos que orientam a organização | integridade, competência, responsabilidade, motivação e exemplo |
-| **estratégia** | direção, prioridades e alinhamento | escuta, avaliação do ambiente, objetivos, indicadores e coordenação |
-| **controle** | segurança razoável, riscos e accountability | gestão de riscos, controles internos, auditoria, transparência e prestação de contas |
+Seu uso é restrito pelo artigo 32. O inciso I reúne inovação tecnológica ou técnica, impossibilidade de satisfazer a necessidade sem adaptar soluções disponíveis e impossibilidade de definir especificações técnicas com precisão suficiente. O inciso II trata da necessidade de definir e identificar meios e alternativas, destacando solução técnica, requisitos técnicos e estrutura jurídica ou financeira.
 
-Os mecanismos se complementam. Liderança sem estratégia pode mobilizar sem direção; estratégia sem capacidade e controle pode permanecer no papel; controle sem proporcionalidade pode sufocar aprendizagem ou proteger rotinas de pouco valor.
+Não basta chamar uma compra de “complexa” ou “inovadora”: o enquadramento legal deve ser demonstrado. A diferença decisiva é a função: o <abbr title="Ambiente regulatório experimental com autorização temporária e limites definidos">sandbox</abbr> autoriza experimentação regulatória; o <abbr title="Contrato Público para Solução Inovadora">CPSI</abbr> contrata testes; o diálogo competitivo organiza a construção de alternativas para uma licitação. Eles não são intercambiáveis.
 
-> **Pegadinha:** gestão de riscos integra o mecanismo de controle, mas deve estar incorporada ao planejamento, às atividades, aos processos e aos projetos.
+## 9. Competências pessoais precisam de um ambiente capaz
 
-## 8. Instrumentos jurídicos de inovação
-
-### 8.1 Sandbox regulatório
-
-A Lei Complementar nº 182/2021 define **sandbox regulatório** como condições especiais simplificadas pelas quais pessoas jurídicas recebem autorização temporária para testar modelos, técnicas e tecnologias experimentais, dentro de critérios e limites definidos pelo regulador.
-
-O regulador pode afastar temporariamente normas sob sua própria competência. Sandbox não é espaço sem lei, autorização irrestrita ou dispensa de qualquer norma.
-
-### 8.2 Contrato Público para Solução Inovadora — CPSI
-
-Os arts. 12 a 15 da Lei Complementar nº 182/2021 disciplinam contratação destinada a resolver demanda pública que exija solução inovadora com tecnologia e a promover inovação por meio do poder de compra estatal.
-
-Pontos essenciais:
-
-- a Administração pode contratar pessoas físicas ou jurídicas, isoladamente ou em consórcio;
-- a solução pode estar desenvolvida ou ainda ser desenvolvida;
-- o teste pode ocorrer **com ou sem risco tecnológico**;
-- a licitação segue modalidade especial da própria Lei Complementar;
-- o escopo pode indicar apenas o problema, os resultados esperados e desafios, sem antecipar a solução técnica;
-- mais de uma proposta pode ser selecionada para teste, se o edital limitar a quantidade;
-- o CPSI dura até 12 meses e pode ser prorrogado uma vez por até mais 12;
-- o contrato deve prever metas e método de aferição, relatórios, matriz de riscos, propriedade intelectual e exploração dos resultados;
-- havendo risco tecnológico, o pagamento é proporcional ao trabalho executado segundo o cronograma e o critério contratual;
-- salvo incentivo variável ligado a metas, o insucesso decorrente do risco tecnológico não elimina automaticamente o pagamento pelo trabalho executado;
-- ao fim, a Administração **pode**, sem nova licitação, celebrar contrato de fornecimento ou integração com a mesma contratada; não há contratação automática;
-- o contrato posterior dura até 24 meses, prorrogável uma vez por até mais 24, e seu valor total é limitado a cinco vezes o valor máximo aplicável ao CPSI, ressalvadas as hipóteses legais de superação.
-
-O CPSI não é exclusivo para startups. A lei admite pessoas físicas, pessoas jurídicas e consórcios. O valor de R$ 1,6 milhão por CPSI consta do texto originário do art. 14, § 2º, mas a própria lei permite atualização anual; uma questão sobre valor vigente exige verificar o ato aplicável à data.
-
-### 8.3 Diálogo competitivo
-
-O **diálogo competitivo** é modalidade da Lei nº 14.133/2021 para contratação complexa em que a Administração dialoga com licitantes previamente selecionados para desenvolver alternativas capazes de atender suas necessidades; depois do encerramento do diálogo, os participantes apresentam proposta final.
-
-Seu uso é restrito às hipóteses do art. 32, relacionadas a inovação técnica ou tecnológica, necessidade de adaptação de soluções de mercado, insuficiência das alternativas disponíveis ou impossibilidade de definir com precisão suficiente as especificações, os meios ou a estrutura jurídica e financeira.
-
-| CPSI | Diálogo competitivo |
-| --- | --- |
-| contrato de teste celebrado após licitação em modalidade especial da LC nº 182/2021 | modalidade da Lei nº 14.133/2021 |
-| testa solução inovadora, inclusive em desenvolvimento | dialoga para identificar ou desenvolver alternativa adequada a contratação complexa |
-| pode selecionar mais de uma solução para teste | conduz diálogo e, depois, recebe propostas finais |
-| disciplina risco tecnológico e contrato posterior | disciplina fase de diálogo e competição final |
-| não é exclusivo de startups | não é exclusivo de startups |
-
-Os instrumentos não são sinônimos nem podem ser escolhidos fora de suas hipóteses legais.
-
-## 9. Liderança, gestão e autoridade
-
-**Gestão** estrutura trabalho: planeja, organiza, aloca recursos, coordena processos, acompanha desempenho e controla entregas. **Liderança** mobiliza pessoas em torno de propósito, direção, aprendizagem e mudança. Organizações públicas precisam das duas.
-
-**Autoridade formal** decorre de cargo, competência ou delegação. Ela permite decidir dentro de uma alçada e impõe dever de responder pelo exercício dessa competência. Liderança é uma relação de influência e pode ser exercida sem posição hierárquica.
-
-Consequências importantes:
-
-- possuir cargo não garante capacidade de liderar;
-- liderar informalmente não confere competência jurídica para decidir;
-- compartilhar liderança não transfere automaticamente responsabilidade legal;
-- influenciar sem autoridade exige confiança, conhecimento, negociação e redes;
-- em situações de mudança, liderança e gestão são complementares.
-
-## 10. Modelos contemporâneos de liderança
-
-Nenhum estilo é universalmente superior. Contexto, tarefa, maturidade, risco e pessoas determinam a combinação adequada.
-
-| Modelo | Núcleo | Risco de compreensão equivocada |
-| --- | --- | --- |
-| **transformacional** | visão, propósito, inspiração, desenvolvimento e mudança | carisma não substitui ética, competência e execução |
-| **transacional** | papéis, metas, acordos, reconhecimento, correção e conformidade | não é sempre negativo; sustenta rotinas e padrões |
-| **adaptativa** | mobilizar aprendizagem diante de problema complexo sem resposta técnica pronta | não é improvisar sem direção |
-| **colaborativa** | construir propósito e ação conjunta entre fronteiras organizacionais | colaboração não elimina conflitos, papéis ou accountability |
-| **distribuída ou compartilhada** | distribuir influência e iniciativa pela equipe ou rede | responsabilidade legal não se dissolve |
-| **servidora** | servir, escutar, desenvolver pessoas e exercer stewardship | não significa permissividade ou ausência de cobrança |
-| **ambidestra** | alternar abertura para explorar com fechamento para selecionar e executar | experimentação sem convergência não entrega inovação |
-
-### 10.1 Transformacional e transacional
-
-A liderança transformacional ajuda a construir sentido, desafiar premissas, estimular desenvolvimento e orientar mudança. A transacional esclarece expectativas, acompanha padrões e oferece consequências e reconhecimento.
-
-Elas podem ser complementares. Uma transformação precisa de propósito e mobilização, mas também de responsabilidades, prazos, controles e execução confiável.
-
-### 10.2 Adaptativa
-
-Problemas **técnicos** admitem solução conhecida, ainda que difícil, e podem ser tratados por expertise e autoridade. Desafios **adaptativos** exigem mudança de valores, relações, hábitos ou capacidades e aprendizagem pelos próprios envolvidos.
-
-O líder adaptativo:
-
-- mantém atenção sobre o problema real;
-- regula tensão sem eliminar o desconforto necessário à aprendizagem;
-- devolve trabalho e voz às pessoas envolvidas;
-- protege perspectivas divergentes;
-- distingue resposta técnica de transformação adaptativa.
-
-### 10.3 Colaborativa e distribuída
-
-Problemas públicos atravessam órgãos, entes e setores. Liderança colaborativa constrói confiança, objetivos compartilhados, regras de decisão, fluxo de informação e mecanismos para tratar conflitos. Liderança distribuída reconhece que conhecimento e iniciativa estão espalhados.
-
-Distribuir não é abandonar. A autoridade competente continua responsável por decisões que a lei lhe atribui, enquanto diferentes atores podem liderar partes do processo conforme conhecimento e papel.
-
-
-### 10.3.1 Liderança de fronteiras
-
-Em redes, o líder frequentemente não controla todos os recursos nem possui autoridade hierárquica sobre os participantes. Sua atuação envolve:
-
-- convocar atores relevantes;
-- formular propósito compartilhado;
-- traduzir linguagens profissionais e institucionais;
-- negociar recursos, papéis e responsabilidades;
-- facilitar deliberação;
-- construir confiança sem eliminar divergências;
-- administrar conflito;
-- compartilhar informação;
-- proteger accountability;
-- evitar captura por participante dominante.
-
-Liderança de fronteiras não substitui governança. A rede precisa de regras de decisão, critérios de entrada, responsabilidades, transparência e mecanismos para resolver impasses.
-
-### 10.4 Servidora e stewardship
-
-Liderança servidora prioriza o desenvolvimento das pessoas e o serviço à comunidade. **Stewardship** acrescenta a ideia de custódia responsável: o líder administra recursos, capacidades e confiança que não lhe pertencem, pensando na continuidade institucional e no interesse público.
-
-### 10.5 Ambidestra
-
-Liderança ambidestra combina:
-
-- **abertura:** questionar, explorar, ouvir perspectivas, permitir experimentos e aceitar caminhos variados;
-- **fechamento:** escolher, priorizar, padronizar, cumprir prazo, monitorar e consolidar.
-
-Na fase de descoberta, abertura excessivamente limitada mata alternativas. Na implementação, abertura sem decisão gera dispersão. A ambidestria ajusta o comportamento à etapa e à necessidade.
-
-## 11. Liderança da mudança
-
-Mudança organizacional não é apenas publicar nova norma ou instalar tecnologia. Ela altera rotinas, competências, incentivos, identidades e relações de poder. Uma condução consistente envolve:
-
-1. diagnosticar problema, contexto e prontidão;
-2. formular propósito e resultado esperado;
-3. mapear interessados, impactos e resistências;
-4. construir patrocínio e coalizão;
-5. comunicar com coerência e permitir diálogo;
-6. oferecer recursos, competências e suporte;
-7. testar e ajustar quando possível;
-8. alinhar processos, incentivos e controles;
-9. acompanhar adoção e resultados;
-10. institucionalizar práticas úteis e abandonar as ineficazes.
-
-Resistência pode decorrer de perda percebida, sobrecarga, baixa confiança, conflito de valores, falta de capacidade ou diagnóstico divergente. Rotulá-la automaticamente como má-fé elimina informação relevante. Escutar não obriga aceitar toda objeção; permite distinguir risco real, interesse particular e necessidade de adaptação.
-
-## 12. Segurança psicológica, inclusão e ética
-
-**Segurança psicológica** é a percepção compartilhada de que é possível perguntar, discordar, admitir erro e apresentar ideia sem humilhação ou retaliação interpessoal. Ela favorece aprendizagem, inovação e alerta precoce sobre riscos.
-
-Não significa:
-
-- ausência de metas ou avaliação;
-- concordância permanente;
-- tolerância a fraude ou assédio;
-- proteção contra consequências de conduta ilícita;
-- redução de padrões de qualidade.
-
-Uma liderança inclusiva distribui voz, combate barreiras de participação e considera como decisões afetam grupos distintos. Diversidade amplia perspectivas potenciais; inclusão permite que essas perspectivas realmente influenciem o trabalho.
-
-Ética não entra apenas no final para validar solução pronta. Deve orientar definição do problema, coleta de dados, seleção de participantes, desenho, contratação, implementação e avaliação. Uma inovação tecnicamente eficiente pode ser rejeitada se violar direitos, ampliar discriminação ou ocultar responsabilidade.
-
-
-### 12.1 Segurança psicológica e <abbr title="prestação de contas e responsabilização">accountability</abbr>
-
-| Segurança psicológica | Accountability | Resultado provável |
-| --- | --- | --- |
-| baixa | baixa | apatia e silêncio |
-| baixa | alta | ansiedade, ocultação de problemas e obediência defensiva |
-| alta | baixa | zona de conforto e baixa exigência |
-| alta | alta | aprendizagem, alerta precoce e desempenho responsável |
-
-Segurança psicológica permite discordar, perguntar e admitir erro. Accountability mantém padrões, responsabilidades e consequências. A combinação desejável é alta segurança com alta exigência.
-
-## 13. Matriz de competências de liderança da <abbr title="Escola Nacional de Administração Pública">Enap</abbr>
-
-A Matriz de Competências Essenciais de Liderança para o Setor Público Brasileiro da Enap organiza **nove competências em três eixos**:
+Para liderar o serviço hipotético, não basta ser criativo: é preciso enxergar uma direção, produzir resultados e mobilizar pessoas. Essas três demandas ajudam a compreender a matriz da **<abbr title="Escola Nacional de Administração Pública">Enap</abbr>**, com nove competências de liderança:
 
 | Eixo | Competências |
 | --- | --- |
-| **estratégia** | visão de futuro; inovação e mudança; comunicação estratégica |
-| **resultados** | geração de valor para a pessoa usuária de serviços públicos; gestão de crises; gestão para resultados |
-| **pessoas** | coordenação e colaboração em rede; engajamento de pessoas e equipes; autoconhecimento e desenvolvimento pessoal |
+| Estratégia | Visão de futuro; inovação e mudança; comunicação estratégica. |
+| Resultados | Geração de valor para a pessoa usuária de serviços públicos; gestão de crises; gestão para resultados. |
+| Pessoas | Coordenação e colaboração em rede; engajamento de pessoas e equipes; autoconhecimento e desenvolvimento pessoal. |
 
-As competências se reforçam. Visão sem comunicação não mobiliza; inovação sem colaboração encontra silos; resultados sem pessoas não se sustentam; autoconhecimento ajuda o líder a reconhecer vieses, limites e impacto de sua conduta.
+Competência combina conhecimentos, habilidades e atitudes manifestados na atuação. Na [matriz da escola](https://www.enap.gov.br/educacao-e-capacitacao/altas-liderancas/mentoria-para-altas-liderancas/matriz/), os eixos orientam desenvolvimento: comunicar não substitui entregar, e cobrar resultado sem mobilizar capacidade tende a frustrar a equipe.
 
-Na competência **inovação e mudança**, destacam-se questionar abordagens convencionais, incorporar novas perspectivas, criar ambiente de experimentação e melhoria contínua e encorajar novas ideias e formas de trabalhar.
+A **<abbr title="Organização para a Cooperação e Desenvolvimento Econômico">OCDE</abbr>**, em sua [Recomendação sobre Liderança e Capacidade do Serviço Público](https://legalinstruments.oecd.org/public/doc/641/641.en.pdf), adotada em 17 de janeiro de 2019, enfatiza serviço orientado por valores, pessoas qualificadas e confiáveis e sistemas de emprego público responsivos e adaptáveis. Mérito, integridade, inclusão, aprendizagem, mobilidade e preparação para desafios futuros compõem esse ambiente.
 
-## 14. Recomendação da <abbr title="Organização para a Cooperação e Desenvolvimento Econômico">OCDE</abbr> sobre liderança e capacidade
+A recomendação é **<abbr title="Instrumento orientador sem força obrigatória de tratado ou lei">soft law</abbr>**, não lei brasileira autoaplicável. Ela não é a matriz de nove competências da <abbr title="Escola Nacional de Administração Pública">Enap</abbr>. Ambas ajudam a perceber o mesmo limite prático: líderes preparados não compensam indefinidamente sistemas que bloqueiam cooperação, ocultam erros ou retiram recursos da mudança.
 
-A *Recommendation of the Council on Public Service Leadership and Capability*, identificada como **OECD/LEGAL/0445**, foi adotada em 17 de janeiro de 2019. Ela recomenda serviço público profissional, orientado por valores, confiável, responsivo, adaptativo e capaz, com atenção a:
-
-- liderança baseada em valores;
-- mérito, transparência e responsabilidade;
-- diversidade e inclusão;
-- competências presentes e futuras;
-- mobilidade e aprendizagem;
-- condições para inovação e uso de evidências;
-- capacidade organizacional e colaboração.
-
-Trata-se de recomendação internacional de *soft law*, não de lei brasileira autoaplicável. A matriz de nove competências e três eixos é da Enap; não deve ser atribuída à OCDE.
-
-
-### 14.1 Da competência individual ao ambiente de inovação
-
-Competência de liderança não produz inovação isoladamente. Ela precisa encontrar ou construir:
-
-- propósito claro;
-- tempo e recursos;
-- dados e conhecimento;
-- alçadas e patrocínio;
-- proteção a perspectivas divergentes;
-- critérios de experimento e interrupção;
-- canais de aprendizagem;
-- mecanismos de escala e institucionalização.
-
-Assim, uma organização inovadora não depende apenas de “líderes heroicos”. Ela combina pessoas capazes com estruturas, incentivos, regras e redes que sustentam a ação.
-
-## 15. Exemplo integrado
-
-Um órgão observa baixa adesão de pequenos municípios a serviço digital:
-
-1. evita presumir que falta divulgação e investiga conectividade, linguagem, acessibilidade e capacidade local;
-2. reúne dados e escuta usuários, equipes, controle e parceiros;
-3. forma equipe multidisciplinar e define hipótese de valor público;
-4. cria protótipos de atendimento assistido e integração simplificada;
-5. testa com poucos municípios, critérios transparentes e salvaguardas;
-6. acompanha adesão, tempo, qualidade, custo, erros e diferenças entre grupos;
-7. registra riscos de dados, dependência de fornecedor e exclusão;
-8. interrompe alternativa ineficaz e aperfeiçoa a mais promissora;
-9. prepara escala com orçamento, capacitação, suporte, governança e monitoramento;
-10. mantém responsabilidade decisória, transparência e aprendizagem após a implantação.
-
-O caso combina empreendedorismo, liderança colaborativa e ambidestra, evidências, participação e risco governado. O sucesso não é apenas lançar uma plataforma: é ampliar acesso útil, equitativo e sustentável.
-
-
-## 15.1 Quadro integrado de decisão
-
-Ao analisar uma iniciativa pública, responda:
-
-1. **valor:** qual benefício público se pretende produzir e para quem?
-2. **legitimidade:** existe mandato, autorização, participação adequada e sustentação?
-3. **capacidade:** há recursos, pessoas, processos, tecnologia e parceiros?
-4. **incerteza:** o que ainda não se sabe e qual instrumento reduz essa incerteza?
-5. **risco:** quais eventos podem comprometer direitos, integridade, dados, equidade ou continuidade?
-6. **evidência:** quais resultados e efeitos distributivos serão medidos?
-7. **liderança:** que combinação de mobilização, coordenação, execução e aprendizagem é necessária?
-8. **escala:** quais condições devem ser preservadas ou adaptadas?
-9. **accountability:** quem decide, executa, monitora e responde?
-10. **aprendizagem:** como o conhecimento será registrado e incorporado?
-
-## 16. Pegadinhas de prova
-
-- empreendedorismo governamental ≠ empresa privada dentro do órgão;
-- empreendedor público ≠ proprietário dos recursos;
-- intraempreendedorismo ≠ criação obrigatória de startup;
-- ideia ou invenção ≠ inovação implementada;
-- inovação ≠ digitalização automática;
-- inovação pública ≠ lucro;
-- empreendedorismo governamental ≠ privatização;
-- NPM ≠ privatização nem doutrina única;
-- pós-NPM não elimina eficiência ou resultados;
-- valor público ≠ satisfação isolada do cliente;
-- cidadão ≠ apenas consumidor;
-- princípios de Osborne e Gaebler ≠ comandos legais universais;
-- governo catalisador ≠ Estado ausente;
-- orientação por missão ≠ dispensa de legalidade;
-- competição pode gerar eficiência, mas também fragmentação;
-- experimento ≠ ausência de controle;
-- falha controlada ≠ fraude ou negligência;
-- participação ≠ transferência automática da decisão;
-- evidência informa; não automatiza a escolha;
-- média melhor ≠ equidade comprovada;
-- gestão de risco ≠ eliminação de toda incerteza;
-- Decreto nº 9.203/2017 aplica-se à Administração Pública Federal direta, autárquica e fundacional;
-- liderança + estratégia + controle = mecanismos de governança;
-- condições de liderança no decreto = integridade, competência, responsabilidade e motivação;
-- sandbox ≠ espaço sem normas;
-- CPSI pode envolver solução com ou sem risco tecnológico;
-- CPSI não é exclusivo de startups;
-- CPSI ≠ diálogo competitivo;
-- contrato de fornecimento após CPSI é possível, não automático;
-- gestão ≠ liderança, mas ambas são complementares;
-- autoridade formal ≠ liderança efetiva;
-- liderança informal ≠ competência legal;
-- liderança distribuída ≠ responsabilidade jurídica dissolvida;
-- transformacional ≠ carisma sem execução;
-- transacional ≠ estilo necessariamente ruim;
-- adaptativo ≠ improvisação;
-- colaborativo ≠ ausência de conflito ou alçadas;
-- servidor ≠ permissivo;
-- ambidestro = abertura + fechamento conforme a necessidade;
-- segurança psicológica ≠ ausência de cobrança;
-- diversidade ≠ inclusão automática;
-- matriz de nove competências = Enap;
-- recomendação OECD/LEGAL/0445 = *soft law*, não lei brasileira.
-
-## 17. Limites deste assunto
-
-Para preservar os recortes do edital:
-
-- planejamento estratégico foi aprofundado no Assunto 110;
-- gestão de resultados, diferenças entre gestão pública e privada e paradigma do cliente pertencem ao Assunto 112 e aparecem aqui apenas nas interfaces necessárias;
-- sustentabilidade e acessibilidade serão tratadas nos Assuntos 113 e 114;
-- contratações públicas aparecem somente como instrumentos de inovação; licitações terão tratamento próprio em assuntos posteriores;
-- teorias gerais de motivação, liderança e gestão de pessoas serão aprofundadas nos Assuntos 142 a 153.
-
-
-- MOORE, Mark H. *Creating Public Value: Strategic Management in Government*. Harvard University Press, 1995. Referência para proposta de valor público, ambiente autorizador e capacidade operacional.
-- BOURGON, Jocelyne. *A New Synthesis of Public Administration: Serving in the 21st Century*. McGill-Queen's University Press, 2011. Integra resultados, autoridade pública, cidadania e capacidade coletiva.
-- SØRENSEN, Eva; TORFING, Jacob. *Collaborative Innovation in the Public Sector*. Georgetown University Press, 2017. Inovação colaborativa, redes e liderança de fronteiras.
-- ORGANISATION FOR ECONOMIC CO-OPERATION AND DEVELOPMENT. [Innovation Portfolios](https://oecd-opsi.org/work-areas/innovation-portfolios/). Portfólios e orientações coexistentes de inovação pública.
+Voltando ao caso inicial: a iniciativa estará completa quando o órgão não apenas instalar um formulário novo, mas demonstrar benefício, manter acesso e direitos, aprender com os resultados e sustentar a prática com responsáveis e recursos definidos. É essa ligação entre **valor público, capacidade e responsabilidade** que distingue empreender de apenas anunciar uma novidade.
