@@ -8,848 +8,477 @@ storageId: almoxarifado-armazenamento
 
 # Almoxarifado e armazenamento
 
-O almoxarifado não é apenas um local onde materiais permanecem parados. Ele é a unidade que organiza a **guarda, a localização, o controle, a preservação e a segurança** dos itens até sua utilização. Uma armazenagem bem executada permite encontrar o material certo, em condição de uso e sem exposição desnecessária de pessoas, instalações ou recursos públicos.
+O sistema informa 40 unidades de um material. A contagem confirma 40, mas 12 estão em posições diferentes das registradas. **O saldo está certo; o almoxarifado, não.** Guardar materiais significa manter quantidade, localização, condição e disponibilidade coerentes ao mesmo tempo.
 
-> **Ideia central:** aproveitar espaço não significa preenchê-lo ao máximo. A armazenagem eficiente combina preservação, acesso, seletividade, registro confiável, fluxo simples e segurança.
+> **Modelo mental:** identificar → endereçar → armazenar → preservar → movimentar e registrar → aplicar a rotação → inspecionar → tratar desvios.
 
-Este material considera as normas vigentes até **15 de julho de 2026**. A Instrução Normativa SEDAP nº 205/1988 é uma referência operacional do **SISG federal** e não se aplica automaticamente ao Estado do Maranhão ou ao TCE-MA. As Normas Regulamentadoras possuem campos de aplicação próprios: elas sustentam medidas de segurança e saúde no trabalho, mas não substituem o projeto técnico, a legislação estadual contra incêndio, as instruções do fabricante nem regras específicas de cada material.
+O Edital nº 1/2026 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>, publicado em **6 de julho de 2026**, inclui neste assunto: funções, princípios e objetivos do almoxarifado; controle, registro, conservação e recuperação de material; técnicas de armazenamento; utilização do espaço; e segurança.
 
-## 1. Conceitos, funções, princípios e objetivos
-
-### 1.1 Almoxarifado e armazenagem
-
-Os termos se relacionam, mas não designam exatamente a mesma coisa:
-
-| Conceito | Sentido |
-| --- | --- |
-| **almoxarifado** | unidade organizacional e instalação em que materiais são guardados e controlados |
-| **armazenagem ou armazenamento** | atividade de guardar, localizar, proteger, preservar e organizar materiais |
-| **estoque** | conjunto de itens mantidos para uso futuro e, por extensão, as quantidades registradas |
-
-A IN SEDAP nº 205/1988 define armazenagem como a atividade que compreende **guarda, localização, segurança e preservação** do material adquirido, para suprir adequadamente as necessidades operacionais. O edital usa “armazenamento”; neste material, **armazenagem** e **armazenamento** são tratados como equivalentes, sem criar uma diferença terminológica que a fonte não estabelece.
-
-O almoxarifado não se confunde com:
-
-- o setor de compras, que conduz a aquisição;
-- o ato de recebimento ou aceitação, que verifica a entrega e sua conformidade;
-- a distribuição, que faz o material chegar ao usuário;
-- o inventário, que verifica fisicamente os saldos;
-- a avaliação contábil, que mensura o estoque;
-- a alienação, a baixa ou o desfazimento.
-
-Essas atividades se conectam, mas possuem objetos e controles próprios.
-
-### 1.2 Funções
-
-Entre as funções do almoxarifado estão:
-
-1. guardar o material sob responsabilidade definida;
-2. preservar suas características e sua condição de uso;
-3. identificar cada item e sua localização;
-4. registrar movimentações e manter rastreabilidade;
-5. facilitar acesso, inspeção e separação;
-6. prevenir perdas, furtos, avarias, contaminação e envelhecimento;
-7. organizar o espaço e os meios de movimentação;
-8. segregar itens incompatíveis, bloqueados ou não conformes;
-9. manter condições de segurança para pessoas, materiais e instalações;
-10. fornecer informações confiáveis ao controle de estoques.
-
-### 1.3 Objetivos e princípios
-
-O objetivo não é simplesmente “guardar muito”, e sim manter o material **disponível, localizável, íntegro, identificado e protegido**, com custo e risco compatíveis.
-
-Princípios operacionais importantes:
-
-- **identificação:** item, embalagem e endereço devem ser reconhecíveis;
-- **registro tempestivo:** o fato e seu lançamento devem ficar o mais próximos possível no tempo;
-- **rastreabilidade:** cada movimento deve possuir origem, destino e justificativa;
-- **preservação:** ambiente e acondicionamento devem respeitar as características do material;
-- **seletividade:** deve ser possível alcançar o item necessário sem movimentações excessivas;
-- **acessibilidade:** corredores, endereços e equipamentos devem permitir operação segura;
-- **compatibilidade:** materiais não podem ser aproximados apenas por conveniência quando seus riscos exigirem segregação;
-- **segurança:** densidade e velocidade nunca justificam sobrecarga, obstrução ou exposição indevida;
-- **economicidade:** espaço, tecnologia e grau de controle devem ser proporcionais ao risco e ao valor;
-- **responsabilidade:** acesso, guarda, registro e tratamento de ocorrências precisam de responsáveis definidos.
-
+A <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 é uma referência operacional do <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal. Ela não se aplica automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>, mas fornece conceitos clássicos cobrados em administração de materiais. As <abbr title="Normas Regulamentadoras">NR</abbr> têm campos de aplicação próprios; quando utilizadas aqui, servem para compreender os requisitos de segurança pertinentes. A redação da <abbr title="Norma Regulamentadora">NR</abbr> 1 que entrou em vigor em **26 de maio de 2026** já integra o corte do edital.
 
 <!-- REVISAO-ALMOXARIFADO-2026 -->
 
-### 1.4 Alcance normativo e fonte da regra
+## 1. O que o almoxarifado precisa entregar
 
-A gestão do almoxarifado combina referências com campos de aplicação diferentes. Antes de julgar uma afirmação, identifique **quem é o destinatário da norma**, **qual o risco tratado** e **qual é a data de referência**.
+### 1.1 Unidade, atividade e estoque
 
-| Fonte | Papel no assunto | Cuidado de prova |
+Três conceitos próximos não são sinônimos:
+
+| Conceito | Pergunta que responde | Núcleo |
 | --- | --- | --- |
-| IN SEDAP nº 205/1988 | referência operacional do SISG federal para guarda, localização, segurança, preservação, rotação e inventário | não se aplica automaticamente ao TCE-MA |
-| NR 1 | estrutura o gerenciamento de riscos ocupacionais e o PGR, quando houver incidência | GRO/PGR integra os riscos; não substitui medidas técnicas específicas |
-| NR 11 | transporte, movimentação, armazenagem e manuseio | capacidade, estabilidade, circulação e operação segura |
-| NR 17 | ergonomia e adaptação da tarefa | não existe um único peso seguro para toda pessoa e situação |
-| NR 23 | proteção contra incêndios | articula-se com a legislação estadual e normas técnicas aplicáveis |
-| NR 26 | sinalização, classificação GHS, rotulagem e ficha com dados de segurança | cor e rótulo não eliminam o risco |
-| Lei Estadual nº 11.390/2020 e normas do CBMMA | segurança contra incêndio em edificações e áreas de risco no Maranhão | medidas dependem da ocupação, carga de incêndio, projeto e situação concreta |
-| fabricante e responsável técnico | instalação, capacidade, inspeção, manutenção e uso de estruturas e equipamentos | não se deve inventar capacidade por analogia |
-| norma setorial do produto | requisitos sanitários, ambientais, químicos ou técnicos | prevalece para riscos específicos |
+| **almoxarifado** | quem/onde guarda e controla? | unidade organizacional e instalação destinadas à custódia e ao controle de materiais |
+| **armazenagem** | o que se faz com o material guardado? | guarda, localização, segurança e preservação |
+| **estoque** | o que existe para uso futuro? | conjunto de itens e quantidades mantidos para atender necessidades |
 
-> **Regra de decisão:** referência federal, norma trabalhista, legislação estadual de incêndio, projeto e manual do fabricante podem coexistir. Uma não deve ser usada para apagar o campo de aplicação da outra.
+A <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 define armazenagem como a guarda, localização, segurança e preservação do material adquirido para suprir as necessidades operacionais.
 
-### 1.5 GRO, PGR e hierarquia de controles
+Isso ajuda a separar fronteiras. **Comprar** obtém o material; **receber e aceitar** verificam a entrega; **armazenar** conserva e localiza; **distribuir** entrega ao usuário; **inventariar** confronta físico e registro; **alienar** dá destinação jurídica ao bem. Esses processos se conectam, mas não devem ser confundidos.
 
-A NR 1 fornece a estrutura geral para o gerenciamento de riscos ocupacionais. No almoxarifado, o ciclo gerencial pode ser resumido assim:
+### 1.2 Objetivos e funções
 
-1. identificar perigos nas tarefas, materiais, equipamentos e instalações;
-2. avaliar probabilidade, exposição e consequências;
-3. classificar e priorizar os riscos;
-4. definir medidas e responsáveis;
-5. registrar o plano de ação;
-6. implementar e acompanhar;
-7. verificar eficácia;
-8. revisar após mudanças, incidentes, quase acidentes ou perda de eficácia.
+Um almoxarifado bem administrado busca manter o material:
 
-A preferência preventiva segue, em termos gerais, esta lógica:
+- **disponível:** apto a atender a demanda autorizada;
+- **localizável:** endereço físico conhecido e atualizado;
+- **íntegro:** protegido contra deterioração, avaria, contaminação e extravio;
+- **identificado:** código, descrição, lote, série ou validade preservados quando pertinentes;
+- **rastreável:** cada movimento pode ser relacionado a origem, destino, responsável e documento;
+- **seguro:** carga, estrutura, circulação, equipamento e pessoas operam dentro dos limites aplicáveis;
+- **economicamente organizado:** espaço, percurso e manipulação são usados sem criar riscos ou perdas maiores.
 
-```text
-eliminar ou evitar o perigo
-→ substituir material, processo ou equipamento
-→ adotar controles de engenharia
-→ adotar controles administrativos
-→ utilizar EPI
-```
+Desses objetivos decorrem funções como endereçar, guardar, registrar movimentações, conservar, separar materiais incompatíveis, acompanhar validade e condição, restringir acessos quando necessário e fornecer informação confiável para reposição e inventário.
 
-EPI é necessário em muitas atividades, mas não legitima:
+A meta não é “encher o prédio”. **Densidade é apenas uma variável.** Um depósito lotado, sem seletividade e com rotas de emergência obstruídas pode ter alta ocupação e baixa qualidade operacional.
 
-- estante instável;
-- carga acima da capacidade;
-- equipamento defeituoso;
-- circulação conflitante entre pedestres e veículos;
-- material incompatível armazenado em conjunto;
-- rota de emergência obstruída.
+## 2. Controle: o material físico precisa ter um endereço informacional
 
-A revisão do risco deve ocorrer quando houver mudança de leiaute, volume, tecnologia, produto, equipamento, jornada, ocorrência ou requisito normativo.
+### 2.1 A cadeia mínima
 
-## 2. Controle, registro e localização
-
-### 2.1 A cadeia mínima de controle
-
-Um controle confiável liga quatro elementos:
-
-1. **material físico** identificado;
-2. **endereço físico** em que ele se encontra;
-3. **registro** de quantidade, condição e localização;
-4. **documento** que justifica a movimentação.
-
-A IN SEDAP nº 205/1988 exige que movimentações sejam registradas no instrumento de controle, como ficha de prateleira, ficha de estoque ou sistema informatizado, com base em documento justificante. No recorte da armazenagem, o ponto essencial é: **não deve haver movimento físico sem reflexo no controle**.
-
-Conforme a finalidade, o registro pode conter:
-
-- código e descrição do item;
-- unidade de medida e quantidade;
-- endereço de armazenagem;
-- data e natureza da movimentação;
-- documento de origem;
-- origem, destino e responsável;
-- lote, número de série ou validade, quando aplicáveis;
-- condição do item: liberado, bloqueado, avariado ou em avaliação;
-- alertas de preservação, risco ou restrição de acesso.
-
-Código de barras, QR code, RFID e sistemas de gestão podem acelerar a captura e reduzir erros, mas não são a própria rastreabilidade. Uma tecnologia mal alimentada apenas produz erro com maior velocidade.
-
-### 2.2 Endereçamento
-
-Endereçar é representar de forma única o lugar de guarda. Um endereço pode seguir a hierarquia:
+O controle interno liga quatro elementos:
 
 ```text
-zona-corredor-estante-nivel-posicao
+material físico
++ endereço
++ registro
++ documento que justifica o movimento
 ```
 
-Exemplo: `B-03-07-02-04` pode indicar zona B, corredor 3, estante 7, nível 2, posição 4. O formato concreto é definido pela organização; o requisito é que seja **único, legível, estável o suficiente e coerente com o sistema**.
+Se um desses elos falha, a rastreabilidade se rompe. Uma etiqueta não prova que a quantidade existe; um saldo correto não prova que o endereço está correto; uma movimentação física sem atualização pode tornar o sistema temporariamente falso.
 
-O endereço do material não é seu código de identificação. O código responde **qual item é**; o endereço responde **onde ele está**. Um mesmo item pode ocupar mais de uma posição, desde que todas sejam registradas.
+### 2.2 Código não é endereço
 
-### 2.3 Localização fixa e aleatória
+O **código do material** responde “qual item é este?”. O **endereço de armazenagem** responde “onde ele está?”. Um mesmo código pode ocupar mais de uma posição, desde que o sistema registre todas elas e seus respectivos saldos.
 
-| Método | Funcionamento | Vantagem | Limitação |
-| --- | --- | --- | --- |
-| **fixa** | cada item tem posição previamente reservada | busca manual simples e posição previsível | reserva pode ficar ociosa quando o volume varia |
-| **aleatória ou dinâmica** | o item ocupa posição disponível e compatível, registrada no momento da guarda | tende a aproveitar melhor a capacidade | depende de registro de localização rigoroso |
+Um endereço pode ser estruturado, por exemplo, em zona, corredor, módulo, nível e posição. O formato específico importa menos que três propriedades:
 
-“Aleatória” não significa “sem endereço”. A posição varia, mas precisa ser conhecida. Se a atualização do sistema atrasar, o ganho de ocupação pode ser perdido em buscas, erros e material “desaparecido”.
+1. cada posição precisa ser identificável sem ambiguidade;
+2. o mapa físico e o cadastro precisam representar a mesma estrutura;
+3. a atualização deve acompanhar a movimentação.
 
-É possível combinar métodos: posição fixa para separação frequente e posições dinâmicas para reserva, por exemplo.
+### 2.3 Localização fixa, dinâmica e híbrida
 
-### 2.4 Acurácia
-
-Acurácia é o grau de correspondência entre registro e realidade. Convém separar dimensões:
-
-- **acurácia de saldo:** a quantidade registrada corresponde à observada;
-- **acurácia de localização:** o item está no endereço indicado;
-- **acurácia cadastral:** descrição, unidade, lote, validade e status estão corretos.
-
-Um saldo pode estar numericamente correto e no endereço errado. Portanto, um único indicador não descreve toda a qualidade do controle.
-
-$$
-\text{acurácia de saldo (\%)} =
-\frac{\text{itens verificados sem divergência de saldo}}
-{\text{itens verificados}} \times 100
-$$
-
-$$
-\text{acurácia de localização (\%)} =
-\frac{\text{itens encontrados no endereço registrado}}
-{\text{itens testados}} \times 100
-$$
-
-Antes de comparar períodos, a organização deve manter constantes:
-
-- a unidade de análise: item, lote, volume ou linha;
-- a tolerância admitida;
-- o método e o tamanho da amostra;
-- os campos considerados na conferência.
-
-Não existe na IN nº 205/1988 um percentual nacional universal de acurácia a ser aplicado a todo almoxarifado.
-
-### 2.5 Indicadores complementares
-
-$$
-\text{índice de avarias (\%)} =
-\frac{\text{unidades avariadas no período}}
-{\text{unidades movimentadas no período}} \times 100
-$$
-
-$$
-\text{registro tempestivo (\%)} =
-\frac{\text{movimentos registrados no prazo definido}}
-{\text{movimentos ocorridos}} \times 100
-$$
-
-O denominador do índice de avarias precisa ser declarado. Dividir por unidades movimentadas mede uma coisa; dividir pelo saldo médio mede outra. Metas também dependem de criticidade, tipo de material e processo.
-
-
-### 2.6 Qualidade dos dados e relatórios de exceção
-
-A qualidade do controle não depende apenas de haver um sistema. Os dados devem ser:
-
-| Critério | Pergunta de controle |
-| --- | --- |
-| completude | todos os campos, lotes, validades e documentos obrigatórios existem? |
-| exatidão | o registro corresponde ao material e à evidência? |
-| consistência | código, unidade, endereço, saldo e condição não se contradizem? |
-| tempestividade | a movimentação foi registrada no momento ou prazo definido? |
-| unicidade | há cadastros ou endereços duplicados? |
-| validade | o dado respeita a regra do domínio e o formato esperado? |
-| rastreabilidade | é possível reconstruir quem alterou, quando e por quê? |
-
-Relatórios de exceção úteis:
-
-- saldo positivo sem endereço;
-- endereço ocupado por item diferente;
-- lote vencido ou próximo do vencimento ainda liberado;
-- item bloqueado contado como disponível;
-- número de série duplicado;
-- posição dinâmica alterada sem registro;
-- material de alto valor em área sem restrição;
-- movimento físico sem documento;
-- item sem movimentação por período relevante;
-- divergência repetida na mesma posição.
-
-A correção deve atingir a **causa**. Alterar apenas o saldo final pode esconder falha de recebimento, separação, unidade de medida, cadastro, acesso ou interface.
-
-### 2.7 WMS, código de barras e RFID
-
-Um sistema de gestão de armazém pode apoiar:
-
-- endereçamento;
-- recebimento e alocação;
-- reposição interna;
-- separação;
-- lote, série e validade;
-- bloqueio e liberação;
-- inventário cíclico;
-- produtividade e rastreabilidade.
-
-Código de barras, QR code e RFID são tecnologias de identificação e captura. Eles não comprovam sozinhos:
-
-- quantidade;
-- condição;
-- propriedade;
-- compatibilidade;
-- endereço atual;
-- regularidade do movimento.
-
-A leitura correta do identificador precisa ser combinada com processo, documento, estado do item, endereço e confirmação física.
-
-## 3. Conservação e recuperação
-
-### 3.1 Conservação é preventiva
-
-Conservar é manter a condição do material e retardar sua deterioração. Isso inclui:
-
-- respeitar temperatura, umidade, luz e ventilação exigidas;
-- preservar embalagem e proteção originais quando adequadas;
-- evitar contato direto com piso, água, poeira e agentes agressivos;
-- controlar pragas e manter limpeza;
-- inspecionar vazamentos, deformações, corrosão e validade;
-- respeitar limites de empilhamento e orientação da embalagem;
-- executar manutenção prevista pelo fabricante para equipamentos;
-- aplicar rotação física adequada;
-- restringir acesso e manipulação indevida.
-
-A embalagem não é mero resíduo antecipado: ela pode proteger contra impacto, umidade, luz, poeira, contaminação ou descarga eletrostática. Contudo, embalagem danificada, incompatível ou que esconda uma ocorrência exige avaliação.
-
-### 3.2 Condições que exigem tratamento
-
-| Condição | Significado operacional |
-| --- | --- |
-| **avariado** | sofreu dano físico, funcional ou de embalagem |
-| **deteriorado** | perdeu qualidade por ação do tempo ou ambiente |
-| **vencido** | ultrapassou validade aplicável e não deve ser liberado sem regra específica |
-| **obsoleto** | perdeu utilidade em razão de mudança técnica ou de necessidade |
-| **inativo ou ocioso** | não apresenta movimentação ou necessidade no período definido |
-| **bloqueado** | não está liberado para uso enquanto sua condição é avaliada |
-
-Essas categorias não são sinônimas. Item ocioso pode estar perfeito; item avariado pode ser recuperável; item vencido não se torna utilizável apenas porque sua embalagem está íntegra.
-
-### 3.3 Fluxo de não conformidade
-
-Ao identificar dano, vazamento, validade crítica ou perda de característica:
-
-1. interromper a movimentação do item afetado;
-2. identificar e registrar a ocorrência;
-3. segregar fisicamente ou bloquear de modo inequívoco;
-4. avaliar risco, integridade, validade e possibilidade técnica de recuperação;
-5. recuperar apenas quando houver segurança, oportunidade e viabilidade;
-6. liberar novamente somente após decisão competente e registro;
-7. encaminhar o não recuperável ao procedimento administrativo aplicável.
-
-A última etapa não é estudada aqui: baixa, alienação e desfazimento pertencem ao Assunto 123.
-
-### 3.4 Recuperação é corretiva
-
-Recuperar é restaurar a condição de uso de um material avariado. A IN SEDAP nº 205/1988 considera economicamente viável a recuperação de bem móvel quando a despesa não ultrapassa **50% do valor estimado de mercado**.
-
-Esse parâmetro exige cautela:
-
-- pertence ao normativo do SISG federal;
-- não autoriza recuperar item inseguro, contaminado ou vencido;
-- não substitui laudo, manual técnico ou regra setorial;
-- custo inferior a 50% não prova oportunidade nem segurança;
-- não deve ser transposto mecanicamente para todo material de consumo do TCE-MA.
-
-Conservação evita ou retarda a avaria; recuperação atua **depois** dela. Nenhuma das duas se confunde com simples ocultação do defeito.
-
-
-### 3.5 Validade, condição e saldo utilizável
-
-O saldo físico pode incluir material que não está apto ao fornecimento.
-
-```text
-saldo utilizável =
-saldo físico
-− vencido
-− bloqueado
-− avariado
-− reservado
-− em quarentena
-```
-
-A situação deve ser visível tanto fisicamente quanto no sistema. Área de bloqueados não pode ser uma extensão informal do estoque liberado.
-
-Para itens com validade, o controle deve incluir:
-
-- lote;
-- data de vencimento;
-- condição;
-- prazo mínimo remanescente exigido;
-- regra de liberação;
-- alertas;
-- destinação de exceções.
-
-FEFO reduz o risco de vencimento, mas não corrige excesso de compra, temperatura inadequada ou cadastro incompleto.
-
-## 4. Técnicas de armazenamento
-
-### 4.1 Acondicionamento e acessórios
-
-A técnica depende de dimensões, massa, fragilidade, giro, validade, risco e forma de movimentação.
-
-| Recurso | Uso típico | Cuidado principal |
+| Método | Como funciona | Principal cuidado |
 | --- | --- | --- |
-| estante | caixas e unidades acessíveis manualmente | carga por nível, estabilidade e alcance |
-| gaveta ou caixa-bin | peças pequenas | identificação e prevenção de mistura |
-| porta-paletes | cargas unitizadas | compatibilidade entre palete, estrutura e equipamento |
-| estrado ou palete | afastamento do piso e unitização | integridade, capacidade e distribuição da carga |
-| cantilever | itens longos | apoio e retenção adequados |
-| armário protegido | itens pequenos, sensíveis ou de acesso restrito | chave, autorização e condições ambientais |
+| **fixa** | cada item tem posição previamente reservada | pode deixar espaço ocioso quando o saldo cai |
+| **dinâmica ou livre** | o item ocupa posição disponível e compatível | exige registro tempestivo de cada alocação e retirada |
+| **híbrida** | combina regras, como separação fixa e reserva dinâmica | precisa controlar a passagem entre as áreas |
 
-**Unitização** reúne volumes menores em uma unidade de movimentação. **Paletização** é uma forma de unitização que utiliza palete. Nem toda carga deve ser paletizada, e o palete não aumenta por si só a resistência da embalagem ou do piso.
+“Livre” não significa “sem endereço”. Na localização dinâmica, o endereço muda; justamente por isso, o registro precisa ser ainda mais confiável.
 
-Não se deve inventar carga máxima. Piso, estante, palete, equipamento e acessórios precisam suportar a carga conforme projeto, identificação, fabricante e inspeção.
+A decisão sobre o melhor endereço de cada item é chamada **<abbr title="escolha do endereço mais adequado para cada item">slotting</abbr>**. Ela combina, entre outros fatores:
 
-### 4.2 Regras de arrumação da IN nº 205/1988
+- giro ou frequência de acesso;
+- massa e volume;
+- fragilidade;
+- validade;
+- criticidade para o serviço;
+- valor e facilidade de subtração;
+- compatibilidade entre materiais;
+- equipamento e rota disponíveis.
 
-Como referência operacional federal, a IN recomenda:
+Alto giro costuma favorecer proximidade da separação, mas não supera segurança. Um item pesado ou incompatível pode exigir nível inferior ou área segregada mesmo que isso aumente o percurso.
 
-- proteção contra furto, perigos mecânicos, clima e animais daninhos;
-- material antigo fornecido primeiro para evitar envelhecimento;
-- disposição que facilite inspeção e verificação física;
-- itens de grande movimentação em locais de fácil acesso;
-- nenhum material em contato direto com o piso;
-- acesso desimpedido a emergência e combate a incêndio;
-- concentração de materiais da mesma classe em locais adjacentes, quando compatível;
+### 2.4 Registro tempestivo e qualidade dos dados
+
+Um registro de almoxarifado deve ser:
+
+- completo: contém os campos necessários;
+- exato: corresponde ao fato físico;
+- consistente: não contradiz outros registros;
+- tempestivo: é lançado sem atraso capaz de comprometer o controle;
+- único quando precisa identificar item, lote, série ou endereço;
+- rastreável: preserva quem fez, quando fez e por qual documento.
+
+Relatórios de exceção são mais úteis que a simples existência do sistema. Exemplos: saldo em posição inexistente, lote vencido liberado, item bloqueado tratado como disponível, endereço físico divergente, série duplicada ou movimento sem documento.
+
+### 2.5 Acurácia: quantidade e localização são dimensões diferentes
+
+Uma forma de medir a acurácia de saldo é:
+
+$$
+\text{acurácia de saldo}=
+\frac{\text{itens sem divergência de quantidade}}
+{\text{itens verificados}}\times100
+$$
+
+Para localização:
+
+$$
+\text{acurácia de localização}=
+\frac{\text{itens encontrados no endereço correto}}
+{\text{itens testados}}\times100
+$$
+
+**Exemplo hipotético.** Em 200 itens testados, 190 têm quantidade correta: acurácia de saldo de 95%. Se apenas 180 estão no endereço registrado, a acurácia de localização é 90%. Não existe contradição: são problemas distintos.
+
+Ao comparar indicadores, declare universo, amostra, unidade e tolerância. Alterar o método entre períodos pode criar uma melhora ou piora apenas aparente.
+
+### 2.6 Tecnologia ajuda; processo continua necessário
+
+Um <abbr title="Warehouse Management System, sistema de gestão de armazém">WMS</abbr> pode controlar endereços, tarefas, lotes, regras de separação e histórico. Código de barras e <abbr title="Quick Response, código de resposta rápida">QR</abbr> reduzem digitação; <abbr title="Radio Frequency Identification, identificação por radiofrequência">RFID</abbr> permite identificação por radiofrequência sem depender da mesma linha de visada de um código óptico.
+
+Nenhuma dessas tecnologias prova, sozinha, quantidade, condição, propriedade ou regularidade do material. Uma etiqueta <abbr title="Radio Frequency Identification, identificação por radiofrequência">RFID</abbr> pode ser lida em uma caixa vazia; um <abbr title="Warehouse Management System, sistema de gestão de armazém">WMS</abbr> pode mostrar o endereço errado se a movimentação não foi registrada.
+
+Também é necessário prever **contingência**. Se o sistema ficar indisponível, movimentos excepcionais devem manter identificação, data efetiva, responsável e documento para posterior reconciliação. Sincronizar depois não autoriza apagar a diferença entre a hora do fato e a hora do lançamento.
+
+## 3. Conservação, condição e recuperação
+
+### 3.1 Conservar é prevenir
+
+Conservação procura impedir que o material perca a aptidão de uso. O controle depende das características do item e pode envolver:
+
+- proteção contra umidade, calor, luz, poeira e intempéries;
+- inspeção de embalagem e lacres;
+- controle de pragas e contaminação;
+- estabilidade de pilhas e cargas;
+- segregação de produtos incompatíveis;
+- controle de temperatura ou outra condição ambiental quando necessária;
+- preservação da embalagem original quando ela é parte da proteção;
+- inspeções periódicas e registro de anomalias.
+
+A <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 orienta, entre outros cuidados, proteger contra furto, perigos mecânicos, clima e animais daninhos; evitar contato direto com o piso; facilitar inspeção; e manter a face de identificação voltada para o acesso.
+
+### 3.2 Disponibilidade não é a mesma coisa que condição física
+
+Um material pode estar fisicamente íntegro e, ainda assim, indisponível por estar reservado ou em inspeção. Também pode estar avariado e, por isso, bloqueado. Se essas categorias forem somadas como se fossem independentes, ocorre dupla contagem.
+
+Convém separar duas dimensões:
+
+| Dimensão | Exemplos |
+| --- | --- |
+| **situação de disponibilidade** | disponível, reservado, em inspeção, bloqueado, quarentena |
+| **condição do material** | íntegro, avariado, vencido, contaminado, suspeito |
+
+Uma representação segura é:
+
+$$
+\text{saldo utilizável}=\text{saldo físico}-\text{quantidades indisponíveis, sem dupla contagem}
+$$
+
+Portanto, não se deve subtrair automaticamente “bloqueado + avariado + quarentena” se o mesmo lote pertence a mais de uma dessas categorias.
+
+### 3.3 Não conformidade: primeiro impedir o uso indevido
+
+Quando há vazamento, dano, validade vencida, contaminação ou dúvida relevante, o fluxo básico é:
+
+```text
+identificar
+→ interromper o uso ou movimento inseguro
+→ bloquear
+→ segregar de forma compatível
+→ registrar
+→ avaliar
+→ decidir
+→ liberar somente após decisão registrada
+```
+
+A segregação pode ser física, sistêmica ou ambas, conforme o risco. O ponto essencial é impedir que material pendente seja confundido com saldo liberado.
+
+### 3.4 Recuperar é corrigir depois da avaria
+
+**Conservação** evita a deterioração; **recuperação** busca restabelecer a utilidade de material avariado quando isso for tecnicamente, economicamente e juridicamente adequado.
+
+Na referência federal da <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988, a recuperação é considerada viável quando a despesa envolvida orça, no máximo, 50% do valor estimado de mercado do bem móvel. Essa regra pertence ao regime da própria instrução e **não deve ser transformada em percentual universal do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>**.
+
+Mesmo dentro do âmbito da instrução, “abaixo de 50%” não significa reparar cegamente. Segurança, possibilidade técnica, vida útil restante, peças, prazo, custo de indisponibilidade e decisão competente continuam relevantes.
+
+## 4. Rotação, acondicionamento e movimentação
+
+### 4.1 A rotação evita envelhecimento e vencimento
+
+A <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 adota o princípio físico <abbr title="Primeiro que Entra, Primeiro que Sai">PEPS</abbr>: materiais estocados há mais tempo devem, em regra, ser fornecidos primeiro para reduzir envelhecimento.
+
+Para itens sujeitos a validade, é comum usar <abbr title="First Expired, First Out">FEFO</abbr>, também expresso em português como <abbr title="Primeiro que Vence, Primeiro que Sai">PVPS</abbr>: sai primeiro o lote **liberado** com vencimento mais próximo.
+
+**Exemplo hipotético.** O lote A entrou em janeiro e vence em dezembro; o lote B entrou em fevereiro e vence em junho. Pelo <abbr title="Primeiro que Entra, Primeiro que Sai">PEPS</abbr>, A teria prioridade pela entrada. Pelo <abbr title="First Expired, First Out">FEFO</abbr>, B sai antes porque vence primeiro.
+
+Nenhuma regra de rotação autoriza fornecer vencido, avariado ou bloqueado. Também não confunda <abbr title="Primeiro que Entra, Primeiro que Sai">PEPS</abbr> físico, que orienta qual lote real sai, com um método contábil de atribuição de custos.
+
+### 4.2 Unitização e paletização
+
+**Unitização** reúne volumes menores em uma unidade de movimentação. A paletização é uma forma de unitização: caixas ou outros volumes são organizados sobre um palete para facilitar movimentação, armazenagem e transporte.
+
+Palete, carga, estrutura e equipamento formam um sistema. O palete não aumenta por si só a capacidade do piso, da estante ou da empilhadeira.
+
+Duas classificações de paletes respondem a perguntas diferentes:
+
+- **uma ou duas faces:** quantas faces estruturais o palete possui;
+- **duas ou quatro entradas:** por quantos lados os garfos podem entrar.
+
+Logo, “duas faces” não significa “quatro entradas”. A necessidade de acesso dos equipamentos se relaciona ao número e à disposição das **entradas**, não ao número de faces.
+
+### 4.3 Arrumação: regras clássicas e seus limites
+
+Entre as orientações da <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 estão:
+
+- itens de maior movimentação em locais de fácil acesso e próximos da expedição;
 - materiais pesados ou volumosos nas partes inferiores;
-- preservação nas embalagens originais quando apropriado;
-- etiqueta ou marcação voltada para o acesso;
-- empilhamento compatível com segurança, pressão e arejamento.
+- materiais da mesma classe em áreas adjacentes **quando isso for compatível com a segurança**;
+- material fora do contato direto com o piso;
+- identificação voltada ao lado de acesso;
+- pilhas organizadas sem comprometer qualidade, arejamento, circulação ou emergência;
+- aproximadamente **70 cm do teto e 50 cm das paredes** na orientação de empilhamento da própria instrução.
 
-A IN cita afastamentos aproximados de **70 cm do teto** e **50 cm das paredes**. O primeiro é orientação daquele normativo federal, não número universal capaz de substituir projeto, legislação de incêndio ou requisito especial. A NR 11 também determina, em seu campo de aplicação, ao menos **50 cm das estruturas laterais** para material empilhado.
+Esses números não substituem projeto, regra de incêndio, especificação do fabricante nem requisito especial do material. Além disso, a <abbr title="Norma Regulamentadora">NR</abbr> 11 exige, para material empilhado, afastamento de **pelo menos 0,50 m das estruturas laterais do prédio**.
 
-### 4.3 Giro, seletividade e posição
+### 4.4 Princípios de movimentação
 
-Itens movimentados com frequência devem reduzir percurso e esforço, desde que o posicionamento continue compatível com peso e risco. Em termos práticos:
+Movimentar bem significa reduzir trabalho que não agrega controle nem disponibilidade. São ideias úteis:
 
-- alta frequência favorece posições de acesso simples;
-- grande massa favorece níveis baixos;
-- material frágil requer proteção contra compressão e impacto;
-- item crítico pode justificar acesso controlado;
-- produtos incompatíveis exigem segregação mesmo que pertençam à mesma classe cadastral.
+- **mínima distância:** aproximar etapas que interagem, sem criar incompatibilidade ou risco;
+- **mínima manipulação:** reduzir reempilhamentos, transferências e toques desnecessários;
+- **fluxo:** evitar retornos, zigue-zague e cruzamentos desnecessários;
+- **carga unitária:** mover conjunto estável quando isso for apropriado;
+- **uso cúbico:** aproveitar altura e volume sem exceder capacidade nem sacrificar acesso;
+- **padronização e flexibilidade:** usar meios compatíveis, mas capazes de responder à variedade real do estoque.
 
-O melhor endereço resulta de múltiplos critérios. Colocar todo item de alto giro próximo à saída, sem considerar massa, incompatibilidade ou ergonomia, é uma simplificação perigosa.
+O melhor princípio não é o que produz a menor distância isoladamente. Se aproximar dois produtos cria incompatibilidade química ou bloqueia uma rota de emergência, a solução deixa de ser boa.
 
-### 4.4 PEPS físico e FEFO
+## 5. Espaço e leiaute: densidade, seletividade e fluxo
 
-No **PEPS físico**, o lote armazenado há mais tempo tem prioridade de saída. O objetivo é reduzir envelhecimento. Isso não se confunde com **PEPS contábil**, que atribui custos às saídas e ao saldo.
+### 5.1 Área total não é área útil de armazenagem
 
-Quando há validade, pode ser mais adequado usar **FEFO** ou **PVPS**: primeiro que vence, primeiro que sai. Um lote recebido depois pode vencer antes e, por isso, ter prioridade.
+O volume bruto do prédio inclui corredores, rotas de fuga, docas, pilares, áreas técnicas, folgas, zonas de inspeção e outros espaços que não podem ser preenchidos com estoque. Por isso, capacidade precisa ser tratada como **capacidade útil e segura**.
 
-| Regra física | Critério |
-| --- | --- |
-| PEPS/FIFO | data de entrada mais antiga |
-| FEFO/PVPS | data de vencimento mais próxima |
+Um leiaute eficiente busca, ao mesmo tempo:
 
-FEFO não autoriza fornecer item vencido nem substitui exigências sanitárias. A prioridade deve estar visível no endereço e no registro de lote/validade.
+- fluxo coerente entre entrada, guarda, separação e saída;
+- acesso ao item sem movimentações excessivas de outras cargas;
+- circulação compatível com pessoas e equipamentos;
+- preservação das rotas e medidas de emergência;
+- possibilidade de inspeção e inventário;
+- expansão ou mudança quando demanda, equipamento ou processo se alterarem.
 
-### 4.5 Compatibilidade e segregação
+### 5.2 Horizontalizar ou verticalizar
 
-Agrupar por classe melhora localização, mas a compatibilidade prevalece. Devem ser avaliados, conforme o material:
+- **horizontalização:** usa predominantemente o plano do piso; pode simplificar acesso, mas consome mais área e aumentar percursos;
+- **verticalização:** utiliza níveis superiores; aumenta a densidade potencial, mas exige estrutura, equipamento, estabilidade, operação e emergência compatíveis.
 
-- reação química e risco de vazamento;
-- inflamabilidade e fontes de ignição;
-- contaminação cruzada;
-- umidade, temperatura e luz;
-- odor, poeira e pragas;
-- necessidade de acesso restrito;
-- condição liberada, bloqueada ou avariada.
+Empilhadeira que alcança níveis altos apoia a verticalização; ela não torna ilimitada a capacidade do piso ou da estante.
 
-Não existe uma única matriz de segregação válida para todos os produtos. A decisão deve seguir classificação do produto, ficha com dados de segurança, instruções do fabricante e regulamentação específica.
+### 5.3 Seletividade e sistemas de armazenagem
 
+**Seletividade** é a facilidade de acessar uma unidade de carga sem remover outras. Maior densidade frequentemente reduz seletividade; por isso, o sistema deve refletir o perfil do material.
 
-### 4.6 Leis ou princípios da movimentação de materiais
-
-A literatura de Administração de Materiais costuma apresentar princípios que ajudam a avaliar o fluxo:
-
-| Princípio | Aplicação |
-| --- | --- |
-| mínima distância | reduzir trajetos e zigue-zague sem comprometer segurança |
-| mínima manipulação | reduzir toques, reempilhamentos e transferências |
-| obediência ao fluxo | evitar retornos e cruzamentos desnecessários |
-| utilização cúbica | aproveitar o volume, inclusive a altura, com capacidade demonstrada |
-| carga unitária | consolidar volumes quando a unitização for segura |
-| segurança e satisfação | reduzir risco, esforço, fadiga e improvisação |
-| flexibilidade | permitir mudança de volume, mix e processo |
-| padronização | reduzir variedade desnecessária de equipamentos e procedimentos |
-| gravidade | utilizá-la apenas quando tecnicamente segura e controlada |
-
-A lei da mínima distância não significa colocar todo material junto da saída. Massa, incompatibilidade, validade, criticidade e circulação podem justificar outro endereço.
-
-### 4.7 Horizontalização e verticalização
-
-| Técnica | Característica | Possível efeito |
+| Sistema | Onde tende a funcionar bem | Principal limite |
 | --- | --- | --- |
-| horizontalização | expansão predominante no plano do piso | acesso simples, mas maior percurso e consumo de área |
-| verticalização | aproveitamento da altura por estruturas e equipamentos | maior densidade, com exigências adicionais de estrutura, acesso e segurança |
+| empilhamento em bloco | cargas homogêneas, estáveis e empilháveis | baixa seletividade e compressão |
+| porta-paletes seletivo | acesso direto a cada palete | densidade relativa menor |
+| <abbr title="estrutura em profundidade na qual o equipamento entra no canal">drive-in</abbr>/<abbr title="variante em profundidade com acesso por lados opostos">drive-through</abbr> | muitos paletes homogêneos | acesso e sequência mais restritos |
+| <abbr title="estrutura dinâmica em que a carga se desloca por gravidade">flow rack</abbr> | rotação por gravidade e fluxo ordenado | custo, manutenção e compatibilidade da carga |
+| <abbr title="estrutura com braços em balanço para armazenar cargas longas">cantilever</abbr> | tubos, perfis e outros itens longos | exige apoio e estabilidade adequados |
+| <abbr title="piso intermediário elevado que amplia a área operacional">mezanino</abbr> | ampliação de área operacional em níveis | depende de projeto estrutural e circulação segura |
 
-Pegadinhas:
+Não existe sistema universalmente superior. Variedade, giro, massa, dimensão, validade, densidade desejada, equipamento e risco orientam a escolha.
 
-- empilhadeira que alcança níveis elevados é recurso de verticalização;
-- verticalizar não aumenta a capacidade do piso ou da estante;
-- horizontalizar não elimina necessidade de corredores;
-- alta densidade pode reduzir seletividade.
+### 5.4 Reserva, separação, reposição e área temporária
 
-### 4.8 Cross-docking
+Em operações com volume suficiente, um mesmo item pode aparecer em zonas funcionalmente diferentes:
 
-No **cross-docking**, o material permanece pouco ou nenhum tempo em estoque:
+- **reserva:** concentra maior quantidade e menor frequência de acesso;
+- **<abbr title="área ou atividade de separação frequente de itens">picking</abbr>:** mantém quantidade preparada para separação frequente;
+- **reposição interna:** transfere material da reserva para o <abbr title="área ou atividade de separação frequente de itens">picking</abbr>;
+- **<abbr title="área temporária associada a recebimento, transferência ou expedição">staging</abbr>:** permanência temporária ligada a um fluxo;
+- **bloqueados/quarentena:** material indisponível até decisão.
+
+Saldo total suficiente com <abbr title="área ou atividade de separação frequente de itens">picking</abbr> vazio não significa necessariamente ruptura global: pode haver falha de reposição interna. A transferência deve registrar origem, destino, quantidade, lote quando aplicável e momento.
+
+<abbr title="área temporária associada a recebimento, transferência ou expedição">Staging</abbr> não deve virar estoque permanente improvisado em corredor.
+
+### 5.5 Fluxo com pouca ou nenhuma estocagem
+
+**<abbr title="fluxo em que a mercadoria passa rapidamente do recebimento para a expedição, com pouca ou nenhuma estocagem">cross-docking</abbr>** reduz a permanência do material ao coordenar chegada, triagem e saída. Pode utilizar <abbr title="área temporária associada a recebimento, transferência ou expedição">staging</abbr>, mas não elimina conferência, informação ou rastreabilidade.
+
+Se chegada e saída não estiverem sincronizadas, a área temporária congestiona e o fluxo pode virar armazenagem não planejada.
+
+### 5.6 Medir espaço sem premiar congestionamento
+
+Duas medidas úteis são:
+
+$$
+\text{ocupação de posições}=
+\frac{\text{posições ocupadas}}
+{\text{posições utilizáveis}}\times100
+$$
+
+$$
+\text{utilização cúbica}=
+\frac{\text{volume efetivamente ocupado}}
+{\text{volume útil e seguro}}\times100
+$$
+
+**<abbr title="espaço perdido dentro de posições parcialmente ocupadas ou mal dimensionadas">Honeycombing</abbr>** ocorre quando posições parecem ocupadas, mas parte relevante de sua capacidade fica perdida. Assim, 90% das posições ocupadas pode coexistir com baixa utilização cúbica.
+
+Alta ocupação também pode reduzir seletividade. Se três paletes precisam ser removidos para acessar um quarto, aumentar ainda mais a densidade provavelmente piorará tempo, risco e custo de movimentação.
+
+Em questões de capacidade, posições são indivisíveis. Se 100.000 caixas precisam ser armazenadas e cada posição comporta três paletes de 50 caixas, a capacidade por posição é 150 caixas:
+
+$$
+\frac{100000}{150}=666{,}67
+$$
+
+São necessárias **667 posições**, não 666.
+
+## 6. Segurança: capacidade, circulação e risco
+
+### 6.1 O risco vem do sistema, não de um único objeto
+
+A mesma caixa pode ser segura no piso e perigosa no alto; a mesma empilhadeira pode ser adequada com uma carga e instável com outra. Avalie em conjunto:
+
+- material e condição da embalagem;
+- massa, dimensões e centro de carga;
+- piso, estante, palete e acessórios;
+- equipamento de movimentação;
+- pessoas, rotas e cruzamentos;
+- ambiente e incompatibilidades;
+- medidas de emergência.
+
+### 6.2 Gerenciamento de riscos e programa de gerenciamento
+
+A <abbr title="Norma Regulamentadora">NR</abbr> 1 estrutura o <abbr title="Gerenciamento de Riscos Ocupacionais">GRO</abbr>. O <abbr title="Programa de Gerenciamento de Riscos">PGR</abbr> deve conter, no mínimo, **inventário de riscos** e **plano de ação**.
+
+O raciocínio operacional é:
 
 ```text
-receber
-→ identificar e conferir
-→ triar, consolidar ou fracionar
-→ encaminhar ao destino
+identificar perigos
+→ avaliar e classificar riscos
+→ definir medidas
+→ planejar responsáveis e prazos
+→ implementar
+→ acompanhar a eficácia
+→ revisar quando necessário
 ```
 
-Cross-docking não é:
+Na ordem de prioridade da <abbr title="Norma Regulamentadora">NR</abbr> 1, devem ser priorizados:
 
-- localização dinâmica;
-- simples descarga;
-- armazenagem de longo prazo;
-- dispensa de conferência;
-- dispensa de rastreabilidade.
+1. eliminação dos fatores de risco;
+2. minimização e controle com medidas de proteção coletiva;
+3. medidas administrativas ou de organização do trabalho;
+4. <abbr title="Equipamento de Proteção Individual">EPI</abbr>.
 
-A técnica é adequada quando fluxo, informação, sincronização e destino estão suficientemente coordenados.
+Portanto, <abbr title="Equipamento de Proteção Individual">EPI</abbr> não transforma estante instável, carga acima da capacidade ou rota obstruída em condição aceitável.
 
-## 5. Utilização do espaço e layout
+A avaliação deve ser revista, entre outras hipóteses, após mudanças que criem ou modifiquem riscos, quando medidas forem inadequadas ou ineficazes, após acidentes ou doenças relacionadas ao trabalho e quando requisitos legais aplicáveis mudarem. Eventos perigosos com potencial de consequências graves também devem ser analisados.
 
-### 5.1 Espaço útil não é espaço bruto
+### 6.3 Armazenamento e equipamentos: requisitos da Norma Regulamentadora 11
 
-O volume total da edificação não está todo disponível para materiais. Devem ser preservados:
+A <abbr title="Norma Regulamentadora">NR</abbr> 11 estabelece, entre outros pontos:
 
-- corredores operacionais e rotas de emergência;
-- acesso a equipamentos de combate a incêndio;
-- folgas estruturais e de segurança;
-- áreas de inspeção e segregação;
-- espaço para movimentação e alcance seguro;
-- iluminação, ventilação e instalações;
-- limites de piso e estruturas.
+- equipamentos de movimentação devem oferecer resistência e segurança e ser mantidos em condições de trabalho;
+- a carga máxima de trabalho permitida deve estar indicada de forma visível;
+- componentes e transportadores devem ser inspecionados e defeitos tratados;
+- operadores de equipamentos motorizados devem atender aos requisitos de treinamento e habilitação previstos;
+- o peso armazenado não pode exceder a capacidade de carga calculada do piso;
+- portas, equipamentos contra incêndio e saídas de emergência não podem ser obstruídos;
+- a carga não pode dificultar trânsito, iluminação nem acesso às saídas;
+- cada tipo de material deve obedecer aos requisitos especiais de segurança que lhe forem aplicáveis.
 
-Áreas funcionais necessárias à armazenagem podem incluir reserva, posições de separação, material bloqueado e circulação. O processo detalhado de recebimento, aceitação e distribuição pertence ao Assunto 122.
+O Anexo I da <abbr title="Norma Regulamentadora">NR</abbr> 11 trata especificamente de chapas de rochas ornamentais. Suas medidas para cavaletes e equipamentos **não devem ser generalizadas** para qualquer almoxarifado.
 
-### 5.2 Layout
+### 6.4 Empilhadeira e centro de carga
 
-O layout organiza posições, corredores e fluxo. Ele deve buscar:
+A capacidade nominal de uma empilhadeira vale para as condições previstas pelo fabricante. **Centro de carga** é, de forma simplificada, a distância horizontal entre a face de apoio dos garfos e o centro de gravidade da carga.
 
-1. percurso simples e sem cruzamentos desnecessários;
-2. endereço visível e acesso seletivo;
-3. carga compatível com piso e estruturas;
-4. itens pesados em níveis inferiores;
-5. separação de pessoas e equipamentos quando o risco exigir;
-6. inspeção e limpeza possíveis;
-7. expansão e mudança sem perda de controle;
-8. emergência e combate a incêndio desobstruídos.
+Quanto mais o centro de gravidade se afasta do mastro, maior o momento que tende a tombar o equipamento. Por isso, uma carga pode estar abaixo do peso nominal e ainda assim exceder a capacidade efetiva para aquela geometria ou altura.
 
-**Verticalizar** pode aproveitar o volume, mas aumenta exigências de estrutura, estabilidade, equipamento e acesso. **Adensar** pode reduzir área vazia, mas diminuir seletividade. Todo ganho possui tradeoff.
+Em prova, desconfie da frase “a empilhadeira suporta X kg em qualquer posição”. Consulte a placa de capacidade, o manual e as condições reais de operação; não deduza capacidade pela aparência da máquina.
 
-### 5.3 Ocupação volumétrica
+### 6.5 Ergonomia na movimentação manual
 
-$$
-\text{ocupação volumétrica (\%)} =
-\frac{\text{volume ocupado pelas unidades armazenadas}}
-{\text{volume útil e seguro de armazenagem}} \times 100
-$$
+A <abbr title="Norma Regulamentadora">NR</abbr> 17 não fornece um único “peso seguro” válido para toda pessoa e tarefa. Ela proíbe exigir ou admitir transporte manual cujo peso seja suscetível de comprometer a saúde ou a segurança e exige considerar a situação de trabalho.
 
-Exemplo: se posições seguras totalizam 200 m³ e as unidades armazenadas ocupam 150 m³:
+Na movimentação individual não eventual, são relevantes:
 
-$$
-\text{ocupação} = \frac{150}{200} \times 100 = 75\%
-$$
+- peso e dimensões;
+- pega;
+- postura;
+- frequência e duração;
+- alturas de pega e deposição;
+- distância percorrida;
+- meios técnicos auxiliares.
 
-O denominador não é o volume bruto do prédio. Também não existe percentual universal ideal: 95% pode indicar excelente densidade ou falta de seletividade e espaço para operação.
+A norma também veda o levantamento não eventual que possa comprometer saúde e segurança quando o alcance horizontal da pega for superior a **60 cm** em relação ao corpo.
 
-### 5.4 Capacidade e aproveitamento seguro
+### 6.6 Incêndio: norma federal e regra estadual precisam conversar
 
-Ocupação mede espaço preenchido; **aproveitamento seguro** considera também:
+A <abbr title="Norma Regulamentadora">NR</abbr> 23 determina que as medidas de prevenção contra incêndios observem a **legislação estadual** e, complementarmente, as normas técnicas oficiais aplicáveis. Também exige informação aos trabalhadores e preservação de saídas de emergência.
 
-- estabilidade e capacidade;
-- acesso ao item;
-- tempo e distância de movimentação;
-- preservação e compatibilidade;
-- circulação e ergonomia;
-- resposta a emergência.
+No Maranhão, o referencial inclui a **Lei Estadual nº 11.390/2020** e as normas técnicas do <abbr title="Corpo de Bombeiros Militar do Maranhão">CBMMA</abbr>, entre elas a <abbr title="Norma Técnica">NT</abbr> 01, atualizada em 2024.
 
-Uma pilha que bloqueia a saída aumenta a ocupação e piora o almoxarifado.
+Isso impede duas simplificações:
 
+- a <abbr title="Norma Regulamentadora">NR</abbr> 23 não define sozinha todos os extintores, distâncias e medidas de uma edificação;
+- um <abbr title="Programa de Gerenciamento de Riscos">PGR</abbr> não substitui projeto, licenciamento, instalação, inspeção e manutenção das medidas de incêndio exigidas para a edificação.
 
-### 5.5 Sistemas de armazenagem e seletividade
+Mudança de leiaute, ocupação, material ou carga de incêndio pode exigir reavaliação das medidas aplicáveis.
 
-| Sistema | Uso predominante | Limitação ou cuidado |
-| --- | --- | --- |
-| empilhamento em bloco | cargas homogêneas e empilháveis | baixa seletividade e risco de compressão |
-| porta-paletes seletivo | acesso direto a cada posição | densidade relativa menor |
-| drive-in/drive-through | muitos paletes do mesmo item | baixa seletividade e controle de sequência |
-| flow rack | fluxo por gravidade, útil à rotação | custo, manutenção e restrições de carga |
-| push-back | maior densidade em canais | sequência e compatibilidade dos paletes |
-| cantilever | itens longos | apoio, retenção e estabilidade |
-| mezanino | expansão da área operacional | projeto estrutural, circulação e emergência |
-| carrossel ou sistema automatizado | alta densidade e ergonomia em certos perfis | investimento, continuidade e dependência tecnológica |
+### 6.7 Produtos químicos e comunicação de perigos
 
-Não existe sistema universalmente superior. A escolha depende de seletividade, densidade, giro, variedade, validade, massa, risco, equipamento, investimento e capacidade operacional.
+A <abbr title="Norma Regulamentadora">NR</abbr> 26 exige classificação dos perigos químicos segundo o <abbr title="Sistema Globalmente Harmonizado de Classificação e Rotulagem de Produtos Químicos">GHS</abbr> e disciplina a rotulagem preventiva.
 
-### 5.6 Slotting
+Para produto químico perigoso, a rotulagem inclui identificação e composição, pictogramas, palavra de advertência, frases de perigo, frases de precaução e informações suplementares. O fabricante ou fornecedor deve disponibilizar a <abbr title="Ficha com Dados de Segurança">FDS</abbr> nas situações previstas, e os trabalhadores devem ter acesso às <abbr title="Fichas com Dados de Segurança">FDS</abbr> dos produtos que utilizam e receber treinamento pertinente.
 
-**Slotting** é a decisão sobre o endereço mais adequado para cada item.
+A cor comunica; não elimina o risco. Rótulo correto em embalagem vazando não substitui bloqueio, contenção, segregação e resposta adequada.
 
-| Critério | Consequência provável |
+## 7. Integração e auditoria
+
+### 7.1 Quatro situações que condensam o assunto
+
+**Situação 1 — saldo certo, endereço errado.** A quantidade total pode estar correta enquanto a localização está incorreta. Corrija endereço e, principalmente, a causa do movimento sem registro.
+
+**Situação 2 — lote mais novo vence primeiro.** Para material sujeito a validade, <abbr title="First Expired, First Out">FEFO</abbr> pode divergir do <abbr title="Primeiro que Entra, Primeiro que Sai">PEPS</abbr>. A condição de liberação vem antes da ordem de rotação.
+
+**Situação 3 — 96% de ocupação e três movimentações para acessar um palete.** O indicador de densidade não prova eficiência; a seletividade e o fluxo estão degradados.
+
+**Situação 4 — caixa vazando.** Não a devolva à posição liberada “até alguém decidir”. Interrompa, identifique, bloqueie, segregue conforme o risco, registre e avalie.
+
+### 7.2 Como transformar uma falha em achado
+
+Um achado de auditoria fica mais útil quando separa:
+
+| Elemento | Exemplo |
 | --- | --- |
-| alto giro | menor distância de separação |
-| grande massa | níveis inferiores e estrutura compatível |
-| grande cubagem | posição que comporte volume e manobra |
-| validade | facilidade de aplicar FEFO |
-| criticidade | controle e disponibilidade compatíveis |
-| alto valor e portabilidade | acesso restrito e rastreabilidade reforçada |
-| fragilidade | proteção contra impacto, vibração e compressão |
-| incompatibilidade | segregação |
-| demanda conjunta | proximidade, se não houver conflito de risco |
-
-A frequência não prevalece automaticamente sobre segurança. Um item de alto giro, pesado e incompatível pode exigir posição mais distante da expedição.
-
-### 5.7 Reserva, picking, reposição interna e staging
-
-| Área ou função | Finalidade |
-| --- | --- |
-| reserva | maior quantidade e menor frequência de acesso |
-| picking | quantidade menor, preparada para separação frequente |
-| reposição interna | transferência controlada da reserva para o picking |
-| bloqueados | material indisponível |
-| quarentena | material aguardando análise ou decisão |
-| staging | permanência temporária associada a recebimento, expedição ou transferência |
-
-O staging não deve virar depósito permanente. A reposição interna precisa registrar origem, destino, quantidade, lote e momento.
-
-### 5.8 Indicadores de utilização do espaço
-
-Além da ocupação volumétrica, podem ser utilizados:
-
-$$
-\text{ocupação de posições} =
-\frac{\text{posições ocupadas}}
-{\text{posições utilizáveis}} \times 100
-$$
-
-$$
-\text{utilização cúbica} =
-\frac{\text{volume efetivamente ocupado}}
-{\text{volume útil seguro}} \times 100
-$$
-
-**Honeycombing** é o espaço perdido dentro de posições parcialmente ocupadas ou mal dimensionadas. Uma taxa de ocupação elevada pode coexistir com honeycombing, corredores congestionados e baixa seletividade.
-
-## 6. Segurança
-
-### 6.1 Gestão por risco
-
-Os riscos dependem do material, da tarefa, da instalação e do equipamento.
-
-| Risco | Exemplos | Controles |
-| --- | --- | --- |
-| mecânico | queda de carga, tombamento, colisão, esmagamento | estrutura compatível, estabilidade, inspeção, isolamento e circulação |
-| ergonômico | levantamento, alcance, postura, repetição | organização do posto, meios auxiliares, redução de distância e avaliação ergonômica |
-| químico | vazamento, incompatibilidade e exposição | identificação, FDS, segregação, contenção e procedimento de emergência |
-| biológico | mofo, pragas e contaminação | limpeza, inspeção, controle de pragas e segregação |
-| incêndio | ignição, obstrução e carga incompatível | prevenção, rotas livres, sinalização, equipamentos acessíveis e plano de resposta |
-| patrimonial | furto, troca e acesso indevido | controle de acesso, registro, identificação e responsabilização |
-
-EPI é uma medida de proteção, não uma autorização para manter estrutura sobrecarregada, pilha instável ou rota bloqueada.
-
-### 6.2 NR 11: movimentação e armazenamento
-
-Entre os requisitos gerais relevantes da NR 11:
-
-- equipamentos devem oferecer resistência e segurança e permanecer em condições de trabalho;
-- a carga máxima de trabalho deve estar indicada em local visível;
-- componentes e equipamentos devem ser inspecionados e defeitos tratados;
-- operadores de equipamentos motorizados precisam atender aos requisitos de capacitação e habilitação aplicáveis;
-- o peso armazenado não pode exceder a capacidade calculada do piso;
-- portas, equipamentos contra incêndio e saídas não podem ser obstruídos;
-- carga não pode dificultar trânsito, iluminação ou acesso à emergência;
-- cada tipo de material pode exigir requisitos especiais.
-
-O Anexo I da NR 11 possui regras específicas para **chapas de rochas ornamentais**. Suas medidas e equipamentos não devem ser generalizados para um almoxarifado comum. Do mesmo modo, limites relativos ao transporte de sacos não são um limite universal para qualquer carga.
-
-### 6.3 NR 17: ergonomia
-
-A NR 17 busca adaptar condições de trabalho às características psicofisiológicas. Seu campo inclui órgãos públicos que possuam empregados regidos pela CLT e outras relações nos termos da lei.
-
-Na movimentação não eventual de cargas, a avaliação deve considerar peso, pega, frequência, postura, altura, distância e percurso. A norma não oferece um único “peso seguro” aplicável a toda pessoa e situação.
-
-Medidas pertinentes incluem:
-
-- aproximar carga e trabalhador sem eliminar o espaço necessário;
-- evitar flexões, rotações e alcances nocivos;
-- usar meios técnicos facilitadores;
-- adequar peso e dimensões;
-- reduzir distância, frequência ou duração;
-- alternar tarefas ou prever pausas quando necessário;
-- orientar métodos de levantamento, carregamento e deposição.
-
-### 6.4 NR 23: incêndio
-
-A NR 23 exige prevenção em conformidade com a **legislação estadual** e, quando aplicável, normas técnicas oficiais. Também exige informação aos trabalhadores sobre equipamentos, resposta, evacuação e alarmes.
-
-Saídas e passagens de emergência devem ser suficientes, identificadas e desobstruídas. Portanto, não é seguro decorar uma largura, quantidade de extintores ou distância como regra nacional para qualquer depósito: o projeto depende da norma aplicável e das características do local.
-
-### 6.5 NR 26: sinalização e produtos químicos
-
-A NR 26 determina cores para indicar e advertir perigos, mas deixa claro que:
-
-- cores não dispensam outras medidas preventivas;
-- seu uso deve evitar distração e confusão;
-- equipamentos, áreas e tubulações seguem normas técnicas oficiais;
-- produtos químicos devem ser classificados segundo o GHS;
-- produto perigoso requer rotulagem preventiva com identificação e composição do produto químico, pictograma, palavra de advertência, frases de perigo e precaução e informação suplementar;
-- trabalhadores devem acessar a ficha com dados de segurança e receber treinamento pertinente.
-
-Sinalizar não elimina o risco. Uma cor correta em uma embalagem incompatível ou vazando não resolve a não conformidade.
-
-### 6.6 Limpeza, acesso e emergência
-
-Boas práticas integradas:
-
-- retirar resíduos sem criar mistura ou descarte indevido;
-- manter corredores, quadros, extintores e saídas livres;
-- inspecionar pragas, umidade, corrosão, vazamentos e deformações;
-- restringir acesso conforme valor e risco;
-- comunicar ocorrências e quase acidentes;
-- conhecer alarmes, rotas e procedimentos de emergência;
-- manter equipamentos conforme fabricante e registro de inspeção;
-- não improvisar estruturas, prolongadores ou capacidades.
-
-
-### 6.7 Incêndio no Maranhão e CBMMA
-
-A NR 23 exige observância da legislação estadual. No Maranhão, o estudo deve reconhecer:
-
-- Lei Estadual nº 11.390/2020;
-- Norma Técnica 01 do CBMMA, atualizada em 2024;
-- normas complementares conforme ocupação, produto e risco;
-- projeto, licenciamento, inspeção e manutenção das medidas instaladas.
-
-Método de análise:
-
-1. identificar ocupação e risco;
-2. verificar a norma estadual e técnica aplicável;
-3. confirmar projeto e medidas requeridas;
-4. manter sistemas instalados, acessíveis e operacionais;
-5. registrar inspeção e manutenção;
-6. reavaliar quando mudar uso, leiaute, material ou carga de incêndio.
-
-PGR, extintor, sinalização e treinamento são elementos complementares; nenhum deles substitui o conjunto de medidas exigidas para a edificação.
-
-### 6.8 Indicadores de segurança e conservação
-
-Indicadores adicionais:
-
-$$
-\text{validade crítica} =
-\frac{\text{unidades próximas do vencimento}}
-{\text{unidades sujeitas a validade}} \times 100
-$$
-
-$$
-\text{bloqueados antigos} =
-\frac{\text{itens bloqueados além do prazo}}
-{\text{itens bloqueados}} \times 100
-$$
-
-$$
-\text{distância por linha separada} =
-\frac{\text{distância percorrida}}
-{\text{linhas processadas}}
-$$
-
-Também devem ser acompanhados:
-
-- incidentes e quase acidentes;
-- tempo médio de localização;
-- obstruções identificadas;
-- inspeções vencidas;
-- itens sem ficha de segurança acessível;
-- reincidência de avarias.
-
-A queda do número de incidentes não prova, isoladamente, redução do risco. Pode haver subnotificação ou redução temporária da atividade.
-
-## 7. Casos integrados
-
-### Caso 1: saldo existe, mas ninguém encontra
-
-O sistema informa 40 unidades, e a contagem total confirma 40. Contudo, 12 estão em posição diferente da registrada. A acurácia de saldo pode estar correta, mas a acurácia de localização não. A correção exige ajustar endereço e causa do movimento sem registro.
-
-### Caso 2: lote mais novo vence primeiro
-
-O lote A entrou em janeiro e vence em dezembro; o lote B entrou em fevereiro e vence em junho. PEPS escolheria A pela entrada. FEFO escolhe B pela validade. Para material sujeito a vencimento, a segunda regra reduz risco de perda, desde que o item permaneça liberado.
-
-### Caso 3: ocupação alta e operação ruim
-
-Um almoxarifado utiliza 96% das posições, mas mantém cargas em corredores e exige retirar três paletes para alcançar outro. A densidade elevada não representa bom aproveitamento: seletividade, emergência e produtividade foram prejudicadas.
-
-### Caso 4: item avariado
-
-Uma caixa apresenta vazamento. O erro é recolocá-la no endereço para “avaliar depois”. O fluxo correto é bloquear, identificar, segregar de forma compatível, avaliar risco e registrar a decisão. Recuperação só ocorre se for segura, técnica e economicamente adequada.
-
-### Caso 5: endereço dinâmico sem atualização
-
-O sistema indicou uma posição livre, mas o operador guardou o material em outra e deixou para registrar no fim do turno. A localização aleatória perdeu seu controle central. O registro precisa acompanhar a alocação.
-
-
-### Caso 6: reserva correta, picking vazio
-
-O saldo total é suficiente, mas a posição de picking está vazia e a reserva não foi reposta. O problema não é falta global: é falha de reposição interna. O sistema precisa diferenciar os dois níveis.
-
-### Caso 7: material em cross-docking
-
-Uma remessa chega identificada para cinco unidades e deve sair no mesmo turno. Ela pode passar por área de staging, conferência e fracionamento, sem ser tratada como estoque regular de longo prazo.
-
-### Caso 8: alta ocupação e honeycombing
-
-O depósito informa 92% de posições ocupadas, mas várias posições contêm apenas pequenas caixas em estruturas dimensionadas para paletes. A ocupação de posições está alta, porém a utilização cúbica é baixa.
-
-### Caso 9: PGR com controle inadequado
-
-O inventário de riscos registra colisão entre empilhadeiras e pedestres, mas o plano limita-se a fornecer coletes. A medida é insuficiente se forem possíveis segregação física, rotas, barreiras, velocidade controlada e mudança de fluxo.
-
-### Caso 10: achado de auditoria
-
-| Elemento | Aplicação |
-| --- | --- |
-| critério | sistema exige atualização no momento da alocação |
-| condição | itens estavam em endereços diferentes dos registros |
-| causa | registro apenas ao fim do turno |
-| efeito | buscas, separações erradas e falsa ruptura |
-| evidência | inspeção física, logs e documentos |
-| encaminhamento | leitura na alocação, exceções e indicador de tempestividade |
-
-## 8. Erros recorrentes em prova
-
-1. **“Almoxarifado e armazenagem são a mesma categoria.”** Errado: unidade e atividade.
-2. **“Localização aleatória dispensa endereço.”** Errado: o endereço varia, mas deve ser registrado.
-3. **“Saldo correto garante localização correta.”** Errado: são dimensões distintas de acurácia.
-4. **“Maior ocupação sempre significa maior eficiência.”** Errado: pode eliminar acesso e segurança.
-5. **“Material da mesma classe deve ficar junto em qualquer situação.”** Errado: incompatibilidade pode exigir segregação.
-6. **“PEPS físico é método de avaliação contábil.”** Errado: aqui ele organiza prioridade física.
-7. **“FEFO prioriza a entrada mais antiga.”** Errado: prioriza vencimento mais próximo.
-8. **“Conservação e recuperação são sinônimos.”** Errado: prevenção e correção.
-9. **“Custo de recuperação abaixo de 50% obriga o reparo.”** Errado: segurança, viabilidade técnica, oportunidade e alcance normativo continuam relevantes.
-10. **“EPI corrige layout inseguro.”** Errado: não elimina sobrecarga ou obstrução.
-11. **“A NR 23 define sozinha todo o projeto contra incêndio.”** Errado: remete à legislação estadual e às normas aplicáveis.
-12. **“As medidas do anexo de rochas da NR 11 valem para qualquer material.”** Errado: o anexo é setorial.
-13. **“A IN nº 205/1988 é norma automática do TCE-MA.”** Errado: seu âmbito é o SISG federal.
-14. **“Código de barras garante rastreabilidade.”** Errado: depende de documento, processo e atualização.
-15. **“Cor de segurança substitui outras medidas.”** Errado: a própria NR 26 afasta essa conclusão.
-
-
-16. **“Horizontalização usa a posição mais alta da estante.”** Errado: isso caracteriza verticalização.
-17. **“Cross-docking é armazenagem prolongada.”** Errado: o objetivo é fluxo rápido.
-18. **“Estocagem livre dispensa endereço.”** Errado: a posição precisa ser registrada.
-19. **“Alta densidade sempre melhora seletividade.”** Errado: frequentemente ocorre tradeoff.
-20. **“Carga nominal da empilhadeira independe do centro de carga.”** Errado.
-21. **“RFID comprova quantidade, condição e propriedade.”** Errado.
-22. **“Item bloqueado integra saldo disponível.”** Errado.
-23. **“PGR substitui projeto de incêndio.”** Errado.
-24. **“Sinalização elimina a necessidade de segregação.”** Errado.
-25. **“Reserva e picking são a mesma função.”** Errado.
-26. **“Criticidade pode justificar controle rigoroso de item barato.”** Certo.
-27. **“Ocupação de posições e utilização cúbica são o mesmo indicador.”** Errado.
-28. **“Coletes são suficientes para todo conflito entre veículos e pedestres.”** Errado.
-29. **“Staging pode virar área permanente sem alteração de processo.”** Errado.
-30. **“FEFO corrige excesso de compra.”** Errado.
-
-## 9. Síntese operacional
-
-Uma rotina madura de armazenagem segue a lógica:
-
-1. identificar material, risco e condição;
-2. definir endereço e técnica compatíveis;
-3. registrar quantidade, localização e restrições;
-4. acondicionar sem exceder capacidades;
-5. preservar acesso, inspeção e emergência;
-6. aplicar PEPS ou FEFO conforme o risco;
-7. inspecionar condição e ambiente;
-8. segregar e registrar não conformidades;
-9. medir acurácia, avarias e tempestividade;
-10. corrigir causa, e não apenas o registro final.
+| **critério** | procedimento exige atualização do endereço no momento da alocação |
+| **condição** | parte dos itens está em posições diferentes das registradas |
+| **causa** | lançamento é feito apenas ao fim do turno |
+| **efeito** | buscas, separações erradas e falsa impressão de falta |
+| **evidência** | inspeção física, registros e documentos de movimentação |
+| **encaminhamento** | registrar na alocação, tratar exceções e acompanhar tempestividade |
+
+Corrigir apenas o saldo ou o endereço encerra o sintoma; não evita reincidência.
+
+## 8. Síntese do mecanismo
+
+Uma armazenagem madura preserva simultaneamente **disponibilidade, localização, condição, rastreabilidade e segurança**.
+
+O fluxo de decisão é:
+
+1. identificar material, condição e riscos;
+2. escolher endereço compatível com massa, giro, volume, validade e incompatibilidades;
+3. guardar dentro da capacidade de piso, estrutura, palete e equipamento;
+4. registrar endereço, quantidade, lote ou série e documento aplicável;
+5. aplicar <abbr title="Primeiro que Entra, Primeiro que Sai">PEPS</abbr> ou <abbr title="First Expired, First Out">FEFO</abbr> conforme a natureza do material, sem liberar item impróprio;
+6. inspecionar conservação, validade, acesso e emergência;
+7. bloquear e segregar desvios antes de decidir recuperação ou outra providência;
+8. medir acurácia, espaço, avarias e tempestividade sem confundir ocupação com eficiência;
+9. investigar causas e corrigir o processo, não apenas o registro final.
