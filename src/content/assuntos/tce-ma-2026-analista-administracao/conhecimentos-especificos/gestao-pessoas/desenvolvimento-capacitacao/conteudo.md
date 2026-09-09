@@ -8,257 +8,224 @@ storageId: "gp-desenvolvimento-capacitacao"
 
 # Desenvolvimento e capacitação
 
-## 1. Recorte e conceitos fundamentais
+Imagine uma situação hipotética: depois da implantação de um novo sistema, uma unidade passa a registrar mais retrabalho. A chefia pede um curso. Mas o problema pode estar no conhecimento das pessoas, no sistema, em uma regra pouco clara ou em várias causas ao mesmo tempo. **Como saber se capacitação é realmente a intervenção certa?**
 
-O edital cobra **desenvolvimento e capacitação de pessoal**, com ênfase em **levantamento de necessidades, programação, execução e avaliação**. O estudo deve dominar o encadeamento dessas etapas e reconhecer quando um problema realmente pode ser tratado por aprendizagem.
+O percurso útil não começa pelo catálogo de cursos:
 
-> **Corte de prova:** referências e regras vigentes em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Consultas editoriais posteriores não alteram esse corte.
+> **necessidade → causa → objetivo → solução de aprendizagem → execução → aplicação no trabalho → avaliação**
 
-**Aprendizagem** é aquisição ou mudança de conhecimentos, habilidades, atitudes e outros repertórios. **Treinamento** tende a ter foco mais imediato no desempenho do trabalho atual. **Desenvolvimento** é mais amplo e prospectivo, preparando para novas responsabilidades, mudanças e capacidades. **Educação** é o conceito mais abrangente.
+Se a causa não for educacional, treinamento isolado tende a falhar.
 
-As fronteiras não são absolutas. Em prova, observe sobretudo **propósito, público, horizonte e resultado esperado**.
+> **Corte de prova:** referências e regras vigentes em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Consultas editoriais posteriores não alteram esse corte.
 
-**Capacitação** será usada como termo amplo para ações intencionais de aprendizagem relacionadas ao trabalho. **TD&E** designa treinamento, desenvolvimento e educação.
+## 1. Treinar, desenvolver e educar não são a mesma coisa
 
-## 2. Ciclo básico de capacitação
+**Aprendizagem** é aquisição ou mudança de conhecimentos, habilidades, atitudes e outros repertórios. Uma distinção usual é:
 
-Uma forma útil de organizar o processo é:
+- **treinamento:** foco mais imediato no desempenho do trabalho atual;
+- **desenvolvimento:** preparação mais ampla para novas responsabilidades, mudanças e capacidades;
+- **educação:** conceito mais abrangente de formação.
 
-**diagnosticar necessidades → programar → executar → apoiar a transferência → avaliar → retroalimentar o sistema**.
+As fronteiras variam entre autores. Em prova, observe **finalidade, horizonte e objeto**. A sigla <abbr title="Treinamento, Desenvolvimento e Educação">TD&E</abbr> reúne treinamento, desenvolvimento e educação como sistema de ações de aprendizagem relacionadas ao trabalho.
 
-A sequência é lógica, mas não rígida: evidências de execução ou avaliação podem exigir revisão do diagnóstico, dos objetivos ou do desenho da ação.
+### 1.1 Uma classificação já cobrada pela <abbr title="Fundação Getulio Vargas">FGV</abbr>
 
-Pegadinha central: **TD&E não começa pela escolha de um curso**. Primeiro se identifica o desempenho necessário e a causa da lacuna; depois se decide a intervenção.
+Em questão oficial da <abbr title="Fundação Getulio Vargas">FGV</abbr>, uma classificação tradicional associou **treinamento** a preparação para o cargo e curto prazo, **desenvolvimento de pessoas** a horizonte intermediário e **desenvolvimento organizacional** a mudança sistêmica e longo prazo.
 
-## 3. Levantamento de necessidades de treinamento — LNT/ANT
+Trate isso como **classificação de prova**, não como lei universal de duração. Se o enunciado adotar outro modelo, siga o referencial apresentado.
 
-O **levantamento ou avaliação de necessidades de treinamento (LNT/ANT)** identifica e prioriza discrepâncias entre o que é requerido e o que é efetivamente demonstrado.
+## 2. O ciclo começa pelo diagnóstico
 
-Uma representação didática é:
+Um sistema de <abbr title="Treinamento, Desenvolvimento e Educação">TD&E</abbr> pode ser organizado em:
+
+1. **diagnosticar necessidades**;
+2. **investigar causas**;
+3. **programar** objetivos, métodos, recursos e avaliação;
+4. **executar** a ação;
+5. **apoiar a transferência** para o trabalho;
+6. **avaliar** aprendizagem, aplicação e efeitos e retroalimentar o sistema.
+
+A sequência é lógica, não rígida: evidência obtida depois pode exigir revisão do diagnóstico ou do desenho.
+
+## 3. Levantamento de necessidades: problema antes da solução
+
+O <abbr title="Levantamento de Necessidades de Treinamento">LNT</abbr>, também chamado em parte da literatura de <abbr title="Avaliação de Necessidades de Treinamento">ANT</abbr>, identifica e prioriza discrepâncias entre o que é requerido e o que é demonstrado, investigando suas causas.
 
 $$
 \text{lacuna} = \text{desempenho requerido} - \text{desempenho atual}
 $$
 
-A fórmula não significa que toda diferença exige treinamento. O diagnóstico deve responder:
+A fórmula organiza o raciocínio. **Lacuna não significa treinamento automático.**
 
-- qual resultado ou capacidade institucional é necessário;
-- qual desempenho ou competência o trabalho requer;
-- qual é a situação atual e qual evidência a sustenta;
-- quem ou qual unidade é afetado;
-- quais causas explicam a discrepância;
-- quais causas são educacionalmente tratáveis;
-- qual prioridade e qual intervenção são adequadas.
-
-Lista de cursos desejados, demanda espontânea ou nota baixa podem ser **fontes de informação**, mas não substituem o diagnóstico.
-
-## 4. Níveis do levantamento de necessidades
+### 3.1 Três níveis do diagnóstico
 
 | Nível | Foco | Pergunta central |
 | --- | --- | --- |
-| **Organizacional / macro** | estratégia, objetivos, riscos, mudanças e contexto | de quais capacidades a organização precisa? |
-| **Ocupacional / meso** | tarefas, processos, padrões, responsabilidades e competências | o que o trabalho exige? |
-| **Individual / micro** | repertório e desempenho da pessoa | quem precisa desenvolver o quê? |
+| **organizacional / macro** | estratégia, riscos, mudanças e contexto | de quais capacidades a organização precisa? |
+| **ocupacional / meso** | tarefas, processos, padrões e competências | o que o trabalho exige? |
+| **individual / micro** | repertório e desempenho | quem precisa desenvolver o quê? |
 
-### 4.1 Organizacional
+No nível organizacional entram prioridades, indicadores, riscos e mudanças futuras. No ocupacional, atividades, padrões, responsabilidades, ferramentas e competências requeridas. No individual, compara-se repertório e desempenho demonstrados com o padrão.
 
-Examina missão, prioridades, indicadores, riscos, mudanças tecnológicas ou normativas e demandas futuras. Evita capacitar pessoas em temas sem vínculo com resultados institucionais relevantes.
+Análise de cargos ajuda a definir o requerido; avaliação de desempenho pode mostrar diferenças observadas. Nenhuma das duas, sozinha, prova que a causa é educacional.
 
-### 4.2 Ocupacional ou de tarefas
+### 3.2 Meio de levantamento não é sinal de necessidade
 
-Examina atividades críticas, padrões, responsabilidades, processos, ferramentas e competências requeridas. Análise e descrição de cargos são insumos, mas precisam refletir o trabalho atual.
+Essa distinção já apareceu em prova.
 
-### 4.3 Individual
+**Meios ou fontes** obtêm evidência: entrevistas com gestores, avaliação de desempenho, análise do trabalho, observação, questionários, testes e simulações.
 
-Compara o desempenho e o repertório demonstrados com o padrão requerido. Pode usar avaliação de desempenho, observação, entrevistas, testes, indicadores, autoavaliação e feedback, sempre com leitura crítica das fontes.
+**Sinais ou eventos** indicam que vale investigar: <abbr title="Ausências ao trabalho">absenteísmo</abbr>, baixa produtividade, acidentes, retrabalho, mudança tecnológica ou aumento de desligamentos podem apontar problema sem explicar a causa.
 
-## 5. Fontes e métodos no LNT
+**Triangulação** é confrontar fontes, métodos ou períodos diferentes para reduzir pontos cegos; repetir um dado ruim não o torna válido.
 
-| Fonte ou método | Contribuição | Limitação típica |
-| --- | --- | --- |
-| documentos e indicadores | estratégia, risco, qualidade, prazo e recorrência | podem representar apenas parte do problema |
-| análise do trabalho | padrão e competências requeridas | pode estar desatualizada |
-| observação | comportamento no contexto real | custo e efeito do observador |
-| entrevista / grupo focal | causas, percepções, exceções | memória e influência social |
-| questionário | alcance e padronização | menor profundidade e risco de captar preferências por cursos |
-| teste / simulação | repertório em condição controlada | não prova transferência ao trabalho |
-| avaliação de desempenho | evidências sobre entregas e comportamentos | vieses e fatores contextuais |
-| incidente crítico | situações de grande impacto | não representa toda a rotina |
+## 4. Diagnóstico causal: treinamento é a resposta?
 
-**Triangulação** combina fontes e métodos para confrontar evidências. Mais fontes ajudam, mas não tornam automaticamente válido um dado ruim.
+Se as pessoas sabem executar o procedimento, mas o sistema impede o registro obrigatório, repetir o curso não remove a barreira.
 
-## 6. Diagnóstico causal: treinamento é a solução?
-
-Antes de programar uma ação, investigue:
-
-- a pessoa sabe o que fazer e qual padrão atingir?
-- possui conhecimento e habilidade necessários?
-- dispõe de tempo, informação, ferramenta, recurso e autoridade?
-- recebe feedback e incentivos coerentes?
-- o processo e o sistema permitem o comportamento esperado?
-- existe oportunidade real de praticar?
+Antes de prescrever capacitação, investigue conhecimento e habilidade, clareza do padrão, oportunidade de prática, recursos e autoridade, processo, sistema, incentivos e <abbr title="Retorno específico para orientar desempenho ou aprendizagem">feedback</abbr>.
 
 | Causa predominante | Resposta provável |
 | --- | --- |
 | falta de conhecimento ou habilidade | capacitação pode ser adequada |
-| regra, meta ou expectativa pouco clara | comunicação, orientação ou revisão do padrão |
+| regra ou expectativa pouco clara | comunicação, orientação ou revisão do padrão |
 | processo ou sistema inadequado | redesenho ou correção técnica |
-| falta de recurso ou autoridade | intervenção gerencial/estrutural |
-| incentivo incompatível | ajuste de consequências e gestão |
+| falta de recurso ou autoridade | intervenção gerencial ou estrutural |
+| incentivo incompatível | ajuste de consequências |
 | causas combinadas | solução combinada |
 
-A priorização pode considerar alinhamento estratégico, risco, criticidade, urgência, alcance, tendência futura, custo, viabilidade e potencial de impacto.
+A prioridade pode considerar estratégia, risco, criticidade, urgência, alcance, custo, viabilidade e impacto. Interesse em curso é dado; **não prova necessidade institucional**.
 
-## 7. Programação da capacitação
+## 5. Programar é ligar necessidade, método e avaliação
 
-Programar significa converter uma necessidade priorizada em uma solução coerente e executável. O plano deve articular:
+Programar não é apenas montar calendário. É converter a necessidade em solução coerente:
 
-- problema e resultado institucional relacionado;
-- público-alvo e pré-requisitos;
-- competências e desempenhos esperados;
-- objetivos instrucionais;
-- conteúdo e sequência;
-- métodos e modalidade;
-- atividades práticas e feedback;
-- facilitadores e responsabilidades;
-- materiais, tecnologia e condições de acesso;
-- cronograma, recursos e riscos;
-- instrumentos e momentos de avaliação;
-- estratégia de aplicação no trabalho.
+> **necessidade → público → objetivo → conteúdo → método → prática → recurso → avaliação → transferência**
 
-**Programação não é mero calendário.** O ponto central é a coerência entre **necessidade → objetivo → método → prática → avaliação**.
+O plano pode prever pré-requisitos, objetivos, sequência, métodos, modalidade, prática, <abbr title="Retorno específico para orientar desempenho ou aprendizagem">feedback</abbr>, acessibilidade, responsabilidades, recursos, riscos e estratégia de aplicação.
 
-### 7.1 Objetivos instrucionais
+### 5.1 Objetivos instrucionais
 
-Um objetivo útil descreve desempenho verificável. Pode explicitar:
+Um objetivo útil descreve desempenho verificável e, quando pertinente, explicita **comportamento, condição e critério**.
 
-- **comportamento:** ação observável;
-- **condição:** contexto, recurso ou restrição;
-- **critério:** qualidade, precisão, prazo ou padrão aceitável.
+Compare:
 
-Exemplo: “Ao final, o participante deverá **aplicar** o procedimento aos casos apresentados, conforme o manual e sem omitir etapas obrigatórias.”
+- vago: “compreender o procedimento”;
+- verificável: “aplicar o procedimento aos casos apresentados, conforme o manual e sem omitir etapas obrigatórias”.
 
-Verbos como “conhecer” ou “entender” são vagos quando não se indica como a aprendizagem será demonstrada.
+O objetivo orienta método, prática e avaliação. Escolher primeiro a tecnologia ou a modalidade inverte a lógica.
 
-## 8. Escolha de métodos e modalidades
+## 6. Métodos: escolha pelo desempenho pretendido
 
-| Resultado pretendido | Métodos adequados, conforme o contexto |
+| Resultado | Métodos coerentes, conforme o contexto |
 | --- | --- |
 | adquirir conceitos | leitura dirigida, exposição dialogada, videoaula |
-| analisar e decidir | estudo de caso, problema, debate estruturado |
-| executar procedimento | demonstração, exercício, laboratório, simulação |
-| desenvolver interação | dramatização, *role play*, prática com feedback |
-| aplicar no trabalho | projeto, tarefa orientada, tutoria, mentoria, aprendizagem no trabalho |
+| analisar e decidir | estudo de caso, problema, debate |
+| executar procedimento | demonstração, exercício, simulação |
+| desenvolver interação | <abbr title="Simulação de papéis em situação de interação">role play</abbr> e prática com <abbr title="Retorno específico para orientar desempenho ou aprendizagem">feedback</abbr> |
+| aplicar no trabalho | projeto, tarefa orientada, tutoria, mentoria |
 
-**Presencial, remoto síncrono, assíncrono e híbrido são modalidades**, não garantias de qualidade. A escolha depende de objetivo, público, acesso, prática, interação e suporte.
+Presencial, remoto síncrono, assíncrono e híbrido são **modalidades de oferta**, não garantias de qualidade.
 
-Mentoria, rotação, comunidade de prática, trilhas e aprendizagem no trabalho podem integrar ações de desenvolvimento. A solução deve decorrer da necessidade, não da tecnologia disponível ou do catálogo existente.
+### 6.1 Desenvolvimento de pessoas: ampliar experiência também ensina
 
-## 9. ADDIE como apoio à programação e execução
+Questões da <abbr title="Fundação Getulio Vargas">FGV</abbr> cobram métodos que desenvolvem pela experiência e orientação:
 
-O **ADDIE** resume o design instrucional em cinco fases:
+- **rotação de cargos:** passagem planejada por funções ou áreas;
+- **posição de assessoria:** exposição a atividades de apoio, análise e decisão;
+- **comissões, comitês ou projetos:** participação temporária em problemas transversais;
+- **mentoria:** orientação de desenvolvimento e carreira por pessoa mais experiente;
+- **<abbr title="Orientação estruturada voltada a metas e desenvolvimento de desempenho">coaching</abbr>:** acompanhamento focalizado em objetivos;
+- **treinamento externo:** aprendizagem fora da organização;
+- **casos, jogos e simulações:** prática de análise e decisão em ambiente controlado.
 
-1. **Analysis:** necessidade, público, trabalho, contexto e restrições;
+O método precisa corresponder à lacuna: rotação não substitui aprendizagem técnica específica; mentoria não corrige sistema defeituoso; simulação não prova aplicação posterior no trabalho.
+
+## 7. <abbr title="Analyze, Design, Develop, Implement and Evaluate">ADDIE</abbr>: organizar o desenvolvimento da solução
+
+O <abbr title="Analyze, Design, Develop, Implement and Evaluate">ADDIE</abbr> é um modelo de <abbr title="Planejamento sistemático de experiências de aprendizagem">design instrucional</abbr>:
+
+1. **Analyze:** necessidade, público, trabalho, contexto e restrições;
 2. **Design:** objetivos, sequência, métodos e avaliação;
-3. **Development:** produção e teste de materiais e instrumentos;
-4. **Implementation:** preparação e oferta;
-5. **Evaluation:** avaliação formativa e somativa e retroalimentação.
+3. **Develop:** produção e teste de materiais e instrumentos;
+4. **Implement:** preparação e oferta;
+5. **Evaluate:** avaliação formativa e somativa e retroalimentação.
 
-É um modelo de organização do desenvolvimento da solução, frequentemente usado de forma iterativa. **Não é modelo exclusivo de avaliação de impacto.**
+O <abbr title="Analyze, Design, Develop, Implement and Evaluate">ADDIE</abbr> é uma estrutura de apoio, não uma sequência burocrática imutável nem um modelo exclusivo de impacto.
 
-## 10. Execução
+## 8. Execução não é aprendizagem
 
-Executar envolve criar as condições para que o desenho planejado realmente ocorra. Entre os pontos relevantes estão:
+Executar inclui preparar participantes e facilitadores, ambiente, materiais e tecnologia; assegurar acessibilidade e suporte; realizar práticas; acompanhar participação; registrar ocorrências e fazer ajustes formativos.
 
-- comunicação, inscrição e preparação dos participantes;
-- facilitadores e tutores preparados;
-- ambiente, materiais e tecnologia disponíveis;
-- acessibilidade e suporte;
-- realização das atividades e práticas;
-- acompanhamento da participação;
-- registro de ocorrências e ajustes formativos.
+**Frequência, presença e certificado comprovam execução formal. Não comprovam, por si, aprendizagem.**
 
-**Frequência, certificado e cumprimento do cronograma comprovam aspectos da execução, não necessariamente aprendizagem ou aplicação no trabalho.**
+## 9. Transferência: o aprendido chega ao trabalho?
 
-## 11. Transferência da aprendizagem
+**Transferência da aprendizagem** é a aplicação, no trabalho, do repertório aprendido, com manutenção ao longo do tempo quando pertinente.
 
-**Transferência** é a aplicação, no trabalho, do repertório aprendido, com manutenção ao longo do tempo quando pertinente.
+Bom desempenho em prova ou simulação demonstra aprendizagem naquele contexto; não prova transferência. Favorecem a aplicação: oportunidade real de uso, apoio da chefia e dos pares, recursos e sistemas adequados, <abbr title="Retorno específico para orientar desempenho ou aprendizagem">feedback</abbr> pós-ação, metas e incentivos coerentes.
 
-Resultado em prova ou simulação mostra aprendizagem naquele contexto, mas não prova transferência.
+Se a pessoa aprendeu, mas a chefia proíbe o novo procedimento ou o sistema não permite executá-lo, há **barreira de transferência**, não necessariamente falha de aprendizagem.
 
-Favorecem a aplicação:
+## 10. Avaliar exige perguntar o que mudou
 
-- oportunidade real de usar o aprendido;
-- apoio da chefia e dos pares;
-- recursos, autonomia e sistemas adequados;
-- feedback e acompanhamento pós-ação;
-- metas e incentivos coerentes;
-- materiais de apoio e reforço.
+A avaliação deve ser planejada antes da execução. Defina perguntas, indicadores, fontes, instrumentos, momentos e, quando necessário, uma **linha de base** — medida anterior usada como referência de comparação.
 
-Barreiras do ambiente podem impedir a transferência mesmo quando houve aprendizagem. Por isso, a avaliação deve separar **aprendeu?** de **conseguiu aplicar?**.
+### 10.1 Diagnóstica, formativa e somativa
 
-## 12. Avaliação da capacitação
-
-A avaliação deve ser planejada desde a programação. Perguntas, indicadores, linha de base, fontes, instrumentos, responsáveis e momentos precisam ser compatíveis com o objetivo da ação.
-
-### 12.1 Diagnóstica, formativa e somativa
-
-| Tipo | Momento/função predominante |
+| Tipo | Função predominante |
 | --- | --- |
-| **Diagnóstica** | antes: identifica repertório, lacunas e condições de entrada |
-| **Formativa** | durante: acompanha progresso e orienta correções |
-| **Somativa** | ao final: sintetiza resultados para julgamento ou decisão |
+| **diagnóstica** | antes: identifica repertório prévio e condições de entrada |
+| **formativa** | durante: acompanha o processo e orienta correções |
+| **somativa** | ao final: sintetiza evidências para julgamento ou decisão |
 
-A avaliação diagnóstica de uma turma é mais restrita que o **LNT**, pois o levantamento de necessidades também examina organização, trabalho e causas.
+O diagnóstico de entrada de uma turma é mais restrito que o <abbr title="Levantamento de Necessidades de Treinamento">LNT</abbr>, que também examina organização, trabalho, contexto e causas.
 
-### 12.2 Kirkpatrick
+### 10.2 Kirkpatrick: quatro perguntas diferentes
 
-O modelo clássico organiza a avaliação em quatro níveis:
+1. **Reação:** como a experiência foi percebida?
+2. **Aprendizagem:** houve mudança de repertório?
+3. **Comportamento:** o aprendido está sendo aplicado no trabalho?
+4. **Resultados:** houve efeitos organizacionais pretendidos associados à ação?
 
-1. **Reação:** percepção da experiência, relevância e condições;
-2. **Aprendizagem:** aquisição de conhecimentos, habilidades ou outros repertórios;
-3. **Comportamento:** aplicação do aprendido no trabalho;
-4. **Resultados:** efeitos organizacionais pretendidos.
+> **gostou ≠ aprendeu ≠ aplicou ≠ gerou resultado atribuível à capacitação**
 
-As evidências são distintas:
+Melhora posterior ao curso não prova causalidade. Mudanças de sistema, equipe, processo ou demanda podem concorrer para o resultado.
 
-- reação favorável **não prova** aprendizagem;
-- aprendizagem **não prova** transferência;
-- transferência **não prova**, sozinha, que todo resultado organizacional decorreu da ação;
-- mudanças concorrentes precisam ser consideradas ao interpretar resultados.
+### 10.3 Outra classificação de prova: resultado por nível
 
-## 13. Exemplo integrado
+Não confunda Kirkpatrick com uma classificação tradicional de **resultados do treinamento por nível**, já cobrada pela <abbr title="Fundação Getulio Vargas">FGV</abbr>:
 
-Uma unidade identifica aumento de retrabalho:
-
-1. relaciona o problema a um resultado institucional;
-2. compara o procedimento requerido com amostras do trabalho;
-3. verifica que parte dos erros decorre de desconhecimento e parte de campo ambíguo no sistema;
-4. combina correção do sistema com capacitação;
-5. define objetivo observável e usa casos e simulação;
-6. acompanha a execução e oferece feedback durante as práticas;
-7. verifica aprendizagem ao final;
-8. acompanha aplicação no trabalho e compara retrabalho posterior com a linha de base, considerando outras mudanças ocorridas.
-
-O caso ilustra a sequência **necessidade → causa → programação → execução → transferência → avaliação**.
-
-## 14. Pegadinhas de prova
-
-| Afirmação | Avaliação |
+| Nível | Exemplos cobrados em questões oficiais |
 | --- | --- |
-| LNT é uma lista de cursos desejados | errada |
-| toda lacuna de desempenho exige treinamento | errada |
-| macro/meso/micro correspondem a organização/trabalho/indivíduo | correta |
-| nota baixa de desempenho prova falta de capacitação | errada |
-| programação é apenas calendário e orçamento | errada |
-| objetivo instrucional deve permitir verificar desempenho | correta |
-| modalidade deve ser escolhida antes do objetivo | errada |
-| ADDIE é modelo exclusivo de impacto | errada |
-| frequência prova aprendizagem | errada |
-| aprendizagem prova transferência | errada |
-| avaliação formativa ocorre durante a ação | correta |
-| diagnóstico da turma equivale ao LNT completo | errada |
-| reação é o primeiro nível de Kirkpatrick | correta |
-| reação favorável prova aprendizagem | errada |
-| comportamento, em Kirkpatrick, refere-se à aplicação no trabalho | correta |
-| resultado posterior ao curso prova causalidade | errada |
+| **recursos humanos** | redução do <abbr title="Ausências ao trabalho">absenteísmo</abbr>; melhoria da <abbr title="Qualidade de Vida no Trabalho">QVT</abbr> |
+| **cargos** | aumento da produtividade; redução do índice de acidentes |
+| **organizacional** | melhoria do grau de satisfação com a organização |
+
+Essa classificação depende do referencial adotado pela questão. O essencial é reconhecer o nível ao qual o indicador foi associado, sem misturá-lo com os quatro níveis de Kirkpatrick.
+
+## 11. Exemplo integrado
+
+No caso do retrabalho após o novo sistema:
+
+1. o aumento de erros é tratado como **sinal**, não diagnóstico;
+2. entrevistas, observação e amostras do trabalho mostram desconhecimento do procedimento **e** campo ambíguo no sistema;
+3. combinam-se correção do sistema e capacitação;
+4. casos e simulação permitem prática com <abbr title="Retorno específico para orientar desempenho ou aprendizagem">feedback</abbr>;
+5. mede-se aprendizagem e, depois, aplicação no trabalho;
+6. o retrabalho posterior é comparado à linha de base, considerando também a correção do sistema.
+
+A aprendizagem é apenas uma parte da explicação do resultado final.
+
+## 12. Como raciocinar em prova
+
+Pergunte, nessa ordem:
+
+1. qual desempenho ou capacidade é necessário?
+2. a evidência mostra necessidade real ou apenas um sinal?
+3. a causa é educacional, ambiental ou combinada?
+4. o método permite praticar o desempenho pretendido?
+5. a avaliação mede execução, aprendizagem, transferência ou resultado?
+6. há outra explicação plausível para a mudança observada?
+
+**Capacitar não é oferecer curso:** é diagnosticar uma necessidade tratável por aprendizagem, desenhar uma intervenção coerente e verificar se o repertório foi aprendido, aplicado e contribuiu para o resultado esperado.

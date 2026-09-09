@@ -5,5 +5,7 @@
 - [Building an Evaluation Plan](https://www.cdc.gov/training-development/php/about/evaluate-training-building-an-evaluation-plan.html), Centers for Disease Control and Prevention.
 - [The Kirkpatrick Model](https://www.kirkpatrickpartners.com/the-kirkpatrick-model/), Kirkpatrick Partners.
 - [Tipos de avaliação em processos de aprendizagem](https://repositorio.enap.gov.br/bitstream/1/8058/2/M%C3%B3dulo%202%20-%20Tipos%20de%20avalia%C3%A7%C3%A3o.pdf), Escola Nacional de Administração Pública.
+- [Concurso EPE 2024 — provas e gabaritos de Recursos Humanos](https://conhecimento.fgv.br/concursos/epe24/2), Fundação Getulio Vargas.
+- [Concurso IBGE 2016 — provas e gabaritos de nível superior](https://conhecimento.fgv.br/concursos/ibge/nivelsuperior), Fundação Getulio Vargas.
 
-> As referências técnicas apoiam os conceitos e métodos. O corte do concurso permanece **6/7/2026**.
+> As referências técnicas apoiam os conceitos e métodos; as provas oficiais da FGV sustentam as classificações destacadas como cobrança de prova. O corte do concurso permanece **6/7/2026**.
