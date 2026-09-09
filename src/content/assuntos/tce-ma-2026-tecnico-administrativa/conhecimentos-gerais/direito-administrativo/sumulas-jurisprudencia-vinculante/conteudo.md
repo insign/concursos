@@ -6,642 +6,321 @@ order: 121
 storageId: tec-jurisprudencia-adm-121
 ---
 
-# Súmulas e jurisprudência vinculante do STF e do STJ
+# Súmulas e jurisprudência vinculante do <abbr title="Supremo Tribunal Federal">STF</abbr> e do <abbr title="Superior Tribunal de Justiça">STJ</abbr>
 
-## 1. Recorte do edital e método de estudo
+## 1. Antes de decorar números, descubra que tipo de precedente está diante de você
 
-O edital do Cargo 16 cobra, em **Direito Administrativo**, **súmulas e jurisprudência vinculante do <abbr title="Supremo Tribunal Federal">STF</abbr> e do <abbr title="Superior Tribunal de Justiça">STJ</abbr>**. O objetivo desta unidade não é memorizar todo o acervo dos tribunais superiores. O recorte útil para a prova é a jurisprudência **consolidada ou qualificada diretamente relacionada aos temas administrativos do próprio programa**.
+Imagine uma questão hipotética com duas frases:
 
-> **Corte jurídico:** esta unidade considera súmulas e precedentes consolidados até **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Julgamentos posteriores não substituem silenciosamente o entendimento vigente no corte.
+- “há uma súmula do <abbr title="Superior Tribunal de Justiça">STJ</abbr> sobre o assunto”;
+- “há uma Súmula Vinculante do <abbr title="Supremo Tribunal Federal">STF</abbr> sobre o assunto”.
 
-A estratégia de estudo é:
+As duas frases falam de jurisprudência consolidada, mas **não descrevem instrumentos com o mesmo efeito jurídico**. Se o candidato memoriza apenas “tribunal + número + frase”, fica vulnerável justamente às trocas mais comuns de prova: chamar súmula ordinária de vinculante, transformar um Tema em Súmula Vinculante ou apagar uma condição da tese.
 
-1. identificar **qual é o tipo de precedente**;
-2. memorizar a **tese central**;
-3. reconhecer os **limites e condições** da tese;
-4. relacioná-la ao tópico administrativo correspondente;
-5. evitar transformar um precedente específico em regra universal.
+O método mais eficiente é sempre o mesmo:
 
-Vários precedentes já aparecem nos assuntos anteriores do curso, porque são indispensáveis à compreensão de agentes públicos, poderes, controle, responsabilidade civil e desapropriação. Aqui eles são **consolidados e comparados**, sem repetir toda a doutrina desses assuntos.
+1. **veículo:** súmula ordinária, Súmula Vinculante, repercussão geral ou recurso repetitivo?
+2. **tese:** qual problema jurídico o precedente resolve?
+3. **limite:** qual condição, exceção ou hipótese não pode ser apagada?
+4. **corte:** o entendimento já estava formado na data relevante do edital?
 
----
+Depois de classificar o precedente, o número deixa de ser um dado solto e passa a apontar para uma regra compreensível.
 
-## 2. Antes dos números: o efeito jurídico não é igual
+### 1.1. O que o edital exige nesta unidade
 
-### 2.1 Súmula vinculante do STF
+O Cargo 16 cobra, em Direito Administrativo, **súmulas e jurisprudência vinculante do <abbr title="Supremo Tribunal Federal">STF</abbr> e do <abbr title="Superior Tribunal de Justiça">STJ</abbr>**. O recorte útil não é todo o acervo dos tribunais superiores, mas os enunciados e precedentes qualificados diretamente ligados aos temas administrativos do programa.
 
-O art. 103-A da Constituição permite ao STF aprovar **súmula com efeito vinculante** após reiteradas decisões sobre matéria constitucional e observados os requisitos constitucionais.
+A data de corte adotada é **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Quando um julgamento ainda não tinha tese final nessa data, uma proposta de voto posterior ou um desfecho posterior não deve ser retroativamente tratado como regra do edital.
 
-A súmula vinculante produz efeito em relação:
+## 2. Quatro veículos, quatro leituras
+
+### 2.1. Súmula Vinculante: efeito constitucional próprio
+
+O art. 103-A da Constituição autoriza o <abbr title="Supremo Tribunal Federal">STF</abbr>, após reiteradas decisões sobre matéria constitucional e observados os requisitos constitucionais, a aprovar enunciado de **Súmula Vinculante**.
+
+O efeito é direto em relação:
 
 - aos demais órgãos do Poder Judiciário;
-- à Administração Pública direta e indireta:
-  - federal;
-  - estadual;
-  - distrital;
-  - municipal.
+- à Administração Pública direta e indireta federal, estadual, distrital e municipal.
 
-A Lei nº 11.417/2006 disciplina edição, revisão, cancelamento e observância das súmulas vinculantes.
+A Lei nº 11.417/2006 disciplina edição, revisão, cancelamento e observância desses enunciados.
 
-> **Regra de prova:** quando o enunciado disser “súmula vinculante”, há um efeito constitucional específico que não deve ser atribuído automaticamente a qualquer súmula.
+Esse é o ponto de partida: **o rótulo “vinculante” do art. 103-A não acompanha qualquer súmula**. Quando aparecer “<abbr title="Súmula Vinculante">SV</abbr>”, pense no regime constitucional específico do <abbr title="Supremo Tribunal Federal">STF</abbr>.
 
-### 2.2 Súmula ordinária
+### 2.2. Súmula ordinária: consolidação sem o efeito do art. 103-A
 
-Uma súmula ordinária sintetiza orientação consolidada do tribunal, mas **não possui, por esse simples fato, o efeito vinculante do art. 103-A da Constituição**.
+Uma súmula ordinária sintetiza orientação consolidada de um tribunal. Há súmulas ordinárias do <abbr title="Supremo Tribunal Federal">STF</abbr> e do <abbr title="Superior Tribunal de Justiça">STJ</abbr>, mas elas **não se tornam Súmulas Vinculantes apenas por serem súmulas**.
 
-Isso vale para:
+Portanto, a frase “toda súmula do <abbr title="Superior Tribunal de Justiça">STJ</abbr> é vinculante” está errada: o <abbr title="Superior Tribunal de Justiça">STJ</abbr> não edita Súmula Vinculante no regime do art. 103-A.
 
-- súmulas ordinárias do STF;
-- súmulas do STJ.
+### 2.3. Repercussão geral: tese constitucional qualificada
 
-Elas têm grande força jurisprudencial e servem como referência de interpretação, porém sua natureza não se confunde com a de uma súmula vinculante.
+Nos recursos extraordinários submetidos à repercussão geral, o <abbr title="Supremo Tribunal Federal">STF</abbr> seleciona uma questão constitucional relevante e fixa uma tese para orientar o tratamento dos casos que compartilham aquela questão.
 
-### 2.3 Repercussão geral do STF
+É um **precedente qualificado**, mas não uma Súmula Vinculante. Em prova, “Tema 784 do <abbr title="Supremo Tribunal Federal">STF</abbr>” e “<abbr title="Súmula Vinculante">SV</abbr> 43” não são nomes intercambiáveis.
 
-Nos recursos extraordinários com repercussão geral, o STF fixa teses constitucionais qualificadas. O sistema processual determina sua observância no âmbito judicial.
+### 2.4. Recursos repetitivos: tese qualificada sobre direito federal
 
-Para a prova, o ponto principal é:
+No <abbr title="Superior Tribunal de Justiça">STJ</abbr>, recursos especiais repetitivos servem à uniformização de questões de direito federal que se repetem em muitos processos. O resultado também é um precedente qualificado.
 
-> **repercussão geral é precedente qualificado, mas não é sinônimo de súmula vinculante.**
+A distinção pode ser resumida só depois de compreendido o mecanismo:
 
-### 2.4 Recursos repetitivos do STJ
+| Instrumento | Tribunal | O que identifica |
+|---|---|---|
+| Súmula Vinculante | <abbr title="Supremo Tribunal Federal">STF</abbr> | enunciado com o efeito próprio do art. 103-A |
+| súmula ordinária | <abbr title="Supremo Tribunal Federal">STF</abbr> ou <abbr title="Superior Tribunal de Justiça">STJ</abbr> | orientação jurisprudencial consolidada |
+| repercussão geral | <abbr title="Supremo Tribunal Federal">STF</abbr> | tese constitucional qualificada |
+| recurso repetitivo | <abbr title="Superior Tribunal de Justiça">STJ</abbr> | tese qualificada sobre direito federal |
 
-O STJ fixa teses em recursos especiais repetitivos para uniformizar a interpretação da legislação federal.
+Com essa chave, os precedentes administrativos podem ser estudados por **problema**, e não como uma lista sem conexão.
 
-Também são precedentes qualificados dentro do sistema processual. Entretanto:
+## 3. Processo administrativo: defesa, revisão e controle
 
-> **o STJ não edita “súmula vinculante” no sentido do art. 103-A da Constituição.**
+### 3.1. Defesa existe mesmo quando advogado não é obrigatório — <abbr title="Súmula Vinculante">SV</abbr> 5
 
-A banca pode explorar exatamente essa diferença terminológica.
+No **Processo Administrativo Disciplinar**, procedimento em que a Administração apura infração funcional e pode aplicar sanção, a <abbr title="Súmula Vinculante">SV</abbr> 5 afirma que a falta de defesa técnica por advogado **não ofende, por si só, a Constituição**.
 
-### 2.5 Matriz inicial
+Isso não elimina:
 
-| Instrumento | Tribunal | Núcleo | É “súmula vinculante” do art. 103-A? |
-|---|---|---|---|
-| súmula vinculante | STF | enunciado constitucionalmente vinculante | **sim** |
-| súmula ordinária | STF | orientação consolidada | não |
-| repercussão geral | STF | tese constitucional qualificada | não |
-| súmula | STJ | orientação consolidada sobre direito federal | não |
-| recurso repetitivo | STJ | tese qualificada sobre direito federal | não |
+- contraditório;
+- ampla defesa;
+- ciência dos atos;
+- oportunidade de alegar e provar o que o regime jurídico permite.
 
----
+A distinção é simples: **advogado não é constitucionalmente indispensável no <abbr title="Processo Administrativo Disciplinar">PAD</abbr>; defesa é**.
 
-# Súmulas vinculantes do STF
+### 3.2. Recorrer não pode depender de caução patrimonial — <abbr title="Súmula Vinculante">SV</abbr> 21
 
-## 3. SV 3 — contraditório e ampla defesa perante o TCU
+A <abbr title="Súmula Vinculante">SV</abbr> 21 considera inconstitucional exigir **depósito ou arrolamento prévio de dinheiro ou bens** como requisito para admitir recurso administrativo.
 
-A Súmula Vinculante 3 estabelece, em síntese, que nos processos perante o Tribunal de Contas da União devem ser assegurados **contraditório e ampla defesa** quando da decisão puder resultar:
+O problema jurídico é o acesso à revisão administrativa: a Administração pode disciplinar prazo e forma do recurso, mas não condicionar sua admissibilidade à prestação patrimonial vedada pelo enunciado.
 
-- anulação; ou
-- revogação
+### 3.3. A Administração pode rever os próprios atos — Súmulas 346 e 473 do <abbr title="Supremo Tribunal Federal">STF</abbr>
 
-de ato administrativo que beneficie o interessado.
+Antes do nome técnico, veja o mecanismo:
 
-Há exceção expressa para a apreciação da legalidade do **ato de concessão inicial** de:
+- se o ato é **ilegal**, o problema está na sua validade;
+- se o ato é **válido**, mas deixou de ser conveniente ou oportuno, o problema está no mérito administrativo.
+
+A possibilidade de a Administração controlar os próprios atos é chamada **autotutela**.
+
+A Súmula 346 do <abbr title="Supremo Tribunal Federal">STF</abbr> reconhece que a Administração pode declarar a nulidade de seus próprios atos. A Súmula 473 acrescenta a distinção clássica:
+
+- **anulação**: reação à ilegalidade;
+- **revogação**: retirada de ato válido por conveniência ou oportunidade, dentro dos limites jurídicos;
+- nenhuma das duas afasta a apreciação judicial quando cabível.
+
+Autotutela, portanto, não significa liberdade para ignorar devido processo, proteção da confiança ou controle judicial.
+
+### 3.4. Cinco súmulas do <abbr title="Superior Tribunal de Justiça">STJ</abbr> formam um pequeno sistema do <abbr title="Processo Administrativo Disciplinar">PAD</abbr>
+
+Em vez de decorar cinco frases independentes, siga o processo.
+
+**Prova — Súmula 591.** É permitida prova emprestada no <abbr title="Processo Administrativo Disciplinar">PAD</abbr>. O enunciado exige que ela esteja **devidamente autorizada pelo juízo competente** e que sejam respeitados contraditório e ampla defesa. Para prova objetiva, memorize essa formulação e não a reduza à ideia vaga de que autorização judicial só importaria em alguns casos.
+
+**Tempo — Súmula 592.** Exceder o prazo de conclusão do <abbr title="Processo Administrativo Disciplinar">PAD</abbr> não produz nulidade automática. É preciso demonstrar **prejuízo à defesa**.
+
+**Controle judicial — Súmula 665.** Em regra, o Judiciário examina regularidade do procedimento e legalidade do ato, à luz do contraditório, da ampla defesa e do devido processo legal; não refaz livremente o mérito administrativo. A própria súmula ressalva situações como flagrante ilegalidade, <abbr title="Vício jurídico grave e evidente">teratologia</abbr> ou manifesta desproporcionalidade da sanção.
+
+**Enquadramento jurídico — Súmula 672.** A Administração descreve fatos e, ao final, lhes atribui uma qualificação jurídica. Alterar essa qualificação — a **capitulação legal** — não anula, por si só, o <abbr title="Processo Administrativo Disciplinar">PAD</abbr>. O ponto decisivo é que os fatos imputados tenham sido conhecidos e efetivamente sujeitos à defesa.
+
+**Motivação — Súmula 674.** A autoridade pode adotar, como razões de sua decisão, fundamentos já desenvolvidos em parecer, informação, decisão ou proposta anterior, desde que eles sejam identificáveis e permitam compreender por que o ato foi praticado. Essa técnica é a **motivação per relationem**; não é decisão sem motivação.
+
+Essas cinco súmulas respondem a cinco perguntas sucessivas: **qual prova pode entrar, o que o atraso causa, até onde o juiz controla, o enquadramento pode mudar e como a decisão pode ser fundamentada?**
+
+## 4. Concurso público, cargos e remuneração
+
+Considere um cenário hipotético: um edital oferece dez vagas. Ana fica em 8º; Bruno, em 14º. Depois surgem novas vagas, a Administração pratica atos que podem indicar necessidade de pessoal e uma controvérsia chega ao Judiciário. Os precedentes abaixo distribuem os problemas desse cenário.
+
+### 4.1. Dentro das vagas e fora das vagas: Temas 161 e 784 do <abbr title="Supremo Tribunal Federal">STF</abbr>
+
+No Tema 161, o <abbr title="Supremo Tribunal Federal">STF</abbr> reconhece, como regra, **direito subjetivo à nomeação** do candidato aprovado dentro do número de vagas previsto no edital durante a validade do concurso.
+
+Por isso, Ana, no exemplo, parte de posição jurídica diferente da de Bruno.
+
+No Tema 784, o simples surgimento de novas vagas ou a abertura de novo concurso durante a validade do certame anterior **não cria automaticamente** direito à nomeação para quem foi aprovado fora das vagas.
+
+A situação muda quando se demonstra que a Administração passou indevidamente à frente do candidato ou revelou, de forma arbitrária e imotivada, necessidade inequívoca de nomear durante a validade do concurso. Essa passagem indevida é a **preterição**. Ela não se presume apenas porque uma vaga apareceu: precisa ser demonstrada nos termos do precedente.
+
+A antiga Súmula 15 do <abbr title="Supremo Tribunal Federal">STF</abbr> também protege a ordem classificatória quando, dentro da validade do concurso, o cargo é preenchido sem observância da classificação.
+
+### 4.2. A exceção superveniente do Tema 1164
+
+O direito de quem está dentro das vagas não deve ser transformado em fórmula sem exceções. No Tema 1164, o <abbr title="Supremo Tribunal Federal">STF</abbr> admitiu mitigação quando ocorre **extinção superveniente dos cargos ofertados em razão da superação do limite prudencial de gastos com pessoal**, desde que isso aconteça antes do fim da validade do concurso e seja devidamente motivado.
+
+No corte de **6 de julho de 2026**, essa tese já estava formada e com trânsito em julgado. Logo, ela integra o panorama do edital.
+
+O que o Tema 1164 **não** faz é devolver à Administração liberdade genérica para deixar de nomear aprovado dentro das vagas por mera conveniência.
+
+### 4.3. Requisitos de participação: idade, psicotécnico e veto imotivado
+
+A Súmula 683 do <abbr title="Supremo Tribunal Federal">STF</abbr>, em linha com o Tema 646, admite limite de idade quando ele puder ser justificado pela **natureza das atribuições do cargo**. A idade não é requisito legítimo apenas porque o edital a escolheu.
+
+A <abbr title="Súmula Vinculante">SV</abbr> 44 acrescenta outro limite à disciplina editalícia: exame psicotécnico para habilitação a cargo público exige **previsão em lei**. A jurisprudência associada também exige critérios que permitam objetividade e controle.
+
+A Súmula 684 do <abbr title="Supremo Tribunal Federal">STF</abbr> fecha o raciocínio: é inconstitucional o **veto não motivado** à participação de candidato em concurso público.
+
+### 4.4. O Judiciário controla juridicidade; não vira banca — Tema 485
+
+Se a controvérsia é sobre conteúdo de questão ou critério de correção, o Tema 485 do <abbr title="Supremo Tribunal Federal">STF</abbr> impede que o Judiciário simplesmente substitua a banca examinadora e refaça a avaliação técnica.
+
+Isso não cria uma zona sem Direito. Ilegalidade ou inconstitucionalidade continuam sujeitas a controle. A diferença é entre **controlar juridicidade** e **substituir o juízo técnico da banca por preferência judicial**.
+
+### 4.5. Concurso específico para cargo diverso — <abbr title="Súmula Vinculante">SV</abbr> 43
+
+A <abbr title="Súmula Vinculante">SV</abbr> 43 considera inconstitucional forma de provimento que permita ao servidor investir-se, sem aprovação em concurso destinado àquele cargo, em cargo que **não integra a carreira** na qual ele já estava investido.
+
+É a barreira constitucional contra ascensão ou transposição que dispense o concurso exigido para o novo cargo.
+
+### 4.6. Cargos em comissão precisam corresponder à função real — Tema 1010
+
+O nome “cargo em comissão” não resolve a questão. O Tema 1010 do <abbr title="Supremo Tribunal Federal">STF</abbr> exige que:
+
+1. as atribuições sejam de **direção, chefia ou assessoramento**, e não meramente burocráticas, técnicas ou operacionais;
+2. exista relação de **confiança** entre autoridade e ocupante;
+3. o número de cargos em comissão seja proporcional à necessidade que devem atender e ao número de servidores efetivos;
+4. as atribuições estejam descritas **de forma clara e objetiva em lei**.
+
+A banca pode trocar a natureza real da atividade por um rótulo formal; o precedente exige olhar para ambos.
+
+### 4.7. Remuneração e desvio de função não são o mesmo problema
+
+A <abbr title="Súmula Vinculante">SV</abbr> 37 afirma que o Judiciário, sem função legislativa, **não pode aumentar vencimentos de servidores públicos apenas com fundamento em isonomia**.
+
+Já a Súmula 378 do <abbr title="Superior Tribunal de Justiça">STJ</abbr> trata de outra situação: reconhecido **desvio de função**, são devidas ao servidor as diferenças salariais correspondentes.
+
+A diferença ajuda a evitar uma confusão comum: a Súmula 378 não é uma súmula sobre <abbr title="Processo Administrativo Disciplinar">PAD</abbr> e não autoriza aumento judicial geral por isonomia.
+
+### 4.8. Diploma na posse e formação superior na mesma área
+
+A Súmula 266 do <abbr title="Superior Tribunal de Justiça">STJ</abbr> fixa que diploma ou habilitação legal para o exercício do cargo deve ser exigido **na posse**, e não na inscrição no concurso.
+
+O Tema Repetitivo 1094 do <abbr title="Superior Tribunal de Justiça">STJ</abbr> resolve questão distinta: se o edital exige ensino médio profissionalizante ou curso técnico em área específica, o candidato pode satisfazer esse requisito com diploma de **nível superior na mesma área profissional**.
+
+“Mesmo nível” não é o critério; a correspondência com a **mesma área profissional** é essencial à tese.
+
+## 5. Nepotismo, integridade e poder de polícia
+
+### 5.1. <abbr title="Súmula Vinculante">SV</abbr> 13: parentesco e designações recíprocas
+
+A <abbr title="Súmula Vinculante">SV</abbr> 13 veda, nos termos do enunciado, a nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade **até o terceiro grau** da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para cargo em comissão, função de confiança ou função gratificada.
+
+A vedação alcança também **designações recíprocas**, conhecidas como nepotismo cruzado.
+
+A prova exige cautela com cargos de natureza política. No Tema 1000 do <abbr title="Supremo Tribunal Federal">STF</abbr>, o julgamento ainda **não tinha tese final de mérito em 6 de julho de 2026**. Havia deliberação em curso e pedido de vista; portanto, proposta de voto não podia ser ensinada, naquele corte, como tese concluída.
+
+### 5.2. Tema 1001: integridade nas contratações municipais
+
+O Tema 1001 do <abbr title="Supremo Tribunal Federal">STF</abbr> trata de outro objeto. O Tribunal reconheceu a constitucionalidade de norma municipal, fundada em competência suplementar, que proíbe participação em licitação e contratação municipal, nas condições da tese, de:
+
+- agentes políticos eleitos;
+- ocupantes de cargo em comissão ou função de confiança;
+- cônjuge, companheiro ou parente até o terceiro grau das pessoas abrangidas;
+- demais servidores públicos municipais.
+
+A conexão com a <abbr title="Súmula Vinculante">SV</abbr> 13 é a preocupação com integridade e vínculos pessoais; o **objeto jurídico**, porém, não é o mesmo. A <abbr title="Súmula Vinculante">SV</abbr> 13 disciplina nomeações e funções; o Tema 1001, restrições municipais em licitações e contratações.
+
+### 5.3. Tema 532: quando o poder de polícia pode ser delegado
+
+O poder de polícia permite ao Estado condicionar ou restringir atividades e direitos privados em favor do interesse público. A pergunta do Tema 532 do <abbr title="Supremo Tribunal Federal">STF</abbr> é se uma pessoa jurídica de direito privado pode receber esse poder.
+
+A resposta é positiva **somente dentro do desenho institucional da tese**: delegação por lei a pessoa jurídica de direito privado integrante da Administração indireta que:
+
+- tenha capital social majoritariamente público;
+- preste exclusivamente serviço público de atuação própria do Estado;
+- atue em regime não concorrencial.
+
+Por isso, “empresa privada comum + simples contrato” não reproduz o caso autorizado pelo precedente.
+
+## 6. Tribunais de contas: defesa, registro e ressarcimento
+
+### 6.1. <abbr title="Súmula Vinculante">SV</abbr> 3: quando a decisão pode retirar situação favorável
+
+A <abbr title="Súmula Vinculante">SV</abbr> 3 parte de uma situação concreta: em processo perante o <abbr title="Tribunal de Contas da União">TCU</abbr>, a decisão pode resultar em **anulação ou revogação de ato administrativo que beneficie o interessado**. Nessa hipótese, asseguram-se contraditório e ampla defesa.
+
+O próprio enunciado ressalva a apreciação da legalidade do **ato de concessão inicial** de:
 
 - aposentadoria;
 - reforma;
 - pensão.
 
-### 3.1 Relação com o Tema 445
+Essa exceção processual não cria prazo infinito para o controle.
 
-A exceção da SV 3 não significa que o TCU possa aguardar indefinidamente.
+### 6.2. Tema 445: a exceção da <abbr title="Súmula Vinculante">SV</abbr> 3 encontra limite temporal
 
-No **Tema 445 da repercussão geral**, o STF fixou prazo de **cinco anos**, contado da chegada do processo à Corte de Contas, para o julgamento da legalidade do ato inicial de aposentadoria, reforma ou pensão.
+No Tema 445, o <abbr title="Supremo Tribunal Federal">STF</abbr> fixou prazo de **cinco anos**, contado da chegada do processo à respectiva Corte de Contas, para o julgamento da legalidade do ato inicial de aposentadoria, reforma ou pensão.
 
-> **Pegadinha:** ausência de contraditório prévio na apreciação inicial não equivale a ausência de limite temporal.
+Assim:
 
----
+- <abbr title="Súmula Vinculante">SV</abbr> 3 → explica a garantia de defesa e sua exceção na apreciação inicial;
+- Tema 445 → impede que essa apreciação inicial permaneça indefinidamente sem decisão.
 
-## 4. SV 5 — advogado no PAD
+### 6.3. Tema 47: a competência técnica sobre admissão não fica subordinada ao Legislativo
 
-A Súmula Vinculante 5 dispõe que:
+O Tema 47 do <abbr title="Supremo Tribunal Federal">STF</abbr> afirma que a competência técnica do **Tribunal de Contas do Estado**, ao negar registro de admissão de pessoal, **não se subordina à revisão pelo respectivo Poder Legislativo**.
 
-> a falta de defesa técnica por advogado no processo administrativo disciplinar **não ofende, por si só, a Constituição**.
+O precedente é importante porque separa a função técnica de registro exercida pelo tribunal de contas de uma suposta necessidade de confirmação política do Legislativo.
 
-A tese não elimina:
+### 6.4. Tema 899 e Tema 897: a fonte do ressarcimento muda a resposta sobre prescrição
 
-- contraditório;
-- ampla defesa;
-- ciência dos atos;
-- possibilidade de produzir defesa e provas nos termos do regime aplicável.
+Duas frases parecidas produzem respostas opostas se o fundamento jurídico muda:
 
-> **Pegadinha:** “advogado não é constitucionalmente indispensável no PAD” não significa “defesa é dispensável”.
+- **Tema 899:** é **prescritível** a pretensão de ressarcimento ao erário fundada em decisão de tribunal de contas;
+- **Tema 897:** são **imprescritíveis**, nos termos da tese, as ações de ressarcimento fundadas em prática de **ato doloso tipificado na Lei de Improbidade Administrativa**.
 
----
+Não memorize apenas “ressarcimento = prescreve” ou “ressarcimento = não prescreve”. Pergunte **qual é a origem da pretensão**.
 
-## 5. SV 13 — nepotismo
+## 7. Responsabilidade civil do Estado: dever, nexo e réu
 
-A Súmula Vinculante 13 veda, nos termos do seu enunciado, nomeação de:
+Três Temas do <abbr title="Supremo Tribunal Federal">STF</abbr> podem ser ligados por uma cadeia de raciocínio: havia dever estatal? O dano se conecta juridicamente à atuação estatal? Contra quem a vítima deve dirigir a ação?
 
-- cônjuge;
-- companheiro;
-- parente em linha reta, colateral ou por afinidade;
-- até o **terceiro grau**,
+### 7.1. Tema 592: dever específico de proteção do preso
 
-da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para cargo em comissão, função de confiança ou função gratificada.
+O Tema 592 reconhece responsabilidade do Estado pela morte de detento quando houver inobservância do **dever específico de proteção** previsto no art. 5º, XLIX, da Constituição.
 
-Também alcança **designações recíprocas**, o chamado nepotismo cruzado.
+Não basta ler “morte de preso = responsabilidade” e apagar a estrutura da tese. O dever específico e sua inobservância integram o raciocínio.
 
-### 5.1 Não simplifique cargos políticos
+### 7.2. Tema 362: a falha remota não elimina a exigência de nexo
 
-A jurisprudência sobre nomeações para cargos de natureza política possui desenvolvimento próprio. No corte de 6/7/2026, o **Tema 1000 do STF** ainda não possuía tese final de mérito que autorizasse transformar propostas de voto em regra definitiva do tema.
+No Tema 362, o <abbr title="Supremo Tribunal Federal">STF</abbr> afastou responsabilidade civil objetiva por crime praticado por pessoa foragida do sistema prisional quando **não demonstrado nexo causal direto** entre o momento da fuga e a conduta criminosa posterior.
 
-> **Corte de prova:** não trate tese ainda não fixada como precedente vinculante concluído.
+Nexo causal é o vínculo juridicamente relevante entre a atuação ou omissão atribuída ao Estado e o dano. A existência de uma falha estatal anterior, sozinha, não dispensa essa ligação.
 
----
+### 7.3. Tema 940: vítima e ação regressiva ocupam planos diferentes
 
-## 6. SV 21 — recurso administrativo sem depósito prévio
-
-A Súmula Vinculante 21 considera inconstitucional exigir:
-
-- depósito;
-- ou arrolamento prévio de dinheiro ou bens
-
-como requisito de admissibilidade de **recurso administrativo**.
-
-O núcleo é o acesso à revisão administrativa sem condicionamento patrimonial ilegítimo.
-
----
-
-## 7. SV 37 — Judiciário e aumento remuneratório por isonomia
-
-A Súmula Vinculante 37 afirma que o Poder Judiciário **não tem função legislativa** e, por isso, não pode aumentar vencimentos de servidores públicos apenas com fundamento em **isonomia**.
-
-A tese protege:
-
-- legalidade remuneratória;
-- reserva de lei;
-- separação de Poderes.
-
----
-
-## 8. SV 43 — provimento sem concurso em cargo fora da carreira
-
-A Súmula Vinculante 43 considera inconstitucional modalidade de provimento que permita ao servidor investir-se, sem aprovação prévia em concurso público destinado ao provimento daquele cargo, em:
-
-- cargo que não integra a carreira na qual estava anteriormente investido.
-
-É referência clássica contra formas de **ascensão ou transposição** incompatíveis com o art. 37, II, da Constituição.
-
----
-
-## 9. SV 44 — exame psicotécnico
-
-A Súmula Vinculante 44 estabelece que somente por **lei** pode ser exigido exame psicotécnico para habilitação de candidato a cargo público.
-
-A jurisprudência associada exige cuidado com:
-
-- previsão legal;
-- critérios objetivos;
-- possibilidade de controle;
-- publicidade adequada.
-
-> **Pegadinha:** previsão apenas no edital não substitui a exigência de base legal.
-
----
-
-# Súmulas ordinárias do STF
-
-## 10. Súmula 15 — preterição da ordem classificatória
-
-A Súmula 15 do STF protege o candidato aprovado quando, durante o prazo de validade do concurso, a Administração preenche o cargo sem observar a classificação.
-
-Ela deve ser lida em conjunto com a jurisprudência moderna sobre direito à nomeação.
-
----
-
-## 11. Súmulas 346 e 473 — autotutela
-
-### Súmula 346
-
-A Administração Pública pode declarar a nulidade de seus próprios atos.
-
-### Súmula 473
-
-A Administração pode:
-
-- **anular** atos ilegais, porque deles não se originam direitos válidos;
-- **revogar** atos válidos por conveniência ou oportunidade, respeitados os limites jurídicos;
-- sem afastar a apreciação judicial.
-
-### 11.1 Quadro de prova
-
-| Problema | Resposta |
-|---|---|
-| ilegalidade | anulação |
-| inconveniência de ato válido | revogação |
-| Judiciário substitui mérito legítimo? | não |
-| autotutela elimina devido processo? | não |
-
----
-
-## 12. Súmula 683 — limite de idade em concurso
-
-O limite de idade para inscrição em concurso público somente é legítimo quando puder ser justificado pela **natureza das atribuições do cargo**.
-
-A mesma lógica aparece no **Tema 646/STF**.
-
----
-
-## 13. Súmula 684 — veto imotivado à participação
-
-É inconstitucional o veto **não motivado** à participação de candidato em concurso público.
-
-A exigência administrativa deve possuir fundamento jurídico e justificativa compatível com a Constituição.
-
----
-
-# Concursos e agentes públicos — repercussão geral
-
-## 14. Tema 161 — aprovado dentro das vagas
-
-O STF reconhece direito subjetivo à nomeação do candidato aprovado **dentro do número de vagas previsto no edital**, durante o prazo de validade do concurso, ressalvadas situações excepcionalíssimas juridicamente justificadas.
-
-Esse precedente forma a regra básica de prova.
-
----
-
-## 15. Tema 784 — novas vagas não bastam para quem está fora
-
-O surgimento de novas vagas ou a abertura de novo concurso, durante a validade do certame anterior, **não gera automaticamente** direito à nomeação para candidato aprovado fora das vagas.
-
-O direito pode surgir quando houver **preterição arbitrária e imotivada**, demonstrada por comportamento administrativo que revele necessidade inequívoca de nomeação.
-
-### 15.1 Tema 161 × Tema 784
-
-| Situação | Regra |
-|---|---|
-| aprovado dentro das vagas | direito subjetivo à nomeação, como regra |
-| aprovado fora das vagas | expectativa, em regra |
-| novas vagas apenas | não geram direito automaticamente |
-| preterição arbitrária | pode converter expectativa em direito |
-
----
-
-## 16. Tema 1164 — extinção superveniente dos cargos
-
-O Tema 1164, com trânsito em julgado antes do corte, reconhece hipótese excepcional de mitigação do direito à nomeação de candidato aprovado dentro das vagas quando ocorre, de forma superveniente:
-
-- extinção dos cargos ofertados;
-- em contexto de superação do limite prudencial de despesa com pessoal;
-- antes do término da validade do concurso;
-- com motivação adequada e observância das condições fixadas pelo STF.
-
-> **Pegadinha:** não é autorização genérica para deixar de nomear aprovado dentro das vagas por mera conveniência.
-
----
-
-## 17. Tema 1010 — cargos em comissão
-
-O Tema 1010 fixa parâmetros constitucionais para criação de cargos em comissão.
-
-Em síntese, eles devem:
-
-1. destinar-se somente a **direção, chefia e assessoramento**;
-2. pressupor relação de **confiança**;
-3. guardar proporcionalidade com os cargos efetivos;
-4. ter atribuições descritas de forma clara e objetiva em lei.
-
-> **Pegadinha:** não basta chamar um posto de “cargo em comissão”; a natureza real das atribuições importa.
-
----
-
-## 18. Tema 485 — banca examinadora e Judiciário
-
-Em regra, o Poder Judiciário **não substitui a banca examinadora** para:
-
-- reexaminar conteúdo das questões;
-- revisar critérios de correção.
-
-Admite-se controle quando houver:
-
-- ilegalidade;
-- inconstitucionalidade.
-
-Isso é controle de juridicidade, não autorização para o juiz refazer tecnicamente a prova.
-
----
-
-## 19. Tema 646 — limite de idade
-
-O Tema 646 reafirma que limite de idade em concurso somente é constitucional quando justificado pela **natureza das atribuições do cargo**.
-
-É a leitura qualificada da matéria também sintetizada na Súmula 683/STF.
-
----
-
-# Poder de polícia e controle
-
-## 20. Tema 532 — delegação do poder de polícia
-
-O STF admite, mediante **lei**, delegação do poder de polícia a pessoa jurídica de direito privado integrante da Administração indireta que:
-
-- possua capital social majoritariamente público;
-- preste exclusivamente serviço público de atuação própria do Estado;
-- atue em regime não concorrencial.
-
-> **Pegadinha:** a tese não autoriza delegação irrestrita do poder de polícia a qualquer empresa privada.
-
----
-
-## 21. Tema 47 — controle dos atos de admissão
-
-O STF reconhece a competência constitucional dos tribunais de contas na apreciação de legalidade dos atos de admissão de pessoal sujeitos a registro.
-
-A atuação técnica do tribunal de contas nessa função não se transforma em simples manifestação subordinada ao Poder Legislativo.
-
----
-
-## 22. Tema 445 — cinco anos para aposentadoria, reforma e pensão
-
-Como visto na SV 3, o STF fixou prazo de **cinco anos** para a Corte de Contas julgar a legalidade do ato de concessão inicial de:
-
-- aposentadoria;
-- reforma;
-- pensão,
-
-contado da chegada do processo ao tribunal de contas.
-
----
-
-## 23. Tema 899 × Tema 897 — ressarcimento ao erário
-
-### Tema 899
-
-É **prescritível** a pretensão de ressarcimento ao erário fundada em decisão de tribunal de contas.
-
-### Tema 897
-
-São imprescritíveis, nos termos da tese constitucional, as ações de ressarcimento fundadas na prática de **ato doloso tipificado na Lei de Improbidade Administrativa**.
-
-### 23.1 Não confunda
-
-| Origem da pretensão | Regra |
-|---|---|
-| decisão de tribunal de contas | prescritível — Tema 899 |
-| ato doloso de improbidade | imprescritível, nos termos do Tema 897 |
-
----
-
-# Responsabilidade civil do Estado
-
-## 24. Tema 592 — morte de preso e dever específico de proteção
-
-O STF reconhece a responsabilidade estatal pela morte de detento quando houver inobservância do **dever específico de proteção** previsto no art. 5º, XLIX, da Constituição.
-
-A tese não autoriza ignorar a análise do dever estatal e do nexo causal.
-
----
-
-## 25. Tema 362 — preso foragido e nexo causal
-
-Não se caracteriza responsabilidade civil objetiva do Estado por crime praticado por pessoa foragida do sistema prisional quando **não demonstrado nexo causal direto** entre:
-
-- o momento da fuga;
-- e a conduta criminosa posterior.
-
-> **Regra curta:** falha estatal remota não dispensa nexo causal.
-
----
-
-## 26. Tema 940 — quem deve responder à vítima
-
-A ação indenizatória por dano causado por agente público, nessa qualidade, deve ser proposta contra:
+No Tema 940, a ação indenizatória por dano causado por agente público nessa qualidade deve ser proposta contra:
 
 - o Estado; ou
 - a pessoa jurídica de direito privado prestadora de serviço público, conforme o caso.
 
-O agente causador é parte ilegítima para a ação indenizatória direta da vítima, sem prejuízo do **regresso** em caso de dolo ou culpa.
+O agente causador não é o réu direto da ação indenizatória da vítima. Isso não impede **ação regressiva**, isto é, a cobrança posterior da pessoa jurídica contra o agente quando houver **dolo ou culpa**.
 
----
+A sequência fica clara: **vítima → pessoa jurídica; pessoa jurídica → agente, no regresso se presentes dolo ou culpa**.
 
-# Licitações, vínculos públicos e integridade
+## 8. Desapropriação indireta: a ponte necessária para o Tema 1019 do <abbr title="Superior Tribunal de Justiça">STJ</abbr>
 
-## 27. Tema 1001 — regra municipal antinepotismo em contratações
+Desapropriação indireta ocorre quando o Poder Público se apossa ou incorpora o bem a uma finalidade pública **sem concluir regularmente o procedimento expropriatório**, levando o proprietário à pretensão indenizatória correspondente. O assunto de desapropriação desenvolve o mecanismo completo; aqui basta essa premissa para entender o precedente.
 
-O STF reconheceu a constitucionalidade de norma municipal suplementar que, dentro da tese fixada no Tema 1001, impede licitações e contratações municipais em situações de conflito envolvendo agentes políticos, ocupantes de cargos de direção/confiança e vínculos familiares definidos na norma.
+No Tema Repetitivo 1019, o <abbr title="Superior Tribunal de Justiça">STJ</abbr> fixou prazo prescricional de **dez anos** para a pretensão de indenização por desapropriação indireta **na hipótese em que o Poder Público realizou obras no local ou atribuiu natureza de utilidade pública ou de interesse social ao imóvel**.
 
-A utilidade para este curso é compreender que a autonomia municipal pode estabelecer **restrições suplementares de integridade**, desde que compatíveis com a Constituição e com as condições da tese.
+A tese superou, para a hipótese delimitada, a reprodução automática do antigo prazo de vinte anos associado à Súmula 119 do <abbr title="Superior Tribunal de Justiça">STJ</abbr>, construída sob o Código Civil de 1916.
 
-> **Não confunda:** Tema 1001 não é a mesma coisa que a SV 13. A SV 13 trata diretamente de nepotismo em nomeações; o Tema 1001 envolve restrições municipais em licitações e contratos.
+O dado que deve permanecer unido ao número é: **Tema 1019 = dez anos na hipótese expressamente delimitada pelo repetitivo**.
 
----
+## 9. Como resolver uma questão sem transformar jurisprudência em lista
 
-# STJ — súmulas de Direito Administrativo
+Quando aparecer um número de súmula ou Tema, percorra quatro perguntas:
 
-## 28. Súmula 266 — diploma na posse
+1. **Que instrumento é esse?**  
+   Uma <abbr title="Súmula Vinculante">SV</abbr> do <abbr title="Supremo Tribunal Federal">STF</abbr>, uma súmula ordinária, uma tese de repercussão geral do <abbr title="Supremo Tribunal Federal">STF</abbr> ou um repetitivo do <abbr title="Superior Tribunal de Justiça">STJ</abbr>?
 
-O diploma ou habilitação legal para o exercício do cargo deve ser exigido **na posse**, e não na inscrição para o concurso.
+2. **Qual problema administrativo ele resolve?**  
+   Defesa, concurso, nepotismo, poder de polícia, controle de contas, responsabilidade ou desapropriação?
 
-Essa é uma das súmulas de concurso público mais recorrentes.
+3. **Qual palavra da alternativa apagou uma condição?**  
+   “Automaticamente”, “qualquer entidade”, “independentemente de prejuízo” e “sempre” costumam ser sinais de que uma tese condicionada foi alargada indevidamente.
 
----
+4. **O entendimento já estava formado no corte de 6 de julho de 2026?**  
+   O Tema 1164 já integrava o panorama; o Tema 1000 ainda não tinha tese final de mérito.
 
-## 29. Súmula 378 — desvio de função
-
-A Súmula 378 assegura ao servidor, quando reconhecido o **desvio de função**, o direito às diferenças salariais correspondentes.
-
-> **Pegadinha importante:** a Súmula 378 **não é súmula de PAD**.
-
----
-
-# Processo administrativo disciplinar — STJ
-
-## 30. Súmula 591 — prova emprestada
-
-É permitida a utilização de prova emprestada no processo administrativo disciplinar, desde que:
-
-- haja autorização judicial quando a prova estiver sujeita a reserva de jurisdição;
-- sejam respeitados contraditório e ampla defesa.
-
----
-
-## 31. Súmula 592 — excesso de prazo no PAD
-
-O excesso de prazo para conclusão do processo administrativo disciplinar **somente causa nulidade quando demonstrado prejuízo à defesa**.
-
-É aplicação da lógica de que não se declara nulidade processual automaticamente sem dano processual relevante.
-
----
-
-## 32. Súmula 665 — controle judicial do PAD
-
-O controle jurisdicional do processo administrativo disciplinar restringe-se, em regra, ao exame de:
-
-- regularidade do procedimento;
-- legalidade do ato;
-- contraditório;
-- ampla defesa;
-- devido processo legal.
-
-Não cabe incursão geral no mérito administrativo, ressalvadas hipóteses como:
-
-- flagrante ilegalidade;
-- teratologia;
-- manifesta desproporcionalidade da sanção.
-
----
-
-## 33. Súmula 672 — alteração do enquadramento jurídico
-
-A alteração da capitulação legal da conduta do servidor, por si só, **não anula o PAD**, desde que os fatos imputados estejam devidamente descritos e a defesa tenha podido contraditá-los.
-
-A defesa recai primordialmente sobre os **fatos**, não sobre uma etiqueta jurídica imutável.
-
----
-
-## 34. Súmula 674 — motivação per relationem
-
-A autoridade administrativa pode motivar sua decisão disciplinar mediante **remissão ou concordância com pareceres, informações, decisões ou propostas anteriores**, desde que os fundamentos utilizados permitam compreender as razões do ato.
-
-É a chamada motivação **per relationem**.
-
----
-
-# STJ — precedentes repetitivos selecionados
-
-## 35. Tema 1094 — graduação superior na mesma área
-
-No concurso público, candidato com formação de nível **superior** na mesma área profissional pode satisfazer requisito editalício de escolaridade técnica ou profissionalizante de nível médio, conforme a tese fixada no Tema 1094.
-
-> **Pegadinha:** não se trata de qualquer diploma superior; a correspondência com a mesma área profissional é essencial.
-
----
-
-## 36. Tema 1019 — desapropriação indireta
-
-O STJ fixou prazo prescricional de **dez anos** para a pretensão de indenização por desapropriação indireta, na hipótese em que o Poder Público:
-
-- realizou obras no local; ou
-- atribuiu natureza de utilidade pública ou interesse social ao imóvel.
-
-O fundamento utiliza o prazo da usucapião extraordinária com posse-trabalho do Código Civil.
-
-Esse precedente deve ser lido no lugar de fórmulas antigas que reproduzem automaticamente o prazo de vinte anos construído sob o Código Civil de 1916.
-
----
-
-# Quadros de consolidação
-
-## 37. Concurso público — mapa de precedentes
-
-| Precedente | Palavra-chave |
-|---|---|
-| STF Súmula 15 | preterição da classificação |
-| STF Súmula 683 / Tema 646 | idade justificada pelas atribuições |
-| STF Súmula 684 | veto imotivado |
-| SV 43 | sem ascensão para cargo fora da carreira |
-| SV 44 | psicotécnico exige lei |
-| Tema 161 | dentro das vagas |
-| Tema 784 | fora das vagas / preterição |
-| Tema 1164 | extinção superveniente dos cargos |
-| Tema 485 | banca examinadora |
-| STJ Súmula 266 | diploma na posse |
-| STJ Tema 1094 | formação superior na mesma área |
-
----
-
-## 38. PAD — mapa de precedentes
-
-| Precedente | Núcleo |
-|---|---|
-| SV 5 | advogado não é constitucionalmente indispensável |
-| STJ 591 | prova emprestada |
-| STJ 592 | atraso só anula com prejuízo |
-| STJ 665 | controle judicial limitado à juridicidade |
-| STJ 672 | mudança da capitulação não anula por si só |
-| STJ 674 | motivação per relationem |
-
-> **Não inclua a Súmula 378 neste bloco:** ela trata de desvio de função.
-
----
-
-## 39. Controle e autotutela
-
-| Precedente | Núcleo |
-|---|---|
-| STF 346 | Administração anula próprios atos |
-| STF 473 | anulação × revogação |
-| SV 3 | defesa no TCU + exceção registro inicial |
-| Tema 445 | cinco anos para registro inicial |
-| Tema 47 | competência dos tribunais de contas sobre admissão |
-| Tema 899 | ressarcimento fundado em decisão de TC prescritível |
-
----
-
-## 40. Responsabilidade civil
-
-| Tema | Fórmula |
-|---|---|
-| 592 | preso + dever específico de proteção |
-| 362 | foragido + sem nexo direto = sem responsabilidade objetiva |
-| 940 | vítima aciona pessoa jurídica; regresso contra agente |
-
----
-
-## 41. Roteiro para resolver questões
-
-### Passo 1 — qual é o tipo?
-
-Pergunte:
-
-- SV?
-- súmula ordinária?
-- repercussão geral?
-- repetitivo?
-
-### Passo 2 — qual o núcleo?
-
-Extraia a regra em uma frase.
-
-### Passo 3 — qual é a condição?
-
-Exemplos:
-
-- Tema 532 → não é qualquer entidade privada;
-- Tema 784 → novas vagas, sozinhas, não bastam;
-- Tema 592 → existe dever específico de proteção;
-- STJ 592 → atraso precisa causar prejuízo;
-- Tema 1019 → hipótese repetitiva definida.
-
-### Passo 4 — o enunciado usou palavra absoluta?
-
-Desconfie de:
-
-- “sempre”;
-- “nunca”;
-- “qualquer entidade”;
-- “independentemente de prejuízo”;
-- “automaticamente”.
-
-### Passo 5 — respeite o corte
-
-Em 6/7/2026:
-
-- Tema 1164 já estava definitivamente incorporado ao panorama;
-- Tema 1000 ainda não tinha tese final de mérito a ser ensinada como precedente concluído.
-
----
-
-## 42. Pegadinhas finais
-
-1. **STJ não edita súmula vinculante** do art. 103-A.
-2. Súmula ordinária **não é** automaticamente vinculante como SV.
-3. SV 5 dispensa advogado, **não a defesa**.
-4. SV 13 alcança parentesco até **3º grau** e nepotismo cruzado.
-5. SV 21 veda depósito/arrolamento como condição de recurso.
-6. SV 43 impede provimento em cargo fora da carreira sem concurso específico.
-7. SV 44: psicotécnico precisa de **lei**.
-8. Tema 784: vaga nova **não gera nomeação automática** de excedente.
-9. Tema 1164 é hipótese excepcional, não liberdade geral para descumprir edital.
-10. Tema 532 não autoriza delegação irrestrita do poder de polícia.
-11. Tema 899 e Tema 897 tratam de fundamentos diferentes do ressarcimento.
-12. Tema 362 reforça indispensabilidade do **nexo causal**.
-13. Tema 940 separa ação da vítima e ação regressiva.
-14. Súmula 378/STJ = **desvio de função**, não PAD.
-15. Súmula 592/STJ = atraso no PAD só anula com **prejuízo**.
-16. Tema 1019/STJ = **10 anos** na hipótese repetitiva.
-17. Tema 1000/STF: não transformar proposta de julgamento em tese final no corte.
-
----
+Se você consegue responder essas quatro perguntas, os números passam a funcionar como **endereços de regras compreendidas**, e não como uma sequência de códigos para decorar.

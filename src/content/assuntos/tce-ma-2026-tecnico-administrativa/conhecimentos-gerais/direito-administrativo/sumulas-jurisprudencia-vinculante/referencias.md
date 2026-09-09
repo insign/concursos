@@ -1,8 +1,12 @@
-### 43. Fontes oficiais para revisão
-
-- Constituição Federal, art. 103-A;
-- Lei nº 11.417/2006;
-- STF — pesquisa de Súmulas Vinculantes, Súmulas e Repercussão Geral;
-- STJ — pesquisa de Súmulas e Precedentes Qualificados/Recursos Repetitivos.
-
-Ao revisar, prefira sempre a **ficha oficial do precedente** à reprodução em material secundário, especialmente para conferir tese, situação do julgamento e data relevante ao corte.
+- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6 de julho de 2026, e documentos do concurso; referência para o corte temporal desta unidade.
+- [Constituição da República Federativa do Brasil de 1988 — texto compilado, Planalto](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — especialmente arts. 5º, XLIX; 37; 71; e 103-A.
+- [Lei nº 11.417, de 19 de dezembro de 2006 — Planalto](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11417.htm) — edição, revisão, cancelamento e observância de súmulas vinculantes.
+- [Supremo Tribunal Federal — Súmulas ordinárias](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30) — enunciados 15, 346, 473, 683 e 684, com jurisprudência de aplicação.
+- [Supremo Tribunal Federal — Súmulas Vinculantes](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26) — enunciados 3, 5, 13, 21, 37, 43 e 44.
+- [Supremo Tribunal Federal — pesquisa de Temas de Repercussão Geral](https://portal.stf.jus.br/jurisprudenciaRepercussao/tesesJulgamento.asp) — consulta das teses e do estado dos Temas 47, 161, 362, 445, 485, 532, 592, 646, 784, 897, 899, 940, 1000, 1001, 1010 e 1164.
+- [Supremo Tribunal Federal — Tema 1000](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=5461726&numeroProcesso=1133118&numeroTema=1000) — andamento usado para verificar que, em 6 de julho de 2026, ainda não havia tese final de mérito.
+- [Supremo Tribunal Federal — Tema 1164](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=6128716&numeroProcesso=1316010&numeroTema=1164) — tese e trânsito em julgado anteriores ao corte do edital.
+- [Superior Tribunal de Justiça — Súmulas](https://processo.stj.jus.br/SCON/pesquisar.jsp?b=SUMU&tipo=sumula) — enunciados 266, 378, 591, 592, 665, 672 e 674.
+- [Superior Tribunal de Justiça — Informativo de Jurisprudência nº 610](https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&from=feed&livre=0610.cod.) — publicação oficial das Súmulas 591 e 592.
+- [Superior Tribunal de Justiça — Tema Repetitivo 1094](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_final=1094&cod_tema_inicial=1094&i=1&novaConsulta=true&ordenacaoCriterio=1&ordenacaoDecrescente=1&p=true&quantidadeResultadosPorPagina=10&tipo_pesquisa=T) — escolaridade superior na mesma área profissional para requisito técnico ou profissionalizante.
+- [Superior Tribunal de Justiça — Tema Repetitivo 1019](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_final=1019&cod_tema_inicial=1019&novaConsulta=true&tipo_pesquisa=T) — prazo prescricional de dez anos na hipótese delimitada de desapropriação indireta.
