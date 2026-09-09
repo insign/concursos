@@ -1,4 +1,6 @@
-- [Constituição da República Federativa do Brasil de 1988 — texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — Presidência da República, arts. 18 a 33; corte de 6/7/2026; acesso em 17/8/2026.
-- [Emenda Constitucional nº 139/2026](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc139.htm) — alteração do art. 31, § 1º, e do art. 75; vigente antes do edital; acesso em 17/8/2026.
-- [Lei Complementar nº 230/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp230.htm) — desmembramento de parte de município para incorporação a município limítrofe; vigente antes do edital; acesso em 17/8/2026.
-- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026, consolidado com o Edital nº 2, de 29/7/2026; acesso em 17/8/2026.
+- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026; referência para o recorte e o corte temporal desta unidade.
+- [Constituição da República Federativa do Brasil de 1988 — texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — Presidência da República; arts. 18 a 33, texto vigente no corte de 6/7/2026.
+- [Emenda Constitucional nº 111/2021](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc111.htm) — alteração do art. 28, inclusive posse de Governador e Vice-Governador em 6 de janeiro.
+- [Emenda Constitucional nº 115/2022](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc115.htm) — competências da União sobre proteção e tratamento de dados pessoais nos arts. 21, XXVI, e 22, XXX.
+- [Emenda Constitucional nº 139/2026](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc139.htm) — alteração do art. 31, § 1º, e do art. 75; vigente antes do edital.
+- [Lei Complementar nº 230/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp230.htm) — normas gerais para desmembramento de parte de município e incorporação a outro limítrofe, com regras procedimentais e temporais vigentes no corte.
