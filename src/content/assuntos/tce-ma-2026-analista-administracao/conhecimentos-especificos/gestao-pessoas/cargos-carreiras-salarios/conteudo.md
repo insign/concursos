@@ -8,248 +8,179 @@ storageId: "gp-cargos-carreiras-salarios"
 
 # Administração de cargos, carreiras e salários
 
-## 1. Recorte e corte temporal
+Imagine uma situação hipotética: dois cargos têm títulos parecidos, mas responsabilidades diferentes; o mercado paga mais por certa especialidade; e técnicos experientes só conseguem crescer se virarem gestores. **Qual problema deve ser resolvido em cada caso?**
 
-O edital cobra **Administração de cargos, carreiras e salários**. O núcleo é compreender como a organização estrutura cargos, compara seu valor relativo, define políticas e faixas de remuneração e organiza trajetórias profissionais.
+O percurso central é:
 
-> **Corte de prova:** regras e referências vigentes em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Consultas editoriais posteriores não alteram esse corte.
+> **compreender o trabalho → comparar o valor relativo dos cargos → observar o mercado → definir política e estrutura remuneratória → organizar trajetórias → aplicar os limites do regime**
 
-Este assunto usa análise e descrição de cargos apenas como **insumos**. Métodos detalhados de análise de cargos pertencem ao assunto anterior. Também não se deve transformar este item em estudo autônomo de regime jurídico de servidores.
+Avaliar cargos não é avaliar pessoas; pesquisar salários não fixa remuneração; desenhar carreira não cria promoção automática.
 
-## 2. Conceitos essenciais
+> **Corte de prova:** regras e referências vigentes em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Consultas editoriais posteriores não alteram esse corte.
 
-| Conceito | Núcleo |
+## 1. O objeto é o trabalho, não o ocupante
+
+Análise e descrição de cargos fornecem o insumo para as decisões desta unidade. A ponte mínima é:
+
+| Processo | Pergunta central |
 | --- | --- |
-| **tarefa** | ação ou sequência delimitada de trabalho |
-| **posição** | instância individual de um cargo, ocupada ou vaga |
-| **cargo** | conjunto organizado de atribuições, responsabilidades e requisitos |
-| **emprego** | relação de trabalho contratual conforme o regime aplicável |
-| **função** | atividade, conjunto funcional ou encargo; o sentido depende do contexto |
-| **ocupação** | agrupamento mais amplo de trabalhos semelhantes |
+| **análise/descrição de cargos** | o que o trabalho exige e entrega? |
+| **avaliação de cargos** | qual é seu valor relativo diante de outros cargos? |
+| **pesquisa salarial** | quanto se paga por trabalhos comparáveis? |
+| **avaliação de desempenho** | como a pessoa entregou o trabalho no período? |
 
-O ocupante **não é o cargo**. Títulos iguais também não garantem trabalhos equivalentes.
+**Cargo não é ocupante.** A **descrição** registra propósito, tarefas, responsabilidades, relações, autoridade e condições do trabalho; a **especificação** reúne requisitos pertinentes para desempenhá-lo. O **desenho do trabalho** decide como tarefas, autoridade, recursos e interfaces serão combinados, enquanto a análise levanta evidências. Qualificação excepcional, desempenho alto ou salário histórico de uma pessoa não alteram, por si sós, o valor relativo do cargo.
 
-Para este assunto, a distinção decisiva é:
+Classificação ocupacional externa é apenas referência: não cria cargo público nem fixa vencimento. Da mesma forma, uma nota de desempenho adequada a uma finalidade não se torna automaticamente válida para decisão remuneratória ou de carreira.
 
-- **análise/descrição do cargo:** identifica e documenta o trabalho;
-- **avaliação de cargos:** estima o **valor relativo do trabalho** para comparação interna;
-- **avaliação de desempenho:** julga como a **pessoa** entregou o trabalho em determinado período.
+## 2. Plano de cargos, carreiras e salários
 
-## 3. Plano de cargos, carreiras e salários
+Um plano de <abbr title="Cargos, carreiras e salários">CCS</abbr> integra **arquitetura de cargos, política remuneratória e trajetórias profissionais**. Busca equidade interna, posição consciente diante do mercado, clareza, atração, retenção, desenvolvimento e sustentabilidade.
 
-Um plano de cargos, carreiras e salários (CCS) busca organizar responsabilidades, trajetórias e recompensas de forma coerente e sustentável.
+Um fluxo típico é:
 
-### 3.1 Objetivos
+> **governança e diagnóstico → descrições válidas → arquitetura → avaliação de cargos → pesquisa salarial → política/faixas → carreira → simulação jurídica e orçamentária → implantação**
 
-Entre os objetivos mais comuns estão:
+O processo pode voltar etapas quando mercado, custos ou descrição do trabalho revelam inconsistências. O plano técnico não cria, por si, promoção, reajuste ou vantagem.
 
-- promover **equidade interna**;
-- manter posição consciente diante do mercado (**competitividade externa**);
-- tornar critérios de carreira e remuneração mais claros;
-- apoiar atração, retenção e desenvolvimento;
-- reduzir decisões casuísticas;
-- conciliar reconhecimento, orçamento, estratégia e legalidade.
+## 3. O que condiciona salários e política salarial
 
-Nenhum desses objetivos cria, por si só, direito a promoção, vantagem ou reajuste.
+A remuneração é influenciada por fatores **internos** — valor dos cargos, política salarial, estratégia e capacidade financeira — e **externos** — mercado de trabalho, conjuntura econômica, custo de vida, legislação e negociação aplicável. Algumas referências chamam esse conjunto de **composto salarial** ou <abbr title="Conjunto de fatores internos e externos que influenciam salários">wage mix</abbr>.
 
-### 3.2 Fluxo básico
+A **política salarial** explicita a orientação da organização: posição pretendida diante do mercado, critérios de crescimento, componentes considerados e limites decisórios. Deve evitar distorções, como valorizar sistematicamente novas contratações em detrimento de pessoas já inseridas em trabalhos comparáveis sem justificativa.
 
-Um percurso típico é:
+## 4. Avaliação de cargos: valor relativo interno
 
-1. definir governança, escopo e critérios;
-2. diagnosticar estrutura, trabalho, problemas e restrições;
-3. revisar descrições e requisitos dos cargos necessários à comparação;
-4. desenhar famílias, níveis, trilhas e regras de movimentação;
-5. avaliar cargos e pesquisar o mercado relevante;
-6. definir política, grades/faixas e critérios de posicionamento;
-7. simular custos e transição;
-8. validar juridicamente e orçamentariamente;
-9. implantar, comunicar e monitorar.
+Avaliar cargos é comparar trabalhos segundo critérios definidos. O resultado apoia a estrutura interna; não se converte automaticamente em dinheiro.
 
-O processo pode ser iterativo: inconsistências encontradas na pesquisa, na avaliação ou na simulação podem exigir revisão da arquitetura.
+Fatores podem refletir conhecimento, complexidade, responsabilidade, impacto, autonomia e condições de trabalho. Em classificação clássica recorrente em prova, aparecem **requisitos mentais, requisitos físicos, responsabilidades e condições de trabalho**.
 
-## 4. Avaliação de cargos
-
-A **avaliação de cargos** procura estabelecer a hierarquia relativa dos trabalhos. O objeto é o **cargo**, não a pessoa que o ocupa.
-
-Fatores frequentes incluem conhecimento requerido, complexidade, responsabilidade, impacto, autonomia e condições de trabalho. Os fatores devem ser relacionados ao trabalho e aplicados de modo consistente.
-
-### 4.1 Métodos
+### 4.1 Métodos clássicos
 
 | Método | Como funciona | Vantagem | Limitação |
 | --- | --- | --- | --- |
-| **ranking** | ordena cargos do menor ao maior valor relativo | simples e rápido | não mostra distância entre cargos; perde qualidade em estruturas grandes/heterogêneas |
-| **graus/classes** | encaixa cargos em classes previamente descritas | fácil comunicação e administração | fronteiras entre classes podem ser vagas ou discutíveis |
-| **comparação por fatores** | compara cargos em fatores compensáveis, podendo relacioná-los a referências monetárias | análise detalhada por fator | maior complexidade e risco de reproduzir valores históricos inadequados |
-| **pontos por fator** | atribui graus, pesos e pontos a fatores e soma o resultado | rastreabilidade e critérios explícitos | custo de construção, escolhas subjetivas e possível falsa precisão |
+| **escalonamento simples** | ordena globalmente os cargos | simples e rápido | não mostra distância entre cargos |
+| **graus/classes** | encaixa cargos em classes predeterminadas | fácil administração | fronteiras podem ser vagas |
+| **comparação por fatores** | compara cargos em <abbr title="Critérios usados para comparar o valor relativo dos cargos">fatores compensáveis</abbr> | detalha diferenças por fator | maior complexidade |
+| **pontos por fator** | soma pontos de graus e pesos dos fatores | critérios explícitos e rastreáveis | pode criar falsa precisão |
 
-### 4.2 Regras de interpretação
+No método de pontos, números não eliminam julgamento: fatores, graus e pesos ainda precisam ser válidos.
 
-- avaliação de cargos **não mede desempenho individual**;
-- pontuação alta **não autoriza automaticamente salário maior**;
-- descrição válida do trabalho é pré-requisito para boa avaliação;
-- fatores, pesos e graus são escolhas técnicas que precisam de justificativa;
-- resultados devem ser documentados e revisáveis.
+### 4.2 Comitê de avaliação
 
-## 5. Pesquisa salarial e política de mercado
+Um comitê pode uniformizar critérios, discutir divergências, melhorar a hierarquização e ampliar a aceitação pela participação de áreas diferentes. Ele **não precisa ser único para todos os grupos ocupacionais** e não produz equilíbrio externo; este depende da pesquisa salarial.
 
-A pesquisa salarial compara a remuneração praticada por **trabalhos comparáveis**. O pareamento deve considerar conteúdo, responsabilidade, complexidade, requisitos, jornada, localidade, setor, porte e composição da recompensa.
+## 5. Pesquisa salarial: mercado comparável
 
-**Pegadinha:** comparar apenas o título do cargo é insuficiente.
+Pesquisa salarial compara **trabalhos**, não títulos. O pareamento considera conteúdo, responsabilidade, complexidade, requisitos, jornada, localidade, setor, porte e componentes da remuneração.
 
-Uma pesquisa útil deixa claro:
+**Cargos de referência ou amostrais** devem, em geral, cobrir diferentes pontos da estrutura, ser identificáveis no mercado e representar áreas relevantes. Na escolha das organizações pesquisadas podem importar ramo, porte, localização, regime, benefícios e política salarial. Para cargos operacionais dependentes do mercado local, **localização geográfica** pode ser decisiva.
 
-- mercado de referência;
-- data-base;
-- amostra e método;
-- componentes remuneratórios considerados;
-- tratamento de valores extremos;
-- percentis ou outras medidas usadas;
-- limites de comparabilidade.
+A pesquisa deve declarar data-base, amostra e componentes considerados. Comparar salário-base de uma organização com remuneração total de outra distorce o resultado.
 
-**Competitividade externa** não significa pagar sempre acima do mercado. A organização pode deliberadamente acompanhar, liderar ou ficar abaixo de determinada referência, avaliando custos e efeitos sobre atração e retenção.
+## 6. Curva e faixas salariais
 
-## 6. Curva, grades e faixas salariais
+A **curva salarial** relaciona valor relativo dos cargos — classes ou pontos — e remuneração. Com vários pares de pontos e salários, pode-se estimar uma linha de tendência. Em estruturas por pontos, uma técnica clássica é o ajuste por **mínimos quadrados**, que minimiza a soma dos quadrados dos desvios entre valores observados e estimados.
 
-Uma **curva salarial** relaciona o valor relativo dos cargos à remuneração observada ou pretendida. Ela apoia decisões; não é regra automática de pagamento.
+Uma faixa salarial costuma ter **mínimo, ponto médio** (<abbr title="Ponto médio da faixa salarial">midpoint</abbr>) **e máximo**. O ponto médio é referência, não salário obrigatório. Sobreposição entre faixas pode permitir crescimento sem promoção imediata; excesso reduz a clareza entre níveis.
 
-Uma faixa salarial costuma possuir:
-
-- **mínimo**;
-- **ponto médio (midpoint)**;
-- **máximo**.
-
-Faixas podem se sobrepor para permitir crescimento dentro do nível e movimentos sem promoção imediata. Sobreposição excessiva, porém, pode reduzir a clareza entre níveis.
-
-### 6.1 Compressão salarial
-
-Há **compressão salarial** quando diferenças entre níveis, experiências ou responsabilidades tornam-se pequenas demais para refletir a arquitetura pretendida. Pode surgir, por exemplo, quando salários de entrada sobem mais rapidamente que os salários de pessoas mais experientes.
-
-A correção exige diagnóstico: a existência de compressão não determina, sozinha, qual reajuste ou enquadramento deve ocorrer.
+**Compressão salarial** ocorre quando diferenças entre níveis, experiências ou responsabilidades ficam pequenas demais para a arquitetura pretendida. O diagnóstico não determina sozinho a solução.
 
 ## 7. Equidade
 
-### Equidade interna
+| Dimensão | Pergunta |
+| --- | --- |
+| **interna** | trabalhos de valor semelhante recebem tratamento coerente? |
+| **externa** | como a remuneração se posiciona no mercado relevante? |
+| **individual** | diferenças entre pessoas comparáveis são justificáveis? |
+| **processual** | critérios e decisões são consistentes e explicáveis? |
 
-É a coerência entre o valor relativo dos trabalhos e as recompensas dentro da organização. Não exige salários iguais para cargos diferentes.
-
-### Equidade externa
-
-É a posição da remuneração diante do mercado relevante. Também é chamada, em muitos contextos, de competitividade externa.
-
-### Equidade individual e processual
-
-- **individual:** pessoas em situações comparáveis devem receber tratamento coerente, salvo diferenças justificáveis;
-- **processual:** critérios, decisões, comunicação e revisão devem ser consistentes e imparciais.
-
-Equidade não significa uniformidade absoluta. Diferenças precisam ser justificáveis pelos critérios do sistema e pelo regime aplicável.
+Equidade não significa pagar igual a todos. **Competitividade externa** também não significa pagar sempre acima do mercado: a posição escolhida depende de atração, retenção, sustentabilidade e regime aplicável.
 
 ## 8. Remuneração e recompensas
 
-### 8.1 Remuneração fixa
+A **remuneração funcional** toma o cargo e seu valor relativo como base principal. Favorece clareza e equilíbrio interno/externo, mas pode tornar a estrutura rígida quando diferenças de repertório ou contribuição precisam ser reconhecidas.
 
-É a parcela recorrente associada ao cargo, nível, jornada ou regime. Oferece previsibilidade e representa o posicionamento estrutural do trabalho.
+| Componente | Núcleo |
+| --- | --- |
+| **fixa** | parcela recorrente ligada ao cargo, nível, jornada ou regime |
+| **variável** | depende de condição, meta ou resultado |
+| **benefícios** | componentes indiretos ou serviços |
+| **não financeira** | reconhecimento, autonomia, aprendizagem e oportunidades |
 
-### 8.2 Remuneração variável
+A **recompensa total** integra esses componentes. A **remuneração estratégica** procura alinhá-los a objetivos organizacionais; pode favorecer atração, retenção e desempenho, mas também gerar competição, curto-prazismo ou manipulação se mal desenhada.
 
-Depende de condição, resultado ou desempenho definido. Pode estimular alinhamento e reconhecimento, mas cria riscos de:
+Um plano de incentivos deve tornar compreensível a relação entre esforço, resultado e recompensa; usar metas percebidas como alcançáveis e influenciáveis; contar com apoio gerencial; e equilibrar quantidade com qualidade.
 
-- curto-prazismo;
-- manipulação de indicadores;
-- competição disfuncional;
-- foco excessivo no mensurável;
-- punição por fatores fora do controle do trabalhador.
-
-O desenho deve estabelecer critérios, métricas, período, fontes de dados, limites e governança.
-
-### 8.3 Benefícios e recompensas não financeiras
-
-**Benefícios** são componentes indiretos ou serviços associados à relação de trabalho, conforme o regime. **Recompensas não financeiras** incluem reconhecimento, autonomia, aprendizagem, oportunidades de carreira, qualidade de vida e trabalho significativo.
-
-A abordagem de **recompensa total** considera o conjunto de remuneração, benefícios, desenvolvimento e experiência de trabalho.
+Pagamento por **habilidades ou competências** reconhece repertórios ou capacidades pertinentes. Pagamento por **desempenho** reconhece entregas do período. **Capacidade reconhecida ≠ resultado já entregue.**
 
 ## 9. Estruturas remuneratórias
 
-### 9.1 Estrutura tradicional
+| Estrutura | Vantagem | Limitação |
+| --- | --- | --- |
+| **tradicional** | clareza, previsibilidade e controle | rigidez e muitos degraus |
+| **<abbr title="Estrutura com poucas faixas salariais mais amplas">broadbanding</abbr>** | flexibilidade e movimentos laterais | maior discricionariedade e risco de compressão |
 
-Usa níveis ou grades mais numerosos e faixas relativamente estreitas.
-
-**Vantagens:** clareza, previsibilidade, controle e facilidade orçamentária.
-
-**Limitações:** rigidez, muitos degraus e incentivo à promoção como principal forma de reconhecimento.
-
-### 9.2 Broadbanding
-
-Reúne vários níveis em **poucas faixas mais largas**.
-
-**Vantagens:** flexibilidade, movimentos laterais e reconhecimento dentro de uma faixa ampla.
-
-**Limitações:** maior discricionariedade, dificuldade de posicionamento e risco de compressão se faltarem critérios e governança.
-
-### 9.3 Pagamento por habilidades ou competências
-
-Esses modelos podem reconhecer repertórios ou capacidades relevantes para o trabalho. Não se confundem com pagamento por desempenho do período.
-
-Como **gestão por competências** é assunto próprio do edital, aqui basta compreender a distinção remuneratória: pagar por capacidade reconhecida é diferente de recompensar resultado já entregue.
+Faixa mais larga não significa liberdade irrestrita para posicionar salários; critérios e governança continuam necessários.
 
 ## 10. Carreiras e movimentações
 
-Carreira é a sequência de experiências, níveis, papéis e movimentos profissionais ao longo do tempo. Não precisa ser exclusivamente vertical.
+**Carreira** é a sequência de experiências, papéis, níveis e movimentos profissionais. Diferencie:
+
+- **plano de carreira:** possibilidades e regras oferecidas pela organização;
+- **planejamento individual:** escolhas e ações da pessoa;
+- **metas individuais de carreira:** posições ou papéis que a pessoa pretende alcançar.
+
+Meta individual não equivale a direito de promoção.
 
 ### 10.1 Formatos usuais
 
 | Formato | Ideia central |
 | --- | --- |
-| **em linha** | caminho vertical relativamente único |
-| **em Y** | bifurcação típica entre trilha gerencial e técnica |
-| **paralela** | trilhas distintas coexistentes, frequentemente técnica e gerencial |
-| **em rede** | movimentos laterais, diagonais e entre famílias/projetos |
+| **linha** | caminho vertical relativamente único |
+| **Y** | bifurcação típica entre trilha técnica e gerencial |
+| **paralela** | trilhas distintas coexistentes |
+| **rede** | movimentos laterais, diagonais e entre projetos |
+| **W** | múltiplos caminhos, podendo incluir especialização, gestão e projetos |
+| **sem fronteiras** | trajetória também entre organizações, profissões e redes |
 
-Modelos **W** e **sem fronteiras** podem aparecer como extensões: o W costuma representar múltiplos caminhos, inclusive projetos; a carreira sem fronteiras destaca trajetórias que atravessam organizações e redes. As denominações não são inteiramente uniformes entre autores.
+Os rótulos variam entre autores. Em Y, paralela e W, leia o **desenho descrito**, não apenas o nome.
 
-### 10.2 Mobilidade, progressão e promoção
+### 10.2 Mobilidade, progressão, promoção e sucessão
 
-- **mobilidade:** mudança de unidade, área, projeto, função ou trilha; pode ser lateral e não implica promoção;
-- **progressão:** avanço dentro da mesma carreira, classe, nível ou faixa, conforme as regras aplicáveis;
-- **promoção:** passagem para nível ou posição superior, normalmente com maior complexidade ou responsabilidade.
+- **mobilidade:** mudança de unidade, área, projeto ou trilha; pode ser lateral;
+- **progressão:** avanço dentro da mesma carreira, classe, nível ou faixa;
+- **promoção:** passagem para nível ou posição superior;
+- **sucessão:** desenvolvimento de capacidades para continuidade em posições críticas.
 
-O sentido jurídico concreto de progressão e promoção depende da norma aplicável. Um modelo acadêmico não cria direito à movimentação.
+Os sentidos jurídicos concretos dependem da norma aplicável. Plano de sucessão não é nomeação antecipada.
 
-## 11. Limites essenciais no setor público
+## 11. Limites no setor público
 
-No setor público, ferramentas de gestão não substituem Constituição, lei, orçamento ou competência da autoridade responsável.
+Técnicas de administração salarial ajudam a diagnosticar e propor; **não substituem Constituição, lei, orçamento nem competência institucional**.
 
-Para este assunto, os limites diretamente ligados à remuneração são os mais relevantes:
-
-- **art. 37, X:** fixação ou alteração remuneratória depende de lei específica, observadas as regras constitucionais;
-- **art. 37, XI:** existe teto remuneratório constitucional;
-- **art. 37, XIII:** é vedada vinculação ou equiparação remuneratória para efeito de remuneração de pessoal;
-- **art. 37, XV:** subsídio e vencimentos são irredutíveis, ressalvadas as hipóteses constitucionais;
-- **art. 39, § 1º:** padrões de vencimento devem considerar natureza, responsabilidade, complexidade, requisitos de investidura e peculiaridades dos cargos;
-- **Súmula Vinculante 37/<abbr title="Supremo Tribunal Federal">STF</abbr>:** o Judiciário não pode aumentar vencimentos de servidores sob fundamento de isonomia.
-
-**Subsídio** é forma remuneratória prevista constitucionalmente para determinados agentes e pode alcançar servidores organizados em carreira quando o regime competente assim estabelecer. Não se deve presumir sua adoção para qualquer cargo.
-
-### Regra de prudência para o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>
-
-O edital informa o concurso, o cargo, requisitos, jornada e remuneração do certame. Ele **não permite inventar** progressões, classes, benefícios, vantagens ou critérios de carreira futuros do Tribunal. Qualquer afirmação concreta sobre esses pontos exige fonte estadual ou institucional aplicável.
-
-## 12. Pegadinhas de prova
-
-| Afirmação | Avaliação |
+| Regra | Núcleo |
 | --- | --- |
-| avaliação de cargos mede desempenho do titular | errada |
-| ranking mostra a distância exata entre cargos | errada |
-| pontos por fator usa fatores, graus, pesos e pontos | correta |
-| pesquisa salarial deve comparar apenas títulos | errada |
-| competitividade externa exige pagar sempre acima do mercado | errada |
-| faixa salarial costuma ter mínimo, ponto médio e máximo | correta |
-| sobreposição excessiva pode reduzir clareza entre níveis | correta |
-| equidade interna significa salários idênticos para todos | errada |
-| remuneração variável pode gerar incentivos disfuncionais | correta |
-| broadbanding usa poucas faixas mais largas | correta |
-| mobilidade lateral é necessariamente promoção | errada |
-| progressão e promoção são sinônimos universais | errada |
-| avaliação de cargos autoriza sozinha aumento no setor público | errada |
-| pesquisa de mercado substitui lei específica | errada |
-| SV 37 autoriza equiparação judicial por isonomia | errada |
+| **<abbr title="Artigo">art.</abbr> 37, X** | remuneração e subsídio só podem ser fixados ou alterados por lei específica; o texto assegura revisão geral anual na mesma data e sem distinção de índices |
+| **<abbr title="Artigo">art.</abbr> 37, XI** | existem limites remuneratórios constitucionais |
+| **<abbr title="Artigo">art.</abbr> 37, XIII** | é vedada vinculação ou equiparação de espécies remuneratórias |
+| **<abbr title="Artigo">art.</abbr> 37, XV** | subsídio e vencimentos são irredutíveis, ressalvadas hipóteses constitucionais |
+| **<abbr title="Artigo">art.</abbr> 39, § 1º** | padrões de vencimento consideram natureza, responsabilidade, complexidade, requisitos de investidura e peculiaridades dos cargos |
+| **Súmula Vinculante 37 do <abbr title="Supremo Tribunal Federal">STF</abbr>** | o Judiciário não aumenta vencimentos de servidores sob fundamento de isonomia |
+
+A Constituição permite remuneração por **subsídio** para servidores organizados em carreira nos termos constitucionais; isso não autoriza presumir sua adoção em qualquer carreira.
+
+Para o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, avaliação de cargos, pesquisa de mercado e desenho de carreira são **insumos**. Sem fonte estadual ou institucional aplicável, não se inventam classes, benefícios, progressões ou critérios remuneratórios do Tribunal.
+
+## 12. Como raciocinar em prova
+
+Pergunte:
+
+1. o objeto é **cargo, pessoa, mercado ou carreira**?
+2. a comparação é **interna ou externa**?
+3. o método ordena cargos ou usa **classes, fatores ou pontos**?
+4. a remuneração reconhece **cargo, capacidade ou resultado**?
+5. a movimentação é **lateral, progressão ou promoção**?
+6. há técnica de gestão ou o item está prometendo **efeito jurídico automático**?
+
+O mapa final é: **avaliação de cargos organiza valor relativo; pesquisa salarial informa o mercado; política e faixas transformam insumos em estrutura; carreira organiza trajetórias; no setor público, a decisão efetiva continua condicionada ao regime jurídico competente**.
