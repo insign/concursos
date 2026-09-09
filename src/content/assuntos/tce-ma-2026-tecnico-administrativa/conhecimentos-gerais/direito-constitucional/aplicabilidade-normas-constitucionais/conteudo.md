@@ -8,302 +8,220 @@ storageId: tec-aplicabilidade-124
 
 # Aplicabilidade das normas constitucionais: eficácia plena, contida e limitada; normas programáticas
 
-## 1. Recorte do edital e corte temporal
+## 1. A pergunta que classifica a norma: o que falta para ela funcionar?
 
-O Cargo 16 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> cobra, em Direito Constitucional, **aplicabilidade das normas constitucionais**, com menção expressa a **normas de eficácia plena, contida e limitada** e a **normas programáticas**. O Edital nº 2, de 29/7/2026, ampliou a relação de cargos excluídos da matéria, mas não alterou esses itens para o Cargo 16.
+Considere três comandos constitucionais.
 
-> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1. A classificação estudada é predominantemente doutrinária. Jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr> é usada aqui apenas para fixar exemplos e efeitos, sem antecipar assuntos constitucionais vizinhos.
+No primeiro, a Constituição já disciplina suficientemente uma situação e não deixa elemento indispensável para uma lei completar. No segundo, um direito já pode ser exercido, mas a própria Constituição autoriza que a lei reduza legitimamente seu alcance. No terceiro, a Constituição traça o comando, porém deixa à legislação posterior uma peça indispensável para que seus efeitos essenciais se realizem integralmente.
 
-O ponto central é responder: **quanto do comando constitucional já pode produzir seus efeitos essenciais por força do próprio texto e qual papel cabe à legislação posterior?**
+Os três comandos têm força constitucional. O que muda é **quanto já pode ser realizado por força do próprio texto e qual função cabe à atuação posterior**.
 
----
+Essa é a lógica da classificação clássica associada a José Afonso da Silva:
 
-## 2. Eficácia, aplicabilidade e efetividade
+- se o texto já contém disciplina suficiente para produzir todos os efeitos essenciais, a norma é de **eficácia plena**;
+- se o texto já produz efeitos, mas admite **contenção** constitucionalmente autorizada, a norma é de **eficácia contida**;
+- se falta **integração** indispensável para a realização integral dos efeitos essenciais, a norma é de **eficácia limitada**.
 
-Os conceitos são próximos, mas não idênticos.
+A diferença mais importante não está em contar quantas vezes o dispositivo menciona “lei”. Está em perguntar **o que a lei posterior faz**: apenas organiza, restringe um campo já existente ou completa algo sem o qual a concretização integral ainda não ocorre.
 
-- **Eficácia jurídica:** aptidão da norma para produzir efeitos no ordenamento.
-- **Aplicabilidade:** modo e momento em que a norma pode incidir sobre situações concretas.
-- **Efetividade:** realização prática e social do comando constitucional.
+> **Corte de prova:** esta unidade considera o recorte do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, de **6 de julho de 2026**. A classificação estudada é predominantemente doutrinária; a jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr> entra como fonte de exemplos seguros e de efeitos jurídicos.
 
-Uma norma pode ter força jurídica e, ainda assim, depender de integração para a produção integral de determinados efeitos. Por isso, **norma de eficácia limitada não é norma sem eficácia**.
+## 2. Três palavras próximas que não significam a mesma coisa
 
----
+Antes de classificar, separe três planos.
 
-## 3. A matriz clássica
+**Eficácia jurídica** é a aptidão da norma para produzir efeitos no ordenamento. Uma norma constitucional pode ter eficácia jurídica mesmo que ainda não consiga realizar integralmente tudo o que projeta.
 
-A classificação tradicional associada a José Afonso da Silva divide as normas constitucionais, quanto à eficácia e aplicabilidade, em três grupos.
+**Aplicabilidade** descreve o modo e o momento em que a norma pode incidir sobre situações concretas. Por isso a classificação usa expressões como aplicação direta, imediata, integral, indireta ou mediata.
 
-| Categoria | Aplicabilidade inicial | Efeitos essenciais desde a Constituição | Papel típico da lei posterior |
-|---|---|---|---|
-| **Plena** | direta, imediata e integral | produz ou pode produzir todos | detalhar/organizar sem completar o núcleo |
-| **Contida** | direta e imediata | já produz | **restringir** alcance dentro da autorização constitucional |
-| **Limitada** | indireta/mediata quanto à realização integral | não produz integralmente todos | **integrar/completar** o comando |
+**Efetividade** olha para o mundo dos fatos: é a realização prática e social do comando. Uma norma pode ser juridicamente eficaz e ter baixa efetividade social. Não há contradição, porque são perguntas diferentes.
 
-Regra de resolução:
+Essa separação evita o primeiro erro do tema: **eficácia limitada não significa eficácia jurídica zero**.
 
-```text
-O TEXTO JÁ É SUFICIENTE PARA OS EFEITOS ESSENCIAIS?
+## 3. Eficácia plena: a Constituição já entregou o núcleo completo
 
-SIM, sem espaço típico de contenção → PLENA
-SIM, mas o alcance pode ser legitimamente restringido → CONTIDA
-NÃO, falta integração indispensável → LIMITADA
-```
+Uma norma de eficácia plena contém, desde a entrada em vigor da Constituição, disciplina suficiente para **produzir ou poder produzir todos os efeitos essenciais** visados para aquela matéria.
 
----
+Na terminologia tradicional, sua aplicabilidade é:
 
-# Normas de eficácia plena
+- **direta**: não depende de outra norma para começar a incidir;
+- **imediata**: pode incidir desde logo;
+- **integral**: o núcleo de seus efeitos não aguarda integração legislativa indispensável.
 
-## 4. Conceito
+Isso não proíbe legislação infraconstitucional. Uma lei pode organizar procedimentos, detalhar a execução ou disciplinar aspectos compatíveis. O teste é outro:
 
-Normas de eficácia plena são as que, desde a entrada em vigor da Constituição, **produzem ou podem produzir todos os efeitos essenciais** pretendidos pelo constituinte para a matéria regulada.
+> **se a lei desaparecer, falta uma peça indispensável para o comando constitucional essencial existir?**
 
-Na linguagem tradicional, possuem aplicabilidade:
+Se a resposta for não, a mera existência de lei sobre a matéria não transforma a norma em limitada.
 
-- **direta**;
-- **imediata**;
-- **integral**.
+### 3.1. Exemplo seguro: autonomia das Defensorias estaduais
 
-A norma já oferece disciplina constitucional suficiente. Isso não impede a existência de legislação infraconstitucional sobre procedimentos, organização ou aspectos operacionais compatíveis. O critério não é “existe lei sobre a matéria?”, mas **“a lei é indispensável para completar o comando constitucional essencial?”**.
+O <abbr title="Supremo Tribunal Federal">STF</abbr> já qualificou a autonomia funcional e administrativa assegurada pelo art. 134, § 2º, às Defensorias Públicas estaduais como norma de **eficácia plena e aplicabilidade imediata**.
 
-### 4.1 Exemplo jurisprudencial
+O exemplo mostra por que “há lei sobre o assunto” é um critério ruim. A autonomia constitucional não nasce da lei infraconstitucional; a lei pode disciplinar a instituição, mas não fornece a peça que torna existente o núcleo constitucional da autonomia.
 
-O STF já qualificou a autonomia funcional e administrativa das Defensorias Públicas estaduais prevista no art. 134, § 2º, como norma de **eficácia plena e aplicabilidade imediata**. Para este assunto, o precedente serve apenas como exemplo de classificação.
+## 4. Eficácia contida: o direito já funciona, mas pode sofrer contenção legítima
 
-### 4.2 Pegadinha
+Agora mude o mecanismo. A Constituição já oferece disciplina suficiente e a norma **incide desde logo**, mas o próprio desenho constitucional permite que seu alcance seja posteriormente reduzido por atuação legítima.
 
-**Errado:** “se uma lei disciplina um dispositivo constitucional, ele necessariamente é de eficácia limitada”.
+A norma de eficácia contida tem aplicabilidade **direta e imediata**. A lei posterior não cria o núcleo; ela **contém** um campo que já era exercitável.
 
-Uma lei pode apenas organizar ou detalhar uma disciplina constitucional que já nasce completa em seu núcleo.
-
----
-
-# Normas de eficácia contida
-
-## 5. Conceito
-
-Normas de eficácia contida possuem disciplina suficiente para produzir efeitos **desde logo**, mas a própria Constituição admite que o seu alcance seja posteriormente **contido ou restringido** por atuação constitucionalmente autorizada.
+Isso pode ser visualizado assim:
 
 ```text
-CONTIDA = nasce ampla + pode sofrer contenção legítima
+Constituição assegura um campo de exercício
+                ↓
+o direito já incide
+                ↓
+lei constitucionalmente autorizada pode reduzir esse campo
 ```
 
-Também possuem aplicabilidade **direta e imediata**. A diferença em relação às normas plenas não é o momento inicial de incidência, mas a possibilidade típica de **redução legítima do âmbito de exercício**.
+A contenção não é licença para esvaziar o direito. A restrição precisa respeitar a autorização constitucional, a finalidade da limitação e os demais parâmetros da Constituição.
 
-### 5.1 Restrição não é livre
+### 4.1. Exemplo clássico: liberdade profissional
 
-A possibilidade de contenção não autoriza o legislador ou a Administração a esvaziar o comando constitucional. A restrição deve respeitar a autorização, a finalidade e os demais limites constitucionais.
+O art. 5º, XIII, assegura o livre exercício de trabalho, ofício ou profissão, **atendidas as qualificações profissionais que a lei estabelecer**.
 
-### 5.2 Exemplo clássico: art. 5º, XIII
+Antes da lei restritiva, a liberdade já existe e pode ser exercida. A legislação autorizada pode exigir qualificações legítimas. Por isso o <abbr title="Supremo Tribunal Federal">STF</abbr> trata o dispositivo como norma de **aplicação imediata e eficácia contida**.
 
-O art. 5º, XIII, assegura o livre exercício de trabalho, ofício ou profissão, **atendidas as qualificações profissionais que a lei estabelecer**. O STF trata o dispositivo como norma de **aplicação imediata e eficácia contida**.
+A função da lei é a chave:
 
-A lógica é:
+- ela não cria a liberdade profissional;
+- ela pode **restringir** seu exercício dentro da moldura constitucional.
+
+### 4.2. “Na forma da lei” não resolve a questão sozinho
+
+Expressões como “nos termos da lei”, “na forma da lei” ou “lei disporá” são pistas, não classificações automáticas.
+
+Uma remissão à lei pode significar coisas diferentes:
+
+- a lei apenas **detalha** uma norma plena;
+- a lei **restringe** uma norma contida;
+- a lei **integra** requisito indispensável de uma norma limitada.
+
+Portanto, classifique pela **função da legislação**, não pela presença isolada de uma expressão.
+
+## 5. Eficácia limitada: há força constitucional, mas falta integração para a realização integral
+
+Na norma de eficácia limitada, a Constituição já estabelece uma direção jurídica, mas não entrega todos os elementos necessários à realização integral dos efeitos essenciais projetados.
+
+Na terminologia tradicional, sua aplicabilidade é **indireta ou mediata quanto à concretização integral**. A legislação posterior exerce função de **integração**: completa uma disciplina indispensável.
+
+Compare com a contida:
 
 ```text
-ANTES DE RESTRIÇÃO VÁLIDA → a liberdade já incide
-LEI AUTORIZADA             → pode estabelecer qualificações legítimas
+CONTIDA  → a lei restringe algo que já pode ser exercido
+LIMITADA → a lei completa algo que ainda não se realiza integralmente
 ```
 
-A lei não cria a liberdade; ela pode **conter** seu exercício nos limites constitucionais.
+### 5.1. Exemplo seguro: acesso de estrangeiros a cargos públicos
 
-### 5.3 Regulamentar não é sinônimo de restringir
+O art. 37, I, prevê acesso dos estrangeiros a cargos, empregos e funções públicas **na forma da lei**. O <abbr title="Supremo Tribunal Federal">STF</abbr> registra que, nessa parte, o dispositivo possui **eficácia limitada**, pois depende de regulamentação para produzir os efeitos correspondentes.
 
-Uma lei pode regulamentar uma norma sem reduzir seu alcance. Para classificar como contida, procure a possibilidade constitucional de **restrição de um campo que já é exercitável**.
+Aqui a lei não reduz um direito que já nasceu plenamente exercitável. Ela fornece a disciplina necessária para concretizar o acesso na hipótese constitucional.
 
----
+### 5.2. Regulamentar não reclassifica a estrutura originária
 
-# Normas de eficácia limitada
+Suponha que a lei integradora seja finalmente editada e a norma passe a produzir concretamente os efeitos que aguardavam regulamentação.
 
-## 6. Conceito
+Isso **não transforma retroativamente a estrutura constitucional em plena ou contida**. A classificação descreve como o comando nasceu: dependente ou não de integração indispensável. A lei concretiza efeitos; não reescreve a estrutura originária do dispositivo.
 
-Normas de eficácia limitada dependem de **integração normativa** para que os efeitos essenciais projetados pelo constituinte se realizem plenamente. Na terminologia tradicional, sua aplicabilidade é indireta, mediata ou reduzida quanto à concretização integral do comando.
+## 6. Limitada não significa “sem efeito até a lei”
 
-```text
-LIMITADA = Constituição traça o comando + falta integração indispensável
-```
+A norma limitada já pertence ao ordenamento e vincula os poderes públicos. A dependência de integração diz respeito à **realização integral de determinados efeitos**, não à existência jurídica da norma.
 
-Expressões como “na forma da lei”, “nos termos da lei” ou “lei disporá” podem ser pistas, mas **não classificam automaticamente** a norma. É preciso verificar a função da legislação posterior: se ela **completa** requisito indispensável, a lógica é de eficácia limitada; se apenas restringe direito já exercitável, a lógica é de eficácia contida.
-
-### 6.1 Exemplo: art. 37, I, quanto a estrangeiros
-
-O STF registra que o art. 37, I, na parte referente ao acesso de estrangeiros a cargos, empregos e funções públicas, depende de regulamentação para produzir os efeitos correspondentes, exemplo de norma de eficácia limitada.
-
-### 6.2 Exemplo: disciplina constitucional dependente de integração
-
-O STF também reconheceu, em precedentes sobre dispositivos constitucionais cuja realização dependia de lei, que a eficácia limitada não elimina a força jurídica da norma constitucional durante a omissão legislativa.
-
----
-
-## 7. Norma limitada não é “sem efeito”
-
-Mesmo antes da integração necessária à realização integral, a norma limitada já integra o ordenamento e vincula os poderes públicos. Entre seus efeitos jurídicos podem estar:
+Antes da legislação integradora, ela pode, conforme o caso:
 
 - orientar a interpretação constitucional e infraconstitucional;
-- impedir a edição de atos incompatíveis com o programa constitucional;
-- produzir **efeito negativo**, afastando disciplina anterior incompatível quando juridicamente cabível;
-- vincular o legislador à direção constitucional estabelecida;
-- servir de parâmetro para o controle de omissões, quando a Constituição impõe dever de legislar.
+- vincular o legislador à direção fixada pela Constituição;
+- impedir a produção de atos incompatíveis;
+- tornar juridicamente relevante uma omissão quando a Constituição impõe dever de legislar;
+- produzir **eficácia negativa**, afastando disciplina anterior incompatível quando juridicamente cabível.
 
-O STF já reconheceu, em matéria de norma dependente de complementação infraconstitucional, a possibilidade de **eficácia negativa imediata**. Logo:
+O <abbr title="Supremo Tribunal Federal">STF</abbr> reconhece essa possibilidade de eficácia negativa imediata em normas dependentes de complementação. Esse efeito demonstra o ponto central: **não realizar integralmente o programa positivo não é o mesmo que não produzir efeito jurídico algum**.
 
-```text
-EFICÁCIA LIMITADA ≠ EFICÁCIA JURÍDICA ZERO
-```
+## 7. Dentro das limitadas: normas institutivas e programáticas
 
----
+A classificação clássica subdivide as normas de eficácia limitada. Para este edital, dois grupos bastam.
 
-# Subtipos das normas de eficácia limitada
+### 7.1. Princípio institutivo ou organizativo
 
-## 8. Princípio institutivo e princípio programático
+São normas que traçam a criação, a organização ou a estruturação de instituições, órgãos ou regimes, mas deixam parte indispensável da disciplina para atuação normativa posterior.
 
-Para compreender o item “normas programáticas”, é suficiente conhecer a divisão clássica das normas limitadas.
+O elemento definidor é a **estrutura a ser completada**.
 
-### 8.1 Normas de princípio institutivo ou organizativo
+### 7.2. Princípio programático
 
-Traçam a criação, organização ou estruturação de instituições, órgãos ou regimes, deixando parte indispensável da disciplina para atuação normativa posterior.
+Normas programáticas estabelecem **programas, fins, tarefas ou diretrizes** a serem perseguidos pelo Estado. Na classificação estudada aqui, elas são espécie de norma de eficácia limitada.
 
-### 8.2 Normas de princípio programático
+A relação é:
 
-Estabelecem **programas, fins, tarefas ou diretrizes** a serem perseguidos pelos órgãos estatais, especialmente na realização de objetivos sociais, econômicos e públicos.
+> **toda norma programática é limitada, mas nem toda norma limitada é programática.**
 
-A relação que deve ser memorizada é:
+Uma limitada também pode ser institutiva ou organizativa.
 
-```text
-NORMA PROGRAMÁTICA ⊂ NORMA DE EFICÁCIA LIMITADA
-```
+### 7.3. Programática não é promessa política sem força jurídica
 
-Portanto:
+A palavra “programática” pode induzir a ideia de simples recomendação. Esse entendimento é incorreto.
 
-- toda norma programática, nesta classificação clássica, integra o grupo das normas de eficácia limitada;
-- nem toda norma limitada é programática, pois há também normas de caráter institutivo/organizativo.
+A norma programática:
 
----
-
-## 9. Normas programáticas têm força jurídica
-
-“Programática” não significa conselho político sem valor normativo. A norma programática:
-
-- fixa direção constitucional obrigatória;
+- fixa uma direção constitucional obrigatória;
 - condiciona a atuação legislativa e administrativa;
-- orienta a interpretação do ordenamento;
+- orienta a interpretação;
 - impede soluções incompatíveis com o programa constitucional;
-- pode fundamentar o controle de omissões e de atos incompatíveis, conforme o desenho constitucional concreto.
+- pode servir de parâmetro para controle de omissões e de atos incompatíveis, conforme o caso.
 
-### 9.1 Exemplo: art. 196 e direito à saúde
+O art. 196, ao declarar a saúde direito de todos e dever do Estado a ser garantido mediante políticas sociais e econômicas, aparece na jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr> como exemplo de conteúdo programático. O Tribunal ressalta, porém, o **caráter cogente e vinculante** dessas normas.
 
-O art. 196 afirma que a saúde é direito de todos e dever do Estado, garantido mediante políticas sociais e econômicas. A jurisprudência do STF reconhece seu caráter programático, mas rejeita tratá-lo como **promessa constitucional inconsequente**: normas programáticas possuem caráter cogente e vinculante.
+Isso não significa que qualquer prestação imaginável decorra automaticamente do dispositivo sem exame do restante do sistema. O ponto desta unidade é outro: **programática é norma constitucional, não conselho sem juridicidade**.
 
-Em prova:
+## 8. A comparação que resolve a maior parte das questões
 
-```text
-PROGRAMÁTICA ≠ MERA RECOMENDAÇÃO
-PROGRAMÁTICA = NORMA CONSTITUCIONAL + DIRETRIZ VINCULANTE
-```
+Depois de compreender os mecanismos, a síntese cabe em uma tabela.
 
-A classificação, porém, não autoriza concluir que qualquer prestação imaginável seja automaticamente exigível sem exame das demais regras constitucionais. O ponto deste assunto é a **força jurídica da norma**, não a solução de toda controvérsia prestacional.
+| Pergunta | Plena | Contida | Limitada |
+|---|---|---|---|
+| o núcleo constitucional já é suficiente? | sim | sim | não para a realização integral |
+| começa a incidir diretamente? | sim | sim | depende de integração para a realização integral |
+| função típica da lei | detalhar/organizar | **restringir** | **integrar/completar** |
+| a lei cria o núcleo constitucional? | não | não | completa elemento indispensável |
+| a existência de lei muda a classificação originária? | não | não | não |
 
----
+A comparação entre contida e limitada merece uma frase própria:
 
-## 10. Contida × limitada: a distinção decisiva
+> **contida = restringir o que já incide; limitada = integrar o que ainda não se realiza integralmente.**
 
-Essa é a comparação mais cobrada.
+E a comparação entre plena e contida exige outra:
 
-| Pergunta | Contida | Limitada |
-|---|---|---|
-| O comando já incide em seu núcleo? | **sim** | não integralmente |
-| A lei cria o núcleo essencial? | não | completa requisito indispensável |
-| Papel típico da lei | **restringir** | **integrar/completar** |
-| Aplicabilidade | direta e imediata | mediata quanto à realização integral |
+> ambas podem ter aplicação direta e imediata; a possibilidade típica de **contenção** é que distingue a segunda.
 
-Fórmula útil:
+## 9. Art. 5º, § 1º: aplicação imediata não é sinônimo de eficácia plena
 
-```text
-CONTIDA  → A LEI DIMINUI UM ALCANCE QUE JÁ EXISTE
-LIMITADA → A LEI COMPLETA UM ALCANCE AINDA NÃO REALIZADO INTEGRALMENTE
-```
+A Constituição determina que as normas definidoras dos direitos e garantias fundamentais têm **aplicação imediata**.
 
----
+Essa regra não autoriza concluir que todo dispositivo do Título II seja de eficácia plena. O próprio art. 5º, XIII, fornece o contraexemplo: é norma de aplicação imediata, mas de eficácia **contida**.
 
-## 11. Plena × contida
+Portanto, não transforme uma característica de aplicabilidade em rótulo automático de eficácia.
 
-As duas categorias podem incidir diretamente e imediatamente. A diferença é:
+O assunto 125 desenvolve os direitos e garantias fundamentais. Aqui basta a ponte necessária para compreender a classificação.
 
-```text
-PLENA   → núcleo constitucional completo, sem contenção típica como elemento definidor
-CONTIDA → núcleo completo desde logo, mas com possibilidade constitucional de contenção
-```
+## 10. Como classificar sem depender de palavras mágicas
 
-Por isso, **aplicabilidade imediata não basta, sozinha, para identificar norma plena**.
+Em uma questão, leia o dispositivo e reconstrua o mecanismo.
 
----
+Primeiro, pergunte se o comando constitucional **já consegue produzir seus efeitos essenciais por si**. Se não consegue porque falta integração indispensável, a estrutura aponta para eficácia limitada.
 
-## 12. Art. 5º, § 1º, e aplicação imediata
+Se já consegue, verifique o papel reservado à atuação posterior. Quando há possibilidade constitucional de **reduzir legitimamente um alcance que já existe**, a norma é contida. Quando a disciplina já é suficiente e a contenção não é o elemento definidor, a norma é plena.
 
-A Constituição determina que as normas definidoras dos direitos e garantias fundamentais têm **aplicação imediata**. Essa regra reforça a máxima efetividade dos direitos fundamentais, mas não transforma automaticamente cada dispositivo do Título II em norma de eficácia plena.
+Se a norma limitada estabelece principalmente **programa, finalidade, tarefa ou diretriz estatal**, classifique-a também como programática.
 
-O próprio art. 5º, XIII, é exemplo seguro: o STF o qualifica como **aplicação imediata e eficácia contida**.
+Esse método resolve inclusive as alternativas construídas com armadilhas de linguagem:
 
-Logo:
+- lei posterior pode existir sem tornar uma norma plena em limitada;
+- norma contida não espera a lei para começar a valer;
+- norma limitada pode produzir efeitos jurídicos antes da integração;
+- regulamentação posterior não altera a classificação estrutural originária;
+- norma programática não é mera recomendação política.
 
-```text
-APLICAÇÃO IMEDIATA ≠ TODAS AS NORMAS SÃO DE EFICÁCIA PLENA
-```
-
-O estudo detalhado dos direitos fundamentais pertence ao assunto 125; aqui, o § 1º serve apenas para impedir essa confusão classificatória.
-
----
-
-# Método de resolução
-
-## 13. Quatro perguntas
-
-Ao receber um dispositivo ou situação hipotética:
-
-1. **A Constituição já fornece disciplina suficiente?** Se não, pense em limitada.
-2. **O comando já produz seus efeitos essenciais agora?** Se sim, plena ou contida.
-3. **Há autorização para restringir um direito ou campo já exercitável?** Se sim, forte indicação de contida.
-4. **O texto estabelece programa, finalidade ou tarefa estatal dependente de concretização?** Se sim, programática, dentro das limitadas.
-
----
-
-## 14. Pegadinhas de alta incidência
-
-1. **“Eficácia limitada = nenhum efeito jurídico.”** Errado.
-2. **“Toda norma que menciona lei é limitada.”** Errado; a lei pode restringir norma contida ou apenas detalhar norma plena.
-3. **“Norma contida só produz efeitos depois da lei.”** Errado; ela já incide e pode sofrer contenção posterior.
-4. **“Toda norma limitada é programática.”** Errado; há também normas institutivas/organizativas.
-5. **“Norma programática é recomendação política.”** Errado; possui força normativa e vincula os poderes públicos.
-6. **“Aplicação imediata significa eficácia plena.”** Errado; o art. 5º, XIII, é exemplo de aplicação imediata e eficácia contida.
-7. **“Depois de regulamentada, a norma limitada deixa de ser classificada como limitada.”** Errado; a classificação descreve a estrutura originária do comando constitucional, embora a lei concretize seus efeitos.
-8. **“Se existe lei sobre a matéria, a norma constitucional não pode ser plena.”** Errado; legislação pode detalhar disciplina já suficiente.
-
----
-
-## 15. Quadro final
-
-| Ponto | Plena | Contida | Limitada | Programática |
-|---|---|---|---|---|
-| efeitos essenciais desde a Constituição | sim | sim | não integralmente | não integralmente |
-| aplicação direta/imediata | sim | sim | não quanto à realização integral | não quanto à realização integral |
-| lei integradora indispensável | não | não | sim | em regra, concretização normativa/estatal necessária |
-| possibilidade típica de restrição | não é o elemento definidor | **sim** | não é o elemento definidor | não é o elemento definidor |
-| força jurídica antes da integração | integral no núcleo | integral até contenção legítima | existe | existe e vincula |
-| relação com programa estatal | não necessária | não necessária | pode existir | **característica central** |
-
----
-
-## 16. Checklist de domínio
-
-Antes de encerrar o assunto, seja capaz de explicar sem consulta:
-
-- por que plena e contida podem ser ambas diretas e imediatas;
-- por que a norma contida **nasce apta** e pode ser restringida;
-- por que a norma limitada depende de **integração**, mas não é juridicamente vazia;
-- a diferença entre lei que **restringe** e lei que **completa**;
-- a relação entre norma limitada e norma programática;
-- por que normas programáticas são vinculantes;
-- o art. 5º, XIII, como exemplo de eficácia contida;
-- um exemplo seguro de eficácia limitada e os efeitos que ela pode produzir antes da integração.
-
----
+O objetivo é reconhecer **o mecanismo jurídico por trás do rótulo**, e não decorar uma palavra isolada do dispositivo.
