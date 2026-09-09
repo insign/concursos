@@ -8,107 +8,137 @@ storageId: tec-licitacoes
 
 # Licitações: Lei nº 14.133/2021 e sistema de registro de preços
 
-## 1. Recorte e estratégia de estudo
+## 1. Da necessidade pública à contratação
 
-O edital cobra **princípios, contratação direta, modalidades, tipos, procedimento, Lei nº 14.133/2021 e Decreto nº 11.462/2023**. Para prova, convém organizar a matéria em perguntas diferentes:
+Imagine uma situação **hipotética**: um órgão precisa comprar cadeiras com especificações usuais de mercado. Antes de escolher fornecedor, a Administração define necessidade, quantidade, qualidade e estimativa de preço. Só então estrutura a disputa.
 
-| Pergunta | Categoria |
-|---|---|
-| Quais valores jurídicos orientam a contratação? | princípios |
-| Qual rito será usado para licitar? | modalidade |
-| Como a melhor proposta será escolhida? | critério de julgamento |
-| Como as ofertas serão apresentadas? | modo de disputa |
-| Em que ordem o processo licitatório avança? | procedimento |
-| É juridicamente possível contratar sem licitação? | dispensa ou inexigibilidade |
-| Há mecanismo para registrar preços para contratações futuras? | sistema de registro de preços |
+A Lei nº 14.133/2021 organiza essa passagem da necessidade à contratação para buscar resultado vantajoso, assegurar isonomia e justa competição e evitar preços inadequados.
 
-> **Pegadinha central:** modalidade, critério de julgamento, modo de disputa e procedimento auxiliar são categorias distintas. O **sistema de registro de preços (SRP)** é procedimento auxiliar; não é modalidade de licitação.
+Em uma licitação comum, o caminho mental é:
 
-O corte normativo deste material é **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Os valores de dispensa indicados adiante são os vigentes desde **1º de janeiro de 2026**, conforme o Decreto nº 12.807/2025. A Lei nº 15.471, de 20 de julho de 2026, alterou posteriormente o art. 75, XVI, da Lei nº 14.133/2021; essa alteração é **pós-edital** e não substitui silenciosamente a redação aplicável no corte.
+```text
+necessidade
+   ↓
+planejamento e fase preparatória
+   ↓
+regras da disputa: modalidade + critério de julgamento + modo de disputa
+   ↓
+divulgação do edital
+   ↓
+propostas/lances → julgamento → habilitação → recurso
+   ↓
+adjudicação e homologação
+```
 
-O Decreto nº 11.462/2023 é objeto expresso do edital. Ele regulamenta os arts. 82 a 86 da Lei nº 14.133/2021 para o SRP no âmbito da **Administração Pública federal direta, autárquica e fundacional**. Portanto, deve ser estudado porque o edital o exige, sem afirmar que o decreto federal se aplica automaticamente ao TCE/MA.
+A palavra **modalidade** responde a qual rito legal será usado; **critério de julgamento**, a como se identifica a melhor proposta; **modo de disputa**, a como propostas e lances são apresentados. Já o <abbr title="Sistema de Registro de Preços">SRP</abbr> é **procedimento auxiliar** para organizar futuras contratações: não é modalidade, critério nem modo de disputa.
 
-## 2. Princípios da Lei nº 14.133/2021
+Também pode existir contratação sem disputa licitatória, sem que isso signifique informalidade. A <abbr title="Contratação direta quando a competição é inviável">inexigibilidade</abbr> parte da inviabilidade de competição; a <abbr title="Contratação direta autorizada por hipótese legal">dispensa</abbr>, de hipótese autorizada pela lei. Ambas exigem processo próprio.
 
-O art. 5º reúne um rol amplo. Na aplicação da Lei, observam-se:
+> **Corte normativo:** este capítulo considera a legislação aplicável em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Os limites de dispensa por valor já incorporam o Decreto nº 12.807/2025, vigente desde 1º de janeiro de 2026. A Lei nº 15.471, de 20 de julho de 2026, alterou depois do edital o inciso XVI do artigo 75 da Lei nº 14.133/2021; essa alteração posterior não é projetada retroativamente sobre o corte.
 
-- legalidade;
-- impessoalidade;
-- moralidade;
-- publicidade;
-- eficiência;
-- interesse público;
-- probidade administrativa;
-- igualdade;
-- planejamento;
-- transparência;
-- eficácia;
-- segregação de funções;
-- motivação;
-- vinculação ao edital;
-- julgamento objetivo;
-- segurança jurídica;
-- razoabilidade;
-- competitividade;
-- proporcionalidade;
-- celeridade;
-- economicidade;
-- desenvolvimento nacional sustentável;
-- e as disposições da <abbr title="Lei de Introdução às Normas do Direito Brasileiro">LINDB</abbr>.
+O Decreto nº 11.462/2023 é objeto expresso do edital, mas seu artigo 1º delimita a aplicação direta à **Administração Pública federal direta, autárquica e fundacional**. Portanto, suas regras devem ser conhecidas para a prova sem presumir aplicação automática ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-Não basta memorizar a lista. A banca costuma cobrar **consequências práticas**.
+## 2. Princípios: limites para toda decisão da contratação
 
-### 2.1 Planejamento
+Os princípios não formam uma etapa isolada: orientam a contratação inteira.
 
-A contratação pública não deve começar pela publicação do edital. A fase preparatória identifica a necessidade, define a solução, estima quantidades e valores, estrutura riscos e estabelece as regras capazes de produzir a contratação mais vantajosa.
+O artigo 5º da Lei nº 14.133/2021 menciona: legalidade, impessoalidade, moralidade, publicidade, eficiência, interesse público, probidade administrativa, igualdade, planejamento, transparência, eficácia, segregação de funções, motivação, vinculação ao edital, julgamento objetivo, segurança jurídica, razoabilidade, competitividade, proporcionalidade, celeridade, economicidade, desenvolvimento nacional sustentável e as disposições da <abbr title="Lei de Introdução às Normas do Direito Brasileiro">LINDB</abbr>.
 
-Planejamento reduz improvisação e se conecta à eficiência, economicidade, motivação e segurança jurídica.
+O sentido aparece nas consequências práticas.
 
-### 2.2 Igualdade, impessoalidade e competitividade
+### 2.1 Planejamento: decidir antes de disputar
 
-A Administração deve tratar licitantes segundo critérios jurídicos objetivos. Exigências sem relação com o objeto, barreiras indevidas e preferências arbitrárias restringem a competição.
+A contratação não deve começar pela publicação do edital. Na fase preparatória, a Administração identifica a necessidade, estuda a solução, estima quantidades e valores, define exigências e antecipa riscos relevantes.
 
-A competitividade não significa ausência de requisitos: a Administração pode exigir condições necessárias e proporcionais ao atendimento da necessidade pública.
+Sem essa etapa, pode-se licitar o objeto errado ou comparar propostas sobre bases mal definidas. Planejamento se conecta a eficiência, economicidade, motivação e segurança jurídica.
 
-### 2.3 Vinculação ao edital e julgamento objetivo
+### 2.2 Igualdade, impessoalidade e competitividade: abrir a disputa sem favoritismo
 
-O edital contém as regras da disputa. Administração e licitantes ficam vinculados às condições legitimamente estabelecidas.
+Igualdade e impessoalidade exigem tratamento segundo critérios jurídicos objetivos. Competitividade combate barreiras desnecessárias à participação.
 
-**Julgamento objetivo** exige critérios previamente definidos e verificáveis. Não impede avaliações técnicas; impede decisão fundada em preferências subjetivas não previstas.
+Isso **não** proíbe requisitos para participar nem especificações do objeto. A Administração pode exigir o que seja necessário e proporcional à necessidade pública; o problema está na exigência irrelevante, excessiva ou direcionada.
 
-### 2.4 Publicidade e transparência
+### 2.3 Vinculação ao edital e julgamento objetivo: cumprir a regra anunciada
 
-Publicidade e transparência reforçam controle e acesso à informação. Isso não significa que absolutamente todo conteúdo do processo seja público em qualquer momento: a própria Lei admite hipóteses específicas de sigilo temporário ou proteção de informação.
+O edital fixa as regras válidas da disputa. Administração e licitantes devem observá-las.
 
-### 2.5 Segregação de funções
+O **julgamento objetivo** exige critérios previamente definidos e verificáveis. Avaliação técnica pode exigir juízo especializado, mas não preferência pessoal sem parâmetro divulgado.
 
-A segregação de funções reduz concentração de competências incompatíveis em um único agente e atua como mecanismo de prevenção de erros e fraudes. Não significa fragmentar o processo sem racionalidade; significa distribuir funções sensíveis de modo compatível com riscos e controles.
+### 2.4 Publicidade e transparência: permitir conhecimento e controle
 
-### 2.6 Economicidade, eficiência e eficácia
+A regra é tornar os atos acessíveis e controláveis. Isso não significa exposição imediata de toda informação: a própria Lei admite sigilo quando juridicamente necessário e publicidade diferida, por exemplo, para o conteúdo das propostas até a abertura.
 
-- **Economicidade:** relação adequada entre custos e resultados.
-- **Eficiência:** boa utilização dos recursos para produzir resultados.
-- **Eficácia:** alcance do resultado ou objetivo pretendido.
+### 2.5 Segregação de funções: reduzir concentração de riscos
 
-Menor preço, isoladamente, não equivale necessariamente à proposta mais vantajosa.
+A segregação de funções evita concentração incompatível de tarefas sensíveis e reduz risco de erro ou fraude. Não significa fragmentar o processo por formalismo.
 
-## 3. Modalidade, critério, modo de disputa e procedimento auxiliar
+### 2.6 Economicidade, eficiência e eficácia: preço é meio, não fim
 
-### 3.1 Modalidades
+- **economicidade** pergunta se a relação entre custos e resultados é adequada;
+- **eficiência** considera o uso racional dos recursos para produzir o resultado;
+- **eficácia** verifica se o resultado pretendido foi alcançado.
 
-O art. 28 prevê cinco modalidades:
+Mesmo quando o critério é menor preço, a Lei preserva parâmetros mínimos de qualidade. A proposta nominalmente mais barata, mas incapaz de atender ao objeto, não se torna vantajosa apenas pelo preço.
 
-1. pregão;
-2. concorrência;
-3. concurso;
-4. leilão;
-5. diálogo competitivo.
+## 3. Como se configura a disputa
 
-É vedada a criação de outras modalidades ou a combinação das modalidades legais.
+Depois do planejamento, três escolhas precisam permanecer separadas: **modalidade**, **critério de julgamento** e **modo de disputa**.
 
-### 3.2 “Tipos” no edital: critérios de julgamento
+### 3.1 Modalidades: cinco ritos jurídicos
 
-A Lei nº 14.133/2021 utiliza a expressão **critérios de julgamento**. Quando o edital do concurso menciona “tipos”, a leitura útil para o regime atual é associá-los às técnicas de julgamento do art. 33:
+O artigo 28 prevê somente cinco modalidades: **pregão, concorrência, concurso, leilão e diálogo competitivo**. A Lei veda criar outra modalidade ou combinar as modalidades existentes.
+
+#### Pregão
+
+O pregão deve ser adotado quando o objeto possui padrões de desempenho e qualidade que possam ser objetivamente definidos por especificações usuais de mercado. É a lógica dos **bens e serviços comuns**.
+
+No exemplo das cadeiras, padrões usuais de mercado apontam para o pregão. O valor da compra, sozinho, não decide entre pregão e concorrência.
+
+O pregão não se aplica a <abbr title="Serviços em que predomina atividade intelectual especializada">serviços técnicos especializados de natureza predominantemente intelectual</abbr> nem, como regra, a obras e serviços de engenharia. A exceção é o **serviço comum de engenharia**, cujas ações de manutenção, adequação ou adaptação podem ser objetivamente padronizadas em desempenho e qualidade, preservadas as características originais do bem.
+
+Os critérios compatíveis com o pregão são **menor preço** e **maior desconto**.
+
+#### Concorrência
+
+A concorrência alcança, entre outros objetos, bens e serviços especiais — os que, por alta heterogeneidade ou complexidade, não podem ser descritos como comuns — e obras e serviços comuns ou especiais de engenharia.
+
+Ela admite **menor preço, maior desconto, melhor técnica ou conteúdo artístico, técnica e preço e maior retorno econômico**. O maior lance é próprio do leilão.
+
+Pregão e concorrência seguem, em regra, o rito comum do artigo 17.
+
+#### Concurso
+
+O concurso seleciona trabalho **técnico, científico ou artístico** e concede prêmio ou remuneração ao vencedor. O julgamento ocorre por **melhor técnica ou conteúdo artístico**.
+
+Não confunda a modalidade com concurso público para cargos. Se o concurso elaborar projeto, o vencedor deve ceder à Administração os direitos patrimoniais e autorizar sua execução nos termos legais.
+
+#### Leilão
+
+O leilão é voltado à alienação de bens imóveis ou de bens móveis inservíveis, isto é, sem utilidade para a Administração, ou legalmente apreendidos. Seu critério é **maior lance**.
+
+Pode ser conduzido por leiloeiro oficial ou servidor designado. O leiloeiro oficial é selecionado por <abbr title="Procedimento auxiliar para interessados que cumpram requisitos">credenciamento</abbr> ou pregão, com maior desconto sobre as comissões.
+
+#### Diálogo competitivo
+
+O diálogo competitivo atende às contratações complexas do artigo 32, como inovação tecnológica ou técnica, adaptação de soluções disponíveis ou especificações que a Administração não consegue definir com precisão suficiente.
+
+A lógica tem dois momentos:
+
+1. **diálogo** com licitantes pré-selecionados para desenvolver alternativas capazes de atender à necessidade;
+2. **fase competitiva**, depois de identificada a solução, para apresentação das propostas finais.
+
+Pontos de literalidade importantes:
+
+- pelo menos **25 dias úteis** para manifestação de interesse;
+- depois do diálogo, pelo menos **60 dias úteis** para propostas finais;
+- reuniões registradas em ata e gravadas em áudio e vídeo;
+- proibição de revelar de modo discriminatório informações que gerem vantagem;
+- solução ou informação confidencial de um participante só pode ser revelada a outro com consentimento;
+- comissão com pelo menos três servidores efetivos ou empregados públicos dos quadros permanentes, admitido assessoramento técnico.
+
+### 3.2 “Tipos” do edital: critérios de julgamento
+
+A Lei nº 14.133/2021 usa a expressão **critérios de julgamento**. Para o item “tipos” do edital do concurso, o núcleo atual está no artigo 33:
 
 1. menor preço;
 2. maior desconto;
@@ -117,401 +147,287 @@ A Lei nº 14.133/2021 utiliza a expressão **critérios de julgamento**. Quando 
 5. maior lance, no leilão;
 6. maior retorno econômico.
 
-> **Pegadinha:** “pregão” é modalidade; “menor preço” é critério; “aberto” é modo de disputa; “SRP” é procedimento auxiliar.
+O critério define **como as propostas serão comparadas**, não o rito.
 
-### 3.3 Modos de disputa
+#### Menor preço e maior desconto
 
-As propostas podem ser apresentadas em modo:
+No menor preço, busca-se o menor dispêndio para a Administração, respeitados os parâmetros mínimos de qualidade.
 
-- **aberto:** lances públicos e sucessivos;
-- **fechado:** propostas permanecem sigilosas até o momento designado.
+No maior desconto, a referência é o preço global fixado no edital e o desconto se estende aos eventuais **termos aditivos**, isto é, alterações posteriores formalizadas no contrato.
 
-A Lei permite uso isolado ou conjunto, observadas as vedações específicas. O modo fechado isolado não é admitido quando o critério for menor preço ou maior desconto; o modo aberto não é admitido quando o critério for técnica e preço.
+#### Melhor técnica ou conteúdo artístico
 
-## 4. Procedimento licitatório
+Considera exclusivamente as propostas técnicas ou artísticas. O edital define o prêmio ou a remuneração.
 
-O art. 17 fixa, como sequência ordinária:
+#### Técnica e preço
+
+Combina notas técnicas e de preço segundo fatores objetivos previstos no edital. A valoração da proposta técnica não pode superar **70%**.
+
+#### Maior lance
+
+É o critério do **leilão**.
+
+#### Maior retorno econômico
+
+É exclusivo do **contrato de eficiência**, cuja remuneração se relaciona à economia efetivamente gerada. O julgamento considera economia estimada e proposta de preço.
+
+### 3.3 Modos de disputa: como as ofertas aparecem
+
+No modo **aberto**, os licitantes apresentam lances públicos e sucessivos. No modo **fechado**, as propostas permanecem sigilosas até o momento definido para sua divulgação.
+
+A Lei admite uso isolado ou conjunto, mas impõe duas vedações de prova frequente:
+
+- não se usa modo **fechado isolado** quando o critério é menor preço ou maior desconto;
+- não se usa modo **aberto** quando o critério é técnica e preço.
+
+Assim, “pregão”, “menor preço” e “aberto” podem aparecer na mesma contratação sem serem sinônimos: são, respectivamente, modalidade, critério e modo.
+
+## 4. Procedimento licitatório: a ordem que transforma planejamento em decisão
+
+O artigo 17 estabelece como sequência ordinária:
 
 1. fase preparatória;
 2. divulgação do edital;
 3. apresentação de propostas e lances, quando for o caso;
 4. julgamento;
-5. habilitação;
+5. <abbr title="Verificação das condições do licitante para contratar">habilitação</abbr>;
 6. fase recursal;
-7. homologação.
+7. <abbr title="Ato da autoridade superior que confirma o resultado da licitação">homologação</abbr>.
 
-### 4.1 Inversão da habilitação
+### 4.1 Fase preparatória
 
-A habilitação pode anteceder apresentação de propostas e julgamento, desde que:
+É a etapa de planejamento. Nela se estruturam, conforme o caso, necessidade, objeto, estimativas, condições de execução e pagamento, requisitos de habilitação, critério de julgamento, riscos e documentos técnicos pertinentes.
 
-- exista **ato motivado**;
-- os benefícios da inversão sejam explicitados;
-- a inversão esteja **expressamente prevista no edital**.
+No exemplo das cadeiras, é aqui que a Administração justifica a necessidade, define especificações sem direcionamento, estima quantidade e valor e organiza a disputa.
 
-Não se trata de mudança livre da ordem.
+### 4.2 Edital, propostas e julgamento
 
-### 4.2 Forma eletrônica
+O edital torna conhecidas as condições da disputa. Depois, os licitantes apresentam propostas e lances quando cabíveis.
 
-A licitação será realizada **preferencialmente sob forma eletrônica**. A forma presencial é admitida se houver motivação, e a sessão pública deve ser registrada em ata e gravada em áudio e vídeo.
+O **julgamento** compara as propostas segundo o critério escolhido e os parâmetros mínimos do edital.
 
-### 4.3 Fase preparatória
+### 4.3 Habilitação
 
-A fase preparatória é marcada pelo planejamento e deve compatibilizar a contratação com os instrumentos de planejamento pertinentes. Nela se estruturam, conforme o caso, estudos, definição do objeto, condições de execução e pagamento, orçamento, requisitos de habilitação, critérios de julgamento, análise de riscos e minuta do edital e do contrato.
+A **habilitação** pergunta outra coisa: o licitante possui condições jurídicas, técnicas, fiscais, sociais, trabalhistas e econômico-financeiras exigidas para contratar?
 
-Para este assunto, o essencial é reconhecer que **planejamento integra o procedimento licitatório** e precede a disputa.
+Por isso, proposta e licitante são objetos de verificações distintas:
 
-### 4.4 Divulgação do edital e propostas
+- julgamento → qualidade/classificação da **proposta**;
+- habilitação → condições do **licitante**.
 
-A publicidade do edital amplia o conhecimento das regras e permite a formulação de propostas. Os prazos mínimos variam conforme objeto e critério, mas a prova pode cobrar principalmente a lógica: objeto, modalidade e critério influenciam os prazos.
+### 4.4 Inversão da habilitação
 
-### 4.5 Julgamento
+A habilitação pode anteceder propostas e julgamento somente se houver:
 
-O julgamento verifica qual proposta satisfaz o critério previsto no edital, respeitando parâmetros mínimos de qualidade e as regras de aceitabilidade.
+- ato motivado, com os benefícios explicitados;
+- previsão expressa no edital.
 
-### 4.6 Habilitação
+### 4.5 Forma eletrônica e presencial
 
-A habilitação verifica condições do licitante para contratar. A Lei organiza a habilitação em:
+A licitação é realizada **preferencialmente sob forma eletrônica**. A forma presencial é admitida quando motivada, e a sessão pública deve ser registrada em ata e gravada em áudio e vídeo.
 
-- jurídica;
-- técnica;
-- fiscal, social e trabalhista;
-- econômico-financeira.
+### 4.6 Recurso e encerramento
 
-Não confunda **julgamento da proposta** com **habilitação do licitante**.
+Depois de julgamento, habilitação e fase recursal, o processo chega à autoridade superior. **Homologar** é confirmar o resultado ao final do procedimento regular; o artigo 71 também prevê outras saídas, conforme o caso:
 
-### 4.7 Recurso e encerramento
+- devolver os autos para saneamento de irregularidades;
+- revogar a licitação por conveniência e oportunidade, desde que o motivo resulte de fato superveniente devidamente comprovado;
+- anular a licitação diante de ilegalidade insanável;
+- <abbr title="Atribuição formal do objeto ao vencedor da licitação">adjudicar</abbr> o objeto e homologar a licitação.
 
-Exauridos julgamento, habilitação e recursos, o processo vai à autoridade superior. Nos termos do art. 71, ela poderá:
+**Revogação** e **anulação** não resolvem o mesmo problema: revogação parte de motivo superveniente de conveniência e oportunidade; anulação parte de ilegalidade insanável.
 
-- determinar retorno para saneamento;
-- revogar por conveniência e oportunidade, fundada em fato superveniente devidamente comprovado;
-- anular quando houver ilegalidade insanável;
-- adjudicar o objeto e homologar a licitação.
+## 5. Contratação direta: sem licitação, mas com processo
 
-Anulação e revogação não são sinônimos: a primeira decorre de ilegalidade; a segunda, de motivo de conveniência e oportunidade ligado a fato superveniente.
+A pergunta decisiva é: **por que não haverá competição licitatória?**
 
-## 5. Modalidades em espécie
+```text
+competição inviável
+      ↓
+inexigibilidade
 
-## 5.1 Pregão
+competição seria possível, mas a lei autoriza contratar diretamente
+      ↓
+dispensa
+```
 
-O pregão é adotado sempre que o objeto possuir padrões de desempenho e qualidade que possam ser objetivamente definidos por especificações usuais de mercado.
+As duas rotas passam pelo processo do artigo 72.
 
-É típico para **bens e serviços comuns**. Não se aplica aos serviços técnicos especializados de natureza predominantemente intelectual nem, como regra, a obras e serviços de engenharia, ressalvado o **serviço comum de engenharia**.
-
-Os critérios compatíveis são:
-
-- menor preço;
-- maior desconto.
-
-> **Pegadinha:** o valor da contratação não é o critério decisivo para escolher entre pregão e concorrência. A natureza do objeto é determinante.
-
-## 5.2 Concorrência
-
-A concorrência alcança, entre outros, bens e serviços especiais e obras e serviços comuns ou especiais de engenharia.
-
-Admite os critérios:
-
-- menor preço;
-- maior desconto;
-- melhor técnica ou conteúdo artístico;
-- técnica e preço;
-- maior retorno econômico.
-
-Não utiliza maior lance, reservado ao leilão.
-
-Pregão e concorrência seguem, em regra, o rito comum do art. 17.
-
-## 5.3 Concurso
-
-O concurso seleciona trabalho **técnico, científico ou artístico**, com concessão de prêmio ou remuneração.
-
-Seu julgamento ocorre por **melhor técnica ou conteúdo artístico**.
-
-No concurso destinado à elaboração de projeto, o vencedor deverá ceder à Administração os direitos patrimoniais relativos ao projeto e autorizar sua execução nos termos legais.
-
-## 5.4 Leilão
-
-O leilão destina-se à alienação de bens imóveis ou de bens móveis inservíveis ou legalmente apreendidos.
-
-Seu critério é **maior lance**.
-
-Pode ser conduzido por leiloeiro oficial ou servidor designado. Se a Administração escolher leiloeiro oficial, sua seleção ocorrerá por credenciamento ou pregão, com maior desconto sobre as comissões.
-
-## 5.5 Diálogo competitivo
-
-O diálogo competitivo é reservado a contratações complexas em que a Administração, em síntese, enfrenta inovação tecnológica/técnica, necessidade de adaptação de soluções de mercado ou impossibilidade de definir com precisão suficiente as especificações, e precisa discutir meios e alternativas para atender à necessidade.
-
-Há duas grandes etapas:
-
-1. **diálogo**, com os participantes pré-selecionados;
-2. **fase competitiva**, em que são apresentadas propostas finais segundo a solução especificada.
-
-Pontos cobrados:
-
-- prazo mínimo de **25 dias úteis** para manifestação de interesse;
-- após o encerramento do diálogo, prazo de pelo menos **60 dias úteis** para propostas finais;
-- reuniões registradas em ata e gravadas em áudio e vídeo;
-- vedação à revelação discriminatória de informações;
-- solução ou informação confidencial de participante só pode ser revelada aos demais com consentimento;
-- comissão com pelo menos três servidores efetivos ou empregados públicos dos quadros permanentes, admitido assessoramento técnico.
-
-## 6. Critérios de julgamento
-
-## 6.1 Menor preço e maior desconto
-
-No menor preço, busca-se o menor dispêndio que respeite os parâmetros mínimos de qualidade.
-
-No maior desconto:
-
-- a referência é o preço global fixado no edital;
-- o desconto se estende aos eventuais termos aditivos.
-
-## 6.2 Melhor técnica ou conteúdo artístico
-
-Considera exclusivamente as propostas técnicas ou artísticas. O edital define prêmio ou remuneração.
-
-## 6.3 Técnica e preço
-
-Combina pontuação técnica e de preço segundo fatores objetivos do edital. A valoração da proposta técnica não pode superar **70%**.
-
-## 6.4 Maior lance
-
-É o critério próprio do **leilão**.
-
-## 6.5 Maior retorno econômico
-
-É utilizado exclusivamente para **contrato de eficiência**. O julgamento considera a economia que o contrato pretende gerar e o preço proposto pelo licitante, buscando o maior retorno econômico.
-
-## 7. Contratação direta
-
-Contratação direta não significa contratação sem processo. A Lei exige instrução, motivação e documentação.
-
-### 7.1 Processo do art. 72
+### 5.1 O processo do artigo 72
 
 O processo de contratação direta deve conter:
 
-1. documento de formalização de demanda e, se for o caso, <abbr title="Estudo Técnico Preliminar">ETP</abbr>, análise de riscos, termo de referência, projeto básico ou executivo;
-2. estimativa de despesa;
+1. documento de formalização da demanda e, quando cabíveis, <abbr title="Estudo da necessidade e de alternativas">estudo técnico preliminar</abbr>, <abbr title="Avaliação dos riscos da contratação">análise de riscos</abbr>, <abbr title="Documento de requisitos do objeto">termo de referência</abbr>, <abbr title="Definição técnica suficiente da solução">projeto básico</abbr> ou <abbr title="Detalhamento completo para execução">projeto executivo</abbr>;
+2. estimativa da despesa;
 3. parecer jurídico e pareceres técnicos, se cabíveis;
-4. demonstração da compatibilidade orçamentária;
-5. comprovação da habilitação e qualificação mínima;
+4. demonstração de compatibilidade da previsão de recursos orçamentários com o compromisso;
+5. comprovação da habilitação e qualificação mínima do contratado;
 6. razão da escolha do contratado;
 7. justificativa de preço;
 8. autorização da autoridade competente.
 
-O ato de autorização ou o extrato decorrente do contrato deve ser divulgado e mantido à disposição do público em sítio eletrônico oficial.
+O ato de autorização ou o extrato decorrente do contrato deve permanecer disponível ao público em sítio eletrônico oficial.
 
-Se a contratação direta indevida ocorrer com **dolo, fraude ou erro grosseiro**, o agente público responsável e o contratado responderão solidariamente pelo dano ao erário, sem prejuízo de outras sanções.
+Se uma contratação direta indevida ocorrer com **dolo, fraude ou erro grosseiro**, o agente público responsável e o contratado respondem solidariamente pelo dano ao erário, sem prejuízo de outras sanções.
 
-## 7.2 Inexigibilidade
+### 5.2 Inexigibilidade: quando não há competição viável
 
-A inexigibilidade decorre da **inviabilidade de competição**. O art. 74 usa expressão aberta (“em especial”), de modo que as hipóteses legais exemplificam situações típicas.
+O artigo 74 torna a licitação inexigível **quando inviável a competição**. A expressão “em especial” apresenta hipóteses típicas sem reduzir a categoria a um único caso.
 
-Casos centrais:
+Hipóteses centrais:
 
 - fornecedor exclusivo;
 - profissional do setor artístico consagrado, diretamente ou por empresário exclusivo;
-- serviços técnicos especializados de natureza predominantemente intelectual com profissional ou empresa de notória especialização, vedada a inexigibilidade para publicidade e divulgação;
-- objetos contratados por credenciamento;
-- aquisição ou locação de imóvel cujas características de instalações e localização tornem necessária sua escolha, cumpridos os requisitos legais.
+- <abbr title="Serviços em que predomina atividade intelectual especializada">serviços técnicos especializados de natureza predominantemente intelectual</abbr> com profissional ou empresa de notória especialização, vedada a inexigibilidade para publicidade e divulgação;
+- objetos contratados por <abbr title="Procedimento auxiliar para interessados que cumpram requisitos">credenciamento</abbr>;
+- aquisição ou locação de imóvel cuja instalação e localização tornem necessária sua escolha, com os requisitos legais.
 
-Na exclusividade, deve haver documento idôneo que demonstre a inviabilidade de competição, sendo vedada preferência por marca específica como simples justificativa.
+Na exclusividade, a Administração deve demonstrar a inviabilidade de competição por documento idôneo. A simples preferência por uma marca específica não substitui essa demonstração.
 
-## 7.3 Dispensa
+**Notória especialização** não é simples fama: desempenho anterior, estudos, experiência, publicações, organização, aparelhamento ou equipe devem permitir inferir que o trabalho é essencial e reconhecidamente adequado ao objeto.
 
-Na dispensa, a competição é juridicamente possível em tese, mas a própria Lei autoriza contratar diretamente em hipóteses definidas.
+### 5.3 Dispensa: a lei autoriza não licitar
 
-O rol do art. 75 é **legalmente delimitado**, ao contrário da fórmula aberta da inexigibilidade.
+Na dispensa, a competição seria possível, mas a Lei autoriza contratação direta em hipóteses definidas. Três grupos são centrais: **valor**, **licitação anterior sem resultado útil** e **urgência**.
 
-### Dispensa por valor — valores no corte de 6/7/2026
+#### Dispensa por valor no corte de 6 de julho de 2026
 
-Com a atualização do Decreto nº 12.807/2025, vigente desde 1º/1/2026:
+O Decreto nº 12.807/2025 atualizou os limites a partir de 1º de janeiro de 2026:
 
-| Hipótese | Valor inferior a |
+| Objeto | Valor da contratação deve ser inferior a |
 |---|---:|
 | obras e serviços de engenharia ou manutenção de veículos automotores | **R$ 130.984,20** |
 | outros serviços e compras | **R$ 65.492,11** |
 
-Para aferição desses limites, considera-se, entre outros pontos, o somatório despendido no exercício financeiro pela unidade gestora e a despesa com objetos de mesma natureza, nos termos do art. 75, § 1º.
+Para aferir esses limites, o artigo 75, § 1º, manda considerar o somatório despendido no exercício financeiro pela <abbr title="Unidade responsável pela execução orçamentária e financeira">unidade gestora</abbr> e o somatório da despesa com objetos de mesma natureza, entendidos como os do mesmo ramo de atividade.
 
-Os limites são duplicados para compras, obras e serviços contratados por consórcio público ou por autarquia ou fundação qualificadas como agência executiva.
+Os limites dos incisos I e II dobram para compras, obras e serviços contratados por <abbr title="Pessoa jurídica formada por entes públicos">consórcio público</abbr> ou por autarquia ou fundação qualificada como <abbr title="Qualificação legal atribuída a autarquia ou fundação">agência executiva</abbr>.
 
-Nas dispensas por valor, a divulgação de aviso em sítio eletrônico oficial por pelo menos **três dias úteis**, para obtenção de propostas adicionais, é **preferencial**, não uma obrigação absoluta do texto legal.
+Nas dispensas por valor, o aviso em sítio eletrônico oficial por pelo menos **três dias úteis**, com busca de propostas adicionais, é **preferencial** segundo o § 3º. A Lei não o redige como obrigação absoluta.
 
-### Licitação deserta ou fracassada recente
+#### Licitação deserta ou fracassada recente
 
-A Lei admite dispensa quando se mantêm todas as condições de edital de licitação realizada há menos de um ano e:
+A Lei admite dispensa se forem mantidas todas as condições de edital de licitação realizada há menos de um ano e:
 
-- não surgiram interessados ou não houve propostas válidas; ou
-- as propostas apresentaram preços manifestamente superiores ao mercado ou incompatíveis com os oficiais.
+- não surgirem interessados ou não houver propostas válidas (**licitação deserta**); ou
+- as propostas apresentarem preços manifestamente superiores aos de mercado ou incompatíveis com os oficiais (**licitação fracassada na hipótese legal**).
 
-### Emergência ou calamidade
+#### Emergência ou calamidade
 
-A dispensa emergencial limita-se aos bens necessários e às parcelas de obras e serviços que possam ser concluídas em até **um ano**, contado da ocorrência da emergência ou calamidade.
+A dispensa emergencial deve ficar restrita ao necessário para enfrentar a situação. As parcelas de obras e serviços contratadas diretamente precisam poder ser concluídas em até **um ano**, contado da ocorrência da emergência ou calamidade.
 
-O contrato emergencial dessa hipótese não pode ser prorrogado.
+O contrato dessa hipótese não pode ser prorrogado. A Administração deve caminhar para a solução licitatória regular e apurar, se for o caso, responsabilidade por quem deu causa à emergência.
 
-A Administração deve adotar providências para concluir o processo licitatório destinado à solução regular, sem prejuízo da apuração de responsabilidade de quem tenha dado causa à emergência.
+## 6. <abbr title="Sistema de Registro de Preços">SRP</abbr>: preparar contratações futuras
 
-## 8. Sistema de Registro de Preços — Lei nº 14.133/2021
+O <abbr title="Sistema de Registro de Preços">SRP</abbr> aparece no artigo 78 como **procedimento auxiliar** e recebe disciplina nos artigos 82 a 86 da Lei nº 14.133/2021. Ele organiza condições para futuras contratações sem transformar o registro em compra imediata de todo o quantitativo.
 
-O SRP figura entre os **procedimentos auxiliares** do art. 78.
+A <abbr title="Documento com preços e condições para contratações futuras">ata de registro de preços</abbr> registra objeto, preços, fornecedores, participantes e condições e representa **compromisso para futura contratação**.
 
-A Lei o admite para contratações futuras e estabelece regras nos arts. 82 a 86.
+```text
+seleção e registro de condições → ata → contratação concreta quando surgir a necessidade
+```
 
-### 8.1 Conceito funcional
+Isso produz uma assimetria importante:
 
-O registro de preços cria uma estrutura para contratações futuras, sem obrigar a Administração a contratar todo o quantitativo registrado.
+- o fornecedor fica comprometido nas condições registradas;
+- a Administração **não fica obrigada a contratar** todo o quantitativo — nem mesmo a contratar pela ata se houver justificativa para licitação específica.
 
-A existência de preços registrados:
+A ata não é o contrato. O contrato ou outro <abbr title="Documento apto a formalizar a contratação">instrumento hábil</abbr> formaliza a contratação concreta posterior e tem vigência própria.
 
-- implica compromisso do fornecedor nas condições estabelecidas;
-- **não obriga** a Administração a contratar;
-- permite, se motivado, realizar licitação específica para a aquisição pretendida.
+Pela Lei, a vigência da ata é de **um ano**, prorrogável por igual período se comprovado que o preço permanece vantajoso.
 
-### 8.2 Ata de registro de preços
+## 7. Decreto nº 11.462/2023: como o <abbr title="Sistema de Registro de Preços">SRP</abbr> federal funciona
 
-A ata é documento vinculativo e obrigacional, com característica de **compromisso para futura contratação**.
+O Decreto nº 11.462/2023 regulamenta os artigos 82 a 86 da Lei nº 14.133/2021 para a Administração Pública federal direta, autárquica e fundacional. Para aprender suas regras sem decorar itens soltos, acompanhe o fluxo:
 
-Não confunda:
+```text
+necessidade compatível com registro de preços
+                 ↓
+intenção de registro de preços e consolidação das demandas, quando cabível
+                 ↓
+pregão/concorrência OU contratação direta nas hipóteses admitidas
+                 ↓
+homologação → ata → eventual contratação concreta
+```
 
-- **ata:** registra objeto, preços, fornecedores, participantes e condições;
-- **contrato ou instrumento equivalente:** formaliza a contratação concreta posterior.
+### 7.1 Quando o <abbr title="Sistema de Registro de Preços">SRP</abbr> pode ser adotado
 
-A vigência da ata é de **um ano**, prorrogável por igual período se comprovado que o preço permanece vantajoso.
-
-O contrato decorrente da ata tem vigência própria conforme o instrumento e a Lei; não se confunde com a vigência da ata.
-
-## 9. Decreto nº 11.462/2023
-
-## 9.1 Âmbito e definições
-
-O Decreto nº 11.462/2023 regulamenta o SRP para a Administração Pública federal direta, autárquica e fundacional.
-
-Para o decreto:
-
-- **SRP:** conjunto de procedimentos para registro formal de preços, por contratação direta ou licitação nas modalidades pregão ou concorrência, para prestação de serviços, obras, aquisição e locação de bens destinados a contratações futuras;
-- **órgão gerenciador:** conduz os procedimentos e gerencia a ata;
-- **órgão participante:** participa dos procedimentos iniciais e integra a ata;
-- **órgão não participante:** não participa da fase inicial nem integra a ata, podendo aderir se atendidos os requisitos.
-
-## 9.2 Quando o SRP pode ser adotado
-
-Entre as hipóteses do art. 3º:
+O Decreto admite o <abbr title="Sistema de Registro de Preços">SRP</abbr>, entre outras hipóteses, quando houver:
 
 - necessidade de contratações permanentes ou frequentes;
 - entregas parceladas ou serviços remunerados por unidade de medida;
-- atendimento conveniente a mais de um órgão ou entidade, inclusive compra centralizada;
+- conveniência de atender a mais de um órgão ou entidade, inclusive em compra centralizada;
 - execução descentralizada de programa ou projeto federal;
-- impossibilidade de definir previamente o quantitativo a ser demandado.
+- impossibilidade de definir previamente o quantitativo a demandar.
 
-Para obras e serviços de engenharia, o decreto exige simultaneamente:
+Para obras e serviços de engenharia, devem ocorrer simultaneamente:
 
-- termo de referência, anteprojeto, projeto básico ou executivo padronizados, sem complexidade técnica e operacional;
-- necessidade permanente ou frequente.
+- padronização do <abbr title="Documento de requisitos do objeto">termo de referência</abbr>, <abbr title="Peça preliminar que orienta a solução técnica">anteprojeto</abbr>, <abbr title="Definição técnica suficiente da solução">projeto básico</abbr> ou <abbr title="Detalhamento completo para execução">projeto executivo</abbr>, sem complexidade técnica e operacional;
+- necessidade permanente ou frequente da obra ou serviço.
 
-## 9.3 IRP — intenção de registro de preços
+### 7.2 <abbr title="Intenção de Registro de Preços">IRP</abbr>: reunir interessados e estimar a demanda
 
-Na fase preparatória, o gerenciador realiza procedimento público de **IRP** para permitir a participação de outros órgãos ou entidades e determinar a estimativa total de quantidades.
+No Decreto:
 
-Prazo mínimo: **oito dias úteis**, contado do primeiro dia útil subsequente à divulgação no SRP digital e no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>.
+- **órgão gerenciador** conduz o procedimento e administra a ata;
+- **órgão participante** participa dos procedimentos iniciais e integra a ata;
+- **órgão não participante** não participou da fase inicial nem integra a ata, mas pode aderir depois se cumprir os requisitos.
 
-A IRP pode ser dispensada quando o gerenciador for o **único contratante**.
+Na fase preparatória, o gerenciador realiza procedimento público de <abbr title="Intenção de Registro de Preços">IRP</abbr> para admitir outros órgãos ou entidades e estimar o quantitativo total. O prazo mínimo é de **oito dias úteis**, contado do primeiro dia útil subsequente à divulgação no <abbr title="Sistema de Registro de Preços">SRP</abbr> digital e no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>.
 
-## 9.4 Licitação para registro de preços
+A <abbr title="Intenção de Registro de Preços">IRP</abbr> pode ser dispensada quando o gerenciador for o **único contratante**.
 
-Quando houver licitação:
+### 7.3 Licitação ou contratação direta para registrar preços
 
-- modalidade: **pregão ou concorrência**;
-- critério: **menor preço ou maior desconto**;
-- admite-se julgamento por grupo de itens apenas quando demonstradas a inviabilidade de adjudicação por item e a vantagem técnica e econômica.
+Quando o registro decorrer de licitação, usam-se:
 
-> **Pegadinha:** o SRP não substitui a modalidade. A licitação para registro usa pregão ou concorrência.
+- modalidade **pregão ou concorrência**;
+- critério **menor preço ou maior desconto**.
 
-## 9.5 SRP em contratação direta
+O julgamento por grupo de itens só é admitido quando houver demonstração da inviabilidade de adjudicação por item — atribuição separada de cada item ao respectivo vencedor — e da vantagem técnica e econômica do agrupamento.
 
-O Decreto admite SRP em inexigibilidade ou dispensa para aquisição de bens ou contratação de serviços por mais de um órgão ou entidade, observados:
+O Decreto também admite <abbr title="Sistema de Registro de Preços">SRP</abbr> por inexigibilidade ou dispensa para aquisição de bens ou contratação de serviços por mais de um órgão ou entidade, desde que sejam respeitados o processo do artigo 72, os pressupostos dos artigos 74 ou 75 e as demais regras do Decreto.
 
-- art. 72 da Lei;
-- pressupostos dos arts. 74 ou 75;
-- demais regras do decreto.
+Assim, o <abbr title="Sistema de Registro de Preços">SRP</abbr> não escolhe sozinho a via de seleção. Ele pode se apoiar em pregão/concorrência ou, nas condições legais, em contratação direta.
 
-Há ainda previsão específica de uso, por inexigibilidade, para aquisição decorrente de decisão judicial de medicamentos e insumos para tratamentos médicos.
+### 7.4 Crédito orçamentário, ata e cadastro de reserva
 
-## 9.6 Disponibilidade orçamentária
+No regime do Decreto, a indicação da disponibilidade de créditos orçamentários é exigida na **formalização do contrato ou outro <abbr title="Documento apto a formalizar a contratação">instrumento hábil</abbr>**, não como requisito para simplesmente registrar o preço.
 
-No SRP regido pelo Decreto nº 11.462/2023, a indicação da disponibilidade de créditos orçamentários é exigida apenas na **formalização do contrato ou instrumento hábil**, e não como condição para simplesmente registrar o preço.
-
-## 9.7 Cadastro de reserva
-
-Após homologação, a ata registra preços e quantitativos do adjudicatário e forma cadastro de reserva com:
-
-1. licitantes/fornecedores que aceitem preço igual ao do adjudicatário, observada a classificação;
-2. licitantes/fornecedores que mantenham sua proposta original.
-
-A habilitação dos integrantes do cadastro de reserva ocorre quando houver necessidade de convocá-los nas hipóteses previstas pelo decreto.
-
-## 9.8 Vigência e quantitativos
+Depois da homologação, além dos preços e quantitativos do vencedor, forma-se **cadastro de reserva** com fornecedores que, nas condições do Decreto, aceitem o preço do vencedor ou mantenham sua proposta original. A habilitação desses integrantes é verificada quando surgir necessidade de convocá-los nas hipóteses previstas.
 
 A ata:
 
-- vigora por **um ano**, contado do primeiro dia útil subsequente à divulgação no PNCP;
+- vigora por **um ano**, contado do primeiro dia útil subsequente à divulgação no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>;
 - pode ser prorrogada por igual período se o preço continuar vantajoso;
-- não admite acréscimos nos quantitativos nela estabelecidos.
+- **não admite acréscimos** nos quantitativos nela estabelecidos.
 
-## 9.9 Alteração dos preços registrados
+### 7.5 Quando o preço registrado deixa de acompanhar o mercado
 
-Os preços podem ser alterados ou atualizados nas hipóteses do art. 25 do decreto, como fatos supervenientes que inviabilizem as condições originalmente registradas, mudanças tributárias com repercussão comprovada e hipóteses de reajuste ou repactuação previstas.
+O Decreto prevê hipóteses de alteração ou atualização do preço registrado diante de fatos supervenientes, mudanças tributárias com repercussão comprovada e mecanismos de <abbr title="Atualização periódica por índice previsto no instrumento">reajuste</abbr> ou <abbr title="Revisão de custos em serviços contínuos com mão de obra, nas condições previstas">repactuação</abbr> previstos.
 
-Se o preço registrado se tornar **superior ao mercado**, o gerenciador chama o fornecedor para negociar sua redução.
+Se o preço registrado se tornar **superior ao preço de mercado**, o gerenciador convoca o fornecedor para negociar sua redução. Se o preço de mercado se tornar **superior ao registrado** e o fornecedor não puder cumprir a obrigação, ele pode requerer alteração mediante demonstração do fato superveniente e documentação comprobatória.
 
-Se o preço de mercado se tornar **superior ao registrado** e o fornecedor não puder cumprir a obrigação, pode requerer alteração mediante demonstração de fato superveniente e documentação comprobatória.
+### 7.6 Adesão de órgão não participante
 
-## 9.10 Adesão de não participantes
+Um órgão ou entidade que não participou da fase inicial pode aderir à ata durante sua vigência, desde que demonstre:
 
-Durante a vigência, órgãos e entidades que não participaram da IRP podem aderir à ata, atendidos os requisitos:
+1. vantagem da adesão;
+2. compatibilidade dos valores registrados com o mercado;
+3. consulta e aceitação prévias do órgão gerenciador e do fornecedor.
 
-- justificativa da vantagem;
-- demonstração de compatibilidade dos valores registrados com o mercado;
-- consulta e aceitação prévias do gerenciador e do fornecedor.
+Depois da autorização, a contratação deve ser efetivada em até **90 dias**, sempre dentro da vigência da ata. O prazo pode ser excepcionalmente prorrogado, desde que a contratação ainda ocorra durante essa vigência.
 
-Depois da autorização, a contratação deve ser efetivada em até **90 dias**, respeitada a vigência da ata. O prazo pode ser excepcionalmente prorrogado, desde que ainda dentro da vigência.
+Em regra, os limites são:
 
-### Limites de adesão
+- cada não participante: até **50%** dos quantitativos de cada item registrados para gerenciador e participantes;
+- soma de todas as adesões: até o **dobro** do quantitativo de cada item registrado para gerenciador e participantes.
 
-Em regra:
+O Decreto contém exceções específicas ao limite global. Além disso, órgãos e entidades da Administração Pública **federal não podem aderir** a ata gerenciada por órgão ou entidade estadual, distrital ou municipal.
 
-- cada órgão ou entidade não participante: até **50%** dos quantitativos de cada item registrados para gerenciador e participantes;
-- conjunto de todas as adesões: até o **dobro** do quantitativo de cada item registrado para gerenciador e participantes.
+### 7.7 A ata ainda não é a contratação
 
-O decreto prevê exceções específicas ao limite global.
+Quando surgir a necessidade concreta, a contratação do fornecedor registrado será formalizada por instrumento contratual, <abbr title="Documento que formaliza o empenho da despesa">nota de empenho</abbr>, autorização de compra ou outro <abbr title="Documento apto a formalizar a contratação">instrumento hábil</abbr> admitido pela Lei. Esses instrumentos precisam ser assinados dentro do prazo de validade da ata.
 
-Além disso, órgãos e entidades da Administração Pública **federal não podem aderir** a ata gerenciada por órgão ou entidade estadual, distrital ou municipal.
-
-## 9.11 Formalização da contratação
-
-A contratação do fornecedor registrado será formalizada por:
-
-- instrumento contratual;
-- nota de empenho;
-- autorização de compra;
-- outro instrumento hábil admitido pelo art. 95 da Lei.
-
-Esses instrumentos devem ser assinados dentro do prazo de validade da ata.
-
-## 10. Quadro de pegadinhas
-
-| Afirmação | Correção |
-|---|---|
-| SRP é modalidade de licitação | **Errado.** É procedimento auxiliar. |
-| Pregão é critério de julgamento | **Errado.** É modalidade. |
-| Maior desconto é modalidade | **Errado.** É critério. |
-| Contratação direta dispensa processo | **Errado.** O art. 72 exige instrução. |
-| Toda inexigibilidade depende de fornecedor exclusivo | **Errado.** Exclusividade é apenas uma hipótese. |
-| Rol da inexigibilidade é fechado | **Errado.** O art. 74 parte da inviabilidade de competição e usa “em especial”. |
-| Ata de registro de preços obriga a Administração a contratar | **Errado.** Não há obrigação de contratar. |
-| Ata de registro de preços é o próprio contrato | **Errado.** A contratação posterior é formalizada separadamente. |
-| IRP sempre é obrigatória | **Errado.** Pode ser dispensada se o gerenciador for o único contratante. |
-| Licitação para SRP usa qualquer modalidade | **Errado.** Decreto nº 11.462/2023: pregão ou concorrência. |
-| Decreto nº 11.462/2023 é automaticamente o regime do TCE/MA | **Errado.** Seu âmbito é federal; aqui é objeto expresso do edital. |
-| Dispensa por valor usa os números originais de 2021 | **Errado.** No corte de 6/7/2026, valem os valores atualizados pelo Decreto nº 12.807/2025. |
+Em síntese: o <abbr title="Sistema de Registro de Preços">SRP</abbr> registra condições, a ata documenta o registro e a contratação concreta cria a obrigação de adquirir.
