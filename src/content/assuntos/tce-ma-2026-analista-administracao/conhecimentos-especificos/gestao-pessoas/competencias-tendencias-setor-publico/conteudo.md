@@ -8,398 +8,197 @@ storageId: "gp-competencias-tendencias"
 
 # Gestão por competências e tendências em gestão de pessoas no setor público
 
-## 1. Recorte e corte temporal
+Imagine um órgão em que uma atividade crítica depende de poucos especialistas enquanto novas tecnologias alteram o trabalho. **Não basta contar cursos nem adotar a ferramenta da moda.** É preciso descobrir quais capacidades as entregas exigem, quais já existem, o que realmente falta e qual resposta produz valor.
 
-O edital cobra dois núcleos relacionados:
+O mecanismo central é:
 
-1. **gestão por competências**;
-2. **tendências em gestão de pessoas no setor público**.
+> **estratégia e entregas → competências requeridas → evidências das competências existentes → lacunas → causa e prioridade → resposta → aplicação e resultado → revisão**
 
-> **Corte de prova:** regras e referências vigentes em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Consultas editoriais posteriores não alteram esse corte.
+Para as tendências, use a mesma lógica: **qual problema a prática resolve, que evidência a sustenta, que riscos cria e quais limites do setor público condicionam sua adoção?**
 
-O foco é gerencial. Normas federais, proteção de dados e regras trabalhistas aparecem apenas como **limites ou referências**, quando indispensáveis para compreender uma prática de gestão; não devem transformar o assunto em estudo autônomo de <abbr title="Política Nacional de Desenvolvimento de Pessoas">PNDP</abbr>, <abbr title="Programa de Gestão e Desempenho">PGD</abbr>, <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> ou <abbr title="Norma Regulamentadora nº 1">NR-1</abbr>.
+> **Corte de prova:** regras e referências vigentes em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Práticas de outros órgãos ou governos podem ilustrar tendências, mas não são presumidas como regras internas do Tribunal.
 
-## 2. Competência: CHA, mobilização, contexto e entrega
+## 1. Competência: recursos mobilizados em uma entrega
 
-A gestão por competências procura identificar, captar, desenvolver, mobilizar e acompanhar capacidades relevantes para a estratégia e para os resultados da organização. No setor público, o resultado deve ser lido em termos de **valor público**: capacidade institucional, qualidade dos serviços, integridade, direitos, equidade, eficiência e efetividade.
+A gestão por competências identifica, capta, desenvolve, mobiliza e acompanha capacidades relevantes para a estratégia. No setor público, elas devem contribuir para **valor público**: capacidade institucional e entregas à sociedade com qualidade, integridade, direitos, equidade, eficiência e efetividade.
 
-### 2.1 CHA
+### 1.1 <abbr title="Conhecimentos, habilidades e atitudes">CHA</abbr>
 
-O modelo **CHA** descreve recursos individuais:
+O modelo <abbr title="Conhecimentos, habilidades e atitudes">CHA</abbr> descreve recursos individuais:
 
 | Dimensão | Núcleo | Exemplo |
 | --- | --- | --- |
-| **conhecimento** | saber e compreender | conhecer normas e técnicas |
-| **habilidade** | saber fazer e aplicar | analisar dados ou elaborar parecer |
+| **conhecimento** | saber e compreender | normas, conceitos e técnicas |
+| **habilidade** | saber fazer e aplicar | analisar dados ou aplicar um método |
 | **atitude** | disposição para agir de modo pertinente | cooperar, buscar evidências, assumir responsabilidade |
 
-O CHA é útil, mas **não esgota competência**. Diploma, certificado, tempo de serviço e conhecimento declarado não demonstram, sozinhos, que a pessoa mobiliza esses recursos em situação real.
+O <abbr title="Conhecimentos, habilidades e atitudes">CHA</abbr> é útil, mas **não esgota competência**. Diploma, certificado, tempo de serviço e conhecimento declarado não demonstram, sozinhos, que esses recursos serão combinados adequadamente em situação real.
 
-### 2.2 Mobilização e entrega
+### 1.2 Mobilização, contexto e entrega
 
-Competência aparece quando recursos são **mobilizados no contexto** e produzem uma **entrega observável**. A entrega pode envolver qualidade, prazo, fundamentação, integridade, cooperação, acessibilidade, economicidade e efeito para o usuário.
+Competência aparece quando recursos são **mobilizados em contexto** e se convertem em **entrega observável**: um diagnóstico fundamentado, um serviço acessível, uma decisão tempestiva ou a solução de um problema, por exemplo.
 
-Uma descrição útil evita rótulos vagos e liga a competência ao trabalho. Estrutura prática:
+Uma descrição útil aproxima competência do trabalho real:
 
 > **verbo observável + objeto + condição ou critério**
 
-Exemplo: “analisar riscos de contratação, justificar prioridades com evidências e observar a legislação aplicável”.
+**Exemplo hipotético:** “analisar riscos de contratação, justificar prioridades com evidências e observar a legislação aplicável”.
 
-### 2.3 Complexidade
+A complexidade da entrega aumenta com fatores como autonomia, incerteza, impacto, risco, articulação e horizonte temporal. **Complexidade não é volume de tarefas, antiguidade nem título do cargo.** O <abbr title="Amplitude das responsabilidades e entregas assumidas no trabalho">espaço ocupacional</abbr> pode ampliar-se sem alterar automaticamente cargo, carreira ou remuneração.
 
-A complexidade da entrega pode variar por:
-
-- autonomia e supervisão;
-- variedade e incerteza dos problemas;
-- impacto, risco e responsabilidade;
-- articulação entre atores e conhecimentos;
-- horizonte temporal da decisão.
-
-**Complexidade não é volume de tarefas, antiguidade ou título do cargo.** O chamado espaço ocupacional pode ampliar-se quando a pessoa assume entregas mais abrangentes, mas isso não altera automaticamente cargo, carreira ou remuneração.
-
-### 2.4 Competência, desempenho e resultado
-
-Esses conceitos são relacionados, mas distintos:
+### 1.3 Competência, desempenho e resultado
 
 - **competência:** capacidade mobilizável e demonstrada em contexto;
 - **desempenho:** expressão observada do trabalho em determinado período;
 - **resultado:** efeito produzido pela atuação individual, coletiva e organizacional.
 
-Baixo desempenho não prova automaticamente lacuna individual. Processos, sistema, recursos, metas, liderança, coordenação e ambiente também influenciam a entrega.
+Baixo desempenho **não prova automaticamente** lacuna individual: processo, sistema, recursos, metas, coordenação e liderança também influenciam a entrega.
 
-## 3. Níveis e classificações de competências
+## 2. Níveis e classificações
 
-### 3.1 Individuais ou profissionais
+Competências individuais podem ser **técnicas**, **gerenciais**, **comportamentais**, **transversais** ou **finalísticas**, conforme a finalidade do modelo. Competência comportamental deve ser descrita por atuação observável, não por rótulo de personalidade.
 
-Podem ser:
+**Competências de equipe** emergem da coordenação de papéis e conhecimentos. **Competências organizacionais** dependem da integração de pessoas, processos, tecnologia, estrutura, informação, cultura e governança:
 
-- **técnicas:** conhecimentos e métodos especializados;
-- **gerenciais:** direção, coordenação, decisão e desenvolvimento de equipes;
-- **comportamentais:** modos observáveis de atuação, sem reduzir a pessoa a traços de personalidade;
-- **transversais:** úteis em diferentes áreas, como comunicação, integridade e fluência digital;
-- **finalísticas:** diretamente ligadas à missão e aos processos de entrega.
+> competência organizacional ≠ soma mecânica dos <abbr title="Conjuntos de conhecimentos, habilidades e atitudes">CHAs</abbr> individuais.
 
-### 3.2 De equipe e organizacionais
+**Competências essenciais** são capacidades estratégicas que sustentam missão e valor; não significam “talento raro de uma pessoa”. Distinguir competências **atuais, emergentes e futuras** ajuda a antecipar necessidades de captação, desenvolvimento, mobilidade e sucessão.
 
-**Competências de equipe** emergem da coordenação de papéis, conhecimentos e interdependências. **Competências organizacionais** decorrem da integração de pessoas, processos, tecnologia, estrutura, informação, cultura e governança.
+## 3. Mapeamento: da estratégia às evidências
 
-Logo:
+### 3.1 O trabalho vem antes da ferramenta
 
-> competência organizacional ≠ soma mecânica dos CHAs individuais.
+O mapeamento parte de missão e estratégia, processos, riscos, públicos, entregas esperadas e mudanças tecnológicas, normativas ou sociais. Desses elementos se derivam as competências requeridas. Um dicionário externo pode fornecer repertório, mas não substitui a análise do contexto.
 
-### 3.3 Essenciais e horizonte temporal
-
-**Competências essenciais** são capacidades estratégicas que sustentam a missão e a geração de valor. Não significam “talento raro de uma pessoa”.
-
-Competências também podem ser classificadas como:
-
-- atuais;
-- emergentes;
-- futuras.
-
-Essa visão ajuda a antecipar capacidades necessárias e orientar captação, desenvolvimento, mobilidade e sucessão.
-
-## 4. Mapeamento de competências
-
-### 4.1 Ponto de partida
-
-O mapeamento deve partir de:
-
-- missão e estratégia;
-- processos e cadeias de valor;
-- riscos;
-- públicos e usuários;
-- resultados e entregas esperadas;
-- mudanças tecnológicas, normativas e sociais.
-
-Copiar um dicionário pronto de outra organização pode servir de referência, mas não substitui a análise do contexto.
-
-### 4.2 Requerido × existente = lacuna
+### 3.2 Requerido × existente = lacuna
 
 O diagnóstico compara:
 
 1. **competências requeridas** para as entregas atuais e futuras;
-2. **competências existentes**, demonstradas por evidências.
+2. **competências existentes**, demonstradas por evidências pertinentes.
 
-A diferença relevante constitui a **lacuna de competência** (*gap*).
+A diferença relevante é a **lacuna de competência**, também chamada <abbr title="Lacuna entre a competência requerida e a existente">gap</abbr>. Ela pode ser individual, de equipe ou organizacional — ou apenas aparente, quando a barreira real está em processo, sistema, recurso ou governança.
 
-A lacuna pode ser:
+### 3.3 Métodos de coleta e <abbr title="Combinação de fontes ou métodos para confrontar evidências">triangulação</abbr>
 
-- individual;
-- de equipe;
-- organizacional;
-- ou apenas aparente, quando o problema real está em processo, sistema, recurso ou governança.
+Métodos podem ser combinados conforme a pergunta:
 
-### 4.3 Métodos de coleta
+- **documentos** mostram estratégia, processos, riscos e entregas formalizadas;
+- **entrevistas** aprofundam exemplos e critérios do trabalho;
+- **<abbr title="Discussão guiada em grupo para obter evidências">grupos focais</abbr>** promovem discussão guiada; grupos com participantes de experiência ou posição comparável podem facilitar a interação, conforme o objetivo;
+- **questionários** ampliam alcance, mas dependem de itens e interpretações consistentes;
+- **observação** revela práticas do trabalho em contexto;
+- **<abbr title="Técnica que examina situações marcantes de sucesso ou falha">incidentes críticos</abbr>** examinam situações marcantes de sucesso ou falha e os comportamentos associados; não se restringem a ocorrências disciplinares;
+- painéis de especialistas e <abbr title="Consulta estruturada em rodadas sucessivas a especialistas">Delphi</abbr> ajudam a tratar capacidades especializadas ou futuras;
+- dados de entregas e sistemas revelam padrões que ainda precisam ser interpretados.
 
-Podem ser combinados:
+**Triangulação** confronta fontes ou métodos para reduzir dependência de uma única percepção. Autoavaliação é útil para reflexão, mas não deve ser evidência exclusiva em decisões relevantes.
 
-- análise documental;
-- entrevistas;
-- grupos focais e oficinas;
-- questionários;
-- observação;
-- incidentes críticos;
-- painéis de especialistas e <abbr title="método iterativo de consulta a especialistas">Delphi</abbr>;
-- dados de entregas e sistemas.
+### 3.4 Perfis e <abbr title="Grau de domínio demonstrado de uma competência">proficiência</abbr>
 
-**Triangulação** combina evidências para reduzir dependência de uma única percepção. Autoavaliação é útil para reflexão, mas não deve ser evidência única para decisões relevantes.
+**Proficiência** é o grau de domínio demonstrado de uma competência. Um perfil reúne competências e níveis requeridos para um papel, equipe ou processo. Escalas como “básico, intermediário e avançado” só ganham significado quando possuem **âncoras de comportamento ou entrega** que expliquem o que diferencia os níveis.
 
-### 4.4 Perfis e níveis de proficiência
+## 4. Priorizar e tratar lacunas
 
-Um perfil de competência define o conjunto e os níveis requeridos para determinado papel, equipe ou processo.
+Nem toda lacuna tem a mesma prioridade. Considere impacto sobre resultados e valor público, risco, criticidade, urgência, alcance, tendência de crescimento, dificuldade de reposição, custo e viabilidade.
 
-Escalas precisam de **âncoras claras de comportamento ou entrega**. “Básico, intermediário e avançado” é pouco útil quando não se sabe o que diferencia cada nível.
+Depois investigue a causa. **Treinamento é apenas uma resposta possível.** Podem ser adequados desenvolvimento e prática supervisionada, mentoria, seleção ou outra captação autorizada, mobilidade, recomposição de equipes, sucessão, gestão do conhecimento, redesenho de processo ou melhoria de sistemas e recursos.
 
-## 5. Priorização e tratamento das lacunas
+A captação também existe no **nível organizacional**: parcerias, alianças e redes podem combinar capacidades de organizações diferentes. Isso não transfere competências jurídicas nem dispensa a preservação de capacidades internas críticas.
 
-Nem toda lacuna merece a mesma resposta. A priorização pode considerar:
+Uma **trilha de aprendizagem** combina experiências orientadas a uma capacidade — curso, prática, projeto, mentoria, pares e feedback — e por isso não é mera lista de cursos.
 
-- impacto sobre resultados e valor público;
-- risco e criticidade;
-- urgência;
-- população afetada;
-- tendência de crescimento da lacuna;
-- dificuldade e tempo de reposição;
-- custo e viabilidade do tratamento.
-
-Treinamento é apenas uma das respostas possíveis. Conforme a causa, podem ser adequados:
-
-- desenvolvimento e prática supervisionada;
-- mentoria e comunidades de prática;
-- seleção ou captação autorizada;
-- mobilidade e composição de equipes;
-- sucessão;
-- gestão do conhecimento;
-- redesenho de processo ou trabalho;
-- melhoria de sistemas e recursos.
-
-Uma **trilha de aprendizagem** combina experiências orientadas a determinada capacidade; não é mera lista de cursos.
-
-## 6. Integração dos subsistemas de gestão de pessoas
+## 5. Integrar competências às decisões de pessoas
 
 | Subsistema | Uso das competências | Cuidado |
 | --- | --- | --- |
-| planejamento da força de trabalho | perfis críticos e lacunas futuras | não se limita à contagem de pessoas |
+| força de trabalho | perfis críticos e lacunas futuras | não reduzir planejamento a quantidade |
 | recrutamento e seleção | critérios e evidências ligados às entregas | respeitar requisitos jurídicos e impessoalidade |
-| desempenho | expectativas, feedback e evidências | não imputar à pessoa barreiras sistêmicas |
-| desenvolvimento | priorização de gaps e trilhas | curso não é resposta universal |
-| carreira e mobilidade | expectativas e caminhos de desenvolvimento | não cria direito automático |
-| sucessão | continuidade de capacidades críticas | potencial ≠ nomeação futura |
-| conhecimento | retenção e transferência do saber crítico | repositório sem uso não produz aprendizagem |
+| desempenho | expectativas e evidências | separar lacuna de barreira sistêmica |
+| desenvolvimento | prioridades e trilhas | curso não é resposta universal |
+| carreira e mobilidade | caminhos de desenvolvimento | não cria direito automático |
+| sucessão | continuidade de capacidades críticas | potencial não é nomeação futura |
+| conhecimento | retenção e transferência de saber | repositório sem uso não produz aprendizagem |
 | reconhecimento | valorização de entregas e desenvolvimento | remuneração depende do regime aplicável |
 
-A gestão por competências deve integrar esses subsistemas, e não funcionar como cadastro isolado do <abbr title="Recursos Humanos">RH</abbr>.
+A responsabilidade é compartilhada: alta administração direciona prioridades; a unidade de pessoas coordena método e integração; gestores traduzem estratégia em entregas; equipes e especialistas validam o trabalho real; áreas de tecnologia, integridade, controle e proteção de dados participam conforme os riscos.
 
-## 7. Governança, implantação e avaliação
+Um ciclo coerente é **definir governança → mapear requerido → levantar existente → diagnosticar e priorizar lacunas → escolher respostas → acompanhar aplicação e resultados → revisar**. A tecnologia apoia o ciclo, mas não deve definir a metodologia.
 
-Um ciclo coerente pode seguir:
+Indicadores úteis observam cobertura de perfis críticos, tempo até proficiência, aplicação no trabalho, continuidade de capacidades, qualidade das entregas e transferência de conhecimento. **Horas de curso e certificados medem esforço ou participação; não provam competência ou impacto.**
 
-1. definir governança, escopo e participação;
-2. interpretar estratégia, processos, riscos e cenários;
-3. mapear e validar competências requeridas;
-4. levantar competências existentes por evidências múltiplas;
-5. diagnosticar e priorizar lacunas;
-6. escolher respostas conforme a causa;
-7. acompanhar aplicação, entregas e resultados;
-8. revisar periodicamente o modelo.
+## 6. Tendências: direção de mudança não é moda obrigatória
 
-### 7.1 Responsabilidade compartilhada
+Antes de adotar uma tendência, examine quatro filtros: **finalidade, evidência, risco e compatibilidade com regime, missão e contexto**.
 
-- **alta administração:** direciona prioridades;
-- **unidade de pessoas:** coordena metodologia e integração;
-- **gestores:** traduzem estratégia em entregas e acompanham aplicação;
-- **equipes e especialistas:** validam o trabalho real;
-- **tecnologia, integridade, controle e proteção de dados:** participam conforme os riscos.
+### 6.1 Transformação digital, <abbr title="Inteligência artificial">IA</abbr> e automação
 
-A ferramenta tecnológica não deve definir a metodologia. Primeiro vêm o problema e a decisão de gestão; depois, a solução tecnológica.
+Ferramentas digitais e <abbr title="Inteligência artificial">IA</abbr> podem apoiar triagem, organização de informação, aprendizagem, planejamento e decisões. Ganhos de escala não eliminam responsabilidade humana.
 
-### 7.2 Indicadores
+Salvaguardas incluem finalidade definida, dados adequados, teste de vieses, segurança, registro e auditabilidade, explicabilidade proporcional ao risco e revisão humana efetiva. **<abbr title="Uso de sistemas automatizados para orientar decisões sobre o trabalho">Gestão algorítmica</abbr>** é o uso de sistemas automatizados para orientar ou controlar decisões sobre o trabalho; pode ampliar consistência, mas também vigilância, discriminação, intensificação e perda de autonomia. O <abbr title="Revisão humana efetiva inserida no fluxo de decisão automatizada">human-in-the-loop</abbr> exige pessoa com informação, competência e autoridade para revisar; chancela ritual não basta.
 
-Indicadores úteis incluem:
+### 6.2 Gestão orientada a dados e <abbr title="Análise de dados aplicada à gestão de pessoas">people analytics</abbr>
 
-- cobertura de perfis críticos;
-- lacunas prioritárias tratadas;
-- tempo até proficiência;
-- aplicação no trabalho;
-- continuidade de capacidades críticas;
-- qualidade e prazo das entregas;
-- retenção e transferência de conhecimento;
-- percepção de justiça, inclusão e acessibilidade.
+<abbr title="Análise de dados aplicada à gestão de pessoas">People analytics</abbr> usa dados para responder perguntas de gestão de pessoas. Um <abbr title="Painel visual de indicadores e informações">dashboard</abbr> é meio de visualização, não a própria análise.
 
-**Horas de curso e certificados medem esforço ou participação; não provam competência ou impacto.**
+O fluxo é **pergunta → dados pertinentes → análise → limitações → decisão → acompanhamento**. Correlação não prova causalidade: desempenho posterior maior entre participantes de uma trilha, por exemplo, pode refletir seleção voluntária, diferenças iniciais ou contexto.
 
-### 7.3 Falhas típicas
+A <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> impõe limites relevantes ao uso de dados pessoais: finalidade, necessidade, transparência, segurança, prevenção, não discriminação e responsabilização devem ser observadas conforme o tratamento e a competência do órgão.
 
-- inventário enorme sem prioridade;
-- competências vagas ou baseadas em personalidade;
-- autoavaliação tratada como verdade objetiva;
-- uso punitivo do gap;
-- tecnologia antes do problema de gestão;
-- falta de atualização;
-- ligação automática entre competência e remuneração;
-- coleta excessiva de dados.
+### 6.3 Sistemas integrados, autosserviço e desenho da função de pessoas
 
-## 8. Tendências em gestão de pessoas no setor público
+Sistemas integrados podem conectar cadastro, força de trabalho, desempenho, competências, desenvolvimento e indicadores, reduzindo retrabalho. Para isso, sistemas precisam trocar e usar dados de forma compatível — **interoperabilidade**. A integração também replica erros em escala se dados, acessos ou regras estiverem errados. <abbr title="Execução direta de operações simples pelo próprio usuário">Autosserviço</abbr> permite ao próprio usuário executar operações simples pelo sistema; aumenta agilidade, mas exige acessibilidade, suporte e segurança.
 
-Tendência é uma direção relevante de mudança, não moda obrigatória. Deve ser avaliada pela compatibilidade com **evidência, missão, regime jurídico, riscos, maturidade e geração de valor público**.
+Outra tendência reorganiza a função de pessoas em papéis complementares:
 
-### 8.1 Transformação digital, <abbr title="Inteligência artificial">IA</abbr> e automação
+- **<abbr title="Centralização de processos comuns para atender várias unidades">serviços compartilhados</abbr>:** concentram processos transacionais de alto volume, como cadastro, atendimento e, quando o regime permitir, folha de pagamento;
+- **equipes especializadas:** aprofundam políticas e métodos técnicos;
+- **<abbr title="Parceiro de recursos humanos próximo às lideranças e à estratégia">business partner</abbr>:** aproxima a função de pessoas das lideranças para traduzir objetivos organizacionais em decisões de pessoas e articular especialistas e serviços.
 
-Podem apoiar triagem, organização de informação, aprendizagem, planejamento e decisões. Ganhos de escala e consistência não eliminam a responsabilidade humana.
+Não existe modelo único obrigatório. A especificidade de cargos públicos, por si só, não torna conceitualmente impossível compartilhar serviços; a arquitetura concreta depende das competências, regras e escolhas de cada organização.
 
-Guardrails gerenciais:
+### 6.4 Trabalho flexível e equipes distribuídas
 
-- finalidade definida;
-- dados adequados;
-- teste de vieses;
-- segurança;
-- registro e auditabilidade;
-- explicabilidade proporcional ao risco;
-- revisão humana efetiva;
-- responsabilização por decisões.
+Presencial, híbrido ou remoto devem ser escolhidos conforme atividades, atendimento, segurança, coordenação e regime aplicável. Equipes distribuídas precisam de entregas claras, acordos de comunicação, acesso equivalente à informação e acompanhamento pertinente, sem disponibilidade permanente nem vigilância invasiva.
 
-**Human-in-the-loop** exige pessoa com informação, competência e autoridade para revisar; não simples chancela da saída da máquina.
+O **<abbr title="Favorecimento de quem é visto fisicamente com mais frequência">viés de proximidade</abbr>** favorece quem é visto fisicamente com mais frequência, mesmo sem diferença de entrega. Liderar por resultados não é deixar de acompanhar; é usar critérios ligados ao trabalho em vez de presença como atalho.
 
-### 8.2 Gestão orientada a dados e evidências
+### 6.5 Aprendizagem contínua, <abbr title="Atualização ou aprofundamento de capacidades para o trabalho atual">upskilling</abbr> e <abbr title="Preparação para novas atividades ou ocupações">reskilling</abbr>
 
-**People analytics** usa dados para responder perguntas de gestão de pessoas. Dashboard é meio, não finalidade.
+- <abbr title="Atualização ou aprofundamento de capacidades para o trabalho atual">upskilling</abbr>: atualiza ou aprofunda capacidades no campo atual;
+- <abbr title="Preparação para novas atividades ou ocupações">reskilling</abbr>: prepara para novas atividades ou ocupações;
+- **aprendizagem no fluxo do trabalho:** articula projetos, prática, mentoria, comunidades e feedback à necessidade real.
 
-Boas práticas:
+A tendência é deslocar o foco de “horas de curso” para **proficiência, aplicação e adaptação**.
 
-- começar pela pergunta de decisão;
-- usar dados pertinentes e de qualidade;
-- distinguir correlação de causalidade;
-- documentar hipóteses e limitações;
-- evitar coleta excessiva e perfilamento opaco;
-- proteger dados pessoais conforme a finalidade e o regime aplicável.
+### 6.6 Experiência, bem-estar e <abbr title="Fatores do trabalho que podem afetar saúde e bem-estar">riscos psicossociais</abbr>
 
-A LGPD funciona aqui como **guardrail**: finalidade, necessidade, transparência, segurança, prevenção, não discriminação e responsabilização são especialmente relevantes quando decisões de pessoas usam dados ou automação.
+**Experiência do servidor**, engajamento e satisfação se relacionam, mas não são sinônimos: a experiência abrange a interação da pessoa com processos, liderança e condições ao longo da jornada de trabalho. Bem-estar não deve individualizar problemas originados na organização do trabalho.
 
-### 8.3 Sistemas digitais integrados e autosserviço
+Riscos psicossociais podem envolver carga e ritmo, autonomia, prioridades contraditórias, assédio, apoio da liderança, justiça, recursos e desenho do trabalho. Uma intervenção individual pode ajudar, mas não corrige sozinha sobrecarga, assédio ou metas incompatíveis. Regras de saúde e segurança aplicáveis podem acrescentar deveres conforme vínculo e regime; aqui interessa o mecanismo gerencial de prevenção e desenho saudável do trabalho.
 
-Sistemas integrados de gestão de pessoas podem conectar cadastro, força de trabalho, desempenho, competências, desenvolvimento e indicadores, reduzindo retrabalho e melhorando informação para decisão.
-
-Riscos incluem:
-
-- dados inconsistentes replicados em escala;
-- acessos excessivos;
-- decisões baseadas em campos desatualizados;
-- baixa interoperabilidade;
-- automação de regras sem governança.
-
-Autosserviço amplia agilidade e autonomia operacional, mas precisa de acessibilidade, suporte, segurança e clareza de responsabilidades.
-
-### 8.4 Trabalho flexível e equipes distribuídas
-
-Trabalho presencial, híbrido ou remoto deve ser escolhido conforme atividades, atendimento, segurança, coordenação e regime aplicável.
-
-Boas práticas:
-
-- entregas e responsabilidades claras;
-- acordos de comunicação;
-- documentação e acesso equivalente à informação;
-- avaliação por critérios pertinentes;
-- prevenção do viés de proximidade;
-- proteção contra disponibilidade permanente e vigilância invasiva.
-
-Uma norma ou programa federal pode ilustrar práticas, mas **não deve ser presumido como regra interna do TCE-MA**.
-
-### 8.5 Aprendizagem contínua, upskilling e reskilling
-
-- **upskilling:** aprofundar ou atualizar capacidades no campo de trabalho atual;
-- **reskilling:** preparar para novas atividades ou ocupações;
-- **aprendizagem no fluxo do trabalho:** projetos, mentoria, comunidades, prática e feedback articulados à necessidade.
-
-Tendência relevante: deslocar o foco de “horas de curso” para **proficiência, aplicação e capacidade de adaptação**.
-
-### 8.6 Experiência, engajamento, bem-estar e riscos psicossociais
-
-Experiência do servidor, engajamento e satisfação são relacionados, mas não idênticos. Gestão de bem-estar não deve individualizar problemas cuja origem está na organização do trabalho.
-
-Avalie:
-
-- carga e ritmo;
-- autonomia;
-- clareza de prioridades;
-- assédio e conflitos;
-- apoio da liderança;
-- justiça;
-- recursos e desenho do trabalho.
-
-Normas de saúde e segurança aplicáveis podem impor requisitos adicionais conforme o vínculo e o regime; para este assunto, importa a **perspectiva gerencial de prevenção e desenho saudável do trabalho**.
-
-### 8.7 Diversidade, equidade, inclusão e acessibilidade
+### 6.7 Diversidade, equidade, inclusão e acessibilidade
 
 - **diversidade:** presença de diferenças;
-- **equidade:** enfrentamento de barreiras e criação de condições justas;
+- **equidade:** enfrentamento de barreiras para criar condições justas;
 - **inclusão:** participação, voz e pertencimento;
 - **acessibilidade:** remoção de barreiras físicas, comunicacionais, digitais e atitudinais.
 
-Representação numérica é importante, mas insuficiente. O diagnóstico deve examinar acesso a oportunidades, desenvolvimento, segurança, participação e barreiras.
+Representação numérica importa, mas não basta: também se examinam oportunidades, desenvolvimento, segurança, participação e barreiras.
 
-### 8.8 Gestão do conhecimento, inovação, agilidade e redes
+### 6.8 Conhecimento, inovação, redes e força de trabalho
 
-Aposentadorias, mobilidade e transformação digital aumentam o risco de perda de conhecimento crítico. Respostas incluem:
+Aposentadorias, mobilidade e transformação digital podem ameaçar saber crítico. Sucessão, mentoria, comunidades de prática, documentação útil e lições aprendidas reduzem esse risco. **<abbr title="Incorporação do conhecimento às rotinas e à memória coletiva">Aprendizagem organizacional</abbr>** ocorre quando o conhecimento altera rotinas, decisões e memória coletiva; repositório cheio não a prova.
 
-- mapeamento de saber crítico;
-- sucessão;
-- mentoria;
-- comunidades de prática;
-- documentação útil;
-- lições aprendidas.
+Agilidade pública é adaptar e aprender em ciclos mais curtos **sem abandonar legalidade, transparência, segurança e auditabilidade**. Redes e parcerias ampliam repertório quando objetivos, papéis, segurança e responsabilização estão definidos.
 
-Aprendizagem organizacional ocorre quando conhecimento altera rotinas, decisões e memória coletiva. Repositório cheio não prova aprendizagem.
+Planejamento da força de trabalho combina quantidade, perfis, distribuição, competências, cenários, aposentadorias e sucessão. Atração e retenção também dependem de liderança, desenvolvimento, reconhecimento, mobilidade, condições de trabalho, propósito e inclusão. Evite estereótipos geracionais: idade não determina competência digital, compromisso ou preferência de trabalho.
 
-**Agilidade no setor público** significa aprender e adaptar com ciclos mais curtos sem abandonar legalidade, transparência, motivação, segurança e auditabilidade.
+## 7. Como raciocinar em prova
 
-### 8.9 Planejamento da força de trabalho, atração e retenção
+- **Competência:** não confunda recurso ou certificado com mobilização e entrega.
+- **Lacuna:** investigue a causa antes de prescrever treinamento; barreira sistêmica exige resposta sistêmica.
+- **Tendência:** popularidade ou tecnologia não substituem finalidade, evidência, risco e limite público.
+- **Efeito funcional:** competência, potencial ou desempenho não criam, sozinhos, remuneração, progressão, nomeação ou alteração de cargo; dependem do regime jurídico competente.
 
-Planejamento da força de trabalho combina:
-
-- quantidade;
-- perfil e competências;
-- distribuição;
-- cenários;
-- aposentadorias e sucessão;
-- alternativas de captação, mobilidade e desenvolvimento.
-
-Atração e retenção não dependem apenas de remuneração. Liderança, desenvolvimento, reconhecimento, mobilidade, condições de trabalho, propósito e inclusão também importam.
-
-Evite estereótipos geracionais: idade não determina automaticamente competência digital, compromisso ou preferência.
-
-## 9. Matriz de prova: tendência × oportunidade × risco
-
-| Tendência | Oportunidade | Risco/guardrail |
-| --- | --- | --- |
-| IA e automação | escala, apoio à decisão, produtividade | opacidade, viés, vigilância; revisão humana |
-| people analytics | decisões baseadas em evidências | correlação ≠ causalidade; qualidade e proteção de dados |
-| sistemas integrados | menos retrabalho, visão consolidada | dado ruim em escala, acessos e interoperabilidade |
-| trabalho flexível | autonomia e acesso a talentos | isolamento, viés de proximidade, disponibilidade permanente |
-| aprendizagem contínua | adaptação e proficiência | curso/certificado como fim em si |
-| bem-estar | saúde, sustentabilidade do desempenho | individualizar problema organizacional |
-| DEIA e acessibilidade | participação e equidade | tokenismo, barreiras e uso discriminatório de dados |
-| gestão do conhecimento | continuidade institucional | repositório sem incorporação às rotinas |
-| redes e inovação | ampliar repertório e cooperação | responsabilidades difusas e segurança insuficiente |
-| força de trabalho | antecipar gaps críticos | tratar planejamento como mera contagem de vagas |
-
-## 10. Pegadinhas
-
-- CHA, isoladamente, não prova competência.
-- Competência ≠ desempenho ≠ resultado.
-- Competência organizacional ≠ soma de CHAs individuais.
-- Competência essencial ≠ talento raro de uma pessoa.
-- Gap ≠ culpa automática da pessoa.
-- Autoavaliação ≠ evidência única suficiente.
-- Treinamento ≠ resposta universal.
-- Certificado ≠ proficiência nem transferência.
-- Gestão por competências ≠ sistema exclusivo do RH.
-- Tecnologia ≠ metodologia.
-- Dashboard ≠ people analytics.
-- Correlação ≠ causalidade.
-- Flexibilidade ≠ ausência de acompanhamento.
-- Revisão humana ≠ chancela ritual.
-- Representação numérica ≠ inclusão completa.
-- Repositório ≠ aprendizagem organizacional.
-- Tendência popular ≠ prática automaticamente adequada ao setor público.
-- Competência não cria progressão ou remuneração sem base jurídica.
+O mapa final permanece: **compreender a entrega → definir capacidades necessárias → produzir evidências → diagnosticar a causa → escolher a intervenção → verificar aplicação e resultado → revisar quando estratégia e trabalho mudarem**.
