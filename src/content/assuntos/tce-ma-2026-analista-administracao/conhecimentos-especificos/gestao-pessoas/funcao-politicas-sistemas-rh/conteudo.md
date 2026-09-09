@@ -6,214 +6,127 @@ order: 143
 storageId: "gp-funcao-politicas-sig"
 ---
 
-# Órgão de RH: função, políticas e sistemas de informação
+# Órgão de recursos humanos: função, políticas e sistemas de informação
 
-## 1. Delimitação
+Imagine uma situação hipotética: duas unidades pedem reforço de pessoal. O cadastro mostra quantitativos parecidos, mas uma delas tem vagas não ocupadas, afastamentos e atividades novas; a outra concentra pessoas em tarefas que podem ser redistribuídas. **Quem decide a alocação, com base em quê e qual é o papel do órgão de recursos humanos?**
 
-Este assunto cobre os **itens 3, 3.1 e 3.2 de Gestão de Pessoas do edital**: função do órgão de recursos humanos, atribuições básicas e objetivos, políticas de administração de recursos humanos e sistemas de informações gerenciais.
+A chefia conduz o trabalho cotidiano; a alta administração define prioridades e decide dentro de sua competência; o órgão de <abbr title="Recursos Humanos">RH</abbr> fornece a infraestrutura especializada para que essas decisões sejam consistentes: **políticas, processos, orientação técnica, registros e informação gerencial**. Esse é o núcleo dos itens 3, 3.1 e 3.2 do edital. Processos como recrutamento, avaliação e capacitação aparecem aqui apenas para mostrar suas conexões; os métodos específicos são estudados nos assuntos próprios.
 
-A unidade de RH organiza políticas, processos e informações relativos às pessoas. Ela não é apenas um departamento de registros nem substitui os gestores na condução cotidiana das equipes. Relações indivíduo-organização e qualidade de vida ficam para o Assunto 144; liderança, motivação e desempenho, para o 145; desenvolvimento e capacitação, para o 151; gestão por competências e tendências contemporâneas, para o 153.
+## 1. Linha, apoio especializado e direção
 
-## 2. Posição e papéis da unidade de RH
+Gestão de pessoas é maior que o órgão de <abbr title="Recursos Humanos">RH</abbr>. A responsabilidade é compartilhada, mas os papéis não são iguais:
 
-Uma unidade de RH pode combinar papéis operacionais, consultivos e estratégicos:
+- **gestor de linha:** organiza o trabalho, distribui tarefas, orienta e acompanha a equipe;
+- **órgão de <abbr title="Recursos Humanos">RH</abbr>:** formula e operacionaliza políticas, mantém processos e registros, orienta gestores e produz informações;
+- **alta administração:** define direção e prioridades, aprova decisões de sua competência e acompanha resultados.
 
-| Papel | Atuação típica | Resultado esperado |
-| --- | --- | --- |
-| operacional | cadastro, frequência, folha, benefícios, atos, atendimento e controles | regularidade, tempestividade e confiabilidade |
-| consultivo ou staff | orientação técnica, políticas, métodos, suporte aos gestores e análises | decisões gerenciais mais consistentes |
-| estratégico | força de trabalho, capacidades, prioridades e indicadores alinhados à missão | capacidade institucional e resultados |
+A unidade de <abbr title="Recursos Humanos">RH</abbr> atua tipicamente como <abbr title="Assessoria e suporte especializado aos gestores">staff</abbr>: oferece conhecimento técnico e métodos às áreas que dirigem o trabalho. Isso não significa ausência de autoridade. Ela pode exercer competências funcionais previstas na estrutura ou nas normas, mas não adquire, só por ser <abbr title="Assessoria e suporte especializado aos gestores">staff</abbr>, autoridade hierárquica geral sobre todas as equipes.
 
-O papel estratégico não elimina o operacional. Dados cadastrais incorretos, atos inconsistentes ou registros desatualizados comprometem análises e decisões. Da mesma forma, uma rotina operacional correta não substitui o planejamento das necessidades futuras de pessoas.
+Sua atuação combina três dimensões que precisam coexistir. A **operacional** assegura cadastros, frequência, folha, benefícios, atos, atendimento e controles confiáveis. A **consultiva** transforma conhecimento técnico em políticas, procedimentos, análises e suporte aos gestores. A **estratégica** conecta força de trabalho, capacidades, riscos e indicadores às prioridades futuras. Estratégia não substitui operação: análise sofisticada baseada em cadastro errado continua sendo análise ruim.
 
-No setor público, a atuação do RH deve observar a finalidade institucional e os limites jurídicos, organizacionais e orçamentários aplicáveis.
+## 2. Objetivos e atribuições básicas
 
-## 3. Linha e staff
+O órgão de <abbr title="Recursos Humanos">RH</abbr> procura criar e sustentar a capacidade de pessoas necessária à missão institucional. Para isso, seus objetivos básicos incluem:
 
-A responsabilidade pela gestão de pessoas é compartilhada, mas os papéis são distintos:
+1. identificar quantidade e perfis necessários e apoiar ingresso, movimentação e alocação pelas formas admitidas;
+2. traduzir prioridades institucionais em necessidades de trabalho, capacidades e desenvolvimento, sem ignorar direitos;
+3. manter atos, registros e pagamentos regulares, com histórico verificável e proteção de direitos;
+4. orientar gestores e produzir informação para decisões, sem transformar indicador em decisão automática;
+5. acompanhar políticas e processos para corrigir desvios e melhorar resultados.
 
-- **gestor de linha:** organiza o trabalho, distribui tarefas, acompanha entregas, orienta e conduz cotidianamente a equipe;
-- **unidade de RH:** formula e operacionaliza políticas, mantém processos e sistemas, orienta gestores, produz informações e oferece apoio especializado;
-- **alta administração:** define direção, prioridades e resultados esperados e acompanha sua execução.
+No setor público, esses objetivos permanecem condicionados às competências das autoridades e aos limites jurídicos, organizacionais e orçamentários aplicáveis.
 
-A unidade de RH atua tipicamente como **staff**: assessora e presta suporte especializado. Isso não significa ausência absoluta de autoridade. Ela pode exercer competências funcionais previstas na estrutura e nas normas aplicáveis, mas não substitui automaticamente a autoridade hierárquica dos gestores sobre suas equipes.
+As atribuições concretas variam por organização. Para compreender como se articulam, é útil agrupá-las pela **finalidade predominante**. Trata-se de classificação didática, não de competências jurídicas universais.
 
-## 4. Objetivos básicos do órgão de RH
-
-### 4.1 Prover capacidade institucional
-
-Identificar quantitativos e perfis necessários e apoiar provimento, movimentação, alocação e continuidade da força de trabalho, conforme as regras aplicáveis.
-
-### 4.2 Alinhar pessoas à missão
-
-Traduzir prioridades institucionais em necessidades de pessoas, organização do trabalho, desenvolvimento e informação gerencial. Alinhamento não significa tratar pessoas apenas como recursos passivos nem ignorar direitos.
-
-### 4.3 Assegurar regularidade administrativa
-
-Manter atos, cadastros, registros e pagamentos corretos, oferecer atendimento e preservar rastreabilidade e confiabilidade dos processos de pessoal.
-
-### 4.4 Apoiar gestores e decisões
-
-Disponibilizar orientação, métodos, relatórios, indicadores e análises. Informação gerencial **apoia** a decisão; não substitui automaticamente o julgamento da autoridade competente.
-
-### 4.5 Desenvolver e preservar capacidades
-
-Articular necessidades de aprendizagem, continuidade, sucessão e preservação do conhecimento, sem antecipar os métodos específicos de desenvolvimento estudados no Assunto 151.
-
-### 4.6 Monitorar e aperfeiçoar
-
-Acompanhar execução, prazos, custos, qualidade e resultados das políticas e processos. Medir quantidade de atividades não demonstra, por si só, resultado organizacional.
-
-## 5. Atribuições e processos de RH
-
-As atribuições concretas dependem da estrutura e das normas de cada organização, mas normalmente abrangem:
-
-- planejamento da força de trabalho;
-- provimento, movimentação, lotação e alocação;
-- cadastro, vida funcional, frequência, folha e administração de pessoal;
-- apoio à gestão de desempenho;
-- desenvolvimento e aprendizagem;
-- remuneração, benefícios e carreiras conforme o regime aplicável;
-- saúde, segurança, relações e condições de trabalho;
-- comunicação e atendimento;
-- sistemas, dados, indicadores e controles de RH.
-
-Essas atribuições são interdependentes: uma movimentação altera lotação e cadastro; uma vacância afeta planejamento e alocação; informações de desempenho podem orientar desenvolvimento.
-
-### 5.1 Classificação didática dos processos
-
-Uma classificação frequente organiza os processos em seis grupos. É uma **taxonomia didática**: os nomes variam entre autores, não criam competências jurídicas e não tornam os processos independentes.
-
-| Grupo | Finalidade predominante | Exemplos |
+| Grupo de processos | Finalidade predominante | Exemplos |
 | --- | --- | --- |
 | agregar ou prover | obter pessoas e capacidades necessárias | planejamento da força de trabalho, recrutamento, seleção, ingresso e movimentação |
-| aplicar | organizar e acompanhar o trabalho | cargos, funções, lotação, alocação e desempenho |
+| aplicar | organizar e acompanhar o trabalho | cargos, funções, <abbr title="Unidade organizacional em que a pessoa está alocada para exercício">lotação</abbr>, alocação e desempenho |
 | recompensar | administrar contrapartidas e reconhecimento | remuneração, benefícios, carreiras e reconhecimento legítimo |
-| desenvolver | ampliar e preservar capacidades | aprendizagem, capacitação, desenvolvimento, conhecimento e sucessão |
+| desenvolver | ampliar e preservar capacidades | aprendizagem, capacitação, conhecimento e sucessão |
 | manter | sustentar pessoas e condições de trabalho | saúde, segurança, relações, inclusão, qualidade de vida e retenção |
 | monitorar | registrar, acompanhar e retroalimentar a gestão | cadastro, <abbr title="Sistema de Informações Gerenciais">SIG</abbr>, indicadores, controles e avaliação das políticas |
 
-Uma atividade pode contribuir para mais de um grupo. Em prova, deve-se identificar a finalidade predominante sem presumir fronteiras rígidas.
+Os grupos são interdependentes. Uma <abbr title="Situação em que um cargo fica sem ocupante">vacância</abbr> detectada em indicador pode exigir reposição, realocação temporária e desenvolvimento. Em prova, identifique a finalidade predominante e desconfie de fronteiras rígidas.
 
-## 6. Políticas de administração de recursos humanos
+## 3. Políticas de recursos humanos: critérios antes do caso concreto
 
-**Política de RH** é o conjunto deliberado de princípios, objetivos, diretrizes, responsabilidades e critérios que orienta decisões recorrentes sobre pessoas. Não se confunde com formulário, sistema informatizado, procedimento isolado ou evento específico.
+Volte ao pedido de reforço de pessoal. Se cada chefia negocia caso a caso, sem critérios conhecidos, situações semelhantes podem receber tratamentos incompatíveis. Uma **política de <abbr title="Recursos Humanos">RH</abbr>** cria referências para decisões recorrentes.
 
-Uma política útil explicita, conforme o caso:
+Política de <abbr title="Recursos Humanos">RH</abbr> é o conjunto deliberado de **princípios, objetivos, diretrizes, responsabilidades e critérios** que orienta decisões sobre pessoas. Ela não se confunde com formulário, sistema informatizado, procedimento isolado ou ação específica.
 
-- problema ou necessidade a enfrentar;
-- finalidade e público alcançado;
-- princípios e critérios de decisão;
-- responsabilidades e competências;
-- instrumentos e procedimentos;
-- recursos e restrições;
-- mecanismos de acompanhamento e revisão.
+Conforme a matéria, a política deve tornar claros o problema a enfrentar, a finalidade, o público, os critérios de decisão, as responsabilidades, os instrumentos, as restrições e a forma de acompanhar resultados. Como modelo gerencial, seu ciclo pode ser entendido assim:
 
-Políticas reduzem arbitrariedade e aumentam previsibilidade, mas não eliminam a necessidade de julgamento quando a situação exige análise concreta.
+1. **diagnóstico:** identificar necessidade, evidências, restrições e riscos;
+2. **formulação:** definir objetivos, público, critérios, responsabilidades, instrumentos, indicadores e metas;
+3. **institucionalização:** obter aprovação e utilizar o instrumento competente quando exigido;
+4. **implementação:** adaptar processos e sistemas, orientar envolvidos e executar ações;
+5. **monitoramento:** acompanhar cobertura, prazos, custos, riscos, qualidade e desvios;
+6. **avaliação e revisão:** examinar resultados e decidir por manutenção ou correção.
 
-## 7. Ciclo gerencial das políticas
+O ciclo não é rígido. Monitoramento acompanha a execução; avaliação examina com maior profundidade os resultados. Publicar uma regra não garante sua implementação.
 
-Como **modelo didático**, uma política pode ser estudada pelo seguinte ciclo:
+Duas coerências evitam políticas desconectadas. A **vertical** liga missão, estratégia, objetivos de pessoas, planos e atividades. A **horizontal** exige compatibilidade entre os próprios processos de pessoas. Se a organização precisa ampliar capacidade digital, por exemplo, esse diagnóstico deve alimentar planejamento e, quando cabível, seleção, alocação ou desenvolvimento.
 
-1. **diagnóstico:** identificar problema, necessidades, evidências, restrições e riscos;
-2. **formulação:** definir objetivos, público, critérios, responsabilidades, instrumentos e indicadores;
-3. **aprovação e institucionalização:** observar autoridade e instrumento competentes;
-4. **implementação:** adaptar processos, orientar os envolvidos, comunicar regras e executar ações;
-5. **monitoramento:** acompanhar execução, cobertura, prazos, custos e qualidade;
-6. **avaliação e revisão:** examinar resultados e decidir por manutenção, correção, ampliação ou substituição.
+## 4. Sistema de informações gerenciais: transformar registros em informação
 
-O ciclo não é uma sequência universal rígida. Etapas podem retroalimentar-se, e a forma concreta depende da organização. **Monitoramento** acompanha a execução; **avaliação** examina mérito e resultados com maior profundidade.
+O <abbr title="Sistema de Informações Gerenciais">SIG</abbr> de <abbr title="Recursos Humanos">RH</abbr> é o conjunto organizado de **pessoas, processos, dados, tecnologia e controles** que transforma registros em informação útil à operação e à decisão. Portanto, <abbr title="Sistema de Informações Gerenciais">SIG</abbr> não é sinônimo de software nem de banco de dados.
 
-## 8. Coerência das políticas
+A distinção central é simples:
 
-- **coerência vertical:** missão, estratégia, objetivos de pessoas, planos e atividades apontam na mesma direção;
-- **coerência horizontal:** políticas e processos de pessoas são compatíveis entre si.
+- **dado:** registro elementar de um fato, como data de ingresso, cargo, unidade ou afastamento;
+- **informação:** dado tratado e contextualizado para responder a uma necessidade, como distribuição da força de trabalho por unidade ou projeção de vagas.
 
-Exemplo vertical: uma prioridade institucional de ampliar capacidade digital deve refletir-se no planejamento de pessoas. Exemplo horizontal: identificar uma necessidade e não conectá-la a seleção, alocação ou desenvolvimento produz incoerência entre processos.
+O mesmo dado pode alimentar informações distintas conforme o usuário e a decisão. Acumular registros sem qualidade e contexto não produz automaticamente informação gerencial útil.
 
-Coerência não significa uniformidade absoluta. Políticas diferentes podem ser adequadas para públicos ou finalidades diferentes, desde que não criem contradições injustificadas.
+### 4.1 Fluxo e níveis de uso
 
-## 9. Sistemas de informações gerenciais de RH
+Um fluxo básico é:
 
-Um **Sistema de Informações Gerenciais (SIG) de RH** é o conjunto organizado de pessoas, processos, dados, tecnologia e controles que transforma registros em informações úteis à operação e à decisão. Portanto, SIG não é sinônimo de software ou banco de dados.
+**entrada → validação e processamento → armazenamento/integração → saída → retroalimentação**.
 
-### 9.1 Dado e informação
+Entradas vêm de cadastros e eventos funcionais; o processamento valida, combina e resume; as saídas são consultas, relatórios, indicadores e painéis. A retroalimentação — <abbr title="Retorno usado para corrigir ou aperfeiçoar o próprio sistema">feedback</abbr> — revela erros e novas necessidades.
 
-- **dado:** registro elementar de um fato, como código do cargo, data de ingresso ou unidade de lotação;
-- **informação:** dado tratado, relacionado e contextualizado para responder a uma necessidade, como distribuição da força de trabalho por unidade ou taxa de vacância.
+A mesma estrutura atende três níveis. No **operacional**, registra transações como vínculo, frequência e <abbr title="Unidade organizacional em que a pessoa está alocada para exercício">lotação</abbr>. No **gerencial ou tático**, consolida quadro de pessoal, vagas, custos e movimentações para decisões recorrentes. No **estratégico**, apoia cenários, riscos e projeções de maior horizonte. Os níveis se alimentam: informação estratégica confiável depende de registros operacionais confiáveis.
 
-O mesmo dado pode integrar informações distintas conforme a finalidade. Acumular registros sem organização, qualidade e contexto não produz automaticamente informação gerencial útil.
+## 5. Integração e qualidade: quando os números podem ser usados
 
-### 9.2 Fluxo básico
+Se dois sistemas registram unidades diferentes para a mesma pessoa, antes de discutir estratégia há um problema de consistência. Integrar exige conceitos compatíveis, identificadores confiáveis, periodicidade, validação, tratamento de erros e responsáveis definidos; não basta trocar arquivos.
 
-Um SIG pode ser representado por um fluxo simples:
+Alguns registros funcionam como **dados mestres**: referências compartilhadas e relativamente estáveis usadas por vários processos, como pessoa, vínculo, cargo, função, unidade organizacional e vigência. Divergências nesses elementos contaminam vários relatórios ao mesmo tempo.
 
-**entrada de dados → processamento → armazenamento/integração → saída de informações → feedback e atualização**.
-
-Exemplos de entradas: cadastro, frequência, movimentações e eventos funcionais. O processamento valida, combina, classifica e resume registros. As saídas podem ser consultas, relatórios, indicadores e painéis. O feedback identifica erros, novas necessidades e ajustes no próprio sistema.
-
-### 9.3 Níveis de uso
-
-| Nível | Uso predominante | Exemplos |
-| --- | --- | --- |
-| operacional | registrar e executar transações rotineiras | vínculo, frequência, férias, lotação e eventos funcionais |
-| gerencial ou tático | acompanhar unidades e apoiar decisões recorrentes | quadro de pessoal, vacâncias, custos, movimentações e indicadores |
-| estratégico | apoiar decisões de maior alcance e horizonte | tendências, cenários, riscos e projeções de força de trabalho |
-
-Os níveis se alimentam: informações estratégicas dependem de registros operacionais confiáveis. Uma mesma base pode fornecer saídas diferentes conforme o usuário e a decisão.
-
-## 10. Integração e qualidade da informação
-
-Sistemas de RH precisam trocar dados com consistência. Integração exige identificação comum dos registros, periodicidade, validação, tratamento de erros e responsabilidades definidas. Sistemas desconectados podem produzir duplicidade e informações contraditórias.
-
-Dimensões de qualidade úteis para prova:
+A qualidade precisa ser examinada segundo a finalidade da informação:
 
 | Dimensão | Pergunta central |
 | --- | --- |
 | exatidão | o registro representa corretamente o fato? |
-| completude | os elementos necessários estão presentes? |
-| atualidade | a informação está atualizada para a decisão? |
-| consistência | os valores não se contradizem? |
+| completude | estão presentes os elementos necessários? |
+| atualidade | o dado representa o momento relevante? |
+| consistência | valores relacionados não se contradizem? |
 | unicidade | não há duplicidade indevida? |
-| validade | o valor obedece às regras definidas? |
-| rastreabilidade | origem e transformações podem ser verificadas? |
+| validade | o valor respeita formato, domínio e regra definidos? |
+| rastreabilidade | é possível verificar origem, histórico e transformações? |
 
-Qualidade é relativa à finalidade. Um cadastro pode estar completo e, ainda assim, ser inútil para a decisão se estiver desatualizado.
+As dimensões não se substituem. Um cadastro pode estar completo, porém desatualizado; pode ser atual, mas duplicado; pode obedecer ao formato e ainda registrar um fato incorreto.
 
-## 11. Indicadores, relatórios e dashboards
+## 6. Indicadores, painéis e controles
 
-Indicadores podem acompanhar composição da força de trabalho, vacâncias, movimentações, custos, afastamentos, desenvolvimento e qualidade cadastral. Um indicador deve ter conceito, fórmula, fonte, período, população e periodicidade definidos.
+Um indicador é uma medida definida para acompanhamento. Para ser interpretável, precisa deixar claro **o que mede, como é calculado, qual é a fonte, o universo observado, o período, a periodicidade e, quando relevantes, as limitações**. Indicador de **atividade ou processo** mostra o que foi executado; indicador de **resultado** procura representar efeito relevante da atuação. Fazer mais atividades não prova, por si só, melhor resultado, e uma melhora posterior à política não prova automaticamente que ela foi a única causa.
 
-Um **dashboard** organiza visualmente informações para facilitar acompanhamento e comparação. Ele não corrige dado ruim, não substitui análise e não prova causalidade.
+Um painel gerencial — <abbr title="Painel visual que reúne indicadores e informações para acompanhamento">dashboard</abbr> — facilita acompanhamento e comparação, mas **não corrige dado ruim, não define objetivo e não substitui análise**. Comparações entre unidades também precisam considerar porte, missão, composição e natureza do trabalho.
 
-É importante distinguir:
+Como concentra registros funcionais, o <abbr title="Sistema de Informações Gerenciais">SIG</abbr> de <abbr title="Recursos Humanos">RH</abbr> precisa de controles compatíveis com a finalidade e a sensibilidade dos dados, por exemplo:
 
-- **indicadores de atividade ou processo:** medem o que foi realizado, como quantidade de ações executadas;
-- **indicadores de resultado:** buscam representar efeitos relevantes, como redução de tempo de atendimento ou cobertura de necessidades prioritárias.
-
-Comparações entre unidades precisam considerar diferenças de porte, missão, composição e contexto.
-
-## 12. Controles essenciais do SIG
-
-Como sistemas de RH concentram informações funcionais, devem existir controles compatíveis com a sensibilidade e a finalidade dos dados, como:
-
-- perfis de acesso e segregação de responsabilidades;
-- atualização e validação de registros;
-- histórico e rastreabilidade de alterações;
+- perfis de acesso conforme a necessidade funcional, com revisão periódica das permissões;
+- <abbr title="Separação de tarefas incompatíveis entre pessoas ou perfis">segregação de responsabilidades</abbr>;
+- validação, atualização e registro do histórico de alterações e acessos;
 - cópias de segurança e continuidade;
 - proteção contra acesso, alteração ou divulgação indevidos.
 
-O aprofundamento jurídico sobre proteção de dados pertence ao assunto específico de <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>. Aqui, a pegadinha é gerencial: **integração não significa acesso indiscriminado**, e disponibilidade de dado não dispensa finalidade, autorização e controle.
+Integração **não significa acesso indiscriminado**. O aprofundamento jurídico da proteção de dados pertence ao assunto específico de <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>; aqui importa reconhecer que disponibilidade de dado não elimina finalidade, autorização, qualidade nem controle.
 
-## 13. Síntese para prova
+## 7. Fechando o cenário
 
-| Distinção | Regra |
-| --- | --- |
-| operacional × estratégico | coexistem; operação confiável sustenta decisões de maior alcance |
-| linha × staff | gestor conduz equipe; RH orienta e provê suporte especializado |
-| política × instrumento | política orienta decisões; formulário ou sistema é meio |
-| monitoramento × avaliação | acompanha execução × examina mérito e resultados |
-| dado × informação | registro elementar × dado tratado e contextualizado |
-| SIG × software | SIG inclui pessoas, processos, dados, tecnologia e controles |
-| operacional × gerencial × estratégico | transações × acompanhamento/decisão recorrente × cenários/decisão de longo alcance |
-| indicador × decisão | indicador apoia; não substitui julgamento |
+Diante do pedido de reforço, o órgão de <abbr title="Recursos Humanos">RH</abbr> deve verificar a qualidade dos registros, aplicar os critérios da política, relacionar a demanda aos processos pertinentes, produzir informação com método conhecido e apresentar alternativas e restrições à autoridade competente. Depois da decisão, registra a execução e acompanha seus efeitos.
+
+Esse encadeamento resume o assunto sem confundir instrumentos com finalidade: **política orienta decisões; processo organiza a execução; dado registra fatos; informação dá contexto; indicador ajuda a acompanhar; o <abbr title="Sistema de Informações Gerenciais">SIG</abbr> conecta esses elementos; a autoridade competente decide**.

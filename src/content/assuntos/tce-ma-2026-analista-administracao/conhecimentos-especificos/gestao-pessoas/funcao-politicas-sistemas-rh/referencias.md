@@ -1,2 +1,5 @@
-- [A gestão de pessoas como um recurso estratégico](https://revista.enap.gov.br/index.php/RSP/article/view/204), Revista do Serviço Público/ENAP, acesso em 17 jul. 2026.
-- [Prática 4110: realizar planejamento da gestão de pessoas](https://tcu.gov.br/govorganizacional/001.005.009.025.htm), Tribunal de Contas da União, acesso em 17 jul. 2026.
+- [A gestão de pessoas como um recurso estratégico](https://revista.enap.gov.br/index.php/RSP/article/view/204), Revista do Serviço Público/ENAP, v. 57, n. 3, 2006.
+- [Gestão de Pessoas: bases teóricas e experiências no setor público](https://repositorio.enap.gov.br/bitstream/1/514/1/Livro.pdf), ENAP, 2010.
+- [Acórdão nº 1.172/2015 — Plenário](https://pesquisa.apps.tcu.gov.br/doc/acordao-completo/1172/2015/Plen%C3%A1rio), Tribunal de Contas da União, 2015.
+- [iESGo 2024 — Quadro Referencial Normativo: prática 4110, realizar planejamento da gestão de pessoas](https://iesgo.tcu.gov.br/wp-content/uploads/sites/12/iesgo2024/iESGo_2024_QRN.html), Tribunal de Contas da União, 2024.
+- [Registros de Referência — Infraestrutura Nacional de Dados](https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/interoperabilidade/registros-de-referencia), Governo Digital, consulta em 9 set. 2026.
