@@ -8,195 +8,175 @@ storageId: "gp-avaliacao-desempenho"
 
 # Avaliação de desempenho
 
-## 1. Recorte e conceitos fundamentais
+Imagine uma situação hipotética: uma unidade precisa avaliar analistas que produzem relatórios. Um entrega muito, mas com retrabalho elevado; outro entrega menos porque recebeu demandas mais complexas; um terceiro coopera bem, porém perde prazos. **Qual deles teve melhor desempenho?**
 
-O edital cobra **Gestão de Desempenho**, com foco em **objetivos** e **métodos de avaliação de desempenho: características, vantagens e desvantagens**. O núcleo de prova é reconhecer para que a avaliação serve, como os principais métodos funcionam e quais limitações cada um apresenta.
+Não há resposta séria antes de definir três coisas: **o que importa no trabalho**, **qual evidência representa cada dimensão** e **contra qual referência a evidência será julgada**. Esse é o mecanismo central:
 
-> **Corte de prova:** referências e regras vigentes em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Consultas editoriais posteriores não alteram esse corte.
+> **expectativa conhecida → evidência do período → comparação com critério ou padrão → juízo fundamentado → retorno e decisão**
 
-**Desempenho** reúne comportamentos e resultados relevantes para o trabalho. **Gestão de desempenho** é o processo contínuo de alinhar expectativas, acompanhar a execução, desenvolver capacidades, avaliar evidências e reconhecer contribuições. **Avaliação de desempenho** é uma etapa desse processo: compara evidências do período com critérios, padrões, metas ou comportamentos previamente definidos.
+A avaliação não mede “a pessoa inteira”. Ela julga aspectos do **desempenho no trabalho** dentro de uma finalidade definida.
 
-Em prova, não confunda:
+> **Corte de prova:** referências e regras vigentes em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Consultas editoriais posteriores não alteram esse corte.
 
-| Conceito | Núcleo |
+## 1. Desempenho, gestão e avaliação
+
+**Desempenho** aparece em comportamentos e resultados relevantes para o trabalho. Ele não decorre apenas de esforço: capacidade, motivação, clareza, recursos, processo, oportunidade de agir e outras condições de execução influenciam o que é entregue. Resultado insuficiente, portanto, não prova sozinho falta de empenho.
+
+A **gestão de desempenho** é o processo contínuo de alinhar expectativas, acompanhar a execução, desenvolver capacidades, avaliar evidências e reconhecer contribuições. A **avaliação de desempenho** é uma etapa desse processo: formula um juízo com base nas evidências do período e em critérios, metas ou padrões previamente definidos.
+
+| Conceito | Pergunta central |
 | --- | --- |
-| Gestão de desempenho | processo contínuo |
-| Avaliação de desempenho | julgamento periódico com base em evidências e critérios |
-| Desempenho atual | resultados e comportamentos demonstrados no trabalho |
-| Potencial | capacidade estimada para desafios ou funções futuras |
+| **gestão de desempenho** | como orientar e melhorar o desempenho ao longo do ciclo? |
+| **avaliação de desempenho** | como julgar evidências contra referências conhecidas? |
+| **desempenho atual** | o que foi demonstrado no trabalho? |
+| **potencial** | que capacidade pode existir para desafios futuros? |
 
-Avaliar não é apenas atribuir nota. Uma conclusão útil precisa indicar **o que foi observado, contra qual padrão e com que consequência para feedback ou decisão**.
+Logo, **gestão de desempenho não é formulário anual**, e desempenho atual não se confunde com potencial. A análise do cargo, estudada no assunto anterior, ajuda a identificar entregas e comportamentos relevantes; aqui o passo seguinte é transformá-los em critérios avaliáveis e interpretar evidências do período.
 
-## 2. Objetivos da avaliação de desempenho
+## 2. Para que avaliar
 
-A avaliação pode combinar finalidades **administrativas** e **de desenvolvimento**. Entre seus objetivos mais cobrados estão:
+A avaliação pode ter finalidades **de desenvolvimento** e **administrativas/organizacionais**. Ela serve para esclarecer expectativas, oferecer <abbr title="Retorno específico sobre desempenho e próximos passos">feedback</abbr>, identificar necessidades de desenvolvimento ou suporte, reconhecer contribuições, alinhar trabalho e objetivos institucionais e subsidiar decisões de gestão de pessoas.
 
-1. alinhar desempenho individual e coletivo aos objetivos da organização;
-2. esclarecer expectativas, responsabilidades e padrões;
-3. acompanhar resultados e comportamentos relevantes;
-4. oferecer feedback com base em evidências;
-5. identificar necessidades de desenvolvimento, orientação e suporte;
-6. reconhecer contribuições e desempenho consistente;
-7. subsidiar decisões de gestão de pessoas previstas no sistema aplicável;
-8. identificar problemas de processo, recursos ou coordenação que afetam o desempenho;
-9. gerar informações para planejamento e melhoria da gestão.
+O verbo importante é **subsidiar**. A avaliação fornece informação; não substitui automaticamente seleção, capacitação, remuneração, promoção ou decisão disciplinar.
 
-A avaliação **fornece insumos**. Ela não substitui, por si só, seleção, capacitação, remuneração, promoção ou decisão disciplinar.
+A finalidade também orienta o desenho do instrumento. Um procedimento adequado para conversa de desenvolvimento pode não oferecer precisão, documentação ou garantias suficientes para uma decisão de alto impacto. **Validade deve ser julgada em relação ao que se pretende concluir e fazer com o resultado.**
 
-## 3. Critérios, indicadores, metas e padrões
+## 3. Do trabalho ao critério
 
-Antes de comparar métodos, é indispensável distinguir os elementos avaliativos:
+Volte ao exemplo dos relatórios. Dizer apenas “avaliar desempenho” é vago. É preciso decompor o julgamento:
 
-| Elemento | Pergunta central | Exemplo |
-| --- | --- | --- |
-| Critério | qual dimensão será julgada? | qualidade |
-| Indicador | qual evidência representa a dimensão? | percentual de retrabalho |
-| Meta | qual resultado se espera e quando? | retrabalho de até 3% no semestre |
-| Padrão comportamental | como se manifesta o nível esperado? | comunica risco no prazo definido |
-| Peso | qual importância relativa? | qualidade 40% |
+- **critério:** dimensão julgada, como qualidade;
+- **indicador:** evidência que representa a dimensão, como percentual de retrabalho;
+- **meta:** resultado esperado em certo prazo, como retrabalho de até 3% no semestre;
+- **padrão comportamental:** modo esperado de agir, como comunicar risco no prazo definido;
+- **peso:** importância relativa de uma dimensão.
 
-Bons critérios são relacionados ao trabalho, compreensíveis, observáveis ou verificáveis e aplicados de modo coerente. Resultados devem ser interpretados considerando fatores relevantes de contexto: recursos, processos, dependências e grau de influência do avaliado.
+A relação é:
 
-**Validade** é a adequação do instrumento àquilo que se pretende avaliar. **Confiabilidade** é a consistência das medidas ou julgamentos. Uma avaliação pode ser consistente e ainda medir aspecto pouco relevante; por isso, confiabilidade não garante validade.
+> **trabalho relevante → critério → indicador ou evidência → meta/padrão → comparação → julgamento**
 
-## 4. Ciclo básico de gestão do desempenho
+Critérios devem estar relacionados ao trabalho e ser compreensíveis; evidências, observáveis ou verificáveis; metas, claras quanto a resultado e horizonte, considerando recursos, dependências e grau real de influência do avaliado.
 
-O ciclo pode ser sintetizado em:
+### 3.1 O risco de medir apenas o que é fácil
 
-**Planejar → monitorar → desenvolver → avaliar → dar feedback/reconhecer.**
+Se a unidade medir só quantidade de relatórios, pode incentivar volume com perda de qualidade. Indicadores precisam representar as dimensões relevantes conforme a finalidade.
 
-- **Planejar:** definir entregas, critérios, metas, pesos, fontes e evidências.
-- **Monitorar:** acompanhar ao longo do período e registrar fatos relevantes.
-- **Desenvolver:** corrigir lacunas e remover obstáculos quando possível.
-- **Avaliar:** comparar evidências com padrões previamente conhecidos.
-- **Feedback/reconhecimento:** comunicar resultado e próximos passos.
+Também não confunda **posição relativa** com **padrão absoluto**. Alguém pode ser o último de um grupo e ainda atingir o mínimo; alguém pode ser o primeiro de um grupo em que todos ficaram abaixo dele.
 
-O acompanhamento contínuo reduz a dependência da memória e ajuda a evitar que os fatos mais recentes dominem o julgamento.
+### 3.2 Validade e confiabilidade
 
-## 5. Métodos de avaliação: características, vantagens e desvantagens
+**Validade** é a adequação da medida e de sua interpretação ao que se pretende avaliar e ao uso do resultado. **Confiabilidade** é a consistência dos resultados ou julgamentos em condições comparáveis. Uma medida pode ser consistente e medir algo pouco relevante; por isso, **confiabilidade não garante validade**.
 
-Esta é a matriz central do assunto.
+## 4. Avaliar bem começa antes da nota
 
-| Método | Característica | Vantagens | Desvantagens / riscos |
+O ciclo pode ser organizado como:
+
+> **planejar → monitorar → desenvolver → avaliar → dar feedback e reconhecer**
+
+**Planejar** é definir entregas, critérios, metas, pesos, fontes, evidências, responsabilidades e acompanhamento antes da execução. A participação do avaliado na formulação de objetivos pode aumentar compreensão e compromisso, sem transformar a meta em escolha privada nem afastar regras e objetivos institucionais.
+
+**Monitorar** é acompanhar resultados, registrar fatos e tratar obstáculos durante o período. Registros distribuídos reduzem o viés de memória. Se mudança externa relevante tornar uma meta inadequada, eventual ajuste precisa ser **justificado, comunicado e aplicado de modo coerente**, não manipulado retroativamente para alterar a nota.
+
+**Desenvolver** exige diagnóstico. Resultado baixo pode decorrer de falta de conhecimento, mas também de expectativa ambígua, recurso insuficiente, processo ruim, carga incompatível ou falha de coordenação. O assunto seguinte aprofunda capacitação; aqui basta guardar: **nota baixa não prova necessidade de treinamento**.
+
+**Avaliar** é comparar as evidências com as referências definidas e explicar o juízo. Feedback útil descreve situação ou período, comportamento ou resultado, impacto em relação ao padrão e próximos passos. Rótulos pessoais substituem evidência por impressão.
+
+## 5. Como escolher um método
+
+Antes dos nomes, faça três perguntas:
+
+1. **a comparação é contra um padrão ou contra outras pessoas?**
+2. **é preciso captar resultado, comportamento ou contexto?**
+3. **qual equilíbrio entre padronização, custo e profundidade é necessário?**
+
+<abbr title="Ordenação relativa de pessoas do maior ao menor desempenho">Ranking</abbr> e comparação pareada são relativos. Metas e padrões definidos permitem julgar desempenho absoluto. Resultados objetivos favorecem metas e indicadores; comportamentos podem exigir escalas ancoradas ou registros; contexto e causas pedem métodos mais ricos.
+
+Com esse mapa, a matriz tradicional fica compreensível:
+
+| Método | Como funciona | Vantagem | Limitação |
 | --- | --- | --- | --- |
-| **Escalas gráficas** | fatores nas linhas e graus de desempenho nas colunas | simples, barata, padronizada, fácil comparação | superficialidade; halo, tendência central, leniência e severidade |
-| **Escolha forçada** | seleção de frases em blocos que melhor/pior descrevem o avaliado | reduz alguns padrões deliberados de notas | construção complexa, pouca transparência e baixo valor para feedback |
-| **Pesquisa de campo** | especialista apoia a chefia por entrevistas, diagnóstico e acompanhamento | profundidade, análise de causas e plano de melhoria | tempo, custo e dependência de especialista |
-| **Incidentes críticos** | registro de comportamentos excepcionalmente eficazes ou ineficazes | fatos concretos, útil para feedback e memória do período | foca extremos e pode não representar a rotina |
-| **Ensaio / narrativa** | texto livre ou estruturado sobre desempenho e contexto | riqueza, flexibilidade e explicação | baixa comparabilidade, tempo e influência da habilidade de redação |
-| **Lista de verificação** | itens ou comportamentos marcados como presentes/ausentes | aplicação simples e padronizada | superficialidade e pouco contexto |
-| **Comparação pareada** | cada pessoa é comparada com as demais em pares | facilita ordenação relativa | custo cresce com o grupo e não mede distância para um padrão absoluto |
-| **Ranking** | ordena pessoas do maior ao menor desempenho | simples visão de posição relativa | não mostra quanto cada pessoa se afasta do padrão; pode estimular competição |
-| **Distribuição forçada** | impõe proporções de pessoas em faixas | dificulta concentração de todos na mesma categoria | pode criar diferenças artificiais e classificar injustamente equipes homogêneas |
-| **BARS** | níveis da escala ancorados em exemplos comportamentais ligados ao trabalho | maior concretude e feedback comportamental | desenvolvimento caro, necessidade de atualização e persistência possível de vieses |
-| **APO / MBO** | avaliação pelo alcance de objetivos definidos e acompanhados | alinhamento, participação e clareza de resultados | curto-prazismo, metas fáceis e foco excessivo no mensurável |
-| **Avaliação 360°** | múltiplas fontes pertinentes: chefia, pares, subordinados, autoavaliação e/ou clientes | amplia perspectivas e cobre comportamentos vistos por diferentes atores | custo, divergência entre fontes, confidencialidade e reprodução de vieses |
+| **Escalas gráficas** | fatores avaliados em graus padronizados | simples, barata e comparável | superficialidade e vieses de julgamento |
+| **Escolha forçada** | seleção de frases em blocos | dificulta alguns padrões deliberados de nota | construção complexa e pouco feedback |
+| **Pesquisa de campo** | especialista apoia a chefia por entrevistas e diagnóstico | profundidade e análise de causas | tempo, custo e dependência de especialista |
+| **Incidentes críticos** | registra comportamentos excepcionalmente eficazes ou ineficazes | fatos concretos e significativos | privilegia extremos; não representa a rotina |
+| **Ensaio ou narrativa** | descrição textual do desempenho e contexto | riqueza e flexibilidade | baixa comparabilidade e influência da redação |
+| **Lista de verificação** | marca itens ou comportamentos | simples e padronizada | superficialidade e pouco contexto |
+| **Comparação pareada** | compara cada pessoa com as demais em pares | ordenação relativa | custo cresce com o grupo; não mede padrão absoluto |
+| **Ranking** | ordena pessoas | posição relativa rápida | não mostra se o padrão mínimo foi atingido |
+| **Distribuição forçada** | impõe proporções de pessoas em faixas | evita concentração de todos na mesma faixa | pode criar diferenças artificiais |
+| **<abbr title="Behaviorally Anchored Rating Scales">BARS</abbr>** | ancora níveis em exemplos comportamentais do trabalho | concretude e feedback comportamental | desenvolvimento caro, atualização e vieses possíveis |
+| **<abbr title="Administração por Objetivos">APO</abbr> / <abbr title="Management by Objectives">MBO</abbr>** | avalia objetivos definidos e acompanhados | alinhamento, participação e clareza | curto-prazismo, metas fáceis e foco no mensurável |
+| **Avaliação 360°** | combina múltiplas fontes pertinentes | amplia perspectivas | custo, divergência, confidencialidade e vieses |
 
 ### 5.1 Distinções decisivas
 
-**Escolha forçada ≠ distribuição forçada**
+**Escolha forçada ≠ distribuição forçada:** na primeira, escolhem-se **frases**; na segunda, impõem-se **proporções de pessoas em faixas**.
 
-- escolha forçada: escolhem-se **frases**;
-- distribuição forçada: impõem-se **proporções de pessoas em faixas**.
+**Escala gráfica ≠ <abbr title="Behaviorally Anchored Rating Scales">BARS</abbr>:** a escala pode usar graus genéricos; a <abbr title="Behaviorally Anchored Rating Scales">BARS</abbr> associa níveis a exemplos comportamentais específicos.
 
-**Escala gráfica ≠ BARS**
+**Ranking ≠ padrão absoluto:** último lugar é posição relativa, não insuficiência automática.
 
-- escala gráfica pode usar graus genéricos;
-- BARS ancora os graus em **exemplos comportamentais específicos**.
+**Incidente crítico ≠ rotina completa:** fatos de alta relevância não representam sozinhos o desempenho típico.
 
-**Ranking ≠ padrão absoluto**
+**<abbr title="Administração por Objetivos">APO</abbr> / <abbr title="Management by Objectives">MBO</abbr> ≠ “bater número a qualquer custo”:** metas estreitas ou exclusivamente quantitativas podem deslocar atenção e prejudicar qualidade, cooperação ou longo prazo.
 
-Estar em último lugar no ranking significa posição relativa inferior. Não prova, sozinho, que a pessoa ficou abaixo de um padrão mínimo.
+## 6. Quem pode avaliar
 
-**Incidentes críticos ≠ rotina completa**
-
-O método captura fatos de grande relevância, mas precisa ser complementado quando se quer representar o desempenho típico.
-
-## 6. Quem avalia e avaliação 360 graus
-
-A fonte deve avaliar apenas dimensões que realmente pode observar.
+A fonte é útil quando consegue observar a dimensão julgada.
 
 | Fonte | Contribuição típica | Risco típico |
 | --- | --- | --- |
-| Chefia | prioridades, resultados e contexto da unidade | observação parcial e viés hierárquico |
-| Autoavaliação | reflexão e contexto | autopromoção ou autodepreciação |
-| Pares | cooperação e interfaces | amizade, rivalidade e reciprocidade |
-| Subordinados | liderança, comunicação e apoio | medo de retaliação ou popularidade |
-| Clientes/usuários | atendimento e resultado percebido | visão parcial do trabalho |
+| **chefia** | prioridades, entregas e contexto | observação parcial e viés hierárquico |
+| **autoavaliação** | contexto e reflexão | autopromoção ou autodepreciação |
+| **pares** | cooperação e interfaces | amizade, rivalidade e reciprocidade |
+| **subordinados** | liderança, comunicação e apoio | retaliação ou popularidade |
+| **clientes/usuários** | atendimento e resultado percebido | visão parcial do trabalho |
 
-**90 graus** costuma designar avaliação pela chefia. **180 graus** frequentemente combina chefia e autoavaliação, embora a nomenclatura varie. **360 graus** reúne múltiplas fontes pertinentes.
+Algumas classificações usam graus para indicar amplitude das fontes. **90°** costuma designar chefia; **180°** frequentemente combina chefia e autoavaliação ou relação bilateral; **360°** reúne múltiplas fontes pertinentes. Como 90° e 180° variam entre autores, a composição descrita no enunciado vale mais que o rótulo.
 
-Mais fontes não tornam automaticamente o instrumento válido. Se o critério é vago, vários avaliadores podem reproduzir a mesma falha. Divergências entre fontes também podem trazer informação útil e não devem ser apagadas mecanicamente por uma média.
+Mais fontes não consertam critério ruim. Divergências entre fontes também podem revelar perspectivas úteis e não devem ser apagadas mecanicamente por uma média.
 
-## 7. Erros e vieses do avaliador
+## 7. Vieses: quando o atalho substitui a evidência
 
 | Viés | Caracterização |
 | --- | --- |
-| Halo | impressão positiva em uma dimensão contamina as demais |
-| Horn | impressão negativa contamina as demais |
-| Recência | fatos finais pesam demais |
-| Primazia | fatos iniciais pesam demais |
-| Tendência central | concentração indevida no meio da escala |
-| Leniência | notas sistematicamente altas |
-| Severidade | notas sistematicamente baixas |
-| Contraste | compara pessoa com outra, não com o padrão |
-| Semelhança | favorece quem se parece com o avaliador |
-| Estereótipo | categoria substitui evidência do trabalho |
+| **halo** | impressão positiva em uma dimensão contamina as demais |
+| **horn** | impressão negativa contamina as demais |
+| **recência** | fatos finais pesam demais |
+| **primazia** | fatos iniciais pesam demais |
+| **tendência central** | concentração indevida no meio da escala |
+| **leniência** | notas sistematicamente altas |
+| **severidade** | notas sistematicamente baixas |
+| **contraste** | compara a pessoa com outra, não com o padrão |
+| **semelhança** | favorece quem se parece com o avaliador |
+| **estereótipo** | categoria substitui evidência do trabalho |
 
-Vieses ajudam a explicar **desvantagens dos métodos**, sobretudo daqueles muito dependentes do julgamento do avaliador. Nenhum método os elimina sozinho.
+Nenhum método elimina esses riscos sozinho. Até uma escala comportamental bem construída pode ser mal aplicada.
 
-## 8. Controles e melhoria da avaliação
+## 8. Controles e interpretação
 
-Controles frequentes incluem:
+Bons controles atacam pontos diferentes:
 
-- critérios relacionados ao trabalho e conhecidos previamente;
-- exemplos observáveis nas escalas;
+- critérios ligados ao trabalho, padrões claros e exemplos observáveis;
+- registros ao longo do ciclo e fontes capazes de observar a dimensão;
 - treinamento dos avaliadores;
-- registro de evidências distribuído ao longo do ciclo;
-- fontes capazes de observar a dimensão avaliada;
-- calibragem baseada em critérios e evidências;
+- calibragem baseada em critérios, justificativas e evidências;
 - feedback específico e oportunidade de esclarecimento;
 - combinação de métodos quando dimensões diferentes exigem evidências diferentes.
 
-**Calibragem não é distribuição forçada.** Calibrar significa discutir a aplicação dos critérios entre avaliadores para aumentar coerência; não significa obrigar certa quantidade de notas em cada faixa.
+**Calibragem não é distribuição forçada.** Calibrar é discutir se os critérios estão sendo aplicados de modo coerente; não é obrigar certa quantidade de notas em cada faixa.
 
-Combinar métodos pode aumentar a cobertura, mas também eleva custo e complexidade. A combinação deve evitar dupla contagem da mesma evidência.
+Combinar métodos pode ampliar a cobertura, mas aumenta custo e risco de dupla contagem. No exemplo inicial, metas podem representar prazo e quantidade, uma <abbr title="Behaviorally Anchored Rating Scales">BARS</abbr> pode representar comunicação, incidentes críticos podem preservar fatos relevantes e uma narrativa curta pode explicar contexto.
 
-## 9. Feedback e diagnóstico
+## 9. Como raciocinar em prova
 
-Feedback útil descreve:
+Diante de um caso:
 
-**situação/período → comportamento ou resultado → impacto em relação ao padrão → próximos passos.**
+1. identifique a **finalidade** da avaliação;
+2. descubra se o objeto é **resultado, comportamento, contexto ou posição relativa**;
+3. veja se a referência é **meta/padrão absoluto ou outra pessoa**;
+4. reconheça o método pelo **mecanismo**, não pelo nome decorado;
+5. teste vantagem e limitação: rapidez não implica profundidade, múltiplas fontes não eliminam viés e padronização não garante validade;
+6. diante de desempenho insuficiente, investigue a causa antes de prescrever a solução.
 
-Evite rótulos pessoais. Diante de resultado insuficiente, o diagnóstico deve distinguir possíveis causas: competência, clareza de expectativa, recurso, processo, carga, coordenação ou conduta. A resposta adequada depende da causa identificada.
-
-## 10. Exemplo integrado
-
-Uma unidade quer avaliar analistas responsáveis por relatórios. Pode combinar:
-
-- metas para prazo e quantidade;
-- critérios de qualidade e conformidade;
-- BARS para comportamentos de comunicação e cooperação;
-- incidentes críticos para fatos relevantes registrados durante o período;
-- narrativa curta para explicar contexto e fatores não capturados por números.
-
-A vantagem é ampliar a cobertura. A desvantagem é aumentar custo, complexidade e necessidade de definir pesos sem contar o mesmo fato duas vezes.
-
-## 11. Pegadinhas de prova
-
-| Afirmação | Avaliação |
-| --- | --- |
-| gestão de desempenho equivale à avaliação anual | errada |
-| avaliação serve apenas para punir baixo desempenho | errada |
-| confiabilidade garante validade | errada |
-| escolha forçada e distribuição forçada são sinônimos | errada |
-| escalas gráficas são simples, mas sujeitas a vieses | correta |
-| BARS usa âncoras comportamentais | correta |
-| BARS elimina automaticamente halo e leniência | errada |
-| incidentes críticos representam toda a rotina | errada |
-| ranking mede desempenho contra padrão absoluto | errada |
-| distribuição forçada pode prejudicar equipes homogêneas | correta |
-| 360 graus elimina vieses | errada |
-| mais fontes corrigem automaticamente critério ruim | errada |
-| calibragem significa impor curva de notas | errada |
-| APO pode gerar curto-prazismo e foco no mensurável | correta |
+A síntese é: **boa avaliação torna explícita a ponte entre trabalho esperado, evidência observada, critério aplicado e consequência escolhida**.
