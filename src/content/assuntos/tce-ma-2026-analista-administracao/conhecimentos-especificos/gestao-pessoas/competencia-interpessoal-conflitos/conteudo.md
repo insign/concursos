@@ -34,6 +34,8 @@ A emoção pode informar que algo importa, mas não prova qual interpretação �
 
 **Empatia** é compreender a perspectiva e a experiência do outro. Não exige concordância, concessão, favorecimento ou tolerância a conduta inadequada.
 
+No recorte interpessoal, **inteligência emocional** envolve reconhecer, compreender e regular emoções próprias e considerar emoções alheias. Ela pode apoiar relações, mas não substitui competência técnica, ética, critérios ou autoridade legítima.
+
 ### 1.3 Escuta ativa e assertividade
 
 **Escuta ativa** combina atenção deliberada, perguntas abertas, paráfrase, síntese e checagem de entendimento. Ela não é passividade: é possível compreender exatamente o argumento e ainda discordar dele.
