@@ -8,437 +8,266 @@ storageId: tec-poder-executivo-128
 
 # Poder Executivo: atribuições e responsabilidades do presidente da República
 
-## 1. Recorte e corte temporal
+## 1. O mapa que organiza o assunto
 
-O edital do Cargo 16 exige **Poder Executivo**, com foco nas **atribuições e responsabilidades do Presidente da República**. O núcleo constitucional está nos **arts. 76 a 86 da Constituição Federal**.
+Uma questão afirma que o Presidente pode extinguir um órgão por decreto. Outra diz que a autorização de dois terços da Câmara já o afasta do cargo. Uma terceira troca **substituição** por **sucessão**. As três parecem tratar de detalhes diferentes, mas se resolvem separando o tema em três planos:
 
-> **Corte de prova:** regras vigentes em **6 de julho de 2026**. A <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026, última emenda constitucional antes do corte, não alterou os arts. 76 a 86.
+1. **quem exerce a Presidência e como se lida com impedimento ou vaga** — artigos 76 a 83;
+2. **o que o Presidente pode fazer** — artigo 84;
+3. **como funciona sua responsabilização constitucional** — artigos 85 e 86, completados pelo artigo 52 no julgamento pelo Senado.
 
-A unidade usa os arts. 76 a 83 como moldura e aprofunda o art. 84 (atribuições) e os arts. 85 e 86 (responsabilidade). O art. 52, I e parágrafo único, entra apenas para completar o julgamento político pelo Senado. A Lei nº 1.079/1950 complementa o tema, sempre subordinada à Constituição vigente.
+Esse mapa evita o erro mais comum deste assunto: misturar **titularidade do cargo**, **competência presidencial** e **responsabilidade do Presidente**.
 
-Não se aprofunda aqui a disciplina dos Ministros de Estado, dos Conselhos da República e de Defesa Nacional nem o processo legislativo completo.
+> **Corte de prova:** regras vigentes em **6 de julho de 2026**. A <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026, última emenda constitucional promulgada antes do corte, alterou os artigos 31 e 75, não os artigos 76 a 86.
 
----
-
-## 2. Titularidade e eleição — arts. 76 e 77
-
-O Poder Executivo federal é exercido pelo **Presidente da República**, auxiliado pelos Ministros de Estado.
-
-Presidente e Vice são eleitos simultaneamente. O primeiro turno ocorre no **primeiro domingo de outubro** e o segundo, se houver, no **último domingo de outubro**. A eleição do Presidente importa a do Vice com ele registrado.
-
-Em primeiro turno, elege-se quem obtenha **maioria absoluta dos votos válidos**, excluídos brancos e nulos. Se ninguém atingir essa maioria, disputam o segundo turno os dois mais votados. Se antes do segundo turno ocorrer morte, desistência ou impedimento legal de candidato, convoca-se o remanescente de maior votação; em empate relevante, qualifica-se o mais idoso.
-
-**Pegadinha:** maioria absoluta, aqui, é calculada sobre os **votos válidos**, não sobre o total de eleitores inscritos.
+O edital do Cargo 16 cobra **Poder Executivo**, com foco nas **atribuições e responsabilidades do Presidente da República**. Por isso, Ministros de Estado, Conselhos da República e de Defesa Nacional e processo legislativo aparecem apenas na medida necessária para entender as competências presidenciais.
 
 ---
 
-## 3. Posse — art. 78
+## 2. Quem exerce o Executivo e o que acontece quando o titular não pode exercer o cargo
 
-Presidente e Vice tomam posse em **sessão do Congresso Nacional**, prestando compromisso constitucional.
+O **Poder Executivo federal é exercido pelo Presidente da República, auxiliado pelos Ministros de Estado**. O Presidente é o titular constitucional do Poder Executivo; os Ministros o auxiliam.
+
+### 2.1 Eleição — artigo 77
+
+Presidente e Vice-Presidente são eleitos simultaneamente. A eleição do Presidente importa a do Vice com ele registrado.
+
+O primeiro turno ocorre no **primeiro domingo de outubro**; se necessário, o segundo turno ocorre no **último domingo de outubro**.
+
+No primeiro turno, vence quem obtiver <abbr title="Mais da metade dos votos válidos">maioria absoluta</abbr> dos **votos válidos**, excluídos os votos brancos e nulos. Se ninguém atingir essa maioria, os dois candidatos mais votados disputam o segundo turno.
+
+Se, antes do segundo turno, ocorrer morte, desistência ou impedimento legal de candidato, convoca-se o remanescente de maior votação. Se houver empate relevante para essa escolha, qualifica-se o mais idoso.
+
+A ideia decisiva é simples: a maioria do artigo 77 é calculada sobre **votos válidos**, não sobre o total de eleitores inscritos.
+
+### 2.2 Posse — artigo 78
+
+Presidente e Vice tomam posse em **sessão do Congresso Nacional**, prestando o compromisso constitucional.
 
 Se, decorridos **dez dias da data fixada para a posse**, um deles não tiver assumido o cargo, este será declarado vago, **salvo motivo de força maior**.
 
-```text
-10 dias sem assumir
-→ vacância
-→ salvo força maior
-```
+### 2.3 Impedimento, vaga e Vice-Presidente — artigo 79
 
----
+Antes da linha sucessória, fixe a diferença:
 
-## 4. Vice, substituição e sucessão — art. 79
+- <abbr title="Afastamento temporário do exercício do cargo">impedimento</abbr> do Presidente → o Vice **substitui**;
+- <abbr title="Ausência definitiva do titular do cargo">vaga</abbr> da Presidência → o Vice **sucede**.
 
-A Constituição distingue:
+Substituição é temporária; sucessão ocupa definitivamente a Presidência pelo período restante.
 
-- impedimento do Presidente → o Vice **substitui**;
-- vaga da Presidência → o Vice **sucede**.
+### 2.4 Quando Presidente e Vice não podem exercer — artigos 80 e 81
 
-```text
-IMPEDIMENTO → substituição temporária
-VAGA        → sucessão definitiva
-```
-
----
-
-## 5. Linha do art. 80
-
-Se Presidente e Vice estiverem impedidos, ou se ambos os cargos estiverem vagos, são sucessivamente chamados ao exercício da Presidência:
+Se Presidente e Vice estiverem **impedidos**, ou se ambos os cargos estiverem **vagos**, são chamados sucessivamente ao exercício da Presidência:
 
 1. Presidente da **Câmara dos Deputados**;
 2. Presidente do **Senado Federal**;
-3. Presidente do **Supremo Tribunal Federal**.
+3. Presidente do <abbr title="Supremo Tribunal Federal">STF</abbr>.
 
-Mnemônico: `CÂMARA → SENADO → STF`.
+A dupla vacância — isto é, os dois cargos vagos — leva a nova eleição para Presidente e Vice:
 
----
-
-## 6. Dupla vacância — art. 81
-
-Vagando Presidente e Vice, haverá eleição para ambos.
-
-### Regra geral
-
-A eleição ocorrerá **90 dias depois da última vaga**.
-
-### Últimos dois anos do período presidencial
-
-Se a dupla vacância ocorrer nos **últimos dois anos** do período, a eleição será feita **30 dias depois da última vaga, pelo Congresso Nacional**, na forma da lei.
-
-Em qualquer hipótese, os eleitos apenas **completam o período dos antecessores**.
-
-| Momento | Eleição | Prazo |
+| Momento da última vaga | Como se recompõe a Presidência | Prazo |
 |---|---|---:|
-| antes dos últimos dois anos | regra do caput | **90 dias** |
-| últimos dois anos | pelo Congresso | **30 dias** |
+| fora dos últimos dois anos do período presidencial | eleição prevista no caput do artigo 81 | **90 dias** após a última vaga |
+| nos últimos dois anos do período presidencial | eleição **pelo Congresso Nacional**, na forma da lei | **30 dias** após a última vaga |
 
-**Pegadinha:** não nasce novo mandato de quatro anos.
+Em qualquer hipótese, os eleitos **apenas completam o período dos antecessores**. Não começa um novo mandato de quatro anos.
 
----
+### 2.5 Mandato e ausência do País — artigos 82 e 83
 
-## 7. Mandato e ausência do País — arts. 82 e 83
+O mandato presidencial é de **quatro anos** e tem início em **5 de janeiro** do ano seguinte ao da eleição.
 
-O mandato presidencial é de **quatro anos** e começa em **5 de janeiro** do ano seguinte ao da eleição.
-
-Presidente e Vice não podem, sem licença do Congresso, ausentar-se do País por período **superior a quinze dias**, sob pena de perda do cargo.
+Presidente e Vice-Presidente não podem, sem licença do Congresso Nacional, ausentar-se do País por período **superior a quinze dias**, sob pena de perda do cargo.
 
 ---
 
-# Atribuições do Presidente
+## 3. Atribuições do Presidente: como ler o artigo 84 sem decorar uma lista cega
 
-## 8. Como ler o art. 84
+O artigo 84 reúne competências que a Constituição chama de **privativas** — isto é, atribuídas ao Presidente. A palavra não deve ser lida como “nunca delegável”: o próprio parágrafo único permite delegar três grupos específicos — incisos **VI, XII e XXV, primeira parte**.
 
-O art. 84 chama de **privativas** as competências presidenciais. Isso não significa indelegabilidade absoluta: o parágrafo único autoriza delegação específica dos incisos **VI, XII e XXV, primeira parte**.
+Para aprender o artigo sem transformá-lo em lista cega, vale agrupá-lo pelo papel que o Presidente desempenha.
 
-A melhor estratégia é agrupar as atribuições por função.
+### 3.1 Direção da administração e produção normativa
 
----
+Na direção do Executivo, compete ao Presidente:
 
-## 9. Administração e processo legislativo — art. 84, I a VI e XXVI
+- **nomear e exonerar os Ministros de Estado** — inciso I;
+- exercer, com o auxílio deles, a **direção superior da administração federal** — inciso II.
 
-Compete ao Presidente:
+Na relação com a produção de normas, cabe ao Presidente:
 
-- nomear e exonerar Ministros de Estado — I;
-- exercer, com auxílio deles, a direção superior da administração federal — II;
-- iniciar o processo legislativo nos casos constitucionais — III;
-- sancionar, promulgar e fazer publicar leis e expedir decretos e regulamentos para sua fiel execução — IV;
-- vetar projetos de lei, total ou parcialmente — V;
-- editar medidas provisórias, nos termos do art. 62 — XXVI.
+- iniciar o processo legislativo nos casos previstos na Constituição — inciso III;
+- sancionar, promulgar e fazer publicar leis e expedir decretos e regulamentos para sua fiel execução — inciso IV;
+- vetar projetos de lei, total ou parcialmente — inciso V;
+- dispor por decreto nas hipóteses do inciso VI;
+- editar medidas provisórias, nos termos do artigo 62 — inciso XXVI.
 
-O processo legislativo completo fica para o assunto próprio; aqui interessa identificar a competência presidencial.
+O contraste entre os incisos IV e VI é muito cobrado.
 
----
+Quando o decreto serve para dar **fiel execução a uma lei**, está no campo regulamentar do inciso IV. Já o inciso VI entrega ao Presidente um campo diretamente constitucional para dispor sobre:
 
-## 10. Decreto do art. 84, VI
-
-O Presidente pode dispor mediante decreto sobre:
-
-### Organização e funcionamento da administração federal
-
-Somente quando **não** implicar:
+**a) organização e funcionamento da administração federal**, desde que isso não implique:
 
 - aumento de despesa;
-- criação de órgãos públicos;
-- extinção de órgãos públicos.
+- criação de órgão público;
+- extinção de órgão público;
 
-### Extinção de funções ou cargos públicos
+**b) extinção de funções ou cargos públicos**, somente quando estiverem **vagos**.
 
-Pode ocorrer por decreto apenas quando as funções ou cargos estiverem **vagos**.
+Portanto, o inciso VI não autoriza extinguir Ministério ou outro órgão por decreto, nem extinguir cargo ocupado.
 
-```text
-ORGANIZAÇÃO/FUNCIONAMENTO
-→ sem aumento de despesa
-→ sem criar/extinguir órgão
+O inciso XXVII funciona como cláusula de fechamento: também compete ao Presidente **exercer outras atribuições previstas na própria Constituição**.
 
-EXTINÇÃO DE FUNÇÃO/CARGO
-→ somente se VAGO
-```
-
-### Decreto regulamentar × decreto autônomo
-
-- art. 84, IV → regulamento para **fiel execução da lei**;
-- art. 84, VI → campo constitucional próprio, nos limites das alíneas `a` e `b`.
-
----
-
-## 11. Relações exteriores, defesa e crises
+### 3.2 Relações exteriores, defesa e situações constitucionais de crise
 
 O Presidente:
 
-- mantém relações com Estados estrangeiros e acredita representantes diplomáticos — VII;
-- celebra tratados, convenções e atos internacionais, sujeitos a **referendo do Congresso** — VIII;
-- decreta estado de defesa e estado de sítio — IX;
-- decreta e executa intervenção federal — X;
-- exerce o comando supremo das Forças Armadas e pratica os atos do inciso XIII;
-- declara guerra nas condições constitucionais — XIX;
-- celebra a paz, com autorização ou referendo do Congresso — XX;
-- permite trânsito ou permanência temporária de forças estrangeiras nos casos previstos em lei complementar — XXII;
-- propõe ao Congresso a decretação do estado de calamidade pública de âmbito nacional previsto na Constituição — XXVIII.
+- mantém relações com Estados estrangeiros e acredita seus representantes diplomáticos — inciso VII;
+- celebra tratados, convenções e atos internacionais, sujeitos à posterior deliberação do Congresso Nacional, chamada pela Constituição de **referendo** — inciso VIII;
+- decreta estado de defesa e estado de sítio — inciso IX;
+- decreta e executa intervenção federal — inciso X;
+- exerce o comando supremo das Forças Armadas, nomeia seus Comandantes, promove oficiais-generais e os nomeia para os cargos que lhes são privativos — inciso XIII;
+- declara guerra, nas condições constitucionais, e decreta mobilização nacional — inciso XIX;
+- celebra a paz, com autorização ou referendo do Congresso Nacional — inciso XX;
+- permite, nos casos previstos em lei complementar, trânsito ou permanência temporária de forças estrangeiras no território nacional — inciso XXII;
+- propõe ao Congresso Nacional a decretação do estado de calamidade pública de âmbito nacional previsto na Constituição — inciso XXVIII.
 
-A participação do Congresso prevista em várias dessas hipóteses não elimina a competência presidencial; compõe o mecanismo constitucional de controle.
+Essas competências não significam atuação presidencial isolada. Em várias delas, a própria Constituição distribui etapas entre Presidente e Congresso. Aqui importa reconhecer **qual é a atuação do Presidente**; o procedimento completo pertence aos respectivos temas constitucionais.
 
----
+### 3.3 Relação com o Congresso, planejamento e contas
 
-## 12. Relação com o Congresso e orçamento
+Também compete ao Presidente:
 
-Compete ao Presidente:
+- remeter **mensagem e plano de governo** ao Congresso Nacional por ocasião da abertura da sessão legislativa — inciso XI;
+- enviar o <abbr title="Plano Plurianual">PPA</abbr>, o projeto de <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> e as propostas de orçamento previstas na Constituição — inciso XXIII;
+- prestar anualmente ao Congresso Nacional, **dentro de 60 dias após a abertura da sessão legislativa**, as contas referentes ao exercício anterior — inciso XXIV.
 
-- remeter **mensagem e plano de governo** ao Congresso na abertura da sessão legislativa — XI;
-- enviar **<abbr title="Plano Plurianual">PPA</abbr>, <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> e propostas de orçamento** — XXIII;
-- prestar anualmente ao Congresso, **dentro de 60 dias após a abertura da sessão legislativa**, as contas referentes ao exercício anterior — XXIV.
+A armadilha do inciso XXIV costuma estar no marco do prazo: são **60 dias após a abertura da sessão legislativa**, e as contas se referem ao **exercício anterior**.
 
-```text
-CONTAS DO PRESIDENTE
-→ Congresso Nacional
-→ 60 dias após abertura da sessão legislativa
-→ exercício anterior
-```
+### 3.4 Indulto, nomeações, conselhos, distinções e cargos
 
----
+O inciso XII autoriza o Presidente a **conceder <abbr title="Medida que leva à extinção da pena conforme o decreto">indulto</abbr> e <abbr title="Ajustar a pena aos termos do decreto">comutar penas</abbr>**, com audiência, se necessário, dos órgãos instituídos em lei. Na execução penal, concedido o indulto, o juiz declara extinta a pena; na comutação, ajusta a execução aos termos do decreto.
 
-## 13. Indulto e comutação — XII
+Nas nomeações, é essencial perguntar se a Constituição exige participação do Senado.
 
-O Presidente pode **conceder indulto e comutar penas**, com audiência, se necessário, dos órgãos instituídos em lei.
-
-O inciso XII é especialmente cobrado porque está no rol das competências **delegáveis**.
-
----
-
-## 14. Nomeações presidenciais
-
-### Com aprovação do Senado — XIV
-
-O Presidente nomeia, **após aprovação pelo Senado Federal**:
+**Após aprovação do Senado Federal**, o Presidente nomeia, nos termos do inciso XIV:
 
 - Ministros do <abbr title="Supremo Tribunal Federal">STF</abbr> e dos Tribunais Superiores;
 - Governadores de Territórios;
 - Procurador-Geral da República;
 - presidente e diretores do Banco Central;
-- outros servidores quando determinado em lei.
+- outros servidores, quando a lei assim determinar.
 
-### Outras nomeações
+Outras nomeações presidenciais seguem regras próprias:
 
-Também lhe compete:
+- Ministros do <abbr title="Tribunal de Contas da União">TCU</abbr>, observado o artigo 73 — inciso XV;
+- magistrados nos casos constitucionais e o Advogado-Geral da União — inciso XVI;
+- membros do Conselho da República na hipótese constitucional — inciso XVII.
 
-- nomear Ministros do <abbr title="Tribunal de Contas da União">TCU</abbr>, observado o art. 73 — XV;
-- nomear magistrados nos casos constitucionais e o Advogado-Geral da União — XVI;
-- nomear membros do Conselho da República na hipótese constitucional — XVII.
+Além disso, o Presidente:
 
-**Pegadinha:** nem toda nomeação presidencial depende de aprovação do Senado.
+- convoca e preside o Conselho da República e o Conselho de Defesa Nacional — inciso XVIII;
+- confere condecorações e distinções honoríficas — inciso XXI;
+- provê e extingue cargos públicos federais, na forma da lei — inciso XXV.
 
----
+A conclusão prática é importante: **nem toda nomeação presidencial depende de aprovação do Senado**.
 
-## 15. Conselhos, distinções e cargos — XVIII, XXI e XXV
+### 3.5 Delegação: o pequeno rol que precisa ser dominado
 
-O Presidente:
+O parágrafo único do artigo 84 permite delegar somente:
 
-- convoca e preside o Conselho da República e o Conselho de Defesa Nacional — XVIII;
-- confere condecorações e distinções honoríficas — XXI;
-- provê e extingue cargos públicos federais, na forma da lei — XXV.
+| Inciso | O que pode ser delegado |
+|---:|---|
+| VI | as competências de decreto previstas nas alíneas `a` e `b` |
+| XII | indulto e comutação de penas |
+| XXV, primeira parte | **prover** cargos públicos federais |
 
-No inciso XXV, apenas a **primeira parte — prover cargos** — integra a delegação do parágrafo único.
-
----
-
-## 16. Delegação do art. 84
-
-Podem ser delegadas as atribuições dos incisos:
-
-- **VI**;
-- **XII**;
-- **XXV, primeira parte**.
-
-Delegatários:
+Podem receber essas delegações:
 
 - Ministros de Estado;
-- Procurador-Geral da República;
-- Advogado-Geral da União.
+- <abbr title="Procurador-Geral da República">PGR</abbr>;
+- <abbr title="Advogado-Geral da União">AGU</abbr>.
 
-Eles observam os limites traçados na delegação.
+A expressão **“primeira parte” do inciso XXV** importa: o parágrafo único alcança **prover cargos**, não a segunda parte do inciso, relativa a extingui-los.
 
-```text
-DELEGA
-VI + XII + XXV (1ª parte)
-
-PARA
-MINISTRO + PGR + AGU
-```
-
-Não entram nesse rol, por exemplo, veto, medida provisória, declaração de guerra ou nomeação de Ministro do STF.
+Veto, edição de medida provisória, declaração de guerra e nomeação de Ministro do <abbr title="Supremo Tribunal Federal">STF</abbr>, por exemplo, ficam fora desse rol de delegação.
 
 ---
 
-# Responsabilidade presidencial
+## 4. Responsabilidade do Presidente: infração penal comum não é crime de responsabilidade
 
-## 17. Crimes de responsabilidade — art. 85
+A Constituição estabelece dois caminhos distintos.
 
-São crimes de responsabilidade os atos presidenciais que atentem contra a Constituição e, especialmente, contra:
+- **Infração penal comum**: é responsabilidade no plano criminal e o julgamento cabe ao <abbr title="Supremo Tribunal Federal">STF</abbr>, depois da autorização constitucional da Câmara.
+- **Crime de responsabilidade**: apesar do nome, segue um regime constitucional de responsabilidade político-administrativa, com julgamento pelo **Senado Federal** e consequências políticas previstas no artigo 52.
+
+Misturar esses caminhos leva a quase todos os erros do artigo 86: trocar o órgão julgador, antecipar o afastamento ou aplicar uma garantia de um caminho ao outro.
+
+### 4.1 Crimes de responsabilidade — artigo 85
+
+São crimes de responsabilidade os atos do Presidente que atentem contra a Constituição e, especialmente, contra:
 
 1. a **existência da União**;
-2. o **livre exercício** do Legislativo, Judiciário, Ministério Público e poderes constitucionais das unidades da Federação;
+2. o **livre exercício** do Poder Legislativo, do Poder Judiciário, do Ministério Público e dos poderes constitucionais das unidades da Federação;
 3. o exercício dos **direitos políticos, individuais e sociais**;
 4. a **segurança interna** do País;
 5. a **probidade na administração**;
 6. a **lei orçamentária**;
-7. o **cumprimento das leis e decisões judiciais**.
+7. o **cumprimento das leis e das decisões judiciais**.
 
-O parágrafo único determina que esses crimes sejam definidos em **lei especial**, que também estabelecerá normas de processo e julgamento. A Lei nº 1.079/1950 é a referência legal central.
+O parágrafo único do artigo 85 determina que esses crimes sejam definidos em **lei especial**, que também estabelecerá as normas de processo e julgamento. A Lei nº 1.079/1950 cumpre esse papel no tema presidencial.
 
----
+Pela Lei nº 1.079/1950, **qualquer cidadão** pode denunciar o Presidente da República por crime de responsabilidade perante a **Câmara dos Deputados**. A própria lei acrescenta que a denúncia somente pode ser recebida enquanto o denunciado não tiver deixado definitivamente o cargo.
 
-## 18. Lei nº 1.079/1950 e supremacia constitucional
+### 4.2 A autorização da Câmara abre o caminho; não é ainda o julgamento final
 
-A Lei nº 1.079/1950 é anterior à Constituição de 1988 e deve ser lida conforme a Constituição vigente.
+O artigo 86 começa com um filtro constitucional: a acusação contra o Presidente precisa ser admitida por **dois terços da Câmara dos Deputados**.
 
-O art. 14 da lei permite que **qualquer cidadão** denuncie o Presidente da República por crime de responsabilidade perante a **Câmara dos Deputados**.
+Depois desse filtro, o caminho depende da natureza da acusação:
 
-Um contraste de alta incidência: o texto histórico do art. 2º da lei menciona inabilitação de até cinco anos, mas o **art. 52, parágrafo único, da Constituição vigente** determina, na condenação política correspondente:
+| Natureza | Órgão que julga | Quando começa a suspensão das funções |
+|---|---|---|
+| infração penal comum | <abbr title="Supremo Tribunal Federal">STF</abbr> | quando o <abbr title="Supremo Tribunal Federal">STF</abbr> recebe a <abbr title="Acusação penal apresentada pelo Ministério Público">denúncia</abbr> ou a <abbr title="Acusação penal apresentada pelo ofendido ou legitimado">queixa-crime</abbr> |
+| crime de responsabilidade | Senado Federal | após a **instauração do processo pelo Senado** |
 
-- perda do cargo;
-- **inabilitação por oito anos** para o exercício de função pública.
+Por isso, a votação de dois terços da Câmara, **sozinha, não afasta o Presidente**. Ela permite que o procedimento avance para o órgão constitucional competente; o afastamento depende do evento posterior indicado no § 1º do artigo 86.
 
-Em conflito, prevalece a Constituição.
+### 4.3 O limite de 180 dias
 
----
+Se o julgamento não estiver concluído depois de **180 dias**, cessa o afastamento do Presidente, **sem prejuízo do regular prosseguimento do processo**.
 
-## 19. Admissão e julgamento — art. 86
+Logo, o prazo não produz arquivamento, absolvição ou extinção automática do procedimento. Ele limita a duração daquele afastamento constitucional.
 
-Admitida a acusação por **dois terços da Câmara dos Deputados**:
+### 4.4 Prisão e atos estranhos ao exercício das funções — §§ 3º e 4º do artigo 86
 
-| Natureza | Julgamento |
-|---|---|
-| infração penal comum | **STF** |
-| crime de responsabilidade | **Senado Federal** |
+Nas infrações penais comuns, enquanto não sobrevier sentença condenatória, o Presidente **não estará sujeito a prisão**.
 
-```text
-ACUSAÇÃO
-↓
-2/3 CÂMARA
-↓
-COMUM → STF
-RESPONSABILIDADE → SENADO
-```
+O § 4º estabelece outra proteção: durante a vigência do mandato, o Presidente não pode ser responsabilizado **criminalmente**, nesse período, por atos estranhos ao exercício de suas funções. A regra é temporária e não torna o fato lícito nem cria imunidade após o mandato.
 
-A Câmara exerce o juízo constitucional de admissibilidade; não profere a decisão final nessas duas hipóteses.
+Esse ponto exige precisão: o <abbr title="Supremo Tribunal Federal">STF</abbr> interpreta o § 4º de forma estrita e afirma que essa proteção **não se estende, por si só, a responsabilidades fora do plano penal**, como responsabilidade civil ou tributária, nem ao regime político-administrativo dos crimes de responsabilidade.
 
----
+### 4.5 Julgamento político no Senado — artigo 52
 
-## 20. Suspensão das funções — art. 86, § 1º
-
-A votação da Câmara, isoladamente, **não é o gatilho da suspensão**.
-
-### Infração penal comum
-
-O Presidente fica suspenso se o **STF receber a denúncia ou queixa-crime**.
-
-### Crime de responsabilidade
-
-Fica suspenso **após a instauração do processo pelo Senado Federal**.
-
-```text
-COMUM
-2/3 Câmara → STF recebe denúncia/queixa → suspensão
-
-RESPONSABILIDADE
-2/3 Câmara → Senado instaura processo → suspensão
-```
-
----
-
-## 21. Prazo de 180 dias — art. 86, § 2º
-
-Se o julgamento não terminar em **180 dias**:
-
-- cessa o afastamento;
-- o processo continua regularmente.
-
-**Pegadinha:** 180 dias não produzem arquivamento nem absolvição automática.
-
----
-
-## 22. Prisão e atos estranhos às funções — art. 86, §§ 3º e 4º
-
-Nas infrações comuns, enquanto não sobrevier sentença condenatória, o Presidente **não estará sujeito a prisão**.
-
-Além disso, durante a vigência do mandato, o Presidente **não pode ser responsabilizado por atos estranhos ao exercício de suas funções**.
-
-A segunda regra é temporal: não transforma o ato em lícito nem cria imunidade eterna após o mandato.
-
----
-
-## 23. Julgamento político no Senado — art. 52
-
-Compete privativamente ao Senado processar e julgar o Presidente nos crimes de responsabilidade.
+Nos crimes de responsabilidade do Presidente, compete ao **Senado Federal** processar e julgar.
 
 No julgamento constitucional:
 
-- preside o **Presidente do STF**;
-- a condenação exige **dois terços dos votos do Senado**;
-- os efeitos políticos são:
-  - **perda do cargo**;
-  - **inabilitação por oito anos** para exercício de função pública;
+- funciona como presidente da sessão o Presidente do <abbr title="Supremo Tribunal Federal">STF</abbr>;
+- a condenação exige **dois terços dos votos do Senado Federal**;
+- a literalidade do parágrafo único do artigo 52 prevê **perda do cargo**, com **inabilitação por oito anos para o exercício de função pública**;
 - permanecem possíveis as demais sanções judiciais cabíveis.
 
-```text
-CRIME DE RESPONSABILIDADE
-
-denúncia
-↓
-Câmara: 2/3
-↓
-Senado instaura → suspensão
-↓
-julgamento presidido pelo Presidente do STF
-↓
-condenação: 2/3 Senado
-↓
-perda do cargo + inabilitação 8 anos
-```
+A Lei nº 1.079/1950 ainda traz, em seu artigo 2º, referência histórica a inabilitação de até cinco anos. Para a prova constitucional vigente, prevalece a regra do artigo 52 da Constituição: **oito anos**.
 
 ---
 
-## 24. Casos de prova
+## 5. Como resolver as questões sem decorar o capítulo inteiro
 
-### Dupla vacância no primeiro ano
-Aplica-se o art. 81, caput: eleição **90 dias depois da última vaga** e mandato apenas pelo período restante.
+Quando a banca apresentar um caso, identifique primeiro **qual problema está sendo testado**:
 
-### Dupla vacância no terceiro ano
-Aplica-se o § 1º: eleição **pelo Congresso**, em **30 dias**, para completar o período.
+1. **Quem exerce ou assume a Presidência?** Separe impedimento de vaga e, se ambos os cargos estiverem vagos, verifique quando ocorreu a última vaga.
+2. **O Presidente tem competência para o ato?** Localize o grupo do artigo 84 e, se houver delegação, confira se é VI, XII ou XXV, primeira parte.
+3. **É responsabilidade penal comum ou crime de responsabilidade?** A resposta define o órgão julgador: <abbr title="Supremo Tribunal Federal">STF</abbr> ou Senado.
+4. **A questão fala em autorização ou em afastamento?** Dois terços da Câmara são o filtro inicial; a suspensão só nasce do recebimento da acusação penal pelo <abbr title="Supremo Tribunal Federal">STF</abbr> ou da instauração do processo pelo Senado.
+5. **Há um número no enunciado?** Pergunte o que ele mede: dez dias para assumir; 90 ou 30 dias na dupla vacância; mais de 15 dias de ausência; 60 dias para contas; 180 dias de afastamento; dois terços na Câmara e no Senado; oito anos de inabilitação.
 
-### Decreto extinguindo órgão
-Não cabe no art. 84, VI. O decreto pode organizar a administração sem criar/extinguir órgão e extinguir apenas **funções ou cargos vagos**.
-
-### Delegação de veto
-Inválida: o inciso V não está no rol VI, XII e XXV, primeira parte.
-
-### Câmara admite crime de responsabilidade
-A causa segue ao **Senado**; a suspensão depende da **instauração do processo** por ele.
-
-### 180 dias de afastamento
-Cessa o afastamento, mas **não** o processo.
-
----
-
-## 25. Pegadinhas finais
-
-1. Presidente exerce o Executivo; Ministros **auxiliam**.
-2. Brancos e nulos não entram na maioria absoluta do art. 77.
-3. Dez dias sem assumir após a data da posse geram vacância, salvo força maior.
-4. Impedimento → Vice **substitui**; vaga → Vice **sucede**.
-5. Linha: Câmara → Senado → STF.
-6. Dupla vacância: **90 dias**; últimos dois anos: Congresso em **30 dias**.
-7. Eleitos na dupla vacância apenas completam o período.
-8. Mandato começa em **5 de janeiro**.
-9. Ausência do País por **mais de 15 dias** exige licença do Congresso.
-10. Decreto autônomo não cria nem extingue órgão.
-11. Cargo ou função só é extinto pelo decreto do VI se estiver **vago**.
-12. Delegáveis: VI, XII e XXV, primeira parte.
-13. Delegatários: Ministro, <abbr title="Procurador-Geral da República">PGR</abbr> e <abbr title="Advogado-Geral da União">AGU</abbr>.
-14. Contas: **60 dias** após abertura da sessão legislativa.
-15. Acusação: **2/3 da Câmara**.
-16. Crime comum → STF; responsabilidade → Senado.
-17. Suspensão não nasce apenas da autorização da Câmara.
-18. **180 dias** encerram o afastamento, não o processo.
-19. Julgamento político no Senado é presidido pelo Presidente do STF.
-20. Condenação política: perda + **inabilitação por 8 anos**.
-
----
+Aplicando esse roteiro, as pegadinhas deixam de ser fatos isolados e passam a ser consequências do desenho constitucional.
