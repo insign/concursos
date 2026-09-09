@@ -8,254 +8,116 @@ storageId: tec-adm-publica-cf-127
 
 # Administração pública na Constituição: disposições gerais e servidores públicos
 
-## 1. Recorte do edital e corte temporal
+## 1. A Constituição controla toda a trajetória do agente público
 
-O item 5 de **Direito Constitucional** do Cargo 16 exige **Administração pública**, com dois subnúcleos expressos: **disposições gerais** e **servidores públicos**. O recorte constitucional correspondente está no **Capítulo VII do Título III da Constituição Federal**, especialmente nos **arts. 37 a 41**.
+Uma pessoa entra no serviço público, exerce atribuições, recebe remuneração, pode acumular vínculos em situações excepcionais, afastar-se para mandato eletivo, aposentar-se e, se ocupar cargo efetivo, adquirir estabilidade. Os arts. 37 a 41 organizam constitucionalmente esse percurso.
 
-> **Corte de prova:** texto constitucional e jurisprudência consolidados até **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Nesse corte já vigoram, entre outras alterações relevantes, a <abbr title="Emenda Constitucional">EC</abbr> nº 135/2024, a **EC nº 138/2025** e a decisão definitiva do <abbr title="Supremo Tribunal Federal">STF</abbr> na <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2.135, julgada em 6/11/2024.
+A ideia central é simples: **a Administração não escolhe livremente como recrutar, remunerar, organizar ou desligar seus agentes**. A Constituição cria limites para proteger impessoalidade, igualdade, continuidade do serviço e responsabilidade no uso de recursos públicos.
 
-Este assunto tem natureza **constitucional**. Não deve duplicar:
+O art. 37 começa pelo comando mais amplo. A administração pública **direta e indireta de qualquer dos Poderes** da União, dos Estados, do Distrito Federal e dos Municípios deve obedecer a legalidade, impessoalidade, moralidade, publicidade e eficiência — o mnemônico <abbr title="Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência">LIMPE</abbr>.
 
-- a classificação doutrinária de agentes públicos, cargo, emprego e função — assunto 114;
-- organização administrativa — assunto 112;
-- licitações — assunto 116;
-- improbidade administrativa — assuntos 050–051;
-- responsabilidade civil do Estado — assunto 118.
+- **legalidade**: a atuação administrativa precisa de fundamento no ordenamento;
+- **impessoalidade**: a atividade pública não pode ser apropriada para favorecimento ou promoção pessoal;
+- **moralidade**: a conduta administrativa se submete a parâmetro jurídico de correção;
+- **publicidade**: transparência e controle são a regra, sem eliminar sigilos constitucionalmente legítimos;
+- **eficiência**: a atividade deve buscar desempenho adequado e resultados compatíveis com a finalidade pública.
 
-Quando esses temas aparecem nos arts. 37 a 41, o foco aqui é a **regra constitucional necessária para resolver a questão**.
+> **Corte de prova:** esta unidade considera o texto vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Nesse corte já vigoravam as Emendas Constitucionais nº 135/2024 e nº 138/2025 e o julgamento definitivo da <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2.135 pelo <abbr title="Supremo Tribunal Federal">STF</abbr>, concluído em 6 de novembro de 2024.
 
-Mapa de estudo:
+## 2. Ingresso: a regra é seleção impessoal, com exceções delimitadas
 
-```text
-ART. 37 → ADMINISTRAÇÃO PÚBLICA: LIMPE + regras gerais
-ART. 38 → SERVIDOR + MANDATO ELETIVO
-ART. 39 → POLÍTICA DE PESSOAL + REMUNERAÇÃO + SUBSÍDIO
-ART. 40 → REGIME PRÓPRIO DE PREVIDÊNCIA SOCIAL (RPPS)
-ART. 41 → ESTABILIDADE + PERDA DO CARGO + REINTEGRAÇÃO/DISPONIBILIDADE
-```
+### 2.1 Quem pode acessar cargos, empregos e funções
 
----
+Os cargos, empregos e funções públicas são acessíveis aos **brasileiros que preencham os requisitos estabelecidos em lei** e também aos **estrangeiros, na forma da lei**.
 
-# Parte I — Art. 37: disposições gerais
+A Constituição, portanto, não proíbe estrangeiros de ingressar no serviço público, mas também não lhes concede acesso irrestrito: a disciplina depende de lei.
 
-## 2. Âmbito de incidência e princípios expressos
+### 2.2 Concurso público
 
-O caput do art. 37 alcança a **administração pública direta e indireta de qualquer dos Poderes** da:
+A investidura em **cargo ou emprego público** depende, em regra, de aprovação prévia em concurso:
 
-- União;
-- Estados;
-- Distrito Federal;
-- Municípios.
-
-Os cinco princípios expressos formam o conhecido mnemônico **LIMPE**:
-
-1. **legalidade**;
-2. **impessoalidade**;
-3. **moralidade**;
-4. **publicidade**;
-5. **eficiência**.
-
-```text
-L I M P E
-L → legalidade
-I → impessoalidade
-M → moralidade
-P → publicidade
-E → eficiência
-```
-
-**Pegadinha:** o art. 37 não se limita ao Poder Executivo. O texto fala em administração pública de **qualquer dos Poderes**.
-
-### 2.1 Legalidade administrativa
-
-Para a Administração, a atuação deve encontrar fundamento no ordenamento. Em prova, evite transportar sem cuidado a fórmula da autonomia privada para o agente público.
-
-### 2.2 Impessoalidade
-
-A impessoalidade exige atuação orientada ao interesse público e veda a apropriação pessoal da atividade administrativa. Uma manifestação explícita aparece no § 1º do art. 37: publicidade institucional não pode caracterizar **promoção pessoal** de autoridades ou servidores.
-
-### 2.3 Moralidade
-
-A moralidade é princípio jurídico expresso. Não se reduz a preferência subjetiva do administrador.
-
-### 2.4 Publicidade
-
-A publicidade favorece transparência e controle, sem significar que toda informação estatal seja divulgável de modo irrestrito. A própria Constituição protege hipóteses de sigilo.
-
-### 2.5 Eficiência
-
-A eficiência integra expressamente o caput desde a EC nº 19/1998. Relaciona-se ao desempenho adequado da atividade administrativa e aparece novamente em mecanismos como avaliação de desempenho e avaliação de políticas públicas.
-
----
-
-## 3. Acesso a cargos, empregos e funções — art. 37, I
-
-Os cargos, empregos e funções públicas são acessíveis:
-
-- aos **brasileiros** que preencham os requisitos estabelecidos em lei;
-- aos **estrangeiros**, **na forma da lei**.
-
-**Pegadinha:** a Constituição não estabelece acesso irrestrito ao estrangeiro; remete a disciplina à lei.
-
----
-
-## 4. Concurso público — art. 37, II a IV
-
-### 4.1 Regra de ingresso
-
-A investidura em **cargo ou emprego público** depende, em regra, de aprovação prévia em:
-
-- concurso público de provas; ou
-- concurso público de provas e títulos,
+- de provas; ou
+- de provas e títulos,
 
 conforme a natureza e a complexidade do cargo ou emprego, na forma prevista em lei.
 
-Exceção constitucional expressa: nomeação para **cargo em comissão declarado em lei de livre nomeação e exoneração**.
+A exceção expressa é a nomeação para **cargo em comissão declarado em lei de livre nomeação e exoneração**.
 
-### 4.2 Prazo de validade
+O concurso tem validade de **até dois anos**, prorrogável **uma vez, por igual período**. Durante o prazo previsto no art. 37, IV, o aprovado em concurso anterior tem prioridade sobre novos concursados para assumir cargo ou emprego na carreira.
 
-O prazo de validade do concurso é de **até dois anos**, prorrogável:
+Isso não significa que todo aprovado fora do número de vagas adquira automaticamente direito à nomeação em qualquer circunstância. Aqui, a literalidade constitucional relevante é a prioridade do concurso anterior ainda válido.
 
-- **uma vez**;
-- por **igual período**.
+### 2.3 Função de confiança e cargo em comissão
 
-```text
-VALIDADE → até 2 anos
-PRORROGAÇÃO → 1 vez + igual período
-```
-
-### 4.3 Prioridade do concurso anterior
-
-Durante o prazo constitucional referido no art. 37, IV, o aprovado em concurso anterior deve ser convocado com **prioridade sobre novos concursados** para assumir cargo ou emprego na carreira.
-
-Este comando não deve ser confundido com a ideia de que qualquer aprovado fora do número de vagas possua automaticamente direito subjetivo à nomeação em toda situação. O assunto 114 já registra a cautela jurisprudencial do STF sobre preterição e nomeação.
-
----
-
-## 5. Função de confiança e cargo em comissão — art. 37, V
-
-A Constituição distingue:
+Os dois institutos se destinam **apenas a direção, chefia e assessoramento**, mas não são iguais.
 
 | Função de confiança | Cargo em comissão |
 |---|---|
-| exercida **exclusivamente** por servidor ocupante de cargo efetivo | preenchido conforme os casos, condições e percentuais mínimos reservados a servidores de carreira previstos em lei |
-| não é cargo novo | é cargo público |
-| direção, chefia e assessoramento | direção, chefia e assessoramento |
+| exercida exclusivamente por servidor ocupante de **cargo efetivo** | preenchido conforme casos, condições e percentuais mínimos reservados a servidores de carreira previstos em lei |
+| é função | é cargo público |
 
-Ambos se destinam **apenas** às atribuições de:
+A Constituição não autoriza usar cargo em comissão como substituto genérico do quadro técnico permanente.
 
-- direção;
-- chefia;
-- assessoramento.
+### 2.4 Pessoas com deficiência e contratação temporária
 
-O estudo conceitual aprofundado está no assunto 114. Aqui, guarde a **literalidade constitucional**.
+A lei reservará percentual dos **cargos e empregos públicos** para pessoas com deficiência e definirá os critérios de admissão.
 
----
+Já a contratação por tempo determinado exige lei e serve para atender **necessidade temporária de excepcional interesse público**. O contratado temporário não se torna, apenas por isso, servidor ocupante de cargo efetivo.
 
-## 6. Associação sindical e greve — art. 37, VI e VII
+## 3. Durante o exercício: direitos coletivos e deveres institucionais
 
-A Constituição garante ao servidor público **civil** o direito à livre associação sindical.
+Ao servidor público **civil** é garantida a livre associação sindical. O direito de greve será exercido nos termos e limites definidos em **lei específica**.
 
-Quanto à greve, o art. 37, VII, determina que será exercida nos termos e nos limites definidos em **lei específica**.
+O art. 37 também protege a impessoalidade da comunicação estatal. A publicidade de atos, programas, obras, serviços e campanhas deve ter caráter **educativo, informativo ou de orientação social** e não pode conter nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores.
 
-Para esta unidade, não é necessário transformar a matéria em estudo autônomo do direito coletivo do trabalho ou da jurisprudência completa sobre greve no serviço público.
+A violação das regras constitucionais de concurso indicadas no § 2º acarreta **nulidade do ato** e punição da autoridade responsável, nos termos da lei.
 
----
+## 4. Remuneração: quem paga também está constitucionalmente limitado
 
-## 7. Pessoas com deficiência e contratação temporária — art. 37, VIII e IX
+### 4.1 Lei específica e revisão geral
 
-### 7.1 Reserva de cargos e empregos
+Remuneração de servidores e subsídios somente podem ser fixados ou alterados por **lei específica**, observada a iniciativa privativa em cada caso.
 
-A lei reservará percentual de **cargos e empregos públicos** para pessoas com deficiência e definirá os critérios de admissão.
-
-### 7.2 Contratação por tempo determinado
-
-A lei estabelecerá os casos de contratação por tempo determinado para atender a:
-
-- necessidade **temporária**;
-- de **excepcional interesse público**.
-
-```text
-LEI + TEMPO DETERMINADO + NECESSIDADE TEMPORÁRIA + EXCEPCIONAL INTERESSE PÚBLICO
-```
-
-Não confunda temporário com servidor efetivo nem com ocupante de cargo em comissão.
-
----
-
-# Remuneração e teto
-
-## 8. Fixação e revisão — art. 37, X
-
-A remuneração dos servidores públicos e os subsídios do art. 39, § 4º, somente podem ser fixados ou alterados por **lei específica**, observada a iniciativa privativa em cada caso.
-
-A Constituição assegura **revisão geral anual**:
+A Constituição assegura revisão geral anual:
 
 - na mesma data;
 - sem distinção de índices.
 
-A existência dessa previsão não autoriza concluir que qualquer índice ou aumento específico possa ser concedido sem a correspondente disciplina jurídica.
+Essa previsão não cria, sozinha, um índice automático de aumento.
 
----
+### 4.2 Teto e subtetos
 
-## 9. Teto remuneratório — art. 37, XI
-
-A Constituição estabelece um teto nacional referenciado no subsídio mensal dos **Ministros do STF** e subtetos conforme o ente e o Poder.
-
-Matriz essencial:
+O teto nacional toma como referência o subsídio mensal dos Ministros do <abbr title="Supremo Tribunal Federal">STF</abbr>. Nos entes subnacionais, a Constituição estabelece referências próprias:
 
 | Âmbito | Referência constitucional |
 |---|---|
-| teto nacional | subsídio dos Ministros do STF |
 | Município | subsídio do **Prefeito** |
-| Estado/DF — Executivo | subsídio do **Governador** |
-| Estado/DF — Legislativo | subsídio dos **Deputados Estaduais/Distritais** |
-| Estado/DF — Judiciário | subsídio dos **Desembargadores do TJ**, limitado a **90,25%** do subsídio dos Ministros do STF |
+| Estado/Distrito Federal — Executivo | subsídio do **Governador** |
+| Estado/Distrito Federal — Legislativo | subsídio dos **Deputados Estaduais/Distritais** |
+| Estado/Distrito Federal — Judiciário | subsídio dos **Desembargadores do Tribunal de Justiça**, limitado a **90,25%** do subsídio dos Ministros do <abbr title="Supremo Tribunal Federal">STF</abbr> |
 
-O subteto do Judiciário estadual/distrital também é aplicável, nos termos constitucionais, a membros do Ministério Público, Procuradores e Defensores Públicos.
+Estados e Distrito Federal podem adotar, mediante emenda às respectivas Constituição e Lei Orgânica, subteto único correspondente ao subsídio dos Desembargadores do Tribunal de Justiça, respeitado o limite de 90,25%. Essa opção não alcança subsídios de Deputados Estaduais/Distritais nem de Vereadores.
 
-### 9.1 Subteto único estadual/distrital
+O teto também alcança empresas públicas, sociedades de economia mista e subsidiárias que recebam recursos do ente federativo para pagamento de despesas de pessoal ou de custeio em geral.
 
-O § 12 faculta aos Estados e ao Distrito Federal fixar, mediante emenda às respectivas Constituição e Lei Orgânica, **limite único** correspondente ao subsídio dos Desembargadores do TJ, limitado a 90,25% do subsídio dos Ministros do STF.
+### 4.3 Parcelas indenizatórias depois da Emenda Constitucional nº 135/2024
 
-Essa opção não se aplica aos subsídios de Deputados Estaduais/Distritais nem de Vereadores.
+Para ficarem fora do teto, parcelas indenizatórias devem estar **expressamente previstas em lei ordinária aprovada pelo Congresso Nacional, de caráter nacional e aplicável a todos os Poderes e órgãos constitucionalmente autônomos**.
 
-### 9.2 Empresas estatais dependentes de recursos
+Logo, chamar uma verba local de “indenização” não basta para excluí-la do limite constitucional.
 
-O § 9º estende o teto do inciso XI às empresas públicas, sociedades de economia mista e subsidiárias que recebam recursos do ente federativo para pagamento de despesas de pessoal ou de custeio em geral.
+### 4.4 Outras travas remuneratórias
 
-### 9.3 Parcelas indenizatórias — EC nº 135/2024
+A Constituição ainda estabelece que:
 
-No corte de 2026, o § 11 prevê que, para efeito do teto, não são computadas parcelas de caráter indenizatório **expressamente previstas em lei ordinária de caráter nacional, aprovada pelo Congresso Nacional e aplicada a todos os Poderes e órgãos constitucionalmente autônomos**.
+- vencimentos de cargos do Legislativo e do Judiciário não podem ser superiores aos pagos pelo Executivo;
+- é vedada vinculação ou equiparação de espécies remuneratórias para remuneração de pessoal;
+- acréscimos pecuniários não podem ser computados ou acumulados para gerar acréscimos posteriores;
+- subsídio e vencimentos são irredutíveis, ressalvadas as hipóteses constitucionais.
 
-**Pegadinha de atualização:** não basta rotular uma verba local como “indenizatória” para, só por isso, afastá-la do teto constitucional.
+## 5. Acumular vínculos é exceção, não regra
 
----
-
-## 10. Outras regras remuneratórias — art. 37, XII a XV
-
-A Constituição estabelece, entre outras regras:
-
-- vencimentos de cargos do Legislativo e do Judiciário não podem ser superiores aos pagos pelo Executivo — inciso XII;
-- é vedada vinculação ou equiparação de espécies remuneratórias para remuneração de pessoal — inciso XIII;
-- acréscimos pecuniários não são computados nem acumulados para concessão de acréscimos ulteriores — inciso XIV;
-- subsídio e vencimentos de ocupantes de cargos e empregos públicos são irredutíveis, ressalvadas as hipóteses constitucionais — inciso XV.
-
-```text
-VINCULAR/EQUIPARAR → VEDADO
-EFEITO CASCATA DE ACRÉSCIMOS → VEDADO
-IRREDUTIBILIDADE → REGRA, COM RESSALVAS CONSTITUCIONAIS
-```
-
----
-
-# Acumulação de vínculos
-
-## 11. Regra e exceções — art. 37, XVI e XVII
-
-A regra é a **vedação de acumulação remunerada de cargos públicos**.
-
-As exceções exigem:
+A regra é a **vedação de acumulação remunerada de cargos públicos**. Uma acumulação só é válida se houver, ao mesmo tempo:
 
 1. hipótese constitucional autorizada;
 2. **compatibilidade de horários**;
@@ -263,425 +125,181 @@ As exceções exigem:
 
 No corte de 6/7/2026, as hipóteses são:
 
-1. **dois cargos de professor**;
-2. **um cargo de professor com outro de qualquer natureza**;
-3. **dois cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas**.
+- dois cargos de professor;
+- um cargo de professor com outro de **qualquer natureza**;
+- dois cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas.
 
-### 11.1 EC nº 138/2025
+A segunda hipótese foi atualizada pela **Emenda Constitucional nº 138/2025**. A fórmula antiga — professor + cargo técnico ou científico — está desatualizada para esta prova.
 
-A EC nº 138/2025 alterou o art. 37, XVI, `b`.
+A vedação de acumular estende-se também a empregos e funções e às entidades da administração indireta e sociedades controladas indicadas no art. 37, XVII.
 
-```text
-ANTES → professor + cargo técnico ou científico
-CORTE 2026 → professor + outro de QUALQUER NATUREZA
-```
+## 6. O art. 37 também desenha a própria máquina administrativa
 
-Essa é uma atualização de alta incidência para prova.
+Algumas regras aparecem aqui porque a Constituição precisa controlar como o Estado cria estruturas e contrata.
 
-### 11.2 Alcance da vedação
+Somente por **lei específica** pode ser criada autarquia. Para empresa pública, sociedade de economia mista e fundação, a lei específica **autoriza a instituição**; lei complementar define as áreas de atuação das fundações. A criação de subsidiárias e a participação dessas entidades em empresa privada dependem de autorização legislativa.
 
-O inciso XVII estende a proibição de acumular a:
+O art. 37 também dá fundamento constitucional à licitação para obras, serviços, compras e alienações, ressalvadas as hipóteses especificadas em lei. A administração fazendária e seus servidores fiscais têm precedência sobre os demais setores administrativos dentro de suas áreas de competência e jurisdição, na forma da lei; as administrações tributárias são atividades essenciais ao funcionamento do Estado, exercidas por servidores de carreiras específicas e com atuação integrada nos termos constitucionais.
 
-- empregos;
-- funções;
-- autarquias;
-- fundações;
-- empresas públicas;
-- sociedades de economia mista;
-- subsidiárias;
-- sociedades controladas direta ou indiretamente pelo poder público.
+Esses pontos servem de ponte: a estrutura detalhada da administração indireta e o procedimento licitatório têm tratamento próprio em outros assuntos.
 
----
+## 7. Os parágrafos do art. 37 completam o sistema de controle
 
-# Estrutura administrativa e contratação pública no art. 37
+Além da publicidade institucional, alguns parágrafos são especialmente úteis para compreender o mecanismo constitucional:
 
-## 12. Entidades e subsidiárias — art. 37, XIX e XX
+- participação do usuário: a lei disciplina reclamações sobre serviços, acesso a registros e representação contra exercício negligente ou abusivo de cargo, emprego ou função;
+- improbidade: pode gerar, na forma e gradação legais, suspensão dos direitos políticos, perda da função pública, indisponibilidade dos bens e ressarcimento ao erário, sem prejuízo da ação penal cabível;
+- prescrição: a lei fixa prazos para ilícitos que causem prejuízo ao erário, ressalvadas as ações de ressarcimento nos termos constitucionais;
+- responsabilidade civil: pessoas jurídicas de direito público e privadas prestadoras de serviços públicos respondem pelos danos causados por seus agentes nessa qualidade, assegurado regresso contra o responsável em caso de **dolo ou culpa**;
+- informações privilegiadas: a lei disciplina requisitos e restrições para quem ocupa cargo ou emprego com acesso a elas;
+- contrato de desempenho: metas podem fundamentar ampliação de autonomia gerencial, orçamentária e financeira de órgãos e entidades, segundo disciplina legal;
+- percepção de aposentadoria e remuneração pública: o § 10 estabelece regra de vedação à acumulação ali descrita, ressalvando cargos constitucionalmente acumuláveis, cargos eletivos e cargos em comissão de livre nomeação e exoneração;
+- **readaptação**: titular de cargo efetivo com limitação física ou mental pode ser readaptado para cargo compatível, desde que possua habilitação e escolaridade exigidas, mantendo a remuneração do cargo de origem;
+- aposentadoria com uso de tempo de contribuição de determinado vínculo público: nas condições do § 14, rompe o vínculo que gerou esse tempo;
+- complementação de aposentadorias e pensões: o § 15 a veda fora das hipóteses constitucionais que indica;
+- avaliação de políticas públicas: órgãos e entidades devem avaliar políticas, inclusive com divulgação do objeto e dos resultados, na forma da lei.
 
-Somente por **lei específica** pode ser:
+## 8. Mandato eletivo: o cargo de origem não desaparece automaticamente
 
-- criada **autarquia**;
-- autorizada a instituição de **empresa pública**;
-- autorizada a instituição de **sociedade de economia mista**;
-- autorizada a instituição de **fundação**.
+O art. 38 trata do servidor da administração direta, autárquica e fundacional que assume mandato eletivo.
 
-No caso da fundação, cabe a lei complementar definir as áreas de atuação.
-
-A criação de subsidiárias das entidades mencionadas e sua participação em empresa privada dependem de **autorização legislativa**, em cada caso.
-
-O detalhamento da administração direta/indireta pertence ao assunto 112.
-
-## 13. Licitação — art. 37, XXI
-
-O art. 37 prevê que obras, serviços, compras e alienações serão contratados mediante licitação pública, ressalvados os casos especificados na legislação, assegurando igualdade de condições e exigindo apenas qualificação técnica e econômica indispensável à garantia do cumprimento das obrigações.
-
-A Lei nº 14.133/2021 e o procedimento licitatório são estudados no assunto 116; aqui interessa reconhecer o **fundamento constitucional**.
-
-## 14. Administrações tributárias — art. 37, XVIII e XXII
-
-A administração fazendária e seus servidores fiscais têm precedência sobre os demais setores administrativos, na forma da lei, dentro de suas áreas de competência e jurisdição.
-
-As administrações tributárias dos quatro entes federativos são consideradas **atividades essenciais ao funcionamento do Estado**, exercidas por servidores de carreiras específicas, com recursos prioritários e atuação integrada, inclusive compartilhamento de cadastros e informações fiscais, na forma da lei ou convênio.
-
----
-
-# Parágrafos do art. 37
-
-## 15. Publicidade institucional — § 1º
-
-A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deve ter caráter:
-
-- educativo;
-- informativo; ou
-- de orientação social.
-
-Não pode conter nomes, símbolos ou imagens que caracterizem **promoção pessoal** de autoridades ou servidores.
-
-## 16. Descumprimento do concurso — § 2º
-
-A não observância dos incisos II e III do art. 37 implica:
-
-- nulidade do ato;
-- punição da autoridade responsável, nos termos da lei.
-
-## 17. Participação do usuário — § 3º
-
-A lei disciplinará formas de participação do usuário na administração pública, especialmente quanto a:
-
-- reclamações sobre prestação de serviços públicos e avaliação da qualidade;
-- acesso a registros administrativos e informações sobre atos de governo, com as ressalvas constitucionais;
-- representação contra exercício negligente ou abusivo de cargo, emprego ou função.
-
-## 18. Improbidade — § 4º
-
-Os atos de improbidade administrativa podem importar, na forma e gradação previstas em lei:
-
-- suspensão dos direitos políticos;
-- perda da função pública;
-- indisponibilidade dos bens;
-- ressarcimento ao erário;
-- sem prejuízo da ação penal cabível.
-
-A disciplina material da Lei nº 8.429/1992 não deve ser repetida aqui; está nos assuntos próprios.
-
-## 19. Prescrição e ressarcimento — § 5º
-
-A Constituição determina que a lei estabeleça prazos de prescrição para ilícitos praticados por agente, servidor ou não, que causem prejuízo ao erário, ressalvadas as respectivas ações de ressarcimento.
-
-Para esta unidade, a cobrança central é a **literalidade do § 5º**; os recortes jurisprudenciais de imprescritibilidade não precisam transformar o assunto em revisão de improbidade.
-
-## 20. Responsabilidade civil — § 6º
-
-Pessoas jurídicas de direito público e pessoas jurídicas de direito privado prestadoras de serviços públicos respondem pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado direito de regresso contra o responsável nos casos de **dolo ou culpa**.
-
-A teoria completa de responsabilidade civil do Estado é tratada no assunto 118.
-
-## 21. Informações privilegiadas e contrato de desempenho — §§ 7º e 8º
-
-A lei disciplinará requisitos e restrições para ocupante de cargo ou emprego com acesso a informações privilegiadas.
-
-A autonomia gerencial, orçamentária e financeira de órgãos e entidades pode ser ampliada por contrato com o poder público que fixe metas de desempenho, cabendo à lei disciplinar prazo, controles, direitos/obrigações/responsabilidades de dirigentes e remuneração do pessoal.
-
-## 22. Aposentadoria e vínculo — §§ 10, 13, 14 e 15
-
-Pontos de prova:
-
-- § 10: veda, como regra, percepção simultânea de proventos de aposentadoria do art. 40 (ou arts. 42 e 142) com remuneração de cargo, emprego ou função pública; ressalva cargos constitucionalmente acumuláveis, cargos eletivos e cargos em comissão de livre nomeação e exoneração;
-- § 13: servidor titular de cargo efetivo pode ser **readaptado** para cargo compatível com limitação física ou mental, se possuir habilitação e escolaridade exigidas, mantendo a remuneração do cargo de origem;
-- § 14: aposentadoria concedida com utilização de tempo de contribuição decorrente de cargo, emprego ou função pública acarreta o **rompimento do vínculo** que gerou esse tempo;
-- § 15: é vedada complementação de aposentadorias e pensões fora das hipóteses constitucionais indicadas.
-
-## 23. Avaliação de políticas públicas — § 16
-
-Órgãos e entidades da administração pública, individual ou conjuntamente, devem realizar **avaliação das políticas públicas**, inclusive com divulgação do objeto avaliado e dos resultados alcançados, na forma da lei.
-
----
-
-# Parte II — Art. 38: servidor público e mandato eletivo
-
-## 24. Regra conforme o mandato
-
-O art. 38 trata do servidor da administração direta, autárquica e fundacional no exercício de mandato eletivo.
-
-| Mandato | Situação funcional |
+| Mandato | Efeito sobre o vínculo público |
 |---|---|
-| federal, estadual ou distrital | afastamento do cargo, emprego ou função |
-| Prefeito | afastamento, com faculdade de optar pela remuneração |
-| Vereador com compatibilidade de horários | mantém vantagens do vínculo e recebe também remuneração do mandato |
-| Vereador sem compatibilidade | aplica-se a regra do Prefeito |
+| federal, estadual ou distrital | fica afastado do cargo, emprego ou função |
+| Prefeito | fica afastado e pode optar pela remuneração |
+| Vereador, com horários compatíveis | mantém as vantagens do vínculo e recebe também a remuneração do mandato |
+| Vereador, sem compatibilidade | aplica-se a regra do Prefeito |
 
-### 24.1 Tempo de serviço
+Nos casos em que houver afastamento, o tempo de serviço conta para todos os efeitos legais, **exceto promoção por merecimento**.
 
-Nos casos que exigem afastamento, o tempo de serviço conta para todos os efeitos legais, **exceto promoção por merecimento**.
+Se o servidor for segurado de <abbr title="Regime Próprio de Previdência Social">RPPS</abbr>, permanece filiado ao <abbr title="Regime Próprio de Previdência Social">RPPS</abbr> do **ente federativo de origem**.
 
-### 24.2 Previdência
+## 9. Art. 39: política de pessoal depois da <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2.135
 
-Se o servidor for segurado de <abbr title="Regime Próprio de Previdência Social">RPPS</abbr>, permanecerá filiado ao regime do **ente federativo de origem**.
+A Constituição de 1988 originalmente exigia **regime jurídico único** para servidores da administração direta, autarquias e fundações públicas. A Emenda Constitucional nº 19/1998 retirou essa obrigatoriedade.
 
----
+No julgamento definitivo da <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2.135, em 6 de novembro de 2024, o <abbr title="Supremo Tribunal Federal">STF</abbr> reconheceu a constitucionalidade dessa retirada. Portanto, no corte de 2026, é incorreto afirmar que a Constituição ainda impõe regime jurídico único a todos os entes.
 
-# Parte III — Art. 39: servidores públicos e política remuneratória
+O caput vigente do art. 39 prevê que União, Estados, Distrito Federal e Municípios instituam **conselho de política de administração e remuneração de pessoal**, integrado por servidores designados pelos respectivos Poderes.
 
-## 25. Regime jurídico único: atenção à ADI 2.135
+### 9.1 Como a Constituição orienta remuneração e desenvolvimento
 
-A redação original do art. 39 previa a instituição de **regime jurídico único** para servidores da administração direta, autarquias e fundações públicas.
-
-A EC nº 19/1998 retirou essa obrigatoriedade do caput. Por muitos anos houve medida cautelar na ADI 2.135, mas o julgamento definitivo do STF, concluído em **6 de novembro de 2024**, reconheceu a **constitucionalidade da revogação da obrigatoriedade de regime jurídico único**.
-
-Portanto, no corte do edital de 2026:
-
-```text
-ERRADO → "A Constituição exige regime jurídico único em todos os entes"
-CERTO  → a obrigatoriedade constitucional de RJU foi validamente retirada pela EC 19/1998
-```
-
-O caput vigente do art. 39 determina a instituição, pelos entes federativos, de **conselho de política de administração e remuneração de pessoal**, integrado por servidores designados pelos respectivos Poderes.
-
----
-
-## 26. Padrões de vencimento — art. 39, § 1º
-
-A fixação dos padrões de vencimento e dos componentes do sistema remuneratório observará:
+A fixação dos padrões de vencimento e dos componentes do sistema remuneratório considera:
 
 1. natureza, grau de responsabilidade e complexidade dos cargos de cada carreira;
 2. requisitos para investidura;
 3. peculiaridades dos cargos.
 
-## 27. Escolas de governo — § 2º
+União, Estados e Distrito Federal manterão escolas de governo para formação e aperfeiçoamento de servidores. **Municípios não aparecem expressamente nesse § 2º.**
 
-União, Estados e Distrito Federal manterão escolas de governo para formação e aperfeiçoamento de servidores públicos.
+O § 3º estende aos ocupantes de cargo público **determinados**, e não todos, os direitos do art. 7º e permite requisitos diferenciados de admissão quando a natureza do cargo o exigir.
 
-A participação em cursos constitui um dos requisitos para promoção na carreira, facultada a celebração de convênios ou contratos entre os entes federados.
+### 9.2 Subsídio e incorporação
 
-**Pegadinha literal:** o § 2º enumera **União, Estados e Distrito Federal**; não inclui expressamente os Municípios nessa obrigação constitucional.
+Membro de Poder, detentor de mandato eletivo, Ministro de Estado e Secretários Estaduais e Municipais são remunerados exclusivamente por **subsídio fixado em parcela única**, sem os acréscimos remuneratórios enumerados no § 4º, observados os limites constitucionais.
 
-## 28. Direitos do art. 7º aplicáveis — § 3º
+A Constituição também permite que lei estabeleça relação entre a maior e a menor remuneração, respeitado o teto, e determina que Executivo, Legislativo e Judiciário publiquem anualmente os valores dos subsídios e remunerações dos cargos e empregos públicos. A economia com despesas correntes pode, na forma da lei, ser aplicada em programas de qualidade, produtividade, treinamento, modernização, reaparelhamento e racionalização.
 
-O § 3º estende aos servidores ocupantes de cargo público determinados direitos previstos no art. 7º. Para prova, é mais importante saber que a extensão é **seletiva**, e não integral.
+A remuneração de servidores organizados em carreira também **pode** ser fixada por subsídio. É vedada a incorporação ao cargo efetivo de vantagens temporárias ou vinculadas ao exercício de função de confiança ou cargo em comissão.
 
-O dispositivo também permite que lei estabeleça requisitos diferenciados de admissão quando a natureza do cargo o exigir.
+## 10. Previdência: primeiro descubra qual regime alcança o agente
 
-## 29. Subsídio em parcela única — § 4º
+O art. 40 disciplina o <abbr title="Regime Próprio de Previdência Social">RPPS</abbr> dos **servidores titulares de cargos efetivos**. O regime é contributivo e solidário e deve preservar equilíbrio financeiro e <abbr title="Equilíbrio entre contribuições e obrigações futuras do regime">atuarial</abbr>.
 
-São remunerados exclusivamente por **subsídio fixado em parcela única**:
+Por outro lado, o art. 40, § 13, aplica o <abbr title="Regime Geral de Previdência Social">RGPS</abbr> ao agente que ocupe exclusivamente:
 
-- membro de Poder;
-- detentor de mandato eletivo;
-- Ministros de Estado;
-- Secretários Estaduais e Municipais.
+- cargo em comissão de livre nomeação e exoneração;
+- outro cargo temporário, inclusive mandato eletivo;
+- emprego público.
 
-É vedado acrescentar gratificação, adicional, abono, prêmio, verba de representação ou outra espécie remuneratória, observado o art. 37, X e XI.
+A pergunta “cargo efetivo ou vínculo não efetivo?” resolve grande parte das questões previdenciárias deste capítulo.
 
-## 30. Transparência remuneratória e produtividade — §§ 5º a 8º
+## 11. Aposentadoria no <abbr title="Regime Próprio de Previdência Social">RPPS</abbr>: três portas principais
 
-Pontos essenciais:
+### 11.1 Incapacidade permanente
 
-- lei pode estabelecer relação entre maior e menor remuneração dos servidores, respeitado o teto;
-- Executivo, Legislativo e Judiciário publicarão anualmente valores de subsídios e remunerações de cargos e empregos públicos;
-- lei pode disciplinar aplicação de economia com despesas correntes em programas de qualidade, produtividade, treinamento, modernização e reaparelhamento;
-- remuneração de servidores organizados em carreira pode ser fixada pelo sistema de subsídio do § 4º.
+O servidor abrangido por <abbr title="Regime Próprio de Previdência Social">RPPS</abbr> será aposentado por incapacidade permanente para o trabalho no cargo quando for **insuscetível de readaptação**. A permanência das condições deve ser verificada por avaliações periódicas, na forma da lei do respectivo ente.
 
-## 31. Vedação de incorporação — § 9º
+### 11.2 Compulsória
 
-É vedada a incorporação, à remuneração do cargo efetivo, de vantagens:
+A Constituição prevê aposentadoria compulsória aos 70 ou 75 anos, na forma de lei complementar. A Lei Complementar nº 152/2015 fixa **75 anos** para os agentes que ela enumera, entre eles titulares de cargos efetivos da União, Estados, Distrito Federal e Municípios, incluídas autarquias e fundações.
 
-- de caráter temporário;
-- vinculadas ao exercício de função de confiança;
-- vinculadas ao exercício de cargo em comissão.
+### 11.3 Voluntária
 
-Esse § 9º foi incluído pela EC nº 103/2019.
-
----
-
-# Parte IV — Art. 40: regime próprio de previdência social
-
-## 32. Quem está no núcleo do RPPS
-
-O art. 40 disciplina o RPPS dos **servidores titulares de cargos efetivos**.
-
-O regime tem caráter:
-
-- **contributivo**;
-- **solidário**;
-- orientado ao equilíbrio **financeiro e atuarial**.
-
-Contribuem, conforme o sistema constitucional, o respectivo ente federativo, servidores ativos, aposentados e pensionistas.
-
-**Pegadinha:** empregado público, temporário e ocupante exclusivamente de cargo em comissão não entram no RPPS apenas por exercerem função pública. O § 13 os remete ao **<abbr title="Regime Geral de Previdência Social">RGPS</abbr>** nas hipóteses constitucionais.
-
----
-
-## 33. Aposentadorias do § 1º
-
-### 33.1 Incapacidade permanente
-
-O servidor abrangido por RPPS será aposentado por incapacidade permanente para o trabalho no cargo quando for **insuscetível de readaptação**. A continuidade das condições deve ser verificada por avaliações periódicas, na forma da lei do ente.
-
-### 33.2 Compulsória
-
-A Constituição prevê aposentadoria compulsória com proventos proporcionais ao tempo de contribuição aos **70 ou 75 anos, na forma de lei complementar**.
-
-A **LC nº 152/2015** fixa 75 anos para os servidores titulares de cargos efetivos da União, Estados, DF e Municípios, incluindo autarquias e fundações, além das demais autoridades nela previstas.
-
-### 33.3 Voluntária — idades constitucionais
-
-No âmbito da **União**:
+No âmbito da **União**, a idade mínima constitucional é:
 
 - mulher: **62 anos**;
 - homem: **65 anos**.
 
-Nos Estados, DF e Municípios, a idade mínima é estabelecida mediante emenda às respectivas Constituições e Leis Orgânicas, observados tempo de contribuição e demais requisitos fixados em lei complementar do ente.
+Nos Estados, Distrito Federal e Municípios, a idade mínima é estabelecida mediante emenda às respectivas Constituições e Leis Orgânicas, com os demais requisitos definidos na forma constitucional.
 
-**Pegadinha:** não transporte automaticamente as idades federais para todos os entes subnacionais.
+Portanto, **62/65 não é uma dupla que se possa transportar automaticamente a todos os entes**.
 
----
+## 12. Regras diferenciadas e travas do <abbr title="Regime Próprio de Previdência Social">RPPS</abbr>
 
-## 34. Regras diferenciadas
+A Constituição admite disciplina diferenciada, nos limites previstos, para servidores com deficiência, determinadas carreiras de segurança e atividades com efetiva exposição a agentes nocivos. Para professores que cumpram os requisitos constitucionais de funções de magistério na educação infantil e nos ensinos fundamental e médio, a idade mínima é reduzida em **cinco anos**.
 
-A regra é vedação de requisitos ou critérios diferenciados, ressalvadas as hipóteses constitucionais.
+Outras travas importantes:
 
-Podem existir regras diferenciadas, por lei complementar do ente, para:
+- em regra, é vedada mais de uma aposentadoria à conta de <abbr title="Regime Próprio de Previdência Social">RPPS</abbr>, ressalvadas as decorrentes de cargos acumuláveis;
+- benefícios devem ser reajustados para preservar seu valor real, conforme critérios estabelecidos em lei;
+- é vedada contagem de tempo de contribuição fictício;
+- cada ente possui **um único <abbr title="Regime Próprio de Previdência Social">RPPS</abbr> e uma única entidade ou órgão gestor** para todos os Poderes, órgãos e entidades autárquicas e fundacionais;
+- o § 22 veda a instituição de **novos <abbr title="Regimes Próprios de Previdência Social">RPPS</abbr>** e remete a lei complementar federal às normas gerais dos regimes já existentes;
+- a Constituição prevê previdência complementar para servidores ocupantes de cargo efetivo e admite abono de permanência conforme a disciplina do ente.
 
-- servidor com deficiência, após avaliação biopsicossocial;
-- determinadas carreiras policiais, agentes penitenciários e socioeducativos indicados no texto constitucional;
-- atividades com efetiva exposição a agentes químicos, físicos e biológicos prejudiciais à saúde, vedada caracterização apenas por categoria profissional ou ocupação.
+## 13. Estabilidade: concurso não basta
 
-Professores têm redução de **5 anos** na idade mínima, observados os requisitos constitucionais e legais para funções de magistério na educação infantil e nos ensinos fundamental e médio.
+São estáveis após **três anos de efetivo exercício** os servidores nomeados para **cargo de provimento efetivo em virtude de concurso público**.
 
----
+Além do tempo, o art. 41, § 4º, exige **avaliação especial de desempenho por comissão instituída para essa finalidade**.
 
-## 35. Outras regras de alta incidência do art. 40
+Assim, quatro elementos precisam aparecer juntos:
 
-- vedada, em regra, mais de uma aposentadoria à conta de RPPS, ressalvadas as decorrentes de cargos acumuláveis;
-- benefícios devem ser reajustados para preservar valor real, conforme lei;
-- vedada contagem de tempo de contribuição fictício;
-- teto do art. 37, XI, alcança as combinações remuneratórias indicadas no § 11;
-- RGPS aplica-se a ocupante exclusivamente de cargo em comissão, outro cargo temporário, mandato eletivo ou emprego público — § 13;
-- entes instituirão previdência complementar para servidores de cargo efetivo, nos termos dos §§ 14 a 16;
-- pode haver abono de permanência, conforme critérios legais do ente, para servidor que complete requisitos de aposentadoria voluntária e permaneça em atividade;
-- há **um único RPPS e uma única entidade/órgão gestor por ente**, abrangendo todos os Poderes, órgãos e entidades autárquicas e fundacionais;
-- o § 22 veda a instituição de **novos RPPS** e remete a lei complementar federal normas gerais para os regimes já existentes.
+**cargo efetivo + concurso + três anos de efetivo exercício + avaliação especial**.
 
-Para este cargo, o objetivo é dominar a **arquitetura constitucional** do RPPS, não memorizar regras de transição da reforma previdenciária nem cálculos atuariais.
+Emprego público, contratação temporária e cargo em comissão não se convertem em cargo efetivo apenas pelo decurso do tempo.
 
----
+## 14. Perda do cargo estável: o art. 41 não é a única porta
 
-# Parte V — Art. 41: estabilidade
+O art. 41, § 1º, prevê perda do cargo do servidor estável:
 
-## 36. Aquisição da estabilidade
+1. por sentença judicial transitada em julgado;
+2. mediante processo administrativo em que seja assegurada ampla defesa;
+3. mediante procedimento de avaliação periódica de desempenho, na forma de lei complementar, assegurada ampla defesa.
 
-São estáveis após **três anos de efetivo exercício** os servidores:
+Há ainda a hipótese do art. 169, § 4º. Se as medidas constitucionais anteriores para reduzir despesa com pessoal forem insuficientes, servidor estável pode perder o cargo mediante **ato normativo motivado** que especifique a atividade funcional, o órgão ou a unidade objeto da redução.
 
-- nomeados para **cargo de provimento efetivo**;
-- em virtude de **concurso público**.
+Nessa hipótese:
 
-Além do período constitucional, o § 4º exige, como condição para aquisição da estabilidade, **avaliação especial de desempenho por comissão instituída para essa finalidade**.
-
-```text
-CARGO EFETIVO + CONCURSO + 3 ANOS + AVALIAÇÃO ESPECIAL → ESTABILIDADE
-```
-
-Não confunda:
-
-- aprovação no concurso com estabilidade;
-- emprego público com cargo efetivo;
-- cargo em comissão com estabilidade.
-
----
-
-## 37. Perda do cargo do servidor estável — art. 41, § 1º
-
-O art. 41, § 1º, prevê três hipóteses:
-
-1. **sentença judicial transitada em julgado**;
-2. **processo administrativo** com ampla defesa;
-3. **procedimento de avaliação periódica de desempenho**, na forma de lei complementar, assegurada ampla defesa.
-
-### 37.1 O art. 41, § 1º, não esgota todas as hipóteses constitucionais
-
-O art. 169, § 4º, prevê possibilidade adicional de perda do cargo por servidor estável quando as medidas constitucionais de ajuste de despesa com pessoal forem insuficientes, mediante ato normativo motivado que especifique a atividade funcional, órgão ou unidade objeto da redução.
-
-Nesse caso:
-
-- há indenização de **um mês de remuneração por ano de serviço**;
+- a indenização corresponde a **um mês de remuneração por ano de serviço**;
 - o cargo é considerado extinto;
-- fica vedada, por **quatro anos**, criação de cargo, emprego ou função com atribuições iguais ou assemelhadas.
+- por **quatro anos**, não pode ser criado cargo, emprego ou função com atribuições iguais ou assemelhadas.
 
-**Pegadinha:** “servidor estável só pode perder o cargo nas três hipóteses do art. 41, § 1º” é formulação incompleta diante do art. 169, § 4º.
+## 15. Quando a saída é desfeita ou o cargo deixa de existir
 
----
+Se a demissão do servidor estável for invalidada por sentença judicial, ele será **reintegrado**.
 
-## 38. Reintegração e situação do ocupante da vaga — § 2º
+O eventual ocupante estável da vaga será:
 
-Se a demissão do servidor estável for invalidada por sentença judicial:
+- reconduzido ao cargo de origem, **sem direito a indenização**; ou
+- aproveitado em outro cargo; ou
+- colocado em disponibilidade com remuneração proporcional ao tempo de serviço.
 
-- o servidor será **reintegrado**;
-- o eventual ocupante da vaga, se estável, será:
-  - reconduzido ao cargo de origem, **sem direito a indenização**; ou
-  - aproveitado em outro cargo; ou
-  - colocado em disponibilidade com remuneração proporcional ao tempo de serviço.
+Se o próprio cargo for extinto ou declarado desnecessário, o servidor estável fica em **disponibilidade**, com remuneração proporcional ao tempo de serviço, até adequado aproveitamento em outro cargo.
 
-Matriz:
+Reintegração, recondução e disponibilidade resolvem problemas diferentes; não são sinônimos.
 
-```text
-DEMISSÃO INVALIDADA → REINTEGRAÇÃO
-OCUPANTE ESTÁVEL DA VAGA → RECONDUÇÃO / APROVEITAMENTO / DISPONIBILIDADE
-```
+## 16. Como resolver questões dos arts. 37 a 41
 
----
+Em vez de procurar primeiro um número, identifique **em que ponto da trajetória funcional a questão está**:
 
-## 39. Extinção ou desnecessidade do cargo — § 3º
+1. **ingresso** → concurso, comissão, confiança, temporário;
+2. **exercício** → princípios, sindicalização, publicidade, responsabilidade;
+3. **remuneração e vínculos** → teto, lei específica, acumulação;
+4. **mandato eletivo** → afastamento e compatibilidade;
+5. **política de pessoal** → art. 39 e subsídio;
+6. **previdência** → cargo efetivo leva ao <abbr title="Regime Próprio de Previdência Social">RPPS</abbr>; vínculos do § 13 levam ao <abbr title="Regime Geral de Previdência Social">RGPS</abbr>;
+7. **estabilidade e desligamento** → três anos, avaliação, art. 41 e art. 169.
 
-Extinto o cargo ou declarada sua desnecessidade, o servidor estável ficará em **disponibilidade**, com remuneração proporcional ao tempo de serviço, até adequado aproveitamento em outro cargo.
-
-Não confunda disponibilidade com demissão.
-
----
-
-# 40. Matriz final dos arts. 37 a 41
-
-| Tema | Regra-chave |
-|---|---|
-| princípios | LIMPE |
-| concurso | cargo/emprego; até 2 anos + 1 prorrogação igual |
-| confiança/comissão | direção, chefia, assessoramento |
-| temporário | necessidade temporária + excepcional interesse público |
-| teto municipal | Prefeito |
-| acumulação 2026 | professor + outro de qualquer natureza; além das demais hipóteses |
-| publicidade oficial | sem promoção pessoal |
-| mandato de Prefeito | afastamento + opção pela remuneração |
-| mandato de Vereador | compatibilidade decide acumulação funcional/remuneratória |
-| <abbr title="Regime Jurídico Único">RJU</abbr> | não é mais obrigatoriedade constitucional — ADI 2.135 |
-| subsídio | parcela única nas hipóteses do art. 39, § 4º |
-| RPPS | núcleo: titular de cargo efetivo |
-| compulsória | 75 anos nas hipóteses da LC 152/2015 |
-| estabilidade | 3 anos + cargo efetivo + concurso + avaliação especial |
-| demissão invalidada | reintegração |
-| cargo extinto/desnecessário | disponibilidade + aproveitamento posterior |
-| ajuste de pessoal | art. 169, § 4º pode atingir servidor estável |
-
----
-
-# 41. Pegadinhas de alta incidência
-
-1. **LIMPE** alcança administração direta e indireta de qualquer dos Poderes e de todos os entes.
-2. Concurso vale, em regra, para **cargo e emprego**, não apenas cargo efetivo.
-3. Validade é de **até** dois anos; prorrogação, uma vez por igual período.
-4. Função de confiança é exclusiva de ocupante de **cargo efetivo**.
-5. Cargo em comissão só se destina a direção, chefia e assessoramento.
-6. Temporário não ocupa, por isso só, cargo efetivo.
-7. Teto municipal = subsídio do **Prefeito**.
-8. A EC nº 138/2025 permite professor + outro cargo de **qualquer natureza**, com compatibilidade de horários.
-9. Publicidade institucional não pode promover pessoalmente autoridade ou servidor.
-10. Servidor eleito Prefeito afasta-se e pode optar pela remuneração.
-11. Vereador só acumula as remunerações se houver compatibilidade de horários.
-12. **RJU obrigatório** é pegadinha desatualizada após o julgamento definitivo da ADI 2.135.
-13. Escolas de governo: art. 39, § 2º cita União, Estados e DF.
-14. Vantagem temporária/de comissão não se incorpora ao cargo efetivo — art. 39, § 9º.
-15. RPPS do art. 40 tem como núcleo o titular de **cargo efetivo**.
-16. Empregado público e ocupante exclusivamente de cargo em comissão ficam no **RGPS**, nos termos do art. 40, § 13.
-17. Idades federais de 62/65 não devem ser automaticamente copiadas para Estados e Municípios.
-18. Estabilidade exige **três anos** e avaliação especial.
-19. O art. 41, § 1º, não é a única fonte constitucional de perda do cargo estável: veja art. 169, § 4º.
-20. Reintegração ≠ recondução ≠ disponibilidade.
-
----
+Depois disso, recupere a exceção ou o prazo. Esse caminho reduz a chance de misturar regras que pertencem a momentos constitucionais diferentes da vida funcional.
