@@ -1,8 +1,7 @@
-### 26. Fontes normativas principais
-
-- Constituição Federal de 1988, especialmente arts. 37 e 241: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
-- Lei nº 14.133/2021 (Licitações e Contratos Administrativos): https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm
-- Lei nº 11.107/2005 (Consórcios Públicos): https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11107.htm
-- Decreto nº 6.017/2007: https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/decreto/d6017.htm
-- Lei nº 14.662/2023, que alterou a disciplina de alteração/extinção do contrato de consórcio: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14662.htm
-- Decreto nº 11.531/2023, para convênios e contratos de repasse no âmbito federal: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11531.htm
+- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6 de julho de 2026, e documentos do concurso; referência para o corte normativo.
+- [Constituição da República Federativa do Brasil de 1988 — texto compilado, Planalto](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — especialmente art. 241, sobre consórcios públicos, convênios de cooperação e gestão associada de serviços públicos.
+- [Lei nº 14.133, de 1º de abril de 2021 — Licitações e Contratos Administrativos, Planalto](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm) — especialmente arts. 75, XI; 89 a 95; 104 a 107; 114 a 139; e 184.
+- [Lei nº 11.107, de 6 de abril de 2005 — Consórcios Públicos, Planalto](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11107.htm) — formação, personalidade, rateio, retirada, alteração, extinção e contrato de programa.
+- [Decreto nº 6.017, de 17 de janeiro de 2007 — Consórcios Públicos, Planalto](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/decreto/d6017.htm) — regulamentação da Lei nº 11.107/2005; seu art. 29 deve ser lido à luz da alteração legal posterior.
+- [Lei nº 14.662, de 24 de agosto de 2023, Planalto](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14662.htm) — alteração do contrato de consórcio mediante ratificação legal pela maioria e extinção ratificada por todos.
+- [Decreto nº 11.531, de 16 de maio de 2023, Planalto](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11531.htm) — convênios, contratos de repasse e instrumentos cooperativos no âmbito federal.

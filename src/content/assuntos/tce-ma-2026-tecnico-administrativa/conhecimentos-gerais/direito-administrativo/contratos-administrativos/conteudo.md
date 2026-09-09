@@ -8,631 +8,290 @@ storageId: tec-contratos-adm-119
 
 # Contratos administrativos, consórcios públicos e convênios
 
-## 1. Recorte do edital e estratégia de estudo
+## 1. Três relações que parecem próximas, mas funcionam de modo diferente
 
-O edital do Cargo 16 reúne, em **Direito Administrativo**, três blocos que precisam ser estudados em conjunto, mas sem confusão:
+Considere três situações **hipotéticas**:
 
-1. **contratos administrativos**, com destaque para a Lei nº 14.133/2021;
-2. **consórcios públicos**, disciplinados principalmente pela Lei nº 11.107/2005 e pelo Decreto nº 6.017/2007;
-3. **convênios e instrumentos congêneres**.
+1. um órgão contrata uma empresa para prestar manutenção predial mediante pagamento;
+2. dois entes públicos unem recursos e equipes para executar um projeto de interesse comum;
+3. vários municípios querem manter uma estrutura permanente e compartilhada para executar objetivos comuns.
 
-Dentro de contratos administrativos, o programa menciona expressamente **conceito, características, vigência, alterações, execução, inexecução e rescisão**.
+As três situações envolvem Administração Pública, mas a arquitetura jurídica muda:
 
-> **Corte jurídico:** este material adota como referência a legislação vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Alterações posteriores devem ser tratadas como pós-edital e não substituem silenciosamente a regra aplicável ao corte.
+| Situação | Instituto que tende a organizar a relação | Ideia central |
+|---|---|---|
+| aquisição de uma prestação | **contrato administrativo** | obrigações recíprocas sob regime público |
+| cooperação para objetivo comum | **convênio ou instrumento cooperativo** | interesses convergentes e mútua colaboração |
+| cooperação federativa institucionalizada | **consórcio público** | criação de uma nova pessoa jurídica formada por entes federativos |
 
-Nos conhecimentos específicos do Cargo 16, **Gestão de Contratos** aprofunda vários dispositivos da Lei nº 14.133/2021. Aqui, o objetivo é diferente: formar uma **visão geral de Direito Administrativo**, suficiente para reconhecer o regime jurídico do contrato e relacioná-lo com consórcios, convênios e outros ajustes cooperativos.
+Essa distinção é o mapa do capítulo. Dentro do contrato administrativo, a pergunta passa a ser **como o vínculo nasce, produz efeitos, dura, é executado, pode ser alterado e termina**. Nos consórcios e convênios, a pergunta é outra: **como a cooperação é estruturada e qual instrumento corresponde à relação material existente**.
 
-> **Pegadinha de terminologia:** o edital usa a palavra **rescisão**, tradicional na matéria. A Lei nº 14.133/2021 emprega, em seus arts. 137 a 139, a expressão **extinção do contrato**. Em prova, é preciso reconhecer a correspondência temática sem importar automaticamente a terminologia da antiga Lei nº 8.666/1993.
+## 2. Contrato administrativo: acordo de vontades dentro de um regime público
 
----
+Um **contrato administrativo** é um ajuste bilateral celebrado pela Administração para atender finalidade pública, com obrigações para as partes e predominância de normas de direito público.
 
-## 2. Contrato administrativo: conceito e posição no Direito Administrativo
+A Lei nº 14.133/2021 deixa essa ordem clara no artigo 89: os contratos por ela regidos submetem-se às próprias cláusulas e aos preceitos de direito público; princípios da teoria geral dos contratos e disposições de direito privado entram **supletivamente**, isto é, para complementar o regime quando forem compatíveis.
 
-Em sentido funcional, **contrato administrativo** é o ajuste bilateral celebrado pela Administração, submetido predominantemente a regime de direito público, para satisfazer finalidade pública e estabelecer obrigações recíprocas.
+Isso evita dois erros opostos:
 
-O contrato administrativo não elimina a autonomia das partes. Ele nasce de um acordo de vontades, mas esse acordo ocorre em ambiente jurídico marcado por:
+- o contrato não vira uma relação privada comum só porque existe acordo de vontades;
+- a Administração não fica livre de cumprir o que contratou só porque possui prerrogativas públicas.
 
-- legalidade;
-- vinculação ao procedimento de contratação;
-- finalidade pública;
-- controles administrativos e externos;
-- prerrogativas legalmente atribuídas à Administração;
-- proteção do equilíbrio econômico-financeiro.
+Na linguagem doutrinária de prova, **contratos da Administração** é expressão mais ampla, capaz de abranger diferentes ajustes celebrados por entidades administrativas. **Contrato administrativo**, em sentido próprio, destaca o vínculo submetido a um regime público especial.
 
-A Lei nº 14.133/2021 estabelece, no art. 89, que os contratos regidos por ela se submetem:
+### 2.1. Características: entenda o efeito antes de decorar o rótulo
 
-1. às próprias cláusulas;
-2. aos **preceitos de direito público**; e
-3. **supletivamente**, aos princípios da teoria geral dos contratos e às disposições de direito privado.
+As classificações doutrinárias mais usuais resumem propriedades do vínculo:
 
-Portanto, o direito privado não desaparece, mas também não ocupa a posição central.
-
-### 2.1 Contrato da Administração × contrato administrativo
-
-A expressão **contratos da Administração** é mais ampla. Pode abranger todo ajuste contratual celebrado por entidade administrativa, inclusive negócios submetidos mais intensamente ao direito privado.
-
-Já **contrato administrativo**, em sentido próprio, destaca o ajuste submetido a regime público especial, com prerrogativas e sujeições próprias.
-
-> **Pegadinha:** nem todo contrato celebrado por uma entidade pública é idêntico quanto ao regime jurídico. A natureza do objeto, a lei aplicável e a presença de prerrogativas públicas importam.
-
----
-
-## 3. Características mais cobradas
-
-A doutrina costuma apontar características úteis para prova. Elas devem ser entendidas como categorias explicativas, não como rótulos absolutos.
-
-| Característica | Ideia central |
+| Característica | O que significa |
 |---|---|
-| **bilateral** | há obrigações para ambos os lados |
+| **bilateral** | surgem obrigações para ambos os contratantes |
 | **oneroso** | há vantagens e encargos economicamente apreciáveis |
 | **comutativo** | as prestações são determinadas ou determináveis desde a formação |
-| **formal** | a lei exige forma e documentação próprias |
-| **consensual** | depende do acordo de vontades para formação |
-| **personalíssimo em sentido relativo** | a identidade e a qualificação do contratado importam, embora a lei admita hipóteses controladas de subcontratação e reorganização |
-| **regido predominantemente pelo direito público** | as normas públicas e as cláusulas do ajuste prevalecem, com aplicação supletiva do direito privado |
+| **formal** | a lei exige formas e registros próprios |
+| **consensual** | o vínculo pressupõe acordo de vontades |
+| **pessoalidade relativa** | a identidade e a qualificação do contratado importam, embora a lei admita hipóteses controladas de subcontratação e reorganização |
 
-A expressão **contrato de adesão** também aparece na doutrina porque, na contratação pública, a Administração normalmente estrutura previamente as condições essenciais no edital e na minuta. Isso não autoriza cláusulas ilegais nem elimina o direito ao equilíbrio econômico-financeiro.
+Esses rótulos não eliminam a regra mais importante: **o contrato é uma relação de duas partes, mas não uma relação de poderes perfeitamente simétricos**.
 
----
+## 3. O ciclo do contrato na Lei nº 14.133/2021
 
-## 4. Prerrogativas da Administração na Lei nº 14.133/2021
+Use um fluxo único:
 
-O art. 104 concentra prerrogativas clássicas do regime dos contratos administrativos. A Administração pode, nos limites legais:
+**formação → eficácia → duração → execução → alteração, se necessária → inexecução ou cumprimento → extinção**.
 
-1. **modificar unilateralmente** o contrato para melhor adequá-lo às finalidades de interesse público, preservados os direitos do contratado;
-2. **extinguir unilateralmente** o contrato nos casos especificados em lei;
-3. **fiscalizar** sua execução;
-4. aplicar **sanções motivadas** pela inexecução total ou parcial;
-5. em hipóteses legais, **ocupar provisoriamente bens móveis e imóveis e utilizar pessoal e serviços vinculados ao objeto**.
+A cada etapa, a Lei combina prerrogativas da Administração com limites destinados a preservar legalidade, execução e equilíbrio do vínculo.
 
-Esses poderes não são uma autorização genérica para agir livremente.
+### 3.1. Prerrogativas públicas têm finalidade e limite
 
-### 4.1 Limite econômico-financeiro
+O artigo 104 permite à Administração, nos limites legais:
 
-As cláusulas econômico-financeiras e monetárias **não podem ser alteradas sem prévia concordância do contratado**.
+- modificar unilateralmente o contrato para adequá-lo às finalidades de interesse público;
+- extingui-lo unilateralmente nas hipóteses previstas em lei;
+- fiscalizar sua execução;
+- aplicar sanções motivadas pela inexecução total ou parcial;
+- em hipóteses legais, ocupar provisoriamente bens e utilizar pessoal e serviços vinculados ao objeto.
 
-Se uma alteração unilateral aumentar ou reduzir os encargos do contratado, a Administração deve preservar o **equilíbrio econômico-financeiro inicial**.
+Essas prerrogativas não autorizam qualquer modificação. As **cláusulas econômico-financeiras e monetárias não podem ser alteradas sem prévia concordância do contratado**. Se uma alteração unilateral aumentar ou reduzir seus encargos, a relação econômica inicialmente pactuada deve ser preservada por recomposição do equilíbrio econômico-financeiro. **Equilíbrio econômico-financeiro** é justamente a relação original entre os encargos assumidos pelo contratado e a remuneração que lhe corresponde.
 
-> **Regra de prova:** prerrogativa pública não significa poder de destruir a equação econômica originalmente pactuada.
+A ideia é simples: a Administração pode adaptar o contrato nos casos em que a lei autoriza, mas não pode transferir gratuitamente ao contratado o custo econômico da decisão unilateral.
 
----
+### 3.2. Instrumento, contrato verbal e eficácia após a divulgação
 
-## 5. Formalização e instrumento do contrato
+O **instrumento de contrato** é a regra. O artigo 95 permite substituí-lo por instrumento hábil, como nota de empenho, autorização de compra ou ordem de execução, em duas hipóteses:
 
-A Lei nº 14.133/2021 exige que as condições de execução sejam fixadas de forma clara e precisa, com direitos, obrigações e responsabilidades das partes compatíveis com:
+1. dispensa de licitação em razão do valor;
+2. compra com entrega imediata e integral, sem obrigações futuras, inclusive de assistência técnica, independentemente do valor.
 
-- o edital e a proposta vencedora; ou
-- o ato que autorizou a contratação direta e a respectiva proposta.
+Contrato verbal com a Administração é, em regra, **nulo e sem efeito**. A lei abre exceção estreita para pequenas compras ou serviços de pronto pagamento dentro do limite legal vigente.
 
-Contratos e aditamentos devem, em regra:
+Depois da assinatura, surge outra distinção: **existir como instrumento não é o mesmo que estar apto a produzir todos os seus efeitos**. O artigo 94 faz da divulgação no Portal Nacional de Contratações Públicas (<abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>) condição indispensável para a eficácia do contrato e de seus aditamentos — instrumentos que formalizam modificações do ajuste.
 
-- ser escritos;
-- integrar o processo administrativo;
-- ser divulgados;
-- permanecer disponíveis ao público, ressalvadas hipóteses legais de sigilo.
+No regime geral, a divulgação deve ocorrer em até:
 
-### 5.1 Termo de contrato e instrumento equivalente
+- **20 dias úteis**, se o contrato decorrer de licitação;
+- **10 dias úteis**, se decorrer de contratação direta.
 
-O instrumento de contrato é a regra. O art. 95 admite sua substituição por instrumento hábil — como carta-contrato, nota de empenho, autorização de compra ou ordem de execução — em duas situações principais:
+Na contratação urgente, o contrato produz efeitos desde a assinatura, mas continua sujeito à divulgação no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> no prazo legal.
 
-1. **dispensa de licitação em razão do valor**;
-2. **compra com entrega imediata e integral**, sem obrigações futuras, inclusive assistência técnica, independentemente do valor.
+### 3.3. Vigência: não existe a fórmula “todo contrato dura um ano”
 
-Mesmo nessas hipóteses, as cláusulas necessárias aplicam-se no que couber.
+O artigo 105 parte da duração prevista no edital. Na contratação e em cada exercício financeiro, observam-se a disponibilidade de créditos orçamentários e, quando o contrato ultrapassar um exercício, a previsão no plano plurianual (<abbr title="Plano Plurianual">PPA</abbr>) quando a duração ultrapassar um exercício financeiro.
 
-### 5.2 Contrato verbal
+Alguns marcos ajudam a reconhecer as hipóteses mais cobradas:
 
-Contrato verbal com a Administração é, como regra, **nulo e sem efeito**. A lei excepciona pequenas compras ou serviços de pronto pagamento dentro do limite legal atualizado.
+| Hipótese | Duração relevante |
+|---|---:|
+| serviços e fornecimentos contínuos | contrato de até **5 anos**, observadas as condições legais |
+| prorrogações sucessivas desses contratos | vigência máxima de **10 anos**, se houver previsão e vantagem para a Administração |
+| operação continuada de sistemas estruturantes de tecnologia da informação | vigência máxima de **15 anos** |
 
-A exceção é estreita. Não serve para validar contratação complexa executada sem instrumento formal.
+Portanto, cinco anos não é um limite universal de todo contrato; é um regime específico dentro de uma lei que prevê durações diferentes conforme o objeto e a estrutura econômica do ajuste.
 
-### 5.3 Divulgação no PNCP
+### 3.4. Execução: fiscalizar não é executar no lugar do contratado
 
-A divulgação no **Portal Nacional de Contratações Públicas (PNCP)** é condição indispensável para a eficácia do contrato e de seus aditamentos.
+O artigo 115 impõe às **duas partes** a execução fiel do contrato conforme suas cláusulas e a Lei. Cada uma responde pelas consequências de sua inexecução total ou parcial.
 
-No regime geral:
+Retome o exemplo hipotético da manutenção predial. Se a empresa entrega serviço defeituoso, a primeira pergunta é se ela cumpriu a obrigação pactuada. A fiscalização identifica e registra o desvio; não transforma automaticamente a obrigação contratada em outra.
 
-- contrato decorrente de licitação: divulgação em até **20 dias úteis** da assinatura;
-- contratação direta: divulgação em até **10 dias úteis** da assinatura.
+A execução deve ser acompanhada e fiscalizada por um ou mais **fiscais do contrato**, representantes da Administração especialmente designados. O fiscal acompanha, registra ocorrências, determina correções dentro de sua competência e leva à autoridade competente o que exigir decisão superior.
 
-Na contratação urgente, o contrato produz efeitos desde a assinatura, mas continua sujeito à divulgação no prazo legal.
+Do outro lado está o **preposto**: representante do contratado, aceito pela Administração, mantido no local da obra ou do serviço para representar a empresa na execução.
 
-> **Pegadinha:** assinatura, validade e eficácia não devem ser tratadas como palavras intercambiáveis. A publicidade no PNCP possui função jurídica específica.
+| Figura | Representa quem? | Função central |
+|---|---|---|
+| fiscal | Administração | acompanhar, registrar e exigir providências dentro de sua competência |
+| preposto | contratado | representar a empresa durante a execução |
 
----
+A fiscalização administrativa **não exclui nem reduz** a responsabilidade do contratado pelos vícios, defeitos, danos e demais obrigações que lhe sejam imputáveis.
 
-## 6. Vigência e duração
+### 3.5. Alterar o contrato é diferente de exigir que ele seja cumprido
 
-A Lei nº 14.133/2021 substituiu a antiga ideia simplificadora de que todo contrato administrativo estaria rigidamente preso ao exercício financeiro.
+Se o serviço foi executado com defeito, em princípio há problema de **execução**. Se a própria obrigação precisa mudar validamente, surge uma **alteração contratual**.
 
-O art. 105 determina que a duração seja a prevista em edital. No momento da contratação e a cada exercício financeiro, devem ser observados:
+A Lei nº 14.133/2021 separa duas vias principais.
 
-- a disponibilidade de créditos orçamentários;
-- a previsão no plano plurianual, quando o contrato ultrapassar um exercício financeiro.
+**Alteração unilateral**, nas hipóteses legais:
 
-### 6.1 Serviços e fornecimentos contínuos
-
-A Administração pode celebrar contratos de serviços e fornecimentos contínuos por prazo de até **cinco anos**, desde que atendidas as exigências legais de vantagem econômica e disponibilidade orçamentária.
-
-Esses contratos podem ser prorrogados sucessivamente, respeitada a **vigência máxima decenal**, desde que:
-
-- haja previsão em edital;
-- a autoridade competente ateste que as condições e os preços permanecem vantajosos;
-- seja admitida negociação com o contratado ou a extinção sem ônus quando não houver vantagem.
-
-### 6.2 Hipóteses especiais
-
-A Lei prevê durações próprias para certas hipóteses. Um exemplo de alta memorização é o contrato que prevê a operação continuada de **sistemas estruturantes de tecnologia da informação**, cuja vigência máxima pode chegar a **15 anos**.
-
-> **Dica:** não decore “todo contrato = 5 anos”. Cinco anos é referência importante para serviços e fornecimentos contínuos, mas a Lei contém regimes distintos.
-
----
-
-## 7. Execução do contrato
-
-O art. 115 traz a regra-base:
-
-> o contrato deve ser executado fielmente pelas partes conforme as cláusulas e a Lei, e cada parte responde pelas consequências de sua inexecução total ou parcial.
-
-Isso produz consequências importantes:
-
-- a Administração também está vinculada ao contrato;
-- o contratado não responde apenas por abandono total;
-- execução tardia, incompleta ou defeituosa pode gerar consequências;
-- mudança de gestão pública não autoriza paralisação imotivada.
-
-### 7.1 Fiscalização
-
-A execução deve ser acompanhada e fiscalizada por **um ou mais fiscais do contrato**, especialmente designados.
-
-O fiscal:
-
-- registra ocorrências;
-- determina correções dentro de sua competência;
-- informa situações que exijam decisão superior.
-
-A Administração pode contratar terceiro para assistir e subsidiar o fiscal, mas não transfere a esse terceiro a competência decisória própria do agente público.
-
-### 7.2 Preposto
-
-O contratado deve manter **preposto aceito pela Administração** no local da obra ou do serviço para representá-lo na execução.
-
-Não confunda:
-
-| Figura | Função |
-|---|---|
-| fiscal | representante da Administração no acompanhamento |
-| preposto | representante operacional do contratado |
-
-### 7.3 Responsabilidade do contratado
-
-A fiscalização administrativa **não exclui nem reduz** a responsabilidade do contratado por vícios, defeitos, danos e demais obrigações que a lei lhe atribua.
-
----
-
-## 8. Alterações contratuais
-
-A Lei nº 14.133/2021 divide as alterações, em linhas gerais, entre:
-
-- **unilaterais**, impostas pela Administração nas hipóteses legais;
-- **consensuais**, realizadas por acordo entre as partes.
-
-Toda alteração deve ser juridicamente justificada.
-
-### 8.1 Alteração unilateral
-
-A Administração pode alterar unilateralmente:
-
-- **qualitativamente**, para melhor adequação técnica do projeto ou das especificações;
-- **quantitativamente**, em razão de acréscimo ou diminuição do objeto.
+- **qualitativa**: mudança do projeto ou das especificações para melhor adequação técnica aos objetivos;
+- **quantitativa**: acréscimo ou diminuição da quantidade do objeto.
 
 O contratado deve aceitar, nas mesmas condições contratuais:
 
 - acréscimos ou supressões de até **25%** do valor inicial atualizado;
 - em **reforma de edifício ou equipamento**, acréscimos de até **50%**.
 
-A exceção de 50% refere-se **a acréscimos**, não a supressões.
+O limite especial de 50% vale para **acréscimos**, não para supressões. E nenhum percentual autoriza a Administração a **transfigurar o objeto** da contratação.
 
-Além disso, alteração unilateral **não pode transfigurar o objeto**.
+**Alteração por acordo** pode ser usada, entre outras hipóteses, para substituir garantia, modificar regime de execução ou forma de fornecimento quando a solução original se tornar tecnicamente inadequada, ajustar a forma de pagamento diante de circunstância superveniente ou restabelecer o equilíbrio econômico-financeiro nos casos legais.
 
-### 8.2 Alteração por acordo
+Se uma alteração unilateral repercutir nos encargos do contratado, o equilíbrio econômico-financeiro inicial deve ser restabelecido **no mesmo termo aditivo**.
 
-A lei admite alteração consensual, por exemplo, para:
+Nem todo registro exige termo aditivo. A **apostila** é o registro administrativo usado para fatos que não caracterizam alteração do contrato, como reajuste ou <abbr title="revisão analítica da variação de custos em contratos que a admitem">repactuação</abbr> já previstos, certas atualizações financeiras, mudança de razão ou denominação social e empenho de dotações orçamentárias.
 
-- substituir a garantia;
-- modificar regime de execução ou forma de fornecimento quando tecnicamente inaplicável o originalmente previsto;
-- modificar a forma de pagamento por circunstâncias supervenientes, preservado o valor inicial atualizado;
-- restabelecer o equilíbrio econômico-financeiro diante de eventos legalmente qualificados.
+### 3.6. Inexecução e extinção: terminar o vínculo não é o mesmo que punir
 
-### 8.3 Equilíbrio econômico-financeiro
+A inexecução pode ser **total ou parcial**. A resposta depende da natureza e da gravidade do descumprimento: pode haver correção, reparação de prejuízos, execução de garantia, sanção, extinção ou outras medidas cabíveis.
 
-A equação econômico-financeira é protegida. Se alteração unilateral aumentar ou diminuir encargos do contratado, o equilíbrio deve ser restabelecido no mesmo termo aditivo.
+O edital usa a palavra **rescisão**, tradicional na matéria. A Lei nº 14.133/2021 organiza os artigos 137 a 139 sob a expressão **extinção do contrato**. Para a prova, reconheça a correspondência temática sem importar automaticamente o regime terminológico da legislação antiga.
 
-A extinção do contrato não impede, por si só, o reconhecimento posterior de desequilíbrio, desde que o pedido tenha sido formulado no momento juridicamente adequado.
+O artigo 137 exige que os motivos de extinção sejam **formalmente motivados nos autos**, com contraditório e ampla defesa — direito de conhecer e contestar a imputação e de usar os meios de defesa admitidos. Entre eles aparecem descumprimento de cláusulas e prazos, desatendimento de determinações regulares da fiscalização, perda da capacidade de concluir o contrato, eventos impeditivos comprovados e razões de interesse público justificadas.
 
-### 8.4 Termo aditivo × apostila
+A própria conduta administrativa também pode criar hipóteses em que o contratado tenha direito à extinção, como supressão acima do limite legal, suspensões administrativas ou atrasos de pagamento nas condições previstas em lei e não liberação de área necessária à execução.
 
-Nem toda variação exige termo aditivo.
+O artigo 138 prevê três caminhos para extinguir antecipadamente o vínculo:
 
-A **apostila** pode registrar situações que não caracterizam alteração do contrato, como:
-
-- reajuste ou repactuação já previstos;
-- atualizações, compensações ou penalizações financeiras decorrentes das condições de pagamento;
-- alteração de razão ou denominação social;
-- empenho de dotações orçamentárias.
-
-> **Pegadinha:** apostila não é atalho para realizar alteração qualitativa ou quantitativa que exige aditivo.
-
----
-
-## 9. Inexecução
-
-A inexecução pode ser:
-
-- **total** — quando a obrigação é descumprida em extensão essencial;
-- **parcial** — quando o contrato é executado de forma incompleta, irregular, tardia ou defeituosa.
-
-A consequência não é automaticamente uma única sanção. Dependendo do caso, podem coexistir:
-
-- exigência de correção;
-- responsabilidade por perdas e danos;
-- sanções administrativas;
-- execução de garantia;
-- extinção contratual;
-- outras medidas legalmente cabíveis.
-
-A resposta administrativa deve observar competência, motivação, proporcionalidade e garantias processuais.
-
----
-
-## 10. “Rescisão” no edital e extinção na Lei nº 14.133/2021
-
-A Lei nº 14.133/2021 estrutura o tema sob o título **hipóteses de extinção dos contratos**.
-
-O art. 137 exige que os motivos de extinção sejam **formalmente motivados nos autos**, assegurados **contraditório e ampla defesa**.
-
-Entre os motivos estão:
-
-- descumprimento ou cumprimento irregular de normas do edital ou cláusulas;
-- desatendimento de determinações regulares da fiscalização;
-- alteração empresarial que restrinja a capacidade de concluir o contrato;
-- falência, insolvência, dissolução ou falecimento do contratado;
-- caso fortuito ou força maior impeditivos;
-- hipóteses ambientais ou de liberação de áreas previstas em lei;
-- razões de interesse público justificadas;
-- descumprimento das reservas legais de cargos.
-
-### 10.1 Direito do contratado à extinção
-
-A lei também prevê situações em que o **contratado** tem direito à extinção, como, entre outras:
-
-- supressão além do limite legal;
-- suspensão da execução pela Administração por prazo superior ao permitido;
-- suspensões repetidas dentro do limite temporal previsto na lei;
-- atraso de pagamento superior ao prazo legal;
-- não liberação de área, local ou objeto necessários à execução.
-
-### 10.2 Formas de extinção
-
-O art. 138 admite:
-
-| Forma | Núcleo |
+| Forma | Como ocorre |
 |---|---|
-| **ato unilateral e escrito da Administração** | nos casos legais, desde que o descumprimento não decorra da própria conduta administrativa |
+| **unilateral** | ato escrito da Administração, salvo quando o descumprimento decorrer de sua própria conduta |
 | **consensual** | acordo, conciliação, mediação ou comitê de resolução de disputas, se houver interesse da Administração |
-| **decisão externa** | decisão arbitral ou judicial |
+| **decisão externa** | decisão arbitral — tomada por árbitro na forma admitida pela lei — ou decisão judicial |
 
-A extinção unilateral e a consensual dependem de autorização escrita e fundamentada da autoridade competente e devem ser reduzidas a termo no processo.
+A extinção encerra o vínculo; a **sanção** pune uma infração. O mesmo fato pode justificar ambas, mas um instituto não substitui o processo exigido para o outro.
 
-### 10.3 Consequências
+## 4. Consórcios públicos: quando cooperar exige criar uma nova pessoa jurídica
 
-A extinção unilateral pode, conforme o caso, levar a:
+O artigo 241 da Constituição permite a gestão associada de serviços públicos por mecanismos de cooperação entre entes federativos. A Lei nº 11.107/2005 disciplina o **consórcio público** como instrumento de cooperação institucionalizada.
 
-- assunção imediata do objeto;
-- ocupação e utilização de instalações, equipamentos, materiais e pessoal necessários à continuidade;
-- execução da garantia;
-- retenção de créditos até o limite dos prejuízos e multas.
+A diferença estrutural é decisiva: o consórcio público **cria uma pessoa jurídica** formada exclusivamente por entes da Federação para perseguir objetivos de interesse comum. Ele não se confunde com o consórcio empresarial formado por licitantes para disputar uma contratação.
 
-Extinção e sanção são institutos diferentes. O fim do vínculo não substitui o procedimento necessário para punir infração.
+### 4.1. Duas formas jurídicas, ambas com sujeições públicas
 
----
+O consórcio pode constituir-se como:
 
-# Parte II — Consórcios públicos
-
-## 11. Fundamento constitucional e legal
-
-A Constituição, no art. 241, prevê disciplina legal para **consórcios públicos** e **convênios de cooperação** entre os entes federados, permitindo a gestão associada de serviços públicos e a transferência de encargos, serviços, pessoal e bens essenciais à continuidade dos serviços.
-
-A disciplina geral está principalmente em:
-
-- **Lei nº 11.107/2005**;
-- **Decreto nº 6.017/2007**.
-
-A Lei nº 11.107/2005 trata de normas gerais para União, estados, Distrito Federal e municípios contratarem consórcios públicos para objetivos de interesse comum.
-
----
-
-## 12. Conceito de consórcio público
-
-O Decreto nº 6.017/2007 define consórcio público como pessoa jurídica formada **exclusivamente por entes da Federação** para estabelecer relações de cooperação federativa, inclusive para objetivos de interesse comum.
-
-O consórcio pode assumir duas formas:
-
-1. **associação pública**, com personalidade jurídica de direito público e natureza autárquica;
+1. **associação pública**, pessoa jurídica de direito público com natureza autárquica;
 2. pessoa jurídica de **direito privado sem fins econômicos**.
 
-> **Pegadinha:** consórcio público da Lei nº 11.107/2005 não é o mesmo que consórcio empresarial de licitantes.
+A associação pública integra a **administração indireta** — conjunto de entidades com personalidade jurídica própria vinculadas aos entes públicos — de **todos os entes consorciados**.
 
-### 12.1 Associação pública
+Seja de direito público ou privado, o consórcio observa normas de direito público quanto a licitação, contratos, prestação de contas e admissão de pessoal; seu pessoal é regido pela Consolidação das Leis do Trabalho (<abbr title="Consolidação das Leis do Trabalho">CLT</abbr>).
 
-Quando constituído como associação pública:
-
-- adquire personalidade de direito público conforme a Lei;
-- integra a **administração indireta de todos os entes federativos consorciados**.
-
-### 12.2 Pessoa jurídica de direito privado
-
-Mesmo quando possui personalidade de direito privado, o consórcio público deve observar normas de direito público quanto a:
-
-- licitações;
-- celebração de contratos;
-- prestação de contas;
-- admissão de pessoal.
-
-O pessoal do consórcio é regido pela <abbr title="Consolidação das Leis do Trabalho">CLT</abbr>, conforme a legislação aplicável.
-
----
-
-## 13. Formação do consórcio: fluxo de prova
+### 4.2. Formação: protocolo antes de personalidade
 
 O fluxo básico é:
 
-`PROTOCOLO DE INTENÇÕES → PUBLICAÇÃO → RATIFICAÇÃO POR LEI → CONTRATO DE CONSÓRCIO → PERSONALIDADE JURÍDICA`
+**protocolo de intenções → publicação → ratificação por lei → contrato de consórcio → personalidade jurídica**.
 
-### 13.1 Protocolo de intenções
+O **protocolo de intenções** é o documento prévio que identifica, entre outros elementos, participantes, finalidade, área de atuação, forma jurídica, regras da assembleia geral e representação. Ele deve ser publicado na imprensa oficial.
 
-A celebração do contrato depende da prévia subscrição de **protocolo de intenções**.
+Em regra, cada ente ratifica o protocolo **mediante lei**. A ratificação é dispensada para o ente que, antes de subscrever o protocolo, já tenha disciplinado por lei sua participação. Se a ratificação ocorrer mais de dois anos depois da subscrição, depende de homologação da assembleia geral.
 
-Esse protocolo contém cláusulas essenciais, como:
+A personalidade nasce de modo diferente conforme a forma escolhida:
 
-- denominação, finalidade, prazo e sede;
-- entes participantes;
-- área de atuação;
-- forma jurídica;
-- regras da assembleia geral;
-- representação legal;
-- estrutura de pessoal;
-- condições para gestão associada, quando houver.
+- na associação pública, com a vigência das leis de ratificação, na forma legal;
+- na pessoa jurídica privada, com o atendimento das exigências da legislação civil.
 
-O protocolo deve ser publicado na imprensa oficial.
+### 4.3. Quem decide e quem representa
 
-### 13.2 Ratificação
+A **assembleia geral** é a instância máxima do consórcio. Seu representante legal deve ser, obrigatoriamente, Chefe do Poder Executivo de ente federativo consorciado.
 
-O contrato de consórcio é celebrado mediante **ratificação, por lei, do protocolo de intenções**.
+Para cumprir seus objetivos, o consórcio pode celebrar contratos, convênios e acordos e, nos termos legais, pode ser contratado pela Administração direta ou indireta dos próprios entes consorciados com **dispensa de licitação**. Dispensa não significa ausência de instrumento, processo ou controle.
 
-Há exceção importante: a ratificação é dispensada para o ente que, **antes de subscrever o protocolo**, já tenha disciplinado por lei sua participação no consórcio.
+### 4.4. Rateio e programa resolvem problemas diferentes
 
-Se a ratificação ocorrer mais de dois anos depois da subscrição do protocolo, depende de homologação da assembleia geral.
+Dois instrumentos não devem ser confundidos.
 
-### 13.3 Aquisição da personalidade jurídica
+**Contrato de rateio** é o meio pelo qual os entes consorciados entregam recursos financeiros ao consórcio. Ele é formalizado em cada exercício financeiro e, em regra, sua vigência não ultrapassa a das dotações que o sustentam, ressalvada a hipótese em que o objeto seja exclusivamente projeto consistente em programa ou ação contemplado no <abbr title="Plano Plurianual">PPA</abbr>. Os recursos de rateio não podem ser aplicados em despesas genéricas.
 
-O consórcio adquire personalidade:
+**Contrato de programa** disciplina obrigações assumidas no âmbito da gestão associada de serviços públicos, inclusive prestação de serviços e transferência de encargos, serviços, pessoal ou bens necessários à continuidade. A Lei nº 14.133/2021 prevê dispensa de licitação para sua celebração com ente federativo ou entidade de sua Administração indireta nas condições do artigo 75, XI.
 
-- **de direito público**, como associação pública, com a vigência das leis de ratificação;
-- **de direito privado**, mediante atendimento às exigências da legislação civil.
+Há disciplina setorial relevante: a Lei nº 11.107/2005 veda novos contratos de programa para prestação de serviços públicos de saneamento básico.
 
----
+### 4.5. Sair, excluir, alterar e extinguir não são o mesmo ato
 
-## 14. Organização e assembleia geral
+Nenhum ente é obrigado a permanecer consorciado. A **retirada** depende de ato formal e não elimina automaticamente obrigações já constituídas.
 
-A **assembleia geral** é a instância máxima do consórcio.
+A **exclusão** exige justa causa e processo administrativo com contraditório e ampla defesa. A disciplina legal também trata da insuficiência de recursos necessários ao contrato de rateio como situação que pode conduzir, nas condições previstas, à suspensão e à exclusão.
 
-O representante legal do consórcio deve ser, obrigatoriamente, **Chefe do Poder Executivo de ente federativo consorciado**.
+A atualização de 2023 criou uma pegadinha normativa importante:
 
-O contrato e os estatutos disciplinam estrutura, funcionamento, deliberações e competências, respeitando a legislação.
+- **alteração** do contrato de consórcio: instrumento aprovado pela assembleia geral e ratificado mediante lei pela **maioria** dos entes consorciados;
+- **extinção** do contrato de consórcio: instrumento aprovado pela assembleia geral e ratificado mediante lei por **todos** os entes consorciados.
 
----
+O artigo 29 do Decreto nº 6.017/2007 conserva a redação anterior e ainda menciona ratificação por todos também para alteração. Nesse ponto, prevalece a Lei nº 11.107/2005 com a redação dada pela Lei nº 14.662/2023.
 
-## 15. Capacidades do consórcio
+## 5. Convênios: cooperação não é compra disfarçada
 
-Para cumprir seus objetivos, o consórcio pode, dentro da lei:
+Volte às situações iniciais. Se um órgão precisa receber uma prestação específica e paga a outra parte por ela, a estrutura se aproxima do contrato. Se os participantes reúnem capacidades e recursos para realizar **um objetivo comum**, a estrutura tende à cooperação.
 
-- firmar convênios, contratos e acordos;
-- receber auxílios, contribuições e subvenções;
-- exercer certas competências ligadas à gestão associada quando autorizadas;
-- ser contratado pela administração direta ou indireta dos entes consorciados, **dispensada a licitação**, nos termos da Lei nº 11.107/2005;
-- realizar atividades compatíveis com o contrato de consórcio e a legislação.
+Essa é a distinção material útil para prova:
 
-A dispensa não transforma todo relacionamento do consórcio em contratação informal. O ajuste deve continuar juridicamente formalizado e controlável.
+| Contrato administrativo | Convênio |
+|---|---|
+| obrigações recíprocas organizadas em torno da prestação contratada | colaboração para finalidade comum |
+| há contraprestação típica pelo objeto contratado | eventual transferência de recursos serve ao objetivo comum |
+| sujeitos são partes contratuais | sujeitos são participantes cooperantes |
 
----
+O nome dado ao documento não decide a natureza do vínculo. Chamar uma compra de “convênio” não elimina a lógica contratual se, materialmente, uma parte estiver adquirindo prestação da outra.
 
-## 16. Contrato de rateio
+### 5.1. O artigo 184 da Lei nº 14.133/2021 não transforma todo convênio em contrato
 
-Os entes consorciados entregam recursos financeiros ao consórcio por meio de **contrato de rateio**.
+O artigo 184 determina que as disposições da Lei nº 14.133/2021 se apliquem, **no que couber e na ausência de norma específica**, aos convênios, acordos, ajustes e outros **instrumentos congêneres**, isto é, ajustes de natureza semelhante sujeitos ao regime compatível, celebrados por órgãos e entidades da Administração.
 
-Ele deve ser formalizado em cada exercício financeiro.
+A ordem de raciocínio é:
 
-Em regra, sua vigência não pode ultrapassar a das dotações que lhe dão suporte, exceto quando o objeto for exclusivamente projeto consistente em programa ou ação contemplado em plano plurianual.
+1. identificar a natureza cooperativa do ajuste;
+2. verificar se existe norma específica;
+3. aplicar primeiro essa disciplina;
+4. usar a Lei nº 14.133/2021 apenas no que for compatível e necessário.
 
-É vedada a aplicação dos recursos entregues por rateio em **despesas genéricas**.
+### 5.2. O Decreto nº 11.531/2023 é referência federal, não regra universal do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>
 
-O consórcio também deve fornecer informações para que receitas e despesas sejam corretamente consolidadas nas contas dos entes consorciados.
+O Decreto nº 11.531/2023 regula, no âmbito federal, transferências de recursos da União e certas parcerias sem transferência financeira.
 
-> **Pegadinha:** contrato de rateio não é sinônimo de contrato de programa.
+Nesse âmbito, ele distingue:
 
----
-
-## 17. Contrato de programa
-
-O **contrato de programa** disciplina obrigações assumidas no âmbito da gestão associada quando houver:
-
-- prestação de serviços públicos; ou
-- transferência total ou parcial de encargos, serviços, pessoal ou bens necessários à continuidade dos serviços.
-
-A Lei nº 14.133/2021 prevê hipótese de dispensa para celebração de contrato de programa com ente federativo ou entidade de sua administração indireta envolvendo prestação associada de serviços públicos nos termos autorizados em contrato de consórcio ou convênio de cooperação.
-
-No saneamento básico existe disciplina especial: a Lei nº 11.107/2005 veda a formalização de **novos contratos de programa** para prestação de serviços públicos de saneamento básico, em razão da legislação setorial.
-
----
-
-## 18. Retirada, exclusão, alteração e extinção do consórcio
-
-Nenhum ente pode ser obrigado a se consorciar ou a permanecer consorciado.
-
-### 18.1 Retirada
-
-A retirada depende de ato formal do representante do ente na assembleia geral, conforme disciplina legal.
-
-A retirada não apaga automaticamente obrigações já constituídas.
-
-### 18.2 Exclusão
-
-A exclusão exige **justa causa** e processo administrativo com contraditório e ampla defesa.
-
-A insuficiência das dotações necessárias ao contrato de rateio pode, nas condições legais, justificar suspensão prévia e posterior exclusão.
-
-### 18.3 Alteração × extinção: atenção à Lei nº 14.662/2023
-
-Este é um ponto de atualização relevante.
-
-A redação atual da **Lei nº 11.107/2005** distingue:
-
-- **extinção** do contrato de consórcio: instrumento aprovado pela assembleia geral e ratificado mediante lei por **todos** os entes consorciados;
-- **alteração** do contrato de consórcio: instrumento aprovado pela assembleia geral e ratificado mediante lei pela **maioria** dos entes consorciados.
-
-O Decreto nº 6.017/2007 conserva redação anterior em seu art. 29, ainda falando em ratificação por todos para alteração e extinção. Nesse conflito temporal, prevalece a **lei posterior**.
-
-> **Pegadinha forte:** não reproduza mecanicamente o art. 29 do Decreto nº 6.017/2007 sem confrontá-lo com os arts. 12 e 12-A da Lei nº 11.107/2005 após a Lei nº 14.662/2023.
-
----
-
-# Parte III — Convênios e instrumentos congêneres
-
-## 19. Contrato × convênio
-
-A distinção mais importante é a estrutura dos interesses.
-
-### Contrato administrativo
-
-No contrato, em regra:
-
-- existem posições contrapostas e complementares;
-- uma parte pretende receber a prestação;
-- a outra recebe a contraprestação;
-- há relação sinalagmática típica.
-
-### Convênio
-
-No convênio, em regra:
-
-- há **interesse recíproco**;
-- os partícipes cooperam para objetivo comum;
-- não se organiza a relação como simples compra de prestação de um pelo outro.
-
-| Critério | Contrato | Convênio |
-|---|---|---|
-| lógica | troca de prestações | cooperação |
-| interesses | contrapostos/complementares | convergentes |
-| remuneração | contraprestação típica | recursos vinculados ao objeto comum, quando houver transferência |
-| participantes | partes | partícipes |
-| finalidade | obtenção da prestação contratada | execução de objetivo comum |
-
-> **Pegadinha:** dar ao instrumento o nome “convênio” não transforma em cooperação uma relação que materialmente é contratação de prestação.
-
----
-
-## 20. Lei nº 14.133/2021 e convênios
-
-O art. 184 da Lei nº 14.133/2021 determina que suas disposições se aplicam, **no que couber e na ausência de norma específica**, aos:
-
-- convênios;
-- acordos;
-- ajustes;
-- outros instrumentos congêneres celebrados por órgãos e entidades da Administração Pública.
-
-A aplicação, portanto, não é automática e integral.
-
-A sequência de prova é:
-
-1. verificar se existe **norma específica**;
-2. aplicar essa disciplina própria;
-3. utilizar a Lei nº 14.133/2021 no que couber para preencher o regime.
-
----
-
-## 21. Regulação federal dos convênios
-
-No âmbito das **transferências de recursos da União**, o Decreto nº 11.531/2023 regulamenta convênios e contratos de repasse e também certas parcerias sem transferência de recursos.
-
-Ele define, para seu âmbito:
-
-- **convênio**: instrumento de transferência de recursos financeiros da União para programas, projetos ou atividades de interesse recíproco e mútua colaboração;
-- **contrato de repasse**: instrumento de interesse recíproco em que a transferência é processada por instituição ou agente financeiro oficial federal como mandatário da União;
+- **convênio**: transferência de recursos da União para programa, projeto ou atividade de interesse recíproco e mútua colaboração;
+- **contrato de repasse**: cooperação semelhante, mas com transferência processada por instituição ou agente financeiro oficial federal como <abbr title="instituição que atua em nome da União na operacionalização">mandatário da União</abbr>;
 - **acordo de cooperação técnica** e **acordo de adesão**: instrumentos cooperativos sem transferência de recursos, nas hipóteses regulamentadas.
 
-> **Atenção:** o Decreto nº 11.531/2023 é federal. Ele não deve ser apresentado como regulamento geral automaticamente aplicável a todo convênio do TCE/MA.
+Essas definições ajudam a reconhecer institutos, mas o decreto federal não deve ser transplantado automaticamente como regulamento geral de qualquer convênio estadual ou municipal.
 
----
+### 5.3. Convênio de cooperação e consórcio público: o divisor é a pessoa jurídica
 
-## 22. Convênios de cooperação entre entes federativos
+O artigo 241 da Constituição também contempla **convênios de cooperação** entre entes federativos para gestão associada de serviços públicos. A Lei nº 11.107/2005 aplica-se a esses convênios no que couber.
 
-Os **convênios de cooperação** do art. 241 da Constituição inserem-se no tema da cooperação federativa e da gestão associada de serviços públicos.
+A diferença estrutural pode ser resumida assim:
 
-A Lei nº 11.107/2005 determina que, no que couber, suas disposições relativas aos consórcios públicos também se aplicam aos convênios de cooperação.
+- **consórcio público** → cria nova pessoa jurídica;
+- **convênio de cooperação** → é um ajuste entre entes e não cria, por si só, nova pessoa jurídica.
 
-Consórcio e convênio de cooperação não são idênticos:
+A expressão **instrumentos congêneres** funciona como categoria para outros ajustes cooperativos sujeitos a disciplina própria. Por isso, em prova, a natureza da relação vem antes do nome do documento.
 
-- o consórcio cria uma **nova pessoa jurídica**;
-- o convênio de cooperação é um **ajuste** entre entes, sem criar, por si só, nova pessoa jurídica.
+## 6. Roteiro para resolver questões sem misturar os institutos
 
----
+Quando a questão apresentar um ajuste administrativo, siga esta ordem:
 
-## 23. Instrumentos congêneres
+1. **Há compra de uma prestação ou objetivo comum?** Compra aponta para contrato; objetivo comum aponta para cooperação.
+2. **O ajuste cria nova pessoa jurídica formada por entes federativos?** Se sim, pense em consórcio público.
+3. **Se for contrato, em que etapa está o problema?** Formação, eficácia, duração, execução, alteração, inexecução ou extinção.
+4. **A Administração quer usar uma prerrogativa unilateral?** Verifique fundamento legal, limite e preservação do equilíbrio econômico-financeiro.
+5. **A questão fala em alteração de quantidade?** Regra de 25%; em reforma, 50% apenas para acréscimos; nunca transfigure o objeto.
+6. **A questão usa “rescisão”?** Reconheça que a Lei nº 14.133/2021 trata a matéria como extinção nos artigos 137 a 139.
+7. **No consórcio, é alteração ou extinção do contrato constitutivo?** Alteração: maioria; extinção: todos.
+8. **No convênio, existe norma específica?** Ela vem primeiro; a Lei nº 14.133/2021 entra no que couber.
+9. **A regra citada é de decreto federal?** Confirme o âmbito antes de aplicá-la ao ente da questão.
 
-A expressão **instrumentos congêneres** funciona como categoria aberta para ajustes cooperativos que se aproximam dos convênios, mas possuem denominação e disciplina específicas.
+## 7. Corte normativo
 
-A prova deve ser resolvida pela **natureza do vínculo**, não apenas pelo nome.
-
-Pergunte:
-
-1. há aquisição de prestação mediante contraprestação? → tendência contratual;
-2. há objetivo comum e colaboração? → tendência cooperativa;
-3. existe lei ou regulamento especial? → essa norma específica prevalece;
-4. há criação de nova pessoa jurídica? → pode haver consórcio público, não simples convênio.
-
----
-
-## 24. Matriz integrada
-
-| Instituto | Cria pessoa jurídica? | Núcleo | Regime-base |
-|---|---:|---|---|
-| contrato administrativo | não | troca de prestações sob regime público | Lei nº 14.133/2021 |
-| consórcio público | **sim** | cooperação federativa institucionalizada | Lei nº 11.107/2005 + Decreto nº 6.017/2007 |
-| contrato de rateio | não | transferência de recursos dos consorciados ao consórcio | Lei nº 11.107/2005 + Decreto nº 6.017/2007 |
-| contrato de programa | não | obrigações da gestão associada de serviços | Lei nº 11.107/2005 e legislação correlata |
-| convênio | não | interesse recíproco e mútua colaboração | norma específica + art. 184 da Lei nº 14.133/2021 |
-| convênio de cooperação | não | cooperação federativa/gestão associada | <abbr title="Constituição Federal">CF</abbr>, art. 241 + Lei nº 11.107/2005 no que couber |
-| contrato de repasse federal | não | transferência com mandatária financeira da União | Decreto nº 11.531/2023, no âmbito federal |
-
----
-
-## 25. Pegadinhas finais
-
-1. **Direito privado é supletivo**, não predominante, nos contratos da Lei nº 14.133/2021.
-2. **Prerrogativa não elimina equilíbrio econômico-financeiro.**
-3. O limite de **50%** em reforma refere-se a **acréscimo**, não à supressão.
-4. Alteração unilateral não pode **transfigurar o objeto**.
-5. A Lei nº 14.133/2021 fala em **extinção**, embora o edital use “rescisão”.
-6. **Fiscal ≠ preposto**.
-7. Fiscalização não elimina responsabilidade do contratado.
-8. Consórcio público é formado **exclusivamente por entes federativos**.
-9. Associação pública integra a administração indireta de **todos** os consorciados.
-10. Consórcio privado continua sujeito a normas públicas em licitação, contratos, contas e pessoal.
-11. **Contrato de rateio ≠ contrato de programa.**
-12. Alteração do contrato de consórcio, após a Lei nº 14.662/2023, exige ratificação legal pela **maioria**; extinção, por **todos**.
-13. **Contrato ≠ convênio**: contraprestação e interesses complementares não se confundem com interesse recíproco e colaboração.
-14. O art. 184 aplica a Lei nº 14.133/2021 aos convênios **no que couber e na ausência de norma específica**.
-15. Decreto federal de convênios não deve ser automaticamente transplantado ao TCE/MA.
-
----
+Este capítulo considera a legislação vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A Lei nº 14.662/2023 já integra esse corte e deve prevalecer, no ponto em que alterou a Lei nº 11.107/2005, sobre a redação anterior ainda existente no Decreto nº 6.017/2007.
