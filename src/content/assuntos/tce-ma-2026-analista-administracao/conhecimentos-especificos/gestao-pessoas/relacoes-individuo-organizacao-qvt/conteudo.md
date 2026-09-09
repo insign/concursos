@@ -8,177 +8,211 @@ storageId: "gp-relacoes-qvt"
 
 # Relações indivíduo-organização e qualidade de vida
 
-## 1. Delimitação
+Uma servidora entra em uma unidade, recebe orientações incompatíveis, executa tarefas fragmentadas sem retorno claro, percebe critérios pouco transparentes para oportunidades e passa a trabalhar sob carga excessiva. A organização oferece uma atividade de relaxamento. **O problema está na pessoa ou na forma como pessoa, trabalho e organização se relacionam?**
 
-Este assunto cobre os **itens 4, 4.1 e 4.3 de Gestão de Pessoas do edital**: comportamento organizacional, relações indivíduo/organização e qualidade de vida. Liderança, motivação e desempenho ficam para o Assunto 145; competência interpessoal e conflitos, para o 146.
+O **comportamento organizacional** (<abbr title="Comportamento Organizacional">CO</abbr>) ajuda a responder porque examina fenômenos em níveis que se influenciam:
 
-**Comportamento organizacional (CO)** estuda como pessoas, grupos e características da organização se relacionam com comportamentos e resultados no trabalho. É uma abordagem **multinível**:
-
-| Nível | Exemplos de fenômenos |
+| Nível | Exemplos |
 | --- | --- |
-| indivíduo | percepções, atitudes, vínculos, expectativas e papéis |
-| grupo/equipe | interação, normas, comunicação, cooperação e conflitos |
-| organização | estrutura, cultura, políticas, práticas e condições de trabalho |
+| indivíduo | percepções, atitudes, expectativas, vínculos e papéis |
+| grupo ou equipe | normas, comunicação, cooperação, coordenação e conflitos |
+| organização | estrutura, cultura, políticas, processos, recursos e condições de trabalho |
 
-Os níveis interagem. Um problema observado em uma pessoa pode ter causas de equipe, processo ou organização; por isso, explicações exclusivamente individuais podem ser insuficientes.
+O <abbr title="Comportamento Organizacional">CO</abbr> é **multinível**: um problema observado no desempenho de uma pessoa pode ter causas de equipe, processo ou organização. A análise não deve parar no indivíduo.
 
-## 2. Troca, contribuições e incentivos
+## 1. Troca, reciprocidade e contrato psicológico
 
-O indivíduo oferece contribuições como trabalho, conhecimento, tempo, cooperação, criatividade e observância de regras. A organização oferece incentivos e condições como remuneração prevista, recursos, segurança, reconhecimento, desenvolvimento, tratamento justo e pertencimento.
+Pessoas oferecem contribuições como trabalho, conhecimento, tempo, cooperação, criatividade e observância de regras. A organização oferece incentivos e condições como remuneração prevista, recursos, segurança, reconhecimento, desenvolvimento, tratamento justo e pertencimento.
 
-O **equilíbrio organizacional** ocorre quando os incentivos são percebidos como suficientes para sustentar as contribuições necessárias à finalidade institucional. Não se trata de igualdade aritmética: valor, justiça e reciprocidade dependem da percepção e do contexto.
+Há **equilíbrio organizacional** quando os incentivos são percebidos como suficientes para sustentar as contribuições necessárias à finalidade institucional. Isso não exige igualdade aritmética: valor e justiça são percebidos no contexto.
 
-No setor público, expectativas e reciprocidade não afastam legalidade, impessoalidade, orçamento e finalidade pública. Expectativa subjetiva não cria, sozinha, vantagem funcional ou competência administrativa.
+**Reciprocidade** é a expectativa de correspondência entre contribuições e retornos. Ela pode favorecer confiança e cooperação, mas não legitima lealdade ilimitada. No setor público, expectativa ou confiança não afastam legalidade, impessoalidade, competência, orçamento e finalidade pública.
 
-## 3. Reciprocidade e contrato psicológico
+O **contrato psicológico** é o conjunto de crenças de uma pessoa sobre promessas e obrigações recíprocas entre ela e a organização. Pode ser influenciado por mensagens, práticas e experiências e não se confunde com lei, estatuto, regulamento ou contrato jurídico.
 
-**Reciprocidade** é a expectativa de correspondência entre contribuições e retornos. Suporte e cumprimento de compromissos podem fortalecer obrigação recíproca percebida, sem legitimar lealdade ilimitada.
+| Situação | Núcleo |
+| --- | --- |
+| cumprimento | percepção de que a obrigação esperada foi atendida |
+| quebra | avaliação cognitiva de que uma promessa ou obrigação percebida não foi cumprida |
+| violação | reação afetiva intensa à quebra, como indignação ou sensação de traição |
 
-**Contrato psicológico** é o conjunto de crenças individuais sobre promessas, obrigações e expectativas recíprocas. Ele é subjetivo, pode variar entre pessoas e não se confunde com lei, estatuto, regulamento ou contrato jurídico.
+Quebra e violação, portanto, não são sinônimos: uma é a avaliação de descumprimento; a outra é a reação emocional intensa associada a ele. Nenhuma transforma automaticamente expectativa subjetiva em direito.
 
-Distinguem-se:
+## 2. Socialização: aprender como participar da organização
 
-- **cumprimento:** percepção de que as obrigações foram atendidas;
-- **quebra:** avaliação cognitiva de que houve descumprimento;
-- **violação:** reação afetiva intensa à quebra, como indignação ou sensação de traição.
+**Socialização organizacional** é o processo pelo qual a pessoa aprende cultura, normas, papéis, procedimentos, relações e conhecimentos necessários à participação. Um evento de boas-vindas pode ajudar, mas não esgota o processo.
 
-Comunicação clara reduz interpretações divergentes, mas não transforma toda expectativa em direito adquirido.
+Na prática, socialização envolve acesso a recursos, clareza sobre responsabilidades e prioridades, aprendizagem de normas e redes, acompanhamento e <abbr title="Retorno sobre execução e resultados">feedback</abbr>. Van Maanen e Schein mostram que essa experiência pode ser estruturada por pares de táticas:
 
-## 4. Socialização organizacional
+| Par | Diferença central |
+| --- | --- |
+| coletiva × individual | experiências comuns × trajetórias separadas |
+| formal × informal | aprendizagem destacada do trabalho corrente × aprendizagem misturada a ele |
+| sequencial × aleatória | passos conhecidos × caminho incerto |
+| fixa × variável | referência de tempo × prazo indeterminado |
+| serial × disjuntiva | modelo ou apoio de pessoa experiente × ausência dessa referência |
+| investidura × desinvestidura | confirmação da identidade e capacidades prévias × tentativa de desfazer aspectos anteriores para reconstruir o papel |
 
-Socialização é o processo pelo qual a pessoa aprende cultura, normas, papéis, procedimentos, relações e conhecimentos necessários à participação na organização. Não é apenas evento de boas-vindas nem transmissão unilateral.
+Questões podem descrever a **desinvestidura** como desconstrução de padrões anteriores. Isso não significa que toda socialização deva “apagar” a experiência prévia, nem que exista uma combinação universalmente superior. A escolha depende do trabalho e do contexto.
 
-Um processo consistente envolve acolhimento, acesso a recursos, clareza sobre responsabilidades e prioridades, aprendizagem das normas e redes de apoio, acompanhamento, feedback e espaço para dúvidas e participação. O grau de formalização pode variar conforme o trabalho e o contexto; não existe uma única forma universalmente superior.
+## 3. Vínculos: identificação, comprometimento e suporte
 
-## 5. Vínculos com a organização
+### 3.1 Identificação
 
-### 5.1 Identificação
+Há **identificação organizacional** quando a pertença à organização integra o <abbr title="Modo como a pessoa define quem é">autoconceito</abbr> da pessoa. Isso não exige concordância total, submissão ou abandono do pensamento crítico.
 
-Identificação organizacional ocorre quando a pertença e os valores associados à organização passam a integrar o autoconceito da pessoa. Não significa concordância total nem renúncia ao pensamento crítico.
+### 3.2 Comprometimento
 
-### 5.2 Comprometimento
-
-Comprometimento é vínculo psicológico que influencia a relação com a organização. No modelo tridimensional:
+No modelo tridimensional de Meyer e Allen, o comprometimento é um estado psicológico com três bases que podem coexistir:
 
 | Base | Razão predominante para permanecer |
 | --- | --- |
-| afetiva | quer permanecer por vínculo afetivo e pertencimento |
-| continuidade ou instrumental | precisa permanecer pelos custos ou alternativas percebidas |
-| normativa | sente obrigação ou dever de permanecer |
+| afetiva | **quer** permanecer por vínculo afetivo e pertencimento |
+| continuidade | **precisa** permanecer diante de custos de saída ou alternativas percebidas |
+| normativa | sente que **deve** permanecer por obrigação percebida |
 
-As bases podem coexistir. Comprometimento não é sinônimo de satisfação, motivação, identificação, desempenho ou obediência incondicional.
+Comprometimento não é sinônimo de satisfação, identificação, motivação, desempenho ou obediência. O resultado do trabalho também depende de capacidade, recursos, processos e condições de execução.
 
-### 5.3 Suporte organizacional percebido
+### 3.3 Suporte organizacional percebido
 
-É a crença global de que a organização valoriza as contribuições da pessoa e se preocupa com seu bem-estar. Benefício formal não garante suporte percebido: importam consistência, justiça e experiência concreta. Apoio da chefia pode influenciar essa percepção, mas não é conceito idêntico a suporte organizacional.
+**Suporte organizacional percebido** é a crença global de que a organização valoriza as contribuições da pessoa e se preocupa com seu bem-estar. Benefício formal não garante essa percepção: importam consistência, justiça e experiência concreta.
 
-## 6. Justiça organizacional
+Apoio da chefia pode influenciá-la, mas os conceitos não são idênticos. O primeiro se refere a uma fonte imediata de apoio; o segundo é uma crença atribuída à organização.
 
-Justiça organizacional trata da percepção de justiça nos resultados, processos, relações e explicações:
+## 4. Justiça e ajuste pessoa-organização
+
+Justiça organizacional separa quatro perguntas sobre uma decisão:
 
 | Dimensão | Pergunta central |
 | --- | --- |
 | distributiva | resultados, recursos e encargos foram distribuídos de modo justo? |
 | procedimental | critérios e processos foram consistentes, imparciais e corrigíveis? |
-| interpessoal | houve respeito, dignidade e tratamento adequado? |
-| informacional | as explicações foram suficientes, verdadeiras e oportunas? |
+| interpessoal | houve respeito e dignidade no tratamento? |
+| informacional | as explicações foram verdadeiras, suficientes e oportunas? |
 
-Modelos de três dimensões podem reunir interpessoal e informacional sob **justiça interacional**. Em prova, observe a taxonomia adotada. Legalidade formal não assegura, sozinha, percepção de justiça; percepção favorável também não torna válido um ato ilegal.
+Modelos de três dimensões podem reunir interpessoal e informacional sob **justiça interacional**. As dimensões podem divergir: um processo consistente pode ser comunicado de forma falsa e desrespeitosa.
 
-## 7. Ajuste pessoa-organização
+No setor público, percepção de justiça e validade jurídica também não se confundem. Um ato legal pode ser percebido como injusto; percepção favorável não torna válido um ato ilegal.
 
-**Person-organization fit** é a compatibilidade entre pessoa e organização. Pode envolver congruência de valores, necessidades da pessoa e recursos oferecidos, capacidades e demandas e formas de trabalho compatíveis.
+O estrangeirismo <abbr title="Compatibilidade entre pessoa e organização">person-organization fit</abbr> designa o **ajuste pessoa-organização**: compatibilidade de valores ou correspondência entre necessidades e recursos e entre capacidades e demandas.
 
-Ajuste não exige homogeneidade. Compatibilidade pode coexistir com diversidade, inclusão e pensamento crítico.
+Ajuste não significa homogeneidade. Compatibilidade com missão e formas legítimas de cooperação pode coexistir com diversidade, inclusão, discordância profissional e pensamento crítico.
 
-## 8. Papéis e limites saudáveis
+## 5. Papéis: conflito, ambiguidade e sobrecarga
 
-- **conflito de papéis:** demandas incompatíveis dirigidas à mesma pessoa;
-- **ambiguidade de papel:** falta de clareza sobre responsabilidade, autoridade, critérios ou prioridades;
-- **sobrecarga de papel:** demandas superiores ao tempo e aos recursos disponíveis.
+Antes de atribuir um problema à disposição individual, examine as demandas do papel:
 
-Esses problemas podem decorrer do contexto de trabalho, não de defeitos individuais. Comprometimento e identificação não legitimam assédio, disponibilidade ilimitada ou descumprimento de deveres e limites legais.
+- **conflito de papéis:** demandas incompatíveis; cumprir uma dificulta ou impede cumprir outra;
+- **ambiguidade de papel:** falta clareza sobre responsabilidade, autoridade, prioridades ou critérios;
+- **sobrecarga de papel:** volume ou complexidade das demandas supera tempo e recursos disponíveis.
 
-## 9. Qualidade de vida no trabalho
+Duas ordens claras, mas incompatíveis, formam conflito; prioridades desconhecidas indicam ambiguidade; demandas compatíveis que não cabem no tempo indicam sobrecarga.
 
-QVT é conceito multidimensional sobre como as pessoas vivenciam condições, organização, conteúdo, relações e sentido do trabalho. Abrange saúde, segurança, ergonomia, justiça, participação, inclusão, desenvolvimento, equilíbrio trabalho-vida e relevância social.
+Comprometimento e identificação não legitimam assédio, disponibilidade ilimitada ou descumprimento de deveres e limites legais.
 
-QVT não se reduz a satisfação, benefícios, ginástica laboral, evento de saúde ou atendimento individual. Ações de suporte podem ajudar, mas são paliativas se substituírem intervenção sobre carga, processos, relações, recursos e riscos que produzem mal-estar.
+## 6. Qualidade de vida no trabalho: condição do trabalho, não evento
 
-## 10. Modelo de Walton
+**Qualidade de vida no trabalho** (<abbr title="Qualidade de Vida no Trabalho">QVT</abbr>) é um conceito multidimensional sobre como as pessoas vivenciam condições, organização, conteúdo, relações e sentido do trabalho. Integra fatores físicos, psicológicos e sociais.
 
-Walton propõe oito critérios amplos:
+Por isso, <abbr title="Qualidade de Vida no Trabalho">QVT</abbr> não se reduz a satisfação, benefício, ginástica laboral, evento de saúde ou atendimento individual. Ações de suporte podem ajudar, mas tornam-se paliativas quando substituem intervenção sobre carga, processos, relações, recursos e riscos que produzem mal-estar.
 
-1. compensação justa e adequada;
-2. condições de trabalho seguras e saudáveis;
-3. uso e desenvolvimento de capacidades;
-4. oportunidade de crescimento e segurança;
-5. integração social na organização;
-6. constitucionalismo, com direitos, privacidade, equidade, liberdade e respeito;
-7. trabalho e espaço total de vida;
-8. relevância social da vida no trabalho.
+No caso inicial, uma atividade de relaxamento pode aliviar momentaneamente o estresse; não corrige ordens incompatíveis, sobrecarga ou sistemas instáveis. O diagnóstico deve procurar **causas no contexto de trabalho**, não apenas formas de tornar a pessoa mais tolerante a elas.
 
-O modelo integra fatores econômicos, sociais, jurídicos, ocupacionais e de sentido. Os critérios são analíticos e não criam, por si, direitos adicionais ao regime jurídico.
+## 7. Walton: oito dimensões para olhar a experiência de trabalho
 
-## 11. Modelo de Hackman e Oldham
+Walton organiza a <abbr title="Qualidade de Vida no Trabalho">QVT</abbr> em oito critérios amplos:
 
-O modelo das características do trabalho concentra-se no desenho da tarefa:
+| Critério | O que examina |
+| --- | --- |
+| compensação justa e adequada | adequação e equidade das contrapartidas |
+| condições de trabalho seguras e saudáveis | jornada, ambiente, saúde e segurança |
+| uso e desenvolvimento de capacidades | aplicação de habilidades, autonomia compatível e compreensão da contribuição |
+| oportunidade de crescimento e segurança | desenvolvimento, perspectivas e segurança |
+| integração social na organização | relações, pertencimento, igualdade e ausência de discriminação |
+| constitucionalismo | direitos, privacidade, equidade, liberdade e respeito |
+| trabalho e espaço total de vida | compatibilidade do trabalho com as demais esferas da vida |
+| relevância social da vida no trabalho | responsabilidade, imagem e contribuição social do trabalho e da organização |
 
-| Dimensão | Significado | Estado psicológico associado |
+O modelo é mais amplo que uma lista de benefícios: reúne fatores econômicos, sociais, ocupacionais e de direitos. **Constitucionalismo**, aqui, é uma dimensão analítica; não cria, por si, direitos adicionais ao regime jurídico.
+
+### 7.1 Um vocabulário de prova que não é a lista de Walton
+
+Alguns manuais de gestão de pessoas apresentam **indicadores de <abbr title="Qualidade de Vida no Trabalho">QVT</abbr>** como significado da tarefa, <abbr title="Retorno sobre execução e resultados">feedback</abbr> ou retroação, autonomia, meritocracia, compensação e integração social. Nessa terminologia, **meritocracia** está ligada à percepção de igualdade de oportunidades de crescimento. Não trate esses rótulos como uma segunda versão dos oito critérios de Walton: eles são outra forma de sintetizar aspectos que influenciam a experiência de trabalho.
+
+## 8. Hackman e Oldham: como o desenho do trabalho afeta a experiência
+
+O modelo das características do trabalho focaliza um mecanismo mais específico que Walton:
+
+**características do trabalho → estados psicológicos críticos → resultados pessoais e de trabalho**
+
+| Característica | Significado | Estado psicológico associado |
 | --- | --- | --- |
 | variedade de habilidades | uso de capacidades diferentes | significado experimentado do trabalho |
 | identidade da tarefa | realização de trabalho inteiro ou identificável | significado experimentado do trabalho |
 | significância da tarefa | impacto percebido sobre outras pessoas ou a organização | significado experimentado do trabalho |
 | autonomia | liberdade e responsabilidade compatíveis para organizar a execução | responsabilidade experimentada pelos resultados |
-| feedback | informação produzida pelo próprio trabalho sobre seus resultados | conhecimento dos resultados |
+| <abbr title="Retorno produzido pelo próprio trabalho sobre seus resultados">feedback</abbr> da tarefa | informação que a própria execução fornece sobre seus resultados | conhecimento dos resultados |
 
-Os três estados psicológicos críticos favorecem motivação interna, qualidade do desempenho e satisfação. O modelo não afirma que qualquer aumento isolado de uma dimensão produzirá automaticamente esses resultados. **Walton é mais amplo sobre QVT; Hackman e Oldham focalizam o desenho do trabalho.**
+A lógica para prova é: **variedade + identidade + significância → significado; autonomia → responsabilidade; <abbr title="Retorno produzido pelo próprio trabalho sobre seus resultados">feedback</abbr> → conhecimento dos resultados**. O modelo não afirma que aumentar uma dimensão isolada produzirá automaticamente melhor desempenho.
 
-## 12. Ergonomia e riscos psicossociais
+### 8.1 Do diagnóstico ao redesenho
 
-Ergonomia busca adaptar condições, equipamentos, ambiente, interfaces, exigências físicas e cognitivas e organização do trabalho às características das pessoas. Não se limita a mobiliário ou postura.
+Hackman e colaboradores também formularam movimentos de enriquecimento do trabalho:
 
-Riscos psicossociais podem relacionar-se a sobrecarga, baixa clareza, assédio, violência, discriminação, isolamento, apoio insuficiente, baixa autonomia diante de alta responsabilidade e mudanças mal conduzidas. A prevenção deve examinar fatores do trabalho e não apenas atribuir o problema à personalidade ou à resiliência individual.
+| Movimento | Efeito pretendido predominante |
+| --- | --- |
+| combinar tarefas | ampliar variedade e identidade |
+| formar unidades naturais de trabalho | reforçar identidade e significância |
+| estabelecer relações com clientes ou destinatários | aproximar execução de quem recebe o resultado, podendo ampliar variedade, autonomia e <abbr title="Retorno sobre execução e resultados">feedback</abbr> |
+| carga ou expansão vertical | incorporar responsabilidade decisória compatível, ampliando autonomia |
+| abrir canais de <abbr title="Retorno sobre execução e resultados">feedback</abbr> | tornar resultados do trabalho diretamente observáveis |
 
-## 13. Programa de QVT
+Em órgão público, “cliente” pode ser usuário, unidade demandante ou destinatário legítimo do serviço. **Carga ou expansão vertical não transfere competência jurídica reservada a outra autoridade**; trata-se de ampliar responsabilidade dentro dos limites do papel.
 
-Como **roteiro gerencial didático**, um programa de QVT pode seguir:
+## 9. Ergonomia e fatores de risco psicossocial
 
-1. diagnóstico participativo;
-2. priorização de riscos e fontes de bem-estar e mal-estar;
-3. planejamento de intervenções, responsáveis, recursos e indicadores;
-4. implementação;
-5. monitoramento;
-6. avaliação e revisão.
+**Ergonomia** procura adaptar o trabalho às características das pessoas. Inclui organização do trabalho, exigências físicas e cognitivas, equipamentos, interfaces, mobiliário e ambiente; não se limita a cadeira ou postura.
 
-Não é sequência normativa universal. O ponto central é diagnosticar antes de escolher soluções, combinar intervenções organizacionais e suporte e rever as medidas conforme evidências.
+**Fatores de risco psicossocial relacionados ao trabalho** podem decorrer de sobrecarga persistente, baixa clareza de papéis, assédio, violência, discriminação, isolamento, apoio insuficiente, baixa autonomia diante de grande responsabilidade ou mudanças mal conduzidas.
 
-QVT é responsabilidade compartilhada: <abbr title="Recursos Humanos">RH</abbr> e áreas técnicas podem coordenar, a alta administração fornece direção e recursos, gestores influenciam o contexto cotidiano e trabalhadores participam do diagnóstico e da avaliação.
+A prevenção deve examinar o trabalho. Treinar “resiliência” pode complementar uma intervenção, mas não substitui correção de carga, processos, recursos, relações ou organização quando esses fatores são a fonte do problema.
 
-## 14. Indicadores e avaliação
+## 10. Programa de qualidade de vida e avaliação
 
-Indicadores podem combinar:
+Um **programa de <abbr title="Qualidade de Vida no Trabalho">QVT</abbr>** é uma intervenção organizada; não é a própria <abbr title="Qualidade de Vida no Trabalho">QVT</abbr>. Um roteiro gerencial útil é:
 
-- **percepções:** QVT, suporte, justiça, clareza e inclusão;
+1. diagnosticar o contexto e ouvir as pessoas;
+2. identificar e priorizar fontes de bem-estar, mal-estar e riscos;
+3. escolher intervenções compatíveis com as causas;
+4. definir responsáveis, recursos, indicadores e linha de base;
+5. implementar e acompanhar;
+6. avaliar efeitos e revisar medidas.
+
+Não é sequência normativa universal. O princípio é **diagnosticar antes de escolher a solução** e combinar suporte individual com intervenção organizacional quando o contexto produz o problema.
+
+A responsabilidade é compartilhada: o órgão de <abbr title="Recursos Humanos">RH</abbr> e áreas técnicas podem coordenar e apoiar; a alta administração fornece direção e recursos; gestores influenciam o contexto cotidiano; trabalhadores participam do diagnóstico e da avaliação.
+
+### 10.1 Indicador não prova causa
+
+Uma avaliação equilibrada combina:
+
+- **percepções:** <abbr title="Qualidade de Vida no Trabalho">QVT</abbr>, suporte, justiça, clareza e inclusão;
 - **saúde e segurança:** afastamentos, acidentes, queixas e exposição a riscos;
 - **processos:** participação, cobertura, execução e tempo de resposta;
 - **contexto:** carga, distribuição do trabalho, recursos, ambiente e conflitos de papel.
 
-Um indicador isolado não prova causalidade. Queda no absenteísmo pode refletir melhora, subnotificação, barreiras ao afastamento ou **presenteísmo**, quando a pessoa permanece trabalhando apesar de condição que reduz sua saúde ou capacidade. Linha de base, contexto e escuta qualificada melhoram a interpretação.
+A **linha de base** registra a situação inicial para comparação posterior. Mesmo assim, melhora depois da intervenção não prova, sozinha, que ela foi a causa.
 
-## 15. Erros recorrentes de prova
+Queda do <abbr title="Ausências ao trabalho">absenteísmo</abbr>, por exemplo, pode refletir melhora, mas também subnotificação, barreiras ao afastamento ou <abbr title="Trabalhar apesar de condição que reduz saúde ou capacidade">presenteísmo</abbr>. No presenteísmo, a pessoa continua trabalhando apesar de condição que reduz sua saúde ou capacidade.
 
-| Afirmação | Avaliação |
-| --- | --- |
-| comportamento organizacional explica fenômenos apenas no nível individual | errada |
-| contrato psicológico equivale a direito estatutário | errada |
-| quebra é percepção cognitiva; violação é reação afetiva | correta |
-| comprometimento afetivo significa permanecer porque quer | correta |
-| justiça interacional nunca pode ser desdobrada | errada |
-| ajuste pessoa-organização exige homogeneidade | errada |
-| QVT é responsabilidade exclusiva do RH | errada |
-| ação individual substitui correção do contexto | errada |
-| variedade, identidade e significância ligam-se ao significado experimentado | correta |
-| autonomia liga-se à responsabilidade pelos resultados | correta |
-| feedback liga-se ao conhecimento dos resultados | correta |
-| absenteísmo menor prova melhoria de QVT | errada |
+## 11. Fechando o caso
+
+No cenário inicial:
+
+- ordens incompatíveis → **conflito de papéis**;
+- critérios e prioridades pouco claros → possível **ambiguidade** e problema de justiça procedimental ou informacional;
+- tarefa fragmentada e sem retorno → problema de **desenho do trabalho**;
+- carga superior ao tempo e aos recursos → **sobrecarga** e possível fator de risco psicossocial;
+- atividade de relaxamento sem correção das causas → apoio pontual, não substituto de intervenção estruturante de <abbr title="Qualidade de Vida no Trabalho">QVT</abbr>.
+
+O mapa do assunto é: **troca e expectativas → socialização → vínculos → justiça e ajuste → papéis → condições e desenho do trabalho → qualidade de vida**. Identificar o mecanismo antes de escolher a solução evita transformar problemas do sistema em culpa individual.
