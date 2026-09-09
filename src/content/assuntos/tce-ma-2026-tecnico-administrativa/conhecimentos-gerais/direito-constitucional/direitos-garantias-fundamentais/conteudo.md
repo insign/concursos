@@ -8,187 +8,130 @@ storageId: tec-direitos-fundamentais-125
 
 # Direitos e garantias fundamentais: individuais e coletivos, sociais, nacionalidade, direitos políticos e partidos políticos
 
-## 1. Recorte do edital e corte temporal
+## 1. O Título II acompanha a pessoa até a participação política
 
-O edital do Cargo 16 reúne, em um único item de **Direito Constitucional**, os cinco capítulos do **Título II da Constituição Federal de 1988 (arts. 5º a 17)**:
+A Constituição não reúne os direitos fundamentais em uma lista aleatória. O Título II acompanha diferentes dimensões da vida constitucional da pessoa:
 
-1. direitos e deveres individuais e coletivos — **art. 5º**;
-2. direitos sociais — **arts. 6º a 11**;
-3. nacionalidade — **arts. 12 e 13**;
-4. direitos políticos — **arts. 14 a 16**;
-5. partidos políticos — **art. 17**.
+- o art. 5º protege liberdades, posições jurídicas e instrumentos para reagir a abusos;
+- os arts. 6º a 11 tratam das condições sociais e coletivas necessárias para uma vida digna;
+- os arts. 12 e 13 definem quem pertence juridicamente ao Estado brasileiro e seus símbolos básicos;
+- os arts. 14 a 16 disciplinam participação política, voto, elegibilidade e limites ao exercício dos direitos políticos;
+- o art. 17 organiza a liberdade partidária dentro de limites democráticos.
 
-> **Corte de prova:** texto constitucional vigente em **6 de julho de 2026**, data do Edital nº 1. A <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026, última emenda promulgada antes do edital, alterou apenas os arts. 31 e 75 e não modificou o Título II. Para este assunto, são especialmente relevantes as alterações anteriores já incorporadas ao texto, como a **EC nº 115/2022** (proteção de dados pessoais), a **EC nº 117/2022** (participação política das mulheres), a **EC nº 131/2023** (perda da nacionalidade) e a **EC nº 133/2024** (recursos para candidaturas de pessoas pretas e pardas).
+Esse encadeamento evita um erro comum: confundir **nacionalidade**, **cidadania** e **direitos políticos**. A nacionalidade é o vínculo jurídico com o Estado; os direitos políticos tratam da participação na formação e no exercício do poder. Uma pessoa pode ser brasileira e, em determinada situação constitucional, não estar apta a votar ou ser votada.
 
-O objetivo não é transformar este assunto em curso de Direito Eleitoral ou Direito do Trabalho. A cobrança deve permanecer na **Constituição**, com jurisprudência apenas quando indispensável para evitar erro de prova.
+> **Corte de prova:** esta unidade considera o texto constitucional vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. As Emendas Constitucionais nº 115/2022, 117/2022, 131/2023 e 133/2024 já integravam o Título II nesse corte; a Emenda Constitucional nº 139/2026, embora já vigente, não alterou os arts. 5º a 17.
 
----
+## 2. Art. 5º: liberdade material precisa de garantias para funcionar
 
-# Parte I — Direitos e deveres individuais e coletivos
+O caput do art. 5º assegura a inviolabilidade dos direitos à **vida, liberdade, igualdade, segurança e propriedade**. Esses cinco núcleos ajudam a ler os incisos seguintes: a Constituição protege espaços de liberdade e, ao mesmo tempo, cria garantias para impedir que o Estado ou particulares os esvaziem arbitrariamente.
 
-## 2. Art. 5º — estrutura geral
-
-O caput do art. 5º protege, em sua literalidade, a inviolabilidade dos direitos à:
-
-- **vida**;
-- **liberdade**;
-- **igualdade**;
-- **segurança**;
-- **propriedade**.
-
-A prova costuma cobrar tanto esses cinco núcleos quanto os comandos específicos dos incisos.
-
-### 2.1 Igualdade e legalidade
+Dois comandos inaugurais mostram essa lógica:
 
 - homens e mulheres são iguais em direitos e obrigações, nos termos da Constituição;
-- ninguém é obrigado a fazer ou deixar de fazer algo senão em virtude de lei.
+- ninguém é obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de lei.
 
-**Pegadinha:** a igualdade constitucional não impede tratamentos diferenciados quando exista fundamento constitucionalmente legítimo; o que ela repele é discriminação arbitrária.
+A igualdade não proíbe toda diferenciação. O problema constitucional é a distinção arbitrária, sem fundamento legítimo.
 
-### 2.2 Integridade, pensamento e expressão
+### 2.1 Liberdade de pensamento, crença, expressão e vida privada
 
-A Constituição:
+A manifestação do pensamento é livre, **vedado o anonimato**. A Constituição também assegura direito de resposta proporcional ao agravo e indenização por dano material, moral ou à imagem.
 
-- proíbe tortura e tratamento desumano ou degradante;
-- garante a manifestação do pensamento, mas **veda o anonimato**;
-- assegura direito de resposta proporcional ao agravo, além de indenização por dano material, moral ou à imagem;
-- protege liberdade de consciência e de crença;
-- assegura livre exercício de cultos religiosos e proteção aos locais de culto e liturgias, na forma da lei;
-- garante assistência religiosa em entidades civis e militares de internação coletiva;
-- protege convicção religiosa, filosófica ou política, ressalvada a hipótese de invocá-la para eximir-se de obrigação legal geral e recusar prestação alternativa fixada em lei;
-- assegura expressão intelectual, artística, científica e de comunicação, independentemente de censura ou licença.
+Há proteção da liberdade de consciência e crença, do livre exercício dos cultos religiosos e dos locais de culto e liturgias, além de assistência religiosa em entidades civis e militares de internação coletiva. Convicção religiosa, filosófica ou política não pode ser usada para fugir de obrigação legal imposta a todos e, simultaneamente, recusar prestação alternativa fixada em lei.
 
-```text
-MANIFESTAÇÃO DO PENSAMENTO = LIVRE
-ANONIMATO                  = VEDADO
-CENSURA/LICENÇA PRÉVIA      = INCOMPATÍVEL COM O ART. 5º, IX
-```
+A expressão intelectual, artística, científica e de comunicação independe de censura ou licença. Em paralelo, intimidade, vida privada, honra e imagem são invioláveis, com direito à indenização por sua violação.
 
-### 2.3 Intimidade, domicílio e comunicações
+A Constituição, portanto, não organiza liberdade e privacidade como valores incompatíveis: protege ambas e exige solução constitucional quando seus exercícios entram em tensão.
 
-São invioláveis intimidade, vida privada, honra e imagem, assegurada indenização por dano material ou moral decorrente da violação.
+### 2.2 Casa e comunicações: a exceção depende do fundamento
 
-A **casa** é asilo inviolável do indivíduo. Ninguém pode nela penetrar sem consentimento do morador, salvo:
+A casa é asilo inviolável do indivíduo. Sem consentimento do morador, o ingresso é permitido em quatro situações constitucionais:
 
 - flagrante delito;
 - desastre;
 - para prestar socorro;
-- durante o dia, por determinação judicial.
+- **durante o dia**, por determinação judicial.
 
-Matriz de prova:
+A diferença de horário vale para a **ordem judicial**. Flagrante, desastre e socorro não recebem essa limitação temporal no texto constitucional.
 
-| Hipótese | Dia | Noite |
+| Fundamento do ingresso sem consentimento | Dia | Noite |
 |---|:---:|:---:|
-| consentimento do morador | ✅ | ✅ |
-| flagrante delito | ✅ | ✅ |
-| desastre | ✅ | ✅ |
-| prestar socorro | ✅ | ✅ |
-| ordem judicial | ✅ | ❌ |
+| flagrante delito | sim | sim |
+| desastre | sim | sim |
+| prestar socorro | sim | sim |
+| ordem judicial | sim | não |
 
-O sigilo da correspondência, das comunicações telegráficas, de dados e das comunicações telefônicas é protegido. Na literalidade constitucional, a exceção expressa refere-se às **comunicações telefônicas**, por ordem judicial, nas hipóteses e forma legais, para investigação criminal ou instrução processual penal.
+O sigilo da correspondência, das comunicações telegráficas, de dados e das comunicações telefônicas também é protegido. Na literalidade do art. 5º, XII, a exceção expressa recai sobre as **comunicações telefônicas**, por ordem judicial, nas hipóteses e na forma da lei, para investigação criminal ou instrução processual penal.
 
-### 2.4 Liberdade profissional, informação e locomoção
+### 2.3 Profissão, informação e locomoção
 
-É livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer.
+É livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer. A liberdade já existe; a lei pode estabelecer qualificações legítimas, ponto conectado à eficácia contida estudada no assunto anterior.
 
 Também são assegurados:
 
 - acesso à informação, resguardado o sigilo da fonte quando necessário ao exercício profissional;
-- liberdade de locomoção no território nacional em tempo de paz, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer ou sair com seus bens.
+- liberdade de locomoção no território nacional em tempo de paz, podendo qualquer pessoa, nos termos da lei, entrar, permanecer ou sair com seus bens.
 
-A liberdade profissional é exemplo clássico de direito cujo exercício pode sofrer contenção legal legítima, tema conectado ao assunto 124.
+## 3. Reunião e associação: participar coletivamente sem pedir licença ao Estado
 
-### 2.5 Reunião e associação
+Reunião e associação protegem ação coletiva, mas têm estruturas diferentes.
 
-A reunião em locais abertos ao público independe de autorização quando:
+Uma reunião em local aberto ao público **independe de autorização** quando for pacífica, sem armas, não frustrar outra reunião anteriormente convocada para o mesmo local e houver **prévio aviso** à autoridade competente.
 
-- for pacífica;
-- estiver sem armas;
-- não frustrar outra reunião anteriormente convocada para o mesmo local;
-- houver **prévio aviso** à autoridade competente.
+> Prévio aviso é comunicação; não é pedido de autorização.
 
-**Prévio aviso não é autorização.**
+A associação tem vocação mais estável. A Constituição garante liberdade de associação para fins lícitos e veda associação de caráter paramilitar. A criação de associações e, na forma da lei, de cooperativas independe de autorização, e é vedada interferência estatal em seu funcionamento.
 
-Quanto às associações:
+Para restringir a atividade associativa, a exigência aumenta:
 
-- é plena a liberdade de associação para fins lícitos;
-- é vedada associação de caráter paramilitar;
-- criação de associações e, na forma da lei, de cooperativas independe de autorização;
-- é vedada interferência estatal em seu funcionamento;
-- associação só pode ser compulsoriamente dissolvida por decisão judicial **transitada em julgado**;
-- suspensão de atividades exige decisão judicial, mas não trânsito em julgado;
-- ninguém pode ser compelido a associar-se ou permanecer associado;
-- entidades associativas, quando expressamente autorizadas, podem representar filiados judicial ou extrajudicialmente.
+- **suspensão de atividades** → decisão judicial;
+- **dissolução compulsória** → decisão judicial **transitada em julgado**.
 
-```text
-DISSOLUÇÃO COMPULSÓRIA → decisão judicial + trânsito em julgado
-SUSPENSÃO DE ATIVIDADES → decisão judicial
-```
+Ninguém pode ser obrigado a associar-se ou permanecer associado. Entidades associativas, quando expressamente autorizadas, podem representar seus filiados judicial ou extrajudicialmente.
 
-### 2.6 Propriedade, requisição e desapropriação
+## 4. Propriedade e relação com o Poder Público
 
-O direito de propriedade é garantido, mas a propriedade deve cumprir sua **função social**.
+A propriedade é garantida, mas deve cumprir sua função social. Duas intervenções estatais costumam ser confundidas.
 
-Na desapropriação por necessidade ou utilidade pública ou interesse social, a regra constitucional é:
+Na **desapropriação** por necessidade ou utilidade pública ou interesse social, a regra constitucional é procedimento legal com **justa e prévia indenização em dinheiro**, ressalvadas as hipóteses especiais da própria Constituição.
 
-- procedimento estabelecido em lei;
-- justa e prévia indenização em dinheiro;
-- ressalva das hipóteses constitucionais especiais.
+Na **requisição**, há iminente perigo público. A autoridade competente pode usar propriedade particular e haverá indenização **ulterior, se houver dano**.
 
-A **requisição administrativa** do art. 5º, XXV, ocorre em iminente perigo público: a autoridade competente pode usar propriedade particular, com **indenização ulterior se houver dano**.
-
-| Instituto | Situação | Indenização |
-|---|---|---|
-| desapropriação — regra | necessidade/utilidade pública ou interesse social | justa + prévia + dinheiro |
-| requisição | iminente perigo público | ulterior **se houver dano** |
+| Situação | Regra de indenização |
+|---|---|
+| desapropriação — regra geral | justa + prévia + dinheiro |
+| requisição por iminente perigo público | ulterior, **se houver dano** |
 
 A pequena propriedade rural, definida em lei e trabalhada pela família, não será objeto de penhora para pagamento de débitos decorrentes de sua atividade produtiva.
 
-### 2.7 Propriedade intelectual, herança e sucessão
+O art. 5º também protege direitos autorais, inventos industriais, marcas, direito de herança e a regra de sucessão de bens de estrangeiros situados no Brasil em benefício do cônjuge ou dos filhos brasileiros quando a lei pessoal do falecido não lhes seja mais favorável.
 
-O art. 5º protege direitos autorais, inventos industriais, marcas e outros sinais distintivos conforme a disciplina constitucional e legal.
-
-O direito de herança é garantido. A sucessão de bens de estrangeiros situados no Brasil será regulada pela lei brasileira em benefício do cônjuge ou dos filhos brasileiros, sempre que a lei pessoal do falecido não lhes seja mais favorável.
-
-### 2.8 Consumidor, informação pública e petição
-
-A Constituição determina que o Estado promova a defesa do consumidor, na forma da lei.
-
-Todos têm direito a receber dos órgãos públicos informações de interesse particular ou de interesse coletivo ou geral, ressalvadas as cujo sigilo seja imprescindível à segurança da sociedade e do Estado.
+Na relação com o Estado, a Constituição determina a defesa do consumidor e assegura o direito de receber informações dos órgãos públicos de interesse particular, coletivo ou geral, ressalvado o sigilo imprescindível à segurança da sociedade e do Estado.
 
 Independentemente do pagamento de taxas, são assegurados:
 
 - direito de petição aos poderes públicos em defesa de direitos ou contra ilegalidade ou abuso de poder;
 - obtenção de certidões em repartições públicas para defesa de direitos e esclarecimento de situações de interesse pessoal.
 
-### 2.9 Acesso à Justiça e garantias processuais
+## 5. Processo, punição e prisão: limitar o poder de acusar e punir
 
-A lei não excluirá da apreciação do Poder Judiciário lesão **nem ameaça** a direito.
+A Constituição protege o indivíduo não apenas por declarar direitos, mas por impor um modo juridicamente controlado de processar e punir.
 
-A Constituição protege:
+A lei não pode excluir do Poder Judiciário **lesão nem ameaça a direito**. Também são protegidos direito adquirido, ato jurídico perfeito e coisa julgada, além do juiz natural e do tribunal do júri, com plenitude de defesa, sigilo das votações, soberania dos veredictos e competência para crimes dolosos contra a vida.
 
-- direito adquirido;
-- ato jurídico perfeito;
-- coisa julgada;
-- juiz natural;
-- tribunal do júri, com plenitude de defesa, sigilo das votações, soberania dos veredictos e competência para crimes dolosos contra a vida;
-- legalidade penal e irretroatividade da lei penal, salvo para beneficiar o réu;
-- devido processo legal;
-- contraditório e ampla defesa em processos judiciais e administrativos;
-- inadmissibilidade de provas obtidas por meios ilícitos;
-- presunção de inocência até o trânsito em julgado de sentença penal condenatória.
+No processo judicial **e no administrativo**, litigantes e acusados em geral têm contraditório e ampla defesa, com os meios e recursos a ela inerentes. Provas obtidas por meios ilícitos são inadmissíveis. Ninguém será considerado culpado até o trânsito em julgado de sentença penal condenatória.
 
-### 2.10 Crimes e penas — pontos de literalidade
+A Constituição ainda assegura assistência jurídica integral e gratuita aos que comprovarem insuficiência de recursos, indenização estatal por erro judiciário e por prisão além do tempo fixado na sentença e duração razoável do processo, judicial ou administrativo, com meios que garantam celeridade. Aos reconhecidamente pobres, são gratuitos, na forma da lei, o registro civil de nascimento e a certidão de óbito.
 
-A Constituição estabelece, entre outros comandos:
+### 5.1 Crimes e penas: não troque as qualificações
 
-- racismo: crime **inafiançável e imprescritível**, sujeito à pena de reclusão;
-- ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático: **inafiançável e imprescritível**;
-- tortura, tráfico ilícito de entorpecentes e drogas afins, terrorismo e crimes hediondos: **inafiançáveis e insuscetíveis de graça ou anistia**;
-- nenhuma pena passará da pessoa do condenado, embora reparação do dano e perdimento de bens possam alcançar sucessores até o limite do patrimônio transferido;
-- a lei regulará a individualização da pena.
+O texto constitucional distingue grupos que a prova costuma misturar:
 
-São vedadas penas:
+- **racismo** → inafiançável e imprescritível, sujeito à pena de reclusão;
+- ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático → inafiançável e imprescritível;
+- **tortura, tráfico ilícito de entorpecentes e drogas afins, terrorismo e crimes hediondos** → inafiançáveis e insuscetíveis de graça ou anistia.
+
+A Constituição veda penas:
 
 - de morte, salvo em caso de guerra declarada;
 - de caráter perpétuo;
@@ -196,7 +139,9 @@ São vedadas penas:
 - de banimento;
 - cruéis.
 
-### 2.11 Extradição
+A pena não passa da pessoa do condenado, embora reparação do dano e perdimento de bens possam atingir sucessores até o limite do patrimônio transferido.
+
+### 5.2 Extradição
 
 Nenhum brasileiro nato será extraditado.
 
@@ -207,148 +152,67 @@ O naturalizado pode ser extraditado:
 
 Não será concedida extradição de estrangeiro por crime político ou de opinião.
 
-### 2.12 Prisão e direitos do preso
+### 5.3 Prisão e proteção do preso
 
-Ninguém será preso senão:
+Ninguém será preso senão em flagrante delito ou por ordem escrita e fundamentada de autoridade judiciária competente, ressalvadas as hipóteses constitucionais militares.
 
-- em flagrante delito; ou
-- por ordem escrita e fundamentada de autoridade judiciária competente;
+A prisão e o local onde a pessoa se encontra devem ser comunicados imediatamente ao juiz competente e à família do preso ou à pessoa por ele indicada. O preso deve ser informado de seus direitos, entre eles o de permanecer calado, e ter assegurada assistência da família e de advogado.
 
-ressalvadas as hipóteses constitucionais militares.
+A prisão ilegal será imediatamente relaxada pela autoridade judiciária. Ninguém será levado à prisão ou nela mantido quando a lei admitir liberdade provisória, com ou sem fiança.
 
-A prisão e o local onde se encontre o preso devem ser comunicados imediatamente ao juiz competente e à família do preso ou pessoa por ele indicada.
+### 5.4 Prisão civil por dívida: literalidade constitucional e jurisprudência
 
-O preso deve ser informado de seus direitos, entre eles o de permanecer calado, e ter assegurada assistência da família e de advogado.
+O art. 5º, LXVII, menciona duas exceções à vedação de prisão civil por dívida: inadimplemento voluntário e inescusável de obrigação alimentícia e depositário infiel.
 
-A prisão ilegal será imediatamente relaxada pela autoridade judiciária.
+O <abbr title="Supremo Tribunal Federal">STF</abbr>, porém, consolidou na Súmula Vinculante 25 que é ilícita a prisão civil do depositário infiel, qualquer que seja a modalidade do depósito. Para prova atual, é preciso distinguir o texto constitucional da interpretação vinculante: a prisão civil efetiva subsiste para a dívida alimentar nas condições jurídicas aplicáveis, não para o depositário infiel.
 
-Ninguém será levado à prisão ou nela mantido quando a lei admitir liberdade provisória, com ou sem fiança.
+## 6. Remédios constitucionais: identifique primeiro o obstáculo
 
-### 2.13 Prisão civil por dívida
+Os remédios constitucionais não devem ser memorizados como siglas. Cada um reage a um problema diferente.
 
-A literalidade do art. 5º, LXVII, admite exceção para inadimplemento voluntário e inescusável de obrigação alimentícia e para depositário infiel. Contudo, o <abbr title="Supremo Tribunal Federal">STF</abbr> consolidou que é **ilícita a prisão civil do depositário infiel, qualquer que seja a modalidade do depósito** (Súmula Vinculante 25).
+**Habeas corpus** protege a liberdade de locomoção contra violência ou coação, atual ou ameaçada, por ilegalidade ou abuso de poder.
 
-Para prova:
+**Mandado de segurança** protege direito líquido e certo não amparado por habeas corpus ou habeas data quando a ilegalidade ou abuso é atribuída a autoridade pública ou agente de pessoa jurídica no exercício de atribuições do poder público.
 
-```text
-TEXTO CONSTITUCIONAL → menciona alimentos + depositário infiel
-JURISPRUDÊNCIA STF   → prisão civil efetiva apenas por dívida alimentar, nos termos constitucionais/legais
-```
-
----
-
-# Remédios constitucionais
-
-## 3. Habeas corpus
-
-Cabe **habeas corpus** quando alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder.
-
-Gatilho:
-
-`LIBERDADE DE LOCOMOÇÃO → HABEAS CORPUS`
-
-## 4. Mandado de segurança individual
-
-Cabe mandado de segurança para proteger **direito líquido e certo**, não amparado por habeas corpus ou habeas data, quando o responsável pela ilegalidade ou abuso de poder for autoridade pública ou agente de pessoa jurídica no exercício de atribuições do poder público.
-
-## 5. Mandado de segurança coletivo
-
-Podem impetrar mandado de segurança coletivo:
+No **mandado de segurança coletivo**, a Constituição destaca como legitimados:
 
 - partido político com representação no Congresso Nacional;
-- organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos **um ano**, em defesa dos interesses de seus membros ou associados.
+- organização sindical;
+- entidade de classe;
+- associação legalmente constituída e em funcionamento há pelo menos **um ano**, em defesa dos interesses de seus membros ou associados.
 
-## 6. Mandado de injunção
+**Mandado de injunção** reage à falta de norma regulamentadora que torne inviável o exercício de direitos e liberdades constitucionais ou de prerrogativas inerentes à nacionalidade, soberania e cidadania.
 
-Cabe mandado de injunção quando a falta de norma regulamentadora torne inviável o exercício de direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, soberania e cidadania.
+**Habeas data** permite conhecer informações relativas à pessoa do impetrante em registros ou bancos de dados governamentais ou de caráter público e, nas condições constitucionais, retificá-las.
 
-Gatilho:
+**Ação popular** pode ser proposta por qualquer **cidadão** para anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural. Salvo comprovada má-fé, o autor fica isento de custas judiciais e do ônus da sucumbência.
 
-`OMISSÃO NORMATIVA QUE INVIABILIZA EXERCÍCIO → MANDADO DE INJUNÇÃO`
+A síntese vem depois da lógica:
 
-## 7. Habeas data
+| Problema central | Instrumento |
+|---|---|
+| coação à liberdade de locomoção | habeas corpus |
+| direito líquido e certo residual | mandado de segurança |
+| omissão normativa que inviabiliza exercício constitucional | mandado de injunção |
+| conhecer ou retificar dados pessoais em banco público | habeas data |
+| ato lesivo aos bens constitucionais indicados | ação popular |
 
-Cabe habeas data para:
+Habeas corpus e habeas data são gratuitos. Também são gratuitos, na forma da lei, os atos necessários ao exercício da cidadania.
 
-- assegurar conhecimento de informações relativas à pessoa do impetrante constantes de registros ou bancos de dados de entidades governamentais ou de caráter público;
-- retificação desses dados, quando não se prefira fazê-lo por processo sigiloso judicial ou administrativo.
+## 7. O art. 5º não termina no último remédio
 
-## 8. Ação popular
+Os parágrafos do art. 5º resolvem questões importantes sobre a própria abertura do sistema de direitos fundamentais.
 
-Qualquer **cidadão** é parte legítima para propor ação popular que vise anular ato lesivo:
+- **§ 1º:** normas definidoras de direitos e garantias fundamentais têm aplicação imediata. Isso não significa que todas sejam de eficácia plena.
+- **§ 2º:** os direitos expressos não excluem outros decorrentes do regime, dos princípios constitucionais e dos tratados internacionais de que o Brasil seja parte.
+- **§ 3º:** tratados e convenções internacionais sobre direitos humanos aprovados, em cada Casa do Congresso Nacional, em **dois turnos**, por **três quintos** dos respectivos membros, equivalem a emendas constitucionais.
+- **§ 4º:** o Brasil se submete à jurisdição de Tribunal Penal Internacional a cuja criação tenha manifestado adesão.
 
-- ao patrimônio público ou de entidade de que o Estado participe;
-- à moralidade administrativa;
-- ao meio ambiente;
-- ao patrimônio histórico e cultural.
+O inciso LXXIX, incluído pela Emenda Constitucional nº 115/2022, assegura expressamente o direito à **proteção dos dados pessoais, inclusive nos meios digitais**.
 
-Salvo comprovada má-fé, o autor fica isento de custas judiciais e do ônus da sucumbência.
+## 8. Direitos sociais: liberdade sem condições materiais seria proteção incompleta
 
-## 9. Quadro comparativo dos remédios
-
-| Remédio | Proteção principal | Legitimidade constitucional destacada |
-|---|---|---|
-| habeas corpus | locomoção | quem sofre/é ameaçado de coação |
-| mandado de segurança | direito líquido e certo residual | titular do direito |
-| MS coletivo | direito líquido e certo coletivo | partido com representação no Congresso; sindicato; entidade de classe; associação ≥ 1 ano |
-| mandado de injunção | omissão regulamentadora | titular prejudicado pela omissão |
-| habeas data | dados pessoais do impetrante | pessoa a quem os dados se referem |
-| ação popular | patrimônio/moralidade/meio ambiente/patrimônio histórico-cultural | **cidadão** |
-
-### 9.1 Gratuidade
-
-A Constituição declara gratuitas as ações de:
-
-- habeas corpus;
-- habeas data;
-
-bem como, na forma da lei, os atos necessários ao exercício da cidadania.
-
----
-
-# Fechamento do art. 5º
-
-## 10. Parágrafos do art. 5º
-
-### § 1º — aplicação imediata
-
-As normas definidoras dos direitos e garantias fundamentais têm **aplicação imediata**.
-
-Não confunda isso com dizer que todas são de eficácia plena. O assunto 124 já demonstrou que uma norma pode ter aplicação imediata e eficácia contida.
-
-### § 2º — abertura material
-
-Os direitos e garantias expressos na Constituição não excluem outros decorrentes:
-
-- do regime constitucional;
-- dos princípios por ela adotados;
-- dos tratados internacionais dos quais o Brasil seja parte.
-
-### § 3º — tratados de direitos humanos
-
-Tratados e convenções internacionais sobre direitos humanos aprovados:
-
-- em cada Casa do Congresso Nacional;
-- em dois turnos;
-- por três quintos dos votos dos respectivos membros;
-
-são equivalentes às **emendas constitucionais**.
-
-### § 4º — Tribunal Penal Internacional
-
-O Brasil se submete à jurisdição de Tribunal Penal Internacional a cuja criação tenha manifestado adesão.
-
-### inciso LXXIX — proteção de dados pessoais
-
-A EC nº 115/2022 incluiu expressamente o direito à **proteção dos dados pessoais, inclusive nos meios digitais**.
-
----
-
-# Parte II — Direitos sociais
-
-## 11. Art. 6º — direitos sociais gerais
-
-São direitos sociais:
+O art. 6º apresenta direitos sociais que permitem participação digna na vida econômica e comunitária:
 
 - educação;
 - saúde;
@@ -362,135 +226,117 @@ São direitos sociais:
 - proteção à maternidade e à infância;
 - assistência aos desamparados.
 
-O parágrafo único assegura a todo brasileiro em situação de vulnerabilidade social direito a uma **renda básica familiar**, garantida pelo poder público em programa permanente de transferência de renda, conforme normas e requisitos legais e observada a legislação fiscal e orçamentária.
+Seu parágrafo único assegura a todo brasileiro em situação de vulnerabilidade social direito a **renda básica familiar**, garantida pelo poder público em programa permanente de transferência de renda, conforme normas e requisitos legais e observada a legislação fiscal e orçamentária.
 
-## 12. Art. 7º — direitos dos trabalhadores urbanos e rurais
+## 9. Art. 7º: o que a Constituição protege na relação de trabalho
 
-O art. 7º estabelece direitos dos trabalhadores urbanos e rurais e admite outros que visem à melhoria de sua condição social.
+Os direitos dos trabalhadores urbanos e rurais podem ser compreendidos por quatro problemas: **renda e estabilidade**, **tempo de trabalho e descanso**, **família e igualdade** e **saúde, proteção coletiva e futuro previdenciário**.
 
-Para estudo, agrupe os incisos:
+### 9.1 Renda e estabilidade
 
-### 12.1 Proteção do vínculo e contra riscos econômicos
+Entre os direitos estão:
 
 - proteção contra despedida arbitrária ou sem justa causa, nos termos de lei complementar;
 - seguro-desemprego;
-- FGTS;
+- <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr>;
 - salário mínimo nacionalmente unificado;
-- piso salarial proporcional à extensão e complexidade do trabalho;
+- piso salarial proporcional à extensão e à complexidade do trabalho;
 - irredutibilidade salarial, salvo convenção ou acordo coletivo;
-- garantia de salário nunca inferior ao mínimo para remuneração variável;
+- garantia de salário nunca inferior ao mínimo para quem recebe remuneração variável;
 - décimo terceiro salário;
 - proteção do salário, constituindo crime sua retenção dolosa na forma da lei;
-- participação nos lucros ou resultados, desvinculada da remuneração, e excepcionalmente participação na gestão, conforme lei.
-
-### 12.2 Jornada, descanso e adicionais
-
-- duração do trabalho normal não superior a **8 horas diárias e 44 semanais**, facultada compensação e redução mediante acordo ou convenção coletiva;
-- jornada de seis horas em turnos ininterruptos de revezamento, salvo negociação coletiva;
-- repouso semanal remunerado, preferencialmente aos domingos;
-- remuneração do serviço extraordinário superior, no mínimo, em **50%** à normal;
-- férias anuais remuneradas com, pelo menos, **1/3** a mais que o salário normal;
-- remuneração do trabalho noturno superior à do diurno;
-- adicional para atividades penosas, insalubres ou perigosas, na forma da lei.
-
-### 12.3 Família, mulher e infância
-
+- participação nos lucros ou resultados, desvinculada da remuneração, e excepcional participação na gestão, conforme a lei;
 - salário-família nos termos constitucionais;
-- licença à gestante, sem prejuízo do emprego e salário, por **120 dias**;
-- licença-paternidade, nos termos fixados em lei;
+- aviso prévio proporcional ao tempo de serviço, de no mínimo **30 dias**, nos termos da lei.
+
+### 9.2 Jornada e descanso
+
+A duração normal do trabalho não pode superar **8 horas diárias e 44 semanais**, facultadas compensação e redução mediante acordo ou convenção coletiva.
+
+Também são assegurados:
+
+- jornada de seis horas para trabalho em turnos ininterruptos de revezamento, salvo negociação coletiva;
+- repouso semanal remunerado, **preferencialmente aos domingos**;
+- remuneração do serviço extraordinário superior em, no mínimo, **50%** à normal;
+- férias anuais remuneradas com pelo menos **1/3** a mais que o salário normal;
+- remuneração do trabalho noturno superior à do diurno.
+
+### 9.3 Família, igualdade e trabalho de crianças e adolescentes
+
+A Constituição prevê:
+
+- licença à gestante, sem prejuízo do emprego e do salário, por **120 dias**;
+- licença-paternidade nos termos fixados em lei;
 - proteção do mercado de trabalho da mulher mediante incentivos específicos;
 - assistência gratuita aos filhos e dependentes desde o nascimento até **5 anos** em creches e pré-escolas;
-- proibição de diferença salarial, de funções e de critério de admissão por motivo de sexo, idade, cor ou estado civil;
-- proibição de trabalho noturno, perigoso ou insalubre a menores de **18 anos** e de qualquer trabalho a menores de **16**, salvo como aprendiz a partir dos **14**.
+- proibição de diferença salarial, de funções ou de critério de admissão por motivo de sexo, idade, cor ou estado civil;
+- proibição de discriminação quanto a salário e critérios de admissão do trabalhador com deficiência;
+- proibição de distinção entre trabalho manual, técnico e intelectual ou entre os profissionais respectivos.
 
-### 12.4 Relações coletivas, saúde e previdência
+Quanto à idade:
 
-- reconhecimento de convenções e acordos coletivos de trabalho;
+- qualquer trabalho é proibido a menores de **16 anos**, salvo como aprendiz a partir dos **14**;
+- trabalho noturno, perigoso ou insalubre é proibido a menores de **18 anos**.
+
+### 9.4 Saúde, negociação coletiva e previdência
+
+Também integram o art. 7º:
+
+- reconhecimento de convenções e acordos coletivos;
 - proteção em face da automação, na forma da lei;
 - redução dos riscos inerentes ao trabalho por normas de saúde, higiene e segurança;
+- adicional para atividades penosas, insalubres ou perigosas, na forma da lei;
 - seguro contra acidentes de trabalho a cargo do empregador, sem excluir indenização quando houver dolo ou culpa;
 - aposentadoria;
 - igualdade de direitos entre trabalhador com vínculo permanente e trabalhador avulso.
 
-### 12.5 Prescrição trabalhista — literalidade constitucional
+A pretensão relativa a créditos decorrentes das relações de trabalho sujeita-se a prescrição de **cinco anos**, até o limite de **dois anos após a extinção do contrato**.
 
-A ação quanto a créditos resultantes das relações de trabalho sujeita-se a prazo prescricional de **cinco anos**, até o limite de **dois anos após a extinção do contrato de trabalho**.
+O parágrafo único do art. 7º estende aos trabalhadores domésticos os direitos ali expressamente enumerados, alguns de aplicação direta e outros condicionados às normas legais indicadas no próprio dispositivo. Para este recorte, o importante é não afirmar que todos os incisos do art. 7º se aplicam indistintamente aos domésticos.
 
-## 13. Art. 8º — liberdade sindical
+## 10. Sindicato, greve e representação: direitos sociais também são coletivos
 
-A associação profissional ou sindical é livre, observados os comandos constitucionais.
+A liberdade sindical impede que a lei exija autorização do Estado para fundação de sindicato, ressalvado o registro no órgão competente, e veda interferência e intervenção do poder público na organização sindical.
 
-Pontos de prova:
+A Constituição adota unicidade sindical na mesma base territorial, que não pode ser inferior à área de um município. Ninguém pode ser obrigado a filiar-se ou permanecer filiado a sindicato. Cabe ao sindicato defender direitos e interesses coletivos ou individuais da categoria, e sua participação nas negociações coletivas é obrigatória.
 
-- a lei não pode exigir autorização do Estado para fundação de sindicato, ressalvado registro no órgão competente;
-- é vedada interferência e intervenção do poder público na organização sindical;
-- é vedada criação de mais de uma organização sindical representativa da mesma categoria na mesma base territorial, que não pode ser inferior à área de um município;
-- cabe ao sindicato defender direitos e interesses coletivos ou individuais da categoria, inclusive em questões judiciais e administrativas;
-- ninguém é obrigado a filiar-se ou manter-se filiado a sindicato;
-- é obrigatória a participação dos sindicatos nas negociações coletivas;
-- aposentado filiado tem direito de votar e ser votado nas organizações sindicais;
-- é vedada dispensa do empregado sindicalizado a partir do registro da candidatura a cargo de direção ou representação sindical e, se eleito, ainda que suplente, até um ano após o fim do mandato, salvo falta grave nos termos da lei.
+A assembleia geral fixa a contribuição para custeio do sistema confederativo da representação sindical, descontada em folha para os filiados. O <abbr title="Supremo Tribunal Federal">STF</abbr> consolidou na Súmula Vinculante 40 que essa contribuição confederativa só é exigível dos filiados ao sindicato.
 
-## 14. Art. 9º — greve
+O empregado sindicalizado não pode ser dispensado desde o registro da candidatura a cargo de direção ou representação sindical e, se eleito, ainda que suplente, até um ano após o fim do mandato, salvo falta grave nos termos da lei. O aposentado filiado tem direito de votar e ser votado nas organizações sindicais.
 
-É assegurado o direito de greve. Compete aos trabalhadores decidir:
+O art. 9º assegura direito de greve. Os trabalhadores decidem sobre a oportunidade de exercê-lo e os interesses que devam por meio dele defender. A lei define serviços ou atividades essenciais e dispõe sobre atendimento das necessidades inadiáveis da comunidade; abusos sujeitam os responsáveis às penas legais.
 
-- sobre a oportunidade de exercê-lo;
-- sobre os interesses que devam por meio dele defender.
+O art. 10 assegura participação de trabalhadores e empregadores nos colegiados de órgãos públicos em que interesses profissionais ou previdenciários sejam objeto de discussão e deliberação.
 
-A lei define serviços ou atividades essenciais e dispõe sobre atendimento das necessidades inadiáveis da comunidade. Abusos sujeitam responsáveis às penas da lei.
+Nas empresas com **mais de 200 empregados**, o art. 11 assegura a eleição de **um representante** dos empregados para promover entendimento direto com os empregadores.
 
-## 15. Arts. 10 e 11
+## 11. Nacionalidade: pertencer ao Estado não é o mesmo que exercer poder político
 
-O art. 10 assegura participação de trabalhadores e empregadores nos colegiados dos órgãos públicos em que seus interesses profissionais ou previdenciários sejam objeto de discussão e deliberação.
+A nacionalidade responde à pergunta: **quem é juridicamente brasileiro?** Ela não se confunde com cidadania nem garante, por si só, elegibilidade para qualquer cargo.
 
-O art. 11 assegura, nas empresas com **mais de 200 empregados**, a eleição de **um representante** dos empregados, com finalidade exclusiva de promover entendimento direto com os empregadores.
-
----
-
-# Parte III — Nacionalidade
-
-## 16. Art. 12 — brasileiros natos
+### 11.1 Brasileiros natos: três portas constitucionais
 
 São brasileiros natos:
 
-### 16.1 Nascimento no Brasil — critério territorial
+1. os nascidos no Brasil, ainda que de pais estrangeiros, **desde que estes não estejam a serviço de seu país**;
+2. os nascidos no exterior, de pai brasileiro ou mãe brasileira, desde que qualquer deles esteja a serviço da República Federativa do Brasil;
+3. os nascidos no exterior de pai brasileiro ou mãe brasileira que sejam registrados em repartição brasileira competente **ou** venham a residir no Brasil e, depois de atingida a maioridade, optem em qualquer tempo pela nacionalidade brasileira.
 
-Os nascidos na República Federativa do Brasil, ainda que de pais estrangeiros, **desde que estes não estejam a serviço de seu país**.
+Na terceira hipótese, registro e residência com opção são vias alternativas.
 
-**Pegadinha:** a exceção exige serviço ao **país de origem**, não simples condição de estrangeiro.
+### 11.2 Naturalização e portugueses equiparados
 
-### 16.2 Nascimento no exterior com pai ou mãe a serviço do Brasil
+Para originários de países de língua portuguesa, a Constituição admite naturalização, na forma da lei, exigindo apenas **um ano de residência ininterrupta** e idoneidade moral.
 
-Os nascidos no estrangeiro, de pai brasileiro ou mãe brasileira, desde que qualquer deles esteja a serviço da República Federativa do Brasil.
+Para estrangeiro de qualquer nacionalidade, existe a hipótese constitucional de naturalização com residência no Brasil há **mais de quinze anos ininterruptos**, sem condenação penal e mediante requerimento.
 
-### 16.3 Nascimento no exterior — registro ou residência + opção
+Portugueses com residência permanente no Brasil podem receber direitos inerentes ao brasileiro se houver reciprocidade em favor de brasileiros, ressalvados os casos previstos na Constituição. Isso é **equiparação constitucional**, não naturalização automática.
 
-Os nascidos no estrangeiro de pai brasileiro ou mãe brasileira serão natos se:
-
-- registrados em repartição brasileira competente; **ou**
-- vierem a residir no Brasil e optarem, em qualquer tempo, depois de atingida a maioridade, pela nacionalidade brasileira.
-
-## 17. Brasileiros naturalizados
-
-A Constituição prevê, entre outras hipóteses:
-
-- originários de países de língua portuguesa: na forma da lei, exige-se apenas residência por **um ano ininterrupto** e idoneidade moral;
-- estrangeiro de qualquer nacionalidade: residência no Brasil há **mais de quinze anos ininterruptos**, sem condenação penal, desde que requeira nacionalidade brasileira.
-
-## 18. Portugueses equiparados
-
-Aos portugueses com residência permanente no Brasil, se houver reciprocidade em favor de brasileiros, serão atribuídos direitos inerentes ao brasileiro, salvo os casos previstos na Constituição.
-
-Não confunda **equiparação** com naturalização automática.
-
-## 19. Nato × naturalizado
+### 11.3 Nato e naturalizado: a Constituição é que cria as exceções
 
 A lei não pode estabelecer distinção entre brasileiros natos e naturalizados, salvo nos casos previstos na própria Constituição.
 
-### 19.1 Cargos privativos de brasileiro nato
-
-São privativos de nato os cargos de:
+São privativos de brasileiro nato os cargos de:
 
 - Presidente e Vice-Presidente da República;
 - Presidente da Câmara dos Deputados;
@@ -500,80 +346,49 @@ São privativos de nato os cargos de:
 - oficial das Forças Armadas;
 - Ministro de Estado da Defesa.
 
-Mnemônico útil:
+### 11.4 Perda da nacionalidade depois da Emenda Constitucional nº 131/2023
 
-`PRES/VICE + PRES. CÂMARA + PRES. SENADO + STF + DIPLOMATA + OFICIAL FA + DEFESA`
-
-## 20. Perda da nacionalidade — EC nº 131/2023
-
-A Constituição atual não prevê perda automática da nacionalidade brasileira pela mera aquisição de outra nacionalidade.
+A mera aquisição de outra nacionalidade **não provoca, por si só, perda automática da nacionalidade brasileira**.
 
 A perda ocorre quando o brasileiro:
 
-1. tiver cancelada sua naturalização, por sentença judicial, em virtude de fraude relacionada ao processo de naturalização ou de atentado contra a ordem constitucional e o Estado Democrático; ou
-2. fizer **pedido expresso** de perda perante autoridade brasileira competente, ressalvadas situações que acarretem apatridia.
+1. tiver cancelada a naturalização por sentença judicial, em virtude de fraude relacionada ao processo de naturalização ou de atentado contra a ordem constitucional e o Estado Democrático; ou
+2. fizer **pedido expresso** de perda perante autoridade brasileira competente, ressalvadas situações que acarretem <abbr title="Situação de quem não possui nacionalidade">apatridia</abbr>.
 
-O § 5º estabelece que a renúncia prevista no inciso II não impede o interessado de readquirir sua nacionalidade brasileira originária, nos termos da lei.
+A renúncia não impede posterior readquisição da nacionalidade brasileira originária, nos termos da lei.
 
-```text
-ADQUIRIR OUTRA NACIONALIDADE ≠ PERDA AUTOMÁTICA
-```
+### 11.5 Idioma e símbolos
 
-## 21. Art. 13 — idioma e símbolos
+A língua portuguesa é o idioma oficial da República Federativa do Brasil. São símbolos nacionais a bandeira, o hino, as armas e o selo; Estados, Distrito Federal e Municípios podem ter símbolos próprios.
 
-- idioma oficial da República Federativa do Brasil: **língua portuguesa**;
-- símbolos nacionais: bandeira, hino, armas e selo;
-- Estados, Distrito Federal e Municípios podem ter símbolos próprios.
+## 12. Direitos políticos: da nacionalidade à participação na soberania popular
 
----
+A soberania popular é exercida pelo sufrágio universal e pelo voto direto e secreto, com valor igual para todos, e, nos termos da lei, mediante plebiscito, referendo e iniciativa popular.
 
-# Parte IV — Direitos políticos
+Aqui surge a transição entre “ser brasileiro” e “participar politicamente”. O direito político depende de condições constitucionais próprias.
 
-## 22. Art. 14 — soberania popular
+### 12.1 Alistamento e voto
 
-A soberania popular é exercida pelo:
-
-- sufrágio universal;
-- voto direto e secreto;
-- valor igual para todos;
-
-além dos instrumentos previstos em lei:
-
-- plebiscito;
-- referendo;
-- iniciativa popular.
-
-## 23. Alistamento e voto
-
-### Obrigatórios
-
-- maiores de **18 anos**.
-
-### Facultativos
+O voto é **obrigatório** para maiores de 18 anos e **facultativo** para:
 
 - analfabetos;
-- maiores de **70 anos**;
-- maiores de **16 e menores de 18 anos**.
+- maiores de 70 anos;
+- maiores de 16 e menores de 18 anos.
 
-### Inalistáveis
+Não podem alistar-se como eleitores os estrangeiros e os <abbr title="Convocados para o serviço militar obrigatório">conscritos</abbr>, durante o período do serviço militar obrigatório.
 
-Não podem alistar-se como eleitores:
+Analfabetos podem alistar-se e votar facultativamente, mas são **inelegíveis**.
 
-- estrangeiros;
-- conscritos, durante o período do serviço militar obrigatório.
+### 12.2 Elegibilidade: pertencer não basta
 
-## 24. Condições de elegibilidade
-
-Na forma da lei:
+São condições constitucionais de elegibilidade, na forma da lei:
 
 1. nacionalidade brasileira;
 2. pleno exercício dos direitos políticos;
 3. alistamento eleitoral;
 4. domicílio eleitoral na circunscrição;
 5. filiação partidária;
-6. idade mínima constitucional.
-
-### 24.1 Idades mínimas
+6. idade mínima.
 
 | Cargo | Idade mínima |
 |---|---:|
@@ -585,55 +400,34 @@ Na forma da lei:
 | juiz de paz | 21 |
 | Vereador | 18 |
 
-## 25. Inelegibilidades constitucionais
+São inelegíveis os inalistáveis e os analfabetos.
 
-São inelegíveis os:
-
-- inalistáveis;
-- analfabetos.
-
-### 25.1 Reeleição
+### 12.3 Chefes do Executivo e parentes: continuidade tem limites
 
 Presidente da República, Governadores, Prefeitos e quem os houver sucedido ou substituído no curso dos mandatos podem ser reeleitos para **um único período subsequente**.
 
-### 25.2 Renúncia para concorrer a outro cargo
+Para concorrerem a **outros cargos**, Presidente, Governadores e Prefeitos devem renunciar ao mandato até **seis meses antes do pleito**.
 
-Presidente, Governadores e Prefeitos devem renunciar aos mandatos até **seis meses antes do pleito** para concorrerem a outros cargos.
+Há ainda <abbr title="Impedimento eleitoral decorrente de vínculo familiar com chefe do Executivo">inelegibilidade reflexa</abbr>: no território de jurisdição do titular, são inelegíveis o cônjuge e os parentes consanguíneos ou afins, até o segundo grau, ou por adoção, do chefe do Executivo ou de quem o tenha substituído nos seis meses anteriores ao pleito, salvo se já titulares de mandato eletivo e candidatos à reeleição.
 
-### 25.3 Inelegibilidade reflexa
+### 12.4 Militar e outras inelegibilidades
 
-No território de jurisdição do titular, são inelegíveis o cônjuge e os parentes consanguíneos ou afins, até o **segundo grau**, ou por adoção, do chefe do Executivo ou de quem o tenha substituído dentro dos seis meses anteriores ao pleito, salvo se já titular de mandato eletivo e candidato à reeleição.
+O militar alistável segue regra própria:
 
-### 25.4 Militar alistável
+- com menos de dez anos de serviço, deverá afastar-se da atividade;
+- com mais de dez anos, será agregado pela autoridade superior e, se eleito, passará automaticamente, no ato da diplomação, para a inatividade.
 
-- menos de dez anos de serviço → deverá afastar-se da atividade;
-- mais de dez anos → será agregado pela autoridade superior e, se eleito, passará automaticamente, no ato da diplomação, para a inatividade.
+Lei complementar pode estabelecer outros casos de inelegibilidade e prazos de cessação para proteger probidade administrativa, moralidade para o exercício do mandato e normalidade e legitimidade das eleições contra influência do poder econômico ou abuso de função, cargo ou emprego.
 
-### 25.5 Outras inelegibilidades
+### 12.5 Impugnação de mandato e consultas municipais
 
-Lei complementar estabelecerá outros casos de inelegibilidade e prazos de cessação, para proteger probidade administrativa, moralidade para exercício do mandato e normalidade e legitimidade das eleições contra influência do poder econômico ou abuso de função, cargo ou emprego.
+A ação de impugnação de mandato eletivo pode ser proposta perante a Justiça Eleitoral em **15 dias contados da diplomação**, instruída com provas de abuso do poder econômico, corrupção ou fraude. Tramita em segredo de justiça, e o autor responde na forma da lei se agir temerariamente ou de manifesta má-fé.
 
-## 26. Ação de impugnação de mandato eletivo — AIME
+A Constituição também prevê consultas populares concomitantes às eleições municipais sobre questões locais aprovadas pelas Câmaras Municipais e encaminhadas à Justiça Eleitoral até **90 dias antes** das eleições. Manifestações favoráveis e contrárias podem ocorrer durante as campanhas, sem utilização de propaganda gratuita no rádio e na televisão.
 
-O mandato eletivo pode ser impugnado perante a Justiça Eleitoral no prazo de **15 dias contados da diplomação**, com provas de:
+## 13. Perda, suspensão e anterioridade eleitoral
 
-- abuso do poder econômico;
-- corrupção;
-- fraude.
-
-A ação tramita em **segredo de justiça**. O autor responde na forma da lei se agir de maneira temerária ou de manifesta má-fé.
-
-## 27. Consultas populares municipais — EC nº 111/2021
-
-Serão realizadas concomitantemente às eleições municipais consultas populares sobre questões locais aprovadas pelas Câmaras Municipais e encaminhadas à Justiça Eleitoral até **90 dias antes** das eleições, observados limites operacionais.
-
-Manifestações favoráveis e contrárias podem ocorrer durante as campanhas, **sem utilização de propaganda gratuita no rádio e na televisão**.
-
-## 28. Art. 15 — perda e suspensão dos direitos políticos
-
-A Constituição **veda a cassação** de direitos políticos.
-
-Perda ou suspensão só ocorrerá nos casos de:
+O art. 15 **veda a cassação** dos direitos políticos. A perda ou suspensão só pode ocorrer nos casos constitucionais:
 
 1. cancelamento da naturalização por sentença transitada em julgado;
 2. incapacidade civil absoluta;
@@ -641,126 +435,66 @@ Perda ou suspensão só ocorrerá nos casos de:
 4. recusa de cumprir obrigação a todos imposta ou prestação alternativa, nos termos do art. 5º, VIII;
 5. improbidade administrativa, nos termos do art. 37, § 4º.
 
-**Pegadinha:** o art. 15 usa a fórmula “perda ou suspensão”; não autoriza **cassação**.
+O art. 16 resolve outro problema: quando uma mudança eleitoral passa a valer?
 
-## 29. Art. 16 — anterioridade eleitoral
+A lei que altera o processo eleitoral **entra em vigor na data de sua publicação**, mas **não se aplica à eleição que ocorra até um ano da data de sua vigência**. Vigência imediata e aplicação ao pleito são coisas diferentes.
 
-A lei que alterar o processo eleitoral:
+## 14. Partidos políticos: liberdade de organização dentro de limites democráticos
 
-- entra em vigor na data da publicação;
-- **não se aplica à eleição que ocorra até um ano da data de sua vigência**.
+É livre a criação, fusão, incorporação e extinção de partidos políticos, mas a liberdade partidária deve respeitar soberania nacional, regime democrático, pluripartidarismo e direitos fundamentais da pessoa humana.
 
-Não confunda vigência com aplicabilidade ao pleito.
+Também exige:
 
-```text
-PUBLICOU → VIGORA
-ELEIÇÃO EM ATÉ 1 ANO → NÃO SE APLICA A ELA
-```
+- caráter nacional;
+- proibição de recebimento de recursos financeiros de entidade ou governo estrangeiros ou de subordinação a eles;
+- prestação de contas à Justiça Eleitoral;
+- funcionamento parlamentar de acordo com a lei.
 
----
+Os partidos, depois de adquirirem personalidade jurídica na forma da lei civil, registram seus estatutos no Tribunal Superior Eleitoral.
 
-# Parte V — Partidos políticos
+### 14.1 Autonomia, coligações e fidelidade
 
-## 30. Art. 17 — liberdade partidária e limites
+Os partidos têm autonomia para definir estrutura interna, formação e duração de órgãos, organização e funcionamento e critérios de escolha de candidaturas.
 
-É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados:
+Podem adotar coligações em eleições **majoritárias**, mas as coligações são **vedadas nas eleições proporcionais**. Não há obrigatoriedade de vinculação entre candidaturas em âmbito nacional, estadual, distrital ou municipal.
 
-- soberania nacional;
-- regime democrático;
-- pluripartidarismo;
-- direitos fundamentais da pessoa humana.
+É vedada a utilização, pelos partidos, de organização paramilitar.
 
-Devem ser observados:
+Deputados Federais, Estaduais e Distritais e Vereadores que se desligarem do partido pelo qual foram eleitos perdem o mandato, salvo anuência do partido ou outras hipóteses de justa causa estabelecidas em lei. A migração não é computada para distribuição de recursos de fundos públicos nem para acesso gratuito ao rádio e à televisão.
 
-1. caráter nacional;
-2. proibição de recebimento de recursos financeiros de entidade ou governo estrangeiros ou de subordinação a estes;
-3. prestação de contas à Justiça Eleitoral;
-4. funcionamento parlamentar de acordo com a lei.
+### 14.2 Cláusula de desempenho: texto permanente e transição não são a mesma regra
 
-## 31. Autonomia partidária
+O § 3º do art. 17 contém a regra permanente de acesso a recursos do fundo partidário e ao rádio e à televisão: **3% dos votos válidos para a Câmara dos Deputados**, distribuídos em pelo menos um terço das unidades da Federação, com mínimo de **2% em cada uma delas**, **ou 15 Deputados Federais** distribuídos em pelo menos um terço das unidades da Federação.
 
-Os partidos têm autonomia para definir sua estrutura interna e regras sobre:
+Mas a Emenda Constitucional nº 97/2017 determinou que essa regra permanente só se aplica **a partir das eleições de 2030**.
 
-- escolha, formação e duração de órgãos permanentes e provisórios;
-- organização e funcionamento;
-- critérios de escolha e regime de coligações nas eleições **majoritárias**;
+No corte do edital, em 6 de julho de 2026, estava em curso a legislatura seguinte às eleições de 2022. Para ela, a transição exigia alternativamente:
 
-sendo vedadas coligações nas eleições **proporcionais**.
+- **2%** dos votos válidos para a Câmara dos Deputados, em pelo menos um terço das unidades da Federação, com mínimo de **1% em cada uma delas**; ou
+- **11 Deputados Federais**, distribuídos em pelo menos um terço das unidades da Federação.
 
-Não há obrigatoriedade de vinculação entre candidaturas em âmbito nacional, estadual, distrital ou municipal. Os estatutos devem estabelecer normas de disciplina e fidelidade partidária.
+Para a legislatura seguinte às eleições de **2026**, a transição sobe para:
 
-## 32. Registro e cláusula constitucional de desempenho
+- **2,5%** dos votos válidos, em pelo menos um terço das unidades da Federação, com mínimo de **1,5% em cada uma delas**; ou
+- **13 Deputados Federais**, distribuídos em pelo menos um terço das unidades da Federação.
 
-Depois de adquirirem personalidade jurídica na forma da lei civil, os partidos registram seus estatutos no **Tribunal Superior Eleitoral**.
+Ao eleito por partido que não preencher o requisito de desempenho é assegurado o mandato e é facultada filiação, sem perda do mandato, a partido que o tenha atingido; essa filiação não conta para a distribuição dos recursos e do acesso gratuito previstos no dispositivo.
 
-Somente têm direito a recursos do Fundo Partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos que, alternativamente:
+### 14.3 Participação política de mulheres e candidaturas de pessoas pretas e pardas
 
-- obtenham, nas eleições para Câmara dos Deputados, no mínimo **3% dos votos válidos**, distribuídos em pelo menos **1/3 das unidades da Federação**, com mínimo de **2% dos votos válidos em cada uma delas**; ou
-- tenham eleito pelo menos **15 Deputados Federais**, distribuídos em pelo menos **1/3 das unidades da Federação**.
+Os partidos devem aplicar no mínimo **5% dos recursos do fundo partidário** na criação e manutenção de programas de promoção e difusão da participação política das mulheres.
 
-## 33. Recursos partidários e participação política das mulheres
+Devem ainda aplicar no mínimo **30%** dos recursos do <abbr title="Fundo Especial de Financiamento de Campanha">FEFC</abbr> e da parcela do fundo partidário destinada a campanhas, bem como no mínimo 30% do tempo de propaganda gratuita no rádio e na televisão, às candidaturas femininas, proporcionalmente ao número de candidatas e conforme critérios partidários e estatutários.
 
-A EC nº 117/2022 acrescentou ao art. 17:
+Além disso, o art. 17, § 9º, determina que **30% dos recursos do <abbr title="Fundo Especial de Financiamento de Campanha">FEFC</abbr> e do fundo partidário destinados às campanhas eleitorais** sejam aplicados em candidaturas de pessoas pretas e pardas, nas circunscrições que melhor atendam aos interesses e estratégias partidárias.
 
-- mínimo de **5% dos recursos do Fundo Partidário** para criação e manutenção de programas de promoção e difusão da participação política das mulheres;
-- no mínimo **30%** do <abbr title="Fundo Especial de Financiamento de Campanha">FEFC</abbr> e da parcela do Fundo Partidário destinada a campanhas eleitorais, bem como do tempo de propaganda gratuita no rádio e na televisão, para candidaturas femininas, proporcionalmente ao número de candidatas e conforme critérios partidários e estatutários.
+## 15. Como ler uma questão deste capítulo
 
-## 34. Recursos para candidaturas de pessoas pretas e pardas
+A quantidade de regras pode assustar, mas as questões normalmente exigem uma das seguintes operações:
 
-A EC nº 133/2024 acrescentou o § 9º ao art. 17:
+1. **identificar o direito ou instituto**: reunião, associação, remédio, nacionalidade, voto, partido;
+2. **reconhecer a condição**: dia, trânsito em julgado, prévio aviso, idade, prazo, percentual;
+3. **separar categorias próximas**: nato × naturalizado; alistável × elegível; vigência × aplicação eleitoral; texto constitucional × jurisprudência;
+4. **aplicar a exceção sem ampliar seu alcance**: ordem judicial no domicílio, extradição do naturalizado, perda da nacionalidade, restrições partidárias.
 
-> dos recursos do FEFC e do Fundo Partidário destinados às campanhas eleitorais, os partidos devem aplicar obrigatoriamente **30% em candidaturas de pessoas pretas e pardas**, nas circunscrições que melhor atendam aos interesses e às estratégias partidárias.
-
-Este dispositivo já integra o corte do edital de 6/7/2026.
-
----
-
-# 35. Matriz final do Título II
-
-| Capítulo | Artigos | Núcleo |
-|---|---:|---|
-| I | 5º | direitos/deveres individuais e coletivos + remédios constitucionais |
-| II | 6º–11 | direitos sociais, trabalhadores, sindicato, greve e representação |
-| III | 12–13 | nacionalidade, idioma e símbolos |
-| IV | 14–16 | soberania popular, voto, elegibilidade, direitos políticos e anterioridade |
-| V | 17 | partidos políticos |
-
----
-
-# 36. Pegadinhas consolidadas
-
-1. **prévio aviso de reunião ≠ autorização**;
-2. ordem judicial para entrada em casa: **durante o dia**;
-3. dissolução compulsória de associação exige **trânsito em julgado**; suspensão, não;
-4. requisição: indenização ulterior **se houver dano**;
-5. ação popular: legitimidade do **cidadão**;
-6. MS coletivo por associação: constituição e funcionamento há pelo menos **1 ano**;
-7. tratado de direitos humanos com rito de 3/5, dois turnos, em cada Casa = **emenda constitucional**;
-8. aplicação imediata dos direitos fundamentais ≠ eficácia plena de todos eles;
-9. jornada normal: **8 h/dia e 44 h/semana**;
-10. menor: trabalho geral só a partir de **16**, aprendiz a partir de **14**; trabalho noturno/perigoso/insalubre só a partir de **18**;
-11. empresa com **mais de 200 empregados** → um representante do art. 11;
-12. mera aquisição de outra nacionalidade **não** gera perda automática da brasileira;
-13. Presidente, Presidente da Câmara, Presidente do Senado e Ministro do STF são cargos privativos de **nato**;
-14. voto facultativo: analfabeto, >70, 16–17;
-15. estrangeiro e conscrito: **inalistáveis**;
-16. idade mínima de Senador = **35**, não 30;
-17. AIME = **15 dias da diplomação**;
-18. art. 15: cassação de direitos políticos é **vedada**;
-19. art. 16: lei vigora na publicação, mas não se aplica a eleição dentro de **1 ano**;
-20. coligação proporcional = **vedada**;
-21. art. 17: 5% para programas de participação política das mulheres; 30% para candidaturas femininas; 30% para candidaturas de pessoas pretas e pardas, nos termos constitucionais.
-
----
-
-# 37. Método de resolução em prova
-
-Ao encontrar uma questão de direitos fundamentais:
-
-1. identifique o **capítulo** do Título II;
-2. procure número, prazo, exceção ou requisito literal;
-3. diferencie autorização de comunicação, perda de suspensão, nato de naturalizado e vigência de aplicação;
-4. em remédios constitucionais, identifique o **bem jurídico** protegido;
-5. em Direito Eleitoral, fique primeiro na Constituição: só use legislação infraconstitucional se a própria questão a trouxer.
-
----
+O melhor método é perguntar primeiro **qual problema constitucional está sendo regulado** e só depois recuperar o número ou a exceção. Isso preserva o modelo mental e reduz a dependência de listas isoladas.
