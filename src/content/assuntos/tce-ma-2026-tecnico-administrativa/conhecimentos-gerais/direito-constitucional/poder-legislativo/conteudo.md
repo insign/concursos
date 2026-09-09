@@ -6,833 +6,409 @@ order: 129
 storageId: tec-poder-legislativo-129
 ---
 
-# Poder Legislativo: estrutura, funcionamento, atribuições, processo legislativo, fiscalização contábil, financeira e orçamentária e CPIs
+# Poder Legislativo: estrutura, funcionamento, atribuições, processo legislativo, fiscalização contábil, financeira e orçamentária e <abbr title="Comissões Parlamentares de Inquérito">CPIs</abbr>
 
-## 1. Recorte do edital e fronteiras do assunto
+## 1. O mapa que organiza os arts. 44 a 75
 
-O item 7 de **Direito Constitucional** do Cargo 16 exige cinco subnúcleos:
+Uma questão diz que o Congresso pode sustar um ato do Executivo. Outra pergunta quem julga as contas do Presidente. Uma terceira atribui a uma comissão de inquérito poder para decretar busca domiciliar. Antes de decorar artigos, separe quatro funções do Legislativo:
 
-1. **estrutura** do Poder Legislativo;
-2. **funcionamento e atribuições**;
-3. **processo legislativo**;
-4. **fiscalização contábil, financeira e orçamentária**;
-5. **comissões parlamentares de inquérito (CPIs)**.
+1. **representar e deliberar** — Câmara e Senado formam o Congresso;
+2. **legislar** — cada espécie normativa segue iniciativa, votação e participação presidencial próprias;
+3. **controlar e fiscalizar** — o Congresso exerce controle político e controle externo, este com auxílio do <abbr title="Tribunal de Contas da União">TCU</abbr>;
+4. **investigar** — comissões, especialmente as <abbr title="Comissões Parlamentares de Inquérito">CPIs</abbr>, apuram fatos sem exercer jurisdição.
 
-O eixo constitucional é o **Capítulo I do Título IV da Constituição Federal, arts. 44 a 75**.
+Em prova, pergunte nesta ordem: **quem age? qual instrumento usa? há quórum especial? o Presidente participa?** Isso transforma uma lista extensa em um sistema.
 
-> **Corte de prova:** texto constitucional e jurisprudência consolidados até **6 de julho de 2026**. Nesse corte já vigora a **<abbr title="Emenda Constitucional">EC</abbr> nº 139/2026**, que alterou o art. 75, e já havia sido julgado pelo <abbr title="Supremo Tribunal Federal">STF</abbr> o **<abbr title="Mandado de Segurança">MS</abbr> 40.799**, relevante para a prorrogação de CPI/<abbr title="Comissão Parlamentar Mista de Inquérito">CPMI</abbr>.
-
-Este assunto integra a visão constitucional do Legislativo. Para evitar duplicidade:
-
-- o **Assunto 047 — Controle parlamentar** aprofunda fiscalização política, art. 50 e CPIs;
-- o **Assunto 048 — Controle pelos tribunais de contas** aprofunda competências, processos e jurisprudência dos tribunais de contas;
-- o **Assunto 053 — Controle da atividade financeira do Estado** aprofunda sistemas e espécies de controle.
-
-Aqui, esses temas aparecem na medida necessária para compreender o **desenho constitucional dos arts. 44 a 75**.
+> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026 já vigorava e alterou o art. 75. Até a revisão deste capítulo, em 9 de setembro de 2026, não foi promulgada emenda constitucional posterior; o marco exigível pela prova continua sendo o corte do edital.
 
 ---
 
 # Parte I — Estrutura e funcionamento
 
-## 2. Congresso Nacional — art. 44
+## 2. Congresso, Câmara e Senado — arts. 44 a 46
 
-O Poder Legislativo federal é exercido pelo **Congresso Nacional**, composto por:
+O Poder Legislativo federal é exercido pelo **Congresso Nacional**, composto por **Câmara dos Deputados** e **Senado Federal**. Como existem duas Casas, o sistema é **bicameral**.
 
-- **Câmara dos Deputados**; e
-- **Senado Federal**.
+A diferença entre elas nasce do que representam:
 
-Trata-se de **bicameralismo**.
+- **Câmara** → representa o **povo**; eleição pelo sistema **proporcional**;
+- **Senado** → representa os **Estados e o Distrito Federal**; eleição pelo princípio **majoritário**.
 
-Cada **legislatura** dura **quatro anos**.
+Na Câmara, a representação por Estado e pelo Distrito Federal é proporcional à população, definida por lei complementar, com **mínimo de 8 e máximo de 70 Deputados**; cada Território elege **4**.
 
-### 2.1 Legislatura não é mandato de senador
+No Senado, cada Estado e o Distrito Federal elegem **3 Senadores**, cada um com **2 suplentes**, para mandato de **8 anos**. A renovação ocorre de quatro em quatro anos, alternadamente por **1/3 e 2/3**.
 
-Não confunda:
+### 2.1 Legislatura, mandato e sessão legislativa
 
-| Instituto | Duração |
-|---|---:|
-| legislatura | 4 anos |
-| mandato de deputado federal | 4 anos |
-| mandato de senador | 8 anos |
+**Legislatura** é o ciclo de quatro anos de atividade parlamentar. O mandato de Deputado também dura quatro anos; o de Senador dura oito, atravessando duas legislaturas.
 
-O Senado se renova a cada quatro anos, alternadamente, por **1/3 e 2/3**.
+**Sessão legislativa** é o ciclo anual de trabalhos. Não a confunda com legislatura nem com mandato.
 
----
+## 3. Como se decide — art. 47
 
-## 3. Câmara dos Deputados — art. 45
+Salvo regra constitucional específica, cada Casa e suas comissões deliberam pela **maioria dos votos**, desde que esteja presente a **maioria absoluta de seus membros**.
 
-A Câmara é composta por **representantes do povo**, eleitos pelo **sistema proporcional** em cada Estado, Território e no Distrito Federal.
+A Constituição distingue, portanto:
 
-A Constituição estabelece que:
+- **quórum de presença** — quantos precisam estar presentes;
+- **quórum de aprovação** — quantos votos favoráveis são necessários.
 
-- o número total de deputados e a representação por Estado/DF são definidos por **lei complementar**;
-- a representação é proporcional à população;
-- cada Estado e o DF terão **mínimo de 8 e máximo de 70 deputados**;
-- cada Território elegerá **4 deputados**.
+**Maioria absoluta** significa mais da metade do número total de membros, não dos presentes.
 
-**Pegadinha:** a Constituição não fixa número igual de deputados por Estado.
+Antes de aplicar o art. 47, verifique se há quórum especial. Neste capítulo, por exemplo: <abbr title="Proposta de Emenda à Constituição">PEC</abbr> exige **3/5** em dois turnos em cada Casa; lei complementar exige **maioria absoluta**; a autorização da Câmara do art. 51, I, exige **2/3**.
 
----
+## 4. Quando o Congresso se reúne — art. 57
 
-## 4. Senado Federal — art. 46
+A sessão legislativa ordinária ocorre, na Capital Federal:
 
-O Senado representa os **Estados e o Distrito Federal**.
+- de **2 de fevereiro a 17 de julho**;
+- de **1º de agosto a 22 de dezembro**.
 
-Características:
+Se a data cair em sábado, domingo ou feriado, passa para o primeiro dia útil seguinte. A sessão não será interrompida sem aprovação do projeto de <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>.
 
-- eleição pelo **princípio majoritário**;
-- cada Estado e o DF elegem **3 senadores**;
-- mandato de **8 anos**;
-- renovação de quatro em quatro anos, alternadamente por **1/3 e 2/3**;
-- cada senador é eleito com **2 suplentes**.
+No primeiro ano da legislatura, cada Casa realiza sessões preparatórias para posse e eleição da Mesa. O mandato da Mesa é de **2 anos**, vedada a recondução ao mesmo cargo na eleição imediatamente subsequente. A Mesa do Congresso é presidida pelo Presidente do Senado.
 
-```text
-CÂMARA → POVO → PROPORCIONAL
-SENADO → ESTADOS + DF → MAJORITÁRIO
-```
+Câmara e Senado reúnem-se em **sessão conjunta**, entre outros casos, para inaugurar a sessão legislativa, elaborar o regimento comum, receber o compromisso do Presidente e do Vice e deliberar sobre veto.
+
+A convocação extraordinária segue as hipóteses do § 6º. Em urgência ou interesse público relevante, as iniciativas previstas no inciso II dependem de **aprovação da maioria absoluta de cada Casa**. Na sessão extraordinária, delibera-se sobre a matéria da convocação, ressalvada a inclusão constitucional de medidas provisórias em vigor.
+
+## 5. Comissões — art. 58
+
+As comissões distribuem o trabalho parlamentar por matéria ou finalidade e podem ser **permanentes** ou **temporárias**. Na composição das Mesas e comissões, assegura-se, tanto quanto possível, representação proporcional dos partidos ou blocos.
+
+Conforme sua competência, uma comissão pode discutir e votar projeto que dispense Plenário — salvo recurso de **1/10 dos membros da Casa** —, realizar audiência pública, convocar Ministro, receber petições e reclamações, solicitar depoimentos e apreciar programas e planos.
+
+No recesso funciona uma **Comissão Representativa do Congresso**, preservada, quanto possível, a proporcionalidade partidária.
 
 ---
 
-## 5. Regra geral de deliberação — art. 47
+# Parte II — Atribuições: descubra primeiro quem é o órgão competente
 
-Salvo disposição constitucional em contrário:
+## 6. Arts. 48, 49, 51 e 52: a divisão que evita trocas
 
-- deliberação = **maioria dos votos**;
-- condição de presença = **maioria absoluta dos membros**.
+A Constituição usa quatro caixas:
 
-Logo, a Constituição distingue:
+| Regra | Órgão | Participação presidencial |
+|---|---|---|
+| art. 48 | Congresso | em regra, **há sanção** |
+| art. 49 | Congresso, competência exclusiva | **sem sanção** |
+| art. 51 | Câmara, competência privativa | **sem sanção** |
+| art. 52 | Senado, competência privativa | **sem sanção** |
 
-- **quórum de presença**; e
-- **quórum de aprovação**.
+O erro típico é acertar o ato, mas atribuí-lo ao órgão errado.
 
-Essa regra cede quando a própria Constituição exige quórum especial, como:
+### 6.1 Art. 48 — Congresso legislando com sanção
 
-- <abbr title="Proposta de Emenda à Constituição">PEC</abbr> → **3/5**, em dois turnos, em cada Casa;
-- lei complementar → **maioria absoluta**;
-- autorização da Câmara do art. 51, I → **2/3**;
-- suspensão de imunidades no estado de sítio → **2/3** da Casa respectiva.
+O art. 48 reúne matérias sobre as quais o Congresso dispõe por lei, como: sistema tributário; <abbr title="Plano Plurianual">PPA</abbr>, <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> e orçamento; operações de crédito e dívida; efetivo das Forças Armadas; planos de desenvolvimento; território e bens da União; anistia; organização administrativa e judiciária; cargos e funções; Ministérios; telecomunicações; matéria financeira, cambial e monetária; moeda e subsídio dos Ministros do <abbr title="Supremo Tribunal Federal">STF</abbr>.
 
----
+A ideia central é a **produção legislativa com participação presidencial**, ao contrário dos arts. 49, 51 e 52.
 
-# Parte II — Atribuições
+### 6.2 Art. 49 — Congresso agindo sozinho
 
-## 6. Art. 48 — Congresso com sanção presidencial
+Nas competências exclusivas, não há sanção. Entre as mais relevantes, o Congresso:
 
-O art. 48 disciplina matérias sobre as quais o Congresso dispõe **com sanção do Presidente da República**.
+- resolve definitivamente sobre atos internacionais gravosos e exerce autorizações constitucionais relativas a guerra, paz e ausência do Presidente e do Vice por mais de **15 dias**;
+- aprova estado de defesa e intervenção federal, autoriza estado de sítio e decreta calamidade pública nacional nas hipóteses constitucionais;
+- susta atos normativos do Executivo que exorbitem do poder regulamentar ou da delegação legislativa;
+- fixa subsídios parlamentares e do Presidente, Vice e Ministros;
+- **julga as contas anuais do Presidente** e fiscaliza atos do Executivo;
+- escolhe **2/3 dos membros do <abbr title="Tribunal de Contas da União">TCU</abbr>**;
+- aprecia concessões de rádio e televisão, aprova iniciativas nucleares, autoriza referendo e convoca plebiscito;
+- exerce as autorizações constitucionais sobre recursos em terras indígenas e sobre alienação ou concessão de terras públicas acima de **2.500 hectares**.
 
-A sanção não é exigida nas competências dos arts. **49, 51 e 52**.
+“Sustar” no art. 49, V, não é poder geral de anular qualquer ato administrativo: o dispositivo mira **atos normativos** que ultrapassem os limites ali descritos.
 
-Entre os temas do art. 48 estão:
+## 7. Art. 50: fiscalização por informação
 
-- sistema tributário, arrecadação e distribuição de rendas;
-- <abbr title="Plano Plurianual">PPA</abbr>, <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> e orçamento anual;
-- operações de crédito, dívida pública e emissões;
-- efetivo das Forças Armadas;
-- planos e programas nacionais, regionais e setoriais;
-- organização administrativa e judiciária nos termos constitucionais;
-- criação, transformação e extinção de cargos, empregos e funções;
-- criação e extinção de Ministérios e órgãos;
-- telecomunicações e radiodifusão;
-- matérias financeira, cambial e monetária;
-- fixação do subsídio dos Ministros do STF.
-
-### Fórmula
-
-```text
-ART. 48 → LEI → em regra HÁ sanção
-ART. 49 → competência exclusiva do Congresso → SEM sanção
-ART. 51 → competência privativa da Câmara → SEM sanção
-ART. 52 → competência privativa do Senado → SEM sanção
-```
-
----
-
-## 7. Art. 49 — competência exclusiva do Congresso
-
-O art. 49 contém competências que o Congresso exerce **sem sanção presidencial**.
-
-Entre as mais cobradas:
-
-- resolver definitivamente sobre tratados, acordos ou atos internacionais gravosos;
-- autorizar o Presidente e o Vice-Presidente a se ausentarem do País por mais de 15 dias;
-- aprovar estado de defesa e intervenção federal e autorizar estado de sítio;
-- sustar atos normativos do Executivo que exorbitem do poder regulamentar ou da delegação legislativa;
-- mudar temporariamente sua sede;
-- fixar subsídios de Deputados e Senadores;
-- fixar subsídios do Presidente, Vice e Ministros de Estado;
-- julgar anualmente as contas do Presidente;
-- fiscalizar e controlar atos do Executivo, inclusive da administração indireta;
-- zelar pela preservação da competência legislativa;
-- apreciar concessões de rádio e televisão;
-- escolher **2/3 dos membros do <abbr title="Tribunal de Contas da União">TCU</abbr>**;
-- autorizar referendo e convocar plebiscito;
-- autorizar, em terras indígenas, aproveitamento de recursos hídricos e pesquisa/lavra mineral;
-- aprovar previamente alienação ou concessão de terras públicas acima de 2.500 hectares;
-- decretar o estado de calamidade pública de âmbito nacional previsto na Constituição.
-
-**Pegadinha:** o art. 49, V, fala em **sustar**, não em exercer poder geral de anulação de atos administrativos.
-
----
-
-## 8. Art. 50 — convocação e pedidos de informação
-
-Podem convocar para prestar **pessoalmente** informações sobre assunto previamente determinado:
-
-- Câmara dos Deputados;
-- Senado Federal;
-- qualquer de suas comissões.
-
-Podem ser convocados:
+Câmara, Senado ou qualquer de suas comissões podem convocar para prestar **pessoalmente** informações sobre assunto determinado:
 
 - Ministro de Estado;
-- titular de órgão diretamente subordinado à Presidência da República;
-- Presidente do Comitê Gestor do <abbr title="Imposto sobre Bens e Serviços">IBS</abbr>.
+- titular de órgão diretamente subordinado à Presidência;
+- Presidente do Comitê Gestor do Imposto sobre Bens e Serviços.
 
-A ausência sem justificação adequada importa **crime de responsabilidade**.
+A ausência sem justificativa adequada importa crime de responsabilidade.
 
-As **Mesas da Câmara e do Senado** podem encaminhar pedidos escritos de informação. Recusa, não atendimento em **30 dias** ou informação falsa também podem caracterizar crime de responsabilidade.
+As **Mesas da Câmara e do Senado** podem encaminhar pedidos escritos de informação às mesmas autoridades. Recusa, informação falsa ou falta de resposta em **30 dias** também pode caracterizar crime de responsabilidade.
 
----
+A diferença é útil: **convocação pessoal** pode partir da Casa ou comissão; **pedido escrito** parte das Mesas.
 
-## 9. Art. 51 — competências privativas da Câmara
+## 8. Câmara e Senado — arts. 51 e 52
 
-Pontos centrais:
+### 8.1 Câmara
 
-1. autorizar, por **2/3 de seus membros**, a instauração de processo contra Presidente, Vice-Presidente e Ministros de Estado nas hipóteses constitucionais;
-2. proceder à **tomada de contas do Presidente** se não apresentadas ao Congresso em 60 dias após a abertura da sessão legislativa;
-3. elaborar seu regimento interno;
-4. dispor sobre sua organização e serviços;
-5. eleger membros do Conselho da República nos termos constitucionais.
+Compete privativamente à Câmara, entre outros atos:
 
----
+- autorizar, por **2/3 de seus membros**, a instauração de processo contra Presidente, Vice-Presidente e Ministros de Estado nas hipóteses constitucionais;
+- tomar as contas do Presidente se não forem apresentadas ao Congresso em **60 dias após a abertura da sessão legislativa**;
+- elaborar regimento, organizar seus serviços e eleger membros do Conselho da República.
 
-## 10. Art. 52 — competências privativas do Senado
+### 8.2 Senado
 
-Entre as mais cobradas:
+O Senado concentra funções de julgamento político, aprovação de autoridades e disciplina financeira. Compete-lhe, entre outros pontos:
 
 - processar e julgar Presidente e Vice nos crimes de responsabilidade;
-- processar e julgar Ministros de Estado e Comandantes das Forças Armadas nos crimes conexos;
-- processar e julgar, nos casos constitucionais, Ministros do STF, membros do <abbr title="Conselho Nacional de Justiça">CNJ</abbr>/<abbr title="Conselho Nacional do Ministério Público">CNMP</abbr>, <abbr title="Procurador-Geral da República">PGR</abbr> e <abbr title="Advogado-Geral da União">AGU</abbr>;
-- aprovar previamente certas autoridades;
-- autorizar operações externas de natureza financeira;
-- fixar limites para dívida e operações de crédito;
-- suspender a execução de lei declarada inconstitucional pelo STF em decisão definitiva;
-- aprovar, por maioria absoluta e voto secreto, a exoneração de ofício do PGR antes do término do mandato;
-- elaborar seu regimento e dispor sobre sua organização.
+- julgar, nas hipóteses constitucionais, Ministros do <abbr title="Supremo Tribunal Federal">STF</abbr>, membros do Conselho Nacional de Justiça e do Conselho Nacional do Ministério Público, Procurador-Geral da República e Advogado-Geral da União;
+- aprovar previamente autoridades, inclusive Ministros do <abbr title="Tribunal de Contas da União">TCU</abbr> indicados pelo Presidente;
+- autorizar operações financeiras externas e disciplinar limites de dívida, crédito e garantias;
+- suspender a execução de lei declarada inconstitucional por decisão definitiva do <abbr title="Supremo Tribunal Federal">STF</abbr>;
+- elaborar regimento, organizar seus serviços e avaliar periodicamente o Sistema Tributário Nacional.
 
-### Câmara × Senado — pegadinha clássica
+Nos julgamentos dos incisos I e II, preside o Presidente do <abbr title="Supremo Tribunal Federal">STF</abbr>; a condenação exige **2/3 do Senado** e produz, no plano político, perda do cargo e inabilitação por oito anos para função pública, sem prejuízo das sanções judiciais.
 
-```text
-CÂMARA → AUTORIZA instauração contra Presidente (2/3)
-SENADO → PROCESSA/JULGA crime de responsabilidade
-STF → JULGA infração penal comum, após admissibilidade constitucional
-```
+A sequência presidencial que mais cai é: **Câmara autoriza; Senado processa e julga crime de responsabilidade**.
 
 ---
 
-# Parte III — Estatuto dos parlamentares
+# Parte III — Deputados e Senadores: proteção funcional e limites
 
-## 11. Imunidade material — art. 53
+## 9. Imunidades — art. 53
 
-Deputados e senadores são invioláveis, civil e penalmente, por suas:
+A **imunidade material** protege Deputados e Senadores, civil e penalmente, por suas opiniões, palavras e votos. A jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr> relaciona a proteção ao exercício da função parlamentar; não é licença para qualquer conduta privada.
 
-- opiniões;
-- palavras;
-- votos.
+Desde a expedição do diploma, não podem ser presos, salvo em **flagrante de crime inafiançável**. Nesse caso, os autos vão em **24 horas** à Casa respectiva, que decide sobre a prisão pela maioria de seus membros.
 
-A imunidade material protege manifestações vinculadas ao exercício parlamentar nos termos da jurisprudência.
+Recebida denúncia por crime ocorrido **após a diplomação**, o <abbr title="Supremo Tribunal Federal">STF</abbr> comunica a Casa. Por iniciativa de partido nela representado e maioria dos membros, a Casa pode sustar a ação até a decisão final. O pedido deve ser apreciado em **45 dias improrrogáveis**; a sustação suspende a prescrição enquanto durar o mandato.
 
----
+O art. 53 ainda protege informações ligadas ao mandato, condiciona a incorporação às Forças Armadas a licença da Casa e mantém as imunidades no estado de sítio, salvo suspensão nas condições constitucionais e por **2/3 da Casa**.
 
-## 12. Imunidade formal
+## 10. Incompatibilidades, perda e afastamentos — arts. 54 a 56
 
-Desde a expedição do diploma, membros do Congresso não podem ser presos, salvo em **flagrante de crime inafiançável**.
+O art. 54 evita conflitos entre mandato e interesses ou vínculos incompatíveis.
 
-Nesse caso:
+Desde o **diploma**, há proibições relativas a contratos com determinadas entidades públicas — salvo <abbr title="Condições padronizadas, sem negociação individual específica">cláusulas uniformes</abbr> — e a cargos ou empregos remunerados nessas entidades.
 
-- os autos são remetidos em 24 horas à Casa respectiva;
-- a Casa resolve sobre a prisão pelo voto da maioria de seus membros.
+Desde a **posse**, somam-se vedações como dirigir empresa favorecida por contrato público, ocupar certas funções de livre exoneração, patrocinar causa de interesse das entidades indicadas e acumular mais de um cargo ou mandato eletivo.
 
-### 12.1 Ação penal
+O art. 55 prevê perda do mandato por violação das incompatibilidades, quebra de decoro, faltas no limite constitucional, perda ou suspensão de direitos políticos, decisão da Justiça Eleitoral e condenação criminal transitada em julgado.
 
-Recebida denúncia contra deputado ou senador por crime ocorrido **após a diplomação**, o STF dá ciência à Casa respectiva.
+- incisos **I, II e VI** → perda **decidida pela Casa**, por maioria absoluta;
+- incisos **III a V** → perda **declarada pela Mesa**.
 
-Por iniciativa de partido nela representado e voto da **maioria de seus membros**, a Casa poderá sustar o andamento da ação enquanto durar o mandato.
+Em ambos os grupos há ampla defesa.
 
-O pedido deve ser apreciado em até **45 dias**, e a sustação suspende a prescrição enquanto durar o mandato.
+O art. 56, por outro lado, indica situações em que **não há perda**. Entre elas estão a investidura nos cargos ali enumerados, inclusive **chefe de missão diplomática temporária**, e licença por doença ou, sem remuneração, para interesse particular por até **120 dias por sessão legislativa**. O suplente é convocado nas hipóteses constitucionais; vaga sem suplente gera eleição se faltarem **mais de 15 meses** para o fim do mandato.
 
 ---
 
-## 13. Incompatibilidades — art. 54
+# Parte IV — <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr>: investigar não é julgar
 
-A Constituição diferencia proibições:
+## 11. Criação: minoria qualificada, fato e tempo
 
-- **desde a expedição do diploma**; e
-- **desde a posse**.
-
-Entre os exemplos:
-
-- contratos com certas entidades públicas, salvo cláusulas uniformes;
-- exercício de cargo/função remunerada nas hipóteses constitucionais;
-- direção de empresa favorecida por contrato público;
-- patrocínio de causa em que entidade pública indicada seja interessada;
-- titularidade de mais de um cargo ou mandato público eletivo.
-
----
-
-## 14. Perda do mandato — art. 55
-
-Hipóteses incluem:
-
-- violação das incompatibilidades do art. 54;
-- quebra de decoro;
-- faltas reiteradas no limite constitucional;
-- perda/suspensão de direitos políticos;
-- decisão da Justiça Eleitoral;
-- condenação criminal transitada em julgado.
-
-Nos casos dos incisos I, II e VI, a perda é **decidida pela Casa**, por maioria absoluta, assegurada ampla defesa.
-
-Nos casos dos incisos III a V, a perda é **declarada pela Mesa**.
-
----
-
-## 15. Hipóteses em que não há perda — art. 56
-
-Não perde o mandato quem, nas hipóteses constitucionais:
-
-- é investido em determinados cargos públicos;
-- é licenciado pela Casa por doença ou para tratar de interesse particular, observados os limites;
-- desempenha missão temporária de caráter diplomático ou cultural.
-
-A Constituição também disciplina convocação de suplente.
-
----
-
-# Parte IV — Sessões e comissões
-
-## 16. Sessão legislativa — art. 57
-
-O Congresso reúne-se anualmente, na Capital Federal, de:
-
-- **2 de fevereiro a 17 de julho**;
-- **1º de agosto a 22 de dezembro**.
-
-Se as datas caírem em sábado, domingo ou feriado, a reunião é transferida para o primeiro dia útil subsequente.
-
-A sessão legislativa não será interrompida sem aprovação do **projeto de LDO**.
-
----
-
-## 17. Sessões conjuntas e recesso
-
-Câmara e Senado reúnem-se em sessão conjunta, entre outras hipóteses, para:
-
-- inaugurar a sessão legislativa;
-- elaborar o regimento comum;
-- receber compromisso do Presidente e do Vice;
-- conhecer e deliberar sobre veto;
-- demais hipóteses regimentais.
-
-No recesso há **Comissão Representativa do Congresso Nacional**, com composição que reproduza, quanto possível, a proporcionalidade partidária.
-
----
-
-## 18. Comissões — art. 58
-
-O Congresso e suas Casas têm comissões:
-
-- **permanentes**; e
-- **temporárias**.
-
-Na constituição das Mesas e comissões assegura-se, tanto quanto possível, a representação proporcional dos partidos ou blocos parlamentares.
-
-Entre as competências constitucionais das comissões estão:
-
-- discutir e votar projetos que possam dispensar plenário, salvo recurso;
-- realizar audiências públicas;
-- convocar Ministros de Estado;
-- receber petições, reclamações, representações ou queixas;
-- solicitar depoimento de autoridade ou cidadão;
-- apreciar programas de obras, planos nacionais, regionais e setoriais.
-
----
-
-# Parte V — CPI
-
-## 19. Requisitos constitucionais — art. 58, § 3º
-
-A CPI será criada mediante:
+A <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr> é comissão temporária de investigação. Sua criação exige cumulativamente:
 
 1. requerimento de **1/3 dos membros** da Câmara ou do Senado;
 2. **fato determinado**;
 3. **prazo certo**.
 
-Pode haver CPI:
+Ela pode existir em uma só Casa ou, em conjunto, como <abbr title="Comissão Parlamentar Mista de Inquérito">CPMI</abbr>. Preenchidos os requisitos, a criação é garantia da minoria parlamentar e não fica sujeita a aprovação discricionária da maioria.
 
-- de uma única Casa; ou
-- **CPMI**, formada conjuntamente por Câmara e Senado.
+## 12. Poderes investigatórios e reserva de jurisdição
 
-Atendidos os requisitos constitucionais, a criação da CPI configura direito da minoria parlamentar.
+A Constituição confere à <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr> poderes de investigação próprios das autoridades judiciais. Isso amplia meios de prova, mas **não transforma a comissão em órgão jurisdicional**.
 
----
+Com fundamentação e pertinência com o fato investigado, a jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr> admite, por deliberação da própria comissão, medidas como quebra de sigilo bancário e fiscal, acesso a dados telefônicos pretéritos, requisição de documentos e realização de oitivas. A quebra de sigilo precisa ser motivada no momento da deliberação.
 
-## 20. Poderes e limites da CPI
-
-A CPI possui **poderes de investigação próprios das autoridades judiciais**, além de outros previstos nos regimentos.
-
-Isso **não** significa poder jurisdicional.
-
-### 20.1 Pode determinar diretamente, com fundamentação e pertinência
-
-A jurisprudência admite, nos limites constitucionais:
-
-- quebra de sigilo bancário;
-- quebra de sigilo fiscal;
-- acesso a registros telefônicos pretéritos;
-- requisição de documentos e informações;
-- oitivas e diligências.
-
-### 20.2 Reserva de jurisdição
-
-A CPI não pode determinar diretamente medidas reservadas ao Judiciário, como:
+Já a **reserva de jurisdição** mantém certas medidas exclusivamente nas mãos do Judiciário. A comissão não pode decretar diretamente, por exemplo:
 
 - interceptação telefônica em curso;
 - busca e apreensão domiciliar;
 - prisão preventiva ou temporária;
 - indisponibilidade de bens.
 
-**Prisão em flagrante** não se confunde com decretação de prisão cautelar.
+Prisão em flagrante é situação diferente de decretação de prisão cautelar.
+
+O depoente conserva direitos fundamentais: advogado, silêncio diante de risco de autoincriminação, direito de não produzir prova contra si e proteção contra constrangimento ilegal.
+
+A comissão **não condena**. Se for o caso, suas conclusões seguem ao Ministério Público para promoção das responsabilidades cabíveis.
+
+## 13. Prazo certo não significa prorrogação automática
+
+A Lei nº 1.579/1952 admite prorrogação dentro da legislatura nos termos do art. 5º, § 2º.
+
+No <abbr title="Mandado de Segurança">MS</abbr> 40.799, em **26 de março de 2026**, o Plenário do <abbr title="Supremo Tribunal Federal">STF</abbr> rejeitou a prorrogação da <abbr title="Comissão Parlamentar Mista de Inquérito">CPMI</abbr> do Instituto Nacional do Seguro Social. A maioria entendeu que a continuidade além do prazo inicialmente fixado era decisão interna do Congresso.
+
+Logo, o direito da minoria à **criação** da <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr> não produz, por si só, direito automático à **prorrogação**.
 
 ---
 
-## 21. Direitos do depoente
+# Parte V — Processo legislativo: do impulso inicial à norma
 
-O investigado ou testemunha conserva direitos fundamentais, inclusive:
+## 14. Primeiro entenda o fluxo — art. 59
 
-- assistência por advogado;
-- direito ao silêncio quanto a respostas autoincriminatórias;
-- direito de não produzir prova contra si;
-- proteção contra constrangimento ilegal.
+O processo legislativo pode ser lido como:
 
----
+**iniciativa → deliberação → revisão entre as Casas, quando cabível → sanção ou veto, quando cabível → promulgação.**
 
-## 22. Conclusões e prorrogação
+O art. 59 inclui emendas constitucionais, leis complementares, leis ordinárias, leis delegadas, medidas provisórias, decretos legislativos e resoluções. A espécie normativa define quais etapas efetivamente existem.
 
-As conclusões da CPI, se for o caso, são encaminhadas ao **Ministério Público** para promoção de responsabilidade civil ou criminal.
+## 15. Emenda constitucional — art. 60
 
-A CPI **não condena**.
+Podem apresentar <abbr title="Proposta de Emenda à Constituição">PEC</abbr>:
 
-### 22.1 MS 40.799 — corte 2026
-
-Em 26/3/2026, o Plenário do STF rejeitou a prorrogação da CPMI do INSS.
-
-Para prova:
-
-- o direito da minoria à **criação**, presentes os requisitos, não significa direito automático à **prorrogação**;
-- a continuidade da comissão deve observar deliberação e regras parlamentares aplicáveis.
-
----
-
-# Parte VI — Processo legislativo
-
-## 23. Espécies — art. 59
-
-O processo legislativo compreende a elaboração de:
-
-1. emendas à Constituição;
-2. leis complementares;
-3. leis ordinárias;
-4. leis delegadas;
-5. medidas provisórias;
-6. decretos legislativos;
-7. resoluções.
-
----
-
-## 24. Emenda constitucional — art. 60
-
-### 24.1 Iniciativa
-
-Podem propor PEC:
-
-- **1/3**, no mínimo, dos membros da Câmara ou do Senado;
+- pelo menos **1/3 dos membros da Câmara ou do Senado**;
 - Presidente da República;
-- mais da metade das Assembleias Legislativas, manifestando-se cada uma pela maioria relativa de seus membros.
+- mais da metade das Assembleias Legislativas, cada uma por maioria relativa.
 
-### 24.2 Limitações circunstanciais
+Não se emenda a Constituição durante **intervenção federal, estado de defesa ou estado de sítio**.
 
-Não se emenda a Constituição na vigência de:
-
-- intervenção federal;
-- estado de defesa;
-- estado de sítio.
-
-### 24.3 Quórum e promulgação
-
-PEC:
-
-- dois turnos em cada Casa;
-- **3/5 dos membros** em cada turno;
-- promulgada pelas **Mesas da Câmara e do Senado**;
-- não depende de sanção presidencial.
-
-### 24.4 Cláusulas pétreas
+A aprovação exige **3/5 dos membros**, em **dois turnos em cada Casa**. A emenda é promulgada pelas Mesas da Câmara e do Senado: **não há sanção presidencial**.
 
 Não será objeto de deliberação proposta tendente a abolir:
 
-- forma federativa;
+- forma federativa de Estado;
 - voto direto, secreto, universal e periódico;
 - separação dos Poderes;
 - direitos e garantias individuais.
 
-### 24.5 Reapresentação
+Matéria de <abbr title="Proposta de Emenda à Constituição">PEC</abbr> rejeitada ou prejudicada não pode ser objeto de nova proposta na **mesma sessão legislativa**.
 
-PEC rejeitada ou prejudicada não pode ser reapresentada na **mesma sessão legislativa**.
+## 16. Iniciativa das leis e iniciativa popular — art. 61
 
----
+Leis complementares e ordinárias podem ser propostas, conforme a Constituição, por parlamentar ou comissão, Presidente da República, <abbr title="Supremo Tribunal Federal">STF</abbr>, Tribunais Superiores, Procurador-Geral da República e cidadãos.
 
-## 25. Iniciativa das leis — art. 61
+Algumas matérias são de **iniciativa privativa do Presidente**, como determinados temas de efetivos militares, cargos e remuneração na administração federal, servidores, Ministérios e organização administrativa.
 
-A iniciativa de leis complementares e ordinárias pode caber, conforme a Constituição, a:
-
-- parlamentar ou comissão;
-- Presidente da República;
-- STF;
-- Tribunais Superiores;
-- PGR;
-- cidadãos.
-
-Existem matérias de **iniciativa privativa do Presidente**, como as relativas a determinados cargos, servidores, organização administrativa e Forças Armadas.
-
-### 25.1 Iniciativa popular
-
-Projeto de iniciativa popular federal é apresentado à Câmara e exige:
+A iniciativa popular federal exige projeto apresentado à Câmara, subscrito por pelo menos:
 
 - **1% do eleitorado nacional**;
-- distribuído por pelo menos **5 Estados**;
-- mínimo de **0,3% dos eleitores de cada um** desses Estados.
+- distribuído em **5 Estados ou mais**;
+- com no mínimo **0,3% dos eleitores de cada um**.
+
+## 17. Medida provisória — art. 62
+
+A medida provisória nasce de **relevância e urgência**, é editada pelo Presidente com força de lei e vai imediatamente ao Congresso.
+
+Há matérias vedadas, entre elas: nacionalidade e direitos políticos; direito penal e processos penal e civil; organização do Judiciário e do Ministério Público; <abbr title="Plano Plurianual">PPA</abbr>, <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> e orçamento, salvo a exceção constitucional; sequestro de ativos; matéria reservada a lei complementar; e matéria já aprovada pelo Congresso e pendente de sanção ou veto.
+
+Se a medida instituir ou aumentar imposto, salvo as exceções constitucionais relativas a importação, exportação, produtos industrializados, operações financeiras e imposto extraordinário de guerra, só produzirá efeitos no exercício seguinte se for convertida em lei até o último dia do ano em que foi editada.
+
+A medida vale por **60 dias**, prorrogáveis uma vez por mais **60**; a contagem se suspende no recesso. Após **45 dias sem apreciação**, entra em regime de urgência, sucessivamente, em cada Casa. A votação começa na Câmara e passa antes por comissão mista.
+
+É vedada a reedição, na mesma sessão legislativa, de medida rejeitada ou que tenha perdido eficácia por prazo. Em regra, decreto legislativo disciplina as relações jurídicas decorrentes; se não for editado em **60 dias**, as relações constituídas durante a vigência permanecem por ela regidas. Se o projeto de conversão alterar o texto original, a medida provisória permanece integralmente em vigor até a sanção ou o veto do projeto.
+
+## 18. Art. 63: emenda não permite aumentar qualquer despesa
+
+Não se admite aumento da despesa prevista:
+
+- em projetos de iniciativa exclusiva do Presidente, ressalvadas as exceções do art. 166;
+- em projetos sobre organização dos serviços administrativos da Câmara, Senado, Tribunais Federais e Ministério Público.
+
+Esse limite é importante porque a possibilidade de emendar um projeto não elimina a reserva constitucional de iniciativa.
+
+## 19. Urgência e revisão entre as Casas — arts. 64 e 65
+
+Projetos de lei de iniciativa do Presidente, do <abbr title="Supremo Tribunal Federal">STF</abbr> e dos Tribunais Superiores iniciam a discussão e votação na **Câmara**.
+
+Se o Presidente pedir urgência para projeto de sua iniciativa, Câmara e Senado têm, **cada um sucessivamente, até 45 dias** para se manifestar. Ultrapassado o prazo, sobrestam-se as demais deliberações da Casa, salvo as de prazo constitucional. Emendas do Senado voltam à Câmara, que tem **10 dias** para apreciá-las. Esses prazos não correm no recesso nem se aplicam a projetos de código.
+
+Fora ou dentro desse regime, a lógica da revisão é simples:
+
+- revisora **aprova** → segue para sanção ou promulgação;
+- revisora **rejeita** → arquiva;
+- revisora **emenda** → volta à Casa iniciadora.
+
+## 20. Sanção, veto e promulgação — art. 66
+
+**Sanção** é a concordância presidencial. O Presidente dispõe de **15 dias úteis**; silêncio nesse prazo produz sanção.
+
+**Veto** decorre de inconstitucionalidade ou contrariedade ao interesse público. Pode ser total ou parcial, mas o parcial só alcança texto integral de artigo, parágrafo, inciso ou alínea. Os motivos são comunicados ao Presidente do Senado em **48 horas**.
+
+O veto é apreciado em sessão conjunta dentro de **30 dias** e só é rejeitado pela **maioria absoluta dos Deputados e dos Senadores**.
+
+**Promulgação** atesta formalmente a existência da lei. Nos casos previstos no art. 66, se o Presidente não promulgar em 48 horas, a função passa ao Presidente do Senado e, se este também não agir em igual prazo, ao Vice-Presidente do Senado.
+
+## 21. Reapresentação, lei delegada e lei complementar — arts. 67 a 69
+
+Projeto de lei rejeitado pode voltar na mesma sessão legislativa mediante proposta da **maioria absoluta dos membros de qualquer das Casas**. Compare com a <abbr title="Proposta de Emenda à Constituição">PEC</abbr>, que não pode ser reapresentada na mesma sessão quando rejeitada ou prejudicada.
+
+A **lei delegada** é elaborada pelo Presidente após delegação solicitada ao Congresso, formalizada por resolução. Não se delegam competências exclusivas do Congresso ou privativas das Casas, matéria reservada a lei complementar, organização do Judiciário e Ministério Público, nacionalidade e direitos indicados no art. 68, nem planos e orçamentos. Se a resolução mandar o Congresso apreciar o projeto, a votação é única e não admite emendas.
+
+A **lei complementar** exige **maioria absoluta**.
 
 ---
 
-## 26. Medidas provisórias — art. 62
+# Parte VI — Fiscalização contábil, financeira e orçamentária
 
-Pressupostos:
+## 22. O desenho do controle — art. 70
 
-- **relevância**;
-- **urgência**.
+A fiscalização alcança dimensões **contábil, financeira, orçamentária, operacional e patrimonial**, considerando legalidade, legitimidade, economicidade, aplicação de subvenções e renúncia de receitas.
 
-O Presidente edita MP com força de lei e a submete imediatamente ao Congresso.
+Ela funciona por dois circuitos:
 
-### 26.1 Matérias vedadas
+- **controle externo** — a cargo do Congresso, com auxílio do <abbr title="Tribunal de Contas da União">TCU</abbr>;
+- **controle interno** — mantido de forma integrada pelos três Poderes.
 
-Entre as vedações:
+O dever de prestar contas é material: alcança qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiro, bens ou valores públicos, ou assuma obrigação pecuniária em nome da União.
 
-- nacionalidade, cidadania, direitos políticos, partidos e direito eleitoral;
-- direito penal, processual penal e processual civil;
-- organização do Judiciário e MP, carreira e garantias de seus membros;
-- PPA, LDO, orçamento e créditos, salvo exceção constitucional;
-- matéria reservada a lei complementar;
-- detenção ou sequestro de ativos financeiros;
-- matéria já disciplinada em projeto aprovado e pendente de sanção/veto.
+## 23. Congresso e <abbr title="Tribunal de Contas da União">TCU</abbr> — art. 71
 
-### 26.2 Prazo
+O Congresso é titular do controle externo; o Tribunal o auxilia, mas possui competências próprias dadas diretamente pela Constituição.
 
-A MP perde eficácia desde a edição se não convertida em lei em:
+Entre elas, o <abbr title="Tribunal de Contas da União">TCU</abbr>:
 
-- **60 dias**;
-- prorrogáveis **uma vez por igual período**.
+- **aprecia** as contas anuais do Presidente e emite parecer prévio em **60 dias**;
+- **julga** contas dos administradores e demais responsáveis;
+- aprecia, para registro, admissões de pessoal e concessões iniciais de aposentadoria, reforma e pensão, com as ressalvas constitucionais;
+- realiza inspeções e auditorias, fiscaliza transferências, presta informações, aplica sanções, determina correções e representa sobre irregularidades;
+- pode sustar a execução de **ato** impugnado se a ilegalidade não for corrigida.
 
-O prazo fica suspenso durante o recesso.
+A diferença-chave: o Tribunal **aprecia** as contas do Presidente; o **Congresso julga**.
 
-É vedada a reedição, na mesma sessão legislativa, de MP rejeitada ou que tenha perdido eficácia por decurso de prazo.
+Em **contratos**, a sustação cabe diretamente ao Congresso. Se Congresso ou Executivo não tomarem as medidas em **90 dias**, o Tribunal decide a respeito.
 
----
+Decisões que imputem débito ou multa têm eficácia de **título executivo**, isto é, constituem base para cobrança judicial da obrigação.
 
-## 27. Regime de urgência presidencial — art. 64
+## 24. Despesa não autorizada — art. 72
 
-O Presidente pode solicitar urgência para projetos de sua iniciativa.
+Diante de indícios de despesa não autorizada, a comissão mista do art. 166, § 1º, segue um fluxo:
 
-A Constituição estabelece prazos próprios de apreciação e sobrestamento de deliberações, ressalvadas matérias com prazo constitucional determinado.
+1. pede esclarecimentos à autoridade — **5 dias**;
+2. se ausentes ou insuficientes, pede pronunciamento conclusivo ao <abbr title="Tribunal de Contas da União">TCU</abbr> — **30 dias**;
+3. se o Tribunal considerar a despesa irregular e houver risco de dano irreparável ou grave lesão à economia pública, a comissão pode propor ao Congresso sua sustação.
 
-Os prazos do art. 64 não correm no recesso e não se aplicam a projetos de código.
+Os prazos não são números isolados: marcam a sequência **autoridade → análise técnica → decisão política**.
 
----
+## 25. Composição do <abbr title="Tribunal de Contas da União">TCU</abbr> — art. 73
 
-## 28. Revisão entre as Casas — art. 65
+O Tribunal tem **9 Ministros**, sede no Distrito Federal e jurisdição nacional.
 
-Projeto aprovado por uma Casa será revisto pela outra em **um só turno**.
+Os Ministros devem ter mais de **35** e menos de **70 anos**, idoneidade moral e reputação ilibada, notórios conhecimentos nas áreas indicadas pela Constituição e mais de **10 anos** de função ou atividade profissional que exija esses conhecimentos.
 
-A Casa revisora pode:
+A escolha é dividida:
 
-- aprovar → segue para sanção/promulgação conforme o caso;
-- rejeitar → projeto é arquivado;
-- emendar → retorna à Casa iniciadora.
+- **1/3 pelo Presidente da República**, com aprovação do Senado; duas dessas vagas alternam entre auditores e membros do Ministério Público junto ao Tribunal, a partir de lista tríplice;
+- **2/3 pelo Congresso Nacional**.
 
----
+## 26. Controle interno — art. 74
 
-## 29. Sanção e veto — art. 66
+Os Poderes mantêm sistema integrado de controle interno para:
 
-Concluída a votação, o projeto é enviado ao Presidente da República quando houver sanção.
-
-Prazo presidencial: **15 dias úteis**.
-
-O silêncio importa **sanção**.
-
-### 29.1 Veto
-
-O veto pode fundamentar-se em:
-
-- inconstitucionalidade; ou
-- contrariedade ao interesse público.
-
-O veto parcial somente pode abranger texto integral de:
-
-- artigo;
-- parágrafo;
-- inciso;
-- alínea.
-
-Não cabe veto de palavra isolada.
-
-O veto deve ser comunicado ao Presidente do Senado em **48 horas**, com os motivos.
-
-### 29.2 Rejeição do veto
-
-O veto é apreciado em sessão conjunta e somente pode ser rejeitado pela **maioria absoluta dos Deputados e Senadores**.
-
----
-
-## 30. Reapresentação de projeto de lei — art. 67
-
-Projeto de lei rejeitado somente pode ser reapresentado na mesma sessão legislativa mediante proposta da **maioria absoluta dos membros de qualquer das Casas**.
-
-Compare:
-
-```text
-PEC rejeitada → NÃO reapresenta na mesma sessão
-PL rejeitado → pode reapresentar com maioria absoluta de qualquer Casa
-```
-
----
-
-## 31. Lei delegada — art. 68
-
-Lei delegada é elaborada pelo **Presidente da República**, após solicitação de delegação ao Congresso.
-
-Não podem ser delegadas, entre outras:
-
-- competências exclusivas do Congresso;
-- competências privativas de Câmara/Senado;
-- matéria reservada a lei complementar;
-- organização do Judiciário e MP;
-- nacionalidade, cidadania, direitos individuais, políticos e eleitorais;
-- PPA, LDO e orçamentos.
-
-A delegação assume a forma de **resolução do Congresso**.
-
----
-
-## 32. Lei complementar — art. 69
-
-Lei complementar é aprovada por **maioria absoluta**.
-
-**Pegadinha:** lei ordinária, em regra, segue o art. 47; lei complementar possui quórum constitucional próprio.
-
----
-
-# Parte VII — Fiscalização contábil, financeira e orçamentária
-
-## 33. Art. 70 — matriz constitucional
-
-A fiscalização alcança dimensões:
-
-- contábil;
-- financeira;
-- orçamentária;
-- operacional;
-- patrimonial.
-
-Parâmetros:
-
-- legalidade;
-- legitimidade;
-- economicidade.
-
-Também alcança:
-
-- aplicação de subvenções;
-- renúncia de receitas.
-
-É exercida:
-
-- pelo **Congresso Nacional**, mediante controle externo;
-- pelo **sistema de controle interno de cada Poder**.
-
----
-
-## 34. Dever de prestar contas
-
-Deve prestar contas qualquer pessoa física ou jurídica, pública ou privada, que:
-
-- utilize, arrecade, guarde, gerencie ou administre dinheiro, bens ou valores públicos;
-- responda por valores pelos quais a União responda;
-- assuma obrigação pecuniária em nome da União.
-
-O critério é **material**, não meramente orgânico.
-
----
-
-## 35. Art. 71 — Congresso e TCU
-
-O controle externo está a cargo do **Congresso Nacional** e é exercido com auxílio do **TCU**.
-
-O TCU possui competências próprias, entre elas:
-
-- **apreciar** contas anuais do Presidente e emitir parecer prévio;
-- **julgar** contas de administradores e responsáveis;
-- apreciar, para registro, atos de admissão e concessões iniciais de aposentadoria/reforma/pensão;
-- realizar inspeções e auditorias;
-- fiscalizar transferências e empresas supranacionais;
-- prestar informações ao Congresso;
-- aplicar sanções previstas em lei;
-- fixar prazo para correção;
-- sustar ato impugnado, nos termos constitucionais;
-- representar sobre irregularidades ou abusos.
-
-**Pegadinha:** TCU aprecia as contas anuais do Presidente; quem as julga é o **Congresso**.
-
-O aprofundamento técnico dessas competências pertence ao Assunto 048.
-
----
-
-## 36. Art. 72 — despesa não autorizada
-
-Diante de indícios de despesa não autorizada, a comissão mista permanente do art. 166, § 1º, pode solicitar esclarecimentos à autoridade responsável.
-
-Persistindo a questão:
-
-- pode solicitar pronunciamento conclusivo do TCU;
-- diante de irregularidade grave e risco de dano, pode propor ao Congresso a sustação da despesa.
-
-Este mecanismo não se confunde com o poder geral de sustação do art. 49, V.
-
----
-
-## 37. Art. 73 — TCU
-
-O TCU integra o sistema constitucional de controle externo e é composto por **9 Ministros**.
-
-A Constituição disciplina requisitos, garantias e forma de escolha.
-
-Para esta linha, basta a posição institucional; detalhes de composição e jurisprudência ficam no Assunto 048/054.
-
----
-
-## 38. Controle interno — art. 74
-
-Legislativo, Executivo e Judiciário mantêm, de forma integrada, sistema de controle interno para:
-
-1. avaliar metas do PPA, programas e orçamentos;
-2. comprovar legalidade e avaliar resultados da gestão;
-3. controlar operações de crédito, avais, garantias, direitos e haveres;
+1. avaliar metas do <abbr title="Plano Plurianual">PPA</abbr>, programas e orçamentos;
+2. comprovar legalidade e avaliar eficácia e eficiência da gestão;
+3. controlar operações de crédito, avais, garantias, direitos e haveres da União;
 4. apoiar o controle externo.
 
-Responsáveis pelo controle interno que souberem de irregularidade/ilegalidade devem dar ciência ao TCU, sob pena de responsabilidade solidária.
+Quem atua no controle interno e conhece irregularidade ou ilegalidade deve dar ciência ao <abbr title="Tribunal de Contas da União">TCU</abbr>, sob pena de responsabilidade solidária.
 
-Podem denunciar irregularidades ao TCU, na forma da lei:
+Cidadão, partido político, associação e sindicato também podem denunciar irregularidades ou ilegalidades perante o Tribunal, na forma da lei.
 
-- cidadão;
-- partido político;
-- associação;
-- sindicato.
+## 27. Art. 75 após a <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026
 
----
+No corte do edital, o art. 75 já qualificava os Tribunais de Contas como **instituições permanentes e essenciais ao exercício do controle externo**.
 
-## 39. Art. 75 — EC nº 139/2026
+As normas da seção aplicam-se, no que couber, à organização, composição e fiscalização dos Tribunais de Contas dos Estados e do Distrito Federal e dos Tribunais e Conselhos de Contas dos Municípios. A Constituição veda sua **extinção, criação ou instalação**.
 
-No corte do edital, o art. 75 já possui a redação da **EC nº 139/2026**.
-
-Os Tribunais de Contas são:
-
-- **instituições permanentes**;
-- **essenciais ao exercício do controle externo**.
-
-As normas da seção aplicam-se, no que couber, à organização, composição e fiscalização dos Tribunais de Contas dos Estados/DF e dos Tribunais e Conselhos de Contas dos Municípios.
-
-A Constituição veda sua:
-
-- extinção;
-- criação;
-- instalação.
-
-O parágrafo único mantém a regra de que os Tribunais de Contas estaduais têm **7 Conselheiros**.
+Os Tribunais de Contas estaduais são integrados por **7 Conselheiros**.
 
 ---
 
-# Parte VIII — Matrizes de prova
+## 28. Como reconstruir o assunto na prova
 
-## 40. Competência — quem faz?
+Em vez de decorar uma página final de pegadinhas, reconstrua a resposta:
 
-| Ato | Órgão |
-|---|---|
-| julgar contas anuais do Presidente | Congresso |
-| parecer prévio sobre contas do Presidente | TCU |
-| tomar contas presidenciais omitidas | Câmara |
-| autorizar instauração contra Presidente | Câmara, 2/3 |
-| processar/julgar crime de responsabilidade do Presidente | Senado |
-| sustar ato normativo exorbitante | Congresso |
-| pedido escrito de informação | Mesa da Câmara ou do Senado |
-| convocação pessoal do art. 50 | Câmara, Senado ou comissão |
-| aprovar PEC | cada Casa, 2 turnos, 3/5 |
-| promulgar emenda constitucional | Mesas da Câmara e Senado |
+- **órgão:** Congresso, Câmara, Senado, comissão ou Tribunal de Contas?
+- **função:** legislar, controlar, investigar ou julgar politicamente?
+- **procedimento:** há Casa iniciadora e revisora, sanção/veto ou competência sem Presidente?
+- **quórum/prazo:** a Constituição trouxe número próprio ou vale a regra geral do art. 47?
 
----
-
-## 41. Números que a banca troca
-
-| Regra | Número |
-|---|---:|
-| legislatura | 4 anos |
-| mandato senador | 8 anos |
-| senadores por Estado/DF | 3 |
-| suplentes por senador | 2 |
-| deputados por Estado/DF | 8 a 70 |
-| CPI | 1/3 + fato determinado + prazo certo |
-| PEC | 3/5, 2 turnos, em cada Casa |
-| iniciativa popular | 1% nacional + 5 Estados + 0,3% cada |
-| MP | 60 + 60 dias |
-| sanção/veto | 15 dias úteis |
-| comunicação dos motivos do veto | 48 horas |
-| lei complementar | maioria absoluta |
-
----
-
-## 42. Pegadinhas finais
-
-1. Congresso = Câmara + Senado.
-2. Câmara representa o povo; Senado representa Estados e DF.
-3. Legislatura de 4 anos ≠ mandato do senador de 8.
-4. Art. 48 normalmente envolve sanção; arts. 49, 51 e 52 não.
-5. Competência exclusiva do Congresso ≠ competência privativa da Câmara/Senado.
-6. CPI tem poderes investigatórios próprios de autoridade judicial, mas **não exerce jurisdição**.
-7. Direito à criação de CPI ≠ direito automático à prorrogação.
-8. PEC não vai a sanção presidencial.
-9. PEC rejeitada não volta na mesma sessão; PL rejeitado pode voltar com maioria absoluta.
-10. LC = maioria absoluta.
-11. TCU aprecia contas presidenciais; Congresso julga.
-12. EC 139/2026 já integra o corte e alterou o art. 75.
-
----
-
-## 43. Roteiro de resolução
-
-1. identifique o **órgão**: Congresso, Câmara, Senado, Mesa, comissão ou TCU;
-2. identifique se a competência exige **sanção**;
-3. procure o **quórum** específico antes de aplicar o art. 47;
-4. no processo legislativo, identifique a espécie normativa;
-5. em CPI, separe **poder investigatório** de **reserva de jurisdição**;
-6. em fiscalização, separe **titularidade do Congresso** de **competências próprias do TCU**;
-7. lembre que o art. 75 está atualizado pela **EC nº 139/2026**.
-
----
+Esse raciocínio é o mapa; os quóruns e prazos são pontos dentro dele.
