@@ -8,181 +8,196 @@ storageId: "gp-recrutamento-selecao"
 
 # Recrutamento, seleção e processo decisório
 
-## 1. Recorte do edital e conceitos
+Uma organização precisa preencher uma oportunidade. Antes de pensar em entrevista, há duas decisões diferentes: **quem deve chegar ao processo?** e **como comparar quem chegou?**
 
-O edital cobra **8 Recrutamento e seleção**, com destaque para **8.1 tipos de recrutamento, vantagens e desvantagens** e **8.2 técnicas de seleção, vantagens, desvantagens e processo decisório**.
+**Recrutamento** atrai pessoas potencialmente aptas e forma o conjunto de candidatos. **Seleção** obtém e compara evidências para decidir quem atende melhor aos requisitos do trabalho.
 
-**Recrutamento** atrai pessoas potencialmente aptas e forma um conjunto de candidatos. **Seleção** coleta e compara evidências para decidir quem atende melhor aos requisitos relacionados ao trabalho. Recrutar amplia ou direciona o universo; selecionar diferencia candidatos nesse universo.
+> **trabalho e requisitos → recrutamento → triagem → técnicas → combinação das evidências → decisão → acompanhamento**
 
-Uma sequência coerente é:
+Esse fluxo evita dois erros: escolher a técnica antes de saber o que precisa ser medido e confundir “atrair muitos candidatos” com selecionar bem.
 
-1. identificar a necessidade e a forma possível de provimento ou movimentação;
-2. compreender atividades, contexto e requisitos do trabalho;
-3. definir fontes, canais, critérios, instrumentos e responsabilidades;
-4. divulgar a oportunidade;
-5. verificar requisitos objetivos;
-6. aplicar técnicas de seleção pertinentes e padronizadas;
-7. combinar as evidências segundo regra previamente definida;
-8. decidir, documentar e comunicar;
-9. acompanhar resultados para aperfeiçoar o processo.
+## 1. O perfil vem do trabalho
 
-Análise e descrição de cargos e gestão por competências podem fornecer requisitos, mas seus métodos completos pertencem aos assuntos próprios.
+O perfil seletivo deve decorrer de atividades, responsabilidades, contexto e requisitos do trabalho, não da preferência do gestor. A análise e a descrição de cargos fornecem parte desses insumos; seus métodos completos pertencem ao assunto próprio.
 
-> **Recorte bibliográfico:** referências consultadas até 17 de julho de 2026. Conceitos complementares aparecem somente quando ajudam a comparar técnicas ou evitar erro de decisão.
+Quatro rótulos frequentes não são sinônimos:
 
-## 2. Planejamento e perfil seletivo
+- **essencial:** necessário ao desempenho ou a exigência válida;
+- **desejável:** agrega valor, mas não precisa impedir a continuidade;
+- **eliminatório:** sua ausência ou nota insuficiente encerra a participação;
+- **classificatório:** altera a posição sem eliminar automaticamente.
 
-O perfil deve decorrer do trabalho, não da preferência pessoal do gestor. Convém distinguir:
+“Essencial × desejável” trata da **importância do requisito**; “eliminatório × classificatório”, da **regra de decisão**. Antes da divulgação, devem estar claros, conforme o caso, público, requisitos, etapas, instrumentos, cortes, pesos, desempates, responsabilidades, acessibilidade e revisão.
 
-- **essencial:** necessário para o exercício regular da atividade;
-- **desejável:** agrega valor, mas pode ser desenvolvido ou compensado;
-- **eliminatório:** sua ausência impede o prosseguimento, conforme regra válida;
-- **classificatório:** melhora a posição sem eliminar automaticamente.
+**Exemplo hipotético:** habilitação legal indispensável pode justificar eliminação. Um curso adicional útil, mas desenvolvível depois, pode ser apenas classificatório. Preferência da chefia não vira requisito essencial sem fundamento.
 
-Exigências excessivas podem reduzir o universo sem melhorar a seleção. Antes da divulgação devem estar claros público elegível, requisitos, etapas, instrumentos, critérios de pontuação, cortes, pesos, desempates, responsabilidades e regras de revisão aplicáveis.
+## 2. Tipos de recrutamento
 
-## 3. Tipos de recrutamento: vantagens e desvantagens
+A classificação interno, externo ou misto depende da **origem dos candidatos**, não do local da entrevista ou da técnica usada.
 
 | Tipo | Vantagens possíveis | Desvantagens e riscos |
 | --- | --- | --- |
-| **interno** | conhecimento prévio; menor ambientação; estímulo à carreira e retenção; aproveitamento de capacitação | menor amplitude; reprodução de práticas e redes; vaga sucessiva; conflitos ou percepção de favoritismo |
-| **externo** | universo mais amplo; competências e experiências novas; renovação; comparação com o mercado | maior esforço de atração e integração; maior incerteza contextual; possível frustração de mobilidade interna |
-| **misto** | combina continuidade e renovação; amplia comparação | maior complexidade; exige regras transparentes para públicos interno e externo |
+| **interno** | conhecimento prévio; menor ambientação; carreira e retenção | menor amplitude; reprodução de práticas; vaga sucessiva; favoritismo percebido |
+| **externo** | universo maior; competências e experiências novas | atração e integração; maior incerteza contextual; possível frustração interna |
+| **misto** | continuidade e renovação; comparação mais ampla | maior complexidade; exige regras transparentes entre públicos |
 
-### 3.1 Recrutamento interno
+Recrutamento interno **não é sempre** mais barato, rápido ou justo. Externo **não garante** inovação ou diversidade. Misto combina origens; **não é técnica de seleção**.
 
-Busca pessoas já vinculadas à organização para promoção, movimentação, função, projeto ou oportunidade compatível. Não é automaticamente mais barato, rápido ou justo: a escassez interna, a vaga sucessiva e a qualidade dos critérios alteram o resultado.
+Em classificações tradicionais cobradas em prova, a movimentação interna pode aparecer assim:
 
-### 3.2 Recrutamento externo
+- **horizontal ou lateral:** transferência sem elevação hierárquica;
+- **vertical:** promoção;
+- **diagonal:** transferência acompanhada de promoção.
 
-Busca candidatos fora da organização. Pode trazer competências indisponíveis e ampliar experiências, mas não garante inovação ou diversidade; canais homogêneos e requisitos inadequados podem reproduzir o mesmo perfil.
+Esses rótulos são uma taxonomia de gestão de pessoas, não categorias jurídicas universais de provimento público.
 
-### 3.3 Recrutamento misto
+### Mercado de trabalho
 
-Combina fontes internas e externas, simultânea ou sequencialmente. **Misto classifica a origem dos candidatos; não é técnica de seleção.**
+Quando muitas pessoas disputam poucas oportunidades, a organização tende a receber mais candidaturas e pode elevar a seletividade. Quando candidatos qualificados são escassos diante das vagas, aumenta o esforço de atração e podem ser revistas exigências não essenciais. São tendências, não leis: remuneração, especialização, localização e regras do vínculo alteram o quadro.
 
-## 4. Fontes, canais e triagem
+## 3. Fonte, canal e triagem
 
 **Fonte** indica onde candidatos podem ser encontrados; **canal** é o meio de comunicação; **técnica de seleção** produz evidência para decidir.
 
-Fontes internas incluem banco de talentos, inventário de competências, sucessão e oportunidades internas. Fontes externas incluem portal institucional, instituições de ensino, entidades profissionais, redes profissionais e serviços de recrutamento compatíveis.
+Fontes internas incluem banco de talentos, sucessão e oportunidades internas. Fontes externas incluem portal institucional, instituições de ensino, entidades profissionais, redes profissionais e serviços especializados compatíveis.
 
-A **triagem curricular ou documental** verifica requisitos e evidências iniciais. É econômica para grandes volumes, mas não deve inferir competências que o currículo não mede adequadamente. Critérios eliminatórios precisam ser prévios, pertinentes e aplicados de forma consistente.
+A **triagem curricular ou documental** verifica requisitos e evidências iniciais. É econômica para grandes volumes, mas currículo não mede adequadamente toda competência. Um filtro inicial deve usar critério **prévio e pertinente**: quem é excluído indevidamente não será recuperado por uma técnica posterior.
 
-## 5. Técnicas de seleção: comparação central
+## 4. Técnicas de seleção
 
-Nenhuma técnica é universalmente superior. A escolha depende do requisito a medir, do cargo, da qualidade do instrumento, do custo e das consequências dos erros.
+A pergunta não é “qual técnica é melhor?”, mas **qual evidência esta técnica produz sobre qual requisito?**
 
-| Técnica | O que tende a observar | Vantagens | Desvantagens / riscos |
+Uma **rubrica de avaliação** é um guia que explicita critérios e descreve níveis de desempenho, reduzindo a dependência de uma nota global por impressão.
+
+| Técnica | O que tende a observar | Vantagem | Limitação / risco |
 | --- | --- | --- | --- |
-| **triagem curricular/documental** | requisitos e evidências iniciais | rápida e econômica | informação autodeclarada; baixa capacidade para inferir comportamento futuro |
-| **entrevista estruturada** | respostas a perguntas ligadas ao trabalho | comparabilidade, rubricas e menor discricionariedade | exige preparação, perguntas e avaliadores capacitados |
-| **entrevista não estruturada** | exploração livre de experiências | flexibilidade; permite aprofundar fatos inesperados | menor comparabilidade; maior espaço para vieses de impressão |
-| **teste de conhecimentos** | saber técnico ou normativo | padronização e correção objetiva quando bem construído | pode privilegiar memorização e amostragem estreita do conteúdo |
-| **teste de capacidade/aptidão** | raciocínio ou capacidade específica | pode acrescentar evidência preditiva quando pertinente | não resume toda a competência; exige pertinência ao trabalho |
-| **prova prática / amostra de trabalho** | execução de tarefa representativa | alta proximidade com o trabalho observado | custo, logística, rubricas e condições comparáveis |
-| **dinâmica de grupo** | interação, comunicação e negociação | permite observar comportamento interpessoal | sem estrutura pode premiar extroversão ou rapidez verbal |
-| **assessment center** | competências em múltiplos exercícios | combina situações e avaliadores | alto custo e desenho complexo |
-| **referências profissionais** | confirmação de fatos relevantes | complementa evidências | disponibilidade e vieses de quem informa; não deve decidir sozinha |
+| **triagem documental** | requisitos registrados | rápida e econômica | evidência limitada ou autodeclarada |
+| **entrevista estruturada** | respostas ligadas ao trabalho | comparabilidade | exige desenho e avaliadores preparados |
+| **entrevista não estruturada** | exploração livre | flexibilidade | menor comparabilidade e mais vieses de impressão |
+| **teste de conhecimentos** | saber técnico/normativo | padronização | pode medir amostra estreita ou memorização |
+| **teste de capacidade/aptidão** | capacidade específica | evidência preditiva quando pertinente | não resume toda a competência |
+| **prova prática / amostra de trabalho** | tarefa representativa | proximidade com o trabalho | custo, logística e correção comparável |
+| **dinâmica de grupo** | interação | observa comportamento interpessoal | sem estrutura pode premiar extroversão |
+| <abbr title="Sistema com múltiplos exercícios e avaliadores">**assessment center**</abbr> | competências em exercícios integrados | combina situações e avaliadores | custo e desenho complexos |
+| **referências profissionais** | confirmação de fatos | complementa evidências | disponibilidade e viés do informante |
 
-## 6. Qualidade das técnicas
+Acumular técnicas redundantes aumenta custo sem necessariamente melhorar a decisão.
 
-### 6.1 Validade
+## 5. Qualidade da medida
 
-**Validade** indica em que grau as evidências sustentam a interpretação e o uso do resultado para a finalidade pretendida. A técnica deve medir algo pertinente ao trabalho e à decisão.
+**Validade** indica em que grau as evidências sustentam a interpretação e o uso do resultado para a finalidade pretendida. **Confiabilidade** é consistência da medida ou concordância entre avaliações comparáveis. Uma medida pode ser consistente e ainda medir algo irrelevante: **confiabilidade não garante validade**.
 
-### 6.2 Confiabilidade
+**Padronização** mantém equivalentes instruções, condições relevantes, critérios e pontuação. Isso não exige formato fisicamente idêntico quando uma adaptação de acessibilidade remove barreira sem alterar o que se pretende medir.
 
-**Confiabilidade** é a consistência da medida ou a concordância entre avaliações comparáveis. Uma medida pode ser consistente e, ainda assim, medir algo irrelevante. Portanto, **confiabilidade não garante validade**.
+**Utilidade** considera o ganho decisório diante de qualidade, custo e consequências dos erros. **Validade incremental** é a informação útil que uma técnica acrescenta além das evidências já disponíveis.
 
-### 6.3 Padronização e utilidade
+A **matriz requisito × técnica** resume a lógica: cada requisito precisa de evidência adequada e cada técnica deve ter função clara.
 
-**Padronização** mantém equivalentes instruções, condições relevantes, perguntas, critérios e regras de pontuação. **Utilidade** considera o ganho decisório diante de qualidade, custo e consequências dos erros.
+## 6. Entrevistas e julgamento
 
-Acumular técnicas redundantes não melhora necessariamente a decisão. O ponto central é uma **matriz requisito × técnica**: cada requisito relevante deve ter instrumento adequado, e cada instrumento deve possuir função clara.
+Na entrevista **não estruturada**, perguntas e avaliação são mais livres: ganha-se flexibilidade, mas perde-se comparabilidade. Na **estruturada**, perguntas iguais ou equivalentes, critérios prévios e regras de pontuação aumentam a comparabilidade.
 
-## 7. Entrevistas
+Dois formatos comuns:
 
-### 7.1 Não estruturada
+- **situacional:** o que a pessoa faria diante de cenário hipotético relevante;
+- **comportamental:** o que a pessoa fez em situação passada relevante.
 
-Permite perguntas livres e julgamento mais global. Sua flexibilidade pode ajudar na exploração, mas reduz comparabilidade e aumenta a influência de primeira impressão, afinidade e confirmação.
+O **efeito halo** ocorre quando uma impressão saliente contamina a nota global. Boa fluência verbal, por exemplo, não prova competência técnica. Perguntas relacionadas ao trabalho, rubricas e pontuação por dimensão ajudam a reduzir esse efeito.
 
-### 7.2 Estruturada
+Em painel, registrar e pontuar individualmente **antes** da discussão reduz a ancoragem na primeira opinião anunciada. Estrutura, porém, não corrige pergunta irrelevante ou rubrica defeituosa.
 
-Usa perguntas iguais ou equivalentes ligadas ao trabalho, regras de sondagem, rubricas e âncoras de pontuação. Maior estrutura tende a elevar comparabilidade e concordância entre avaliadores.
+## 7. Testes, desempenho e <abbr title="Sistema com múltiplos exercícios e avaliadores">assessment center</abbr>
 
-- **situacional:** pergunta o que a pessoa faria diante de cenário hipotético relevante;
-- **comportamental:** pede exemplo do que a pessoa fez em situação passada relevante.
+**Teste de conhecimento** mede saber necessário; **teste de capacidade ou aptidão**, capacidade específica pertinente. Em linguagem clássica de prova, **preditor** é a medida usada para antecipar um critério posterior, como desempenho: previsão não é certeza individual.
 
-Em painéis, registrar e pontuar individualmente antes da discussão ajuda a reduzir ancoragem social. Estrutura, contudo, não corrige pergunta irrelevante nem rubrica defeituosa.
+Instrumentos de personalidade ou integridade sustentam apenas inferências compatíveis com aquilo que medem. Um escore isolado não prova caráter moral, não funciona como detector de mentira e não substitui verificação documental.
 
-## 8. Testes e técnicas de desempenho
+No Brasil, **teste psicológico** é método de uso privativo da Psicologia e deve observar habilitação profissional, normas técnicas e finalidade admitida. Questionário informal não se torna teste psicológico por ser aplicado igualmente a todos.
 
-**Testes de conhecimento** avaliam saber necessário. **Testes de capacidade ou aptidão** avaliam capacidade específica pertinente. Instrumentos de personalidade ou outros construtos só devem sustentar inferências compatíveis com aquilo que efetivamente medem.
+Provas práticas e amostras de trabalho pedem tarefa ou simulação representativa. Já uma dinâmica isolada não é <abbr title="Sistema com múltiplos exercícios e avaliadores">assessment center</abbr>: este integra múltiplos exercícios, competências e avaliadores.
 
-No Brasil, **teste psicológico** é método privativo da Psicologia e seu uso deve observar as normas profissionais e a finalidade tecnicamente admitida. Para prova, o ponto central é não tratar questionário informal ou resultado psicológico isolado como atalho para uma conclusão global sobre a pessoa.
+## 8. Processo decisório
 
-**Provas práticas e amostras de trabalho** solicitam tarefa ou simulação representativa. Sua principal vantagem é a proximidade com o desempenho observado; seus principais custos são desenvolvimento, aplicação, logística e correção comparável.
+A seleção só se completa quando existe regra para combinar evidências.
 
-**Assessment center** é sistema integrado de múltiplos exercícios, competências e avaliadores; não é sinônimo de uma dinâmica de grupo isolada.
+### 8.1 Colocação, seleção e classificação
 
-## 9. Processo decisório
+Uma classificação tradicional de prova distingue:
 
-A seleção não termina na coleta de dados: é necessário estabelecer como as evidências serão combinadas.
+| Modelo | Situação |
+| --- | --- |
+| **colocação** | um candidato para uma vaga; no modelo clássico, sem categoria de rejeição |
+| **seleção** | vários candidatos para uma vaga |
+| **classificação** | vários candidatos para várias vagas; rejeição para uma não impede consideração para outra |
 
-| Modelo | Regra | Vantagem | Risco |
-| --- | --- | --- | --- |
-| **compensatório** | resultado superior em uma dimensão pode compensar outro inferior | aproveita informação conjunta | pode compensar indevidamente requisito realmente indispensável |
-| **múltiplos obstáculos** | é preciso superar cada etapa ou corte para avançar | reduz custo das etapas posteriores | filtro inicial inadequado elimina candidatos antes das demais evidências |
-| **conjuntivo** | todos os mínimos definidos precisam ser atendidos | protege requisitos essenciais | mínimos excessivos restringem sem necessidade |
-| **julgamento estruturado** | avaliadores interpretam evidências com rubricas e registro | incorpora contexto | sem regras pode degenerar em impressão subjetiva |
+São modelos de decisão, não regras jurídicas de provimento.
 
-Processo **sequencial** aplica etapas em ordem. Começar por técnicas mais econômicas pode reduzir custo, desde que o filtro inicial seja pertinente e tecnicamente defensável.
+### 8.2 Compensação, obstáculos e mínimos
 
-### 9.1 Cortes, pesos e decisão final
+| Regra | Mecanismo |
+| --- | --- |
+| **compensatória** | nota alta em uma dimensão pode compensar outra baixa |
+| **múltiplos obstáculos** | é preciso superar cada etapa ou corte para avançar |
+| **conjuntiva** | todos os mínimos definidos devem ser atendidos |
+| **julgamento estruturado** | avaliadores interpretam evidências com critérios e registro |
 
-- cortes e pesos devem ser definidos **antes** de conhecer os resultados individuais;
-- pesos iguais também são uma escolha metodológica;
-- requisito verdadeiramente indispensável não deve ser compensado por vantagem em dimensão diferente;
-- regras de desempate, ausência e revisão devem ser prévias;
-- julgamento humano precisa se apoiar em evidências e critérios, não em preferência posterior.
+Processo **sequencial** aplica etapas em ordem. Começar por técnica mais econômica pode reduzir custo, desde que o filtro inicial seja pertinente. Requisito realmente indispensável não deve ser artificialmente compensado.
 
-## 10. Justiça, acessibilidade e contexto público
+### 8.3 Inicial, substantiva e contingente
 
-Vieses podem entrar na definição do perfil, no canal, na triagem, nas perguntas, na observação e na combinação final. Estrutura, rubricas, critérios prévios e avaliadores capacitados reduzem riscos, mas não tornam uma técnica automaticamente válida.
+Outra classificação recorrente em prova separa:
 
-**Acessibilidade** busca remover barreiras sem alterar desnecessariamente o requisito essencial avaliado. A Lei Brasileira de Inclusão veda discriminação por deficiência no recrutamento, seleção, contratação e ascensão e rejeita a exigência genérica de “aptidão plena”.
+1. **seleção inicial:** triagens para requisitos básicos;
+2. **seleção substantiva:** testes, entrevistas e outras técnicas para identificar os candidatos mais qualificados;
+3. **seleção contingente:** verificação final de condição específica antes da contratação, quando pertinente e juridicamente cabível.
 
-Dados de candidatos devem ser tratados apenas na medida necessária ao processo e com finalidade compatível. O detalhamento da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> pertence ao assunto próprio; aqui importa reconhecer que coleta excessiva ou uso opaco de dados não melhora a qualidade seletiva.
+Exame toxicológico é exemplo clássico da etapa contingente quando sua exigência é válida. O rótulo não autoriza criar exame irrelevante.
 
-No setor público, recrutamento e seleção devem respeitar legalidade, impessoalidade, publicidade, eficiência e as regras do vínculo aplicável. **Seleção interna não substitui concurso público quando a Constituição exige concurso para o ingresso originário em cargo ou emprego efetivo.**
+### 8.4 Cortes e pesos
+
+Cortes, pesos, desempates e revisão devem ser definidos **antes** dos resultados individuais. Pesos iguais também são escolha metodológica. Julgamento humano deve apoiar-se em evidências e critérios, não em preferência posterior.
+
+## 9. Índice de seleção e taxa-base
+
+O **índice ou razão de seleção** é a proporção de candidatos selecionados entre os avaliados:
+
+\[
+\text{razão de seleção}=\frac{\text{selecionados}}{\text{candidatos avaliados}}
+\]
+
+Razão menor significa maior seletividade numérica, não melhor decisão por si só.
+
+A **taxa-base** é a proporção de pessoas que teriam sucesso segundo o critério relevante antes do ganho produzido pelo novo instrumento. Validade, razão de seleção, taxa-base, custos e consequências interagem na utilidade. Por isso, nenhum par isolado de índices permite concluir automaticamente que um processo “não é recomendável”.
+
+## 10. Justiça, acessibilidade, dados e setor público
+
+Vieses podem entrar no perfil, canal, triagem, pergunta, observação e combinação final. Regra aparentemente neutra também merece revisão se cria barreira desproporcional sem relação demonstrada com requisito essencial.
+
+Acessibilidade remove barreiras sem reduzir desnecessariamente o requisito avaliado. **Exemplo hipotético:** se uma prova digital mede conhecimento jurídico, permitir leitor de tela pode preservar o conhecimento medido ao remover a barreira da interface.
+
+A Lei Brasileira de Inclusão veda discriminação por deficiência no recrutamento, seleção, contratação e ascensão e rejeita a exigência genérica de “aptidão plena”.
+
+Dados de candidatos devem ser tratados somente na medida necessária à finalidade. O detalhamento da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> — categorias de dados, bases legais, direitos e decisões automatizadas — pertence ao assunto próprio; aqui basta compreender que coleta excessiva não melhora a seleção.
+
+No setor público, recrutamento e seleção devem respeitar legalidade, impessoalidade, moralidade, publicidade e eficiência e as regras do vínculo. Seleção interna pode apoiar mobilidade ou funções quando o regime permitir, mas **não substitui concurso quando a Constituição exige concurso para investidura originária em cargo ou emprego público**.
 
 ## 11. Indicadores e aprendizagem
 
-Indicadores úteis incluem:
+Indicadores úteis incluem tempo e custo por candidato elegível, conversão por fonte, abandono e aprovação por etapa, concordância entre avaliadores, recursos/revisões e resultados posteriores.
 
-- tempo e custo por candidato elegível ou admissão;
-- alcance e conversão por fonte;
-- abandono e aprovação por etapa;
-- concordância entre avaliadores;
-- recursos e revisões;
-- desempenho e permanência posteriores, usados com cautela para aperfeiçoar o processo.
+Muitos inscritos não significam bom recrutamento. Rapidez não significa eficiência se aumenta erro. Resultado posterior serve para aperfeiçoar fontes e técnicas, não para tornar retroativamente válido um critério arbitrário.
 
-Quantidade de inscritos, isoladamente, não mede qualidade do recrutamento. Rapidez também não demonstra eficiência se aumenta erro ou retrabalho.
+## 12. Mapa final para prova
 
-## 12. Pegadinhas
+Ao ler a alternativa, pergunte:
 
-| Afirmação | Avaliação |
-| --- | --- |
-| recrutamento escolhe o melhor candidato | **errada**: recrutamento atrai; seleção diferencia |
-| recrutamento interno é sempre mais barato e rápido | **errada** |
-| recrutamento externo garante inovação | **errada** |
-| recrutamento misto é técnica de seleção | **errada** |
-| entrevista estruturada elimina todo viés | **errada** |
-| confiabilidade garante validade | **errada** |
-| dinâmica de grupo isolada é assessment center | **errada** |
-| múltiplos obstáculos permitem compensação entre etapas | **errada** |
-| no modelo compensatório todo requisito pode ser compensado | **errada** |
-| pesos iguais são automaticamente neutros | **errada** |
-| acessibilidade necessariamente reduz a exigência | **errada** |
-| seleção interna substitui concurso para ingresso efetivo | **errada** |
+- **atrair ou comparar?** → recrutamento × seleção;
+- **origem ou instrumento?** → interno/externo/misto × técnica;
+- **consistência ou pertinência?** → confiabilidade × validade;
+- **uma impressão ou critérios por dimensão?** → entrevista livre × estruturada;
+- **uma dinâmica ou sistema integrado?** → dinâmica × <abbr title="Sistema com múltiplos exercícios e avaliadores">assessment center</abbr>;
+- **nota pode compensar?** → compensatório × obstáculos/mínimos;
+- **um/uma, vários/uma ou vários/várias?** → colocação × seleção × classificação;
+- **triagem, qualificação ou verificação final?** → inicial × substantiva × contingente.
+
+> **Corte do concurso:** o Edital número 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, de 6 de julho de 2026, cobra recrutamento e seleção, tipos de recrutamento, vantagens e desvantagens, técnicas de seleção e processo decisório. Os pontos materiais foram revalidados editorialmente em setembro de 2026; essa verificação não altera retroativamente o corte do edital.
