@@ -8,83 +8,60 @@ storageId: tec-cf88-principios-123
 
 # Constituição Federal de 1988 e princípios fundamentais
 
-## 1. Delimitação do edital e corte
+## 1. Quatro perguntas que abrem a Constituição
 
-O edital do Cargo 16 abre **Direito Constitucional** com dois núcleos inseparáveis para este assunto: **Constituição da República Federativa do Brasil de 1988** e **princípios fundamentais**.
+Os primeiros artigos da Constituição não são uma lista solta de valores. Eles respondem, em sequência, a quatro perguntas sobre o Estado brasileiro:
 
-O recorte adequado é estudar a Constituição de 1988 como texto constitucional vigente e, em profundidade proporcional à prova, o **Título I — Dos Princípios Fundamentais (arts. 1º a 4º)**. Teoria geral da Constituição, classificações e emendas constitucionais serão tratadas no assunto específico de Noções de Direito Constitucional; eficácia e aplicabilidade das normas são objeto do assunto 124; direitos e garantias fundamentais, do assunto 125.
+1. **quem somos e em que bases o Estado se apoia?** — artigo 1º;
+2. **como o poder estatal é distribuído?** — artigo 2º;
+3. **o que a República deve buscar dentro do país?** — artigo 3º;
+4. **como o Brasil deve se orientar nas relações internacionais?** — artigo 4º.
 
-> **Corte de prova:** texto constitucional vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A Emenda Constitucional nº 139/2026 já integrava esse corte, mas alterou os arts. 31 e 75, sem modificar os arts. 1º a 4º.
+Essa sequência é o modelo mental do Título I — **Dos Princípios Fundamentais**. Em prova, grande parte dos erros surge quando uma expressão constitucional verdadeira é colocada na categoria errada: soberania como princípio internacional, desenvolvimento nacional como fundamento ou asilo político como objetivo interno.
 
-Para este assunto, a sequência de recuperação mais útil é:
+A Constituição da República Federativa do Brasil foi promulgada em **5 de outubro de 1988**. Neste assunto, o núcleo é o texto vigente dos artigos 1º a 4º e a compreensão mínima necessária para distinguir suas categorias.
 
-```text
-ART. 1º → ESTADO + FUNDAMENTOS + PODER EMANA DO POVO
-ART. 2º → PODERES DA UNIÃO
-ART. 3º → OBJETIVOS FUNDAMENTAIS
-ART. 4º → RELAÇÕES INTERNACIONAIS + INTEGRAÇÃO LATINO-AMERICANA
-```
+> **Corte de prova:** texto constitucional vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A Emenda Constitucional nº 139, de 5 de maio de 2026, já integrava o texto nesse corte; ela alterou o § 1º do artigo 31 e o artigo 75, sem modificar os artigos 1º a 4º.
 
----
+Teoria geral da Constituição, classificações e emendas constitucionais são aprofundadas no assunto 133. Eficácia e aplicabilidade ficam no assunto 124; direitos e garantias fundamentais, no assunto 125. Aqui, as remissões apenas delimitam o aprofundamento: o que for necessário para entender os princípios fundamentais será explicado neste capítulo.
 
-## 2. A Constituição de 1988: orientação mínima
+## 2. Antes do artigo 1º: o que fazer com o Preâmbulo
 
-A Constituição da República Federativa do Brasil foi promulgada em **5 de outubro de 1988**. Para este recorte, não é necessário antecipar classificações doutrinárias do texto constitucional. O que interessa é reconhecer que os princípios fundamentais estão logo no início da Constituição e estruturam a identidade constitucional do Estado brasileiro.
+Antes do Título I aparece o **Preâmbulo**, que apresenta valores e finalidades associados à promulgação da Constituição. Ele ajuda a situar o projeto constitucional, mas não deve ser confundido com os comandos dos artigos 1º a 4º.
 
-Antes do Título I há o **Preâmbulo**, que anuncia valores e finalidades da ordem constitucional. O Supremo Tribunal Federal, na <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2.076, assentou que a invocação da proteção de Deus no preâmbulo **não é norma de reprodução obrigatória nas constituições estaduais e não possui força normativa autônoma**.
+Na <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2.076, o <abbr title="Supremo Tribunal Federal">STF</abbr> examinou a ausência da expressão “sob a proteção de Deus” no preâmbulo da Constituição do Acre. O Tribunal concluiu que o Preâmbulo **não constitui norma central de reprodução obrigatória pelos estados** e que essa invocação **não possui força normativa**.
 
-Isso produz uma pegadinha frequente:
+Para prova, portanto, separe:
 
-- o preâmbulo possui importância histórica e interpretativa;
-- não se confunde com os arts. 1º a 4º;
-- não cria, por si só, regra de reprodução obrigatória para os estados.
+- **Preâmbulo** → texto anterior ao Título I, sem força normativa autônoma e sem reprodução estadual obrigatória da invocação religiosa;
+- **artigos 1º a 4º** → normas do Título I que estruturam os princípios fundamentais.
 
----
+Essa distinção evita transformar uma fórmula preambular em fundamento, objetivo ou princípio internacional.
 
-# Art. 1º — Estado Democrático de Direito e fundamentos
+## 3. Artigo 1º: identidade do Estado e fonte de legitimidade
 
-## 3. Estrutura da República Federativa do Brasil
+O artigo 1º começa definindo a República Federativa do Brasil como formada pela **união indissolúvel dos Estados e Municípios e do Distrito Federal** e constituída em **Estado Democrático de Direito**.
 
-O art. 1º começa qualificando o Estado brasileiro:
+Há três ideias diferentes nessa abertura.
 
-> A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito.
+### 3.1. República, Federação e indissolubilidade
 
-Três ideias devem ser separadas.
+A palavra **República** identifica a forma republicana adotada pelo Estado brasileiro. **Federativa** indica que o Brasil se organiza como Federação, e a expressão **união indissolúvel** afasta a ideia de que um estado, município ou o Distrito Federal possa retirar-se unilateralmente da Federação.
 
-### 3.1 República Federativa do Brasil
+A literalidade do artigo 1º menciona, nessa fórmula, **Estados, Municípios e Distrito Federal**. A União aparece como ente federativo na disciplina própria da organização político-administrativa, aprofundada no assunto 126. Isso não autoriza inserir “União” na enumeração literal do caput quando a questão perguntar exatamente o que o artigo 1º diz.
 
-A Constituição adota a forma **republicana** e a forma de Estado **federativa**.
+### 3.2. Estado Democrático de Direito
 
-Para este assunto, basta reconhecer a fórmula constitucional e evitar antecipar toda a organização político-administrativa, que será estudada no assunto 126.
+A expressão reúne duas exigências.
 
-### 3.2 União indissolúvel
+- **Estado de Direito:** o exercício do poder é juridicamente limitado pela ordem constitucional.
+- **Democrático:** a legitimidade do poder está ligada à soberania popular.
 
-A Federação brasileira é formada pela união indissolúvel dos:
+A segunda ideia aparece de modo explícito no parágrafo único do próprio artigo 1º: o poder pertence ao povo. Portanto, “Estado Democrático de Direito” não significa apenas existência de leis; pressupõe poder juridicamente limitado e legitimado democraticamente.
 
-- Estados;
-- Municípios;
-- Distrito Federal.
+### 3.3. Os cinco fundamentos: o que sustenta a ordem constitucional
 
-A palavra **indissolúvel** impede que se trate a Federação como associação da qual um ente possa livremente se retirar.
-
-**Pegadinha:** o art. 1º não enumera a União federal dentro da expressão “união indissolúvel dos Estados e Municípios e do Distrito Federal”; a **União** aparece como ente federativo na disciplina da organização político-administrativa, que possui tratamento próprio.
-
-### 3.3 Estado Democrático de Direito
-
-A expressão reúne legalidade constitucional, limitação do poder e legitimidade democrática. O poder estatal não é exercido fora da Constituição, e a titularidade popular do poder aparece explicitamente no parágrafo único do art. 1º.
-
-Em prova, não transforme a expressão em mera soma mecânica:
-
-```text
-ESTADO DE DIREITO → poder juridicamente limitado
-DEMOCRÁTICO       → poder legitimado pela soberania popular
-```
-
----
-
-## 4. Fundamentos da República — art. 1º, I a V
-
-Os fundamentos são cinco:
+Depois de dizer que tipo de Estado é o Brasil, o artigo 1º enumera cinco **fundamentos**:
 
 1. **soberania**;
 2. **cidadania**;
@@ -92,160 +69,85 @@ Os fundamentos são cinco:
 4. **valores sociais do trabalho e da livre iniciativa**;
 5. **pluralismo político**.
 
-Um mnemônico clássico é **SO-CI-DI-VA-PLU**.
+O ponto decisivo não é apenas decorar cinco nomes, mas entender por que eles estão no artigo 1º: são bases constitutivas da ordem brasileira, não metas futuras nem regras de política externa.
 
-### 4.1 Soberania
+**Soberania** é fundamento da República. Para a prova, a distinção mais importante vem no artigo 4º: **independência nacional** é princípio das relações internacionais. A proximidade de sentido não torna as categorias intercambiáveis.
 
-Soberania é fundamento da República Federativa do Brasil.
+**Cidadania** também é fundamento. Ela não se resume ao ato de votar: expressa a participação e o pertencimento da pessoa à comunidade política. Os instrumentos e direitos políticos serão estudados adiante.
 
-Não confunda:
+**Dignidade da pessoa humana** aparece expressamente como fundamento. Se uma alternativa a deslocar para o artigo 3º como “objetivo fundamental”, a categoria estará errada.
 
-- **soberania** → art. 1º, I, fundamento;
-- **independência nacional** → art. 4º, I, princípio das relações internacionais.
+**Valores sociais do trabalho e da livre iniciativa** formam uma única fórmula constitucional. O inciso não autoriza apagar o trabalho nem substituir “livre iniciativa” por “livre concorrência”.
 
-A questão pode apresentar uma expressão verdadeira em categoria errada.
+**Pluralismo político** é mais amplo que a mera existência de vários partidos. O pluripartidarismo é uma manifestação da vida política plural, mas não é sinônimo do fundamento constitucional.
 
-### 4.2 Cidadania
+### 3.4. Todo poder emana do povo
 
-Cidadania aparece como fundamento constitucional. O conceito não se reduz ao ato de votar. No plano constitucional, envolve participação e pertencimento à comunidade política.
+O parágrafo único do artigo 1º completa o modelo:
 
-A disciplina detalhada dos direitos políticos pertence ao assunto 125; aqui, o ponto é identificar **cidadania como fundamento do art. 1º**.
+- **titular do poder:** o povo;
+- **formas de exercício:** por representantes eleitos **ou diretamente**;
+- **limite:** nos termos da Constituição.
 
-### 4.3 Dignidade da pessoa humana
+A Constituição brasileira, portanto, combina exercício **representativo** e **direto** do poder. Os mecanismos concretos de participação direta pertencem ao assunto de direitos políticos; aqui, a ideia indispensável é que os representantes **exercem** poder cuja titularidade permanece com o povo.
 
-A dignidade da pessoa humana é fundamento expresso do Estado brasileiro.
+## 4. Artigo 2º: dividir o poder sem criar hierarquia
 
-Em prova, observe a categoria:
+Depois de definir a base do Estado e a titularidade do poder, a Constituição responde à segunda pergunta: **como as funções estatais fundamentais são distribuídas?**
 
-- é **fundamento**, no art. 1º, III;
-- não aparece na lista do art. 3º como “objetivo fundamental”;
-- também não é um dos princípios textualmente enumerados no art. 4º.
+O artigo 2º enumera:
 
-### 4.4 Valores sociais do trabalho e da livre iniciativa
+- Legislativo;
+- Executivo;
+- Judiciário.
 
-O inciso IV reúne duas dimensões na mesma fórmula:
+São os **Poderes da União**, qualificados como **independentes e harmônicos entre si**.
 
-> valores sociais do **trabalho** e da **livre iniciativa**.
+**Independência** significa que não existe subordinação hierárquica geral de um desses Poderes aos outros. Cada um exerce competências constitucionais próprias.
 
-A Constituição não estabelece, nesse dispositivo, exclusão de uma pela outra. Questões costumam apagar um dos elementos ou trocar a expressão por “livre concorrência”, que pertence a outro contexto constitucional.
+**Harmonia** impede interpretar a independência como isolamento. A própria Constituição cria relações, controles e interações entre os Poderes. Esses mecanismos serão estudados nos capítulos específicos sobre Legislativo, Executivo e Judiciário.
 
-### 4.5 Pluralismo político
+Duas conclusões de prova decorrem daí:
 
-Pluralismo político é fundamento do art. 1º, V.
+- nenhum dos três possui “soberania própria” acima da Constituição;
+- Ministério Público, Tribunal de Contas e Defensoria Pública podem ter autonomia constitucional relevante, mas **não entram na enumeração dos três Poderes do artigo 2º**.
 
-Não se deve reduzir o pluralismo político à existência de partidos políticos. Os partidos são parte importante da vida democrática, mas a literalidade constitucional usa expressão mais ampla.
+## 5. Artigo 3º: fundamentos dizem de onde partimos; objetivos dizem o que buscamos
 
----
+O artigo 3º muda de função. Em vez de listar as bases do Estado, apresenta **objetivos fundamentais**: resultados e direções que a República deve perseguir.
 
-## 5. Parágrafo único do art. 1º — titularidade e exercício do poder
+São quatro incisos:
 
-O parágrafo único dispõe:
+1. **construir uma sociedade livre, justa e solidária**;
+2. **garantir o desenvolvimento nacional**;
+3. **erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais**;
+4. **promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação**.
 
-> Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição.
+A distinção entre artigos 1º e 3º fica mais fácil quando se pergunta:
 
-A estrutura é:
+- **fundamento:** qual base sustenta a ordem constitucional?
+- **objetivo:** qual transformação ou resultado a República deve perseguir?
 
-```text
-TITULAR DO PODER → POVO
-EXERCÍCIO        → REPRESENTATIVO ou DIRETO
-LIMITAÇÃO        → NOS TERMOS DA CONSTITUIÇÃO
-```
+Assim, dignidade da pessoa humana é fundamento; desenvolvimento nacional é objetivo. Cidadania é fundamento; promover o bem de todos é objetivo.
 
-### 5.1 Democracia representativa
+### 5.1. O inciso III exige atenção aos verbos
 
-O povo exerce poder por meio de representantes eleitos.
+A Constituição não diz “reduzir a pobreza e erradicar as desigualdades”. A redação é:
 
-### 5.2 Participação direta
+- **erradicar** → pobreza e marginalização;
+- **reduzir** → desigualdades sociais e regionais.
 
-A Constituição também admite exercício direto do poder. O estudo detalhado dos instrumentos específicos de participação política pertence ao assunto 125. Aqui, basta reconhecer que a própria norma do art. 1º combina dimensão **representativa** e dimensão **direta**.
+A banca pode conservar todas as palavras e apenas trocar os verbos. Por isso, aqui a literalidade faz parte da compreensão: erradicação aponta para pobreza e marginalização; redução, para desigualdades.
 
-**Pegadinha:** a Constituição não diz que todo poder emana dos representantes; diz que todo poder **emana do povo**.
+### 5.2. O artigo 3º olha para dentro
 
----
+Os objetivos do artigo 3º organizam fins internos da República: sociedade, desenvolvimento, pobreza, desigualdades e combate a preconceitos. Essa orientação ajuda a distingui-los do artigo 4º, que muda o foco para a atuação internacional do Brasil.
 
-# Art. 2º — Poderes da União
+## 6. Artigo 4º: a orientação constitucional do Brasil no plano internacional
 
-## 6. Legislativo, Executivo e Judiciário
+O artigo 4º responde à quarta pergunta: **por quais princípios o Brasil deve reger suas relações internacionais?**
 
-O art. 2º estabelece:
-
-> São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário.
-
-A fórmula possui três elementos:
-
-1. **Legislativo**;
-2. **Executivo**;
-3. **Judiciário**.
-
-E duas qualificações relacionais:
-
-- **independentes**;
-- **harmônicos entre si**.
-
-### 6.1 Independência não é isolamento
-
-A independência impede subordinação hierárquica de um Poder a outro. Harmonia, porém, afasta a ideia de isolamento absoluto.
-
-A organização, as competências e os mecanismos concretos de interação entre Poderes serão estudados nos assuntos 128 a 130. Neste ponto, a cobrança típica é literal e conceitual.
-
-### 6.2 Não existe hierarquia entre os três Poderes
-
-No plano constitucional do art. 2º, não cabe afirmar superioridade abstrata do Legislativo, Executivo ou Judiciário sobre os demais.
-
-**Pegadinha:** “independentes” não significa “sem controles constitucionais recíprocos”.
-
----
-
-# Art. 3º — Objetivos fundamentais
-
-## 7. Os quatro objetivos da República
-
-O art. 3º enuncia quatro **objetivos fundamentais**:
-
-1. construir uma sociedade **livre, justa e solidária**;
-2. garantir o **desenvolvimento nacional**;
-3. **erradicar a pobreza e a marginalização** e **reduzir as desigualdades sociais e regionais**;
-4. promover o **bem de todos**, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.
-
-Uma estrutura útil:
-
-```text
-CONSTRUIR → sociedade livre, justa e solidária
-GARANTIR  → desenvolvimento nacional
-ERRADICAR → pobreza + marginalização
-REDUZIR   → desigualdades sociais + regionais
-PROMOVER  → bem de todos, sem preconceitos/discriminações
-```
-
-### 7.1 Fundamento não é objetivo
-
-A banca costuma misturar as categorias dos arts. 1º e 3º.
-
-| Art. 1º — fundamento | Art. 3º — objetivo |
-|---|---|
-| dignidade da pessoa humana | construir sociedade livre, justa e solidária |
-| cidadania | garantir desenvolvimento nacional |
-| soberania | erradicar pobreza e marginalização |
-| pluralismo político | reduzir desigualdades sociais e regionais |
-| valores sociais do trabalho e da livre iniciativa | promover o bem de todos |
-
-Não basta reconhecer que uma expressão “parece constitucional”; é necessário reconhecer **em qual artigo e categoria ela está**.
-
-### 7.2 Verbos são importantes
-
-Os objetivos do art. 3º são formulados como tarefas constitucionais. Isso explica o uso de verbos como **construir**, **garantir**, **erradicar**, **reduzir** e **promover**.
-
-Questões de literalidade trocam os verbos ou eliminam metade do inciso III. Atenção:
-
-> “erradicar a pobreza e a marginalização” **e** “reduzir as desigualdades sociais e regionais” fazem parte do mesmo inciso III.
-
----
-
-# Art. 4º — Relações internacionais
-
-## 8. Os dez princípios do caput
-
-Nas relações internacionais, a República Federativa do Brasil rege-se pelos seguintes princípios:
+O caput enumera dez:
 
 1. **independência nacional**;
 2. **prevalência dos direitos humanos**;
@@ -258,157 +160,60 @@ Nas relações internacionais, a República Federativa do Brasil rege-se pelos s
 9. **cooperação entre os povos para o progresso da humanidade**;
 10. **concessão de asilo político**.
 
-É melhor memorizar em blocos do que por uma sequência artificial.
+A lista fica mais compreensível quando se reconhecem as funções que ela desempenha.
 
-### 8.1 Autonomia e igualdade
+**Autonomia e igualdade entre Estados:** independência nacional, autodeterminação dos povos, não-intervenção e igualdade entre os Estados evitam tratar a ordem internacional como relação de subordinação jurídica automática entre países.
 
-- independência nacional;
-- autodeterminação dos povos;
-- não-intervenção;
-- igualdade entre os Estados.
+**Paz:** defesa da paz e solução pacífica dos conflitos orientam o modo de enfrentar controvérsias internacionais.
 
-### 8.2 Paz e solução de conflitos
+**Direitos e repúdio:** prevalência dos direitos humanos e repúdio ao terrorismo e ao racismo projetam compromissos constitucionais para além da organização interna.
 
-- defesa da paz;
-- solução pacífica dos conflitos.
+**Cooperação e proteção política:** cooperação entre os povos para o progresso da humanidade e concessão de asilo político completam a orientação internacional.
 
-### 8.3 Direitos humanos e repúdios
+Os agrupamentos ajudam a compreender, mas **não substituem a literalidade dos dez incisos**.
 
-- prevalência dos direitos humanos;
-- repúdio ao terrorismo e ao racismo.
+### 6.1. Integração latino-americana: parágrafo único
 
-### 8.4 Cooperação e proteção política
+O artigo 4º termina com um comando específico: a República Federativa do Brasil buscará a integração **econômica, política, social e cultural** dos povos da **América Latina**, visando à formação de uma **comunidade latino-americana de nações**.
 
-- cooperação entre os povos para o progresso da humanidade;
-- concessão de asilo político.
+Três elementos devem permanecer juntos:
 
----
+- **dimensões:** econômica, política, social e cultural;
+- **âmbito:** povos da América Latina;
+- **finalidade:** comunidade latino-americana de nações.
 
-## 9. Distinções de alta incidência
+Essa integração não é um quinto objetivo do artigo 3º. Ela está no parágrafo único do artigo 4º e integra a disciplina constitucional das relações internacionais.
 
-### 9.1 Soberania × independência nacional
+## 7. Como reconhecer a categoria antes de lembrar o número
 
-```text
-SOBERANIA             → art. 1º → FUNDAMENTO
-INDEPENDÊNCIA NACIONAL → art. 4º → RELAÇÕES INTERNACIONAIS
-```
+Quando uma questão apresentar uma expressão constitucional, não comece tentando recuperar o inciso. Primeiro pergunte **que função a expressão exerce**.
 
-### 9.2 Pluralismo político × asilo político
-
-```text
-PLURALISMO POLÍTICO → art. 1º, V
-ASILO POLÍTICO      → art. 4º, X
-```
-
-A palavra “político” em ambos não os coloca na mesma categoria.
-
-### 9.3 Dignidade × prevalência dos direitos humanos
-
-```text
-DIGNIDADE DA PESSOA HUMANA      → art. 1º, III
-PREVALÊNCIA DOS DIREITOS HUMANOS → art. 4º, II
-```
-
-### 9.4 Objetivos internos × princípios internacionais
-
-“Garantir o desenvolvimento nacional” é objetivo do art. 3º. “Cooperação entre os povos para o progresso da humanidade” é princípio internacional do art. 4º.
-
----
-
-## 10. Parágrafo único do art. 4º — integração latino-americana
-
-O parágrafo único determina que a República Federativa do Brasil buscará a integração:
-
-- **econômica**;
-- **política**;
-- **social**;
-- **cultural**;
-
-dos povos da **América Latina**, visando à formação de uma **comunidade latino-americana de nações**.
-
-Estrutura de prova:
-
-```text
-INTEGRAÇÃO → econômica + política + social + cultural
-ÂMBITO     → povos da América Latina
-FINALIDADE → comunidade latino-americana de nações
-```
-
-No material oficial do <abbr title="Supremo Tribunal Federal">STF</abbr>, há precedente ressaltando que esse dispositivo não elimina, por si só, os mecanismos constitucionais de incorporação de tratados ao direito interno. Para este nível de prova, a cobrança mais importante é a **literalidade e a finalidade do parágrafo único**.
-
----
-
-# Integração dos arts. 1º a 4º
-
-## 11. Matriz 1–2–3–4
-
-| Dispositivo | Pergunta-chave | Conteúdo |
+| Pergunta | Categoria | Exemplos |
 |---|---|---|
-| art. 1º | **o que sustenta o Estado?** | Estado Democrático de Direito + fundamentos + poder emana do povo |
-| art. 2º | **quem exerce as funções estatais fundamentais?** | Legislativo, Executivo e Judiciário independentes e harmônicos |
-| art. 3º | **o que a República busca realizar internamente?** | quatro objetivos fundamentais |
-| art. 4º | **como o Brasil se orienta externamente?** | dez princípios + integração latino-americana |
+| Isso sustenta a identidade constitucional do Estado? | artigo 1º — fundamento | soberania, cidadania, dignidade |
+| Isso distribui as funções estatais fundamentais? | artigo 2º — Poderes | Legislativo, Executivo, Judiciário |
+| Isso descreve um resultado interno a perseguir? | artigo 3º — objetivo | desenvolvimento nacional, redução de desigualdades |
+| Isso orienta a atuação externa do Brasil? | artigo 4º — princípio internacional | independência nacional, defesa da paz, asilo político |
 
----
+Esse critério resolve os pares que mais se confundem:
 
-## 12. Casos de prova
+- **soberania** → fundamento do artigo 1º; **independência nacional** → princípio do artigo 4º;
+- **dignidade da pessoa humana** → fundamento do artigo 1º; **prevalência dos direitos humanos** → princípio do artigo 4º;
+- **pluralismo político** → fundamento do artigo 1º; **concessão de asilo político** → princípio do artigo 4º;
+- **garantir o desenvolvimento nacional** → objetivo do artigo 3º; **cooperação para o progresso da humanidade** → princípio do artigo 4º.
 
-### Caso 1 — “Dignidade é objetivo fundamental”
+O ponto comum é simples: uma expressão pode ser constitucionalmente correta e, ainda assim, tornar a alternativa errada se estiver deslocada para outra categoria.
 
-**Errado.** Dignidade da pessoa humana é fundamento do art. 1º, III.
+## 8. Um único roteiro para os artigos 1º a 4º
 
-### Caso 2 — “Independência nacional é fundamento do Estado brasileiro”
+Ao final, os quatro artigos formam uma sequência lógica:
 
-**Errado.** Independência nacional é princípio das relações internacionais, art. 4º, I. O fundamento correlato no art. 1º é **soberania**.
+**artigo 1º — identidade e legitimidade:** que Estado é este, quais são suas bases e de quem vem o poder?
 
-### Caso 3 — “Os Poderes da União são independentes, logo não sofrem controles recíprocos”
+**artigo 2º — estrutura do poder:** entre quais Poderes as funções estatais fundamentais são distribuídas?
 
-**Errado.** O art. 2º reúne independência e harmonia; independência não significa isolamento institucional.
+**artigo 3º — direção interna:** quais resultados fundamentais a República deve buscar?
 
-### Caso 4 — “O poder emana dos representantes eleitos”
+**artigo 4º — direção externa:** por quais princípios o Brasil se rege internacionalmente e qual integração regional deve buscar?
 
-**Errado.** Emana do **povo**; representantes são uma das formas de exercício.
-
-### Caso 5 — “O art. 3º manda reduzir pobreza e erradicar desigualdades”
-
-**Errado.** A literalidade é inversa nessa construção: **erradicar pobreza e marginalização** e **reduzir desigualdades sociais e regionais**.
-
-### Caso 6 — “Integração latino-americana é um dos quatro objetivos do art. 3º”
-
-**Errado.** Está no parágrafo único do art. 4º.
-
-### Caso 7 — “Repúdio ao terrorismo e ao racismo integra as relações internacionais”
-
-**Correto.** É o art. 4º, VIII.
-
----
-
-## 13. Pegadinhas consolidadas
-
-1. **fundamento ≠ objetivo fundamental ≠ princípio internacional**;
-2. soberania ≠ independência nacional;
-3. pluralismo político ≠ concessão de asilo político;
-4. dignidade da pessoa humana ≠ prevalência dos direitos humanos;
-5. Poderes são independentes **e** harmônicos;
-6. o poder emana do **povo**;
-7. art. 3º, III: **erradicar** pobreza/marginalização + **reduzir** desigualdades;
-8. art. 4º inclui **racismo e terrorismo** no mesmo inciso de repúdio;
-9. integração latino-americana está no **parágrafo único do art. 4º**;
-10. preâmbulo não se confunde com norma de reprodução obrigatória.
-
----
-
-## 14. Checklist final
-
-Antes de marcar este assunto como dominado, seja capaz de responder sem consulta:
-
-- quais são os cinco fundamentos do art. 1º;
-- de quem emana todo o poder e como pode ser exercido;
-- quais são os três Poderes e como o art. 2º qualifica sua relação;
-- quais são os quatro objetivos fundamentais do art. 3º;
-- quais são os dez princípios do art. 4º;
-- qual é o conteúdo do parágrafo único do art. 4º;
-- em que categoria se encontram soberania, dignidade, desenvolvimento nacional, independência nacional e asilo político;
-- por que o preâmbulo não deve ser confundido com os princípios fundamentais normativos dos arts. 1º a 4º.
-
----
+Se uma alternativa trocar essas funções — por exemplo, colocar soberania no artigo 4º ou asilo político no artigo 3º —, o erro pode ser identificado antes mesmo de lembrar o número exato do inciso.
