@@ -1,15 +1,7 @@
-### 23. Fontes para revisão
-
-#### Normativas
-
-- Constituição Federal: arts. 5º, XXII a XXV; 22, II; 182; 184 a 186; 243.
-- Decreto-Lei nº 3.365/1941.
-- Lei nº 4.132/1962.
-- Lei Complementar nº 76/1993.
-- Lei nº 10.257/2001, art. 8º, no ponto relativo à desapropriação urbanística sancionatória.
-
-#### Jurisprudência essencial
-
-- STJ, Tema Repetitivo 1019 — prazo prescricional de dez anos para a desapropriação indireta na hipótese definida na tese.
-
-> Para esta linha do edital, jurisprudência adicional somente deve ser usada quando indispensável para esclarecer a própria desapropriação; a compilação geral de súmulas e jurisprudência vinculante pertence ao assunto seguinte.
+- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6 de julho de 2026, e documentos do concurso; referência para o corte normativo.
+- [Constituição da República Federativa do Brasil de 1988 — texto compilado, Planalto](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — especialmente arts. 5º, XXII a XXV; 22, II; 100; 182; 184 a 186; e 243.
+- [Decreto-Lei nº 3.365, de 21 de junho de 1941 — desapropriações por utilidade pública, texto compilado, Planalto](https://www.planalto.gov.br/ccivil_03/decreto-lei/del3365compilado.htm) — objeto, competência executória, declaração, oferta, imissão provisória, indenização, desapropriação por zona e efeitos da incorporação do bem.
+- [Lei nº 4.132, de 10 de setembro de 1962 — desapropriação por interesse social, Planalto](https://www.planalto.gov.br/ccivil_03/leis/l4132.htm) — hipóteses, prazo de dois anos e destinação social do bem.
+- [Lei Complementar nº 76, de 6 de julho de 1993 — desapropriação para reforma agrária, Planalto](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp76.htm) — competência da União e procedimento contraditório especial de rito sumário.
+- [Lei nº 10.257, de 10 de julho de 2001 — Estatuto da Cidade, Planalto](https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm) — especialmente art. 8º, sobre desapropriação urbanística sancionatória após IPTU progressivo no tempo.
+- [Superior Tribunal de Justiça — Tema Repetitivo 1019](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_final=1019&cod_tema_inicial=1019&novaConsulta=true&tipo_pesquisa=T) — prazo prescricional de dez anos para desapropriação indireta na hipótese delimitada pela tese repetitiva.

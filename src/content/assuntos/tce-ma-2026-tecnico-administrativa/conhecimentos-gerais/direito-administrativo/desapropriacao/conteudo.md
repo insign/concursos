@@ -8,600 +8,318 @@ storageId: tec-desapropriacao-120
 
 # Desapropriação
 
-## 1. Recorte do edital e estratégia de estudo
+## 1. A propriedade pode ser retirada, mas não por simples vontade administrativa
 
-O edital do Cargo 16 cobra, em **Direito Administrativo**, um recorte completo, mas ainda introdutório, sobre desapropriação:
+Imagine uma situação **hipotética**: o Município precisa de um terreno particular para construir um hospital. A finalidade pública, sozinha, não faz o imóvel mudar de dono. É preciso responder, em ordem:
 
-1. conceito e características;
-2. fundamentos;
-3. requisitos constitucionais;
-4. objeto;
-5. beneficiários;
-6. indenização **e seu pagamento**;
-7. desapropriação indireta;
-8. desapropriação por zona.
+1. existe fundamento jurídico para retirar a propriedade?
+2. quem tem competência para declarar e promover a desapropriação?
+3. qual bem será atingido?
+4. qual procedimento deve ser seguido?
+5. como será calculada e paga a indenização?
+6. o caso segue o regime ordinário ou alguma exceção constitucional?
 
-O núcleo é compreender **quando e como o Estado retira compulsoriamente um bem do patrimônio particular por finalidade pública ou social**, quais garantias protegem o expropriado e quais regimes constitucionais excepcionam a regra geral de indenização em dinheiro.
+**Desapropriação** é a intervenção estatal pela qual um bem ou direito é transferido compulsoriamente para o expropriante ou para o beneficiário juridicamente autorizado, com fundamento em finalidade pública ou social e mediante o procedimento previsto em lei.
 
-> **Corte jurídico:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Não se devem transportar automaticamente alterações posteriores ao corte.
+A transferência é compulsória porque não depende da concordância do proprietário. Ao mesmo tempo, não é confisco como regra: o art. 5º, XXIV, da Constituição protege o expropriado com **justa e prévia indenização em dinheiro**, ressalvadas as exceções estabelecidas pela própria Constituição.
 
-As fontes centrais deste assunto são:
+A aquisição decorrente da desapropriação é tratada como <abbr title="aquisição que não depende da cadeia anterior de titularidade">originária</abbr>. Por isso, os ônus e direitos que incidiam sobre o bem não acompanham o imóvel como se houvesse uma compra comum: em regra, passam a recair sobre o preço da indenização. Esse deslocamento é a **sub-rogação no preço**, prevista no art. 31 do Decreto-Lei nº 3.365/1941.
 
-- Constituição Federal, especialmente arts. 5º, XXII a XXV, 22, II, 182, 184 a 186 e 243;
-- Decreto-Lei nº 3.365/1941, sobre desapropriação por utilidade pública;
-- Lei nº 4.132/1962, sobre desapropriação por interesse social;
-- Lei Complementar nº 76/1993, quanto ao rito da desapropriação para reforma agrária;
-- Lei nº 10.257/2001 (Estatuto da Cidade), apenas no ponto necessário à desapropriação urbanística sancionatória;
-- jurisprudência indispensável à desapropriação indireta, em especial o Tema 1019 do <abbr title="Superior Tribunal de Justiça">STJ</abbr>.
+> **Corte jurídico:** este capítulo considera legislação e jurisprudência pertinentes ao edital em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
----
+### 1.1. Primeiro contraste: desapropriação não é toda intervenção na propriedade
 
-## 2. Conceito e características
+O critério mais útil é perguntar se a propriedade muda de titular.
 
-**Desapropriação** é forma de intervenção estatal na propriedade pela qual o Poder Público, ou quem esteja legalmente autorizado a atuar em seu nome, transfere compulsoriamente determinado bem para o patrimônio do expropriante ou do beneficiário indicado em lei, com fundamento em necessidade ou utilidade pública, interesse social ou hipótese constitucional específica.
-
-### 2.1 Características essenciais
-
-| Característica | Sentido para prova |
-|---|---|
-| **compulsória** | não depende da vontade do proprietário para que possa ocorrer |
-| **fundada em finalidade pública ou social** | exige causa juridicamente reconhecida |
-| **submetida a procedimento** | não basta simples ocupação material do bem |
-| **em regra indenizada** | a CF protege o expropriado com indenização justa e prévia em dinheiro, salvo exceções constitucionais |
-| **aquisitiva** | produz transferência da titularidade para o expropriante ou destinatário juridicamente indicado |
-| **originária** | em regra, a aquisição pela desapropriação é tratada como originária, com sub-rogação dos ônus no preço, nos termos do Decreto-Lei nº 3.365/1941 |
-
-O art. 31 do Decreto-Lei nº 3.365/1941 prevê que os ônus ou direitos que recaiam sobre o bem expropriado **se sub-rogam no preço**.
-
-> **Pegadinha:** desapropriação não é mera limitação administrativa. Na limitação, o proprietário permanece titular do bem; na desapropriação, há retirada da propriedade.
-
----
-
-## 3. Desapropriação × outras intervenções
-
-| Instituto | Propriedade muda de titular? | Regra de indenização |
+| Instituto | Há transferência da propriedade? | Regra indenizatória |
 |---|---|---|
-| **desapropriação** | sim | sim, salvo exceção constitucional |
-| **requisição** | não necessariamente; uso compulsório e temporário | ulterior, se houver dano |
+| **desapropriação** | sim | justa e prévia, em regra em dinheiro |
+| **requisição** | não necessariamente; há uso compulsório diante de iminente perigo público | ulterior, se houver dano |
 | **servidão administrativa** | não | indenização se houver prejuízo indenizável |
 | **limitação administrativa** | não | em regra, não |
-| **ocupação temporária** | não | conforme dano/prejuízo |
-| **expropriação do art. 243 da CF** | sim | **sem indenização** |
+| **ocupação temporária** | não | conforme o prejuízo juridicamente indenizável |
+| **expropriação do art. 243 da Constituição** | sim | **sem qualquer indenização** |
 
-A requisição está no art. 5º, XXV, da Constituição: em caso de iminente perigo público, a autoridade competente pode usar propriedade particular, assegurada indenização ulterior **se houver dano**.
+A desapropriação, portanto, retira a titularidade. Restrições ao uso, ocupações transitórias e requisições podem afetar intensamente o proprietário sem produzir essa transferência.
 
-A hipótese do art. 243 da Constituição, embora muitas vezes chamada de “desapropriação-confisco”, possui disciplina própria: propriedades rurais e urbanas onde forem localizadas culturas ilegais de plantas psicotrópicas ou exploração de trabalho escravo, na forma da lei, são **expropriadas sem qualquer indenização**.
+## 2. Quem legisla, quem desapropria e quem recebe o bem são perguntas diferentes
 
----
+A Constituição atribui à **União competência privativa para legislar sobre desapropriação** (art. 22, II). Isso não significa que somente a União possa executar uma desapropriação.
 
-## 4. Fundamentos constitucionais
-
-A Constituição parte de quatro ideias que devem ser lidas em conjunto:
-
-1. **direito de propriedade** — art. 5º, XXII;
-2. **função social da propriedade** — art. 5º, XXIII;
-3. **desapropriação mediante procedimento legal e indenização** — art. 5º, XXIV;
-4. **competência privativa da União para legislar sobre desapropriação** — art. 22, II.
-
-### 4.1 Regra geral do art. 5º, XXIV
-
-A Constituição determina que a lei estabeleça o procedimento para desapropriação por:
-
-- necessidade pública;
-- utilidade pública;
-- interesse social,
-
-mediante **justa e prévia indenização em dinheiro**, ressalvados os casos previstos na própria Constituição.
-
-Essa ressalva é decisiva. Não existe uma única forma de pagamento para toda desapropriação.
-
-### 4.2 Competência para legislar × competência para desapropriar
-
-A competência privativa da **União para legislar** sobre desapropriação não significa que somente a União possa desapropriar.
-
-O Decreto-Lei nº 3.365/1941 admite declaração de utilidade pública e desapropriação por:
+O Decreto-Lei nº 3.365/1941 permite desapropriação, nos termos da legislação, pela:
 
 - União;
 - estados;
-- municípios;
-- Distrito Federal.
+- Distrito Federal;
+- municípios.
 
-A declaração de utilidade pública pode ser feita por decreto do:
+A declaração de utilidade pública pode ser feita por decreto do Presidente da República, governador ou prefeito. O Poder Legislativo também pode tomar a iniciativa da desapropriação; nessa hipótese, cabe ao Executivo praticar os atos necessários à efetivação.
 
-- Presidente da República;
-- governador;
-- prefeito.
+A separação mental é:
 
-O Poder Legislativo também pode tomar a **iniciativa** da desapropriação; nesse caso, cabe ao Executivo praticar os atos necessários à efetivação.
+**legislar sobre desapropriação → União**
 
-> **Pegadinha:** “quem legisla” e “quem desapropria” são perguntas diferentes.
+**declarar e executar a desapropriação → depende do regime e do ente competente**
 
----
+### 2.1. Expropriante, expropriado e beneficiário
 
-## 5. Sujeitos e beneficiários
+**Expropriante** é quem promove juridicamente a retirada compulsória. **Expropriado** é o titular atingido. **Beneficiário** é quem recebe a destinação jurídica ou econômica do bem; ele não precisa coincidir com o ente que editou o ato declaratório.
 
-### 5.1 Expropriante
+O art. 3º do Decreto-Lei nº 3.365/1941 permite que promovam desapropriação, mediante autorização expressa em lei ou contrato:
 
-É quem promove juridicamente a retirada compulsória da propriedade.
-
-Além dos entes federativos, o art. 3º do Decreto-Lei nº 3.365/1941 permite que promovam a desapropriação, mediante autorização expressa em lei ou contrato, entre outros:
-
-- concessionários;
-- permissionários;
-- autorizatários;
-- arrendatários;
+- concessionários, permissionários, autorizatários e arrendatários;
 - entidades públicas;
 - entidades que exerçam funções delegadas do poder público;
-- em hipóteses legais, contratado pelo poder público para execução de determinadas obras e serviços de engenharia.
+- contratado pelo poder público para determinadas obras e serviços de engenharia nos regimes previstos na lei.
 
-A autorização não transforma o delegado em titular de competência legislativa: ele pratica atos expropriatórios dentro do âmbito autorizado.
+Na última hipótese, o edital deve disciplinar responsabilidades, orçamento e distribuição de riscos do procedimento expropriatório. A delegação permite promover atos de desapropriação dentro da autorização; não transfere competência legislativa.
 
-### 5.2 Expropriado
+A possibilidade de o beneficiário não ser o próprio ente aparece também na Lei nº 4.132/1962: bens desapropriados por interesse social podem ser vendidos ou locados a quem esteja em condições de lhes dar a destinação social prevista.
 
-É o titular do bem ou direito atingido pela desapropriação.
+## 3. O que pode ser desapropriado
 
-### 5.3 Beneficiário
+O art. 2º do Decreto-Lei nº 3.365/1941 parte de fórmula ampla: mediante declaração de utilidade pública, **todos os bens** podem ser desapropriados. A regra alcança imóveis e outros bens ou direitos suscetíveis de apropriação e valoração, observadas as limitações legais.
 
-O beneficiário é quem recebe a destinação jurídica ou econômica do bem expropriado. Ele pode coincidir ou não com quem conduziu materialmente a desapropriação.
+Há duas situações que merecem atenção.
 
-Na desapropriação por interesse social da Lei nº 4.132/1962, os bens desapropriados podem ser objeto de **venda ou locação a quem esteja em condições de dar-lhes a destinação social prevista**.
+### 3.1. Espaço aéreo e subsolo
 
-No regime de utilidade pública, a legislação também admite, em hipóteses legais, alienação, locação, cessão, arrendamento ou outras destinações do bem, desde que preservada a finalidade juridicamente admitida.
+A desapropriação do espaço aéreo ou do subsolo somente se torna necessária quando sua utilização provocar **prejuízo patrimonial ao proprietário do solo**.
 
-> **Pegadinha:** desapropriar não significa que o bem necessariamente permanecerá para sempre registrado em nome do ente político que editou o ato declaratório.
+Logo, o simples uso público do espaço aéreo ou do subsolo não cria automaticamente necessidade de desapropriação: o dano patrimonial ao titular do solo é o ponto de conexão legal.
 
----
+### 3.2. Bens públicos
 
-## 6. Objeto da desapropriação
+A lei estabelece uma direção federativa específica:
 
-O art. 2º do Decreto-Lei nº 3.365/1941 estabelece regra ampla: **todos os bens** podem ser desapropriados mediante declaração de utilidade pública.
+- a União pode desapropriar bens de estados, Distrito Federal e municípios;
+- os estados podem desapropriar bens municipais.
 
-Isso abrange bens imóveis e, juridicamente, outros bens e direitos suscetíveis de apropriação e valoração, observados os limites legais.
+Nessas hipóteses, exige-se autorização legislativa. A autorização pode ser dispensada quando a desapropriação decorrer de **acordo entre os entes federativos** que fixe as respectivas responsabilidades financeiras pelas indenizações.
 
-### 6.1 Espaço aéreo e subsolo
+Não transforme essa regra em autorização inversa: o Decreto-Lei não concede, por exemplo, poder geral ao Município para desapropriar bem estadual ou federal.
 
-A desapropriação do espaço aéreo ou do subsolo somente se torna necessária quando sua utilização resultar em **prejuízo patrimonial ao proprietário do solo**.
+## 4. O fundamento determina o regime
 
-### 6.2 Bens públicos
+Nem toda desapropriação nasce da mesma finalidade nem é paga da mesma forma. O primeiro grande divisor é entre o regime ordinário e as hipóteses constitucionais especiais.
 
-O Decreto-Lei nº 3.365/1941 disciplina a desapropriação de bens públicos em lógica federativa:
+### 4.1. Necessidade ou utilidade pública
 
-- União pode desapropriar bens estaduais, distritais e municipais;
-- estado pode desapropriar bens municipais.
-
-A lei exige autorização legislativa nessas hipóteses, ressalvada a dispensa quando houver **acordo entre os entes federativos** que fixe as responsabilidades financeiras pelo pagamento das indenizações.
-
-> **Atenção:** não se deduz uma autorização geral para ente inferior desapropriar bem de ente superior.
-
----
-
-## 7. Fundamentos: utilidade pública e interesse social
-
-### 7.1 Utilidade pública
-
-O Decreto-Lei nº 3.365/1941 reúne hipóteses de utilidade pública. Para a prova, é mais importante reconhecer a lógica do que decorar o rol inteiro.
-
-Exemplos:
+O Decreto-Lei nº 3.365/1941 disciplina a desapropriação por utilidade pública. Seu rol inclui, entre outras finalidades:
 
 - segurança nacional e defesa do Estado;
 - socorro público em calamidade;
-- salubridade pública;
+- salubridade;
 - exploração ou conservação de serviços públicos;
-- abertura, conservação e melhoramento de vias e logradouros;
+- abertura, conservação e melhoramento de vias;
 - planos de urbanização;
 - edifícios públicos;
-- preservação de monumentos, arquivos, paisagens e locais de valor relevante.
+- preservação de monumentos, arquivos, paisagens e locais relevantes.
 
-### 7.2 Interesse social
+Para a prova, a utilidade desse rol é reconhecer que a desapropriação se liga a uma **destinação pública prevista em lei**, e não a mera preferência administrativa.
 
-A Lei nº 4.132/1962 define hipóteses voltadas à:
+### 4.2. Interesse social
 
-- justa distribuição da propriedade;
-- condicionamento do uso da propriedade ao bem-estar social;
-- habitação;
-- produção;
-- preservação de solo, águas e reservas;
-- outras destinações sociais expressamente previstas.
+A Lei nº 4.132/1962 trata de hipóteses voltadas à justa distribuição da propriedade, ao condicionamento de seu uso ao bem-estar social, à habitação, à produção e a outras destinações sociais legalmente previstas.
 
-O expropriante tem, na desapropriação por interesse social regida por essa lei, **dois anos** a partir da decretação para efetivar a desapropriação e iniciar as providências de aproveitamento do bem.
+Nesse regime, o expropriante dispõe de **dois anos**, contados da decretação, para efetivar a desapropriação e iniciar as providências de aproveitamento do bem.
 
----
+Reforma agrária também é desapropriação por interesse social, mas possui regime constitucional e processual próprio, estudado adiante. Não se deve importar automaticamente para ela todas as regras de pagamento da Lei nº 4.132/1962.
 
-## 8. Fases essenciais do procedimento
+## 5. Procedimento regular: declarar não é tomar a propriedade
 
-A desapropriação pode ser estudada em duas grandes fases:
+No exemplo do hospital, identificar o terreno e declarar sua utilidade pública não transfere o domínio. A declaração inaugura a fase expropriatória e permite preparar a execução amigável ou judicial.
 
-1. **declaratória**;
-2. **executória**.
+O fluxo básico é:
 
-### 8.1 Fase declaratória
+**declaração → avaliação e oferta → acordo ou ação judicial → pagamento e atos de transferência**
 
-O Poder Público identifica o bem e declara a causa expropriatória.
+### 5.1. Declaração e caducidade
 
-A declaração:
+A declaração delimita o bem e a finalidade expropriatória. Na desapropriação por utilidade pública, o decreto caduca se a desapropriação não for efetivada por acordo nem judicialmente proposta dentro de **cinco anos**.
 
-- não transfere, sozinha, a propriedade;
-- delimita o objeto;
-- vincula a atuação à finalidade declarada;
-- abre caminho para atos preparatórios e para a execução amigável ou judicial.
+Depois da caducidade, o mesmo bem só pode ser objeto de nova declaração após **um ano**.
 
-Na utilidade pública, a declaração caduca se a desapropriação não for efetivada por acordo nem judicialmente proposta em **cinco anos**. Caducado o decreto, o mesmo bem somente pode ser objeto de nova declaração depois de **um ano**.
+Na desapropriação por interesse social regida pela Lei nº 4.132/1962, o prazo é de **dois anos**.
 
-Na desapropriação por interesse social da Lei nº 4.132/1962, o prazo é de **dois anos**.
+### 5.2. Oferta ao proprietário
 
-### 8.2 Oferta ao proprietário
+O art. 10-A do Decreto-Lei nº 3.365/1941 exige que o Poder Público notifique o proprietário e lhe apresente oferta de indenização. A notificação contém o ato declaratório, a descrição do bem, o valor ofertado e a informação de que o proprietário dispõe de **15 dias** para aceitar ou rejeitar.
 
-O art. 10-A do Decreto-Lei nº 3.365/1941 exige que o Poder Público notifique o proprietário e apresente oferta de indenização.
+O silêncio vale como **rejeição**, não como aceitação tácita.
 
-A notificação deve informar, entre outros elementos:
+Se a oferta for aceita e o pagamento realizado, lavra-se acordo apto ao registro imobiliário. Se houver rejeição ou silêncio, o Poder Público pode seguir para a via judicial.
 
-- o ato declaratório;
-- a descrição do bem;
-- o valor da oferta;
-- prazo de **15 dias** para aceitar ou rejeitar.
+### 5.3. O que o juiz discute na ação expropriatória
 
-O silêncio é considerado **rejeição**.
+O art. 9º do Decreto-Lei nº 3.365/1941 impede que o Judiciário, **no processo de desapropriação**, decida se estão ou não presentes os casos de utilidade pública. Isso não torna o ato estatal imune a controle jurídico.
 
-Aceita a oferta e realizado o pagamento, formaliza-se acordo apto ao registro imobiliário.
+No próprio processo expropriatório, o núcleo da controvérsia recai especialmente sobre vícios do processo judicial e sobre o preço; outras questões seguem a via processual adequada.
 
-### 8.3 Via judicial
+## 6. Posse provisória não é propriedade definitiva nem preço final
 
-Rejeitada a oferta ou inexistindo manifestação no prazo, o expropriante pode seguir para a ação judicial.
-
-No processo expropriatório, a discussão concentra-se especialmente:
-
-- na regularidade jurídica do procedimento;
-- no objeto;
-- no valor da indenização.
-
-O art. 9º do Decreto-Lei nº 3.365/1941 veda que o Judiciário, **no processo de desapropriação**, decida se se verificam ou não os casos de utilidade pública. Isso não torna o ato imune a todo controle de legalidade.
-
----
-
-## 9. Imissão provisória na posse
-
-A transferência definitiva da propriedade e a entrada provisória na posse são momentos distintos.
-
-Segundo o art. 15 do Decreto-Lei nº 3.365/1941, havendo:
-
-- alegação de urgência;
-- depósito da quantia legalmente exigida,
-
-o juiz pode determinar a **imissão provisória na posse**.
+Se houver urgência e depósito da quantia legalmente exigida, o juiz pode permitir que o expropriante entre no bem antes do encerramento da discussão sobre o preço. Essa entrada antecipada é a **imissão provisória na posse**.
 
 A alegação de urgência:
 
 - não pode ser renovada;
-- obriga o expropriante a requerer a imissão provisória em **120 dias**.
+- obriga o expropriante a requerer a imissão dentro de **120 dias**.
 
-Ultrapassado esse prazo, não será concedida a imissão provisória com base naquela alegação.
+Perdido esse prazo, a imissão provisória não será concedida com base naquela alegação.
 
-> **Pegadinha:** imissão provisória na posse não é sinônimo de pagamento final da justa indenização.
+A distinção é decisiva:
 
----
+**imissão provisória → permite posse antecipada**
 
-# Indenização e pagamento
+**transferência definitiva → consolida a propriedade conforme os atos jurídicos aplicáveis**
 
-## 10. Regra geral: justa, prévia e em dinheiro
+**indenização final → pode continuar em discussão**
 
-O art. 5º, XXIV, da Constituição estabelece, como regra, indenização:
-
-- **justa**;
-- **prévia**;
-- **em dinheiro**.
-
-O art. 32 do Decreto-Lei nº 3.365/1941 reforça que o pagamento do preço será **prévio e em dinheiro** no regime geral.
-
-### 10.1 O que significa indenização justa
-
-Indenização justa procura recompor o valor patrimonial efetivamente retirado do expropriado, sem enriquecimento indevido de nenhuma das partes.
-
-A legislação manda considerar, na avaliação, elementos como:
-
-- valor do bem;
-- estado e conservação;
-- situação;
-- referências de mercado;
-- valorização ou depreciação da área remanescente.
-
-O valor da indenização é contemporâneo à avaliação.
-
-### 10.2 Benfeitorias
-
-O Decreto-Lei nº 3.365/1941 determina que:
-
-- benfeitorias **necessárias** feitas após a desapropriação sejam consideradas;
-- benfeitorias **úteis**, quando feitas com autorização do expropriante, também sejam atendidas.
-
-### 10.3 Ônus e direitos de terceiros
-
-Os ônus e direitos que incidiam sobre o bem são, em regra, **sub-rogados no preço**.
-
-Isso é compatível com o caráter originário da aquisição expropriatória.
-
----
-
-## 11. Pagamento, depósito e levantamento
+### 6.1. Depósito e levantamento
 
 O depósito do preço fixado por sentença à disposição do juízo é considerado pagamento prévio da indenização.
 
-Mesmo discordando do preço oferecido, arbitrado ou fixado, o desapropriado pode, observados os requisitos legais, levantar até **80% do depósito**.
+Mesmo discordando do valor oferecido, arbitrado ou fixado, o desapropriado pode, cumpridos os requisitos legais, levantar **até 80% do depósito**.
 
-Há hipótese específica em que, havendo concordância escrita do expropriado com a aquisição da propriedade vinculada à imissão provisória, ele pode levantar **100% do depósito**, sem renunciar ao direito de discutir o preço ofertado.
+Há hipótese especial no art. 34-A: se o expropriado concordar por escrito com a aquisição vinculada à imissão provisória, a decisão concessiva da posse implica aquisição da propriedade pelo expropriante, e o proprietário pode levantar **100% do depósito**. Essa concordância **não significa renúncia ao direito de discutir o preço**.
 
-### 11.1 Diferença fixada judicialmente
+## 7. Indenização justa: o patrimônio retirado precisa ser economicamente recomposto
 
-Quando a sentença fixa indenização acima da oferta, a diferença segue o regime jurídico aplicável ao pagamento pela Fazenda Pública.
+No regime ordinário, a Constituição exige indenização **justa, prévia e em dinheiro**. O Decreto-Lei nº 3.365/1941 repete que o pagamento do preço será prévio e em dinheiro.
 
-O art. 15-B do Decreto-Lei nº 3.365/1941 relaciona os juros moratórios ao atraso no efetivo pagamento da indenização fixada na decisão final, em conexão com o art. 100 da Constituição.
+**Justa** não significa aceitar obrigatoriamente a primeira oferta estatal. Significa buscar correspondência econômica com o patrimônio retirado segundo os critérios jurídicos de avaliação. O valor da indenização é contemporâneo à avaliação.
 
-Para esta prova, o ponto principal é:
+Na composição do preço, a legislação considera elementos pertinentes ao valor do bem e disciplina também as benfeitorias — obras ou melhoramentos incorporados ao imóvel:
 
-> **prévia indenização não significa que toda divergência de valor seja integralmente paga antes da imissão provisória na posse.**
+- benfeitorias **necessárias** feitas depois da desapropriação são atendidas;
+- benfeitorias **úteis** feitas depois dela são atendidas quando autorizadas pelo expropriante.
 
----
+Os direitos de terceiros não desaparecem sem consequência: em regra, os ônus que recaíam sobre o bem são sub-rogados no preço.
 
-## 12. Juros compensatórios: cuidado com fórmulas antigas
+Se a decisão final fixar indenização superior à oferta, o saldo devido **pela Fazenda Pública**, quando for o caso, observa o regime constitucional de pagamento do art. 100 da Constituição. O art. 15-B do Decreto-Lei nº 3.365/1941 trata separadamente dos juros moratórios ligados ao atraso no pagamento final. Não confunda essa mora com os juros compensatórios da imissão prévia.
 
-No regime atual do Decreto-Lei nº 3.365/1941, em caso de imissão prévia na posse, havendo diferença entre a oferta e o valor fixado na sentença, **podem** incidir juros compensatórios de até **6% ao ano** sobre a diferença eventualmente apurada.
+### 7.1. Juros compensatórios: não use a fórmula antiga como automatismo
 
-Esses juros:
+Na imissão prévia na posse, se houver diferença real entre o preço ofertado em juízo e o valor do bem fixado na sentença, **podem** incidir juros compensatórios de até **6% ao ano** sobre a diferença eventualmente apurada, contados da imissão, sem juros compostos.
 
-- não são automáticos em qualquer desapropriação;
-- destinam-se a compensar **lucros cessantes comprovadamente sofridos**;
-- não incidem nas desapropriações-sanção fundadas no descumprimento da função social previstas nos arts. 182, § 4º, III, e 184 da Constituição.
+A lei atual liga esses juros apenas à compensação de <abbr title="ganhos que o proprietário deixou comprovadamente de obter">lucros cessantes</abbr> comprovadamente sofridos.
 
-> **Pegadinha:** material antigo pode apresentar juros compensatórios como parcela automática e com disciplina superada. Para o corte de 2026, siga a redação vigente do Decreto-Lei nº 3.365/1941.
+Eles não incidem nas indenizações das desapropriações-sanção fundadas no descumprimento da função social previstas nos arts. 182, § 4º, III, e 184 da Constituição.
 
----
+Portanto, três ideias devem ficar separadas: **não são automáticos; o teto legal é 6% ao ano; é preciso haver lucros cessantes comprovados**.
 
-# Regimes constitucionais de pagamento
+## 8. O meio de pagamento muda conforme o fundamento constitucional
 
-## 13. Matriz das quatro situações centrais
+A regra geral é dinheiro, mas a própria Constituição cria regimes especiais.
 
-| Hipótese | Quem atua | Pagamento |
-|---|---|---|
-| desapropriação ordinária | ente competente | justa e prévia indenização em dinheiro |
-| imóvel urbano comum | poder público competente | prévia e justa indenização em dinheiro |
-| desapropriação urbanística sancionatória | Município | títulos da dívida pública, após sequência constitucional |
-| reforma agrária | União | títulos da dívida agrária; benfeitorias úteis e necessárias em dinheiro |
-| art. 243 da CF | regime constitucional próprio | **sem indenização** |
+| Hipótese | Regra de pagamento |
+|---|---|
+| desapropriação ordinária | justa e prévia indenização em dinheiro |
+| imóvel urbano no regime comum | prévia e justa indenização em dinheiro |
+| desapropriação urbanística sancionatória | títulos da dívida pública, depois da sequência constitucional |
+| reforma agrária | <abbr title="Títulos da Dívida Agrária">TDA</abbr>; benfeitorias úteis e necessárias em dinheiro |
+| art. 243 da Constituição | **sem qualquer indenização** |
 
----
+### 8.1. Desapropriação urbanística sancionatória
 
-## 14. Desapropriação urbanística sancionatória
+O Município pode exigir adequado aproveitamento de solo urbano não edificado, subutilizado ou não utilizado em área incluída no plano diretor e submetida a lei específica.
 
-O art. 182, § 4º, da Constituição permite ao Município exigir o adequado aproveitamento de solo urbano:
-
-- não edificado;
-- subutilizado;
-- não utilizado,
-
-desde que a área esteja incluída no plano diretor e haja lei específica.
-
-As medidas são **sucessivas**:
+A Constituição impõe medidas **sucessivas**:
 
 1. parcelamento ou edificação compulsórios;
 2. <abbr title="Imposto sobre a Propriedade Predial e Territorial Urbana">IPTU</abbr> progressivo no tempo;
 3. desapropriação com pagamento em títulos da dívida pública.
 
-Os títulos:
+O Estatuto da Cidade permite chegar à desapropriação depois de **cinco anos de cobrança do <abbr title="Imposto sobre a Propriedade Predial e Territorial Urbana">IPTU</abbr> progressivo** sem cumprimento da obrigação de parcelar, edificar ou utilizar.
+
+Os títulos da dívida pública:
 
 - dependem de prévia aprovação do Senado Federal;
-- têm resgate em até **dez anos**;
+- são resgatáveis em até **dez anos**;
 - são pagos em parcelas anuais, iguais e sucessivas;
 - preservam o valor real da indenização e os juros legais.
 
-O Estatuto da Cidade detalha essa sequência e exige, para a desapropriação do art. 8º, cinco anos de cobrança do IPTU progressivo sem cumprimento da obrigação urbanística.
+O regime é sancionatório justamente porque reage ao descumprimento do dever de dar adequado aproveitamento à propriedade urbana. Não se pode pular diretamente para a desapropriação em títulos.
 
-> **Pegadinha:** não se pode pular diretamente da inércia do proprietário para a desapropriação-sanção sem observar a sequência constitucional e legal.
+### 8.2. Reforma agrária
 
----
+Compete **à União** desapropriar, por interesse social para fins de reforma agrária, imóvel rural que não esteja cumprindo sua função social.
 
-## 15. Reforma agrária
+A terra é indenizada de forma prévia e justa em <abbr title="Títulos da Dívida Agrária">TDA</abbr>, com preservação do valor real. Os títulos são resgatáveis em até **20 anos**, a partir do segundo ano de emissão. As benfeitorias úteis e necessárias são indenizadas **em dinheiro**.
 
-A desapropriação por interesse social para fins de reforma agrária possui regime constitucional próprio.
+A Constituição protege contra essa modalidade:
 
-### 15.1 Competência
-
-Compete **à União** desapropriar o imóvel rural que não esteja cumprindo sua função social para fins de reforma agrária.
-
-### 15.2 Pagamento
-
-A regra do art. 184 é:
-
-- indenização prévia e justa;
-- em **Títulos da Dívida Agrária (TDA)**;
-- preservação do valor real;
-- resgate em até **20 anos**, a partir do segundo ano de emissão.
-
-As **benfeitorias úteis e necessárias** são indenizadas em **dinheiro**.
-
-### 15.3 Imóveis protegidos
-
-O art. 185 da Constituição torna insuscetíveis de desapropriação para fins de reforma agrária:
-
-- pequena e média propriedade rural, definidas em lei, desde que o proprietário não possua outra;
+- pequena e média propriedade rural, definidas em lei, quando o proprietário não possuir outra;
 - propriedade produtiva.
 
-### 15.4 Função social rural
-
-O art. 186 exige cumprimento **simultâneo** de requisitos relativos a:
+A função social rural só é cumprida quando a propriedade atende **simultaneamente** aos quatro grupos de requisitos do art. 186:
 
 1. aproveitamento racional e adequado;
-2. adequada utilização de recursos naturais e preservação ambiental;
+2. utilização adequada dos recursos naturais e preservação ambiental;
 3. observância das normas trabalhistas;
 4. exploração que favoreça o bem-estar de proprietários e trabalhadores.
 
-### 15.5 Procedimento
+O procedimento judicial é disciplinado pela Lei Complementar nº 76/1993, em contraditório especial de rito sumário. A ação deve ser proposta dentro de **dois anos** da publicação do decreto declaratório.
 
-A Lei Complementar nº 76/1993 disciplina procedimento contraditório especial, de rito sumário.
+### 8.3. Expropriação do art. 243: a exceção sem indenização
 
-A ação deve ser proposta em **dois anos** da publicação do decreto declaratório de interesse social para reforma agrária.
+As propriedades rurais e urbanas onde forem localizadas culturas ilegais de plantas psicotrópicas ou exploração de trabalho escravo, na forma da lei, são **expropriadas sem qualquer indenização ao proprietário**.
 
----
+A Constituição destina esses imóveis à reforma agrária e a programas de habitação popular.
 
-## 16. Expropriação do art. 243 da Constituição
+Não confunda esse regime com reforma agrária comum:
 
-A Constituição determina a expropriação, **sem qualquer indenização**, de propriedades rurais e urbanas onde forem localizadas:
+**reforma agrária do art. 184 → indenização em <abbr title="Títulos da Dívida Agrária">TDA</abbr> + dinheiro para benfeitorias úteis e necessárias**
 
-- culturas ilegais de plantas psicotrópicas; ou
-- exploração de trabalho escravo, na forma da lei.
+**expropriação do art. 243 → nenhuma indenização**
 
-A destinação constitucional é:
+## 9. Desapropriação indireta: quando o procedimento regular foi atropelado
 
-- reforma agrária;
-- programas de habitação popular.
+Agora altere o exemplo. Em vez de declarar, ofertar e pagar, o Poder Público ocupa o terreno particular e o incorpora irreversivelmente a uma obra pública.
 
-Não confunda:
+A **desapropriação indireta** não é uma modalidade regular à escolha da Administração. Ela descreve o apossamento ou incorporação do bem a finalidade pública sem a observância regular do procedimento expropriatório e sem o pagamento prévio devido.
 
-`DESAPROPRIAÇÃO ORDINÁRIA → INDENIZA`
+Quando o bem já foi incorporado ao patrimônio público de modo que a restituição não seja juridicamente viável, a tutela do proprietário tende a se resolver em indenização. O art. 35 do Decreto-Lei nº 3.365/1941 reforça essa lógica ao determinar que bens expropriados, uma vez incorporados à Fazenda Pública, não podem ser reivindicados, resolvendo-se em perdas e danos a ação procedente.
 
-`ART. 243 → NÃO INDENIZA`
-
----
-
-# Desapropriação indireta
-
-## 17. Conceito
-
-A **desapropriação indireta** ocorre quando o Poder Público se apossa de bem particular ou lhe dá destinação pública irreversível **sem seguir regularmente o procedimento expropriatório e sem o pagamento prévio devido**.
-
-Não é uma modalidade regular que a Administração possa escolher como atalho.
-
-É uma situação ilícita ou irregular que desloca a tutela do proprietário, em regra, para pretensão indenizatória quando a restituição do bem se torna inviável em razão de sua incorporação à finalidade pública.
-
-### 17.1 Elementos de identificação
-
-Procure:
+Para reconhecer a situação, procure:
 
 1. apossamento pelo Poder Público;
-2. ausência ou insuficiência do procedimento expropriatório regular;
-3. afetação do bem a finalidade pública;
-4. inviabilidade prática/jurídica de restituição;
-5. pretensão do particular ao valor correspondente ao bem e demais parcelas juridicamente cabíveis.
+2. falta de procedimento expropriatório regular;
+3. destinação pública do bem;
+4. incorporação que inviabilize a restituição;
+5. pretensão indenizatória do proprietário.
 
-> **Pegadinha:** ocupação temporária ou mera restrição administrativa não se transforma automaticamente em desapropriação indireta.
+Mera limitação administrativa, servidão ou ocupação temporária não se convertem automaticamente em desapropriação indireta.
 
----
+### 9.1. Tema 1019 do <abbr title="Superior Tribunal de Justiça">STJ</abbr>
 
-## 18. Prazo prescricional — Tema 1019 do STJ
+A antiga Súmula 119 do <abbr title="Superior Tribunal de Justiça">STJ</abbr> foi construída sob o Código Civil de 1916 e enunciava prescrição em 20 anos.
 
-A antiga Súmula 119 do STJ afirmava prazo de **20 anos** para a ação de desapropriação indireta, em contexto do Código Civil de 1916.
+No Tema Repetitivo 1019, o <abbr title="Superior Tribunal de Justiça">STJ</abbr> fixou que o prazo prescricional aplicável à desapropriação indireta, **na hipótese em que o Poder Público realizou obras no local ou atribuiu natureza de utilidade pública ou de interesse social ao imóvel**, é de **10 anos**, conforme o parágrafo único do art. 1.238 do Código Civil de 2002.
 
-O Tema Repetitivo **1019 do STJ** atualizou a matéria para o Código Civil de 2002.
+A cautela de prova é simples: não transforme a antiga referência de 20 anos em regra atual absoluta; leia a hipótese delimitada pela tese repetitiva.
 
-A tese firmada estabelece prazo de **10 anos** para a desapropriação indireta na hipótese em que o Poder Público:
+## 10. Desapropriação por zona: a obra pode justificar uma área maior que seu traçado exato
 
-- tenha realizado obras no local; ou
-- tenha atribuído natureza de utilidade pública ou interesse social ao imóvel,
+O art. 4º do Decreto-Lei nº 3.365/1941 permite que a declaração alcance:
 
-conforme o parágrafo único do art. 1.238 do Código Civil.
-
-> **Regra de prova:** não marque “20 anos” apenas porque reconheceu a antiga redação da Súmula 119. Para a hipótese do Tema 1019, o prazo é **decenal**.
-
----
-
-# Desapropriação por zona
-
-## 19. Conceito e fundamento legal
-
-O art. 4º do Decreto-Lei nº 3.365/1941 permite que a desapropriação alcance:
-
-1. **área contígua necessária ao desenvolvimento da obra**; e
+1. **área contígua necessária ao desenvolvimento da obra**;
 2. **zonas que se valorizarem extraordinariamente em consequência da realização do serviço**.
 
-A declaração de utilidade pública deve abranger essas áreas e mencionar:
+A declaração de utilidade pública precisa incluir essas áreas e distinguir quais são indispensáveis à continuação da obra e quais se destinam à revenda.
 
-- quais são indispensáveis à continuação da obra;
-- quais se destinam à revenda.
+No primeiro caso, a ampliação territorial serve à própria execução. No segundo, a lei permite alcançar a valorização extraordinária produzida pelo investimento público.
 
-A desapropriação por zona permite, portanto, integrar ao projeto áreas necessárias e, em hipótese legal, capturar a valorização extraordinária gerada pelo próprio investimento público mediante desapropriação e posterior destinação/revenda.
+Isso continua sendo **desapropriação**, com transferência da propriedade e observância do regime expropriatório. Não se confunde com contribuição de melhoria, que é tributo e não transfere propriedade.
 
-### 19.1 O que não é desapropriação por zona
+## 11. Roteiro de aplicação
 
-Não confunda com:
+Diante de uma questão, resolva nesta ordem:
 
-- contribuição de melhoria;
-- mera valorização imobiliária sem desapropriação;
-- ocupação temporária;
-- desapropriação indireta.
-
-A desapropriação por zona continua exigindo **declaração de utilidade pública** e observância do regime expropriatório.
-
----
-
-## 20. Prazos que merecem memorização
-
-| Situação | Prazo |
-|---|---:|
-| efetivar ou ajuizar desapropriação por utilidade pública após o decreto | **5 anos** |
-| nova declaração do mesmo bem após caducidade do decreto de utilidade pública | **1 ano** |
-| aceitar ou rejeitar oferta do art. 10-A | **15 dias** |
-| pedir imissão provisória após alegação de urgência | **120 dias** |
-| desapropriação por interesse social da Lei nº 4.132/1962 | **2 anos** |
-| ação para reforma agrária após decreto declaratório | **2 anos** |
-| resgate de títulos na desapropriação urbanística sancionatória | até **10 anos** |
-| resgate de TDA na reforma agrária | até **20 anos**, a partir do 2º ano |
-| Tema 1019/STJ, hipótese nele definida de desapropriação indireta | **10 anos** |
-
----
-
-## 21. Pegadinhas finais
-
-### 21.1 “Toda desapropriação é paga em dinheiro”
-
-**Errado.**
-
-A regra geral é dinheiro, mas:
-
-- urbanística sancionatória → títulos da dívida pública;
-- reforma agrária → TDA para a terra, com benfeitorias úteis e necessárias em dinheiro;
-- art. 243 → sem indenização.
-
-### 21.2 “Somente a União pode desapropriar”
-
-**Errado.**
-
-Somente a União possui competência privativa para **legislar** sobre desapropriação. Outros entes podem desapropriar nos termos da legislação.
-
-### 21.3 “Declaração já transfere a propriedade”
-
-**Errado.**
-
-Ela inaugura a fase expropriatória, mas a transferência depende da execução amigável ou judicial e dos atos jurídicos próprios.
-
-### 21.4 “Desapropriação indireta é procedimento alternativo”
-
-**Errado.**
-
-É situação irregular decorrente de apossamento ou incorporação do bem sem observância regular do procedimento.
-
-### 21.5 “Desapropriação por zona é qualquer desapropriação de área próxima”
-
-**Errado.**
-
-O art. 4º exige relação com a obra/serviço e inclusão expressa das áreas na declaração de utilidade pública.
-
----
-
-## 22. Quadro de fechamento
-
-| Pergunta | Resposta curta |
-|---|---|
-| Qual é a regra constitucional? | justa e prévia indenização em dinheiro |
-| Quem legisla sobre desapropriação? | União |
-| Só a União desapropria? | não |
-| Decreto declaratório transfere propriedade? | não |
-| Utilidade pública caduca em quanto tempo? | 5 anos |
-| Interesse social da Lei nº 4.132/1962? | 2 anos |
-| Oferta do art. 10-A: resposta em quanto tempo? | 15 dias |
-| Urgência para imissão provisória? | requerimento em 120 dias |
-| Reforma agrária: quem desapropria? | União |
-| Reforma agrária: terra nua? | TDA |
-| Benfeitorias úteis e necessárias na reforma agrária? | dinheiro |
-| Art. 243 indeniza? | não |
-| Tema 1019: prazo? | 10 anos na hipótese repetitiva |
-| Por zona? | área contígua necessária + zona de valorização extraordinária |
-
----
+1. **qual é o fundamento?** Necessidade/utilidade pública, interesse social ou hipótese constitucional especial?
+2. **quem está atuando?** Não confunda competência da União para legislar com competência executória.
+3. **o ato declaratório apenas iniciou o procedimento ou já houve transferência?** Declaração, posse e domínio são momentos diferentes.
+4. **qual é o regime de pagamento?** Dinheiro, títulos da dívida pública, <abbr title="Títulos da Dívida Agrária">TDA</abbr> ou nenhuma indenização?
+5. **há prazo específico?** Cinco anos na utilidade pública; dois anos no interesse social da Lei nº 4.132/1962; 15 dias para a oferta; 120 dias para requerer imissão após urgência; dois anos para a ação de reforma agrária.
+6. **o Poder Público seguiu o procedimento?** Se houve apossamento e incorporação sem a via regular, examine desapropriação indireta.
+7. **a área é contígua à obra ou valorizada extraordinariamente por ela?** Verifique desapropriação por zona.
