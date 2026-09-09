@@ -8,81 +8,87 @@ storageId: "gp-interpessoal-conflitos"
 
 # Competência interpessoal e gerenciamento de conflitos
 
-## 1. Delimitação
+Considere uma situação hipotética: duas unidades dependem uma da outra para concluir um relatório. Prioridades mudam, dados chegam incompletos e a discussão logo vira acusação de “falta de colaboração”.
 
-Competência interpessoal permite compreender e conduzir interações de trabalho com clareza, respeito e efetividade. Gerenciar conflitos significa diagnosticá-los e escolher respostas compatíveis com a matéria, as pessoas, o contexto e os limites institucionais; não significa eliminar toda divergência.
+Mandar as pessoas “se entenderem” pode falhar porque o problema pode estar **na interdependência**, **no processo de coordenação** e/ou **na interação entre as pessoas**. O núcleo do capítulo é:
 
-Comunicação organizacional geral foi tratada no Assunto 105; liderança e desempenho, no 145; gestão da mudança, no 147; avaliação formal de desempenho, no 150.
+> **perceber → diagnosticar → escolher a resposta → acompanhar consequências**.
 
-> **Recorte bibliográfico:** referências consultadas até 17 de julho de 2026; não se trata de corte normativo autônomo.
+A **competência interpessoal** sustenta esse ciclo: perceber, interpretar e conduzir relações de trabalho com clareza, respeito e efetividade, sem eliminar divergências nem abandonar critérios institucionais.
 
-## 2. Competência interpessoal
+Comunicação geral, liderança, mudança e avaliação formal de desempenho são aprofundadas nos Assuntos 105, 145, 147 e 150.
 
-É a capacidade de perceber, interpretar e manejar adequadamente relações e interações para alcançar objetivos legítimos. Articula conhecimentos, habilidades, atitudes e autorregulação no contexto concreto.
+## 1. Competência interpessoal: perceber antes de reagir
 
-Não se reduz a simpatia, extroversão, ausência de discordância ou inteligência emocional. Uma pessoa reservada pode ser interpessoalmente competente; uma pessoa sociável pode escutar mal, desrespeitar limites ou não tratar conflitos.
+Uma resposta competente depende tanto do que a pessoa sabe quanto de como lê a situação e regula a própria conduta. Isso envolve quatro movimentos: **perceber a si**, **perceber o outro e o contexto**, **comunicar-se de modo funcional** e **ajustar a interação pelo retorno recebido**.
 
-## 3. Componentes centrais
+### 1.1 Autoconhecimento e autorregulação
 
-### 3.1 Autoconhecimento e autorregulação
+**Autoconhecimento** é reconhecer emoções, valores, preferências, limites, gatilhos e efeitos do próprio comportamento. **Autorregulação** é escolher uma resposta compatível com objetivos e normas, em vez de negar emoções ou agir automaticamente a partir delas.
 
-Autoconhecimento é reconhecer emoções, valores, preferências, limites, gatilhos e efeitos do próprio comportamento. Autorregulação é escolher resposta compatível com objetivos e normas, sem negar emoções nem agir impulsivamente.
+A emoção pode informar que algo importa, mas não prova qual interpretação é correta. Raiva diante de um atraso, por exemplo, não demonstra por si só negligência do colega.
 
-### 3.2 Percepção social e empatia
+### 1.2 Percepção social e empatia
 
-Percepção social interpreta linguagem, sinais não verbais, contexto, papéis e assimetrias. Como pode sofrer vieses, deve ser verificada por perguntas e paráfrases, não tratada como leitura infalível da intenção alheia.
+**Percepção social** interpreta linguagem, sinais não verbais, contexto, papéis e assimetrias. Como essa leitura pode sofrer vieses, deve ser testada por perguntas e paráfrases, não tratada como leitura infalível da intenção alheia.
 
-Empatia é compreender a perspectiva e a experiência do outro. Não exige concordância, concessão, favorecimento ou tolerância a conduta inadequada.
+**Empatia** é compreender a perspectiva e a experiência do outro. Não exige concordância, concessão, favorecimento ou tolerância a conduta inadequada.
 
-### 3.3 Escuta ativa
+### 1.3 Escuta ativa e assertividade
 
-Escutar ativamente envolve atenção deliberada, perguntas abertas, paráfrase, síntese e checagem de entendimento. Não é passividade: admite análise crítica e discordância respeitosa.
+**Escuta ativa** combina atenção deliberada, perguntas abertas, paráfrase, síntese e checagem de entendimento. Ela não é passividade: é possível compreender exatamente o argumento e ainda discordar dele.
 
-### 3.4 Assertividade
+**Assertividade** expressa fatos, necessidades, limites e propostas com clareza e respeito. O critério é defender uma posição sem apagar a própria necessidade nem atacar a pessoa:
 
-Comunicação assertiva expressa fatos, necessidades, limites e propostas com clareza e respeito:
-
-| Padrão | Característica |
+| Padrão | O que acontece |
 | --- | --- |
-| passivo | omite necessidades ou limites de modo recorrente |
-| agressivo | impõe ou desqualifica, violando limites alheios |
-| assertivo | defende posição e limites sem atacar a pessoa |
+| passivo | necessidades ou limites são omitidos de modo recorrente |
+| agressivo | a posição é imposta com ataque ou violação de limites alheios |
+| assertivo | posição e limites são expostos com clareza, sem desqualificação pessoal |
 
-### 3.5 Feedback interpessoal
+### 1.4 Feedback interpessoal
 
-Feedback útil descreve **comportamento observável, contexto, impacto e alternativa futura**. Evita rótulos de personalidade, generalizações como “sempre” e “nunca” e exposição pública desnecessária. Deve permitir resposta, contextualização e acordo sobre próximos passos.
+Feedback útil descreve **comportamento observável, contexto, impacto e alternativa futura**, em vez de rotular a pessoa. Esse feedback comunicacional não se confunde com nota, controle ou método formal de avaliação de desempenho.
 
-Esse feedback comunicacional não se confunde com nota, controle ou método formal de avaliação de desempenho.
+## 2. Relações de equipe: confiança, segurança e colaboração
 
-## 4. Emoções, confiança e segurança psicológica
+**Confiança** é expectativa de competência, integridade e previsibilidade. **Segurança psicológica** é a crença compartilhada de que a equipe permite perguntar, admitir erro, pedir ajuda ou discordar sem humilhação ou retaliação. Ela não é complacência: abertura para aprender e responsabilização podem coexistir.
 
-Inteligência emocional, no recorte interpessoal, envolve reconhecer, compreender e regular emoções próprias e considerar emoções alheias. Pode ser desenvolvida, mas não substitui competência técnica, ética, critérios ou autoridade legítima.
+**Colaboração** coordena contribuições para um objetivo comum por informação, papéis, interdependência e decisões. Não exige harmonia permanente; divergência técnica bem conduzida pode revelar risco que o consenso prematuro esconderia.
 
-**Confiança** é expectativa de competência, integridade e previsibilidade. **Segurança psicológica** é a crença compartilhada de que a equipe permite riscos interpessoais como perguntar, admitir erro, pedir ajuda ou discordar sem humilhação ou retaliação.
+## 3. Como o conflito nasce
 
-Segurança psicológica não é complacência, ausência de cobrança ou permissão para baixo desempenho. Equipes saudáveis combinam abertura para aprender com padrões claros e responsabilização.
+Conflito existe quando uma parte **percebe incompatibilidade, divergência ou interferência** relevante em relação a objetivo, interesse, valor, recurso, tarefa, processo ou relação. Portanto, ele pode existir antes de qualquer discussão aberta e não equivale automaticamente a violência, insubordinação ou falha gerencial.
 
-## 5. Colaboração
+Um mecanismo útil é **diferença ou dependência + percepção de incompatibilidade + resposta das partes → consequências**. Fontes comuns: recursos escassos, metas incompatíveis, ambiguidade ou sobreposição de papéis, falhas de informação, pressão, diferenças de valores e assimetrias de poder.
 
-Colaborar é coordenar contribuições para objetivo comum mediante informação, papéis, interdependência e decisões. Não exige harmonia permanente. Divergências tratadas com respeito podem melhorar diagnóstico; ausência de conflito aparente pode esconder silêncio, conformidade ou medo.
+### 3.1 Três visões clássicas cobradas em prova
 
-## 6. Conflito organizacional
+A literatura didática de comportamento organizacional costuma apresentar três lentes históricas. Elas ajudam a reconhecer enunciados, mas não substituem a análise concreta:
 
-Conflito é a percepção de incompatibilidade, divergência ou interferência entre objetivos, interesses, valores, recursos, tarefas, processos ou relações. Ele não equivale automaticamente a violência, insubordinação ou falha gerencial.
+- **visão tradicional:** trata o conflito como prejudicial e algo a evitar;
+- **visão das relações humanas:** reconhece o conflito como ocorrência natural e muitas vezes inevitável em grupos;
+- **visão interacionista:** admite que algum conflito pode estimular questionamento e evitar acomodação, distinguindo efeitos funcionais e disfuncionais.
 
-Fontes frequentes incluem:
+A pegadinha é trocar as descrições ou concluir que a visão interacionista considera **todo** conflito benéfico. Tipo, intensidade, tarefa, normas e contexto alteram os efeitos.
 
-- recursos, tempo ou pessoal escassos;
-- metas e prioridades incompatíveis;
-- ambiguidade ou sobreposição de papéis;
-- interdependência e falhas de informação;
-- diferenças de valores, interesses e estilos;
-- assimetrias de poder e acesso;
-- mudanças, pressão e critérios inconsistentes.
+### 3.2 Interdependência e potencial de conflito
 
-## 7. Níveis e conteúdos do conflito
+Quanto mais uma unidade precisa ajustar seu trabalho ao de outra, maior tende a ser a exigência de coordenação. Na tipologia clássica de James D. Thompson:
 
-### 7.1 Níveis
+| Interdependência | Mecanismo | Coordenação exigida |
+| --- | --- | --- |
+| conjunta | unidades contribuem para o todo, mas operam com dependência direta limitada | menor |
+| sequencial | a saída de uma unidade torna-se entrada da seguinte | intermediária |
+| recíproca | as unidades trocam insumos ou ajustes nos dois sentidos | maior |
+
+A **recíproca** apresenta o maior potencial de atrito entre as três porque falhas e ajustes circulam nos dois sentidos. Isso não torna o conflito inevitável: coordenação clara reduz o risco.
+
+## 4. Classifique só depois de entender o mecanismo
+
+Duas classificações diferentes costumam aparecer juntas: **quem está em conflito** e **sobre o que se diverge**.
+
+### 4.1 Nível: quem está em conflito
 
 | Nível | Exemplo |
 | --- | --- |
@@ -90,125 +96,126 @@ Fontes frequentes incluem:
 | interpessoal | divergência entre indivíduos |
 | intragrupal | conflito dentro da equipe |
 | intergrupal | conflito entre setores ou unidades |
-| organizacional | conflito ligado a estruturas, processos, cultura ou níveis hierárquicos |
+| organizacional | conflito associado a estruturas, processos, cultura ou níveis hierárquicos |
 
-As taxonomias variam entre autores. Em prova, identifique primeiro o **locus** do conflito — dentro da pessoa, entre pessoas, dentro ou entre grupos — antes de aplicar o rótulo; “organizacional” pode aparecer como categoria ampla ligada à estrutura e aos processos.
+As taxonomias variam entre autores. Em prova, identifique primeiro onde o conflito ocorre — dentro da pessoa, entre pessoas, dentro ou entre grupos — e só depois aplique o rótulo.
 
-### 7.2 Conteúdo
+### 4.2 Conteúdo: sobre o que se diverge
 
-- **tarefa:** divergência sobre evidências, metas, alternativas ou conteúdo da decisão;
+- **tarefa:** evidências, metas, alternativas ou conteúdo da decisão;
 - **relacionamento:** tensão afetiva, hostilidade ou desqualificação pessoal;
-- **processo:** divergência sobre responsabilidades, método, sequência, recursos ou coordenação.
+- **processo:** responsabilidades, método, sequência, recursos ou coordenação.
 
-Conflito de tarefa não é automaticamente benéfico. Pode ser funcional quando moderado, focado em evidências e acompanhado de respeito e segurança; pode degradar-se em conflito de relacionamento ou paralisar a decisão. Conflitos de relacionamento e processo apresentam efeitos negativos mais consistentes na literatura.
+Uma equipe pode ter conflito **intragrupal** quanto ao nível e **de processo** quanto ao conteúdo. Conflito de tarefa não é automaticamente benéfico: pode contribuir quando focado em evidências e respeito, mas também paralisar a decisão ou degradar-se em conflito de relacionamento. Relação e processo apresentam efeitos negativos mais consistentes na literatura.
 
-## 8. Evolução e diagnóstico
+## 5. Evolução, funcionalidade e escalada
 
-Um modelo didático descreve: **condições latentes → conflito percebido → conflito sentido → conflito manifesto → consequências**. Não é sequência inevitável; intervenção pode interromper, reduzir ou transformar o processo.
+Um modelo didático descreve **condições latentes → conflito percebido → conflito sentido → conflito manifesto → consequências**. A sequência não é inevitável.
 
-O diagnóstico deve identificar:
+O diagnóstico deve responder:
 
-1. partes, papéis, interesses e assimetrias de poder;
-2. objeto e nível do conflito;
-3. fase, intensidade e urgência;
-4. fatos verificáveis, interpretações e emoções;
-5. impactos sobre legalidade, qualidade, prazo, clima e cidadão;
-6. instância competente para decidir ou intervir.
+1. quem são as partes, seus papéis, interesses e poder;
+2. qual é o objeto e o nível do conflito;
+3. em que fase e intensidade ele está;
+4. quais fatos são verificáveis e quais são interpretações;
+5. quais impactos recaem sobre legalidade, qualidade, prazo, clima e cidadão;
+6. quem possui competência para decidir ou intervir.
 
-## 9. Funcionalidade e escalada
+Conflito **potencialmente funcional** revela risco, amplia alternativas ou melhora decisão sem destruir coordenação; é **disfuncional** quando gera, por exemplo, desqualificação, retenção de informação, ameaça, retaliação ou paralisia.
 
-Conflito potencialmente funcional amplia alternativas, revela risco ou melhora decisão sem destruir coordenação. Torna-se disfuncional com desqualificação pessoal, retenção de informação, ameaça, retaliação, coalizões hostis, sabotagem ou paralisia.
+Na **escalada**, o foco migra do problema para identidade, status e poder; absolutismos, exposição pública e coalizões são sinais típicos.
 
-Na escalada, o foco migra do problema para identidade, status e poder. Linguagem absolutista, exposição pública, generalização e mobilização de aliados são sinais. A resposta deve restabelecer fatos, critérios, canais e limites, sem ignorar risco, assédio ou ilegalidade.
+## 6. Thomas-Kilmann: escolher o modo, não rotular a pessoa
 
-## 10. Thomas-Kilmann
+O modelo Thomas-Kilmann cruza **assertividade** — busca dos próprios interesses — e **cooperação** — consideração pelos interesses da outra parte. Da combinação surgem cinco modos:
 
-O modelo combina **assertividade** — busca dos próprios interesses — e **cooperação** — consideração pelos interesses da outra parte:
-
-| Modo | Perfil | Uso possível | Risco |
+| Modo | Perfil | Quando pode ajudar | Risco do uso inadequado |
 | --- | --- | --- | --- |
 | competição | alta assertividade, baixa cooperação | urgência, regra não negociável, proteção de integridade | silenciar informação e agravar relação |
-| colaboração | alta assertividade, alta cooperação | integrar interesses em questão relevante e complexa | exigir tempo e disposição inexistentes |
-| compromisso | níveis intermediários | solução aceitável sob tempo ou poder semelhantes | acordo mediano sem tratar a causa |
-| evitação | baixa assertividade, baixa cooperação | tema trivial, esfriar ânimos, obter informação | adiar risco, ilegalidade ou decisão urgente |
-| acomodação | baixa assertividade, alta cooperação | reconhecer erro ou ceder em tema mais importante ao outro | mascarar abuso ou perder critério técnico |
+| colaboração | alta assertividade, alta cooperação | integrar interesses em problema relevante e complexo | consumir tempo ou exigir disposição inexistente |
+| compromisso | níveis intermediários | obter solução aceitável sob restrição de tempo ou poder semelhante | chegar a acordo mediano sem tratar a causa |
+| evitação | baixa assertividade, baixa cooperação | tema trivial, reduzir ativação emocional, obter informação | adiar risco, ilegalidade ou decisão urgente |
+| acomodação | baixa assertividade, alta cooperação | reconhecer erro ou ceder em tema mais importante ao outro | mascarar abuso ou abandonar critério técnico |
 
-Os modos são comportamentos situacionais, não tipos fixos de personalidade. Nenhum é universalmente superior.
+Os modos descrevem **comportamentos situacionais**, não tipos fixos de personalidade. Nenhum é sempre superior: urgência e regra não negociável podem justificar competição; problema complexo, interdependente e com tempo para integrar interesses pode favorecer colaboração.
 
-## 11. Estratégias de manejo
+## 7. Intervenha na causa certa
 
-### 11.1 Estruturais
+Depois do diagnóstico, a resposta pode atuar em três camadas.
+
+### 7.1 Estrutural
 
 Clarificar papéis, competências e alçadas; ajustar recursos e metas; redesenhar interdependências; separar funções incompatíveis; criar canais de decisão e escalonamento.
 
-### 11.2 Processuais
+### 7.2 Processual
 
-Definir pauta, fatos mínimos, critérios, sequência, prazo, responsáveis, registro e revisão. Métodos de solução de problemas podem apoiar a análise causal, mas não substituem decisão competente.
+Definir pauta, fatos mínimos, critérios, sequência, prazo, responsáveis, registro e revisão. O objetivo é tornar previsível **como** a questão será tratada.
 
-### 11.3 Relacionais
+Em provas, técnicas clássicas de desenvolvimento organizacional também podem aparecer como apoio ao manejo de conflitos:
 
-Aplicar escuta, assertividade, feedback, regras de respeito, facilitação e reparação de ruídos. Intervenção relacional não deve encobrir causa estrutural nem substituir providência disciplinar quando necessária.
+- **pesquisa de feedback:** pessoas respondem a questionário sobre percepções e atitudes; os resultados são devolvidos ao grupo para diagnóstico e melhoria;
+- **desenvolvimento de equipes:** atividades estruturadas trabalham coordenação, papéis e cooperação;
+- **procedimento de queixas:** regras definem como reclamações serão encaminhadas e tratadas;
+- **intervenção de terceiro:** facilitador, mediador ou outro agente organiza a interação conforme o papel atribuído.
 
-## 12. Negociação
+A pesquisa de feedback não é avaliação individual de desempenho: o foco é produzir informação para diagnóstico e mudança do sistema ou do grupo.
+
+### 7.3 Relacional
+
+Aplicar escuta, assertividade, feedback, regras de respeito e facilitação. Empatia não corrige sozinha sobreposição formal de responsabilidades; redesenho do fluxo pode não reparar hostilidade já instalada. Muitas situações exigem mais de uma camada.
+
+## 8. Negociação: sair das posições sem abandonar limites
 
 **Negociação distributiva** trata o valor como limitado e enfatiza sua divisão. **Negociação integrativa** investiga interesses, cria opções e utiliza critérios objetivos para buscar ganhos conjuntos. Nem todo conflito admite solução ganha-ganha.
 
-**Posição** é a exigência declarada; **interesse** é a necessidade, risco ou objetivo subjacente. Investigar interesses amplia opções, sem obrigar aceitação de pedido ilegal ou incompatível com a finalidade pública.
+**Posição** é a exigência declarada; **interesse** é a necessidade, o risco ou o objetivo subjacente. Investigar o interesse amplia opções sem obrigar concessão indevida.
 
-**<abbr title="Best Alternative to a Negotiated Agreement">BATNA</abbr>** é a melhor alternativa caso não haja acordo. Serve para avaliar propostas e evitar acordo pior que a alternativa disponível; não é ameaça nem autorização para abandonar dever legal.
+**<abbr title="Best Alternative to a Negotiated Agreement">BATNA</abbr>** é a melhor alternativa caso não haja acordo. Ela serve para comparar propostas e evitar aceitar solução pior do que a alternativa disponível; não é ameaça nem autorização para abandonar dever legal.
 
-## 13. Terceiros
+## 9. Terceiros e mediação
 
 | Intervenção | Papel do terceiro |
 | --- | --- |
 | facilitação | organiza processo, participação e reunião |
-| mediação | auxilia comunicação e solução consensual, sem decidir |
+| mediação | auxilia comunicação e construção consensual, sem decidir |
 | arbitragem | decide a controvérsia nos limites jurídicos e procedimentais aplicáveis |
 
-A Lei nº 13.140/2015 define mediação e disciplina autocomposição, inclusive no âmbito público. Sua existência não torna qualquer interesse negociável nem cria, sozinha, competência interna ou câmara aplicável ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
+A Lei nº 13.140/2015 define mediação como atividade exercida por terceiro imparcial **sem poder decisório**, que auxilia as partes a identificar ou desenvolver soluções consensuais. A lei também disciplina autocomposição na administração pública, mas isso não torna qualquer matéria negociável nem cria, sozinha, competência interna aplicável ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
-## 14. Vieses e poder
+## 10. Vieses, poder e diferenças culturais
+
+Conflitos pioram quando interpretação vira certeza antes da verificação. Alguns vieses úteis ao diagnóstico:
 
 - **erro fundamental de atribuição:** supervalorizar características pessoais e subestimar o contexto ao explicar comportamento alheio;
 - **confirmação:** buscar e interpretar evidências que sustentem crença inicial;
 - **percepção seletiva:** notar apenas parte dos sinais;
 - **estereótipo:** inferir características pela pertença a grupo;
-- **autoconveniência (self-serving bias):** atribuir o próprio sucesso a fatores internos e o próprio fracasso a fatores externos.
+- **autoconveniência** (<abbr title="Viés que favorece explicações convenientes ao próprio interesse">self-serving bias</abbr>): atribuir o próprio sucesso a fatores internos e o próprio fracasso a fatores externos.
 
-Vieses são hipóteses de diagnóstico, não prova de má-fé. Assimetrias de poder exigem canais seguros, critérios transparentes, registro e proteção contra retaliação.
+Vieses são hipóteses de diagnóstico, não prova de má-fé. Assimetrias de poder exigem canais seguros, critérios transparentes, registro adequado e proteção contra retaliação.
 
-## 15. Diversidade e inclusão
+Diferenças culturais também afetam interpretação e negociação. **Etnocentrismo** é tomar valores e padrões da própria cultura como régua para julgar outro contexto, podendo transformar diferença de repertório em suposta incompetência ou má-fé.
 
-Diferenças de repertório e experiência podem ampliar perspectivas, mas não garantem desempenho. Sem inclusão, voz, segurança e controle de vieses, diversidade pode ser convertida em exclusão ou conflito de relacionamento. Competência interpessoal não exige homogeneidade; exige cooperação com respeito às diferenças e aos objetivos legítimos.
+Diversidade pode ampliar perspectivas, mas não garante desempenho; inclusão, voz e segurança continuam necessárias.
 
-## 16. Limites no setor público
+## 11. Limites no setor público
 
-Legalidade, impessoalidade, moralidade, publicidade e eficiência limitam o manejo de conflitos. Empatia não autoriza favorecimento; confidencialidade não elimina dever de registrar, dar transparência ou apurar; negociação não permite renunciar a competência ou interesse público sem base jurídica.
+Legalidade, impessoalidade, moralidade, publicidade e eficiência limitam o manejo de conflitos. Empatia não autoriza favorecimento; consenso não transfere competência; negociação não legitima solução contrária à finalidade pública.
 
-Deveres concretos dependem do regime estadual e das normas próprias aplicáveis ao TCE-MA.
+Confidencialidade também precisa ser tratada com precisão. Em procedimentos de mediação, a Lei nº 13.140/2015 estabelece dever de confidencialidade e prevê exceções. Fora deles, promessa informal de sigilo não afasta deveres legais de registro, transparência, proteção ou apuração.
 
-## 17. Roteiro prático
+Deveres concretos dependem do regime estadual e das normas próprias aplicáveis ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
-1. conter risco imediato e preservar pessoas e serviço;
-2. separar fatos, interpretações, interesses e emoções;
-3. classificar objeto, nível, fase e poder;
-4. verificar competência, regras e limites negociáveis;
-5. escolher estratégia estrutural, processual e relacional;
-6. ouvir partes e definir critérios;
-7. decidir, negociar ou encaminhar à instância adequada;
-8. registrar quando necessário, acompanhar e prevenir recorrência.
+## 12. Roteiro de decisão
 
-## 18. Pegadinhas
+No cenário inicial, “falta de colaboração” era apenas um rótulo. A resposta precisa verificar interdependência, prioridades, fluxo de informação e efeitos relacionais antes de escolher a técnica.
 
-| Afirmação | Avaliação |
-| --- | --- |
-| empatia exige concordância | errada |
-| assertividade equivale a agressividade | errada |
-| segurança psicológica elimina cobrança | errada |
-| todo conflito de tarefa melhora desempenho | errada |
-| colaboração é sempre o melhor modo | errada |
-| evitação resolve ilegalidade urgente | errada |
-| mediação transfere decisão ao mediador | errada |
-| BATNA é a melhor alternativa sem acordo | correta |
-| conflito relacional pode exigir causa estrutural | correta |
-| confidencialidade sempre impede apuração | errada |
+1. contenha risco imediato;
+2. separe fatos, interpretações, interesses e emoções;
+3. identifique nível, conteúdo, fase e assimetrias de poder;
+4. verifique competência e limites negociáveis;
+5. escolha intervenção estrutural, processual e/ou relacional;
+6. decida, negocie ou encaminhe à instância adequada;
+7. registre quando necessário e acompanhe consequências.
+
+A sequência resume a lógica do capítulo: **não escolha o modo de conflito antes de entender qual problema precisa ser resolvido**.
