@@ -6,187 +6,214 @@ order: 139
 storageId: "transparencia-controle-social"
 ---
 
-# Transparência, controle social, cidadania e accountability
+# Transparência, controle social, cidadania e <abbr title="dever de explicar e possibilidade de consequências">accountability</abbr>
 
-## 1. Delimitação do assunto
+## 1. Publicar é o mesmo que prestar contas?
 
-Este assunto examina quatro conceitos relacionados, mas não equivalentes: transparência pública, cidadania, controle social e accountability. O foco está nas condições pelas quais a sociedade conhece, acompanha, influencia e cobra a atuação estatal.
+Considere um **exemplo hipotético**. Uma secretaria estadual publica uma planilha de pagamentos, mas os campos não estão explicados e os dados estão desatualizados. Depois, reorganiza a base, identifica cada campo e atualiza os valores. Uma associação consegue comparar despesas, leva dúvidas a uma audiência, identifica um pagamento aparentemente incompatível com o serviço entregue e encaminha o indício ao órgão competente. A instituição de controle apura o fato, exige explicações e, se encontrar irregularidade, adota as medidas que sua competência autoriza.
 
-Os procedimentos, prazos, recursos, restrições e responsabilidades da Lei nº 12.527/2011 serão estudados nos Assuntos 140 e 141. Aqui, a Lei de Acesso à Informação aparece apenas como parte do ambiente institucional da transparência.
+A situação contém conceitos diferentes:
 
-> **Recorte temporal do edital:** considera-se a legislação vigente em 6 de julho de 2026. A alteração da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> pela Lei Complementar nº 224/2025 tratada neste assunto já produzia efeitos desde 1º de janeiro de 2026. Atualizações posteriores ao edital, quando relevantes, devem ser identificadas expressamente como pós-edital.
+```text
+ato visível
+   ↓
+informação utilizável
+   ↓
+sociedade participa e fiscaliza
+   ↓
+instituição competente exige resposta e pode produzir consequências
+```
 
-## 2. Publicidade, transparência e dados abertos
+- **publicidade** torna a atuação estatal visível;
+- **transparência** torna a informação acessível e utilizável;
+- **participação social** permite expressar preferências e influenciar processos públicos;
+- **controle social** permite acompanhar, fiscalizar e provocar correções;
+- <abbr title="dever de explicar e possibilidade de consequências">accountability</abbr> liga exercício de poder a explicação, escrutínio e possibilidade de consequência institucional.
 
-### 2.1 Publicidade não basta
+As setas mostram um mecanismo possível, não etapas obrigatórias. Pode haver transparência sem participação, participação sem fiscalização e controle social que não resulte em responsabilização.
 
-A publicidade é princípio constitucional da administração pública (art. 37 da Constituição) e impõe visibilidade aos atos estatais, ressalvadas hipóteses legítimas de sigilo. Transparência é uma qualidade mais exigente: a informação precisa ser acessível, compreensível, íntegra, atual, contextualizada e útil para escrutínio e decisão.
+Os procedimentos, prazos, recursos, restrições e responsabilidades da Lei nº 12.527/2011 serão desenvolvidos nos Assuntos 140 e 141. Aqui, a Lei de Acesso à Informação aparece apenas como parte do ambiente institucional da transparência.
 
-Um documento tecnicamente publicado pode permanecer opaco se estiver escondido, ilegível, desatualizado, fragmentado ou sem contexto. Portanto:
+> **Recorte temporal do edital:** considera-se a legislação vigente em **6 de julho de 2026**. A alteração da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> pela Lei Complementar nº 224/2025 tratada neste capítulo já produzia efeitos desde **1º de janeiro de 2026**.
 
-- publicidade é requisito necessário, mas pode não ser suficiente;
-- transparência não elimina sigilos constitucional e legalmente protegidos;
-- quantidade de dados não substitui qualidade informacional;
-- linguagem clara e acessibilidade ampliam a transparência substantiva.
+---
+
+## 2. Transparência: informação que pode ser usada
+
+### 2.1 Publicidade é ponto de partida
+
+A Constituição inclui a **publicidade** entre os princípios da administração pública. Transparência exige algo a mais: a informação deve chegar ao interessado em condições de ser compreendida e utilizada.
+
+No exemplo inicial, a primeira planilha estava publicada, mas permanecia opaca. Para haver transparência substantiva, importam **acessibilidade, compreensão, integridade, atualização, tempestividade e contexto**. Um grande volume de arquivos dispersos e sem busca pode elevar, em vez de reduzir, o custo de descobrir o que realmente importa.
+
+Publicidade e transparência também convivem com sigilos legítimos. A regra de abertura não autoriza divulgar informação protegida por fundamento constitucional ou legal.
 
 ### 2.2 Transparência ativa e passiva
 
-| Modalidade | Iniciativa | Exemplo |
+| Forma | Quem inicia o fluxo? | Exemplo |
 | --- | --- | --- |
-| ativa | o poder público divulga independentemente de pedido | orçamento, despesas, contratos, estrutura e indicadores em portal |
-| passiva | a administração responde a solicitação de acesso | pedido específico formulado por pessoa interessada |
+| **ativa** | o poder público divulga independentemente de pedido | despesas e contratos em portal oficial |
+| **passiva** | uma pessoa solicita informação e a administração responde | pedido de acesso a documento existente |
 
-A distinção se refere a quem inicia o fluxo. Transparência ativa não é divulgação de qualquer conteúdo sem critérios; transparência passiva não autoriza exigir do requerente justificativa sobre o uso da informação.
+A distinção é de **iniciativa**, não de importância. Os deveres detalhados de divulgação e o procedimento de pedido pertencem aos Assuntos 140 e 141.
 
-### 2.3 Dados abertos
+### 2.3 Dados abertos têm qualidade e limites
 
-Dados públicos abertos são disponibilizados em formato que favorece acesso, uso, processamento e reutilização, observados os limites jurídicos. Formato aberto e legível por máquina facilita análise, mas não basta por si só. Metadados, documentação, qualidade, atualização, granularidade adequada e séries históricas permitem interpretar os dados.
+**Dados abertos** são disponibilizados de modo que favoreça acesso, processamento e reutilização. Formato reutilizável, documentação, atualização e <abbr title="informações que descrevem origem, estrutura e significado dos dados">metadados</abbr> ajudam pessoas e sistemas a interpretar a base.
 
-Anonimização e proteção de dados pessoais não são obstáculos externos à transparência: integram seu desenho responsável. Abrir bases sem avaliar riscos de reidentificação pode violar direitos.
+A abertura deve respeitar proteção de dados pessoais e sigilos legítimos. Quando uma base envolve pessoas, pode ser necessário reduzir o risco de <abbr title="identificação de uma pessoa a partir de dados aparentemente anônimos">reidentificação</abbr>. **Transparência responsável não é divulgação irrestrita.**
 
-## 3. Fundamentos constitucionais da cidadania e do controle
+---
 
-A Constituição estabelece a cidadania como fundamento da República (art. 1º, II) e afirma que todo poder emana do povo, exercido por representantes eleitos ou diretamente (art. 1º, parágrafo único). A soberania popular pode ser exercida pelo sufrágio e pelo voto, bem como por plebiscito, referendo e iniciativa popular (art. 14).
+## 3. Cidadania: fundamento para conhecer, participar e cobrar
 
-O direito de receber informações dos órgãos públicos encontra fundamento no art. 5º, XXXIII. Já os arts. 70 a 75 estruturam a fiscalização contábil, financeira, orçamentária, operacional e patrimonial. O art. 74, § 2º, confere a qualquer cidadão, partido político, associação ou sindicato legitimidade para denunciar irregularidades ou ilegalidades perante o Tribunal de Contas da União; a disciplina constitucional dos tribunais de contas estaduais observa o modelo aplicável.
+A cidadania é fundamento da República Federativa do Brasil, e a Constituição afirma que todo poder emana do povo, exercido por representantes eleitos ou diretamente. A soberania popular é exercida pelo sufrágio e pelo voto e, nos termos da lei, por **plebiscito, referendo e iniciativa popular**.
 
-Cidadania não se reduz ao voto. Inclui titularidade de direitos, deveres e possibilidades de participação, acompanhamento e cobrança da ação pública.
+Democracia representativa e participação direta, portanto, não são alternativas excludentes. Eleger representantes não impede petições, consultas, conselhos ou fiscalização cotidiana.
+
+O direito de receber informações dos órgãos públicos está no artigo 5º, inciso XXXIII. A Constituição organiza controles institucionais nos artigos 70 a 75 e, no artigo 74, § 2º, legitima **qualquer cidadão, partido político, associação ou sindicato** a denunciar irregularidades ou ilegalidades perante o <abbr title="Tribunal de Contas da União">TCU</abbr>.
 
 ### 3.1 Cidadania formal e exercício substantivo
 
-A cidadania formal corresponde à condição jurídica de cidadão no gozo de direitos políticos, nos termos constitucionais. Não se confunde com nacionalidade, que é o vínculo jurídico-político entre a pessoa e o Estado. O exercício substantivo da cidadania depende de condições para conhecer direitos, formar opinião, manifestar interesses, acessar instituições e influenciar a vida pública.
+Para fins didáticos, **cidadania formal** indica a condição jurídica de cidadão associada ao gozo dos direitos políticos. Não se confunde com **nacionalidade**, vínculo jurídico-político entre pessoa e Estado.
 
-Democracia representativa e participação direta são complementares. Eleger representantes não impede petições, iniciativas populares, consultas, atuação em conselhos ou fiscalização cotidiana. Da mesma forma, um canal formal não assegura exercício cidadão efetivo quando barreiras econômicas, digitais, territoriais, linguísticas ou de acessibilidade excluem parte da população.
+O exercício substantivo pergunta se a pessoa consegue, na prática, conhecer direitos, formar opinião, acessar instituições e participar. Uma plataforma incompatível com leitores de tela ou uma audiência exclusivamente presencial em horário comercial podem existir formalmente e ainda excluir interessados. Por isso, barreiras digitais, territoriais, econômicas, linguísticas e de acessibilidade afetam cidadania, participação e controle social.
 
-Informação pública inteligível amplia a capacidade de agir; participação permite levar experiências e preferências ao Estado; controle social permite acompanhar condutas e resultados. Cidadania, portanto, fornece o fundamento político desses mecanismos, mas seu exercício pressupõe pluralismo, liberdade, inclusão e instituições responsivas.
+---
 
-## 4. Participação social e controle social
+## 4. Participação social e controle social: influenciar não é fiscalizar
 
-### 4.1 Conceitos
+**Participação social** é a atuação de pessoas e organizações na formulação, execução, monitoramento ou avaliação de decisões e políticas públicas. **Controle social** é mais específico: a sociedade acompanha, fiscaliza, compara condutas e resultados e pode provocar correções ou instituições competentes.
 
-Participação social é a atuação de pessoas e organizações na identificação de problemas, formulação, execução, monitoramento ou avaliação de decisões públicas. Controle social é a fiscalização, o acompanhamento e a influência exercidos pela sociedade sobre a administração e as políticas públicas.
+Compare:
 
-Participar não significa necessariamente controlar: uma consulta pode recolher propostas sem produzir fiscalização. Controlar pressupõe capacidade de examinar condutas, resultados e recursos, apontar desvios e provocar respostas institucionais.
+- moradores opinam em consulta sobre prioridades de transporte → **participação**;
+- moradores examinam a execução de um contrato, encontram divergência e encaminham o indício à autoridade competente → **controle social**.
 
-O controle social:
+O controle social não substitui controles interno, externo ou judicial. Ele pode fornecer informação e provocação para que esses mecanismos atuem.
 
-- não substitui os controles interno, externo ou judicial;
-- pode fornecer informação e demanda para esses controles;
-- pode ser individual ou coletivo, institucionalizado ou difuso;
-- depende de informação, liberdade, canais, capacidade e resposta estatal.
+### 4.1 O canal não define sozinho o poder do participante
 
-### 4.2 Canais e instrumentos
-
-| Instrumento | Função predominante |
-| --- | --- |
-| portal de transparência | divulgar dados e permitir acompanhamento |
-| ouvidoria | receber, analisar e encaminhar manifestações; produzir informação gerencial |
-| denúncia | comunicar possível irregularidade para apuração competente |
-| conselho de políticas públicas | participação colegiada, conforme competências legais |
-| audiência pública | debate oral e plural sobre tema delimitado |
-| consulta pública | coleta estruturada de contribuições, frequentemente por escrito |
-| orçamento participativo | participação na definição ou priorização de alocações públicas |
-| conferência | deliberação ampliada de diretrizes em determinada política |
-
-O nome do canal não define sozinho seus efeitos. Um conselho pode ser consultivo, deliberativo, fiscalizador ou combinar funções conforme sua norma instituidora. Audiência pública não transfere automaticamente a decisão administrativa aos participantes, mas exige abertura real à escuta e motivação compatível com o procedimento.
-
-### 4.3 Ouvidorias e direitos do usuário
-
-A Lei nº 13.460/2017 aplica-se à administração pública direta e indireta da União, dos Estados, do Distrito Federal e dos Municípios. Ela disciplina participação, proteção e defesa dos direitos do usuário de serviços públicos.
-
-O usuário pode apresentar manifestações perante a administração. As ouvidorias recebem, analisam e encaminham manifestações, acompanham sua conclusão e promovem participação e avaliação. Também devem propor aperfeiçoamentos e auxiliar na prevenção e correção de atos incompatíveis com os princípios legais.
-
-Reclamação expressa insatisfação com serviço; solicitação pede providência; sugestão propõe melhoria; elogio reconhece atendimento; denúncia comunica possível ilícito ou irregularidade. A classificação orienta o tratamento, mas não deve ser usada para rejeitar formalisticamente uma demanda compreensível.
-
-Os conselhos de usuários previstos na lei são órgãos consultivos. Eles acompanham a prestação, participam da avaliação e propõem melhorias. Não se deve atribuir a esses conselhos poder deliberativo universal.
-
-### 4.4 Transparência fiscal participativa
-
-A Lei de Responsabilidade Fiscal trata a transparência da gestão fiscal como divulgação de instrumentos e incentivo à participação popular. O art. 48 inclui planos, orçamentos, leis de diretrizes orçamentárias, prestações de contas, pareceres prévios, relatórios e versões simplificadas. Também prevê incentivo à participação popular e audiências públicas durante elaboração e discussão dos planos, LDO e orçamentos.
-
-Desde 1º de janeiro de 2026, o art. 48, § 1º, IV, incluído pela Lei Complementar nº 224/2025, também prevê, como mecanismo de transparência, a divulgação no Portal de Transparência, em formato aberto e padronizado, de dados atualizados sobre benefícios de natureza tributária, financeira e creditícia concedidos. A regra já estava produzindo efeitos quando o edital foi publicado.
-
-O art. 48-A exige disponibilização, em tempo real, de informações pormenorizadas sobre execução orçamentária e financeira. A publicidade fiscal permite acompanhar receitas e despesas, mas o controle efetivo exige interpretar finalidade, legalidade, economicidade e resultados.
-
-## 5. Accountability
-
-### 5.1 Núcleo do conceito
-
-Accountability designa relações nas quais agentes que exercem poder devem informar, explicar e justificar sua conduta e podem sofrer consequências institucionais. Duas dimensões são centrais:
-
-1. **answerability:** obrigação de fornecer informações, explicações e justificações;
-2. **enforcement:** capacidade de investigar, corrigir, responsabilizar ou sancionar, conforme competências e garantias.
-
-Prestação de contas é componente importante, mas uma relação de accountability robusta não se esgota na entrega formal de relatório. É necessário que alguém possa examinar, questionar e produzir consequências adequadas.
-
-Consequência não é sinônimo exclusivo de punição: pode incluir correção, recomendação, anulação, reparação, perda política, responsabilização ou sanção. Sanções dependem de previsão jurídica, competência e devido processo.
-
-### 5.2 Dimensões
-
-| Dimensão | Relação típica | Exemplos |
+| Instrumento | Função predominante | Limite importante |
 | --- | --- | --- |
-| vertical eleitoral | cidadãos e representantes | eleições, voto e responsabilização política |
-| vertical não eleitoral | sociedade e poder público entre eleições | petições, mobilização, denúncias e monitoramento |
-| horizontal | instituições estatais controlam outras instituições ou agentes estatais | tribunais de contas, controladorias, Legislativo, Judiciário e Ministério Público, dentro de suas competências |
-| social ou societal | sociedade civil e mídia expõem temas, mobilizam pressão e acionam instituições | observatórios, jornalismo investigativo e organizações sociais |
+| portal de transparência | divulgar e permitir acompanhamento | publicação sem contexto pode continuar opaca |
+| ouvidoria | receber, analisar e encaminhar manifestações | não substitui a autoridade competente |
+| denúncia | comunicar possível irregularidade | não prova culpa |
+| conselho | participação colegiada | competência depende da norma instituidora |
+| audiência pública | debate oral e plural | não transfere automaticamente a decisão |
+| consulta pública | coletar contribuições | não é necessariamente vinculante |
+| orçamento participativo | discutir prioridades orçamentárias | não elimina competências constitucionais |
 
-As classificações doutrinárias não são inteiramente estanques. Accountability societal é frequentemente compreendida como modalidade vertical não eleitoral, pois ambas descrevem pressão social entre eleições. Nesta síntese didática, **vertical não eleitoral** é a categoria ampla da relação sociedade-Estado fora do voto; **social ou societal** destaca mecanismos protagonizados por sociedade civil organizada e mídia que expõem problemas e ativam instituições.
+A pergunta decisiva é: **o que a norma ou o desenho do canal autoriza fazer?** O rótulo “participativo” não permite presumir poder deliberativo, vinculante ou sancionador.
 
-Na formulação de Guillermo O'Donnell, accountability horizontal envolve agências estatais legalmente autorizadas e capacitadas a atuar diante de ações ou omissões ilícitas de outros agentes ou órgãos. A simples separação formal entre poderes não garante sua efetividade: autonomia, informação, capacidade e disposição para agir são necessárias.
+### 4.2 Lei nº 13.460/2017: manifestação, ouvidoria e resposta
 
-Accountability social não equivale a sanção jurídica direta. Sociedade e imprensa podem revelar fatos, alterar custos reputacionais e ativar mecanismos eleitorais, administrativos, legislativos ou judiciais.
+A Lei nº 13.460/2017 estabelece normas básicas de participação, proteção e defesa dos usuários de serviços públicos e alcança a administração direta e indireta da União, dos Estados, do Distrito Federal e dos Municípios.
 
-### 5.3 Relações entre os conceitos
+A lei transforma participação em fluxo: o usuário manifesta uma demanda; a ouvidoria recebe, analisa e encaminha; acompanha o tratamento; e o usuário recebe ciência da conclusão. As ouvidorias também promovem participação, acompanham a prestação dos serviços, propõem aperfeiçoamentos e auxiliam na prevenção e correção de atos incompatíveis com a lei.
 
-| Conceito | Pergunta central |
+A lei considera manifestações as **reclamações, denúncias, sugestões, elogios e demais pronunciamentos** sobre serviços públicos e a conduta de agentes na prestação e fiscalização desses serviços. Em termos práticos: reclamação comunica insatisfação; sugestão propõe melhoria; elogio reconhece atendimento; denúncia comunica possível irregularidade ou ilícito.
+
+Os **conselhos de usuários** previstos nessa lei são expressamente **consultivos**. Eles acompanham a prestação e a atuação do ouvidor, participam da avaliação, propõem melhorias e contribuem para diretrizes de atendimento. Isso não significa que todo conselho de política pública seja apenas consultivo: fora desse regime, vale a norma que instituiu o colegiado.
+
+---
+
+## 5. Coprodução e intensidade da participação
+
+Participar pode significar desde receber informação até organizar autonomamente uma ação coletiva. Essa diferença ajuda a entender a <abbr title="produção compartilhada de serviço ou bem público por Estado e sociedade">coprodução</abbr>: agentes públicos, cidadãos, organizações comunitárias e, conforme o arranjo, atores privados compartilham responsabilidades na produção ou melhoria de serviços públicos. Ela é uma forma de parceria e **não se limita a instrumentos formais**.
+
+Uma tipologia de Jules Pretty, aplicada também ao estudo da coprodução, distingue graus de participação. Não é classificação legal, mas uma lente para perceber quanto poder e iniciativa chegam à sociedade:
+
+| Tipo | Mecanismo |
 | --- | --- |
-| transparência | o poder e sua atuação podem ser conhecidos e compreendidos? |
-| participação | a sociedade pode expressar preferências e influenciar decisões? |
-| controle social | a sociedade pode acompanhar, fiscalizar e provocar correções? |
-| accountability | o agente deve explicar-se e pode enfrentar consequências? |
+| **manipulativa** | aparência de participação sem poder real |
+| **passiva** | pessoas recebem informação sobre decisões já tomadas |
+| **por consulta** | opiniões são solicitadas, mas a decisão permanece externa |
+| **por incentivos materiais** | contribuição ocorre em troca de incentivos |
+| **funcional** | grupos atuam para objetivos previamente definidos do projeto |
+| **interativa** | há análise conjunta, planos de ação e participação em decisões |
+| **automobilização** | a comunidade toma iniciativa independentemente de convocação externa |
 
-Transparência favorece participação e controle, mas não os produz automaticamente. Participação pode gerar informação e legitimidade, mas também pode existir sem poder de influência. Controle social pode acionar órgãos de accountability horizontal. Accountability, por sua vez, requer desenho institucional além da exposição pública.
+A diferença final é importante: participação **interativa** ocorre dentro de construção compartilhada; na **automobilização**, a iniciativa nasce da própria comunidade, que se organiza mesmo sem ter sido convocada pelo poder público.
 
-## 6. Condições de efetividade
+---
 
-Mecanismos efetivos combinam:
+## 6. Transparência fiscal: informação, participação e competência
 
-- informação tempestiva, íntegra, inteligível e acessível;
-- canais conhecidos, inclusivos e seguros;
-- proteção contra retaliação nos termos aplicáveis;
-- pluralidade e redução de barreiras digitais, territoriais e linguísticas;
-- competências claras e encaminhamento ao órgão responsável;
-- devolutiva, motivação e rastreabilidade;
-- capacidade técnica da sociedade e do Estado;
-- monitoramento de providências e resultados.
+A <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> combina divulgação e participação. Seu artigo 48 inclui, entre os instrumentos de transparência da gestão fiscal, planos, orçamentos, leis de diretrizes orçamentárias, prestações de contas, pareceres prévios, o Relatório Resumido da Execução Orçamentária, o Relatório de Gestão Fiscal e versões simplificadas.
 
-Participação qualificada não exige que toda contribuição seja acolhida. Exige critérios públicos, consideração real e explicação do encaminhamento. A administração mantém responsabilidade pela decisão que lhe compete.
+O mesmo artigo prevê incentivo à participação popular e audiências públicas durante elaboração e discussão de planos, leis de diretrizes orçamentárias e orçamentos. O artigo 48-A exige disponibilização, em tempo real, de informações pormenorizadas sobre execução orçamentária e financeira.
 
-## 7. Riscos e disfunções
+### 6.1 Regra nova já vigente no corte
 
-### 7.1 Transparência formal e sobrecarga
+A Lei Complementar nº 224/2025 acrescentou ao artigo 48, § 1º, inciso IV, da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> a divulgação, no Portal de Transparência, em formato aberto e padronizado, de **dados atualizados sobre benefícios de natureza tributária, financeira e creditícia concedidos**.
 
-Ocorre transparência formal quando o órgão cumpre a etapa de publicar, mas não torna a informação utilizável. O excesso desorganizado pode ocultar tanto quanto a ausência: arquivos dispersos, nomenclatura inconsistente, falta de busca, séries quebradas e dados sem contexto elevam o custo de controle.
+A alteração produz efeitos desde **1º de janeiro de 2026**. Portanto, já integrava a legislação vigente em 6 de julho de 2026.
 
-### 7.2 Exclusão e captura
+### 6.2 Orçamento participativo influencia, mas não vincula automaticamente
 
-Processos participativos podem reproduzir desigualdades quando exigem tempo, conexão, linguagem técnica ou presença física inacessível. Grupos organizados podem dominar o espaço, enquanto pessoas afetadas permanecem ausentes. Medidas de inclusão devem ampliar representatividade sem presumir que qualquer participante fale por toda a sociedade.
+O orçamento participativo pode abrir espaço para a população indicar ou priorizar investimentos. Isso não torna a escolha popular, por si só, juridicamente obrigatória para o chefe do Executivo.
 
-### 7.3 Participação simbólica
+Na Ação Direta de Inconstitucionalidade 2.680, o <abbr title="Supremo Tribunal Federal">STF</abbr> considerou inconstitucional norma de Constituição estadual que tornava obrigatória a execução de orçamento elaborado com participação popular. O fundamento foi a preservação da competência do chefe do Executivo na elaboração das leis orçamentárias.
 
-Tokenismo ou participação simbólica ocorre quando o canal cria aparência de escuta, mas não permite influência significativa nem oferece devolutiva. Consultar depois de a decisão estar irreversivelmente tomada, ocultar critérios ou ignorar contribuições sem motivação reduz confiança.
+Assim, **participação pode influenciar prioridades; não se presume vinculação automática da proposta orçamentária**. O efeito jurídico depende da Constituição, da lei e do desenho institucional aplicável.
 
-### 7.4 Responsabilização sem garantias
+---
 
-Cobrança pública não autoriza prejulgamento. Accountability institucional deve preservar competência, contraditório, ampla defesa, proporcionalidade e proteção de informações legalmente restritas. Controle democrático e direitos fundamentais são complementares.
+## 7. <abbr title="dever de explicar e possibilidade de consequências">Accountability</abbr>: poder que precisa responder
 
-## 8. Estratégia para questões
+Transparência permite enxergar. <abbr title="dever de explicar e possibilidade de consequências">Accountability</abbr> acrescenta cobrança: quem exerce poder deve responder por sua atuação, e deve existir possibilidade de consequência quando os padrões aplicáveis são violados.
 
-1. Se a informação foi apenas colocada na internet, verifique se há acessibilidade, compreensão, atualização e contexto antes de afirmar transparência substantiva.
-2. Se a sociedade apenas opinou, não conclua automaticamente que houve controle ou poder decisório.
-3. Se um órgão estatal controla outro, pense em accountability horizontal; se eleitores responsabilizam representantes, pense em vertical eleitoral.
-4. Se sociedade ou imprensa expõem um problema e acionam instituições, reconheça accountability social, sem atribuir-lhes sanção estatal própria.
-5. Diferencie explicação (`answerability`) de capacidade de consequência (`enforcement`).
-6. Não atribua caráter deliberativo a todo conselho nem vinculação automática a toda audiência ou consulta.
-7. Lembre que transparência deve conviver com proteção de dados, sigilos legítimos e devido processo.
-8. Na transparência fiscal, lembre a regra vigente desde 1º de janeiro de 2026: benefícios tributários, financeiros e creditícios concedidos devem ter dados atualizados divulgados no Portal de Transparência em formato aberto e padronizado, nos termos do art. 48, § 1º, IV, da LRF.
+Andreas Schedler organiza o conceito em duas dimensões:
+
+1. <abbr title="dever de informar, explicar e justificar a atuação">answerability</abbr>: obrigação de fornecer informação, explicações e justificações;
+2. <abbr title="capacidade de impor consequências por violação de deveres">enforcement</abbr>: capacidade institucional de impor consequências, especialmente sanções, a quem viola deveres públicos.
+
+Uma prestação de contas entregue e arquivada sem exame cumpre uma formalidade, mas produz <abbr title="dever de explicar e possibilidade de consequências">accountability</abbr> fraca. O mecanismo se fortalece quando alguém pode questionar a atuação, confrontá-la com critérios e acionar consequências dentro de competência legal.
+
+Consequência não significa punição automática. Conforme a competência e o caso, pode haver correção, anulação, reparação, perda política ou sanção. **Responsabilização legítima exige base jurídica, competência e devido processo.**
+
+### 7.1 Quem cobra quem?
+
+| Dimensão | Relação típica | Exemplo |
+| --- | --- | --- |
+| **vertical eleitoral** | eleitores → representantes | voto e eleições |
+| **vertical não eleitoral** | sociedade → poder público entre eleições | petições, mobilização e denúncias |
+| **horizontal** | instituição estatal → outro agente ou instituição estatal | tribunal de contas, controladoria, Legislativo ou Judiciário dentro de sua competência |
+| **social ou societal** | sociedade civil e mídia → esfera pública e instituições | organizações e jornalismo expondo fatos e ativando controles |
+
+As fronteiras variam na literatura. A <abbr title="cobrança protagonizada por sociedade civil e mídia">accountability societal</abbr> pode ser compreendida como forma de pressão vertical não eleitoral; separá-la aqui apenas destaca o protagonismo da sociedade civil organizada e da mídia.
+
+Para Guillermo O'Donnell, a <abbr title="controle entre instituições estatais com autoridade legal para agir">accountability horizontal</abbr> exige agências estatais **legalmente autorizadas e, na prática, dispostas e capazes de atuar** diante de ações ou omissões ilícitas de outros agentes ou órgãos do Estado. A simples existência formal de órgãos separados não basta.
+
+Sociedade e imprensa podem investigar, expor fatos e provocar autoridades, mas não recebem por isso poder estatal próprio de sancionar. Quando um cidadão leva um indício a um tribunal de contas, o controle social pode **ativar** o mecanismo horizontal; não se transforma no tribunal.
+
+---
+
+## 8. Quando os mecanismos falham
+
+**Transparência formal:** há publicação, mas a informação continua difícil de localizar, compreender ou comparar. O excesso desorganizado de arquivos também pode produzir opacidade.
+
+**Exclusão e captura:** processos participativos podem favorecer quem dispõe de mais tempo, renda, conexão, domínio técnico ou organização. Captura ocorre quando grupos dominam desproporcionalmente o espaço e populações afetadas ficam sub-representadas.
+
+**<abbr title="participação apenas aparente, sem influência real">Tokenismo</abbr>:** existe escuta, mas sem possibilidade relevante de influência ou devolutiva. Consultar apenas depois de a decisão se tornar irreversível é um sinal. Participação efetiva não obriga a acolher toda proposta; exige possibilidade real de contribuição e tratamento motivado.
+
+**Cobrança sem garantias:** denúncia, repercussão social ou exposição na imprensa não provam culpa. <abbr title="dever de explicar e possibilidade de consequências">Accountability</abbr> institucional deve preservar competência, contraditório, ampla defesa, proporcionalidade e proteção de informações legalmente restritas.
+
+---
+
+## 9. Mapa de decisão
+
+Diante de um caso, pergunte:
+
+1. **A informação está só visível ou está utilizável?**  
+   Visibilidade aponta para publicidade; acesso compreensível, íntegro e tempestivo aponta para transparência.
+
+2. **A sociedade está opinando ou fiscalizando?**  
+   Opinar e colaborar indicam participação; acompanhar condutas, recursos e resultados para provocar correção caracteriza controle social.
+
+3. **Quem tem competência para produzir consequência?**  
+   Sociedade e mídia podem cobrar e acionar instituições; sanção estatal depende do órgão competente e do devido processo.
+
+4. **O canal dá influência real ou apenas aparência de participação?**  
+   Verifique acessibilidade, pluralidade, momento da consulta, competência e devolutiva.
