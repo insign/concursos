@@ -8,110 +8,114 @@ storageId: "irregularidades-sancoes"
 
 # Irregularidades, penalidades e sanções administrativas
 
-## 1. Delimitação e corte
+Uma entrega chega incompleta. O fiscal percebe a diferença. A primeira pergunta não é “qual penalidade aplicar?”, porque ainda faltam etapas: **o que exatamente aconteceu, qual obrigação foi descumprida, que prova existe, a falha pode ser corrigida e há uma infração administrativa demonstrada?**
 
-Este assunto estuda o caminho que começa com uma ocorrência na execução contratual e pode terminar em correção, ajuste financeiro, extinção ou sanção administrativa. O foco está em duas competências do edital:
+Considere um **exemplo hipotético**: de 100 unidades contratadas, 90 são entregues no prazo e 10 ficam pendentes. O fiscal registra a ocorrência e comunica a contratada. Se as 10 unidades não forem aceitas, o pagamento pode ser ajustado ao que efetivamente foi entregue; se houver dano, pode haver reparação; se a conduta se enquadrar em infração legal, abre-se o caminho para responsabilização. Essas consequências não são sinônimas e não nascem todas no mesmo momento.
 
-1. registrar e notificar irregularidades;
-2. definir e aplicar penalidades e sanções administrativas.
+O modelo mental do assunto é:
 
-A base geral é a Lei nº 14.133/2021, especialmente os arts. 92, 117, 137, 155 a 169 e 174. A <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão">SEGES/MP</abbr> nº 5/2017 e o Decreto nº 11.246/2022 oferecem referências operacionais federais. Eles não vinculam automaticamente o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. A competência decisória e o rito complementar no Tribunal dependem da regulamentação aplicável ao órgão.
+**obrigação → fato e evidência → registro → notificação e tentativa de regularização → verificação → encaminhamento → enquadramento legal → processo e defesa → decisão e <abbr title="definição motivada da intensidade da sanção">dosimetria</abbr> → recurso → publicidade → eventual <abbr title="restabelecimento após cumprimento dos requisitos legais">reabilitação</abbr>**.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Datas posteriores de consulta das fontes servem apenas à conferência editorial e não alteram o corte jurídico.
+> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A Lei nº 14.133/2021 fornece a base geral. A <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão e os Decretos nº 11.246/2022 e nº 13.031/2026 oferecem referências operacionais **federais**; não se tornam automaticamente regulamento interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. O Decreto nº 13.031/2026 já integrava o corte e, no modelo federal, exige que o modelo interno de gestão contemple procedimentos para sanções, <abbr title="ajustes do pagamento ao que foi efetivamente devido">glosas</abbr> e extinção contratual. A Instrução Normativa nº 98/2022 da Secretaria de Gestão do Ministério da Economia tornou aplicável, no âmbito federal e no que couber, a <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 às contratações de serviços regidas pela Lei nº 14.133/2021.
 
-O Assunto 128 contém o regime geral da execução e fiscalização; o Assunto 129, a extinção, o recebimento e o pagamento; e o Assunto 130, o panorama normativo das infrações, sanções, controle e <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>. Este assunto retoma somente o necessário desse panorama para aprofundar a perspectiva operacional do item 2.5 e 2.6: registro, notificação, formação de evidência e fluxo decisório. O Assunto 133 apresenta a arquitetura federal de gestão e fiscalização, o Assunto 134 trata da operação financeira e o Assunto 136 aprofunda indicadores, fiscalizador, preposto e acompanhamento.
+O regime geral de execução, extinção e sanções aparece em assuntos vizinhos. Aqui a prioridade é transformar uma irregularidade percebida em **registro confiável, comunicação rastreável e encaminhamento juridicamente correto**, sem confundir fiscalização com julgamento.
 
-## 2. Quatro conceitos que não devem ser confundidos
+## 1. Antes de punir, separe as consequências
 
-### 2.1 Ocorrência ou irregularidade
+Uma **ocorrência** é um fato observado na execução: atraso, defeito, entrega parcial, falha documental ou outra desconformidade. Ela ainda não é uma condenação.
 
-É o fato desconforme identificado durante a execução. Pode ser uma falha documental, um atraso, um defeito, uma entrega parcial ou outra divergência em relação ao contrato. A identificação da ocorrência ainda não equivale a condenação.
+Quando a ocorrência representa descumprimento de obrigação contratual, há **inadimplemento**. Ele pode ser parcial, total, tardio ou defeituoso. Mesmo assim, a consequência não é automaticamente uma sanção: é preciso olhar a obrigação, a causa, a possibilidade de correção, o dano e o enquadramento legal.
 
-Uma impropriedade sanável, sem gravidade sancionatória demonstrada, pode exigir apenas correção e reforço de controle. O art. 169, § 3º, da Lei nº 14.133/2021 diferencia a simples impropriedade formal, para a qual se adotam saneamento e mitigação de recorrência, da irregularidade com dano, que exige providências de apuração, segregação de funções e individualização das condutas.
+Se o contrato prevê pagamento apenas pelo que foi efetivamente executado ou aceito, reduzir o valor ao montante devido é <abbr title="ajuste do pagamento ao que foi efetivamente devido">glosa</abbr> ou redimensionamento do pagamento. Isso recompõe a equivalência entre prestação e pagamento; **não é, por si só, multa**.
 
-### 2.2 Inadimplemento
+Se houve prejuízo, pode existir dever de **reparação**, cuja finalidade é recompor integralmente o dano. Se o vínculo não puder ou não dever continuar, pode haver **extinção contratual** conforme o regime próprio. Já a **sanção** é punição por uma infração administrativa comprovada.
 
-É o descumprimento de uma obrigação contratual. Pode ser total, parcial, tardio ou defeituoso. Nem todo inadimplemento recebe a mesma resposta: o tratamento depende da obrigação, da causa, do dano, da possibilidade de correção e da tipificação legal.
+A Lei nº 14.133/2021 também distingue respostas de controle. Pelo artigo 169, § 3º:
 
-### 2.3 Glosa ou redimensionamento do pagamento
+- diante de simples impropriedade formal, os integrantes das linhas de defesa adotam saneamento e medidas para reduzir a recorrência;
+- diante de irregularidade que configure dano à Administração, adotam as providências necessárias à apuração, com segregação de funções e individualização das condutas, e remetem ao Ministério Público competente as cópias cabíveis para os ilícitos de sua competência.
 
-É o ajuste do valor devido à prestação efetivamente entregue, conforme critérios contratuais. Se parte do serviço não foi prestada, o valor correspondente pode não ser devido. Essa recomposição da equivalência da prestação não é, por si só, multa.
+Portanto, um mesmo fato pode produzir medidas diferentes, cada qual com função e fundamento próprios:
 
-### 2.4 Infração administrativa
+| Medida | Para que serve |
+| --- | --- |
+| correção ou saneamento | fazer a execução voltar ao padrão exigido |
+| <abbr title="ajuste do pagamento ao que foi efetivamente devido">glosa</abbr> | ajustar o pagamento ao que é devido |
+| reparação | recompor dano causado |
+| extinção | encerrar o vínculo contratual |
+| sanção | punir infração administrativa comprovada |
 
-É a conduta enquadrada em tipo sancionador, como os do art. 155 da Lei nº 14.133/2021. A sanção exige prova, tipificação, competência, motivação, contraditório e ampla defesa.
+A coexistência dessas medidas não é automaticamente <abbr title="dupla punição pelo mesmo fato e fundamento">bis in idem</abbr>. O problema surge quando se impõem punições duplicadas pelo mesmo fato e pelo mesmo fundamento, sem base autônoma.
 
-Uma mesma ocorrência pode gerar consequências distintas e compatíveis. Exemplo: a entrega parcial pode levar à correção do objeto, ao redimensionamento do pagamento, à reparação do dano, à extinção e a uma sanção, desde que cada medida tenha fundamento próprio e seja observada a vedação de dupla punição pelo mesmo fundamento.
+## 2. O registro transforma percepção em fato verificável
 
-## 3. Registro da ocorrência
+### 2.1 O dever do fiscal
 
-### 3.1 Dever legal do fiscal
+O artigo 117, § 1º, determina que o fiscal anote, em registro próprio, **todas as ocorrências relacionadas à execução** e determine o necessário à regularização das faltas ou defeitos observados. Se uma decisão ou providência ultrapassar sua competência, o § 2º exige que informe seus superiores em tempo hábil. Pelo § 3º, o fiscal será auxiliado pelos órgãos de assessoramento jurídico e de controle interno para esclarecer dúvidas e subsidiá-lo com informações relevantes à prevenção de riscos na execução. Esse apoio não transfere ao fiscal competência que a lei ou o regulamento atribuam a outra autoridade.
 
-O art. 117, § 1º, determina que o fiscal anote, em registro próprio, todas as ocorrências relacionadas à execução e determine o necessário à regularização das faltas ou defeitos observados. Se a decisão ou providência ultrapassar sua competência, o § 2º exige informação aos superiores em tempo hábil.
+Isso cria uma fronteira importante. O fiscal acompanha, registra, cobra regularização dentro de sua atribuição, verifica o resultado e encaminha o que excede sua competência. Ele não deve:
 
-O registro não deve ser uma conclusão vaga, como “serviço ruim”. Precisa permitir que outra pessoa reconstrua o fato. Um registro útil contém:
+- alterar informalmente o contrato;
+- criar infração ou sanção não prevista em lei;
+- aplicar penalidade reservada a outra autoridade;
+- prometer que a correção afastará qualquer responsabilização futura;
+- substituir a comissão do processo de responsabilização;
+- apagar ou omitir ocorrência relevante porque a contratada depois corrigiu a falha.
 
-- contrato, objeto e obrigação afetada;
-- data, hora, local e período da ocorrência;
+A correção posterior integra o histórico e pode influenciar a decisão ou a <abbr title="definição motivada da intensidade da sanção">dosimetria</abbr>, mas não torna falso o que ocorreu.
+
+### 2.2 O que precisa ficar reconstruível
+
+“Serviço ruim” não é um registro útil. Outra pessoa deve conseguir reconstruir o episódio sem depender da memória do fiscal. Conforme a natureza do objeto, registre:
+
+- contrato, objeto e obrigação examinada;
+- data, hora, local e período relevante;
 - descrição objetiva do fato;
-- critério contratual ou técnico descumprido;
-- evidências e sua origem;
+- critério contratual, legal ou técnico relacionado;
+- evidências e respectivas origens;
 - impacto observado ou risco gerado;
 - providência imediata adotada;
 - responsável pela constatação;
 - comunicação enviada e prova de ciência;
 - resposta da contratada;
-- verificação posterior de correção, persistência ou reincidência.
+- verificação posterior: correção, persistência ou reincidência.
 
-### 3.2 Evidência e cadeia documental
+Uma boa disciplina é separar quatro camadas:
 
-Podem servir como evidência relatórios, registros de sistema, fotografias contextualizadas, medições, testes, ordens de serviço, atas, comunicações, documentos trabalhistas e manifestações do preposto. A fonte deve ser identificável, íntegra e relacionada ao fato.
+1. **fato:** o que foi observado;
+2. **regra:** qual obrigação ou critério se aplica;
+3. **inferência:** que conclusão as evidências permitem sustentar;
+4. **efeito:** que providência foi adotada ou proposta.
 
-Volume não substitui qualidade. Cem imagens sem data, local ou vínculo com a obrigação podem ser menos úteis que um relatório objetivo acompanhado de um registro de sistema reproduzível.
+Essa separação reduz prejulgamento. “A unidade não foi entregue” descreve fato; “a empresa agiu fraudulentamente” é uma conclusão que exige prova própria.
 
-O agente deve separar:
+### 2.3 Evidência: quantidade não substitui contexto
 
-- **fato:** o que foi observado;
-- **regra:** qual obrigação ou critério se aplica;
-- **inferência:** que conclusão pode ser extraída;
-- **efeito:** que providência é proposta ou adotada.
+Relatórios, registros de sistema, medições, testes, ordens de serviço, atas, documentos, comunicações e fotografias podem servir como evidência. O ponto é conseguir relacionar a prova à obrigação e ao episódio.
 
-Essa separação reduz prejulgamento e permite contraditório efetivo.
+Cem fotografias sem data, local, autoria ou vínculo com o item contratual podem ser menos úteis que um relatório objetivo apoiado em registro de sistema reproduzível. A pergunta de controle é: **outra pessoa consegue verificar de onde veio o dado e por que ele prova aquele fato?**
 
-### 3.3 Competência do fiscal
+## 3. Notificar é dar ciência e permitir reação, não condenar
 
-O fiscal pode registrar, determinar correções dentro de sua atribuição, conferir o atendimento e encaminhar documentos. Não deve:
+### 3.1 Notificação corretiva não é advertência
 
-- alterar informalmente o contrato;
-- criar infração ou sanção não prevista em lei;
-- aplicar penalidade reservada a outra autoridade;
-- prometer que não haverá responsabilização;
-- substituir a comissão do processo sancionador;
-- omitir fato relevante por ter sido posteriormente corrigido.
+A notificação de execução comunica a desconformidade, pede explicação e/ou exige regularização. **Advertência**, ao contrário, é uma das sanções do artigo 156. Usar a palavra “advertência” para qualquer cobrança de rotina mistura acompanhamento com punição.
 
-A correção posterior é relevante para o resultado e para a dosimetria, mas não apaga o histórico.
+Uma notificação corretiva útil informa, conforme o caso:
 
-## 4. Notificação da contratada
-
-### 4.1 Notificação corretiva não é sanção
-
-A notificação de execução comunica a desconformidade e exige saneamento ou esclarecimento. A advertência, por sua vez, é uma sanção formal do art. 156. Chamar toda comunicação de “advertência” confunde acompanhamento com punição.
-
-Uma notificação corretiva adequada deve indicar:
-
-- o fato e a obrigação relacionada;
+- o fato constatado e a obrigação relacionada;
 - as evidências disponíveis;
 - a providência esperada;
-- o prazo razoável ou contratualmente definido;
-- o canal e a forma de resposta;
-- a possibilidade de inspeção ou comprovação;
-- as consequências contratuais possíveis, sem antecipar condenação.
+- o prazo contratual ou razoável para resposta/correção;
+- o canal de resposta;
+- a forma de comprovar a regularização;
+- consequências contratuais possíveis, sem antecipar culpa ou sanção.
 
-### 4.2 Ciência e resposta
+O **preposto** é o representante da contratada na execução e pode funcionar como canal das comunicações operacionais. Isso não significa que qualquer mensagem ao preposto substitua a intimação formal exigida pelo processo sancionador.
 
-A comunicação deve permitir prova de envio, recebimento e conteúdo. O preposto é o canal de representação da contratada na execução, sem prejuízo da intimação formal exigida no processo sancionador.
+### 3.2 A resposta também vira evidência
 
-Recebida a resposta, a fiscalização deve verificar se houve:
+Depois da comunicação, a fiscalização precisa registrar o que aconteceu:
 
 - correção integral;
 - correção parcial;
@@ -121,235 +125,198 @@ Recebida a resposta, a fiscalização deve verificar se houve:
 - silêncio;
 - reincidência.
 
-Não basta arquivar a resposta. É necessário confrontá-la com as evidências e registrar a conclusão.
+Não basta arquivar a manifestação da empresa. É necessário confrontá-la com as evidências e registrar a conclusão.
 
-### 4.3 Escalonamento
+### 3.3 Quando o caso sai da esfera do fiscal
 
-Quando a correção não ocorre, quando há dano, fraude, gravidade ou possível infração do art. 155, o fiscal encaminha o conjunto documental ao gestor ou à autoridade definida no fluxo interno. A referência federal da IN nº 5/2017 determina procedimento administrativo específico quando identificada infração contratual. A decisão de instaurar, processar e sancionar cabe aos agentes competentes, não ao fiscal por iniciativa isolada.
+Se a falha persiste, há dano, fraude, gravidade ou possível infração do artigo 155, o conjunto documental deve ser encaminhado ao gestor ou à autoridade definida no fluxo interno.
 
-O início de processo administrativo para apurar descumprimento de cláusulas contratuais também exige a notificação dos emitentes das garantias contratuais, conforme o art. 137, § 4º. Essa ciência protege a atuação do garantidor e não se confunde com a intimação da contratada para defesa.
+No âmbito federal, o artigo 68 da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 determina a autuação de procedimento administrativo específico quando identificada infração contratual, conforme o ato convocatório, a legislação correlata e o normativo interno. Essa referência ajuda a visualizar o fluxo, mas não define por si só o rito interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-Quando a irregularidade configura dano à Administração, os integrantes das linhas de defesa adotam as providências de apuração com segregação e individualização das condutas. Também remetem ao Ministério Público competente as cópias cabíveis para apuração dos ilícitos de sua competência, sem transformar essa remessa em condenação administrativa ou penal.
+Há ainda uma comunicação específica que costuma aparecer em prova: iniciado processo administrativo para apurar descumprimento de cláusulas contratuais, o artigo 137, § 4º, exige que o contratante **notifique os emitentes das garantias contratuais**. Essa ciência não substitui a intimação da contratada para defesa.
 
-## 5. Infrações do art. 155
+## 4. Só depois vem o enquadramento da infração
 
-O art. 155 prevê doze infrações atribuíveis ao licitante ou contratado:
+Enquadrar o fato em uma conduta prevista em lei é a **tipificação**. Ela não pode ser feita apenas pelo rótulo do problema. “Atraso”, por exemplo, precisa ser confrontado com a obrigação, a causa e a justificativa antes de concluir que houve retardamento injustificado.
+
+O artigo 155 prevê doze infrações:
 
 | Inciso | Conduta |
-|---|---|
-| I | Dar causa à inexecução parcial do contrato |
-| II | Dar causa à inexecução parcial com grave dano à Administração, aos serviços públicos ou ao interesse coletivo |
-| III | Dar causa à inexecução total |
-| IV | Deixar de entregar documentação exigida para o certame |
-| V | Não manter a proposta, salvo fato superveniente devidamente justificado |
-| VI | Não celebrar o contrato ou não entregar documentação para a contratação quando convocado no prazo da proposta |
-| VII | Ensejar retardamento da execução ou entrega sem motivo justificado |
-| VIII | Apresentar declaração ou documentação falsa no certame ou prestar declaração falsa na licitação ou execução |
-| IX | Fraudar a licitação ou praticar ato fraudulento na execução |
-| X | Comportar-se de modo inidôneo ou cometer fraude de qualquer natureza |
-| XI | Praticar atos ilícitos para frustrar os objetivos da licitação |
-| XII | Praticar ato lesivo do art. 5º da Lei nº 12.846/2013 |
+| --- | --- |
+| I | dar causa à inexecução parcial do contrato |
+| II | dar causa à inexecução parcial com grave dano à Administração, ao funcionamento dos serviços públicos ou ao interesse coletivo |
+| III | dar causa à inexecução total |
+| IV | deixar de entregar documentação exigida para o certame |
+| V | não manter a proposta, salvo fato superveniente devidamente justificado |
+| VI | não celebrar o contrato ou não entregar documentação para a contratação quando convocado no prazo da proposta |
+| VII | ensejar retardamento da execução ou da entrega sem motivo justificado |
+| VIII | apresentar declaração/documentação falsa no certame ou prestar declaração falsa na licitação ou execução |
+| IX | fraudar a licitação ou praticar ato fraudulento na execução |
+| X | comportar-se de modo inidôneo ou cometer fraude de qualquer natureza |
+| XI | praticar atos ilícitos para frustrar os objetivos da licitação |
+| XII | praticar ato lesivo do artigo 5º da Lei nº 12.846/2013 |
 
-Para a execução contratual, são especialmente frequentes os incisos I, II, III, VII, VIII e IX. Isso não autoriza enquadramento automático. É necessário demonstrar o fato, a participação do responsável e a correspondência com o tipo.
+Na execução contratual, os incisos I, II, III, VII, VIII e IX aparecem com especial frequência, mas isso não autoriza enquadramento automático. É necessário demonstrar fato, participação do responsável e correspondência com o tipo legal.
 
-## 6. Sanções do art. 156
+No exemplo das 10 unidades faltantes, a simples informação “houve entrega parcial” ainda não resolve se o caso é inciso I ou II. O inciso II exige **grave dano** à Administração, ao funcionamento dos serviços públicos ou ao interesse coletivo.
 
-Antes da execução, o art. 92, XIV, exige que o contrato estabeleça os direitos e responsabilidades das partes, as penalidades cabíveis, os valores das multas e suas bases de cálculo. A previsão contratual não autoriza sanção automática: ela organiza as consequências possíveis, que continuam dependentes de infração comprovada e devido processo.
+## 5. As quatro sanções não formam uma escada automática
 
-### 6.1 Quadro geral
+O artigo 92, XIV, exige que o contrato estabeleça direitos e responsabilidades das partes, penalidades cabíveis, valores das multas e respectivas bases de cálculo. Essa previsão organiza as consequências possíveis, mas não elimina prova, defesa, competência e decisão motivada.
 
-| Sanção | Hipótese legal | Alcance | Prazo |
-|---|---|---|---|
-| Advertência | Exclusivamente art. 155, I, quando não couber sanção mais grave | Reprovação formal | A lei não fixa afastamento de licitar |
-| Multa | Qualquer infração do art. 155, conforme edital ou contrato | Pecuniário | Percentual entre 0,5% e 30% do valor do contrato |
-| Impedimento de licitar e contratar | Art. 155, II a VII, quando não couber sanção mais grave | Administração direta e indireta do ente sancionador | Máximo de 3 anos |
-| Declaração de inidoneidade | Art. 155, VIII a XII; ou II a VII quando a gravidade exigir | Administração direta e indireta de todos os entes federativos | Mínimo de 3 e máximo de 6 anos |
+Aqui, **ente federativo** significa União, Estado, Distrito Federal ou Município. O artigo 156 estrutura quatro sanções:
 
-### 6.2 Advertência
+| Sanção | Hipótese legal | Alcance | Medida |
+| --- | --- | --- | --- |
+| advertência | exclusivamente artigo 155, I, quando não couber sanção mais grave | reprovação formal | a lei não fixa período de afastamento |
+| multa | qualquer infração do artigo 155, conforme edital ou contrato | efeito pecuniário | de 0,5% a 30% do valor do contrato |
+| impedimento de licitar e contratar | artigo 155, II a VII, quando não couber sanção mais grave | <abbr title="órgãos da administração direta e entidades da administração indireta">Administração direta e indireta</abbr> do ente federativo sancionador | até 3 anos |
+| declaração de inidoneidade | artigo 155, VIII a XII; também II a VII quando a gravidade exigir | <abbr title="órgãos da administração direta e entidades da administração indireta">Administração direta e indireta</abbr> de todos os entes federativos | de 3 a 6 anos |
 
-É exclusiva para a inexecução parcial do art. 155, I, quando o caso não justificar penalidade mais grave. Não cabe advertência para fraude documental com base no inciso VIII. Também não é simples aviso anterior ao processo.
+### 5.1 Advertência
 
-### 6.3 Multa
+A advertência é exclusiva da inexecução parcial do artigo 155, I, quando não se justificar resposta mais grave. Ela não serve para “qualquer infração leve” e não é sinônimo da notificação corretiva feita durante a fiscalização.
 
-A multa do art. 156, II, é calculada na forma do edital ou do contrato e pode incidir sobre qualquer infração do art. 155. O percentual não pode ser inferior a 0,5% nem superior a 30% do valor do contrato licitado ou celebrado por contratação direta.
+### 5.2 Multa e multa de mora
 
-Advertência, impedimento e inidoneidade podem ser cumulados com multa. Isso não dispensa motivar cada sanção e evitar dupla punição de mesma natureza e fundamento.
+A multa do artigo 156, II, pode ser aplicada a qualquer infração do artigo 155. Seu percentual, calculado na forma do edital ou do contrato, não pode ser inferior a **0,5%** nem superior a **30%** do valor do contrato licitado ou celebrado por contratação direta.
 
-Se multa e indenizações superarem pagamento devido ao contratado, perde-se esse valor e a diferença será descontada da garantia ou cobrada judicialmente. A sanção nunca exclui a reparação integral do dano.
+Advertência, impedimento e inidoneidade podem ser cumulados com multa quando cabível. A decisão deve motivar a cumulação e preservar a vedação à duplicidade punitiva indevida.
 
-### 6.4 Multa de mora
+Se multa e indenizações superarem eventual pagamento devido ao contratado, perde-se esse crédito até o montante correspondente; a diferença será descontada da garantia ou cobrada judicialmente. Nenhuma sanção exclui a reparação integral do dano.
 
-O atraso injustificado sujeita o contratado à multa de mora na forma do edital ou contrato. Ela pode ser convertida em compensatória, com extinção unilateral e outras sanções cabíveis. A conversão não ocorre automaticamente e deve respeitar o caso e o devido processo.
+O artigo 162 trata ainda da **multa de mora**: atraso injustificado sujeita o contratado à multa prevista no edital ou contrato. A Administração pode convertê-la em <abbr title="multa pelo inadimplemento, distinta da multa por atraso">multa compensatória</abbr>, promover extinção unilateral e aplicar outras sanções cabíveis. Nada disso dispensa examinar os pressupostos de cada consequência.
 
-### 6.5 Impedimento
+### 5.3 Impedimento
 
-Aplica-se às infrações dos incisos II a VII quando não for necessária sanção mais grave. Seu alcance é limitado ao ente federativo que aplicou a sanção. Se aplicada por órgão estadual, alcança a Administração direta e indireta do respectivo Estado, e não automaticamente União e Municípios.
+O impedimento alcança as infrações dos incisos II a VII quando não for necessária sanção mais grave. Seu efeito fica na <abbr title="órgãos da administração direta e entidades da administração indireta">Administração direta e indireta</abbr> do **ente federativo que aplicou a sanção**, pelo prazo máximo de três anos.
 
-### 6.6 Declaração de inidoneidade
+Assim, impedimento aplicado por órgão estadual não se projeta automaticamente sobre União e Municípios.
 
-Aplica-se às infrações dos incisos VIII a XII e também às dos incisos II a VII quando justificarem resposta mais grave que o impedimento. Produz alcance nacional entre os entes federativos e dura de três a seis anos.
+### 5.4 Declaração de inidoneidade
 
-Exige análise jurídica prévia. No Executivo, a Lei reserva a competência às autoridades expressamente indicadas no art. 156, § 6º, I. Nos órgãos dos Poderes Legislativo e Judiciário, no Ministério Público e na Defensoria, exige autoridade de nível hierárquico equivalente, na forma de regulamento. Para o TCE-MA, não se deve inventar a autoridade: aplica-se a disciplina institucional competente.
+A declaração de inidoneidade alcança diretamente as infrações dos incisos VIII a XII e também pode alcançar as dos incisos II a VII quando a gravidade justificar resposta superior ao impedimento. Seus efeitos atingem a <abbr title="órgãos da administração direta e entidades da administração indireta">Administração direta e indireta</abbr> de **todos os entes federativos**, por prazo de três a seis anos.
 
-## 7. Dosimetria e motivação
+A sanção exige análise jurídica prévia. No Poder Executivo, a Lei reserva a competência às autoridades indicadas no artigo 156, § 6º, I. Nos Poderes Legislativo e Judiciário, no Ministério Público e na Defensoria Pública, a competência é de autoridade de nível hierárquico equivalente, na forma do regulamento. Para o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, deve-se aplicar a disciplina institucional competente, sem importar automaticamente a autoridade de um órgão federal.
 
-A escolha e a intensidade da sanção devem considerar:
+## 6. <abbr title="definição motivada da intensidade da sanção">Dosimetria</abbr>: a sanção precisa caber no caso
+
+Dosimetria é a escolha motivada da resposta sancionadora e, quando existe faixa de valor ou prazo, de sua intensidade. Pelo artigo 156, § 1º, devem ser considerados:
 
 1. natureza e gravidade da infração;
 2. peculiaridades do caso concreto;
-3. agravantes e atenuantes;
-4. danos à Administração;
+3. circunstâncias agravantes e atenuantes;
+4. danos causados à Administração;
 5. implantação ou aperfeiçoamento de programa de integridade.
 
-Dosimetria não é mera contagem de fatores. A decisão deve explicar como os elementos provados influenciaram a sanção e seu prazo ou valor.
+Um **programa de integridade** é o conjunto estruturado de mecanismos internos voltados à prevenção, detecção e resposta a desvios. A Lei o inclui entre os fatores de dosimetria; sua existência não apaga a infração nem substitui os demais critérios.
 
-São cautelas essenciais:
+A decisão deve mostrar como os fatos provados influenciaram a sanção. São perguntas úteis:
 
-- individualizar condutas e responsáveis;
-- analisar justificativas e fatores fora do controle do contratado;
-- distinguir falha isolada de comportamento reiterado;
-- comparar dano real, risco e repercussão no serviço;
-- motivar agravantes, atenuantes e cumulação;
-- preservar proporcionalidade e coerência entre casos semelhantes;
-- evitar **bis in idem**, isto é, duplicidade punitiva pelo mesmo fato e fundamento.
+- quem praticou qual conduta?
+- havia causa ou justificativa fora do controle do contratado?
+- foi episódio isolado ou comportamento reiterado?
+- houve dano real, risco grave ou repercussão no serviço?
+- quais agravantes ou atenuantes foram demonstradas?
+- por que aquele valor, aquele prazo ou aquela cumulação são proporcionais?
 
-Medidas com finalidades diferentes podem coexistir. Reparação recompõe o dano; glosa ajusta o pagamento; sanção pune a infração; extinção encerra o vínculo. A coexistência exige base própria para cada consequência.
+A mesma ocorrência pode justificar <abbr title="ajuste do pagamento ao que foi efetivamente devido">glosa</abbr>, reparação, extinção e sanção porque essas medidas cumprem funções distintas. O que não se admite é punir duas vezes o mesmo responsável, pelo mesmo fato e fundamento, sem justificativa autônoma.
 
-## 8. Processo e defesa
+## 7. Processo: suspeita não vira sanção por atalho
 
-### 8.1 Garantias comuns
+O núcleo comum é simples: quem pode ser sancionado precisa conhecer a imputação, acessar os elementos relevantes, contestá-los e ter suas alegações examinadas por autoridade competente. Em linguagem jurídica, isso reúne **contraditório** — conhecer e contestar a acusação — e **ampla defesa** — utilizar os meios de defesa admitidos no processo.
 
-Nenhuma sanção deve resultar de conclusão automática do fiscal. O processo precisa assegurar:
+### 7.1 Multa: artigo 157
 
-- competência;
-- intimação adequada;
-- acesso aos elementos relevantes;
-- contraditório e ampla defesa;
-- análise das provas e alegações;
-- decisão motivada;
-- recurso ou reconsideração cabível.
+Na aplicação de multa, o artigo 157 faculta defesa em **15 dias úteis**, contados da intimação.
 
-### 8.2 Multa: art. 157
+A literalidade importa: o artigo 157 menciona expressamente a multa. A advertência também exige devido processo, mas a Lei nº 14.133/2021 não fixa nesse artigo um prazo específico para ela; deve-se verificar o rito previsto na regulamentação competente.
 
-Na aplicação da multa, a Lei faculta defesa em 15 dias úteis, contados da intimação. O art. 157 menciona expressamente a multa. A advertência também exige devido processo, mas a Lei nº 14.133/2021 não repete nesse artigo um prazo específico para ela; o rito aplicável deve ser conferido na regulamentação competente.
+### 7.2 Impedimento e inidoneidade: artigo 158
 
-### 8.3 Impedimento e inidoneidade: art. 158
+Impedimento e inidoneidade exigem processo de responsabilização. Pelo texto principal do artigo 158, a comissão é composta de **dois ou mais servidores estáveis**.
 
-As duas sanções exigem processo de responsabilização. Pelo **caput** do art. 158, a comissão é composta de dois ou mais servidores estáveis. O § 1º estabelece a alternativa para órgão ou entidade cujo quadro funcional **não seja formado por servidores estatutários**: dois ou mais empregados públicos pertencentes aos quadros permanentes, preferencialmente com pelo menos três anos de serviço no órgão ou entidade.
+Se o quadro funcional do órgão ou entidade não for formado por servidores estatutários, o § 1º prevê **dois ou mais empregados públicos pertencentes aos quadros permanentes**, preferencialmente com pelo menos três anos de serviço no órgão ou entidade.
 
-O interessado dispõe de 15 dias úteis da intimação para apresentar defesa escrita e especificar as provas pretendidas. Se houver deferimento de nova prova ou juntada de prova indispensável, cabe alegação final em 15 dias úteis da nova intimação.
+O interessado tem **15 dias úteis** da intimação para apresentar defesa escrita e especificar as provas que pretende produzir. Se a comissão deferir nova prova ou juntar prova indispensável, abre-se prazo de **15 dias úteis** para alegações finais.
 
-A comissão pode indeferir, mediante decisão fundamentada, provas:
+A comissão pode indeferir, por decisão fundamentada, provas ilícitas, impertinentes, desnecessárias, protelatórias ou intempestivas.
 
-- ilícitas;
-- impertinentes;
-- desnecessárias;
-- protelatórias;
-- intempestivas.
+### 7.3 Prazo para punir: <abbr title="perda da pretensão punitiva pelo decurso do prazo">prescrição</abbr>
 
-### 8.4 Prescrição
+No processo do artigo 158, a prescrição ocorre em **cinco anos**, contados da ciência da infração pela Administração.
 
-No processo do art. 158, a prescrição ocorre em cinco anos, contados da ciência da infração pela Administração. Ela é:
+- a instauração do processo de responsabilização **interrompe** a prescrição;
+- a celebração de <abbr title="acordo de colaboração previsto na legislação anticorrupção">acordo de leniência</abbr> **suspende** a prescrição;
+- decisão judicial que inviabilize a conclusão da apuração administrativa **suspende** a prescrição.
 
-- interrompida pela instauração do processo de responsabilização;
-- suspensa por acordo de leniência;
-- suspensa por decisão judicial que inviabilize a conclusão da apuração.
+Interrupção rompe a contagem e faz incidir novamente o regime de prazo; suspensão apenas paralisa o curso enquanto durar sua causa.
 
-Interrupção reinicia a contagem segundo o regime aplicável; suspensão apenas paralisa o curso enquanto durar sua causa. Em prova literal, associe a regra ao art. 158, § 4º.
+### 7.4 Quando o fato também é ato lesivo anticorrupção
 
-### 8.5 Lei Anticorrupção
+Se a mesma conduta também for ato lesivo da Lei nº 12.846/2013, o artigo 159 determina apuração e julgamento conjuntos, nos mesmos autos, observados o rito e a autoridade competente daquela Lei.
 
-Se a conduta também for ato lesivo da Lei nº 12.846/2013, o art. 159 determina apuração e julgamento conjuntos, nos mesmos autos, conforme o rito e a autoridade daquela lei. A regra coordena regimes e evita duplicação desordenada de processos sobre o mesmo núcleo fático.
+### 7.5 Desconsideração da personalidade jurídica
 
-### 8.6 Desconsideração da personalidade jurídica
+O artigo 160 permite estender efeitos das sanções quando a personalidade jurídica tiver sido usada com abuso para facilitar, encobrir ou dissimular ilícitos da Lei nº 14.133/2021 ou para provocar **confusão patrimonial**, isto é, mistura indevida de patrimônios que deveriam permanecer separados. Os efeitos podem alcançar os sujeitos indicados pela própria Lei, mas não automaticamente.
 
-O art. 160 permite desconsiderar a personalidade quando houver abuso para facilitar, encobrir ou dissimular ilícitos da Lei nº 14.133/2021, ou para provocar confusão patrimonial. Os efeitos podem alcançar administradores e sócios com poderes de administração, sucessora e empresas coligadas ou controladas nas condições legais.
+São indispensáveis o pressuposto material, o contraditório, a ampla defesa e a análise jurídica prévia. Inadimplemento, insolvência ou simples participação em grupo econômico, isoladamente, não autorizam a medida.
 
-A medida exige contraditório, ampla defesa e análise jurídica prévia. Não decorre automaticamente de inadimplemento, grupo econômico ou insolvência.
+## 8. Depois da decisão ainda existem revisão e efeito suspensivo
 
-## 9. Recursos e efeito suspensivo
+Contra **advertência, multa e impedimento**, cabe recurso em **15 dias úteis** da intimação. O recurso é dirigido à autoridade que decidiu. Se ela não reconsiderar a decisão em **cinco dias úteis**, encaminha o recurso motivadamente à autoridade superior, que decide em até **20 dias úteis** do recebimento dos autos.
 
-### 9.1 Advertência, multa e impedimento
+Contra **declaração de inidoneidade**, cabe **apenas pedido de reconsideração**, apresentado em **15 dias úteis** da intimação e decidido em até **20 dias úteis** do recebimento.
 
-Contra essas sanções cabe recurso em 15 dias úteis da intimação. O recurso é dirigido à autoridade que decidiu. Se ela não reconsiderar em cinco dias úteis, encaminha-o motivadamente à autoridade superior, que decide em até 20 dias úteis do recebimento dos autos.
+Recurso e pedido de reconsideração têm **efeito suspensivo** do ato ou da decisão recorrida até a decisão final da autoridade competente.
 
-### 9.2 Inidoneidade
+Esses prazos não se confundem com o prazo geral de três dias úteis do artigo 165 para outros atos previstos na Lei.
 
-Contra a declaração de inidoneidade cabe apenas pedido de reconsideração, apresentado em 15 dias úteis da intimação e decidido em até 20 dias úteis do recebimento.
+## 9. Publicidade: <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">CEIS</abbr>, <abbr title="Cadastro Nacional de Empresas Punidas">CNEP</abbr>, Banco de Sanções e <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>
 
-### 9.3 Efeito
+O artigo 161 determina que órgãos e entidades dos Poderes Executivo, Legislativo e Judiciário de todos os entes federativos informem e mantenham atualizados, no prazo máximo de **15 dias úteis contado da aplicação da sanção**, os dados das sanções aplicadas, para fins de publicidade no <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">CEIS</abbr> e no <abbr title="Cadastro Nacional de Empresas Punidas">CNEP</abbr>.
 
-Recurso e pedido de reconsideração têm efeito suspensivo do ato ou da decisão recorrida até decisão final. A autoridade competente será auxiliada pelo assessoramento jurídico para dirimir dúvidas e subsidiar a decisão.
+No plano operacional da <abbr title="Controladoria-Geral da União">CGU</abbr>, a Portaria Normativa <abbr title="Controladoria-Geral da União">CGU</abbr> nº 75/2023 instituiu o **Sistema Banco de Sanções** e disciplinou o fornecimento de informações para os cadastros administrados pela <abbr title="Controladoria-Geral da União">CGU</abbr>. Portanto, separe as funções:
 
-Não confunda os prazos sancionadores de 15 dias com o prazo geral de três dias úteis do art. 165 para outros atos licitatórios.
+- <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">CEIS</abbr> e <abbr title="Cadastro Nacional de Empresas Punidas">CNEP</abbr>: cadastros de publicidade mencionados no artigo 161;
+- Banco de Sanções: sistema federal de fornecimento e gestão das informações para os cadastros administrados pela <abbr title="Controladoria-Geral da União">CGU</abbr>;
+- <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>: portal que oferece acesso ao <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">CEIS</abbr> e ao <abbr title="Cadastro Nacional de Empresas Punidas">CNEP</abbr>, conforme o artigo 174, § 3º, V.
 
-## 10. Publicidade, Ceis, Cnep e Banco de Sanções
+Referências operacionais antigas ao <abbr title="Sistema Integrado de Registro do Cadastro Nacional de Empresas Inidôneas e Suspensas e do Cadastro Nacional de Empresas Punidas">Sircad</abbr> não devem ser tratadas como descrição do sistema federal atual no corte do edital.
 
-O art. 161 exige que órgãos e entidades dos Poderes Executivo, Legislativo e Judiciário de todos os entes federativos informem e mantenham atualizados, em até **15 dias úteis da aplicação**, os dados das sanções por eles aplicadas, para fins de publicidade no **Cadastro Nacional de Empresas Inidôneas e Suspensas (Ceis)** e no **Cadastro Nacional de Empresas Punidas (Cnep)**. Para a prova da Lei nº 14.133/2021, essa literalidade é decisiva: não se deve tratar o Cnep como cadastro alheio às sanções da própria Lei.
+Antes de formalizar ou prorrogar contrato, o artigo 91, § 4º, exige consulta aos dois cadastros e emissão das certidões pertinentes. Publicidade cadastral não substitui intimação, defesa nem sana vício do processo.
 
-No plano operacional da <abbr title="Controladoria-Geral da União">CGU</abbr>, a **Portaria Normativa CGU nº 75/2023** instituiu o **Sistema Banco de Sanções** e disciplinou o fornecimento de informações para os cadastros administrados pela Controladoria. Assim, não confunda:
+## 10. Reabilitação não é automática
 
-- **Ceis e Cnep:** cadastros de publicidade mencionados no art. 161;
-- **Banco de Sanções:** sistema de fornecimento/gestão das informações para os cadastros da CGU;
-- **<abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>:** portal que oferece acesso ao Ceis e ao Cnep, conforme o art. 174, § 3º, V.
+**Reabilitação** é a possibilidade de restabelecer a situação jurídica do sancionado depois de cumpridos os requisitos legais. Ela é decidida pela própria autoridade que aplicou a penalidade.
 
-Referências operacionais antigas ao <abbr title="Sistema Integrado de Registro do CEIS/CNEP">Sircad</abbr> não devem ser apresentadas como o sistema atual no corte do edital. A forma concreta de alimentação deve observar o canal disponibilizado pela CGU e a regulamentação aplicável ao órgão.
-
-Antes de formalizar ou prorrogar contrato, o art. 91, § 4º, exige consulta aos dois cadastros e emissão das certidões pertinentes. Retificação, cancelamento ou registro de reabilitação exige fundamento formal. A publicidade cadastral não substitui a intimação do interessado nem corrige vício do processo sancionador.
-
-## 11. Reabilitação
-
-A reabilitação é decidida pela própria autoridade que aplicou a penalidade e exige cumulativamente:
+O artigo 163 exige cumulativamente:
 
 1. reparação integral do dano;
 2. pagamento da multa;
-3. transcurso mínimo de um ano da aplicação do impedimento ou três anos da declaração de inidoneidade;
-4. cumprimento das condições definidas no ato punitivo;
-5. análise jurídica prévia conclusiva pelo atendimento dos requisitos.
+3. transcurso mínimo de **um ano** da aplicação do impedimento ou de **três anos** da declaração de inidoneidade;
+4. cumprimento das condições de reabilitação definidas no ato punitivo;
+5. análise jurídica prévia, com posicionamento conclusivo sobre o cumprimento dos requisitos.
 
-Para infrações dos incisos VIII e XII do art. 155, exige-se ainda implantação ou aperfeiçoamento de programa de integridade.
+Para infrações dos incisos VIII e XII do artigo 155, exige-se também implantação ou aperfeiçoamento de programa de integridade.
 
-O simples fim do prazo da sanção não produz, por si só, reabilitação. Também não se pode exigir apenas o transcurso do tempo e ignorar reparação, multa ou condições do ato.
+O fim do prazo da sanção, isoladamente, não gera reabilitação. Tempo, reparação, multa, condições do ato e análise jurídica cumprem funções diferentes e são cumulativos.
 
-## 12. Fluxo aplicado
+## 11. Volte ao caso inicial: qual sequência é segura?
 
-### 12.1 Sequência segura
+No exemplo das 100 unidades, o fiscal verifica que 10 não foram entregues. Uma sequência juridicamente segura é:
 
-1. detectar o fato sem prejulgamento;
-2. conferir obrigação, critério e competência;
-3. preservar evidências e registrar a ocorrência;
-4. notificar para correção ou esclarecimento quando cabível;
-5. verificar a resposta e o resultado;
-6. encaminhar o que excede a fiscalização;
-7. avaliar tipificação e instaurar o rito competente;
-8. intimar, produzir provas e assegurar defesa;
-9. decidir com dosimetria e motivação;
-10. processar recurso ou reconsideração com efeito suspensivo;
-11. registrar a sanção e manter cadastros atualizados;
-12. acompanhar reparação, prazo, condições e eventual reabilitação.
+1. identificar a obrigação e o fato sem prejulgar a causa;
+2. preservar evidências e registrar a ocorrência;
+3. notificar a contratada, por seu <abbr title="representante da contratada na execução">preposto</abbr> quando adequado ao fluxo operacional, para explicar e/ou corrigir;
+4. verificar a resposta e registrar o resultado;
+5. dimensionar o pagamento ao que efetivamente for devido, se o contrato assim determinar;
+6. encaminhar o caso quando exceder a competência da fiscalização;
+7. verificar se os fatos demonstram infração do artigo 155 e qual inciso corresponde ao caso;
+8. instaurar o rito aplicável e assegurar defesa;
+9. decidir com competência, motivação e dosimetria;
+10. processar recurso ou reconsideração, quando interposto;
+11. dar a publicidade legalmente exigida;
+12. acompanhar reparação, prazo, condições do ato e eventual reabilitação.
 
-### 12.2 Caso integrado
-
-Uma empresa entrega apenas parte do quantitativo contratado. O fiscal deve registrar quanto foi entregue, qual obrigação foi descumprida, as evidências e o impacto. Notifica o preposto para explicar e corrigir. O pagamento é dimensionado ao que foi efetivamente aceito, conforme o contrato.
-
-Se persistirem indícios de inexecução parcial, o fiscal encaminha os autos. A autoridade competente avalia o art. 155, I ou II, conforme existência de grave dano. Não pode escolher advertência se o enquadramento for o inciso II, pois ela é exclusiva do inciso I. Multa pode ser considerada nos limites contratuais. Se houver processo sancionador, a decisão deve analisar defesa, dano, circunstâncias e proporcionalidade.
-
-## 13. Erros recorrentes de prova
-
-| Afirmação | Correção |
-|---|---|
-| Toda notificação é advertência. | Notificação corretiva é ato de acompanhamento; advertência é sanção. |
-| Toda irregularidade deve gerar sanção. | Pode haver saneamento, ajuste ou apuração; a sanção exige infração comprovada. |
-| Glosa é multa. | Glosa ajusta o pagamento; multa pune infração. |
-| O fiscal aplica qualquer sanção. | Ele registra e encaminha; a decisão cabe à autoridade competente. |
-| Advertência serve para qualquer infração leve. | É exclusiva do art. 155, I. |
-| Impedimento tem alcance nacional. | Limita-se ao ente federativo sancionador. |
-| Inidoneidade pode durar dois anos. | Seu intervalo legal é de três a seis anos. |
-| Toda sanção exige comissão do art. 158. | A comissão é exigida para impedimento e inidoneidade. |
-| Comissão do art. 158 é sempre formada por servidores estatutários estáveis. | O § 1º prevê empregados públicos permanentes para órgão ou entidade sem quadro estatutário. |
-| O prazo de defesa do art. 157 abrange literalmente advertência. | O dispositivo menciona expressamente a multa. |
-| Cnep só interessa à Lei Anticorrupção. | O art. 161 da Lei nº 14.133/2021 manda publicar dados das sanções no Ceis e no Cnep. |
-| Banco de Sanções é outro nome do Ceis. | É o sistema instituído pela CGU para fornecimento de informações aos cadastros administrados por ela. |
-| Recurso sancionador tem prazo de três dias úteis. | O prazo dos arts. 166 e 167 é de 15 dias úteis. |
-| Recurso não suspende a sanção. | Recurso e reconsideração têm efeito suspensivo até decisão final. |
-| Reabilitação ocorre automaticamente com o tempo. | Os requisitos do art. 163 são cumulativos. |
+Se a prova mostrar apenas inexecução parcial sem grave dano, o enquadramento pode ser o artigo 155, I, para o qual a advertência é juridicamente possível quando não couber resposta mais grave. Se houver **grave dano**, o inciso II muda o enquadramento e a advertência deixa de ser a sanção legalmente prevista para esse tipo. A decisão não nasce do tamanho intuitivo do problema, mas do fato provado, do tipo legal e da gravidade demonstrada.
