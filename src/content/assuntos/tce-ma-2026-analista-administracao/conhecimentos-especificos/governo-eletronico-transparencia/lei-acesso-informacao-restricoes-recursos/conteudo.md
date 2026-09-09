@@ -6,37 +6,60 @@ order: 141
 storageId: "lai-restricoes-recursos"
 ---
 
-# LAI: restrições, transparência ativa, recursos e responsabilidades
+# <abbr title="Lei de Acesso à Informação">LAI</abbr>: restrições, transparência ativa, recursos e responsabilidades
 
-## 1. Delimitação
+## 1. Quando a publicidade encontra um limite
 
-Este assunto completa o estudo da Lei nº 12.527/2011 (LAI). O Assunto 140 tratou de princípios, abrangência, conceitos, pedido, tramitação e prazos ordinários. Aqui são estudados restrições, classificação e proteção, informações pessoais, transparência ativa, recursos e responsabilidades.
+Imagine uma situação hipotética: um cidadão pede cópia de um processo que reúne uma parte ordinariamente pública, dados sobre a vida privada de uma pessoa e um anexo cuja divulgação poderia comprometer investigação em andamento. A resposta correta não é “entregar tudo” nem “negar tudo”. O órgão precisa descobrir **qual regra protege cada trecho, por quanto tempo e com quais consequências**.
 
-> **Recorte temporal do edital:** considera-se a legislação vigente em 6 de julho de 2026. Atualizações posteriores ao edital, quando relevantes, devem ser identificadas expressamente como pós-edital.
+```text
+publicidade como regra
+        ↓
+há fundamento jurídico para restringir algum trecho?
+   ↙ não                      ↘ sim
+fornecer acesso       identificar o regime de proteção
+                              ↓
+                  restringir só o necessário
+                              ↓
+              motivar a negativa + indicar recurso
+```
 
-## 2. Limites do acesso
+A Lei nº 12.527/2011, a <abbr title="Lei de Acesso à Informação">LAI</abbr>, combina regimes diferentes de proteção e, ao mesmo tempo, impõe divulgação de ofício de informações de interesse coletivo ou geral. O Assunto 140 construiu o fluxo do pedido; aqui o foco é **quando restringir, quando publicar sem pedido, como recorrer e quem responde por violações**.
 
-Publicidade é regra e sigilo é exceção, mas o acesso não é absoluto. O art. 22 preserva hipóteses legais de sigilo, segredo de justiça e segredo industrial decorrente da exploração direta de atividade econômica pelo Estado ou de vínculo com o poder público. A restrição precisa de fundamento normativo e aplicação concreta; não existe “sigilo genérico”.
+> **Recorte temporal do edital:** considera-se a legislação vigente em 6 de julho de 2026. As inclusões da Lei nº 15.141/2025 já estavam vigentes nesse corte.
 
-O art. 21 estabelece duas salvaguardas:
+## 2. Restrição não é sinônimo de classificação
 
-- não pode ser negada informação necessária à tutela judicial ou administrativa de direitos fundamentais;
-- informações ou documentos sobre condutas que impliquem violação de direitos humanos praticada por agentes públicos ou a mando de autoridades públicas não podem ser restringidos.
+Antes de falar em “grau de sigilo”, identifique o fundamento. A <abbr title="Lei de Acesso à Informação">LAI</abbr> preserva três caminhos diferentes:
 
-## 3. Classificação por segurança da sociedade ou do Estado
+| Pergunta | Regime | Usa os graus 25/15/5? |
+| --- | --- | --- |
+| outra norma ou decisão judicial protege a informação? | sigilo legal, segredo de justiça ou hipótese de segredo industrial | não |
+| a divulgação produz risco qualificado à sociedade ou ao Estado? | classificação da <abbr title="Lei de Acesso à Informação">LAI</abbr> | sim |
+| o trecho envolve intimidade, vida privada, honra ou imagem? | informação pessoal protegida | não |
 
-### 3.1 Hipóteses
+O <abbr title="artigo">art.</abbr> 22 mantém as demais hipóteses legais de sigilo, o segredo de justiça e o segredo industrial decorrente da exploração direta de atividade econômica pelo Estado ou de vínculo com o poder público. Já a classificação da própria <abbr title="Lei de Acesso à Informação">LAI</abbr> exige risco à segurança da sociedade ou do Estado; a proteção pessoal do <abbr title="artigo">art.</abbr> 31 independe de classificação.
 
-O art. 23 admite classificação quando a divulgação puder:
+Há ainda duas salvaguardas do <abbr title="artigo">art.</abbr> 21: não pode ser negada informação necessária à tutela judicial ou administrativa de direitos fundamentais; e documentos sobre condutas que impliquem violação de direitos humanos praticada por agentes públicos ou a mando de autoridades públicas **não podem ser objeto de restrição de acesso**. “Constrangimento institucional” ou alegação genérica de sensibilidade não cria sigilo.
+
+## 3. Classificação: hipótese → grau → autoridade → ato → revisão → fim
+
+Classificar é restringir temporariamente uma informação porque sua divulgação ou acesso irrestrito pode atingir a segurança da sociedade ou do Estado. A prova costuma trocar etapas: existir risco não autoriza qualquer prazo, e escolher um grau não dispensa competência e formalização.
+
+### 3.1 Hipóteses legais
+
+O <abbr title="artigo">art.</abbr> 23 admite classificação quando a divulgação ou o acesso irrestrito puder:
 
 1. pôr em risco defesa, soberania ou integridade territorial;
-2. prejudicar negociações ou relações internacionais, inclusive informação recebida sob sigilo;
+2. prejudicar negociações ou relações internacionais, inclusive informação recebida sob sigilo de outros Estados ou organismos internacionais;
 3. pôr em risco vida, segurança ou saúde da população;
 4. oferecer elevado risco à estabilidade financeira, econômica ou monetária;
 5. prejudicar planos ou operações estratégicos das Forças Armadas;
-6. prejudicar projetos de pesquisa e desenvolvimento ou sistemas, bens, instalações e áreas estratégicas;
-7. pôr em risco segurança de instituições ou de altas autoridades e familiares;
-8. comprometer inteligência, investigação ou fiscalização em andamento relacionada à prevenção ou repressão de infrações.
+6. prejudicar projetos de pesquisa e desenvolvimento científico ou tecnológico, ou sistemas, bens, instalações e áreas de interesse estratégico nacional;
+7. pôr em risco a segurança de instituições, altas autoridades nacionais ou estrangeiras e seus familiares;
+8. comprometer inteligência, investigação ou fiscalização **em andamento** relacionada à prevenção ou repressão de infrações.
+
+O padrão é um **risco qualificado**, não mera conveniência. No último item, por exemplo, a existência de investigação não basta: a divulgação precisa poder comprometê-la enquanto estiver em andamento.
 
 ### 3.2 Graus e prazos
 
@@ -46,142 +69,103 @@ O art. 23 admite classificação quando a divulgação puder:
 | secreto | 15 anos |
 | reservado | 5 anos |
 
-Os prazos contam da **data de produção**. Pode-se usar evento como termo final, desde que ocorra antes do prazo máximo. Encerrado o prazo ou ocorrido o evento, a informação torna-se automaticamente pública. A classificação deve adotar o critério menos restritivo, ponderando interesse público, gravidade do risco ou dano e prazo necessário.
+Os prazos contam **da produção da informação**, não da classificação. Pode-se fixar evento como termo final se ele ocorrer antes do limite máximo. Encerrado o prazo ou ocorrido o evento, o acesso torna-se automaticamente público. A escolha deve usar o critério menos restritivo possível, considerando interesse público, gravidade do risco ou dano e tempo necessário de proteção.
 
-Informação cuja divulgação coloque em risco a segurança do Presidente e Vice-Presidente, respectivos cônjuges e filhos é reservada até o término do mandato em exercício ou do último mandato, em caso de reeleição.
+Informação cuja divulgação possa colocar em risco a segurança do Presidente e do Vice-Presidente da República e de seus respectivos cônjuges e filhos é **reservada** até o término do mandato em exercício ou do último mandato, em caso de reeleição.
 
-### 3.3 Competência e formalização
+### 3.3 Quem classifica e como formaliza
 
-O art. 27 lista autoridades classificadoras da **administração pública federal**. A lista não deve ser transposta automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. No plano federal, o grau ultrassecreto cabe às mais altas autoridades enumeradas; secreto inclui também dirigentes da administração indireta; reservado alcança autoridades de direção, comando ou chefia do nível previsto em lei.
+O <abbr title="artigo">art.</abbr> 27 disciplina autoridades classificadoras **da administração pública federal**; essa lista não se transfere automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. No plano federal, o ultrassecreto fica com as mais altas autoridades enumeradas na lei; o secreto também alcança dirigentes da administração indireta; e o reservado alcança ainda autoridades de direção, comando ou chefia no nível <abbr title="Direção e Assessoramento Superiores">DAS</abbr> 101.5 ou superior, ou equivalente.
 
-A decisão de classificação deve indicar assunto, fundamento, prazo ou evento final e autoridade classificadora. A própria decisão permanece no mesmo grau de sigilo da informação classificada.
+A competência para ultrassecreto e secreto pode ser delegada, mas não subdelegada. Em hipóteses legais específicas, a classificação ultrassecreta exige ratificação ministerial; sua decisão é encaminhada à <abbr title="Comissão Mista de Reavaliação de Informações">CMRI</abbr> no prazo regulamentar.
 
-A autoridade classificadora ou superior pode reavaliar a classificação, de ofício ou por provocação, para desclassificar ou reduzir o prazo. Se houver redução, o termo inicial continua sendo a data de produção.
+A decisão deve indicar assunto, fundamento, prazo ou evento final e autoridade classificadora. Ela própria permanece no mesmo grau de sigilo da informação. A autoridade classificadora ou superior pode reavaliar a classificação, de ofício ou por provocação, para desclassificar ou reduzir o prazo; se houver redução, o termo inicial continua sendo a data de produção.
 
-### 3.4 CMRI
+### 3.4 <abbr title="Comissão Mista de Reavaliação de Informações">CMRI</abbr> e proteção da informação classificada
 
-A Comissão Mista de Reavaliação de Informações atua na administração pública federal. Entre suas atribuições estão requisitar esclarecimentos e rever classificações ultrassecretas e secretas. Excepcionalmente, pode prorrogar uma única vez o ultrassecreto diante de ameaça externa à soberania ou integridade territorial ou grave risco às relações internacionais, observados os requisitos legais.
+A <abbr title="Comissão Mista de Reavaliação de Informações">CMRI</abbr> pertence à administração pública federal. Pode, entre outras atribuições, requisitar esclarecimentos, rever classificações ultrassecretas e secretas e prorrogar uma única vez o ultrassecreto nas hipóteses excepcionais legais. Ultrassecretas e secretas submetidas à revisão de ofício devem ser revistas no máximo a cada quatro anos; a falta de deliberação no prazo implica desclassificação automática. Essas competências não tornam a <abbr title="Comissão Mista de Reavaliação de Informações">CMRI</abbr> instância do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
-Ultrassecretas e secretas são revistas de ofício no máximo a cada quatro anos. Ausência de deliberação no prazo acarreta desclassificação automática. Essas competências federais não são automaticamente atribuídas a órgão estadual.
+O acesso à informação classificada exige necessidade de conhecer e credenciamento adequado, sem afastar atribuições legais de agentes públicos. Quem recebe acesso deve resguardar o sigilo. O Estado deve controlar acesso e divulgação e proteger contra perda, alteração, acesso, transmissão e divulgação não autorizados; particulares vinculados ao poder público também devem assegurar essas salvaguardas por seus empregados e representantes.
 
-## 4. Proteção da informação classificada
+## 4. Informação pessoal: proteção independente de classificação
 
-O acesso exige necessidade de conhecer e credenciamento adequado, sem afastar atribuições legais de agentes públicos. Quem obtém acesso deve resguardar o sigilo.
+Informação pessoal é relativa a pessoa natural identificada ou identificável. O <abbr title="artigo">art.</abbr> 31 protege especialmente informações relativas à **intimidade, vida privada, honra e imagem**, além das liberdades e garantias individuais.
 
-O Estado deve controlar acesso e divulgação e proteger contra perda, alteração, acesso, transmissão e divulgação não autorizados. Autoridades devem capacitar subordinados; particulares vinculados ao poder público devem assegurar salvaguardas por seus empregados.
+Essas informações têm acesso restrito, **independentemente de classificação**, por até **100 anos desde a produção**, a agentes públicos legalmente autorizados e ao próprio titular. Cem anos não é um quarto grau de sigilo, nem a presença de dado pessoal torna automaticamente todo o documento inacessível: se o trecho protegido puder ser separado, preserva-se esse trecho e fornece-se a parte pública.
 
-## 5. Informações pessoais
+A divulgação ou o acesso por terceiro pode ocorrer por previsão legal ou consentimento expresso. O consentimento é dispensado quando a informação for necessária para:
 
-Informação pessoal é relativa a pessoa natural identificada ou identificável. O tratamento deve respeitar intimidade, vida privada, honra, imagem, liberdades e garantias individuais.
-
-Informações pessoais relativas a intimidade, vida privada, honra e imagem têm acesso restrito, **independentemente de classificação**, por até 100 anos desde a produção, a agentes autorizados e ao próprio titular. Cem anos não é quarto grau de classificação.
-
-A divulgação a terceiros depende de previsão legal ou consentimento expresso, salvo quando necessária para:
-
-- prevenção e diagnóstico médico de pessoa incapaz, exclusivamente para tratamento;
-- estatística ou pesquisa científica de evidente interesse público, sem identificação;
+- prevenção e diagnóstico médico de pessoa física ou legalmente incapaz, exclusivamente para tratamento;
+- estatística ou pesquisa científica de evidente interesse público ou geral, prevista em lei, sem identificação da pessoa;
 - cumprimento de ordem judicial;
 - defesa de direitos humanos;
 - proteção de interesse público e geral preponderante.
 
-A proteção não pode ser invocada para prejudicar apuração de irregularidades envolvendo o titular nem recuperação de fatos históricos relevantes. Quem obtém informação pessoal responde por uso indevido.
+A proteção não pode ser usada para prejudicar apuração de irregularidades envolvendo o titular nem ações de recuperação de fatos históricos de maior relevância. Quem obtém acesso responde por uso indevido.
 
-Proteção de dados e transparência devem ser harmonizadas. A presença de dado pessoal não torna necessariamente todo documento inacessível: quando separável, protege-se o trecho restrito e fornece-se a parte pública.
+## 5. Transparência ativa: publicar antes que alguém precise pedir
 
-## 6. Transparência ativa
-
-O art. 8º exige divulgação, independentemente de requerimento, em local de fácil acesso, de informações de interesse coletivo ou geral. O mínimo legal inclui:
+**Transparência ativa** é a divulgação promovida pelo próprio órgão ou entidade, independentemente de requerimento. O <abbr title="artigo">art.</abbr> 8º exige, em local de fácil acesso, pelo menos:
 
 - competências, estrutura, endereços, telefones e horários;
-- transferências e repasses financeiros;
+- repasses e transferências financeiras;
 - despesas;
 - licitações, editais, resultados e contratos;
-- programas, ações, projetos, obras, metas e resultados;
-- respostas a perguntas frequentes.
+- dados sobre programas, ações, projetos e obras;
+- respostas às perguntas mais frequentes.
 
-Sítios oficiais devem oferecer ferramenta de pesquisa; gravação de relatórios em formatos abertos e não proprietários; acesso automatizado em formatos abertos, estruturados e legíveis por máquina; descrição dos formatos; garantia de autenticidade, integridade e atualização; canal de comunicação; e acessibilidade para pessoas com deficiência.
+Os sítios oficiais devem tornar a publicidade utilizável: pesquisa; relatórios em formatos eletrônicos, inclusive abertos e não proprietários; acesso automatizado em formatos abertos, estruturados e legíveis por máquina; descrição dos formatos; autenticidade, integridade e atualização; canal de contato; e acessibilidade para pessoas com deficiência.
 
-Municípios com até 10 mil habitantes são dispensados apenas da divulgação obrigatória na internet prevista no art. 8º, § 2º. Continuam obrigados à divulgação, em tempo real, da execução orçamentária e financeira conforme a <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>.
+Municípios com até 10 mil habitantes são dispensados apenas da divulgação obrigatória na internet prevista no § 2º do <abbr title="artigo">art.</abbr> 8º. Permanece a divulgação em tempo real da execução orçamentária e financeira segundo a <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>.
 
-### 6.1 Atualização de 2025
+### 5.1 Regras acrescentadas em 2025
 
-A Lei nº 15.141/2025 acrescentou os arts. 8º-A e 8º-B. O art. 8º-A alcança entidades com personalidade jurídica de direito privado constituídas como serviço social autônomo que sejam destinatárias de **contribuições ou de recursos públicos federais decorrentes de contrato de gestão**. Elas devem divulgar, quanto aos empregados: plano de cargos e salários e critérios de evolução/política salarial; quantitativo por cargo e faixas salariais, acompanhado do nome e cargo de cada empregado; parcelas remuneratórias e indenizatórias discriminadas por faixas salariais; e quantitativo, critérios de ocupação e ocupantes das funções gratificadas.
+A Lei nº 15.141/2025 acrescentou os <abbr title="artigos">arts.</abbr> 8º-A e 8º-B. O primeiro alcança serviços sociais autônomos, constituídos como pessoas jurídicas de direito privado, destinatários de contribuições ou de recursos públicos federais decorrentes de contrato de gestão. Eles devem divulgar, quanto aos empregados: plano de cargos e salários e seus critérios; quantitativo por cargo e faixas salariais com nome e cargo; parcelas remuneratórias e indenizatórias por faixas salariais; e quantitativo, critérios e ocupantes de funções gratificadas.
 
-O art. 8º-B exige que os conselhos de fiscalização profissional divulguem, de forma **nominal e individualizada**, as parcelas remuneratórias e indenizatórias, inclusive eventuais, que os empregados possam receber em condições específicas. São obrigações específicas e não substituem o regime geral da LAI.
+O <abbr title="artigo">art.</abbr> 8º-B exige que conselhos de fiscalização profissional divulguem, de forma **nominal e individualizada**, as parcelas remuneratórias e indenizatórias, inclusive eventuais, que seus empregados possam receber em condições específicas.
 
-Detalhes adicionais do Decreto nº 7.724/2012, como seção padronizada e conteúdos federais, são aplicáveis ao Executivo federal, não automaticamente ao TCE-MA.
+São deveres específicos dentro do regime geral da <abbr title="Lei de Acesso à Informação">LAI</abbr>. Já detalhes operacionais do Decreto nº 7.724/2012 pertencem ao Poder Executivo federal e não se aplicam automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
-### 6.2 Publicações anuais do art. 30
+### 5.2 Publicações anuais sobre classificação
 
-Os órgãos e entidades devem publicar anualmente, em sítio disponível na internet:
+O <abbr title="artigo">art.</abbr> 30 exige publicação anual, na internet, do rol de informações desclassificadas nos últimos 12 meses, do rol de documentos classificados em cada grau e de relatório estatístico dos pedidos recebidos, atendidos e indeferidos, com informações genéricas sobre solicitantes. Deve haver exemplar para consulta na sede, e o extrato da lista de classificadas indica data, grau e fundamentos da classificação.
 
-- rol das informações desclassificadas nos últimos 12 meses;
-- rol de documentos classificados em cada grau, com identificação para referência futura;
-- relatório estatístico com quantidade de pedidos recebidos, atendidos e indeferidos e informações genéricas sobre os solicitantes.
+## 6. Negativa e recursos: decisão não é omissão
 
-Devem manter exemplar da publicação para consulta em suas sedes. O extrato da lista de classificadas deve indicar data, grau e fundamentos da classificação.
+A negativa total ou parcial deve ser fundamentada. O requerente tem direito ao inteiro teor da decisão denegatória por certidão ou cópia e deve ser informado sobre possibilidade, prazo, condições e autoridade competente para recurso. Documentos usados como fundamento de decisão administrativa tornam-se acessíveis com a edição do ato decisório, sem afastar restrições legais válidas.
 
-## 7. Negativa e fundamentos
+### 6.1 Regra nacional mínima
 
-Negativa total ou parcial deve apresentar razões de fato ou de direito. O requerente tem direito ao inteiro teor da decisão denegatória por certidão ou cópia e deve ser informado sobre possibilidade, prazo, condições e autoridade competente para recurso.
+Contra indeferimento de acesso ou das razões da negativa, cabe recurso em **10 dias da ciência**, dirigido à autoridade hierarquicamente superior, que deve decidir em **5 dias**. Poderes Legislativo e Judiciário e Ministério Público regulamentam seus procedimentos; Estados, <abbr title="Distrito Federal">DF</abbr> e Municípios definem regras específicas, respeitadas as normas gerais.
 
-Após a edição do ato decisório, é assegurado acesso aos documentos ou informações utilizados como fundamento da decisão. Isso não cria acesso antecipado irrestrito a todo documento preparatório nem afasta restrições legais válidas.
+### 6.2 Rito do Executivo federal
 
-## 8. Recursos
+O Decreto nº 7.724/2012 cria etapas adicionais no Poder Executivo federal. Contra uma **decisão negativa**, o recurso passa pela autoridade hierarquicamente superior e, se mantida a negativa, pela autoridade máxima; depois, nos casos regulamentares, pode chegar à <abbr title="Controladoria-Geral da União">CGU</abbr> e à <abbr title="Comissão Mista de Reavaliação de Informações">CMRI</abbr>. Nessas etapas, o regulamento trabalha com prazo de 10 dias para recorrer e 5 dias para decidir, ressalvada a decisão da <abbr title="Comissão Mista de Reavaliação de Informações">CMRI</abbr> conforme seu regime próprio.
 
-### 8.1 Regra nacional mínima
+Se houver **omissão de resposta**, o regulamento prevê reclamação à autoridade de monitoramento: o prazo para reclamar é de 10 dias e começa 30 dias após a apresentação do pedido; a autoridade decide em 5 dias. Recurso contra decisão e reclamação por omissão são fluxos diferentes. O pedido de desclassificação também tem rito federal próprio.
 
-Contra indeferimento ou ausência das razões da negativa, cabe recurso:
+A conclusão para o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> é decisiva: <abbr title="Controladoria-Geral da União">CGU</abbr> e <abbr title="Comissão Mista de Reavaliação de Informações">CMRI</abbr> não são instâncias recursais automáticas de Estados, Municípios, outros Poderes ou tribunais de contas estaduais.
 
-- no prazo de **10 dias** da ciência;
-- dirigido à autoridade hierarquicamente superior;
-- decidido em **5 dias**.
+## 7. Responsabilidades: a consequência depende de quem violou a lei
 
-Legislativo, Judiciário e Ministério Público regulamentam seus procedimentos. Estados, <abbr title="Distrito Federal">DF</abbr> e Municípios definem regras específicas, respeitadas as normas gerais.
+### 7.1 Agente público ou militar
 
-### 8.2 Rito federal
+São condutas ilícitas, entre outras: recusar ou retardar deliberadamente informação; fornecê-la intencionalmente de modo incorreto, incompleto ou impreciso; usar, destruir, alterar ou ocultar informação indevidamente; agir com dolo ou má-fé; permitir acesso ou divulgação indevidos de informação sigilosa ou pessoal; impor sigilo para benefício próprio ou de terceiro ou para ocultar ilegalidade; ocultar informação da revisão superior; e destruir ou subtrair documentos sobre possíveis violações de direitos humanos por agentes do Estado.
 
-Os recursos à <abbr title="Controladoria-Geral da União">CGU</abbr> do art. 16 e o recurso de desclassificação do art. 17 pertencem ao Poder Executivo federal. No rito federal contra uma **decisão**, o recurso passa pela autoridade superior e pela autoridade máxima antes da CGU e, conforme o caso, da CMRI. Já diante de **omissão de resposta**, o regulamento prevê reclamação à autoridade de monitoramento antes das instâncias externas pertinentes. Recurso e reclamação por omissão não são o mesmo fluxo. A CGU não é instância recursal automática de negativas estaduais, municipais, de outros Poderes ou do TCE-MA.
+Com contraditório, ampla defesa e devido processo, essas condutas constituem transgressões militares médias ou graves, segundo os regulamentos e desde que não tipificadas como crime ou contravenção, ou, para fins da Lei nº 8.112/1990, infrações administrativas **apenadas no mínimo com suspensão**. Outras responsabilidades legais podem coexistir.
 
-## 9. Responsabilidades
+### 7.2 Particular vinculado ao poder público
 
-Constituem condutas ilícitas do agente público ou militar, entre outras:
+Pessoa física ou entidade privada que detenha informação por vínculo com o poder público e descumpra a <abbr title="Lei de Acesso à Informação">LAI</abbr> pode sofrer advertência, multa, rescisão do vínculo, suspensão de licitar e contratar por até **2 anos** e <abbr title="impedimento de licitar ou contratar até reabilitação nas condições legais">declaração de inidoneidade</abbr>.
 
-- recusar, retardar deliberadamente ou fornecer intencionalmente informação incorreta, incompleta ou imprecisa;
-- usar indevidamente, subtrair, destruir, inutilizar, desfigurar, alterar ou ocultar informação;
-- agir com dolo ou má-fé na análise;
-- divulgar, acessar ou permitir acesso indevido a informação sigilosa ou pessoal;
-- impor sigilo para benefício próprio ou de terceiro, ou para ocultar ato ilegal;
-- ocultar informação da revisão superior;
-- destruir ou subtrair documentos sobre possíveis violações de direitos humanos por agentes estatais.
+Advertência, rescisão e suspensão podem acumular com multa; a defesa é de **10 dias**. A reabilitação da inidoneidade exige ressarcimento dos prejuízos e transcurso da suspensão aplicada. A declaração de inidoneidade é competência exclusiva da autoridade máxima, também com defesa em 10 dias da abertura de vista.
 
-Respeitados contraditório, ampla defesa e devido processo, essas condutas são transgressões militares médias ou graves segundo os regulamentos aplicáveis ou, para fins da Lei nº 8.112/1990, infrações administrativas **apenadas, no mínimo, com suspensão**, conforme os critérios daquele estatuto. Também podem ensejar outras responsabilidades previstas em lei.
+### 7.3 Danos e alterações na Lei nº 8.112/1990
 
-Pessoa física ou entidade privada que detenha informação em razão de vínculo de qualquer natureza com o poder público e descumpra a LAI pode sofrer:
+Órgãos e entidades públicas respondem diretamente por danos decorrentes de divulgação não autorizada ou uso indevido de informação sigilosa ou pessoal, com direito de regresso contra o agente responsável nos casos de <abbr title="intenção consciente de praticar a conduta">dolo</abbr> ou <abbr title="violação do dever de cuidado">culpa</abbr>. A regra também alcança pessoa física ou entidade privada vinculada ao poder público que submeta informação sigilosa ou pessoal a tratamento indevido.
 
-- advertência;
-- multa;
-- rescisão do vínculo;
-- suspensão temporária de participar em licitação e impedimento de contratar com a administração por até **2 anos**;
-- declaração de inidoneidade para licitar ou contratar, até reabilitação perante a autoridade que aplicou a penalidade.
+A própria <abbr title="Lei de Acesso à Informação">LAI</abbr> alterou o estatuto federal. O <abbr title="artigo">art.</abbr> 43 modificou o <abbr title="artigo">art.</abbr> 116, VI, da Lei nº 8.112/1990 para explicitar o dever de comunicar irregularidades à autoridade superior ou, se houver suspeita de envolvimento dela, a outra autoridade competente. O <abbr title="artigo">art.</abbr> 44 acrescentou o <abbr title="artigo">art.</abbr> 126-A: o servidor não pode ser responsabilizado civil, penal ou administrativamente por comunicar à autoridade competente informação sobre prática de crime ou improbidade de que tenha conhecimento. Essas regras integram o regime federal e não se convertem automaticamente em estatuto estadual.
 
-Advertência, rescisão e suspensão podem ser aplicadas **junto com a multa**, assegurada defesa no respectivo processo em **10 dias**. A reabilitação da inidoneidade exige ressarcimento dos prejuízos e o transcurso do prazo da sanção de suspensão aplicada. A declaração de inidoneidade é de competência exclusiva da **autoridade máxima** do órgão ou entidade, também com defesa em 10 dias da abertura de vista.
+## 8. Como organizar a resolução de uma questão
 
-Órgãos e entidades públicas respondem diretamente por danos decorrentes de divulgação não autorizada ou uso indevido de informação sigilosa ou pessoal, com direito de regresso contra o agente responsável nos casos de dolo ou culpa.
-
-## 10. Alteração da Lei nº 8.112/1990 pela LAI
-
-O art. 44 da LAI acrescentou o art. 126-A à Lei nº 8.112/1990: o servidor federal não pode ser responsabilizado civil, penal ou administrativamente por comunicar à autoridade superior — ou, havendo suspeita de envolvimento desta, a outra autoridade competente — informação sobre prática de crime ou improbidade de que tenha conhecimento. É regra incorporada ao regime federal pela própria LAI e não se converte automaticamente em estatuto funcional estadual.
-
-## 11. Pegadinhas finais
-
-1. Cem anos de proteção pessoal não é grau de sigilo.
-2. Prazos de 25, 15 e 5 anos contam da produção, não da classificação.
-3. Fim do prazo ou evento gera publicidade automática.
-4. A lista de autoridades do art. 27 é federal.
-5. Município de até 10 mil habitantes não está dispensado de toda transparência.
-6. Recurso nacional mínimo: 10 dias para recorrer e 5 para decidir.
-7. CGU e CMRI não são instâncias automáticas do TCE-MA.
-8. Sigilo não pode ocultar violação de direitos humanos nem inviabilizar tutela de direitos fundamentais.
-9. No regime da Lei nº 8.112/1990, as condutas do art. 32 são punidas, no mínimo, com suspensão.
-10. No art. 33, advertência, rescisão e suspensão podem acumular com multa; a defesa é de 10 dias.
+Pergunte, nesta ordem: **(1)** qual é o fundamento da restrição; **(2)** se houver classificação, se hipótese, grau, prazo, autoridade e formalização estão corretos; **(3)** se a parte pública pode ser separada; **(4)** se a informação deveria estar publicada por transparência ativa; **(5)** se houve decisão ou omissão e qual rito recursal se aplica; e **(6)** quem praticou a violação. Esse encadeamento evita confundir proteção legítima, negativa de acesso e descumprimento da <abbr title="Lei de Acesso à Informação">LAI</abbr>.
