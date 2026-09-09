@@ -1,9 +1,11 @@
-- [A theory of organizational readiness for change](https://pmc.ncbi.nlm.nih.gov/articles/PMC2770024/), Bryan J. Weiner, *Implementation Science*, 2009, acesso em 17 jul. 2026.
-- [Creating Readiness for Organizational Change](https://doi.org/10.1177/001872679304600601), Armenakis, Harris e Mossholder, *Human Relations*, 1993, acesso em 17 jul. 2026.
-- [Successful Organizational Change](https://doi.org/10.5465/annals.2016.0095), Stouten, Rousseau e De Cremer, *Academy of Management Annals*, 2018, acesso em 17 jul. 2026.
-- [Kurt Lewin and the Planned Approach to Change](https://doi.org/10.1111/j.1467-6486.2004.00463.x), Bernard Burnes, *Journal of Management Studies*, 2004, acesso em 17 jul. 2026.
-- [The 8 Steps for Leading Change](https://www.kotterinc.com/methodology/8-steps/), Kotter, acesso em 17 jul. 2026.
-- [The Prosci ADKAR Model](https://www.prosci.com/methodology/adkar), Prosci, acesso em 17 jul. 2026.
-- [Gestão da Mudança](https://suap.enap.gov.br/vitrine/curso/2057/), Escola Nacional de Administração Pública, acesso em 17 jul. 2026.
-- [Governança Pública](https://portal.tcu.gov.br/governanca/governanca-publica), Tribunal de Contas da União, acesso em 17 jul. 2026.
-- [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm), art. 37, versão vigente consultada em 17 jul. 2026.
+- [Frontiers in Group Dynamics: Concept, Method and Reality in Social Science; Social Equilibria and Social Change](https://doi.org/10.1177/001872674700100103), Kurt Lewin, *Human Relations*, 1947, acesso em 9 set. 2026.
+- [Kurt Lewin and the Planned Approach to Change: A Re-appraisal](https://doi.org/10.1111/j.1467-6486.2004.00463.x), Bernard Burnes, *Journal of Management Studies*, 2004, acesso em 9 set. 2026.
+- [The 8 Steps for Leading Change](https://www.kotterinc.com/methodology/8-steps/), Kotter, acesso em 9 set. 2026.
+- [Choosing Strategies for Change](https://hbr.org/1979/03/choosing-strategies-for-change-2), Leonard A. Schlesinger e John P. Kotter, *Harvard Business Review*, 1979, acesso em 9 set. 2026.
+- [The Prosci ADKAR Model](https://www.prosci.com/methodology/adkar), Prosci, acesso em 9 set. 2026.
+- [A theory of organizational readiness for change](https://doi.org/10.1186/1748-5908-4-67), Bryan J. Weiner, *Implementation Science*, 2009, acesso em 9 set. 2026.
+- [Psychological and implied contracts in organizations](https://doi.org/10.1007/BF01384942), Denise M. Rousseau, *Employee Responsibilities and Rights Journal*, 1989, acesso em 9 set. 2026.
+- [Successful Organizational Change: Integrating the Management Practice and Scholarly Literatures](https://doi.org/10.5465/annals.2016.0095), Stouten, Rousseau e De Cremer, *Academy of Management Annals*, 2018, acesso em 9 set. 2026.
+- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm), artigo 37, versão vigente consultada em 9 set. 2026.
+- [Lei nº 13.460, de 26 de junho de 2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm), participação, proteção e defesa dos direitos do usuário dos serviços públicos, versão vigente consultada em 9 set. 2026.
+- [Lei nº 13.146, de 6 de julho de 2015](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm), Lei Brasileira de Inclusão da Pessoa com Deficiência, versão vigente consultada em 9 set. 2026.
