@@ -6,618 +6,308 @@ order: 122
 storageId: tec-acesso-informacao-122
 ---
 
-# Acesso à informação: LAI e LGPD
+# Acesso à informação: <abbr title="Lei de Acesso à Informação">LAI</abbr> e <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>
 
-## 1. Recorte do edital e método de estudo
+## 1. O problema não é escolher entre transparência e privacidade
 
-O edital do Cargo 16 cobra, em **Direito Administrativo**, o tema **acesso à informação**, com referência expressa à **Lei nº 12.527/2011 (<abbr title="Lei de Acesso à Informação">LAI</abbr>)** e à **Lei nº 13.709/2018 (<abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>)**.
+Imagine um pedido hipotético de cópia de um contrato administrativo. O documento mostra objeto, valor, prazo e empresa contratada, mas também contém o <abbr title="Cadastro de Pessoas Físicas">CPF</abbr> integral de uma testemunha e um dado bancário pessoal sem utilidade para o controle do gasto.
 
-> **Corte jurídico:** este assunto considera a legislação vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A Lei nº 15.352/2026 já estava vigente nesse corte e passou a tratar a ANPD como **Agência Nacional de Proteção de Dados**, preservada a sigla.
+Há duas respostas fáceis e erradas:
 
-Este assunto tem foco jurídico-administrativo. O estudo detalhado de conceitos gerais de proteção de dados, segurança, incidentes e direitos dos titulares já aparece no assunto de LGPD de Competências Digitais; governo digital, dados abertos e canais eletrônicos aparecem no assunto próprio. Aqui, esses elementos só retornam quando são necessários para resolver a relação **publicidade × restrição legítima × proteção de dados pessoais**.
+- “há dado pessoal, então o documento inteiro é sigiloso”;
+- “é contrato público, então tudo deve ser divulgado”.
 
-Roteiro de prova:
+A resposta jurídica exige separar camadas. A <abbr title="Lei de Acesso à Informação">LAI</abbr> organiza o dever de publicidade, o procedimento de acesso e as restrições legítimas. A <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> disciplina o tratamento dos dados pessoais, exigindo finalidade, hipótese legal, necessidade e proteção adequada. Em muitos casos, as duas leis conduzem à mesma solução: **fornecer a parte pública e proteger apenas o excesso que não precisa ser exposto**.
 
-```text
-A informação é pública e está sob custódia abrangida pela LAI?
-        ↓
-Existe dever de transparência ativa ou houve pedido de acesso?
-        ↓
-Há hipótese legal de restrição, sigilo ou proteção de informação pessoal?
-        ↓
-É possível fornecer apenas a parcela não restrita?
-        ↓
-Se houver dado pessoal: qual finalidade, base e necessidade do tratamento?
-        ↓
-Decisão fundamentada + acesso, tarjamento/ocultação ou negativa juridicamente motivada
-```
+Esse é o modelo mental da unidade:
 
----
+1. identificar **qual informação** foi pedida ou deve ser divulgada de ofício;
+2. localizar o **dever de publicidade ou de acesso**;
+3. verificar se existe **restrição legal**;
+4. se houver dado pessoal, perguntar **por que e em que medida ele precisa ser tratado ou divulgado**;
+5. separar a parte pública da parte protegida sempre que isso for possível;
+6. fundamentar a decisão e informar o recurso cabível.
 
-# Lei de Acesso à Informação — Lei nº 12.527/2011
+### 1.1. Recorte e corte jurídico
 
-## 2. Fundamento, finalidade e diretrizes
+O Cargo 16 cobra acesso à informação com referência expressa à Lei nº 12.527/2011 e à Lei nº 13.709/2018. Esta unidade trabalha a interseção entre as duas normas no Direito Administrativo; conceitos de proteção de dados sem relação direta com transparência pública ficam para o assunto específico de <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> em Competências Digitais.
 
-A LAI concretiza o direito fundamental de acesso à informação previsto na Constituição. Seu eixo é simples:
+O corte adotado é **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Nesse corte, a Lei nº 15.141/2025 já havia acrescentado os artigos 8º-A e 8º-B à <abbr title="Lei de Acesso à Informação">LAI</abbr>, e a Lei nº 15.352/2026 já havia transformado a antiga Autoridade Nacional de Proteção de Dados na **Agência Nacional de Proteção de Dados**, preservando a sigla <abbr title="Agência Nacional de Proteção de Dados">ANPD</abbr>.
 
-> **publicidade é a regra; sigilo é a exceção.**
+## 2. <abbr title="Lei de Acesso à Informação">LAI</abbr>: publicidade é a regra, restrição exige fundamento
 
-Os procedimentos devem observar os princípios básicos da Administração Pública e, entre outras diretrizes:
+A Constituição garante o direito de receber dos órgãos públicos informações de interesse particular, coletivo ou geral e impõe publicidade como princípio da Administração. A <abbr title="Lei de Acesso à Informação">LAI</abbr> transforma esse dever em procedimento.
 
-- divulgação de informações de interesse público **independentemente de solicitação**;
-- uso de meios de comunicação viabilizados por tecnologia da informação;
-- cultura de transparência;
-- desenvolvimento do controle social.
+A lógica central é simples: **a Administração não precisa de um pedido para tudo que deve publicar, e não pode negar acesso apenas porque prefere não divulgar**. Restrição depende de fundamento jurídico.
 
-A lei não cria um direito abstrato a qualquer conteúdo sem limites. Ela combina:
+Antes de estudar prazos, diferencie quatro ideias:
 
-- amplo acesso;
-- integridade e autenticidade da informação;
-- proteção de informação sigilosa;
-- proteção de informação pessoal;
-- responsabilização por restrições ou divulgações indevidas.
-
-### 2.1 Conceitos que a banca troca
-
-| Conceito | Núcleo |
+| Conceito | Significado para a prova |
 |---|---|
 | informação | dados, processados ou não, capazes de produzir e transmitir conhecimento |
 | documento | unidade de registro de informações, qualquer que seja o suporte |
-| informação sigilosa | informação temporariamente restrita por imprescindibilidade à segurança da sociedade e do Estado |
-| informação pessoal | relacionada a pessoa natural identificada ou identificável |
-| disponibilidade | pode ser conhecida e utilizada por pessoas, equipamentos ou sistemas autorizados |
-| autenticidade | produzida, expedida, recebida ou modificada por determinado sujeito/sistema |
-| integridade | não modificada, inclusive quanto a origem, trânsito e destino |
-| primariedade | coletada na fonte, com máximo detalhamento possível e sem modificações |
+| informação sigilosa | informação submetida temporariamente a restrição por imprescindibilidade à segurança da sociedade ou do Estado |
+| informação pessoal | informação relacionada a pessoa natural identificada ou identificável |
 
-> **Pegadinha:** “informação pessoal” não é sinônimo automático de “informação sigilosa classificada”. A LAI possui regimes jurídicos distintos para classificação por segurança da sociedade/Estado e para proteção de informações pessoais.
+Outras qualidades cobradas pela lei também aparecem em prova: **primariedade** é a informação coletada na fonte, com máximo detalhamento possível e sem modificações; **integridade** indica que ela não foi modificada; **autenticidade** diz respeito à identificação de quem a produziu, expediu, recebeu ou modificou.
 
----
+A distinção decisiva é esta: **informação pessoal não é sinônimo de informação classificada como sigilosa**. A classificação por segurança da sociedade ou do Estado e a proteção de informações pessoais seguem regimes diferentes.
 
-## 3. Quem se submete à LAI
+### 2.1. Quem está sujeito à <abbr title="Lei de Acesso à Informação">LAI</abbr>
 
-A LAI alcança os órgãos públicos da administração direta dos Poderes:
+A lei alcança a administração direta dos Poderes Executivo, Legislativo e Judiciário e o Ministério Público. No Legislativo, inclui expressamente as **Cortes de Contas**. Também alcança autarquias, fundações públicas, empresas públicas, sociedades de economia mista e demais entidades controladas direta ou indiretamente pelos entes federativos.
 
-- Executivo;
-- Legislativo, **incluídas as Cortes de Contas**;
-- Judiciário;
-- Ministério Público.
+Entidades privadas sem fins lucrativos que recebam recursos públicos para ações de interesse público submetem-se à <abbr title="Lei de Acesso à Informação">LAI</abbr> **no que couber**. Nesse caso, a publicidade legal recai sobre a parcela dos recursos públicos recebidos e sua destinação; o simples recebimento de recursos não transforma todo o acervo interno da entidade em informação pública irrestrita.
 
-Também alcança:
+A lei ainda permite acesso a informação produzida ou custodiada por particular em razão de vínculo com o Poder Público, mesmo depois de encerrado esse vínculo.
 
-- autarquias;
-- fundações públicas;
-- empresas públicas;
-- sociedades de economia mista;
-- demais entidades controladas direta ou indiretamente por União, estados, Distrito Federal ou municípios.
+## 3. Transparência ativa: o que deve aparecer sem ninguém pedir
 
-### 3.1 Entidades privadas sem fins lucrativos
-
-Às entidades privadas sem fins lucrativos que recebam recursos públicos para ações de interesse público, a LAI aplica-se **no que couber**. A publicidade desse regime refere-se à **parcela dos recursos públicos recebidos e à sua destinação**, sem afastar outros deveres de prestação de contas.
-
-> **Pegadinha:** receber recurso público não converte automaticamente toda informação interna da entidade privada em informação sujeita a divulgação irrestrita.
-
----
-
-## 4. Direito de obter informação e acesso parcial
-
-O direito de acesso compreende, entre outros, obter:
-
-- orientação sobre procedimentos e local de acesso;
-- registros e documentos produzidos ou acumulados pelo Poder Público;
-- informação produzida ou custodiada por particular em razão de vínculo com o Poder Público, mesmo que o vínculo já tenha terminado;
-- informação primária, íntegra, autêntica e atualizada;
-- informação sobre atividades, organização e serviços;
-- informação sobre patrimônio público, recursos, licitações e contratos;
-- informações sobre programas, projetos, ações, metas, indicadores, inspeções, auditorias e prestações/tomadas de contas.
-
-### 4.1 Informação parcialmente restrita
-
-Se apenas parte do documento estiver protegida, a resposta correta não é negar tudo. Deve ser assegurado acesso à parcela não sigilosa por:
-
-- certidão;
-- extrato;
-- cópia com ocultação da parte restrita.
-
-```text
-DOCUMENTO MISTO
-├─ parte pública → fornecer
-└─ parte protegida → ocultar de forma justificável
-```
-
-Esse mecanismo é central para compatibilizar LAI e LGPD.
-
-### 4.2 Documento que fundamenta decisão
-
-O acesso a documentos e informações utilizados como fundamento de tomada de decisão e de ato administrativo é assegurado com a edição do ato decisório correspondente.
-
----
-
-## 5. Transparência ativa
-
-Transparência ativa é a divulgação de informações de interesse coletivo ou geral **sem necessidade de pedido**.
-
-Entre os conteúdos mínimos do art. 8º estão:
+**Transparência ativa** é a divulgação de informação de interesse coletivo ou geral independentemente de solicitação. O artigo 8º da <abbr title="Lei de Acesso à Informação">LAI</abbr> exige, entre outros conteúdos mínimos:
 
 - competências, estrutura, endereços, telefones e horários de atendimento;
 - repasses e transferências de recursos;
 - despesas;
 - licitações, editais, resultados e contratos;
-- dados gerais sobre programas, ações, projetos e obras;
-- respostas às perguntas mais frequentes.
+- dados gerais de programas, ações, projetos e obras;
+- respostas a perguntas frequentes.
 
-Os sítios oficiais devem favorecer:
+Os sítios oficiais devem permitir pesquisa objetiva e clara, gravação de relatórios em formatos eletrônicos, acesso automatizado em formatos abertos, estruturados e legíveis por máquina, atualização, autenticidade, integridade, comunicação com o órgão e acessibilidade para pessoas com deficiência.
 
-- pesquisa objetiva e clara;
-- gravação de relatórios em formatos eletrônicos, inclusive abertos e não proprietários;
-- acesso automatizado em formatos abertos, estruturados e legíveis por máquina;
-- divulgação dos formatos utilizados;
-- autenticidade e integridade;
-- atualização;
-- comunicação com o órgão;
-- acessibilidade para pessoas com deficiência.
+### 3.1. A exceção dos municípios com até 10 mil habitantes
 
-### 5.1 Município pequeno: exceção específica
+Municípios com **até 10 mil habitantes** ficam dispensados da divulgação obrigatória na internet prevista no artigo 8º, § 2º. A exceção é estreita: permanece a obrigação de divulgar, em tempo real, informações de execução orçamentária e financeira nos termos da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>, além dos demais deveres de acesso.
 
-Municípios com **até 10 mil habitantes** ficam dispensados da divulgação obrigatória na internet prevista no art. 8º, § 2º, mas permanece a obrigação de divulgar, em tempo real, informações relativas à execução orçamentária e financeira nos termos da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>.
+Portanto, “município pequeno está dispensado de transparência” é uma generalização incorreta.
 
-> **Pegadinha:** a exceção não significa “dispensa de transparência”. Ela é específica quanto à obrigação de divulgação na internet prevista nesse dispositivo.
+### 3.2. Regras acrescentadas em 2025
 
-### 5.2 Alterações vigentes no corte de 2026
+No corte do edital, a <abbr title="Lei de Acesso à Informação">LAI</abbr> já continha duas regras específicas de transparência remuneratória:
 
-A redação consolidada da LAI já continha, no corte do edital, regras introduzidas em 2025:
+- **artigo 8º-A:** serviços sociais autônomos destinatários de contribuições ou de recursos públicos federais decorrentes de contrato de gestão devem divulgar as informações funcionais e remuneratórias previstas na lei;
+- **artigo 8º-B:** conselhos de fiscalização profissional devem divulgar nominal e individualmente as parcelas remuneratórias e indenizatórias previstas no dispositivo.
 
-- serviços sociais autônomos destinatários de contribuições ou recursos públicos federais decorrentes de contrato de gestão devem divulgar informações funcionais e remuneratórias previstas no art. 8º-A;
-- conselhos de fiscalização profissional devem divulgar nominal e individualmente as parcelas remuneratórias e indenizatórias previstas no art. 8º-B.
+Esses exemplos ajudam a resolver a relação com a <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>: quando a própria lei determina publicidade nominal, não se pode invocar “proteção de dados” de forma abstrata para apagar a obrigação legal. Isso não autoriza, porém, divulgar campos pessoais estranhos à finalidade prevista em lei.
 
-Essas regras mostram que **proteção de dados pessoais não equivale a anonimização obrigatória de toda informação funcional remuneratória** quando a própria lei determina publicidade.
+## 4. Transparência passiva: como o pedido percorre a Administração
 
----
+**Transparência passiva** é a resposta a uma solicitação concreta. A <abbr title="Lei de Acesso à Informação">LAI</abbr> assegura atendimento por Serviço de Informações ao Cidadão, identificado pela sigla <abbr title="Serviço de Informações ao Cidadão">SIC</abbr>, que orienta o público, informa sobre tramitação e protocola pedidos de acesso.
 
-## 6. Transparência passiva, SIC e pedido de acesso
+Qualquer interessado pode formular pedido por meio legítimo. A lei exige apenas:
 
-Transparência passiva nasce com a solicitação do interessado.
-
-O acesso é assegurado, entre outros meios, por **Serviço de Informações ao Cidadão (SIC)**, que deve:
-
-- atender e orientar o público;
-- informar sobre tramitação de documentos;
-- protocolizar documentos e requerimentos de acesso.
-
-### 6.1 Quem pode pedir
-
-**Qualquer interessado** pode apresentar pedido por meio legítimo. O pedido deve conter:
-
-- identificação do requerente;
+- identificação do requerente, sem exigências que inviabilizem a solicitação;
 - especificação da informação requerida.
 
-A identificação não pode impor exigências que inviabilizem a solicitação.
+É **proibido exigir os motivos determinantes** do pedido de informação de interesse público. O requerente precisa dizer **o que quer**, não provar **por que merece saber**.
 
-### 6.2 Motivo do pedido
+### 4.1. A resposta começa pelo acesso imediato
 
-É proibido exigir os **motivos determinantes** da solicitação de informação de interesse público.
+Se a informação estiver disponível, a regra é conceder ou autorizar **acesso imediato**.
 
-```text
-IDENTIFICAR O REQUERENTE? → SIM
-ESPECIFICAR A INFORMAÇÃO? → SIM
-JUSTIFICAR POR QUE QUER? → NÃO
-```
+Se isso não for possível, o órgão dispõe de até **20 dias** para:
 
-### 6.3 Canal eletrônico
+1. informar data, local e modo de consulta, reprodução ou certidão;
+2. indicar as razões de fato ou de direito da recusa total ou parcial; ou
+3. informar que não possui a informação e, se souber quem a detém, indicar o órgão competente ou remeter o pedido, cientificando o interessado.
 
-Os órgãos e entidades devem viabilizar alternativa para encaminhamento de pedidos por seus sítios oficiais. A existência de plataforma eletrônica não altera a natureza jurídica do pedido nem permite impor requisito não previsto na LAI.
+O prazo pode ser prorrogado por mais **10 dias**, desde que haja justificativa expressa e ciência do requerente.
 
----
+Se a informação já estiver disponível ao público em meio de acesso universal, o órgão pode indicar por escrito onde e como consultá-la. Essa indicação dispensa o fornecimento direto, salvo se o requerente declarar não possuir meios para acessar a informação por conta própria.
 
-## 7. Resposta: imediato, 20 dias e prorrogação de 10
+Quando a informação estiver armazenada em formato digital, ela será fornecida nesse formato se houver anuência do requerente.
 
-A regra é conceder ou autorizar **acesso imediato** à informação disponível.
+### 4.2. Gratuidade não significa reprodução material sempre gratuita
 
-Se isso não for possível, o órgão tem prazo de até **20 dias** para:
+Busca e fornecimento da informação são gratuitos. Se o atendimento exigir reprodução de documentos, o órgão pode cobrar exclusivamente o necessário para ressarcir os custos dos serviços e materiais empregados.
 
-1. informar data, local e modo de consulta/reprodução/certidão;
-2. indicar razões de fato ou de direito da recusa total ou parcial; ou
-3. informar que não possui a informação e, se souber, indicar o órgão competente ou remeter o pedido, cientificando o interessado.
+A lei isenta desse ressarcimento quem declarar situação econômica que impeça o pagamento sem prejuízo do sustento próprio ou familiar. Não existe autorização para criar preço pelo conteúdo da informação ou “taxa de pesquisa”.
 
-O prazo de 20 dias pode ser prorrogado por mais **10 dias**, desde que haja:
+### 4.3. Negativa e recurso
 
-- justificativa expressa;
-- ciência do requerente.
+A recusa deve ser fundamentada. Se o acesso for negado total ou parcialmente, o interessado tem direito ao inteiro teor da decisão e deve ser informado sobre recurso, prazo, condições e autoridade competente.
 
-### 7.1 Informação já publicada
+A regra geral do artigo 15 é:
 
-Se a informação estiver disponível ao público em meio de acesso universal, o órgão pode indicar por escrito o local e a forma de consulta, ficando desonerado do fornecimento direto, **salvo** se o requerente declarar não possuir meios para acessar por si próprio.
+- **10 dias**, contados da ciência, para interpor recurso;
+- recurso dirigido à autoridade hierarquicamente superior;
+- **5 dias** para essa autoridade se manifestar.
 
-### 7.2 Formato digital
+A <abbr title="Controladoria-Geral da União">CGU</abbr> aparece em um fluxo recursal **específico do Poder Executivo federal**. Ela não é instância automática para pedido dirigido a estado, município, tribunal de contas ou Poder autônomo. A própria <abbr title="Lei de Acesso à Informação">LAI</abbr> prevê regulamentação própria dos Poderes Legislativo e Judiciário e do Ministério Público para revisão de negativas e de classificação em seus âmbitos.
 
-Informação armazenada em formato digital será fornecida nesse formato se houver anuência do requerente.
+## 5. Documento misto: a restrição de uma parte não contamina o todo
 
----
+Volte ao contrato do início. Se objeto, valor e vigência são públicos, mas um campo contém informação protegida, a resposta juridicamente adequada pode ser **acesso parcial**.
 
-## 8. Gratuidade e reprodução
+A <abbr title="Lei de Acesso à Informação">LAI</abbr> determina que, quando apenas parte do documento estiver submetida a restrição, seja assegurado acesso à parte não sigilosa por certidão, extrato ou cópia com ocultação do trecho protegido.
 
-O serviço de busca e fornecimento de informação é **gratuito**.
+Esse mecanismo evita dois erros opostos:
 
-Pode haver cobrança apenas do valor necessário ao ressarcimento dos custos de serviços e materiais quando for necessária **reprodução de documentos**.
+- usar um campo protegido como pretexto para negar todo o documento;
+- divulgar o documento integralmente e expor informação sem necessidade.
 
-Há isenção desse ressarcimento para pessoa cuja situação econômica não permita pagar sem prejuízo do próprio sustento ou da família, mediante a declaração admitida em lei.
+A mesma lógica vale para documento que contenha anexo validamente classificado: o sigilo do anexo não torna automaticamente todo o processo inacessível.
 
-> **Pegadinha:** a Administração não pode criar “taxa de pesquisa” ou preço pelo conteúdo da informação.
+## 6. Três famílias de restrição que não podem ser confundidas
 
----
+Antes de negar acesso, classifique o fundamento da restrição:
 
-## 9. Negativa, fundamentação e recurso
-
-A negativa deve ser **fundamentada**. O requerente tem direito ao inteiro teor da decisão de negativa por certidão ou cópia.
-
-Quando a informação for total ou parcialmente sigilosa, o interessado deve ser informado sobre:
-
-- possibilidade de recurso;
-- prazo;
-- condições;
-- autoridade competente.
-
-### 9.1 Regra recursal geral da LAI
-
-Contra o indeferimento de acesso ou das razões da negativa, cabe recurso no prazo de **10 dias** da ciência.
-
-O recurso é dirigido à autoridade hierarquicamente superior, que deve decidir em **5 dias**.
-
-```text
-NEGATIVA
-  ↓ 10 dias para recorrer
-SUPERIOR HIERÁRQUICO
-  ↓ 5 dias para decidir
-```
-
-### 9.2 Não universalize o fluxo federal
-
-A LAI disciplina recursos específicos à **<abbr title="Controladoria-Geral da União">CGU</abbr>** e à **Comissão Mista de Reavaliação de Informações** para hipóteses do Poder Executivo federal. Os Poderes Legislativo e Judiciário e o Ministério Público possuem regulamentação própria para revisão de negativas e de classificação em seus âmbitos.
-
-> **Pegadinha:** `CGU ≠ instância recursal automática de qualquer órgão estadual, municipal, tribunal de contas ou Poder autônomo`.
-
----
-
-# Restrições de acesso
-
-## 10. Restrições não são todas iguais
-
-Há pelo menos três famílias relevantes:
-
-| Família | Exemplo | Regime |
+| Família | Exemplo | Regime básico |
 |---|---|---|
-| classificação LAI | risco à segurança da sociedade ou do Estado | ultrassecreta, secreta ou reservada |
-| informação pessoal | intimidade, vida privada, honra e imagem | restrição própria do art. 31 |
-| outros sigilos legais | segredo de justiça, sigilo fiscal etc. | legislação específica |
+| classificação por segurança da sociedade ou do Estado | risco à defesa, relações internacionais ou atividade de inteligência | graus ultrassecreto, secreto e reservado |
+| informação pessoal | intimidade, vida privada, honra e imagem | artigo 31 da <abbr title="Lei de Acesso à Informação">LAI</abbr> |
+| outro sigilo legal | segredo de justiça, sigilo fiscal ou segredo industrial protegido | legislação específica |
 
-A LAI não elimina outros sigilos previstos em lei, segredo de justiça ou segredo industrial protegido.
+A <abbr title="Lei de Acesso à Informação">LAI</abbr> não revoga outros sigilos previstos em lei nem segredo de justiça.
 
-### 10.1 Direitos fundamentais e violações de direitos humanos
+Há ainda duas proteções contra o uso abusivo do sigilo: não pode ser negado acesso à informação necessária à tutela judicial ou administrativa de direitos fundamentais, e informações sobre violações de direitos humanos praticadas por agentes públicos ou a mando de autoridades públicas não podem ser objeto de restrição de acesso.
 
-Não pode ser negado acesso à informação necessária à tutela judicial ou administrativa de direitos fundamentais.
+### 6.1. Classificação por segurança da sociedade ou do Estado
 
-Informações ou documentos sobre condutas que impliquem violação de direitos humanos praticada por agentes públicos ou a mando de autoridades públicas **não podem ser objeto de restrição de acesso**.
+Classificação não nasce da mera conveniência administrativa. O artigo 23 exige risco juridicamente qualificado. Podem ser classificadas informações cuja divulgação ou acesso irrestrito possam, entre outras hipóteses legais:
 
----
+- pôr em risco a defesa e a soberania nacionais ou a integridade territorial;
+- prejudicar relações internacionais ou negociações do País;
+- pôr em risco a vida, a segurança ou a saúde da população;
+- oferecer elevado risco à estabilidade financeira, econômica ou monetária;
+- prejudicar planos ou operações estratégicos das Forças Armadas;
+- causar risco a projetos, sistemas, bens, instalações ou áreas de interesse estratégico;
+- pôr em risco a segurança de instituições ou de altas autoridades e seus familiares;
+- comprometer atividades de inteligência, investigação ou fiscalização em andamento ligadas à prevenção ou repressão de infrações.
 
-## 11. Classificação por segurança da sociedade e do Estado
-
-A classificação depende de a divulgação ou o acesso irrestrito poder causar riscos legalmente descritos, como riscos à:
-
-- defesa e soberania nacionais;
-- relações internacionais;
-- vida, segurança ou saúde da população;
-- estabilidade financeira, econômica ou monetária;
-- planos estratégicos das Forças Armadas;
-- projetos e áreas estratégicas;
-- segurança de instituições ou altas autoridades;
-- atividades de inteligência, investigação ou fiscalização em andamento.
-
-Não basta alegação genérica de “conveniência” ou “interesse do órgão”.
-
-### 11.1 Graus e prazos máximos
+Uma vez presente fundamento legal, o artigo 24 organiza os graus e prazos máximos:
 
 | Grau | Prazo máximo |
 |---|---:|
-| **ultrassecreta** | **25 anos** |
-| **secreta** | **15 anos** |
-| **reservada** | **5 anos** |
+| ultrassecreta | **25 anos** |
+| secreta | **15 anos** |
+| reservada | **5 anos** |
 
-Os prazos contam da **data de produção da informação**.
+O prazo conta da **data de produção da informação**, não da data do pedido. A lei também permite fixar um evento como termo final da restrição, desde que ele ocorra antes do prazo máximo aplicável.
 
-Pode ser definido um evento como termo final da restrição se ele ocorrer antes do prazo máximo.
+Ao classificar, a autoridade deve considerar interesse público, gravidade do risco e o critério **menos restritivo possível**. A classificação pode ser reavaliada para desclassificação ou redução do prazo; se o prazo terminar ou o evento ocorrer, o acesso torna-se público automaticamente.
 
-Encerrado o prazo ou ocorrido o evento, a informação torna-se automaticamente pública.
+### 6.2. Informação pessoal: o artigo 31 tem lógica própria
 
-### 11.2 Menor restrição possível
+O tratamento de informações pessoais deve respeitar transparência, intimidade, vida privada, honra, imagem, liberdades e garantias individuais.
 
-Na classificação, deve-se observar:
+As informações pessoais **relativas à intimidade, vida privada, honra e imagem** têm acesso restrito, independentemente de classificação, por até **100 anos a contar da produção**, para agentes públicos legalmente autorizados e para a própria pessoa a quem se referem.
 
-- interesse público da informação;
-- gravidade do risco ou dano;
-- prazo máximo ou evento final;
-- critério **menos restritivo possível**.
+A frase “qualquer dado pessoal fica secreto por 100 anos” está errada. O artigo 31 qualifica o tipo de informação protegido e admite divulgação ou acesso por terceiro diante de previsão legal ou consentimento expresso, além das hipóteses em que o próprio dispositivo dispensa consentimento.
 
-A classificação também é passível de reavaliação para desclassificação ou redução do prazo.
+Entre essas hipóteses estão:
 
----
-
-## 12. Informação pessoal: o regime do art. 31
-
-O tratamento de informações pessoais deve respeitar:
-
-- transparência;
-- intimidade;
-- vida privada;
-- honra;
-- imagem;
-- liberdades e garantias individuais.
-
-As informações pessoais **relativas à intimidade, vida privada, honra e imagem** têm acesso restrito, independentemente de classificação, por prazo máximo de **100 anos** a contar da produção, a agentes públicos legalmente autorizados e à própria pessoa a quem se referem.
-
-Terceiros podem obter acesso ou divulgação diante de:
-
-- previsão legal; ou
-- consentimento expresso do titular,
-
-sem prejuízo das hipóteses legais em que o consentimento não é exigido.
-
-### 12.1 O que o prazo de até 100 anos NÃO significa
-
-É incorreto concluir:
-
-> “qualquer dado pessoal fica automaticamente secreto por 100 anos”.
-
-O art. 31 qualifica as informações pessoais protegidas pela relação com **intimidade, vida privada, honra e imagem**. Além disso, publicidade decorrente de previsão legal e interesse público pode justificar divulgação de determinadas informações pessoais, sempre com exame proporcional.
-
-### 12.2 Hipóteses em que consentimento não é exigido pela LAI
-
-Entre as hipóteses do art. 31, § 3º, estão informações necessárias a:
-
-- prevenção e diagnóstico médico em situação legal específica;
-- estatísticas e pesquisas científicas de evidente interesse público ou geral, vedada identificação;
+- prevenção e diagnóstico médico na situação legal específica;
+- estatísticas e pesquisas científicas de evidente interesse público ou geral, sem identificação da pessoa;
 - cumprimento de ordem judicial;
 - defesa de direitos humanos;
 - proteção do interesse público e geral preponderante.
 
-### 12.3 Informação pessoal não pode ocultar irregularidade
+A proteção da vida privada, honra e imagem também não pode ser usada para prejudicar apuração de irregularidade em que o titular esteja envolvido nem para impedir ações de recuperação de fatos históricos de maior relevância.
 
-A proteção da vida privada, honra e imagem não pode ser invocada para:
+## 7. Responsabilidade: negar indevidamente e divulgar indevidamente são ilícitos
 
-- prejudicar apuração de irregularidades em que o titular esteja envolvido;
-- impedir ações voltadas à recuperação de fatos históricos de maior relevância.
+O regime não protege apenas quem pede informação. Ele também protege a informação que legitimamente deve permanecer restrita.
 
----
+Entre as condutas ilícitas do artigo 32 estão:
 
-## 13. Responsabilidade na LAI
-
-Constituem condutas ilícitas, entre outras:
-
-- recusar informação devida, retardar deliberadamente ou fornecer de modo intencionalmente incorreto, incompleto ou impreciso;
-- utilizar, subtrair, destruir, inutilizar, alterar ou ocultar indevidamente informação sob guarda funcional;
+- recusar informação devida, retardar deliberadamente o fornecimento ou fornecer informação intencionalmente incorreta, incompleta ou imprecisa;
 - agir com dolo ou má-fé na análise do pedido;
+- destruir, alterar, ocultar ou utilizar indevidamente informação sob guarda funcional;
 - divulgar ou permitir acesso indevido a informação sigilosa ou pessoal;
-- impor sigilo para proveito próprio/terceiro ou para ocultar ato ilegal;
-- ocultar informação da revisão superior;
+- impor sigilo para benefício próprio ou de terceiro ou para ocultar ato ilegal;
+- ocultar informação da revisão da autoridade superior;
 - destruir ou subtrair documentos sobre possíveis violações de direitos humanos.
 
-A responsabilidade por **negar indevidamente** e por **divulgar indevidamente** são duas faces do mesmo regime.
+A prova pode explorar justamente esse equilíbrio: **há responsabilidade tanto pela opacidade ilegítima quanto pela exposição ilegítima**.
 
----
+## 8. Quando entra a <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>
 
-# LGPD — recorte necessário ao acesso à informação
+A <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> não revogou a <abbr title="Lei de Acesso à Informação">LAI</abbr>. Ela acrescenta filtros para o tratamento de dados pessoais.
 
-## 14. LGPD não revogou a LAI
+Para esta unidade, bastam quatro conceitos:
 
-A LGPD protege direitos fundamentais de liberdade, privacidade e livre desenvolvimento da personalidade no tratamento de dados pessoais.
+- **dado pessoal:** informação relacionada a pessoa natural identificada ou identificável;
+- **dado pessoal sensível:** categoria especialmente protegida, como dado de saúde, biométrico vinculado a pessoa natural, origem racial ou étnica, convicção religiosa ou opinião política;
+- **tratamento:** qualquer operação com dados pessoais, como coletar, consultar, armazenar, divulgar, compartilhar ou eliminar;
+- **hipótese legal de tratamento:** fundamento previsto em lei que autoriza a operação; consentimento é apenas uma dessas hipóteses.
 
-No Poder Público, ela deve ser aplicada em conjunto com a LAI. A própria LGPD remete expressamente à LAI no capítulo de tratamento pelo Poder Público.
+No Poder Público, começar pela pergunta “há consentimento?” costuma ser um erro. Muitas operações existem porque a lei impõe um dever ou porque são necessárias à execução de competência ou política pública.
 
-```text
-LAI  → dever de publicidade + procedimento de acesso + restrições legítimas
-LGPD → finalidade + base legal + necessidade + direitos + segurança
-```
+### 8.1. Os princípios que mais importam para acesso à informação
 
-Uma lei não autoriza ignorar a outra.
+Mesmo com fundamento jurídico para tratar dados, a operação continua submetida aos princípios da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>. Para pedidos de acesso e transparência, cinco filtros são especialmente úteis:
 
-### 14.1 Conceitos mínimos
-
-| Conceito LGPD | Núcleo para este assunto |
+| Princípio | Pergunta prática |
 |---|---|
-| dado pessoal | informação relacionada a pessoa natural identificada ou identificável |
-| dado sensível | categorias especiais do art. 5º, II |
-| tratamento | qualquer operação com dados pessoais |
-| controlador | decide sobre o tratamento |
-| operador | trata em nome do controlador |
-| titular | pessoa natural a quem os dados se referem |
-
-> **Pegadinha:** dado pessoal pode constar de documento público sem que isso o torne automaticamente irrestrito; da mesma forma, ser dado pessoal não o transforma automaticamente em informação inacessível.
-
----
-
-## 15. Princípios da LGPD úteis para LAI
-
-Na resposta a pedidos ou na transparência ativa, destaque:
-
-| Princípio | Pergunta de prova |
-|---|---|
-| finalidade | por que esse dado pessoal precisa ser divulgado/tratado? |
-| adequação | a divulgação combina com o contexto e a finalidade? |
+| finalidade | para que esse dado precisa ser tratado ou divulgado? |
+| adequação | a operação combina com a finalidade e o contexto informados? |
 | necessidade | é indispensável expor todos os campos? |
-| livre acesso | o titular consegue conhecer o tratamento? |
-| transparência | o tratamento é claro, sem informações enganosas? |
-| segurança | há proteção contra acesso ou divulgação indevida? |
-| prevenção | foram reduzidos riscos antes da divulgação? |
-| não discriminação | há uso discriminatório ilícito ou abusivo? |
-| responsabilização e prestação de contas | o órgão consegue demonstrar a decisão e as medidas adotadas? |
+| transparência | a pessoa consegue compreender como e por que os dados são usados? |
+| segurança | existem medidas para evitar acesso ou divulgação indevidos? |
 
-Em documentos com dados pessoais, o princípio da necessidade muitas vezes conduz a **ocultar campos excessivos**, não a negar o documento inteiro.
+O princípio da necessidade conduz a reduzir os dados ao mínimo pertinente. Essa redução é frequentemente chamada de <abbr title="Uso apenas dos dados estritamente necessários à finalidade">minimização</abbr>. Em um documento misto, ela pode significar ocultar o <abbr title="Cadastro de Pessoas Físicas">CPF</abbr> integral ou dado bancário pessoal sem negar o conteúdo público.
 
----
+Dados pessoais cujo acesso é público não saem automaticamente da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>: a lei manda considerar finalidade, boa-fé e interesse público que justificaram a disponibilização. Da mesma forma, dados tornados manifestamente públicos pelo titular não perdem seus direitos e princípios de proteção.
 
-## 16. Bases legais e consentimento no Poder Público
+### 8.2. Poder Público: finalidade pública e competência legal
 
-Consentimento é apenas uma das bases legais da LGPD.
+O artigo 23 da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> exige que pessoas jurídicas de direito público abrangidas pela <abbr title="Lei de Acesso à Informação">LAI</abbr> tratem dados para atender finalidade pública, perseguir o interesse público e executar competências ou atribuições legais do serviço público.
 
-No setor público são especialmente relevantes, conforme o caso:
+Essas pessoas também devem informar de forma clara e atualizada as hipóteses de tratamento, com previsão legal, finalidade, procedimentos e práticas, preferencialmente em seus sítios eletrônicos. A <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> não as dispensa de instituir as autoridades previstas na <abbr title="Lei de Acesso à Informação">LAI</abbr>, e os direitos do titular perante o Poder Público observam a legislação específica aplicável, inclusive a <abbr title="Lei de Acesso à Informação">LAI</abbr>, a legislação de processo administrativo e o <abbr title="Ação constitucional para conhecer ou corrigir dados pessoais">habeas data</abbr>.
 
-- cumprimento de obrigação legal ou regulatória;
-- tratamento e uso compartilhado necessários à execução de políticas públicas;
-- exercício regular de direitos;
-- outras hipóteses legais compatíveis.
+### 8.3. Empresas estatais não recebem sempre o mesmo regime
 
-> **Pegadinha:** não se deve pedir consentimento artificial quando o órgão possui dever legal de publicar ou tratar determinada informação.
+A <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> distingue a atividade desempenhada:
 
-### 16.1 Exemplo
+- empresa pública ou sociedade de economia mista atuando em **regime de concorrência**, isto é, competindo no mercado, recebe nessa atuação o tratamento das pessoas jurídicas privadas;
+- quando a estatal estiver operacionalizando política pública e dentro da execução dessa política, recebe o tratamento dispensado ao Poder Público nessa operação.
 
-A lei determina divulgação de informações sobre contrato público. O órgão não precisa obter “consentimento” do gestor para publicar os elementos legalmente públicos. Entretanto, isso não autoriza expor, sem necessidade, endereço residencial, dado bancário ou identificadores pessoais estranhos à finalidade de transparência.
+O nome da entidade, sozinho, não resolve a questão; é preciso observar **o que ela está fazendo naquela atividade**.
 
----
+### 8.4. Uso compartilhado e transferência a privados
 
-## 17. Regras específicas de tratamento pelo Poder Público
+O artigo 26 exige que o uso compartilhado de dados pessoais pelo Poder Público atenda a finalidades específicas de execução de políticas públicas e atribuição legal e respeite os princípios da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>.
 
-O art. 23 da LGPD exige que o tratamento por pessoas jurídicas de direito público abrangidas pela LAI atenda:
+A transferência de dados de bases públicas a entidades privadas é, em regra, vedada, salvo hipóteses legais, entre elas:
 
-- finalidade pública;
-- interesse público;
-- execução de competências legais ou atribuições legais do serviço público.
+- execução descentralizada de atividade pública que exija a transferência para fim específico e determinado;
+- dados acessíveis publicamente, observadas as demais regras da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>;
+- previsão legal ou respaldo em contrato, convênio ou instrumento congênere;
+- prevenção de fraudes e irregularidades ou proteção da segurança e integridade do titular, vedado o uso para outras finalidades.
 
-Além disso, devem ser informadas de forma clara e atualizada as hipóteses de tratamento, com previsão legal, finalidade, procedimentos e práticas, em veículos de fácil acesso, preferencialmente sítios eletrônicos.
+“Existe contrato” ou “o dado já estava público” não elimina a necessidade de finalidade e os demais limites legais.
 
-A LGPD também determina que essas pessoas jurídicas instituam as autoridades exigidas pela LAI e que os prazos e procedimentos de direitos dos titulares perante o Poder Público observem a legislação específica, inclusive LAI, processo administrativo e habeas data.
+## 9. Aplicação integrada: resolva o caso por camadas
 
-### 17.1 Empresas estatais
+Retome o contrato administrativo do início.
 
-| Situação | Tratamento na LGPD |
-|---|---|
-| estatal atuando em regime concorrencial | regime das pessoas jurídicas privadas |
-| estatal executando política pública | regime do Poder Público nessa operação |
+**Camada 1 — o que é público?** Objeto, valor, vigência e demais elementos sujeitos à transparência contratual têm forte fundamento de acesso e divulgação.
 
----
+**Camada 2 — há campo pessoal que não serve a essa finalidade?** O <abbr title="Cadastro de Pessoas Físicas">CPF</abbr> integral da testemunha e dado bancário pessoal, no exemplo, não são necessários para demonstrar o gasto ou fiscalizar o objeto.
 
-## 18. Uso compartilhado e transferência a privados
+**Camada 3 — é possível separar?** Sim. A <abbr title="Lei de Acesso à Informação">LAI</abbr> admite acesso parcial; a necessidade da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr> reforça a proteção dos campos excessivos.
 
-O uso compartilhado de dados pessoais pelo Poder Público deve atender a:
+**Solução:** fornecer o documento com ocultação do dado pessoal desnecessário, salvo fundamento jurídico específico que exija outra resposta.
 
-- finalidade específica de política pública ou atribuição legal;
-- princípios do art. 6º da LGPD.
+Compare com duas variações:
 
-A transferência de bases públicas a entidades privadas é, em regra, vedada, salvo hipóteses legais, como:
+- **remuneração cuja divulgação nominal é expressamente determinada por lei:** não cabe negar tudo com uma invocação genérica da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>; a obrigação legal sustenta a publicidade, sem autorizar exposição de campos estranhos a ela;
+- **prontuário médico de terceiro sem consentimento, ordem judicial ou outra hipótese legal:** a existência de transparência administrativa não converte dado de saúde em informação pública irrestrita.
 
-- execução descentralizada de atividade pública que exija a transferência para finalidade específica;
-- dados acessíveis publicamente, observadas as demais regras da LGPD;
-- previsão legal ou respaldo em contratos, convênios ou instrumentos congêneres;
-- prevenção de fraudes/irregularidades ou proteção da segurança e integridade do titular, dentro dos limites legais.
+O ponto comum é o mesmo: **não pergunte “qual lei vence?”; pergunte “qual parte deve ser pública, qual parte tem fundamento de proteção e qual é a medida menos excessiva para cumprir as duas normas?”**
 
-> **Pegadinha:** “o dado já é publicamente acessível” não elimina finalidade, necessidade e demais princípios da LGPD.
+## 10. Roteiro para a prova
 
----
+Diante de uma alternativa, siga esta ordem:
 
-# LAI × LGPD na prática
+1. Há dever de transparência ativa ou houve pedido de acesso?
+2. O pedido contém identificação e especificação, sem exigência indevida de motivo?
+3. A informação está disponível para acesso imediato? Se não, aplicam-se o prazo de 20 dias e a eventual prorrogação motivada de 10?
+4. A restrição invocada é classificação, informação pessoal ou outro sigilo legal?
+5. Se houver classificação, existe fundamento do artigo 23 e o grau respeita os prazos de 25, 15 ou 5 anos contados da produção?
+6. Se houver informação pessoal, o caso realmente envolve intimidade, vida privada, honra ou imagem e o artigo 31 foi aplicado corretamente?
+7. Se houver dado pessoal, qual finalidade, hipótese legal e quantidade de dados são necessárias?
+8. É possível fornecer parte do documento e ocultar apenas o excesso?
+9. A decisão foi fundamentada e indicou o recurso cabível?
 
-## 19. Matriz de decisão
-
-| Situação | Resposta provável |
-|---|---|
-| informação pública sem dado protegido | fornecer/publicar |
-| documento misto com CPF/endereço desnecessários | fornecer com ocultação dos campos excessivos |
-| informação pessoal íntima sem fundamento de acesso por terceiro | restringir a parcela pessoal |
-| informação legalmente pública sobre gasto/remuneração | publicidade conforme a lei, com minimização do que não for necessário |
-| informação classificada validamente | observar grau/prazo e fundamentar restrição |
-| pedido exige documento que prova gasto público e contém dado bancário pessoal | fornecer o que comprova o gasto e proteger o dado bancário |
-| pedido sobre dados do próprio titular | observar identificação e rito aplicável aos direitos do titular |
-| base pessoal solicitada para uso privado incompatível | examinar finalidade, base e restrições; não liberar automaticamente |
-
-### 19.1 A pergunta certa não é “LAI ou LGPD?”
-
-O método correto é:
-
-1. identificar o **objeto** solicitado;
-2. localizar o **dever de publicidade ou acesso**;
-3. identificar campos sujeitos a **restrição legal**;
-4. examinar se existe **dado pessoal** e qual é a finalidade do tratamento;
-5. aplicar **necessidade/minimização**;
-6. preferir **acesso parcial** quando possível;
-7. fundamentar a decisão;
-8. indicar recurso quando cabível.
-
----
-
-## 20. Casos de prova
-
-### Caso 1 — contrato com CPF de testemunha
-
-Pedido: cópia de contrato administrativo contendo objeto, valor, vigência e CPF integral de testemunha.
-
-Solução:
-
-- contrato e elementos de gasto: forte dever de publicidade;
-- CPF integral da testemunha: não é necessário para controle do contrato;
-- resposta: fornecer o contrato com **ocultação do identificador excessivo**, salvo razão jurídica específica em sentido contrário.
-
-### Caso 2 — remuneração prevista em transparência
-
-Pedido: informação remuneratória cuja divulgação nominal esteja expressamente prevista no regime legal aplicável.
-
-Não cabe invocar “LGPD” de modo abstrato para negar toda a informação. A existência de dado pessoal exige tratamento adequado, mas a própria **obrigação legal** é fundamento relevante da divulgação.
-
-### Caso 3 — pedido de informação íntima sobre terceiro
-
-Pedido: prontuário médico de terceiro sem consentimento, ordem judicial ou outra hipótese legal.
-
-A transparência geral da Administração não converte dado de saúde de terceiro em informação pública irrestrita. Deve ser protegido conforme o regime pessoal e de dados sensíveis aplicável.
-
-### Caso 4 — investigação de irregularidade
-
-A autoridade pretende invocar vida privada do agente apenas para impedir apuração de irregularidade em que ele está envolvido.
-
-A LAI afasta esse uso abusivo da proteção pessoal.
-
-### Caso 5 — documento parcialmente classificado
-
-Se apenas anexo específico contém informação classificada, a Administração deve avaliar o **acesso à parte não restrita**, em vez de usar o sigilo do anexo para bloquear todo o processo.
-
----
-
-# Recuperação final
-
-## 21. Números essenciais
-
-```text
-PEDIDO LAI
-acesso imediato, se disponível
-senão: 20 dias
-prorrogação: +10 dias, motivada
-recurso geral: 10 dias
-superior decide: 5 dias
-
-CLASSIFICAÇÃO
-ultrassecreta = 25 anos
-secreta       = 15 anos
-reservada     = 5 anos
-
-INFORMAÇÃO PESSOAL (art. 31)
-intimidade/vida privada/honra/imagem
-restrição própria: até 100 anos
-```
-
-## 22. Pegadinhas finais
-
-- publicidade é regra; sigilo é exceção;
-- pedido exige identificação e especificação, **não motivo**;
-- informação disponível deve ter acesso imediato;
-- `20 + 10` é o fluxo de resposta quando o imediato não for possível;
-- busca e fornecimento são gratuitos; reprodução pode gerar ressarcimento de custo;
-- documento parcialmente protegido **não** justifica negativa integral automática;
-- classificação: `25 / 15 / 5`;
-- prazo de classificação conta da **produção**, não do pedido;
-- informação pessoal ≠ informação classificada;
-- até 100 anos ≠ todo dado pessoal;
-- CGU é instância prevista para hipóteses do Executivo federal, não para qualquer ente;
-- LGPD não revoga LAI;
-- LAI não autoriza exposição de dado pessoal desnecessário;
-- consentimento não é a única base legal da LGPD;
-- dado publicamente acessível continua sujeito a princípios de proteção de dados;
-- no conflito aparente, procure **acesso parcial + minimização + fundamentação**.
-
----
+Esse roteiro transforma os números em consequência de um mecanismo: **publicidade → eventual restrição → proteção proporcional → decisão fundamentada**.
