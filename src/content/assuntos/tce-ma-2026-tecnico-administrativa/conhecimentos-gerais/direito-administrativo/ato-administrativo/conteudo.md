@@ -8,588 +8,281 @@ storageId: tec-ato-administrativo
 
 # Ato administrativo
 
-## Delimitação e corte
+## 1. O mapa: cinco perguntas antes das classificações
 
-O edital do Cargo 16 exige **ato administrativo** em cinco núcleos: **conceito, requisitos, atributos, classificação e espécies**. Este assunto trata desses núcleos em profundidade compatível com o cargo técnico, sem transformar o item em um curso completo de Direito Administrativo.
+Imagine uma situação **hipotética**: uma autoridade administrativa determina a interdição de um estabelecimento porque uma vistoria constatou risco previsto em norma. Antes de decorar nomes de atos, há um caminho mais seguro para analisar a decisão:
+
+1. **quem** tinha poder para praticá-la? → competência;
+2. **para quê** esse poder existe? → finalidade;
+3. **como** o ato deveria ser exteriorizado? → forma;
+4. **por que** a medida podia ser adotada? → motivo;
+5. **o que** o ato determinou? → objeto.
+
+Essas cinco perguntas formam o núcleo da **validade** do ato. Só depois delas faz sentido perguntar quais poderes especiais acompanham a atuação administrativa (**atributos**), como o ato pode ser enquadrado por diferentes critérios (**classificações**) e qual função ele desempenha (**espécie**).
 
 > **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-Não são objeto central desta unidade a extinção do ato, anulação e revogação, convalidação, processo administrativo em geral ou responsabilidade civil. Quando algum desses temas aparece, é apenas para esclarecer um requisito ou atributo.
+A base normativa usada aqui é principalmente a Constituição Federal, art. 37, a Lei nº 4.717/1965, art. 2º, e a Lei nº 9.784/1999. Esta última disciplina o processo administrativo **federal**; por isso, seus dispositivos são referência normativa para a Administração Pública Federal e apoio conceitual neste capítulo, sem presunção de aplicação automática e integral aos procedimentos estaduais do Maranhão.
 
-As principais referências normativas são:
+## 2. O que é ato administrativo
 
-- Constituição Federal, art. 37, caput, como matriz de legalidade, impessoalidade, moralidade, publicidade e eficiência;
-- Lei nº 4.717/1965, art. 2º e parágrafo único, que fornece uma matriz legal clássica para vícios de **competência, forma, objeto, motivo e finalidade**;
-- Lei nº 9.784/1999, especialmente arts. 11 a 15, 22 e 50, como referência federal para competência, forma e motivação.
+Em sentido didático, ato administrativo é uma **declaração unilateral praticada no exercício de função administrativa, submetida às regras de Direito Público próprias dessa função e destinada a produzir efeitos jurídicos**.
 
-A Lei nº 9.784/1999 rege o processo administrativo **no âmbito da Administração Pública Federal**. Neste material, seus dispositivos são usados como referência normativa federal e como apoio conceitual; não se presume aplicação automática e integral a qualquer procedimento estadual do Maranhão.
+A expressão “regras de Direito Público próprias dessa função” corresponde ao <abbr title="Conjunto de regras e princípios próprios da atuação administrativa">regime jurídico-administrativo</abbr>: a Administração não atua como um particular qualquer. Ela fica vinculada à legalidade e aos demais princípios administrativos e, ao mesmo tempo, recebe poderes jurídicos específicos para cumprir finalidades públicas.
 
-## 1. Conceito de ato administrativo
+O critério decisivo é a **função exercida**, não apenas o Poder a que pertence o órgão. Executivo, Legislativo e Judiciário podem praticar atos administrativos quando exercem função administrativa. A própria Lei nº 9.784/1999 prevê sua aplicação aos órgãos dos Poderes Legislativo e Judiciário da União quando desempenham essa função.
 
-Em sentido didático, ato administrativo é a **manifestação unilateral da Administração Pública, ou de quem exerça função administrativa, submetida ao regime jurídico administrativo e destinada a produzir efeitos jurídicos**.
+Particulares também podem praticar determinados atos submetidos a regime administrativo quando o ordenamento lhes atribui função pública e competência para tanto.
 
-A definição precisa ser usada com cuidado porque a Administração pratica atos de naturezas diferentes. O ponto de prova é reconhecer quando se está diante de uma manifestação de vontade regida predominantemente pelo Direito Público.
+### 2.1 Ato administrativo, ato da Administração e fato administrativo
 
-### 1.1 Elementos do conceito
+Essas expressões não são equivalentes.
 
-| Elemento | Ideia central |
+| Expressão | Núcleo |
 |---|---|
-| manifestação | há exteriorização de vontade, juízo, conhecimento ou decisão com relevância jurídica |
-| função administrativa | importa a natureza da função exercida, e não apenas quem pratica o ato |
-| regime administrativo | incidem legalidade e demais princípios e prerrogativas do Direito Administrativo |
-| efeitos jurídicos | o ato constitui, reconhece, modifica, extingue ou declara situações jurídicas, conforme o caso |
-| unilateralidade | a formação do ato não depende de acordo bilateral de vontades como ocorre nos contratos |
+| **ato administrativo** | declaração jurídica unilateral no exercício de função administrativa |
+| **ato da Administração** | expressão mais ampla para atuações jurídicas da Administração, inclusive sob regime predominantemente privado |
+| **fato administrativo** | atuação material ou acontecimento ligado à atividade administrativa |
 
-### 1.2 Quem pode praticar
+Retome o cenário hipotético: a **ordem jurídica de interdição** é ato administrativo; a **execução material** da medida, quando juridicamente admitida, é fato administrativo.
 
-O ato administrativo não é exclusividade do Poder Executivo. Legislativo e Judiciário praticam atos administrativos quando exercem **função administrativa**, por exemplo ao organizar pessoal, gerir patrimônio ou praticar atos internos de administração.
+A distinção também separa o ato administrativo do contrato: no contrato, a formação depende de acordo de vontades; no ato administrativo, a declaração é unilateral.
 
-Também é possível que particulares investidos de função pública pratiquem determinados atos submetidos ao regime administrativo, dentro da competência que lhes tenha sido atribuída.
+## 3. Os cinco elementos de validade
 
-### 1.3 Ato administrativo × ato da Administração
-
-**Ato da Administração** é expressão mais ampla: alcança toda atuação jurídica da Administração, inclusive atos regidos predominantemente pelo Direito Privado.
-
-**Ato administrativo** é categoria mais restrita, vinculada ao exercício da função administrativa sob regime jurídico administrativo.
-
-Assim:
-
-```text
-ATO DA ADMINISTRAÇÃO
-└─ gênero mais amplo
-
-ATO ADMINISTRATIVO
-└─ espécie submetida ao regime jurídico administrativo
-```
-
-A Administração pode, por exemplo, celebrar um contrato ou praticar um ato de gestão privada. Nem toda atuação estatal se converte, apenas por sua origem, em ato administrativo.
-
-### 1.4 Ato administrativo × fato administrativo
-
-O **ato administrativo** é uma manifestação jurídica. O **fato administrativo**, em sentido usual de prova, é uma atuação material ou acontecimento ligado à atividade administrativa.
-
-Exemplo:
-
-- ordem formal de demolir construção em situação prevista em lei → ato administrativo;
-- execução material da demolição → fato administrativo.
-
-A distinção evita uma pegadinha frequente: efeitos materiais podem decorrer de um ato, mas ato e execução material não são a mesma coisa.
-
-## 2. Requisitos ou elementos do ato administrativo
-
-A matriz mais cobrada reúne cinco elementos:
+A Lei nº 4.717/1965, ao definir hipóteses de nulidade de atos lesivos, fornece uma matriz legal clássica: considera nulos os atos lesivos nas hipóteses de **incompetência, vício de forma, ilegalidade do objeto, inexistência dos motivos e desvio de finalidade**. A doutrina organiza esses vícios pelos cinco elementos correspondentes:
 
 ```text
 CO FI FO MO OB
-Competência
-Finalidade
-Forma
-Motivo
-Objeto
+Competência → Finalidade → Forma → Motivo → Objeto
 ```
 
-A Lei nº 4.717/1965, ao tratar de atos lesivos em ação popular, enumera nulidades por **incompetência, vício de forma, ilegalidade do objeto, inexistência dos motivos e desvio de finalidade**. A doutrina usa essa estrutura como referência para estudar os elementos do ato.
+A ordem do mnemônico não é a ordem do art. 2º da lei; é apenas uma ferramenta de estudo.
 
-## 3. Competência
+### 3.1 Competência: quem pode agir?
 
-**Competência** é o conjunto de atribuições jurídicas conferidas ao agente, órgão ou entidade para praticar determinado ato.
+**Competência** é o conjunto de atribuições que o ordenamento confere a órgão, entidade ou agente para praticar o ato. O agente não cria nem amplia sua própria competência por vontade pessoal.
 
-A pergunta de prova é:
+Na Lei nº 9.784/1999, a competência é **irrenunciável** e deve ser exercida pelo órgão a que foi atribuída, ressalvadas as hipóteses legalmente admitidas de delegação e avocação.
 
-> **Quem pode praticar este ato?**
+**Delegação** transfere o **exercício** de parte da competência, não sua titularidade. No regime federal da Lei nº 9.784/1999, pode ocorrer até para órgão ou titular sem subordinação hierárquica, quando não houver impedimento legal e estiver presente a conveniência prevista na lei.
 
-A competência decorre do ordenamento jurídico. O agente não cria sua própria competência e não pode ampliá-la por mera vontade.
+Três matérias não podem ser delegadas nesse regime:
 
-### 3.1 Características úteis para prova
+- edição de atos de caráter normativo;
+- decisão de recursos administrativos;
+- matérias de competência exclusiva do órgão ou da autoridade.
 
-Como regra, a competência é:
+A decisão adotada por delegação deve indicar essa qualidade e é considerada editada pelo delegado.
 
-- **obrigatória** para quem recebe a atribuição, nos termos legais;
-- **irrenunciável**, sem prejuízo das hipóteses legais de delegação e avocação;
-- definida por critérios como matéria, hierarquia, território e tempo.
+**Avocação** percorre o caminho inverso: órgão superior assume temporariamente competência atribuída a órgão hierarquicamente inferior. A Lei nº 9.784/1999 só a admite de modo **excepcional, temporário e por motivos relevantes devidamente justificados**.
 
-A Lei nº 9.784/1999 dispõe, no âmbito federal, que a competência é irrenunciável e se exerce pelos órgãos a que foi atribuída como própria, ressalvados os casos de delegação e avocação legalmente admitidos.
+Se o ato não está nas atribuições legais de quem o praticou, há **incompetência**.
 
-### 3.2 Delegação e avocação
+### 3.2 Finalidade: para quê o poder foi conferido?
 
-**Delegação** transfere o exercício de parcela da competência, nos limites admitidos pelo ordenamento, sem alterar sua titularidade.
+**Finalidade** é o fim público que a norma pretende alcançar com a competência.
 
-**Avocação** é a assunção temporária de competência atribuída a órgão hierarquicamente inferior. Na Lei nº 9.784/1999, tem caráter excepcional e exige motivos relevantes devidamente justificados.
+Há duas ideias complementares:
 
-Não confunda:
+- toda atuação administrativa deve orientar-se ao interesse público definido pelo ordenamento;
+- cada competência possui uma finalidade específica: o poder é conferido para determinado propósito, não para qualquer objetivo que o agente considere conveniente.
 
-- delegação ≠ renúncia definitiva de competência;
-- avocação ≠ regra ordinária de gestão;
-- competência ≠ capacidade civil do agente.
+O **desvio de finalidade** ocorre quando o agente pratica o ato visando a fim diferente daquele previsto, explícita ou implicitamente, na regra de competência.
 
-### 3.3 Vício de competência
+Exemplo hipotético: a autoridade possui competência para remover servidor por necessidade do serviço, mas usa a remoção apenas como punição informal contra um desafeto. A competência formal pode existir; a finalidade concreta está desviada.
 
-A Lei nº 4.717/1965 usa a expressão **incompetência** quando o ato não se inclui nas atribuições legais do agente que o praticou.
+### 3.3 Forma: como o ato se exterioriza?
 
-Em prova, identifique primeiro **quem praticou** e **qual norma atribui o poder de agir**.
+**Forma** é o modo pelo qual o ato se exterioriza e o conjunto de formalidades juridicamente exigidas para sua prática.
 
-## 4. Finalidade
+A forma serve à segurança, à publicidade e ao controle, mas isso não significa solenidade máxima em todo caso. No processo administrativo federal, a Lei nº 9.784/1999 estabelece que os atos não dependem de forma determinada, **salvo quando a lei expressamente a exigir**.
 
-**Finalidade** é o resultado de interesse público que a norma determina para o ato.
+A Lei nº 4.717/1965 caracteriza o vício de forma pela omissão ou observância incompleta ou irregular de formalidades **indispensáveis** à existência ou seriedade do ato.
 
-A pergunta de prova é:
+Logo, a pergunta de prova não é “houve qualquer irregularidade?”, mas “a formalidade desrespeitada era juridicamente indispensável?”.
 
-> **Para quê o ato pode ser praticado?**
-
-Há uma finalidade geral, ligada ao interesse público e à impessoalidade, e uma finalidade específica, definida pela norma que atribui a competência.
-
-### 4.1 Desvio de finalidade
-
-O **desvio de finalidade** ocorre quando o agente pratica o ato visando a fim diverso daquele previsto, explícita ou implicitamente, na regra de competência.
-
-Exemplo: autoridade usa competência de remoção administrativa, prevista para necessidade do serviço, apenas para punir informalmente servidor desafeto. Ainda que a autoridade seja competente para remover, a finalidade concreta está desviada.
-
-**Pegadinha:** competência correta não salva ato praticado para finalidade ilícita.
-
-## 5. Forma
-
-**Forma** é o modo de exteriorização do ato administrativo e o conjunto de formalidades juridicamente exigidas.
-
-A pergunta de prova é:
-
-> **Como o ato deve ser exteriorizado?**
-
-A Administração está submetida a formalidades porque a atuação estatal deve ser controlável, transparente e verificável. Isso, porém, não significa que todo ato dependa da mesma solenidade.
-
-A Lei nº 9.784/1999 estabelece, no processo administrativo federal, que os atos não dependem de forma determinada **senão quando a lei expressamente a exigir**.
-
-### 5.1 Vício de forma
-
-Segundo a Lei nº 4.717/1965, o vício de forma consiste na omissão ou observância incompleta ou irregular de formalidades indispensáveis à existência ou seriedade do ato.
-
-Portanto:
-
-- nem toda irregularidade formal produz a mesma consequência;
-- a prova deve observar se a formalidade era juridicamente relevante;
-- forma não se confunde com motivo.
-
-## 6. Motivo
+### 3.4 Motivo: por que o ato podia ser praticado?
 
 **Motivo** é o pressuposto de fato e de direito que autoriza ou determina a prática do ato.
 
-A pergunta de prova é:
+No cenário inicial:
 
-> **Por que juridicamente este ato está sendo praticado?**
+- o **fato** é a situação de risco apurada;
+- o **fundamento de direito** é a norma que permite a medida diante daquele risco.
 
-Exemplo: a lei permite determinada medida quando ocorre situação objetiva X. A ocorrência de X é motivo fático; a norma que associa X à consequência jurídica é motivo de direito.
+Se a matéria de fato ou de direito usada como fundamento é materialmente inexistente ou juridicamente inadequada ao resultado, a Lei nº 4.717/1965 trata o problema como **inexistência dos motivos**.
 
-### 6.1 Motivo × motivação
+#### Motivo não é motivação
 
-Essa distinção é essencial:
+**Motivação** é a exposição das razões do ato. Portanto:
 
 | Motivo | Motivação |
 |---|---|
-| pressuposto de fato e de direito | exposição, declaração ou fundamentação dos motivos |
-| existe no plano material/jurídico | exterioriza as razões da decisão |
-| responde “por que o ato pode/deve ocorrer?” | responde “quais razões foram apresentadas?” |
+| fato + fundamento jurídico que sustentam o ato | declaração das razões que levaram à decisão |
+| pertence ao suporte do ato | torna esse suporte explicitamente conhecido |
 
-Um ato pode possuir motivo e, em determinadas situações, não exigir motivação formal específica; em outras, a lei exige motivação expressa.
+Na Lei nº 9.784/1999, determinados atos federais devem ser motivados, como os que negam ou afetam direitos, impõem sanções ou decidem recursos administrativos. Nesses casos, a motivação deve indicar fatos e fundamentos jurídicos e ser explícita, clara e congruente.
 
-A Lei nº 9.784/1999, art. 50, enumera hipóteses em que atos administrativos federais devem ser motivados, com indicação dos fatos e fundamentos jurídicos.
+Pela **teoria dos motivos determinantes**, se a Administração declara um motivo para justificar o ato, a validade fica vinculada à existência e à veracidade do motivo indicado. Isso alcança também situações em que a lei confere margem legítima de escolha: discricionariedade não protege motivo falso.
 
-### 6.2 Teoria dos motivos determinantes
+### 3.5 Objeto: o que o ato produz?
 
-Pela **teoria dos motivos determinantes**, quando a Administração declara os motivos que fundamentam o ato, a validade do ato fica vinculada à existência e à veracidade desses motivos, ainda que a motivação não fosse originariamente obrigatória.
+**Objeto** é o conteúdo ou efeito jurídico imediato do ato: aquilo que ele determina, reconhece, concede, certifica, modifica ou extingue.
 
-Exemplo: autoridade pratica ato discricionário e afirma que o faz porque determinado fato ocorreu. Se o fato declarado é inexistente, o ato fica comprometido pela falsidade do motivo invocado.
+Para ser válido, o objeto deve ser juridicamente permitido, possível e determinado ou determinável. A Lei nº 4.717/1965 considera ilegal o objeto quando o resultado do ato viola lei, regulamento ou outro ato normativo.
 
-**Pegadinha:** discricionariedade não autoriza motivo falso ou juridicamente inadequado.
+No cenário hipotético, o objeto é a própria **interdição determinada**. Se a autoridade fosse competente e o risco realmente existisse, mas a medida produzisse resultado proibido pelo ordenamento, o vício estaria no objeto.
 
-## 7. Objeto
+### 3.6 A matriz em uma única leitura
 
-**Objeto** é o conteúdo ou efeito jurídico imediato produzido pelo ato.
-
-A pergunta de prova é:
-
-> **O que o ato determina, concede, reconhece, certifica ou modifica?**
-
-Exemplos:
-
-- nomeação → investidura juridicamente prevista;
-- licença → consentimento administrativo vinculado, quando preenchidos os requisitos;
-- multa → imposição de sanção pecuniária;
-- certidão → declaração formal de informação registrada.
-
-Para ser juridicamente válido, o objeto deve ser compatível com a lei, possível e determinado ou determinável.
-
-### 7.1 Ilegalidade do objeto
-
-A Lei nº 4.717/1965 considera ilegal o objeto quando o resultado do ato viola lei, regulamento ou outro ato normativo.
-
-**Pegadinha:** o agente pode ser competente, seguir a forma e ainda assim produzir objeto juridicamente ilícito.
-
-## 8. Matriz dos cinco elementos
-
-| Elemento | Pergunta | Exemplo de problema |
+| Elemento | Pergunta | Vício típico |
 |---|---|---|
-| competência | quem pratica? | agente sem atribuição legal |
-| finalidade | para quê? | perseguição pessoal sob pretexto de interesse público |
-| forma | como? | ausência de formalidade indispensável |
-| motivo | por quê? | fato pressuposto inexistente |
-| objeto | o quê? | conteúdo proibido pelo ordenamento |
+| competência | **quem** pratica? | agente sem atribuição legal |
+| finalidade | **para quê**? | poder usado para fim diverso do previsto |
+| forma | **como**? | formalidade indispensável ausente ou irregular |
+| motivo | **por quê**? | fato inexistente ou fundamento juridicamente inadequado |
+| objeto | **o quê**? | resultado proibido pelo ordenamento |
 
-### Método de resolução
+Essa matriz é mais útil do que decorar vícios isolados: diante de um caso, cada fato narrado deve ser encaixado em uma dessas perguntas.
 
-Diante de um caso:
+## 4. Atributos: como o ato se apresenta perante o destinatário
 
-1. identifique **quem** praticou;
-2. descubra **para qual fim** a competência existe;
-3. verifique **como** o ato deveria ser exteriorizado;
-4. confira os **fatos e fundamentos jurídicos**;
-5. identifique o **conteúdo/efeito** produzido.
+Os elementos anteriores respondem **se o ato foi formado validamente**. Os atributos descrevem características que o regime administrativo pode conferir ao ato já praticado.
 
-Esse roteiro costuma resolver questões que misturam mais de um vício.
+A enumeração é doutrinária e não é absolutamente uniforme. Quatro atributos aparecem com frequência em prova: **presunção de legitimidade e veracidade, imperatividade, autoexecutoriedade e tipicidade**.
 
-## 9. Atributos do ato administrativo
+### 4.1 Presunção de legitimidade e veracidade
 
-Atributos são características jurídicas que podem acompanhar os atos administrativos em razão do regime de Direito Público.
+O ato nasce com presunção de:
 
-A doutrina não apresenta enumeração absolutamente uniforme. Para prova, os quatro atributos mais recorrentes são:
+- **legitimidade**: conformidade com o Direito;
+- **veracidade**: correspondência dos fatos declarados pela Administração com a realidade.
 
-- **presunção de legitimidade e de veracidade**;
-- **imperatividade**;
-- **autoexecutoriedade**;
-- **tipicidade**.
+Essa presunção é relativa — <abbr title="Presunção que admite prova em contrário">juris tantum</abbr>. Ela permite que o ato produza efeitos enquanto não for afastado pelos meios jurídicos adequados, mas não transforma ato ilegal em ato válido nem impede controle administrativo ou judicial.
 
-**Atenção:** nem todos os atributos aparecem em todos os atos.
+### 4.2 Imperatividade
 
-## 10. Presunção de legitimidade e de veracidade
+**Imperatividade** é a aptidão para impor unilateralmente obrigações ou restrições ao destinatário, independentemente de sua concordância.
 
-A presunção significa que o ato nasce apto a produzir efeitos, presumindo-se, até prova em contrário:
+Ela não está presente em todos os atos. Uma certidão, por exemplo, pode produzir efeitos jurídicos sem impor nova obrigação ao interessado.
 
-- **legitimidade** → conformidade jurídica;
-- **veracidade** → correção dos fatos afirmados pela Administração.
+### 4.3 Autoexecutoriedade
 
-A presunção é **relativa (juris tantum)**, e não absoluta.
+**Autoexecutoriedade** é a possibilidade de a Administração executar materialmente a decisão por seus próprios meios, sem ordem judicial prévia, quando o ordenamento o admite.
 
-Consequências práticas:
+Também não é atributo universal. Em formulação doutrinária clássica, a execução direta aparece especialmente quando existe:
 
-- o ato pode produzir efeitos enquanto não afastado pelos meios jurídicos adequados;
-- a presunção não transforma ilegalidade em legalidade;
-- é possível contestar o ato administrativa ou judicialmente.
-
-**Pegadinha:** presunção de legitimidade não significa imunidade ao controle.
-
-## 11. Imperatividade
-
-**Imperatividade** é a possibilidade de o ato impor obrigações ou restrições unilateralmente, independentemente da concordância do destinatário.
-
-Ela aparece com destaque nos atos que traduzem poder de império, como determinadas ordens, interdições e sanções.
-
-Não está presente em todos os atos. Atos enunciativos, por exemplo, normalmente não impõem obrigação nova; atos negociais que ampliam a esfera jurídica do interessado também não se explicam pela imperatividade.
-
-## 12. Autoexecutoriedade
-
-**Autoexecutoriedade** é a possibilidade de a Administração executar materialmente determinada decisão por seus próprios meios, sem precisar obter previamente uma ordem judicial, quando o ordenamento assim autoriza.
-
-A autoexecutoriedade não é universal. Em formulação clássica, aparece especialmente quando:
-
-- há **previsão legal** que autorize a execução direta; ou
-- existe **situação urgente** que torne indispensável a atuação imediata, nos limites jurídicos aplicáveis.
-
-### 12.1 Exigibilidade × executoriedade
+- autorização legal; ou
+- situação urgente em que aguardar providência judicial tornaria ineficaz a atuação administrativa, sempre dentro das competências e garantias aplicáveis.
 
 Parte da doutrina decompõe a autoexecutoriedade em:
 
-- **exigibilidade** → uso de meios indiretos de coerção para induzir o cumprimento;
-- **executoriedade** → execução material direta da decisão.
+- **exigibilidade**: uso de meios indiretos de coerção para induzir o cumprimento;
+- **executoriedade**: execução material direta da decisão.
 
-Essa decomposição é útil para interpretar questões, mas não deve ser tratada como classificação legal obrigatória.
+Essa divisão é doutrinária, não uma classificação legal obrigatória.
 
-### 12.2 Limites
+**Imperatividade não é autoexecutoriedade.** A Administração pode impor uma multa unilateralmente; disso não decorre que possa cobrar materialmente o valor à força sem seguir o procedimento juridicamente adequado de cobrança.
 
-Autoexecutoriedade:
+### 4.4 Tipicidade
 
-- não elimina o dever de agir dentro da lei;
-- não afasta controle judicial posterior;
-- não significa que toda obrigação pecuniária possa ser cobrada materialmente sem processo judicial adequado.
+Na corrente doutrinária que a reconhece como atributo autônomo, **tipicidade** significa que a atuação administrativa deve corresponder a figuras e efeitos previamente admitidos pelo ordenamento. A Administração não pode inventar livremente um tipo de ato para impor restrições ou conceder vantagens sem fundamento jurídico.
 
-Exemplo clássico: a Administração pode impor multa nos termos legais, mas a cobrança forçada do valor não se confunde com a execução material autoexecutória de uma interdição administrativa.
+Atenção à formulação da banca: nem todos os autores apresentam a tipicidade como atributo autônomo.
 
-## 13. Tipicidade
+## 5. Classificações: o mesmo ato pode receber vários rótulos
 
-**Tipicidade**, na formulação doutrinária que a reconhece como atributo, significa que a Administração deve atuar por figuras e efeitos previamente definidos pelo ordenamento, sem criar livremente atos administrativos inominados para produzir restrições ou vantagens fora das hipóteses jurídicas.
+Uma classificação responde a **um critério específico**. Por isso, não há contradição em dizer que o mesmo ato é, ao mesmo tempo, individual, externo, simples e discricionário.
 
-A tipicidade reforça:
+### 5.1 Quanto à liberdade de decisão
 
-- legalidade;
-- previsibilidade;
-- controle do exercício da função administrativa.
+**Ato vinculado**: a norma predetermina os pressupostos e a consequência, sem margem juridicamente relevante de escolha entre alternativas legítimas.
 
-**Cuidado:** nem todos os autores apresentam a tipicidade como atributo autônomo. Em prova, observe a linha conceitual adotada pelo enunciado.
+**Ato discricionário**: a norma admite margem de escolha administrativa, dentro da lei, para valorar conveniência e oportunidade.
 
-## 14. Quadro dos atributos
+O espaço legítimo dessa escolha é chamado **mérito administrativo**. Discricionariedade não significa arbitrariedade: competência, finalidade, existência dos motivos e limites do objeto continuam sujeitos ao Direito.
 
-| Atributo | Núcleo | Está em todo ato? |
+### 5.2 Outros critérios recorrentes
+
+| Critério | Classificações | Como distinguir |
 |---|---|---|
-| presunção de legitimidade/veracidade | ato nasce presumidamente conforme ao direito e aos fatos declarados | em sentido amplo, é atributo geral clássico |
-| imperatividade | impõe obrigação/restrição independentemente de anuência | não |
-| autoexecutoriedade | execução administrativa direta em hipóteses admitidas | não |
-| tipicidade | correspondência a figuras e efeitos previstos no ordenamento | atributo reconhecido por parte importante da doutrina |
+| destinatários | **gerais × individuais** | destinatários indeterminados/abstratos × destinatário ou situação determinada |
+| alcance | **internos × externos** | efeitos predominantemente dentro da Administração × efeitos que alcançam administrados ou situações externas |
+| formação da vontade | **simples × complexos × compostos** | um órgão forma o ato × conjugação de vontades para formar um ato × ato principal acompanhado de ato acessório |
+| prerrogativa empregada | **império × gestão × expediente** | autoridade pública × gestão patrimonial/operacional × rotina de tramitação |
+| efeito jurídico | **constitutivos × declaratórios × modificativos × extintivos** | criar × reconhecer/certificar × alterar × extinguir situação jurídica |
 
-## 15. Classificação dos atos administrativos
+A distinção **simples × complexo × composto** merece atenção especial:
 
-As classificações são **doutrinárias**. O mesmo ato pode receber várias classificações simultâneas, porque cada critério responde a pergunta diferente.
+- **simples**: a vontade de um único órgão forma o ato; um <abbr title="Órgão formado por vários membros que decidem em conjunto">órgão colegiado</abbr> continua sendo um único órgão;
+- **complexo**: manifestações autônomas de dois ou mais órgãos se conjugam para formar **um único ato**;
+- **composto**: existe um ato principal e outro ato acessório de aprovação ou controle.
 
-Exemplo: uma ordem de serviço pode ser, conforme o caso, ato **interno**, **individual**, **vinculado ou discricionário** e **simples**.
+Assim, “várias pessoas participaram” não basta para afirmar que o ato é complexo. O que importa é **quantos órgãos formam juridicamente a vontade do ato**.
 
-## 16. Vinculados × discricionários
+## 6. Espécies: qual é a função predominante do ato?
 
-### 16.1 Ato vinculado
+Uma classificação tradicional agrupa os atos em **normativos, ordinatórios, negociais, enunciativos e punitivos**. É uma divisão doutrinária, não um catálogo legal fechado.
 
-No ato vinculado, a lei predetermina os pressupostos e a consequência de modo que, preenchidos os requisitos, a Administração não dispõe de liberdade juridicamente relevante para escolher entre alternativas legítimas.
+| Espécie | Função predominante | Exemplos usuais |
+|---|---|---|
+| **normativos** | estabelecer comandos gerais para execução da competência administrativa | decretos regulamentares, resoluções e instruções de conteúdo normativo |
+| **ordinatórios** | organizar o funcionamento administrativo e a atuação interna | ordens de serviço, circulares, despachos de expediente |
+| **negociais** | consentir ou reconhecer pretensão do particular dentro do regime administrativo | licença, autorização, aprovação |
+| **enunciativos** | certificar, atestar, registrar ou opinar | certidões, atestados, pareceres |
+| **punitivos** | aplicar sanção administrativa prevista no ordenamento | multa e sanções funcionais ou administrativas previstas em lei |
 
-Exemplo típico: licença quando a lei estabelece requisitos objetivos e o interessado comprova todos eles.
+O **nome do instrumento não decide sozinho a espécie**. Uma portaria, por exemplo, pode ter conteúdo normativo, ordinatório ou individual. Classifique pelo conteúdo e pela função predominante.
 
-### 16.2 Ato discricionário
+Atos normativos administrativos dependem de competência normativa e não podem contrariar a Constituição ou a lei. Atos punitivos, por sua vez, não dispensam competência, previsão jurídica da sanção e as garantias procedimentais aplicáveis.
 
-No ato discricionário, o ordenamento confere margem legítima de escolha administrativa, dentro de limites jurídicos, para valorar aspectos de **conveniência e oportunidade**.
+### 6.1 Licença e autorização
 
-A discricionariedade:
-
-- não existe fora da lei;
-- não autoriza finalidade diversa;
-- não torna competência e finalidade livremente escolhíveis;
-- não impede controle de legalidade.
-
-**Mérito administrativo** é a valoração legítima de conveniência e oportunidade existente nos espaços de discricionariedade.
-
-## 17. Gerais × individuais
-
-- **geral** → possui destinatários indeterminados ou alcançados por critérios abstratos;
-- **individual** → dirige-se a destinatário ou situação concreta determinada.
-
-A classificação observa o grau de determinação dos destinatários, não o nome formal do instrumento.
-
-## 18. Internos × externos
-
-- **interno** → produz efeitos predominantemente dentro da estrutura administrativa;
-- **externo** → alcança administrados ou situações fora da estrutura interna.
-
-Um ato interno não é sinônimo de irrelevante juridicamente. Ele apenas tem alcance funcional predominante dentro da Administração.
-
-## 19. Simples × complexos × compostos
-
-Essa classificação considera a **formação da vontade administrativa**.
-
-### 19.1 Ato simples
-
-Decorre da manifestação de **um único órgão**, mesmo que esse órgão seja colegiado.
-
-**Pegadinha:** colegiado não torna automaticamente o ato complexo. Se a vontade jurídica é atribuída a um único órgão colegiado, o ato pode ser simples.
-
-### 19.2 Ato complexo
-
-Forma-se pela conjugação de vontades autônomas de **dois ou mais órgãos**, que se integram para formar **um único ato**.
-
-O núcleo é a fusão de vontades necessárias à formação do ato.
-
-### 19.3 Ato composto
-
-Há um **ato principal** e outro ato acessório que o aprova, ratifica, autoriza ou controla, sem fusão das vontades em um único ato desde a origem.
-
-Resumo:
-
-```text
-SIMPLES   → 1 órgão forma o ato
-COMPLEXO  → 2+ vontades autônomas formam 1 ato
-COMPOSTO  → ato principal + ato acessório de controle/eficácia
-```
-
-## 20. Atos de império × de gestão × de expediente
-
-Essa classificação considera a posição ou prerrogativa utilizada pela Administração.
-
-- **atos de império** → praticados com prerrogativas de autoridade, impondo-se unilateralmente;
-- **atos de gestão** → relacionados à gestão patrimonial ou operacional sem a mesma carga de supremacia típica;
-- **atos de expediente** → rotinas de tramitação, preparação e movimentação administrativa.
-
-A distinção tem utilidade didática, mas não significa que atos de gestão estejam fora da legalidade administrativa.
-
-## 21. Classificação quanto aos efeitos
-
-Também é comum classificar atos pelo efeito jurídico predominante:
-
-- **constitutivos** → criam situação jurídica nova;
-- **declaratórios** → reconhecem ou certificam situação preexistente;
-- **modificativos** → alteram situação jurídica;
-- **extintivos** → encerram situação jurídica.
-
-O nome do instrumento não decide sozinho a classificação: é preciso identificar seu efeito jurídico concreto.
-
-## 22. Espécies de atos administrativos
-
-Uma classificação tradicional reúne cinco espécies funcionais:
-
-```text
-N O N E P
-Normativos
-Ordinatórios
-Negociais
-Enunciativos
-Punitivos
-```
-
-Essa divisão é doutrinária, não um catálogo legal fechado.
-
-## 23. Atos normativos
-
-Atos normativos estabelecem comandos **gerais e abstratos** destinados a orientar a aplicação e execução da lei dentro da competência administrativa.
-
-Exemplos usuais:
-
-- decretos regulamentares;
-- regulamentos;
-- resoluções normativas;
-- instruções normativas;
-- regimentos, conforme seu conteúdo.
-
-O ato normativo administrativo é **infralegal**: não pode contrariar a lei nem criar competência sem fundamento jurídico.
-
-## 24. Atos ordinatórios
-
-Atos ordinatórios disciplinam o funcionamento da Administração e a atuação de seus agentes, especialmente no plano interno.
-
-Exemplos frequentes, conforme o conteúdo:
-
-- ordens de serviço;
-- portarias;
-- circulares;
-- avisos;
-- ofícios;
-- despachos de expediente.
-
-A nomenclatura isolada não basta. Uma “portaria”, por exemplo, pode ter conteúdo normativo, ordinatório ou individual. Classifique pela **função e pelo conteúdo**, não só pelo título.
-
-## 25. Atos negociais
-
-Atos negociais são manifestações pelas quais a Administração reconhece, consente ou permite determinada pretensão do particular, dentro do regime administrativo.
-
-Exemplos clássicos:
-
-- licença;
-- autorização;
-- permissão administrativa, em acepção doutrinária adequada ao caso;
-- aprovação;
-- homologação, conforme o enquadramento doutrinário adotado.
-
-### 25.1 Licença × autorização
-
-A distinção mais cobrada:
+Na classificação doutrinária tradicional:
 
 | Licença | Autorização |
 |---|---|
-| tradicionalmente vinculada | tradicionalmente discricionária |
-| preenchidos requisitos, há direito à expedição | depende da avaliação administrativa nos limites legais |
-| reconhece exercício juridicamente condicionado | consente atividade/interesse nas hipóteses previstas |
+| ato vinculado | ato discricionário |
+| preenchidos os requisitos legais, há direito à expedição | depende de valoração administrativa dentro dos limites legais |
+| reconhece o exercício de atividade juridicamente condicionada | consente a atuação nas hipóteses previstas |
 
-A terminologia pode variar em regimes legais específicos. Em prova, prevalece a disciplina da norma indicada no enunciado.
+Esse é um **modelo doutrinário geral**. Se uma lei específica disciplinar o instituto de forma própria, a norma do enunciado prevalece sobre a fórmula de memória.
 
-## 26. Atos enunciativos
+### 6.2 Parecer não é sinônimo de decisão
 
-Atos enunciativos registram, certificam, atestam ou expressam conhecimento, opinião ou juízo da Administração, sem impor por si só uma ordem típica de poder de império.
+O **parecer** é manifestação técnica ou jurídica e aparece tradicionalmente entre os atos enunciativos. Sua força depende do regime aplicável: pode ser apenas opinativo ou integrar procedimento em que a lei atribui efeitos específicos à manifestação.
 
-Exemplos:
+Portanto, a palavra “parecer” não autoriza concluir, sem ler o contexto, que houve decisão administrativa final.
 
-- certidões;
-- atestados;
-- pareceres;
-- apostilas administrativas, conforme o conteúdo.
+## 7. Aplicando o mapa ao cenário inicial
 
-### Parecer
+Volte à interdição hipotética.
 
-O parecer é manifestação técnica ou jurídica. Sua força depende do regime aplicável: pode existir parecer meramente opinativo e hipóteses em que a manifestação integra procedimento com efeitos definidos em lei.
+1. **Competência:** a autoridade tinha atribuição legal para determinar a medida?
+2. **Finalidade:** usou o poder para proteger a finalidade prevista ou para perseguir alguém?
+3. **Forma:** observou as formalidades indispensáveis?
+4. **Motivo:** o risco existia e a norma realmente autorizava a consequência?
+5. **Objeto:** a interdição produzida era juridicamente permitida e compatível com os limites da competência?
 
-**Pegadinha:** “parecer” não é sinônimo automático de decisão final.
+Depois da validade, pergunte pelos atributos:
 
-## 27. Atos punitivos
+- a ordem pode impor restrição sem anuência? Isso aponta para **imperatividade**;
+- pode ser executada materialmente sem ordem judicial prévia? Só se houver fundamento para **autoexecutoriedade**.
 
-Atos punitivos aplicam sanções administrativas a quem pratica infração sujeita ao poder sancionador da Administração, observados competência, legalidade, devido processo quando exigível e demais garantias aplicáveis.
+Por fim, classifique apenas se a questão fornecer um critério. O mesmo ato pode acumular várias classificações sem qualquer incoerência.
 
-Exemplos:
+## 8. Como reconhecer as pegadinhas mais importantes
 
-- multa administrativa;
-- suspensão ou outra sanção funcional, quando prevista;
-- penalidades administrativas previstas em legislação específica.
+Em vez de decorar uma lista extensa, preserve estes contrastes:
 
-Não se deve confundir:
+- **motivo** é o suporte fático e jurídico; **motivação** é a exposição das razões;
+- **competência correta** não impede **desvio de finalidade**;
+- **presunção de legitimidade** é relativa, não imunidade ao controle;
+- **imperatividade** é poder de impor; **autoexecutoriedade** é poder de executar diretamente quando juridicamente admitido;
+- **discricionariedade** é escolha dentro da lei, não liberdade fora dela;
+- ato de **órgão colegiado** pode ser simples; complexo exige conjugação de vontades de órgãos distintos;
+- **complexo** forma um ato pela conjugação de vontades; **composto** mantém ato principal e ato acessório;
+- espécie e classificação são perguntas diferentes: “negocial” não impede que o mesmo ato seja individual, externo, vinculado e simples.
 
-- punição administrativa com pena criminal;
-- imperatividade com ausência de defesa;
-- poder sancionador com liberdade para criar sanções sem lei.
-
-## 28. Espécie × classificação
-
-Uma das pegadinhas mais comuns é misturar critérios.
-
-“Normativo”, “ordinatório”, “negocial”, “enunciativo” e “punitivo” são **espécies funcionais** em classificação tradicional.
-
-“Simples”, “complexo”, “interno”, “externo”, “vinculado” e “discricionário” são **classificações por critérios distintos**.
-
-Um mesmo ato pode ser, ao mesmo tempo:
-
-- **negocial** quanto à espécie;
-- **individual** quanto aos destinatários;
-- **externo** quanto ao alcance;
-- **vinculado** quanto ao grau de liberdade;
-- **simples** quanto à formação.
-
-## 29. Casos práticos
-
-### Caso 1 — autoridade competente usa poder para perseguir servidor
-
-O problema central é **finalidade**. A autoridade pode ter competência formal, mas usar o poder para fim diferente do previsto em lei caracteriza desvio de finalidade.
-
-### Caso 2 — ato baseado em fato que nunca ocorreu
-
-O problema central é **motivo**. Se o fato pressuposto não existe, falta suporte fático para o ato. Se a Administração declarou esse fato como fundamento, a teoria dos motivos determinantes reforça a vinculação ao motivo indicado.
-
-### Caso 3 — ato imposto sem concordância do destinatário
-
-Isso pode indicar **imperatividade**, desde que o ordenamento permita a imposição unilateral. Não significa, por si, autoexecutoriedade.
-
-### Caso 4 — Administração impõe multa e pretende receber o valor
-
-A imposição da multa pode ser imperativa. A cobrança forçada da dívida, porém, não decorre automaticamente de autoexecutoriedade material e segue o regime jurídico próprio.
-
-### Caso 5 — decisão de órgão colegiado
-
-O simples fato de várias pessoas votarem não torna o ato complexo. Se a vontade é juridicamente imputada a um único órgão colegiado, trata-se de ato simples quanto à formação.
-
-### Caso 6 — dois órgãos formam conjuntamente uma única decisão
-
-Se as manifestações autônomas se integram para constituir um único ato, o ato é **complexo**.
-
-### Caso 7 — ato principal depende de aprovação de outro órgão
-
-Se existe ato principal e um ato acessório de aprovação ou controle, sem fusão originária das vontades, a classificação é **composto**.
-
-## 30. Pegadinhas de prova
-
-- **Motivo ≠ motivação.** Motivo é pressuposto; motivação é exposição das razões.
-- **Competência ≠ finalidade.** Autoridade competente pode agir com desvio de finalidade.
-- **Forma ≠ formalismo absoluto.** Nem todo ato exige solenidade específica.
-- **Presunção ≠ certeza absoluta.** A presunção de legitimidade é relativa.
-- **Imperatividade ≠ autoexecutoriedade.** Impor obrigação não é o mesmo que executá-la diretamente.
-- **Autoexecutoriedade ≠ atributo universal.** Depende do regime jurídico e da situação.
-- **Discricionariedade ≠ arbitrariedade.** A liberdade administrativa existe dentro da lei.
-- **Ato colegiado ≠ ato complexo.** Um órgão colegiado pode produzir ato simples.
-- **Complexo ≠ composto.** Complexo funde vontades; composto combina ato principal e ato acessório.
-- **Nome do instrumento ≠ espécie automática.** O conteúdo decide o enquadramento.
-- **Ato enunciativo ≠ comando imperativo.** Certidão e atestado normalmente registram ou certificam.
-- **Ato normativo administrativo ≠ lei.** É infralegal e subordinado ao ordenamento.
-
-## 31. Método rápido para questões
-
-Quando a questão narrar um ato:
-
-1. **localize o núcleo do problema**: quem, para quê, como, por quê ou o quê;
-2. **identifique o atributo**, se houver: presunção, imposição, execução direta ou tipicidade;
-3. **se a questão classificar o ato, descubra o critério**: liberdade, alcance, destinatários, formação, prerrogativa ou efeitos;
-4. **se pedir espécie, procure a função predominante**: normatizar, ordenar internamente, consentir, enunciar ou punir;
-5. desconfie de palavras absolutas como “sempre”, “todos”, “necessariamente” e “jamais” quando o tema admitir exceções.
+Se uma questão narrar um caso concreto, volte às cinco perguntas — **quem, para quê, como, por quê e o quê** — antes de procurar o nome técnico. Isso reduz a chance de escolher uma alternativa verdadeira sobre o tema, mas errada para o vício ou critério efetivamente cobrado.
