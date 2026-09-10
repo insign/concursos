@@ -1,2 +1,4 @@
-- [Constituição da República Federativa do Brasil de 1988 — arts. 44 a 56](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) — Presidência da República, texto constitucional compilado, consulta para o corte de 6/7/2026.
-- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026, consolidado com as retificações aplicáveis ao Cargo 16.
+- [Constituição da República Federativa do Brasil de 1988 — texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — arts. 44 a 56; corte de 6/7/2026; acesso em 10/9/2026.
+- [Emenda Constitucional nº 132/2023](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm) — alterações do art. 50 e inclusão do art. 52, XV; acesso em 10/9/2026.
+- [STF — Constituição e Supremo, art. 53](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=53&abrirBase=CF) — imunidade parlamentar e foro por prerrogativa de função, inclusive a tese firmada em 12/3/2025 sobre crimes praticados no cargo e em razão das funções; acesso em 10/9/2026.
+- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026, consolidado com as retificações aplicáveis ao Cargo 16; acesso em 10/9/2026.

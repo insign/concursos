@@ -1,455 +1,346 @@
 ---
 schemaVersion: 1
 title: "Poder Legislativo: Congresso Nacional, Câmara dos Deputados, Senado Federal, deputados e senadores"
-description: "Noções constitucionais sobre o Poder Legislativo federal, com foco no Congresso Nacional, Câmara dos Deputados, Senado Federal e estatuto constitucional de deputados e senadores, nos arts. 44 a 56 da Constituição Federal."
+description: "Noções constitucionais sobre o Poder Legislativo federal: estrutura do Congresso Nacional, competências da Câmara e do Senado e estatuto constitucional de deputados e senadores."
 order: 137
 storageId: tec-nocoes-legislativo-137
 ---
 
 # Poder Legislativo: Congresso Nacional, Câmara dos Deputados, Senado Federal, deputados e senadores
 
-## 1. Recorte do edital e objetivo
+## 1. Um Poder, duas Casas e três perguntas de prova
 
-Este assunto corresponde ao item de **Noções de Direito Constitucional** do Cargo 16 que exige **Poder Legislativo: Congresso Nacional, Câmara dos Deputados, Senado Federal, deputados e senadores**.
+O Poder Legislativo federal não é uma Casa única. A Constituição distribui suas funções entre **Congresso Nacional, Câmara dos Deputados e Senado Federal**, e a banca costuma trocar justamente o órgão competente, o número de votos ou o momento em que uma regra passa a valer.
 
-O núcleo constitucional está nos **arts. 44 a 56 da Constituição Federal de 1988**. O objetivo é dominar a estrutura bicameral, a repartição de competências entre Congresso, Câmara e Senado e o estatuto constitucional dos parlamentares, com profundidade proporcional ao comando de **noções**.
+O capítulo fica mais simples quando você separa três perguntas:
 
-> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. O recorte deste assunto é essencialmente constitucional e não inclui, como objeto autônomo, reuniões do Congresso (art. 57), comissões e CPIs (art. 58), processo legislativo (arts. 59 a 69) nem fiscalização contábil, financeira e orçamentária (arts. 70 a 75), que pertencem a outros tópicos do programa.
+1. **quem compõe o Poder Legislativo federal e quem cada Casa representa?**
+2. **qual órgão decide determinada matéria: Congresso, Câmara ou Senado?**
+3. **quais garantias, proibições e causas de perda do mandato atingem deputados e senadores?**
 
-Mapa de estudo:
+O Congresso Nacional é composto pela **Câmara dos Deputados** e pelo **Senado Federal**. Esse arranjo é chamado de <abbr title="Poder Legislativo formado por duas Casas">bicameralismo</abbr>.
 
-```text
-44–47 → estrutura do Congresso, Câmara, Senado e regra geral de deliberação
-48–50 → atribuições do Congresso Nacional
-51    → competências privativas da Câmara
-52    → competências privativas do Senado
-53–56 → deputados e senadores: imunidades, incompatibilidades e mandato
-```
+Cada <abbr title="Período de quatro anos de funcionamento do Congresso Nacional">legislatura</abbr> dura **quatro anos**. Não confunda legislatura com mandato: o mandato de deputado federal dura quatro anos, enquanto o de senador dura oito.
 
----
+> **Corte de prova:** 6 de julho de 2026, data do Edital número 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. O texto constitucional desse corte já incorpora a <abbr title="Emenda Constitucional">EC</abbr> número 132/2023, que incluiu o Presidente do Comitê Gestor do Imposto sobre Bens e Serviços no artigo 50 e acrescentou ao Senado a avaliação periódica prevista no artigo 52, XV. Para o foro parlamentar, também importa a jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr> firmada em 2025. Reuniões do Congresso, comissões, processo legislativo e fiscalização contábil-financeira possuem recortes próprios e não são aprofundados aqui.
 
-# Parte I — Congresso Nacional, Câmara e Senado
+## 2. Câmara e Senado representam bases diferentes
 
-## 2. Congresso Nacional — art. 44
+A existência de duas Casas não é mera duplicação. Elas têm bases de representação diferentes.
 
-O Poder Legislativo federal é exercido pelo **Congresso Nacional**, composto por:
+### 2.1 Câmara dos Deputados: representação do povo
 
-- **Câmara dos Deputados**; e
-- **Senado Federal**.
-
-Esse desenho é chamado de **bicameralismo**.
-
-Cada **legislatura** dura **quatro anos**.
-
-### 2.1 Legislatura não se confunde com mandato de senador
-
-| Instituto | Duração |
-|---|---:|
-| legislatura | 4 anos |
-| mandato de deputado federal | 4 anos |
-| mandato de senador | 8 anos |
-
-**Pegadinha:** o senador atravessa duas legislaturas durante um mandato de oito anos.
-
----
-
-## 3. Câmara dos Deputados — art. 45
-
-A Câmara representa o **povo**. Seus membros são eleitos pelo **sistema proporcional** em cada Estado, Território e no Distrito Federal.
+A Câmara compõe-se de **representantes do povo**, eleitos pelo <abbr title="Sistema em que cadeiras são distribuídas conforme a votação obtida">sistema proporcional</abbr> em cada estado, em cada Território e no Distrito Federal.
 
 A Constituição determina que:
 
-- o número total de deputados e a representação por Estado e pelo DF são definidos por **lei complementar**;
-- a distribuição é proporcional à população;
-- cada Estado e o DF terão **mínimo de 8 e máximo de 70 deputados**;
-- cada Território elegerá **4 deputados**.
+- o número total de deputados e a representação por estado e pelo Distrito Federal sejam estabelecidos por **lei complementar**, proporcionalmente à população;
+- os ajustes necessários ocorram no ano anterior às eleições;
+- nenhum estado nem o Distrito Federal tenha menos de **oito** ou mais de **setenta Deputados**;
+- cada Território eleja **quatro Deputados**.
 
-```text
-CÂMARA → POVO → SISTEMA PROPORCIONAL
-```
+A ideia é combinar representação popular proporcional com piso e teto constitucionais por unidade da Federação.
 
----
+### 2.2 Senado Federal: representação dos estados e do Distrito Federal
 
-## 4. Senado Federal — art. 46
+O Senado representa os **estados e o Distrito Federal** em igualdade numérica. Cada um elege **três Senadores**, pelo <abbr title="Sistema em que vence quem obtém a maioria exigida de votos">princípio majoritário</abbr>.
 
-O Senado representa os **Estados e o Distrito Federal**. Seus membros são eleitos pelo **princípio majoritário**.
+O mandato de Senador dura **oito anos**, e cada Senador é eleito com **dois <abbr title="Candidatos eleitos para substituir o titular nas hipóteses constitucionais">suplentes</abbr>**. A representação de cada estado e do Distrito Federal é renovada de quatro em quatro anos, alternadamente por **um terço e dois terços**.
 
-Regras essenciais:
+A diferença estrutural pode ser resumida depois de compreendida:
 
-- cada Estado e o DF elegem **3 senadores**;
-- mandato de senador = **8 anos**;
-- renovação de quatro em quatro anos, alternadamente por **1/3 e 2/3**;
-- cada senador é eleito com **2 suplentes**.
-
-```text
-SENADO → ESTADOS + DF → PRINCÍPIO MAJORITÁRIO
-```
-
-### Câmara × Senado
-
-| Ponto | Câmara | Senado |
+| Critério | Câmara dos Deputados | Senado Federal |
 |---|---|---|
-| representação | povo | Estados + DF |
+| quem representa | povo | estados e Distrito Federal |
 | sistema eleitoral | proporcional | majoritário |
 | mandato | 4 anos | 8 anos |
-| composição por UF | 8 a 70 deputados | 3 senadores |
-| renovação | integral | 1/3 e 2/3 alternados |
+| composição por unidade | 8 a 70 Deputados por estado ou Distrito Federal | 3 Senadores por estado ou Distrito Federal |
+| renovação | integral a cada eleição | alternada por 1/3 e 2/3 |
 
----
+## 3. Artigo 47: presença para deliberar não é o mesmo que votos para aprovar
 
-## 5. Regra geral de deliberação — art. 47
+Salvo disposição constitucional em contrário, as deliberações de cada Casa e de suas comissões são tomadas por **maioria dos votos**, desde que esteja presente a **maioria absoluta de seus membros**.
 
-Salvo disposição constitucional em contrário, as deliberações de cada Casa e de suas comissões são tomadas:
+Há duas verificações distintas. **Maioria absoluta** significa mais da metade do número total de membros da Casa ou comissão, e não mais da metade dos presentes:
 
-- por **maioria dos votos**;
-- presente a **maioria absoluta dos membros**.
+- **presença:** é preciso atingir a maioria absoluta dos membros;
+- **aprovação:** entre os votos computados, prevalece a maioria dos votos, salvo quando a Constituição exigir <abbr title="Número de presentes ou votos exigido para uma decisão">quórum</abbr> especial.
 
-Portanto, não confunda:
+Por isso, não transforme “maioria absoluta” do requisito de presença em regra universal de aprovação.
 
-```text
-QUÓRUM DE PRESENÇA → maioria absoluta
-QUÓRUM DE APROVAÇÃO → maioria dos votos
-```
+## 4. Artigos 48, 49, 51 e 52: primeiro descubra quem decide
 
-A regra cede quando a Constituição exige quórum especial.
+Quatro dispositivos próximos distribuem competências de forma diferente:
 
----
+- **artigo 48:** Congresso Nacional, com participação presidencial por <abbr title="Concordância do Presidente com projeto aprovado pelo Legislativo">sanção</abbr>, ressalvadas as matérias constitucionais sem sanção;
+- **artigo 49:** competências exclusivas do Congresso Nacional, sem sanção;
+- **artigo 51:** competências privativas da Câmara dos Deputados;
+- **artigo 52:** competências privativas do Senado Federal.
 
-# Parte II — Atribuições do Congresso Nacional
+O ganho de prova vem de identificar o **órgão constitucional competente**, e não de decorar quatro listas soltas.
 
-## 6. Art. 48 — matérias com sanção presidencial
+### 4.1 Artigo 48: matérias legislativas com sanção presidencial
 
-O art. 48 estabelece que cabe ao Congresso Nacional, **com sanção do Presidente da República**, dispor sobre matérias de competência da União. A própria Constituição ressalva que a sanção **não é exigida** para as competências dos arts. **49, 51 e 52**.
-
-Entre os temas do art. 48 estão:
+Cabe ao Congresso Nacional, com sanção do Presidente da República, dispor sobre matérias de competência da União, especialmente:
 
 - sistema tributário, arrecadação e distribuição de rendas;
-- <abbr title="Plano Plurianual">PPA</abbr>, <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>, orçamento anual, operações de crédito e dívida pública;
+- plano plurianual, diretrizes orçamentárias, orçamento anual, operações de crédito, dívida pública e emissões de curso forçado;
 - efetivo das Forças Armadas;
-- planos e programas nacionais, regionais e setoriais;
-- limites do território nacional e bens da União;
-- concessão de anistia;
-- organização administrativa e judiciária nos termos constitucionais;
-- criação, transformação e extinção de cargos, empregos e funções públicas;
-- criação e extinção de Ministérios e órgãos;
+- planos e programas nacionais, regionais e setoriais de desenvolvimento;
+- limites do território nacional, espaço aéreo e marítimo e bens do domínio da União;
+- incorporação, subdivisão ou desmembramento de áreas de Territórios ou estados, ouvidas as respectivas Assembleias Legislativas;
+- transferência temporária da sede do Governo Federal;
+- concessão de <abbr title="Perdão legal dirigido a determinados fatos ou infrações">anistia</abbr>;
+- organização administrativa e judiciária, do Ministério Público e da Defensoria Pública nos recortes definidos pelo inciso IX;
+- criação, transformação e extinção de cargos, empregos e funções públicas, observado o artigo 84, VI, b;
+- criação e extinção de Ministérios e órgãos da administração pública;
 - telecomunicações e radiodifusão;
-- matéria financeira, cambial e monetária;
+- matéria financeira, cambial e monetária, instituições financeiras e suas operações;
+- moeda, limites de emissão e montante da dívida mobiliária federal;
 - fixação do subsídio dos Ministros do <abbr title="Supremo Tribunal Federal">STF</abbr>.
 
-### Fórmula de prova
+A própria Constituição ressalva que as competências dos artigos **49, 51 e 52** não dependem dessa sanção.
 
-```text
-ART. 48 → Congresso + sanção presidencial
-ART. 49 → Congresso sem sanção
-ART. 51 → Câmara sem sanção
-ART. 52 → Senado sem sanção
-```
+### 4.2 Artigo 49: decisões exclusivas do Congresso
 
----
+As competências exclusivas do Congresso podem ser agrupadas pelo tipo de controle exercido.
 
-## 7. Art. 49 — competência exclusiva do Congresso
+**Relações internacionais e defesa:**
 
-As competências do art. 49 são exercidas **sem sanção presidencial**.
+- resolver definitivamente sobre tratados, acordos ou atos internacionais que acarretem encargos ou compromissos gravosos ao patrimônio nacional;
+- autorizar o Presidente da República a declarar guerra, celebrar a paz e permitir trânsito ou permanência temporária de forças estrangeiras nos casos constitucionais;
+- autorizar Presidente e Vice-Presidente a ausentarem-se do País quando a ausência exceder **15 dias**;
+- aprovar estado de defesa e intervenção federal, autorizar estado de sítio ou suspender qualquer dessas medidas.
 
-Pontos de maior incidência:
+**Controle político e institucional:**
 
-- resolver definitivamente sobre tratados, acordos ou atos internacionais gravosos ao patrimônio nacional;
-- autorizar o Presidente a declarar guerra, celebrar a paz e permitir trânsito ou permanência de forças estrangeiras nos casos constitucionais;
-- autorizar Presidente e Vice a se ausentarem do País quando a ausência exceder **15 dias**;
-- aprovar estado de defesa e intervenção federal, autorizar estado de sítio ou suspender essas medidas;
-- sustar atos normativos do Executivo que exorbitem do poder regulamentar ou da delegação legislativa;
+- <abbr title="Interromper a eficácia do ato nas condições constitucionais">sustar</abbr> atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa;
 - mudar temporariamente sua sede;
-- fixar subsídios de deputados e senadores e os do Presidente, Vice e Ministros de Estado;
-- julgar anualmente as contas do Presidente da República;
-- fiscalizar e controlar atos do Executivo, inclusive da administração indireta;
-- escolher **2/3 dos membros do <abbr title="Tribunal de Contas da União">TCU</abbr>**;
-- autorizar referendo e convocar plebiscito;
-- autorizar, em terras indígenas, exploração e aproveitamento de recursos hídricos e pesquisa/lavra de riquezas minerais;
-- aprovar previamente alienação ou concessão de terras públicas com área superior a 2.500 hectares;
+- fixar os subsídios de Deputados e Senadores e, em ato próprio, os do Presidente, Vice-Presidente e Ministros de Estado;
+- julgar anualmente as contas do Presidente da República e apreciar relatórios sobre a execução dos planos de governo;
+- fiscalizar e controlar, diretamente ou por qualquer de suas Casas, os atos do Poder Executivo, incluídos os da <abbr title="Entidades administrativas com personalidade jurídica própria">administração indireta</abbr>;
+- zelar pela preservação de sua competência legislativa diante da atribuição normativa dos outros Poderes;
+- apreciar atos de concessão e renovação de concessão de emissoras de rádio e televisão;
+- escolher **dois terços** dos membros do <abbr title="Tribunal de Contas da União">TCU</abbr>;
+- aprovar iniciativas do Poder Executivo referentes a atividades nucleares;
+- autorizar <abbr title="Instrumento constitucional de consulta popular">referendo</abbr> e convocar <abbr title="Instrumento constitucional de consulta popular">plebiscito</abbr>.
+
+**Patrimônio, terras e situações excepcionais:**
+
+- autorizar, em terras indígenas, exploração e aproveitamento de recursos hídricos e pesquisa e <abbr title="Extração e aproveitamento de recursos minerais">lavra</abbr> de riquezas minerais;
+- aprovar previamente a alienação ou concessão de terras públicas com área superior a **2.500 hectares**;
 - decretar o estado de calamidade pública de âmbito nacional nas hipóteses constitucionais.
 
-**Pegadinha:** o Congresso **susta** atos normativos exorbitantes; não recebe, por isso, um poder geral de anular qualquer ato administrativo.
+O verbo **sustar** é importante: a competência sobre atos normativos exorbitantes não cria um poder geral do Congresso para anular qualquer ato administrativo do Executivo.
 
----
+## 5. Artigo 50: fiscalização por convocação e informação
 
-## 8. Art. 50 — convocação e pedidos de informação
+O artigo 50 fornece instrumentos para o Legislativo obter explicações diretamente de autoridades.
 
-Podem convocar para prestar **pessoalmente** informações sobre assunto previamente determinado:
-
-- Câmara dos Deputados;
-- Senado Federal;
-- qualquer de suas comissões.
-
-Podem ser convocados:
+A Câmara dos Deputados, o Senado Federal ou qualquer de suas comissões podem convocar, para prestar **pessoalmente** informações sobre assunto previamente determinado:
 
 - Ministro de Estado;
 - titular de órgão diretamente subordinado à Presidência da República;
 - Presidente do Comitê Gestor do Imposto sobre Bens e Serviços.
 
-A ausência sem justificação adequada importa **crime de responsabilidade**.
+A ausência sem justificação adequada constitui <abbr title="Infração político-administrativa sujeita ao regime constitucional próprio">crime de responsabilidade</abbr>.
 
-Os Ministros de Estado também podem comparecer por iniciativa própria, mediante entendimento com a Mesa respectiva.
+Os Ministros de Estado também podem comparecer por iniciativa própria ao Senado, à Câmara ou a comissão, mediante entendimento com a Mesa respectiva, para expor assunto de relevância de seu Ministério.
 
-### 8.1 Pedidos escritos de informação
+### 5.1 Pedido escrito não é feito por qualquer parlamentar isoladamente
 
-As **Mesas da Câmara e do Senado** podem encaminhar pedidos escritos de informação às pessoas indicadas no art. 50.
+As **Mesas da Câmara e do Senado** podem encaminhar pedidos escritos de informação às autoridades abrangidas pelo artigo 50.
 
-Constituem hipótese de crime de responsabilidade:
+São tratadas como crime de responsabilidade, conforme o § 2º:
 
-- recusa;
-- não atendimento no prazo de **30 dias**;
-- prestação de informações falsas.
+- a recusa;
+- o não atendimento no prazo de **30 dias**;
+- a prestação de informações falsas.
 
----
+A distinção é útil: **Casa ou comissão convoca pessoalmente; Mesa encaminha pedido escrito**.
 
-# Parte III — Câmara dos Deputados e Senado Federal
+## 6. Artigo 51: o que é privativo da Câmara dos Deputados
 
-## 9. Competências privativas da Câmara — art. 51
+A Câmara exerce competências próprias que não pertencem ao Congresso reunido nem ao Senado.
 
 Compete privativamente à Câmara:
 
-1. autorizar, por **2/3 de seus membros**, a instauração de processo contra Presidente, Vice-Presidente e Ministros de Estado nas hipóteses constitucionais;
-2. proceder à **tomada de contas do Presidente** quando não apresentadas ao Congresso em **60 dias** após a abertura da sessão legislativa;
-3. elaborar seu regimento interno;
-4. dispor sobre sua organização, funcionamento, polícia, criação, transformação ou extinção dos cargos, empregos e funções de seus serviços, além da iniciativa de lei para fixação da remuneração;
-5. eleger membros do Conselho da República nos termos constitucionais.
+1. autorizar, por **dois terços de seus membros**, a instauração de processo contra Presidente, Vice-Presidente da República e Ministros de Estado, nas hipóteses constitucionais;
+2. proceder à tomada de contas do Presidente da República quando não forem apresentadas ao Congresso dentro de **60 dias após a abertura da <abbr title="Ciclo anual de trabalhos legislativos">sessão legislativa</abbr>**;
+3. elaborar seu <abbr title="Normas de organização e funcionamento interno da Casa">regimento interno</abbr>;
+4. dispor sobre sua organização, funcionamento, polícia, criação, transformação ou extinção dos cargos, empregos e funções de seus serviços e ter iniciativa de lei para fixação da respectiva remuneração;
+5. eleger membros do Conselho da República, nos termos constitucionais.
 
-```text
-CÂMARA → AUTORIZA a instauração contra o Presidente → 2/3
-```
+A Câmara **autoriza** a instauração do processo político nas hipóteses do inciso I; ela não exerce, por esse dispositivo, o julgamento que a Constituição entrega ao Senado.
 
----
+## 7. Artigo 52: o Senado julga, aprova autoridades e disciplina matérias financeiras
 
-## 10. Competências privativas do Senado — art. 52
+O Senado concentra competências de natureza política, federativa e financeira.
 
-Entre as competências mais cobradas do Senado:
+### 7.1 Crimes de responsabilidade
 
-- processar e julgar Presidente e Vice nos crimes de responsabilidade;
-- processar e julgar Ministros de Estado e Comandantes das Forças Armadas nos crimes de responsabilidade conexos com os do Presidente ou Vice;
-- processar e julgar, nos casos constitucionais, Ministros do STF, membros do <abbr title="Conselho Nacional de Justiça">CNJ</abbr> e <abbr title="Conselho Nacional do Ministério Público">CNMP</abbr>, <abbr title="Procurador-Geral da República">PGR</abbr> e <abbr title="Advogado-Geral da União">AGU</abbr>;
-- aprovar previamente certas autoridades, em regra por **voto secreto após arguição pública**;
-- aprovar chefes de missão diplomática permanente por voto secreto após **arguição em sessão secreta**;
-- autorizar operações externas de natureza financeira de interesse da União, Estados, DF, Territórios e Municípios;
-- fixar limites globais para dívida consolidada e disciplinar limites e condições de operações de crédito e garantias;
-- suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF;
-- aprovar, por **maioria absoluta e voto secreto**, a exoneração de ofício do PGR antes do término do mandato;
-- elaborar seu regimento interno e dispor sobre sua organização e serviços.
+Compete ao Senado processar e julgar:
 
-### 10.1 Julgamento por crime de responsabilidade
+- Presidente e Vice-Presidente da República nos crimes de responsabilidade;
+- Ministros de Estado e Comandantes da Marinha, do Exército e da Aeronáutica nos crimes de responsabilidade conexos com os do Presidente ou Vice-Presidente;
+- Ministros do <abbr title="Supremo Tribunal Federal">STF</abbr>, membros do <abbr title="Conselho Nacional de Justiça">CNJ</abbr> e do <abbr title="Conselho Nacional do Ministério Público">CNMP</abbr>, o <abbr title="Procurador-Geral da República">PGR</abbr> e o <abbr title="Advogado-Geral da União">AGU</abbr>, nos crimes de responsabilidade.
 
-Nos casos constitucionais de julgamento do Presidente e do Vice e de outras autoridades indicadas nos incisos I e II do art. 52:
+Nos casos dos incisos I e II do artigo 52:
 
-- preside a sessão o **Presidente do STF**;
-- a condenação exige **2/3 dos votos do Senado**;
-- a sanção política constitucional limita-se à perda do cargo, com inabilitação por oito anos para função pública, sem prejuízo das demais sanções judiciais cabíveis.
+- funciona como Presidente da sessão o Presidente do <abbr title="Supremo Tribunal Federal">STF</abbr>;
+- a condenação exige **dois terços dos votos do Senado**;
+- a condenação política limita-se à perda do cargo, com <abbr title="Impedimento temporário de exercer função pública">inabilitação</abbr> por **oito anos** para o exercício de função pública, sem prejuízo das demais sanções judiciais cabíveis.
 
-### Câmara × Senado — prova clássica
+### 7.2 Aprovação de autoridades
 
-```text
-CÂMARA → autoriza instauração contra Presidente → 2/3
-SENADO → processa e julga crime de responsabilidade
-```
+O Senado aprova previamente, por **voto secreto, após <abbr title="Questionamento público do indicado antes da votação">arguição pública</abbr>**, a escolha das autoridades indicadas no artigo 52, III, como magistrados nos casos constitucionais, Ministros do <abbr title="Tribunal de Contas da União">TCU</abbr> indicados pelo Presidente da República, Governador de Território, presidente e diretores do banco central e <abbr title="Procurador-Geral da República">PGR</abbr>, além de outros cargos previstos em lei.
 
----
+Para chefes de missão diplomática de caráter permanente, a Constituição exige **voto secreto após arguição em sessão secreta**.
 
-# Parte IV — Deputados e senadores
+### 7.3 Dívida, crédito, garantias e controle de constitucionalidade
 
-## 11. Imunidade material — art. 53, caput
+Também compete privativamente ao Senado:
 
-Deputados e senadores são invioláveis, **civil e penalmente**, por suas:
+- autorizar operações externas de natureza financeira de interesse da União, dos estados, do Distrito Federal, dos Territórios e dos municípios;
+- fixar limites globais para o montante da <abbr title="Obrigações financeiras apuradas segundo o conceito constitucional e fiscal">dívida consolidada</abbr>;
+- dispor sobre limites e condições de operações de crédito e de garantias nas hipóteses constitucionais;
+- estabelecer limites globais e condições para a <abbr title="Dívida representada por títulos emitidos pelo poder público">dívida mobiliária</abbr> dos estados, do Distrito Federal e dos municípios;
+- suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do <abbr title="Supremo Tribunal Federal">STF</abbr>;
+- aprovar, por **maioria absoluta e voto secreto**, a exoneração de ofício do <abbr title="Procurador-Geral da República">PGR</abbr> antes do término do mandato;
+- elaborar seu <abbr title="Normas de organização e funcionamento interno da Casa">regimento interno</abbr> e dispor sobre sua própria organização e serviços;
+- eleger membros do Conselho da República, nos termos constitucionais.
 
-- opiniões;
-- palavras;
-- votos.
+Desde a <abbr title="Emenda Constitucional">EC</abbr> número 132/2023, cabe ainda ao Senado **avaliar periodicamente a funcionalidade do Sistema Tributário Nacional**, sua estrutura e seus componentes, e o desempenho das administrações tributárias dos entes federativos.
 
-A proteção está ligada à função parlamentar. Em prova objetiva, a regra constitucional deve ser distinguida de uma suposta imunidade geral para qualquer conduta do parlamentar.
+## 8. Artigo 53: imunidades protegem o mandato, não criam irresponsabilidade geral
 
----
+As prerrogativas parlamentares existem para proteger o exercício independente do Poder Legislativo. Elas não significam que qualquer ato de um Deputado ou Senador fique fora do Direito.
 
-## 12. Foro e imunidade formal — art. 53
+### 8.1 Imunidade material: opiniões, palavras e votos
 
-### 12.1 Julgamento perante o STF
+Deputados e Senadores são invioláveis, **civil e penalmente**, por quaisquer de suas opiniões, palavras e votos.
 
-A literalidade do § 1º prevê que deputados e senadores, desde a expedição do diploma, serão submetidos a julgamento perante o **STF**. A incidência concreta do foro deve ser lida em conjunto com a jurisprudência constitucional aplicável, sem converter este tópico de noções em estudo aprofundado de competência penal.
+Essa é a <abbr title="Proteção contra responsabilização civil e penal por manifestações abrangidas pelo mandato">imunidade material</abbr>. Na aplicação do <abbr title="Supremo Tribunal Federal">STF</abbr>, manifestações fora do recinto parlamentar precisam guardar conexão com o exercício da função ou ter sido proferidas em razão dela. A garantia protege a função parlamentar; não funciona como escudo para condutas estranhas ao mandato.
 
-### 12.2 Prisão
+### 8.2 Foro parlamentar: literalidade constitucional e regra aplicada pelo <abbr title="Supremo Tribunal Federal">STF</abbr>
 
-Desde a expedição do diploma, membros do Congresso não podem ser presos, salvo em **flagrante de crime inafiançável**.
+O § 1º do artigo 53 afirma que Deputados e Senadores, desde a <abbr title="Formalização da eleição pela Justiça Eleitoral">expedição do diploma</abbr>, serão submetidos a julgamento perante o <abbr title="Supremo Tribunal Federal">STF</abbr>.
 
-Nesse caso:
+Para a aplicação concreta, é necessário acrescentar a jurisprudência vigente no corte. Em 2025, o <abbr title="Supremo Tribunal Federal">STF</abbr> fixou que o <abbr title="Competência de tribunal determinada pelo cargo e pela relação do fato com a função">foro por prerrogativa de função</abbr> alcança crimes **praticados no cargo e em razão das funções** e **subsiste mesmo após o afastamento do cargo**, ainda que o inquérito ou a ação penal comecem depois de encerrado seu exercício.
 
-- os autos são remetidos em **24 horas** à Casa respectiva;
-- a Casa decide sobre a prisão pelo voto da **maioria de seus membros**.
+Portanto, em questão de literalidade, reconheça o texto do § 1º; em questão sobre a regra jurisprudencial, verifique **quando o crime foi praticado e sua relação com a função**.
 
----
+### 8.3 Prisão: exceção restrita
 
-## 13. Sustação de ação penal
+Desde a <abbr title="Formalização da eleição pela Justiça Eleitoral">expedição do diploma</abbr>, membros do Congresso Nacional não podem ser presos, salvo em **<abbr title="Situação em que a pessoa é surpreendida nas hipóteses legais imediatamente ligadas ao crime">flagrante</abbr> de crime <abbr title="Crime para o qual a ordem jurídica não admite fiança">inafiançável</abbr>**.
 
-Recebida denúncia contra deputado ou senador por crime ocorrido **após a diplomação**, o STF dá ciência à Casa respectiva.
+Nessa hipótese:
+
+- os autos devem ser remetidos em **24 horas** à Casa respectiva;
+- a Casa resolve sobre a prisão pelo voto da **maioria de seus membros**.
+
+### 8.4 Sustação da ação penal
+
+Recebida denúncia contra Deputado ou Senador por crime ocorrido **após a <abbr title="Formalização da eleição pela Justiça Eleitoral">diplomação</abbr>**, o <abbr title="Supremo Tribunal Federal">STF</abbr> dá ciência à Casa respectiva.
 
 A Casa pode sustar o andamento da ação:
 
-- por iniciativa de **partido político nela representado**;
+- por iniciativa de partido político nela representado;
 - pelo voto da **maioria de seus membros**;
 - até a decisão final.
 
-O pedido de sustação deve ser apreciado em **45 dias improrrogáveis** contados do recebimento pela Mesa Diretora.
+O pedido deve ser apreciado em **45 dias improrrogáveis** contados de seu recebimento pela Mesa Diretora. A sustação suspende a <abbr title="Perda da possibilidade de punir pelo decurso do prazo legal">prescrição</abbr> enquanto durar o mandato.
 
-A sustação suspende a **prescrição** enquanto durar o mandato.
+Foro, prisão e sustação são regras diferentes. A existência de uma não deve ser usada para inventar requisitos nas outras.
 
----
+### 8.5 Testemunho, Forças Armadas e estado de sítio
 
-## 14. Outras garantias do art. 53
+Deputados e Senadores não são obrigados a testemunhar sobre informações recebidas ou prestadas em razão do mandato, nem sobre as pessoas que lhes confiaram ou deles receberam essas informações.
 
-### 14.1 Dever de testemunhar
+A incorporação às Forças Armadas depende de **prévia licença da Casa respectiva**, ainda que o parlamentar seja militar e mesmo em tempo de guerra.
 
-Deputados e senadores não são obrigados a testemunhar sobre:
+As imunidades subsistem durante o estado de sítio. Só podem ser suspensas por voto de **dois terços dos membros da Casa respectiva**, nos casos de atos praticados fora do recinto do Congresso Nacional que sejam incompatíveis com a execução da medida.
 
-- informações recebidas ou prestadas em razão do mandato;
-- pessoas que lhes confiaram ou deles receberam essas informações.
+## 9. Artigo 54: diploma e posse acionam proibições diferentes
 
-### 14.2 Incorporação às Forças Armadas
+As <abbr title="Proibições constitucionais ligadas ao exercício simultâneo de atividades ou posições">incompatibilidades parlamentares</abbr> começam em dois momentos.
 
-A incorporação às Forças Armadas, ainda que o parlamentar seja militar e mesmo em tempo de guerra, depende de **prévia licença da Casa respectiva**.
+### 9.1 Desde a <abbr title="Formalização da eleição pela Justiça Eleitoral">expedição do diploma</abbr>
 
-### 14.3 Estado de sítio
+Deputados e Senadores não podem:
 
-As imunidades subsistem durante o estado de sítio. Só podem ser suspensas:
+- firmar ou manter contrato com pessoa jurídica de direito público, autarquia, empresa pública, sociedade de economia mista ou concessionária de serviço público, salvo quando o contrato obedecer a cláusulas uniformes;
+- aceitar ou exercer cargo, função ou emprego remunerado, inclusive os de que sejam demissíveis <abbr title="Livremente, sem necessidade de motivação específica para a exoneração">ad nutum</abbr>, nas entidades indicadas pela Constituição.
 
-- pelo voto de **2/3 dos membros da Casa respectiva**;
-- em relação a atos praticados **fora do recinto do Congresso Nacional**;
-- quando incompatíveis com a execução da medida.
+### 9.2 Desde a posse
 
----
-
-# Parte V — Incompatibilidades e mandato
-
-## 15. Incompatibilidades — art. 54
-
-A Constituição divide as proibições em dois momentos.
-
-### 15.1 Desde a expedição do diploma
-
-Deputados e senadores não podem:
-
-- firmar ou manter contrato com pessoa jurídica de direito público, autarquia, empresa pública, sociedade de economia mista ou concessionária de serviço público, **salvo contrato de cláusulas uniformes**;
-- aceitar ou exercer cargo, função ou emprego remunerado, inclusive demissível `ad nutum`, nessas entidades.
-
-### 15.2 Desde a posse
-
-Não podem:
+Também não podem:
 
 - ser proprietários, controladores ou diretores de empresa favorecida por contrato com pessoa jurídica de direito público, nem nela exercer função remunerada;
-- ocupar cargo ou função demissível `ad nutum` nas entidades indicadas no inciso I;
-- patrocinar causa em que essas entidades sejam interessadas;
-- ser titulares de **mais de um cargo ou mandato público eletivo**.
+- ocupar cargo ou função demissível <abbr title="Livremente, sem necessidade de motivação específica para a exoneração">ad nutum</abbr> nas entidades constitucionais indicadas;
+- patrocinar causa em que qualquer dessas entidades seja interessada;
+- ser titulares de mais de **um cargo ou mandato público eletivo**.
 
-### Matriz temporal
+O critério temporal é decisivo: algumas proibições começam na **<abbr title="Formalização da eleição pela Justiça Eleitoral">diplomação</abbr>**; outras, apenas na **posse**.
 
-```text
-DIPLOMA → contratos + cargo/função/emprego remunerado nas entidades indicadas
-POSSE   → direção/controle empresarial + ad nutum + patrocínio + mais de um mandato/cargo eletivo
-```
+## 10. Artigo 55: perder o mandato pode depender da Casa ou da Mesa
 
----
+Perderá o mandato o Deputado ou Senador:
 
-## 16. Perda do mandato — art. 55
-
-Perderá o mandato o deputado ou senador:
-
-1. que infringir incompatibilidade do art. 54;
-2. cujo procedimento for incompatível com o decoro parlamentar;
-3. que faltar, em cada sessão legislativa, à **terça parte das sessões ordinárias** da Casa, salvo licença ou missão autorizada;
+1. que infringir qualquer das proibições do artigo 54;
+2. cujo procedimento for declarado incompatível com o <abbr title="Padrão de conduta exigido para a dignidade do mandato parlamentar">decoro parlamentar</abbr>;
+3. que deixar de comparecer, em cada sessão legislativa, à **terça parte das sessões ordinárias** da Casa a que pertencer, salvo licença ou missão autorizada;
 4. que perder ou tiver suspensos os direitos políticos;
-5. quando o decretar a Justiça Eleitoral nos casos constitucionais;
-6. que sofrer condenação criminal transitada em julgado.
+5. quando o decretar a Justiça Eleitoral, nos casos constitucionais;
+6. que sofrer condenação criminal <abbr title="Tornada definitiva após o encerramento das vias recursais cabíveis">transitada em julgado</abbr>.
 
-### 16.1 Decisão da Casa × declaração pela Mesa
+Para o inciso II, a própria Constituição considera incompatível com o decoro, além dos casos definidos no regimento interno, o abuso das prerrogativas parlamentares ou a percepção de vantagens indevidas.
 
-| Hipóteses | Regra |
-|---|---|
-| incisos I, II e VI | perda **decidida pela Casa**, por maioria absoluta, assegurada ampla defesa |
-| incisos III, IV e V | perda **declarada pela Mesa**, assegurada ampla defesa |
+### 10.1 Decisão política da Casa
 
-No primeiro grupo, a provocação cabe à respectiva Mesa ou a partido político representado no Congresso Nacional. No segundo, a Mesa pode agir de ofício ou mediante provocação de membro da Casa ou de partido representado no Congresso.
+Nos casos dos incisos **I, II e VI**, a perda é **decidida pela Câmara ou pelo Senado**, por **maioria absoluta**, mediante provocação constitucionalmente legitimada e com <abbr title="Direito de utilizar os meios e recursos de defesa admitidos">ampla defesa</abbr>.
 
-**Decoro parlamentar:** inclui, além das hipóteses regimentais, abuso das prerrogativas parlamentares ou percepção de vantagens indevidas.
+### 10.2 Declaração pela Mesa
 
-A renúncia apresentada por parlamentar submetido a processo que vise ou possa levar à perda do mandato tem seus efeitos suspensos até as deliberações finais previstas no art. 55.
+Nos casos dos incisos **III, IV e V**, a perda é **declarada pela Mesa da Casa respectiva**, de ofício ou mediante provocação prevista na Constituição, assegurada <abbr title="Direito de utilizar os meios e recursos de defesa admitidos">ampla defesa</abbr>.
 
----
+Não confunda, portanto:
 
-## 17. Hipóteses em que não há perda do mandato — art. 56
+- **I, II e VI → Casa decide**;
+- **III, IV e V → Mesa declara**.
 
-Não perde o mandato o deputado ou senador:
+A renúncia de parlamentar submetido a processo que vise ou possa levar à perda do mandato tem seus efeitos suspensos até as deliberações finais previstas no artigo 55.
 
-- investido em cargo de Ministro de Estado, Governador de Território, Secretário de Estado, do DF ou de Território, Secretário de Prefeitura de Capital ou chefe de missão diplomática temporária;
-- licenciado pela Casa por motivo de doença;
-- licenciado, **sem remuneração**, para tratar de interesse particular, desde que o afastamento não ultrapasse **120 dias por sessão legislativa**.
+> **Sessão legislativa x legislatura:** a legislatura dura quatro anos. A expressão “sessão legislativa”, usada na regra de faltas e na licença do artigo 56, refere-se ao ciclo anual de trabalhos legislativos. Essa distinção basta aqui; o calendário detalhado do artigo 57 pertence a outro recorte.
 
-### 17.1 Suplente
+## 11. Artigo 56: afastar-se não significa necessariamente perder o mandato
 
-O suplente será convocado nos casos de:
+O Deputado ou Senador não perde o mandato quando:
+
+- é investido no cargo de Ministro de Estado, Governador de Território, Secretário de Estado, do Distrito Federal ou de Território, Secretário de Prefeitura de Capital ou chefe de missão diplomática temporária;
+- é licenciado pela Casa por motivo de doença;
+- é licenciado, sem remuneração, para tratar de interesse particular, desde que o afastamento não ultrapasse **120 dias por sessão legislativa**.
+
+O <abbr title="Candidato eleito para substituir o titular nas hipóteses constitucionais">suplente</abbr> é convocado nos casos de:
 
 - vaga;
-- investidura nas funções previstas no art. 56;
+- investidura nas funções constitucionais do artigo 56;
 - licença superior a **120 dias**.
 
-Ocorrendo vaga sem suplente, haverá eleição para preenchê-la se faltarem **mais de 15 meses** para o término do mandato.
+Se ocorrer vaga e não houver suplente, haverá eleição para preenchê-la quando faltarem **mais de 15 meses** para o término do mandato.
 
-Na hipótese de investidura nas funções do inciso I, o parlamentar pode optar pela **remuneração do mandato**.
+Na hipótese de investidura nas funções previstas no inciso I, o parlamentar pode optar pela **remuneração do mandato**.
 
----
+## 12. Como resolver a questão sem misturar órgãos e prerrogativas
 
-# Parte VI — Como resolver questões
+Use uma sequência curta de decisão:
 
-## 18. Primeiro identifique o órgão
+1. **Estrutura:** a questão fala da composição das Casas? Câmara representa o povo; Senado representa estados e Distrito Federal.
+2. **Competência:** há sanção presidencial? Se sim, pense primeiro no artigo 48. Se não, identifique se a competência é do Congresso, da Câmara ou do Senado.
+3. **Controle:** convocação e pedido de informação remetem ao artigo 50, mas quem pratica cada instrumento é diferente.
+4. **Parlamentar:** se o problema envolve opinião, prisão, processo penal ou testemunho, localize o artigo 53 e separe imunidade material, foro, prisão e sustação.
+5. **Momento:** em incompatibilidades, pergunte se a regra começa na <abbr title="Formalização da eleição pela Justiça Eleitoral">diplomação</abbr> ou na posse.
+6. **Perda do mandato:** identifique o inciso e só depois pergunte se a Casa **decide** ou a Mesa **declara**.
+7. **Afastamento:** no artigo 56, verifique motivo, duração e necessidade de convocar suplente.
 
-Antes de responder, classifique o enunciado:
-
-```text
-CONGRESSO → arts. 48–50
-CÂMARA    → art. 51
-SENADO    → art. 52
-PARLAMENTAR → arts. 53–56
-```
-
-Erros de prova geralmente trocam o órgão competente, o quórum ou o marco temporal da regra.
-
-## 19. Números essenciais
-
-| Regra | Número |
-|---|---:|
-| legislatura | 4 anos |
-| mandato de senador | 8 anos |
-| senadores por Estado/DF | 3 |
-| suplentes por senador | 2 |
-| deputados por Estado/DF | 8 a 70 |
-| deputados por Território | 4 |
-| ausência do Presidente/Vice do País | mais de 15 dias exige autorização |
-| pedido escrito de informação | 30 dias |
-| autorização da Câmara do art. 51, I | 2/3 |
-| contas presidenciais omitidas | 60 dias após abertura da sessão legislativa |
-| sustação de ação penal | maioria da Casa; pedido em 45 dias |
-| suspensão de imunidades no estado de sítio | 2/3 da Casa |
-| faltas que podem causar perda | 1/3 das sessões ordinárias |
-| interesse particular sem perda | até 120 dias por sessão legislativa |
-| eleição por vaga sem suplente | se faltarem mais de 15 meses |
-
----
-
-## 20. Pegadinhas finais
-
-1. **Congresso ≠ Câmara ≠ Senado.**
-2. Câmara representa o **povo**; Senado representa **Estados e DF**.
-3. Legislatura de 4 anos não se confunde com mandato de senador de 8 anos.
-4. Art. 48 envolve sanção; arts. 49, 51 e 52 não.
-5. Câmara **autoriza** instauração contra Presidente; Senado **processa e julga** crime de responsabilidade.
-6. Imunidade material não equivale a licença para qualquer conduta privada.
-7. Prisão parlamentar: somente flagrante de crime inafiançável, com autos à Casa em 24 horas.
-8. Sustação da ação penal depende de iniciativa de partido representado e maioria da Casa.
-9. Incompatibilidades mudam conforme **diploma** ou **posse**.
-10. Perda dos incisos I, II e VI do art. 55 é **decidida pela Casa**; III a V é **declarada pela Mesa**.
-11. Licença por interesse particular só preserva o mandato dentro do limite constitucional de 120 dias por sessão legislativa.
-
----
+Os erros mais frequentes surgem da troca de **órgão competente, quórum, prazo, marco temporal ou natureza da prerrogativa**. O mapa institucional vem antes da memorização dos números.
