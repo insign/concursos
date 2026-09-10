@@ -8,208 +8,178 @@ storageId: tec-retencao-tributos-150
 
 # Retenção e recolhimento de tributos incidentes sobre bens e serviços
 
-## 1. Recorte e corte temporal
+## 1. Antes de calcular: por que o valor bruto pode não chegar inteiro ao credor?
 
-Este assunto cobre integralmente o item **2 — Retenção e recolhimento de tributos incidentes sobre bens e serviços**, em **Conhecimentos específicos — Execução Orçamentária e Financeira** do Cargo 16. O foco é operacional: diante de um pagamento, identificar **se há retenção, qual tributo, quem é o responsável, como se obtém a base e a alíquota, quando se recolhe e qual prova documental deve permanecer no processo**.
+Considere uma situação **hipotética**: uma unidade pública apura que deve pagar R$ 100.000 a uma empresa por um serviço regularmente executado. Esse é o valor bruto da obrigação. Antes do desembolso, porém, o pagador precisa verificar se alguma norma o obriga a separar parte desse valor para fins tributários.
 
-O corte normativo é **6 de julho de 2026**, data do Edital nº 1. O assunto 149 já cobre empenho, liquidação e pagamento; o 151 cuidará de <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr>/<abbr title="Contas a Pagar e a Receber">CPR</abbr>. Aqui, a retenção entra como controle tributário associado à liquidação e ao pagamento.
+Quando isso ocorre, há duas operações diferentes:
 
-> **Ideia central:** valor bruto da obrigação pode ser diferente do valor líquido entregue ao credor. Retenção separa parcela do pagamento; recolhimento destina essa parcela ao ente competente.
+- **retenção:** a parcela tributária é destacada do valor que seria entregue ao credor;
+- **recolhimento:** a parcela retida é destinada ao ente ou sistema arrecadador competente.
 
-## 2. Retenção × recolhimento
+Por isso, **incidência tributária não significa retenção automática pelo tomador**: é preciso norma que atribua ao pagador essa responsabilidade.
 
-| Etapa | Função | Pergunta de prova |
-|---|---|---|
-| **retenção** | destacar/subtrair do valor devido a parcela tributária prevista em lei | quanto não será entregue ao credor? |
-| **recolhimento** | transferir a parcela retida ao ente/sistema arrecadador competente | para onde e quando vai o valor? |
-
-A incidência de um tributo **não cria automaticamente** dever de retenção pelo tomador. É necessária norma que atribua responsabilidade tributária.
+O mecanismo é:
 
 ```text
-contrato + documento fiscal + ateste
-              ↓
-           liquidação
-              ↓
-identificar bem/serviço + beneficiário + regime
-              ↓
- testar retenções: IR | previdenciária | ISS | outras legais
-              ↓
- bruto − retenções cabíveis = líquido ao credor
-              ↓
- recolhimento + obrigação acessória + comprovantes
+documento fiscal + comprovação da obrigação
+                 ↓
+       identificar a operação
+                 ↓
+   testar cada retenção separadamente
+                 ↓
+valor bruto − retenções cabíveis = valor líquido
+                 ↓
+recolher + escriturar + comprovar
 ```
 
-Uma mesma nota pode gerar mais de uma retenção, desde que **cada uma** tenha fundamento próprio.
+Uma operação pode gerar várias retenções, mas cada uma precisa de **fundamento próprio**; não existe “pacote padrão” para todo pagamento público.
 
-## 3. IRRF em pagamentos por bens e serviços
+> **Corte da prova:** este capítulo considera a legislação em vigor em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A reforma tributária do consumo é tratada conforme o estágio de transição existente nessa data; alterações posteriores não são projetadas retroativamente sobre o corte.
 
-### 3.1. Constituição e Tema 1.130 do STF
+Antes de procurar uma alíquota, identifique **quem paga, quem recebe, o objeto e a norma que atribui a retenção**. Essa ordem evita usar uma regra verdadeira no pagamento errado.
 
-O art. 157, I, da Constituição atribui aos estados e ao Distrito Federal o produto do imposto de renda retido na fonte sobre rendimentos pagos por eles, suas autarquias e fundações. No **Tema 1.130 (RE 1.293.453)**, o <abbr title="Supremo Tribunal Federal">STF</abbr> fixou que pertence a estados, DF e municípios o IRRF incidente sobre valores pagos por eles, suas autarquias e fundações a pessoas físicas ou jurídicas contratadas para fornecimento de bens ou prestação de serviços, nos termos dos arts. 157, I, e 158, I, da Constituição.
+## 2. Imposto de renda: primeiro separe o regime federal do subnacional
 
-### 3.2. IN RFB nº 1.234/2012: federal ≠ subnacional
+### 2.1 Titularidade da receita — Tema 1.130 do <abbr title="Supremo Tribunal Federal">STF</abbr>
 
-A principal pegadinha é transportar o regime federal para o estadual:
+Os artigos 157, inciso I, e 158, inciso I, da Constituição tratam da receita de imposto de renda retido na fonte pertencente, respectivamente, aos estados e ao Distrito Federal e aos municípios nas hipóteses constitucionais.
 
-| Pagador abrangido | Núcleo da IN RFB nº 1.234/2012 |
+No Tema 1.130 (Recurso Extraordinário 1.293.453), o <abbr title="Supremo Tribunal Federal">STF</abbr> fixou que pertence aos municípios, estados e Distrito Federal a receita de imposto de renda retido na fonte sobre valores pagos por eles, suas autarquias e fundações a contratados para bens ou serviços.
+
+### 2.2 Instrução Normativa <abbr title="Receita Federal do Brasil">RFB</abbr> nº 1.234/2012: dois alcances diferentes
+
+A Instrução Normativa da Receita Federal nº 1.234/2012 contém regimes que não podem ser misturados.
+
+| Pagador abrangido | Núcleo da regra |
 |---|---|
-| órgãos/entidades **federais** do art. 1º | art. 2º: retenção de **IR + CSLL + Cofins + PIS/Pasep** |
-| estados, DF, municípios e autarquias/fundações abrangidas | art. 2º-A: retenção de **IR** |
+| órgãos e entidades federais alcançados pelo artigo 2º | retenções de imposto de renda, <abbr title="Contribuição Social sobre o Lucro Líquido">CSLL</abbr>, <abbr title="Contribuição para o Financiamento da Seguridade Social">Cofins</abbr> e <abbr title="Programa de Integração Social e Programa de Formação do Patrimônio do Servidor Público">PIS/Pasep</abbr>, conforme a norma |
+| órgãos da administração direta dos estados, Distrito Federal e municípios e entidades abrangidas pelo artigo 2º-A | retenção do **imposto de renda** nos pagamentos a pessoas jurídicas pelo fornecimento de bens ou prestação de serviços |
 
-Logo, o art. 2º-A **não replica automaticamente** o pacote federal de quatro tributos.
+A consequência central é: **o artigo 2º-A não replica automaticamente o pacote federal de quatro tributos**.
 
-### 3.3. Base e alíquota do IR para pessoa jurídica
+### 2.3 Pessoa jurídica: primeiro enquadre a natureza, depois aplique o percentual
 
-O art. 3º-A determina que a retenção do art. 2º-A seja feita sobre o **valor a ser pago** pelo bem ou serviço, usando a alíquota da **coluna 02 — IR do Anexo I**, conforme a natureza da operação.
+O artigo 3º-A determina que a retenção do artigo 2º-A seja calculada sobre o **valor a ser pago** pelo bem ou serviço, com a alíquota da coluna 02 — imposto de renda — do Anexo I, conforme a natureza do bem fornecido ou do serviço prestado.
 
-Consequências de prova:
+Logo, não existe alíquota única para qualquer contratação; contratos de naturezas diferentes podem levar a percentuais distintos. Pagamento antecipado, <abbr title="Reduções do valor reconhecido para pagamento">glosas</abbr>, acréscimos e características do documento fiscal seguem as regras próprias da Instrução Normativa.
 
-- não existe uma alíquota única para toda contratação;
-- a natureza do bem/serviço define o enquadramento;
-- contratos ou itens de naturezas distintas podem usar percentuais distintos;
-- a técnica segura é identificar a natureza e consultar a coluna de IR do Anexo I.
+A disciplina prevê hipóteses de não retenção, inclusive para pessoa jurídica optante pelo **Simples Nacional**, observada a comprovação. Isso não afasta automaticamente retenção previdenciária ou de <abbr title="Imposto sobre Serviços de Qualquer Natureza">ISS</abbr>.
 
-### 3.4. Pagamento antecipado, glosa e acréscimos
+### 2.4 Pessoa física segue outra lógica de cálculo
 
-Pelas remissões do art. 2º-A às regras do art. 2º, quando aplicáveis:
+O Tema 1.130 também abrange pessoas físicas, mas a tabela do artigo 3º-A/Anexo I é voltada a pagamentos a pessoas jurídicas. Para pessoa física, aplica-se a legislação correspondente ao rendimento.
 
-- pagamento antecipado também pode sofrer retenção;
-- o documento fiscal deve refletir as informações exigidas pela disciplina aplicável;
-- havendo **glosa** sem nova nota fiscal, deve-se observar a regra própria da IN para o documento original;
-- juros e multas por atraso entram na análise da base conforme a regra da IN.
+## 3. Maranhão: o que a Portaria Conjunta <abbr title="Secretaria de Estado do Planejamento e Orçamento">SEPLAN</abbr>/<abbr title="Secretaria de Estado da Fazenda">SEFAZ</abbr> nº 001/2022 efetivamente determina
 
-### 3.5. Não retenção e Simples Nacional
+A Portaria Conjunta <abbr title="Secretaria de Estado do Planejamento e Orçamento">SEPLAN</abbr>/<abbr title="Secretaria de Estado da Fazenda">SEFAZ</abbr> nº 001, de 22 de agosto de 2022, publicada em 26 de agosto, disciplina a retenção e o recolhimento de imposto de renda pelas **unidades gestoras de orçamento e finanças da administração pública direta, autárquica e fundacional do Estado** abrangidas pela norma.
 
-A IN contém hipóteses de não retenção. Entre as relevantes, há pagamento a **pessoa jurídica optante pelo Simples Nacional**, nos termos do art. 4º, XI, observada a comprovação da condição.
+Para essas unidades, o fluxo é objetivo:
 
-Isso **não** significa ausência automática de retenção previdenciária ou de ISS, que possuem regimes próprios.
+1. reter o imposto de renda no **ato do pagamento**, inclusive antecipado;
+2. recolher o valor **imediatamente ao Tesouro Estadual**, por meio do <abbr title="Sistema Integrado de Planejamento e Gestão Fiscal do Estado do Maranhão">SIGEF/MA</abbr>;
+3. anexar aos processos de pagamento os comprovantes de retenção e recolhimento;
+4. observar a Instrução Normativa da Receita Federal nº 1.234/2012 e suas alterações.
 
-## 4. Regra operacional no Estado do Maranhão
+A Portaria exclui de suas determinações as empresas públicas e sociedades de economia mista estaduais. Seu alcance deve ser lido como publicado: **a Portaria, sozinha, não prova que toda rotina nela descrita seja automaticamente a disciplina orgânica própria do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>**.
 
-A **Portaria Conjunta SEPLAN/SEFAZ nº 001, de 22 de agosto de 2022, publicada em 26 de agosto de 2022**, disciplina, no âmbito por ela abrangido, retenção e recolhimento de IR em pagamentos a pessoas físicas e jurídicas decorrentes de bens e serviços.
+## 4. Retenção previdenciária: os 11% vêm depois do enquadramento
 
-Para as unidades gestoras da administração direta, autárquica e fundacional estadual alcançadas pela Portaria:
+### 4.1 A regra não alcança qualquer serviço
 
-1. o IR é retido no **ato do pagamento**, inclusive antecipado;
-2. o valor retido é **recolhido imediatamente ao Tesouro Estadual**, via **<abbr title="Sistema Integrado de Planejamento e Gestão Fiscal do Estado do Maranhão">SIGEF/MA</abbr>**;
-3. comprovantes de **retenção e recolhimento** são anexados ao processo de pagamento;
-4. os procedimentos observam a IN RFB nº 1.234/2012;
-5. a própria Portaria exclui de seu âmbito empresas públicas e sociedades de economia mista estaduais.
+O artigo 31 da Lei nº 8.212/1991 prevê retenção de **11%** do valor bruto da nota fiscal ou fatura na contratação de serviços executados mediante cessão de mão de obra, inclusive trabalho temporário. A Instrução Normativa da Receita Federal nº 2.110/2022 regulamenta as hipóteses de cessão de mão de obra e empreitada sujeitas à retenção.
 
-A norma também menciona pagamentos a **pessoas físicas**. Para PF, não se deve aplicar automaticamente a tabela do Anexo I concebida para pagamentos a PJ: base e alíquota dependem da legislação federal própria do rendimento.
+Assim, “é serviço?” não basta: é preciso saber se a forma de contratação e execução está em hipótese legal ou regulamentar de retenção.
 
-> **Memória operacional:** reter → recolher ao Tesouro estadual → comprovar no processo.
+**Cessão de mão de obra** envolve, em essência, trabalhadores à disposição da contratante para serviços contínuos. Na **empreitada**, o enquadramento depende das hipóteses regulamentares. Compra pura de bens não sofre 11% apenas por haver pagamento ao fornecedor.
 
-## 5. Retenção previdenciária
+### 4.2 Dispensas são condicionadas
 
-### 5.1. Regra de 11%
+A Instrução Normativa nº 2.110/2022 contém hipóteses específicas em que a retenção é dispensada, observados todos os requisitos. Entre elas estão situações relacionadas:
 
-O art. 31 da Lei nº 8.212/1991 determina que a empresa contratante de serviços executados mediante **cessão de mão de obra**, inclusive trabalho temporário, retenha **11% do valor bruto da nota fiscal ou fatura** e recolha o valor em nome da prestadora. A IN RFB nº 2.110/2022 regulamenta a retenção em cessão de mão de obra e empreitada.
+- ao valor calculado da retenção abaixo do limite mínimo de recolhimento;
+- à contratada sem empregados, com serviço prestado pessoalmente pelo titular ou sócio e faturamento dentro do limite regulamentar, de forma cumulativa;
+- a determinados serviços profissionais regulamentados ou de treinamento e ensino prestados pessoalmente pelos sócios, nas condições exigidas.
 
-> **Pegadinha:** 11% não incide sobre “todo serviço”. Antes de calcular, é preciso enquadrar a prestação nas hipóteses legais/regulamentares.
+**Exceção condicionada não vira dispensa geral.**
 
-### 5.2. Cessão de mão de obra × empreitada
+### 4.3 Simples Nacional: o Anexo IV muda a resposta previdenciária
 
-Em síntese:
+Ser optante pelo Simples Nacional não resolve todos os tributos de uma vez. Para a retenção previdenciária, empresas tributadas na forma do **Anexo IV** da Lei Complementar nº 123/2006 podem ficar sujeitas à retenção quando prestarem serviços mediante cessão de mão de obra ou empreitada enquadrados nas regras aplicáveis.
 
-- **cessão de mão de obra** envolve trabalhadores colocados à disposição do contratante para execução de serviços contínuos, conforme os elementos legais;
-- **empreitada**, para fins das hipóteses regulamentadas, exige analisar objeto e forma de execução segundo a IN nº 2.110/2022.
+Portanto, no Simples, verifique **atividade, anexo e eventual cessão/empreitada sujeita** antes de concluir sobre a retenção.
 
-Mera compra de bens, sem serviço enquadrado, não gera retenção previdenciária de 11% só porque existe pagamento a fornecedor.
+### 4.4 Prazo e escrituração
 
-### 5.3. Dispensas regulamentares
+A Lei nº 8.212/1991 fixa, como regra, recolhimento até o **dia 20 do mês subsequente ao da emissão da nota fiscal ou fatura**, antecipado para o dia útil imediatamente anterior quando não houver expediente bancário.
 
-A IN nº 2.110/2022 prevê dispensas específicas, entre elas, observados seus requisitos:
+Na <abbr title="Escrituração Fiscal Digital de Retenções e Outras Informações Fiscais">EFD-Reinf</abbr>, a retenção previdenciária sobre serviços tomados é informada no evento <abbr title="Evento de retenção previdenciária sobre serviços tomados">R-2010</abbr>. Esses dados alimentam a <abbr title="Declaração de Débitos e Créditos Tributários Federais">DCTFWeb</abbr> conforme a disciplina vigente.
 
-- valor correspondente a 11% inferior ao limite mínimo de recolhimento em documento arrecadatório;
-- contratada sem empregados, serviço prestado pessoalmente por titular/sócio e faturamento do mês anterior dentro do limite regulamentar, cumulativamente;
-- certos serviços profissionais regulamentados ou de treinamento/ensino prestados pessoalmente pelos sócios, sem empregados ou outros contribuintes individuais, mediante comprovação.
+## 5. <abbr title="Imposto sobre Serviços de Qualquer Natureza">ISS</abbr>: local da incidência e responsabilidade são perguntas separadas
 
-Não transforme exceção condicionada em dispensa geral.
+O <abbr title="Imposto sobre Serviços de Qualquer Natureza">ISS</abbr> é tributo dos municípios e do Distrito Federal. A Lei Complementar nº 116/2003 exige separar três questões.
 
-### 5.4. Simples Nacional
+### 5.1 Primeiro: existe serviço tributável e onde o imposto é devido?
 
-O Simples não fornece resposta única. Em matéria previdenciária, **optantes tributados pelo Anexo IV**, quando prestam serviço mediante cessão de mão de obra/empreitada sujeito à regra, podem sofrer retenção de 11%. Optantes cujo recolhimento previdenciário ocorre dentro do Simples, fora das hipóteses aplicáveis, não devem ser tratados como se estivessem automaticamente sujeitos ao art. 31.
+O artigo 5º estabelece, em regra, o **prestador** como contribuinte. O artigo 3º define o local do imposto por regra geral e exceções conforme o serviço.
 
-### 5.5. Prazo e obrigação acessória
+### 5.2 Depois: quem é responsável pelo recolhimento?
 
-A Lei nº 8.212/1991 fixa recolhimento, em regra, até o **dia 20 do mês subsequente ao da emissão da nota fiscal ou fatura**, antecipado para o dia útil imediatamente anterior quando não houver expediente bancário.
+Há dois caminhos que não devem ser confundidos:
 
-No ambiente atual, serviços tomados sujeitos à retenção são informados na **<abbr title="Escrituração Fiscal Digital de Retenções e Outras Informações Fiscais">EFD-Reinf</abbr>**, notadamente no evento **R-2010**, com reflexos na <abbr title="Declaração de Débitos e Créditos Tributários Federais">DCTFWeb</abbr> conforme a disciplina vigente.
+1. pelo **caput do artigo 6º**, município ou Distrito Federal pode, mediante lei, atribuir expressamente responsabilidade a terceiro vinculado ao <abbr title="Evento que faz nascer a obrigação tributária">fato gerador</abbr>;
+2. o **§ 2º do próprio artigo 6º** já atribui responsabilidade diretamente em hipóteses específicas, como serviço proveniente do exterior e determinados serviços listados na lei.
 
-## 6. ISS
+Por isso, é incompleto dizer que “o tomador só retém se houver lei municipal” como regra absoluta. Em muitos casos, será indispensável consultar a legislação local; em outros, a própria Lei Complementar já define responsabilidade.
 
-O <abbr title="Imposto sobre Serviços de Qualquer Natureza">ISS</abbr> é tributo municipal/DF. Pela LC nº 116/2003:
+A sequência segura é: **serviço da lista → local do imposto → contribuinte → responsabilidade na própria Lei Complementar ou na lei local → alíquota, prazo e procedimento**.
 
-- art. 5º: contribuinte é, em regra, o **prestador**;
-- art. 6º: município/DF pode, **mediante lei**, atribuir expressamente responsabilidade a terceiro vinculado ao fato gerador;
-- art. 3º: há regra geral de local do estabelecimento prestador e diversas exceções.
+Uma compra pura de bens não gera <abbr title="Imposto sobre Serviços de Qualquer Natureza">ISS</abbr> apenas porque houve pagamento.
 
-Assim, não existe regra nacional segundo a qual todo órgão público retém ISS de toda nota de serviço. O método é:
+## 6. <abbr title="Contribuição Social sobre o Lucro Líquido">CSLL</abbr>, <abbr title="Contribuição para o Financiamento da Seguridade Social">Cofins</abbr> e <abbr title="Programa de Integração Social e Programa de Formação do Patrimônio do Servidor Público">PIS/Pasep</abbr>: não transporte o pacote federal para o pagamento estadual
 
-1. identificar o serviço na lista da LC nº 116;
-2. determinar o município competente pelo art. 3º e exceções;
-3. verificar se a lei local atribui responsabilidade ao tomador;
-4. aplicar alíquota, prazo e procedimento da legislação competente.
+No artigo 2º da Instrução Normativa da Receita Federal nº 1.234/2012, <abbr title="Contribuição Social sobre o Lucro Líquido">CSLL</abbr>, <abbr title="Contribuição para o Financiamento da Seguridade Social">Cofins</abbr> e <abbr title="Programa de Integração Social e Programa de Formação do Patrimônio do Servidor Público">PIS/Pasep</abbr> aparecem juntamente com o imposto de renda no regime aplicável aos órgãos e entidades federais abrangidos.
 
-**Compra pura de bem não gera ISS** apenas porque há pagamento. Também não há alíquota ou prazo de retenção universais para memorizar sem a legislação municipal aplicável.
+No artigo 2º-A, destinado aos entes subnacionais e entidades ali alcançados, o comando específico é de **retenção do imposto de renda**.
 
-## 7. CSLL, Cofins e PIS/Pasep
+Portanto, em pagamento estadual, a simples existência dessas contribuições na Instrução Normativa não basta para afirmar sua retenção. É necessário identificar outro fundamento jurídico aplicável ao caso.
 
-No regime da IN nº 1.234/2012, essas contribuições integram o pacote de retenções do **regime federal** do art. 2º. Para os entes subnacionais abrangidos pelo art. 2º-A, a regra específica introduzida é a retenção do **IR**.
+## 7. <abbr title="Contribuição sobre Bens e Serviços">CBS</abbr> e <abbr title="Imposto sobre Bens e Serviços">IBS</abbr> no corte de 2026: transição, não substituição instantânea
 
-Portanto, em questão sobre pagamento estadual, não acrescente <abbr title="Contribuição Social sobre o Lucro Líquido">CSLL</abbr>, <abbr title="Contribuição Social para o Financiamento da Seguridade Social">Cofins</abbr> e <abbr title="Programa de Integração Social e Programa de Formação do Patrimônio do Servidor Público">PIS/Pasep</abbr> apenas porque aparecem na tabela federal. Outra hipótese legal específica deve ser identificada antes de afirmar retenção.
+Em orientação oficial atualizada antes do edital, a Receita Federal caracteriza **2026 como ano de teste** da <abbr title="Contribuição sobre Bens e Serviços">CBS</abbr> e do <abbr title="Imposto sobre Bens e Serviços">IBS</abbr>.
 
-## 8. CBS e IBS em 2026
+A disciplina de 2026 prevê obrigações documentais e, para quem cumpre as obrigações acessórias aplicáveis — ou quando ainda não existe obrigação definida —, dispensa de recolhimento de <abbr title="Contribuição sobre Bens e Serviços">CBS</abbr> e <abbr title="Imposto sobre Bens e Serviços">IBS</abbr> nos termos transitórios.
 
-No corte de 6/7/2026, orientação oficial da Receita Federal caracteriza **2026 como ano de teste/transição** da <abbr title="Contribuição Social sobre Bens e Serviços">CBS</abbr> e do <abbr title="Imposto sobre Bens e Serviços">IBS</abbr>. Há obrigações documentais conforme leiautes e regras aplicáveis, e o contribuinte que cumpre as obrigações acessórias previstas fica dispensado do recolhimento de IBS e CBS em 2026 nos termos da disciplina transitória.
+Isso não extinguiu em 2026 <abbr title="Imposto sobre Serviços de Qualquer Natureza">ISS</abbr>, <abbr title="Imposto sobre Circulação de Mercadorias e Serviços">ICMS</abbr>, imposto de renda ou retenção previdenciária; vale o cronograma de transição.
 
-ISS e ICMS ainda coexistem no período; a substituição gradual pelo IBS ocorre depois. Para este assunto, basta reconhecer a transição: ela **não elimina imediatamente** IRRF, retenção previdenciária e ISS.
+## 8. Um exemplo para juntar os testes sem misturá-los
 
-> **Pós-edital:** mudanças divulgadas após 6/7/2026 não são projetadas retroativamente sobre o recorte da prova.
+Retome o pagamento hipotético de **R$ 100.000**. Suponha que, **depois do enquadramento jurídico de cada tributo**, tenham sido apuradas retenções efetivamente cabíveis de:
 
-## 9. Matriz de decisão
+- R$ 4.800 de imposto de renda;
+- R$ 11.000 de contribuição previdenciária;
+- R$ 5.000 de <abbr title="Imposto sobre Serviços de Qualquer Natureza">ISS</abbr>.
 
-| Situação | IRRF | Previdenciária | ISS |
-|---|---|---|---|
-| compra de bem por ente estadual abrangido | testar art. 2º-A/Anexo I | não por mera compra | não por mera compra |
-| serviço de PJ | testar IR | testar cessão/empreitada | testar LC nº 116 + lei local |
-| cessão de mão de obra enquadrada | testar IR | em regra, 11%, salvo regra/exceção | pode coexistir, se cabível |
-| prestador do Simples | testar não retenção de IR | verificar atividade/Anexo IV | aplicar regime do ISS/Simples + lei local |
-| órgão federal | regime federal da IN nº 1.234 | testar regra previdenciária | testar regra municipal |
-
-## 10. Exemplo de pagamento líquido
-
-Uma unidade deve pagar **R$ 100.000** por serviço. Após o correto enquadramento, apura retenções hipotéticas e efetivamente cabíveis de R$ 4.800 de IR, R$ 11.000 previdenciários e R$ 5.000 de ISS:
+O valor líquido é:
 
 \[
 100.000 - 4.800 - 11.000 - 5.000 = 79.200
 \]
 
-O valor líquido seria R$ 79.200. O exemplo **não** afirma que as três retenções ou percentuais sempre coexistam; primeiro se valida o fundamento de cada uma.
+O exemplo ensina apenas a mecânica do valor líquido. Ele **não** afirma que esses percentuais ou essas três retenções coexistam em qualquer serviço. A conta só vem depois do enquadramento.
 
-## 11. Método de resolução
+## 9. Como resolver uma questão de retenções
 
-1. **Quem paga?** União ou ente subnacional?
-2. **Quem recebe?** PF, PJ, Simples, imune/isenta?
-3. **É bem ou serviço?** Qual a natureza?
-4. **IR:** há retenção e qual enquadramento?
-5. **Previdenciária:** há cessão/empreitada sujeita? Alguma dispensa?
-6. **ISS:** qual município é competente e a lei local responsabiliza o tomador?
-7. **Outras retenções:** há fundamento específico?
-8. **Líquido:** subtraia apenas retenções juridicamente cabíveis.
-9. **Recolhimento:** identifique ente, prazo, documento/sistema.
-10. **Comprovação:** preserve documento fiscal, memória de cálculo e comprovantes.
+Percorra sempre a mesma ordem:
 
-## 12. Pegadinhas
+1. **Quem paga?** Regime federal ou subnacional?
+2. **Quem recebe?** Pessoa física, pessoa jurídica, Simples Nacional?
+3. **Qual é o objeto?** Bem, serviço, cessão de mão de obra, empreitada?
+4. **Imposto de renda:** qual regra alcança o pagador e o beneficiário?
+5. **Previdenciária:** o serviço está entre as hipóteses sujeitas e há dispensa?
+6. **<abbr title="Imposto sobre Serviços de Qualquer Natureza">ISS</abbr>:** onde é devido e quem responde pelo recolhimento?
+7. **Outros tributos:** existe fundamento próprio, ou a questão está transportando indevidamente regra de outro regime?
+8. **Valor líquido:** subtraia somente retenções juridicamente cabíveis.
+9. **Fechamento:** identifique destino, prazo, escrituração e comprovantes exigidos.
 
-- retenção ≠ recolhimento;
-- incidência ≠ responsabilidade automática do tomador;
-- art. 2º federal ≠ art. 2º-A subnacional da IN nº 1.234;
-- IR não tem uma única alíquota para toda contratação;
-- pagamento antecipado pode sofrer retenção;
-- 11% previdenciários não incidem sobre todo serviço;
-- Simples Nacional não significa ausência de todas as retenções;
-- ISS exige análise da LC nº 116 e da lei local;
-- compra de bem não gera ISS só porque há pagamento;
-- CBS/IBS não eliminaram imediatamente as retenções clássicas em 2026.
+Se o enunciado pula o enquadramento e começa por uma alíquota, desconfie. Em retenções tributárias, **o percentual é consequência da regra aplicável, não o ponto de partida**.
