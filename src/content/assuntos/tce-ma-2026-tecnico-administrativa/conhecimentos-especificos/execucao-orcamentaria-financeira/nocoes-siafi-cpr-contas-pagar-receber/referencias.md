@@ -1,17 +1,11 @@
-### 17. Fontes primárias
+- [Cebraspe — concurso TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6 de julho de 2026, e recorte programático do Cargo 16.
+- [Tesouro Nacional — O que é o SIAFI?](https://www.gov.br/tesouronacional/pt-br/siafi/historia-e-estrutura/o-que-e-o-siafi) — conceito, abrangência e papel do sistema na execução federal.
+- [Tesouro Nacional — Objetivos do SIAFI](https://www.gov.br/tesouronacional/pt-br/siafi/historia-e-estrutura/objetivos) — controle diário, programação financeira, padronização e informação gerencial.
+- [Tesouro Nacional — Estrutura do SIAFI](https://www.gov.br/tesouronacional/pt-br/siafi/historia-e-estrutura/estrutura) — exercícios, subsistemas, módulos e posição do CPR.
+- [Manual SIAFI — Consultar Documento Hábil (CONDH)](https://manualsiafi.tesouro.gov.br/contas-a-pagar-e-a-receber/documento-habil/consultar-documento-habil) — naturezas Pagamento/Recebimento, credor/devedor, estados do Documento Hábil e valores de líquido, deduções e encargos.
+- [Manual SIAFI — Principal com Orçamento](https://manualsiafi.tesouro.gov.br/contas-a-pagar-e-a-receber/documento-habil/consultar-documento-habil/aba-dados-basicos/aba-principal-com-orcamento) — relação do Documento Hábil com informações orçamentárias e empenhos.
+- [Manual SIAFI — Pré-doc DARF](https://manualsiafi.tesouro.gov.br/contas-a-pagar-e-a-receber/documento-habil/consultar-documento-habil/aba-dados-basicos/aba-encargo/pre-doc-darf) — função do pré-doc como conjunto de dados preparatórios para a realização do compromisso.
+- [Tesouro Nacional — documentação PyArialib, módulo SIAFI](https://cdn.tesouro.gov.br/doc/pyarialib/pyarialib.siafi.html) — fluxo Documento Hábil → compromissos → realização no CPR.
+- [Tesouro Nacional — modelos da integração SIAFI/ARIA](https://cdn.tesouro.gov.br/doc/pyarialib/_modules/pyarialib/siafi/models.html) — tipos de compromisso expostos pela integração: Líquido, Encargo, Dedução e Variação Patrimonial.
 
-- **Cebraspe — TCE/MA 2026**, Edital nº 1, de 6/7/2026, consolidado com o Edital nº 2, de 29/7/2026: item 3 de Execução Orçamentária e Financeira do Cargo 16.
-- **Tesouro Nacional — SIAFI: O que é o SIAFI?**  
-  https://www.gov.br/tesouronacional/pt-br/siafi/historia-e-estrutura/o-que-e-o-siafi
-- **Tesouro Nacional — SIAFI: Objetivos.**  
-  https://www.gov.br/tesouronacional/pt-br/siafi/historia-e-estrutura/objetivos
-- **Tesouro Nacional — SIAFI: Estrutura.**  
-  https://www.gov.br/tesouronacional/pt-br/siafi/historia-e-estrutura/estrutura
-- **Manual SIAFI — Contas a Pagar e a Receber — Consultar Documento Hábil (CONDH).**  
-  https://manualsiafi.tesouro.gov.br/contas-a-pagar-e-a-receber/documento-habil/consultar-documento-habil
-- **Manual SIAFI — Documento Hábil — Principal com Orçamento.**  
-  https://manualsiafi.tesouro.gov.br/contas-a-pagar-e-a-receber/documento-habil/consultar-documento-habil/aba-dados-basicos/aba-principal-com-orcamento
-- **Manual SIAFI — Compromissos — Demonstrativo de Compromissos por UG.**  
-  https://manualsiafi.tesouro.gov.br/contas-a-pagar-e-a-receber/compromissos/demonstrativo-de-compromissos/consultar-demonstrativo-de-pagamento/consultar-demonstrativo-de-recebimento
-
-> **Nota temporal:** o Manual SIAFI é documentação operacional viva. Para esta prova, a interface deve ser subordinada ao recorte do edital; conceitos estruturais e de fluxo são prioritários sobre mudanças posteriores de tela ou nomenclatura operacional.
+> **Nota temporal:** a documentação operacional do SIAFI é viva. Para o corte do edital, priorizam-se os conceitos e fluxos consolidados até 6 de julho de 2026; alterações posteriores de interface ou nomenclatura não são projetadas retroativamente.

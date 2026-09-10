@@ -6,360 +6,182 @@ order: 151
 storageId: tec-siafi-cpr-151
 ---
 
-# Noções de SIAFI e CPR — contas a pagar e a receber
+# Noções de <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> e <abbr title="Contas a Pagar e a Receber">CPR</abbr> — contas a pagar e a receber
 
-## 1. Recorte do edital e corte temporal
+## 1. Como uma obrigação vira algo que o sistema pode pagar?
 
-Este assunto cobre integralmente o item **3 — Noções de SIAFI e CPR – contas a pagar e a receber**, em **Conhecimentos específicos — Execução Orçamentária e Financeira** do Cargo 16.
+Considere uma situação **hipotética**. Uma unidade federal recebeu um serviço, conferiu a documentação e reconheceu que deve pagar o fornecedor. Em outro processo, a mesma unidade tem um valor a receber de terceiro.
 
-O nível exigido é de **noções**: compreender a finalidade do SIAFI, a posição do CPR em sua estrutura e o fluxo lógico de registro e realização de obrigações e direitos. Não é necessário transformar o estudo em treinamento de telas, decorar códigos de transações ou reproduzir procedimentos internos que podem mudar.
+O sistema precisa representar os dois fatos sem confundir quatro coisas diferentes:
 
-O corte do edital é **6 de julho de 2026**. Os assuntos vizinhos permanecem separados:
+1. **o fato que deu origem ao direito ou à obrigação**;
+2. **o registro desse fato**;
+3. **o valor que ainda precisa ser pago, recolhido ou recebido**;
+4. **a efetiva realização desse valor**.
 
-- o assunto **149** trata da programação, execução e controle de recursos, inclusive empenho, liquidação, pagamento e visão funcional de sistemas;
-- o assunto **150** trata de retenção e recolhimento de tributos;
-- o assunto **152** tratará do **MCASP — 11ª edição**;
-- o assunto **153** tratará da **Lei de Responsabilidade Fiscal**.
+É para organizar esse encadeamento que aparece o <abbr title="Contas a Pagar e a Receber">CPR</abbr>, dentro do <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr>. O mapa conceitual é:
 
-Aqui, o foco é o encadeamento **SIAFI → CPR → Documento Hábil → compromissos → realização**.
+**fato documentado → Documento Hábil → compromissos → pendências e dados de realização → realização**
 
-> **Ideia central:** o SIAFI é o ambiente integrado de registro e controle; o CPR organiza, dentro dele, informações que dão origem e tratamento a contas a pagar e a receber.
+Esse mapa é mais importante do que decorar posição de botão. Registrar a obrigação **não significa pagá-la**; gerar um compromisso **não significa que ele já esteja realizável**; e uma conta a receber não usa exatamente os mesmos polos de uma conta a pagar.
 
-## 2. SIAFI: conceito, abrangência e finalidade
+> **Corte da prova:** este capítulo considera o <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr>/<abbr title="Contas a Pagar e a Receber">CPR</abbr> no recorte do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, de **6 de julho de 2026**. A documentação operacional do Tesouro é viva; por isso, o estudo privilegia conceitos e fluxos estáveis e distingue deles detalhes de interface. O <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> é sistema **federal**: sua cobrança no edital não o transforma em sistema de execução próprio do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-O **Sistema Integrado de Administração Financeira do Governo Federal (SIAFI)** é o principal instrumento utilizado para **registro, acompanhamento e controle da execução orçamentária, financeira e patrimonial do Governo Federal**.
+A unidade 149 já ensina empenho, liquidação e pagamento como estágios jurídicos da despesa. Aqui a pergunta é outra: **como o sistema federal registra e conduz as informações até a realização?**
 
-A Secretaria do Tesouro Nacional aponta, entre seus objetivos:
+## 2. <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr>: ambiente integrado, não simples sistema de pagamento
 
-- prover controle diário da execução orçamentária, financeira e patrimonial;
-- apoiar a programação financeira;
-- fornecer informação contábil e gerencial segura e tempestiva;
-- padronizar métodos e rotinas de gestão dos recursos públicos;
-- integrar informações no âmbito federal;
-- permitir acompanhamento e avaliação do uso dos recursos públicos;
-- favorecer a transparência dos gastos.
+O <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> é o principal instrumento federal de registro, acompanhamento e controle da execução **orçamentária, financeira e patrimonial**. Entre suas finalidades institucionais estão o controle diário da execução, o apoio à programação financeira, a padronização de rotinas e a produção de informações contábeis e gerenciais.
 
-O SIAFI processa e controla registros de órgãos da Administração Pública federal e das entidades abrangidas pelos Orçamentos Fiscal e da Seguridade Social, conforme a disciplina aplicável.
+“Integrado” não quer dizer “tudo é a mesma etapa”. Um fato pode produzir efeitos orçamentários, financeiros e patrimoniais relacionados, mas cada dimensão conserva sua natureza. Um empenho, por exemplo, não é o próprio pagamento; a existência de um direito a receber também não significa que o ingresso já ocorreu.
 
-### 2.1. Sistema integrado não significa etapa única
+A estrutura institucional do <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> é organizada por exercícios, subsistemas, módulos e transações. O <abbr title="Contas a Pagar e a Receber">CPR</abbr> aparece nessa estrutura como recurso de aplicação específica voltado ao tratamento de contas a pagar e a receber.
 
-No SIAFI convivem fatos de naturezas diferentes. A existência de um registro orçamentário não significa, por si só, que tenha ocorrido o desembolso; da mesma forma, um compromisso financeiro precisa ser corretamente relacionado à obrigação ou ao direito que lhe deu origem.
+Duas relações devem ficar estáveis:
 
-Isso preserva a distinção já estudada:
+- **<abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> > <abbr title="Contas a Pagar e a Receber">CPR</abbr>:** o segundo integra o primeiro; não é sistema concorrente;
+- **<abbr title="Contas a Pagar e a Receber">CPR</abbr> ≠ apenas pagamentos:** ele também trata direitos e recebimentos.
 
-| Dimensão | Pergunta |
-|---|---|
-| **orçamentária** | existe crédito e qual foi sua execução? |
-| **financeira** | há obrigação/direito financeiro e como será realizado? |
-| **patrimonial/contábil** | quais efeitos e registros decorrem do fato? |
+## 3. <abbr title="Contas a Pagar e a Receber">CPR</abbr>: dois núcleos para acompanhar o fluxo
 
-## 3. Estrutura do SIAFI e posição do CPR
+A documentação do Tesouro organiza o <abbr title="Contas a Pagar e a Receber">CPR</abbr> em torno de dois núcleos funcionais: **Documento Hábil** e **Compromissos**.
 
-A documentação institucional do Tesouro apresenta o SIAFI organizado por **exercícios, subsistemas, módulos e transações**.
+O **Documento Hábil** descreve o fato que deve ser processado no módulo: quem está no polo da operação, qual é o valor, qual é a origem e quais informações orçamentárias, financeiras ou patrimoniais se aplicam.
 
-Entre os subsistemas está o **CPR — Contas a Pagar e a Receber**, classificado na estrutura institucional como recurso complementar de aplicação específica.
+O **compromisso**, por sua vez, representa valor que precisa seguir para alguma forma de realização. Ele nasce do processamento do Documento Hábil quando a configuração do fato assim exigir.
 
-Portanto:
+A relação é, portanto:
 
-- **SIAFI** é o sistema integrado mais amplo;
-- **CPR** é parte do SIAFI;
-- CPR **não é sistema autônomo** concorrente com o SIAFI;
-- CPR não cuida apenas de pagamentos: seu próprio nome e suas funcionalidades abrangem **contas a pagar e a receber**.
+**Documento Hábil registra e organiza o fato → o processamento pode gerar compromissos → os compromissos são preparados e realizados**
 
-> **Pegadinha:** “CPR” neste contexto significa **Contas a Pagar e a Receber**, não Cédula de Produto Rural.
+Esse encadeamento impede um erro frequente: tratar Documento Hábil, compromisso e pagamento como nomes diferentes para a mesma coisa.
 
-## 4. Documento Hábil: núcleo operacional do CPR
+## 4. Documento Hábil: primeiro descreva corretamente o fato
 
-O **Documento Hábil (DH)** é peça central do fluxo do CPR. Nele são registradas informações relativas a uma obrigação de pagamento ou a um direito de recebimento, conforme o tipo e a natureza do documento.
+### 4.1 Pagamento e Recebimento são naturezas diferentes
 
-A documentação oficial do Manual SIAFI distingue duas naturezas de DH:
+O Manual <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> distingue duas naturezas de Documento Hábil:
 
-- **Pagamento**;
-- **Recebimento**.
+| Natureza | Polo principal | Ideia central |
+|---|---|---|
+| **Pagamento** | credor/favorecido | existe obrigação ou valor a realizar em favor de alguém |
+| **Recebimento** | devedor/recolhedor | existe direito ou valor a receber de alguém |
 
-O **Tipo de Documento** determina a natureza do DH e também quais abas e informações são aplicáveis.
+O **tipo** do Documento Hábil condiciona sua natureza e o conjunto de informações aplicáveis. Por isso, não é correto imaginar um formulário universal em que todo Documento Hábil seja “nota para pagar fornecedor”.
 
-### 4.1. Credor × devedor
+A identificação do documento também preserva elementos como unidade emitente, exercício, tipo e número. Esses dados permitem localizar o registro e relacioná-lo a outros documentos do <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr>.
 
-A terminologia acompanha a natureza:
+### 4.2 O registro pode conversar com o orçamento sem substituí-lo
 
-| Natureza do DH | Polo principal |
-|---|---|
-| **Pagamento** | **credor/favorecido** |
-| **Recebimento** | **devedor/recolhedor** |
+Quando a operação envolve despesa apoiada em execução orçamentária, o Documento Hábil pode conter o bloco **Principal com Orçamento**, relacionando a apropriação ao empenho correspondente.
 
-Em questão de prova, desconfie de enunciado que trate todo DH como pagamento a fornecedor. O CPR também registra fluxos de recebimento.
+Isso não cria crédito nem substitui o empenho. O <abbr title="Contas a Pagar e a Receber">CPR</abbr> recebe e organiza informação de uma execução orçamentária que já possui fundamento próprio.
 
-### 4.2. Cabeçalho e dados do documento
+Também existem blocos para situações sem apropriação orçamentária no mesmo formato, créditos, deduções, encargos, variações patrimoniais e outros lançamentos conforme o tipo e a situação do documento. Para a prova de **noções**, o essencial não é memorizar todas as abas: é perceber que a configuração do fato determina quais informações entram no Documento Hábil.
 
-O Documento Hábil possui identificação própria, vinculada à Unidade Gestora emitente, ao exercício, ao tipo e ao número do documento. O cabeçalho identifica o DH; as informações específicas variam conforme seu tipo.
+### 4.3 Dedução não é encargo
 
-O ponto de prova não é decorar a tela, mas entender que **o tipo do DH condiciona sua natureza e o conjunto de informações exigidas**.
+Uma **dedução** destaca valor do fluxo principal e pode gerar compromisso próprio. Se uma retenção tributária for juridicamente devida, por exemplo, o <abbr title="Contas a Pagar e a Receber">CPR</abbr> pode tratar separadamente o líquido devido ao fornecedor e o valor a recolher.
 
-## 5. Principais blocos de informação do Documento Hábil
+O fundamento da retenção não nasce do sistema; ele vem da legislação estudada na unidade 150.
 
-As funcionalidades atuais do Manual SIAFI mostram diversas abas possíveis. Para nível de noções, interessa reconhecer sua função lógica.
+Um **encargo** também pode gerar compromisso próprio, mas é categoria distinta de dedução. A classificação correta importa porque cada parcela pode ter favorecido, documento de realização e condições próprios.
 
-### 5.1. Principal com Orçamento
+## 5. Registrar o Documento Hábil não é realizar o valor
 
-A aba **Principal com Orçamento** registra valores de despesas para as quais existe **previsão orçamentária ou empenho**.
+Quando um Documento Hábil é registrado, o sistema valida as informações, processa a contabilização cabível e pode gerar compromissos. Esse é um marco de processamento, não a prova de que o dinheiro já saiu ou entrou.
 
-Isso não quer dizer que o CPR substitua o empenho. O DH relaciona e processa informações apoiadas na execução orçamentária existente.
+A documentação oficial de integração do Tesouro expõe, para consulta de compromissos, os tipos **Líquido, Encargo, Dedução e Variação Patrimonial**. Isso evita transformar a tríade líquido–dedução–encargo em lista exaustiva.
 
-### 5.2. Principal sem Orçamento
+Para compreender o mecanismo:
 
-Existem situações em que o fato registrado no DH não usa, naquele item, uma apropriação orçamentária nos mesmos moldes da aba Principal com Orçamento. A presença dessa possibilidade reforça que o CPR não deve ser reduzido a “tela de empenho”.
+- **Líquido:** parcela principal que permanece a pagar ou receber depois dos destaques aplicáveis;
+- **Dedução:** parcela destacada que segue tratamento próprio;
+- **Encargo:** obrigação adicional tratada como compromisso distinto;
+- **Variação Patrimonial:** categoria própria prevista na documentação do sistema para compromissos de natureza patrimonial.
 
-### 5.3. Crédito
+Nem todo Documento Hábil gera todos esses tipos, e nem toda operação gera compromisso.
 
-A aba **Crédito**, quando aplicável ao tipo de DH, compõe registros ligados a valores que integram o fluxo do documento conforme a situação configurada.
+### 5.1 Um exemplo reaproveitável
 
-### 5.4. Dedução
+Suponha, **hipoteticamente**, que um Documento Hábil de Pagamento reconheça R$ 100.000 e exista retenção juridicamente válida de R$ 5.000.
 
-**Deduções** representam valores destacados do fluxo principal e podem gerar compromissos próprios. Uma retenção tributária, quando juridicamente cabível e corretamente configurada, é exemplo de situação que pode exigir tratamento separado do líquido.
+No <abbr title="Contas a Pagar e a Receber">CPR</abbr>, a configuração pode produzir:
 
-O fundamento tributário da retenção pertence ao assunto 150; aqui importa o tratamento do valor no fluxo do CPR.
+- compromisso líquido de R$ 95.000 para o favorecido;
+- compromisso de dedução de R$ 5.000 para o recolhimento correspondente.
 
-### 5.5. Encargo
+O exemplo ensina apenas a representação operacional. **Qual tributo deve ser retido, qual alíquota se aplica e para quem recolher são perguntas jurídicas anteriores**, tratadas na unidade 150.
 
-**Encargos** também podem gerar compromissos próprios e não se confundem automaticamente com deduções. O CPR os identifica como categoria própria de compromisso.
+## 6. Compromisso existente ainda pode não estar pronto
 
-### 5.6. Dados de pagamento e pré-docs
+Depois de gerado, o compromisso pode depender de requisitos adicionais antes de sua realização. A documentação do <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> trabalha com situações como pendência de execução orçamentária, pendência de homologação e pendência de informações para o documento de realização.
 
-Antes da realização de determinado compromisso, podem ser necessárias informações do documento que será usado para efetivá-lo. No Manual SIAFI, essas informações aparecem nos chamados **pré-docs**.
+É aqui que aparece o <abbr title="Conjunto de dados prévios que prepara o documento de realização">pré-doc</abbr>. Ele reúne informações necessárias para que o compromisso seja posteriormente realizado pelo documento adequado. Portanto:
 
-> **Memória:** pré-doc prepara informações para a futura realização; ele não deve ser confundido com o próprio Documento Hábil nem com a realização já concluída.
+- Documento Hábil registra o fato;
+- compromisso representa valor a realizar;
+- <abbr title="Conjunto de dados prévios que prepara o documento de realização">pré-doc</abbr> prepara dados para a realização;
+- documento de realização efetiva a operação.
 
-## 6. Registrar o DH: contabilização e geração de compromissos
+A sequência **pendente → realizável → realizado** é uma boa intuição, mas não deve ser confundida com uma lista única de estados do Documento Hábil. Na consulta de Documentos Hábeis, o Manual distingue estados como **Pendente de Realização, Realizado, Cancelado e Não Realizável**; já determinadas pendências, como **Pendente de Homologação**, qualificam compromissos vinculados ao documento.
 
-Ao registrar um Documento Hábil, o SIAFI:
+Essa separação é importante: **estado do Documento Hábil e condição de um compromisso relacionado não são exatamente a mesma informação**.
 
-1. valida as informações;
-2. inicia a contabilização correspondente;
-3. **gera os compromissos**, quando for o caso.
+## 7. Realização: o compromisso encontra seu documento adequado
 
-Assim, o compromisso não surge isoladamente: ele é relacionado ao Documento Hábil que lhe deu origem.
+**Realizar** um compromisso significa efetivá-lo pelo instrumento previsto para aquela operação. O documento não é universal.
 
-A documentação também admite itens cuja contabilização ocorra **fora do CPR**; nesses casos, os documentos correspondentes podem ser informados ao DH. Logo, é incorreto afirmar que qualquer fato associado a um DH obrigatoriamente se contabiliza integralmente dentro do CPR.
+Conforme a natureza do compromisso, o <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> admite documentos como <abbr title="Ordem Bancária">OB</abbr>, <abbr title="Guia de Recolhimento da União">GRU</abbr>, <abbr title="Documento de Arrecadação de Receitas Federais">DARF</abbr> e outros instrumentos próprios.
 
-## 7. Compromissos no CPR
+Duas consequências ajudam a resolver questões:
 
-O demonstrativo oficial de compromissos trabalha, entre outros, com três tipos:
+1. nem todo compromisso de pagamento é realizado por <abbr title="Ordem Bancária">OB</abbr>;
+2. uma <abbr title="Guia de Recolhimento da União">GRU</abbr> não se torna documento universal de pagamento só porque pode aparecer como documento de realização em operações compatíveis.
 
-- **Líquido**;
-- **Dedução**;
-- **Encargo**.
+O <abbr title="Conjunto de dados prévios que prepara o documento de realização">pré-doc</abbr> antecede essa efetivação. Se ele ainda está incompleto quando exigido, a simples existência do compromisso não autoriza concluir que a realização já ocorreu.
 
-### 7.1. Líquido
+## 8. Um mecanismo, duas direções: pagar e receber
 
-O **líquido** representa a parcela principal que será paga ou recebida após considerar, conforme o caso, os valores destacados que afetam o fluxo.
+A lógica do <abbr title="Contas a Pagar e a Receber">CPR</abbr> funciona em duas direções.
 
-Exemplo simplificado de conta a pagar:
+### Conta a pagar
 
-```text
-valor reconhecido no DH
-        ↓
-  deduções cabíveis
-        ↓
-líquido ao favorecido
-        +
-encargos/obrigações próprios, se houver
-```
+**obrigação documentada → Documento Hábil de Pagamento → credor/favorecido → compromissos → preparação → realização**
 
-Não se deve presumir que toda operação tenha simultaneamente deduções e encargos.
+### Conta a receber
 
-### 7.2. Dedução
+**direito documentado → Documento Hábil de Recebimento → devedor/recolhedor → compromissos cabíveis → preparação → realização**
 
-A dedução gera obrigação específica vinculada ao valor destacado. Em pagamento com retenção, o valor pode deixar de ir ao credor principal e passar a exigir recolhimento a outro favorecido/recolhedor, conforme a regra aplicável.
+O Manual diferencia inclusive campos temporais de pagamento e de recebimento. Isso mostra que a segunda direção não é mero “espelho de palavras”: natureza, polos e dados do fluxo mudam.
 
-### 7.3. Encargo
+Ao mesmo tempo, o <abbr title="Contas a Pagar e a Receber">CPR</abbr> não revoga os estágios legais da despesa. Empenho, liquidação e pagamento continuam sujeitos às normas próprias. O módulo organiza registros e compromissos no ambiente do <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr>; ele não cria autorização orçamentária nem transforma registro em desembolso.
 
-O encargo é outro tipo de compromisso e possui tratamento próprio. Em prova, a distinção essencial é que **líquido, dedução e encargo são categorias diferentes** no demonstrativo do CPR.
+## 9. Alteração, cancelamento e rastreabilidade dependem do estágio
 
-## 8. Status dos compromissos
+O sistema preserva histórico das operações sobre o Documento Hábil. Corrigir um registro não significa simplesmente apagar o fato anterior.
 
-O Manual SIAFI apresenta diferentes estados possíveis para compromissos, entre eles:
+Também não se pode tratar da mesma forma:
 
-- **Pendente de Pré-Doc**;
-- **Realizável**;
-- **Realizado**;
-- **Pendente de Execução Orçamentária**;
-- **Pendente de Homologação**;
-- estados relativos a baixa, transferência, cancelamento ou realização fora do CPR.
+- documento ainda sem compromissos realizados;
+- documento com parte dos compromissos realizada;
+- documento cujos compromissos foram integralmente realizados.
 
-Para o nível da prova, memorize a lógica, não a lista completa:
+O estágio do processamento condiciona alteração, cancelamento, baixa, estorno ou tratamento dos itens pendentes. Para uma prova de noções, basta compreender a regra de raciocínio: **quanto mais o fluxo avançou, menos correta é a ideia de que basta “apagar e refazer” o Documento Hábil**.
 
-```text
-dados ainda insuficientes
-        ↓
-pendência (pré-doc/orçamento/homologação, conforme o caso)
-        ↓
-compromisso apto
-        ↓
-     REALIZÁVEL
-        ↓
-documento de realização
-        ↓
-     REALIZADO
-```
+## 10. Como resolver questões sobre <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr>/<abbr title="Contas a Pagar e a Receber">CPR</abbr>
 
-> **Pegadinha:** compromisso existente ≠ compromisso imediatamente realizável.
+Percorra o fluxo em vez de procurar uma palavra isolada:
 
-## 9. Realização do compromisso
+1. **Qual é o ambiente?** O <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> é o sistema integrado; o <abbr title="Contas a Pagar e a Receber">CPR</abbr> integra sua estrutura.
+2. **O fato é pagamento ou recebimento?** Isso define a natureza do Documento Hábil e o polo principal.
+3. **Que informações o fato exige?** Pode haver relação orçamentária, dedução, encargo, variação patrimonial e outros dados conforme a situação.
+4. **O Documento Hábil foi apenas registrado ou já gerou compromissos?** Não salte do registro para o pagamento.
+5. **Que tipo de compromisso existe?** Não reduza a taxonomia atual a apenas líquido, dedução e encargo.
+6. **Há alguma pendência?** Verifique execução orçamentária, homologação e dados de realização quando aplicáveis.
+7. **O <abbr title="Conjunto de dados prévios que prepara o documento de realização">pré-doc</abbr> está completo quando exigido?** Ele prepara o instrumento que efetivará o compromisso.
+8. **O compromisso está realizável ou já foi realizado?** São momentos diferentes.
+9. **Qual documento de realização é compatível?** <abbr title="Ordem Bancária">OB</abbr>, <abbr title="Guia de Recolhimento da União">GRU</abbr>, <abbr title="Documento de Arrecadação de Receitas Federais">DARF</abbr> ou outro previsto para a operação.
+10. **A questão confundiu sistema e regra jurídica?** O <abbr title="Contas a Pagar e a Receber">CPR</abbr> operacionaliza registros; não cria empenho, fundamento tributário ou autorização orçamentária por conta própria.
 
-A **realização** é a etapa em que o compromisso é efetivado pelo documento apropriado.
-
-O demonstrativo do Manual SIAFI admite diferentes documentos de realização conforme a natureza do compromisso, como **Ordem Bancária (OB), <abbr title="Guia de Recolhimento da União">GRU</abbr>, <abbr title="Documento de Arrecadação de Receitas Federais">DARF</abbr> e outros instrumentos previstos no sistema**.
-
-A escolha depende da operação. Portanto:
-
-- nem todo compromisso é realizado por OB;
-- GRU não vira documento universal de pagamento;
-- o tipo do documento de realização depende da natureza e da configuração do compromisso.
-
-### 9.1. Pré-doc × documento de realização
-
-| Elemento | Função |
-|---|---|
-| **Documento Hábil** | registra a obrigação/direito e informações que podem gerar compromissos |
-| **Compromisso** | representa valor a realizar no fluxo do CPR |
-| **Pré-doc** | reúne dados necessários à futura emissão/realização por determinado documento |
-| **Documento de realização** | efetiva o compromisso conforme a operação |
-
-## 10. Fluxo de contas a pagar
-
-Em uma conta a pagar típica, a lógica pode ser representada assim:
-
-```text
-obrigação reconhecida/documentada
-            ↓
-DH de natureza PAGAMENTO
-            ↓
-credor + informações aplicáveis
-            ↓
-itens orçamentários/financeiros
-            ↓
-deduções e encargos, se cabíveis
-            ↓
-registro/contabilização do DH
-            ↓
-geração de compromissos
-            ↓
-pré-docs exigidos
-            ↓
-compromissos realizáveis
-            ↓
-realização por documento adequado
-```
-
-Esse fluxo **não substitui** as etapas legais da despesa. Empenho, liquidação e pagamento continuam regidos pelas normas próprias; o CPR é instrumento de registro e tratamento operacional dessas informações no SIAFI.
-
-## 11. Fluxo de contas a receber
-
-O CPR também contempla recebimentos:
-
-```text
-direito/valor a receber
-        ↓
-DH de natureza RECEBIMENTO
-        ↓
-devedor/recolhedor + dados aplicáveis
-        ↓
-registro do DH
-        ↓
-compromisso de recebimento
-        ↓
-condições/informações necessárias
-        ↓
-realização do recebimento
-```
-
-A documentação do demonstrativo distingue inclusive:
-
-- **Data de Pagamento**, no demonstrativo de pagamento;
-- **Data de Recebimento**, no demonstrativo de recebimento;
-- **Favorecido/Recolhedor**, conforme o fluxo.
-
-> **Pegadinha:** “contas a receber” não é mero espelho terminológico; o sistema distingue natureza, polos e informações do recebimento.
-
-## 12. Casos integrados
-
-### 12.1. Pagamento com dedução
-
-Uma <abbr title="Unidade Gestora">UG</abbr> registra obrigação de R$ 100.000. Há retenção juridicamente cabível de R$ 5.000.
-
-No estudo do CPR, interessa visualizar:
-
-- valor principal reconhecido no DH;
-- compromisso líquido de R$ 95.000 para o favorecido, conforme configuração;
-- compromisso de dedução de R$ 5.000 para o recolhimento correspondente;
-- pré-doc/documento de realização apropriado a cada compromisso.
-
-O exemplo não define qual tributo deve ser retido: essa análise pertence ao assunto 150.
-
-### 12.2. Compromisso pendente de pré-doc
-
-O DH foi registrado e gerou compromisso, mas ainda faltam informações necessárias ao documento de realização.
-
-A consequência lógica é que ele **não está pronto para realização** apenas por existir. A pendência deve ser resolvida antes de atingir estado realizável.
-
-### 12.3. Recebimento
-
-Uma UG precisa registrar direito a receber determinado valor. O DH deve ter natureza compatível com **Recebimento**, com identificação do devedor/recolhedor e tratamento próprio até a realização.
-
-Usar um DH de natureza Pagamento como se fosse indistinto viola a própria classificação do CPR.
-
-## 13. Alteração, cancelamento e rastreabilidade
-
-O Manual SIAFI prevê histórico das operações sobre o Documento Hábil e regras de cancelamento relacionadas ao estágio de seus compromissos.
-
-Em nível conceitual:
-
-- registros devem preservar rastreabilidade;
-- não se deve tratar correção como simples “apagamento” do fato;
-- um DH com compromissos já realizados não é equivalente a um DH ainda sem realização;
-- quando somente parte dos compromissos foi realizada, o tratamento dos itens pendentes difere do cancelamento integral de documento sem realização.
-
-O objetivo de prova é compreender que o estado do compromisso condiciona as operações posteriores.
-
-## 14. Matriz de distinções
-
-| Conceitos | Não confundir |
-|---|---|
-| **SIAFI × CPR** | SIAFI é o sistema integrado; CPR é subsistema/recurso integrante |
-| **Pagamento × Recebimento** | são naturezas distintas de Documento Hábil |
-| **Credor × Devedor** | o polo depende da natureza do DH |
-| **DH × compromisso** | DH registra o fato; dele podem ser gerados compromissos |
-| **Compromisso × realização** | existir compromisso não significa que já foi realizado |
-| **Líquido × dedução × encargo** | são tipos distintos de compromisso |
-| **Pré-doc × realização** | pré-doc prepara dados; realização efetiva o compromisso |
-| **CPR × empenho** | CPR não substitui a execução orçamentária nem o empenho |
-| **conta a pagar × conta a receber** | CPR abrange ambas |
-
-## 15. Pegadinhas recorrentes
-
-- SIAFI não é apenas sistema de pagamentos;
-- CPR não é sistema independente do SIAFI;
-- CPR não significa somente contas a pagar;
-- Documento Hábil pode ter natureza **Pagamento** ou **Recebimento**;
-- o tipo do DH influencia natureza e informações aplicáveis;
-- registrar o DH pode gerar compromissos, mas compromisso pode ainda não estar realizável;
-- líquido, dedução e encargo não são sinônimos;
-- pré-doc não é o próprio pagamento/recebimento;
-- nem todo compromisso é realizado por Ordem Bancária;
-- contabilização ligada a DH pode, em hipóteses previstas, ocorrer fora do CPR;
-- CPR organiza o fluxo no SIAFI, mas não revoga empenho, liquidação e pagamento;
-- detalhes de tela não devem substituir a compreensão do processo.
-
-## 16. Método de resolução em prova
-
-1. **É SIAFI ou CPR?** — lembre: CPR está dentro do SIAFI.
-2. **Qual natureza do DH?** — Pagamento ou Recebimento.
-3. **Quem é o polo?** — credor/favorecido ou devedor/recolhedor.
-4. **Há orçamento/empenho relacionado?** — não confunda o registro do CPR com criação do crédito.
-5. **Que valores surgem?** — líquido, dedução e/ou encargo.
-6. **O compromisso já pode ser realizado?** — verifique pendências.
-7. **Há pré-doc?** — ele prepara a realização.
-8. **Qual documento efetiva?** — depende da operação.
-9. **Foi realizado?** — estado posterior é diferente de simples compromisso registrado.
-10. **É recebimento?** — não aplique automaticamente a lógica de pagamento.
+Se o fluxo estiver claro, as distinções mais cobradas deixam de ser uma lista de pegadinhas: **Documento Hábil ≠ compromisso; compromisso ≠ realização; Pagamento ≠ Recebimento; dedução ≠ encargo; <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> ≠ <abbr title="Contas a Pagar e a Receber">CPR</abbr>; integração ≠ fusão das etapas.**
