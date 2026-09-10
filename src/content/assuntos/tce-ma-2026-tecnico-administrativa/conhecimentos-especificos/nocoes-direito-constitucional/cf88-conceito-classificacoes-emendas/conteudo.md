@@ -8,259 +8,182 @@ storageId: tec-nocoes-cf88-133
 
 # Constituição Federal de 1988: conceito, classificações, princípios fundamentais e emendas constitucionais
 
-## 1. Recorte do edital e objetivo
+## 1. Antes de classificar, entenda o que uma Constituição faz
 
-Este assunto corresponde ao primeiro bloco de **Noções de Direito Constitucional** dos conhecimentos específicos do Cargo 16: **Constituição Federal de 1988 — conceito, classificações, princípios fundamentais e emendas constitucionais**.
+Imagine que uma lei ordinária tente retirar uma competência que a Constituição reservou a outro órgão ou contrariar um direito que ela protege. O problema não é apenas haver duas normas diferentes: existe uma **hierarquia normativa**, e a Constituição ocupa o nível superior da ordem jurídica interna.
 
-O objetivo é dominar quatro núcleos, sem transformar “noções” em teoria constitucional avançada:
+Em sentido jurídico básico, uma Constituição organiza o Estado, distribui e limita o poder, atribui competências e protege direitos. Ela também estabelece parâmetros que as normas <abbr title="Normas situadas abaixo da Constituição">infraconstitucionais</abbr> devem respeitar.
 
-1. o que é Constituição e em quais sentidos básicos o termo aparece;
-2. como a Constituição de 1988 é classificada nos critérios mais cobrados;
-3. como se organizam os **princípios fundamentais dos arts. 1º a 4º**;
-4. como funciona a **reforma constitucional pelo art. 60**, com iniciativa, procedimento, limites e pegadinhas.
+Este assunto exige quatro movimentos:
 
-> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1. A **Emenda Constitucional nº 139, de 5 de maio de 2026**, já integrava o texto constitucional nesse corte. Ela alterou o § 1º do art. 31 e o art. 75, sem modificar os arts. 1º a 4º nem o art. 60.
+1. entender o que se chama de Constituição e por que existem diferentes sentidos do termo;
+2. reconhecer **qual critério** está sendo usado para classificar a Constituição de 1988;
+3. distinguir o papel dos arts. 1º, 2º, 3º e 4º;
+4. compreender por que a Constituição pode ser alterada, mas não como uma lei comum.
 
-Assuntos vizinhos possuem tratamento próprio. Direitos e garantias fundamentais são objeto do assunto 134; organização político-administrativa, do 135; Administração Pública, do 136; Poderes e funções essenciais, dos assuntos 137 a 140; e os arts. 23, 170, 225 e 231, do assunto 141.
+> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026, de 5 de maio de 2026, já integrava o texto constitucional nesse corte. Ela alterou o § 1º do art. 31 e o art. 75, sem modificar os arts. 1º a 4º nem o art. 60.
 
 ---
 
-# Parte I — Constituição: conceito e sentidos
+# Parte I — O que significa Constituição
 
-## 2. Ideia central de Constituição
+## 2. Sentido material e sentido formal respondem a perguntas diferentes
 
-Em sentido jurídico básico, a Constituição é o conjunto de normas fundamentais que estrutura o Estado, organiza o exercício do poder, distribui competências e protege direitos fundamentais.
+A mesma palavra — “constitucional” — pode indicar **o conteúdo de uma norma** ou **sua posição formal no sistema**. Separar essas perguntas evita confusão.
 
-Para prova, a Constituição cumpre funções centrais:
+### 2.1 Sentido material: o que a norma regula?
 
-- **organiza o Estado**;
-- **institui e limita o poder**;
-- **define competências**;
-- **estabelece direitos e garantias**;
-- **serve de fundamento de validade** para as normas inferiores do ordenamento.
-
-Na ordem brasileira, a Constituição ocupa posição superior em relação às normas infraconstitucionais. Por isso, lei ou ato normativo incompatível com a Constituição não deve prevalecer.
-
-### 2.1 Constituição em sentido material
-
-O critério é o **conteúdo** da norma.
-
-Constitucional em sentido material é a regra que trata de matérias fundamentais da organização estatal e da limitação do poder, independentemente do documento em que esteja localizada.
-
-Exemplos de matérias tipicamente constitucionais:
+Em sentido material, importa o **conteúdo**. São materialmente constitucionais as normas sobre temas fundamentais da organização política, como:
 
 - estrutura do Estado;
-- organização dos Poderes;
+- organização e limitação do poder;
 - competências estatais;
 - direitos fundamentais.
 
-### 2.2 Constituição em sentido formal
+A ideia não depende, em primeiro lugar, da localização gráfica da regra, mas da matéria regulada.
 
-O critério é a **posição e a forma de produção** da norma.
+### 2.2 Sentido formal: como a norma ocupa o nível constitucional?
 
-Constitucional em sentido formal é a regra inserida no texto constitucional pelo procedimento constitucionalmente competente, ainda que seu conteúdo não seja materialmente essencial à estrutura do Estado.
+Em sentido formal, importa a **inserção da norma no nível constitucional pelo procedimento próprio**.
 
-```text
-MATERIAL → importa O QUE a norma regula
-FORMAL   → importa ONDE/COMO a norma ingressa no nível constitucional
-```
+Uma regra pode ser formalmente constitucional mesmo que trate de matéria que, em tese, poderia ser disciplinada em nível inferior. É sua incorporação válida ao texto constitucional que lhe dá a posição hierárquica constitucional.
 
-A Constituição brasileira de 1988 é classificada como **formal**, pois a condição constitucional decorre da inserção no texto constitucional segundo a forma própria.
+A <abbr title="Constituição Federal de 1988">CF/1988</abbr> é classificada, quanto ao conteúdo, como **formal**: a qualidade constitucional não depende apenas da matéria tratada.
 
----
+## 3. Três concepções clássicas: três lentes para a mesma pergunta
 
-## 3. Concepções clássicas — apenas o necessário
+Quando uma questão associa Constituição a Ferdinand Lassalle, Carl Schmitt ou Hans Kelsen, ela está perguntando **qual aspecto da realidade constitucional cada autor coloca no centro da análise**.
 
-Algumas questões usam “conceito de Constituição” para cobrar as três concepções clássicas.
+### 3.1 Lassalle: a força social por trás do texto
 
-| Concepção | Autor associado | Ideia-chave |
+Na concepção sociológica associada a **Ferdinand Lassalle**, a Constituição efetiva se relaciona aos **fatores reais de poder** existentes na sociedade.
+
+A contribuição dessa lente é lembrar que um texto jurídico não existe isolado das forças sociais e políticas que moldam a vida estatal. Por isso, Lassalle é associado à advertência de que uma Constituição escrita desconectada desses fatores pode perder eficácia prática.
+
+### 3.2 Schmitt: as decisões políticas fundamentais
+
+Na concepção política de **Carl Schmitt**, Constituição é ligada às **decisões políticas fundamentais** sobre a forma e a estrutura da unidade política.
+
+A distinção central é entre essas decisões fundamentais e normas constitucionais que não carregam o mesmo conteúdo político essencial.
+
+### 3.3 Kelsen: a Constituição como norma jurídica superior
+
+Na concepção jurídica associada a **Hans Kelsen**, a Constituição é compreendida no plano normativo, como norma jurídica superior que fundamenta a validade das normas inferiores.
+
+Para prova, o contraste é simples, mas deve vir depois da ideia:
+
+| Lente | Autor associado | Núcleo |
 |---|---|---|
-| **sociológica** | Ferdinand Lassalle | Constituição real ligada aos **fatores reais de poder** |
-| **política** | Carl Schmitt | Constituição ligada às **decisões políticas fundamentais** |
-| **jurídica** | Hans Kelsen | Constituição compreendida como **norma jurídica superior** |
-
-### 3.1 Sociológica
-
-Para Lassalle, a Constituição efetiva de um país está relacionada aos fatores reais de poder presentes na sociedade. Uma Constituição escrita desconectada desses fatores correria o risco de se reduzir a uma “folha de papel”.
-
-### 3.2 Política
-
-Na concepção associada a Carl Schmitt, distingue-se a Constituição, como conjunto de decisões políticas fundamentais, das simples leis constitucionais.
-
-### 3.3 Jurídica
-
-Na concepção jurídica associada a Hans Kelsen, a Constituição é compreendida no plano normativo, como norma superior que fundamenta a validade das normas inferiores.
-
-**Pegadinha:** não misture autor e palavra-chave:
-
-```text
-LASSALLE → fatores reais de poder
-SCHMITT  → decisão política fundamental
-KELSEN   → norma / supremacia jurídica
-```
+| sociológica | Lassalle | fatores reais de poder |
+| política | Schmitt | decisão política fundamental |
+| jurídica | Kelsen | norma jurídica superior |
 
 ---
 
-# Parte II — Classificações da Constituição de 1988
+# Parte II — Classificar é escolher um critério
 
-## 4. Matriz principal da CF/1988
+## 4. Por que uma Constituição recebe vários adjetivos ao mesmo tempo
 
-Os critérios mais úteis para prova são:
+Dizer que a <abbr title="Constituição Federal de 1988">CF/1988</abbr> é promulgada, escrita, dogmática, analítica, rígida, formal, dirigente e eclética não é acumular sinônimos. Cada adjetivo responde a **uma pergunta diferente**.
 
-| Critério | Classificação da CF/1988 | Ideia-chave |
+### 4.1 Quanto à origem: quem participou de sua formação?
+
+A <abbr title="Constituição Federal de 1988">CF/1988</abbr> é **promulgada** porque foi elaborada por uma Assembleia Nacional Constituinte representativa e promulgada em 5 de outubro de 1988.
+
+O contraste clássico é a Constituição **outorgada**, imposta unilateralmente pelo detentor do poder sem processo constituinte representativo equivalente.
+
+### 4.2 Quanto à forma: suas normas estão formalizadas em documento constitucional?
+
+A <abbr title="Constituição Federal de 1988">CF/1988</abbr> é **escrita**: suas normas estão formalizadas em texto constitucional solene, acompanhado do Ato das Disposições Constitucionais Transitórias e das alterações posteriores.
+
+O contraste é com constituições predominantemente formadas por costumes, precedentes e atos esparsos, frequentemente chamadas não escritas ou costumeiras.
+
+### 4.3 Quanto ao modo de elaboração: surgiu de elaboração deliberada ou de formação histórica gradual?
+
+A <abbr title="Constituição Federal de 1988">CF/1988</abbr> é **dogmática** porque foi elaborada deliberadamente em determinado momento constituinte, sistematizando opções e princípios político-jurídicos.
+
+“Dogmática” não quer dizer imutável. O contraste é com a Constituição **histórica**, formada progressivamente ao longo do tempo.
+
+### 4.4 Quanto à extensão: concentra poucos temas ou disciplina muitos assuntos?
+
+A <abbr title="Constituição Federal de 1988">CF/1988</abbr> é **analítica**: regula numerosas matérias e apresenta grau elevado de detalhamento.
+
+O contraste é a Constituição **sintética**, que se concentra nas estruturas e princípios essenciais.
+
+### 4.5 Quanto à estabilidade: como ela pode ser alterada?
+
+A classificação tradicional da <abbr title="Constituição Federal de 1988">CF/1988</abbr> é **rígida**, porque sua alteração exige procedimento mais solene e difícil do que o processo legislativo comum.
+
+O art. 60 mostra essa rigidez: há legitimados específicos, <abbr title="Número de votos exigido para uma decisão">quórum</abbr> qualificado de três quintos, dois turnos em cada Casa e limites à reforma.
+
+Parte da doutrina usa **super-rígida** para destacar a combinação entre procedimento agravado e <abbr title="Núcleos que uma emenda não pode tender a abolir">cláusulas pétreas</abbr>. Como essa nomenclatura não é universal, em questão genérica sem autor indicado a classificação tradicional mais segura é **rígida**.
+
+### 4.6 Quanto ao conteúdo: basta a matéria ou importa a inserção formal?
+
+A <abbr title="Constituição Federal de 1988">CF/1988</abbr> é **formal**. A posição constitucional decorre da inserção da norma no documento constitucional pelo procedimento próprio, ainda que seu conteúdo não seja materialmente indispensável à organização do Estado.
+
+### 4.7 Quanto à finalidade: apenas organiza e limita ou também aponta tarefas?
+
+A <abbr title="Constituição Federal de 1988">CF/1988</abbr> é frequentemente classificada como **dirigente** porque, além de organizar o Estado e limitar o poder, fixa objetivos, programas e tarefas a serem perseguidos pelos poderes públicos.
+
+Isso não significa que toda norma constitucional seja programática ou tenha eficácia limitada. “Dirigente” descreve uma característica da Constituição como conjunto.
+
+### 4.8 Quanto à ideologia: uma única matriz ou pluralidade de compromissos?
+
+A <abbr title="Constituição Federal de 1988">CF/1988</abbr> é usualmente classificada como **eclética** ou **pluralista**, pois incorpora compromissos provenientes de diferentes matrizes político-sociais.
+
+O contraste é com uma Constituição ideologicamente ortodoxa, estruturada predominantemente a partir de uma única orientação.
+
+### 4.9 Síntese depois dos critérios
+
+| Critério | <abbr title="Constituição Federal de 1988">CF/1988</abbr> | Por quê |
 |---|---|---|
-| origem | **promulgada** | elaborada por Assembleia Constituinte representativa |
-| forma | **escrita** | texto constitucional documentado |
-| elaboração | **dogmática** | elaborada em momento determinado, com sistematização de ideias |
-| extensão | **analítica** | disciplina numerosas matérias de modo detalhado |
-| estabilidade | **rígida** | alteração exige procedimento mais solene que o da lei comum |
-| conteúdo | **formal** | constitucionalidade decorre da inserção formal no texto |
-| finalidade | **dirigente** | também estabelece programas, fins e tarefas estatais |
-| ideologia | **eclética/pluralista** | concilia diferentes matrizes e compromissos constitucionais |
-
-Essas classificações não significam que toda a doutrina use exatamente os mesmos nomes em todos os critérios. Em prova objetiva sem indicação de autor, priorize as categorias consolidadas e a lógica do critério perguntado.
+| origem | promulgada | Assembleia Constituinte representativa |
+| forma | escrita | texto constitucional formalizado |
+| elaboração | dogmática | elaboração deliberada em momento constituinte |
+| extensão | analítica | disciplina muitos temas com detalhamento |
+| estabilidade | rígida | reforma mais difícil que lei comum |
+| conteúdo | formal | posição constitucional depende da inserção formal |
+| finalidade | dirigente | também estabelece fins e tarefas estatais |
+| ideologia | eclética/pluralista | reúne diferentes compromissos político-sociais |
 
 ---
 
-## 5. Quanto à origem: promulgada
+# Parte III — Arts. 1º a 4º: identidade, poder, objetivos e relações internacionais
 
-A CF/1988 é **promulgada**, também chamada em muitos manuais de democrática ou popular, porque foi elaborada por representantes reunidos em Assembleia Nacional Constituinte.
+## 5. A lógica dos quatro primeiros artigos
 
-Contraste:
+Os arts. 1º a 4º não são quatro listas equivalentes. Cada um responde a uma pergunta diferente:
 
-- **promulgada** → participação representativa do povo no processo constituinte;
-- **outorgada** → imposta unilateralmente pelo detentor do poder, sem processo constituinte democrático equivalente.
+- **art. 1º:** que Estado foi constituído e em quais fundamentos se apoia?
+- **art. 2º:** como o poder estatal é distribuído entre funções básicas?
+- **art. 3º:** quais objetivos a República deve perseguir internamente?
+- **art. 4º:** quais princípios orientam o Brasil nas relações internacionais?
 
-**Pegadinha:** a CF/1988 não é outorgada.
+Entender essas categorias reduz as trocas de palavras entre artigos.
 
----
+## 6. Art. 1º: Estado Democrático de Direito, fundamentos e poder popular
 
-## 6. Quanto à forma: escrita
+A República Federativa do Brasil é formada pela **união indissolúvel dos Estados e Municípios e do Distrito Federal** e constitui-se em **Estado Democrático de Direito**.
 
-A CF/1988 é **escrita**, pois suas normas constitucionais estão formalizadas em documento constitucional solene, acompanhado do ADCT e das alterações posteriores produzidas pelo poder de reforma.
+Os fundamentos são:
 
-O contraste clássico é com constituições não escritas ou costumeiras, formadas predominantemente por fontes históricas, costumes, precedentes e atos esparsos.
+1. soberania;
+2. cidadania;
+3. dignidade da pessoa humana;
+4. valores sociais do trabalho e da livre iniciativa;
+5. pluralismo político.
 
----
+### 6.1 Quem é titular do poder?
 
-## 7. Quanto ao modo de elaboração: dogmática
+O parágrafo único do art. 1º afirma que **todo o poder emana do povo**, que o exerce:
 
-A CF/1988 é **dogmática** porque foi produzida deliberadamente em determinado momento histórico, sistematizando princípios e escolhas político-jurídicas.
+- por meio de representantes eleitos; ou
+- diretamente, nos termos da Constituição.
 
-Contraste:
+Representantes exercem poder político, mas não substituem o povo como titular constitucional desse poder.
 
-- **dogmática** → elaboração deliberada e sistematizada;
-- **histórica** → formação lenta e evolutiva ao longo do tempo.
-
-Não confunda “dogmática” com “dogma imutável”. Aqui, o termo descreve o **modo de elaboração**.
-
----
-
-## 8. Quanto à extensão: analítica
-
-A CF/1988 é **analítica** porque disciplina grande quantidade de temas, com detalhamento superior ao de uma constituição sintética.
-
-```text
-ANALÍTICA → texto amplo e detalhado
-SINTÉTICA → concentra-se em estruturas e princípios essenciais
-```
-
-“Analítica” não significa que toda norma constitucional seja longa; o critério observa a Constituição como conjunto.
-
----
-
-## 9. Quanto à estabilidade: rígida
-
-A CF/1988 é **rígida** porque a sua alteração, como regra, depende de procedimento mais difícil e solene do que o processo legislativo ordinário.
-
-O art. 60 exige, entre outros requisitos:
-
-- legitimados específicos para propor PEC;
-- votação em **dois turnos em cada Casa**;
-- aprovação por **três quintos dos membros** em cada turno;
-- respeito a limites circunstanciais e materiais.
-
-### 9.1 E a expressão “super-rígida”?
-
-Parte da doutrina usa a expressão **super-rígida** para destacar que, além do procedimento agravado, existem matérias protegidas por cláusulas pétreas.
-
-Essa nomenclatura **não é universal**. Para uma questão genérica sobre o critério de estabilidade, sem indicação de autor, a classificação segura e tradicional da CF/1988 é **rígida**.
-
----
-
-## 10. Quanto ao conteúdo: formal
-
-A CF/1988 é **formal** porque a qualidade constitucional de uma norma decorre de sua inserção no documento constitucional por procedimento próprio, e não apenas de seu conteúdo material.
-
-Logo, o texto pode conter:
-
-- normas materialmente constitucionais;
-- normas formalmente constitucionais cujo conteúdo poderia, em tese, ser disciplinado fora de uma Constituição.
-
----
-
-## 11. Quanto à finalidade: dirigente
-
-A CF/1988 é frequentemente classificada como **dirigente** porque, além de organizar o Estado e limitar o poder, estabelece objetivos, programas e tarefas a serem perseguidos pelos poderes públicos.
-
-O art. 3º é exemplo evidente dessa dimensão ao enunciar objetivos fundamentais da República.
-
-**Cuidado:** “dirigente” não significa que toda norma constitucional seja programática ou de eficácia limitada. São critérios diferentes.
-
----
-
-## 12. Quanto à ideologia: eclética ou pluralista
-
-A CF/1988 é usualmente classificada como **eclética** ou **pluralista**, pois acolhe compromissos e valores de diferentes matrizes político-sociais.
-
-O objetivo de prova é reconhecer o contraste com uma constituição ideologicamente ortodoxa, dominada por uma única orientação.
-
----
-
-# Parte III — Princípios fundamentais: arts. 1º a 4º
-
-## 13. Mapa 1–2–3–4
-
-A recuperação mais eficiente é:
-
-```text
-ART. 1º → ESTADO + 5 FUNDAMENTOS + PODER EMANA DO POVO
-ART. 2º → 3 PODERES, INDEPENDENTES E HARMÔNICOS
-ART. 3º → 4 OBJETIVOS FUNDAMENTAIS
-ART. 4º → 10 PRINCÍPIOS INTERNACIONAIS + INTEGRAÇÃO LATINO-AMERICANA
-```
-
----
-
-## 14. Art. 1º — fundamentos da República
-
-A República Federativa do Brasil, formada pela união indissolúvel dos Estados, Municípios e Distrito Federal, constitui-se em **Estado Democrático de Direito**.
-
-Os cinco fundamentos são:
-
-1. **soberania**;
-2. **cidadania**;
-3. **dignidade da pessoa humana**;
-4. **valores sociais do trabalho e da livre iniciativa**;
-5. **pluralismo político**.
-
-Mnemônico útil: **SO-CI-DI-VA-PLU**.
-
-### 14.1 Poder popular
-
-O parágrafo único do art. 1º estabelece:
-
-```text
-TITULAR → POVO
-EXERCÍCIO → representantes eleitos OU diretamente
-CONDIÇÃO → nos termos da Constituição
-```
-
-O poder não emana dos representantes; eles são uma forma de exercício do poder cujo titular é o povo.
-
----
-
-## 15. Art. 2º — separação dos Poderes
+## 7. Art. 2º: independência não significa isolamento
 
 São Poderes da União:
 
@@ -270,31 +193,22 @@ São Poderes da União:
 
 A Constituição os qualifica como **independentes e harmônicos entre si**.
 
-Independência não significa isolamento absoluto nem ausência de controles constitucionais recíprocos.
+Independência impede uma relação geral de subordinação hierárquica entre os Poderes. Harmonia não significa ausência de controles recíprocos: a própria Constituição distribui competências que fazem um Poder participar ou controlar atos de outro.
 
----
+## 8. Art. 3º: objetivos fundamentais são tarefas a perseguir
 
-## 16. Art. 3º — objetivos fundamentais
+O art. 3º não descreve características já concluídas do Estado; ele enuncia **objetivos fundamentais**:
 
-São quatro incisos:
+1. construir uma sociedade livre, justa e solidária;
+2. garantir o desenvolvimento nacional;
+3. erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;
+4. promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.
 
-1. construir uma sociedade **livre, justa e solidária**;
-2. garantir o **desenvolvimento nacional**;
-3. **erradicar a pobreza e a marginalização** e **reduzir as desigualdades sociais e regionais**;
-4. promover o **bem de todos**, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.
+Observe a literalidade do inciso III: a Constituição manda **erradicar** pobreza e marginalização, mas **reduzir** desigualdades sociais e regionais.
 
-Pegadinha do inciso III:
+## 9. Art. 4º: como o Brasil deve agir nas relações internacionais
 
-```text
-ERRADICAR → pobreza + marginalização
-REDUZIR   → desigualdades sociais + regionais
-```
-
----
-
-## 17. Art. 4º — relações internacionais
-
-Os dez princípios são:
+A República Federativa do Brasil rege-se, nas relações internacionais, por dez princípios:
 
 1. independência nacional;
 2. prevalência dos direitos humanos;
@@ -307,9 +221,9 @@ Os dez princípios são:
 9. cooperação entre os povos para o progresso da humanidade;
 10. concessão de asilo político.
 
-O parágrafo único determina a busca da integração **econômica, política, social e cultural** dos povos da América Latina, visando à formação de uma **comunidade latino-americana de nações**.
+O parágrafo único acrescenta um objetivo regional específico: o Brasil buscará a integração **econômica, política, social e cultural dos povos da América Latina**, visando à formação de uma comunidade latino-americana de nações.
 
-### 17.1 Pares que a banca troca
+### 9.1 Trocas que revelam a categoria
 
 | Expressão | Categoria |
 |---|---|
@@ -317,27 +231,26 @@ O parágrafo único determina a busca da integração **econômica, política, s
 | independência nacional | princípio internacional — art. 4º |
 | dignidade da pessoa humana | fundamento — art. 1º |
 | prevalência dos direitos humanos | princípio internacional — art. 4º |
-| pluralismo político | fundamento — art. 1º |
-| asilo político | princípio internacional — art. 4º |
 | desenvolvimento nacional | objetivo — art. 3º |
 | progresso da humanidade | princípio internacional — art. 4º |
 
 ---
 
-# Parte IV — Emendas constitucionais
+# Parte IV — Emenda constitucional: mudar sem substituir a Constituição
 
-## 18. Poder constituinte originário e poder de reforma
+## 10. Quem cria uma Constituição não é o mesmo poder que a reforma
 
-Para compreender emenda constitucional, basta distinguir:
+O **poder constituinte originário** cria uma nova Constituição e inaugura uma nova ordem constitucional.
 
-- **poder constituinte originário** → cria uma nova Constituição e inaugura nova ordem constitucional;
-- **poder constituinte derivado reformador** → altera a Constituição vigente dentro dos limites que ela própria estabelece.
+Depois que essa Constituição entra em vigor, o poder de alterá-la é **derivado**: ele existe porque a própria Constituição o autoriza e, por isso, está sujeito aos limites que ela estabelece.
 
-A emenda constitucional é manifestação do **poder derivado reformador**. Portanto, não é juridicamente ilimitada.
+A emenda constitucional é manifestação do **poder constituinte derivado reformador**. Esse ponto explica todo o art. 60: uma emenda pode mudar o texto, mas não dispõe da liberdade jurídica do poder que criou a Constituição.
 
----
+## 11. O fluxo do art. 60
 
-## 19. Iniciativa da proposta de emenda — art. 60
+Uma <abbr title="Proposta de Emenda à Constituição">PEC</abbr> precisa superar sucessivamente seis perguntas: **quem propôs, em que contexto, com que votação, sobre qual matéria, quem promulga e se a matéria já foi rejeitada ou prejudicada naquela sessão legislativa**.
+
+### 11.1 Iniciativa: quem pode propor?
 
 A Constituição pode ser emendada mediante proposta:
 
@@ -345,234 +258,88 @@ A Constituição pode ser emendada mediante proposta:
 2. do **Presidente da República**;
 3. de **mais da metade das Assembleias Legislativas das unidades da Federação**, manifestando-se cada uma delas pela **maioria relativa de seus membros**.
 
-### 19.1 Pegadinhas
+O texto do art. 60 **não inclui iniciativa popular de <abbr title="Proposta de Emenda à Constituição">PEC</abbr> federal** entre os legitimados expressos.
 
-- não se exige um terço das duas Casas simultaneamente;
-- Presidente da República **propõe**, mas não sanciona a emenda aprovada;
-- o art. 60 **não prevê iniciativa popular de PEC federal**;
-- nas Assembleias Legislativas, exige-se mais da metade delas, cada qual pela maioria relativa de seus membros.
+Também não se exige um terço das duas Casas simultaneamente: o inciso I usa “Câmara **ou** Senado”.
 
----
+### 11.2 Limites circunstanciais: quando a reforma fica bloqueada?
 
-## 20. Limitações circunstanciais
+A Constituição **não pode ser emendada** durante:
 
-A Constituição **não pode ser emendada** na vigência de:
+- intervenção federal;
+- estado de defesa;
+- estado de sítio.
 
-- **intervenção federal**;
-- **estado de defesa**;
-- **estado de sítio**.
+São limitações **circunstanciais** porque não proíbem para sempre determinada matéria; impedem o processo de reforma enquanto perdurar uma situação institucional excepcional.
 
-Mnemônico:
+### 11.3 Deliberação: como a proposta é aprovada?
 
-```text
-I-D-S
-Intervenção federal
-Defesa
-Sítio
-```
+A <abbr title="Proposta de Emenda à Constituição">PEC</abbr> é discutida e votada **em cada Casa do Congresso Nacional, em dois turnos**.
 
-A proibição é circunstancial: protege o processo de reforma em momentos de excepcionalidade institucional.
+Para ser aprovada, precisa obter, em **cada turno de cada Casa**, votos favoráveis de **três quintos dos respectivos membros**.
 
----
+O quórum é calculado sobre o número de membros da Casa, não apenas sobre os parlamentares presentes.
 
-## 21. Votação e aprovação
+### 11.4 Limites materiais: o que não pode ser objeto de deliberação?
 
-A proposta será discutida e votada:
+Não será objeto de deliberação a proposta **tendente a abolir**:
 
-- em **cada Casa do Congresso Nacional**;
-- em **dois turnos**;
-- considerando-se aprovada se obtiver, em ambos, **três quintos dos votos dos respectivos membros**.
+1. a forma federativa de Estado;
+2. o voto direto, secreto, universal e periódico;
+3. a separação dos Poderes;
+4. os direitos e garantias individuais.
 
-```text
-CÂMARA → 2 turnos → 3/5 em cada
-SENADO → 2 turnos → 3/5 em cada
-```
+Esses núcleos são chamados de **cláusulas pétreas**.
 
-Não confunda:
+A expressão “tendente a abolir” é mais ampla do que uma revogação textual explícita. Uma proposta também é vedada quando seu conteúdo caminha para eliminar o núcleo constitucionalmente protegido.
 
-- **3/5** → PEC;
-- **maioria absoluta** → diversas outras deliberações constitucionais;
-- **maioria simples/relativa** → deliberação calculada sobre presentes, quando cabível.
+Isso não significa que qualquer dispositivo relacionado a uma cláusula pétrea seja absolutamente imutável. O limite é a reforma que **tenda à abolição** do núcleo protegido.
 
----
+### 11.5 Promulgação: por que não há sanção ou veto?
 
-## 22. Promulgação: não há sanção nem veto presidencial
+Uma emenda aprovada é promulgada pelas **Mesas da Câmara dos Deputados e do Senado Federal**, com o respectivo número de ordem.
 
-A emenda aprovada é promulgada pelas **Mesas da Câmara dos Deputados e do Senado Federal**, com o respectivo número de ordem.
+O Presidente da República pode participar da **iniciativa**, mas não sanciona nem veta a emenda aprovada. Sanção e veto pertencem ao processo legislativo das leis, não à etapa final do procedimento de emenda constitucional.
 
-O Presidente da República não participa da etapa final por sanção ou veto.
+### 11.6 Irrepetibilidade: o que ocorre se a matéria for rejeitada ou prejudicada?
 
-Fluxo mental:
+A matéria constante de proposta de emenda rejeitada ou havida por prejudicada **não pode ser objeto de nova proposta na mesma sessão legislativa**.
 
-```text
-INICIATIVA LEGÍTIMA
-→ Câmara + Senado
-→ 2 turnos em cada
-→ 3/5 em cada turno
-→ MESAS DA CÂMARA E DO SENADO PROMULGAM
-```
-
-**Pegadinha:** PEC não vira “projeto de lei” para sanção presidencial.
+**Sessão legislativa** é o ciclo anual de trabalhos do Congresso. **Legislatura** é o ciclo de quatro anos correspondente ao mandato da Câmara dos Deputados. O § 5º do art. 60 usa a primeira expressão.
 
 ---
 
-## 23. Cláusulas pétreas — limites materiais
+## 12. Reforma do art. 60 não é a revisão constitucional do <abbr title="Ato das Disposições Constitucionais Transitórias">ADCT</abbr>
 
-Não será objeto de deliberação a proposta de emenda **tendente a abolir**:
+O art. 60 institui o mecanismo **permanente** de reforma por emenda.
 
-1. a **forma federativa de Estado**;
-2. o **voto direto, secreto, universal e periódico**;
-3. a **separação dos Poderes**;
-4. os **direitos e garantias individuais**.
+Já o art. 3º do <abbr title="Ato das Disposições Constitucionais Transitórias">ADCT</abbr> previu uma **revisão constitucional especial**, realizada após cinco anos da promulgação da Constituição. Nela, o Congresso decidiu por **maioria absoluta em sessão unicameral**, isto é, votando como um único corpo, e não por Casas separadas.
 
-Mnemônico:
+Esse mecanismo foi transitório e se exauriu. Ele não é uma alternativa atual ao procedimento do art. 60.
 
-```text
-FE – VO – SE – DI
-Federação
-Voto
-Separação dos Poderes
-Direitos e garantias individuais
-```
-
-### 23.1 “Tendente a abolir”
-
-A proteção não alcança apenas uma proposta que declare expressamente “fica abolida a cláusula pétrea”. Também é vedada a deliberação de proposta cujo conteúdo **tenda** à abolição da proteção.
-
-### 23.2 Cláusula pétrea não significa texto intocável em qualquer sentido
-
-O núcleo protegido não impede toda e qualquer alteração textual relacionada ao tema. O que a Constituição proíbe é a reforma **tendente a abolir** os núcleos protegidos.
-
----
-
-## 24. Irrepetibilidade na mesma sessão legislativa
-
-A matéria constante de proposta de emenda **rejeitada ou havida por prejudicada** não pode ser objeto de nova proposta **na mesma sessão legislativa**.
-
-Não troque:
-
-- sessão legislativa ≠ legislatura;
-- regra da PEC ≠ regras de reapresentação de projetos de lei.
-
----
-
-## 25. Reforma constitucional × revisão constitucional
-
-O art. 60 disciplina a **reforma constitucional ordinária por emendas**.
-
-O art. 3º do ADCT previu uma **revisão constitucional especial**, realizada após cinco anos da promulgação da Constituição, pelo voto da **maioria absoluta dos membros do Congresso Nacional, em sessão unicameral**.
-
-A revisão do ADCT foi mecanismo transitório e já exaurido. Ela não substitui o procedimento permanente do art. 60.
-
-| Reforma por emenda — art. 60 | Revisão — art. 3º do ADCT |
+| Emenda constitucional — art. 60 | Revisão — art. 3º do <abbr title="Ato das Disposições Constitucionais Transitórias">ADCT</abbr> |
 |---|---|
-| mecanismo permanente | mecanismo transitório |
-| Câmara e Senado, separadamente | Congresso em sessão unicameral |
-| 2 turnos em cada Casa | regra especial do ADCT |
-| 3/5 em cada turno | maioria absoluta |
+| mecanismo permanente | mecanismo transitório e exaurido |
+| Câmara e Senado votam separadamente | Congresso em sessão unicameral |
+| dois turnos em cada Casa | regra especial de revisão |
+| três quintos | maioria absoluta |
+
+## 13. <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026 e o corte
+
+A <abbr title="Emenda Constitucional">EC</abbr> nº 139, de 5 de maio de 2026, foi publicada em 6 de maio e já integrava o texto constitucional no corte de 6 de julho de 2026.
+
+Ela modificou o § 1º do art. 31 e o art. 75, relacionados ao controle externo e aos Tribunais de Contas. Não alterou os arts. 1º a 4º nem o art. 60.
+
+Na revisão deste capítulo, em 9 de setembro de 2026, o quadro oficial de emendas constitucionais ainda apresentava a <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026 como a mais recente. Para a prova, porém, o marco continua sendo **6/7/2026**.
 
 ---
 
-## 26. Emenda constitucional também se submete à Constituição
+## 14. Como reconstruir a resposta na prova
 
-O poder de reforma é **derivado e limitado**. Logo, uma emenda deve respeitar:
+Quando a questão misturar classificações, princípios e reforma constitucional, identifique primeiro **qual pergunta está sendo feita**:
 
-- o procedimento constitucional;
-- os limites circunstanciais;
-- as cláusulas pétreas;
-- as demais exigências estruturais do art. 60.
+1. **é uma classificação?** Descubra o critério antes de escolher o adjetivo: origem, forma, elaboração, extensão, estabilidade, conteúdo, finalidade ou ideologia;
+2. **é um princípio fundamental?** Separe fundamento do art. 1º, Poderes do art. 2º, objetivo do art. 3º e princípio internacional do art. 4º;
+3. **é uma emenda constitucional?** Percorra o mecanismo: legitimidade da iniciativa, situação institucional, votação, limite material, promulgação e eventual irrepetibilidade.
 
-A supremacia constitucional não desaparece porque o ato produzido se chama “Emenda Constitucional”.
-
----
-
-## 27. EC nº 139/2026 e o corte do edital
-
-A **EC nº 139, de 5 de maio de 2026**, foi publicada antes do edital e integra o corte.
-
-Ela alterou:
-
-- o § 1º do art. 31;
-- o art. 75;
-
-para reforçar constitucionalmente a permanência e a essencialidade dos Tribunais de Contas no exercício do controle externo.
-
-Para este assunto, o ponto principal é temporal: **a EC 139 já fazia parte da Constituição vigente em 6/7/2026**. O estudo material de tribunais de contas pertence aos assuntos próprios de Controle Externo.
-
----
-
-# Parte V — Método de resolução
-
-## 28. Como identificar a classificação pedida
-
-Pergunte primeiro **qual é o critério**:
-
-```text
-ORIGEM?      → promulgada
-FORMA?       → escrita
-ELABORAÇÃO?  → dogmática
-EXTENSÃO?    → analítica
-ESTABILIDADE?→ rígida
-CONTEÚDO?    → formal
-FINALIDADE?  → dirigente
-IDEOLOGIA?   → eclética/pluralista
-```
-
-Uma alternativa pode usar adjetivo correto no critério errado.
-
----
-
-## 29. Como resolver questão de art. 60
-
-Use a sequência:
-
-```text
-1. QUEM PROPÔS? → legitimado?
-2. HÁ I-D-S? → se sim, não pode emendar
-3. VOTAÇÃO? → 2 turnos por Casa + 3/5
-4. CLÁUSULA PÉTREA? → proposta tende a abolir?
-5. PROMULGAÇÃO? → Mesas da Câmara e do Senado
-6. FOI REJEITADA/PREJUDICADA? → não repete na mesma sessão legislativa
-```
-
----
-
-## 30. Pegadinhas consolidadas
-
-1. **CF/1988 é promulgada, não outorgada.**
-2. **Dogmática** descreve modo de elaboração; não significa imutável.
-3. **Analítica** descreve extensão; não significa “interpretação detalhada”.
-4. A classificação geral de estabilidade é **rígida**; “super-rígida” é nomenclatura doutrinária não universal.
-5. **Dirigente** não é sinônimo de “toda norma tem eficácia limitada”.
-6. Soberania é **fundamento**; independência nacional é princípio do art. 4º.
-7. O poder emana do **povo**.
-8. O art. 3º manda **erradicar pobreza/marginalização** e **reduzir desigualdades**.
-9. PEC federal pode ser proposta por **1/3 de uma das Casas**, Presidente ou maioria das Assembleias nos termos do art. 60.
-10. Não se emenda a Constituição durante **intervenção federal, estado de defesa ou estado de sítio**.
-11. PEC exige **2 turnos em cada Casa e 3/5 dos membros em cada turno**.
-12. Emenda é promulgada pelas **Mesas da Câmara e do Senado**; não há sanção ou veto presidencial.
-13. Cláusula pétrea protege também contra proposta **tendente a abolir**.
-14. PEC rejeitada ou prejudicada não pode ser reapresentada **na mesma sessão legislativa**.
-15. Reforma do art. 60 ≠ revisão especial do art. 3º do ADCT.
-
----
-
-## 31. Checklist final
-
-Antes de encerrar o assunto, consiga responder sem consulta:
-
-- qual a diferença entre Constituição material e formal;
-- quais palavras-chave identificam Lassalle, Schmitt e Kelsen;
-- como a CF/1988 é classificada quanto a origem, forma, elaboração, extensão, estabilidade, conteúdo e finalidade;
-- quais são os cinco fundamentos do art. 1º;
-- quais são os quatro objetivos do art. 3º;
-- quais são os princípios internacionais do art. 4º;
-- quem pode propor PEC;
-- quais são os limites circunstanciais;
-- qual o quórum e o número de turnos;
-- quem promulga a emenda;
-- quais são as quatro cláusulas pétreas expressas;
-- qual a regra de irrepetibilidade;
-- por que revisão constitucional do ADCT não se confunde com reforma pelo art. 60.
-
----
+Esse método transforma listas em relações. A memorização final fica para o cheat sheet; aqui, o objetivo é saber **por que cada resposta pertence ao seu lugar**.
