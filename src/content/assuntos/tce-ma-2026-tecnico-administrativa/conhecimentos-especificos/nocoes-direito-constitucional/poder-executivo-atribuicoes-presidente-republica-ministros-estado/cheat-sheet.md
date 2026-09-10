@@ -19,7 +19,7 @@
 | prestação anual | contas ao Congresso | relatório ao Presidente |
 | delegação | delega nos limites do art. 84, <abbr title="parágrafo único">p.u.</abbr> | pode receber |
 
-## 3. Art. 84 — blocos
+## 3. Artigo 84 — blocos
 
 ```text
 I-II      → Ministros + direção superior
@@ -63,9 +63,9 @@ PGR
 AGU
 ```
 
-Não entram: veto, medida provisória, tratados, guerra, nomeação de Ministro do STF.
+Não entram: veto, medida provisória, tratados, guerra, nomeação de Ministro do <abbr title="Supremo Tribunal Federal">STF</abbr>.
 
-## 5. Decreto do art. 84
+## 5. Decreto do artigo 84
 
 ```text
 IV → regulamento para FIEL EXECUÇÃO DA LEI
@@ -138,22 +138,33 @@ XVII → membros do Conselho da República
 
 ## 10. Ministros — requisitos
 
+Regra geral do artigo 87:
+
 ```text
 BRASILEIRO
 + MAIOR DE 21 ANOS
 + DIREITOS POLÍTICOS EM EXERCÍCIO
 ```
 
-Não exige no art. 87:
+Exceção constitucional:
 
 ```text
-brasileiro nato
+MINISTRO DA DEFESA
+→ deve ser BRASILEIRO NATO
+→ art. 12, § 3º, VII
+```
+
+Assim, **brasileiro nato não é requisito de todo Ministro de Estado**, mas é exigido especificamente para o Ministro da Defesa.
+
+O artigo 87 não exige, como regra geral:
+
+```text
 35 anos
 nível superior
 aprovação do Senado
 ```
 
-## 11. Art. 87 — quatro núcleos
+## 11. Artigo 87 — quatro núcleos
 
 ```text
 I   → ORIENTA + COORDENA + SUPERVISIONA
@@ -184,7 +195,7 @@ IERD → Instruções / Execução / Relatório / Delegação
 | Ministro | relatório de gestão | Presidente | anual |
 | Presidente | contas do exercício anterior | Congresso | 60 dias após abertura da sessão |
 
-## 13. Art. 87, IV × art. 84, p.u.
+## 13. Artigo 87, IV × artigo 84, <abbr title="parágrafo único">p.u.</abbr>
 
 ```text
 87, IV
@@ -197,7 +208,7 @@ NÃO significa
 → limita delegação do art. 84 a VI + XII + XXV(1ª)
 ```
 
-## 14. Art. 88
+## 14. Artigo 88
 
 ```text
 CRIAR/EXTINGUIR MINISTÉRIO OU ÓRGÃO
@@ -223,11 +234,11 @@ Contraste:
 | Prover cargo federal pode ser delegado | **CERTO** |
 | Decreto do VI pode criar órgão sem despesa | **ERRADO** |
 | Decreto do VI pode extinguir cargo ocupado | **ERRADO** |
-| Ministro precisa ser brasileiro nato | **ERRADO** |
+| Todo Ministro precisa ser brasileiro nato | **ERRADO — Ministro da Defesa é a exceção** |
 | Ministro deve ser maior de 21 anos | **CERTO** |
 | Ministro expede instruções para executar regulamentos | **CERTO** |
 | Ministro envia seu relatório anual ao Congresso | **ERRADO** |
-| Art. 87, IV permite delegar qualquer competência presidencial | **ERRADO** |
+| Artigo 87, IV permite delegar qualquer competência presidencial | **ERRADO** |
 | Criação de Ministério depende de lei | **CERTO** |
 
 ## 16. Números e palavras-chave
@@ -237,8 +248,8 @@ Contraste:
 | idade de Ministro | **maior de 21 anos** |
 | contas presidenciais | **60 dias** |
 | delegáveis | **VI + XII + XXV(1ª)** |
-| art. 87, I | **orientação + coordenação + supervisão + referendo** |
-| art. 87, III | **relatório anual → Presidente** |
+| artigo 87, I | **orientação + coordenação + supervisão + referendo** |
+| artigo 87, III | **relatório anual → Presidente** |
 
 ## 17. Fluxo de resolução
 

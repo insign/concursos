@@ -1,8 +1,9 @@
-- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026, consolidado com a retificação do Edital nº 2, de 29/7/2026.
-- [Constituição da República Federativa do Brasil — texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) — Presidência da República, especialmente arts. 92 a 126; corte de prova em 6/7/2026.
-- [Quadro de Emendas Constitucionais](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/quadro_emc.htm) — Presidência da República; conferência das emendas incorporadas ao texto no corte.
-- [Emenda Constitucional nº 134/2024](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc134.htm) — alteração do art. 96 sobre eleição de cargos diretivos em determinados Tribunais de Justiça.
-- [Emenda Constitucional nº 136/2025](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc136.htm) — alterações do regime constitucional de precatórios.
-- [Constituição e o Supremo — Poder Judiciário](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=92&abrirBase=CF) — Supremo Tribunal Federal.
-- [ADI 3.367 — ficha processual](https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=ADI&numProcesso=3367) — constitucionalidade e posição institucional do CNJ.
-- [ADI 4.638 — ficha processual](https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=ADI&numProcesso=4638) — competência disciplinar do CNJ.
+- [Constituição da República Federativa do Brasil de 1988 — texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — arts. 12, § 3º, IV, e 92 a 126; corte de 6/7/2026; acesso em 10/9/2026.
+- [Emenda Constitucional nº 134/2024](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc134.htm) — regra do art. 96 para eleição de cargos diretivos em Tribunais de Justiça com mais de 170 desembargadores em efetivo exercício; acesso em 10/9/2026.
+- [Emenda Constitucional nº 136/2025](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc136.htm) — alterações do art. 100, inclusive o marco de 1º de fevereiro no § 5º; acesso em 10/9/2026.
+- [STF — Constituição e o Supremo, Poder Judiciário](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=92&abrirBase=CF) — posição constitucional do CNJ e jurisprudência correlata; acesso em 10/9/2026.
+- [STF — Constituição e o Supremo, art. 102](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=102&abrirBase=CF) — competências do STF, inclusive ações contra o CNJ e o CNMP; acesso em 10/9/2026.
+- [STF — ADI 3.367](https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=ADI&numProcesso=3367) — constitucionalidade e posição institucional do CNJ, sem competência sobre o STF e seus Ministros; acesso em 10/9/2026.
+- [STF — ADI 4.638](https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=ADI&numProcesso=4638) — competência disciplinar originária e concorrente do CNJ; acesso em 10/9/2026.
+- [STF — ADI 4.412](https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=ADI&numProcesso=4412) — competência do STF para ações contra decisões do CNJ proferidas no exercício de suas competências constitucionais; acesso em 10/9/2026.
+- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026, consolidado com as retificações aplicáveis ao Cargo 16; acesso em 10/9/2026.
