@@ -1,11 +1,8 @@
-#### Normativas e jurisprudenciais
-
-- **Constituição da República Federativa do Brasil de 1988**, art. 84, IV e VI — [Planalto](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm).
-- **Lei nº 5.172/1966 (Código Tributário Nacional)**, arts. 77 e 78 — [Planalto](https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm).
-- **Lei nº 9.784/1999**, arts. 11 a 15 — [Planalto](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm). Uso apenas como referência do processo administrativo federal.
-- **Lei nº 8.112/1990**, arts. 127 a 143 — [Planalto](https://www.planalto.gov.br/ccivil_03/leis/l8112compilado.htm). Uso apenas como exemplo do regime disciplinar federal.
-- **STF, Tema 532 da repercussão geral, RE 633.782**, tese sobre delegação do poder de polícia — [STF](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4005451&numeroProcesso=633782&numeroTema=532).
-
-#### Doutrinárias
-
-Para nomenclaturas, distinções e classificações, o material adota a matriz comum de manuais reconhecidos de Direito Administrativo, especialmente obras de Maria Sylvia Zanella Di Pietro, José dos Santos Carvalho Filho e Alexandre Mazza, sempre subordinando a síntese às normas e à jurisprudência indicadas acima.
+- BRASIL. Presidência da República. [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), especialmente art. 5º, LIV e LV, e art. 84, IV e VI. Texto compilado vigente no corte do edital. Acesso em: 10 set. 2026.
+- BRASIL. Presidência da República. [Lei nº 5.172, de 25 de outubro de 1966 — Código Tributário Nacional](https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm), especialmente art. 78 e parágrafo único. Texto compilado vigente no corte do edital. Acesso em: 10 set. 2026.
+- BRASIL. Presidência da República. [Lei nº 9.784, de 29 de janeiro de 1999 — Processo Administrativo Federal](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm), especialmente arts. 11 a 15, como referência do regime federal de competência, delegação e avocação. Texto vigente no corte do edital. Acesso em: 10 set. 2026.
+- BRASIL. Presidência da República. [Lei nº 8.112, de 11 de dezembro de 1990](https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm), especialmente art. 143, como exemplo do regime disciplinar federal. Texto compilado vigente no corte do edital. Acesso em: 10 set. 2026.
+- BRASIL. Presidência da República. [Lei nº 4.717, de 29 de junho de 1965 — Ação Popular](https://www.planalto.gov.br/ccivil_03/leis/l4717.htm), especialmente art. 2º e parágrafo único, para desvio de finalidade. Texto vigente no corte do edital. Acesso em: 10 set. 2026.
+- BRASIL. Supremo Tribunal Federal. [Tema 532 da repercussão geral — RE 633.782](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=532). Tese sobre delegação do poder de polícia a determinadas pessoas jurídicas de direito privado da Administração indireta; trânsito em julgado em 3 fev. 2021. Acesso em: 10 set. 2026.
+- DI PIETRO, Maria Sylvia Zanella. *Direito Administrativo*. 39. ed. Rio de Janeiro: Forense, 2026. ISBN 9788530998653. [Página da editora](https://www.grupogen.com.br/livro-direito-administrativo-39-edicao-2026-maria-sylvia-zanella-di-pietro-editora-forense-9788530998653). Referência doutrinária para poderes administrativos, poder de polícia e abuso do poder.
+- CARVALHO FILHO, José dos Santos. *Manual de Direito Administrativo*. 40. ed. Rio de Janeiro: Atlas, 2026. ISBN 9786559778362. [Página da editora](https://www.grupogen.com.br/livro-manual-de-direito-administrativo-40-edicao-2026-jose-dos-santos-carvalho-filho-editora-atlas-9786559778362). Referência doutrinária para poder regulamentar, poder disciplinar, poder de polícia e classificações.

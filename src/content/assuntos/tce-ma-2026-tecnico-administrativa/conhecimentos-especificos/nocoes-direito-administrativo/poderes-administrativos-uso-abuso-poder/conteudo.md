@@ -8,455 +8,200 @@ storageId: tec-nocoes-poderes-145
 
 # Poderes administrativos
 
-## Delimitação e corte
+## 1. Quatro relações, quatro poderes
 
-Este assunto integra **Conhecimentos específicos — Noções de Direito Administrativo** do Cargo 16 e cobre exatamente os itens **4 Poderes administrativos; 4.1 Hierárquico, disciplinar, regulamentar e de polícia; 4.2 Uso e abuso do poder**.
+Imagine um órgão público em funcionamento.
 
-> **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A conferência editorial foi feita posteriormente, sem ampliar o corte.
+A chefia distribui tarefas entre servidores subordinados. Se um servidor viola dever funcional, a Administração instaura apuração e pode aplicar sanção. O Chefe do Executivo expede regulamento para tornar uma lei executável. Em outro contexto, a vigilância sanitária fiscaliza um estabelecimento privado e, se houver infração, adota a medida prevista em lei.
 
-O foco é reconhecer o núcleo de cada poder, seus limites e as distinções que mais geram erro em prova. Referências federais aparecem apenas para concretizar conceitos; não transformam processo disciplinar, regime funcional ou processo administrativo federal em matérias autônomas deste assunto.
+Essas situações envolvem poderes administrativos diferentes porque a **relação jurídica** também é diferente:
 
-Não são objeto central desta unidade:
+| Situação | Relação predominante | Poder |
+|---|---|---|
+| chefia dirige subordinados | organização interna | hierárquico |
+| Administração apura infração de quem está sujeito à sua disciplina | vínculo jurídico especial | disciplinar |
+| autoridade edita norma administrativa para executar a lei | lei → ato normativo administrativo | regulamentar |
+| Administração condiciona direito, atividade ou liberdade de administrado | interesse público → esfera do particular | polícia |
 
-- processo administrativo disciplinar completo;
-- regime funcional de um estatuto específico;
-- anulação, revogação e convalidação dos atos administrativos em geral;
-- controle administrativo, judicial ou legislativo da Administração, que possui item próprio no edital;
-- responsabilidade civil do Estado;
-- licitações e contratos administrativos.
+Os poderes administrativos são competências funcionais atribuídas pelo ordenamento para cumprir finalidades públicas. Não são privilégios pessoais da autoridade. Quando a lei impõe atuação, a ideia doutrinária de **poder-dever** destaca que a competência existe também como dever funcional.
 
-Quando esses temas aparecerem, será apenas para esclarecer o funcionamento ou os limites dos poderes estudados.
+A mesma chave explica o abuso: **competência, finalidade, limites e processo** condicionam o exercício legítimo. A existência de margem de escolha não transforma discricionariedade em arbitrariedade.
 
-As referências normativas e jurisprudenciais principais são:
+> **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-- Constituição Federal, especialmente art. 84, IV e VI;
-- Código Tributário Nacional, arts. 77 e 78, como definição legal clássica do poder de polícia e de seu exercício regular;
-- Lei nº 9.784/1999, arts. 11 a 15, apenas como **referência federal** para competência, delegação e avocação;
-- Lei nº 8.112/1990, arts. 127 a 143, apenas como **exemplo federal** de exercício disciplinar sobre servidores submetidos àquele regime;
-- <abbr title="Supremo Tribunal Federal">STF</abbr>, Tema 532 da repercussão geral (<abbr title="Recurso Extraordinário">RE</abbr> 633.782), sobre delegação do poder de polícia a determinadas pessoas jurídicas de direito privado da Administração indireta.
+## 2. Poder hierárquico: organizar relações de subordinação
 
-As Leis nº 9.784/1999 e nº 8.112/1990 são usadas somente como referências do regime **federal**. Elas não são apresentadas como estatutos automaticamente aplicáveis ao TCE/MA.
+O **poder hierárquico** permite ordenar, coordenar, fiscalizar e controlar a atuação interna quando existe relação de subordinação.
 
-## 1. Ideia geral: poder administrativo é instrumento vinculado ao direito
+Por ele, a chefia pode, nos limites jurídicos, distribuir funções, emitir ordens legítimas, acompanhar a execução do trabalho e revisar atos de subordinados. A hierarquia não autoriza ordem contrária à lei: subordinação é relação administrativa, não dispensa de legalidade.
 
-Os chamados **poderes administrativos** são prerrogativas jurídicas atribuídas à Administração e aos agentes competentes para permitir o cumprimento das finalidades públicas previstas no ordenamento.
+### 2.1 Hierarquia não é qualquer forma de controle
 
-A palavra “poder” não significa liberdade ilimitada. A competência existe para ser exercida **nos limites e para os fins juridicamente definidos**. Por isso, a doutrina frequentemente destaca a ideia de **poder-dever** ou **dever-poder**: quando a lei impõe atuação administrativa necessária, a autoridade não pode simplesmente abandonar a competência por conveniência pessoal.
+Uma autarquia possui personalidade jurídica própria. Por isso, a relação entre ela e o ente político que a instituiu não é, em regra, a mesma relação hierárquica que existe entre chefe e subordinado dentro de uma única pessoa jurídica.
 
-Em prova, raciocine assim:
+Nesse caso, fala-se em <abbr title="Controle dos fins legais de entidade sem hierarquia interna geral">controle finalístico</abbr>, tutela ou supervisão nos limites previstos em lei. A entidade pode ser controlada quanto ao cumprimento de sua finalidade sem se transformar em departamento do ministério ou da secretaria supervisora.
 
-```text
-competência
-+ finalidade pública
-+ limites legais
-+ procedimento devido
-= exercício legítimo
+### 2.2 Delegação e avocação ajudam a enxergar a hierarquia — mas não são sinônimos dela
 
-competência extrapolada
-OU
-finalidade desviada
-= abuso do poder
-```
+Na Lei nº 9.784/1999, usada aqui apenas como referência do processo administrativo federal, <abbr title="Transferência do exercício de parte da competência">delegação</abbr> é a transferência do exercício de parte da competência dentro dos limites jurídicos. O artigo 12 permite delegar a outro órgão ou titular **mesmo sem subordinação hierárquica**, se não houver impedimento legal e estiverem presentes as condições da lei.
 
-### 1.1 Vinculação e discricionariedade não formam um “quinto poder” do edital
+O artigo 13, nesse regime federal, impede delegar:
 
-A Administração pode atuar com maior ou menor margem de escolha conforme a lei. **Vinculação** e **discricionariedade** descrevem o espaço de decisão permitido pelo ordenamento; não precisam ser tratadas, neste edital, como novos poderes paralelos aos quatro expressamente cobrados.
+1. edição de atos de caráter normativo;
+2. decisão de recursos administrativos;
+3. matérias de competência exclusiva do órgão ou autoridade.
 
-Um mesmo poder pode conter atos vinculados e, em outros pontos, escolhas discricionárias.
+Já <abbr title="Assunção temporária de competência de órgão hierarquicamente inferior">avocação</abbr> funciona de modo diferente. Pelo artigo 15, é excepcional, temporária, exige motivos relevantes devidamente justificados e recai sobre competência atribuída a órgão **hierarquicamente inferior**.
 
-**Pegadinha:** discricionariedade não significa arbitrariedade. A escolha continua submetida à competência, finalidade, razoabilidade, proporcionalidade e demais limites jurídicos.
+A conclusão útil é simples: **delegação não prova hierarquia; avocação, no modelo federal citado, pressupõe inferioridade hierárquica**.
 
-## 2. Poder hierárquico
+## 3. Poder disciplinar: apurar e sancionar dentro de vínculo especial
 
-O **poder hierárquico** organiza, coordena e controla a atuação interna da estrutura administrativa quando existe relação de subordinação.
+O **poder disciplinar** permite apurar infrações administrativas e aplicar sanções a pessoas submetidas a uma relação jurídica especial de disciplina com a Administração.
 
-Ele permite estruturar a cadeia de comando e distribuir responsabilidades entre órgãos e agentes.
+O servidor é o exemplo mais evidente, mas a ideia é mais ampla que a cadeia hierárquica. Uma pessoa pode estar sujeita a disciplina administrativa por um vínculo jurídico específico sem que exista, em todos os casos, a mesma subordinação interna típica entre chefe e servidor.
 
-### 2.1 Efeitos típicos
+Isso separa dois poderes que frequentemente aparecem juntos:
 
-Em sentido didático, a hierarquia permite:
+- **hierárquico:** organiza, dirige e fiscaliza a estrutura subordinada;
+- **disciplinar:** reage a infração administrativa de quem está juridicamente sujeito à disciplina aplicável.
 
-- dar ordens e instruções legítimas;
-- distribuir e coordenar funções;
-- fiscalizar a atuação dos subordinados;
-- revisar atos nos limites admitidos pelo ordenamento;
-- delegar o exercício de competências quando juridicamente possível;
-- avocar temporariamente competência de subordinado quando a lei autorizar;
-- organizar a prestação administrativa dentro da estrutura hierarquizada.
+Também não confunda disciplina com polícia. Se um servidor viola dever funcional, a relação é disciplinar. Se um estabelecimento privado viola regra sanitária aplicável a sua atividade, a sanção decorre do poder de polícia.
 
-A hierarquia explica por que um superior pode dirigir a atuação de um subordinado, mas não autoriza ordens contrárias à lei.
+### 3.1 Punir exige procedimento, não apenas autoridade
 
-### 2.2 Hierarquia não existe entre toda e qualquer entidade pública
+O poder disciplinar não cria liberdade para punir por vontade pessoal. A sanção depende de competência, fundamento jurídico, apuração adequada, contraditório e ampla defesa quando cabíveis, além de motivação e observância dos critérios legais.
 
-A existência de controle ou supervisão **não significa necessariamente hierarquia**.
+A Lei nº 8.112/1990 oferece um exemplo federal: seu artigo 143 determina que a autoridade que tiver ciência de irregularidade no serviço público promova sua apuração imediata, por sindicância ou processo administrativo disciplinar, assegurada ampla defesa. Essa lei rege o âmbito federal definido por ela; suas penalidades e ritos **não são automaticamente o regime do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>**.
 
-Entre a Administração direta e uma entidade da Administração indireta dotada de personalidade jurídica própria, fala-se, em regra, em **vinculação, tutela ou supervisão finalística**, nos limites legais, e não em subordinação hierárquica geral.
+Para esta unidade, importa compreender o mecanismo do poder disciplinar. O catálogo completo de penalidades e o rito do processo disciplinar pertencem ao regime jurídico específico aplicável.
 
-Assim:
+## 4. Poder regulamentar: ligar a lei à execução administrativa
 
-| Situação | Relação típica |
-|---|---|
-| chefe de unidade × servidor subordinado da mesma estrutura | hierarquia |
-| ministério/secretaria × autarquia vinculada | supervisão ou controle finalístico, não hierarquia geral |
-| um Poder estatal × outro Poder estatal | não há hierarquia institucional entre os Poderes |
+Uma lei pode definir obrigações e competências sem detalhar cada passo de sua execução. O **poder regulamentar** permite à autoridade competente expedir atos normativos administrativos para viabilizar essa execução, sem substituir a lei.
 
-**Pegadinha:** descentralização cria pessoa jurídica distinta; por isso, não se deve importar automaticamente a cadeia hierárquica da Administração direta para a entidade descentralizada.
+Parte da doutrina usa **poder normativo** em sentido mais amplo, abrangendo atos gerais expedidos por diferentes autoridades e entidades administrativas. Em sentido mais estrito, poder regulamentar costuma ser associado aos decretos e regulamentos do Chefe do Executivo. Em questão doutrinária, observe o sentido adotado pelo enunciado.
 
-### 2.3 Delegação não prova, sozinha, existência de hierarquia
+### 4.1 Regulamento executivo: a lei vem primeiro
 
-A Lei nº 9.784/1999, no processo administrativo federal, permite delegar parte da competência a outro órgão ou titular **mesmo sem subordinação hierárquica**, desde que não haja impedimento legal e estejam presentes as condições previstas no art. 12.
+O artigo 84, IV, da Constituição atribui ao Presidente da República competência para expedir decretos e regulamentos para a **fiel execução das leis**.
 
-Logo:
+O regulamento executivo é, portanto, secundário em relação à lei: pode organizar sua aplicação e detalhar aspectos necessários à execução, mas não pode contrariá-la, revogá-la ou criar regime incompatível com aquilo que deveria executar.
 
-```text
-DELEGAÇÃO
-≠
-prova necessária de hierarquia
-```
+### 4.2 Decreto autônomo: fundamento direto e matéria limitada
 
-A mesma lei dispõe que não podem ser delegados, no regime federal:
+A Constituição prevê também decreto com fundamento direto no artigo 84, VI. É o chamado **decreto autônomo**, admitido somente nas matérias ali delimitadas.
 
-- edição de atos de caráter normativo;
-- decisão de recursos administrativos;
-- matérias de competência exclusiva.
+O Presidente pode dispor por decreto sobre:
 
-Esses pontos são usados aqui apenas para mostrar os limites da relação entre hierarquia e competência.
+1. organização e funcionamento da Administração federal, **sem aumento de despesa e sem criação ou extinção de órgãos públicos**;
+2. extinção de funções ou cargos públicos, **quando vagos**.
 
-### 2.4 Avocação exige cuidado maior
-
-Na Lei nº 9.784/1999, a **avocação** é admitida em caráter excepcional, por motivos relevantes devidamente justificados, de forma temporária e em relação a competência atribuída a **órgão hierarquicamente inferior**.
-
-Portanto:
-
-- delegação pode existir sem hierarquia;
-- avocação, no modelo federal citado, pressupõe relação hierárquica.
-
-## 3. Poder disciplinar
-
-O **poder disciplinar** é a prerrogativa de apurar infrações administrativas e aplicar sanções às pessoas sujeitas a uma **relação jurídica especial** com a Administração, quando o ordenamento atribui essa competência.
-
-Seu campo mais evidente é a disciplina funcional dos servidores, mas a ideia não se confunde necessariamente com hierarquia: pode haver vínculo especial que sujeite determinada pessoa a sanções administrativas mesmo sem ser subordinada hierarquicamente como servidor.
-
-### 3.1 Disciplinar não é o mesmo que hierárquico
-
-| Poder hierárquico | Poder disciplinar |
-|---|---|
-| organiza e dirige a atuação interna | apura infração e aplica sanção administrativa |
-| pressupõe subordinação para seus efeitos típicos | pressupõe sujeição jurídica à disciplina aplicável |
-| pode gerar ordens, fiscalização e revisão | pode gerar apuração e penalidade |
-| não se resume a punir | não se resume a comandar |
-
-Um servidor pode estar sujeito simultaneamente à hierarquia e à disciplina, mas os fundamentos são diferentes.
-
-### 3.2 Disciplinar não é poder de polícia
-
-O poder disciplinar atua sobre quem mantém **vínculo jurídico específico** que o submete à disciplina administrativa correspondente.
-
-O poder de polícia, por sua vez, alcança administrados em geral, limitando direitos, interesses ou liberdades em razão do interesse público, dentro da competência legal.
-
-Exemplo:
-
-- servidor descumpre dever funcional → questão disciplinar;
-- estabelecimento viola regra sanitária aplicável à atividade → questão de polícia administrativa.
-
-### 3.3 Devido processo e base jurídica
-
-Poder disciplinar não significa liberdade para punir.
-
-A sanção exige:
-
-- competência;
-- fundamento jurídico;
-- apuração adequada;
-- contraditório e ampla defesa quando houver acusação e possibilidade de sanção;
-- motivação;
-- proporcionalidade e observância dos critérios legais aplicáveis.
-
-A Lei nº 8.112/1990, como **exemplo federal**, prevê penalidades disciplinares e determina, no art. 143, a apuração de irregularidade mediante sindicância ou processo administrativo disciplinar, assegurada ampla defesa.
-
-Não é necessário memorizar nesta unidade todo o catálogo de penalidades ou os ritos do PAD; o ponto é compreender o **fundamento do poder disciplinar**.
-
-## 4. Poder regulamentar
-
-O **poder regulamentar** permite à autoridade competente expedir atos normativos administrativos para viabilizar a execução da lei, dentro dos limites estabelecidos pelo ordenamento.
-
-Em sentido mais amplo, parte da doutrina utiliza a expressão **poder normativo** para abranger atos gerais editados por diferentes autoridades e entidades administrativas. Em sentido mais estrito, “poder regulamentar” é frequentemente associado aos decretos e regulamentos expedidos pelo Chefe do Executivo.
-
-Para prova, observe qual sentido o enunciado adota.
-
-### 4.1 Regulamento de execução — art. 84, IV
-
-A Constituição atribui ao Presidente da República competência para expedir **decretos e regulamentos para a fiel execução das leis**.
-
-A lógica é:
-
-```text
-LEI
-↓
-regulamento executivo detalha sua aplicação
-↓
-não pode contrariar ou substituir a lei
-```
-
-O regulamento executivo é **secundário** em relação à lei que executa. Ele não pode criar, por vontade autônoma do administrador, obrigação primária incompatível com a lei ou modificar o sentido legal.
-
-### 4.2 Decreto autônomo — art. 84, VI
-
-A Constituição também admite decreto diretamente fundado no art. 84, VI, em hipóteses delimitadas.
-
-O Presidente pode dispor mediante decreto sobre:
-
-1. **organização e funcionamento da Administração federal**, quando isso **não implicar aumento de despesa nem criação ou extinção de órgãos públicos**;
-2. **extinção de funções ou cargos públicos, quando vagos**.
-
-Essa figura não autoriza um poder regulamentar ilimitado.
-
-### 4.3 Executivo não pode “legislar por regulamento” fora da autorização constitucional
-
-Compare:
+Compare os mecanismos:
 
 | Regulamento executivo | Decreto autônomo |
 |---|---|
-| fundamento imediato: lei a executar | fundamento direto: Constituição |
-| finalidade: fiel execução da lei | hipóteses específicas do art. 84, VI |
-| não substitui a lei | não pode ultrapassar a matéria constitucionalmente autorizada |
+| pressupõe lei a executar | fundamento imediato na Constituição |
+| serve à fiel execução da lei | atua apenas nas hipóteses do artigo 84, VI |
+| não pode contrariar a lei | não pode ultrapassar o campo constitucional autorizado |
 
-**Pegadinha:** decreto autônomo não pode criar órgão público nem extinguir cargo ocupado.
+Logo, decreto autônomo não é autorização genérica para legislar por decreto: não pode criar ou extinguir órgão com base na alínea “a” nem extinguir cargo ocupado com base na alínea “b”.
 
-## 5. Poder de polícia
+## 5. Poder de polícia: condicionar a esfera do administrado
 
-O **poder de polícia** permite à Administração limitar ou disciplinar direitos, interesses e liberdades para proteger interesses públicos definidos pelo ordenamento.
+O **poder de polícia** aparece quando a Administração, com fundamento jurídico, limita ou disciplina direito, interesse, liberdade ou atividade para proteger interesses públicos.
 
-O art. 78 do Código Tributário Nacional oferece uma definição legal clássica: considera poder de polícia a atividade administrativa que, limitando ou disciplinando direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato em razão de interesses públicos relacionados, entre outros, à segurança, higiene, ordem, costumes, disciplina da produção e do mercado, tranquilidade pública, propriedade e direitos individuais ou coletivos.
+O artigo 78 do <abbr title="Código Tributário Nacional">CTN</abbr> fornece a definição legal clássica: poder de polícia é a atividade administrativa que limita ou disciplina direito, interesse ou liberdade e regula a prática de ato ou abstenção de fato em razão de interesses públicos como segurança, higiene, ordem, mercado, tranquilidade pública, propriedade e direitos individuais ou coletivos.
 
-### 5.1 Exercício regular — <abbr title="Código Tributário Nacional">CTN</abbr>, art. 78, parágrafo único
+O parágrafo único do mesmo artigo indica quando o exercício é regular: atuação pelo órgão competente, nos limites da lei aplicável, com observância do processo legal e, se a lei tratar a atividade como discricionária, sem abuso ou desvio de poder.
 
-O CTN considera regular o exercício quando o poder de polícia é desempenhado:
+Essa regra mostra que polícia administrativa não significa liberdade para escolher qualquer medida. A providência concreta depende de competência, base normativa, processo e limites materiais.
 
-- pelo **órgão competente**;
-- nos **limites da lei aplicável**;
-- com observância do **processo legal**;
-- e, quando a lei tratar a atividade como discricionária, **sem abuso ou desvio de poder**.
+### 5.1 Um cenário para visualizar o ciclo de polícia
 
-Essa fórmula é excelente para questões de prova:
+Imagine atividade econômica sujeita a regra sanitária.
 
-```text
-COMPETÊNCIA
-+ LEI
-+ PROCESSO
-+ SEM ABUSO/DESVIO
-= exercício regular
-```
+Primeiro existe uma **ordem de polícia**: a norma estabelece o condicionamento. Se a atividade depender de licença ou autorização, aparece o **consentimento de polícia**. Depois, a Administração pode fiscalizar o cumprimento da regra. Se constatar infração, pode aplicar a **sanção de polícia** prevista no ordenamento.
 
-### 5.2 Exemplos
+Assim, a classificação doutrinária usual apresenta quatro fases:
 
-São manifestações típicas de polícia administrativa, conforme a legislação específica:
+1. ordem;
+2. consentimento;
+3. fiscalização;
+4. sanção.
 
-- fiscalização sanitária;
-- fiscalização ambiental;
-- licenças e autorizações administrativas;
-- fiscalização de trânsito;
-- interdição administrativa quando legalmente cabível;
-- aplicação de multa administrativa;
-- restrições administrativas ao exercício de atividades econômicas.
+Nem toda situação concreta percorre necessariamente as quatro. O ciclo organiza o raciocínio; não cria uma sequência universal nem, por si só, resolve quais atividades podem ser delegadas.
 
-A medida concreta sempre depende da competência e da base normativa aplicável.
+### 5.2 Polícia administrativa não é polícia judiciária
 
-### 5.3 Polícia administrativa × polícia judiciária
+A polícia administrativa incide sobre atividades, bens, direitos e condutas submetidos à disciplina administrativa. Pode agir antes da infração, por condicionamento e fiscalização, e também depois dela, aplicando sanção administrativa.
 
-Em distinção didática:
+A polícia judiciária está ligada à investigação de ilícitos penais e à persecução penal. Por isso, é incorreto reduzir a diferença à fórmula “administrativa é preventiva; judiciária é repressiva”: a polícia administrativa também pode atuar repressivamente no campo administrativo.
 
-| Polícia administrativa | Polícia judiciária |
-|---|---|
-| incide sobre atividades, bens, direitos e condutas submetidas à disciplina administrativa | atua na investigação e repressão de ilícitos penais conforme o sistema processual penal |
-| busca prevenir ou reprimir infrações administrativas | relaciona-se à persecução penal |
-| exerce poder administrativo | exerce funções ligadas à investigação criminal |
+### 5.3 Discricionariedade, coercibilidade e autoexecutoriedade
 
-A distinção não deve ser reduzida à frase “uma é sempre preventiva e a outra sempre repressiva”: a polícia administrativa também pode atuar **repressivamente** diante de infração administrativa já ocorrida, por exemplo ao aplicar sanção.
+Três características aparecem com frequência na doutrina sobre poder de polícia.
 
-### 5.4 Atributos do poder de polícia
+A **discricionariedade** existe quando a lei deixa margem legítima para escolher, dentro de parâmetros jurídicos, a providência adequada. Ela não é universal: há atos de polícia vinculados.
 
-A doutrina costuma associar ao poder de polícia:
+Chama-se <abbr title="Possibilidade jurídica de impor a medida sem depender da concordância do administrado">coercibilidade</abbr> a aptidão de impor a medida administrativa independentemente da concordância do destinatário.
 
-- **discricionariedade**, quando a lei deixa margem legítima de escolha;
-- **coercibilidade**, isto é, possibilidade jurídica de impor a medida independentemente da concordância do administrado;
-- **autoexecutoriedade**, quando o ordenamento autoriza a execução material direta sem prévia ordem judicial.
+A <abbr title="Execução material direta pela Administração quando juridicamente admitida">autoexecutoriedade</abbr> é a possibilidade de executar materialmente a decisão sem ordem judicial prévia quando o ordenamento a admite. Também não é universal.
 
-Esses atributos exigem cuidado.
+A multa ajuda a separar os conceitos. A Administração pode impor validamente a multa prevista em lei; isso não significa que possa obter o pagamento forçado por simples execução patrimonial direta. A cobrança segue os meios jurídicos próprios.
 
-#### Discricionariedade não é universal
+## 6. Delegação do poder de polícia: o limite do Tema 532
 
-Há atos de polícia **vinculados**. Se a lei predetermina pressupostos e consequência, não há escolha livre da autoridade.
+No Tema 532 da <abbr title="Mecanismo em que o Supremo Tribunal Federal fixa tese para casos semelhantes">repercussão geral</abbr>, o <abbr title="Supremo Tribunal Federal">STF</abbr> afastou a afirmação absoluta de que nenhuma pessoa jurídica de direito privado da Administração indireta poderia exercer poder de polícia.
 
-#### Autoexecutoriedade não é universal
+A tese do Recurso Extraordinário 633.782 admite, **por meio de lei**, delegação a pessoa jurídica de direito privado integrante da Administração indireta quando estejam presentes cumulativamente estas características:
 
-Nem toda medida de polícia pode ser executada diretamente. A possibilidade depende do regime jurídico aplicável, da previsão legal e/ou da situação que juridicamente justifique atuação imediata.
-
-**Pegadinha:** aplicar uma multa e cobrar coercitivamente o valor por execução patrimonial direta são questões distintas.
-
-## 6. Ciclo de polícia
-
-Uma forma didática comum divide a atuação de polícia em quatro fases:
-
-1. **ordem de polícia** — norma que impõe restrição ou condicionamento;
-2. **consentimento de polícia** — licença ou autorização, quando exigida;
-3. **fiscalização de polícia** — verificação do cumprimento das regras;
-4. **sanção de polícia** — consequência administrativa pela infração.
-
-Nem toda atividade concreta percorre necessariamente as quatro fases.
-
-Exemplo:
-
-```text
-regra sanitária
-→ licença quando exigida
-→ fiscalização
-→ sanção se houver infração
-```
-
-A utilidade da classificação é organizar o raciocínio, não criar uma tabela absoluta de delegabilidade.
-
-## 7. Delegação do poder de polícia — Tema 532/<abbr title="Supremo Tribunal Federal">STF</abbr>
-
-O STF, no **Tema 532 da repercussão geral**, superou a ideia de que toda atividade de polícia seria indelegável a qualquer pessoa jurídica de direito privado.
-
-A tese admite, **por meio de lei**, delegação do poder de polícia a pessoa jurídica de direito privado integrante da Administração indireta quando estejam presentes cumulativamente as características fixadas pelo Tribunal:
-
-- capital social **majoritariamente público**;
-- prestação **exclusiva de serviço público**;
+- capital social majoritariamente público;
+- prestação exclusiva de serviço público;
 - serviço de atuação própria do Estado;
-- atuação em **regime não concorrencial**.
+- atuação em regime não concorrencial.
 
-No caso paradigma, discutia-se a atuação da <abbr title="Empresa de Transportes e Trânsito de Belo Horizonte S/A">BHTrans</abbr> e a aplicação de multas de trânsito.
+O precedente discutia a aplicação de multas de trânsito por sociedade de economia mista. A resposta de prova deve permanecer dentro da tese: ela não autoriza delegação livre a empresa privada comum, não dispensa lei e não torna irrelevantes competência, processo e finalidade.
 
-### 7.1 O que não concluir do Tema 532
+## 7. Uso e abuso: o limite está na competência e na finalidade
 
-O precedente não significa:
+O abuso do poder é o exercício ilegítimo de uma competência administrativa. A classificação clássica distingue **excesso de poder** e **desvio de poder ou de finalidade**.
 
-- delegação livre a qualquer empresa privada;
-- dispensa de lei;
-- autorização geral para qualquer atividade econômica;
-- desaparecimento dos requisitos de competência e devido processo;
-- possibilidade de exercício abusivo.
+### 7.1 Excesso de poder: ultrapassar o que era permitido
 
-A questão deve verificar **todos os requisitos da tese**, e não apenas o fato de a entidade integrar a Administração indireta.
+Há excesso quando a autoridade ultrapassa os limites de sua competência ou da medida juridicamente autorizada.
 
-## 8. Uso e abuso do poder
+Exemplo hipotético: uma chefia possui competência para adotar determinada providência, mas aplica medida reservada por lei a autoridade superior. O problema está no limite objetivo da atuação: **foi além do que podia fazer**.
 
-O poder administrativo é legítimo quando exercido **dentro da competência e para a finalidade prevista no direito**.
+O excesso também pode aparecer quando a autoridade competente para agir utiliza intensidade ou extensão que o direito não autoriza.
 
-O **abuso do poder** é gênero que costuma aparecer em duas formas principais:
+### 7.2 Desvio de finalidade: usar a competência para o fim errado
 
-- **excesso de poder**;
-- **desvio de poder ou desvio de finalidade**.
+No desvio, a autoridade possui competência formal para praticar aquele tipo de ato, mas a utiliza para finalidade diferente da prevista no ordenamento.
 
-### 8.1 Excesso de poder
+A Lei nº 4.717/1965 fornece formulação legal clássica: há desvio de finalidade quando o agente pratica o ato visando a fim diverso daquele previsto, explícita ou implicitamente, na regra de competência.
 
-Há excesso quando o agente **ultrapassa os limites de sua competência ou da medida juridicamente autorizada**.
+Exemplo hipotético: a autoridade pode remover servidor por necessidade do serviço, mas usa a remoção exclusivamente para perseguir desafeto. **Podia praticar a medida, mas não para aquele fim.**
 
-Exemplos:
-
-- autoridade competente para determinada providência aplica medida que a lei reserva a autoridade superior;
-- agente utiliza intensidade ou extensão de atuação além do permitido juridicamente.
-
-A chave de prova é:
-
-> **podia agir, mas foi além do que podia.**
-
-### 8.2 Desvio de poder ou finalidade
-
-Há desvio quando o agente possui competência formal para agir, mas utiliza o poder para **finalidade diferente da prevista no ordenamento**.
-
-Exemplo:
-
-- autoridade possui competência para remover servidor por necessidade do serviço, mas usa a medida exclusivamente para perseguição pessoal.
-
-A chave é:
-
-> **podia praticar aquele tipo de ato, mas agiu para o fim errado.**
-
-Essa figura se conecta ao requisito **finalidade** do ato administrativo, estudado na unidade anterior.
-
-### 8.3 Excesso × desvio
-
-| Excesso de poder | Desvio de poder/finalidade |
+| Excesso de poder | Desvio de finalidade |
 |---|---|
-| problema central: limites da competência/medida | problema central: finalidade |
-| agente ultrapassa o que podia fazer | agente usa competência para fim indevido |
-| “foi além” | “mirou o fim errado” |
+| ultrapassa competência ou limite da medida | mantém competência formal, mas persegue finalidade indevida |
+| problema central: “quanto/até onde podia agir?” | problema central: “para qual fim podia agir?” |
 
-### 8.4 Abuso pode ocorrer mesmo em competência discricionária
+A discricionariedade não elimina esse controle. Escolhas administrativas continuam submetidas a competência, finalidade, legalidade, proporcionalidade, motivação quando exigida e demais limites jurídicos. Também pode haver atuação ilegítima por omissão quando o ordenamento impõe dever de agir; o núcleo, novamente, é a violação do dever jurídico, não uma liberdade pessoal da autoridade.
 
-A existência de margem de escolha não autoriza:
+## 8. Como identificar o poder sem decorar listas soltas
 
-- perseguição pessoal;
-- favorecimento indevido;
-- finalidade estranha à lei;
-- medida desproporcional;
-- atuação sem pressuposto jurídico;
-- omissão deliberada quando a autoridade tem dever jurídico de agir.
+Volte às quatro situações do início.
 
-**Discricionariedade ≠ arbitrariedade.**
+Se a questão descreve direção de subordinados, procure **hierarquia**. Se descreve apuração e sanção dentro de vínculo jurídico especial, pense em **disciplina**. Se há ato normativo destinado a executar a lei, examine o **poder regulamentar**. Se a Administração condiciona atividade, liberdade ou direito de administrado por interesse público, examine o **poder de polícia**.
 
-## 9. Matriz dos quatro poderes
+Depois de identificar o poder, faça a pergunta de controle:
 
-| Poder | Pergunta-chave | Objeto principal | Pegadinha clássica |
-|---|---|---|---|
-| hierárquico | quem dirige, coordena e fiscaliza a estrutura subordinada? | organização interna | supervisão de entidade descentralizada ≠ hierarquia geral |
-| disciplinar | quem pode apurar e sancionar infração administrativa de sujeito submetido à disciplina? | vínculo especial + infração | disciplina ≠ polícia |
-| regulamentar | como detalhar juridicamente a execução da lei? | atos normativos administrativos | regulamento executivo não substitui lei |
-| polícia | como limitar direitos/atividades pelo interesse público? | liberdade, propriedade, atividades e condutas | discricionariedade e autoexecutoriedade não são absolutas |
+1. **Quem tinha competência?**
+2. **Qual era a finalidade jurídica?**
+3. **Quais limites materiais e procedimentais incidiam?**
+4. **A autoridade apenas exerceu a competência ou ultrapassou seu alcance?**
+5. **A competência foi usada para o fim correto?**
 
-## 10. Como resolver casos de prova
-
-### Caso 1 — ordem interna
-
-Chefia determina a distribuição de tarefas entre servidores subordinados.
-
-**Núcleo:** poder hierárquico.
-
-### Caso 2 — infração funcional
-
-Servidor viola dever funcional e é submetido a apuração com possibilidade de sanção.
-
-**Núcleo:** poder disciplinar.
-
-### Caso 3 — detalhamento de lei
-
-Chefe do Executivo expede decreto para disciplinar a execução de lei sem contrariá-la.
-
-**Núcleo:** poder regulamentar.
-
-### Caso 4 — fiscalização de atividade
-
-Órgão sanitário fiscaliza estabelecimento e adota medida legal diante de infração.
-
-**Núcleo:** poder de polícia.
-
-### Caso 5 — perseguição sob aparência de competência
-
-Autoridade usa medida que formalmente poderia praticar, mas exclusivamente para atingir desafeto.
-
-**Núcleo:** desvio de finalidade.
-
-### Caso 6 — autoridade ultrapassa sua alçada
-
-Chefia aplica medida que somente autoridade superior poderia adotar.
-
-**Núcleo:** excesso de poder.
-
-## 11. Pegadinhas de prova
-
-1. **Hierarquia não se presume entre Administração direta e entidade descentralizada.**
-2. **Delegação de competência pode ocorrer sem subordinação hierárquica no regime federal da Lei nº 9.784/1999.**
-3. **Avocação federal é excepcional, temporária e recai sobre competência de órgão hierarquicamente inferior.**
-4. **Poder disciplinar não é sinônimo de poder hierárquico.**
-5. **Sanção disciplinar e sanção de polícia têm fundamentos relacionais diferentes.**
-6. **Regulamento executivo não pode contrariar ou substituir a lei.**
-7. **Decreto autônomo existe, mas apenas nas hipóteses constitucionais delimitadas.**
-8. **Poder de polícia não é sempre discricionário.**
-9. **Poder de polícia não é sempre autoexecutório.**
-10. **Polícia administrativa também pode agir repressivamente contra infração administrativa.**
-11. **Tema 532 não autoriza delegação do poder de polícia a qualquer empresa privada.**
-12. **Excesso de poder mira os limites da competência; desvio de poder mira a finalidade.**
-13. **Discricionariedade não protege ato abusivo.**
+Essa sequência reúne o capítulo em um único modelo mental: **o tipo de relação indica o poder; o ordenamento define seus instrumentos; e competência, finalidade, processo e limites separam uso legítimo de abuso.**
