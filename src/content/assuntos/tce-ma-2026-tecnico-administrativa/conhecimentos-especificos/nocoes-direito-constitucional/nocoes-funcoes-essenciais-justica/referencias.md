@@ -1,2 +1,4 @@
-- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026, consolidado com a retificação de 29/7/2026; corte de prova em 6/7/2026.
-- [Constituição da República Federativa do Brasil — texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — arts. 127 a 135.
+- [Constituição da República Federativa do Brasil de 1988 — texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — arts. 127 a 135, inclusive a redação vigente do art. 135; corte de 6/7/2026; acesso em 10/9/2026.
+- [Emenda Constitucional nº 19/1998](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc19.htm) — redação dada ao art. 135 e alterações correlatas; acesso em 10/9/2026.
+- [Emenda Constitucional nº 80/2014](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc80.htm) — reorganização das Seções III e IV do Capítulo IV e atualização do art. 134; acesso em 10/9/2026.
+- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026, consolidado com as retificações aplicáveis ao Cargo 16; acesso em 10/9/2026.

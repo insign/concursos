@@ -1,449 +1,299 @@
 ---
 schemaVersion: 1
 title: "Funções essenciais à Justiça: Ministério Público, advocacia pública e defensoria pública"
-description: "Noções constitucionais sobre Ministério Público, Advocacia Pública e Defensoria Pública, com foco nas funções, garantias, organização essencial e diferenças mais cobradas em prova."
+description: "Noções constitucionais sobre Ministério Público, Advocacia Pública e Defensoria Pública, com foco nas missões institucionais, organização, garantias, ingresso e diferenças essenciais."
 order: 140
 storageId: tec-nocoes-funcoes-justica-140
 ---
 
 # Funções essenciais à Justiça: Ministério Público, advocacia pública e defensoria pública
 
-## 1. Recorte do edital
+## 1. Três instituições, três problemas diferentes
 
-Este assunto integra **Noções de Direito Constitucional** do Cargo 16 e corresponde ao item que exige **Ministério Público, advocacia pública e defensoria pública**.
+Considere três situações: houve um crime e é preciso promover a ação penal pública; a União precisa ser representada em juízo; uma pessoa sem recursos precisa de orientação jurídica e defesa gratuita. A Constituição não entrega essas tarefas à mesma instituição.
 
-O núcleo está no **Capítulo IV do Título IV da Constituição Federal**, especialmente nos **arts. 127 a 132 e 134 a 135**. O art. 133 trata da advocacia privada e funciona aqui apenas como fronteira: o foco do edital é a **Advocacia Pública**.
+- **Ministério Público:** protege a ordem jurídica, o regime democrático e interesses constitucionalmente relevantes; entre suas funções está promover privativamente a ação penal pública.
+- **Advocacia Pública:** representa juridicamente o ente público e presta a consultoria que a Constituição atribui à advocacia estatal.
+- **Defensoria Pública:** presta orientação jurídica e defesa integral e gratuita aos necessitados, além de promover direitos humanos nos termos constitucionais.
 
-> **Corte de prova:** 6 de julho de 2026. A retificação de 29 de julho de 2026 não ampliou este recorte.
+As três aparecem no capítulo das **funções essenciais à Justiça**, mas não se tornam, por isso, órgãos do Poder Judiciário. A expressão **função jurisdicional** designa a atividade estatal de solucionar juridicamente conflitos por decisões judiciais; Ministério Público, Advocacia Pública e Defensoria participam do sistema de justiça com missões próprias, sem se confundir com o órgão que julga.
 
-A palavra **noções** orienta a profundidade: é necessário reconhecer a posição constitucional das instituições, suas atribuições essenciais, garantias, formas básicas de ingresso e as diferenças que costumam aparecer em alternativas de prova. Não é necessário transformar o tema em estudo aprofundado de organização interna, processo disciplinar ou jurisprudência especializada.
+> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. O núcleo está nos arts. 127 a 132 e 134 a 135 da Constituição. O art. 133 trata da advocacia privada e entra apenas como fronteira. O Conselho Nacional do Ministério Público e o Ministério Público junto aos Tribunais de Contas aparecem somente no grau necessário para compreender os arts. 130 e 130-A.
 
----
+Essa divisão funcional é o mapa do capítulo. Primeiro entenda **a quem cada instituição serve e para quê**; depois memorize chefias, garantias, concursos e números.
 
-## 2. Visão geral: quem faz o quê?
+## 2. Ministério Público: proteger a ordem jurídica sem representar o governo
 
-| Situação | Instituição constitucional |
-|---|---|
-| defesa da ordem jurídica e do regime democrático | **Ministério Público** |
-| promoção privativa da ação penal pública | **Ministério Público** |
-| inquérito civil e ação civil pública | **Ministério Público** |
-| representação judicial e extrajudicial da União | **Advocacia-Geral da União** |
-| consultoria e assessoramento jurídico do Poder Executivo federal | **Advocacia-Geral da União** |
-| representação judicial e consultoria jurídica dos Estados e do <abbr title="Distrito Federal">DF</abbr> | **Procuradores dos Estados e do DF** |
-| orientação jurídica e defesa integral e gratuita dos necessitados | **Defensoria Pública** |
+O art. 127 define o Ministério Público como instituição **permanente** e **essencial à função jurisdicional do Estado**. Sua missão constitucional é defender:
 
-A primeira grande pegadinha é confundir instituições que aparecem no mesmo capítulo constitucional:
+- a ordem jurídica;
+- o regime democrático;
+- os interesses sociais;
+- os interesses individuais indisponíveis, isto é, interesses cuja proteção jurídica não fica inteiramente à livre disposição do titular.
 
-```text
-MP ≠ Advocacia Pública ≠ Defensoria Pública
-```
+Essa missão explica uma distinção importante: o Ministério Público **não é advogado do governo**. A Constituição proíbe que ele exerça representação judicial ou consultoria jurídica de entidades públicas. Essas tarefas pertencem à Advocacia Pública.
 
-Elas são funções essenciais à Justiça, mas possuem **missões constitucionais diferentes**.
+### 2.1 Unidade, indivisibilidade e independência funcional
 
----
+O art. 127, § 1º, estabelece três princípios institucionais.
 
-# Parte I — Ministério Público
+**Unidade** significa que a atuação dos membros é imputada à instituição a que pertencem, dentro da estrutura constitucional e legal.
 
-## 3. Posição constitucional e missão — art. 127
+**Indivisibilidade** significa que os membros podem substituir-se segundo as regras institucionais; a atuação não fica pessoalmente presa a um único membro.
 
-O Ministério Público (MP) é instituição:
+**Independência funcional** protege a formação jurídica da manifestação do membro no exercício de suas atribuições. Não significa ausência de organização administrativa, competência definida ou dever de observar a Constituição e a lei.
 
-- **permanente**;
-- **essencial à função jurisdicional do Estado**.
+Os mesmos nomes reaparecem na Defensoria Pública, mas isso não torna idênticas as competências das duas instituições.
 
-Incumbe-lhe defender:
+### 2.2 Autonomia institucional
 
-- a **ordem jurídica**;
-- o **regime democrático**;
-- os **interesses sociais**;
-- os **interesses individuais indisponíveis**.
+Ao Ministério Público são asseguradas **autonomia funcional e administrativa**. Ele pode, observado o art. 169, propor ao Poder Legislativo medidas relativas a seus cargos e serviços auxiliares, política remuneratória e planos de carreira, nos termos constitucionais.
 
-O MP não é advogado do governo. A própria Constituição impede que exerça representação judicial ou consultoria jurídica de entidades públicas.
+O Ministério Público também elabora sua proposta orçamentária dentro dos limites da <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>. Se a proposta não for encaminhada no prazo ou vier em desacordo com os limites constitucionais, aplicam-se as regras dos §§ 4º a 6º do art. 127.
 
-### 3.1 Princípios institucionais
+Autonomia não é jurisdição: o Ministério Público continua fora da estrutura orgânica do Poder Judiciário.
 
-São princípios expressos do Ministério Público:
+## 3. Como o Ministério Público se organiza e quem o chefia
 
-```text
-UNIDADE + INDIVISIBILIDADE + INDEPENDÊNCIA FUNCIONAL
-```
+O art. 128 divide o Ministério Público em dois grandes blocos:
 
-- **Unidade:** a atuação é imputada institucionalmente ao respectivo Ministério Público.
-- **Indivisibilidade:** seus membros podem substituir-se segundo as regras da instituição.
-- **Independência funcional:** o membro exerce suas atribuições jurídicas sem subordinação hierárquica quanto ao conteúdo de sua manifestação, dentro da Constituição e da lei.
+- **Ministério Público da União**;
+- **Ministérios Públicos dos Estados**.
 
-**Pegadinha:** independência funcional não elimina organização administrativa ou dever de observância da competência legal.
+O <abbr title="Ministério Público da União">MPU</abbr> compreende:
 
----
+- <abbr title="Ministério Público Federal">MPF</abbr>;
+- <abbr title="Ministério Público do Trabalho">MPT</abbr>;
+- <abbr title="Ministério Público Militar">MPM</abbr>;
+- <abbr title="Ministério Público do Distrito Federal e Territórios">MPDFT</abbr>.
 
-## 4. Autonomia do Ministério Público
+Portanto, o <abbr title="Ministério Público do Distrito Federal e Territórios">MPDFT</abbr> integra o <abbr title="Ministério Público da União">MPU</abbr>; ele não é colocado pela Constituição no mesmo bloco dos Ministérios Públicos dos Estados.
 
-A Constituição assegura ao MP:
+### 3.1 Procurador-Geral da República
 
-- **autonomia funcional**;
-- **autonomia administrativa**;
-- elaboração de sua **proposta orçamentária**, dentro dos limites da <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>.
+O <abbr title="Procurador-Geral da República">PGR</abbr> é o chefe do <abbr title="Ministério Público da União">MPU</abbr>. O Presidente da República o nomeia dentre integrantes da carreira com **mais de 35 anos**, depois de aprovação pela **maioria absoluta do Senado Federal**.
 
-Também pode propor ao Poder Legislativo, observado o art. 169, medidas referentes a cargos, serviços auxiliares, política remuneratória e planos de carreira.
+O mandato é de **dois anos**, permitida a recondução. A Constituição não fixa, nesse dispositivo, um número máximo de reconduções.
 
-Para o nível de noções, guarde:
+A destituição do <abbr title="Procurador-Geral da República">PGR</abbr>, por iniciativa do Presidente da República, depende de autorização da maioria absoluta do Senado Federal.
 
-```text
-MP → autonomia funcional + administrativa
-```
+### 3.2 Chefias estaduais e do Ministério Público do Distrito Federal e Territórios
 
-Não confunda autonomia com função jurisdicional: o MP **não integra o Poder Judiciário** e não exerce jurisdição.
+Os Ministérios Públicos dos Estados e o <abbr title="Ministério Público do Distrito Federal e Territórios">MPDFT</abbr> formam **lista tríplice** dentre integrantes da carreira. O chefe do Poder Executivo escolhe um dos nomes para mandato de **dois anos**, permitida **uma recondução**.
 
----
+A Constituição também admite a destituição desses Procuradores-Gerais por deliberação da **maioria absoluta do Poder Legislativo**, na forma da lei complementar respectiva.
 
-## 5. Estrutura básica do Ministério Público — art. 128
+O contraste é útil:
 
-A Constituição divide o MP em:
-
-```text
-MINISTÉRIO PÚBLICO
-├─ Ministério Público da União — MPU
-│  ├─ Ministério Público Federal — MPF
-│  ├─ Ministério Público do Trabalho — MPT
-│  ├─ Ministério Público Militar — MPM
-│  └─ Ministério Público do Distrito Federal e Territórios — MPDFT
-└─ Ministérios Públicos dos Estados — MPEs
-```
-
-**Pegadinha clássica:** o **MPDFT integra o MPU**.
-
-### 5.1 Procurador-Geral da República
-
-O **PGR** é o chefe do MPU. A Constituição exige:
-
-- integrante da carreira;
-- mais de **35 anos**;
-- nomeação pelo Presidente da República;
-- aprovação prévia pela **maioria absoluta do Senado Federal**;
-- mandato de **2 anos**;
-- permitida recondução.
-
-A destituição por iniciativa do Presidente da República depende de autorização prévia da maioria absoluta do Senado.
-
-### 5.2 Procuradores-Gerais dos Estados e do MPDFT
-
-Os Ministérios Públicos dos Estados e o MPDFT formam **lista tríplice** dentre integrantes da carreira. O chefe do Poder Executivo escolhe o Procurador-Geral para mandato de:
-
-- **2 anos**;
-- permitida **uma recondução**.
-
-Compare:
-
-| Ponto | PGR | PG estadual / MPDFT |
+| Ponto | <abbr title="Procurador-Geral da República">PGR</abbr> | Procurador-Geral estadual / do <abbr title="Ministério Público do Distrito Federal e Territórios">MPDFT</abbr> |
 |---|---|---|
-| lista tríplice | não prevista | **sim** |
-| aprovação do Senado | **sim, maioria absoluta** | não é a regra do art. 128, § 3º |
+| origem | integrante da carreira | integrante da carreira |
+| idade constitucional expressa | mais de 35 anos | o § 3º não fixa idade |
+| lista tríplice | não | sim |
+| aprovação do Senado | maioria absoluta | não é a regra do § 3º |
 | mandato | 2 anos | 2 anos |
-| recondução | permitida | **uma** |
+| recondução | permitida | uma recondução |
 
----
+## 4. Membro do Ministério Público: garantias, vedações e ingresso
 
-## 6. Garantias e vedações dos membros do MP
+As garantias protegem o exercício independente da função; não são privilégios pessoais sem finalidade institucional.
 
-### 6.1 Garantias
+### 4.1 Garantias
 
-| Garantia | Regra essencial |
-|---|---|
-| **vitaliciedade** | após **2 anos** de exercício; depois disso, perda do cargo somente por sentença judicial transitada em julgado |
-| **inamovibilidade** | admite exceção por interesse público, com decisão do órgão colegiado competente por **maioria absoluta** e ampla defesa |
-| **irredutibilidade de subsídio** | observadas as regras constitucionais |
+A **<abbr title="Garantia de permanência no cargo após o período constitucional">vitaliciedade</abbr>** é adquirida após **dois anos de exercício**. Depois disso, a perda do cargo depende de sentença judicial transitada em julgado.
 
-### 6.2 Vedações principais
+A **<abbr title="Proteção contra remoção arbitrária do membro">inamovibilidade</abbr>** impede remoções meramente discricionárias. Há exceção por motivo de interesse público, mediante decisão do órgão colegiado competente do Ministério Público por **maioria absoluta de seus membros**, assegurada ampla defesa.
 
-É vedado ao membro do MP, entre outros pontos:
+A terceira garantia é a **irredutibilidade de subsídio**, observadas as regras constitucionais.
+
+### 4.2 Vedações
+
+Entre as vedações constitucionais, o membro do Ministério Público não pode:
 
 - receber honorários, percentagens ou custas processuais;
 - exercer advocacia;
 - participar de sociedade comercial, na forma da lei;
 - exercer outra função pública, ainda que em disponibilidade, salvo **uma de magistério**;
 - exercer atividade político-partidária;
-- receber auxílios ou contribuições de pessoas físicas ou entidades públicas ou privadas, ressalvadas hipóteses legais.
+- receber auxílios ou contribuições de pessoas físicas ou entidades públicas ou privadas, ressalvadas as exceções previstas em lei.
 
-A Constituição também aplica a quarentena do art. 95, parágrafo único, V: após aposentadoria ou exoneração, o membro não pode exercer advocacia perante o juízo ou tribunal em que atuava antes de decorridos **3 anos**.
+Aplica-se ainda a quarentena do art. 95, parágrafo único, V: após aposentadoria ou exoneração, o ex-membro não pode exercer advocacia perante o juízo ou tribunal em que atuava antes de decorridos **três anos** do afastamento.
 
----
+### 4.3 Ingresso
 
-## 7. Funções institucionais do MP — art. 129
+O ingresso na carreira ocorre por concurso público de provas e títulos. A Constituição exige:
 
-As funções mais importantes para prova são:
-
-1. promover **privativamente a ação penal pública**, na forma da lei;
-2. zelar pelo efetivo respeito dos Poderes Públicos e dos serviços de relevância pública aos direitos constitucionais;
-3. promover **inquérito civil** e **ação civil pública** para proteção do patrimônio público e social, do meio ambiente e de outros interesses difusos e coletivos;
-4. promover ação de inconstitucionalidade ou representação para fins de intervenção nos casos constitucionais;
-5. defender judicialmente os direitos e interesses das populações indígenas;
-6. expedir notificações e requisitar informações e documentos nos procedimentos de sua competência;
-7. exercer o **controle externo da atividade policial**;
-8. requisitar diligências investigatórias e instauração de inquérito policial;
-9. exercer outras funções compatíveis com sua finalidade.
-
-A Constituição veda ao MP:
-
-```text
-REPRESENTAÇÃO JUDICIAL DE ENTIDADES PÚBLICAS
-+
-CONSULTORIA JURÍDICA DE ENTIDADES PÚBLICAS
-```
-
-Essa é a fronteira mais importante com a Advocacia Pública.
-
----
-
-## 8. Ingresso na carreira do MP
-
-O ingresso ocorre por **concurso público de provas e títulos**, com:
-
-- participação da **<abbr title="Ordem dos Advogados do Brasil">OAB</abbr> na realização** do concurso;
+- participação da <abbr title="Ordem dos Advogados do Brasil">OAB</abbr> na realização do concurso;
 - bacharelado em Direito;
-- mínimo de **3 anos de atividade jurídica**;
+- no mínimo **três anos de atividade jurídica**;
 - observância da ordem de classificação nas nomeações.
 
-**Cuidado:** a Constituição fala em participação da OAB na realização do concurso. Isso não equivale a dizer, de forma genérica, que a inscrição do candidato na OAB seja requisito constitucional do art. 129, § 3º.
+A participação da <abbr title="Ordem dos Advogados do Brasil">OAB</abbr> na realização do concurso não equivale a exigir, por si só, inscrição do candidato na entidade como requisito constitucional do art. 129, § 3º.
 
----
+## 5. Art. 129: o que o Ministério Público efetivamente faz
 
-## 9. Noções complementares: MPC e CNMP
+As funções do art. 129 concretizam a missão do art. 127. Em vez de decorar uma lista isolada, organize-as pelo problema enfrentado.
 
-Para este recorte, basta reconhecer dois pontos.
+### 5.1 Persecução penal e controle da atividade policial
 
-### 9.1 Ministério Público junto aos Tribunais de Contas — art. 130
+Cabe ao Ministério Público:
 
-Aos **membros** do Ministério Público junto aos Tribunais de Contas aplicam-se as disposições pertinentes a:
+- promover **privativamente a ação penal pública**, na forma da lei;
+- exercer o controle externo da atividade policial;
+- requisitar diligências investigatórias e a instauração de inquérito policial, indicando os fundamentos jurídicos de suas manifestações processuais.
 
-- direitos;
-- vedações;
-- forma de investidura.
+“Privativamente” recai sobre a promoção da **ação penal pública**; não significa que o Ministério Público julgue o crime ou dirija a polícia.
 
-Não se conclui daí que o Ministério Público de Contas seja ramo do MPU ou dos MPEs.
+### 5.2 Tutela coletiva e proteção de direitos
 
-### 9.2 Conselho Nacional do Ministério Público — art. 130-A
+O Ministério Público pode promover o **<abbr title="Investigação civil conduzida pelo Ministério Público">inquérito civil</abbr>** e a **<abbr title="Ação judicial de tutela de interesses coletivos">ação civil pública</abbr>** para proteger o patrimônio público e social, o meio ambiente e outros interesses difusos e coletivos.
 
-O **CNMP** possui **14 membros**, tem o **PGR como presidente** e exerce controle sobre a atuação administrativa e financeira do Ministério Público e sobre o cumprimento dos deveres funcionais de seus membros.
+Também lhe cabe:
 
-Para noções, memorize:
+- zelar pelo efetivo respeito dos Poderes Públicos e dos serviços de relevância pública aos direitos assegurados na Constituição;
+- promover ação de inconstitucionalidade ou representação para fins de intervenção, nos casos constitucionais;
+- defender judicialmente direitos e interesses das populações indígenas;
+- expedir notificações e requisitar informações e documentos nos procedimentos administrativos de sua competência.
 
-```text
-CNMP = 14 membros
-PGR preside
-controle administrativo + financeiro + deveres funcionais
-```
+O art. 129 permite outras funções compatíveis com a finalidade institucional, mas veda expressamente a **representação judicial e a consultoria jurídica de entidades públicas**. Esse limite impede que a cláusula aberta transforme o Ministério Público em Advocacia Pública.
 
-Não é necessário aprofundar aqui a disciplina detalhada de corregedoria, ouvidorias ou revisão disciplinar.
+## 6. Artigos 130 e 130-A: dois vizinhos que não devem ser confundidos
 
----
+### 6.1 Ministério Público junto aos Tribunais de Contas
 
-# Parte II — Advocacia Pública
+O art. 130 determina que aos **membros** do Ministério Público junto aos Tribunais de Contas se aplicam as disposições pertinentes a direitos, vedações e forma de investidura.
 
-## 10. Advocacia-Geral da União — art. 131
+O dispositivo não inclui o Ministério Público de Contas no rol de ramos do <abbr title="Ministério Público da União">MPU</abbr> nem no dos Ministérios Públicos dos Estados. Em prova, não transforme a remissão sobre seus membros em mudança da estrutura do art. 128.
 
-A **Advocacia-Geral da União (AGU)**:
+### 6.2 Conselho Nacional do Ministério Público
 
-- representa a **União**, judicial e extrajudicialmente;
-- exerce, diretamente ou por órgão vinculado, a **consultoria e o assessoramento jurídico do Poder Executivo**, nos termos da lei complementar.
+O <abbr title="Conselho Nacional do Ministério Público">CNMP</abbr> tem **14 membros** e é presidido pelo <abbr title="Procurador-Geral da República">PGR</abbr>. Seu núcleo de atuação é controlar:
 
-Compare com o MP:
+- a atuação administrativa do Ministério Público;
+- a atuação financeira do Ministério Público;
+- o cumprimento dos deveres funcionais de seus membros.
 
-```text
-MP → defesa da ordem jurídica e interesses constitucionais
-AGU → representação da União + consultoria do Executivo
-```
+Esse desenho lembra o controle administrativo exercido pelo Conselho Nacional de Justiça sobre o Judiciário, estudado no assunto anterior, mas os Conselhos pertencem a estruturas diferentes.
 
-### 10.1 Advogado-Geral da União
+## 7. Advocacia Pública: representar o ente não é defender a ordem jurídica em abstrato
 
-O Advogado-Geral da União é de **livre nomeação pelo Presidente da República**, dentre cidadãos:
+A Advocacia Pública aparece nos arts. 131 e 132. Seu problema central é outro: **quem fala juridicamente pelo ente público e quem o assessora?**
+
+### 7.1 Advocacia-Geral da União
+
+A <abbr title="Advocacia-Geral da União">AGU</abbr> representa a **União**, judicial e extrajudicialmente.
+
+Além disso, exerce, diretamente ou por órgão vinculado, as atividades de **consultoria e assessoramento jurídico do Poder Executivo**, nos termos da lei complementar que organiza a instituição.
+
+A fórmula precisa é:
+
+- representação judicial e extrajudicial → **União**;
+- consultoria e assessoramento jurídico → **Poder Executivo federal**.
+
+Isso evita dois erros: atribuir ao Ministério Público a advocacia do Estado e reduzir a <abbr title="Advocacia-Geral da União">AGU</abbr> a um escritório que só atua em processos judiciais.
+
+### 7.2 Advogado-Geral da União
+
+O Advogado-Geral da União é de livre nomeação pelo Presidente da República dentre cidadãos:
 
 - com mais de **35 anos**;
 - de notável saber jurídico;
 - de reputação ilibada.
 
-O art. 131 **não exige**:
+O art. 131 não exige lista tríplice, aprovação do Senado, mandato fixo nem pertencimento prévio às carreiras da <abbr title="Advocacia-Geral da União">AGU</abbr>.
 
-- lista tríplice;
-- aprovação do Senado;
-- mandato fixo;
-- que o nomeado seja integrante de carreira da AGU.
+Já o ingresso nas classes iniciais das carreiras da instituição ocorre por **concurso público de provas e títulos**.
 
-### 10.2 Ingresso nas carreiras
+### 7.3 Dívida ativa tributária da União
 
-O ingresso nas classes iniciais das carreiras da AGU ocorre por **concurso público de provas e títulos**.
+Na execução da dívida ativa de natureza tributária, a representação da União cabe à <abbr title="Procuradoria-Geral da Fazenda Nacional">PGFN</abbr>, observado o disposto em lei.
 
-### 10.3 Dívida ativa tributária da União
+O adjetivo **tributária** faz parte da regra constitucional e não deve ser apagado na memorização.
 
-Na execução da dívida ativa de natureza tributária da União, a representação cabe à **Procuradoria-Geral da Fazenda Nacional (PGFN)**, na forma da lei.
+## 8. Procuradores dos Estados e do Distrito Federal
 
----
+O art. 132 organiza os Procuradores dos Estados e do Distrito Federal em carreira. Eles exercem:
 
-## 11. Procuradores dos Estados e do Distrito Federal — art. 132
+- representação judicial das respectivas unidades federadas;
+- consultoria jurídica dessas unidades.
 
-Os Procuradores dos Estados e do Distrito Federal:
+O ingresso depende de concurso público de provas e títulos, com participação da <abbr title="Ordem dos Advogados do Brasil">OAB</abbr> **em todas as fases**.
 
-- são organizados em **carreira**;
-- ingressam por **concurso público de provas e títulos**;
-- têm participação da **OAB em todas as fases** do concurso;
-- exercem:
-  - representação judicial;
-  - consultoria jurídica
-  das respectivas unidades federadas.
+A estabilidade é adquirida após **três anos de efetivo exercício**, mediante avaliação de desempenho perante os órgãos próprios e após relatório circunstanciado das corregedorias.
 
-### 11.1 Estabilidade
+A literalidade do art. 132 refere-se a **Estados e Distrito Federal**. Não substitua essa redação por uma regra que inclua automaticamente procuradores municipais.
 
-A Constituição assegura estabilidade após **3 anos de efetivo exercício**, mediante avaliação de desempenho perante os órgãos próprios, após relatório circunstanciado das corregedorias.
+## 9. Defensoria Pública: acesso à justiça para quem necessita
 
-**Pegadinha:** o art. 132 menciona literalmente **Estados e Distrito Federal**. Não transforme essa redação em regra textual sobre procuradores municipais.
+O art. 134 define a Defensoria Pública como instituição:
 
----
+- permanente;
+- essencial à função jurisdicional do Estado;
+- expressão e instrumento do regime democrático.
 
-# Parte III — Defensoria Pública
+Sua missão combina quatro ideias: **orientar juridicamente, promover direitos humanos, defender direitos e atender os necessitados**.
 
-## 12. Missão constitucional — art. 134
+A defesa constitucional:
 
-A Defensoria Pública é:
+- ocorre em todos os graus;
+- pode ser judicial e extrajudicial;
+- alcança direitos individuais e coletivos;
+- deve ser integral e gratuita;
+- destina-se aos necessitados, na forma do art. 5º, LXXIV.
 
-- instituição **permanente**;
-- **essencial à função jurisdicional do Estado**;
-- **expressão e instrumento do regime democrático**.
+Por isso, Defensoria não é Advocacia Pública: ela não representa a União ou um Estado como cliente institucional.
 
-Incumbe-lhe:
+### 9.1 Carreira, inamovibilidade e vedação à advocacia externa
 
-- orientação jurídica;
-- promoção dos direitos humanos;
-- defesa, em todos os graus:
-  - judicial e extrajudicial;
-  - dos direitos individuais e coletivos;
-  - de forma integral e gratuita;
-  - aos necessitados, na forma da Constituição.
+A lei complementar organiza a Defensoria Pública da União e do Distrito Federal e dos Territórios e estabelece normas gerais para a organização das Defensorias estaduais.
 
-A missão da Defensoria não se confunde com a representação de entes públicos exercida pela Advocacia Pública.
+Os cargos da carreira, na classe inicial, são providos por concurso público de provas e títulos.
 
----
+A Constituição assegura a **<abbr title="Proteção contra remoção arbitrária do defensor">inamovibilidade</abbr>** e veda o exercício da advocacia **fora das atribuições institucionais**.
 
-## 13. Carreira e garantias da Defensoria
+Não há no art. 134 garantia de vitaliciedade equivalente à dos membros do Ministério Público.
 
-O ingresso na carreira ocorre por **concurso público de provas e títulos**.
+### 9.2 Autonomia
 
-A Constituição assegura aos integrantes a **inamovibilidade** e veda o exercício da advocacia **fora das atribuições institucionais**.
-
-**Pegadinha:** o art. 134 não atribui aos defensores vitaliciedade equivalente à dos membros do Ministério Público.
-
----
-
-## 14. Autonomia e princípios da Defensoria
-
-Às Defensorias Públicas são asseguradas, nos termos constitucionais:
+O § 2º do art. 134 assegura às Defensorias Públicas estaduais:
 
 - autonomia funcional;
 - autonomia administrativa;
-- iniciativa de sua proposta orçamentária dentro dos limites da LDO.
+- iniciativa de sua proposta orçamentária dentro dos limites da <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>, com a disciplina constitucional aplicável.
 
-O regime alcança as Defensorias dos Estados e, por extensão constitucional, a **<abbr title="Defensoria Pública da União">DPU</abbr>** e a **Defensoria Pública do Distrito Federal**.
+O § 3º manda aplicar essa mesma regra à <abbr title="Defensoria Pública da União">DPU</abbr> e à Defensoria Pública do Distrito Federal.
 
-São princípios institucionais da Defensoria:
+### 9.3 Princípios institucionais
 
-```text
-UNIDADE + INDIVISIBILIDADE + INDEPENDÊNCIA FUNCIONAL
-```
+A Defensoria Pública também tem como princípios:
 
-São os mesmos nomes utilizados para o MP, mas isso **não iguala as competências** das instituições.
+- unidade;
+- indivisibilidade;
+- independência funcional.
 
----
+O § 4º acrescenta que se aplicam à instituição, **no que couber**, o art. 93 e o art. 96, II. A remissão não transforma defensores em magistrados; ela incorpora, nos limites de compatibilidade, regras constitucionais indicadas pelo próprio texto.
 
-## 15. Art. 135
+## 10. Art. 135: preserve a literalidade
 
-O art. 135 remete a remuneração dos integrantes das carreiras nele referidas ao regime do **art. 39, § 4º**, isto é, ao subsídio, conforme a disciplina constitucional.
+O art. 135 tem uma peculiaridade de redação que merece atenção. Seu texto, dado pela Emenda Constitucional nº 19/1998, afirma que os servidores integrantes das carreiras disciplinadas nas **Seções II e III** do capítulo serão remunerados na forma do art. 39, § 4º, isto é, pelo regime constitucional de **<abbr title="Remuneração em parcela única, conforme art. 39, § 4º">subsídio</abbr>**.
 
-Para prova, o importante é não usar essa remissão para misturar as atribuições de Advocacia Pública e Defensoria.
+Em 2014, a Emenda Constitucional nº 80 reorganizou o capítulo: a Seção III passou a tratar da Advocacia e foi criada a Seção IV para a Defensoria Pública. O texto do art. 135, porém, não foi reescrito nessa emenda.
 
----
+Em prova de literalidade, não “corrija” a Constituição por conta própria: reconheça a redação vigente do art. 135. E não use essa remissão remuneratória para misturar as missões institucionais estudadas nos artigos anteriores.
 
-# Parte IV — Comparações de prova
+## 11. O contraste que resolve a maior parte das questões
 
-## 16. MP × Advocacia Pública × Defensoria
+Depois de compreender cada instituição, a síntese fica curta:
 
-| Critério | Ministério Público | Advocacia Pública | Defensoria Pública |
+| Pergunta | Ministério Público | Advocacia Pública | Defensoria Pública |
 |---|---|---|---|
-| núcleo | ordem jurídica, regime democrático e interesses protegidos | representação do ente + consultoria jurídica | orientação, direitos humanos e defesa dos necessitados |
-| ação penal pública | **privativa do MP** | não | não |
-| representação judicial da União | vedada ao MP | **AGU** | não |
-| consultoria do Executivo federal | vedada ao MP | **AGU** | não |
-| representação de Estado/DF | não | **Procuradores dos Estados/DF** | não |
-| defesa integral e gratuita dos necessitados | não é sua função institucional específica | não | **Defensoria** |
-| autonomia funcional/administrativa | sim | não decorre dos arts. 131-132 no mesmo modelo | sim |
-| inamovibilidade | sim | não é garantia geral dos arts. 131-132 | sim |
+| missão central | ordem jurídica, regime democrático e interesses protegidos | representação do ente e consultoria jurídica | orientação, direitos humanos e defesa dos necessitados |
+| ação penal pública | promove privativamente | não | não |
+| representa a União | não | <abbr title="Advocacia-Geral da União">AGU</abbr> | não |
+| consultoria do Executivo federal | vedada ao Ministério Público | <abbr title="Advocacia-Geral da União">AGU</abbr> | não |
+| representa Estado/Distrito Federal | não | Procuradores do Estado/Distrito Federal | não |
+| autonomia funcional e administrativa no próprio texto | sim | arts. 131-132 não adotam o mesmo modelo | sim |
+| garantia de inamovibilidade | sim | não é garantia geral dos arts. 131-132 | sim |
+| vitaliciedade expressa | membro do Ministério Público, após 2 anos | não | não no art. 134 |
 
----
-
-## 17. Números essenciais
-
-```text
-PGR
-> 35 anos
-mandato: 2 anos
-
-MP
-vitaliciedade: após 2 anos
-ingresso: 3 anos de atividade jurídica
-quarentena de saída: 3 anos
-
-PG estadual / MPDFT
-lista tríplice
-mandato: 2 anos
-1 recondução
-
-CNMP
-14 membros
-
-Advogado-Geral da União
-> 35 anos
-sem mandato fixo no art. 131
-sem aprovação do Senado no art. 131
-
-Procurador de Estado / DF
-estabilidade: 3 anos
-```
-
----
-
-## 18. Pegadinhas Cebraspe
-
-1. **MP não representa entidade pública nem presta consultoria jurídica a ela.**
-2. **MPDFT integra o MPU.**
-3. PGR: aprovação do Senado por **maioria absoluta**.
-4. PGR: mandato de **2 anos**, com recondução permitida; PG estadual/MPDFT: **uma recondução**.
-5. Vitaliciedade do membro do MP: após **2 anos**.
-6. Inamovibilidade do MP por interesse público: colegiado competente + **maioria absoluta** + ampla defesa.
-7. Ingresso no MP: concurso de provas e títulos + participação da OAB + **3 anos de atividade jurídica**.
-8. **CNMP = 14 membros** e é presidido pelo PGR.
-9. AGU representa a **União** judicial e extrajudicialmente.
-10. AGU presta consultoria e assessoramento jurídico ao **Poder Executivo**.
-11. Advogado-Geral da União: livre nomeação presidencial; o art. 131 não prevê aprovação do Senado.
-12. PGFN: dívida ativa **tributária** da União.
-13. Procuradores de Estados/DF: OAB participa de **todas as fases** do concurso.
-14. Defensoria: orientação jurídica + direitos humanos + defesa integral e gratuita dos necessitados.
-15. Defensor: **inamovibilidade**, mas não vitaliciedade no art. 134.
-16. MP e Defensoria compartilham unidade, indivisibilidade e independência funcional, mas têm missões distintas.
-
----
-
-## 19. Método rápido de resolução
-
-Em uma questão, identifique primeiro o sujeito constitucional:
-
-```text
-ação penal pública?              → MP
-controle externo da polícia?     → MP
-União em juízo?                  → AGU
-consultoria do Executivo federal?→ AGU
-Estado/DF em juízo?              → Procuradores estaduais/DF
-dívida ativa tributária da União?→ PGFN
-necessitado / defesa gratuita?   → Defensoria
-controle administrativo do MP?   → CNMP
-```
-
-Depois verifique se a alternativa trocou uma competência por outra, alterou um número constitucional ou atribuiu garantia que não pertence à instituição.
-
----
+Em questão objetiva, siga três passos: **identifique a instituição, pergunte qual interesse ela representa e só então confira o requisito, garantia ou número citado**. Essa ordem evita decorar listas soltas e reduz as trocas mais comuns entre Ministério Público, Advocacia Pública e Defensoria.
