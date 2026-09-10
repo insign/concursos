@@ -1,257 +1,162 @@
 ---
 schemaVersion: 1
 title: "Organização político-administrativa: União, estados, Distrito Federal e municípios"
-description: "Noções de organização político-administrativa da República Federativa do Brasil: posição constitucional da União, dos estados, do Distrito Federal e dos municípios, repartição essencial de competências e regras organizatórias dos arts. 18 a 32 da Constituição."
+description: "Noções de organização político-administrativa da República Federativa do Brasil: Federação, entes autônomos, repartição de competências e regras essenciais da União, dos estados, do Distrito Federal e dos municípios."
 order: 135
 storageId: tec-nocoes-org-polit-adm-135
 ---
 
 # Organização político-administrativa: União, estados, Distrito Federal e municípios
 
-## 1. Recorte do edital e objetivo
+## 1. O problema central: um só Estado, vários centros de poder
 
-Este assunto corresponde ao item de **Noções de Direito Constitucional** do Cargo 16 que exige a organização político-administrativa da **União, dos estados, do Distrito Federal e dos municípios**.
+Imagine três decisões: emitir moeda, organizar um serviço local de transporte coletivo e editar normas gerais sobre determinada matéria. Todas são decisões estatais, mas **não pertencem ao mesmo ente**.
 
-A base constitucional está no **Título III — Da Organização do Estado**, especialmente nos **arts. 18 a 32 da Constituição Federal**. O foco é reconhecer:
+Isso ocorre porque o Brasil adota a forma federativa. Em uma <abbr title="Forma de Estado em que o poder é distribuído entre entes autônomos">Federação</abbr>, a Constituição reparte poder político e competências entre diferentes entes. A pergunta de prova, portanto, quase sempre é uma destas:
 
-1. quais são os entes federativos e como se relacionam soberania e autonomia;
-2. a posição constitucional da União, dos estados, do Distrito Federal e dos municípios;
-3. a lógica essencial de repartição de competências;
-4. as regras organizatórias mais cobradas de estados, municípios e Distrito Federal.
+1. **quem é o ente competente?**
+2. a competência é para **agir administrativamente** ou para **legislar**?
+3. a competência pertence a um ente de modo privativo, é compartilhada ou decorre do interesse local?
+4. qual regra de organização vale para União, estado, Distrito Federal ou município?
 
-> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1. A **EC nº 139/2026**, promulgada antes do edital, já integra o corte e alterou o art. 31, § 1º. A **LC nº 230/2026** também já estava vigente, mas seu objeto é específico e não deve ser generalizado para toda e qualquer reorganização municipal.
+Antes dos artigos e listas, fixe a distinção que organiza o capítulo:
 
-### 1.1 O que não será aprofundado aqui
+- a **República Federativa do Brasil** é o Estado soberano;
+- **União, estados, Distrito Federal e municípios** são <abbr title="Pessoas políticas autônomas que compõem a Federação">entes federativos</abbr> autônomos.
 
-Para evitar duplicação entre assuntos:
+**Soberania** é o poder do Estado brasileiro perante a ordem internacional e no plano interno. **Autonomia** é a capacidade que cada ente recebe da Constituição para se organizar, governar, legislar e administrar dentro de suas competências.
 
-- **Territórios Federais** não integram o título desta linha; aparecem apenas no contraste indispensável para entender o art. 18;
-- o **art. 23** possui tratamento próprio no assunto 141 e, aqui, só é mencionado como referência de localização na repartição de competências;
-- Administração Pública e servidores são objeto do assunto 136;
-- a organização dos Poderes é tratada nos assuntos 137 a 140.
+Por isso, a União não é “mais soberana” que estados ou municípios. **A União é autônoma; a República Federativa do Brasil é soberana.**
 
----
+> **Corte de prova:** 6 de julho de 2026, data do Edital número 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Nesse corte, a <abbr title="Emenda Constitucional">EC</abbr> número 139/2026 já havia alterado o artigo 31, § 1º. A Lei Complementar número 230/2026 também já estava vigente e disciplina apenas uma modalidade específica de desmembramento municipal.
 
-# Parte I — Federação e organização político-administrativa
+## 2. Artigos 18 e 19: quem compõe a Federação e quais limites valem para todos
 
-## 2. Federação brasileira: soberania × autonomia
+### 2.1 Artigo 18: os quatro entes autônomos
 
-A República Federativa do Brasil é um **Estado federal**. A Constituição distribui poder político entre entes dotados de autonomia.
+A organização político-administrativa da República Federativa do Brasil compreende:
 
-A distinção central é:
+- União;
+- estados;
+- Distrito Federal;
+- municípios.
 
-```text
-REPÚBLICA FEDERATIVA DO BRASIL → SOBERANIA
+Todos são **autônomos**, nos termos da Constituição.
 
-ENTES FEDERATIVOS → AUTONOMIA
-- União
-- estados
-- Distrito Federal
-- municípios
-```
+Duas trocas de prova aparecem com frequência:
 
-A **soberania** pertence à República Federativa do Brasil como Estado perante a ordem internacional. A **União** não é soberana: é um ente federativo autônomo.
+- **Brasília é a Capital Federal**. Não é tecnicamente correto substituir essa frase por “o Distrito Federal é a Capital Federal”.
+- Territórios Federais **integram a União**. Não aparecem no caput do artigo 18 como entes federativos autônomos.
 
-A autonomia envolve, em graus constitucionalmente definidos:
+A referência aos Territórios aqui serve apenas para impedir essa confusão. O foco desta unidade são os quatro entes enumerados no caput.
 
-- auto-organização;
-- autogoverno;
-- autolegislação;
-- autoadministração.
+### 2.2 Alterações territoriais: estado e município não seguem o mesmo procedimento
 
-## 3. Art. 18 — composição da organização político-administrativa
+A Constituição permite mudanças territoriais, mas exige participação popular e uma espécie normativa adequada.
 
-O art. 18 dispõe que a organização político-administrativa da República Federativa do Brasil compreende:
+Nos **estados**, incorporação, subdivisão ou desmembramento depende de:
 
-- **União**;
-- **estados**;
-- **Distrito Federal**;
-- **municípios**;
+1. aprovação da população diretamente interessada, por <abbr title="Consulta popular realizada antes da decisão política">plebiscito</abbr>;
+2. aprovação do Congresso Nacional por **lei complementar**.
 
-todos **autônomos**, nos termos da Constituição.
+Nos **municípios**, a regra geral do artigo 18, § 4º, combina quatro elementos:
 
-### 3.1 Brasília
+1. **lei estadual**;
+2. período determinado por **lei complementar federal**;
+3. divulgação prévia dos Estudos de Viabilidade Municipal;
+4. consulta prévia, mediante plebiscito, às populações dos municípios envolvidos.
 
-A Constituição estabelece:
+A Lei Complementar número 230/2026 não deve ser lida como regulamentação geral de toda criação, incorporação, fusão ou desmembramento municipal. Ela trata especificamente do **desmembramento de parte de um município para incorporação a outro município limítrofe** e determina que, nessa modalidade, o procedimento não pode resultar na criação de novo município.
 
-`BRASÍLIA = CAPITAL FEDERAL`
+O mecanismo, portanto, é mais importante que decorar uma sequência solta:
 
-Pegadinha: não diga que “o Distrito Federal é a Capital Federal”. A literalidade aponta **Brasília**.
+| Situação | Participação popular | Ato normativo central |
+|---|---|---|
+| alteração territorial de estado | plebiscito da população diretamente interessada | lei complementar do Congresso Nacional |
+| reorganização municipal do artigo 18, § 4º | plebiscito das populações dos municípios envolvidos, após estudo de viabilidade | lei estadual, dentro do período definido por lei complementar federal |
 
-### 3.2 Territórios Federais — apenas o contraste necessário
+### 2.3 Artigo 19: limites comuns aos entes
 
-Territórios Federais:
+União, estados, Distrito Federal e municípios não podem:
 
-- **integram a União**;
-- não são enumerados pelo caput do art. 18 como entes federativos autônomos.
+- estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter relação de dependência ou aliança com eles ou seus representantes, **ressalvada, na forma da lei, a colaboração de interesse público**;
+- recusar fé aos documentos públicos;
+- criar distinções entre brasileiros ou preferências entre si.
 
-Isso basta para este assunto:
+A primeira vedação expressa a neutralidade religiosa do Estado, mas não impede toda relação institucional com organizações religiosas: a própria Constituição admite colaboração de interesse público, na forma da lei.
 
-```text
-UNIÃO / ESTADOS / DF / MUNICÍPIOS → ENTES FEDERATIVOS
-TERRITÓRIO FEDERAL → INTEGRA A UNIÃO; NÃO É ENTE FEDERATIVO
-```
+## 3. Repartição de competências: primeiro pergunte “agir ou legislar?”
 
-Não é necessário aprofundar a organização territorial do art. 33 nesta linha.
+Uma das maiores fontes de erro é memorizar matérias sem perceber **que tipo de competência** está sendo cobrado.
 
-## 4. Alterações territoriais
+<abbr title="Atribuição para executar, organizar, manter, explorar ou fiscalizar determinada atividade">Competência material</abbr> diz respeito principalmente a **agir**. Já <abbr title="Atribuição constitucional para produzir normas jurídicas sobre determinada matéria">competência legislativa</abbr> diz respeito a **legislar**.
 
-### 4.1 Estados — art. 18, § 3º
+Essa diferença explica por que uma mesma matéria pode aparecer em artigos diferentes. Proteção e tratamento de dados pessoais, por exemplo, aparecem na competência da União para **organizar e fiscalizar** e também na competência para **legislar**.
 
-Estados podem:
+Use este mapa antes de olhar a matéria concreta:
 
-- incorporar-se entre si;
-- subdividir-se;
-- desmembrar-se para anexação a outros;
-- desmembrar-se para formar novos estados ou Territórios Federais.
+| Dispositivo | Lógica principal | Titular |
+|---|---|---|
+| artigo 21 | competência material da União | União |
+| artigo 22 | competência legislativa privativa | União |
+| artigo 23 | competência material comum | União, estados, Distrito Federal e municípios |
+| artigo 24 | competência legislativa concorrente | União, estados e Distrito Federal |
+| artigo 25, § 1º | competência residual | estados |
+| artigo 30, I | assuntos de interesse local | municípios |
+| artigo 30, II | suplementação da legislação federal e estadual | municípios |
+| artigo 32, § 1º | competências legislativas reservadas a estados e municípios | Distrito Federal |
 
-A Constituição exige cumulativamente:
+O **artigo 23** aparece aqui apenas como ponte indispensável: ele contém competências materiais comuns aos quatro entes. Seu conteúdo é objeto específico da unidade T141, por isso esta unidade não reproduz a lista do dispositivo.
 
-1. **plebiscito** da população diretamente interessada;
-2. aprovação do **Congresso Nacional por lei complementar**.
+## 4. União: bens, atuação material e legislação privativa
 
-```text
-ALTERAÇÃO ESTADUAL
-→ PLEBISCITO
-→ LC DO CONGRESSO NACIONAL
-```
+### 4.1 Artigo 20: por que certos bens pertencem à União
 
-### 4.2 Municípios — art. 18, § 4º
+Os bens da União revelam interesses que ultrapassam a esfera puramente local ou estadual. Entre os principais estão:
 
-Criação, incorporação, fusão e desmembramento de municípios dependem de:
-
-- **lei estadual**;
-- período determinado por **lei complementar federal**;
-- divulgação prévia dos **Estudos de Viabilidade Municipal (EVM)**;
-- consulta prévia, por **plebiscito**, às populações dos municípios envolvidos.
-
-```text
-LC FEDERAL DEFINE O PERÍODO
-→ EVM
-→ PLEBISCITO
-→ LEI ESTADUAL
-```
-
-### 4.3 LC nº 230/2026 — alcance restrito
-
-A LC nº 230/2026 disciplina especificamente uma modalidade de **desmembramento de parte de município para incorporação a município limítrofe**.
-
-Para esta linha, retenha apenas duas ideias:
-
-- a lei **não regulamenta indistintamente todas** as hipóteses do art. 18, § 4º;
-- na modalidade por ela disciplinada, **não pode resultar criação de novo município**.
-
-Detalhes procedimentais específicos da LC não merecem, neste recorte de “noções”, o mesmo peso da regra constitucional.
-
-## 5. Art. 19 — vedações aos entes federativos
-
-É vedado à União, aos estados, ao Distrito Federal e aos municípios:
-
-1. estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter relações de dependência ou aliança com eles ou seus representantes, **ressalvada, na forma da lei, a colaboração de interesse público**;
-2. recusar fé aos documentos públicos;
-3. criar distinções entre brasileiros ou preferências entre si.
-
-Matriz:
-
-```text
-RELIGIÃO → ESTADO LAICO
-          colaboração de interesse público pode existir, na forma da lei
-
-DOCUMENTO PÚBLICO → não recusar fé
-
-BRASILEIROS / ENTES → não criar distinções ou preferências indevidas
-```
-
----
-
-# Parte II — União e repartição essencial de competências
-
-## 6. União: posição constitucional
-
-A União é:
-
-- ente federativo;
-- autônomo;
-- integrante da organização político-administrativa do art. 18.
-
-Não confunda:
-
-```text
-REPÚBLICA FEDERATIVA DO BRASIL → SOBERANA
-UNIÃO → AUTÔNOMA
-```
-
-A União exerce competências internas e também desempenha atribuições que projetam o Estado brasileiro no plano internacional. Isso não torna “União” e “República Federativa do Brasil” expressões equivalentes.
-
-## 7. Art. 20 — bens da União: núcleos de prova
-
-Entre os bens da União, destacam-se:
-
-- os que atualmente lhe pertencem e os que lhe vierem a ser atribuídos;
 - terras devolutas indispensáveis à defesa das fronteiras, fortificações e construções militares, vias federais de comunicação e preservação ambiental, definidas em lei;
-- lagos, rios e correntes de água que banhem mais de um estado, sirvam de limites com outros países, se estendam a território estrangeiro ou dele provenham, nas hipóteses constitucionais;
+- lagos, rios e correntes de água que atravessem mais de um estado, sirvam de limite com outros países, estendam-se a território estrangeiro ou dele provenham, além das hipóteses constitucionais associadas;
 - praias marítimas;
-- mar territorial;
 - recursos naturais da plataforma continental e da zona econômica exclusiva;
+- mar territorial;
+- terrenos de marinha e seus acrescidos;
 - potenciais de energia hidráulica;
 - recursos minerais, inclusive os do subsolo;
 - cavidades naturais subterrâneas e sítios arqueológicos e pré-históricos;
 - terras tradicionalmente ocupadas pelos povos indígenas.
 
-### 7.1 Faixa de fronteira
+A Constituição também assegura, nos termos da lei, participação ou compensação financeira aos entes nas hipóteses constitucionais de exploração de petróleo, gás natural, recursos hídricos para geração de energia e outros recursos minerais.
 
-A faixa de até **150 km** ao longo das fronteiras terrestres é considerada fundamental para a defesa do território nacional, e sua ocupação e utilização serão reguladas em lei.
+A **faixa de fronteira** tem até **150 quilômetros de largura ao longo das fronteiras terrestres** e é considerada fundamental para a defesa do território nacional.
 
-## 8. Como ler a repartição de competências
+### 4.2 Artigo 21: quando a União deve agir
 
-A Constituição distribui competências em blocos. Para esta linha, a matriz útil é:
-
-| Dispositivo | Natureza | Titular |
-|---|---|---|
-| art. 21 | material/administrativa | União |
-| art. 22 | legislativa privativa | União, com delegação específica possível aos estados por LC |
-| art. 24 | legislativa concorrente | União + estados + DF |
-| art. 25, § 1º | residual/remanescente | estados |
-| art. 30, I | interesse local | municípios |
-| art. 30, II | suplementar | municípios |
-| art. 32, § 1º | legislativas estaduais + municipais | DF |
-
-> O **art. 23** é competência material comum e será estudado no assunto 141, em conjunto com os demais artigos expressamente destacados naquele item do edital.
-
-## 9. Art. 21 — competência material da União
-
-O art. 21 apresenta competências predominantemente **administrativas/materiais** da União.
-
-Exemplos relevantes:
+O artigo 21 reúne competências predominantemente materiais. Observe os verbos:
 
 - manter relações com Estados estrangeiros e participar de organizações internacionais;
 - declarar guerra e celebrar paz;
 - assegurar a defesa nacional;
 - emitir moeda;
 - manter o serviço postal;
-- explorar serviços de telecomunicações, nos termos constitucionais;
+- explorar serviços de telecomunicações, nas condições constitucionais;
 - explorar serviços e instalações de energia elétrica, nas condições constitucionais;
-- instituir diretrizes para desenvolvimento urbano;
+- instituir diretrizes para o desenvolvimento urbano;
 - organizar, manter e executar a inspeção do trabalho;
 - organizar e fiscalizar a proteção e o tratamento de dados pessoais.
 
-Gatilho:
+O padrão é **fazer, manter, explorar, organizar, fiscalizar**. Isso ajuda a diferenciar o artigo 21 do artigo 22.
 
-`ART. 21 → FAZER / ORGANIZAR / MANTER / EXPLORAR / FISCALIZAR`
+### 4.3 Artigo 22: quando a União deve legislar
 
-## 10. Art. 22 — competência legislativa privativa da União
+O artigo 22 começa com fórmula diferente: compete **privativamente à União legislar** sobre as matérias enumeradas.
 
-O art. 22 começa com a fórmula:
-
-`COMPETE PRIVATIVAMENTE À UNIÃO LEGISLAR SOBRE...`
-
-Matérias de alta incidência:
+Entre as mais cobradas estão:
 
 - direito civil, comercial, penal, processual, eleitoral, agrário, marítimo, aeronáutico, espacial e do trabalho;
 - desapropriação;
 - águas, energia, informática, telecomunicações e radiodifusão;
 - trânsito e transporte;
-- jazidas, minas e recursos minerais;
+- jazidas, minas, outros recursos minerais e metalurgia;
 - seguridade social;
 - diretrizes e bases da educação nacional;
 - registros públicos;
@@ -259,337 +164,175 @@ Matérias de alta incidência:
 - propaganda comercial;
 - proteção e tratamento de dados pessoais.
 
-### 10.1 Delegação aos estados
+“Privativamente” não significa que nunca exista autorização estadual. O parágrafo único permite que **lei complementar autorize os estados a legislar sobre questões específicas** das matérias do artigo 22.
 
-O parágrafo único do art. 22 permite que **lei complementar** autorize os estados a legislar sobre **questões específicas** das matérias ali relacionadas.
+A autorização, portanto, não transfere genericamente toda a matéria. A Constituição exige:
 
-```text
-ART. 22 → UNIÃO LEGISLA PRIVATIVAMENTE
-EXCEÇÃO → LC PODE AUTORIZAR ESTADOS
-ALCANCE → QUESTÕES ESPECÍFICAS
-```
+**lei complementar + estados + questões específicas**.
 
-Não existe transferência genérica de toda a matéria.
+## 5. Artigo 24: como funciona a competência legislativa concorrente
 
-## 11. Art. 24 — competência legislativa concorrente
+Na <abbr title="Competência legislativa distribuída entre União, estados e Distrito Federal em níveis diferentes">competência concorrente</abbr>, União, estados e Distrito Federal participam da produção normativa, mas não exercem exatamente o mesmo papel.
 
-Titulares:
+A lógica é:
 
-`UNIÃO + ESTADOS + DISTRITO FEDERAL`
+1. a **União estabelece normas gerais**;
+2. estados e Distrito Federal exercem competência suplementar;
+3. se não houver lei federal de normas gerais, o estado exerce **competência legislativa plena**, para atender a suas peculiaridades;
+4. se depois surgir lei federal de normas gerais, ela **suspende a eficácia da lei estadual no que lhe for contrário**.
 
-O município não integra o caput do art. 24, embora possa suplementar legislação federal e estadual no que couber, nos termos do art. 30, II.
+Essa última expressão é muito importante. A Constituição não diz que a lei federal posterior “revoga toda” a lei estadual.
 
-Matérias recorrentes:
+O município **não integra o caput do artigo 24**. Sua capacidade de complementar normas vem do artigo 30, II, que lhe permite suplementar legislação federal e estadual no que couber.
+
+Entre as matérias concorrentes aparecem, por exemplo:
 
 - direito tributário, financeiro, penitenciário, econômico e urbanístico;
 - orçamento;
 - produção e consumo;
-- meio ambiente;
+- proteção do meio ambiente;
 - patrimônio histórico, cultural, artístico, turístico e paisagístico;
 - educação, cultura, ensino, desporto, ciência, tecnologia, pesquisa, desenvolvimento e inovação;
 - previdência social e saúde;
 - assistência jurídica e defensoria pública;
 - proteção e integração social das pessoas com deficiência;
-- proteção à infância e juventude;
+- proteção à infância e à juventude;
 - organização, garantias, direitos e deveres das polícias civis.
 
-### 11.1 Mecânica da concorrência
+## 6. Estados: autonomia residual e organização própria
 
-```text
-UNIÃO → NORMAS GERAIS
-ESTADOS/DF → SUPLEMENTAM
+### 6.1 Artigo 25: Constituição estadual e competência residual
 
-SEM LEI FEDERAL DE NORMAS GERAIS:
-ESTADO → COMPETÊNCIA LEGISLATIVA PLENA
-         para suas peculiaridades
+Os estados organizam-se e regem-se pelas **Constituições e leis que adotarem**, observados os princípios da Constituição Federal.
 
-LEI FEDERAL SUPERVENIENTE:
-→ SUSPENDE a eficácia da lei estadual
-→ somente NO QUE FOR CONTRÁRIO
-```
+Além das competências expressamente distribuídas, são reservadas aos estados as competências que **não lhes sejam vedadas** pela Constituição. Essa é a chamada <abbr title="Competência que permanece com o estado quando a Constituição não a atribui a outro ente nem a proíbe">competência residual</abbr> ou remanescente.
 
-Pegadinha: a lei federal superveniente não “revoga automaticamente toda” a lei estadual.
+Dois exemplos específicos do artigo 25 merecem atenção:
 
----
+- cabe aos estados explorar diretamente, ou mediante <abbr title="Delegação contratual da prestação de um serviço público">concessão</abbr>, os serviços locais de gás canalizado, na forma da lei;
+- é vedada medida provisória para regulamentar essa matéria.
 
-# Parte III — Estados
+Os estados também podem, mediante **lei complementar estadual**, instituir regiões metropolitanas, aglomerações urbanas e microrregiões formadas por municípios limítrofes, para integrar organização, planejamento e execução de funções públicas de interesse comum.
 
-## 12. Art. 25 — auto-organização e competência residual
+### 6.2 Artigo 26: bens dos estados
 
-Os estados:
+Entre os bens estaduais estão, nas condições constitucionais:
 
-- organizam-se e regem-se pelas **Constituições e leis que adotarem**;
-- observam os princípios da Constituição Federal;
-- possuem competências que **não lhes sejam vedadas** pela Constituição.
-
-A competência residual pode ser sintetizada:
-
-`ESTADO → O QUE A CF NÃO ATRIBUIU A OUTRO ENTE NEM VEDOU AO ESTADO`
-
-### 12.1 Gás canalizado
-
-Cabe aos estados explorar diretamente ou mediante concessão os serviços locais de gás canalizado, na forma da lei.
-
-A Constituição veda **medida provisória** para regulamentar a matéria.
-
-### 12.2 Regiões metropolitanas, aglomerações urbanas e microrregiões
-
-Os estados podem instituí-las por **lei complementar estadual**, mediante agrupamento de municípios limítrofes, para integrar:
-
-- organização;
-- planejamento;
-- execução de funções públicas de interesse comum.
-
-## 13. Art. 26 — bens dos estados
-
-Incluem-se entre os bens estaduais, nas condições constitucionais:
-
-- águas superficiais ou subterrâneas;
-- áreas, nas ilhas oceânicas e costeiras, sob domínio estadual;
+- águas superficiais ou subterrâneas, ressalvadas as decorrentes de obras da União na hipótese constitucional;
+- áreas em ilhas oceânicas e costeiras que estejam sob domínio estadual, excluídas as de domínio da União, dos municípios ou de terceiros;
 - ilhas fluviais e lacustres não pertencentes à União;
 - terras devolutas não compreendidas entre as da União.
 
-Oposição útil:
+A comparação útil é simples: a Constituição define hipóteses de terras devolutas da União; **as demais terras devolutas, nas condições do artigo 26, pertencem aos estados**.
 
-```text
-TERRAS DEVOLUTAS EM HIPÓTESES DO ART. 20 → UNIÃO
-DEMAIS TERRAS DEVOLUTAS, EM REGRA → ESTADOS
-```
+### 6.3 Artigos 27 e 28: Assembleia Legislativa e Governador
 
-## 14. Arts. 27 e 28 — organização política estadual
+O número de Deputados Estaduais relaciona-se à representação do estado na Câmara dos Deputados: corresponde ao **triplo** dessa representação e, atingido o número de 36, passa a ser acrescido de tantos quantos forem os Deputados Federais acima de 12.
 
-### 14.1 Assembleia Legislativa
+O mandato dos Deputados Estaduais é de **quatro anos**. O subsídio é fixado por lei de iniciativa da Assembleia Legislativa e não pode superar **75%** daquele estabelecido, em espécie, para os Deputados Federais, observadas as demais regras constitucionais.
 
-Pontos essenciais:
+A Assembleia Legislativa dispõe sobre seu regimento interno, sua polícia e os serviços administrativos de sua secretaria; a lei disciplina a iniciativa popular no processo legislativo estadual.
 
-- Deputados Estaduais têm mandato de **4 anos**;
-- a Constituição define a relação entre o número de Deputados Estaduais e a representação do estado na Câmara dos Deputados;
-- regras constitucionais sobre sistema eleitoral, imunidades, perda de mandato e outros temas são aplicáveis nos termos do art. 27;
-- a Assembleia dispõe sobre regimento interno, polícia e serviços administrativos;
-- a lei regula a iniciativa popular no processo legislativo estadual.
+Governador e Vice-Governador têm mandato de **quatro anos**. A eleição ocorre segundo a disciplina constitucional e a posse, no texto vigente no corte, ocorre em **6 de janeiro do ano subsequente**.
 
-### 14.2 Governador e Vice-Governador
+O Governador perde o mandato se assumir outro cargo ou função na administração pública direta ou indireta, ressalvada a posse em virtude de concurso público e observadas as remissões constitucionais do artigo 38.
 
-- mandato de **4 anos**;
-- eleição na forma constitucional;
-- posse em **6 de janeiro** do ano subsequente à eleição, conforme o texto vigente no corte.
+## 7. Municípios: Lei Orgânica, interesse local e fiscalização
 
----
+### 7.1 Artigo 29: a Lei Orgânica é a norma básica municipal
 
-# Parte IV — Municípios
+Município não possui “Constituição municipal”. Rege-se por <abbr title="Norma básica de auto-organização do município">Lei Orgânica</abbr>, que deve respeitar a Constituição Federal e a Constituição do respectivo estado.
 
-## 15. Art. 29 — Lei Orgânica municipal
-
-O município rege-se por **Lei Orgânica**, não por “Constituição municipal”.
-
-Procedimento:
+A aprovação da Lei Orgânica exige:
 
 - votação em **dois turnos**;
-- interstício mínimo de **10 dias**;
-- aprovação por **2/3 dos membros da Câmara Municipal**;
-- promulgação pela própria Câmara.
+- <abbr title="Intervalo mínimo entre duas votações">interstício</abbr> mínimo de **10 dias**;
+- aprovação por **dois terços dos membros da Câmara Municipal**;
+- promulgação pela própria Câmara Municipal.
 
-A Lei Orgânica deve observar:
+Esse procedimento concretiza a autonomia municipal: o município se auto-organiza, mas dentro dos limites constitucionais.
 
-- a Constituição Federal;
-- a Constituição do respectivo estado;
-- os preceitos constitucionais aplicáveis.
+Prefeito, Vice-Prefeito e Vereadores têm mandato de **quatro anos**. Prefeito e Vice tomam posse em **1º de janeiro** do ano subsequente à eleição.
 
-```text
-MUNICÍPIO → LEI ORGÂNICA
-2 TURNOS + 10 DIAS + 2/3 + PROMULGAÇÃO PELA CÂMARA
-```
+Nos municípios com **mais de 200 mil eleitores**, aplicam-se as regras constitucionais de segundo turno à eleição de Prefeito e Vice-Prefeito. O critério é número de **eleitores**, não de habitantes.
 
-### 15.1 Eleições e organização municipal
+Os Vereadores são invioláveis por suas opiniões, palavras e votos **no exercício do mandato e na circunscrição do município**. A Constituição também prevê julgamento do Prefeito perante o Tribunal de Justiça e admite iniciativa popular de projetos de lei de interesse específico do município, da cidade ou de bairros mediante manifestação de pelo menos **5% do eleitorado**.
 
-- Prefeito, Vice-Prefeito e Vereadores têm mandato de **4 anos**;
-- as eleições são diretas;
-- Prefeito e Vice tomam posse em **1º de janeiro** do ano subsequente à eleição;
-- em municípios com mais de **200 mil eleitores**, aplicam-se as regras constitucionais de segundo turno à eleição de Prefeito e Vice;
-- Vereadores são invioláveis por opiniões, palavras e votos no exercício do mandato e **na circunscrição do município**.
+### 7.2 Artigo 30: o município cuida do interesse local
 
-## 16. Art. 30 — competências municipais
+O artigo 30 mostra a lógica municipal. Compete aos municípios:
 
-Compete aos municípios:
+- legislar sobre **assuntos de interesse local**;
+- suplementar a legislação federal e estadual, no que couber;
+- instituir e arrecadar os tributos de sua competência e aplicar suas rendas, com dever de prestar contas;
+- criar, organizar e suprimir distritos, observada a legislação estadual;
+- organizar e prestar serviços públicos de interesse local, incluído o transporte coletivo, que tem **caráter essencial**;
+- manter programas de educação infantil e ensino fundamental, com cooperação técnica e financeira da União e do estado;
+- prestar serviços de atendimento à saúde da população, com cooperação;
+- promover adequado ordenamento territorial;
+- proteger o patrimônio histórico-cultural local, observadas a legislação e a fiscalização federal e estadual.
 
-1. legislar sobre **assuntos de interesse local**;
-2. suplementar a legislação federal e estadual, no que couber;
-3. instituir e arrecadar seus tributos e aplicar suas rendas, sem prejuízo do dever de prestar contas;
-4. criar, organizar e suprimir distritos, observada a legislação estadual;
-5. organizar e prestar serviços públicos de interesse local, inclusive transporte coletivo, que tem **caráter essencial**;
-6. manter programas de educação infantil e ensino fundamental, com cooperação técnica e financeira da União e do estado;
-7. prestar serviços de atendimento à saúde da população, com cooperação;
-8. promover adequado ordenamento territorial;
-9. proteger o patrimônio histórico-cultural local, observadas as competências dos demais entes.
+“Interesse local” não significa isolamento jurídico. O município continua submetido à Constituição e pode suplementar normas federais e estaduais quando houver espaço para disciplina local.
 
-Gatilhos:
+### 7.3 Artigo 31: controle do município e a mudança de 2026
 
-```text
-INTERESSE LOCAL → MUNICÍPIO
-SUPLEMENTAÇÃO → FEDERAL + ESTADUAL, NO QUE COUBER
-TRANSPORTE COLETIVO LOCAL → ESSENCIAL
-DISTRITOS → MUNICÍPIO, OBSERVADA LEGISLAÇÃO ESTADUAL
-```
+A fiscalização municipal combina duas vias:
 
-## 17. Art. 31 — fiscalização municipal
+- o Poder Legislativo Municipal exerce <abbr title="Fiscalização realizada por órgão distinto daquele que administra">controle externo</abbr>;
+- o Poder Executivo Municipal mantém <abbr title="Fiscalização exercida dentro da própria estrutura administrativa">sistemas de controle interno</abbr>.
 
-A fiscalização do município é exercida:
+O controle externo da Câmara Municipal é exercido com auxílio dos Tribunais de Contas previstos no artigo 31, § 1º.
 
-- pelo **Poder Legislativo Municipal**, mediante controle externo;
-- pelos **sistemas de controle interno do Poder Executivo Municipal**.
+A <abbr title="Emenda Constitucional">EC</abbr> número 139/2026 acrescentou ao § 1º a regra de que é **vedada a extinção, criação ou instalação** dos órgãos de contas ali referidos. Ao mesmo tempo, o § 4º continua vedando a criação de Tribunais, Conselhos ou órgãos de Contas Municipais.
 
-### 17.1 Auxílio dos Tribunais de Contas — EC nº 139/2026
+As duas regras devem ser lidas juntas: a alteração de 2026 reforçou a permanência constitucional dos órgãos existentes; **não abriu autorização para criar novos órgãos municipais de contas**.
 
-No corte do edital, o art. 31, § 1º, já incorpora a EC nº 139/2026.
+Dois números completam o núcleo do artigo 31:
 
-O controle externo da Câmara Municipal é exercido com auxílio dos órgãos de contas previstos no dispositivo, e o texto vigente estabelece vedação à sua **extinção, criação ou instalação**.
+- o <abbr title="Manifestação técnica do órgão de contas sobre as contas anuais do Prefeito">parecer prévio</abbr> sobre as contas anuais do Prefeito só deixa de prevalecer por decisão de **dois terços dos membros da Câmara Municipal**;
+- as contas municipais ficam, durante **60 dias**, anualmente, à disposição de qualquer contribuinte para exame e apreciação, que poderá questionar sua legitimidade nos termos da lei.
 
-O § 4º continua vedando a criação de Tribunais, Conselhos ou órgãos de Contas **Municipais**.
+## 8. Distrito Federal: uma posição híbrida, mas um ente único
 
-### 17.2 Parecer prévio sobre contas do Prefeito
+O Distrito Federal é ente federativo autônomo, mas possui características próprias.
 
-O parecer prévio do órgão competente sobre as contas anuais do Prefeito só deixa de prevalecer por decisão de **2/3 dos membros da Câmara Municipal**.
+A primeira é expressa: **não pode ser dividido em municípios**.
 
-### 17.3 Contas à disposição do contribuinte
+Sua norma básica também é uma Lei Orgânica, votada em dois turnos, com interstício mínimo de dez dias, aprovada por dois terços da Câmara Legislativa e por ela promulgada.
 
-As contas municipais ficam, durante **60 dias**, anualmente, à disposição de qualquer contribuinte para exame e apreciação, nos termos constitucionais.
+A segunda característica explica boa parte de sua posição constitucional: ao Distrito Federal são atribuídas as **competências legislativas reservadas aos estados e aos municípios**.
 
----
+Isso não significa que o Distrito Federal “seja ao mesmo tempo estado e município”. Ele é um ente federativo próprio ao qual a Constituição acumula essas competências legislativas.
 
-# Parte V — Distrito Federal
+Governador e Vice-Governador do Distrito Federal são eleitos nas condições constitucionais, e os Deputados Distritais possuem mandato de duração equivalente ao dos Deputados Estaduais. Aos Deputados Distritais e à Câmara Legislativa aplica-se o artigo 27.
 
-## 18. Art. 32 — regime constitucional do DF
+Por fim, **lei federal** dispõe sobre a utilização, pelo Governo do Distrito Federal, da polícia civil, polícia penal, polícia militar e corpo de bombeiros militar.
 
-O Distrito Federal possui posição própria na Federação.
+## 9. Como decidir questões de competência sem decorar tudo de uma vez
 
-### 18.1 Não pode ser dividido em municípios
+Quando a banca apresentar uma matéria concreta, resolva em camadas.
 
-A Constituição veda expressamente a divisão do Distrito Federal em municípios.
+Primeiro, identifique o **tipo de atuação**:
 
-### 18.2 Lei Orgânica
+- a questão fala em executar, manter, organizar, explorar ou fiscalizar? Procure competência material;
+- fala em editar normas? Procure competência legislativa.
 
-O DF rege-se por **Lei Orgânica**:
+Depois, localize o padrão constitucional:
 
-- votada em dois turnos;
-- interstício mínimo de dez dias;
-- aprovada por 2/3 da Câmara Legislativa;
-- promulgada pela Câmara Legislativa.
+- **artigo 21:** atuação material da União;
+- **artigo 22:** legislação privativa da União, com eventual autorização estadual por lei complementar para questões específicas;
+- **artigo 24:** legislação concorrente — União com normas gerais e estados/Distrito Federal com suplementação;
+- **artigo 25, § 1º:** competência residual dos estados;
+- **artigo 30:** interesse local e suplementação municipal;
+- **artigo 32, § 1º:** Distrito Federal acumula competências legislativas estaduais e municipais.
 
-### 18.3 Competências legislativas
+Por fim, se a questão for de organização, troque o mapa de competências pelo mapa do ente:
 
-Ao Distrito Federal são atribuídas as competências legislativas reservadas aos:
-
-- estados;
-- municípios.
-
-```text
-DF → COMPETÊNCIAS LEGISLATIVAS ESTADUAIS + MUNICIPAIS
-```
-
-Isso não transforma o DF em estado ou município.
-
-### 18.4 Eleições e segurança pública
-
-- Governador e Vice-Governador do DF são eleitos nas condições constitucionais;
-- o DF possui Deputados Distritais;
-- **lei federal** dispõe sobre a utilização, pelo Governo do DF, da polícia civil, polícia penal, polícia militar e corpo de bombeiros militar.
-
----
-
-# Parte VI — Matrizes de prova
-
-## 19. União × estados × DF × municípios
-
-| Unidade | Ente federativo? | Norma básica | Competência-chave |
-|---|:---:|---|---|
-| União | ✅ | Constituição Federal | arts. 21 e 22 |
-| Estado | ✅ | Constituição estadual | residual + concorrente |
-| Distrito Federal | ✅ | Lei Orgânica | legislativas estaduais + municipais |
-| Município | ✅ | Lei Orgânica | interesse local + suplementar |
-
-## 20. Competências — quadro decisivo
-
-| Pergunta | Dispositivo-guia |
-|---|---|
-| União executa, organiza, mantém ou explora | art. 21 |
-| União legisla privativamente | art. 22 |
-| normas gerais + suplementação estadual/DF | art. 24 |
-| competência residual | art. 25, § 1º |
-| interesse local | art. 30, I |
-| suplementação municipal | art. 30, II |
-| competências legislativas do DF | art. 32, § 1º |
-
-## 21. Lei Orgânica: município × DF
-
-| Regra | Município | DF |
+| Ente | Norma básica / referência | Chave de reconhecimento |
 |---|---|---|
-| norma básica | Lei Orgânica | Lei Orgânica |
-| turnos | 2 | 2 |
-| interstício mínimo | 10 dias | 10 dias |
-| aprovação | 2/3 | 2/3 |
-| órgão promulgador | Câmara Municipal | Câmara Legislativa |
+| União | Constituição Federal | bens da União + artigos 21 e 22 |
+| estado | Constituição estadual | competência residual + artigos 25 a 28 |
+| município | Lei Orgânica | interesse local + artigos 29 a 31 |
+| Distrito Federal | Lei Orgânica | não se divide em municípios + competências legislativas estaduais e municipais |
 
-## 22. Alteração territorial
-
-| Situação | Consulta | Ato final |
-|---|---|---|
-| estados | plebiscito da população diretamente interessada | lei complementar do Congresso |
-| municípios | plebiscito das populações envolvidas + EVM | lei estadual, no período definido por LC federal |
-
----
-
-# 23. Pegadinhas consolidadas
-
-1. **República Federativa do Brasil é soberana; União é autônoma.**
-2. União, estados, DF e municípios são entes federativos autônomos.
-3. Território Federal integra a União e não é ente federativo — não aprofundar além do necessário nesta linha.
-4. **Brasília** é a Capital Federal.
-5. Alteração territorial de estados: **plebiscito + LC do Congresso Nacional**.
-6. Reorganização municipal: **LC federal define período + EVM + plebiscito + lei estadual**.
-7. A LC nº 230/2026 possui objeto específico e **não autoriza criação de novo município** na modalidade disciplinada.
-8. Art. 21 = competência material/administrativa da União.
-9. Art. 22 = competência legislativa privativa da União.
-10. Art. 22 admite autorização por **LC aos estados, para questões específicas**.
-11. Art. 24 = União + estados + DF; município não integra o caput.
-12. Na concorrente, lei federal posterior **suspende a eficácia** da lei estadual somente no conflito.
-13. Estados têm competência residual.
-14. Regiões metropolitanas: **LC estadual + municípios limítrofes + funções públicas de interesse comum**.
-15. Município rege-se por **Lei Orgânica**.
-16. Lei Orgânica municipal: **2 turnos + 10 dias + 2/3**.
-17. Município legisla sobre **interesse local** e suplementa legislação federal e estadual.
-18. Transporte coletivo local é **serviço essencial**.
-19. Parecer prévio das contas do Prefeito só cai por **2/3 da Câmara**.
-20. Contas municipais ficam **60 dias** à disposição de qualquer contribuinte.
-21. EC nº 139/2026 já integra o corte do edital.
-22. DF **não** pode ser dividido em municípios.
-23. DF possui competências legislativas reservadas a estados e municípios.
-24. Lei Orgânica do DF: **2 turnos + 10 dias + 2/3 da Câmara Legislativa**.
-
----
-
-# 24. Método de resolução
-
-Ao encontrar questão sobre organização político-administrativa:
-
-1. identifique **qual ente** está em jogo;
-2. separe **soberania** de **autonomia**;
-3. identifique se a questão cobra:
-   - status federativo;
-   - bem público;
-   - competência material;
-   - competência legislativa;
-   - organização estadual;
-   - organização municipal;
-   - Distrito Federal;
-4. em competência, localize o artigo-gatilho:
-   - 21 → material da União;
-   - 22 → legislativa privativa;
-   - 24 → concorrente;
-   - 25 → residual estadual;
-   - 30 → municipal;
-   - 32 → DF;
-5. em alteração territorial, confira **plebiscito + espécie normativa**;
-6. em município ou DF, teste a regra da **Lei Orgânica**;
-7. não importe o art. 23 para esta linha: ele é objeto expresso do assunto 141.
-
----
+O objetivo não é transformar os artigos 18 a 32 em uma lista única. É reconhecer **qual pergunta constitucional está sendo feita**: quem compõe a Federação, quem pode agir, quem pode legislar e como cada ente se organiza.
