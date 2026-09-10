@@ -1,422 +1,178 @@
 ---
 schemaVersion: 1
 title: "Constituição Federal: arts. 23, 170, 225 e 231"
-description: "Noções constitucionais sobre competência comum, ordem econômica, meio ambiente e direitos territoriais indígenas, com foco nos arts. 23, 170, 225 e 231 da Constituição Federal."
+description: "Noções constitucionais sobre competência comum, ordem econômica, meio ambiente e direitos dos povos indígenas, com foco nos arts. 23, 170, 225 e 231."
 order: 141
 storageId: tec-nocoes-cf-23-170-225-231
 ---
 
 # Constituição Federal: arts. 23, 170, 225 e 231
 
-## 1. Recorte do edital
+## 1. Quatro artigos distantes, quatro perguntas que se conectam
 
-Este assunto corresponde ao item de **Noções de Direito Constitucional** do Cargo 16 que destaca expressamente os **arts. 23, 170, 225 e 231 da Constituição Federal**.
+Os quatro dispositivos aparecem em partes diferentes da Constituição, mas podem ser estudados por uma mesma lógica: **quem deve agir, qual valor constitucional está protegido e quais limites condicionam a atuação**.
 
-O recorte é deliberadamente literal e aplicado. A prova pode misturar quatro blocos que estão em partes diferentes da Constituição:
+- **Art. 23:** quem executa tarefas públicas compartilhadas entre os entes federativos?
+- **Art. 170:** quais valores orientam a atividade econômica?
+- **Art. 225:** quem tem direito ao meio ambiente equilibrado e quem deve protegê-lo?
+- **Art. 231:** quais direitos a Constituição reconhece aos povos indígenas e qual é o regime das terras tradicionalmente ocupadas?
 
-| Artigo | Núcleo |
-|---|---|
-| **23** | competência material comum dos entes federativos |
-| **170** | fundamentos, finalidade e princípios da ordem econômica |
-| **225** | direito ao meio ambiente ecologicamente equilibrado |
-| **231** | direitos dos povos indígenas e terras tradicionalmente ocupadas |
+Essa organização evita quatro listas isoladas. O art. 23 distribui atuação material; o art. 170 condiciona a economia; o art. 225 transforma a proteção ambiental em direito e dever; e o art. 231 combina proteção territorial, cultural e ambiental.
 
-> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1. A retificação de 29 de julho de 2026 não ampliou esta linha. O estudo abaixo usa a Constituição vigente no corte e, no art. 231, a jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr> já consolidada antes do edital.
+> **Corte de prova:** 6 de julho de 2026, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A leitura abaixo usa o texto constitucional e a jurisprudência aplicáveis nessa data. No art. 231, isso exige considerar tanto o Tema 1031 do <abbr title="Supremo Tribunal Federal">STF</abbr> quanto o julgamento de 2025 sobre a Lei nº 14.701/2023, sem incorporar alterações processuais posteriores ao corte.
 
-A palavra **noções** importa: é preciso conhecer bem a literalidade, as distinções e as consequências constitucionais centrais, sem transformar o assunto em curso completo de Direito Ambiental, Direito Econômico ou Direito dos Povos Indígenas.
+## 2. Art. 23: competência comum é tarefa compartilhada, não legislação concorrente
 
----
+O art. 23 atribui à União, aos estados, ao Distrito Federal e aos municípios uma **competência comum**, predominantemente material ou administrativa: todos recebem deveres de atuação concreta.
 
-# Parte I — Art. 23: competência comum
+Isso é diferente da **competência legislativa concorrente** do art. 24. Ali, o problema é quem pode produzir normas; no art. 23, o problema central é quem deve atuar materialmente.
 
-## 2. Natureza da competência do art. 23
-
-O art. 23 trata de **competência comum**, isto é, competência predominantemente **material ou administrativa**, atribuída simultaneamente a:
-
-- União;
-- estados;
-- Distrito Federal;
-- municípios.
-
-A fórmula de prova é:
-
-```text
-ART. 23 → COMPETÊNCIA COMUM → ATUAÇÃO MATERIAL/ADMINISTRATIVA
-UNIÃO + ESTADOS + DF + MUNICÍPIOS
-```
-
-Não confunda com:
-
-| Dispositivo | Natureza | Titulares principais |
+| Dispositivo | Pergunta principal | Titulares |
 |---|---|---|
-| art. 21 | material da União | União |
-| art. 22 | legislativa privativa | União |
-| **art. 23** | **material comum** | **União + estados + DF + municípios** |
-| art. 24 | legislativa concorrente | União + estados + DF |
-| art. 30, I e II | interesse local e suplementação | municípios |
+| art. 21 | quem executa tarefas materiais reservadas à União? | União |
+| art. 22 | quem legisla privativamente sobre certas matérias? | União |
+| **art. 23** | **quem atua materialmente em tarefas comuns?** | **União + estados + Distrito Federal + municípios** |
+| art. 24 | quem legisla concorrentemente? | União + estados + Distrito Federal |
+| art. 30, I e II | qual o espaço legislativo municipal? | municípios |
 
-A presença dos municípios é uma pegadinha importante: eles **participam do art. 23**, mas **não aparecem no caput do art. 24**.
+A presença dos municípios é uma distinção de alto rendimento: eles participam do art. 23, mas não aparecem no caput do art. 24.
 
-## 3. Incisos do art. 23
+### 2.1 O que os quatro entes devem fazer
 
-A Constituição distribui entre todos os entes as seguintes tarefas comuns.
+Os doze incisos podem ser compreendidos por blocos, sem perder a literalidade.
 
-### 3.1 Constituição, instituições e patrimônio público
+**Proteção institucional e cultural.** Compete aos entes:
 
-Compete aos entes:
+- zelar pela guarda da Constituição, das leis e das instituições democráticas e conservar o patrimônio público;
+- proteger documentos, obras e outros bens de valor histórico, artístico e cultural, monumentos, paisagens naturais notáveis e sítios arqueológicos;
+- impedir a evasão, destruição e descaracterização de obras de arte e de outros bens de valor histórico, artístico ou cultural;
+- proporcionar meios de acesso à cultura, à educação, à ciência, à tecnologia, à pesquisa e à inovação.
 
-- zelar pela guarda da Constituição, das leis e das instituições democráticas;
-- conservar o patrimônio público.
+Observe a diferença entre **proteger** o patrimônio e **impedir** sua evasão, destruição ou descaracterização: são incisos distintos.
 
-A ideia é cooperativa: a proteção da ordem constitucional e do patrimônio público não é monopólio de um único nível federativo.
+**Proteção social.** Também é competência comum:
 
-### 3.2 Saúde, assistência e pessoas com deficiência
+- cuidar da saúde e da assistência pública e proteger e garantir os direitos das pessoas com deficiência;
+- promover programas de construção de moradias e melhorar as condições habitacionais e de saneamento básico;
+- combater as causas da pobreza e os fatores de marginalização, promovendo a integração social dos setores desfavorecidos.
 
-É competência comum:
+**Ambiente, produção e recursos.** Os entes devem ainda:
 
-- cuidar da saúde e assistência pública;
-- proteger e garantir os direitos das pessoas com deficiência.
+- proteger o meio ambiente e combater a poluição em qualquer de suas formas;
+- preservar florestas, fauna e flora;
+- fomentar a produção agropecuária e organizar o abastecimento alimentar;
+- registrar, acompanhar e fiscalizar, em seus territórios, as concessões de direitos de pesquisa e exploração de recursos hídricos e minerais.
 
-A Constituição, portanto, não reserva a atuação material em saúde a apenas um ente.
+No último caso, os verbos são **registrar, acompanhar e fiscalizar**. A competência comum não transforma todos os entes em proprietários dos recursos nem desloca, por si só, competências dominiais e legislativas previstas em outros artigos.
 
-### 3.3 Patrimônio histórico, artístico, cultural e arqueológico
+**Trânsito.** Por fim, compete aos quatro entes estabelecer e implantar política de educação para a segurança do trânsito.
 
-O art. 23 separa duas frentes:
+### 2.2 Cooperação federativa
 
-1. **proteger** documentos, obras e outros bens de valor histórico, artístico e cultural, monumentos, paisagens naturais notáveis e sítios arqueológicos;
-2. **impedir** evasão, destruição e descaracterização de obras de arte e de outros bens de valor histórico, artístico ou cultural.
+O parágrafo único determina que **leis complementares** fixem normas para a cooperação entre União, estados, Distrito Federal e municípios, tendo em vista o equilíbrio do desenvolvimento e do bem-estar em âmbito nacional.
 
-A diferença entre proteger e impedir danos pode aparecer em alternativas literais.
+A lógica é simples:
 
-### 3.4 Cultura, educação, ciência, tecnologia, pesquisa e inovação
+**competência comum → responsabilidade compartilhada → necessidade de coordenação.**
 
-É competência comum proporcionar os meios de acesso a:
+Ter vários entes competentes não significa que todos devam praticar os mesmos atos de forma desordenada.
 
-- cultura;
-- educação;
-- ciência;
-- tecnologia;
-- pesquisa;
-- inovação.
+## 3. Art. 170: liberdade econômica dentro de uma ordem constitucional
 
-Não se confunde com a repartição de **competência legislativa** sobre educação ou cultura.
-
-### 3.5 Meio ambiente
-
-O art. 23 cria deveres materiais comuns de:
-
-- proteger o meio ambiente;
-- combater a poluição em qualquer de suas formas;
-- preservar florestas, fauna e flora.
-
-Esse bloco dialoga diretamente com o art. 225.
-
-```text
-ART. 23 → QUEM DEVE ATUAR
-ART. 225 → DIREITO, DEVERES E REGIME CONSTITUCIONAL AMBIENTAL
-```
-
-### 3.6 Produção e abastecimento
-
-Os entes devem:
-
-- fomentar a produção agropecuária;
-- organizar o abastecimento alimentar.
-
-O dispositivo não atribui isso exclusivamente à União ou aos municípios.
-
-### 3.7 Moradia e saneamento
-
-É competência comum:
-
-- promover programas de construção de moradias;
-- melhorar as condições habitacionais;
-- melhorar as condições de saneamento básico.
-
-### 3.8 Pobreza e marginalização
-
-Compete aos entes:
-
-- combater as causas da pobreza;
-- combater os fatores de marginalização;
-- promover a integração social dos setores desfavorecidos.
-
-### 3.9 Recursos hídricos e minerais
-
-Os entes devem registrar, acompanhar e fiscalizar, em seus territórios, as concessões de direitos de:
-
-- pesquisa;
-- exploração de recursos hídricos;
-- exploração de recursos minerais.
-
-A literalidade fala em **registrar, acompanhar e fiscalizar**. Isso não transforma todos os entes em titulares do domínio dos recursos nem altera as competências legislativas e dominiais previstas em outros dispositivos.
-
-### 3.10 Educação para a segurança do trânsito
-
-Também é competência comum:
-
-- estabelecer e implantar política de educação para a segurança do trânsito.
-
-## 4. Cooperação federativa — parágrafo único
-
-Leis complementares devem fixar normas para a cooperação entre:
-
-- União;
-- estados;
-- Distrito Federal;
-- municípios,
-
-tendo em vista o **equilíbrio do desenvolvimento e do bem-estar em âmbito nacional**.
-
-A lógica é:
-
-```text
-COMPETÊNCIA COMUM
-→ RESPONSABILIDADE COMPARTILHADA
-→ COOPERAÇÃO FEDERATIVA
-→ NÃO SIGNIFICA DUPLICAÇÃO DESORDENADA
-```
-
-**Pegadinha:** competência comum não é sinônimo de competência legislativa concorrente.
-
----
-
-# Parte II — Art. 170: ordem econômica
-
-## 5. Fundamentos e finalidade
-
-O art. 170 abre o capítulo dos princípios gerais da atividade econômica.
+O art. 170 não escolhe entre mercado e proteção social. Ele combina valores que devem coexistir.
 
 A ordem econômica é fundada em:
 
 - **valorização do trabalho humano**;
 - **livre iniciativa**.
 
-E tem por fim:
+Sua finalidade é assegurar a todos **existência digna**, conforme os ditames da **justiça social**.
 
-- assegurar a todos **existência digna**;
-- conforme os ditames da **justiça social**.
+Esse desenho ajuda a entender por que a Constituição protege simultaneamente propriedade privada e função social da propriedade, livre concorrência e defesa do consumidor, atividade econômica e meio ambiente.
 
-Matriz:
+### 3.1 Os nove princípios
 
-```text
-FUNDAMENTOS → valorização do trabalho humano + livre iniciativa
-FINALIDADE → existência digna
-PARÂMETRO → justiça social
-```
+A ordem econômica observa:
 
-A Constituição não apresenta livre iniciativa e justiça social como ideias mutuamente excludentes.
+1. **soberania nacional**;
+2. **propriedade privada**;
+3. **função social da propriedade** — o exercício da propriedade integra uma ordem constitucional que também lhe atribui finalidade social;
+4. **livre concorrência** — proteção do ambiente concorrencial;
+5. **defesa do consumidor**;
+6. **defesa do meio ambiente**, inclusive mediante tratamento diferenciado conforme o impacto ambiental dos produtos, serviços e de seus processos de elaboração e prestação;
+7. **redução das desigualdades regionais e sociais**;
+8. **busca do pleno emprego** — a palavra constitucional é “busca”, não garantia de desemprego zero;
+9. **tratamento favorecido para as empresas de pequeno porte** constituídas sob as leis brasileiras e que tenham sede e administração no País.
 
-## 6. Os nove princípios do art. 170
+A relação entre propriedade privada e função social é especialmente importante: uma não apaga a outra. Ambas são princípios expressos.
 
-### I — soberania nacional
-
-A atividade econômica se insere na ordem constitucional brasileira e deve respeitar a soberania nacional.
-
-### II — propriedade privada
-
-A Constituição reconhece a propriedade privada como princípio da ordem econômica.
-
-### III — função social da propriedade
-
-A propriedade privada não é tratada como poder absoluto: sua **função social** também é princípio da ordem econômica.
-
-```text
-PROPRIEDADE PRIVADA + FUNÇÃO SOCIAL
-```
-
-A prova pode tentar apresentar os dois princípios como incompatíveis; a Constituição os coloca lado a lado.
-
-### IV — livre concorrência
-
-Protege-se o ambiente concorrencial e a possibilidade de disputa entre agentes econômicos, nos limites constitucionais e legais.
-
-### V — defesa do consumidor
-
-A proteção do consumidor é princípio expresso da ordem econômica.
-
-### VI — defesa do meio ambiente
-
-A defesa do meio ambiente integra a ordem econômica, inclusive mediante **tratamento diferenciado conforme o impacto ambiental**:
-
-- dos produtos;
-- dos serviços;
-- de seus processos de elaboração e prestação.
-
-Esse inciso é a ponte mais direta entre os arts. 170 e 225.
-
-### VII — redução das desigualdades regionais e sociais
-
-A atividade econômica também deve ser lida à luz da redução de desigualdades territoriais e sociais.
-
-### VIII — busca do pleno emprego
-
-A Constituição fala em **busca** do pleno emprego, não em promessa de desemprego zero.
-
-### IX — tratamento favorecido para empresas de pequeno porte
-
-O tratamento favorecido alcança empresas de pequeno porte:
-
-- constituídas sob as leis brasileiras;
-- com sede e administração no País.
-
-## 7. Livre exercício de atividade econômica
+### 3.2 Livre exercício da atividade econômica
 
 O parágrafo único assegura a todos o **livre exercício de qualquer atividade econômica**, independentemente de autorização de órgãos públicos, **salvo nos casos previstos em lei**.
 
-A pegadinha está na exceção:
+A estrutura é de regra e exceção:
 
-```text
-REGRA → livre exercício sem autorização pública
-EXCEÇÃO → casos previstos em lei
-```
+- regra: não se exige autorização pública apenas porque alguém pretende exercer atividade econômica;
+- exceção: a lei pode prever hipóteses em que a autorização é necessária.
 
-Não existe liberdade econômica absoluta ou imune à disciplina legal.
+Logo, livre iniciativa não significa imunidade à legislação ambiental, sanitária, urbanística ou a outras limitações constitucionalmente legítimas.
 
----
+## 4. Art. 225: direito ambiental e dever compartilhado
 
-# Parte III — Art. 225: meio ambiente
+O art. 225 começa atribuindo **a todos** o direito ao meio ambiente ecologicamente equilibrado, qualificado como **bem de uso comum do povo** e essencial à sadia qualidade de vida.
 
-## 8. Estrutura do caput
+Ao mesmo tempo, impõe o dever de defendê-lo e preservá-lo:
 
-O art. 225 reconhece a **todos** o direito ao:
+- ao **Poder Público**;
+- à **coletividade**;
+- para as **presentes e futuras gerações**.
 
-- meio ambiente ecologicamente equilibrado;
-- bem de uso comum do povo;
-- essencial à sadia qualidade de vida.
+Há, portanto, uma dimensão <abbr title="Proteção que considera também as gerações futuras">intergeracional</abbr>: a Constituição não olha apenas para o uso presente dos recursos ambientais.
 
-E atribui o dever de defesa e preservação a:
+### 4.1 Oito incumbências do Poder Público
 
-- **Poder Público**;
-- **coletividade**.
+O § 1º transforma o dever geral em tarefas concretas.
 
-A proteção se projeta para:
+**I — processos ecológicos.** Preservar e restaurar os processos ecológicos essenciais e prover o manejo ecológico das espécies e ecossistemas.
 
-- presentes gerações;
-- futuras gerações.
+**II — patrimônio genético.** Preservar a diversidade e a integridade do patrimônio genético do País e fiscalizar as entidades dedicadas à pesquisa e manipulação de material genético.
 
-Matriz:
+**III — espaços especialmente protegidos.** Definir, em todas as unidades da Federação, espaços territoriais e seus componentes a serem especialmente protegidos. Sua **alteração e supressão somente podem ocorrer através de lei**, e é vedada utilização que comprometa a integridade dos atributos que justificam a proteção.
 
-```text
-TITULAR → todos
-OBJETO → meio ambiente ecologicamente equilibrado
-NATUREZA → bem de uso comum do povo
-FUNÇÃO → essencial à sadia qualidade de vida
-DEVER → Poder Público + coletividade
-TEMPO → presentes + futuras gerações
-```
+A exigência de lei recai expressamente sobre **alteração e supressão**. Não transforme isso em afirmação de que toda criação de espaço protegido depende necessariamente de lei.
 
-## 9. Deveres do Poder Público — § 1º
+**IV — impacto ambiental.** Exigir, na forma da lei, **estudo prévio de impacto ambiental**, com publicidade, para instalação de obra ou atividade potencialmente causadora de **significativa degradação do meio ambiente**.
 
-### I — processos ecológicos, espécies e ecossistemas
+Os três gatilhos são: potencial de significativa degradação, estudo **prévio** e **publicidade**.
 
-Cabe preservar e restaurar os processos ecológicos essenciais e prover o manejo ecológico das espécies e ecossistemas.
+**V — risco ambiental.** Controlar produção, comercialização e emprego de técnicas, métodos e substâncias que comportem risco para a vida, a qualidade de vida e o meio ambiente.
 
-### II — patrimônio genético
+**VI — educação ambiental.** Promover educação ambiental em todos os níveis de ensino e conscientização pública para a preservação do meio ambiente.
 
-Incumbe:
+**VII — fauna e flora.** Proteger fauna e flora, vedadas, na forma da lei, práticas que coloquem em risco sua função ecológica, provoquem extinção de espécies ou submetam animais a crueldade.
 
-- preservar a diversidade e a integridade do patrimônio genético do País;
-- fiscalizar as entidades dedicadas à pesquisa e manipulação de material genético.
+O § 7º estabelece uma exceção condicionada para determinadas práticas desportivas que utilizem animais: devem constituir manifestações culturais na forma constitucional, estar registradas como bem de natureza imaterial do patrimônio cultural brasileiro e ser regulamentadas por lei específica que assegure o bem-estar dos animais. A exceção não é autorização genérica para práticas cruéis.
 
-### III — espaços especialmente protegidos
+**VIII — regime fiscal favorecido.** Manter, na forma de lei complementar, regime fiscal favorecido para **biocombustíveis** e **hidrogênio de baixa emissão de carbono**, destinado a assegurar tributação inferior à dos combustíveis fósseis e diferencial competitivo nos termos constitucionais.
 
-O Poder Público deve definir, em todas as unidades da Federação, espaços territoriais e seus componentes a serem especialmente protegidos.
+Esse inciso foi incluído pela Emenda Constitucional nº 132/2023 e já integrava o texto no corte.
 
-A alteração e a supressão:
+### 4.2 Mineração, sanções e reparação
 
-- somente podem ocorrer **através de lei**;
-- não podem permitir utilização que comprometa a integridade dos atributos justificadores da proteção.
+Quem explora recursos minerais fica obrigado a **recuperar o meio ambiente degradado**, de acordo com solução técnica exigida pelo órgão público competente, na forma da lei.
 
-**Pegadinha:** a Constituição exige lei para **alteração e supressão**; não diz, no inciso, que toda criação de espaço protegido exige necessariamente lei.
-
-### IV — estudo prévio de impacto ambiental
-
-Para instalação de obra ou atividade **potencialmente causadora de significativa degradação do meio ambiente**, exige-se, na forma da lei:
-
-- **estudo prévio de impacto ambiental**;
-- ao qual se dará **publicidade**.
-
-Gatilhos:
-
-```text
-POTENCIAL + SIGNIFICATIVA DEGRADAÇÃO
-→ EIA PRÉVIO
-→ PUBLICIDADE
-```
-
-### V — técnicas, métodos e substâncias de risco
-
-Cabe controlar produção, comercialização e emprego de:
-
-- técnicas;
-- métodos;
-- substâncias
-
-que comportem risco para a vida, a qualidade de vida e o meio ambiente.
-
-### VI — educação ambiental
-
-O Poder Público deve:
-
-- promover educação ambiental em todos os níveis de ensino;
-- promover conscientização pública para a preservação ambiental.
-
-### VII — fauna e flora
-
-Cabe proteger fauna e flora.
-
-São vedadas, na forma da lei, práticas que:
-
-- coloquem em risco sua função ecológica;
-- provoquem extinção de espécies;
-- submetam animais a crueldade.
-
-O § 7º contém exceção constitucional para determinadas práticas desportivas com animais quando preenchidos os requisitos constitucionais de manifestação cultural registrada e regulamentação legal que assegure o bem-estar dos animais.
-
-### VIII — regime fiscal favorecido
-
-O texto constitucional vigente no corte inclui a incumbência de manter, na forma de lei complementar, regime fiscal favorecido para:
-
-- biocombustíveis;
-- hidrogênio de baixa emissão de carbono,
-
-de modo a garantir diferencial competitivo em relação aos combustíveis fósseis, nos termos constitucionais.
-
-Para este assunto de “noções”, o núcleo é reconhecer que o inciso **VIII existe e integra o § 1º**; a engenharia tributária detalhada não é o foco.
-
-## 10. Mineração e recuperação ambiental — § 2º
-
-Quem explora recursos minerais fica obrigado a:
-
-- recuperar o meio ambiente degradado;
-- de acordo com solução técnica exigida pelo órgão público competente;
-- na forma da lei.
-
-Exploração mineral e recuperação do dano ambiental aparecem constitucionalmente conectadas.
-
-## 11. Responsabilização ambiental — § 3º
-
-Condutas e atividades lesivas ao meio ambiente sujeitam os infratores, **pessoas físicas ou jurídicas**, a:
+Além disso, condutas e atividades lesivas ao meio ambiente sujeitam pessoas físicas ou jurídicas a:
 
 - sanções penais;
 - sanções administrativas;
 
-**independentemente** da obrigação de reparar os danos causados.
+**independentemente da obrigação de reparar os danos causados**.
 
-A estrutura é cumulativa:
+As três consequências podem coexistir. A Constituição não diz que uma esfera substitui automaticamente as demais.
 
-```text
-SANÇÃO PENAL
-+ SANÇÃO ADMINISTRATIVA
-+ REPARAÇÃO CIVIL
-```
+### 4.3 Patrimônio nacional, terras indisponíveis e usinas nucleares
 
-A Constituição não afirma que uma esfera elimina automaticamente a outra.
-
-## 12. Patrimônio nacional — § 4º
-
-São patrimônio nacional:
+O § 4º qualifica como **patrimônio nacional**:
 
 - Floresta Amazônica brasileira;
 - Mata Atlântica;
@@ -424,41 +180,13 @@ São patrimônio nacional:
 - Pantanal Mato-Grossense;
 - Zona Costeira.
 
-A utilização ocorre na forma da lei, em condições que assegurem preservação ambiental, inclusive quanto ao uso dos recursos naturais.
+Essa qualificação impõe regime especial de proteção e não transfere, por si só, a propriedade de todas as áreas à União.
 
-**Pegadinha:** “patrimônio nacional” não significa que todas essas áreas se tornaram propriedade da União.
+O § 5º torna indisponíveis as terras devolutas ou arrecadadas pelos estados, por ações discriminatórias, necessárias à proteção dos ecossistemas naturais.
 
-## 13. Terras ambientais indisponíveis — § 5º
+O § 6º determina que usinas que operem com reator nuclear tenham sua localização definida em **lei federal**; sem essa definição, não podem ser instaladas.
 
-São indisponíveis as terras:
-
-- devolutas ou arrecadadas pelos estados;
-- por ações discriminatórias;
-- necessárias à proteção dos ecossistemas naturais.
-
-## 14. Usinas nucleares — § 6º
-
-Usinas que operem com reator nuclear:
-
-- devem ter localização definida em **lei federal**;
-- sem isso, não podem ser instaladas.
-
-## 15. Práticas desportivas com animais — § 7º
-
-Para a parte final do § 1º, VII, não se consideram cruéis determinadas práticas desportivas que utilizem animais quando:
-
-- forem manifestações culturais conforme o art. 215, § 1º;
-- estiverem registradas como bem de natureza imaterial integrante do patrimônio cultural brasileiro;
-- houver regulamentação por lei específica;
-- a lei assegurar o bem-estar dos animais envolvidos.
-
-A exceção é condicionada, não genérica.
-
----
-
-# Parte IV — Art. 231: povos indígenas e terras tradicionalmente ocupadas
-
-## 16. Direitos reconhecidos no caput
+## 5. Art. 231: direitos originários e um regime territorial próprio
 
 O art. 231 reconhece aos povos indígenas:
 
@@ -467,220 +195,96 @@ O art. 231 reconhece aos povos indígenas:
 - línguas;
 - crenças;
 - tradições;
-- direitos originários sobre as terras que tradicionalmente ocupam.
+- **direitos originários sobre as terras que tradicionalmente ocupam**.
 
-Compete à **União**:
+“Originário” significa que o direito territorial não nasce da decisão administrativa de demarcar. À União compete **demarcar as terras, protegê-las e fazer respeitar todos os bens indígenas**.
 
-- demarcar essas terras;
-- protegê-las;
-- fazer respeitar todos os bens indígenas.
+A demarcação identifica e delimita juridicamente uma situação protegida pela própria Constituição; ela não funciona como compra, concessão ou criação do direito territorial.
 
-A expressão **direitos originários** é central: o direito territorial não nasce do ato administrativo de demarcação.
+### 5.1 O que torna uma terra tradicionalmente ocupada
 
-```text
-DIREITO ORIGINÁRIO → PREEXISTE
-DEMARCAÇÃO → DECLARA/IDENTIFICA E DELIMITA
-```
+O § 1º reúne quatro elementos, considerados segundo usos, costumes e tradições da comunidade. São terras:
 
-O STF, no Tema 1031, assentou que a demarcação é procedimento declaratório do direito originário territorial.
+1. habitadas em caráter permanente;
+2. utilizadas para atividades produtivas;
+3. imprescindíveis à preservação dos recursos ambientais necessários ao bem-estar;
+4. necessárias à reprodução física e cultural.
 
-## 17. O que é terra tradicionalmente ocupada — § 1º
+Tradicionalidade, portanto, não se reduz ao ponto onde existem moradias. O próprio texto incorpora atividades produtivas, recursos ambientais e reprodução física e cultural.
 
-A Constituição utiliza quatro critérios, lidos segundo usos, costumes e tradições da comunidade:
+### 5.2 Posse permanente, usufruto e indisponibilidade
 
-1. terras habitadas em caráter permanente;
-2. terras utilizadas para atividades produtivas;
-3. terras imprescindíveis à preservação dos recursos ambientais necessários ao bem-estar;
-4. terras necessárias à reprodução física e cultural.
+As terras destinam-se à **posse permanente** dos povos indígenas, cabendo-lhes o **usufruto exclusivo** das riquezas do solo, dos rios e dos lagos nelas existentes.
 
-Não se reduz a tradicionalidade a uma fotografia da moradia física.
+Não é propriedade privada comum. As terras tradicionalmente ocupadas são bens da União e, pelo § 4º do art. 231:
 
-## 18. Posse permanente e usufruto — § 2º
+- as terras são **inalienáveis** — não podem ser transferidas como propriedade comum;
+- as terras são **indisponíveis** — não podem ser livremente destinadas ou negociadas;
+- os direitos sobre elas são **imprescritíveis** — não se extinguem pelo simples decurso do tempo.
 
-As terras tradicionalmente ocupadas destinam-se à:
+### 5.3 Recursos hídricos e minerais
 
-- **posse permanente** dos povos indígenas.
-
-Cabe-lhes o:
-
-- **usufruto exclusivo** das riquezas do solo;
-- dos rios;
-- dos lagos nelas existentes.
-
-A prova pode confundir posse permanente e propriedade privada. A Constituição dá às terras regime jurídico próprio.
-
-## 19. Recursos hídricos e minerais — § 3º
-
-O aproveitamento de recursos hídricos, inclusive potenciais energéticos, e a pesquisa e lavra de riquezas minerais em terras indígenas dependem de:
+O aproveitamento de recursos hídricos, incluídos os potenciais energéticos, e a pesquisa e lavra das riquezas minerais em terras indígenas somente podem ser efetivados com:
 
 1. **autorização do Congresso Nacional**;
-2. audiência das **comunidades afetadas**;
-3. participação das comunidades nos **resultados da lavra**, na forma da lei.
+2. oitiva das **comunidades afetadas**;
+3. participação dessas comunidades nos **resultados da lavra**, na forma da lei.
 
-```text
-CONGRESSO AUTORIZA
-+ COMUNIDADE É OUVIDA
-+ PARTICIPAÇÃO NOS RESULTADOS DA LAVRA
-```
+Ouvir a comunidade não substitui a autorização do Congresso; são requisitos distintos.
 
-Ouvir a comunidade não é o mesmo que substituir a autorização do Congresso.
-
-## 20. Inalienabilidade, indisponibilidade e imprescritibilidade — § 4º
-
-As terras do art. 231 são:
-
-- **inalienáveis**;
-- **indisponíveis**.
-
-Os direitos sobre elas são:
-
-- **imprescritíveis**.
-
-Não troque os sujeitos:
-
-```text
-TERRAS → inalienáveis + indisponíveis
-DIREITOS SOBRE ELAS → imprescritíveis
-```
-
-## 21. Remoção dos grupos indígenas — § 5º
+### 5.4 Remoção dos povos indígenas
 
 A regra é a **vedação da remoção** dos grupos indígenas de suas terras.
 
-Excepcionalmente, a Constituição admite:
+A Constituição admite exceções restritas:
 
-### Catástrofe ou epidemia
+- em caso de catástrofe ou epidemia que coloque a população em risco, a remoção pode ocorrer <abbr title="Sujeita à posterior confirmação do Congresso Nacional">ad referendum</abbr> do Congresso Nacional;
+- no interesse da soberania do País, exige-se deliberação prévia do Congresso Nacional.
 
-- quando houver risco à população;
-- com remoção **ad referendum do Congresso Nacional**.
+Em qualquer hipótese, deve ser garantido o **retorno imediato** logo que cesse o risco.
 
-### Interesse da soberania do País
+### 5.5 Nulidade de atos e <abbr title="Obras ou melhorias realizadas no imóvel">benfeitorias</abbr> de boa-fé
 
-- após **deliberação do Congresso Nacional**.
+O § 6º considera, em regra, nulos e extintos, sem efeitos jurídicos, os atos que tenham por objeto a ocupação, o domínio e a posse das terras referidas no art. 231 ou a exploração das riquezas naturais do solo, dos rios e lagos nelas existentes.
 
-Em qualquer hipótese:
+Há ressalva de relevante interesse público da União, segundo o que dispuser lei complementar. A nulidade também não gera, em regra, direito a indenização ou ação contra a União, **salvo, na forma da lei, quanto às benfeitorias derivadas da ocupação de boa-fé**. Benfeitorias, aqui, são obras ou melhorias realizadas no imóvel.
 
-- deve ser garantido o **retorno imediato** assim que cesse o risco.
+O § 7º afasta das terras indígenas o regime do art. 174, §§ 3º e 4º, relativo ao favorecimento da organização da atividade garimpeira em cooperativas.
 
-## 22. Nulidade de atos e benfeitorias de boa-fé — § 6º
+## 6. Marco temporal: Tema 1031, Lei nº 14.701/2023 e o corte de 2026
 
-A Constituição considera nulos e extintos, sem efeitos jurídicos, em regra, os atos que tenham por objeto:
+Esse ponto exige cronologia porque a regra constitucional foi objeto de disputa legislativa e judicial.
 
-- ocupação;
-- domínio;
-- posse das terras indígenas;
-- exploração das riquezas naturais do solo, rios e lagos nelas existentes.
+### 6.1 Tema 1031
 
-Há ressalva de relevante interesse público da União, segundo lei complementar.
+No Tema 1031, o <abbr title="Supremo Tribunal Federal">STF</abbr> fixou, entre outros pontos, que:
 
-A literalidade constitucional também ressalva, na forma da lei, as **benfeitorias derivadas da ocupação de boa-fé**.
+- a demarcação é procedimento **declaratório** do direito originário territorial;
+- a posse tradicional indígena é distinta da posse civil e deve ser identificada pelos elementos do art. 231, § 1º;
+- a proteção constitucional dos direitos originários **independe de marco temporal em 5 de outubro de 1988** e da configuração de conflito físico ou controvérsia judicial persistente naquela data;
+- as terras de ocupação tradicional são de posse permanente da comunidade, com usufruto exclusivo nos termos constitucionais;
+- as terras são públicas, inalienáveis e indisponíveis, e os direitos sobre elas são imprescritíveis;
+- a ocupação tradicional é compatível com a tutela constitucional do meio ambiente.
 
-### 22.1 Tema 1031 do STF
+O acórdão — a decisão colegiada do Tribunal — de mérito foi publicado em 15 de fevereiro de 2024.
 
-No **Tema 1031**, com acórdão de mérito publicado em 15 de fevereiro de 2024, o STF fixou, entre outros pontos:
+### 6.2 A Lei nº 14.701/2023 e o julgamento de 2025
 
-- a demarcação é declaratória de direito originário;
-- a posse tradicional indígena não se confunde com posse civil;
-- a proteção constitucional **independe de marco temporal em 5 de outubro de 1988**;
-- terras tradicionalmente ocupadas são de posse permanente da comunidade;
-- os indígenas têm usufruto exclusivo das riquezas do solo, rios e lagos;
-- essas terras são públicas, inalienáveis e indisponíveis, e os direitos sobre elas são imprescritíveis.
+Depois do julgamento do Tema 1031, a Lei nº 14.701/2023 passou a disciplinar reconhecimento, demarcação, uso e gestão de terras indígenas. Partes vetadas foram promulgadas e o art. 4º tentou condicionar a tradicionalidade à ocupação existente **na data da promulgação da Constituição**, reproduzindo a lógica do marco temporal.
 
-Para a prova, a regra de maior rendimento é:
+No julgamento conjunto da Ação Declaratória de Constitucionalidade nº 87 e das Ações Diretas de Inconstitucionalidade nºs 7.582, 7.583 e 7.586, concluído em dezembro de 2025, o <abbr title="Supremo Tribunal Federal">STF</abbr> declarou inconstitucional a expressão que fixava a data da promulgação da Constituição e também os §§ 2º, 3º e 4º do art. 4º da lei, reafirmando a incompatibilidade do marco temporal com o art. 231.
 
-```text
-ART. 231 + TEMA 1031
-→ NÃO HÁ MARCO TEMPORAL EM 5/10/1988
-```
+**Situação no corte de 6 de julho de 2026:** o mérito de 2025 já havia sido julgado. <abbr title="Recurso para esclarecer ou corrigir decisão judicial">Embargos de declaração</abbr> contra essa decisão tiveram julgamento iniciado em junho de 2026 e estavam suspensos por <abbr title="Pedido de mais tempo para examinar o processo">pedido de vista</abbr>; a retomada ocorreria depois do corte. Portanto, para esta prova, não se deve tratar o marco temporal como regra constitucional válida nem antecipar ajustes decididos somente após 6 de julho de 2026.
 
-A jurisprudência contém detalhes indenizatórios e procedimentais mais extensos. Eles não devem deslocar o foco desta linha de “noções”.
+## 7. Como os quatro artigos se encontram
 
-## 23. Garimpagem — § 7º
+As conexões ajudam a resolver questões sem decorar quatro capítulos independentes.
 
-O § 7º determina que **não se aplica às terras indígenas** o disposto no art. 174, §§ 3º e 4º, referente ao favorecimento da organização da atividade garimpeira em cooperativas.
+| Conexão | Ideia |
+|---|---|
+| **23 + 225** | todos os entes recebem tarefas materiais ambientais; o art. 225 define o direito e os deveres de proteção |
+| **170 + 225** | atividade econômica é constitucionalmente condicionada também pela defesa do meio ambiente |
+| **225 + 231** | a própria tradicionalidade territorial indígena inclui recursos ambientais necessários ao bem-estar |
+| **23 + 231** | competência comum não elimina a atribuição específica da União de demarcar e proteger terras indígenas |
 
----
-
-# Parte V — Integração dos quatro artigos
-
-## 24. Pontes que a prova pode explorar
-
-### 24.1 Art. 23 + art. 225
-
-O art. 23 distribui tarefas ambientais comuns entre os entes; o art. 225 define o direito ambiental constitucional e deveres de proteção.
-
-```text
-ART. 23 → repartição material de atuação
-ART. 225 → regime constitucional do meio ambiente
-```
-
-### 24.2 Art. 170 + art. 225
-
-A ordem econômica deve observar a **defesa do meio ambiente**.
-
-Logo, proteção ambiental não aparece apenas no capítulo do meio ambiente; ela também é princípio da atividade econômica.
-
-### 24.3 Art. 225 + art. 231
-
-Os dois dispositivos conectam território e proteção ambiental.
-
-No art. 231, a própria definição de terra tradicionalmente ocupada inclui áreas imprescindíveis à preservação dos recursos ambientais necessários ao bem-estar indígena.
-
-O STF também reconheceu no Tema 1031 que a ocupação tradicional indígena é compatível com a tutela constitucional do meio ambiente.
-
-### 24.4 Art. 23 + art. 231
-
-O art. 23 distribui competências materiais comuns em temas como meio ambiente e patrimônio; o art. 231, contudo, atribui especificamente à **União** a demarcação, proteção e respeito aos bens indígenas.
-
-Não se deve usar a competência comum do art. 23 para apagar atribuições específicas do art. 231.
-
----
-
-## 25. Pegadinhas de prova
-
-1. Art. 23 = competência **comum/material**, não legislativa concorrente.
-2. Municípios participam do art. 23; não participam do caput do art. 24.
-3. Competência comum não elimina a necessidade de cooperação federativa.
-4. Art. 170: fundamentos = trabalho humano + livre iniciativa.
-5. Art. 170: finalidade = existência digna segundo justiça social.
-6. Propriedade privada e função social coexistem como princípios.
-7. Defesa ambiental é princípio expresso da ordem econômica.
-8. Livre exercício de atividade econômica admite exceções previstas em lei.
-9. Art. 225: titular do direito = todos; dever = Poder Público + coletividade.
-10. <abbr title="Estudo Prévio de Impacto Ambiental">EIA</abbr> é exigido para obra/atividade potencialmente causadora de **significativa** degradação.
-11. Alteração/supressão de espaço especialmente protegido exige lei.
-12. Responsabilidade ambiental pode reunir sanções penais, administrativas e reparação.
-13. Patrimônio nacional ≠ propriedade da União.
-14. Usina nuclear exige localização definida em lei federal.
-15. Art. 231 reconhece **direitos originários**.
-16. Demarcação não cria o direito territorial indígena.
-17. Terra tradicional não se limita ao local de moradia permanente.
-18. Posse permanente + usufruto exclusivo ≠ propriedade privada indígena.
-19. Recursos hídricos/minerais em terra indígena exigem autorização do Congresso e oitiva das comunidades.
-20. Terras = inalienáveis e indisponíveis; direitos = imprescritíveis.
-21. Remoção é excepcional e há garantia de retorno.
-22. Tema 1031: proteção territorial indígena independe de marco temporal em 5/10/1988.
-23. O art. 231, § 7º, afasta o regime constitucional de favorecimento à garimpagem cooperativa.
-
----
-
-## 26. Método rápido de resolução
-
-Ao encontrar uma alternativa, identifique primeiro o artigo:
-
-```text
-"todos os entes devem..." → art. 23
-"ordem econômica / livre iniciativa..." → art. 170
-"meio ambiente / EIA / fauna..." → art. 225
-"terras indígenas / demarcação..." → art. 231
-```
-
-Depois pergunte:
-
-1. é competência **material** ou **legislativa**?
-2. quem é o sujeito constitucional?
-3. há requisito, exceção ou condição?
-4. a alternativa trocou um verbo ou órgão?
-5. confundiu regra geral com exceção?
-
----
+Ao resolver uma alternativa, faça três perguntas: **qual artigo está sendo acionado, quem é o sujeito constitucional e qual condição ou exceção foi trocada?** Esse método cobre os erros mais frequentes sem exigir uma segunda lista de “pegadinhas”.
