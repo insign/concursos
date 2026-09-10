@@ -4,6 +4,7 @@ import { buildAnswerDocumentId, getActiveAlias } from './identity';
 import { getLocalAnswerRecord, saveAnswerDocumentSnapshot } from './offline-db';
 import { buildQuestionSeed, deterministicQuestionOrder, randomQuestionOrder } from './question-order';
 import { loadPreferences, savePreferences, withPreference, type Preferences } from './preferences';
+import { emptyMessageForOrigin } from './print-export';
 import { progressSubjectId, updateSubjectProgress } from './progress';
 import {
   createEmptyAnswerDocument,
@@ -257,6 +258,8 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
 
   function render(): void {
     const ordered = orderedQuestions;
+    root.dataset.questionPrintOrigin = originFilter;
+    root.dataset.questionPrintOrder = ordered.map((question) => question.id).join(',');
     const questionNoun = (count: number) => (count === 1 ? 'questão' : 'questões');
     questionCount.textContent =
       originFilter === 'all'
@@ -268,12 +271,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
       emptyState.className = 'empty-state';
       emptyState.dataset.questionEmptyState = 'true';
       emptyState.setAttribute('role', 'status');
-      emptyState.textContent =
-        originFilter === 'authorial'
-          ? 'Não há questões autorais neste assunto.'
-          : originFilter === 'previous_exam'
-            ? 'Não há questões de concursos anteriores neste assunto.'
-            : 'Não há questões neste assunto.';
+      emptyState.textContent = emptyMessageForOrigin(originFilter);
       questionList.replaceChildren(emptyState);
       pagination.hidden = true;
       previousButton.disabled = true;

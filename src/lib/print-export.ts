@@ -49,3 +49,51 @@ export function scopeLabel(sections: readonly PrintSection[]): string {
   const ordered = PRINT_SECTIONS.filter((section) => sections.includes(section));
   return ordered.map((section) => SECTION_LABELS[section]).join(' + ');
 }
+
+export const QUESTION_ORIGIN_FILTERS = ['all', 'authorial', 'previous_exam'] as const;
+
+export type QuestionOriginFilter = (typeof QUESTION_ORIGIN_FILTERS)[number];
+
+export const QUESTION_ORIGIN_LABELS: Record<QuestionOriginFilter, string> = {
+  all: 'Todas as origens',
+  authorial: 'Autorais',
+  previous_exam: 'Concursos anteriores',
+};
+
+export function isQuestionOriginFilter(value: string | null | undefined): value is QuestionOriginFilter {
+  return value === 'all' || value === 'authorial' || value === 'previous_exam';
+}
+
+export function parseOriginFilter(value: string | null | undefined): QuestionOriginFilter {
+  return isQuestionOriginFilter(value) ? value : 'all';
+}
+
+export function emptyMessageForOrigin(origin: QuestionOriginFilter): string {
+  if (origin === 'authorial') return 'Não há questões autorais neste assunto.';
+  if (origin === 'previous_exam') return 'Não há questões de concursos anteriores neste assunto.';
+  return 'Não há questões neste assunto.';
+}
+
+export function selectPrintQuestions<T extends { id: string; origin: string }>(
+  questions: readonly T[],
+  origin: QuestionOriginFilter,
+  orderedIds?: readonly string[] | null,
+): T[] {
+  const filtered = origin === 'all' ? [...questions] : questions.filter((question) => question.origin === origin);
+  if (filtered.length === 0) return filtered;
+  if (!orderedIds || orderedIds.length === 0) return filtered;
+  if (orderedIds.length !== filtered.length) return filtered;
+  const seen = new Set<string>();
+  for (const id of orderedIds) {
+    if (seen.has(id)) return filtered;
+    seen.add(id);
+  }
+  const byId = new Map(filtered.map((question) => [question.id, question]));
+  const ordered: T[] = [];
+  for (const id of orderedIds) {
+    const question = byId.get(id);
+    if (!question) return filtered;
+    ordered.push(question);
+  }
+  return ordered;
+}

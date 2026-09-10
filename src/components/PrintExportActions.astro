@@ -105,6 +105,14 @@ const config = JSON.stringify({
 
 <script>
   import { PRINT_SECTIONS, SECTION_LABELS, scopeLabel } from '../lib/print-export';
+  import {
+    QUESTION_ORIGIN_LABELS,
+    emptyMessageForOrigin,
+    isQuestionOriginFilter,
+    parseOriginFilter,
+    selectPrintQuestions,
+    type QuestionOriginFilter,
+  } from '../lib/print-export';
 
   interface PrintConfig {
     contestSlug: string;
@@ -124,6 +132,7 @@ const config = JSON.stringify({
         prompt: string;
         options: Array<{ id: string; text: string }>;
         correctOptionId: string;
+        origin: 'authorial' | 'previous_exam';
       }>;
     };
   }
@@ -206,8 +215,36 @@ const config = JSON.stringify({
     }
   }
 
-  function renderQuestions(config: QuestionnaireConfig, includeGabarito: boolean): string {
-    const questions = config.questionSet.questions;
+  function readLiveQuestionOrigin(): QuestionOriginFilter {
+    const published = document.querySelector<HTMLElement>('[data-questionnaire]')?.dataset
+      .questionPrintOrigin;
+    if (isQuestionOriginFilter(published)) return published;
+    return parseOriginFilter(
+      document.querySelector<HTMLInputElement>('input[name="question-origin"]:checked')?.value,
+    );
+  }
+
+  function readLiveQuestionOrderIds(): string[] | null {
+    const raw = document.querySelector<HTMLElement>('[data-questionnaire]')?.dataset.questionPrintOrder;
+    if (raw == null) return null;
+    return raw
+      .split(',')
+      .map((id) => id.trim())
+      .filter(Boolean);
+  }
+
+  function renderQuestions(
+    questions: QuestionnaireConfig['questionSet']['questions'],
+    origin: QuestionOriginFilter,
+    includeGabarito: boolean,
+  ): string {
+    const scopeNote =
+      origin === 'all'
+        ? ''
+        : `<p class="print-origin-note">Filtro aplicado: ${escapeHtml(QUESTION_ORIGIN_LABELS[origin])}</p>`;
+    if (questions.length === 0) {
+      return `${scopeNote}<p class="print-bundle-empty" role="status">${escapeHtml(emptyMessageForOrigin(origin))}</p>`;
+    }
     const cards = questions
       .map((question, index) => {
         const number = index + 1;
@@ -217,10 +254,10 @@ const config = JSON.stringify({
             return `<li><span class="print-option-letter">(${letter})</span> ${escapeHtml(option.text)}</li>`;
           })
           .join('');
-        return `<article class="print-question"><h3>Questão ${number}</h3><p>${escapeHtml(question.prompt)}</p><ol class="print-options">${options}</ol></article>`;
+        return `<article class="print-question" data-print-question-id="${escapeHtml(question.id)}" data-print-question-origin="${escapeHtml(question.origin)}"><h3>Questão ${number}</h3><p>${escapeHtml(question.prompt)}</p><ol class="print-options">${options}</ol></article>`;
       })
       .join('');
-    if (!includeGabarito) return cards;
+    if (!includeGabarito) return `${scopeNote}${cards}`;
     const rows = questions
       .map((question, index) => {
         const optionIndex = question.options.findIndex((option) => option.id === question.correctOptionId);
@@ -228,7 +265,7 @@ const config = JSON.stringify({
         return `<tr><th scope="row">${index + 1}</th><td>${letter}</td></tr>`;
       })
       .join('');
-    return `${cards}<section class="print-gabarito"><h3>Gabarito</h3><table><thead><tr><th scope="col">Questão</th><th scope="col">Resposta</th></tr></thead><tbody>${rows}</tbody></table></section>`;
+    return `${scopeNote}${cards}<section class="print-gabarito"><h3>Gabarito</h3><table><thead><tr><th scope="col">Questão</th><th scope="col">Resposta</th></tr></thead><tbody>${rows}</tbody></table></section>`;
   }
 
   async function fetchText(url: string): Promise<string> {
@@ -324,11 +361,16 @@ const config = JSON.stringify({
 
       try {
         if (section === 'questoes') {
-          const live = config.active === 'questions' ? readLiveQuestionnaireConfig() : null;
+          const isLive = config.active === 'questions';
+          const live = isLive ? readLiveQuestionnaireConfig() : null;
           const questionnaire = live ?? parseQuestionnaireConfig(await fetchText(`${base}questoes/`));
           if (!questionnaire) return false;
+          const origin: QuestionOriginFilter = isLive ? readLiveQuestionOrigin() : 'all';
+          const orderedIds = isLive ? readLiveQuestionOrderIds() : null;
+          const questions = selectPrintQuestions(questionnaire.questionSet.questions, origin, orderedIds);
+          wrapper.dataset.printQuestionsOrigin = origin;
           const template = document.createElement('template');
-          template.innerHTML = renderQuestions(questionnaire, includeGabarito);
+          template.innerHTML = renderQuestions(questions, origin, includeGabarito);
           wrapper.append(template.content);
         } else {
           const path = section === 'conteudo' ? base : `${base}cheat-sheet/`;
@@ -409,17 +451,25 @@ const config = JSON.stringify({
           const header = document.createElement('header');
           header.className = 'print-bundle-header';
           const emitted = new Date().toLocaleDateString('pt-BR');
+          const questionsOrigin: QuestionOriginFilter =
+            sections.includes('questoes') && config.active === 'questions'
+              ? readLiveQuestionOrigin()
+              : 'all';
+          const scopeText =
+            sections.includes('questoes') && questionsOrigin !== 'all'
+              ? `${scopeLabel(sections)} · ${QUESTION_ORIGIN_LABELS[questionsOrigin]}`
+              : scopeLabel(sections);
           header.innerHTML =
             `<p class="print-bundle-contest">${escapeHtml(config.contestTitle)}</p>` +
             `<h1>${escapeHtml(config.subjectTitle)}</h1>` +
-            `<p class="print-bundle-meta">${escapeHtml(scopeLabel(sections))} · rev. ${config.questionSetRevision} · ${escapeHtml(emitted)}</p>`;
+            `<p class="print-bundle-meta">${escapeHtml(scopeText)} · rev. ${config.questionSetRevision} · ${escapeHtml(emitted)}</p>`;
           bundle.append(header);
           for (const section of sections) {
             await buildSection(section, bundle, includeGabarito, sections.length);
           }
           document.body.append(bundle);
           document.body.classList.add('printing-bundle');
-          document.title = `${config.subjectTitle} - ${scopeLabel(sections)}`;
+          document.title = `${config.subjectTitle} - ${scopeText}`;
           dialog.close();
           setStatus('');
           const done = () => cleanupBundle(previousTitle);
