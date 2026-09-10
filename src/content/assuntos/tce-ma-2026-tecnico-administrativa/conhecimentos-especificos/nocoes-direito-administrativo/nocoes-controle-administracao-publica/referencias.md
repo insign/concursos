@@ -1,4 +1,8 @@
-- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — arts. 5º, XXXV, LIV e LV; 37; 49; 50; 58; 70 a 75.
-- [Lei nº 9.784, de 29 de janeiro de 1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm) — especialmente arts. 1º, 5º, 48, 50 e 53 a 56.
-- [Decreto-Lei nº 200, de 25 de fevereiro de 1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) — supervisão ministerial e Administração indireta.
-- Supremo Tribunal Federal — Súmulas 346 e 473, sobre autotutela administrativa.
+- [Edital e comunicados oficiais — TCE/MA 2026, Cebraspe](https://www.cebraspe.org.br/concursos/tce_ma_26)
+- [Constituição da República Federativa do Brasil de 1988 — texto compilado, Planalto](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — especialmente arts. 2º; 5º, XXXV, LIV, LV, LXVIII, LXIX, LXXII e LXXIII; 37; 49; 50; 58; 70 a 75.
+- [Emenda Constitucional nº 139, de 5 de maio de 2026 — Planalto](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc139.htm) — permanência e essencialidade dos tribunais de contas e alteração do art. 75.
+- [Lei nº 9.784, de 29 de janeiro de 1999 — processo administrativo federal, Planalto](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm) — especialmente arts. 1º, 12, 15, 50 e 53 a 56.
+- [Decreto-Lei nº 200, de 25 de fevereiro de 1967 — organização da Administração Federal, Planalto](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) — arts. 19 a 26, sobre supervisão ministerial no regime federal.
+- [Lei nº 7.347, de 24 de julho de 1985 — ação civil pública, Planalto](https://www.planalto.gov.br/ccivil_03/leis/l7347compilada.htm) — especialmente arts. 1º e 5º.
+- [Supremo Tribunal Federal — Constituição e jurisprudência vinculada ao art. 37](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=37&abrirBase=CF) — Súmulas 346 e 473, sobre autotutela administrativa.
+- [Supremo Tribunal Federal — Tema 698 da repercussão geral](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=698) — limites do controle judicial de políticas públicas.

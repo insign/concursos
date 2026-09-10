@@ -8,484 +8,310 @@ storageId: tec-nocoes-controle-adm-147
 
 # Controle da Administração Pública
 
-## 1. Recorte do edital e estratégia de estudo
+## 1. A pergunta central: quem pode controlar — e até onde?
 
-Este assunto integra **Conhecimentos específicos — Noções de Direito Administrativo** do Cargo 16 e cobre exatamente o item **6 Controle da administração pública**, com os subitens:
+Considere três situações **hipotéticas**. Em uma delas, a própria Administração percebe que praticou um ato ilegal. Em outra, a pessoa afetada leva a controvérsia ao Poder Judiciário. Na terceira, o Poder Legislativo fiscaliza a atuação do Executivo ou o uso de recursos públicos pelos instrumentos constitucionais.
 
-1. **6.1 controle pela própria administração**;
-2. **6.2 controle judicial**;
-3. **6.3 controle legislativo**.
+Nos três casos existe **controle da Administração Pública**, mas não existe um poder genérico de “corrigir tudo”. Cada controlador atua com fundamento, instrumentos e efeitos próprios.
 
-O estudo permanece em nível de **noções**: reúne as três perspectivas de controle em uma visão sistemática, sem transformar o tópico em estudo aprofundado de Controle Externo, Poder Legislativo ou remédios constitucionais. Esses temas aparecem em outros pontos do programa e, aqui, entram apenas no grau necessário para compreender **quem controla, o que controla, por qual instrumento e com quais limites**.
+**Controle da Administração Pública** é o conjunto de mecanismos destinados a fiscalizar, acompanhar, revisar e corrigir a atuação administrativa. Para compreender o tema, use quatro perguntas:
 
-O corte normativo adotado é **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. A Constituição Federal, a Lei nº 9.784/1999 e os entendimentos consolidados do <abbr title="Supremo Tribunal Federal">STF</abbr> utilizados abaixo são considerados conforme esse corte.
+1. **quem controla?**
+2. **o que está sendo controlado?**
+3. **qual parâmetro jurídico orienta o controle?**
+4. **qual efeito esse controlador pode produzir?**
 
-> **Ideia central:** controlar a Administração não significa substituir o administrador. Cada espécie de controle possui fundamento, objeto, competência e limites próprios.
+Um parâmetro recorrente é a **juridicidade**. Ela é mais ampla que a simples conferência da letra de uma lei: exige compatibilidade da atuação administrativa com a Constituição, as leis, os princípios, a finalidade pública, a motivação, os direitos fundamentais e as demais normas aplicáveis.
 
-## 2. Conceito e finalidades do controle
+> **Corte da prova:** as alterações legislativas com entrada em vigor até **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, podem ser avaliadas. Quanto à jurisprudência dos tribunais superiores, o edital permite considerar entendimentos publicados até 30 dias antes da prova. As Súmulas 346 e 473 e o Tema 698 utilizados neste capítulo são anteriores a esse limite.
 
-**Controle da Administração Pública** é o conjunto de mecanismos de fiscalização, acompanhamento, correção e revisão da atuação administrativa.
+O recorte desta unidade é o controle exercido pela **própria Administração**, pelo **Poder Judiciário** e pelo **Poder Legislativo**. A Constituição fornece regras nacionais. Já a Lei nº 9.784/1999 e o Decreto-Lei nº 200/1967 aparecem como referências do **regime federal**; não se presume sua aplicação direta e integral ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-O controle busca, conforme o caso:
+## 2. Três controles, três posições institucionais
 
-- assegurar **legalidade e juridicidade**;
-- proteger direitos;
-- verificar aderência a finalidades públicas;
-- prevenir e corrigir desvios;
-- avaliar resultados, legitimidade e economicidade;
-- responsabilizar agentes quando cabível;
-- preservar a separação de Poderes e o sistema de freios e contrapesos.
+A primeira classificação importante olha para **quem exerce o controle**.
 
-A palavra **juridicidade** é mais ampla que simples conformidade literal com a lei. A atuação administrativa deve respeitar Constituição, leis, regulamentos válidos, princípios, direitos fundamentais, finalidade, motivação e demais parâmetros jurídicos aplicáveis.
-
-## 3. Classificações úteis
-
-### 3.1. Quanto ao órgão controlador
-
-| Espécie | Quem exerce | Núcleo |
+| Espécie | Quem controla | Pergunta predominante |
 |---|---|---|
-| **administrativo** | a própria Administração | autotutela, hierarquia, supervisão, recursos e fiscalização interna |
-| **judicial** | Poder Judiciário, quando provocado | controle de juridicidade e proteção de direitos |
-| **legislativo** | Poder Legislativo e, no controle externo financeiro, com auxílio dos tribunais de contas | fiscalização política e controle contábil, financeiro, orçamentário, operacional e patrimonial |
+| **administrativo** | a própria Administração | a atuação deve ser mantida, corrigida, anulada ou revista? |
+| **judicial** | Poder Judiciário, quando provocado | a atuação permanece dentro do Direito e respeita os direitos envolvidos? |
+| **legislativo** | Poder Legislativo e, no controle externo financeiro, o sistema constitucional com tribunais de contas | o instrumento de fiscalização foi usado dentro da competência constitucional? |
 
-### 3.2. Controle interno e externo
+A tabela só organiza o mapa. O que diferencia realmente essas espécies são os **mecanismos e limites** estudados a seguir.
 
-**Controle interno** é exercido dentro da própria estrutura estatal responsável pela atividade controlada. Exemplo: revisão hierárquica ou atuação de órgão de controle interno.
+## 3. Controle administrativo: a Administração revê a própria atuação
 
-**Controle externo** é exercido por órgão ou Poder distinto da estrutura controlada. Exemplo: fiscalização parlamentar ou controle externo financeiro exercido pelo Legislativo com auxílio do tribunal de contas.
+O controle administrativo é exercido pela própria Administração sobre seus atos, órgãos e agentes e, nos limites do ordenamento, sobre entidades a ela vinculadas.
 
-> **Pegadinha:** “interno” e “administrativo” não são sinônimos absolutos. Controle administrativo descreve a natureza do controle exercido pela própria Administração; controle interno é uma classificação relacional mais ampla.
+Há três relações que a prova costuma aproximar indevidamente: **hierarquia**, **supervisão finalística** e **autotutela**.
 
-### 3.3. Quanto ao momento
+### 3.1 Hierarquia e supervisão finalística
 
-- **prévio ou preventivo:** antes da produção final do ato ou da despesa;
-- **concomitante:** durante a prática ou execução;
-- **posterior ou subsequente:** depois de realizado o ato, contrato ou despesa.
+**Hierarquia** pressupõe subordinação dentro de uma estrutura administrativa. Ela permite, conforme a competência, direção, coordenação, fiscalização e revisão da atuação dos subordinados.
 
-O mesmo sistema pode combinar os três momentos.
+Quando a relação envolve outra pessoa jurídica, a lógica muda. Uma autarquia, por exemplo, possui personalidade jurídica própria. Entre Administração direta e entidade da Administração indireta existe, em regra, **vinculação**, e não hierarquia geral.
 
-### 3.4. Quanto ao parâmetro
+A **supervisão finalística** acompanha o cumprimento das finalidades atribuídas à entidade sem apagar a autonomia que o ordenamento lhe reconhece. No regime federal, o Decreto-Lei nº 200/1967 é uma referência para essa relação.
 
-- **legalidade/juridicidade:** conformidade com o ordenamento;
-- **mérito administrativo:** conveniência e oportunidade, quando a lei deixa margem legítima de escolha.
+```text
+mesma estrutura + subordinação
+            ↓
+        hierarquia
 
-O mérito é controlado pela própria Administração nos limites de sua competência. O Judiciário não possui poder geral para substituir escolha administrativa válida por sua preferência.
+pessoa jurídica distinta + vínculo jurídico
+            ↓
+   supervisão finalística
+```
 
-### 3.5. Quanto à iniciativa
+A diferença produz uma consequência prática: **delegar competência não prova, por si só, que existe hierarquia**. A Lei nº 9.784/1999 admite, no regime federal, delegação a órgão ou titular que não seja hierarquicamente subordinado, se juridicamente cabível. Já a avocação — assunção temporária de competência de órgão hierarquicamente inferior — é excepcional e depende das condições legais.
 
-O controle pode ser:
+### 3.2 Autotutela: corrigir os próprios atos
 
-- **de ofício**, por iniciativa do próprio órgão competente;
-- **provocado**, por petição, reclamação, representação, recurso ou ação adequada.
+**Autotutela** é o poder-dever de a Administração controlar seus próprios atos sem precisar obter autorização judicial prévia para cada correção.
 
-## 4. Controle administrativo
+As Súmulas 346 e 473 do <abbr title="Supremo Tribunal Federal">STF</abbr> exprimem a orientação clássica: a Administração pode declarar a nulidade de seus próprios atos; pode anular os ilegais e revogar atos válidos por razões de conveniência ou oportunidade, respeitados os limites jurídicos e a possibilidade de apreciação judicial.
 
-Controle administrativo é aquele exercido pela própria Administração sobre sua atuação, seus órgãos, agentes e, nos limites legais, entidades vinculadas.
+A Lei nº 9.784/1999, para a Administração federal, separa essas respostas no artigo 53:
 
-Ele pode abranger:
+- **anulação** reage a vício de legalidade;
+- **revogação** reage a razões de conveniência ou oportunidade em ato válido.
 
-- fiscalização;
-- orientação;
-- revisão;
-- correção;
-- anulação;
-- revogação;
-- convalidação;
-- apuração de responsabilidade;
-- recursos e reclamações administrativas.
+A **convalidação** resolve um terceiro problema: preservar o ato mediante correção de defeito sanável. No artigo 55 da mesma lei, ela é admitida quando a correção não causar lesão ao interesse público nem prejuízo a terceiros.
 
-### 4.1. Controle hierárquico
+Depois de compreender o mecanismo, a síntese fica simples:
 
-O controle hierárquico pressupõe **subordinação** dentro da mesma pessoa jurídica.
+| Instituto | Problema | Efeito |
+|---|---|---|
+| anulação | ilegalidade | desfaz o ato inválido |
+| revogação | ato válido que deixou de ser conveniente ou oportuno | desfaz o ato por mérito administrativo |
+| convalidação | defeito sanável | corrige e preserva o ato, quando presentes os requisitos |
 
-A autoridade superior pode, dentro das competências previstas no ordenamento:
+**Mérito administrativo** é justamente o espaço de escolha legítima entre alternativas permitidas pelo Direito, especialmente quanto a conveniência e oportunidade. Não é sinônimo de arbitrariedade.
 
-- orientar;
-- coordenar;
-- fiscalizar;
-- rever atos;
-- distribuir funções;
-- apurar responsabilidades;
-- exercer poderes de delegação e, excepcionalmente, avocação.
+### 3.3 Autotutela não elimina processo e segurança jurídica
 
-A hierarquia não permite ignorar competência exclusiva, procedimento obrigatório ou autonomia técnica protegida por lei.
+Poder agir de ofício não significa poder desfazer situações individuais arbitrariamente.
 
-### 4.2. Supervisão ou controle finalístico
+Quando a revisão afeta situação já constituída, devem ser observadas as garantias processuais aplicáveis ao caso, como devido processo, contraditório, ampla defesa e motivação. A Lei nº 9.784/1999 exige motivação, no âmbito federal, em hipóteses relevantes, inclusive decisões que afetem direitos e atos de anulação, revogação, suspensão ou convalidação.
 
-Entre a Administração direta e entidades da Administração indireta existe, em regra, **vinculação**, não subordinação hierárquica geral.
+Há também limites temporais. **Decadência**, neste contexto, é a perda do direito de anular determinado ato pelo decurso do prazo legal. O artigo 54 da Lei nº 9.784/1999 estabelece, para a Administração federal, **cinco anos** para anular atos dos quais decorram efeitos favoráveis aos destinatários, salvo comprovada má-fé.
 
-A supervisão finalística:
+A contagem merece atenção:
 
-- depende de fundamento jurídico;
-- verifica aderência às finalidades institucionais;
-- deve respeitar a personalidade e a autonomia da entidade;
-- não autoriza o órgão supervisor a assumir livremente competências próprias da entidade.
+- em regra, parte da data da prática do ato;
+- nos efeitos patrimoniais contínuos, parte da percepção do **primeiro pagamento**;
+- medida da autoridade administrativa que importe impugnação à validade do ato é considerada exercício do direito de anular.
 
-> **Fórmula:** vinculação ≠ hierarquia.
+A existência de ilegalidade não permite presumir má-fé do destinatário. A exceção legal exige **má-fé comprovada**.
 
-### 4.3. Autotutela
+### 3.4 Controle provocado e recursos
 
-**Autotutela** é o poder-dever de a Administração controlar seus próprios atos.
+A própria Administração também pode ser provocada por requerimento, reclamação, representação ou recurso.
 
-As Súmulas 346 e 473 do STF constituem referências clássicas:
+No regime federal, o artigo 56 da Lei nº 9.784/1999 admite recurso por razões de **legalidade e mérito**. Esse dado ajuda a distinguir o controle administrativo do judicial: a autoridade administrativa competente pode reexaminar, quando juridicamente cabível, tanto a validade quanto escolhas administrativas de conveniência e oportunidade.
 
-- a Administração pode declarar a nulidade de seus próprios atos;
-- atos ilegais podem ser anulados;
-- atos válidos podem ser revogados por conveniência ou oportunidade, respeitados os limites jurídicos.
+## 4. Controle judicial: juridicidade sem governo pelo juiz
 
-A Lei nº 9.784/1999, no âmbito federal, reforça essas ideias.
+O Poder Judiciário não recebe uma segunda oportunidade para escolher aquilo que a Administração poderia legitimamente ter escolhido. Sua pergunta central é outra: **a atuação administrativa permaneceu dentro dos limites jurídicos?**
 
-### 4.4. Anulação, revogação e convalidação
+### 4.1 Jurisdição una e acesso ao Judiciário
 
-| Instituto | Pressuposto | Natureza | Limites principais |
-|---|---|---|---|
-| **anulação** | ilegalidade | controle de juridicidade | decadência, processo, boa-fé e segurança jurídica |
-| **revogação** | ato válido inconveniente ou inoportuno | controle de mérito | competência, direitos adquiridos e situações exauridas |
-| **convalidação** | vício sanável | correção e preservação do ato | ausência de lesão ao interesse público e de prejuízo a terceiros |
+O artigo 5º, inciso XXXV, da Constituição estabelece que a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito.
 
-#### Anulação
+O Brasil adota, por isso, o sistema de **jurisdição una**. A Administração pode decidir processos e produzir efeitos, mas uma decisão administrativa definitiva internamente não se transforma, apenas por isso, em decisão judicial imune à apreciação jurisdicional.
 
-A Administração **deve anular** atos com vício de legalidade quando presentes os pressupostos jurídicos para o desfazimento.
+Também não há regra geral que obrigue o interessado a percorrer todos os recursos administrativos antes de buscar o Judiciário.
 
-Anulação não é sinônimo de punição. O foco é retirar ou corrigir situação incompatível com o ordenamento.
+Não confunda:
 
-#### Revogação
+- **requerimento administrativo prévio**: provocação inicial da Administração, que pode ser necessária em situações específicas;
+- **exaurimento da via administrativa**: utilização de todas as instâncias ou recursos administrativos disponíveis.
 
-A Administração **pode revogar** ato válido por razões de conveniência ou oportunidade.
+A inexistência de exaurimento geral não elimina requisitos processuais próprios de cada pretensão.
 
-Não se revoga um ato porque ele é ilegal. Se o problema é ilegalidade, a categoria correta é anulação.
+### 4.2 Discricionariedade não é imunidade ao controle
 
-#### Convalidação
+**Discricionariedade** é a margem juridicamente conferida à Administração para escolher entre alternativas válidas. Enquanto houver alternativas igualmente compatíveis com o Direito, o juiz não deve substituir a escolha administrativa apenas porque adotaria solução diferente.
 
-A convalidação corrige vício sanável e preserva o ato quando não houver:
-
-- lesão ao interesse público;
-- prejuízo a terceiros.
-
-### 4.5. Decadência administrativa
-
-O art. 54 da Lei nº 9.784/1999 estabelece, para a Administração federal, prazo de **cinco anos** para anular atos administrativos dos quais decorram efeitos favoráveis aos destinatários, salvo comprovada má-fé.
-
-Pontos de prova:
-
-- regra geral: contagem a partir da prática do ato;
-- efeitos patrimoniais contínuos: contagem a partir da percepção do **primeiro pagamento**;
-- má-fé deve ser comprovada;
-- medida administrativa que importe impugnação à validade do ato pode caracterizar exercício tempestivo do direito de anular.
-
-> O prazo do art. 54 não transforma um ato ilegal em legal; ele protege estabilidade e segurança jurídica nas condições previstas em lei.
-
-### 4.6. Processo, defesa e motivação
-
-Autotutela não significa atuação arbitrária.
-
-Quando a revisão administrativa afeta situação individual já concretizada, devem ser observadas as garantias processuais aplicáveis, especialmente:
-
-- devido processo;
-- contraditório;
-- ampla defesa;
-- motivação;
-- segurança jurídica.
-
-A Lei nº 9.784/1999 exige motivação em diversas hipóteses, inclusive decisões que afetem direitos e atos de anulação, revogação, suspensão ou convalidação.
-
-### 4.7. Controle provocado e recursos
-
-O administrado pode provocar a Administração por instrumentos como:
-
-- petição;
-- requerimento;
-- reclamação;
-- representação;
-- recurso.
-
-No regime federal da Lei nº 9.784/1999, o recurso administrativo pode discutir **legalidade e mérito**.
-
-A Administração não perde a possibilidade de agir de ofício pelo simples fato de também existir controle provocado.
-
-## 5. Controle judicial
-
-Controle judicial é o exercido pelo Poder Judiciário sobre a atuação administrativa quando há provocação por via processual adequada.
-
-### 5.1. Jurisdição una e inafastabilidade
-
-O Brasil adota o sistema de **jurisdição una**.
-
-O art. 5º, XXXV, da Constituição estabelece que a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito.
-
-Isso significa que:
-
-- processos e decisões administrativas existem e produzem efeitos;
-- não existe, no modelo brasileiro, uma jurisdição administrativa autônoma cujas decisões sejam definitivamente imunes ao Judiciário;
-- decisão administrativa definitiva internamente não equivale a coisa julgada judicial material.
-
-### 5.2. Não há exaurimento administrativo geral
-
-A Constituição não estabelece regra geral de que todos os recursos administrativos devam ser esgotados antes do acesso ao Judiciário.
-
-Podem existir:
-
-- requisitos processuais legítimos;
-- necessidade de requerimento administrativo inicial em situações específicas;
-- condicionamentos constitucionais ou legais próprios.
-
-Mas **requerimento prévio** e **exaurimento da via administrativa** são conceitos diferentes.
-
-### 5.3. Objeto do controle judicial
-
-O Judiciário pode controlar a **juridicidade** do ato administrativo, inclusive aspectos como:
+Isso não torna o ato discricionário imune. O controle judicial pode alcançar, conforme o caso:
 
 - competência;
 - forma e procedimento;
 - finalidade;
-- motivo e pressupostos fáticos;
+- pressupostos de fato e de direito;
 - motivação;
 - impessoalidade e igualdade;
 - razoabilidade e proporcionalidade;
-- observância de direitos fundamentais.
-
-### 5.4. Mérito e discricionariedade
-
-Discricionariedade não significa liberdade fora do Direito.
-
-O Judiciário pode examinar se a escolha administrativa respeitou:
-
-- limites legais;
-- fatos efetivamente existentes;
-- finalidade;
-- motivação;
-- proporcionalidade;
-- igualdade;
 - direitos fundamentais.
 
-O que o Judiciário não possui é um poder geral de **revogar** ato válido simplesmente por preferir outra decisão de conveniência ou oportunidade.
+Se a Administração ultrapassa esses limites, a questão deixa de ser simples preferência de mérito e passa a envolver juridicidade. O Judiciário pode anular um ato ilegal no caso submetido a ele; o que não possui é poder geral para **revogar** ato válido por conveniência ou oportunidade.
 
-> **Regra de prova:** vício jurídico pode ser controlado; mera preferência administrativa válida não deve ser substituída pelo juiz.
+Se fatos e normas deixam apenas uma consequência juridicamente válida, reconhecer judicialmente essa consequência também não equivale a revogação: nesse ponto já não existe escolha administrativa legítima a preservar.
 
-### 5.5. Motivo, motivação e teoria dos motivos determinantes
+### 4.3 Motivo, motivação e motivos determinantes
 
-- **motivo:** pressuposto de fato e de direito que sustenta o ato;
-- **motivação:** exposição das razões da decisão;
-- **teoria dos motivos determinantes:** os motivos declarados vinculam a validade do ato quanto à sua existência e veracidade.
+Essas três expressões respondem a perguntas diferentes:
 
-Se a Administração declara fundamento fático inexistente ou falso, o controle judicial pode alcançar esse vício sem que isso represente substituição do mérito.
+- **motivo**: quais fatos e fundamentos jurídicos sustentam o ato?
+- **motivação**: como a Administração expõe as razões da decisão?
+- **teoria dos motivos determinantes**: uma vez declarados os motivos, sua existência e veracidade condicionam a validade do ato.
 
-### 5.6. Omissões e políticas públicas
+Se uma decisão se apoia em fato comprovadamente inexistente, o Judiciário pode controlar esse vício sem administrar por conveniência no lugar do gestor.
 
-A separação de Poderes não cria imunidade para omissões administrativas incompatíveis com deveres constitucionais.
+O mesmo raciocínio vale diante de questões tecnicamente complexas. Complexidade não cria imunidade jurídica, mas uma opção técnica defensável e situada dentro da margem legal não deve ser substituída apenas pela preferência do julgador.
 
-Ao mesmo tempo, o controle judicial deve preservar, quando ainda existirem alternativas juridicamente válidas, o espaço de escolha administrativa.
+### 4.4 Políticas públicas: corrigir omissão sem assumir a gestão
 
-Em questões de prova, procure distinguir:
+A separação de Poderes não cria uma zona livre de controle quando há dever jurídico descumprido.
 
-- reconhecimento de um **dever jurídico**;
-- correção de uma **omissão ilícita**;
-- de uma tentativa de o Judiciário realizar **microgestão** sem base jurídica.
+No Tema 698 da repercussão geral, o <abbr title="Supremo Tribunal Federal">STF</abbr> assentou que a intervenção judicial em políticas públicas voltadas à realização de direitos fundamentais, diante de ausência ou deficiência grave do serviço, não viola por si só a separação de Poderes. Como regra, em vez de impor medidas pontuais, a decisão deve indicar a finalidade a alcançar e permitir que a Administração apresente plano ou meios adequados para chegar ao resultado.
 
-### 5.7. Instrumentos judiciais: mapa mínimo
+A lógica é importante porque preserva dois valores ao mesmo tempo:
 
-O edital deste assunto não exige transformar o tópico em curso completo de ações constitucionais. Basta reconhecer instrumentos típicos:
+```text
+dever jurídico descumprido
+        ↓
+controle judicial pode ser necessário
 
-| Instrumento | Núcleo |
+várias alternativas administrativas legítimas
+        ↓
+preservar, em regra, a escolha dos meios pela Administração
+```
+
+### 4.5 Instrumentos judiciais: o mapa suficiente para este recorte
+
+A via judicial depende do direito discutido, da legitimidade e do tipo de prova necessário. Aqui basta reconhecer o núcleo de instrumentos frequentes:
+
+| Instrumento | Função básica |
 |---|---|
-| **mandado de segurança** | proteção de direito líquido e certo nas condições constitucionais e legais |
-| **ação popular** | controle, pelo cidadão, de atos lesivos aos bens constitucionalmente protegidos |
-| **ação civil pública** | tutela coletiva pelos legitimados previstos em lei |
-| **habeas data** | acesso, retificação ou complementação de dados pessoais nas hipóteses legais |
-| **habeas corpus** | tutela da liberdade de locomoção |
-| **ação comum** | via adequada quando a pretensão demanda cognição e prova compatíveis |
+| mandado de segurança | proteção de <abbr title="Direito demonstrável de plano, nos limites legais">direito líquido e certo</abbr> nas hipóteses constitucionais e legais |
+| ação popular | instrumento do cidadão contra atos lesivos aos bens protegidos pela Constituição |
+| ação civil pública | tutela coletiva pelos legitimados previstos em lei |
+| <abbr title="Ação para acesso ou correção de dados pessoais">habeas data</abbr> | acesso, retificação ou complementação de dados pessoais nas hipóteses constitucionais e legais |
+| <abbr title="Ação de proteção da liberdade de locomoção">habeas corpus</abbr> | proteção da liberdade de locomoção contra ilegalidade ou abuso de poder |
+| ação comum | via processual compatível com a pretensão e com a prova necessária |
 
-O instrumento deve ser adequado ao direito discutido, à legitimidade e ao tipo de prova necessário.
+Esses instrumentos mostram formas de provocar o controle judicial; seus requisitos processuais detalhados não são objeto central desta unidade.
 
-## 6. Controle legislativo
+## 5. Controle legislativo: fiscalizar por competências específicas
 
-O controle legislativo decorre do sistema de freios e contrapesos e das competências atribuídas pela Constituição ao Poder Legislativo.
+O controle legislativo decorre do sistema de freios e contrapesos: a Constituição distribui competências para que órgãos estatais fiscalizem e limitem uns aos outros sem criar uma hierarquia geral entre os Poderes.
 
-Não existe subordinação hierárquica geral do Executivo ao Legislativo.
+Assim, o Legislativo **não é superior hierárquico do Executivo**. Seu controle depende do instrumento constitucional utilizado.
 
-O controle legislativo pode ser visualizado em dois grandes blocos:
+### 5.1 Fiscalização e sustação
 
-1. **controle parlamentar direto ou político**;
-2. **controle externo contábil, financeiro, orçamentário, operacional e patrimonial**, exercido com auxílio dos tribunais de contas.
+O artigo 49, inciso V, atribui ao Congresso Nacional competência para sustar atos normativos do Poder Executivo que exorbitem do <abbr title="Competência para editar regulamentos de execução das leis">poder regulamentar</abbr> ou dos limites da <abbr title="Autorização constitucional para legislar nos limites fixados pelo Congresso">delegação legislativa</abbr>.
 
-### 6.1. Controle parlamentar direto
+**Sustar** esse ato normativo não é o mesmo que possuir poder geral para anulá-lo por ilegalidade ou revogá-lo por conveniência.
 
-A Constituição atribui instrumentos específicos ao Congresso Nacional, às Casas legislativas e às comissões.
+O inciso X do mesmo artigo atribui ao Congresso competência para fiscalizar e controlar, diretamente ou por qualquer de suas Casas, os atos do Poder Executivo, incluídos os da Administração indireta.
 
-Entre os exemplos relevantes:
+### 5.2 Convocação e pedidos escritos de informação
 
-- sustação de atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites da delegação legislativa;
-- fiscalização e controle dos atos do Poder Executivo, incluídos os da administração indireta;
-- convocação de autoridades nas hipóteses constitucionais;
-- pedidos escritos de informação;
-- atuação das comissões parlamentares;
-- comissões parlamentares de inquérito.
+O artigo 50 prevê instrumentos diferentes.
 
-> **Pegadinha:** fiscalização parlamentar não equivale a poder geral de anular ou revogar qualquer ato administrativo.
+A Câmara dos Deputados, o Senado Federal ou qualquer de suas comissões podem, nas hipóteses constitucionais, **convocar as autoridades abrangidas pelo dispositivo** para prestar pessoalmente informações sobre assunto previamente determinado.
 
-### 6.2. Sustação de atos normativos exorbitantes
+Os **pedidos escritos de informação** do parágrafo 2º, por sua vez, são encaminhados pelas **Mesas da Câmara dos Deputados e do Senado Federal**, que são os órgãos diretivos das Casas.
 
-O art. 49, V, da Constituição atribui ao Congresso Nacional competência para **sustar atos normativos do Poder Executivo** que exorbitem:
+A diferença cobrada em prova é institucional: quem pode convocar pessoalmente não coincide exatamente com quem encaminha o pedido escrito.
 
-- do poder regulamentar; ou
-- dos limites de delegação legislativa.
+### 5.3 <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr>: investigar não é julgar
 
-A medida é específica. Não representa competência genérica para o Parlamento substituir toda atividade administrativa.
+Uma <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr> é instrumento de investigação parlamentar. A Constituição exige, cumulativamente:
 
-### 6.3. Convocação e pedidos de informação
+1. requerimento de **um terço** dos membros da Câmara dos Deputados ou do Senado Federal, em conjunto ou separadamente;
+2. apuração de **fato determinado**;
+3. **prazo certo**.
 
-Nos termos do art. 50 da Constituição:
+A <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr> possui poderes de investigação próprios das autoridades judiciais e outros previstos nos regimentos das Casas, mas **não exerce jurisdição**. Ela investiga e pode encaminhar conclusões às autoridades competentes; seu relatório não é sentença nem condenação judicial.
 
-- Câmara dos Deputados;
-- Senado Federal;
-- e suas comissões
+### 5.4 Controle externo financeiro: o que se fiscaliza
 
-podem convocar, nas hipóteses constitucionais, autoridades para prestar informações pessoalmente sobre assunto previamente determinado.
+Os artigos 70 e 71 organizam o controle externo financeiro no modelo federal.
 
-Já os **pedidos escritos de informação** previstos no § 2º são encaminhados pelas **Mesas** da Câmara e do Senado.
+A fiscalização alcança dimensões **contábil, financeira, orçamentária, operacional e patrimonial**. Esses nomes não são cinco órgãos: são cinco ângulos para examinar a gestão de recursos e patrimônio públicos.
 
-A prova costuma trocar os órgãos competentes entre si.
-
-### 6.4. Comissões parlamentares de inquérito
-
-As CPIs são instrumentos de investigação parlamentar.
-
-Requisitos constitucionais básicos:
-
-- requerimento de **um terço** dos membros da Casa;
-- **fato determinado**;
-- **prazo certo**.
-
-A CPI possui poderes de investigação próprios das autoridades judiciais, mas **não exerce jurisdição** e não possui todos os poderes reservados a juiz.
-
-Para este assunto, basta reter:
-
-- CPI investiga;
-- deve respeitar direitos fundamentais;
-- suas conclusões podem ser encaminhadas às autoridades competentes;
-- relatório de CPI não equivale a condenação judicial.
-
-### 6.5. Controle externo financeiro — arts. 70 e 71
-
-A fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União e das entidades da administração direta e indireta considera, entre outros parâmetros:
+A Constituição também explicita parâmetros como:
 
 - legalidade;
-- legitimidade;
+- <abbr title="Compatibilidade da gestão com fins e valores públicos">legitimidade</abbr>;
 - economicidade;
-- aplicação de subvenções;
-- renúncia de receitas.
+- aplicação de <abbr title="Transferências públicas de apoio a atividades previstas em lei">subvenções</abbr>;
+- <abbr title="Situações em que o poder público abre mão de arrecadação">renúncia de receitas</abbr>.
 
-O **controle externo** é exercido pelo Congresso Nacional **com auxílio do Tribunal de Contas da União**.
+O dever de prestar contas é amplo. O parágrafo único do artigo 70 alcança pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos nas hipóteses constitucionais. O foco está na gestão de recursos públicos, não apenas na existência de vínculo formal de servidor.
 
-Auxílio não significa subordinação hierárquica do tribunal de contas ao Parlamento.
+### 5.5 Congresso e <abbr title="Tribunal de Contas da União">TCU</abbr>: auxílio não é subordinação
 
-### 6.6. Prestação de contas
+No plano federal, o artigo 71 determina que o controle externo, a cargo do Congresso Nacional, seja exercido com auxílio do <abbr title="Tribunal de Contas da União">TCU</abbr>.
 
-O parágrafo único do art. 70 estabelece dever de prestar contas para quem utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos, ou pelos quais a União responda, bem como para quem assuma obrigações pecuniárias em nome dela.
+“Auxílio” não significa hierarquia. O <abbr title="Tribunal de Contas da União">TCU</abbr> possui competências constitucionais próprias e **não integra o Poder Judiciário**.
 
-A ideia de prova é ampla: o dever de prestar contas se conecta à gestão de recursos públicos, não apenas ao vínculo formal de servidor.
+Duas competências mostram isso com clareza:
 
-### 6.7. TCU: distinções essenciais
+- nas contas anuais do Presidente da República, o <abbr title="Tribunal de Contas da União">TCU</abbr> aprecia as contas e emite **parecer prévio**; o Congresso Nacional realiza o julgamento;
+- nas contas dos demais administradores e responsáveis abrangidos pelo artigo 71, inciso II, o <abbr title="Tribunal de Contas da União">TCU</abbr> realiza o julgamento previsto pela Constituição.
 
-Sem aprofundar o assunto específico de tribunais de contas, retenha:
+### 5.6 Tribunais de contas no corte de 2026
 
-- o TCU **não integra o Poder Judiciário**;
-- exerce competências constitucionais próprias de controle externo;
-- em relação às contas do Presidente da República, o TCU **aprecia e emite parecer prévio**, enquanto o Congresso as julga;
-- o TCU julga as contas dos demais responsáveis sujeitos ao regime do art. 71, II;
-- pode realizar auditorias e inspeções nas hipóteses constitucionais.
+A Emenda Constitucional nº 139, promulgada em maio de 2026 e já vigente no corte do edital, alterou o artigo 75. O texto passou a qualificar os **tribunais de contas como instituições permanentes e essenciais ao exercício do controle externo**.
 
-> **Pegadinha:** “auxiliar o Congresso” não transforma o TCU em órgão hierarquicamente subordinado ao Congresso.
+O artigo 75 também determina que as normas da seção constitucional se apliquem, no que couber, à organização, composição e fiscalização dos tribunais de contas dos Estados e do Distrito Federal, além de prever a disciplina constitucional relativa aos tribunais e conselhos de contas dos Municípios e vedar sua extinção, criação ou instalação.
 
-## 7. Comparação integrada
+Essa regra fornece a ponte constitucional para um tribunal estadual como o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Ela não transforma toda regra infraconstitucional federal em norma automaticamente aplicável ao Estado do Maranhão.
 
-| Pergunta | Administrativo | Judicial | Legislativo |
-|---|---|---|---|
-| Quem exerce? | própria Administração | Judiciário | Legislativo; no controle externo financeiro, com auxílio dos tribunais de contas |
-| Iniciativa | de ofício ou provocada | provocada | conforme competência constitucional |
-| Legalidade/juridicidade | sim | sim | sim, nos limites constitucionais |
-| Mérito | pode alcançar conveniência/oportunidade | não substitui mérito válido | não há poder geral para substituir mérito administrativo |
-| Pode anular ato ilegal? | sim, nos limites jurídicos | sim, no caso submetido | não há poder geral de anulação; existem instrumentos constitucionais específicos |
-| Pode revogar ato válido por conveniência? | Administração competente | não | não como poder geral |
-| Base-chave | autotutela, hierarquia, supervisão | art. 5º, XXXV | arts. 49, 50, 58, 70 e 71 |
+## 6. Classificações que ficam mais fáceis depois dos mecanismos
 
-## 8. Fluxos para resolver questões
+Depois de entender **quem controla e com qual poder**, as demais classificações deixam de ser uma lista abstrata.
 
-### 8.1. Identifique o controlador
+### 6.1 Controle interno e externo
 
-1. própria Administração → controle **administrativo**;
-2. juiz ou tribunal judicial → controle **judicial**;
-3. Congresso, Casa legislativa, comissão ou tribunal de contas no sistema externo → controle **legislativo/externo**, conforme a competência.
+**Controle interno** é exercido dentro da estrutura estatal responsável pela atividade controlada. **Controle externo** envolve estrutura controladora distinta daquela que pratica a atividade fiscalizada.
 
-### 8.2. Identifique o parâmetro
+Esses termos não são sinônimos de controle administrativo e legislativo. Os critérios de classificação são diferentes. A própria Constituição combina sistemas de controle interno dos Poderes com controle externo.
 
-- ilegalidade → anulação ou correção jurídica;
-- conveniência/oportunidade de ato válido → mérito administrativo;
-- fiscalização político-constitucional → competência legislativa específica;
-- contas e recursos públicos → controle externo financeiro.
+### 6.2 Quanto ao momento
 
-### 8.3. Identifique o limite
+- **prévio ou preventivo**: antes da produção final do ato ou da despesa;
+- **concomitante**: durante a prática ou execução;
+- **posterior ou subsequente**: depois de realizado o ato, contrato ou despesa.
 
-Pergunte sempre:
+O mesmo sistema pode atuar em mais de um desses momentos.
 
-- há competência?
-- há motivação?
-- existe contraditório ou defesa exigível?
-- trata-se de juridicidade ou mera preferência?
-- há reserva de jurisdição?
-- o órgão fiscalizador está tentando assumir competência do gestor?
+### 6.3 Quanto à iniciativa
 
-## 9. Situações práticas
+O controle administrativo pode ocorrer **de ofício** ou por provocação, conforme a competência.
 
-### Situação 1 — ato ilegal da própria Administração
+O controle judicial depende de provocação por via processual adequada.
 
-Uma autoridade identifica ilegalidade em ato de sua própria estrutura.
+No controle legislativo, a iniciativa e os requisitos variam conforme o instrumento constitucional.
 
-**Caminho:** autotutela → verificar anulação/convalidação, processo, decadência e segurança jurídica.
+### 6.4 Quanto ao parâmetro
 
-### Situação 2 — ato válido, mas inconveniente
+A **juridicidade** pergunta se a atuação permanece dentro do Direito. O **mérito administrativo** examina conveniência e oportunidade dentro da margem de escolha legítima deixada ao gestor.
 
-A Administração entende que ato discricionário válido não atende mais ao interesse público.
+A Administração competente pode, quando juridicamente cabível, reexaminar seu mérito. O Judiciário não possui poder geral de substituir mérito válido. O Legislativo e os tribunais de contas exercem os parâmetros que a Constituição lhes atribui — inclusive legitimidade e economicidade no controle financeiro — sem adquirir por isso um poder geral de administrar.
 
-**Caminho:** possível revogação pela autoridade competente, observados os limites jurídicos.
+## 7. Como desmontar uma questão de controle
 
-O Judiciário não revoga o ato por mera preferência.
+Quando a questão misturar institutos, não comece decorando o nome do órgão. Percorra o mecanismo:
 
-### Situação 3 — motivo falso
+1. **Quem controla?** A própria Administração, o Judiciário, o Legislativo ou um tribunal de contas?
+2. **Qual é o problema?** Ilegalidade, escolha de mérito, falha de política pública, fiscalização parlamentar ou gestão de recursos?
+3. **Qual instrumento aparece?** Autotutela, recurso administrativo, ação judicial, sustação, convocação, <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr> ou controle externo?
+4. **Qual efeito é juridicamente possível?** Anular, revogar, convalidar, julgar uma pretensão, sustar um ato normativo, investigar ou julgar contas?
 
-A Administração nega direito com fundamento em fato que não ocorreu.
+Três contrastes resolvem grande parte dos erros:
 
-**Caminho:** controle judicial de juridicidade pode examinar a existência e veracidade do motivo.
+```text
+ato ilegal → anulação
+ato válido + conveniência/oportunidade → possível revogação administrativa
 
-### Situação 4 — Congresso discorda de regulamento exorbitante
+vinculação entre pessoas jurídicas → não cria hierarquia geral
 
-Ato normativo do Executivo ultrapassa o poder regulamentar.
+controle judicial ou legislativo → não cria poder geral de administrar
+```
 
-**Caminho:** art. 49, V → competência constitucional de sustação pelo Congresso.
-
-### Situação 5 — fiscalização de recursos públicos
-
-A questão envolve legalidade, legitimidade, economicidade e aplicação de recursos públicos.
-
-**Caminho:** arts. 70 e 71 → controle externo pelo Congresso com auxílio do TCU.
-
-## 10. Pegadinhas essenciais
-
-1. **Vinculação não é hierarquia.**
-2. Autotutela não depende de autorização judicial prévia.
-3. Autotutela não elimina devido processo, decadência ou segurança jurídica.
-4. Ilegalidade → **anulação**; mérito de ato válido → **revogação**.
-5. Convalidação pressupõe vício sanável.
-6. Lei nº 9.784/1999 tem aplicação direta no âmbito federal; não é lei nacional automática para todos os entes.
-7. Jurisdição una não impede processos administrativos.
-8. Decisão administrativa definitiva não equivale a coisa julgada judicial material.
-9. Não existe regra geral de exaurimento de todos os recursos administrativos antes da ação judicial.
-10. Judiciário controla juridicidade, mas não possui poder geral de revogar ato válido por conveniência.
-11. Discricionariedade não é arbitrariedade.
-12. Controle parlamentar não cria hierarquia geral sobre o Executivo.
-13. Sustação do art. 49, V, não é poder geral de anulação.
-14. CPI investiga; não exerce jurisdição.
-15. Tribunal de contas não integra o Poder Judiciário.
-16. TCU auxilia o Congresso no controle externo, mas não é subordinado hierarquicamente a ele.
-17. TCU emite parecer prévio sobre contas presidenciais; Congresso julga essas contas.
-18. Controle legislativo e controle judicial possuem competências delimitadas; nenhum deles administra livremente no lugar do gestor.
+A técnica é localizar a frase no **controlador certo, com o parâmetro certo e o efeito certo**. Uma afirmação pode descrever um poder verdadeiro e ainda estar errada porque o atribuiu ao órgão inadequado.
