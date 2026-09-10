@@ -6,108 +6,53 @@ order: 153
 storageId: tec-lrf-153
 ---
 
-# Lei de Responsabilidade Fiscal — LC nº 101/2000 e alterações
+# Lei de Responsabilidade Fiscal — <abbr title="Lei Complementar">LC</abbr> nº 101/2000 e alterações
 
-## 1. Recorte do edital e corte temporal
+## 1. Como a lei reage ao risco de desequilíbrio?
 
-Este assunto cobre integralmente o item **5 — Lei de Responsabilidade Fiscal — Lei Complementar nº 101/2000 e alterações**, em **Conhecimentos específicos — Execução Orçamentária e Financeira** do Cargo 16.
+Considere uma situação **hipotética**. Um Estado prevê suas receitas e despesas, cria um benefício tributário, amplia um serviço público e contrata operações de crédito. Meses depois, a arrecadação fica abaixo do esperado e a despesa com pessoal se aproxima do limite legal.
 
-Como o edital indica a **lei inteira**, o estudo deve dominar sua arquitetura, conceitos, limites, condições, vedações, relatórios, prazos e mecanismos de correção, sem transformar o material em tratado de Direito Financeiro.
+A Lei de Responsabilidade Fiscal — <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> — não espera o encerramento do exercício para perguntar se “sobrou dinheiro”. Ela cria um ciclo de controle:
 
-O corte normativo é **6 de julho de 2026**. Para esse corte:
+1. **planejar:** estabelecer metas, estimar riscos e compatibilizar orçamento e política fiscal;
+2. **condicionar decisões:** exigir estimativas, fontes de custeio, limites e autorizações antes de certas medidas;
+3. **acompanhar:** medir receita, pessoal, dívida, crédito e disponibilidade de caixa em períodos definidos;
+4. **corrigir:** limitar a execução, impedir novos aumentos ou reconduzir indicadores quando os gatilhos legais forem alcançados;
+5. **dar transparência:** publicar relatórios e permitir fiscalização e controle social.
 
-- a **LC nº 224/2025** já produz efeitos, em regra, desde **1º de janeiro de 2026**, inclusive nas alterações da LOA e nos arts. 14 e 14-A;
-- a **LC nº 212/2025** já alterou dispositivos da LRF, mas o **art. 41-A** contém regra temporal própria: sua aplicação começa **em 1º de janeiro de 2027**;
-- a jurisprudência do <abbr title="Supremo Tribunal Federal">STF</abbr> formada antes do corte deve ser considerada quando altera a leitura literal de dispositivos, especialmente a **<abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2238**, a **ADI 2324** e, com alcance contextual, a **ADI 6533**.
+Essa lógica explica o art. 1º: responsabilidade na gestão fiscal pressupõe ação **planejada e transparente**, prevenção de riscos, correção de desvios, cumprimento de metas e respeito a limites e condições.
 
-Os assuntos vizinhos continuam separados:
+> **Ideia central:** a <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> transforma equilíbrio fiscal em um processo contínuo de **prevenção → monitoramento → correção → transparência**.
 
-- o assunto **149** aprofunda execução orçamentária e financeira, restos a pagar e outros procedimentos;
-- o assunto **150** aprofunda retenções e recolhimentos tributários;
-- o assunto **151** aprofunda <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> e <abbr title="Contas a Pagar e a Receber">CPR</abbr>;
-- o assunto **152** aprofunda <abbr title="Manual de Contabilidade Aplicada ao Setor Público">MCASP</abbr>, <abbr title="Plano de Contas Aplicado ao Setor Público">PCASP</abbr> e <abbr title="Demonstrações Contábeis Aplicadas ao Setor Público">DCASP</abbr>.
+O corte normativo deste capítulo é **6 de julho de 2026**, data do edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Nesse corte, as alterações relevantes da <abbr title="Lei Complementar">LC</abbr> nº 224/2025 já produziam efeitos desde 1º de janeiro de 2026. A <abbr title="Lei Complementar">LC</abbr> nº 212/2025 já havia alterado a <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>, mas o art. 41-A contém comando temporal próprio e só se aplica **a partir de 1º de janeiro de 2027**. Alterações posteriores ao edital não são projetadas retroativamente sobre a prova.
 
-Aqui o foco é a **disciplina fiscal da LC nº 101/2000**.
+## 2. Quem está dentro da disciplina fiscal e qual é a base dos limites?
 
-> **Mapa-mãe:** responsabilidade fiscal = **planejamento + transparência + metas + limites + prevenção de riscos + correção de desvios**.
+A <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> obriga União, Estados, Distrito Federal e Municípios. Nas referências da lei, também estão compreendidos os Poderes Executivo, Legislativo e Judiciário, os Tribunais de Contas, o Ministério Público e, conforme o caso, administrações diretas, fundos, autarquias, fundações e empresas estatais dependentes.
 
-## 2. Fundamento, abrangência e conceitos básicos
+Uma **empresa estatal dependente** é empresa controlada que recebe do ente controlador recursos financeiros para pagar pessoal ou custeio em geral ou, no caso de capital, recursos que não decorram de aumento de participação acionária. A distinção importa porque a dependência aproxima a empresa do perímetro fiscal do ente.
 
-O art. 1º da LRF estabelece normas de finanças públicas voltadas para a **responsabilidade na gestão fiscal**.
+### 2.1 <abbr title="Receita Corrente Líquida">RCL</abbr>: a régua comum
 
-A responsabilidade fiscal pressupõe:
+Muitos limites da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> são expressos como percentual da <abbr title="Receita Corrente Líquida">RCL</abbr>. A lógica do cálculo é partir das receitas correntes arrecadadas e aplicar as deduções que a própria lei determina para cada ente. A apuração considera o mês de referência e os **onze anteriores**, excluídas duplicidades.
 
-- ação **planejada**;
-- ação **transparente**;
-- prevenção de riscos;
-- correção de desvios capazes de afetar o equilíbrio das contas públicas;
-- cumprimento de metas entre receitas e despesas;
-- observância de limites e condições relativos a temas como:
-  - renúncia de receita;
-  - geração de despesas;
-  - despesa com pessoal;
-  - dívida;
-  - operações de crédito;
-  - garantias;
-  - restos a pagar.
+A <abbr title="Receita Corrente Líquida">RCL</abbr> funciona como denominador de limites importantes, especialmente os ligados a despesa com pessoal. Também serve de referência para outros mecanismos fiscais previstos na lei.
 
-A LRF alcança **União, Estados, Distrito Federal e Municípios**, bem como os Poderes e órgãos expressamente incluídos em seus conceitos.
+Não a confunda com:
 
-### 2.1. Empresa estatal dependente
+- **receita tributária:** é apenas uma parcela das receitas correntes;
+- **receita corrente bruta:** a <abbr title="Receita Corrente Líquida">RCL</abbr> incorpora deduções legais;
+- **saldo de caixa:** receita acumulada e disponibilidade financeira respondem a perguntas diferentes.
 
-A LRF trabalha com a noção de **empresa estatal dependente**: empresa controlada que recebe do ente controlador recursos financeiros para pagamento de despesas com pessoal, custeio em geral ou capital, excluídos, neste último caso, os provenientes de aumento de participação acionária.
+## 3. Planejamento: metas e riscos vêm antes da execução
 
-A inclusão das estatais dependentes é importante porque seus dados integram diversos cálculos e consolidações fiscais.
+O planejamento fiscal conecta <abbr title="Plano Plurianual">PPA</abbr>, <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> e <abbr title="Lei Orçamentária Anual">LOA</abbr>, mas cada instrumento cumpre função própria.
 
-### 2.2. Receita Corrente Líquida — RCL
+A <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> recebe a maior parte da arquitetura fiscal: trata, entre outros pontos, de equilíbrio entre receitas e despesas, critérios para limitação de empenho, controle de custos, avaliação de resultados de programas e condições para transferências de recursos.
 
-A **Receita Corrente Líquida (RCL)** é uma base central dos limites da LRF.
+### 3.1 <abbr title="Anexo de Metas Fiscais">AMF</abbr>: o desempenho que se pretende alcançar
 
-Em linhas gerais, parte-se das receitas correntes arrecadadas no período definido em lei, com as deduções específicas previstas para cada ente e situação.
-
-Para prova, o essencial é reconhecer que a RCL serve como denominador para vários limites, especialmente:
-
-- despesa total com pessoal;
-- dívida consolidada;
-- operações de crédito;
-- garantias;
-- reserva de contingência, conforme disciplina da <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>.
-
-> **Pegadinha:** RCL não é sinônimo de receita tributária, nem de receita corrente bruta.
-
-## 3. Planejamento fiscal: <abbr title="Plano Plurianual">PPA</abbr>, LDO e <abbr title="Lei Orçamentária Anual">LOA</abbr>
-
-A LRF reforça a integração entre planejamento, orçamento e metas fiscais.
-
-```text
-PPA
- ↓
-LDO + AMF + ARF
- ↓
-LOA compatível
- ↓
-programação financeira
- ↓
-execução + avaliação de metas
-```
-
-## 4. LDO: conteúdo fiscal
-
-O art. 4º atribui à LDO funções fiscais relevantes.
-
-Entre elas:
-
-- equilíbrio entre receitas e despesas;
-- critérios e forma de limitação de empenho;
-- normas relativas ao controle de custos;
-- avaliação dos resultados de programas financiados com recursos orçamentários;
-- condições e exigências para transferências de recursos a entidades públicas e privadas.
-
-### 4.1. Anexo de Metas Fiscais — AMF
-
-O **AMF** integra o projeto de LDO.
-
-Ele estabelece metas anuais, em valores correntes e constantes, relativas a:
+O projeto de <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> contém o <abbr title="Anexo de Metas Fiscais">AMF</abbr>. Ele estabelece metas anuais, em valores correntes e constantes, para:
 
 - receitas;
 - despesas;
@@ -115,844 +60,378 @@ Ele estabelece metas anuais, em valores correntes e constantes, relativas a:
 - resultado primário;
 - montante da dívida pública;
 
-para:
+referentes ao exercício da <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> e aos **dois exercícios seguintes**.
 
-1. o exercício a que a LDO se refere;
-2. os dois exercícios seguintes.
+O <abbr title="Anexo de Metas Fiscais">AMF</abbr> também permite comparar intenção e trajetória: inclui avaliação das metas do exercício anterior, memória e metodologia de cálculo, evolução patrimonial, avaliações financeiras e atuariais e demonstrativos ligados a renúncias de receita e à expansão de despesas obrigatórias.
 
-O AMF também contém, entre outros elementos:
+Para a União, alterações anteriores ao corte acrescentaram conteúdo fiscal de médio prazo ao <abbr title="Anexo de Metas Fiscais">AMF</abbr>; Estados, Distrito Federal e Municípios podem adotar, no que couber, essas regras específicas. Para esta prova estadual, o núcleo é compreender a função do anexo antes de decorar particularidades federais.
 
-- avaliação do cumprimento das metas do exercício anterior;
-- comparação das metas com exercícios anteriores;
-- evolução do patrimônio líquido;
-- avaliação financeira e atuarial de regimes e fundos;
-- estimativa e compensação da renúncia de receita;
-- margem de expansão das despesas obrigatórias de caráter continuado.
+### 3.2 <abbr title="Anexo de Riscos Fiscais">ARF</abbr>: o que pode desviar o plano
 
-### 4.2. Anexo de Riscos Fiscais — ARF
+O <abbr title="Anexo de Riscos Fiscais">ARF</abbr> também integra a <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>, mas responde a outra pergunta: **o que pode acontecer e comprometer as contas?**
 
-A LDO também contém o **Anexo de Riscos Fiscais**.
+Ele avalia **passivos contingentes** — obrigações possíveis cuja materialização depende de eventos incertos — e outros riscos capazes de afetar as contas públicas, indicando providências caso se concretizem.
 
-Sua lógica é:
+A distinção é funcional:
 
-```text
-RISCO FISCAL
-    ↓
-estimativa do possível impacto
-    ↓
-providência prevista
-```
-
-O ARF trata de:
-
-- passivos contingentes;
-- outros riscos capazes de afetar as contas públicas;
-- providências a serem adotadas caso se concretizem.
-
-**AMF ≠ ARF**:
-
-| AMF | ARF |
+| Instrumento | Pergunta central |
 |---|---|
-| metas fiscais | riscos fiscais |
-| resultados e dívida | contingências e eventos incertos |
-| planejamento do desempenho | preparação para desvios/riscos |
+| <abbr title="Anexo de Metas Fiscais">AMF</abbr> | quais resultados fiscais se pretende alcançar? |
+| <abbr title="Anexo de Riscos Fiscais">ARF</abbr> | quais eventos podem afastar o ente desses resultados e como reagir? |
 
-## 5. LOA na LRF
+### 3.3 <abbr title="Lei Orçamentária Anual">LOA</abbr>: transformar o plano em autorização compatível
 
-O projeto de LOA deve ser compatível com:
+O projeto de <abbr title="Lei Orçamentária Anual">LOA</abbr> deve ser compatível com o <abbr title="Plano Plurianual">PPA</abbr>, a <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> e a própria <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>. Entre os mecanismos de prudência fiscal estão:
 
-- PPA;
-- LDO;
-- normas da LRF.
+- demonstrativo de compatibilidade da programação com as metas;
+- medidas de compensação a renúncias de receita e ao aumento de despesas obrigatórias de caráter continuado;
+- **reserva de contingência**, destinada ao atendimento de passivos contingentes e outros riscos e eventos fiscais imprevistos;
+- apresentação destacada do refinanciamento da dívida;
+- vedação de crédito com finalidade imprecisa;
+- vedação de dotação ilimitada.
 
-A LOA deve conter ou ser acompanhada pelos elementos exigidos no art. 5º.
+No corte de 2026, a <abbr title="Lei Complementar">LC</abbr> nº 224/2025 já acrescentava ao art. 5º, entre outros pontos, a **estimativa global dos incentivos e benefícios tributários, financeiros e creditícios** e anexo com estimativas de despesas financeiras, primárias obrigatórias e primárias discricionárias para o exercício de elaboração e os dois subsequentes.
 
-Entre os pontos de maior cobrança:
+## 4. Execução: o plano precisa reagir ao que realmente acontece
 
-- demonstrativo de compatibilidade com as metas fiscais;
-- medidas de compensação a renúncias de receita e aumento de despesas obrigatórias continuadas;
-- **reserva de contingência**;
-- separação do refinanciamento da dívida;
-- vedação a crédito com finalidade imprecisa;
-- vedação a dotação ilimitada.
+Depois da publicação dos orçamentos, o Poder Executivo tem até **30 dias** para estabelecer a programação financeira e o cronograma de execução mensal de desembolso. Isso organiza o ritmo financeiro da execução; não substitui a autorização orçamentária.
 
-### 5.1. Alterações da LC nº 224/2025 eficazes em 2026
+Ao final de cada **bimestre**, surge um teste decisivo: a realização da receita poderá não comportar o cumprimento das metas de resultado? Se a resposta for positiva, os Poderes e o Ministério Público devem promover, nos montantes necessários e segundo os critérios fixados pela <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>, **limitação de empenho e movimentação financeira**.
 
-No corte do edital, já devem ser consideradas as inclusões no art. 5º:
+Quando a receita se restabelece, a recomposição das dotações limitadas ocorre de forma proporcional às reduções realizadas. A lei também protege determinadas despesas da limitação.
 
-- **estimativa global de incentivos e benefícios** de natureza tributária, financeira e creditícia, para pessoas físicas e jurídicas;
-- anexo com estimativa das **despesas financeiras**, **despesas primárias obrigatórias** e **despesas primárias discricionárias**, no exercício de elaboração e nos dois subsequentes.
+### 4.1 Autonomia dos Poderes na <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2238
 
-> **Corte temporal:** essas alterações, entre os “demais dispositivos” da LC nº 224/2025, produzem efeitos desde **1º/1/2026**.
+A necessidade de ajuste não autoriza o Executivo a comandar unilateralmente os demais Poderes. O <abbr title="Supremo Tribunal Federal">STF</abbr>, na <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2238, afastou o mecanismo que permitia ao Poder Executivo impor a limitação financeira quando outro Poder ou órgão autônomo não a promovesse.
 
-## 6. Execução orçamentária, programação e metas
+A relação correta é:
 
-### 6.1. Programação financeira
+**há dever fiscal de reação**, mas **não há hierarquia financeira do Executivo sobre Poderes e órgãos autônomos**.
 
-Até **30 dias após a publicação dos orçamentos**, o Poder Executivo estabelece:
+### 4.2 Receita: previsão responsável também é controle
 
-- programação financeira;
-- cronograma de execução mensal de desembolso.
+A <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> considera requisitos essenciais da responsabilidade fiscal a **instituição, previsão e efetiva arrecadação** de todos os tributos da competência constitucional do ente. A consequência legal relevante para o descumprimento é a vedação de transferências voluntárias, nos termos da própria lei.
 
-A finalidade é compatibilizar o ritmo de execução com:
+A previsão deve observar normas técnicas e legais e considerar alterações legislativas, variação de preços, crescimento econômico e outros fatores relevantes. Logo, inflar a receita apenas para fazer as despesas “caberem” formalmente no orçamento contraria o mecanismo da lei.
 
-- metas fiscais;
-- fluxo de receitas;
-- disponibilidade financeira.
+## 5. Antes de abrir mão de receita ou criar despesa, passe pelos filtros legais
 
-### 6.2. Limitação de empenho
+A <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> trata renúncia de receita e geração de despesa como decisões que precisam mostrar seus efeitos **antes** de produzirem desequilíbrio.
 
-Ao final de cada **bimestre**, se a realização da receita puder não comportar o cumprimento das metas de resultado, devem ser adotadas medidas de **limitação de empenho e movimentação financeira**, segundo os critérios da LDO.
+### 5.1 Renúncia de receita: art. 14
 
-Fluxo:
+A concessão, ampliação ou **prorrogação** de incentivo ou benefício de natureza tributária da qual decorra renúncia de receita exige:
 
-```text
-fim do bimestre
-      ↓
-receita projetada insuficiente para as metas?
-      ↓
-SIM → limitação de empenho/movimentação
-      ↓
-receita se recompõe?
-      ↓
-recomposição proporcional das dotações
-```
+1. estimativa do impacto orçamentário-financeiro no exercício em que começar a vigorar e nos **dois seguintes**;
+2. atendimento ao disposto na <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>;
+3. cumprimento de **uma** das duas rotas legais:
+   - demonstrar que a renúncia foi considerada na estimativa de receita da <abbr title="Lei Orçamentária Anual">LOA</abbr> e não afetará as metas fiscais; ou
+   - adotar medidas de compensação por aumento de receita, nas formas admitidas pela lei.
 
-Há despesas protegidas da limitação nos termos legais.
+Quando a segunda rota é usada, o benefício só entra em vigor depois de implementadas as medidas compensatórias.
 
-### 6.3. ADI 2238 e separação de Poderes
+A renúncia pode decorrer, por exemplo, de anistia, remissão, subsídio, crédito presumido, isenção em caráter não geral e outras formas de tratamento tributário diferenciado previstas no art. 14.
 
-O STF declarou inconstitucional o mecanismo que permitia ao **Executivo impor unilateralmente** limitação financeira aos demais Poderes e órgãos autônomos.
+### 5.2 Benefício tributário para pessoa jurídica: art. 14-A
 
-Logo:
+A <abbr title="Lei Complementar">LC</abbr> nº 224/2025 acrescentou governança específica para proposição legislativa que conceda, amplie ou prorrogue benefício tributário com renúncia de receita e beneficiário **pessoa jurídica**.
 
-- a LRF exige reação fiscal;
-- isso não autoriza subordinação financeira unilateral dos outros Poderes ao Executivo.
+Devem acompanhar a proposição, entre outros elementos:
 
-## 7. Receita pública e previsão
-
-A LRF exige responsabilidade também na arrecadação.
-
-Constituem requisitos essenciais da gestão fiscal:
-
-- instituição;
-- previsão;
-- efetiva arrecadação dos tributos da competência constitucional do ente.
-
-A previsão de receitas deve observar normas técnicas e legais e refletir:
-
-- alterações legislativas;
-- variação de índices de preços;
-- crescimento econômico;
-- outros fatores relevantes.
-
-> **Pegadinha:** superestimar receita para “fechar” formalmente o orçamento viola a lógica de planejamento responsável.
-
-## 8. Renúncia de receita — art. 14
-
-A concessão, ampliação ou prorrogação de incentivo ou benefício tributário que implique **renúncia de receita** deve:
-
-1. vir acompanhada de estimativa do impacto orçamentário-financeiro:
-   - no exercício de início da vigência;
-   - nos dois exercícios subsequentes;
-2. atender à LDO;
-3. cumprir **pelo menos uma** das condições legais.
-
-### 8.1. Condição 1: absorção pela estimativa
-
-Demonstrar que:
-
-- a renúncia foi considerada na estimativa de receita da LOA; e
-- não afetará as metas fiscais previstas na LDO.
-
-### 8.2. Condição 2: compensação
-
-Adotar medidas de aumento de receita, como:
-
-- elevação de alíquota;
-- ampliação de base de cálculo;
-- majoração de tributo ou contribuição;
-- criação de tributo ou contribuição.
-
-Se a renúncia depender dessa compensação, o benefício só entra em vigor quando as medidas forem implementadas.
-
-### 8.3. O que pode ser renúncia
-
-A lei inclui, entre outros:
-
-- anistia;
-- remissão;
-- subsídio;
-- crédito presumido;
-- isenção em caráter não geral;
-- alteração de alíquota ou base que produza redução discriminada;
-- outros benefícios que correspondam a tratamento diferenciado.
-
-## 9. Art. 14-A — governança de benefícios tributários
-
-A **LC nº 224/2025** incluiu o art. 14-A, já eficaz no corte de 2026.
-
-Quando proposição legislativa tratar de concessão, ampliação ou prorrogação de benefício tributário com renúncia e beneficiário pessoa jurídica, devem acompanhar a proposição:
-
-- estimativa do quantitativo de beneficiários;
+- estimativa do número de beneficiários;
 - prazo de vigência;
-- metas de desempenho objetivas e quantificáveis;
+- metas de desempenho objetivas e quantificáveis nas dimensões econômica, social e ambiental;
 - impacto na redução das desigualdades regionais, quando cabível;
 - mecanismos de transparência, monitoramento e avaliação.
 
-### 9.1. Prazo
+A regra geral é vigência de até **cinco anos**. Benefícios vinculados a investimentos de longo prazo podem superar esse prazo, observadas as exigências legais. A prorrogação é vedada se as metas de resultado não forem atingidas ou se a avaliação não tiver sido realizada.
 
-Regra geral:
+O artigo também alcança proposições que concedam **diferimento de tributos**, mas traz exceções para certas postergações parceladas de até 60 meses e para diferimentos regionais destinados ao enfrentamento de emergência ou calamidade, além de afastar sua aplicação das alterações de alíquotas federais especificadas no próprio dispositivo.
 
-- vigência de até **5 anos**.
+No corte do edital, o art. 14-A **já era aplicável**.
 
-Exceção:
+### 5.3 Geração de despesa: arts. 15 e 16
 
-- benefícios associados a **investimentos de longo prazo** podem ter prazo superior, na forma regulamentar e com requisitos adicionais.
+A geração de despesa ou assunção de obrigação que não atenda aos arts. 16 e 17 é tratada pela lei como não autorizada, irregular e lesiva ao patrimônio público.
 
-### 9.2. Avaliação e prorrogação
+Quando criação, expansão ou aperfeiçoamento de ação governamental acarreta aumento de despesa, o art. 16 exige:
 
-A lei veda a prorrogação de benefício quando:
+- estimativa do impacto orçamentário-financeiro no exercício de entrada em vigor e nos dois seguintes;
+- declaração do ordenador de despesa de que o aumento tem adequação orçamentária e financeira com a <abbr title="Lei Orçamentária Anual">LOA</abbr> e compatibilidade com o <abbr title="Plano Plurianual">PPA</abbr> e a <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>.
 
-- as metas de resultado não tenham sido atingidas; ou
-- a avaliação de resultados não tenha sido realizada.
+A lógica é mais exigente que “há saldo bancário”: a decisão precisa caber no orçamento **e** no planejamento.
 
-> **Pegadinha temporal:** art. 14-A já integra o direito aplicável ao corte de 6/7/2026.
+### 5.4 <abbr title="Despesa Obrigatória de Caráter Continuado">DOCC</abbr>: art. 17
 
-## 10. Geração de despesa — arts. 15 e 16
+A <abbr title="Despesa Obrigatória de Caráter Continuado">DOCC</abbr> é despesa **corrente** derivada de lei, medida provisória ou ato normativo administrativo que fixe obrigação de execução por período **superior a dois exercícios**.
 
-A LRF considera **não autorizada, irregular e lesiva ao patrimônio público** a geração de despesa ou assunção de obrigação que não atenda aos arts. 16 e 17.
+Sua criação ou aumento exige estimativa, demonstração da origem dos recursos e comprovação de compatibilidade com as metas, com compensação permanente quando a lei a exigir. A prorrogação de despesa criada por prazo determinado também conta como aumento para esse regime.
 
-### 10.1. Art. 16
+O § 6º do art. 17 afasta a exigência do § 1º para despesas destinadas ao serviço da dívida e para o reajustamento constitucional de remuneração de pessoal. A exceção é específica; não transforma qualquer despesa continuada em dispensa geral.
 
-Criação, expansão ou aperfeiçoamento de ação governamental que acarrete aumento de despesa deve ser acompanhado de:
+### 5.5 Seguridade social: art. 24
 
-- estimativa do impacto orçamentário-financeiro:
-  - no exercício de entrada em vigor;
-  - nos dois subsequentes;
-- declaração do ordenador de despesa de que o aumento:
-  - tem adequação orçamentária e financeira com a LOA;
-  - é compatível com PPA e LDO.
+Benefício ou serviço de seguridade social não pode ser criado, majorado ou estendido sem indicação da **fonte de custeio total**, observadas as exigências do art. 17.
 
-Não basta “haver dinheiro em caixa”: a análise envolve adequação e compatibilidade com o planejamento.
+A lei dispensa a compensação do art. 17 em situações como concessão de benefício a quem já satisfaça os requisitos legais, expansão quantitativa do atendimento e reajuste destinado a preservar o valor real do benefício ou serviço.
 
-## 11. Despesa obrigatória de caráter continuado — art. 17
+## 6. Despesa com pessoal: uma escada de prevenção, vedação e correção
 
-A **DOCC** é despesa corrente derivada de:
+A despesa total com pessoal inclui gastos com ativos, inativos e pensionistas, mandatos, cargos, funções, empregos, espécies remuneratórias, encargos sociais e contribuições recolhidas pelo ente. Contratos de terceirização de mão de obra referentes à **substituição de servidores e empregados públicos** são contabilizados como “Outras Despesas de Pessoal”.
 
-- lei;
-- medida provisória;
-- ato normativo administrativo;
+A apuração soma o mês de referência aos **onze anteriores**, pelo regime de competência e independentemente de empenho. Como regra, considera-se a remuneração bruta, sem deduções ou retenções, ressalvada a redução decorrente do teto constitucional.
 
-que fixe obrigação de execução por período **superior a dois exercícios**.
+### 6.1 Limites máximos
 
-A criação ou aumento exige, em síntese:
-
-- estimativa;
-- demonstração da origem dos recursos;
-- comprovação de que não afetará as metas, com as medidas legais de compensação quando exigidas.
-
-> **Pegadinha:** despesa continuada não se define pelo valor, mas pela natureza e permanência da obrigação.
-
-## 12. Seguridade social — art. 24
-
-Nenhum benefício ou serviço de seguridade social pode ser:
-
-- criado;
-- majorado;
-- estendido;
-
-sem indicação da **fonte de custeio total**, observadas também as exigências do art. 17, ressalvadas as hipóteses legais.
-
-A regra alcança saúde, previdência e assistência, inclusive benefícios de servidores e militares nos termos legais.
-
-## 13. Despesa com pessoal: conceito
-
-A despesa total com pessoal compreende ampla gama de despesas com:
-
-- ativos;
-- inativos;
-- pensionistas;
-- mandatos eletivos;
-- cargos;
-- funções;
-- empregos;
-- encargos sociais e contribuições recolhidas pelo ente.
-
-### 13.1. Terceirização substitutiva
-
-Valores de contratos de terceirização de mão de obra referentes à **substituição de servidores e empregados públicos** são contabilizados como:
-
-**Outras Despesas de Pessoal**.
-
-Não se trata de toda terceirização indistintamente.
-
-## 14. Limites globais de despesa com pessoal — art. 19
-
-| Ente | Limite global |
+| Esfera | Limite global sobre a <abbr title="Receita Corrente Líquida">RCL</abbr> |
 |---|---:|
-| **União** | **50% da RCL** |
-| **Estados** | **60% da RCL** |
-| **Municípios** | **60% da RCL** |
+| União | **50%** |
+| Estados | **60%** |
+| Municípios | **60%** |
 
-## 15. Repartição dos limites — art. 20
+No Estado, os 60% se repartem assim:
 
-### 15.1. Estados
-
-| Poder/órgão | Percentual da RCL |
+| Poder/órgão | Percentual da <abbr title="Receita Corrente Líquida">RCL</abbr> |
 |---|---:|
 | Legislativo, incluído o <abbr title="Tribunal de Contas do Estado">TCE</abbr> | **3%** |
 | Judiciário | **6%** |
 | Executivo | **49%** |
 | Ministério Público | **2%** |
-| **Total** | **60%** |
 
-### 15.2. Municípios
+Nos Municípios, a repartição é **6% para o Legislativo** e **54% para o Executivo**. A lei contém ajustes específicos para Estados que possuam Tribunal de Contas dos Municípios; eles não alteram a lógica do limite global.
 
-| Poder | Percentual |
-|---|---:|
-| Legislativo | **6%** |
-| Executivo | **54%** |
-| **Total** | **60%** |
+Na <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 6533, o <abbr title="Supremo Tribunal Federal">STF</abbr> admitiu, **no caso específico de Roraima e sob condições**, redistribuição interna do limite do Legislativo estadual entre Assembleia Legislativa e Tribunal de Contas. O precedente não autoriza remanejamento automático em qualquer Estado.
 
-### 15.3. União
+### 6.2 Atos nulos no fim do mandato: art. 21
 
-O art. 20 também reparte o limite federal entre:
+Antes mesmo de chegar aos percentuais de alerta, a lei impede certas decisões. É nulo de pleno direito, entre outras hipóteses, o ato que:
 
-- Legislativo + <abbr title="Tribunal de Contas da União">TCU</abbr>;
-- Judiciário;
-- Executivo;
-- Ministério Público da União.
+- aumente despesa com pessoal sem atender às exigências legais;
+- produza aumento nos **180 dias anteriores ao final do mandato** do titular de Poder ou órgão alcançado;
+- preveja parcelas de aumento a serem implementadas depois do final do mandato;
+- nas hipóteses descritas no inciso IV do art. 21, resulte em aumento nos 180 dias finais ou em parcelas posteriores ao mandato do Chefe do Executivo.
 
-Para este concurso estadual, os percentuais estaduais merecem atenção especial, sem esquecer que a lei é nacional.
+Essas restrições também se aplicam em período de recondução ou reeleição, nos termos do próprio artigo. A finalidade é impedir que o mandato termine deixando expansão de despesa de pessoal para o sucessor sem a disciplina fiscal correspondente.
 
-### 15.4. ADI 6533
+### 6.3 90%, 95% e 100%: três gatilhos diferentes
 
-O STF admitiu, **no caso específico de Roraima e sob condições**, possibilidade de remanejamento proporcional na distribuição interna do limite do Legislativo estadual entre Assembleia e Tribunal de Contas.
+A banca costuma trocar os efeitos porque os percentuais são próximos.
 
-Isso não transforma o julgamento em autorização geral e automática para qualquer Estado.
+**Acima de 90% do limite:** o Tribunal de Contas emite **alerta**. É sinal preventivo, não é ainda o limite prudencial.
 
-## 16. Três faixas que a banca mistura: 90%, 95% e 100%
+**Acima de 95% do limite:** incidem as vedações do art. 22, com as ressalvas legais, como restrições a vantagem ou aumento remuneratório, criação de cargo, alteração de carreira que aumente despesa, provimento ou contratação de pessoal e contratação de hora extra.
 
-### 16.1. 90% — alerta
+**Acima de 100% do limite máximo:** existe excesso a ser eliminado. A <abbr title="recondução do indicador ao limite legal">recondução</abbr> deve ocorrer nos **dois quadrimestres seguintes**, com eliminação de pelo menos **um terço do excedente no primeiro**.
 
-Quando a despesa com pessoal ultrapassa **90% do limite**, o Tribunal de Contas deve emitir **alerta**.
+Se o excesso não for eliminado no prazo, surgem restrições como impossibilidade de receber transferências voluntárias, obter garantia de outro ente e contratar certas operações de crédito. Se o limite for ultrapassado no primeiro quadrimestre do último ano do mandato, as restrições legais previstas no art. 23 incidem imediatamente.
 
-### 16.2. 95% — limite prudencial
+### 6.4 <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2238: ajuste não autoriza redução remuneratória inconstitucional
 
-Se a despesa exceder **95% do limite máximo**, surgem vedações do art. 22, entre elas, com ressalvas legais:
+O <abbr title="Supremo Tribunal Federal">STF</abbr> declarou inconstitucional interpretação que permita reduzir valores de função ou cargo provido para adequação ao limite e também declarou inconstitucional o art. 23, § 2º, que previa redução temporária da jornada com redução de vencimentos.
 
-- concessão de vantagem, aumento, reajuste ou adequação;
-- criação de cargo, emprego ou função;
-- alteração de carreira com aumento de despesa;
-- provimento/admissão/contratação;
-- contratação de hora extra.
+Portanto, a necessidade de reconduzir despesa com pessoal **não elimina a garantia constitucional de irredutibilidade remuneratória**.
 
-### 16.3. 100% — limite máximo ultrapassado
+## 7. Transferir recursos também exige disciplina
 
-Se o limite máximo for ultrapassado, o excesso deve ser eliminado nos **dois quadrimestres seguintes**, sendo **pelo menos 1/3 no primeiro**.
+### 7.1 Transferências voluntárias
 
-```text
-90% → ALERTA
-95% → PRUDENCIAL + VEDAÇÕES
-100% → EXCESSO + RECONDUÇÃO
-```
+Transferência voluntária é a entrega de recursos correntes ou de capital a outro ente, a título de cooperação, auxílio ou assistência financeira, que **não** decorra de determinação constitucional ou legal e **não** seja destinada ao <abbr title="Sistema Único de Saúde">SUS</abbr>.
 
-## 17. Recondução da despesa com pessoal — art. 23
+Entre as exigências do art. 25 estão dotação específica, observância das condições legais, regularidade do beneficiário, cumprimento de mínimos constitucionais e limites fiscais e previsão orçamentária de contrapartida.
 
-Ultrapassado o limite:
+Os recursos devem ser usados na finalidade pactuada. A regra não permite tratar transferência constitucional como se fosse voluntária apenas para aplicar suas restrições.
 
-1. excesso deve ser eliminado em dois quadrimestres;
-2. pelo menos um terço no primeiro;
-3. se não houver recondução, incidem restrições legais.
+### 7.2 Destinação ao setor privado
 
-Podem ocorrer, entre outras consequências:
+A <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> também condiciona a destinação de recursos públicos para cobrir necessidades de pessoas físicas ou déficits de pessoas jurídicas. Conforme a hipótese, exigem-se autorização legal específica, atendimento às condições da <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> e previsão orçamentária.
 
-- impedimento de receber transferências voluntárias;
-- impedimento de obter garantia de outro ente;
-- restrições a operações de crédito.
+Empréstimos, financiamentos e concessões de crédito pelo poder público recebem disciplina adicional: a existência de interesse público não elimina a necessidade de observar as condições fiscais e legais aplicáveis.
 
-### 17.1. Último ano de mandato
+## 8. Dívida e crédito: distinguir estoque, nova operação e garantia
 
-Se o excesso ocorrer no **primeiro quadrimestre do último ano do mandato**, determinadas restrições são aplicadas imediatamente.
+A **dívida consolidada** representa, em síntese, o montante das obrigações financeiras assumidas pelo ente nas formas abrangidas pelo art. 29 e apuradas sem duplicidade. Ela é um **estoque** de obrigações; uma operação de crédito é uma das formas pelas quais o ente pode assumir novo compromisso financeiro.
 
-### 17.2. ADI 2238: irredutibilidade
+### 8.1 Excesso de dívida: prazo diferente do pessoal
 
-O STF declarou inconstitucional:
+Se a dívida consolidada ultrapassar o limite ao final de um quadrimestre, a recondução deve ocorrer até o fim dos **três quadrimestres seguintes**, com redução de pelo menos **25% do excedente no primeiro**.
 
-- interpretação que permita reduzir vencimentos de cargo ou função providos;
-- a redução temporária de jornada com redução remuneratória prevista no art. 23, § 2º.
+Compare o mecanismo, não apenas os números:
 
-> **Não decore dispositivo isolado sem a jurisprudência.**
+| Indicador acima do limite | Prazo de recondução | Parcela mínima no primeiro período |
+|---|---:|---:|
+| pessoal | 2 quadrimestres | 1/3 do excedente |
+| dívida consolidada | 3 quadrimestres | 25% do excedente |
 
-## 18. Transferências voluntárias — art. 25
+Enquanto o excesso persiste, a lei impõe restrições destinadas a impedir agravamento do endividamento.
 
-Transferência voluntária é a entrega de recursos correntes ou de capital a outro ente, a título de:
+### 8.2 Operações de crédito
 
-- cooperação;
-- auxílio;
-- assistência financeira;
+A contratação de operação de crédito exige verificação prévia de condições e limites: autorização, inclusão orçamentária quando exigida, observância das normas do Senado Federal e demonstrações previstas no art. 32.
 
-que **não** decorra de determinação constitucional ou legal e **não** seja destinada ao <abbr title="Sistema Único de Saúde">SUS</abbr>.
+Operação realizada em desacordo com a <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> recebe tratamento corretivo próprio no art. 33. A forma contratual não pode ser usada para esconder endividamento material.
 
-### 18.1. Exigências
+### 8.3 Operação entre entes e banco estatal: arts. 35 e 36
 
-Entre as exigências estão:
+O art. 35 veda, como regra, operação de crédito entre um ente da Federação e outro, diretamente ou por intermédio de entidades da administração indireta. As exceções são estritas.
 
-- dotação específica;
-- observância de limites e condições legais;
-- regularidade do beneficiário;
-- cumprimento de mínimos constitucionais de educação e saúde;
-- observância de limites fiscais;
-- previsão orçamentária de contrapartida.
+A <abbr title="Lei Complementar">LC</abbr> nº 212/2025 já havia alterado, no corte da prova, uma dessas exceções relativas a operações entre instituição financeira estatal e outro ente. O texto permite, dentro das condições legais, operações que não se destinem a financiar despesas correntes, ressalvando expressamente operações para financiar **projetos estruturantes** ou garantir contraprestações em <abbr title="Parceria Público-Privada">PPP</abbr> ou concessões.
 
-### 18.2. Finalidade
+O art. 36 trata de outra relação: proíbe operação de crédito entre instituição financeira estatal e o ente da Federação que a controla quando este for **beneficiário do empréstimo**.
 
-É vedado usar os recursos em finalidade diversa da pactuada.
+O art. 37 ainda equipara determinadas condutas a operações de crédito para impedir que uma forma jurídica diferente burle as vedações.
 
-> **Pegadinha:** transferência constitucional ≠ transferência voluntária.
+### 8.4 <abbr title="Antecipação de Receita Orçamentária">ARO</abbr>: crédito de curto prazo com calendário próprio
 
-## 19. Destinação de recursos ao setor privado
+A <abbr title="Antecipação de Receita Orçamentária">ARO</abbr> serve para atender insuficiência de caixa durante o exercício. Justamente por ser antecipação temporária, a lei impõe travas específicas:
 
-A LRF condiciona a destinação de recursos para cobrir necessidades de pessoas físicas ou déficits de pessoas jurídicas.
+- só pode ser realizada a partir do **10º dia do início do exercício**;
+- deve ser liquidada, com juros e demais encargos legalmente admitidos, até **10 de dezembro**;
+- não pode ser contratada enquanto existir <abbr title="Antecipação de Receita Orçamentária">ARO</abbr> anterior ainda não integralmente resgatada;
+- é proibida no **último ano do mandato** do Presidente, Governador ou Prefeito.
 
-A regra exige, conforme o caso:
+Para Estados e Municípios, a contratação é feita mediante processo competitivo eletrônico promovido pelo Banco Central, conforme o art. 38.
 
-- autorização legal;
-- condições da LDO;
-- previsão orçamentária.
+### 8.5 Garantia e contragarantia
 
-A lei também disciplina empréstimos, financiamentos e concessões de crédito pelo poder público.
+Ao garantir obrigação de outro devedor, o ente assume risco fiscal. Por isso, a concessão de garantia depende de limites e condições e, como regra, exige **contragarantia** — mecanismo que permite ao garantidor buscar ressarcimento se precisar honrar a obrigação garantida.
 
-## 20. Dívida pública: conceitos e limites
+Garantia não é sinônimo de operação de crédito, embora ambas componham o sistema de limites e controles da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>.
 
-A LRF define e disciplina:
+## 9. Fim de mandato e patrimônio: não empurre obrigação sem caixa
 
-- dívida consolidada;
-- dívida mobiliária;
-- operação de crédito;
-- concessão de garantia;
-- refinanciamento da dívida mobiliária.
+### 9.1 Art. 41-A: existe no texto, mas ainda não se aplica ao corte
 
-### 20.1. Limites
+A <abbr title="Lei Complementar">LC</abbr> nº 212/2025 inseriu o art. 41-A, porém o próprio dispositivo determina sua aplicação **a partir de 1º de janeiro de 2027**.
 
-Compete ao sistema constitucional e legal fixar limites e condições, com papel relevante do **Senado Federal**.
+Em síntese, a regra futura associa insuficiência de disponibilidade de caixa para restos a pagar e demais obrigações financeiras a restrições fiscais. Como a prova tem corte em 6 de julho de 2026, o candidato precisa distinguir:
 
-A dívida consolidada é apurada, para fins de limite, **ao final de cada quadrimestre**.
+- **art. 41-A:** já existe formalmente, mas sua consequência material ainda é futura;
+- **art. 42:** já é plenamente aplicável e disciplina o encerramento do mandato.
 
-## 21. Recondução da dívida — art. 31
+### 9.2 Art. 42: os últimos dois quadrimestres
 
-Se a dívida consolidada ultrapassar o limite ao final de um quadrimestre:
+Nos últimos **dois quadrimestres** do mandato, o titular de Poder ou órgão não pode contrair obrigação de despesa que:
 
-- deve ser reconduzida até o fim dos **três quadrimestres seguintes**;
-- o excedente deve ser reduzido em **pelo menos 25% no primeiro**.
+- não possa ser cumprida integralmente dentro do mandato; ou
+- tenha parcelas a pagar no exercício seguinte sem suficiente disponibilidade de caixa.
 
-Enquanto perdurar o excesso, há restrições fiscais.
+A disponibilidade não é o saldo bancário bruto: na apuração, consideram-se encargos e despesas compromissadas a pagar até o fim do exercício.
 
-Memória:
+O art. 42 não proíbe toda nova obrigação no fim do mandato. Ele proíbe a obrigação que transfere despesa sem o suporte financeiro exigido.
 
-```text
-PESSOAL: 2 quadrimestres → 1/3 no primeiro
-DÍVIDA:  3 quadrimestres → 25% no primeiro
-```
+### 9.3 Disponibilidades de caixa: art. 43
 
-## 22. Operações de crédito
+As disponibilidades de caixa devem observar o modelo constitucional. Para os regimes de previdência social, a <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> exige conta separada das demais disponibilidades do ente e aplicação em condições de mercado, com proteção e prudência financeira. A lei também veda usos específicos desses recursos, inclusive empréstimos aos segurados e ao próprio Poder Público.
 
-A contratação de operação de crédito exige verificação das condições e limites legais.
+### 9.4 Preservação patrimonial: arts. 44 e 45
 
-A disciplina inclui:
+A receita de capital obtida com alienação de bens e direitos do patrimônio público não pode, como regra, financiar **despesa corrente**. A exceção legal permite destinação aos regimes de previdência social, geral e próprio, quando autorizada por lei.
 
-- autorização;
-- compatibilidade orçamentária;
-- observância de limites;
-- condições estabelecidas pelo Senado;
-- controles pelo órgão federal competente.
+A lei também protege a continuidade dos investimentos: novos projetos só devem ser incluídos depois de adequadamente atendidos os projetos em andamento e as despesas de conservação do patrimônio público, nos termos da <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>.
 
-### 22.1. Operação entre entes — art. 35
+## 10. Transparência fecha o ciclo de responsabilidade
 
-É vedada, em regra, operação de crédito entre um ente da Federação e outro, diretamente ou por intermédio de entidades da administração indireta, ressalvadas as hipóteses legais.
-
-### 22.2. Instituição financeira estatal e controlador — art. 36
-
-É proibida operação de crédito entre:
-
-- instituição financeira estatal; e
-- ente da Federação que a controle;
-
-quando o ente controlador for **beneficiário do empréstimo**.
-
-### 22.3. Operações equiparadas — art. 37
-
-A LRF também equipara certas condutas a operações de crédito e as veda.
-
-A lógica é impedir que formas jurídicas diferentes escondam endividamento material.
-
-## 23. <abbr title="Antecipação de Receita Orçamentária">ARO</abbr> — antecipação de receita orçamentária
-
-A ARO é operação de curto prazo destinada a atender **insuficiência de caixa durante o exercício**.
-
-Possui condições específicas.
-
-Ponto clássico:
-
-> é **proibida no último ano do mandato** do Presidente, Governador ou Prefeito.
-
-Não confunda:
-
-- ARO → insuficiência de caixa;
-- operação de crédito comum → finalidade e condições próprias;
-- receita tributária antecipada indevidamente → pode configurar operação equiparada e vedada.
-
-## 24. Garantias e contragarantias
-
-A concessão de garantia deve respeitar:
-
-- limites;
-- condições;
-- contragarantia;
-- capacidade fiscal.
-
-A contragarantia é mecanismo de proteção do ente garantidor.
-
-Quando a União ou Estado honra dívida garantida de outro ente, a LRF admite consequências e mecanismos de ressarcimento.
-
-## 25. Restos a pagar e disponibilidade de caixa
-
-### 25.1. Art. 41-A: norma futura expressa
-
-A **LC nº 212/2025** inseriu o art. 41-A, mas o próprio dispositivo determina:
-
-> aplicação **a partir de 1º de janeiro de 2027**.
-
-Sua lógica futura é:
-
-- se a disponibilidade de caixa não for suficiente para honrar restos a pagar e demais obrigações financeiras;
-- o Poder ou órgão sofrerá restrições, inclusive quanto a incentivos tributários;
-- a persistência por dois anos consecutivos amplia as vedações.
-
-**No corte de 6/7/2026:**
-
-- o art. 41-A está no texto legal;
-- sua regra material ainda é **futura**.
-
-### 25.2. Art. 42: últimos dois quadrimestres do mandato
-
-Nos últimos **dois quadrimestres** do mandato, é vedado ao titular de Poder ou órgão contrair obrigação de despesa:
-
-- que não possa ser cumprida integralmente dentro do mandato; ou
-- que tenha parcelas a pagar no exercício seguinte sem suficiente disponibilidade de caixa.
-
-Na apuração do caixa, consideram-se:
-
-- encargos;
-- despesas compromissadas a pagar até o final do exercício.
-
-> **Pegadinha:** art. 42 não proíbe toda nova obrigação; proíbe assumir obrigação incompatível com a disponibilidade exigida.
-
-## 26. Gestão patrimonial
-
-### 26.1. Disponibilidades de caixa
-
-As disponibilidades devem obedecer ao modelo constitucional e às regras da LRF.
-
-Recursos previdenciários devem ser mantidos em conta separada e sujeitos às regras prudenciais próprias.
-
-### 26.2. Alienação de bens — art. 44
-
-É vedada a aplicação da receita de capital derivada da alienação de bens e direitos do patrimônio público para financiar **despesa corrente**.
-
-Exceção legal:
-
-- destinação aos regimes de previdência social, geral e próprio, na forma autorizada por lei.
-
-### 26.3. Novos projetos — art. 45
-
-Novos projetos só devem ser incluídos após adequado atendimento:
-
-- dos projetos em andamento;
-- das despesas de conservação do patrimônio público;
-
-nos termos da LDO.
-
-## 27. Transparência da gestão fiscal — art. 48
-
-São instrumentos de transparência, entre outros:
-
-- planos;
-- orçamentos;
-- LDO;
-- prestações de contas;
-- parecer prévio;
-- <abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr>;
-- <abbr title="Relatório de Gestão Fiscal">RGF</abbr>;
-- versões simplificadas desses documentos.
-
-A divulgação deve ser ampla, inclusive em meios eletrônicos.
-
-### 27.1. Transparência ativa e participação social
+Planejar e limitar não bastam se os dados não puderem ser verificados. O art. 48 trata como instrumentos de transparência, entre outros, planos, orçamentos, <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>, prestações de contas, parecer prévio, <abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr>, <abbr title="Relatório de Gestão Fiscal">RGF</abbr> e suas versões simplificadas.
 
 A transparência também envolve:
 
-- incentivo à participação popular;
-- audiências públicas;
+- incentivo à participação popular e realização de audiências públicas;
 - liberação, em tempo real, de informações pormenorizadas sobre execução orçamentária e financeira;
-- adoção de sistema integrado de administração financeira e controle, conforme padrão mínimo.
+- adoção de sistema integrado de administração financeira e controle conforme o padrão mínimo legal;
+- no corte de 2026, divulgação no Portal da Transparência, em formato aberto e padronizado, de dados atualizados sobre benefícios tributários, financeiros e creditícios concedidos, conforme alteração da <abbr title="Lei Complementar">LC</abbr> nº 224/2025.
 
-## 28. Escrituração e consolidação — arts. 50 e 51
+Na escrituração, a <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> exige, entre outros pontos, identificação individualizada de recursos vinculados, registro de despesa e assunção de compromisso pelo regime de competência e evidenciação das operações de crédito, restos a pagar e demais formas de financiamento. A União promove a consolidação nacional das contas nos prazos legais.
 
-A escrituração das contas públicas deve observar:
+### 10.1 <abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr>: acompanhar a execução a cada bimestre
 
-- normas de contabilidade pública;
-- regras específicas da LRF;
-- segregação e identificação de recursos;
-- disciplina das disponibilidades;
-- registros previdenciários;
-- consolidação nacional.
+O <abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr> abrange **todos os Poderes e o Ministério Público** e deve ser publicado até **30 dias após o encerramento de cada bimestre**.
 
-A União promove a consolidação das contas dos entes nos termos legais.
+Seu núcleo é mostrar a execução: balanço orçamentário, receitas, despesas e demonstrativos que incluem <abbr title="Receita Corrente Líquida">RCL</abbr>, resultados nominal e primário, previdência, juros e restos a pagar, entre outros itens legais.
 
-## 29. RREO — Relatório Resumido da Execução Orçamentária
+### 10.2 <abbr title="Relatório de Gestão Fiscal">RGF</abbr>: controlar limites a cada quadrimestre
 
-O **RREO**:
+O <abbr title="Relatório de Gestão Fiscal">RGF</abbr> é emitido ao final de cada **quadrimestre** pelos titulares dos Poderes e órgãos referidos no art. 20 e publicado até 30 dias após o período correspondente.
 
-- abrange **todos os Poderes e o Ministério Público**;
-- é publicado até **30 dias após o encerramento de cada bimestre**.
-
-### 29.1. Conteúdo
-
-Inclui, entre outros:
-
-- balanço orçamentário;
-- demonstrativos da execução de receitas;
-- demonstrativos da execução de despesas;
-- detalhamento por função e subfunção.
-
-Também o acompanham demonstrativos relativos a:
-
-- RCL;
-- receitas e despesas previdenciárias;
-- resultados nominal e primário;
-- despesas com juros;
-- restos a pagar.
-
-## 30. RGF — Relatório de Gestão Fiscal
-
-O **RGF** é emitido ao final de cada **quadrimestre** pelos titulares dos Poderes e órgãos referidos no art. 20.
-
-### 30.1. Conteúdo
-
-O relatório contém comparativos com limites relativos a:
+Ele compara os montantes com limites relativos, entre outros, a:
 
 - despesa total com pessoal;
 - dívida consolidada e mobiliária;
 - garantias;
-- operações de crédito;
-- outros itens definidos na lei.
+- operações de crédito.
 
-Se houver excesso, indica medidas corretivas.
+Se houver excesso, indica as medidas corretivas. No último quadrimestre, inclui demonstrativos ligados à disponibilidade de caixa e à inscrição em restos a pagar.
 
-No último quadrimestre, inclui informações específicas sobre:
+A distinção que resolve muitas questões é simples: **<abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr> acompanha execução em base bimestral; <abbr title="Relatório de Gestão Fiscal">RGF</abbr> controla limites em base quadrimestral**.
 
-- disponibilidades de caixa;
-- inscrição em restos a pagar;
-- condições fiscais do encerramento do exercício.
+### 10.3 Contas dos Poderes: leia os arts. 56 e 57 com a jurisprudência
 
-## 31. RREO × RGF
+A literalidade original dos arts. 56 e 57 não pode ser aplicada isoladamente. O <abbr title="Supremo Tribunal Federal">STF</abbr>, especialmente no julgamento da <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 2324 e das ações conexas sobre a <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>, declarou inconstitucional a sistemática que submetia as contas dos chefes dos demais Poderes e do Ministério Público a parecer prévio do Tribunal de Contas como se fossem contas anuais do Chefe do Executivo.
 
-| Critério | RREO | RGF |
-|---|---|---|
-| periodicidade | **bimestral** | **quadrimestral** |
-| prazo-base | até 30 dias após bimestre | ao final de cada quadrimestre |
-| abrangência | todos os Poderes + <abbr title="Ministério Público">MP</abbr> | titulares dos Poderes/órgãos do art. 20 |
-| foco | execução orçamentária e indicadores | limites e gestão fiscal |
-| base legal | arts. 52–53 | arts. 54–55 |
+Para prova, preserve a distinção constitucional:
 
-> **Pegadinha clássica:** trocar bimestre por quadrimestre.
+- contas anuais do Chefe do Executivo recebem parecer prévio do Tribunal de Contas e seguem para o julgamento político competente;
+- contas de administradores e demais responsáveis por dinheiro, bens e valores públicos são julgadas pelo Tribunal de Contas conforme a competência constitucional.
 
-## 32. Prestação de contas e jurisprudência
+### 10.4 Fiscalização e alertas
 
-Os arts. 56 e 57 sofreram controle de constitucionalidade.
+O cumprimento da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> é fiscalizado pelo Poder Legislativo, com auxílio dos Tribunais de Contas, e pelos sistemas de controle interno de cada Poder e do Ministério Público.
 
-O STF afastou a leitura segundo a qual as contas dos chefes dos demais Poderes e do Ministério Público receberiam **parecer prévio** nos mesmos moldes das contas do Chefe do Executivo.
+A fiscalização alcança metas da <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>, operações de crédito, restos a pagar, retorno da despesa com pessoal e da dívida aos limites, destinação de recursos de alienação de ativos e outros pontos legais.
 
-A Constituição distingue:
+Os Tribunais de Contas emitem alertas preventivos. Além do gatilho de **90% do limite de pessoal**, a lei prevê alerta quando dívida, operações de crédito e garantias alcançam mais de 90% dos respectivos limites e em outras situações descritas no art. 59.
 
-- contas anuais do Chefe do Executivo → parecer prévio do Tribunal de Contas e julgamento político;
-- contas de administradores e responsáveis → julgamento pelo Tribunal de Contas, conforme a competência constitucional.
+## 11. Regras especiais mudam o ritmo do controle, não a responsabilidade
 
-Para prova, não aplique os arts. 56 e 57 como se a literalidade original permanecesse íntegra.
+### 11.1 Municípios com menos de 50 mil habitantes
 
-## 33. Fiscalização da gestão fiscal — art. 59
+Municípios com população **inferior a 50 mil habitantes** podem optar por determinadas verificações e divulgações semestrais. Entre elas estão:
 
-Fiscalizam o cumprimento da LRF:
+- aplicação da verificação do art. 22 e da regra indicada no art. 30 ao final do semestre;
+- divulgação semestral do <abbr title="Relatório de Gestão Fiscal">RGF</abbr> e dos demonstrativos do art. 53;
+- publicação em até **30 dias após o encerramento do semestre**.
 
-- Poder Legislativo;
-- Tribunais de Contas, em auxílio ao Legislativo;
-- sistemas de controle interno de cada Poder;
-- controle interno do Ministério Público.
+Se forem ultrapassados os limites de despesa com pessoal ou dívida consolidada, o Município volta a se submeter, enquanto durar o excesso, aos mesmos prazos de verificação e recondução aplicáveis aos demais entes.
 
-A fiscalização enfatiza:
+### 11.2 Calamidade pública: art. 65
 
-- atingimento das metas da LDO;
-- limites e condições de operações de crédito;
-- inscrição em restos a pagar;
-- retorno da despesa com pessoal ao limite;
-- recondução da dívida;
-- destinação de recursos de alienação de ativos;
-- demais limites previstos.
+A calamidade pública reconhecida na forma da lei cria um regime **temporário e delimitado**, não uma suspensão geral da responsabilidade fiscal.
 
-### 33.1. Alertas dos Tribunais de Contas
+Enquanto perdurar a situação, podem ser suspensos prazos de recondução e dispensados o atingimento de determinados resultados fiscais e a limitação de empenho. Nas hipóteses mais amplas previstas no próprio art. 65, há flexibilizações adicionais para operações de crédito, garantias, transferências e exigências ligadas a despesas e renúncias diretamente destinadas ao enfrentamento da calamidade.
 
-O Tribunal de Contas emite alerta quando identifica, entre outras situações:
+As dispensas não eliminam os deveres de transparência, controle e fiscalização.
 
-- possibilidade de frustração das metas;
-- despesa com pessoal acima de **90% do limite**.
-
-O alerta é preventivo e não se confunde com:
-
-- prudencial de 95%;
-- excesso de 100%.
-
-## 34. Municípios de menor população
-
-A LRF contém regras específicas que permitem opção por determinados prazos e periodicidades para Municípios de população inferior ao limite legal.
-
-O ponto de prova é reconhecer que a lei admite **tratamento procedimental diferenciado**, sem afastar os deveres materiais de responsabilidade fiscal.
-
-## 35. Calamidade pública — art. 65
-
-Reconhecida calamidade pública nos termos legais, enquanto perdurar a situação, a LRF prevê regime excepcional.
-
-Entre os efeitos possíveis:
-
-- suspensão de prazos de recondução;
-- dispensa de atingimento de determinados resultados fiscais;
-- dispensa de limitação de empenho;
-- flexibilizações específicas para operações de crédito, garantias e outras exigências, conforme a hipótese legal.
-
-> **Pegadinha:** calamidade não revoga a LRF; cria regime excepcional e temporário.
-
-## 36. Baixo crescimento — art. 66
+### 11.3 Baixo crescimento: art. 66
 
 Determinados prazos de recondução são **duplicados** quando houver crescimento real baixo ou negativo do <abbr title="Produto Interno Bruto">PIB</abbr> nacional, regional ou estadual por período igual ou superior a quatro trimestres.
 
-Considera-se **baixo crescimento** a variação real acumulada do PIB inferior a **1%** nos quatro últimos trimestres.
+Para a lei, baixo crescimento corresponde a variação real acumulada do <abbr title="Produto Interno Bruto">PIB</abbr> inferior a **1% nos quatro últimos trimestres**. Mesmo com prazo ampliado, as medidas prudenciais de controle de pessoal não desaparecem.
 
-Compare:
+### 11.4 Conselho de Gestão Fiscal
 
-| Situação | Efeito |
-|---|---|
-| excesso normal | prazo ordinário |
-| baixo crescimento do art. 66 | determinados prazos são duplicados |
-| calamidade do art. 65 | regime excepcional próprio |
+A <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> prevê Conselho de Gestão Fiscal para acompanhamento e avaliação permanente da política e da operacionalidade da gestão fiscal, com participação federativa e funções de harmonização, padronização, disseminação de boas práticas e transparência.
 
-## 37. Conselho de Gestão Fiscal
+Enquanto o conselho não estiver implantado, a lei atribui ao órgão central de contabilidade da União a edição das normas gerais de consolidação das contas públicas.
 
-A LRF prevê conselho voltado ao acompanhamento e avaliação permanente da política e operacionalidade da gestão fiscal, com funções relacionadas a:
+## 12. Um caso integrado para aplicar o mecanismo
 
-- harmonização;
-- disseminação de práticas;
-- normas de consolidação e padronização;
-- transparência.
+Retome o Estado hipotético do início. Suponha que, no mesmo período:
 
-O fato de determinados mecanismos institucionais dependerem de regulamentação não elimina as demais normas autoaplicáveis da LRF.
+- ao final do bimestre, a receita projetada ameace o cumprimento das metas;
+- o Poder Executivo estadual esteja em **96% de seu limite de pessoal**;
+- a dívida consolidada tenha ultrapassado o limite;
+- seja proposta prorrogação de benefício tributário para pessoas jurídicas;
+- o Governador esteja nos últimos dois quadrimestres do mandato e pretenda assumir obrigação com parcela a pagar no exercício seguinte.
 
-## 38. Caso integrado: Estado com pressão fiscal
+A análise deve ser feita por gatilho, não por uma lista solta de artigos.
 
-Considere um Estado que apresenta:
+**Receita abaixo da trajetória:** aplica-se o teste bimestral do art. 9º. Se presentes os pressupostos, há limitação de empenho e movimentação financeira segundo a <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>, preservada a autonomia dos Poderes conforme a jurisprudência.
 
-- frustração de receita;
-- despesa do Executivo em 96% do limite de pessoal;
-- dívida consolidada acima do limite;
-- proposta de novo benefício tributário para pessoas jurídicas.
+**Pessoal em 96%:** 96% é superior ao limite prudencial de 95%, portanto incidem as vedações do art. 22. Isso não significa, por si só, que o limite máximo de 100% foi ultrapassado.
 
-### 38.1. Receita abaixo da meta
+**Dívida acima do limite:** o prazo de recondução é de três quadrimestres, com redução mínima de 25% do excedente no primeiro.
 
-Ao final do bimestre, pode ser necessária:
+**Benefício tributário:** é preciso verificar o art. 14 e, por envolver pessoa jurídica, o art. 14-A, inclusive impacto, prazo, metas, monitoramento e avaliação.
 
-- limitação de empenho e movimentação financeira, conforme a LDO.
+**Fim de mandato:** o art. 42 exige verificar se a obrigação pode ser cumprida dentro do mandato ou se existe disponibilidade de caixa suficiente para a parcela que ficará para o exercício seguinte.
 
-### 38.2. Pessoal em 96%
-
-Como 96% > 95%:
-
-- está acima do limite prudencial;
-- incidem as vedações do art. 22.
-
-Ainda não significa, necessariamente, que ultrapassou 100% do limite.
-
-### 38.3. Dívida acima do limite
-
-A dívida deve ser reconduzida:
-
-- em três quadrimestres;
-- com redução de pelo menos 25% do excedente no primeiro.
-
-### 38.4. Benefício tributário
-
-A proposta deve observar:
-
-- art. 14;
-- art. 14-A, por beneficiar pessoas jurídicas;
-- estimativa de impacto;
-- requisitos de desempenho, prazo e avaliação.
-
-Esse caso mostra que a LRF trabalha com **múltiplos controles simultâneos**.
-
-## 39. Matriz de pegadinhas
-
-| Afirmação | Correção |
-|---|---|
-| “RCL é receita tributária” | RCL é conceito fiscal mais amplo |
-| “AMF = ARF” | metas ≠ riscos |
-| “qualquer frustração mensal gera contingenciamento” | análise legal é bimestral e ligada às metas |
-| “Executivo pode contingenciar unilateralmente outros Poderes” | ADI 2238 impede essa leitura |
-| “renúncia exige sempre aumento de tributo” | há alternativas do art. 14 |
-| “art. 14-A só vale em 2027” | já vale no corte de 2026 |
-| “DOCC é toda despesa que dura dois anos” | obrigação é por período superior a dois exercícios |
-| “limite estadual de pessoal do Executivo é 60%” | global é 60%; Executivo estadual é 49% |
-| “90% é limite prudencial” | 90% = alerta; 95% = prudencial |
-| “95% significa excesso máximo” | máximo é 100% do limite |
-| “pessoal volta ao limite em três quadrimestres” | regra geral: dois |
-| “dívida volta em dois quadrimestres” | regra geral: três |
-| “art. 41-A já se aplica em 2026” | aplicação começa em 1/1/2027 |
-| “art. 42 proíbe qualquer obrigação no fim do mandato” | proíbe obrigação incompatível com caixa |
-| “RREO é quadrimestral” | é bimestral |
-| “RGF é bimestral” | é quadrimestral |
-| “calamidade revoga a LRF” | cria regime temporário excepcional |
-| “baixo crescimento significa PIB negativo” | também alcança crescimento real acumulado inferior a 1% |
-
-## 40. Método de resolução em prova
-
-Ao ler uma questão de LRF:
-
-1. **qual bloco?**
-   - planejamento;
-   - receita;
-   - despesa;
-   - pessoal;
-   - dívida/crédito;
-   - restos a pagar;
-   - transparência/relatórios;
-   - fiscalização;
-2. **qual base?**
-   - RCL;
-   - meta fiscal;
-   - disponibilidade de caixa;
-3. **qual gatilho?**
-   - bimestre;
-   - quadrimestre;
-   - último ano;
-   - últimos dois quadrimestres;
-4. **qual faixa?**
-   - 90%;
-   - 95%;
-   - 100%;
-5. **qual prazo de recondução?**
-   - pessoal: 2 quadrimestres;
-   - dívida: 3 quadrimestres;
-6. **há regra temporal?**
-   - art. 14-A → eficaz em 2026;
-   - art. 41-A → aplica-se em 2027;
-7. **há jurisprudência que altera a literalidade?**
-   - especialmente ADI 2238 e arts. 56–57.
+O padrão é sempre o mesmo: **identifique a decisão ou o indicador → encontre o gatilho legal → aplique a consequência e o prazo próprios → verifique exceções e jurisprudência**. Essa sequência é o modelo mental; os percentuais e prazos passam a ter lugar definido dentro dele.
