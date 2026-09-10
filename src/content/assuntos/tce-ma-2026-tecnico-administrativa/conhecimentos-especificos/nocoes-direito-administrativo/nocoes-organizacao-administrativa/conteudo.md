@@ -8,332 +8,204 @@ storageId: tec-nocoes-org-adm-142
 
 # Organização administrativa
 
-## 1. Recorte do edital e objetivo
+## 1. A pergunta que organiza a matéria
 
-Este assunto corresponde ao item de **Noções de Direito Administrativo** dos conhecimentos específicos do Cargo 16. O edital exige:
+Imagine, em um exemplo hipotético, que um estado precise executar uma atividade administrativa.
 
-- centralização e descentralização;
-- concentração e desconcentração;
-- administração direta e indireta;
-- autarquias;
-- fundações;
-- empresas públicas;
-- sociedades de economia mista.
+Por enquanto, use uma ideia simples: **pessoa jurídica** é um sujeito reconhecido pelo direito como centro próprio de direitos e obrigações.
 
-O nível é de **noções**. O objetivo é reconhecer a estrutura administrativa, distinguir órgão de entidade e identificar o regime básico das quatro categorias expressamente cobradas. Não se aprofundam aqui atos administrativos, agentes públicos, poderes administrativos, licitações, controle da Administração ou responsabilidade civil do Estado, porque esses temas possuem assuntos próprios.
+**Situação 1:** o próprio estado executa a atividade por uma secretaria. A secretaria não é uma nova pessoa jurídica; é uma parte da estrutura do estado. Há **centralização** da execução no próprio estado e atuação pela **administração direta**.
+
+**Situação 2:** uma lei específica cria uma autarquia para executar aquela atividade. Agora existe outra pessoa jurídica, distinta do estado. Há **descentralização** e a autarquia integra a **administração indireta**.
+
+**Situação 3:** a autarquia cria diretorias e superintendências para repartir internamente suas tarefas. Nenhuma nova pessoa jurídica aparece. Há **desconcentração dentro da administração indireta**.
+
+O núcleo da matéria é perceber se mudou **quem é o sujeito jurídico que executa** ou apenas **como as competências foram distribuídas dentro do mesmo sujeito**.
 
 > **Corte de prova:** legislação e jurisprudência aplicáveis em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-As referências centrais são o **Decreto-Lei nº 200/1967**, especialmente os arts. 4º e 5º; a **Constituição Federal**, sobretudo o art. 37, XIX e XX; a **Lei nº 13.303/2016**, para empresa pública e sociedade de economia mista; e o **Tema 545 da repercussão geral do <abbr title="Supremo Tribunal Federal">STF</abbr>**, para evitar generalizações incorretas sobre a natureza jurídica das fundações instituídas pelo Estado.
+## 2. Dois eixos diferentes: execução e organização interna
 
----
+Centralização/descentralização e concentração/desconcentração respondem a perguntas diferentes.
 
-## 2. Matriz central: quem executa e como a competência é distribuída
-
-| Fenômeno | Pergunta-chave | Regra |
+| Fenômeno | Pergunta | O que acontece |
 |---|---|---|
-| centralização | quem executa? | a própria pessoa política, por seus órgãos |
-| descentralização | quem executa? | sujeito distinto recebe campo de atuação ou execução |
-| concentração | organização interna | competências são reunidas em menos centros internos |
-| desconcentração | organização interna | competências são distribuídas entre órgãos da mesma pessoa jurídica |
+| centralização | quem executa? | a própria União, estado, Distrito Federal ou município executa por seus órgãos |
+| descentralização | quem executa? | outro sujeito recebe um campo de atuação ou a execução |
+| concentração | como as competências ficam organizadas internamente? | competências são reunidas em menos centros internos |
+| desconcentração | como as competências ficam organizadas internamente? | competências são distribuídas entre órgãos da mesma pessoa jurídica |
 
-```text
-DESCENTRALIZAÇÃO → muda o sujeito
-DESCONCENTRAÇÃO → muda a estrutura interna do mesmo sujeito
-```
+A diferença decisiva é esta:
 
-Essa distinção resolve grande parte das questões da matéria.
+- **descentralização:** há sujeito distinto;
+- **desconcentração:** continua a mesma pessoa jurídica.
 
-## 3. Centralização e descentralização
+Por isso, centralização não significa ausência de divisões internas. Um estado pode executar uma atividade de modo centralizado e, ao mesmo tempo, ter secretarias e departamentos resultantes de desconcentração.
 
-### 3.1 Centralização
+A **concentração** é o movimento inverso da desconcentração. Se duas unidades internas são extintas e suas competências passam a um único órgão da mesma pessoa jurídica, houve concentração, não descentralização.
 
-Há **centralização** quando a própria pessoa política — União, estado, Distrito Federal ou município — executa a atividade por meio de seus órgãos.
+## 3. Órgão, entidade, administração direta e indireta
 
-Exemplo: uma secretaria estadual presta diretamente determinado serviço administrativo. A secretaria integra o próprio estado; não surgiu outra pessoa jurídica.
+Antes de classificar a estrutura, é preciso distinguir **órgão** de **entidade**.
 
-Centralização não significa ausência de divisão interna. Uma pessoa política pode possuir muitas secretarias, departamentos e unidades e ainda executar determinada atividade de modo centralizado.
+Uma **pessoa jurídica** é um sujeito próprio de direitos e obrigações. União, estados, Distrito Federal e municípios — as chamadas **pessoas políticas** — possuem personalidade jurídica. As entidades da administração indireta também possuem personalidade própria.
 
-### 3.2 Descentralização
+Um **órgão** é um centro de competências inserido dentro de uma pessoa jurídica. Em regra, ele não possui personalidade jurídica própria. Ministério, secretaria, departamento e superintendência são exemplos típicos.
 
-Há **descentralização** quando a execução passa a envolver sujeito distinto da pessoa política central.
-
-Na classificação doutrinária usual, aparecem duas formas relevantes para prova:
-
-- **outorga:** a lei cria ou autoriza entidade administrativa e lhe atribui determinado campo de atuação;
-- **delegação ou colaboração:** a execução é atribuída a particular por instrumento jurídico próprio, sem que esse particular passe a integrar a administração indireta.
-
-A descentralização, portanto, não se reduz à criação de autarquias ou empresas estatais. A delegação a particular também descentraliza a execução.
-
-### 3.3 Descentralização não é hierarquia
-
-Quando existe entidade da administração indireta, sua personalidade jurídica própria impede tratá-la como simples órgão subordinado à pessoa política. A relação é de **vinculação**, tutela ou supervisão finalística nos limites legais, e não de hierarquia interna plena.
-
-## 4. Concentração e desconcentração
-
-### 4.1 Concentração
-
-**Concentração** é a reunião de competências dentro da mesma pessoa jurídica, reduzindo centros internos de atribuições. Não cria nova pessoa jurídica e é o movimento oposto à desconcentração.
-
-### 4.2 Desconcentração
-
-**Desconcentração** é a distribuição interna de competências entre órgãos da mesma pessoa jurídica.
-
-Exemplos:
-
-- criação de secretarias dentro de um estado;
-- distribuição de tarefas entre departamentos de um ministério;
-- criação de superintendências regionais em uma autarquia.
-
-A desconcentração pode ocorrer tanto na **administração direta** quanto dentro de entidades da **administração indireta**.
-
-> **Pegadinha:** uma autarquia pode resultar de descentralização em relação ao ente político e, ao mesmo tempo, organizar-se internamente por desconcentração.
-
-## 5. Órgão e entidade
-
-### 5.1 Órgão
-
-Órgão é um **centro de competências** inserido na estrutura de uma pessoa jurídica. Em regra, não possui personalidade jurídica própria.
-
-Exemplos: ministério, secretaria estadual, departamento de uma autarquia e superintendência interna de uma fundação pública.
-
-### 5.2 Entidade
-
-Entidade é **pessoa jurídica**. Na administração indireta, as entidades possuem personalidade própria, distinta da pessoa política instituidora.
+Uma **entidade** é uma pessoa jurídica. Autarquias, empresas públicas, sociedades de economia mista e fundações públicas integram a administração indireta e não se confundem com os órgãos que eventualmente existam dentro delas.
 
 | Critério | Órgão | Entidade |
 |---|---|---|
-| personalidade jurídica própria | não | sim |
-| integra estrutura de outra pessoa jurídica | sim | não |
-| fenômeno típico de origem | desconcentração | descentralização |
+| personalidade jurídica própria | em regra, não | sim |
+| posição | integra a estrutura de uma pessoa jurídica | é pessoa jurídica distinta |
+| fenômeno organizacional típico | desconcentração | descentralização estatal |
 | exemplo | secretaria | autarquia |
 
-## 6. Administração direta e indireta
+### 3.1 Administração direta
 
-### 6.1 Administração direta
+A **administração direta** corresponde à atuação da própria União, dos estados, do Distrito Federal e dos municípios por meio de seus órgãos.
 
-No plano federal, o art. 4º do Decreto-Lei nº 200/1967 define a Administração Direta pelos serviços integrados na estrutura da Presidência da República e dos Ministérios.
+No plano federal, o art. 4º do Decreto-Lei nº 200/1967 descreve a Administração Direta como os serviços integrados na estrutura administrativa da Presidência da República e dos Ministérios.
 
-Em linguagem geral de prova:
+### 3.2 Administração indireta
 
-```text
-PESSOA POLÍTICA
-      ↓
-    ÓRGÃOS
-      ↓
-ADMINISTRAÇÃO DIRETA
-```
+A **administração indireta** reúne entidades com personalidade jurídica própria, instituídas para desempenhar finalidades administrativas descentralizadas.
 
-União, estados, Distrito Federal e municípios atuam diretamente por seus próprios órgãos.
-
-### 6.2 Administração indireta
-
-O art. 4º do Decreto-Lei nº 200/1967 apresenta a matriz clássica da Administração Federal Indireta:
+O art. 4º do Decreto-Lei nº 200/1967 fornece a matriz clássica da Administração Federal Indireta:
 
 1. autarquias;
 2. empresas públicas;
 3. sociedades de economia mista;
 4. fundações públicas.
 
-Essas entidades possuem personalidade jurídica própria.
+O Decreto-Lei é uma norma de organização federal. Sua enumeração é referência clássica para o estudo, mas não deve ser apresentada como se cada detalhe de sua organização interna fosse automaticamente imposto a todos os demais entes federativos.
 
-### 6.3 Vinculação não é subordinação hierárquica
+### 3.3 Vinculação não é hierarquia
 
-O Decreto-Lei nº 200/1967 utiliza a ideia de **vinculação** das entidades da administração indireta ao órgão supervisor.
+A personalidade própria da entidade impede tratá-la como simples departamento do ente que a instituiu.
 
-| Hierarquia | Vinculação |
+Chama-se <abbr title="Ligação legal para supervisão sem hierarquia interna">vinculação</abbr> a relação que conecta a entidade ao órgão ou ente supervisor nos limites definidos pelo ordenamento. O chamado <abbr title="Controle sobre os fins e objetivos definidos em lei">controle finalístico</abbr> verifica o cumprimento das finalidades legais da entidade; não cria uma hierarquia geral que permita ao supervisor substituir livremente todas as suas decisões.
+
+Assim:
+
+- dentro de uma mesma pessoa jurídica, pode existir **hierarquia** entre órgãos e agentes;
+- entre a União, o estado, o Distrito Federal ou o município e uma entidade da administração indireta, a relação típica é de **vinculação e supervisão**, nos limites legais.
+
+## 4. Como a descentralização aparece em prova
+
+Na linguagem doutrinária frequente em concursos, duas formas merecem atenção.
+
+A <abbr title="Atribuição legal de atividade a entidade administrativa">outorga</abbr> ou descentralização por serviços ocorre quando a lei cria ou autoriza uma entidade administrativa e lhe confere determinado campo de atuação.
+
+A <abbr title="Transferência da execução a outro sujeito por instrumento jurídico">delegação</abbr> ou colaboração ocorre quando a execução é atribuída a outro sujeito, como um particular, por instrumento jurídico adequado. Esse particular **não passa a integrar a administração indireta** apenas por executar a atividade delegada.
+
+A nomenclatura doutrinária pode variar. Para resolver a questão, o critério mais seguro é identificar:
+
+1. se surgiu pessoa jurídica estatal distinta;
+2. se a atividade foi apenas atribuída para execução a particular;
+3. se, ao contrário, houve somente repartição interna de competências.
+
+## 5. A regra constitucional de criação: art. 37, XIX e XX
+
+O art. 37, XIX, da Constituição usa verbos diferentes, e essa literalidade é muito cobrada.
+
+| Entidade | Regra constitucional |
 |---|---|
-| relação interna | relação entre pessoas jurídicas distintas |
-| órgãos/agentes da mesma pessoa | ente político ↔ entidade |
-| poderes hierárquicos | controle finalístico nos limites legais |
+| autarquia | lei específica **cria** |
+| empresa pública | lei específica **autoriza a instituição** |
+| sociedade de economia mista | lei específica **autoriza a instituição** |
+| fundação | lei específica **autoriza a instituição**; lei complementar define as áreas de atuação |
 
-Assim, é inadequado afirmar que uma autarquia é “um órgão subordinado” a ministério ou secretaria.
+A autorização legislativa, por si só, não constitui a pessoa jurídica de direito privado. Empresa pública, sociedade de economia mista e fundação de direito privado dependem dos atos constitutivos exigidos por seu regime.
 
-## 7. Criação e autorização: art. 37, XIX, da Constituição
+O art. 37, XX, exige autorização legislativa, em cada caso, para a criação de <abbr title="Empresa controlada por outra entidade">subsidiárias</abbr> das entidades referidas no inciso anterior e para a participação de qualquer delas em empresa privada.
 
-A Constituição estabelece uma diferença literal muito cobrada:
+## 6. Autarquias
 
-```text
-AUTARQUIA → lei específica CRIA
+A autarquia é **pessoa jurídica de direito público**, integrante da administração indireta e **criada por lei específica**.
 
-EMPRESA PÚBLICA → lei específica AUTORIZA a instituição
-SOCIEDADE DE ECONOMIA MISTA → lei específica AUTORIZA a instituição
-FUNDAÇÃO → lei específica AUTORIZA a instituição
-            + lei complementar define as áreas de atuação
-```
+O art. 5º, I, do Decreto-Lei nº 200/1967 a descreve, no plano federal, como serviço autônomo criado por lei, com personalidade jurídica, patrimônio e receita próprios, destinado a executar atividades típicas da Administração Pública que exijam gestão administrativa e financeira descentralizada.
 
-O art. 37, XX, prevê autorização legislativa para criação de subsidiárias das entidades referidas no inciso XIX e para sua participação em empresa privada, observada a disciplina constitucional aplicável.
+Para prova, conecte os elementos:
 
-## 8. Autarquias
-
-O art. 5º, I, do Decreto-Lei nº 200/1967 define autarquia como serviço autônomo, criado por lei, com personalidade jurídica, patrimônio e receita próprios, destinado a executar atividades típicas da Administração Pública que requeiram gestão administrativa e financeira descentralizada.
-
-### 8.1 Características essenciais
-
-- pessoa jurídica de **direito público**;
-- integra a administração indireta;
-- é **criada por lei específica**;
+- **lei específica cria** a autarquia;
+- sua personalidade é de **direito público**;
 - possui patrimônio e receita próprios;
-- atua em finalidade pública definida em lei;
+- desempenha finalidade pública definida em lei;
 - possui autonomia administrativa nos limites do ordenamento;
-- sujeita-se aos controles cabíveis;
-- vincula-se ao ente supervisor sem se transformar em órgão hierarquicamente subordinado.
+- permanece sujeita aos controles cabíveis;
+- não é órgão da União, do estado, do Distrito Federal ou do município que a criou e não está submetida a hierarquia interna geral em relação a ele.
 
-Autonomia não equivale a soberania nem a independência absoluta.
+A autonomia da autarquia não elimina controle nem permite que ela altere livremente sua finalidade legal.
 
-### 8.2 Autarquia pode desconcentrar
+O exemplo inicial mostra ainda uma combinação importante: a criação da autarquia é **descentralização**; a criação de diretorias dentro dela é **desconcentração**.
 
-Se uma autarquia cria diretorias, departamentos ou superintendências internas, ocorre **desconcentração dentro da administração indireta**.
+## 7. Fundações públicas: a natureza jurídica não é automática
 
-## 9. Fundações públicas
+A expressão “fundação pública” não permite concluir, sozinha, se a personalidade é de direito público ou de direito privado.
 
-### 9.1 Cuidado com generalizações
+O Decreto-Lei nº 200/1967, ao definir a fundação pública federal em seu art. 5º, IV, descreve entidade de direito privado, sem fins lucrativos, criada em virtude de autorização legislativa. Essa formulação federal, porém, não pode ser transformada em regra absoluta para toda fundação instituída pelo Estado.
 
-O Decreto-Lei nº 200/1967 contém definição federal de fundação pública com personalidade de direito privado. Entretanto, a jurisprudência constitucional impede transformar essa formulação em regra absoluta para toda fundação instituída pelo Estado.
-
-No **Tema 545 da repercussão geral**, o STF fixou que a qualificação de uma fundação instituída pelo Estado como sujeita ao regime público ou privado depende:
+No Tema 545 da <abbr title="Mecanismo em que o STF fixa tese para casos semelhantes">repercussão geral</abbr>, o <abbr title="Supremo Tribunal Federal">STF</abbr> fixou que a qualificação de fundação instituída pelo Estado como sujeita a regime público ou privado depende:
 
 1. do estatuto de sua criação ou autorização;
 2. das atividades por ela prestadas.
 
-Portanto, em prova, é incorreto afirmar sem ressalvas que **toda fundação pública é necessariamente de direito privado**.
+Daí surgem duas situações relevantes:
 
-### 9.2 Fundação pública de direito público
+- **fundação pública de direito público:** possui regime essencialmente semelhante ao das autarquias e é frequentemente chamada, pela doutrina, de <abbr title="Fundação pública de direito público com regime semelhante ao de autarquia">fundação autárquica</abbr>;
+- **fundação pública de direito privado:** conserva personalidade de direito privado, mas continua integrando a administração indireta e sujeita às limitações e controles públicos aplicáveis.
 
-Quando submetida a regime público, costuma ser denominada **fundação autárquica** pela doutrina, com regime essencialmente aproximado ao das autarquias.
+“Sem fins lucrativos” não significa ausência de receitas. Significa que a finalidade da fundação não é distribuir resultados a instituidores ou dirigentes.
 
-### 9.3 Fundação pública de direito privado
+Para questão de literalidade constitucional, mantenha a fórmula do art. 37, XIX: a lei específica **autoriza a instituição de fundação**, e lei complementar define as áreas de sua atuação. Para questão sobre natureza jurídica, não absolutize: aplique os critérios do Tema 545 do <abbr title="Supremo Tribunal Federal">STF</abbr>.
 
-Pode possuir personalidade de direito privado e continuar integrando a administração indireta, sujeita às limitações e controles públicos previstos no ordenamento.
+## 8. Empresa pública e sociedade de economia mista
 
-### 9.4 Sem fins lucrativos
+As duas são entidades da administração indireta com personalidade jurídica de **direito privado** e criação **autorizada por lei**. A diferença aparece principalmente no capital e na forma societária.
 
-A ausência de finalidade lucrativa significa que a entidade não tem por finalidade distribuir resultados a instituidores ou dirigentes. Isso não impede receitas próprias compatíveis com sua finalidade.
+### 8.1 Empresa pública
 
-## 10. Empresas públicas
+Segundo o art. 3º da Lei nº 13.303/2016, a empresa pública possui patrimônio próprio e capital social **integralmente público**.
 
-A Lei nº 13.303/2016 define empresa pública como entidade:
+Isso não significa que todo o capital deva pertencer a uma única pessoa jurídica. A lei admite participação de outras pessoas jurídicas de direito público interno e de entidades da administração indireta, desde que a maioria do <abbr title="Parte do capital que confere direito de voto">capital votante</abbr> permaneça com a União, o estado, o Distrito Federal ou o município controlador.
 
-- de personalidade jurídica de **direito privado**;
-- com criação **autorizada por lei**;
-- com patrimônio próprio;
-- cujo capital social é **integralmente público**.
+Na matriz federal do Decreto-Lei nº 200/1967, a empresa pública pode revestir-se de qualquer forma admitida em direito. O ponto seguro para prova é que a forma de **sociedade anônima**, isto é, sociedade cujo capital é dividido em ações, não é exigência geral da empresa pública.
 
-A lei admite participação, no capital da empresa pública, de outras pessoas jurídicas de direito público interno e de entidades da administração indireta, desde que preservados os requisitos legais de controle público.
+### 8.2 Sociedade de economia mista
 
-```text
-EMPRESA PÚBLICA
-→ direito privado
-→ lei autoriza
-→ capital integralmente público
-→ forma societária não precisa ser S.A.
-```
+Segundo o art. 4º da Lei nº 13.303/2016, a sociedade de economia mista:
 
-“Capital integralmente público” não significa que todo o capital precise pertencer a uma única pessoa jurídica pública.
+- possui personalidade jurídica de direito privado;
+- tem criação autorizada por lei;
+- deve ser constituída sob a forma de **sociedade anônima**;
+- admite participação privada;
+- deve manter a maioria das ações com direito a voto sob controle da União, dos estados, do Distrito Federal, dos municípios ou de entidade da administração indireta admitida pela lei.
 
-## 11. Sociedades de economia mista
+A presença de capital privado, portanto, não retira a sociedade de economia mista da administração indireta. O elemento decisivo é a manutenção do controle público da maioria das ações votantes.
 
-A Lei nº 13.303/2016 define sociedade de economia mista como entidade:
-
-- de personalidade jurídica de **direito privado**;
-- com criação **autorizada por lei**;
-- constituída sob a forma de **sociedade anônima**;
-- com maioria das ações com direito a voto sob controle público.
-
-Pode existir participação privada no capital.
-
-```text
-SOCIEDADE DE ECONOMIA MISTA
-→ direito privado
-→ lei autoriza
-→ S.A. obrigatória
-→ capital privado é possível
-→ maioria votante sob controle público
-```
-
-## 12. Empresa pública × sociedade de economia mista
+### 8.3 Comparação essencial
 
 | Critério | Empresa pública | Sociedade de economia mista |
 |---|---|---|
 | personalidade | direito privado | direito privado |
 | lei | autoriza a instituição | autoriza a instituição |
-| capital | integralmente público | admite participação privada |
-| forma | forma admitida em direito | sociedade anônima |
+| capital | integralmente público | admite capital privado |
+| forma societária | sociedade anônima não é obrigatória como regra geral | sociedade anônima obrigatória |
 | controle | público | maioria das ações votantes sob controle público |
 | administração indireta | sim | sim |
 
-Duas pegadinhas clássicas:
+## 9. Como reconhecer a resposta em poucos passos
 
-- empresa pública **não** é pessoa jurídica de direito público;
-- sociedade de economia mista **não** exige capital integralmente público.
+Retome o cenário do início e faça quatro perguntas.
 
-## 13. Quadro integrado
+1. **A atividade continua sendo executada pela mesma pessoa jurídica?** Se sim, não houve descentralização para outra entidade.
+2. **As competências apenas foram divididas ou reunidas internamente?** Divisão aponta para desconcentração; reunião, para concentração.
+3. **Surgiu entidade com personalidade própria?** Pense em administração indireta e identifique seu regime.
+4. **Qual é o traço que separa as entidades?**
+   - lei específica cria + direito público → autarquia;
+   - fundação → observe art. 37, XIX, e, para a natureza jurídica, os critérios do Tema 545 do <abbr title="Supremo Tribunal Federal">STF</abbr>;
+   - direito privado + capital integralmente público → empresa pública;
+   - direito privado + sociedade anônima + possibilidade de capital privado com controle público votante → sociedade de economia mista.
 
-| Entidade | Personalidade | Constituição | Ponto-chave |
-|---|---|---|---|
-| autarquia | direito público | lei específica cria | atividade típica administrativa |
-| fundação pública | depende do regime aplicável | lei específica autoriza a instituição | Tema 545 exige analisar criação/autorização e atividade |
-| empresa pública | direito privado | lei específica autoriza | capital integralmente público |
-| sociedade de economia mista | direito privado | lei específica autoriza | S.A.; admite capital privado com controle votante público |
-
-## 14. Casos de aplicação
-
-### Caso 1 — nova secretaria
-
-Um estado cria secretaria e distribui a ela competências antes exercidas por outra unidade.
-
-**Leitura:** administração direta + desconcentração.
-
-### Caso 2 — criação de autarquia
-
-Lei específica cria pessoa jurídica de direito público para atividade típica administrativa.
-
-**Leitura:** administração indireta + descentralização + autarquia.
-
-### Caso 3 — departamento dentro de autarquia
-
-Uma autarquia cria superintendências regionais.
-
-**Leitura:** desconcentração interna da própria autarquia.
-
-### Caso 4 — empresa pública
-
-Lei autoriza pessoa jurídica de direito privado com capital integralmente público.
-
-**Leitura:** empresa pública integrante da administração indireta.
-
-### Caso 5 — sociedade anônima de capital misto
-
-Lei autoriza sociedade anônima com participação privada e maioria das ações votantes sob controle público.
-
-**Leitura:** sociedade de economia mista.
-
-### Caso 6 — particular delegado
-
-Particular recebe a execução de atividade por instrumento jurídico próprio e não passa a integrar a administração indireta.
-
-**Leitura:** descentralização da execução por delegação; não é desconcentração.
-
-## 15. Pegadinhas recorrentes
-
-| Afirmação | Correção |
-|---|---|
-| Descentralização cria órgãos. | Órgãos decorrem de desconcentração; descentralização envolve sujeito distinto. |
-| Desconcentração exige nova pessoa jurídica. | Ocorre dentro da mesma pessoa jurídica. |
-| Órgão possui personalidade jurídica própria. | Em regra, não possui. |
-| Toda entidade da indireta é de direito público. | EP e SEM são de direito privado; fundações exigem exame do regime. |
-| Autarquia é apenas autorizada por lei. | A Constituição determina que lei específica a cria. |
-| EP e SEM são criadas diretamente pela lei. | A lei específica autoriza sua instituição. |
-| Empresa pública deve ser S.A. | A obrigatoriedade de S.A. é da sociedade de economia mista. |
-| Empresa pública admite capital privado. | Seu capital social é integralmente público. |
-| SEM exige capital integralmente público. | Pode haver capital privado, mantido o controle público votante. |
-| Entidade da indireta é hierarquicamente subordinada ao ente político. | Há vinculação e controle finalístico nos limites legais. |
-| Toda fundação pública é necessariamente privada. | O Tema 545/STF exige examinar o estatuto e as atividades. |
-| Desconcentração só ocorre na administração direta. | Também pode ocorrer dentro de entidade da indireta. |
-
-## 16. Método rápido de resolução
-
-1. **Surgiu outra pessoa jurídica?** Se sim, pense em descentralização. Se não, examine a distribuição interna de competências.
-2. **É órgão ou entidade?** Órgão não possui personalidade própria; entidade possui.
-3. **Qual entidade?** Lei cria + direito público → autarquia; capital integralmente público + direito privado → EP; S.A. + possível capital privado + controle votante público → SEM; fundação → aplique o Tema 545.
-4. **A questão fala em subordinação entre ente e entidade?** Desconfie: a relação típica é de vinculação, não hierarquia interna.
+Com esse caminho, a maior parte das pegadinhas deixa de depender de memorização isolada: secretaria é órgão, autarquia é entidade; descentralização muda o sujeito, desconcentração muda a estrutura interna; e <abbr title="Ligação legal para supervisão sem hierarquia interna">vinculação</abbr> entre pessoas jurídicas distintas não se transforma em hierarquia apenas porque existe supervisão.
