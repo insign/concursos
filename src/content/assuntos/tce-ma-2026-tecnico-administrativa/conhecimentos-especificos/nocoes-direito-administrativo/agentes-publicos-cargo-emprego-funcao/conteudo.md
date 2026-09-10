@@ -8,330 +8,145 @@ storageId: tec-nocoes-agentes-144
 
 # Agentes públicos
 
-## 1. Recorte do edital e objetivo
+## 1. A pergunta central: qual vínculo liga a pessoa à função pública?
 
-Este assunto integra **Conhecimentos específicos — Noções de Direito Administrativo** do Cargo 16 e cobre exatamente: **agentes públicos; disposições constitucionais aplicáveis; conceito e espécies; cargo, emprego e função pública**.
+Imagine cinco situações hipotéticas: uma pessoa toma posse em cargo efetivo após concurso; outra trabalha em empresa pública; uma terceira é contratada temporariamente para necessidade excepcional; um governador exerce seu mandato; e um mesário atua durante a eleição.
+
+Os vínculos são diferentes, mas todos ajudam a enxergar a ideia central: **agente público é a pessoa física que exerce função pública segundo um vínculo juridicamente reconhecido**. O gênero é mais amplo que “servidor estatutário” e pode alcançar atuação permanente ou transitória, remunerada ou não.
+
+O artigo 2º da Lei nº 8.429/1992 confirma essa amplitude **para os efeitos da própria Lei de Improbidade** ao incluir agente político, servidor público e quem exerça, ainda que transitoriamente ou sem remuneração, mandato, cargo, emprego ou função nas entidades abrangidas pela lei. Esse conceito legal é útil, mas não substitui as classificações doutrinárias nem torna iguais vínculos juridicamente diferentes.
+
+Também não confunda a pessoa com a estrutura em que ela atua. Órgão, autarquia, empresa estatal ou outra pessoa jurídica não é “agente público” no sentido pessoal estudado aqui. E a mera celebração de contrato privado com a Administração não transforma automaticamente todos os empregados da contratada em agentes públicos: é preciso verificar se houve atribuição de função pública e qual é o vínculo concreto.
 
 > **Corte de prova:** legislação e jurisprudência vigentes em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-O foco aqui é identificar **quem é agente público, qual é a espécie e qual vínculo funcional está presente**. As regras constitucionais aparecem apenas quando necessárias para distinguir cargo, emprego e função.
+## 2. Antes das espécies, separe cargo, emprego e função
 
-O estudo constitucional geral dos arts. 37 a 41 — remuneração, teto, acumulação, mandato eletivo, previdência e estabilidade — pertence ao assunto próprio de **Noções de Direito Constitucional: Administração pública — disposições gerais e servidores públicos** e não é repetido aqui.
+A expressão **função pública** descreve as atribuições exercidas em nome do Poder Público. Cargo e emprego são posições jurídicas que contêm atribuições; função é a atividade exercida e pode existir mesmo sem um cargo ou emprego permanente.
 
-Referências centrais:
+### 2.1 Cargo público: posição definida por lei
 
-- Constituição Federal, especialmente art. 37, I, II, V e IX, e art. 236;
-- Lei nº 8.429/1992, art. 2º, somente no alcance conceitual próprio da Lei de Improbidade;
-- Lei nº 8.112/1990, arts. 1º a 3º, apenas como referência do regime federal;
-- <abbr title="Supremo Tribunal Federal">STF</abbr>, Tema 1.010 da repercussão geral, quanto aos limites constitucionais dos cargos em comissão.
+O **cargo público** é uma posição criada na estrutura estatal, com atribuições próprias. Quando se fala em **servidor estatutário**, a ideia é esta: pessoa investida em cargo e submetida a um <abbr title="Conjunto legal de regras do vínculo do servidor">regime estatutário</abbr>, isto é, às regras legais aplicáveis àquele ente ou carreira.
 
----
+A Lei nº 8.112/1990 oferece uma referência federal precisa: para seus efeitos, servidor é a pessoa legalmente investida em cargo público, e cargo é o conjunto de atribuições e responsabilidades previstas na estrutura organizacional que devem ser cometidas a um servidor. A mesma lei deixa claro que seu regime alcança servidores civis da União, autarquias e fundações públicas federais; ela **não é o estatuto do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>**.
 
-## 2. Conceito de agente público
+Cargo pode ser de provimento efetivo ou em comissão:
 
-**Agente público** é expressão ampla para a **pessoa física que exerce função pública**, de forma permanente ou transitória, remunerada ou não, segundo vínculo juridicamente reconhecido.
+- **cargo efetivo**: a porta ordinária de ingresso é o concurso público;
+- **cargo em comissão**: é cargo público de livre nomeação e exoneração, mas somente dentro das finalidades e limites constitucionais estudados adiante.
 
-O conceito é funcional: importa o exercício de atribuição pública, e não apenas a existência de cargo efetivo.
+### 2.2 Emprego público: posição sob vínculo trabalhista
 
-Por isso, o gênero alcança situações muito diferentes, como:
+O **emprego público** é uma posição funcional submetida a vínculo de natureza trabalhista, em regra regido pela <abbr title="Consolidação das Leis do Trabalho">CLT</abbr>. O ocupante é **empregado público**, não servidor estatutário.
 
-- titulares de mandatos e altas funções políticas;
-- servidores estatutários;
-- empregados públicos;
-- contratados temporários;
-- militares;
-- particulares que colaboram com o Poder Público em função pública específica.
+O vínculo trabalhista não privatiza o ingresso. O artigo 37, II, da Constituição também inclui o **emprego público** na regra do concurso. Empresas públicas e sociedades de economia mista são exemplos clássicos de entidades que possuem empregados públicos.
 
-### 2.1 Conceito legal da Lei de Improbidade
+### 2.3 Função pública pode existir sem cargo ou emprego
 
-O art. 2º da Lei nº 8.429/1992 considera agente público, **para os efeitos daquela lei**, o agente político, o servidor público e todo aquele que exerça, ainda que transitoriamente ou sem remuneração, por eleição, nomeação, designação, contratação ou outra forma de investidura ou vínculo, mandato, cargo, emprego ou função nas entidades abrangidas.
+Todo cargo e todo emprego envolvem funções, mas a recíproca não é verdadeira. Há exercício de função pública sem novo cargo ou emprego permanente, por exemplo:
 
-Duas conclusões são seguras:
+- função de confiança atribuída a servidor ocupante de cargo efetivo;
+- função desempenhada por contratado temporário;
+- função específica exercida por particular em colaboração com o Poder Público.
 
-1. **agente público é gênero mais amplo que servidor estatutário**;
-2. transitoriedade ou ausência de remuneração não afastam, por si sós, a qualidade de agente público.
+Depois dessa distinção, a tabela apenas sintetiza o que já foi construído:
 
-**Cuidado:** esse conceito legal possui finalidade própria. Ele não transforma a classificação da Lei de Improbidade em taxonomia doutrinária universal.
+| Figura | O que identifica | Vínculo típico |
+|---|---|---|
+| cargo público | posição jurídica criada na estrutura estatal | estatutário |
+| emprego público | posição funcional sob relação trabalhista | trabalhista, em regra <abbr title="Consolidação das Leis do Trabalho">CLT</abbr> |
+| função pública | conjunto de atribuições exercidas em nome do Poder Público | pode acompanhar cargo/emprego ou existir sem eles |
 
-### 2.2 Pessoa física e função pública
+## 3. As portas constitucionais de ingresso e exercício
 
-Órgão, autarquia, empresa estatal ou outra pessoa jurídica **não é agente público** no sentido pessoal aqui estudado. Agente é a pessoa física que atua.
+### 3.1 Concurso: regra para cargo e emprego
 
-Também não basta celebrar contrato com a Administração para que qualquer particular se torne automaticamente agente público. É preciso verificar se houve atribuição de **função pública** e qual é o vínculo jurídico concreto.
+O artigo 37, I, da Constituição torna cargos, empregos e funções públicas acessíveis aos brasileiros que preencham os requisitos estabelecidos em lei e aos estrangeiros, na forma da lei.
 
----
+O inciso II estabelece a regra de ingresso: a <abbr title="Entrada formal em cargo ou emprego público">investidura</abbr> em **cargo ou emprego público** depende de aprovação prévia em concurso de provas ou de provas e títulos, de acordo com a natureza e a complexidade da posição, na forma prevista em lei.
 
-## 3. Espécies de agentes públicos
+A exceção expressa é a nomeação para **cargo em comissão declarado em lei de livre nomeação e exoneração**. Isso não significa que qualquer atividade possa ser transformada em cargo comissionado.
 
-As classificações são **doutrinárias** e não inteiramente uniformes. Uma organização didática útil é:
+### 3.2 Função de confiança e cargo em comissão não são sinônimos
 
-```text
-AGENTES PÚBLICOS
-├─ agentes políticos
-├─ agentes administrativos
-│  ├─ servidores estatutários
-│  ├─ empregados públicos
-│  └─ temporários
-├─ militares
-└─ particulares em colaboração com o Poder Público
-```
-
-A árvore ajuda a estudar, mas não constitui lista constitucional fechada. Em questão de prova, observe a classificação adotada pelo enunciado e, principalmente, as características do vínculo.
-
----
-
-## 4. Agentes políticos
-
-Em sentido clássico, **agentes políticos** ocupam posições constitucionais de direção política e formação da vontade superior do Estado.
-
-Exemplos seguros:
-
-- Presidente da República, governadores e prefeitos;
-- ministros e secretários;
-- parlamentares no exercício do mandato.
-
-A inclusão de magistrados e membros do Ministério Público nessa categoria **varia conforme a corrente doutrinária**.
-
-**Pegadinha:** agente político é espécie de agente público; agente público não é sinônimo de agente político.
-
----
-
-## 5. Agentes administrativos
-
-A expressão **agentes administrativos** é utilizada pela doutrina para agrupar pessoas que exercem atividade profissional na Administração sob vínculo funcional, sem ocupar as posições políticas superiores.
-
-Para este edital, interessa distinguir três núcleos.
-
-### 5.1 Servidor estatutário
-
-O **servidor estatutário** ocupa **cargo público** e se submete ao regime jurídico legal aplicável à esfera ou carreira.
-
-A Lei nº 8.112/1990 define, no regime federal por ela instituído, servidor como a pessoa legalmente investida em cargo público e cargo como o conjunto de atribuições e responsabilidades previstas na estrutura organizacional que devem ser cometidas a um servidor.
-
-Essas definições são úteis como referência conceitual, mas a Lei nº 8.112/1990 **não é estatuto automaticamente aplicável ao TCE/MA**.
-
-### 5.2 Empregado público
-
-O **empregado público** ocupa **emprego público** e mantém vínculo de natureza trabalhista, em regra regido pela <abbr title="Consolidação das Leis do Trabalho">CLT</abbr>, sem deixar de se submeter às exigências constitucionais e administrativas próprias do setor público.
-
-Pontos essenciais:
-
-- emprego público **não é cargo público**;
-- ser celetista não transforma o emprego público em vínculo privado comum;
-- a investidura em emprego público também se submete, em regra, ao concurso do art. 37, II.
-
-Empresas públicas e sociedades de economia mista são exemplos clássicos de entidades que possuem empregados públicos.
-
-### 5.3 Contratado temporário
-
-O art. 37, IX, autoriza a lei a estabelecer casos de **contratação por tempo determinado para atender necessidade temporária de excepcional interesse público**.
-
-O temporário:
-
-- exerce função pública por prazo determinado;
-- não ocupa, apenas pela contratação, cargo efetivo;
-- não se transforma em empregado público permanente;
-- não se confunde com ocupante de cargo em comissão.
-
-A fórmula de prova é:
-
-```text
-LEI DEFINE OS CASOS
-+ TEMPO DETERMINADO
-+ NECESSIDADE TEMPORÁRIA
-+ EXCEPCIONAL INTERESSE PÚBLICO
-= CONTRATAÇÃO TEMPORÁRIA
-```
-
----
-
-## 6. Militares
-
-Militares integram o gênero **agentes públicos**, mas se submetem a regime constitucional e legal próprio. A doutrina frequentemente os trata em categoria autônoma, distinta dos servidores civis.
-
-Para este assunto, não é necessário aprofundar ingresso, hierarquia, disciplina ou inatividade militar.
-
----
-
-## 7. Particulares em colaboração com o Poder Público
-
-Há particulares que exercem **função pública específica** sem integrar profissionalmente o quadro administrativo como servidor ou empregado.
-
-Exemplos didáticos:
-
-- jurados;
-- mesários eleitorais;
-- delegatários de serviços notariais e de registro, nos termos do art. 236 da Constituição;
-- outras pessoas convocadas, designadas ou delegadas para função pública prevista no ordenamento.
-
-As subdivisões doutrinárias variam — podem aparecer expressões como agentes honoríficos, delegados ou credenciados.
-
-**Pegadinha:** exercer função pública não implica necessariamente ocupar cargo ou emprego público.
-
----
-
-## 8. Cargo, emprego e função pública
-
-Esta é a distinção central da unidade.
-
-| Figura | Núcleo | Vínculo típico | Concurso? | Exemplo |
-|---|---|---|---|---|
-| **cargo público** | posição jurídica na estrutura estatal com atribuições próprias | estatutário | em regra, sim; cargo em comissão é exceção constitucional | técnico efetivo |
-| **emprego público** | posto de trabalho público sob vínculo trabalhista | predominantemente CLT | em regra, sim | empregado de empresa pública |
-| **função pública** | conjunto de atribuições exercidas em nome do Poder Público | pode acompanhar cargo/emprego ou existir sem eles | depende da hipótese | função de confiança; função temporária |
-
-A relação pode ser resumida assim:
-
-```text
-CARGO → contém atribuições/funções
-EMPREGO → contém atribuições/funções
-FUNÇÃO → pode existir sem cargo ou emprego
-```
-
-### 8.1 Cargo efetivo e cargo em comissão
-
-Cargo público pode ser de provimento efetivo ou em comissão, conforme o ordenamento.
-
-- **cargo efetivo:** acesso ordinariamente precedido de concurso;
-- **cargo em comissão:** livre nomeação e exoneração, dentro dos limites constitucionais e legais.
-
-Cargo em comissão continua sendo **cargo público**. Ele não é emprego e não se confunde com função de confiança.
-
-### 8.2 Emprego público
-
-A natureza trabalhista do vínculo não elimina o caráter público do emprego nem a incidência das regras constitucionais aplicáveis.
-
-**Pegadinha:** “CLT” indica o regime trabalhista predominante, não liberdade para contratação permanente sem concurso.
-
-### 8.3 Função pública
-
-Função pública é o conjunto de atribuições públicas exercidas por uma pessoa. Todo cargo ou emprego envolve funções, mas há função sem cargo ou emprego permanente, como:
-
-- função de confiança;
-- função exercida por contratado temporário;
-- função pública específica exercida por particular em colaboração.
-
----
-
-## 9. Disposições constitucionais indispensáveis à distinção dos vínculos
-
-### 9.1 Acesso e concurso — art. 37, I e II
-
-Cargos, empregos e funções são acessíveis aos brasileiros que preencham os requisitos legais e aos estrangeiros, **na forma da lei**.
-
-A investidura em **cargo ou emprego público** depende, em regra, de aprovação prévia em concurso de provas ou de provas e títulos.
-
-A exceção expressa do art. 37, II, é a nomeação para **cargo em comissão declarado em lei de livre nomeação e exoneração**.
-
-O tema concurso aparece aqui apenas para diferenciar os vínculos. Prazo de validade, prioridade entre concursos e jurisprudência sobre direito à nomeação pertencem ao assunto constitucional próprio.
-
-### 9.2 Função de confiança × cargo em comissão — art. 37, V
+O artigo 37, V, aproxima as duas figuras pela finalidade e as separa pelo vínculo.
 
 | Função de confiança | Cargo em comissão |
 |---|---|
-| exercida **exclusivamente por servidor ocupante de cargo efetivo** | pode ser ocupado por pessoa sem vínculo efetivo, respeitada a disciplina legal |
-| é função | é cargo público |
+| é função atribuída a quem já ocupa cargo efetivo | é cargo público |
+| exercida **exclusivamente por servidor ocupante de cargo efetivo** | pode ser ocupado por pessoa sem vínculo efetivo, observada a reserva legal a servidores de carreira |
 | designação | nomeação |
-| direção, chefia e assessoramento | direção, chefia e assessoramento |
+| somente direção, chefia e assessoramento | somente direção, chefia e assessoramento |
 
-Ambas se destinam **apenas** a atribuições de direção, chefia e assessoramento.
+Para os cargos em comissão, a Constituição determina ainda que servidores de carreira os preencham nos casos, condições e percentuais mínimos previstos em lei.
 
-### 9.3 Cargo em comissão e Tema 1.010/STF
+No Tema 1.010 da <abbr title="Mecanismo em que o Supremo Tribunal Federal fixa tese para casos semelhantes">repercussão geral</abbr>, o <abbr title="Supremo Tribunal Federal">STF</abbr> tornou mais concreto o limite constitucional. A criação de cargos em comissão:
 
-No Tema 1.010 da repercussão geral, o STF firmou parâmetros para criação de cargos em comissão. Para prova, retenha:
+1. só se justifica para direção, chefia e assessoramento, e não para atividades burocráticas, técnicas ou operacionais;
+2. pressupõe relação de confiança entre a autoridade nomeante e a pessoa nomeada;
+3. deve guardar proporcionalidade entre o número de cargos criados, a necessidade que procuram suprir e o número de ocupantes de cargos efetivos no ente federativo;
+4. exige que as atribuições estejam descritas de forma clara e objetiva na própria lei que institui os cargos.
 
-- cargo em comissão só pode envolver **direção, chefia e assessoramento**;
-- não se destina a atividades **burocráticas, técnicas ou operacionais ordinárias**;
-- deve pressupor **relação de confiança** entre autoridade nomeante e nomeado;
-- a quantidade deve guardar **proporcionalidade** com a necessidade e com o quadro efetivo;
-- as atribuições devem ser descritas de forma **clara e objetiva na própria lei** que institui o cargo.
+Portanto, **livre nomeação** não é liberdade para criar cargo em comissão com qualquer conteúdo.
 
-### 9.4 Temporários — art. 37, IX
+### 3.3 Contratação temporária: outra exceção, com outra finalidade
 
-A contratação temporária possui fundamento e finalidade distintos do cargo em comissão.
+O artigo 37, IX, autoriza a lei a estabelecer casos de contratação por tempo determinado para atender **necessidade temporária de excepcional interesse público**. O contratado exerce função pública temporária; não ocupa, só por isso, cargo efetivo nem emprego público permanente.
 
-```text
-TEMPORÁRIO → necessidade temporária excepcional
-COMISSIONADO → direção, chefia ou assessoramento
-```
+O Tema 612 da <abbr title="Mecanismo em que o Supremo Tribunal Federal fixa tese para casos semelhantes">repercussão geral</abbr> do <abbr title="Supremo Tribunal Federal">STF</abbr> sistematiza os requisitos de validade: casos excepcionais previstos em lei, prazo predeterminado, necessidade temporária, interesse público excepcional e contratação indispensável. O precedente também veda o uso da contratação temporária para serviços ordinários permanentes sujeitos às contingências normais da Administração.
 
-Nenhuma das figuras pode ser utilizada como mecanismo genérico para preencher permanentemente funções ordinárias do quadro efetivo.
+Isso separa duas hipóteses que a prova costuma aproximar indevidamente:
 
----
+- **cargo em comissão** → direção, chefia ou assessoramento;
+- **contratação temporária** → necessidade temporária de excepcional interesse público.
 
-## 10. Matriz de identificação rápida
+## 4. Espécies de agentes: a taxonomia vem depois do vínculo
 
-| Situação | Classificação principal |
-|---|---|
-| técnico aprovado em concurso e investido em posição estatutária | servidor estatutário + cargo efetivo |
-| empregado de empresa pública | empregado público + emprego público |
-| pessoa contratada para necessidade temporária excepcional | temporário + função pública temporária |
-| servidor efetivo designado para chefia sem novo cargo | função de confiança |
-| pessoa nomeada para cargo de assessoramento de livre nomeação | cargo em comissão |
-| governador | agente político |
-| militar | agente público sob regime próprio |
-| jurado ou mesário | particular em colaboração |
-| delegatário de notas e registros | particular em colaboração por delegação |
+As classificações de agentes públicos são **doutrinárias** e não inteiramente uniformes. Por isso, a pergunta “qual é a espécie?” deve vir depois de identificar quem exerce a função e por qual vínculo.
 
----
+### 4.1 Agentes políticos
 
-## 11. Pegadinhas recorrentes
+Em sentido clássico, **agentes políticos** ocupam posições constitucionais ligadas à direção política e à formação da vontade superior do Estado.
 
-### Pegadinha 1 — agente público = servidor?
+São exemplos seguros o Presidente da República, governadores, prefeitos, ministros, secretários e parlamentares no exercício do mandato.
 
-**Não.** Servidor é uma das espécies possíveis. O gênero é mais amplo.
+A inclusão de magistrados e membros do Ministério Público nessa categoria varia conforme a corrente doutrinária. Se a questão adotar uma classificação expressa, siga o referencial indicado em vez de tratar uma taxonomia como lista constitucional fechada.
 
-### Pegadinha 2 — todo agente público é remunerado?
+### 4.2 Agentes administrativos
 
-**Não.** Há exercício transitório ou não remunerado de função pública.
+A expressão **agentes administrativos** é usada por parte da doutrina para reunir pessoas que exercem profissionalmente atividade administrativa sob vínculo funcional. Nessa organização didática, entram:
 
-### Pegadinha 3 — cargo = emprego?
+- **servidores estatutários** → ocupam cargos públicos;
+- **empregados públicos** → ocupam empregos públicos;
+- **contratados temporários** → exercem função pública por prazo determinado, nos termos do regime aplicável.
 
-**Não.** Cargo se vincula ao regime estatutário; emprego, ao vínculo trabalhista.
+O importante é o vínculo, não o rótulo isolado.
 
-### Pegadinha 4 — toda função corresponde a um cargo?
+### 4.3 Militares
 
-**Não.** Função de confiança e função temporária são exemplos de função sem novo cargo efetivo.
+Militares integram o gênero **agentes públicos**, mas possuem regime constitucional e legal próprio. A doutrina frequentemente os apresenta em categoria autônoma, sem equipará-los automaticamente aos servidores civis estatutários ou aos empregados públicos.
 
-### Pegadinha 5 — função de confiança pode ser dada a pessoa externa?
+### 4.4 Particulares em colaboração com o Poder Público
 
-**Não.** O art. 37, V, reserva-a ao ocupante de cargo efetivo.
+Alguns particulares exercem função pública específica sem ingressar profissionalmente no quadro como servidor ou empregado.
 
-### Pegadinha 6 — cargo em comissão serve para atividade técnica rotineira?
+Jurados e mesários são exemplos tradicionais de colaboração. O artigo 236 da Constituição fornece outro caso importante: serviços notariais e de registro são exercidos em caráter privado por delegação do Poder Público; por isso, seus <abbr title="Particulares que recebem delegação do Poder Público">delegatários</abbr> podem ser estudados doutrinariamente como particulares em colaboração.
 
-**Não.** A Constituição e o Tema 1.010 limitam-no a direção, chefia e assessoramento.
+A existência de função pública explica por que alguém pode ser agente público sem ocupar cargo ou emprego. Ao mesmo tempo, evita o erro inverso: um simples fornecedor contratado pelo Estado não transforma automaticamente todos os seus trabalhadores em agentes públicos.
 
-### Pegadinha 7 — temporário e comissionado são equivalentes?
+## 5. Como juntar as peças numa questão
 
-**Não.** Fundamentos, finalidade e vínculo são diferentes.
+Retome as situações do início.
 
-### Pegadinha 8 — Lei nº 8.112/1990 é o estatuto do TCE/MA?
+A pessoa aprovada em concurso e investida em posição estatutária é **servidor estatutário em cargo efetivo**. A pessoa admitida para trabalhar em empresa pública ocupa **emprego público** sob vínculo trabalhista e também se submete à regra constitucional do concurso para o ingresso permanente. O contratado do artigo 37, IX, exerce **função pública temporária**, sem se tornar por isso ocupante de cargo efetivo. O governador é exemplo clássico de **agente político**. O mesário exerce função pública como **particular em colaboração**.
 
-**Não.** Ela é referência do regime federal e não deve ser aplicada automaticamente ao Tribunal estadual.
+Agora acrescente duas situações que exigem atenção constitucional. Se um servidor efetivo é designado para atribuição de chefia sem receber novo cargo, pode haver **função de confiança**. Se uma pessoa é nomeada para cargo legalmente criado de assessoramento e livre nomeação, pode haver **cargo em comissão**. A finalidade material é semelhante — direção, chefia e assessoramento —, mas o vínculo é diferente.
 
----
+Em prova, a sequência mais segura é:
 
-## 12. Método de resolução de questões
+1. identificar **quem** exerce a função pública;
+2. identificar **qual vínculo** existe — cargo, emprego ou função sem posição permanente correspondente;
+3. só então escolher a **espécie doutrinária**;
+4. se houver função de confiança, cargo em comissão ou temporário, aplicar o limite constitucional específico.
 
-```text
-1. QUEM exerce a atividade?
-   → político / servidor / empregado / temporário / militar / colaborador
-
-2. QUAL é o vínculo?
-   → CARGO / EMPREGO / FUNÇÃO
-
-3. O enunciado fala em direção, chefia ou assessoramento?
-   → função de confiança ou cargo em comissão
-   → verificar quem pode ocupar
-
-4. Fala em necessidade temporária excepcional?
-   → art. 37, IX
-
-5. Fala em atividade técnica/burocrática ordinária dentro de cargo em comissão?
-   → alerta Tema 1.010/STF
-
-6. Cita Lei nº 8.112/1990?
-   → lembrar: regime federal, não estatuto nacional
-```
-
----
+Essa ordem reduz a memorização solta: **agente público é o gênero; cargo e emprego são posições jurídicas; função é a atividade; e as espécies dependem do vínculo e da classificação doutrinária adotada.**

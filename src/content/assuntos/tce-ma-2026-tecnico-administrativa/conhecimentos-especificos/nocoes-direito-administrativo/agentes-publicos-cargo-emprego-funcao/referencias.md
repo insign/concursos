@@ -1,8 +1,7 @@
-### 13. Fontes de estudo
-
-- **Constituição da República Federativa do Brasil de 1988**, especialmente arts. 37 e 236.
-- **Lei nº 8.429/1992**, art. 2º — conceito de agente público para os efeitos da Lei de Improbidade.
-- **Lei nº 8.112/1990**, arts. 1º a 3º — referência federal para servidor e cargo público.
-- **STF, Tema 1.010 da repercussão geral** — requisitos constitucionais para criação de cargos em comissão.
-
-Para esta unidade, essas fontes devem ser lidas em conjunto com o recorte do edital. Regras constitucionais gerais de servidores já tratadas no assunto próprio de Noções de Direito Constitucional não devem ser duplicadas aqui.
+- BRASIL. Presidência da República. [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), especialmente art. 37, I, II, V e IX, e art. 236. Texto compilado vigente no corte do edital. Acesso em: 10 set. 2026.
+- BRASIL. Presidência da República. [Lei nº 8.429, de 2 de junho de 1992 — Lei de Improbidade Administrativa](https://www.planalto.gov.br/ccivil_03/leis/l8429.htm), especialmente art. 2º. Texto compilado vigente no corte do edital. Acesso em: 10 set. 2026.
+- BRASIL. Presidência da República. [Lei nº 8.112, de 11 de dezembro de 1990](https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm), especialmente arts. 1º a 3º, como referência do regime federal. Texto compilado vigente no corte do edital. Acesso em: 10 set. 2026.
+- BRASIL. Supremo Tribunal Federal. [Tema 1.010 da repercussão geral — RE 1.041.210](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1010). Requisitos constitucionais para criação de cargos em comissão; trânsito em julgado em 6 jun. 2019. Acesso em: 10 set. 2026.
+- BRASIL. Supremo Tribunal Federal. [Tema 612 da repercussão geral — RE 658.026](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=612). Requisitos constitucionais da contratação temporária do art. 37, IX; trânsito em julgado em 21 nov. 2014. Acesso em: 10 set. 2026.
+- DI PIETRO, Maria Sylvia Zanella. *Direito Administrativo*. 39. ed. Rio de Janeiro: Forense, 2026. ISBN 9788530998653. [Página da editora](https://www.grupogen.com.br/livro-direito-administrativo-39-edicao-2026-maria-sylvia-zanella-di-pietro-editora-forense-9788530998653). Referência doutrinária para agentes públicos, cargo, emprego e função.
+- CARVALHO FILHO, José dos Santos. *Manual de Direito Administrativo*. 40. ed. Rio de Janeiro: Atlas, 2026. ISBN 9786559778362. [Página da editora](https://www.grupogen.com.br/livro-manual-de-direito-administrativo-40-edicao-2026-jose-dos-santos-carvalho-filho-editora-atlas-9786559778362). Referência doutrinária para classificação dos agentes e vínculos funcionais.
