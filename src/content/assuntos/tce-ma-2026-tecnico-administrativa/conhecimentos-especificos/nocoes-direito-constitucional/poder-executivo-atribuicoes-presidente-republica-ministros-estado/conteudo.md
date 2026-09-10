@@ -1,402 +1,235 @@
 ---
 schemaVersion: 1
 title: "Poder Executivo: atribuições do presidente da República e dos ministros de Estado"
-description: "Noções constitucionais sobre as atribuições do Presidente da República e dos Ministros de Estado, com foco nos arts. 76, 84, 87 e 88 da Constituição Federal."
+description: "Noções constitucionais sobre o Poder Executivo federal, com foco na titularidade do Presidente da República, nas atribuições do art. 84 e nas funções dos Ministros de Estado."
 order: 138
 storageId: tec-nocoes-executivo-138
 ---
 
 # Poder Executivo: atribuições do presidente da República e dos ministros de Estado
 
-## 1. Recorte do edital
+## 1. A ideia central: o Presidente exerce; os Ministros auxiliam
 
-O Cargo 16 exige, em **Noções de Direito Constitucional**, o tópico **Poder Executivo: atribuições do Presidente da República e dos Ministros de Estado**. O núcleo de estudo está nos **arts. 76, 84 e 87 da Constituição Federal**, com o art. 88 apenas como contraste sobre criação e extinção de Ministérios e órgãos.
+Imagine três atos: vetar um projeto de lei, reorganizar a administração federal por decreto e expedir uma instrução para executar um regulamento. Todos pertencem ao Poder Executivo, mas **não têm o mesmo titular nem a mesma base constitucional**.
 
-> **Corte de prova:** 6 de julho de 2026. A <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026, vigente antes do edital, não alterou os arts. 76, 84, 87 ou 88.
+A pergunta que organiza este capítulo é: **quem pode praticar o ato e em que condições?**
 
-Este assunto não aprofunda eleição, posse, substituição, sucessão ou vacância presidencial (arts. 77 a 83), nem responsabilidade do Presidente (arts. 85 e 86), Conselhos da República e de Defesa Nacional (arts. 89 a 91) ou processo legislativo completo. O foco é **quem exerce o Executivo e quais atribuições constitucionais cabem ao Presidente e aos Ministros**.
+A Constituição distribui o tema assim:
 
-```text
-ART. 76 → Presidente exerce o Executivo, auxiliado pelos Ministros
-ART. 84 → atribuições privativas do Presidente
-ART. 87 → requisitos e atribuições dos Ministros
-ART. 88 → lei cria/extingue Ministérios e órgãos
-```
+- o **artigo 76** define quem exerce o Poder Executivo federal;
+- o **artigo 84** reúne as atribuições privativas do Presidente da República;
+- o **artigo 87** estabelece requisitos e atribuições dos Ministros de Estado;
+- o **artigo 88** mostra um limite importante: criação e extinção de Ministérios e órgãos dependem de lei.
 
----
+O ponto de partida é simples: **o Poder Executivo é exercido pelo Presidente da República, auxiliado pelos Ministros de Estado**. Os Ministros não formam com o Presidente um colegiado titular do Executivo. Eles exercem funções próprias de direção setorial, execução e auxílio, além das atribuições que lhes sejam outorgadas ou delegadas.
 
-## 2. Titularidade do Poder Executivo — art. 76
+> **Corte de prova:** 6 de julho de 2026, data do Edital número 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Até esse corte, a <abbr title="Emenda Constitucional">EC</abbr> número 139/2026 era a emenda constitucional mais recente e não alterou os artigos 76, 84, 87 ou 88. A exceção de nacionalidade aplicável ao Ministro da Defesa, prevista no artigo 12, § 3º, VII, integra o recorte necessário para compreender os requisitos ministeriais.
 
-O Poder Executivo federal é exercido pelo **Presidente da República**, auxiliado pelos **Ministros de Estado**.
+Eleição, posse, substituição e sucessão presidencial, responsabilidade do Presidente e os Conselhos da República e de Defesa Nacional não são aprofundados aqui. Quando aparecem, servem apenas para entender uma atribuição do artigo 84.
 
-A Constituição não estabelece um colegiado formado por Presidente e Ministros como titular do Poder Executivo. O titular é o Presidente; os Ministros exercem funções de auxílio, direção setorial e execução dentro das respectivas áreas de competência.
+## 2. Artigo 84: atribuição privativa não significa atribuição sempre indelegável
 
-**Pegadinha:** auxílio ministerial não significa compartilhamento da titularidade do Poder Executivo.
+O artigo 84 começa com a fórmula: **“Compete privativamente ao Presidente da República”**. Isso identifica o titular constitucional das atribuições ali enumeradas.
 
----
+Há, porém, uma exceção expressa no próprio artigo: o parágrafo único permite ao Presidente **delegar** três grupos de atribuições:
 
-# Parte I — Atribuições do Presidente da República
+1. **inciso VI** — decretos sobre organização e funcionamento da administração federal e extinção de funções ou cargos vagos;
+2. **inciso XII** — indulto e comutação de penas;
+3. **inciso XXV, primeira parte** — provimento de cargos públicos federais.
 
-## 3. Natureza das competências do art. 84
+A <abbr title="Transferência autorizada do exercício de determinada atribuição, dentro dos limites fixados">delegação</abbr> pode ser feita somente aos:
 
-O art. 84 afirma que compete **privativamente** ao Presidente da República exercer as atribuições nele enumeradas.
+- Ministros de Estado;
+- <abbr title="Procurador-Geral da República">PGR</abbr>;
+- <abbr title="Advogado-Geral da União">AGU</abbr>.
 
-A expressão "privativamente" não significa que todas sejam indelegáveis. O próprio **parágrafo único do art. 84** autoriza a delegação de três grupos específicos:
+Quem recebe a delegação deve respeitar os limites traçados pelo Presidente.
 
-- inciso **VI**;
-- inciso **XII**;
-- inciso **XXV, primeira parte**.
+Esse mecanismo resolve uma aparente contradição: a competência continua constitucionalmente ligada ao Presidente, mas **o exercício de determinadas atribuições pode ser transferido quando a própria Constituição autoriza**.
 
-Os possíveis delegatários são:
+## 3. Governo e administração: escolher Ministros, dirigir a máquina e organizar sua estrutura
 
-- **Ministros de Estado**;
-- **Procurador-Geral da República**;
-- **Advogado-Geral da União**.
-
-A delegação deve respeitar os limites traçados pelo Presidente.
-
-```text
-PRIVATIVA ≠ SEMPRE INDELEGÁVEL
-
-DELEGÁVEIS → VI + XII + XXV (1ª parte)
-PARA → Ministro de Estado + PGR + AGU
-```
-
----
-
-## 4. Ministros e direção superior da administração — art. 84, I e II
+Os primeiros incisos do artigo 84 mostram a posição do Presidente no comando administrativo.
 
 Compete ao Presidente:
 
 - **nomear e exonerar os Ministros de Estado** — inciso I;
 - exercer, **com o auxílio dos Ministros**, a **direção superior da administração federal** — inciso II.
 
-Esses dois incisos mostram a relação constitucional básica entre Presidente e Ministros: o Presidente escolhe os auxiliares e dirige superiormente a administração; os Ministros atuam nas áreas de competência de seus Ministérios.
+A nomeação de Ministro de Estado não depende de aprovação prévia do Senado. O Presidente escolhe seus auxiliares, observados os requisitos constitucionais do artigo 87 e, no caso do Ministro da Defesa, a exigência adicional de brasileiro nato.
 
-**Pegadinha:** a nomeação e exoneração dos Ministros de Estado não dependem de aprovação prévia do Senado.
+### 3.1 Decreto regulamentar: executar a lei
 
----
+O inciso IV permite ao Presidente sancionar, promulgar e fazer publicar as leis e **expedir decretos e regulamentos para sua fiel execução**.
 
-## 5. Processo legislativo e poder normativo — art. 84, III a VI e XXVI
+Esse é o <abbr title="Decreto destinado a detalhar a execução de uma lei existente">decreto regulamentar</abbr>: ele atua para tornar a lei executável, sem substituir o legislador fora dos limites constitucionais.
 
-Compete ao Presidente:
+### 3.2 Decreto do inciso VI: organização administrativa sem lei nova
 
-- iniciar o processo legislativo, nos casos constitucionais — **III**;
-- sancionar, promulgar e fazer publicar leis e expedir decretos e regulamentos para sua fiel execução — **IV**;
-- vetar projetos de lei, total ou parcialmente — **V**;
-- dispor mediante decreto nas hipóteses do inciso **VI**;
-- editar medidas provisórias com força de lei, nos termos do art. 62 — **XXVI**.
+O inciso VI autoriza decreto diretamente nas duas hipóteses constitucionais:
 
-### 5.1 Decreto regulamentar — inciso IV
-
-O decreto regulamentar serve à **fiel execução da lei**. Ele pressupõe a existência de uma lei a ser executada e não autoriza o Presidente a substituir o legislador fora dos limites constitucionais.
-
-### 5.2 Decreto do inciso VI
-
-O Presidente pode, mediante decreto:
-
-**a) Organização e funcionamento da administração federal**, desde que não haja:
+**a) organização e funcionamento da administração federal**, desde que não haja:
 
 - aumento de despesa;
 - criação de órgão público;
-- extinção de órgão público.
+- extinção de órgão público;
 
-**b) Extinção de funções ou cargos públicos**, somente quando estiverem **vagos**.
+**b) extinção de funções ou cargos públicos**, somente quando estiverem **vagos**.
 
-```text
-ART. 84, IV
-→ decreto/regulamento para fiel execução da LEI
+Por isso, duas perguntas resolvem boa parte das questões:
 
-ART. 84, VI, a
-→ organização e funcionamento
-→ sem aumento de despesa
-→ sem criar/extinguir órgão
+- o decreto está apenas reorganizando o funcionamento, sem aumentar despesa nem criar ou extinguir órgão?
+- se extingue função ou cargo, ele está vago?
 
-ART. 84, VI, b
-→ extinguir função/cargo
-→ somente se VAGO
-```
+Se a resposta exigida for **criar ou extinguir Ministério ou órgão**, o caminho é outro: o artigo 88 determina que **a lei** disponha sobre essa criação ou extinção.
 
-**Pegadinha:** o inciso VI não permite extinguir Ministério ou órgão por decreto.
+### 3.3 Cargos públicos federais
 
----
+O inciso XXV atribui ao Presidente **prover e extinguir cargos públicos federais, na forma da lei**.
 
-## 6. Relações exteriores — art. 84, VII e VIII
+O parágrafo único permite delegar somente a **primeira parte** desse inciso: **prover cargos públicos federais**. A segunda parte do inciso XXV não entra nessa autorização de delegação.
 
-O Presidente:
+Não confunda isso com o inciso VI, alínea **b**: este permite, por decreto, extinguir **funções ou cargos vagos**.
 
-- mantém relações com Estados estrangeiros e acredita seus representantes diplomáticos — **VII**;
-- celebra tratados, convenções e atos internacionais, sujeitos a **referendo do Congresso Nacional** — **VIII**.
+## 4. Relação com o processo legislativo: iniciar, sancionar, vetar e editar medida provisória
 
-A celebração presidencial e a participação do Congresso são etapas constitucionais distintas. A competência do Presidente não elimina o controle parlamentar previsto no próprio texto constitucional.
+O Presidente participa do processo legislativo em diferentes posições. Compete-lhe:
 
----
+- iniciar o processo legislativo, **na forma e nos casos previstos na Constituição** — inciso III;
+- sancionar, promulgar e fazer publicar leis — inciso IV;
+- vetar projetos de lei, total ou parcialmente — inciso V;
+- editar medidas provisórias com força de lei, nos termos do artigo 62 — inciso XXVI.
 
-## 7. Defesa do Estado, intervenção e Forças Armadas — art. 84, IX, X, XIII, XIX, XX e XXII
+Essas competências não são equivalentes.
 
-Entre as atribuições presidenciais estão:
+A <abbr title="Concordância do Presidente com projeto aprovado pelo Legislativo">sanção</abbr> integra a formação da lei. A <abbr title="Ato que atesta a existência da lei e ordena seu cumprimento">promulgação</abbr> confirma a existência da lei já formada. O <abbr title="Discordância presidencial com projeto de lei, total ou parcial">veto</abbr> é a recusa presidencial nos limites constitucionais. A medida provisória é ato normativo com força de lei submetido ao regime próprio do artigo 62.
 
-- decretar o **estado de defesa** e o **estado de sítio** — **IX**, observadas as demais regras constitucionais;
-- decretar e executar a **intervenção federal** — **X**;
-- exercer o **comando supremo das Forças Armadas**, nomear seus Comandantes, promover oficiais-generais e nomeá-los para cargos privativos — **XIII**;
-- declarar guerra em caso de agressão estrangeira, nas condições constitucionais, e decretar mobilização nacional — **XIX**;
-- celebrar a paz, com autorização ou referendo do Congresso — **XX**;
-- permitir, nos casos previstos em lei complementar, trânsito ou permanência temporária de forças estrangeiras — **XXII**.
+Para T138, a regra de delegação é decisiva: **veto e edição de medida provisória não estão no rol do parágrafo único do artigo 84**.
 
-Neste assunto, o objetivo é identificar **a atribuição presidencial**; o procedimento detalhado de cada medida pertence aos tópicos específicos de defesa do Estado e controle parlamentar.
+## 5. Relações exteriores, guerra, paz e forças estrangeiras
 
----
-
-## 8. Relação institucional com o Congresso e planejamento público — art. 84, XI, XXIII, XXIV e XXVIII
+Outra função presidencial é representar e conduzir a atuação estatal no plano externo.
 
 Compete ao Presidente:
 
-- remeter **mensagem e plano de governo** ao Congresso por ocasião da abertura da sessão legislativa — **XI**;
-- enviar ao Congresso o **<abbr title="Plano Plurianual">PPA</abbr>**, o projeto de **<abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>** e as propostas de **orçamento** — **XXIII**;
-- prestar anualmente ao Congresso, dentro de **60 dias após a abertura da sessão legislativa**, as contas do exercício anterior — **XXIV**;
-- propor ao Congresso a decretação do **estado de calamidade pública de âmbito nacional** previsto nas hipóteses constitucionais — **XXVIII**.
+- manter relações com Estados estrangeiros e acreditar seus representantes diplomáticos — inciso VII;
+- celebrar tratados, convenções e atos internacionais, sujeitos a <abbr title="Aprovação parlamentar posterior exigida pela Constituição">referendo do Congresso Nacional</abbr> — inciso VIII;
+- declarar guerra, no caso de agressão estrangeira, com autorização do Congresso ou, quando a agressão ocorrer no intervalo das sessões legislativas, com referendo posterior, e nas mesmas condições decretar mobilização nacional — inciso XIX;
+- celebrar a paz, autorizado ou com referendo do Congresso Nacional — inciso XX;
+- permitir, nos casos previstos em lei complementar, o trânsito ou a permanência temporária de forças estrangeiras no território nacional — inciso XXII.
 
-```text
-CONTAS PRESIDENCIAIS
-→ Congresso Nacional
-→ 60 dias após abertura da sessão legislativa
-→ exercício anterior
-```
+O padrão é importante: o Presidente pratica o ato executivo, mas em matérias sensíveis a Constituição combina sua atuação com participação do Congresso.
 
----
+## 6. Defesa do Estado, intervenção e comando das Forças Armadas
 
-## 9. Indulto e comutação — art. 84, XII
+No campo da defesa institucional, o artigo 84 atribui ao Presidente:
 
-O Presidente pode **conceder indulto e comutar penas**, com audiência, se necessário, dos órgãos instituídos em lei.
+- decretar o estado de defesa e o estado de sítio — inciso IX, observados os procedimentos constitucionais próprios;
+- decretar e executar a intervenção federal — inciso X;
+- exercer o **comando supremo das Forças Armadas**, nomear os Comandantes da Marinha, do Exército e da Aeronáutica, promover oficiais-generais e nomeá-los para os cargos que lhes são privativos — inciso XIII.
 
-Essa competência é especialmente importante porque integra o pequeno rol de atribuições **delegáveis** do parágrafo único do art. 84.
+Aqui é útil separar **atribuição presidencial** de **procedimento completo**. Por exemplo, o estado de sítio depende da autorização parlamentar prevista em outro dispositivo; isso não altera o fato de que o decreto é atribuição do Presidente.
 
----
+## 7. Relação institucional com o Congresso: mensagem, orçamento, contas e calamidade nacional
 
-## 10. Nomeações presidenciais — art. 84, XIV a XVIII
+O Presidente também presta informações, envia propostas e provoca decisões do Congresso.
 
-### 10.1 Com aprovação do Senado — inciso XIV
+Compete-lhe:
 
-Após aprovação pelo Senado Federal, o Presidente nomeia:
+- remeter mensagem e plano de governo ao Congresso Nacional por ocasião da abertura da sessão legislativa, expondo a situação do País e solicitando as providências que julgar necessárias — inciso XI;
+- enviar ao Congresso o <abbr title="Plano Plurianual">PPA</abbr>, o projeto de <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> e as propostas de orçamento previstas na Constituição — inciso XXIII;
+- prestar **anualmente** ao Congresso, dentro de **60 dias após a abertura da sessão legislativa**, as contas referentes ao exercício anterior — inciso XXIV;
+- propor ao Congresso Nacional a decretação do estado de calamidade pública de âmbito nacional previsto nos artigos constitucionais indicados no inciso XXVIII.
+
+O contraste com os Ministros aparecerá adiante: **Presidente presta contas ao Congresso; Ministro apresenta relatório anual de sua gestão ao Presidente**.
+
+## 8. Indulto, nomeações e outras atribuições presidenciais
+
+Algumas competências não cabem nos blocos anteriores, mas possuem alta capacidade de gerar troca de sujeito em prova.
+
+### 8.1 Indulto e comutação
+
+O inciso XII permite ao Presidente conceder <abbr title="Perdão coletivo da pena nas condições do ato presidencial">indulto</abbr> e <abbr title="Substituição ou redução da pena por ato autorizado constitucionalmente">comutar penas</abbr>, com audiência, se necessário, dos órgãos instituídos em lei.
+
+Essa atribuição integra o rol delegável.
+
+### 8.2 Nomeações que exigem aprovação prévia do Senado
+
+Pelo inciso XIV, compete ao Presidente nomear, **após aprovação pelo Senado Federal**:
 
 - Ministros do <abbr title="Supremo Tribunal Federal">STF</abbr> e dos Tribunais Superiores;
 - Governadores de Territórios;
-- Procurador-Geral da República;
+- <abbr title="Procurador-Geral da República">PGR</abbr>;
 - presidente e diretores do Banco Central;
-- outros servidores, quando a lei assim determinar.
+- outros servidores, quando determinado em lei.
 
-### 10.2 Outras nomeações
+A aprovação senatorial não é requisito para toda nomeação presidencial.
 
-Também compete ao Presidente:
+### 8.3 Outras nomeações e Conselhos
 
-- nomear Ministros do <abbr title="Tribunal de Contas da União">TCU</abbr>, observado o art. 73 — **XV**;
-- nomear magistrados nos casos constitucionais e o Advogado-Geral da União — **XVI**;
-- nomear membros do Conselho da República, na hipótese constitucional — **XVII**;
-- convocar e presidir o Conselho da República e o Conselho de Defesa Nacional — **XVIII**.
+O artigo 84 também atribui ao Presidente:
 
-**Pegadinha:** nem toda nomeação presidencial exige aprovação do Senado.
+- nomear, observado o artigo 73, os Ministros do <abbr title="Tribunal de Contas da União">TCU</abbr> — inciso XV;
+- nomear magistrados nos casos previstos na Constituição e o <abbr title="Advogado-Geral da União">AGU</abbr> — inciso XVI;
+- nomear membros do Conselho da República, nos termos constitucionais — inciso XVII;
+- convocar e presidir o Conselho da República e o Conselho de Defesa Nacional — inciso XVIII.
 
----
+O capítulo não aprofunda a composição desses Conselhos; interessa reconhecer o ato presidencial.
 
-## 11. Distinções, cargos e outras atribuições — art. 84, XXI, XXV e XXVII
+### 8.4 Distinções e cláusula de fechamento
 
-O Presidente também pode:
+Por fim, o Presidente pode:
 
-- conferir condecorações e distinções honoríficas — **XXI**;
-- prover e extinguir cargos públicos federais, na forma da lei — **XXV**;
-- exercer outras atribuições previstas na Constituição — **XXVII**.
+- conferir condecorações e distinções honoríficas — inciso XXI;
+- exercer outras atribuições previstas na Constituição — inciso XXVII.
 
-No inciso XXV, o parágrafo único do art. 84 autoriza delegação apenas da **primeira parte**: **prover cargos públicos federais**. A competência de extingui-los, como redigida no inciso XXV, não integra esse rol de delegação.
+## 9. Ministros de Estado: requisitos gerais e a exceção do Ministro da Defesa
 
----
+O artigo 87 estabelece a regra geral: os Ministros de Estado são escolhidos dentre **brasileiros maiores de 21 anos e no exercício dos direitos políticos**.
 
-## 12. Delegação presidencial — ponto de prova
+Isso significa que, como regra, a Constituição não restringe o cargo ministerial a brasileiro nato.
 
-A fórmula constitucional é objetiva:
+Há, porém, uma exceção constitucional expressa fora do artigo 87: o artigo 12, § 3º, VII, reserva a brasileiro nato o cargo de **Ministro de Estado da Defesa**.
 
-| Inciso | Atribuição delegável | Observação |
-|---:|---|---|
-| VI | decreto nas hipóteses das alíneas `a` e `b` | respeitados os limites constitucionais |
-| XII | indulto e comutação de penas | audiência se necessária |
-| XXV, 1ª parte | prover cargos públicos federais | não inclui a segunda parte do inciso |
+A forma segura de raciocinar é:
 
-Delegatários:
+- **Ministro de Estado, em geral:** brasileiro + maior de 21 anos + direitos políticos em exercício;
+- **Ministro da Defesa:** além desses requisitos, deve ser **brasileiro nato**.
 
-| Pode receber delegação? | Situação |
-|---|---|
-| Ministro de Estado | **sim** |
-| Procurador-Geral da República | **sim** |
-| Advogado-Geral da União | **sim** |
-| Presidente da Câmara | não |
-| Presidente do Senado | não |
-| Presidente do STF | não |
+Assim, é incorreto transformar a exceção do Ministro da Defesa em requisito de todos os Ministérios — e também é incorreto afirmar que nenhum Ministro precisa ser brasileiro nato.
 
-**Pegadinha:** veto, edição de medida provisória e nomeação de Ministro do STF não estão no rol delegável.
+## 10. O que o Ministro faz na própria área
 
----
+O parágrafo único do artigo 87 diz que compete ao Ministro de Estado, além de outras atribuições previstas na Constituição e na lei:
 
-# Parte II — Ministros de Estado
+1. exercer a **orientação, coordenação e supervisão** dos órgãos e entidades da administração federal na área de sua competência e **referendar os atos e decretos assinados pelo Presidente**;
+2. expedir **instruções para a execução das leis, decretos e regulamentos**;
+3. apresentar ao Presidente da República **relatório anual de sua gestão no Ministério**;
+4. praticar os atos pertinentes às atribuições que lhe forem **outorgadas ou delegadas** pelo Presidente.
 
-## 13. Requisitos constitucionais — art. 87, caput
+Esses quatro grupos revelam a função ministerial: o Ministro dirige sua área, executa normativamente o que precisa ser cumprido, presta contas de sua gestão ao Presidente e pode exercer atribuições recebidas nos limites constitucionais.
 
-Os Ministros de Estado são escolhidos dentre:
+### 10.1 Instrução ministerial não é decreto presidencial
 
-- **brasileiros**;
-- **maiores de 21 anos**;
-- no exercício dos **direitos políticos**.
+A instrução do artigo 87, II, serve à **execução de leis, decretos e regulamentos**. Ela não transforma o Ministro em titular do poder regulamentar presidencial nem permite criar competência legislativa própria.
 
-A Constituição não exige, no art. 87, naturalidade brasileira nata, idade mínima de 35 anos, diploma universitário ou aprovação do Senado.
+### 10.2 Outorga ou delegação não torna todo o artigo 84 transferível
 
-```text
-MINISTRO DE ESTADO
-→ brasileiro
-→ maior de 21 anos
-→ direitos políticos em exercício
-```
+O artigo 87, IV, autoriza o Ministro a praticar atos de atribuições que lhe tenham sido outorgadas ou delegadas. Quando a atribuição tem origem no artigo 84, essa regra deve ser lida junto com o parágrafo único do próprio artigo 84.
 
----
+Portanto, o artigo 87, IV, **não amplia** o rol presidencial delegável. Para as competências do artigo 84, continuam delegáveis apenas VI, XII e XXV, primeira parte.
 
-## 14. Orientação, coordenação, supervisão e referendo — art. 87, parágrafo único, I
+## 11. Presidente e Ministro: contraste que organiza as questões
 
-Compete ao Ministro, na área de sua competência:
+Depois de compreender as regras, esta síntese ajuda a separar os papéis:
 
-- exercer a **orientação** dos órgãos e entidades da administração federal;
-- exercer a **coordenação**;
-- exercer a **supervisão**;
-- **referendar os atos e decretos assinados pelo Presidente da República**.
-
-A atuação ministerial é setorial: cada Ministro exerce essas funções na **área de sua competência**.
-
-**Pegadinha:** a Constituição usa os quatro verbos — orientação, coordenação, supervisão e referendo — e a banca pode trocar um deles por função que não aparece no inciso.
-
----
-
-## 15. Instruções ministeriais — art. 87, parágrafo único, II
-
-Compete ao Ministro **expedir instruções para a execução das leis, decretos e regulamentos**.
-
-Essas instruções se inserem na função administrativa do Ministro. Não se confundem com a edição de lei, medida provisória ou decreto presidencial.
-
-```text
-MINISTRO → INSTRUÇÕES
-finalidade → executar LEIS + DECRETOS + REGULAMENTOS
-```
-
----
-
-## 16. Relatório anual de gestão — art. 87, parágrafo único, III
-
-O Ministro deve apresentar ao **Presidente da República** relatório **anual** de sua gestão no Ministério.
-
-Não confunda:
-
-- **Ministro** → relatório anual de sua gestão → **Presidente**;
-- **Presidente** → contas anuais do exercício anterior → **Congresso**, em 60 dias após a abertura da sessão legislativa.
-
-Esse contraste é típico de questão objetiva.
-
----
-
-## 17. Atribuições outorgadas ou delegadas — art. 87, parágrafo único, IV
-
-Compete ao Ministro praticar os atos pertinentes às atribuições que lhe forem **outorgadas ou delegadas pelo Presidente da República**.
-
-O inciso IV do art. 87 é uma norma geral sobre atuação ministerial. Quando a delegação for das competências presidenciais do art. 84, devem ser observados também os limites específicos do **parágrafo único do art. 84**.
-
-```text
-ART. 87, p.u., IV
-→ Ministro pratica atos de atribuições outorgadas/delegadas
-
-ART. 84, p.u.
-→ especifica quais competências do art. 84 podem ser delegadas
-```
-
-**Pegadinha:** o art. 87, IV, não transforma todas as competências privativas do Presidente em delegáveis.
-
----
-
-## 18. Art. 88 — criação e extinção de Ministérios e órgãos
-
-O art. 88 determina que **a lei** disporá sobre a criação e extinção de Ministérios e órgãos da administração pública.
-
-Esse dispositivo reforça um contraste importante com o art. 84, VI:
-
-```text
-CRIAR/EXTINGUIR MINISTÉRIO OU ÓRGÃO
-→ LEI
-
-DECRETO DO ART. 84, VI
-→ não pode criar/extinguir órgão
-```
-
-O artigo entra apenas como limite estrutural; o edital não exige organização detalhada dos Ministérios.
-
----
-
-# Parte III — Comparações de alta incidência
-
-## 19. Presidente × Ministro
-
-| Tema | Presidente | Ministro |
+| Problema | Presidente da República | Ministro de Estado |
 |---|---|---|
 | titularidade do Executivo | exerce o Poder Executivo | auxilia o Presidente |
-| direção administrativa | direção superior da administração federal | orientação, coordenação e supervisão setorial |
-| atos normativos | decretos/regulamentos e hipóteses do art. 84 | instruções para executar leis, decretos e regulamentos |
-| nomeação de Ministro | nomeia e exonera | — |
-| contas/relatório | presta contas ao Congresso | apresenta relatório anual ao Presidente |
-| delegação | delega apenas nos limites constitucionais | pode receber delegação e praticar atos correspondentes |
+| administração | direção superior da administração federal | orientação, coordenação e supervisão na própria área |
+| ato normativo administrativo | decreto/regulamento e decreto do artigo 84, VI | instrução para executar leis, decretos e regulamentos |
+| prestação periódica | contas ao Congresso em 60 dias após abertura da sessão | relatório anual de gestão ao Presidente |
+| delegação | pode delegar apenas nos limites constitucionais | pode receber delegação e praticar os atos correspondentes |
+| escolha ministerial | nomeia e exonera Ministros | deve preencher os requisitos constitucionais |
 
----
-
-## 20. Decreto regulamentar × decreto do inciso VI × instrução ministerial
-
-| Instrumento | Autor constitucional | Função central |
-|---|---|---|
-| decreto/regulamento do art. 84, IV | Presidente | fiel execução da lei |
-| decreto do art. 84, VI | Presidente ou delegatário constitucional | matérias específicas das alíneas `a` e `b` |
-| instrução do art. 87, p.u., II | Ministro | execução de leis, decretos e regulamentos |
-
----
-
-## 21. Casos de prova
-
-### Presidente extingue um Ministério por decreto
-**Errado.** O art. 84, VI, não permite extinguir órgão; o art. 88 remete criação e extinção de Ministérios e órgãos à lei.
-
-### Presidente extingue cargo público ocupado por decreto do inciso VI
-**Errado.** A alínea `b` exige que a função ou o cargo esteja **vago**.
-
-### Presidente delega o veto a um Ministro
-**Errado.** O veto é inciso V; o rol delegável é VI, XII e XXV, primeira parte.
-
-### Ministro recebe delegação para conceder indulto
-**Possível.** O inciso XII integra o rol do parágrafo único do art. 84.
-
-### Ministro edita instrução para executar regulamento
-**Correto.** É atribuição expressa do art. 87, parágrafo único, II.
-
-### Ministro presta contas anuais do Presidente ao Congresso
-**Errado.** O Ministro apresenta relatório anual de sua gestão ao Presidente; as contas presidenciais seguem o art. 84, XXIV.
-
----
-
-## 22. Pegadinhas finais
-
-1. O Executivo é exercido pelo **Presidente**, auxiliado pelos Ministros.
-2. Presidente **nomeia e exonera** Ministros de Estado.
-3. Art. 84 é chamado de competência **privativa**, mas contém delegação expressa.
-4. Delegáveis: **VI, XII e XXV, primeira parte**.
-5. Delegatários: **Ministro, PGR e AGU**.
-6. Decreto do VI não pode criar nem extinguir órgão.
-7. Função ou cargo só pode ser extinto pelo decreto do VI se estiver **vago**.
-8. Tratados celebrados pelo Presidente estão sujeitos a **referendo do Congresso**.
-9. Contas presidenciais: Congresso, **60 dias após a abertura da sessão legislativa**.
-10. Nem toda nomeação presidencial depende de aprovação do Senado.
-11. Ministro: brasileiro, **maior de 21 anos**, direitos políticos em exercício.
-12. Ministro orienta, coordena e supervisiona órgãos e entidades de sua área e referenda atos e decretos presidenciais.
-13. Ministro expede **instruções** para execução de leis, decretos e regulamentos.
-14. Ministro apresenta relatório **anual** de gestão ao **Presidente**.
-15. O art. 87, IV, não amplia o rol delegável do art. 84.
-16. Criação e extinção de Ministérios e órgãos dependem de **lei**.
-
----
+A melhor forma de resolver uma questão é seguir três passos: **identifique o sujeito, localize a atribuição e verifique se há condição ou possibilidade de delegação**. Isso evita decorar o artigo 84 como uma sequência de incisos sem perceber a lógica que os conecta.

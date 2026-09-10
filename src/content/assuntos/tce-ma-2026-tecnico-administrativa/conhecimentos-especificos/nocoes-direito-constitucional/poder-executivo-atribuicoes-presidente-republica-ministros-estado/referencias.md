@@ -1,2 +1,3 @@
-- BRASIL. **Constituição da República Federativa do Brasil de 1988**, especialmente arts. 76, 84, 87 e 88. <https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm>.
-- CEBRASPE. **Edital nº 1 - TCE/MA, de 6 de julho de 2026**, versão atualizada conforme o Edital nº 2, de 29 de julho de 2026, Cargo 16, Noções de Direito Constitucional, item 6.1.
+- [Constituição da República Federativa do Brasil de 1988 — texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — arts. 12, § 3º, VII; 76; 84; 87; e 88; corte de 6/7/2026; acesso em 10/9/2026.
+- [Emenda Constitucional nº 23/1999](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc23.htm) — inclusão do cargo de Ministro de Estado da Defesa entre os privativos de brasileiro nato; acesso em 10/9/2026.
+- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026, consolidado com as retificações aplicáveis ao Cargo 16; acesso em 10/9/2026.
