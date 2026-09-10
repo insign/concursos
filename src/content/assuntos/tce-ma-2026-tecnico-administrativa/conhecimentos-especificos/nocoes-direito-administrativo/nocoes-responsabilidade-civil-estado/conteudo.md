@@ -8,291 +8,217 @@ storageId: tec-nocoes-resp-civil-148
 
 # Responsabilidade civil do Estado
 
-## 1. Recorte do edital e estratégia de estudo
+## 1. O dano aconteceu. Quando ele pode ser atribuído ao Estado?
 
-Este assunto integra **Conhecimentos específicos — Noções de Direito Administrativo** do Cargo 16 e cobre exatamente o item **7 Responsabilidade civil do Estado**, com os subitens:
+Considere duas situações **hipotéticas**. Na primeira, um veículo oficial conduzido por agente em serviço atinge um pedestre. Na segunda, um motorista sofre acidente porque uma rodovia pública apresenta um buraco grave sem sinalização adequada.
 
-1. **7.1 Responsabilidade civil do Estado no direito brasileiro**;
-2. **7.1.1 responsabilidade por ato comissivo do Estado**;
-3. **7.1.2 responsabilidade por omissão do Estado**;
-4. **7.2 requisitos para a demonstração da responsabilidade do Estado**;
-5. **7.3 causas excludentes e atenuantes da responsabilidade do Estado**.
+Nos dois casos existe dano, mas isso ainda não basta para concluir que o Estado deve indenizar. A análise precisa responder, nesta ordem:
 
-O estudo deve permanecer em nível de **noções**. O objetivo é reconhecer o regime aplicável, os pressupostos da responsabilização e as principais hipóteses de rompimento ou redução do nexo causal, sem transformar o tópico em curso de responsabilidade civil privada, cálculo de indenizações, prescrição ou processo civil.
+1. houve **conduta estatal juridicamente relevante**, por ação ou omissão?
+2. ocorreu **dano juridicamente reparável**?
+3. existe **nexo causal**, isto é, ligação juridicamente relevante entre a conduta estatal e o dano?
+4. qual é o **regime de responsabilidade** aplicável: objetivo ou subjetivo?
+5. alguma causa rompe ou reduz essa ligação causal?
 
-Para legislação, aplica-se o recorte temporal do edital: alterações legislativas em vigor até **6 de julho de 2026** podem ser avaliadas. Para jurisprudência, o item 13.33.1 permite considerar entendimentos dos tribunais superiores publicados até **30 dias antes da data da prova**. Os precedentes citados abaixo foram reconfirmados em fonte oficial em 18 de agosto de 2026; na revisão final, deve-se observar eventual jurisprudência superveniente dentro da janela permitida pelo edital.
+Uma conduta **comissiva** é uma atuação positiva do Estado ou de agente que atua nessa qualidade. Uma conduta **omissiva** é a falta de atuação diante de um dever jurídico de agir.
 
-> **Regra de prova:** responsabilidade objetiva dispensa a demonstração de culpa, mas **não dispensa dano nem nexo causal**.
+Na responsabilidade **objetiva**, a vítima não precisa provar dolo ou culpa para responsabilizar a pessoa jurídica, mas continua precisando demonstrar os demais pressupostos, especialmente dano e nexo causal. Na responsabilidade **subjetiva**, acrescenta-se a necessidade de demonstrar culpa juridicamente relevante.
 
-## 2. Fundamento constitucional
+Essa é a primeira ideia que deve ficar estável: **objetiva não significa automática**.
 
-O ponto de partida é o **art. 37, § 6º, da Constituição Federal**. Respondem pelos danos que seus agentes, **nessa qualidade**, causarem a terceiros:
+> **Corte da prova:** para legislação, vale o que estava em vigor em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Para jurisprudência dos tribunais superiores, o edital admite entendimentos publicados até 30 dias antes da prova. Como a prova de Técnico está prevista para 29 de novembro de 2026, essa janela alcança **30 de outubro de 2026**. Eventual precedente superveniente dentro desse intervalo pode integrar a cobrança.
+
+## 2. O artigo 37, § 6º, separa a responsabilidade da pessoa jurídica da responsabilidade do agente
+
+A Constituição estabelece que respondem pelos danos que seus agentes, **nessa qualidade**, causarem a terceiros:
 
 - as pessoas jurídicas de **direito público**;
 - as pessoas jurídicas de **direito privado prestadoras de serviços públicos**.
 
-O mesmo dispositivo assegura o **direito de regresso** contra o responsável quando houver **dolo ou culpa**.
+A segunda categoria não abrange qualquer empresa privada só por ser empresa. O vínculo constitucional decorre da prestação de serviço público.
 
-### 2.1. Duas relações distintas
+O mesmo dispositivo assegura **direito de regresso** contra o responsável nos casos de dolo ou culpa. Regresso é a cobrança posterior promovida pela pessoa jurídica contra o agente que causou o dano e atuou com dolo ou culpa.
+
+Assim, existem duas relações diferentes:
 
 | Relação | Regra central |
 |---|---|
-| vítima × pessoa jurídica | nas condutas comissivas abrangidas pelo art. 37, § 6º, responsabilidade objetiva |
-| pessoa jurídica × agente | regresso condicionado à demonstração de dolo ou culpa do agente |
+| vítima → pessoa jurídica, em hipótese objetiva | culpa do agente não é requisito; permanecem conduta imputável, dano e nexo causal |
+| pessoa jurídica → agente, em regresso | exige dolo ou culpa do agente, além dos demais pressupostos cabíveis |
 
-A vítima não precisa provar culpa do agente para responsabilizar objetivamente a pessoa jurídica na hipótese constitucional. Já a responsabilização regressiva do agente possui caráter subjetivo.
+O artigo 43 do Código Civil reforça, para as pessoas jurídicas de direito público interno, a responsabilidade pelos atos de seus agentes praticados nessa qualidade e preserva o regresso quando houver culpa ou dolo.
 
-### 2.2. Art. 43 do Código Civil
+### 2.1 O que significa “nessa qualidade”
 
-O art. 43 do Código Civil reforça que as pessoas jurídicas de direito público interno respondem civilmente por atos de seus agentes praticados nessa qualidade, ressalvado o direito regressivo contra o causador do dano quando houver culpa ou dolo.
+O texto constitucional exige **conexão funcional**. Não basta que o causador do dano possua cargo ou emprego público: a conduta precisa estar ligada ao exercício, à utilização ou à aparência da função.
 
-## 3. Teoria do risco administrativo
+No primeiro cenário, o agente dirige veículo oficial durante o serviço, de modo que existe conexão funcional evidente. Se o mesmo agente, fora do serviço e sem qualquer uso da função, causar dano em atividade estritamente privada, o simples vínculo profissional com o Estado não torna esse dano automaticamente imputável à pessoa jurídica.
 
-A responsabilidade objetiva estatal é tradicionalmente explicada pela **teoria do risco administrativo**.
+## 3. Atos comissivos: a regra constitucional é objetiva
 
-Essa teoria:
+Quando o dano decorre de atuação positiva abrangida pelo artigo 37, § 6º, a regra é a responsabilidade **objetiva** da pessoa jurídica.
 
-- dispensa a prova de culpa do agente na relação vítima–Estado;
-- exige **dano** e **nexo causal**;
-- admite causas que rompam ou reduzam a imputação causal;
-- não transforma o Estado em segurador universal.
+O núcleo é:
 
-Ela não se confunde com **risco integral**, regime excepcional em que o espaço para excludentes é muito mais restrito.
+```text
+conduta imputável ao Estado
+        +
+dano reparável
+        +
+nexo causal
+```
 
-> **Pegadinha:** objetiva ≠ automática; objetiva ≠ risco integral.
+A vítima não acrescenta à fórmula a culpa do agente.
 
-## 4. Quem pode responder
+### 3.1 Teoria do risco administrativo
 
-### 4.1. Pessoas jurídicas de direito público
+A regra objetiva é tradicionalmente explicada pela **teoria do risco administrativo**. O Estado pode ter de reparar o dano independentemente da prova de culpa, mas a causalidade continua sendo examinada.
 
-O art. 37, § 6º, alcança, entre outras:
+Por isso, risco administrativo não se confunde com **risco integral**. No risco administrativo, uma causa que efetivamente rompa a ligação entre a atuação estatal e o dano pode afastar a responsabilidade; o risco integral é excepcional e possui espaço muito mais restrito para excludentes.
 
-- União;
-- estados;
-- Distrito Federal;
-- municípios;
-- autarquias;
-- demais pessoas jurídicas de direito público interno.
+A diferença resolve duas afirmações comuns de prova:
 
-### 4.2. Pessoas privadas prestadoras de serviço público
+- responsabilidade objetiva **dispensa culpa**;
+- responsabilidade objetiva **não dispensa dano nem nexo causal**.
 
-O texto constitucional inclui as pessoas jurídicas de direito privado **prestadoras de serviços públicos**. A incidência do art. 37, § 6º, decorre da atuação nessa condição; não se deve estender automaticamente o regime a toda atividade empresarial privada.
+### 3.2 Ato ilícito e dever de indenizar não são sinônimos
 
-### 4.3. O agente deve atuar “nessa qualidade”
+Uma ilegalidade administrativa não gera, sozinha, indenização: ainda é preciso haver dano reparável e nexo causal.
 
-A expressão constitucional exige conexão funcional entre a conduta lesiva e o exercício, a utilização ou a aparência da função pública.
+O caminho inverso também é possível. Um ato estatal **lícito** pode gerar dever de indenizar quando produz dano juridicamente qualificado. A jurisprudência do <abbr title="Superior Tribunal de Justiça">STJ</abbr> exige, para responsabilidade objetiva por ato comissivo lícito, dano **real, específico e anormal**: efetivo, individualizável sobre pessoa ou grupo determinado e superior aos ônus ordinários que a vida em sociedade normalmente impõe.
 
-O simples fato de o causador ser servidor ou agente público não basta. Se o dano decorre de comportamento estritamente privado, sem vínculo com a função, não há imputação automática ao Estado apenas pelo vínculo pessoal do autor com a Administração.
+Essa hipótese não transforma toda decisão estatal lícita em fonte de indenização. A qualificação do dano é justamente o filtro.
 
-## 5. Requisitos gerais
+## 4. Omissões: antes de perguntar se a responsabilidade é objetiva ou subjetiva, procure o dever de agir
 
-A análise pode ser feita por quatro perguntas:
+Dizer apenas que “o Estado não fez algo” é insuficiente. A omissão só se torna juridicamente relevante quando existia **dever de agir** na situação concreta.
 
-1. houve **conduta estatal juridicamente relevante**?
-2. houve **dano**?
-3. existe **nexo causal** entre a conduta e o dano?
-4. há causa que **rompa ou reduza** esse nexo?
+Retome o segundo cenário. O ponto não é afirmar abstratamente que o Estado deveria impedir qualquer acidente. É verificar se havia dever de conservação ou sinalização, se o serviço falhou e se essa falha se relacionou causalmente com o dano.
 
-Nos casos em que a omissão segue regime subjetivo, acrescenta-se a verificação da **culpa do serviço**, isto é, falha estatal juridicamente censurável.
+### 4.1 Regra geral no <abbr title="Superior Tribunal de Justiça">STJ</abbr>: responsabilidade subjetiva
 
-### 5.1. Conduta
+A jurisprudência do <abbr title="Superior Tribunal de Justiça">STJ</abbr> trata, como regra geral, a responsabilidade estatal por conduta omissiva como **subjetiva**. Nesse modelo, devem ser demonstrados:
 
-A conduta pode ser:
+```text
+dever de agir
+      +
+omissão culposa ou falha do serviço
+      +
+dano
+      +
+nexo causal
+```
 
-- **comissiva**: atuação positiva do Estado ou de seu agente;
-- **omissiva**: ausência de atuação quando havia dever jurídico de agir.
+**Culpa do serviço** significa falha juridicamente censurável da atividade pública: o serviço não funcionou quando deveria, funcionou mal ou funcionou tardiamente, consideradas as circunstâncias concretas. Não é indispensável, para esse conceito, identificar nominalmente um servidor culpado.
 
-### 5.2. Dano
+O Informativo 733 do <abbr title="Superior Tribunal de Justiça">STJ</abbr> ilustra a lógica em acidente ocorrido em rodovia estadual por buraco não sinalizado: a responsabilização foi construída sobre omissão culposa na conservação e sinalização, dano e nexo causal.
 
-Sem dano juridicamente reparável não se completa a responsabilidade civil. Para este recorte, basta reconhecer que pode haver dano material, moral ou outro dano juridicamente indenizável, sem aprofundar critérios de quantificação.
+### 4.2 A regra geral não autoriza duas generalizações opostas
 
-### 5.3. Nexo causal
+Nem “toda omissão é subjetiva” nem “toda omissão é objetiva” é uma fórmula segura. O regime depende do dever jurídico envolvido e de eventual fundamento especial.
 
-O **nexo causal** liga juridicamente a conduta ou omissão estatal ao resultado danoso. Mesmo na responsabilidade objetiva, ele é indispensável.
+**Dever específico de proteção — Tema 592 do <abbr title="Supremo Tribunal Federal">STF</abbr>.** O <abbr title="Supremo Tribunal Federal">STF</abbr> fixou que, se o Estado deixa de observar o dever específico de proteção previsto no artigo 5º, inciso XLIX, da Constituição, responde pela morte do detento. O precedente deve ser lido pelo seu fundamento: existe relação qualificada de custódia e proteção, e não uma regra universal para qualquer omissão.
 
-Se o dano decorre exclusivamente de causa estranha e independente, sem contribuição causal imputável ao Estado, a responsabilidade pode ser afastada.
+**Atividade de risco anormal — Informativo 674 do <abbr title="Superior Tribunal de Justiça">STJ</abbr>.** Em situação excepcional de atividade naturalmente perigosa, o <abbr title="Superior Tribunal de Justiça">STJ</abbr> aplicou o artigo 927, parágrafo único, do Código Civil e reconheceu responsabilidade objetiva, considerando irrelevante, naquele fundamento específico, que a conduta fosse comissiva ou omissiva.
 
-## 6. Atos comissivos
+Leis especiais também podem prever responsabilidade objetiva em hipóteses determinadas. Em qualquer desses caminhos, dano e nexo causal continuam essenciais, salvo disciplina excepcional própria que disponha de modo diverso.
 
-Nas condutas **comissivas** abrangidas pelo art. 37, § 6º, a regra é de responsabilidade **objetiva** da pessoa jurídica.
+Depois de aprender o mecanismo, a síntese fica simples:
 
-A vítima deve demonstrar, em essência:
-
-`conduta atribuível ao Estado + dano + nexo causal`
-
-Não precisa demonstrar culpa do agente para a responsabilidade objetiva da pessoa jurídica.
-
-### 6.1. Exemplo típico
-
-Veículo oficial, conduzido por agente em serviço, causa acidente em atuação vinculada à função. Para a relação vítima–Estado, verificam-se atuação funcional, dano e nexo. A culpa individual do agente interessa especialmente para eventual **ação regressiva**.
-
-### 6.2. Ato lícito também pode gerar dever de indenizar
-
-A responsabilidade estatal não depende necessariamente da ilicitude do ato. Em situações juridicamente qualificadas, uma atuação estatal lícita pode provocar dano especial e anormal indenizável.
-
-Para a prova, não confunda **ilicitude do ato** com **existência de dever de reparar**.
-
-## 7. Atos omissivos
-
-A responsabilidade por omissão exige cuidado porque **não existe uma fórmula única para todas as situações**.
-
-### 7.1. Regra geral no <abbr title="Superior Tribunal de Justiça">STJ</abbr>
-
-A jurisprudência do STJ registra, como regra geral, que a responsabilidade estatal por **conduta omissiva** é **subjetiva**.
-
-Nessa linha, devem ser demonstrados:
-
-`omissão culposa / falha do serviço + dano + nexo causal`
-
-A culpa do serviço corresponde à deficiência juridicamente relevante do serviço público: serviço que não funcionou quando devia, funcionou mal ou funcionou tardiamente, conforme as circunstâncias do caso.
-
-O **Informativo 733 do STJ**, ao tratar de acidente em rodovia estadual causado por buraco não sinalizado, reafirma a necessidade de omissão culposa, dano e nexo causal.
-
-### 7.2. Dever específico de proteção — Tema 592 do <abbr title="Supremo Tribunal Federal">STF</abbr>
-
-No **Tema 592**, sobre morte de detento, o STF fixou que, em caso de inobservância do dever específico de proteção previsto no art. 5º, XLIX, da Constituição, o Estado é responsável pela morte do preso.
-
-A técnica de prova é identificar se havia **dever jurídico específico de agir ou proteger**, sem generalizar o precedente para toda e qualquer omissão estatal.
-
-### 7.3. Atividade de risco anormal — STJ Informativo 674
-
-O STJ reconhece situação excepcional de responsabilidade objetiva por omissão quando a atividade estatal envolve **risco anormal**. No **Informativo 674**, referente ao <abbr title="Recurso Especial">REsp</abbr> 1.869.046/SP, aplicou-se o art. 927, parágrafo único, do Código Civil a atividade naturalmente perigosa, sendo irrelevante, nessa hipótese específica, que a conduta fosse comissiva ou omissiva.
-
-A lição é restrita: não se converte toda omissão estatal em responsabilidade objetiva. É preciso identificar o fundamento jurídico especial para a objetivação.
-
-### 7.4. Regime legal especial
-
-Microssistemas legais podem prever responsabilidade objetiva em situações específicas. Por isso, também é incorreto afirmar que **toda omissão é necessariamente subjetiva**.
-
-### 7.5. Matriz prática para omissões
-
-| Situação | Pergunta-chave |
+| Situação | Pergunta decisiva |
 |---|---|
-| omissão sob regime geral | houve falha culposa do serviço? |
-| dever específico de proteção | havia pessoa, bem ou situação sob proteção estatal juridicamente determinada? |
-| atividade de risco anormal | existe fundamento para objetivação, como o art. 927, parágrafo único, no caso reconhecido pelo STJ? |
-| regime legal próprio | há regra especial de responsabilidade objetiva? |
+| omissão sob o regime geral | havia dever de agir e falha culposa do serviço? |
+| dever específico de proteção | qual dever concreto foi descumprido e como ele se liga ao dano? |
+| atividade de risco anormal ou regime especial | existe fundamento jurídico específico para objetivação? |
 
-## 8. Nexo causal nas omissões
+## 5. Nexo causal: a falha estatal precisa explicar juridicamente o dano
 
-Nas omissões, o nexo causal exige verificar se a atuação juridicamente devida se relaciona de modo relevante com a prevenção do dano.
+O **nexo causal** impede que responsabilidade civil se transforme em seguro universal contra qualquer dano ocorrido na sociedade.
 
-Pergunte:
+Nas omissões, use quatro perguntas:
 
-1. havia dever de agir?
-2. era juridicamente exigível atuação concreta?
-3. a omissão contribuiu causalmente para o dano?
-4. alguma causa independente rompeu essa conexão?
+1. havia dever jurídico de agir?
+2. qual atuação era concretamente exigível?
+3. a omissão contribuiu de modo relevante para o resultado?
+4. algum fato independente rompeu essa ligação?
 
-### 8.1. Tema 362 do <abbr title="Supremo Tribunal Federal">STF</abbr> — preso foragido
+O Tema 362 do <abbr title="Supremo Tribunal Federal">STF</abbr> mostra o filtro em funcionamento. O Tribunal decidiu que não há responsabilidade civil objetiva do Estado por crime praticado por pessoa foragida do sistema prisional quando **não for demonstrado nexo causal direto entre o momento da fuga e a conduta criminosa**.
 
-No **Tema 362**, o STF fixou que não se caracteriza responsabilidade civil objetiva do Estado por crime praticado por pessoa foragida do sistema prisional quando **não demonstrado nexo causal direto entre o momento da fuga e a conduta criminosa**.
+A fuga pode revelar falha estatal anterior. Ainda assim, ela não torna o Estado responsável por todo crime futuro do foragido. Sem ligação causal direta juridicamente demonstrada, falta pressuposto para a responsabilidade objetiva discutida no precedente.
 
-A tese mostra que uma falha estatal anterior, isoladamente, não basta. É indispensável conexão causal juridicamente adequada entre a falha e o dano posterior.
+## 6. Excludentes e atenuantes: pergunte o que aconteceu com o nexo
 
-> **Pegadinha:** omissão + dano ≠ responsabilidade sem nexo.
+Depois de identificar o regime, verifique se outro fato **substituiu** causalmente a atuação estatal ou apenas **concorreu** com ela.
 
-## 9. Causas excludentes
+### 6.1 Culpa exclusiva da vítima
 
-As excludentes são examinadas principalmente sob a ótica do **rompimento do nexo causal**.
+Se a própria vítima é a única causa juridicamente relevante do dano e não subsiste contribuição estatal, o nexo com o Estado é rompido. A responsabilidade pode ser excluída.
 
-### 9.1. Culpa exclusiva da vítima
+### 6.2 Fato exclusivo de terceiro
 
-Se a conduta exclusiva da própria vítima é a causa juridicamente relevante do dano, sem contribuição causal estatal, o nexo em relação ao Estado é rompido. Pode haver **exclusão** da responsabilidade.
+A mera participação de terceiro não exonera o Estado. Para haver exclusão, o fato do terceiro deve ser exclusivo, independente e suficiente para romper a ligação causal com a atuação estatal.
 
-### 9.2. Fato exclusivo de terceiro
+Se Estado e terceiro contribuíram juridicamente para o resultado, não existe exclusão automática.
 
-O fato de terceiro pode excluir a responsabilidade quando for:
+### 6.3 Caso fortuito e força maior
 
-- causalmente exclusivo;
-- independente da atuação estatal relevante;
-- suficiente para romper o nexo.
+As expressões **caso fortuito** e **força maior** não funcionam como senha automática para excluir responsabilidade. O ponto decisivo é saber se o evento, nas circunstâncias concretas, foi causa independente e suficiente para romper o nexo.
 
-A mera participação de terceiro não basta. Se a atuação estatal também contribuiu para o resultado, não há exclusão automática.
+Se o evento integra o risco juridicamente assumido pela atividade ou se havia dever específico de prevenção ou proteção, o simples rótulo não resolve a questão.
 
-### 9.3. Caso fortuito e força maior
+### 6.4 Culpa concorrente da vítima
 
-Caso fortuito ou força maior não afastam a responsabilidade apenas pelo rótulo. A pergunta é se o evento foi **externo, exclusivo e suficiente para romper o nexo causal**.
+Quando a vítima também contribui culposamente para o dano, mas a atuação estatal permanece causalmente relevante, a responsabilidade não desaparece necessariamente. Há **concorrência causal**, que pode reduzir a indenização.
 
-Se havia dever estatal específico de prevenção ou se o evento integra o risco juridicamente assumido pela atividade, a exclusão não é automática.
+O artigo 945 do Código Civil determina que, quando a vítima concorre culposamente para o evento danoso, a indenização deve considerar a gravidade de sua culpa em confronto com a do autor do dano.
 
-## 10. Causa atenuante: culpa concorrente da vítima
-
-Quando a vítima também contribui culposamente para o dano, mas a atuação estatal permanece causalmente relevante, não há, em regra, exclusão total.
-
-Há **culpa concorrente**, que pode reduzir a indenização.
-
-O art. 945 do Código Civil determina que, concorrendo culposamente a vítima para o evento danoso, a indenização será fixada considerando a gravidade de sua culpa em confronto com a do autor do dano.
+A diferença é causal:
 
 | Situação | Efeito típico |
 |---|---|
-| culpa **exclusiva** da vítima | rompe o nexo → pode excluir |
-| culpa **concorrente** da vítima | preserva contribuição estatal → pode atenuar |
+| causa exclusiva da vítima | rompe o nexo → pode excluir |
+| contribuição da vítima junto com causa estatal | mantém contribuição estatal → pode atenuar |
 
-## 11. Direito de regresso e Tema 940 do <abbr title="Supremo Tribunal Federal">STF</abbr>
+## 7. Tema 940: a vítima demanda a pessoa jurídica; o agente pode responder em regresso
 
-O art. 37, § 6º, assegura ação regressiva contra o agente quando houver **dolo ou culpa**.
+O Tema 940 do <abbr title="Supremo Tribunal Federal">STF</abbr> fecha a separação iniciada no artigo 37, § 6º.
 
-Assim, os regimes podem ser distintos:
+A tese determina que a ação por danos causados por agente público no exercício da função deve ser ajuizada contra o **Estado** ou contra a **pessoa jurídica de direito privado prestadora de serviço público**, conforme o caso. O agente causador é parte ilegítima para essa ação indenizatória direta da vítima.
 
-- pessoa jurídica perante a vítima: responsabilidade objetiva nas hipóteses constitucionais próprias;
-- agente perante a pessoa jurídica, em regresso: responsabilidade subjetiva.
+Isso não significa imunidade pessoal do agente. A Constituição preserva o regresso da pessoa jurídica quando houver **dolo ou culpa**.
 
-No **Tema 940**, o STF fixou que a ação por danos causados por agente público no exercício da função deve ser ajuizada contra o **Estado** ou contra a **pessoa jurídica de direito privado prestadora de serviço público**, sendo o agente causador parte ilegítima para a ação indenizatória direta da vítima, sem prejuízo do regresso nos casos de dolo ou culpa.
+O fluxo é:
 
-> **Regra curta:** vítima → pessoa jurídica; pessoa jurídica → agente, por regresso, se dolo ou culpa.
+```text
+vítima → pessoa jurídica
 
-## 12. Matriz comissivo × omissivo
+se houver dolo ou culpa do agente e os demais pressupostos do regresso:
 
-| Ponto | Ato comissivo | Omissão |
-|---|---|---|
-| comportamento | ação estatal | não agir diante de dever |
-| regra central | objetiva | em regra subjetiva no STJ |
-| culpa | dispensada para a vítima na regra objetiva | normalmente integra a falha do serviço |
-| dano | indispensável | indispensável |
-| nexo | indispensável | indispensável |
-| exceções | excludentes causais | dever específico, risco anormal ou regime próprio podem alterar o enquadramento |
-| regresso contra agente | dolo ou culpa | dolo ou culpa |
+pessoa jurídica → agente
+```
 
-## 13. Roteiro para resolver questões
+## 8. Como resolver uma questão sem decorar frases isoladas
 
-### Passo 1 — Identifique o sujeito responsável
+Ao receber um caso, percorra a causalidade antes de procurar uma “palavra mágica”:
 
-É pessoa jurídica de direito público ou pessoa privada prestadora de serviço público abrangida pelo art. 37, § 6º?
+1. **Quem está sendo responsabilizado?** Verifique se a pessoa jurídica e a atividade estão abrangidas pelo artigo 37, § 6º.
+2. **O agente atuou nessa qualidade?** Procure conexão funcional.
+3. **Foi ação ou omissão?** A ação leva, em regra, ao regime objetivo; na omissão, identifique primeiro o dever de agir e o fundamento aplicável.
+4. **Existe dano reparável?** Sem dano, não há responsabilidade civil a completar.
+5. **Existe nexo causal?** Falha estatal e dano próximos no tempo não bastam por si sós.
+6. **Há causa exclusiva?** Culpa exclusiva da vítima, fato exclusivo de terceiro ou evento independente podem romper o nexo.
+7. **Há concorrência de causas?** Se Estado e vítima contribuíram, examine possível redução, e não exclusão automática.
+8. **A questão deslocou a culpa para o lugar errado?** Culpa do agente não é requisito da relação objetiva entre vítima e pessoa jurídica, mas importa para o regresso; culpa do serviço importa quando o regime omissivo é subjetivo.
+9. **A vítima pretende demandar diretamente o agente?** No âmbito do Tema 940, a ação indenizatória deve ser dirigida à pessoa jurídica.
 
-### Passo 2 — Classifique a conduta
+A estrutura que une o capítulo é esta:
 
-- ação → pense primeiro em responsabilidade objetiva;
-- omissão → identifique o dever de agir e o fundamento do regime aplicável.
+```text
+conduta imputável → dano → nexo → regime aplicável
+                              ↓
+                    excludente ou atenuante?
+                              ↓
+                    quem responde perante quem?
+```
 
-### Passo 3 — Procure dano e nexo
-
-Sem dano ou sem nexo, não há dever de indenizar.
-
-### Passo 4 — Verifique causa de rompimento
-
-Procure culpa exclusiva da vítima, fato exclusivo de terceiro ou evento externo que efetivamente rompa o nexo.
-
-### Passo 5 — Verifique concorrência causal
-
-Se a vítima e o Estado contribuíram, pense em **atenuação**, não em exclusão automática.
-
-### Passo 6 — Se a questão falar do agente
-
-- ação direta da vítima contra o agente → lembre o Tema 940;
-- regresso da pessoa jurídica contra o agente → exige dolo ou culpa.
-
-## 14. Pegadinhas frequentes
-
-1. **“Responsabilidade objetiva dispensa nexo causal.”** Errado.
-2. **“Responsabilidade objetiva equivale sempre a risco integral.”** Errado.
-3. **“Toda omissão estatal é subjetiva.”** Generalização incorreta.
-4. **“Toda omissão estatal é objetiva.”** Também incorreto.
-5. **“Culpa do agente é requisito para a vítima responsabilizar o Estado por ato comissivo.”** Errado.
-6. **“Culpa exclusiva e culpa concorrente produzem o mesmo efeito.”** Errado.
-7. **“Qualquer fato de terceiro exclui a responsabilidade.”** Errado: precisa romper o nexo.
-8. **“Caso fortuito ou força maior sempre excluem.”** Errado: examine nexo, dever de proteção e risco da atividade.
-9. **“Tema 940 autoriza ação indenizatória direta contra o agente.”** Errado.
-10. **“Fuga de preso torna o Estado responsável por qualquer crime posterior.”** Errado: Tema 362 exige nexo causal direto.
-11. **“Tema 592 permite concluir que toda omissão é objetiva.”** Errado.
-12. **“Pessoa jurídica privada nunca é alcançada pelo art. 37, § 6º.”** Errado: prestadoras de serviço público estão expressamente incluídas.
+Se essa sequência estiver clara, as principais armadilhas deixam de ser listas para decorar: **objetiva não elimina nexo; omissão não tem regime único; causa exclusiva e causa concorrente não produzem o mesmo efeito; responsabilidade da pessoa jurídica e regresso contra o agente são relações diferentes.**

@@ -1,10 +1,9 @@
-### 15. Fontes oficiais essenciais
-
-- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26)
-- [Constituição Federal — arts. 5º, XLIX, e 37, § 6º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm)
-- [Código Civil — arts. 43, 927, 944 e 945](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm)
-- [STF — Tema 592: responsabilidade por morte de detento](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=592)
-- [STF — Tema 362: crime praticado por preso foragido](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=362)
-- [STF — Tema 940: ação contra a pessoa jurídica e regresso](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=5136782&numeroProcesso=1027633&numeroTema=940)
-- [STJ — Informativo 733: omissão estatal, falha do serviço e nexo causal](https://processo.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D018973)
-- [STJ — Informativo 674: omissão em atividade de risco anormal](https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0674.cod.)
+- [Cebraspe — concurso TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6 de julho de 2026, retificações e cronograma; especialmente regras de corte de legislação e jurisprudência.
+- [Constituição da República Federativa do Brasil de 1988 — texto compilado, Planalto](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — artigos 5º, XLIX, e 37, § 6º.
+- [Código Civil — Lei nº 10.406/2002, texto compilado, Planalto](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm) — artigos 43, 927, parágrafo único, e 945.
+- [Supremo Tribunal Federal — Tema 592 da repercussão geral](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=592) — dever específico de proteção e morte de detento.
+- [Supremo Tribunal Federal — Tema 362 da repercussão geral](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=362) — crime praticado por pessoa foragida e exigência de nexo causal direto.
+- [Supremo Tribunal Federal — Tema 940 da repercussão geral](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=940) — ação contra a pessoa jurídica e direito de regresso contra o agente.
+- [Superior Tribunal de Justiça — REsp 1.492.832/DF](https://scon.stj.jus.br/SCON/jurisprudencia/toc.jsp?livre=%28RESP+INPATH%28CLAS%29+AND+1492832+INPATH%28NUM%29%29+OR+%28NEAR%28%28RESP%2C1492832%29%2C0%2CTRUE%29+INPATH%28SUCE%29%29) — responsabilidade objetiva por ato comissivo lícito e dano real, específico e anormal.
+- [Superior Tribunal de Justiça — Informativo 733](https://processo.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D018973) — omissão estatal, falha culposa do serviço, dano e nexo causal.
+- [Superior Tribunal de Justiça — Informativo 674](https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisar&livre=%40CNOT%3D%27017706%27) — responsabilidade objetiva em situação excepcional de atividade de risco anormal.
