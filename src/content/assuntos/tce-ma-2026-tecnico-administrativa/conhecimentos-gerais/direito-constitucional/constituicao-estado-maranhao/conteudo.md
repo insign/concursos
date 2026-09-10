@@ -8,885 +8,532 @@ storageId: tec-const-ma-132
 
 # Constituição do Estado do Maranhão
 
-## 1. Recorte do edital e corte temporal
+## 1. Como estudar uma Constituição estadual sem decorar 256 artigos
 
-O item **10 de Direito Constitucional** do Cargo 16 exige, sem restringir artigos ou títulos, a **Constituição do Estado do Maranhão**. Por isso, este assunto percorre toda a estrutura constitucional estadual, mas concentra a profundidade nos pontos que geram questões: competências, órgãos, iniciativas, quóruns, prazos, números, regras genuinamente maranhenses e alterações recentes.
+A Constituição do Maranhão faz duas coisas ao mesmo tempo. Em muitos pontos, ela **reproduz ou concretiza o modelo da Constituição Federal**: separação dos Poderes, concurso público, processo legislativo, controle de constitucionalidade, segurança pública e orçamento. Em outros, traz regras genuinamente estaduais: São Luís na Ilha de Upaon-Açu, regionalização, transição municipal, proteção dos babaçuais, planejamento de longo prazo e detalhes próprios de instituições maranhenses.
 
-O **corte da prova é 6 de julho de 2026**, data do edital. A edição consolidada publicada pela Assembleia Legislativa do Maranhão (ALEMA) reúne o texto promulgado em 5 de outubro de 1989 e as **Emendas Constitucionais estaduais nº 1/1989 a 101/2024**. Para chegar ao texto vigente no corte, é indispensável acrescentar:
+Para prova, use quatro perguntas:
 
-- **EC estadual nº 102, de 11 de dezembro de 2025**: atualizou a Defensoria Pública, alterou a legitimação para ação direta de inconstitucionalidade estadual e acrescentou o art. 111-A;
-- **EC estadual nº 103, de 19 de dezembro de 2025**: atualizou a disciplina das emendas parlamentares individuais ao orçamento, especialmente o art. 136-B.
+1. **a regra apenas reproduz um modelo federal ou tem peculiaridade maranhense?**
+2. **qual órgão estadual age — Assembleia, Governador, Tribunal de Justiça, Tribunal de Contas ou instituição essencial à justiça?**
+3. **há número, prazo ou quórum próprio do texto estadual?**
+4. **o dispositivo está vigente no corte ou aparece apenas por razões históricas/anotações?**
 
-> **Regra de estudo:** quando a edição consolidada de 2024 divergir das ECs 102/2025 ou 103/2025, prevalece a emenda posterior, porque já estava vigente em 6/7/2026.
+Esse último filtro é indispensável porque a edição consolidada da Assembleia Legislativa reúne as <abbr title="Emendas Constitucionais">ECs</abbr> estaduais nº 1/1989 a 101/2024. Para o corte da prova, **6 de julho de 2026**, devem ser incorporadas também:
 
-### 1.1 Fronteiras com outros assuntos
+- a <abbr title="Emenda Constitucional">EC</abbr> estadual nº 102/2025, que atualizou a Defensoria Pública, incluiu o Defensor Público-Geral entre os legitimados para ação direta de inconstitucionalidade estadual e acrescentou o art. 111-A;
+- a <abbr title="Emenda Constitucional">EC</abbr> estadual nº 103/2025, que modificou as emendas parlamentares individuais ao orçamento, especialmente o art. 136-B.
 
-Este assunto não repete em profundidade:
-
-- a teoria geral da Constituição Federal, já tratada nos assuntos 123–131;
-- a disciplina detalhada do **<abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>**, já estudada no assunto 054 de Controle Externo;
-- a disciplina federal completa de Ministério Público, Advocacia Pública e Defensoria Pública, já estudada no assunto 131.
-
-Aqui o foco é **o desenho estadual e suas peculiaridades**.
+Portanto, quando a consolidação de 2024 divergir dessas emendas posteriores, **vale para a prova a redação vigente em 6/7/2026**.
 
 ---
 
-## 2. Mapa da Constituição maranhense
+# Parte I — Estado, competências e Administração
 
-A Constituição é organizada, em linhas gerais, assim:
+## 2. Autonomia estadual, fundamentos e identidade maranhense — arts. 1º a 10
 
-| Bloco | Conteúdo |
-|---|---|
-| Títulos I e II | disposições preliminares; direitos e garantias fundamentais |
-| Título III | Estado: organização, competências, bens, intervenção, Administração |
-| Título IV | Poderes: Legislativo, Executivo, Judiciário e funções essenciais à justiça |
-| Título V | defesa do Estado e segurança pública |
-| Título VI | tributação e orçamento |
-| Título VII | organização municipal |
-| Título VIII | ordem econômica e social |
-| Título IX + <abbr title="Ato das Disposições Constitucionais Transitórias">ADCT</abbr> | disposições gerais finais e transitórias |
+O Maranhão integra a República Federativa do Brasil com seus Municípios. O Estado possui **autonomia político-administrativa**, mas não soberania: a soberania pertence à República Federativa do Brasil.
 
-Esse mapa ajuda a localizar a matéria, mas prova costuma cobrar **regra concreta**, e não apenas o nome dos títulos.
+A Constituição estadual afirma que todo poder emana do povo e admite exercício direto da soberania popular, nos termos constitucionais e legais, por **plebiscito, referendo e iniciativa popular**.
 
----
+O art. 2º apresenta cinco fundamentos:
 
-## 3. Disposições preliminares e direitos fundamentais — arts. 1º a 5º
+- autonomia;
+- cidadania;
+- dignidade da pessoa humana;
+- valores sociais do trabalho e da livre iniciativa;
+- pluralismo político.
 
-### 3.1 Estado, Municípios e autonomia
+O art. 3º acrescenta uma marca estadual importante: a atuação do Maranhão deve orientar-se pela **regionalização**, buscando desenvolvimento e redução das desigualdades sociais.
 
-O Estado do Maranhão e seus Municípios integram a República Federativa do Brasil com **autonomia político-administrativa**.
+A Constituição também reproduz direitos e garantias fundamentais e veda ao Estado e aos Municípios, entre outros comportamentos, estabelecer ou subvencionar cultos fora da colaboração de interesse público, recusar fé a documentos públicos e criar distinções entre brasileiros.
 
-A Constituição estadual reafirma que:
+Duas informações de identidade estadual são objetivas:
 
-- todo poder emana do povo;
-- o povo o exerce por representantes eleitos ou diretamente;
-- o Estado se organiza por sua Constituição e pelas leis que adotar, respeitados os princípios da Constituição Federal.
+- símbolos: **bandeira, brasão e hino**;
+- capital: **São Luís, situada na Ilha de Upaon-Açu**.
 
-A soberania popular pode ser exercida, nos termos constitucionais e legais, por:
+Alteração territorial do Estado depende de aprovação da população diretamente interessada, por plebiscito, e de lei complementar federal. Criação, incorporação, fusão e desmembramento de Município também se submetem ao modelo da Constituição Federal e à legislação complementar federal.
 
-```text
-plebiscito + referendo + iniciativa popular
-```
+## 3. Competências: o que cabe ao Estado fazer e legislar — arts. 11 a 13
 
-### 3.2 Fundamentos do Estado
+A federação distribui competências entre União, Estados, Distrito Federal e Municípios. Para o Estado, três ideias organizam o tema.
 
-O art. 2º reúne cinco fundamentos:
+### 3.1 Competência residual
 
-1. autonomia;
-2. cidadania;
-3. dignidade da pessoa humana;
-4. valores sociais do trabalho e da livre iniciativa;
-5. pluralismo político.
+O Maranhão conserva as competências que a Constituição Federal **não lhe proíba explícita ou implicitamente**. Essa é a <abbr title="Competência estadual sobre matérias não atribuídas nem vedadas pela Constituição Federal">competência residual</abbr> dos Estados.
 
-O art. 3º orienta a atuação estadual para a **regionalização**, buscando desenvolvimento e redução das desigualdades sociais.
+### 3.2 Competência comum
 
-### 3.3 Direitos e vedações
+Há tarefas que são exercidas cooperativamente por mais de um ente federativo, como proteção de certos bens e políticas públicas. A Constituição estadual detalha competências comuns com União e Municípios.
 
-A Constituição estadual assegura, no território e nos limites da competência estadual, os direitos e garantias fundamentais nos termos da Constituição Federal.
+### 3.3 Competência legislativa concorrente
 
-Ao Estado e aos Municípios é vedado, entre outros pontos:
+Na <abbr title="Competência legislativa compartilhada entre União e Estados conforme a Constituição">competência concorrente</abbr>, a União edita normas gerais e o Estado suplementa.
 
-- estabelecer ou subvencionar cultos, embaraçar seu funcionamento ou manter dependência/aliança, ressalvada colaboração de interesse público;
-- recusar fé a documentos públicos;
-- criar distinções entre brasileiros ou preferências entre si.
+Se **não houver lei federal de normas gerais**, o Maranhão exerce competência legislativa plena para atender às suas peculiaridades.
 
----
+Se depois surgir lei federal de normas gerais, ela **não revoga automaticamente toda a lei estadual**. Fica suspensa a eficácia da norma estadual **apenas no que contrariar** a norma geral federal.
 
-## 4. Organização do Estado, competências e bens — arts. 6º a 15
+Esse mecanismo é mais importante do que decorar a expressão: primeiro o Estado pode preencher a ausência; depois, a norma geral federal superveniente limita a eficácia do que se tornou incompatível.
 
-### 4.1 Poderes estaduais
+## 4. Bens estaduais e a trava dos três últimos meses — arts. 14 e 15
 
-São Poderes do Estado, independentes e harmônicos:
+Entre os bens do Estado estão terras devolutas que não pertençam à União, determinadas áreas insulares, águas superficiais e subterrâneas e outros bens definidos pelo regime constitucional.
 
-```text
-Legislativo + Executivo + Judiciário
-```
+<abbr title="Terras públicas sem destinação privada legítima reconhecida">Terras devolutas</abbr> são patrimônio público sujeito a regime próprio; não devem ser confundidas com qualquer imóvel rural sem ocupação.
 
-Como regra, um Poder não pode delegar suas atribuições a outro, nem alguém investido na função de um deles exercer a de outro, ressalvadas as exceções constitucionais.
+O Estado também participa, nos termos constitucionais e legais, de receitas decorrentes da exploração de petróleo, gás natural, recursos hídricos e minerais.
 
-### 4.2 Símbolos, capital e território
-
-- símbolos estaduais: **bandeira, brasão e hino**;
-- capital: **São Luís**, situada na Ilha de Upaon-Açu;
-- alteração territorial do Estado depende de aprovação da população diretamente interessada por **plebiscito** e do Congresso Nacional por **lei complementar**;
-- criação, incorporação, fusão e desmembramento de Município seguem os requisitos da Constituição Federal e da legislação complementar federal, com estudos de viabilidade e consulta plebiscitária.
-
-### 4.3 Competência residual do Estado
-
-O art. 11 formula a competência residual estadual: ficam reservadas ao Maranhão as competências que não lhe sejam explícita ou implicitamente vedadas pela Constituição Federal.
-
-O art. 12 detalha:
-
-- competências **comuns** com União e Municípios;
-- competências **legislativas concorrentes** com a União.
-
-Na competência concorrente:
-
-- sem lei federal de normas gerais, o Estado exerce competência legislativa plena para atender a suas peculiaridades;
-- sobrevindo lei federal de normas gerais, fica **suspensa a eficácia** da lei estadual no que lhe for contrário.
-
-> **Pegadinha:** superveniência de norma geral federal não “revoga” toda a lei estadual; suspende sua eficácia no ponto incompatível.
-
-### 4.4 Bens estaduais
-
-Entre os bens estaduais estão:
-
-- terras devolutas não compreendidas entre as da União;
-- determinadas áreas em ilhas;
-- ilhas fluviais e lacustres não pertencentes à União;
-- águas superficiais ou subterrâneas, com as ressalvas constitucionais;
-- rios e lagos do território não incluídos entre os bens federais.
-
-O Estado tem direito, na forma constitucional e legal, a compensação financeira ou participação pela exploração de petróleo, gás natural, recursos hídricos e minerais.
-
-**Regra estadual peculiar:** é vedada, a qualquer título, a alienação ou cessão de bens do patrimônio estadual nos **últimos três meses do mandato do Governador**.
+A peculiaridade de prova está no final do mandato: é vedada, a qualquer título, a **alienação ou cessão de bens do patrimônio estadual nos últimos três meses do mandato do Governador**.
 
 ---
 
-## 5. Intervenção estadual nos Municípios — arts. 16 a 18
+## 5. Intervenção estadual: exceção à autonomia municipal — arts. 16 a 18
 
-O Estado não intervirá no Município, salvo nas hipóteses constitucionais. Entre elas:
+Município tem autonomia. Por isso, intervenção estadual é medida excepcional e só cabe nas hipóteses constitucionais.
 
-- falta de pagamento da dívida fundada por **dois anos consecutivos**, sem força maior;
+Entre elas estão:
+
+- não pagamento, sem força maior, da <abbr title="Dívida pública consolidada de prazo mais longo">dívida fundada</abbr> por **dois anos consecutivos**;
 - falta de prestação das contas devidas;
-- descumprimento dos mínimos constitucionais em educação e saúde;
-- provimento pelo Tribunal de Justiça de representação para execução de lei, ordem ou decisão judicial;
-- provimento de representação para assegurar princípios constitucionais estaduais como forma republicana, regime democrático, dignidade e direitos da pessoa humana e prestação de contas.
+- descumprimento dos mínimos constitucionais de educação e saúde;
+- necessidade de assegurar execução de lei, ordem ou decisão judicial;
+- violação dos princípios estaduais protegidos pelo mecanismo constitucional de representação.
 
-### 5.1 Procedimento e prazos
+O procedimento varia conforme a hipótese. Pode haver requisição do Tribunal de Justiça ou representação do Procurador-Geral de Justiça provida pelo Tribunal.
 
-A intervenção pode depender de:
+O decreto de intervenção deve indicar amplitude, prazo, condições de execução e, se couber, o interventor. Quando sujeito ao controle político da Assembleia, o decreto deve ser submetido a ela em **24 horas**. Se a Assembleia não estiver funcionando, será convocada extraordinariamente no mesmo prazo.
 
-- requisição do Tribunal de Justiça, em caso de desobediência a ordem ou decisão judicial;
-- representação do Procurador-Geral de Justiça provida pelo Tribunal de Justiça, nas hipóteses constitucionais correspondentes.
-
-O decreto de intervenção deve indicar amplitude, prazo, condições de execução e, se couber, interventor.
-
-Regra de prova:
-
-```text
-decreto de intervenção → Assembleia Legislativa → 24 horas
-```
-
-Se a Assembleia não estiver funcionando, é convocada extraordinariamente no mesmo prazo.
-
-Cessados os motivos da intervenção, as autoridades afastadas retornam, salvo impedimento legal.
+Cessado o motivo da intervenção, as autoridades afastadas retornam, salvo impedimento legal.
 
 ---
 
-## 6. Administração Pública estadual e municipal — arts. 19 a 26
+## 6. Administração Pública: regra geral e peculiaridade estadual — arts. 19 a 26
 
-A Constituição maranhense impõe à Administração direta, indireta e fundacional dos Poderes estaduais e municipais:
+A Administração direta, indireta e fundacional dos Poderes estaduais e municipais obedece a:
 
-```text
-legalidade
-impessoalidade
-moralidade
-publicidade
-razoabilidade
-eficiência
-```
+- legalidade;
+- impessoalidade;
+- moralidade;
+- publicidade;
+- **razoabilidade**;
+- eficiência.
 
-A presença expressa da **razoabilidade** é uma peculiaridade de literalidade útil em prova.
+A **razoabilidade** é a palavra que merece atenção porque aparece expressamente no texto estadual ao lado dos princípios mais conhecidos da Constituição Federal.
 
-Entre as regras estruturais:
+Outras regras essenciais:
 
-- concurso público de provas ou de provas e títulos para cargo ou emprego, salvo cargo em comissão de livre nomeação e exoneração;
-- validade do concurso de até **2 anos**, prorrogável uma vez por igual período;
-- funções de confiança exclusivamente para servidores efetivos;
-- funções de confiança e cargos em comissão somente para direção, chefia e assessoramento;
-- contratação temporária apenas para necessidade temporária de excepcional interesse público;
-- remuneração/subsídio por lei específica, observada a iniciativa competente;
-- revisão geral anual, na mesma data e sem distinção de índices.
+- ingresso em cargo ou emprego depende de concurso público de provas ou de provas e títulos, ressalvados os cargos em comissão;
+- o concurso vale por até **2 anos**, prorrogável **uma vez por igual período**;
+- funções de confiança são exercidas exclusivamente por servidores ocupantes de cargo efetivo;
+- funções de confiança e cargos em comissão destinam-se apenas a direção, chefia e assessoramento;
+- contratação temporária depende de necessidade temporária de excepcional interesse público;
+- remuneração e subsídio dependem de lei específica, observada a iniciativa competente;
+- revisão geral anual deve ocorrer na mesma data e sem distinção de índices.
 
-A matéria de servidores estaduais é extensa, mas, neste assunto, deve ser lida em conjunto com as regras federais já estudadas. O ganho marginal está nas peculiaridades do texto estadual e nas atualizações anotadas pela ALEMA.
+O capítulo constitucional dos servidores é extenso. Aqui, o que precisa permanecer na memória são a lógica geral e as peculiaridades estaduais, não uma segunda reprodução de toda a disciplina federal.
 
 ---
 
-# Parte II — Poderes do Estado
+# Parte II — Poder Legislativo e processo legislativo
 
-## 7. Poder Legislativo — Assembleia Legislativa
+## 7. Assembleia Legislativa: representar, legislar e fiscalizar — arts. 27 a 39
 
-### 7.1 Estrutura básica
+O Poder Legislativo estadual é exercido pela **Assembleia Legislativa**, formada por Deputados estaduais eleitos pelo sistema proporcional para legislatura de **4 anos**.
 
-O Poder Legislativo é exercido pela **Assembleia Legislativa**, composta por deputados estaduais eleitos pelo sistema proporcional para legislatura de **4 anos**.
+A Assembleia possui autonomia funcional, administrativa e financeira.
 
-A Assembleia possui autonomia:
+A sessão legislativa ordinária ocorre:
 
-```text
-funcional + administrativa + financeira
-```
+- de **2 de fevereiro a 17 de julho**;
+- de **1º de agosto a 22 de dezembro**.
 
-### 7.2 Período da sessão legislativa
+A sessão não será interrompida sem aprovação da lei de diretrizes orçamentárias, conforme o regime constitucional.
 
-A Assembleia reúne-se anualmente na capital:
+### 7.1 Direção Superior e o limite imposto pela Constituição Federal
 
-- **2 de fevereiro a 17 de julho**;
-- **1º de agosto a 22 de dezembro**.
+A <abbr title="Emenda Constitucional">EC</abbr> estadual nº 101/2024 acrescentou o art. 28-C e estruturou a Direção Superior da Assembleia Legislativa.
 
-A sessão legislativa não pode ser interrompida sem a aprovação da lei de diretrizes orçamentárias, conforme o regime constitucional.
+Essa organização administrativa continua válida, mas não autoriza o Estado a criar qualquer consequência constitucional que queira. Na <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 7.757, o <abbr title="Supremo Tribunal Federal">STF</abbr> invalidou a extensão de foro por prerrogativa de função a cargos administrativos da Direção Superior, porque a Constituição Federal não oferece base para esse foro.
 
-### 7.3 Procuradoria e Direção Superior
-
-A Constituição prevê Procuradoria-Geral da Assembleia para consultoria jurídica e representação judicial do Poder Legislativo, no que couber.
-
-A EC nº 101/2024 acrescentou o art. 28-C sobre a Direção Superior da Assembleia. O tema exige uma cautela jurisprudencial: no corte do edital, o <abbr title="Supremo Tribunal Federal">STF</abbr> já havia julgado a **<abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 7.757**, invalidando a extensão de foro por prerrogativa de função a ocupantes de cargos administrativos da Direção Superior. A existência da estrutura administrativa não autoriza criar foro especial sem base na Constituição Federal.
-
-> **Pegadinha:** cargo de alta direção administrativa da Assembleia ≠ autoridade automaticamente dotada de foro criminal originário no TJ/MA.
-
-### 7.4 Perda e preservação do mandato
-
-A Constituição estadual disciplina hipóteses de perda e de não perda do mandato parlamentar. Em matéria de decoro e determinadas incompatibilidades, a deliberação é da Assembleia, com ampla defesa e os quóruns constitucionais. Para prova, atenção à diferença entre:
-
-- **perda decidida pelo Plenário**;
-- **perda declarada pela Mesa**, nas hipóteses constitucionais correspondentes.
-
-Não é produtivo memorizar cada detalhe isolado sem antes identificar qual hipótese está sendo cobrada.
+A lição é útil além do caso: **a Constituição estadual organiza o Estado, mas continua subordinada aos limites da Constituição Federal**.
 
 ---
 
-## 8. Processo legislativo estadual — arts. 40 a 49
+## 8. Processo legislativo estadual: quem propõe, quem aprova e quem participa — arts. 40 a 49
 
-### 8.1 Espécies normativas
+O processo legislativo estadual compreende emendas à Constituição, leis complementares, leis ordinárias, medidas provisórias, decretos legislativos e resoluções.
 
-O processo legislativo compreende:
+Em vez de decorar espécies isoladas, acompanhe o fluxo: **iniciativa → deliberação → participação do Governador quando cabível → promulgação**.
 
-1. emendas à Constituição;
-2. leis complementares;
-3. leis ordinárias;
-4. medidas provisórias;
-5. decretos legislativos;
-6. resoluções.
+### 8.1 Emenda à Constituição estadual
 
-### 8.2 Emenda à Constituição estadual
+Podem apresentar <abbr title="Proposta de Emenda à Constituição">PEC</abbr> estadual:
 
-Podem propor emenda:
-
-- no mínimo **1/3** dos membros da Assembleia;
-- Governador;
+- pelo menos **1/3 dos membros da Assembleia**;
+- o Governador;
 - mais da metade das Câmaras Municipais, cada uma pela maioria relativa de seus membros;
 - cidadãos, por iniciativa popular.
 
-Para iniciativa popular de **<abbr title="Proposta de Emenda à Constituição">PEC</abbr> estadual**:
+A iniciativa popular de <abbr title="Proposta de Emenda à Constituição">PEC</abbr> exige:
 
-```text
-2% do eleitorado estadual
-+ distribuição em pelo menos 18% dos Municípios
-+ pelo menos 0,3% dos eleitores em cada um deles
-+ apreciação em até 60 dias
-```
+- **2% do eleitorado estadual**;
+- assinaturas distribuídas por pelo menos **18% dos Municípios**;
+- pelo menos **0,3% dos eleitores de cada um** desses Municípios;
+- apreciação em até **60 dias**.
 
-A Constituição não pode ser emendada durante:
+A Constituição estadual não pode ser emendada durante intervenção federal, estado de defesa ou estado de sítio.
 
-- intervenção federal;
-- estado de defesa;
-- estado de sítio.
+A aprovação exige **3/5 dos membros, em dois turnos**. A emenda é promulgada pela **Mesa Diretora da Assembleia Legislativa**; não há sanção do Governador.
 
-A proposta é votada em **2 turnos** e precisa de **3/5 dos membros em ambos**.
+Há uma diferença importante em relação ao modelo federal: matéria de <abbr title="Proposta de Emenda à Constituição">PEC</abbr> rejeitada ou prejudicada pode voltar na mesma sessão legislativa se a nova proposta for subscrita por **mais de 2/3 dos membros da Assembleia**.
 
-A emenda é promulgada pela **Mesa Diretora da Assembleia**.
+### 8.2 Projeto de lei e iniciativa popular
 
-Matéria de PEC rejeitada ou prejudicada não volta na mesma sessão legislativa, salvo se a nova proposta for subscrita por **mais de 2/3** dos membros.
+A iniciativa de leis complementares e ordinárias pode caber, conforme a matéria, a Deputados ou comissões, Governador, Tribunal de Justiça, Procurador-Geral de Justiça e cidadãos.
 
-### 8.3 Iniciativa das leis e iniciativa popular
+A iniciativa popular de projeto de lei exige:
 
-A iniciativa de leis complementares e ordinárias cabe, conforme a matéria, a membros/comissões da Assembleia, Governador, Tribunal de Justiça, Procurador-Geral da Justiça e cidadãos.
+- **1% do eleitorado estadual**;
+- distribuição por pelo menos **18% dos Municípios**;
+- mínimo de **0,3% dos eleitores em cada um**;
+- apreciação em até **60 dias**.
 
-A iniciativa popular ordinária exige:
-
-```text
-1% do eleitorado estadual
-+ pelo menos 18% dos Municípios
-+ pelo menos 0,3% dos eleitores de cada um
-+ apreciação em até 60 dias
-```
-
-Compare:
+O contraste resolve uma troca frequente:
 
 | Iniciativa popular | Percentual estadual |
 |---|---:|
-| PEC | **2%** |
+| emenda constitucional | **2%** |
 | projeto de lei | **1%** |
 
-### 8.4 Medidas provisórias estaduais
+### 8.3 Iniciativa privativa do Governador
 
-Em caso de relevância e urgência, o Governador pode adotar medida provisória com força de lei, submetendo-a imediatamente à Assembleia, dentro das balizas constitucionais federais e estaduais.
+Certas matérias só podem ser iniciadas pelo Governador, como regras sobre efetivos da Polícia Militar e do Corpo de Bombeiros Militar, cargos e remuneração na administração estadual, organização administrativa e orçamentária, regime jurídico de servidores e estrutura de Secretarias.
 
-A lógica básica acompanha o modelo federal: prazo, eventual prorrogação, regime de urgência e vedações materiais devem ser lidos como limites constitucionais, não como autorização legislativa geral ao Executivo.
+A reserva de iniciativa impede que outro legitimado substitua o Governador apenas porque a Assembleia será responsável por votar o projeto.
 
-### 8.5 Iniciativa privativa do Governador
+### 8.4 Medida provisória estadual
 
-São de iniciativa privativa do Governador leis sobre, entre outros temas:
+A Constituição maranhense autoriza o Governador a editar medida provisória em caso de relevância e urgência, submetendo-a imediatamente à Assembleia.
 
-- efetivos da Polícia Militar e do Corpo de Bombeiros Militar;
-- criação de cargos/funções/empregos na Administração direta e autárquica ou aumento de remuneração;
-- organização administrativa e matéria orçamentária;
-- regime jurídico, provimento, estabilidade e aposentadoria de servidores;
-- estrutura e atribuições de Secretarias e órgãos equivalentes.
+O texto estadual também impõe vedações materiais, inclusive para matérias relativas à organização do Poder Judiciário e do Ministério Público, planos e orçamento nas hipóteses indicadas, matérias reservadas a lei complementar e matéria já aprovada pela Assembleia e pendente de sanção ou veto.
 
-### 8.6 Urgência
+O importante é perceber que a medida provisória é **via excepcional de produção normativa**, não uma autorização geral para o Executivo legislar.
 
-O Governador pode solicitar urgência para projetos de sua iniciativa. Se a Assembleia não se manifestar em **45 dias**, ficam sobrestadas as demais deliberações, ressalvadas as de prazo constitucional determinado, até a votação.
+### 8.5 Urgência, sanção e veto
 
-Esse prazo:
+O Governador pode pedir urgência para projeto de sua iniciativa. Se a Assembleia não se manifestar em **45 dias**, ficam sobrestadas as demais deliberações, ressalvadas as matérias com prazo constitucional próprio. O prazo não corre no recesso e não se aplica a projetos de código.
 
-- não corre no recesso;
-- não se aplica a projetos de código.
+<abbr title="Suspensão temporária da apreciação de outras matérias até a votação prioritária">Sobrestamento</abbr> significa justamente essa paralisação da pauta em favor da matéria urgente.
 
-### 8.7 Sanção e veto
+Depois de aprovado projeto sujeito à participação do Executivo, o Governador dispõe de **15 dias úteis** para sancionar ou vetar. O silêncio produz sanção.
 
-O Governador dispõe de **15 dias úteis** para vetar total ou parcialmente projeto aprovado, por inconstitucionalidade ou contrariedade ao interesse público.
+O veto pode fundar-se em inconstitucionalidade ou contrariedade ao interesse público. Se parcial, só pode alcançar o texto integral de artigo, parágrafo, inciso ou alínea. Os motivos devem ser comunicados ao Presidente da Assembleia em **48 horas**.
 
-Deve comunicar os motivos ao Presidente da Assembleia em **48 horas**.
+O veto deve ser apreciado em **30 dias** e só é rejeitado pela maioria dos Deputados, em votação nominal.
 
-O veto parcial só pode atingir texto integral de:
+Lei complementar estadual exige **maioria absoluta**.
 
-```text
-artigo / parágrafo / inciso / alínea
-```
-
-Silêncio após o prazo de 15 dias = **sanção**.
-
-O veto deve ser apreciado em **30 dias** e só é rejeitado pela maioria dos deputados, em votação nominal.
-
-### 8.8 Lei complementar e reapresentação
-
-- lei complementar: aprovação por **maioria absoluta**;
-- projeto de lei rejeitado: só pode ser reapresentado na mesma sessão legislativa mediante proposta da **maioria absoluta** dos membros da Assembleia.
-
-Não confunda a regra da lei rejeitada com a regra mais rígida da PEC rejeitada.
+Projeto de lei rejeitado só pode voltar na mesma sessão legislativa mediante proposta da **maioria absoluta dos membros da Assembleia**. Essa regra é diferente da reapresentação da <abbr title="Proposta de Emenda à Constituição">PEC</abbr>, que exige subscrição superior a 2/3.
 
 ---
 
-## 9. Fiscalização e TCE/MA — apenas a fronteira necessária
+## 9. Controle externo: Assembleia como titular, Tribunal de Contas como auxiliar — arts. 50 a 53
 
-Os arts. 50 a 53 tratam da fiscalização contábil, financeira, orçamentária, operacional e patrimonial e do Tribunal de Contas.
+A fiscalização estadual abrange dimensões contábil, financeira, orçamentária, operacional e patrimonial.
 
-Para este assunto, retenha apenas a posição constitucional:
+O **controle externo é exercido pela Assembleia Legislativa com auxílio do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>**. O Tribunal possui competências constitucionais próprias, mas não substitui a Assembleia na titularidade do controle externo.
 
-- a Assembleia exerce o controle externo com auxílio do TCE/MA;
-- o Tribunal possui competências constitucionais próprias;
-- responsáveis pelo controle interno devem comunicar irregularidades ao TCE/MA, sob pena de responsabilidade solidária;
-- qualquer cidadão, partido, associação ou sindicato pode denunciar irregularidades ao Tribunal, na forma da lei;
-- as contas do Estado ficam **30 dias** na Assembleia, antes da votação, à disposição de contribuinte para exame.
+Responsáveis pelo controle interno que conheçam irregularidade devem comunicar o fato ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, sob pena de responsabilidade solidária. Cidadão, partido político, associação e sindicato também podem denunciar irregularidades ao Tribunal, na forma da lei.
 
-A composição, escolha, garantias e competências detalhadas do TCE/MA já pertencem ao assunto específico de Controle Externo e não devem ser duplicadas aqui.
+Antes da votação, as contas do Estado ficam **30 dias** na Assembleia à disposição de qualquer contribuinte para exame.
+
+A composição, escolha e competências detalhadas do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> pertencem ao assunto específico de Controle Externo; aqui basta entender sua posição no desenho constitucional estadual.
 
 ---
 
-## 10. Poder Executivo — Governador e Vice-Governador
+# Parte III — Poder Executivo, Judiciário e funções essenciais
 
-### 10.1 Mandato e posse
+## 10. Governador e Vice-Governador — arts. 54 a 70
 
-O Poder Executivo é exercido pelo Governador, auxiliado pelos Secretários de Estado ou cargos equivalentes.
+O Poder Executivo é exercido pelo Governador, auxiliado pelos Secretários de Estado ou ocupantes de cargos equivalentes.
 
-A eleição do Governador e do Vice é simultânea.
+Governador e Vice são eleitos simultaneamente. O mandato dura **4 anos** e, desde a <abbr title="Emenda Constitucional">EC</abbr> estadual nº 100/2024, começa em **6 de janeiro do ano seguinte à eleição**.
 
-O mandato é de **4 anos** e, após a EC nº 100/2024, começa em:
+A idade mínima constitucional é de **30 anos**.
 
-```text
-6 de janeiro do ano seguinte à eleição
-```
+### 10.1 Impedimento, sucessão e dupla vacância
 
-A idade mínima constitucional para Governador e Vice é **30 anos**.
-
-### 10.2 Substituição e sucessão
-
-Em impedimento ou vacância simultânea de Governador e Vice, são chamados, sucessivamente:
+Se Governador e Vice estiverem simultaneamente impedidos, ou se ambos os cargos estiverem vagos, são chamados ao exercício do Executivo, sucessivamente:
 
 1. Presidente da Assembleia Legislativa;
 2. Presidente do Tribunal de Justiça.
 
-### 10.3 Dupla vacância
+Se os dois cargos vagarem:
 
-Se vagarem os dois cargos:
+- como regra, haverá eleição **90 dias depois da última vaga**;
+- se a dupla vacância ocorrer nos **dois últimos anos do mandato**, a Assembleia Legislativa elegerá Governador e Vice em **30 dias**, por voto nominal.
 
-- regra: eleição **90 dias** depois da última vaga;
-- se a dupla vacância ocorrer nos **2 últimos anos** do mandato: eleição em **30 dias**, pela Assembleia Legislativa, por voto nominal.
+Em qualquer hipótese, os eleitos apenas completam o período restante.
 
-Em qualquer caso, o eleito apenas completa o período restante.
+Governador e Vice não podem ausentar-se do **País ou do Estado** por mais de **15 dias** sem licença da Assembleia.
 
-### 10.4 Ausência do Estado ou do País
+### 10.2 Atribuições e responsabilidade
 
-Governador e Vice não podem ausentar-se do País **ou do Estado** por mais de **15 dias** sem licença da Assembleia Legislativa.
+Entre as atribuições privativas do Governador estão nomear e exonerar Secretários, iniciar projetos nas matérias reservadas, sancionar, promulgar e publicar leis, expedir decretos e regulamentos, vetar projetos, dirigir a Administração e decretar intervenção municipal nas hipóteses constitucionais.
 
-### 10.5 Atribuições do Governador
+A acusação contra o Governador depende de admissibilidade por **2/3 dos Deputados**. Admitida:
 
-Entre as atribuições privativas:
+- infração penal comum → julgamento pelo <abbr title="Superior Tribunal de Justiça">STJ</abbr>;
+- crime de responsabilidade → julgamento pela Assembleia Legislativa.
 
-- nomear e exonerar Secretários e autoridades previstas na Constituição;
-- iniciar processo legislativo nos casos próprios;
-- sancionar, promulgar e publicar leis;
-- expedir decretos e regulamentos;
-- vetar projetos;
-- organizar e dirigir a Administração nos limites legais;
-- decretar e executar intervenção municipal;
-- nomear Procurador-Geral de Justiça e Defensor Público-Geral a partir das listas constitucionais;
-- nomear Conselheiros do TCE nas hipóteses estaduais;
-- exercer comando superior da Polícia Militar;
-- encaminhar instrumentos de planejamento e orçamento.
-
-### 10.6 Responsabilidade do Governador
-
-Admitida a acusação por **2/3 dos deputados**, o Governador será julgado:
-
-- pelo **<abbr title="Superior Tribunal de Justiça">STJ</abbr>**, nas infrações penais comuns;
-- pela **Assembleia Legislativa**, nos crimes de responsabilidade.
-
-Se o julgamento não terminar em **180 dias**, cessa o afastamento, sem prejuízo do prosseguimento do processo.
+Se o julgamento que motivou o afastamento não terminar em **180 dias**, cessa o afastamento, mas o processo continua.
 
 ---
 
-## 11. Poder Judiciário estadual
+## 11. Poder Judiciário estadual e controle de constitucionalidade — arts. 71 a 93
 
-A Constituição estadual organiza o Judiciário local, observada a Constituição Federal.
+A Constituição estadual organiza o Judiciário local dentro do modelo da Constituição Federal. Entre os órgãos previstos estão Tribunal de Justiça, Conselho de Justiça Militar, Tribunais do Júri, Juízes de Direito, Juizados Especiais e Juízes de Paz.
 
-Entre os órgãos previstos estão:
+A Justiça de Paz é remunerada e formada por cidadãos eleitos por voto direto, universal e secreto para mandato de **4 anos**, com atribuições definidas em lei dentro dos limites constitucionais.
 
-- Tribunal de Justiça;
-- Conselho de Justiça Militar;
-- Tribunais do Júri;
-- Juízes de Direito;
-- Juizados Especiais;
-- Juízes de Paz.
+### 11.1 Ação direta estadual: qual norma é comparada com qual Constituição?
 
-A Justiça Militar estadual é estruturada nos termos constitucionais e, no segundo grau, atua o Tribunal de Justiça.
+O <abbr title="Controle judicial abstrato da validade de uma norma">controle concentrado estadual</abbr> permite examinar lei ou ato normativo **estadual ou municipal** diante da **Constituição do Estado do Maranhão**.
 
-### 11.1 Justiça de Paz
+Entre os legitimados estão os previstos no art. 92. Para o corte de 2026, a atualização decisiva é a <abbr title="Emenda Constitucional">EC</abbr> estadual nº 102/2025: ela acrescentou o **Defensor Público-Geral do Estado** ao inciso II, ao lado do Procurador-Geral do Estado e do Procurador-Geral de Justiça.
 
-A Justiça de Paz é remunerada, composta por cidadãos eleitos por voto direto, universal e secreto, com mandato de **4 anos**, com atribuições definidas em lei dentro do modelo constitucional.
+Na ação direta de inconstitucionalidade, o Procurador-Geral de Justiça deve ser ouvido previamente.
 
----
+Na <abbr title="Controle de omissão que impede a efetividade de norma constitucional">inconstitucionalidade por omissão</abbr>, a decisão é comunicada ao Poder competente. Se a providência couber a órgão administrativo, o prazo constitucional é de **30 dias**.
 
-## 12. Controle concentrado estadual — arts. 92 e 93
+O Tribunal de Justiça somente declara a inconstitucionalidade pelo voto da **maioria absoluta de seus membros**.
 
-A ação direta estadual examina lei ou ato normativo **estadual ou municipal** em face da **Constituição do Estado**.
-
-A edição consolidada até EC 101/2024 trazia, no art. 92, entre os legitimados:
-
-- Governador e Mesa da Assembleia;
-- Procurador-Geral do Estado e Procurador-Geral de Justiça;
-- Prefeito e Mesa da Câmara do Município interessado;
-- Conselho Seccional da OAB;
-- federações sindicais, entidades de classe e conselhos profissionais nas hipóteses constitucionais;
-- partidos políticos com representação legislativa.
-
-### 12.1 Atualização obrigatória da EC nº 102/2025
-
-A EC nº 102/2025 acrescentou o **Defensor Público-Geral do Estado** ao rol do art. 92, II.
-
-Portanto, no corte:
-
-```text
-PGE + PGJ + DPG → legitimados no inciso II
-```
-
-O Procurador-Geral de Justiça deve ser ouvido previamente na ADI.
-
-Na inconstitucionalidade por omissão:
-
-- a decisão é comunicada ao Poder competente;
-- se a omissão for de órgão administrativo, o prazo constitucional é de **30 dias**.
-
-O Tribunal de Justiça somente declara a inconstitucionalidade pelo voto da **maioria absoluta** de seus membros.
-
-> **Pegadinha:** a EC 102 ampliou a legitimação ativa do DPG para ADI estadual; isso não significa criar foro criminal originário para ele. A própria edição anotada registra precedente do STF afastando norma estadual de foro indevido.
+A inclusão do Defensor Público-Geral entre os legitimados não cria foro criminal especial. Legitimidade para propor ação direta e foro por prerrogativa são institutos diferentes.
 
 ---
 
-## 13. Funções essenciais à justiça no desenho estadual
+## 12. Funções essenciais à justiça: só as peculiaridades estaduais — arts. 94 a 111-A
 
-### 13.1 Ministério Público estadual
+O modelo geral de Ministério Público, Advocacia Pública e Defensoria Pública vem da Constituição Federal. Aqui interessa o modo como essas instituições aparecem na Constituição maranhense.
 
-A Constituição maranhense reproduz o núcleo institucional do Ministério Público:
+### 12.1 Ministério Público estadual
 
-- instituição permanente;
-- essencial à função jurisdicional;
-- defesa da ordem jurídica, regime democrático e interesses sociais e individuais indisponíveis;
-- unidade, indivisibilidade e independência funcional;
-- autonomia administrativa e funcional;
-- proposta orçamentária nos limites da LDO.
+O Ministério Público estadual é instituição permanente e essencial à função jurisdicional, com defesa da ordem jurídica, do regime democrático e dos interesses protegidos pela Constituição.
 
-No plano estadual, a escolha do Procurador-Geral de Justiça parte de **lista tríplice** de integrantes da carreira, nos termos constitucionais.
+O texto estadual reproduz os princípios de unidade, indivisibilidade e independência funcional e assegura autonomia administrativa e funcional, além de proposta orçamentária nos limites da <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>.
 
-O detalhamento geral de garantias e vedações dos membros está no assunto 131; aqui interessa reconhecer como o texto estadual encaixa a instituição na estrutura maranhense.
+A escolha do Procurador-Geral de Justiça parte de lista tríplice de integrantes da carreira, nos termos constitucionais.
 
-### 13.2 Procuradoria-Geral do Estado
+### 12.2 Procuradoria-Geral do Estado
 
-A Procuradoria-Geral do Estado exerce a representação jurídica do Estado e as atividades de consultoria e assessoramento jurídico do Poder Executivo, conforme a Constituição e a lei.
+A Procuradoria-Geral do Estado representa juridicamente o Estado e exerce consultoria e assessoramento jurídico do Poder Executivo.
 
 O Procurador-Geral do Estado:
 
-- é de livre nomeação do Governador;
-- deve ser escolhido entre integrantes da carreira de Procurador do Estado;
-- exige notório saber jurídico e reputação ilibada;
-- exige idade mínima de **30 anos**.
+- é livremente nomeado pelo Governador;
+- deve ser integrante da carreira de Procurador do Estado;
+- deve possuir notório saber jurídico e reputação ilibada;
+- deve ter pelo menos **30 anos**.
 
 O ingresso na carreira de Procurador do Estado ocorre por concurso público de provas e títulos.
 
-### 13.3 Defensoria Pública — texto atualizado pela EC nº 102/2025
+### 12.3 Defensoria Pública após a <abbr title="Emenda Constitucional">EC</abbr> estadual nº 102/2025
 
-A EC nº 102/2025 atualizou o art. 109 para definir a Defensoria Pública como:
-
-- instituição **permanente**;
-- essencial à função jurisdicional do Estado;
-- expressão e instrumento do regime democrático;
-- incumbida de orientação jurídica, promoção dos direitos humanos e defesa judicial e extrajudicial, individual e coletiva;
-- atuação integral e gratuita aos necessitados, conforme o modelo federal.
+A <abbr title="Emenda Constitucional">EC</abbr> nº 102/2025 atualizou o art. 109. A Defensoria Pública passou a ser definida como instituição **permanente**, essencial à função jurisdicional do Estado e expressão e instrumento do regime democrático, incumbida de orientação jurídica, promoção dos direitos humanos e defesa judicial e extrajudicial, individual e coletiva, integral e gratuita dos necessitados.
 
 O Defensor Público-Geral:
 
 - é nomeado pelo Governador;
-- dentre integrantes da carreira com mais de **30 anos**;
-- a partir de lista tríplice eleita pelos membros;
-- mandato de **2 anos**;
-- permitida **1 recondução**.
+- deve ser integrante da carreira e ter mais de **30 anos**;
+- é escolhido a partir de lista tríplice eleita pelos membros;
+- exerce mandato de **2 anos**;
+- pode ter **uma recondução**.
 
-Exoneração de ofício antes do término do mandato depende de deliberação da **maioria absoluta da Assembleia**, na forma da lei complementar.
+A exoneração de ofício antes do fim do mandato depende de deliberação da **maioria absoluta da Assembleia**, na forma da lei complementar.
 
-A EC nº 102/2025 também acrescentou o art. **111-A**, assegurando à Defensoria:
-
-```text
-autonomia funcional
-+ autonomia administrativa
-+ iniciativa da proposta orçamentária nos limites da LDO
-```
-
-e reafirmando os princípios:
-
-```text
-unidade + indivisibilidade + independência funcional
-```
-
-A emenda revogou o antigo parágrafo único do art. 111 porque a autonomia passou a ter disciplina própria no art. 111-A.
+A mesma <abbr title="Emenda Constitucional">EC</abbr> acrescentou o art. **111-A**, assegurando à Defensoria autonomia funcional e administrativa e iniciativa de sua proposta orçamentária nos limites da <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>. O dispositivo também afirma os princípios de unidade, indivisibilidade e independência funcional.
 
 ---
 
-## 14. Segurança Pública — arts. 112 a 121
+## 13. Segurança Pública — arts. 112 a 121
 
-A segurança pública é dever do Estado, direito e responsabilidade de todos, voltada à preservação da ordem pública e da incolumidade das pessoas e do patrimônio.
+A segurança pública é dever do Estado, direito e responsabilidade de todos e tem como finalidade preservar a ordem pública e a incolumidade das pessoas e do patrimônio.
 
-O art. 112 enumera:
+O sistema estadual é subordinado ao Governador e compreende expressamente:
 
 1. Polícia Militar;
 2. Polícia Civil;
 3. Corpo de Bombeiros Militar;
-4. Polícia Penal.
+4. **Polícia Penal**.
 
-O sistema de segurança pública subordina-se ao **Governador**.
+A divisão funcional evita trocas:
 
-### 14.1 Funções centrais
+- Polícia Militar → polícia ostensiva e preservação/restauração da ordem pública;
+- Polícia Civil → polícia judiciária e apuração de infrações penais, exceto militares; é dirigida por **Delegado de Polícia de carreira**;
+- Corpo de Bombeiros Militar → atuação em defesa civil e prevenção/combate a incêndios, conforme a Constituição;
+- Polícia Penal → segurança dos estabelecimentos penais, vinculada ao órgão gestor do sistema penitenciário estadual.
 
-- **PM:** polícia ostensiva e preservação/restauração da ordem pública, dentro das funções constitucionais;
-- **Polícia Civil:** polícia judiciária e apuração de infrações penais, exceto militares; é dirigida por Delegado de Polícia de carreira;
-- **Corpo de Bombeiros Militar:** órgão central do sistema estadual de defesa civil e atuação em prevenção/combate a incêndios;
-- **Polícia Penal:** segurança dos estabelecimentos penais, vinculada ao órgão gestor do sistema penitenciário estadual.
-
-Os Municípios podem instituir guardas municipais para proteção de seus bens, serviços e instalações, observadas as normas gerais.
+Municípios podem instituir guardas municipais para proteção de seus bens, serviços e instalações, observadas as normas gerais.
 
 ---
 
-# Parte III — Tributação, orçamento e Municípios
+# Parte IV — Planejamento, orçamento e Municípios
 
-## 15. Tributação estadual — visão de prova
+## 14. Tributação estadual: a moldura
 
-A Constituição estadual deve ser lida à luz do Sistema Tributário Nacional. O Estado institui, no núcleo constitucional atual:
+A Constituição estadual deve ser lida em conjunto com o Sistema Tributário Nacional. O Estado possui, no núcleo constitucional atual, competência sobre <abbr title="Imposto sobre Transmissão Causa Mortis e Doação">ITCMD</abbr>, <abbr title="Imposto sobre Circulação de Mercadorias e Serviços">ICMS</abbr> e <abbr title="Imposto sobre a Propriedade de Veículos Automotores">IPVA</abbr>.
 
-- <abbr title="Imposto sobre Transmissão Causa Mortis e Doação">ITCMD</abbr>;
-- <abbr title="Imposto sobre Circulação de Mercadorias e Serviços">ICMS</abbr>;
-- <abbr title="Imposto sobre a Propriedade de Veículos Automotores">IPVA</abbr>.
+Também se aplicam limitações constitucionais ao poder de tributar, como legalidade, isonomia, irretroatividade, anterioridade, vedação de confisco e imunidades.
 
-A edição consolidada reproduz limitações ao poder de tributar, como legalidade, isonomia, irretroatividade, anterioridade, vedação de confisco e imunidades.
-
-Como o edital possui assunto próprio de Execução Orçamentária e Financeira, aqui o objetivo é reconhecer a **moldura constitucional**, não estudar operacionalização tributária.
+Como o edital possui tópicos próprios de execução orçamentária e financeira, aqui basta compreender a posição dessas regras na Constituição estadual.
 
 ---
 
-## 16. Orçamentos e planejamento — arts. 136 a 140
+## 15. Planejamento e orçamento — arts. 136 a 140
 
-Leis de iniciativa do Executivo estabelecem:
+As leis de iniciativa do Executivo estabelecem:
 
-1. <abbr title="Plano Plurianual">PPA</abbr>;
-2. <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>;
-3. <abbr title="Lei Orçamentária Anual">LOA</abbr>;
-4. **Plano Estratégico de Longo Prazo**.
+- <abbr title="Plano Plurianual">PPA</abbr>;
+- <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>;
+- <abbr title="Lei Orçamentária Anual">LOA</abbr>;
+- Plano Estratégico de Longo Prazo.
 
-O quarto instrumento foi introduzido pela EC nº 98/2024.
+A <abbr title="Emenda Constitucional">EC</abbr> estadual nº 98/2024 incorporou o planejamento de longo prazo. O plano tem duração mínima de **20 anos**, equivalente a **5 PPAs**, e orienta os demais instrumentos de planejamento.
 
-### 16.1 Plano Estratégico de Longo Prazo
+A <abbr title="Lei Orçamentária Anual">LOA</abbr> compreende orçamento fiscal, orçamento de investimento das empresas controladas e orçamento da seguridade social.
 
-A Constituição estadual determina duração mínima de:
+O Executivo publica o <abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr> até **30 dias após o encerramento de cada bimestre**.
 
-```text
-20 anos = período equivalente a 5 PPAs
-```
+### 15.1 Emendas parlamentares individuais — <abbr title="Emenda Constitucional">EC</abbr> estadual nº 103/2025
 
-PPA e planos estaduais, regionais e setoriais devem estar em consonância com esse planejamento de longo prazo.
+A <abbr title="Emenda Constitucional">EC</abbr> nº 103/2025 substituiu o percentual que ainda aparece na consolidação de 2024.
 
-### 16.2 Estrutura da LOA
+No corte da prova, as emendas parlamentares individuais ao projeto de lei orçamentária são aprovadas até **1,55% da <abbr title="Receita Corrente Líquida">RCL</abbr> do exercício anterior ao encaminhamento do projeto**, e **metade desse percentual** deve ser destinada a ações e serviços públicos de saúde.
 
-A LOA compreende:
+A execução orçamentária e financeira dessas programações é obrigatória no limite constitucional e deve observar critérios de execução equitativa.
 
-- orçamento fiscal;
-- orçamento de investimento das empresas controladas com maioria do capital votante;
-- orçamento da seguridade social.
+<abbr title="Problema objetivo que impede juridicamente ou materialmente a execução da programação">Impedimento de ordem técnica</abbr> afasta a obrigatoriedade de execução da programação correspondente.
 
-O Executivo publica relatório resumido da execução orçamentária até **30 dias após o encerramento de cada bimestre**.
+Os valores destinados à saúde podem ser computados para o mínimo constitucional, mas não podem ser usados para pagamento de pessoal ou encargos sociais.
 
-### 16.3 EC nº 103/2025 — emendas parlamentares individuais
+A regra antiga de **0,86%** pertence à redação anterior e não deve ser usada para o corte de 2026.
 
-A EC nº 103/2025 substituiu a disciplina anterior do art. 136-B.
+### 15.2 Transferências decorrentes de emendas
 
-No corte do edital:
+A Constituição admite transferência especial e transferência com finalidade definida para Municípios.
 
-```text
-limite das emendas individuais = 1,55% da RCL do exercício anterior ao encaminhamento do projeto
-metade desse percentual → ações e serviços públicos de saúde
-```
+Na transferência especial, os recursos são repassados segundo o regime constitucional próprio, e pelo menos **70%** devem ser aplicados em <abbr title="Gastos que formam ou ampliam bens e investimentos públicos">despesas de capital</abbr>.
 
-A execução orçamentária e financeira das programações oriundas de emendas individuais é obrigatória no limite constitucional, observados critérios de execução equitativa.
+### 15.3 Vedações e repasses entre Poderes
 
-O montante destinado à saúde:
+A Constituição proíbe, entre outros pontos, iniciar programa fora da <abbr title="Lei Orçamentária Anual">LOA</abbr>, realizar despesa acima dos créditos, abrir crédito suplementar ou especial sem autorização e recursos correspondentes, conceder créditos ilimitados e transferir recursos entre categorias ou órgãos sem autorização legislativa.
 
-- pode computar para o mínimo constitucional de saúde;
-- não pode ser destinado ao pagamento de pessoal ou encargos sociais.
-
-Programações deixam de ser de execução obrigatória quando houver **impedimento de ordem técnica**.
-
-> **Pegadinha temporal:** a edição consolidada até a EC 101 ainda mostra percentual de **0,86%**. Para a prova de 2026, use **1,55%**, porque a EC 103/2025 é posterior e já estava vigente.
-
-### 16.4 Transferências de emendas a Municípios
-
-A Constituição admite:
-
-- transferência especial;
-- transferência com finalidade definida.
-
-Na transferência especial, a disciplina constitucional prevê repasse direto e regras próprias de aplicação; pelo menos **70%** dessas transferências devem ser aplicadas em despesas de capital, observadas as vedações constitucionais.
-
-### 16.5 Vedações orçamentárias
-
-Entre as vedações constitucionais estão:
-
-- iniciar programa/projeto fora da LOA;
-- realizar despesa acima dos créditos;
-- abrir crédito suplementar ou especial sem autorização legislativa e recursos correspondentes;
-- conceder créditos ilimitados;
-- transpor/remanejar/transferir recursos entre categorias ou órgãos sem autorização legislativa;
-- instituir fundos sem autorização legislativa.
-
-Investimento cuja execução ultrapasse um exercício financeiro exige prévia inclusão no PPA ou lei que autorize sua inclusão.
+Investimento que ultrapasse um exercício financeiro exige inclusão prévia no <abbr title="Plano Plurianual">PPA</abbr> ou lei que autorize sua inclusão.
 
 Dotações destinadas ao Legislativo, Judiciário e Ministério Público são entregues até o dia **20 de cada mês**, conforme o regime constitucional.
 
 ---
 
-## 17. Organização municipal
+## 16. Municípios: autonomia, controle e transição de governo — arts. 141 a 173
 
-### 17.1 Competências municipais
+Municípios exercem competências locais, como legislar sobre assuntos de interesse local, suplementar legislação quando couber, instituir tributos de sua competência, organizar distritos, prestar serviços públicos locais, ordenar uso do solo e atuar cooperativamente em políticas públicas.
 
-Entre as competências dos Municípios:
+### 16.1 Controle das contas municipais
 
-- legislar sobre assuntos locais;
-- suplementar a legislação quando couber;
-- instituir e arrecadar tributos de sua competência;
-- organizar distritos;
-- prestar serviços públicos locais, inclusive transporte coletivo;
-- atuar em educação, saúde, habitação e políticas locais com cooperação federativa;
-- ordenar uso, parcelamento e ocupação do solo urbano;
-- proteger patrimônio histórico-cultural;
-- publicar atos cuja publicidade seja condição de eficácia no sítio eletrônico oficial, sem prejuízo das formas constitucionais correspondentes.
+A Câmara Municipal exerce controle externo com auxílio do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-### 17.2 Câmara Municipal e controle
+O parecer prévio do Tribunal sobre as contas anuais do Prefeito só deixa de prevalecer por **2/3 dos membros da Câmara Municipal**.
 
-A Câmara Municipal exerce o controle externo, com auxílio do TCE/MA.
+### 16.2 Comissão de Transição: regra genuinamente maranhense
 
-O parecer prévio do Tribunal sobre contas anuais do Prefeito só deixa de prevalecer por:
+Após a proclamação do resultado, o Prefeito eleito pode instituir Comissão de Transição com **até 8 membros**, sendo um coordenador.
 
-```text
-2/3 dos membros da Câmara Municipal
-```
+O Prefeito eleito e o coordenador podem pedir informações à gestão que termina. Esses pedidos devem ser atendidos em até **10 dias**.
 
-Essa regra já aparece no assunto específico de Controle Externo; aqui basta reconhecer sua localização na Constituição estadual.
+O Prefeito em fim de mandato pode indicar representantes de sua equipe em até **5 dias** após ser notificado da constituição da Comissão.
 
-### 17.3 Transição republicana municipal — regra maranhense relevante
-
-A Constituição estadual detalha a transição entre gestões municipais.
-
-Ao Prefeito eleito é assegurado o direito de instituir Comissão de Transição:
-
-- após a proclamação do resultado;
-- com até **8 membros**, sendo um coordenador;
-- funções honoríficas, ressalvado o regime próprio de servidores indicados.
-
-O Prefeito eleito e o coordenador podem solicitar informações, que devem ser atendidas em até **10 dias**.
-
-O Prefeito em fim de mandato pode indicar representantes de sua equipe em até **5 dias** após notificação da constituição da Comissão.
-
-Esse é um exemplo típico de conteúdo estadual que não se extrai apenas da Constituição Federal.
+Os números 8, 10 e 5 não são uma abstração: organizam **composição → acesso à informação → participação da gestão que sai**.
 
 ---
 
-# Parte IV — Ordem econômica e social
+# Parte V — Peculiaridades econômicas, sociais e ambientais
 
-## 18. Política fundiária, agricultura e babaçuais
+## 17. Terras públicas, agricultura e babaçuais
 
-A Constituição maranhense contém regras fortemente ligadas à realidade territorial do Estado.
+A Constituição maranhense dedica atenção particular à realidade fundiária do Estado.
 
-Pontos de prova:
+Alienação ou concessão de terras públicas pelo Executivo pode alcançar até **2.500 hectares**; acima desse limite, exige-se aprovação prévia da Assembleia Legislativa.
 
-- alienação ou concessão de terras públicas pelo Executivo até **2.500 hectares**;
-- acima desse limite, exige-se prévia aprovação da Assembleia;
-- campos inundáveis de terras públicas e devolutas estaduais são inalienáveis;
-- babaçuais devem ser utilizados em condições que assegurem preservação natural, meio ambiente e fonte de renda do trabalhador rural;
-- em terras públicas e devolutas estaduais, assegura-se exploração dos babaçuais em regime de economia familiar e comunitária.
+Campos inundáveis de terras públicas e devolutas estaduais são inalienáveis.
+
+Os **babaçuais** recebem proteção expressa: sua utilização deve conciliar preservação natural, meio ambiente e fonte de renda do trabalhador rural. Em terras públicas e devolutas estaduais, a Constituição assegura exploração em regime de economia familiar e comunitária.
 
 ---
 
-## 19. Saúde, educação, cultura, ciência e tecnologia
+## 18. Educação, cultura, ciência e tecnologia
 
-### 19.1 Educação
+Na educação, além da moldura federal, o texto estadual prevê pontos específicos:
 
-A educação é direito de todos e dever do Estado, orientada pelos princípios constitucionais federais.
+- gratuidade do ensino público, incluindo material escolar e alimentação do educando quando na escola;
+- proibição de taxa nas escolas públicas estaduais e municipais;
+- aplicação mínima de **25%** da receita de impostos, incluídas transferências, em manutenção e desenvolvimento do ensino;
+- aplicação das receitas constitucionais de royalties e participação especial de petróleo, gás e outros hidrocarbonetos na proporção de **75% para educação e 25% para saúde**, segundo o texto estadual;
+- reserva de **50% das vagas** dos cursos de graduação das instituições públicas estaduais de educação superior, na forma constitucional, para alunos que cursaram todas as séries do ensino médio na rede pública.
 
-Regras estaduais relevantes:
+No campo cultural, a Constituição protege bens materiais e imateriais ligados à identidade e à memória dos grupos sociais, com instrumentos como inventário, registro, vigilância, tombamento e desapropriação. Também determina reconhecimento e legalização, na forma da lei, das terras ocupadas por remanescentes das comunidades dos quilombos e protege topônimos de origem indígena ou histórica.
 
-- gratuidade do ensino público inclui material escolar e alimentação do educando quando na escola;
-- é proibida cobrança de taxa nas escolas públicas estaduais e municipais;
-- Estado e Municípios aplicam, no mínimo, **25%** da receita de impostos, inclusive transferências, em manutenção e desenvolvimento do ensino;
-- a Constituição prevê que receitas de royalties/participação especial de petróleo, gás e outros hidrocarbonetos sejam aplicadas na proporção de **75% para educação e 25% para saúde**, segundo o texto estadual;
-- nas instituições públicas estaduais de educação superior, **50% das vagas** dos cursos de graduação são reservadas, na forma constitucional, a alunos que tenham cursado todas as séries do ensino médio na rede pública.
+Em ciência e tecnologia, o Estado deve promover pesquisa, desenvolvimento e capacitação. A <abbr title="Fundação de Amparo à Pesquisa e ao Desenvolvimento Científico e Tecnológico do Maranhão">FAPEMA</abbr> recebe **0,5% da receita corrente anual**, e suas despesas administrativas ficam limitadas a **10% do orçamento da Fundação**.
 
-### 19.2 Cultura
-
-O patrimônio cultural maranhense abrange bens materiais e imateriais ligados à identidade, ação e memória dos grupos sociais.
-
-A Constituição determina proteção por instrumentos como inventário, registro, vigilância, tombamento, desapropriação e outras formas de acautelamento.
-
-Regra especialmente ligada à história maranhense: o Estado reconhecerá e legalizará, na forma da lei, as terras ocupadas por **remanescentes das comunidades dos quilombos**.
-
-Também protege topônimos de origem indígena ou histórica.
-
-### 19.3 Ciência e tecnologia
-
-O Estado deve promover desenvolvimento científico, pesquisa e capacitação tecnológica.
-
-A Constituição destina à <abbr title="Fundação de Amparo à Pesquisa e ao Desenvolvimento Científico e Tecnológico do Maranhão">FAPEMA</abbr> parcela constitucional específica e limita despesas administrativas da Fundação. Para prova, a regra de recuperação rápida é:
-
-```text
-FAPEMA → 0,5% da receita corrente anual
-administração da FAPEMA → até 10% de seu orçamento
-```
-
-A Constituição também veda, no território estadual, construção, armazenamento e transporte de **armas nucleares**.
+A Constituição ainda veda, no território estadual, construção, armazenamento e transporte de **armas nucleares**.
 
 ---
 
-## 20. Meio ambiente — arts. 239 a 250
+## 19. Meio ambiente: quando a Constituição fala com sotaque maranhense — arts. 239 a 250
 
-Todos têm direito ao meio ambiente ecologicamente saudável e equilibrado. Estado e Municípios têm dever de preservá-lo e recuperá-lo para gerações presentes e futuras.
+Todos têm direito a meio ambiente ecologicamente saudável e equilibrado, e Estado e Municípios devem preservá-lo e recuperá-lo.
 
-A Constituição estadual especifica áreas e elementos ambientais maranhenses.
-
-Entre as áreas de preservação permanente expressamente mencionadas no texto:
+O texto estadual nomeia elementos concretos do território. Entre as áreas e bens protegidos aparecem:
 
 - manguezais;
 - nascentes;
-- áreas de fauna/flora rara;
+- áreas de fauna e flora raras;
 - recifes e corais das reentrâncias;
 - paisagens notáveis;
 - dunas;
 - **Lagoa da Jansen**;
 - faixas de proteção de mananciais e rios.
 
-Também identifica áreas de relevante interesse ecológico, como:
+Também são destacados campos inundáveis e lagos, Ilha dos Caranguejos, cobertura florestal da pré-Amazônia, zona florestal do Una, zona costeira e cocais.
 
-- campos inundáveis e lagos;
-- Ilha dos Caranguejos;
-- cobertura florestal da pré-Amazônia e zona florestal do Una;
-- zona costeira;
-- cocais.
+Atividade efetiva ou potencialmente causadora de alteração ambiental significativa submete-se ao estudo de impacto ambiental e às exigências constitucionais de publicidade e participação pública.
 
-Atividades efetiva ou potencialmente causadoras de alterações ambientais significativas submetem-se a estudo de impacto ambiental, publicidade e audiências públicas conforme a disciplina constitucional.
+A utilidade pedagógica dessa lista está no contraste: são exemplos em que **a Constituição estadual concretiza a proteção ambiental com referências ao próprio território**.
 
 ---
 
-## 21. ADCT e dispositivos anotados como inconstitucionais
+## 20. Texto anotado não é sinônimo de norma vigente
 
-O Ato das Disposições Constitucionais Transitórias integra a Constituição, mas várias normas têm finalidade histórica já exaurida. O estudo deve priorizar regras que ainda produzam efeitos ou que sejam relevantes para compreender transições normativas.
+A edição oficial anotada preserva dispositivos históricos e registra decisões de controle de constitucionalidade.
 
-A edição oficial anotada também marca dispositivos ou trechos atingidos por controle de constitucionalidade. Isso importa para a prova:
+Por isso, ao estudar:
 
-```text
-texto historicamente inserido ≠ norma necessariamente válida hoje
-```
+- texto reproduzido por razão histórica pode já ter sido declarado inconstitucional;
+- norma estadual sobre foro por prerrogativa pode ser inválida se extrapolar o modelo permitido pela Constituição Federal;
+- emenda posterior ao volume consolidado pode alterar regra que ainda aparece com redação antiga.
 
-Exemplos de cautela:
-
-- regras estaduais sobre foro por prerrogativa podem ser invalidadas quando extrapolam o modelo federal;
-- artigos anotados como declarados inconstitucionais não devem ser tratados como regra vigente só porque continuam reproduzidos para fins históricos/documentais.
+A pergunta correta não é apenas “o que está impresso?”, mas **“qual redação era válida no corte do edital?”**.
 
 ---
 
-## 22. Matriz de números e prazos
+## 21. Como reconstruir a resposta na prova
 
-| Tema | Regra |
-|---|---:|
-| PEC — iniciativa parlamentar | **1/3** da Assembleia |
-| PEC — iniciativa popular | **2%** eleitorado estadual |
-| projeto de lei — iniciativa popular | **1%** eleitorado estadual |
-| distribuição das iniciativas populares | **≥18%** dos Municípios |
-| mínimo por Município | **0,3%** dos eleitores |
-| apreciação da iniciativa popular | **60 dias** |
-| aprovação de PEC | **2 turnos + 3/5 em ambos** |
-| reapresentar PEC rejeitada na mesma sessão | nova proposta com **>2/3** |
-| lei complementar | **maioria absoluta** |
-| urgência solicitada pelo Governador | **45 dias** |
-| veto | **15 dias úteis** |
-| comunicação dos motivos do veto | **48 h** |
-| apreciação do veto | **30 dias** |
-| intervenção — apreciação da Assembleia | **24 h** |
-| mandato Governador | **4 anos** |
-| início do mandato | **6 de janeiro** |
-| ausência sem licença | até **15 dias** |
-| dupla vacância — regra | eleição em **90 dias** |
-| dupla vacância nos 2 últimos anos | Assembleia elege em **30 dias** |
-| afastamento em processo do Governador | máximo inicial de **180 dias** |
-| DPG | **2 anos + 1 recondução** |
-| ADI por omissão — órgão administrativo | **30 dias** |
-| <abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr> estadual | até **30 dias após cada bimestre** |
-| plano estratégico de longo prazo | mínimo **20 anos / 5 PPAs** |
-| emendas individuais — EC 103/2025 | **1,55% <abbr title="Receita Corrente Líquida">RCL</abbr>** |
-| parcela das emendas individuais para saúde | **metade** |
-| transferências especiais — capital | **≥70%** |
-| duodécimos/dotações constitucionais | até dia **20** |
-| Comissão de Transição municipal | até **8 membros** |
-| resposta a pedido da transição | **10 dias** |
-| representantes do Prefeito que sai | **5 dias** |
-| ensino | mínimo **25%** |
-| vagas graduação pública estadual para rede pública | **50%** |
-| FAPEMA | **0,5% da receita corrente anual** |
-| administração da FAPEMA | até **10%** |
+Em uma questão sobre a Constituição do Maranhão, siga esta ordem:
 
----
+1. **localize o bloco:** Estado/competências, Legislativo, Executivo, Judiciário, funções essenciais, segurança, orçamento, Municípios ou ordem social;
+2. **identifique se a regra é geral ou peculiar do Maranhão:** Upaon-Açu, razoabilidade expressa, 3 últimos meses, transição municipal, babaçuais, plano de 20 anos e as emendas de 2025 são sinais fortes de regra local;
+3. **verifique o corte:** <abbr title="Emenda Constitucional">EC</abbr> nº 102/2025 para Defensoria e ação direta estadual; <abbr title="Emenda Constitucional">EC</abbr> nº 103/2025 para emendas individuais;
+4. **só então recupere o número:** 24 horas, 45 dias, 2% ou 1%, 6 de janeiro, 30/90 dias, 1,55%, 70%, 8/10/5 etc.
 
-## 23. Pegadinhas finais
-
-1. **Consolidação 2024 ≠ corte 2026.** Acrescente EC 102/2025 e EC 103/2025.
-2. PEC popular = **2%**; projeto de lei popular = **1%**.
-3. PEC = **3/5 em 2 turnos**; LC = **maioria absoluta**.
-4. PEC rejeitada na mesma sessão exige **mais de 2/3** para nova proposta; projeto de lei rejeitado usa regra de **maioria absoluta**.
-5. Governador inicia mandato em **6 de janeiro**, não em 1º de janeiro.
-6. Ausência por mais de 15 dias exige licença para sair **do País ou do Estado**.
-7. Dupla vacância nos 2 últimos anos: eleição **pela Assembleia**, em 30 dias.
-8. EC 102: DPG entrou no rol de legitimados da ADI estadual.
-9. EC 102: Defensoria ganhou disciplina própria no art. **111-A**.
-10. EC 103: **1,55%**, não 0,86%.
-11. Metade do percentual das emendas individuais é destinada à saúde.
-12. Administração estadual: lembre da **razoabilidade** expressa.
-13. Bens estaduais: vedação de alienação/cessão nos **3 últimos meses** do mandato do Governador.
-14. Comissão de Transição municipal: **8 / 10 / 5**.
-15. TCE/MA: não duplicar este assunto com Controle Externo; localize a regra e aplique o conteúdo específico já estudado.
-16. Texto anotado como inconstitucional não volta a ser válido porque permanece reproduzido na edição histórica.
-
----
+O mapa evita decorar uma tabela solta: cada número fica associado a um **mecanismo constitucional**.
