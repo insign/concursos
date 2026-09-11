@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "u006-a01",
@@ -229,10 +229,9 @@
     },
     {
       "id": "u006-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Qual análise está correta para “o que” em “Isso é o que importa”?
-",
+      "prompt": "Qual análise está correta para “o que” em “Isso é o que importa”?",
       "options": [
         {"id":"a","text":"“o” pode funcionar como pronome demonstrativo, equivalente a “aquilo”, e “que” retoma esse antecedente como pronome relativo."},
         {"id":"b","text":"“o” é obrigatoriamente artigo definido que determina um substantivo oculto, e “que” é conjunção sem referente."},
