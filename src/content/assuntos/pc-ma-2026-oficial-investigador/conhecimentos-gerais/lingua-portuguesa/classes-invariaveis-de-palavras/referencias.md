@@ -43,4 +43,4 @@ Reaproveitamento **parcial** de `src/content/biblioteca/lingua-portuguesa/classe
 
 Não havia `resolucoes/` na origem. O banco doador continha **69 questões: 50 autorais e 19 anteriores**. A versão local reduz repetição e transcrições extensas, exclui itens que aprofundam conteúdos reservados às unidades de sintaxe e conserva **24 questões: 20 autorais e 4 adaptações de provas anteriores verificadas em fontes primárias**. A biblioteca e os dois consumidores do Tribunal de Contas não são alterados.
 
-O conjunto local usa `questionSetRevision: 5`. As quatro adaptações anteriores (`q386`, `q387`, `q396` e `q398`) usam `revision: 2` por reescrita; os vinte itens autorais locais usam revisão 1. As explicações são suficientes para os itens selecionados, portanto não há resolução separada necessária.
+O conjunto local usa `questionSetRevision: 6`. As quatro adaptações anteriores (`q386`, `q387` e `q396`) usam `revision: 2`; `q398` usa `revision: 3` por reescrita; os vinte itens autorais locais usam revisão 1. As explicações são suficientes para os itens selecionados, portanto não há resolução separada necessária.
