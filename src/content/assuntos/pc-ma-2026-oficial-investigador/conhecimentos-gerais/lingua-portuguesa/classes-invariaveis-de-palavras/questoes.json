@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 5,
+  "questions": [
+    {
+      "id": "u008-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em qual alternativa as palavras destacadas exemplificam, respectivamente, advérbio, preposição, conjunção e interjeição?",
+      "options": [
+        {"id": "a", "text": "chegou cedo; relatório de perícia; revisou e publicou; ufa!"},
+        {"id": "b", "text": "relatório técnico; chegou de manhã; porque; servidor"},
+        {"id": "c", "text": "muito trabalho; segundo candidato; mas; relatório"},
+        {"id": "d", "text": "meia hora; certamente; de; candidato"},
+        {"id": "e", "text": "claro parecer; ora trabalha; conforme; cedo"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Cedo” modifica o verbo; “de” liga termos; “e” articula unidades; “ufa!” funciona como reação autônoma. A classe depende do emprego no enunciado."
+    },
+    {
+      "id": "u008-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “A equipe está muito preparada”, qual análise de “muito” é adequada?",
+      "options": [
+        {"id": "a", "text": "Pronome indefinido, porque acompanha um substantivo."},
+        {"id": "b", "text": "Advérbio de intensidade, porque modifica o adjetivo “preparada”."},
+        {"id": "c", "text": "Preposição, porque liga dois termos."},
+        {"id": "d", "text": "Conjunção, porque introduz uma oração."},
+        {"id": "e", "text": "Interjeição, porque expressa reação."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Muito” intensifica o adjetivo “preparada”; nesse emprego, é advérbio e permanece invariável."
+    },
+    {
+      "id": "u008-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a correspondência correta entre advérbio e valor predominante no contexto.",
+      "options": [
+        {"id": "a", "text": "aqui — tempo; ontem — lugar; talvez — afirmação"},
+        {"id": "b", "text": "cedo — tempo; longe — lugar; provavelmente — dúvida"},
+        {"id": "c", "text": "não — modo; bem — negação; sempre — intensidade"},
+        {"id": "d", "text": "muito — lugar; jamais — afirmação; ali — tempo"},
+        {"id": "e", "text": "certamente — dúvida; depressa — lugar; hoje — modo"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Cedo” situa no tempo, “longe” no espaço e “provavelmente” apresenta possibilidade ou dúvida."
+    },
+    {
+      "id": "u008-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual frase emprega “meio” como advérbio e, por isso, exige a forma invariável?",
+      "options": [
+        {"id": "a", "text": "A reunião durou meia hora."},
+        {"id": "b", "text": "O candidato percorreu meio caminho."},
+        {"id": "c", "text": "As candidatas ficaram meio apreensivas."},
+        {"id": "d", "text": "Foram adotadas meias medidas."},
+        {"id": "e", "text": "Ela tomou meia dose."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Em “meio apreensivas”, “meio” equivale a “um pouco” e intensifica o adjetivo; é advérbio e não concorda com “candidatas”."
+    },
+    {
+      "id": "u008-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em qual opção “bastante” tem emprego adverbial?",
+      "options": [
+        {"id": "a", "text": "Havia bastantes motivos para a revisão."},
+        {"id": "b", "text": "Bastantes candidatos recorreram."},
+        {"id": "c", "text": "As equipes estavam bastante preparadas."},
+        {"id": "d", "text": "Foram apresentados bastantes documentos."},
+        {"id": "e", "text": "Bastantes dúvidas permaneceram."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Em “bastante preparadas”, a palavra intensifica o adjetivo “preparadas”; no emprego adverbial, é invariável."
+    },
+    {
+      "id": "u008-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em qual frase a palavra “claro” tem emprego adverbial?",
+      "options": [
+        {"id": "a", "text": "A resposta clara foi registrada."},
+        {"id": "b", "text": "O parecer ficou claro."},
+        {"id": "c", "text": "A equipe respondeu claro durante a entrevista."},
+        {"id": "d", "text": "A sala clara foi fechada."},
+        {"id": "e", "text": "O claro do dia apareceu."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Em “respondeu claro”, “claro” modifica o verbo e equivale a “claramente”; tem emprego adverbial."
+    },
+    {
+      "id": "u008-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual expressão destacada funciona como locução adverbial?",
+      "options": [
+        {"id": "a", "text": "relatório de perícia"},
+        {"id": "b", "text": "trabalhou de manhã"},
+        {"id": "c", "text": "recurso contra a decisão"},
+        {"id": "d", "text": "segundo o edital"},
+        {"id": "e", "text": "capaz de revisar"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "“De manhã” situa a ação no tempo e funciona como unidade de valor adverbial. As demais expressões exercem outras relações."
+    },
+    {
+      "id": "u008-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare “Quando será a sessão?” e “Não sei quando será a sessão”. Em ambos os casos, “quando”",
+      "options": [
+        {"id": "a", "text": "é conjunção integrante."},
+        {"id": "b", "text": "é preposição temporal."},
+        {"id": "c", "text": "mantém valor de advérbio interrogativo de tempo."},
+        {"id": "d", "text": "é pronome relativo."},
+        {"id": "e", "text": "é interjeição."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nas duas construções há pergunta, direta ou indireta, sobre a circunstância temporal. A presença de dois verbos na segunda não transforma “quando” em conjunção."
+    },
+    {
+      "id": "u008-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “O parecer foi elaborado por especialistas”, qual relação é introduzida por “por”?",
+      "options": [
+        {"id": "a", "text": "matéria"},
+        {"id": "b", "text": "agente da ação"},
+        {"id": "c", "text": "origem"},
+        {"id": "d", "text": "companhia"},
+        {"id": "e", "text": "finalidade"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Na voz passiva, “por especialistas” identifica quem realizou a ação; a preposição introduz o agente."
+    },
+    {
+      "id": "u008-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare “O segundo candidato entrou” e “Segundo o edital, a etapa é obrigatória”. A palavra “segundo” é, respectivamente,",
+      "options": [
+        {"id": "a", "text": "advérbio e conjunção."},
+        {"id": "b", "text": "preposição e numeral cardinal."},
+        {"id": "c", "text": "adjetivo e advérbio."},
+        {"id": "d", "text": "numeral ordinal e preposição acidental."},
+        {"id": "e", "text": "conjunção e interjeição."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "No primeiro emprego, “segundo” indica ordem e é numeral; no segundo, equivale a “de acordo com” e funciona como preposição acidental."
+    },
+    {
+      "id": "u008-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare “Conforme o edital, a etapa é obrigatória” e “Conforme prevê o edital, a etapa é obrigatória”. Em análise tradicional, “conforme” atua, respectivamente, como",
+      "options": [
+        {"id": "a", "text": "advérbio e preposição essencial."},
+        {"id": "b", "text": "preposição acidental e conjunção conformativa."},
+        {"id": "c", "text": "conjunção causal e pronome relativo."},
+        {"id": "d", "text": "preposição essencial e advérbio."},
+        {"id": "e", "text": "interjeição e conjunção integrante."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Antes do grupo nominal “o edital”, “conforme” tem emprego prepositivo; introduzindo a oração “prevê o edital”, tem emprego conjuntivo conformativo."
+    },
+    {
+      "id": "u008-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a afirmação correta sobre locuções e a extensão da expressão analisada.",
+      "options": [
+        {"id": "a", "text": "Toda expressão iniciada por preposição é locução prepositiva."},
+        {"id": "b", "text": "“Com cuidado”, em “revisou com cuidado”, é locução adverbial, embora comece por preposição."},
+        {"id": "c", "text": "“De hoje”, em “a reunião de hoje”, é locução adverbial de tempo."},
+        {"id": "d", "text": "“Por causa de” é locução interjetiva."},
+        {"id": "e", "text": "“De acordo com” é advérbio simples."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A classificação do conjunto depende de sua função. “Com cuidado” modifica o verbo e tem valor adverbial; iniciar por preposição não decide a classe da expressão inteira."
+    },
+    {
+      "id": "u008-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa descreve corretamente a união de preposição com outra palavra?",
+      "options": [
+        {"id": "a", "text": "“ao” resulta de contração com perda de som."},
+        {"id": "b", "text": "“do” e “no” são combinações sem redução."},
+        {"id": "c", "text": "“ao” é combinação; “do”, “no” e “pelo” são contrações."},
+        {"id": "d", "text": "“à” não contém preposição."},
+        {"id": "e", "text": "Toda preposição deve aparecer separada."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Em “ao”, a + o se combinam sem perda sonora; “do”, “no” e “pelo” resultam de contrações. A forma “à” também envolve a preposição a."
+    },
+    {
+      "id": "u008-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em qual alternativa a relação indicada para a conjunção está correta?",
+      "options": [
+        {"id": "a", "text": "“mas” — adição"},
+        {"id": "b", "text": "“ou” — alternância"},
+        {"id": "c", "text": "“portanto” — explicação"},
+        {"id": "d", "text": "“embora” — causa"},
+        {"id": "e", "text": "“caso” — conclusão"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Ou” é forma típica de alternância. “Mas” é adversativa; “portanto”, conclusivo; “embora”, concessivo; “caso”, condicional."
+    },
+    {
+      "id": "u008-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare: I. “Apresente o comprovante, pois ele é obrigatório.” II. “O comprovante era obrigatório; deveria, pois, ser apresentado.” O valor de “pois” é, respectivamente,",
+      "options": [
+        {"id": "a", "text": "explicativo e conclusivo."},
+        {"id": "b", "text": "conclusivo e explicativo."},
+        {"id": "c", "text": "causal e condicional."},
+        {"id": "d", "text": "adversativo e alternativo."},
+        {"id": "e", "text": "integrante e conformativo."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "No primeiro período, “pois” justifica a ordem; no segundo, deslocado após o verbo, introduz uma conclusão."
+    },
+    {
+      "id": "u008-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare “Não sei se haverá recurso” e “Se houver recurso, o prazo será reaberto”. A palavra “se” é, respectivamente,",
+      "options": [
+        {"id": "a", "text": "causal e concessiva."},
+        {"id": "b", "text": "conjunção integrante e conjunção condicional."},
+        {"id": "c", "text": "condicional e integrante."},
+        {"id": "d", "text": "explicativa e conclusiva."},
+        {"id": "e", "text": "temporal e conformativa."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "No primeiro caso, “se” introduz o conteúdo que completa “sei”; no segundo, estabelece condição para a reabertura do prazo."
+    },
+    {
+      "id": "u008-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare “Informou que compareceria” e “O relatório que chegou será analisado”. A palavra “que” atua, respectivamente, como",
+      "options": [
+        {"id": "a", "text": "pronome relativo e conjunção integrante."},
+        {"id": "b", "text": "conjunção explicativa e advérbio."},
+        {"id": "c", "text": "conjunção integrante e pronome relativo."},
+        {"id": "d", "text": "preposição e conjunção causal."},
+        {"id": "e", "text": "interjeição e pronome indefinido."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "No primeiro caso, “que” introduz o conteúdo informado; no segundo, retoma o antecedente “relatório” e exerce papel dentro da oração."
+    },
+    {
+      "id": "u008-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare “Quando a sessão começou, fecharam as portas” e “Não sei quando a sessão começou”. A palavra “quando” é, respectivamente,",
+      "options": [
+        {"id": "a", "text": "advérbio interrogativo e conjunção causal."},
+        {"id": "b", "text": "preposição e pronome relativo."},
+        {"id": "c", "text": "conjunção temporal e advérbio interrogativo."},
+        {"id": "d", "text": "conjunção integrante e interjeição."},
+        {"id": "e", "text": "advérbio de intensidade e conjunção final."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "No primeiro período, “quando” introduz uma circunstância temporal; no segundo, integra uma pergunta indireta sobre o momento."
+    },
+    {
+      "id": "u008-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare “Ora estuda, ora trabalha” e “Ora! Isso não faz sentido”. A forma “ora” apresenta, respectivamente,",
+      "options": [
+        {"id": "a", "text": "alternância e emprego interjetivo."},
+        {"id": "b", "text": "preposição temporal e advérbio de modo."},
+        {"id": "c", "text": "causa e pronome relativo."},
+        {"id": "d", "text": "interjeição e preposição acidental."},
+        {"id": "e", "text": "advérbio interrogativo e conjunção integrante."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "No primeiro enunciado, “ora... ora” marca alternância; no segundo, “Ora!” funciona autonomamente como reação."
+    },
+    {
+      "id": "u008-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “O prazo terminou; por isso, o pedido foi rejeitado”, qual análise é mais segura?",
+      "options": [
+        {"id": "a", "text": "“Por isso” é necessariamente conjunção simples porque tem sentido conclusivo."},
+        {"id": "b", "text": "“Por isso” é pronome relativo."},
+        {"id": "c", "text": "“Por isso” é conector de valor conclusivo/consecutivo; o valor semântico, sozinho, não define uma classe morfológica simples."},
+        {"id": "d", "text": "“Por isso” é interjeição."},
+        {"id": "e", "text": "“Por isso” é conjunção integrante."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Conector é categoria funcional ampla. Uma expressão pode articular trechos com valor de conclusão ou consequência sem se tornar automaticamente conjunção simples."
+    },
+    {
+      "id": "q386",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de questão da Fundação Getulio Vargas para Professor de Língua Portuguesa da Secretaria de Educação do Rio Grande do Norte. Em qual situação “ou” conserva valor claramente alternativo, com escolha de apenas uma possibilidade?",
+      "options": [
+        {"id": "a", "text": "O candidato pode anexar currículo ou certificados, podendo enviar ambos."},
+        {"id": "b", "text": "A chefia será exercida por Ana ou Bruno, mas somente uma pessoa ocupará o cargo."},
+        {"id": "c", "text": "A biblioteca reúne livros de direito ou administração, inclusive das duas áreas."},
+        {"id": "d", "text": "O curso aceita experiência em gestão ou contabilidade, sem impedir a combinação."},
+        {"id": "e", "text": "O formulário permite telefone ou e-mail, podendo registrar os dois."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Na alternativa B, as possibilidades são excludentes: uma única pessoa exercerá a chefia. A questão original 54 também exigia distinguir o valor alternativo de usos inclusivos de “ou”; o gabarito definitivo é B."
+    },
+    {
+      "id": "q387",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de questão da Fundação Getulio Vargas para Professor de Língua Portuguesa da Secretaria de Educação do Rio Grande do Norte. Em qual frase “menos” determina um substantivo e tem emprego pronominal, em vez de adverbial?",
+      "options": [
+        {"id": "a", "text": "Menos candidatos apresentaram recurso."},
+        {"id": "b", "text": "Os candidatos estudaram menos."},
+        {"id": "c", "text": "A equipe ficou menos preocupada."},
+        {"id": "d", "text": "O prazo parece menos longo."},
+        {"id": "e", "text": "Hoje se trabalhou menos."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Em “menos candidatos”, a palavra quantifica o substantivo “candidatos”; nos demais casos, modifica verbo ou adjetivo. A questão original 57 cobrava a mesma distinção entre emprego pronominal e adverbial; o gabarito definitivo é A."
+    },
+    {
+      "id": "q396",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de questão da Fundação Getulio Vargas para o Tribunal de Justiça de Mato Grosso do Sul, Analista Judiciário — Área Fim, questão 2. Em qual frase a preposição “com” introduz instrumento?",
+      "options": [
+        {"id": "a", "text": "Chegou com os colegas."},
+        {"id": "b", "text": "Falou com tranquilidade."},
+        {"id": "c", "text": "Abriu o lacre com uma chave."},
+        {"id": "d", "text": "Saiu com pressa."},
+        {"id": "e", "text": "Permaneceu com o documento."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Em “com uma chave”, a expressão indica o instrumento usado para realizar a ação. A questão original 2 também cobrava a identificação desse valor de “com”; o gabarito definitivo do Tipo 2 é C."
+    },
+    {
+      "id": "q398",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de questão da Fundação Getulio Vargas para a Agência Reguladora Intermunicipal de Saneamento do Rio Grande do Sul, questão 10. Qual substituição altera inadequadamente o sentido do advérbio em -mente?",
+      "options": [
+        {"id": "a", "text": "geralmente → em geral"},
+        {"id": "b", "text": "naturalmente, no sentido de “sem afetação” → de acordo com a natureza"},
+        {"id": "c", "text": "raramente → com raridade"},
+        {"id": "d", "text": "totalmente → na totalidade"},
+        {"id": "e", "text": "normalmente, em contexto de frequência habitual → em condições normais, se o contexto assim indicar"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Naturalmente” pode significar “de modo espontâneo, sem afetação”; substituí-lo por “de acordo com a natureza” pode mudar o sentido. A questão original 10 cobrava essa inadequação semântica; o gabarito definitivo é B."
+    }
+  ]
+}
