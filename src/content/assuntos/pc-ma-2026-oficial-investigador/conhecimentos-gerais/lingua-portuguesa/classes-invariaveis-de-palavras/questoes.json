@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "u008-a01",
@@ -349,7 +349,7 @@
     },
     {
       "id": "q398",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
       "prompt": "Adaptação de questão da Fundação Getulio Vargas para a Agência Reguladora Intermunicipal de Saneamento do Rio Grande do Sul, questão 10. Qual substituição altera inadequadamente o sentido do advérbio em -mente?",
       "options": [
@@ -357,7 +357,7 @@
         {"id": "b", "text": "naturalmente, no sentido de “sem afetação” → de acordo com a natureza"},
         {"id": "c", "text": "raramente → com raridade"},
         {"id": "d", "text": "totalmente → na totalidade"},
-        {"id": "e", "text": "normalmente, em contexto de frequência habitual → em condições normais, se o contexto assim indicar"}
+        {"id": "e", "text": "frequentemente → com frequência"}
       ],
       "correctOptionId": "b",
       "explanation": "“Naturalmente” pode significar “de modo espontâneo, sem afetação”; substituí-lo por “de acordo com a natureza” pode mudar o sentido. A questão original 10 cobrava essa inadequação semântica; o gabarito definitivo é B."
