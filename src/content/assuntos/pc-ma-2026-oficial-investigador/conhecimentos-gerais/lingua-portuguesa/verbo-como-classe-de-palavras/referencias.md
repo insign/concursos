@@ -3,7 +3,7 @@
 ## Programa e proveniência
 
 - **Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos.** [Edital nº 1 — PCMA — Investigador, de 13 de julho de 2026](https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf). Item 20.2.2, Língua Portuguesa, item 5.1: emprego das classes de palavras.
-- **Proveniência editorial.** Reaproveitamento parcial do canônico `src/content/biblioteca/lingua-portuguesa/verbo-como-classe-de-palavras/`, auditado nos blobs `5ff3dd51b082d9ef3103e8506125ac97047bd058` (conteúdo), `d9634f5e29ad0b8733e91bfb2ee60cf2188d28bf` (revisão), `3031c7db63b2393658b47ffed2d60f974a397af2` (questões) e `ed20f751913dff8ccfa9a2352bc216adf78d37d6` (referências). O canônico permanece consumido pelos dois cargos do TCE-MA; esta cópia é local da PC-MA.
+- **Proveniência editorial.** Reaproveitamento parcial do canônico `src/content/biblioteca/lingua-portuguesa/verbo-como-classe-de-palavras/`, auditado nos blobs `5ff3dd51b082d9ef3103e8506125ac97047bd058` (conteúdo), `d9634f5e29ad0b8733e91bfb2ee60cf2188d28bf` (revisão), `3031c7db63b2393658b47ffed2d60f974a397af2` (questões) e `ed20f751913dff8ccfa9a2352bc216adf78d37d6` (referências). O canônico permanece consumido pelos dois cargos do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>; esta cópia é local da <abbr title="Polícia Civil do Maranhão">PC-MA</abbr>.
 
 ## Nomenclatura e funcionamento verbal
 
