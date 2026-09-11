@@ -2,7 +2,7 @@
 
 ## Programa e proveniência
 
-- **Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos.** [Edital nº 1 — PCMA — Investigador, de 13 de julho de 2026](https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf). Item 20.2.2, Língua Portuguesa, item 4.2: emprego de tempos e modos verbais.
+- **Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos.** [Edital nº 1 — <abbr title="Polícia Civil do Maranhão">PCMA</abbr> — Investigador, de 13 de julho de 2026](https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf). Item 20.2.2, Língua Portuguesa, item 4.2: emprego de tempos e modos verbais.
 - **Proveniência editorial.** Reaproveitamento parcial do canônico `src/content/biblioteca/lingua-portuguesa/emprego-tempos-modos-verbais/`, auditado nos blobs `578fe599a64b3c39f8ff8de7bd7a530e777343c6` (conteúdo), `06cf8e8a7dd16df9aef3b777bf5a571cdc0213ab` (revisão), `df3d4c2d327cf04062c6c6edcd2fda4f59d6fb59` (questões) e `db6e07d3b2303c8b80f06322d33140797dd5c791` (referências). O canônico permanece consumido pelos dois cargos do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>; esta cópia é local da <abbr title="Polícia Civil do Maranhão">PC-MA</abbr>.
 
 ## Nomenclatura e gramáticas de base
@@ -11,7 +11,7 @@
 - **BECHARA, Evanildo.** *Moderna gramática portuguesa*. Rio de Janeiro: Nova Fronteira. Base para flexão, valores dos tempos, formação do imperativo e correlação verbal.
 - **CUNHA, Celso; CINTRA, Lindley.** *Nova gramática do português contemporâneo*. Rio de Janeiro: Lexikon. Base para emprego dos tempos, modos, discurso relatado e relações entre formas simples e compostas.
 - **CASTILHO, Ataliba T. de.** *Nova gramática do português brasileiro*. São Paulo: Contexto. Apoio descritivo para tempo, aspecto, modalidade e construções com auxiliares no português brasileiro.
-- **NEVES, Maria Helena de Moura.** *Gramática de usos do português*. São Paulo: Editora UNESP. Apoio ao tratamento contextual da escolha entre formas verbais e aos valores modais das construções.
+- **NEVES, Maria Helena de Moura.** *Gramática de usos do português*. São Paulo: Editora <abbr title="Universidade Estadual Paulista">UNESP</abbr>. Apoio ao tratamento contextual da escolha entre formas verbais e aos valores modais das construções.
 
 ## Estudos e consultas dirigidas
 
