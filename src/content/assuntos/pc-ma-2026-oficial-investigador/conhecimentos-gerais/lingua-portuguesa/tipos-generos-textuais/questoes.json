@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 5,
+  "questions": [
+    {
+      "id": "u002-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um edital publicado em portal eletrônico contém o trecho 'preencha o formulário e anexe a justificativa'. Qual alternativa identifica, respectivamente, gênero, sequência predominante do trecho, domínio e suporte?",
+      "options": [
+        {"id":"a","text":"edital; injuntiva; administrativo; portal eletrônico"},
+        {"id":"b","text":"injunção; edital; portal eletrônico; administrativo"},
+        {"id":"c","text":"administrativo; injuntiva; edital; portal eletrônico"},
+        {"id":"d","text":"portal eletrônico; edital; administrativo; injuntiva"},
+        {"id":"e","text":"edital; narrativo; jornalístico; aplicativo"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Edital é o gênero, injuntiva é a organização do trecho, administrativo é o domínio e portal é o suporte. A questão cobra categorias diferentes que podem descrever o mesmo material."
+    },
+    {
+      "id": "u002-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Leia: 'A equipe chegou ao prédio, encontrou a sala alagada e transferiu os equipamentos antes da abertura.' Predomina a sequência:",
+      "options": [
+        {"id":"a","text":"descritiva, porque o prédio é o espaço do texto."},
+        {"id":"b","text":"narrativa, porque há ações encadeadas e mudança da situação."},
+        {"id":"c","text":"injuntiva, porque as ações devem ser repetidas pelo leitor."},
+        {"id":"d","text":"expositiva, porque define um procedimento."},
+        {"id":"e","text":"dialogal, porque há uma equipe."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Chegada, constatação do problema e transferência formam progressão temporal. A mera presença de espaço ou personagens não define descrição ou diálogo."
+    },
+    {
+      "id": "u002-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Leia: 'O prédio era antigo, possuía duas entradas estreitas e permanecia vazio à noite.' O uso do pretérito não impede que a sequência seja:",
+      "options": [
+        {"id":"a","text":"descritiva, porque o trecho organiza propriedades e estados."},
+        {"id":"b","text":"narrativa, porque todo verbo no passado produz sucessão."},
+        {"id":"c","text":"argumentativa, porque avalia uma tese."},
+        {"id":"d","text":"injuntiva, porque orienta conduta."},
+        {"id":"e","text":"dialogal, porque pressupõe interlocutor."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O trecho constrói um quadro estático do prédio. Tempo verbal isolado não determina a tipologia."
+    },
+    {
+      "id": "u002-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual trecho é predominantemente dissertativo-expositivo?",
+      "options": [
+        {"id":"a","text":"A transparência deve ser ampliada, pois reduz barreiras de acesso."},
+        {"id":"b","text":"Dados abertos são conjuntos disponibilizados para acesso, uso e redistribuição."},
+        {"id":"c","text":"Abra o portal e selecione o período."},
+        {"id":"d","text":"A equipe entrou, conferiu os arquivos e saiu."},
+        {"id":"e","text":"A sala é ampla, clara e silenciosa."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A alternativa define um conceito sem defender uma posição. As demais, respectivamente, argumentam, orientam, narram e descrevem."
+    },
+    {
+      "id": "u002-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 'O órgão deve publicar uma versão simplificada do relatório, pois tabelas sem contexto dificultam o acesso do cidadão', predomina a sequência:",
+      "options": [
+        {"id":"a","text":"dissertativo-argumentativa, com posição e razão."},
+        {"id":"b","text":"dissertativo-expositiva, porque apenas define relatório."},
+        {"id":"c","text":"narrativa, porque relata um acontecimento."},
+        {"id":"d","text":"descritiva, porque caracteriza tabelas fisicamente."},
+        {"id":"e","text":"dialogal, porque busca adesão."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A publicação simplificada é defendida como posição e a dificuldade de acesso funciona como justificativa."
+    },
+    {
+      "id": "u002-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual enunciado orienta uma ação sem empregar verbo no imperativo?",
+      "options": [
+        {"id":"a","text":"O formulário tinha duas páginas."},
+        {"id":"b","text":"É obrigatório apresentar documento de identificação."},
+        {"id":"c","text":"A equipe apresentou os documentos ontem."},
+        {"id":"d","text":"O documento era azul."},
+        {"id":"e","text":"Talvez o documento esteja na mesa."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A construção de obrigação regula a conduta do destinatário e realiza função injuntiva ou prescritiva sem forma imperativa."
+    },
+    {
+      "id": "u002-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a sequência dialogal, assinale a alternativa correta.",
+      "options": [
+        {"id":"a","text":"É obrigatoriamente reconhecida como tipo autônomo por toda teoria textual."},
+        {"id":"b","text":"É caracterizada por turnos de interação, mas sua inclusão como categoria autônoma varia conforme o referencial."},
+        {"id":"c","text":"É sinônimo de entrevista, que também é um tipo textual abstrato."},
+        {"id":"d","text":"Só ocorre oralmente e nunca pode ser representada por escrito."},
+        {"id":"e","text":"Designa o suporte em que duas pessoas conversam."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Alternância de turnos é seu núcleo. Entrevista é gênero; a classificação teórica da sequência dialogal não é uniforme."
+    },
+    {
+      "id": "u002-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um relatório expõe critérios, descreve documentos, narra etapas e fundamenta uma conclusão. A análise correta é:",
+      "options": [
+        {"id":"a","text":"O documento pertence necessariamente a quatro gêneros."},
+        {"id":"b","text":"O gênero relatório pode combinar várias sequências em um único plano global."},
+        {"id":"c","text":"A descrição impede a presença de argumentação."},
+        {"id":"d","text":"A primeira sequência determina sozinha a classificação de todo o texto."},
+        {"id":"e","text":"Misturar sequências torna impossível reconhecer o gênero."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A heterogeneidade de sequências é comum. Gênero e sequência são níveis de classificação diferentes."
+    },
+    {
+      "id": "u002-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para reconhecer um gênero textual com segurança, o conjunto de pistas mais relevante é:",
+      "options": [
+        {"id":"a","text":"uma palavra repetida e o número de linhas."},
+        {"id":"b","text":"somente o tema tratado."},
+        {"id":"c","text":"finalidade, participantes, circulação, composição e estilo."},
+        {"id":"d","text":"apenas o suporte físico."},
+        {"id":"e","text":"o tempo verbal usado na primeira frase."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gênero é prática sociocomunicativa; critérios convergentes são mais seguros que tema, extensão, suporte ou marca gramatical isolada."
+    },
+    {
+      "id": "u002-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em comparação com uma notícia breve, uma reportagem tende principalmente a:",
+      "options": [
+        {"id":"a","text":"abandonar a finalidade informativa e assumir opinião institucional."},
+        {"id":"b","text":"aprofundar tema ou acontecimento com contexto, dados e fontes."},
+        {"id":"c","text":"ser definida somente pela quantidade de palavras."},
+        {"id":"d","text":"registrar deliberações de uma reunião."},
+        {"id":"e","text":"orientar obrigatoriamente um procedimento."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A reportagem se distingue pelo desenvolvimento e contextualização, não por simples extensão nem por opinião institucional obrigatória."
+    },
+    {
+      "id": "u002-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual traço distingue mais diretamente artigo de opinião e editorial?",
+      "options": [
+        {"id":"a","text":"O artigo costuma atribuir a posição a autor identificado; o editorial expressa posição institucional do veículo."},
+        {"id":"b","text":"O editorial nunca argumenta."},
+        {"id":"c","text":"O artigo só circula em papel."},
+        {"id":"d","text":"O editorial é um tipo textual e o artigo é um suporte."},
+        {"id":"e","text":"O artigo sempre informa sem avaliar."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ambos podem argumentar; autoria individual e voz institucional são pistas centrais para distingui-los como gêneros."
+    },
+    {
+      "id": "u002-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um documento organiza objetivo, método, atividades, resultados, dificuldades e recomendações de uma ação institucional. O gênero mais provável é:",
+      "options": [
+        {"id":"a","text":"relatório."},
+        {"id":"b","text":"editorial."},
+        {"id":"c","text":"requerimento."},
+        {"id":"d","text":"verbete."},
+        {"id":"e","text":"convite."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A organização sistemática de atividade, método, resultados e recomendações é função típica de relatório."
+    },
+    {
+      "id": "u002-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa apresenta apenas suportes ou ambientes de circulação?",
+      "options": [
+        {"id":"a","text":"notícia, editorial e requerimento."},
+        {"id":"b","text":"papel, portal eletrônico e aplicativo."},
+        {"id":"c","text":"narrativo, descritivo e injuntivo."},
+        {"id":"d","text":"jornalístico, administrativo e acadêmico."},
+        {"id":"e","text":"tese, argumento e conclusão."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Papel, portal e aplicativo são meios de materialização/circulação. As demais listas reúnem gêneros, tipos, domínios ou elementos argumentativos."
+    },
+    {
+      "id": "u002-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um anúncio de curso usa os títulos 'Ingredientes' e 'Modo de preparo', mas apresenta benefícios e chama o leitor a se matricular. O caso exemplifica:",
+      "options": [
+        {"id":"a","text":"intergenericidade: forma de receita com função publicitária."},
+        {"id":"b","text":"transformação obrigatória do anúncio em receita."},
+        {"id":"c","text":"ausência de gênero reconhecível."},
+        {"id":"d","text":"heterogeneidade tipológica sem relação entre gêneros."},
+        {"id":"e","text":"descrição neutra sem finalidade persuasiva."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A composição de receita é mobilizada para realizar a função de anúncio. Na intergenericidade, aparência e função podem apontar para gêneros diferentes."
+    },
+    {
+      "id": "u002-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação distingue corretamente heterogeneidade tipológica de intergenericidade?",
+      "options": [
+        {"id":"a","text":"Na heterogeneidade, um gênero combina sequências; na intergenericidade, a forma de um gênero é usada para realizar outro."},
+        {"id":"b","text":"As duas expressões significam mudança de suporte."},
+        {"id":"c","text":"Heterogeneidade transforma cada sequência em novo gênero."},
+        {"id":"d","text":"Intergenericidade impede reconhecer a finalidade do texto."},
+        {"id":"e","text":"Ambas só existem em textos digitais."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "São fenômenos distintos: mistura de sequências dentro do gênero versus uso da forma de um gênero com função de outro."
+    },
+    {
+      "id": "u002-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma página intitulada 'Perguntas frequentes' reúne dúvidas recorrentes e respostas curtas sobre um serviço. A melhor classificação é:",
+      "options": [
+        {"id":"a","text":"FAQ, gênero organizado em pares de perguntas e respostas."},
+        {"id":"b","text":"tipo digital, porque circula na internet."},
+        {"id":"c","text":"suporte dialogal."},
+        {"id":"d","text":"editorial, porque responde ao público."},
+        {"id":"e","text":"ata, porque registra perguntas."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A estrutura de dúvidas recorrentes e respostas caracteriza FAQ. Digital descreve o ambiente de circulação, não um tipo textual."
+    },
+    {
+      "id": "u002-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um artigo de opinião começa com uma descrição detalhada de uma praça e depois desenvolve razões para defendê-la da demolição. Se a pergunta pedir a organização predominante do texto inteiro, a melhor resposta é:",
+      "options": [
+        {"id":"a","text":"descritiva, porque a primeira sequência define o todo."},
+        {"id":"b","text":"dissertativo-argumentativa, com descrição subordinada à defesa da tese."},
+        {"id":"c","text":"narrativa, porque há um espaço."},
+        {"id":"d","text":"injuntiva, porque toda tese é uma ordem."},
+        {"id":"e","text":"sem predominância, porque sequências distintas não coexistem."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O comando pede o plano global. A descrição inicial pode servir à argumentação central sem determinar sozinha a classificação do texto inteiro."
+    },
+    {
+      "id": "u002-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na expressão 'relatório administrativo publicado em portal eletrônico e organizado predominantemente por exposição', os termos indicam, respectivamente:",
+      "options": [
+        {"id":"a","text":"gênero, domínio, suporte e sequência."},
+        {"id":"b","text":"sequência, gênero, domínio e suporte."},
+        {"id":"c","text":"suporte, sequência, gênero e domínio."},
+        {"id":"d","text":"domínio, suporte, sequência e gênero."},
+        {"id":"e","text":"tema, tese, gênero e argumento."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Relatório é gênero; administrativo, campo social; portal, meio de circulação; exposição, organização linguístico-discursiva."
+    },
+    {
+      "id": "q094",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de Cebraspe, SEPLAD/DF, Auditor de Controle Interno — Finanças e Controle, 2022, questão 4. Síntese do texto-base: o autor discute resistência fiscal, democracia e educação tributária, articulando explicações com defesa de uma posição. Qual classificação preserva a tipologia predominante?",
+      "options": [
+        {"id":"a","text":"narrativa."},
+        {"id":"b","text":"descritiva."},
+        {"id":"c","text":"dissertativo-argumentativa."},
+        {"id":"d","text":"jornalística neutra."},
+        {"id":"e","text":"injuntiva."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O texto organiza ideias e argumentos em torno de uma posição, por isso a classificação é dissertativo-argumentativa. Adaptação didática, não transcrição; a questão original 4 tem resposta C no caderno com justificativas da banca."
+    },
+    {
+      "id": "q103",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de FGV, ALE-AM, Analista Legislativo — Redator, 2025, questão 52. Entre segmentos de O Crime do Padre Amaro, um mostra duas vacas surgindo no caminho, entrando no rio e bebendo. O que justifica classificá-lo como predominantemente narrativo?",
+      "options": [
+        {"id":"a","text":"A enumeração de características físicas sem mudança temporal."},
+        {"id":"b","text":"A presença de uma paisagem, independentemente do que acontece nela."},
+        {"id":"c","text":"O uso de substantivos concretos e referências espaciais."},
+        {"id":"d","text":"O encadeamento temporal de ações que fazem a cena avançar."},
+        {"id":"e","text":"A orientação direta para que o leitor realize as ações."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A sucessão aparecer → entrar → beber organiza acontecimentos no tempo. Adaptação didática, não transcrição; a questão original 52 tem resposta D no gabarito definitivo."
+    },
+    {
+      "id": "q117",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de FGV, TCE-PE, Analista de Gestão — Administração, prova tipo 1, questão 7. Síntese do texto-base: o trecho cita relatório do Ipea e a fala de pesquisador identificado para sustentar a urgência de enfrentar desafios educacionais. Qual recurso argumentativo se destaca?",
+      "options": [
+        {"id":"a","text":"Argumento de autoridade, apoiado em instituição e especialista identificados."},
+        {"id":"b","text":"Narração ficcional usada como único fundamento."},
+        {"id":"c","text":"Descrição física do ambiente escolar."},
+        {"id":"d","text":"Injunção por sequência de ordens ao leitor."},
+        {"id":"e","text":"Definição lexical sem função argumentativa."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A sustentação recorre a fonte institucional e pesquisador identificado. Adaptação didática, não transcrição; a questão original 7 tem resposta A no gabarito definitivo retificado."
+    }
+  ]
+}
