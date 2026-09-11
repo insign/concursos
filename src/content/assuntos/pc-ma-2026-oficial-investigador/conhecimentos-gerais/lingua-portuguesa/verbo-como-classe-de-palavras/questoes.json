@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 6,
+  "questions": [
+    {
+      "id": "u007-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a opção em que a palavra destacada funciona como verbo no contexto.",
+      "options": [
+        {"id": "a", "text": "A análise do laudo foi demorada. — análise"},
+        {"id": "b", "text": "A equipe analisou o laudo. — analisou"},
+        {"id": "c", "text": "A investigação do caso prosseguiu. — investigação"},
+        {"id": "d", "text": "A chegada dos peritos ocorreu cedo. — chegada"},
+        {"id": "e", "text": "O repouso do servidor foi breve. — repouso"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Em B, “analisou” apresenta o processo e recebe flexão verbal. Nas demais alternativas, as palavras destacadas nomeiam processos, estados ou acontecimentos, mas funcionam como substantivos. A classe não é definida apenas pelo significado de ação."
+    },
+    {
+      "id": "u007-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação descreve corretamente a classe verbal?",
+      "options": [
+        {"id": "a", "text": "Todo verbo necessariamente indica uma ação praticada por alguém."},
+        {"id": "b", "text": "Verbos podem apresentar ação, estado, mudança de estado ou fenômeno, conforme o contexto."},
+        {"id": "c", "text": "Palavras que indicam estado nunca pertencem à classe dos verbos."},
+        {"id": "d", "text": "Fenômenos meteorológicos são sempre substantivos."},
+        {"id": "e", "text": "A existência de sujeito é requisito para uma palavra ser verbo."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O verbo não se limita a ações. Formas como “permaneceu”, “ficou” e “choveu” podem apresentar estado, mudança de estado e fenômeno. Além disso, há empregos verbais impessoais, sem sujeito."
+    },
+    {
+      "id": "u007-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na segmentação tradicional de “cantávamos” como cant-á-va-mos, a parte “-mos” é",
+      "options": [
+        {"id": "a", "text": "radical."},
+        {"id": "b", "text": "vogal temática."},
+        {"id": "c", "text": "desinência modo-temporal."},
+        {"id": "d", "text": "desinência número-pessoal."},
+        {"id": "e", "text": "prefixo derivacional."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Em “cantávamos”, “-mos” indica primeira pessoa do plural e é desinência número-pessoal. “-va-” é a desinência modo-temporal; “cant-”, o radical; “-a-”, a vogal temática."
+    },
+    {
+      "id": "u007-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a classificação tradicional das conjugações verbais, assinale a opção correta.",
+      "options": [
+        {"id": "a", "text": "Verbos em -ar pertencem à segunda conjugação."},
+        {"id": "b", "text": "Verbos em -er pertencem à terceira conjugação."},
+        {"id": "c", "text": "Pôr e seus derivados formam uma quarta conjugação."},
+        {"id": "d", "text": "Pôr e seus derivados são tradicionalmente vinculados à segunda conjugação."},
+        {"id": "e", "text": "A conjugação é definida pela pessoa gramatical do sujeito."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A tradição reconhece três conjugações: -ar, -er e -ir. “Pôr” e derivados ligam-se historicamente à segunda conjugação, não constituindo uma quarta."
+    },
+    {
+      "id": "u007-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito de formas rizotônicas e arrizotônicas, assinale a opção correta.",
+      "options": [
+        {"id": "a", "text": "Em “canto”, a sílaba tônica está fora do radical."},
+        {"id": "b", "text": "Em “cantamos”, a tonicidade recai necessariamente no radical cant-."},
+        {"id": "c", "text": "Rizotônica é a forma cuja tonicidade recai no radical; arrizotônica, a forma cuja tonicidade recai fora dele."},
+        {"id": "d", "text": "Todo verbo é integralmente rizotônico ou integralmente arrizotônico."},
+        {"id": "e", "text": "A classificação depende do tempo cronológico do enunciado."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A classificação é da forma verbal: em “canto”, a tonicidade está no radical; em “cantamos”, fora dele. Um mesmo verbo pode apresentar formas dos dois tipos."
+    },
+    {
+      "id": "u007-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a construção adequada quando “os agentes” funciona como sujeito do infinitivo.",
+      "options": [
+        {"id": "a", "text": "Antes dos agentes saírem, houve a conferência, sendo “dos agentes” complemento da preposição."},
+        {"id": "b", "text": "Antes de os agentes saírem, houve a conferência."},
+        {"id": "c", "text": "Antes de os agentes sair, houve a conferência, porque infinitivo nunca se flexiona."},
+        {"id": "d", "text": "Antes dos agentes sairão, houve a conferência."},
+        {"id": "e", "text": "Antes de os agentes saíssem, o verbo “saíssem” é infinitivo pessoal."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Em “antes de os agentes saírem”, “os agentes” é sujeito de “saírem”. A preposição “de” introduz a construção de infinitivo; por isso, a escrita formal preserva “de os” nesse caso."
+    },
+    {
+      "id": "u007-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Os investigadores devem analisar o material”, a análise correta é:",
+      "options": [
+        {"id": "a", "text": "“devem” e “analisar” formam uma construção verbal em que o auxiliar já recebe pessoa e número."},
+        {"id": "b", "text": "A forma normativa é “devem analisarem”, porque o sujeito está no plural."},
+        {"id": "c", "text": "“analisar” precisa concordar visivelmente com “investigadores” em toda locução."},
+        {"id": "d", "text": "“devem” é substantivo e “analisar” é adjetivo."},
+        {"id": "e", "text": "A presença de dois verbos impede que o conjunto funcione como unidade verbal."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Em “devem analisar”, o auxiliar “devem” recebe as marcas de pessoa e número; o infinitivo principal permanece não flexionado. Não se emprega “devem analisarem”."
+    },
+    {
+      "id": "u007-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a opção correta sobre o gerúndio.",
+      "options": [
+        {"id": "a", "text": "Toda construção com gerúndio é inadequada na norma-padrão."},
+        {"id": "b", "text": "O gerúndio fixa obrigatoriamente o processo no presente."},
+        {"id": "c", "text": "Em “amanhã, a equipe estará analisando o caso”, o gerúndio pode apresentar processo em desenvolvimento em um ponto futuro."},
+        {"id": "d", "text": "Gerúndio e gerundismo são termos equivalentes."},
+        {"id": "e", "text": "A terminação -ndo caracteriza particípio."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O gerúndio pode expressar desenvolvimento, simultaneidade ou outras relações contextuais e não determina sozinho o tempo. Gerundismo é o uso desnecessário ou inadequado de certas cadeias verbais, não o gerúndio em si."
+    },
+    {
+      "id": "u007-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a opção adequada quanto ao particípio.",
+      "options": [
+        {"id": "a", "text": "As investigadoras tinham analisadas as peças."},
+        {"id": "b", "text": "As investigadoras tinham analisado as peças."},
+        {"id": "c", "text": "As peças foram analisado pelas investigadoras."},
+        {"id": "d", "text": "Tinham chegado e tinham trago os documentos."},
+        {"id": "e", "text": "Com ter ou haver, o particípio deve concordar com o objeto direto."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Com “ter” ou “haver” em tempo composto, o particípio permanece invariável: “tinham analisado”. Na passiva ou como atributo, ele pode concordar com o nome: “as peças foram analisadas”. Na escrita formal, usa-se “trazido”, não “trago” como particípio de “trazer”."
+    },
+    {
+      "id": "u007-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa distingue corretamente verbo defectivo de verbo impessoal?",
+      "options": [
+        {"id": "a", "text": "Defectivo é o verbo sem sujeito; impessoal é o verbo com lacunas no paradigma."},
+        {"id": "b", "text": "As duas classificações são sinônimas."},
+        {"id": "c", "text": "Defectividade diz respeito a lacunas no paradigma; impessoalidade, à ausência de sujeito em determinado emprego."},
+        {"id": "d", "text": "Todo verbo defectivo permanece obrigatoriamente na terceira pessoa do singular."},
+        {"id": "e", "text": "Todo verbo impessoal possui conjugação incompleta."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Defectividade descreve o paradigma de conjugação; impessoalidade descreve uma construção sem sujeito. São critérios diferentes e não devem ser confundidos."
+    },
+    {
+      "id": "u007-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um verbo é chamado abundante quando",
+      "options": [
+        {"id": "a", "text": "não possui sujeito em nenhum emprego."},
+        {"id": "b", "text": "admite mais de uma forma equivalente em determinada flexão, como ocorre com alguns particípios."},
+        {"id": "c", "text": "só pode ser usado na terceira pessoa."},
+        {"id": "d", "text": "pertence simultaneamente às três conjugações."},
+        {"id": "e", "text": "não apresenta vogal temática."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A abundância verbal é a existência de formas alternativas em alguma flexão, sobretudo em particípios como “aceitado/aceito” e “entregado/entregue”."
+    },
+    {
+      "id": "u007-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare “A criança acordou” e “O ruído acordou a criança”. O contraste demonstra que",
+      "options": [
+        {"id": "a", "text": "a transitividade deve ser analisada no emprego concreto do verbo."},
+        {"id": "b", "text": "“acordar” é sempre transitivo direto."},
+        {"id": "c", "text": "“acordar” é sempre intransitivo."},
+        {"id": "d", "text": "a presença de sujeito determina a transitividade."},
+        {"id": "e", "text": "a transitividade é uma propriedade fixa que não depende da construção."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "No primeiro enunciado, “acordou” aparece sem objeto; no segundo, “a criança” é objeto direto. A classificação da predicação verbal depende do emprego contextual."
+    },
+    {
+      "id": "u007-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “A equipe entregou o laudo à chefia”, o verbo “entregar” é, nesse emprego,",
+      "options": [
+        {"id": "a", "text": "intransitivo."},
+        {"id": "b", "text": "de ligação."},
+        {"id": "c", "text": "transitivo direto apenas."},
+        {"id": "d", "text": "transitivo indireto apenas."},
+        {"id": "e", "text": "transitivo direto e indireto."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "“O laudo” é objeto direto e “à chefia” completa a relação por meio de preposição, de modo que “entregar” é transitivo direto e indireto nesse contexto."
+    },
+    {
+      "id": "u007-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a opção em que há uma construção típica com verbo auxiliar e verbo principal.",
+      "options": [
+        {"id": "a", "text": "A equipe tentou fugir do local."},
+        {"id": "b", "text": "A equipe tinha concluído a análise."},
+        {"id": "c", "text": "A equipe desejou uma resposta."},
+        {"id": "d", "text": "A equipe iniciou a investigação."},
+        {"id": "e", "text": "A equipe considerou o laudo completo."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Em “tinha concluído”, “tinha” funciona como auxiliar e “concluído” apresenta o processo principal. Nem toda sequência de dois verbos constitui automaticamente locução verbal; verbos como “tentar” podem conservar conteúdo lexical próprio."
+    },
+    {
+      "id": "u007-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual construção apresenta voz passiva sintética com concordância adequada?",
+      "options": [
+        {"id": "a", "text": "Publicou-se os laudos."},
+        {"id": "b", "text": "Publicaram-se os laudos."},
+        {"id": "c", "text": "Precisa-se os laudos."},
+        {"id": "d", "text": "Os laudos se precisa."},
+        {"id": "e", "text": "Houveram-se laudos."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Na passiva sintética, “os laudos” é sujeito paciente e o verbo concorda com ele: “publicaram-se os laudos”, equivalente a “os laudos foram publicados”."
+    },
+    {
+      "id": "u007-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Precisa-se de peritos”, a análise correta é:",
+      "options": [
+        {"id": "a", "text": "“de peritos” é sujeito paciente e o verbo deveria ir ao plural."},
+        {"id": "b", "text": "o “se” é partícula apassivadora e a construção equivale a “peritos são precisados”."},
+        {"id": "c", "text": "o “se” indetermina o sujeito; “de peritos” é complemento preposicionado e o verbo permanece no singular."},
+        {"id": "d", "text": "a oração não contém verbo."},
+        {"id": "e", "text": "“se” é necessariamente conjunção condicional."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Precisar”, no sentido de necessitar, exige a preposição “de”. Como não há sujeito paciente para a passiva, o “se” funciona como índice de indeterminação do sujeito e o verbo fica na terceira pessoa do singular."
+    },
+    {
+      "id": "u007-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a opção correta sobre o verbo “haver”.",
+      "options": [
+        {"id": "a", "text": "Em “havia indícios”, “indícios” é sujeito e o verbo deveria estar no plural."},
+        {"id": "b", "text": "Em “os peritos haviam concluído”, “haver” é impessoal e deveria ficar no singular."},
+        {"id": "c", "text": "Em “pode haver novos indícios”, o emprego existencial de “haver” mantém a locução no singular."},
+        {"id": "d", "text": "Em “houve diligências”, a forma normativa é “houveram diligências”."},
+        {"id": "e", "text": "“Haver” é impessoal em todos os seus sentidos e construções."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Com sentido de existir, ocorrer ou indicar tempo transcorrido, “haver” é impessoal; essa impessoalidade alcança o auxiliar em “pode haver”. Já em “os peritos haviam concluído”, “haviam” é auxiliar de tempo composto e concorda com o sujeito."
+    },
+    {
+      "id": "q384",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de questão da FGV para Professor de Língua Portuguesa, Tipo 1, questão 49. Em qual forma a letra “a” final destacada pode ser analisada, na segmentação tradicional, como desinência modo-temporal?",
+      "options": [
+        {"id": "a", "text": "fazia"},
+        {"id": "b", "text": "casa"},
+        {"id": "c", "text": "menina"},
+        {"id": "d", "text": "prova"},
+        {"id": "e", "text": "perícia"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Em “fazia”, a análise tradicional identifica o segmento final ligado à flexão verbal de tempo e modo, ao contrário das terminações nominais das demais palavras. A prova original marcou A. Adaptação didática, não transcrição; caderno e gabarito definitivo estão em referencias.md."
+    },
+    {
+      "id": "q388",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de questão da FGV para a Câmara dos Deputados, Analista Legislativo — Técnica Legislativa, Tipo 3, questão 13. Considerando “haver” com sentido de existir, qual forma corrige a construção “hão de haver sobreviventes”?",
+      "options": [
+        {"id": "a", "text": "hão de haver sobreviventes"},
+        {"id": "b", "text": "há de haver sobreviventes"},
+        {"id": "c", "text": "hão de haverem sobreviventes"},
+        {"id": "d", "text": "há de haverem sobreviventes"},
+        {"id": "e", "text": "hão haver sobreviventes"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "No valor existencial, “haver” é impessoal e a locução permanece no singular: “há de haver sobreviventes”. A questão oficial identificou como inadequada a flexão plural do auxiliar nesse contexto. Adaptação didática, não transcrição; fonte primária em referencias.md."
+    },
+    {
+      "id": "q399",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de questão da FGV para a Polícia Civil do Piauí, Oficial Investigador, Tipo 2, questão 1. Considere a frase “o feminicídio costuma ser precedido por diferentes formas de violência”. Assinale a análise incorreta.",
+      "options": [
+        {"id": "a", "text": "Na voz ativa, a construção pode ser reorganizada com “diferentes formas de violência” como sujeito de “preceder”."},
+        {"id": "b", "text": "“Por diferentes formas de violência” exerce papel de agente da passiva."},
+        {"id": "c", "text": "“Costuma-se preceder o feminicídio” reproduz a mesma estrutura como voz passiva sintética."},
+        {"id": "d", "text": "“Ser precedido” participa da estrutura típica de voz passiva analítica."},
+        {"id": "e", "text": "“O feminicídio” ocupa a posição de sujeito paciente na construção passiva."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A alternativa C é a análise incorreta segundo o gabarito definitivo da prova. A frase-base está na passiva analítica; as demais descrições preservam a organização entre sujeito paciente, agente da passiva e correspondente ativa. Adaptação didática, não transcrição; caderno e gabarito definitivo estão em referencias.md."
+    }
+  ]
+}
