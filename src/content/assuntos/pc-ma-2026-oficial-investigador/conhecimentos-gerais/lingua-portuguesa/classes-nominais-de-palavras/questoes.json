@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 5,
+  "questions": [
+    {
+      "id": "u006-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No trecho “As duas novas servidoras entregaram seus relatórios”, a classificação de “servidoras”, “as”, “duas”, “novas” e “seus” é, respectivamente:",
+      "options": [
+        {"id":"a","text":"substantivo, artigo, numeral, adjetivo, pronome."},
+        {"id":"b","text":"adjetivo, pronome, artigo, numeral, substantivo."},
+        {"id":"c","text":"substantivo, numeral, artigo, pronome, adjetivo."},
+        {"id":"d","text":"pronome, artigo, substantivo, adjetivo, numeral."},
+        {"id":"e","text":"substantivo, preposição, numeral, advérbio, artigo."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Servidoras” nomeia os seres; “as” determina o substantivo; “duas” quantifica exatamente; “novas” caracteriza; “seus” estabelece relação possessiva. A análise deve considerar o emprego de cada forma no sintagma nominal."
+    },
+    {
+      "id": "u006-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a afirmação correta sobre classe gramatical e função sintática.",
+      "options": [
+        {"id":"a","text":"Uma palavra deixa de ser substantivo quando funciona como sujeito."},
+        {"id":"b","text":"Classe gramatical e função sintática são descrições distintas: um substantivo pode exercer diferentes funções na oração."},
+        {"id":"c","text":"Todo adjetivo exerce necessariamente a função de sujeito."},
+        {"id":"d","text":"Pronome é uma função sintática, não uma classe de palavras."},
+        {"id":"e","text":"A função sintática é determinada apenas pela forma gráfica da palavra."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Classe descreve o tipo de palavra empregado; função sintática descreve sua relação estrutural na oração. “Relatório”, por exemplo, continua substantivo ao funcionar como sujeito, objeto ou predicativo em construções diferentes."
+    },
+    {
+      "id": "u006-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa apresenta uma análise correta das classificações do substantivo?",
+      "options": [
+        {"id":"a","text":"Um substantivo só pode receber uma classificação por vez."},
+        {"id":"b","text":"“Pedreiro” pode ser simultaneamente comum, concreto, simples e derivado, porque cada classificação usa um critério diferente."},
+        {"id":"c","text":"Todo substantivo abstrato é necessariamente uma palavra composta."},
+        {"id":"d","text":"Substantivo próprio é sempre concreto e nunca admite plural."},
+        {"id":"e","text":"Coletivo é sinônimo de substantivo obrigatoriamente plural."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "As oposições comum/próprio, concreto/abstrato, simples/composto e primitivo/derivado respondem a critérios diferentes. Por isso, uma mesma palavra pode acumular classificações compatíveis."
+    },
+    {
+      "id": "u006-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No conjunto “a vítima, o estudante, a cobra fêmea”, as expressões exemplificam, respectivamente, substantivo:",
+      "options": [
+        {"id":"a","text":"sobrecomum; comum de dois gêneros; epiceno."},
+        {"id":"b","text":"epiceno; sobrecomum; comum de dois gêneros."},
+        {"id":"c","text":"comum de dois gêneros; epiceno; sobrecomum."},
+        {"id":"d","text":"biforme; comum; próprio."},
+        {"id":"e","text":"abstrato; coletivo; composto."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Vítima” mantém gênero gramatical fixo para referentes de sexos diferentes; “estudante” muda o gênero pelo determinante; nomes epicenos de animais podem receber “macho/fêmea” para indicar sexo."
+    },
+    {
+      "id": "u006-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o plural dos compostos, assinale a opção correta.",
+      "options": [
+        {"id":"a","text":"Existe uma única regra que manda flexionar sempre todos os elementos de qualquer composto."},
+        {"id":"b","text":"A estrutura interna do composto precisa ser reconhecida: há padrões como “guardas-civis” e “guarda-chuvas”, além de formas lexicalizadas."},
+        {"id":"c","text":"Verbos empregados em compostos devem obrigatoriamente receber marca de plural."},
+        {"id":"d","text":"Substantivos compostos são invariáveis por definição."},
+        {"id":"e","text":"A grafia registrada não interfere na formação do plural de compostos."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A flexão depende da estrutura e do tipo de elementos que formam o composto. Casos lexicalizados e variantes registradas impedem a aplicação de uma fórmula única a todos os compostos."
+    },
+    {
+      "id": "u006-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Leia: “Uma testemunha chegou. A testemunha entregou o documento.” O contraste entre “uma” e “a” mostra que:",
+      "options": [
+        {"id":"a","text":"o artigo indefinido pode introduzir um referente e o definido pode retomá-lo como identificável no contexto."},
+        {"id":"b","text":"todo artigo indefinido é numeral cardinal."},
+        {"id":"c","text":"o artigo definido sempre aponta para uma pessoa conhecida fora do texto."},
+        {"id":"d","text":"“a” deixa de ser artigo por aparecer na segunda frase."},
+        {"id":"e","text":"artigos não participam da construção de referência textual."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A sequência ilustra uma tendência de introdução e retomada referencial. O valor do artigo depende do contexto; o definido não exige, em todo uso, conhecimento externo prévio."
+    },
+    {
+      "id": "u006-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em qual alternativa o artigo promove substantivação da expressão seguinte?",
+      "options": [
+        {"id":"a","text":"O relatório correto foi arquivado."},
+        {"id":"b","text":"Precisamos distinguir o correto do incorreto."},
+        {"id":"c","text":"A equipe revisou o relatório."},
+        {"id":"d","text":"Uma diligência foi realizada."},
+        {"id":"e","text":"Os documentos chegaram cedo."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Em “o correto”, o artigo permite que o adjetivo seja tratado como nome, formando uma expressão substantivada. Nas demais opções, os artigos determinam substantivos já expressos."
+    },
+    {
+      "id": "u006-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare “um grande investigador” e “um investigador grande”. A análise mais adequada é:",
+      "options": [
+        {"id":"a","text":"a posição do adjetivo nunca interfere na interpretação."},
+        {"id":"b","text":"a primeira ordem favorece avaliação de excelência; a segunda pode favorecer dimensão física, conforme o contexto."},
+        {"id":"c","text":"“grande” é numeral na primeira frase e substantivo na segunda."},
+        {"id":"d","text":"a anteposição transforma obrigatoriamente qualquer adjetivo em advérbio."},
+        {"id":"e","text":"as duas expressões são necessariamente sinônimas em todos os contextos."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Certos adjetivos alteram ou especializam seu valor conforme a posição. A leitura concreta deve ser testada por paráfrase; não existe uma regra absoluta segundo a qual toda anteposição produza sentido figurado."
+    },
+    {
+      "id": "u006-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa em que o adjetivo tem uso predominantemente relacional, e não uma qualidade graduável.",
+      "options": [
+        {"id":"a","text":"relatório muito claro."},
+        {"id":"b","text":"servidora extremamente cuidadosa."},
+        {"id":"c","text":"procedimento policial."},
+        {"id":"d","text":"decisão bastante prudente."},
+        {"id":"e","text":"texto claríssimo."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Em “procedimento policial”, o adjetivo classifica o procedimento por relação com a polícia e não admite naturalmente intensificação com o mesmo sentido. Os demais exprimem propriedades graduáveis."
+    },
+    {
+      "id": "u006-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa apresenta, respectivamente, comparativo de igualdade e superlativo absoluto sintético?",
+      "options": [
+        {"id":"a","text":"mais claro que; muito claro."},
+        {"id":"b","text":"tão claro quanto; claríssimo."},
+        {"id":"c","text":"menos claro que; melhor."},
+        {"id":"d","text":"claríssimo; tão claro quanto."},
+        {"id":"e","text":"muito claro; menos claro que."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Tão... quanto” estabelece igualdade entre termos; “claríssimo” intensifica sinteticamente a qualidade sem comparação explícita."
+    },
+    {
+      "id": "u006-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A série “dois relatórios; segundo relatório; dobro do valor; um terço do total” exemplifica, nessa ordem, numerais:",
+      "options": [
+        {"id":"a","text":"cardinal, ordinal, multiplicativo, fracionário."},
+        {"id":"b","text":"ordinal, cardinal, fracionário, multiplicativo."},
+        {"id":"c","text":"cardinal, multiplicativo, ordinal, fracionário."},
+        {"id":"d","text":"fracionário, ordinal, cardinal, multiplicativo."},
+        {"id":"e","text":"indefinido, cardinal, adjetivo, artigo."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Cardinais indicam quantidade; ordinais, posição; multiplicativos, multiplicação; fracionários, divisão em partes."
+    },
+    {
+      "id": "u006-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a opção correta sobre “um/uma” e “meio/meia”.",
+      "options": [
+        {"id":"a","text":"“Um” é sempre artigo, e “meio” é sempre numeral."},
+        {"id":"b","text":"Em “um, não dois”, “um” tem valor numeral; em “meia hora”, “meia” é numeral; em “meio cansadas”, “meio” é advérbio invariável."},
+        {"id":"c","text":"Em “meio cansadas”, a forma correta é obrigatoriamente “meias cansadas”."},
+        {"id":"d","text":"Em “uma testemunha chegou”, “uma” não pode funcionar como artigo indefinido."},
+        {"id":"e","text":"A classe dessas formas independe do elemento que elas acompanham."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O contexto separa contagem de indefinição e numeral de advérbio. “Meio” no sentido de “um pouco” modifica adjetivo e fica invariável; “meia hora” expressa metade de uma unidade."
+    },
+    {
+      "id": "u006-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Esta diligência terminou” e “Esta terminou”, o demonstrativo “esta” funciona, respectivamente, como:",
+      "options": [
+        {"id":"a","text":"pronome adjetivo e pronome substantivo."},
+        {"id":"b","text":"artigo definido e numeral."},
+        {"id":"c","text":"substantivo e advérbio."},
+        {"id":"d","text":"pronome relativo e preposição."},
+        {"id":"e","text":"adjetivo e artigo."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "No primeiro emprego, o pronome acompanha o substantivo “diligência”; no segundo, ocupa sozinho a posição do grupo nominal. A terminologia tradicional chama esses usos de pronome adjetivo e pronome substantivo."
+    },
+    {
+      "id": "u006-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a frase adequada ao contraste entre “eu” e “mim”.",
+      "options": [
+        {"id":"a","text":"Isto é para mim revisar agora."},
+        {"id":"b","text":"Isto é para eu revisar agora."},
+        {"id":"c","text":"Entre eu e a chefia não houve divergência."},
+        {"id":"d","text":"A chefia entregou o relatório para eu."},
+        {"id":"e","text":"O documento foi preparado por eu."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Em “para eu revisar”, “eu” exerce a função de sujeito do infinitivo “revisar”. Quando o pronome é apenas complemento de preposição, usa-se a forma oblíqua tônica: “para mim”, “entre mim e...”, “por mim”."
+    },
+    {
+      "id": "u006-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No período “A delegada informou à investigadora que seu relatório seria revisto”, por que o possessivo “seu” pode ser problemático?",
+      "options": [
+        {"id":"a","text":"Porque possessivos nunca podem acompanhar substantivos."},
+        {"id":"b","text":"Porque a terceira pessoa pode permitir mais de um possuidor compatível no contexto, gerando ambiguidade."},
+        {"id":"c","text":"Porque “seu” é sempre artigo definido."},
+        {"id":"d","text":"Porque “seu” só pode indicar propriedade material."},
+        {"id":"e","text":"Porque todo possessivo deve concordar com o possuidor, e não com o termo possuído."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Seu relatório” pode ser associado à delegada ou à investigadora. A concordância do possessivo se faz com o termo possuído; quando o contexto não fixa o possuidor, a repetição nominal controlada é mais precisa."
+    },
+    {
+      "id": "u006-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual análise está correta para “o que” em “Isso é o que importa”?
+",
+      "options": [
+        {"id":"a","text":"“o” pode funcionar como pronome demonstrativo, equivalente a “aquilo”, e “que” retoma esse antecedente como pronome relativo."},
+        {"id":"b","text":"“o” é obrigatoriamente artigo definido que determina um substantivo oculto, e “que” é conjunção sem referente."},
+        {"id":"c","text":"“o” é numeral cardinal, e “que” é preposição."},
+        {"id":"d","text":"as duas palavras formam um único artigo composto."},
+        {"id":"e","text":"“o” é substantivo próprio, e “que” é advérbio."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Em construções como “o que”, “o” pode equivaler a “aquilo”; “que” introduz a oração relativa e retoma esse antecedente. A análise depende da estrutura concreta, não da forma isolada “o”."
+    },
+    {
+      "id": "u006-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa correta sobre pronomes relativos.",
+      "options": [
+        {"id":"a","text":"Em “o procedimento ao qual aderiu”, a preposição “a” pode ser exigida pela regência de “aderir”."},
+        {"id":"b","text":"“Cujo” concorda com o possuidor e admite artigo obrigatório depois dele."},
+        {"id":"c","text":"“Onde” é a forma preferencial para qualquer antecedente, inclusive ideias abstratas sem valor locativo."},
+        {"id":"d","text":"Pronomes relativos não possuem antecedente textual."},
+        {"id":"e","text":"“Aonde” e “onde” são sempre intercambiáveis porque ambos independem de preposição."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A forma do relativo precisa respeitar a construção: “aderir a” justifica “ao qual”. “Cujo” concorda com o nome posterior e não recebe artigo; “onde” é locativo; “aonde” incorpora a preposição “a” quando ela é exigida."
+    },
+    {
+      "id": "q280",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de CESPE/UnB, Supremo Tribunal Federal, Cargo 8 — Revisão de Texto, 2013, item 55. Considere a estrutura “o que deu origem ao resultado”. Qual análise distingue corretamente as funções de “o” e “que”?",
+      "options": [
+        {"id":"a","text":"“o” pode ser pronome demonstrativo equivalente a “aquilo”; “que” é pronome relativo e exerce a função sintática dentro da oração que introduz."},
+        {"id":"b","text":"“o” é o sujeito da oração relativa, enquanto “que” é conjunção integrante sem função sintática."},
+        {"id":"c","text":"“o” é artigo definido e “que” é preposição."},
+        {"id":"d","text":"“o” e “que” formam um numeral composto."},
+        {"id":"e","text":"“que” não retoma antecedente e tem valor exclusivamente expletivo."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A questão oficial julgou errado atribuir ao “o” a função de sujeito da oração relativa. Na análise adotada, “o” tem valor demonstrativo e “que”, como pronome relativo, ocupa a posição sintática exigida na oração. Adaptação didática, não transcrição; caderno e gabarito definitivo estão em referencias.md."
+    },
+    {
+      "id": "q287",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de FGV, Prefeitura do Jaboatão dos Guararapes, Professor 2 — Língua Portuguesa, 2023, Tipo 4, questão 56. Qual par ilustra melhor um caso em que a mudança de posição do adjetivo tende a preservar o sentido básico, diferentemente de pares como “grande homem/homem grande”?",
+      "options": [
+        {"id":"a","text":"certo dia / dia certo."},
+        {"id":"b","text":"pobre homem / homem pobre."},
+        {"id":"c","text":"velho amigo / amigo velho."},
+        {"id":"d","text":"unanimidade total / total unanimidade."},
+        {"id":"e","text":"simples questão / questão simples."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A prova original marcou D. Em muitos adjetivos, a anteposição ou posposição especializa o sentido; no contraste selecionado, a inversão não produz a mudança semântica típica dos demais pares. Adaptação didática, não transcrição; fonte primária em referencias.md."
+    },
+    {
+      "id": "q292",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de FGV, Assembleia Legislativa da Bahia, Técnico de Nível Superior — Redação e Revisão Legislativa (Letras), 2014, Tipo 1, questão 73. Na expressão “esta é a enésima vez”, “enésima” é:",
+      "options": [
+        {"id":"a","text":"numeral cardinal que indica quantidade exata."},
+        {"id":"b","text":"numeral ordinal que indica posição não especificada e não corresponde a um cardinal determinado."},
+        {"id":"c","text":"numeral fracionário equivalente a um enésimo."},
+        {"id":"d","text":"pronome indefinido, sem valor ordinal."},
+        {"id":"e","text":"advérbio de frequência."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A prova original marcou B. “Enésimo” pertence ao campo dos ordinais e é usado quando a posição é indeterminada ou não se quer explicitá-la; não designa um cardinal exato correspondente. Adaptação didática, não transcrição; fonte primária em referencias.md."
+    }
+  ]
+}
