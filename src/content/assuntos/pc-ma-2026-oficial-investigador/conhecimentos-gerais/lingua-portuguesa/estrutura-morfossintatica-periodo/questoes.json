@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u009-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na expressão “o laudo técnico”, qual alternativa distingue corretamente classe morfológica e função sintática de “técnico”?",
+      "options": [
+        {"id": "a", "text": "É substantivo e sujeito."},
+        {"id": "b", "text": "É adjetivo e adjunto adnominal."},
+        {"id": "c", "text": "É advérbio e adjunto adverbial."},
+        {"id": "d", "text": "É adjetivo e objeto direto."},
+        {"id": "e", "text": "É pronome e predicativo."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Técnico” pertence à classe dos adjetivos e caracteriza diretamente o substantivo “laudo”; sua função sintática é adjunto adnominal. Classe e função são níveis diferentes de análise."
+    },
+    {
+      "id": "u009-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “A equipe tinha revisado os autos”, a sequência “tinha revisado” deve ser analisada, no contexto, como",
+      "options": [
+        {"id": "a", "text": "duas orações coordenadas."},
+        {"id": "b", "text": "duas orações subordinadas."},
+        {"id": "c", "text": "uma locução verbal que organiza uma oração."},
+        {"id": "d", "text": "um período sem oração."},
+        {"id": "e", "text": "um sujeito composto."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O auxiliar “tinha” e o particípio “revisado” atuam conjuntamente como núcleo verbal. Contar cada forma verbal como oração separada produziria segmentação incorreta."
+    },
+    {
+      "id": "u009-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Entregamos o laudo no prazo”, o sujeito é",
+      "options": [
+        {"id": "a", "text": "inexistente."},
+        {"id": "b", "text": "indeterminado."},
+        {"id": "c", "text": "“o laudo”."},
+        {"id": "d", "text": "oculto e recuperável como “nós”."},
+        {"id": "e", "text": "“no prazo”."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A desinência de primeira pessoa do plural em “entregamos” permite recuperar o sujeito “nós”. Ausência gráfica do sujeito não significa indeterminação nem oração sem sujeito."
+    },
+    {
+      "id": "u009-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a oração em que o sujeito está indeterminado.",
+      "options": [
+        {"id": "a", "text": "Os peritos chegaram cedo."},
+        {"id": "b", "text": "Disseram que a rua estava bloqueada, sem referência anterior a quem disse."},
+        {"id": "c", "text": "Há vestígios no local."},
+        {"id": "d", "text": "Chegaram os peritos."},
+        {"id": "e", "text": "Nós analisamos o material."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A terceira pessoa do plural sem referente identificável é um modo de indeterminar o sujeito. Em “há vestígios”, ocorre emprego impessoal de “haver”; nas demais, o sujeito é expresso ou recuperável."
+    },
+    {
+      "id": "u009-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual oração é tradicionalmente analisada como oração sem sujeito?",
+      "options": [
+        {"id": "a", "text": "Os indícios desapareceram."},
+        {"id": "b", "text": "Existem indícios no local."},
+        {"id": "c", "text": "Há indícios no local."},
+        {"id": "d", "text": "Os peritos encontraram indícios."},
+        {"id": "e", "text": "Chegaram novos indícios ao processo."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Haver” com sentido de existir é impessoal; “indícios” não é sujeito nessa construção. Em “existem indícios”, ao contrário, “indícios” é sujeito do verbo “existir”."
+    },
+    {
+      "id": "u009-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “O laudo foi assinado pelo perito”, a análise correta é",
+      "options": [
+        {"id": "a", "text": "“o laudo” é objeto direto e “pelo perito” é sujeito."},
+        {"id": "b", "text": "“o laudo” é sujeito paciente e “pelo perito” é agente da passiva."},
+        {"id": "c", "text": "“o laudo” é sujeito agente e “pelo perito” é objeto indireto."},
+        {"id": "d", "text": "a oração não possui sujeito."},
+        {"id": "e", "text": "“pelo perito” é predicativo do sujeito."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Na passiva analítica, o termo que recebe a ação pode exercer a função de sujeito. Quem pratica a ação, quando expresso por construção como “pelo perito”, é agente da passiva."
+    },
+    {
+      "id": "u009-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Os dois novos peritos da equipe chegaram”, o sujeito é classificado como simples porque",
+      "options": [
+        {"id": "a", "text": "tem apenas uma palavra."},
+        {"id": "b", "text": "não possui determinantes."},
+        {"id": "c", "text": "possui um único núcleo, “peritos”."},
+        {"id": "d", "text": "vem antes do verbo."},
+        {"id": "e", "text": "o verbo está no plural."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A classificação simples/composto depende da quantidade de núcleos do sujeito, não da quantidade total de palavras. “Peritos” é o único núcleo."
+    },
+    {
+      "id": "u009-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “A equipe examinou os documentos”, o predicado é verbal porque",
+      "options": [
+        {"id": "a", "text": "há um predicativo do sujeito como núcleo."},
+        {"id": "b", "text": "o núcleo informacional é o verbo significativo “examinou”."},
+        {"id": "c", "text": "não há sujeito."},
+        {"id": "d", "text": "todo predicado com objeto é nominal."},
+        {"id": "e", "text": "“documentos” é verbo de ligação."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O verbo “examinou” apresenta o processo atribuído ao sujeito e organiza o predicado verbal. Não há predicativo funcionando como núcleo nominal."
+    },
+    {
+      "id": "u009-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “O laudo está completo”, qual termo funciona como predicativo do sujeito?",
+      "options": [
+        {"id": "a", "text": "o"},
+        {"id": "b", "text": "laudo"},
+        {"id": "c", "text": "está"},
+        {"id": "d", "text": "completo"},
+        {"id": "e", "text": "o laudo"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "“Completo” atribui uma característica ao sujeito “o laudo” por meio do verbo de ligação “está”; por isso é predicativo do sujeito."
+    },
+    {
+      "id": "u009-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “A equipe saiu satisfeita”, o predicado é verbo-nominal porque reúne",
+      "options": [
+        {"id": "a", "text": "dois sujeitos simples."},
+        {"id": "b", "text": "um núcleo verbal e um predicativo do sujeito."},
+        {"id": "c", "text": "dois objetos diretos."},
+        {"id": "d", "text": "um aposto e um vocativo."},
+        {"id": "e", "text": "uma oração sem sujeito e uma subordinada."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Saiu” apresenta o acontecimento, enquanto “satisfeita” atribui estado ao sujeito “a equipe”. A combinação de núcleo verbal e predicativo caracteriza predicado verbo-nominal."
+    },
+    {
+      "id": "u009-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “O delegado considerou o laudo inconclusivo”, “inconclusivo” exerce a função de",
+      "options": [
+        {"id": "a", "text": "predicativo do objeto."},
+        {"id": "b", "text": "adjunto adverbial."},
+        {"id": "c", "text": "objeto indireto."},
+        {"id": "d", "text": "agente da passiva."},
+        {"id": "e", "text": "vocativo."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A característica “inconclusivo” é atribuída ao objeto “o laudo” por meio do verbo “considerou”; trata-se de predicativo do objeto."
+    },
+    {
+      "id": "u009-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare “A equipe revisou o laudo” e “A equipe precisa de apoio”. Os termos destacados pelo sentido — “o laudo” e “de apoio” — são, respectivamente,",
+      "options": [
+        {"id": "a", "text": "sujeito e agente da passiva."},
+        {"id": "b", "text": "objeto direto e objeto indireto."},
+        {"id": "c", "text": "objeto indireto e objeto direto."},
+        {"id": "d", "text": "predicativo e aposto."},
+        {"id": "e", "text": "adjunto adnominal e vocativo."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Revisar” recebe “o laudo” sem preposição exigida; “precisar”, no sentido usado, seleciona complemento com “de”. São objeto direto e objeto indireto, respectivamente."
+    },
+    {
+      "id": "u009-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Por que “com cuidado”, em “A equipe trabalhou com cuidado”, não deve ser classificado automaticamente como objeto indireto?",
+      "options": [
+        {"id": "a", "text": "Porque nenhum termo iniciado por preposição pode ser complemento."},
+        {"id": "b", "text": "Porque “com cuidado” acrescenta circunstância de modo, em vez de completar exigência do verbo."},
+        {"id": "c", "text": "Porque objetos indiretos nunca aparecem depois do verbo."},
+        {"id": "d", "text": "Porque o termo é sujeito composto."},
+        {"id": "e", "text": "Porque “cuidado” é verbo."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A preposição, sozinha, não decide a função sintática. “Com cuidado” informa a maneira do trabalho e funciona como adjunto adverbial de modo."
+    },
+    {
+      "id": "u009-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Os vestígios foram recolhidos pela equipe”, “pela equipe” é",
+      "options": [
+        {"id": "a", "text": "objeto direto."},
+        {"id": "b", "text": "objeto indireto."},
+        {"id": "c", "text": "agente da passiva."},
+        {"id": "d", "text": "predicativo do sujeito."},
+        {"id": "e", "text": "vocativo."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A oração está na voz passiva, e “pela equipe” identifica quem executa a ação de recolher; essa é a função de agente da passiva."
+    },
+    {
+      "id": "u009-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa em que o termo preposicionado funciona como complemento nominal.",
+      "options": [
+        {"id": "a", "text": "a decisão do delegado"},
+        {"id": "b", "text": "a porta da sala"},
+        {"id": "c", "text": "a necessidade de apoio"},
+        {"id": "d", "text": "o laudo do perito, no sentido de laudo produzido por ele"},
+        {"id": "e", "text": "a equipe de investigação"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "“De apoio” completa o sentido do substantivo abstrato “necessidade”. Nas demais alternativas, os termos caracterizam, especificam, indicam origem/posse ou autoria, favorecendo análise de adjunto adnominal."
+    },
+    {
+      "id": "u009-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “A equipe é favorável ao recurso”, “ao recurso” completa o sentido de",
+      "options": [
+        {"id": "a", "text": "um substantivo e é objeto direto."},
+        {"id": "b", "text": "um adjetivo e é complemento nominal."},
+        {"id": "c", "text": "um verbo e é sujeito."},
+        {"id": "d", "text": "um advérbio e é vocativo."},
+        {"id": "e", "text": "um artigo e é agente da passiva."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O termo preposicionado completa o adjetivo “favorável”. Complementos nominais podem completar substantivos, adjetivos ou advérbios."
+    },
+    {
+      "id": "u009-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Durante a manhã, os documentos foram conferidos”, a expressão “Durante a manhã” exerce função de",
+      "options": [
+        {"id": "a", "text": "sujeito."},
+        {"id": "b", "text": "objeto direto."},
+        {"id": "c", "text": "adjunto adverbial de tempo."},
+        {"id": "d", "text": "predicativo do objeto."},
+        {"id": "e", "text": "agente da passiva."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A expressão situa temporalmente o fato expresso pela oração. Seu deslocamento para o início não a transforma em sujeito."
+    },
+    {
+      "id": "u009-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “O setor recebeu uma tarefa: revisar os autos antigos”, o segmento após os dois-pontos funciona, no contexto, como",
+      "options": [
+        {"id": "a", "text": "aposto que especifica o conteúdo da tarefa."},
+        {"id": "b", "text": "vocativo."},
+        {"id": "c", "text": "agente da passiva."},
+        {"id": "d", "text": "sujeito de “recebeu”."},
+        {"id": "e", "text": "objeto indireto de “setor”."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Revisar os autos antigos” especifica qual é a tarefa mencionada anteriormente. Os dois-pontos ajudam a sinalizar, mas é a relação explicativa/especificativa que sustenta a função de aposto."
+    },
+    {
+      "id": "u009-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Senhores candidatos, leiam o enunciado”, “Senhores candidatos” é",
+      "options": [
+        {"id": "a", "text": "sujeito simples de “leiam”."},
+        {"id": "b", "text": "objeto direto."},
+        {"id": "c", "text": "vocativo."},
+        {"id": "d", "text": "predicativo do sujeito."},
+        {"id": "e", "text": "aposto do verbo."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O termo chama os destinatários do enunciado e não integra a relação sintática sujeito-predicado; exerce função de vocativo."
+    },
+    {
+      "id": "u009-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Chegaram os peritos”, a análise correta é",
+      "options": [
+        {"id": "a", "text": "“os peritos” é objeto direto porque vem depois do verbo."},
+        {"id": "b", "text": "a oração não tem sujeito."},
+        {"id": "c", "text": "“os peritos” é sujeito posposto."},
+        {"id": "d", "text": "“chegaram” é verbo de ligação."},
+        {"id": "e", "text": "“os peritos” é agente da passiva."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A ordem linear não define a função. O verbo “chegar” relaciona-se ao sujeito “os peritos”, que apenas aparece depois do verbo."
+    },
+    {
+      "id": "u009-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare “A equipe revisou os dados e publicou o laudo” com “O delegado confirmou que a equipe revisou os dados”. A diferença estrutural central é que",
+      "options": [
+        {"id": "a", "text": "no primeiro período há coordenação entre orações; no segundo, uma oração ocupa função dentro de outra."},
+        {"id": "b", "text": "os dois períodos são simples."},
+        {"id": "c", "text": "o primeiro não possui verbo."},
+        {"id": "d", "text": "o segundo contém apenas termos coordenados, sem dependência."},
+        {"id": "e", "text": "coordenação e subordinação são apenas diferenças de pontuação."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "No primeiro período, as orações se articulam no mesmo nível; no segundo, “que a equipe revisou os dados” completa “confirmou”. Esse contraste prepara a análise detalhada de coordenação e subordinação."
+    },
+    {
+      "id": "u009-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de questão da Fundação Getulio Vargas para a Prefeitura de Nova Iguaçu, Analista Tributário do Tesouro Municipal, Tipo 1. Compare: I. “A perícia foi concluída pela equipe.” II. “Concluiu-se a perícia.” III. “Concluíram a perícia.” Sem referente anterior para o verbo da frase III, assinale a análise correta.",
+      "options": [
+        {"id": "a", "text": "As três frases têm sujeito indeterminado."},
+        {"id": "b", "text": "Na frase II, “a perícia” é objeto direto."},
+        {"id": "c", "text": "Na frase I, “pela equipe” é sujeito."},
+        {"id": "d", "text": "A frase III apresenta sujeito indeterminado."},
+        {"id": "e", "text": "Na frase II, o “se” indetermina o sujeito de uma construção passiva."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Na frase III, a terceira pessoa do plural sem referente identificável indetermina o sujeito. Na frase I, “a perícia” é sujeito paciente; na II, em construção passiva sintética, “a perícia” também é sujeito paciente. A questão original 7 cobrava a mesma oposição e teve gabarito definitivo D."
+    },
+    {
+      "id": "u009-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de questão da Fundação Getulio Vargas para o Ministério da Cultura, Técnicas de Suporte, Nível Superior, Tipo 2. Assinale a alternativa em que o termo final não funciona como predicativo do sujeito.",
+      "options": [
+        {"id": "a", "text": "O laudo pareceu claro."},
+        {"id": "b", "text": "A medida permaneceu necessária."},
+        {"id": "c", "text": "O delegado considerou o laudo inconclusivo."},
+        {"id": "d", "text": "A agente saiu satisfeita."},
+        {"id": "e", "text": "A situação ficou estável."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Em C, “inconclusivo” atribui característica ao objeto “o laudo”, portanto é predicativo do objeto. Nas demais, a característica é atribuída ao sujeito. A questão original 5 distinguia predicativo do sujeito de outro emprego e teve gabarito definitivo C."
+    },
+    {
+      "id": "u009-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Adaptação de questão da Fundação Getulio Vargas para a Câmara dos Deputados, Analista Legislativo — Informática Legislativa, Tipo 1. Em qual alternativa o participante que recebe a ação está corretamente associado à função de objeto direto?",
+      "options": [
+        {"id": "a", "text": "A equipe confeccionou o relatório. → “o relatório” é objeto direto."},
+        {"id": "b", "text": "O relatório foi elaborado pela equipe. → “o relatório” é objeto direto."},
+        {"id": "c", "text": "Chegaram os relatórios. → “os relatórios” é objeto direto."},
+        {"id": "d", "text": "O relatório parece completo. → “o relatório” é objeto direto."},
+        {"id": "e", "text": "Há relatórios no arquivo. → “relatórios” é sujeito."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Em A, “o relatório” é paciente semântico da ação de confeccionar e objeto direto do verbo ativo. Na passiva de B, “o relatório” é sujeito paciente; em C, é sujeito posposto; em D, sujeito; em E, “haver” existencial é impessoal. A questão original 6 cobrava a associação entre paciente e função sintática e teve gabarito definitivo A."
+    }
+  ]
+}
