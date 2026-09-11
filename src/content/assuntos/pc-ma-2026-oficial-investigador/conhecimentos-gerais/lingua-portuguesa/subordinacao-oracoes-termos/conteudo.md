@@ -8,260 +8,271 @@ storageId: pc-u011
 
 # Subordinação entre orações e termos da oração
 
-## 1. A pergunta que organiza o assunto: quem depende de quem?
+## 1. Comece pela hierarquia, não pelo conectivo
 
 Compare os exemplos hipotéticos:
 
-> O investigador confirmou **a revisão dos dados**.  
-> O investigador confirmou **que a equipe revisou os dados**.
+> A equipe confirmou **a autenticidade do arquivo**.  
+> A equipe confirmou **que o arquivo era autêntico**.
 
-Nos dois casos, o trecho destacado completa o sentido de *confirmou*. No segundo, porém, há um verbo próprio: uma oração inteira ocupa a posição que poderia ser preenchida por um grupo nominal.
+Nos dois casos, o trecho destacado completa o sentido de *confirmou*. No segundo, porém, há um verbo próprio: uma **oração** ocupa a posição que, no primeiro exemplo, é ocupada por um <abbr title="grupo de palavras organizado em torno de um nome ou pronome">grupo nominal</abbr>.
 
-Esse é o ponto central da **subordinação**: uma unidade sintática depende de outra e nela exerce uma função ou estabelece uma relação. A unidade de que ela depende é seu <abbr title="termo que seleciona ou recebe um complemento">regente</abbr> ou, no caso de outra oração, sua <abbr title="oração à qual outra se liga sintaticamente">oração matriz</abbr>.
+Essa é a ideia que organiza o assunto: **há subordinação quando uma unidade depende sintaticamente de outra, integrando-a ou modificando-a**. A unidade de que outra depende funciona como seu **núcleo** ou **<abbr title="palavra ou estrutura que seleciona um complemento">regente</abbr>**, conforme o caso.
 
-Por isso, “ter sentido completo” não separa coordenação de subordinação. O critério é estrutural:
+Não use “tem sentido completo” como teste. Em coordenação, os membros ficam no mesmo nível; na subordinação, há hierarquia. Também é possível haver as duas relações no mesmo período: em “A equipe afirmou **que revisou o laudo e publicou a nota**”, *revisou* e *publicou* coordenam-se entre si, mas o bloco inteiro completa *afirmou*.
 
-- **coordenação:** unidades do mesmo nível são ligadas;
-- **subordinação:** uma unidade integra, completa ou modifica outra.
+A unidade sobre estrutura morfossintática ensinou a localizar núcleos e funções; a de coordenação mostrou relações entre unidades de mesmo nível. Aqui, a pergunta passa a ser: **qual unidade depende de qual, e que função ou relação essa dependência expressa?**
 
-As duas relações podem coexistir. Em “medidas **claras e objetivas**”, *claras* e *objetivas* coordenam-se entre si, mas o conjunto depende do substantivo *medidas*.
+## 2. Subordinação entre termos: quem completa ou modifica quem?
 
-Antes de classificar uma subordinada, descubra **qual núcleo ela completa ou modifica** e **que função ou relação constrói**.
+Antes das orações subordinadas, observe a mesma lógica dentro da oração:
 
-## 2. A subordinação começa antes das orações
+- *confiar **na equipe***: o verbo seleciona complemento;
+- *favorável **ao recurso***: o adjetivo seleciona complemento;
+- *necessidade **de revisão***: o substantivo recebe complemento;
+- *relatório **sigiloso***: o adjetivo modifica o substantivo;
+- *agir **com cautela***: o grupo acrescenta circunstância ao verbo.
 
-A relação de dependência também aparece entre termos de uma oração simples:
-
-> A equipe confia **nos peritos**.  
-> A equipe agiu **com cautela**.  
-> A equipe tem necessidade **de revisão**.  
-> O relatório **do perito** foi juntado.
-
-Esses segmentos preposicionados não têm todos a mesma função. A preposição é apenas uma pista.
-
-### Verbo, nome e circunstância
-
-Em “confia **nos peritos**”, o verbo *confiar* exige complemento introduzido por *em*: há **objeto indireto**.
-
-Em “agiu **com cautela**”, o segmento informa modo; funciona como **adjunto adverbial**. Ele não completa uma exigência lexical do verbo do mesmo modo que *nos peritos* completa *confiar*.
-
-Em “necessidade **de revisão**”, *de revisão* completa o sentido do nome *necessidade*: é **complemento nominal**.
-
-Em “relatório **do perito**”, *do perito* identifica uma relação de autoria/pertencimento com o substantivo *relatório*: é **adjunto adnominal**.
+A **preposição** é uma palavra de ligação, como *de*, *em*, *a* ou *com*. Sua presença, sozinha, não identifica a função.
 
 ### Complemento nominal × adjunto adnominal
 
-Quando o núcleo é um substantivo, não decida apenas pela presença de preposição. Observe a relação:
+O **complemento nominal** completa o sentido de substantivo, adjetivo ou advérbio e vem preposicionado: *necessidade de revisão*, *favorável ao recurso*, *independentemente da decisão*.
 
-- **complemento nominal:** completa substantivo, adjetivo ou advérbio; com substantivos abstratos, costuma representar alvo, conteúdo ou participante exigido pelo sentido;
-- **adjunto adnominal:** determina ou caracteriza substantivo; pode indicar agente, possuidor, origem, matéria, espécie ou característica.
+O **adjunto adnominal** determina ou caracteriza um substantivo: *o relatório sigiloso*, *a equipe da unidade*, *o relatório do perito*.
 
-Compare:
+Em nomes que exprimem ação, sentimento ou estado, o papel semântico ajuda. Compare:
 
-> a crítica **do perito** **ao laudo**
+> a crítica **do auditor** **ao relatório**
 
-Se a leitura for “o perito criticou o laudo”, *do perito* representa quem pratica a crítica, enquanto *ao laudo* representa o alvo. A análise tradicional favorece **adjunto adnominal** para o primeiro e **complemento nominal** para o segundo.
+Se a leitura for “o auditor criticou o relatório”, *do auditor* representa quem pratica a crítica; *ao relatório*, o alvo. Na análise tradicional, o primeiro funciona como adjunto adnominal e o segundo, como complemento nominal.
 
-Esse raciocínio é importante porque uma oração pode ocupar a mesma posição de um termo dependente.
+Use isso como raciocínio, não como fórmula cega: **agente, possuidor, origem ou característica** favorecem leitura de adjunto; **alvo ou conteúdo exigido pelo nome** favorecem leitura de complemento. Nem a preposição nem a possibilidade de retirar o termo resolvem tudo isoladamente.
 
-## 3. Quando uma oração funciona como um nome
+## 3. Orações substantivas: uma oração ocupa posição de nome
 
-As **orações subordinadas substantivas** exercem funções típicas de grupos nominais. Um teste útil é substituir a oração por **isso**, preservando a preposição quando houver.
+As **orações subordinadas substantivas** exercem funções normalmente ocupadas por grupos nominais. Um bom primeiro teste é substituir a oração por **isso**, preservando a preposição exigida:
 
-> O delegado informou **que o exame terminou**.  
-> O delegado informou **isso**.
+> Convém **que os dados sejam revistos**. → **Isso** convém.  
+> A equipe informou **que o prazo terminou**. → A equipe informou **isso**.  
+> O servidor duvida **de que o prazo termine hoje**. → O servidor duvida **disso**.
 
-A substituição ajuda, mas a classificação final depende da função.
+O teste apenas revela uma pista. A classificação final depende da função sintática.
 
-| Tipo | Função da oração | Exemplo hipotético | Teste |
-| --- | --- | --- | --- |
-| subjetiva | sujeito | Convém **que revisem os autos**. | **Isso** convém. |
-| objetiva direta | objeto direto | Informou **que o prazo terminou**. | Informou **isso**. |
-| objetiva indireta | objeto indireto | Duvida **de que baste**. | Duvida **disso**. |
-| completiva nominal | complemento de nome | Há dúvida **de que baste**. | dúvida **disso** |
-| predicativa | predicativo do sujeito | A conclusão é **que faltam dados**. | A conclusão é **isso**. |
-| apositiva | aposto | Há um pedido: **que revisem os autos**. | explica *um pedido* |
+### 3.1 Subjetiva e objetiva direta
 
-### Sujeito da subordinada × função da subordinada
+Em “Convém **que os dados sejam revistos**”, aquilo que convém é a própria oração: ela funciona como **sujeito** e, por isso, é **substantiva subjetiva**.
 
-Em “É necessário **que todos compareçam**”, *todos* é sujeito de *compareçam*, mas a oração inteira — *que todos compareçam* — é sujeito de *é necessário*.
+Em “A equipe informou **que o prazo terminou**”, o sujeito é *a equipe*; aquilo que foi informado é a oração. Ela funciona como **objeto direto** de *informou* e é **substantiva objetiva direta**.
 
-A prova costuma explorar essa mudança de nível. Analise cada verbo dentro de sua própria oração antes de classificar o bloco maior.
+Atenção ao nível de análise. Em “É necessário **que todos participem**”, *todos* é sujeito de *participem*, mas a oração inteira *que todos participem* é sujeito de *é necessário*.
 
-### Objetiva indireta × completiva nominal
+### 3.2 Objetiva indireta e completiva nominal
 
 Compare:
 
-> O investigador **duvida de que** a informação seja suficiente.  
-> Há **dúvida de que** a informação seja suficiente.
+> O relator duvida **de que a prova baste**.  
+> Há dúvida **de que a prova baste**.
 
-Na primeira, o <abbr title="termo que seleciona ou recebe um complemento">regente</abbr> é o verbo *duvidar*: oração **objetiva indireta**. Na segunda, o regente é o substantivo *dúvida*: oração **completiva nominal**.
+Na primeira, o regente é o verbo *duvidar*: *duvida disso*. A oração é **objetiva indireta**.
 
-A sequência *de que* não resolve a questão sozinha. Localize o núcleo que exige o complemento.
+Na segunda, a oração completa o nome *dúvida*: *dúvida disso*. Ela é **completiva nominal**.
 
-### `que` e `se`: olhe a função, não a forma isolada
+A sequência *de que* não decide a classificação. Pergunte: **quem exige o complemento — um verbo ou um nome?**
 
-Em “A equipe informou **que o laudo chegou**”, *que* é <abbr title="palavra que introduz uma oração substantiva sem exercer função dentro dela">conjunção integrante</abbr>. Ele introduz o conteúdo informado, mas não substitui nenhum termo dentro da oração.
+### 3.3 Predicativa e apositiva
 
-Em “Não sei **se haverá recurso**”, *se* também é conjunção integrante: introduz uma pergunta indireta, equivalente a “haverá recurso ou não?”.
+Em “A conclusão é **que o documento é autêntico**”, a oração atribui conteúdo ao sujeito *a conclusão* por meio do verbo de ligação. É **substantiva predicativa**.
 
-Já em “**Se houver recurso**, o prazo será reaberto”, *se* estabelece uma **condição**. A palavra é igual; a relação sintática é diferente.
+Em “Só havia uma exigência: **que todos assinassem**”, a oração explica o conteúdo do termo *uma exigência*. Funciona como **aposto** e é **substantiva apositiva**. Os dois-pontos ajudam a sinalizar a explicação, mas a pontuação não substitui a análise da função.
 
-## 4. Quando uma oração caracteriza um nome
+### 3.4 `que` e `se`: integrante não é relativo nem condicional
+
+Em “A equipe afirmou **que o arquivo é autêntico**”, *que* apenas introduz o conteúdo afirmado. Não retoma antecedente e não exerce função dentro da subordinada: é **conjunção integrante**.
+
+Em “Não sei **se haverá recurso**”, *se* também é conjunção integrante: introduz uma pergunta indireta total, equivalente à dúvida “haverá recurso ou não?”.
+
+Já em “**Se houver recurso**, o processo será reexaminado”, *se* cria uma condição. A palavra é a mesma; a relação sintática e semântica é outra.
+
+## 4. Orações adjetivas: uma oração caracteriza um antecedente
 
 Compare:
 
-> os relatórios **sigilosos**  
-> os relatórios **que contêm informação sigilosa**
+> os documentos **sigilosos**  
+> os documentos **que contêm informação sigilosa**
 
-No segundo caso, a caracterização tem verbo próprio. Trata-se de **oração subordinada adjetiva**, ligada a um <abbr title="termo retomado por um pronome relativo">antecedente</abbr>, aqui *relatórios*.
+No segundo caso, a caracterização tem verbo próprio. A oração é **subordinada adjetiva** e modifica o antecedente *documentos*.
 
-Ela costuma ser introduzida por <abbr title="palavra que retoma um antecedente e exerce função na oração">pronome relativo</abbr>. Diferentemente da conjunção integrante, o relativo **retoma um termo anterior e exerce função dentro da subordinada**.
+O **pronome relativo** liga a oração ao antecedente, retoma esse antecedente e exerce função sintática dentro da subordinada. Para descobrir essa função, recoloque o antecedente na oração:
 
-### O teste da reconstrução
+| Construção | Reconstrução | Função do relativo |
+| --- | --- | --- |
+| documentos **que foram periciados** | os documentos foram periciados | sujeito |
+| documentos **que a equipe periciou** | a equipe periciou os documentos | objeto direto |
+| norma **a que obedecemos** | obedecemos à norma | complemento preposicionado |
 
-> os relatórios **que a equipe revisou**
+Isso separa o relativo de *que* integrante: em “A equipe informou **que periciou os documentos**”, *que* não retoma nada; apenas introduz o conteúdo informado.
 
-Recoloque o antecedente na oração: “a equipe revisou **os relatórios**”. Logo, *que* funciona como objeto direto de *revisou*.
+### 4.1 Restritiva × explicativa
 
-Compare com:
-
-> A equipe informou **que revisou os relatórios**.
-
-Aqui, *que* não retoma antecedente; apenas introduz o conteúdo de *informou*. É conjunção integrante.
-
-### Restritiva × explicativa: muda o alcance
+Compare:
 
 > Os servidores **que concluíram o curso** receberam certificado.  
 > Os servidores, **que concluíram o curso**, receberam certificado.
 
-Na primeira, a adjetiva é **restritiva**: seleciona, no contexto, os servidores que concluíram o curso.
+Sem isolamento, a oração é **restritiva**: seleciona o subconjunto dos servidores que concluiu o curso.
 
-Na segunda, a adjetiva é **explicativa**: acrescenta uma informação sobre o grupo já identificado. As vírgulas não são mero enfeite; podem mudar quais referentes recebem a característica.
+Com vírgulas, é **explicativa**: acrescenta uma informação a um grupo já identificado no contexto. A propriedade vale para esse grupo inteiro.
 
-O estudo sistemático da pontuação pertence à U012. Aqui, retenha a consequência sintática e semântica: **restrição seleciona; explicação comenta**.
+Portanto, retirar ou inserir vírgulas pode alterar **o alcance da afirmação**, e não apenas o ritmo. A unidade de pontuação aprofunda as regras dos sinais; aqui importa perceber o efeito sintático e semântico.
 
-### Relativos: só o necessário para reconhecer a estrutura
+### 4.2 Preposição e relativos
 
-- **que:** pode retomar pessoa ou coisa;
-- **quem:** normalmente retoma pessoa e pode vir precedido da preposição exigida;
-- **o qual / a qual / os quais / as quais:** flexionam e podem ajudar a explicitar a retomada;
-- **cujo:** estabelece posse e concorda com o nome possuído; não recebe artigo depois;
-- **onde:** retoma lugar.
+Se a função interna exige preposição, ela deve acompanhar o relativo:
 
-Em “a norma **a que obedeceram**”, a preposição *a* pertence à relação interna: “obedeceram **à norma**”. A escolha detalhada de preposições será aprofundada em **Regência verbal e nominal**; aqui, o objetivo é perceber que a função do relativo se descobre dentro da subordinada.
+> a servidora **a quem me referi** → referi-me **à servidora**  
+> a norma **a que obedeci** → obedeci **à norma**
 
-## 5. Quando a oração estabelece uma circunstância ou relação lógica
+*Cujo* estabelece relação de posse ou pertencimento e concorda com o termo possuído:
 
-As **orações subordinadas adverbiais** ligam uma situação a outra por relações como causa, condição, concessão, finalidade e tempo.
+> o auditor **cujos relatórios** foram publicados
 
-O conectivo é uma pista, não um rótulo automático. Pergunte: **que relação este trecho constrói neste contexto?**
+Não se usa artigo depois de *cujo*: *cujos os relatórios* é inadequado. A preposição pode aparecer antes quando a estrutura interna a exige: *o auditor **de cujos relatórios** discordamos*.
 
-| Relação | Exemplo hipotético | Ideia central |
+*Onde* retoma lugar. Para antecedente abstrato, prefira a construção adequada ao sentido e à regência, como *a situação **em que** ocorreu o erro*. A regência dos verbos e nomes é aprofundada em unidade própria.
+
+## 5. Orações adverbiais: descubra a relação construída
+
+As **orações subordinadas adverbiais** estabelecem relações como causa, consequência, finalidade, condição, concessão, tempo, proporção, comparação e conformidade. O conectivo é uma pista; **o contexto decide**.
+
+### 5.1 Causa, consequência e finalidade
+
+> A sessão foi adiada **porque faltaram documentos**.
+
+A falta de documentos é apresentada como **causa** do adiamento.
+
+> Havia **tantos** erros **que o relatório foi refeito**.
+
+A segunda oração apresenta a **consequência** ligada à intensidade marcada por *tantos*. Construções com *tão/tanto/tal/tamanho ... que* são típicas, mas também há consecutivas como *de modo que o relatório foi refeito*.
+
+> A equipe revisou os dados **para que evitasse falhas**.
+
+A subordinada expressa **finalidade**, isto é, o objetivo da revisão. Finalidade pretendida não significa resultado efetivamente alcançado.
+
+### 5.2 Condição e concessão
+
+> **Se houver recurso**, haverá reexame.
+
+O reexame depende da hipótese: relação de **condição**.
+
+> **Embora houvesse recurso**, a decisão foi mantida.
+
+A existência do recurso cria expectativa de resultado contrário, mas não impede a manutenção: relação de **concessão**.
+
+A troca do conectivo pode exigir ajuste verbal: *se houver* → *caso haja*. Em construções concessivas, *embora*, *ainda que*, *mesmo que*, *por mais que* e *conquanto* são marcas frequentes. Não confunda modo verbal com certeza ou dúvida: o valor vem da construção inteira.
+
+### 5.3 Tempo, proporção, comparação e conformidade
+
+> **Quando a perícia terminou**, o processo avançou.
+
+A subordinada situa o avanço no **tempo**. Sequência temporal, por si só, não prova causa.
+
+> **À medida que os dados chegavam**, a conferência avançava.
+
+As duas situações variam conjuntamente: relação **proporcional**.
+
+> O parecer ficou mais claro **do que o anterior [ficou]**.
+
+Há **comparação**. O verbo da segunda oração está omitido, mas pode ser recuperado pelo contexto; essa omissão é uma **elipse**.
+
+> A análise ocorreu **conforme determina a norma**.
+
+A ação é apresentada segundo um parâmetro: relação **conformativa**.
+
+Palavras como *como* podem introduzir mais de uma relação. Classifique a construção, não o vocábulo isolado.
+
+### 5.4 Relações próximas que a prova tenta confundir
+
+| Relação subordinativa | Relação próxima |
+| --- | --- |
+| causa: *Atrasou porque faltou documento.* | explicação coordenada: *Confira, porque falta documento.* |
+| consequência: *Tantos erros que foi preciso refazer.* | conclusão coordenada: *Muitos erros; portanto, foi preciso refazer.* |
+| concessão: *Embora chovesse, saiu.* | adversidade coordenada: *Chovia, mas saiu.* |
+
+A diferença não é só trocar conectores. A estrutura, o modo verbal, o foco informacional e o alcance podem mudar.
+
+## 6. Desenvolvidas e reduzidas: forma e função são perguntas diferentes
+
+Uma subordinada **desenvolvida** costuma apresentar verbo em forma finita e um conectivo expresso:
+
+> **Quando a sessão terminou**, os participantes saíram.
+
+Uma subordinada **reduzida** tem como núcleo uma forma nominal do verbo, frequentemente infinitivo, gerúndio ou particípio:
+
+| Reduzida | Desenvolvimento possível | Função no exemplo |
 | --- | --- | --- |
-| causal | Adiou a diligência **porque faltou documento**. | motivo do fato |
-| consecutiva | Havia **tantos** erros **que refizeram o laudo**. | resultado ligado a intensidade/situação |
-| final | Revisou os dados **para que evitasse falhas**. | objetivo pretendido |
-| condicional | **Se houver recurso**, reexamine. | hipótese de que depende outro fato |
-| concessiva | **Embora houvesse recurso**, manteve a decisão. | fato que não impede o resultado |
-| temporal | **Quando a perícia terminou**, o processo avançou. | localização no tempo |
-| proporcional | **À medida que os dados chegavam**, a conferência avançava. | variação conjunta |
-| comparativa | Trabalhou mais **do que o colega [trabalhou]**. | comparação |
-| conformativa | Agiu **conforme determina a norma**. | conformidade |
+| É necessário **revisar os dados**. | É necessário **que os dados sejam revistos**. | substantiva subjetiva |
+| Documentos **enviados ontem** serão analisados. | Documentos **que foram enviados ontem** serão analisados. | adjetiva restritiva |
+| **Havendo recurso**, haverá reexame. | **Se houver recurso**, haverá reexame. | adverbial condicional |
+| **Para reduzir erros**, revise os dados. | **Para que reduza erros**, revise os dados. | adverbial final |
 
-### Causa não é explicação; consequência não é conclusão
+**Forma reduzida não determina a função.** Infinitivo, gerúndio e particípio podem aparecer em relações diferentes.
 
-Compare:
+O infinitivo pode ser pessoal: “É importante **os servidores revisarem os dados**”. *Revisarem* continua infinitivo; a presença de flexão não transforma automaticamente a oração em desenvolvida.
 
-> A sessão atrasou **porque faltou documento**.  
-> Confira os documentos, **porque há divergências**.
+Ao desenvolver uma reduzida, preserve sujeito, referência temporal, modo e relação semântica. *Havendo recurso* pode valer *se houver recurso* neste contexto; *mesmo havendo recurso* tende a leitura concessiva. A forma de gerúndio, sozinha, não decide.
 
-Na primeira, a falta do documento é apresentada como causa do atraso. Na segunda, o segundo segmento justifica a orientação *confira*; a relação se aproxima da coordenação explicativa estudada na U010.
+## 7. Encaixamento: resolva de dentro para fora
 
-Também não confunda:
+Uma subordinada pode conter outra:
 
-> Havia tantos erros **que o laudo foi refeito**.  
-> Havia muitos erros; **portanto**, o laudo foi refeito.
+> O relator afirmou **[que a equipe demonstrou [que os dados eram insuficientes]]**.
 
-A primeira estrutura é subordinada **consecutiva**; a segunda é coordenada **conclusiva**.
+Comece pelo bloco mais interno:
 
-### Concessão não é adversidade
+1. *a equipe demonstrou isso* → *que os dados eram insuficientes* é objeto direto de *demonstrou*;
+2. o bloco *que a equipe demonstrou que os dados eram insuficientes* completa *afirmou*.
 
-> **Embora** estivesse cansada, a equipe continuou.  
-> A equipe estava cansada, **mas** continuou.
+Também pode haver coordenação dentro de subordinação:
 
-O contraste é semelhante, mas a arquitetura muda: *embora* introduz uma subordinada concessiva; *mas* liga unidades coordenadas em relação adversativa.
+> O relator afirmou **que revisou os dados e que publicou o resultado**.
 
-### A mesma palavra pode construir relações diferentes
+As duas orações iniciadas por *que* completam *afirmou* e coordenam-se entre si.
 
-*Como* pode ser causal, comparativo ou conformativo. *Se* pode introduzir condição ou conteúdo interrogativo indireto. Por isso, decorar uma lista de conjunções sem reconstruir a relação produz muitos erros.
+A correlação também merece cuidado. *Tão ... que* costuma formar estrutura consecutiva; *quanto mais ... mais*, proporcional; *não apenas ... mas também* liga elementos coordenados. A presença de palavras em par não cria uma única relação sintática automática.
 
-## 6. Desenvolvida e reduzida: forma não é função
-
-Uma subordinada **desenvolvida** costuma trazer verbo flexionado e conectivo expresso:
-
-> **Quando a diligência terminou**, a equipe saiu.
-
-Uma subordinada **reduzida** apresenta forma nominal do verbo e, em geral, não traz a conjunção típica da forma desenvolvida:
-
-- **infinitivo:** **Para evitar falhas**, revise o laudo.
-- **gerúndio:** **Havendo recurso**, haverá reexame.
-- **particípio:** **Encerrada a diligência**, a equipe saiu.
-
-“Reduzida” descreve a **forma**, não a função. A oração de infinitivo pode ser substantiva, adjetiva ou adverbial; o gerúndio e o particípio também exigem leitura do contexto.
+## 8. Escopo e reescrita: correção não basta
 
 Compare:
 
-> É necessário **revisar os autos**.  
-> É necessário **que os autos sejam revisados**.
+> O relator **não afirmou** que o documento era falso.  
+> O relator afirmou que o documento **não era falso**.
 
-Nos dois casos, o bloco funciona como sujeito da expressão *é necessário*. A primeira é uma subordinada substantiva subjetiva reduzida de infinitivo; a segunda, desenvolvida.
+Na primeira, nega-se o ato de afirmar. Isso não autoriza concluir que o documento era verdadeiro. Na segunda, há uma afirmação cujo conteúdo é negativo. A posição de *não* muda o **escopo**, isto é, aquilo sobre o que a negação atua.
 
-O infinitivo pode ser pessoal: “É importante **os servidores revisarem os autos**”. A flexão *revisarem* explicita o sujeito plural sem deixar de ser infinitivo.
+Em qualquer reescrita com subordinação, confira:
 
-Ao transformar reduzida em desenvolvida — ou o inverso — preserve **sujeito, relação semântica, tempo, modo e alcance**. Uma troca mecanicamente gramatical pode alterar a mensagem.
+1. a que termo ou oração o bloco se liga;
+2. que função ou relação expressa;
+3. se antecedente e preposição continuam adequados;
+4. quem é o sujeito em cada nível;
+5. se tempo e modo verbal preservam a leitura;
+6. se a pontuação mudou o alcance;
+7. se a negação ou outro operador passou a atuar sobre trecho diferente.
 
-## 7. Encaixamento: uma subordinada pode conter outra
+A unidade de pontuação aprofunda sinais; a de regência aprofunda seleção de preposições; as unidades de reescrita aprofundam transformação de períodos. Aqui, o objetivo é dominar **a hierarquia sintática que essas operações precisam preservar**.
 
-Considere:
+## 9. Método de prova
 
-> O investigador afirmou **[que a equipe demonstrou [que os dados eram insuficientes]]**.
+Diante de um período complexo:
 
-A oração mais interna — *que os dados eram insuficientes* — completa *demonstrou*. O bloco *que a equipe demonstrou...* completa *afirmou*.
-
-A estratégia segura é analisar **de dentro para fora**:
-
-1. marque os núcleos verbais;
+1. marque verbos e formas nominais;
 2. delimite as orações;
-3. localize o <abbr title="termo que seleciona ou recebe um complemento">regente</abbr> ou o <abbr title="termo retomado por um pronome relativo">antecedente</abbr>;
-4. descubra a função ou a relação da subordinada;
-5. só então classifique o bloco maior.
+3. identifique o núcleo ou antecedente de que cada bloco depende;
+4. descubra a função: nome, modificador de nome ou relação circunstancial;
+5. se houver relativo, recoloque o antecedente dentro da subordinada;
+6. resolva encaixamentos de dentro para fora;
+7. só então use conectivo, pontuação, tempo, modo e sentido para confirmar;
+8. em reescrita, compare o escopo da versão original com o da proposta.
 
-Essa hierarquia também evita um erro comum: acreditar que todo *que* do período tem a mesma função.
-
-## 8. Método de prova: sete perguntas
-
-Ao encontrar uma estrutura subordinada, percorra esta sequência:
-
-1. **Quantos núcleos verbais há?** Locução verbal não cria duas orações por si só.
-2. **Qual trecho depende de qual núcleo?**
-3. **A oração ocupa lugar de nome, caracteriza um antecedente ou estabelece circunstância/relação?**
-4. **Se for substantiva, qual função exerce?** Sujeito, objeto, complemento nominal, predicativo ou aposto?
-5. **Se houver relativo, qual termo ele retoma e que função exerce internamente?**
-6. **Se for adverbial, qual relação o contexto realmente constrói?**
-7. **Há forma reduzida ou encaixamento que esconda a estrutura?**
-
-### Pegadinhas de alta frequência
-
-- preposição não significa automaticamente complemento nominal;
-- *de que* não significa automaticamente completiva nominal;
-- *que* pode ser conjunção integrante ou pronome relativo;
-- *se* pode ser integrante ou condicional;
-- vírgulas em oração adjetiva podem alterar o alcance;
-- conectivo isolado não decide o valor de uma adverbial;
-- forma reduzida não determina sozinha a relação semântica;
-- causa e explicação são próximas, mas não idênticas;
-- consequência e conclusão pertencem a arquiteturas diferentes;
-- concessão e adversidade podem expressar contraste por estruturas diferentes.
-
-Pontuação, regência e reescrita aparecem aqui somente quando são indispensáveis para reconhecer a subordinação. O aprofundamento sistemático fica, respectivamente, em U012, U014 e U018.
+O ganho de velocidade vem de **hierarquia antes de rótulo**: localizar a dependência costuma eliminar mais alternativas do que decorar listas de conjunções.
