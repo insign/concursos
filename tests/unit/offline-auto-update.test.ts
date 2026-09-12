@@ -66,7 +66,8 @@ describe('offline auto update', () => {
     await maybeUpdateOfflinePackages('navigation', { fetch: fetchResource as typeof fetch, now: () => 1_000 });
 
     expect(download).toHaveBeenCalledTimes(1);
-    const [, , , phase] = download.mock.calls[0]!;
+    const [, , env, phase] = download.mock.calls[0]!;
+    expect(env).toEqual({ fetch: fetchResource });
     expect(phase).toBe('update');
   });
 
@@ -105,6 +106,59 @@ describe('offline auto update', () => {
 
     const { maybeUpdateOfflinePackages } = await loadModule();
     await expect(maybeUpdateOfflinePackages('navigation', { fetch: fetchResource as typeof fetch, now: () => 1_000 })).resolves.toBeUndefined();
+    expect(download).toHaveBeenCalledTimes(1);
+    expect(download.mock.calls[0]?.[0]).toMatchObject({ contestStorageId: 'exemplo' });
+  });
+
+  it('does not consume throttle when listing records fails', async () => {
+    listRecords.mockRejectedValueOnce(new Error('idb down'));
+    const fetchResource = vi.fn();
+    const { maybeUpdateOfflinePackages } = await loadModule();
+    const overrides = { fetch: fetchResource as typeof fetch, now: () => 1_000 };
+
+    await expect(maybeUpdateOfflinePackages('navigation', overrides)).resolves.toBeUndefined();
+    expect(fetchResource).not.toHaveBeenCalled();
+
+    listRecords.mockResolvedValue([]);
+    await maybeUpdateOfflinePackages('navigation', overrides);
+    expect(listRecords).toHaveBeenCalledTimes(2);
+  });
+
+  it('skips a manifest whose contestStorageId does not match the record', async () => {
+    const record = { contestStorageId: 'exemplo', manifestHash: '11111111111111111111', activeCacheName: 'c', downloadedAt: 1, resourceCount: 2 };
+    listRecords.mockResolvedValue([record]);
+    const fetchResource = vi.fn(async () => new Response(JSON.stringify(manifest('22222222222222222222', 'outro')), { status: 200 }));
+    const { maybeUpdateOfflinePackages } = await loadModule();
+    await maybeUpdateOfflinePackages('navigation', { fetch: fetchResource as typeof fetch, now: () => 1_000 });
+    expect(download).not.toHaveBeenCalled();
+  });
+
+  it('times out a hanging manifest fetch and continues', async () => {
+    const records = [
+      { contestStorageId: 'lento', manifestHash: '11111111111111111111', activeCacheName: 'c', downloadedAt: 1, resourceCount: 2 },
+      { contestStorageId: 'exemplo', manifestHash: '11111111111111111111', activeCacheName: 'c', downloadedAt: 1, resourceCount: 2 },
+    ];
+    listRecords.mockResolvedValue(records);
+    const fetchResource = vi.fn(async (input: RequestInfo | URL, init?: RequestInit) => {
+      if (String(input).includes('lento')) {
+        return await new Promise<Response>((_resolve, reject) => {
+          init?.signal?.addEventListener('abort', () => {
+            reject(Object.assign(new Error('aborted'), { name: 'AbortError' }));
+          });
+        });
+      }
+      return new Response(JSON.stringify(manifest('22222222222222222222')), { status: 200 });
+    });
+    download.mockResolvedValue({ contestStorageId: 'exemplo' });
+
+    const { maybeUpdateOfflinePackages } = await loadModule();
+    await expect(
+      maybeUpdateOfflinePackages('navigation', {
+        fetch: fetchResource as typeof fetch,
+        now: () => 1_000,
+        timeoutMs: 20,
+      }),
+    ).resolves.toBeUndefined();
     expect(download).toHaveBeenCalledTimes(1);
     expect(download.mock.calls[0]?.[0]).toMatchObject({ contestStorageId: 'exemplo' });
   });
