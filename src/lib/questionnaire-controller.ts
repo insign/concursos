@@ -16,6 +16,7 @@ import {
   type CorrectionMode,
   type QuestionLayout,
 } from './questionnaire';
+import { markLocalStatePending, registerLocalStateFlusher } from './local-durability';
 import { requestProfileSync, synchronizeAnswerDocument } from './sync';
 
 export interface QuestionnaireConfig {
@@ -24,6 +25,24 @@ export interface QuestionnaireConfig {
   subjectStorageId: string;
   resolutions?: Array<{ questionId: string; questionRevision: number }>;
   userId?: string;
+}
+
+export function bindAnswerWriteDurability(): {
+  enqueue<T>(work: () => Promise<T>): Promise<T>;
+} {
+  let writeQueue: Promise<void> = Promise.resolve();
+  registerLocalStateFlusher(() => writeQueue);
+  return {
+    enqueue(work) {
+      markLocalStatePending();
+      const queued = writeQueue.then(work);
+      writeQueue = queued.then(
+        () => undefined,
+        () => undefined,
+      );
+      return queued;
+    },
+  };
 }
 
 function requiredElement<T extends Element>(root: ParentNode, selector: string): T {
@@ -69,7 +88,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
   root.dataset.profileId = profileId;
   const documentId = buildAnswerDocumentId(profileId, config.contestStorageId, config.subjectStorageId);
   let documentState: AnswerDocument = createEmptyAnswerDocument(config.questionSet.questionSetRevision);
-  let writeQueue: Promise<void> = Promise.resolve();
+  const writes = bindAnswerWriteDurability();
   let preferences: Preferences = await loadPreferences(profileId);
   let layout: QuestionLayout = preferences.questionLayout;
   let correctionMode: CorrectionMode = preferences.correctionMode;
@@ -120,16 +139,11 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     return wrapper;
   };
 
-  const queueSnapshot = (document: AnswerDocument, dirtyQuestionIds: string[] = []) => {
-    const queued = writeQueue.then(async () => {
-      await saveAnswerDocumentSnapshot({ profileId, documentId, document, dirtyQuestionIds });
-    });
-    writeQueue = queued.catch(() => undefined);
-    return queued;
-  };
+  const queueSnapshot = (document: AnswerDocument, dirtyQuestionIds: string[] = []) =>
+    writes.enqueue(() => saveAnswerDocumentSnapshot({ profileId, documentId, document, dirtyQuestionIds }));
 
-  const queueFinalization = (document: AnswerDocument) => {
-    const queued = writeQueue.then(() =>
+  const queueFinalization = (document: AnswerDocument) =>
+    writes.enqueue(() =>
       saveAnswerDocumentSnapshot({
         profileId,
         documentId,
@@ -138,9 +152,6 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
           submitAnswers(reconcileAnswerDocument(latest, config.questionSet), config.questionSet),
       }),
     );
-    writeQueue = queued.then(() => undefined, () => undefined);
-    return queued;
-  };
 
   const refreshProgress = async () => {
     const record = await getLocalAnswerRecord(documentId);
