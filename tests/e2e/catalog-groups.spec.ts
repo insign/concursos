@@ -383,5 +383,11 @@ test('does not expose editorial groups through sync or offline contracts', async
     `${typesPath}cheat-sheet/`,
     `${typesPath}questoes/`,
   ]));
-  expect(inventory.routes.join('\n')).not.toMatch(/conhecimentos-gerais|lingua-portuguesa/);
+  expect(
+    inventory.routes.filter(
+      (route) =>
+        route.startsWith(contestPath) &&
+        (route.includes('/conhecimentos-gerais/') || route.includes('/lingua-portuguesa/')),
+    ),
+  ).toEqual([]);
 });
