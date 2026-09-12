@@ -4,7 +4,7 @@ import { evaluateBuildBudget } from '../../scripts/lib/build-budget.mjs';
 import { mapConcurrent, resolveConcurrency } from '../../scripts/lib/concurrency.mjs';
 import { isMegaReviewRouteFile, isSubjectMarkerFile } from '../../scripts/lib/estimate-counting.mjs';
 import { finalizeSecurityHtml } from '../../scripts/lib/finalize-security.mjs';
-import { isInventoryAsset, resourceHash } from '../../scripts/lib/offline-inventory-builder.mjs';
+import { buildOfflineManifest, isInventoryAsset, resourceHash } from '../../scripts/lib/offline-inventory-builder.mjs';
 import { scriptReferences } from '../../scripts/lib/precache-dependencies.mjs';
 
 describe('build scripts', () => {
@@ -50,6 +50,17 @@ describe('build scripts', () => {
     expect(scriptReferences(
       `import{a}from"./identity.hash.js";const x=import('./lazy.hash.js');import('/_astro/root.hash.js')`,
     )).toEqual(['identity.hash.js', 'lazy.hash.js', 'root.hash.js']);
+  });
+
+  it('fails closed when a referenced local script cannot be read', async () => {
+    const html = '<link rel="stylesheet" href="/_astro/app.js">';
+    const readResource = async (resource: string) => {
+      if (resource === '/') return { contents: Buffer.from(html), size: html.length };
+      throw new Error('ENOENT');
+    };
+    await expect(
+      buildOfflineManifest({ routes: ['/'], assets: [] }, { readResource, concurrency: 2 }),
+    ).rejects.toThrow(/Recurso offline ausente: \/_astro\/app\.js/);
   });
 
   it('classifies mega review links as review routes, not subjects', () => {

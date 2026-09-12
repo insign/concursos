@@ -94,8 +94,9 @@ async function collectAssets(routes, readResource, concurrency) {
         assets.add(asset);
         if (!['.css', '.js'].includes(extname(asset))) return [];
         return referencesFromAsset(source.contents.toString('utf8'), asset);
-      } catch {
-        return [];
+      } catch (error) {
+        const reason = error instanceof Error ? error.message : String(error);
+        throw new Error(`Recurso offline ausente: ${asset} (${reason})`);
       }
     });
     pending.push(...discovered.flat());
