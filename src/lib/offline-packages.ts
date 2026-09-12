@@ -83,6 +83,19 @@ function requestFor(path: string, origin: string): Request {
   return new Request(url, { credentials: 'same-origin' });
 }
 
+export async function hashOfflineResource(resource: string, contents: BufferSource): Promise<string> {
+  const pathBytes = new TextEncoder().encode(resource);
+  const body =
+    contents instanceof ArrayBuffer
+      ? new Uint8Array(contents)
+      : new Uint8Array(contents.buffer, contents.byteOffset, contents.byteLength);
+  const combined = new Uint8Array(pathBytes.length + body.byteLength);
+  combined.set(pathBytes, 0);
+  combined.set(body, pathBytes.length);
+  const digest = await crypto.subtle.digest('SHA-256', combined);
+  return [...new Uint8Array(digest)].map((byte) => byte.toString(16).padStart(2, '0')).join('').slice(0, 20);
+}
+
 const OFFLINE_PACKAGE_LEASE_TTL = 15_000;
 const OFFLINE_PACKAGE_LEASE_WAIT_MS = 60_000;
 export const ADOPTION_LEASE_WAIT_MS = 300_000;
@@ -423,7 +436,23 @@ async function downloadContestPackageLocked(
           const contentLength = Number(response.headers.get('content-length'));
           if (Number.isFinite(contentLength)) downloadedBytes += contentLength;
           if (signal?.aborted) return;
-          await destination.put(request, response);
+          if (expectedHash) {
+            const buffer = await response.arrayBuffer();
+            const actualHash = await hashOfflineResource(resource, buffer);
+            if (actualHash !== expectedHash) {
+              throw new Error(`Integridade inválida para ${resource}`);
+            }
+            await destination.put(
+              request,
+              new Response(buffer, {
+                status: response.status,
+                statusText: response.statusText,
+                headers: response.headers,
+              }),
+            );
+          } else {
+            await destination.put(request, response);
+          }
           fetched += 1;
         } else {
           copied += 1;
