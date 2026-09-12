@@ -1,0 +1,41 @@
+name: restore-issue-764
+on:
+  push:
+    paths:
+      - 'tmp/pc764-restore/**'
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore issue #764 body from parts
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          parts = sorted(Path("tmp/pc764-restore").glob("p*.md"))
+          assert parts, "no parts found"
+          body = "".join(p.read_text(encoding="utf-8") for p in parts)
+          Path("/tmp/body.md").write_text(body, encoding="utf-8")
+          print("parts", len(parts), "chars", len(body))
+          assert "PC764-U022-C25-20260912" in body
+          assert "79286101-106a-428d-bea6-b8bde954e84f" in body
+          PY
+          gh issue edit 764 --repo "${{ github.repository }}" --body-file /tmp/body.md
+          echo "issue body restored"
+      - name: Cleanup temp restore artifacts
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -rf tmp/pc764-restore
+          rm -f .github/workflows/restore-issue-764.yml
+          git add -A
+          git commit -m "chore: cleanup #764 restore artifacts [skip ci]" || echo "nothing to commit"
+          git push || echo "push skipped"
