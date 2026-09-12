@@ -180,7 +180,8 @@ function trackWrite<T>(write: Promise<T>): Promise<T> {
 }
 
 export function openOfflineDb(): Promise<IDBPDatabase<ConcursosDbSchema>> {
-  databasePromise ??= openDB<ConcursosDbSchema>(OFFLINE_DB_NAME, OFFLINE_DB_VERSION, {
+  if (!databasePromise) {
+    const pending = openDB<ConcursosDbSchema>(OFFLINE_DB_NAME, OFFLINE_DB_VERSION, {
     blocked() {
       // Outra conexão (aba antiga) segurando versão inferior: libera o cache
       // para que a próxima abertura tente o upgrade novamente.
@@ -245,7 +246,12 @@ export function openOfflineDb(): Promise<IDBPDatabase<ConcursosDbSchema>> {
         database.createObjectStore('downloadDiagnostics', { keyPath: 'id' });
       }
     },
-  });
+    });
+    databasePromise = pending;
+    void pending.catch(() => {
+      if (databasePromise === pending) databasePromise = null;
+    });
+  }
   return databasePromise;
 }
 
@@ -1262,8 +1268,10 @@ export async function whenLocalWritesSettled(): Promise<void> {
 
 export async function deleteOfflineDatabase(): Promise<void> {
   if (databasePromise) {
-    const database = await databasePromise;
-    database.close();
+    try {
+      const database = await databasePromise;
+      database.close();
+    } catch {}
     databasePromise = null;
   }
   await deleteDB(OFFLINE_DB_NAME);
