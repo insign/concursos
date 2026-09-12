@@ -52,7 +52,7 @@ describe('build scripts', () => {
     )).toEqual(['identity.hash.js', 'lazy.hash.js', 'root.hash.js']);
   });
 
-  it('fails closed when a referenced local script cannot be read', async () => {
+  it('fails closed when HTML references a missing local script', async () => {
     const html = '<link rel="stylesheet" href="/_astro/app.js">';
     const readResource = async (resource: string) => {
       if (resource === '/') return { contents: Buffer.from(html), size: html.length };
@@ -61,6 +61,19 @@ describe('build scripts', () => {
     await expect(
       buildOfflineManifest({ routes: ['/'], assets: [] }, { readResource, concurrency: 2 }),
     ).rejects.toThrow(/Recurso offline ausente: \/_astro\/app\.js/);
+  });
+
+  it('ignores missing paths discovered only inside JavaScript strings', async () => {
+    const html = '<script src="/_astro/app.js"></script>';
+    const script = 'const x = "/node_modules/vscode-jsonrpc/browser.js";';
+    const readResource = async (resource: string) => {
+      if (resource === '/') return { contents: Buffer.from(html), size: html.length };
+      if (resource === '/_astro/app.js') return { contents: Buffer.from(script), size: script.length };
+      throw new Error('ENOENT');
+    };
+    const manifest = await buildOfflineManifest({ routes: ['/'], assets: [] }, { readResource, concurrency: 2 });
+    expect(manifest.sharedAssets).toContain('/_astro/app.js');
+    expect(JSON.stringify(manifest)).not.toContain('node_modules');
   });
 
   it('classifies mega review links as review routes, not subjects', () => {

@@ -84,6 +84,7 @@ async function collectAssets(routes, readResource, concurrency) {
     referencesFromHtml((await readResource(route)).contents.toString('utf8'), route));
   const assets = new Set();
   let pending = routeReferences.flat();
+  const requiredAssets = new Set(pending);
 
   while (pending.length > 0) {
     const wave = [...new Set(pending.filter((asset) => asset && !assets.has(asset)))].sort();
@@ -95,6 +96,7 @@ async function collectAssets(routes, readResource, concurrency) {
         if (!['.css', '.js'].includes(extname(asset))) return [];
         return referencesFromAsset(source.contents.toString('utf8'), asset);
       } catch (error) {
+        if (!requiredAssets.has(asset)) return [];
         const reason = error instanceof Error ? error.message : String(error);
         throw new Error(`Recurso offline ausente: ${asset} (${reason})`);
       }
