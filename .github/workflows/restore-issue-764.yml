@@ -18,20 +18,31 @@ jobs:
           set -euo pipefail
           python3 - <<'PY'
           from pathlib import Path
-          parts = sorted(Path("tmp/pc764-restore").glob("p*.md"))
-          assert parts, "no parts found"
+          root = Path("tmp/pc764-restore")
+          parts = sorted(root.glob("p*.md"))
+          print("found", len(parts), "parts")
+          if len(parts) < 18:
+              print("incomplete upload; skipping restore")
+              raise SystemExit(0)
           body = "".join(p.read_text(encoding="utf-8") for p in parts)
           Path("/tmp/body.md").write_text(body, encoding="utf-8")
-          print("parts", len(parts), "chars", len(body))
+          print("chars", len(body))
           assert "PC764-U022-C25-20260912" in body
           assert "79286101-106a-428d-bea6-b8bde954e84f" in body
+          assert "|PC-U022|1|internet-intranet|BI/redes-tcp-ip-interoperabilidade|analyzing|analyzing|analyzing|" in body
           PY
           gh issue edit 764 --repo "${{ github.repository }}" --body-file /tmp/body.md
           echo "issue body restored"
       - name: Cleanup temp restore artifacts
+        if: success()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          parts = list(Path("tmp/pc764-restore").glob("p*.md"))
+          raise SystemExit(0 if len(parts) >= 18 else 1)
+          PY
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           rm -rf tmp/pc764-restore
