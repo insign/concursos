@@ -437,22 +437,13 @@ async function downloadContestPackageLocked(
           if (Number.isFinite(contentLength)) downloadedBytes += contentLength;
           if (signal?.aborted) return;
           if (expectedHash) {
-            const buffer = await response.arrayBuffer();
+            const buffer = await response.clone().arrayBuffer();
             const actualHash = await hashOfflineResource(resource, buffer);
             if (actualHash !== expectedHash) {
               throw new Error(`Integridade inválida para ${resource}`);
             }
-            await destination.put(
-              request,
-              new Response(buffer, {
-                status: response.status,
-                statusText: response.statusText,
-                headers: response.headers,
-              }),
-            );
-          } else {
-            await destination.put(request, response);
           }
+          await destination.put(request, response);
           fetched += 1;
         } else {
           copied += 1;

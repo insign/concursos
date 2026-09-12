@@ -25,4 +25,11 @@ describe('questionnaire durability flusher', () => {
     await flush;
     expect(flushed).toBe(true);
   });
+
+  it('rejects flushPendingLocalState when the latest write fails', async () => {
+    const writes = bindAnswerWriteDurability();
+    const pending = writes.enqueue(() => Promise.reject(new Error('idb down')));
+    await expect(pending).rejects.toThrow('idb down');
+    await expect(flushPendingLocalState()).rejects.toThrow('idb down');
+  });
 });

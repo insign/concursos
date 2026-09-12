@@ -31,7 +31,8 @@ export function bindAnswerWriteDurability(): {
   enqueue<T>(work: () => Promise<T>): Promise<T>;
 } {
   let writeQueue: Promise<void> = Promise.resolve();
-  registerLocalStateFlusher(() => writeQueue);
+  let durability: Promise<void> = Promise.resolve();
+  registerLocalStateFlusher(() => durability);
   return {
     enqueue(work) {
       markLocalStatePending();
@@ -40,6 +41,7 @@ export function bindAnswerWriteDurability(): {
         () => undefined,
         () => undefined,
       );
+      durability = queued.then(() => undefined);
       return queued;
     },
   };
