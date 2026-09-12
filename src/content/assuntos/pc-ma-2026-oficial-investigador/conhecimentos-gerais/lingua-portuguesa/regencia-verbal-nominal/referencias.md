@@ -1,0 +1,18 @@
+# Referências — Regência verbal e nominal
+
+Fontes revalidadas para o recorte da <abbr title="Polícia Civil do Maranhão">PCMA</abbr>. O edital define a cobrança; as fontes linguísticas sustentam regras, variantes e limites. As questões anteriores locais são adaptações breves, não transcrições integrais.
+
+## Programa e gramática
+
+- **Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos.** [Edital nº 1 — Polícia Civil do Maranhão — Oficial Investigador, de 13 de julho de 2026](https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf). Item 20.2.2, Língua Portuguesa, 5.6: regência verbal e nominal.
+- **Aulete Digital / Lexikon.** [Regência](https://www.aulete.com.br/gram/cap11-15-regencia). Regente e regido, complementação, transitividade, pronomes e construções verbais frequentes.
+- **Senado Federal.** [Regência nominal](https://www12.senado.leg.br/manualdecomunicacao/estilos/regencia-nominal). Relações preposicionais de substantivos e adjetivos, inclusive variantes documentadas.
+- **Senado Federal.** [Visar](https://www12.senado.leg.br/manualdecomunicacao/estilos/visar). Distinção entre construção tradicional no sentido de objetivo e orientação diante de infinitivo.
+- **Evanildo Bechara — Academia Brasileira de Letras.** [Os relativos e as preposições (conclusão)](https://www.academia.org.br/artigos/os-relativos-e-preposicoes-conclusao). Reconstrução da oração relativa e preservação da preposição.
+- **Aulete Digital.** Verbetes [informar](https://www.aulete.com.br/informar), [avisar](https://www.aulete.com.br/avisar), [cientificar](https://www.aulete.com.br/cientificar), [agradecer](https://www.aulete.com.br/agradecer), [visar](https://www.aulete.com.br/visar), [implicar](https://www.aulete.com.br/implicar), [preferir](https://www.aulete.com.br/preferir) e [custar](https://www.aulete.com.br/custar). Acepções e organização dos complementos.
+
+## Provas anteriores usadas em adaptações
+
+- **<abbr title="Fundação Getulio Vargas">FGV</abbr>.** Assembleia Legislativa do Estado de Goiás — Analista Legislativo — Analista Administrativo, Tipo 1, 2026, questão 4. [Caderno](https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-analista-administrativo-cns201-tipo-1.pdf) e [gabarito definitivo](https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-go.pdf). Gabarito E no original. Base da adaptação `q3519`, sobre a organização dos complementos de *agradecer*.
+- **<abbr title="Fundação Getulio Vargas">FGV</abbr>.** Prefeitura Municipal de Canaã dos Carajás/Pará — Professor de Língua Portuguesa, Tipo 1, 2025, questão 44. [Caderno](https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-lingua-portuguesacns310-tipo-1.pdf) e [gabarito definitivo](https://conhecimento.fgv.br/sites/default/files/concursos/prefcanaa202402_gabarito_definitivo_-compilado-30.03_0.pdf). Gabarito A no original. Base da adaptação `q3520`, sobre a preposição exigida por *aspirar*.
+- **<abbr title="Fundação Getulio Vargas">FGV</abbr>.** Tribunal de Contas do Estado de São Paulo — Auxiliar Técnico da Fiscalização — Tecnologia da Informação, Tipo 2, 2023, questão 8. [Caderno](https://conhecimento.fgv.br/sites/default/files/concursos/auxiliar-tecnico-da-fiscalizacao-tiatf-001-tipo-2.pdf) e [gabarito definitivo](https://conhecimento.fgv.br/sites/default/files/concursos/tcesp2023_gabarito_definitivo-vf.pdf). Gabarito A no original. Base da adaptação `q3523`, sobre preposição antes de pronome relativo.
