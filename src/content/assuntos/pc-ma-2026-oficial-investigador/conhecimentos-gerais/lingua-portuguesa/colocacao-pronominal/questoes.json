@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 5,
+  "questions": [
+    {
+      "id": "q3579",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "No período ‘Não creio que o servidor se manifeste hoje’, qual análise explica melhor a posição de ‘se’ em ‘se manifeste’?",
+      "options": [
+        {"id": "A", "text": "A palavra ‘não’, na oração principal, atrai obrigatoriamente todo pronome do período."},
+        {"id": "B", "text": "A conjunção integrante ‘que’ introduz a oração em que está o verbo e cria contexto de próclise nessa oração."},
+        {"id": "C", "text": "O advérbio ‘hoje’ obriga a mesóclise porque aparece depois do verbo."},
+        {"id": "D", "text": "O sujeito ‘servidor’ é sempre fator obrigatório de próclise."},
+        {"id": "E", "text": "A forma verbal no subjuntivo só admite ênclise."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A análise deve delimitar a oração. ‘Que’ introduz ‘que o servidor se manifeste hoje’ e fornece o contexto de próclise; a negativa da oração principal não precisa atravessar a fronteira oracional. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3583",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Associe corretamente a posição do pronome ao nome tradicional.",
+      "options": [
+        {"id": "A", "text": "‘Não me avisou’ = ênclise; ‘avisou-me’ = próclise; ‘avisar-me-á’ = mesóclise."},
+        {"id": "B", "text": "‘Não me avisou’ = próclise; ‘avisou-me’ = ênclise; ‘avisar-me-á’ = mesóclise."},
+        {"id": "C", "text": "‘Não me avisou’ = mesóclise; ‘avisou-me’ = próclise; ‘avisar-me-á’ = ênclise."},
+        {"id": "D", "text": "As três construções são casos de próclise, pois o pronome permanece ligado ao verbo."},
+        {"id": "E", "text": "As três construções são casos de ênclise, pois todas contêm pronome átono."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Próclise posiciona o clítico antes do verbo, ênclise depois dele e mesóclise no interior de futuro simples. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3585",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Assinale a frase adequada à norma tradicional quanto à negativa.",
+      "options": [
+        {"id": "A", "text": "Não comunicaram-me o resultado."},
+        {"id": "B", "text": "Nunca informaram-lhe a causa."},
+        {"id": "C", "text": "Ninguém explicou-me a mudança."},
+        {"id": "D", "text": "Não me comunicaram o resultado."},
+        {"id": "E", "text": "Jamais disseram-nos a verdade."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A negativa é fator forte de próclise: ‘não me comunicaram’. As demais alternativas mantêm ênclise imediatamente depois de elemento negativo. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3586",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em qual alternativa o pronome relativo justifica diretamente a próclise?",
+      "options": [
+        {"id": "A", "text": "O processo que me enviaram estava completo."},
+        {"id": "B", "text": "O processo chegou e arquivaram-no."},
+        {"id": "C", "text": "A comissão, ontem, manifestou-se."},
+        {"id": "D", "text": "Entregaram-lhe a cópia na saída."},
+        {"id": "E", "text": "Informar-lhe-ei o prazo amanhã."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O relativo ‘que’ introduz a oração ‘que me enviaram’ e atrai o pronome para antes do verbo. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3590",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual construção apresenta próclise motivada por subordinação?",
+      "options": [
+        {"id": "A", "text": "Embora se conheçam os riscos, o procedimento prosseguiu."},
+        {"id": "B", "text": "Conheceram-se os riscos durante a análise."},
+        {"id": "C", "text": "Os riscos, contudo, revelaram-se menores."},
+        {"id": "D", "text": "Conhecer-se-ão os riscos após a perícia."},
+        {"id": "E", "text": "A equipe analisou os riscos e registrou-os."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A conjunção subordinativa ‘embora’ cria contexto de próclise em ‘se conheçam’. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3592",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em qual frase o advérbio anteposto, sem pausa, favorece a próclise?",
+      "options": [
+        {"id": "A", "text": "Hoje se divulgará o resultado."},
+        {"id": "B", "text": "Hoje, divulgar-se-á o resultado."},
+        {"id": "C", "text": "Divulgar-se-á hoje o resultado."},
+        {"id": "D", "text": "O resultado divulgar-se-á hoje."},
+        {"id": "E", "text": "Divulgue-se o resultado hoje."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O advérbio ‘hoje’ aparece imediatamente antes do verbo, sem pausa, situação em que a orientação normativa registra próclise. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3593",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Compare ‘Hoje se divulgará o resultado’ e ‘Hoje, divulgar-se-á o resultado’. Na orientação normativa conservadora, a diferença se explica porque",
+      "options": [
+        {"id": "A", "text": "a vírgula transforma ‘hoje’ em palavra negativa."},
+        {"id": "B", "text": "a pausa pode separar o advérbio do verbo e deixar o futuro simples sem atrator inequívoco."},
+        {"id": "C", "text": "a vírgula transforma o futuro em pretérito."},
+        {"id": "D", "text": "o pronome muda de referente na segunda frase."},
+        {"id": "E", "text": "todo advérbio com vírgula exige ênclise em qualquer tempo verbal."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A pausa pode impedir que o advérbio funcione como fator imediato de próclise; reaparece então a solução tradicional do futuro sem atrator. Isso não significa que toda vírgula neutralize qualquer fator de próclise. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3594",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Assinale a construção tradicionalmente adequada com a sequência ‘em + gerúndio’.",
+      "options": [
+        {"id": "A", "text": "Em tratando-se de prazo, confira o edital."},
+        {"id": "B", "text": "Em se tratando de prazo, confira o edital."},
+        {"id": "C", "text": "Em tratar-se de prazo, confira o edital."},
+        {"id": "D", "text": "Em tratar-se-á de prazo, confira o edital."},
+        {"id": "E", "text": "Em tratando de se prazo, confira o edital."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A tradição normativa consagra a próclise em construções com ‘em + gerúndio’: ‘em se tratando’. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3605",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Sem outro fator de atração, qual frase apresenta imperativo afirmativo com colocação adequada?",
+      "options": [
+        {"id": "A", "text": "Me informe o horário, como única solução da norma tradicional."},
+        {"id": "B", "text": "Informe-me o horário."},
+        {"id": "C", "text": "Informe o horário-me."},
+        {"id": "D", "text": "Informar-me-á o horário agora."},
+        {"id": "E", "text": "Não informe-me o horário."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sem fator de atração, o imperativo afirmativo admite a ênclise: ‘informe-me’. A alternativa E contém imperativo negativo, em que a negativa exige próclise. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3606",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual forma é adequada no imperativo negativo?",
+      "options": [
+        {"id": "A", "text": "Não entregue-me a cópia incompleta."},
+        {"id": "B", "text": "Não me entregue a cópia incompleta."},
+        {"id": "C", "text": "Não entregar-me a cópia incompleta."},
+        {"id": "D", "text": "Não entregar-me-á a cópia incompleta."},
+        {"id": "E", "text": "Não entregue a cópia-me incompleta."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "No imperativo negativo, ‘não’ exige próclise: ‘não me entregue’. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3607",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Ao ligar o pronome ‘o’ ao infinitivo ‘informar’ em ênclise, qual grafia está correta?",
+      "options": [
+        {"id": "A", "text": "informar-o"},
+        {"id": "B", "text": "informar-lo"},
+        {"id": "C", "text": "informá-lo"},
+        {"id": "D", "text": "informá-no"},
+        {"id": "E", "text": "informar-lhe, com a mesma função"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Depois de forma terminada em r, elimina-se a consoante final e ‘o’ assume ‘lo’; a acentuação é ajustada: ‘informá-lo’. Fonte: questão autoral baseada no Acordo Ortográfico citado nas referências."
+    },
+    {
+      "id": "q3610",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Sem negativa ou outro atrator, qual frase apresenta gerúndio com ênclise adequada?",
+      "options": [
+        {"id": "A", "text": "Continuou examinando-o."},
+        {"id": "B", "text": "Continuou examinando-lhe, retomando objeto direto."},
+        {"id": "C", "text": "Continuou examinado-o."},
+        {"id": "D", "text": "Continuou examinar-o."},
+        {"id": "E", "text": "Continuou o examinado."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Sem fator de próclise, o gerúndio admite ênclise: ‘examinando-o’. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3617",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual construção é inadequada porque coloca o pronome depois do particípio?",
+      "options": [
+        {"id": "A", "text": "Tinha-lhe comunicado a decisão."},
+        {"id": "B", "text": "Não lhe tinha comunicado a decisão."},
+        {"id": "C", "text": "Havia-lhe enviado a resposta."},
+        {"id": "D", "text": "Tinha comunicado-lhe a decisão."},
+        {"id": "E", "text": "Nunca lhe haviam enviado a resposta."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Em locução com particípio, o clítico não fica depois do particípio. Ele pode ligar-se a um auxiliar em posição admitida pela estrutura. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3614",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em locução com infinitivo e palavra negativa antes do auxiliar, qual afirmação é mais precisa?",
+      "options": [
+        {"id": "A", "text": "O pronome só pode aparecer depois do auxiliar, sem exceção."},
+        {"id": "B", "text": "A posição antes do auxiliar é uma solução segura, mas há contextos reconhecidos em que o clítico permanece ligado ao infinitivo."},
+        {"id": "C", "text": "A negativa obriga sempre mesóclise no infinitivo."},
+        {"id": "D", "text": "O infinitivo transforma o pronome em forma tônica."},
+        {"id": "E", "text": "A negativa deixa de ter qualquer efeito quando há dois verbos."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Em locuções com infinitivo, ‘não se deve divulgar’ é solução segura, mas a documentação de banca também reconhece contextos como ‘ninguém poderia impedi-lo’. A locução não se reduz a uma única regra mecânica. Fonte: FUNAG e justificativa oficial do CESPE/DPF citadas nas referências."
+    },
+    {
+      "id": "q3615",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual construção deve ser rejeitada porque deixa a ênclise imediatamente depois do auxiliar precedido por negativa?",
+      "options": [
+        {"id": "A", "text": "Não se deve divulgar o dado."},
+        {"id": "B", "text": "Não deve-se divulgar o dado."},
+        {"id": "C", "text": "Não se pode divulgar o dado."},
+        {"id": "D", "text": "Ninguém o poderia impedir."},
+        {"id": "E", "text": "Não lhe posso contar o ocorrido."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A negativa não admite que o clítico fique em ênclise imediata ao auxiliar: ‘não deve-se’. A solução esperada é próclise ao auxiliar, sem prejuízo de outras posições que a estrutura da locução possa admitir junto ao infinitivo. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3619",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual grafia resulta corretamente de ‘fazer + o’ em ênclise?",
+      "options": [
+        {"id": "A", "text": "fazer-o"},
+        {"id": "B", "text": "fazer-lo"},
+        {"id": "C", "text": "fazê-lo"},
+        {"id": "D", "text": "fazê-no"},
+        {"id": "E", "text": "fazê-lhe"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Após r, a consoante final é suprimida, o pronome assume a forma ‘lo’ e a forma verbal recebe a acentuação cabível: ‘fazê-lo’. Fonte: Acordo Ortográfico citado nas referências."
+    },
+    {
+      "id": "q3620",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual grafia resulta corretamente de ‘fizeram + o’ em ênclise?",
+      "options": [
+        {"id": "A", "text": "fizeram-o"},
+        {"id": "B", "text": "fizeram-lo"},
+        {"id": "C", "text": "fizeram-no"},
+        {"id": "D", "text": "fizeram-lho"},
+        {"id": "E", "text": "fizeram-lhe, com a mesma função"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Depois de terminação nasal, ‘o’ assume a forma ‘no’: ‘fizeram-no’. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3626",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Sem fator de próclise, qual forma corresponde à orientação normativa tradicional para o futuro do presente?",
+      "options": [
+        {"id": "A", "text": "Comunicarei-lhe a decisão amanhã."},
+        {"id": "B", "text": "Lhe comunicarei a decisão amanhã, como única forma tradicional."},
+        {"id": "C", "text": "Comunicar-lhe-ei a decisão amanhã."},
+        {"id": "D", "text": "Comunicarei a decisão-lhe amanhã."},
+        {"id": "E", "text": "Comunicar-ei-lhe a decisão amanhã."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "No futuro simples sem atrator, a tradição normativa emprega mesóclise: ‘comunicar-lhe-ei’. Com fator de próclise, o pronome vai para antes do verbo. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3627",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em ‘O relatório que me enviaram chegou, mas não o arquivaram’, os dois casos de próclise decorrem, respectivamente, de",
+      "options": [
+        {"id": "A", "text": "pronome relativo e palavra negativa."},
+        {"id": "B", "text": "conjunção coordenativa e sujeito oculto."},
+        {"id": "C", "text": "sujeito expresso e futuro verbal."},
+        {"id": "D", "text": "pontuação e infinitivo."},
+        {"id": "E", "text": "mesóclise e ênclise."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "‘Que’ atrai ‘me’ na oração relativa; ‘não’ atrai ‘o’ na oração coordenada adversativa. O fator deve ser identificado na oração em que atua. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3630",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Sobre ‘A comissão deve se manifestar’ e ‘A comissão deve manifestar-se’, assinale a análise mais precisa.",
+      "options": [
+        {"id": "A", "text": "A primeira é impossível em qualquer variedade do português."},
+        {"id": "B", "text": "A segunda é sempre a única forma aceita em qualquer comando de prova."},
+        {"id": "C", "text": "A posição entre os verbos é produtiva no português brasileiro, enquanto orientações conservadoras podem preferir outras posições; o comando deve ser observado."},
+        {"id": "D", "text": "As duas frases contêm mesóclise."},
+        {"id": "E", "text": "A posição do pronome altera necessariamente sua função sintática."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A unidade distingue descrição do uso brasileiro e prescrição conservadora. Em locuções, itens absolutos sobre uma única posição costumam ignorar a variação documentada. Fonte: FUNAG e referências da unidade."
+    },
+    {
+      "id": "q3634",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual sequência de análise é a mais segura em uma questão de colocação pronominal?",
+      "options": [
+        {"id": "A", "text": "Escolher primeiro a forma com hífen e só depois verificar o verbo."},
+        {"id": "B", "text": "Contar as palavras entre o pronome e o verbo e aplicar a posição mais próxima."},
+        {"id": "C", "text": "Delimitar a oração, identificar pronome e referente, procurar atrator, classificar a forma verbal e então revisar posição e grafia."},
+        {"id": "D", "text": "Considerar atrativa toda palavra que venha antes do verbo."},
+        {"id": "E", "text": "Ignorar regência, concordância e sentido sempre que houver reescrita."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A ordem evita decisões por proximidade gráfica e permite verificar, ao final, se a reescrita preserva também função, regência, concordância e sentido. Fonte: questão autoral baseada nas referências da unidade."
+    },
+    {
+      "id": "q3719",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Em uma adaptação de questão anterior, assinale a construção que atende à colocação pronominal cobrada pela norma-padrão.",
+      "options": [
+        {"id": "A", "text": "Me apresentaram o documento."},
+        {"id": "B", "text": "Deram-me prazo para responder."},
+        {"id": "C", "text": "Não deram-me resposta."},
+        {"id": "D", "text": "Quem viu-me sair?"},
+        {"id": "E", "text": "Ninguém observou-me durante a diligência."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sem fator de atração, a ênclise em ‘deram-me’ atende ao padrão cobrado; as outras opções trazem início de oração com pronome átono ou mantêm ênclise após fator de próclise. Adaptação não literal de FGV — EBSERH, Técnico em Farmácia, Tipo 1, 2025, questão 8, gabarito definitivo B."
+    },
+    {
+      "id": "q3720",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Em uma adaptação de questão anterior, qual construção exemplifica o caso tradicional de próclise com gerúndio precedido de ‘em’?",
+      "options": [
+        {"id": "A", "text": "Em tratando-se de revisão, confira o texto."},
+        {"id": "B", "text": "Em tratar-se de revisão, confira o texto."},
+        {"id": "C", "text": "Em tratando de se revisão, confira o texto."},
+        {"id": "D", "text": "Em se tratando de revisão, confira o texto."},
+        {"id": "E", "text": "Em tratar-se-á de revisão, confira o texto."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A sequência ‘em + gerúndio’ é caso tradicional de próclise: ‘em se tratando’. Adaptação não literal de FGV — Prefeitura Municipal de Nova Iguaçu, Auditor Fiscal do Tesouro Municipal, Tipo 1, 2024, questão 2, gabarito definitivo D."
+    },
+    {
+      "id": "q3727",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Considere a ideia ‘os fatos não podem ser ignorados’. Qual reescrita mantém a concordância e a colocação pronominal adequadas?",
+      "options": [
+        {"id": "A", "text": "não se podem ignorarem os fatos"},
+        {"id": "B", "text": "não pode-se ignorar os fatos"},
+        {"id": "C", "text": "não se podem ignorar os fatos"},
+        {"id": "D", "text": "não podem ignorarem-se os fatos"},
+        {"id": "E", "text": "não pode-se ignorarem os fatos"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A negativa exige próclise ao auxiliar, e a locução preserva a concordância em ‘podem ignorar’. Adaptação curta e não literal de Cebraspe — TCE/MS, Auditor de Controle Externo — Área Tecnologia da Informação, caderno CG4, 2025, questão 12, gabarito definitivo C."
+    }
+  ]
+}
