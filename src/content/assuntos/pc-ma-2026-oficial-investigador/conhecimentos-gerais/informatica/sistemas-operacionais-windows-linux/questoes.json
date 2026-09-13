@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u023-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação distingue corretamente sistema operacional e gerenciador de arquivos?",
+      "options": [
+        {"id": "A", "text": "O gerenciador de arquivos é o sistema operacional inteiro."},
+        {"id": "B", "text": "O sistema operacional coordena recursos; o gerenciador de arquivos é um aplicativo usado para navegar e operar sobre arquivos e diretórios."},
+        {"id": "C", "text": "Todo arquivo é um sistema operacional independente."},
+        {"id": "D", "text": "O sistema operacional serve apenas para desenhar ícones na área de trabalho."},
+        {"id": "E", "text": "O gerenciador de arquivos substitui memória, processador e dispositivos físicos."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O sistema operacional oferece serviços e gerencia recursos; Explorador de Arquivos ou GNOME Files são aplicativos/interface para manipular itens. Fonte: referências da unidade."
+    },
+    {
+      "id": "u023-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No caminho Windows `C:\\\\Users\\\\Ana\\\\Documents\\\\relatorio.pdf`, qual leitura está correta?",
+      "options": [
+        {"id": "A", "text": "`C:` é o nome do arquivo."},
+        {"id": "B", "text": "`Users` é a extensão do arquivo."},
+        {"id": "C", "text": "`C:` identifica uma unidade e as barras invertidas separam níveis da hierarquia."},
+        {"id": "D", "text": "`relatorio.pdf` é a raiz da unidade."},
+        {"id": "E", "text": "As barras invertidas indicam links simbólicos."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "No Windows, `C:` identifica a unidade lógica; `C:\\\\` é sua raiz e `\\\\` separa componentes do caminho. Fonte: documentação Microsoft e doador auditado."
+    },
+    {
+      "id": "u023-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No caminho Linux `/home/ana/documentos/relatorio.pdf`, a barra inicial `/` representa",
+      "options": [
+        {"id": "A", "text": "a extensão do arquivo."},
+        {"id": "B", "text": "a raiz da hierarquia de arquivos."},
+        {"id": "C", "text": "uma letra de unidade oculta."},
+        {"id": "D", "text": "um atalho para a área de trabalho."},
+        {"id": "E", "text": "a área de transferência."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A hierarquia Linux parte de `/`, e a mesma barra separa os componentes do caminho. Fonte: Filesystem Hierarchy Standard."
+    },
+    {
+      "id": "u023-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o FHS, qual associação está correta?",
+      "options": [
+        {"id": "A", "text": "`/home` — diretórios pessoais de usuários."},
+        {"id": "B", "text": "`/etc` — exclusivamente arquivos temporários de usuários."},
+        {"id": "C", "text": "`/tmp` — diretório obrigatório de documentos permanentes."},
+        {"id": "D", "text": "`/media` — pasta que substitui a raiz `/`."},
+        {"id": "E", "text": "`/mnt` — letra de unidade equivalente a `C:`."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O FHS associa `/home` aos diretórios pessoais; `/etc` à configuração específica do sistema e `/tmp` a arquivos temporários. Fonte: Filesystem Hierarchy Standard 3.0."
+    },
+    {
+      "id": "u023-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No GNOME Files, renomear `config` para `.config` tende a",
+      "options": [
+        {"id": "A", "text": "criptografar o arquivo."},
+        {"id": "B", "text": "excluir o arquivo."},
+        {"id": "C", "text": "torná-lo oculto na visualização comum, sem removê-lo da pasta."},
+        {"id": "D", "text": "mover o arquivo para `/etc`."},
+        {"id": "E", "text": "converter o arquivo em link simbólico."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "No GNOME Files, nomes iniciados por ponto ficam ocultos por padrão. O item continua existindo no diretório. Fonte: GNOME Help."
+    },
+    {
+      "id": "u023-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual operação gráfica produz uma cópia independente no destino e preserva o original?",
+      "options": [
+        {"id": "A", "text": "Recortar e colar."},
+        {"id": "B", "text": "Copiar e colar."},
+        {"id": "C", "text": "Criar link simbólico."},
+        {"id": "D", "text": "Criar atalho."},
+        {"id": "E", "text": "Renomear."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Copiar e colar mantém a origem e cria outro item no destino; recortar e colar move. Fonte: Microsoft/Ubuntu nas referências da unidade."
+    },
+    {
+      "id": "u023-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao usar `Ctrl + X` em um arquivo e ainda não executar `Ctrl + V`, é correto afirmar que",
+      "options": [
+        {"id": "A", "text": "o arquivo necessariamente já foi apagado da origem."},
+        {"id": "B", "text": "a movimentação foi preparada, mas ainda depende da colagem para se concluir."},
+        {"id": "C", "text": "foi criada uma cópia permanente no destino."},
+        {"id": "D", "text": "foi criado um link simbólico."},
+        {"id": "E", "text": "o conteúdo foi convertido para outro formato."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Recortar prepara a movimentação; a mudança de local se conclui com a colagem bem-sucedida. Fonte: documentação de gerenciamento de arquivos usada na unidade."
+    },
+    {
+      "id": "u023-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No comportamento gráfico usual documentado para Windows/Ubuntu, arrastar um arquivo entre locais no mesmo volume ou dispositivo tende a",
+      "options": [
+        {"id": "A", "text": "mover o item."},
+        {"id": "B", "text": "criar sempre um atalho."},
+        {"id": "C", "text": "compactar o item."},
+        {"id": "D", "text": "renomear a extensão."},
+        {"id": "E", "text": "duplicar o item e apagar o original depois de 30 dias."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "No mesmo volume/dispositivo, o arrasto padrão move; entre dispositivos/volumes, tende a copiar. Condições e modificadores do enunciado prevalecem. Fonte: Microsoft e Ubuntu."
+    },
+    {
+      "id": "u023-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Durante o arrasto documentado no gerenciador de arquivos do Ubuntu, manter `Ctrl` pressionado",
+      "options": [
+        {"id": "A", "text": "força a cópia."},
+        {"id": "B", "text": "força a exclusão."},
+        {"id": "C", "text": "força a criação de link simbólico."},
+        {"id": "D", "text": "abre as propriedades."},
+        {"id": "E", "text": "fecha o gerenciador."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A documentação do Ubuntu indica `Ctrl` para forçar cópia e `Shift` para forçar movimentação durante o arrasto. Fonte: Ubuntu Documentation."
+    },
+    {
+      "id": "u023-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre um atalho do Windows, assinale a opção correta.",
+      "options": [
+        {"id": "A", "text": "É sempre uma cópia integral do alvo."},
+        {"id": "B", "text": "Excluir o atalho necessariamente desinstala o programa apontado."},
+        {"id": "C", "text": "É uma referência ao alvo; apagar apenas a referência não apaga, por si só, o alvo."},
+        {"id": "D", "text": "Não pode apontar para arquivos."},
+        {"id": "E", "text": "É idêntico a um diretório Linux."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Atalho e alvo são objetos distintos. Alterar ou remover o alvo pode quebrar a referência, mas remover só o atalho não apaga o destino. Fonte: conteúdo doador auditado."
+    },
+    {
+      "id": "u023-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Linux, `ln -s alvo link` cria",
+      "options": [
+        {"id": "A", "text": "uma cópia byte a byte do alvo."},
+        {"id": "B", "text": "um link simbólico que referencia o alvo pelo nome/caminho."},
+        {"id": "C", "text": "um arquivo `.desktop` obrigatório."},
+        {"id": "D", "text": "uma nova partição."},
+        {"id": "E", "text": "uma pasta temporária."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "`ln -s` cria um link simbólico. Ele referencia outro caminho e pode ficar pendente se o alvo não puder mais ser resolvido. Fonte: GNU Coreutils."
+    },
+    {
+      "id": "u023-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se o alvo de um link simbólico Linux é removido e o próprio link permanece, o resultado pode ser",
+      "options": [
+        {"id": "A", "text": "um link pendente, que já não resolve para um alvo existente."},
+        {"id": "B", "text": "uma cópia automática do antigo conteúdo."},
+        {"id": "C", "text": "a conversão do link em diretório."},
+        {"id": "D", "text": "a recriação obrigatória do alvo."},
+        {"id": "E", "text": "a formatação do sistema de arquivos."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "GNU Coreutils descreve o dangling symlink: o link existe, mas seu conteúdo não resolve para um arquivo existente. Fonte: GNU Coreutils, `ln`."
+    },
+    {
+      "id": "u023-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação distingue corretamente um arquivo `.desktop` e um link simbólico?",
+      "options": [
+        {"id": "A", "text": "São sempre o mesmo tipo de objeto."},
+        {"id": "B", "text": "O `.desktop` pode descrever como um aplicativo aparece e é iniciado em ambiente gráfico; o link simbólico é uma referência do sistema de arquivos."},
+        {"id": "C", "text": "Todo link simbólico precisa terminar em `.desktop`."},
+        {"id": "D", "text": "Arquivos `.desktop` são cópias integrais do executável."},
+        {"id": "E", "text": "Links simbólicos só existem no Windows."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A especificação Desktop Entry define arquivos `.desktop` como entradas que descrevem lançamento/apresentação de aplicações; links simbólicos são outro tipo de objeto. Fonte: freedesktop.org e GNU Coreutils."
+    },
+    {
+      "id": "u023-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Windows, `Win + D`",
+      "options": [
+        {"id": "A", "text": "exclui os arquivos da área de trabalho."},
+        {"id": "B", "text": "mostra ou oculta a área de trabalho sem fechar as janelas abertas."},
+        {"id": "C", "text": "desliga o computador."},
+        {"id": "D", "text": "abre o Explorador de Arquivos."},
+        {"id": "E", "text": "cria uma nova pasta."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "`Win + D` alterna a exibição da área de trabalho; não encerra as janelas. Fonte: documentação Microsoft reutilizada do doador."
+    },
+    {
+      "id": "u023-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito da área de transferência em operações de arquivos, assinale a opção correta.",
+      "options": [
+        {"id": "A", "text": "Copiar já cria imediatamente o arquivo em qualquer pasta de destino."},
+        {"id": "B", "text": "Ela funciona como etapa intermediária; a operação no destino se concretiza com a colagem."},
+        {"id": "C", "text": "Recortar sempre destrói o arquivo antes de qualquer colagem."},
+        {"id": "D", "text": "Ela existe apenas no Linux."},
+        {"id": "E", "text": "Ela transforma atalhos em cópias."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Copiar/recortar prepara dados ou referências para a operação; a colagem realiza a ação no destino. Fonte: documentação Microsoft/Ubuntu."
+    },
+    {
+      "id": "u023-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No GNOME Files, `Ctrl + H` é usado para",
+      "options": [
+        {"id": "A", "text": "alternar a exibição de arquivos ocultos."},
+        {"id": "B", "text": "apagar definitivamente o arquivo selecionado."},
+        {"id": "C", "text": "criar um link simbólico."},
+        {"id": "D", "text": "abrir `/home`."},
+        {"id": "E", "text": "copiar para a área de transferência."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A ajuda do GNOME documenta `Ctrl + H` para mostrar ou ocultar arquivos cujo nome normalmente fica oculto, como os iniciados por ponto."
+    },
+    {
+      "id": "u023-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual método é mais seguro para resolver uma questão sobre arquivos em Windows ou Linux?",
+      "options": [
+        {"id": "A", "text": "Decidir pelo desenho do ícone."},
+        {"id": "B", "text": "Assumir que os dois sistemas usam caminhos idênticos."},
+        {"id": "C", "text": "Identificar ambiente, objeto, caminho, operação, origem/destino, condições e efeito real."},
+        {"id": "D", "text": "Aplicar todos os atalhos do Windows ao Linux."},
+        {"id": "E", "text": "Considerar que todo link é uma cópia."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A sequência evita confundir referência com cópia, interface com sistema e convenções de caminhos entre plataformas. Fonte: síntese da unidade."
+    },
+    {
+      "id": "u023-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma questão da FUB/Cebraspe de 2025 testou a alteração manual da extensão de um arquivo no Windows 11. Em uma adaptação do mesmo mecanismo, qual afirmação é correta?",
+      "options": [
+        {"id": "A", "text": "Renomear `foto.jpg` para `foto.png` converte automaticamente os dados para PNG."},
+        {"id": "B", "text": "A troca da extensão recompõe automaticamente metadados e estrutura interna."},
+        {"id": "C", "text": "Mudar apenas o nome/extensão não converte o conteúdo; a conversão exige que um programa grave o formato de destino."},
+        {"id": "D", "text": "Toda troca de extensão apaga o arquivo."},
+        {"id": "E", "text": "A extensão é irrelevante para associações de aplicativos."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O item original 31 foi julgado ERRADO no gabarito definitivo: renomear a extensão não converte a estrutura interna. Adaptação da FUB/Cebraspe 2025, caderno 088_FUB_CB2_01, item 31; gabarito definitivo E."
+    },
+    {
+      "id": "u023-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma questão da FUB/Cebraspe de 2025 afirmava que mover um arquivo entre pastas do mesmo disco o duplicaria. Em uma adaptação, qual resultado caracteriza a movimentação?",
+      "options": [
+        {"id": "A", "text": "O arquivo permanece obrigatoriamente nos dois locais."},
+        {"id": "B", "text": "O item deixa a localização anterior e passa para o novo local, sem que a operação de mover seja definida como duplicação."},
+        {"id": "C", "text": "O conteúdo é convertido em atalho."},
+        {"id": "D", "text": "O arquivo é compactado automaticamente."},
+        {"id": "E", "text": "O arquivo passa para a área de transferência de forma permanente."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O item original 24 foi julgado ERRADO: mover não é duplicar e manter nos dois locais. Adaptação da FUB/Cebraspe 2025, caderno 088_FUB_CB4_01, item 24; gabarito definitivo E."
+    },
+    {
+      "id": "u023-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma questão da FUB/Cebraspe de 2025 tratou do arrasto de um arquivo para a área de trabalho do Windows. Qual conclusão deve ser evitada?",
+      "options": [
+        {"id": "A", "text": "A operação precisa ser analisada conforme origem, destino e comportamento do gerenciador."},
+        {"id": "B", "text": "Arrastar para a área de trabalho cria automaticamente e em qualquer caso apenas um atalho, sem mover nem copiar o item."},
+        {"id": "C", "text": "A área de trabalho pode conter referências e arquivos."},
+        {"id": "D", "text": "O efeito do arrasto não deve ser inferido apenas pelo fato de o destino ser visível na área de trabalho."},
+        {"id": "E", "text": "Uma referência e uma cópia são objetos diferentes."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O item original 23 foi julgado ERRADO: não se pode afirmar que o arrasto para a área de trabalho gere automaticamente apenas um atalho. Adaptação da FUB/Cebraspe 2025, caderno 088_FUB_CB4_01, item 23; gabarito definitivo E."
+    }
+  ]
+}
