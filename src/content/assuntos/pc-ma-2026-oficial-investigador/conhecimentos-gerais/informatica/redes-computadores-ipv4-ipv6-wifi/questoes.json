@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u026-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma rede que interliga computadores dentro de um prédio administrativo é classificada, em regra, como",
+      "options": [
+        {"id":"A","text":"LAN."},
+        {"id":"B","text":"MAN."},
+        {"id":"C","text":"WAN."},
+        {"id":"D","text":"PAN obrigatoriamente."},
+        {"id":"E","text":"Internet pública."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "LAN descreve rede de área local, adequada ao alcance de um prédio ou campus." 
+    },
+    {
+      "id": "u026-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual equipamento tem como função central encaminhar pacotes entre redes IP diferentes?",
+      "options": [
+        {"id":"A","text":"Switch de acesso."},
+        {"id":"B","text":"Roteador."},
+        {"id":"C","text":"Teclado."},
+        {"id":"D","text":"Monitor."},
+        {"id":"E","text":"Impressora."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O roteador interliga redes e decide o próximo encaminhamento conforme rotas IP." 
+    },
+    {
+      "id": "u026-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma rede sem fio, o ponto de acesso tem como papel típico",
+      "options": [
+        {"id":"A","text":"converter todo endereço IPv4 em IPv6."},
+        {"id":"B","text":"conectar clientes Wi-Fi à rede local."},
+        {"id":"C","text":"substituir obrigatoriamente o servidor DNS."},
+        {"id":"D","text":"ser a senha da rede."},
+        {"id":"E","text":"eliminar a necessidade de endereços IP."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O ponto de acesso fornece conectividade sem fio aos clientes e os integra à rede local." 
+    },
+    {
+      "id": "u026-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um endereço IPv4 possui",
+      "options": [
+        {"id":"A","text":"16 bits."},
+        {"id":"B","text":"32 bits."},
+        {"id":"C","text":"48 bits."},
+        {"id":"D","text":"64 bits."},
+        {"id":"E","text":"128 bits."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "IPv4 usa 32 bits, normalmente apresentados como quatro octetos decimais." 
+    },
+    {
+      "id": "u026-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na representação decimal pontuada de IPv4, cada octeto pode assumir valores de",
+      "options": [
+        {"id":"A","text":"0 a 127."},
+        {"id":"B","text":"0 a 255."},
+        {"id":"C","text":"1 a 256."},
+        {"id":"D","text":"0 a 1024."},
+        {"id":"E","text":"1 a 65535."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Um octeto tem 8 bits, portanto representa 256 valores, de 0 a 255." 
+    },
+    {
+      "id": "u026-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em notação CIDR, o sufixo /24 indica",
+      "options": [
+        {"id":"A","text":"24 hosts obrigatórios."},
+        {"id":"B","text":"24 bits iniciais pertencentes ao prefixo da rede."},
+        {"id":"C","text":"24 bytes de endereço."},
+        {"id":"D","text":"24 redes físicas."},
+        {"id":"E","text":"24 roteadores."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O número após a barra informa o comprimento, em bits, do prefixo da rede." 
+    },
+    {
+      "id": "u026-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em IPv4, um prefixo /26 deixa quantos bits para a parte de host/interface?",
+      "options": [
+        {"id":"A","text":"4."},
+        {"id":"B","text":"6."},
+        {"id":"C","text":"8."},
+        {"id":"D","text":"26."},
+        {"id":"E","text":"32."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "IPv4 possui 32 bits. Com 26 bits de prefixo, restam 6 bits." 
+    },
+    {
+      "id": "u026-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual endereço pertence a uma das faixas IPv4 privadas da RFC 1918?",
+      "options": [
+        {"id":"A","text":"8.8.8.8"},
+        {"id":"B","text":"192.168.20.10"},
+        {"id":"C","text":"203.0.113.10"},
+        {"id":"D","text":"1.1.1.1"},
+        {"id":"E","text":"224.0.0.1"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "192.168.0.0/16 é uma das três faixas privadas definidas na RFC 1918." 
+    },
+    {
+      "id": "u026-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A faixa IPv4 127.0.0.0/8 é associada principalmente a",
+      "options": [
+        {"id":"A","text":"loopback do próprio host."},
+        {"id":"B","text":"roteamento público obrigatório."},
+        {"id":"C","text":"broadcast global."},
+        {"id":"D","text":"endereçamento IPv6."},
+        {"id":"E","text":"identificação de SSID."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A faixa 127.0.0.0/8 é reservada a loopback." 
+    },
+    {
+      "id": "u026-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um endereço IPv6 possui",
+      "options": [
+        {"id":"A","text":"32 bits."},
+        {"id":"B","text":"48 bits."},
+        {"id":"C","text":"64 bits."},
+        {"id":"D","text":"96 bits."},
+        {"id":"E","text":"128 bits."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "IPv6 usa endereços de 128 bits." 
+    },
+    {
+      "id": "u026-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a representação textual de IPv6, assinale a alternativa correta.",
+      "options": [
+        {"id":"A","text":"O símbolo :: pode comprimir mais de uma sequência distinta no mesmo endereço."},
+        {"id":"B","text":"Zeros à esquerda de cada grupo nunca podem ser omitidos."},
+        {"id":"C","text":"Uma sequência de grupos zero pode ser comprimida por ::, usado no máximo uma vez no endereço."},
+        {"id":"D","text":"IPv6 usa obrigatoriamente quatro octetos decimais."},
+        {"id":"E","text":"Toda forma não comprimida é inválida."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A compressão por :: representa uma sequência de grupos zero e só pode aparecer uma vez, para preservar a interpretação inequívoca." 
+    },
+    {
+      "id": "u026-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No IPv6, o endereço ::1 representa",
+      "options": [
+        {"id":"A","text":"broadcast."},
+        {"id":"B","text":"loopback."},
+        {"id":"C","text":"gateway universal."},
+        {"id":"D","text":"SSID."},
+        {"id":"E","text":"endereço IPv4 privado."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "::1 é o endereço de loopback IPv6." 
+    },
+    {
+      "id": "u026-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação sobre broadcast em IPv6 é correta?",
+      "options": [
+        {"id":"A","text":"IPv6 usa o mesmo broadcast 255.255.255.255 do IPv4."},
+        {"id":"B","text":"IPv6 não usa broadcast; emprega mecanismos como multicast e anycast."},
+        {"id":"C","text":"Todo endereço IPv6 é broadcast."},
+        {"id":"D","text":"Broadcast em IPv6 depende do SSID."},
+        {"id":"E","text":"Broadcast é obrigatório em fe80::/10."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A arquitetura IPv6 não define broadcast; multicast e anycast atendem outras formas de entrega múltipla ou por grupo." 
+    },
+    {
+      "id": "u026-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A família de padrões mais associada a redes locais Wi-Fi é",
+      "options": [
+        {"id":"A","text":"IEEE 802.3."},
+        {"id":"B","text":"IEEE 802.11."},
+        {"id":"C","text":"RFC 1918."},
+        {"id":"D","text":"X.509."},
+        {"id":"E","text":"SMTP."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "IEEE 802.11 é a família de padrões de redes locais sem fio associada ao Wi-Fi." 
+    },
+    {
+      "id": "u026-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma rede Wi-Fi, SSID é",
+      "options": [
+        {"id":"A","text":"a senha obrigatória da rede."},
+        {"id":"B","text":"o nome lógico que identifica o conjunto/rede sem fio."},
+        {"id":"C","text":"um endereço IPv6 de 128 bits."},
+        {"id":"D","text":"o protocolo de roteamento."},
+        {"id":"E","text":"o certificado digital do roteador."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "SSID identifica logicamente a rede sem fio e não deve ser confundido com senha ou mecanismo de segurança." 
+    },
+    {
+      "id": "u026-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma topologia em estrela, a falha do equipamento central pode",
+      "options": [
+        {"id":"A","text":"afetar vários ou todos os nós ligados a ele."},
+        {"id":"B","text":"converter a rede automaticamente em anel."},
+        {"id":"C","text":"alterar IPv4 para IPv6."},
+        {"id":"D","text":"eliminar a necessidade de endereçamento."},
+        {"id":"E","text":"transformar SSID em senha."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na estrela, as conexões convergem a um ponto central; sua indisponibilidade pode comprometer ampla parte da rede." 
+    },
+    {
+      "id": "u026-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação de questão anterior, qual é a representação binária do endereço IPv4 192.168.10.50?",
+      "options": [
+        {"id":"A","text":"11000000.10100000.00001010.00110010"},
+        {"id":"B","text":"11000000.10101000.00001001.00110010"},
+        {"id":"C","text":"11000000.10101000.00001010.00110100"},
+        {"id":"D","text":"11000000.10101000.00001010.00110010"},
+        {"id":"E","text":"11000000.10101000.00001010.00110001"}
+      ],
+      "correctOptionId": "D",
+      "explanation": "192=11000000, 168=10101000, 10=00001010 e 50=00110010. Adaptação curta e não literal de FGV — ALEMA, Técnico de Gestão Administrativa — Analista de Suporte de Rede, Tipo 1, 2023, questão 31, gabarito definitivo D." 
+    },
+    {
+      "id": "u026-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação de questão anterior, quantos bits compõem um endereço IPv6?",
+      "options": [
+        {"id":"A","text":"128 bits."},
+        {"id":"B","text":"64 bits."},
+        {"id":"C","text":"48 bits."},
+        {"id":"D","text":"32 bits."},
+        {"id":"E","text":"16 bits."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "IPv6 utiliza endereços de 128 bits. Adaptação curta e não literal de FGV — ALEMA, Técnico de Gestão Administrativa — Analista de Suporte de Rede, Tipo 1, 2023, questão 43, gabarito definitivo A." 
+    }
+  ]
+}
