@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u027-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A característica de computação em nuvem em que o consumidor obtém recursos conforme a necessidade, sem atendimento manual a cada solicitação, é",
+      "options": [
+        {"id": "A", "text": "autosserviço sob demanda."},
+        {"id": "B", "text": "backup diferencial."},
+        {"id": "C", "text": "espelhamento local."},
+        {"id": "D", "text": "criptografia assimétrica."},
+        {"id": "E", "text": "arquivamento físico."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Autosserviço sob demanda é uma das características essenciais da definição de referência do NIST."
+    },
+    {
+      "id": "u027-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No modelo SaaS, o consumidor recebe principalmente",
+      "options": [
+        {"id": "A", "text": "infraestrutura física para instalar qualquer sistema."},
+        {"id": "B", "text": "uma aplicação pronta oferecida como serviço."},
+        {"id": "C", "text": "somente circuitos de rede."},
+        {"id": "D", "text": "uma cópia offline obrigatória."},
+        {"id": "E", "text": "uma autoridade certificadora."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "SaaS entrega a aplicação como serviço; o provedor administra a infraestrutura subjacente."
+    },
+    {
+      "id": "u027-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual associação está correta?",
+      "options": [
+        {"id": "A", "text": "IaaS — aplicação pronta; SaaS — máquinas virtuais."},
+        {"id": "B", "text": "PaaS — apenas armazenamento local; IaaS — reunião online."},
+        {"id": "C", "text": "SaaS — aplicação; PaaS — plataforma; IaaS — infraestrutura."},
+        {"id": "D", "text": "IaaS — correio eletrônico; SaaS — cabeamento."},
+        {"id": "E", "text": "PaaS — backup; SaaS — criptografia."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os três modelos se distinguem pelo tipo de capacidade entregue: aplicação, plataforma ou infraestrutura."
+    },
+    {
+      "id": "u027-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pasta sincronizada sofre exclusão local e a exclusão é reproduzida na nuvem. Isso mostra que",
+      "options": [
+        {"id": "A", "text": "a nuvem necessariamente falhou."},
+        {"id": "B", "text": "sincronização pode propagar alterações e não é automaticamente backup."},
+        {"id": "C", "text": "o arquivo se tornou público."},
+        {"id": "D", "text": "espelhamento é sempre imutável."},
+        {"id": "E", "text": "o serviço deixou de ser nuvem."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sincronização mantém estados coerentes, inclusive exclusões; backup exige estratégia própria de recuperação."
+    },
+    {
+      "id": "u027-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Receber o link de um arquivo restrito armazenado na nuvem",
+      "options": [
+        {"id": "A", "text": "garante edição."},
+        {"id": "B", "text": "torna o arquivo público."},
+        {"id": "C", "text": "não substitui a permissão concedida à identidade do destinatário."},
+        {"id": "D", "text": "remove o proprietário."},
+        {"id": "E", "text": "cria automaticamente uma cópia local."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Link é referência ao recurso; autorização continua sendo verificada pelo serviço."
+    },
+    {
+      "id": "u027-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No OneDrive com Arquivos Sob Demanda, um arquivo somente online",
+      "options": [
+        {"id": "A", "text": "é obtido pela rede quando necessário e economiza espaço local."},
+        {"id": "B", "text": "foi excluído da nuvem."},
+        {"id": "C", "text": "permanece integralmente baixado."},
+        {"id": "D", "text": "é obrigatoriamente público."},
+        {"id": "E", "text": "não pode ser compartilhado."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O estado somente online mantém a entrada visível, mas o conteúdo integral é obtido sob demanda."
+    },
+    {
+      "id": "u027-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No OneDrive, a ação Liberar espaço",
+      "options": [
+        {"id": "A", "text": "exclui o arquivo de todos os dispositivos."},
+        {"id": "B", "text": "remove a cópia integral local e mantém o item na nuvem."},
+        {"id": "C", "text": "concede permissão de edição."},
+        {"id": "D", "text": "torna o item imutável."},
+        {"id": "E", "text": "desativa a sincronização da conta."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Liberar espaço altera a disponibilidade local; não equivale a excluir o item remoto."
+    },
+    {
+      "id": "u027-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Google Drive para computador, o espelhamento",
+      "options": [
+        {"id": "A", "text": "mantém nuvem e cópia local sincronizada, sem criar por si só backup independente."},
+        {"id": "B", "text": "mantém os dados apenas na nuvem."},
+        {"id": "C", "text": "impede qualquer exclusão."},
+        {"id": "D", "text": "é sempre somente leitura."},
+        {"id": "E", "text": "dispensa espaço local."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Espelhamento mantém cópia local completa, mas alterações podem continuar a ser sincronizadas."
+    },
+    {
+      "id": "u027-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma vantagem institucional de um drive compartilhado é",
+      "options": [
+        {"id": "A", "text": "dispensar autenticação."},
+        {"id": "B", "text": "tornar os documentos públicos."},
+        {"id": "C", "text": "vincular o conteúdo ao espaço da equipe, reduzindo dependência de proprietário individual."},
+        {"id": "D", "text": "impedir edição colaborativa."},
+        {"id": "E", "text": "substituir a política de backup."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O conteúdo do drive compartilhado pertence ao espaço da equipe/organização, favorecendo continuidade."
+    },
+    {
+      "id": "u027-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença correta entre colaboração síncrona e assíncrona é",
+      "options": [
+        {"id": "A", "text": "a síncrona exige armazenamento local."},
+        {"id": "B", "text": "a assíncrona não admite prazo."},
+        {"id": "C", "text": "a síncrona ocorre no mesmo período; a assíncrona permite participação em momentos diferentes."},
+        {"id": "D", "text": "a assíncrona nunca deixa registro."},
+        {"id": "E", "text": "a síncrona é sempre formal."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A classificação descreve a relação temporal entre os participantes, não o grau de formalidade."
+    },
+    {
+      "id": "u027-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compartilhar a tela durante uma reunião",
+      "options": [
+        {"id": "A", "text": "concede automaticamente permissão de edição no arquivo original."},
+        {"id": "B", "text": "é uma forma de exibir conteúdo e não substitui a autorização do arquivo."},
+        {"id": "C", "text": "transfere a propriedade do documento."},
+        {"id": "D", "text": "cria um backup."},
+        {"id": "E", "text": "torna os participantes administradores."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Visualização por compartilhamento de tela e permissão sobre o arquivo são mecanismos distintos."
+    },
+    {
+      "id": "u027-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre histórico de versões e lixeira em serviços de nuvem, é correto afirmar que",
+      "options": [
+        {"id": "A", "text": "preservam tudo indefinidamente."},
+        {"id": "B", "text": "podem ajudar na recuperação, mas seguem limites de retenção e política."},
+        {"id": "C", "text": "impedem toda sincronização de exclusões."},
+        {"id": "D", "text": "substituem sempre backup independente."},
+        {"id": "E", "text": "eliminam a necessidade de permissões."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "São recursos úteis de recuperação, mas seus prazos e condições não são ilimitados."
+    },
+    {
+      "id": "u027-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para trabalhar sem conexão com um arquivo armazenado na nuvem, o usuário deve, quando o serviço permitir,",
+      "options": [
+        {"id": "A", "text": "preparar o arquivo para disponibilidade local antes de perder a conexão."},
+        {"id": "B", "text": "tornar o arquivo público."},
+        {"id": "C", "text": "apagar a versão remota."},
+        {"id": "D", "text": "converter o serviço em IaaS."},
+        {"id": "E", "text": "desativar a conta."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Estar na nuvem não garante acesso offline; o conteúdo precisa estar disponível localmente."
+    },
+    {
+      "id": "u027-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No contexto de permissões, o princípio do menor privilégio recomenda",
+      "options": [
+        {"id": "A", "text": "dar acesso administrativo a todos."},
+        {"id": "B", "text": "conceder somente a capacidade necessária à tarefa."},
+        {"id": "C", "text": "usar links públicos permanentes."},
+        {"id": "D", "text": "evitar autenticação."},
+        {"id": "E", "text": "eliminar papéis de leitura."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Menor privilégio reduz exposição e alterações desnecessárias ao limitar o acesso ao necessário."
+    },
+    {
+      "id": "u027-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Microsoft Teams e Google Meet são corretamente relacionados à colaboração porque",
+      "options": [
+        {"id": "A", "text": "ambos são protocolos de armazenamento."},
+        {"id": "B", "text": "podem apoiar reuniões e interação, sujeitos a identidade, permissões e políticas."},
+        {"id": "C", "text": "qualquer link garante entrada irrestrita."},
+        {"id": "D", "text": "reuniões substituem armazenamento em nuvem."},
+        {"id": "E", "text": "gravação equivale a ata formal."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ferramentas colaborativas dependem de configurações e papéis; reunião, armazenamento e registro formal são funções diferentes."
+    },
+    {
+      "id": "u027-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa descreve melhor o serviço mensurado em computação em nuvem?",
+      "options": [
+        {"id": "A", "text": "Os recursos utilizados podem ser monitorados e medidos."},
+        {"id": "B", "text": "Todo serviço é gratuito."},
+        {"id": "C", "text": "Todo dado é público."},
+        {"id": "D", "text": "A capacidade é fixa e não observável."},
+        {"id": "E", "text": "O consumidor administra obrigatoriamente o hardware físico."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Serviço mensurado é uma das características de referência do modelo de nuvem."
+    },
+    {
+      "id": "u027-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No contexto dos ambientes colaborativos Google Workspace e Microsoft Teams, considere: I. Google Meet só permite participar de reuniões por convites enviados por e-mail e não permite criar reuniões diretamente na plataforma. II. No Microsoft Teams, é possível fazer chamadas de áudio e vídeo e compartilhar a tela. III. No Google Workspace, o Google Drive permite armazenar arquivos na nuvem e colaborar em tempo real com Documentos, Planilhas e Apresentações. A sequência correta é",
+      "options": [
+        {"id": "A", "text": "V – V – F."},
+        {"id": "B", "text": "V – F – F."},
+        {"id": "C", "text": "F – V – V."},
+        {"id": "D", "text": "F – F – V."},
+        {"id": "E", "text": "F – F – F."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "I é falsa; II e III são verdadeiras. Fonte: questão adaptada de FGV; Polícia Militar do Estado de São Paulo; Soldado PM de 2ª Classe; 2024; Tipo 1; questão 55; prova oficial e gabarito definitivo oficial, gabarito C."
+    },
+    {
+      "id": "u027-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em relação ao OneDrive, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "Arquivos e pastas compartilhados só podem ser acessados no mesmo dispositivo do proprietário."},
+        {"id": "B", "text": "Compartilhar um arquivo remove a necessidade de autenticação em qualquer configuração."},
+        {"id": "C", "text": "É possível compartilhar arquivos e pastas com outros usuários, que podem acessá-los em diferentes dispositivos conforme as permissões."},
+        {"id": "D", "text": "Compartilhar uma pasta a transforma automaticamente em backup imutável."},
+        {"id": "E", "text": "Todo compartilhamento torna o conteúdo público na Internet."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O serviço permite compartilhamento e acesso em múltiplos dispositivos, sujeito a permissões. Fonte: questão adaptada de Cebraspe; FNDE; Especialista em Financiamento e Execução de Programas e Projetos Educacionais; 2023; item 42; gabarito definitivo Certo; item convertido para cinco alternativas."
+    }
+  ]
+}
