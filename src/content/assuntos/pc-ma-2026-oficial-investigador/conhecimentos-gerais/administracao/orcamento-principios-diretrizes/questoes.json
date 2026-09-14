@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u058-a01",
+      "revision": 1,
+      "prompt": "Sobre a função do orçamento público, assinale a afirmativa correta.",
+      "options": [
+        {"id": "A", "text": "É um demonstrativo elaborado apenas depois do encerramento do exercício."},
+        {"id": "B", "text": "Conecta planejamento, alocação de recursos e controle por meio da previsão de receitas e da fixação de despesas."},
+        {"id": "C", "text": "Substitui a necessidade de planejamento de médio prazo."},
+        {"id": "D", "text": "Registra somente receitas efetivamente arrecadadas."},
+        {"id": "E", "text": "Obriga o pagamento integral de toda despesa fixada."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei orçamentária organiza a previsão de receitas e a fixação de despesas para o exercício. Ela não é um extrato de pagamentos já realizados nem determina que toda dotação seja automaticamente paga.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a02",
+      "revision": 1,
+      "prompt": "Assinale a opção que descreve corretamente a relação entre o <abbr title=\"Plano Plurianual\">PPA</abbr>, a <abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr> e a <abbr title=\"Lei Orçamentária Anual\">LOA</abbr>.",
+      "options": [
+        {"id": "A", "text": "A <abbr title=\"Lei Orçamentária Anual\">LOA</abbr> define o planejamento de médio prazo, e o <abbr title=\"Plano Plurianual\">PPA</abbr> apenas executa as despesas anuais."},
+        {"id": "B", "text": "A <abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr> substitui os outros dois instrumentos."},
+        {"id": "C", "text": "O <abbr title=\"Plano Plurianual\">PPA</abbr> estrutura o médio prazo, a <abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr> orienta o orçamento anual e a <abbr title=\"Lei Orçamentária Anual\">LOA</abbr> estima receitas e fixa despesas."},
+        {"id": "D", "text": "Os três instrumentos têm a mesma função e diferem apenas pelo nome."},
+        {"id": "E", "text": "Somente a <abbr title=\"Lei Orçamentária Anual\">LOA</abbr> é estabelecida por lei."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O <abbr title=\"Plano Plurianual\">PPA</abbr> estrutura diretrizes, objetivos e metas de médio prazo; a <abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr> orienta o orçamento anual e seleciona direções e prioridades; a <abbr title=\"Lei Orçamentária Anual\">LOA</abbr> estima receitas e fixa despesas para o exercício.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a03",
+      "revision": 1,
+      "prompt": "Segundo a Constituição, qual conteúdo pertence ao <abbr title=\"Plano Plurianual\">PPA</abbr>?",
+      "options": [
+        {"id": "A", "text": "Somente a fixação das despesas correntes do próximo exercício."},
+        {"id": "B", "text": "Apenas as alterações da legislação tributária do ano seguinte."},
+        {"id": "C", "text": "Exclusivamente os riscos fiscais do exercício seguinte."},
+        {"id": "D", "text": "Diretrizes, objetivos e metas regionalizadas para despesas de capital e programas de duração continuada."},
+        {"id": "E", "text": "A relação dos pagamentos já efetuados no exercício."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "O <abbr title=\"Plano Plurianual\">PPA</abbr> estabelece, de forma regionalizada, diretrizes, objetivos e metas para despesas de capital e outras delas decorrentes e para programas de duração continuada.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a04",
+      "revision": 1,
+      "prompt": "Qual alternativa corresponde a uma função constitucional da <abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr>?",
+      "options": [
+        {"id": "A", "text": "Orientar a elaboração da <abbr title=\"Lei Orçamentária Anual\">LOA</abbr>."},
+        {"id": "B", "text": "Executar diretamente os pagamentos do Tesouro."},
+        {"id": "C", "text": "Substituir o <abbr title=\"Plano Plurianual\">PPA</abbr> em todo o planejamento de médio prazo."},
+        {"id": "D", "text": "Fixar definitivamente todos os valores da dívida pública para os quatro anos seguintes."},
+        {"id": "E", "text": "Registrar apenas as receitas efetivamente arrecadadas."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A <abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr> orienta a elaboração da <abbr title=\"Lei Orçamentária Anual\">LOA</abbr>, além de compreender metas e prioridades e tratar de outros temas indicados no artigo 165, § 2º, da Constituição.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a05",
+      "revision": 1,
+      "prompt": "A <abbr title=\"Lei Orçamentária Anual\">LOA</abbr> da União compreende, entre outros, os orçamentos",
+      "options": [
+        {"id": "A", "text": "tributário, monetário e cambial."},
+        {"id": "B", "text": "corrente, plurianual e extraordinário."},
+        {"id": "C", "text": "administrativo, judicial e legislativo."},
+        {"id": "D", "text": "fiscal e monetário, apenas."},
+        {"id": "E", "text": "fiscal, de investimento e da seguridade social."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Constituição prevê os orçamentos fiscal, de investimento das empresas em que a União detenha a maioria do capital social com direito a voto e da seguridade social.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a06",
+      "revision": 1,
+      "prompt": "Um órgão deixa deliberadamente determinada receita orçamentária fora da lei orçamentária. Qual princípio é atingido de modo mais direto?",
+      "options": [
+        {"id": "A", "text": "Exclusividade."},
+        {"id": "B", "text": "Universalidade."},
+        {"id": "C", "text": "Orçamento bruto."},
+        {"id": "D", "text": "Anualidade."},
+        {"id": "E", "text": "Não vinculação."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A universalidade exige que as receitas e despesas abrangidas pelo orçamento estejam nele incluídas. A omissão é o problema típico desse princípio.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a07",
+      "revision": 1,
+      "prompt": "Uma receita de R$ 100 é apresentada no orçamento apenas pelo valor líquido de R$ 70, após compensação de uma dedução de R$ 30. Qual princípio é mais diretamente relevante?",
+      "options": [
+        {"id": "A", "text": "Anualidade."},
+        {"id": "B", "text": "Exclusividade."},
+        {"id": "C", "text": "Orçamento bruto."},
+        {"id": "D", "text": "Não vinculação."},
+        {"id": "E", "text": "Publicidade."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O princípio do orçamento bruto exige que receitas e despesas apareçam pelos totais, sem deduções que ocultem os montantes integrais.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a08",
+      "revision": 1,
+      "prompt": "A existência, dentro de uma única <abbr title=\"Lei Orçamentária Anual\">LOA</abbr>, dos orçamentos fiscal, de investimento e da seguridade social",
+      "options": [
+        {"id": "A", "text": "viola necessariamente o princípio da exclusividade."},
+        {"id": "B", "text": "viola necessariamente o princípio do orçamento bruto."},
+        {"id": "C", "text": "transforma a <abbr title=\"Lei Orçamentária Anual\">LOA</abbr> em três leis autônomas."},
+        {"id": "D", "text": "é compatível com o princípio da unidade."},
+        {"id": "E", "text": "elimina a necessidade de universalidade."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Não viola a unidade: a Constituição reúne esses orçamentos na mesma lei orçamentária. Unidade significa integração do conjunto, não uma única tabela.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a09",
+      "revision": 1,
+      "prompt": "O princípio da anualidade significa que",
+      "options": [
+        {"id": "A", "text": "o orçamento se refere a um exercício financeiro."},
+        {"id": "B", "text": "todo planejamento estatal deve durar apenas um ano."},
+        {"id": "C", "text": "o <abbr title=\"Plano Plurianual\">PPA</abbr> deve ser substituído a cada exercício."},
+        {"id": "D", "text": "nenhuma despesa pode produzir efeitos em exercício posterior."},
+        {"id": "E", "text": "a <abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr> deixa de orientar a <abbr title=\"Lei Orçamentária Anual\">LOA</abbr> no exercício seguinte."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei orçamentária se refere a um exercício financeiro. Isso não impede a existência de planejamento plurianual em instrumento próprio.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a10",
+      "revision": 1,
+      "prompt": "À luz do princípio da exclusividade, assinale a matéria que pode constar da <abbr title=\"Lei Orçamentária Anual\">LOA</abbr> como exceção constitucional.",
+      "options": [
+        {"id": "A", "text": "Reforma geral do regime disciplinar dos servidores."},
+        {"id": "B", "text": "Autorização para abertura de créditos suplementares."},
+        {"id": "C", "text": "Criação de novo tipo penal sem relação orçamentária."},
+        {"id": "D", "text": "Alteração integral da organização do Poder Judiciário."},
+        {"id": "E", "text": "Regulamentação geral de contratos privados."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Constituição admite na lei orçamentária autorização para abertura de créditos suplementares e contratação de operações de crédito, inclusive por antecipação de receita, nos termos legais.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a11",
+      "revision": 1,
+      "prompt": "A regra constitucional de não vinculação alcança, como regra geral,",
+      "options": [
+        {"id": "A", "text": "todas as receitas públicas, sem exceção."},
+        {"id": "B", "text": "somente receitas de operações de crédito."},
+        {"id": "C", "text": "receitas de impostos, ressalvadas as exceções constitucionais."},
+        {"id": "D", "text": "apenas receitas patrimoniais."},
+        {"id": "E", "text": "somente receitas de contribuições."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Constituição veda a vinculação de receita de impostos a órgão, fundo ou despesa, ressalvadas as exceções constitucionais. A regra não se estende indistintamente a toda receita pública.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a12",
+      "revision": 1,
+      "prompt": "Sobre a regra de ouro, assinale a afirmativa correta.",
+      "options": [
+        {"id": "A", "text": "Proíbe qualquer operação de crédito."},
+        {"id": "B", "text": "Exige igualdade matemática permanente entre receitas e despesas."},
+        {"id": "C", "text": "Permite endividamento acima das despesas de capital por decisão administrativa simples."},
+        {"id": "D", "text": "Aplica-se apenas a operações de crédito externas."},
+        {"id": "E", "text": "Admite exceção constitucional mediante créditos suplementares ou especiais com finalidade precisa e aprovação legislativa por maioria absoluta."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Constituição veda operações de crédito que excedam as despesas de capital, mas prevê exceção para operações autorizadas mediante créditos suplementares ou especiais com finalidade precisa, aprovados pelo Legislativo por maioria absoluta.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a13",
+      "revision": 1,
+      "prompt": "O <abbr title=\"Anexo de Metas Fiscais\">AMF</abbr>, integrante da <abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr>, contém metas anuais relativas, entre outros elementos, a",
+      "options": [
+        {"id": "A", "text": "receitas, despesas, resultados nominal e primário e montante da dívida pública."},
+        {"id": "B", "text": "somente número de servidores por órgão."},
+        {"id": "C", "text": "apenas passivos contingentes já materializados."},
+        {"id": "D", "text": "somente despesas de capital do <abbr title=\"Plano Plurianual\">PPA</abbr>."},
+        {"id": "E", "text": "apenas limites de gastos de empresas privadas."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A <abbr title=\"Lei de Responsabilidade Fiscal\">LRF</abbr> prevê metas de receitas, despesas, resultados nominal e primário e montante da dívida pública para o exercício de referência e os dois seguintes.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a14",
+      "revision": 1,
+      "prompt": "O <abbr title=\"Anexo de Riscos Fiscais\">ARF</abbr> tem por função principal",
+      "options": [
+        {"id": "A", "text": "fixar todas as dotações da <abbr title=\"Lei Orçamentária Anual\">LOA</abbr>."},
+        {"id": "B", "text": "definir exclusivamente metas de arrecadação."},
+        {"id": "C", "text": "substituir o <abbr title=\"Anexo de Metas Fiscais\">AMF</abbr>."},
+        {"id": "D", "text": "avaliar passivos contingentes e outros riscos fiscais e indicar providências."},
+        {"id": "E", "text": "autorizar automaticamente operações de crédito."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "O <abbr title=\"Anexo de Riscos Fiscais\">ARF</abbr> avalia passivos contingentes e outros riscos capazes de afetar as contas públicas e informa as providências a adotar caso se concretizem.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a15",
+      "revision": 1,
+      "prompt": "De acordo com a <abbr title=\"Lei de Responsabilidade Fiscal\">LRF</abbr>, a <abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr> deve tratar de critérios e forma de",
+      "options": [
+        {"id": "A", "text": "nomeação de servidores efetivos."},
+        {"id": "B", "text": "julgamento de processos criminais."},
+        {"id": "C", "text": "limitação de empenho."},
+        {"id": "D", "text": "registro civil de pessoas naturais."},
+        {"id": "E", "text": "emissão de moeda por empresas estatais."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A <abbr title=\"Lei de Responsabilidade Fiscal\">LRF</abbr> inclui entre os conteúdos da <abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr> critérios e forma de limitação de empenho, além de regras sobre equilíbrio, custos, avaliação de resultados e transferências.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a16",
+      "revision": 1,
+      "prompt": "Qual afirmação distingue corretamente orçamento e execução financeira?",
+      "options": [
+        {"id": "A", "text": "Fixar uma despesa na <abbr title=\"Lei Orçamentária Anual\">LOA</abbr> significa que ela já foi paga."},
+        {"id": "B", "text": "A <abbr title=\"Lei Orçamentária Anual\">LOA</abbr> organiza previsão e fixação; arrecadação e pagamento ocorrem na execução."},
+        {"id": "C", "text": "A execução financeira acontece antes da aprovação do orçamento."},
+        {"id": "D", "text": "Receita prevista é sempre idêntica à receita arrecadada."},
+        {"id": "E", "text": "O orçamento registra somente fatos já consumados."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A <abbr title=\"Lei Orçamentária Anual\">LOA</abbr> estima receitas e fixa despesas; arrecadação e pagamento pertencem à execução. Dotação não equivale a pagamento automático.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-a17",
+      "revision": 1,
+      "prompt": "Considere uma hipótese em que a lei orçamentária omite uma receita, apresenta outra apenas pelo valor líquido de uma dedução e inclui matéria administrativa estranha sem amparo em exceção constitucional. Os princípios diretamente envolvidos são, respectivamente,",
+      "options": [
+        {"id": "A", "text": "universalidade, orçamento bruto e exclusividade."},
+        {"id": "B", "text": "anualidade, publicidade e unidade."},
+        {"id": "C", "text": "exclusividade, legalidade e anualidade."},
+        {"id": "D", "text": "orçamento bruto, unidade e universalidade."},
+        {"id": "E", "text": "não vinculação, equilíbrio e publicidade."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Omissão aponta para universalidade; apresentação líquida, para orçamento bruto; matéria estranha, para exclusividade.",
+      "origin": "authorial"
+    },
+    {
+      "id": "u058-p01",
+      "revision": 1,
+      "prompt": "Adaptação não literal de questão da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr> (Prefeitura do Rio de Janeiro, Procuradoria-Geral do Município, Analista de Procuradoria — Especialidade Administrativa, 2025, questão 59): qual associação traduz corretamente a lógica que busca evitar o financiamento de despesas correntes por endividamento incompatível com a sustentabilidade fiscal?",
+      "options": [
+        {"id": "A", "text": "Equilíbrio e regra de ouro."},
+        {"id": "B", "text": "Anualidade e superávit primário obrigatório."},
+        {"id": "C", "text": "Universalidade e teto de gastos."},
+        {"id": "D", "text": "Publicidade e não vinculação."},
+        {"id": "E", "text": "Exclusividade e controle da dívida."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A questão original relaciona o princípio do equilíbrio à regra de ouro. No gabarito definitivo, a alternativa correspondente é A. A adaptação preserva o conceito, sem reproduzir literalmente o enunciado.",
+      "origin": "previous_exam"
+    },
+    {
+      "id": "u058-p02",
+      "revision": 1,
+      "prompt": "Adaptação não literal de questão da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr> (Prefeitura do Rio de Janeiro, Procuradoria-Geral do Município, Analista de Procuradoria — Especialidade Administrativa, 2025, questão 64): em qual hipótese a Constituição admite que operações de crédito superem as despesas de capital?",
+      "options": [
+        {"id": "A", "text": "Sempre que o chefe do Executivo autorizar por ato administrativo."},
+        {"id": "B", "text": "Quando houver créditos suplementares ou especiais com finalidade precisa e aprovação legislativa por maioria absoluta."},
+        {"id": "C", "text": "Sempre que a operação de crédito for externa."},
+        {"id": "D", "text": "Quando o excesso não superar percentual fixado livremente na <abbr title=\"Lei Orçamentária Anual\">LOA</abbr>."},
+        {"id": "E", "text": "Nunca; a vedação é absoluta."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A questão original cobra a exceção da regra de ouro. O gabarito definitivo aponta a alternativa B: créditos suplementares ou especiais com finalidade precisa, aprovados pelo Poder Legislativo por maioria absoluta.",
+      "origin": "previous_exam"
+    },
+    {
+      "id": "u058-p03",
+      "revision": 1,
+      "prompt": "Adaptação não literal de questão da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr> (<abbr title=\"Tribunal de Contas do Estado do Pará\">TCE-PA</abbr>, Auditor de Controle Externo — Planejamento/Economia, 2024, questão 77): relacione a função de planejamento de médio prazo, a função de orientar e priorizar o orçamento anual e a função de estimar receitas e fixar despesas, nessa ordem.",
+      "options": [
+        {"id": "A", "text": "<abbr title=\"Lei Orçamentária Anual\">LOA</abbr>, <abbr title=\"Plano Plurianual\">PPA</abbr>, <abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr>."},
+        {"id": "B", "text": "<abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr>, <abbr title=\"Lei Orçamentária Anual\">LOA</abbr>, <abbr title=\"Plano Plurianual\">PPA</abbr>."},
+        {"id": "C", "text": "<abbr title=\"Plano Plurianual\">PPA</abbr>, <abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr>, <abbr title=\"Lei Orçamentária Anual\">LOA</abbr>."},
+        {"id": "D", "text": "<abbr title=\"Plano Plurianual\">PPA</abbr>, <abbr title=\"Lei Orçamentária Anual\">LOA</abbr>, <abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr>."},
+        {"id": "E", "text": "<abbr title=\"Lei Orçamentária Anual\">LOA</abbr>, <abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr>, <abbr title=\"Plano Plurianual\">PPA</abbr>."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A questão original relaciona as funções aos três instrumentos do artigo 165 da Constituição. O gabarito definitivo da questão 77 é A; nesta adaptação, a ordem correta aparece na alternativa C: <abbr title=\"Plano Plurianual\">PPA</abbr>, <abbr title=\"Lei de Diretrizes Orçamentárias\">LDO</abbr>, <abbr title=\"Lei Orçamentária Anual\">LOA</abbr>.",
+      "origin": "previous_exam"
+    }
+  ]
+}
