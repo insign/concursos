@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q7059",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Segundo a tradição religiosa sobre a Batalha de Guaxenduba, o auxílio de Nossa Senhora da Vitória a Jerônimo de Albuquerque teria favorecido a vitória contra as forças de",
+      "options": [
+        {
+          "id": "A",
+          "text": "Manuel Beckman, ligado à revolta contra a Companhia de Comércio no fim do século XVII."
+        },
+        {
+          "id": "B",
+          "text": "Maurício de Nassau, dirigente da ocupação neerlandesa no Nordeste."
+        },
+        {
+          "id": "C",
+          "text": "Daniel de La Touche, La Ravardière, dirigente da França Equinocial."
+        },
+        {
+          "id": "D",
+          "text": "Negro Cosme, liderança da Balaiada no século XIX."
+        },
+        {
+          "id": "E",
+          "text": "Miguel Bruce, personagem das disputas políticas posteriores à Independência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A questão retoma o núcleo da questão 14 do Processo Seletivo EAD UEMA 2024, aplicada em 30/06/2024, cujo gabarito definitivo foi C. A referência a Nossa Senhora da Vitória pertence à tradição religiosa sobre Guaxenduba; o adversário francês era La Ravardière. Fontes oficiais: prova https://www.uema.br/wp-content/uploads/2024/07/PROVA-EAD-UEMA-2024-EDITAL-32_2024-GR-UEMA.pdf e gabarito definitivo https://www.uema.br/wp-content/uploads/2024/07/GAB_DEFINITIVO-EAD-UEMA-2024.pdf."
+    },
+    {
+      "id": "q7060",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A Batalha de Guaxenduba, em 1614, integrou a disputa colonial no Maranhão entre forças ligadas principalmente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "portugueses e neerlandeses, sem participação indígena."
+        },
+        {
+          "id": "B",
+          "text": "portugueses e franceses, ambos apoiados por alianças indígenas."
+        },
+        {
+          "id": "C",
+          "text": "espanhóis e ingleses, com exclusão de portugueses."
+        },
+        {
+          "id": "D",
+          "text": "franceses e neerlandeses, após o fim da União Ibérica."
+        },
+        {
+          "id": "E",
+          "text": "brasileiros independentes e portugueses metropolitanos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Guaxenduba ocorreu no contexto da França Equinocial e da reação luso-ibérica. Franceses e portugueses mobilizaram aliados indígenas; reduzir a batalha a europeus isolados distorce o conflito."
+    },
+    {
+      "id": "q7061",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "É incorreto afirmar que o projeto de colonização francesa no território que viria a ser o Brasil começou com a França Equinocial porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a França Antártica, na baía de Guanabara, começou em 1555."
+        },
+        {
+          "id": "B",
+          "text": "a França Equinocial foi implantada somente depois da Independência do Brasil."
+        },
+        {
+          "id": "C",
+          "text": "os franceses não realizaram qualquer tentativa colonial na América portuguesa."
+        },
+        {
+          "id": "D",
+          "text": "a França Antártica ocorreu no Maranhão depois de 1615."
+        },
+        {
+          "id": "E",
+          "text": "a França Equinocial antecedeu a França Antártica em mais de meio século."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação do núcleo do item 27 da prova Cebraspe PM/MA, Soldado, aplicação em 17/12/2017. O item original afirmava que a colonização francesa teria começado com a França Equinocial e teve gabarito definitivo E, pois a França Antártica a precedeu. Fontes oficiais: prova https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf e gabarito https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/Gab_Definitivo_359_PMMA_CG2_01.pdf."
+    },
+    {
+      "id": "q7062",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Sobre a formação do núcleo de São Luís, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o forte foi construído pelos neerlandeses durante o governo de Nassau."
+        },
+        {
+          "id": "B",
+          "text": "a povoação surgiu apenas em 1823, após a adesão do Maranhão à Independência."
+        },
+        {
+          "id": "C",
+          "text": "o forte francês ficava na posição continental de Guaxenduba."
+        },
+        {
+          "id": "D",
+          "text": "a construção do Forte de São Luís, em ilha da baía de São Marcos, resultou da ação de Daniel de La Touche e da expedição francesa."
+        },
+        {
+          "id": "E",
+          "text": "o núcleo de São Luís foi criado por Alexandre de Moura somente após a capitulação de 1615."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Adaptação do item 28 da prova Cebraspe PM/MA, Soldado, aplicação em 17/12/2017, cujo gabarito definitivo foi C (certo). O núcleo fortificado de Saint-Louis foi estabelecido pela expedição francesa de Daniel de La Touche. Fontes oficiais: prova https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf e gabarito https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/Gab_Definitivo_359_PMMA_CG2_01.pdf."
+    },
+    {
+      "id": "q7073",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A relação geográfica correta entre Saint-Louis e Guaxenduba é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos ficavam no mesmo forte francês da ilha."
+        },
+        {
+          "id": "B",
+          "text": "Saint-Louis ficava no continente e Guaxenduba na ilha."
+        },
+        {
+          "id": "C",
+          "text": "Saint-Louis ficava na ilha e Guaxenduba na margem continental."
+        },
+        {
+          "id": "D",
+          "text": "ambos ficavam na baía de Guanabara."
+        },
+        {
+          "id": "E",
+          "text": "Guaxenduba ficava no Grão-Pará, sem relação com São Luís."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A distinção ilha versus continente é uma pegadinha recorrente: Saint-Louis estava em Upaon-Açu; Guaxenduba, no continente diante da ilha."
+    },
+    {
+      "id": "q7089",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Jerônimo de Albuquerque é associado principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao comando da campanha luso-indígena de 1614."
+        },
+        {
+          "id": "B",
+          "text": "à direção inicial da França Equinocial."
+        },
+        {
+          "id": "C",
+          "text": "à missão capuchinha francesa."
+        },
+        {
+          "id": "D",
+          "text": "ao governo neerlandês no Nordeste."
+        },
+        {
+          "id": "E",
+          "text": "à fundação da França Antártica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Jerônimo de Albuquerque foi o capitão-mor da campanha portuguesa que estabeleceu a posição de Guaxenduba em 1614."
+    },
+    {
+      "id": "q7092",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Alexandre de Moura teve papel decisivo ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "criar a França Antártica."
+        },
+        {
+          "id": "B",
+          "text": "fundar Saint-Louis em 1612."
+        },
+        {
+          "id": "C",
+          "text": "comandar os Tupinambá aliados aos franceses."
+        },
+        {
+          "id": "D",
+          "text": "levar reforços portugueses e conduzir a pressão que culminou no desfecho de 1615."
+        },
+        {
+          "id": "E",
+          "text": "liderar Guaxenduba pelo lado francês."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Alexandre de Moura chegou com reforços em 1615 e participou da operação que encerrou o domínio colonial francês."
+    },
+    {
+      "id": "q7101",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A afirmação de que Guaxenduba expulsou definitivamente os franceses em 1614 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta, porque La Ravardière abandonou Saint-Louis no mesmo dia."
+        },
+        {
+          "id": "B",
+          "text": "correta, pois não houve negociação após a batalha."
+        },
+        {
+          "id": "C",
+          "text": "incorreta, porque o domínio francês organizado terminou apenas na campanha de 1615."
+        },
+        {
+          "id": "D",
+          "text": "incorreta, porque os franceses governaram o Maranhão até 1822."
+        },
+        {
+          "id": "E",
+          "text": "correta, porque Alexandre de Moura já comandava a capitulação em 1614."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Guaxenduba foi vitória estratégica, não desfecho imediato. Saint-Louis permaneceu sob controle francês até a campanha de 1615."
+    },
+    {
+      "id": "q7114",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A formulação mais adequada sobre a controvérsia da fundação de São Luís é",
+      "options": [
+        {
+          "id": "A",
+          "text": "não houve núcleo urbano antes de 1823."
+        },
+        {
+          "id": "B",
+          "text": "somente os portugueses tiveram presença na ilha no início do século XVII."
+        },
+        {
+          "id": "C",
+          "text": "a fundação francesa exclui qualquer papel português na continuidade da cidade."
+        },
+        {
+          "id": "D",
+          "text": "o núcleo e o topônimo foram franceses em 1612; conquista e institucionalização posteriores foram portuguesas."
+        },
+        {
+          "id": "E",
+          "text": "a divergência historiográfica torna impossível estabelecer qualquer cronologia."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A distinção entre núcleo fundacional francês e continuidade administrativa portuguesa evita simplificações e acomoda a controvérsia historiográfica."
+    },
+    {
+      "id": "q150002",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No ano de 1612 os franceses tentaram organizar uma colônia no Brasil: a França Equinocial. A expedição francesa, comandada por Daniel de La Touche, fundou o Forte de São Luís, em homenagem ao rei da França, e que deu origem à cidade de São Luís, hoje capital do Maranhão. A respeito da invasão francesa no Maranhão, além dos objetivos comerciais, outro fato que originou tal intento foi:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A França estava inserida no Tratado de Tordesilhas e, por direito, essas terras eram suas."
+        },
+        {
+          "id": "B",
+          "text": "O não reconhecimento e a discordância dos franceses com relação ao Tratado de Tordesilhas."
+        },
+        {
+          "id": "C",
+          "text": "O fato dos franceses serem antigos aliados dos ingleses e, com isso, almejarem as terras ocupadas por Portugal."
+        },
+        {
+          "id": "D",
+          "text": "Como a capitania do Maranhão estava totalmente abandonada e desabitada, os franceses se aproveitaram para efetuar a invasão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Gabarito pós-recursos: B. A alternativa correta registra o não reconhecimento e a discordância franceses quanto ao Tratado de Tordesilhas como fator do intento colonial. As quatro alternativas originais foram preservadas. Fonte: Instituto Consulplan; TJMA — Técnico Judiciário – Apoio Técnico Administrativo; 2024; Tipo 1; questão 22; prova https://arquivos.qconcursos.com/prova/arquivo_prova/114430/instituto-consulplan-2024-tj-ma-tecnico-judiciario-apoio-tecnico-administrativo-prova.pdf; gabarito pós-recursos https://arquivos.qconcursos.com/prova/arquivo_gabarito/114430/instituto-consulplan-2024-tj-ma-tecnico-judiciario-apoio-tecnico-administrativo-gabarito.pdf."
+    },
+    {
+      "id": "u062-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Maranhão colonial, o título de capitão-mor deve ser compreendido, no recorte desta unidade, como",
+      "options": [
+        {
+          "id": "A",
+          "text": "um posto com funções invariáveis do século XVI ao XIX, equivalente a uma patente militar atual."
+        },
+        {
+          "id": "B",
+          "text": "um cargo de comando cujo alcance dependia da época, da jurisdição e das instruções recebidas, podendo reunir defesa e administração."
+        },
+        {
+          "id": "C",
+          "text": "um cargo exclusivamente eclesiástico, ligado à missão capuchinha."
+        },
+        {
+          "id": "D",
+          "text": "um título reservado aos dirigentes franceses da França Equinocial."
+        },
+        {
+          "id": "E",
+          "text": "uma função judicial sem qualquer relação com defesa ou governo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O título teve sentidos e atribuições variáveis. No Maranhão, aparece tanto ligado à conquista e ao estabelecimento do governo quanto, em fases posteriores, à administração da capitania na ausência do governador."
+    },
+    {
+      "id": "u062-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na sequência administrativa tradicional do Maranhão após a conquista portuguesa, a ordem correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jerônimo de Albuquerque → Antônio de Albuquerque → Domingos da Costa Machado → Antônio Moniz Barreiros."
+        },
+        {
+          "id": "B",
+          "text": "Daniel de La Touche → Jerônimo de Albuquerque → Maurício de Nassau → Antônio Moniz Barreiros."
+        },
+        {
+          "id": "C",
+          "text": "Alexandre de Moura → Daniel de La Touche → Antônio de Albuquerque → Manuel Beckman."
+        },
+        {
+          "id": "D",
+          "text": "Domingos da Costa Machado → Jerônimo de Albuquerque → Antônio Moniz Barreiros → La Ravardière."
+        },
+        {
+          "id": "E",
+          "text": "Antônio Moniz Barreiros → Antônio de Albuquerque → Jerônimo de Albuquerque → Domingos da Costa Machado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A narrativa administrativa tradicional apresenta Jerônimo, Antônio, Domingos e Antônio Moniz como a sequência inicial ligada à consolidação portuguesa. A historiografia moderna recomenda cautela com listas que pretendam ser universais."
+    },
+    {
+      "id": "u062-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a morte de Jerônimo de Albuquerque em 1618, a narrativa administrativa tradicional aponta como seu sucessor imediato",
+      "options": [
+        {
+          "id": "A",
+          "text": "Daniel de La Touche."
+        },
+        {
+          "id": "B",
+          "text": "Antônio de Albuquerque, seu filho."
+        },
+        {
+          "id": "C",
+          "text": "Francisco Coelho de Carvalho."
+        },
+        {
+          "id": "D",
+          "text": "Domingos Jorge Velho."
+        },
+        {
+          "id": "E",
+          "text": "Vital Maciel Parente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Jerônimo foi sucedido por Antônio de Albuquerque. Domingos da Costa Machado assumiu depois, na sequência tradicional da administração inicial."
+    },
+    {
+      "id": "u062-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a narrativa administrativa tradicional utilizada nesta unidade, Domingos da Costa Machado",
+      "options": [
+        {
+          "id": "A",
+          "text": "dirigiu a França Equinocial desde 1612."
+        },
+        {
+          "id": "B",
+          "text": "assumiu o governo da capitania depois de Antônio de Albuquerque, com período situado entre 1619 e 1622."
+        },
+        {
+          "id": "C",
+          "text": "foi o governador neerlandês que tomou São Luís em 1641."
+        },
+        {
+          "id": "D",
+          "text": "foi o primeiro governador e capitão-general do Estado do Maranhão em 1626."
+        },
+        {
+          "id": "E",
+          "text": "substituiu Jerônimo de Albuquerque antes da Batalha de Guaxenduba."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A referência administrativa tradicional situa Domingos da Costa Machado depois de Antônio de Albuquerque e antes de Antônio Moniz Barreiros, entre 1619 e 1622."
+    },
+    {
+      "id": "u062-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A criação do Estado do Maranhão, em 1621, deve ser relacionada",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao retorno do domínio francês sobre Saint-Louis."
+        },
+        {
+          "id": "B",
+          "text": "à abertura de uma transição administrativa que culminou, em 1626, com a posse de Francisco Coelho de Carvalho como governador e capitão-general."
+        },
+        {
+          "id": "C",
+          "text": "ao fim definitivo do uso do título capitão-mor em toda a América portuguesa."
+        },
+        {
+          "id": "D",
+          "text": "à Independência do Brasil no Maranhão."
+        },
+        {
+          "id": "E",
+          "text": "à invasão neerlandesa de São Luís no mesmo ano."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Estado do Maranhão foi criado em 1621; o processo de organização institucional levou alguns anos, e Francisco Coelho de Carvalho tomou posse como governador e capitão-general em 1626."
+    },
+    {
+      "id": "u062-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a expressão “primeiro capitão-mor do Maranhão”, a postura historicamente mais segura é",
+      "options": [
+        {
+          "id": "A",
+          "text": "afirmar que todas as fontes começam a lista por Jerônimo de Albuquerque."
+        },
+        {
+          "id": "B",
+          "text": "afirmar que todas as fontes começam a lista por Alexandre de Moura."
+        },
+        {
+          "id": "C",
+          "text": "reconhecer que a narrativa administrativa tradicional chama Jerônimo de primeiro, enquanto um catálogo de Évora reproduzido por estudo moderno começa por Alexandre de Moura em 1615 e Jerônimo em 1616."
+        },
+        {
+          "id": "D",
+          "text": "considerar impossível identificar qualquer capitão-mor antes de 1751."
+        },
+        {
+          "id": "E",
+          "text": "usar o título apenas para oficiais de ordenanças."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As fontes empregam critérios diferentes. O estudo moderno também adverte que o catálogo de Évora inclui situações especiais e lacunas; por isso, o critério da fonte ou do enunciado importa."
+    },
+    {
+      "id": "u062-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em fase posterior do Estado do Maranhão e Grão-Pará, especialmente quando governadores permaneciam em Belém, os capitães-mores do Maranhão podiam",
+      "options": [
+        {
+          "id": "A",
+          "text": "administrar a capitania de forma subordinada durante a ausência do governador."
+        },
+        {
+          "id": "B",
+          "text": "declarar independência em relação à Coroa sem autorização."
+        },
+        {
+          "id": "C",
+          "text": "atuar somente como missionários capuchinhos."
+        },
+        {
+          "id": "D",
+          "text": "governar a França Equinocial em nome de Luís XIII."
+        },
+        {
+          "id": "E",
+          "text": "exercer apenas funções municipais sem atribuições de governo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A historiografia mostra que, sobretudo com o deslocamento de governadores para Belém, capitães-mores foram usados para responder pela administração do Maranhão na ausência do titular."
+    },
+    {
+      "id": "u062-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao estudar os capitães-mores do Maranhão, é incorreto",
+      "options": [
+        {
+          "id": "A",
+          "text": "distinguir a fase inicial de conquista das funções administrativas posteriores."
+        },
+        {
+          "id": "B",
+          "text": "considerar que as atribuições podiam variar conforme época e regimento."
+        },
+        {
+          "id": "C",
+          "text": "equiparar automaticamente o capitão-mor da capitania ao capitão-mor de ordenanças, como se fossem sempre a mesma função."
+        },
+        {
+          "id": "D",
+          "text": "relacionar o título à defesa e ao governo em contextos coloniais."
+        },
+        {
+          "id": "E",
+          "text": "observar o critério adotado pela fonte quando houver divergência de listas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A historiografia adverte expressamente contra a confusão automática entre o capitão-mor da capitania e o capitão-mor de ordenanças."
+    },
+    {
+      "id": "u062-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O que melhor explica a presença dos capitães-mores imediatamente após a conquista portuguesa do Maranhão?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A necessidade de transformar a vitória militar em defesa, governo e administração do território."
+        },
+        {
+          "id": "B",
+          "text": "A intenção de restaurar o comando francês sobre a ilha."
+        },
+        {
+          "id": "C",
+          "text": "A extinção de qualquer autoridade colonial superior."
+        },
+        {
+          "id": "D",
+          "text": "A criação de uma monarquia independente em São Luís."
+        },
+        {
+          "id": "E",
+          "text": "A transferência imediata da capital portuguesa para Belém."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Conquistar o território não bastava: era preciso organizar defesa, povoamento e governo. O cargo de capitão-mor integra essa passagem da campanha militar para a administração."
+    },
+    {
+      "id": "u062-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a síntese cronológica mais adequada.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1612: Guaxenduba; 1614: fundação de Saint-Louis; 1615: França Antártica; 1621: invasão neerlandesa."
+        },
+        {
+          "id": "B",
+          "text": "1612: Saint-Louis; 1614: Guaxenduba; 1615: fim do domínio francês; depois, consolidação administrativa portuguesa e sucessão de capitães-mores."
+        },
+        {
+          "id": "C",
+          "text": "1612: governo de Jerônimo; 1614: fim francês; 1615: fundação francesa; 1616: França Antártica."
+        },
+        {
+          "id": "D",
+          "text": "1612: ocupação neerlandesa; 1614: expulsão dos neerlandeses; 1615: capitulação portuguesa."
+        },
+        {
+          "id": "E",
+          "text": "1612 a 1616: período sem participação indígena e sem estruturas de governo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A sequência conecta o núcleo francês, a batalha, o fim do domínio organizado da França Equinocial e a passagem para a administração portuguesa."
+    }
+  ]
+}
