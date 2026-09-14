@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u057-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Decreto-Lei nº 200/1967, qual conjunto reúne os cinco princípios fundamentais da Administração Federal?",
+      "options": [
+        {"id": "A", "text": "legalidade, impessoalidade, moralidade, publicidade e eficiência"},
+        {"id": "B", "text": "planejamento, coordenação, descentralização, delegação de competência e controle"},
+        {"id": "C", "text": "hierarquia, especialização, unidade de comando, amplitude e disciplina"},
+        {"id": "D", "text": "planejamento, centralização, avocação, supervisão e auditoria"},
+        {"id": "E", "text": "eficiência, eficácia, efetividade, economicidade e excelência"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 6º do Decreto-Lei nº 200/1967 enumera planejamento, coordenação, descentralização, delegação de competência e controle. A alternativa A reproduz outra lista normativa e é uma troca clássica de prova."
+    },
+    {
+      "id": "u057-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Decreto-Lei nº 200/1967, o princípio do planejamento expressa principalmente a ideia de",
+      "options": [
+        {"id": "A", "text": "substituir toda execução por decisões do órgão central"},
+        {"id": "B", "text": "orientar previamente a ação governamental por planos, programas, orçamento-programa e programação financeira"},
+        {"id": "C", "text": "limitar o planejamento aos órgãos de controle interno"},
+        {"id": "D", "text": "dispensar coordenação depois que o plano for aprovado"},
+        {"id": "E", "text": "transferir a competência normativa para unidades executoras"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lógica do planejamento é definir objetivos e organizar os meios antes e durante a execução. O Decreto-Lei nº 200/1967 vincula a ação governamental a instrumentos de planejamento e não concentra toda execução no centro."
+    },
+    {
+      "id": "u057-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito da coordenação prevista no Decreto-Lei nº 200/1967, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "Somente atividades sem planejamento prévio são coordenadas."},
+        {"id": "B", "text": "A coordenação restringe-se ao primeiro nível hierárquico."},
+        {"id": "C", "text": "A execução dos planos e programas deve ser objeto de permanente coordenação, em todos os níveis da Administração."},
+        {"id": "D", "text": "Coordenação elimina as competências próprias das unidades participantes."},
+        {"id": "E", "text": "Coordenação é sinônimo de controle contábil."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Decreto-Lei nº 200/1967 determina permanente coordenação das atividades administrativas, especialmente da execução de planos e programas, em todos os níveis. Coordenação integra ações sem apagar competências próprias."
+    },
+    {
+      "id": "u057-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Decreto-Lei nº 200/1967 prevê que a execução das atividades seja amplamente descentralizada. Qual alternativa representa corretamente seus três planos principais?",
+      "options": [
+        {"id": "A", "text": "apenas entre ministérios; apenas para autarquias; apenas para empresas públicas"},
+        {"id": "B", "text": "dentro da Administração Federal; para unidades federadas por convênio quando aparelhadas; e para a esfera privada por contratos ou concessões quando adequado"},
+        {"id": "C", "text": "somente da União para estados e municípios"},
+        {"id": "D", "text": "somente da administração direta para entidades da administração indireta"},
+        {"id": "E", "text": "exclusivamente por delegação de competência a subordinados"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A descentralização aparece em mais de um plano: internamente, aproximando execução do nível adequado; mediante convênio com unidades federadas aparelhadas; e por contratos ou concessões com a esfera privada quando cabível."
+    },
+    {
+      "id": "u057-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na descentralização interna desenhada pelo Decreto-Lei nº 200/1967, a administração central deve concentrar-se principalmente em",
+      "options": [
+        {"id": "A", "text": "casos individuais de execução e rotinas locais"},
+        {"id": "B", "text": "planejamento, supervisão, coordenação e controle"},
+        {"id": "C", "text": "execução material de todos os serviços"},
+        {"id": "D", "text": "tarefas sem conteúdo decisório"},
+        {"id": "E", "text": "atividades privadas mediante concessão"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O desenho separa direção e execução: os níveis centrais concentram as funções de planejamento, supervisão, coordenação e controle, enquanto a execução tende a aproximar-se dos fatos e problemas concretos."
+    },
+    {
+      "id": "u057-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Decreto-Lei nº 200/1967, a delegação de competência é expressamente concebida como",
+      "options": [
+        {"id": "A", "text": "instrumento de centralização decisória"},
+        {"id": "B", "text": "instrumento de descentralização administrativa"},
+        {"id": "C", "text": "forma obrigatória de privatização"},
+        {"id": "D", "text": "modalidade de controle externo"},
+        {"id": "E", "text": "substituição definitiva da autoridade delegante"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A literalidade do artigo 11 trata a delegação de competência como instrumento de descentralização administrativa, destinado a dar rapidez e objetividade às decisões e aproximá-las dos fatos, pessoas ou problemas."
+    },
+    {
+      "id": "u057-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um ato de delegação de competência, segundo o Decreto-Lei nº 200/1967, deve indicar com precisão",
+      "options": [
+        {"id": "A", "text": "somente o prazo da delegação"},
+        {"id": "B", "text": "a autoridade delegante, a autoridade delegada e as atribuições objeto da delegação"},
+        {"id": "C", "text": "apenas o órgão central do sistema relacionado"},
+        {"id": "D", "text": "a estimativa de custo de todos os atos futuros"},
+        {"id": "E", "text": "somente a autoridade delegada"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O diploma exige precisão sobre quem delega, quem recebe o exercício da competência e quais atribuições são abrangidas. A delegação não é uma autorização genérica sem delimitação."
+    },
+    {
+      "id": "u057-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao princípio do controle no Decreto-Lei nº 200/1967, é correto afirmar que",
+      "options": [
+        {"id": "A", "text": "o controle existe apenas no nível ministerial"},
+        {"id": "B", "text": "o controle exclui o acompanhamento pelas chefias"},
+        {"id": "C", "text": "o controle deve ser exercido em todos os níveis e órgãos, por mecanismos adequados às respectivas responsabilidades"},
+        {"id": "D", "text": "sistemas de atividades auxiliares não exercem controle em sua área"},
+        {"id": "E", "text": "controle de bens e recursos públicos é matéria alheia ao diploma"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 13 prevê controle em todos os níveis e órgãos, incluindo o exercido pelas chefias, pelos órgãos próprios dos sistemas auxiliares e pelos órgãos responsáveis por recursos e bens públicos."
+    },
+    {
+      "id": "u057-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma unidade conserva uma conferência puramente formal cujo custo é manifestamente superior ao risco que pretende cobrir. À luz do Decreto-Lei nº 200/1967, a solução mais compatível é",
+      "options": [
+        {"id": "A", "text": "manter qualquer controle formal, independentemente de custo e risco"},
+        {"id": "B", "text": "racionalizar ou suprimir o controle puramente formal, sem confundir isso com ausência geral de controle"},
+        {"id": "C", "text": "eliminar todos os controles da atividade"},
+        {"id": "D", "text": "transferir automaticamente a atividade à iniciativa privada"},
+        {"id": "E", "text": "converter o controle em planejamento"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 14 orienta racionalização do trabalho administrativo e supressão de controles meramente formais ou cujo custo seja evidentemente superior ao risco. Isso não extingue o princípio do controle."
+    },
+    {
+      "id": "u057-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A organização de uma atividade administrativa federal sob a forma de sistema busca principalmente",
+      "options": [
+        {"id": "A", "text": "transformar todas as unidades participantes em subordinadas administrativas do órgão central"},
+        {"id": "B", "text": "coordenar tecnicamente atividades comuns distribuídas por diferentes órgãos e entidades"},
+        {"id": "C", "text": "substituir toda estrutura organizacional por um aplicativo"},
+        {"id": "D", "text": "eliminar a execução local"},
+        {"id": "E", "text": "afastar orientação normativa comum"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O sistema organiza atividades comuns que necessitam de coordenação central. A execução permanece distribuída, mas as unidades seguem orientação normativa, supervisão técnica e fiscalização específica do órgão central na matéria do sistema."
+    },
+    {
+      "id": "u057-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma unidade de um ministério integra determinado sistema administrativo federal. Qual relação está correta?",
+      "options": [
+        {"id": "A", "text": "A unidade perde a subordinação ao ministério e passa integralmente à hierarquia do órgão central."},
+        {"id": "B", "text": "A unidade segue orientação normativa e supervisão técnica do órgão central na matéria do sistema, sem perder sua subordinação administrativa local."},
+        {"id": "C", "text": "A unidade deixa de seguir normas do sistema por pertencer a outro órgão."},
+        {"id": "D", "text": "O órgão central só pode emitir orientações se assumir a execução de todos os casos."},
+        {"id": "E", "text": "A integração ao sistema produz autonomia administrativa absoluta."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A dupla relação é central no modelo: orientação normativa e supervisão técnica são exercidas pelo órgão central do sistema, enquanto a subordinação administrativa da unidade ao órgão em cuja estrutura se encontra é preservada."
+    },
+    {
+      "id": "u057-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a expressão “sistema” na administração federal, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "Sistema administrativo é necessariamente sinônimo de software."},
+        {"id": "B", "text": "O sistema administrativo é uma rede de competências, órgãos e unidades, que pode utilizar ferramentas informatizadas sem se reduzir a elas."},
+        {"id": "C", "text": "Somente atividades de tecnologia podem ser organizadas sob a forma de sistema."},
+        {"id": "D", "text": "A existência de órgão central torna desnecessárias unidades setoriais ou seccionais."},
+        {"id": "E", "text": "Sistema administrativo é um sexto princípio do artigo 6º do Decreto-Lei nº 200/1967."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O sistema é antes de tudo um arranjo organizacional para coordenar uma atividade transversal. Uma plataforma digital pode apoiar a atividade, mas não é a própria definição do sistema."
+    },
+    {
+      "id": "u057-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 10.180/2001 organiza sob a forma de sistemas quais quatro atividades?",
+      "options": [
+        {"id": "A", "text": "planejamento e orçamento federal; administração financeira federal; contabilidade federal; controle interno do Poder Executivo Federal"},
+        {"id": "B", "text": "pessoal civil; tecnologia da informação; patrimônio; comunicação social"},
+        {"id": "C", "text": "segurança pública; defesa; justiça; relações exteriores"},
+        {"id": "D", "text": "licitações; contratos; pessoal; processo administrativo"},
+        {"id": "E", "text": "planejamento estratégico; correição; ouvidoria; controle externo"}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 1º da Lei nº 10.180/2001 enumera Sistema de Planejamento e de Orçamento Federal, Sistema de Administração Financeira Federal, Sistema de Contabilidade Federal e Sistema de Controle Interno do Poder Executivo Federal."
+    },
+    {
+      "id": "u057-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual associação entre sistema e função é correta segundo a Lei nº 10.180/2001?",
+      "options": [
+        {"id": "A", "text": "Administração Financeira Federal — elaborar demonstrações contábeis como finalidade exclusiva"},
+        {"id": "B", "text": "Contabilidade Federal — evidenciar a situação orçamentária, financeira e patrimonial da União"},
+        {"id": "C", "text": "Controle Interno — formular exclusivamente o plano plurianual"},
+        {"id": "D", "text": "Planejamento e Orçamento — gerir exclusivamente a dívida mobiliária federal"},
+        {"id": "E", "text": "Contabilidade Federal — substituir o controle externo"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei nº 10.180/2001 atribui ao Sistema de Contabilidade Federal a evidenciação da situação orçamentária, financeira e patrimonial. As demais alternativas trocam funções entre sistemas diferentes."
+    },
+    {
+      "id": "u057-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Sistema de Controle Interno do Poder Executivo Federal, conforme a Lei nº 10.180/2001, tem entre suas finalidades",
+      "options": [
+        {"id": "A", "text": "avaliar metas e programas, comprovar legalidade, avaliar resultados e apoiar o controle externo"},
+        {"id": "B", "text": "substituir os sistemas de contabilidade e administração financeira"},
+        {"id": "C", "text": "executar diretamente todas as despesas dos ministérios"},
+        {"id": "D", "text": "exercer somente controle prévio de legalidade formal"},
+        {"id": "E", "text": "formular a política de pessoal civil como atribuição exclusiva"}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei atribui ao controle interno a avaliação da ação governamental e da gestão, incluindo metas e programas, legalidade e resultados, além do apoio ao controle externo."
+    },
+    {
+      "id": "u057-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa em que o sistema federal está associado corretamente ao seu domínio predominante.",
+      "options": [
+        {"id": "A", "text": "Sistema de Organização e Inovação Institucional do Governo Federal — desenvolvimento e organização institucional"},
+        {"id": "B", "text": "Sistema de Pessoal Civil da Administração Federal — recursos de tecnologia da informação"},
+        {"id": "C", "text": "Sistema de Administração dos Recursos de Tecnologia da Informação — pessoal civil"},
+        {"id": "D", "text": "Sistema de Organização e Inovação Institucional do Governo Federal — execução exclusiva do orçamento federal"},
+        {"id": "E", "text": "Sistema de Administração dos Recursos de Tecnologia da Informação — controle externo do Congresso Nacional"}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Sistema de Organização e Inovação Institucional do Governo Federal organiza atividades de desenvolvimento organizacional. Pessoal civil e tecnologia da informação pertencem, respectivamente, a outros sistemas próprios."
+    },
+    {
+      "id": "u057-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma unidade administrativa de um ministério recebe orientações técnicas do órgão central de um sistema, mas continua subordinada administrativamente ao próprio ministério. Essa situação exemplifica",
+      "options": [
+        {"id": "A", "text": "incompatibilidade que obriga a retirar a unidade do ministério"},
+        {"id": "B", "text": "a coexistência entre coordenação técnica horizontal do sistema e subordinação administrativa vertical"},
+        {"id": "C", "text": "ausência de coordenação central"},
+        {"id": "D", "text": "delegação automática de todas as competências do ministro"},
+        {"id": "E", "text": "privatização da atividade auxiliar"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Esse é o mecanismo típico dos sistemas administrativos: o órgão central coordena tecnicamente a matéria, enquanto a unidade participante mantém sua posição na estrutura administrativa do órgão ao qual pertence."
+    },
+    {
+      "id": "u057-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em prova de Analista Judiciário — Área Meio do Tribunal de Justiça de Mato Grosso do Sul, a Fundação Getulio Vargas cobrou os preceitos do Decreto-Lei nº 200/1967. Qual conjunto preserva a alternativa correta da prova?",
+      "options": [
+        {"id": "A", "text": "legalidade, impessoalidade, moralidade, publicidade e eficiência"},
+        {"id": "B", "text": "centralização, unidade de comando, especialização, hierarquia e disciplina"},
+        {"id": "C", "text": "planejamento, coordenação, descentralização, delegação de competência e controle"},
+        {"id": "D", "text": "planejamento, concentração executiva, avocação, auditoria e tutela"},
+        {"id": "E", "text": "eficiência, eficácia, efetividade, economicidade e execução"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Adaptação não literal da questão 51 da prova Tribunal de Justiça de Mato Grosso do Sul/Analista Judiciário — Área Meio, Tipo 1, aplicada em 2024. O gabarito definitivo original foi E; a alternativa correta da prova enumerava os cinco princípios do artigo 6º do Decreto-Lei nº 200/1967."
+    },
+    {
+      "id": "u057-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em item de 2013 para Assistente em Administração da Fundação Universidade de Brasília, o Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos afirmou que a delegação de competência seria instrumento de desconcentração. Qual alternativa traduz corretamente a revisão desse item?",
+      "options": [
+        {"id": "A", "text": "A afirmação estava correta, pois o Decreto-Lei nº 200/1967 usa o termo desconcentração."},
+        {"id": "B", "text": "A afirmação estava errada, pois o diploma considera a delegação instrumento de descentralização administrativa."},
+        {"id": "C", "text": "A afirmação estava correta apenas para ministros de Estado."},
+        {"id": "D", "text": "A afirmação estava errada porque o Decreto-Lei proíbe delegação."},
+        {"id": "E", "text": "A afirmação não pode ser julgada porque delegação não aparece no Decreto-Lei nº 200/1967."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal do item 110 da prova Fundação Universidade de Brasília/Assistente em Administração/2013. O gabarito oficial definitivo foi Errado. A literalidade do Decreto-Lei nº 200/1967 trata a delegação como instrumento de descentralização administrativa."
+    },
+    {
+      "id": "u057-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em item da mesma prova da Fundação Universidade de Brasília de 2013, foi cobrada a coordenação da execução de planos e programas de governo. Qual formulação corresponde ao entendimento considerado correto?",
+      "options": [
+        {"id": "A", "text": "A coordenação termina quando o plano é aprovado."},
+        {"id": "B", "text": "A execução dos planos e programas deve ser objeto de permanente coordenação."},
+        {"id": "C", "text": "A coordenação somente ocorre no órgão central de planejamento."},
+        {"id": "D", "text": "A coordenação é facultativa quando existem unidades executoras descentralizadas."},
+        {"id": "E", "text": "Coordenação e controle são expressões juridicamente sinônimas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal do item 113 da prova Fundação Universidade de Brasília/Assistente em Administração/2013. O gabarito oficial definitivo foi Certo. O Decreto-Lei nº 200/1967 determina permanente coordenação da execução dos planos e programas."
+    }
+  ]
+}
