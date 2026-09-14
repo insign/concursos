@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u042-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe concluiu 3/5 de uma tarefa e ainda faltam 48 itens. O total de itens da tarefa é",
+      "options": [
+        {"id": "A", "text": "72"},
+        {"id": "B", "text": "80"},
+        {"id": "C", "text": "96"},
+        {"id": "D", "text": "120"},
+        {"id": "E", "text": "144"}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Se 3/5 foram concluídos, restam 2/5. Logo, (2/5)T=48 e T=120."
+    },
+    {
+      "id": "u042-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Duas quantidades estão na razão 3:5 e somam 64. A maior delas é",
+      "options": [
+        {"id": "A", "text": "24"},
+        {"id": "B", "text": "32"},
+        {"id": "C", "text": "36"},
+        {"id": "D", "text": "40"},
+        {"id": "E", "text": "48"}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Escreva as quantidades como 3k e 5k. De 8k=64, vem k=8; a maior é 5×8=40."
+    },
+    {
+      "id": "u042-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se 6 pessoas executam uma tarefa em 10 dias, com produtividade constante, quantos dias 12 pessoas levarão para executar a mesma tarefa?",
+      "options": [
+        {"id": "A", "text": "3"},
+        {"id": "B", "text": "4"},
+        {"id": "C", "text": "5"},
+        {"id": "D", "text": "8"},
+        {"id": "E", "text": "20"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pessoas e tempo são inversamente proporcionais: 6×10=12×t, então t=5 dias."
+    },
+    {
+      "id": "u042-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um valor recebe aumento de 20% e, em seguida, desconto de 20% sobre o valor aumentado. Em relação ao valor inicial, o valor final é",
+      "options": [
+        {"id": "A", "text": "4% menor"},
+        {"id": "B", "text": "igual"},
+        {"id": "C", "text": "4% maior"},
+        {"id": "D", "text": "8% menor"},
+        {"id": "E", "text": "8% maior"}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os fatores são 1,20 e 0,80. O produto é 0,96, isto é, 96% do valor inicial: redução de 4%."
+    },
+    {
+      "id": "u042-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um grupo de 20 pessoas tem média 70 e outro grupo de 30 pessoas tem média 80. A média do conjunto das 50 pessoas é",
+      "options": [
+        {"id": "A", "text": "74"},
+        {"id": "B", "text": "75"},
+        {"id": "C", "text": "76"},
+        {"id": "D", "text": "77"},
+        {"id": "E", "text": "78"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "As somas são 20×70=1.400 e 30×80=2.400. A soma total é 3.800 e 3.800/50=76."
+    },
+    {
+      "id": "u042-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A soma de três inteiros consecutivos é 72. O maior deles é",
+      "options": [
+        {"id": "A", "text": "23"},
+        {"id": "B", "text": "24"},
+        {"id": "C", "text": "25"},
+        {"id": "D", "text": "26"},
+        {"id": "E", "text": "27"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Se os números são x, x+1 e x+2, então 3x+3=72; x=23. O maior é 25."
+    },
+    {
+      "id": "u042-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma máquina executa 1/6 de um serviço por hora e outra executa 1/4 do mesmo serviço por hora. Trabalhando juntas, elas concluem o serviço em",
+      "options": [
+        {"id": "A", "text": "2 horas"},
+        {"id": "B", "text": "2 horas e 24 minutos"},
+        {"id": "C", "text": "3 horas"},
+        {"id": "D", "text": "4 horas"},
+        {"id": "E", "text": "5 horas"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A taxa conjunta é 1/6+1/4=5/12 do serviço por hora. O tempo é 12/5 hora, isto é, 2,4 horas = 2 horas e 24 minutos."
+    },
+    {
+      "id": "u042-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Misturam-se 2 litros de solução a 20% com 3 litros de solução a 50%. A concentração final do componente é",
+      "options": [
+        {"id": "A", "text": "32%"},
+        {"id": "B", "text": "35%"},
+        {"id": "C", "text": "36%"},
+        {"id": "D", "text": "38%"},
+        {"id": "E", "text": "42%"}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Há 0,4 litro do componente na primeira solução e 1,5 litro na segunda: 1,9 litro em 5 litros, isto é, 38%."
+    },
+    {
+      "id": "u042-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um automóvel percorre 120 quilômetros em 2 horas e depois 180 quilômetros em 3 horas. A velocidade média no percurso inteiro é",
+      "options": [
+        {"id": "A", "text": "50 quilômetros por hora"},
+        {"id": "B", "text": "55 quilômetros por hora"},
+        {"id": "C", "text": "60 quilômetros por hora"},
+        {"id": "D", "text": "65 quilômetros por hora"},
+        {"id": "E", "text": "70 quilômetros por hora"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A distância total é 300 quilômetros e o tempo total é 5 horas; 300/5=60 quilômetros por hora."
+    },
+    {
+      "id": "u042-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um retângulo mede 8 metros por 5 metros. Seu perímetro e sua área são, respectivamente,",
+      "options": [
+        {"id": "A", "text": "13 metros e 40 metros quadrados"},
+        {"id": "B", "text": "26 metros e 40 metros quadrados"},
+        {"id": "C", "text": "40 metros e 26 metros quadrados"},
+        {"id": "D", "text": "26 metros quadrados e 40 metros"},
+        {"id": "E", "text": "40 metros e 13 metros quadrados"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Perímetro: 2(8+5)=26 metros. Área: 8×5=40 metros quadrados. As unidades também distinguem as grandezas."
+    },
+    {
+      "id": "u042-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um triângulo retângulo, os catetos medem 6 e 8 unidades de comprimento. A hipotenusa mede",
+      "options": [
+        {"id": "A", "text": "9"},
+        {"id": "B", "text": "10"},
+        {"id": "C", "text": "12"},
+        {"id": "D", "text": "14"},
+        {"id": "E", "text": "16"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pelo Teorema de Pitágoras, c²=6²+8²=36+64=100; logo c=10."
+    },
+    {
+      "id": "u042-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Duas figuras semelhantes têm razão linear 3 entre a maior e a menor. A razão entre suas áreas é",
+      "options": [
+        {"id": "A", "text": "3"},
+        {"id": "B", "text": "6"},
+        {"id": "C", "text": "9"},
+        {"id": "D", "text": "12"},
+        {"id": "E", "text": "27"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Áreas de figuras semelhantes variam pelo quadrado da razão linear: 3²=9."
+    },
+    {
+      "id": "u042-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um trapézio tem bases 10 e 6 e altura 4. Sua área é",
+      "options": [
+        {"id": "A", "text": "24"},
+        {"id": "B", "text": "28"},
+        {"id": "C", "text": "30"},
+        {"id": "D", "text": "32"},
+        {"id": "E", "text": "40"}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A=(B+b)h/2=(10+6)×4/2=32."
+    },
+    {
+      "id": "u042-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um círculo tem raio 3. Sua área, em função de π, é",
+      "options": [
+        {"id": "A", "text": "3π"},
+        {"id": "B", "text": "6π"},
+        {"id": "C", "text": "9π"},
+        {"id": "D", "text": "12π"},
+        {"id": "E", "text": "18π"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A=πr²=π×3²=9π."
+    },
+    {
+      "id": "u042-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um reservatório em forma de paralelepípedo retângulo tem dimensões internas 2 metros, 1,5 metro e 1 metro. Sua capacidade é",
+      "options": [
+        {"id": "A", "text": "300 litros"},
+        {"id": "B", "text": "1.500 litros"},
+        {"id": "C", "text": "2.000 litros"},
+        {"id": "D", "text": "3.000 litros"},
+        {"id": "E", "text": "4.500 litros"}
+      ],
+      "correctOptionId": "D",
+      "explanation": "O volume é 2×1,5×1=3 metros cúbicos. Como 1 metro cúbico corresponde a 1.000 litros, a capacidade é 3.000 litros."
+    },
+    {
+      "id": "u042-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma matriz possui 3 linhas e 4 colunas. Sua ordem é",
+      "options": [
+        {"id": "A", "text": "3×4"},
+        {"id": "B", "text": "4×3"},
+        {"id": "C", "text": "7×1"},
+        {"id": "D", "text": "12×1"},
+        {"id": "E", "text": "4×4"}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A ordem é escrita como número de linhas × número de colunas: 3×4."
+    },
+    {
+      "id": "u042-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma matriz A=(aij), o elemento a23 é o elemento localizado na",
+      "options": [
+        {"id": "A", "text": "linha 2, coluna 3"},
+        {"id": "B", "text": "linha 3, coluna 2"},
+        {"id": "C", "text": "linha 2, diagonal 3"},
+        {"id": "D", "text": "coluna 2, linha 2"},
+        {"id": "E", "text": "terceira linha, terceira coluna"}
+      ],
+      "correctOptionId": "A",
+      "explanation": "No índice aij, o primeiro índice indica a linha e o segundo indica a coluna."
+    },
+    {
+      "id": "u042-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se aij=2i−j e A é uma matriz de ordem 2×3, o elemento a23 é",
+      "options": [
+        {"id": "A", "text": "−1"},
+        {"id": "B", "text": "0"},
+        {"id": "C", "text": "1"},
+        {"id": "D", "text": "2"},
+        {"id": "E", "text": "3"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Substituindo i=2 e j=3: a23=2×2−3=1."
+    },
+    {
+      "id": "u042-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se A tem ordem 2×3, então a matriz transposta de A tem ordem",
+      "options": [
+        {"id": "A", "text": "2×2"},
+        {"id": "B", "text": "2×3"},
+        {"id": "C", "text": "3×2"},
+        {"id": "D", "text": "3×3"},
+        {"id": "E", "text": "6×1"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A transposição troca linhas por colunas; 2×3 torna-se 3×2."
+    },
+    {
+      "id": "u042-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se A tem ordem 2×3 e B tem ordem 3×4, o produto AB existe e tem ordem",
+      "options": [
+        {"id": "A", "text": "2×3"},
+        {"id": "B", "text": "2×4"},
+        {"id": "C", "text": "3×3"},
+        {"id": "D", "text": "3×4"},
+        {"id": "E", "text": "4×2"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "As dimensões internas 3 e 3 coincidem; o produto conserva as dimensões externas, resultando em 2×4."
+    },
+    {
+      "id": "u042-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Considere A=[[1,2],[3,4]] e B=[[5,6],[7,8]]. O elemento da linha 1 e coluna 2 do produto AB é",
+      "options": [
+        {"id": "A", "text": "17"},
+        {"id": "B", "text": "19"},
+        {"id": "C", "text": "20"},
+        {"id": "D", "text": "22"},
+        {"id": "E", "text": "24"}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Multiplica-se a linha 1 de A pela coluna 2 de B: 1×6+2×8=22."
+    },
+    {
+      "id": "q99001",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Cinco pessoas têm idades que somam 216 anos. Sabe-se que Danilo tem 2 anos a mais que Evaldo; Evaldo tem 3 anos a menos que Benício; Cláudio tem 5 anos a mais que Danilo; e a média das idades de Aluísio e Danilo é a idade de Benício. Quem tem 43 anos?",
+      "options": [
+        {"id": "A", "text": "Aluísio"},
+        {"id": "B", "text": "Benício"},
+        {"id": "C", "text": "Cláudio"},
+        {"id": "D", "text": "Danilo"},
+        {"id": "E", "text": "Evaldo"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Se B é a idade de Benício, então E=B−3, D=B−1, C=B+4 e A=B+1. A soma é 5B+1=216, logo B=43. Adaptação não literal de questão da Fundação Getulio Vargas, Tribunal de Justiça de Mato Grosso — Oficial de Justiça, Tipo 1, 2024, questão 24; caderno e gabarito definitivo listados em referencias.md."
+    },
+    {
+      "id": "q99003",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Em um octógono regular de vértices consecutivos A, B, C, D, E, F, G e H, dois pontos devem ser escolhidos entre os vértices de modo que a distância entre eles seja a maior possível. Um par que satisfaz essa condição é",
+      "options": [
+        {"id": "A", "text": "D e H"},
+        {"id": "B", "text": "A e C"},
+        {"id": "C", "text": "B e D"},
+        {"id": "D", "text": "C e F"},
+        {"id": "E", "text": "F e H"}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A maior distância entre vértices de um octógono regular ocorre entre vértices opostos; D e H formam um desses pares. Adaptação não literal de questão da Fundação Getulio Vargas, Tribunal de Justiça de Mato Grosso — Oficial de Justiça, Tipo 1, 2024, questão 26; caderno e gabarito definitivo listados em referencias.md."
+    },
+    {
+      "id": "q99007",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Uma matriz quadrada M de ordem 2 possui m11=2, m12=3, m21=4 e m22=5. O valor de m12+m21 é",
+      "options": [
+        {"id": "A", "text": "5"},
+        {"id": "B", "text": "6"},
+        {"id": "C", "text": "7"},
+        {"id": "D", "text": "8"},
+        {"id": "E", "text": "9"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "m12 é o elemento da linha 1, coluna 2, igual a 3; m21 é o da linha 2, coluna 1, igual a 4. A soma é 7. Adaptação não literal de questão da Fundação Getulio Vargas, Assembleia Legislativa do Estado do Rio de Janeiro — Agente de Polícia Legislativa, 2026, questão 70; caderno e gabarito definitivo listados em referencias.md."
+    }
+  ]
+}
