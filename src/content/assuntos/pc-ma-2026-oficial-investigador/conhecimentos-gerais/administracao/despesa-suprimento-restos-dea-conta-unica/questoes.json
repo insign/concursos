@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u061-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à categoria econômica, a despesa orçamentária é classificada em",
+      "options": [
+        {"id": "A", "text": "corrente e de capital."},
+        {"id": "B", "text": "ordinária e extraordinária."},
+        {"id": "C", "text": "vinculada e não vinculada."},
+        {"id": "D", "text": "tributária e não tributária."},
+        {"id": "E", "text": "originária e derivada."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "As categorias econômicas da despesa são Despesas Correntes e Despesas de Capital."
+    },
+    {
+      "id": "u061-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale o grupo que integra as Despesas de Capital.",
+      "options": [
+        {"id": "A", "text": "Pessoal e encargos sociais."},
+        {"id": "B", "text": "Juros e encargos da dívida."},
+        {"id": "C", "text": "Outras despesas correntes."},
+        {"id": "D", "text": "Investimentos."},
+        {"id": "E", "text": "Transferências correntes."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Investimentos, inversões financeiras e amortização da dívida compõem os grupos de natureza associados às Despesas de Capital."
+    },
+    {
+      "id": "u061-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na execução da despesa, o ato que reserva dotação orçamentária para suportar um compromisso é o",
+      "options": [
+        {"id": "A", "text": "recolhimento."},
+        {"id": "B", "text": "empenho."},
+        {"id": "C", "text": "lançamento."},
+        {"id": "D", "text": "pagamento."},
+        {"id": "E", "text": "recebimento."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O empenho reserva dotação para a obrigação e deve preceder a realização da despesa."
+    },
+    {
+      "id": "u061-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma despesa contratual tem valor total conhecido e será paga em parcelas mensais. A modalidade de empenho mais compatível é a",
+      "options": [
+        {"id": "A", "text": "estimativa."},
+        {"id": "B", "text": "global."},
+        {"id": "C", "text": "ordinária, necessariamente."},
+        {"id": "D", "text": "extraorçamentária."},
+        {"id": "E", "text": "por adiantamento."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O empenho global é adequado a despesas contratuais ou outras sujeitas a parcelamento quando o valor total é conhecido."
+    },
+    {
+      "id": "u061-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A liquidação da despesa tem por finalidade principal",
+      "options": [
+        {"id": "A", "text": "estimar a receita que financiará o gasto."},
+        {"id": "B", "text": "reservar crédito antes da contratação."},
+        {"id": "C", "text": "verificar o direito adquirido pelo credor, o objeto, o valor exato e o beneficiário."},
+        {"id": "D", "text": "centralizar o caixa na Conta Única."},
+        {"id": "E", "text": "inscrever automaticamente a despesa em restos a pagar."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A liquidação apura o direito do credor com base no objeto executado e nos documentos comprobatórios, identificando origem, objeto, valor e credor."
+    },
+    {
+      "id": "u061-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre empenho, liquidação e pagamento, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "O empenho implica saída imediata de caixa."},
+        {"id": "B", "text": "A liquidação pode ser dispensada sempre que houver nota de empenho."},
+        {"id": "C", "text": "O pagamento deve ocorrer após a regular liquidação e a ordem competente."},
+        {"id": "D", "text": "A ordem de pagamento substitui o empenho."},
+        {"id": "E", "text": "A liquidação cria nova dotação orçamentária."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei nº 4.320/1964 condiciona o pagamento à regular liquidação; a ordem de pagamento é o despacho que determina o pagamento da despesa liquidada."
+    },
+    {
+      "id": "u061-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um órgão possui dotação suficiente para determinada compra, mas ainda não recebeu disponibilidade financeira para efetuar o desembolso. Isso demonstra que",
+      "options": [
+        {"id": "A", "text": "dotação e caixa são conceitos idênticos."},
+        {"id": "B", "text": "a existência de crédito orçamentário não garante, por si só, disponibilidade financeira imediata."},
+        {"id": "C", "text": "o empenho é proibido sempre que o pagamento não ocorrer no mesmo dia."},
+        {"id": "D", "text": "a liquidação substitui a programação financeira."},
+        {"id": "E", "text": "a Conta Única elimina a necessidade de programação de desembolso."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Crédito orçamentário autoriza a despesa; disponibilidade financeira viabiliza o pagamento. Execução orçamentária e financeira são relacionadas, mas distintas."
+    },
+    {
+      "id": "u061-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O suprimento de fundos caracteriza-se, no regime federal, como",
+      "options": [
+        {"id": "A", "text": "forma ordinária de pagar qualquer contrato continuado."},
+        {"id": "B", "text": "adiantamento excepcional a servidor, precedido de empenho e sujeito a prestação de contas."},
+        {"id": "C", "text": "receita extraorçamentária entregue ao fornecedor."},
+        {"id": "D", "text": "dispensa permanente dos estágios da despesa."},
+        {"id": "E", "text": "modalidade de crédito adicional."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O suprimento de fundos é adiantamento excepcional a servidor para despesas que não possam seguir o processo normal, sempre precedido de empenho e com prestação de contas."
+    },
+    {
+      "id": "u061-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É incompatível com a disciplina do suprimento de fundos conceder novo adiantamento a servidor que",
+      "options": [
+        {"id": "A", "text": "tenha prestado contas regularmente do suprimento anterior."},
+        {"id": "B", "text": "esteja em alcance por pendência na prestação de contas."},
+        {"id": "C", "text": "seja ocupante de cargo efetivo."},
+        {"id": "D", "text": "precise realizar despesa de pequeno vulto autorizada."},
+        {"id": "E", "text": "tenha autorização formal da autoridade competente."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Servidor em alcance não pode receber suprimento de fundos. A vedação protege o controle sobre valores anteriormente confiados ao agente."
+    },
+    {
+      "id": "u061-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Despesa empenhada, liquidada e ainda não paga em 31 de dezembro é classificada como",
+      "options": [
+        {"id": "A", "text": "despesa de exercício anterior, obrigatoriamente."},
+        {"id": "B", "text": "resto a pagar processado."},
+        {"id": "C", "text": "resto a pagar não processado."},
+        {"id": "D", "text": "suprimento de fundos."},
+        {"id": "E", "text": "receita extraorçamentária."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Restos a pagar são despesas empenhadas e não pagas até 31 de dezembro. Se já houve liquidação, são processados."
+    },
+    {
+      "id": "u061-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Despesa empenhada e não paga até 31 de dezembro, cuja liquidação ainda não foi concluída, enquadra-se, em regra, como",
+      "options": [
+        {"id": "A", "text": "resto a pagar não processado."},
+        {"id": "B", "text": "resto a pagar processado."},
+        {"id": "C", "text": "despesa corrente extraorçamentária."},
+        {"id": "D", "text": "dívida ativa."},
+        {"id": "E", "text": "suprimento de fundos."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A ausência de liquidação diferencia, em regra, o resto a pagar não processado do processado."
+    },
+    {
+      "id": "u061-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A principal diferença entre restos a pagar e despesas de exercícios anteriores é que",
+      "options": [
+        {"id": "A", "text": "restos a pagar nunca resultam de empenho."},
+        {"id": "B", "text": "despesas de exercícios anteriores sempre foram liquidadas no exercício de origem."},
+        {"id": "C", "text": "restos a pagar preservam obrigação empenhada e inscrita, enquanto <abbr title=\"Despesas de Exercícios Anteriores\">DEA</abbr> são processadas no orçamento atual nas hipóteses legais relativas a exercícios encerrados."},
+        {"id": "D", "text": "<abbr title=\"Despesas de Exercícios Anteriores\">DEA</abbr> são receitas e restos a pagar são despesas."},
+        {"id": "E", "text": "ambos são sinônimos contábeis."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Restos a pagar decorrem de despesa empenhada e não paga que atravessa o exercício. <abbr title=\"Despesas de Exercícios Anteriores\">DEA</abbr> usam dotação do orçamento vigente para hipóteses legais de despesas de exercícios encerrados."
+    },
+    {
+      "id": "u061-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compromisso de exercício encerrado foi reconhecido apenas depois do fechamento do exercício e se enquadra nas hipóteses legais. Seu pagamento poderá ocorrer como",
+      "options": [
+        {"id": "A", "text": "receita de capital."},
+        {"id": "B", "text": "despesa de exercícios anteriores, mediante dotação própria do orçamento vigente."},
+        {"id": "C", "text": "resto a pagar processado criado retroativamente sem empenho anterior."},
+        {"id": "D", "text": "ingresso extraorçamentário."},
+        {"id": "E", "text": "suprimento de fundos obrigatório."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Compromissos reconhecidos após o encerramento estão entre as hipóteses de <abbr title=\"Despesas de Exercícios Anteriores\">DEA</abbr>, pagos à conta de dotação específica do orçamento vigente."
+    },
+    {
+      "id": "u061-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um resto a pagar foi cancelado, mas o direito do credor subsiste e a situação atende às regras aplicáveis. O pagamento posterior pode ser tratado como",
+      "options": [
+        {"id": "A", "text": "despesa de exercícios anteriores."},
+        {"id": "B", "text": "nova receita orçamentária."},
+        {"id": "C", "text": "dívida ativa."},
+        {"id": "D", "text": "operação de crédito."},
+        {"id": "E", "text": "transferência de capital."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Decreto nº 93.872/1986 admite o pagamento, como <abbr title=\"Despesas de Exercícios Anteriores\">DEA</abbr>, de obrigação decorrente de resto a pagar cancelado quando subsiste o direito do credor, observadas as condições legais."
+    },
+    {
+      "id": "u061-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a Conta Única do Tesouro Nacional, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "Elimina a individualização dos recursos por unidade gestora."},
+        {"id": "B", "text": "Transforma todo crédito orçamentário em saldo financeiro disponível."},
+        {"id": "C", "text": "Centraliza disponibilidades financeiras da União no Banco Central, com movimentação e controle integrados ao <abbr title=\"Sistema Integrado de Administração Financeira do Governo Federal\">SIAFI</abbr>."},
+        {"id": "D", "text": "Permite a qualquer órgão federal utilizar livremente todos os recursos centralizados."},
+        {"id": "E", "text": "Substitui a necessidade de empenho, liquidação e pagamento."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Conta Única centraliza financeiramente disponibilidades da União no Banco Central. O <abbr title=\"Sistema Integrado de Administração Financeira do Governo Federal\">SIAFI</abbr> registra sua movimentação, preservando controles, vinculações e individualização."
+    },
+    {
+      "id": "u061-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A centralização do caixa federal na Conta Única significa que",
+      "options": [
+        {"id": "A", "text": "as vinculações legais deixam de existir."},
+        {"id": "B", "text": "a autonomia e a individualização contábil podem ser preservadas mesmo com o caixa financeiramente centralizado."},
+        {"id": "C", "text": "cada órgão deve manter conta bancária independente com todo o seu orçamento."},
+        {"id": "D", "text": "todo saldo da Conta Única corresponde a crédito orçamentário de livre uso."},
+        {"id": "E", "text": "a programação financeira se torna desnecessária."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Unidade de tesouraria centraliza o caixa, mas não apaga vinculações, limites, responsabilidades ou a individualização contábil das unidades."
+    },
+    {
+      "id": "u061-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Adaptação não literal de questão da Fundação Getulio Vargas para a Secretaria do Tesouro Nacional (2024). Uma entidade pública compra um imóvel já construído e em uso por terceiro por R$ 100 mil e, separadamente, adquire software e serviços de planejamento de obra por R$ 150 mil. Considerando a classificação econômica ensinada na Lei nº 4.320/1964, as duas parcelas são classificadas, respectivamente, como",
+      "options": [
+        {"id": "A", "text": "investimentos e inversões financeiras."},
+        {"id": "B", "text": "inversões financeiras e investimentos."},
+        {"id": "C", "text": "investimentos e outras despesas correntes."},
+        {"id": "D", "text": "inversões financeiras e outras despesas correntes."},
+        {"id": "E", "text": "outras despesas correntes e inversões financeiras."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A aquisição de imóvel ou bem de capital já em utilização é exemplo de inversão financeira; software e planejamento de obras, no contexto da questão adaptada, integram investimentos. A questão original 7 da Área Contábil, Tipo 1, manhã, teve gabarito definitivo B."
+    },
+    {
+      "id": "u061-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Adaptação não literal de questão da Fundação Getulio Vargas para a Secretaria do Tesouro Nacional (2024). Um resto a pagar não processado estava em liquidação e o passivo correspondente já havia sido reconhecido no exercício anterior. Ao executar a despesa como <abbr title=\"Despesas de Exercícios Anteriores\">DEA</abbr> no exercício corrente, quanto ao aspecto patrimonial do fato já reconhecido, é correto afirmar que",
+      "options": [
+        {"id": "A", "text": "não é necessário reconhecer novamente a mesma variação patrimonial ou incorporação do ativo já registrada."},
+        {"id": "B", "text": "o passivo deve ser reconhecido pela primeira vez, obrigatoriamente."},
+        {"id": "C", "text": "a incorporação do ativo deve ser registrada novamente para duplicar o fato econômico."},
+        {"id": "D", "text": "deve ser reconhecido superávit acumulado por se tratar de exercício anterior."},
+        {"id": "E", "text": "o reconhecimento patrimonial anterior deve ser estornado apenas porque a execução orçamentária ocorreu como <abbr title=\"Despesas de Exercícios Anteriores\">DEA</abbr>."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Quando o fato gerador e o passivo já foram reconhecidos patrimonialmente no exercício anterior, a execução orçamentária como <abbr title=\"Despesas de Exercícios Anteriores\">DEA</abbr> não exige reconhecer novamente o mesmo efeito patrimonial. A questão original 28 da Área Contábil, Tipo 1, manhã, teve gabarito definitivo A."
+    }
+  ]
+}
