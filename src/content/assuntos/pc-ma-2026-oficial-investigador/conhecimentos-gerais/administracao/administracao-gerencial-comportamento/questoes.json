@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u056-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma unidade passou a produzir mais relatórios com a mesma quantidade de horas de trabalho, sem alteração da meta de quantidade. O ganho descrito é principalmente de",
+      "options": [
+        {"id": "A", "text": "efetividade"},
+        {"id": "B", "text": "eficiência"},
+        {"id": "C", "text": "legalidade"},
+        {"id": "D", "text": "equidade"},
+        {"id": "E", "text": "instrumentalidade"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Eficiência relaciona recursos empregados e produtos/serviços gerados. A situação informa mais produto com o mesmo recurso; não informa, por si, impacto social ou alcance de uma meta previamente definida."
+    },
+    {
+      "id": "u056-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe atingiu integralmente a meta trimestral de entregas, mas ainda não há evidência sobre os efeitos dessas entregas na realidade. Nesse caso, é possível afirmar que houve",
+      "options": [
+        {"id": "A", "text": "efetividade, necessariamente"},
+        {"id": "B", "text": "eficácia, sem que a efetividade esteja demonstrada"},
+        {"id": "C", "text": "eficiência, necessariamente"},
+        {"id": "D", "text": "economicidade, necessariamente"},
+        {"id": "E", "text": "apenas excelência"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Alcançar a meta caracteriza eficácia. Efetividade exige examinar efeitos relevantes; eficiência e economicidade dependeriam de dados sobre recursos/custos."
+    },
+    {
+      "id": "u056-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa que distingue corretamente indicador e meta.",
+      "options": [
+        {"id": "A", "text": "Indicador é o efeito social; meta é o recurso consumido."},
+        {"id": "B", "text": "Indicador é a medida acompanhada; meta é o valor esperado dessa medida em um horizonte."},
+        {"id": "C", "text": "Indicador é sempre financeiro; meta é sempre quantitativa."},
+        {"id": "D", "text": "Indicador substitui o resultado; meta substitui o planejamento."},
+        {"id": "E", "text": "Indicador e meta são expressões sinônimas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O indicador mede uma dimensão do desempenho; a meta define o valor esperado para o indicador em prazo ou horizonte determinado."
+    },
+    {
+      "id": "u056-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No contraste entre administração burocrática e administração gerencial, é correto afirmar que a abordagem gerencial",
+      "options": [
+        {"id": "A", "text": "abandona os controles de legalidade"},
+        {"id": "B", "text": "elimina a prestação de contas"},
+        {"id": "C", "text": "amplia o foco para resultados e qualidade, sem dispensar controles necessários"},
+        {"id": "D", "text": "substitui objetivos por procedimentos"},
+        {"id": "E", "text": "proíbe autonomia das unidades executoras"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A administração gerencial desloca/amplia o foco para resultados, qualidade e responsabilização. Autonomia não significa ausência de legalidade, controle ou prestação de contas."
+    },
+    {
+      "id": "u056-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em comportamento organizacional, atribuir todo problema de desempenho à disposição de um servidor ignora que",
+      "options": [
+        {"id": "A", "text": "somente fatores individuais explicam o trabalho"},
+        {"id": "B", "text": "grupos e características da organização também influenciam comportamento e resultados"},
+        {"id": "C", "text": "motivação não pode ser estudada"},
+        {"id": "D", "text": "estrutura e cultura afetam apenas organizações privadas"},
+        {"id": "E", "text": "recursos não interferem no desempenho"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O comportamento organizacional é multinível: indivíduo, grupo e organização se influenciam. Recursos, papéis, cultura, coordenação e normas podem limitar ou favorecer o desempenho."
+    },
+    {
+      "id": "u056-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma definição operacional de motivação no trabalho deve considerar principalmente",
+      "options": [
+        {"id": "A", "text": "direção, intensidade e persistência do comportamento"},
+        {"id": "B", "text": "salário, cargo e tempo de serviço"},
+        {"id": "C", "text": "satisfação, ausência e rotatividade apenas"},
+        {"id": "D", "text": "eficiência, eficácia e efetividade"},
+        {"id": "E", "text": "estrutura, tecnologia e orçamento apenas"}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Motivação ajuda a explicar para onde o esforço é dirigido, sua intensidade e sua persistência. Esses elementos não se confundem com desempenho nem com satisfação."
+    },
+    {
+      "id": "u056-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a formulação clássica de Maslow, a alternativa correta é",
+      "options": [
+        {"id": "A", "text": "as necessidades de poder, afiliação e realização formam uma hierarquia rígida"},
+        {"id": "B", "text": "as necessidades são organizadas em grupos como fisiológicas, segurança, sociais, estima e autorrealização"},
+        {"id": "C", "text": "salário é sempre o nível mais elevado de necessidade"},
+        {"id": "D", "text": "necessidades satisfeitas jamais voltam a ter qualquer relevância"},
+        {"id": "E", "text": "a teoria prova uma ordem universal sem exceções"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Maslow propôs uma hierarquia clássica de necessidades fisiológicas, segurança, sociais, estima e autorrealização. Em prova, convém evitar transformá-la em lei universal rígida; a literatura registra limitações e exceções."
+    },
+    {
+      "id": "u056-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na taxonomia de Herzberg, qual par está corretamente classificado?",
+      "options": [
+        {"id": "A", "text": "salário — motivador; realização — higiênico"},
+        {"id": "B", "text": "condições de trabalho — motivador; responsabilidade — higiênico"},
+        {"id": "C", "text": "supervisão — higiênico; reconhecimento — motivador"},
+        {"id": "D", "text": "progresso — higiênico; política organizacional — motivador"},
+        {"id": "E", "text": "trabalho em si — higiênico; relações pessoais — motivador"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Herzberg inclui supervisão, remuneração, políticas, relações e condições entre fatores higiênicos; realização, reconhecimento, responsabilidade, progresso e trabalho em si entre motivadores."
+    },
+    {
+      "id": "u056-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A teoria de McClelland destaca necessidades de",
+      "options": [
+        {"id": "A", "text": "segurança, estima e autorrealização"},
+        {"id": "B", "text": "realização, afiliação e poder"},
+        {"id": "C", "text": "higiene, reconhecimento e salário"},
+        {"id": "D", "text": "expectativa, instrumentalidade e valência"},
+        {"id": "E", "text": "direção, intensidade e persistência"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "McClelland destaca necessidades adquiridas de realização, afiliação e poder, sem uma hierarquia fixa como a de Maslow."
+    },
+    {
+      "id": "u056-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na teoria da expectativa de Vroom, a crença de que um bom desempenho levará a determinada recompensa corresponde à",
+      "options": [
+        {"id": "A", "text": "valência"},
+        {"id": "B", "text": "instrumentalidade"},
+        {"id": "C", "text": "expectativa"},
+        {"id": "D", "text": "equidade"},
+        {"id": "E", "text": "autorrealização"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Instrumentalidade é a percepção da ligação entre desempenho e resultado/recompensa. Expectativa liga esforço a desempenho; valência expressa o valor atribuído ao resultado."
+    },
+    {
+      "id": "u056-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma recompensa é muito valorizada, mas a pessoa acredita que, mesmo se se esforçar, não conseguirá alcançar o desempenho exigido. Pela teoria de Vroom, o problema central está na",
+      "options": [
+        {"id": "A", "text": "valência"},
+        {"id": "B", "text": "expectativa"},
+        {"id": "C", "text": "instrumentalidade"},
+        {"id": "D", "text": "afiliação"},
+        {"id": "E", "text": "efetividade"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A valência é alta, mas a expectativa esforço→desempenho é baixa. A teoria mostra por que recompensa atraente, isoladamente, não garante força motivacional."
+    },
+    {
+      "id": "u056-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A teoria da equidade chama atenção principalmente para",
+      "options": [
+        {"id": "A", "text": "uma tabela universal de salários justos"},
+        {"id": "B", "text": "a comparação percebida entre contribuições e retornos e seus efeitos sobre atitudes e esforço"},
+        {"id": "C", "text": "a eliminação de qualquer diferença de recompensa"},
+        {"id": "D", "text": "a hierarquia rígida das necessidades humanas"},
+        {"id": "E", "text": "o vínculo entre esforço e desempenho da teoria de Vroom"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O foco está na percepção comparativa de justiça/equidade entre contribuições e retornos. Não se trata de uma igualdade contábil universal."
+    },
+    {
+      "id": "u056-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à teoria de definição de metas, a alternativa mais adequada é",
+      "options": [
+        {"id": "A", "text": "metas fáceis são sempre superiores"},
+        {"id": "B", "text": "metas específicas e desafiadoras podem elevar desempenho quando há compromisso e condições de execução"},
+        {"id": "C", "text": "quanto mais impossível a meta, maior a motivação"},
+        {"id": "D", "text": "a devolutiva sobre progresso reduz desempenho"},
+        {"id": "E", "text": "indicadores devem ser tratados como fins autônomos"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Metas específicas e desafiadoras podem favorecer desempenho, mas aceitação/compromisso, capacidade, recursos e informação sobre progresso importam. Meta inviável não é sinônimo de desafio produtivo."
+    },
+    {
+      "id": "u056-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe demonstra alto empenho, mas recebe dados incompletos e instruções contraditórias sobre a prioridade do trabalho. O diagnóstico mais adequado é que",
+      "options": [
+        {"id": "A", "text": "a motivação necessariamente é baixa"},
+        {"id": "B", "text": "o desempenho pode ser limitado por condições e clareza de papel, apesar da motivação"},
+        {"id": "C", "text": "o problema só pode ser resolvido com aumento salarial"},
+        {"id": "D", "text": "motivação e desempenho são sinônimos"},
+        {"id": "E", "text": "o comportamento organizacional não considera recursos"}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Motivação é apenas um determinante. Clareza de papel, informação, recursos, capacidade e ambiente podem bloquear a conversão do esforço em desempenho."
+    },
+    {
+      "id": "u056-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma organização cria um indicador e passa a premiar exclusivamente o número medido. Com o tempo, unidades melhoram o indicador excluindo casos difíceis, sem melhorar o serviço. O caso mostra que",
+      "options": [
+        {"id": "A", "text": "todo indicador é inválido"},
+        {"id": "B", "text": "meta e indicador dispensam leitura de contexto"},
+        {"id": "C", "text": "otimizar a métrica pode divergir do objetivo real"},
+        {"id": "D", "text": "eficácia e efetividade são sempre idênticas"},
+        {"id": "E", "text": "controle de resultados elimina risco de comportamento oportunista"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Indicadores são instrumentos, não o objetivo final. Se o incentivo privilegia apenas o número, pode surgir comportamento de otimização da métrica sem melhoria do resultado real."
+    },
+    {
+      "id": "u056-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual sequência integra corretamente gestão por resultados e comportamento organizacional?",
+      "options": [
+        {"id": "A", "text": "resultado → indicador/meta → execução condicionada por pessoas e ambiente → medição e correção"},
+        {"id": "B", "text": "recompensa → fim dos controles → resultado automático → efetividade"},
+        {"id": "C", "text": "motivação → desempenho garantido → indicador desnecessário → meta"},
+        {"id": "D", "text": "procedimento → ausência de objetivo → autonomia ilimitada → controle"},
+        {"id": "E", "text": "meta → punição automática → eficiência → legalidade"}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A gestão por resultados define o que se busca e como acompanhar; pessoas, capacidades, papéis, recursos e coordenação condicionam a execução; a medição deve alimentar correção e aprendizado."
+    },
+    {
+      "id": "u056-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em prova de Administrador da Companhia de Água e Esgotos da Paraíba, o Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos relacionou a gestão orientada por resultados do Plano Diretor da Reforma do Aparelho do Estado a qual característica? Assinale a opção que preserva a tese cobrada.",
+      "options": [
+        {"id": "A", "text": "ênfase em eficiência e qualidade dos serviços públicos"},
+        {"id": "B", "text": "prioridade a controles prévios e rígidos de meios"},
+        {"id": "C", "text": "hierarquia formal como finalidade central"},
+        {"id": "D", "text": "formalismo licitatório como medida principal de desempenho"},
+        {"id": "E", "text": "substituição de resultados por normas de processo"}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal da questão 52 da prova Companhia de Água e Esgotos da Paraíba/Administrador/2024. O gabarito definitivo foi A. A questão contrasta orientação por resultados, eficiência e qualidade com controles de meios típicos do modelo burocrático."
+    },
+    {
+      "id": "u056-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em questão de Administrador da Companhia de Água e Esgotos da Paraíba, a banca avaliou relações entre indivíduo e organização. Qual afirmação corresponde à alternativa correta da prova, aqui reescrita?",
+      "options": [
+        {"id": "A", "text": "percepções de equidade não afetam motivação"},
+        {"id": "B", "text": "uma única teoria explica todo comportamento organizacional"},
+        {"id": "C", "text": "diversidade é irrelevante ao ambiente de trabalho"},
+        {"id": "D", "text": "transparência cultural pode favorecer engajamento"},
+        {"id": "E", "text": "a hierarquia de Maslow é inaplicável a qualquer organização"}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Adaptação não literal da questão 59 da prova Companhia de Água e Esgotos da Paraíba/Administrador/2024. O gabarito definitivo foi D. O item correto reconhece que características do contexto organizacional podem afetar engajamento; as demais alternativas absolutizam ou negam mecanismos estudados."
+    },
+    {
+      "id": "u056-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em prova para Agente de Polícia Civil Substituto do Rio Grande do Norte, a Fundação Getulio Vargas apresentou uma equipe desmotivada por trabalho repetitivo e baixa autonomia e cobrou uma medida de redesenho do trabalho. Qual alternativa preserva a solução considerada correta na prova?",
+      "options": [
+        {"id": "A", "text": "reduzir a variedade de tarefas"},
+        {"id": "B", "text": "retirar o contato com usuários do serviço"},
+        {"id": "C", "text": "centralizar ainda mais as decisões"},
+        {"id": "D", "text": "ampliar a relação do ocupante do cargo com os destinatários do trabalho"},
+        {"id": "E", "text": "eliminar devolutivas sobre o resultado"}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Adaptação não literal da questão 41 da prova Polícia Civil do Rio Grande do Norte/Agente de Polícia Civil Substituto, Tipo 3, 2021. O gabarito definitivo foi D. A medida amplia significado e devolutiva social do trabalho, em vez de reforçar repetição e isolamento."
+    },
+    {
+      "id": "u056-p04",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em item de 2012 para Analista em Ciência e Tecnologia do Ministério da Ciência, Tecnologia e Inovação, o Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos afirmou que o modelo dos seis “E” reúne, de um lado, eficiência, eficácia e efetividade e, de outro, economicidade, excelência e execução. Como deve ser julgada essa afirmação?",
+      "options": [
+        {"id": "A", "text": "correta, pois o primeiro trio é de resultado e o segundo de esforço"},
+        {"id": "B", "text": "errada, pois eficiência é dimensão de esforço"},
+        {"id": "C", "text": "errada, pois efetividade não integra o modelo"},
+        {"id": "D", "text": "errada, pois economicidade é dimensão de resultado"},
+        {"id": "E", "text": "correta somente quando o indicador é financeiro"}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal do item 63 da prova Ministério da Ciência, Tecnologia e Inovação/Analista em Ciência e Tecnologia Pleno 1, Tema II, 2012. O gabarito oficial definitivo foi Certo. A adaptação converteu o julgamento binário em cinco alternativas sem alterar a tese cobrada."
+    }
+  ]
+}
