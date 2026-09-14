@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u060-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma caução recebida temporariamente pelo ente público, com obrigação de posterior devolução se cumpridas as condições contratuais, é exemplo de",
+      "options": [
+        {"id": "A", "text": "receita corrente patrimonial."},
+        {"id": "B", "text": "receita de capital por alienação de bens."},
+        {"id": "C", "text": "ingresso extraorçamentário, pois a entrada não pertence definitivamente ao ente."},
+        {"id": "D", "text": "receita de capital por operação de crédito."},
+        {"id": "E", "text": "dívida ativa não tributária."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A entrada de caixa, isoladamente, não basta para caracterizar receita orçamentária. Se o valor entra temporariamente acompanhado de obrigação de devolução ou repasse, trata-se de ingresso extraorçamentário."
+    },
+    {
+      "id": "u060-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A classificação da receita pública por categoria econômica divide as receitas orçamentárias em",
+      "options": [
+        {"id": "A", "text": "tributárias e não tributárias."},
+        {"id": "B", "text": "originárias e derivadas."},
+        {"id": "C", "text": "correntes e de capital."},
+        {"id": "D", "text": "vinculadas e não vinculadas."},
+        {"id": "E", "text": "orçamentárias e intraorçamentárias."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei nº 4.320/1964 estabelece duas categorias econômicas de receita: Receitas Correntes e Receitas de Capital."
+    },
+    {
+      "id": "u060-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Constitui origem de receita corrente",
+      "options": [
+        {"id": "A", "text": "alienação de bens."},
+        {"id": "B", "text": "amortização de empréstimos concedidos."},
+        {"id": "C", "text": "operação de crédito."},
+        {"id": "D", "text": "receita patrimonial."},
+        {"id": "E", "text": "transferência de capital."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Receita patrimonial é origem de Receita Corrente. Alienação de bens, amortização de empréstimos, operações de crédito e transferências de capital integram as origens de Receitas de Capital."
+    },
+    {
+      "id": "u060-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O recebimento decorrente da venda de um bem público, quando classificado como receita orçamentária, enquadra-se, quanto à origem, como",
+      "options": [
+        {"id": "A", "text": "receita de serviços."},
+        {"id": "B", "text": "alienação de bens."},
+        {"id": "C", "text": "amortização de empréstimos."},
+        {"id": "D", "text": "operação de crédito."},
+        {"id": "E", "text": "receita patrimonial."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Alienação de bens é origem de Receita de Capital. Não se confunde com receita patrimonial, que integra as Receitas Correntes."
+    },
+    {
+      "id": "u060-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito das receitas intraorçamentárias, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "Formam uma terceira categoria econômica, ao lado das correntes e de capital."},
+        {"id": "B", "text": "São necessariamente ingressos extraorçamentários."},
+        {"id": "C", "text": "Conservam a natureza corrente ou de capital, embora recebam identificação própria para fins de consolidação."},
+        {"id": "D", "text": "Correspondem apenas a operações de crédito entre entes distintos."},
+        {"id": "E", "text": "São sempre receitas não vinculadas."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A identificação intraorçamentária evita dupla contagem na consolidação, mas não cria terceira categoria econômica: a receita continua sendo corrente ou de capital."
+    },
+    {
+      "id": "u060-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença mais precisa entre natureza da receita e fonte/destinação de recursos é que",
+      "options": [
+        {"id": "A", "text": "a natureza identifica a aplicação do recurso, enquanto a fonte identifica apenas o momento da arrecadação."},
+        {"id": "B", "text": "a natureza identifica a origem segundo o fato gerador, enquanto a fonte/destinação acompanha regras de destinação e aplicação dos recursos."},
+        {"id": "C", "text": "ambas classificam exclusivamente o tipo de devedor."},
+        {"id": "D", "text": "a fonte/destinação substitui a categoria econômica da receita."},
+        {"id": "E", "text": "a natureza é usada apenas para receitas de capital."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A natureza da receita busca identificar de onde vem o recurso segundo o fato que o gerou. A fonte/destinação marca o vínculo entre o recurso e as regras de sua aplicação."
+    },
+    {
+      "id": "u060-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando a legislação determina que determinado recurso somente pode financiar finalidade específica, sua fonte/destinação é caracterizada como",
+      "options": [
+        {"id": "A", "text": "não vinculada."},
+        {"id": "B", "text": "extraorçamentária."},
+        {"id": "C", "text": "vinculada."},
+        {"id": "D", "text": "intraorçamentária."},
+        {"id": "E", "text": "patrimonial."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na destinação vinculada há vínculo normativo ou jurídico entre a origem do recurso e finalidade específica de aplicação."
+    },
+    {
+      "id": "u060-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a sequência correta dos estágios clássicos da receita orçamentária.",
+      "options": [
+        {"id": "A", "text": "lançamento → previsão → recolhimento → arrecadação."},
+        {"id": "B", "text": "previsão → arrecadação → lançamento → recolhimento."},
+        {"id": "C", "text": "previsão → lançamento, quando aplicável → arrecadação → recolhimento."},
+        {"id": "D", "text": "fixação → empenho → liquidação → pagamento."},
+        {"id": "E", "text": "previsão → empenho → arrecadação → pagamento."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A sequência clássica é previsão, lançamento quando aplicável, arrecadação e recolhimento. Fixação, empenho, liquidação e pagamento pertencem ao fluxo da despesa."
+    },
+    {
+      "id": "u060-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No ciclo da receita, a atividade de estimar quanto se espera arrecadar para subsidiar a proposta orçamentária corresponde à",
+      "options": [
+        {"id": "A", "text": "arrecadação."},
+        {"id": "B", "text": "previsão."},
+        {"id": "C", "text": "inscrição."},
+        {"id": "D", "text": "liquidação."},
+        {"id": "E", "text": "recolhimento."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Previsão é o planejamento e a estimativa das receitas que se espera arrecadar."
+    },
+    {
+      "id": "u060-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O estágio da receita que, quando aplicável, verifica o fato gerador, identifica o devedor e determina o montante devido é o",
+      "options": [
+        {"id": "A", "text": "recolhimento."},
+        {"id": "B", "text": "pagamento."},
+        {"id": "C", "text": "lançamento."},
+        {"id": "D", "text": "empenho."},
+        {"id": "E", "text": "previsão."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O lançamento constitui ou individualiza o crédito nos termos aplicáveis: verifica o fato gerador, identifica o devedor e determina o valor devido. Ele não é etapa material de toda espécie de receita."
+    },
+    {
+      "id": "u060-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um contribuinte paga valor devido a um banco autorizado, e posteriormente o banco transfere o montante à conta específica do Tesouro. Esses dois momentos correspondem, respectivamente, a",
+      "options": [
+        {"id": "A", "text": "lançamento e previsão."},
+        {"id": "B", "text": "arrecadação e recolhimento."},
+        {"id": "C", "text": "recolhimento e arrecadação."},
+        {"id": "D", "text": "previsão e lançamento."},
+        {"id": "E", "text": "liquidação e pagamento."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O recebimento do valor pago pelo contribuinte caracteriza arrecadação. A transferência posterior do arrecadado para a conta do Tesouro caracteriza recolhimento."
+    },
+    {
+      "id": "u060-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a relação entre o fluxo orçamentário da receita e o reconhecimento patrimonial, é correto afirmar que",
+      "options": [
+        {"id": "A", "text": "o lançamento sempre coincide com entrada de caixa."},
+        {"id": "B", "text": "a previsão, por si só, sempre gera aumento patrimonial."},
+        {"id": "C", "text": "arrecadação orçamentária e reconhecimento patrimonial podem ocorrer em momentos diferentes."},
+        {"id": "D", "text": "o recolhimento cria uma segunda receita depois da arrecadação."},
+        {"id": "E", "text": "a contabilidade patrimonial só reconhece receitas após o recolhimento."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Orçamento e patrimônio respondem a perspectivas diferentes. O fato patrimonial pode ser reconhecido antes ou depois do momento em que a receita é arrecadada sob a ótica orçamentária."
+    },
+    {
+      "id": "u060-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A expressão dívida ativa designa, em regra,",
+      "options": [
+        {"id": "A", "text": "obrigação financeira assumida pelo Estado perante seus credores."},
+        {"id": "B", "text": "crédito da Fazenda Pública, tributário ou não tributário, regularmente inscrito para cobrança."},
+        {"id": "C", "text": "qualquer despesa empenhada e não paga."},
+        {"id": "D", "text": "receita prevista, ainda que não exista devedor identificado."},
+        {"id": "E", "text": "empréstimo tomado pelo ente público."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Dívida ativa é crédito da Fazenda Pública contra terceiro, não obrigação do Estado. Pode ter natureza tributária ou não tributária."
+    },
+    {
+      "id": "u060-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa que apresenta exemplo compatível com dívida ativa não tributária.",
+      "options": [
+        {"id": "A", "text": "Imposto vencido e regularmente inscrito."},
+        {"id": "B", "text": "Taxa vencida e regularmente inscrita."},
+        {"id": "C", "text": "Contribuição de melhoria vencida e regularmente inscrita."},
+        {"id": "D", "text": "Aluguel devido ao ente público e regularmente inscrito, quando enquadrado na legislação aplicável."},
+        {"id": "E", "text": "Operação de crédito contratada pelo ente."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Créditos como certos aluguéis devidos ao poder público podem integrar dívida ativa não tributária. Tributos pertencem à dívida ativa tributária; operação de crédito é dívida do ente e receita de capital."
+    },
+    {
+      "id": "u060-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na disciplina da Lei nº 6.830/1980, a inscrição em dívida ativa é",
+      "options": [
+        {"id": "A", "text": "mero registro estatístico sem controle de legalidade."},
+        {"id": "B", "text": "ato de controle administrativo da legalidade, realizado pelo órgão competente para apurar liquidez e certeza do crédito."},
+        {"id": "C", "text": "sinônimo de arrecadação da receita."},
+        {"id": "D", "text": "ato que elimina a necessidade de identificação do devedor."},
+        {"id": "E", "text": "procedimento exclusivo para créditos tributários."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei nº 6.830/1980 qualifica a inscrição como ato de controle administrativo da legalidade e determina que o órgão competente apure a liquidez e a certeza do crédito. A dívida ativa pode ser tributária ou não tributária."
+    },
+    {
+      "id": "u060-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma operação de crédito contratada pelo ente público e um crédito tributário vencido e regularmente inscrito representam, respectivamente,",
+      "options": [
+        {"id": "A", "text": "dívida ativa e receita corrente."},
+        {"id": "B", "text": "receita de capital e dívida ativa tributária."},
+        {"id": "C", "text": "receita corrente e dívida pública."},
+        {"id": "D", "text": "ingresso extraorçamentário e dívida ativa não tributária."},
+        {"id": "E", "text": "receita patrimonial e operação de crédito."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A operação de crédito é origem de Receita de Capital e pode aumentar a dívida pública do ente. O tributo vencido e regularmente inscrito compõe dívida ativa tributária."
+    },
+    {
+      "id": "u060-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em uma adaptação de questão anterior da Polícia Civil de Rondônia, assinale a alternativa que apresenta somente os estágios da receita orçamentária.",
+      "options": [
+        {"id": "A", "text": "previsão, empenho, liquidação e pagamento."},
+        {"id": "B", "text": "fixação, lançamento, arrecadação e pagamento."},
+        {"id": "C", "text": "previsão, lançamento, arrecadação e recolhimento."},
+        {"id": "D", "text": "previsão, descentralização, liquidação e recolhimento."},
+        {"id": "E", "text": "lançamento, empenho, arrecadação e pagamento."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Adaptação não literal da questão 65 do caderno 733_PCROAGENTE_002_01, Polícia Civil do Estado de Rondônia, 2022. O gabarito oficial definitivo marcou C: previsão, lançamento, arrecadação e recolhimento."
+    },
+    {
+      "id": "u060-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação de questão anterior da Câmara dos Deputados, julgue as afirmações: I. a previsão estima a arrecadação a ser considerada na proposta orçamentária; II. o lançamento não se aplica a impostos, taxas nem contribuições de melhoria; III. o recolhimento transfere valores arrecadados à conta específica do Tesouro. A sequência correta é",
+      "options": [
+        {"id": "A", "text": "V – V – V."},
+        {"id": "B", "text": "V – V – F."},
+        {"id": "C", "text": "F – V – V."},
+        {"id": "D", "text": "F – F – V."},
+        {"id": "E", "text": "V – F – V."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "Adaptação não literal da questão 55 da prova da tarde, Tipo 1, de Analista Legislativo – Contador da Câmara dos Deputados (Fundação Getulio Vargas, 2023). O gabarito oficial definitivo foi E: V – F – V."
+    }
+  ]
+}
