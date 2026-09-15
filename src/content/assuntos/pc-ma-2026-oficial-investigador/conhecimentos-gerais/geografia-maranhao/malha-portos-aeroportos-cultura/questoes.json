@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u077-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao interpretar a malha rodoviária, qual afirmação distingue corretamente jurisdição e concessão?",
+      "options": [
+        {"id": "A", "text": "Uma concessão transforma automaticamente a rodovia federal em estadual."},
+        {"id": "B", "text": "Jurisdição indica titularidade jurídica, enquanto concessão transfere contratualmente exploração e obrigações."},
+        {"id": "C", "text": "Jurisdição informa apenas o estado do pavimento."},
+        {"id": "D", "text": "Toda rodovia federal é necessariamente explorada diretamente pelo DNIT."},
+        {"id": "E", "text": "Concessão e duplicação são conceitos equivalentes."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Jurisdição, administração e concessão são dimensões diferentes. A concessão não muda, por si só, a titularidade jurídica da via."
+    },
+    {
+      "id": "u077-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual associação rodoviária está correta no Maranhão?",
+      "options": [
+        {"id": "A", "text": "BR-135 — ligação fundamental da ilha de São Luís com o continente."},
+        {"id": "B", "text": "BR-230 — principal acesso a Barreirinhas a partir de Bacabeira."},
+        {"id": "C", "text": "BR-402 — Transamazônica no sul do estado."},
+        {"id": "D", "text": "BR-010 — corredor Santa Inês–Bacabal–Caxias."},
+        {"id": "E", "text": "BR-316 — eixo Açailândia–Imperatriz–Estreito."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A BR-135 é o eixo rodoviário federal de ligação da ilha de São Luís ao continente. As demais alternativas trocam corredores entre as rodovias federais do estado."
+    },
+    {
+      "id": "u077-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A BR-402 no Maranhão é especialmente associada",
+      "options": [
+        {"id": "A", "text": "ao corredor mineral de Carajás."},
+        {"id": "B", "text": "à ligação São Luís–Teresina por ferrovia."},
+        {"id": "C", "text": "ao acesso rodoviário à região de Barreirinhas e dos Lençóis Maranhenses."},
+        {"id": "D", "text": "à Transamazônica no sul do estado."},
+        {"id": "E", "text": "ao trecho Açailândia–Imperatriz–Estreito."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A BR-402 articula-se à BR-135 em Bacabeira e é um acesso importante à região de Barreirinhas e dos Lençóis Maranhenses."
+    },
+    {
+      "id": "u077-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um trecho rodoviário classificado como implantado permite concluir que ele",
+      "options": [
+        {"id": "A", "text": "foi fisicamente aberto, sem que isso prove pavimentação."},
+        {"id": "B", "text": "é necessariamente duplicado."},
+        {"id": "C", "text": "está em perfeito estado de conservação."},
+        {"id": "D", "text": "foi concedido à iniciativa privada."},
+        {"id": "E", "text": "deixou de integrar o sistema viário."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Implantação, pavimentação e duplicação são situações físicas distintas. Uma via implantada pode ainda não estar pavimentada."
+    },
+    {
+      "id": "u077-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre as ferrovias relacionadas ao Maranhão, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "A Estrada de Ferro Carajás corresponde à EF-315 e liga o corredor de Carajás a Ponta da Madeira."},
+        {"id": "B", "text": "A Ferrovia Norte-Sul Tramo Norte é a EF-116 e liga diretamente São Luís a Teresina."},
+        {"id": "C", "text": "A Ferrovia Transnordestina Logística corresponde à EF-315 e é operada pela Vale."},
+        {"id": "D", "text": "As três ferrovias formam juridicamente uma única concessão."},
+        {"id": "E", "text": "A Estrada de Ferro Carajás se localiza apenas no Maranhão."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Estrada de Ferro Carajás é a EF-315, abrange Pará e Maranhão e se integra ao Terminal Marítimo de Ponta da Madeira."
+    },
+    {
+      "id": "u077-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A conexão entre a Ferrovia Norte-Sul Tramo Norte e a Estrada de Ferro Carajás ocorre em",
+      "options": [
+        {"id": "A", "text": "Caxias."},
+        {"id": "B", "text": "Açailândia."},
+        {"id": "C", "text": "Barreirinhas."},
+        {"id": "D", "text": "Pinheiro."},
+        {"id": "E", "text": "Alcântara."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A integração em Açailândia permite que sistemas ferroviários distintos componham um corredor logístico sem perderem identidade própria."
+    },
+    {
+      "id": "u077-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa diferencia corretamente as principais instalações portuárias de São Luís?",
+      "options": [
+        {"id": "A", "text": "Itaqui, Ponta da Madeira e Alumar são três nomes para o mesmo porto organizado."},
+        {"id": "B", "text": "Itaqui é porto organizado público; Ponta da Madeira e Alumar são terminais de uso privado."},
+        {"id": "C", "text": "Ponta da Madeira é aeroporto de carga e Alumar é ferrovia."},
+        {"id": "D", "text": "Itaqui é terminal privado da Vale."},
+        {"id": "E", "text": "As três instalações são administradas exclusivamente pela EMAP."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Porto do Itaqui é porto organizado público. Ponta da Madeira e Alumar são instalações privadas distintas, embora próximas e integradas ao mesmo espaço logístico."
+    },
+    {
+      "id": "u077-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um terminal de uso privado se distingue de um arrendamento portuário porque",
+      "options": [
+        {"id": "A", "text": "o terminal de uso privado é explorado por autorização fora da área do porto organizado, enquanto o arrendamento explora área pública dentro do porto organizado."},
+        {"id": "B", "text": "todo terminal de uso privado pertence à EMAP."},
+        {"id": "C", "text": "arrendamento só existe em aeroportos."},
+        {"id": "D", "text": "terminal de uso privado é sinônimo de porto organizado."},
+        {"id": "E", "text": "não existe diferença jurídica entre as duas categorias."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 12.815/2013 separa porto organizado, arrendamento e instalação portuária autorizada fora da área do porto organizado."
+    },
+    {
+      "id": "u077-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma carga produzida em outro estado e embarcada em São Luís demonstra que",
+      "options": [
+        {"id": "A", "text": "a carga se torna automaticamente produção maranhense."},
+        {"id": "B", "text": "local de embarque e origem produtiva são conceitos diferentes."},
+        {"id": "C", "text": "todo o percurso ocorreu dentro do Maranhão."},
+        {"id": "D", "text": "o terminal de embarque produziu a mercadoria."},
+        {"id": "E", "text": "a tonelagem embarcada mede a capacidade máxima do porto."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Maranhão pode participar do trânsito, transbordo e embarque de cargas originadas fora do estado. Circulação não prova origem produtiva."
+    },
+    {
+      "id": "u077-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual conjunto associa corretamente os aeroportos de São Luís e Imperatriz a seus códigos IATA?",
+      "options": [
+        {"id": "A", "text": "São Luís — SBSL; Imperatriz — SBIZ."},
+        {"id": "B", "text": "São Luís — SLZ; Imperatriz — IMP."},
+        {"id": "C", "text": "São Luís — MA0001; Imperatriz — MA0002."},
+        {"id": "D", "text": "São Luís — IMP; Imperatriz — SLZ."},
+        {"id": "E", "text": "São Luís — EF-315; Imperatriz — EF-151."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "SLZ e IMP são códigos IATA. SBSL e SBIZ são códigos ICAO; MA0001 e MA0002 são identificadores cadastrais da ANAC."
+    },
+    {
+      "id": "u077-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Antes do corte do edital, a exploração dos aeroportos de São Luís e Imperatriz estava vinculada à",
+      "options": [
+        {"id": "A", "text": "Concessionária do Bloco Central S.A."},
+        {"id": "B", "text": "Empresa Maranhense de Administração Portuária."},
+        {"id": "C", "text": "Vale S.A."},
+        {"id": "D", "text": "Ferrovia Transnordestina Logística."},
+        {"id": "E", "text": "Agência Nacional de Transportes Terrestres."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Documentos da ANAC anteriores a 13 de julho de 2026 identificam a Concessionária do Bloco Central S.A. como responsável pelos dois aeroportos."
+    },
+    {
+      "id": "u077-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Bumba Meu Boi do Maranhão, a sequência didática do ciclo é",
+      "options": [
+        {"id": "A", "text": "ensaios, batismo, brincadas e morte do boi."},
+        {"id": "B", "text": "tombamento, carnaval, batismo e colheita."},
+        {"id": "C", "text": "morte, registro, ensaio e procissão."},
+        {"id": "D", "text": "batismo, eleição, tombamento e carnaval."},
+        {"id": "E", "text": "brincadas, concessão, morte e registro."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O ciclo é organizado em ensaios/preparativos, batismo, apresentações ou brincadas e morte do boi, com calendários que variam entre grupos."
+    },
+    {
+      "id": "u077-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Bumba Meu Boi, o termo sotaque designa",
+      "options": [
+        {"id": "A", "text": "a pronúncia obrigatória dos brincantes."},
+        {"id": "B", "text": "um modo de brincar reconhecido por musicalidade, instrumentos, coreografia e indumentária."},
+        {"id": "C", "text": "o registro jurídico do grupo."},
+        {"id": "D", "text": "a data fixa da morte do boi."},
+        {"id": "E", "text": "um tipo de tombamento arquitetônico."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sotaque é categoria performática. Matraca, Zabumba, Baixada, Costa de Mão e Orquestra são referências didáticas, não sotaques linguísticos."
+    },
+    {
+      "id": "u077-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distinção correta entre Tambor de Crioula, Tambor de Mina e Terecô é",
+      "options": [
+        {"id": "A", "text": "os três são nomes da mesma dança."},
+        {"id": "B", "text": "Tambor de Crioula é forma de expressão dançada; Tambor de Mina é religião; Terecô é tradição religiosa própria especialmente ligada a Codó e aos Cocais."},
+        {"id": "C", "text": "Tambor de Mina é sotaque do Bumba Meu Boi."},
+        {"id": "D", "text": "Terecô é outro nome do Centro Histórico de São Luís."},
+        {"id": "E", "text": "Tambor de Crioula é patrimônio arquitetônico."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "As três práticas dialogam historicamente, mas possuem naturezas diferentes e não devem ser tratadas como sinônimas."
+    },
+    {
+      "id": "u077-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A presença de corte simbólica, bandeira, mastro e caixeiras é uma marca recorrente da",
+      "options": [
+        {"id": "A", "text": "Festa do Divino Espírito Santo."},
+        {"id": "B", "text": "Ferrovia Norte-Sul."},
+        {"id": "C", "text": "Estrada de Ferro Carajás."},
+        {"id": "D", "text": "radiola de reggae."},
+        {"id": "E", "text": "rodovia BR-135."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esses elementos ajudam a reconhecer a Festa do Divino. Alcântara é uma referência importante, mas a celebração não é exclusiva do município."
+    },
+    {
+      "id": "u077-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa que distingue corretamente instrumentos de proteção e reconhecimento cultural.",
+      "options": [
+        {"id": "A", "text": "Tombamento e registro são sinônimos."},
+        {"id": "B", "text": "Todo bem registrado pelo Iphan é automaticamente inscrito pela UNESCO."},
+        {"id": "C", "text": "Tombamento protege patrimônio material; registro reconhece bem imaterial; inscrição da UNESCO é reconhecimento internacional próprio."},
+        {"id": "D", "text": "Título legal transfere a administração do bem à UNESCO."},
+        {"id": "E", "text": "Registro de bem imaterial congela a manifestação e impede mudanças."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Tombamento, registro, inscrição internacional e título legal têm fundamentos e efeitos distintos. Salvaguarda não significa congelar uma tradição viva."
+    },
+    {
+      "id": "u077-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual sequência de marcos patrimoniais está correta?",
+      "options": [
+        {"id": "A", "text": "Centro Histórico de São Luís: tombamento federal em 1974 e UNESCO em 1997; Bumba Meu Boi: Iphan em 2011 e UNESCO em 2019."},
+        {"id": "B", "text": "São Luís: UNESCO em 1948; Bumba Meu Boi: registro em 1974."},
+        {"id": "C", "text": "Alcântara: UNESCO em 1997; Tambor de Crioula: tombamento em 1948."},
+        {"id": "D", "text": "Bumba Meu Boi: UNESCO em 2007; Centro Histórico: tombamento em 2019."},
+        {"id": "E", "text": "Tambor de Crioula: registro em 2019; São Luís: UNESCO em 2025."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Centro Histórico de São Luís foi tombado em 1974 e inscrito pela UNESCO em 1997. O Bumba Meu Boi foi registrado pelo Iphan em 2011 e inscrito pela UNESCO em 2019."
+    },
+    {
+      "id": "u077-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual associação cultural está correta?",
+      "options": [
+        {"id": "A", "text": "Maria Firmina dos Reis — Úrsula; tiquira — destilado de mandioca."},
+        {"id": "B", "text": "Aluísio Azevedo — Canção do Exílio; tiquira — destilado de cana."},
+        {"id": "C", "text": "Gonçalves Dias — O Cortiço; arroz de cuxá — prato sem vinagreira."},
+        {"id": "D", "text": "Sousândrade — O Mambembe; juçara — código aeroportuário."},
+        {"id": "E", "text": "Artur Azevedo — Úrsula; tiquira — vinho de uva."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Maria Firmina dos Reis é autora de Úrsula (1859), e a tiquira é destilado de mandioca."
+    },
+    {
+      "id": "u077-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação de questão do Cebraspe sobre o Porto do Itaqui, qual característica explica corretamente sua relevância logística?",
+      "options": [
+        {"id": "A", "text": "Sua atuação se limita a produtos agropecuários do Maranhão."},
+        {"id": "B", "text": "Sua posição impede conexão com mercados externos."},
+        {"id": "C", "text": "Sua área de influência econômica ultrapassa o Maranhão e integra cadeias produtivas."},
+        {"id": "D", "text": "A inexistência de integração de modos é sua característica principal."},
+        {"id": "E", "text": "O porto é um terminal privado da Vale."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Adaptação não literal da questão 62 da prova Cebraspe/Prefeitura de São Luís/Professor de Geografia, aplicada em 5/2/2017. O gabarito definitivo original foi D. Prova oficial: https://cdn.cebraspe.org.br/concursos/pref_saoluis_16/arquivos/287_prefsaoluis_007_01.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_007_01.pdf."
+    },
+    {
+      "id": "u077-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação de questão do Cebraspe sobre Dileusa Dinis Rodrigues (Dila), quais temas são associados à obra da artista maranhense?",
+      "options": [
+        {"id": "A", "text": "Somente abstrações geométricas."},
+        {"id": "B", "text": "Cotidiano e vida nordestina, com festas e paisagens urbanas e rurais."},
+        {"id": "C", "text": "Exclusivamente arquitetura ferroviária."},
+        {"id": "D", "text": "Apenas propaganda política dos anos 1960."},
+        {"id": "E", "text": "Somente temas portuários."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal da questão 44 da prova Cebraspe/Prefeitura de São Luís/Professor de Arte, aplicada em 5/2/2017. O gabarito definitivo original foi B. Prova oficial: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/287_PREFSAOLUIS_002_01.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_002_01.pdf."
+    }
+  ]
+}
