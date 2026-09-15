@@ -105,15 +105,15 @@ test('copies the question with and without options', async ({ page, context }) =
   });
 
   const card = page.locator('.question-card').first();
-  const fullBox = await card.getByRole('button', { name: 'Copiar questão com opções' }).boundingBox();
-  const promptBox = await card.getByRole('button', { name: 'Copiar apenas a questão' }).boundingBox();
+  const fullBox = await card.getByRole('button', { name: 'Copiar tudo (questão com opções)' }).boundingBox();
+  const promptBox = await card.getByRole('button', { name: 'Copiar questão (apenas o enunciado)' }).boundingBox();
   expect(promptBox!.y).toBeLessThan(fullBox!.y);
-  await card.getByRole('button', { name: 'Copiar questão com opções' }).click();
-  await expect(card.getByRole('button', { name: 'Copiar questão com opções' })).toHaveText('Copiado!');
+  await card.getByRole('button', { name: 'Copiar tudo (questão com opções)' }).click();
+  await expect(card.getByRole('button', { name: 'Copiar tudo (questão com opções)' })).toHaveText('Copiado!');
   expect(await page.evaluate(() => navigator.clipboard.readText())).toBe(expected.full);
 
-  await card.getByRole('button', { name: 'Copiar apenas a questão' }).click();
-  await expect(card.getByRole('button', { name: 'Copiar apenas a questão' })).toHaveText('Copiado!');
+  await card.getByRole('button', { name: 'Copiar questão (apenas o enunciado)' }).click();
+  await expect(card.getByRole('button', { name: 'Copiar questão (apenas o enunciado)' })).toHaveText('Copiado!');
   await expect.poll(() => page.evaluate(() => navigator.clipboard.readText())).toBe(expected.prompt);
 });
 

@@ -331,7 +331,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     copyFullButton.className = 'question-copy question-copy-full print-hidden';
     copyFullButton.textContent = 'Copiar tudo';
     copyFullButton.title = 'Copiar questão com opções';
-    copyFullButton.setAttribute('aria-label', 'Copiar questão com opções');
+    copyFullButton.setAttribute('aria-label', 'Copiar tudo (questão com opções)');
     copyFullButton.dataset.copyLabel = 'Copiar tudo';
     copyFullButton.addEventListener('click', () => void copyText(copyFullButton, fullText));
 
@@ -340,7 +340,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     copyPromptButton.className = 'question-copy question-copy-prompt print-hidden';
     copyPromptButton.textContent = 'Copiar questão';
     copyPromptButton.title = 'Copiar apenas a questão';
-    copyPromptButton.setAttribute('aria-label', 'Copiar apenas a questão');
+    copyPromptButton.setAttribute('aria-label', 'Copiar questão (apenas o enunciado)');
     copyPromptButton.dataset.copyLabel = 'Copiar questão';
     copyPromptButton.addEventListener('click', () => void copyText(copyPromptButton, question.prompt));
 
