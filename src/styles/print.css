@@ -262,6 +262,15 @@
   .print-options {
     list-style: none;
     padding-left: 0;
+    /* Duas colunas lado a lado economizam papel; cada opção não quebra. */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 1.5rem;
+  }
+
+  .print-options > li {
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   .print-option-letter {
@@ -328,6 +337,11 @@
     background: #ebebeb !important;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
+  }
+
+  /* Letra certa em negrito: o número já tem fundo (th), a resposta ganha peso. */
+  .print-gabarito td {
+    font-weight: 700;
   }
 
   img {
