@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: "SIDOR e SIAFI — revisão rápida"
-description: "Contrastes essenciais entre SIDOR, SIOP e SIAFI."
-order: 59
-storageId: pc-u059
----
-
 # <abbr title="Sistema Integrado de Dados Orçamentários">SIDOR</abbr> e <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> — revisão rápida
 
 ## Contraste central

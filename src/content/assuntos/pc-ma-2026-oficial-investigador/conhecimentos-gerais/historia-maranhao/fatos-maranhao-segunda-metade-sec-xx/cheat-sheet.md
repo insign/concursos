@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: "Fatos políticos, econômicos e sociais do Maranhão na segunda metade do século XX — revisão"
-description: "Âncoras cronológicas, relações causais e pegadinhas para revisar o Maranhão entre 1951 e 2000."
-order: 68
-storageId: pc-u068
----
-
 # Revisão rápida — Maranhão, 1951–2000
 
 ## Cinco âncoras

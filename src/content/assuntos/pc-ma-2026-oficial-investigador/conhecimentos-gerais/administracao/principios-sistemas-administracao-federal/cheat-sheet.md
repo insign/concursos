@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: "Princípios e sistemas da administração federal — revisão rápida"
-description: "Princípios do Decreto-Lei nº 200/1967, descentralização, delegação, controle e lógica sistêmica."
-order: 57
-storageId: pc-u057
----
-
 # Princípios e sistemas da administração federal — revisão rápida
 
 ## Cinco princípios do Decreto-Lei nº 200/1967

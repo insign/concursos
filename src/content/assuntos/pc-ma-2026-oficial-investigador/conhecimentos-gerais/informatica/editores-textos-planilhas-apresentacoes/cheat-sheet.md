@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: Editores de textos, planilhas e apresentações — revisão rápida
-description: Mapa de Word, Excel, PowerPoint, Writer, Calc e Impress, com formatos, operações e pegadinhas de interoperabilidade.
-order: 24
-storageId: pc-u024
----
-
 # Editores de textos, planilhas e apresentações — revisão rápida
 
 ## Mapa da suíte

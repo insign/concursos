@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: Redes de computadores, IPv4, IPv6 e Wi‑Fi — revisão rápida
-description: Mapa de LAN, MAN, WAN, dispositivos, endereçamento IPv4/IPv6 e Wi‑Fi.
-order: 26
-storageId: pc-u026
----
-
 # Redes de computadores, IPv4, IPv6 e Wi‑Fi — revisão rápida
 
 ## Alcance

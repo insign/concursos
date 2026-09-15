@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: "Fatos políticos, econômicos e sociais do Maranhão na segunda metade do século XX — referências"
-description: "Fontes oficiais, acadêmicas, eleitorais e de proveniência usadas na unidade integrada sobre o Maranhão entre 1951 e 2000."
-order: 68
-storageId: pc-u068
----
-
 # Referências
 
 ## Edital e corte

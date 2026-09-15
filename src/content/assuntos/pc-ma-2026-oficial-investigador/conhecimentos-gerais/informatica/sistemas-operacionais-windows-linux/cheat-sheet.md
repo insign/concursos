@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: "Windows e Linux: arquivos e ambiente — revisão rápida"
-description: "Contrastes essenciais de caminhos, arquivos, diretórios, atalhos, área de trabalho e área de transferência."
-order: 23
-storageId: pc-u023
----
-
 # Windows e Linux — revisão rápida
 
 ## Modelo comum

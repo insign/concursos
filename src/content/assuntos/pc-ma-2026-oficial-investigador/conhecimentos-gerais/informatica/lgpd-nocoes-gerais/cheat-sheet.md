@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: "LGPD: noções gerais — revisão rápida"
-description: "Mapa de decisão para alcance, conceitos, princípios, bases legais, direitos, agentes e segurança."
-order: 32
-storageId: pc-u032
----
-
 # <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>: noções gerais — revisão rápida
 
 ## Roteiro de prova

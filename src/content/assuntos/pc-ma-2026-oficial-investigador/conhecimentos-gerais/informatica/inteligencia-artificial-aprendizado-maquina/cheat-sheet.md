@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: "Inteligência artificial e aprendizado de máquina — revisão rápida"
-description: "Mapa de revisão sobre IA, aprendizado supervisionado/não supervisionado, treinamento, avaliação e modelos generativos."
-order: 33
-storageId: pc-u033
----
-
 # Inteligência artificial e aprendizado de máquina — revisão rápida
 
 ## Mapa central

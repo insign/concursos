@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: "Administração gerencial e comportamento organizacional — revisão rápida"
-description: "Contrastes essenciais de gestão por resultados, motivação e desempenho."
-order: 56
-storageId: pc-u056
----
-
 # Administração gerencial e comportamento organizacional — revisão rápida
 
 ## Administração e resultados

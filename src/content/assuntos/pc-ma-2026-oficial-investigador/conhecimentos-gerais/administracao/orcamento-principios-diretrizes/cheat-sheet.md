@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: "Orçamento público, princípios e diretrizes orçamentárias"
-description: "Revisão rápida de orçamento público, princípios e diretrizes orçamentárias."
-order: 58
-storageId: pc-u058
----
-
 # Revisão rápida
 
 ## Arquitetura

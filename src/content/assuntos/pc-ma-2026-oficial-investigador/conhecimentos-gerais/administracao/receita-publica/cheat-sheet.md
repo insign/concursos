@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: "Receita pública"
-description: "Revisão rápida de categorias, fontes, estágios e dívida ativa."
-order: 60
-storageId: pc-u060
----
-
 # Receita pública — revisão rápida
 
 ## Comece pela dimensão

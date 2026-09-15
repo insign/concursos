@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: "Problemas aritméticos, geométricos e matriciais — revisão rápida"
-description: "Mapa de modelagem, fórmulas essenciais e checagens para problemas aritméticos, geométricos e matriciais."
-order: 42
-storageId: pc-u042
----
-
 # Problemas aritméticos, geométricos e matriciais — revisão rápida
 
 ## Método
