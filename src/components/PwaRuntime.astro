@@ -2,20 +2,51 @@
   import { registerSW } from 'virtual:pwa-register';
   import { getActiveAlias } from '../lib/identity';
   import { cleanupInactiveContestCaches } from '../lib/offline-packages';
-  import { createPwaUpdateController, type PwaStatusDetail } from '../lib/pwa-update';
+  import { browserPwaReloadEnvironment, reloadBypassingCache, type PwaReloadEnvironment } from '../lib/pwa-reload';
+  import { createPwaUpdateCheckScheduler } from '../lib/pwa-update-check';
+  import { createPwaUpdateController, runAfterLocalWritesSettled, type PwaStatusDetail } from '../lib/pwa-update';
   import { requestCompleteProfileSync } from '../lib/simulados-profile-sync';
 
   const emit = (detail: PwaStatusDetail) => {
     window.dispatchEvent(new CustomEvent('concursos:pwa-status', { detail }));
   };
   let updateServiceWorker: (reloadPage?: boolean) => Promise<void> = async () => undefined;
+  const reloadEnvironment: PwaReloadEnvironment = {
+    ...browserPwaReloadEnvironment(),
+    settleWrites: () => runAfterLocalWritesSettled(() => undefined),
+  };
   const controller = createPwaUpdateController({
     activate: () => updateServiceWorker(true),
-    reload: () => window.location.reload(),
+    reload: () => reloadBypassingCache(reloadEnvironment, window.location.href),
     emit,
+  });
+  let swRegistration: { update(): Promise<unknown> } | undefined;
+  const updateScheduler = createPwaUpdateCheckScheduler({
+    getRegistration: () => swRegistration,
+    subscribe: (target, type, listener) => {
+      const node = target === 'document' ? document : window;
+      node.addEventListener(type, listener);
+      return () => node.removeEventListener(type, listener);
+    },
+  });
+  // Abas atualizadas por outra aba: recarrega pelo mesmo gate de durabilidade.
+  // O flag mutável suprime só o primeiro clientsClaim (instalação); claims
+  // externos posteriores recarregam normalmente.
+  let hadController = Boolean(navigator.serviceWorker?.controller);
+  navigator.serviceWorker?.addEventListener('controllerchange', () => {
+    if (!hadController) {
+      hadController = true;
+      return;
+    }
+    void controller.requestReload();
   });
   updateServiceWorker = registerSW({
     immediate: true,
+    onRegisteredSW(_swUrl, registration) {
+      swRegistration = registration ?? undefined;
+      updateScheduler.start();
+      void updateScheduler.check();
+    },
     onNeedRefresh() {
       void controller.requestActivation();
     },

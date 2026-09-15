@@ -5,6 +5,7 @@ import { mapConcurrent, resolveConcurrency } from '../../scripts/lib/concurrency
 import { isMegaReviewRouteFile, isSubjectMarkerFile } from '../../scripts/lib/estimate-counting.mjs';
 import { finalizeSecurityHtml } from '../../scripts/lib/finalize-security.mjs';
 import { buildOfflineManifest, isInventoryAsset, resourceHash } from '../../scripts/lib/offline-inventory-builder.mjs';
+import { appendBuildStamp, resolveBuildId, stampServiceWorker } from '../../scripts/lib/build-stamp.mjs';
 import { scriptReferences } from '../../scripts/lib/precache-dependencies.mjs';
 
 describe('build scripts', () => {
@@ -84,5 +85,33 @@ describe('build scripts', () => {
     expect(isMegaReviewRouteFile('src/content/assuntos/c/g/mega-revisao/index.md')).toBe(true);
     expect(isMegaReviewRouteFile('src/content/assuntos/c/g/mega-revisao/vinculo.json')).toBe(true);
     expect(isMegaReviewRouteFile('src/content/assuntos/c/g/a/vinculo.json')).toBe(false);
+  });
+});
+
+describe('service worker build stamp', () => {
+  it('prefers CI commit ids and falls back to a timestamp', () => {
+    expect(resolveBuildId({ CF_PAGES_COMMIT_SHA: 'abc123' })).toBe('abc123');
+    expect(resolveBuildId({ GITHUB_SHA: 'def456' })).toBe('def456');
+    expect(resolveBuildId({ BUILD_ID: 'ghi789' })).toBe('ghi789');
+    expect(typeof resolveBuildId({})).toBe('string');
+  });
+
+  it('appends a trailing build marker without touching the body', () => {
+    const stamped = stampServiceWorker('self.a = 1;\n', 'abc123');
+    expect(stamped).toBe('self.a = 1;\n// build:abc123\n');
+    expect(stampServiceWorker('self.a = 1;\n', 'def456')).not.toBe(stamped);
+  });
+
+  it('appends the marker to the destination file', async () => {
+    const { mkdtemp, readFile, writeFile } = await import('node:fs/promises');
+    const { tmpdir } = await import('node:os');
+    const { join } = await import('node:path');
+    const directory = await mkdtemp(join(tmpdir(), 'sw-stamp-'));
+    const filePath = join(directory, 'service-worker.js');
+    await writeFile(filePath, 'self.a = 1;\n', 'utf8');
+
+    const previousSize = await appendBuildStamp(filePath, 'zzz');
+    expect(previousSize).toBe('self.a = 1;\n'.length);
+    await expect(readFile(filePath, 'utf8')).resolves.toBe('self.a = 1;\n// build:zzz\n');
   });
 });

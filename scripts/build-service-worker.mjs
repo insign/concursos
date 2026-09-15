@@ -2,6 +2,7 @@ import { unlink } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { build } from 'vite';
 import { injectManifest } from 'workbox-build';
+import { appendBuildStamp, resolveBuildId } from './lib/build-stamp.mjs';
 import { collectShellScriptDependencies } from './lib/precache-dependencies.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
@@ -59,4 +60,6 @@ const result = await injectManifest({
 
 await unlink(compiledSource);
 if (result.count === 0) throw new Error('Service Worker gerado sem recursos de precache.');
+// Carimbo de build: garante bytes diferentes por deploy para detecção de update.
+await appendBuildStamp(destination, resolveBuildId());
 console.log(`Service Worker generated with ${result.count} precached resources (${shellScripts.length} shell scripts).`);

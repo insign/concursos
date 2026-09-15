@@ -174,3 +174,23 @@ test('starts a browser-managed background download when Background Fetch is avai
   await page.getByRole('button', { name: 'Baixar concurso' }).click();
   await expect(page.locator('[data-offline-message]')).toContainText(/Baixando/, { timeout: 10_000 });
 });
+
+test('checks for code updates when the tab becomes visible', async ({ page }) => {
+  await page.addInitScript(() => {
+    const calls: string[] = [];
+    (window as unknown as { __pwaUpdateCalls: string[] }).__pwaUpdateCalls = calls;
+    const original = ServiceWorkerRegistration.prototype.update;
+    ServiceWorkerRegistration.prototype.update = function () {
+      calls.push('update');
+      return original.call(this);
+    };
+  });
+  await page.goto('/');
+  await waitForServiceWorker(page);
+
+  await page.evaluate(() => document.dispatchEvent(new Event('visibilitychange')));
+  await expect
+    .poll(() => page.evaluate(() => (window as unknown as { __pwaUpdateCalls: string[] }).__pwaUpdateCalls.length))
+    .toBeGreaterThan(0);
+  await expect(page.locator('[data-questionnaire], main').first()).toBeVisible();
+});
