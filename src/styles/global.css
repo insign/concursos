@@ -1867,8 +1867,6 @@ a.subject-pagination-link:hover {
   min-width: 0;
   margin: 0;
   padding: clamp(1rem, 3vw, 1.6rem);
-  /* Reserva inferior para o botão copiar absoluto do canto inferior. */
-  padding-bottom: calc(clamp(1rem, 3vw, 1.6rem) + 2rem);
   border: 1px solid var(--line);
   background: var(--paper);
   /* Resoluções trazem URLs longas como texto puro; quebra em qualquer ponto
@@ -1877,8 +1875,6 @@ a.subject-pagination-link:hover {
 }
 
 .question-copy {
-  position: absolute;
-  right: 0.6rem;
   padding: 0.25rem 0.55rem;
   border: 1px solid var(--line);
   border-radius: 0.25rem;
@@ -1897,15 +1893,20 @@ a.subject-pagination-link:hover {
 }
 
 .question-copy-full {
-  top: 0.6rem;
+  display: block;
+  width: fit-content;
+  margin: 0.6rem 0 0 auto;
 }
 
 .question-copy-prompt {
-  bottom: 0.6rem;
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
 }
 
 .question-clear {
   display: block;
+  width: fit-content;
   margin: 0.6rem 0 0 auto;
   padding: 0.1rem 0.6rem;
   border: 1px solid var(--line);
@@ -1944,7 +1945,7 @@ a.subject-pagination-link:hover {
   display: block;
   margin-bottom: 1rem;
   /* Reserva à direita para o botão copiar absoluto do canto superior. */
-  padding-right: 4.5rem;
+  padding-right: 7.5rem;
   font-weight: 700;
   line-height: 1.5;
 }

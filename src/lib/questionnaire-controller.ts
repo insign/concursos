@@ -329,22 +329,22 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     const copyFullButton = document.createElement('button');
     copyFullButton.type = 'button';
     copyFullButton.className = 'question-copy question-copy-full print-hidden';
-    copyFullButton.textContent = 'Copiar';
+    copyFullButton.textContent = 'Copiar tudo';
     copyFullButton.title = 'Copiar questão com opções';
     copyFullButton.setAttribute('aria-label', 'Copiar questão com opções');
-    copyFullButton.dataset.copyLabel = 'Copiar';
+    copyFullButton.dataset.copyLabel = 'Copiar tudo';
     copyFullButton.addEventListener('click', () => void copyText(copyFullButton, fullText));
 
     const copyPromptButton = document.createElement('button');
     copyPromptButton.type = 'button';
     copyPromptButton.className = 'question-copy question-copy-prompt print-hidden';
-    copyPromptButton.textContent = 'Copiar';
+    copyPromptButton.textContent = 'Copiar questão';
     copyPromptButton.title = 'Copiar apenas a questão';
     copyPromptButton.setAttribute('aria-label', 'Copiar apenas a questão');
-    copyPromptButton.dataset.copyLabel = 'Copiar';
+    copyPromptButton.dataset.copyLabel = 'Copiar questão';
     copyPromptButton.addEventListener('click', () => void copyText(copyPromptButton, question.prompt));
 
-    fieldset.append(copyFullButton, copyPromptButton);
+    fieldset.append(copyPromptButton);
 
     const options = document.createElement('div');
     options.className = 'question-options';
@@ -379,7 +379,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     clearButton.setAttribute('aria-label', 'Remover resposta marcada');
     clearButton.disabled = !documentState.answers[question.id];
     clearButton.addEventListener('click', () => void clearAnswer(question, clearButton));
-    fieldset.append(clearButton);
+    fieldset.append(clearButton, copyFullButton);
     const feedback = createFeedback(question);
     if (feedback) fieldset.append(feedback);
     return fieldset;

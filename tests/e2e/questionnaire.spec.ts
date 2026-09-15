@@ -105,6 +105,9 @@ test('copies the question with and without options', async ({ page, context }) =
   });
 
   const card = page.locator('.question-card').first();
+  const fullBox = await card.getByRole('button', { name: 'Copiar questão com opções' }).boundingBox();
+  const promptBox = await card.getByRole('button', { name: 'Copiar apenas a questão' }).boundingBox();
+  expect(promptBox!.y).toBeLessThan(fullBox!.y);
   await card.getByRole('button', { name: 'Copiar questão com opções' }).click();
   await expect(card.getByRole('button', { name: 'Copiar questão com opções' })).toHaveText('Copiado!');
   expect(await page.evaluate(() => navigator.clipboard.readText())).toBe(expected.full);

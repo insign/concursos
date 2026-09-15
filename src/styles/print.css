@@ -48,12 +48,8 @@
     display: none !important;
   }
 
-  /* Reservas de canto dos botões copiar (ocultos na impressão) voltam ao
+  /* Reserva de canto do botão copiar (oculto na impressão) volta ao
      base no papel para não deixar espaço morto. */
-  .question-card {
-    padding-bottom: clamp(1rem, 3vw, 1.6rem);
-  }
-
   .question-prompt {
     padding-right: 0;
   }
