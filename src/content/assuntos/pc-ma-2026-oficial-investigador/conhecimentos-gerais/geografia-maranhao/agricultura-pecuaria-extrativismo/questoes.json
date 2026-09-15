@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "pc-u075-q01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma cooperativa maranhense comercializa açaí proveniente de plantio conduzido e, em outra frente, açaí coletado de ocorrência espontânea. Para classificar corretamente as duas atividades nas estatísticas oficiais, assinale a opção correta.",
+      "options": [
+        {"id": "A", "text": "Ambas pertencem ao extrativismo vegetal, porque o produto final é o mesmo."},
+        {"id": "B", "text": "O açaí cultivado integra a agricultura; o açaí de ocorrência espontânea coletado integra o extrativismo vegetal."},
+        {"id": "C", "text": "O açaí cultivado integra a pecuária; o espontâneo integra a silvicultura."},
+        {"id": "D", "text": "Ambas pertencem à silvicultura, porque são produtos vegetais."},
+        {"id": "E", "text": "A classificação depende apenas do valor de venda, não da origem do produto."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O critério é a origem do produto. Cultivo agrícola é acompanhado pela <abbr title=\"Produção Agrícola Municipal\">PAM</abbr>; coleta de açaí de vegetação espontânea é extração vegetal, acompanhada pela <abbr title=\"Produção da Extração Vegetal e da Silvicultura\">PEVS</abbr>."
+    },
+    {
+      "id": "pc-u075-q02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito da estrutura agrária maranhense observada no Censo Agropecuário 2017, assinale a opção correta.",
+      "options": [
+        {"id": "A", "text": "A agricultura familiar reunia a maior parte dos estabelecimentos e também mais de 80% da área."},
+        {"id": "B", "text": "A agricultura familiar reunia aproximadamente 85% dos estabelecimentos, mas pouco menos de um terço da área."},
+        {"id": "C", "text": "A agricultura familiar era residual em número de estabelecimentos, embora concentrasse a maior parte da área."},
+        {"id": "D", "text": "O censo permite concluir que agricultura familiar é sinônimo de produção de subsistência."},
+        {"id": "E", "text": "O número de estabelecimentos e a área ocupada são a mesma variável estatística."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "No Maranhão, a agricultura familiar correspondia a 85,14% dos estabelecimentos, mas a 30,88% da área. A questão explora a troca de denominador: maioria em número não significa maioria em área."
+    },
+    {
+      "id": "pc-u075-q03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em questão de prova sobre a região conhecida como <abbr title=\"Maranhão, Tocantins, Piauí e Bahia\">MATOPIBA</abbr>, a característica econômica central a reconhecer é a",
+      "options": [
+        {"id": "A", "text": "formação de um novo bioma que substitui o Cerrado."},
+        {"id": "B", "text": "expansão da fronteira agrícola, com forte presença de grãos e agricultura mecanizada."},
+        {"id": "C", "text": "ocupação integral dos territórios dos quatro estados que formam o acrônimo."},
+        {"id": "D", "text": "substituição da agricultura comercial pela extração vegetal tradicional."},
+        {"id": "E", "text": "especialização regional exclusiva em pecuária extensiva, sem lavouras de grãos."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal de item do <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>, Corpo de Bombeiros Militar do Tocantins, Aluno-Soldado, 2021, questão 23. O núcleo cobrado é a expansão da fronteira agrícola na região. <abbr title=\"Maranhão, Tocantins, Piauí e Bahia\">MATOPIBA</abbr> reúne Tocantins e partes de Maranhão, Piauí e Bahia; não é bioma nem abrange integralmente os quatro estados."
+    },
+    {
+      "id": "pc-u075-q04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na interpretação da <abbr title=\"Pesquisa da Pecuária Municipal\">PPM</abbr>, qual alternativa distingue corretamente estoque e fluxo?",
+      "options": [
+        {"id": "A", "text": "Efetivo bovino em 31 de dezembro é fluxo; leite produzido no ano é estoque."},
+        {"id": "B", "text": "Efetivo bovino em 31 de dezembro e leite produzido no ano são ambos estoques."},
+        {"id": "C", "text": "Efetivo bovino em 31 de dezembro é estoque; leite produzido no ano é fluxo."},
+        {"id": "D", "text": "Abate anual e efetivo em 31 de dezembro são necessariamente iguais."},
+        {"id": "E", "text": "A pesquisa não diferencia rebanhos de produtos da pecuária."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O efetivo em uma data de referência é uma fotografia do rebanho, portanto estoque. A produção ao longo do ano é fluxo. O número de cabeças não deve ser confundido com quantidade abatida."
+    },
+    {
+      "id": "pc-u075-q05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o extrativismo vegetal no Maranhão, assinale a opção correta.",
+      "options": [
+        {"id": "A", "text": "Eucalipto plantado para madeira é, por definição, extração vegetal."},
+        {"id": "B", "text": "A amêndoa de babaçu integra a extração vegetal e possui também relevância social para comunidades de quebradeiras de coco."},
+        {"id": "C", "text": "Açaí cultivado e açaí coletado espontaneamente são registrados sempre na mesma pesquisa."},
+        {"id": "D", "text": "Beneficiamento industrial de óleo de babaçu e coleta do coco são a mesma etapa produtiva."},
+        {"id": "E", "text": "A <abbr title=\"Produção da Extração Vegetal e da Silvicultura\">PEVS</abbr> registra somente produtos de florestas plantadas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O babaçu é produto extrativo relevante no Maranhão e sua cadeia se relaciona às quebradeiras de coco. Eucalipto plantado pertence à silvicultura; cultivo agrícola e coleta espontânea também precisam ser separados."
+    },
+    {
+      "id": "pc-u075-q06",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma prova da Polícia Militar do Maranhão associou a economia do babaçu a áreas de forte ocorrência da palmeira. Entre as unidades de conservação maranhenses relacionadas a esse contexto, destaca-se a Reserva Extrativista",
+      "options": [
+        {"id": "A", "text": "Quilombo do Frexal."},
+        {"id": "B", "text": "Chico Mendes."},
+        {"id": "C", "text": "Tapajós-Arapiuns."},
+        {"id": "D", "text": "Alto Juruá."},
+        {"id": "E", "text": "Verde para Sempre."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal da questão 50 da prova Tipo 1 — Branca da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr> para Soldado Combatente da Polícia Militar do Maranhão, 2012. O gabarito oficial relaciona a Reserva Extrativista Quilombo do Frexal a área de forte ocorrência de babaçu."
+    },
+    {
+      "id": "pc-u075-q07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um candidato lê que há ocorrência de determinada substância mineral no Maranhão e conclui que o estado é necessariamente grande produtor comercial dessa substância. A conclusão é",
+      "options": [
+        {"id": "A", "text": "correta, porque ocorrência geológica e produção são equivalentes."},
+        {"id": "B", "text": "correta, desde que exista porto para exportação no estado."},
+        {"id": "C", "text": "incorreta, porque ocorrência ou potencial, recurso/reserva, título minerário e produção são conceitos distintos."},
+        {"id": "D", "text": "incorreta apenas para petróleo e gás, mas correta para os demais minerais."},
+        {"id": "E", "text": "correta se houver indústria de transformação instalada no estado."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A presença geológica não prova lavra comercial. A <abbr title=\"Agência Nacional de Mineração\">ANM</abbr> distingue bases de ocorrência, títulos e produção. Logística portuária ou transformação industrial também não determinam, por si, o local de extração."
+    },
+    {
+      "id": "pc-u075-q08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Considere as atividades: I — peixe capturado em estuário; II — peixe criado em viveiro; III — minério de ferro extraído no Pará e transportado por ferrovia até terminal no Maranhão. Assinale a opção correta.",
+      "options": [
+        {"id": "A", "text": "I é aquicultura; II é pesca extrativa; III prova extração de ferro no Maranhão."},
+        {"id": "B", "text": "I é pesca extrativa; II é aquicultura; III mostra logística no Maranhão, não extração local."},
+        {"id": "C", "text": "I e II são sempre extrativismo animal; III é produção mineral maranhense."},
+        {"id": "D", "text": "I e II são sempre pecuária; III não integra cadeia mineral."},
+        {"id": "E", "text": "A distinção entre I e II depende apenas do volume produzido."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Captura em ambiente natural é pesca extrativa; criação em viveiro é aquicultura. Transporte e exportação pelo Maranhão não mudam o local onde o minério foi efetivamente extraído."
+    },
+    {
+      "id": "pc-u075-q09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a caracterização da produção agrícola maranhense em 2024, qual associação está correta?",
+      "options": [
+        {"id": "A", "text": "Soja e milho aparecem entre os principais grãos; cana-de-açúcar tem grande tonelagem, o que não implica liderança em valor."},
+        {"id": "B", "text": "Banana é lavoura temporária e mandioca é permanente."},
+        {"id": "C", "text": "Algodão herbáceo em caroço é produto típico de lavoura permanente."},
+        {"id": "D", "text": "A maior quantidade produzida determina automaticamente o maior valor de produção."},
+        {"id": "E", "text": "A <abbr title=\"Produção Agrícola Municipal\">PAM</abbr> mede somente o valor monetário, sem área ou rendimento."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A <abbr title=\"Produção Agrícola Municipal\">PAM</abbr> 2024 mostra soja e milho como grandes grãos do Maranhão. Cana apresenta grande volume físico, mas quantidade e valor são variáveis diferentes. Banana é permanente; mandioca e algodão herbáceo são temporárias na pesquisa."
+    },
+    {
+      "id": "pc-u075-q10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para interpretar corretamente dados de agricultura, pecuária e extrativismo em uma questão, a sequência de verificação mais segura é",
+      "options": [
+        {"id": "A", "text": "decorar o ranking, ignorar o ano e presumir a atividade pelo nome do produto."},
+        {"id": "B", "text": "identificar origem do produto, fonte estatística, variável medida e território ao qual o dado se refere."},
+        {"id": "C", "text": "usar sempre o dado mais recente disponível hoje, ainda que posterior ao corte do edital."},
+        {"id": "D", "text": "tratar área, quantidade, rendimento, valor e efetivo como medidas equivalentes."},
+        {"id": "E", "text": "considerar porto de saída como local de produção de todo bem exportado."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O roteiro origem → fonte → variável → território evita as trocas conceituais mais frequentes e ainda permite controlar o corte temporal do edital."
+    }
+  ]
+}
