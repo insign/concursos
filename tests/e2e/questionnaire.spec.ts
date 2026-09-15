@@ -89,6 +89,57 @@ test('generates consecutive orders without moving answers between question IDs',
   await expect(reshuffle).toBeDisabled();
 });
 
+test('copies the question with and without options', async ({ page, context }) => {
+  await context.grantPermissions(['clipboard-read', 'clipboard-write']);
+  await page.goto(questionnaireUrl);
+
+  const expected = await page.locator('[data-questionnaire-config]').evaluate((element) => {
+    const config = JSON.parse(element.textContent ?? '{}') as {
+      questionSet: { questions: Array<{ prompt: string; options: Array<{ id: string; text: string }> }> };
+    };
+    const first = config.questionSet.questions[0]!;
+    return {
+      prompt: first.prompt,
+      full: `${first.prompt}\n${first.options.map((option) => `${option.id}) ${option.text}`).join('\n')}`,
+    };
+  });
+
+  const card = page.locator('.question-card').first();
+  await card.getByRole('button', { name: 'Copiar questão com opções' }).click();
+  await expect(card.getByRole('button', { name: 'Copiar questão com opções' })).toHaveText('Copiado!');
+  expect(await page.evaluate(() => navigator.clipboard.readText())).toBe(expected.full);
+
+  await card.getByRole('button', { name: 'Copiar apenas a questão' }).click();
+  await expect(card.getByRole('button', { name: 'Copiar apenas a questão' })).toHaveText('Copiado!');
+  await expect.poll(() => page.evaluate(() => navigator.clipboard.readText())).toBe(expected.prompt);
+});
+
+test('removes a marked answer with the clear button', async ({ page }) => {
+  await page.goto(questionnaireUrl);
+
+  const card = page.locator('.question-card').first();
+  const clear = card.locator('[data-clear-answer]');
+  await expect(clear).toBeHidden();
+
+  await card.locator('input[type="radio"]').first().check();
+  await expect(page.getByText('Resposta salva localmente')).toBeVisible();
+  await expect(clear).toBeVisible();
+
+  await clear.click();
+  await expect(card.locator('input[type="radio"]:checked')).toHaveCount(0);
+  await expect(page.getByText('Resposta removida localmente.')).toBeVisible();
+  await expect(clear).toBeHidden();
+
+  await page.reload();
+  await expect(card.locator('input[type="radio"]:checked')).toHaveCount(0);
+  await expect(clear).toBeHidden();
+});
+
+test('wraps long unbroken strings inside question cards', async ({ page }) => {
+  await page.goto(questionnaireUrl);
+  await expect(page.locator('.question-card').first()).toHaveCSS('overflow-wrap', 'anywhere');
+});
+
 test('reveals immediate feedback and permits answer changes', async ({ page }) => {
   await page.goto(questionnaireUrl);
   await page.getByLabel('Imediata').check();

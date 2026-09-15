@@ -48,6 +48,16 @@
     display: none !important;
   }
 
+  /* Reservas de canto dos botões copiar (ocultos na impressão) voltam ao
+     base no papel para não deixar espaço morto. */
+  .question-card {
+    padding-bottom: clamp(1rem, 3vw, 1.6rem);
+  }
+
+  .question-prompt {
+    padding-right: 0;
+  }
+
   /* Siglas e microglossário no impresso/PDF: etiqueta compacta abaixo do
      termo com seta apontando para cima (estilo leitor Kindle). Seta e
      etiqueta são absolutamente posicionadas e NÃO participam do fluxo: a
@@ -236,6 +246,7 @@
   .print-gabarito table {
     break-inside: avoid;
     page-break-inside: avoid;
+    overflow-wrap: anywhere;
   }
 
   .print-bundle-unavailable,

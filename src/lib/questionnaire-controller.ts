@@ -209,6 +209,11 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
       if (questionCard && feedback) questionCard.append(feedback);
     }
 
+    Array.from(questionList.querySelectorAll<HTMLElement>('[data-question-id]'))
+      .find((card) => card.dataset.questionId === question.id)
+      ?.querySelector<HTMLButtonElement>('[data-clear-answer]')
+      ?.removeAttribute('disabled');
+
     try {
       await queueSnapshot(documentState, [question.id]);
       if (documentState.answers[question.id]?.optionId === optionId) {
@@ -227,6 +232,84 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     }
   };
 
+  const clearAnswer = async (question: Question, trigger: HTMLButtonElement) => {
+    if (!documentState.answers[question.id]) return;
+    const submissionWasValid = isSubmissionValid(documentState, config.questionSet);
+    const nextAnswers = { ...documentState.answers };
+    delete nextAnswers[question.id];
+    documentState = { ...documentState, answers: nextAnswers, submission: null };
+    status.textContent = 'Removendo resposta neste dispositivo...';
+
+    const questionCard = Array.from(questionList.querySelectorAll<HTMLElement>('[data-question-id]')).find(
+      (card) => card.dataset.questionId === question.id,
+    );
+    questionCard?.querySelectorAll<HTMLInputElement>('input[type="radio"]').forEach((radio) => {
+      radio.checked = false;
+    });
+    if (correctionMode === 'on-submit') {
+      questionList.querySelectorAll('.question-feedback').forEach((feedback) => feedback.remove());
+    } else {
+      questionCard?.querySelector('.question-feedback')?.remove();
+    }
+    trigger.disabled = true;
+
+    try {
+      await queueSnapshot(documentState, [question.id]);
+      if (!documentState.answers[question.id]) {
+        status.textContent = submissionWasValid
+          ? 'Resposta removida localmente. A finalização anterior foi invalidada.'
+          : 'Resposta removida localmente.';
+      }
+      void refreshProgress().catch(() => undefined);
+      void requestProfileSync(profileId);
+    } catch (error) {
+      if (error instanceof NewerQuestionSetRevisionError) {
+        showNewerRevision();
+      } else {
+        status.textContent = 'Não foi possível remover a resposta localmente. Tente novamente.';
+      }
+    }
+  };
+
+  const copyViaFallback = (text: string): boolean => {
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.readOnly = true;
+    textarea.style.position = 'fixed';
+    textarea.style.top = '0';
+    textarea.style.left = '0';
+    textarea.style.opacity = '0';
+    document.body.append(textarea);
+    try {
+      textarea.select();
+      return document.execCommand('copy');
+    } finally {
+      textarea.remove();
+    }
+  };
+
+  const copyText = async (button: HTMLButtonElement, text: string): Promise<void> => {
+    const originalLabel = button.dataset.copyLabel ?? button.textContent ?? 'Copiar';
+    try {
+      if (navigator.clipboard?.writeText) {
+        try {
+          await navigator.clipboard.writeText(text);
+        } catch {
+          if (!copyViaFallback(text)) throw new Error('copy failed');
+        }
+      } else if (!copyViaFallback(text)) {
+        throw new Error('copy failed');
+      }
+      button.textContent = 'Copiado!';
+    } catch {
+      button.textContent = 'Falhou';
+    } finally {
+      window.setTimeout(() => {
+        button.textContent = originalLabel;
+      }, 1500);
+    }
+  };
+
   const createQuestion = (question: Question, position: number, total: number): HTMLFieldSetElement => {
     const fieldset = document.createElement('fieldset');
     const legend = document.createElement('legend');
@@ -240,6 +323,28 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     legend.textContent = `Questão ${position + 1} de ${total}`;
     prompt.textContent = question.prompt;
     fieldset.append(legend, prompt);
+
+    const fullText = `${question.prompt}\n${question.options.map((option) => `${option.id}) ${option.text}`).join('\n')}`;
+
+    const copyFullButton = document.createElement('button');
+    copyFullButton.type = 'button';
+    copyFullButton.className = 'question-copy question-copy-full print-hidden';
+    copyFullButton.textContent = 'Copiar';
+    copyFullButton.title = 'Copiar questão com opções';
+    copyFullButton.setAttribute('aria-label', 'Copiar questão com opções');
+    copyFullButton.dataset.copyLabel = 'Copiar';
+    copyFullButton.addEventListener('click', () => void copyText(copyFullButton, fullText));
+
+    const copyPromptButton = document.createElement('button');
+    copyPromptButton.type = 'button';
+    copyPromptButton.className = 'question-copy question-copy-prompt print-hidden';
+    copyPromptButton.textContent = 'Copiar';
+    copyPromptButton.title = 'Copiar apenas a questão';
+    copyPromptButton.setAttribute('aria-label', 'Copiar apenas a questão');
+    copyPromptButton.dataset.copyLabel = 'Copiar';
+    copyPromptButton.addEventListener('click', () => void copyText(copyPromptButton, question.prompt));
+
+    fieldset.append(copyFullButton, copyPromptButton);
 
     const options = document.createElement('div');
     options.className = 'question-options';
@@ -264,6 +369,17 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     }
 
     fieldset.append(options);
+
+    const clearButton = document.createElement('button');
+    clearButton.type = 'button';
+    clearButton.className = 'question-clear print-hidden';
+    clearButton.dataset.clearAnswer = 'true';
+    clearButton.textContent = '×';
+    clearButton.title = 'Remover resposta marcada';
+    clearButton.setAttribute('aria-label', 'Remover resposta marcada');
+    clearButton.disabled = !documentState.answers[question.id];
+    clearButton.addEventListener('click', () => void clearAnswer(question, clearButton));
+    fieldset.append(clearButton);
     const feedback = createFeedback(question);
     if (feedback) fieldset.append(feedback);
     return fieldset;

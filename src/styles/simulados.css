@@ -203,6 +203,8 @@
   border: 1px solid var(--line);
   border-radius: 0.9rem;
   background: var(--ground);
+  /* Mesmo motivo do .question-card: URLs longas no enunciado/resolução. */
+  overflow-wrap: anywhere;
 }
 
 .simulado-question legend {
@@ -237,6 +239,11 @@
 .simulado-option[data-incorrect='true'] {
   border-color: var(--signal);
   background: var(--negative-soft);
+}
+
+.simulado-option > span {
+  /* Item de grade: permite encolher abaixo do conteúdo mínimo (URLs longas). */
+  min-width: 0;
 }
 
 .simulado-explanation {
