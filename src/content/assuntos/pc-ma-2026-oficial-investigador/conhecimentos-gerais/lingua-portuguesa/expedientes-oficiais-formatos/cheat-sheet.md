@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: "Expedientes oficiais: finalidades e formatos — revisão rápida"
-description: "Revisão das finalidades, gêneros e estruturas dos expedientes oficiais."
-order: 21
-storageId: pc-u021
----
-
 # Expedientes oficiais: finalidades e formatos — revisão rápida
 
 ## Chave de decisão

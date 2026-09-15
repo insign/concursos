@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: Reescrita de textos de diferentes gêneros e níveis de formalidade — revisão rápida
-description: Checklist de adaptação de gênero, destinatário, suporte e registro sem perda de informação.
-order: 19
-storageId: pc-u019
----
-
 # Reescrita por gênero e formalidade — revisão rápida
 
 ## Regra-mãe

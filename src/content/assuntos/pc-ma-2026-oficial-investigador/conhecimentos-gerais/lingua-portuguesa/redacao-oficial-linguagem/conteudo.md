@@ -1,6 +1,6 @@
 ---
 schemaVersion: 1
-title: Redação oficial: linguagem
+title: "Redação oficial: linguagem"
 description: Aspectos gerais e adequação da linguagem na redação oficial segundo o Manual de Redação da Presidência da República.
 order: 20
 storageId: pc-u020

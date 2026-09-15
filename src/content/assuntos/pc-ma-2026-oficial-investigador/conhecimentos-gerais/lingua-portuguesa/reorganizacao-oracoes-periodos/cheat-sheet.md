@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: Reorganização da estrutura de orações e períodos — revisão rápida
-description: Checklist de reescrita estrutural: ordem, períodos, reduzidas e desenvolvidas, voz, nominalização e preservação de sentido.
-order: 18
-storageId: pc-u018
----
-
 # Reorganização da estrutura de orações e períodos — revisão rápida
 
 ## Regra-mãe

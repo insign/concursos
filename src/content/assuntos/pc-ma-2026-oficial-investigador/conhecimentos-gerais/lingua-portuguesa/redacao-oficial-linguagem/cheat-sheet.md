@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: Redação oficial: linguagem — revisão rápida
-description: Revisão dos aspectos gerais e da adequação da linguagem na redação oficial.
-order: 20
-storageId: pc-u020
----
-
 # Redação oficial: linguagem — revisão rápida
 
 ## Ideia central
