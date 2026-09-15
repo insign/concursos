@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q7959",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "População absoluta corresponde",
+      "options": [
+        { "id": "A", "text": "ao total de habitantes de um território em uma data definida." },
+        { "id": "B", "text": "à relação entre habitantes e área." },
+        { "id": "C", "text": "somente à população urbana." },
+        { "id": "D", "text": "ao saldo entre imigração e emigração." },
+        { "id": "E", "text": "à taxa de crescimento anual." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O número absoluto exige território e data de referência. Ele responde a quantas pessoas residem no recorte, não à relação entre população e área."
+    },
+    {
+      "id": "q7960",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Densidade demográfica é calculada por",
+      "options": [
+        { "id": "A", "text": "área dividida pela população." },
+        { "id": "B", "text": "população dividida pela área territorial." },
+        { "id": "C", "text": "nascimentos menos óbitos." },
+        { "id": "D", "text": "imigrantes menos emigrantes." },
+        { "id": "E", "text": "população urbana menos rural." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Densidade demográfica relaciona população e área, normalmente em habitantes por quilômetro quadrado."
+    },
+    {
+      "id": "q7961",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A distinção conceitual correta entre população absoluta, densidade e povoamento é",
+      "options": [
+        { "id": "A", "text": "população absoluta e densidade são sinônimos, enquanto povoamento mede apenas natalidade." },
+        { "id": "B", "text": "povoamento é calculado dividindo-se o número de habitantes pela área." },
+        { "id": "C", "text": "população absoluta indica o total; densidade relaciona população e área; povoamento descreve o processo e o padrão espacial de ocupação." },
+        { "id": "D", "text": "densidade descreve exclusivamente a história da ocupação, e povoamento indica o total de habitantes." },
+        { "id": "E", "text": "os três conceitos variam apenas na unidade de medida empregada." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os três conceitos respondem a perguntas diferentes: quantos habitantes existem, qual é a relação média população-área e como a ocupação se formou e se distribui no território."
+    },
+    {
+      "id": "q7962",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A densidade média de 20,56 habitantes por quilômetro quadrado do Maranhão",
+      "options": [
+        { "id": "A", "text": "prova que todos os municípios possuem esse valor." },
+        { "id": "B", "text": "resume a relação estadual, mas encobre fortes desigualdades internas." },
+        { "id": "C", "text": "é a população absoluta do estado." },
+        { "id": "D", "text": "mede somente a capital." },
+        { "id": "E", "text": "não depende de área." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Uma média estadual não descreve a distribuição interna. São Luís e Alto Parnaíba, por exemplo, apresentam densidades muito diferentes."
+    },
+    {
+      "id": "q7964",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Saldo migratório corresponde a",
+      "options": [
+        { "id": "A", "text": "imigrantes menos emigrantes no território e período definidos." },
+        { "id": "B", "text": "emigrantes menos imigrantes obrigatoriamente." },
+        { "id": "C", "text": "nascimentos menos óbitos." },
+        { "id": "D", "text": "total de pessoas naturais do estado." },
+        { "id": "E", "text": "todos os deslocamentos recorrentes para trabalho e estudo." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Saldo migratório é a diferença entre entradas e saídas migratórias no recorte definido. Saldo negativo significa mais saídas do que entradas, não ausência de imigrantes."
+    },
+    {
+      "id": "q7968",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A população do Maranhão registrada no Censo 2022 é",
+      "options": [
+        { "id": "A", "text": "6.574.789." },
+        { "id": "B", "text": "6.775.152." },
+        { "id": "C", "text": "7.018.211." },
+        { "id": "D", "text": "1.037.775." },
+        { "id": "E", "text": "6.776.699." }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O panorama oficial atualizado do Censo 2022 registra 6.776.699 residentes no Maranhão."
+    },
+    {
+      "id": "q7971",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A densidade demográfica do Maranhão no Censo 2022 foi",
+      "options": [
+        { "id": "A", "text": "1,00 habitante por quilômetro quadrado." },
+        { "id": "B", "text": "199,49 habitantes por quilômetro quadrado." },
+        { "id": "C", "text": "1.779,87 habitantes por quilômetro quadrado." },
+        { "id": "D", "text": "20,56 habitantes por quilômetro quadrado." },
+        { "id": "E", "text": "70,93 habitantes por quilômetro quadrado." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O indicador estadual do Censo 2022 é 20,56 habitantes por quilômetro quadrado."
+    },
+    {
+      "id": "q7977",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A população de São Luís no Censo 2022 foi",
+      "options": [
+        { "id": "A", "text": "273.110." },
+        { "id": "B", "text": "11.109." },
+        { "id": "C", "text": "6.776.699." },
+        { "id": "D", "text": "1.037.775." },
+        { "id": "E", "text": "1.779.870." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "São Luís registrou 1.037.775 residentes no Censo 2022, valor muito superior ao de municípios menos populosos usados no contraste didático."
+    },
+    {
+      "id": "q7979",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Imperatriz apresentava, no Censo 2022,",
+      "options": [
+        { "id": "A", "text": "11.109 habitantes." },
+        { "id": "B", "text": "1.037.775 habitantes." },
+        { "id": "C", "text": "a menor densidade do estado." },
+        { "id": "D", "text": "273.110 habitantes e posição de segundo município mais populoso." },
+        { "id": "E", "text": "população superior à capital." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Imperatriz registrou 273.110 residentes no Censo 2022 e aparece como importante polo populacional do interior."
+    },
+    {
+      "id": "q7990",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A distribuição populacional maranhense caracteriza-se por",
+      "options": [
+        { "id": "A", "text": "densidade uniforme em todos os municípios." },
+        { "id": "B", "text": "ausência de centros fora da capital." },
+        { "id": "C", "text": "concentração apenas no extremo sul." },
+        { "id": "D", "text": "população distribuída de modo homogêneo por toda a área estadual." },
+        { "id": "E", "text": "forte concentração em alguns centros e extensas áreas de baixa densidade." }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O contraste entre São Luís, Imperatriz e municípios de baixa densidade mostra que a ocupação é espacialmente desigual."
+    },
+    {
+      "id": "q7991",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Os números 514.870 e 1.826.563 representam, respectivamente,",
+      "options": [
+        { "id": "A", "text": "imigrantes e emigrantes de data fixa entre 2017 e 2022." },
+        { "id": "B", "text": "populações urbana e rural do Maranhão." },
+        { "id": "C", "text": "habitantes de São Luís e Imperatriz." },
+        { "id": "D", "text": "residentes no Maranhão não naturais do estado e naturais do Maranhão residentes em outra unidade da Federação." },
+        { "id": "E", "text": "saldos migratórios de 2010 e 2022." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "São estoques acumulados por naturalidade e residência. Eles não equivalem ao fluxo migratório de um quinquênio."
+    },
+    {
+      "id": "q7999",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No recorte interestadual de data fixa entre 2017 e 2022, o Maranhão registrou",
+      "options": [
+        { "id": "A", "text": "259.886 imigrantes e 130.658 emigrantes." },
+        { "id": "B", "text": "514.870 imigrantes e 1.826.563 emigrantes." },
+        { "id": "C", "text": "130.658 imigrantes e 259.886 emigrantes." },
+        { "id": "D", "text": "saldo positivo de 129.228." },
+        { "id": "E", "text": "fluxos de entrada e saída iguais." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "No recorte de data fixa, as saídas superaram as entradas: 130.658 imigrantes e 259.886 emigrantes."
+    },
+    {
+      "id": "q8000",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O saldo migratório interestadual de data fixa do Maranhão, entre 2017 e 2022, foi",
+      "options": [
+        { "id": "A", "text": "+129.228." },
+        { "id": "B", "text": "+1.826.563." },
+        { "id": "C", "text": "-259.886." },
+        { "id": "D", "text": "+130.658." },
+        { "id": "E", "text": "-129.228." }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Pelo critério entrada menos saída, 130.658 - 259.886 = -129.228."
+    },
+    {
+      "id": "q8001",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A taxa líquida migratória interestadual do Maranhão no recorte 2017-2022 foi",
+      "options": [
+        { "id": "A", "text": "+20,56%." },
+        { "id": "B", "text": "+3,07%." },
+        { "id": "C", "text": "-7,85%." },
+        { "id": "D", "text": "-1,91%." },
+        { "id": "E", "text": "+70,93%." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A publicação do Censo 2022 informa taxa líquida migratória de -1,91% para o Maranhão no recorte interestadual de data fixa."
+    },
+    {
+      "id": "q8004",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Saldo migratório negativo significa que",
+      "options": [
+        { "id": "A", "text": "não houve imigrantes." },
+        { "id": "B", "text": "as saídas superaram as entradas no território e período definidos." },
+        { "id": "C", "text": "a população total necessariamente caiu." },
+        { "id": "D", "text": "todos os naturais do território saíram." },
+        { "id": "E", "text": "não ocorreu movimento intraestadual." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Saldo negativo compara apenas entradas e saídas migratórias no recorte. O crescimento natural pode atuar em sentido diferente, e entradas continuam existindo."
+    },
+    {
+      "id": "q8007",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Deslocamento pendular caracteriza-se por",
+      "options": [
+        { "id": "A", "text": "mudança definitiva de residência." },
+        { "id": "B", "text": "nascimento em outra unidade da Federação." },
+        { "id": "C", "text": "retorno obrigatório ao estado natal." },
+        { "id": "D", "text": "movimento recorrente para trabalho ou estudo sem mudança necessária da residência habitual." },
+        { "id": "E", "text": "diferença entre censo e estimativa." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O deslocamento recorrente pode atravessar limites municipais ou estaduais sem mudar a residência habitual; por isso, não deve ser contado automaticamente como migração."
+    },
+    {
+      "id": "q8008",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma pessoa que mora em Timon e trabalha em Teresina, retornando regularmente à residência, realiza",
+      "options": [
+        { "id": "A", "text": "migração de retorno." },
+        { "id": "B", "text": "crescimento natural." },
+        { "id": "C", "text": "imigração internacional." },
+        { "id": "D", "text": "mudança de naturalidade." },
+        { "id": "E", "text": "deslocamento pendular interestadual." }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Cruzar a divisa estadual para trabalhar não altera por si só o município de residência. O caso descreve mobilidade recorrente, não migração."
+    },
+    {
+      "id": "q8015",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Com 6.776.699 habitantes e cerca de 329.651 quilômetros quadrados, a densidade aproximada do Maranhão é",
+      "options": [
+        { "id": "A", "text": "20,56 habitantes por quilômetro quadrado." },
+        { "id": "B", "text": "205,6 habitantes por quilômetro quadrado." },
+        { "id": "C", "text": "2,056 habitantes por quilômetro quadrado." },
+        { "id": "D", "text": "1.779,87 habitantes por quilômetro quadrado." },
+        { "id": "E", "text": "70,93 habitantes por quilômetro quadrado." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A densidade resulta de população dividida pela área. O cálculo reproduz, por arredondamento, o indicador oficial do Censo 2022."
+    },
+    {
+      "id": "q8012",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Nas últimas décadas, os movimentos populacionais no Brasil passaram a ser analisados para além do clássico deslocamento rural-urbano. A respeito dessa dinâmica, assinale a opção correta.",
+      "options": [
+        { "id": "A", "text": "mantêm-se, sem alteração relevante, regiões fixas de expulsão e atração definidas na primeira metade do século XX." },
+        { "id": "B", "text": "o Brasil deixou de receber migração internacional como destino final." },
+        { "id": "C", "text": "o padrão dominante continua sendo apenas a saída do campo para regiões metropolitanas e cidades médias." },
+        { "id": "D", "text": "a mobilidade pendular ocorre somente em metrópoles, não em cidades médias ou pequenas." },
+        { "id": "E", "text": "os movimentos populacionais ocorrem em diferentes formas, intensidades e escalas, do nível local às relações inter-regionais e internacionais." }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Os movimentos contemporâneos assumem formas e escalas diversas, inclusive mobilidades recorrentes. Adaptação de Cebraspe/IBGE, Agente de Pesquisas e Mapeamento, 2021, questão 59; gabarito definitivo E. Prova e gabarito oficiais constam em referencias.md."
+    },
+    {
+      "id": "q20003",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação de questão sobre a dinâmica e a distribuição populacional no Maranhão, assinale a afirmação compatível com o gabarito da banca.",
+      "options": [
+        { "id": "A", "text": "Imperatriz supera São Luís em população absoluta." },
+        { "id": "B", "text": "A população maranhense é majoritariamente rural porque o setor primário domina a produção." },
+        { "id": "C", "text": "O setor de serviços das maiores cidades transfere mão de obra para o campo." },
+        { "id": "D", "text": "Fatores sociais e econômicos influenciam fluxos de maranhenses para outras unidades da Federação." },
+        { "id": "E", "text": "A população estadual concentra-se principalmente no sul por causa de imigração recente." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A banca considerou correta a relação entre fatores sociais/econômicos e os fluxos migratórios de maranhenses para outros estados. Adaptação da Cebraspe, Prefeitura de São Luís, Professor de Geografia, 2017, questão 67; gabarito definitivo D. Prova e gabarito oficiais constam em referencias.md."
+    }
+  ]
+}
