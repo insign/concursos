@@ -1,0 +1,8 @@
+- [Lei nº 14.133/2021, texto compilado](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm), Presidência da República, especialmente arts. 28 a 32 e 72 a 75; leitura temporal ajustada ao corte de 13 jul. 2026.
+- [Decreto nº 12.807/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12807.htm), Presidência da República, atualização dos valores da Lei nº 14.133/2021 com vigência em 1º jan. 2026.
+- [ADI 6.890/DF](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6201037), Supremo Tribunal Federal, interpretação conforme do art. 75, VIII, com tese julgada em setembro de 2024.
+- [FINEP 2024 — prova Área 3, Analista Jurídica](https://cdn.cebraspe.org.br/concursos/finep_23/arquivos/931_FINEP_003_01.PDF), Cebraspe, questão 52.
+- [FINEP 2024 — gabarito oficial definitivo Área 3](https://cdn.cebraspe.org.br/concursos/finep_23/arquivos/GAB_DEFINITIVO_931_FINEP_003_01.PDF), Cebraspe, questão 52 = E.
+- [ANTT 2024 — prova Cargo 2, Especialidade Direito](https://cdn.cebraspe.org.br/concursos/antt_23/arquivos/951_ANTT_002_01.PDF), Cebraspe, item 37.
+- [ANTT 2024 — gabarito oficial definitivo Cargo 2](https://cdn.cebraspe.org.br/concursos/antt_23/arquivos/GAB_DEFINITIVO_951_ANTT_002_01.PDF), Cebraspe, item 37 = C.
+- **Pós-corte:** [Lei nº 15.471/2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15471.htm), Presidência da República, alteração posterior do art. 75, XVI.
