@@ -209,10 +209,15 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
       if (questionCard && feedback) questionCard.append(feedback);
     }
 
-    Array.from(questionList.querySelectorAll<HTMLElement>('[data-question-id]'))
-      .find((card) => card.dataset.questionId === question.id)
-      ?.querySelector<HTMLButtonElement>('[data-clear-answer]')
-      ?.removeAttribute('disabled');
+    const answeredCard = Array.from(questionList.querySelectorAll<HTMLElement>('[data-question-id]')).find(
+      (card) => card.dataset.questionId === question.id,
+    );
+    const clearButton = answeredCard?.querySelector<HTMLButtonElement>('[data-clear-answer]');
+    const checkedRow = answeredCard
+      ?.querySelector<HTMLInputElement>('input[type="radio"]:checked')
+      ?.closest('.question-option');
+    if (checkedRow && clearButton) checkedRow.append(clearButton);
+    clearButton?.removeAttribute('disabled');
 
     try {
       await queueSnapshot(documentState, [question.id]);
@@ -252,6 +257,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
       questionCard?.querySelector('.question-feedback')?.remove();
     }
     trigger.disabled = true;
+    questionCard?.append(trigger);
 
     try {
       await queueSnapshot(documentState, [question.id]);
@@ -379,7 +385,12 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     clearButton.setAttribute('aria-label', 'Remover resposta marcada');
     clearButton.disabled = !documentState.answers[question.id];
     clearButton.addEventListener('click', () => void clearAnswer(question, clearButton));
-    fieldset.append(clearButton, copyFullButton);
+    const checkedRow = options
+      .querySelector<HTMLInputElement>('input[type="radio"]:checked')
+      ?.closest('.question-option');
+    if (checkedRow) checkedRow.append(clearButton);
+    else fieldset.append(clearButton);
+    fieldset.append(copyFullButton);
     const feedback = createFeedback(question);
     if (feedback) fieldset.append(feedback);
     return fieldset;

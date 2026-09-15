@@ -127,6 +127,10 @@ test('removes a marked answer with the clear button', async ({ page }) => {
   await card.locator('input[type="radio"]').first().check();
   await expect(page.getByText('Resposta salva localmente')).toBeVisible();
   await expect(clear).toBeVisible();
+  const checkedRowClass = await card
+    .locator('[data-clear-answer]')
+    .evaluate((element) => element.parentElement?.className ?? '');
+  expect(checkedRowClass.split(' ')).toContain('question-option');
 
   await clear.click();
   await expect(card.locator('input[type="radio"]:checked')).toHaveCount(0);

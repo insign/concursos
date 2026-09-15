@@ -1928,6 +1928,12 @@ a.subject-pagination-link:hover {
   display: none;
 }
 
+.question-option .question-clear {
+  margin: 0 0 0 auto;
+  align-self: center;
+  flex-shrink: 0;
+}
+
 .question-card:focus {
   outline: 3px solid #d27838;
   outline-offset: 3px;
