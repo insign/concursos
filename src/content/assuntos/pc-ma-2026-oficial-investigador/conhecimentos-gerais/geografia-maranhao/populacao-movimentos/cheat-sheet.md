@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: "População, povoamento e movimentos populacionais — revisão rápida"
-description: "Contrastes, números e pegadinhas essenciais sobre população e movimentos populacionais no Maranhão."
-order: 74
-storageId: "pc-u074"
----
-
 # População, povoamento e movimentos populacionais — revisão rápida
 
 ## Quatro perguntas
@@ -32,6 +24,14 @@ storageId: "pc-u074"
 Fonte dos indicadores: <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>.
 
 **Leitura:** a média estadual esconde forte desigualdade interna de concentração populacional.
+
+## Povoamento
+
+- rios, sobretudo o Itapecuru, atuaram historicamente como eixos de penetração no leste;
+- o médio Mearim é uma área antiga de povoamento do interior;
+- o oeste passou a atrair fluxos migratórios com força a partir da década de 1960.
+
+**Densidade fotografa uma relação em uma data; povoamento explica a formação da ocupação ao longo do tempo.**
 
 ## Migração
 

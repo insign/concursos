@@ -53,7 +53,15 @@ Não transforme densidade em fotografia perfeita da distribuição interna. Dois
 
 **Povoamento** é o processo histórico e espacial pelo qual a população ocupa, permanece e se distribui no território. Ele ajuda a explicar por que a população atual não está espalhada de modo homogêneo.
 
-Para o Maranhão, o que interessa nesta unidade é reconhecer o **resultado espacial desigual** desse processo: há forte concentração em alguns centros, como São Luís e Imperatriz, ao mesmo tempo em que extensas áreas apresentam densidades bem menores.
+Uma síntese histórica do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> ajuda a enxergar esse mecanismo no Maranhão:
+
+- no leste do estado, rios — com destaque para o Itapecuru — funcionaram como eixos de penetração da população desde o período colonial;
+- o médio vale do Mearim aparece como uma das áreas antigas de povoamento do interior;
+- a porção oeste passou a exercer forte atração de fluxos migratórios a partir da década de 1960.
+
+Esses exemplos não formam uma única “linha de povoamento”. Eles mostram que **áreas e períodos diferentes tiveram mecanismos distintos de ocupação**, o que ajuda a explicar a distribuição desigual atual.
+
+Para o Maranhão, portanto, reconheça o **resultado espacial desigual** desse processo: há forte concentração em alguns centros, como São Luís e Imperatriz, ao mesmo tempo em que extensas áreas apresentam densidades bem menores.
 
 A banca pode explorar três erros:
 
