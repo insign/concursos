@@ -22,8 +22,8 @@ export function finalizeSecurityHtml(html, relativePath) {
   const policy = cspMatch[2];
   const styleDirective = /style-src [^;]+;/;
   if (!styleDirective.test(policy)) throw new Error(`CSP sem style-src no arquivo ${relativePath}.`);
-  if (!/script-src 'self' 'sha256-/.test(policy)) throw new Error(`CSP sem hashes de script no arquivo ${relativePath}.`);
-  if (/script-src [^;]*(?:'unsafe-inline'|'unsafe-eval')/.test(policy)) {
+  if (!/script-src 'self' [^;]*'sha256-/.test(policy)) throw new Error(`CSP sem hashes de script no arquivo ${relativePath}.`);
+  if (/script-src(?:-elem)? [^;]*(?:'unsafe-inline'|'unsafe-eval')/.test(policy)) {
     throw new Error(`CSP permite execução insegura de scripts no arquivo ${relativePath}.`);
   }
 

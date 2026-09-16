@@ -50,7 +50,26 @@ function isSharedAsset(asset) {
 }
 
 export function resourceHash(resource, contents) {
-  return createHash('sha256').update(resource).update(contents).digest('hex').slice(0, 20);
+  return createHash('sha256').update(resource).update(stripBeaconBytes(contents)).digest('hex').slice(0, 20);
+}
+
+// O Cloudflare injeta o beacon do Web Analytics no HTML servido (fora do
+// dist). Sem este strip, o hash do manifesto nunca bateria com o baixado.
+// Espelho em src/lib/offline-packages.ts:stripCloudflareBeacon — manter iguais.
+const CF_BEACON_SCRIPT_PATTERN =
+  /<script\b[^>]*\bstatic\.cloudflareinsights\.com\/beacon\.min\.js[^>]*>\s*<\/script\s*>/gi;
+const CF_BEACON_COMMENT_PATTERN = /<!--\s*Cloudflare[^>]*?-->/gi;
+
+export function stripCloudflareBeacon(html) {
+  return html.replace(CF_BEACON_SCRIPT_PATTERN, '').replace(CF_BEACON_COMMENT_PATTERN, '');
+}
+
+function stripBeaconBytes(contents) {
+  // Prescan por bytes: evita decode de binários grandes no caminho comum.
+  if (contents.indexOf('cloudflareinsights') === -1) return contents;
+  const text = contents.toString('utf8');
+  if (!text.includes('cloudflareinsights')) return contents;
+  return Buffer.from(stripCloudflareBeacon(text), 'utf8');
 }
 
 function createResourceReader(distDirectory) {

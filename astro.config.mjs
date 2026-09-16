@@ -16,6 +16,8 @@ export default defineConfig({
       scriptDirective: {
         resources: [
           "'self'",
+          // Beacon do Cloudflare Web Analytics (injetado no serve).
+          "https://static.cloudflareinsights.com",
           // Hash do script inline anti-flash de tema (BaseLayout.astro). Astro não
           // hasheia <script is:inline> clássico automaticamente; renderiza verbatim.
           // Se o conteúdo do script mudar, recomputar: extrair do dist e sha256 base64.
@@ -28,7 +30,7 @@ export default defineConfig({
       directives: [
         "default-src 'self'",
         "base-uri 'self'",
-        "connect-src 'self' https://kv.helio.me",
+        "connect-src 'self' https://kv.helio.me https://cloudflareinsights.com",
         "font-src 'self' data:",
         "form-action 'self'",
         "frame-src 'none'",

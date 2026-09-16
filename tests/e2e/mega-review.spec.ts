@@ -40,7 +40,7 @@ test('links and renders an optional mega review with rich Markdown', async ({ pa
   await expect(page.locator('.subject-tabs')).toHaveCount(0);
   await expect(page.locator('meta[http-equiv="content-security-policy"]')).toHaveAttribute(
     'content',
-    /script-src 'self' 'sha256-/,
+    /script-src 'self' [^;]*'sha256-/,
   );
   expect((await request.get(reviewPath)).status()).toBe(200);
 

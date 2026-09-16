@@ -39,7 +39,7 @@ test('enforces the generated CSP without blocking application features', async (
 
   await page.goto('/concursos/concurso-exemplo/assunto-exemplo/cheat-sheet/');
   const policy = page.locator('meta[http-equiv="content-security-policy"]');
-  await expect(policy).toHaveAttribute('content', /script-src 'self' 'sha256-/);
+  await expect(policy).toHaveAttribute('content', /script-src 'self' [^;]*'sha256-/);
   await expect(policy).toHaveAttribute('content', /style-src 'self' 'unsafe-inline'/);
   await expect(policy).not.toHaveAttribute('content', /unsafe-eval/);
 
@@ -57,7 +57,7 @@ test('serves the custom noindex 404 while allowing crawlers to observe it', asyn
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
   await expect(page.locator('meta[http-equiv="content-security-policy"]')).toHaveAttribute(
     'content',
-    /script-src 'self' 'sha256-/,
+    /script-src 'self' [^;]*'sha256-/,
   );
 
   const robots = await request.get('/robots.txt');

@@ -8,6 +8,7 @@ import {
   getOfflineContestRecord,
   hashOfflineResource,
   removeContestPackage,
+  stripCloudflareBeacon,
   type OfflinePackageManifest,
 } from '../../src/lib/offline-packages';
 import { SHARED_ASSET_CACHE } from '../../src/lib/pwa-cache';
@@ -468,5 +469,48 @@ describe('offline contest packages', () => {
     // Com schema v3, sharedResources tem hash mesmo quando resources é vazio, então shared é copiado
     expect(fetchResource).toHaveBeenCalledTimes(1);
     expect(record.resourceHashes).toEqual({});
+  });
+});
+
+describe('Cloudflare beacon stripping', () => {
+  const BEACON = `<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f31644b332dd4f4e9b89a5431b9a0502"}'></script><!-- Cloudflare Pages Analytics -->`;
+
+  it('removes the injected beacon keeping the body intact', () => {
+    const html = `<html><body><p>oi</p>${BEACON}</body></html>`;
+    expect(stripCloudflareBeacon(html)).toBe('<html><body><p>oi</p></body></html>');
+  });
+
+  it('is a no-op without the beacon', () => {
+    const html = '<html><body><p>oi</p></body></html>';
+    expect(stripCloudflareBeacon(html)).toBe(html);
+  });
+
+  it('hashes served bytes equal to pristine bytes', async () => {
+    const resource = '/concursos/exemplo/';
+    const pristine = new TextEncoder().encode('<html><body><p>oi</p></body></html>');
+    const served = new TextEncoder().encode(`<html><body><p>oi</p>${BEACON}</body></html>`);
+    await expect(hashOfflineResource(resource, pristine)).resolves.toBe(
+      await hashOfflineResource(resource, served),
+    );
+  });
+});
+
+describe('beacon prescan', () => {
+  it('hashes invalid-UTF8 binary without the needle bit-identically', async () => {
+    const resource = '/_astro/font.woff2';
+    const bytes = new Uint8Array([0xff, 0xfe, 0x00, 0x89, 0x50, 0x4e, 0x47]);
+    const direct = await crypto.subtle.digest(
+      'SHA-256',
+      (() => {
+        const path = new TextEncoder().encode(resource);
+        const combined = new Uint8Array(path.length + bytes.length);
+        combined.set(path, 0);
+        combined.set(bytes, path.length);
+        return combined;
+      })(),
+    ).then(
+      (digest) => [...new Uint8Array(digest)].map((byte) => byte.toString(16).padStart(2, '0')).join('').slice(0, 20),
+    );
+    await expect(hashOfflineResource(resource, bytes)).resolves.toBe(direct);
   });
 });

@@ -33,6 +33,13 @@ describe('build scripts', () => {
     expect(() => finalizeSecurityHtml(source, 'dist/index.html')).toThrow('execução insegura');
   });
 
+  it('accepts allowlisted hosts between self and hashes without weakening', () => {
+    const source = `<meta http-equiv="content-security-policy" content="script-src 'self' https://static.cloudflareinsights.com 'sha256-x'; style-src 'self';">`;
+    expect(() => finalizeSecurityHtml(source, 'dist/index.html')).not.toThrow();
+    const missing = `<meta http-equiv="content-security-policy" content="script-src 'self' https://static.cloudflareinsights.com; style-src 'self';">`;
+    expect(() => finalizeSecurityHtml(missing, 'dist/index.html')).toThrow('sem hashes');
+  });
+
   it('hashes resources deterministically and enforces budgets', () => {
     expect(resourceHash('/asset.js', Buffer.from('body'))).toBe(resourceHash('/asset.js', Buffer.from('body')));
     expect(isInventoryAsset('/service-worker.js')).toBe(false);
@@ -113,5 +120,14 @@ describe('service worker build stamp', () => {
     const previousSize = await appendBuildStamp(filePath, 'zzz');
     expect(previousSize).toBe('self.a = 1;\n'.length);
     await expect(readFile(filePath, 'utf8')).resolves.toBe('self.a = 1;\n// build:zzz\n');
+  });
+});
+
+describe('Cloudflare beacon stripping (builder)', () => {
+  it('matches the client-side stripping on the real snippet', async () => {
+    const { stripCloudflareBeacon } = await import('../../scripts/lib/offline-inventory-builder.mjs');
+    const beacon = `<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f31644b332dd4f4e9b89a5431b9a0502"}'></script><!-- Cloudflare Pages Analytics -->`;
+    expect(stripCloudflareBeacon(`<html>${beacon}</html>`)).toBe('<html></html>');
+    expect(stripCloudflareBeacon('<html></html>')).toBe('<html></html>');
   });
 });

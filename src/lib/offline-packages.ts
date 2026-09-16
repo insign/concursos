@@ -85,15 +85,44 @@ function requestFor(path: string, origin: string): Request {
 
 export async function hashOfflineResource(resource: string, contents: BufferSource): Promise<string> {
   const pathBytes = new TextEncoder().encode(resource);
-  const body =
+  const raw =
     contents instanceof ArrayBuffer
       ? new Uint8Array(contents)
       : new Uint8Array(contents.buffer, contents.byteOffset, contents.byteLength);
+  // Prescan por bytes: evita decode no caminho comum (binários grandes).
+  const needle = new TextEncoder().encode('cloudflareinsights');
+  let hasNeedle = false;
+  for (let index = 0; index + needle.length <= raw.length; index += 1) {
+    let found = true;
+    for (let offset = 0; offset < needle.length; offset += 1) {
+      if (raw[index + offset] !== needle[offset]) {
+        found = false;
+        break;
+      }
+    }
+    if (found) {
+      hasNeedle = true;
+      break;
+    }
+  }
+  // Espelho de scripts/lib/offline-inventory-builder.mjs:stripCloudflareBeacon
+  // — o beacon injetado no serve não existe no dist; sem strip, o hash do
+  // manifesto nunca bateria com o baixado. Manter iguais.
+  const text = hasNeedle ? new TextDecoder().decode(raw) : '';
+  const body = hasNeedle ? new TextEncoder().encode(stripCloudflareBeacon(text)) : raw;
   const combined = new Uint8Array(pathBytes.length + body.byteLength);
   combined.set(pathBytes, 0);
   combined.set(body, pathBytes.length);
   const digest = await crypto.subtle.digest('SHA-256', combined);
   return [...new Uint8Array(digest)].map((byte) => byte.toString(16).padStart(2, '0')).join('').slice(0, 20);
+}
+
+const CF_BEACON_SCRIPT_PATTERN =
+  /<script\b[^>]*\bstatic\.cloudflareinsights\.com\/beacon\.min\.js[^>]*>\s*<\/script\s*>/gi;
+const CF_BEACON_COMMENT_PATTERN = /<!--\s*Cloudflare[^>]*?-->/gi;
+
+export function stripCloudflareBeacon(html: string): string {
+  return html.replace(CF_BEACON_SCRIPT_PATTERN, '').replace(CF_BEACON_COMMENT_PATTERN, '');
 }
 
 const OFFLINE_PACKAGE_LEASE_TTL = 15_000;
