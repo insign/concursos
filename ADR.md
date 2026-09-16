@@ -214,3 +214,25 @@ Related: ADR-001, ADR-005, and GitHub issues #715, #717, #723, #728, #729, #730.
 - ⚠️ Scope equality is not semantic proof; migration still requires editorial comparison of body, references, and temporal cut.
 - ❌ No automatic migration, no contest-specific overlay, and no shared public route are introduced.
 - ❌ The `mega-revisao` path segment is reserved and may not be used as a final subject slug; this supersedes ADR-005's wording that mega-review paths leave all valid slugs available.
+
+## ADR-008: Mirrored edge-mutation strip for offline download integrity (2026-09-16)
+
+**Status**: Accepted
+
+**Context**: Offline downloads validate `sha256(path+bytes)` against the manifest (builder `scripts/lib/offline-inventory-builder.mjs` `resourceHash`, client `src/lib/offline-packages.ts` `hashOfflineResource`). On 2026-09-16, downloads failed with "Integridade inválida" because Cloudflare mutated HTML at the edge in 2 ways: (a) Web Analytics beacon (a `cloudflareinsights` snippet before `</body>`), (b) Email Obfuscation rewriting emails and injecting `email-decode.min.js`. Evidence: live manifest vs live route in MISMATCH; with strip, 6/6 MATCH. Commit: `6517b53` (strip+CSP).
+
+**Decision**:
+- Apply a mirrored beacon strip on both sides (binaries intact; fail closed if the format changes).
+- Extend CSP to allow `static.cloudflareinsights.com` (script) and `cloudflareinsights.com` (connect).
+- Turn off Email Obfuscation via API on the `helio.me` zone (`PATCH zones/settings/email_obfuscation` off; no per-subdomain scoping).
+
+**Rationale**:
+- The manifest-vs-route comparison isolated the failure to edge mutation rather than to build or packaging input.
+- Mirrored stripping keeps both hash endpoints on identical bytes while binaries stay untouched and format drift fails closed.
+- Disabling Email Obfuscation removes the second mutation source at the only available scope (zone-wide).
+
+**Consequences**:
+- ✅ Never trust edge-served bytes for hashing without normalizing edge mutations.
+- ✅ Keep `email_obfuscation` off and Web Analytics without an alternative injection.
+- ⚠️ The anti-bot challenge (`__CF$cv$params`) only affects bots and fails closed with retry.
+- ❌ No per-subdomain control for Email Obfuscation is introduced.
