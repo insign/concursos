@@ -240,8 +240,7 @@
     page-break-before: always;
   }
 
-  .print-question,
-  .print-gabarito table {
+  .print-question {
     break-inside: avoid;
     page-break-inside: avoid;
     overflow-wrap: anywhere;
@@ -316,15 +315,12 @@
      as regras de tela não as alcançam: replicar bordas, respiro e fundo do
      cabeçalho aqui. O fundo exige print-color-adjust, pois navegadores
      ignoram cores de fundo com "gráficos de fundo" desligado. */
-  .print-bundle-section table,
-  .print-gabarito table {
+  .print-bundle-section table {
     margin: 1rem 0;
   }
 
   .print-bundle-section th,
-  .print-bundle-section td,
-  .print-gabarito th,
-  .print-gabarito td {
+  .print-bundle-section td {
     padding: 0.45rem 0.6rem;
     border: 1pt solid #777;
     text-align: left;
@@ -332,15 +328,40 @@
   }
 
   .print-bundle-section th,
-  .print-gabarito th,
   .reading-surface th {
     background: #ebebeb !important;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
 
-  /* Letra certa em negrito: o número já tem fundo (th), a resposta ganha peso. */
-  .print-gabarito td {
+  /* Gabarito lado a lado: itens compactos fluem enquanto couberem na linha. */
+  .print-gabarito-list {
+    list-style: none;
+    margin: 1rem 0;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.4rem;
+    font-size: 9pt;
+  }
+
+  .print-gabarito-list > li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    white-space: nowrap;
+  }
+
+  .print-gabarito-number {
+    font-weight: 700;
+    background: #ebebeb !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    border: 0.75pt solid #777;
+    padding: 0.1rem 0.4rem;
+    margin-right: 0.35rem;
+  }
+
+  .print-gabarito-letter {
     font-weight: 700;
   }
 

@@ -262,10 +262,10 @@ const config = JSON.stringify({
       .map((question, index) => {
         const optionIndex = question.options.findIndex((option) => option.id === question.correctOptionId);
         const letter = LETTERS[optionIndex] ?? '–';
-        return `<tr><th scope="row">${index + 1}</th><td>${letter}</td></tr>`;
+        return `<li><span class="print-gabarito-number">${index + 1}</span><span class="print-gabarito-letter">${letter}</span></li>`;
       })
       .join('');
-    return `${scopeNote}${cards}<section class="print-gabarito"><h3>Gabarito</h3><table><thead><tr><th scope="col">Questão</th><th scope="col">Resposta</th></tr></thead><tbody>${rows}</tbody></table></section>`;
+    return `${scopeNote}${cards}<section class="print-gabarito"><h3>Gabarito</h3><ol class="print-gabarito-list">${rows}</ol></section>`;
   }
 
   async function fetchText(url: string): Promise<string> {
