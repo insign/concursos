@@ -153,6 +153,15 @@ test('reveals immediate feedback and permits answer changes', async ({ page }) =
 
   await page.getByLabel('Efetividade').check();
   await expect(page.getByText('Resposta incorreta.')).toBeVisible();
+  const wrongRowClass = await page
+    .getByLabel('Efetividade')
+    .evaluate((element) => element.closest('.question-option')?.className ?? '');
+  expect(wrongRowClass.split(' ')).toContain('is-incorrect');
+  const rightRowClass = await page
+    .getByLabel('Eficiência')
+    .evaluate((element) => element.closest('.question-option')?.className ?? '');
+  expect(rightRowClass.split(' ')).toContain('is-correct');
+  await expect(page.getByLabel('Eficiência')).not.toBeChecked();
 
   await page.getByLabel('Eficiência').check();
   await expect(page.getByText('Resposta correta.')).toBeVisible();

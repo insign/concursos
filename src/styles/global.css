@@ -1972,9 +1972,21 @@ a.subject-pagination-link:hover {
   font-size: var(--step--1);
 }
 
-.question-option:has(input:checked) {
+.question-option:has(input:checked):not(.is-correct):not(.is-incorrect) {
   border-color: var(--accent);
   background: var(--accent-soft);
+}
+
+/* Correção revelada: errada marcada em vermelho, certa destacada em verde
+   sem radio marcado (a classe vai na linha, nunca checa o input). */
+.question-option.is-correct {
+  border-color: var(--positive);
+  background: var(--positive-soft);
+}
+
+.question-option.is-incorrect {
+  border-color: var(--signal);
+  background: var(--negative-soft);
 }
 
 .question-option label {

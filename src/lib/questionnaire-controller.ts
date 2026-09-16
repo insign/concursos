@@ -186,6 +186,20 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     }
   };
 
+  const paintRevealedRows = (card: ParentNode, question: Question): void => {
+    card.querySelectorAll('.question-option').forEach((row) => {
+      row.classList.remove('is-correct', 'is-incorrect');
+    });
+    const answer = shouldReveal() ? documentState.answers[question.id] : undefined;
+    if (!answer) return;
+    for (const row of Array.from(card.querySelectorAll<HTMLElement>('.question-option'))) {
+      const input = row.querySelector<HTMLInputElement>('input[type="radio"]');
+      if (!input) continue;
+      if (input.value === question.correctOptionId) row.classList.add('is-correct');
+      else if (input.value === answer.optionId) row.classList.add('is-incorrect');
+    }
+  };
+
   const selectAnswer = async (question: Question, optionId: string) => {
     const submissionWasValid = isSubmissionValid(documentState, config.questionSet);
     documentState = {
@@ -198,20 +212,22 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     };
     status.textContent = 'Salvando resposta neste dispositivo...';
 
+    const questionCard = Array.from(questionList.querySelectorAll<HTMLElement>('[data-question-id]')).find(
+      (card) => card.dataset.questionId === question.id,
+    );
     if (correctionMode === 'on-submit') {
       questionList.querySelectorAll('.question-feedback').forEach((feedback) => feedback.remove());
+      questionList.querySelectorAll('.question-option.is-correct, .question-option.is-incorrect').forEach((row) => {
+        row.classList.remove('is-correct', 'is-incorrect');
+      });
     } else {
-      const questionCard = Array.from(questionList.querySelectorAll<HTMLElement>('[data-question-id]')).find(
-        (card) => card.dataset.questionId === question.id,
-      );
       questionCard?.querySelector('.question-feedback')?.remove();
       const feedback = createFeedback(question);
       if (questionCard && feedback) questionCard.append(feedback);
+      if (questionCard) paintRevealedRows(questionCard, question);
     }
 
-    const answeredCard = Array.from(questionList.querySelectorAll<HTMLElement>('[data-question-id]')).find(
-      (card) => card.dataset.questionId === question.id,
-    );
+    const answeredCard = questionCard;
     const clearButton = answeredCard?.querySelector<HTMLButtonElement>('[data-clear-answer]');
     const checkedRow = answeredCard
       ?.querySelector<HTMLInputElement>('input[type="radio"]:checked')
@@ -251,6 +267,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     questionCard?.querySelectorAll<HTMLInputElement>('input[type="radio"]').forEach((radio) => {
       radio.checked = false;
     });
+    if (questionCard) paintRevealedRows(questionCard, question);
     if (correctionMode === 'on-submit') {
       questionList.querySelectorAll('.question-feedback').forEach((feedback) => feedback.remove());
     } else {
@@ -375,6 +392,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     }
 
     fieldset.append(options);
+    paintRevealedRows(fieldset, question);
 
     const clearButton = document.createElement('button');
     clearButton.type = 'button';
