@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u049-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação descreve corretamente a função do balancete de verificação?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ele substitui o balanço patrimonial e demonstra a posição financeira definitiva da entidade."
+        },
+        {
+          "id": "B",
+          "text": "Ele auxilia a conferir a coerência aritmética da escrituração, mas o equilíbrio dos totais não prova ausência de todos os erros."
+        },
+        {
+          "id": "C",
+          "text": "Ele serve exclusivamente para registrar fatos no Livro Diário."
+        },
+        {
+          "id": "D",
+          "text": "Ele demonstra apenas receitas e despesas, sem contas patrimoniais."
+        },
+        {
+          "id": "E",
+          "text": "Ele elimina a necessidade de investigar lançamentos em contas indevidas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O balancete é instrumento de conferência e preparação. A igualdade entre saldos devedores e credores ou entre débitos e créditos é necessária, mas erros equilibrados — como uso de conta errada ou omissão completa — podem não romper essa igualdade."
+    },
+    {
+      "id": "u049-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um balancete simples de duas colunas, quais informações aparecem tipicamente para cada conta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Somente saldo anterior e saldo final, sem indicação de natureza."
+        },
+        {
+          "id": "B",
+          "text": "Saldo devedor e saldo credor."
+        },
+        {
+          "id": "C",
+          "text": "Movimento a débito, movimento a crédito, saldo anterior e saldo atual."
+        },
+        {
+          "id": "D",
+          "text": "Ativo circulante e passivo circulante."
+        },
+        {
+          "id": "E",
+          "text": "Receita bruta e receita líquida."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O modelo simples de duas colunas apresenta os saldos devedores e credores. Modelos mais detalhados acrescentam movimentos e saldos anteriores."
+    },
+    {
+      "id": "u049-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um balancete apresenta quatro colunas numéricas: movimento a débito, movimento a crédito, saldo devedor e saldo credor. Qual é a principal vantagem em relação ao modelo de duas colunas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Permitir visualizar os movimentos do período, além dos saldos resultantes."
+        },
+        {
+          "id": "B",
+          "text": "Transformar o balancete em demonstração do resultado."
+        },
+        {
+          "id": "C",
+          "text": "Dispensar a igualdade entre débitos e créditos."
+        },
+        {
+          "id": "D",
+          "text": "Mostrar necessariamente o saldo anterior de cada conta."
+        },
+        {
+          "id": "E",
+          "text": "Identificar qualquer fraude ou omissão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O modelo de quatro colunas evidencia os movimentos a débito e a crédito e os saldos devedor e credor. O saldo anterior só aparece em modelos que o acrescentam, como o de seis colunas."
+    },
+    {
+      "id": "u049-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual conjunto corresponde à estrutura típica de um balancete de seis colunas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Saldo anterior devedor/credor, movimento a débito/crédito e saldo atual devedor/credor."
+        },
+        {
+          "id": "B",
+          "text": "Somente saldo final devedor/credor e resultado do exercício."
+        },
+        {
+          "id": "C",
+          "text": "Ativo, passivo, patrimônio líquido, receita, despesa e caixa."
+        },
+        {
+          "id": "D",
+          "text": "Receita bruta, deduções, receita líquida, custo, lucro bruto e lucro líquido."
+        },
+        {
+          "id": "E",
+          "text": "Saldo anterior, receita, despesa, imposto, dividendos e caixa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O modelo de seis colunas explicita três pares: saldos anteriores, movimentos do período e saldos atuais, cada um separado entre devedor e credor."
+    },
+    {
+      "id": "u049-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma entidade registrou um fato de R$ 8 mil a débito e a crédito pelo mesmo valor, mas usou duas contas erradas. O que tende a ocorrer no balancete?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os totais necessariamente deixarão de fechar."
+        },
+        {
+          "id": "B",
+          "text": "O balancete pode permanecer equilibrado, pois o erro preservou a igualdade entre débito e crédito."
+        },
+        {
+          "id": "C",
+          "text": "O erro será automaticamente transformado em despesa."
+        },
+        {
+          "id": "D",
+          "text": "O balanço patrimonial ficará sempre correto porque o balancete fechou."
+        },
+        {
+          "id": "E",
+          "text": "O fato desaparecerá da escrituração."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Erros que preservam a igualdade de valores podem manter o balancete equilibrado. Por isso, igualdade aritmética não equivale a correção integral da escrituração."
+    },
+    {
+      "id": "u049-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual contraste temporal entre balanço patrimonial e demonstração do resultado está correto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ambos representam apenas movimentos de caixa em uma data."
+        },
+        {
+          "id": "B",
+          "text": "O balanço patrimonial mostra posição em uma data; a demonstração do resultado mostra desempenho ao longo de um período."
+        },
+        {
+          "id": "C",
+          "text": "O balanço mostra receitas e despesas; a demonstração do resultado mostra somente ativos e passivos."
+        },
+        {
+          "id": "D",
+          "text": "A demonstração do resultado mostra a posição patrimonial em uma data; o balanço mostra desempenho anual."
+        },
+        {
+          "id": "E",
+          "text": "Nenhuma das demonstrações utiliza o regime de competência."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O balanço patrimonial é uma fotografia da posição patrimonial e financeira em determinada data. A demonstração do resultado explica a formação do resultado em um período, pelo regime de competência."
+    },
+    {
+      "id": "u049-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a estrutura legal do balanço patrimonial na Lei nº 6.404/1976, qual classificação está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ativo: circulante e não circulante; passivo: circulante e não circulante; patrimônio líquido em grupo próprio."
+        },
+        {
+          "id": "B",
+          "text": "Ativo: apenas disponibilidades; passivo: apenas obrigações vencidas."
+        },
+        {
+          "id": "C",
+          "text": "Patrimônio líquido integra o ativo não circulante."
+        },
+        {
+          "id": "D",
+          "text": "Receitas e despesas são grupos permanentes do balanço patrimonial."
+        },
+        {
+          "id": "E",
+          "text": "Passivo não circulante integra o patrimônio líquido."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 6.404/1976 organiza o ativo em circulante e não circulante e, no lado das fontes, distingue passivo circulante, passivo não circulante e patrimônio líquido."
+    },
+    {
+      "id": "u049-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa correta sobre patrimônio líquido no balanço patrimonial.",
+      "options": [
+        {
+          "id": "A",
+          "text": "É uma obrigação exigível de curto prazo perante terceiros."
+        },
+        {
+          "id": "B",
+          "text": "É apresentado em grupo próprio e corresponde, conceitualmente, à participação residual nos ativos após dedução dos passivos."
+        },
+        {
+          "id": "C",
+          "text": "É sinônimo de caixa disponível."
+        },
+        {
+          "id": "D",
+          "text": "É formado apenas pelo lucro líquido do exercício."
+        },
+        {
+          "id": "E",
+          "text": "Integra obrigatoriamente o passivo circulante."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O patrimônio líquido não é passivo exigível perante terceiros. Ele aparece em grupo próprio e representa a participação residual nos ativos depois de deduzidos os passivos."
+    },
+    {
+      "id": "u049-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na estrutura da demonstração do resultado prevista na Lei nº 6.404/1976, a receita líquida de vendas é obtida, em termos gerais, a partir da receita bruta após",
+      "options": [
+        {
+          "id": "A",
+          "text": "somar o custo dos produtos vendidos."
+        },
+        {
+          "id": "B",
+          "text": "deduzir devoluções/abatimentos e tributos incidentes sobre vendas, conforme a estrutura legal."
+        },
+        {
+          "id": "C",
+          "text": "adicionar toda despesa administrativa."
+        },
+        {
+          "id": "D",
+          "text": "subtrair o patrimônio líquido inicial."
+        },
+        {
+          "id": "E",
+          "text": "somar o saldo de caixa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A estrutura legal parte da receita bruta e evidencia deduções como devoluções/abatimentos e tributos incidentes sobre vendas para chegar à receita líquida, antes da confrontação com custos e outras despesas."
+    },
+    {
+      "id": "u049-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma empresa prestou serviço em dezembro, mas só receberá em janeiro. Na demonstração do resultado de dezembro, qual raciocínio é compatível com o regime de competência?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Não reconhecer receita até o recebimento."
+        },
+        {
+          "id": "B",
+          "text": "Reconhecer o efeito econômico em dezembro, se os critérios de reconhecimento estiverem atendidos, independentemente do recebimento em janeiro."
+        },
+        {
+          "id": "C",
+          "text": "Reconhecer apenas a entrada de caixa em dezembro."
+        },
+        {
+          "id": "D",
+          "text": "Registrar o valor diretamente no patrimônio líquido, sem receita."
+        },
+        {
+          "id": "E",
+          "text": "Tratar o serviço como ativo imobilizado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A demonstração do resultado segue a competência: o reconhecimento do efeito econômico pertence ao período em que ele ocorre, não necessariamente ao período do recebimento ou pagamento."
+    },
+    {
+      "id": "u049-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual demonstração é exigida pela Lei nº 6.404/1976 especificamente para companhia aberta, além das demais previstas no artigo 176?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Demonstração do valor adicionado."
+        },
+        {
+          "id": "B",
+          "text": "Balancete de verificação de oito colunas."
+        },
+        {
+          "id": "C",
+          "text": "Livro Razão."
+        },
+        {
+          "id": "D",
+          "text": "Plano de contas."
+        },
+        {
+          "id": "E",
+          "text": "Relatório de auditoria interna."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 176 inclui a demonstração do valor adicionado para companhia aberta. Balancete, Livro Razão e plano de contas não ocupam essa posição na lista legal de demonstrações."
+    },
+    {
+      "id": "u049-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação distingue corretamente um pronunciamento do Comitê de Pronunciamentos Contábeis de uma norma obrigatória?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Todo pronunciamento do Comitê torna-se automaticamente obrigatório para toda entidade no instante em que é publicado."
+        },
+        {
+          "id": "B",
+          "text": "O Comitê prepara documentos técnicos; a força normativa decorre da recepção pelos órgãos reguladores competentes, conforme o âmbito aplicável."
+        },
+        {
+          "id": "C",
+          "text": "O Comitê substitui a Lei nº 6.404/1976."
+        },
+        {
+          "id": "D",
+          "text": "Pronunciamentos nunca podem ser adotados por reguladores."
+        },
+        {
+          "id": "E",
+          "text": "Somente o Poder Judiciário pode recepcionar pronunciamentos contábeis."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Comitê de Pronunciamentos Contábeis estuda, prepara e emite documentos técnicos. A obrigatoriedade decorre dos atos dos órgãos reguladores competentes e do âmbito normativo aplicável, não da mera publicação do pronunciamento."
+    },
+    {
+      "id": "u049-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No corte do edital em 13 de julho de 2026, qual tratamento temporal é correto para o Pronunciamento Técnico nº 51 do Comitê de Pronunciamentos Contábeis nas companhias abertas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Já era obrigatório para todos os exercícios iniciados em 2026."
+        },
+        {
+          "id": "B",
+          "text": "Sua divulgação em 2026 não antecipou a obrigatoriedade fixada pela Comissão de Valores Mobiliários para exercícios iniciados em ou após 1º de janeiro de 2027."
+        },
+        {
+          "id": "C",
+          "text": "Foi revogado antes de ser divulgado."
+        },
+        {
+          "id": "D",
+          "text": "Substituiu a Lei nº 6.404/1976 em 2026."
+        },
+        {
+          "id": "E",
+          "text": "Era aplicável apenas ao setor público."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Embora o Pronunciamento Técnico nº 51 já estivesse divulgado, a Resolução nº 237 da Comissão de Valores Mobiliários fixou sua aplicação obrigatória às companhias abertas para exercícios iniciados em ou após 1º/1/2027. O corte de 13/7/2026 não deve antecipar essa vigência."
+    },
+    {
+      "id": "u049-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a Norma Brasileira de Contabilidade Técnica do Setor Público — Estrutura Conceitual (R1) exigida no edital, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "É uma norma exclusiva de apresentação das demonstrações de companhias abertas."
+        },
+        {
+          "id": "B",
+          "text": "É a estrutura conceitual do setor público e estava em vigor no corte do edital após publicação em abril de 2026."
+        },
+        {
+          "id": "C",
+          "text": "Foi revogada antes do edital pela versão de 2016."
+        },
+        {
+          "id": "D",
+          "text": "Aplica-se apenas a entidades cujo objetivo principal seja lucro."
+        },
+        {
+          "id": "E",
+          "text": "Trata somente de escrituração manual."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A revisão da Estrutura Conceitual do setor público foi publicada em 7/4/2026 e estava em vigor no corte. Ela orienta a informação contábil de propósito geral no setor público, não a apresentação exclusiva de companhias abertas."
+    },
+    {
+      "id": "u049-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Norma Brasileira de Contabilidade Técnica do Setor Público — Estrutura Conceitual (R1), os relatórios contábeis de propósito geral do setor público fornecem informação principalmente para",
+      "options": [
+        {
+          "id": "A",
+          "text": "prestação de contas e responsabilização, além de tomada de decisão."
+        },
+        {
+          "id": "B",
+          "text": "apuração exclusiva do lucro distribuível."
+        },
+        {
+          "id": "C",
+          "text": "definição de alíquotas tributárias."
+        },
+        {
+          "id": "D",
+          "text": "controle somente do caixa físico."
+        },
+        {
+          "id": "E",
+          "text": "substituição do orçamento aprovado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A estrutura conceitual pública enfatiza informação útil à prestação de contas e responsabilização e à tomada de decisão, em contexto no qual prestação de serviços, orçamento e potencial de serviço são relevantes."
+    },
+    {
+      "id": "u049-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa contém somente características qualitativas listadas na Norma Brasileira de Contabilidade Técnica do Setor Público — Estrutura Conceitual (R1)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Relevância, representação fidedigna, compreensibilidade, tempestividade, comparabilidade e verificabilidade."
+        },
+        {
+          "id": "B",
+          "text": "Lucro, liquidez, solvência, rentabilidade, materialidade e prudência."
+        },
+        {
+          "id": "C",
+          "text": "Caixa, competência, continuidade, uniformidade, custo e capital."
+        },
+        {
+          "id": "D",
+          "text": "Legalidade, impessoalidade, moralidade, publicidade, eficiência e economicidade."
+        },
+        {
+          "id": "E",
+          "text": "Materialidade, custo-benefício, equilíbrio, receita, despesa e ativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A norma enumera relevância, representação fidedigna, compreensibilidade, tempestividade, comparabilidade e verificabilidade. Materialidade, custo-benefício e equilíbrio aparecem como restrições, não como integrantes dessa lista de seis."
+    },
+    {
+      "id": "u049-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No setor público, qual afirmação é compatível com a Norma Brasileira de Contabilidade Técnica do Setor Público — Estrutura Conceitual (R1)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Um ativo só pode existir se gerar entrada líquida de caixa."
+        },
+        {
+          "id": "B",
+          "text": "O potencial de serviço pode justificar a manutenção de um ativo mesmo quando a geração de caixa não é seu propósito predominante."
+        },
+        {
+          "id": "C",
+          "text": "A apresentação dos relatórios ignora organização e localização da informação."
+        },
+        {
+          "id": "D",
+          "text": "Orçamento aprovado é irrelevante para usuários dos relatórios públicos."
+        },
+        {
+          "id": "E",
+          "text": "Toda mensuração deve usar exclusivamente custo histórico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "No setor público, recursos podem ser mantidos para prestar serviços. A estrutura conceitual reconhece o potencial de serviço como aspecto central e admite diferentes bases de mensuração conforme o objetivo informacional."
+    },
+    {
+      "id": "u049-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de questão oficial para a Polícia Civil da Paraíba (2021/2022), qual modelo de balancete permite visualizar o movimento do período e, além dele, os respectivos saldos devedores ou credores em estrutura mais completa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O balancete de oito colunas."
+        },
+        {
+          "id": "B",
+          "text": "Somente o balancete de duas colunas."
+        },
+        {
+          "id": "C",
+          "text": "Um relatório sem colunas de saldo."
+        },
+        {
+          "id": "D",
+          "text": "A demonstração do resultado."
+        },
+        {
+          "id": "E",
+          "text": "O balanço patrimonial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A adaptação se baseia na questão 76 do caderno oficial do Cargo 3 — Agente de Investigação, cujo gabarito definitivo indicou a alternativa A para o modelo de oito colunas."
+    },
+    {
+      "id": "u049-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item oficial para Agente de Polícia Federal (2025), considere que as únicas obrigações exigíveis de curto prazo informadas são contas a pagar de R$ 5.700. Qual é o passivo circulante?",
+      "options": [
+        {
+          "id": "A",
+          "text": "R$ 1.200."
+        },
+        {
+          "id": "B",
+          "text": "R$ 3.500."
+        },
+        {
+          "id": "C",
+          "text": "R$ 5.700."
+        },
+        {
+          "id": "D",
+          "text": "R$ 95.000."
+        },
+        {
+          "id": "E",
+          "text": "R$ 100.000."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Se a única obrigação classificada no passivo circulante é contas a pagar de R$ 5.700, esse é o total do grupo. A adaptação se baseia no item 108 do caderno oficial da Polícia Federal 2025, julgado Certo."
+    },
+    {
+      "id": "u049-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item oficial para Agente de Polícia Federal (2025), a receita líquida de vendas ou serviços é obtida, em termos gerais, a partir da receita bruta após considerar quais itens?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Somente o saldo de caixa."
+        },
+        {
+          "id": "B",
+          "text": "Deduções como devoluções, abatimentos e tributos incidentes sobre vendas, conforme a estrutura aplicável."
+        },
+        {
+          "id": "C",
+          "text": "Apenas o capital social."
+        },
+        {
+          "id": "D",
+          "text": "Ativos e passivos não circulantes."
+        },
+        {
+          "id": "E",
+          "text": "Somente a depreciação acumulada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A estrutura da demonstração do resultado parte da receita bruta e considera as deduções pertinentes para chegar à receita líquida. A adaptação se baseia no item 113 do caderno oficial da Polícia Federal 2025, julgado Certo."
+    }
+  ]
+}
