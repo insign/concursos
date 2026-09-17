@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u043-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em contabilidade introdutória, qual é o objeto central da ciência contábil?",
+      "options": [
+        {"id": "A", "text": "A arrecadação tributária."},
+        {"id": "B", "text": "O patrimônio da entidade."},
+        {"id": "C", "text": "Somente o caixa disponível."},
+        {"id": "D", "text": "Apenas o lucro do exercício."},
+        {"id": "E", "text": "Somente os bens físicos de propriedade da entidade."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Em provas introdutórias, o patrimônio é apontado como objeto da contabilidade: é a realidade econômico-patrimonial que a ciência contábil acompanha, registra, controla e comunica."
+    },
+    {
+      "id": "u043-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa que melhor expressa a finalidade informacional da contabilidade.",
+      "options": [
+        {"id": "A", "text": "Produzir somente dados necessários ao cálculo de tributos."},
+        {"id": "B", "text": "Registrar fatos sem necessidade de produzir informação para usuários."},
+        {"id": "C", "text": "Fornecer informação econômico-financeira útil ao acompanhamento, ao controle e à tomada de decisões."},
+        {"id": "D", "text": "Substituir todas as decisões da administração."},
+        {"id": "E", "text": "Informar qualquer assunto a qualquer interessado, ainda que sem relação com a entidade."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A contabilidade transforma dados patrimoniais e financeiros em informação útil. Ela não se reduz a tributos ou registros mecânicos, nem tem por objetivo satisfazer qualquer curiosidade alheia à informação contábil pertinente."
+    },
+    {
+      "id": "u043-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Por que é incorreto afirmar que contabilidade e escrituração são sinônimos?",
+      "options": [
+        {"id": "A", "text": "Porque a escrituração é uma técnica inserida em um processo contábil mais amplo de identificação, mensuração, registro, síntese e apresentação de informações."},
+        {"id": "B", "text": "Porque escrituração não utiliza registros."},
+        {"id": "C", "text": "Porque a contabilidade não acompanha patrimônio."},
+        {"id": "D", "text": "Porque somente a auditoria pode registrar fatos."},
+        {"id": "E", "text": "Porque a contabilidade se limita à elaboração de contratos."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Escrituração é uma técnica essencial, mas não esgota a contabilidade. O processo contábil inclui outras etapas e tem finalidade informacional mais ampla."
+    },
+    {
+      "id": "u043-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa distingue corretamente patrimônio e patrimônio líquido?",
+      "options": [
+        {"id": "A", "text": "São expressões necessariamente sinônimas."},
+        {"id": "B", "text": "Patrimônio é o objeto amplo acompanhado pela contabilidade; patrimônio líquido é o interesse residual nos ativos depois de deduzidos os passivos."},
+        {"id": "C", "text": "Patrimônio líquido corresponde apenas ao dinheiro depositado pelos sócios."},
+        {"id": "D", "text": "Patrimônio é somente o conjunto de dívidas da entidade."},
+        {"id": "E", "text": "Patrimônio líquido é sempre igual ao total do ativo."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Patrimônio é o objeto contábil amplo. Patrimônio líquido é uma grandeza residual da posição financeira: ativo menos passivo."
+    },
+    {
+      "id": "u043-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "De acordo com a estrutura conceitual contemporânea, um ativo é melhor compreendido como",
+      "options": [
+        {"id": "A", "text": "qualquer objeto físico, ainda que não controlado pela entidade."},
+        {"id": "B", "text": "um recurso econômico presente controlado pela entidade como resultado de eventos passados."},
+        {"id": "C", "text": "somente dinheiro em espécie."},
+        {"id": "D", "text": "qualquer gasto futuro pretendido pela administração."},
+        {"id": "E", "text": "uma obrigação presente de transferir recursos."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A definição atual enfatiza recurso econômico presente e controle, decorrente de eventos passados. Ativo não é sinônimo de objeto físico nem de obrigação."
+    },
+    {
+      "id": "u043-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual situação representa, em princípio, um passivo?",
+      "options": [
+        {"id": "A", "text": "Valor a receber de cliente por venda já realizada."},
+        {"id": "B", "text": "Dinheiro mantido em conta bancária da entidade."},
+        {"id": "C", "text": "Obrigação presente de pagar fornecedor por compra já efetuada."},
+        {"id": "D", "text": "Estoque de mercadorias controlado pela entidade."},
+        {"id": "E", "text": "Equipamento utilizado na operação e controlado pela entidade."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Passivo é obrigação presente de transferir recurso econômico em decorrência de eventos passados. A dívida com fornecedor por compra já realizada exemplifica essa ideia."
+    },
+    {
+      "id": "u043-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O patrimônio líquido é definido, de forma essencial, como",
+      "options": [
+        {"id": "A", "text": "o total das obrigações perante terceiros."},
+        {"id": "B", "text": "o valor do caixa mais o valor dos estoques, apenas."},
+        {"id": "C", "text": "a participação residual nos ativos depois de deduzidos os passivos."},
+        {"id": "D", "text": "a soma do ativo com o passivo."},
+        {"id": "E", "text": "o valor dos bens físicos, sem considerar direitos e obrigações."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Patrimônio líquido é residual. Em termos da equação patrimonial, corresponde ao total do ativo menos o total dos passivos."
+    },
+    {
+      "id": "u043-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma entidade apresenta ativo total de R$ 150 mil e passivos de R$ 50 mil. Qual é o patrimônio líquido?",
+      "options": [
+        {"id": "A", "text": "R$ 50 mil."},
+        {"id": "B", "text": "R$ 100 mil."},
+        {"id": "C", "text": "R$ 150 mil."},
+        {"id": "D", "text": "R$ 200 mil."},
+        {"id": "E", "text": "R$ 250 mil."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pela equação patrimônio líquido = ativo − passivo: R$ 150 mil − R$ 50 mil = R$ 100 mil."
+    },
+    {
+      "id": "u043-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se o ativo total é de R$ 90 mil e o patrimônio líquido é de R$ 25 mil, qual é o total dos passivos?",
+      "options": [
+        {"id": "A", "text": "R$ 25 mil."},
+        {"id": "B", "text": "R$ 45 mil."},
+        {"id": "C", "text": "R$ 65 mil."},
+        {"id": "D", "text": "R$ 90 mil."},
+        {"id": "E", "text": "R$ 115 mil."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Da equação ativo = passivo + patrimônio líquido, resulta passivo = ativo − patrimônio líquido = R$ 90 mil − R$ 25 mil = R$ 65 mil."
+    },
+    {
+      "id": "u043-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma entidade possui ativo de R$ 80 mil e passivos de R$ 30 mil. Sua situação líquida é",
+      "options": [
+        {"id": "A", "text": "positiva, com patrimônio líquido de R$ 50 mil."},
+        {"id": "B", "text": "nula, porque há obrigações."},
+        {"id": "C", "text": "negativa, com patrimônio líquido de R$ 50 mil."},
+        {"id": "D", "text": "positiva, com patrimônio líquido de R$ 110 mil."},
+        {"id": "E", "text": "indeterminável sem conhecer receitas e despesas do período."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O patrimônio líquido é R$ 80 mil − R$ 30 mil = R$ 50 mil. Como o ativo supera o passivo, a situação líquida é positiva."
+    },
+    {
+      "id": "u043-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A situação líquida patrimonial é nula quando",
+      "options": [
+        {"id": "A", "text": "o ativo é maior que o passivo."},
+        {"id": "B", "text": "o passivo é zero e o ativo é positivo."},
+        {"id": "C", "text": "o ativo é igual ao passivo, resultando em patrimônio líquido igual a zero."},
+        {"id": "D", "text": "o patrimônio líquido é maior que o ativo."},
+        {"id": "E", "text": "não existem contas a receber."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Se ativo e passivo são iguais, a diferença entre eles é zero; portanto, o patrimônio líquido e a situação líquida são nulos."
+    },
+    {
+      "id": "u043-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se uma entidade apresenta ativo de R$ 50 mil e passivos de R$ 70 mil, é correto afirmar que",
+      "options": [
+        {"id": "A", "text": "o patrimônio líquido é positivo em R$ 20 mil."},
+        {"id": "B", "text": "o patrimônio líquido é negativo em R$ 20 mil, caracterizando situação líquida negativa."},
+        {"id": "C", "text": "o ativo total deve ser negativo."},
+        {"id": "D", "text": "a situação líquida é nula."},
+        {"id": "E", "text": "o passivo deve ser reduzido a zero na equação patrimonial."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Patrimônio líquido = R$ 50 mil − R$ 70 mil = −R$ 20 mil. Obrigações superiores aos ativos caracterizam situação líquida negativa, tradicionalmente também chamada de passivo a descoberto."
+    },
+    {
+      "id": "u043-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A informação de que o patrimônio contém caixa, estoques, clientes e fornecedores evidencia principalmente seu aspecto",
+      "options": [
+        {"id": "A", "text": "qualitativo, pois identifica a natureza dos elementos patrimoniais."},
+        {"id": "B", "text": "quantitativo, pois apresenta apenas valores monetários."},
+        {"id": "C", "text": "tributário, pois calcula impostos."},
+        {"id": "D", "text": "exclusivamente jurídico, pois informa propriedade formal."},
+        {"id": "E", "text": "estatístico, pois apresenta probabilidades."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O aspecto qualitativo identifica quais são os elementos e sua natureza. O quantitativo informa seus valores monetários."
+    },
+    {
+      "id": "u043-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dizer que o caixa é de R$ 20 mil e o estoque é de R$ 60 mil evidencia principalmente o aspecto",
+      "options": [
+        {"id": "A", "text": "qualitativo apenas, porque não há valores."},
+        {"id": "B", "text": "quantitativo, porque atribui valores monetários aos elementos."},
+        {"id": "C", "text": "jurídico, porque define propriedade."},
+        {"id": "D", "text": "orçamentário, porque fixa dotações."},
+        {"id": "E", "text": "fiscal, porque apura tributos."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O aspecto quantitativo expressa os elementos patrimoniais em valores monetários."
+    },
+    {
+      "id": "u043-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma representação simplificada da posição patrimonial, qual igualdade deve ser preservada?",
+      "options": [
+        {"id": "A", "text": "Ativo = passivo + patrimônio líquido."},
+        {"id": "B", "text": "Ativo + passivo = patrimônio líquido em qualquer situação."},
+        {"id": "C", "text": "Patrimônio líquido = passivo − ativo em qualquer situação."},
+        {"id": "D", "text": "Ativo = patrimônio líquido, ainda que existam passivos."},
+        {"id": "E", "text": "Passivo = ativo + patrimônio líquido."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A equação fundamental da posição patrimonial é ativo = passivo + patrimônio líquido. Equivalente: patrimônio líquido = ativo − passivo."
+    },
+    {
+      "id": "u043-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma entidade possui ativo de R$ 70 mil e não possui passivos. Qual conclusão é correta?",
+      "options": [
+        {"id": "A", "text": "Seu patrimônio líquido é necessariamente zero."},
+        {"id": "B", "text": "Seu patrimônio líquido é R$ 70 mil."},
+        {"id": "C", "text": "Sua situação líquida é negativa."},
+        {"id": "D", "text": "A equação patrimonial deixa de existir."},
+        {"id": "E", "text": "Seu ativo também deve ser zero."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Patrimônio líquido = ativo − passivo = R$ 70 mil − R$ 0 = R$ 70 mil. Ausência de passivo não implica patrimônio líquido nulo."
+    },
+    {
+      "id": "u043-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação evita corretamente uma redução indevida do conceito de ativo?",
+      "options": [
+        {"id": "A", "text": "Somente objetos físicos podem ser ativos."},
+        {"id": "B", "text": "Somente itens formalmente registrados como propriedade podem ser considerados ativos em qualquer circunstância."},
+        {"id": "C", "text": "Um direito a receber pode ser ativo, e a definição contemporânea enfatiza recurso econômico presente e controle pela entidade."},
+        {"id": "D", "text": "Toda intenção de compra futura é ativo presente."},
+        {"id": "E", "text": "Ativo é sinônimo de patrimônio líquido."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ativos podem incluir direitos e outros recursos econômicos não físicos. A estrutura conceitual atual enfatiza recurso econômico presente controlado pela entidade, não mera materialidade ou propriedade formal."
+    },
+    {
+      "id": "u043-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item anterior do Cebraspe, coletar informações, sintetizá-las e registrá-las pode integrar o processo destinado a",
+      "options": [
+        {"id": "A", "text": "acompanhar sistematicamente o patrimônio da entidade por meio da contabilidade."},
+        {"id": "B", "text": "substituir integralmente a administração da entidade."},
+        {"id": "C", "text": "eliminar a necessidade de informação econômico-financeira."},
+        {"id": "D", "text": "transformar patrimônio líquido em caixa."},
+        {"id": "E", "text": "restringir a contabilidade ao cálculo tributário."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal do item 51 do caderno com justificativas da Polícia Civil do Distrito Federal, área administrativa, 2024. O item foi considerado certo: registrar e controlar atos e fatos permite acompanhamento sistemático do patrimônio. Fonte oficial: https://cdn.cebraspe.org.br/concursos/PC_DF_24_ADM/arquivos/021_PCDF_007_01.PDF."
+    },
+    {
+      "id": "u043-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item anterior do Cebraspe, uma entidade apresenta ativo total de R$ 48 mil e passivos de R$ 18 mil. A situação líquida é",
+      "options": [
+        {"id": "A", "text": "positiva, com patrimônio líquido de R$ 30 mil."},
+        {"id": "B", "text": "negativa, com patrimônio líquido de R$ 30 mil."},
+        {"id": "C", "text": "nula, porque existem passivos."},
+        {"id": "D", "text": "positiva, com patrimônio líquido de R$ 66 mil."},
+        {"id": "E", "text": "indeterminável sem o lucro do período."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal do item 54 do caderno com justificativas da Polícia Civil do Distrito Federal, área administrativa, 2024. O item oficial associa ativo superior ao passivo a situação líquida positiva. Aqui, R$ 48 mil − R$ 18 mil = R$ 30 mil. Fonte oficial: https://cdn.cebraspe.org.br/concursos/PC_DF_24_ADM/arquivos/021_PCDF_007_01.PDF."
+    },
+    {
+      "id": "u043-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item anterior do Cebraspe, sobre a representação da situação patrimonial, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "Ela somente pode ser expressa por um desenho informal de balança."},
+        {"id": "B", "text": "Demonstrações contábeis não podem representar a posição patrimonial."},
+        {"id": "C", "text": "O balanço patrimonial pode apresentar a posição patrimonial e financeira da entidade em determinada data."},
+        {"id": "D", "text": "A posição patrimonial é necessariamente invisível em relatórios contábeis."},
+        {"id": "E", "text": "A representação patrimonial dispensa ativo, passivo e patrimônio líquido."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Adaptação não literal do item 55 do caderno com justificativas da Polícia Civil do Distrito Federal, área administrativa, 2024. O item oficial foi considerado errado ao afirmar que a posição patrimonial seria irrepresentável por demonstrações contábeis. Fonte oficial: https://cdn.cebraspe.org.br/concursos/PC_DF_24_ADM/arquivos/021_PCDF_007_01.PDF."
+    }
+  ]
+}
