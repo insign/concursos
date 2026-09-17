@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u047-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa descreve melhor a escrituração contábil?",
+      "options": [
+        {"id": "A", "text": "É apenas a emissão das demonstrações ao fim do exercício."},
+        {"id": "B", "text": "É o processo organizado de registrar os fatos patrimoniais da entidade segundo as normas aplicáveis."},
+        {"id": "C", "text": "É sinônimo exclusivo de pagamento e recebimento em dinheiro."},
+        {"id": "D", "text": "É uma lista de contas sem registros de fatos."},
+        {"id": "E", "text": "É o procedimento de registrar somente fatos que aumentem o patrimônio líquido."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A escrituração é o processo sistemático de registro dos fatos patrimoniais. Demonstrações, livros e lançamentos resultam ou integram esse processo, mas não o substituem conceitualmente."
+    },
+    {
+      "id": "u047-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as formalidades da escrituração contábil, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "Os registros podem ser feitos sem ordem temporal, desde que o saldo final esteja correto."},
+        {"id": "B", "text": "A escrituração deve observar ordem cronológica e apoiar-se em documentação ou elementos que comprovem ou evidenciem os fatos."},
+        {"id": "C", "text": "Rasuras são admitidas sempre que o profissional assine ao lado."},
+        {"id": "D", "text": "O histórico pode ser omitido em qualquer lançamento."},
+        {"id": "E", "text": "A escrituração contábil brasileira deve ser necessariamente mantida em moeda estrangeira."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A norma exige, entre outros pontos, forma contábil, ordem cronológica, ausência de rasuras e base documental ou evidencial para os fatos registrados."
+    },
+    {
+      "id": "u047-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual conjunto reúne elementos mínimos próprios de um registro em forma contábil?",
+      "options": [
+        {"id": "A", "text": "Data, conta devedora, conta credora, histórico, valor e informação que identifique univocamente os registros do mesmo lançamento."},
+        {"id": "B", "text": "Somente valor e assinatura do gestor."},
+        {"id": "C", "text": "Apenas conta devedora e saldo final do balanço."},
+        {"id": "D", "text": "Data de pagamento, número da nota fiscal e lucro do período, sempre."},
+        {"id": "E", "text": "Conta credora, demonstração de fluxo de caixa e código tributário."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esses elementos correspondem ao núcleo mínimo da escrituração em forma contábil: data do fato, contas devedora/credora, histórico, valor e vínculo identificável entre registros do mesmo lançamento."
+    },
+    {
+      "id": "u047-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A informação que permite identificar de forma unívoca os registros integrantes de um mesmo lançamento serve principalmente para",
+      "options": [
+        {"id": "A", "text": "substituir o valor do lançamento."},
+        {"id": "B", "text": "ligar os registros que compõem o mesmo fato contábil e preservar sua rastreabilidade."},
+        {"id": "C", "text": "dispensar conta devedora e credora."},
+        {"id": "D", "text": "converter automaticamente competência em caixa."},
+        {"id": "E", "text": "eliminar a necessidade de histórico."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Um mesmo lançamento pode ter vários registros a débito e a crédito. A identificação unívoca permite reconhecer que eles pertencem ao mesmo lançamento e fato contábil."
+    },
+    {
+      "id": "u047-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No método das partidas dobradas, qual relação deve ser preservada em um lançamento?",
+      "options": [
+        {"id": "A", "text": "O número de contas debitadas deve ser igual ao número de contas creditadas."},
+        {"id": "B", "text": "O total dos valores debitados deve ser igual ao total dos valores creditados."},
+        {"id": "C", "text": "Todo débito deve representar saída de caixa."},
+        {"id": "D", "text": "Todo crédito deve representar receita."},
+        {"id": "E", "text": "Cada fato precisa necessariamente movimentar apenas duas contas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Partidas dobradas exigem igualdade dos totais monetários de débitos e créditos. A quantidade de contas em cada lado pode ser diferente."
+    },
+    {
+      "id": "u047-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um lançamento com uma conta debitada e uma conta creditada é classificado, na taxonomia tradicional, como",
+      "options": [
+        {"id": "A", "text": "primeira fórmula."},
+        {"id": "B", "text": "segunda fórmula."},
+        {"id": "C", "text": "terceira fórmula."},
+        {"id": "D", "text": "quarta fórmula."},
+        {"id": "E", "text": "lançamento sem fórmula."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Primeira fórmula = um débito e um crédito. A classificação observa a quantidade de contas em cada lado do lançamento."
+    },
+    {
+      "id": "u047-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um lançamento apresenta débito em Estoques de R$ 10 mil e créditos em Caixa de R$ 4 mil e Fornecedores de R$ 6 mil. Ele corresponde à",
+      "options": [
+        {"id": "A", "text": "primeira fórmula."},
+        {"id": "B", "text": "segunda fórmula."},
+        {"id": "C", "text": "terceira fórmula."},
+        {"id": "D", "text": "quarta fórmula."},
+        {"id": "E", "text": "partida simples, pois há três contas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Há uma conta debitada e duas contas creditadas: estrutura típica da segunda fórmula. Os totais de ambos os lados continuam iguais a R$ 10 mil."
+    },
+    {
+      "id": "u047-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um lançamento contém débitos em Fornecedores e Despesa de juros, com um único crédito em Caixa. Pela classificação tradicional, trata-se de",
+      "options": [
+        {"id": "A", "text": "primeira fórmula."},
+        {"id": "B", "text": "segunda fórmula."},
+        {"id": "C", "text": "terceira fórmula."},
+        {"id": "D", "text": "quarta fórmula."},
+        {"id": "E", "text": "registro incompatível com partidas dobradas."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Terceira fórmula = duas ou mais contas debitadas e uma conta creditada. A validade depende também de os valores totais se equilibrarem."
+    },
+    {
+      "id": "u047-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual estrutura caracteriza a quarta fórmula de lançamento?",
+      "options": [
+        {"id": "A", "text": "Uma conta debitada e uma creditada."},
+        {"id": "B", "text": "Uma conta debitada e várias creditadas."},
+        {"id": "C", "text": "Várias contas debitadas e uma creditada."},
+        {"id": "D", "text": "Várias contas debitadas e várias creditadas."},
+        {"id": "E", "text": "Somente contas debitadas."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A quarta fórmula possui duas ou mais contas em ambos os lados, mantendo a igualdade entre o total dos débitos e o total dos créditos."
+    },
+    {
+      "id": "u047-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em formas tradicionais de apresentação de lançamentos, a expressão 'Diversos' indica",
+      "options": [
+        {"id": "A", "text": "uma conta patrimonial obrigatória."},
+        {"id": "B", "text": "que há mais de uma conta agrupada naquele lado do lançamento; não é uma conta contábil."},
+        {"id": "C", "text": "que o lançamento viola partidas dobradas."},
+        {"id": "D", "text": "que o valor ainda é desconhecido."},
+        {"id": "E", "text": "que o fato deve ser reconhecido pelo regime de caixa."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "'Diversos' é expressão de apresentação usada para indicar multiplicidade de contas em um dos lados. Não representa elemento patrimonial ou conta autônoma."
+    },
+    {
+      "id": "u047-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual característica está mais diretamente associada ao Livro Diário?",
+      "options": [
+        {"id": "A", "text": "Organizar prioritariamente todos os movimentos por conta, sem ordem cronológica."},
+        {"id": "B", "text": "Registrar operações e fatos em ordem cronológica, com individualização e clareza."},
+        {"id": "C", "text": "Registrar exclusivamente recebimentos e pagamentos."},
+        {"id": "D", "text": "Conter apenas saldos finais."},
+        {"id": "E", "text": "Substituir o plano de contas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Diário tem eixo cronológico: registra as operações e fatos patrimoniais na sequência temporal, com clareza e referência à documentação probante."
+    },
+    {
+      "id": "u047-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em relação ao Livro Razão, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "Sua utilidade típica é acompanhar os movimentos e saldos de cada conta."},
+        {"id": "B", "text": "Ele registra apenas fatos sem efeito patrimonial."},
+        {"id": "C", "text": "Ele é incompatível com o Livro Diário."},
+        {"id": "D", "text": "Ele elimina a necessidade de contas contábeis."},
+        {"id": "E", "text": "Seu eixo exclusivo é a ordem cronológica de todos os fatos, sem agrupamento por conta."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Razão permite a visão sistemática por conta, facilitando acompanhar seus débitos, créditos e saldo. Diário e Razão são perspectivas complementares da escrituração."
+    },
+    {
+      "id": "u047-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma entidade migra de escrituração manual para processo eletrônico. Qual afirmação é correta?",
+      "options": [
+        {"id": "A", "text": "O método das partidas dobradas deixa de ser aplicável."},
+        {"id": "B", "text": "A mudança altera o meio de execução, mas não elimina os elementos essenciais do registro nem a igualdade entre débitos e créditos."},
+        {"id": "C", "text": "Histórico e valor deixam de ser necessários."},
+        {"id": "D", "text": "O processo eletrônico transforma débitos em créditos."},
+        {"id": "E", "text": "Toda escrituração eletrônica deve ser impressa e encadernada somente por ser digital."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Processo é o meio de execução; método é a lógica do registro. A tecnologia não afasta a estrutura contábil, e a forma digital não exige impressão apenas por ser digital."
+    },
+    {
+      "id": "u047-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No regime de competência, uma receita é reconhecida, em regra,",
+      "options": [
+        {"id": "A", "text": "somente quando o dinheiro for recebido."},
+        {"id": "B", "text": "no período em que ocorre o efeito econômico pertinente, ainda que o recebimento aconteça em outro período."},
+        {"id": "C", "text": "somente quando houver pagamento de uma despesa correspondente."},
+        {"id": "D", "text": "sempre antes da ocorrência do fato econômico."},
+        {"id": "E", "text": "apenas ao encerrar a conta Caixa."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Competência separa o momento do reconhecimento econômico do mero movimento financeiro. Receber depois não impede que a receita pertença ao período em que foi gerada segundo os critérios aplicáveis."
+    },
+    {
+      "id": "u047-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual descrição corresponde melhor ao regime de caixa usado como contraste didático?",
+      "options": [
+        {"id": "A", "text": "Considera os recebimentos e pagamentos efetivamente ocorridos no período."},
+        {"id": "B", "text": "Reconhece toda receita antes de qualquer fato econômico."},
+        {"id": "C", "text": "É a opção geral permitida para substituir a escrituração contábil por competência."},
+        {"id": "D", "text": "Ignora toda movimentação financeira."},
+        {"id": "E", "text": "É sinônimo de Livro Razão."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O regime de caixa observa recebimentos e pagamentos do período. Nas normas contábeis gerais aplicáveis, isso não significa liberdade para substituir a base de competência da escrituração."
+    },
+    {
+      "id": "u047-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um período, uma entidade gerou R$ 20 mil de receitas e recebeu R$ 16 mil; incorreu em R$ 12 mil de despesas e pagou R$ 9 mil. Desconsiderando outros fatos, qual par apresenta corretamente resultado por competência e fluxo líquido de caixa?",
+      "options": [
+        {"id": "A", "text": "R$ 8 mil e R$ 7 mil, respectivamente."},
+        {"id": "B", "text": "R$ 7 mil e R$ 8 mil, respectivamente."},
+        {"id": "C", "text": "R$ 4 mil e R$ 3 mil, respectivamente."},
+        {"id": "D", "text": "R$ 20 mil e R$ 16 mil, respectivamente."},
+        {"id": "E", "text": "R$ 12 mil e R$ 9 mil, respectivamente."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Competência: 20 − 12 = R$ 8 mil. Caixa: 16 − 9 = R$ 7 mil. A diferença decorre do descasamento temporal entre reconhecimento e recebimento/pagamento."
+    },
+    {
+      "id": "u047-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um mesmo lançamento contém dois débitos, de R$ 3 mil e R$ 2 mil, e dois créditos, de R$ 1 mil e R$ 4 mil. Qual afirmação é correta?",
+      "options": [
+        {"id": "A", "text": "É quarta fórmula e preserva partidas dobradas, pois ambos os lados totalizam R$ 5 mil."},
+        {"id": "B", "text": "É segunda fórmula, porque há dois créditos."},
+        {"id": "C", "text": "É terceira fórmula, porque há dois débitos."},
+        {"id": "D", "text": "É inválido porque um lançamento nunca pode ter quatro contas."},
+        {"id": "E", "text": "É primeira fórmula porque os totais são iguais."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Há várias contas em ambos os lados, logo é quarta fórmula. Débitos somam R$ 5 mil e créditos somam R$ 5 mil, preservando a igualdade do método."
+    },
+    {
+      "id": "u047-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item do Cebraspe para Agente de Polícia Federal (2025), uma entidade vendeu R$ 125 mil no período e recebeu R$ 115 mil; teve despesas de R$ 110 mil e pagou R$ 108 mil. Qual é o resultado pelo regime de competência?",
+      "options": [
+        {"id": "A", "text": "Lucro de R$ 15 mil."},
+        {"id": "B", "text": "Lucro de R$ 7 mil."},
+        {"id": "C", "text": "Lucro de R$ 5 mil."},
+        {"id": "D", "text": "Prejuízo de R$ 2 mil."},
+        {"id": "E", "text": "Resultado zero."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal do item 103 do caderno 106_PF_016_01, julgado Certo no gabarito definitivo. Pela competência, consideram-se R$ 125 mil de receita e R$ 110 mil de despesa: lucro de R$ 15 mil."
+    },
+    {
+      "id": "u047-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item do mesmo concurso da Polícia Federal (2025), qual alternativa reúne informações compatíveis com o Livro Diário e a escrituração em forma contábil?",
+      "options": [
+        {"id": "A", "text": "Data do fato, conta devedora, conta credora, histórico e valor, com observância da ordem cronológica."},
+        {"id": "B", "text": "Somente o saldo final das contas, sem data ou histórico."},
+        {"id": "C", "text": "Apenas recebimentos e pagamentos em ordem alfabética."},
+        {"id": "D", "text": "Exclusivamente contas de ativo, sem créditos."},
+        {"id": "E", "text": "Somente código do plano de contas e assinatura do gestor."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal do item 104 do caderno 106_PF_016_01, julgado Certo no gabarito definitivo. O item combina elementos do lançamento com a ordem cronológica do Diário."
+    },
+    {
+      "id": "u047-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 105 da prova de Agente de Polícia Federal de 2025, assinale a afirmação correta sobre competência.",
+      "options": [
+        {"id": "A", "text": "Receitas são reconhecidas somente quando o dinheiro é recebido."},
+        {"id": "B", "text": "O reconhecimento não depende exclusivamente do recebimento; deve observar o período econômico pertinente ao fato."},
+        {"id": "C", "text": "Competência e caixa são sempre idênticos em cada período."},
+        {"id": "D", "text": "Competência considera apenas pagamentos."},
+        {"id": "E", "text": "Toda venda a prazo é ignorada até a quitação."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal do item 105 do caderno 106_PF_016_01, julgado Errado no gabarito definitivo para a tese de que a receita somente seria contabilizada no recebimento."
+    }
+  ]
+}

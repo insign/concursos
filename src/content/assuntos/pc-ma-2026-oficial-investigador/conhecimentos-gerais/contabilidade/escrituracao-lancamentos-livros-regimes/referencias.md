@@ -1,0 +1,31 @@
+# Referências
+
+## Programa e corte
+
+- <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. **Edital nº 1 – <abbr title="Polícia Civil do Maranhão">PC-MA</abbr> – Investigador, de 13 de julho de 2026**. Programa de Contabilidade, item 6: “Escrituração: conceitos, lançamentos contábeis, elementos essenciais, fórmulas de lançamentos, livros de escrituração, métodos e processos, regime de competência e regime de caixa”. Documento oficial: https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf. Corte programático/normativo da unidade: 13 jul. 2026.
+- <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. **Página oficial — <abbr title="Polícia Civil do Maranhão">PC-MA</abbr> 2026, Oficial Investigador de Polícia**. Reconsultada em 17 set. 2026 para acompanhamento do certame: https://www.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR. A consulta é evidência datada e não substitui nova conferência das publicações oficiais em ciclos futuros.
+
+## Escrituração, lançamentos e livros
+
+- <abbr title="Conselho Federal de Contabilidade">CFC</abbr>. **Normas Específicas**. Relação oficial reconsultada em 17 set. 2026 confirma a vigência identificada da <abbr title="Interpretação Técnica Geral">ITG</abbr> 2000 (R1) — Escrituração Contábil, publicada no Diário Oficial da União em 12/12/2014, e do <abbr title="Comunicado Técnico Geral">CTG</abbr> 2001 (R3) para escrituração digital. https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/normas-especificas/.
+- Conselho Regional de Contabilidade do Rio Grande do Sul. **Normas Brasileiras de Contabilidade — <abbr title="Interpretação Técnica Geral">ITG</abbr> 2000 (R1) — Escrituração Contábil**, em compilação normativa. Itens 1–19 utilizados para objetivo/alcance, formalidades, elementos mínimos do registro, Livro Diário, Livro Razão e processos não digitais/digitais; itens 26–28 consultados apenas para a noção de documentação que sustenta os registros. https://www.crcrs.org.br/arquivos/livros/livro_principios_normas_v3.pdf. Consulta editorial: 17 set. 2026.
+- <abbr title="Conselho Federal de Contabilidade">CFC</abbr>. **Livro Diário — Perguntas Frequentes**. Reconsultado em 17 set. 2026 para a aplicação atual das regras de escrituração digital: referência à <abbr title="Interpretação Técnica Geral">ITG</abbr> 2000, ao Departamento Nacional de Registro Empresarial e Integração e ao Sistema Público de Escrituração Digital; registra que a forma digital não exige impressão/encadernação apenas por se tratar de livro contábil digital e condiciona autenticação às hipóteses legalmente exigíveis. https://cfc.org.br/tecnica/perguntas-frequentes/livro-diario/.
+- <abbr title="Conselho Federal de Contabilidade">CFC</abbr>. **Escrituração contábil simplificada para micro e pequena empresa**. Seção 6.4 utilizada apenas como apoio didático para distinguir método de partidas dobradas de processo de execução manual, mecânico ou eletrônico; a publicação é histórica/setorial e não substitui a <abbr title="Interpretação Técnica Geral">ITG</abbr> 2000 vigente. https://cfc.org.br/wp-content/uploads/2018/04/0_Livro_Escrituracao_contabil.pdf. Consulta editorial: 17 set. 2026.
+
+## Fórmulas de lançamento
+
+- Ministério da Educação / Rede e-Tec Brasil. **Contabilidade — Aula 08: Escrituração Contábil**. Seção “Fórmulas de lançamentos”, pp. 12–14 impressas: taxonomia didática tradicional de primeira fórmula (1 débito/1 crédito), segunda (1 débito/vários créditos), terceira (vários débitos/1 crédito) e quarta (vários débitos/vários créditos). Utilizada como linguagem de concurso, sem atribuir à taxonomia status de classificação normativa da <abbr title="Interpretação Técnica Geral">ITG</abbr> 2000. https://redeetec.mec.gov.br/images/stories/pdf/eixo_gest_neg/contabilidade/060912_cont_a08.pdf. Consulta editorial: 17 set. 2026.
+
+## Regimes de competência e caixa
+
+- <abbr title="Conselho Federal de Contabilidade">CFC</abbr>. **Regime de Caixa e de Competência — Perguntas Frequentes**. A página oficial afirma que o regime de caixa não é opção para o registro dos atos e fatos contábeis e remete o regime de competência à Estrutura Conceitual para Relatório Financeiro, item 1.17. https://cfc.org.br/tecnica/perguntas-frequentes/regime-de-caixa-e-de-competencia/. Consulta editorial: 17 set. 2026.
+- BRASIL. **Lei nº 6.404/1976, art. 177**. Para as companhias sob o alcance da lei, a escrituração deve manter registros permanentes, métodos ou critérios uniformes no tempo e registrar as mutações patrimoniais segundo o regime de competência. https://planalto.gov.br/ccivil_03/leis/l6404compilada.htm. Consulta editorial: 17 set. 2026.
+
+## Questões anteriores usadas como base de adaptação
+
+- <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. **Polícia Federal — 2025 — Cargo 16: Agente de Polícia Federal — caderno 106_PF_016_01**. Itens 103–105 tratam diretamente de competência e Livro Diário. Caderno oficial: https://cdn.cebraspe.org.br/concursos/pf_25/arquivos/106_PF_016_01.pdf. Consulta editorial: 17 set. 2026.
+- <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. **Polícia Federal — Cargo 16: Agente de Polícia Federal — gabaritos oficiais definitivos**. Para as adaptações não literais desta unidade foram conferidos os itens **103 = Certo**, **104 = Certo** e **105 = Errado**. Gabarito oficial: https://cdn.cebraspe.org.br/concursos/pf_25/arquivos/CDC24D454696C9FE260E6C50FE758707F322649AEE24B6FB664FDDA10E307BCF.pdf. Consulta editorial: 17 set. 2026.
+
+## Nota de recorte
+
+- A unidade cobre integralmente o item 6: conceito e formalidades da escrituração, lançamentos e seus elementos, partidas dobradas, quatro fórmulas tradicionais, livros, método/processos e competência × caixa. Operações específicas do item 7 — juros, descontos, tributos, folha, compras/vendas, provisões, depreciação e baixas — aparecem apenas em exemplos hipotéticos mínimos necessários à mecânica e permanecem reservadas à U048.
