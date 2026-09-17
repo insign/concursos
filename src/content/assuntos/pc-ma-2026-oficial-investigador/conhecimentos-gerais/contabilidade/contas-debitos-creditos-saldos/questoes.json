@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u045-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em contabilidade, qual definição descreve melhor uma conta?",
+      "options": [
+        {"id": "A", "text": "O próprio bem físico ou dinheiro mantido pela entidade."},
+        {"id": "B", "text": "Um instrumento de registro que reúne as variações relacionadas a determinado elemento patrimonial ou de resultado."},
+        {"id": "C", "text": "Uma lista completa de todas as demonstrações contábeis."},
+        {"id": "D", "text": "Um documento que só pode registrar aumentos patrimoniais."},
+        {"id": "E", "text": "Uma classificação que admite exclusivamente movimentos a débito ou exclusivamente movimentos a crédito."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A conta organiza e acumula registros relativos a um elemento patrimonial ou de resultado. Ela não é o próprio elemento e pode receber movimentos em ambos os lados."
+    },
+    {
+      "id": "u045-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na representação didática em T de uma conta, o débito fica",
+      "options": [
+        {"id": "A", "text": "sempre no lado direito."},
+        {"id": "B", "text": "sempre no lado esquerdo."},
+        {"id": "C", "text": "no lado que apresentar o maior saldo."},
+        {"id": "D", "text": "no lado direito apenas para contas do ativo."},
+        {"id": "E", "text": "fora da conta, pois débito não é um lado contábil."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Por convenção, débito é o lado esquerdo e crédito é o lado direito. O efeito de aumento ou redução depende da natureza da conta."
+    },
+    {
+      "id": "u045-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação sobre débito e crédito está correta?",
+      "options": [
+        {"id": "A", "text": "Débito significa aumento para qualquer conta."},
+        {"id": "B", "text": "Crédito significa redução para qualquer conta."},
+        {"id": "C", "text": "Débito e crédito são lados convencionais; o efeito de cada lado depende da natureza da conta."},
+        {"id": "D", "text": "Crédito é sinônimo contábil de receita."},
+        {"id": "E", "text": "Débito só pode ser usado quando há saída de dinheiro."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os termos identificam lados da conta. Uma conta devedora aumenta por débito; uma credora aumenta por crédito. Logo, nenhum lado é universalmente aumento ou redução."
+    },
+    {
+      "id": "u045-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma conta de natureza devedora, em seu funcionamento normal,",
+      "options": [
+        {"id": "A", "text": "aumenta por crédito e reduz por débito."},
+        {"id": "B", "text": "aumenta por débito e reduz por crédito."},
+        {"id": "C", "text": "só pode receber débitos."},
+        {"id": "D", "text": "só pode receber créditos."},
+        {"id": "E", "text": "não admite saldo."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Natureza devedora significa que o lado normal de aumento é o débito e o lado normal de redução é o crédito. Isso não impede movimentos nos dois lados."
+    },
+    {
+      "id": "u045-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma conta de natureza credora, em seu funcionamento normal,",
+      "options": [
+        {"id": "A", "text": "aumenta por crédito e reduz por débito."},
+        {"id": "B", "text": "aumenta por débito e reduz por crédito."},
+        {"id": "C", "text": "não pode ser debitada."},
+        {"id": "D", "text": "tem sempre saldo zero."},
+        {"id": "E", "text": "pertence necessariamente ao ativo."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Contas credoras aumentam normalmente pelo crédito e diminuem pelo débito. Passivos e receitas são exemplos típicos."
+    },
+    {
+      "id": "u045-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na regra normal de funcionamento das contas, um aumento da conta Caixa é registrado no lado",
+      "options": [
+        {"id": "A", "text": "do crédito, porque Caixa representa dinheiro."},
+        {"id": "B", "text": "do débito, porque Caixa é uma conta do ativo de natureza devedora."},
+        {"id": "C", "text": "do crédito, porque todo ingresso de recurso é crédito."},
+        {"id": "D", "text": "do débito apenas se houver também aumento de passivo."},
+        {"id": "E", "text": "indiferente, pois ativo não possui natureza contábil."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Caixa é conta do ativo e tem natureza normal devedora; portanto, aumenta por débito."
+    },
+    {
+      "id": "u045-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na regra normal, o aumento de uma obrigação registrada na conta Fornecedores ocorre por",
+      "options": [
+        {"id": "A", "text": "débito, porque toda dívida é débito."},
+        {"id": "B", "text": "crédito, porque a conta é do passivo e tem natureza credora."},
+        {"id": "C", "text": "débito, porque o passivo sempre diminui pelo crédito."},
+        {"id": "D", "text": "qualquer dos lados, sem critério."},
+        {"id": "E", "text": "nenhum lado, pois obrigações não são registradas em contas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Fornecedores é uma conta normal do passivo, de natureza credora. Seu aumento ocorre por crédito e sua redução, por débito."
+    },
+    {
+      "id": "u045-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual associação entre grupo e natureza normal está correta?",
+      "options": [
+        {"id": "A", "text": "Ativo — credora; despesa — credora."},
+        {"id": "B", "text": "Passivo — devedora; receita — devedora."},
+        {"id": "C", "text": "Ativo — devedora; despesa — devedora."},
+        {"id": "D", "text": "Receita — devedora; ativo — credora."},
+        {"id": "E", "text": "Passivo — devedora; patrimônio líquido — sempre devedora."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ativo e despesa têm natureza normal devedora. Passivo, patrimônio líquido em sua estrutura normal e receita têm natureza normalmente credora."
+    },
+    {
+      "id": "u045-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma entidade paga R$ 2 mil de uma obrigação já registrada, sem juros. O efeito normal sobre a conta Fornecedores é",
+      "options": [
+        {"id": "A", "text": "crédito de R$ 2 mil, aumentando a obrigação."},
+        {"id": "B", "text": "débito de R$ 2 mil, reduzindo a obrigação."},
+        {"id": "C", "text": "débito de R$ 2 mil, aumentando a obrigação."},
+        {"id": "D", "text": "crédito de R$ 2 mil, reduzindo uma conta devedora."},
+        {"id": "E", "text": "nenhum movimento, pois pagamento não afeta passivo."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Fornecedores é credora por natureza. Como o pagamento reduz a obrigação, a conta é debitada."
+    },
+    {
+      "id": "u045-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma entidade paga em dinheiro uma despesa de energia de R$ 500. Considerando apenas o funcionamento normal das contas, a alternativa correta é",
+      "options": [
+        {"id": "A", "text": "Despesa de energia é creditada e Caixa é debitada."},
+        {"id": "B", "text": "Despesa de energia é debitada e Caixa é creditada."},
+        {"id": "C", "text": "Ambas são creditadas."},
+        {"id": "D", "text": "Ambas são debitadas."},
+        {"id": "E", "text": "Nenhuma conta é movimentada."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Despesa é devedora por natureza e aumenta por débito. Caixa é ativo devedor por natureza, mas está diminuindo, portanto recebe crédito."
+    },
+    {
+      "id": "u045-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na compra à vista de estoque, sem componente de resultado, qual combinação representa corretamente o mecanismo das contas?",
+      "options": [
+        {"id": "A", "text": "Estoque aumenta por débito e Caixa diminui por crédito."},
+        {"id": "B", "text": "Estoque aumenta por crédito e Caixa diminui por débito."},
+        {"id": "C", "text": "Estoque e Caixa aumentam por débito."},
+        {"id": "D", "text": "Estoque e Caixa diminuem por crédito."},
+        {"id": "E", "text": "Estoque aumenta por crédito e Caixa aumenta por débito."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "As duas contas são do ativo e de natureza devedora. Estoque aumenta, logo é debitado; Caixa diminui, logo é creditado."
+    },
+    {
+      "id": "u045-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na integralização de capital em dinheiro, qual relação é coerente com a natureza normal das contas?",
+      "options": [
+        {"id": "A", "text": "Caixa diminui por crédito e capital diminui por débito."},
+        {"id": "B", "text": "Caixa aumenta por débito e capital social aumenta por crédito."},
+        {"id": "C", "text": "Caixa aumenta por crédito e capital social aumenta por débito."},
+        {"id": "D", "text": "Caixa e capital social aumentam ambos por débito."},
+        {"id": "E", "text": "Caixa e capital social aumentam ambos por crédito."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Caixa, ativo devedor, aumenta por débito. Capital social, componente normalmente credor do patrimônio líquido, aumenta por crédito."
+    },
+    {
+      "id": "u045-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma conta apresenta total de débitos de R$ 18 mil e total de créditos de R$ 7 mil. Seu saldo é",
+      "options": [
+        {"id": "A", "text": "credor de R$ 25 mil."},
+        {"id": "B", "text": "devedor de R$ 11 mil."},
+        {"id": "C", "text": "credor de R$ 11 mil."},
+        {"id": "D", "text": "devedor de R$ 25 mil."},
+        {"id": "E", "text": "zero."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A diferença é R$ 11 mil. Como os débitos superam os créditos, o saldo é devedor."
+    },
+    {
+      "id": "u045-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma conta apresenta R$ 20 mil em créditos e R$ 12 mil em débitos. Seu saldo é",
+      "options": [
+        {"id": "A", "text": "devedor de R$ 8 mil."},
+        {"id": "B", "text": "credor de R$ 8 mil."},
+        {"id": "C", "text": "credor de R$ 32 mil."},
+        {"id": "D", "text": "devedor de R$ 32 mil."},
+        {"id": "E", "text": "zero."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A diferença é R$ 8 mil e o lado credor é maior; logo, o saldo é credor de R$ 8 mil."
+    },
+    {
+      "id": "u045-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando o total dos débitos de uma conta é exatamente igual ao total dos créditos,",
+      "options": [
+        {"id": "A", "text": "o saldo é necessariamente devedor."},
+        {"id": "B", "text": "o saldo é necessariamente credor."},
+        {"id": "C", "text": "a conta apresenta saldo zero."},
+        {"id": "D", "text": "a natureza da conta muda automaticamente."},
+        {"id": "E", "text": "todos os movimentos anteriores devem ser anulados."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Se os dois lados totalizam o mesmo valor, a diferença é zero; a conta está saldada naquele momento."
+    },
+    {
+      "id": "u045-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Por que é inadequado afirmar que toda conta relacionada ao patrimônio líquido possui natureza credora sem exceção?",
+      "options": [
+        {"id": "A", "text": "Porque patrimônio líquido não possui contas."},
+        {"id": "B", "text": "Porque podem existir contas de natureza oposta à predominante do grupo, como ações em tesouraria de natureza devedora."},
+        {"id": "C", "text": "Porque todas as contas do patrimônio líquido são devedoras."},
+        {"id": "D", "text": "Porque natureza devedora e credora só existem no ativo."},
+        {"id": "E", "text": "Porque crédito nunca pode aumentar patrimônio líquido."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A natureza credora é a regra predominante do patrimônio líquido, mas há contas com natureza oposta. Ações em tesouraria é exemplo clássico de natureza devedora."
+    },
+    {
+      "id": "u045-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa diferencia corretamente natureza da conta e saldo?",
+      "options": [
+        {"id": "A", "text": "Natureza indica o funcionamento normal; saldo resulta dos movimentos efetivamente registrados em determinado momento."},
+        {"id": "B", "text": "Natureza e saldo são expressões sempre idênticas e intercambiáveis."},
+        {"id": "C", "text": "Saldo determina que a conta só pode receber movimentos no lado de mesmo nome."},
+        {"id": "D", "text": "Natureza é calculada subtraindo créditos de débitos em toda conta."},
+        {"id": "E", "text": "Saldo existe apenas para contas do ativo."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A natureza descreve o lado normal de aumento e o comportamento típico da conta; o saldo é a diferença resultante entre débitos e créditos registrados."
+    },
+    {
+      "id": "u045-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item de prova de Técnico em Contabilidade da Fundação Universidade de Brasília, aplicada em 2018, qual afirmação traduz corretamente o papel de uma conta?",
+      "options": [
+        {"id": "A", "text": "Contas existem apenas para valores monetários e nunca para registros quantitativos não monetários."},
+        {"id": "B", "text": "Uma conta pode organizar registros quantitativos pertinentes a fatos patrimoniais, inclusive conforme a natureza do dado acompanhado."},
+        {"id": "C", "text": "Uma conta só é criada depois do encerramento do exercício."},
+        {"id": "D", "text": "Uma conta contábil não pode representar fatos patrimoniais."},
+        {"id": "E", "text": "Toda conta é necessariamente uma demonstração contábil completa."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal do item 63 da prova de 2018. O gabarito oficial definitivo foi Certo para a ideia de que contas podem servir a registros quantitativos monetários ou não monetários, desde que expressem fato patrimonial pertinente."
+    },
+    {
+      "id": "u045-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item da mesma prova de 2018, assinale a alternativa que corrige a afirmação de que uma aplicação de recursos seria necessariamente registrada a crédito em conta patrimonial credora.",
+      "options": [
+        {"id": "A", "text": "Aplicações em ativos, na regra normal, aumentam por débito em contas de natureza devedora."},
+        {"id": "B", "text": "Aplicações em ativos sempre aumentam por crédito em contas credoras."},
+        {"id": "C", "text": "Toda aplicação de recursos reduz o ativo."},
+        {"id": "D", "text": "Débito e crédito não têm qualquer relação com o mecanismo das contas."},
+        {"id": "E", "text": "Toda aplicação de recursos aumenta uma receita."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal do item 65 da prova de 2018, cujo gabarito oficial definitivo foi Errado. Na regra normal, contas do ativo têm natureza devedora e aumentam por débito."
+    },
+    {
+      "id": "u045-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 66 da prova de Técnico em Contabilidade da Fundação Universidade de Brasília de 2018, como se reduz normalmente o saldo da conta Caixa quando uma despesa é paga em dinheiro?",
+      "options": [
+        {"id": "A", "text": "Por débito em Caixa, porque toda saída é débito."},
+        {"id": "B", "text": "Por crédito em Caixa, porque a conta do ativo é devedora por natureza e o crédito representa sua redução."},
+        {"id": "C", "text": "Por crédito em Caixa somente se a despesa for uma receita."},
+        {"id": "D", "text": "Sem movimentar Caixa."},
+        {"id": "E", "text": "Por débito e crédito simultâneos de igual valor na própria Caixa."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal do item 66, cujo gabarito oficial definitivo foi Errado para a afirmação de que a redução de Caixa ocorreria por débito. Caixa é ativo de natureza devedora e reduz normalmente por crédito."
+    }
+  ]
+}
