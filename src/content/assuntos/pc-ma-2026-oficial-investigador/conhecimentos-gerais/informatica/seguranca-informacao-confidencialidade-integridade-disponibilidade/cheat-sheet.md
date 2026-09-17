@@ -1,4 +1,4 @@
-# Segurança da informação: CIA
+# Segurança da informação: confidencialidade, integridade e disponibilidade
 
 ## Tríade
 
