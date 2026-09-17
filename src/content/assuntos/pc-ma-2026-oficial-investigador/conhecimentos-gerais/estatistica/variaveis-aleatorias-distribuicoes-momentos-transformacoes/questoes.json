@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u052-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma variável aleatória é, essencialmente,",
+      "options": [
+        {"id": "A", "text": "uma função que associa um valor numérico aos resultados de um experimento aleatório."},
+        {"id": "B", "text": "um evento que obrigatoriamente tem probabilidade 1."},
+        {"id": "C", "text": "uma tabela de frequências observadas em uma amostra."},
+        {"id": "D", "text": "uma constante que não depende do resultado do experimento."},
+        {"id": "E", "text": "uma regra que só pode assumir valores inteiros."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A variável aleatória transforma cada resultado elementar em um número. Ela pode ser discreta ou contínua, conforme o conjunto de valores que pode assumir."
+    },
+    {
+      "id": "u052-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual situação é mais naturalmente modelada por uma variável aleatória contínua?",
+      "options": [
+        {"id": "A", "text": "Número de chamadas recebidas em uma hora."},
+        {"id": "B", "text": "Número de peças defeituosas em um lote."},
+        {"id": "C", "text": "Tempo, em segundos, até a conclusão de uma tarefa."},
+        {"id": "D", "text": "Quantidade de pessoas em uma fila."},
+        {"id": "E", "text": "Número de acertos em dez questões."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Tempo é medido em uma escala contínua. Contagens como chamadas, defeitos, pessoas e acertos são naturalmente discretas."
+    },
+    {
+      "id": "u052-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para uma variável aleatória discreta X, uma função de probabilidade válida deve, entre outras condições,",
+      "options": [
+        {"id": "A", "text": "ser negativa em pelo menos um ponto."},
+        {"id": "B", "text": "somar 1 sobre todos os valores possíveis de X."},
+        {"id": "C", "text": "integrar 1 apenas entre 0 e 1."},
+        {"id": "D", "text": "atribuir probabilidade positiva a todo número real."},
+        {"id": "E", "text": "ser necessariamente simétrica."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Na distribuição discreta, as massas p(x)=P(X=x) são não negativas e a soma sobre todos os valores possíveis é 1."
+    },
+    {
+      "id": "u052-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre uma função densidade de probabilidade de uma variável contínua, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "Seu valor em cada ponto é a probabilidade daquele ponto."},
+        {"id": "B", "text": "Ela nunca pode assumir valor maior que 1."},
+        {"id": "C", "text": "A probabilidade de um intervalo é a área da densidade sobre esse intervalo."},
+        {"id": "D", "text": "Sua soma sobre todos os números reais deve ser 1."},
+        {"id": "E", "text": "Toda densidade é constante."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Em variáveis contínuas, probabilidades são áreas obtidas por integração. A altura da densidade não é probabilidade pontual e pode ultrapassar 1, desde que a área total seja 1."
+    },
+    {
+      "id": "u052-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se X é uma variável aleatória contínua com densidade, então, para um valor real x0,",
+      "options": [
+        {"id": "A", "text": "P(X=x0)=1."},
+        {"id": "B", "text": "P(X=x0)=0."},
+        {"id": "C", "text": "P(X=x0)=f(x0), necessariamente."},
+        {"id": "D", "text": "P(X=x0) depende apenas da média."},
+        {"id": "E", "text": "P(X=x0) é sempre maior que P(X<x0)."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Em distribuições contínuas, pontos isolados têm probabilidade zero; probabilidades são atribuídas a intervalos por integração."
+    },
+    {
+      "id": "u052-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A função de distribuição acumulada de X é definida por",
+      "options": [
+        {"id": "A", "text": "F(x)=P(X=x)."},
+        {"id": "B", "text": "F(x)=P(X≥x)."},
+        {"id": "C", "text": "F(x)=P(X≤x)."},
+        {"id": "D", "text": "F(x)=E(X|X≤x)."},
+        {"id": "E", "text": "F(x)=Var(X≤x)."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A função de distribuição acumulada é F(x)=P(X≤x). Ela unifica o tratamento de variáveis discretas e contínuas."
+    },
+    {
+      "id": "u052-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para uma variável aleatória discreta X, a esperança E(X) é calculada, quando existe, por",
+      "options": [
+        {"id": "A", "text": "somar x·P(X=x) sobre os valores possíveis."},
+        {"id": "B", "text": "somar apenas as probabilidades maiores que 1/2."},
+        {"id": "C", "text": "integrar a função acumulada entre 0 e 1 em qualquer caso."},
+        {"id": "D", "text": "tomar sempre a mediana da distribuição."},
+        {"id": "E", "text": "multiplicar o menor pelo maior valor possível."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "No caso discreto, E(X)=Σ x·p(x). No caso contínuo, a soma é substituída pela integral de x f(x)."
+    },
+    {
+      "id": "u052-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se μ=E(X) e E(X²) é finita, então a variância de X pode ser escrita como",
+      "options": [
+        {"id": "A", "text": "E(X²)+μ²."},
+        {"id": "B", "text": "E(X²)−μ²."},
+        {"id": "C", "text": "[E(X)]² apenas."},
+        {"id": "D", "text": "E(X−μ)."},
+        {"id": "E", "text": "E(X²)/μ² em qualquer caso."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A identidade Var(X)=E[(X−μ)²]=E(X²)−[E(X)]² é uma das formas mais úteis de calcular a variância."
+    },
+    {
+      "id": "u052-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se Y=3+2X e Var(X)=5, então Var(Y) é",
+      "options": [
+        {"id": "A", "text": "5."},
+        {"id": "B", "text": "7."},
+        {"id": "C", "text": "10."},
+        {"id": "D", "text": "20."},
+        {"id": "E", "text": "25."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A adição de uma constante não altera a variância, e a multiplicação por 2 multiplica a variância por 2². Logo Var(Y)=4·5=20."
+    },
+    {
+      "id": "u052-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma variável X tem distribuição binomial com parâmetros n e p quando X conta",
+      "options": [
+        {"id": "A", "text": "o tempo contínuo até um evento, sem limite superior."},
+        {"id": "B", "text": "o número de sucessos em n tentativas independentes, com mesma probabilidade p de sucesso."},
+        {"id": "C", "text": "eventos em um intervalo com média igual à variância, sem número fixo de tentativas."},
+        {"id": "D", "text": "um valor uniforme em um intervalo contínuo."},
+        {"id": "E", "text": "qualquer soma de variáveis dependentes."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A binomial modela o número de sucessos em n tentativas de Bernoulli independentes com probabilidade de sucesso p constante."
+    },
+    {
+      "id": "u052-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se X tem distribuição binomial com parâmetros n=20 e p=0,3, então E(X) e Var(X) valem, respectivamente,",
+      "options": [
+        {"id": "A", "text": "6 e 4,2."},
+        {"id": "B", "text": "6 e 6."},
+        {"id": "C", "text": "20 e 0,3."},
+        {"id": "D", "text": "4,2 e 6."},
+        {"id": "E", "text": "14 e 4,2."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na binomial, E(X)=np=6 e Var(X)=np(1−p)=20·0,3·0,7=4,2."
+    },
+    {
+      "id": "u052-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se X tem distribuição de Poisson com parâmetro λ=4, então",
+      "options": [
+        {"id": "A", "text": "E(X)=4 e Var(X)=4."},
+        {"id": "B", "text": "E(X)=4 e Var(X)=2."},
+        {"id": "C", "text": "E(X)=2 e Var(X)=4."},
+        {"id": "D", "text": "E(X)=16 e Var(X)=4."},
+        {"id": "E", "text": "E(X)=Var(X)=1/4."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na distribuição de Poisson parametrizada por λ, a média e a variância são ambas iguais a λ."
+    },
+    {
+      "id": "u052-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se X e Y são independentes, X~Poisson(2) e Y~Poisson(5), então X+Y tem distribuição",
+      "options": [
+        {"id": "A", "text": "Poisson(3)."},
+        {"id": "B", "text": "Poisson(7)."},
+        {"id": "C", "text": "Binomial(7,1/2)."},
+        {"id": "D", "text": "Normal(7,1) obrigatoriamente."},
+        {"id": "E", "text": "Uniforme(2,5)."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A soma de variáveis de Poisson independentes é Poisson com parâmetro igual à soma dos parâmetros: 2+5=7."
+    },
+    {
+      "id": "u052-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na parametrização por taxa λ>0, uma variável exponencial tem média",
+      "options": [
+        {"id": "A", "text": "λ."},
+        {"id": "B", "text": "λ²."},
+        {"id": "C", "text": "1/λ."},
+        {"id": "D", "text": "1/λ²."},
+        {"id": "E", "text": "0."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na parametrização por taxa, a exponencial tem densidade λe^(−λx), x≥0, esperança 1/λ e variância 1/λ²."
+    },
+    {
+      "id": "u052-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se X tem distribuição normal com média μ e desvio padrão σ>0, a padronização usual é",
+      "options": [
+        {"id": "A", "text": "Z=X/μ."},
+        {"id": "B", "text": "Z=(X−μ)/σ."},
+        {"id": "C", "text": "Z=(X−σ)/μ."},
+        {"id": "D", "text": "Z=σX+μ."},
+        {"id": "E", "text": "Z=(X−μ)/σ²."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A transformação Z=(X−μ)/σ centraliza a variável e ajusta a escala, produzindo uma normal padrão quando X é normal."
+    },
+    {
+      "id": "u052-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para variáveis aleatórias discretas X e Y com distribuição conjunta p(x,y), a distribuição marginal de X é obtida por",
+      "options": [
+        {"id": "A", "text": "somar p(x,y) sobre todos os valores possíveis de y."},
+        {"id": "B", "text": "multiplicar p(x,y) por y."},
+        {"id": "C", "text": "dividir p(x,y) por P(X=x) em qualquer caso."},
+        {"id": "D", "text": "fixar apenas o maior valor de y."},
+        {"id": "E", "text": "subtrair a marginal de Y da conjunta."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A marginal elimina a outra variável: p_X(x)=Σ_y p(x,y). No caso contínuo, a soma é substituída por uma integral."
+    },
+    {
+      "id": "u052-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se X e Y possuem distribuição conjunta e são independentes, então a distribuição conjunta deve",
+      "options": [
+        {"id": "A", "text": "ser sempre normal."},
+        {"id": "B", "text": "ser igual ao produto das distribuições marginais nos pontos do suporte."},
+        {"id": "C", "text": "ter covariância necessariamente positiva."},
+        {"id": "D", "text": "atribuir probabilidade zero a todos os pares (x,y)."},
+        {"id": "E", "text": "ter marginais idênticas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Independência de variáveis aleatórias se expressa pela fatoração da distribuição conjunta no produto das marginais, nas formulações discreta ou contínua correspondentes."
+    },
+    {
+      "id": "u052-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item do Cebraspe/Telebras aplicado em 2026, suponha que Y~Poisson(2) e Z~Poisson(3) sejam independentes. A distribuição de Y+Z é",
+      "options": [
+        {"id": "A", "text": "Poisson(1)."},
+        {"id": "B", "text": "Poisson(5)."},
+        {"id": "C", "text": "Binomial(5,1/2)."},
+        {"id": "D", "text": "Exponencial com taxa 5."},
+        {"id": "E", "text": "Normal padrão."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal do item 72 do caderno 153_TELEBRAS_012_01, julgado Certo no gabarito definitivo. A soma de variáveis de Poisson independentes é Poisson com parâmetro igual à soma: 2+3=5."
+    },
+    {
+      "id": "u052-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 73 do mesmo concurso, sejam X, Y e Z independentes com distribuições de Poisson de parâmetros 1, 2 e 3. Qual é o desvio padrão de S=X+Y+Z?",
+      "options": [
+        {"id": "A", "text": "6."},
+        {"id": "B", "text": "3."},
+        {"id": "C", "text": "√6."},
+        {"id": "D", "text": "2."},
+        {"id": "E", "text": "1."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Adaptação não literal do item 73 do caderno 153_TELEBRAS_012_01, no qual a afirmação de desvio padrão igual a 6 foi julgada Errada. S~Poisson(6), portanto Var(S)=6 e o desvio padrão é √6."
+    },
+    {
+      "id": "u052-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 75 do Cebraspe/Telebras, se X, Y e Z são independentes, então a probabilidade de X=0, Y=0 e Z=0 é",
+      "options": [
+        {"id": "A", "text": "P(X=0)+P(Y=0)+P(Z=0)."},
+        {"id": "B", "text": "P(X=0)P(Y=0)P(Z=0)."},
+        {"id": "C", "text": "1−P(X=0)P(Y=0)P(Z=0)."},
+        {"id": "D", "text": "sempre zero."},
+        {"id": "E", "text": "sempre igual a 1."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal do item 75 do caderno 153_TELEBRAS_012_01, julgado Certo no gabarito definitivo. Para variáveis independentes, a probabilidade conjunta do evento fatoriza no produto das probabilidades marginais."
+    }
+  ]
+}
