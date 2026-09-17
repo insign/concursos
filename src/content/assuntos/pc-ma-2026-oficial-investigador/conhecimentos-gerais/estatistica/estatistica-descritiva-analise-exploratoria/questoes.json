@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u050-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa descreve melhor a finalidade da análise exploratória de dados?",
+      "options": [
+        {"id": "A", "text": "Substituir qualquer análise numérica por gráficos decorativos."},
+        {"id": "B", "text": "Examinar os dados com medidas, tabelas e gráficos para revelar estrutura, padrões, assimetrias e observações incomuns."},
+        {"id": "C", "text": "Calcular exclusivamente probabilidades futuras."},
+        {"id": "D", "text": "Provar previamente que os dados seguem distribuição normal."},
+        {"id": "E", "text": "Eliminar toda observação diferente da média."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A análise exploratória combina recursos gráficos e quantitativos para ganhar entendimento do conjunto de dados, revelar estrutura e detectar padrões ou anomalias antes de etapas inferenciais."
+    },
+    {
+      "id": "u050-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para representar as frequências de categorias nominais como 'setor A', 'setor B' e 'setor C', qual gráfico é mais diretamente adequado?",
+      "options": [
+        {"id": "A", "text": "Histograma de classes contíguas."},
+        {"id": "B", "text": "Gráfico de barras."},
+        {"id": "C", "text": "Gráfico de resíduos."},
+        {"id": "D", "text": "Curva de densidade obrigatória."},
+        {"id": "E", "text": "Diagrama de dispersão entre duas variáveis quantitativas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O gráfico de barras é apropriado para categorias. O histograma é construído para uma variável quantitativa agrupada em intervalos contíguos."
+    },
+    {
+      "id": "u050-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual característica distingue essencialmente um histograma de um gráfico de barras categórico?",
+      "options": [
+        {"id": "A", "text": "No histograma, as barras representam classes contíguas de uma escala quantitativa."},
+        {"id": "B", "text": "No histograma, a ordem das classes nunca importa."},
+        {"id": "C", "text": "O histograma só pode representar porcentagens."},
+        {"id": "D", "text": "O gráfico de barras exige variável contínua."},
+        {"id": "E", "text": "O histograma não permite visualizar assimetria."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O histograma divide a faixa de uma variável quantitativa em classes contíguas e mostra a frequência em cada intervalo; por isso sua estrutura é diferente da de barras para categorias."
+    },
+    {
+      "id": "u050-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma amostra de 50 observações, uma categoria aparece 15 vezes. Sua frequência relativa é",
+      "options": [
+        {"id": "A", "text": "15%."},
+        {"id": "B", "text": "20%."},
+        {"id": "C", "text": "30%."},
+        {"id": "D", "text": "35%."},
+        {"id": "E", "text": "50%."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A frequência relativa é 15/50 = 0,30 = 30%."
+    },
+    {
+      "id": "u050-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Considere os valores 4, 5, 5, 6 e 30. Qual par apresenta corretamente a média e a mediana?",
+      "options": [
+        {"id": "A", "text": "Média 5 e mediana 10."},
+        {"id": "B", "text": "Média 10 e mediana 5."},
+        {"id": "C", "text": "Média 10 e mediana 6."},
+        {"id": "D", "text": "Média 5 e mediana 6."},
+        {"id": "E", "text": "Média 30 e mediana 5."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A soma é 50 e n=5, logo a média é 10. Ordenados, os valores são 4, 5, 5, 6, 30; o valor central é 5, a mediana."
+    },
+    {
+      "id": "u050-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No conjunto 4, 5, 5, 6 e 30, qual afirmação é correta?",
+      "options": [
+        {"id": "A", "text": "A mediana é mais afetada pelo valor 30 do que a média."},
+        {"id": "B", "text": "A moda é 30."},
+        {"id": "C", "text": "A média é deslocada para cima pelo valor extremo, enquanto a mediana permanece 5."},
+        {"id": "D", "text": "A amplitude é 5."},
+        {"id": "E", "text": "Não existe medida de posição aplicável."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O valor 30 exerce grande influência sobre a média, que se torna 10. A mediana depende da posição ordenada e permanece 5; a amplitude é 30−4=26."
+    },
+    {
+      "id": "u050-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a relação correta entre quartis e percentis.",
+      "options": [
+        {"id": "A", "text": "Q1 corresponde ao 75º percentil."},
+        {"id": "B", "text": "Q2 corresponde ao 25º percentil."},
+        {"id": "C", "text": "Q3 corresponde ao 75º percentil."},
+        {"id": "D", "text": "Q3 corresponde sempre ao valor máximo."},
+        {"id": "E", "text": "Q2 corresponde sempre à média."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Q1, Q2 e Q3 correspondem, respectivamente, aos percentis 25, 50 e 75; Q2 coincide com a mediana."
+    },
+    {
+      "id": "u050-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A amplitude interquartil é definida por",
+      "options": [
+        {"id": "A", "text": "Q1 + Q3."},
+        {"id": "B", "text": "Q3 − Q1."},
+        {"id": "C", "text": "valor máximo − valor mínimo."},
+        {"id": "D", "text": "média − mediana."},
+        {"id": "E", "text": "desvio padrão ao quadrado."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A amplitude interquartil é Q3−Q1 e resume a dispersão da metade central dos dados."
+    },
+    {
+      "id": "u050-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação sobre variância e desvio padrão está correta?",
+      "options": [
+        {"id": "A", "text": "A variância e o desvio padrão sempre têm a mesma unidade dos dados."},
+        {"id": "B", "text": "A variância tem unidade ao quadrado e o desvio padrão retorna à unidade original dos dados."},
+        {"id": "C", "text": "O desvio padrão é a variância ao quadrado."},
+        {"id": "D", "text": "A variância depende apenas do mínimo e do máximo."},
+        {"id": "E", "text": "O desvio padrão nunca é influenciado por observações extremas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A variância trabalha com desvios ao quadrado; por isso sua unidade é quadrática. O desvio padrão é a raiz da variância e tem a mesma unidade dos dados."
+    },
+    {
+      "id": "u050-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se todos os valores de uma variável X forem transformados em Y = X + 10, então",
+      "options": [
+        {"id": "A", "text": "a média e a variância aumentam em 10."},
+        {"id": "B", "text": "a média aumenta em 10 e a variância permanece inalterada."},
+        {"id": "C", "text": "a média permanece inalterada e a variância aumenta em 100."},
+        {"id": "D", "text": "o desvio padrão aumenta em 10."},
+        {"id": "E", "text": "a variância é multiplicada por 100."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Somar uma constante desloca a localização, mas não altera as distâncias entre observações; portanto a média aumenta em 10 e a variância e o desvio padrão não mudam."
+    },
+    {
+      "id": "u050-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se Y = 3X e Var(X) = 4, qual é Var(Y)?",
+      "options": [
+        {"id": "A", "text": "7."},
+        {"id": "B", "text": "12."},
+        {"id": "C", "text": "16."},
+        {"id": "D", "text": "24."},
+        {"id": "E", "text": "36."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "Para Y=a+bX, Var(Y)=b²Var(X). Assim, Var(Y)=3²×4=36."
+    },
+    {
+      "id": "u050-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma distribuição apresenta uma cauda longa à direita. Como ela é classificada quanto à assimetria?",
+      "options": [
+        {"id": "A", "text": "Negativa."},
+        {"id": "B", "text": "Positiva."},
+        {"id": "C", "text": "Necessariamente simétrica."},
+        {"id": "D", "text": "De curtose zero."},
+        {"id": "E", "text": "Sem dispersão."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Assimetria positiva significa que a cauda mais longa está no lado direito; assimetria negativa corresponde à cauda mais longa à esquerda."
+    },
+    {
+      "id": "u050-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a relação entre média, mediana e assimetria, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "Em qualquer conjunto, média maior que mediana prova assimetria positiva."},
+        {"id": "B", "text": "Em distribuições unimodais assimétricas, a relação entre média e mediana pode servir como pista, mas não é uma regra universal para todo conjunto de dados."},
+        {"id": "C", "text": "Média e mediana são sempre iguais quando há assimetria."},
+        {"id": "D", "text": "A mediana determina sozinha o sinal da assimetria."},
+        {"id": "E", "text": "O sinal da assimetria depende apenas do tamanho da amostra."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A cauda pode deslocar a média e tornar comparações média-mediana úteis como heurística, mas essa comparação isolada não é uma caracterização universal do sinal da assimetria."
+    },
+    {
+      "id": "u050-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual interpretação de curtose é mais adequada?",
+      "options": [
+        {"id": "A", "text": "Mede exclusivamente a altura do maior valor observado."},
+        {"id": "B", "text": "Caracteriza o peso das caudas da distribuição em comparação com uma referência, como a normal."},
+        {"id": "C", "text": "É sinônimo de amplitude total."},
+        {"id": "D", "text": "Mede apenas a posição da mediana."},
+        {"id": "E", "text": "Indica o número de categorias qualitativas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Curtose é usada para caracterizar caudas relativamente pesadas ou leves. Reduzi-la à altura do pico é uma simplificação enganosa."
+    },
+    {
+      "id": "u050-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma questão usa excesso de curtose. Qual valor corresponde à distribuição normal nessa convenção?",
+      "options": [
+        {"id": "A", "text": "−3."},
+        {"id": "B", "text": "−1."},
+        {"id": "C", "text": "0."},
+        {"id": "D", "text": "1."},
+        {"id": "E", "text": "3."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na convenção de excesso de curtose, subtrai-se 3 da curtose bruta; por isso a normal tem excesso igual a 0. Na convenção bruta, a referência normal é 3."
+    },
+    {
+      "id": "u050-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual par de medidas tende a ser mais resistente a valores extremos?",
+      "options": [
+        {"id": "A", "text": "Média e amplitude total."},
+        {"id": "B", "text": "Variância e amplitude total."},
+        {"id": "C", "text": "Mediana e amplitude interquartil."},
+        {"id": "D", "text": "Média e desvio padrão."},
+        {"id": "E", "text": "Variância e desvio padrão."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Mediana e amplitude interquartil dependem da posição e da parte central dos dados, sendo menos influenciadas por extremos do que média, amplitude, variância e desvio padrão."
+    },
+    {
+      "id": "u050-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um diagrama de caixa que adote a convenção de 1,5 vez a amplitude interquartil, um ponto além da cerca interna deve ser",
+      "options": [
+        {"id": "A", "text": "apagado obrigatoriamente do banco de dados."},
+        {"id": "B", "text": "tratado como observação potencialmente atípica e investigado."},
+        {"id": "C", "text": "substituído automaticamente pela média."},
+        {"id": "D", "text": "interpretado como prova de erro de medição."},
+        {"id": "E", "text": "ignorado porque não afeta nenhuma medida."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A convenção do diagrama de caixa sinaliza pontos potencialmente atípicos. O sinal não identifica a causa: o ponto pode ser erro, evento raro ou observação legítima e deve ser investigado."
+    },
+    {
+      "id": "u050-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item do Cebraspe/Telebras, aplicado em 2026 para Especialista em Gestão de Telecomunicações — Engenheiro Civil, qual alternativa descreve corretamente um diagrama de caixa?",
+      "options": [
+        {"id": "A", "text": "Apresenta apenas a média e o desvio padrão."},
+        {"id": "B", "text": "Pode exibir mediana, quartis e observações sinalizadas como atípicas."},
+        {"id": "C", "text": "Só pode ser construído quando todos os valores são iguais."},
+        {"id": "D", "text": "Substitui os dados por categorias nominais."},
+        {"id": "E", "text": "Tem como eixo principal a ordem cronológica das observações."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal do item 53 do caderno 153_TELEBRAS_012_01, julgado Certo no gabarito definitivo. O diagrama de caixa resume a distribuição por mediana e quartis e pode sinalizar valores atípicos."
+    },
+    {
+      "id": "u050-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item do mesmo concurso da Telebras, qual interpretação corresponde ao terceiro quartil Q3?",
+      "options": [
+        {"id": "A", "text": "É o ponto associado a aproximadamente 25% da distribuição acumulada."},
+        {"id": "B", "text": "É o ponto associado a aproximadamente 50% da distribuição acumulada."},
+        {"id": "C", "text": "É o ponto associado a aproximadamente 75% da distribuição acumulada."},
+        {"id": "D", "text": "É sempre igual ao valor máximo."},
+        {"id": "E", "text": "É sempre igual à média."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Adaptação não literal do item 58 do caderno 153_TELEBRAS_012_01, julgado Certo no gabarito definitivo. Q3 corresponde ao 75º percentil, segundo a convenção de quantis adotada."
+    },
+    {
+      "id": "u050-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item do Cebraspe/Telebras, assinale a afirmação correta sobre unidades de medida.",
+      "options": [
+        {"id": "A", "text": "Média e desvio padrão são expressos na mesma unidade da variável original."},
+        {"id": "B", "text": "Variância e desvio padrão são ambos expressos na unidade ao quadrado."},
+        {"id": "C", "text": "A média é adimensional, qualquer que seja a variável."},
+        {"id": "D", "text": "O desvio padrão é sempre expresso em porcentagem."},
+        {"id": "E", "text": "A variância tem necessariamente a mesma unidade da média."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal do item 60 do caderno 153_TELEBRAS_012_01, julgado Certo no gabarito definitivo. A média e o desvio padrão mantêm a unidade original; a variância usa a unidade ao quadrado."
+    }
+  ]
+}
