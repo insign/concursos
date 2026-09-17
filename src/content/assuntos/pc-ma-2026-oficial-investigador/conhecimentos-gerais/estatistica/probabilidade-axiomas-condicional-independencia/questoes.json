@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u051-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um experimento aleatório, o espaço amostral é",
+      "options": [
+        {"id": "A", "text": "o conjunto dos resultados elementares possíveis do experimento."},
+        {"id": "B", "text": "somente o conjunto dos resultados favoráveis a um evento escolhido."},
+        {"id": "C", "text": "a probabilidade do evento impossível."},
+        {"id": "D", "text": "necessariamente um conjunto com resultados equiprováveis."},
+        {"id": "E", "text": "a interseção de todos os eventos do problema."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O espaço amostral reúne os resultados elementares possíveis. Um evento é um conjunto de resultados do espaço amostral; equiprobabilidade não faz parte da definição de espaço amostral."
+    },
+    {
+      "id": "u051-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa que contém apenas axiomas fundamentais de uma função de probabilidade.",
+      "options": [
+        {"id": "A", "text": "Não negatividade, P(Ω)=1 e aditividade para eventos dois a dois disjuntos."},
+        {"id": "B", "text": "P(A)=1/2 para todo evento A, simetria e independência universal."},
+        {"id": "C", "text": "P(∅)=1, P(Ω)=0 e multiplicação para eventos disjuntos."},
+        {"id": "D", "text": "Equiprobabilidade obrigatória, P(A)>0 para todo A e regra de Bayes."},
+        {"id": "E", "text": "Normalidade dos dados, média zero e variância unitária."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os axiomas usados nesta unidade são não negatividade, normalização P(Ω)=1 e aditividade contável para eventos dois a dois disjuntos. Regras como complemento e união são consequências."
+    },
+    {
+      "id": "u051-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se P(A)=0,37, então P(Aᶜ) é igual a",
+      "options": [
+        {"id": "A", "text": "0,13."},
+        {"id": "B", "text": "0,37."},
+        {"id": "C", "text": "0,63."},
+        {"id": "D", "text": "1,37."},
+        {"id": "E", "text": "Não pode ser obtida sem conhecer P(Ω)."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Como A e Aᶜ são disjuntos e formam Ω, P(Aᶜ)=1−P(A)=1−0,37=0,63."
+    },
+    {
+      "id": "u051-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para dois eventos A e B quaisquer, a fórmula geral correta para a união é",
+      "options": [
+        {"id": "A", "text": "P(A∪B)=P(A)+P(B)."},
+        {"id": "B", "text": "P(A∪B)=P(A)+P(B)−P(A∩B)."},
+        {"id": "C", "text": "P(A∪B)=P(A)P(B)."},
+        {"id": "D", "text": "P(A∪B)=P(A∩B)/P(B)."},
+        {"id": "E", "text": "P(A∪B)=1−P(A)−P(B)."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A soma P(A)+P(B) conta a interseção duas vezes; por isso subtrai-se P(A∩B). A soma simples vale quando a interseção é vazia."
+    },
+    {
+      "id": "u051-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se A⊆B, qual afirmação é necessariamente verdadeira?",
+      "options": [
+        {"id": "A", "text": "P(A)≥P(B)."},
+        {"id": "B", "text": "P(A)=1−P(B)."},
+        {"id": "C", "text": "P(A)≤P(B)."},
+        {"id": "D", "text": "A e B são independentes."},
+        {"id": "E", "text": "A e B são mutuamente exclusivos."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A monotonicidade da probabilidade implica que um evento contido em outro não pode ter probabilidade maior que o evento que o contém."
+    },
+    {
+      "id": "u051-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um espaço amostral finito, a razão 'número de casos favoráveis dividido pelo número de casos possíveis' pode ser usada diretamente quando",
+      "options": [
+        {"id": "A", "text": "os resultados elementares considerados são equiprováveis."},
+        {"id": "B", "text": "o evento favorável tem pelo menos dois resultados."},
+        {"id": "C", "text": "todos os eventos são independentes."},
+        {"id": "D", "text": "a probabilidade condicional é igual a zero."},
+        {"id": "E", "text": "o espaço amostral contém apenas números inteiros."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A contagem direta P(A)=|A|/|Ω| pressupõe que os resultados elementares do espaço finito tenham a mesma probabilidade de ocorrer."
+    },
+    {
+      "id": "u051-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se P(B)>0, a probabilidade condicional de A dado B é",
+      "options": [
+        {"id": "A", "text": "P(A|B)=P(A∪B)/P(B)."},
+        {"id": "B", "text": "P(A|B)=P(A∩B)/P(B)."},
+        {"id": "C", "text": "P(A|B)=P(A)P(B) em qualquer situação."},
+        {"id": "D", "text": "P(A|B)=P(B)/P(A)."},
+        {"id": "E", "text": "P(A|B)=1−P(B)."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Condicionar em B restringe o universo de referência a B. A fração relevante é a parte de B que também pertence a A: P(A∩B)/P(B)."
+    },
+    {
+      "id": "u051-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A partir da definição de probabilidade condicional, com P(B)>0, obtém-se a regra do produto",
+      "options": [
+        {"id": "A", "text": "P(A∩B)=P(A|B)P(B)."},
+        {"id": "B", "text": "P(A∩B)=P(A|B)+P(B)."},
+        {"id": "C", "text": "P(A∩B)=P(A∪B)P(B)."},
+        {"id": "D", "text": "P(A∩B)=1−P(A|B)."},
+        {"id": "E", "text": "P(A∩B)=P(B)/P(A|B)."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Multiplicando P(A|B)=P(A∩B)/P(B) por P(B), resulta P(A∩B)=P(A|B)P(B)."
+    },
+    {
+      "id": "u051-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a ordem do condicionamento, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "P(A|B) e P(B|A) são sempre iguais porque usam a mesma interseção."},
+        {"id": "B", "text": "P(A|B) e P(B|A) podem diferir porque, embora usem a mesma interseção, têm denominadores distintos."},
+        {"id": "C", "text": "P(A|B) só existe quando A e B são mutuamente exclusivos."},
+        {"id": "D", "text": "Trocar A e B na barra não altera o universo de referência."},
+        {"id": "E", "text": "Se P(A)>0 e P(B)>0, então P(A|B)=P(A) obrigatoriamente."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "P(A|B)=P(A∩B)/P(B), enquanto P(B|A)=P(A∩B)/P(A). A interseção é a mesma, mas o condicionante — e portanto o denominador — muda."
+    },
+    {
+      "id": "u051-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual igualdade caracteriza a independência de dois eventos A e B?",
+      "options": [
+        {"id": "A", "text": "P(A∩B)=0."},
+        {"id": "B", "text": "P(A∪B)=1."},
+        {"id": "C", "text": "P(A∩B)=P(A)P(B)."},
+        {"id": "D", "text": "P(A)=P(B)."},
+        {"id": "E", "text": "P(A|B)=0."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A condição algébrica de independência é P(A∩B)=P(A)P(B). Quando P(B)>0, ela equivale a P(A|B)=P(A)."
+    },
+    {
+      "id": "u051-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dois eventos A e B são mutuamente exclusivos e ambos têm probabilidade positiva. Nesse caso,",
+      "options": [
+        {"id": "A", "text": "A e B são necessariamente independentes."},
+        {"id": "B", "text": "A e B não são independentes, pois P(A∩B)=0 enquanto P(A)P(B)>0."},
+        {"id": "C", "text": "P(A|B)=P(A)."},
+        {"id": "D", "text": "P(A∩B)=P(A)P(B)>0."},
+        {"id": "E", "text": "P(A)=P(B)=1."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Exclusão mútua com probabilidades positivas implica interseção de probabilidade zero, enquanto o produto das probabilidades é positivo; por isso a condição de independência falha."
+    },
+    {
+      "id": "u051-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se A e B são independentes, qual afirmação é correta?",
+      "options": [
+        {"id": "A", "text": "A e Bᶜ também são independentes."},
+        {"id": "B", "text": "A e B precisam ser mutuamente exclusivos."},
+        {"id": "C", "text": "P(A)=P(B) necessariamente."},
+        {"id": "D", "text": "P(A∪B)=P(A)+P(B) necessariamente."},
+        {"id": "E", "text": "P(A∩B)=0 necessariamente."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Complementar um ou ambos os eventos preserva a independência. Por exemplo, P(A∩Bᶜ)=P(A)[1−P(B)]=P(A)P(Bᶜ)."
+    },
+    {
+      "id": "u051-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um dado honesto é lançado. Seja A o evento 'resultado par' e B o evento 'resultado maior que 3'. Qual é P(A|B)?",
+      "options": [
+        {"id": "A", "text": "1/3."},
+        {"id": "B", "text": "1/2."},
+        {"id": "C", "text": "2/3."},
+        {"id": "D", "text": "3/4."},
+        {"id": "E", "text": "1."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Dado B, o universo se restringe a {4,5,6}; A ocorre em {4,6}. Assim, P(A|B)=2/3."
+    },
+    {
+      "id": "u051-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma urna contém 3 bolas vermelhas e 2 azuis. Duas bolas são retiradas sem reposição. A probabilidade de as duas serem vermelhas é",
+      "options": [
+        {"id": "A", "text": "9/25."},
+        {"id": "B", "text": "3/10."},
+        {"id": "C", "text": "6/25."},
+        {"id": "D", "text": "1/2."},
+        {"id": "E", "text": "2/5."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sem reposição, após uma vermelha restam 2 vermelhas entre 4 bolas. Logo, P=3/5×2/4=6/20=3/10."
+    },
+    {
+      "id": "u051-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em duas retiradas de uma urna, a reposição da primeira bola antes da segunda retirada pode favorecer independência porque",
+      "options": [
+        {"id": "A", "text": "torna a probabilidade de qualquer evento igual a 1."},
+        {"id": "B", "text": "restaura a composição da urna, podendo manter a mesma distribuição de probabilidades na segunda etapa."},
+        {"id": "C", "text": "faz os eventos se tornarem mutuamente exclusivos."},
+        {"id": "D", "text": "elimina a necessidade de definir o espaço amostral."},
+        {"id": "E", "text": "obriga P(A∩B)=0."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Em urnas simples, repor a bola restaura a composição antes da segunda retirada, de modo que a informação sobre a primeira pode não alterar a probabilidade da segunda. A independência deve ser confirmada pelo modelo."
+    },
+    {
+      "id": "u051-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A fórmula elementar P(A|B)=P(A∩B)/P(B) requer",
+      "options": [
+        {"id": "A", "text": "P(A)=0."},
+        {"id": "B", "text": "P(B)>0."},
+        {"id": "C", "text": "A∩B=∅."},
+        {"id": "D", "text": "A e B independentes."},
+        {"id": "E", "text": "P(A)=P(B)."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A expressão é uma razão cujo denominador é P(B); por isso, na formulação elementar usada nesta unidade, exige P(B)>0."
+    },
+    {
+      "id": "u051-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Com P(A)>0 e P(B)>0, qual expressão inverte corretamente o condicionamento?",
+      "options": [
+        {"id": "A", "text": "P(A|B)=P(B|A)P(A)/P(B)."},
+        {"id": "B", "text": "P(A|B)=P(B|A)P(B)/P(A)."},
+        {"id": "C", "text": "P(A|B)=P(A)+P(B|A)."},
+        {"id": "D", "text": "P(A|B)=P(A∩B)P(B)."},
+        {"id": "E", "text": "P(A|B)=1−P(B|A)."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Como P(A∩B)=P(B|A)P(A), substituindo na definição P(A|B)=P(A∩B)/P(B) obtém-se P(A|B)=P(B|A)P(A)/P(B)."
+    },
+    {
+      "id": "u051-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item do Cebraspe/Telebras aplicado em 2026, considere dois eventos A e C mutuamente exclusivos e ambos de probabilidade positiva. Qual afirmação está correta?",
+      "options": [
+        {"id": "A", "text": "A e C são independentes porque não ocorrem juntos."},
+        {"id": "B", "text": "A e C não são independentes, pois sua interseção tem probabilidade zero e o produto P(A)P(C) é positivo."},
+        {"id": "C", "text": "P(A∩C)=P(A)P(C)=0."},
+        {"id": "D", "text": "P(A|C)=P(A)."},
+        {"id": "E", "text": "P(A)=P(C)=0."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal do item 68 do caderno 153_TELEBRAS_012_01, julgado Errado no gabarito definitivo para a afirmação de independência. Eventos mutuamente exclusivos com probabilidades positivas são dependentes."
+    },
+    {
+      "id": "u051-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 70 do mesmo concurso, suponha A⊂B e que B\\A tenha probabilidade positiva. Qual relação é correta?",
+      "options": [
+        {"id": "A", "text": "P(A)>P(B)."},
+        {"id": "B", "text": "P(A)=P(B)."},
+        {"id": "C", "text": "P(A)<P(B)."},
+        {"id": "D", "text": "P(A∩B)=0."},
+        {"id": "E", "text": "A e B são independentes necessariamente."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Adaptação não literal do item 70 do caderno 153_TELEBRAS_012_01, julgado Certo no gabarito definitivo. Se B contém A e ainda possui uma parte adicional de probabilidade positiva, então P(B)>P(A)."
+    },
+    {
+      "id": "u051-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 71 do Cebraspe/Telebras, suponha que B=A∪C, com A e C mutuamente exclusivos e P(A)>0 e P(C)>0. O que se pode afirmar sobre P(C|B)?",
+      "options": [
+        {"id": "A", "text": "É igual a 1."},
+        {"id": "B", "text": "É igual a 0."},
+        {"id": "C", "text": "É estritamente maior que 0 e menor que 1."},
+        {"id": "D", "text": "É necessariamente igual a P(C)."},
+        {"id": "E", "text": "Não é definida porque P(B)=0."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Adaptação não literal do item 71 do caderno 153_TELEBRAS_012_01, cuja igualdade P(C|B)=1 foi julgada Errada. Como C⊂B e B também contém A com probabilidade positiva, P(C|B)=P(C)/[P(A)+P(C)] fica estritamente entre 0 e 1."
+    }
+  ]
+}
