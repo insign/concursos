@@ -20,9 +20,13 @@ No modelo desta unidade, \(X_1,\ldots,X_n\):
 \[
 E(\bar X)=\mu,
 \qquad
-\operatorname{Var}(\bar X)=\frac{\sigma^2}{n},
-\qquad
-EP(\bar X)=\frac{\sigma}{\sqrt n}.
+\operatorname{Var}(\bar X)=\frac{\sigma^2}{n}.
+\]
+
+Erro padrão:
+
+\[
+\frac{\sigma}{\sqrt n}.
 \]
 
 Quadruplicar \(n\) → erro padrão cai pela metade.
