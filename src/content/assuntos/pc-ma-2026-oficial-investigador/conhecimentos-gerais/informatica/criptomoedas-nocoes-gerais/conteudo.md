@@ -14,11 +14,11 @@ Criptomoedas são uma das respostas tecnológicas a esse conjunto de problemas. 
 
 > **chaves autorizam → transações circulam pela rede → participantes validam → um mecanismo de consenso organiza o registro → o histórico compartilhado permite verificar o estado dos ativos.**
 
-O Bitcoin é o exemplo clássico e será usado para construir a intuição. Ele não é sinônimo de toda criptomoeda, e **blockchain também não é sinônimo de Bitcoin**.
+O Bitcoin é o exemplo clássico e será usado para construir a intuição. Ele não é sinônimo de toda criptomoeda, e **<abbr title="Livro digital distribuído organizado em registros encadeados">blockchain</abbr> também não é sinônimo de Bitcoin**.
 
-## 1. Criptomoeda, ativo virtual e token não são palavras perfeitamente intercambiáveis
+## 1. Criptomoeda, ativo virtual e <abbr title="Unidade digital representada em um sistema">token</abbr> não são palavras perfeitamente intercambiáveis
 
-No uso técnico geral, **criptomoeda** é um ativo digital cujo funcionamento emprega mecanismos criptográficos e uma rede para registrar e validar transferências. Muitas criptomoedas utilizam blockchain, mas o conceito de blockchain é mais amplo que o de criptomoeda.
+No uso técnico geral, **criptomoeda** é um ativo digital cujo funcionamento emprega mecanismos criptográficos e uma rede para registrar e validar transferências. Muitas criptomoedas utilizam <abbr title="Livro digital distribuído organizado em registros encadeados">blockchain</abbr>, mas o conceito de blockchain é mais amplo que o de criptomoeda.
 
 No direito brasileiro, a Lei nº 14.478/2022 usa a categoria **ativo virtual**: representação digital de valor que pode ser negociada ou transferida por meios eletrônicos e utilizada para pagamentos ou investimento, ressalvadas as exclusões previstas na própria lei.
 
@@ -35,7 +35,7 @@ Portanto, para prova:
 
 Um **token** é, em sentido amplo, uma unidade digital representada em determinado sistema. Ele pode desempenhar funções muito diferentes: representar utilidade em uma aplicação, direito de acesso, ativo negociável ou outro interesse. Não conclua que “todo token é moeda” nem que “todo ativo virtual é valor mobiliário”.
 
-## 2. Blockchain: um livro de registros distribuído, não uma moeda
+## 2. <abbr title="Livro digital distribuído organizado em registros encadeados">Blockchain</abbr>: um livro de registros distribuído, não uma moeda
 
 O National Institute of Standards and Technology descreve blockchain como um **livro digital distribuído**, resistente e evidente a adulterações, mantido por participantes de uma rede. Em uma blockchain típica, transações são agrupadas em blocos, e os blocos são ligados de modo que alterações no histórico se tornem detectáveis e, conforme o sistema, extremamente custosas de consolidar.
 
@@ -150,7 +150,7 @@ A mineração cumpre funções relacionadas:
 
 **Minerador não é sinônimo de usuário, corretora ou carteira.** E mineração não deve ser generalizada para toda criptomoeda.
 
-Mineradores podem reunir capacidade computacional em **pools de mineração**, compartilhando trabalho e repartindo recompensas segundo regras do grupo. Um pool não muda o fato de que a rede continua aplicando as regras do protocolo aos blocos propostos.
+Mineradores podem reunir capacidade computacional em <abbr title="Grupos cooperativos que reúnem trabalho de mineradores">**pools de mineração**</abbr>, compartilhando trabalho e repartindo recompensas segundo regras do grupo. Um pool não muda o fato de que a rede continua aplicando as regras do protocolo aos blocos propostos.
 
 ### 8.2 Prova de participação em outras redes
 
