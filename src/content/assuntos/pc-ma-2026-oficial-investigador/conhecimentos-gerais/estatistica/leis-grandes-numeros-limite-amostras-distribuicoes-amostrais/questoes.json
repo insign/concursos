@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u053-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No modelo probabilístico desta unidade, uma amostra aleatória X1,...,Xn de uma mesma população é caracterizada por observações que são",
+      "options": [
+        {
+          "id": "A",
+          "text": "independentes e identicamente distribuídas."
+        },
+        {
+          "id": "B",
+          "text": "dependentes e necessariamente normais."
+        },
+        {
+          "id": "C",
+          "text": "independentes, mas com médias distintas."
+        },
+        {
+          "id": "D",
+          "text": "idênticas em valor em toda realização."
+        },
+        {
+          "id": "E",
+          "text": "ordenadas do menor para o maior."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A definição usada nos resultados desta unidade exige que as variáveis da amostra sejam independentes e tenham a mesma distribuição da população."
+    },
+    {
+      "id": "u053-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se X1,...,Xn são independentes, com média μ e variância σ², então a média amostral X̄ tem esperança e variância, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "μ e σ²."
+        },
+        {
+          "id": "B",
+          "text": "nμ e nσ²."
+        },
+        {
+          "id": "C",
+          "text": "μ e σ²/n."
+        },
+        {
+          "id": "D",
+          "text": "μ/n e σ²/n."
+        },
+        {
+          "id": "E",
+          "text": "nμ e σ²/n."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A média preserva o centro: E(X̄)=μ. Pela independência, Var(X̄)=σ²/n."
+    },
+    {
+      "id": "u053-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se o tamanho da amostra passa de n para 4n, mantendo-se a variância populacional, o erro padrão da média",
+      "options": [
+        {
+          "id": "A",
+          "text": "quadruplica."
+        },
+        {
+          "id": "B",
+          "text": "duplica."
+        },
+        {
+          "id": "C",
+          "text": "permanece igual."
+        },
+        {
+          "id": "D",
+          "text": "cai à metade."
+        },
+        {
+          "id": "E",
+          "text": "cai para um quarto."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O erro padrão é σ/√n. Substituir n por 4n produz σ/(2√n), metade do valor anterior."
+    },
+    {
+      "id": "u053-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A lei fraca dos grandes números, na forma clássica usada nesta unidade, estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "X̄n converge em probabilidade para μ."
+        },
+        {
+          "id": "B",
+          "text": "Sn converge em probabilidade para μ."
+        },
+        {
+          "id": "C",
+          "text": "cada Xi converge em probabilidade para μ."
+        },
+        {
+          "id": "D",
+          "text": "a população converge para uma normal padrão."
+        },
+        {
+          "id": "E",
+          "text": "a variância populacional converge para zero."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei fraca trata da concentração da média amostral: para qualquer tolerância positiva, a probabilidade de X̄n ficar fora dela em torno de μ tende a zero."
+    },
+    {
+      "id": "u053-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se Sn=X1+...+Xn e E(Xi)=μ, a formulação da lei dos grandes números para a soma é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sn→μ em probabilidade."
+        },
+        {
+          "id": "B",
+          "text": "Sn/n→μ em probabilidade."
+        },
+        {
+          "id": "C",
+          "text": "Sn/√n→μ em probabilidade."
+        },
+        {
+          "id": "D",
+          "text": "Sn−nμ→0 quase certamente em qualquer caso."
+        },
+        {
+          "id": "E",
+          "text": "Sn/n→0 em probabilidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Como Sn/n=X̄n, é essa média que converge para μ. A soma Sn, em geral, cresce na ordem de n."
+    },
+    {
+      "id": "u053-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação distingue corretamente a lei dos grandes números do teorema central do limite?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ambos afirmam apenas que a população se torna normal."
+        },
+        {
+          "id": "B",
+          "text": "A lei dos grandes números descreve a concentração da média; o teorema central do limite descreve a forma limite da flutuação padronizada."
+        },
+        {
+          "id": "C",
+          "text": "A lei dos grandes números exige população normal, e o teorema central do limite não."
+        },
+        {
+          "id": "D",
+          "text": "O teorema central do limite afirma que X̄n converge em probabilidade para μ, sem padronização."
+        },
+        {
+          "id": "E",
+          "text": "A lei dos grandes números fornece a distribuição t exata da média."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei dos grandes números responde para onde a média se concentra. O teorema central do limite descreve a distribuição limite da média ou soma depois de centralização e escala adequadas."
+    },
+    {
+      "id": "u053-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sob as condições clássicas do teorema central do limite, a variável que converge em distribuição para N(0,1) é",
+      "options": [
+        {
+          "id": "A",
+          "text": "(X̄n−μ)/(σ/√n)."
+        },
+        {
+          "id": "B",
+          "text": "X̄n−μ."
+        },
+        {
+          "id": "C",
+          "text": "X̄n/σ²."
+        },
+        {
+          "id": "D",
+          "text": "Sn−μ."
+        },
+        {
+          "id": "E",
+          "text": "Sn/(σn)."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A média deve ser centralizada por μ e dividida por seu desvio padrão σ/√n."
+    },
+    {
+      "id": "u053-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se Sn=X1+...+Xn, com E(Xi)=μ e Var(Xi)=σ², a padronização correspondente ao teorema central do limite é",
+      "options": [
+        {
+          "id": "A",
+          "text": "(Sn−μ)/(σ√n)."
+        },
+        {
+          "id": "B",
+          "text": "(Sn−nμ)/(σn)."
+        },
+        {
+          "id": "C",
+          "text": "(Sn−nμ)/(σ√n)."
+        },
+        {
+          "id": "D",
+          "text": "Sn/(nμ)."
+        },
+        {
+          "id": "E",
+          "text": "(Sn−nμ)/σ²."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A soma tem média nμ e variância nσ², portanto desvio padrão σ√n. A padronização correta é (Sn−nμ)/(σ√n)."
+    },
+    {
+      "id": "u053-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a população é exatamente normal com média μ e variância σ², então, para uma amostra aleatória de tamanho n,",
+      "options": [
+        {
+          "id": "A",
+          "text": "X̄ é normal apenas quando n≥30."
+        },
+        {
+          "id": "B",
+          "text": "X̄ é exatamente N(μ,σ²/n) para qualquer n."
+        },
+        {
+          "id": "C",
+          "text": "X̄ é uniforme para n pequeno."
+        },
+        {
+          "id": "D",
+          "text": "X̄ tem variância σ²n."
+        },
+        {
+          "id": "E",
+          "text": "X̄ é necessariamente t com n graus de liberdade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Combinações lineares de variáveis normais independentes são normais. Assim, a média amostral é exatamente N(μ,σ²/n), sem exigir n grande."
+    },
+    {
+      "id": "u053-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a regra prática de que n=30 seria suficiente para aplicar o teorema central do limite, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "é um teorema universal, independentemente da população."
+        },
+        {
+          "id": "B",
+          "text": "vale apenas para distribuições uniformes."
+        },
+        {
+          "id": "C",
+          "text": "não existe limiar universal; a qualidade da aproximação depende também da distribuição de origem."
+        },
+        {
+          "id": "D",
+          "text": "n=30 torna os próprios dados exatamente normais."
+        },
+        {
+          "id": "E",
+          "text": "o teorema só vale quando n é exatamente 30."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O teorema é assintótico. A rapidez da aproximação depende das características da distribuição de origem; não há um corte universal que garanta boa aproximação em todos os casos."
+    },
+    {
+      "id": "u053-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma distribuição amostral é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a lista ordenada dos dados de uma única amostra."
+        },
+        {
+          "id": "B",
+          "text": "a distribuição da população antes da coleta."
+        },
+        {
+          "id": "C",
+          "text": "a distribuição de probabilidade de uma estatística sob repetição do mecanismo de amostragem."
+        },
+        {
+          "id": "D",
+          "text": "qualquer histograma feito com os dados observados."
+        },
+        {
+          "id": "E",
+          "text": "sempre uma distribuição normal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Uma estatística varia de amostra para amostra. A distribuição amostral descreve probabilisticamente esses possíveis valores."
+    },
+    {
+      "id": "u053-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se p̂ é a proporção amostral de sucessos em n observações Bernoulli independentes com probabilidade p, então",
+      "options": [
+        {
+          "id": "A",
+          "text": "E(p̂)=np e Var(p̂)=p(1−p)."
+        },
+        {
+          "id": "B",
+          "text": "E(p̂)=p e Var(p̂)=p(1−p)/n."
+        },
+        {
+          "id": "C",
+          "text": "E(p̂)=p/n e Var(p̂)=p/n."
+        },
+        {
+          "id": "D",
+          "text": "E(p̂)=1−p e Var(p̂)=n."
+        },
+        {
+          "id": "E",
+          "text": "E(p̂)=p e Var(p̂)=p²/n."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A proporção é a média de indicadores Bernoulli. Por isso, sua esperança é p e sua variância é p(1−p)/n."
+    },
+    {
+      "id": "u053-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para uma amostra aleatória de uma população normal, qual estatística tem distribuição qui-quadrado com n−1 graus de liberdade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "(X̄−μ)/(σ/√n)."
+        },
+        {
+          "id": "B",
+          "text": "(n−1)S²/σ²."
+        },
+        {
+          "id": "C",
+          "text": "S/σ."
+        },
+        {
+          "id": "D",
+          "text": "X̄/S."
+        },
+        {
+          "id": "E",
+          "text": "nX̄/σ²."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Em população normal, a variância amostral satisfaz (n−1)S²/σ² ~ χ² com n−1 graus de liberdade."
+    },
+    {
+      "id": "u053-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma amostra aleatória de população normal, a média amostral X̄ e a variância amostral S² são",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre iguais."
+        },
+        {
+          "id": "B",
+          "text": "independentes."
+        },
+        {
+          "id": "C",
+          "text": "perfeitamente correlacionadas."
+        },
+        {
+          "id": "D",
+          "text": "independentes apenas quando n=30."
+        },
+        {
+          "id": "E",
+          "text": "ambas qui-quadrado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A independência entre X̄ e S² é uma propriedade especial da amostragem de uma população normal e sustenta a distribuição t da estatística padronizada com S."
+    },
+    {
+      "id": "u053-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando a população é normal e σ é desconhecido, a estatística (X̄−μ)/(S/√n) segue",
+      "options": [
+        {
+          "id": "A",
+          "text": "normal padrão para qualquer n."
+        },
+        {
+          "id": "B",
+          "text": "qui-quadrado com n graus de liberdade."
+        },
+        {
+          "id": "C",
+          "text": "t de Student com n−1 graus de liberdade."
+        },
+        {
+          "id": "D",
+          "text": "F com n e n−1 graus de liberdade."
+        },
+        {
+          "id": "E",
+          "text": "uniforme em (0,1)."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ao substituir σ pelo desvio padrão amostral S, a estatística segue t de Student com n−1 graus de liberdade, sob normalidade da população."
+    },
+    {
+      "id": "u053-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se duas amostras normais são independentes, a razão (S1²/σ1²)/(S2²/σ2²) tem distribuição",
+      "options": [
+        {
+          "id": "A",
+          "text": "t de Student."
+        },
+        {
+          "id": "B",
+          "text": "normal padrão."
+        },
+        {
+          "id": "C",
+          "text": "F, com graus de liberdade n1−1 e n2−1."
+        },
+        {
+          "id": "D",
+          "text": "Poisson."
+        },
+        {
+          "id": "E",
+          "text": "binomial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Cada variância amostral normalizada gera uma qui-quadrado dividida por seus graus de liberdade; a razão de duas quantidades independentes desse tipo gera a distribuição F."
+    },
+    {
+      "id": "u053-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação sobre o teorema central do limite é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ele torna a distribuição da população normal."
+        },
+        {
+          "id": "B",
+          "text": "Ele exige que a população original seja normal na forma clássica apresentada."
+        },
+        {
+          "id": "C",
+          "text": "Ele descreve a distribuição assintótica de uma média ou soma adequadamente padronizada."
+        },
+        {
+          "id": "D",
+          "text": "Ele afirma que o erro padrão da média cresce como √n."
+        },
+        {
+          "id": "E",
+          "text": "Ele substitui a independência por dependência perfeita."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O teorema central do limite não altera a população. Ele descreve a forma limite da estatística centralizada e escalada, sob condições como independência, distribuição comum e variância finita na forma clássica usada aqui."
+    },
+    {
+      "id": "u053-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 81 do Cebraspe/Telebras aplicado em 2026, X1,...,Xn são independentes e exponenciais com média 2, e Sn=X1+...+Xn. Qual formulação explica por que não se deve dizer simplesmente que Sn converge em distribuição para uma normal fixa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque a soma Sn é sempre uniforme."
+        },
+        {
+          "id": "B",
+          "text": "Porque o teorema central do limite se aplica à soma centralizada e escalada; (Sn−2n)/(2√n) converge para N(0,1)."
+        },
+        {
+          "id": "C",
+          "text": "Porque a distribuição exponencial tem variância zero."
+        },
+        {
+          "id": "D",
+          "text": "Porque Sn/n converge para zero."
+        },
+        {
+          "id": "E",
+          "text": "Porque nenhuma soma de exponenciais admite aproximação normal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal do item 81 do caderno 153_TELEBRAS_012_01, julgado Errado no gabarito definitivo. Com média 2 e variância 4, a forma do teorema central do limite é (Sn−2n)/(2√n) convergindo em distribuição para N(0,1); Sn sem padronização não converge para uma normal fixa."
+    },
+    {
+      "id": "u053-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 82 do mesmo concurso, se X1,...,Xn são independentes e exponenciais com média 2, então a soma Sn=X1+...+Xn tem distribuição exata",
+      "options": [
+        {
+          "id": "A",
+          "text": "qui-quadrado com 2n graus de liberdade."
+        },
+        {
+          "id": "B",
+          "text": "qui-quadrado com n graus de liberdade."
+        },
+        {
+          "id": "C",
+          "text": "normal padrão para todo n."
+        },
+        {
+          "id": "D",
+          "text": "t de Student com n−1 graus de liberdade."
+        },
+        {
+          "id": "E",
+          "text": "F com n e 2n graus de liberdade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal do item 82 do caderno 153_TELEBRAS_012_01, julgado Certo no gabarito definitivo. Uma exponencial de média 2 coincide com uma qui-quadrado de 2 graus de liberdade; somando n variáveis independentes, os graus de liberdade somam para 2n."
+    },
+    {
+      "id": "u053-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 84 do mesmo concurso, para X1,...,Xn independentes e exponenciais com média 2 e Sn=X1+...+Xn, a lei fraca dos grandes números implica que",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sn converge em probabilidade para uma distribuição normal."
+        },
+        {
+          "id": "B",
+          "text": "Sn/n converge em probabilidade para 2."
+        },
+        {
+          "id": "C",
+          "text": "Sn converge em probabilidade para 2."
+        },
+        {
+          "id": "D",
+          "text": "Sn/n converge em probabilidade para 0."
+        },
+        {
+          "id": "E",
+          "text": "(Sn−2n)/(2√n) converge em probabilidade para 2."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal do item 84 do caderno 153_TELEBRAS_012_01, julgado Errado no gabarito definitivo. A lei fraca aplica-se à média Sn/n, que converge em probabilidade para a esperança 2; ela não afirma que a soma converge em probabilidade para uma distribuição normal."
+    }
+  ]
+}
