@@ -13,14 +13,16 @@ Um arquivo pode ser copiado sem perder nenhum dado relevante e, ao mesmo tempo, 
 Imagine um celular apreendido em uma investigação. Há pelo menos três perguntas diferentes:
 
 1. **o que foi encontrado?** — mensagens, fotos, registros de acesso, arquivos, dados de aplicativos;
-2. **os dados examinados permanecem os mesmos que foram obtidos da fonte?** — problema de integridade e mesmidade;
+2. **os dados examinados permanecem os mesmos que foram obtidos da fonte?** — problema de integridade e de **mesmidade**, isto é, correspondência entre o material examinado e o originalmente obtido;
 3. **é possível reconstruir quem coletou, transferiu, armazenou e examinou o material?** — problema de rastreabilidade e cadeia de custódia.
+
+Nesta aula, **aquisição digital** significa a obtenção ou cópia controlada de dados para preservação e exame.
 
 O mapa da unidade é:
 
 > **identificar → preservar → adquirir/coletar → verificar integridade → documentar → analisar → armazenar e rastrear**.
 
-A cadeia de custódia não é um “arquivo de <abbr title="Resumo criptográfico calculado sobre uma sequência de dados">hash</abbr>”. O <abbr title="Resumo criptográfico calculado sobre uma sequência de dados">hash</abbr> pode ajudar a demonstrar que duas sequências de dados permanecem iguais; a cadeia é o conjunto mais amplo de procedimentos e registros que acompanha o vestígio ao longo de sua trajetória.
+A cadeia de custódia não é um “arquivo de <abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr>”. O <abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr> pode ajudar a demonstrar que duas sequências de dados permanecem iguais; a cadeia é o conjunto mais amplo de procedimentos e registros que acompanha o vestígio ao longo de sua trajetória.
 
 ## 1. Evidência digital não é sinônimo do aparelho que a contém
 
@@ -40,7 +42,7 @@ Essa distinção evita uma pegadinha importante:
 
 > **a apreensão do dispositivo não substitui, por si só, a aquisição e a documentação dos dados que serão analisados.**
 
-Também vale o inverso: uma cópia digital corretamente produzida não é automaticamente “inferior” só porque não é o dispositivo físico. Dados digitais podem ser copiados de forma a preservar a mesma sequência de bits acessível na fonte, desde que o procedimento seja adequado e verificável.
+Também vale o inverso: uma cópia digital corretamente produzida não é automaticamente “inferior” só porque não é o dispositivo físico. Dados digitais podem ser copiados de forma a preservar a mesma sequência digital acessível na fonte, desde que o procedimento seja adequado e verificável.
 
 ## 2. Por que a evidência digital exige cuidados próprios
 
@@ -119,7 +121,7 @@ Não existe regra de que uma técnica seja sempre superior. A escolha depende da
 
 ## 6. Preserve a fonte e examine uma cópia quando for tecnicamente viável
 
-Guias de computação forense do <abbr title="National Institute of Standards and Technology">NIST</abbr> recomendam preservar os dados originais e, quando viável, realizar o exame sobre uma cópia de trabalho, verificando a integridade entre fonte e cópia.
+Guias de <abbr title="Exame técnico de dados com preservação">computação forense</abbr> do <abbr title="National Institute of Standards and Technology">NIST</abbr> recomendam preservar os dados originais e, quando viável, realizar o exame sobre uma cópia de trabalho, verificando a integridade entre fonte e cópia.
 
 A razão é simples: análise costuma envolver leitura intensiva, indexação, conversão, extração e outras operações. Separar **fonte preservada** de **cópia de exame** reduz o risco de alterações acidentais no material de referência.
 
@@ -127,13 +129,13 @@ Isso não significa que todo dispositivo permita uma cópia integral antes de qu
 
 ## 7. O que o hash demonstra — e o que ele não demonstra
 
-Um <abbr title="Resumo criptográfico calculado sobre uma sequência de dados">hash</abbr> criptográfico transforma uma sequência de dados em um resumo de tamanho fixo. Em um algoritmo apropriado, se a sequência de entrada mudar, espera-se que o resumo também mude.
+Um <abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr> criptográfico transforma uma sequência de dados em um resumo de tamanho fixo. Em um <abbr title="Procedimento definido de cálculo">algoritmo</abbr> apropriado, se a sequência de entrada mudar, espera-se que o resumo também mude.
 
 Na perícia digital, uma prática comum é:
 
-1. calcular o <abbr title="Resumo criptográfico calculado sobre uma sequência de dados">hash</abbr> da fonte ou do conjunto adquirido;
+1. calcular o <abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr> da fonte ou do conjunto adquirido;
 2. produzir ou transferir a cópia;
-3. calcular novamente o <abbr title="Resumo criptográfico calculado sobre uma sequência de dados">hash</abbr> sobre a sequência comparável;
+3. calcular novamente o <abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr> sobre a sequência comparável;
 4. confrontar os resultados.
 
 Se os resumos coincidem, há forte suporte técnico para concluir que os dados comparados permanecem iguais em nível de conteúdo binário. Isso ajuda a demonstrar **integridade** e **mesmidade** — a ideia de que aquilo que está sendo examinado corresponde ao material originalmente obtido.
@@ -142,11 +144,11 @@ Mas atenção:
 
 > **hash igual não prova, sozinho, que o conteúdo é verdadeiro, autêntico, completo, lícito ou produzido por determinada pessoa.**
 
-O <abbr title="Resumo criptográfico calculado sobre uma sequência de dados">hash</abbr> responde principalmente à pergunta “os bytes comparados permaneceram os mesmos?”. Ele não substitui a documentação de origem, posse, transferências, ferramentas e procedimentos.
+O <abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr> responde principalmente à pergunta “os dados comparados permaneceram os mesmos?”. Ele não substitui a documentação de origem, posse, transferências, ferramentas e procedimentos.
 
 ### 7.1 Hash não é cadeia de custódia
 
-Uma cadeia bem documentada pode registrar diversos valores de <abbr title="Resumo criptográfico calculado sobre uma sequência de dados">hash</abbr>, mas também registra:
+Uma cadeia bem documentada pode registrar diversos valores de <abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr>, mas também registra:
 
 - responsável pela coleta;
 - fonte e identificação do material;
@@ -173,7 +175,7 @@ A lição não é “sempre manter ligado”. É:
 
 > **a decisão de coleta deve considerar o que pode ser perdido ou alterado e registrar o raciocínio e as ações executadas.**
 
-## 9. Captura de tela não é sinônimo de aquisição forense completa
+## 9. Captura de tela não é sinônimo de aquisição técnica completa
 
 Uma captura de tela registra uma representação visual de determinado estado. Ela pode ser útil, mas pode omitir:
 
@@ -184,9 +186,9 @@ Uma captura de tela registra uma representação visual de determinado estado. E
 - registros que permitam verificar origem e sequência temporal;
 - elementos necessários à reprodução independente do exame.
 
-Por isso, “há um print” e “há uma aquisição tecnicamente auditável” são afirmações diferentes.
+Por isso, “há uma captura de tela” e “há uma aquisição tecnicamente auditável” são afirmações diferentes.
 
-O <abbr title="Superior Tribunal de Justiça">STJ</abbr>, em precedentes consolidados na edição 281 de Jurisprudência em Teses, destacou que a integridade e a auditabilidade da prova digital dependem da preservação da cadeia de custódia e da possibilidade de exame técnico independente. Quando existe dúvida razoável sobre integridade e autenticidade, a análise pericial pode ser necessária para aferir a confiabilidade.
+O <abbr title="Superior Tribunal de Justiça">STJ</abbr>, em precedentes consolidados na edição 281 de Jurisprudência em Teses, destacou que a integridade e a **auditabilidade** — possibilidade de conferência técnica do procedimento — da prova digital dependem da preservação da cadeia de custódia e da possibilidade de exame técnico independente. Quando existe dúvida razoável sobre integridade e autenticidade, a tese registra que o exame pericial **é necessário** para assegurar a confiabilidade do material e o exercício do contraditório.
 
 Isso **não** significa que toda captura de tela seja automaticamente inválida. A conclusão jurídica depende do caso, do método de obtenção, da possibilidade de verificação e dos demais elementos disponíveis. A pegadinha é transformar cautela metodológica em regra absoluta.
 
@@ -202,7 +204,7 @@ Registre, conforme o caso:
 - **quando** cada ação ocorreu;
 - **como** a ação foi realizada;
 - ferramenta, versão e parâmetros relevantes;
-- valores de <abbr title="Resumo criptográfico calculado sobre uma sequência de dados">hash</abbr> quando aplicáveis;
+- valores de <abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr> quando aplicáveis;
 - identificação das mídias e cópias;
 - acessos, transferências, recebimentos e armazenamento;
 - falhas, interrupções e desvios do procedimento planejado;
@@ -218,7 +220,7 @@ O art. 158-E exige central de custódia para guarda e controle dos vestígios. A
 
 Em prova de informática, traduza esse mecanismo para a pergunta central: **é possível reconstruir a posse, o acesso e as intervenções sobre a evidência?**
 
-Não confunda a proteção física do recipiente com a verificação lógica do conteúdo digital. Lacre físico e <abbr title="Resumo criptográfico calculado sobre uma sequência de dados">hash</abbr> cumprem funções diferentes e podem se complementar.
+Não confunda a proteção física do recipiente com a verificação lógica do conteúdo digital. Lacre físico e <abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr> cumprem funções diferentes e podem se complementar.
 
 ## 12. “Preferencialmente” não significa “exclusivamente”
 
@@ -239,9 +241,9 @@ Três perguntas ajudam a separar conceitos próximos:
 - **integridade:** houve alteração indevida ou não documentada no material?
 - **autenticidade:** há suporte suficiente para confiar na origem ou identidade atribuída ao conteúdo?
 
-Um valor de <abbr title="Resumo criptográfico calculado sobre uma sequência de dados">hash</abbr> pode sustentar mesmidade e integridade entre duas sequências comparadas, mas não resolve sozinho autenticidade.
+Um valor de <abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr> pode sustentar mesmidade e integridade entre duas sequências comparadas, mas não resolve sozinho autenticidade.
 
-**Situação hipotética:** um arquivo falso já estava no dispositivo no momento da coleta. Uma cópia perfeita preserva exatamente aquele arquivo, e os valores de <abbr title="Resumo criptográfico calculado sobre uma sequência de dados">hash</abbr> coincidem. A integridade da cópia pode estar preservada, mas isso não transforma o conteúdo falso em verdadeiro nem prova quem o criou.
+**Situação hipotética:** um arquivo falso já estava no dispositivo no momento da coleta. Uma cópia perfeita preserva exatamente aquele arquivo, e os valores de <abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr> coincidem. A integridade da cópia pode estar preservada, mas isso não transforma o conteúdo falso em verdadeiro nem prova quem o criou.
 
 ## 14. Método de prova
 
@@ -250,7 +252,7 @@ Ao enfrentar uma alternativa, faça estas perguntas em ordem:
 1. **A questão está tratando do dado ou do suporte físico?**
 2. **O problema é preservação, coleta, aquisição, análise ou armazenamento?**
 3. **Há registro de quem recebeu, transferiu ou manipulou o material?**
-4. **O <abbr title="Resumo criptográfico calculado sobre uma sequência de dados">hash</abbr> está sendo usado apenas para integridade/mesmidade ou a alternativa lhe atribui poderes maiores?**
+4. **O <abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr> está sendo usado apenas para integridade/mesmidade ou a alternativa lhe atribui poderes maiores?**
 5. **Existe dado volátil que pode desaparecer com mudança de estado?**
 6. **A ordem legal da cadeia foi preservada?**
 
@@ -259,8 +261,8 @@ Pegadinhas recorrentes:
 - “a cadeia começa na coleta” → **falso**; pode começar antes, com preservação do local ou detecção em procedimento policial/pericial;
 - “todo dado digital está gravado de modo permanente” → **falso**;
 - “cópia é sempre imprestável porque não é o original físico” → **falso**;
-- “<abbr title="Resumo criptográfico calculado sobre uma sequência de dados">hash</abbr> igual prova autoria e veracidade” → **falso**;
-- “captura de tela equivale automaticamente a aquisição forense completa” → **falso**;
+- “<abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr> igual prova autoria e veracidade” → **falso**;
+- “captura de tela equivale automaticamente a aquisição técnica completa” → **falso**;
 - “o <abbr title="Código de Processo Penal">CPP</abbr> exige coleta exclusivamente por perito oficial” → **falso**; o texto usa “preferencialmente”.
 
 O mapa final é:
