@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u048-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma entidade adquire estoque cujo preço normal de pagamento é R$ 20 mil, mas aceita pagar R$ 21,2 mil após prazo que caracteriza componente de financiamento. Desconsiderando outros efeitos, qual tratamento expressa melhor a substância da operação?",
+      "options": [
+        {"id": "A", "text": "Reconhecer R$ 21,2 mil integralmente no estoque, sem despesa financeira."},
+        {"id": "B", "text": "Reconhecer R$ 20 mil no estoque e apropriar R$ 1,2 mil como juros ao longo do financiamento."},
+        {"id": "C", "text": "Reconhecer R$ 1,2 mil como desconto comercial."},
+        {"id": "D", "text": "Reconhecer apenas R$ 20 mil no passivo e ignorar a diferença contratada."},
+        {"id": "E", "text": "Reconhecer os R$ 1,2 mil como depreciação acumulada."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Quando a aquisição a prazo contém componente de financiamento, a diferença entre o preço normal da operação e o total financiado é reconhecida como despesa de juros ao longo do financiamento, em vez de compor automaticamente o custo do estoque."
+    },
+    {
+      "id": "u048-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma mercadoria tem preço de tabela de R$ 12 mil e desconto comercial de R$ 2 mil concedido na própria aquisição. Sem outros componentes, qual é o custo de aquisição?",
+      "options": [
+        {"id": "A", "text": "R$ 12 mil, porque desconto comercial só afeta o pagamento."},
+        {"id": "B", "text": "R$ 10 mil, pois o desconto comercial reduz o custo de aquisição."},
+        {"id": "C", "text": "R$ 14 mil, pois o desconto deve ser somado ao estoque."},
+        {"id": "D", "text": "R$ 2 mil, pois o estoque deve ser reconhecido apenas pelo desconto."},
+        {"id": "E", "text": "Zero, pois toda compra com desconto gera receita imediata equivalente ao preço."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Descontos comerciais e abatimentos vinculados à aquisição são deduzidos na mensuração do custo do estoque. Assim, R$ 12 mil menos R$ 2 mil = R$ 10 mil."
+    },
+    {
+      "id": "u048-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na compra de estoque, um tributo é recuperável junto ao fisco, conforme os dados do enunciado. Qual é o tratamento básico esperado?",
+      "options": [
+        {"id": "A", "text": "Incluir o tributo no custo do estoque em qualquer hipótese."},
+        {"id": "B", "text": "Reconhecer o valor recuperável separadamente como direito, sem incorporá-lo ao custo do estoque."},
+        {"id": "C", "text": "Reconhecer o tributo como receita de venda."},
+        {"id": "D", "text": "Reconhecer o tributo como depreciação acumulada."},
+        {"id": "E", "text": "Ignorar o tributo tanto no ativo quanto na obrigação de pagamento."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O custo de aquisição exclui tributos recuperáveis. Quando o direito de recuperação existe, ele é reconhecido separadamente do estoque, conforme a natureza da operação."
+    },
+    {
+      "id": "u048-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma entidade paga antecipadamente R$ 12 mil por doze meses de aluguel que serão consumidos a partir do mês seguinte. No momento do pagamento, qual efeito é mais adequado, desconsiderando outros fatos?",
+      "options": [
+        {"id": "A", "text": "Despesa integral de aluguel de R$ 12 mil."},
+        {"id": "B", "text": "Ativo referente ao direito pago antecipadamente de R$ 12 mil, a ser apropriado conforme o consumo."},
+        {"id": "C", "text": "Receita antecipada de R$ 12 mil."},
+        {"id": "D", "text": "Provisão de R$ 12 mil."},
+        {"id": "E", "text": "Depreciação acumulada de R$ 12 mil."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pagamento antecipado por benefício futuro não transforma todo o valor em despesa no dia do desembolso. Surge um ativo que será reduzido à medida que o aluguel for consumido."
+    },
+    {
+      "id": "u048-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O imóvel foi utilizado durante o mês, mas o aluguel só será pago no mês seguinte. Pelo regime de competência, qual efeito deve ser reconhecido no mês do uso?",
+      "options": [
+        {"id": "A", "text": "Nenhum, porque ainda não houve saída de caixa."},
+        {"id": "B", "text": "Despesa de aluguel e obrigação a pagar."},
+        {"id": "C", "text": "Ativo de aluguel antecipado e receita."},
+        {"id": "D", "text": "Somente redução de caixa."},
+        {"id": "E", "text": "Somente depreciação acumulada."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O consumo do benefício ocorreu no período, então a despesa é reconhecida nele. Como o valor ainda não foi pago, surge o passivo correspondente."
+    },
+    {
+      "id": "u048-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma obrigação monetária em moeda estrangeira equivalia a R$ 50 mil no reconhecimento inicial e, na data de fechamento, passa a equivaler a R$ 54 mil. Sem hipótese excepcional, qual efeito básico decorre da variação cambial?",
+      "options": [
+        {"id": "A", "text": "Redução do passivo em R$ 4 mil e ganho cambial."},
+        {"id": "B", "text": "Aumento do passivo em R$ 4 mil e perda cambial."},
+        {"id": "C", "text": "Aumento do estoque em R$ 4 mil, sem efeito no resultado."},
+        {"id": "D", "text": "Redução da receita em R$ 50 mil."},
+        {"id": "E", "text": "Nenhum efeito até o pagamento, por causa do regime de caixa."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Para um passivo monetário em moeda estrangeira, o aumento do equivalente em reais eleva a obrigação; em regra, a diferença cambial correspondente é reconhecida no resultado, ressalvadas hipóteses específicas da norma."
+    },
+    {
+      "id": "u048-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao fim do período, qual taxa é usada, em regra, para converter item monetário em moeda estrangeira?",
+      "options": [
+        {"id": "A", "text": "A taxa histórica da constituição da entidade, sempre."},
+        {"id": "B", "text": "A taxa de fechamento da data do balanço."},
+        {"id": "C", "text": "A maior taxa observada no exercício."},
+        {"id": "D", "text": "A menor taxa observada no exercício."},
+        {"id": "E", "text": "Nenhuma taxa, pois item monetário não é reconvertido."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Itens monetários em moeda estrangeira são convertidos, ao fim do período, pela taxa de câmbio de fechamento, de acordo com a regra geral aplicável."
+    },
+    {
+      "id": "u048-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma folha registra remuneração bruta de R$ 8 mil e retenções do empregado de R$ 1 mil. Desconsiderando encargos do empregador, qual relação é correta?",
+      "options": [
+        {"id": "A", "text": "A despesa salarial é R$ 7 mil, porque retenções não fazem parte da remuneração bruta."},
+        {"id": "B", "text": "A despesa salarial é R$ 8 mil; R$ 1 mil corresponde a obrigação de retenções, e R$ 7 mil ao líquido devido ao empregado."},
+        {"id": "C", "text": "A despesa salarial é R$ 1 mil, e R$ 7 mil são receita."},
+        {"id": "D", "text": "A despesa só existe quando os R$ 7 mil forem pagos."},
+        {"id": "E", "text": "As retenções são depreciação acumulada."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A remuneração bruta representa a despesa pelo serviço recebido, enquanto retenções e líquido a pagar formam obrigações distintas. Retenção do empregado não reduz a despesa bruta para R$ 7 mil."
+    },
+    {
+      "id": "u048-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma entidade reconhece a despesa salarial somente quando paga os empregados, embora o serviço tenha sido prestado no mês anterior. Qual princípio operacional foi desrespeitado?",
+      "options": [
+        {"id": "A", "text": "A separação entre custo e valor residual."},
+        {"id": "B", "text": "O reconhecimento por competência do serviço recebido."},
+        {"id": "C", "text": "A classificação de desconto comercial."},
+        {"id": "D", "text": "A baixa do ativo imobilizado."},
+        {"id": "E", "text": "A conversão cambial pela taxa de fechamento."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O serviço do empregado gera o reconhecimento do benefício no período em que é recebido. Esperar o pagamento desloca indevidamente o efeito econômico para outro período."
+    },
+    {
+      "id": "u048-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na compra a prazo de mercadoria para revenda por R$ 15 mil, sem outros componentes, qual lançamento básico representa o fato?",
+      "options": [
+        {"id": "A", "text": "Débito em Fornecedores e crédito em Estoques."},
+        {"id": "B", "text": "Débito em Estoques e crédito em Fornecedores."},
+        {"id": "C", "text": "Débito em Despesa de vendas e crédito em Receita."},
+        {"id": "D", "text": "Débito em Caixa e crédito em Estoques."},
+        {"id": "E", "text": "Débito em Depreciação acumulada e crédito em Caixa."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A mercadoria adquirida para revenda aumenta o ativo Estoques. Como a compra é a prazo, aumenta também o passivo com Fornecedores."
+    },
+    {
+      "id": "u048-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma mercadoria com custo contábil de R$ 70 é vendida por R$ 110 à vista. Desconsiderando tributos e outros efeitos, qual alternativa representa a operação de forma completa?",
+      "options": [
+        {"id": "A", "text": "Reconhecer somente caixa de R$ 110 e nenhuma receita ou despesa."},
+        {"id": "B", "text": "Reconhecer receita de R$ 110 e manter o estoque de R$ 70, pois a venda não afeta o custo."},
+        {"id": "C", "text": "Reconhecer receita de R$ 110 e, separadamente, despesa de custo de R$ 70 com baixa do estoque."},
+        {"id": "D", "text": "Reconhecer despesa de R$ 110 e receita de R$ 70."},
+        {"id": "E", "text": "Reconhecer lucro de R$ 110 diretamente, sem contas intermediárias."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A venda produz o efeito da receita/contrapartida e o efeito da saída do estoque pelo seu valor contábil. O resultado bruto do exemplo é R$ 40, não R$ 110."
+    },
+    {
+      "id": "u048-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual conjunto reúne os requisitos para reconhecer uma provisão?",
+      "options": [
+        {"id": "A", "text": "Qualquer risco futuro, mesmo sem evento passado e sem estimativa."},
+        {"id": "B", "text": "Obrigação presente por evento passado, saída provável de recursos e estimativa confiável do valor."},
+        {"id": "C", "text": "Somente decisão da administração de reservar caixa."},
+        {"id": "D", "text": "Possibilidade remota de desembolso, sem obrigação presente."},
+        {"id": "E", "text": "Existência de ativo depreciável, independentemente de obrigação."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O reconhecimento da provisão exige cumulativamente obrigação presente decorrente de evento passado, probabilidade de saída de recursos e possibilidade de estimativa confiável."
+    },
+    {
+      "id": "u048-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma demanda judicial apresenta apenas perda possível e não satisfaz os requisitos de reconhecimento de provisão. Qual tratamento conceitual é mais adequado?",
+      "options": [
+        {"id": "A", "text": "Reconhecer provisão em qualquer valor escolhido pela administração."},
+        {"id": "B", "text": "Reconhecer receita para compensar o risco."},
+        {"id": "C", "text": "Não reconhecer provisão automaticamente; avaliar o tratamento de passivo contingente e a divulgação aplicável."},
+        {"id": "D", "text": "Reconhecer depreciação acumulada."},
+        {"id": "E", "text": "Baixar estoques sem relação com a demanda."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Perda apenas possível não satisfaz, por si, o requisito de saída provável necessário ao reconhecimento de provisão. O tratamento passa pela disciplina de passivos contingentes e divulgação, conforme as circunstâncias."
+    },
+    {
+      "id": "u048-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre provisão e depreciação acumulada, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "São sempre sinônimos, pois ambas reduzem ativos."},
+        {"id": "B", "text": "Provisão é passivo de prazo ou valor incertos; depreciação acumulada é conta redutora ligada à alocação do valor depreciável do ativo."},
+        {"id": "C", "text": "Depreciação acumulada é obrigação presente com fornecedor."},
+        {"id": "D", "text": "Provisão só existe para ativos imobilizados."},
+        {"id": "E", "text": "Nenhuma das duas pode afetar o resultado."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A provisão pertence ao campo de passivos com incerteza de prazo ou valor. Depreciação acumulada é redutora do ativo e reflete a alocação sistemática do valor depreciável; não é provisão."
+    },
+    {
+      "id": "u048-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um equipamento custa R$ 50 mil, tem valor residual de R$ 10 mil e vida útil estimada em cinco anos. Pelo método linear, sem outras alterações, qual é a depreciação anual?",
+      "options": [
+        {"id": "A", "text": "R$ 5 mil."},
+        {"id": "B", "text": "R$ 8 mil."},
+        {"id": "C", "text": "R$ 10 mil."},
+        {"id": "D", "text": "R$ 12 mil."},
+        {"id": "E", "text": "R$ 50 mil."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Valor depreciável = R$ 50 mil − R$ 10 mil = R$ 40 mil. Pelo método linear em cinco anos: R$ 40 mil ÷ 5 = R$ 8 mil por ano."
+    },
+    {
+      "id": "u048-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um bem tem custo de R$ 80 mil e depreciação acumulada de R$ 55 mil. É vendido por R$ 29 mil, sem outros efeitos. Qual é o resultado da baixa?",
+      "options": [
+        {"id": "A", "text": "Perda de R$ 51 mil."},
+        {"id": "B", "text": "Perda de R$ 4 mil."},
+        {"id": "C", "text": "Ganho de R$ 4 mil."},
+        {"id": "D", "text": "Ganho de R$ 29 mil."},
+        {"id": "E", "text": "Nenhum resultado, pois a depreciação acumulada zera o custo."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Valor contábil = R$ 80 mil − R$ 55 mil = R$ 25 mil. Valor líquido da venda = R$ 29 mil. Logo, ganho = R$ 29 mil − R$ 25 mil = R$ 4 mil."
+    },
+    {
+      "id": "u048-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na baixa de um item do ativo imobilizado, qual sequência conceitual é correta?",
+      "options": [
+        {"id": "A", "text": "Manter custo e depreciação acumulada e registrar toda a entrada como lucro."},
+        {"id": "B", "text": "Retirar custo e depreciação acumulada vinculada, determinar o valor contábil e comparar com a contraprestação líquida para apurar ganho ou perda."},
+        {"id": "C", "text": "Baixar apenas a depreciação acumulada e manter o custo para sempre."},
+        {"id": "D", "text": "Registrar ganho de venda como depreciação acumulada."},
+        {"id": "E", "text": "Usar o preço original do bem como resultado da venda, independentemente do valor contábil."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A baixa remove o item do balanço, inclusive o custo e a depreciação acumulada associada. O ganho ou a perda deriva da comparação entre a contraprestação líquida e o valor contábil do item."
+    },
+    {
+      "id": "u048-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item do Cebraspe para Agente de Polícia Federal (2025), um equipamento permanece temporariamente ocioso, mas ainda não está totalmente depreciado e o método de depreciação não depende do uso. Qual tratamento é correto?",
+      "options": [
+        {"id": "A", "text": "Interromper sempre a depreciação enquanto durar a ociosidade."},
+        {"id": "B", "text": "Continuar a depreciação, pois a ociosidade temporária, por si só, não a interrompe."},
+        {"id": "C", "text": "Reclassificar automaticamente o ativo como estoque."},
+        {"id": "D", "text": "Baixar imediatamente o ativo sem apurar valor contábil."},
+        {"id": "E", "text": "Transformar a depreciação acumulada em provisão."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A regra geral é que a depreciação não cessa quando o ativo fica ocioso ou é retirado temporariamente de uso. A adaptação baseia-se no item 114 do caderno oficial, cujo gabarito definitivo foi Certo."
+    },
+    {
+      "id": "u048-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item do Cebraspe para Agente de Polícia Federal (2025), uma perda em contingência é apenas possível. Isso basta, isoladamente, para reconhecer provisão?",
+      "options": [
+        {"id": "A", "text": "Sim, porque qualquer possibilidade de perda exige provisão."},
+        {"id": "B", "text": "Sim, desde que a administração deseje ser conservadora."},
+        {"id": "C", "text": "Não; provisão exige, entre outros requisitos, saída provável de recursos e os demais critérios de reconhecimento."},
+        {"id": "D", "text": "Sim, mas somente se houver ativo imobilizado."},
+        {"id": "E", "text": "Não, porque provisões jamais são reconhecidas contabilmente."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Possibilidade de perda, sozinha, não cumpre o critério de saída provável. A adaptação parte do item 115 do caderno oficial, cuja formulação absoluta foi julgada Errada."
+    },
+    {
+      "id": "u048-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item do Cebraspe para Agente de Polícia Federal (2025), quando deve ser reconhecido o custo de férias acumuláveis à medida que o empregado adquire o direito?",
+      "options": [
+        {"id": "A", "text": "Somente no pagamento das férias."},
+        {"id": "B", "text": "Somente no mês em que as férias forem gozadas."},
+        {"id": "C", "text": "À medida que o serviço prestado aumenta o direito a ausências remuneradas futuras."},
+        {"id": "D", "text": "Apenas após o desligamento do empregado."},
+        {"id": "E", "text": "Nunca, porque férias não geram custo por competência."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ausências remuneradas acumuláveis são reconhecidas à medida que o empregado presta serviço que aumenta seu direito futuro. A adaptação parte do item 116 do caderno oficial, cuja afirmação de reconhecimento apenas no gozo foi julgada Errada."
+    }
+  ]
+}
