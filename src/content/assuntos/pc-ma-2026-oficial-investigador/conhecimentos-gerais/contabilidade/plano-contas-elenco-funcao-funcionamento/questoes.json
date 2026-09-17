@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u046-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa descreve melhor a finalidade de um plano de contas?",
+      "options": [
+        {"id": "A", "text": "Substituir as demonstrações contábeis por uma lista de códigos."},
+        {"id": "B", "text": "Organizar as contas utilizadas pela entidade e orientar sua classificação e utilização."},
+        {"id": "C", "text": "Registrar apenas operações que envolvam caixa."},
+        {"id": "D", "text": "Fixar uma numeração universal e obrigatória para qualquer entidade."},
+        {"id": "E", "text": "Eliminar a necessidade de conhecer a função das contas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O plano de contas organiza as contas e seu uso, apoiando classificação consistente, acumulação e preparação de relatórios. Ele não substitui demonstrações nem exige uma numeração universal para todas as entidades."
+    },
+    {
+      "id": "u046-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a afirmação correta sobre plano de contas e elenco de contas.",
+      "options": [
+        {"id": "A", "text": "São necessariamente sinônimos completos."},
+        {"id": "B", "text": "O elenco é a relação estruturada de contas e códigos; o plano pode incluir também orientação sobre função e funcionamento."},
+        {"id": "C", "text": "O plano contém apenas contas analíticas e o elenco apenas contas sintéticas."},
+        {"id": "D", "text": "O elenco define lançamentos, mas não apresenta nomes de contas."},
+        {"id": "E", "text": "O plano só existe quando a entidade utiliza exatamente quatro níveis de contas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O elenco mostra quais contas existem e como estão organizadas. Um plano completo vai além da lista, podendo explicitar o que cada conta representa e como deve ser movimentada."
+    },
+    {
+      "id": "u046-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um plano de contas, a descrição 'registra as disponibilidades mantidas em numerário' corresponde principalmente à",
+      "options": [
+        {"id": "A", "text": "função da conta Caixa."},
+        {"id": "B", "text": "codificação da conta Caixa."},
+        {"id": "C", "text": "fórmula de lançamento da conta Caixa."},
+        {"id": "D", "text": "hierarquia do grupo Passivo."},
+        {"id": "E", "text": "regra de encerramento da conta Caixa."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A função responde ao que a conta representa ou deve registrar. A frase delimita a finalidade da conta Caixa, sem descrever ainda sua mecânica de débito e crédito."
+    },
+    {
+      "id": "u046-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A indicação de que uma conta deve ser debitada em determinadas situações e creditada em outras descreve principalmente seu",
+      "options": [
+        {"id": "A", "text": "elenco."},
+        {"id": "B", "text": "funcionamento."},
+        {"id": "C", "text": "nome."},
+        {"id": "D", "text": "grupo de demonstrações."},
+        {"id": "E", "text": "código de identificação."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Funcionamento é a descrição de como a conta se movimenta: fatos que geram débito ou crédito, aumentos, reduções e comportamento do saldo."
+    },
+    {
+      "id": "u046-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma estrutura hierárquica de contas, uma conta sintética caracteriza-se por",
+      "options": [
+        {"id": "A", "text": "agregar valores de contas ou níveis mais detalhados."},
+        {"id": "B", "text": "ser obrigatoriamente a última conta da hierarquia."},
+        {"id": "C", "text": "registrar somente despesas."},
+        {"id": "D", "text": "não possuir relação com contas analíticas."},
+        {"id": "E", "text": "ter sempre saldo devedor."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A conta sintética representa um nível de agregação e consolida informações de níveis inferiores. Sua natureza de saldo depende do elemento que representa, não de ser sintética."
+    },
+    {
+      "id": "u046-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa caracteriza melhor uma conta analítica?",
+      "options": [
+        {"id": "A", "text": "É sempre um grande grupo patrimonial sem detalhamento."},
+        {"id": "B", "text": "Representa nível mais detalhado da estrutura e pode ser o nível de registro individualizado no plano adotado."},
+        {"id": "C", "text": "É sinônimo de elenco de contas."},
+        {"id": "D", "text": "Só pode existir em contas de resultado."},
+        {"id": "E", "text": "Não pode possuir código próprio."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A conta analítica detalha a informação. Em estruturas nas quais o nível terminal recebe os registros, o lançamento é individualizado nela e depois consolidado nos níveis sintéticos."
+    },
+    {
+      "id": "u046-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Considere o exemplo hipotético 1 = Ativo; 1.1 = Ativo circulante; 1.1.1 = Disponibilidades; 1.1.1.01 = Caixa. O principal objetivo dessa codificação é",
+      "options": [
+        {"id": "A", "text": "provar que toda entidade deve usar exatamente esses números."},
+        {"id": "B", "text": "mostrar a posição hierárquica da conta dentro do plano adotado."},
+        {"id": "C", "text": "substituir a função da conta Caixa."},
+        {"id": "D", "text": "definir automaticamente o gabarito de lançamentos futuros."},
+        {"id": "E", "text": "transformar todas as contas em contas sintéticas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A codificação ajuda a representar níveis e relações hierárquicas. O formato do exemplo é apenas didático e não constitui numeração universal."
+    },
+    {
+      "id": "u046-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a flexibilidade do plano de contas, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "O plano deve permanecer imutável mesmo quando a entidade passa a realizar novas atividades."},
+        {"id": "B", "text": "A entidade pode adaptar o plano às suas necessidades, preservando normas aplicáveis e classificação tecnicamente correta."},
+        {"id": "C", "text": "Flexibilidade permite registrar qualquer fato em qualquer conta, desde que o saldo final feche."},
+        {"id": "D", "text": "Somente contas de ativo podem ser incluídas depois da implantação do plano."},
+        {"id": "E", "text": "Toda alteração do plano elimina a possibilidade de comparação entre períodos."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O plano deve atender à realidade da entidade e pode exigir ajustes. Essa adaptação não autoriza violar normas, classificar fatos incorretamente ou destruir a coerência informacional."
+    },
+    {
+      "id": "u046-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma questão afirma que existe um único plano de contas geral, com o mesmo elenco e a mesma codificação, obrigatório para toda e qualquer entidade. A afirmação é",
+      "options": [
+        {"id": "A", "text": "correta, porque plano de contas não pode variar."},
+        {"id": "B", "text": "incorreta, pois estruturas podem ser adaptadas às normas e necessidades aplicáveis à entidade."},
+        {"id": "C", "text": "correta apenas para contas de receita."},
+        {"id": "D", "text": "correta apenas se houver menos de cem contas."},
+        {"id": "E", "text": "incorreta somente porque toda conta deve ficar sem código."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Não se deve inferir uma codificação universal e imutável. O plano deve observar as exigências pertinentes e pode variar conforme atividades, porte e necessidades de informação."
+    },
+    {
+      "id": "u046-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual par apresenta corretamente função e funcionamento da conta Caixa, em situação normal?",
+      "options": [
+        {"id": "A", "text": "Função: registrar numerário disponível; funcionamento: debitar entradas e creditar saídas."},
+        {"id": "B", "text": "Função: definir o código do Ativo; funcionamento: registrar somente receitas."},
+        {"id": "C", "text": "Função: registrar obrigações com fornecedores; funcionamento: creditar entradas de caixa."},
+        {"id": "D", "text": "Função: consolidar todo o patrimônio; funcionamento: nunca receber créditos."},
+        {"id": "E", "text": "Função: substituir o balanço; funcionamento: manter saldo sempre igual a zero."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A função delimita o que a conta representa; o funcionamento descreve a mecânica dos registros. Caixa normalmente representa numerário e, como conta devedora, aumenta por débito e diminui por crédito."
+    },
+    {
+      "id": "u046-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um plano de contas, a conta Fornecedores tem como função registrar obrigações ainda não liquidadas perante fornecedores. Qual descrição é coerente com seu funcionamento normal?",
+      "options": [
+        {"id": "A", "text": "Credita-se pelo aumento da obrigação e debita-se pela redução ou liquidação."},
+        {"id": "B", "text": "Debita-se pelo aumento da obrigação e nunca recebe créditos."},
+        {"id": "C", "text": "Registra somente entradas de numerário."},
+        {"id": "D", "text": "Mantém necessariamente saldo devedor."},
+        {"id": "E", "text": "Só pode ser movimentada no encerramento do exercício."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Fornecedores é normalmente conta do passivo, de natureza credora: aumenta por crédito e diminui por débito. A descrição trata do funcionamento, não da posição do código no elenco."
+    },
+    {
+      "id": "u046-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma entidade decide criar nova conta analítica porque passou a realizar operação relevante que antes não existia. Qual cuidado é mais adequado?",
+      "options": [
+        {"id": "A", "text": "Criar a conta em qualquer grupo, pois a flexibilidade elimina critérios de classificação."},
+        {"id": "B", "text": "Inserir a conta em posição coerente com sua natureza, normas aplicáveis e necessidade de informação."},
+        {"id": "C", "text": "Excluir automaticamente todas as contas sintéticas do mesmo grupo."},
+        {"id": "D", "text": "Alterar também o significado das contas antigas para evitar comparabilidade."},
+        {"id": "E", "text": "Proibir qualquer mudança, pois planos de contas são necessariamente permanentes e imutáveis."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Flexibilidade serve para adaptar o plano à realidade da entidade, não para abandonar coerência. A nova conta deve ser tecnicamente classificada e integrada à estrutura existente."
+    },
+    {
+      "id": "u046-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A hierarquia entre contas analíticas e sintéticas contribui para a preparação de relatórios porque",
+      "options": [
+        {"id": "A", "text": "permite registrar detalhes e consolidá-los em níveis mais amplos."},
+        {"id": "B", "text": "impede qualquer agregação de informações."},
+        {"id": "C", "text": "torna desnecessária a classificação patrimonial."},
+        {"id": "D", "text": "faz todas as contas terem a mesma função."},
+        {"id": "E", "text": "exige que todas as contas tenham o mesmo saldo."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O detalhamento permite acompanhar elementos específicos; a agregação em contas sintéticas permite apresentar informações em níveis mais amplos e coerentes."
+    },
+    {
+      "id": "u046-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma entidade possui apenas uma lista de nomes e códigos de contas, sem indicação do que cada conta representa nem de como deve ser movimentada. Esse documento corresponde mais diretamente",
+      "options": [
+        {"id": "A", "text": "ao elenco de contas, mas não contém toda a orientação de um plano de contas completo."},
+        {"id": "B", "text": "à escrituração completa de todos os fatos."},
+        {"id": "C", "text": "ao balanço patrimonial."},
+        {"id": "D", "text": "ao método das partidas dobradas."},
+        {"id": "E", "text": "a uma resolução de questão contábil."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Nomes, códigos e hierarquia formam o elenco. Para orientar plenamente o uso das contas, faltam descrições como função e funcionamento."
+    },
+    {
+      "id": "u046-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No exemplo hipotético 1 Ativo → 1.1 Ativo circulante → 1.1.1 Disponibilidades → 1.1.1.01 Caixa, qual relação é correta?",
+      "options": [
+        {"id": "A", "text": "Caixa é mais detalhada que Disponibilidades."},
+        {"id": "B", "text": "Ativo é mais detalhado que Caixa."},
+        {"id": "C", "text": "Todos os níveis possuem necessariamente a mesma função."},
+        {"id": "D", "text": "O código prova que Caixa é conta do passivo."},
+        {"id": "E", "text": "A numeração apresentada é obrigatória para toda entidade."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A sequência vai do grupo amplo ao elemento específico. Caixa está em nível mais detalhado que Disponibilidades; a numeração é apenas um exemplo didático."
+    },
+    {
+      "id": "u046-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um plano que reserva os níveis terminais para contas analíticas, qual procedimento é coerente?",
+      "options": [
+        {"id": "A", "text": "Individualizar o registro na conta analítica e consolidar seu valor nos níveis sintéticos correspondentes."},
+        {"id": "B", "text": "Registrar apenas no grupo mais amplo e eliminar as contas analíticas."},
+        {"id": "C", "text": "Impedir qualquer consolidação de valores."},
+        {"id": "D", "text": "Usar a conta sintética como se fosse necessariamente o nível mais detalhado."},
+        {"id": "E", "text": "Ignorar a hierarquia definida no próprio plano."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Quando o plano define o nível analítico como nível de registro, o detalhe é lançado ali e os valores alimentam a consolidação nos níveis sintéticos."
+    },
+    {
+      "id": "u046-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao analisar uma conta desconhecida dentro de um plano, qual sequência é mais útil para compreender seu uso?",
+      "options": [
+        {"id": "A", "text": "Identificar posição no elenco, função e funcionamento."},
+        {"id": "B", "text": "Memorizar somente o último dígito do código."},
+        {"id": "C", "text": "Verificar apenas se o nome contém a palavra Caixa."},
+        {"id": "D", "text": "Ignorar o grupo e observar apenas o saldo final."},
+        {"id": "E", "text": "Assumir que toda conta aumenta por débito."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A posição mostra a classificação; a função explica o que a conta representa; o funcionamento explica como deve ser movimentada. Esses três elementos formam um método seguro de leitura do plano."
+    },
+    {
+      "id": "u046-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item do Cebraspe para Técnico de Contabilidade da Fundação Universidade de Brasília (2022), assinale a afirmação correta sobre um plano de contas.",
+      "options": [
+        {"id": "A", "text": "Depois de criado, ele não pode receber novas contas nem sofrer ajustes."},
+        {"id": "B", "text": "Pode ser ajustado às necessidades da entidade, com inclusão, exclusão ou modificação de contas quando tecnicamente cabível."},
+        {"id": "C", "text": "Só pode conter contas patrimoniais."},
+        {"id": "D", "text": "Sua codificação é idêntica em toda organização."},
+        {"id": "E", "text": "Flexibilidade significa dispensar normas contábeis."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal do item 61 do caderno 678_FUB_017_01. O gabarito definitivo foi Certo para a ideia de que o plano é flexível e pode ser ajustado às necessidades da entidade."
+    },
+    {
+      "id": "u046-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item do mesmo concurso de 2022, qual descrição corresponde a contas sintéticas em um plano hierárquico?",
+      "options": [
+        {"id": "A", "text": "Representam níveis de agregação de grupos ou contas mais detalhadas."},
+        {"id": "B", "text": "São necessariamente o nível final de detalhamento de qualquer plano."},
+        {"id": "C", "text": "Não podem reunir valores de contas inferiores."},
+        {"id": "D", "text": "São exclusivas de receitas e despesas."},
+        {"id": "E", "text": "Não possuem relação com a estrutura do elenco."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal do item 62 do caderno 678_FUB_017_01, cujo gabarito definitivo foi Certo. Contas sintéticas agregam informações de níveis inferiores."
+    },
+    {
+      "id": "u046-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de questão do Cebraspe/ApexBrasil (2024), qual elemento, além do elenco de contas, ajuda a caracterizar um plano de contas completo?",
+      "options": [
+        {"id": "A", "text": "A cor usada para imprimir os códigos."},
+        {"id": "B", "text": "A função das contas."},
+        {"id": "C", "text": "O nome do profissional que digitou cada lançamento."},
+        {"id": "D", "text": "A eliminação da hierarquia entre contas."},
+        {"id": "E", "text": "A proibição de contas analíticas."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal da questão 45 do caderno 802_APEXBRASIL_006_01. O gabarito definitivo foi a alternativa C da prova original, correspondente à função das contas como componente que vai além do mero elenco."
+    }
+  ]
+}
