@@ -6,7 +6,7 @@
 
 - **evidência digital:** dado com potencial relevância probatória;
 - **suporte físico ≠ dado:** o aparelho contém dados, mas não se confunde com eles;
-- **cópia bem produzida ≠ prova inferior:** o ponto é preservar a mesmidade e permitir auditoria.
+- **cópia bem produzida ≠ prova inferior:** o ponto é preservar a **mesmidade** — correspondência com o material originalmente obtido — e permitir auditoria.
 
 ## Cadeia de custódia no <abbr title="Código de Processo Penal">CPP</abbr>
 
@@ -23,14 +23,14 @@ Pegadinhas:
 - exame não encerra automaticamente a cadeia; há armazenamento e posterior destinação;
 - a cadeia não se limita a vestígios encontrados no local físico do crime.
 
-## <abbr title="Resumo criptográfico calculado sobre uma sequência de dados">Hash</abbr>
+## <abbr title="Resumo criptográfico de uma sequência de dados">Hash</abbr>
 
-- mesmo algoritmo + mesmos dados → espera-se o mesmo resumo;
+- mesmo método de cálculo + mesmos dados → espera-se o mesmo resumo;
 - mudança nos dados → tende a produzir resumo diferente;
 - apoia **integridade** e **mesmidade**;
 - **não prova sozinho** autoria, veracidade, autenticidade, completude, licitude ou toda a cadeia de custódia.
 
-**<abbr title="Resumo criptográfico calculado sobre uma sequência de dados">Hash</abbr> é verificador técnico; cadeia de custódia é histórico controlado.**
+**<abbr title="Resumo criptográfico de uma sequência de dados">Hash</abbr> é verificador técnico; cadeia de custódia é histórico controlado.**
 
 ## Fonte e cópia
 
@@ -58,15 +58,15 @@ Informações em <abbr title="Random Access Memory, memória de acesso aleatóri
 
 Captura de tela é **representação visual**, não sinônimo de aquisição técnica completa. Pode omitir metadados, conteúdo não visível e elementos necessários à reprodução do exame.
 
-O <abbr title="Superior Tribunal de Justiça">STJ</abbr> exige atenção à preservação, auditabilidade e possibilidade de exame técnico independente; dúvida razoável sobre integridade/autenticidade pode exigir perícia complementar.
+O <abbr title="Superior Tribunal de Justiça">STJ</abbr> exige atenção à preservação, auditabilidade e possibilidade de exame técnico independente; diante de dúvida razoável sobre integridade e autenticidade, a tese consolidada em 2026 registra a necessidade de perícia.
 
-## Checklist de auditabilidade
+## Checklist para auditoria
 
 Registre **quem, o quê, onde, quando e como**, além de:
 
 - fonte e identificadores;
 - ferramenta/versão/parâmetros relevantes;
-- valores de <abbr title="Resumo criptográfico calculado sobre uma sequência de dados">hash</abbr> quando aplicáveis;
+- valores de <abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr> quando aplicáveis;
 - recebimentos e transferências;
 - acessos e armazenamento;
 - falhas, exceções e discrepâncias temporais.
@@ -76,6 +76,6 @@ Registre **quem, o quê, onde, quando e como**, além de:
 - cadeia começa só na coleta? **não**;
 - perito oficial é sempre exclusivo? **não**;
 - cópia digital é automaticamente imprestável? **não**;
-- <abbr title="Resumo criptográfico calculado sobre uma sequência de dados">hash</abbr> igual prova autoria? **não**;
+- <abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr> igual prova autoria? **não**;
 - captura de tela equivale a aquisição completa? **não**;
 - todo dado digital é permanente? **não**.
