@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u055-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No modelo de regressão linear simples E(Y|x)=β0+β1x, o coeficiente β1 representa",
+      "options": [
+        {
+          "id": "A",
+          "text": "a mudança média na resposta associada a um aumento unitário de x, segundo o modelo."
+        },
+        {
+          "id": "B",
+          "text": "a variância dos resíduos."
+        },
+        {
+          "id": "C",
+          "text": "a média incondicional de Y em qualquer população."
+        },
+        {
+          "id": "D",
+          "text": "a probabilidade de x causar Y."
+        },
+        {
+          "id": "E",
+          "text": "o valor previsto de Y quando x=0."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "β1 é a inclinação da reta de média condicional. Ela expressa associação linear no modelo; não prova causalidade."
+    },
+    {
+      "id": "u055-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O critério de mínimos quadrados ordinários escolhe os coeficientes da regressão para",
+      "options": [
+        {
+          "id": "A",
+          "text": "maximizar a soma dos resíduos."
+        },
+        {
+          "id": "B",
+          "text": "minimizar a soma dos quadrados dos resíduos."
+        },
+        {
+          "id": "C",
+          "text": "minimizar o coeficiente de determinação."
+        },
+        {
+          "id": "D",
+          "text": "maximizar a variância residual."
+        },
+        {
+          "id": "E",
+          "text": "tornar todos os resíduos iguais a zero."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Mínimos quadrados minimiza Σ(yi−ŷi)². Os resíduos não precisam ser todos zero."
+    },
+    {
+      "id": "u055-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No modelo linear simples com intercepto, a estimativa da inclinação por mínimos quadrados é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Σ(xi−x̄)(yi−ȳ)/Σ(xi−x̄)²."
+        },
+        {
+          "id": "B",
+          "text": "Σ(yi−ȳ)²/Σ(xi−x̄)²."
+        },
+        {
+          "id": "C",
+          "text": "x̄/ȳ."
+        },
+        {
+          "id": "D",
+          "text": "Σei/n."
+        },
+        {
+          "id": "E",
+          "text": "Σxi yi/n, em qualquer situação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A inclinação estimada é a covariação centrada entre x e y dividida pela variação centrada de x."
+    },
+    {
+      "id": "u055-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sob erros normais independentes com variância constante, a estimação por máxima verossimilhança dos coeficientes de regressão",
+      "options": [
+        {
+          "id": "A",
+          "text": "produz os mesmos coeficientes obtidos por mínimos quadrados."
+        },
+        {
+          "id": "B",
+          "text": "sempre produz coeficientes nulos."
+        },
+        {
+          "id": "C",
+          "text": "maximiza a soma dos quadrados dos resíduos."
+        },
+        {
+          "id": "D",
+          "text": "dispensa qualquer modelo probabilístico."
+        },
+        {
+          "id": "E",
+          "text": "é impossível quando existe intercepto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "No modelo normal com variância comum, a log-verossimilhança dos coeficientes difere de uma constante por um múltiplo negativo da soma dos quadrados dos resíduos. Maximizar uma equivale a minimizar a outra."
+    },
+    {
+      "id": "u055-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em regressão linear múltipla, a interpretação de βj é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a variação média associada a uma unidade de Xj, mantendo as demais explicativas constantes."
+        },
+        {
+          "id": "B",
+          "text": "o efeito causal obrigatório de Xj."
+        },
+        {
+          "id": "C",
+          "text": "a média de Xj."
+        },
+        {
+          "id": "D",
+          "text": "o erro padrão de Y."
+        },
+        {
+          "id": "E",
+          "text": "o valor de R²."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O coeficiente parcial βj descreve a associação linear de Xj com a resposta condicionada às demais variáveis incluídas no modelo."
+    },
+    {
+      "id": "u055-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No modelo linear simples com intercepto, a decomposição da soma de quadrados é",
+      "options": [
+        {
+          "id": "A",
+          "text": "SQ total = SQ regressão + SQ erro."
+        },
+        {
+          "id": "B",
+          "text": "SQ erro = SQ total + SQ regressão."
+        },
+        {
+          "id": "C",
+          "text": "SQ regressão = SQ total + SQ erro."
+        },
+        {
+          "id": "D",
+          "text": "SQ total = SQ regressão × SQ erro."
+        },
+        {
+          "id": "E",
+          "text": "não existe decomposição de variância."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A variação total em torno de ȳ se decompõe em parcela explicada pela regressão e parcela residual."
+    },
+    {
+      "id": "u055-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No modelo linear simples, o teste F global de H0:β1=0 e o teste t bilateral do mesmo coeficiente satisfazem",
+      "options": [
+        {
+          "id": "A",
+          "text": "F=t²."
+        },
+        {
+          "id": "B",
+          "text": "F=t."
+        },
+        {
+          "id": "C",
+          "text": "F=1/t."
+        },
+        {
+          "id": "D",
+          "text": "F=t/n."
+        },
+        {
+          "id": "E",
+          "text": "não possuem relação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Com um único coeficiente angular, o teste F global tem um grau de liberdade no numerador e é equivalente ao quadrado do teste t para β1."
+    },
+    {
+      "id": "u055-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se R²=0,80 em uma regressão com intercepto, a interpretação adequada é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "80% da variação amostral de Y em torno da média é contabilizada pelo modelo ajustado."
+        },
+        {
+          "id": "B",
+          "text": "há 80% de probabilidade de o modelo ser verdadeiro."
+        },
+        {
+          "id": "C",
+          "text": "X causa 80% de Y."
+        },
+        {
+          "id": "D",
+          "text": "80% das previsões individuais são exatas."
+        },
+        {
+          "id": "E",
+          "text": "o modelo não precisa de diagnóstico de resíduos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "R² mede a fração da soma de quadrados total reduzida pelo ajuste. Não é probabilidade de verdade, medida causal nem certificado de adequação."
+    },
+    {
+      "id": "u055-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um resíduo de regressão é",
+      "options": [
+        {
+          "id": "A",
+          "text": "yi−ŷi."
+        },
+        {
+          "id": "B",
+          "text": "Yi−E(Yi|xi), que é sempre observável diretamente."
+        },
+        {
+          "id": "C",
+          "text": "ŷi−ȳ em qualquer modelo."
+        },
+        {
+          "id": "D",
+          "text": "β1−b1."
+        },
+        {
+          "id": "E",
+          "text": "a soma dos quadrados dos erros."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O resíduo é a diferença entre o valor observado e o valor ajustado. O erro verdadeiro depende da relação populacional desconhecida."
+    },
+    {
+      "id": "u055-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um gráfico de resíduos com formato de funil, cuja dispersão aumenta com o valor ajustado, sugere",
+      "options": [
+        {
+          "id": "A",
+          "text": "variância não constante dos erros."
+        },
+        {
+          "id": "B",
+          "text": "linearidade perfeita."
+        },
+        {
+          "id": "C",
+          "text": "ausência de qualquer problema."
+        },
+        {
+          "id": "D",
+          "text": "coeficiente de determinação igual a 1."
+        },
+        {
+          "id": "E",
+          "text": "amostragem estratificada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O funil é indício clássico de heterocedasticidade, isto é, variância dos erros que muda com o nível da resposta ou dos preditores."
+    },
+    {
+      "id": "u055-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para um mesmo valor x0 e um modelo linear adequado, o intervalo de previsão de uma nova observação tende a ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "mais largo que o intervalo de confiança para a resposta média em x0."
+        },
+        {
+          "id": "B",
+          "text": "mais estreito que o intervalo para a média."
+        },
+        {
+          "id": "C",
+          "text": "idêntico ao intervalo para a média em todo caso."
+        },
+        {
+          "id": "D",
+          "text": "de largura zero."
+        },
+        {
+          "id": "E",
+          "text": "independente da variância residual."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A previsão individual incorpora tanto a incerteza sobre a posição da média quanto a variabilidade de uma nova observação ao redor dela."
+    },
+    {
+      "id": "u055-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na amostragem aleatória simples sem reposição de uma população finita, o mecanismo básico procura garantir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "amostras possíveis de mesmo tamanho tenham a mesma probabilidade de seleção."
+        },
+        {
+          "id": "B",
+          "text": "apenas as primeiras unidades sejam selecionadas."
+        },
+        {
+          "id": "C",
+          "text": "todos os estratos sejam obrigatoriamente usados."
+        },
+        {
+          "id": "D",
+          "text": "apenas conglomerados sejam sorteados."
+        },
+        {
+          "id": "E",
+          "text": "a seleção siga uma periodicidade fixa sem início aleatório."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na definição clássica de amostragem aleatória simples, todas as amostras de tamanho n têm igual probabilidade, o que implica probabilidades de inclusão iguais para os elementos."
+    },
+    {
+      "id": "u055-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual descrição caracteriza amostragem estratificada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dividir a população em estratos e selecionar unidades dentro de cada estrato."
+        },
+        {
+          "id": "B",
+          "text": "Sortear alguns grupos e observar apenas esses grupos."
+        },
+        {
+          "id": "C",
+          "text": "Escolher um início e selecionar cada k-ésima unidade."
+        },
+        {
+          "id": "D",
+          "text": "Selecionar apenas uma região por conveniência."
+        },
+        {
+          "id": "E",
+          "text": "Usar sempre uma amostra de tamanho igual em todos os estratos, independentemente de qualquer plano."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Estratificação divide a população em grupos não sobrepostos e realiza seleção dentro de todos os estratos planejados."
+    },
+    {
+      "id": "u055-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na amostragem por conglomerados, a característica central é",
+      "options": [
+        {
+          "id": "A",
+          "text": "selecionar alguns grupos naturais da população e observar todas ou parte das unidades dentro dos grupos escolhidos."
+        },
+        {
+          "id": "B",
+          "text": "selecionar unidades em todos os estratos."
+        },
+        {
+          "id": "C",
+          "text": "escolher necessariamente uma em cada k unidades."
+        },
+        {
+          "id": "D",
+          "text": "exigir variância menor que a amostragem aleatória simples."
+        },
+        {
+          "id": "E",
+          "text": "dispensar aleatoriedade na escolha dos grupos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Conglomerados são grupos naturais. O plano seleciona alguns desses grupos e pode observar todas as unidades ou uma subamostra interna."
+    },
+    {
+      "id": "u055-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma amostra sistemática de razão aproximada 1/k é tipicamente obtida por",
+      "options": [
+        {
+          "id": "A",
+          "text": "escolher um início aleatório entre 1 e k e depois selecionar a cada k unidades."
+        },
+        {
+          "id": "B",
+          "text": "escolher sempre a primeira unidade e todas as seguintes."
+        },
+        {
+          "id": "C",
+          "text": "sortear todos os elementos independentemente."
+        },
+        {
+          "id": "D",
+          "text": "selecionar um elemento em cada estrato."
+        },
+        {
+          "id": "E",
+          "text": "selecionar apenas conglomerados inteiros."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O início aleatório é parte essencial do mecanismo sistemático; depois, a seleção segue intervalos regulares."
+    },
+    {
+      "id": "u055-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para planejar amostra aleatória simples de população grande a fim de estimar uma proporção com margem e e confiança fixadas, sem informação prévia sobre p, a escolha conservadora usual é",
+      "options": [
+        {
+          "id": "A",
+          "text": "p*=0,5."
+        },
+        {
+          "id": "B",
+          "text": "p*=0."
+        },
+        {
+          "id": "C",
+          "text": "p*=1."
+        },
+        {
+          "id": "D",
+          "text": "p*=e."
+        },
+        {
+          "id": "E",
+          "text": "p*=1/n."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na fórmula n=z²p(1−p)/e², o produto p(1−p) é máximo em 0,5, produzindo o maior tamanho planejado entre os valores de p."
+    },
+    {
+      "id": "u055-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Mantidos nível de confiança e variabilidade, se a margem de erro desejada para uma média ou proporção é reduzida à metade, o tamanho amostral de referência para população grande",
+      "options": [
+        {
+          "id": "A",
+          "text": "fica aproximadamente quatro vezes maior."
+        },
+        {
+          "id": "B",
+          "text": "fica aproximadamente duas vezes maior."
+        },
+        {
+          "id": "C",
+          "text": "fica pela metade."
+        },
+        {
+          "id": "D",
+          "text": "não se altera."
+        },
+        {
+          "id": "E",
+          "text": "cai para um quarto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Nas fórmulas usuais, n é proporcional a 1/e². Substituir e por e/2 multiplica n por 4."
+    },
+    {
+      "id": "u055-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 108 do Cebraspe/Telebras aplicado em 2026, uma pesquisa divide previamente os veículos em classes e sorteia unidades dentro de todas as classes, respeitando sua participação. Esse plano tem características de amostragem",
+      "options": [
+        {
+          "id": "A",
+          "text": "estratificada."
+        },
+        {
+          "id": "B",
+          "text": "por conglomerados de um estágio."
+        },
+        {
+          "id": "C",
+          "text": "sistemática sem início aleatório."
+        },
+        {
+          "id": "D",
+          "text": "por conveniência."
+        },
+        {
+          "id": "E",
+          "text": "censitária."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal do item 108 do caderno 153_TELEBRAS_012_01, julgado Certo no gabarito definitivo. O plano separa a população em classes e seleciona dentro de todas elas, mecanismo típico de estratificação."
+    },
+    {
+      "id": "u055-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 109 do mesmo concurso, uma população possui uma lista completa numerada de 1 a N. São sorteados n números distintos de forma uniforme, e as unidades correspondentes formam a amostra. Esse mecanismo pode ser classificado como",
+      "options": [
+        {
+          "id": "A",
+          "text": "amostragem aleatória simples."
+        },
+        {
+          "id": "B",
+          "text": "amostragem sistemática."
+        },
+        {
+          "id": "C",
+          "text": "amostragem por conglomerados."
+        },
+        {
+          "id": "D",
+          "text": "amostragem estratificada obrigatória."
+        },
+        {
+          "id": "E",
+          "text": "amostragem não probabilística."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal do item 109, cuja afirmação de que o plano não poderia ser aleatório simples foi julgada Errada. Sortear uniformemente uma amostra de rótulos distintos em um cadastro completo é o mecanismo clássico de amostragem aleatória simples."
+    },
+    {
+      "id": "u055-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 111 do Cebraspe/Telebras, após um início escolhido de acordo com o plano, entrevista-se cada décima unidade que chega ao local. O mecanismo apresenta características de amostragem",
+      "options": [
+        {
+          "id": "A",
+          "text": "sistemática."
+        },
+        {
+          "id": "B",
+          "text": "estratificada."
+        },
+        {
+          "id": "C",
+          "text": "por conglomerados."
+        },
+        {
+          "id": "D",
+          "text": "censitária."
+        },
+        {
+          "id": "E",
+          "text": "de máxima verossimilhança."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal do item 111 do caderno 153_TELEBRAS_012_01, julgado Certo no gabarito definitivo. Seleção em intervalos regulares após um ponto de partida caracteriza amostragem sistemática."
+    }
+  ]
+}
