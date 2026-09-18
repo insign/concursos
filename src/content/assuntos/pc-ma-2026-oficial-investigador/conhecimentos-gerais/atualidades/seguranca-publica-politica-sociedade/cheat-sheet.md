@@ -9,7 +9,7 @@ Notícia isolada não é argumento. Número isolado não explica causa.
 ## Segurança pública
 
 - Mapa da Segurança Pública 2026: 30 indicadores, 27 unidades da Federação, dados estaduais consolidados pelo <abbr title="Sistema Nacional de Informações de Segurança Pública, Prisionais, de Rastreabilidade de Armas e Munições, de Material Genético, de Digitais e de Drogas">Sinesp</abbr>.
-- Base administrativa pode ser atualizada depois da publicação.
+- Base construída com registros de órgãos públicos pode ser atualizada depois da publicação.
 - contagem absoluta ≠ taxa por população;
 - queda de indicador ≠ prova automática de causa;
 - denúncias ≠ frequência real da violência na população.

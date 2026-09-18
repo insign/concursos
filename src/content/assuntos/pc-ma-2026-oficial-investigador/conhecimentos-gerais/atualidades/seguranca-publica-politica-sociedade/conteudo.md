@@ -48,7 +48,7 @@ O guia de avaliação de políticas públicas do <abbr title="Instituto de Pesqu
 
 Termine perguntando como saber se a resposta funciona.
 
-O indicador precisa conversar com o objetivo. Se o objetivo é reduzir homicídios, quantidade de reuniões interinstitucionais pode informar atividade, mas não substitui a observação do resultado final.
+O indicador precisa conversar com o objetivo. Se o objetivo é reduzir homicídios, quantidade de reuniões entre órgãos pode informar atividade, mas não substitui a observação do resultado final.
 
 ---
 
@@ -109,7 +109,7 @@ Evite reduzir segurança a uma única ferramenta. Para fins de análise, organiz
 | coordenação | como diferentes órgãos compartilham informação e responsabilidade? |
 | avaliação | como verificar resultados, efeitos indesejados e necessidade de ajuste? |
 
-Tecnologia pode apoiar várias dessas capacidades, mas os mecanismos tecnológicos pertencem principalmente à U079. Cooperação internacional e problemas transnacionais pertencem principalmente à U080.
+Tecnologia pode apoiar várias dessas capacidades, mas os mecanismos tecnológicos pertencem principalmente à U079. Cooperação internacional e problemas que atravessam fronteiras nacionais pertencem principalmente à U080.
 
 A ponte desta unidade é apenas esta: **instrumentos só fazem sentido quando ligados a problema, regra de uso, capacidade institucional e resultado verificável.**
 
@@ -160,7 +160,7 @@ Esse indicador ajuda a discutir condições econômicas das famílias, mas tem l
 
 Primeiro, uma média não mostra como a renda está distribuída dentro do estado. Segundo, renda não resume acesso a educação, saúde, transporte, segurança, cultura ou redes de proteção. Terceiro, diferença de renda não prova, sozinha, que renda cause determinado resultado social ou criminal.
 
-Em uma redação sobre violência e vulnerabilidade, use renda como **uma dimensão do diagnóstico**, nunca como determinismo.
+Em uma redação sobre violência e vulnerabilidade, use renda como **uma dimensão do diagnóstico**, nunca como explicação automática.
 
 ## 8. Educação: acesso não é o mesmo que trajetória adequada
 
@@ -215,7 +215,7 @@ Um tema discursivo costuma misturar áreas. Em vez de escrever seis parágrafos 
 
 **Respostas possíveis:** investigação qualificada, proteção de vítimas, atuação escolar e de saúde, oportunidades sociais, espaços culturais e coordenação territorial.
 
-**Monitoramento:** homicídios e outros registros violentos, vitimização quando houver pesquisa adequada, permanência escolar, cobertura de serviços, participação em ações e indicadores de implementação.
+**Monitoramento:** homicídios e outros registros violentos, pesquisas sobre pessoas que sofreram violência quando disponíveis, permanência escolar, cobertura de serviços, participação em ações e indicadores sobre a execução das medidas.
 
 Perceba o cuidado: o exemplo não afirma que pobreza ou atraso escolar produzam crime de maneira automática. Ele mostra fatores que podem compor um diagnóstico e que precisam ser testados com evidência.
 
@@ -289,7 +289,7 @@ As propostas abaixo são exercícios didáticos abertos. Não são questões da 
 **Tema:** Como políticas públicas podem articular educação, saúde, cultura e segurança para prevenção da violência entre jovens?
 
 **Eixos para planejar:**
-- rejeitar determinismo social;
+- rejeitar a ideia de que condição social determine automaticamente o comportamento;
 - diagnóstico territorial;
 - permanência e trajetória escolar;
 - cuidado em saúde e proteção;
