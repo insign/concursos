@@ -1,0 +1,41 @@
+# Referências
+
+## Programa e regra de atualização
+
+- <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. **Edital nº 1 – <abbr title="Polícia Civil do Maranhão">PCMA</abbr> – Investigador, de 13 de julho de 2026**. Item 20.2.2: Atualidades, somente para a prova discursiva; recorte desta unidade: segurança, política, sociedade, educação, saúde e cultura. Documento oficial: https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf. Corte programático: 13 jul. 2026.
+- As fontes de Atualidades abaixo foram reconsultadas em **18 set. 2026**. Publicações posteriores a 13 jul. 2026 são repertório contemporâneo para a discursiva e não são tratadas como alteração retroativa do programa.
+
+## Segurança pública
+
+- <abbr title="Ministério da Justiça e Segurança Pública">MJSP</abbr>. **Mapa da Segurança Pública 2026 traz 30 indicadores nacionais sobre criminalidade**. Publicado em 31 jul. 2026; atualizado em 10 ago. 2026. Informa 30 indicadores, cobertura das 27 unidades da Federação e uso de dados enviados ao <abbr title="Sistema Nacional de Informações de Segurança Pública, Prisionais, de Rastreabilidade de Armas e Munições, de Material Genético, de Digitais e de Drogas">Sinesp</abbr>. https://www.gov.br/mj/pt-br/assuntos/noticias-1/mapa-da-seguranca-publica-2026-traz-30-indicadores-nacionais-sobre-criminalidade.
+- <abbr title="Ministério da Justiça e Segurança Pública">MJSP</abbr>. **Dados Nacionais de Segurança Pública**. Explica a alimentação estadual do <abbr title="Validador de Dados Estatísticos">VDE</abbr> do <abbr title="Sistema Nacional de Informações de Segurança Pública, Prisionais, de Rastreabilidade de Armas e Munições, de Material Genético, de Digitais e de Drogas">Sinesp</abbr> e registra que os dados refletem o nível de consolidação na data da extração, podendo receber atualizações posteriores. https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/estatistica.
+- <abbr title="Ministério da Justiça e Segurança Pública">MJSP</abbr>. **Base de Dados e Notas Metodológicas dos Gestores Estaduais — <abbr title="Sistema Nacional de Informações de Segurança Pública, Prisionais, de Rastreabilidade de Armas e Munições, de Material Genético, de Digitais e de Drogas">Sinesp</abbr> <abbr title="Validador de Dados Estatísticos">VDE</abbr> 2015 a 2026**. Página atualizada em 9 set. 2026, usada para confirmar a importância das notas metodológicas e revisões dos registros administrativos. https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/estatistica/dados-nacionais-1/base-de-dados-e-notas-metodologicas-dos-gestores-estaduais-sinesp-vde-2022-e-2023.
+- Secretaria de Segurança Pública do Maranhão. **Maranhão reduz índices de violência com queda nos homicídios, feminicídios, latrocínios e roubos**. 27 jan. 2026. Registra, com atribuição ao <abbr title="Ministério da Justiça e Segurança Pública">MJSP</abbr>, <abbr title="Crimes Violentos Letais Intencionais">CVLI</abbr> de 2.050 para 1.940 e homicídios de 1.913 para 1.814 no comparativo apresentado para 2025. https://www.ssp.ma.gov.br/maranhao-reduz-indices-de-violencia-com-queda-nos-homicidios-feminicidios-latrocinios-e-roubos/.
+- Ministério do Planejamento e Orçamento. **Atlas da Violência: Brasil registrou 42.590 homicídios em 2024, menor resultado da série histórica, mas subnotificação preocupa**. 26 maio 2026; atualização em 2 jun. 2026. Resume o Atlas da Violência 2026, elaborado pelo <abbr title="Instituto de Pesquisa Econômica Aplicada">Ipea</abbr> e pelo <abbr title="Fórum Brasileiro de Segurança Pública">FBSP</abbr>, com 42.590 homicídios em 2024, taxa de 20,1 por 100 mil habitantes e alerta sobre qualidade dos registros. https://www.gov.br/planejamento/pt-br/assuntos/noticias/2026/maio/atlas-da-violencia-brasil-registrou-42-590-homicidios-em-2024-menor-resultado-da-serie-historica-mas-subnotificacao-preocupa.
+- Ministério das Mulheres. **Canal Ligue 180 registra crescimento de 45% nos atendimentos e 17% nas denúncias de violência em 2025**. 14 abr. 2026; modificado em 18 maio 2026. Informa 1.088.900 atendimentos e 155.111 denúncias em 2025 e 301.044 atendimentos e 45.735 denúncias no primeiro trimestre de 2026. https://www.gov.br/mulheres/pt-br/central-de-conteudos/noticias/2026/abril/canal-ligue-180-registra-crescimento-de-27-nas-denuncias-e-10-nos-atendimentos-no-primeiro-trimestre-de-2026.
+
+## Política pública e participação
+
+- <abbr title="Instituto de Pesquisa Econômica Aplicada">Ipea</abbr>. **Avaliação de políticas públicas: guia prático de análise ex ante, volume 1**. 2018. Usado para diagnóstico do problema, objetivos, público, desenho, implementação, monitoramento, avaliação e controle. https://repositorio.ipea.gov.br/entities/book/40676951-eabf-494c-8aea-348c820eeebd.
+- Secretaria-Geral da Presidência da República. **Participação Social**. Página institucional consultada em 18 set. 2026. Apresenta participação social na elaboração, no monitoramento e na avaliação de políticas públicas e lista ouvidorias, audiências, consultas, conselhos, conferências e fóruns. https://www.gov.br/secretariageral/pt-br/acesso-a-informacao/participacao-social.
+
+## Sociedade e educação
+
+- <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>. **<abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> divulga rendimento domiciliar <abbr title="por pessoa">per capita</abbr> 2025 para Brasil e unidades da federação**. 27 fev. 2026; atualizado em 27 mar. 2026. Brasil: R$ 2.316; Maranhão: R$ 1.219. A fonte explica que o valor é a razão entre o total dos rendimentos domiciliares nominais e o total de moradores. https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/45942-ibge-divulga-rendimento-domiciliar-per-capita-2025-para-brasil-e-unidades-da-federacao.
+- <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>. **A Educação no Brasil: entre metas e desigualdades**. Página consultada em 18 set. 2026. Para 2024, registra frequência escolar bruta de 93,5% entre 15 e 17 anos e taxa ajustada de frequência escolar líquida de 76,8% para o ensino médio nessa faixa. https://educa.ibge.gov.br/jovens/materias-especiais/23113-a-educacao-no-brasil-entre-metas-e-desigualdades.html.
+
+## Saúde
+
+- Ministério da Saúde. **<abbr title="Sistema de Informação para a Atenção Primária à Saúde">Siaps</abbr>: atualização do sistema de informações da atenção primária amplia busca por perfil territorial de saúde**. 17 jul. 2026. Confirma filtros públicos por raça/cor, nacionalidade, escolaridade, pertencimento a povos ou comunidades tradicionais e condição de pessoa com deficiência. https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/julho/siaps-atualizacao-do-sistema-de-informacoes-da-atencao-primaria-amplia-busca-por-perfil-territorial-de-saude/.
+- Ministério da Educação. **Programa Saúde na Escola — Linha do Tempo**. Atualizado em 10 fev. 2026. Para 2025, destaca prevenção da violência e cultura de paz, vacinação, saúde sexual e reprodutiva, alimentação saudável e saúde mental entre os temas principais das ações apoiadas. https://www.gov.br/mec/pt-br/programa-saude-na-escola/linha-do-tempo.
+
+## Cultura
+
+- Ministério da Cultura. **Sistema Nacional de Informações e Indicadores Culturais**. Publicado em 3 jul. 2026; atualizado em 11 ago. 2026. Descreve funções de coleta e sistematização de dados, disponibilização de estatísticas e indicadores e apoio à avaliação de políticas públicas culturais. https://www.gov.br/cultura/pt-br/assuntos/acoes-programas-e-politicas/sniic/.
+
+## Proveniência e autoria
+
+- Unidade classificada como **nova** na matriz PC-R02 da #764. Não há origem canônica, vínculo ou doador integral atribuído.
+- Consumidor: <abbr title="Polícia Civil do Maranhão">PC-MA</abbr> 2026 — Oficial Investigador de Polícia; identidade de armazenamento da unidade: pc-u078.
+- Destino físico local: src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-gerais/atualidades/seguranca-publica-politica-sociedade/.
+- O banco de fixação desta unidade é integralmente autoral. As propostas discursivas abertas também são autorais e permanecem no material didático; não são atribuídas à prova objetiva do cargo.

@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u078-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao usar o Mapa da Segurança Pública 2026 em uma redação, qual leitura é metodologicamente mais adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os 30 indicadores eliminam a necessidade de verificar definições e períodos."
+        },
+        {
+          "id": "B",
+          "text": "Os dados permitem comparação, mas devem ser lidos com atenção à fonte, ao período, à definição e à possibilidade de revisão."
+        },
+        {
+          "id": "C",
+          "text": "Toda variação anual comprova a eficácia de uma política específica."
+        },
+        {
+          "id": "D",
+          "text": "Dados estaduais não podem ser consolidados nacionalmente."
+        },
+        {
+          "id": "E",
+          "text": "Uma contagem absoluta é sempre superior a uma taxa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A utilidade da base nacional não elimina cuidados de interpretação. Registros administrativos dependem de definição, alimentação, período e data de extração, e podem receber atualizações posteriores."
+    },
+    {
+      "id": "u078-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma base oficial informa que seus registros podem ser atualizados depois da publicação. A consequência correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "descartar todos os dados oficiais."
+        },
+        {
+          "id": "B",
+          "text": "tratar qualquer valor publicado como estimativa sem fonte."
+        },
+        {
+          "id": "C",
+          "text": "registrar a data ou versão consultada e evitar apresentar a base como imutável."
+        },
+        {
+          "id": "D",
+          "text": "substituir o dado oficial por comentários em redes sociais."
+        },
+        {
+          "id": "E",
+          "text": "presumir que toda revisão alterará o sentido da tendência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Bases administrativas podem ser revisadas. A resposta correta é documentar a versão ou data consultada e interpretar a evidência com essa limitação, não abandonar a fonte."
+    },
+    {
+      "id": "u078-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Atlas da Violência 2026 informou 42.590 homicídios no Brasil em 2024 e taxa de 20,1 por 100 mil habitantes. Qual afirmação distingue corretamente as duas medidas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A contagem mede o total registrado; a taxa relaciona o total ao tamanho da população."
+        },
+        {
+          "id": "B",
+          "text": "A taxa é apenas a contagem dividida pelo número de estados."
+        },
+        {
+          "id": "C",
+          "text": "A contagem e a taxa são sempre numericamente equivalentes."
+        },
+        {
+          "id": "D",
+          "text": "A taxa elimina qualquer problema de qualidade do registro."
+        },
+        {
+          "id": "E",
+          "text": "A contagem só pode ser usada para municípios."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A contagem informa quantidade absoluta. A taxa incorpora um denominador populacional e ajuda a comparar populações de tamanhos diferentes, sem eliminar outros problemas metodológicos."
+    },
+    {
+      "id": "u078-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Secretaria de Segurança Pública do Maranhão divulgou queda de cerca de 5,5% nos CVLI no comparativo apresentado para 2025. A conclusão mais cuidadosa é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o dado demonstra sozinho qual ação específica causou a queda."
+        },
+        {
+          "id": "B",
+          "text": "o dado descreve melhora no indicador apresentado, mas a atribuição de causa exige evidência adicional."
+        },
+        {
+          "id": "C",
+          "text": "o dado não pode ser usado como repertório porque é estadual."
+        },
+        {
+          "id": "D",
+          "text": "qualquer queda anual garante manutenção da tendência nos anos seguintes."
+        },
+        {
+          "id": "E",
+          "text": "a variação dos CVLI permite inferir automaticamente a variação de todos os crimes patrimoniais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O dado sustenta uma descrição de tendência no indicador, não uma conclusão causal automática. Para atribuir efeito a uma intervenção, é necessário examinar mecanismo, tempo, alternativas e evidências adicionais."
+    },
+    {
+      "id": "u078-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Ligue 180 registrou mais denúncias no primeiro trimestre de 2026 que no mesmo período de 2025. Isso permite afirmar diretamente que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a frequência real da violência cresceu exatamente na mesma proporção."
+        },
+        {
+          "id": "B",
+          "text": "o canal recebeu mais denúncias, sem que esse dado isolado determine a frequência real da violência na população."
+        },
+        {
+          "id": "C",
+          "text": "o serviço passou a registrar apenas casos confirmados judicialmente."
+        },
+        {
+          "id": "D",
+          "text": "a maior procura prova redução da confiança no serviço."
+        },
+        {
+          "id": "E",
+          "text": "os dados de atendimento são irrelevantes para políticas de proteção."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Denúncias medem demanda registrada no canal. Divulgação, acesso e confiança também afetam o número de contatos; por isso, o fluxo de denúncias não equivale à frequência real do fenômeno na população."
+    },
+    {
+      "id": "u078-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual sequência representa melhor uma análise de política pública orientada por evidências?",
+      "options": [
+        {
+          "id": "A",
+          "text": "solução pronta → propaganda → repetição do anúncio."
+        },
+        {
+          "id": "B",
+          "text": "problema → objetivo → desenho → implementação → monitoramento e avaliação."
+        },
+        {
+          "id": "C",
+          "text": "indicador favorável → causa presumida → encerramento da avaliação."
+        },
+        {
+          "id": "D",
+          "text": "opinião → escolha de dados compatíveis → exclusão de limites."
+        },
+        {
+          "id": "E",
+          "text": "execução de atividades → presunção de impacto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A política deve ligar diagnóstico, objetivos, instrumentos e implementação a monitoramento e avaliação. Atividade realizada não é, por si só, resultado ou impacto."
+    },
+    {
+      "id": "u078-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre participação social na formulação e avaliação de políticas públicas, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Participação elimina a necessidade de dados e avaliação técnica."
+        },
+        {
+          "id": "B",
+          "text": "Participação pode acrescentar informação sobre problemas e efeitos locais, sem substituir regras, evidências ou capacidade administrativa."
+        },
+        {
+          "id": "C",
+          "text": "Participação só existe por meio de eleições."
+        },
+        {
+          "id": "D",
+          "text": "Consultas públicas tornam desnecessários responsáveis institucionais."
+        },
+        {
+          "id": "E",
+          "text": "Ouvidorias não podem produzir informação útil para revisão de serviços."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Participação e avaliação técnica cumprem funções complementares. Canais participativos podem revelar experiência dos usuários e conflitos, enquanto decisões ainda exigem arranjos institucionais, dados e responsabilização."
+    },
+    {
+      "id": "u078-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 2025, o rendimento domiciliar mensal médio por morador divulgado pelo IBGE foi de R$ 2.316 no Brasil e R$ 1.219 no Maranhão. Qual uso do dado é adequado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Concluir que todos os domicílios maranhenses receberam aproximadamente R$ 1.219 por morador."
+        },
+        {
+          "id": "B",
+          "text": "Usar a média como uma dimensão econômica do diagnóstico, reconhecendo que ela não mostra toda a distribuição de renda."
+        },
+        {
+          "id": "C",
+          "text": "Tratar o valor como causa suficiente de qualquer indicador criminal."
+        },
+        {
+          "id": "D",
+          "text": "Comparar o valor diretamente com número de crimes sem mecanismo ou controle."
+        },
+        {
+          "id": "E",
+          "text": "Afirmar que renda resume saúde, educação, cultura e segurança."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A média é útil para caracterizar uma dimensão econômica, mas não revela toda a distribuição nem determina outros resultados sociais."
+    },
+    {
+      "id": "u078-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre jovens de 15 a 17 anos, a frequência escolar bruta em 2024 foi de 93,5%, enquanto a frequência na etapa adequada à idade foi de 76,8%. O contraste mostra que",
+      "options": [
+        {
+          "id": "A",
+          "text": "frequentar alguma escola e estar na etapa adequada à idade são medidas diferentes."
+        },
+        {
+          "id": "B",
+          "text": "a segunda medida sempre deve ser maior que a primeira."
+        },
+        {
+          "id": "C",
+          "text": "a primeira medida prova conclusão do ensino médio."
+        },
+        {
+          "id": "D",
+          "text": "as duas medidas são sinônimas."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma das duas informa acesso educacional."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A frequência bruta informa presença em alguma etapa de ensino; a medida ajustada acrescenta a adequação entre idade e etapa. A diferença ajuda a observar trajetória escolar."
+    },
+    {
+      "id": "u078-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação evita determinismo ao relacionar educação e segurança pública?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Baixa escolaridade torna inevitável a prática de crime."
+        },
+        {
+          "id": "B",
+          "text": "Educação pode integrar estratégias sociais de prevenção, mas não determina individualmente a prática de crime."
+        },
+        {
+          "id": "C",
+          "text": "Segurança pública não possui qualquer relação com políticas sociais."
+        },
+        {
+          "id": "D",
+          "text": "Indicadores escolares dispensam dados criminais."
+        },
+        {
+          "id": "E",
+          "text": "A única política preventiva possível é aumentar tempo de aula."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A análise pode reconhecer educação como parte de contextos e estratégias preventivas sem transformar associação social em destino individual ou causa automática."
+    },
+    {
+      "id": "u078-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ampliação de filtros públicos no Siaps, incluindo escolaridade e características do território e da população, é especialmente útil para",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminar diferenças territoriais dos dados."
+        },
+        {
+          "id": "B",
+          "text": "identificar padrões e necessidades que médias agregadas podem esconder."
+        },
+        {
+          "id": "C",
+          "text": "substituir qualquer investigação qualitativa."
+        },
+        {
+          "id": "D",
+          "text": "provar causalidade entre uma característica e uma doença."
+        },
+        {
+          "id": "E",
+          "text": "impedir comparação entre grupos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Desagregar dados ajuda a localizar desigualdades e necessidades específicas. Isso melhora o diagnóstico, mas não transforma associação observada em prova de causa."
+    },
+    {
+      "id": "u078-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Programa Saúde na Escola trata, entre outros temas, de prevenção da violência, cultura de paz, vacinação e saúde mental. Esse exemplo ilustra",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituição das funções da escola por funções policiais."
+        },
+        {
+          "id": "B",
+          "text": "articulação entre educação e saúde para enfrentar problemas que atravessam mais de uma área pública."
+        },
+        {
+          "id": "C",
+          "text": "inexistência de fronteiras institucionais."
+        },
+        {
+          "id": "D",
+          "text": "proibição de ações territoriais."
+        },
+        {
+          "id": "E",
+          "text": "redução da saúde pública a atendimento hospitalar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Problemas complexos podem exigir coordenação entre setores com funções próprias. Articulação não significa fusão de competências."
+    },
+    {
+      "id": "u078-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma das funções do SNIIC é apoiar a avaliação de políticas culturais. Se um programa pretende ampliar acesso à cultura, qual indicador é mais próximo do resultado pretendido?",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente o número de reuniões da equipe."
+        },
+        {
+          "id": "B",
+          "text": "somente a quantidade de ofícios expedidos."
+        },
+        {
+          "id": "C",
+          "text": "alcance do público, distribuição territorial e participação nos bens ou atividades apoiados."
+        },
+        {
+          "id": "D",
+          "text": "quantidade de páginas do regulamento."
+        },
+        {
+          "id": "E",
+          "text": "número de servidores do órgão, isoladamente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Reuniões e documentos podem medir atividade administrativa. Para um objetivo de acesso, é necessário observar quem foi alcançado, onde e em que medida participou."
+    },
+    {
+      "id": "u078-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um município cria programa cultural e, no mesmo ano, registra queda de violência. Qual conclusão é metodologicamente correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A coincidência temporal prova que o programa causou a queda."
+        },
+        {
+          "id": "B",
+          "text": "A queda prova que qualquer programa cultural reduz violência."
+        },
+        {
+          "id": "C",
+          "text": "A relação causal exige evidência sobre mecanismo, comparação e explicações alternativas."
+        },
+        {
+          "id": "D",
+          "text": "Nenhuma hipótese pode ser investigada."
+        },
+        {
+          "id": "E",
+          "text": "Basta contar o número de eventos para medir impacto criminal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Sequência temporal e associação não bastam para demonstrar causa. É preciso investigar mecanismo, outras mudanças e desenho de avaliação."
+    },
+    {
+      "id": "u078-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao usar em uma redação um dado nacional e outro do Maranhão, o candidato deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "presumir que os dois têm a mesma definição e o mesmo período."
+        },
+        {
+          "id": "B",
+          "text": "explicitar território, período e medida antes de compará-los ou conectá-los."
+        },
+        {
+          "id": "C",
+          "text": "converter automaticamente contagens em percentuais."
+        },
+        {
+          "id": "D",
+          "text": "usar apenas o maior valor."
+        },
+        {
+          "id": "E",
+          "text": "tratar qualquer diferença como contradição."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Comparações exigem compatibilidade de recorte, período e definição. Sem isso, diferenças podem refletir método ou escala, e não o fenômeno que se pretende discutir."
+    },
+    {
+      "id": "u078-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual sequência produz um argumento discursivo mais completo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "opinião → exemplo → repetição."
+        },
+        {
+          "id": "B",
+          "text": "evidência → interpretação → mecanismo → resposta institucional → monitoramento."
+        },
+        {
+          "id": "C",
+          "text": "estatística → slogan → conclusão."
+        },
+        {
+          "id": "D",
+          "text": "problema → culpado → solução única."
+        },
+        {
+          "id": "E",
+          "text": "citação → citação → citação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A sequência liga informação a explicação e resposta verificável. Ela força o candidato a dizer o que o dado significa, como o problema opera e como a ação poderia ser acompanhada."
+    },
+    {
+      "id": "u078-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em tema político na prova discursiva, qual estratégia preserva análise institucional e neutralidade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Classificar partidos ou candidatos como melhores e piores."
+        },
+        {
+          "id": "B",
+          "text": "Basear a redação em slogans eleitorais."
+        },
+        {
+          "id": "C",
+          "text": "Comparar problemas, instrumentos, instituições, evidências, limites e resultados, sem fazer propaganda partidária."
+        },
+        {
+          "id": "D",
+          "text": "Atribuir motivos não demonstrados a agentes públicos."
+        },
+        {
+          "id": "E",
+          "text": "Prever resultados eleitorais como fundamento do argumento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A análise de política pública pode ser rigorosa sem tomar partido: descreve problemas, decisões, regras, evidências e efeitos, distinguindo fato de avaliação."
+    },
+    {
+      "id": "u078-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um território apresenta violência elevada, atraso escolar e baixa cobertura de serviços. Qual formulação é mais adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O atraso escolar causa necessariamente a violência."
+        },
+        {
+          "id": "B",
+          "text": "Os indicadores compõem um diagnóstico territorial e podem orientar respostas combinadas, sem estabelecer determinismo ou causa automática."
+        },
+        {
+          "id": "C",
+          "text": "A segurança deve ignorar educação e saúde."
+        },
+        {
+          "id": "D",
+          "text": "A escola deve assumir funções de investigação criminal."
+        },
+        {
+          "id": "E",
+          "text": "Uma única medida social substituirá proteção de vítimas e investigação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Indicadores sociais e criminais podem orientar um diagnóstico integrado. A resposta deve preservar competências e evitar transformar associação territorial em causa individual."
+    }
+  ]
+}
