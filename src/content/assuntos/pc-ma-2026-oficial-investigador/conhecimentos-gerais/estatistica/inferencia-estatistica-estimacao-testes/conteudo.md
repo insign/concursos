@@ -209,7 +209,7 @@ A maximização conduz a
 
 Aqui a proporção amostral surge como estimador de máxima verossimilhança.
 
-**Pegadinha:** máxima verossimilhança maximiza uma função do parâmetro para os dados observados; não é o mesmo que declarar “qual é a probabilidade de o parâmetro ser verdadeiro” em uma análise frequentista.
+**Pegadinha:** máxima verossimilhança maximiza uma função do parâmetro para os dados observados; não é o mesmo que declarar “qual é a probabilidade de o parâmetro ser verdadeiro” em uma análise <abbr title="abordagem em que o parâmetro é fixo e a aleatoriedade vem da amostra">frequentista</abbr>.
 
 ## 5. Suficiência: resumir sem perder informação sobre o parâmetro
 
@@ -325,13 +325,13 @@ Em amostras pequenas, as caudas mais pesadas da distribuição t refletem a ince
 
 ## 9. Intervalo de credibilidade: a probabilidade pertence ao parâmetro no modelo bayesiano
 
-A estimação bayesiana muda a estrutura probabilística.
+A estimação <abbr title="abordagem que combina informação prévia e dados para obter uma distribuição posterior">bayesiana</abbr> muda a estrutura probabilística.
 
 Começamos com:
 
-1. uma distribuição **a priori** para o parâmetro;
+1. uma distribuição **<abbr title="distribuição do parâmetro antes de incorporar os dados atuais">a priori</abbr>** para o parâmetro;
 2. uma verossimilhança para os dados;
-3. a regra de Bayes para obter a distribuição **a posteriori**.
+3. a regra de Bayes para obter a distribuição **<abbr title="distribuição do parâmetro após combinar informação prévia e dados">a posteriori</abbr>**.
 
 Em forma proporcional,
 
