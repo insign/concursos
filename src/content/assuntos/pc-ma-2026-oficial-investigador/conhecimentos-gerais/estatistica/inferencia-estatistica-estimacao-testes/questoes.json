@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u054-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em inferência estatística, qual distinção está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Parâmetro e estimador são sempre o mesmo número."
+        },
+        {
+          "id": "B",
+          "text": "Estimador é uma regra baseada na amostra; estimativa é o valor produzido por essa regra após observar os dados."
+        },
+        {
+          "id": "C",
+          "text": "Estimativa é uma variável aleatória antes da coleta, mas o estimador não."
+        },
+        {
+          "id": "D",
+          "text": "Parâmetro é calculado necessariamente a partir da amostra."
+        },
+        {
+          "id": "E",
+          "text": "Estimador não pode depender dos dados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parâmetro é o alvo desconhecido. O estimador é uma estatística, portanto aleatória antes da coleta. A estimativa é sua realização numérica após observar a amostra."
+    },
+    {
+      "id": "u054-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se T é um estimador de θ, dizer que T é não viesado significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "T=θ em toda amostra."
+        },
+        {
+          "id": "B",
+          "text": "Var(T)=0."
+        },
+        {
+          "id": "C",
+          "text": "E(T)=θ."
+        },
+        {
+          "id": "D",
+          "text": "T converge quase certamente para zero."
+        },
+        {
+          "id": "E",
+          "text": "o erro quadrático médio é sempre zero."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Não viés é uma propriedade do centro da distribuição do estimador: E(T)=θ. Não garante acerto em cada amostra."
+    },
+    {
+      "id": "u054-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O erro quadrático médio de um estimador T pode ser decomposto em",
+      "options": [
+        {
+          "id": "A",
+          "text": "variância menos o quadrado do viés."
+        },
+        {
+          "id": "B",
+          "text": "variância mais o quadrado do viés."
+        },
+        {
+          "id": "C",
+          "text": "apenas o valor absoluto do viés."
+        },
+        {
+          "id": "D",
+          "text": "esperança mais variância, sem relação com o viés."
+        },
+        {
+          "id": "E",
+          "text": "potência menos nível de significância."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Vale E[(T−θ)²]=Var(T)+Bias(T)². A decomposição mostra que precisão e viés podem ser considerados conjuntamente."
+    },
+    {
+      "id": "u054-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma sequência de estimadores Tn é consistente para θ quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "E(Tn)=θ para todo n, obrigatoriamente."
+        },
+        {
+          "id": "B",
+          "text": "Tn converge em probabilidade para θ quando n cresce."
+        },
+        {
+          "id": "C",
+          "text": "Var(Tn)=1 para todo n."
+        },
+        {
+          "id": "D",
+          "text": "Tn independe da amostra."
+        },
+        {
+          "id": "E",
+          "text": "Tn é sempre suficiente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Consistência é propriedade assintótica: Tn se concentra em torno de θ com o crescimento da amostra. Ela não exige não viés para cada tamanho amostral."
+    },
+    {
+      "id": "u054-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O método dos momentos obtém estimadores, em sua forma básica, ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "igualar momentos amostrais aos momentos teóricos e resolver as equações para os parâmetros."
+        },
+        {
+          "id": "B",
+          "text": "maximizar a soma dos quadrados dos resíduos."
+        },
+        {
+          "id": "C",
+          "text": "minimizar o valor-p."
+        },
+        {
+          "id": "D",
+          "text": "escolher o centro de um intervalo de credibilidade."
+        },
+        {
+          "id": "E",
+          "text": "igualar potência e nível de significância."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O método dos momentos usa relações entre E(X^k) e os momentos calculados na amostra. Ele não é definido por um critério de soma de quadrados."
+    },
+    {
+      "id": "u054-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na máxima verossimilhança para uma amostra independente, procura-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "o parâmetro que maximiza a função L(θ)=∏f(xi;θ) para os dados observados."
+        },
+        {
+          "id": "B",
+          "text": "a amostra que maximiza a probabilidade posterior de qualquer parâmetro."
+        },
+        {
+          "id": "C",
+          "text": "o valor-p máximo sob a hipótese alternativa."
+        },
+        {
+          "id": "D",
+          "text": "a variância amostral mínima em qualquer modelo."
+        },
+        {
+          "id": "E",
+          "text": "um estimador necessariamente não viesado em pequenas amostras."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A verossimilhança é função do parâmetro com os dados fixados. O estimador de máxima verossimilhança maximiza essa função; propriedades ótimas são em geral assintóticas, não garantias universais em pequenas amostras."
+    },
+    {
+      "id": "u054-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se X1,...,Xn são independentes Poisson(θ), uma estatística suficiente para θ é",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas X1."
+        },
+        {
+          "id": "B",
+          "text": "X1−X2."
+        },
+        {
+          "id": "C",
+          "text": "a soma X1+...+Xn."
+        },
+        {
+          "id": "D",
+          "text": "o menor valor observado, em qualquer n."
+        },
+        {
+          "id": "E",
+          "text": "qualquer função que ignore os dados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A função conjunta depende de θ por e^(−nθ)θ^(ΣXi). Pelo teorema da fatoração, a soma ΣXi concentra a informação da amostra relevante para θ."
+    },
+    {
+      "id": "u054-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um intervalo de confiança frequentista de 95% para um parâmetro fixo, a interpretação adequada é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "após observar o intervalo, há necessariamente 95% de probabilidade de o parâmetro fixo estar nele."
+        },
+        {
+          "id": "B",
+          "text": "95% dos parâmetros possíveis pertencem ao intervalo."
+        },
+        {
+          "id": "C",
+          "text": "o procedimento produz intervalos que, sob repetição e nas condições do modelo, cobrem o parâmetro em 95% dos casos."
+        },
+        {
+          "id": "D",
+          "text": "o parâmetro varia de amostra para amostra segundo uma distribuição posterior."
+        },
+        {
+          "id": "E",
+          "text": "a largura do intervalo independe do tamanho amostral."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "No tratamento frequentista, o parâmetro é fixo. A probabilidade de 95% refere-se à cobertura do procedimento antes da observação da amostra."
+    },
+    {
+      "id": "u054-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Mantidos o modelo, a dispersão e o nível de confiança, aumentar o tamanho da amostra tende a",
+      "options": [
+        {
+          "id": "A",
+          "text": "alargar o intervalo porque aumenta o erro padrão."
+        },
+        {
+          "id": "B",
+          "text": "estreitar o intervalo porque reduz o erro padrão."
+        },
+        {
+          "id": "C",
+          "text": "não alterar o intervalo."
+        },
+        {
+          "id": "D",
+          "text": "transformar um intervalo de confiança em credibilidade."
+        },
+        {
+          "id": "E",
+          "text": "eliminar qualquer possibilidade de erro."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Erros padrão típicos caem na ordem de 1/√n. Com quantil e dispersão fixos, o aumento de n estreita o intervalo."
+    },
+    {
+      "id": "u054-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para uma população normal com σ desconhecido, um intervalo bilateral clássico para μ usa",
+      "options": [
+        {
+          "id": "A",
+          "text": "a distribuição t com n−1 graus de liberdade e o erro padrão S/√n."
+        },
+        {
+          "id": "B",
+          "text": "a distribuição Poisson e o erro padrão σ/n."
+        },
+        {
+          "id": "C",
+          "text": "a distribuição qui-quadrado e o erro padrão S/n."
+        },
+        {
+          "id": "D",
+          "text": "sempre a normal padrão, independentemente de n e do desconhecimento de σ."
+        },
+        {
+          "id": "E",
+          "text": "a distribuição F com n graus de liberdade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Ao substituir σ por S em amostra normal, (X̄−μ)/(S/√n) segue t com n−1 graus de liberdade."
+    },
+    {
+      "id": "u054-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação diferencia corretamente intervalo de credibilidade e intervalo de confiança?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ambos necessariamente têm a mesma interpretação probabilística."
+        },
+        {
+          "id": "B",
+          "text": "No intervalo de credibilidade, a probabilidade é calculada a partir da distribuição posterior do parâmetro; no intervalo de confiança, a interpretação usual é de cobertura do procedimento."
+        },
+        {
+          "id": "C",
+          "text": "Intervalo de confiança exige distribuição a priori, e credibilidade não."
+        },
+        {
+          "id": "D",
+          "text": "Intervalo de credibilidade só existe quando σ é conhecido."
+        },
+        {
+          "id": "E",
+          "text": "Intervalo de confiança transforma o parâmetro em variável aleatória."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A abordagem bayesiana usa distribuição a priori, verossimilhança e posterior, permitindo probabilidade posterior sobre o parâmetro. O intervalo de confiança frequentista tem interpretação de cobertura."
+    },
+    {
+      "id": "u054-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma hipótese estatística é composta quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "especifica um único valor e determina completamente a distribuição relevante."
+        },
+        {
+          "id": "B",
+          "text": "contém mais de um valor possível do parâmetro ou não especifica completamente a distribuição."
+        },
+        {
+          "id": "C",
+          "text": "é sempre a hipótese nula."
+        },
+        {
+          "id": "D",
+          "text": "tem nível de significância igual a zero."
+        },
+        {
+          "id": "E",
+          "text": "usa necessariamente um teste qui-quadrado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Hipótese simples especifica completamente a distribuição no modelo. Uma hipótese que abrange vários valores, como μ>10, é composta."
+    },
+    {
+      "id": "u054-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Erro do tipo I ocorre quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "não se rejeita H0 sendo H0 falsa."
+        },
+        {
+          "id": "B",
+          "text": "rejeita-se H0 sendo H0 verdadeira."
+        },
+        {
+          "id": "C",
+          "text": "rejeita-se H0 sendo H0 falsa."
+        },
+        {
+          "id": "D",
+          "text": "não se rejeita H0 sendo H0 verdadeira."
+        },
+        {
+          "id": "E",
+          "text": "o valor-p é maior que 1."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Erro do tipo I é rejeitar uma hipótese nula verdadeira. O nível de significância α controla a probabilidade desse erro conforme o desenho do teste."
+    },
+    {
+      "id": "u054-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se β é a probabilidade de erro do tipo II para um valor alternativo específico, então a potência do teste nesse valor é",
+      "options": [
+        {
+          "id": "A",
+          "text": "α+β."
+        },
+        {
+          "id": "B",
+          "text": "α−β."
+        },
+        {
+          "id": "C",
+          "text": "β."
+        },
+        {
+          "id": "D",
+          "text": "1−β."
+        },
+        {
+          "id": "E",
+          "text": "1−α."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Potência é a probabilidade de rejeitar H0 quando a alternativa considerada é verdadeira, portanto 1−β."
+    },
+    {
+      "id": "u054-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o valor-p, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "é a probabilidade de H0 ser verdadeira."
+        },
+        {
+          "id": "B",
+          "text": "é calculado sob H0 e mede quão extrema é a evidência observada, ou mais extrema, segundo a estatística do teste."
+        },
+        {
+          "id": "C",
+          "text": "é sempre igual ao nível de significância."
+        },
+        {
+          "id": "D",
+          "text": "mede diretamente o tamanho do efeito."
+        },
+        {
+          "id": "E",
+          "text": "valor-p grande prova H0."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O valor-p é uma probabilidade calculada sob a hipótese nula. Não é probabilidade posterior de H0 nem medida direta da importância prática do efeito."
+    },
+    {
+      "id": "u054-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para testar H0:μ=μ0 em uma amostra de população normal com variância desconhecida, a estatística t clássica é",
+      "options": [
+        {
+          "id": "A",
+          "text": "(X̄−μ0)/(S/√n)."
+        },
+        {
+          "id": "B",
+          "text": "(X̄−μ0)/(σ/n)."
+        },
+        {
+          "id": "C",
+          "text": "(X̄−μ0)/S²."
+        },
+        {
+          "id": "D",
+          "text": "(S²−μ0)/(X̄/√n)."
+        },
+        {
+          "id": "E",
+          "text": "(X̄−μ0)√n sem divisão por dispersão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na forma de uma amostra, T=(X̄−μ0)/(S/√n), que sob H0 segue t com n−1 graus de liberdade nas condições clássicas."
+    },
+    {
+      "id": "u054-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma tabela de contingência r×c, o teste qui-quadrado de independência utiliza, sob H0, frequências esperadas Eij dadas por",
+      "options": [
+        {
+          "id": "A",
+          "text": "total da linha mais total da coluna."
+        },
+        {
+          "id": "B",
+          "text": "(total da linha × total da coluna)/total geral."
+        },
+        {
+          "id": "C",
+          "text": "observado menos esperado."
+        },
+        {
+          "id": "D",
+          "text": "total geral/(r+c)."
+        },
+        {
+          "id": "E",
+          "text": "média simples de todas as células."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sob independência, a probabilidade conjunta fatoriza em marginais; em contagens, isso produz Eij=(total da linha i)(total da coluna j)/total geral. Os graus de liberdade são (r−1)(c−1)."
+    },
+    {
+      "id": "u054-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 88 do Cebraspe/Telebras aplicado em 2026, o método dos momentos para estimar um parâmetro é caracterizado por",
+      "options": [
+        {
+          "id": "A",
+          "text": "minimizar a soma dos quadrados dos erros."
+        },
+        {
+          "id": "B",
+          "text": "igualar momentos amostrais e teóricos e resolver para o parâmetro."
+        },
+        {
+          "id": "C",
+          "text": "maximizar necessariamente a potência de um teste."
+        },
+        {
+          "id": "D",
+          "text": "usar somente a mediana amostral."
+        },
+        {
+          "id": "E",
+          "text": "escolher o parâmetro com maior probabilidade posterior sem distribuição a priori."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal do item 88 do caderno 153_TELEBRAS_012_01, julgado Errado no gabarito definitivo quando associou método dos momentos à minimização da soma de quadrados. O método dos momentos iguala momentos amostrais e teóricos."
+    },
+    {
+      "id": "u054-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 93 do Cebraspe/Telebras, se X1, X2 e X3 são independentes Poisson(θ), qual estatística retém a informação da amostra necessária para ser suficiente para θ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "X1+X2+X3."
+        },
+        {
+          "id": "B",
+          "text": "X1+X2 apenas."
+        },
+        {
+          "id": "C",
+          "text": "X1−X3."
+        },
+        {
+          "id": "D",
+          "text": "máximo de X1 e X2 apenas, em qualquer amostra."
+        },
+        {
+          "id": "E",
+          "text": "X1 isoladamente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal do item 93 do caderno 153_TELEBRAS_012_01, julgado Errado ao propor X1+X2 como suficiente para uma amostra que também contém X3. A função conjunta depende de θ pela soma de todas as observações."
+    },
+    {
+      "id": "u054-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 102 do Cebraspe/Telebras, em um teste qui-quadrado de independência ao nível de 3%, o valor crítico é 10,7 e a estatística observada é 9,10. A decisão correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "rejeitar H0, porque 9,10 é positivo."
+        },
+        {
+          "id": "B",
+          "text": "rejeitar H0, porque todo qui-quadrado observado leva à rejeição."
+        },
+        {
+          "id": "C",
+          "text": "não rejeitar H0, porque 9,10 não alcança a região crítica acima de 10,7."
+        },
+        {
+          "id": "D",
+          "text": "aceitar H0 como provada verdadeira."
+        },
+        {
+          "id": "E",
+          "text": "concluir dependência com probabilidade de 97%."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Adaptação não literal do item 102 do caderno 153_TELEBRAS_012_01, julgado Certo no gabarito definitivo. Como 9,10<10,7, a estatística não entra na região crítica da cauda direita; não há evidência suficiente para rejeitar a independência nesse nível."
+    }
+  ]
+}
