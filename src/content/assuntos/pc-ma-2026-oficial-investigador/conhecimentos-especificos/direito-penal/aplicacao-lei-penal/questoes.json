@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u081-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma conduta ocorreu antes da entrada em vigor da lei que passou a defini-la como crime. À luz da legalidade e da anterioridade, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a lei nova pode retroagir se a conduta for socialmente reprovável."
+        },
+        {
+          "id": "B",
+          "text": "a lei nova pode retroagir se a pena prevista for pequena."
+        },
+        {
+          "id": "C",
+          "text": "a lei nova não pode transformar retroativamente o fato anterior em crime."
+        },
+        {
+          "id": "D",
+          "text": "o costume pode suprir a ausência de lei penal anterior."
+        },
+        {
+          "id": "E",
+          "text": "a autoridade administrativa pode criar a incriminação para o caso concreto."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 1º do Código Penal e o artigo 5º, XXXIX, da Constituição exigem lei anterior que defina o crime e prévia cominação legal da pena."
+    },
+    {
+      "id": "u081-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Depois de condenação definitiva, lei posterior deixa de considerar criminosa a conduta praticada. A consequência penal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "manutenção integral da execução porque houve trânsito em julgado."
+        },
+        {
+          "id": "B",
+          "text": "cessação da execução e dos efeitos penais da condenação."
+        },
+        {
+          "id": "C",
+          "text": "aplicação apenas aos processos ainda sem sentença."
+        },
+        {
+          "id": "D",
+          "text": "manutenção da pena, com redução obrigatória de um terço."
+        },
+        {
+          "id": "E",
+          "text": "necessidade de nova lei expressa para cada condenado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 2º do Código Penal prevê que a lei posterior que deixa de considerar o fato crime faz cessar a execução e os efeitos penais da sentença condenatória."
+    },
+    {
+      "id": "u081-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Lei posterior mantém a conduta como crime, mas reduz a resposta penal de modo favorável ao agente. Essa lei",
+      "options": [
+        {
+          "id": "A",
+          "text": "não se aplica a fato anterior."
+        },
+        {
+          "id": "B",
+          "text": "só se aplica se ainda não houver denúncia."
+        },
+        {
+          "id": "C",
+          "text": "retroage para alcançar fatos anteriores, inclusive condenação transitada em julgado."
+        },
+        {
+          "id": "D",
+          "text": "retroage apenas se o Ministério Público concordar."
+        },
+        {
+          "id": "E",
+          "text": "só produz efeitos para condutas praticadas depois de sua vigência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O parágrafo único do artigo 2º determina a aplicação da lei posterior mais favorável aos fatos anteriores, ainda que decididos por sentença condenatória transitada em julgado."
+    },
+    {
+      "id": "u081-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma lei penal temporária deixa de vigorar na data previamente prevista. Quanto aos fatos praticados durante sua vigência,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a extinção da vigência gera automaticamente abolitio criminis."
+        },
+        {
+          "id": "B",
+          "text": "a lei temporária continua aplicável aos fatos praticados enquanto vigorou."
+        },
+        {
+          "id": "C",
+          "text": "a punição depende de prorrogação legislativa posterior."
+        },
+        {
+          "id": "D",
+          "text": "a lei deixa de poder produzir qualquer efeito penal."
+        },
+        {
+          "id": "E",
+          "text": "a lei só permanece aplicável se for mais benéfica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 3º atribui ultratividade às leis excepcionais e temporárias para os fatos praticados durante sua vigência."
+    },
+    {
+      "id": "u081-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ação criminosa ocorreu no dia 10 e o resultado somente no dia 20. Para definir o tempo do crime segundo o Código Penal, considera-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "o dia 20, pela teoria do resultado."
+        },
+        {
+          "id": "B",
+          "text": "o dia 15, como ponto médio entre conduta e resultado."
+        },
+        {
+          "id": "C",
+          "text": "o dia 10, momento da ação ou omissão."
+        },
+        {
+          "id": "D",
+          "text": "a data escolhida pelo juiz conforme a lei mais grave."
+        },
+        {
+          "id": "E",
+          "text": "sempre a data do oferecimento da denúncia."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 4º adota a teoria da atividade: o crime é considerado praticado no momento da ação ou omissão, ainda que outro seja o momento do resultado."
+    },
+    {
+      "id": "u081-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A conduta começa em um país e o resultado ocorre no Brasil. Para o lugar do crime, o Código Penal considera",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente o lugar da ação."
+        },
+        {
+          "id": "B",
+          "text": "somente o lugar do resultado efetivo."
+        },
+        {
+          "id": "C",
+          "text": "os locais da ação ou omissão, no todo ou em parte, e do resultado produzido ou que deveria produzir-se."
+        },
+        {
+          "id": "D",
+          "text": "apenas o domicílio do autor."
+        },
+        {
+          "id": "E",
+          "text": "apenas o local da prisão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 6º adota a teoria da ubiquidade para o lugar do crime."
+    },
+    {
+      "id": "u081-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para fins penais, qual situação integra expressamente a extensão do território nacional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Embarcação brasileira pública, onde quer que se encontre."
+        },
+        {
+          "id": "B",
+          "text": "Qualquer embarcação estrangeira, em qualquer mar do mundo."
+        },
+        {
+          "id": "C",
+          "text": "Qualquer residência de brasileiro situada no exterior."
+        },
+        {
+          "id": "D",
+          "text": "Todo imóvel pertencente à União fora do Brasil."
+        },
+        {
+          "id": "E",
+          "text": "Qualquer aeronave estrangeira em voo fora do espaço aéreo brasileiro."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 5º, § 1º, considera extensão do território nacional aeronaves e embarcações brasileiras de natureza pública ou a serviço do governo brasileiro onde quer que se encontrem."
+    },
+    {
+      "id": "u081-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Crime é praticado a bordo de aeronave estrangeira privada enquanto ela está em pouso no território brasileiro. Em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a lei brasileira é inaplicável porque a aeronave é estrangeira."
+        },
+        {
+          "id": "B",
+          "text": "a lei brasileira pode ser aplicada nos termos do artigo 5º, § 2º, do Código Penal."
+        },
+        {
+          "id": "C",
+          "text": "somente a lei do país de matrícula da aeronave pode ser aplicada."
+        },
+        {
+          "id": "D",
+          "text": "a nacionalidade da vítima é o único critério relevante."
+        },
+        {
+          "id": "E",
+          "text": "a aplicação depende sempre de requisição do Ministro da Justiça."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 5º, § 2º, prevê aplicação da lei brasileira a crimes em aeronaves estrangeiras privadas em pouso no território nacional ou em voo no espaço aéreo correspondente."
+    },
+    {
+      "id": "u081-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual hipótese integra o grupo do artigo 7º, I, do Código Penal, que não depende das condições do § 2º?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Qualquer crime praticado no exterior por brasileiro."
+        },
+        {
+          "id": "B",
+          "text": "Crime contra a vida ou a liberdade do Presidente da República."
+        },
+        {
+          "id": "C",
+          "text": "Qualquer crime praticado por estrangeiro contra brasileiro."
+        },
+        {
+          "id": "D",
+          "text": "Crime cometido em aeronave estrangeira privada no exterior."
+        },
+        {
+          "id": "E",
+          "text": "Qualquer crime previsto em tratado internacional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 7º, I, inclui crimes contra a vida ou liberdade do Presidente, entre outras hipóteses específicas, sem sujeição às condições do § 2º."
+    },
+    {
+      "id": "u081-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um brasileiro pratica crime no exterior. Para aplicação da lei brasileira pela hipótese do artigo 7º, II, não basta que ele entre no Brasil; também é necessário, entre outros requisitos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "que o fato seja punível no país em que foi praticado."
+        },
+        {
+          "id": "B",
+          "text": "que a vítima seja brasileira."
+        },
+        {
+          "id": "C",
+          "text": "que haja condenação prévia no exterior."
+        },
+        {
+          "id": "D",
+          "text": "que o crime tenha ocorrido em repartição pública brasileira."
+        },
+        {
+          "id": "E",
+          "text": "que o Ministro da Justiça sempre faça requisição."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 7º, § 2º, exige cumulativamente, entre outras condições, entrada do agente no Brasil e punibilidade do fato também no país em que foi praticado."
+    },
+    {
+      "id": "u081-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No crime cometido por estrangeiro contra brasileiro fora do Brasil, o artigo 7º, § 3º, exige, além das condições do § 2º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "extradição concedida e ausência de manifestação ministerial."
+        },
+        {
+          "id": "B",
+          "text": "extradição não pedida ou negada e requisição do Ministro da Justiça."
+        },
+        {
+          "id": "C",
+          "text": "apenas ingresso espontâneo da vítima no Brasil."
+        },
+        {
+          "id": "D",
+          "text": "condenação prévia do agente no exterior."
+        },
+        {
+          "id": "E",
+          "text": "naturalização posterior do agente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 3º acrescenta dois requisitos: extradição não pedida ou negada e requisição do Ministro da Justiça."
+    },
+    {
+      "id": "u081-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No prazo penal material regido pelo artigo 10 do Código Penal,",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclui-se o dia do começo e inclui-se o do vencimento."
+        },
+        {
+          "id": "B",
+          "text": "inclui-se o dia do começo e contam-se dias, meses e anos pelo calendário comum."
+        },
+        {
+          "id": "C",
+          "text": "contam-se apenas dias úteis."
+        },
+        {
+          "id": "D",
+          "text": "o primeiro dia só entra se houver decisão judicial expressa."
+        },
+        {
+          "id": "E",
+          "text": "meses são sempre convertidos em trinta dias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 10 inclui o dia do começo e determina contagem dos dias, meses e anos pelo calendário comum."
+    },
+    {
+      "id": "u081-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença correta entre prazo penal material e prazo processual penal é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos excluem o dia do começo."
+        },
+        {
+          "id": "B",
+          "text": "o prazo penal material inclui o dia do começo; o processual penal, em regra, exclui-o."
+        },
+        {
+          "id": "C",
+          "text": "o prazo penal material conta apenas dias úteis."
+        },
+        {
+          "id": "D",
+          "text": "o prazo processual penal sempre inclui o dia do começo."
+        },
+        {
+          "id": "E",
+          "text": "não existe diferença de contagem."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 10 do Código Penal inclui o dia inicial; o artigo 798, § 1º, do Código de Processo Penal exclui o dia do começo e inclui o do vencimento."
+    },
+    {
+      "id": "u081-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As regras gerais do Código Penal aplicam-se aos fatos incriminados por lei especial",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre, mesmo que a lei especial disponha de modo diverso."
+        },
+        {
+          "id": "B",
+          "text": "somente mediante autorização judicial."
+        },
+        {
+          "id": "C",
+          "text": "se a lei especial não dispuser de modo diverso."
+        },
+        {
+          "id": "D",
+          "text": "apenas quando a lei especial for temporária."
+        },
+        {
+          "id": "E",
+          "text": "nunca."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "É a regra do artigo 12 do Código Penal."
+    },
+    {
+      "id": "u081-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A principal diferença entre interpretação extensiva e analogia é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a interpretação extensiva integra lacuna e a analogia apenas lê a norma existente."
+        },
+        {
+          "id": "B",
+          "text": "a interpretação trabalha o alcance de norma existente; a analogia integra uma lacuna com regra de situação semelhante."
+        },
+        {
+          "id": "C",
+          "text": "ambas sempre criam novo tipo penal."
+        },
+        {
+          "id": "D",
+          "text": "a analogia é obrigatoriamente prejudicial ao acusado."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma delas é técnica jurídica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Interpretação determina sentido e alcance de regra existente. Analogia é técnica de integração diante de lacuna."
+    },
+    {
+      "id": "u081-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em matéria penal incriminadora, a analogia",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode criar crime sempre que houver semelhança entre fatos."
+        },
+        {
+          "id": "B",
+          "text": "pode agravar pena se o juiz considerar a situação moralmente equivalente."
+        },
+        {
+          "id": "C",
+          "text": "não pode ser usada em prejuízo do acusado; diante de lacuna, solução analógica favorável pode ser admitida."
+        },
+        {
+          "id": "D",
+          "text": "é sempre proibida, inclusive quando favorável."
+        },
+        {
+          "id": "E",
+          "text": "substitui o princípio da legalidade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A legalidade estrita veda analogia in malam partem. A jurisprudência admite analogia in bonam partem em hipóteses de lacuna favorável."
+    },
+    {
+      "id": "u081-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula 711 do STF, lei penal mais grave que entra em vigor durante a permanência do crime",
+      "options": [
+        {
+          "id": "A",
+          "text": "jamais pode ser aplicada."
+        },
+        {
+          "id": "B",
+          "text": "pode ser aplicada se sua vigência for anterior à cessação da permanência."
+        },
+        {
+          "id": "C",
+          "text": "só pode ser aplicada se o crime começou depois da lei."
+        },
+        {
+          "id": "D",
+          "text": "só vale mediante concordância do acusado."
+        },
+        {
+          "id": "E",
+          "text": "é obrigatoriamente substituída pela lei anterior."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Súmula 711 do STF alcança crime continuado ou permanente quando a lei mais grave entra em vigor antes da cessação da continuidade ou permanência."
+    },
+    {
+      "id": "u081-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "De acordo com a Súmula 501 do STJ, ao comparar leis penais sucessivas, o julgador",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode combinar livremente as partes mais favoráveis de cada diploma."
+        },
+        {
+          "id": "B",
+          "text": "deve comparar os regimes aplicáveis sem criar combinação de leis."
+        },
+        {
+          "id": "C",
+          "text": "deve sempre aplicar a lei mais recente."
+        },
+        {
+          "id": "D",
+          "text": "deve sempre aplicar a lei vigente no dia da sentença."
+        },
+        {
+          "id": "E",
+          "text": "não pode reconhecer retroatividade benéfica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Súmula 501 exige incidência integral do diploma mais favorável e veda a combinação de leis."
+    },
+    {
+      "id": "u081-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 99 da prova Cebraspe/Câmara dos Deputados para Policial Legislativo Federal, aplicada em 2026, assinale a opção correta sobre sucessão de leis penais.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O juiz pode reunir a parte favorável da lei anterior com a parte favorável da lei posterior para formar um terceiro regime."
+        },
+        {
+          "id": "B",
+          "text": "A sucessão de leis impede qualquer retroatividade."
+        },
+        {
+          "id": "C",
+          "text": "A lei posterior mais benéfica pode retroagir, mas a jurisprudência sumulada veda a combinação judicial de partes de leis diferentes."
+        },
+        {
+          "id": "D",
+          "text": "A lei posterior mais grave sempre retroage quando a sentença ainda não transitou em julgado."
+        },
+        {
+          "id": "E",
+          "text": "O princípio da legalidade autoriza criação judicial de sanção intermediária."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O item oficial 99 foi julgado Errado. A adaptação explicita o motivo: a retroatividade benéfica é admitida, mas a Súmula 501 do STJ veda a combinação de leis para formar lex tertia."
+    },
+    {
+      "id": "u081-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 100 da prova Cebraspe/Câmara dos Deputados para Policial Legislativo Federal, aplicada em 2026, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A abolitio criminis mantém os efeitos penais da condenação definitiva."
+        },
+        {
+          "id": "B",
+          "text": "A lei posterior mais benéfica só retroage quando deixa de considerar o fato crime."
+        },
+        {
+          "id": "C",
+          "text": "A abolitio criminis faz cessar execução e efeitos penais, e a lei posterior mais benéfica pode retroagir mesmo sem descriminalizar a conduta."
+        },
+        {
+          "id": "D",
+          "text": "A lei mais benéfica não alcança sentença transitada em julgado."
+        },
+        {
+          "id": "E",
+          "text": "A retroatividade benéfica depende de previsão expressa em cada nova lei."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O item oficial 100 foi julgado Certo. O artigo 2º distingue descriminalização de outras formas de lei posterior favorável e permite aplicação mesmo após trânsito em julgado."
+    },
+    {
+      "id": "u081-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 101 da prova Cebraspe/Câmara dos Deputados para Policial Legislativo Federal, aplicada em 2026, um brasileiro pratica crime no exterior e ingressa depois no Brasil. Para incidência do artigo 7º, II, do Código Penal,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o ingresso no Brasil é suficiente."
+        },
+        {
+          "id": "B",
+          "text": "basta que a vítima seja brasileira."
+        },
+        {
+          "id": "C",
+          "text": "o ingresso é apenas uma das condições; o fato também deve ser punível no país onde foi praticado e os demais requisitos legais devem estar presentes."
+        },
+        {
+          "id": "D",
+          "text": "a lei brasileira nunca pode incidir."
+        },
+        {
+          "id": "E",
+          "text": "a condenação estrangeira prévia é requisito obrigatório."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O item oficial 101 foi julgado Errado. O artigo 7º, § 2º, estabelece condições cumulativas; entrar no território nacional não basta."
+    }
+  ]
+}
