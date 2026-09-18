@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u080-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao analisar um problema ambiental transfronteiriço, qual sequência organiza melhor o raciocínio?",
+      "options": [
+        {
+          "id": "A",
+          "text": "problema → atores → instrumento → implementação → indicador"
+        },
+        {
+          "id": "B",
+          "text": "indicador → slogan → ator único → conclusão"
+        },
+        {
+          "id": "C",
+          "text": "tratado → sucesso automático → fim do monitoramento"
+        },
+        {
+          "id": "D",
+          "text": "opinião → motivo presumido → dado escolhido"
+        },
+        {
+          "id": "E",
+          "text": "conflito → culpado → solução única"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A sequência separa diagnóstico, atores, mecanismo institucional, execução e medida de resultado. Ela evita tratar anúncio ou acordo como resultado automático."
+    },
+    {
+      "id": "u080-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Carta da ONU, é compatível com seus propósitos e princípios",
+      "options": [
+        {
+          "id": "A",
+          "text": "promover cooperação internacional e solução pacífica de controvérsias."
+        },
+        {
+          "id": "B",
+          "text": "eliminar a igualdade soberana dos Estados."
+        },
+        {
+          "id": "C",
+          "text": "substituir toda decisão nacional por decisão de organismo internacional."
+        },
+        {
+          "id": "D",
+          "text": "presumir que conflitos devem ser resolvidos pelo uso da força."
+        },
+        {
+          "id": "E",
+          "text": "afastar a proteção dos direitos humanos da cooperação internacional."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Carta inclui paz e segurança, relações amistosas, cooperação, direitos humanos, igualdade soberana e solução pacífica entre seus propósitos e princípios."
+    },
+    {
+      "id": "u080-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma redação sobre conflito internacional, qual prática é metodologicamente mais adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "separar fatos verificáveis, atores, instrumentos e efeitos de alegações contestadas sobre motivos."
+        },
+        {
+          "id": "B",
+          "text": "atribuir intenções sem fonte para tornar o texto mais convincente."
+        },
+        {
+          "id": "C",
+          "text": "usar apenas declarações de uma parte como descrição neutra de todos os fatos."
+        },
+        {
+          "id": "D",
+          "text": "ignorar efeitos humanitários e econômicos."
+        },
+        {
+          "id": "E",
+          "text": "tratar toda negociação como acordo concluído."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Análise responsável distingue fatos documentados de interpretações e alegações, especialmente em temas contestados."
+    },
+    {
+      "id": "u080-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação distingue corretamente instrumentos internacionais?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tratado, decisão de conferência, declaração política e plano nacional não possuem automaticamente a mesma função ou efeito."
+        },
+        {
+          "id": "B",
+          "text": "Todo anúncio feito em conferência internacional é tratado ratificado."
+        },
+        {
+          "id": "C",
+          "text": "Plano nacional substitui a convenção internacional que lhe serve de referência."
+        },
+        {
+          "id": "D",
+          "text": "Toda resolução política cria obrigação jurídica idêntica à de um tratado."
+        },
+        {
+          "id": "E",
+          "text": "Decisão de conferência nunca pode orientar implementação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O tipo de instrumento importa. Tratados, decisões de órgãos de convenções, declarações e planos nacionais exercem funções diferentes."
+    },
+    {
+      "id": "u080-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Desenvolvimento sustentável exige, em sua formulação clássica adotada pela ONU, integração principalmente entre dimensões",
+      "options": [
+        {
+          "id": "A",
+          "text": "econômica, social e ambiental."
+        },
+        {
+          "id": "B",
+          "text": "militar, eleitoral e esportiva."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente ambiental e tecnológica."
+        },
+        {
+          "id": "D",
+          "text": "apenas econômica e fiscal."
+        },
+        {
+          "id": "E",
+          "text": "somente social e cultural."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A formulação das Nações Unidas enfatiza a harmonização entre crescimento econômico, inclusão social e proteção ambiental."
+    },
+    {
+      "id": "u080-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Relatório dos ODS 2026 permite concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "houve ganhos concretos desde 2015, mas o progresso permanece desigual e insuficiente."
+        },
+        {
+          "id": "B",
+          "text": "todos os objetivos já foram integralmente cumpridos."
+        },
+        {
+          "id": "C",
+          "text": "a cooperação internacional deixou de ser necessária."
+        },
+        {
+          "id": "D",
+          "text": "os ODS foram substituídos por um único objetivo ambiental."
+        },
+        {
+          "id": "E",
+          "text": "qualquer progresso médio garante que nenhum grupo ficou para trás."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O relatório reconhece resultados mensuráveis, mas destaca insuficiência e desigualdade no ritmo de avanço, além de prioridades para acelerar a implementação."
+    },
+    {
+      "id": "u080-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual exemplo caracteriza principalmente mitigação da mudança do clima?",
+      "options": [
+        {
+          "id": "A",
+          "text": "reduzir emissões de gases de efeito estufa por mudança tecnológica."
+        },
+        {
+          "id": "B",
+          "text": "elevar uma barreira física para reduzir danos de inundação já esperada."
+        },
+        {
+          "id": "C",
+          "text": "criar abrigo emergencial depois de uma enchente."
+        },
+        {
+          "id": "D",
+          "text": "mapear pessoas expostas a ondas de calor sem reduzir emissões."
+        },
+        {
+          "id": "E",
+          "text": "indenizar perda já ocorrida sem atuar sobre emissões."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Mitigação atua sobre as causas do aquecimento, reduzindo emissões ou ampliando remoções. As demais alternativas se aproximam de adaptação ou resposta a danos."
+    },
+    {
+      "id": "u080-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual exemplo caracteriza principalmente adaptação climática?",
+      "options": [
+        {
+          "id": "A",
+          "text": "redimensionar drenagem urbana diante de chuvas mais intensas."
+        },
+        {
+          "id": "B",
+          "text": "substituir combustível fóssil por fonte de menor emissão para reduzir gases de efeito estufa."
+        },
+        {
+          "id": "C",
+          "text": "calcular inventário de emissões sem ação de redução de risco."
+        },
+        {
+          "id": "D",
+          "text": "aprovar uma meta de conservação sem avaliar vulnerabilidade climática."
+        },
+        {
+          "id": "E",
+          "text": "medir PIB sem informação sobre risco climático."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação reduz vulnerabilidade ou dano diante de impactos atuais ou esperados. Redução de emissões pertence à mitigação."
+    },
+    {
+      "id": "u080-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Acordo de Paris, as NDCs",
+      "options": [
+        {
+          "id": "A",
+          "text": "são apresentadas em ciclos de cinco anos e as sucessivas contribuições devem representar progressão."
+        },
+        {
+          "id": "B",
+          "text": "são idênticas para todos os países."
+        },
+        {
+          "id": "C",
+          "text": "substituem qualquer política nacional."
+        },
+        {
+          "id": "D",
+          "text": "são relatórios exclusivamente de biodiversidade."
+        },
+        {
+          "id": "E",
+          "text": "não podem ser atualizadas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O regime do Acordo de Paris trabalha com ciclos periódicos de contribuições nacionais e expectativa de progressão da ambição."
+    },
+    {
+      "id": "u080-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O relatório-síntese de NDCs de 2025 analisou contribuições que cobriam cerca de 30% das emissões globais de 2019. A própria secretaria advertiu que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a cobertura limitada não sustentava conclusões globais amplas sobre todas as Partes."
+        },
+        {
+          "id": "B",
+          "text": "os dados representavam necessariamente 100% das emissões."
+        },
+        {
+          "id": "C",
+          "text": "uma amostra parcial é sempre mais representativa que o conjunto completo."
+        },
+        {
+          "id": "D",
+          "text": "NDCs não possuem qualquer informação econômica."
+        },
+        {
+          "id": "E",
+          "text": "o relatório invalidava o Acordo de Paris."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Cobertura parcial exige cautela. O relatório oferecia informações úteis sobre as NDCs analisadas, mas não autorizava extrapolação irrestrita ao universo global."
+    },
+    {
+      "id": "u080-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a COP30 de Belém e as iniciativas de sua presidência, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Decisões adotadas pelas Partes e roteiros conduzidos pela presidência podem ser relevantes, mas não têm automaticamente o mesmo status institucional."
+        },
+        {
+          "id": "B",
+          "text": "Toda iniciativa anunciada pela presidência é automaticamente uma decisão formal de todas as Partes."
+        },
+        {
+          "id": "C",
+          "text": "A conferência não tratou de adaptação, financiamento ou tecnologia."
+        },
+        {
+          "id": "D",
+          "text": "O resultado de uma conferência dispensa implementação posterior."
+        },
+        {
+          "id": "E",
+          "text": "Decisões multilaterais não podem conter mecanismos de acompanhamento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A COP30 adotou decisões formais, enquanto a presidência também conduziu iniciativas próprias de implementação. É preciso identificar a origem institucional de cada resultado."
+    },
+    {
+      "id": "u080-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual sequência representa a tradução de um compromisso climático internacional em ação doméstica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "compromisso internacional → planejamento nacional → ações setoriais → indicadores."
+        },
+        {
+          "id": "B",
+          "text": "conferência → resultado automático → dispensa de política interna."
+        },
+        {
+          "id": "C",
+          "text": "indicador → tratado → eliminação do orçamento."
+        },
+        {
+          "id": "D",
+          "text": "plano nacional → abandono de qualquer compromisso internacional."
+        },
+        {
+          "id": "E",
+          "text": "anúncio → sucesso sem execução."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Compromissos internacionais precisam ser implementados por políticas, instituições e ações concretas, acompanhadas por indicadores."
+    },
+    {
+      "id": "u080-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Convenção sobre Diversidade Biológica, ecossistema é",
+      "options": [
+        {
+          "id": "A",
+          "text": "um complexo dinâmico de comunidades de organismos e seu ambiente não vivo interagindo como unidade funcional."
+        },
+        {
+          "id": "B",
+          "text": "uma lista de espécies sem relações entre si."
+        },
+        {
+          "id": "C",
+          "text": "somente a parte não viva de uma paisagem."
+        },
+        {
+          "id": "D",
+          "text": "qualquer área delimitada por fronteira administrativa."
+        },
+        {
+          "id": "E",
+          "text": "sinônimo obrigatório de unidade de conservação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A definição combina comunidades vivas, ambiente não vivo e interação funcional."
+    },
+    {
+      "id": "u080-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Biodiversidade inclui",
+      "options": [
+        {
+          "id": "A",
+          "text": "diversidade dentro das espécies, entre espécies e de ecossistemas."
+        },
+        {
+          "id": "B",
+          "text": "apenas a quantidade total de espécies conhecidas."
+        },
+        {
+          "id": "C",
+          "text": "somente diversidade genética de plantas cultivadas."
+        },
+        {
+          "id": "D",
+          "text": "apenas áreas protegidas."
+        },
+        {
+          "id": "E",
+          "text": "somente animais silvestres."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Convenção sobre Diversidade Biológica inclui níveis genético, de espécies e de ecossistemas."
+    },
+    {
+      "id": "u080-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual conjunto corresponde aos cinco grandes fatores diretos de perda de biodiversidade destacados pela IPBES?",
+      "options": [
+        {
+          "id": "A",
+          "text": "mudança de uso da terra e do mar, exploração direta, mudança do clima, poluição e espécies exóticas invasoras."
+        },
+        {
+          "id": "B",
+          "text": "inflação, desemprego, câmbio, juros e comércio."
+        },
+        {
+          "id": "C",
+          "text": "somente mudança do clima e poluição."
+        },
+        {
+          "id": "D",
+          "text": "educação, saúde, cultura, renda e transporte."
+        },
+        {
+          "id": "E",
+          "text": "apenas caça e pesca."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A avaliação global da IPBES organiza as principais pressões diretas nesses cinco grupos, embora sua importância relativa varie conforme o ecossistema."
+    },
+    {
+      "id": "u080-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A principal diferença entre restauração e conservação, no recorte desta unidade, é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "restauração busca recuperar ecossistemas degradados, enquanto conservação busca manter biodiversidade e processos ecológicos."
+        },
+        {
+          "id": "B",
+          "text": "restauração é sinônimo de fiscalização penal."
+        },
+        {
+          "id": "C",
+          "text": "conservação só pode ocorrer em ambiente urbano."
+        },
+        {
+          "id": "D",
+          "text": "restauração dispensa qualquer monitoramento."
+        },
+        {
+          "id": "E",
+          "text": "conservação exige degradação prévia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As estratégias podem ser complementares, mas partem de condições diferentes: recuperar o degradado não é o mesmo que manter o que ainda conserva seus atributos."
+    },
+    {
+      "id": "u080-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Marco Global de Kunming-Montreal, qual contraste está correto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Meta 2 enfatiza restauração de áreas degradadas; a Meta 3 enfatiza conservação e gestão efetiva de áreas."
+        },
+        {
+          "id": "B",
+          "text": "as Metas 2 e 3 tratam exclusivamente de política monetária."
+        },
+        {
+          "id": "C",
+          "text": "a Meta 3 elimina qualquer consideração de conectividade."
+        },
+        {
+          "id": "D",
+          "text": "a Meta 2 proíbe restauração."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma meta possui horizonte para 2030."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O marco distingue recuperação de áreas degradadas e conservação efetiva, embora ambas contribuam para biodiversidade e ecossistemas."
+    },
+    {
+      "id": "u080-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Por que o acordo da COP16 sobre indicadores do Marco Global de Biodiversidade é relevante?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque cria medidas comuns para acompanhar e revisar o progresso em relação às metas e objetivos."
+        },
+        {
+          "id": "B",
+          "text": "Porque elimina a necessidade de ações nacionais."
+        },
+        {
+          "id": "C",
+          "text": "Porque transforma biodiversidade em um único indicador."
+        },
+        {
+          "id": "D",
+          "text": "Porque impede participação de atores não estatais."
+        },
+        {
+          "id": "E",
+          "text": "Porque substitui a Convenção sobre Diversidade Biológica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Indicadores permitem monitorar, reportar e revisar implementação. Eles não executam políticas por si só."
+    },
+    {
+      "id": "u080-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "DETER e PRODES não devem ser comparados como se fossem a mesma medida porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o DETER é voltado a alertas operacionais, enquanto o PRODES produz taxa anual consolidada, com funções e períodos próprios."
+        },
+        {
+          "id": "B",
+          "text": "ambos medem exatamente a mesma área no mesmo instante."
+        },
+        {
+          "id": "C",
+          "text": "o PRODES não usa observação por satélite."
+        },
+        {
+          "id": "D",
+          "text": "o DETER é um indicador econômico."
+        },
+        {
+          "id": "E",
+          "text": "nenhum deles pode apoiar política ambiental."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os sistemas têm propósitos, metodologias e períodos de referência diferentes. Números distintos não constituem contradição automática."
+    },
+    {
+      "id": "u080-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 40 do Cebraspe/STJ de 2024 sobre Agenda 2030, qual formulação expressa corretamente a integração ambiental dos Objetivos de Desenvolvimento Sustentável?",
+      "options": [
+        {
+          "id": "A",
+          "text": "reduzir degradação ambiental, promover gestão sustentável de recursos e enfrentar a mudança do clima considerando gerações presentes e futuras."
+        },
+        {
+          "id": "B",
+          "text": "separar completamente economia, sociedade e ambiente."
+        },
+        {
+          "id": "C",
+          "text": "proteger recursos naturais apenas para gerações futuras, sem atender necessidades presentes."
+        },
+        {
+          "id": "D",
+          "text": "abandonar medidas climáticas para priorizar crescimento de curto prazo."
+        },
+        {
+          "id": "E",
+          "text": "restringir sustentabilidade à criação de áreas protegidas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação não literal do item 40 do caderno 018_STJ_CB4_01, Cebraspe/STJ, aplicado em 1/12/2024 e julgado Certo no gabarito definitivo. O item oficial relaciona redução da degradação, gestão sustentável dos recursos e ação climática em benefício das gerações presentes e futuras."
+    }
+  ]
+}
