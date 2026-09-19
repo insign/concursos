@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u087-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O furto se consuma, segundo a orientação jurisprudencial predominante, quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "ocorre efetiva inversão da posse, ainda que breve, sem exigir posse mansa e pacífica."
+        },
+        {
+          "id": "B",
+          "text": "o agente permanece vinte e quatro horas com a coisa."
+        },
+        {
+          "id": "C",
+          "text": "a vítima deixa de procurar o bem."
+        },
+        {
+          "id": "D",
+          "text": "o bem é vendido a terceiro."
+        },
+        {
+          "id": "E",
+          "text": "há sentença condenatória."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A consumação exige inversão da posse; posse tranquila ou desvigiada não é requisito."
+    },
+    {
+      "id": "u087-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei nº 15.397/2026, o furto durante repouso noturno",
+      "options": [
+        {
+          "id": "A",
+          "text": "tem aumento de metade."
+        },
+        {
+          "id": "B",
+          "text": "tem aumento fixo de um terço."
+        },
+        {
+          "id": "C",
+          "text": "é sempre qualificado com pena de 4 a 10 anos."
+        },
+        {
+          "id": "D",
+          "text": "não possui consequência específica."
+        },
+        {
+          "id": "E",
+          "text": "é contravenção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 155, § 1º, passou a prever aumento de metade."
+    },
+    {
+      "id": "u087-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Furto privilegiado pressupõe",
+      "options": [
+        {
+          "id": "A",
+          "text": "primariedade e pequeno valor da coisa."
+        },
+        {
+          "id": "B",
+          "text": "reincidência e violência."
+        },
+        {
+          "id": "C",
+          "text": "grave ameaça e pequeno valor."
+        },
+        {
+          "id": "D",
+          "text": "apenas confissão."
+        },
+        {
+          "id": "E",
+          "text": "crime praticado à noite."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "São os requisitos do art. 155, § 2º."
+    },
+    {
+      "id": "u087-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença central entre furto mediante fraude e estelionato é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "no furto o agente subtrai aproveitando a fraude; no estelionato a vítima, enganada, realiza a disposição patrimonial."
+        },
+        {
+          "id": "B",
+          "text": "no estelionato sempre existe violência."
+        },
+        {
+          "id": "C",
+          "text": "furto mediante fraude só pode envolver dinheiro."
+        },
+        {
+          "id": "D",
+          "text": "estelionato exige subtração clandestina."
+        },
+        {
+          "id": "E",
+          "text": "não existe diferença."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O papel da vítima no deslocamento patrimonial é o critério prático decisivo."
+    },
+    {
+      "id": "u087-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo entendimento do STJ de 2026, romper obstáculo com inequívoco início da agressão ao patrimônio, sem chegar a tocar nos bens,",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode configurar tentativa de furto qualificado."
+        },
+        {
+          "id": "B",
+          "text": "é sempre ato preparatório impunível."
+        },
+        {
+          "id": "C",
+          "text": "é furto consumado automaticamente."
+        },
+        {
+          "id": "D",
+          "text": "é apenas dano em qualquer hipótese."
+        },
+        {
+          "id": "E",
+          "text": "é crime impossível."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O STJ adotou leitura objetivo-formal temperada e reconheceu tentativa no caso de rompimento do obstáculo."
+    },
+    {
+      "id": "u087-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Roubo impróprio ocorre quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "após a subtração, o agente emprega violência ou grave ameaça para assegurar impunidade ou detenção da coisa."
+        },
+        {
+          "id": "B",
+          "text": "a ameaça antecede toda e qualquer subtração, necessariamente."
+        },
+        {
+          "id": "C",
+          "text": "não existe subtração."
+        },
+        {
+          "id": "D",
+          "text": "a vítima entrega bem por fraude."
+        },
+        {
+          "id": "E",
+          "text": "o agente recebe produto de crime."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a estrutura do art. 157, § 1º."
+    },
+    {
+      "id": "u087-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O latrocínio é",
+      "options": [
+        {
+          "id": "A",
+          "text": "roubo qualificado pelo resultado morte, classificado no Título dos crimes contra o patrimônio."
+        },
+        {
+          "id": "B",
+          "text": "homicídio simples."
+        },
+        {
+          "id": "C",
+          "text": "crime exclusivamente contra a pessoa julgado sempre pelo Júri."
+        },
+        {
+          "id": "D",
+          "text": "modalidade de extorsão sem subtração."
+        },
+        {
+          "id": "E",
+          "text": "contravenção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Apesar da morte, o latrocínio está no art. 157 e é crime patrimonial."
+    },
+    {
+      "id": "u087-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Tema 1.192/STJ, uma única conduta de roubo sem desígnios autônomos contra patrimônios distintos de diferentes vítimas configura",
+      "options": [
+        {
+          "id": "A",
+          "text": "concurso formal de crimes."
+        },
+        {
+          "id": "B",
+          "text": "crime único em qualquer hipótese."
+        },
+        {
+          "id": "C",
+          "text": "crime continuado obrigatório."
+        },
+        {
+          "id": "D",
+          "text": "concurso material obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "fato atípico."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Patrimônios distintos configuram crimes distintos, com concurso formal quando há uma só conduta e ausência de desígnios autônomos."
+    },
+    {
+      "id": "u087-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Roubo e extorsão distinguem-se porque, na extorsão,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o comportamento da vítima constrangida é relevante para obtenção da vantagem econômica."
+        },
+        {
+          "id": "B",
+          "text": "jamais existe grave ameaça."
+        },
+        {
+          "id": "C",
+          "text": "sempre há sequestro prolongado."
+        },
+        {
+          "id": "D",
+          "text": "não existe vantagem patrimonial."
+        },
+        {
+          "id": "E",
+          "text": "o agente necessariamente subtrai diretamente a coisa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na extorsão, a vítima é constrangida a fazer, tolerar ou deixar de fazer algo."
+    },
+    {
+      "id": "u087-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A extorsão mediante sequestro do art. 159 exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "sequestro com finalidade de obter vantagem como condição ou preço do resgate."
+        },
+        {
+          "id": "B",
+          "text": "qualquer restrição breve para saque em caixa eletrônico."
+        },
+        {
+          "id": "C",
+          "text": "simples subtração clandestina."
+        },
+        {
+          "id": "D",
+          "text": "posse legítima anterior da coisa."
+        },
+        {
+          "id": "E",
+          "text": "produto de crime antecedente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A finalidade de resgate distingue o art. 159."
+    },
+    {
+      "id": "u087-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Apropriação indébita diferencia-se do furto porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o agente recebe posse ou detenção legitimamente antes de passar a agir como dono."
+        },
+        {
+          "id": "B",
+          "text": "há sempre violência."
+        },
+        {
+          "id": "C",
+          "text": "a coisa nunca é alheia."
+        },
+        {
+          "id": "D",
+          "text": "exige fraude que induz a vítima a erro."
+        },
+        {
+          "id": "E",
+          "text": "depende de crime antecedente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O núcleo pressupõe posse ou detenção prévia lícita."
+    },
+    {
+      "id": "u087-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No estelionato, é necessário",
+      "options": [
+        {
+          "id": "A",
+          "text": "vantagem ilícita, prejuízo alheio e erro da vítima provocado ou mantido por fraude."
+        },
+        {
+          "id": "B",
+          "text": "subtração clandestina sem participação da vítima."
+        },
+        {
+          "id": "C",
+          "text": "violência obrigatória."
+        },
+        {
+          "id": "D",
+          "text": "produto de crime antecedente."
+        },
+        {
+          "id": "E",
+          "text": "posse prévia lícita sem fraude."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O erro da vítima e a disposição patrimonial são centrais ao art. 171."
+    },
+    {
+      "id": "u087-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 15.397/2026 incluiu no art. 171",
+      "options": [
+        {
+          "id": "A",
+          "text": "cessão de conta bancária para trânsito de recursos destinados a atividade criminosa ou dela provenientes."
+        },
+        {
+          "id": "B",
+          "text": "feminicídio."
+        },
+        {
+          "id": "C",
+          "text": "tráfico de pessoas."
+        },
+        {
+          "id": "D",
+          "text": "peculato eletrônico."
+        },
+        {
+          "id": "E",
+          "text": "crime de rixa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É o inciso VII do § 2º, denominado cessão de conta laranja."
+    },
+    {
+      "id": "u087-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao antigo art. 171, § 5º, no corte de julho de 2026,",
+      "options": [
+        {
+          "id": "A",
+          "text": "foi revogado pela Lei nº 15.397/2026."
+        },
+        {
+          "id": "B",
+          "text": "permanece vigente integralmente."
+        },
+        {
+          "id": "C",
+          "text": "passou a exigir queixa privada."
+        },
+        {
+          "id": "D",
+          "text": "foi deslocado para o art. 155."
+        },
+        {
+          "id": "E",
+          "text": "virou causa de aumento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 15.397 revogou expressamente o § 5º."
+    },
+    {
+      "id": "u087-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na receptação dolosa do art. 180, o agente",
+      "options": [
+        {
+          "id": "A",
+          "text": "sabe que a coisa é produto de crime."
+        },
+        {
+          "id": "B",
+          "text": "precisa ser autor do crime antecedente."
+        },
+        {
+          "id": "C",
+          "text": "deve desconhecer a origem da coisa."
+        },
+        {
+          "id": "D",
+          "text": "só pode adquirir, jamais ocultar ou transportar."
+        },
+        {
+          "id": "E",
+          "text": "necessariamente atua em comércio."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O caput exige ciência da origem criminosa e contempla vários verbos."
+    },
+    {
+      "id": "u087-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A receptação continua punível quando o autor do crime antecedente",
+      "options": [
+        {
+          "id": "A",
+          "text": "é desconhecido ou isento de pena."
+        },
+        {
+          "id": "B",
+          "text": "não foi identificado, hipótese em que a receptação desaparece."
+        },
+        {
+          "id": "C",
+          "text": "é menor, hipótese que sempre torna a receptação atípica."
+        },
+        {
+          "id": "D",
+          "text": "não foi condenado definitivamente."
+        },
+        {
+          "id": "E",
+          "text": "restituiu a coisa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 180, § 4º, consagra autonomia em relação ao autor do antecedente."
+    },
+    {
+      "id": "u087-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei nº 15.397/2026, o art. 180-A alcança",
+      "options": [
+        {
+          "id": "A",
+          "text": "semovente domesticável de produção e também animal doméstico, nas condições legais."
+        },
+        {
+          "id": "B",
+          "text": "somente gado bovino."
+        },
+        {
+          "id": "C",
+          "text": "qualquer animal silvestre independentemente da origem."
+        },
+        {
+          "id": "D",
+          "text": "apenas carne já comercializada."
+        },
+        {
+          "id": "E",
+          "text": "somente animal pertencente ao Estado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A redação de 2026 ampliou expressamente o tipo para animal doméstico."
+    },
+    {
+      "id": "u087-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As escusas dos arts. 181 e 182 não se aplicam",
+      "options": [
+        {
+          "id": "A",
+          "text": "a roubo ou extorsão, ao estranho participante e a crime contra pessoa com 60 anos ou mais."
+        },
+        {
+          "id": "B",
+          "text": "a furto simples entre cônjuges em qualquer hipótese."
+        },
+        {
+          "id": "C",
+          "text": "a crime sem violência contra descendente, sempre."
+        },
+        {
+          "id": "D",
+          "text": "apenas quando o bem vale muito."
+        },
+        {
+          "id": "E",
+          "text": "somente quando houver reincidência."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "São exceções do art. 183."
+    },
+    {
+      "id": "u087-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O art. 183-A prevê",
+      "options": [
+        {
+          "id": "A",
+          "text": "aumento de 1/3 até o dobro para crimes do Título II cometidos contra instituições financeiras e certos prestadores de segurança privada."
+        },
+        {
+          "id": "B",
+          "text": "isenção de pena em qualquer crime bancário."
+        },
+        {
+          "id": "C",
+          "text": "apenas regra de competência."
+        },
+        {
+          "id": "D",
+          "text": "redução obrigatória de pena."
+        },
+        {
+          "id": "E",
+          "text": "ação privada exclusiva."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O dispositivo foi incluído pela Lei nº 14.967/2024."
+    },
+    {
+      "id": "u087-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Fraude à execução do art. 179",
+      "options": [
+        {
+          "id": "A",
+          "text": "possui ação penal mediante queixa."
+        },
+        {
+          "id": "B",
+          "text": "é sempre ação pública incondicionada."
+        },
+        {
+          "id": "C",
+          "text": "é furto qualificado."
+        },
+        {
+          "id": "D",
+          "text": "é modalidade de roubo."
+        },
+        {
+          "id": "E",
+          "text": "não integra o Título II."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O parágrafo único do art. 179 prevê queixa."
+    },
+    {
+      "id": "u087-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No crime de dano do art. 163, o núcleo é",
+      "options": [
+        {
+          "id": "A",
+          "text": "destruir, inutilizar ou deteriorar coisa alheia."
+        },
+        {
+          "id": "B",
+          "text": "subtrair coisa para si."
+        },
+        {
+          "id": "C",
+          "text": "obter vantagem induzindo vítima em erro."
+        },
+        {
+          "id": "D",
+          "text": "receber produto de crime."
+        },
+        {
+          "id": "E",
+          "text": "constranger vítima a pagar resgate."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Dano atinge integridade/utilidade do bem, sem núcleo de assenhoramento."
+    }
+  ]
+}
