@@ -22,11 +22,11 @@
 6. **Supremo Tribunal Federal. Súmula 145.** Flagrante preparado: não há crime quando a preparação policial torna impossível a consumação. A própria página oficial diferencia a preparação inválida da simples espera policial em precedentes selecionados.  
    https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2119
 
-7. **Supremo Tribunal Federal. ADIs 6.298, 6.299, 6.300 e 6.305 — julgamento conjunto concluído em 24/8/2023.** Entre os pontos proclamados, interpretação conforme do artigo 310, § 4º, para exigir avaliação judicial sobre prorrogação excepcional do prazo ou realização por videoconferência, sem leitura de relaxamento automático mecânico. A Lei 15.358/2026 posteriormente tornou a videoconferência a regra legal do caput.  
+7. **Supremo Tribunal Federal. Ações Diretas de Inconstitucionalidade 6.298, 6.299, 6.300 e 6.305 — julgamento conjunto concluído em 24/8/2023.** Entre os pontos proclamados, interpretação conforme do artigo 310, § 4º, para exigir avaliação judicial sobre prorrogação excepcional do prazo ou realização por videoconferência, sem leitura de relaxamento automático mecânico. A Lei 15.358/2026 posteriormente tornou a videoconferência a regra legal do caput.  
    https://portal.stf.jus.br/processos/listarProcessos.asp?classe=ADI&numeroProcesso=6300  
    https://legis.senado.leg.br/norma/37567193/publicacao/37567566
 
-8. **Superior Tribunal de Justiça. RHC 131.263/GO, Terceira Seção, Rel. Min. Sebastião Reis Júnior, julgado em 24/2/2021, DJe 15/4/2021, Informativo 686.** Após a Lei 13.964/2019, não cabe conversão de ofício da prisão em flagrante em preventiva sem a provocação legalmente exigida. O aprofundamento dos requisitos de preventiva pertence à U095.  
+8. **Superior Tribunal de Justiça. Recurso em Habeas Corpus 131.263, de Goiás, Terceira Seção, relator Ministro Sebastião Reis Júnior, julgado em 24/2/2021, publicado no Diário da Justiça eletrônico em 15/4/2021, Informativo 686.** Após a Lei 13.964/2019, não cabe conversão de ofício da prisão em flagrante em preventiva sem a provocação legalmente exigida. O aprofundamento dos requisitos de preventiva pertence à U095.  
    https://scon.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisar&aplicacao=informativo&livre=%40CNOT%3D%27018012%27
 
 ## Questões anteriores verificadas

@@ -14,7 +14,7 @@
 | III | perseguido **logo após** | impróprio |
 | IV | encontrado **logo depois** com elementos que façam presumir autoria | presumido |
 
-**Não existe teto geral de 24h para perseguição.**
+**Não existe teto geral de 24 horas para perseguição.**
 
 ## 303: crime permanente
 
@@ -28,7 +28,7 @@ Flagrante enquanto **não cessar a permanência**.
 
 ## <abbr title="Auto de Prisão em Flagrante">APF</abbr>
 
-Ordem básica do art. 304:
+Ordem básica do artigo 304:
 
 **condutor → testemunhas → acusado → lavratura do auto.**
 
@@ -40,20 +40,20 @@ O auto registra também existência de filhos, idades, eventual deficiência e r
 
 Sem escrivão: pessoa designada pela autoridade pode lavrar o auto após compromisso legal.
 
-## Art. 306: dois relógios
+## Artigo 306: dois relógios
 
 **Imediato:** comunicar prisão + local ao juiz, <abbr title="Ministério Público">MP</abbr> e família/pessoa indicada.
 
-**Até 24h:**
+**Até 24 horas:**
 - <abbr title="Auto de Prisão em Flagrante">APF</abbr> ao juiz;
 - cópia integral à Defensoria se não houver advogado informado;
 - nota de culpa ao preso.
 
 Nota de culpa = **motivo + condutor + testemunhas**.
 
-## Art. 310 no corte de 13/7/2026
+## Artigo 310 no corte de 13/7/2026
 
-Audiência de custódia em até **24h**, por **videoconferência em tempo real**.
+Audiência de custódia em até **24 horas**, por **videoconferência em tempo real**.
 
 Três saídas:
 1. prisão ilegal → **relaxa**;
@@ -64,7 +64,7 @@ Flagrante ≠ preventiva automática.
 
 § 4º: não decorar “estourou prazo = soltura automática”; há interpretação conforme do <abbr title="Supremo Tribunal Federal">STF</abbr> exigindo avaliação judicial da prorrogação excepcional.
 
-## Art. 310-A
+## Artigo 310-A
 
 Nas hipóteses legais, <abbr title="Ministério Público">MP</abbr> ou autoridade policial requer ao juiz coleta para perfil genético.
 
@@ -76,5 +76,5 @@ Nas hipóteses legais, <abbr title="Ministério Público">MP</abbr> ou autoridad
 ## Números para recuperar
 
 **2** testemunhas: apresentação sem testemunha ocular / leitura se acusado não assina.  
-**24h**: documentos do art. 306 e audiência do art. 310.  
-**10 dias**: janela subsidiária do art. 310-A.
+**24 horas**: documentos do artigo 306 e audiência do artigo 310.  
+**10 dias**: janela subsidiária do artigo 310-A.

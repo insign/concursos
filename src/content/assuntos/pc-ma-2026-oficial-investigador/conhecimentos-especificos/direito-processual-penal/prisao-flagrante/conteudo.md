@@ -401,22 +401,22 @@ Pergunta: o conhecimento prévio invalida automaticamente a prisão?
 | --- | --- |
 | Quem pode prender? | qualquer pessoa |
 | Quem deve prender, presentes os pressupostos? | autoridade policial e seus agentes |
-| Está cometendo/acabou de cometer | art. 302, I–II: próprio |
-| É perseguido logo após | art. 302, III: impróprio |
-| É encontrado logo depois com elementos incriminadores | art. 302, IV: presumido |
-| Há prazo fixo de 24h para perseguição? | não |
+| Está cometendo/acabou de cometer | artigo 302, I–II: próprio |
+| É perseguido logo após | artigo 302, III: impróprio |
+| É encontrado logo depois com elementos incriminadores | artigo 302, IV: presumido |
+| Há prazo fixo de 24 horas para perseguição? | não |
 | Crime permanente | flagrante enquanto durar a permanência |
 | Polícia só aguarda | pode ser flagrante esperado válido |
 | Polícia provoca e torna consumação impossível | flagrante preparado; Súmula 145/<abbr title="Supremo Tribunal Federal">STF</abbr> |
 | Sem testemunha ocular | <abbr title="Auto de Prisão em Flagrante">APF</abbr> possível; duas testemunhas da apresentação assinam com o condutor |
 | Acusado não assina | duas testemunhas que ouviram a leitura na presença dele |
 | Comunicação da prisão/local | imediata ao juiz, <abbr title="Ministério Público">MP</abbr> e família/pessoa indicada |
-| <abbr title="Auto de Prisão em Flagrante">APF</abbr> ao juiz | até 24h |
-| Cópia à Defensoria sem advogado informado | até 24h |
-| Nota de culpa | até 24h; motivo + condutor + testemunhas |
-| Audiência de custódia no corte 13/7/2026 | até 24h; videoconferência em tempo real |
+| <abbr title="Auto de Prisão em Flagrante">APF</abbr> ao juiz | até 24 horas |
+| Cópia à Defensoria sem advogado informado | até 24 horas |
+| Nota de culpa | até 24 horas; motivo + condutor + testemunhas |
+| Audiência de custódia no corte 13/7/2026 | até 24 horas; videoconferência em tempo real |
 | Três saídas principais | relaxar, converter em preventiva, conceder liberdade provisória |
-| Art. 310-A | requerimento de perfil genético nas hipóteses legais; preferência na audiência ou até 10 dias |
+| Artigo 310-A | requerimento de perfil genético nas hipóteses legais; preferência na audiência ou até 10 dias |
 
 # Pegadinhas finais
 
