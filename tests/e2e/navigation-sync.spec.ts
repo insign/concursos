@@ -296,7 +296,7 @@ test('captures scrolling after a semantic focus change before navigation is read
   await expect.poll(() => localReadingProgress(page), { timeout: 15_000 }).toBeGreaterThan(0.55);
 });
 
-test('normalizes a legacy remote reading route and resumes through #focus', async ({ page, kvStore }) => {
+test('keeps the root route and resumes a legacy remote reading route explicitly', async ({ page, kvStore }) => {
   kvStore.set(navigationDocumentId, {
     version: 6,
     createdAt: timestamp,
@@ -304,13 +304,17 @@ test('normalizes a legacy remote reading route and resumes through #focus', asyn
   });
 
   await page.goto('/');
+  await expect(page).toHaveURL(/127\.0\.0\.1:4321\/$/);
+  const resume = page.getByRole('button', { name: 'Retomar ponto mais recente' });
+  await expect(resume).toBeVisible({ timeout: 30_000 });
+  await resume.click();
   await expect(page).toHaveURL(new RegExp('/concursos/concurso-exemplo/assunto-exemplo/#focus$'), {
     timeout: 30_000,
   });
   await expect(page.getByRole('dialog', { name: 'Modo de leitura sem distrações' })).toBeVisible();
 });
 
-test('keeps the entry route reachable after an automatic resume', async ({ page, kvStore }) => {
+test('keeps the entry route reachable until the user chooses how to resume', async ({ page, kvStore }) => {
   kvStore.set(navigationDocumentId, {
     version: 4,
     createdAt: timestamp,
@@ -327,13 +331,88 @@ test('keeps the entry route reachable after an automatic resume', async ({ page,
   });
 
   await page.goto('/');
-  await expect(page).toHaveURL(/\/simulados\/$/, { timeout: 30_000 });
-
-  await page.goBack();
   await expect(page).toHaveURL(/127\.0\.0\.1:4321\/$/);
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
-  await page.waitForTimeout(3_000);
+  await expect(page.getByRole('button', { name: 'Retomar ponto mais recente' })).toBeVisible({
+    timeout: 30_000,
+  });
+  await page.getByRole('button', { name: 'Continuar aqui' }).click();
+  await expect.poll(() => (kvStore.get(navigationDocumentId)?.json as { route?: string } | undefined)?.route, {
+    timeout: 30_000,
+  }).toBe('/');
   await expect(page).toHaveURL(/127\.0\.0\.1:4321\/$/);
+});
+
+test('reoffers the initial resume after a reload before the user chooses', async ({ page, kvStore }) => {
+  kvStore.set(navigationDocumentId, {
+    version: 4,
+    createdAt: timestamp,
+    json: remoteNavigation('/simulados/', {
+      contestStorageId: null,
+      groupId: null,
+      subjectStorageId: null,
+      activeTab: 'simulados',
+      readingMode: false,
+      questionOrigin: null,
+      questionLayout: null,
+      shuffleQuestions: null,
+    }),
+  });
+
+  await page.goto('/');
+  const resume = page.getByRole('button', { name: 'Retomar ponto mais recente' });
+  await expect(resume).toBeVisible({ timeout: 30_000 });
+  expect(
+    await page.evaluate(
+      (profileId) => sessionStorage.getItem(`concursos:navigation-restored:${profileId}`),
+      alias,
+    ),
+  ).toBeNull();
+  await page.reload();
+  await expect(page).toHaveURL(/127\.0\.0\.1:4321\/$/);
+  expect(
+    await page.evaluate(
+      (profileId) => sessionStorage.getItem(`concursos:navigation-restored:${profileId}`),
+      alias,
+    ),
+  ).toBeNull();
+  await expect(resume).toBeVisible({ timeout: 30_000 });
+  await expect.poll(() => (kvStore.get(navigationDocumentId)?.json as { route?: string } | undefined)?.route, {
+    timeout: 30_000,
+  }).toBe('/simulados/');
+});
+
+test('keeps the initial offer after clicking a same-route header link', async ({ page, kvStore }) => {
+  kvStore.set(navigationDocumentId, {
+    version: 4,
+    createdAt: timestamp,
+    json: remoteNavigation('/simulados/', {
+      contestStorageId: null,
+      groupId: null,
+      subjectStorageId: null,
+      activeTab: 'simulados',
+      readingMode: false,
+      questionOrigin: null,
+      questionLayout: null,
+      shuffleQuestions: null,
+    }),
+  });
+
+  await page.goto('/');
+  const resume = page.getByRole('button', { name: 'Retomar ponto mais recente' });
+  await expect(resume).toBeVisible({ timeout: 30_000 });
+  await page.getByRole('link', { name: 'Catálogo' }).click();
+  await expect(page).toHaveURL(/127\.0\.0\.1:4321\/$/);
+  await expect(resume).toBeVisible({ timeout: 30_000 });
+  expect(
+    await page.evaluate(
+      (profileId) => sessionStorage.getItem(`concursos:navigation-restored:${profileId}`),
+      alias,
+    ),
+  ).toBeNull();
+  await expect.poll(() => (kvStore.get(navigationDocumentId)?.json as { route?: string } | undefined)?.route, {
+    timeout: 30_000,
+  }).toBe('/simulados/');
 });
 
 test('publishes a direct #focus deep link over an existing normal record', async ({ page, kvStore }) => {
@@ -364,6 +443,8 @@ test('restores route and questionnaire context on another viewport', async ({ pa
 
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto('/');
+  await expect(page).toHaveURL(/127\.0\.0\.1:4321\/$/);
+  await page.getByRole('button', { name: 'Retomar ponto mais recente' }).click();
   await expect(page).toHaveURL(new RegExp(`${questionsRoute.replaceAll('/', '\\/')}$`), { timeout: 30_000 });
   await expect(page.getByLabel('Blocos de dez')).toBeChecked();
   await expect(page.getByLabel('Concursos anteriores')).toBeChecked();
@@ -396,6 +477,8 @@ test('loads all questions until the saved question and keeps it in view', async 
   });
 
   await page.goto('/');
+  await expect(page).toHaveURL(/127\.0\.0\.1:4321\/$/);
+  await page.getByRole('button', { name: 'Retomar ponto mais recente' }).click();
   await expect(page).toHaveURL(new RegExp(`${questionsRoute.replaceAll('/', '\\/')}$`), { timeout: 30_000 });
   await expect(page.getByLabel('Todas', { exact: true })).toBeChecked();
   const target = page.locator(`[data-question-id="${questionId}"]`);

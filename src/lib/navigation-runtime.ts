@@ -403,9 +403,10 @@ export function startNavigationRuntime(): void {
   const pendingRouteKey = navigationPendingRouteKey(profileId);
   const pendingRoute = sessionStorage.getItem(pendingRouteKey);
   const shouldRestorePendingRoute = pendingRoute === routeAtStart;
-  const shouldResumeAutomatically = !sessionStorage.getItem(sessionKey) && routeAtStart === '/';
+  const shouldOfferInitialResume = !sessionStorage.getItem(sessionKey) && routeAtStart === '/';
+  const markSessionStarted = () => sessionStorage.setItem(sessionKey, String(Date.now()));
   sessionStorage.removeItem(pendingRouteKey);
-  sessionStorage.setItem(sessionKey, String(Date.now()));
+  if (routeAtStart !== '/') markSessionStarted();
 
   const offerUi = offerElements();
   const catalogPromise = loadNavigationCatalog().catch(() => null);
@@ -447,13 +448,13 @@ export function startNavigationRuntime(): void {
     offered = null;
   };
 
-  const showOffer = (document: NavigationDocument) => {
+  const showOffer = (document: NavigationDocument, localPending = false) => {
     offered = document;
     if (!offerUi) return;
     offerUi.message.textContent =
       document.route === currentRoute()
-        ? 'Há um ponto de leitura mais recente salvo em outro dispositivo.'
-        : 'Há uma navegação mais recente salva em outro dispositivo.';
+        ? `Há um ponto de leitura mais recente salvo ${localPending ? 'neste' : 'em outro'} dispositivo.`
+        : `Há uma navegação mais recente salva ${localPending ? 'neste' : 'em outro'} dispositivo.`;
     offerUi.root.hidden = false;
   };
 
@@ -788,7 +789,7 @@ export function startNavigationRuntime(): void {
     suppressedCaptureRequested = false;
     semanticCaptureRequested = false;
     hideOffer();
-    sessionStorage.setItem(navigationSessionKey(profileId), String(Date.now()));
+    markSessionStarted();
     const destination = navigationDestination(document);
     if (destination !== currentDestination()) {
       suppressCaptureUntil = Date.now() + RESTORE_CAPTURE_SUPPRESSION_MS;
@@ -812,6 +813,7 @@ export function startNavigationRuntime(): void {
     topNavigationPhase = 'idle';
     clearTopNavigationTimer();
     hideOffer();
+    markSessionStarted();
     void runSaveCurrent(true, true).then(() => synchronize(true));
   });
 
@@ -873,8 +875,28 @@ export function startNavigationRuntime(): void {
       !event.altKey &&
       !event.defaultPrevented
     ) {
-      explicitNavigation = true;
-      if (link.getAttribute('href') === '#study-top') beginTopNavigation();
+      if (link.getAttribute('href') === '#study-top') {
+        // Conta como navegação explícita (cancela restauração pendente), mas não
+        // consome a oferta inicial: não existe `#study-top` na rota `/`.
+        explicitNavigation = true;
+        beginTopNavigation();
+      } else {
+        // Um clique que não sai da rota atual (logo, Catálogo em `/`, âncoras)
+        // não consome a oferta inicial pendente nem conta como navegação explícita.
+        try {
+          const destination = new URL(link.href, location.href);
+          const leavesRoute =
+            destination.origin !== location.origin ||
+            `${destination.pathname}${destination.search}` !== currentRoute();
+          if (leavesRoute) {
+            explicitNavigation = true;
+            markSessionStarted();
+          }
+        } catch {
+          explicitNavigation = true;
+          markSessionStarted();
+        }
+      }
     }
     if (
       target.closest(
@@ -886,6 +908,7 @@ export function startNavigationRuntime(): void {
   });
   document.addEventListener('submit', () => {
     explicitNavigation = true;
+    markSessionStarted();
   });
   window.addEventListener('pagehide', () => {
     if ((explicitNavigation || semanticCaptureRequested) && suppressedCaptureRequested) {
@@ -991,23 +1014,16 @@ export function startNavigationRuntime(): void {
     const target = record ? catalogEntryForRoute(catalog, record.current.route) : null;
     const currentEntry =
       catalogEntryForRoute(catalog, currentRoute()) ?? documentEntryForCurrentRoute();
-    if (
-      shouldResumeAutomatically &&
+    const initialResumeOffered =
+      shouldOfferInitialResume &&
       !explicitNavigation &&
       record &&
       target &&
-      record.current.route !== currentRoute()
-    ) {
-      sessionStorage.setItem(pendingRouteKey, record.current.route);
-      navigationRedirectPending = true;
-      markNavigationPending();
-      // A retomada empilha o destino em vez de substituir a entrada da raiz: sem isso,
-      // voltar sairia do site (ou não faria nada na PWA) e o catálogo ficaria inacessível
-      // pelo histórico. A retomada automática já é consumida uma vez por sessão, então a
-      // volta para `/` não reaplica o redirecionamento.
-      announceNavigationReady(profileId);
-      location.assign(navigationDestination(record.current));
-      return;
+      record.current.route !== currentRoute();
+    if (initialResumeOffered) {
+      showOffer(record.current, record.outboxState === 'pending');
+    } else {
+      markSessionStarted();
     }
 
     if (record) {
@@ -1016,7 +1032,7 @@ export function startNavigationRuntime(): void {
       lastRemoteCreatedAt = record.remoteCreatedAt;
       if (
         !explicitNavigation &&
-        (shouldResumeAutomatically || shouldRestorePendingRoute) &&
+        shouldRestorePendingRoute &&
         target &&
         record.current.route === currentRoute()
       ) {
