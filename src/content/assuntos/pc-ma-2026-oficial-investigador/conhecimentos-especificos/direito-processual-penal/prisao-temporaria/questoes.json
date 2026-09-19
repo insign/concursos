@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u096-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a interpretação fixada pelo STF nas ADIs 3.360 e 4.109, a prisão temporária",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode ser decretada quando presente isoladamente qualquer um dos incisos do art. 1º da Lei 7.960/1989."
+        },
+        {
+          "id": "B",
+          "text": "exige o preenchimento cumulativo dos requisitos constitucionais fixados pelo STF."
+        },
+        {
+          "id": "C",
+          "text": "passou a depender exclusivamente da falta de residência fixa."
+        },
+        {
+          "id": "D",
+          "text": "é obrigatória sempre que houver crime grave."
+        },
+        {
+          "id": "E",
+          "text": "dispensa demonstração de necessidade da investigação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O STF deu interpretação conforme ao art. 1º e fixou cinco requisitos cumulativos para a decretação da temporária."
+    },
+    {
+      "id": "u096-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É compatível com a decisão do STF usar prisão temporária",
+      "options": [
+        {
+          "id": "A",
+          "text": "como prisão para averiguação, a fim de descobrir se o preso participou do crime."
+        },
+        {
+          "id": "B",
+          "text": "para pressionar o investigado a confessar."
+        },
+        {
+          "id": "C",
+          "text": "quando concretamente imprescindível à investigação e presentes os demais requisitos cumulativos."
+        },
+        {
+          "id": "D",
+          "text": "apenas porque o investigado não possui residência fixa."
+        },
+        {
+          "id": "E",
+          "text": "sem fundadas razões de autoria ou participação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A medida deve ser concretamente imprescindível à investigação; o STF vedou seu uso como prisão para averiguação e afastou a falta de residência fixa como fundamento isolado."
+    },
+    {
+      "id": "u096-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao rol de crimes do art. 1º, III, da Lei 7.960/1989, o STF estabeleceu que",
+      "options": [
+        {
+          "id": "A",
+          "text": "é exemplificativo e pode ser ampliado por analogia."
+        },
+        {
+          "id": "B",
+          "text": "é taxativo, sendo vedadas analogia e interpretação extensiva para ampliá-lo."
+        },
+        {
+          "id": "C",
+          "text": "foi integralmente revogado."
+        },
+        {
+          "id": "D",
+          "text": "abrange automaticamente todo crime com pena máxima superior a quatro anos."
+        },
+        {
+          "id": "E",
+          "text": "pode ser ampliado pela autoridade policial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O STF exigiu fundadas razões de autoria ou participação nos crimes do inciso III e vedou analogia ou interpretação extensiva para ampliar o rol."
+    },
+    {
+      "id": "u096-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os requisitos cumulativos fixados pelo STF para a prisão temporária está",
+      "options": [
+        {
+          "id": "A",
+          "text": "a existência de fatos novos ou contemporâneos que fundamentem a medida."
+        },
+        {
+          "id": "B",
+          "text": "o trânsito em julgado da condenação."
+        },
+        {
+          "id": "C",
+          "text": "a confissão do investigado."
+        },
+        {
+          "id": "D",
+          "text": "a prisão em flagrante anterior."
+        },
+        {
+          "id": "E",
+          "text": "a inexistência de defensor constituído."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Contemporaneidade é um dos cinco requisitos cumulativos definidos pelo STF."
+    },
+    {
+      "id": "u096-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A prisão temporária deve ser adequada",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas à pena abstrata prevista para o delito."
+        },
+        {
+          "id": "B",
+          "text": "à gravidade concreta do crime, às circunstâncias do fato e às condições pessoais do indiciado."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente à repercussão social do caso."
+        },
+        {
+          "id": "D",
+          "text": "ao interesse da imprensa."
+        },
+        {
+          "id": "E",
+          "text": "à conveniência genérica da investigação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Esse é o quarto requisito cumulativo fixado pelo STF nas ADIs 3360 e 4109."
+    },
+    {
+      "id": "u096-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se medidas cautelares diversas forem suficientes para proteger a investigação,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a prisão temporária continua obrigatória."
+        },
+        {
+          "id": "B",
+          "text": "falta um dos requisitos cumulativos para a prisão temporária."
+        },
+        {
+          "id": "C",
+          "text": "o juiz deve converter automaticamente a medida em preventiva."
+        },
+        {
+          "id": "D",
+          "text": "a autoridade policial pode ignorá-las."
+        },
+        {
+          "id": "E",
+          "text": "o prazo da temporária deve ser dobrado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A insuficiência das cautelares diversas é um dos requisitos cumulativos fixados pelo STF."
+    },
+    {
+      "id": "u096-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A prisão temporária é decretada pelo juiz",
+      "options": [
+        {
+          "id": "A",
+          "text": "de ofício, sem provocação."
+        },
+        {
+          "id": "B",
+          "text": "em face de representação da autoridade policial ou de requerimento do Ministério Público."
+        },
+        {
+          "id": "C",
+          "text": "somente a pedido do querelante."
+        },
+        {
+          "id": "D",
+          "text": "somente depois do oferecimento da denúncia."
+        },
+        {
+          "id": "E",
+          "text": "por determinação direta da autoridade policial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 2º da Lei 7.960/1989 prevê representação policial ou requerimento do Ministério Público; quem decreta é o juiz."
+    },
+    {
+      "id": "u096-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a autoridade policial representar pela prisão temporária, antes de decidir o juiz",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ouvir o Ministério Público."
+        },
+        {
+          "id": "B",
+          "text": "deve ouvir obrigatoriamente o querelante."
+        },
+        {
+          "id": "C",
+          "text": "deve aguardar o recebimento da denúncia."
+        },
+        {
+          "id": "D",
+          "text": "deve decretar a prisão sem fundamentação."
+        },
+        {
+          "id": "E",
+          "text": "deve remeter a decisão à autoridade policial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a regra expressa do art. 2º, §1º, da Lei 7.960/1989."
+    },
+    {
+      "id": "u096-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O despacho que decreta a prisão temporária deve ser fundamentado e prolatado",
+      "options": [
+        {
+          "id": "A",
+          "text": "em até 24 horas contadas do recebimento da representação ou do requerimento."
+        },
+        {
+          "id": "B",
+          "text": "em cinco dias contados da prática do crime."
+        },
+        {
+          "id": "C",
+          "text": "em trinta dias contados do inquérito."
+        },
+        {
+          "id": "D",
+          "text": "apenas após a denúncia."
+        },
+        {
+          "id": "E",
+          "text": "sem prazo legal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 2º, §2º, fixa 24 horas para a decisão judicial a partir do recebimento do pedido."
+    },
+    {
+      "id": "u096-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na regra geral da Lei 7.960/1989, a prisão temporária tem prazo",
+      "options": [
+        {
+          "id": "A",
+          "text": "de 5 dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+        },
+        {
+          "id": "B",
+          "text": "de 10 dias, sem possibilidade de prorrogação."
+        },
+        {
+          "id": "C",
+          "text": "de 30 dias, sempre prorrogável automaticamente."
+        },
+        {
+          "id": "D",
+          "text": "indeterminado."
+        },
+        {
+          "id": "E",
+          "text": "de 90 dias."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O caput do art. 2º estabelece 5 dias e uma prorrogação por igual período condicionada a extrema e comprovada necessidade."
+    },
+    {
+      "id": "u096-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos crimes abrangidos pelo art. 2º da Lei 8.072/1990, o prazo da prisão temporária é",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias, sem prorrogação."
+        },
+        {
+          "id": "B",
+          "text": "10 dias, prorrogáveis por 10."
+        },
+        {
+          "id": "C",
+          "text": "30 dias, prorrogáveis por igual período em caso de extrema e comprovada necessidade."
+        },
+        {
+          "id": "D",
+          "text": "60 dias, sem prorrogação."
+        },
+        {
+          "id": "E",
+          "text": "90 dias, prorrogáveis indefinidamente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 2º, §4º, da Lei 8.072/1990 prevê 30 dias, prorrogáveis por mais 30 em extrema e comprovada necessidade."
+    },
+    {
+      "id": "u096-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o mandado de prisão temporária, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A prisão pode ser executada antes da expedição do mandado, desde que exista representação policial."
+        },
+        {
+          "id": "B",
+          "text": "O mandado é expedido em duas vias e uma delas é entregue ao indiciado, servindo como nota de culpa."
+        },
+        {
+          "id": "C",
+          "text": "O mandado não precisa informar a duração da prisão."
+        },
+        {
+          "id": "D",
+          "text": "A nota de culpa é dispensada na prisão temporária."
+        },
+        {
+          "id": "E",
+          "text": "O mandado só é exigido para crimes hediondos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os §§4º e 5º do art. 2º exigem mandado judicial; são duas vias, uma entregue ao indiciado como nota de culpa."
+    },
+    {
+      "id": "u096-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei 13.869/2019, o mandado de prisão temporária deve conter",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas o nome do juiz."
+        },
+        {
+          "id": "B",
+          "text": "o período de duração da prisão e o dia em que o preso deverá ser libertado."
+        },
+        {
+          "id": "C",
+          "text": "a sentença definitiva."
+        },
+        {
+          "id": "D",
+          "text": "o resultado de todas as perícias."
+        },
+        {
+          "id": "E",
+          "text": "a pena a ser cumprida após condenação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O §4º-A determina expressamente que o mandado traga duração e dia da libertação."
+    },
+    {
+      "id": "u096-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Decorrido o prazo indicado no mandado de prisão temporária, a autoridade de custódia deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "aguardar nova ordem judicial em qualquer hipótese."
+        },
+        {
+          "id": "B",
+          "text": "libertar imediatamente o preso, salvo se já comunicada prorrogação da temporária ou decretação da preventiva."
+        },
+        {
+          "id": "C",
+          "text": "prorrogar a prisão por conta própria."
+        },
+        {
+          "id": "D",
+          "text": "converter automaticamente a prisão em preventiva."
+        },
+        {
+          "id": "E",
+          "text": "manter o preso por mais 24 horas para conferência administrativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 2º, §7º, impõe liberdade imediata independentemente de nova ordem, salvo as duas comunicações expressamente previstas."
+    },
+    {
+      "id": "u096-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No cômputo do prazo da prisão temporária,",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclui-se sempre o dia do cumprimento do mandado."
+        },
+        {
+          "id": "B",
+          "text": "inclui-se o dia do cumprimento do mandado."
+        },
+        {
+          "id": "C",
+          "text": "só contam dias úteis."
+        },
+        {
+          "id": "D",
+          "text": "o prazo começa após a audiência de custódia."
+        },
+        {
+          "id": "E",
+          "text": "o juiz escolhe livremente a forma de contagem."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 2º, §8º, incluído pela Lei 13.869/2019, manda incluir o dia do cumprimento."
+    },
+    {
+      "id": "u096-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei 7.960/1989 determina que os presos temporários",
+      "options": [
+        {
+          "id": "A",
+          "text": "permaneçam obrigatoriamente separados dos demais detentos."
+        },
+        {
+          "id": "B",
+          "text": "sejam mantidos necessariamente com presos preventivos."
+        },
+        {
+          "id": "C",
+          "text": "fiquem incomunicáveis."
+        },
+        {
+          "id": "D",
+          "text": "não possam receber assistência jurídica."
+        },
+        {
+          "id": "E",
+          "text": "sejam recolhidos exclusivamente a estabelecimento federal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 3º exige separação dos presos temporários em relação aos demais detentos."
+    },
+    {
+      "id": "u096-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Depois de decretada a prisão temporária, o juiz pode, inclusive de ofício,",
+      "options": [
+        {
+          "id": "A",
+          "text": "determinar apresentação do preso, solicitar informações e esclarecimentos e submetê-lo a exame de corpo de delito."
+        },
+        {
+          "id": "B",
+          "text": "prorrogar a prisão indefinidamente sem provocação."
+        },
+        {
+          "id": "C",
+          "text": "dispensar o mandado judicial."
+        },
+        {
+          "id": "D",
+          "text": "transformar a custódia em pena."
+        },
+        {
+          "id": "E",
+          "text": "incluir crime novo no rol do art. 1º, III."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 2º, §3º, permite essas providências de controle, o que não significa poder decretar a temporária de ofício."
+    },
+    {
+      "id": "u096-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O art. 5º da Lei 7.960/1989 prevê, para apreciação de pedidos de prisão temporária,",
+      "options": [
+        {
+          "id": "A",
+          "text": "plantão permanente de 24 horas do Poder Judiciário e do Ministério Público em todas as comarcas e seções judiciárias."
+        },
+        {
+          "id": "B",
+          "text": "plantão apenas da polícia aos finais de semana."
+        },
+        {
+          "id": "C",
+          "text": "decisão exclusiva de tribunal superior."
+        },
+        {
+          "id": "D",
+          "text": "suspensão dos pedidos fora do horário comercial."
+        },
+        {
+          "id": "E",
+          "text": "plantão facultativo segundo cada autoridade policial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a literalidade do art. 5º."
+    },
+    {
+      "id": "u096-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 3 da prova oral Cebraspe da Polícia Civil de Rondônia, concurso 2022, qual afirmação distingue corretamente prisão temporária e preventiva?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A temporária é própria da investigação e possui prazo legal predeterminado; a preventiva segue requisitos próprios do CPP e não possui prazo fixo automático."
+        },
+        {
+          "id": "B",
+          "text": "A preventiva só pode existir por cinco dias, e a temporária não tem prazo."
+        },
+        {
+          "id": "C",
+          "text": "Ambas exigem exatamente o mesmo rol taxativo de crimes."
+        },
+        {
+          "id": "D",
+          "text": "A temporária somente pode ser decretada durante a ação penal."
+        },
+        {
+          "id": "E",
+          "text": "A preventiva é obrigatoriamente convertida em temporária ao fim de 90 dias."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O padrão oficial diferenciou as medidas pela fase, requisitos e prazos. A questão foi convertida para múltipla escolha sem reprodução literal."
+    },
+    {
+      "id": "u096-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 21 da prova oral Cebraspe da Polícia Civil de Rondônia, concurso 2022, qual é o prazo da prisão temporária no regime da Lei 8.072/1990 para os crimes abrangidos pelo art. 2º?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias, improrrogáveis."
+        },
+        {
+          "id": "B",
+          "text": "10 dias, prorrogáveis uma vez por 10."
+        },
+        {
+          "id": "C",
+          "text": "30 dias, prorrogáveis por igual período em caso de extrema e comprovada necessidade."
+        },
+        {
+          "id": "D",
+          "text": "60 dias, prorrogáveis automaticamente."
+        },
+        {
+          "id": "E",
+          "text": "90 dias, sem possibilidade de prorrogação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O padrão oficial cobrou o prazo especial de 30 dias, prorrogável por mais 30, previsto no art. 2º, §4º, da Lei 8.072/1990. A formulação foi adaptada sem reprodução literal."
+    }
+  ]
+}
