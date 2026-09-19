@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u091-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A finalidade do processo penal pode ser corretamente compreendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "permitir o exercício juridicamente válido da jurisdição penal, com aplicação da lei e respeito às garantias processuais."
+        },
+        {
+          "id": "B",
+          "text": "antecipar a pena sempre que existir investigação."
+        },
+        {
+          "id": "C",
+          "text": "substituir o direito penal material."
+        },
+        {
+          "id": "D",
+          "text": "eliminar a necessidade de defesa quando a acusação for plausível."
+        },
+        {
+          "id": "E",
+          "text": "transformar todo inquérito policial em processo judicial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O processo é instrumento da jurisdição e também limite jurídico ao poder punitivo; não se confunde com pena nem com inquérito."
+    },
+    {
+      "id": "u091-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A instrumentalidade do processo penal significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o processo funciona como meio juridicamente regulado para o exercício da jurisdição penal."
+        },
+        {
+          "id": "B",
+          "text": "o processo é mera formalidade dispensável."
+        },
+        {
+          "id": "C",
+          "text": "o juiz pode ignorar garantias para alcançar a verdade."
+        },
+        {
+          "id": "D",
+          "text": "a investigação e a sentença são o mesmo ato."
+        },
+        {
+          "id": "E",
+          "text": "o direito processual não possui autonomia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Instrumentalidade não significa irrelevância: o procedimento é o meio juridicamente previsto para decidir a imputação."
+    },
+    {
+      "id": "u091-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O princípio do juiz natural combina",
+      "options": [
+        {
+          "id": "A",
+          "text": "competência previamente estabelecida e vedação de juízo ou tribunal de exceção."
+        },
+        {
+          "id": "B",
+          "text": "livre escolha do julgador após o fato."
+        },
+        {
+          "id": "C",
+          "text": "sigilo obrigatório de todo julgamento."
+        },
+        {
+          "id": "D",
+          "text": "iniciativa probatória ilimitada do juiz."
+        },
+        {
+          "id": "E",
+          "text": "presunção de culpa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Constituição reúne a vedação de tribunal de exceção e a exigência de autoridade competente nos incisos XXXVII e LIII do art. 5º."
+    },
+    {
+      "id": "u091-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Contraditório, em sentido processual, exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "ciência dos atos relevantes e possibilidade efetiva de participação e reação."
+        },
+        {
+          "id": "B",
+          "text": "apenas comunicação formal, sem possibilidade de resposta."
+        },
+        {
+          "id": "C",
+          "text": "decisão secreta e irrecorrível."
+        },
+        {
+          "id": "D",
+          "text": "confissão do acusado."
+        },
+        {
+          "id": "E",
+          "text": "substituição da defesa pelo juiz."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O contraditório não se reduz à notícia do ato; envolve possibilidade juridicamente adequada de influenciar a construção da decisão."
+    },
+    {
+      "id": "u091-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ampla defesa",
+      "options": [
+        {
+          "id": "A",
+          "text": "permite utilização dos meios defensivos juridicamente admitidos e não se confunde apenas com o direito pessoal ao silêncio."
+        },
+        {
+          "id": "B",
+          "text": "é dispensável no sistema acusatório."
+        },
+        {
+          "id": "C",
+          "text": "pertence apenas ao Ministério Público."
+        },
+        {
+          "id": "D",
+          "text": "impede qualquer decisão cautelar."
+        },
+        {
+          "id": "E",
+          "text": "é sinônimo de publicidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A defesa abrange dimensão técnica e participação pessoal do acusado; o silêncio é uma garantia específica, não a totalidade da ampla defesa."
+    },
+    {
+      "id": "u091-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A não culpabilidade prevista no art. 5º, LVII, da Constituição estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ninguém será considerado culpado até o trânsito em julgado de sentença penal condenatória."
+        },
+        {
+          "id": "B",
+          "text": "nenhuma cautelar é possível antes do trânsito em julgado."
+        },
+        {
+          "id": "C",
+          "text": "a acusação não precisa provar os fatos."
+        },
+        {
+          "id": "D",
+          "text": "todo investigado deve ser absolvido imediatamente."
+        },
+        {
+          "id": "E",
+          "text": "a prisão em flagrante equivale a condenação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A regra constitucional é de não culpabilidade até o trânsito em julgado; ela não torna impossível toda medida cautelar legalmente fundamentada."
+    },
+    {
+      "id": "u091-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O princípio nemo tenetur se detegere está ligado",
+      "options": [
+        {
+          "id": "A",
+          "text": "à proteção contra autoincriminação forçada e ao direito ao silêncio."
+        },
+        {
+          "id": "B",
+          "text": "à livre escolha do juiz."
+        },
+        {
+          "id": "C",
+          "text": "à obrigatoriedade de confessar."
+        },
+        {
+          "id": "D",
+          "text": "à publicidade irrestrita."
+        },
+        {
+          "id": "E",
+          "text": "à criação de tribunal de exceção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A expressão resume a proteção contra compelir alguém a produzir prova incriminadora contra si, relacionada ao art. 5º, LXIII."
+    },
+    {
+      "id": "u091-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Tema 907 do STF, a garantia de não autoincriminação",
+      "options": [
+        {
+          "id": "A",
+          "text": "não constitui imunidade geral contra todo dever legal, embora preserve o direito ao silêncio."
+        },
+        {
+          "id": "B",
+          "text": "autoriza descumprir qualquer obrigação legal."
+        },
+        {
+          "id": "C",
+          "text": "foi considerada inconstitucional."
+        },
+        {
+          "id": "D",
+          "text": "existe apenas depois da sentença."
+        },
+        {
+          "id": "E",
+          "text": "obriga a confissão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "No Tema 907, o STF considerou constitucional o art. 305 do CTB e afastou a leitura de que a não autoincriminação funcione como licença geral para descumprir deveres."
+    },
+    {
+      "id": "u091-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à publicidade processual, a Constituição",
+      "options": [
+        {
+          "id": "A",
+          "text": "adota-a como regra, admitindo restrições quando a intimidade ou o interesse social justificarem."
+        },
+        {
+          "id": "B",
+          "text": "impõe sigilo absoluto em todo processo penal."
+        },
+        {
+          "id": "C",
+          "text": "veda qualquer restrição à presença do público."
+        },
+        {
+          "id": "D",
+          "text": "torna facultativa a fundamentação."
+        },
+        {
+          "id": "E",
+          "text": "permite segredo por mera conveniência do julgador."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 5º, LX, admite restrições justificadas; o art. 93, IX, preserva publicidade e fundamentação das decisões."
+    },
+    {
+      "id": "u091-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A exigência constitucional de fundamentação significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a decisão judicial deve expor as razões jurídicas e fáticas que a sustentam."
+        },
+        {
+          "id": "B",
+          "text": "a sentença pode limitar-se ao resultado sem razões."
+        },
+        {
+          "id": "C",
+          "text": "somente decisões absolutórias precisam ser motivadas."
+        },
+        {
+          "id": "D",
+          "text": "a motivação pode ser substituída pela opinião pública."
+        },
+        {
+          "id": "E",
+          "text": "fundamentação e publicidade são exatamente o mesmo conceito."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 93, IX, exige decisões fundamentadas; publicidade trata de acesso/visibilidade, enquanto fundamentação trata das razões decisórias."
+    },
+    {
+      "id": "u091-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A duração razoável do processo",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ser buscada sem supressão das demais garantias do devido processo."
+        },
+        {
+          "id": "B",
+          "text": "autoriza eliminar a defesa para acelerar o julgamento."
+        },
+        {
+          "id": "C",
+          "text": "não possui previsão constitucional."
+        },
+        {
+          "id": "D",
+          "text": "exige sempre julgamento imediato."
+        },
+        {
+          "id": "E",
+          "text": "aplica-se apenas a processos administrativos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 5º, LXXVIII, assegura duração razoável e meios de celeridade, sem revogar contraditório, defesa ou fundamentação."
+    },
+    {
+      "id": "u091-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No sistema inquisitivo clássico, é característica típica",
+      "options": [
+        {
+          "id": "A",
+          "text": "a concentração de funções e o enfraquecimento da separação entre acusar e julgar."
+        },
+        {
+          "id": "B",
+          "text": "a separação rígida entre acusação e julgamento."
+        },
+        {
+          "id": "C",
+          "text": "contraditório pleno como eixo do modelo."
+        },
+        {
+          "id": "D",
+          "text": "juiz necessariamente passivo diante da prova."
+        },
+        {
+          "id": "E",
+          "text": "publicidade absoluta."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A concentração funcional é traço clássico do modelo inquisitivo, juntamente com maior iniciativa oficial e redução das garantias de participação."
+    },
+    {
+      "id": "u091-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No sistema acusatório, constitui elemento central",
+      "options": [
+        {
+          "id": "A",
+          "text": "a separação entre acusar e julgar, com juiz imparcial e defesa efetiva."
+        },
+        {
+          "id": "B",
+          "text": "o juiz exercer simultaneamente acusação e julgamento."
+        },
+        {
+          "id": "C",
+          "text": "a inexistência de contraditório."
+        },
+        {
+          "id": "D",
+          "text": "a confissão como prova soberana."
+        },
+        {
+          "id": "E",
+          "text": "o sigilo como regra absoluta."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Separação funcional, imparcialidade, contraditório e defesa integram a lógica acusatória."
+    },
+    {
+      "id": "u091-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na classificação doutrinária tradicional, o sistema misto",
+      "options": [
+        {
+          "id": "A",
+          "text": "combina uma fase preliminar de feição inquisitiva com fase de julgamento predominantemente acusatória."
+        },
+        {
+          "id": "B",
+          "text": "é sinônimo de sistema acusatório puro."
+        },
+        {
+          "id": "C",
+          "text": "elimina toda investigação preliminar."
+        },
+        {
+          "id": "D",
+          "text": "concentra sempre todas as funções no juiz em todas as fases."
+        },
+        {
+          "id": "E",
+          "text": "não admite defesa em nenhum momento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a descrição tradicional do modelo misto; no Brasil atual, a estrutura legal do processo deve ser lida a partir do art. 3º-A."
+    },
+    {
+      "id": "u091-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O art. 3º-A do Código de Processo Penal determina que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o processo penal terá estrutura acusatória, vedando iniciativa judicial na investigação e substituição da atuação probatória da acusação."
+        },
+        {
+          "id": "B",
+          "text": "o processo penal brasileiro terá estrutura inquisitiva."
+        },
+        {
+          "id": "C",
+          "text": "o juiz deverá conduzir a acusação."
+        },
+        {
+          "id": "D",
+          "text": "a defesa é facultativa."
+        },
+        {
+          "id": "E",
+          "text": "o inquérito substitui o processo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a literalidade estrutural trazida pela Lei nº 13.964/2019."
+    },
+    {
+      "id": "u091-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No julgamento das ADIs 6.298, 6.299, 6.300 e 6.305, o STF entendeu que o art. 3º-A",
+      "options": [
+        {
+          "id": "A",
+          "text": "é compatível com diligências suplementares pontuais do juiz, quando legalmente autorizadas e voltadas a dúvida relevante ao mérito."
+        },
+        {
+          "id": "B",
+          "text": "autoriza o juiz a substituir livremente a acusação."
+        },
+        {
+          "id": "C",
+          "text": "foi integralmente declarado inconstitucional."
+        },
+        {
+          "id": "D",
+          "text": "permite iniciativa judicial irrestrita na investigação."
+        },
+        {
+          "id": "E",
+          "text": "elimina a necessidade de imparcialidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O STF deu interpretação conforme: a estrutura acusatória permanece e diligências judiciais suplementares só cabem pontualmente nos limites legais."
+    },
+    {
+      "id": "u091-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A existência de características inquisitivas na investigação preliminar",
+      "options": [
+        {
+          "id": "A",
+          "text": "não torna, por si só, o processo judicial brasileiro inquisitivo."
+        },
+        {
+          "id": "B",
+          "text": "revoga o art. 3º-A."
+        },
+        {
+          "id": "C",
+          "text": "elimina contraditório e defesa na fase judicial."
+        },
+        {
+          "id": "D",
+          "text": "faz do juiz o acusador obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "impede aplicação da Constituição."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Investigação e processo não são sinônimos; a estrutura legal do processo judicial é acusatória."
+    },
+    {
+      "id": "u091-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A inadmissibilidade de prova obtida por meio ilícito",
+      "options": [
+        {
+          "id": "A",
+          "text": "é garantia constitucional e será aprofundada no estudo específico da prova."
+        },
+        {
+          "id": "B",
+          "text": "não existe no processo penal brasileiro."
+        },
+        {
+          "id": "C",
+          "text": "só vale depois do trânsito em julgado."
+        },
+        {
+          "id": "D",
+          "text": "pode ser afastada por conveniência do julgador."
+        },
+        {
+          "id": "E",
+          "text": "é característica exclusiva do sistema inquisitivo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 5º, LVI, prevê a inadmissibilidade; a disciplina probatória detalhada pertence à U093."
+    },
+    {
+      "id": "u091-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 31 da prova Cebraspe PC/CE — Delegado 2025, o princípio que reúne a exigência de autoridade previamente competente e a proibição de tribunais de exceção é",
+      "options": [
+        {
+          "id": "A",
+          "text": "juiz natural."
+        },
+        {
+          "id": "B",
+          "text": "persuasão racional."
+        },
+        {
+          "id": "C",
+          "text": "não culpabilidade."
+        },
+        {
+          "id": "D",
+          "text": "publicidade."
+        },
+        {
+          "id": "E",
+          "text": "duração razoável."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A questão original teve gabarito definitivo C, correspondente a 'princípio do juiz natural'. A adaptação remapeia as alternativas sem copiar o texto."
+    },
+    {
+      "id": "u091-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 48 da matriz Cebraspe PC/PE — Delegado 2023/2024, assinale a característica compatível com o sistema inquisitivo clássico.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Concentração das funções de acusar e julgar e redução do contraditório."
+        },
+        {
+          "id": "B",
+          "text": "Separação rígida entre acusação e julgamento."
+        },
+        {
+          "id": "C",
+          "text": "Defesa plena como eixo estruturante."
+        },
+        {
+          "id": "D",
+          "text": "Publicidade necessária de todos os atos."
+        },
+        {
+          "id": "E",
+          "text": "Iniciativa probatória exclusivamente das partes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na questão original, apenas os itens sobre concentração de poder no julgador e centralidade histórica da confissão estavam corretos; gabarito definitivo A."
+    },
+    {
+      "id": "u091-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 49 da matriz Cebraspe PC/PE — Delegado 2023/2024, a descrição tradicional do sistema misto é",
+      "options": [
+        {
+          "id": "A",
+          "text": "fase preliminar de feição inquisitiva e fase de julgamento predominantemente acusatória."
+        },
+        {
+          "id": "B",
+          "text": "duas fases integralmente inquisitivas."
+        },
+        {
+          "id": "C",
+          "text": "uma única fase sem separação funcional."
+        },
+        {
+          "id": "D",
+          "text": "fase preliminar acusatória e julgamento secreto sem contraditório."
+        },
+        {
+          "id": "E",
+          "text": "modelo sem investigação preliminar."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alternativa correta original foi D: instrução preliminar inquisitiva e julgamento de predominância acusatória. Esta versão preserva o núcleo sem reprodução literal."
+    }
+  ]
+}
