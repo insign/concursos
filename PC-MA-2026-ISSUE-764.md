@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U097; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U098; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 60 | 0 | 98 |
-| Entregáveis de unidade C/H/Q | 474 | 180 | 0 | 294 |
+| Unidades reais previstas | 158 | 59 | 0 | 99 |
+| Entregáveis de unidade C/H/Q | 474 | 177 | 0 | 297 |
 | Tarefas macro individualizadas | 62 | 27 | 0 | 35 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U097`, `U101` e `U144` = **98 unidades**. Pendentes: `U075`, `U098–U100`, `U102–U143`, `U145–U158` = **60 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U098`, `U101` e `U144` = **99 unidades**. Pendentes: `U075`, `U099–U100`, `U102–U143`, `U145–U158` = **59 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **100 = 83 físicas locais + 17 vínculos canônicos**. U097 acrescentou uma visão física local; os demais números foram preservados. Não confundir 100 visões materializadas com 98 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **101 = 84 físicas locais + 17 vínculos canônicos**. U098 acrescentou uma visão física local; os demais números foram preservados. Não confundir 101 visões materializadas com 99 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
 Reservas ativas na transferência: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U098 — Estado, Governo e Administração pública**, C/H/Q `pending`, conforme o planejamento materializado de PC-E12 abaixo. U101 permanece `done`; PC-E12-C/H/Q continua `pending` enquanto as demais unidades U098–U100 e U102–U111 não forem concluídas.
+**Próxima ação editorial: U099 — Organização administrativa da União**, C/H/Q `pending`. U098 foi concluída e confirmada na `main`; U101 permanece `done`; PC-E12-C/H/Q continua `pending` enquanto U099–U100 e U102–U111 não forem concluídas.
 
 ### Pendências e divergências herdadas
 
@@ -384,7 +384,7 @@ Classificação PC-R02 recebida: **U101 parcial**; **U098–U100 e U102–U111 n
 
 | Edital | ID / título / slug | Recorte, dependências e fronteiras | Origem / evidência | C | H | Q |
 |---|---|---|---|---|---|---|
-| 1 | U098 — Estado, Governo e Administração pública — `estado-governo-administracao-publica` | Conceitos de Estado, Governo e Administração pública; elementos, poderes e organização; natureza, fins e princípios. Abre o bloco e fornece vocabulário para U099, U102, U105–U107 | nova/local; sem doador integral | pending | pending | pending |
+| 1 | U098 — Estado, Governo e Administração pública — `estado-governo-administracao-publica` | Conceitos de Estado, Governo e Administração pública; elementos, poderes e organização; natureza, fins e princípios. Abre o bloco e fornece vocabulário para U099, U102, U105–U107 | nova/local; sem doador integral | done | done | done |
 | 2 | U099 — Organização administrativa da União — `organizacao-administrativa-uniao` | Administração direta e indireta da União. Depende da moldura U098; não absorver os regimes estaduais e policiais de U108–U111 | nova/local; sem doador integral | pending | pending | pending |
 | 3 | U100 — Regime dos servidores públicos civis federais — Lei 8.112/1990 — `servidores-publicos-federais-lei-8112` | Lei nº 8.112/1990 e alterações no recorte integral do edital. Regime federal; não fundir com a Lei estadual 6.107/1994 (U109) nem com estatutos policiais | nova/local; sem doador integral | pending | pending | pending |
 | 4 | U101 — Licitações: modalidades, dispensa e inexigibilidade — `licitacoes-modalidades-dispensa-inexigibilidade` | Lei nº 14.133/2021 e alterações: modalidades, dispensa e inexigibilidade. Preservar escopo e identidade já publicados; não ampliar para contratos administrativos sem item próprio no edital | parcial/local já aceita; C `837374eb88b0919369d8bcda66be71def6958c0f`; H `cb2afe7cdd060531319c3ee846be248c05d2329c`; R `4f90cd51576e4ba1531f5326f1123c5632b6d41e`; Q `fbea66d7513b5d28e40f505a039afa0d494cf402` | done | done | done |
@@ -454,6 +454,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U095 | `680ccfb3e6c995b918565c5729d8cfe61b84aa07` | 19 + 1 | Cebraspe MPCE 2025, Cargo 11 Técnico Ministerial, item 114 E |
 | U096 | `4ac2386f44e1bff76fb15922617ce2c3bd2f5930` | 18 + 2 | Cebraspe PC-RO 2022, prova oral Direito Penal/Processual Penal, questão 3; prova oral Legislação Penal/Processual Penal Extravagante, questão 21 |
 | U097 | `410c1788e80911c78f9782f06b7c829f1c7f1bb0` | 19 + 1 | Cebraspe PC-ES 2022, Delegado de Polícia, questão 32 D |
+| U098 | `da9620d0db63aa21bcb093fd2aa88b1833386113` | 19 + 1 | Cebraspe DPE-PA 2021, Defensor Público, prova discursiva P3, questão 1, com padrão definitivo |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -501,22 +502,21 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U095 | `c10cded5430f4b52a5d262abcc8cd293c8a9939b` | `48a74b559f154a1f3b6502f952eb6bb4242a76cf` | `7396164763cb6a1bc4e311b1211f37b5890de675` | `90735c2fdacd49170588ea8996ff80b4b2e7ccdc` |
 | U096 | `0c327148769f1fe20616e91a8dd030bb2d9a902a` | `df7f14bc957d8fa0d6483bd6cfc53258949305db` | `ed54aca7ea3d0cb86c404a11b2d384977b15c7d8` | `d4c0a39b2cc18182990fe1e65cc8092906bb7997` |
 | U097 | `cafb301bd4879b455ea50922f344362678edc5a9` | `36cd2f24c01c91bbe0a19c1b60f34b7b77255a25` | `d2d64f346ed8c770a3057d34ebc5a27bbc1ce59c` | `6762da7d94ee931488c1c5a37645f6bdaa02a092` |
+| U098 | `563269a10a754b2561d5e996a0d5b51c53435ade` | `4a2999a123db1b89afb11759d9cd9042a7306d60` | `e5fa6b2d85d98a18d9cdd2cf6f1b5565e8f2b844` | `2a8e891d2349593cc043839ec4700c13981b5ed0` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`.
 
-### Último aceite — U097
+### Último aceite — U098
 
-Pacote de Outras medidas cautelares, com núcleo nos artigos 282, 283, § 1º, 319 e 320 do Código de Processo Penal e pontes mínimas para liberdade provisória/fiança: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u097`, `order: 97`. Commit editorial `410c1788e80911c78f9782f06b7c829f1c7f1bb0`. Base de publicação: `3f9b21425a5580d96f51ae1a0f957aad59ba202a`.
+Pacote de Estado, Governo e Administração pública: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u098`, `order: 98`. Commit editorial `da9620d0db63aa21bcb093fd2aa88b1833386113`. Base de publicação: `72838b029522f31ec1170ecaf5e94ecf283b86fb`.
 
-Foram publicados quatro arquivos novos, sem `vinculo.json` e sem resoluções separadas: aula integral, revisão rápida, referências e 20 questões objetivas — **19 autorais + 1 adaptação não literal de questão anterior verificada**. Os blobs finais constam na tabela acima. O material renderizado soma **15 marcações `abbr` balanceadas** entre conteúdo, cheat sheet e referências; o JSON de questões permanece em texto puro, sem HTML.
+Foram publicados quatro arquivos novos, sem `vinculo.json` e sem resoluções separadas: aula integral, revisão rápida, referências e 20 questões objetivas — **19 autorais + 1 adaptação não literal de prova anterior verificada**. Os blobs finais constam na tabela acima. O material renderizado soma **10 marcações `abbr` balanceadas** entre conteúdo, cheat sheet e referências; o JSON de questões permanece em texto puro, sem HTML.
 
-Recorte e fronteiras: necessidade/adequação, cumulação, provocação, contraditório prévio, descumprimento, revogação/substituição e subsidiariedade do artigo 282; barreira do artigo 283, § 1º; nove medidas do artigo 319; saída do País e passaporte do artigo 320; ponte curta dos artigos 321, 322 e 331 para liberdade provisória e fiança. Flagrante, preventiva e temporária permanecem nas U094–U096; prisão domiciliar dos artigos 317–318-B não foi absorvida; regimes protetivos especiais do Título IX-A não foram confundidos com o Capítulo V.
+Recorte e fronteiras: conceitos e contraste entre Estado, Governo e Administração pública; elementos do Estado; soberania versus autonomia; Poderes e funções típicas/atípicas; Administração em sentidos subjetivo/objetivo e amplo/estrito; organização político-administrativa mínima; natureza instrumental, fins públicos e princípios do artigo 37 da Constituição, com complemento do artigo 2º da Lei 9.784/1999. Organização direta/indireta da União permanece na U099; atos administrativos na U102; poderes administrativos na U105; controle na U106; responsabilidade civil na U107.
 
-Fontes revalidadas: Código de Processo Penal compilado; Lei 12.403/2011; Lei 13.964/2019; Resolução 213/2015 do Conselho Nacional de Justiça; Recurso em Habeas Corpus 210.487/SC do Superior Tribunal de Justiça; Agravo Regimental no Habeas Corpus 1.025.388/RJ, Quinta Turma, publicado em 11/5/2026; Agravo Regimental no Habeas Corpus 1.075.947/PE, Sexta Turma, publicado em 25/5/2026; e Cebraspe PC-ES 2022, Delegado, questão 32, gabarito D. A divergência entre Quinta e Sexta Turmas sobre imposição de preventiva quando o Ministério Público pediu apenas cautelares diversas foi preservada, sem escolher silenciosamente um entendimento.
+Fontes revalidadas: Constituição compilada, especialmente artigos 1º, 2º, 18 e 37; Lei 9.784/1999; Decreto-Lei 200/1967 como apoio estrutural; materiais institucionais da Escola Nacional de Administração Pública; Cebraspe DPE-PA 2021, prova discursiva P3 questão 1 e padrão definitivo; Cebraspe IPAJM 2010, questão 26, apenas como controle adicional de cobertura. Não foi localizada origem canônica, vínculo ou doador físico integral compatível na auditoria da `main`.
 
-Corte legislativo preservado em **13/7/2026**; os dispositivos centrais de artigos 319–320 permanecem na redação da reforma de 2011 e as regras processuais do artigo 282 refletem a Lei 13.964/2019. Os precedentes usados antecedem 13/7/2026. Consulta/revalidação em 19/9/2026.
-
-Com U097 aceita, **PC-E11 — Direito Processual Penal — U091–U097** passa integralmente a C/H/Q `done`.
+Corte legislativo preservado em **13/7/2026**. A consulta de 19/9/2026 não projetou sobre a aula alterações posteriores ao corte. Próxima unidade habilitada: U099 — Organização administrativa da União.
 
 ### Registros operacionais superados
 
