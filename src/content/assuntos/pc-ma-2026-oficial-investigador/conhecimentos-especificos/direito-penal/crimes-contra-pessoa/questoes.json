@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u086-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No corte de 13/7/2026, o feminicídio no Código Penal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualificadora ainda situada no art. 121, § 2º, VI."
+        },
+        {
+          "id": "B",
+          "text": "crime autônomo previsto no art. 121-A."
+        },
+        {
+          "id": "C",
+          "text": "contravenção penal."
+        },
+        {
+          "id": "D",
+          "text": "forma de lesão corporal seguida de morte."
+        },
+        {
+          "id": "E",
+          "text": "crime previsto apenas na Lei Maria da Penha."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei nº 14.994/2024 tornou o feminicídio crime autônomo no art. 121-A e revogou a antiga previsão qualificadora do art. 121."
+    },
+    {
+      "id": "u086-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O vicaricídio do art. 121-B caracteriza-se, em síntese, quando o agente",
+      "options": [
+        {
+          "id": "A",
+          "text": "mata mulher por menosprezo à condição feminina."
+        },
+        {
+          "id": "B",
+          "text": "mata pessoa ligada à mulher, em contexto doméstico/familiar, com finalidade específica de causar à mulher sofrimento, punição ou controle."
+        },
+        {
+          "id": "C",
+          "text": "mata qualquer parente por motivo fútil."
+        },
+        {
+          "id": "D",
+          "text": "ameaça familiar da mulher sem causar morte."
+        },
+        {
+          "id": "E",
+          "text": "provoca lesão culposa em dependente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei nº 15.384/2026 criou o art. 121-B com vítima intermediária ligada à mulher e finalidade específica de atingi-la psicologicamente."
+    },
+    {
+      "id": "u086-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O homicídio privilegiado pode coexistir, segundo a jurisprudência do STJ, com",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualificadora objetiva compatível com a circunstância subjetiva do privilégio."
+        },
+        {
+          "id": "B",
+          "text": "qualquer qualificadora subjetiva contraditória."
+        },
+        {
+          "id": "C",
+          "text": "feminicídio autônomo como se ainda fosse inciso do art. 121."
+        },
+        {
+          "id": "D",
+          "text": "apenas homicídio culposo."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma qualificadora em hipótese alguma."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O STJ admite homicídio privilegiado-qualificado quando a qualificadora é objetiva e não existe incompatibilidade lógica com o privilégio subjetivo."
+    },
+    {
+      "id": "u086-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual situação corresponde a lesão corporal de natureza grave, e não gravíssima?",
+      "options": [
+        {
+          "id": "A",
+          "text": "perda definitiva de um membro."
+        },
+        {
+          "id": "B",
+          "text": "aborto."
+        },
+        {
+          "id": "C",
+          "text": "deformidade permanente."
+        },
+        {
+          "id": "D",
+          "text": "debilidade permanente de membro, sentido ou função."
+        },
+        {
+          "id": "E",
+          "text": "incapacidade permanente para o trabalho."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Debilidade permanente está no art. 129, § 1º. Perda/inutilização, deformidade permanente, aborto e incapacidade permanente para o trabalho estão no § 2º."
+    },
+    {
+      "id": "u086-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na lesão corporal seguida de morte do art. 129, § 3º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o agente quer ou assume o risco do resultado morte."
+        },
+        {
+          "id": "B",
+          "text": "a morte ocorre sem que o agente a queira ou assuma o risco de produzi-la."
+        },
+        {
+          "id": "C",
+          "text": "não existe dolo na lesão inicial."
+        },
+        {
+          "id": "D",
+          "text": "o fato é necessariamente homicídio culposo."
+        },
+        {
+          "id": "E",
+          "text": "o resultado morte é irrelevante."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É estrutura preterdolosa: dolo na agressão antecedente e ausência de dolo, inclusive eventual, quanto à morte."
+    },
+    {
+      "id": "u086-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No art. 129, § 9º, vigente em 13/7/2026, a Lei nº 15.455/2026",
+      "options": [
+        {
+          "id": "A",
+          "text": "já havia incluído a relação de trabalho doméstico entre as situações previstas."
+        },
+        {
+          "id": "B",
+          "text": "ainda não estava em vigor."
+        },
+        {
+          "id": "C",
+          "text": "havia revogado toda violência doméstica."
+        },
+        {
+          "id": "D",
+          "text": "havia transformado a lesão em contravenção."
+        },
+        {
+          "id": "E",
+          "text": "tratava apenas de crimes patrimoniais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 15.455 é de 1º/7/2026 e estava vigente antes do corte, incluindo referência a pessoa/relação de trabalho doméstico no § 9º."
+    },
+    {
+      "id": "u086-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula 542 do STJ, a ação penal relativa à lesão corporal resultante de violência doméstica contra a mulher é",
+      "options": [
+        {
+          "id": "A",
+          "text": "privada."
+        },
+        {
+          "id": "B",
+          "text": "pública condicionada à representação."
+        },
+        {
+          "id": "C",
+          "text": "pública incondicionada."
+        },
+        {
+          "id": "D",
+          "text": "subsidiária da pública."
+        },
+        {
+          "id": "E",
+          "text": "sempre dependente de requisição ministerial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Súmula 542/STJ fixa natureza pública incondicionada para lesão corporal no contexto de violência doméstica contra a mulher."
+    },
+    {
+      "id": "u086-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença correta entre os arts. 130 e 131 é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o art. 131 exige finalidade específica de transmitir moléstia grave; o art. 130 possui estrutura própria relativa a moléstia venérea."
+        },
+        {
+          "id": "B",
+          "text": "ambos exigem necessariamente morte da vítima."
+        },
+        {
+          "id": "C",
+          "text": "o art. 130 só existe se houver efetivo contágio."
+        },
+        {
+          "id": "D",
+          "text": "o art. 131 trata de abandono de incapaz."
+        },
+        {
+          "id": "E",
+          "text": "nenhum deles tutela a saúde."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 131 exige fim específico de transmitir moléstia grave e ato capaz de contágio; o art. 130 possui redação própria para exposição a moléstia venérea."
+    },
+    {
+      "id": "u086-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime do art. 134 diferencia-se do abandono de incapaz porque exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "recém-nascido e finalidade de ocultar desonra própria."
+        },
+        {
+          "id": "B",
+          "text": "vítima necessariamente maior de 60 anos."
+        },
+        {
+          "id": "C",
+          "text": "relação de trabalho doméstico."
+        },
+        {
+          "id": "D",
+          "text": "resultado morte em todos os casos."
+        },
+        {
+          "id": "E",
+          "text": "participação de três agentes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 134 é tipo especial de exposição/abandono de recém-nascido com finalidade específica de ocultar desonra própria."
+    },
+    {
+      "id": "u086-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em relação à rixa, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quem ingressa apenas para separar os contendores está expressamente ressalvado pelo tipo."
+        },
+        {
+          "id": "B",
+          "text": "Rixa exige apenas duas pessoas em agressão unilateral."
+        },
+        {
+          "id": "C",
+          "text": "A ocorrência de lesão grave torna toda participação impune."
+        },
+        {
+          "id": "D",
+          "text": "É crime exclusivamente patrimonial."
+        },
+        {
+          "id": "E",
+          "text": "Só há crime se houver morte."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 137 pune participar de rixa, salvo para separar os contendores."
+    },
+    {
+      "id": "u086-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A associação correta entre crimes contra a honra é",
+      "options": [
+        {
+          "id": "A",
+          "text": "calúnia = fato falso definido como crime; difamação = fato ofensivo à reputação; injúria = ofensa à dignidade ou decoro."
+        },
+        {
+          "id": "B",
+          "text": "calúnia = qualquer xingamento; difamação = somente imputação de crime; injúria = fato necessariamente verdadeiro."
+        },
+        {
+          "id": "C",
+          "text": "os três exigem imputação de crime falso."
+        },
+        {
+          "id": "D",
+          "text": "difamação tutela apenas patrimônio."
+        },
+        {
+          "id": "E",
+          "text": "injúria exige comunicação a terceiro em todos os casos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O mapa distingue honra objetiva e subjetiva e o conteúdo específico de cada tipo."
+    },
+    {
+      "id": "u086-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A retratação cabal antes da sentença, no art. 143, isenta de pena nos crimes de",
+      "options": [
+        {
+          "id": "A",
+          "text": "calúnia e difamação."
+        },
+        {
+          "id": "B",
+          "text": "injúria apenas."
+        },
+        {
+          "id": "C",
+          "text": "ameaça e perseguição."
+        },
+        {
+          "id": "D",
+          "text": "calúnia, difamação e injúria indistintamente."
+        },
+        {
+          "id": "E",
+          "text": "lesão corporal e homicídio."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 143 menciona calúnia e difamação, não injúria."
+    },
+    {
+      "id": "u086-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A intimidação sistemática do art. 146-A exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "conduta intencional e repetitiva/sistemática nas formas descritas em lei."
+        },
+        {
+          "id": "B",
+          "text": "necessariamente um único ato isolado."
+        },
+        {
+          "id": "C",
+          "text": "sempre lesão corporal grave."
+        },
+        {
+          "id": "D",
+          "text": "apenas prática no ambiente escolar."
+        },
+        {
+          "id": "E",
+          "text": "somente meio digital."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A repetição/sistematicidade integra o tipo básico de bullying. O cyberbullying é modalidade digital com pena própria."
+    },
+    {
+      "id": "u086-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime de perseguição do art. 147-A",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige reiteração da conduta."
+        },
+        {
+          "id": "B",
+          "text": "configura-se necessariamente por ato único."
+        },
+        {
+          "id": "C",
+          "text": "é sinônimo de ameaça simples."
+        },
+        {
+          "id": "D",
+          "text": "não pode ocorrer por meio digital."
+        },
+        {
+          "id": "E",
+          "text": "dispensa perturbação de liberdade, privacidade ou integridade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O verbo típico exige perseguir reiteradamente; padrão oficial Cebraspe de 2025 destacou que ato único é insuficiente."
+    },
+    {
+      "id": "u086-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o art. 147-B, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Lei nº 15.123/2025 aumenta a pena pela metade se o crime usa inteligência artificial ou tecnologia que altere imagem ou som da vítima."
+        },
+        {
+          "id": "B",
+          "text": "trata apenas de lesão física."
+        },
+        {
+          "id": "C",
+          "text": "foi revogado antes do corte."
+        },
+        {
+          "id": "D",
+          "text": "não protege autodeterminação da mulher."
+        },
+        {
+          "id": "E",
+          "text": "não admite meio tecnológico."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A causa de aumento foi incluída em 2025 e estava plenamente vigente no corte."
+    },
+    {
+      "id": "u086-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O art. 149, redução à condição análoga à de escravo,",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode configurar-se por trabalho forçado, jornada exaustiva, condições degradantes ou restrição de locomoção por dívida."
+        },
+        {
+          "id": "B",
+          "text": "exige necessariamente cárcere físico com correntes."
+        },
+        {
+          "id": "C",
+          "text": "protege apenas patrimônio."
+        },
+        {
+          "id": "D",
+          "text": "só se aplica a criança."
+        },
+        {
+          "id": "E",
+          "text": "não alcança retenção de documentos para manter o trabalhador no local."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O caput descreve quatro modalidades principais, e o § 1º equipara meios de retenção como vigilância ostensiva e retenção de documentos/objetos."
+    },
+    {
+      "id": "u086-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para o tráfico de pessoas do art. 149-A, não basta movimentar ou alojar alguém; o tipo exige também",
+      "options": [
+        {
+          "id": "A",
+          "text": "meio como grave ameaça, violência, coação, fraude ou abuso e uma das finalidades específicas legais."
+        },
+        {
+          "id": "B",
+          "text": "resultado morte em todos os casos."
+        },
+        {
+          "id": "C",
+          "text": "vítima estrangeira obrigatoriamente."
+        },
+        {
+          "id": "D",
+          "text": "crime antecedente de lavagem."
+        },
+        {
+          "id": "E",
+          "text": "somente finalidade de exploração sexual."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O tipo combina verbos, meios ilícitos e finalidades taxativamente indicadas, que incluem exploração sexual, trabalho análogo ao escravo, servidão, adoção ilegal e remoção de órgãos."
+    },
+    {
+      "id": "u086-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No art. 150, a expressão casa compreende",
+      "options": [
+        {
+          "id": "A",
+          "text": "compartimento habitado, aposento ocupado de habitação coletiva e compartimento profissional não aberto ao público."
+        },
+        {
+          "id": "B",
+          "text": "qualquer praça pública."
+        },
+        {
+          "id": "C",
+          "text": "toda taverna enquanto aberta."
+        },
+        {
+          "id": "D",
+          "text": "qualquer rua."
+        },
+        {
+          "id": "E",
+          "text": "apenas imóvel de propriedade da vítima."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 4º define casa de forma funcional e não depende de propriedade; o § 5º traz exclusões."
+    },
+    {
+      "id": "u086-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A invasão de dispositivo informático do art. 154-A",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode atingir dispositivo de uso alheio conectado ou não à rede, desde que presentes os fins típicos."
+        },
+        {
+          "id": "B",
+          "text": "exige conexão à internet."
+        },
+        {
+          "id": "C",
+          "text": "é crime contra o patrimônio situado no Título II."
+        },
+        {
+          "id": "D",
+          "text": "não abrange obtenção de dados."
+        },
+        {
+          "id": "E",
+          "text": "é mera contravenção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A redação legal expressamente alcança dispositivo conectado ou não à rede."
+    },
+    {
+      "id": "u086-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da peça prático-profissional Cebraspe/PC-CE para Delegado, aplicada em 2025, um agente agride levemente a vítima, promete voltar para matá-la e havia entrado em sua residência contra a vontade do morador. Sem considerar outros delitos do caso original, a combinação típica pertinente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "lesão corporal, ameaça e violação de domicílio, conforme os requisitos de cada tipo."
+        },
+        {
+          "id": "B",
+          "text": "somente homicídio tentado."
+        },
+        {
+          "id": "C",
+          "text": "apenas injúria."
+        },
+        {
+          "id": "D",
+          "text": "apenas rixa."
+        },
+        {
+          "id": "E",
+          "text": "somente omissão de socorro."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O padrão definitivo da PC-CE/2025 identificou, no cenário original, lesão corporal, ameaça e violação de domicílio qualificada. A adaptação preserva apenas essa classificação material."
+    },
+    {
+      "id": "u086-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de questão discursiva Cebraspe/PC-CE de 2025 sobre perseguição, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A reiteração é elemento indispensável do art. 147-A; um ato isolado não configura perseguição, embora possa constituir outro delito."
+        },
+        {
+          "id": "B",
+          "text": "Um único ato sempre basta para stalking."
+        },
+        {
+          "id": "C",
+          "text": "O art. 147-A exige necessariamente contato físico."
+        },
+        {
+          "id": "D",
+          "text": "Perseguição não pode ocorrer pela internet."
+        },
+        {
+          "id": "E",
+          "text": "O tipo não tutela privacidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O padrão oficial Cebraspe destacou expressamente a reiteração como condição indispensável da perseguição."
+    },
+    {
+      "id": "u086-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 8 da prova discursiva Cebraspe/PC-MA para Delegado, aplicada em 2018, a lesão corporal praticada em contexto de violência doméstica contra a mulher",
+      "options": [
+        {
+          "id": "A",
+          "text": "depende sempre de representação."
+        },
+        {
+          "id": "B",
+          "text": "é processada mediante ação penal pública incondicionada, conforme entendimento consolidado."
+        },
+        {
+          "id": "C",
+          "text": "é necessariamente ação privada."
+        },
+        {
+          "id": "D",
+          "text": "depende de queixa-crime mesmo se grave."
+        },
+        {
+          "id": "E",
+          "text": "é atípica se a vítima se retratar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O padrão definitivo da PC-MA/2018 aplicou a orientação da ADI 4.424/STF e da Súmula 542/STJ: lesão corporal doméstica contra a mulher é de ação pública incondicionada."
+    }
+  ]
+}
