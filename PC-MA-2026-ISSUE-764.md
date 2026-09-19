@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U094; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U095; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 63 | 0 | 95 |
-| Entregáveis de unidade C/H/Q | 474 | 189 | 0 | 285 |
+| Unidades reais previstas | 158 | 62 | 0 | 96 |
+| Entregáveis de unidade C/H/Q | 474 | 186 | 0 | 288 |
 | Tarefas macro individualizadas | 62 | 30 | 0 | 32 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U094`, `U101` e `U144` = **95 unidades**. Pendentes: `U075`, `U095–U100`, `U102–U143`, `U145–U158` = **63 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U095`, `U101` e `U144` = **96 unidades**. Pendentes: `U075`, `U096–U100`, `U102–U143`, `U145–U158` = **62 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **97 = 80 físicas locais + 17 vínculos canônicos**. U094 acrescentou uma visão física local; os demais números foram preservados. Não confundir 97 visões materializadas com 95 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **98 = 81 físicas locais + 17 vínculos canônicos**. U095 acrescentou uma visão física local; os demais números foram preservados. Não confundir 98 visões materializadas com 96 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
 Reservas ativas na transferência: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U095 — Prisão preventiva**, C/H/Q `pending`. U094 foi concluída e confirmada na `main`; PC-E11-C/H/Q permanece `pending` porque U095–U097 ainda não estão completas.
+**Próxima ação editorial: U096 — Prisão temporária**, C/H/Q `pending`. U095 foi concluída e confirmada na `main`; PC-E11-C/H/Q permanece `pending` porque U096–U097 ainda não estão completas.
 
 ### Pendências e divergências herdadas
 
@@ -366,7 +366,7 @@ Planejamento de 19/09/2026, token `PC-E11-PLANEJAMENTO-20260919-01`, base `28346
 | 2 | U092 — Inquérito policial — `inquerito-policial` | Depende da moldura U091; Lei 12.830/2013 fica em PC-E14 além da ponte indispensável | done | done | done |
 | 3 | U093 — Prova no processo penal — `prova-processo-penal` | Artigos 158–250 do Código de Processo Penal; depende de U091; artigos 155–157 apenas como ponte, técnicas digitais na U031 e leis especiais fora do núcleo | done | done | done |
 | 4, primeira ocorrência | U094 — Prisão em flagrante — `prisao-flagrante` | Depende de U091; separar captura em flagrante de fundamento autônomo de preventiva | done | done | done |
-| 4, segunda ocorrência | U095 — Prisão preventiva — `prisao-preventiva` | Fronteiras com U094, U096 e cautelares diversas U097; preservar a duplicação de numeração | pending | pending | pending |
+| 4, segunda ocorrência | U095 — Prisão preventiva — `prisao-preventiva` | Fronteiras com U094, U096 e cautelares diversas U097; preservar a duplicação de numeração | done | done | done |
 | 5 | U096 — Prisão temporária — `prisao-temporaria` | Lei 7.960/1989 e alterações; não fundir requisitos e prazos com preventiva | pending | pending | pending |
 | 6 | U097 — Outras medidas cautelares — `outras-medidas-cautelares` | Cautelares diversas; fecha o bloco sem duplicar flagrante, preventiva ou temporária | pending | pending | pending |
 
@@ -419,6 +419,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U092 | `948e60afc095cc9fa964d2e2358af2a21eb728b7` | 19 + 3 | PC-PE 2023, questão 17; PM-RO 2022, questões 21–22 |
 | U093 | `20ff4172c93b0ca6f04edf5f55c5604e027d881f` | 20 + 2 | PF Delegado 2025, oral questão 4; PC-MA Delegado, discursiva questão 7, aplicação registrada em 22/6/2025 |
 | U094 | `be07f3244da716a2bbfdade3b43e2b826f4c46ae` | 18 + 2 | PC-RO 2022, prova oral de Direito Penal e Direito Processual Penal, questão 7; PF Delegado 2025, peça profissional, aplicação 27/7/2025 |
+| U095 | `680ccfb3e6c995b918565c5729d8cfe61b84aa07` | 19 + 1 | Cebraspe MPCE 2025, Cargo 11 Técnico Ministerial, item 114 E |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -463,18 +464,21 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U092 | `7afe860d0f6dd474774dc8c5cade2eb8cdb642c8` | `2a6f90b4dbccde7993709de27808df7e924c7bcf` | `48808df01fb4f3c9c2478165e0a989f764d94f8f` | `d6c802eef975e8ccdf23c62be7f2d0a57de198fa` |
 | U093 | `514a163e1778a22bd15e846339cede3cdef7d4ec` | `183e5583c18c7094a042ad3765f7ae0288a32cff` | `2d633a49fdca6464aaae08e6a1d067d96b2c92c9` | `12a33d33ab5ee62b866c7f9d4a774f26534fe87e` |
 | U094 | `b947c309b5b5b2a3b5b7cf057ea8259d2cda040a` | `db418ce459684418de4ec3e0732d74f679cfb811` | `b59a006b45110defa32c77056b51caaad1402c7c` | `ba00fc909e9740d96cf7b3b30b3926e1ea7d22e0` |
+| U095 | `c10cded5430f4b52a5d262abcc8cd293c8a9939b` | `48a74b559f154a1f3b6502f952eb6bb4242a76cf` | `7396164763cb6a1bc4e311b1211f37b5890de675` | `90735c2fdacd49170588ea8996ff80b4b2e7ccdc` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`.
 
-### Último aceite — U094
+### Último aceite — U095
 
-Pacote de Prisão em flagrante, artigos 301–310-A do Código de Processo Penal: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u094`, `order: 94`. Commit editorial `afa7ecfd6b10446f65570d7bd3fa7b4f89909f4f`, seguido da normalização do microglossário no commit `be07f3244da716a2bbfdade3b43e2b826f4c46ae`. Base de publicação: `94bdd71c9956143655626f5dad285f4549343b8d`.
+Pacote de Prisão preventiva, artigos 311–316 do Código de Processo Penal, com a ponte do artigo 282, § 6º: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u095`, `order: 95`. Commit editorial `680ccfb3e6c995b918565c5729d8cfe61b84aa07`. Base de publicação: `210ebff9207e6d364f2fb4ca9daebc3a04781ecc`.
 
-Foram publicados quatro arquivos novos, sem `vinculo.json` e sem resoluções separadas: aula integral, revisão rápida, referências e 20 questões objetivas — **18 autorais + 2 adaptações não literais de provas anteriores verificadas**. Os blobs finais constam na tabela acima. O material renderizado soma **38 marcações `abbr`** entre conteúdo, cheat sheet e referências; o JSON de questões permanece em texto puro, sem HTML.
+Foram publicados quatro arquivos novos, sem `vinculo.json` e sem resoluções separadas: aula integral, revisão rápida, referências e 20 questões objetivas — **19 autorais + 1 adaptação não literal de questão anterior verificada**. Os blobs finais constam na tabela acima. O material renderizado soma **24 marcações `abbr` balanceadas** entre conteúdo, cheat sheet e referências; o JSON de questões permanece em texto puro, sem HTML.
 
-Recorte e fronteiras: hipóteses dos artigos 301–303, formalização dos artigos 304–309, comunicações, direitos, audiência de custódia e decisões do artigo 310, além do artigo 310-A. Requisitos completos de preventiva permanecem em U095; temporária em U096; outras cautelares/fiança em U097; flagrante retardado em legislação especial permanece em PC-E14. A aula diferencia flagrante esperado, preparado e forjado e preserva a Súmula 145 do Supremo Tribunal Federal.
+Recorte e fronteiras: provocação do artigo 311; requisitos, fundamentos, contemporaneidade e critérios de periculosidade do artigo 312; admissibilidade e limites do artigo 313; excludentes do artigo 314; fundamentação do artigo 315; revogação e revisão do artigo 316; subsidiariedade do artigo 282, § 6º. Flagrante permanece na U094, temporária na U096 e cautelares diversas na U097. Prisão domiciliar a partir do artigo 317 não foi antecipada para este núcleo.
 
-Fontes revalidadas: Código de Processo Penal e Constituição compilados; Leis 15.272/2025 e 15.358/2026; Resolução 213/2015 do Conselho Nacional de Justiça; Súmula 145 e julgamento conjunto das Ações Diretas de Inconstitucionalidade 6.298, 6.299, 6.300 e 6.305; Recurso em Habeas Corpus 131.263 do Superior Tribunal de Justiça; e padrões oficiais Cebraspe da Polícia Civil de Rondônia 2022 e Polícia Federal 2025. Corte legislativo preservado em **13/7/2026**; consulta/revalidação em 19/9/2026. A redação de 2026 do artigo 310, com audiência de custódia por videoconferência em tempo real, foi incorporada; alteração posterior ao corte não foi usada para modificar esta unidade.
+Fontes revalidadas: Código de Processo Penal e Constituição compilados; Leis 15.272/2025 e 15.358/2026; Lei 15.487/2026 apenas para registrar a alteração posterior ao corte; Recurso em Habeas Corpus 131.263 do Superior Tribunal de Justiça; Agravo Regimental no Habeas Corpus 1.042.140/MS, publicado em 24/3/2026; Ações Diretas de Inconstitucionalidade 6.581 e 6.582 do Supremo Tribunal Federal; e Cebraspe MPCE 2025, Técnico Ministerial, item 114, com gabarito definitivo E.
+
+Corte legislativo preservado em **13/7/2026**: o inciso V do artigo 313, incluído pela Lei 15.358/2026, foi ensinado; o atual inciso VI, acrescentado pela Lei 15.487/2026 em agosto, foi explicitamente excluído como regra cobrável da campanha. Os precedentes usados no corpo foram publicados antes de 13/7/2026, sem normalizar a divergência documental geral sobre corte jurisprudencial já preservada na seção 2. Consulta/revalidação em 19/9/2026.
 
 ### Registros operacionais superados
 
