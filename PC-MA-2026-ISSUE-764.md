@@ -59,7 +59,7 @@ Visões consumidoras registradas: **100 = 83 físicas locais + 17 vínculos can�
 
 Reservas ativas na transferência: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: PC-E12 — Direito Administrativo.** Antes da próxima produção, materializar no arquivo os recortes individuais ainda ausentes de U098–U100 e U102–U111, preservando U101 `done`; em seguida selecionar a primeira unidade habilitada pela ordem publicada.
+**Próxima ação editorial: U098 — Estado, Governo e Administração pública**, C/H/Q `pending`, conforme o planejamento materializado de PC-E12 abaixo. U101 permanece `done`; PC-E12-C/H/Q continua `pending` enquanto as demais unidades U098–U100 e U102–U111 não forem concluídas.
 
 ### Pendências e divergências herdadas
 
@@ -371,6 +371,38 @@ Planejamento de 19/09/2026, token `PC-E11-PLANEJAMENTO-20260919-01`, base `28346
 | 6 | U097 — Outras medidas cautelares — `outras-medidas-cautelares` | Cautelares diversas; fecha o bloco sem duplicar flagrante, preventiva ou temporária | done | done | done |
 
 Cada célula representa a tarefa U091-C/H/Q até U097-C/H/Q. As 21 tarefas pertencem às 474 já contabilizadas. PC-E11-C/H/Q estão `done`: U091–U097 possuem C/H/Q completos e evidência na `main`.
+
+### Direito Administrativo — PC-E12 / U098–U111
+
+Planejamento materializado em 19/09/2026, token `PC-E12-PLANEJAMENTO-20260919-01`, base `5de063419c301922bf94607915af69df1dc9d889`. Fonte: Edital nº 1 — PCMA — Investigador, de 13/07/2026, item 20.2.3, seção **DIREITO ADMINISTRATIVO**. Esta organização é decisão editorial nova para tornar executáveis os 14 IDs U098–U111 já previstos; **não restaura uma divisão histórica perdida**.
+
+Grupo já publicado: `conhecimentos-especificos/direito-administrativo/`, título `Direito Administrativo`, ordem 3, blob `f5227b3a62d3c822fc56c1323d4194f2c13dd93e`. Consumidor comum: `pc-ma-2026-oficial-investigador` / `pcma-2026-invest`. Identidades `pc-u098`–`pc-u111`, ordens 98–111. Destinos: prefixo físico PC-MA + grupo + slug.
+
+A distribuição preserva literalmente os **13 itens** do edital. Para compatibilizá-los com os **14 IDs** já reservados no planejamento, somente o item **9** é desdobrado: U106 cobre controle administrativo/judicial/legislativo e U107 cobre responsabilidade civil do Estado. São regimes independentes, com objetivos, fontes e jurisprudência próprios; o desdobramento evita uma aula excessivamente heterogênea sem duplicar cobertura. Nenhum ID novo foi criado e U101 foi preservada exatamente como publicada.
+
+Classificação PC-R02 recebida: **U101 parcial**; **U098–U100 e U102–U111 novas**. Para as unidades novas, não há SHA doadora. Para U101, a classificação parcial é preservada, mas o doador/SHA antigo não é recuperável no estado autoritativo atual e **não foi inventado**; o pacote físico já aceito na `main` é a evidência corrente.
+
+| Edital | ID / título / slug | Recorte, dependências e fronteiras | Origem / evidência | C | H | Q |
+|---|---|---|---|---|---|---|
+| 1 | U098 — Estado, Governo e Administração pública — `estado-governo-administracao-publica` | Conceitos de Estado, Governo e Administração pública; elementos, poderes e organização; natureza, fins e princípios. Abre o bloco e fornece vocabulário para U099, U102, U105–U107 | nova/local; sem doador integral | pending | pending | pending |
+| 2 | U099 — Organização administrativa da União — `organizacao-administrativa-uniao` | Administração direta e indireta da União. Depende da moldura U098; não absorver os regimes estaduais e policiais de U108–U111 | nova/local; sem doador integral | pending | pending | pending |
+| 3 | U100 — Regime dos servidores públicos civis federais — Lei 8.112/1990 — `servidores-publicos-federais-lei-8112` | Lei nº 8.112/1990 e alterações no recorte integral do edital. Regime federal; não fundir com a Lei estadual 6.107/1994 (U109) nem com estatutos policiais | nova/local; sem doador integral | pending | pending | pending |
+| 4 | U101 — Licitações: modalidades, dispensa e inexigibilidade — `licitacoes-modalidades-dispensa-inexigibilidade` | Lei nº 14.133/2021 e alterações: modalidades, dispensa e inexigibilidade. Preservar escopo e identidade já publicados; não ampliar para contratos administrativos sem item próprio no edital | parcial/local já aceita; C `837374eb88b0919369d8bcda66be71def6958c0f`; H `cb2afe7cdd060531319c3ee846be248c05d2329c`; R `4f90cd51576e4ba1531f5326f1123c5632b6d41e`; Q `fbea66d7513b5d28e40f505a039afa0d494cf402` | done | done | done |
+| 5; 5.1–5.7 | U102 — Atos administrativos — `atos-administrativos` | Conceito, requisitos, elementos, pressupostos, classificação; fato e ato; espécies; cassação; revogação/anulação; processo administrativo; validade, eficácia e autoexecutoriedade. Depende de U098 | nova/local; sem doador integral | pending | pending | pending |
+| 6 | U103 — Regime dos funcionários policiais civis da União e do Distrito Federal — Lei 4.878/1965 — `regime-policiais-civis-uniao-df-lei-4878` | Lei nº 4.878/1965 e alterações, **como literalmente exigida pelo edital**. Auditar vigência e aplicabilidade no corte durante a produção; não substituir silenciosamente pelo regime da PC-MA | nova/local; sem doador integral | pending | pending | pending |
+| 7 | U104 — Improbidade administrativa — Lei 8.429/1992 — `improbidade-administrativa-lei-8429` | Sanções aos agentes públicos nos casos descritos pelo item 7 e Lei nº 8.429/1992 com alterações. Preservar a formulação literal do edital e revalidar a redação legal vigente no corte | nova/local; sem doador integral | pending | pending | pending |
+| 8 | U105 — Poderes administrativos — `poderes-administrativos` | Poder hierárquico, disciplinar, regulamentar, poder de polícia, uso e abuso do poder. Depende do mapa institucional de U098; não duplicar controle de U106 | nova/local; sem doador integral | pending | pending | pending |
+| 9 — controle | U106 — Controle da Administração pública — `controle-administracao-publica` | Controle administrativo, judicial e legislativo. Desdobramento editorial do primeiro núcleo do item 9; dialoga com U105, mas não absorve responsabilidade civil | nova/local; sem doador integral | pending | pending | pending |
+| 9 — responsabilização | U107 — Responsabilidade civil do Estado — `responsabilidade-civil-estado` | Responsabilidade civil do Estado. Desdobramento editorial do segundo núcleo do item 9; regime material próprio, sem repetir modalidades de controle de U106 | nova/local; sem doador integral | pending | pending | pending |
+| 10 | U108 — Estatuto da Polícia Civil do Estado do Maranhão — Lei Estadual 8.508/2006 — `estatuto-policia-civil-maranhao-lei-8508` | Lei Estadual nº 8.508/2006 e alterações. Regime policial estadual; fronteira com U109, U110 e U111 deve ser explicitada por assunto | nova/local; sem doador integral | pending | pending | pending |
+| 11 | U109 — Regime jurídico único dos servidores públicos civis do Maranhão — Lei Estadual 6.107/1994 — `regime-juridico-servidores-maranhao-lei-6107` | Lei Estadual nº 6.107/1994 e alterações. Regime geral estadual; não duplicar o estatuto policial específico de U108 | nova/local; sem doador integral | pending | pending | pending |
+| 12 | U110 — Organização administrativa da Polícia Civil do Maranhão — Lei Estadual 10.238/2015 — `organizacao-policia-civil-maranhao-lei-10238` | Lei Estadual nº 10.238/2015 e alterações. Organização administrativa da PC-MA; ponte com U099 apenas para conceitos gerais, sem substituir a lei estadual | nova/local; sem doador integral | pending | pending | pending |
+| 13 | U111 — Lei Orgânica Nacional das Polícias Civis — Lei 14.735/2023 — `lei-organica-nacional-policias-civis-lei-14735` | Lei nº 14.735/2023 no recorte integral exigido. Norma nacional; explicar articulação com U108–U110 sem fundir os diplomas | nova/local; sem doador integral | pending | pending | pending |
+
+**Ordem habilitada:** U098 é a primeira unidade pendente do bloco e não possui dependência editorial anterior não concluída. U101 deve ser pulada por estar `done`. A produção subsequente segue U099, U100, U102–U111, salvo dependência material comprovada ou pedido explícito.
+
+**Controle de corte:** todas as unidades usam corte legislativo de **13/7/2026** e a regra jurisprudencial registrada na seção 3. As leis estaduais/federais citadas devem ser revalidadas na produção; eventual revogação, alteração, conflito aparente ou problema de aplicabilidade será explicitado sem corrigir o edital silenciosamente.
+
 
 ## 8. Evidências de publicação e aceite transferidas
 
