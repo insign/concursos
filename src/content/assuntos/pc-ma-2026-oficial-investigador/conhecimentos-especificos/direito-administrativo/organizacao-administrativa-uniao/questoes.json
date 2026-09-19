@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u099-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No plano federal, a Administração Direta compreende, segundo o Decreto-Lei 200/1967,",
+      "options": [
+        {
+          "id": "A",
+          "text": "os serviços integrados na estrutura da Presidência da República e dos Ministérios."
+        },
+        {
+          "id": "B",
+          "text": "somente autarquias e fundações."
+        },
+        {
+          "id": "C",
+          "text": "todas as empresas controladas pelo poder público."
+        },
+        {
+          "id": "D",
+          "text": "apenas sociedades de economia mista."
+        },
+        {
+          "id": "E",
+          "text": "particulares concessionários."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 4º, I, do Decreto-Lei 200/1967 define assim a Administração Direta federal."
+    },
+    {
+      "id": "u099-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Integram a Administração Indireta federal na matriz do Decreto-Lei 200/1967",
+      "options": [
+        {
+          "id": "A",
+          "text": "autarquias, empresas públicas, sociedades de economia mista e fundações públicas."
+        },
+        {
+          "id": "B",
+          "text": "Presidência da República e Ministérios apenas."
+        },
+        {
+          "id": "C",
+          "text": "Ministérios e secretarias exclusivamente."
+        },
+        {
+          "id": "D",
+          "text": "Poder Legislativo e Poder Judiciário como pessoas jurídicas separadas da União."
+        },
+        {
+          "id": "E",
+          "text": "concessionárias privadas automaticamente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 4º, II, lista essas quatro categorias de entidades dotadas de personalidade jurídica própria."
+    },
+    {
+      "id": "u099-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distinção básica entre órgão e entidade administrativa é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o órgão, em regra, não possui personalidade jurídica própria, enquanto a entidade possui."
+        },
+        {
+          "id": "B",
+          "text": "todo órgão possui capital social."
+        },
+        {
+          "id": "C",
+          "text": "toda entidade integra a Administração Direta."
+        },
+        {
+          "id": "D",
+          "text": "órgão é sempre autarquia."
+        },
+        {
+          "id": "E",
+          "text": "entidade nunca possui patrimônio próprio."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Órgão é centro de competências dentro de uma pessoa jurídica; entidade possui personalidade jurídica própria."
+    },
+    {
+      "id": "u099-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A criação de um novo departamento dentro de um Ministério, sem surgimento de pessoa jurídica, constitui",
+      "options": [
+        {
+          "id": "A",
+          "text": "desconcentração administrativa."
+        },
+        {
+          "id": "B",
+          "text": "descentralização para autarquia."
+        },
+        {
+          "id": "C",
+          "text": "criação de empresa pública."
+        },
+        {
+          "id": "D",
+          "text": "privatização."
+        },
+        {
+          "id": "E",
+          "text": "criação de sociedade de economia mista."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A distribuição interna de competências na mesma pessoa jurídica caracteriza desconcentração."
+    },
+    {
+      "id": "u099-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na classificação doutrinária tradicional, a criação de uma autarquia federal corresponde a",
+      "options": [
+        {
+          "id": "A",
+          "text": "descentralização, pois surge pessoa jurídica distinta da União."
+        },
+        {
+          "id": "B",
+          "text": "mera concentração interna."
+        },
+        {
+          "id": "C",
+          "text": "criação de órgão sem personalidade."
+        },
+        {
+          "id": "D",
+          "text": "delegação a particular."
+        },
+        {
+          "id": "E",
+          "text": "extinção da Administração Indireta."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A autarquia possui personalidade própria e integra a Administração Indireta."
+    },
+    {
+      "id": "u099-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação entre a União e uma autarquia federal é corretamente descrita como",
+      "options": [
+        {
+          "id": "A",
+          "text": "vinculação e supervisão nos limites legais, e não simples hierarquia interna."
+        },
+        {
+          "id": "B",
+          "text": "subordinação hierárquica idêntica à de um departamento ministerial."
+        },
+        {
+          "id": "C",
+          "text": "ausência total de controle."
+        },
+        {
+          "id": "D",
+          "text": "relação exclusivamente privada."
+        },
+        {
+          "id": "E",
+          "text": "relação entre duas pessoas políticas soberanas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Personalidade própria afasta a hierarquia interna; o Decreto-Lei 200 prevê vinculação e supervisão ministerial."
+    },
+    {
+      "id": "u099-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos termos do artigo 37, XIX, da Constituição, a autarquia",
+      "options": [
+        {
+          "id": "A",
+          "text": "é criada por lei específica."
+        },
+        {
+          "id": "B",
+          "text": "é criada por decreto após autorização legal."
+        },
+        {
+          "id": "C",
+          "text": "surge apenas com registro empresarial."
+        },
+        {
+          "id": "D",
+          "text": "depende de contrato social."
+        },
+        {
+          "id": "E",
+          "text": "é autorizada por portaria ministerial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Constituição usa o verbo criar para a autarquia: somente lei específica pode criá-la."
+    },
+    {
+      "id": "u099-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Empresa pública é, segundo a Lei 13.303/2016,",
+      "options": [
+        {
+          "id": "A",
+          "text": "pessoa jurídica de direito privado, com criação autorizada por lei e capital social integralmente público."
+        },
+        {
+          "id": "B",
+          "text": "pessoa jurídica de direito público criada diretamente por decreto."
+        },
+        {
+          "id": "C",
+          "text": "órgão sem personalidade jurídica."
+        },
+        {
+          "id": "D",
+          "text": "sociedade necessariamente formada por capital público e privado."
+        },
+        {
+          "id": "E",
+          "text": "entidade que deve obrigatoriamente adotar a forma de sociedade anônima."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esses são elementos centrais do art. 3º da Lei 13.303/2016."
+    },
+    {
+      "id": "u099-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O capital social da empresa pública",
+      "options": [
+        {
+          "id": "A",
+          "text": "é integralmente público, admitidas participações públicas previstas em lei."
+        },
+        {
+          "id": "B",
+          "text": "deve incluir obrigatoriamente investidor privado."
+        },
+        {
+          "id": "C",
+          "text": "é sempre dividido igualmente entre União e particulares."
+        },
+        {
+          "id": "D",
+          "text": "não pode contar com entidade da Administração Indireta."
+        },
+        {
+          "id": "E",
+          "text": "deve ser majoritariamente privado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei 13.303 exige capital integralmente público e admite participação das pessoas e entidades públicas indicadas no parágrafo único do art. 3º."
+    },
+    {
+      "id": "u099-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A sociedade de economia mista é",
+      "options": [
+        {
+          "id": "A",
+          "text": "pessoa jurídica de direito privado, autorizada por lei, constituída como sociedade anônima e controlada pela maioria pública das ações votantes."
+        },
+        {
+          "id": "B",
+          "text": "autarquia de direito público."
+        },
+        {
+          "id": "C",
+          "text": "órgão da Administração Direta."
+        },
+        {
+          "id": "D",
+          "text": "empresa de capital obrigatoriamente integralmente público."
+        },
+        {
+          "id": "E",
+          "text": "entidade sem personalidade jurídica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A definição consta dos arts. 4º e 5º da Lei 13.303/2016."
+    },
+    {
+      "id": "u099-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A principal diferença de capital entre empresa pública e sociedade de economia mista é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a empresa pública tem capital integralmente público; a sociedade de economia mista admite participação privada, mantendo controle votante público."
+        },
+        {
+          "id": "B",
+          "text": "ambas exigem capital integralmente privado."
+        },
+        {
+          "id": "C",
+          "text": "somente a empresa pública admite capital privado."
+        },
+        {
+          "id": "D",
+          "text": "nenhuma das duas possui personalidade jurídica."
+        },
+        {
+          "id": "E",
+          "text": "a sociedade de economia mista não possui controle público."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esse contraste decorre das definições da Lei 13.303/2016."
+    },
+    {
+      "id": "u099-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a forma societária, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A sociedade de economia mista deve adotar a forma de sociedade anônima."
+        },
+        {
+          "id": "B",
+          "text": "A autarquia deve ser sociedade anônima."
+        },
+        {
+          "id": "C",
+          "text": "A empresa pública deve obrigatoriamente ser sociedade anônima."
+        },
+        {
+          "id": "D",
+          "text": "A fundação pública deve emitir ações."
+        },
+        {
+          "id": "E",
+          "text": "Todo órgão ministerial possui forma societária."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei 13.303 determina forma de sociedade anônima para a sociedade de economia mista; essa exigência não define a empresa pública."
+    },
+    {
+      "id": "u099-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A instituição de empresa pública, sociedade de economia mista e fundação depende, segundo o artigo 37, XIX,",
+      "options": [
+        {
+          "id": "A",
+          "text": "de autorização por lei específica."
+        },
+        {
+          "id": "B",
+          "text": "somente de decreto do Executivo."
+        },
+        {
+          "id": "C",
+          "text": "de sentença judicial."
+        },
+        {
+          "id": "D",
+          "text": "de resolução da própria entidade antes de existir."
+        },
+        {
+          "id": "E",
+          "text": "de lei específica que as cria diretamente, sem atos posteriores."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Constituição distingue: lei cria autarquia e autoriza a instituição das outras três categorias."
+    },
+    {
+      "id": "u099-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto às fundações instituídas pelo Estado, o Tema 545 do STF estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a natureza pública ou privada depende do estatuto de criação ou autorização e das atividades prestadas."
+        },
+        {
+          "id": "B",
+          "text": "toda fundação estatal é necessariamente privada."
+        },
+        {
+          "id": "C",
+          "text": "toda fundação estatal é necessariamente autarquia."
+        },
+        {
+          "id": "D",
+          "text": "a atividade exercida é irrelevante."
+        },
+        {
+          "id": "E",
+          "text": "o nome escolhido pela entidade define sozinho seu regime."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O STF fixou esses dois critérios e rejeitou classificação absoluta baseada apenas no rótulo fundação."
+    },
+    {
+      "id": "u099-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma fundação pública de direito público é frequentemente denominada pela doutrina",
+      "options": [
+        {
+          "id": "A",
+          "text": "fundação autárquica."
+        },
+        {
+          "id": "B",
+          "text": "sociedade de economia mista."
+        },
+        {
+          "id": "C",
+          "text": "empresa pública."
+        },
+        {
+          "id": "D",
+          "text": "concessionária."
+        },
+        {
+          "id": "E",
+          "text": "órgão ministerial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A fundação estatal de direito público se aproxima do regime das autarquias e é usualmente chamada de fundação autárquica."
+    },
+    {
+      "id": "u099-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A supervisão ministerial sobre entidade da Administração Indireta",
+      "options": [
+        {
+          "id": "A",
+          "text": "não transforma a entidade em órgão e deve conviver com a autonomia prevista no ordenamento."
+        },
+        {
+          "id": "B",
+          "text": "extingue sua personalidade jurídica."
+        },
+        {
+          "id": "C",
+          "text": "torna a relação idêntica à hierarquia interna entre chefia e departamento."
+        },
+        {
+          "id": "D",
+          "text": "impede qualquer autonomia administrativa."
+        },
+        {
+          "id": "E",
+          "text": "é incompatível com o Decreto-Lei 200/1967."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os arts. 19, 25 e 26 do Decreto-Lei 200 combinam supervisão com autonomia da entidade."
+    },
+    {
+      "id": "u099-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma concessionária privada que executa serviço público por delegação",
+      "options": [
+        {
+          "id": "A",
+          "text": "não passa, apenas por isso, a integrar a Administração Indireta."
+        },
+        {
+          "id": "B",
+          "text": "torna-se autarquia."
+        },
+        {
+          "id": "C",
+          "text": "transforma-se em ministério."
+        },
+        {
+          "id": "D",
+          "text": "vira empresa pública automaticamente."
+        },
+        {
+          "id": "E",
+          "text": "passa a ser pessoa política."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Delegação a particular não converte o particular em entidade administrativa estatal."
+    },
+    {
+      "id": "u099-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A criação de subsidiárias das entidades mencionadas no artigo 37, XIX, e a participação delas em empresa privada",
+      "options": [
+        {
+          "id": "A",
+          "text": "dependem de autorização legislativa nos termos do artigo 37, XX."
+        },
+        {
+          "id": "B",
+          "text": "são sempre livres de autorização."
+        },
+        {
+          "id": "C",
+          "text": "dependem exclusivamente de decisão judicial."
+        },
+        {
+          "id": "D",
+          "text": "são vedadas em qualquer hipótese."
+        },
+        {
+          "id": "E",
+          "text": "transformam a entidade em Administração Direta."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a exigência constitucional do art. 37, XX, sem aprofundar aqui a disciplina societária específica."
+    },
+    {
+      "id": "u099-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa que classifica corretamente os exemplos.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ministério: órgão da Administração Direta; autarquia: entidade da Administração Indireta."
+        },
+        {
+          "id": "B",
+          "text": "Ministério: entidade da Administração Indireta; autarquia: órgão da União."
+        },
+        {
+          "id": "C",
+          "text": "Ambos são sociedades empresárias."
+        },
+        {
+          "id": "D",
+          "text": "Ambos são pessoas políticas."
+        },
+        {
+          "id": "E",
+          "text": "Autarquia integra a Administração Direta por não possuir personalidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Ministério é órgão da própria União; autarquia possui personalidade jurídica própria e integra a Administração Indireta."
+    },
+    {
+      "id": "u099-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 19 da prova Cebraspe do TCE/MS 2025, conhecimentos gerais para cargos 2 e 4, assinale a alternativa correta sobre a Administração Indireta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Autarquias são criadas por lei específica, possuem personalidade jurídica de direito público e exercem atividades típicas da Administração."
+        },
+        {
+          "id": "B",
+          "text": "Sociedades de economia mista possuem necessariamente capital exclusivamente público."
+        },
+        {
+          "id": "C",
+          "text": "Autarquias são pessoas jurídicas de direito privado."
+        },
+        {
+          "id": "D",
+          "text": "Entidades descentralizadas não se submetem a fiscalização estatal."
+        },
+        {
+          "id": "E",
+          "text": "Empresas públicas e sociedades de economia mista exercem exclusivamente atividade econômica e estão livres de controle estatal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O gabarito oficial definitivo da questão original foi C, correspondente à afirmação sobre autarquias. A formulação foi adaptada e remapeada para múltipla escolha sem reprodução literal."
+    }
+  ]
+}
