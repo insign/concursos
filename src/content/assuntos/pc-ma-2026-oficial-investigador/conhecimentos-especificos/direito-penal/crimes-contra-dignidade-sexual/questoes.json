@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u088-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime de estupro do artigo 213 do Código Penal pode configurar-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "por violência ou grave ameaça destinada a constranger a vítima à conjunção carnal ou a outro ato libidinoso."
+        },
+        {
+          "id": "B",
+          "text": "somente quando ocorre conjunção carnal."
+        },
+        {
+          "id": "C",
+          "text": "apenas quando a vítima é menor de 14 anos."
+        },
+        {
+          "id": "D",
+          "text": "sem violência ou grave ameaça, bastando qualquer ato sexual não desejado."
+        },
+        {
+          "id": "E",
+          "text": "somente se houver lesão corporal grave."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 213 abrange conjunção carnal e outros atos libidinosos quando a vítima é constrangida mediante violência ou grave ameaça."
+    },
+    {
+      "id": "u088-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a literalidade do artigo 213, § 1º, a pena de 8 a 12 anos incide quando da conduta resulta lesão corporal grave ou quando a vítima",
+      "options": [
+        {
+          "id": "A",
+          "text": "é menor de 18 e maior de 14 anos."
+        },
+        {
+          "id": "B",
+          "text": "é necessariamente menor de 14 anos."
+        },
+        {
+          "id": "C",
+          "text": "possui qualquer idade e consente com o ato."
+        },
+        {
+          "id": "D",
+          "text": "é maior de 60 anos, exclusivamente."
+        },
+        {
+          "id": "E",
+          "text": "sofre apenas lesão leve."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 1º usa exatamente essas duas hipóteses: resultado de lesão grave ou vítima menor de 18 e maior de 14 anos."
+    },
+    {
+      "id": "u088-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A violação sexual mediante fraude do artigo 215 diferencia-se do estupro do artigo 213 principalmente porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o artigo 215 utiliza fraude ou outro meio que impede ou dificulta a livre manifestação de vontade, em vez de violência ou grave ameaça."
+        },
+        {
+          "id": "B",
+          "text": "o artigo 215 exige que a vítima tenha menos de 14 anos."
+        },
+        {
+          "id": "C",
+          "text": "o artigo 215 só existe se houver vantagem econômica."
+        },
+        {
+          "id": "D",
+          "text": "o artigo 213 não admite outro ato libidinoso além de conjunção carnal."
+        },
+        {
+          "id": "E",
+          "text": "os dois artigos possuem exatamente os mesmos elementos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A distinção prática está no mecanismo que compromete a liberdade sexual: violência/grave ameaça no artigo 213; fraude ou meio equivalente no artigo 215."
+    },
+    {
+      "id": "u088-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A importunação sexual do artigo 215-A",
+      "options": [
+        {
+          "id": "A",
+          "text": "é subsidiária, pois a própria lei prevê sua incidência se o ato não constitui crime mais grave."
+        },
+        {
+          "id": "B",
+          "text": "sempre prevalece sobre o estupro de vulnerável."
+        },
+        {
+          "id": "C",
+          "text": "exige violência ou grave ameaça."
+        },
+        {
+          "id": "D",
+          "text": "exige relação hierárquica entre agente e vítima."
+        },
+        {
+          "id": "E",
+          "text": "depende de divulgação pública de imagem íntima."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A cláusula final do artigo 215-A impede usar a importunação para desclassificar hipótese em que os elementos de crime mais grave estejam presentes."
+    },
+    {
+      "id": "u088-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No assédio sexual do artigo 216-A, o agente",
+      "options": [
+        {
+          "id": "A",
+          "text": "prevalece-se de superioridade hierárquica ou ascendência inerente ao emprego, cargo ou função para obter vantagem ou favorecimento sexual."
+        },
+        {
+          "id": "B",
+          "text": "precisa ser ascendente familiar da vítima."
+        },
+        {
+          "id": "C",
+          "text": "necessariamente emprega violência física."
+        },
+        {
+          "id": "D",
+          "text": "sempre divulga registro íntimo da vítima."
+        },
+        {
+          "id": "E",
+          "text": "só responde se a vítima tiver menos de 14 anos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A ascendência do tipo é funcional, não parentesco. O objetivo é obter vantagem ou favorecimento sexual aproveitando a posição de superioridade ou influência."
+    },
+    {
+      "id": "u088-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distinção básica entre os artigos 216-B e 218-C é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o 216-B concentra-se no registro íntimo não autorizado, enquanto o 218-C alcança a circulação/divulgação dos conteúdos especificados em lei."
+        },
+        {
+          "id": "B",
+          "text": "ambos punem exclusivamente o ato obsceno em local público."
+        },
+        {
+          "id": "C",
+          "text": "o 216-B trata de estupro mediante grave ameaça."
+        },
+        {
+          "id": "D",
+          "text": "o 218-C só existe quando o conteúdo foi inicialmente registrado com autorização."
+        },
+        {
+          "id": "E",
+          "text": "o 216-B foi revogado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 216-B protege a intimidade contra a produção/registro não autorizado; o 218-C tipifica verbos de oferta, transmissão, publicação, divulgação e afins."
+    },
+    {
+      "id": "u088-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No corte normativo de 13 de julho de 2026, a vulnerabilidade da vítima menor de 14 anos no artigo 217-A",
+      "options": [
+        {
+          "id": "A",
+          "text": "é absoluta e não pode ser relativizada por consentimento, experiência sexual, relações anteriores ou gravidez."
+        },
+        {
+          "id": "B",
+          "text": "é relativa sempre que houver namoro."
+        },
+        {
+          "id": "C",
+          "text": "desaparece se a vítima já tiver experiência sexual."
+        },
+        {
+          "id": "D",
+          "text": "depende de prova de violência física."
+        },
+        {
+          "id": "E",
+          "text": "só existe se o agente desconhecer a idade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 15.353/2026 incluiu o § 4º-A e reformulou o § 5º do artigo 217-A, tornando expressa a presunção absoluta e a irrelevância desses fatores."
+    },
+    {
+      "id": "u088-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 217-A, § 1º, também alcança pessoa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "por enfermidade ou deficiência mental não tenha necessário discernimento para o ato, ou que por outra causa não possa oferecer resistência."
+        },
+        {
+          "id": "B",
+          "text": "seja maior de idade e tenha plena capacidade de resistência em qualquer hipótese."
+        },
+        {
+          "id": "C",
+          "text": "apenas tenha consumido pequena quantidade de álcool, automaticamente."
+        },
+        {
+          "id": "D",
+          "text": "seja superior hierárquico do agente."
+        },
+        {
+          "id": "E",
+          "text": "tenha autorizado a gravação de conteúdo íntimo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 1º prevê vulnerabilidade por falta do necessário discernimento e por impossibilidade de resistência, além da hipótese etária do texto principal."
+    },
+    {
+      "id": "u088-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei nº 15.280/2025, a pena do texto principal do estupro de vulnerável passou a ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "reclusão de 10 a 18 anos e multa."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 8 a 15 anos, sem multa."
+        },
+        {
+          "id": "C",
+          "text": "detenção de 1 a 2 anos."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de 6 a 10 anos."
+        },
+        {
+          "id": "E",
+          "text": "reclusão de 20 a 40 anos em qualquer caso."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 15.280/2025 elevou a pena do texto principal para 10 a 18 anos e multa; as faixas de 12 a 24 e 20 a 40 correspondem, respectivamente, a lesão grave e morte."
+    },
+    {
+      "id": "u088-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a afirmação correta sobre os artigos 218 e 218-A.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O artigo 218 trata de induzir menor de 14 anos a satisfazer a lascívia de outrem; o 218-A trata de praticar ato sexual em sua presença ou induzi-lo a presenciar o ato para satisfação sexual."
+        },
+        {
+          "id": "B",
+          "text": "Ambos exigem violência ou grave ameaça."
+        },
+        {
+          "id": "C",
+          "text": "O artigo 218-A trata de divulgação de imagens."
+        },
+        {
+          "id": "D",
+          "text": "O artigo 218 foi revogado em 2025."
+        },
+        {
+          "id": "E",
+          "text": "O artigo 218-A só protege pessoas maiores de 18 anos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa diferença de estrutura é central: no 218, o menor é induzido a satisfazer terceiro; no 218-A, presencia ou é induzido a presenciar ato sexual."
+    },
+    {
+      "id": "u088-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o artigo 218-B e a interpretação do Superior Tribunal de Justiça, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o cliente que pratica ato sexual com adolescente maior de 14 e menor de 18 anos em situação de exploração pode responder pelo § 2º, I, sem necessidade de terceiro intermediador."
+        },
+        {
+          "id": "B",
+          "text": "a exploração sexual só existe se a vítima tiver menos de 14 anos."
+        },
+        {
+          "id": "C",
+          "text": "o § 2º, I, exige sempre cafetão ou agenciador intermediário."
+        },
+        {
+          "id": "D",
+          "text": "o proprietário do local nunca pode responder."
+        },
+        {
+          "id": "E",
+          "text": "a Lei nº 15.280/2025 revogou todo o artigo 218-B."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O STJ afastou a exigência de intermediador para a hipótese do cliente. A Lei nº 15.280/2025 elevou a pena do texto principal e revogou apenas o antigo § 1º."
+    },
+    {
+      "id": "u088-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No artigo 218-C, a relação íntima de afeto com a vítima ou a finalidade de vingança/humilhação",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode aumentar a pena de 1/3 a 2/3."
+        },
+        {
+          "id": "B",
+          "text": "exclui automaticamente o crime."
+        },
+        {
+          "id": "C",
+          "text": "transforma o fato em mera contravenção."
+        },
+        {
+          "id": "D",
+          "text": "só importa se a vítima for menor de 14 anos."
+        },
+        {
+          "id": "E",
+          "text": "reduz obrigatoriamente a pena pela metade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a causa de aumento do § 1º do artigo 218-C. O § 2º, por sua vez, disciplina hipótese específica em que a conduta não é ilícita."
+    },
+    {
+      "id": "u088-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a redação do artigo 225 do Código Penal, procede-se mediante ação penal pública incondicionada nos crimes definidos",
+      "options": [
+        {
+          "id": "A",
+          "text": "nos Capítulos I e II do Título VI."
+        },
+        {
+          "id": "B",
+          "text": "em todo o Código Penal sem exceção."
+        },
+        {
+          "id": "C",
+          "text": "apenas no Capítulo I-A."
+        },
+        {
+          "id": "D",
+          "text": "somente mediante representação da vítima."
+        },
+        {
+          "id": "E",
+          "text": "somente se o agente for servidor público."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A literalidade do artigo 225 refere-se aos Capítulos I e II. Não é correto substituir essa redação por fórmula mais ampla."
+    },
+    {
+      "id": "u088-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para o artigo 226, estupro corretivo é a hipótese praticada",
+      "options": [
+        {
+          "id": "A",
+          "text": "para controlar o comportamento social ou sexual da vítima."
+        },
+        {
+          "id": "B",
+          "text": "para reparar dano patrimonial."
+        },
+        {
+          "id": "C",
+          "text": "por erro de tipo inevitável."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente por agente público."
+        },
+        {
+          "id": "E",
+          "text": "somente com três ou mais agentes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a definição legal da alínea b do inciso IV. A alínea a trata do estupro coletivo mediante concurso de dois ou mais agentes."
+    },
+    {
+      "id": "u088-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Rufianismo, previsto no artigo 230, consiste em",
+      "options": [
+        {
+          "id": "A",
+          "text": "tirar proveito da prostituição alheia, participando dos lucros ou fazendo-se sustentar por quem a exerce."
+        },
+        {
+          "id": "B",
+          "text": "praticar ato obsceno em lugar público."
+        },
+        {
+          "id": "C",
+          "text": "registrar cena íntima sem autorização."
+        },
+        {
+          "id": "D",
+          "text": "induzir menor de 14 a presenciar ato sexual."
+        },
+        {
+          "id": "E",
+          "text": "promover entrada ilegal de estrangeiro no país."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O núcleo do artigo 230 é o aproveitamento econômico da prostituição alheia; os demais enunciados correspondem a outros tipos."
+    },
+    {
+      "id": "u088-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao tráfico de pessoas e à promoção de migração ilegal no Título VI, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "os artigos 231 e 231-A foram revogados, enquanto o artigo 232-A permanece vigente e trata de promoção de migração ilegal com finalidade de vantagem econômica."
+        },
+        {
+          "id": "B",
+          "text": "o artigo 231 continua sendo o tipo geral de tráfico de pessoas."
+        },
+        {
+          "id": "C",
+          "text": "o artigo 232-A exige finalidade de exploração sexual."
+        },
+        {
+          "id": "D",
+          "text": "o artigo 149-A foi revogado pela Lei nº 13.344/2016."
+        },
+        {
+          "id": "E",
+          "text": "todos os artigos 231 a 232-A foram revogados."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 13.344/2016 revogou 231 e 231-A e criou a disciplina geral do tráfico no artigo 149-A. O 232-A, incluído posteriormente, pune promoção de migração ilegal e não exige finalidade sexual."
+    },
+    {
+      "id": "u088-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 233 do Código Penal pune",
+      "options": [
+        {
+          "id": "A",
+          "text": "a prática de ato obsceno em lugar público, aberto ou exposto ao público."
+        },
+        {
+          "id": "B",
+          "text": "qualquer ato sexual consensual em ambiente privado."
+        },
+        {
+          "id": "C",
+          "text": "apenas divulgação de cena de estupro."
+        },
+        {
+          "id": "D",
+          "text": "somente registro íntimo sem autorização."
+        },
+        {
+          "id": "E",
+          "text": "exploração sexual de adolescente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 233 integra o capítulo de ultraje público ao pudor e exige a dimensão pública, aberta ou exposta ao público descrita no tipo."
+    },
+    {
+      "id": "u088-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o artigo 234-B, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os processos por crimes do Título VI correm em segredo de justiça, mas o § 1º prevê consulta pública de dados específicos após condenação em primeira instância nos tipos que enumera, salvo manutenção fundamentada do sigilo."
+        },
+        {
+          "id": "B",
+          "text": "Todo o processo se torna público imediatamente com o inquérito."
+        },
+        {
+          "id": "C",
+          "text": "A absolvição em recurso impede o restabelecimento do sigilo."
+        },
+        {
+          "id": "D",
+          "text": "O § 1º abrange automaticamente qualquer crime do Código Penal."
+        },
+        {
+          "id": "E",
+          "text": "O dispositivo proíbe qualquer monitoramento eletrônico de condenado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 15.035/2024 combinou a regra geral de segredo de justiça com publicidade delimitada de dados após condenação em primeira instância para crimes enumerados, sujeita às ressalvas legais."
+    },
+    {
+      "id": "u088-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 24 da prova objetiva Cebraspe para Delegado da PC/CE, aplicada em 2025 e confirmada pelo gabarito definitivo, assinale a afirmação correta sobre menor de 14 anos.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A ligeireza do ato libidinoso permite sempre desclassificação para importunação sexual."
+        },
+        {
+          "id": "B",
+          "text": "Com finalidade específica de satisfação sexual, ato libidinoso com menor de 14 configura estupro de vulnerável independentemente de superficialidade, sem desclassificação para importunação sexual."
+        },
+        {
+          "id": "C",
+          "text": "A existência de namoro afasta necessariamente o artigo 217-A."
+        },
+        {
+          "id": "D",
+          "text": "O artigo 217-A exige violência ou grave ameaça."
+        },
+        {
+          "id": "E",
+          "text": "Somente conjunção carnal configura estupro de vulnerável."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alternativa correta da questão original reproduzia a tese do Tema Repetitivo 1.121/STJ. Esta versão preserva a ideia jurídica sem copiar literalmente o enunciado."
+    },
+    {
+      "id": "u088-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 13 da matriz oficial Cebraspe PC/PE 2023, um agente simula portar arma e, com a ameaça produzida, força vítima adulta capaz a praticar ato libidinoso. A classificação central é",
+      "options": [
+        {
+          "id": "A",
+          "text": "estupro, pois grave ameaça pode decorrer de simulação de arma quando concretamente apta a subjugar a vítima."
+        },
+        {
+          "id": "B",
+          "text": "importunação sexual, porque nunca houve grave ameaça."
+        },
+        {
+          "id": "C",
+          "text": "mero constrangimento ilegal porque não houve conjunção carnal."
+        },
+        {
+          "id": "D",
+          "text": "assédio sexual, ainda que não exista relação hierárquica."
+        },
+        {
+          "id": "E",
+          "text": "ato obsceno, independentemente do local."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A matriz oficial considerou possível que a simulação de arma configure grave ameaça e esclareceu que estupro abrange outros atos libidinosos, não apenas conjunção carnal."
+    }
+  ]
+}
