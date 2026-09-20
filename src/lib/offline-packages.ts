@@ -597,6 +597,12 @@ export async function removeContestPackage(
 }
 
 export async function cleanupInactiveContestCaches(overrides: PackageEnvironment = {}): Promise<void> {
+  // Fast path sem lock: o caso comum (nada órfão) não deve serializar
+  // remoções/downloads do usuário atrás do lock global. Um cleanup
+  // interrompido por navegação deixaria um lease estático de 15s travando
+  // a próxima operação; a varredura destrutiva abaixo é refeita sob lock.
+  const preview = await listInactiveContestCaches(overrides);
+  if (preview.ghostContestIds.length === 0 && preview.orphanCacheNames.length === 0) return;
   return withOfflinePackageLock(async () => {
     const { cacheStorage } = environment(overrides);
     const records = await listOfflineContestRecords();
@@ -615,6 +621,29 @@ export async function cleanupInactiveContestCaches(overrides: PackageEnvironment
       if (name.startsWith(CONTEST_CACHE_PREFIX) && !activeNames.has(name)) await cacheStorage.delete(name);
     }
   });
+}
+
+async function listInactiveContestCaches(
+  overrides: PackageEnvironment = {},
+): Promise<{ ghostContestIds: string[]; orphanCacheNames: string[] }> {
+  const { cacheStorage } = environment(overrides);
+  const records = await listOfflineContestRecords();
+  const cacheNames = new Set(await cacheStorage.keys());
+  const activeNames = new Set<string>();
+  const ghostContestIds: string[] = [];
+
+  for (const record of records) {
+    if (cacheNames.has(record.activeCacheName)) {
+      activeNames.add(record.activeCacheName);
+    } else {
+      ghostContestIds.push(record.contestStorageId);
+    }
+  }
+
+  const orphanCacheNames = [...cacheNames].filter(
+    (name) => name.startsWith(CONTEST_CACHE_PREFIX) && !activeNames.has(name),
+  );
+  return { ghostContestIds, orphanCacheNames };
 }
 
 export { getOfflineContestRecord, listOfflineContestRecords };

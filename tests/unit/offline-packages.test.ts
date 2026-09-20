@@ -1,6 +1,11 @@
 import 'fake-indexeddb/auto';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import { deleteOfflineDatabase, saveOfflineContestRecord } from '../../src/lib/offline-db';
+import {
+  acquireSyncLease,
+  deleteOfflineDatabase,
+  releaseSyncLease,
+  saveOfflineContestRecord,
+} from '../../src/lib/offline-db';
 import { subscribeDownloadEvents } from '../../src/lib/offline-download-events';
 import {
   cleanupInactiveContestCaches,
@@ -254,6 +259,27 @@ describe('offline contest packages', () => {
 
     expect(await getOfflineContestRecord('exemplo')).toBeUndefined();
     expect(cacheStorage.caches.has('contest--orphan--temporary--123')).toBe(false);
+  });
+
+  it('skips the package lock when there is nothing to clean', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const overrides = {
+      cacheStorage: cacheStorage as unknown as CacheStorage,
+      fetch: successfulFetch as typeof fetch,
+      origin: 'https://concursos.test',
+    };
+    const record = await downloadContestPackage(await hashedManifest('11111111111111111111'), undefined, overrides);
+    // Segura o lock global com outro dono: se o cleanup tentasse adquiri-lo,
+    // ficaria bloqueado até o deadline em vez de retornar de imediato.
+    expect(await acquireSyncLease('concursos:offline-packages', 'other-owner', 60_000)).toBe(true);
+    try {
+      await cleanupInactiveContestCaches(overrides);
+    } finally {
+      await releaseSyncLease('concursos:offline-packages', 'other-owner');
+    }
+
+    expect(await getOfflineContestRecord('exemplo')).toEqual(record);
+    expect(cacheStorage.caches.has(record.activeCacheName)).toBe(true);
   });
 
   it('rejects insufficient quota before replacing the active package', async () => {
