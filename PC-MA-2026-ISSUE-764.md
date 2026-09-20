@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U132; PC-E13 — Direito Constitucional está concluído e PC-E14 — Legislação Especial está em andamento; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U133; PC-E13 — Direito Constitucional está concluído e PC-E14 — Legislação Especial está em andamento; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 26 | 0 | 132 |
-| Entregáveis de unidade C/H/Q | 474 | 78 | 0 | 396 |
+| Unidades reais previstas | 158 | 25 | 0 | 133 |
+| Entregáveis de unidade C/H/Q | 474 | 75 | 0 | 399 |
 | Tarefas macro individualizadas | 62 | 23 | 0 | 39 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U132` e `U144` = **132 unidades**. Pendentes: `U075`, `U133–U143`, `U145–U158` = **26 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U133` e `U144` = **133 unidades**. Pendentes: `U075`, `U134–U143`, `U145–U158` = **25 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **134 = 117 físicas locais + 17 vínculos canônicos**. U132 acrescentou uma visão física local; o `grupo.json` de Legislação Especial permanece estrutural e não é visão nem unidade. Não confundir 134 visões materializadas com 132 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **135 = 118 físicas locais + 17 vínculos canônicos**. U133 acrescentou uma visão física local; o `grupo.json` de Legislação Especial permanece estrutural e não é visão nem unidade. Não confundir 135 visões materializadas com 133 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
-Reservas ativas após o aceite de U132: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
+Reservas ativas após o aceite de U133: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U133 — Crimes resultantes de preconceito de raça ou cor — Lei 7.716/1989**, C/H/Q `pending`, conforme o planejamento individual de PC-E14. U123–U132 estão C/H/Q `done`; PC-E14-C/H/Q permanece `pending` enquanto U133–U141 não forem concluídas.
+**Próxima ação editorial: U134 — Identificação criminal do civilmente identificado — Lei 12.037/2009**, C/H/Q `pending`, conforme o planejamento individual de PC-E14. U123–U133 estão C/H/Q `done`; PC-E14-C/H/Q permanece `pending` enquanto U134–U141 não forem concluídas.
 
 ### Pendências e divergências herdadas
 
@@ -463,7 +463,7 @@ A classificação PC-R02 permanece autoritativa: **U123–U141 são novas/locais
 | 8; 13 | U130 — Investigação criminal conduzida pelo delegado de polícia — Lei 12.830/2013 — `investigacao-criminal-delegado-lei-12830` | Lei nº 12.830/2013 integral. Esta unidade absorve as duas ocorrências do edital sem duplicação física | nova/local; apoio parcial U092, conteúdo `7afe860d0f6dd474774dc8c5cade2eb8cdb642c8`; snapshot `deab3c171c5472c55f1688cf4aaf38c78e37449a` | ADI 5.043 incorporada: investigação não é monopólio do delegado; ADIs 5.059/5.073 pendentes em 20/9/2026; requisição, avocação, remoção e indiciamento revalidados | done | done | done |
 | 9 | U131 — Lavagem de dinheiro — Lei 9.613/1998 — `lavagem-dinheiro-lei-9613` | Lei nº 9.613/1998 integral: tipos, medidas, deveres preventivos, comunicação/controle e procedimento aplicável | nova/local; fontes primárias; snapshot `d4863b22519c95a8efa310f4918c1e5a709fd109` | Lei nº 15.358/2026 incorporada nos arts. 4º-A e 7º; ativos virtuais/CNPEP e estrutura atual do Coaf incorporados; art. 17-D inconstitucional; Tema 990 e autolavagem revalidados | done | done | done |
 | 10 | U132 — Crimes hediondos — Lei 8.072/1990 — `crimes-hediondos-lei-8072` | Lei nº 8.072/1990 integral no corte, com rol, consequências e regras especiais vigentes | nova/local; apoio incidental U096; snapshot `35dbc23a0d4539cc479566fb393661a903259060` | Lei nº 15.358/2026 incorporada; Lei nº 15.487/2026 pós-corte excluída; Tema 972, SV 63, Súmula 668/STJ e Tema 1.355/STJ revalidados | done | done | done |
-| 11 | U133 — Crimes resultantes de preconceito de raça ou cor — Lei 7.716/1989 — `crimes-preconceito-raca-cor-lei-7716` | Lei nº 7.716/1989 integral no corte, preservando tipos, causas e disposições gerais atuais | nova/local; biblioteca de igualdade racial é somente apoio conceitual parcial, blob `8eb5f97caddf3274a2215fe6883939edfaf5bac7` | Não confundir o Estatuto da Igualdade Racial com a lei penal especial; verificar alterações legislativas até o corte | pending | pending | pending |
+| 11 | U133 — Crimes resultantes de preconceito de raça ou cor — Lei 7.716/1989 — `crimes-preconceito-raca-cor-lei-7716` | Lei nº 7.716/1989 integral no corte, preservando tipos, causas e disposições gerais atuais | nova/local; apoio conceitual canônico `estatuto-igualdade-racial-fundamentos-direitos`, blob `8eb5f97caddf3274a2215fe6883939edfaf5bac7`; snapshot `d733eecd1168de9e747744be4847f1ff0b09dace` | Lei nº 14.532/2023 incorporada; injúria racial, ADO 26/MI 4.733, HC 154.248, continuidade normativo-típica, racismo recreativo e efeitos não automáticos revalidados | done | done | done |
 | 12 | U134 — Identificação criminal do civilmente identificado — Lei 12.037/2009 — `identificacao-criminal-lei-12037` | Lei nº 12.037/2009 integral, incluindo hipóteses, procedimentos e tratamento dos dados nos limites do diploma | nova/local; fontes primárias | Ponte mínima com U092 e garantias de U114; não transformar em capítulo geral de identificação civil | pending | pending | pending |
 | 14 | U135 — Juizados Especiais Criminais — Lei 9.099/1995 — `juizados-especiais-criminais-lei-9099` | Recorte **criminal** da Lei nº 9.099/1995, com disposições comuns indispensáveis, competência, composição civil, transação penal, procedimento e suspensão condicional do processo; não cobrir Juizado Especial Cível como assunto autônomo | nova/local; fontes primárias | Conectar a U091–U097 apenas quando necessário ao rito/cautela; preservar leis especiais que afastem a Lei nº 9.099/1995 | pending | pending | pending |
 | 15 | U136 — Estatuto da Pessoa Idosa — Lei 10.741/2003 — `estatuto-pessoa-idosa-lei-10741` | Lei nº 10.741/2003 integral. O edital usa “Estatuto do Idoso”; a denominação oficial vigente é “Estatuto da Pessoa Idosa” | nova/local; biblioteca `acessibilidade-prioridade-atendimento` é apoio parcial, blob `f0d4cfd100e4608d44920012f23e6d821ba8bc11` | U122 fornece base constitucional do art. 230; não duplicar a lei inteira lá | pending | pending | pending |
@@ -479,7 +479,7 @@ Toda unidade de PC-E14 deve ser produzida com a redação aplicável em **13/7/2
 
 A produção deve rejeitar contaminação pós-corte. Exemplo já identificado: a Lei nº 15.487/2026, publicada em agosto, alterou ECA, Crimes Hediondos e Lei nº 12.850/2013 depois de 13/7/2026; essas mudanças não pertencem à objetiva deste edital. O mesmo cuidado vale para alterações posteriores do Código de Trânsito Brasileiro. PC-F03 fará a revalidação final, mas cada U123–U141 precisa nascer com o corte correto.
 
-**Ordem habilitada:** U133 é a primeira unidade pendente de PC-E14. U123–U132 estão C/H/Q `done`; U133–U141 permanecem C/H/Q `pending`. PC-E14-C/H/Q continua `pending` até a conclusão de todas as unidades do bloco.
+**Ordem habilitada:** U134 é a primeira unidade pendente de PC-E14. U123–U133 estão C/H/Q `done`; U134–U141 permanecem C/H/Q `pending`. PC-E14-C/H/Q continua `pending` até a conclusão de todas as unidades do bloco.
 
 
 
@@ -568,6 +568,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U130 | `deab3c171c5472c55f1688cf4aaf38c78e37449a` | 25 + 3 | Cebraspe PC-RO 2022, prova oral, questão 47; PC-ES Delegado 2022, discursiva, questão 3; PC-SE Delegado 2018, discursiva, questão 2; adaptações não literais com padrões oficiais |
 | U131 | `d4863b22519c95a8efa310f4918c1e5a709fd109` | 38 + 1 | Cebraspe PGE-CE 2021, questão 38, gabarito definitivo C, adaptada não literalmente; padrão oral PF 2025 tinha inconsistência interna documentada e não foi importado como questão |
 | U132 | `35dbc23a0d4539cc479566fb393661a903259060` | 37 + 1 | Cebraspe PC-RO 2022, prova oral de Legislação Penal e Processual Penal Extravagante, questão 13 sobre modalidades de roubo hediondo; adaptação não literal com padrão oficial |
+| U133 | `d733eecd1168de9e747744be4847f1ff0b09dace` | 31 + 2 | Cebraspe TJ-SC notarial 2022, prova oral questão 7 sobre efeitos extrapenais; PC-RO 2022, prova oral questão 9 sobre distinção histórica da injúria/racismo, atualizada expressamente ao regime pós-Lei 14.532/2023 |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -649,26 +650,27 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U130 | `cf0ac868ad0cb159beb12c4922f20b6773813aad` | `b2016ce011121331c49411c6469febd9e3aaf055` | `8c67c0196b7841bbd22d7fb7253ebaae0b628d23` | `62bcb85b8dc1cbd2182c1b723455bc2caacb636e` |
 | U131 | `bb1d18003fd4cc2b8f00c692a7b44bdbd8795f14` | `befbcacbad496086b268779281e4a2897769a244` | `7ad0effe394a137b1cba77349aa462e5c49af052` | `4022ffb022c65aeb610ba2d83a08b9e028c15b2f` |
 | U132 | `808a03ed90479c9c5cc87a79be8760ce5f524442` | `004683b37e88e48df8bc334cef04de9a35c627dd` | `2ec4cbe89474032a5b6a7208ab8ae237160e4ae8` | `cf7d2c251e5a1140fe80832bae52ade796b39018` |
+| U133 | `7a77f5e9cf314272185555db430de47f524fe5b4` | `9ca34049a8c3dc8ec5e03dd18b0449512aa02d5a` | `06bfcd39be1a4adb47c4b4c8fd7b57c427e427c3` | `6f1d4fe75135b8a5d7ba9005418b6f46a65e2a44` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`; Legislação Especial `46e77cc0f43cf786a09a8bbb477fa71a7091d0a0`.
 
-### Último aceite — U132
+### Último aceite — U133
 
-Pacote de **Crimes hediondos — Lei nº 8.072/1990**: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u132`, `order: 132`. Snapshot editorial final `35dbc23a0d4539cc479566fb393661a903259060`; base reservada `843e757c121e6e9187068abba071e4b9b02ca901`. A comparação base→snapshot confirma **exatamente quatro arquivos da U132**, sem alteração lateral: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
+Pacote de **Crimes resultantes de preconceito de raça ou cor — Lei nº 7.716/1989**: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u133`, `order: 133`. Snapshot editorial final `d733eecd1168de9e747744be4847f1ff0b09dace`; base reservada `1f274a909cdda7794af14d4128cc0e4686858e9a`. A comparação base→snapshot confirma **exatamente quatro arquivos da U133**, sem alteração lateral: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
 
-A unidade permanece **nova/local**, sem `vinculo.json`. U096 — Prisão temporária — foi lida integralmente apenas como apoio incidental: U096 mantém requisitos, iniciativa, mandado, execução e soltura; U132 ensina somente o prazo especial de 30 + 30 dias e as consequências próprias da Lei nº 8.072/1990.
+A unidade permanece **nova/local**, sem `vinculo.json`. O apoio parcial canônico `estatuto-igualdade-racial-fundamentos-direitos`, conteúdo `8eb5f97caddf3274a2215fe6883939edfaf5bac7`, foi lido integralmente. Seu uso ficou restrito a conceitos de discriminação, igualdade material, intolerância religiosa e fronteiras trabalhistas. O conjunto de questões do Estatuto da Igualdade Racial não foi copiado, porque testa a Lei nº 12.288/2010 e não a matriz penal da Lei nº 7.716/1989.
 
-Corte legislativo de **13/7/2026** reconstruído deliberadamente. Foram incorporadas, entre outras, as Leis nº 15.159/2025, 14.994/2024, 15.384/2026, 14.811/2024, 14.688/2023 e 15.358/2026. Esta última acrescentou domínio social estruturado e favorecimento ao domínio social estruturado ao rol. A Lei nº 15.487/2026, publicada em agosto, foi **excluída**: no corte, o parágrafo único, VII, ainda abrangia apenas o § 1º do artigo 240 e o artigo 241-B do Estatuto da Criança e do Adolescente.
+Corte legislativo de **13/7/2026**: o texto compilado não registra alteração textual material posterior à Lei nº 14.532/2023. A unidade incorpora o artigo 2º-A de injúria racial; as novas formas do artigo 20; os artigos 20-A a 20-D; racismo recreativo; majorante do funcionário público; proteção a manifestações religiosas e acompanhamento processual da vítima.
 
-Cobertura integral organizada: homicídio e lesões específicas; feminicídio e vicaricídio; roubo e extorsão; crimes sexuais; epidemia; artigo 273; exploração sexual; furto com explosivo; suicídio/automutilação digital; sequestro e tráfico de pessoas contra menores; genocídio; armas; organização criminosa; crimes militares equivalentes; crimes do Estatuto da Criança e do Adolescente no corte; domínio social estruturado; equiparados; consequências do artigo 2º; prisão temporária; estabelecimentos federais; livramento condicional; associação do artigo 8º e remissões históricas.
+Jurisprudência oficial revalidada: ADO 26 e MI 4.733 do Supremo Tribunal Federal sobre enquadramento de homofobia/transfobia na Lei nº 7.716/1989 enquanto persistir a omissão legislativa; HC 154.248/STF sobre imprescritibilidade da injúria racial; HC 929.002/STJ sobre a interpretação do artigo 2º-A em ofensa a pessoa branca exclusivamente por essa condição, registrada como precedente específico; REsp 2.135.321/STJ, publicado em 29/4/2026, sobre continuidade normativo-típica da injúria racial; e RHC 219.028/STJ sobre afastamento da suspensão condicional do processo em caso de discriminação religiosa.
 
-Jurisprudência oficial revalidada: Tema 972 do Supremo Tribunal Federal, afastando regime inicial fechado automático pela mera hediondez; Súmula Vinculante 63, afastando hediondez do tráfico privilegiado; Súmula 668 do Superior Tribunal de Justiça, afastando hediondez da posse/porte de arma de uso permitido com identificação suprimida; e Tema Repetitivo 1.355 do Superior Tribunal de Justiça, que preserva regra especial de livramento da associação para o tráfico sem equipará-la a hediondo.
+Cobertura integral organizada: fundamentos do artigo 1º; artigo 2º-A; bloqueios discriminatórios dos artigos 3º a 14; efeitos dos artigos 16 e 18; artigo 20, nazismo, meios de comunicação, atividades públicas e proteção religiosa; medidas judiciais sobre conteúdo; artigos 20-A a 20-D; liberdade religiosa; temporalidade penal e fronteira com o Estatuto da Igualdade Racial.
 
-Foram publicadas **38 questões: 37 autorais + 1 anterior verificada**, adaptação não literal da questão 13 da prova oral Cebraspe da Polícia Civil de Rondônia de 2022 sobre as modalidades de roubo classificadas como hediondas. Duas capturas adicionais localizadas não ficaram disponíveis de forma confiável nesta execução e foram descartadas, sem quota artificial. Nenhuma resolução separada foi necessária.
+Foram publicadas **33 questões: 31 autorais + 2 anteriores verificadas**. A primeira adapta não literalmente questão oral Cebraspe/TJ-SC 2022 sobre perda de cargo/função e não automatismo do efeito. A segunda adapta questão oral Cebraspe/PC-RO 2022 sobre direcionamento da injúria e do racismo, mas atualiza expressamente o regime jurídico após a Lei nº 14.532/2023 para não reproduzir como vigente a antiga localização da injúria racial no Código Penal. Nenhuma resolução separada foi necessária.
 
-Densidade final: `conteudo.md` com 18.224 caracteres e `cheat-sheet.md` com 4.909. Microglossário pós-inspeção: **9 pares `abbr` no conteúdo e 6 no cheat sheet, todos balanceados**; nas referências permanecem apenas algarismos romanos e IDs internos fora da marcação. O JSON permanece texto puro, `questionSetRevision: 1`, 38 IDs únicos, 37 origens `authorial`, 1 `previous_exam` e todos os gabaritos apontam para alternativas existentes.
+Densidade final: `conteudo.md` com 17.814 caracteres e `cheat-sheet.md` com 5.674. Microglossário pós-inspeção: **19 pares `abbr` no conteúdo e 12 no cheat sheet, todos balanceados**; nas referências permanecem apenas algarismo romano constitucional e o ID interno `PC-F03`. O JSON permanece texto puro, `questionSetRevision: 1`, 33 IDs únicos, 31 origens `authorial`, 2 `previous_exam` e todos os gabaritos apontam para alternativas existentes.
 
-**PC-E14 permanece em andamento:** U123–U132 estão C/H/Q `done`; U133–U141 seguem `pending`. A próxima intervenção habilitada é U133 — Crimes resultantes de preconceito de raça ou cor — Lei nº 7.716/1989.
+**PC-E14 permanece em andamento:** U123–U133 estão C/H/Q `done`; U134–U141 seguem `pending`. A próxima intervenção habilitada é U134 — Identificação criminal do civilmente identificado — Lei nº 12.037/2009.
 
 ### Registros operacionais superados
 
