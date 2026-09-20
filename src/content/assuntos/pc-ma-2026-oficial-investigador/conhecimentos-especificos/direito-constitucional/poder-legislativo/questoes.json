@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u118-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Poder Legislativo federal é exercido pelo",
+      "options": [
+        {
+          "id": "A",
+          "text": "Congresso Nacional, composto pela Câmara dos Deputados e pelo Senado Federal."
+        },
+        {
+          "id": "B",
+          "text": "Senado Federal, com auxílio da Câmara dos Deputados."
+        },
+        {
+          "id": "C",
+          "text": "Congresso Nacional, composto pelo Supremo Tribunal Federal e pelo Senado."
+        },
+        {
+          "id": "D",
+          "text": "Presidente da República, auxiliado pelo Congresso."
+        },
+        {
+          "id": "E",
+          "text": "Conselho da República."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 44 estabelece o bicameralismo federal: o Congresso Nacional é composto pela Câmara dos Deputados e pelo Senado Federal."
+    },
+    {
+      "id": "u118-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Cada legislatura tem duração de",
+      "options": [
+        {
+          "id": "A",
+          "text": "dois anos."
+        },
+        {
+          "id": "B",
+          "text": "quatro anos."
+        },
+        {
+          "id": "C",
+          "text": "seis anos."
+        },
+        {
+          "id": "D",
+          "text": "oito anos."
+        },
+        {
+          "id": "E",
+          "text": "dez anos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único do art. 44 fixa a duração da legislatura em quatro anos."
+    },
+    {
+      "id": "u118-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Câmara dos Deputados é formada por",
+      "options": [
+        {
+          "id": "A",
+          "text": "representantes dos Estados, eleitos pelo princípio majoritário."
+        },
+        {
+          "id": "B",
+          "text": "representantes do povo, eleitos pelo sistema proporcional."
+        },
+        {
+          "id": "C",
+          "text": "três representantes de cada Estado e do Distrito Federal."
+        },
+        {
+          "id": "D",
+          "text": "representantes dos Municípios, eleitos pelo sistema majoritário."
+        },
+        {
+          "id": "E",
+          "text": "membros escolhidos pelas Assembleias Legislativas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 45 define a Câmara como representação do povo e determina eleição pelo sistema proporcional."
+    },
+    {
+      "id": "u118-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao número de Deputados, a Constituição estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "cada Estado e o Distrito Federal têm sempre três Deputados."
+        },
+        {
+          "id": "B",
+          "text": "a representação por Estado e Distrito Federal observa mínimo de 8 e máximo de 70, e cada Território elege 4."
+        },
+        {
+          "id": "C",
+          "text": "não há limites mínimos ou máximos."
+        },
+        {
+          "id": "D",
+          "text": "cada Território elege oito Deputados."
+        },
+        {
+          "id": "E",
+          "text": "o Senado define livremente o número de Deputados a cada eleição."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 45, § 1º, fixa mínimo de oito e máximo de setenta Deputados por Estado/Distrito Federal; o § 2º prevê quatro por Território."
+    },
+    {
+      "id": "u118-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Senado Federal compõe-se de",
+      "options": [
+        {
+          "id": "A",
+          "text": "representantes dos Estados e do Distrito Federal, eleitos pelo princípio majoritário, três por unidade."
+        },
+        {
+          "id": "B",
+          "text": "representantes do povo, em número proporcional à população."
+        },
+        {
+          "id": "C",
+          "text": "dois Senadores por Estado, com mandato de quatro anos."
+        },
+        {
+          "id": "D",
+          "text": "quatro Senadores por Estado e por Território."
+        },
+        {
+          "id": "E",
+          "text": "representantes indicados pelos Governadores."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 46 estabelece representação dos Estados e do Distrito Federal pelo princípio majoritário, com três Senadores por unidade."
+    },
+    {
+      "id": "u118-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O mandato de Senador e a renovação da representação do Senado são, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "quatro anos e renovação integral."
+        },
+        {
+          "id": "B",
+          "text": "oito anos e renovação, a cada quatro anos, alternadamente por um terço e dois terços."
+        },
+        {
+          "id": "C",
+          "text": "seis anos e renovação pela metade."
+        },
+        {
+          "id": "D",
+          "text": "oito anos e renovação integral ao fim de cada mandato."
+        },
+        {
+          "id": "E",
+          "text": "quatro anos e renovação por um terço."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 46 fixa mandato de oito anos e renovação de quatro em quatro anos, alternadamente por um terço e dois terços."
+    },
+    {
+      "id": "u118-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Salvo disposição constitucional em contrário, as deliberações de cada Casa e de suas comissões exigem",
+      "options": [
+        {
+          "id": "A",
+          "text": "presença da maioria absoluta dos membros e aprovação pela maioria dos votos."
+        },
+        {
+          "id": "B",
+          "text": "presença de um terço e aprovação por unanimidade."
+        },
+        {
+          "id": "C",
+          "text": "sempre dois terços dos membros."
+        },
+        {
+          "id": "D",
+          "text": "maioria absoluta dos votos, sem quórum mínimo de presença."
+        },
+        {
+          "id": "E",
+          "text": "três quintos dos presentes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a regra geral do art. 47: maioria dos votos, presente a maioria absoluta dos membros."
+    },
+    {
+      "id": "u118-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A sessão legislativa ordinária do Congresso Nacional ocorre, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "de 2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro."
+        },
+        {
+          "id": "B",
+          "text": "de 1º de janeiro a 30 de junho e de 1º de agosto a 31 de dezembro."
+        },
+        {
+          "id": "C",
+          "text": "de 15 de fevereiro a 30 de junho e de 1º de setembro a 15 de dezembro."
+        },
+        {
+          "id": "D",
+          "text": "continuamente, sem interrupção constitucional."
+        },
+        {
+          "id": "E",
+          "text": "somente entre março e novembro."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 57 fixa os períodos de 2/2 a 17/7 e de 1/8 a 22/12."
+    },
+    {
+      "id": "u118-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A sessão legislativa não será interrompida sem a aprovação",
+      "options": [
+        {
+          "id": "A",
+          "text": "da lei orçamentária anual."
+        },
+        {
+          "id": "B",
+          "text": "do projeto de lei de diretrizes orçamentárias."
+        },
+        {
+          "id": "C",
+          "text": "do plano plurianual."
+        },
+        {
+          "id": "D",
+          "text": "das contas anuais do Presidente."
+        },
+        {
+          "id": "E",
+          "text": "de uma emenda constitucional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 57, § 2º, condiciona a interrupção da sessão legislativa à aprovação do projeto de lei de diretrizes orçamentárias."
+    },
+    {
+      "id": "u118-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre as Mesas da Câmara e do Senado, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o mandato é de quatro anos, com recondução obrigatória."
+        },
+        {
+          "id": "B",
+          "text": "o mandato é de dois anos, vedada a recondução ao mesmo cargo na eleição imediatamente subsequente."
+        },
+        {
+          "id": "C",
+          "text": "a Mesa do Congresso é presidida pelo Presidente da Câmara."
+        },
+        {
+          "id": "D",
+          "text": "as Mesas são eleitas apenas ao final da legislatura."
+        },
+        {
+          "id": "E",
+          "text": "os cargos das Mesas têm mandato de um ano."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 57, § 4º, prevê mandato de dois anos e veda recondução ao mesmo cargo na eleição imediatamente subsequente."
+    },
+    {
+      "id": "u118-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Câmara e Senado reúnem-se em sessão conjunta, entre outras hipóteses, para",
+      "options": [
+        {
+          "id": "A",
+          "text": "receber o compromisso do Presidente e do Vice-Presidente e deliberar sobre veto."
+        },
+        {
+          "id": "B",
+          "text": "julgar toda infração penal comum do Presidente."
+        },
+        {
+          "id": "C",
+          "text": "eleger diretamente Ministros do Supremo Tribunal Federal."
+        },
+        {
+          "id": "D",
+          "text": "extinguir o bicameralismo durante o recesso."
+        },
+        {
+          "id": "E",
+          "text": "aprovar individualmente leis ordinárias sem atuação das Casas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 57, § 3º, prevê sessão conjunta, entre outros casos, para receber o compromisso presidencial e conhecer e deliberar sobre veto."
+    },
+    {
+      "id": "u118-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as competências constitucionais das comissões parlamentares está",
+      "options": [
+        {
+          "id": "A",
+          "text": "realizar audiências públicas com entidades da sociedade civil."
+        },
+        {
+          "id": "B",
+          "text": "proferir sentença penal definitiva."
+        },
+        {
+          "id": "C",
+          "text": "anular decisão judicial transitada em julgado."
+        },
+        {
+          "id": "D",
+          "text": "nomear Ministros do Supremo Tribunal Federal."
+        },
+        {
+          "id": "E",
+          "text": "decretar intervenção federal por iniciativa própria."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 58, § 2º, inclui audiências públicas entre as atribuições das comissões, além de outras funções de deliberação, informação e participação."
+    },
+    {
+      "id": "u118-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A criação de Comissão Parlamentar de Inquérito, no núcleo do art. 58, § 3º, exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "requerimento de um terço dos membros, fato determinado e prazo certo."
+        },
+        {
+          "id": "B",
+          "text": "maioria absoluta, fato genérico e prazo indeterminado."
+        },
+        {
+          "id": "C",
+          "text": "dois terços e autorização do Poder Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "aprovação presidencial e prazo de quatro anos."
+        },
+        {
+          "id": "E",
+          "text": "unanimidade dos líderes partidários."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 58, § 3º, exige cumulativamente um terço dos membros da Casa, fato determinado e prazo certo."
+    },
+    {
+      "id": "u118-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distinção constitucional correta entre os arts. 48 e 49 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o art. 48 reúne matérias legislativas do Congresso submetidas à sanção, enquanto o art. 49 traz competências exclusivas do Congresso sem sanção."
+        },
+        {
+          "id": "B",
+          "text": "ambos dependem sempre de sanção presidencial."
+        },
+        {
+          "id": "C",
+          "text": "o art. 49 reúne competências privativas do Senado."
+        },
+        {
+          "id": "D",
+          "text": "o art. 48 trata apenas de competências da Câmara."
+        },
+        {
+          "id": "E",
+          "text": "o art. 49 só produz efeitos após veto presidencial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O caput do art. 48 ressalva as matérias dos arts. 49, 51 e 52; as competências exclusivas do art. 49 não se submetem à sanção."
+    },
+    {
+      "id": "u118-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compete exclusivamente ao Congresso Nacional",
+      "options": [
+        {
+          "id": "A",
+          "text": "sustar atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites da delegação legislativa."
+        },
+        {
+          "id": "B",
+          "text": "processar e julgar o Presidente por crime de responsabilidade."
+        },
+        {
+          "id": "C",
+          "text": "autorizar, sozinho no Senado, processo contra o Presidente."
+        },
+        {
+          "id": "D",
+          "text": "julgar as contas de todos os administradores públicos federais."
+        },
+        {
+          "id": "E",
+          "text": "nomear diretamente Ministros do Supremo Tribunal Federal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A sustação prevista no art. 49, V, é competência exclusiva do Congresso Nacional."
+    },
+    {
+      "id": "u118-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à fiscalização por informações do art. 50,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a Mesa do Congresso pode convocar pessoalmente Ministro de Estado."
+        },
+        {
+          "id": "B",
+          "text": "Câmara, Senado ou comissão podem convocar pessoalmente as autoridades previstas, enquanto pedidos escritos são encaminhados pelas Mesas das Casas."
+        },
+        {
+          "id": "C",
+          "text": "qualquer parlamentar isoladamente pode impor pedido escrito com efeito constitucional do § 2º."
+        },
+        {
+          "id": "D",
+          "text": "a falta de resposta a pedido escrito não tem consequência constitucional."
+        },
+        {
+          "id": "E",
+          "text": "as comissões não podem convocar Ministros de Estado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 50 distingue convocação pessoal pela Câmara, Senado ou comissões de pedidos escritos encaminhados pelas Mesas da Câmara e do Senado."
+    },
+    {
+      "id": "u118-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compete privativamente à Câmara dos Deputados",
+      "options": [
+        {
+          "id": "A",
+          "text": "processar e julgar o Presidente nos crimes de responsabilidade."
+        },
+        {
+          "id": "B",
+          "text": "autorizar, por dois terços de seus membros, a instauração de processo contra Presidente, Vice-Presidente e Ministros de Estado nas hipóteses constitucionais."
+        },
+        {
+          "id": "C",
+          "text": "aprovar previamente a escolha de Ministros do Supremo Tribunal Federal."
+        },
+        {
+          "id": "D",
+          "text": "fixar limites globais de dívida dos Estados."
+        },
+        {
+          "id": "E",
+          "text": "suspender a execução de lei declarada inconstitucional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 51, I, atribui à Câmara a autorização por dois terços nas hipóteses indicadas."
+    },
+    {
+      "id": "u118-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se o Presidente da República não apresentar as contas ao Congresso dentro de sessenta dias após a abertura da sessão legislativa, compete",
+      "options": [
+        {
+          "id": "A",
+          "text": "à Câmara dos Deputados tomá-las."
+        },
+        {
+          "id": "B",
+          "text": "ao Senado julgá-las sem instrução."
+        },
+        {
+          "id": "C",
+          "text": "ao Supremo Tribunal Federal elaborá-las."
+        },
+        {
+          "id": "D",
+          "text": "ao Ministério Público arquivá-las."
+        },
+        {
+          "id": "E",
+          "text": "ao Presidente do Congresso dispensá-las."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 51, II, atribui à Câmara a tomada de contas quando o Presidente não as apresenta dentro de sessenta dias após a abertura da sessão legislativa."
+    },
+    {
+      "id": "u118-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compete privativamente ao Senado Federal",
+      "options": [
+        {
+          "id": "A",
+          "text": "processar e julgar Presidente e Vice-Presidente nos crimes de responsabilidade."
+        },
+        {
+          "id": "B",
+          "text": "autorizar referendo e convocar plebiscito como competência privativa."
+        },
+        {
+          "id": "C",
+          "text": "tomar as contas presidenciais omitidas após sessenta dias."
+        },
+        {
+          "id": "D",
+          "text": "sustar sozinho qualquer ato administrativo do Poder Executivo."
+        },
+        {
+          "id": "E",
+          "text": "representar o povo pelo sistema proporcional."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 52, I, atribui ao Senado o processamento e julgamento político do Presidente e do Vice-Presidente nos crimes de responsabilidade."
+    },
+    {
+      "id": "u118-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Deputados e Senadores são constitucionalmente invioláveis, civil e penalmente, por",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer ato privado praticado durante o mandato."
+        },
+        {
+          "id": "B",
+          "text": "suas opiniões, palavras e votos."
+        },
+        {
+          "id": "C",
+          "text": "todo contrato celebrado após a diplomação."
+        },
+        {
+          "id": "D",
+          "text": "qualquer infração penal, ainda que sem vínculo funcional."
+        },
+        {
+          "id": "E",
+          "text": "atos administrativos de outros Poderes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O caput do art. 53 estabelece inviolabilidade civil e penal dos Deputados e Senadores por suas opiniões, palavras e votos."
+    },
+    {
+      "id": "u118-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Desde a expedição do diploma, Deputados e Senadores",
+      "options": [
+        {
+          "id": "A",
+          "text": "não podem ser presos em hipótese alguma."
+        },
+        {
+          "id": "B",
+          "text": "podem ser presos somente em flagrante de crime inafiançável, com remessa dos autos à Casa respectiva em vinte e quatro horas."
+        },
+        {
+          "id": "C",
+          "text": "podem ser presos preventivamente por comissão parlamentar."
+        },
+        {
+          "id": "D",
+          "text": "dependem de autorização prévia do Congresso para qualquer investigação."
+        },
+        {
+          "id": "E",
+          "text": "perdem automaticamente a inviolabilidade por opiniões e votos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 53, § 2º, admite prisão desde a diplomação apenas em flagrante de crime inafiançável e determina remessa dos autos à Casa em vinte e quatro horas."
+    },
+    {
+      "id": "u118-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 103 da prova Cebraspe Câmara dos Deputados 2026, assinale a alternativa correta sobre a fixação e modificação dos efetivos das Forças Armadas.",
+      "options": [
+        {
+          "id": "A",
+          "text": "É competência privativa do Senado Federal, sem participação presidencial."
+        },
+        {
+          "id": "B",
+          "text": "É matéria sobre a qual o Congresso Nacional dispõe com sanção do Presidente da República, nos termos do art. 48."
+        },
+        {
+          "id": "C",
+          "text": "É competência exclusiva da Câmara dos Deputados."
+        },
+        {
+          "id": "D",
+          "text": "É definida por decreto autônomo do Presidente, sem atuação legislativa."
+        },
+        {
+          "id": "E",
+          "text": "É competência do Supremo Tribunal Federal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O item original teve gabarito definitivo E. A Constituição inclui a fixação e modificação dos efetivos das Forças Armadas no art. 48, III, entre as matérias sobre as quais o Congresso dispõe com sanção presidencial. A adaptação remapeia a resposta correta para B."
+    }
+  ]
+}
