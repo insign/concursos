@@ -4,9 +4,9 @@
 
 **Menor potencial ofensivo** → <abbr title="Termo Circunstanciado de Ocorrência">TCO</abbr> → audiência preliminar → composição civil → representação, se exigida → transação penal → denúncia/queixa → procedimento sumaríssimo.
 
-Suspensão condicional do processo = instituto diferente, do art. 89.
+Suspensão condicional do processo = instituto diferente, do artigo 89.
 
-## Competência — arts. 60–61
+## Competência — artigos 60–61
 
 <abbr title="Juizado Especial Criminal">JECrim</abbr>:
 
@@ -20,7 +20,7 @@ Conexão/continência podem levar o conjunto ao juízo comum ou Tribunal do Júr
 - menor potencial ofensivo → **pena máxima ≤ 2 anos**;
 - suspensão condicional do processo → **pena mínima ≤ 1 ano**.
 
-## Critérios — art. 62
+## Critérios — artigo 62
 
 - oralidade;
 - simplicidade;
@@ -80,7 +80,7 @@ Eixos:
 1. composição dos danos civis;
 2. eventual aplicação imediata de pena não privativa de liberdade.
 
-## Composição civil — art. 74
+## Composição civil — artigo 74
 
 Acordo:
 
@@ -95,7 +95,7 @@ Se ação privada ou pública condicionada:
 
 Não estenda isso à ação pública incondicionada.
 
-## Representação — art. 75
+## Representação — artigo 75
 
 Sem composição:
 
@@ -106,7 +106,7 @@ Não representar na audiência:
 → **não gera decadência imediata**;
 → ainda vale o prazo legal.
 
-## Transação penal — art. 76
+## Transação penal — artigo 76
 
 Ministério Público pode propor:
 
@@ -219,7 +219,7 @@ Regime atual:
 
 → **não se converte multa em prisão**.
 
-A Lei nº 9.268/1996 alterou o Código Penal e o <abbr title="Supremo Tribunal Federal">STF</abbr> reconheceu a derrogação dessa parte do art. 85.
+A Lei nº 9.268/1996 alterou o Código Penal e o <abbr title="Supremo Tribunal Federal">STF</abbr> reconheceu a derrogação dessa parte do artigo 85.
 
 ## Art. 88
 
@@ -278,7 +278,7 @@ Durante a suspensão:
 
 → prescrição **não corre**.
 
-## Súmulas do art. 89
+## Súmulas do artigo 89
 
 ### Súmula 243/<abbr title="Superior Tribunal de Justiça">STJ</abbr>
 
@@ -329,9 +329,9 @@ regra de transição processual não pode impedir retroatividade de norma penal 
 ## Pegadinhas
 
 - competência: **máxima ≤ 2**;
-- art. 89: **mínima ≤ 1**;
+- artigo 89: **mínima ≤ 1**;
 - <abbr title="Termo Circunstanciado de Ocorrência">TCO</abbr> ≠ inquérito completo;
-- compromisso do art. 69 afasta flagrante/fiança na hipótese legal;
+- compromisso do artigo 69 afasta flagrante/fiança na hipótese legal;
 - composição civil não extingue ação pública incondicionada;
 - ausência de representação na audiência não gera decadência instantânea;
 - transação não gera reincidência;
@@ -340,7 +340,7 @@ regra de transição processual não pode impedir retroatividade de norma penal 
 - acusado não encontrado para citação → juízo comum;
 - embargos **interrompem** prazo;
 - multa não paga não vira prisão;
-- contravenção no art. 89 = revogação facultativa;
-- crime no art. 89 = revogação obrigatória;
+- contravenção no artigo 89 = revogação facultativa;
+- crime no artigo 89 = revogação obrigatória;
 - Lei Maria da Penha afasta o regime;
 - Justiça Militar também.
