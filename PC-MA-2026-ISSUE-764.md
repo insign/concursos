@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U100; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U102; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 57 | 0 | 101 |
-| Entregáveis de unidade C/H/Q | 474 | 171 | 0 | 303 |
+| Unidades reais previstas | 158 | 56 | 0 | 102 |
+| Entregáveis de unidade C/H/Q | 474 | 168 | 0 | 306 |
 | Tarefas macro individualizadas | 62 | 27 | 0 | 35 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U101` e `U144` = **101 unidades**. Pendentes: `U075`, `U102–U143`, `U145–U158` = **57 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U102` e `U144` = **102 unidades**. Pendentes: `U075`, `U103–U143`, `U145–U158` = **56 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **103 = 86 físicas locais + 17 vínculos canônicos**. U100 acrescentou uma visão física local; os demais números foram preservados. Não confundir 103 visões materializadas com 101 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **104 = 87 físicas locais + 17 vínculos canônicos**. U102 acrescentou uma visão física local; os demais números foram preservados. Não confundir 104 visões materializadas com 102 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
 Reservas ativas na transferência: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U102 — Atos administrativos**, C/H/Q `pending`. U100 foi concluída e confirmada na `main`; U101 já estava `done` e é pulada; PC-E12-C/H/Q continua `pending` enquanto U102–U111 não forem concluídas.
+**Próxima ação editorial: U103 — Regime dos funcionários policiais civis da União e do Distrito Federal — Lei 4.878/1965**, C/H/Q `pending`. U102 foi concluída e confirmada na `main`; PC-E12-C/H/Q continua `pending` enquanto U103–U111 não forem concluídas.
 
 ### Pendências e divergências herdadas
 
@@ -388,7 +388,7 @@ Classificação PC-R02 recebida: **U101 parcial**; **U098–U100 e U102–U111 n
 | 2 | U099 — Organização administrativa da União — `organizacao-administrativa-uniao` | Administração direta e indireta da União. Depende da moldura U098; não absorver os regimes estaduais e policiais de U108–U111 | nova/local; sem doador integral | done | done | done |
 | 3 | U100 — Regime dos servidores públicos civis federais — Lei 8.112/1990 — `servidores-publicos-federais-lei-8112` | Lei nº 8.112/1990 e alterações no recorte integral do edital. Regime federal; não fundir com a Lei estadual 6.107/1994 (U109) nem com estatutos policiais | nova/local; sem doador integral | done | done | done |
 | 4 | U101 — Licitações: modalidades, dispensa e inexigibilidade — `licitacoes-modalidades-dispensa-inexigibilidade` | Lei nº 14.133/2021 e alterações: modalidades, dispensa e inexigibilidade. Preservar escopo e identidade já publicados; não ampliar para contratos administrativos sem item próprio no edital | parcial/local já aceita; C `837374eb88b0919369d8bcda66be71def6958c0f`; H `cb2afe7cdd060531319c3ee846be248c05d2329c`; R `4f90cd51576e4ba1531f5326f1123c5632b6d41e`; Q `fbea66d7513b5d28e40f505a039afa0d494cf402` | done | done | done |
-| 5; 5.1–5.7 | U102 — Atos administrativos — `atos-administrativos` | Conceito, requisitos, elementos, pressupostos, classificação; fato e ato; espécies; cassação; revogação/anulação; processo administrativo; validade, eficácia e autoexecutoriedade. Depende de U098 | nova/local; sem doador integral | pending | pending | pending |
+| 5; 5.1–5.7 | U102 — Atos administrativos — `atos-administrativos` | Conceito, requisitos, elementos, pressupostos, classificação; fato e ato; espécies; cassação; revogação/anulação; processo administrativo; validade, eficácia e autoexecutoriedade. Depende de U098 | nova/local; sem doador integral; snapshot `8b6a244ba94b2712e62037940bd192de9cb868ce` | done | done | done |
 | 6 | U103 — Regime dos funcionários policiais civis da União e do Distrito Federal — Lei 4.878/1965 — `regime-policiais-civis-uniao-df-lei-4878` | Lei nº 4.878/1965 e alterações, **como literalmente exigida pelo edital**. Auditar vigência e aplicabilidade no corte durante a produção; não substituir silenciosamente pelo regime da PC-MA | nova/local; sem doador integral | pending | pending | pending |
 | 7 | U104 — Improbidade administrativa — Lei 8.429/1992 — `improbidade-administrativa-lei-8429` | Sanções aos agentes públicos nos casos descritos pelo item 7 e Lei nº 8.429/1992 com alterações. Preservar a formulação literal do edital e revalidar a redação legal vigente no corte | nova/local; sem doador integral | pending | pending | pending |
 | 8 | U105 — Poderes administrativos — `poderes-administrativos` | Poder hierárquico, disciplinar, regulamentar, poder de polícia, uso e abuso do poder. Depende do mapa institucional de U098; não duplicar controle de U106 | nova/local; sem doador integral | pending | pending | pending |
@@ -457,6 +457,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U098 | `da9620d0db63aa21bcb093fd2aa88b1833386113` | 19 + 1 | Cebraspe DPE-PA 2021, Defensor Público, prova discursiva P3, questão 1, com padrão definitivo |
 | U099 | `88ba74a0d4c74f895567fa573e1441aeeeaae186` | 19 + 1 | Cebraspe TCE-MS 2025, conhecimentos gerais para cargos 2 e 4, questão 19; gabarito definitivo C |
 | U100 | `b5d0fa3cd5d85610e01dd8c7c6526f5daaed4f5d` | 18 + 2 | Cespe/Cebraspe TRE-TO 2017, Analista Judiciário, questão 23 A; Cebraspe STM 2025, Cargo 1, item 14 C |
+| U102 | `8b6a244ba94b2712e62037940bd192de9cb868ce` | 18 + 2 | Cebraspe PC-MA Investigador 2017/2018, questão 22, gabarito definitivo C; Cebraspe PC-RO 2022, Delegado, prova oral de Direito Administrativo/Constitucional, questão 9 |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -507,22 +508,23 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U098 | `563269a10a754b2561d5e996a0d5b51c53435ade` | `4a2999a123db1b89afb11759d9cd9042a7306d60` | `e5fa6b2d85d98a18d9cdd2cf6f1b5565e8f2b844` | `2a8e891d2349593cc043839ec4700c13981b5ed0` |
 | U099 | `e4b663696a645d5d684a6fd46d3e52891c361c10` | `75fb1ac5bff646b98efacc55638fe58568905039` | `7b306d88657c40d25f895e25846bd269abe27e10` | `cd480ee2abe5f96fbe8fed9b389bc6a79d62090c` |
 | U100 | `7416931cd231da2d0d0c3c32966950652235a763` | `8bee0ff17d860999cb9b5bf229c3076a22eb52af` | `c41d6aa5957e09edc3fd6a9c8b098302b8c5f5c5` | `4e3114d7cf58258a47470eff4936b88d607536f4` |
+| U102 | `33df4abd213d21c1007cf0811bf9522a43c670d0` | `56075069caecfa02c82445ccb4e49f0bc329b746` | `24cc2b0145fc6c69d1be907ddf89c3a148e1086e` | `16d4620df135693ba3202b88760b1147d5e1b865` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`.
 
-### Último aceite — U100
+### Último aceite — U102
 
-Pacote de Regime dos servidores públicos civis federais — Lei 8.112/1990: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u100`, `order: 100`. Commit editorial `b5d0fa3cd5d85610e01dd8c7c6526f5daaed4f5d`. Base de publicação: `9226c77e11b375746d86d8c73867d30d54292a1e`.
+Pacote de Atos administrativos: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u102`, `order: 102`. Snapshot editorial final `8b6a244ba94b2712e62037940bd192de9cb868ce`; base de publicação `9956d75341c0673986d81f72c8c3e25e3aea1c6d`. A publicação foi serializada diretamente na `main` em quatro commits de arquivo e a comparação base→snapshot confirma **exatamente quatro arquivos novos**, sem alterações laterais: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
 
-Foram publicados quatro arquivos novos, sem `vinculo.json` e sem resoluções separadas: aula integral, revisão rápida, referências e 20 questões objetivas — **18 autorais + 2 adaptações não literais de provas anteriores verificadas**. Os blobs finais constam na tabela acima. O material renderizado soma **20 marcações `abbr` balanceadas** entre conteúdo, cheat sheet e referências; o JSON de questões permanece em texto puro, sem HTML.
+O pacote não usa `vinculo.json` nem resoluções separadas. Foram publicadas **20 questões objetivas — 18 autorais + 2 adaptações não literais de provas anteriores verificadas**. Os blobs finais constam na tabela acima. O material renderizado soma **15 marcações `abbr` balanceadas** entre conteúdo, cheat sheet e referências; o JSON de questões permanece em texto puro, sem HTML.
 
-Recorte e fronteiras: âmbito federal da Lei 8.112; cargo, requisitos, provimento, concurso, posse e exercício; estágio probatório e estabilidade; readaptação, reversão, reintegração, recondução e aproveitamento; vacância, remoção e redistribuição; vencimento, remuneração, vantagens, férias, licenças, afastamentos, concessões e direito de petição; deveres, proibições, responsabilidades, penalidades, prescrição, sindicância, processo administrativo disciplinar e revisão; seguridade social com controle de normas previdenciárias posteriores. U103 permanece responsável pela Lei 4.878/1965; U108–U109 pelos regimes estaduais, sem transportar automaticamente o estatuto federal.
+Recorte e fronteiras: conceito de ato administrativo e fato administrativo; competência, finalidade, forma, motivo e objeto; pressupostos; motivo versus motivação; perfeição, validade e eficácia; presunção de legitimidade/veracidade, imperatividade, autoexecutoriedade e tipicidade; classificações e espécies; licença e autorização; anulação, revogação, cassação, convalidação e decadência federal; autotutela; núcleo constitucional do processo administrativo; regime, instrução, decisão, recursos, revisão e prazos federais da Lei 9.784/1999. U098 permanece como moldura; U105 tratará poderes administrativos; U106, controle; U107, responsabilidade civil.
 
-A divergência temporal do artigo 20 foi preservada sem correção silenciosa: o texto compilado da Lei 8.112 ainda exibe **24 meses**, enquanto o artigo 41 da Constituição e o regime federal regulamentar vigente trabalham com **36 meses** de estágio probatório. Foram revalidados o Decreto 12.374/2025 e sua alteração pelo Decreto 12.967/2026, ambos anteriores ao corte. Projeto de lei posterior/sem vigência não foi tratado como alteração normativa.
+A auditoria do acervo relê os capítulos TCE sobre ato administrativo como apoio de fronteira, mas eles não cobrem integralmente cassação, anulação/revogação, processo administrativo e a relação completa entre validade e eficácia exigidos pela U102; por isso a classificação PC-R02 **nova/local** foi preservada, sem cópia física ou vínculo por semelhança.
 
-Fontes revalidadas: Lei 8.112/1990 compilada; Constituição, especialmente artigos 37 e 41; Decretos 12.374/2025 e 12.967/2026; Súmula Vinculante 5 do Supremo Tribunal Federal; Cespe/Cebraspe TRE-TO 2017, questão 23, gabarito definitivo A; Cebraspe Superior Tribunal Militar 2025, item 14, gabarito definitivo Certo. A auditoria do acervo localizou apenas pontes parciais em capítulos de agentes públicos, sem pacote integral, vínculo ou origem canônica compatível.
+Fontes revalidadas: Constituição, especialmente artigo 5º, LIV, LV e LXXVIII, e artigo 37; Lei 4.717/1965, artigo 2º; Lei 9.784/1999, especialmente artigos 1º–5º, 11–15, 18–30, 38, 44 e 48–65; Súmulas 346 e 473 e Tema 138 do Supremo Tribunal Federal; Cebraspe PC-MA Investigador 2017/2018, questão 22 e gabarito definitivo C; Cebraspe PC-RO 2022, Delegado, prova oral de Direito Administrativo/Constitucional, questão 9 e padrão oficial. Os entendimentos jurisprudenciais empregados são anteriores ao corte legislativo e não tornam material a divergência herdada sobre o marco jurisprudencial.
 
-Corte legislativo preservado em **13/7/2026**; consulta/revalidação em 19/9/2026. Próxima unidade habilitada: U102 — Atos administrativos; U101 já estava `done` e deve ser pulada.
+Corte legislativo preservado em **13/7/2026**; consulta/revalidação em 19/9/2026. Próxima unidade habilitada: U103 — Regime dos funcionários policiais civis da União e do Distrito Federal — Lei 4.878/1965.
 
 ### Registros operacionais superados
 
