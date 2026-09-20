@@ -195,8 +195,8 @@ Entre as competências estão:
 - preservar locais de infração e controlar acesso, sem excluir a atuação legal de outros órgãos;
 - organizar identificação civil e criminal;
 - executar perícia oficial se o órgão pericial estiver integrado à Polícia Civil;
-- preservar cadeia de custódia de dados, informações, materiais, indícios e provas;
-- produzir e executar inteligência e contrainteligência;
+- preservar a **cadeia de custódia**, sequência documentada de preservação e rastreabilidade de vestígios, dados e materiais probatórios;
+- produzir e executar inteligência e **contrainteligência**, atividade voltada a proteger conhecimentos, operações e sistemas contra ações adversas;
 - realizar inspeções, correições e controle interno;
 - tratar dados e desenvolver pesquisa técnica, científica e jurídica;
 - integrar bancos de dados públicos, resguardados sigilos;
@@ -621,7 +621,7 @@ O Oficial Investigador e os demais cargos devem produzir, conforme suas atribui�
 - laudo investigativo;
 - demais peças procedimentais.
 
-Esses documentos são encaminhados ao delegado para apreciação.
+**Laudo investigativo**, nesse contexto, é a peça técnica produzida dentro das atribuições do cargo para organizar achados, análises e resultados da atividade investigativa. As demais **peças procedimentais** são documentos integrantes do procedimento de investigação. Esses documentos são encaminhados ao delegado para apreciação.
 
 ---
 
