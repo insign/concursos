@@ -1,0 +1,996 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u133-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 7.716/1989 pune crimes resultantes de discriminação ou preconceito de",
+      "options": [
+        {
+          "id": "A",
+          "text": "raça, cor, etnia, religião ou procedência nacional."
+        },
+        {
+          "id": "B",
+          "text": "raça e cor apenas."
+        },
+        {
+          "id": "C",
+          "text": "raça, cor e sexo apenas."
+        },
+        {
+          "id": "D",
+          "text": "religião apenas."
+        },
+        {
+          "id": "E",
+          "text": "origem social e profissão apenas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 1º enumera raça, cor, etnia, religião e procedência nacional."
+    },
+    {
+      "id": "u133-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei nº 14.532/2023, a injúria racial em razão de raça, cor, etnia ou procedência nacional está prevista",
+      "options": [
+        {
+          "id": "A",
+          "text": "no artigo 2º-A da Lei nº 7.716/1989."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente no artigo 140, §3º, do Código Penal."
+        },
+        {
+          "id": "C",
+          "text": "no artigo 20-C como tipo autônomo."
+        },
+        {
+          "id": "D",
+          "text": "somente na Constituição."
+        },
+        {
+          "id": "E",
+          "text": "como contravenção penal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 14.532/2023 deslocou a injúria racial para o artigo 2º-A da Lei do Racismo."
+    },
+    {
+      "id": "u133-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 2º-A abrange ofensa à dignidade ou ao decoro em razão de",
+      "options": [
+        {
+          "id": "A",
+          "text": "raça, cor, etnia ou procedência nacional."
+        },
+        {
+          "id": "B",
+          "text": "raça, cor, etnia, religião e procedência nacional."
+        },
+        {
+          "id": "C",
+          "text": "religião e idade apenas."
+        },
+        {
+          "id": "D",
+          "text": "sexo e orientação sexual apenas."
+        },
+        {
+          "id": "E",
+          "text": "qualquer motivo fútil."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Religião integra artigos como o 1º e o 20, mas não a literalidade do artigo 2º-A."
+    },
+    {
+      "id": "u133-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A pena do artigo 2º-A é",
+      "options": [
+        {
+          "id": "A",
+          "text": "reclusão de 2 a 5 anos e multa."
+        },
+        {
+          "id": "B",
+          "text": "detenção de 1 a 3 anos."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de 1 a 3 anos e multa."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de 3 a 8 anos."
+        },
+        {
+          "id": "E",
+          "text": "multa apenas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A pena atual da injúria racial é reclusão de 2 a 5 anos e multa."
+    },
+    {
+      "id": "u133-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a injúria racial do artigo 2º-A é praticada mediante concurso de duas ou mais pessoas, a pena",
+      "options": [
+        {
+          "id": "A",
+          "text": "é aumentada de metade."
+        },
+        {
+          "id": "B",
+          "text": "é dobrada."
+        },
+        {
+          "id": "C",
+          "text": "aumenta de um terço."
+        },
+        {
+          "id": "D",
+          "text": "não sofre alteração."
+        },
+        {
+          "id": "E",
+          "text": "é reduzida de metade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O parágrafo único do artigo 2º-A prevê aumento de metade."
+    },
+    {
+      "id": "u133-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o STF no HC 154.248, a injúria racial",
+      "options": [
+        {
+          "id": "A",
+          "text": "é forma de racismo e é imprescritível."
+        },
+        {
+          "id": "B",
+          "text": "é prescritível em três anos."
+        },
+        {
+          "id": "C",
+          "text": "não possui relação com racismo."
+        },
+        {
+          "id": "D",
+          "text": "é apenas ilícito civil."
+        },
+        {
+          "id": "E",
+          "text": "é afiançável por mandamento constitucional expresso."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Plenário reconheceu a injúria racial como forma de racismo e, consequentemente, imprescritível."
+    },
+    {
+      "id": "u133-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o STJ em 2026, o deslocamento da injúria racial do Código Penal para a Lei nº 7.716/1989",
+      "options": [
+        {
+          "id": "A",
+          "text": "configurou continuidade normativo-típica, sem abolitio criminis."
+        },
+        {
+          "id": "B",
+          "text": "aboliu a conduta anterior."
+        },
+        {
+          "id": "C",
+          "text": "tornou retroativa toda pena mais grave."
+        },
+        {
+          "id": "D",
+          "text": "extinguiu processos pendentes."
+        },
+        {
+          "id": "E",
+          "text": "transformou o crime em contravenção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O REsp 2.135.321 reconheceu continuidade normativo-típica; a lei mais gravosa não retroage."
+    },
+    {
+      "id": "u133-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No HC 929.002, a Sexta Turma do STJ entendeu que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o artigo 2º-A não se configurou em ofensa a pessoa branca exclusivamente por sua condição de branca, segundo a compreensão estrutural adotada no precedente."
+        },
+        {
+          "id": "B",
+          "text": "toda referência à cor branca constitui automaticamente injúria racial."
+        },
+        {
+          "id": "C",
+          "text": "o artigo 2º-A foi declarado inconstitucional."
+        },
+        {
+          "id": "D",
+          "text": "a injúria simples deixou de existir."
+        },
+        {
+          "id": "E",
+          "text": "qualquer grupo majoritário é sempre vítima do artigo 2º-A."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É o entendimento específico da Sexta Turma no HC 929.002, que deve ser atribuído ao precedente."
+    },
+    {
+      "id": "u133-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 3º pune impedir ou obstar acesso de pessoa devidamente habilitada",
+      "options": [
+        {
+          "id": "A",
+          "text": "a cargo da Administração direta ou indireta e de concessionária de serviço público."
+        },
+        {
+          "id": "B",
+          "text": "somente a emprego privado."
+        },
+        {
+          "id": "C",
+          "text": "apenas a estabelecimento comercial."
+        },
+        {
+          "id": "D",
+          "text": "somente a universidade pública."
+        },
+        {
+          "id": "E",
+          "text": "apenas às Forças Armadas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a hipótese básica do artigo 3º."
+    },
+    {
+      "id": "u133-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Obstar promoção funcional por discriminação de raça, cor, etnia, religião ou procedência nacional",
+      "options": [
+        {
+          "id": "A",
+          "text": "incorre na mesma pena do artigo 3º: reclusão de 2 a 5 anos."
+        },
+        {
+          "id": "B",
+          "text": "é apenas infração administrativa."
+        },
+        {
+          "id": "C",
+          "text": "tem pena de multa apenas."
+        },
+        {
+          "id": "D",
+          "text": "é artigo 20-A."
+        },
+        {
+          "id": "E",
+          "text": "não está previsto na lei."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O parágrafo único do artigo 3º equipara a obstrução discriminatória de promoção funcional."
+    },
+    {
+      "id": "u133-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No artigo 4º, exigir em recrutamento aparência própria de raça ou etnia sem justificativa pelas atividades do emprego sujeita o agente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "multa e prestação de serviços à comunidade."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 2 a 5 anos obrigatoriamente."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de 1 a 3 anos."
+        },
+        {
+          "id": "D",
+          "text": "detenção de 6 meses."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma sanção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O §2º do artigo 4º prevê multa e prestação de serviços, inclusive promoção da igualdade racial."
+    },
+    {
+      "id": "u133-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Recusar, negar ou impedir matrícula ou ingresso de aluno em estabelecimento de ensino público ou privado de qualquer grau",
+      "options": [
+        {
+          "id": "A",
+          "text": "tem pena de reclusão de 3 a 5 anos."
+        },
+        {
+          "id": "B",
+          "text": "tem pena de 1 a 3 anos."
+        },
+        {
+          "id": "C",
+          "text": "só é crime em escola pública."
+        },
+        {
+          "id": "D",
+          "text": "só é crime em universidade."
+        },
+        {
+          "id": "E",
+          "text": "gera multa apenas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 6º alcança ensino público e privado de qualquer grau, com pena de 3 a 5 anos."
+    },
+    {
+      "id": "u133-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se o crime do artigo 6º é praticado contra menor de 18 anos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a pena é agravada de um terço."
+        },
+        {
+          "id": "B",
+          "text": "a pena dobra."
+        },
+        {
+          "id": "C",
+          "text": "não há alteração."
+        },
+        {
+          "id": "D",
+          "text": "a pena é reduzida de um terço."
+        },
+        {
+          "id": "E",
+          "text": "o fato passa a ser contravenção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O parágrafo único do artigo 6º prevê aumento de 1/3."
+    },
+    {
+      "id": "u133-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Impedir o acesso ou recusar hospedagem em hotel ou estabelecimento similar possui pena de",
+      "options": [
+        {
+          "id": "A",
+          "text": "reclusão de 3 a 5 anos."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 1 a 3 anos."
+        },
+        {
+          "id": "C",
+          "text": "detenção de 6 meses."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de 2 a 4 anos."
+        },
+        {
+          "id": "E",
+          "text": "multa apenas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a pena do artigo 7º."
+    },
+    {
+      "id": "u133-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Impedir ou obstar o casamento ou convivência familiar e social é punido com",
+      "options": [
+        {
+          "id": "A",
+          "text": "reclusão de 2 a 4 anos."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 1 a 3 anos."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de 3 a 5 anos."
+        },
+        {
+          "id": "D",
+          "text": "detenção de 3 meses."
+        },
+        {
+          "id": "E",
+          "text": "multa apenas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 14 prevê reclusão de 2 a 4 anos."
+    },
+    {
+      "id": "u133-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A perda do cargo ou função pública e a suspensão de estabelecimento particular previstas na Lei nº 7.716/1989",
+      "options": [
+        {
+          "id": "A",
+          "text": "não são automáticas e devem ser motivadamente declaradas na sentença."
+        },
+        {
+          "id": "B",
+          "text": "são automáticas em toda condenação."
+        },
+        {
+          "id": "C",
+          "text": "dependem apenas de pedido da vítima."
+        },
+        {
+          "id": "D",
+          "text": "só existem no artigo 20."
+        },
+        {
+          "id": "E",
+          "text": "foram revogadas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 18 afasta o automatismo dos efeitos do artigo 16."
+    },
+    {
+      "id": "u133-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A suspensão do funcionamento de estabelecimento particular como efeito da condenação pode alcançar prazo",
+      "options": [
+        {
+          "id": "A",
+          "text": "não superior a 3 meses."
+        },
+        {
+          "id": "B",
+          "text": "de até 3 anos."
+        },
+        {
+          "id": "C",
+          "text": "de até 5 anos."
+        },
+        {
+          "id": "D",
+          "text": "de até 10 anos."
+        },
+        {
+          "id": "E",
+          "text": "indeterminado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 16 limita a suspensão a três meses."
+    },
+    {
+      "id": "u133-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 20, caput, pune",
+      "options": [
+        {
+          "id": "A",
+          "text": "praticar, induzir ou incitar discriminação ou preconceito pelos fundamentos legais."
+        },
+        {
+          "id": "B",
+          "text": "somente injuriar pessoa determinada."
+        },
+        {
+          "id": "C",
+          "text": "apenas negar emprego privado."
+        },
+        {
+          "id": "D",
+          "text": "somente usar símbolo nazista."
+        },
+        {
+          "id": "E",
+          "text": "qualquer crítica religiosa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O caput contém os verbos praticar, induzir e incitar."
+    },
+    {
+      "id": "u133-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A pena do artigo 20, caput, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "reclusão de 1 a 3 anos e multa."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 2 a 5 anos e multa."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de 3 a 5 anos."
+        },
+        {
+          "id": "D",
+          "text": "detenção de 1 a 2 anos."
+        },
+        {
+          "id": "E",
+          "text": "multa apenas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a pena básica do artigo 20."
+    },
+    {
+      "id": "u133-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime do artigo 20, §1º, relativo à cruz suástica ou gamada exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "finalidade de divulgação do nazismo."
+        },
+        {
+          "id": "B",
+          "text": "apenas posse privada de qualquer objeto histórico."
+        },
+        {
+          "id": "C",
+          "text": "qualquer utilização acadêmica do símbolo."
+        },
+        {
+          "id": "D",
+          "text": "ofensa individual obrigatória."
+        },
+        {
+          "id": "E",
+          "text": "resultado lesão corporal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O fim de divulgação do nazismo integra expressamente o tipo."
+    },
+    {
+      "id": "u133-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se crime do artigo 20 é cometido por rede social, internet ou publicação de qualquer natureza, a pena é",
+      "options": [
+        {
+          "id": "A",
+          "text": "reclusão de 2 a 5 anos e multa."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 1 a 3 anos e multa."
+        },
+        {
+          "id": "C",
+          "text": "multa apenas."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de 6 a 12 anos."
+        },
+        {
+          "id": "E",
+          "text": "detenção de 3 meses."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O §2º prevê pena de 2 a 5 anos e multa."
+    },
+    {
+      "id": "u133-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No contexto de atividade esportiva, religiosa, artística ou cultural destinada ao público, o artigo 20 prevê",
+      "options": [
+        {
+          "id": "A",
+          "text": "reclusão de 2 a 5 anos e proibição de frequência, por 3 anos, aos locais indicados pela lei."
+        },
+        {
+          "id": "B",
+          "text": "somente multa."
+        },
+        {
+          "id": "C",
+          "text": "pena de 1 a 3 anos sem outra consequência."
+        },
+        {
+          "id": "D",
+          "text": "perda automática do cargo."
+        },
+        {
+          "id": "E",
+          "text": "suspensão do processo obrigatória."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a regra do §2º-A."
+    },
+    {
+      "id": "u133-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Obstar, impedir ou empregar violência contra manifestação ou prática religiosa",
+      "options": [
+        {
+          "id": "A",
+          "text": "incorre nas penas do caput do artigo 20, sem prejuízo da pena correspondente à violência."
+        },
+        {
+          "id": "B",
+          "text": "é sempre atípico."
+        },
+        {
+          "id": "C",
+          "text": "só gera responsabilidade civil."
+        },
+        {
+          "id": "D",
+          "text": "tem pena exclusiva de multa."
+        },
+        {
+          "id": "E",
+          "text": "é tratado pelo artigo 2º-A."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O §2º-B protege manifestações e práticas religiosas."
+    },
+    {
+      "id": "u133-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As providências de recolhimento, cessação de transmissão e interdição de páginas previstas no artigo 20, §3º, estão ligadas literalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "às hipóteses do §2º."
+        },
+        {
+          "id": "B",
+          "text": "a qualquer crime da lei, sem restrição."
+        },
+        {
+          "id": "C",
+          "text": "somente ao artigo 2º-A."
+        },
+        {
+          "id": "D",
+          "text": "apenas ao artigo 4º."
+        },
+        {
+          "id": "E",
+          "text": "somente depois do trânsito em julgado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O §3º começa com 'No caso do §2º deste artigo'."
+    },
+    {
+      "id": "u133-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A destruição do material apreendido no regime do artigo 20, §4º, ocorre",
+      "options": [
+        {
+          "id": "A",
+          "text": "após o trânsito em julgado da condenação."
+        },
+        {
+          "id": "B",
+          "text": "antes do inquérito obrigatoriamente."
+        },
+        {
+          "id": "C",
+          "text": "logo após a apreensão, sem decisão."
+        },
+        {
+          "id": "D",
+          "text": "após denúncia apenas."
+        },
+        {
+          "id": "E",
+          "text": "nunca."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei condiciona o efeito ao trânsito em julgado."
+    },
+    {
+      "id": "u133-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O chamado racismo recreativo do artigo 20-A",
+      "options": [
+        {
+          "id": "A",
+          "text": "aumenta de 1/3 até a metade as penas dos crimes da lei quando ocorrem em contexto ou intuito de descontração, diversão ou recreação."
+        },
+        {
+          "id": "B",
+          "text": "é causa de exclusão da ilicitude."
+        },
+        {
+          "id": "C",
+          "text": "reduz a pena de metade."
+        },
+        {
+          "id": "D",
+          "text": "vale apenas para artigo 20."
+        },
+        {
+          "id": "E",
+          "text": "foi vetado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 20-A é causa de aumento aplicável aos crimes previstos na lei."
+    },
+    {
+      "id": "u133-a27",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A majorante do artigo 20-B por atuação de funcionário público está escrita para os crimes dos artigos",
+      "options": [
+        {
+          "id": "A",
+          "text": "2º-A e 20."
+        },
+        {
+          "id": "B",
+          "text": "3º a 14 apenas."
+        },
+        {
+          "id": "C",
+          "text": "todos os artigos indistintamente."
+        },
+        {
+          "id": "D",
+          "text": "6º e 7º apenas."
+        },
+        {
+          "id": "E",
+          "text": "20-C e 20-D."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 20-B menciona especificamente os artigos 2º-A e 20."
+    },
+    {
+      "id": "u133-a28",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 20-C é",
+      "options": [
+        {
+          "id": "A",
+          "text": "regra interpretativa para identificação de tratamento discriminatório, não tipo penal autônomo."
+        },
+        {
+          "id": "B",
+          "text": "crime com pena de 2 a 5 anos."
+        },
+        {
+          "id": "C",
+          "text": "causa de exclusão da pena."
+        },
+        {
+          "id": "D",
+          "text": "regra de prescrição."
+        },
+        {
+          "id": "E",
+          "text": "crime exclusivo de funcionário público."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O dispositivo orienta a interpretação da lei e não possui pena própria."
+    },
+    {
+      "id": "u133-a29",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 20-D assegura que a vítima dos crimes de racismo esteja acompanhada por advogado ou defensor público",
+      "options": [
+        {
+          "id": "A",
+          "text": "em todos os atos processuais civis e criminais."
+        },
+        {
+          "id": "B",
+          "text": "apenas na audiência criminal."
+        },
+        {
+          "id": "C",
+          "text": "somente no inquérito policial."
+        },
+        {
+          "id": "D",
+          "text": "apenas no processo civil."
+        },
+        {
+          "id": "E",
+          "text": "somente após sentença."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A abrangência do artigo 20-D é expressamente civil e criminal."
+    },
+    {
+      "id": "u133-a30",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo ADO 26 e MI 4.733 do STF, enquanto persistir a omissão legislativa específica,",
+      "options": [
+        {
+          "id": "A",
+          "text": "homofobia e transfobia enquadram-se nos tipos da Lei nº 7.716/1989 nos termos da interpretação vinculante."
+        },
+        {
+          "id": "B",
+          "text": "homofobia é sempre atípica."
+        },
+        {
+          "id": "C",
+          "text": "somente o Congresso pode aplicar a lei em cada caso."
+        },
+        {
+          "id": "D",
+          "text": "a Lei nº 7.716/1989 foi revogada."
+        },
+        {
+          "id": "E",
+          "text": "orientação sexual foi literalmente inserida no artigo 1º por decisão judicial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O STF deu interpretação conforme à Constituição sem alterar a redação literal do artigo 1º."
+    },
+    {
+      "id": "u133-a31",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 2026, a Sexta Turma do STJ decidiu, em caso de preconceito religioso do artigo 20, que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a suspensão condicional do processo não era cabível, aplicando raciocínio de combate aos crimes raciais."
+        },
+        {
+          "id": "B",
+          "text": "todo crime racial admite obrigatoriamente suspensão."
+        },
+        {
+          "id": "C",
+          "text": "o artigo 20 é contravenção."
+        },
+        {
+          "id": "D",
+          "text": "intolerância religiosa foi retirada da lei."
+        },
+        {
+          "id": "E",
+          "text": "o acordo de não persecução é direito subjetivo absoluto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O RHC 219.028 afastou a suspensão condicional do processo no caso julgado."
+    },
+    {
+      "id": "u133-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 7 da prova oral Cebraspe do concurso notarial do Tribunal de Justiça de Santa Catarina de 2022, a condenação com base na Lei nº 7.716/1989 pode produzir, para servidor público, perda do cargo ou função. Esse efeito",
+      "options": [
+        {
+          "id": "A",
+          "text": "é automático."
+        },
+        {
+          "id": "B",
+          "text": "não é automático e deve ser motivadamente declarado na sentença."
+        },
+        {
+          "id": "C",
+          "text": "depende apenas de ato administrativo."
+        },
+        {
+          "id": "D",
+          "text": "só existe para o artigo 20."
+        },
+        {
+          "id": "E",
+          "text": "foi revogado pela Lei nº 14.532/2023."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O padrão oficial cobra os artigos 16 e 18: perda do cargo é possível, mas depende de declaração motivada na sentença."
+    },
+    {
+      "id": "u133-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação atualizada da questão 9 da prova oral Cebraspe da Polícia Civil de Rondônia de 2022, após a Lei nº 14.532/2023, a distinção útil entre injúria racial e o núcleo geral do artigo 20 é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a injúria racial deixou de ser racismo."
+        },
+        {
+          "id": "B",
+          "text": "o artigo 2º-A se dirige à ofensa à dignidade ou decoro de pessoa determinada, enquanto o artigo 20 pune praticar, induzir ou incitar discriminação ou preconceito; ambos hoje integram a Lei nº 7.716/1989."
+        },
+        {
+          "id": "C",
+          "text": "o artigo 20 só protege pessoa individualizada."
+        },
+        {
+          "id": "D",
+          "text": "a injúria racial permanece exclusivamente no Código Penal."
+        },
+        {
+          "id": "E",
+          "text": "ambos possuem exatamente a mesma pena em qualquer hipótese."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O padrão oral histórico distinguia direcionamento individual e coletivo. A adaptação atualiza o regime: desde 2023, a injúria racial está no artigo 2º-A da Lei nº 7.716/1989."
+    }
+  ]
+}
