@@ -92,7 +92,7 @@ Vencimento → parcela fixa do cargo.
 Remuneração → vencimento + vantagens.  
 Subsídio → parcela única para categorias submetidas ao modelo.
 
-Reposição ao erário → parcelas até **1/5** da remuneração/provento nas hipóteses legais.
+Reposição ao erário → parcelas até **1/5** da remuneração ou do valor de aposentadoria, nas hipóteses legais.
 
 ## Indenizações
 
@@ -146,7 +146,7 @@ Limite geral de 24 meses → exceções incluem acompanhar cônjuge, serviço mi
 
 Cada **5 anos ininterruptos** → **3 meses**, conforme requisitos.
 
-## Filho/curatelado com deficiência
+## Filho ou pessoa sob curatela com deficiência
 
 Lei 11.720/2022:
 - redução da jornada → até **metade**;
@@ -240,7 +240,7 @@ Gatilhos:
 - proibições graves.
 
 Abandono → **>30 dias consecutivos**.  
-Inassiduidade → **60 dias interpolados/12 meses**.
+Inassiduidade → **60 dias não consecutivos/12 meses**.
 
 ## Prescrição disciplinar
 
@@ -270,7 +270,7 @@ Revisão → 60 dias + julgamento 20 dias; **não agrava** a pena.
 
 ## Atualizações recentes
 
-- 2022 → jornada reduzida por filho/curatelado com deficiência;
+- 2022 → jornada reduzida por filho ou pessoa sob curatela com deficiência;
 - 2023 → vacância por posse em cargo inacumulável;
 - 2024 → artigo 88 voltou, mas só para grupo tributário.
 
