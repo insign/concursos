@@ -34,6 +34,6 @@
 - Classificação: **nova/local**, sem `vinculo.json`.
 - Apoio físico auditado: `src/content/assuntos/tce-ma-2026-tecnico-administrativa/conhecimentos-gerais/direito-constitucional/organizacao-politico-administrativa-estado/`.
 - Blobs do doador: conteúdo `568bc25a9bca83b4150285834a9e3754494099dd`; revisão `a0809b2ad3c0287af06242651cbf9a15265f62d1`; referências `4325951dbc56d66604e0b856447134b0a0ad17b7`; questões `b2ee70d5ccaa02d45cf71d5fbc1aff0be1180e88`.
-- O doador é mais amplo. U115 reutiliza apenas o necessário ao item PC-MA: Federação, entes, reorganização territorial, matriz mínima de competências e organização de Estados, Municípios, Distrito Federal e Territórios.
+- O doador é mais amplo. U115 reutiliza apenas o necessário ao item da Polícia Civil do Maranhão: Federação, entes, reorganização territorial, matriz mínima de competências e organização de Estados, Municípios, Distrito Federal e Territórios.
 - Intervenção federal/estadual e aprofundamentos que excedem o item 5/5.1 não foram importados.
 - Corte legislativo: **13/7/2026**. Consulta/revalidação: **20/9/2026**.
