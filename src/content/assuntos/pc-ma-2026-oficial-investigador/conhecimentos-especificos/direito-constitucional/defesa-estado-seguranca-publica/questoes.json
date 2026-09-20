@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u121-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O estado de defesa pode ser decretado pelo Presidente da República, depois de ouvidos os Conselhos constitucionais, para",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer crise econômica nacional, sem delimitação territorial."
+        },
+        {
+          "id": "B",
+          "text": "preservar ou prontamente restabelecer, em locais restritos e determinados, a ordem pública ou a paz social ameaçadas nas hipóteses do art. 136."
+        },
+        {
+          "id": "C",
+          "text": "substituir permanentemente os órgãos de segurança pública."
+        },
+        {
+          "id": "D",
+          "text": "suspender toda a Constituição."
+        },
+        {
+          "id": "E",
+          "text": "declarar guerra sem participação do Congresso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 136 exige locais restritos e determinados e as hipóteses de grave e iminente instabilidade institucional ou calamidade natural de grandes proporções."
+    },
+    {
+      "id": "u121-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao prazo do estado de defesa, a Constituição estabelece",
+      "options": [
+        {
+          "id": "A",
+          "text": "trinta dias, prorrogáveis uma única vez por igual período, se persistirem as razões."
+        },
+        {
+          "id": "B",
+          "text": "sessenta dias, sem prorrogação."
+        },
+        {
+          "id": "C",
+          "text": "trinta dias, com prorrogações sucessivas ilimitadas."
+        },
+        {
+          "id": "D",
+          "text": "noventa dias, prorrogáveis uma vez."
+        },
+        {
+          "id": "E",
+          "text": "prazo livre definido pelo Presidente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 136, § 2º, fixa até 30 dias e uma única prorrogação por igual período."
+    },
+    {
+      "id": "u121-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na vigência do estado de defesa, a prisão ou detenção de qualquer pessoa",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode durar trinta dias sem controle judicial."
+        },
+        {
+          "id": "B",
+          "text": "não pode superar dez dias, salvo autorização do Poder Judiciário."
+        },
+        {
+          "id": "C",
+          "text": "permite incomunicabilidade por até cinco dias."
+        },
+        {
+          "id": "D",
+          "text": "dispensa comunicação ao juiz."
+        },
+        {
+          "id": "E",
+          "text": "somente pode ser decretada pelo Congresso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 136, § 3º, III, fixa máximo de dez dias, salvo autorização judicial; o inciso IV veda a incomunicabilidade."
+    },
+    {
+      "id": "u121-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Decretado o estado de defesa, o Presidente da República deve submeter o ato e sua justificativa ao Congresso Nacional",
+      "options": [
+        {
+          "id": "A",
+          "text": "em vinte e quatro horas."
+        },
+        {
+          "id": "B",
+          "text": "em cinco dias."
+        },
+        {
+          "id": "C",
+          "text": "em dez dias."
+        },
+        {
+          "id": "D",
+          "text": "ao fim do primeiro período de trinta dias."
+        },
+        {
+          "id": "E",
+          "text": "somente se houver prorrogação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 136, § 4º, estabelece o prazo de vinte e quatro horas."
+    },
+    {
+      "id": "u121-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se o Congresso rejeitar o decreto de estado de defesa,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o estado permanece até trinta dias."
+        },
+        {
+          "id": "B",
+          "text": "o Supremo Tribunal Federal decide se ele continua."
+        },
+        {
+          "id": "C",
+          "text": "cessa imediatamente o estado de defesa."
+        },
+        {
+          "id": "D",
+          "text": "o Presidente pode convertê-lo automaticamente em estado de sítio."
+        },
+        {
+          "id": "E",
+          "text": "a rejeição só produz efeito ao fim da prorrogação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 136, § 7º, determina a cessação imediata em caso de rejeição."
+    },
+    {
+      "id": "u121-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença procedimental central entre estado de defesa e estado de sítio é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o estado de defesa depende de autorização prévia do Congresso, e o de sítio não."
+        },
+        {
+          "id": "B",
+          "text": "o estado de sítio depende de autorização prévia do Congresso, enquanto o estado de defesa é decretado e depois submetido ao Congresso."
+        },
+        {
+          "id": "C",
+          "text": "nenhum dos dois envolve o Congresso."
+        },
+        {
+          "id": "D",
+          "text": "somente o estado de defesa exige ouvir os Conselhos."
+        },
+        {
+          "id": "E",
+          "text": "somente o estado de sítio é decretado pelo Presidente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Nos dois casos os Conselhos são ouvidos; no sítio, o Presidente solicita autorização congressual antes de decretar."
+    },
+    {
+      "id": "u121-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Constitui hipótese do estado de sítio prevista no art. 137, I,",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer calamidade municipal."
+        },
+        {
+          "id": "B",
+          "text": "comoção grave de repercussão nacional ou ineficácia de medida tomada durante o estado de defesa."
+        },
+        {
+          "id": "C",
+          "text": "apenas guerra declarada."
+        },
+        {
+          "id": "D",
+          "text": "mera elevação dos índices de criminalidade."
+        },
+        {
+          "id": "E",
+          "text": "recesso parlamentar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O inciso I reúne comoção grave de repercussão nacional e fatos que comprovem a ineficácia do estado de defesa."
+    },
+    {
+      "id": "u121-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No estado de sítio fundado no art. 137, I, cada período de decretação ou prorrogação não pode superar",
+      "options": [
+        {
+          "id": "A",
+          "text": "dez dias."
+        },
+        {
+          "id": "B",
+          "text": "quinze dias."
+        },
+        {
+          "id": "C",
+          "text": "trinta dias."
+        },
+        {
+          "id": "D",
+          "text": "sessenta dias."
+        },
+        {
+          "id": "E",
+          "text": "noventa dias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 138, § 1º, limita a trinta dias o período inicial e cada prorrogação na hipótese do art. 137, I."
+    },
+    {
+      "id": "u121-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as medidas admitidas pelo art. 139 no estado de sítio fundado no art. 137, I, está",
+      "options": [
+        {
+          "id": "A",
+          "text": "detenção em edifício destinado a presos comuns."
+        },
+        {
+          "id": "B",
+          "text": "busca e apreensão em domicílio."
+        },
+        {
+          "id": "C",
+          "text": "extinção do Poder Legislativo."
+        },
+        {
+          "id": "D",
+          "text": "suspensão definitiva do direito de propriedade."
+        },
+        {
+          "id": "E",
+          "text": "proibição absoluta de pronunciamentos parlamentares em suas Casas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 139 inclui busca domiciliar; a detenção deve ocorrer em edifício não destinado a acusados ou condenados por crimes comuns."
+    },
+    {
+      "id": "u121-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A execução das medidas de estado de defesa e de estado de sítio é acompanhada e fiscalizada por",
+      "options": [
+        {
+          "id": "A",
+          "text": "comissão de cinco membros designada pela Mesa do Congresso, ouvidos os líderes partidários."
+        },
+        {
+          "id": "B",
+          "text": "comissão de onze Ministros do Supremo Tribunal Federal."
+        },
+        {
+          "id": "C",
+          "text": "comissão formada pelos governadores."
+        },
+        {
+          "id": "D",
+          "text": "Conselho da República exclusivamente."
+        },
+        {
+          "id": "E",
+          "text": "Conselho de Defesa Nacional exclusivamente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a regra do art. 140."
+    },
+    {
+      "id": "u121-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Cessado o estado de defesa ou o estado de sítio,",
+      "options": [
+        {
+          "id": "A",
+          "text": "ficam automaticamente perdoados ilícitos de seus executores."
+        },
+        {
+          "id": "B",
+          "text": "cessam seus efeitos, sem prejuízo da responsabilidade por ilícitos cometidos."
+        },
+        {
+          "id": "C",
+          "text": "permanecem todas as restrições por trinta dias."
+        },
+        {
+          "id": "D",
+          "text": "o Congresso não recebe relatório posterior."
+        },
+        {
+          "id": "E",
+          "text": "a responsabilidade passa exclusivamente ao Presidente da República."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 141 preserva a responsabilidade pelos ilícitos cometidos por executores ou agentes."
+    },
+    {
+      "id": "u121-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As Forças Armadas são constituídas por",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polícia Federal, Exército e Aeronáutica."
+        },
+        {
+          "id": "B",
+          "text": "Marinha, Exército e Aeronáutica."
+        },
+        {
+          "id": "C",
+          "text": "Marinha, polícias militares e Exército."
+        },
+        {
+          "id": "D",
+          "text": "Exército, polícias civis e Aeronáutica."
+        },
+        {
+          "id": "E",
+          "text": "Marinha, guardas municipais e Exército."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O caput do art. 142 enumera Marinha, Exército e Aeronáutica."
+    },
+    {
+      "id": "u121-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o STF na ADI 6.457, o art. 142 da Constituição",
+      "options": [
+        {
+          "id": "A",
+          "text": "confere às Forças Armadas poder moderador entre os Poderes."
+        },
+        {
+          "id": "B",
+          "text": "autoriza intervenção militar preventiva contra qualquer Poder."
+        },
+        {
+          "id": "C",
+          "text": "não acomoda poder moderador; o emprego para garantia da lei e da ordem é excepcional e subsidiário, nos termos constitucionais e legais."
+        },
+        {
+          "id": "D",
+          "text": "retira do Presidente a autoridade sobre as Forças Armadas."
+        },
+        {
+          "id": "E",
+          "text": "faz das Forças Armadas órgão de segurança pública ordinária."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na ADI 6.457, o STF afastou a tese de poder moderador e caracterizou a garantia da lei e da ordem como emprego excepcional e subsidiário."
+    },
+    {
+      "id": "u121-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Constituição proíbe aos militares das Forças Armadas",
+      "options": [
+        {
+          "id": "A",
+          "text": "sindicalização e greve."
+        },
+        {
+          "id": "B",
+          "text": "qualquer cargo público civil em todas as hipóteses."
+        },
+        {
+          "id": "C",
+          "text": "o uso de uniformes."
+        },
+        {
+          "id": "D",
+          "text": "a passagem para a reserva."
+        },
+        {
+          "id": "E",
+          "text": "a concessão de patentes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 142, § 3º, IV, proíbe sindicalização e greve."
+    },
+    {
+      "id": "u121-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O serviço militar, segundo o art. 143,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é facultativo para todos."
+        },
+        {
+          "id": "B",
+          "text": "é obrigatório nos termos da lei, com serviço alternativo em tempo de paz para hipóteses constitucionais de imperativo de consciência."
+        },
+        {
+          "id": "C",
+          "text": "é obrigatório apenas para mulheres."
+        },
+        {
+          "id": "D",
+          "text": "não admite serviço alternativo."
+        },
+        {
+          "id": "E",
+          "text": "é matéria exclusiva de decreto presidencial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 143 prevê obrigatoriedade e serviço alternativo para quem, após alistado em tempo de paz, alegar imperativo de consciência nas condições constitucionais."
+    },
+    {
+      "id": "u121-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O caput do art. 144 define a segurança pública como",
+      "options": [
+        {
+          "id": "A",
+          "text": "dever exclusivo da União."
+        },
+        {
+          "id": "B",
+          "text": "dever do Estado, direito e responsabilidade de todos, voltada à ordem pública e à incolumidade das pessoas e do patrimônio."
+        },
+        {
+          "id": "C",
+          "text": "atribuição privativa das polícias militares."
+        },
+        {
+          "id": "D",
+          "text": "atividade temporária em crises institucionais."
+        },
+        {
+          "id": "E",
+          "text": "responsabilidade exclusiva dos Municípios."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Essa é a fórmula constitucional do caput do art. 144."
+    },
+    {
+      "id": "u121-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Integram a enumeração do caput do art. 144",
+      "options": [
+        {
+          "id": "A",
+          "text": "polícia federal, polícia rodoviária federal, polícia ferroviária federal, polícias civis, polícias militares e corpos de bombeiros militares e polícias penais."
+        },
+        {
+          "id": "B",
+          "text": "Forças Armadas, Ministério Público e guardas municipais."
+        },
+        {
+          "id": "C",
+          "text": "somente polícias federal, civil e militar."
+        },
+        {
+          "id": "D",
+          "text": "Tribunais de Contas e Defensoria Pública."
+        },
+        {
+          "id": "E",
+          "text": "agentes de trânsito como sétimo inciso do caput."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "São os seis grupos dos incisos I a VI; a polícia penal foi inserida pela EC 104/2019."
+    },
+    {
+      "id": "u121-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compete à Polícia Federal, com exclusividade,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o patrulhamento ostensivo de todas as rodovias."
+        },
+        {
+          "id": "B",
+          "text": "a polícia judiciária da União."
+        },
+        {
+          "id": "C",
+          "text": "a investigação de toda infração penal estadual."
+        },
+        {
+          "id": "D",
+          "text": "a segurança de todos os estabelecimentos penais."
+        },
+        {
+          "id": "E",
+          "text": "a polícia ostensiva estadual."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 144, § 1º, IV, atribui com exclusividade à Polícia Federal as funções de polícia judiciária da União."
+    },
+    {
+      "id": "u121-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "À Polícia Rodoviária Federal e à Polícia Ferroviária Federal cabem, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "polícia judiciária da União e investigação militar."
+        },
+        {
+          "id": "B",
+          "text": "patrulhamento ostensivo das rodovias federais e das ferrovias federais."
+        },
+        {
+          "id": "C",
+          "text": "investigação estadual e segurança penitenciária."
+        },
+        {
+          "id": "D",
+          "text": "defesa civil e policiamento comunitário municipal."
+        },
+        {
+          "id": "E",
+          "text": "controle externo da polícia e investigação federal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a divisão dos §§ 2º e 3º do art. 144."
+    },
+    {
+      "id": "u121-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Às polícias civis incumbem, ressalvada a competência da União,",
+      "options": [
+        {
+          "id": "A",
+          "text": "polícia ostensiva e preservação da ordem pública."
+        },
+        {
+          "id": "B",
+          "text": "funções de polícia judiciária e apuração de infrações penais, exceto as militares."
+        },
+        {
+          "id": "C",
+          "text": "segurança dos estabelecimentos penais."
+        },
+        {
+          "id": "D",
+          "text": "patrulhamento das rodovias federais."
+        },
+        {
+          "id": "E",
+          "text": "defesa externa da Pátria."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 144, § 4º, traz esse núcleo e exige direção por delegados de polícia de carreira."
+    },
+    {
+      "id": "u121-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Às polícias militares e aos corpos de bombeiros militares cabem, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "polícia judiciária e investigação criminal."
+        },
+        {
+          "id": "B",
+          "text": "polícia ostensiva/preservação da ordem pública e atividades de defesa civil, além das atribuições legais dos bombeiros."
+        },
+        {
+          "id": "C",
+          "text": "polícia de fronteiras e segurança penitenciária."
+        },
+        {
+          "id": "D",
+          "text": "apuração de infrações federais e combate ao contrabando."
+        },
+        {
+          "id": "E",
+          "text": "controle externo das polícias civis."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a divisão do art. 144, § 5º."
+    },
+    {
+      "id": "u121-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Às polícias penais cabe constitucionalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "a segurança dos estabelecimentos penais."
+        },
+        {
+          "id": "B",
+          "text": "a polícia judiciária estadual."
+        },
+        {
+          "id": "C",
+          "text": "o patrulhamento de rodovias."
+        },
+        {
+          "id": "D",
+          "text": "a defesa civil."
+        },
+        {
+          "id": "E",
+          "text": "o controle externo da polícia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 5º-A, introduzido pela EC 104/2019, atribui às polícias penais a segurança dos estabelecimentos penais."
+    },
+    {
+      "id": "u121-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Subordinam-se aos Governadores, segundo o art. 144, § 6º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polícia Federal e Polícia Rodoviária Federal."
+        },
+        {
+          "id": "B",
+          "text": "polícias militares, corpos de bombeiros militares, polícias civis e polícias penais estaduais e distrital."
+        },
+        {
+          "id": "C",
+          "text": "Forças Armadas e Polícia Federal."
+        },
+        {
+          "id": "D",
+          "text": "somente as polícias civis."
+        },
+        {
+          "id": "E",
+          "text": "guardas municipais de todos os Municípios do Estado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 6º reúne esses quatro grupos na subordinação aos Governadores."
+    },
+    {
+      "id": "u121-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre guardas municipais, a jurisprudência atual do STF admite",
+      "options": [
+        {
+          "id": "A",
+          "text": "polícia judiciária municipal."
+        },
+        {
+          "id": "B",
+          "text": "ações de segurança urbana, inclusive policiamento ostensivo e comunitário, respeitadas competências dos demais órgãos e excluída polícia judiciária."
+        },
+        {
+          "id": "C",
+          "text": "substituição da denominação Guarda Municipal por Polícia Municipal."
+        },
+        {
+          "id": "D",
+          "text": "investigação criminal exclusiva municipal."
+        },
+        {
+          "id": "E",
+          "text": "subordinação ao Governador do Estado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Tema 656 reconhece ações de segurança urbana pelas guardas, inclusive policiamento ostensivo e comunitário, mas exclui polícia judiciária e preserva competências constitucionais alheias."
+    },
+    {
+      "id": "u121-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 47 da prova Cebraspe para Delegado da Polícia Civil do Espírito Santo, aplicada em 11/9/2022, assinale a alternativa correta sobre o estado de defesa.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Decretado o estado de defesa ou sua prorrogação, o Presidente deve, em vinte e quatro horas, submeter o ato e a justificativa ao Congresso, que decide por maioria absoluta."
+        },
+        {
+          "id": "B",
+          "text": "O Congresso aprecia o decreto em cinco dias de seu recebimento."
+        },
+        {
+          "id": "C",
+          "text": "O estado de defesa pode ser prorrogado sucessivas vezes por trinta dias."
+        },
+        {
+          "id": "D",
+          "text": "A incomunicabilidade do preso é admitida no estado de defesa."
+        },
+        {
+          "id": "E",
+          "text": "O estado de defesa depende sempre de autorização congressual prévia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O gabarito definitivo da questão original foi A. A adaptação preserva o art. 136, § 4º: envio em vinte e quatro horas e decisão congressual por maioria absoluta."
+    },
+    {
+      "id": "u121-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 74 da prova Cebraspe para Escrivão da Polícia Civil de Alagoas em 2021, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "As polícias civis estaduais podem ser dirigidas por qualquer agente político nomeado pelo Governador."
+        },
+        {
+          "id": "B",
+          "text": "As polícias civis são dirigidas por delegados de polícia de carreira e, nos Estados, subordinam-se aos respectivos Governadores."
+        },
+        {
+          "id": "C",
+          "text": "As polícias civis subordinam-se à Polícia Federal."
+        },
+        {
+          "id": "D",
+          "text": "A Constituição atribui às polícias civis a apuração de infrações penais militares."
+        },
+        {
+          "id": "E",
+          "text": "As polícias civis exercem policiamento ostensivo como função constitucional principal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O item original teve gabarito definitivo C. A adaptação combina os §§ 4º e 6º do art. 144: direção por delegados de carreira e subordinação aos Governadores. O item 75 da mesma prova foi anulado e não foi utilizado."
+    }
+  ]
+}
