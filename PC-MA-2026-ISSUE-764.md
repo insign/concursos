@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U114; PC-E12 permanece concluído e PC-E13 segue em execução; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U115; PC-E12 permanece concluído e PC-E13 segue em execução; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 44 | 0 | 114 |
-| Entregáveis de unidade C/H/Q | 474 | 132 | 0 | 342 |
+| Unidades reais previstas | 158 | 43 | 0 | 115 |
+| Entregáveis de unidade C/H/Q | 474 | 129 | 0 | 345 |
 | Tarefas macro individualizadas | 62 | 26 | 0 | 36 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U114` e `U144` = **114 unidades**. Pendentes: `U075`, `U115–U143`, `U145–U158` = **44 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U115` e `U144` = **115 unidades**. Pendentes: `U075`, `U116–U143`, `U145–U158` = **43 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **116 = 99 físicas locais + 17 vínculos canônicos**. U114 acrescentou uma visão física local; o `grupo.json` de Direito Constitucional permanece estrutural e não é visão nem unidade. Não confundir 116 visões materializadas com 114 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **117 = 100 físicas locais + 17 vínculos canônicos**. U115 acrescentou uma visão física local; o `grupo.json` de Direito Constitucional permanece estrutural e não é visão nem unidade. Não confundir 117 visões materializadas com 115 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
 Reservas ativas na transferência: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U115 — Organização político-administrativa do Estado**, C/H/Q `pending`. U114 foi concluída; PC-E13-C/H/Q permanece `pending` como macro enquanto U115–U122 não forem concluídas.
+**Próxima ação editorial: U116 — Administração pública e servidores públicos na Constituição**, C/H/Q `pending`. U115 foi concluída; PC-E13-C/H/Q permanece `pending` como macro enquanto U116–U122 não forem concluídas.
 
 ### Pendências e divergências herdadas
 
@@ -419,7 +419,7 @@ A classificação PC-R02 permanece autoritativa: **U112–U122 são novas/locais
 | 1; 1.1 | U112 — Estado e Constituição — conceito, conteúdo, objeto e classificação — `estado-e-constituicao` | Estado e Constituição; conceito, conteúdo, objeto e classificação da Constituição. Abre o bloco; não antecipar emendas, princípios ou aplicabilidade além da ponte mínima | nova/local; TCE Noções `cf88-conceito-classificacoes-emendas/`, árvore `3ce14775185bf4a2a6f4b882e54d930666456cac`, usado seletivamente; snapshot `016c3b2c0a460ba9ee7036d587dbd237d375a6c6` | done | done | done |
 | 2; 2.1–2.2 | U113 — Constituição Federal de 1988 — preâmbulo, princípios fundamentais, dignidade da pessoa humana e direitos humanos — `cf88-preambulo-principios-fundamentais` | Constituição de 1988; preâmbulo; arts. 1º–4º; dignidade da pessoa humana e direitos humanos no recorte constitucional. Não absorver a teoria ampla de direitos humanos de PC-E15 | nova/local; apoio parcial TCE Geral `constituicao-1988-principios-fundamentais/`; snapshot `1e7a5014641826a8afa9edc4faa9c6484eda48fa` | done | done | done |
 | 3; 3.1; 4 | U114 — Direitos e garantias fundamentais e remédios constitucionais — `direitos-garantias-remedios-constitucionais` | Direitos/deveres individuais e coletivos; direitos sociais; nacionalidade; direitos políticos; partidos; habeas data, habeas corpus, mandado de segurança, ação popular e mandado de injunção. Única junção do bloco; U113 fornece apenas a ponte de dignidade/fundamentos | nova/local; apoio físico TCE auditado, com adaptação de corte e Tema 280; snapshot `a70d4f12220240498d09d30449d6ad88cda94d21` | done | done | done |
-| 5; 5.1 | U115 — Organização político-administrativa do Estado — `organizacao-politico-administrativa-estado` | Estado federal brasileiro, União, Estados, Distrito Federal, Municípios e Territórios. Repartição de competências somente na medida necessária ao item; não importar automaticamente todo o pacote mais amplo do TCE | TCE Geral: `organizacao-politico-administrativa-estado/`, árvore `6b346ad5813a19438d8d7c865b0cc84f0575e652`; apoio parcial | pending | pending | pending |
+| 5; 5.1 | U115 — Organização político-administrativa do Estado — `organizacao-politico-administrativa-estado` | Estado federal brasileiro, União, Estados, Distrito Federal, Municípios e Territórios. Repartição de competências somente na medida necessária ao item; não importar automaticamente todo o pacote mais amplo do TCE | nova/local; apoio parcial TCE Geral `organizacao-politico-administrativa-estado/`; snapshot `97982b8e8582ef134792f20dae9c283a93066e89` | done | done | done |
 | 6; 6.1 | U116 — Administração pública e servidores públicos na Constituição — `administracao-publica-servidores-publicos` | Disposições gerais e servidores públicos, com foco no recorte constitucional. Dialoga com Direito Administrativo, mas não repete Lei 8.112/1990 nem estatutos estaduais/policiais | TCE Geral: `administracao-publica-servidores-publicos/`, árvore `1bf5080b4c7edbb3b1ae013fa813b812b68d0f3d`; escopo muito próximo, mas exige auditoria integral e corte PC | pending | pending | pending |
 | 7; 7.1 | U117 — Poder Executivo — atribuições e responsabilidades do Presidente da República — `poder-executivo-presidente-republica` | Poder Executivo federal, atribuições e responsabilidades presidenciais. Não ampliar para organização administrativa de U099 nem para detalhamento ministerial sem necessidade do recorte | TCE Geral: `poder-executivo-presidente-republica/`, árvore `935af0aaeb5a68875f60dcdce6525be90573c975`; apoio parcial | pending | pending | pending |
 | 8; 8.1–8.2 | U118 — Poder Legislativo — estrutura, funcionamento e atribuições — `poder-legislativo` | Estrutura, funcionamento e atribuições. Processo legislativo, fiscalização contábil/financeira/orçamentária e comissões parlamentares de inquérito não são importados automaticamente do doador quando excederem o item PC | TCE Geral: `poder-legislativo/`, árvore `8b358ec43917b9f6781025fc8d989aa570bbfc1a`; doador mais amplo, uso seletivo | pending | pending | pending |
@@ -499,6 +499,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U112 | `016c3b2c0a460ba9ee7036d587dbd237d375a6c6` | 18 + 2 | Cebraspe PGE-PR 2024, questão 1, gabarito definitivo D; Cebraspe TCE-RS 2025, itens 61–63, gabaritos definitivos E/E/C |
 | U113 | `1e7a5014641826a8afa9edc4faa9c6484eda48fa` | 19 + 1 | Cebraspe DPE-SE 2022, Defensor Público Substituto, questão 78, gabarito definitivo B |
 | U114 | `a70d4f12220240498d09d30449d6ad88cda94d21` | 20 + 3 | Cebraspe DPE-AC 2024, questão 32, gabarito D; PGE-MS 2021, questão 6, gabarito D; TJ-RR 2025, questão 27, gabarito B |
+| U115 | `97982b8e8582ef134792f20dae9c283a93066e89` | 19 + 1 | Cebraspe MPE-RO 2023, Analista Contábil, questão 66, gabarito definitivo E |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -562,26 +563,27 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U112 | `948995603d7d3192c000ce588c44a6ca9a4824d8` | `86418f376cd64cba3d41f5f2f9c77057e5cf57f4` | `c05b3e7eae39f8439b160d65a951245c02190d0c` | `3f7c801b4a402d7386d333e13db1684f66b8d2eb` |
 | U113 | `adf00fef2be25c59c6335db4f6dde1fc104fd3cc` | `f831d7b31ae014a4fb2e07a58b7e00c07c660206` | `12dff69a43787ad075ee1d50a1defea5e5733697` | `24ab8853ef6d008d3a482cf7908133eca5af0d86` |
 | U114 | `da4cbe643726d9a0cb9d2d9887ade6a8f31b8ab1` | `ba7600b05535c578d1850538268e8b4c7451c06d` | `008f2bdcf4a8c1e86b470486eeb0fa196606c2da` | `3f0423c7bbd53c0a0ada6634830629c7c773a777` |
+| U115 | `70b313e361bb279b55c4f5a66e4ec2aa409036ec` | `408a921f8a76360b54d3022145eadecf2dbac202` | `fdf4b2e488bf4de6b197552ad667227e3f53c624` | `c64f5c530429437c6be7bf99e56c66f897c29cdd` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`.
 
-### Último aceite — U114
+### Último aceite — U115
 
-Pacote de Direitos e garantias fundamentais e remédios constitucionais: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u114`, `order: 114`. Snapshot editorial final `a70d4f12220240498d09d30449d6ad88cda94d21`; base de publicação `05cac95eeb58b637ae70b0b8108f70d926fd9359`. A comparação base→snapshot confirma **exatamente quatro arquivos da U114**, sem alterações laterais: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
+Pacote de Organização político-administrativa do Estado: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u115`, `order: 115`. Snapshot editorial final `97982b8e8582ef134792f20dae9c283a93066e89`; base de publicação `09ca5a66d1c7eddbb614958e48d462d48f74c5d0`. A comparação base→snapshot confirma **exatamente quatro arquivos da U115**, sem alterações laterais: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
 
-A unidade permanece **nova/local**, sem `vinculo.json`. O apoio físico principal do TCE, `conhecimentos-gerais/direito-constitucional/direitos-garantias-fundamentais/` (árvore `66bfa38ec2eb3396e22669ec1a0e577b1ee6cfa1`), e o pacote de Noções `direitos-garantias-fundamentais-cidadania/` (conteúdo `2e35af1505a1e61436e543d6a747e0130f94e7a2`) foram auditados como apoio. A produção local preserva o Título II e os cinco remédios exigidos, troca o corte do concurso doador pelo corte PC-MA e mantém as fronteiras de U113, U115 e Direito Processual Penal.
+A unidade permanece **nova/local**, sem `vinculo.json`. O apoio físico do TCE-MA `conhecimentos-gerais/direito-constitucional/organizacao-politico-administrativa-estado/` foi auditado integralmente e utilizado apenas no recorte compatível. O doador é mais amplo: aprofundamentos de competências, intervenção e conteúdos além do item 5/5.1 não foram importados automaticamente.
 
-Recorte coberto: direitos e deveres individuais e coletivos do art. 5º; igualdade, legalidade, liberdade, intimidade, domicílio, comunicações, reunião, associação, propriedade, acesso à informação, garantias processuais e penais; extradição, prisão e prisão civil; habeas corpus, mandado de segurança individual/coletivo, mandado de injunção, habeas data e ação popular; parágrafos do art. 5º e proteção de dados; direitos sociais e trabalhistas dos arts. 6º–11; nacionalidade e art. 13; cidadania como ponte; sufrágio, voto, elegibilidade, inelegibilidades e arts. 15–16; partidos políticos, cláusula de desempenho e percentuais constitucionais de participação política.
+Foram publicadas **20 questões — 19 autorais + 1 adaptação não literal verificada** da prova Cebraspe do Ministério Público do Estado de Rondônia para Analista Contábil, aplicada em 6/8/2023, questão 66, gabarito oficial definitivo E. A questão original cobra a vedação constitucional de recusar fé aos documentos públicos.
 
-Para o cargo policial, foi acrescentada a ponte jurisprudencial do **Tema 280 do Supremo Tribunal Federal**: ingresso forçado em domicílio sem mandado exige fundadas razões anteriores, justificadas posteriormente, que indiquem flagrante no interior da casa; a descoberta posterior do ilícito não convalida ingresso arbitrário. Também foram revalidadas a Súmula Vinculante 25 sobre depositário infiel, a Súmula Vinculante 40 sobre contribuição confederativa e o Tema 582 sobre habeas data e dados tributários do próprio contribuinte.
+Recorte coberto: soberania da República Federativa do Brasil versus autonomia dos entes; União, Estados, Distrito Federal, Municípios e Territórios; Brasília; alterações territoriais de Estados e Municípios; Lei Complementar 230/2026 no seu alcance específico; vedações do artigo 19; matriz mínima das competências dos artigos 21–24, 25, 30 e 32; bens federais essenciais ao reconhecimento da União; autonomia residual estadual; organização municipal; fiscalização municipal; Distrito Federal e Territórios.
 
-Foram publicadas **23 questões — 20 autorais + 3 adaptações não literais verificadas**: Cebraspe DPE-AC 2024, questão 32, gabarito definitivo D, sobre perda da nacionalidade após a Emenda Constitucional 131/2023; Cebraspe PGE-MS 2021, questão 6, gabarito D, sobre ação popular/remédios; Cebraspe TJ-RR 2025, questão 27, gabarito B, sobre habeas data. Todas foram remapeadas para cinco alternativas com gabarito único e explicação.
+A auditoria normativa incorporou a **Lei Complementar 230/2026**, que disciplina especificamente o desmembramento de parte de Município para incorporação a outro limítrofe, veda criação de novo Município por esse procedimento, prevê período de 15 anos, estudo de viabilidade, plebiscito único nos dois Municípios e lei estadual final. Também foi incorporada a **Emenda Constitucional 139/2026**, vigente antes do corte, que alterou o § 1º do artigo 31. A posse de Governador em 6 de janeiro, vigente desde a Emenda Constitucional 111/2021, foi preservada.
 
-Fontes normativas revalidadas: Constituição Federal compilada; Emendas Constitucionais 97/2017, 111/2021, 115/2022, 117/2022, 131/2023, 133/2024 e 139/2026. A Emenda Constitucional 139/2026 alterou os arts. 31 e 75, sem modificar o Título II, e já estava vigente antes do corte legislativo de **13/7/2026**. Jurisprudência foi reconsultada em 20/9/2026, mas o edital admite jurisprudência de tribunais superiores publicada até 30 dias antes das provas; portanto, esta unidade não transforma 13/7 em corte jurisprudencial e PC-F03 deve preservar a revalidação final.
+Fontes revalidadas: Constituição Federal compilada no Planalto, especialmente artigos 18–33; Emendas Constitucionais 111/2021, 115/2022 e 139/2026; Lei Complementar 230/2026; caderno e gabarito oficial definitivo Cebraspe MPE-RO 2023. O corte legislativo permanece em **13/7/2026**.
 
-Microglossário: o texto renderizado usa `abbr` nas siglas e abreviações institucionais/técnicas empregadas; termos como devido processo legal, contraditório, ampla defesa, trânsito em julgado, direito líquido e certo, impetrante, ônus da sucumbência, naturalização, apatridia, sufrágio, alistamento, elegibilidade, inelegibilidade, circunscrição e cláusula de desempenho são explicados antes ou no ponto de uso. O JSON permanece em texto puro. A revisão rápida recebeu correção específica para marcar `MS` e eliminou a abreviação não explicada `DH` em texto renderizado.
+Microglossário: as siglas de atalhos da revisão rápida foram eliminadas por escrita por extenso; conceitos como soberania, autonomia, competência residual, interesse local, competência comum e concorrente são explicados no corpo. O JSON permanece em texto puro.
 
-Próxima unidade habilitada: U115 — Organização político-administrativa do Estado.
+Próxima unidade habilitada: U116 — Administração pública e servidores públicos na Constituição.
 
 ### Registros operacionais superados
 
