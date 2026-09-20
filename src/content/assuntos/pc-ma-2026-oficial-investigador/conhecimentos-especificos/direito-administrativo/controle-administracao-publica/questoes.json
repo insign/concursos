@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u106-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O controle da Administração pública pode ser compreendido como a atividade de",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir o administrador sempre que o controlador preferir solução diversa."
+        },
+        {
+          "id": "B",
+          "text": "fiscalizar, acompanhar, revisar ou corrigir a atuação administrativa segundo os parâmetros e competências aplicáveis."
+        },
+        {
+          "id": "C",
+          "text": "eliminar qualquer margem de discricionariedade administrativa."
+        },
+        {
+          "id": "D",
+          "text": "transferir toda decisão administrativa ao Poder Judiciário."
+        },
+        {
+          "id": "E",
+          "text": "impedir que a Administração reveja seus próprios atos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Controle envolve fiscalização, acompanhamento e correção dentro de competências jurídicas. Não cria poder geral de administrar no lugar do gestor."
+    },
+    {
+      "id": "u106-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O controle realizado enquanto um contrato administrativo está sendo executado é classificado, quanto ao momento, como",
+      "options": [
+        {
+          "id": "A",
+          "text": "prévio."
+        },
+        {
+          "id": "B",
+          "text": "concomitante."
+        },
+        {
+          "id": "C",
+          "text": "posterior."
+        },
+        {
+          "id": "D",
+          "text": "judicial."
+        },
+        {
+          "id": "E",
+          "text": "hierárquico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Controle concomitante incide durante a execução da atividade controlada; prévio ocorre antes e posterior depois."
+    },
+    {
+      "id": "u106-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao examinar competência, finalidade, procedimento, motivação, princípios e direitos fundamentais, o controle utiliza como parâmetro",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas conveniência política."
+        },
+        {
+          "id": "B",
+          "text": "juridicidade."
+        },
+        {
+          "id": "C",
+          "text": "somente oportunidade administrativa."
+        },
+        {
+          "id": "D",
+          "text": "hierarquia."
+        },
+        {
+          "id": "E",
+          "text": "subordinação pessoal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Juridicidade é conformidade da atuação com o Direito em sentido amplo, e não apenas com a literalidade de uma norma isolada."
+    },
+    {
+      "id": "u106-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação entre a Administração direta e uma autarquia vinculada caracteriza, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "hierarquia geral, com livre substituição de todas as decisões da entidade."
+        },
+        {
+          "id": "B",
+          "text": "supervisão finalística nos limites jurídicos, sem hierarquia geral."
+        },
+        {
+          "id": "C",
+          "text": "controle judicial."
+        },
+        {
+          "id": "D",
+          "text": "subordinação legislativa."
+        },
+        {
+          "id": "E",
+          "text": "jurisdição administrativa definitiva."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A autarquia possui personalidade jurídica própria. A vinculação permite supervisão ou tutela nos limites legais, mas não estabelece hierarquia geral."
+    },
+    {
+      "id": "u106-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No exercício da autotutela, a Administração identifica um ato ilegal e outro ato válido que deixou de ser conveniente. As providências correspondentes são, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "revogação e anulação."
+        },
+        {
+          "id": "B",
+          "text": "anulação e revogação."
+        },
+        {
+          "id": "C",
+          "text": "convalidação e anulação obrigatória."
+        },
+        {
+          "id": "D",
+          "text": "revogação nos dois casos."
+        },
+        {
+          "id": "E",
+          "text": "anulação nos dois casos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ilegalidade conduz à anulação. Revogação pressupõe ato válido e juízo administrativo de conveniência ou oportunidade."
+    },
+    {
+      "id": "u106-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Tema 138 do Supremo Tribunal Federal, o desfazimento administrativo de ato que já produziu efeitos concretos sobre interesses individuais",
+      "options": [
+        {
+          "id": "A",
+          "text": "dispensa processo porque decorre de autotutela."
+        },
+        {
+          "id": "B",
+          "text": "deve ser precedido de processo administrativo regular com as garantias aplicáveis."
+        },
+        {
+          "id": "C",
+          "text": "só pode ocorrer por lei formal."
+        },
+        {
+          "id": "D",
+          "text": "é sempre vedado depois de qualquer efeito."
+        },
+        {
+          "id": "E",
+          "text": "depende exclusivamente de autorização legislativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A autotutela não afasta devido processo quando o desfazimento repercute sobre situação individual já concretizada."
+    },
+    {
+      "id": "u106-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No regime federal da Lei 9.784/1999, o direito da Administração de anular ato do qual decorram efeitos favoráveis ao destinatário",
+      "options": [
+        {
+          "id": "A",
+          "text": "é imprescritível em qualquer hipótese."
+        },
+        {
+          "id": "B",
+          "text": "decai em cinco anos, salvo comprovada má-fé."
+        },
+        {
+          "id": "C",
+          "text": "decai em dois anos, ainda que haja má-fé."
+        },
+        {
+          "id": "D",
+          "text": "prescreve em dez anos a partir do último pagamento."
+        },
+        {
+          "id": "E",
+          "text": "só pode ser exercido pelo Poder Judiciário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 54 da Lei 9.784/1999 fixa cinco anos para atos favoráveis, salvo comprovada má-fé; é regra do regime federal."
+    },
+    {
+      "id": "u106-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Lei 9.784/1999, o recurso administrativo federal pode ser interposto por razões de",
+      "options": [
+        {
+          "id": "A",
+          "text": "legalidade e mérito."
+        },
+        {
+          "id": "B",
+          "text": "mérito exclusivamente."
+        },
+        {
+          "id": "C",
+          "text": "legalidade formal exclusivamente."
+        },
+        {
+          "id": "D",
+          "text": "conveniência judicial."
+        },
+        {
+          "id": "E",
+          "text": "controle legislativo exclusivamente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 56 admite recurso em face de razões de legalidade e de mérito, mostrando que o controle administrativo pode alcançar ambos quando houver competência."
+    },
+    {
+      "id": "u106-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ideia de jurisdição una no Brasil significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "decisão administrativa definitiva internamente torna-se sentença judicial."
+        },
+        {
+          "id": "B",
+          "text": "lesão ou ameaça a direito pode ser submetida ao Poder Judiciário, observados os requisitos processuais aplicáveis."
+        },
+        {
+          "id": "C",
+          "text": "todo processo administrativo deve começar no Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "o Poder Judiciário atua sempre de ofício sobre atos administrativos."
+        },
+        {
+          "id": "E",
+          "text": "é obrigatório esgotar toda a via administrativa antes de qualquer ação judicial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 5º, inciso XXXV, assegura apreciação judicial de lesão ou ameaça a direito; não existe regra geral de exaurimento prévio de todos os recursos administrativos."
+    },
+    {
+      "id": "u106-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No controle judicial de ato discricionário, o Poder Judiciário",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode substituir livremente a escolha administrativa válida por outra que considere mais conveniente."
+        },
+        {
+          "id": "B",
+          "text": "não pode examinar finalidade, motivação, proporcionalidade ou pressupostos de fato."
+        },
+        {
+          "id": "C",
+          "text": "pode controlar juridicidade, sem possuir poder geral para revogar ato válido por conveniência ou oportunidade."
+        },
+        {
+          "id": "D",
+          "text": "somente pode agir depois de autorização do Poder Legislativo."
+        },
+        {
+          "id": "E",
+          "text": "está limitado à conferência de competência formal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Discricionariedade não é imunidade ao Direito, mas o Judiciário não recebe poder geral para refazer escolhas legítimas de mérito."
+    },
+    {
+      "id": "u106-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Tema 698, o Supremo Tribunal Federal assentou que a intervenção judicial em política pública voltada à realização de direito fundamental",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre proibida pela separação dos Poderes."
+        },
+        {
+          "id": "B",
+          "text": "pode ocorrer diante de ausência ou deficiência grave do serviço, preservando-se, como regra, espaço administrativo para definir os meios adequados."
+        },
+        {
+          "id": "C",
+          "text": "autoriza o juiz a assumir permanentemente a gestão administrativa."
+        },
+        {
+          "id": "D",
+          "text": "somente é possível se o Legislativo renunciar à fiscalização."
+        },
+        {
+          "id": "E",
+          "text": "dispensa demonstração de dever jurídico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Tema 698 admite intervenção diante de ausência ou deficiência grave e orienta que, como regra, se fixe a finalidade, permitindo à Administração apresentar plano ou meios adequados."
+    },
+    {
+      "id": "u106-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos termos do artigo 49, inciso V, da Constituição, compete ao Congresso Nacional",
+      "options": [
+        {
+          "id": "A",
+          "text": "revogar qualquer ato administrativo válido do Poder Executivo."
+        },
+        {
+          "id": "B",
+          "text": "sustar atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites da delegação legislativa."
+        },
+        {
+          "id": "C",
+          "text": "anular toda decisão de autarquia por conveniência."
+        },
+        {
+          "id": "D",
+          "text": "julgar definitivamente qualquer processo disciplinar federal."
+        },
+        {
+          "id": "E",
+          "text": "substituir o Poder Judiciário na apreciação de direitos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A competência constitucional de sustação é específica para atos normativos exorbitantes e não equivale a um poder geral de anulação ou revogação."
+    },
+    {
+      "id": "u106-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Constituição distingue convocação pessoal de autoridades e pedidos escritos de informação. É correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente as Mesas podem convocar pessoalmente autoridades."
+        },
+        {
+          "id": "B",
+          "text": "Câmara, Senado ou suas comissões podem realizar a convocação prevista no artigo 50, enquanto os pedidos escritos são encaminhados pelas Mesas das Casas."
+        },
+        {
+          "id": "C",
+          "text": "somente o Tribunal de Contas da União pode encaminhar pedidos de informação."
+        },
+        {
+          "id": "D",
+          "text": "os dois instrumentos dependem de ordem judicial."
+        },
+        {
+          "id": "E",
+          "text": "comissões parlamentares não podem convocar autoridades."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 50 separa a convocação pessoal, atribuída às Casas ou comissões nas hipóteses constitucionais, dos pedidos escritos encaminhados pelas Mesas."
+    },
+    {
+      "id": "u106-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A criação de comissão parlamentar de inquérito exige, cumulativamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "maioria absoluta, fato genérico e duração indeterminada."
+        },
+        {
+          "id": "B",
+          "text": "um terço dos membros, fato determinado e prazo certo."
+        },
+        {
+          "id": "C",
+          "text": "autorização judicial, fato determinado e maioria simples."
+        },
+        {
+          "id": "D",
+          "text": "parecer prévio do Tribunal de Contas da União e prazo certo."
+        },
+        {
+          "id": "E",
+          "text": "sanção presidencial e requerimento da maioria."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 58, § 3º, exige requerimento de um terço dos membros, fato determinado e prazo certo; a comissão investiga, mas não exerce jurisdição."
+    },
+    {
+      "id": "u106-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 70 da Constituição estabelece fiscalização",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas contábil e financeira."
+        },
+        {
+          "id": "B",
+          "text": "contábil, financeira, orçamentária, operacional e patrimonial."
+        },
+        {
+          "id": "C",
+          "text": "somente patrimonial e disciplinar."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente judicial e penal."
+        },
+        {
+          "id": "E",
+          "text": "somente posterior."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As cinco dimensões expressas são contábil, financeira, orçamentária, operacional e patrimonial."
+    },
+    {
+      "id": "u106-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No modelo constitucional federal de controle externo, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o Tribunal de Contas da União julga definitivamente as contas anuais do Presidente da República."
+        },
+        {
+          "id": "B",
+          "text": "o Congresso Nacional apenas homologa a decisão do Tribunal de Contas da União sobre as contas presidenciais."
+        },
+        {
+          "id": "C",
+          "text": "o Tribunal de Contas da União emite parecer prévio sobre as contas presidenciais, e o Congresso Nacional as julga; o Tribunal julga as contas dos demais administradores e responsáveis abrangidos pelo artigo 71, inciso II."
+        },
+        {
+          "id": "D",
+          "text": "o Tribunal de Contas da União integra o Poder Judiciário."
+        },
+        {
+          "id": "E",
+          "text": "o auxílio prestado ao Congresso cria subordinação hierárquica."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Constituição distingue a apreciação com parecer prévio das contas presidenciais do julgamento das contas dos demais administradores e responsáveis do artigo 71, inciso II."
+    },
+    {
+      "id": "u106-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o artigo 74 da Constituição, os Poderes Legislativo, Executivo e Judiciário",
+      "options": [
+        {
+          "id": "A",
+          "text": "dependem exclusivamente do controle externo e não mantêm controle interno."
+        },
+        {
+          "id": "B",
+          "text": "mantêm, de forma integrada, sistema de controle interno com finalidades constitucionais próprias."
+        },
+        {
+          "id": "C",
+          "text": "mantêm controle interno apenas se o Tribunal de Contas autorizar."
+        },
+        {
+          "id": "D",
+          "text": "devem transferir toda fiscalização ao Congresso Nacional."
+        },
+        {
+          "id": "E",
+          "text": "podem eliminar o controle externo quando o interno for eficiente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Constituição combina sistemas de controle interno dos Poderes com o controle externo; são mecanismos complementares."
+    },
+    {
+      "id": "u106-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Emenda Constitucional 139/2026 alterou o artigo 75 da Constituição para afirmar, entre outros pontos, que os tribunais de contas são",
+      "options": [
+        {
+          "id": "A",
+          "text": "órgãos temporários do Poder Judiciário."
+        },
+        {
+          "id": "B",
+          "text": "instituições permanentes e essenciais ao exercício do controle externo."
+        },
+        {
+          "id": "C",
+          "text": "autarquias subordinadas ao Poder Executivo."
+        },
+        {
+          "id": "D",
+          "text": "comissões do Poder Legislativo sem competências próprias."
+        },
+        {
+          "id": "E",
+          "text": "instituições que podem ser livremente extintas pelos estados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Emenda Constitucional 139, de maio de 2026, deu essa redação ao artigo 75 e também vedou extinção, criação ou instalação nos termos constitucionais."
+    },
+    {
+      "id": "u106-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 22 da prova Cebraspe do Tribunal de Contas do Estado de Minas Gerais, conhecimentos gerais, aplicação 25/1/2026, o controle jurisdicional da Administração pública é corretamente descrito como",
+      "options": [
+        {
+          "id": "A",
+          "text": "controle exercido de ofício pelo Poder Judiciário sempre que houver simples inoportunidade administrativa."
+        },
+        {
+          "id": "B",
+          "text": "controle que permite ao juiz substituir livremente o mérito administrativo."
+        },
+        {
+          "id": "C",
+          "text": "controle predominantemente posterior e corretivo, que também pode atuar preventivamente para impedir ilegalidade iminente nas hipóteses processuais cabíveis."
+        },
+        {
+          "id": "D",
+          "text": "controle limitado à legalidade formal, sem exame de princípios, razoabilidade ou proporcionalidade."
+        },
+        {
+          "id": "E",
+          "text": "competência judicial para julgar contas administrativas no lugar dos tribunais de contas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O gabarito oficial definitivo da questão original é C. A alternativa reconhece a predominância posterior do controle jurisdicional sem excluir tutela preventiva contra ilegalidade iminente. A redação foi adaptada sem reprodução literal."
+    },
+    {
+      "id": "u106-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 24 da mesma prova Cebraspe do Tribunal de Contas do Estado de Minas Gerais, o recurso hierárquico impróprio é",
+      "options": [
+        {
+          "id": "A",
+          "text": "dirigido a autoridade que não é superior hierárquica de quem praticou o ato e depende de previsão jurídica que autorize essa revisão."
+        },
+        {
+          "id": "B",
+          "text": "recurso judicial contra ato administrativo."
+        },
+        {
+          "id": "C",
+          "text": "pedido de reconsideração dirigido à mesma autoridade."
+        },
+        {
+          "id": "D",
+          "text": "recurso sempre dirigido ao superior imediato dentro da mesma cadeia hierárquica."
+        },
+        {
+          "id": "E",
+          "text": "revisão de ofício que independe de previsão normativa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O gabarito oficial definitivo da questão original é A. O recurso hierárquico impróprio não pressupõe subordinação hierárquica e depende de fundamento jurídico específico. A redação foi adaptada."
+    }
+  ]
+}
