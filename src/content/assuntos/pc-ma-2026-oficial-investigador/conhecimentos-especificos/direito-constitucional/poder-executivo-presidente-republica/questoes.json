@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u117-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Poder Executivo federal é exercido constitucionalmente pelo",
+      "options": [
+        {
+          "id": "A",
+          "text": "Presidente da República, auxiliado pelos Ministros de Estado."
+        },
+        {
+          "id": "B",
+          "text": "Presidente da República e pelo Senado Federal em colegiado."
+        },
+        {
+          "id": "C",
+          "text": "Presidente e pelo Vice-Presidente conjuntamente em qualquer situação."
+        },
+        {
+          "id": "D",
+          "text": "Congresso Nacional, auxiliado pelo Presidente."
+        },
+        {
+          "id": "E",
+          "text": "Conselho da República."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 76 da Constituição atribui o exercício do Poder Executivo ao Presidente da República, auxiliado pelos Ministros de Estado."
+    },
+    {
+      "id": "u117-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao Vice-Presidente, a Constituição distingue impedimento e vaga porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "no impedimento ele sucede definitivamente, e na vaga apenas substitui."
+        },
+        {
+          "id": "B",
+          "text": "no impedimento ele substitui, e na vaga sucede o Presidente."
+        },
+        {
+          "id": "C",
+          "text": "em ambas as hipóteses assume apenas o Presidente da Câmara."
+        },
+        {
+          "id": "D",
+          "text": "a vaga sempre produz eleição imediata pelo Congresso."
+        },
+        {
+          "id": "E",
+          "text": "o impedimento extingue o mandato presidencial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 79 prevê que o Vice-Presidente substitui o Presidente no impedimento e o sucede no caso de vaga."
+    },
+    {
+      "id": "u117-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Impedidos simultaneamente o Presidente e o Vice-Presidente, a primeira autoridade chamada ao exercício da Presidência é o Presidente",
+      "options": [
+        {
+          "id": "A",
+          "text": "do Supremo Tribunal Federal."
+        },
+        {
+          "id": "B",
+          "text": "do Senado Federal."
+        },
+        {
+          "id": "C",
+          "text": "da Câmara dos Deputados."
+        },
+        {
+          "id": "D",
+          "text": "do Superior Tribunal de Justiça."
+        },
+        {
+          "id": "E",
+          "text": "do Tribunal de Contas da União."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A ordem do art. 80 é: Presidente da Câmara dos Deputados, Presidente do Senado Federal e Presidente do Supremo Tribunal Federal."
+    },
+    {
+      "id": "u117-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se Presidente e Vice-Presidente ficarem vagos nos últimos dois anos do período presidencial, a Constituição prevê",
+      "options": [
+        {
+          "id": "A",
+          "text": "eleição direta em noventa dias para novo mandato de quatro anos."
+        },
+        {
+          "id": "B",
+          "text": "eleição pelo Congresso Nacional em trinta dias após a última vaga, para completar o período."
+        },
+        {
+          "id": "C",
+          "text": "sucessão definitiva pelo Presidente da Câmara até a eleição geral seguinte."
+        },
+        {
+          "id": "D",
+          "text": "eleição pelo Senado em quinze dias."
+        },
+        {
+          "id": "E",
+          "text": "nomeação de Presidente interino pelo Supremo Tribunal Federal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pelo art. 81, § 1º, nos últimos dois anos a eleição é feita pelo Congresso em trinta dias após a última vaga; pelo § 2º, os eleitos completam o período dos antecessores."
+    },
+    {
+      "id": "u117-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre mandato e ausência do País, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o mandato presidencial dura quatro anos e Presidente ou Vice não podem ausentar-se do País por mais de quinze dias sem licença do Congresso."
+        },
+        {
+          "id": "B",
+          "text": "o mandato dura cinco anos e toda viagem internacional exige licença do Congresso."
+        },
+        {
+          "id": "C",
+          "text": "o mandato começa em primeiro de fevereiro e a licença somente é exigida após trinta dias."
+        },
+        {
+          "id": "D",
+          "text": "o mandato dura quatro anos, mas a Constituição não limita ausência do País."
+        },
+        {
+          "id": "E",
+          "text": "a licença para ausência superior a quinze dias é concedida pelo Supremo Tribunal Federal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os arts. 82 e 83 fixam mandato de quatro anos, iniciado em 5 de janeiro, e exigem licença do Congresso para ausência do País por período superior a quinze dias."
+    },
+    {
+      "id": "u117-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O decreto regulamentar previsto no art. 84, IV, destina-se a",
+      "options": [
+        {
+          "id": "A",
+          "text": "criar órgãos públicos sem aumento de despesa."
+        },
+        {
+          "id": "B",
+          "text": "dar fiel execução à lei."
+        },
+        {
+          "id": "C",
+          "text": "substituir a lei em qualquer matéria."
+        },
+        {
+          "id": "D",
+          "text": "extinguir cargos ocupados."
+        },
+        {
+          "id": "E",
+          "text": "julgar crimes de responsabilidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 84, IV, autoriza decretos e regulamentos para a fiel execução das leis."
+    },
+    {
+      "id": "u117-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Presidente pode dispor por decreto sobre organização e funcionamento da administração federal, nos termos do art. 84, VI, a, desde que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não haja aumento de despesa nem criação ou extinção de órgãos públicos."
+        },
+        {
+          "id": "B",
+          "text": "haja aprovação prévia do Supremo Tribunal Federal."
+        },
+        {
+          "id": "C",
+          "text": "o decreto crie apenas um órgão sem autonomia."
+        },
+        {
+          "id": "D",
+          "text": "a medida extinga Ministério sem custos."
+        },
+        {
+          "id": "E",
+          "text": "o Congresso aprove o decreto por maioria simples."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 84, VI, a, permite decreto sobre organização e funcionamento da administração federal apenas quando não houver aumento de despesa nem criação ou extinção de órgãos públicos."
+    },
+    {
+      "id": "u117-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Pelo art. 84, VI, b, a extinção por decreto pode alcançar",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer órgão público federal."
+        },
+        {
+          "id": "B",
+          "text": "funções ou cargos públicos vagos."
+        },
+        {
+          "id": "C",
+          "text": "cargos públicos ocupados, desde que indenizados."
+        },
+        {
+          "id": "D",
+          "text": "Ministérios, se não houver aumento de despesa."
+        },
+        {
+          "id": "E",
+          "text": "mandatos eletivos vagos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alínea b do inciso VI permite extinguir funções ou cargos públicos somente quando vagos."
+    },
+    {
+      "id": "u117-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O parágrafo único do art. 84 autoriza o Presidente a delegar as atribuições dos incisos",
+      "options": [
+        {
+          "id": "A",
+          "text": "I, II e III."
+        },
+        {
+          "id": "B",
+          "text": "V, XIV e XXVI."
+        },
+        {
+          "id": "C",
+          "text": "VI, XII e XXV, primeira parte."
+        },
+        {
+          "id": "D",
+          "text": "todos, desde que a delegação seja escrita."
+        },
+        {
+          "id": "E",
+          "text": "somente VI e XXVI."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Constituição enumera expressamente VI, XII e XXV, primeira parte, como atribuições delegáveis do art. 84."
+    },
+    {
+      "id": "u117-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Pode receber delegação prevista no parágrafo único do art. 84",
+      "options": [
+        {
+          "id": "A",
+          "text": "o Presidente do Senado Federal."
+        },
+        {
+          "id": "B",
+          "text": "o Procurador-Geral da República."
+        },
+        {
+          "id": "C",
+          "text": "o Presidente do Banco Central."
+        },
+        {
+          "id": "D",
+          "text": "o Presidente da Câmara dos Deputados."
+        },
+        {
+          "id": "E",
+          "text": "qualquer servidor federal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os delegatários constitucionais são Ministros de Estado, Procurador-Geral da República e Advogado-Geral da União."
+    },
+    {
+      "id": "u117-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Tratados, convenções e atos internacionais celebrados pelo Presidente, nos termos do art. 84, VIII, ficam sujeitos",
+      "options": [
+        {
+          "id": "A",
+          "text": "à deliberação do Congresso Nacional prevista pela Constituição."
+        },
+        {
+          "id": "B",
+          "text": "somente à aprovação do Supremo Tribunal Federal."
+        },
+        {
+          "id": "C",
+          "text": "a plebiscito obrigatório em todos os casos."
+        },
+        {
+          "id": "D",
+          "text": "à aprovação dos governadores estaduais."
+        },
+        {
+          "id": "E",
+          "text": "a nenhum controle posterior."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O inciso VIII prevê a celebração presidencial de tratados, convenções e atos internacionais, sujeitos ao referendo do Congresso Nacional."
+    },
+    {
+      "id": "u117-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As contas anuais do Presidente referentes ao exercício anterior devem ser prestadas ao Congresso Nacional",
+      "options": [
+        {
+          "id": "A",
+          "text": "em trinta dias da posse."
+        },
+        {
+          "id": "B",
+          "text": "em sessenta dias após a abertura da sessão legislativa."
+        },
+        {
+          "id": "C",
+          "text": "até o encerramento do mandato."
+        },
+        {
+          "id": "D",
+          "text": "em noventa dias após o fim do exercício."
+        },
+        {
+          "id": "E",
+          "text": "somente quando solicitadas pelo Senado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 84, XXIV, fixa sessenta dias após a abertura da sessão legislativa para a prestação anual das contas do exercício anterior."
+    },
+    {
+      "id": "u117-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as nomeações presidenciais que o art. 84, XIV, condiciona à aprovação prévia do Senado está a de",
+      "options": [
+        {
+          "id": "A",
+          "text": "Advogado-Geral da União."
+        },
+        {
+          "id": "B",
+          "text": "Ministro de Estado."
+        },
+        {
+          "id": "C",
+          "text": "Procurador-Geral da República."
+        },
+        {
+          "id": "D",
+          "text": "Presidente da Câmara dos Deputados."
+        },
+        {
+          "id": "E",
+          "text": "membro eleito do Congresso Nacional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 84, XIV, inclui o Procurador-Geral da República entre as autoridades nomeadas pelo Presidente após aprovação do Senado."
+    },
+    {
+      "id": "u117-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Constitui núcleo expresso do art. 85 sobre crimes de responsabilidade o atentado contra",
+      "options": [
+        {
+          "id": "A",
+          "text": "o cumprimento das leis e das decisões judiciais."
+        },
+        {
+          "id": "B",
+          "text": "qualquer interesse privado de partido político."
+        },
+        {
+          "id": "C",
+          "text": "toda decisão administrativa municipal."
+        },
+        {
+          "id": "D",
+          "text": "qualquer contrato entre particulares."
+        },
+        {
+          "id": "E",
+          "text": "preferência eleitoral de autoridade pública."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 85, VII, inclui o cumprimento das leis e das decisões judiciais entre os núcleos constitucionais protegidos."
+    },
+    {
+      "id": "u117-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Lei nº 1.079/1950, a denúncia do Presidente por crime de responsabilidade perante a Câmara dos Deputados pode ser apresentada por",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer cidadão, enquanto o denunciado não tiver deixado definitivamente o cargo."
+        },
+        {
+          "id": "B",
+          "text": "apenas o Procurador-Geral da República."
+        },
+        {
+          "id": "C",
+          "text": "apenas partido com representação no Congresso."
+        },
+        {
+          "id": "D",
+          "text": "somente senador da República."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente o Presidente do Supremo Tribunal Federal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os arts. 14 e 15 da Lei nº 1.079/1950 permitem a denúncia por qualquer cidadão e condicionam seu recebimento à permanência do denunciado no cargo."
+    },
+    {
+      "id": "u117-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A admissão da acusação contra o Presidente por dois terços da Câmara dos Deputados",
+      "options": [
+        {
+          "id": "A",
+          "text": "equivale à condenação definitiva."
+        },
+        {
+          "id": "B",
+          "text": "autoriza o avanço do procedimento, mas não produz por si só julgamento final nem suspensão automática."
+        },
+        {
+          "id": "C",
+          "text": "substitui o julgamento pelo Supremo Tribunal Federal ou pelo Senado."
+        },
+        {
+          "id": "D",
+          "text": "sempre encerra o mandato."
+        },
+        {
+          "id": "E",
+          "text": "é dispensável nos crimes de responsabilidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 86 usa os dois terços da Câmara como filtro de admissibilidade. A suspensão depende de evento posterior: recebimento da acusação penal pelo Supremo Tribunal Federal ou instauração do processo pelo Senado."
+    },
+    {
+      "id": "u117-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em infração penal comum, depois da admissão da acusação pela Câmara, o Presidente",
+      "options": [
+        {
+          "id": "A",
+          "text": "é julgado pelo Senado e suspenso na votação da Câmara."
+        },
+        {
+          "id": "B",
+          "text": "é julgado pelo Supremo Tribunal Federal e fica suspenso se esse Tribunal receber a denúncia ou queixa-crime."
+        },
+        {
+          "id": "C",
+          "text": "é julgado pelo Superior Tribunal de Justiça."
+        },
+        {
+          "id": "D",
+          "text": "é julgado pelo Congresso em sessão conjunta."
+        },
+        {
+          "id": "E",
+          "text": "não pode ser processado em nenhuma hipótese durante o mandato."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pelo art. 86, a infração penal comum segue ao Supremo Tribunal Federal; a suspensão começa com o recebimento da denúncia ou queixa-crime."
+    },
+    {
+      "id": "u117-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No crime de responsabilidade, depois da admissão da acusação pela Câmara, a suspensão das funções presidenciais começa",
+      "options": [
+        {
+          "id": "A",
+          "text": "com a simples apresentação da denúncia."
+        },
+        {
+          "id": "B",
+          "text": "com a instauração do processo pelo Senado Federal."
+        },
+        {
+          "id": "C",
+          "text": "somente após a condenação definitiva."
+        },
+        {
+          "id": "D",
+          "text": "com parecer de qualquer comissão da Câmara."
+        },
+        {
+          "id": "E",
+          "text": "com decisão do Tribunal de Contas da União."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 86, § 1º, II, vincula a suspensão no crime de responsabilidade à instauração do processo pelo Senado."
+    },
+    {
+      "id": "u117-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se o julgamento presidencial não estiver concluído após 180 dias de suspensão,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o processo é arquivado."
+        },
+        {
+          "id": "B",
+          "text": "ocorre absolvição automática."
+        },
+        {
+          "id": "C",
+          "text": "cessa o afastamento, sem prejuízo do prosseguimento regular do processo."
+        },
+        {
+          "id": "D",
+          "text": "o Senado perde definitivamente a competência."
+        },
+        {
+          "id": "E",
+          "text": "a Câmara deve repetir obrigatoriamente a autorização."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 86, § 2º, faz cessar o afastamento depois de 180 dias sem conclusão do julgamento, mas preserva o prosseguimento do processo."
+    },
+    {
+      "id": "u117-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nas infrações penais comuns, enquanto não sobrevier sentença condenatória, o Presidente da República",
+      "options": [
+        {
+          "id": "A",
+          "text": "não está sujeito a prisão."
+        },
+        {
+          "id": "B",
+          "text": "pode ser preso por decisão da Câmara."
+        },
+        {
+          "id": "C",
+          "text": "deve ser preso após admissão da acusação por dois terços."
+        },
+        {
+          "id": "D",
+          "text": "fica sujeito à prisão determinada pelo Senado."
+        },
+        {
+          "id": "E",
+          "text": "perde automaticamente o foro constitucional."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 86, § 3º, estabelece que, enquanto não sobrevier sentença condenatória nas infrações comuns, o Presidente não estará sujeito a prisão."
+    },
+    {
+      "id": "u117-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No julgamento do Presidente por crime de responsabilidade no Senado Federal,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a condenação exige maioria simples e produz apenas advertência."
+        },
+        {
+          "id": "B",
+          "text": "a sessão é presidida pelo Presidente do Supremo Tribunal Federal, e a condenação exige dois terços do Senado, com perda do cargo e inabilitação por oito anos para função pública."
+        },
+        {
+          "id": "C",
+          "text": "a sessão é presidida pelo Presidente da Câmara, e a condenação exige três quintos."
+        },
+        {
+          "id": "D",
+          "text": "a Constituição limita a inabilitação a cinco anos."
+        },
+        {
+          "id": "E",
+          "text": "o Supremo Tribunal Federal substitui integralmente o Senado no julgamento político."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 52, parágrafo único, prevê presidência da sessão pelo Presidente do Supremo Tribunal Federal, condenação por dois terços do Senado, perda do cargo e inabilitação por oito anos para o exercício de função pública."
+    },
+    {
+      "id": "u117-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 27 da prova Cebraspe TCE/MS 2025 — conhecimentos gerais para os cargos 2 e 4 — assinale a alternativa constitucionalmente correta sobre o Presidente da República.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Todas as atribuições do art. 84 são indelegáveis por serem chamadas de privativas."
+        },
+        {
+          "id": "B",
+          "text": "Durante o mandato, o Presidente não pode ser responsabilizado criminalmente, nesse período, por atos estranhos ao exercício de suas funções."
+        },
+        {
+          "id": "C",
+          "text": "A autorização de dois terços da Câmara suspende imediatamente o Presidente em qualquer acusação."
+        },
+        {
+          "id": "D",
+          "text": "O decreto do art. 84, VI, pode criar órgão público se não aumentar a despesa."
+        },
+        {
+          "id": "E",
+          "text": "Antes de sentença condenatória, o Presidente pode ser preso em flagrante por crime inafiançável."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A questão original teve gabarito definitivo D. Na adaptação, a regra correta foi remapeada para B: o art. 86, § 4º, impede temporariamente a responsabilização criminal, durante o mandato, por atos estranhos às funções. O § 3º também afasta prisão antes de sentença condenatória nas infrações comuns, e o art. 84 admite delegação nos incisos VI, XII e XXV, primeira parte."
+    }
+  ]
+}
