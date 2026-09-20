@@ -8,17 +8,17 @@ storageId: pc-u103
 
 # Lei 4.878/1965: leia o estatuto em camadas, não como se 1965 ainda fosse hoje
 
-A Lei nº 4.878/1965 aparece **literalmente** no edital da Polícia Civil do Maranhão. Isso não significa que ela seja o estatuto da Polícia Civil do Maranhão, nem que todos os seus dispositivos continuem produzindo hoje exatamente os efeitos que tinham quando foram escritos.
+A Lei número 4.878/1965 aparece **literalmente** no edital da Polícia Civil do Maranhão. Isso não significa que ela seja o estatuto da Polícia Civil do Maranhão, nem que todos os seus dispositivos continuem produzindo hoje exatamente os efeitos que tinham quando foram escritos.
 
 A forma mais segura de estudar é separar três camadas:
 
-1. **o que a Lei nº 4.878/1965 ainda contém e continua relevante**;
+1. **o que a Lei número 4.878/1965 ainda contém e continua relevante**;
 2. **o que foi expressamente revogado**;
 3. **o que permanece escrito, mas precisa ser lido junto com normas posteriores**.
 
 Essa terceira camada é decisiva. O texto compilado ainda traz, por exemplo, **estágio probatório de dois anos** no artigo 13 e **aposentadoria compulsória aos 65 anos** no artigo 37. No regime atual, porém, não se pode transformar esses números históricos em regra geral vigente sem considerar a legislação superveniente.
 
-> **Regra de prova:** primeiro identifique a literalidade da Lei nº 4.878/1965; depois pergunte se uma norma posterior alterou, revogou ou deslocou a disciplina daquele ponto.
+> **Regra de prova:** primeiro identifique a literalidade da Lei número 4.878/1965; depois pergunte se uma norma posterior alterou, revogou ou deslocou a disciplina daquele ponto.
 
 O corte legislativo desta campanha é **13 de julho de 2026**.
 
@@ -26,13 +26,13 @@ O corte legislativo desta campanha é **13 de julho de 2026**.
 
 ## 1. O que essa lei regula — e o que ela não regula
 
-A Lei nº 4.878/1965 dispõe sobre peculiaridades do regime jurídico de funcionários públicos civis da União e do Distrito Federal ocupantes de cargos de atividade policial.
+A Lei número 4.878/1965 dispõe sobre peculiaridades do regime jurídico de funcionários públicos civis da União e do Distrito Federal ocupantes de cargos de atividade policial.
 
 Sua redação usa nomes institucionais históricos, como “Serviço de Polícia Federal”, “Serviço Policial Metropolitano” e “Departamento Federal de Segurança Pública”. Esses nomes precisam ser lidos dentro da evolução institucional posterior.
 
 Para esta unidade, a fronteira é clara:
 
-- a Lei nº 4.878/1965 é estudada porque o **edital a exige expressamente**;
+- a Lei número 4.878/1965 é estudada porque o **edital a exige expressamente**;
 - ela não substitui o Estatuto da Polícia Civil do Maranhão, objeto da U108;
 - ela não substitui o regime jurídico dos servidores civis do Maranhão, objeto da U109;
 - ela não substitui a Lei Orgânica Nacional das Polícias Civis, objeto da U111.
@@ -82,11 +82,11 @@ O texto mantém ainda regra segundo a qual o funcionário policial que tenha omi
 
 ### 2.2 Literalidade histórica × carreira atual
 
-As regras de ingresso da Lei nº 4.878/1965 não podem ser lidas isoladamente das leis posteriores de organização das carreiras da Polícia Federal e da Polícia Civil do Distrito Federal.
+As regras de ingresso da Lei número 4.878/1965 não podem ser lidas isoladamente das leis posteriores de organização das carreiras da Polícia Federal e da Polícia Civil do Distrito Federal.
 
 Para a prova, faça a separação:
 
-- **Lei nº 4.878/1965** → regime peculiar e requisitos historicamente previstos;
+- **Lei número 4.878/1965** → regime peculiar e requisitos historicamente previstos;
 - **leis posteriores das carreiras** → estrutura e exigências atuais de cargos específicos;
 - **edital concreto** → requisitos efetivamente cobrados no concurso correspondente.
 
@@ -108,7 +108,7 @@ Atenção ao recorte: o dispositivo fala em contagem como efetivo exercício par
 
 ### 3.3 Estágio probatório: a divergência que não pode ser escondida
 
-O artigo 13 da Lei nº 4.878/1965 ainda registra literalmente:
+O artigo 13 da Lei número 4.878/1965 ainda registra literalmente:
 
 > estágio probatório = **dois anos de efetivo exercício**.
 
@@ -116,11 +116,11 @@ A própria lei manda acompanhar o comportamento do estagiário por relatórios m
 
 Entretanto, esse número não deve ser ensinado como se fosse isoladamente a regra atual de todas as carreiras abrangidas.
 
-Um exemplo oficial recente ajuda a enxergar a sobreposição: o edital da Polícia Federal de 2025 registra que o nomeado cumprirá estágio probatório nos termos do artigo 20 da Lei nº 8.112/1990 **e** da Lei nº 4.878/1965, trabalhando com período mínimo de 36 meses na unidade de lotação. Assim, para a carreira federal atual, a leitura prática combina o regime peculiar com a legislação geral superveniente.
+Um exemplo oficial recente ajuda a enxergar a sobreposição: o edital da Polícia Federal de 2025 registra que o nomeado cumprirá estágio probatório nos termos do artigo 20 da Lei número 8.112/1990 **e** da Lei número 4.878/1965, trabalhando com período mínimo de 36 meses na unidade de lotação. Assim, para a carreira federal atual, a leitura prática combina o regime peculiar com a legislação geral superveniente.
 
 **Como resolver a questão:**
 
-- se a banca perguntar pela **literalidade do artigo 13 da Lei nº 4.878/1965**, a resposta é dois anos;
+- se a banca perguntar pela **literalidade do artigo 13 da Lei número 4.878/1965**, a resposta é dois anos;
 - se perguntar pelo **regime funcional atual de uma carreira concreta**, não aplique automaticamente os dois anos sem verificar a legislação posterior e o enunciado.
 
 ### 3.4 Promoção e acesso
@@ -231,18 +231,18 @@ O artigo 35 contém um rol histórico de pessoas consideradas da família para e
 
 ## 7. Aposentadoria: o texto de 65 anos não é a regra atual
 
-O artigo 37 da Lei nº 4.878/1965 ainda diz literalmente que o funcionário policial será aposentado compulsoriamente aos **65 anos**.
+O artigo 37 da Lei número 4.878/1965 ainda diz literalmente que o funcionário policial será aposentado compulsoriamente aos **65 anos**.
 
 Essa literalidade ficou superada pelo regime constitucional e complementar posterior.
 
-A Constituição passou a admitir aposentadoria compulsória aos 70 ou 75 anos, na forma de lei complementar. A Lei Complementar nº 152/2015 fixou **75 anos** para titulares de cargos efetivos da União, dos Estados, do Distrito Federal e dos Municípios, inclusive autarquias e fundações.
+A Constituição passou a admitir aposentadoria compulsória aos 70 ou 75 anos, na forma de lei complementar. A Lei Complementar número 152/2015 fixou **75 anos** para titulares de cargos efetivos da União, dos Estados, do Distrito Federal e dos Municípios, inclusive autarquias e fundações.
 
 Portanto:
 
 | Pergunta | Resposta |
 |---|---|
-| o que ainda está escrito no art. 37 da Lei nº 4.878/1965? | 65 anos |
-| qual é a regra geral atual de aposentadoria compulsória aplicável aos servidores efetivos abrangidos pela Lei Complementar nº 152/2015? | 75 anos |
+| o que ainda está escrito no artigo 37 da Lei número 4.878/1965? | 65 anos |
+| qual é a regra geral atual de aposentadoria compulsória aplicável aos servidores efetivos abrangidos pela Lei Complementar número 152/2015? | 75 anos |
 
 Uma questão pode testar justamente essa divergência. Não “corrija” o texto da lei; explique a superação normativa.
 
@@ -274,7 +274,7 @@ O Cebraspe já explorou exatamente essa diferença em prova de Escrivão da Pol�
 
 Este é o ponto mais importante para evitar estudo desperdiçado.
 
-A Lei nº 15.047/2024 revogou expressamente os **artigos 41 a 60 da Lei nº 4.878/1965**.
+A Lei número 15.047/2024 revogou expressamente os **artigos 41 a 60 da Lei número 4.878/1965**.
 
 Isso retirou do estatuto de 1965 os antigos capítulos sobre:
 
@@ -289,18 +289,18 @@ Não memorize essas regras antigas como disciplina vigente.
 
 ### 9.1 Onde está hoje o regime disciplinar?
 
-A Lei nº 15.047/2024 instituiu o regime disciplinar atual aplicável aos ocupantes de cargos efetivos de natureza policial e aos ocupantes de cargos em comissão no âmbito da Polícia Federal e da Polícia Civil do Distrito Federal.
+A Lei número 15.047/2024 instituiu o regime disciplinar atual aplicável aos ocupantes de cargos efetivos de natureza policial e aos ocupantes de cargos em comissão no âmbito da Polícia Federal e da Polícia Civil do Distrito Federal.
 
 A lei nova regula infrações, sanções e processo administrativo disciplinar.
 
 Para esta U103, basta dominar a **fronteira**:
 
-- o edital cita a Lei nº 4.878/1965;
+- o edital cita a Lei número 4.878/1965;
 - os artigos 41 a 60 dessa lei não estão vigentes;
-- disciplina atual está na Lei nº 15.047/2024;
+- disciplina atual está na Lei número 15.047/2024;
 - não se restaura a disciplina revogada apenas porque uma questão antiga a cobrou.
 
-A Lei nº 15.047/2024 não é reproduzida integralmente aqui porque o objeto desta unidade é a Lei nº 4.878/1965 e suas alterações. A informação necessária é saber **onde o estatuto antigo deixou de valer**.
+A Lei número 15.047/2024 não é reproduzida integralmente aqui porque o objeto desta unidade é a Lei número 4.878/1965 e suas alterações. A informação necessária é saber **onde o estatuto antigo deixou de valer**.
 
 ---
 
@@ -312,11 +312,11 @@ O artigo 61 consagra **21 de abril** ao Funcionário Policial Civil.
 
 ### 10.2 Aplicação subsidiária do regime geral federal
 
-O artigo 62 estabelece que aos funcionários abrangidos pela lei se aplicam as disposições da legislação relativa ao funcionalismo civil da União **no que não colidirem** com a Lei nº 4.878/1965.
+O artigo 62 estabelece que aos funcionários abrangidos pela lei se aplicam as disposições da legislação relativa ao funcionalismo civil da União **no que não colidirem** com a Lei número 4.878/1965.
 
 Essa é a ponte jurídica que ajuda a entender por que a lei peculiar não funciona isoladamente.
 
-No regime federal contemporâneo, essa legislação geral inclui a Lei nº 8.112/1990, sem prejuízo de outras normas supervenientes.
+No regime federal contemporâneo, essa legislação geral inclui a Lei número 8.112/1990, sem prejuízo de outras normas supervenientes.
 
 ### 10.3 Remoção
 
@@ -358,22 +358,22 @@ Uma questão atual pode cobrar que você reconheça sua natureza histórica. Nã
 
 | Faixa / tema | Como estudar no corte de 13/7/2026 |
 |---|---|
-| arts. 1º–12 | literalidade ainda relevante, com nomenclaturas e estrutura históricas e leis posteriores de carreira |
-| art. 13 | texto ainda diz 2 anos; aplicação atual exige leitura com regime superveniente |
-| arts. 14–21 | regras peculiares e históricas de acompanhamento, promoção, readaptação e férias |
-| arts. 22–36 | vantagens e assistência permanecem no texto; aplicação remuneratória concreta exige legislação posterior |
-| art. 37 | texto diz 65 anos; regra geral atual de compulsória é 75 anos pela Lei Complementar nº 152/2015 |
-| arts. 38–40 | leitura conjunta com regime previdenciário posterior; art. 40 preserva distinção da prisão especial até trânsito em julgado |
-| **arts. 41–60** | **revogados expressamente pela Lei nº 15.047/2024** |
-| arts. 61–69 | disposições gerais, subsidiariedade e remoção; observar legislação posterior |
-| arts. 70–72 | regras transitórias históricas com prazos exauridos |
-| arts. 73–74 | vigência e revogação genérica |
+| artigos 1º–12 | literalidade ainda relevante, com nomenclaturas e estrutura históricas e leis posteriores de carreira |
+| artigo 13 | texto ainda diz 2 anos; aplicação atual exige leitura com regime superveniente |
+| artigos 14–21 | regras peculiares e históricas de acompanhamento, promoção, readaptação e férias |
+| artigos 22–36 | vantagens e assistência permanecem no texto; aplicação remuneratória concreta exige legislação posterior |
+| artigo 37 | texto diz 65 anos; regra geral atual de compulsória é 75 anos pela Lei Complementar número 152/2015 |
+| artigos 38–40 | leitura conjunta com regime previdenciário posterior; artigo 40 preserva distinção da prisão especial até trânsito em julgado |
+| **artigos 41–60** | **revogados expressamente pela Lei número 15.047/2024** |
+| artigos 61–69 | disposições gerais, subsidiariedade e remoção; observar legislação posterior |
+| artigos 70–72 | regras transitórias históricas com prazos exauridos |
+| artigos 73–74 | vigência e revogação genérica |
 
 ---
 
 ## 13. Pegadinhas finais
 
-1. **Lei nº 4.878/1965 ≠ estatuto da Polícia Civil do Maranhão.**
+1. **Lei número 4.878/1965 ≠ estatuto da Polícia Civil do Maranhão.**
 2. O edital pode cobrar a lei federal/distrital porque a enumerou expressamente.
 3. Artigo 4º: hierarquia + disciplina + incompatibilidade com outra atividade, com exceções legais específicas.
 4. Artigo 9º: concurso anterior à matrícula e requisitos de saúde, idoneidade e aptidão.
@@ -383,7 +383,7 @@ Uma questão atual pode cobrar que você reconheça sua natureza histórica. Nã
 8. Artigo 37 ainda diz **65 anos**, mas a compulsória geral atual foi elevada para **75 anos**.
 9. Prisão especial do artigo 40 vai até o trânsito em julgado; depois há cumprimento da pena na forma específica do dispositivo.
 10. **Artigos 41 a 60 estão revogados.**
-11. O regime disciplinar atual da Polícia Federal e da Polícia Civil do Distrito Federal está na Lei nº 15.047/2024.
+11. O regime disciplinar atual da Polícia Federal e da Polícia Civil do Distrito Federal está na Lei número 15.047/2024.
 12. Artigo 62 manda aplicar subsidiariamente a legislação do funcionalismo civil da União quando não houver colisão.
 13. Remoção de ofício tem regra própria de tempo mínimo, salvo necessidade imperiosa do serviço justificada.
 14. Disposições transitórias de 1965 não se transformam em obrigações atuais.
