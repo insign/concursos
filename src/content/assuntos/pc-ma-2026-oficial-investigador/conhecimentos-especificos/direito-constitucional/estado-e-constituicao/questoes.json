@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u112-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para fins introdutórios de Direito Constitucional, o Estado é corretamente compreendido como",
+      "options": [
+        {
+          "id": "A",
+          "text": "a reunião ocasional de pessoas em determinado espaço, independentemente de poder político."
+        },
+        {
+          "id": "B",
+          "text": "a organização político-jurídica que exerce poder sobre uma coletividade em determinado território."
+        },
+        {
+          "id": "C",
+          "text": "o conjunto de autoridades eleitas em uma legislatura."
+        },
+        {
+          "id": "D",
+          "text": "sinônimo de governo, pois ambos desaparecem com a troca de mandato."
+        },
+        {
+          "id": "E",
+          "text": "qualquer organização privada dotada de regras internas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A noção introdutória de Estado reúne organização político-jurídica, coletividade, território e poder político organizado."
+    },
+    {
+      "id": "u112-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distinção entre povo e população é corretamente expressa em",
+      "options": [
+        {
+          "id": "A",
+          "text": "povo é conceito exclusivamente geográfico; população é conceito jurídico-político."
+        },
+        {
+          "id": "B",
+          "text": "povo corresponde a quem possui vínculo jurídico-político com o Estado; população abrange as pessoas presentes no território em determinado momento."
+        },
+        {
+          "id": "C",
+          "text": "povo e população são sinônimos necessários."
+        },
+        {
+          "id": "D",
+          "text": "população inclui apenas nacionais; povo inclui nacionais e estrangeiros."
+        },
+        {
+          "id": "E",
+          "text": "povo é formado apenas por eleitores."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Povo aponta para vínculo jurídico-político; população é categoria demográfica e pode incluir pessoas sem esse vínculo."
+    },
+    {
+      "id": "u112-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as funções centrais de uma Constituição está",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminar a necessidade de legislação inferior."
+        },
+        {
+          "id": "B",
+          "text": "organizar o Estado, distribuir e limitar o poder, atribuir competências e proteger direitos."
+        },
+        {
+          "id": "C",
+          "text": "substituir todas as decisões administrativas concretas."
+        },
+        {
+          "id": "D",
+          "text": "regular exclusivamente relações privadas."
+        },
+        {
+          "id": "E",
+          "text": "definir apenas a política econômica de um governo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Constituição cria a moldura jurídica fundamental do Estado, sem substituir a legislação e os atos infraconstitucionais."
+    },
+    {
+      "id": "u112-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando o edital menciona o objeto da Constituição, a pergunta central é",
+      "options": [
+        {
+          "id": "A",
+          "text": "qual partido político aprovou cada dispositivo."
+        },
+        {
+          "id": "B",
+          "text": "quais matérias fundamentais a Constituição organiza e protege."
+        },
+        {
+          "id": "C",
+          "text": "qual é o número de artigos do texto."
+        },
+        {
+          "id": "D",
+          "text": "qual órgão administrativo executará todas as suas normas."
+        },
+        {
+          "id": "E",
+          "text": "qual ramo do direito privado prevalece sobre o texto constitucional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O objeto constitucional envolve, em nível fundamental, estrutura estatal, poder e limites, competências, Poderes e direitos."
+    },
+    {
+      "id": "u112-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distinção entre Constituição em sentido material e em sentido formal utiliza, respectivamente, os critérios de",
+      "options": [
+        {
+          "id": "A",
+          "text": "origem e extensão."
+        },
+        {
+          "id": "B",
+          "text": "conteúdo da norma e inserção no nível constitucional pelo procedimento próprio."
+        },
+        {
+          "id": "C",
+          "text": "estabilidade e ideologia."
+        },
+        {
+          "id": "D",
+          "text": "forma escrita e costume."
+        },
+        {
+          "id": "E",
+          "text": "elaboração histórica e rigidez."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O sentido material olha para a matéria regulada; o formal, para a posição constitucional decorrente da inserção válida no nível constitucional."
+    },
+    {
+      "id": "u112-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A concepção sociológica de Constituição associada a Ferdinand Lassalle enfatiza",
+      "options": [
+        {
+          "id": "A",
+          "text": "os fatores reais de poder existentes na sociedade."
+        },
+        {
+          "id": "B",
+          "text": "apenas o procedimento formal de emenda."
+        },
+        {
+          "id": "C",
+          "text": "a decisão judicial como única fonte constitucional."
+        },
+        {
+          "id": "D",
+          "text": "a ausência de relação entre texto constitucional e forças sociais."
+        },
+        {
+          "id": "E",
+          "text": "a equivalência entre Constituição e lei ordinária."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Lassalle é associado à leitura sociológica que relaciona a Constituição efetiva aos fatores reais de poder."
+    },
+    {
+      "id": "u112-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na concepção política associada a Carl Schmitt, a Constituição se relaciona principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "à soma de todos os costumes privados."
+        },
+        {
+          "id": "B",
+          "text": "às decisões políticas fundamentais sobre a unidade política."
+        },
+        {
+          "id": "C",
+          "text": "à simples hierarquia entre decretos e portarias."
+        },
+        {
+          "id": "D",
+          "text": "ao conteúdo de qualquer contrato estatal."
+        },
+        {
+          "id": "E",
+          "text": "à estatística populacional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Schmitt é associado à ideia de decisão política fundamental como núcleo da Constituição."
+    },
+    {
+      "id": "u112-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A concepção jurídica associada a Hans Kelsen destaca a Constituição como",
+      "options": [
+        {
+          "id": "A",
+          "text": "norma jurídica superior no sistema de validade das normas."
+        },
+        {
+          "id": "B",
+          "text": "mera descrição sociológica sem força normativa."
+        },
+        {
+          "id": "C",
+          "text": "pacto exclusivamente econômico."
+        },
+        {
+          "id": "D",
+          "text": "costume sem relação com validade jurídica."
+        },
+        {
+          "id": "E",
+          "text": "ato administrativo do Poder Executivo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na leitura jurídica associada a Kelsen, a Constituição ocupa posição superior no sistema normativo."
+    },
+    {
+      "id": "u112-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à origem, a Constituição brasileira de 1988 é classificada como",
+      "options": [
+        {
+          "id": "A",
+          "text": "outorgada."
+        },
+        {
+          "id": "B",
+          "text": "promulgada."
+        },
+        {
+          "id": "C",
+          "text": "histórica."
+        },
+        {
+          "id": "D",
+          "text": "flexível."
+        },
+        {
+          "id": "E",
+          "text": "sintética."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Constituição de 1988 foi elaborada por Assembleia Nacional Constituinte representativa e promulgada em 5 de outubro de 1988."
+    },
+    {
+      "id": "u112-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Constituição cesarista é aquela que, na classificação quanto à origem,",
+      "options": [
+        {
+          "id": "A",
+          "text": "surge gradualmente de costumes e precedentes."
+        },
+        {
+          "id": "B",
+          "text": "é elaborada sob direção do detentor do poder e posteriormente submetida a consulta popular para ratificação."
+        },
+        {
+          "id": "C",
+          "text": "é necessariamente elaborada por assembleia constituinte representativa."
+        },
+        {
+          "id": "D",
+          "text": "não admite qualquer forma de consulta popular."
+        },
+        {
+          "id": "E",
+          "text": "é sinônimo de constituição histórica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A classificação cesarista envolve elaboração dirigida pelo poder e consulta popular posterior, distinta da elaboração constituinte representativa."
+    },
+    {
+      "id": "u112-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dizer que uma Constituição é escrita significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ela é necessariamente rígida."
+        },
+        {
+          "id": "B",
+          "text": "suas normas fundamentais estão formalizadas em documento ou conjunto documental constitucional solene."
+        },
+        {
+          "id": "C",
+          "text": "ela não pode conter costumes constitucionais relevantes."
+        },
+        {
+          "id": "D",
+          "text": "ela deve ser sintética."
+        },
+        {
+          "id": "E",
+          "text": "ela foi obrigatoriamente outorgada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Forma escrita e rigidez são critérios diferentes. Constituição escrita é a que formaliza suas normas fundamentais em texto constitucional."
+    },
+    {
+      "id": "u112-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Constituição de 1988 é dogmática porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "foi formada gradualmente por costumes durante séculos."
+        },
+        {
+          "id": "B",
+          "text": "foi elaborada deliberadamente em determinado momento, sistematizando opções político-jurídicas."
+        },
+        {
+          "id": "C",
+          "text": "não admite alteração."
+        },
+        {
+          "id": "D",
+          "text": "é pouco extensa."
+        },
+        {
+          "id": "E",
+          "text": "foi imposta sem constituinte representativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Dogmática descreve o modo deliberado de elaboração; o contraste é a constituição histórica."
+    },
+    {
+      "id": "u112-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à extensão, a Constituição brasileira de 1988 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "sintética, por disciplinar apenas a estrutura mínima do Estado."
+        },
+        {
+          "id": "B",
+          "text": "analítica, por disciplinar numerosas matérias com elevado detalhamento."
+        },
+        {
+          "id": "C",
+          "text": "flexível, por possuir muitos artigos."
+        },
+        {
+          "id": "D",
+          "text": "histórica, por ser extensa."
+        },
+        {
+          "id": "E",
+          "text": "outorgada, por ser detalhada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Extensão mede o grau de abrangência e detalhamento. A Constituição de 1988 é tradicionalmente classificada como analítica."
+    },
+    {
+      "id": "u112-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma Constituição é rígida quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "não pode ser modificada em hipótese alguma."
+        },
+        {
+          "id": "B",
+          "text": "sua alteração exige procedimento mais difícil que o processo legislativo comum."
+        },
+        {
+          "id": "C",
+          "text": "é necessariamente não escrita."
+        },
+        {
+          "id": "D",
+          "text": "só contém normas materialmente constitucionais."
+        },
+        {
+          "id": "E",
+          "text": "possui poucos artigos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Rigidez compara o procedimento de reforma constitucional com o procedimento legislativo comum."
+    },
+    {
+      "id": "u112-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao conteúdo, a Constituição brasileira de 1988 é classificada como formal porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente temas materialmente fundamentais podem integrar seu texto."
+        },
+        {
+          "id": "B",
+          "text": "a posição constitucional decorre da inserção válida da norma no nível constitucional, ainda que a matéria pudesse ser tratada em nível inferior."
+        },
+        {
+          "id": "C",
+          "text": "todas as suas normas são costumes."
+        },
+        {
+          "id": "D",
+          "text": "não protege direitos fundamentais."
+        },
+        {
+          "id": "E",
+          "text": "não possui hierarquia superior."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A classificação formal usa como critério a inserção no nível constitucional, não apenas a natureza material do tema."
+    },
+    {
+      "id": "u112-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Classificar a Constituição de 1988 como dirigente significa reconhecer que ela",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas limita o poder e nunca estabelece objetivos estatais."
+        },
+        {
+          "id": "B",
+          "text": "também estabelece objetivos, programas e tarefas para a atuação estatal."
+        },
+        {
+          "id": "C",
+          "text": "é imutável."
+        },
+        {
+          "id": "D",
+          "text": "adota uma única matriz ideológica."
+        },
+        {
+          "id": "E",
+          "text": "pode ser alterada como lei ordinária."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A constituição dirigente combina organização e limitação do poder com fins, programas e tarefas dirigidas ao Estado."
+    },
+    {
+      "id": "u112-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A classificação eclética ou pluralista da Constituição de 1988 indica que ela",
+      "options": [
+        {
+          "id": "A",
+          "text": "incorpora compromissos de diferentes matrizes político-sociais."
+        },
+        {
+          "id": "B",
+          "text": "é formada apenas por costumes."
+        },
+        {
+          "id": "C",
+          "text": "não possui unidade normativa."
+        },
+        {
+          "id": "D",
+          "text": "foi outorgada."
+        },
+        {
+          "id": "E",
+          "text": "é flexível."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Eclética ou pluralista é classificação ligada à pluralidade de compromissos ideológicos incorporados ao texto."
+    },
+    {
+      "id": "u112-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a sequência que classifica corretamente a Constituição brasileira de 1988 segundo critérios diferentes.",
+      "options": [
+        {
+          "id": "A",
+          "text": "promulgada, escrita, dogmática, analítica, rígida, formal, dirigente e eclética."
+        },
+        {
+          "id": "B",
+          "text": "outorgada, não escrita, histórica, sintética, flexível, material, garantia e ortodoxa."
+        },
+        {
+          "id": "C",
+          "text": "promulgada, costumeira, histórica, analítica, semirrígida, material, imutável e ortodoxa."
+        },
+        {
+          "id": "D",
+          "text": "outorgada, escrita, dogmática, sintética, rígida, material, dirigente e ortodoxa."
+        },
+        {
+          "id": "E",
+          "text": "cesarista, não escrita, dogmática, sintética, flexível, formal, garantia e pluralista."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a síntese classificatória tradicional usada nesta unidade, sempre lembrando que cada adjetivo responde a critério próprio."
+    },
+    {
+      "id": "u112-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 1 da prova Cebraspe para Procurador do Estado do Paraná, aplicada em 17/11/2024, assinale a afirmação correta sobre estabilidade constitucional.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toda constituição escrita é necessariamente rígida."
+        },
+        {
+          "id": "B",
+          "text": "Uma constituição flexível é juridicamente impossível."
+        },
+        {
+          "id": "C",
+          "text": "Rigidez significa proibição absoluta e permanente de alteração."
+        },
+        {
+          "id": "D",
+          "text": "É possível conceber constituição que seja imutável apenas durante determinado período."
+        },
+        {
+          "id": "E",
+          "text": "Toda constituição possui o mesmo grau de rigidez em todas as suas normas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O gabarito definitivo da questão original é D. A classificação por estabilidade admite, na doutrina, hipótese de imutabilidade temporária; rigidez não se confunde com forma escrita nem com proibição absoluta de reforma."
+    },
+    {
+      "id": "u112-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal dos itens 61 a 63 da prova Cebraspe do Tribunal de Contas do Estado do Rio Grande do Sul de 2025, considere: I. A Constituição de 1988 é sintética quanto à extensão. II. A Constituição de 1988 é semirrígida quanto à estabilidade. III. A Constituição de 1988 é promulgada quanto à origem. Assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apenas I está correta."
+        },
+        {
+          "id": "B",
+          "text": "Apenas II está correta."
+        },
+        {
+          "id": "C",
+          "text": "Apenas III está correta."
+        },
+        {
+          "id": "D",
+          "text": "Apenas I e III estão corretas."
+        },
+        {
+          "id": "E",
+          "text": "I, II e III estão corretas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os gabaritos definitivos dos itens originais são E, E e C. A Constituição de 1988 é analítica, rígida e promulgada; portanto, apenas a afirmação III está correta."
+    }
+  ]
+}
