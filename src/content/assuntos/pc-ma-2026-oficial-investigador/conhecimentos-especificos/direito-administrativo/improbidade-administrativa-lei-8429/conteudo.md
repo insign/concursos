@@ -8,7 +8,7 @@ storageId: pc-u104
 
 # Improbidade administrativa: ilegalidade não basta
 
-O edital cobra as **sanções aos agentes públicos** e a **Lei nº 8.429/1992 com alterações**. A melhor forma de estudar esse tema não é começar pelas penas. Primeiro é preciso descobrir se existe, de fato, um ato de improbidade.
+O edital cobra as **sanções aos agentes públicos** e a **Lei número 8.429/1992 com alterações**. A melhor forma de estudar esse tema não é começar pelas penas. Primeiro é preciso descobrir se existe, de fato, um ato de improbidade.
 
 Use este fluxo:
 
@@ -20,7 +20,7 @@ Use este fluxo:
 6. **quais consequências podem ser aplicadas?**
 7. **como investigação, ação, cautelares e prescrição funcionam?**
 
-A reforma promovida pela Lei nº 14.230/2021 e o julgamento das Ações Diretas de Inconstitucionalidade 7.156 e 7.236, concluído pelo Supremo Tribunal Federal em **1º de julho de 2026**, tornam especialmente perigoso estudar por material antigo.
+A reforma promovida pela Lei número 14.230/2021 e o julgamento das Ações Diretas de Inconstitucionalidade 7.156 e 7.236, concluído pelo Supremo Tribunal Federal em **1º de julho de 2026**, tornam especialmente perigoso estudar por material antigo.
 
 > **Corte legislativo e jurisprudencial usado nesta unidade: 13 de julho de 2026.**
 
@@ -28,7 +28,7 @@ A reforma promovida pela Lei nº 14.230/2021 e o julgamento das Ações Diretas 
 
 ## 1. O primeiro contraste: ilegalidade não é improbidade
 
-Improbidade é um ilícito qualificado. Um ato pode ser ilegal, anulável, gerar dever de reparar, responsabilidade disciplinar ou controle pelo tribunal de contas e **ainda assim não preencher os requisitos da Lei nº 8.429/1992**.
+Improbidade é um ilícito qualificado. Um ato pode ser ilegal, anulável, gerar dever de reparar, responsabilidade disciplinar ou controle pelo tribunal de contas e **ainda assim não preencher os requisitos da Lei número 8.429/1992**.
 
 Depois da reforma de 2021, a lei deixa isso explícito:
 
@@ -41,7 +41,7 @@ A ação de improbidade tem natureza **civil e sancionatória**. Ela não é aç
 
 ### 1.1 Dolo: o filtro subjetivo
 
-A Lei nº 8.429/1992 define dolo como a vontade livre e consciente de alcançar o resultado ilícito tipificado.
+A Lei número 8.429/1992 define dolo como a vontade livre e consciente de alcançar o resultado ilícito tipificado.
 
 Portanto:
 
@@ -122,7 +122,7 @@ O resultado prático é:
 
 ### 3.5 Pessoa jurídica e Lei Anticorrupção
 
-A Lei nº 12.846/2013 permite responsabilidade objetiva da pessoa jurídica por atos lesivos praticados em seu interesse ou benefício. Essa lógica **não é transferida** para a responsabilidade pessoal por improbidade.
+A Lei número 12.846/2013 permite responsabilidade objetiva da pessoa jurídica por atos lesivos praticados em seu interesse ou benefício. Essa lógica **não é transferida** para a responsabilidade pessoal por improbidade.
 
 A Lei de Improbidade também evita duplicidade sancionatória da pessoa jurídica pelo mesmo ato já sancionado pela Lei Anticorrupção. É aplicação do <abbr title="Proibição de dupla punição material pelo mesmo fato e fundamento">non bis in idem</abbr>.
 
@@ -363,7 +363,7 @@ A comissão processante comunica a apuração ao Ministério Público e ao Tribu
 
 ## 14. Quem pode propor a ação
 
-A Lei nº 14.230/2021 tentou concentrar a legitimidade no Ministério Público.
+A Lei número 14.230/2021 tentou concentrar a legitimidade no Ministério Público.
 
 O Supremo Tribunal Federal, nas Ações Diretas de Inconstitucionalidade 7.042 e 7.043, restabeleceu legitimidade **concorrente e disjuntiva** entre:
 
@@ -568,7 +568,7 @@ No corte desta prova:
 
 ### 19.5 Direito intertemporal
 
-Pelo Tema 1.199 do Supremo Tribunal Federal, o novo regime prescricional da Lei nº 14.230/2021 é **irretroativo**.
+Pelo Tema 1.199 do Supremo Tribunal Federal, o novo regime prescricional da Lei número 14.230/2021 é **irretroativo**.
 
 Os novos marcos temporais contam da publicação da reforma, em 26 de outubro de 2021.
 
@@ -592,7 +592,7 @@ As sanções pessoais continuam sujeitas à prescrição.
 
 ## 21. Partidos políticos e recursos públicos
 
-O artigo 23-C remete certos ilícitos com recursos de partidos políticos ou de suas fundações à Lei nº 9.096/1995.
+O artigo 23-C remete certos ilícitos com recursos de partidos políticos ou de suas fundações à Lei número 9.096/1995.
 
 Em junho de 2026, o Supremo Tribunal Federal conferiu interpretação conforme: essa responsabilização especial **não impede**, quando presentes seus requisitos, a incidência da Lei de Improbidade.
 
