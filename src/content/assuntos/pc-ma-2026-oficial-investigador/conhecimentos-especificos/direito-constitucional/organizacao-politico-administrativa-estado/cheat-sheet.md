@@ -3,7 +3,7 @@
 ## Mapa básico
 
 ```text
-RFB → SOBERANA
+República Federativa do Brasil → SOBERANA
 
 ENTES AUTÔNOMOS:
 - União
@@ -64,7 +64,7 @@ Lei complementar pode autorizar **Estados** a legislar sobre **questões especí
 
 ```text
 União → normas gerais
-Estado/DF → suplementam
+Estado/Distrito Federal → suplementam
 
 Sem norma geral federal?
 → Estado = competência plena para peculiaridades
@@ -135,10 +135,10 @@ Emenda Constitucional 139/2026:
 ## Oposições que mais caem
 
 ```text
-RFB = soberania
+República Federativa do Brasil = soberania
 União = autonomia
 
-DF = ente / não pode Municípios
+Distrito Federal = ente / não pode Municípios
 Território = não ente / pode Municípios
 
 Estado = Constituição estadual
