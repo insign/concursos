@@ -22,7 +22,7 @@ Art. 4º:
 - disciplina;
 - incompatibilidade com outra atividade.
 
-Exceções do art. 23, § 3º:
+Exceções do artigo 23, § 3º:
 - magistério na Academia Nacional de Polícia;
 - prática hospitalar para médico legista.
 
@@ -56,7 +56,7 @@ Art. 24 → mínimo **200 horas/mês**.
 
 Policial hospitalizado → assistência contínua, dia e noite.
 
-Policial/família → assistência pelos serviços listados no art. 31.
+Policial/família → assistência pelos serviços listados no artigo 31.
 
 Acidente em serviço/doença profissional → hospitalização e tratamento por conta do Estado.
 
@@ -68,7 +68,7 @@ Regra geral atual → **75 anos**, Lei Complementar 152/2015.
 
 ## Prisão especial
 
-Até trânsito em julgado → prisão especial, art. 40.
+Até trânsito em julgado → prisão especial, artigo 40.
 
 Depois da condenação definitiva → estabelecimento penal, em dependência isolada nos termos da lei.
 
