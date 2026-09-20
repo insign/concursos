@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u102-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um caso hipotético, a autoridade expede ordem de interdição e, depois, agentes instalam fisicamente os lacres. Qual distinção é mais adequada para o recorte de atos administrativos?",
+      "options": [
+        {"id": "A", "text": "A ordem e a instalação dos lacres são necessariamente contratos administrativos."},
+        {"id": "B", "text": "A ordem é manifestação jurídica analisável como ato administrativo; a instalação dos lacres é atuação material."},
+        {"id": "C", "text": "Somente a instalação dos lacres pode produzir qualquer efeito jurídico."},
+        {"id": "D", "text": "A ordem é fato administrativo material, enquanto a instalação é ato normativo."},
+        {"id": "E", "text": "Não existe diferença relevante entre manifestação jurídica e execução material."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O ato administrativo é uma manifestação jurídica; a execução física da decisão é atuação material. A distinção evita confundir formação jurídica da decisão com sua realização concreta."
+    },
+    {
+      "id": "u102-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa reúne os cinco elementos clássicos usados para controlar a validade do ato administrativo?",
+      "options": [
+        {"id": "A", "text": "Competência, finalidade, forma, motivo e objeto."},
+        {"id": "B", "text": "Competência, publicidade, eficiência, hierarquia e patrimônio."},
+        {"id": "C", "text": "Sujeito, território, soberania, forma e processo."},
+        {"id": "D", "text": "Mérito, autoexecutoriedade, imperatividade, tipicidade e objeto."},
+        {"id": "E", "text": "Finalidade, recurso, prescrição, decadência e contrato."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A matriz clássica relaciona competência, finalidade, forma, motivo e objeto aos vícios destacados pelo artigo 2º da Lei 4.717/1965."
+    },
+    {
+      "id": "u102-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No regime federal da Lei 9.784/1999, qual matéria não pode ser delegada?",
+      "options": [
+        {"id": "A", "text": "Toda atividade material de expediente."},
+        {"id": "B", "text": "Toda competência exercida por órgão colegiado."},
+        {"id": "C", "text": "A decisão de recursos administrativos."},
+        {"id": "D", "text": "Qualquer competência não exclusiva."},
+        {"id": "E", "text": "A assinatura de comunicações rotineiras, em qualquer hipótese."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei 9.784/1999 impede a delegação da edição de atos normativos, da decisão de recursos administrativos e de matérias de competência exclusiva. É regra específica do processo administrativo federal."
+    },
+    {
+      "id": "u102-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa que diferencia corretamente motivo e motivação.",
+      "options": [
+        {"id": "A", "text": "Motivo é a exposição escrita da decisão; motivação é o fato que ocorreu."},
+        {"id": "B", "text": "Motivo é o conjunto de fatos e fundamentos jurídicos que sustenta o ato; motivação é a exposição dessas razões."},
+        {"id": "C", "text": "Motivo e motivação são sinônimos em qualquer situação."},
+        {"id": "D", "text": "Motivo diz respeito apenas à forma; motivação, apenas à competência."},
+        {"id": "E", "text": "Motivação só existe em contratos e nunca em atos administrativos."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O motivo é o suporte fático e jurídico. A motivação é a exteriorização das razões da decisão. Confundir os dois conceitos é uma pegadinha frequente."
+    },
+    {
+      "id": "u102-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma autoridade possui margem discricionária e declara que decidiu com base em fato que, depois, se prova inexistente. Qual conclusão é a mais adequada?",
+      "options": [
+        {"id": "A", "text": "A discricionariedade torna irrelevante a falsidade do fato declarado."},
+        {"id": "B", "text": "O ato é necessariamente válido porque a autoridade tinha competência."},
+        {"id": "C", "text": "Pela teoria dos motivos determinantes, a validade do ato fica vinculada à existência e à veracidade dos motivos declarados."},
+        {"id": "D", "text": "Somente a forma do ato pode ser questionada."},
+        {"id": "E", "text": "Motivo falso só seria relevante em ato vinculado."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Discricionariedade não autoriza motivo inexistente. Quando a Administração declara razões para o ato, elas integram o controle de validade segundo a teoria dos motivos determinantes."
+    },
+    {
+      "id": "u102-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual situação ilustra corretamente a diferença entre imperatividade e autoexecutoriedade?",
+      "options": [
+        {"id": "A", "text": "Todo ato imperativo pode ser executado materialmente sem qualquer procedimento."},
+        {"id": "B", "text": "Imperatividade permite impor obrigação unilateralmente; autoexecutoriedade permite execução material direta apenas quando juridicamente admitida."},
+        {"id": "C", "text": "Autoexecutoriedade significa presunção absoluta de legalidade."},
+        {"id": "D", "text": "Imperatividade e autoexecutoriedade são elementos de validade do ato."},
+        {"id": "E", "text": "Nenhum ato administrativo pode ser executado sem autorização judicial prévia."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Imperatividade diz respeito à imposição unilateral. Autoexecutoriedade é a possibilidade de execução direta sem ordem judicial prévia nas hipóteses admitidas pelo ordenamento. Nem todo ato imperativo é autoexecutório."
+    },
+    {
+      "id": "u102-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um ato teve seu ciclo de formação concluído e foi praticado em conformidade com o Direito, mas sua eficácia depende de publicação exigida que ainda não ocorreu. Esse ato é",
+      "options": [
+        {"id": "A", "text": "imperfeito, inválido e eficaz."},
+        {"id": "B", "text": "perfeito e válido, mas ainda ineficaz."},
+        {"id": "C", "text": "perfeito, inválido e necessariamente eficaz."},
+        {"id": "D", "text": "inexistente, porque validade e eficácia são sinônimos."},
+        {"id": "E", "text": "revogado."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Perfeição indica conclusão da formação; validade indica conformidade jurídica; eficácia indica aptidão atual para produzir efeitos. As três categorias não são sinônimas."
+    },
+    {
+      "id": "u102-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à formação da vontade, qual alternativa está correta?",
+      "options": [
+        {"id": "A", "text": "Ato de órgão colegiado é sempre complexo, porque várias pessoas participam."},
+        {"id": "B", "text": "Ato complexo é formado pela manifestação de um único órgão."},
+        {"id": "C", "text": "Ato composto pressupõe necessariamente duas vontades que se fundem em um único ato."},
+        {"id": "D", "text": "Ato simples resulta da vontade de um órgão, ainda que ele seja colegiado; ato complexo exige vontades autônomas de órgãos distintos para formar um único ato."},
+        {"id": "E", "text": "Simples, complexo e composto classificam o conteúdo punitivo do ato."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "O critério é orgânico, não o número de pessoas. O ato simples pode vir de órgão colegiado; no complexo, vontades de órgãos distintos se conjugam para formar um único ato."
+    },
+    {
+      "id": "u102-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre ato discricionário e mérito administrativo, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "Discricionariedade equivale a poder arbitrário sem controle jurídico."},
+        {"id": "B", "text": "Mérito é a valoração de conveniência e oportunidade dentro da margem que o ordenamento permite."},
+        {"id": "C", "text": "Competência e finalidade ficam livres de controle sempre que o ato é discricionário."},
+        {"id": "D", "text": "Motivos falsos são irrelevantes no ato discricionário."},
+        {"id": "E", "text": "Todo ato discricionário é autoexecutório."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O mérito administrativo existe dentro dos limites legais. Competência, finalidade, existência dos motivos, limites do objeto e princípios jurídicos permanecem controláveis."
+    },
+    {
+      "id": "u102-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na classificação doutrinária tradicional das espécies de atos, é correto afirmar que",
+      "options": [
+        {"id": "A", "text": "licença é ato punitivo e autorização é ato enunciativo."},
+        {"id": "B", "text": "certidão é ato normativo porque contém informação oficial."},
+        {"id": "C", "text": "licença e autorização são exemplos clássicos de atos negociais, embora a disciplina legal específica possa ajustar seus regimes."},
+        {"id": "D", "text": "parecer é necessariamente decisão final vinculante."},
+        {"id": "E", "text": "multa administrativa é ato negocial."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Licença e autorização são exemplos clássicos de atos negociais. No modelo doutrinário usual, licença é vinculada e autorização é discricionária, sem prejuízo da lei específica."
+    },
+    {
+      "id": "u102-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Administração descobre que um ato nasceu ilegal. Em outro caso, entende que um ato válido se tornou inconveniente. Em um terceiro, o beneficiário deixou de cumprir condição exigida para manter um ato válido. As formas de retirada correspondentes são, respectivamente,",
+      "options": [
+        {"id": "A", "text": "revogação, anulação e convalidação."},
+        {"id": "B", "text": "cassação, revogação e anulação."},
+        {"id": "C", "text": "anulação, revogação e cassação."},
+        {"id": "D", "text": "convalidação, cassação e revogação."},
+        {"id": "E", "text": "anulação, cassação e revogação."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ilegalidade leva à anulação; conveniência ou oportunidade sobre ato válido leva à revogação; descumprimento posterior de condição pelo beneficiário caracteriza cassação."
+    },
+    {
+      "id": "u102-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre os efeitos típicos da anulação e da revogação, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "Anulação e revogação sempre operam apenas para o futuro."},
+        {"id": "B", "text": "Revogação corrige ilegalidade originária e retroage necessariamente."},
+        {"id": "C", "text": "A anulação, em regra doutrinária, busca desfazer efeitos desde a origem; a revogação opera prospectivamente, sem prejuízo das limitações de segurança jurídica e da disciplina aplicável."},
+        {"id": "D", "text": "A anulação só pode ser feita pelo Poder Judiciário."},
+        {"id": "E", "text": "A revogação cabe ao Judiciário sempre que ele discordar da conveniência administrativa."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A anulação responde à ilegalidade e é tradicionalmente associada a efeitos retroativos; a revogação retira ato válido por mérito e, em regra, produz efeitos para o futuro. Segurança jurídica e normas específicas podem limitar consequências."
+    },
+    {
+      "id": "u102-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No âmbito federal, segundo o artigo 54 da Lei 9.784/1999, o direito da Administração de anular atos de que decorram efeitos favoráveis aos destinatários decai, em regra, em",
+      "options": [
+        {"id": "A", "text": "dois anos, mesmo se houver má-fé."},
+        {"id": "B", "text": "três anos, salvo conveniência administrativa."},
+        {"id": "C", "text": "cinco anos, salvo comprovada má-fé."},
+        {"id": "D", "text": "dez anos, sem exceção."},
+        {"id": "E", "text": "vinte anos, desde que o ato seja discricionário."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A regra federal é de cinco anos, contados da prática do ato, salvo comprovada má-fé. Trata-se de regra da Lei 9.784/1999 e não deve ser generalizada automaticamente para qualquer ente."
+    },
+    {
+      "id": "u102-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No processo administrativo federal, a convalidação de ato com defeito sanável é admitida quando",
+      "options": [
+        {"id": "A", "text": "qualquer vício estiver presente, ainda que haja prejuízo a terceiros."},
+        {"id": "B", "text": "não houver lesão ao interesse público nem prejuízo a terceiros."},
+        {"id": "C", "text": "a Administração desejar evitar motivação."},
+        {"id": "D", "text": "o vício for de objeto ilícito insanável."},
+        {"id": "E", "text": "o ato já tiver sido revogado pelo Poder Judiciário."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 55 da Lei 9.784/1999 admite convalidação de defeitos sanáveis quando não houver lesão ao interesse público nem prejuízo a terceiros."
+    },
+    {
+      "id": "u102-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No processo administrativo, a Constituição assegura expressamente aos litigantes e acusados em geral",
+      "options": [
+        {"id": "A", "text": "contraditório e ampla defesa, com os meios e recursos a ela inerentes."},
+        {"id": "B", "text": "sigilo obrigatório de todas as decisões."},
+        {"id": "C", "text": "decisão sem motivação em qualquer hipótese."},
+        {"id": "D", "text": "impossibilidade absoluta de revisão administrativa."},
+        {"id": "E", "text": "dispensa do devido processo legal quando houver interesse público."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 5º, inciso LV, da Constituição assegura contraditório e ampla defesa também no processo administrativo. Interesse público não elimina essas garantias."
+    },
+    {
+      "id": "u102-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Concluída a instrução de processo administrativo federal, a Lei 9.784/1999 estabelece, em regra, prazo de até",
+      "options": [
+        {"id": "A", "text": "5 dias, improrrogáveis, para decisão."},
+        {"id": "B", "text": "10 dias, prorrogáveis indefinidamente."},
+        {"id": "C", "text": "15 dias, sem necessidade de decisão explícita."},
+        {"id": "D", "text": "30 dias para decisão, prorrogáveis por igual período mediante motivação expressa."},
+        {"id": "E", "text": "90 dias para decisão, automaticamente renováveis."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 49 da Lei 9.784/1999 fixa até 30 dias para decidir após concluída a instrução, prorrogáveis por igual período mediante motivação expressa."
+    },
+    {
+      "id": "u102-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No regime federal da Lei 9.784/1999, na ausência de prazo legal específico, o recurso administrativo deve ser interposto em 10 dias e",
+      "options": [
+        {"id": "A", "text": "sempre possui efeito suspensivo automático."},
+        {"id": "B", "text": "em regra não possui efeito suspensivo, ressalvadas as hipóteses admitidas pelo ordenamento."},
+        {"id": "C", "text": "só pode tratar de mérito, nunca de legalidade."},
+        {"id": "D", "text": "é dirigido diretamente ao Poder Judiciário."},
+        {"id": "E", "text": "não admite reconsideração pela autoridade que decidiu."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei 9.784/1999 prevê prazo recursal de 10 dias na falta de regra específica e estabelece, como regra, ausência de efeito suspensivo. O recurso pode discutir legalidade e mérito."
+    },
+    {
+      "id": "u102-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Administração pretende desfazer, por autotutela, ato que já produziu efeitos concretos favoráveis ao administrado. Qual afirmação é mais adequada?",
+      "options": [
+        {"id": "A", "text": "A autotutela sempre dispensa processo e defesa."},
+        {"id": "B", "text": "A existência de efeitos concretos torna o ato irrevogável e inanulável em qualquer situação."},
+        {"id": "C", "text": "O desfazimento deve observar processo administrativo regular e as garantias pertinentes, sem prejuízo da análise de legalidade, decadência e demais limites aplicáveis."},
+        {"id": "D", "text": "Somente o Poder Legislativo pode examinar o ato."},
+        {"id": "E", "text": "A Administração deve revogar o ato mesmo se o problema for ilegalidade."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A autotutela não elimina devido processo e defesa quando o desfazimento atinge situação concreta já produzida. Também devem ser verificados legalidade, decadência e o regime específico."
+    },
+    {
+      "id": "u102-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 22 da prova Cebraspe para Investigador de Polícia do Maranhão, concurso 2017/2018, qual conjunto corresponde aos elementos fundamentais clássicos do ato administrativo?",
+      "options": [
+        {"id": "A", "text": "Competência, forma, objeto, motivo e finalidade."},
+        {"id": "B", "text": "Hierarquia, disciplina, polícia, autoexecutoriedade e publicidade."},
+        {"id": "C", "text": "Competência, mérito, imperatividade, eficiência e prescrição."},
+        {"id": "D", "text": "Forma, tipicidade, recurso, decadência e finalidade."},
+        {"id": "E", "text": "Objeto, eficácia, contrato, avocação e interesse privado."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O caderno oficial e o gabarito definitivo da prova identificam como correta a alternativa que reúne competência, forma, objeto, motivo e finalidade. A redação aqui foi convertida para nova múltipla escolha sem reprodução literal do enunciado original."
+    },
+    {
+      "id": "u102-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 9 da prova oral Cebraspe para Delegado da Polícia Civil de Rondônia, concurso 2022, qual associação distingue corretamente cassação, revogação e anulação?",
+      "options": [
+        {"id": "A", "text": "Cassação: ilegalidade originária; revogação: perda posterior de requisito; anulação: conveniência."},
+        {"id": "B", "text": "Cassação: descumprimento posterior, pelo beneficiário, de condição de manutenção; revogação: mérito de ato válido; anulação: ilegalidade."},
+        {"id": "C", "text": "Cassação e anulação: sempre mérito; revogação: sempre vício de forma."},
+        {"id": "D", "text": "Cassação: conveniência; revogação: ilegalidade; anulação: mera expiração do prazo."},
+        {"id": "E", "text": "Os três institutos possuem o mesmo fundamento e produzem necessariamente os mesmos efeitos."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O padrão oficial da prova oral diferencia os três institutos pela causa: descumprimento posterior pelo beneficiário, mérito administrativo de ato válido e ilegalidade, respectivamente. A questão foi adaptada sem transcrição literal."
+    }
+  ]
+}
