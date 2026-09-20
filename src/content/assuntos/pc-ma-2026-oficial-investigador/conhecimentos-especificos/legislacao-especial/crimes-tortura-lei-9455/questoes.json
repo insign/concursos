@@ -1,0 +1,996 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u125-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O edital da PC-MA menciona 'Lei 9.455/1965'. A referência normativa correta para os crimes de tortura é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lei nº 9.455, de 7 de abril de 1997."
+        },
+        {
+          "id": "B",
+          "text": "Lei nº 9.455, de 7 de abril de 1965."
+        },
+        {
+          "id": "C",
+          "text": "Lei nº 8.455, de 7 de abril de 1997."
+        },
+        {
+          "id": "D",
+          "text": "Lei nº 9.455, de 7 de abril de 2003."
+        },
+        {
+          "id": "E",
+          "text": "Decreto-Lei nº 9.455/1965."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 9.455 é de 7 de abril de 1997. O ano 1965 é erro literal do edital e não deve ser reproduzido como dado jurídico correto."
+    },
+    {
+      "id": "u125-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na modalidade do artigo 1º, I, a, a Lei nº 9.455/1997 exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "violência ou grave ameaça, sofrimento físico ou mental e finalidade de obter informação, declaração ou confissão da vítima ou de terceira pessoa."
+        },
+        {
+          "id": "B",
+          "text": "necessariamente intenso sofrimento e relação de guarda."
+        },
+        {
+          "id": "C",
+          "text": "apenas violência física, sem finalidade específica."
+        },
+        {
+          "id": "D",
+          "text": "que o agente seja servidor público."
+        },
+        {
+          "id": "E",
+          "text": "repetição obrigatória da conduta."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A tortura-prova exige violência ou grave ameaça, sofrimento físico ou mental e a finalidade específica de obter informação, declaração ou confissão."
+    },
+    {
+      "id": "u125-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a jurisprudência do Superior Tribunal de Justiça, a tortura-prova do artigo 1º, I, a,",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige sofrimento qualificado expressamente como intenso."
+        },
+        {
+          "id": "B",
+          "text": "não exige que o sofrimento seja intenso, pois esse adjetivo aparece expressamente na tortura-castigo do inciso II."
+        },
+        {
+          "id": "C",
+          "text": "só pode ser praticada por agente público."
+        },
+        {
+          "id": "D",
+          "text": "não admite sofrimento mental."
+        },
+        {
+          "id": "E",
+          "text": "não exige violência nem grave ameaça."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O inciso I exige sofrimento físico ou mental, mas não usa a expressão 'intenso'; a intensidade é elemento expresso do inciso II."
+    },
+    {
+      "id": "u125-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A modalidade do artigo 1º, I, b, ocorre quando o constrangimento, nas condições legais, tem por finalidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "obter apenas vantagem econômica."
+        },
+        {
+          "id": "B",
+          "text": "provocar ação ou omissão de natureza criminosa."
+        },
+        {
+          "id": "C",
+          "text": "aplicar castigo pessoal."
+        },
+        {
+          "id": "D",
+          "text": "submeter mulher reiteradamente a sofrimento."
+        },
+        {
+          "id": "E",
+          "text": "obter prova documental lícita."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alínea b pune a tortura voltada a provocar ação ou omissão de natureza criminosa."
+    },
+    {
+      "id": "u125-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A tortura discriminatória do artigo 1º, I, c, refere-se expressamente a discriminação",
+      "options": [
+        {
+          "id": "A",
+          "text": "racial ou religiosa."
+        },
+        {
+          "id": "B",
+          "text": "econômica ou profissional."
+        },
+        {
+          "id": "C",
+          "text": "política ou partidária."
+        },
+        {
+          "id": "D",
+          "text": "por idade ou estado civil."
+        },
+        {
+          "id": "E",
+          "text": "de qualquer natureza, sem enumeração."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A literalidade da alínea c enumera discriminação racial ou religiosa."
+    },
+    {
+      "id": "u125-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A tortura-castigo do artigo 1º, II, é crime próprio porque exige que o agente",
+      "options": [
+        {
+          "id": "A",
+          "text": "seja necessariamente servidor público."
+        },
+        {
+          "id": "B",
+          "text": "tenha a vítima sob sua guarda, poder ou autoridade."
+        },
+        {
+          "id": "C",
+          "text": "seja ascendente da vítima."
+        },
+        {
+          "id": "D",
+          "text": "seja policial."
+        },
+        {
+          "id": "E",
+          "text": "tenha recebido vantagem econômica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O inciso II exige vínculo de guarda, poder ou autoridade; o agente pode ser particular desde que ocupe a posição exigida pelo tipo."
+    },
+    {
+      "id": "u125-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na tortura-castigo, o sofrimento exigido pela lei é",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas moral e leve."
+        },
+        {
+          "id": "B",
+          "text": "intenso, físico ou mental."
+        },
+        {
+          "id": "C",
+          "text": "somente físico e permanente."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente psicológico."
+        },
+        {
+          "id": "E",
+          "text": "dispensável se houver guarda."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O inciso II usa expressamente a expressão 'intenso sofrimento físico ou mental'."
+    },
+    {
+      "id": "u125-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A finalidade da tortura-castigo é",
+      "options": [
+        {
+          "id": "A",
+          "text": "obter informação ou confissão, exclusivamente."
+        },
+        {
+          "id": "B",
+          "text": "aplicar castigo pessoal ou medida de caráter preventivo."
+        },
+        {
+          "id": "C",
+          "text": "obter vantagem econômica."
+        },
+        {
+          "id": "D",
+          "text": "ocultar patrimônio."
+        },
+        {
+          "id": "E",
+          "text": "coagir testemunha a depor em juízo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O inciso II vincula a conduta a castigo pessoal ou medida de caráter preventivo."
+    },
+    {
+      "id": "u125-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a jurisprudência do Superior Tribunal de Justiça, para a tortura-castigo",
+      "options": [
+        {
+          "id": "A",
+          "text": "mera superioridade física do agente sempre basta."
+        },
+        {
+          "id": "B",
+          "text": "é necessária posição de garante ou vínculo de guarda, poder ou autoridade juridicamente relevante."
+        },
+        {
+          "id": "C",
+          "text": "a relação entre agente e vítima é irrelevante."
+        },
+        {
+          "id": "D",
+          "text": "somente relação estatal pode preencher o tipo."
+        },
+        {
+          "id": "E",
+          "text": "qualquer hierarquia informal entre detentos é suficiente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O STJ exige relação de guarda, poder ou autoridade; mera hierarquia informal entre detentos não supre a posição de garante."
+    },
+    {
+      "id": "u125-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 15.410/2026 acrescentou à Lei de Tortura modalidade que pune",
+      "options": [
+        {
+          "id": "A",
+          "text": "submeter mulher, reiteradamente, a intenso sofrimento físico ou mental no contexto de violência doméstica e familiar."
+        },
+        {
+          "id": "B",
+          "text": "qualquer discussão doméstica sem sofrimento."
+        },
+        {
+          "id": "C",
+          "text": "apenas ameaça isolada contra homem adulto."
+        },
+        {
+          "id": "D",
+          "text": "somente violência praticada por agente público."
+        },
+        {
+          "id": "E",
+          "text": "somente tortura para obtenção de confissão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O novo inciso III exige mulher, reiteração, intenso sofrimento físico ou mental e contexto de violência doméstica e familiar."
+    },
+    {
+      "id": "u125-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No novo inciso III, a literalidade da lei",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige expressamente guarda, poder ou autoridade."
+        },
+        {
+          "id": "B",
+          "text": "exige expressamente violência ou grave ameaça."
+        },
+        {
+          "id": "C",
+          "text": "não repete as exigências de guarda, poder ou autoridade nem de violência ou grave ameaça, mas exige reiteração, intenso sofrimento e contexto doméstico e familiar."
+        },
+        {
+          "id": "D",
+          "text": "dispensa intenso sofrimento."
+        },
+        {
+          "id": "E",
+          "text": "restringe o sujeito ativo a servidor público."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O inciso III tem estrutura própria e não deve receber, por analogia desfavorável, requisitos escritos apenas nos incisos anteriores."
+    },
+    {
+      "id": "u125-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A expressão 'sem prejuízo da aplicação das penas correspondentes a outras infrações penais', no inciso III, indica que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a nova modalidade sempre absorve os demais crimes."
+        },
+        {
+          "id": "B",
+          "text": "a lei preserva a possibilidade de responsabilização por outras infrações, conforme os fatos e as regras de concurso."
+        },
+        {
+          "id": "C",
+          "text": "não existe pena para o inciso III."
+        },
+        {
+          "id": "D",
+          "text": "o inciso III é apenas administrativo."
+        },
+        {
+          "id": "E",
+          "text": "a tortura deixa de ser crime se houver lesão corporal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A própria lei afasta a ideia de absorção automática das outras infrações penais."
+    },
+    {
+      "id": "u125-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 1º, § 1º, pune quem submete pessoa presa ou sujeita a medida de segurança",
+      "options": [
+        {
+          "id": "A",
+          "text": "a qualquer medida legalmente prevista."
+        },
+        {
+          "id": "B",
+          "text": "a sofrimento físico ou mental por ato não previsto em lei ou não resultante de medida legal."
+        },
+        {
+          "id": "C",
+          "text": "somente a intenso sofrimento para obter confissão."
+        },
+        {
+          "id": "D",
+          "text": "apenas a sanção disciplinar escrita."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente a isolamento judicialmente autorizado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 1º protege a pessoa custodiada contra sofrimento físico ou mental imposto por ato sem respaldo legal."
+    },
+    {
+      "id": "u125-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A modalidade do artigo 1º, § 1º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige necessariamente a finalidade de obter informação do inciso I, a."
+        },
+        {
+          "id": "B",
+          "text": "não exige as finalidades especiais do inciso I; basta o dolo de praticar a conduta descrita, segundo a jurisprudência."
+        },
+        {
+          "id": "C",
+          "text": "é exclusivamente culposa."
+        },
+        {
+          "id": "D",
+          "text": "só se aplica fora do território nacional."
+        },
+        {
+          "id": "E",
+          "text": "tem pena de multa apenas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A jurisprudência distingue essa figura das modalidades que contêm finalidade especial no inciso I."
+    },
+    {
+      "id": "u125-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A omissão prevista no artigo 1º, § 2º, exige que o agente",
+      "options": [
+        {
+          "id": "A",
+          "text": "tenha o dever de evitar ou apurar a tortura."
+        },
+        {
+          "id": "B",
+          "text": "seja mero espectador sem qualquer dever jurídico."
+        },
+        {
+          "id": "C",
+          "text": "seja necessariamente a vítima."
+        },
+        {
+          "id": "D",
+          "text": "tenha praticado violência física."
+        },
+        {
+          "id": "E",
+          "text": "tenha recebido vantagem."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A responsabilidade omissiva depende do dever jurídico de evitar ou apurar as condutas."
+    },
+    {
+      "id": "u125-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A pena da omissão do artigo 1º, § 2º, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "reclusão de 2 a 8 anos."
+        },
+        {
+          "id": "B",
+          "text": "detenção de 1 a 4 anos."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de 8 a 16 anos."
+        },
+        {
+          "id": "D",
+          "text": "detenção de 3 meses a 1 ano."
+        },
+        {
+          "id": "E",
+          "text": "somente multa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A modalidade omissiva tem pena própria de detenção de 1 a 4 anos."
+    },
+    {
+      "id": "u125-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se da tortura resulta lesão corporal grave ou gravíssima, a pena prevista no § 3º é",
+      "options": [
+        {
+          "id": "A",
+          "text": "reclusão de 4 a 10 anos."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 8 a 16 anos."
+        },
+        {
+          "id": "C",
+          "text": "detenção de 1 a 4 anos."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de 2 a 8 anos sem alteração."
+        },
+        {
+          "id": "E",
+          "text": "aumento fixo de metade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 3º estabelece pena de 4 a 10 anos quando resulta lesão grave ou gravíssima."
+    },
+    {
+      "id": "u125-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se da tortura resulta morte, a pena prevista no § 3º é",
+      "options": [
+        {
+          "id": "A",
+          "text": "reclusão de 4 a 10 anos."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 8 a 16 anos."
+        },
+        {
+          "id": "C",
+          "text": "detenção de 1 a 4 anos."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de 2 a 8 anos."
+        },
+        {
+          "id": "E",
+          "text": "prisão perpétua."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O resultado morte eleva a faixa para 8 a 16 anos de reclusão."
+    },
+    {
+      "id": "u125-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A pena do crime de tortura aumenta de um sexto a um terço quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "o crime é cometido por agente público, contra determinadas vítimas vulneráveis ou mediante sequestro."
+        },
+        {
+          "id": "B",
+          "text": "a vítima é adulta e não há sequestro."
+        },
+        {
+          "id": "C",
+          "text": "o agente é primário."
+        },
+        {
+          "id": "D",
+          "text": "o crime ocorre durante o dia."
+        },
+        {
+          "id": "E",
+          "text": "há confissão espontânea."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essas são as três hipóteses do artigo 1º, § 4º."
+    },
+    {
+      "id": "u125-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ser agente público na Lei nº 9.455/1997",
+      "options": [
+        {
+          "id": "A",
+          "text": "é requisito de toda modalidade de tortura."
+        },
+        {
+          "id": "B",
+          "text": "é causa de aumento de pena, não requisito geral dos tipos."
+        },
+        {
+          "id": "C",
+          "text": "exclui a aplicação da lei."
+        },
+        {
+          "id": "D",
+          "text": "só importa na omissão."
+        },
+        {
+          "id": "E",
+          "text": "reduz a pena."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei brasileira permite tortura praticada por particulares e prevê aumento quando o agente é público."
+    },
+    {
+      "id": "u125-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à condenação de agente público por tortura, o § 5º prevê",
+      "options": [
+        {
+          "id": "A",
+          "text": "perda do cargo, função ou emprego público e interdição para exercício pelo dobro do prazo da pena aplicada."
+        },
+        {
+          "id": "B",
+          "text": "apenas advertência administrativa."
+        },
+        {
+          "id": "C",
+          "text": "interdição pelo mesmo prazo da pena, sem perda do cargo."
+        },
+        {
+          "id": "D",
+          "text": "perda do cargo somente em caso de reincidência."
+        },
+        {
+          "id": "E",
+          "text": "efeito dependente das regras da Lei de Abuso de Autoridade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 5º prevê perda e interdição pelo dobro do prazo da pena; o STJ reconhece a perda como efeito automático da condenação, quando aplicável."
+    },
+    {
+      "id": "u125-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 9.455/1997 estabelece que a tortura é",
+      "options": [
+        {
+          "id": "A",
+          "text": "inafiançável e insuscetível de graça ou anistia."
+        },
+        {
+          "id": "B",
+          "text": "imprescritível e afiançável."
+        },
+        {
+          "id": "C",
+          "text": "suscetível de graça e anistia."
+        },
+        {
+          "id": "D",
+          "text": "crime de ação privada."
+        },
+        {
+          "id": "E",
+          "text": "infração de menor potencial ofensivo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a literalidade do § 6º, em consonância com a Constituição."
+    },
+    {
+      "id": "u125-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É correto afirmar que o crime de tortura",
+      "options": [
+        {
+          "id": "A",
+          "text": "é imprescritível por força do artigo 5º, XLIII, da Constituição."
+        },
+        {
+          "id": "B",
+          "text": "não é imprescritível; a Constituição reservou expressamente a imprescritibilidade a outras hipóteses, como racismo e ação de grupos armados contra a ordem constitucional."
+        },
+        {
+          "id": "C",
+          "text": "prescreve em um ano em qualquer caso."
+        },
+        {
+          "id": "D",
+          "text": "é afiançável."
+        },
+        {
+          "id": "E",
+          "text": "admite anistia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Constituição não atribui imprescritibilidade à tortura."
+    },
+    {
+      "id": "u125-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Embora o § 7º da Lei de Tortura mencione regime inicial fechado, a jurisprudência do Superior Tribunal de Justiça entende que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o regime fechado é sempre obrigatório."
+        },
+        {
+          "id": "B",
+          "text": "o regime inicial deve ser individualizado segundo as regras gerais, não sendo automática a imposição do fechado."
+        },
+        {
+          "id": "C",
+          "text": "todo condenado deve iniciar no aberto."
+        },
+        {
+          "id": "D",
+          "text": "somente a omissão admite regime diverso."
+        },
+        {
+          "id": "E",
+          "text": "o regime é escolhido pela autoridade policial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Após a orientação constitucional sobre crimes hediondos e equiparados, o STJ afastou a obrigatoriedade do regime fechado para tortura."
+    },
+    {
+      "id": "u125-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dizer que a tortura é 'equiparada a crime hediondo' significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ela integra necessariamente o rol do artigo 1º da Lei nº 8.072/1990."
+        },
+        {
+          "id": "B",
+          "text": "a prática da tortura recebe tratamento constitucional e legal semelhante no artigo 2º da Lei nº 8.072/1990, sem precisar integrar o rol do artigo 1º."
+        },
+        {
+          "id": "C",
+          "text": "ela deixou de ser crime autônomo."
+        },
+        {
+          "id": "D",
+          "text": "só existe quando houver crime hediondo concomitante."
+        },
+        {
+          "id": "E",
+          "text": "a Lei nº 9.455/1997 foi revogada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A tortura é tratada ao lado dos crimes hediondos, tráfico e terrorismo no artigo 2º da Lei nº 8.072/1990."
+    },
+    {
+      "id": "u125-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 9.455/1997 aplica-se a crime cometido fora do território nacional quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente o agente for brasileiro nato."
+        },
+        {
+          "id": "B",
+          "text": "a vítima for brasileira ou o agente estiver em local sob jurisdição brasileira."
+        },
+        {
+          "id": "C",
+          "text": "apenas houver tratado bilateral específico."
+        },
+        {
+          "id": "D",
+          "text": "sempre que a vítima for estrangeira."
+        },
+        {
+          "id": "E",
+          "text": "somente quando o resultado ocorrer no Brasil."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Essa é a regra especial de extraterritorialidade do artigo 2º."
+    },
+    {
+      "id": "u125-a27",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O fato de a Lei de Tortura aplicar-se a crime praticado integralmente no exterior contra vítima brasileira",
+      "options": [
+        {
+          "id": "A",
+          "text": "torna automaticamente a Justiça Federal competente."
+        },
+        {
+          "id": "B",
+          "text": "não torna, por si só, a Justiça Federal competente; a competência depende das hipóteses constitucionais próprias."
+        },
+        {
+          "id": "C",
+          "text": "impede qualquer julgamento no Brasil."
+        },
+        {
+          "id": "D",
+          "text": "transfere automaticamente o processo ao Supremo Tribunal Federal."
+        },
+        {
+          "id": "E",
+          "text": "gera competência da Justiça Militar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O STJ decidiu no CC 107.397/DF que a extraterritorialidade da lei não cria automaticamente competência federal."
+    },
+    {
+      "id": "u125-a28",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 9.455/1997 entrou em vigor",
+      "options": [
+        {
+          "id": "A",
+          "text": "na data de sua publicação."
+        },
+        {
+          "id": "B",
+          "text": "120 dias depois da publicação."
+        },
+        {
+          "id": "C",
+          "text": "um ano depois da publicação."
+        },
+        {
+          "id": "D",
+          "text": "somente em 2003."
+        },
+        {
+          "id": "E",
+          "text": "na data do edital da PC-MA."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 3º prevê vigência na data da publicação."
+    },
+    {
+      "id": "u125-a29",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 4º da Lei nº 9.455/1997",
+      "options": [
+        {
+          "id": "A",
+          "text": "revogou o artigo 233 do Estatuto da Criança e do Adolescente."
+        },
+        {
+          "id": "B",
+          "text": "revogou toda a Lei nº 8.069/1990."
+        },
+        {
+          "id": "C",
+          "text": "criou a Lei Maria da Penha."
+        },
+        {
+          "id": "D",
+          "text": "revogou o Código Penal."
+        },
+        {
+          "id": "E",
+          "text": "instituiu a prisão temporária."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 4º revogou especificamente o antigo artigo 233 do Estatuto da Criança e do Adolescente."
+    },
+    {
+      "id": "u125-a30",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No caso de tortura-castigo praticada contra descendente, a jurisprudência do Superior Tribunal de Justiça admite",
+      "options": [
+        {
+          "id": "A",
+          "text": "a incidência da agravante geral relativa ao crime contra descendente sem bis in idem automático, pois descendência não se confunde com a elementar guarda, poder ou autoridade."
+        },
+        {
+          "id": "B",
+          "text": "a exclusão obrigatória de qualquer agravante."
+        },
+        {
+          "id": "C",
+          "text": "a absolvição por parentesco."
+        },
+        {
+          "id": "D",
+          "text": "a conversão automática em maus-tratos."
+        },
+        {
+          "id": "E",
+          "text": "a inaplicabilidade da Lei de Tortura."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O STJ distinguiu a elementar do inciso II da relação específica de descendência prevista como agravante no Código Penal."
+    },
+    {
+      "id": "u125-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 22 da prova objetiva Cebraspe do Ministério Público de Sergipe para Promotor de Justiça Substituto, em 2022, qual afirmação está correta sobre o sujeito ativo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Todos os crimes de tortura são próprios e só podem ser praticados por agentes públicos."
+        },
+        {
+          "id": "B",
+          "text": "A tortura-prova só pode ser praticada por funcionário público."
+        },
+        {
+          "id": "C",
+          "text": "A tortura-castigo é crime próprio, pois exige que o agente exerça guarda, poder ou autoridade sobre a vítima."
+        },
+        {
+          "id": "D",
+          "text": "A omissão é crime comum e independe de dever jurídico."
+        },
+        {
+          "id": "E",
+          "text": "Nenhuma modalidade pode ser praticada por particular."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O gabarito definitivo oficial da questão 22 foi E na prova original, correspondente à afirmação de que a tortura-castigo é crime próprio. Aqui o conteúdo foi remapeado para a alternativa C."
+    },
+    {
+      "id": "u125-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 15 da prova oral Cebraspe da Polícia Civil de Rondônia, concurso 2022, uma vítima brasileira sofre tortura integralmente no exterior. A resposta correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Lei nº 9.455/1997 não se aplica porque o fato ocorreu fora do Brasil."
+        },
+        {
+          "id": "B",
+          "text": "a Lei nº 9.455/1997 pode aplicar-se pela regra do artigo 2º, mas isso não torna automaticamente a Justiça Federal competente."
+        },
+        {
+          "id": "C",
+          "text": "a competência é automaticamente do Supremo Tribunal Federal."
+        },
+        {
+          "id": "D",
+          "text": "a lei só se aplica se o agente for brasileiro."
+        },
+        {
+          "id": "E",
+          "text": "a Justiça Militar é necessariamente competente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O padrão oficial reconheceu a extraterritorialidade da Lei de Tortura e destacou que o elemento internacional não cria, por si só, competência federal."
+    },
+    {
+      "id": "u125-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do padrão definitivo da questão 2 da prova discursiva Cebraspe do Ministério Público do Tocantins, aplicada em 2022, policiais agridem suspeitos para obter informação e confissão, causando sofrimento físico sem lesão grave. Para a modalidade do artigo 1º, I, a,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ausência de sofrimento qualificado como intenso impede necessariamente a tortura."
+        },
+        {
+          "id": "B",
+          "text": "o sofrimento não precisa ser qualificado como intenso; esse requisito expresso pertence à tortura-castigo do inciso II."
+        },
+        {
+          "id": "C",
+          "text": "o crime depende de a vítima estar sob guarda legal."
+        },
+        {
+          "id": "D",
+          "text": "somente lesão gravíssima permite a tipificação."
+        },
+        {
+          "id": "E",
+          "text": "o delito só existe se o agente não for policial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O padrão oficial destacou que a alta intensidade do sofrimento é exigida no inciso II, não na tortura-prova do inciso I, a."
+    }
+  ]
+}
