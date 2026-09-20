@@ -1,0 +1,1116 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u127-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Sistema Nacional de Armas é instituído",
+      "options": [
+        {
+          "id": "A",
+          "text": "no Ministério da Justiça, no âmbito da Polícia Federal, com circunscrição nacional."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente no Comando do Exército."
+        },
+        {
+          "id": "C",
+          "text": "nos tribunais estaduais."
+        },
+        {
+          "id": "D",
+          "text": "no Ministério Público Federal."
+        },
+        {
+          "id": "E",
+          "text": "em cada município."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 1º situa o Sinarm no Ministério da Justiça, no âmbito da Polícia Federal, com alcance nacional."
+    },
+    {
+      "id": "u127-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as competências do Sistema Nacional de Armas está",
+      "options": [
+        {
+          "id": "A",
+          "text": "cadastrar transferências de propriedade, extravios, furtos, roubos e apreensões de armas."
+        },
+        {
+          "id": "B",
+          "text": "julgar crimes de porte ilegal."
+        },
+        {
+          "id": "C",
+          "text": "conceder indulto."
+        },
+        {
+          "id": "D",
+          "text": "editar leis penais."
+        },
+        {
+          "id": "E",
+          "text": "substituir o Comando do Exército em toda fiscalização de produtos controlados."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 2º reúne funções cadastrais e de rastreabilidade, inclusive transferências, ocorrências e apreensões."
+    },
+    {
+      "id": "u127-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para adquirir arma de fogo de uso permitido, além de declarar efetiva necessidade, o interessado deve comprovar, entre outros requisitos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "idoneidade, ocupação lícita e residência certa, capacidade técnica e aptidão psicológica."
+        },
+        {
+          "id": "B",
+          "text": "somente maioridade civil."
+        },
+        {
+          "id": "C",
+          "text": "apenas residência."
+        },
+        {
+          "id": "D",
+          "text": "filiação a clube de tiro."
+        },
+        {
+          "id": "E",
+          "text": "autorização judicial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esses são os requisitos centrais do artigo 4º."
+    },
+    {
+      "id": "u127-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A autorização de compra prevista no artigo 4º deve ser concedida ou recusada, com fundamentação, no prazo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 dias corridos."
+        },
+        {
+          "id": "B",
+          "text": "15 dias úteis."
+        },
+        {
+          "id": "C",
+          "text": "30 dias úteis."
+        },
+        {
+          "id": "D",
+          "text": "60 dias corridos."
+        },
+        {
+          "id": "E",
+          "text": "90 dias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O § 6º do artigo 4º fixa trinta dias úteis a partir do requerimento."
+    },
+    {
+      "id": "u127-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A comercialização de arma de fogo entre pessoas físicas",
+      "options": [
+        {
+          "id": "A",
+          "text": "é livre se ambas forem maiores de vinte e cinco anos."
+        },
+        {
+          "id": "B",
+          "text": "depende de autorização do Sistema Nacional de Armas."
+        },
+        {
+          "id": "C",
+          "text": "depende apenas de contrato particular."
+        },
+        {
+          "id": "D",
+          "text": "é absolutamente proibida."
+        },
+        {
+          "id": "E",
+          "text": "depende somente do Exército em qualquer hipótese."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 4º, §5º, exige autorização do Sinarm."
+    },
+    {
+      "id": "u127-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O certificado de registro permite ao proprietário manter a arma",
+      "options": [
+        {
+          "id": "A",
+          "text": "em qualquer local público."
+        },
+        {
+          "id": "B",
+          "text": "na residência ou dependências e, quando titular ou responsável legal, no local de trabalho."
+        },
+        {
+          "id": "C",
+          "text": "em qualquer veículo."
+        },
+        {
+          "id": "D",
+          "text": "em toda viagem nacional."
+        },
+        {
+          "id": "E",
+          "text": "somente em cofre de repartição pública."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Registro autoriza posse nos locais delimitados pelo artigo 5º; não se confunde com porte."
+    },
+    {
+      "id": "u127-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para residente em área rural, a Lei nº 10.826/2003 considera residência ou domicílio, para fins do artigo 5º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a casa-sede."
+        },
+        {
+          "id": "B",
+          "text": "toda a extensão do imóvel rural."
+        },
+        {
+          "id": "C",
+          "text": "apenas área cercada em cinquenta metros."
+        },
+        {
+          "id": "D",
+          "text": "apenas a sede e o celeiro."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma área rural."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O §5º do artigo 5º adotou toda a extensão do imóvel rural."
+    },
+    {
+      "id": "u127-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao porte de arma de fogo, a regra geral do artigo 6º é",
+      "options": [
+        {
+          "id": "A",
+          "text": "livre porte a qualquer proprietário registrado."
+        },
+        {
+          "id": "B",
+          "text": "proibição, ressalvadas legislação própria e categorias expressamente previstas."
+        },
+        {
+          "id": "C",
+          "text": "porte apenas em capitais."
+        },
+        {
+          "id": "D",
+          "text": "autorização automática aos maiores de vinte e cinco anos."
+        },
+        {
+          "id": "E",
+          "text": "proibição sem qualquer exceção."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 6º começa pela proibição e enumera exceções."
+    },
+    {
+      "id": "u127-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei nº 15.306/2025, a referência legal às polícias legislativas abrange",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente Câmara dos Deputados e Senado."
+        },
+        {
+          "id": "B",
+          "text": "as polícias legislativas previstas nos dispositivos constitucionais das Assembleias Legislativas, Câmara Legislativa do Distrito Federal, Câmara dos Deputados e Senado Federal."
+        },
+        {
+          "id": "C",
+          "text": "somente Assembleias Legislativas."
+        },
+        {
+          "id": "D",
+          "text": "somente guardas municipais."
+        },
+        {
+          "id": "E",
+          "text": "qualquer servidor legislativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alteração de 2025 atualizou o inciso VI com as polícias legislativas constitucionais estaduais, distrital e federais."
+    },
+    {
+      "id": "u127-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Supremo Tribunal Federal, o porte de arma por integrantes das guardas municipais",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode ser negado apenas porque o município tem poucos habitantes."
+        },
+        {
+          "id": "B",
+          "text": "não pode ser restringido por critério de contingente populacional do município."
+        },
+        {
+          "id": "C",
+          "text": "é proibido em qualquer município."
+        },
+        {
+          "id": "D",
+          "text": "é permitido somente em capitais."
+        },
+        {
+          "id": "E",
+          "text": "independe de formação e controles funcionais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O STF declarou inconstitucionais as restrições populacionais; isso não elimina os demais requisitos legais e regulamentares."
+    },
+    {
+      "id": "u127-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei nº 14.967/2024, as armas utilizadas por profissionais de segurança privada",
+      "options": [
+        {
+          "id": "A",
+          "text": "pertencem pessoalmente ao vigilante."
+        },
+        {
+          "id": "B",
+          "text": "pertencem às empresas e somente podem ser utilizadas quando em serviço."
+        },
+        {
+          "id": "C",
+          "text": "podem ser levadas livremente para casa."
+        },
+        {
+          "id": "D",
+          "text": "não precisam de registro."
+        },
+        {
+          "id": "E",
+          "text": "são registradas em nome de cada cliente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 7º atribui propriedade, responsabilidade e guarda à empresa, com uso somente em serviço."
+    },
+    {
+      "id": "u127-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Perda, furto, roubo ou extravio de arma sob guarda de empresa de segurança privada deve ser comunicado à Polícia Federal e registrado em ocorrência nas primeiras",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 horas."
+        },
+        {
+          "id": "B",
+          "text": "12 horas."
+        },
+        {
+          "id": "C",
+          "text": "24 horas."
+        },
+        {
+          "id": "D",
+          "text": "48 horas."
+        },
+        {
+          "id": "E",
+          "text": "72 horas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Estatuto fixa vinte e quatro horas."
+    },
+    {
+      "id": "u127-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O porte comum de arma de uso permitido, concedido pela Polícia Federal, exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "efetiva necessidade, cumprimento dos requisitos de aquisição e propriedade/registro da arma."
+        },
+        {
+          "id": "B",
+          "text": "somente declaração genérica de interesse."
+        },
+        {
+          "id": "C",
+          "text": "apenas pagamento de taxa."
+        },
+        {
+          "id": "D",
+          "text": "somente autorização municipal."
+        },
+        {
+          "id": "E",
+          "text": "dispensa registro."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 10, §1º, reúne esses requisitos."
+    },
+    {
+      "id": "u127-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A autorização de porte perde automaticamente eficácia se o portador for detido ou abordado",
+      "options": [
+        {
+          "id": "A",
+          "text": "durante o dia."
+        },
+        {
+          "id": "B",
+          "text": "em estado de embriaguez ou sob efeito de substâncias químicas ou alucinógenas."
+        },
+        {
+          "id": "C",
+          "text": "sem documento de identidade civil."
+        },
+        {
+          "id": "D",
+          "text": "em município diverso."
+        },
+        {
+          "id": "E",
+          "text": "em veículo particular."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a regra expressa do artigo 10, §2º."
+    },
+    {
+      "id": "u127-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A posse irregular de arma de fogo de uso permitido, no artigo 12, tem pena de",
+      "options": [
+        {
+          "id": "A",
+          "text": "detenção de 1 a 3 anos e multa."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 2 a 4 anos e multa."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de 3 a 6 anos."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de 6 a 12 anos."
+        },
+        {
+          "id": "E",
+          "text": "apenas multa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a pena do artigo 12."
+    },
+    {
+      "id": "u127-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No artigo 13, constitui omissão de cautela deixar de impedir que se apodere da arma",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer adulto autorizado."
+        },
+        {
+          "id": "B",
+          "text": "menor de dezoito anos ou pessoa indicada pela literalidade histórica do tipo como portadora de deficiência mental."
+        },
+        {
+          "id": "C",
+          "text": "apenas criança menor de doze."
+        },
+        {
+          "id": "D",
+          "text": "somente empregado da empresa."
+        },
+        {
+          "id": "E",
+          "text": "somente pessoa condenada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O caput do artigo 13 define esses sujeitos protegidos."
+    },
+    {
+      "id": "u127-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O porte ilegal de arma de fogo de uso permitido, artigo 14, tem pena de",
+      "options": [
+        {
+          "id": "A",
+          "text": "detenção de 1 a 3 anos."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 2 a 4 anos e multa."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de 3 a 6 anos."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de 8 a 16 anos."
+        },
+        {
+          "id": "E",
+          "text": "apenas multa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Essa é a pena prevista no artigo 14."
+    },
+    {
+      "id": "u127-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a jurisprudência do Superior Tribunal de Justiça, manter em casa arma de uso permitido regularmente registrada pelo próprio proprietário, mas com registro vencido,",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre configura porte do artigo 14."
+        },
+        {
+          "id": "B",
+          "text": "pode constituir mera irregularidade administrativa na hipótese de simples falta de renovação pelo titular."
+        },
+        {
+          "id": "C",
+          "text": "é tráfico internacional."
+        },
+        {
+          "id": "D",
+          "text": "é comércio ilegal."
+        },
+        {
+          "id": "E",
+          "text": "gera automaticamente artigo 16."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A jurisprudência distingue a simples falta de renovação pelo proprietário regular, em posse residencial, de outras situações."
+    },
+    {
+      "id": "u127-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 2026, o Superior Tribunal de Justiça decidiu que a posse, por herdeiro, de arma registrada em nome de terceiro falecido e sem transferência regular",
+      "options": [
+        {
+          "id": "A",
+          "text": "é automaticamente autorizada pela herança."
+        },
+        {
+          "id": "B",
+          "text": "pode configurar o artigo 12; a condição de herdeiro não substitui a regularização da transferência."
+        },
+        {
+          "id": "C",
+          "text": "é sempre atípica."
+        },
+        {
+          "id": "D",
+          "text": "é apenas infração tributária."
+        },
+        {
+          "id": "E",
+          "text": "equivale a porte funcional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O REsp 2.201.660 distinguiu a hipótese do mero registro vencido do próprio proprietário."
+    },
+    {
+      "id": "u127-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma arma de fogo desmuniciada, mas apta ao disparo,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é necessariamente irrelevante penalmente."
+        },
+        {
+          "id": "B",
+          "text": "pode configurar os crimes de posse ou porte, considerados em regra de perigo abstrato."
+        },
+        {
+          "id": "C",
+          "text": "só é crime se houver vítima ferida."
+        },
+        {
+          "id": "D",
+          "text": "é sempre simulacro."
+        },
+        {
+          "id": "E",
+          "text": "só pode gerar multa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A ausência de munição não elimina automaticamente a tipicidade quando o artefato é arma de fogo apta."
+    },
+    {
+      "id": "u127-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se laudo pericial demonstra total ineficácia da arma para disparar e também das munições apreendidas,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a tipicidade é obrigatória em qualquer caso."
+        },
+        {
+          "id": "B",
+          "text": "há precedente do Superior Tribunal de Justiça reconhecendo atipicidade por ineficácia absoluta do meio."
+        },
+        {
+          "id": "C",
+          "text": "aplica-se automaticamente comércio ilegal."
+        },
+        {
+          "id": "D",
+          "text": "incide necessariamente o artigo 16, §2º."
+        },
+        {
+          "id": "E",
+          "text": "a perícia é juridicamente irrelevante mesmo quando prova ineficácia total."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O REsp 1.451.397 reconheceu atipicidade nessa situação excepcional."
+    },
+    {
+      "id": "u127-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime de disparo de arma de fogo do artigo 15 exige, entre outros elementos, que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o disparo tenha a finalidade de praticar outro crime."
+        },
+        {
+          "id": "B",
+          "text": "o disparo ocorra nas situações espaciais descritas e não tenha como finalidade a prática de outro crime."
+        },
+        {
+          "id": "C",
+          "text": "a arma seja de uso proibido."
+        },
+        {
+          "id": "D",
+          "text": "haja lesão corporal."
+        },
+        {
+          "id": "E",
+          "text": "o agente seja servidor público."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 15 é subsidiário quando o disparo constitui meio para outro crime."
+    },
+    {
+      "id": "u127-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ADI 3.112 declarou inconstitucional",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo o Estatuto do Desarmamento."
+        },
+        {
+          "id": "B",
+          "text": "os parágrafos únicos dos artigos 14 e 15 e o artigo 21, afastando aquelas restrições absolutas de fiança/liberdade provisória."
+        },
+        {
+          "id": "C",
+          "text": "o artigo 12."
+        },
+        {
+          "id": "D",
+          "text": "o artigo 28."
+        },
+        {
+          "id": "E",
+          "text": "o registro periódico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O STF julgou a ação parcialmente procedente nesses dispositivos."
+    },
+    {
+      "id": "u127-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A posse ou o porte de arma de fogo de uso restrito, artigo 16, tem pena-base de",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 a 3 anos."
+        },
+        {
+          "id": "B",
+          "text": "2 a 4 anos."
+        },
+        {
+          "id": "C",
+          "text": "3 a 6 anos e multa."
+        },
+        {
+          "id": "D",
+          "text": "4 a 12 anos em toda hipótese."
+        },
+        {
+          "id": "E",
+          "text": "8 a 16 anos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O caput prevê reclusão de 3 a 6 anos; uso proibido nas hipóteses do §2º tem faixa mais grave."
+    },
+    {
+      "id": "u127-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Portar arma de uso permitido com numeração de série raspada ou suprimida",
+      "options": [
+        {
+          "id": "A",
+          "text": "permanece necessariamente no artigo 14."
+        },
+        {
+          "id": "B",
+          "text": "enquadra-se na figura equiparada do artigo 16, §1º, IV."
+        },
+        {
+          "id": "C",
+          "text": "é apenas infração administrativa."
+        },
+        {
+          "id": "D",
+          "text": "é artigo 13."
+        },
+        {
+          "id": "E",
+          "text": "só é crime se a perícia nunca recuperar o número."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei equipara a conduta ao artigo 16, independentemente da classificação originária de uso permitido."
+    },
+    {
+      "id": "u127-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a perícia consegue recuperar posteriormente o número de série que estava suprimido,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o enquadramento do artigo 16, §1º, IV, é necessariamente afastado."
+        },
+        {
+          "id": "B",
+          "text": "a recuperação posterior não elimina a figura equiparada, conforme padrão oficial de prova do Cebraspe."
+        },
+        {
+          "id": "C",
+          "text": "o fato vira artigo 12."
+        },
+        {
+          "id": "D",
+          "text": "o fato se torna atípico."
+        },
+        {
+          "id": "E",
+          "text": "há apenas multa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O núcleo legal considera a condição de circulação com sinal identificador raspado, suprimido ou adulterado."
+    },
+    {
+      "id": "u127-a27",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se as condutas do artigo 16 envolvem arma de fogo de uso proibido, a pena é",
+      "options": [
+        {
+          "id": "A",
+          "text": "detenção de 1 a 3 anos."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 2 a 4 anos."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de 4 a 12 anos."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de 6 a 12 anos."
+        },
+        {
+          "id": "E",
+          "text": "reclusão de 8 a 16 anos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "É a faixa do artigo 16, §2º."
+    },
+    {
+      "id": "u127-a28",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O comércio ilegal de arma de fogo, artigo 17, tem pena de",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 a 4 anos."
+        },
+        {
+          "id": "B",
+          "text": "3 a 6 anos."
+        },
+        {
+          "id": "C",
+          "text": "6 a 12 anos e multa."
+        },
+        {
+          "id": "D",
+          "text": "8 a 16 anos e multa."
+        },
+        {
+          "id": "E",
+          "text": "apenas multa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Essa é a pena do artigo 17."
+    },
+    {
+      "id": "u127-a29",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para o artigo 17, equipara-se a atividade comercial ou industrial",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente empresa formal inscrita."
+        },
+        {
+          "id": "B",
+          "text": "qualquer forma de prestação de serviços, fabricação ou comércio irregular/clandestino, inclusive em residência."
+        },
+        {
+          "id": "C",
+          "text": "apenas importação internacional."
+        },
+        {
+          "id": "D",
+          "text": "somente indústria de grande porte."
+        },
+        {
+          "id": "E",
+          "text": "apenas atividade com lucro comprovado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O §1º amplia expressamente o conceito para atividade clandestina, inclusive residencial."
+    },
+    {
+      "id": "u127-a30",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O tráfico internacional de arma de fogo, artigo 18, tem pena de",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 a 6 anos."
+        },
+        {
+          "id": "B",
+          "text": "4 a 8 anos."
+        },
+        {
+          "id": "C",
+          "text": "6 a 12 anos."
+        },
+        {
+          "id": "D",
+          "text": "8 a 16 anos e multa."
+        },
+        {
+          "id": "E",
+          "text": "12 a 30 anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Essa é a pena do artigo 18."
+    },
+    {
+      "id": "u127-a31",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos artigos 17 e 18, se a arma, acessório ou munição for de uso proibido ou restrito,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a pena é diminuída de metade."
+        },
+        {
+          "id": "B",
+          "text": "a pena aumenta de metade."
+        },
+        {
+          "id": "C",
+          "text": "não há efeito."
+        },
+        {
+          "id": "D",
+          "text": "a pena dobra."
+        },
+        {
+          "id": "E",
+          "text": "o fato se torna artigo 12."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 19 prevê aumento de metade."
+    },
+    {
+      "id": "u127-a32",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 20 aumenta de metade a pena dos crimes dos artigos 14 a 18 quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "o agente integra as categorias dos artigos 6º, 7º ou 8º, ou é reincidente específico em crimes dessa natureza."
+        },
+        {
+          "id": "B",
+          "text": "o agente é primário."
+        },
+        {
+          "id": "C",
+          "text": "a arma é registrada."
+        },
+        {
+          "id": "D",
+          "text": "a conduta ocorre em residência."
+        },
+        {
+          "id": "E",
+          "text": "há entrega espontânea."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essas são as duas hipóteses do artigo 20."
+    },
+    {
+      "id": "u127-a33",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 21-A, incluído pela Lei nº 15.358/2026, prevê",
+      "options": [
+        {
+          "id": "A",
+          "text": "aumento de 2/3 nos crimes dos artigos 12, 14 e 16 nas hipóteses legais de vínculo com crime de drogas ou comércio ilícito de entorpecentes."
+        },
+        {
+          "id": "B",
+          "text": "revogação dos artigos 12, 14 e 16."
+        },
+        {
+          "id": "C",
+          "text": "aumento de metade apenas no artigo 17."
+        },
+        {
+          "id": "D",
+          "text": "redução de 2/3 no tráfico."
+        },
+        {
+          "id": "E",
+          "text": "nova contravenção penal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A nova causa de aumento entrou em vigor antes do corte do edital."
+    },
+    {
+      "id": "u127-a34",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Depois de cessado o interesse da arma apreendida para a persecução penal e juntado o laudo pericial, o juiz deve encaminhá-la ao Comando do Exército em até",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 horas."
+        },
+        {
+          "id": "B",
+          "text": "48 horas."
+        },
+        {
+          "id": "C",
+          "text": "5 dias."
+        },
+        {
+          "id": "D",
+          "text": "10 dias."
+        },
+        {
+          "id": "E",
+          "text": "30 dias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 25 fixa até quarenta e oito horas."
+    },
+    {
+      "id": "u127-a35",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A entrega espontânea prevista no artigo 32, presumida a boa-fé, pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "extinguir a punibilidade de eventual posse irregular da arma efetivamente entregue."
+        },
+        {
+          "id": "B",
+          "text": "autorizar o porte futuro sem licença."
+        },
+        {
+          "id": "C",
+          "text": "extinguir qualquer crime cometido com a arma."
+        },
+        {
+          "id": "D",
+          "text": "substituir o registro."
+        },
+        {
+          "id": "E",
+          "text": "dispensar a entrega física."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A extinção está vinculada à eventual posse irregular da arma entregue, nas condições legais."
+    },
+    {
+      "id": "u127-a36",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 35, que condicionava a proibição geral da comercialização a referendo,",
+      "options": [
+        {
+          "id": "A",
+          "text": "entrou em vigor porque o 'Sim' venceu."
+        },
+        {
+          "id": "B",
+          "text": "não entrou em vigor porque a opção 'Não' venceu o referendo de 2005."
+        },
+        {
+          "id": "C",
+          "text": "foi automaticamente aplicado sem consulta."
+        },
+        {
+          "id": "D",
+          "text": "proibiu apenas munição."
+        },
+        {
+          "id": "E",
+          "text": "revogou todo o Estatuto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Tribunal Superior Eleitoral registra vitória do 'Não' com 63,94% dos votos válidos entre as duas opções apresentadas."
+    },
+    {
+      "id": "u127-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 3 da prova oral Cebraspe para Delegado da Polícia Federal, aplicada em 2020, um revólver de uso permitido é apreendido com numeração de série suprimida. A perícia consegue posteriormente recuperar o número. O enquadramento correto, segundo o padrão oficial, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "porte ilegal de arma de uso permitido do artigo 14, pois a perícia recuperou o número."
+        },
+        {
+          "id": "B",
+          "text": "figura equiparada do artigo 16, §1º, IV, porque a arma circulava com sinal identificador suprimido, ainda que recuperado posteriormente."
+        },
+        {
+          "id": "C",
+          "text": "mera irregularidade administrativa."
+        },
+        {
+          "id": "D",
+          "text": "omissão de cautela."
+        },
+        {
+          "id": "E",
+          "text": "disparo de arma de fogo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O padrão oficial afirmou que a recuperação posterior não afasta a equiparação do artigo 16, §1º, IV."
+    }
+  ]
+}
