@@ -53,7 +53,7 @@ Nenhuma questão anterior foi incorporada ao conjunto U123. Foram priorizadas qu
 - Unidade U123, identidade pc-u123, ordem 123, consumidor pc-ma-2026-oficial-investigador / pcma-2026-invest.
 - Classificação PC-R02: **nova/local**, sem vinculo.json e sem origem canônica integral.
 - Destino: src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/legislacao-especial/lei-drogas-lei-11343/.
-- A auditoria de reaproveitamento registrada no planejamento PC-E14 não identificou doador integral compatível na biblioteca, TCE, SEAP ou Perícia.
+- A auditoria de reaproveitamento registrada no planejamento PC-E14 não identificou doador integral compatível na biblioteca, no acervo publicado dos tribunais de contas, na meta penitenciária estadual ou na meta de perícia.
 - U123 cobre a Lei nº 11.343/2006 como diploma próprio. Crimes hediondos ficam em U132; investigação criminal do delegado em U130; temas gerais de inquérito e prova permanecem nas unidades processuais U092–U093. As pontes usadas aqui não transferem esses capítulos para a Lei de Drogas.
 - A Lei nº 15.358/2026 é tratada somente na medida em que alterou a Lei de Drogas antes do corte. O restante de seu conteúdo pertence a outros recortes da campanha.
 - Corte legislativo: **13/7/2026**. Revalidação normativa e jurisprudencial desta unidade: **20/9/2026**.
