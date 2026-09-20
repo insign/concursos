@@ -61,7 +61,7 @@
 - Foram auditadas duas aparições físicas do Tribunal de Contas do Estado do Maranhão:
   - `src/content/assuntos/tce-ma-2026-tecnico-administrativa/conhecimentos-gerais/direito-administrativo/responsabilidade-civil-estado/`;
   - `src/content/assuntos/tce-ma-2026-tecnico-administrativa/conhecimentos-especificos/nocoes-direito-administrativo/nocoes-responsabilidade-civil-estado/`.
-- Os conteúdos, cheat sheets e referências divergem e carregam identidades/cortes próprios do Tribunal de Contas do Estado do Maranhão; o conjunto de 60 questões é idêntico e integralmente autoral. Não foi inferida origem única.
-- Blobs dos conteúdos doadores: `61f94cc11af5ca7d657de81d08ee6f98dce13811` e `86ee2f3e66fd62fd06b47c3039887328cc637675`; banco de questões comum `b3fecb49962968e3593fbe05bad98be867b9ef92`.
+- Os conteúdos, os arquivos `cheat-sheet.md` e as referências divergem e carregam identidades/cortes próprios do Tribunal de Contas do Estado do Maranhão; o conjunto de 60 questões é idêntico e integralmente autoral. Não foi inferida origem única.
+- Identificadores Git dos conteúdos doadores: `61f94cc11af5ca7d657de81d08ee6f98dce13811` e `86ee2f3e66fd62fd06b47c3039887328cc637675`; banco de questões comum `b3fecb49962968e3593fbe05bad98be867b9ef92`.
 - A U107 incorpora, além dos núcleos doadores, os Temas 130, 777 e 950 para fechar lacunas relevantes do regime atual, sem repetir as modalidades de controle da U106.
 - Corte legislativo: **13/7/2026**. Jurisprudência revalidada em **19/9/2026**, observada a regra editalícia própria de publicação de entendimentos de tribunais superiores.
