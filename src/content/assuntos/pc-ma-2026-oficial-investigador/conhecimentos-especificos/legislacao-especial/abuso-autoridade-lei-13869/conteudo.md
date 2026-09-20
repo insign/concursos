@@ -314,9 +314,9 @@ Não há crime quando o ingresso ocorre para:
 
 ### 16.1 Horário de busca: precedente anterior ao corte
 
-A Terceira Seção do <abbr title="Superior Tribunal de Justiça">STJ</abbr>, no Recurso em Habeas Corpus 196.496, definiu que o marco cronológico decorrente do artigo 22 é **das 5 horas às 21 horas**. No caso, busca iniciada às 5h05 foi considerada compatível com esse marco, mesmo sem luz solar.
+A Terceira Seção do <abbr title="Superior Tribunal de Justiça">STJ</abbr>, no Recurso em Habeas Corpus 196.496, definiu que o marco cronológico decorrente do artigo 22 é **das 5 horas às 21 horas**. No caso, busca iniciada às 5 horas e 5 minutos foi considerada compatível com esse marco, mesmo sem luz solar.
 
-Logo, não use parâmetros históricos de “6h às 18h” para responder questão que cobre diretamente a Lei nº 13.869/2019 e esse precedente.
+Logo, não use parâmetros históricos de “6 às 18 horas” para responder questão que cobre diretamente a Lei nº 13.869/2019 e esse precedente.
 
 ---
 
@@ -622,12 +622,12 @@ Essa diferença importa: “foi vetado no processo legislativo” não significa
 5. **“Perda do cargo é automática.”** Errado: exige reincidência, motivação e declaração na sentença.
 6. **“Deixar de comunicar flagrante sempre é crime.”** Errado: o artigo 12 usa “injustificadamente” e continuam necessários os elementos gerais.
 7. **“O advogado pode ser afastado do preso sem justa causa.”** Errado nas condições do artigo 20.
-8. **“Busca domiciliar com mandado pode começar às 4h59.”** Errado: artigo 22 e precedente do <abbr title="Superior Tribunal de Justiça">STJ</abbr> adotam 5h–21h.
+8. **“Busca domiciliar com mandado pode começar às 4 horas e 59 minutos.”** Errado: artigo 22 e precedente do <abbr title="Superior Tribunal de Justiça">STJ</abbr> adotam 5 horas–21 horas.
 9. **“Toda demora em investigação é crime.”** Errado: artigo 31 exige injustificação ou falta de motivação, procrastinação e prejuízo.
 10. **“O defensor tem acesso antecipado a diligência futura sigilosa.”** Errado quando o sigilo é imprescindível nas hipóteses ressalvadas pelo artigo 32.
 11. **“Qualquer bloqueio acima da dívida é crime.”** Errado: artigo 36 exige excesso exacerbado, demonstração pela parte e falta de correção.
 12. **“Artigo 15-A já foi definitivamente declarado constitucional pelo <abbr title="Supremo Tribunal Federal">STF</abbr>.”** Errado no estado revalidado: julgamento ainda sem decisão colegiada final.
-13. **“Artigos 27, 29 e 31 foram retirados do ordenamento pelas ADIs 6.234 e 6.240.”** Errado: as ações terminaram sem julgamento de mérito.
+13. **“Artigos 27, 29 e 31 foram retirados do ordenamento pelas ações diretas de inconstitucionalidade 6.234 e 6.240.”** Errado: as ações terminaram sem julgamento de mérito.
 14. **“O artigo 43 ainda define pena de 3 meses a 1 ano para a violação de prerrogativas.”** Como histórico da lei, sim; como pena vigente do artigo 7º-B do Estatuto da Advocacia, não: a Lei 14.365/2022 passou a prever 2 a 4 anos.
 15. **“Artigo 350 do Código Penal continua sendo o tipo geral de abuso.”** Errado: foi revogado pela Lei 13.869/2019.
 16. **“Todos os crimes da Lei 13.869 vão para o Juizado Especial.”** Errado: o artigo 39 manda aplicar a Lei 9.099 no que couber.

@@ -39,7 +39,7 @@
 11. **Supremo Tribunal Federal. Ação Direta de Inconstitucionalidade 6.240.** Questionou os artigos 27, 29 e 31; ação encerrada por decisão monocrática de não conhecimento, sem julgamento de mérito da constitucionalidade dos dispositivos.  
     https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=ADI&numProcesso=6240
 
-12. **Superior Tribunal de Justiça. Recurso em Habeas Corpus 196.496/RN.** Terceira Seção, julgamento em 10 dez. 2025, publicação em 19 dez. 2025. O artigo 22, § 1º, III, da Lei nº 13.869/2019 delimita o período para cumprimento de mandado de busca domiciliar entre 5h e 21h; no caso, diligência registrada às 5h05 foi considerada compatível.  
+12. **Superior Tribunal de Justiça. Recurso em Habeas Corpus 196.496/Rio Grande do Norte.** Terceira Seção, julgamento em 10 dez. 2025, publicação em 19 dez. 2025. O artigo 22, § 1º, III, da Lei nº 13.869/2019 delimita o período para cumprimento de mandado de busca domiciliar entre 5 e 21 horas; no caso, diligência registrada às 5 horas e 5 minutos foi considerada compatível.  
     https://scon.stj.jus.br/SCON/jurisprudencia/toc.jsp?livre=%28RHC+INPATH%28CLAS%29+AND+196496+INPATH%28NUM%29%29+OR+%28NEAR%28%28RHC%2C196496%29%2C0%2CTRUE%29+INPATH%28SUCE%29%29
 
 13. **Superior Tribunal de Justiça. “Penhora on-line de ativos financeiros não depende da indicação de contas do devedor”.** Notícia institucional de 3 mar. 2023 sobre julgamento que destacou, quanto ao artigo 36, a necessidade da finalidade específica e da falta de correção do bloqueio depois de demonstrado o excesso.  

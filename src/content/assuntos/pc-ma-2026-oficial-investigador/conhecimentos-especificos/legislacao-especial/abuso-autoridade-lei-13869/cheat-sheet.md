@@ -64,12 +64,12 @@ Restritivas:
 
 Mandado de busca domiciliar:
 
-**permitido no marco cronológico de 5h a 21h** segundo a Terceira Seção do <abbr title="Superior Tribunal de Justiça">STJ</abbr>.
+**permitido no marco cronológico de 5 horas a 21 horas** segundo a Terceira Seção do <abbr title="Superior Tribunal de Justiça">STJ</abbr>.
 
 Crime quando cumprido:
 
-- **após 21h**; ou
-- **antes de 5h**.
+- **após 21 horas**; ou
+- **antes de 5 horas**.
 
 Exceções de ingresso do § 2º: socorro, flagrante com fundados indícios ou desastre.
 
@@ -101,7 +101,7 @@ No estado revalidado em 20/9/2026, a ação no <abbr title="Supremo Tribunal Fed
 | 32 | negar acesso/cópia dos autos, ressalvadas diligências sigilosas em curso/futuras |
 | 33 | exigir obrigação/informação sem amparo legal; usar cargo para privilégio |
 
-**Artigos 27, 29 e 31:** ADIs 6.234/6.240 não os retiraram do ordenamento; terminaram sem julgamento de mérito.
+**Artigos 27, 29 e 31:** ações diretas de inconstitucionalidade 6.234 e 6.240 não os retiraram do ordenamento; terminaram sem julgamento de mérito.
 
 ## Atuação judicial/comunicação
 
@@ -175,7 +175,7 @@ Não confunda com dispositivos inicialmente vetados e depois promulgados, como 9
 - ação penal ≠ condicionada;
 - perda do cargo ≠ automática;
 - art. 12 diz “injustificadamente”;
-- busca = 5h–21h;
+- busca = 5 horas–21 horas;
 - acesso aos autos ≠ revelar diligência futura sigilosa;
 - investigação longa ≠ automaticamente art. 31;
 - bloqueio excessivo ≠ automaticamente art. 36;
