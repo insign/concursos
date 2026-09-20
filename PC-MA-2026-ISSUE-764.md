@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U105; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U106; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 53 | 0 | 105 |
-| Entregáveis de unidade C/H/Q | 474 | 159 | 0 | 315 |
+| Unidades reais previstas | 158 | 52 | 0 | 106 |
+| Entregáveis de unidade C/H/Q | 474 | 156 | 0 | 318 |
 | Tarefas macro individualizadas | 62 | 27 | 0 | 35 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U105` e `U144` = **105 unidades**. Pendentes: `U075`, `U106–U143`, `U145–U158` = **53 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U106` e `U144` = **106 unidades**. Pendentes: `U075`, `U107–U143`, `U145–U158` = **52 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **107 = 90 físicas locais + 17 vínculos canônicos**. U105 acrescentou uma visão física local; os demais números foram preservados. Não confundir 107 visões materializadas com 105 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **108 = 91 físicas locais + 17 vínculos canônicos**. U106 acrescentou uma visão física local; os demais números foram preservados. Não confundir 108 visões materializadas com 106 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
 Reservas ativas na transferência: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U106 — Controle da Administração pública**, C/H/Q `pending`. U105 foi concluída e confirmada na `main`; PC-E12-C/H/Q continua `pending` enquanto U106–U111 não forem concluídas.
+**Próxima ação editorial: U107 — Responsabilidade civil do Estado**, C/H/Q `pending`. U106 foi concluída e confirmada na `main`; PC-E12-C/H/Q continua `pending` enquanto U107–U111 não forem concluídas.
 
 ### Pendências e divergências herdadas
 
@@ -392,7 +392,7 @@ Classificação PC-R02 recebida: **U101 parcial**; **U098–U100 e U102–U111 n
 | 6 | U103 — Regime dos funcionários policiais civis da União e do Distrito Federal — Lei 4.878/1965 — `regime-policiais-civis-uniao-df-lei-4878` | Lei nº 4.878/1965 e alterações, **como literalmente exigida pelo edital**. Auditar vigência e aplicabilidade no corte durante a produção; não substituir silenciosamente pelo regime da PC-MA | nova/local; sem doador integral; snapshot `3c1f3e9d881eec312b322993a78d44e099bc3397` | done | done | done |
 | 7 | U104 — Improbidade administrativa — Lei 8.429/1992 — `improbidade-administrativa-lei-8429` | Sanções aos agentes públicos nos casos descritos pelo item 7 e Lei nº 8.429/1992 com alterações. Preservar a formulação literal do edital e revalidar a redação legal vigente no corte | nova/local; apoio parcial dos canônicos de improbidade; snapshot `e9c1fc36912ea873b59839f3d1ff156497029cdd` | done | done | done |
 | 8 | U105 — Poderes administrativos — `poderes-administrativos` | Poder hierárquico, disciplinar, regulamentar, poder de polícia, uso e abuso do poder. Depende do mapa institucional de U098; não duplicar controle de U106 | nova/local; apoio parcial de duas aparições físicas TCE; snapshot `99a34a6044c291dde3723dada96ef50d9240106e` | done | done | done |
-| 9 — controle | U106 — Controle da Administração pública — `controle-administracao-publica` | Controle administrativo, judicial e legislativo. Desdobramento editorial do primeiro núcleo do item 9; dialoga com U105, mas não absorve responsabilidade civil | nova/local; sem doador integral | pending | pending | pending |
+| 9 — controle | U106 — Controle da Administração pública — `controle-administracao-publica` | Controle administrativo, judicial e legislativo. Desdobramento editorial do primeiro núcleo do item 9; dialoga com U105, mas não absorve responsabilidade civil | nova/local; apoio parcial de duas aparições físicas TCE e dois canônicos especializados; snapshot `41e19b326d8f6b8b9728868afda1823796ae7905` | done | done | done |
 | 9 — responsabilização | U107 — Responsabilidade civil do Estado — `responsabilidade-civil-estado` | Responsabilidade civil do Estado. Desdobramento editorial do segundo núcleo do item 9; regime material próprio, sem repetir modalidades de controle de U106 | nova/local; sem doador integral | pending | pending | pending |
 | 10 | U108 — Estatuto da Polícia Civil do Estado do Maranhão — Lei Estadual 8.508/2006 — `estatuto-policia-civil-maranhao-lei-8508` | Lei Estadual nº 8.508/2006 e alterações. Regime policial estadual; fronteira com U109, U110 e U111 deve ser explicitada por assunto | nova/local; sem doador integral | pending | pending | pending |
 | 11 | U109 — Regime jurídico único dos servidores públicos civis do Maranhão — Lei Estadual 6.107/1994 — `regime-juridico-servidores-maranhao-lei-6107` | Lei Estadual nº 6.107/1994 e alterações. Regime geral estadual; não duplicar o estatuto policial específico de U108 | nova/local; sem doador integral | pending | pending | pending |
@@ -461,6 +461,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U103 | `3c1f3e9d881eec312b322993a78d44e099bc3397` | 18 + 2 | Cebraspe PCDF área administrativa 2024, item 35; Cebraspe PCDF Escrivão 2021, item 40 |
 | U104 | `e9c1fc36912ea873b59839f3d1ff156497029cdd` | 18 + 2 | FGV TCE-SC 2026, Auditor Fiscal de Controle Externo — Direito, questão 28; Cebraspe STJ 2024, Analista Judiciário, item 53 |
 | U105 | `99a34a6044c291dde3723dada96ef50d9240106e` | 18 + 2 | Cebraspe SEFA-PR 2026, Agente Fazendário, questão 17, gabarito C; Cebraspe TCE-RS 2025, Auditor de Controle Externo, item 79, gabarito C |
+| U106 | `41e19b326d8f6b8b9728868afda1823796ae7905` | 18 + 2 | Cebraspe TCE-MG 2026, conhecimentos gerais, questões 22 e 24, gabaritos C e A |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -515,20 +516,23 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U103 | `6f57c8c69216505ad99d21fa7d26b8cc8023fee7` | `ce0adf77b6d0a4f35e9680d3e42dadea696b4907` | `b26470f53e6352b9872cb69f034d50d7d29faf2b` | `35efece7f26d58ff482077ca5b6cdc364895d826` |
 | U104 | `bd3311e39bde2f4600869bc27d493d384716ae1a` | `ef055dcf31500e9985266712c14f67d161386e4a` | `5b97d0a6d15712cca8f048ad59b936800c24a5ac` | `83b5b2391f2694dcf00952814682ff366c1b2c6b` |
 | U105 | `b28f4dbce4b2da5d13743855be8e89df0850a070` | `9d64f30a119c76915fae88032ac4a8cf8e712803` | `28917777bfa86e65f8290f6d9c45e1291eec7c15` | `c6af4a423a763015ab00767e5828e89c497f501f` |
+| U106 | `bbfaca2c3d1b8a81cf7df5f770ec8805f67ea204` | `b75811d15560f88d4c948ddb5b72ea03ecd4fc72` | `eadc50d319a3e14ecfe55ae738ffccae1b8797c8` | `d5e54642f42c0865484f92da8ae4cc00dffb4bc1` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`.
 
-### Último aceite — U105
+### Último aceite — U106
 
-Pacote de Poderes administrativos: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u105`, `order: 105`. Snapshot editorial final `99a34a6044c291dde3723dada96ef50d9240106e`; base de publicação `20edbd9228c1cf4f672182eef7c5bfd142880126`. A comparação base→snapshot confirma **exatamente quatro arquivos da U105**, sem alterações laterais: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
+Pacote de Controle da Administração pública: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u106`, `order: 106`. Snapshot editorial final `41e19b326d8f6b8b9728868afda1823796ae7905`; base de publicação `faae78285472edad775ea0687b039bb7dbeb7bd9`. A comparação base→snapshot confirma **exatamente quatro arquivos da U106**, sem alterações laterais: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
 
-A unidade permanece **nova/local**, sem `vinculo.json`. Foram auditadas como doadoras parciais duas aparições físicas do TCE-MA com o mesmo recorte nominal: `conhecimentos-gerais/direito-administrativo/poderes-administrativos/` e `conhecimentos-especificos/nocoes-direito-administrativo/poderes-administrativos-uso-abuso-poder/`. Os conteúdos e referências divergem e carregam identidades/cortes próprios do TCE; apenas `cheat-sheet.md` e `questoes.json` coincidem, sendo o conjunto de 60 questões integralmente autoral. Não foi inferida origem única nem vínculo. Foram publicadas **20 questões — 18 autorais + 2 adaptações não literais de provas anteriores verificadas**.
+A unidade permanece **nova/local**, sem `vinculo.json`. Foram auditadas como doadoras parciais duas aparições físicas do TCE-MA — `conhecimentos-gerais/direito-administrativo/controle-administracao-publica/` e `conhecimentos-especificos/nocoes-direito-administrativo/nocoes-controle-administracao-publica/` — além dos canônicos `controle-externo/controle-interno-externo/` e `controle-externo/controle-administrativo/`. As origens dividem o tema de modos diferentes, possuem identidades próprias e não formam uma origem única integral para a U106. Foram publicadas **20 questões — 18 autorais + 2 adaptações não literais de prova anterior verificada**.
 
-Recorte e fronteiras: poder-dever; vinculação e discricionariedade; poder hierárquico; distinção entre hierarquia e controle finalístico; delegação e avocação no regime federal; poder disciplinar e devido processo; poder regulamentar e poder normativo; regulamento executivo e decreto autônomo; poder de polícia, exercício regular, polícia administrativa versus polícia judiciária, discricionariedade, coercibilidade e autoexecutoriedade; ciclo de polícia; delegação conforme Tema 532; excesso de poder e desvio de finalidade. U106 permanece responsável por controle administrativo, judicial e legislativo, sem duplicação.
+Recorte e fronteiras: conceito e classificações de controle; controle administrativo, hierarquia versus supervisão finalística, autotutela, anulação, revogação, convalidação, limites processuais, decadência e recursos no regime federal; controle judicial, jurisdição una, juridicidade, discricionariedade e políticas públicas; controle legislativo por sustação, fiscalização, convocação, pedidos de informação e comissão parlamentar de inquérito; controle externo financeiro dos artigos 70 e 71; sistemas de controle interno do artigo 74; posição constitucional dos tribunais de contas e atualização do artigo 75 pela Emenda Constitucional 139/2026. A responsabilidade civil do Estado permanece exclusivamente na U107.
 
-Fontes revalidadas: Constituição, especialmente artigo 84, incisos IV e VI; Código Tributário Nacional, artigo 78; Lei 9.784/1999, artigos 11 a 15; Lei 8.112/1990, artigo 143, como referência disciplinar federal; Lei 4.717/1965, artigo 2º, para incompetência e desvio de finalidade; Tema 532 do Supremo Tribunal Federal. Questões anteriores: Cebraspe SEFA-PR 2026, Agente Fazendário Estadual, questão 17, gabarito definitivo C; Cebraspe TCE-RS 2025, Auditor de Controle Externo, item 79, gabarito definitivo Certo.
+A auditoria normativa incorporou a **Emenda Constitucional 139, de 5/5/2026**, já vigente no corte, que qualifica os tribunais de contas como instituições permanentes e essenciais ao exercício do controle externo. Foram preservados os limites da autotutela conforme as Súmulas 346 e 473 e o Tema 138 do Supremo Tribunal Federal; no controle judicial, o Tema 698 foi usado para separar intervenção legítima diante de ausência ou deficiência grave de política pública da substituição indevida das escolhas administrativas legítimas.
 
-O material renderizado evita siglas e abreviações técnicas mediante escrita por extenso, e os termos técnicos indispensáveis são ensinados no corpo; por isso não há marcação `abbr` necessária. O JSON permanece em texto puro. Corte preservado em **13/7/2026**; consulta/revalidação em 19/9/2026. Próxima unidade habilitada: U106 — Controle da Administração pública.
+Fontes revalidadas: Constituição, especialmente artigos 5º, XXXV, 49, 50, 58 e 70–75; Emenda Constitucional 139/2026; Lei 9.784/1999, especialmente artigos 50 e 53–65, com recorte federal explícito; Decreto-Lei 200/1967 como referência de supervisão federal; Lei 7.347/1985 apenas como mapa de instrumento coletivo; Súmulas 346 e 473; Temas 138 e 698 do Supremo Tribunal Federal. Questões anteriores: Cebraspe TCE-MG 2026, conhecimentos gerais para todos os cargos, questões 22 e 24, gabaritos definitivos C e A.
+
+O material renderizado evita siglas e abreviações técnicas mediante escrita por extenso, e os termos indispensáveis são ensinados no corpo; por isso não há marcação `abbr` necessária. O JSON permanece em texto puro. Corte preservado em **13/7/2026**; consulta/revalidação em 19/9/2026. Próxima unidade habilitada: U107 — Responsabilidade civil do Estado.
 
 ### Registros operacionais superados
 
