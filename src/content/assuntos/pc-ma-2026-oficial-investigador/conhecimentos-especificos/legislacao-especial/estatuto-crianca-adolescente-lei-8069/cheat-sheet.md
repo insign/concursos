@@ -91,7 +91,7 @@ Art. 59-A:
 
 ## Trabalho
 
-**Literalidade do ECA:** art. 60 fala em menor de 14, salvo aprendiz.
+**Literalidade do Estatuto:** art. 60 fala em menor de 14, salvo aprendiz.
 
 **Regra constitucional vigente:** proibido trabalho antes dos **16**, salvo aprendiz a partir dos **14**.
 
