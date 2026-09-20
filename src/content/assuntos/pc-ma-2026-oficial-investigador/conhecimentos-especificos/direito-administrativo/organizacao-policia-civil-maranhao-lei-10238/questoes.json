@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u110-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Lei Estadual 10.238/2015, a Polícia Civil do Estado do Maranhão integra a estrutura da",
+      "options": [
+        {"id": "A", "text": "Secretaria de Estado da Segurança Pública."},
+        {"id": "B", "text": "Secretaria de Estado da Justiça e Administração Penitenciária."},
+        {"id": "C", "text": "Casa Civil."},
+        {"id": "D", "text": "Procuradoria-Geral do Estado."},
+        {"id": "E", "text": "Defensoria Pública do Estado."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 1º da Lei 10.238/2015 afirma que a Polícia Civil integra a estrutura da Secretaria de Estado da Segurança Pública."
+    },
+    {
+      "id": "u110-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na versão da Lei Estadual 10.238/2015 consultada, a numeração inicial do artigo 2º",
+      "options": [
+        {"id": "A", "text": "traz o item 1.1 como Gabinete do Delegado-Geral."},
+        {"id": "B", "text": "salta do item 1, Delegacia Geral de Polícia Civil, diretamente para o item 1.2, Conselho de Polícia Civil."},
+        {"id": "C", "text": "começa pelo item 2.1 e não possui item 1."},
+        {"id": "D", "text": "numera a Academia de Polícia Civil como item 1.1."},
+        {"id": "E", "text": "abandona numeração hierárquica e usa apenas incisos romanos."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A numeração publicada consultada apresenta o item 1 e, em seguida, o item 1.2. A lacuna não deve ser preenchida por inferência."
+    },
+    {
+      "id": "u110-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual unidade da Lei Estadual 10.238/2015 concentra departamentos ligados a crime organizado, roubo de cargas, roubos a instituições financeiras, operações táticas e crimes tecnológicos?",
+      "options": [
+        {"id": "A", "text": "Superintendência Estadual de Prevenção e Combate à Corrupção."},
+        {"id": "B", "text": "Superintendência de Investigações Criminais."},
+        {"id": "C", "text": "Superintendência de Polícia Técnico-Científica."},
+        {"id": "D", "text": "Superintendência Estadual de Repressão ao Narcotráfico."},
+        {"id": "E", "text": "Conselho de Polícia Civil."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Esses departamentos integram a Superintendência de Investigações Criminais, que possui estrutura própria no artigo 2º."
+    },
+    {
+      "id": "u110-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A presença de Seção de Análise Contábil, Seção de Prevenção à Corrupção e departamentos de investigação de crimes funcionais caracteriza, na Lei Estadual 10.238/2015, a",
+      "options": [
+        {"id": "A", "text": "Superintendência Estadual de Prevenção e Combate à Corrupção."},
+        {"id": "B", "text": "Superintendência de Polícia Civil do Interior."},
+        {"id": "C", "text": "Superintendência de Polícia Técnico-Científica."},
+        {"id": "D", "text": "Superintendência Estadual de Investigação de Homicídios e Proteção à Pessoa."},
+        {"id": "E", "text": "Academia de Polícia Civil."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei 10.238 organiza a estrutura de prevenção e combate à corrupção com apoio administrativo, inteligência, análise contábil, prevenção e departamentos especializados."
+    },
+    {
+      "id": "u110-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Departamento de Proteção à Pessoa, com atividades de investigação de desaparecidos e proteção a vítimas e testemunhas, integra a",
+      "options": [
+        {"id": "A", "text": "Superintendência de Investigações Criminais."},
+        {"id": "B", "text": "Superintendência Estadual de Investigação de Homicídios e Proteção à Pessoa."},
+        {"id": "C", "text": "Superintendência Estadual de Repressão ao Narcotráfico."},
+        {"id": "D", "text": "Superintendência de Polícia Civil da Capital."},
+        {"id": "E", "text": "Superintendência de Polícia Técnico-Científica."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A própria denominação da superintendência reúne os dois eixos: investigação de homicídios e proteção à pessoa."
+    },
+    {
+      "id": "u110-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as estruturas expressamente ligadas à Superintendência Estadual de Repressão ao Narcotráfico está a",
+      "options": [
+        {"id": "A", "text": "Seção de Cinofilia."},
+        {"id": "B", "text": "Seção de Tanatologia Forense."},
+        {"id": "C", "text": "Seção de Papiloscopia."},
+        {"id": "D", "text": "Seção de Análise Contábil."},
+        {"id": "E", "text": "Seção de Proteção a Vítimas e Testemunhas."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei 10.238 inclui Seção de Cinofilia na estrutura da superintendência de repressão ao narcotráfico, ao lado de apoio, inteligência e prevenção."
+    },
+    {
+      "id": "u110-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei Estadual 10.824/2018, as antigas Supervisões de Áreas Integradas de Segurança Pública foram",
+      "options": [
+        {"id": "A", "text": "extintas sem unidade sucessora."},
+        {"id": "B", "text": "transformadas em delegacias regionais subordinadas à estrutura do interior."},
+        {"id": "C", "text": "transferidas para a Polícia Civil, denominadas Seccionais de Polícia Civil e subordinadas à Superintendência de Polícia Civil da Capital."},
+        {"id": "D", "text": "transferidas para a Superintendência de Polícia Técnico-Científica."},
+        {"id": "E", "text": "incorporadas ao Conselho de Polícia Civil."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 7º da Lei 10.824/2018 fez a transferência, adotou a denominação Seccionais de Polícia Civil e estabeleceu a subordinação à estrutura da capital."
+    },
+    {
+      "id": "u110-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei Estadual 10.824/2018 reescreveu o item 1.14 da Lei 10.238/2015. Esse item trata da",
+      "options": [
+        {"id": "A", "text": "Superintendência de Polícia Civil do Interior."},
+        {"id": "B", "text": "Superintendência de Investigações Criminais."},
+        {"id": "C", "text": "Academia de Polícia Civil."},
+        {"id": "D", "text": "Superintendência de Polícia Técnico-Científica."},
+        {"id": "E", "text": "Delegacia Geral Adjunta Administrativa."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O item 1.14 corresponde à Superintendência de Polícia Civil do Interior e recebeu nova redação em 2018, com 23 delegacias regionais."
+    },
+    {
+      "id": "u110-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A sede da 19ª Delegacia Regional, relevante também nas alterações de 2018 relativas a homicídios e narcotráfico, é",
+      "options": [
+        {"id": "A", "text": "Imperatriz."},
+        {"id": "B", "text": "Timon."},
+        {"id": "C", "text": "Porto Franco."},
+        {"id": "D", "text": "Barreirinhas."},
+        {"id": "E", "text": "Buriticupu."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A 19ª Delegacia Regional tem sede em Porto Franco. A Lei 10.824 também atualizou as unidades regionais de homicídios e narcotráfico correspondentes."
+    },
+    {
+      "id": "u110-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A 23ª Delegacia Regional prevista na redação de 2018 tem sede em",
+      "options": [
+        {"id": "A", "text": "Cururupu."},
+        {"id": "B", "text": "Governador Nunes Freire."},
+        {"id": "C", "text": "Buriticupu."},
+        {"id": "D", "text": "Barreirinhas."},
+        {"id": "E", "text": "Presidente Dutra."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A 23ª Delegacia Regional tem sede em Buriticupu; a 20ª é Barreirinhas, a 21ª Cururupu e a 22ª Governador Nunes Freire."
+    },
+    {
+      "id": "u110-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o artigo 3º da Lei Estadual 10.238/2015, a composição das delegacias e distritos policiais da capital, diferentemente das unidades do interior, inclui expressamente",
+      "options": [
+        {"id": "A", "text": "Comissariado."},
+        {"id": "B", "text": "Seção de Genética Forense."},
+        {"id": "C", "text": "Conselho de Polícia Civil."},
+        {"id": "D", "text": "Seção de Cinofilia."},
+        {"id": "E", "text": "Departamento de Proteção à Pessoa."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na capital, o artigo 3º enumera Investigação e Captura, Comissariado e Cartório; para o interior, enumera Investigação e Captura e Cartório."
+    },
+    {
+      "id": "u110-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As competências das unidades administrativas do artigo 2º e as atribuições dos respectivos cargos e funções serão, segundo a Lei Estadual 10.238/2015, definidas em",
+      "options": [
+        {"id": "A", "text": "regimento próprio."},
+        {"id": "B", "text": "sentença judicial."},
+        {"id": "C", "text": "contrato de gestão obrigatório."},
+        {"id": "D", "text": "edital de concurso público."},
+        {"id": "E", "text": "resolução do Senado Federal."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 4º remete a regimento próprio a definição das competências das unidades e das atribuições de cargos e funções."
+    },
+    {
+      "id": "u110-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos anexos da Lei Estadual 10.238/2015, é correto afirmar que",
+      "options": [
+        {"id": "A", "text": "os Anexos I a III criam todas as unidades territoriais, e os Anexos IV a VI as extinguem."},
+        {"id": "B", "text": "os Anexos I a III relacionam cargos e funções mantidos, enquanto os Anexos IV a VI tratam de cargos e funções criados pela reorganização."},
+        {"id": "C", "text": "todos os anexos foram revogados na data da publicação."},
+        {"id": "D", "text": "os anexos tratam exclusivamente de limites territoriais das delegacias regionais."},
+        {"id": "E", "text": "os anexos possuem apenas conteúdo orçamentário, sem cargos ou funções."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 5º distingue os cargos e funções mantidos nos Anexos I a III daqueles criados nos Anexos IV a VI."
+    },
+    {
+      "id": "u110-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito do Centro de Inteligência da Polícia Civil, a leitura atual deve considerar que",
+      "options": [
+        {"id": "A", "text": "a regra original de 2015 é a única aplicável, sem alteração posterior."},
+        {"id": "B", "text": "a Lei 10.824/2018, ao alterar a Lei 8.508/2006, passou a colocá-lo diretamente subordinado à Delegacia Geral de Polícia Civil."},
+        {"id": "C", "text": "foi extinto em 2018."},
+        {"id": "D", "text": "passou a integrar a Superintendência de Polícia Técnico-Científica."},
+        {"id": "E", "text": "passou a integrar a Academia de Polícia Civil."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 6º da lei de 2015 traz uma subordinação original, mas a Lei 10.824/2018 introduziu regra posterior na Lei 8.508, colocando o Centro diretamente sob a Delegacia Geral."
+    },
+    {
+      "id": "u110-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 2º da Lei Estadual 10.824/2018 alterou expressamente, na Lei 10.238/2015,",
+      "options": [
+        {"id": "A", "text": "apenas o artigo 1º e revogou todo o artigo 2º."},
+        {"id": "B", "text": "os itens 1.11.4.19, 1.12.6.19 e 1.14."},
+        {"id": "C", "text": "somente os Anexos I, II e III."},
+        {"id": "D", "text": "apenas o artigo 7º."},
+        {"id": "E", "text": "exclusivamente o item relativo ao Conselho de Polícia Civil."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alteração direta alcançou as unidades de homicídios e narcotráfico da 19ª regional e reescreveu o bloco da Superintendência de Polícia Civil do Interior."
+    },
+    {
+      "id": "u110-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei Estadual 10.824/2018 criou, na estrutura de direção da Polícia Civil, os cargos de",
+      "options": [
+        {"id": "A", "text": "Delegado-Geral Adjunto Administrativo e Delegado-Geral Adjunto Operacional."},
+        {"id": "B", "text": "Procurador-Geral Adjunto e Corregedor-Geral Militar."},
+        {"id": "C", "text": "Diretor-Geral de Perícia e Diretor-Geral Penitenciário."},
+        {"id": "D", "text": "Ouvidor-Geral e Defensor-Geral Adjunto."},
+        {"id": "E", "text": "Secretário-Geral de Polícia e Secretário-Geral de Justiça."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A reforma de 2018 criou as duas Delegacias-Gerais Adjuntas, uma administrativa e outra operacional, refletidas também na estrutura básica da Lei 8.508."
+    },
+    {
+      "id": "u110-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à Academia, a Lei Estadual 10.824/2018",
+      "options": [
+        {"id": "A", "text": "extinguiu a formação policial estadual."},
+        {"id": "B", "text": "transferiu para a Polícia Civil os cargos e funções da academia integrada e estabeleceu a denominação Academia de Polícia Civil."},
+        {"id": "C", "text": "transferiu a Academia para a Procuradoria-Geral do Estado."},
+        {"id": "D", "text": "transformou a Academia em delegacia regional."},
+        {"id": "E", "text": "manteve a Academia fora da estrutura básica da Polícia Civil."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei 10.824 promoveu o retorno da Academia à estrutura da Polícia Civil e determinou a denominação Academia de Polícia Civil."
+    },
+    {
+      "id": "u110-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Integra a estrutura da Superintendência de Polícia Técnico-Científica prevista na Lei Estadual 10.238/2015 o",
+      "options": [
+        {"id": "A", "text": "Instituto de Genética Forense."},
+        {"id": "B", "text": "Departamento de Combate ao Crime Organizado."},
+        {"id": "C", "text": "Segundo Departamento de Combate à Corrupção."},
+        {"id": "D", "text": "Departamento de Proteção à Pessoa."},
+        {"id": "E", "text": "Conselho de Polícia Civil."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Instituto de Genética Forense integra o ramo técnico-científico, junto de unidades como Instituto Médico Legal, Identificação, Criminalística e Central de Custódia de Vestígios Criminais."
+    },
+    {
+      "id": "u110-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Central de Custódia de Vestígios Criminais está situada, na estrutura da Lei Estadual 10.238/2015, no ramo da",
+      "options": [
+        {"id": "A", "text": "Superintendência de Polícia Técnico-Científica."},
+        {"id": "B", "text": "Superintendência de Polícia Civil do Interior."},
+        {"id": "C", "text": "Superintendência Estadual de Repressão ao Narcotráfico."},
+        {"id": "D", "text": "Superintendência Estadual de Prevenção e Combate à Corrupção."},
+        {"id": "E", "text": "Academia de Polícia Civil."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei inclui a Central de Custódia de Vestígios Criminais entre as unidades da Superintendência de Polícia Técnico-Científica."
+    },
+    {
+      "id": "u110-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No corte de 13 de julho de 2026, a criação de cargos comissionados de Capelão Religioso pela Lei Estadual 10.824/2018 deve ser estudada considerando que",
+      "options": [
+        {"id": "A", "text": "o Supremo Tribunal Federal declarou inconstitucionais as disposições indicadas, na parte em que criavam esses cargos em comissão, com efeitos após 31 de dezembro de 2022."},
+        {"id": "B", "text": "a criação foi integralmente confirmada pelo Supremo Tribunal Federal sem qualquer ressalva."},
+        {"id": "C", "text": "a decisão do Supremo Tribunal Federal só produzirá efeitos a partir de 2030."},
+        {"id": "D", "text": "a decisão extinguiu toda a Lei Estadual 10.824/2018."},
+        {"id": "E", "text": "a matéria não sofreu controle de constitucionalidade."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na Ação Direta de Inconstitucionalidade 6669, o Supremo Tribunal Federal atingiu os dispositivos e o anexo indicados somente na parte relativa à criação de cargos comissionados de capelão e modulou a eficácia para depois de 31/12/2022."
+    },
+    {
+      "id": "u110-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença entre criação legal de uma delegacia regional e sua implantação física significa que",
+      "options": [
+        {"id": "A", "text": "a unidade só passa a existir juridicamente depois que o prédio é inaugurado."},
+        {"id": "B", "text": "a lei pode criar a unidade antes de estarem concluídas as providências materiais para seu funcionamento."},
+        {"id": "C", "text": "a criação por lei dispensa pessoal, orçamento e instalações em qualquer hipótese."},
+        {"id": "D", "text": "uma unidade não instalada deve ser apagada do texto legal."},
+        {"id": "E", "text": "a instalação física sempre precede a criação legal."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A criação normativa e a implantação material são momentos distintos. O caso da 23ª Delegacia Regional de Buriticupu ilustra essa diferença."
+    },
+    {
+      "id": "u110-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a sequência correta das sedes da 20ª, 21ª, 22ª e 23ª Delegacias Regionais, respectivamente.",
+      "options": [
+        {"id": "A", "text": "Barreirinhas, Cururupu, Governador Nunes Freire e Buriticupu."},
+        {"id": "B", "text": "Porto Franco, Barreirinhas, Cururupu e Governador Nunes Freire."},
+        {"id": "C", "text": "Cururupu, Barreirinhas, Buriticupu e Governador Nunes Freire."},
+        {"id": "D", "text": "Barreirinhas, Governador Nunes Freire, Cururupu e Buriticupu."},
+        {"id": "E", "text": "Timon, Porto Franco, Barreirinhas e Cururupu."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "A redação de 2018 encerra a lista com 20ª Barreirinhas, 21ª Cururupu, 22ª Governador Nunes Freire e 23ª Buriticupu."
+    }
+  ]
+}
