@@ -1,0 +1,1086 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u135-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para a Lei nº 9.099/1995, é infração penal de menor potencial ofensivo",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente o crime cuja pena mínima não ultrapasse 2 anos."
+        },
+        {
+          "id": "B",
+          "text": "toda contravenção penal e o crime cuja pena máxima não seja superior a 2 anos, cumulada ou não com multa."
+        },
+        {
+          "id": "C",
+          "text": "apenas o crime punido exclusivamente com multa."
+        },
+        {
+          "id": "D",
+          "text": "todo crime cuja pena máxima não ultrapasse 4 anos."
+        },
+        {
+          "id": "E",
+          "text": "apenas a contravenção sem vítima determinada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 61 usa contravenções e crimes com pena máxima não superior a 2 anos, cumulada ou não com multa."
+    },
+    {
+      "id": "u135-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O critério de pena usado para definir menor potencial ofensivo e o usado para a suspensão condicional do processo são, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "pena mínima de 2 anos e pena máxima de 1 ano."
+        },
+        {
+          "id": "B",
+          "text": "pena máxima de 1 ano e pena mínima de 2 anos."
+        },
+        {
+          "id": "C",
+          "text": "pena máxima de 2 anos e pena mínima igual ou inferior a 1 ano."
+        },
+        {
+          "id": "D",
+          "text": "pena aplicada de 2 anos e pena executada de 1 ano."
+        },
+        {
+          "id": "E",
+          "text": "sempre a pena máxima de 2 anos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 61 trabalha com pena máxima até 2 anos; o art. 89, com pena mínima igual ou inferior a 1 ano."
+    },
+    {
+      "id": "u135-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na reunião de processos perante o juízo comum ou o Tribunal do Júri por conexão ou continência, a Lei nº 9.099/1995 determina que",
+      "options": [
+        {
+          "id": "A",
+          "text": "sejam observados, quando cabíveis, a transação penal e a composição dos danos civis."
+        },
+        {
+          "id": "B",
+          "text": "todos os institutos consensuais sejam automaticamente excluídos."
+        },
+        {
+          "id": "C",
+          "text": "o processo seja obrigatoriamente desmembrado."
+        },
+        {
+          "id": "D",
+          "text": "a competência do Juizado prevaleça sobre o Tribunal do Júri."
+        },
+        {
+          "id": "E",
+          "text": "a composição civil seja admitida, mas a transação penal seja sempre proibida."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O parágrafo único do art. 60 preserva a transação penal e a composição dos danos civis na reunião decorrente de conexão ou continência."
+    },
+    {
+      "id": "u135-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os critérios orientadores expressos do processo criminal na Lei nº 9.099/1995 está",
+      "options": [
+        {
+          "id": "A",
+          "text": "formalismo máximo."
+        },
+        {
+          "id": "B",
+          "text": "sigilo obrigatório."
+        },
+        {
+          "id": "C",
+          "text": "escrituração integral de todos os atos."
+        },
+        {
+          "id": "D",
+          "text": "simplicidade."
+        },
+        {
+          "id": "E",
+          "text": "duplo grau obrigatório para toda decisão interlocutória."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 62 enumera oralidade, simplicidade, informalidade, economia processual e celeridade."
+    },
+    {
+      "id": "u135-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A competência territorial do Juizado Especial Criminal é determinada, segundo o art. 63, pelo",
+      "options": [
+        {
+          "id": "A",
+          "text": "domicílio da vítima."
+        },
+        {
+          "id": "B",
+          "text": "lugar em que foi praticada a infração penal."
+        },
+        {
+          "id": "C",
+          "text": "domicílio do autor do fato."
+        },
+        {
+          "id": "D",
+          "text": "local onde foi lavrado o termo circunstanciado."
+        },
+        {
+          "id": "E",
+          "text": "local escolhido pelo Ministério Público."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 63 adota o lugar em que foi praticada a infração penal."
+    },
+    {
+      "id": "u135-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se o acusado não for encontrado para ser citado pessoalmente no rito da Lei nº 9.099/1995,",
+      "options": [
+        {
+          "id": "A",
+          "text": "será citado por edital no próprio Juizado."
+        },
+        {
+          "id": "B",
+          "text": "o processo será extinto com absolvição."
+        },
+        {
+          "id": "C",
+          "text": "as peças serão encaminhadas ao juízo comum para adoção do procedimento previsto em lei."
+        },
+        {
+          "id": "D",
+          "text": "será considerado revel e condenado."
+        },
+        {
+          "id": "E",
+          "text": "a citação será substituída por mensagem eletrônica sem outras formalidades."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 66, parágrafo único, manda encaminhar as peças ao juízo comum quando o acusado não é encontrado para citação."
+    },
+    {
+      "id": "u135-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao tomar conhecimento de infração de menor potencial ofensivo, a autoridade policial deve, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "lavrar termo circunstanciado e encaminhá-lo imediatamente ao Juizado com autor do fato e vítima, providenciando as requisições periciais necessárias."
+        },
+        {
+          "id": "B",
+          "text": "instaurar obrigatoriamente inquérito policial completo antes de qualquer encaminhamento."
+        },
+        {
+          "id": "C",
+          "text": "oferecer denúncia oral."
+        },
+        {
+          "id": "D",
+          "text": "aplicar diretamente pena restritiva de direitos."
+        },
+        {
+          "id": "E",
+          "text": "julgar a composição civil."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esse é o fluxo do art. 69: termo circunstanciado e encaminhamento ao Juizado."
+    },
+    {
+      "id": "u135-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos termos do art. 69, se o autor do fato for imediatamente encaminhado ao Juizado ou assumir compromisso de a ele comparecer,",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre será lavrado auto de prisão em flagrante."
+        },
+        {
+          "id": "B",
+          "text": "deverá prestar fiança obrigatoriamente."
+        },
+        {
+          "id": "C",
+          "text": "a prisão em flagrante será substituída por prisão preventiva."
+        },
+        {
+          "id": "D",
+          "text": "o fato deixará de ser infração penal."
+        },
+        {
+          "id": "E",
+          "text": "não se imporá prisão em flagrante nem se exigirá fiança."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O parágrafo único do art. 69 afasta imposição de prisão em flagrante e exigência de fiança nessas condições."
+    },
+    {
+      "id": "u135-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A audiência preliminar do Juizado Especial Criminal tem como eixos centrais",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente interrogatório e sentença."
+        },
+        {
+          "id": "B",
+          "text": "prisão preventiva e execução da pena."
+        },
+        {
+          "id": "C",
+          "text": "júri e pronúncia."
+        },
+        {
+          "id": "D",
+          "text": "composição dos danos civis e eventual proposta de aplicação imediata de pena não privativa de liberdade."
+        },
+        {
+          "id": "E",
+          "text": "apenas arbitramento de fiança."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os arts. 72 e seguintes estruturam a fase preliminar em torno da composição civil e da proposta de transação penal."
+    },
+    {
+      "id": "u135-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Homologada a composição civil dos danos em ação penal privada ou pública condicionada à representação,",
+      "options": [
+        {
+          "id": "A",
+          "text": "há renúncia ao direito de queixa ou de representação."
+        },
+        {
+          "id": "B",
+          "text": "o acordo não produz nenhum efeito penal."
+        },
+        {
+          "id": "C",
+          "text": "há condenação criminal automática."
+        },
+        {
+          "id": "D",
+          "text": "o Ministério Público fica obrigado a denunciar."
+        },
+        {
+          "id": "E",
+          "text": "surge reincidência."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 74, parágrafo único, prevê renúncia ao direito de queixa ou representação nessas hipóteses."
+    },
+    {
+      "id": "u135-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se não houver composição civil e a vítima não oferecer representação na audiência preliminar,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o direito decai imediatamente."
+        },
+        {
+          "id": "B",
+          "text": "ela ainda poderá exercer o direito dentro do prazo previsto em lei."
+        },
+        {
+          "id": "C",
+          "text": "a ação se torna pública incondicionada."
+        },
+        {
+          "id": "D",
+          "text": "o juiz pode representar por ela."
+        },
+        {
+          "id": "E",
+          "text": "o autor do fato deve ser absolvido."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 75 deixa expresso que a ausência de representação na audiência não implica decadência imediata."
+    },
+    {
+      "id": "u135-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A transação penal do art. 76 consiste, em regra, na proposta do Ministério Público de",
+      "options": [
+        {
+          "id": "A",
+          "text": "pena privativa de liberdade definitiva."
+        },
+        {
+          "id": "B",
+          "text": "absolvição condicionada à confissão."
+        },
+        {
+          "id": "C",
+          "text": "aplicação imediata de pena restritiva de direitos ou multa."
+        },
+        {
+          "id": "D",
+          "text": "arquivamento obrigatório sem condições."
+        },
+        {
+          "id": "E",
+          "text": "prisão temporária."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A transação permite aplicação imediata de pena restritiva de direitos ou multa, observados os requisitos legais."
+    },
+    {
+      "id": "u135-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Constitui impedimento legal à proposta de transação penal",
+      "options": [
+        {
+          "id": "A",
+          "text": "ter endereço fora da comarca."
+        },
+        {
+          "id": "B",
+          "text": "não confessar o fato."
+        },
+        {
+          "id": "C",
+          "text": "ter sido absolvido em processo anterior."
+        },
+        {
+          "id": "D",
+          "text": "ter sido beneficiado por transação penal nos cinco anos anteriores."
+        },
+        {
+          "id": "E",
+          "text": "ser primário."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 76, § 2º, II, impede nova transação quando o agente recebeu o benefício nos cinco anos anteriores."
+    },
+    {
+      "id": "u135-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à condenação anterior e à transação penal, a Lei nº 9.099/1995 impede a proposta quando ficar comprovado que o autor",
+      "options": [
+        {
+          "id": "A",
+          "text": "foi condenado definitivamente por crime a pena privativa de liberdade."
+        },
+        {
+          "id": "B",
+          "text": "foi condenado apenas por contravenção a multa."
+        },
+        {
+          "id": "C",
+          "text": "respondeu a inquérito arquivado."
+        },
+        {
+          "id": "D",
+          "text": "foi absolvido em ação penal."
+        },
+        {
+          "id": "E",
+          "text": "recebeu composição civil há mais de cinco anos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 76, § 2º, I, refere-se a condenação definitiva pela prática de crime a pena privativa de liberdade."
+    },
+    {
+      "id": "u135-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A aplicação de pena em transação penal",
+      "options": [
+        {
+          "id": "A",
+          "text": "gera reincidência."
+        },
+        {
+          "id": "B",
+          "text": "consta normalmente de toda certidão de antecedentes."
+        },
+        {
+          "id": "C",
+          "text": "produz automaticamente efeitos civis."
+        },
+        {
+          "id": "D",
+          "text": "impede qualquer benefício para sempre."
+        },
+        {
+          "id": "E",
+          "text": "não gera reincidência e fica registrada apenas para impedir novo benefício no prazo legal."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 76, §§ 4º e 6º, afasta reincidência e efeitos civis automáticos e limita o registro ao controle do benefício."
+    },
+    {
+      "id": "u135-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula Vinculante 35 do STF, o descumprimento das cláusulas da transação penal",
+      "options": [
+        {
+          "id": "A",
+          "text": "converte automaticamente a sanção em prisão."
+        },
+        {
+          "id": "B",
+          "text": "permite retorno à situação anterior e continuidade da persecução penal."
+        },
+        {
+          "id": "C",
+          "text": "extingue a punibilidade."
+        },
+        {
+          "id": "D",
+          "text": "produz coisa julgada material impeditiva de denúncia."
+        },
+        {
+          "id": "E",
+          "text": "obriga absolvição."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A homologação não faz coisa julgada material; o descumprimento permite retomada da persecução, não conversão automática em prisão."
+    },
+    {
+      "id": "u135-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No procedimento sumaríssimo, para o oferecimento da denúncia,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre indispensável inquérito policial completo."
+        },
+        {
+          "id": "B",
+          "text": "é sempre indispensável exame de corpo de delito formal."
+        },
+        {
+          "id": "C",
+          "text": "o termo circunstanciado pode servir de base, com dispensa de inquérito, e boletim médico ou prova equivalente pode bastar para demonstrar a materialidade nas condições legais."
+        },
+        {
+          "id": "D",
+          "text": "somente se admite denúncia escrita de vinte páginas ou mais."
+        },
+        {
+          "id": "E",
+          "text": "o Ministério Público depende de autorização da vítima em toda ação pública."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 77 permite denúncia com base no termo circunstanciado e prevê dispensa de exame de corpo de delito para o oferecimento quando a materialidade estiver aferida por boletim médico ou prova equivalente."
+    },
+    {
+      "id": "u135-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na audiência de instrução e julgamento do art. 81, após a resposta da defesa,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o juiz decide sobre o recebimento da denúncia ou queixa e, se a receber, produz-se a prova, interroga-se o acusado e seguem debates e sentença."
+        },
+        {
+          "id": "B",
+          "text": "o acusado é condenado automaticamente."
+        },
+        {
+          "id": "C",
+          "text": "o processo é obrigatoriamente remetido ao Tribunal do Júri."
+        },
+        {
+          "id": "D",
+          "text": "a vítima deixa de poder ser ouvida."
+        },
+        {
+          "id": "E",
+          "text": "o Ministério Público aplica diretamente a pena."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a sequência concentrada do art. 81."
+    },
+    {
+      "id": "u135-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A proteção introduzida no art. 81 pela Lei nº 14.245/2021 veda, durante a audiência,",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer pergunta à vítima."
+        },
+        {
+          "id": "B",
+          "text": "a presença de advogado."
+        },
+        {
+          "id": "C",
+          "text": "a gravação do ato."
+        },
+        {
+          "id": "D",
+          "text": "manifestações alheias aos fatos e linguagem, informação ou material ofensivos à dignidade da vítima ou testemunhas."
+        },
+        {
+          "id": "E",
+          "text": "depoimento de testemunha de defesa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O § 1º-A do art. 81 protege a dignidade da vítima e das testemunhas."
+    },
+    {
+      "id": "u135-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A apelação prevista no art. 82 tem prazo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias."
+        },
+        {
+          "id": "B",
+          "text": "10 dias."
+        },
+        {
+          "id": "C",
+          "text": "15 dias."
+        },
+        {
+          "id": "D",
+          "text": "20 dias."
+        },
+        {
+          "id": "E",
+          "text": "30 dias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 82 prevê dez dias para interposição, com razões, e dez dias para resposta do recorrido."
+    },
+    {
+      "id": "u135-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os embargos de declaração na Lei nº 9.099/1995",
+      "options": [
+        {
+          "id": "A",
+          "text": "têm prazo de 10 dias e suspendem o prazo recursal."
+        },
+        {
+          "id": "B",
+          "text": "cabem apenas contra sentença, nunca acórdão."
+        },
+        {
+          "id": "C",
+          "text": "têm prazo de 5 dias e interrompem o prazo para recurso."
+        },
+        {
+          "id": "D",
+          "text": "não podem ser opostos oralmente."
+        },
+        {
+          "id": "E",
+          "text": "cabem apenas por erro material."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 83 prevê cinco dias e efeito interruptivo do prazo recursal."
+    },
+    {
+      "id": "u135-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula 203 do STJ,",
+      "options": [
+        {
+          "id": "A",
+          "text": "não cabe recurso especial contra decisão proferida por órgão de segundo grau dos Juizados Especiais."
+        },
+        {
+          "id": "B",
+          "text": "cabe recurso especial de toda decisão de Turma Recursal."
+        },
+        {
+          "id": "C",
+          "text": "não cabe qualquer recurso contra sentença do Juizado."
+        },
+        {
+          "id": "D",
+          "text": "somente o réu pode interpor recurso especial."
+        },
+        {
+          "id": "E",
+          "text": "recurso especial substitui a apelação do art. 82."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Súmula 203 exclui recurso especial contra decisão de órgão de segundo grau dos Juizados Especiais."
+    },
+    {
+      "id": "u135-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Embora o art. 85 da Lei nº 9.099/1995 ainda contenha texto sobre conversão de multa não paga, o regime jurídico atual",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoriza prisão automática."
+        },
+        {
+          "id": "B",
+          "text": "permite prisão por decisão administrativa."
+        },
+        {
+          "id": "C",
+          "text": "transforma toda multa em restrição de direitos."
+        },
+        {
+          "id": "D",
+          "text": "exige conversão após 30 dias."
+        },
+        {
+          "id": "E",
+          "text": "não admite conversão da multa em pena privativa de liberdade."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Lei nº 9.268/1996 alterou o regime da multa, e o STF reconheceu a derrogação da parte do art. 85 que previa conversão em prisão."
+    },
+    {
+      "id": "u135-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O art. 88 da Lei nº 9.099/1995 tornou dependente de representação, ressalvados regimes especiais,",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo homicídio."
+        },
+        {
+          "id": "B",
+          "text": "todo crime patrimonial."
+        },
+        {
+          "id": "C",
+          "text": "apenas contravenções."
+        },
+        {
+          "id": "D",
+          "text": "lesão corporal leve e lesão corporal culposa."
+        },
+        {
+          "id": "E",
+          "text": "todo crime com pena máxima de 4 anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 88 prevê representação para lesões corporais leves e culposas, além das demais hipóteses legais."
+    },
+    {
+      "id": "u135-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A suspensão condicional do processo pode ser proposta, nos termos do art. 89, para crime",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente se a pena máxima for de até 2 anos."
+        },
+        {
+          "id": "B",
+          "text": "com pena mínima igual ou inferior a 1 ano, abrangido ou não pela Lei nº 9.099/1995."
+        },
+        {
+          "id": "C",
+          "text": "apenas se for contravenção."
+        },
+        {
+          "id": "D",
+          "text": "somente se estiver no Juizado Especial Criminal."
+        },
+        {
+          "id": "E",
+          "text": "apenas depois de sentença condenatória."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O caput do art. 89 usa pena mínima igual ou inferior a um ano e declara que o crime pode estar abrangido ou não pela lei."
+    },
+    {
+      "id": "u135-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O período de prova da suspensão condicional do processo é, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "de 30 dias."
+        },
+        {
+          "id": "B",
+          "text": "de 1 a 2 anos."
+        },
+        {
+          "id": "C",
+          "text": "de 2 a 4 anos."
+        },
+        {
+          "id": "D",
+          "text": "de 5 a 10 anos."
+        },
+        {
+          "id": "E",
+          "text": "indeterminado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 89 fixa período de suspensão de dois a quatro anos."
+    },
+    {
+      "id": "u135-a27",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É condição legal da suspensão condicional do processo",
+      "options": [
+        {
+          "id": "A",
+          "text": "comparecimento pessoal e obrigatório ao juízo, mensalmente, para informar e justificar atividades."
+        },
+        {
+          "id": "B",
+          "text": "prisão domiciliar obrigatória."
+        },
+        {
+          "id": "C",
+          "text": "confissão formal do delito."
+        },
+        {
+          "id": "D",
+          "text": "renúncia ao direito de defesa."
+        },
+        {
+          "id": "E",
+          "text": "pagamento de multa em todo caso."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 89, § 1º, inclui comparecimento pessoal e obrigatório ao juízo, mensalmente, além das demais condições legais."
+    },
+    {
+      "id": "u135-a28",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Durante o período de prova, a suspensão condicional do processo será obrigatoriamente revogada se o beneficiário",
+      "options": [
+        {
+          "id": "A",
+          "text": "mudar de emprego."
+        },
+        {
+          "id": "B",
+          "text": "for processado por contravenção."
+        },
+        {
+          "id": "C",
+          "text": "descumprir qualquer condição adicional, sem distinção."
+        },
+        {
+          "id": "D",
+          "text": "vier a ser processado por outro crime ou deixar injustificadamente de reparar o dano."
+        },
+        {
+          "id": "E",
+          "text": "viajar para outra cidade com autorização."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O § 3º prevê revogação obrigatória por novo processo criminal ou falta injustificada de reparação do dano."
+    },
+    {
+      "id": "u135-a29",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Durante o período de prova, constitui hipótese de revogação facultativa da suspensão condicional do processo",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser processado por outro crime."
+        },
+        {
+          "id": "B",
+          "text": "ser processado por contravenção ou descumprir outra condição imposta."
+        },
+        {
+          "id": "C",
+          "text": "deixar injustificadamente de reparar o dano."
+        },
+        {
+          "id": "D",
+          "text": "chegar ao fim do prazo sem descumprimento."
+        },
+        {
+          "id": "E",
+          "text": "aceitar a proposta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 4º trata de processo por contravenção e descumprimento de outra condição como hipóteses facultativas."
+    },
+    {
+      "id": "u135-a30",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula 243 do STJ, em concurso de crimes ou continuidade delitiva,",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre se considera isoladamente o crime de menor pena."
+        },
+        {
+          "id": "B",
+          "text": "a suspensão sempre cabe."
+        },
+        {
+          "id": "C",
+          "text": "somente a pena máxima importa."
+        },
+        {
+          "id": "D",
+          "text": "o limite do art. 89 passa a ser de dois anos."
+        },
+        {
+          "id": "E",
+          "text": "não cabe suspensão se a soma das penas mínimas ou a pena mínima com a majorante ultrapassar um ano."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Súmula 243 impede o benefício quando o cálculo global ultrapassa o limite de um ano."
+    },
+    {
+      "id": "u135-a31",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula 337 do STJ, a suspensão condicional do processo",
+      "options": [
+        {
+          "id": "A",
+          "text": "jamais pode ser discutida depois do recebimento da denúncia."
+        },
+        {
+          "id": "B",
+          "text": "só cabe antes de qualquer decisão judicial."
+        },
+        {
+          "id": "C",
+          "text": "pode tornar-se cabível na desclassificação do crime ou na procedência parcial da pretensão punitiva."
+        },
+        {
+          "id": "D",
+          "text": "é proibida em todo concurso de crimes."
+        },
+        {
+          "id": "E",
+          "text": "pode ser concedida de ofício pelo juiz sem participação do Ministério Público."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Súmula 337 admite o benefício quando a desclassificação ou procedência parcial faz surgir o preenchimento dos requisitos."
+    },
+    {
+      "id": "u135-a32",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula 696 do STF, se o Ministério Público se recusa a propor a suspensão condicional do processo e o juiz discorda,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o juiz remete a questão ao Procurador-Geral, por aplicação analógica do art. 28 do Código de Processo Penal."
+        },
+        {
+          "id": "B",
+          "text": "o juiz concede o benefício unilateralmente."
+        },
+        {
+          "id": "C",
+          "text": "o processo é extinto."
+        },
+        {
+          "id": "D",
+          "text": "o acusado é absolvido."
+        },
+        {
+          "id": "E",
+          "text": "a defesa passa a exercer a ação penal pública."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Súmula 696 preserva a iniciativa ministerial e determina remessa ao Procurador-Geral quando o juiz discorda da recusa."
+    },
+    {
+      "id": "u135-a33",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o art. 90 da Lei nº 9.099/1995, o STF decidiu na ADI 1.719 que",
+      "options": [
+        {
+          "id": "A",
+          "text": "nenhuma parte da lei pode retroagir."
+        },
+        {
+          "id": "B",
+          "text": "todas as normas da lei retroagem sempre."
+        },
+        {
+          "id": "C",
+          "text": "o artigo foi integralmente revogado pelo Congresso."
+        },
+        {
+          "id": "D",
+          "text": "a regra de transição não pode impedir a retroatividade de normas penais mais benéficas."
+        },
+        {
+          "id": "E",
+          "text": "o dispositivo só vale para processos civis."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O STF deu interpretação conforme ao art. 90 para preservar a retroatividade das normas penais mais benéficas."
+    },
+    {
+      "id": "u135-a34",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à Lei Maria da Penha, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Lei nº 9.099/1995 sempre se aplica quando a pena máxima é de até 2 anos."
+        },
+        {
+          "id": "B",
+          "text": "a Lei nº 9.099/1995 é afastada nos crimes sujeitos ao regime doméstico, e a Súmula 536 do STJ exclui transação penal e suspensão condicional do processo."
+        },
+        {
+          "id": "C",
+          "text": "somente a composição civil é proibida, mas a transação sempre cabe."
+        },
+        {
+          "id": "D",
+          "text": "a suspensão condicional do processo é obrigatória."
+        },
+        {
+          "id": "E",
+          "text": "o art. 41 da Lei Maria da Penha foi revogado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 41 da Lei Maria da Penha afasta a Lei nº 9.099/1995, e a Súmula 536 do STJ exclui transação e suspensão nos delitos sujeitos ao rito especial."
+    },
+    {
+      "id": "u135-a35",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No âmbito da Justiça Militar, a Lei nº 9.099/1995",
+      "options": [
+        {
+          "id": "A",
+          "text": "aplica-se integralmente."
+        },
+        {
+          "id": "B",
+          "text": "aplica-se apenas à transação penal."
+        },
+        {
+          "id": "C",
+          "text": "aplica-se somente às contravenções."
+        },
+        {
+          "id": "D",
+          "text": "depende apenas da pena máxima."
+        },
+        {
+          "id": "E",
+          "text": "não se aplica, por força do art. 90-A."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 90-A exclui a aplicação das disposições da Lei nº 9.099/1995 no âmbito da Justiça Militar."
+    },
+    {
+      "id": "u135-p01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em adaptação não literal da questão 3 da prova oral Cebraspe para Delegado da Polícia Civil do Ceará de 2025, considere crime de perseguição simples, fora do contexto da Lei Maria da Penha, com pena máxima de 2 anos. À luz da Lei nº 9.099/1995, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não se trata de infração de menor potencial ofensivo."
+        },
+        {
+          "id": "B",
+          "text": "a autoridade deve necessariamente lavrar auto de prisão em flagrante, mesmo com compromisso de comparecimento."
+        },
+        {
+          "id": "C",
+          "text": "o fato se enquadra, em princípio, como infração de menor potencial ofensivo; o fluxo pode envolver termo circunstanciado e, nas condições do art. 69, não se impõe prisão em flagrante nem se exige fiança."
+        },
+        {
+          "id": "D",
+          "text": "a competência é necessariamente do Tribunal do Júri."
+        },
+        {
+          "id": "E",
+          "text": "a Lei nº 9.099/1995 só se aplica a contravenções."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O padrão oficial da prova oral enquadrou a perseguição simples, no cenário descrito e fora da Lei Maria da Penha, como infração de menor potencial ofensivo e indicou termo circunstanciado e a regra do art. 69."
+    }
+  ]
+}
