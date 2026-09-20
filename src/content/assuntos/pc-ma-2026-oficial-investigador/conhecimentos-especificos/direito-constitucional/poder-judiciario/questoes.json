@@ -1,0 +1,726 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u119-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É órgão do Poder Judiciário segundo o art. 92 da Constituição:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Conselho Nacional de Justiça."
+        },
+        {
+          "id": "B",
+          "text": "Tribunal de Contas da União."
+        },
+        {
+          "id": "C",
+          "text": "Conselho Nacional do Ministério Público."
+        },
+        {
+          "id": "D",
+          "text": "Advocacia-Geral da União."
+        },
+        {
+          "id": "E",
+          "text": "Ministério da Justiça."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 92 inclui expressamente o Conselho Nacional de Justiça entre os órgãos do Poder Judiciário."
+    },
+    {
+      "id": "u119-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à sede e à jurisdição nacional, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todos os órgãos do art. 92 têm sede em Brasília e jurisdição nacional."
+        },
+        {
+          "id": "B",
+          "text": "o Supremo Tribunal Federal, o Conselho Nacional de Justiça e os Tribunais Superiores têm sede na Capital Federal, mas a jurisdição nacional é atribuída ao Supremo Tribunal Federal e aos Tribunais Superiores."
+        },
+        {
+          "id": "C",
+          "text": "somente o Supremo Tribunal Federal tem sede na Capital Federal."
+        },
+        {
+          "id": "D",
+          "text": "o Conselho Nacional de Justiça possui jurisdição judicial nacional."
+        },
+        {
+          "id": "E",
+          "text": "os Tribunais Regionais Federais têm jurisdição nacional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 92, §§ 1º e 2º, distingue sede na Capital Federal de jurisdição em todo o território nacional."
+    },
+    {
+      "id": "u119-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O ingresso na carreira da magistratura, no cargo inicial de juiz substituto, exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "concurso apenas de títulos e cinco anos de advocacia."
+        },
+        {
+          "id": "B",
+          "text": "nomeação livre pelo tribunal após lista tríplice."
+        },
+        {
+          "id": "C",
+          "text": "concurso público de provas e títulos, participação da Ordem dos Advogados do Brasil em todas as fases e ao menos três anos de atividade jurídica do bacharel em Direito."
+        },
+        {
+          "id": "D",
+          "text": "concurso de provas, sem participação institucional externa."
+        },
+        {
+          "id": "E",
+          "text": "dois anos de atividade jurídica depois da posse."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 93, I, exige concurso de provas e títulos, participação da OAB, três anos de atividade jurídica e observância da ordem de classificação."
+    },
+    {
+      "id": "u119-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A promoção por merecimento torna-se obrigatória quando o juiz figura em lista de merecimento",
+      "options": [
+        {
+          "id": "A",
+          "text": "duas vezes consecutivas."
+        },
+        {
+          "id": "B",
+          "text": "quatro vezes alternadas."
+        },
+        {
+          "id": "C",
+          "text": "cinco vezes consecutivas apenas."
+        },
+        {
+          "id": "D",
+          "text": "três vezes consecutivas ou cinco alternadas."
+        },
+        {
+          "id": "E",
+          "text": "uma vez, se for o mais antigo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 93, II, a, usa a fórmula três vezes consecutivas ou cinco alternadas."
+    },
+    {
+      "id": "u119-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na promoção por antiguidade, a recusa do juiz mais antigo exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "maioria simples e voto secreto."
+        },
+        {
+          "id": "B",
+          "text": "maioria absoluta, sem motivação."
+        },
+        {
+          "id": "C",
+          "text": "decisão do presidente do tribunal."
+        },
+        {
+          "id": "D",
+          "text": "unanimidade do órgão especial."
+        },
+        {
+          "id": "E",
+          "text": "voto fundamentado de dois terços dos membros, em procedimento próprio e com ampla defesa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 93, II, d, exige dois terços, fundamentação e ampla defesa."
+    },
+    {
+      "id": "u119-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em regra, a promoção por merecimento pressupõe",
+      "options": [
+        {
+          "id": "A",
+          "text": "dois anos de exercício na respectiva entrância e integração da primeira quinta parte da lista de antiguidade, ressalvada a exceção constitucional."
+        },
+        {
+          "id": "B",
+          "text": "cinco anos de entrância e metade superior da lista."
+        },
+        {
+          "id": "C",
+          "text": "apenas avaliação subjetiva do tribunal."
+        },
+        {
+          "id": "D",
+          "text": "um ano na comarca, independentemente da antiguidade."
+        },
+        {
+          "id": "E",
+          "text": "dez anos de carreira."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 93, II, b, combina dois anos na entrância e primeira quinta parte, salvo ausência de candidato que preencha e aceite a vaga."
+    },
+    {
+      "id": "u119-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A atividade jurisdicional, segundo o art. 93,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é suspensa durante os recessos."
+        },
+        {
+          "id": "B",
+          "text": "é ininterrupta, sem férias coletivas nos juízos e tribunais de segundo grau, com plantão nos dias sem expediente normal."
+        },
+        {
+          "id": "C",
+          "text": "é ininterrupta apenas no Supremo Tribunal Federal."
+        },
+        {
+          "id": "D",
+          "text": "depende de autorização anual do tribunal."
+        },
+        {
+          "id": "E",
+          "text": "admite férias coletivas em todo o primeiro grau."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 93, XII, estabelece atividade jurisdicional ininterrupta e plantão permanente nos dias sem expediente normal."
+    },
+    {
+      "id": "u119-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Tribunal com mais de vinte e cinco julgadores pode constituir órgão especial com",
+      "options": [
+        {
+          "id": "A",
+          "text": "sete a onze membros, todos por antiguidade."
+        },
+        {
+          "id": "B",
+          "text": "vinte e cinco membros necessariamente."
+        },
+        {
+          "id": "C",
+          "text": "onze a vinte e cinco membros, metade por antiguidade e metade por eleição do tribunal pleno."
+        },
+        {
+          "id": "D",
+          "text": "membros indicados pelo Conselho Nacional de Justiça."
+        },
+        {
+          "id": "E",
+          "text": "no mínimo trinta e três membros."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 93, XI, fixa entre onze e vinte e cinco membros, metade por antiguidade e metade por eleição do pleno."
+    },
+    {
+      "id": "u119-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A remoção ou disponibilidade de magistrado por interesse público depende de",
+      "options": [
+        {
+          "id": "A",
+          "text": "maioria simples do tribunal, sem defesa."
+        },
+        {
+          "id": "B",
+          "text": "decisão exclusiva do Poder Executivo."
+        },
+        {
+          "id": "C",
+          "text": "dois terços do Congresso Nacional."
+        },
+        {
+          "id": "D",
+          "text": "maioria absoluta do respectivo tribunal ou do Conselho Nacional de Justiça, assegurada ampla defesa."
+        },
+        {
+          "id": "E",
+          "text": "unanimidade do tribunal pleno."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A redação vigente do art. 93, VIII, exige maioria absoluta do tribunal ou do Conselho Nacional de Justiça e ampla defesa."
+    },
+    {
+      "id": "u119-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Emenda Constitucional nº 130/2023, a Constituição passou a disciplinar expressamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a aposentadoria compulsória."
+        },
+        {
+          "id": "B",
+          "text": "a eleição de Ministros do Supremo Tribunal Federal."
+        },
+        {
+          "id": "C",
+          "text": "o número de membros do Conselho Nacional de Justiça."
+        },
+        {
+          "id": "D",
+          "text": "a criação de tribunais militares estaduais."
+        },
+        {
+          "id": "E",
+          "text": "remoção a pedido e permuta de magistrados, inclusive a permuta no mesmo segmento de Justiça nas condições constitucionais."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A EC 130/2023 alterou o art. 93, VIII-A, e incluiu o VIII-B, separando remoção a pedido e permuta."
+    },
+    {
+      "id": "u119-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O quinto constitucional do art. 94 reserva um quinto dos lugares dos tribunais ali indicados a",
+      "options": [
+        {
+          "id": "A",
+          "text": "membros do Ministério Público com mais de dez anos de carreira e advogados com mais de dez anos de efetiva atividade profissional, além dos demais requisitos constitucionais."
+        },
+        {
+          "id": "B",
+          "text": "servidores públicos com cinco anos de carreira."
+        },
+        {
+          "id": "C",
+          "text": "apenas magistrados de carreira."
+        },
+        {
+          "id": "D",
+          "text": "membros do Legislativo indicados em lista tríplice."
+        },
+        {
+          "id": "E",
+          "text": "advogados com três anos de atividade jurídica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 94 reserva um quinto a membros do Ministério Público com mais de dez anos de carreira e a advogados com notório saber, reputação ilibada e mais de dez anos de atividade."
+    },
+    {
+      "id": "u119-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No procedimento do quinto constitucional, a sequência correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "lista tríplice da classe, lista sêxtupla do tribunal e nomeação pelo Senado."
+        },
+        {
+          "id": "B",
+          "text": "lista sêxtupla da classe, lista tríplice do tribunal e escolha de um nome pelo Poder Executivo em até vinte dias."
+        },
+        {
+          "id": "C",
+          "text": "lista sêxtupla do tribunal e eleição popular."
+        },
+        {
+          "id": "D",
+          "text": "lista tríplice do Ministério Público e escolha pelo Conselho Nacional de Justiça."
+        },
+        {
+          "id": "E",
+          "text": "escolha direta pelo tribunal, sem participação do Executivo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único do art. 94 prevê sêxtupla, redução a tríplice pelo tribunal e escolha pelo Executivo nos vinte dias subsequentes."
+    },
+    {
+      "id": "u119-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No primeiro grau, a vitaliciedade do magistrado é adquirida, em regra, após",
+      "options": [
+        {
+          "id": "A",
+          "text": "a posse."
+        },
+        {
+          "id": "B",
+          "text": "um ano de exercício."
+        },
+        {
+          "id": "C",
+          "text": "dois anos de exercício."
+        },
+        {
+          "id": "D",
+          "text": "três anos de exercício."
+        },
+        {
+          "id": "E",
+          "text": "a primeira promoção."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 95, I, fixa dois anos de exercício para aquisição da vitaliciedade no primeiro grau."
+    },
+    {
+      "id": "u119-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as vedações constitucionais aos juízes está",
+      "options": [
+        {
+          "id": "A",
+          "text": "exercer uma atividade de magistério."
+        },
+        {
+          "id": "B",
+          "text": "publicar obra jurídica."
+        },
+        {
+          "id": "C",
+          "text": "participar de curso oficial de formação."
+        },
+        {
+          "id": "D",
+          "text": "dedicar-se à atividade político-partidária."
+        },
+        {
+          "id": "E",
+          "text": "integrar órgão especial do tribunal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 95, parágrafo único, III, veda atividade político-partidária."
+    },
+    {
+      "id": "u119-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Depois da aposentadoria ou exoneração, o magistrado não pode advogar perante o antigo juízo ou tribunal antes de decorridos",
+      "options": [
+        {
+          "id": "A",
+          "text": "seis meses."
+        },
+        {
+          "id": "B",
+          "text": "um ano."
+        },
+        {
+          "id": "C",
+          "text": "dois anos."
+        },
+        {
+          "id": "D",
+          "text": "cinco anos."
+        },
+        {
+          "id": "E",
+          "text": "três anos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 95, parágrafo único, V, fixa quarentena de três anos."
+    },
+    {
+      "id": "u119-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos Tribunais de Justiça com mais de 170 desembargadores em efetivo exercício, a Emenda Constitucional nº 134/2024 prevê eleição dos cargos diretivos",
+      "options": [
+        {
+          "id": "A",
+          "text": "entre os membros do pleno, por maioria absoluta, voto direto e secreto, para mandato de dois anos, vedada mais de uma recondução sucessiva."
+        },
+        {
+          "id": "B",
+          "text": "pelo governador, após aprovação da Assembleia."
+        },
+        {
+          "id": "C",
+          "text": "por maioria simples, para quatro anos."
+        },
+        {
+          "id": "D",
+          "text": "pelo Conselho Nacional de Justiça."
+        },
+        {
+          "id": "E",
+          "text": "por sorteio entre os desembargadores."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a regra especial inserida no parágrafo único do art. 96 pela EC 134/2024."
+    },
+    {
+      "id": "u119-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A reserva de plenário exige, para declaração de inconstitucionalidade de lei ou ato normativo do Poder Público, voto da",
+      "options": [
+        {
+          "id": "A",
+          "text": "maioria simples da turma."
+        },
+        {
+          "id": "B",
+          "text": "maioria absoluta dos membros do tribunal ou do respectivo órgão especial."
+        },
+        {
+          "id": "C",
+          "text": "unanimidade do tribunal."
+        },
+        {
+          "id": "D",
+          "text": "maioria de dois terços do Congresso Nacional."
+        },
+        {
+          "id": "E",
+          "text": "maioria absoluta do Conselho Nacional de Justiça."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 97 exige maioria absoluta do tribunal ou de seu órgão especial."
+    },
+    {
+      "id": "u119-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A justiça de paz é exercida por cidadãos",
+      "options": [
+        {
+          "id": "A",
+          "text": "nomeados vitaliciamente pelo Tribunal de Justiça."
+        },
+        {
+          "id": "B",
+          "text": "escolhidos pelo Conselho Nacional de Justiça."
+        },
+        {
+          "id": "C",
+          "text": "eleitos por voto direto, universal e secreto para mandato de quatro anos, com funções previstas em lei e sem caráter jurisdicional."
+        },
+        {
+          "id": "D",
+          "text": "eleitos para mandato de oito anos, com jurisdição penal."
+        },
+        {
+          "id": "E",
+          "text": "nomeados pelo governador para funções jurisdicionais."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 98, II, prevê eleição por voto direto, universal e secreto, mandato de quatro anos e ausência de caráter jurisdicional."
+    },
+    {
+      "id": "u119-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao Poder Judiciário é assegurada",
+      "options": [
+        {
+          "id": "A",
+          "text": "autonomia tributária plena."
+        },
+        {
+          "id": "B",
+          "text": "autonomia apenas administrativa."
+        },
+        {
+          "id": "C",
+          "text": "autonomia apenas financeira."
+        },
+        {
+          "id": "D",
+          "text": "autonomia administrativa e financeira."
+        },
+        {
+          "id": "E",
+          "text": "autonomia para criar despesas sem limites orçamentários."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O caput do art. 99 assegura autonomia administrativa e financeira."
+    },
+    {
+      "id": "u119-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a proposta orçamentária do Judiciário não for encaminhada no prazo, o Poder Executivo",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode suprimi-la integralmente."
+        },
+        {
+          "id": "B",
+          "text": "deve usar qualquer valor escolhido livremente."
+        },
+        {
+          "id": "C",
+          "text": "deve repetir o orçamento sem ajustes."
+        },
+        {
+          "id": "D",
+          "text": "fica impedido de consolidar a proposta anual."
+        },
+        {
+          "id": "E",
+          "text": "considera os valores aprovados na lei orçamentária vigente, ajustados de acordo com os limites constitucionais."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "É a regra do art. 99, § 3º."
+    },
+    {
+      "id": "u119-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Emenda Constitucional nº 136/2025, os precatórios apresentados até qual data devem ser incluídos no orçamento para pagamento até o fim do exercício seguinte?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1º de fevereiro."
+        },
+        {
+          "id": "B",
+          "text": "1º de julho."
+        },
+        {
+          "id": "C",
+          "text": "31 de agosto."
+        },
+        {
+          "id": "D",
+          "text": "2 de fevereiro."
+        },
+        {
+          "id": "E",
+          "text": "31 de dezembro."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 100, § 5º, na redação da EC 136/2025, usa o marco de 1º de fevereiro."
+    },
+    {
+      "id": "u119-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos pagamentos de pequeno valor devidos pelas Fazendas Públicas em virtude de sentença transitada em julgado, a Constituição estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre seguem o regime de precatório."
+        },
+        {
+          "id": "B",
+          "text": "não se submetem ao regime de precatório, nos limites legais aplicáveis."
+        },
+        {
+          "id": "C",
+          "text": "só podem ser pagos depois de todos os precatórios alimentares."
+        },
+        {
+          "id": "D",
+          "text": "dependem de autorização do Senado Federal."
+        },
+        {
+          "id": "E",
+          "text": "podem ser criados sem limite mínimo constitucional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 100, §§ 3º e 4º, exclui as obrigações de pequeno valor do regime de precatório e disciplina a fixação dos limites."
+    },
+    {
+      "id": "u119-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A superpreferência do art. 100, § 2º, alcança, até o limite constitucional, débitos alimentares de titulares que",
+      "options": [
+        {
+          "id": "A",
+          "text": "sejam apenas servidores efetivos."
+        },
+        {
+          "id": "B",
+          "text": "tenham somente mais de setenta e cinco anos."
+        },
+        {
+          "id": "C",
+          "text": "tenham sessenta anos ou mais, doença grave ou deficiência definida na forma da lei."
+        },
+        {
+          "id": "D",
+          "text": "tenham qualquer precatório, mesmo não alimentar."
+        },
+        {
+          "id": "E",
+          "text": "tenham cedido o crédito a terceiro."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O § 2º concede preferência qualificada aos débitos alimentares nas condições indicadas, até o triplo do limite de obrigação de pequeno valor."
+    },
+    {
+      "id": "u119-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos limites criados pela Emenda Constitucional nº 136/2025 para pagamentos de precatórios por Estados, Distrito Federal e Municípios, os percentuais anuais variam, conforme a relação entre estoque em mora e receita corrente líquida, de",
+      "options": [
+        {
+          "id": "A",
+          "text": "0,1% a 1%."
+        },
+        {
+          "id": "B",
+          "text": "0,5% a 2%."
+        },
+        {
+          "id": "C",
+          "text": "2% a 10%."
+        },
+        {
+          "id": "D",
+          "text": "1% a 5%."
+        },
+        {
+          "id": "E",
+          "text": "5% a 15%."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 100, § 23, estabelece faixas de 1% a 5% da receita corrente líquida conforme o tamanho relativo do estoque em mora."
+    }
+  ]
+}
