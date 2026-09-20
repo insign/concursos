@@ -217,7 +217,7 @@ Revisão:
 
 ## Texto desatualizado que cai em armadilha
 
-O PDF hospedado pela própria Polícia Civil ainda mostra o artigo 153 antigo sobre medalha.
+O arquivo institucional hospedado pela própria Polícia Civil ainda mostra o artigo 153 antigo sobre medalha.
 
 Lei 8.867/2008 → artigo 153 atual virou disposição transitória sobre motoristas e operadores de rádio.
 
