@@ -22,7 +22,7 @@ Essa ordem evita o erro mais comum do tema:
 
 > **responsabilidade objetiva dispensa prova de culpa, mas não dispensa dano nem nexo causal.**
 
-O edital da PC-MA inclui responsabilidade civil do Estado no item 9 de Direito Administrativo. A U106 tratou do controle da Administração; esta unidade cuida apenas do regime indenizatório estatal. O corte legislativo é **13 de julho de 2026**.
+O edital da Polícia Civil do Maranhão inclui responsabilidade civil do Estado no item 9 de Direito Administrativo. A U106 tratou do controle da Administração; esta unidade cuida apenas do regime indenizatório estatal. O corte legislativo é **13 de julho de 2026**.
 
 ---
 
