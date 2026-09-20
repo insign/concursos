@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U120; PC-E12 permanece concluído e PC-E13 segue em execução; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U121; PC-E12 permanece concluído e PC-E13 segue em execução; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 38 | 0 | 120 |
-| Entregáveis de unidade C/H/Q | 474 | 114 | 0 | 360 |
+| Unidades reais previstas | 158 | 37 | 0 | 121 |
+| Entregáveis de unidade C/H/Q | 474 | 111 | 0 | 363 |
 | Tarefas macro individualizadas | 62 | 26 | 0 | 36 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U120` e `U144` = **120 unidades**. Pendentes: `U075`, `U121–U143`, `U145–U158` = **38 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U121` e `U144` = **121 unidades**. Pendentes: `U075`, `U122–U143`, `U145–U158` = **37 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **122 = 105 físicas locais + 17 vínculos canônicos**. U120 acrescentou uma visão física local; o `grupo.json` de Direito Constitucional permanece estrutural e não é visão nem unidade. Não confundir 122 visões materializadas com 120 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **123 = 106 físicas locais + 17 vínculos canônicos**. U121 acrescentou uma visão física local; o `grupo.json` de Direito Constitucional permanece estrutural e não é visão nem unidade. Não confundir 123 visões materializadas com 121 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
 Reservas ativas na transferência: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U121 — Defesa do Estado e das instituições democráticas — segurança pública**, C/H/Q `pending`. U120 foi concluída; PC-E13-C/H/Q permanece `pending` como macro enquanto U121–U122 não forem concluídas.
+**Próxima ação editorial: U122 — Ordem social — seguridade social, meio ambiente, família e grupos protegidos**, C/H/Q `pending`. U121 foi concluída; PC-E13-C/H/Q permanece `pending` como macro enquanto U122 não for concluída.
 
 ### Pendências e divergências herdadas
 
@@ -425,10 +425,10 @@ A classificação PC-R02 permanece autoritativa: **U112–U122 são novas/locais
 | 8; 8.1–8.2 | U118 — Poder Legislativo — estrutura, funcionamento e atribuições — `poder-legislativo` | Estrutura, funcionamento e atribuições. Processo legislativo, fiscalização contábil/financeira/orçamentária e comissões parlamentares de inquérito não são importados automaticamente do doador quando excederem o item PC | nova/local; apoio físico TCE Geral `poder-legislativo/` auditado, árvore `8b358ec43917b9f6781025fc8d989aa570bbfc1a`; recorte concentrado nos arts. 44–58, com CPI apenas no núcleo literal; snapshot `1f81b6c035c1f6d7bd175fd2c33dd9a9fcc57d6b` | done | done | done |
 | 9; 9.1 | U119 — Poder Judiciário — disposições gerais — `poder-judiciario` | Somente disposições gerais necessárias ao item 9.1. Órgãos, competências específicas e Conselho Nacional de Justiça do pacote TCE são fronteira, não cobertura automática | nova/local; apoio físico TCE Geral `poder-judiciario/` auditado, árvore `7610d95da2f769f40db18019a6b08df97491df8d`; recorte concentrado nos arts. 92–100, com EC 130/2023, EC 134/2024 e EC 136/2025 revalidadas; snapshot `401c841cbfdc2e14a4ad5c31a0ec38e4f7e93fda` | done | done | done |
 | 10 | U120 — Funções essenciais à Justiça — Advocacia, Ministério Público, Advocacia Pública e Defensoria Pública — `funcoes-essenciais-justica` | Preservar **Advocacia** como item literal além de Ministério Público, Advocacia Pública e Defensoria Pública. Não tratar essas funções como integrantes do Poder Judiciário | nova/local; apoio físico TCE Geral `funcoes-essenciais-justica/` auditado, árvore `15b3fdda3f3a7a8c60c3e18743f26aee1920dd44`; arts. 127–135 revalidados, Advocacia do art. 133 incorporada como núcleo próprio; snapshot `feecaac55f1e9ab1bb94fdb4aedca87f0238c98c` | done | done | done |
-| 11; 11.1–11.2 | U121 — Defesa do Estado e das instituições democráticas — segurança pública — `defesa-estado-seguranca-publica` | Defesa do Estado e das instituições democráticas; segurança pública e sua organização. Fazer ponte com U111 somente para a Polícia Civil, sem transformar a Lei 14.735/2023 em substituto do art. 144 e dos demais órgãos constitucionais | Nenhum pacote físico/canônico integral identificado; produzir com fontes primárias | pending | pending | pending |
+| 11; 11.1–11.2 | U121 — Defesa do Estado e das instituições democráticas — segurança pública — `defesa-estado-seguranca-publica` | Defesa do Estado e das instituições democráticas; segurança pública e sua organização. Fazer ponte com U111 somente para a Polícia Civil, sem transformar a Lei 14.735/2023 em substituto do art. 144 e dos demais órgãos constitucionais | nova/local; sem doador integral; Constituição arts. 136–144 e fontes primárias revalidadas; ponte seletiva U111 somente para Polícia Civil; STF ADI 6.457, Tema 656 e ADPF 1.214 auditados; snapshot `8424c7feca7d7a23fb86510d5d10b9f143fe812a` | done | done | done |
 | 12; 12.1–12.4 | U122 — Ordem social — seguridade social, meio ambiente, família e grupos protegidos — `ordem-social-seguridade-meio-ambiente-familia` | Base e objetivos da ordem social; seguridade social; meio ambiente; família, criança, adolescente, idoso e indígena. Não antecipar legislação infraconstitucional específica sem necessidade | TCE Noções: `constituicao-federal-artigos-23-170-225-231/`, árvore `ccac1f14f63196bea99f23270328fe12e9462d5a`; apoio somente para art. 225 e art. 231, com demais núcleos ausentes | pending | pending | pending |
 
-**Ordem habilitada:** U121 é a primeira unidade pendente de PC-E13. U112–U120 estão publicadas; seguir U121–U122, salvo dependência material comprovada ou pedido explícito.
+**Ordem habilitada:** U122 é a primeira unidade pendente de PC-E13. U112–U121 estão publicadas; seguir U122, salvo dependência material comprovada ou pedido explícito.
 
 **Controle de corte e fontes primárias:** a produção usará a [Constituição Federal compilada](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) no estado aplicável ao corte legislativo de **13/7/2026**. A consulta de planejamento em 20/09/2026 confirmou a [Emenda Constitucional nº 139, de 5/5/2026](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc139.htm), publicada em 6/5/2026, como alteração constitucional anterior ao corte a ser considerada quando material ao recorte; ela alterou o § 1º do art. 31 e o art. 75. Em U115, a [Lei Complementar nº 230, de 15/4/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp230.htm), publicada em 16/4/2026, deve ser auditada na aplicação do art. 18, § 4º, sem expandir o capítulo além do edital. Jurisprudência seguirá a regra temporal registrada na seção 3, sem converter o corte legislativo em corte jurisprudencial por inferência.
 
@@ -505,6 +505,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U118 | `1f81b6c035c1f6d7bd175fd2c33dd9a9fcc57d6b` | 21 + 1 | Cebraspe Câmara dos Deputados 2026, Analista Legislativo — Processo Legislativo e Gestão, item 103, gabarito definitivo E |
 | U119 | `401c841cbfdc2e14a4ad5c31a0ec38e4f7e93fda` | 24 + 0 | Nenhuma anterior forçada; doador só trazia autorais no recorte e candidatos externos inadequados/anulados foram descartados |
 | U120 | `feecaac55f1e9ab1bb94fdb4aedca87f0238c98c` | 24 + 1 | CESPE/UnB TRT 8ª Região 2013, Cargo 11, questão 9, gabarito definitivo D; adaptação não literal do núcleo do art. 133 |
+| U121 | `8424c7feca7d7a23fb86510d5d10b9f143fe812a` | 24 + 2 | Cebraspe PC-ES Delegado 2022, questão 47, gabarito definitivo A; Cebraspe PC-AL Escrivão 2021, item 74, gabarito definitivo C; item 75 anulado e excluído |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -574,24 +575,25 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U118 | `397289a603b56705664660fd5a508a9adf60dd12` | `040464040aefa6b21156176db044c03eefa3cc05` | `1fad5a4795da333d2b137cac848ba295d72495e7` | `589c3db9d0bb76d4f64441d48304dd9b04df1f8a` |
 | U119 | `574ea42a9f759fdf8973d96218c7bc80656f60d0` | `8c552ee8e607b52efab4f60ded4ce93ef6bb843a` | `9462c47e3ca0a819880b1d77c13146ba46656e3e` | `82884da01c91e33091c600fada7924606e6ff7be` |
 | U120 | `9e18a57b6002ec1c83a64e76c036c0b5b3de269b` | `3ad993c85f534f8dfa939b820bbb3dc3c7261d4b` | `b1eb9f095341b6a68a50b37c08ae99a648e26001` | `3c6160f3a892a916cd3098e22c585144acfb7bd7` |
+| U121 | `4695e1c104a6a83315627085cd3ddae31a5435bf` | `dd33e3da676c663c258cc1707a02c53766510fbe` | `7e37028f0d0cf28ef6b9195688308281a8be7598` | `f3eff3d142c146b096be0e3009d4b255aa63e36c` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`.
 
-### Último aceite — U120
+### Último aceite — U121
 
-Pacote de Funções essenciais à Justiça — Advocacia, Ministério Público, Advocacia Pública e Defensoria Pública: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u120`, `order: 120`. Snapshot editorial final `feecaac55f1e9ab1bb94fdb4aedca87f0238c98c`; base de publicação `86fc3a1f3bddb9cc130f95de88a7f0d6da7fe2d0`. A comparação base→snapshot confirma **exatamente quatro arquivos da U120**, sem alterações laterais: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
+Pacote de Defesa do Estado e das instituições democráticas — segurança pública: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u121`, `order: 121`. Snapshot editorial final `8424c7feca7d7a23fb86510d5d10b9f143fe812a`; base de publicação `0468e8efc016b9eeaf056bac175fdb32929a625a`. A comparação base→snapshot confirma **exatamente quatro arquivos da U121**, sem alterações laterais: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
 
-A unidade permanece **nova/local**, sem `vinculo.json`. O apoio físico do TCE-MA `conhecimentos-gerais/direito-constitucional/funcoes-essenciais-justica/` (árvore `15b3fdda3f3a7a8c60c3e18743f26aee1920dd44`) foi auditado integralmente. O doador cobria Ministério Público, Advocacia Pública e Defensoria com profundidade, mas tratava o artigo 133 principalmente como fronteira. Como o item 10 da PC enumera **Advocacia** expressamente, U120 incorporou o artigo 133 como núcleo próprio, distinguindo Advocacia, Advocacia Pública, Ministério Público e Defensoria sem tratá-los como Poder Judiciário.
+A unidade permanece **nova/local**, sem `vinculo.json` e sem doador físico/canônico integral. U111 foi auditada somente como ponte para a Polícia Civil: a Lei 14.735/2023 complementa o regime constitucional das polícias civis, mas não substitui o artigo 144 nem as competências dos demais órgãos de segurança pública.
 
-Foram publicadas **25 questões — 24 autorais + 1 adaptação não literal verificada**. A anterior deriva da questão 9 do CESPE/UnB, Tribunal Regional do Trabalho da 8ª Região, 2013, Cargo 11 — Técnico Judiciário, Área Administrativa, com gabarito oficial definitivo D. A adaptação preserva apenas o núcleo constitucional atual do artigo 133 e não reproduz o enunciado original.
+Foram publicadas **26 questões — 24 autorais + 2 adaptações não literais verificadas**. A primeira deriva da questão 47 da prova Cebraspe PC-ES — Delegado de Polícia, aplicação de 11/9/2022, gabarito definitivo A, sobre o controle congressual do estado de defesa. A segunda deriva do item 74 da prova Cebraspe PC-AL — Escrivão de Polícia, 2021, gabarito definitivo C, sobre direção e subordinação constitucional das polícias civis. O item 75 da mesma prova foi anulado e foi expressamente descartado.
 
-Recorte coberto: missão, princípios, autonomia, estrutura, chefias, garantias, vedações, ingresso e funções institucionais do Ministério Público; Ministério Público junto aos Tribunais de Contas; composição e competências essenciais do Conselho Nacional do Ministério Público; Advocacia-Geral da União, Advogado-Geral da União, dívida ativa tributária e Procuradores dos Estados/Distrito Federal; Advocacia do artigo 133; missão, carreira, autonomia e princípios da Defensoria Pública; e literalidade do artigo 135 após a reorganização das Seções pela Emenda Constitucional nº 80/2014, sem transformar advocacia privada em carreira pública por inferência.
+Recorte coberto: estado de defesa e estado de sítio, seus pressupostos, procedimentos, medidas, prazos, controles e encerramento; Forças Armadas e serviço militar; ausência de poder moderador no artigo 142 segundo a ADI 6.457; segurança pública do artigo 144, com todos os órgãos e competências constitucionais; subordinação aos Governadores; organização sistêmica; guardas municipais no texto constitucional e na jurisprudência atual do Tema 656 e da ADPF 1.214; remuneração por subsídio; e segurança viária.
 
-Fontes revalidadas: Constituição Federal compilada, artigos 127–135; Emendas Constitucionais nº 45/2004, nº 74/2013 e nº 80/2014; Emenda Constitucional nº 139/2026 como controle temporal sem alteração do recorte; caderno e gabarito definitivo CESPE/UnB TRT 8ª Região 2013. O corte legislativo permanece em **13/7/2026**.
+Fontes revalidadas: Constituição Federal compilada, artigos 136–144; Emendas Constitucionais nº 18/1998, nº 77/2014, nº 82/2014 e nº 104/2019; Emenda Constitucional nº 139/2026 como controle temporal sem alteração do Título V; Lei Complementar 97/1999; Lei 13.675/2018; Lei 14.735/2023 apenas como ponte; e fontes oficiais do Supremo Tribunal Federal para ADI 6.457, Tema 656 e ADPF 1.214. O corte legislativo permanece em **13/7/2026**. A jurisprudência foi consultada em 20/9/2026 e permanece sujeita à validação temporal final de PC-F03 conforme a regra própria do edital.
 
-Densidade: o texto visível local ficou em aproximadamente **18,3 mil caracteres**, contra **20,8 mil** do doador, redução de cerca de 12%, apesar da inclusão integral da lacuna de Advocacia. Siglas institucionais foram evitadas no texto didático por escrita por extenso; não restaram siglas renderizadas que exigissem `abbr`, e o JSON permanece em texto puro. Não foram criadas resoluções separadas, pois as explicações das questões são suficientes.
+Microglossário: três marcações `abbr` no conteúdo estão balanceadas; a inspeção residual dos artefatos didáticos encontrou somente algarismos romanos e identificadores administrativos fora da aula. O JSON permanece em texto puro. Não foram criadas resoluções separadas, pois as explicações das questões são suficientes.
 
-Próxima unidade habilitada: U121 — Defesa do Estado e das instituições democráticas — segurança pública.
+Próxima unidade habilitada: U122 — Ordem social — seguridade social, meio ambiente, família e grupos protegidos.
 
 ### Registros operacionais superados
 
