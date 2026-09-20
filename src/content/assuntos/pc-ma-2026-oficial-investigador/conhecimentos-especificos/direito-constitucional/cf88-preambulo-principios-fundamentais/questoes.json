@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u113-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Supremo Tribunal Federal, o preâmbulo da Constituição Federal de 1988",
+      "options": [
+        {
+          "id": "A",
+          "text": "possui força normativa autônoma equivalente à dos artigos constitucionais."
+        },
+        {
+          "id": "B",
+          "text": "deve ser reproduzido integralmente pelas constituições estaduais."
+        },
+        {
+          "id": "C",
+          "text": "não constitui norma central de reprodução obrigatória e não possui força normativa autônoma."
+        },
+        {
+          "id": "D",
+          "text": "é fonte exclusiva dos direitos fundamentais."
+        },
+        {
+          "id": "E",
+          "text": "integra o artigo 1º da Constituição."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na Ação Direta de Inconstitucionalidade 2.076, o Supremo Tribunal Federal assentou que o preâmbulo não é norma central de reprodução obrigatória e que a invocação à proteção de Deus não possui força normativa."
+    },
+    {
+      "id": "u113-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A República Federativa do Brasil constitui-se, nos termos do artigo 1º, em",
+      "options": [
+        {
+          "id": "A",
+          "text": "Estado Social de Direito."
+        },
+        {
+          "id": "B",
+          "text": "Estado Democrático de Direito."
+        },
+        {
+          "id": "C",
+          "text": "Estado unitário descentralizado."
+        },
+        {
+          "id": "D",
+          "text": "Confederação democrática."
+        },
+        {
+          "id": "E",
+          "text": "Estado parlamentar federativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O caput do artigo 1º afirma expressamente que a República Federativa do Brasil constitui-se em Estado Democrático de Direito."
+    },
+    {
+      "id": "u113-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É fundamento da República Federativa do Brasil",
+      "options": [
+        {
+          "id": "A",
+          "text": "independência nacional."
+        },
+        {
+          "id": "B",
+          "text": "defesa da paz."
+        },
+        {
+          "id": "C",
+          "text": "dignidade da pessoa humana."
+        },
+        {
+          "id": "D",
+          "text": "desenvolvimento nacional."
+        },
+        {
+          "id": "E",
+          "text": "cooperação entre os povos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Dignidade da pessoa humana é fundamento do artigo 1º. As demais opções pertencem ao artigo 3º ou ao artigo 4º."
+    },
+    {
+      "id": "u113-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A expressão constitucional correta do artigo 1º, inciso IV, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "valores sociais do trabalho e da livre iniciativa."
+        },
+        {
+          "id": "B",
+          "text": "valores sociais do trabalho e da livre concorrência."
+        },
+        {
+          "id": "C",
+          "text": "livre iniciativa e livre concorrência."
+        },
+        {
+          "id": "D",
+          "text": "trabalho, propriedade e concorrência."
+        },
+        {
+          "id": "E",
+          "text": "trabalho digno e função social da propriedade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 1º, inciso IV, reúne os valores sociais do trabalho e da livre iniciativa."
+    },
+    {
+      "id": "u113-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Pluralismo político, para fins do artigo 1º da Constituição,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é princípio das relações internacionais."
+        },
+        {
+          "id": "B",
+          "text": "é fundamento da República e não se confunde integralmente com pluripartidarismo."
+        },
+        {
+          "id": "C",
+          "text": "é objetivo fundamental do artigo 3º."
+        },
+        {
+          "id": "D",
+          "text": "é sinônimo de asilo político."
+        },
+        {
+          "id": "E",
+          "text": "integra o preâmbulo, mas não o texto normativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pluralismo político é fundamento do artigo 1º e possui alcance mais amplo que a simples existência de múltiplos partidos."
+    },
+    {
+      "id": "u113-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O parágrafo único do artigo 1º estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o poder emana dos representantes eleitos."
+        },
+        {
+          "id": "B",
+          "text": "todo poder emana do povo, que o exerce por representantes eleitos ou diretamente, nos termos da Constituição."
+        },
+        {
+          "id": "C",
+          "text": "somente o Poder Legislativo representa a soberania popular."
+        },
+        {
+          "id": "D",
+          "text": "o exercício direto do poder popular é incompatível com a Constituição."
+        },
+        {
+          "id": "E",
+          "text": "o povo exerce o poder apenas por plebiscito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A titularidade do poder é do povo; seu exercício pode ocorrer de modo representativo ou direto, conforme a Constituição."
+    },
+    {
+      "id": "u113-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos termos do artigo 2º, os Poderes da União são",
+      "options": [
+        {
+          "id": "A",
+          "text": "Legislativo, Executivo, Judiciário e Ministério Público."
+        },
+        {
+          "id": "B",
+          "text": "Legislativo, Executivo e Judiciário, independentes e harmônicos entre si."
+        },
+        {
+          "id": "C",
+          "text": "Executivo, Judiciário e Tribunal de Contas."
+        },
+        {
+          "id": "D",
+          "text": "Legislativo, Ministério Público e Defensoria Pública."
+        },
+        {
+          "id": "E",
+          "text": "Executivo, Judiciário e Conselho Nacional de Justiça."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 2º enumera Legislativo, Executivo e Judiciário como Poderes da União, independentes e harmônicos entre si."
+    },
+    {
+      "id": "u113-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A independência entre os Poderes significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não existem controles constitucionais recíprocos."
+        },
+        {
+          "id": "B",
+          "text": "cada Poder possui competências próprias e não há subordinação hierárquica geral entre eles."
+        },
+        {
+          "id": "C",
+          "text": "cada Poder é soberano perante a Constituição."
+        },
+        {
+          "id": "D",
+          "text": "o Judiciário pode substituir livremente qualquer decisão dos demais Poderes."
+        },
+        {
+          "id": "E",
+          "text": "Legislativo e Executivo não podem cooperar institucionalmente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Independência afasta hierarquia geral, mas a harmonia constitucional admite interações e controles recíprocos previstos pela própria Constituição."
+    },
+    {
+      "id": "u113-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Constitui objetivo fundamental da República Federativa do Brasil",
+      "options": [
+        {
+          "id": "A",
+          "text": "soberania."
+        },
+        {
+          "id": "B",
+          "text": "prevalência dos direitos humanos."
+        },
+        {
+          "id": "C",
+          "text": "garantir o desenvolvimento nacional."
+        },
+        {
+          "id": "D",
+          "text": "concessão de asilo político."
+        },
+        {
+          "id": "E",
+          "text": "pluralismo político."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Garantir o desenvolvimento nacional é objetivo do artigo 3º. Soberania e pluralismo são fundamentos; prevalência dos direitos humanos e asilo político pertencem ao artigo 4º."
+    },
+    {
+      "id": "u113-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A redação correta do artigo 3º, inciso III, associa",
+      "options": [
+        {
+          "id": "A",
+          "text": "redução da pobreza e erradicação das desigualdades."
+        },
+        {
+          "id": "B",
+          "text": "erradicação da pobreza e marginalização e redução das desigualdades sociais e regionais."
+        },
+        {
+          "id": "C",
+          "text": "erradicação da pobreza e das desigualdades regionais."
+        },
+        {
+          "id": "D",
+          "text": "redução da marginalização e eliminação das diferenças sociais."
+        },
+        {
+          "id": "E",
+          "text": "erradicação de toda desigualdade econômica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Constituição usa 'erradicar' para pobreza e marginalização e 'reduzir' para desigualdades sociais e regionais."
+    },
+    {
+      "id": "u113-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O objetivo de promover o bem de todos, previsto no artigo 3º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "proíbe apenas discriminações fundadas nas categorias expressamente listadas."
+        },
+        {
+          "id": "B",
+          "text": "inclui cláusula aberta contra quaisquer outras formas de discriminação."
+        },
+        {
+          "id": "C",
+          "text": "é princípio das relações internacionais."
+        },
+        {
+          "id": "D",
+          "text": "é fundamento da República."
+        },
+        {
+          "id": "E",
+          "text": "não menciona preconceito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O inciso IV menciona origem, raça, sexo, cor e idade e conclui com 'quaisquer outras formas de discriminação', mostrando abertura da enumeração."
+    },
+    {
+      "id": "u113-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A prevalência dos direitos humanos está constitucionalmente localizada como",
+      "options": [
+        {
+          "id": "A",
+          "text": "fundamento da República."
+        },
+        {
+          "id": "B",
+          "text": "objetivo fundamental."
+        },
+        {
+          "id": "C",
+          "text": "princípio das relações internacionais."
+        },
+        {
+          "id": "D",
+          "text": "regra do preâmbulo sem força normativa."
+        },
+        {
+          "id": "E",
+          "text": "competência privativa do Congresso Nacional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A prevalência dos direitos humanos é princípio do artigo 4º, inciso II."
+    },
+    {
+      "id": "u113-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A independência nacional e a soberania ocupam, respectivamente, as categorias de",
+      "options": [
+        {
+          "id": "A",
+          "text": "fundamento e objetivo."
+        },
+        {
+          "id": "B",
+          "text": "princípio internacional e fundamento."
+        },
+        {
+          "id": "C",
+          "text": "objetivo e princípio internacional."
+        },
+        {
+          "id": "D",
+          "text": "fundamento e fundamento."
+        },
+        {
+          "id": "E",
+          "text": "princípio internacional e objetivo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Independência nacional está no artigo 4º; soberania está no artigo 1º."
+    },
+    {
+      "id": "u113-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "São princípios das relações internacionais previstos no artigo 4º",
+      "options": [
+        {
+          "id": "A",
+          "text": "defesa da paz e solução pacífica dos conflitos."
+        },
+        {
+          "id": "B",
+          "text": "cidadania e pluralismo político."
+        },
+        {
+          "id": "C",
+          "text": "desenvolvimento nacional e livre iniciativa."
+        },
+        {
+          "id": "D",
+          "text": "dignidade e solidariedade."
+        },
+        {
+          "id": "E",
+          "text": "soberania e redução das desigualdades."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Defesa da paz e solução pacífica dos conflitos são princípios expressos do artigo 4º."
+    },
+    {
+      "id": "u113-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 4º determina repúdio constitucional",
+      "options": [
+        {
+          "id": "A",
+          "text": "à pobreza e à marginalização."
+        },
+        {
+          "id": "B",
+          "text": "ao terrorismo e ao racismo."
+        },
+        {
+          "id": "C",
+          "text": "à desigualdade regional e à intolerância religiosa."
+        },
+        {
+          "id": "D",
+          "text": "à intervenção e ao asilo político."
+        },
+        {
+          "id": "E",
+          "text": "à livre iniciativa e ao pluralismo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O inciso VIII do artigo 4º prevê repúdio ao terrorismo e ao racismo."
+    },
+    {
+      "id": "u113-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A cooperação entre os povos, no artigo 4º, visa",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao desenvolvimento nacional."
+        },
+        {
+          "id": "B",
+          "text": "ao progresso da humanidade."
+        },
+        {
+          "id": "C",
+          "text": "à erradicação das desigualdades regionais brasileiras."
+        },
+        {
+          "id": "D",
+          "text": "à formação de um Estado mundial."
+        },
+        {
+          "id": "E",
+          "text": "à substituição da soberania nacional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A fórmula constitucional é cooperação entre os povos para o progresso da humanidade."
+    },
+    {
+      "id": "u113-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O parágrafo único do artigo 4º orienta o Brasil a buscar",
+      "options": [
+        {
+          "id": "A",
+          "text": "integração exclusivamente econômica dos países sul-americanos."
+        },
+        {
+          "id": "B",
+          "text": "integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."
+        },
+        {
+          "id": "C",
+          "text": "formação imediata de federação latino-americana."
+        },
+        {
+          "id": "D",
+          "text": "integração militar obrigatória dos Estados americanos."
+        },
+        {
+          "id": "E",
+          "text": "unificação monetária da América Latina."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Essa é a literalidade essencial do parágrafo único do artigo 4º."
+    },
+    {
+      "id": "u113-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito de dignidade da pessoa humana e direitos humanos, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "são expressões que ocupam exatamente a mesma posição no texto constitucional."
+        },
+        {
+          "id": "B",
+          "text": "a dignidade é fundamento da República, enquanto a prevalência dos direitos humanos é princípio das relações internacionais."
+        },
+        {
+          "id": "C",
+          "text": "a dignidade integra apenas o preâmbulo."
+        },
+        {
+          "id": "D",
+          "text": "direitos humanos aparecem apenas no Título II."
+        },
+        {
+          "id": "E",
+          "text": "a prevalência dos direitos humanos é objetivo fundamental do artigo 3º."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 1º, inciso III, prevê a dignidade como fundamento; o artigo 4º, inciso II, prevê a prevalência dos direitos humanos como princípio internacional."
+    },
+    {
+      "id": "u113-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em linguagem didática, a distinção entre direitos humanos e direitos fundamentais pode ser corretamente apresentada como",
+      "options": [
+        {
+          "id": "A",
+          "text": "separação absoluta, sem qualquer interseção."
+        },
+        {
+          "id": "B",
+          "text": "direitos humanos como expressão frequentemente usada no plano internacional e direitos fundamentais como direitos reconhecidos na ordem constitucional interna, sem tratar a distinção como absoluta."
+        },
+        {
+          "id": "C",
+          "text": "direitos humanos como direitos sem proteção jurídica e direitos fundamentais como direitos judiciais."
+        },
+        {
+          "id": "D",
+          "text": "direitos fundamentais como normas internacionais e direitos humanos como normas estaduais."
+        },
+        {
+          "id": "E",
+          "text": "sinônimos perfeitos em qualquer contexto jurídico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A distinção é útil didaticamente, mas não deve ser transformada em barreira conceitual absoluta."
+    },
+    {
+      "id": "u113-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 78 da prova Cebraspe para Defensor Público Substituto da Defensoria Pública do Estado de Sergipe, aplicada em 13/3/2022, a proibição constitucional de discriminação por orientação sexual encontra amparo, entre outros fundamentos constitucionais, na",
+      "options": [
+        {
+          "id": "A",
+          "text": "independência nacional."
+        },
+        {
+          "id": "B",
+          "text": "dignidade da pessoa humana."
+        },
+        {
+          "id": "C",
+          "text": "concessão de asilo político."
+        },
+        {
+          "id": "D",
+          "text": "soberania."
+        },
+        {
+          "id": "E",
+          "text": "defesa da paz."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O gabarito oficial definitivo da questão original é B. A adaptação preserva o núcleo constitucional: a dignidade da pessoa humana é fundamento da República e serve de parâmetro de proteção contra discriminações. A redação foi alterada sem reprodução literal."
+    }
+  ]
+}
