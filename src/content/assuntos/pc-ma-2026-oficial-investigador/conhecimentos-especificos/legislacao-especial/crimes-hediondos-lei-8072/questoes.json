@@ -1,0 +1,1146 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u132-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A classificação de um crime como hediondo depende",
+      "options": [
+        {
+          "id": "A",
+          "text": "de previsão legal."
+        },
+        {
+          "id": "B",
+          "text": "apenas da gravidade concreta reconhecida pelo juiz."
+        },
+        {
+          "id": "C",
+          "text": "da repercussão social do fato."
+        },
+        {
+          "id": "D",
+          "text": "do valor da pena aplicada."
+        },
+        {
+          "id": "E",
+          "text": "de pedido do Ministério Público."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 8.072/1990 define taxativamente as hipóteses de hediondez; gravidade social não cria nova categoria."
+    },
+    {
+      "id": "u132-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao homicídio, é hediondo",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo homicídio simples."
+        },
+        {
+          "id": "B",
+          "text": "o homicídio praticado em atividade típica de grupo de extermínio, ainda que por um agente, e o homicídio qualificado."
+        },
+        {
+          "id": "C",
+          "text": "somente o homicídio culposo."
+        },
+        {
+          "id": "D",
+          "text": "apenas o homicídio privilegiado."
+        },
+        {
+          "id": "E",
+          "text": "todo homicídio tentado ou culposo indistintamente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 1º inclui essas hipóteses específicas, não todo homicídio."
+    },
+    {
+      "id": "u132-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O feminicídio, após a Lei nº 14.994/2024,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é crime autônomo e integra o rol de hediondos."
+        },
+        {
+          "id": "B",
+          "text": "deixou de ser crime hediondo."
+        },
+        {
+          "id": "C",
+          "text": "é apenas qualificadora administrativa."
+        },
+        {
+          "id": "D",
+          "text": "só é hediondo quando tentado."
+        },
+        {
+          "id": "E",
+          "text": "depende de decisão judicial específica para ser hediondo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A reforma de 2024 criou o artigo 121-A e incluiu expressamente o feminicídio no rol."
+    },
+    {
+      "id": "u132-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O vicaricídio criado em 2026",
+      "options": [
+        {
+          "id": "A",
+          "text": "já integrava o rol dos hediondos em 13/7/2026."
+        },
+        {
+          "id": "B",
+          "text": "só entrou no rol depois de agosto de 2026."
+        },
+        {
+          "id": "C",
+          "text": "não é crime autônomo."
+        },
+        {
+          "id": "D",
+          "text": "é apenas forma de lesão corporal."
+        },
+        {
+          "id": "E",
+          "text": "é contravenção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 15.384/2026 criou o tipo e o inseriu no rol antes do corte."
+    },
+    {
+      "id": "u132-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as modalidades de roubo classificadas como hediondas está",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo roubo simples."
+        },
+        {
+          "id": "B",
+          "text": "roubo circunstanciado pela restrição da liberdade da vítima."
+        },
+        {
+          "id": "C",
+          "text": "qualquer roubo praticado por duas pessoas."
+        },
+        {
+          "id": "D",
+          "text": "roubo com concurso de agentes, em qualquer hipótese."
+        },
+        {
+          "id": "E",
+          "text": "qualquer roubo tentado sem circunstância legal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A restrição da liberdade é uma das hipóteses expressas do artigo 1º, II."
+    },
+    {
+      "id": "u132-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Também é hediondo o roubo",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualificado pelo resultado lesão corporal grave ou morte."
+        },
+        {
+          "id": "B",
+          "text": "simples, sem circunstância alguma."
+        },
+        {
+          "id": "C",
+          "text": "apenas quando houver prejuízo elevado."
+        },
+        {
+          "id": "D",
+          "text": "somente se praticado à noite."
+        },
+        {
+          "id": "E",
+          "text": "somente se houver reincidência."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O resultado lesão grave ou morte integra expressamente o rol."
+    },
+    {
+      "id": "u132-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A extorsão comum torna-se hedionda, na hipótese legal, quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualificada pela restrição da liberdade da vítima com ocorrência de lesão corporal ou morte."
+        },
+        {
+          "id": "B",
+          "text": "for praticada por telefone."
+        },
+        {
+          "id": "C",
+          "text": "envolver qualquer ameaça."
+        },
+        {
+          "id": "D",
+          "text": "for tentada."
+        },
+        {
+          "id": "E",
+          "text": "houver concurso de duas pessoas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 1º, III, delimita a hipótese específica."
+    },
+    {
+      "id": "u132-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A extorsão mediante sequestro",
+      "options": [
+        {
+          "id": "A",
+          "text": "é hedionda em sua forma básica e nas formas qualificadas indicadas."
+        },
+        {
+          "id": "B",
+          "text": "só é hedionda se resultar morte."
+        },
+        {
+          "id": "C",
+          "text": "não é hedionda."
+        },
+        {
+          "id": "D",
+          "text": "só é hedionda se houver arma."
+        },
+        {
+          "id": "E",
+          "text": "é apenas equiparada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 1º, IV, inclui o caput e as formas qualificadas indicadas."
+    },
+    {
+      "id": "u132-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O estupro e o estupro de vulnerável",
+      "options": [
+        {
+          "id": "A",
+          "text": "integram o rol de crimes hediondos."
+        },
+        {
+          "id": "B",
+          "text": "só são hediondos se houver morte."
+        },
+        {
+          "id": "C",
+          "text": "não são hediondos."
+        },
+        {
+          "id": "D",
+          "text": "só são hediondos na forma tentada."
+        },
+        {
+          "id": "E",
+          "text": "dependem de sentença para adquirir natureza hedionda."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Ambos constam expressamente do artigo 1º."
+    },
+    {
+      "id": "u132-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A epidemia prevista no rol torna-se hedionda quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "resulta morte."
+        },
+        {
+          "id": "B",
+          "text": "há apenas risco abstrato."
+        },
+        {
+          "id": "C",
+          "text": "é culposa."
+        },
+        {
+          "id": "D",
+          "text": "ocorre em área urbana."
+        },
+        {
+          "id": "E",
+          "text": "há internação hospitalar."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 1º, VII, exige o resultado morte."
+    },
+    {
+      "id": "u132-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É hediondo o furto",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualificado pelo emprego de explosivo ou artefato análogo que cause perigo comum."
+        },
+        {
+          "id": "B",
+          "text": "qualificado por qualquer circunstância."
+        },
+        {
+          "id": "C",
+          "text": "simples."
+        },
+        {
+          "id": "D",
+          "text": "praticado durante a noite."
+        },
+        {
+          "id": "E",
+          "text": "de pequeno valor."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 13.964/2019 incluiu essa hipótese específica."
+    },
+    {
+      "id": "u132-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os delitos acrescentados pela Lei nº 14.811/2024 ao rol está",
+      "options": [
+        {
+          "id": "A",
+          "text": "induzimento, instigação ou auxílio a suicídio ou automutilação por meio digital nas hipóteses legais."
+        },
+        {
+          "id": "B",
+          "text": "qualquer ameaça praticada pela internet."
+        },
+        {
+          "id": "C",
+          "text": "todo crime contra a honra."
+        },
+        {
+          "id": "D",
+          "text": "qualquer invasão de dispositivo."
+        },
+        {
+          "id": "E",
+          "text": "todo delito contra menor."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A inclusão alcança a modalidade digital expressamente definida no artigo 1º."
+    },
+    {
+      "id": "u132-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O sequestro e cárcere privado é hediondo, no item incluído em 2024, quando cometido contra",
+      "options": [
+        {
+          "id": "A",
+          "text": "menor de dezoito anos."
+        },
+        {
+          "id": "B",
+          "text": "qualquer pessoa maior de dezoito."
+        },
+        {
+          "id": "C",
+          "text": "somente servidor público."
+        },
+        {
+          "id": "D",
+          "text": "apenas pessoa idosa."
+        },
+        {
+          "id": "E",
+          "text": "somente estrangeiro."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A condição especial da vítima integra a hipótese legal."
+    },
+    {
+      "id": "u132-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O tráfico de pessoas integra o rol do artigo 1º quando cometido contra",
+      "options": [
+        {
+          "id": "A",
+          "text": "criança ou adolescente, nas hipóteses legais."
+        },
+        {
+          "id": "B",
+          "text": "qualquer vítima sem distinção."
+        },
+        {
+          "id": "C",
+          "text": "somente servidor público."
+        },
+        {
+          "id": "D",
+          "text": "apenas estrangeiro."
+        },
+        {
+          "id": "E",
+          "text": "somente maior de sessenta anos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O rol delimita a hipótese por condição da vítima."
+    },
+    {
+      "id": "u132-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No parágrafo único do artigo 1º, o genocídio",
+      "options": [
+        {
+          "id": "A",
+          "text": "é hediondo, tentado ou consumado."
+        },
+        {
+          "id": "B",
+          "text": "só é hediondo se consumado."
+        },
+        {
+          "id": "C",
+          "text": "é apenas equiparado."
+        },
+        {
+          "id": "D",
+          "text": "não integra a lei."
+        },
+        {
+          "id": "E",
+          "text": "depende de resultado morte individualizado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O parágrafo único inclui expressamente as formas tentada e consumada."
+    },
+    {
+      "id": "u132-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto às armas de fogo, é hediondo",
+      "options": [
+        {
+          "id": "A",
+          "text": "o crime de posse ou porte ilegal de arma de uso proibido."
+        },
+        {
+          "id": "B",
+          "text": "todo porte de arma de uso permitido."
+        },
+        {
+          "id": "C",
+          "text": "qualquer posse irregular do artigo 12."
+        },
+        {
+          "id": "D",
+          "text": "todo crime do Estatuto do Desarmamento."
+        },
+        {
+          "id": "E",
+          "text": "a omissão de cautela."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O parágrafo único, II, menciona arma de uso proibido."
+    },
+    {
+      "id": "u132-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Súmula 668 do STJ estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não é hediondo o porte ou posse de arma de uso permitido, ainda que com identificação raspada, suprimida ou adulterada."
+        },
+        {
+          "id": "B",
+          "text": "todo delito do artigo 16 é hediondo."
+        },
+        {
+          "id": "C",
+          "text": "arma permitida com número raspado vira arma proibida."
+        },
+        {
+          "id": "D",
+          "text": "todo crime de arma é hediondo."
+        },
+        {
+          "id": "E",
+          "text": "só arma sem numeração é hedionda."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O enunciado afasta a hediondez da arma de uso permitido mesmo com sinal identificador alterado."
+    },
+    {
+      "id": "u132-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O comércio ilegal de arma de fogo e o tráfico internacional de arma, acessório ou munição",
+      "options": [
+        {
+          "id": "A",
+          "text": "integram o rol de hediondos."
+        },
+        {
+          "id": "B",
+          "text": "são apenas equiparados."
+        },
+        {
+          "id": "C",
+          "text": "não são hediondos."
+        },
+        {
+          "id": "D",
+          "text": "só são hediondos se houver organização criminosa."
+        },
+        {
+          "id": "E",
+          "text": "dependem de morte."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os incisos III e IV do parágrafo único incluem esses delitos."
+    },
+    {
+      "id": "u132-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime de organização criminosa é hediondo quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "direcionado à prática de crime hediondo ou equiparado."
+        },
+        {
+          "id": "B",
+          "text": "em toda e qualquer hipótese."
+        },
+        {
+          "id": "C",
+          "text": "possui três membros."
+        },
+        {
+          "id": "D",
+          "text": "envolve apenas crimes patrimoniais simples."
+        },
+        {
+          "id": "E",
+          "text": "ocorre em outro estado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A direção finalística para hediondo/equiparado é elemento da classificação legal."
+    },
+    {
+      "id": "u132-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No corte de 13/7/2026, o item VII do parágrafo único relativo ao Estatuto da Criança e do Adolescente abrangia",
+      "options": [
+        {
+          "id": "A",
+          "text": "o §1º do artigo 240 e o artigo 241-B."
+        },
+        {
+          "id": "B",
+          "text": "todos os crimes sexuais do Estatuto."
+        },
+        {
+          "id": "C",
+          "text": "somente o artigo 244-A."
+        },
+        {
+          "id": "D",
+          "text": "os artigos ampliados pela Lei nº 15.487/2026."
+        },
+        {
+          "id": "E",
+          "text": "nenhum crime do Estatuto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A ampliação do item VII veio apenas em agosto de 2026, depois do corte."
+    },
+    {
+      "id": "u132-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 15.487/2026",
+      "options": [
+        {
+          "id": "A",
+          "text": "não integra o corte porque foi publicada em agosto de 2026."
+        },
+        {
+          "id": "B",
+          "text": "já estava vigente em 13/7/2026."
+        },
+        {
+          "id": "C",
+          "text": "foi publicada em junho."
+        },
+        {
+          "id": "D",
+          "text": "não alterou a Lei nº 8.072/1990."
+        },
+        {
+          "id": "E",
+          "text": "revogou o artigo 1º."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É alteração pós-corte e deve ser excluída da objetiva do edital."
+    },
+    {
+      "id": "u132-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 15.358/2026 acrescentou ao rol",
+      "options": [
+        {
+          "id": "A",
+          "text": "domínio social estruturado e favorecimento ao domínio social estruturado."
+        },
+        {
+          "id": "B",
+          "text": "qualquer associação criminosa."
+        },
+        {
+          "id": "C",
+          "text": "todo crime de lavagem."
+        },
+        {
+          "id": "D",
+          "text": "qualquer delito de drogas."
+        },
+        {
+          "id": "E",
+          "text": "toda extorsão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alteração foi incluída no parágrafo único, VIII, antes do corte."
+    },
+    {
+      "id": "u132-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "São equiparados a hediondos, para o regime do artigo 2º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "tortura, tráfico ilícito de drogas e terrorismo."
+        },
+        {
+          "id": "B",
+          "text": "somente tráfico privilegiado."
+        },
+        {
+          "id": "C",
+          "text": "qualquer organização criminosa."
+        },
+        {
+          "id": "D",
+          "text": "apenas roubo."
+        },
+        {
+          "id": "E",
+          "text": "todo crime com pena superior a oito anos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esses três grupos recebem o tratamento constitucional e legal equiparado."
+    },
+    {
+      "id": "u132-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula Vinculante 63 do STF, o tráfico privilegiado",
+      "options": [
+        {
+          "id": "A",
+          "text": "não configura crime hediondo."
+        },
+        {
+          "id": "B",
+          "text": "é sempre hediondo."
+        },
+        {
+          "id": "C",
+          "text": "é mais grave que o tráfico comum."
+        },
+        {
+          "id": "D",
+          "text": "não admite progressão."
+        },
+        {
+          "id": "E",
+          "text": "é contravenção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O enunciado afastou a hediondez do artigo 33, §4º, da Lei de Drogas."
+    },
+    {
+      "id": "u132-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime de associação para o tráfico",
+      "options": [
+        {
+          "id": "A",
+          "text": "não é hediondo nem equiparado a hediondo."
+        },
+        {
+          "id": "B",
+          "text": "é sempre hediondo."
+        },
+        {
+          "id": "C",
+          "text": "integra expressamente o artigo 1º da Lei nº 8.072/1990."
+        },
+        {
+          "id": "D",
+          "text": "é tráfico privilegiado."
+        },
+        {
+          "id": "E",
+          "text": "não possui regra especial de livramento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A hediondez não alcança o artigo 35, embora a Lei de Drogas contenha regime próprio de livramento."
+    },
+    {
+      "id": "u132-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Tema Repetitivo 1.355 do STJ estabeleceu que, na associação para o tráfico,",
+      "options": [
+        {
+          "id": "A",
+          "text": "aplica-se a fração especial de livramento prevista na Lei de Drogas, embora o delito não seja hediondo."
+        },
+        {
+          "id": "B",
+          "text": "o delito passou a ser hediondo."
+        },
+        {
+          "id": "C",
+          "text": "não existe livramento condicional."
+        },
+        {
+          "id": "D",
+          "text": "aplica-se sempre a regra geral do Código Penal."
+        },
+        {
+          "id": "E",
+          "text": "a fração depende de reconhecimento de hediondez."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O STJ aplicou a norma especial da Lei de Drogas sem equiparar o crime à hediondez."
+    },
+    {
+      "id": "u132-a27",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Crimes hediondos e equiparados são insuscetíveis de",
+      "options": [
+        {
+          "id": "A",
+          "text": "anistia, graça, indulto e fiança."
+        },
+        {
+          "id": "B",
+          "text": "apenas multa."
+        },
+        {
+          "id": "C",
+          "text": "somente indulto."
+        },
+        {
+          "id": "D",
+          "text": "qualquer recurso."
+        },
+        {
+          "id": "E",
+          "text": "livramento em toda hipótese."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a regra do artigo 2º, caput e incisos."
+    },
+    {
+      "id": "u132-a28",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A inafiançabilidade dos crimes hediondos",
+      "options": [
+        {
+          "id": "A",
+          "text": "não torna automática a prisão cautelar."
+        },
+        {
+          "id": "B",
+          "text": "obriga prisão preventiva em todo caso."
+        },
+        {
+          "id": "C",
+          "text": "elimina necessidade de fundamentação judicial."
+        },
+        {
+          "id": "D",
+          "text": "impede apelar em liberdade em qualquer hipótese."
+        },
+        {
+          "id": "E",
+          "text": "transforma condenação em definitiva."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A vedação à fiança não substitui os pressupostos das prisões cautelares."
+    },
+    {
+      "id": "u132-a29",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Tema 972 do STF,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é inconstitucional impor regime inicial fechado apenas pela natureza hedionda do crime."
+        },
+        {
+          "id": "B",
+          "text": "todo hediondo começa obrigatoriamente no fechado."
+        },
+        {
+          "id": "C",
+          "text": "todo hediondo começa no aberto."
+        },
+        {
+          "id": "D",
+          "text": "o juiz não fundamenta o regime."
+        },
+        {
+          "id": "E",
+          "text": "o artigo 33 do Código Penal não se aplica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O regime deve ser individualizado segundo os parâmetros do Código Penal."
+    },
+    {
+      "id": "u132-a30",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As antigas frações de progressão de 2/5 e 3/5",
+      "options": [
+        {
+          "id": "A",
+          "text": "não permanecem como regra atual do artigo 2º, pois o §2º foi revogado."
+        },
+        {
+          "id": "B",
+          "text": "continuam vigentes na Lei nº 8.072/1990."
+        },
+        {
+          "id": "C",
+          "text": "aplicam-se a qualquer delito."
+        },
+        {
+          "id": "D",
+          "text": "foram ampliadas para 4/5 e 5/5 na mesma lei."
+        },
+        {
+          "id": "E",
+          "text": "são regras da prisão temporária."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 13.964/2019 revogou o §2º; progressão é hoje disciplinada na Lei de Execução Penal."
+    },
+    {
+      "id": "u132-a31",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em sentença condenatória por crime hediondo, o juiz",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve decidir fundamentadamente se o réu pode apelar em liberdade."
+        },
+        {
+          "id": "B",
+          "text": "deve prender automaticamente."
+        },
+        {
+          "id": "C",
+          "text": "não pode permitir recurso."
+        },
+        {
+          "id": "D",
+          "text": "deve conceder fiança."
+        },
+        {
+          "id": "E",
+          "text": "fica impedido de fundamentar cautelares."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O §3º do artigo 2º exige decisão fundamentada."
+    },
+    {
+      "id": "u132-a32",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O prazo especial da prisão temporária para os crimes abrangidos pelo artigo 2º é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "30 dias, prorrogável por igual período em extrema e comprovada necessidade."
+        },
+        {
+          "id": "B",
+          "text": "5 dias, sem prorrogação."
+        },
+        {
+          "id": "C",
+          "text": "10 dias, automaticamente prorrogáveis."
+        },
+        {
+          "id": "D",
+          "text": "60 dias fixos."
+        },
+        {
+          "id": "E",
+          "text": "90 dias."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a regra do artigo 2º, §4º; os demais requisitos ficam na Lei nº 7.960/1989 e jurisprudência."
+    },
+    {
+      "id": "u132-a33",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A prorrogação da prisão temporária de trinta dias",
+      "options": [
+        {
+          "id": "A",
+          "text": "não é automática; exige extrema e comprovada necessidade."
+        },
+        {
+          "id": "B",
+          "text": "ocorre automaticamente."
+        },
+        {
+          "id": "C",
+          "text": "depende apenas da gravidade abstrata."
+        },
+        {
+          "id": "D",
+          "text": "pode ser ilimitada."
+        },
+        {
+          "id": "E",
+          "text": "não existe."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A própria lei exige extrema e comprovada necessidade."
+    },
+    {
+      "id": "u132-a34",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 3º determina que a União mantenha estabelecimentos penais federais de segurança máxima para",
+      "options": [
+        {
+          "id": "A",
+          "text": "condenados de alta periculosidade cuja permanência em presídios estaduais ponha em risco a ordem ou a incolumidade pública."
+        },
+        {
+          "id": "B",
+          "text": "todo condenado por crime hediondo."
+        },
+        {
+          "id": "C",
+          "text": "somente presos provisórios."
+        },
+        {
+          "id": "D",
+          "text": "qualquer reincidente."
+        },
+        {
+          "id": "E",
+          "text": "apenas condenados por tráfico privilegiado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O dispositivo não federaliza automaticamente a execução de toda condenação hedionda."
+    },
+    {
+      "id": "u132-a35",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A regra de livramento condicional inserida pela Lei nº 8.072/1990 exige, para os crimes nela indicados,",
+      "options": [
+        {
+          "id": "A",
+          "text": "mais de dois terços da pena, se o condenado não for reincidente específico em crimes dessa natureza."
+        },
+        {
+          "id": "B",
+          "text": "metade da pena em qualquer caso."
+        },
+        {
+          "id": "C",
+          "text": "um sexto da pena."
+        },
+        {
+          "id": "D",
+          "text": "três quintos para qualquer condenado."
+        },
+        {
+          "id": "E",
+          "text": "livramento automático."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A regra foi inserida no artigo 83 do Código Penal."
+    },
+    {
+      "id": "u132-a36",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 8º da Lei nº 8.072/1990 prevê, para a associação do artigo 288 quando voltada aos crimes ali indicados, pena de",
+      "options": [
+        {
+          "id": "A",
+          "text": "reclusão de três a seis anos."
+        },
+        {
+          "id": "B",
+          "text": "detenção de seis meses a um ano."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de oito a dezesseis anos."
+        },
+        {
+          "id": "D",
+          "text": "multa apenas."
+        },
+        {
+          "id": "E",
+          "text": "reclusão perpétua."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 8º fixa reclusão de três a seis anos."
+    },
+    {
+      "id": "u132-a37",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O participante ou associado que denuncia a quadrilha ou bando à autoridade, possibilitando seu desmantelamento, pode obter redução de",
+      "options": [
+        {
+          "id": "A",
+          "text": "um a dois terços."
+        },
+        {
+          "id": "B",
+          "text": "metade fixa."
+        },
+        {
+          "id": "C",
+          "text": "um sexto apenas."
+        },
+        {
+          "id": "D",
+          "text": "três quartos."
+        },
+        {
+          "id": "E",
+          "text": "não existe redução."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a redução expressamente prevista no parágrafo único do artigo 8º."
+    },
+    {
+      "id": "u132-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 13 da prova oral Cebraspe da Polícia Civil de Rondônia, concurso 2022, quais modalidades de roubo são hediondas segundo a Lei nº 8.072/1990?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Todo roubo, independentemente da circunstância."
+        },
+        {
+          "id": "B",
+          "text": "Somente o latrocínio."
+        },
+        {
+          "id": "C",
+          "text": "Roubo com restrição da liberdade da vítima, com emprego de arma de fogo nas hipóteses legais e qualificado por lesão corporal grave ou morte."
+        },
+        {
+          "id": "D",
+          "text": "Apenas roubo com concurso de agentes."
+        },
+        {
+          "id": "E",
+          "text": "Somente roubo de veículo automotor."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O padrão oficial da prova oral enumera essas modalidades específicas; a questão foi adaptada sem reprodução literal."
+    }
+  ]
+}
