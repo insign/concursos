@@ -35,13 +35,13 @@
 
 ## Superior Tribunal de Justiça
 
-10. **Recurso Especial 1.492.832/DF.** Responsabilidade objetiva por ato estatal lícito e exigência de dano real, especial e anormal.  
+10. **Recurso Especial 1.492.832, Distrito Federal.** Responsabilidade objetiva por ato estatal lícito e exigência de dano real, especial e anormal.  
     https://scon.stj.jus.br/SCON/jurisprudencia/toc.jsp?livre=%28RESP+INPATH%28CLAS%29+AND+1492832+INPATH%28NUM%29%29
 
-11. **Informativo 733 — Recurso Especial 1.709.727/SE.** Omissão estatal em conservação/sinalização de rodovia: responsabilidade subjetiva na omissão geral, com falha culposa do serviço, dano e nexo causal.  
+11. **Informativo 733 — Recurso Especial 1.709.727, Sergipe.** Omissão estatal em conservação/sinalização de rodovia: responsabilidade subjetiva na omissão geral, com falha culposa do serviço, dano e nexo causal.  
     https://processo.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D018973
 
-12. **Informativo 674 — Recurso Especial 1.869.046/SP.** Atividade de risco anormal e aplicação excepcional da responsabilidade objetiva prevista no artigo 927, parágrafo único, do Código Civil, independentemente de a conduta ser comissiva ou omissiva.  
+12. **Informativo 674 — Recurso Especial 1.869.046, São Paulo.** Atividade de risco anormal e aplicação excepcional da responsabilidade objetiva prevista no artigo 927, parágrafo único, do Código Civil, independentemente de a conduta ser comissiva ou omissiva.  
     https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0674.cod.
 
 ## Provas anteriores usadas de modo não literal
@@ -58,7 +58,7 @@
 
 - Unidade U107, identidade `pc-u107`, order 107, consumidor `pc-ma-2026-oficial-investigador`.
 - Classificação preservada: **nova/local**, sem `vinculo.json` e sem origem canônica integral.
-- Foram auditadas duas aparições físicas do TCE-MA:
+- Foram auditadas duas aparições físicas do Tribunal de Contas do Estado do Maranhão:
   - `src/content/assuntos/tce-ma-2026-tecnico-administrativa/conhecimentos-gerais/direito-administrativo/responsabilidade-civil-estado/`;
   - `src/content/assuntos/tce-ma-2026-tecnico-administrativa/conhecimentos-especificos/nocoes-direito-administrativo/nocoes-responsabilidade-civil-estado/`.
 - Os conteúdos, cheat sheets e referências divergem e carregam identidades/cortes próprios do TCE; o conjunto de 60 questões é idêntico e integralmente autoral. Não foi inferida origem única.
