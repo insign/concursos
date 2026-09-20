@@ -1,0 +1,1146 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u129-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei Maria da Penha pode incidir em relação íntima de afeto",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente se agressor e ofendida morarem juntos."
+        },
+        {
+          "id": "B",
+          "text": "ainda que não haja coabitação, desde que presentes os requisitos do artigo 5º."
+        },
+        {
+          "id": "C",
+          "text": "somente se houver casamento."
+        },
+        {
+          "id": "D",
+          "text": "apenas se houver filhos comuns."
+        },
+        {
+          "id": "E",
+          "text": "somente em relação atual."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 5º, III, dispensa coabitação; a Súmula 600 do STJ consolida essa interpretação."
+    },
+    {
+      "id": "u129-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As relações pessoais abrangidas pelo artigo 5º da Lei Maria da Penha",
+      "options": [
+        {
+          "id": "A",
+          "text": "dependem da orientação sexual."
+        },
+        {
+          "id": "B",
+          "text": "independem da orientação sexual."
+        },
+        {
+          "id": "C",
+          "text": "somente alcançam casais heterossexuais."
+        },
+        {
+          "id": "D",
+          "text": "excluem relações homoafetivas."
+        },
+        {
+          "id": "E",
+          "text": "exigem agressor do sexo masculino."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único do artigo 5º afirma que as relações pessoais independem de orientação sexual."
+    },
+    {
+      "id": "u129-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a jurisprudência do Superior Tribunal de Justiça, a Lei Maria da Penha",
+      "options": [
+        {
+          "id": "A",
+          "text": "não se aplica a mulher trans."
+        },
+        {
+          "id": "B",
+          "text": "pode ser aplicada a mulher trans em situação de violência doméstica ou familiar."
+        },
+        {
+          "id": "C",
+          "text": "aplica-se apenas segundo critério biológico."
+        },
+        {
+          "id": "D",
+          "text": "depende de alteração legislativa ainda inexistente."
+        },
+        {
+          "id": "E",
+          "text": "só se aplica a mulher trans se houver casamento civil."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Informativo 732 afastou critério exclusivamente biológico e reconheceu a incidência protetiva."
+    },
+    {
+      "id": "u129-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em relação homoafetiva entre mulheres, a proteção da Lei Maria da Penha",
+      "options": [
+        {
+          "id": "A",
+          "text": "é afastada porque a agressora também é mulher."
+        },
+        {
+          "id": "B",
+          "text": "pode incidir, e a vulnerabilidade não é afastada apenas pelo sexo da agressora."
+        },
+        {
+          "id": "C",
+          "text": "depende de coabitação atual."
+        },
+        {
+          "id": "D",
+          "text": "é limitada a violência patrimonial."
+        },
+        {
+          "id": "E",
+          "text": "só existe se houver filho comum."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O STJ reafirmou em 2026 a incidência em relação homoafetiva feminina e a presunção de vulnerabilidade."
+    },
+    {
+      "id": "u129-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Depois da Lei nº 15.384/2026, o artigo 7º da Lei Maria da Penha passou a enumerar como forma de violência",
+      "options": [
+        {
+          "id": "A",
+          "text": "violência vicária."
+        },
+        {
+          "id": "B",
+          "text": "violência tributária."
+        },
+        {
+          "id": "C",
+          "text": "violência processual autônoma."
+        },
+        {
+          "id": "D",
+          "text": "violência eleitoral."
+        },
+        {
+          "id": "E",
+          "text": "violência empresarial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 15.384/2026 incluiu a violência vicária no inciso VI do artigo 7º."
+    },
+    {
+      "id": "u129-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Violência vicária, no artigo 7º, VI, consiste, em síntese, em",
+      "options": [
+        {
+          "id": "A",
+          "text": "atingir pessoa ligada à mulher ou de sua rede de apoio com o objetivo de atingi-la."
+        },
+        {
+          "id": "B",
+          "text": "subtrair exclusivamente bens da mulher."
+        },
+        {
+          "id": "C",
+          "text": "ameaçar apenas animal doméstico."
+        },
+        {
+          "id": "D",
+          "text": "praticar somente violência física contra a própria mulher."
+        },
+        {
+          "id": "E",
+          "text": "descumprir decisão judicial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O tipo de violência se caracteriza pelo uso de pessoa ligada à mulher como meio para atingir a própria mulher."
+    },
+    {
+      "id": "u129-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as providências de assistência previstas no artigo 9º está",
+      "options": [
+        {
+          "id": "A",
+          "text": "manutenção do vínculo trabalhista por até seis meses, quando necessário o afastamento do local de trabalho."
+        },
+        {
+          "id": "B",
+          "text": "estabilidade vitalícia."
+        },
+        {
+          "id": "C",
+          "text": "aposentadoria automática."
+        },
+        {
+          "id": "D",
+          "text": "afastamento do trabalho por prazo indeterminado."
+        },
+        {
+          "id": "E",
+          "text": "licença remunerada obrigatória pela União em todos os casos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 9º prevê manutenção do vínculo trabalhista por até seis meses quando o afastamento for necessário."
+    },
+    {
+      "id": "u129-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O atendimento policial e pericial especializado do artigo 10-A deve buscar",
+      "options": [
+        {
+          "id": "A",
+          "text": "evitar revitimização e contato direto com o investigado, preservando integridade física, psíquica e emocional."
+        },
+        {
+          "id": "B",
+          "text": "repetir sucessivamente o relato da ofendida."
+        },
+        {
+          "id": "C",
+          "text": "substituir o exame pericial por confissão."
+        },
+        {
+          "id": "D",
+          "text": "ser prestado apenas em horário comercial."
+        },
+        {
+          "id": "E",
+          "text": "ser realizado obrigatoriamente por servidor homem."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 10-A contém diretrizes de atendimento especializado, ininterrupto e protetivo."
+    },
+    {
+      "id": "u129-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei nº 15.455/2026, havendo indícios de redução de trabalhadora doméstica a condição análoga à de escravo ou outra violência doméstica, a autoridade policial deve comunicar os órgãos trabalhistas indicados em até",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 horas."
+        },
+        {
+          "id": "B",
+          "text": "48 horas."
+        },
+        {
+          "id": "C",
+          "text": "5 dias."
+        },
+        {
+          "id": "D",
+          "text": "10 dias."
+        },
+        {
+          "id": "E",
+          "text": "30 dias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alteração do artigo 11 fixa comunicação em até 48 horas ao Ministério do Trabalho e Emprego e ao Ministério Público do Trabalho."
+    },
+    {
+      "id": "u129-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após o registro da ocorrência, o pedido de medida protetiva formulado pela ofendida deve ser remetido pela autoridade policial ao juiz em até",
+      "options": [
+        {
+          "id": "A",
+          "text": "12 horas."
+        },
+        {
+          "id": "B",
+          "text": "24 horas."
+        },
+        {
+          "id": "C",
+          "text": "48 horas."
+        },
+        {
+          "id": "D",
+          "text": "5 dias."
+        },
+        {
+          "id": "E",
+          "text": "10 dias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 12 estabelece remessa em 48 horas de expediente apartado com o pedido de medida protetiva."
+    },
+    {
+      "id": "u129-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 12-C, após a Lei nº 15.411/2026, autoriza afastamento imediato do agressor diante de risco atual ou iminente",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente à vida."
+        },
+        {
+          "id": "B",
+          "text": "à vida ou às integridades física, sexual, psicológica, moral ou patrimonial da mulher ou dependentes."
+        },
+        {
+          "id": "C",
+          "text": "apenas ao patrimônio."
+        },
+        {
+          "id": "D",
+          "text": "somente após denúncia recebida."
+        },
+        {
+          "id": "E",
+          "text": "apenas se houver lesão corporal grave."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei nº 15.411/2026 ampliou expressamente o espectro de riscos protegidos."
+    },
+    {
+      "id": "u129-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No artigo 12-C, o delegado pode determinar o afastamento imediato do agressor quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "o município não for sede de comarca, observada a comunicação ao juiz em 24 horas."
+        },
+        {
+          "id": "B",
+          "text": "em qualquer município e sem comunicação judicial."
+        },
+        {
+          "id": "C",
+          "text": "somente após sentença."
+        },
+        {
+          "id": "D",
+          "text": "apenas a pedido do agressor."
+        },
+        {
+          "id": "E",
+          "text": "nunca."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei admite atuação do delegado em município que não seja sede de comarca, com controle judicial em 24 horas."
+    },
+    {
+      "id": "u129-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 12-D, incluído em 2026, disciplina",
+      "options": [
+        {
+          "id": "A",
+          "text": "monitoração eletrônica do agressor."
+        },
+        {
+          "id": "B",
+          "text": "partilha de bens."
+        },
+        {
+          "id": "C",
+          "text": "divórcio obrigatório."
+        },
+        {
+          "id": "D",
+          "text": "prisão temporária."
+        },
+        {
+          "id": "E",
+          "text": "adoção de dependentes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 15.383/2026 criou o artigo 12-D sobre monitoração eletrônica."
+    },
+    {
+      "id": "u129-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o artigo 14-A, os Juizados de Violência Doméstica podem processar, entre outras ações,",
+      "options": [
+        {
+          "id": "A",
+          "text": "divórcio e dissolução de união estável, mas não a pretensão de partilha de bens."
+        },
+        {
+          "id": "B",
+          "text": "somente partilha de bens."
+        },
+        {
+          "id": "C",
+          "text": "inventário em qualquer hipótese."
+        },
+        {
+          "id": "D",
+          "text": "toda ação de família sem relação com violência."
+        },
+        {
+          "id": "E",
+          "text": "apenas ações penais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 14-A permite divórcio/dissolução, mas exclui expressamente a partilha de bens dessa competência."
+    },
+    {
+      "id": "u129-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Depois da Lei nº 15.380/2026, a audiência do artigo 16",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ser marcada de ofício em todo processo para saber se a vítima quer representar."
+        },
+        {
+          "id": "B",
+          "text": "só é designada se a vítima manifestar expressamente vontade de se retratar, e serve para confirmar a retratação."
+        },
+        {
+          "id": "C",
+          "text": "serve para colher a primeira representação."
+        },
+        {
+          "id": "D",
+          "text": "ocorre depois do recebimento da denúncia."
+        },
+        {
+          "id": "E",
+          "text": "é obrigatória em lesão corporal doméstica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alteração de 2026 positivou que a audiência confirma manifestação expressa de retratação antes do recebimento da denúncia."
+    },
+    {
+      "id": "u129-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A lesão corporal resultante de violência doméstica contra a mulher é processada por ação penal",
+      "options": [
+        {
+          "id": "A",
+          "text": "privada."
+        },
+        {
+          "id": "B",
+          "text": "pública condicionada à representação."
+        },
+        {
+          "id": "C",
+          "text": "pública incondicionada."
+        },
+        {
+          "id": "D",
+          "text": "subsidiária da pública."
+        },
+        {
+          "id": "E",
+          "text": "dependente de requisição do Ministro da Justiça."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "ADI 4.424/STF e Súmula 542/STJ fixam natureza pública incondicionada."
+    },
+    {
+      "id": "u129-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 16-A, incluído pela Lei nº 15.438/2026, estabelece prazo decadencial de",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 meses."
+        },
+        {
+          "id": "B",
+          "text": "8 meses."
+        },
+        {
+          "id": "C",
+          "text": "12 meses."
+        },
+        {
+          "id": "D",
+          "text": "18 meses."
+        },
+        {
+          "id": "E",
+          "text": "2 anos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A regra especial prevê doze meses para queixa ou representação em crimes no contexto doméstico e familiar."
+    },
+    {
+      "id": "u129-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A criação do prazo de 12 meses pelo artigo 16-A",
+      "options": [
+        {
+          "id": "A",
+          "text": "transformou todo crime condicionado em ação pública incondicionada."
+        },
+        {
+          "id": "B",
+          "text": "alterou o prazo decadencial, sem mudar automaticamente a natureza da ação penal."
+        },
+        {
+          "id": "C",
+          "text": "aboliu a queixa-crime."
+        },
+        {
+          "id": "D",
+          "text": "revogou a ADI 4.424."
+        },
+        {
+          "id": "E",
+          "text": "só vale para lesão corporal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A norma é temporal: não muda, por si só, a titularidade ou condição de procedibilidade de cada delito."
+    },
+    {
+      "id": "u129-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 17 veda, nos casos de violência doméstica e familiar contra a mulher,",
+      "options": [
+        {
+          "id": "A",
+          "text": "prestação de cesta básica e substituição que implique pagamento isolado de multa."
+        },
+        {
+          "id": "B",
+          "text": "toda pena restritiva de direitos em qualquer contexto."
+        },
+        {
+          "id": "C",
+          "text": "reparação civil."
+        },
+        {
+          "id": "D",
+          "text": "assistência judiciária."
+        },
+        {
+          "id": "E",
+          "text": "prisão preventiva."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a vedação expressa do artigo 17."
+    },
+    {
+      "id": "u129-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 17-A protege",
+      "options": [
+        {
+          "id": "A",
+          "text": "o sigilo do nome da ofendida."
+        },
+        {
+          "id": "B",
+          "text": "o sigilo obrigatório do nome do agressor."
+        },
+        {
+          "id": "C",
+          "text": "o segredo automático de todos os atos do processo."
+        },
+        {
+          "id": "D",
+          "text": "somente dados bancários."
+        },
+        {
+          "id": "E",
+          "text": "somente endereço profissional do juiz."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 14.857/2024 protege o nome da ofendida, sem estender automaticamente o sigilo a todo o processo."
+    },
+    {
+      "id": "u129-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Recebido o expediente com pedido de medida protetiva, o juiz deve decidir as providências do artigo 18 em até",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 horas."
+        },
+        {
+          "id": "B",
+          "text": "48 horas."
+        },
+        {
+          "id": "C",
+          "text": "5 dias."
+        },
+        {
+          "id": "D",
+          "text": "10 dias."
+        },
+        {
+          "id": "E",
+          "text": "30 dias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 18 fixa prazo de 48 horas."
+    },
+    {
+      "id": "u129-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As medidas protetivas de urgência podem ser concedidas",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente após boletim de ocorrência e inquérito instaurado."
+        },
+        {
+          "id": "B",
+          "text": "independentemente de boletim de ocorrência, inquérito, ação penal ou ação cível, conforme a lei e o Tema 1.249."
+        },
+        {
+          "id": "C",
+          "text": "somente após denúncia."
+        },
+        {
+          "id": "D",
+          "text": "apenas se houver tipificação penal definitiva."
+        },
+        {
+          "id": "E",
+          "text": "somente após audiência do agressor."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A autonomia das medidas está expressa desde 2023 e foi consolidada no Tema 1.249."
+    },
+    {
+      "id": "u129-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Tema Repetitivo 1.249 do STJ, as medidas protetivas",
+      "options": [
+        {
+          "id": "A",
+          "text": "devem ter prazo fixo máximo de seis meses."
+        },
+        {
+          "id": "B",
+          "text": "vigoram enquanto persistir a situação de risco, sem prazo fixo obrigatório."
+        },
+        {
+          "id": "C",
+          "text": "terminam automaticamente com arquivamento do inquérito."
+        },
+        {
+          "id": "D",
+          "text": "cessam automaticamente com absolvição."
+        },
+        {
+          "id": "E",
+          "text": "exigem revisão mensal obrigatória."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A duração é temporalmente indeterminada e vinculada ao risco; eventos penais não extinguem automaticamente a proteção."
+    },
+    {
+      "id": "u129-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Antes da revogação de medida protetiva por desaparecimento do risco, o Tema 1.249 exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente manifestação do agressor."
+        },
+        {
+          "id": "B",
+          "text": "contraditório, com oitiva da vítima e do suposto agressor."
+        },
+        {
+          "id": "C",
+          "text": "aprovação da autoridade policial."
+        },
+        {
+          "id": "D",
+          "text": "sentença criminal definitiva."
+        },
+        {
+          "id": "E",
+          "text": "audiência anual obrigatória."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A tese repetitiva exige contraditório antes da revogação e comunicação à ofendida em caso de extinção."
+    },
+    {
+      "id": "u129-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre prisão preventiva de ofício no artigo 20, o tratamento correto em setembro de 2026 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "afirmar que há jurisprudência uniforme permitindo-a."
+        },
+        {
+          "id": "B",
+          "text": "afirmar que há jurisprudência uniforme proibindo-a, sem ressalvas."
+        },
+        {
+          "id": "C",
+          "text": "distinguir a literalidade do artigo 20 da Súmula 676 e precedentes restritivos, registrando também acórdãos divergentes da Quinta Turma publicados em junho de 2026."
+        },
+        {
+          "id": "D",
+          "text": "ignorar a Lei nº 13.964/2019."
+        },
+        {
+          "id": "E",
+          "text": "considerar o tema revogado por lei."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Há tensão jurisprudencial oficial: a Súmula 676 e precedentes vedam atuação de ofício, enquanto decisões da Quinta Turma em 2026 invocaram a especialidade do artigo 20."
+    },
+    {
+      "id": "u129-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as medidas protetivas que obrigam o agressor, o artigo 22 prevê",
+      "options": [
+        {
+          "id": "A",
+          "text": "afastamento do lar, restrição de armas, proibição de contato/aproximação, alimentos, programas e monitoração eletrônica."
+        },
+        {
+          "id": "B",
+          "text": "somente prisão."
+        },
+        {
+          "id": "C",
+          "text": "apenas indenização civil."
+        },
+        {
+          "id": "D",
+          "text": "somente advertência verbal."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente prestação de serviços."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 22 contém um conjunto amplo de medidas e recebeu a monitoração eletrônica como medida autônoma em 2026."
+    },
+    {
+      "id": "u129-a27",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei nº 15.383/2026, a monitoração eletrônica deve receber prioridade, entre outras hipóteses, quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "houve descumprimento de medida anterior ou há risco iminente à integridade física ou psicológica."
+        },
+        {
+          "id": "B",
+          "text": "o agressor é primário."
+        },
+        {
+          "id": "C",
+          "text": "não existe qualquer risco."
+        },
+        {
+          "id": "D",
+          "text": "a vítima pede partilha de bens."
+        },
+        {
+          "id": "E",
+          "text": "há apenas dívida civil."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os §§ do artigo 22 disciplinam hipóteses prioritárias e exigem fundamentação se a medida não for adotada nesses casos."
+    },
+    {
+      "id": "u129-a28",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As medidas protetivas de natureza cível, após a Lei nº 15.412/2026,",
+      "options": [
+        {
+          "id": "A",
+          "text": "dependem sempre de nova ação principal."
+        },
+        {
+          "id": "B",
+          "text": "constituem título executivo judicial de pleno direito e dispensam ação principal autônoma."
+        },
+        {
+          "id": "C",
+          "text": "não podem incluir alimentos."
+        },
+        {
+          "id": "D",
+          "text": "não produzem efeito executivo."
+        },
+        {
+          "id": "E",
+          "text": "só podem ser executadas após sentença penal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A nova disciplina do artigo 22 reforçou a eficácia executiva das medidas cíveis."
+    },
+    {
+      "id": "u129-a29",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O auxílio-aluguel previsto no artigo 23 pode ser concedido por período não superior a",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 meses."
+        },
+        {
+          "id": "B",
+          "text": "6 meses."
+        },
+        {
+          "id": "C",
+          "text": "12 meses."
+        },
+        {
+          "id": "D",
+          "text": "18 meses."
+        },
+        {
+          "id": "E",
+          "text": "24 meses."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei nº 14.674/2023 fixou limite de seis meses."
+    },
+    {
+      "id": "u129-a30",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O descumprimento de decisão judicial que defere medida protetiva, artigo 24-A, tem pena atual de",
+      "options": [
+        {
+          "id": "A",
+          "text": "detenção de três meses a dois anos."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de dois a cinco anos e multa."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de seis a doze anos."
+        },
+        {
+          "id": "D",
+          "text": "apenas multa."
+        },
+        {
+          "id": "E",
+          "text": "detenção de quinze dias a seis meses."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei nº 14.994/2024 elevou a pena para reclusão de 2 a 5 anos e multa."
+    },
+    {
+      "id": "u129-a31",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na prisão em flagrante pelo crime do artigo 24-A, a fiança",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode ser concedida pela autoridade policial."
+        },
+        {
+          "id": "B",
+          "text": "somente pode ser concedida pela autoridade judicial."
+        },
+        {
+          "id": "C",
+          "text": "é absolutamente proibida."
+        },
+        {
+          "id": "D",
+          "text": "é automática."
+        },
+        {
+          "id": "E",
+          "text": "depende apenas da vítima."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O §2º do artigo 24-A reserva a concessão de fiança à autoridade judicial."
+    },
+    {
+      "id": "u129-a32",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei nº 15.383/2026, a pena do artigo 24-A aumenta de um terço até a metade quando o descumprimento decorre",
+      "options": [
+        {
+          "id": "A",
+          "text": "de violação da área de exclusão monitorada ou de adulteração/remoção indevida do equipamento."
+        },
+        {
+          "id": "B",
+          "text": "do simples atraso processual."
+        },
+        {
+          "id": "C",
+          "text": "de pagamento de alimentos."
+        },
+        {
+          "id": "D",
+          "text": "de comparecimento a programa de reeducação."
+        },
+        {
+          "id": "E",
+          "text": "de desistência da vítima."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei de 2026 criou majorante ligada ao monitoramento eletrônico."
+    },
+    {
+      "id": "u129-a33",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 41 determina que, aos crimes praticados com violência doméstica e familiar contra a mulher,",
+      "options": [
+        {
+          "id": "A",
+          "text": "aplica-se obrigatoriamente a Lei nº 9.099/1995."
+        },
+        {
+          "id": "B",
+          "text": "não se aplica a Lei nº 9.099/1995, independentemente da pena prevista."
+        },
+        {
+          "id": "C",
+          "text": "a Lei nº 9.099 só não se aplica se houver lesão grave."
+        },
+        {
+          "id": "D",
+          "text": "a transação penal é obrigatória."
+        },
+        {
+          "id": "E",
+          "text": "a suspensão condicional do processo é automática."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A exclusão é expressa no artigo 41."
+    },
+    {
+      "id": "u129-a34",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula 536 do STJ, nos delitos sujeitos ao rito da Lei Maria da Penha",
+      "options": [
+        {
+          "id": "A",
+          "text": "cabem transação penal e suspensão condicional do processo."
+        },
+        {
+          "id": "B",
+          "text": "não cabem transação penal nem suspensão condicional do processo."
+        },
+        {
+          "id": "C",
+          "text": "só cabe transação."
+        },
+        {
+          "id": "D",
+          "text": "só cabe suspensão."
+        },
+        {
+          "id": "E",
+          "text": "ambos dependem de representação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Súmula 536 afasta os dois institutos."
+    },
+    {
+      "id": "u129-a35",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Súmula 588 do STJ impede, em crime ou contravenção contra a mulher com violência ou grave ameaça no ambiente doméstico,",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituição da pena privativa de liberdade por restritiva de direitos."
+        },
+        {
+          "id": "B",
+          "text": "fixação de pena de multa cumulativa."
+        },
+        {
+          "id": "C",
+          "text": "medida protetiva."
+        },
+        {
+          "id": "D",
+          "text": "ação penal."
+        },
+        {
+          "id": "E",
+          "text": "assistência judiciária."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O enunciado veda a substituição quando presente violência ou grave ameaça no ambiente doméstico."
+    },
+    {
+      "id": "u129-a36",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Súmula 589 do STJ estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o princípio da insignificância não se aplica aos crimes ou contravenções praticados contra a mulher no âmbito doméstico."
+        },
+        {
+          "id": "B",
+          "text": "a insignificância é sempre obrigatória."
+        },
+        {
+          "id": "C",
+          "text": "a lei só protege patrimônio."
+        },
+        {
+          "id": "D",
+          "text": "a insignificância depende de representação."
+        },
+        {
+          "id": "E",
+          "text": "o princípio só se aplica ao artigo 24-A."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O enunciado afasta a insignificância nesse contexto."
+    },
+    {
+      "id": "u129-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 28 da matriz oficial Cebraspe/CAESB, edital 2024, assinale a alternativa correta sobre a Lei Maria da Penha.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O descumprimento de medida protetiva pode constituir crime próprio do artigo 24-A, com reclusão e multa na redação vigente."
+        },
+        {
+          "id": "B",
+          "text": "A ofendida nunca precisa de assistência por advogado nos atos processuais."
+        },
+        {
+          "id": "C",
+          "text": "A defesa coletiva dos direitos é exclusiva do Ministério Público."
+        },
+        {
+          "id": "D",
+          "text": "É admitida substituição de pena por pagamento isolado de multa."
+        },
+        {
+          "id": "E",
+          "text": "A partilha de bens está incluída na competência do artigo 14-A."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A matriz oficial marcou correta a alternativa referente ao crime de descumprimento de medida protetiva; a formulação foi atualizada para a pena vigente no corte."
+    },
+    {
+      "id": "u129-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 29 da matriz oficial Cebraspe/CAESB, edital 2024, considerando a jurisprudência dos tribunais superiores, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Lei Maria da Penha só se aplica a relações afetivas duradouras."
+        },
+        {
+          "id": "B",
+          "text": "mulheres trans são excluídas do sistema protetivo."
+        },
+        {
+          "id": "C",
+          "text": "a incidência do sistema protetivo prescinde de demonstração específica de subjugação feminina quando caracterizado o contexto legal."
+        },
+        {
+          "id": "D",
+          "text": "medidas protetivas sempre têm prazo fixo."
+        },
+        {
+          "id": "E",
+          "text": "a coabitação é requisito indispensável."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A justificativa oficial reconheceu a desnecessidade de demonstração específica de subjugação feminina, entendimento revalidado por jurisprudência oficial posterior."
+    }
+  ]
+}
