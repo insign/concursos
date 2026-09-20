@@ -96,7 +96,7 @@ const fullscreenState = (page: Page) => page.evaluate(() => {
 test('opens reading mode from the catalog listing', async ({ page }) => {
   await page.goto(contestPath);
   await page.getByRole('button', { name: 'Expandir tudo' }).click();
-  await page.getByRole('link', { name: `Ler ${readingTitle} sem distrações` }).click();
+  await page.getByRole('link', { name: `Ler 1. ${readingTitle} sem distrações` }).click();
   await expect(page).toHaveURL(new RegExp(`${subjectSlug}/#focus$`));
   await expect(page.getByRole('heading', { level: 1, name: readingTitle })).toBeVisible();
 });

@@ -6,6 +6,7 @@ interface Props {
   subjectSlug: string;
   contestTitle: string;
   subjectTitle: string;
+  subjectTitleRaw: string;
   questionSetRevision: number;
   active: 'content' | 'cheat-sheet' | 'questions';
   instanceId: string;
@@ -16,6 +17,7 @@ const {
   subjectSlug,
   contestTitle,
   subjectTitle,
+  subjectTitleRaw,
   questionSetRevision,
   active,
   instanceId,
@@ -29,6 +31,7 @@ const config = JSON.stringify({
   subjectSlug,
   contestTitle,
   subjectTitle,
+  subjectTitleRaw,
   questionSetRevision,
   active,
 }).replaceAll('<', '\\u003c');
@@ -119,6 +122,7 @@ const config = JSON.stringify({
     subjectSlug: string;
     contestTitle: string;
     subjectTitle: string;
+    subjectTitleRaw: string;
     questionSetRevision: number;
     active: 'content' | 'cheat-sheet' | 'questions';
   }
@@ -382,9 +386,11 @@ const config = JSON.stringify({
             : extractFromHtml(await fetchText(path), 'article', '[data-navigation-content]');
           if (!node) return false;
           node.querySelectorAll('.reading-title, h1.reading-title').forEach((n) => n.remove());
-          // Se o artigo começa com h1 igual ao título do assunto, remove para não duplicar com o header do bundle.
+          // Se o artigo começa com h1 igual ao título do assunto (numerado ou
+          // original), remove para não duplicar com o header do bundle.
           const firstH1 = node.querySelector('h1');
-          if (firstH1 && firstH1.textContent?.trim() === config.subjectTitle.trim()) firstH1.remove();
+          const h1Text = firstH1?.textContent?.trim();
+          if (firstH1 && (h1Text === config.subjectTitle.trim() || h1Text === config.subjectTitleRaw.trim())) firstH1.remove();
           wrapper.append(node);
         }
         bundle.append(wrapper);
@@ -469,7 +475,7 @@ const config = JSON.stringify({
           }
           document.body.append(bundle);
           document.body.classList.add('printing-bundle');
-          document.title = `${config.subjectTitle} - ${scopeText}`;
+          document.title = `${config.subjectTitleRaw} - ${scopeText}`;
           dialog.close();
           setStatus('');
           const done = () => cleanupBundle(previousTitle);

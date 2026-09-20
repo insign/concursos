@@ -26,7 +26,7 @@ test('keeps the three study modes centered between category navigation controls'
   for (const route of routes) {
     await page.goto(route.path);
     const navigation = tabs(page);
-    await expect(page.locator('.subject-heading .subject-title')).toHaveText(subjectTitle);
+    await expect(page.locator('.subject-heading .subject-title')).toHaveText(`1. ${subjectTitle}`);
     await expect(page.locator('.subject-heading > p:last-child')).not.toBeEmpty();
     await expect(page.getByRole('heading', { level: 1 })).toHaveCount(1);
 
@@ -432,5 +432,6 @@ test('hides the tabs and subject action bar when printing', async ({ page }) => 
   await expect(tabs(page)).toBeHidden();
   await expect(actions(page)).toBeHidden();
   await expect(page.locator('.breadcrumbs')).toBeHidden();
-  await expect(page.locator('.subject-heading')).toBeHidden();
+  await expect(page.locator('.subject-heading .subject-title')).toBeVisible();
+  await expect(page.locator('.subject-heading > p:last-child')).toBeHidden();
 });

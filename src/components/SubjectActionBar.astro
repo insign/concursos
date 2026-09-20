@@ -9,13 +9,14 @@ interface Props {
   contestTitle: string;
   subjectSlug: string;
   subjectTitle: string;
+  subjectTitleRaw: string;
   subjectStorageId: string;
   subjectHref: string;
   questionSetRevision: number;
   active: 'content' | 'cheat-sheet' | 'questions';
 }
 
-const { contestSlug, contestStorageId, contestTitle, subjectSlug, subjectTitle, subjectStorageId, subjectHref, questionSetRevision, active } = Astro.props;
+const { contestSlug, contestStorageId, contestTitle, subjectSlug, subjectTitle, subjectTitleRaw, subjectStorageId, subjectHref, questionSetRevision, active } = Astro.props;
 ---
 
 <div class="subject-action-bar print-hidden" data-subject-action-bar role="group" aria-label="Ações do assunto">
@@ -58,6 +59,7 @@ const { contestSlug, contestStorageId, contestTitle, subjectSlug, subjectTitle, 
       subjectSlug={subjectSlug}
       contestTitle={contestTitle}
       subjectTitle={subjectTitle}
+      subjectTitleRaw={subjectTitleRaw}
       questionSetRevision={questionSetRevision}
       active={active}
       instanceId="print-normal"

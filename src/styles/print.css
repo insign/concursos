@@ -43,10 +43,33 @@
   .site-header,
   .breadcrumbs,
   .subject-tabs,
-  .subject-heading,
   .subject-pagination,
   .print-dialog,
   .document-references {
+    display: none !important;
+  }
+
+  /* Numeração do assunto no impresso/PDF nativo (plano Completo): o
+     cabeçalho do estudo carrega o título já numerado; só ele aparece,
+     sem a descrição e sem duplicar o H1 do artigo. */
+  .subject-heading {
+    display: block !important;
+    margin: 0 0 10pt;
+  }
+
+  .subject-heading .subject-title {
+    margin: 0 0 4pt;
+    font-size: 20pt;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  .subject-heading > p:last-child {
+    display: none !important;
+  }
+
+  .reading-surface .reading-title,
+  .reading-surface article[data-print-hide-leading-h1] > h1:first-child {
     display: none !important;
   }
 

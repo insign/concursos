@@ -8,6 +8,7 @@ import ReadingFocusRuntime from '../components/ReadingFocusRuntime.astro';
 import BaseLayout from './BaseLayout.astro';
 import type { CatalogContest, CatalogSubject } from '../lib/catalog';
 import { studiedSubjectId } from '../lib/studied';
+import { displaySubjectTitle } from '../lib/subject-numbering';
 
 interface Props {
   contest: CatalogContest;
@@ -16,6 +17,7 @@ interface Props {
 }
 
 const { contest, subject, active } = Astro.props;
+const displayTitle = displaySubjectTitle(contest, subject);
 const groupId = subject.groupPath.at(-1)?.slug ?? null;
 const subjectHref = `/concursos/${contest.slug}/${subject.slug}/`;
 const currentSubjectId = studiedSubjectId(contest.storageId, subject.storageId);
@@ -64,7 +66,7 @@ const contestTitleStart = contestMiddleTruncated
     </nav>
 
     <header class="subject-heading">
-      <p class="subject-title">{subject.title}</p>
+      <p class="subject-title">{displayTitle}</p>
       <p>{subject.description}</p>
     </header>
 
@@ -105,7 +107,8 @@ const contestTitleStart = contestMiddleTruncated
             contestStorageId={contest.storageId}
             contestTitle={contest.title}
             subjectSlug={subject.slug}
-            subjectTitle={subject.title}
+            subjectTitle={displayTitle}
+            subjectTitleRaw={subject.title}
             subjectStorageId={subject.storageId}
             subjectHref={subjectHref}
             questionSetRevision={subject.questionSetEntry.data.questionSetRevision}
@@ -134,7 +137,8 @@ const contestTitleStart = contestMiddleTruncated
           contestStorageId={contest.storageId}
           contestTitle={contest.title}
           subjectSlug={subject.slug}
-          subjectTitle={subject.title}
+          subjectTitle={displayTitle}
+          subjectTitleRaw={subject.title}
           subjectStorageId={subject.storageId}
           subjectHref={subjectHref}
           questionSetRevision={subject.questionSetEntry.data.questionSetRevision}

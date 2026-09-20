@@ -10,6 +10,10 @@ const CATALOG_GROUPS_STORAGE_KEY = 'concursos:catalog-groups';
 const examplePath = '/concursos/concurso-exemplo/';
 const exampleGroupHeading = 'Administração pública';
 const exampleSubject = 'Fundamentos de administração pública';
+// Títulos numerados dinamicamente por grupo imediato (subject-numbering).
+const readingDisplay = `1. ${readingTitle}`;
+const typesDisplay = `2. ${typesTitle}`;
+const exampleDisplay = `1. ${exampleSubject}`;
 const portugueseGroupId =
   'tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa';
 const foreignGroupId = 'concurso-exemplo/administracao-publica';
@@ -40,11 +44,11 @@ test('renders grouped catalogs while preserving short public routes', async ({ p
   const portugueseSection = generalSection.locator('details.subject-group-section', {
     has: page.getByRole('heading', { name: 'Língua Portuguesa', level: 3 }),
   });
-  await expect(portugueseSection.getByRole('link', { name: readingTitle, exact: true })).toHaveAttribute(
+  await expect(portugueseSection.getByRole('link', { name: readingDisplay, exact: true })).toHaveAttribute(
     'href',
     readingPath,
   );
-  await expect(portugueseSection.getByRole('link', { name: typesTitle, exact: true })).toHaveAttribute(
+  await expect(portugueseSection.getByRole('link', { name: typesDisplay, exact: true })).toHaveAttribute(
     'href',
     typesPath,
   );
@@ -79,7 +83,7 @@ test('renders grouped catalogs while preserving short public routes', async ({ p
 
   await page.goto(examplePath);
   const exampleSection = groupByHeading(page, exampleGroupHeading, 2);
-  await expect(exampleSection.getByRole('link', { name: exampleSubject, exact: true })).toHaveAttribute(
+  await expect(exampleSection.getByRole('link', { name: exampleDisplay, exact: true })).toHaveAttribute(
     'href',
     '/concursos/concurso-exemplo/assunto-exemplo/',
   );
@@ -93,11 +97,11 @@ test('renders each subject as a compact item with only the title (issue #99)', a
   await expect(card).toBeVisible();
 
   // O título é um link real para o assunto.
-  await expect(card.getByRole('link', { name: exampleSubject, exact: true })).toHaveAttribute(
+  await expect(card.getByRole('link', { name: exampleDisplay, exact: true })).toHaveAttribute(
     'href',
     '/concursos/concurso-exemplo/assunto-exemplo/',
   );
-  await expect(card.getByRole('link', { name: `Ler ${exampleSubject} sem distrações` })).toHaveAttribute(
+  await expect(card.getByRole('link', { name: `Ler ${exampleDisplay} sem distrações` })).toHaveAttribute(
     'href',
     '/concursos/concurso-exemplo/assunto-exemplo/#focus',
   );
@@ -105,7 +109,7 @@ test('renders each subject as a compact item with only the title (issue #99)', a
   // Sem alias/progresso, o item exibe exclusivamente o título como texto VISÍVEL
   // (badge de progresso oculto; o check de conclusão é apenas ícone, sem texto;
   // sem descrição).
-  await expect(card).toHaveText(exampleSubject, { useInnerText: true });
+  await expect(card).toHaveText(exampleDisplay, { useInnerText: true });
 
   // Nenhuma descrição de assunto é renderizada em qualquer item da listagem...
   await expect(page.locator('.subject-card p')).toHaveCount(0);
@@ -137,8 +141,8 @@ test('keeps catalog hierarchy available without JavaScript', async ({ browser })
   await expect(page.getByRole('heading', { name: 'Língua Portuguesa', level: 3 })).toBeVisible();
   // Sem JavaScript os grupos permanecem abertos (atributo estático `open`) e navegáveis.
   await expect(groupByHeading(page, 'Conhecimentos gerais', 2)).toHaveJSProperty('open', true);
-  await expect(page.getByRole('link', { name: readingTitle, exact: true })).toHaveAttribute('href', readingPath);
-  await expect(page.getByRole('link', { name: typesTitle, exact: true })).toHaveAttribute('href', typesPath);
+  await expect(page.getByRole('link', { name: readingDisplay, exact: true })).toHaveAttribute('href', readingPath);
+  await expect(page.getByRole('link', { name: typesDisplay, exact: true })).toHaveAttribute('href', typesPath);
   await expect(page.locator('[data-subject-tree-toggle]')).toBeHidden();
   await context.close();
 });
@@ -217,7 +221,7 @@ test('collapses a group and persists the choice across reloads', async ({ page }
   await seedCollapsedGroups(page, []);
   await page.goto(examplePath);
   const group = groupByHeading(page, exampleGroupHeading, 2);
-  const subjectLink = group.getByRole('link', { name: exampleSubject, exact: true });
+  const subjectLink = group.getByRole('link', { name: exampleDisplay, exact: true });
 
   await expect(group).toHaveJSProperty('open', true);
   await expect(subjectLink).toBeVisible();
@@ -235,7 +239,7 @@ test('collapses a group and persists the choice across reloads', async ({ page }
   await page.reload();
   const groupAfterReload = groupByHeading(page, exampleGroupHeading, 2);
   await expect(groupAfterReload).toHaveJSProperty('open', false);
-  await expect(groupAfterReload.getByRole('link', { name: exampleSubject, exact: true })).toBeHidden();
+  await expect(groupAfterReload.getByRole('link', { name: exampleDisplay, exact: true })).toBeHidden();
 });
 
 test('recovers from invalid localStorage and rewrites a valid document', async ({ page }) => {
@@ -252,7 +256,7 @@ test('recovers from invalid localStorage and rewrites a valid document', async (
 
   // Não quebrou: payload corrompido usa o default seguro de primeira visita.
   await expect(group).toHaveJSProperty('open', false);
-  await expect(group.getByRole('link', { name: exampleSubject, exact: true })).toBeHidden();
+  await expect(group.getByRole('link', { name: exampleDisplay, exact: true })).toBeHidden();
 
   // Prova de recuperação: o script rodou e ligou os ouvintes; expandir funciona e
   // sobrescreve o valor corrompido por um documento JSON válido (não apenas o
@@ -276,7 +280,7 @@ test('collapses one nested group without affecting its ancestor group', async ({
   const portuguese = general.locator('details.subject-group-section', {
     has: page.getByRole('heading', { name: 'Língua Portuguesa', level: 3 }),
   });
-  const portugueseLink = portuguese.getByRole('link', { name: readingTitle, exact: true });
+  const portugueseLink = portuguese.getByRole('link', { name: readingDisplay, exact: true });
 
   await expect(general).toHaveJSProperty('open', true);
   await expect(portuguese).toHaveJSProperty('open', true);

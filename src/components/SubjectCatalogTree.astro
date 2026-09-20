@@ -3,6 +3,7 @@ import ProgressSummary from './ProgressSummary.astro';
 import SubjectStudiedToggle from './SubjectStudiedToggle.astro';
 import type { CatalogContest, CatalogTreeNode } from '../lib/catalog';
 import { megaReviewRoute } from '../lib/mega-review-routes';
+import { displaySubjectTitle } from '../lib/subject-numbering';
 
 interface Props {
   contest: CatalogContest;
@@ -32,11 +33,36 @@ const rootTreeId = depth === 0 ? `subject-tree-${contest.storageId}` : undefined
 
 <ol class="subject-tree" data-depth={depth} id={rootTreeId}>
   {
-    nodes.map((node) =>
-      node.kind === 'subject' ? (
+    nodes.map((node) => {
+      if (node.kind !== 'subject') {
+        return (
+        <li class="subject-group">
+          <details class="subject-group-section" open data-group-id={node.id}>
+            <summary class="subject-group-summary">
+              <Heading class="subject-group-title">{node.title}</Heading>
+            </summary>
+            {node.description && <p class="subject-group-description">{node.description}</p>}
+            {node.megaReview && (
+              <p class="group-mega-review-entry" data-group-mega-review>
+                <a
+                  class="group-mega-review-link"
+                  href={megaReviewRoute(contest.slug, node.megaReview.slug)}
+                >
+                  <span class="group-mega-review-label">Mega revisão</span>
+                  <span>{node.megaReview.title}</span>
+                </a>
+              </p>
+            )}
+            <Astro.self contest={contest} nodes={node.children} depth={depth + 1} />
+          </details>
+        </li>
+        );
+      }
+      const displayTitle = displaySubjectTitle(contest, node);
+      return (
         <li class="subject-item">
           <article class="subject-card">
-            <a class="subject-card-title" href={`/concursos/${contest.slug}/${node.slug}/`}>{node.title}</a>
+            <a class="subject-card-title" href={`/concursos/${contest.slug}/${node.slug}/`}>{displayTitle}</a>
             <div class="subject-card-meta">
               <SubjectStudiedToggle
                 contestStorageId={contest.storageId}
@@ -45,7 +71,7 @@ const rootTreeId = depth === 0 ? `subject-tree-${contest.storageId}` : undefined
               <a
                 class="subject-reading-link"
                 href={`/concursos/${contest.slug}/${node.slug}/#focus`}
-                aria-label={`Ler ${node.title} sem distrações`}
+                aria-label={`Ler ${displayTitle} sem distrações`}
               >
                 <svg
                   class="subject-reading-icon"
@@ -71,29 +97,8 @@ const rootTreeId = depth === 0 ? `subject-tree-${contest.storageId}` : undefined
             </div>
           </article>
         </li>
-      ) : (
-        <li class="subject-group">
-          <details class="subject-group-section" open data-group-id={node.id}>
-            <summary class="subject-group-summary">
-              <Heading class="subject-group-title">{node.title}</Heading>
-            </summary>
-            {node.description && <p class="subject-group-description">{node.description}</p>}
-            {node.megaReview && (
-              <p class="group-mega-review-entry" data-group-mega-review>
-                <a
-                  class="group-mega-review-link"
-                  href={megaReviewRoute(contest.slug, node.megaReview.slug)}
-                >
-                  <span class="group-mega-review-label">Mega revisão</span>
-                  <span>{node.megaReview.title}</span>
-                </a>
-              </p>
-            )}
-            <Astro.self contest={contest} nodes={node.children} depth={depth + 1} />
-          </details>
-        </li>
-      ),
-    )
+      );
+    })
   }
 </ol>
 
