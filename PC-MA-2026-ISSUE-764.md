@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U109; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U110; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 49 | 0 | 109 |
-| Entregáveis de unidade C/H/Q | 474 | 147 | 0 | 327 |
+| Unidades reais previstas | 158 | 48 | 0 | 110 |
+| Entregáveis de unidade C/H/Q | 474 | 144 | 0 | 330 |
 | Tarefas macro individualizadas | 62 | 27 | 0 | 35 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U109` e `U144` = **109 unidades**. Pendentes: `U075`, `U110–U143`, `U145–U158` = **49 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U110` e `U144` = **110 unidades**. Pendentes: `U075`, `U111–U143`, `U145–U158` = **48 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **111 = 94 físicas locais + 17 vínculos canônicos**. U109 acrescentou uma visão física local; os demais números foram preservados. Não confundir 111 visões materializadas com 109 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **112 = 95 físicas locais + 17 vínculos canônicos**. U110 acrescentou uma visão física local; os demais números foram preservados. Não confundir 112 visões materializadas com 110 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
 Reservas ativas na transferência: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U110 — Organização administrativa da Polícia Civil do Maranhão — Lei Estadual 10.238/2015**, C/H/Q `pending`. U109 foi concluída e confirmada na `main`; PC-E12-C/H/Q continua `pending` enquanto U110–U111 não forem concluídas.
+**Próxima ação editorial: U111 — Lei Orgânica Nacional das Polícias Civis — Lei 14.735/2023**, C/H/Q `pending`. U110 foi concluída e confirmada na `main`; PC-E12-C/H/Q continua `pending` enquanto U111 não for concluída.
 
 ### Pendências e divergências herdadas
 
@@ -396,10 +396,10 @@ Classificação PC-R02 recebida: **U101 parcial**; **U098–U100 e U102–U111 n
 | 9 — responsabilização | U107 — Responsabilidade civil do Estado — `responsabilidade-civil-estado` | Responsabilidade civil do Estado. Desdobramento editorial do segundo núcleo do item 9; regime material próprio, sem repetir modalidades de controle de U106 | nova/local; apoio parcial de duas aparições físicas TCE; snapshot `6be4cab5ee0dfcfeec1895e24502aa68a7b9e0cf` | done | done | done |
 | 10 | U108 — Estatuto da Polícia Civil do Estado do Maranhão — Lei Estadual 8.508/2006 — `estatuto-policia-civil-maranhao-lei-8508` | Lei Estadual nº 8.508/2006 e alterações. Regime policial estadual; fronteira com U109, U110 e U111 deve ser explicitada por assunto | nova/local; sem doador integral; snapshot `93d0f6f0bfbe127f057867e52eee285743fd8d5c` | done | done | done |
 | 11 | U109 — Regime jurídico único dos servidores públicos civis do Maranhão — Lei Estadual 6.107/1994 — `regime-juridico-servidores-maranhao-lei-6107` | Lei Estadual nº 6.107/1994 e alterações. Regime geral estadual; não duplicar o estatuto policial específico de U108 | nova/local; apoio parcial TCE em deveres/proibições/responsabilidade; snapshot `0f63eb3e076913951efaa98f8d5aa36549a0baa7` | done | done | done |
-| 12 | U110 — Organização administrativa da Polícia Civil do Maranhão — Lei Estadual 10.238/2015 — `organizacao-policia-civil-maranhao-lei-10238` | Lei Estadual nº 10.238/2015 e alterações. Organização administrativa da PC-MA; ponte com U099 apenas para conceitos gerais, sem substituir a lei estadual | nova/local; sem doador integral | pending | pending | pending |
+| 12 | U110 — Organização administrativa da Polícia Civil do Maranhão — Lei Estadual 10.238/2015 — `organizacao-policia-civil-maranhao-lei-10238` | Lei Estadual nº 10.238/2015 e alterações. Organização administrativa da PC-MA; ponte com U099 apenas para conceitos gerais, sem substituir a lei estadual | nova/local; sem doador integral; snapshot `b5f2cdaeba834e7a432caa38db9b0a4d678983a2` | done | done | done |
 | 13 | U111 — Lei Orgânica Nacional das Polícias Civis — Lei 14.735/2023 — `lei-organica-nacional-policias-civis-lei-14735` | Lei nº 14.735/2023 no recorte integral exigido. Norma nacional; explicar articulação com U108–U110 sem fundir os diplomas | nova/local; sem doador integral | pending | pending | pending |
 
-**Ordem habilitada:** U098 é a primeira unidade pendente do bloco e não possui dependência editorial anterior não concluída. U101 deve ser pulada por estar `done`. A produção subsequente segue U099, U100, U102–U111, salvo dependência material comprovada ou pedido explícito.
+**Ordem habilitada:** U111 é a próxima unidade pendente deste bloco e está liberada porque U108–U110 já estão `done`. Depois dela, a seleção volta à ordem global habilitada, salvo dependência material comprovada ou pedido explícito.
 
 **Controle de corte:** todas as unidades usam corte legislativo de **13/7/2026** e a regra jurisprudencial registrada na seção 3. As leis estaduais/federais citadas devem ser revalidadas na produção; eventual revogação, alteração, conflito aparente ou problema de aplicabilidade será explicitado sem corrigir o edital silenciosamente.
 
@@ -465,6 +465,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U107 | `6be4cab5ee0dfcfeec1895e24502aa68a7b9e0cf` | 18 + 2 | FGV ALE-AM 2025, Procurador, questão 29, gabarito definitivo C; Cebraspe PC-RJ 2022, Delegado, questão 46, gabarito oficial publicado D |
 | U108 | `93d0f6f0bfbe127f057867e52eee285743fd8d5c` | 18 + 2 | Cebraspe PC-MA 2018, Investigador, questões 27 e 23, gabaritos definitivos C e B |
 | U109 | `0f63eb3e076913951efaa98f8d5aa36549a0baa7` | 18 + 2 | Cebraspe PC-MA 2018, Investigador, questões 28 e 29, gabaritos definitivos D e E |
+| U110 | `b5f2cdaeba834e7a432caa38db9b0a4d678983a2` | 22 + 0 | Prova oficial Cebraspe PC-MA 2018 auditada no bloco; nenhum item específico da Lei 10.238/2015 foi atribuído como anterior |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -523,24 +524,25 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U107 | `62b2d9d2bad2ab8f4cfce27abb941b14b7360f90` | `8369cc1819e4d3569cd13ded987f85bcef021b67` | `f49282e6231901515e6831e747e93b045f83419a` | `a96882894f85eac0a42355affe88ecb180d50648` |
 | U108 | `6ba372f271d05dc29b23c486b6e5e6500b436f0c` | `989d419aef1fcf1f6c6b17c30d0a251e3abf0354` | `877ad22879de884fc68742ae5466f7ed7ffe655b` | `b6c3bdd24a1f0151459a1cae8ab7925489fabf84` |
 | U109 | `5d1c9776571a26eb5a249c8fa72bd96fa86dc848` | `b68cc066c9003c2f42382b20cbbf5a456e923be2` | `7ea04378e6f64a7912598f987535a09d652b9a01` | `fe196f0c8ce1321df61985428d83254ad2fc4484` |
+| U110 | `964c165875d61266f3f7df2b0d43e961ee7f0bc2` | `c888aae3ef02991d110cbd3bc5bedd0ce6f8d401` | `497b6c948ff5960308625a9352b89103fab48311` | `d0214a0d4330fd0c8f59b9c6bd7d1ba3c202a75e` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`.
 
-### Último aceite — U109
+### Último aceite — U110
 
-Pacote do Regime jurídico único dos servidores públicos civis do Maranhão — Lei Estadual 6.107/1994: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u109`, `order: 109`. Snapshot editorial final `0f63eb3e076913951efaa98f8d5aa36549a0baa7`; base de publicação `2a7fbdb8253c51ffce5e5e69470a2cbbb68ebe09`. A comparação base→snapshot confirma **exatamente quatro arquivos da U109**, sem alterações laterais: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
+Pacote de Organização administrativa da Polícia Civil do Maranhão — Lei Estadual 10.238/2015: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u110`, `order: 110`. Snapshot editorial final `b5f2cdaeba834e7a432caa38db9b0a4d678983a2`; base de publicação `ba9925c6970770f8ce82c6cdcdfa262edced4db3`. A comparação base→snapshot confirma **exatamente quatro arquivos da U110**, sem alterações laterais: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
 
-A unidade permanece **nova/local**, sem `vinculo.json`. O único apoio parcial localizado foi o assunto do TCE-MA `administracao-recursos-materiais-patrimoniais/patrimonio-mobiliario-responsabilidade/`, utilizado somente para auditar deveres, proibições e responsabilidade funcional; ele não cobre o estatuto integral. Foram publicadas **20 questões — 18 autorais + 2 adaptações não literais verificadas** da prova Cebraspe da Polícia Civil do Maranhão para Investigador de 2018, questões 28 e 29, gabaritos definitivos D e E.
+A unidade permanece **nova/local**, sem `vinculo.json` e sem doador integral. O pacote publicou **22 questões autorais**. A prova oficial Cebraspe da Polícia Civil do Maranhão para Investigador de 2018 foi auditada no bloco de Direito Administrativo, mas não forneceu item específico da Lei 10.238/2015 que justificasse origem `previous_exam`; nenhuma banca, ano ou questão foi inventada.
 
-Recorte coberto: âmbito e conceitos; concurso, provimento, posse, exercício, readaptação, reversão, reintegração, recondução, disponibilidade e aproveitamento; vacância, remoção, redistribuição e substituição; vencimento, remuneração, subsídio, indenizações e adicionais; férias; licenças; atividade político-partidária; redução de jornada por dependente com deficiência; direito de petição; deveres, proibições, acumulação, responsabilidades e penalidades; prescrição disciplinar; sindicância, afastamento preventivo, processo administrativo disciplinar e revisão; além das fronteiras de contratação temporária e previdência.
+Recorte coberto: função da Lei 10.238/2015 frente ao Estatuto; leitura hierárquica do artigo 2º; núcleo central; Superintendências de Investigações Criminais, Prevenção e Combate à Corrupção, Homicídios e Proteção à Pessoa, Repressão ao Narcotráfico, Capital, Interior e Polícia Técnico-Científica; 23 delegacias regionais da redação de 2018; composição de delegacias e distritos; remissão a regimento próprio; anexos de cargos e funções; subordinação do Centro de Inteligência; alterações diretas da Lei 10.824/2018; Delegacias-Gerais Adjuntas; Academia; Seccionais; e o controle de constitucionalidade dos cargos comissionados de capelão.
 
-A unidade registra sem correção silenciosa duas literalidades antigas da Lei 6.107 que não prevalecem sobre a Constituição vigente: os artigos 23–24 ainda refletem probatório/estabilidade de 24 meses/dois anos, enquanto o artigo 41 constitucional exige **três anos de efetivo exercício e avaliação especial de desempenho**; o artigo 35 ainda menciona disponibilidade com remuneração integral, enquanto a Constituição determina **remuneração proporcional ao tempo de serviço** até o adequado aproveitamento.
+A unidade preserva sem correção silenciosa três pontos documentais: a versão consultada do artigo 2º salta do item 1 para 1.2 sem item 1.1; a instrução normativa institucional de 2023 reproduz a regra de competências por regimento, mas a rotula como artigo 3º, enquanto o texto legal consultado a numera como artigo 4º; e a base pesquisável da Lei 10.824 exibe ementa com referência numérica divergente à Lei 8.508, embora o artigo 1º e a coletânea oficial identifiquem corretamente o diploma alterado.
 
-Atualizações recentes incorporadas: Lei Estadual 11.720/2022, com redução de jornada de até metade para servidor com filho ou pessoa sob curatela com deficiência; Lei Estadual 11.766/2022, com disciplina atual da redistribuição; Lei Estadual 11.894/2023, que acrescentou vacância por posse em outro cargo inacumulável; e Lei Estadual 12.286/2024, que restabeleceu o artigo 88 exclusivamente para o grupo de tributação, arrecadação e fiscalização. A publicação da Lei 12.266/2024 foi auditada sem inferir alteração material da Lei 6.107 apenas por sua ementa.
+Fontes revalidadas: coletânea e arquivos institucionais da Polícia Civil do Maranhão para as Leis 10.238/2015 e 10.824/2018; histórico institucional da Academia; instruções normativas de 2023 para a fronteira entre estrutura e competência; decisão do Supremo Tribunal Federal na Ação Direta de Inconstitucionalidade 6669, com eficácia do recorte de inconstitucionalidade após 31/12/2022; e evidência institucional do Ministério Público do Maranhão sobre a diferença entre criação legal e instalação material da 23ª Delegacia Regional de Buriticupu.
 
-Fontes revalidadas: texto e cadastro legislativo do Tribunal de Justiça do Maranhão; Constituição Federal; alterações estaduais de 2015, 2016, 2021, 2022, 2023 e 2024; Lei Estadual 6.915/1997 como fronteira da contratação temporária; legislação previdenciária estadual superveniente como limite às redações históricas do estatuto; prova e gabarito definitivos Cebraspe de 2018. O material renderizado evita abreviações técnicas não ensinadas; provimento, vacância, provento, curatela e prescrição disciplinar foram explicados no corpo. O JSON permanece em texto puro. Corte legislativo preservado em **13/7/2026**; consulta/revalidação em 19/9/2026.
+O material evita siglas institucionais no texto didático sempre que o nome integral preserva a leitura e ensina, no primeiro uso relevante, termos como cinofilia, Comissariado, tanatologia forense e papiloscopia. O JSON permanece em texto puro. Corte legislativo preservado em **13/7/2026**; consulta/revalidação em **20/9/2026**.
 
-Próxima unidade habilitada: U110 — Organização administrativa da Polícia Civil do Maranhão — Lei Estadual 10.238/2015.
+Próxima unidade habilitada: U111 — Lei Orgânica Nacional das Polícias Civis — Lei 14.735/2023.
 
 ### Registros operacionais superados
 
