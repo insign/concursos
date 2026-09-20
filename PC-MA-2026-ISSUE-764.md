@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U112; PC-E12 permanece concluído e PC-E13 segue em execução; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U113; PC-E12 permanece concluído e PC-E13 segue em execução; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 46 | 0 | 112 |
-| Entregáveis de unidade C/H/Q | 474 | 138 | 0 | 336 |
+| Unidades reais previstas | 158 | 45 | 0 | 113 |
+| Entregáveis de unidade C/H/Q | 474 | 135 | 0 | 339 |
 | Tarefas macro individualizadas | 62 | 26 | 0 | 36 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U112` e `U144` = **112 unidades**. Pendentes: `U075`, `U113–U143`, `U145–U158` = **46 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U113` e `U144` = **113 unidades**. Pendentes: `U075`, `U114–U143`, `U145–U158` = **45 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **114 = 97 físicas locais + 17 vínculos canônicos**. U112 acrescentou uma visão física local; o novo `grupo.json` não é visão nem unidade. Não confundir 114 visões materializadas com 112 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **115 = 98 físicas locais + 17 vínculos canônicos**. U113 acrescentou uma visão física local; o `grupo.json` de Direito Constitucional já estava publicado desde U112 e não é visão nem unidade. Não confundir 115 visões materializadas com 113 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
 Reservas ativas na transferência: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U113 — Constituição Federal de 1988 — preâmbulo, princípios fundamentais, dignidade da pessoa humana e direitos humanos**, C/H/Q `pending`. U112 foi concluída e confirmou a publicação do grupo `direito-constitucional`; PC-E13-C/H/Q permanece `pending` como macro enquanto U113–U122 não forem concluídas.
+**Próxima ação editorial: U114 — Direitos e garantias fundamentais e remédios constitucionais**, C/H/Q `pending`. U113 foi concluída; PC-E13-C/H/Q permanece `pending` como macro enquanto U114–U122 não forem concluídas.
 
 ### Pendências e divergências herdadas
 
@@ -417,7 +417,7 @@ A classificação PC-R02 permanece autoritativa: **U112–U122 são novas/locais
 | Edital | ID / título / slug | Recorte, dependências e fronteiras | Apoio físico observado / SHA de árvore | C | H | Q |
 |---|---|---|---|---|---|---|
 | 1; 1.1 | U112 — Estado e Constituição — conceito, conteúdo, objeto e classificação — `estado-e-constituicao` | Estado e Constituição; conceito, conteúdo, objeto e classificação da Constituição. Abre o bloco; não antecipar emendas, princípios ou aplicabilidade além da ponte mínima | nova/local; TCE Noções `cf88-conceito-classificacoes-emendas/`, árvore `3ce14775185bf4a2a6f4b882e54d930666456cac`, usado seletivamente; snapshot `016c3b2c0a460ba9ee7036d587dbd237d375a6c6` | done | done | done |
-| 2; 2.1–2.2 | U113 — Constituição Federal de 1988 — preâmbulo, princípios fundamentais, dignidade da pessoa humana e direitos humanos — `cf88-preambulo-principios-fundamentais` | Constituição de 1988; preâmbulo; arts. 1º–4º; dignidade da pessoa humana e direitos humanos no recorte constitucional. Não absorver a teoria ampla de direitos humanos de PC-E15 | TCE Geral: `constituicao-1988-principios-fundamentais/`, árvore `c1bb5d3a9217278a4f6ae3921712c9e1a308a8da`; apoio parcial | pending | pending | pending |
+| 2; 2.1–2.2 | U113 — Constituição Federal de 1988 — preâmbulo, princípios fundamentais, dignidade da pessoa humana e direitos humanos — `cf88-preambulo-principios-fundamentais` | Constituição de 1988; preâmbulo; arts. 1º–4º; dignidade da pessoa humana e direitos humanos no recorte constitucional. Não absorver a teoria ampla de direitos humanos de PC-E15 | nova/local; apoio parcial TCE Geral `constituicao-1988-principios-fundamentais/`; snapshot `1e7a5014641826a8afa9edc4faa9c6484eda48fa` | done | done | done |
 | 3; 3.1; 4 | U114 — Direitos e garantias fundamentais e remédios constitucionais — `direitos-garantias-remedios-constitucionais` | Direitos/deveres individuais e coletivos; direitos sociais; nacionalidade; direitos políticos; partidos; habeas data, habeas corpus, mandado de segurança, ação popular e mandado de injunção. Única junção do bloco; U113 fornece apenas a ponte de dignidade/fundamentos | TCE Geral: `direitos-garantias-fundamentais/`, árvore `66bfa38ec2eb3396e22669ec1a0e577b1ee6cfa1`; forte apoio, mas o recorte integrado PC deve ser auditado e produzido localmente | pending | pending | pending |
 | 5; 5.1 | U115 — Organização político-administrativa do Estado — `organizacao-politico-administrativa-estado` | Estado federal brasileiro, União, Estados, Distrito Federal, Municípios e Territórios. Repartição de competências somente na medida necessária ao item; não importar automaticamente todo o pacote mais amplo do TCE | TCE Geral: `organizacao-politico-administrativa-estado/`, árvore `6b346ad5813a19438d8d7c865b0cc84f0575e652`; apoio parcial | pending | pending | pending |
 | 6; 6.1 | U116 — Administração pública e servidores públicos na Constituição — `administracao-publica-servidores-publicos` | Disposições gerais e servidores públicos, com foco no recorte constitucional. Dialoga com Direito Administrativo, mas não repete Lei 8.112/1990 nem estatutos estaduais/policiais | TCE Geral: `administracao-publica-servidores-publicos/`, árvore `1bf5080b4c7edbb3b1ae013fa813b812b68d0f3d`; escopo muito próximo, mas exige auditoria integral e corte PC | pending | pending | pending |
@@ -497,6 +497,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U110 | `b5f2cdaeba834e7a432caa38db9b0a4d678983a2` | 22 + 0 | Prova oficial Cebraspe PC-MA 2018 auditada no bloco; nenhum item específico da Lei 10.238/2015 foi atribuído como anterior |
 | U111 | `5c7516e3ca5eaacbfc092eaf6482ec35f12279e4` | 19 + 1 | Cebraspe PC-CE 2025, Delegado, questão 20, gabarito definitivo A |
 | U112 | `016c3b2c0a460ba9ee7036d587dbd237d375a6c6` | 18 + 2 | Cebraspe PGE-PR 2024, questão 1, gabarito definitivo D; Cebraspe TCE-RS 2025, itens 61–63, gabaritos definitivos E/E/C |
+| U113 | `1e7a5014641826a8afa9edc4faa9c6484eda48fa` | 19 + 1 | Cebraspe DPE-SE 2022, Defensor Público Substituto, questão 78, gabarito definitivo B |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -558,24 +559,25 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U110 | `964c165875d61266f3f7df2b0d43e961ee7f0bc2` | `c888aae3ef02991d110cbd3bc5bedd0ce6f8d401` | `497b6c948ff5960308625a9352b89103fab48311` | `d0214a0d4330fd0c8f59b9c6bd7d1ba3c202a75e` |
 | U111 | `fa434516ea2a7c3d3a629a55583bcb11a825c7a7` | `b6133549540651c89d2c10d2f21f2ed209584e7d` | `7d615dd04a3fa77d40e4a21399c3f320370c29c3` | `c87ceaabbf52cfd9a0325c53b893c5757a5215ba` |
 | U112 | `948995603d7d3192c000ce588c44a6ca9a4824d8` | `86418f376cd64cba3d41f5f2f9c77057e5cf57f4` | `c05b3e7eae39f8439b160d65a951245c02190d0c` | `3f7c801b4a402d7386d333e13db1684f66b8d2eb` |
+| U113 | `adf00fef2be25c59c6335db4f6dde1fc104fd3cc` | `f831d7b31ae014a4fb2e07a58b7e00c07c660206` | `12dff69a43787ad075ee1d50a1defea5e5733697` | `24ab8853ef6d008d3a482cf7908133eca5af0d86` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`.
 
-### Último aceite — U112
+### Último aceite — U113
 
-Pacote de Estado e Constituição — conceito, conteúdo, objeto e classificação: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u112`, `order: 112`. Snapshot editorial final `016c3b2c0a460ba9ee7036d587dbd237d375a6c6`; base de publicação `2aaeebdf88167ff0dc8b2cda3d7cea64aba11dd8`. A comparação base→snapshot confirma **exatamente cinco arquivos**, sem alterações laterais: o novo `direito-constitucional/grupo.json` e os quatro artefatos de U112 (`conteudo.md`, `cheat-sheet.md`, `referencias.md`, `questoes.json`).
+Pacote de Constituição Federal de 1988 — preâmbulo, princípios fundamentais, dignidade da pessoa humana e direitos humanos: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u113`, `order: 113`. Snapshot editorial final `1e7a5014641826a8afa9edc4faa9c6484eda48fa`; base de publicação `500fa32a42d799122b0e3d8f65e1bb843d350ca3`. A comparação base→snapshot confirma **exatamente quatro arquivos da U113**, sem alterações laterais: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
 
-A unidade permanece **nova/local**, sem `vinculo.json`. O apoio físico principal do TCE, `cf88-conceito-classificacoes-emendas/` (árvore `3ce14775185bf4a2a6f4b882e54d930666456cac`), foi lido integralmente e reutilizado apenas no recorte compatível de conceito/sentidos/classificações. Foram deliberadamente excluídos princípios fundamentais e processo de emenda constitucional, porque pertencem a U113 ou excedem o item 1/1.1. A ponte de Estado foi conferida contra U098 sem repetir Governo ou Administração pública.
+A unidade permanece **nova/local**, sem `vinculo.json`. O apoio físico do TCE-MA, `conhecimentos-gerais/direito-constitucional/constituicao-1988-principios-fundamentais/`, foi auditado integralmente e usado de modo parcial. U113 acrescenta a ponte específica entre dignidade da pessoa humana, não discriminação e prevalência dos direitos humanos exigida pelo recorte PC-MA, sem absorver o catálogo de direitos/remédios de U114 nem a teoria geral de direitos humanos de PC-E15.
 
-Foram publicadas **20 questões — 18 autorais + 2 adaptações não literais verificadas**. A primeira deriva da questão 1 da prova Cebraspe PGE-PR 2024, com gabarito definitivo D, sobre rigidez e imutabilidade temporária. A segunda reúne os itens 61–63 da prova Cebraspe TCE-RS 2025, gabaritos definitivos E/E/C, para discriminar Constituição analítica, rígida e promulgada. O padrão oral Cebraspe TJ-MA 2022 foi usado apenas como controle da distinção material/formal, e o TJ-SC 2022 como apoio às categorias promulgada, outorgada, cesarista e pactuada.
+Foram publicadas **20 questões — 19 autorais + 1 adaptação não literal verificada** da prova Cebraspe da Defensoria Pública do Estado de Sergipe para Defensor Público Substituto, aplicada em 13/3/2022, questão 78, gabarito oficial definitivo B. A questão original cobra a dignidade da pessoa humana como fundamento constitucional de proteção contra discriminação.
 
-Recorte coberto: Estado como organização político-jurídica e elementos básicos; povo versus população; relação Estado–Constituição; conceito e objeto constitucional; conteúdo material e posição formal; concepções sociológica de Ferdinand Lassalle, política de Carl Schmitt e jurídica de Hans Kelsen; classificações por origem, forma, elaboração, extensão, estabilidade, conteúdo, finalidade e orientação ideológica; classificação consolidada da Constituição de 1988 como promulgada, escrita, dogmática, analítica, rígida, formal, dirigente e eclética/pluralista.
+Recorte coberto: função e limite normativo do preâmbulo; Ação Direta de Inconstitucionalidade 2.076; Estado Democrático de Direito; os cinco fundamentos do artigo 1º; soberania popular; independência e harmonia dos Poderes; os quatro objetivos fundamentais do artigo 3º; os dez princípios das relações internacionais do artigo 4º; integração latino-americana; posição constitucional da dignidade da pessoa humana; não discriminação; prevalência dos direitos humanos; e distinção didática, não absoluta, entre direitos humanos e direitos fundamentais.
 
-Fontes revalidadas: Constituição Federal compilada no Planalto; acervo e cronologia da Assembleia Nacional Constituinte na Câmara dos Deputados; Revista de Informação Legislativa e Biblioteca Digital do Senado Federal; apoio conceitual da Escola Nacional de Administração Pública; cadernos e gabaritos oficiais Cebraspe PGE-PR 2024 e TCE-RS 2025. A produção preservou o corte legislativo de **13/7/2026**; o conteúdo não depende de alteração constitucional posterior ao corte.
+Fontes revalidadas: Constituição Federal compilada no Planalto, especialmente preâmbulo e artigos 1º–4º; Supremo Tribunal Federal na Ação Direta de Inconstitucionalidade 2.076 e no repositório Constituição e o Supremo; caderno e gabarito oficial definitivo Cebraspe DPE-SE 2022. O texto constitucional dos artigos 1º–4º foi conferido no corte de **13/7/2026**. O material não depende de alteração constitucional superveniente ao corte.
 
-Microglossário: não foram introduzidas siglas institucionais no texto didático; o único termo técnico antecipado, `infraconstitucional`, recebeu microdescrição inline. Os demais termos centrais — constituição material/formal, cesarista, pactuada, dogmática, histórica, analítica, sintética, rígida, flexível, semirrígida, dirigente, ortodoxa e eclética — são ensinados no corpo antes de serem exigidos. O JSON permanece em texto puro.
+Microglossário: não foram introduzidas siglas institucionais no texto didático e os conceitos centrais — Estado Democrático de Direito, fundamento, objetivo fundamental, princípio das relações internacionais, dignidade da pessoa humana e a distinção direitos humanos/direitos fundamentais — são explicados no corpo antes de serem exigidos. O JSON permanece em texto puro.
 
-Próxima unidade habilitada: U113 — Constituição Federal de 1988 — preâmbulo, princípios fundamentais, dignidade da pessoa humana e direitos humanos.
+Próxima unidade habilitada: U114 — Direitos e garantias fundamentais e remédios constitucionais.
 
 ### Registros operacionais superados
 
