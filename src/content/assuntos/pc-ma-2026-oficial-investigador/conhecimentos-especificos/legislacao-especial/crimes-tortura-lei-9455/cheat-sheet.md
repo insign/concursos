@@ -140,7 +140,7 @@ Lei também se aplica fora do Brasil se:
 - vítima for brasileira; **ou**
 - agente estiver em local sob jurisdição brasileira.
 
-Prova oral Cebraspe/PC-RO 2022: extraterritorialidade incondicionada.
+Prova oral da Polícia Civil de Rondônia em 2022: extraterritorialidade incondicionada.
 
 **Aplicação da lei brasileira ≠ competência federal automática.**
 

@@ -27,13 +27,13 @@
 7. **Superior Tribunal de Justiça. “Restabelecida sentença que condenou policiais militares por tortura qualificada contra assaltantes”.** Decisão divulgada em 24 ago. 2018. A tortura do artigo 1º, I, a, não exige sofrimento qualificado como “intenso”; a intensidade é elemento expresso da tortura-castigo do inciso II.  
    https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias-antigas/2018/2018-08-24_06-55_Restabelecida-sentenca-que-condenou-policiais-militares-por-tortura-qualificada-contra-assaltantes.aspx
 
-8. **Superior Tribunal de Justiça. Informativo de Jurisprudência nº 633 — Recurso Especial 1.738.264/DF.** Tortura-castigo como crime próprio; necessidade de o agente deter a vítima sob guarda, poder ou autoridade, em posição de garante.  
+8. **Superior Tribunal de Justiça. Informativo de Jurisprudência nº 633 — Recurso Especial 1.738.264, Distrito Federal.** Tortura-castigo como crime próprio; necessidade de o agente deter a vítima sob guarda, poder ou autoridade, em posição de garante.  
    https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisar&aplicacao=informativo&livre=%40CNOT%3D%27016781%27
 
 9. **Superior Tribunal de Justiça. Informativo de Jurisprudência, edição extraordinária nº 27, de 29 jul. 2025.** Reafirma que mera hierarquia informal entre detentos não substitui a posição de garante exigida pela tortura-castigo.  
    https://scon.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=%270027E%27.cod.
 
-10. **Superior Tribunal de Justiça. Recurso Especial 2.198.283/RS.** Sexta Turma, publicação em 16 jun. 2026. Reafirma a natureza própria da tortura-castigo e, no caso de violência doméstica julgado, reconhece relação de poder derivada de união estável preexistente e comprovada submissão da vítima.  
+10. **Superior Tribunal de Justiça. Recurso Especial 2.198.283, Rio Grande do Sul.** Sexta Turma, publicação em 16 jun. 2026. Reafirma a natureza própria da tortura-castigo e, no caso de violência doméstica julgado, reconhece relação de poder derivada de união estável preexistente e comprovada submissão da vítima.  
     https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?num_registro=202500532637
 
 11. **Superior Tribunal de Justiça. Informativo de Jurisprudência nº 799.** A agravante do Código Penal por crime contra descendente pode incidir na tortura-castigo sem dupla valoração automática, pois a relação de descendência não se confunde com a elementar guarda, poder ou autoridade.  
@@ -42,7 +42,7 @@
 12. **Superior Tribunal de Justiça. “Restabelecida perda de cargo público a policial condenado por tortura”.** Sexta Turma; notícia de 9 out. 2019. Reconhecimento da perda do cargo como efeito automático e obrigatório da condenação pelo crime de tortura, distinguindo esse efeito de cassação de aposentadoria.  
     https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias-antigas/2019/Restabelecida-perda-de-cargo-publico-a-policial-condenado-por-tortura-em-Cuiaba.aspx
 
-13. **Superior Tribunal de Justiça. Conflito de Competência 107.397/DF.** Terceira Seção, julgamento em 24 set. 2014. A aplicação da Lei de Tortura a crime cometido no exterior contra brasileiros não torna, por si só, a Justiça Federal competente; no caso, declarou-se competente a Justiça Estadual.  
+13. **Superior Tribunal de Justiça. Conflito de Competência 107.397, Distrito Federal.** Terceira Seção, julgamento em 24 set. 2014. A aplicação da Lei de Tortura a crime cometido no exterior contra brasileiros não torna, por si só, a Justiça Federal competente; no caso, declarou-se competente a Justiça Estadual.  
     https://www.stj.jus.br/websecstj/cgi/revista/REJ.cgi/ITA?CodOrgaoJgdr=&SeqCgrmaSessao=&dt=20141001&formato=PDF&nreg=200901581919&salvar=false&seq=1352228&tipo=0
 
 ### Corte jurisprudencial
