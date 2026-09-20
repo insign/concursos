@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u108-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Lei Estadual 8.508/2006, o regime jurídico dos servidores da Polícia Civil do Maranhão",
+      "options": [
+        {
+          "id": "A",
+          "text": "é integralmente autônomo e exclui a Lei Estadual 6.107/1994."
+        },
+        {
+          "id": "B",
+          "text": "combina o regime geral da Lei Estadual 6.107/1994 com normas específicas da atividade policial, naquilo que for compatível."
+        },
+        {
+          "id": "C",
+          "text": "é regido exclusivamente pela Lei Federal 8.112/1990."
+        },
+        {
+          "id": "D",
+          "text": "aplica apenas a Lei Orgânica Nacional das Polícias Civis."
+        },
+        {
+          "id": "E",
+          "text": "depende de regulamento federal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 2º faz a ponte com a Lei Estadual 6.107/1994 e preserva as normas específicas da atividade policial naquilo que não conflitarem com o estatuto."
+    },
+    {
+      "id": "u108-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os princípios institucionais expressamente previstos na Lei Estadual 8.508/2006 estão",
+      "options": [
+        {
+          "id": "A",
+          "text": "hierarquia, disciplina, defesa da cidadania e dos direitos humanos, legalidade e probidade."
+        },
+        {
+          "id": "B",
+          "text": "sigilo absoluto, supremacia hierárquica e livre convencimento."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente hierarquia e disciplina."
+        },
+        {
+          "id": "D",
+          "text": "autonomia funcional irrestrita e soberania policial."
+        },
+        {
+          "id": "E",
+          "text": "reserva de jurisdição e independência orgânica do Poder Executivo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 3º reúne respeito ao Estado Democrático de Direito, cidadania e direitos humanos, hierarquia, disciplina, legalidade e probidade."
+    },
+    {
+      "id": "u108-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a alteração promovida em 2018, integra a estrutura enumerada no artigo 5º da Lei Estadual 8.508/2006",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Academia de Polícia Civil."
+        },
+        {
+          "id": "B",
+          "text": "o Tribunal de Contas do Estado."
+        },
+        {
+          "id": "C",
+          "text": "o Ministério Público Estadual."
+        },
+        {
+          "id": "D",
+          "text": "a Polícia Militar como órgão subordinado."
+        },
+        {
+          "id": "E",
+          "text": "o Poder Judiciário estadual."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei Estadual 10.824/2018 reinseriu a Academia de Polícia Civil na estrutura da instituição e alterou, entre outros, o artigo 5º."
+    },
+    {
+      "id": "u108-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O caput atual do artigo 7º da Lei Estadual 8.508/2006 prevê que o Delegado-Geral seja",
+      "options": [
+        {
+          "id": "A",
+          "text": "eleito obrigatoriamente por todos os policiais civis."
+        },
+        {
+          "id": "B",
+          "text": "livremente escolhido pelo Governador entre Delegados de Polícia em atividade com dez anos de efetivo exercício em atividade policial."
+        },
+        {
+          "id": "C",
+          "text": "escolhido por concurso específico para mandato fixo."
+        },
+        {
+          "id": "D",
+          "text": "nomeado pelo Conselho de Polícia Civil entre qualquer servidor estável."
+        },
+        {
+          "id": "E",
+          "text": "indicado pelo Tribunal de Justiça."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei Estadual 10.824/2018 alterou o caput do artigo 7º. Os parágrafos antigos ainda preservam referências ao modelo anterior, o que exige leitura cautelosa da literalidade."
+    },
+    {
+      "id": "u108-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à jornada prevista no artigo 14 da Lei Estadual 8.508/2006, a regra estatutária é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "mínimo de 20 horas semanais."
+        },
+        {
+          "id": "B",
+          "text": "mínimo de 30 horas semanais."
+        },
+        {
+          "id": "C",
+          "text": "mínimo de 40 horas semanais."
+        },
+        {
+          "id": "D",
+          "text": "exatamente 44 horas semanais, sem exceção."
+        },
+        {
+          "id": "E",
+          "text": "livre fixação por cada unidade policial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 14, não revogado pela Lei Estadual 8.957/2009, fixa jornada mínima de 40 horas semanais."
+    },
+    {
+      "id": "u108-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei Estadual 8.957/2009 e a Lei Estadual 9.712/2012, qual situação de vigência está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os artigos 19 e 20 permanecem revogados."
+        },
+        {
+          "id": "B",
+          "text": "Os artigos 28 a 42 foram repristinados."
+        },
+        {
+          "id": "C",
+          "text": "Os artigos 19 e 20 foram repristinados, enquanto os artigos 28 a 42 permanecem revogados."
+        },
+        {
+          "id": "D",
+          "text": "O artigo 14 foi revogado e o artigo 13 permaneceu vigente."
+        },
+        {
+          "id": "E",
+          "text": "Toda a parte de carreira de 2006 voltou a vigorar em 2012."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei 8.957/2009 revogou os artigos 13, 15–20 e 28–42; a Lei 9.712/2012 repristinou especificamente os artigos 19 e 20."
+    },
+    {
+      "id": "u108-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei Estadual 9.712/2012 acrescentou ao artigo 20 da Lei Estadual 8.508/2006 a regra de que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o teste de aptidão física é facultativo para cargos administrativos."
+        },
+        {
+          "id": "B",
+          "text": "o teste de aptidão física para todos os cargos do grupo de atividades de Polícia Civil tem caráter eliminatório."
+        },
+        {
+          "id": "C",
+          "text": "somente Delegados fazem teste físico eliminatório."
+        },
+        {
+          "id": "D",
+          "text": "o curso de formação tem caráter apenas classificatório."
+        },
+        {
+          "id": "E",
+          "text": "o exame médico substitui toda investigação social."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único acrescentado em 2012 torna eliminatório o teste de aptidão física para todos os cargos do grupo policial."
+    },
+    {
+      "id": "u108-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O estágio probatório previsto na Lei Estadual 8.508/2006 tem duração de",
+      "options": [
+        {
+          "id": "A",
+          "text": "dois anos."
+        },
+        {
+          "id": "B",
+          "text": "três anos de efetivo exercício."
+        },
+        {
+          "id": "C",
+          "text": "quatro anos."
+        },
+        {
+          "id": "D",
+          "text": "cinco anos."
+        },
+        {
+          "id": "E",
+          "text": "um ano, prorrogável por outro."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os artigos 21 e 22 trabalham com três anos de efetivo exercício e estabelecem critérios especiais de avaliação ligados à atividade policial."
+    },
+    {
+      "id": "u108-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na avaliação do estágio probatório, a Lei Estadual 8.508/2006 considera, além de outros critérios,",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas quantidade de prisões realizadas."
+        },
+        {
+          "id": "B",
+          "text": "adaptação e dedicação, equilíbrio emocional, respeito à dignidade e integridade das pessoas e observância de deveres e ética."
+        },
+        {
+          "id": "C",
+          "text": "somente produtividade numérica."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente avaliação por colegas da mesma classe."
+        },
+        {
+          "id": "E",
+          "text": "apenas frequência em curso externo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O estatuto acrescenta critérios específicos adequados à função policial, e o treinamento obrigatório também integra a avaliação."
+    },
+    {
+      "id": "u108-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na remoção de policial civil, o prazo de trânsito previsto no estatuto é, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 horas sem mudança de sede e 10 dias com mudança de sede."
+        },
+        {
+          "id": "B",
+          "text": "5 dias sem mudança e 30 dias com mudança."
+        },
+        {
+          "id": "C",
+          "text": "10 dias em qualquer caso."
+        },
+        {
+          "id": "D",
+          "text": "48 horas sem mudança e 15 dias com mudança."
+        },
+        {
+          "id": "E",
+          "text": "não existe prazo estatutário."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os artigos de remoção distinguem apresentação em 24 horas quando não há mudança de sede e trânsito de 10 dias quando há mudança."
+    },
+    {
+      "id": "u108-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Como regra, nova remoção com mudança de sede antes de decorridos dois anos",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre automática."
+        },
+        {
+          "id": "B",
+          "text": "é vedada, salvo decisão motivada do Conselho de Polícia Civil nas condições legais."
+        },
+        {
+          "id": "C",
+          "text": "depende apenas de autorização do servidor."
+        },
+        {
+          "id": "D",
+          "text": "é obrigatória a cada promoção."
+        },
+        {
+          "id": "E",
+          "text": "somente pode ser feita pelo Poder Judiciário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O estatuto impõe intervalo de dois anos como regra, admitindo exceção por decisão motivada do Conselho."
+    },
+    {
+      "id": "u108-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a classificação disciplinar da Lei Estadual 8.508/2006, as faixas de suspensão para transgressões leves, médias e graves são, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "1–10, 11–30 e 31–90 dias."
+        },
+        {
+          "id": "B",
+          "text": "1–15, 16–45 e 46–180 dias."
+        },
+        {
+          "id": "C",
+          "text": "até 30, até 60 e até 120 dias."
+        },
+        {
+          "id": "D",
+          "text": "apenas advertência, repreensão e demissão."
+        },
+        {
+          "id": "E",
+          "text": "5–10, 20–40 e 60–120 dias."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 57 fixa 1 a 10 dias para falta leve, 11 a 30 para média e 31 a 90 para grave."
+    },
+    {
+      "id": "u108-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É hipótese estatutária de demissão",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer atraso isolado de poucos minutos."
+        },
+        {
+          "id": "B",
+          "text": "usar pessoal ou recursos materiais públicos em serviço ou atividade particular."
+        },
+        {
+          "id": "C",
+          "text": "formular pedido de reconsideração."
+        },
+        {
+          "id": "D",
+          "text": "participar de curso de formação."
+        },
+        {
+          "id": "E",
+          "text": "requerer remoção por permuta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 58 inclui entre as hipóteses de demissão o uso de pessoal ou recursos materiais públicos em serviço ou atividade particular."
+    },
+    {
+      "id": "u108-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os prazos prescricionais disciplinares do estatuto são, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "180 dias para advertência/repreensão, 2 anos para suspensão e 5 anos para demissão, cassação ou destituição."
+        },
+        {
+          "id": "B",
+          "text": "1, 2 e 3 anos para qualquer penalidade."
+        },
+        {
+          "id": "C",
+          "text": "5 anos para todas as infrações."
+        },
+        {
+          "id": "D",
+          "text": "90 dias, 1 ano e 2 anos."
+        },
+        {
+          "id": "E",
+          "text": "imprescritíveis."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 70 estabelece esses prazos e remete ao prazo penal quando a infração também constituir crime, nas condições legais."
+    },
+    {
+      "id": "u108-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A sindicância prevista na Lei Estadual 8.508/2006",
+      "options": [
+        {
+          "id": "A",
+          "text": "só pode resultar em arquivamento."
+        },
+        {
+          "id": "B",
+          "text": "pode resultar em arquivamento, advertência, suspensão de até 30 dias ou instauração de processo administrativo disciplinar."
+        },
+        {
+          "id": "C",
+          "text": "pode aplicar diretamente demissão pelo presidente da comissão."
+        },
+        {
+          "id": "D",
+          "text": "dispensa defesa."
+        },
+        {
+          "id": "E",
+          "text": "tem prazo improrrogável de 180 dias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 75 prevê essas saídas; a sindicância tem prazo de 30 dias, prorrogável uma vez por igual período mediante justificativa."
+    },
+    {
+      "id": "u108-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O processo administrativo disciplinar é obrigatório quando a infração puder gerar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas advertência."
+        },
+        {
+          "id": "B",
+          "text": "suspensão superior a 30 dias, demissão, cassação ou destituição de cargo em comissão."
+        },
+        {
+          "id": "C",
+          "text": "qualquer elogio funcional."
+        },
+        {
+          "id": "D",
+          "text": "remoção a pedido."
+        },
+        {
+          "id": "E",
+          "text": "somente multa de trânsito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 76 reserva o processo disciplinar para infrações potencialmente sujeitas às sanções mais graves, inclusive suspensão superior a 30 dias."
+    },
+    {
+      "id": "u108-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O afastamento preventivo no processo disciplinar pode durar",
+      "options": [
+        {
+          "id": "A",
+          "text": "até 30 dias, sem prorrogação."
+        },
+        {
+          "id": "B",
+          "text": "até 60 dias, prorrogável uma vez por igual período."
+        },
+        {
+          "id": "C",
+          "text": "até 90 dias, prorrogável indefinidamente."
+        },
+        {
+          "id": "D",
+          "text": "um ano."
+        },
+        {
+          "id": "E",
+          "text": "até o trânsito em julgado penal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 77 admite até 60 dias, com uma prorrogação igual. Trata-se de medida cautelar, não de penalidade antecipada."
+    },
+    {
+      "id": "u108-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na revisão do processo disciplinar, a Lei Estadual 8.508/2006 estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a penalidade pode ser agravada livremente."
+        },
+        {
+          "id": "B",
+          "text": "a simples alegação de injustiça basta."
+        },
+        {
+          "id": "C",
+          "text": "fatos ou circunstâncias novas podem fundamentar revisão, e dela não pode resultar agravamento da penalidade."
+        },
+        {
+          "id": "D",
+          "text": "a revisão só pode ser requerida em 30 dias."
+        },
+        {
+          "id": "E",
+          "text": "a mesma comissão original deve obrigatoriamente julgar a revisão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A revisão exige fundamento novo capaz de demonstrar inocência ou inadequação da pena; não serve para mera inconformidade e não pode piorar a situação do punido."
+    },
+    {
+      "id": "u108-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 27 da prova Cebraspe para Investigador de Polícia do Maranhão, aplicada em 28/1/2018, qual atividade é função expressamente prevista para a Polícia Civil na Lei Estadual 8.508/2006?",
+      "options": [
+        {
+          "id": "A",
+          "text": "realizar vigilância privada de empresas durante a noite."
+        },
+        {
+          "id": "B",
+          "text": "promover desenvolvimento profissional exclusivamente por consórcio universitário."
+        },
+        {
+          "id": "C",
+          "text": "ter acesso aos bancos de dados existentes nos órgãos de segurança pública."
+        },
+        {
+          "id": "D",
+          "text": "realizar correições apenas em caráter permanente."
+        },
+        {
+          "id": "E",
+          "text": "substituir o Governador na expedição de identidade funcional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O gabarito oficial definitivo da questão original é C. A Lei 8.508 inclui entre as funções da Polícia Civil o acesso aos bancos de dados existentes nos órgãos de segurança pública. A redação foi adaptada sem reprodução literal."
+    },
+    {
+      "id": "u108-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 23 da mesma prova Cebraspe de 2018, um policial civil utiliza por meses equipamentos de informática da repartição para atividade empresarial particular de familiar. À luz da Lei Estadual 8.508/2006, a consequência disciplinar prevista para o núcleo dessa conduta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "advertência aplicada pela chefia imediata."
+        },
+        {
+          "id": "B",
+          "text": "demissão, cuja decisão final compete ao Governador do Estado."
+        },
+        {
+          "id": "C",
+          "text": "suspensão máxima de 10 dias."
+        },
+        {
+          "id": "D",
+          "text": "repreensão sem processo."
+        },
+        {
+          "id": "E",
+          "text": "apenas ressarcimento do equipamento, sem infração disciplinar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O gabarito oficial definitivo da questão original é B. O artigo 58 prevê demissão pelo uso de pessoal ou recursos materiais públicos em serviço ou atividade particular, e o artigo 126 reserva ao Governador o julgamento final da demissão. A adaptação isola o fundamento estadual pertinente."
+    }
+  ]
+}
