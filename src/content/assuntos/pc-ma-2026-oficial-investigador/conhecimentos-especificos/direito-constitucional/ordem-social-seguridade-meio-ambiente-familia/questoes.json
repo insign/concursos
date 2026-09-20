@@ -1,0 +1,846 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u122-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ordem social, segundo o art. 193 da Constituição, tem como base e objetivos, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a livre concorrência; o desenvolvimento nacional e a soberania."
+        },
+        {
+          "id": "B",
+          "text": "o primado do trabalho; o bem-estar e a justiça sociais."
+        },
+        {
+          "id": "C",
+          "text": "a propriedade privada; a redução de desigualdades."
+        },
+        {
+          "id": "D",
+          "text": "a seguridade social; a liberdade econômica."
+        },
+        {
+          "id": "E",
+          "text": "a cidadania; a erradicação da pobreza."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 193 fixa o primado do trabalho como base e o bem-estar e a justiça sociais como objetivos da ordem social."
+    },
+    {
+      "id": "u122-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O parágrafo único do art. 193 prevê que o Estado exerça a função de planejamento das políticas sociais",
+      "options": [
+        {
+          "id": "A",
+          "text": "sem participação da sociedade."
+        },
+        {
+          "id": "B",
+          "text": "assegurando, na forma da lei, participação da sociedade na formulação, monitoramento, controle e avaliação."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente por meio do Congresso Nacional."
+        },
+        {
+          "id": "D",
+          "text": "somente quando houver calamidade pública."
+        },
+        {
+          "id": "E",
+          "text": "apenas para políticas previdenciárias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A EC 108/2020 acrescentou a participação social nas etapas indicadas do planejamento das políticas sociais."
+    },
+    {
+      "id": "u122-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A seguridade social compreende um conjunto integrado de ações destinado a assegurar direitos relativos a",
+      "options": [
+        {
+          "id": "A",
+          "text": "saúde, previdência e assistência social."
+        },
+        {
+          "id": "B",
+          "text": "educação, cultura e desporto."
+        },
+        {
+          "id": "C",
+          "text": "segurança pública, saúde e trabalho."
+        },
+        {
+          "id": "D",
+          "text": "previdência, habitação e transporte."
+        },
+        {
+          "id": "E",
+          "text": "assistência, meio ambiente e educação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 194 reúne saúde, previdência social e assistência social."
+    },
+    {
+      "id": "u122-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os objetivos constitucionais da seguridade social está",
+      "options": [
+        {
+          "id": "A",
+          "text": "concentração administrativa obrigatória na União."
+        },
+        {
+          "id": "B",
+          "text": "uniformidade e equivalência dos benefícios e serviços às populações urbanas e rurais."
+        },
+        {
+          "id": "C",
+          "text": "financiamento por uma única fonte."
+        },
+        {
+          "id": "D",
+          "text": "exclusão dos aposentados da gestão colegiada."
+        },
+        {
+          "id": "E",
+          "text": "redução nominal dos benefícios já concedidos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Uniformidade e equivalência entre populações urbanas e rurais é objetivo expresso do art. 194."
+    },
+    {
+      "id": "u122-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A gestão da seguridade social é constitucionalmente caracterizada por",
+      "options": [
+        {
+          "id": "A",
+          "text": "administração centralizada sem colegiados."
+        },
+        {
+          "id": "B",
+          "text": "gestão quadripartite, com trabalhadores, empregadores, aposentados e Governo nos órgãos colegiados."
+        },
+        {
+          "id": "C",
+          "text": "participação exclusiva de empregadores."
+        },
+        {
+          "id": "D",
+          "text": "gestão bipartite entre União e Estados."
+        },
+        {
+          "id": "E",
+          "text": "direção exclusiva do Poder Judiciário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 194, parágrafo único, VII, prevê caráter democrático e descentralizado, com gestão quadripartite."
+    },
+    {
+      "id": "u122-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A seguridade social é financiada",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente pela União."
+        },
+        {
+          "id": "B",
+          "text": "apenas por contribuições de trabalhadores."
+        },
+        {
+          "id": "C",
+          "text": "por toda a sociedade, de forma direta e indireta, nos termos da lei."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente por empregadores."
+        },
+        {
+          "id": "E",
+          "text": "apenas pelos orçamentos estaduais."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "É a regra geral do caput do art. 195."
+    },
+    {
+      "id": "u122-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nenhum benefício ou serviço da seguridade social pode ser criado, majorado ou estendido",
+      "options": [
+        {
+          "id": "A",
+          "text": "sem a correspondente fonte de custeio total."
+        },
+        {
+          "id": "B",
+          "text": "sem autorização do Supremo Tribunal Federal."
+        },
+        {
+          "id": "C",
+          "text": "antes de cinco anos da lei anterior."
+        },
+        {
+          "id": "D",
+          "text": "sem contribuição individual do beneficiário."
+        },
+        {
+          "id": "E",
+          "text": "fora da lei orçamentária anual."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 195, § 5º, consagra a exigência de fonte de custeio total."
+    },
+    {
+      "id": "u122-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As contribuições sociais do art. 195 somente podem ser exigidas, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "no exercício financeiro seguinte, necessariamente."
+        },
+        {
+          "id": "B",
+          "text": "depois de decorridos noventa dias da publicação da lei que as instituiu ou modificou."
+        },
+        {
+          "id": "C",
+          "text": "imediatamente após a sanção."
+        },
+        {
+          "id": "D",
+          "text": "depois de cento e oitenta dias."
+        },
+        {
+          "id": "E",
+          "text": "apenas após referendo popular."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 195, § 6º, prevê anterioridade de noventa dias e afasta a anterioridade anual do art. 150, III, b."
+    },
+    {
+      "id": "u122-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A saúde é definida pela Constituição como",
+      "options": [
+        {
+          "id": "A",
+          "text": "benefício contributivo da previdência."
+        },
+        {
+          "id": "B",
+          "text": "direito de todos e dever do Estado."
+        },
+        {
+          "id": "C",
+          "text": "serviço reservado aos trabalhadores segurados."
+        },
+        {
+          "id": "D",
+          "text": "competência exclusiva da iniciativa privada."
+        },
+        {
+          "id": "E",
+          "text": "assistência condicionada à contribuição."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 196 assegura saúde como direito de todos e dever do Estado, com acesso universal e igualitário."
+    },
+    {
+      "id": "u122-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as diretrizes constitucionais da rede pública de saúde está",
+      "options": [
+        {
+          "id": "A",
+          "text": "centralização integral na União."
+        },
+        {
+          "id": "B",
+          "text": "descentralização, com direção única em cada esfera de governo."
+        },
+        {
+          "id": "C",
+          "text": "prioridade exclusiva ao atendimento curativo."
+        },
+        {
+          "id": "D",
+          "text": "proibição da participação da comunidade."
+        },
+        {
+          "id": "E",
+          "text": "eliminação da regionalização."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 198 combina descentralização com direção única em cada esfera, atendimento integral e participação da comunidade."
+    },
+    {
+      "id": "u122-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A participação de instituições privadas no sistema público de saúde ocorre, constitucionalmente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "de modo complementar, segundo as diretrizes do sistema, com preferência às filantrópicas e sem fins lucrativos."
+        },
+        {
+          "id": "B",
+          "text": "de modo substitutivo e obrigatório."
+        },
+        {
+          "id": "C",
+          "text": "somente mediante autorização judicial."
+        },
+        {
+          "id": "D",
+          "text": "com prioridade para instituições lucrativas."
+        },
+        {
+          "id": "E",
+          "text": "sem qualquer contrato ou convênio."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 199, § 1º, permite participação complementar e dá preferência às entidades filantrópicas e sem fins lucrativos."
+    },
+    {
+      "id": "u122-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O regime geral de previdência social tem caráter",
+      "options": [
+        {
+          "id": "A",
+          "text": "assistencial e de filiação facultativa."
+        },
+        {
+          "id": "B",
+          "text": "contributivo e de filiação obrigatória, com equilíbrio financeiro e atuarial."
+        },
+        {
+          "id": "C",
+          "text": "não contributivo e universal."
+        },
+        {
+          "id": "D",
+          "text": "facultativo para todos os trabalhadores."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente privado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O caput do art. 201 fixa caráter contributivo, filiação obrigatória e preservação do equilíbrio financeiro e atuarial."
+    },
+    {
+      "id": "u122-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No regime geral, as idades constitucionais gerais de aposentadoria são",
+      "options": [
+        {
+          "id": "A",
+          "text": "sessenta e cinco anos para homem e sessenta e dois para mulher."
+        },
+        {
+          "id": "B",
+          "text": "sessenta para ambos."
+        },
+        {
+          "id": "C",
+          "text": "sessenta e cinco para ambos."
+        },
+        {
+          "id": "D",
+          "text": "sessenta e dois para homem e sessenta para mulher."
+        },
+        {
+          "id": "E",
+          "text": "setenta para homem e sessenta e cinco para mulher."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 201, § 7º, I, prevê 65 anos para homem e 62 para mulher, além dos demais requisitos legais."
+    },
+    {
+      "id": "u122-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O regime de previdência privada previsto no art. 202 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "obrigatório e integrado ao regime geral."
+        },
+        {
+          "id": "B",
+          "text": "facultativo, complementar e organizado autonomamente em relação ao regime geral."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente estatal."
+        },
+        {
+          "id": "D",
+          "text": "desvinculado de reservas."
+        },
+        {
+          "id": "E",
+          "text": "aplicável apenas a servidores públicos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 202 qualifica o regime privado como complementar, facultativo e autônomo em relação ao regime geral."
+    },
+    {
+      "id": "u122-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A assistência social será prestada",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a contribuintes da previdência."
+        },
+        {
+          "id": "B",
+          "text": "a quem dela necessitar, independentemente de contribuição à seguridade social."
+        },
+        {
+          "id": "C",
+          "text": "apenas a maiores de sessenta e cinco anos."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente a trabalhadores formais."
+        },
+        {
+          "id": "E",
+          "text": "mediante contribuição mínima de cinco anos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a regra de acesso do caput do art. 203."
+    },
+    {
+      "id": "u122-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Constituição garante um salário mínimo de benefício mensal, nas condições da lei,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a qualquer pessoa desempregada."
+        },
+        {
+          "id": "B",
+          "text": "à pessoa com deficiência e ao idoso que comprovem não possuir meios de prover a própria manutenção nem de tê-la provida pela família."
+        },
+        {
+          "id": "C",
+          "text": "a todo aposentado, sem requisito."
+        },
+        {
+          "id": "D",
+          "text": "a qualquer estudante de baixa renda."
+        },
+        {
+          "id": "E",
+          "text": "somente a contribuintes do regime geral."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 203, V, estabelece essa garantia assistencial, independentemente de contribuição."
+    },
+    {
+      "id": "u122-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O direito ao meio ambiente ecologicamente equilibrado pertence",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente ao Poder Público."
+        },
+        {
+          "id": "B",
+          "text": "a todos, cabendo ao Poder Público e à coletividade defendê-lo e preservá-lo."
+        },
+        {
+          "id": "C",
+          "text": "apenas às futuras gerações."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente aos proprietários de imóveis."
+        },
+        {
+          "id": "E",
+          "text": "somente aos brasileiros natos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O caput do art. 225 combina direito de todos com dever do Poder Público e da coletividade."
+    },
+    {
+      "id": "u122-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A alteração ou supressão de espaços territoriais especialmente protegidos",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode ocorrer por ato administrativo simples."
+        },
+        {
+          "id": "B",
+          "text": "somente pode ocorrer através de lei, segundo o art. 225, § 1º, III."
+        },
+        {
+          "id": "C",
+          "text": "depende apenas de licença ambiental."
+        },
+        {
+          "id": "D",
+          "text": "é sempre absolutamente proibida."
+        },
+        {
+          "id": "E",
+          "text": "pode ocorrer por resolução privada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Constituição reserva a alteração e supressão desses espaços à lei e veda uso que comprometa seus atributos protegidos."
+    },
+    {
+      "id": "u122-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para obra ou atividade potencialmente causadora de significativa degradação ambiental, a Constituição exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "estudo prévio de impacto ambiental, ao qual se dará publicidade."
+        },
+        {
+          "id": "B",
+          "text": "estudo posterior sigiloso."
+        },
+        {
+          "id": "C",
+          "text": "apenas autorização municipal."
+        },
+        {
+          "id": "D",
+          "text": "aprovação do Senado."
+        },
+        {
+          "id": "E",
+          "text": "licença dispensada por interesse econômico."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 225, § 1º, IV, exige estudo prévio e publicidade."
+    },
+    {
+      "id": "u122-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As condutas e atividades lesivas ao meio ambiente",
+      "options": [
+        {
+          "id": "A",
+          "text": "sujeitam apenas pessoas físicas a sanções."
+        },
+        {
+          "id": "B",
+          "text": "podem gerar sanções penais e administrativas, independentemente da obrigação de reparar os danos."
+        },
+        {
+          "id": "C",
+          "text": "geram somente responsabilidade civil."
+        },
+        {
+          "id": "D",
+          "text": "não alcançam pessoas jurídicas."
+        },
+        {
+          "id": "E",
+          "text": "impedem qualquer cumulação de consequências."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 225, § 3º, prevê sanções penais e administrativas para pessoas físicas ou jurídicas sem excluir a reparação."
+    },
+    {
+      "id": "u122-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O planejamento familiar, conforme o art. 226,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é decisão exclusiva do Estado."
+        },
+        {
+          "id": "B",
+          "text": "é livre decisão do casal, vedada forma coercitiva por instituições oficiais ou privadas."
+        },
+        {
+          "id": "C",
+          "text": "depende de autorização judicial prévia."
+        },
+        {
+          "id": "D",
+          "text": "pode ser imposto por instituição privada."
+        },
+        {
+          "id": "E",
+          "text": "é matéria sem proteção constitucional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 226, § 7º, funda o planejamento familiar na dignidade e paternidade responsável e proíbe coerção."
+    },
+    {
+      "id": "u122-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os direitos de criança, adolescente e jovem devem ser assegurados, com absoluta prioridade,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente pelo Estado."
+        },
+        {
+          "id": "B",
+          "text": "pela família, pela sociedade e pelo Estado."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente pelos pais."
+        },
+        {
+          "id": "D",
+          "text": "somente pelo Poder Judiciário."
+        },
+        {
+          "id": "E",
+          "text": "apenas pelas escolas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O caput do art. 227 atribui o dever à família, sociedade e Estado."
+    },
+    {
+      "id": "u122-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o art. 228, são penalmente inimputáveis",
+      "options": [
+        {
+          "id": "A",
+          "text": "os menores de dezesseis anos."
+        },
+        {
+          "id": "B",
+          "text": "os menores de dezoito anos, sujeitos às normas da legislação especial."
+        },
+        {
+          "id": "C",
+          "text": "os menores de vinte e um anos."
+        },
+        {
+          "id": "D",
+          "text": "somente crianças até doze anos."
+        },
+        {
+          "id": "E",
+          "text": "todos os estudantes menores de vinte e cinco anos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 228 fixa a inimputabilidade penal dos menores de dezoito anos."
+    },
+    {
+      "id": "u122-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Constituição garante gratuidade dos transportes coletivos urbanos",
+      "options": [
+        {
+          "id": "A",
+          "text": "a todas as pessoas com sessenta anos."
+        },
+        {
+          "id": "B",
+          "text": "aos maiores de sessenta e cinco anos."
+        },
+        {
+          "id": "C",
+          "text": "somente aos aposentados."
+        },
+        {
+          "id": "D",
+          "text": "aos maiores de setenta anos."
+        },
+        {
+          "id": "E",
+          "text": "apenas aos beneficiários da previdência."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 230, § 2º, assegura gratuidade aos maiores de 65 anos."
+    },
+    {
+      "id": "u122-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O art. 231 reconhece aos povos indígenas",
+      "options": [
+        {
+          "id": "A",
+          "text": "direitos territoriais apenas depois da demarcação."
+        },
+        {
+          "id": "B",
+          "text": "direitos originários sobre as terras que tradicionalmente ocupam."
+        },
+        {
+          "id": "C",
+          "text": "somente direitos culturais, sem proteção territorial."
+        },
+        {
+          "id": "D",
+          "text": "propriedade privada comum das terras."
+        },
+        {
+          "id": "E",
+          "text": "direitos condicionados a concessão municipal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O caput do art. 231 reconhece direitos originários e atribui à União demarcar, proteger e fazer respeitar os bens."
+    },
+    {
+      "id": "u122-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "São características constitucionais das terras tradicionalmente ocupadas pelos povos indígenas",
+      "options": [
+        {
+          "id": "A",
+          "text": "alienabilidade e prescritibilidade."
+        },
+        {
+          "id": "B",
+          "text": "inalienabilidade e indisponibilidade, sendo imprescritíveis os direitos sobre elas."
+        },
+        {
+          "id": "C",
+          "text": "livre usucapião por particulares."
+        },
+        {
+          "id": "D",
+          "text": "disponibilidade por decreto."
+        },
+        {
+          "id": "E",
+          "text": "livre exploração mineral."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 231, § 4º, prevê inalienabilidade e indisponibilidade das terras e imprescritibilidade dos direitos."
+    },
+    {
+      "id": "u122-a27",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O aproveitamento de recursos hídricos e a pesquisa e lavra de riquezas minerais em terras indígenas exigem",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente autorização do governador."
+        },
+        {
+          "id": "B",
+          "text": "autorização do Congresso Nacional, oitiva das comunidades afetadas e participação nos resultados da lavra, na forma da lei."
+        },
+        {
+          "id": "C",
+          "text": "apenas consulta municipal."
+        },
+        {
+          "id": "D",
+          "text": "somente licença ambiental."
+        },
+        {
+          "id": "E",
+          "text": "autorização exclusiva da comunidade, sem Congresso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 231, § 3º, reúne esses requisitos."
+    },
+    {
+      "id": "u122-a28",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o art. 232, podem ingressar em juízo em defesa de direitos e interesses indígenas",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a União."
+        },
+        {
+          "id": "B",
+          "text": "os povos indígenas, suas comunidades e organizações, com intervenção do Ministério Público em todos os atos do processo."
+        },
+        {
+          "id": "C",
+          "text": "somente o Ministério Público."
+        },
+        {
+          "id": "D",
+          "text": "apenas Municípios interessados."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente a Defensoria Pública."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 232 reconhece legitimidade aos povos indígenas, comunidades e organizações e exige intervenção do Ministério Público."
+    }
+  ]
+}
